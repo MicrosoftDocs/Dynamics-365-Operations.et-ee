@@ -1,13 +1,13 @@
 ---
-title: "Algandmete lähtestamine uutes Retaili keskkondades"
-description: "See artikkel kirjeldab andmeid, mis luuakse Microsoft Dynamics 365 for Retaili jaemüügimooduli lähtestamisprotsessi käigus."
+title: Algandmete lähtestamine uutes Retaili keskkondades
+description: See artikkel kirjeldab andmeid, mis luuakse Microsoft Dynamics 365 for Retaili jaemüügimooduli lähtestamisprotsessi käigus.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,28 +19,27 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327891"
 ---
-
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Algandmete lähtestamine uutes Retaili keskkondades
 
 [!include [banner](includes/banner.md)]
 
 See artikkel kirjeldab andmeid, mis luuakse Microsoft Dynamics 365 for Retaili jaemüügimooduli lähtestamisprotsessi käigus.
 
-Pärast Microsoft Dynamicsi teenuse Lifecycle Services (LCS) kaudu lahenduse Jaemüük juurutamist peate lähtestama jaemüügi konfiguratsiooni, et luua põhilised konfigureerimise andmed.
+Pärast teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu lahenduse Jaemüük juurutamist peate lähtestama jaemüügi konfiguratsiooni, et luua põhilised konfigureerimise andmed.
 
 > [!IMPORTANT]
 > Enne jaemüügi konfiguratsiooni lähtestamist veenduge, et olete määranud keele ja postiaadressi igale juriidilisele isikule, kus te jaemüügikaupluse seadistate. See etapp tuleb läbida iga juriidilise isiku puhul, mida jaemüügiks kasutate.
 
 Jaemüügikonfiguratsiooni lähtestamiseks toimige järgmiselt.
 
-1. Käivitage Dynamics 365 for Retaili klient.
+1. Käivitage rakenduse Dynamics 365 for Retail klient.
 2. Klõpsake valikuid **Jaemüük** &gt; **Peakontori seadistamine** &gt; **Parameetrid** &gt; **Jaemüügi parameetrid**.
 3. Klõpsake suvandit **Lähtesta**.
 
@@ -56,9 +55,9 @@ Lähtestamine loob järgmised konfiguratsiooni vaikeandmed.
 - Kanali aruanded
 - Atribuudi metaandmed
 - Üksuse kinnitamise mallid
-- Pakett-töö rakenduse Commerce Data Exchange seansi ajaloo kustutamiseks
+- Pakett-töö rakenduse Commerce Data Exchange seansiajaloo kustutamiseks
 
-Lisaks lubatakse Dynamics 365 for Retaili andmebaasi jaoks logimine, mis on seotud maksekaardi tööstusharuga (PCI).
+Peale selle lubatakse Dynamics 365 for Retaili andmebaasi jaoks logimine, mis on seotud maksekaardi tööstusharuga (PCI).
 
 > [!NOTE]
 > On võimalus suvandi Kaupluse andmeedastaja eraldi konfigureerimiseks. See võimalus võimaldab teil suvandi Kaupluse andmeedastaja konfiguratsiooni vaikesätetele lähtestada.
@@ -70,4 +69,3 @@ Pärast lähtestamise lõpule viimist peate konfigureerima täiendavad jaemüüg
 - Jaemüügikanalid
 - Registrid ja seadmed
 - Sortimendid
-

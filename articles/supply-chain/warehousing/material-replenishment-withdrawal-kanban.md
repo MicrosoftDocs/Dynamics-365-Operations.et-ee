@@ -1,32 +1,31 @@
 ---
-title: "Täiendamine tagastamiskanbanitega"
-description: "Selles teemas kirjeldatakse, kuidas väljavõtmise kanbani kasutatakse tootmistegevuste puhul materjali täiendamiseks."
+title: Täiendamine tagastamiskanbanitega
+description: Selles teemas kirjeldatakse, kuidas väljavõtmise kanbani kasutatakse tootmistegevuste puhul materjali täiendamiseks.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7fe3ebe3c27c380d95cbc12b864264e9538d433f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 011da8cd894cc044b6af8b740e49ed8d7c3c0c67
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320922"
 ---
-
 # <a name="replenishment-with-withdrawal-kanbans"></a>Täiendamine tagastamiskanbanitega
 
 [!include [banner](../includes/banner.md)]
@@ -87,5 +86,4 @@ Järgmises stsenaariumis on väljavõtmise kanbani ülekandmistegevus konfiguree
 6.  Tootmisprotsess
 
 Kui kanban on toodangu sisestuskohas tarbitud, registreeritakse kanban tühjaks ja voole lisatakse uus kanban. Kanbani loomisel lisatakse kanban-voole voorida. Kui kanban-voog on töödeldud, luuakse laotöö kanbani komplekteerimiseks. Laotöötaja töötleb kanbani komplekteerimise tööd ja töö suunab teda laoasukohta kanbani materjali komplekteerima. Kui see laotöötaja komplekteerimise kinnitab, viiakse kanban automaatselt lõpule ja laotöötaja suunatakse asetama materjali toodangu sisestuskohta.
-
 

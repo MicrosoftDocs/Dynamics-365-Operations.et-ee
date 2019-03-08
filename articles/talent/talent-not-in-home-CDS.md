@@ -1,37 +1,36 @@
 ---
-title: Rakendust Talent ei kuvata Microsoft Dynamics 365 rakenduste hulgas (CDS1.0)
-description: "Selles teemas selgitatakse, mida teha, kui klient ei näe Microsoft Dynamics 365 rakenduste hulgas valikut Microsoft Dynamics 365 for Talent."
+title: Talentit ei kuvata Microsoft Dynamics 365 rakenduste hulgas (CDS1.0)
+description: Selles teemas selgitatakse, mida teha, kui klient ei näe Microsoft Microsoft Dynamics 365 rakenduste hulgas valikut Microsoft Dynamics 365 for Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 32ae0ab807e953bd811a557e6878b9bee79d293c
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304085"
 ---
-
-# <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-cds10"></a>Rakendust Talent ei kuvata Microsoft Dynamics 365 rakenduste hulgas (CDS1.0)
+# <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-cds10"></a>Talentit ei kuvata Microsoft Dynamics 365 rakenduste hulgas (CDS1.0)
 
 [!include [banner](includes/banner.md)]
 
-**Probleem**
+**Väljastamine**
 
-Klient ei näe Microsoft Dynamics 365 rakenduste hulgas valikut Microsoft Dynamics 365 for Talent.
+Klient ei näe Microsoft Dynamics365 rakenduste hulgas valikut Microsoft Dynamics 365 for Talent.
 
 **Eraldusvõime**
 
@@ -47,11 +46,10 @@ Kasutajale peab Microsoft PowerAppsis olema keskkonna jaoks lisatud roll Keskkon
 
     ![Vahekaart Kasutajad](media/environment-maker.png)
 
-5. Valige **Salvesta**.
+5. Valige käsk **Salvesta**.
 6. Kasutaja peab kohe sisse logima lehele [Microsoft Dynamics 365](https://home.dynamics.com/).
 7. Valige kasutajarakenduste uuendamiseks **Sünkrooni**.
 
     ![Nupp Sünkrooni](media/get-more.png)
 
     Pärast sünkroonimise lõpuleviimist ilmub rakendus Talent avalehel.
-

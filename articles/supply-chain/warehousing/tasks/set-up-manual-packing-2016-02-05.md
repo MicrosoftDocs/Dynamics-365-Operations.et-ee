@@ -1,13 +1,13 @@
---- 
-title: "Käsitsi pakkimise seadistamine (veebruar 2016 ja mai 2016)"
-description: "Pakkimisprotsess võimaldab toodete kinnitamist ja pakendamist konteineritesse."
+---
+title: Käsitsi pakkimise seadistamine (veebruar 2016 ja mai 2016)
+description: Pakkimisprotsess võimaldab toodete kinnitamist ja pakendamist konteineritesse.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347717"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Käsitsi pakkimise seadistamine (veebruar 2016 ja mai 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Pakkimisprotsess võimaldab toodete kinnitamist ja pakendamist konteineritesse. Selle protsessi käigus valivad laotöötajad tooteid ladustamiskohtadest ja teisaldavad need pakendamisjaama, kus kontrollitakse kauba kogust ja tüüpe ning määratakse neile sobivad konteinerid. Kui konteiner on täis, saab selle sulgeda ja teisaldada see lähetusalale ning tooted on saatmiseks valmis. See protsess kasutab demoettevõtte USMF-i andmeid. See protseduur on mõeldud ainult rakenduse Dynamics 365 for Operations 2016. aasta veebruari ja mai versioonidele.
+Pakkimisprotsess võimaldab toodete kinnitamist ja pakendamist konteineritesse. Selle protsessi käigus valivad laotöötajad tooteid ladustamiskohtadest ja teisaldavad need pakendamisjaama, kus kontrollitakse kauba kogust ja tüüpe ning määratakse neile sobivad konteinerid. Kui konteiner on täis, saab selle sulgeda ja teisaldada see lähetusalale ning tooted on saatmiseks valmis. See protsess kasutab demoettevõtte USMF-i andmeid. See protseduur on mõeldud ainult rakenduse Dynamics 365 for Operations 2016. aasta veebruari ja 2016. aasta mai versioonidele.
 
 
 ## <a name="set-up-location-profiles"></a>Asukohaprofiilide häälestamine
@@ -94,5 +94,4 @@ Pakkimisprotsess võimaldab toodete kinnitamist ja pakendamist konteineritesse. 
     * See on asukoht, kuhu tooted pärast konteinerite sulgemist teisaldatakse. Sellel asukohal peab olema määratud lao parameetrites asukoha profiil.  
 8. Sisestage või valige väärtus väljal Kaaluühik.
 9. Klõpsake nuppu Salvesta.
-
 

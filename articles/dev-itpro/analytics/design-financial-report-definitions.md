@@ -1,13 +1,13 @@
 ---
 title: Aruande definitsioonid finantsaruande koosturis
-description: "See artikkel käsitleb aruande definitsioone. Aruande definitsioon on aruande komponent (koosteüksus), mis kasutab aruande loomiseks readefinitsiooni, veeru definitsiooni ja valikulist aruandluspuu definitsiooni. Aruande definitsioon annab valikud ja sätted ka aruande kohandamiseks."
+description: See artikkel käsitleb aruande definitsioone. Aruande definitsioon on aruande komponent (koosteüksus), mis kasutab aruande loomiseks readefinitsiooni, veeru definitsiooni ja valikulist aruandluspuu definitsiooni. Aruande definitsioon annab valikud ja sätted ka aruande kohandamiseks.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 322f1cca32053224e1cd6dbaf29c098b983b5e1f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327339"
 ---
-
 # <a name="report-definitions-in-financial-report-designer"></a>Aruande definitsioonid finantsaruande koosturis
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,7 @@ Aruande definitsioon on aruande komponent (koosteüksus), mis kasutab aruande lo
 - Rahaline ja Konto
 - Rahaline, Konto ja Kanne
 
-Olenevalt sellest, kuidas andmed on Microsoft Dynamics ERP süsteemi salvestatud, ei pruugi kande üksikasjad aruannetes saadaval olla.
+Samas ei pruugi kande üksikasjad olenevalt andmete Microsoft Dynamics ERP süsteemis talletamise viisist aruannetes kättesaadavad olla.
 
 ## <a name="create-a-report-definition"></a>Aruande määratluse loomine
 1. Klõpsake aruande kujundaja menüüs **Fail** nuppu **Uus** ja seejärel valige **Aruande definitsioon**.
@@ -86,4 +85,3 @@ Järgmises tabelis kirjeldatakse aruande definitsiooni vahekaarte ja seda, kuida
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Kõnekeskuse kanalite seadistamine"
-description: "See teema annab teavet, kuidas töödelda kõnekeskuste tellimusi, kasutades rakendust Microsoft Dynamics 365 for Retail."
+title: Kõnekeskuse kanalite seadistamine
+description: Selles teemas antakse teavet tellimuste töötlemiste kohta kõnekeskuste puhul, kasutades rakendust Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334837"
 ---
-
 # <a name="set-up-call-center-channels"></a>Kõnekeskuse kanalite seadistamine
 
 [!include [banner](includes/banner.md)]
 
-Ettevõte saab rakenduses Microsoft Dynamics 365 for Retail määratleda mitu kõnekeskuse kanalit. Kõnekeskuse kanaleid konfigureeritakse valikus **Jaemüük** \> **Kanalid** \> **Kõnekeskused** \> **Kõik kõnekeskused** ja need on omased kindlale juriidilisele isikule.
+Ettevõte saab määratleda Microsoft Dynamics 365 for Retailis mitu kõnekeskuse kanalit. Kõnekeskuse kanaleid konfigureeritakse valikus **Jaemüük** \> **Kanalid** \> **Kõnekeskused** \> **Kõik kõnekeskused** ja need on omased kindlale juriidilisele isikule.
 
 Uue kõnekeskuse kanali loomisel määratakse sellele süstemaatiliselt tootmisüksuse number. Kuna kõnekeskused luuakse tootmisüksustena, saavad kasutajad linkida kõnekeskuse kanali erinevate Retaili funktsioonidega, nagu sortimentid, kataloogid ja kindlad tarneviisid.
 
@@ -80,4 +79,3 @@ Vaikimisi on lipp **Jaemüük** müügitellimuse päises kõigi kõnekeskuse kas
 Kasutajad, kes ei ole kõnekeskuse kanaliga lingitud, kasutavad rakenduse Microsoft Dynamics 365 for Finance and Operations standardseid tellimuse sisestamise funktsioone. Tellimusi, mille need kasutajad sisestavad müügitellimuse sisestamise vormi kaudu, ei tuvastata süsteemaatiliselt Retaili tellimustena. Lisaks ei kehti sellistele nende kasutajate loodud tellimustele tellimuse lõpetamise töötlemisreeglid, jaemüügi hinnakujunduse loogika või muud kinnitused, mille saab määratleda kõnekeskuse kanali konfiguratsioonis või kõnekeskuse süsteemiparameetrites.
 
 Kui olete lõpetanud kõnekeskuse kanali konfigureerimise ja kanali kasutajate määratlemise, veenduge soovitud süsteemikäitumise tagamiseks, et kõik vajalikud kõnekeskuse parameetrid oleksid valikus **Jaemüük** \> **Kanali seadistus** \> **Kõnekeskuse seadistamine** \> **Kõnekeskuse parameetrid** määratletud. Veenduge, et ka seotud numbriseeriad oleksid määratletud.
-

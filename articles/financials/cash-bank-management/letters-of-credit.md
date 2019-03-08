@@ -1,13 +1,13 @@
 ---
 title: Akreditiivid
-description: "Akreditiivid on pangadokumendid, mida kasutatakse tavaliselt kaupade ostmiseks ja müügiks välisriikides."
+description: Akreditiivid on pangadokumendid, mida kasutatakse tavaliselt kaupade ostmiseks ja müügiks välisriikides.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28c8056557a8680c60cd843634f5c4f3625a8859
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9644d07cc70d127880d5db3713f51c06d3b557bc
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317380"
 ---
-
 # <a name="letters-of-credit"></a>Akreditiivid
 
 [!include [banner](../includes/banner.md)]
@@ -52,6 +51,5 @@ Lisateavet vt järgmistest teemadest:
 [Akreditiivi eksportimine](tasks/export-letter-credit.md)
 
 [Akreditiivi jaoks panga süsteemiteenuse lepingu loomine](tasks/create-bank-facility-agreement-letter-credit.md)
-
 
 

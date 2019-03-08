@@ -1,13 +1,13 @@
 ---
-title: "Väljavõtte sisestamise funktsiooni täiustused"
-description: "Selles teemas kirjeldatakse väljavõtte sisestamise täiustusi."
+title: Väljavõtte sisestamise funktsiooni täiustused
+description: Selles teemas kirjeldatakse väljavõtte sisestamise täiustusi.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -16,19 +16,18 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321428"
 ---
-
 # <a name="improvements-to-statement-posting-functionality"></a>Väljavõtte sisestamise funktsiooni täiustused
 
 [!include[banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse väljavõtte sisestamise esimest täiustuste kogumit. Need täiustused on saadaval rakenduses Microsoft Dynamics 365 for Finance and Operations 7.3.2.
+Selles teemas kirjeldatakse väljavõtte sisestamise esimest täiustuste kogumit. Need täiustused on saadaval rakenduses Microsoft Dynamics 365 for Finance and Operations7.3.2.
 
 ## <a name="activation"></a>Aktiveerimine
 
@@ -171,4 +170,3 @@ Väljavõtte sisestamise funktsioonis on tehtud muid põhitäiustusi, mida kasut
 
     - Valige **Jaemüük** \> **Peakontori seadistamine** \> **Parameetrid** \> **Jaemüügi parameetrid**. Seejärel valige vahekaardi **Sisestamine** kiirkaardi **Laovaru uuendamine** väljast **Üksikasjatase** suvand **Kokkuvõte**.
     - Valige **Jaemüük** \> **Peakontori seadistamine** \> **Parameetrid** \> **Jaemüügi parameetrid**. Seejärel määrake vahekaardi **Sisestamine** kiirkaardil **Kogum** suvandi **Pearaamatu kanded** väärtuseks **Jah**.
-

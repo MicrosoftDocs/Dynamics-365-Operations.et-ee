@@ -1,13 +1,13 @@
 ---
-title: "Ettevõttekohaste inimressursside (HR) parameetrite seadistamine"
-description: "Mõne inimressursside (HR) parameetri sätteid jagatakse ettevõtete vahel, samas kui teiste parameetrite sätted on täiesti ettevõttepõhised. See artikkel selgitab, ettevõttepõhiste inimressursside parameetrite seadistamist."
+title: Ettevõttekohaste inimressursside (HR) parameetrite seadistamine
+description: Mõne inimressursside (HR) parameetri sätteid jagatakse ettevõtete vahel, samas kui teiste parameetrite sätted on täiesti ettevõttepõhised. See artikkel selgitab, ettevõttepõhiste inimressursside parameetrite seadistamist.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304116"
 ---
-
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Ettevõttekohaste inimressursside (HR) parameetrite seadistamine
 
 [!include [banner](includes/banner.md)]
@@ -35,8 +34,8 @@ Mõne inimressursside (HR) parameetri sätteid jagatakse ettevõtete vahel, sama
 Inimressursside (HR) parameetrite määramiseks kasutatakse kahte lehte. Ettevõtetes ühiskasutatavate parameetrite puhul kasutate lehte **Inimressursside ühiskasutusega parameetrid**. Ettevõttekohaste parameetrite (teisisõnu sätted, mis rakenduvad ühele ettevõttele) puhul kasutate lehte **Inimressursside parameetrid**. Lehel **Inimressursside parameetrid** jaotatakse sätted kuue vahekaardi vahel.
 
 -   Üldine
--   Värbamine – see ei sisaldu Dynamics 365 for Talentis
--   Hüvitus
+-   Värbamine – see ei sisaldu rakenduses Dynamics 365 for Talent
+-   Kompensatsioon
 -   Numbriseeriad
 -   Perekondlikel ja meditsiinilistel põhjustel puudumine (FMLA)
 -   Töötaja iseteenindus
@@ -50,7 +49,7 @@ Vahekaardil **Hüvitus** olevad sätted määratlevad, kas kasutajad peavad kinn
 ### <a name="previously-released-functionality"></a>Varem välja antud funktsioonid
 Vahekaardi **Numbriseeria** sätted määravad järjestuse, mida kasutatakse jaotises Inimressursid automaatselt ID-de määramiseks kaupadele, nagu rakendused, puudumise registreerimine, hüvitusprotsessi tulemused, juhtumite numbrid, kursused ja kursuste päevakorrad. Numbriseeria viidete ja koodide säilitamiseks kasutage loendi lehte **Numbriseeriad** (klõpsake valikuid **Organisatsiooni haldus** &gt; **Numbriseeriad** &gt; **Numbriseeriad**).
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Kui kasutate Dynamics 365 for Talentit
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Rakenduse Dynamics 365 for Talent kasutamisel
 Vahekaardi **Numbriseeria** sätted määravad järjestuse, mida kasutatakse jaotises Inimressursid automaatselt ID-de määramiseks kaupadele, nagu rakendused, puudumise registreerimine, hüvitusprotsessi tulemused, juhtumite numbrid, kursused ja kursuste päevakorrad. Numbriseeria viidete ja koodide säilitamiseks kasutage loendilehte **Numbriseeriad** (klõpsake valikuid **Süsteemihaldus** &gt; **Linkide vahekaart** &gt; **Numbriseeriad** &gt; **Numbriseeriad**). 
 
 Vahekaardi **FMLA** sätted määratlevad, mitu tundi peab töötaja töötama, et saada FMLA eeliseid, sobivuseks nõutava tööaja pikkuse ja töösuhte alguskuupäeva, mida kasutatakse tööaja pikkuse määramiseks. Sätted määratlevad ka FMLA tundide arvu, millele töötajatel õigus on, ja FMLA puhkuste kalendri, mida kasutatakse selleks, et arvutada, mitu FMLA tundi töötajad kasutanud on. Vahekaart **FMLA** on saadaval ainult USA ettevõtetele. 
@@ -61,7 +60,6 @@ Vahekaardi **FMLA** sätted määratlevad, mitu tundi peab töötaja töötama, 
 --------
 
 [Juriidilistele isikutele inimressursside parameetrite seadistamine](set-up-hr-parameters-across-legal-entities.md)
-
 
 
 

@@ -1,30 +1,29 @@
 ---
-title: "Pilvepõhiste ja asutusesiseste funktsioonide võrdlus"
-description: "Selles teemas näidatakse, milliseid funktsioone pilves ja asutusesiseses versioonis toetatakse."
+title: Pilvepõhiste ja asutusesiseste funktsioonide võrdlus
+description: Selles teemas näidatakse, milliseid funktsioone pilves ja asutusesiseses versioonis toetatakse.
 author: robinarh
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations
 ms.custom: 89563
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
+ms.openlocfilehash: 2abddec24776dc84860116cc708e4d8e102dc503
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 596cfa056c6f2e64f554b643bb5a61d09c7bf20c
-ms.openlocfilehash: 58bba3dead4d2a8ed3ae424694377e410df16f4c
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313976"
 ---
-
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Pilvepõhiste ja asutusesiseste funktsioonide võrdlus
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 12/04/2018
 Selles teemas näidatakse, kas iga funktsioon on nendes toodetes saadaval:
 
 + Dynamics 365 for Finance and Operations (pilv)
-+ Microsoft Dynamics 365 for Finance and Operations (kohapealne) juurutamine
++ Dynamics 365 for Finance and Operations (asutusesisene)
 
 Järgmistes tabelites on loetletud tootevaldkonnad. Pilvepõhine ja asutusesisene tugi on loetletud funktsiooni tervikfunktsiooni kohta. Kui konkreetsed funktsioonid valdkonna üldistest funktsioonidest erinevad, loetletakse need eraldi real veerus Funktsioon.
 
@@ -62,7 +61,7 @@ Järgmistes tabelites on loetletud tootevaldkonnad. Pilvepõhine ja asutusesisen
 | | PowerBI.com-iga integreerimine | Jah | Ei |
 | | Analüütikatööruumid | Jah | Ei |
 | | Arukas äriprotsess: soovitused | Jah | Ei |
-| | Power BI aruannete loomine OData abil, kasutades Power BI töölauda või Excel PowerQuery tööriistu | Jah | Ei |
+| | Power BI aruannete loomine OData abil, kasutades Power BI Desktopi või Exceli PowerQuery tööriistu | Jah | Ei |
 | | SQL Serveri aruandlusteenused (SSRS) toetavad väljamastaapimist | Jah | Ei |
 | | Telemeetria kantakse üle pilve | Jah | Ei |
 | Varude haldamine | | Jah | Jah |
@@ -78,14 +77,14 @@ Järgmistes tabelites on loetletud tootevaldkonnad. Pilvepõhine ja asutusesisen
 | | Otsedeposiit | Jah | Ei |
 | Hanked | | Jah | Jah |
 | | Väljaregistreerimine ostutaotlusest väliskataloogi | Jah | Ei |
-| | Ostukulutuste analüüsi Power BI aruanded | Jah | Ei |
+| | Ostu- ja kulutusanalüüsi Power BI aruanded | Jah | Ei |
 | Tooteteabe haldus | | Jah | Jah |
 | Toote koondandmed | | Jah | Jah |
 | Tootmine | | Jah | Jah |
-| | Tootmistulemuste Power BI aruanded | Jah | Ei |
+| | Tootmisjõudluse Power BI aruanded | Jah | Ei |
 | Projektihaldus ja -arvestus | | Jah | Jah |
 | Müük | | Jah | Jah |
-| | Müügi ja tulususe tulemuste Power BI aruanded | Jah | Ei |
+| | Müügi ja tulususe jõudluse Power BI aruanded | Jah | Ei |
 | Turve | | Jah | Jah |
 | Teenuste halduse | | Jah | Jah |
 | Tarneahela haldamine | | Jah | Jah |
@@ -113,7 +112,7 @@ Järgmistes tabelites on loetletud tootevaldkonnad. Pilvepõhine ja asutusesisen
 | Täiendamine | | Jah | Jah |
 | | Täiendamine | Jah | Ei |
 | | Eelmiste versioonide täiendamine ja tugi | Jah | Ei |
-| Visual Studio arendamine | | Jah | Jah |
+| Visual Studio arendus | | Jah | Jah |
 
 ### <a name="retail"></a>Retail 
 KKohapeal saadaolevate juurutuste jaemüügi võimaluste loendi nägemiseks vt [Kohapeal saadaolevate juurutuste jaemüügi võimalused](../../retail/retail-onprem.md).
@@ -127,4 +126,3 @@ KKohapeal saadaolevate juurutuste jaemüügi võimaluste loendi nägemiseks vt [
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Funktsioonid, mida pole kohapealsetes keskkondades rakendatud](features-not-implemented-on-prem.md)
-

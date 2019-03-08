@@ -1,13 +1,13 @@
---- 
-title: "Toote/tooteetaloni väljastamine juriidilistele isikutele"
-description: "See protseduur juhendab, toodet või tooteetaloni ühele või mitmele juriidilisele isikule väljastada."
+---
+title: Toote/tooteetaloni väljastamine juriidilistele isikutele
+description: See protseduur juhendab, toodet või tooteetaloni ühele või mitmele juriidilisele isikule väljastada.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductRelease
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 87037254072509afd91a50b66147d7e13e09dd0c
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: b378f65fcb7f557b8689a123577948e2f7c97253
-ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "338080"
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Toote/tooteetaloni väljastamine juriidilistele isikutele
 
@@ -36,5 +36,4 @@ See protseduur juhendab, toodet või tooteetaloni ühele või mitmele juriidilis
 5. Otsige loendist ja valige soovitud kirje.
 6. Klõpsake käsku Edasi.
 7. Klõpsake Lõpeta.
-
 

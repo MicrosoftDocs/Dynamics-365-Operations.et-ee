@@ -1,13 +1,13 @@
 ---
-title: "Pearaamatu töölehe tüübid"
-description: "Selles teemas kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada."
+title: Pearaamatu töölehe tüübid
+description: Selles teemas kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308663"
 ---
-
 # <a name="ledger-journal-types"></a>Pearaamatu töölehe tüübid
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada. Kasutage lehte **Töölehe nimed** rakenduses Microsoft Dynamics 365 for Finance and Operations kasutatavate töölehtede seadistamiseks.
+Selles teemas kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede jaoks seadistada. Kasutage lehte **Töölehenimed** Microsoft Dynamics 365 for Finance and Operationsis kasutatavate töölehtede seadistamiseks.
 
 | Töölehe tüüp                      | Eesmärk                       | Sisestage kanded sellel lehel                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -64,7 +63,6 @@ Selles teemas kirjeldatakse töölehe tüüpe, mille saate finantstöölehtede j
 | Hankijaarvete kirjendamine          | Sisestage hankija arved, mis on töölehel.                                                                                                                                                                                                                                                                                                                 | Arve tööleht                                                |
 | Hankija uuesti koostatud võlatäht     | Koostage uuesti võlatäht, mille teie organisatsiooni pank on eelnevalt tasunud.                                                                                                                                                                                                                                                                      | Koosta võlatähe tööleht uuesti                                 |
 | Hankija tasakaalustatud võlatäht     | Looge hankija tasakaalustatud võlatähe kanded.                                                                                                                                                                                                                                                                                                          | Tasakaalusta võlatähe tööleht                                 |
-
 
 
 

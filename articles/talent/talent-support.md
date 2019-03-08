@@ -1,13 +1,13 @@
 ---
 title: Talenti toe hankimine
-description: Selles teemas kirjeldatakse abi hankimist rakenduse Dynamics 365 for Talent kasutamisel.
+description: Selles teemas selgitatakse, kuidas saada abi rakenduse Dynamics 365 for Talent kasutamisel.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 1bf37d65cd8ce6a98fc2d2fb11ae9587cf6958a3
 ms.openlocfilehash: 9b2d7159b458b6f3b2cbb3271210c10ab486f496
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304127"
 ---
-
 # <a name="get-support-for-talent"></a>Talenti toe hankimine
 
 [!include [banner](includes/banner.md)]
@@ -55,4 +54,3 @@ Attracti ja Onboardi toe hankimiseks kasutage järgmises tabelis olevaid ressurs
 | Teata probleemist                                                        | Valige menüüst ikoon **?** ja valige suvand probleemist teatamiseks. Sisestage kirjelduse väljale probleem ja lisage meiliaadress, kui soovite teatatava probleemi kohta tagasisidet saada.                                                                                           |
 | Abi saamine küsimuste korrral Talenti litsentsimise kohta                         | Võtke ühendust partneri või Microsofti müügiesindajaga.                                                                                                                                                                                                                                        |
 | Attractis ja Onboardis uute funktsioonide ning võimaluste taotlemine | Klõpsake ikooni **?** ja valige suvand **Ideed** või kasutage järgmisi linke ideede vaatamiseks, otsimiseks, hääletamiseks või uute lisamiseks: [Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract) või [Onboard](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard). |
-

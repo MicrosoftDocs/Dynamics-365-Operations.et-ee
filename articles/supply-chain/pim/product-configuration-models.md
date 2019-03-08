@@ -1,13 +1,13 @@
 ---
-title: "Toote konfiguratsioonimudelite ülevaade"
-description: "See artikkel määratleb toote konfiguratsioonimudeleid puudutavad tingimused ja mõisted. Toote konfiguratsioonimudelid võimaldavad luua üldise tootestruktuuri, mida saab kasutada üksiku toote paljude variantide konfigureerimiseks."
+title: Toote konfiguratsioonimudelite ülevaade
+description: See artikkel määratleb toote konfiguratsioonimudeleid puudutavad tingimused ja mõisted. Toote konfiguratsioonimudelid võimaldavad luua üldise tootestruktuuri, mida saab kasutada üksiku toote paljude variantide konfigureerimiseks.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ddc9d43f62df937a6fb18e15c718c37442bb9b4
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313953"
 ---
-
 # <a name="product-configuration-models-overview"></a>Toote konfiguratsioonimudelite ülevaade
 
 [!include [banner](../includes/banner.md)]
@@ -141,7 +140,7 @@ Saate vaadata, kas väljastatud toodet saab kasutada komponendi või alamkompone
 </tr>
 <tr class="even">
 <td>Koosluseread</td>
-<td>Koosluseread tähistavad komponentide üksikuid materjale toote konfiguratsioonimudelis. Lehel <strong>Koosluse rea üksikasjad</strong> on kõik üksused valimiseks valmis. Tingimuse saab lisada kooslusereale nii, et koosluseread, mis on valitud eristatava toote variandi jaoks, võivad varieeruda vastavalt kasutaja tehtud valikule toote konfiguratsioonimudeli seadistamisel. Tingimused on avaldised, mida tuleb täita atribuutidele, koosluseridadele ja protsessitoimingutele, mis kaasatakse toote konfiguratsioonimudelisse. Lehel <strong>Koosluse rea üksikasjad</strong> saate valida eraldi väärtuse. Teise võimalusena saate vastendada atribuudi, millele väärtus on toote konfiguratsioonimudeli seadistamisel valitud.</td>
+<td>Koosluseread tähistavad komponentide üksikuid materjale toote konfiguratsioonimudelis. Lehel <strong>Koosluse rea üksikasjad</strong> on kõik üksused valimiseks valmis. Tingimuse saab lisada kooslusereale nii, et koosluseread, mis on valitud eristatava tootevariandi jaoks, võivad varieeruda vastavalt kasutaja tehtud valikule toote konfiguratsioonimudeli seadistamisel. Tingimused on avaldised, mida tuleb täita atribuutidele, koosluseridadele ja protsessitoimingutele, mis kaasatakse toote konfiguratsioonimudelisse. Lehel <strong>Koosluse rea üksikasjad</strong> saate valida eraldi väärtuse. Teise võimalusena saate vastendada atribuudi, millele väärtus on toote konfiguratsioonimudeli seadistamisel valitud.</td>
 </tr>
 <tr class="odd">
 <td>Protsessitoimingud</td>
@@ -149,7 +148,6 @@ Saate vaadata, kas väljastatud toodet saab kasutada komponendi või alamkompone
 </tr>
 </tbody>
 </table>
-
 
 
 

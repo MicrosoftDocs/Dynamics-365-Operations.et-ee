@@ -1,13 +1,13 @@
 ---
 title: Transpordikoorma osaline saadetis
-description: "Selles teemas selgitatakse, kuidas saate koorma lähetada osaliselt ja koorma võimsuse planeerimise edasi lükata."
+description: Selles teemas selgitatakse, kuidas saate koorma lähetada osaliselt ja koorma võimsuse planeerimise edasi lükata.
 author: Mirzaab
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSTransportLoad
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 8c172f1b66e56f60e89f56ea98910f8d0e4f3e36
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2a1fb66ddb956b9e248ebc6ca6cf71d7b32b4705
-ms.openlocfilehash: 77b713e7d55e06c89dd175dfea7e7ade9734b656
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/09/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318415"
 ---
-
 # <a name="partial-shipment-of-a-transport-load"></a>Transpordikoorma osaline saadetis
 
 [!include[banner](../includes/banner.md)]
@@ -67,4 +66,3 @@ Selle seadistuse abil saate kinnitada transpordikoorma, mis sisaldab saadetavat 
 
 1. Valige **Laohaldus** \> **Koormad** \> **Transpordikoormad**.
 2. Paani Tegumiriba vahekaardil **Läheta ja võta vastu** grupis **Kinnita** valige suvand **Transport**.
-

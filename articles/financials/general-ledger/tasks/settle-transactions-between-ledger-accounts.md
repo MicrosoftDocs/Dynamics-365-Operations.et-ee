@@ -1,13 +1,13 @@
---- 
+---
 title: Pearaamatukontode kannete tasakaalustamine
-description: "See protseduur selgitab, kuidas tasakaalustada kandeid pearaamatu kontode vahel ja tühistada pearaamatu tasakaalustust."
+description: See protseduur selgitab, kuidas tasakaalustada kandeid pearaamatu kontode vahel ja tühistada pearaamatu tasakaalustust.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTransSettlement, LedgerTrialBalanceListPage, LedgerTrialBalanceListPageBalanceParms, LedgerTransAccount, LedgerTransSettled
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 4c200c07ad576073ab5410b52ec237d31b2415d2
 ms.openlocfilehash: 4aff64fa1c017f295752e913de7fb320f0662ef8
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/03/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325821"
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Pearaamatukontode kannete tasakaalustamine
 
@@ -48,5 +48,4 @@ See protseduur selgitab, kuidas tasakaalustada kandeid pearaamatu kontode vahel 
 6. Loendist hõlpsasti kande leidmiseks kasutage filtrit.
 7. Klõpsake suvandit Pearaamatu tasakaalustused.
 8. Märkige loendis valitud rida.
-
 

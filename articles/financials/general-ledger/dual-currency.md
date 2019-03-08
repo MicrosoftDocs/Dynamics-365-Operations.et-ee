@@ -1,29 +1,28 @@
 ---
 title: Topeltvaluuta
-description: Selles teemas kirjeldatakse topeltvaluutat, kui aruandlusvaluutat kasutatakse rakenduse Microsoft Dynamics 365 for Finance and Operations teise arvestusvaluutana.
+description: Selles teemas antakse teavet topeltvaluuta kohta, kui kasutatakse rakenduses Microsoft Dynamics 365 for Finance and Operations kasutatakse teise arvestusvaluutana aruandlusvaluutat.
 author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330306"
 ---
-
 # <a name="dual-currency"></a>Topeltvaluuta
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ Lisaks tehti olulisi muudatusi kulumiarvestuse protsessis. Need muudatused nõua
     - Kui kulumi kande tüüp on põhivara töölehele sisestatud, kuvatakse uutes veergudes aruandlusvaluuta summasid. Neid summasid saab muuta.
     - Kui arvestusvaluuta ja pearaamatu aruandlusvaluuta on sama, hoitakse summasid sünkroonituna. Kui muudate **Kreediti** summa **Kreedit aruandlusvaluutas** all, muudetakse summa automaatselt sellele vastavaks.
     - Kui põhivara töölehele sisestatakse mistahes muu kandetüüp, ei näidata kunagi summasid **Deebet aruandlusvaluutas** ja **Kreedit aruandlusvaluutas**, ei enne ega pärast sisestamist. Arvestusvaluuta ja aruandlusvaluuta summad on siiski saadaval kandes, mis sisestatakse pearaamatusse.
-

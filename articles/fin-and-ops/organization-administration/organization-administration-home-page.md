@@ -1,13 +1,13 @@
 ---
-title: "Organisatsioonihalduse kodulehekülg"
-description: Teema viitab ressurssidele, mis aitavad teil Microsoft Dynamics 365 for Finance and Operationsit oma organisatsioonis kasutada.
+title: Organisatsioonihalduse kodulehekülg
+description: Selles teemas on toodud viited ressurssidele, mis aitavad teil Microsoft Dynamics 365 for Finance and Operationsi oma organisatsioonis kasutada.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a693529b55b66eb940f8215a336d5c4ae0acedd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332813"
 ---
-
 # <a name="organization-administration-home-page"></a>Organisatsioonihalduse kodulehekülg
 
 [!include [banner](../includes/banner.md)]
 
-Teema viitab sisule, mis aitavad lauskasutajatel ja administraatoritel konfigureerida rakendust Microsoft Dynamics 365 for Finance and Operations. See sisu aitab neil konfigureerida süsteemi nii, et see töötaks teie organisatsiooni ja äritegevuse puhul sujuvalt ning tulemuslikult.
+Teemas on toodud viited, mis aitavad lauskasutajatel ja administraatoritel konfigureerida rakendust Microsoft Dynamics 365 for Finance and Operations. See sisu aitab neil konfigureerida süsteemi nii, et see töötaks teie organisatsiooni ja äritegevuse puhul sujuvalt ning tulemuslikult.
 
 Suur osa siin nimetatud sisust kohaldub mooduli **Organisatsiooni haldus** funktsioonidele. Kuid on mõned toimingud, nt kirje malli loomine ja kasutamine, mida saab rakendada mis tahes moodulis, et teie organisatsioon tõhusamalt toimiks.
 
@@ -103,4 +102,3 @@ Kirjemallid võivad aidata kiiremini kirjeid luua. Saate luua kirje malli nii, e
 - [Dokumendihalduse konfigureerimine](configure-document-management.md)
 - [Meilisõnumi konfigureerimine ja saatmine](configure-email.md)
 - [Kuupäeva/kellaaja andmed ja ajavööndid](date-time-zones.md)
-

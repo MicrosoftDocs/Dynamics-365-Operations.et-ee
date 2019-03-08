@@ -1,35 +1,34 @@
 ---
-title: "Teksti kärpimise vältimine ametikoha hierarhias ja Visiosse eksportimisel"
-description: "Selles teemas selgitatakse, kuidas lahendada probleemi, mille korral üksikisikute ja ametikohtade nimesid kärbitakse, kui klient vaatab ametikoha hierarhiat rakenduses Microsoft Dynamics 365 for Talent. Teksti kärpimine võib raskendada kuvatõmmise tegemist või hierarhia printimist."
+title: Teksti kärpimise vältimine ametikoha hierarhias ja Visiosse eksportimisel
+description: Selles teemas selgitatakse, kuidas lahendada probleemi, mille korral üksikisikute ja ametikohtade nimesid kärbitakse, kui klient vaatab ametikoha hierarhiat rakenduses Microsoft Dynamics 365 for Talent. Teksti kärpimine võib raskendada kuvatõmmise tegemist või hierarhia printimist.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: b688a396e3b384aedb06c470b1634150ae7aa038
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304020"
 ---
-
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Teksti kärpimise vältimine ametikoha hierarhias ja Visiosse eksportimisel
 
 [!include [banner](includes/banner.md)]
 
-**Probleem**
+**Väljastamine**
 
 Kui klient vaatab ametikoha hierarhiat rakenduses Microsoft Dynamics 365 for Talent, siis üksikisikute ja ametikohtade nimesid kärbitakse. Seetõttu võib kuvatõmmise tegemine või hierarhia printimine ja jaotamine olla keeruline.
 
@@ -41,7 +40,7 @@ Selline käitumine on nii kavandatud.
 
 **Eraldusvõime**
 
-Kahjuks ei saa kasutajad hõlpsalt teksti suurust muuta. Kuid saate ametikoha hierarhia Talentist välja eksportida ja seejärel selle Microsoft Visiosse importida. Kuigi järgmine artikkel kirjutati Microsoft Dynamics AX 2012 jaoks, kehtib see ka Talentile: [Ametikoha hierarhia eksportimine Microsoft Visiosse](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
+Kahjuks ei saa kasutajad hõlpsalt teksti suurust muuta. Kuid saate ametikoha hierarhia Talentist välja eksportida ja seejärel selle Microsoft Visiosse importida. Kuigi järgmine artikkel kirjutati Microsoft Dynamics AX 2012 jaoks, kehtib see ka Talenti puhul: [Ametikoha hierarhia eksportimine Microsoft Visiosse](https://docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
 
 Järgige neid samme, et eksportida Visiosse.
 
@@ -107,4 +106,3 @@ Väljade põhjal, mille valisite, et soovite diagrammi lisada, kuvab iga sõlm V
 **Lisasuvand**
 
 Talentis saate võib-olla kasutada ka tööruumi **Inimesed**, et vaadata hierarhiaga seotud teavet.
-

@@ -1,13 +1,13 @@
 ---
-title: "Kulude halduse mobiilne tööruum"
-description: "See teema annab teavet mobiilse tööruumi Kulude haldamine kohta. See tööruum võimaldab kasutajatel kviitungeid salvestada ja üles laadida, et neid hiljem kuluaruandele lisada. Kasutajad saavad ka kiiresti luua kuluridu, kasutades lisatud kviitungit, ning luua ja hallata oma kuluaruandeid."
+title: Kulude halduse mobiilne tööruum
+description: See teema annab teavet mobiilse tööruumi Kulude haldamine kohta. See tööruum võimaldab kasutajatel kviitungeid salvestada ja üles laadida, et neid hiljem kuluaruandele lisada. Kasutajad saavad ka kiiresti luua kuluridu, kasutades lisatud kviitungit, ning luua ja hallata oma kuluaruandeid.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344336"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>Kuluhalduse mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
@@ -42,11 +41,11 @@ Paljud ettevõtted nõuavad, et reisiga seotud või äriga seotud kuluaruandele,
 
 Täpsemalt võimaldab mobiilne tööruum **Kulude haldamine** teha kasutajatel järgmist.
 
-- Kviitungist foto tegemine ja selle üleslaadimine Microsoft Dynamicsi 365 for Finance and Operationsisse. Seejärel saab lisada selle foto hiljem kuluaruandele.
+- Kviitungist foto tegemine ja Microsoft Dynamics 365 for Finance and Operationsisse üleslaadimine. Seejärel saab lisada selle foto hiljem kuluaruandele.
 - Faili üleslaadimine salvestatud kviitungina. Seejärel saab lisada selle faili hiljem kuluaruandele.
 - Uue kulurea loomine, kasutades lisatud kviitungit. Seejärel saab lisada selle reaüksuse hiljem kuluaruandele ning esitada selle heakskiitmiseks ja korvamiseks.
 
-Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, saate kasutada ka järgmisi funktsioone.
+Kui kasutate Microsoft Dynamics 365 for Finance and Operationsit, saate kasutada ka järgmisi funktsioone.
 
 - Uue kuluaruande loomine.
 - Kuluaruandele krediitkaardikannete ja muude varem loodud kulude lisamine.
@@ -60,10 +59,10 @@ Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, saate 
 ## <a name="prerequisites"></a>Eeltingimused
 Eeltingimused erinevad olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Eeltingimused Microsoft Dynamics 365 for Finance and Operationsi kasutamisel 
-Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, peab süsteemiadministraator avaldama mobiilse tööruumi **Kulude haldamine**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Eeltingimused, kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations 
+Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, peab süsteemiadministraator avaldama mobiilse tööruumi **Kulude haldus**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused Microsoft Dynamics 365 for Operationsi versiooni 1611 platvormivärskendusega 3 või uuema kasutamisel
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused, kui kasutate rakenduse Microsoft Dynamics 365 for Operations versiooni 1611 platvormivärskendusega 3 või uuemat
 Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 
 
 <table>
@@ -94,10 +93,10 @@ Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi v
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operationsi mobiilirakenduse alla laadimine ja installimine
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Mobiilirakenduse Dynamics 365 for Operations allalaadimine ja installimine.
 Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
-- [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 - [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
@@ -243,4 +242,3 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 22. Valige käsk **Esita**.
 23. Soovi korral sisestage kinnitajale kommentaarid.
 24. Valige suvand **Valmis**.
-

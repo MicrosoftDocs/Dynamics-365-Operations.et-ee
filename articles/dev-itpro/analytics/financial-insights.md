@@ -1,13 +1,13 @@
 ---
-title: "Finantsülevaated"
-description: "Finantsülevaated kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks."
+title: Finantsülevaated
+description: Finantsülevaated kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks.
 author: kweekley
 manager: AnnBe
 ms.date: 08/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,20 +16,19 @@ ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308847"
 ---
-
 # <a name="financial-insights"></a>Finantsülevaated
 
 [!include [banner](../includes/banner.md)]
 
-**Finantsülevaated** kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks. Power BI on manustatud rakendusse Microsoft Dynamics 365 for Finance and Operations. **Finantsülevaated** keskenduvad analüütilisele aruandlusele. Organisatsiooni isikud saavad seda vaadata, uurida, mõista ja tegutseda. 
+**Finantsülevaated** kasutavad Microsoft Power BI-d finantsvaldkonna juhtimismõõdikute (KPI-de), diagrammide ja finantsaruannete koondamiseks. Power BI on manustatud rakendusse Microsoft Dynamics 365 Finance and Operations. **Finantsülevaated** keskenduvad analüütilisele aruandlusele. Organisatsiooni isikud saavad seda vaadata, uurida, mõista ja tegutseda. 
 
 **Finantsülevaated** ühendavad pearaamatu ja selle allammoodulid, et anda põhjalikumat ülevaadet organisatsiooni finantsseisu kohta.
 
@@ -87,7 +86,7 @@ Praegu ei saa Power BI aruannete andmeid manustada juriidilistele isikutele, mil
 |-----------------------------------------|-------|------------|
 | CFO ülevaate tööruumi kuvamine             | Finantsdirektor | See kohustus võimaldab juurdepääsu CFO ülevaate tööruumile. Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Sellegipoolest saate lisada kõik juriidilised isikud, sõltumata sellest, kas kasutajal on juurdepääs teistele juriidilistele isikutele. |
 | Praeguse ettevõtte finantsülevaadete vaatamine | <ul><li>Raamatupidaja</li><li>Pearaamatupidaja</li><li>Raamatupidaja</li><li>Audiitor</li><li>Eelarvehaldur</li><li>Tegevjuht</li><li>Finantsdirektor</li><li>Finantskontroller</li></ul> | See kohustus võimaldab juurdepääsu finantsülevaatele. Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Teisi juriidilisi isikuid ei saa lisada. |
-| Ettevõtteüleste finantsülevaadete vaatamine   | Rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 ei ole seda kohustust rollile määratud. Järgmises väljaandes määratakse see kohustus finantsdirektori rollile. | See kohustus võimaldab juurdepääsu CFO ülevaate tööruumi menüükäsule. Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Sellegipoolest saate lisada kõik juriidilised isikud, sõltumata sellest, kas kasutajal on juurdepääs teistele juriidilistele isikutele. |
+| Ettevõtteüleste finantsülevaadete vaatamine   | Rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 pole see kohustus veel rollile määratud. Järgmises väljaandes määratakse see kohustus finantsdirektori rollile. | See kohustus võimaldab juurdepääsu CFO ülevaate tööruumi menüükäsule. Vaikimisi kasutatakse filtrina aktiivset ettevõtet. Sellegipoolest saate lisada kõik juriidilised isikud, sõltumata sellest, kas kasutajal on juurdepääs teistele juriidilistele isikutele. |
 
 
 ## <a name="financial-reporting-vs-finanical-insights"></a>Finantsaruandlus vs finantsülevaated
@@ -123,10 +122,10 @@ Peale algse **CFO ülevaate** tööruumi kasutajaliidese on nüüd saadaval uued
 - Müük kliendi järgi
 
 ## <a name="edit-visuals"></a>Visuaalide redigeerimine
-**Finantsülevaadete** esialgses väljaandes ei saa visuaale redigeerida. Tulevastes väljaannetes saavad sobivate turbeõigustega kasutajad luua uusi visuaale ning olemasolevaid kopeerida ja redigeerida. Kuigi aruandeid sisaldavad PBIX-failid on allikatena kättesaadavad, ei soovita me vaikearuandeid redigeerida. Lisamuudatusi tehakse finantsaruannete loomiseks kasutatavale andmemudelile, vaikearuannetele ja kohandatud finantsaruannete visuaalile. Seetõttu peate järgmise väljaande uute funktsioonide ja muudatuste kasutamiseks Microsoft Power BI töölaua kaudu vaikearuannetele tehtud muudatused uuesti tegema.
+**Finantsülevaadete** esialgses väljaandes ei saa visuaale redigeerida. Tulevastes väljaannetes saavad sobivate turbeõigustega kasutajad luua uusi visuaale ning olemasolevaid kopeerida ja redigeerida. Kuigi aruandeid sisaldavad PBIX-failid on allikatena kättesaadavad, ei soovita me vaikearuandeid redigeerida. Lisamuudatusi tehakse finantsaruannete loomiseks kasutatavale andmemudelile, vaikearuannetele ja kohandatud finantsaruannete visuaalile. Seetõttu peate järgmise väljaande uute funktsioonide ja muudatuste kasutamiseks Microsoft Power BI Desktop töölaua kaudu vaikearuannetele tehtud muudatused uuesti tegema.
 
 ## <a name="filtering"></a>Filtreerimine
-Kasutajad saavad aruannet filtreerida vasakul asuva paani **Filter** abil. See paan on sama, mis Power BI töölaua kaudu saadaval olev paan. Filtreerimisel on eri tasemed, millest mõni ei pruugi olla saadaval olenevalt sellest, milliseid valikuid olete lehel (vahekaardil) teinud või kas kasutate süvitsimineku funktsiooni.
+Kasutajad saavad aruannet filtreerida vasakul asuva paani **Filter** abil. See paan on sama, mis Power BI Desktopi kaudu saadaolev paan. Filtreerimisel on eri tasemed, millest mõni ei pruugi olla saadaval olenevalt sellest, milliseid valikuid olete lehel (vahekaardil) teinud või kas kasutate süvitsimineku funktsiooni.
 
 - **Aruandetaseme filtrid** – neid filtreid rakendatakse kõigi lehtede (vahekaartide) kõigile visuaalidele.
 - **Lehetaseme filtrid** – neid filtreid rakendatakse aktiivse vahekaardi kõigile visuaalidele. Neid filtreid rakendatakse aruandetaseme filtritele lisaks.
@@ -180,7 +179,7 @@ Järgmisel joonisel on aruanne **Proovibilanss** ahendatud reahierarhia kõrgeim
 
 ![Proovibilanss](./media/trial-balance.png)
 
-Hierarhia järgmise taseme (põhikonto kategooriad) vaatamiseks saate välja **Mine süvitsi üksusega** väärtuseks määrata **Read** ja valida seejärel nupp **Laienda** (kolmas nupp väljast Mine süvitsi üksusega). Nüüd näete põhikonto kategooriad laiendatuna. Praegu ei luba Power BI teil laiendada ainult ühte rida või veergu ning samal ajal näha kõiki teisi ridu ja veerge.
+Hierarhia järgmise taseme (põhikonto kategooriad) vaatamiseks saate välja **Mine süvitsi üksusega** väärtuseks määrata **Read** ja valida seejärel nupp **Laienda** (kolmas nupp väljast Mine süvitsi üksusega). Nüüd näete põhikonto kategooriad laiendatuna. Praegu ei luba Power BI teil laiendada ainult üht rida või veergu ning samal ajal näha kõiki teisi ridu ja veerge.
 
 ![Proovibilanss](./media/trial-balance2.png)
 
@@ -245,9 +244,8 @@ Power BI-l ei ole tühjade ridade peitmise või kuvamise valikut. Kui real ei ol
 
 ## <a name="additional-resources-for-power-bi"></a>Power BI lisaressursid
 
-Järgmiste ressursside teave ei ole kohustuslik **CFO ülevaate** või **finantsülevaadete** tööruumi manustatud aruannete lubamiseks tootmiskeskkonnas. Selle asemel on need kasulikud arendusväljade jaoks ja juhul, kui soovite enda Power BI aruandeid rakendusse Finance and Operations manustada.
+Järgmiste ressursside teave ei ole kohustuslik **CFO ülevaate** või **finantsülevaadete** tööruumi manustatud aruannete lubamiseks tootmiskeskkonnas. Selle asemel on need kasulikud arendusväljade jaoks ja juhul, kui soovite oma Power BI aruandeid rakendusse Finance and Operations manustada.
 
 - <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
 - <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
-

@@ -1,13 +1,13 @@
 ---
-title: "Üksik mitme kliendi- või hankijakirjega kanne"
-description: "See teema annab ülevaate sellest, mis juhtub, kui sisestate ühe mitme kliendi või hankija kirjega kande. See funktsioon katkestatakse rakenduse Microsoft Dynamics 365 for Finance and Operations tulevastes versioonides, mille tulemusena me ei soovita me kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile."
+title: Üksik mitme kliendi- või hankijakirjega kanne
+description: See teema annab ülevaate sellest, mis juhtub, kui sisestate ühe mitme kliendi või hankija kirjega kande. See funktsioon katkestatakse rakenduse Microsoft Dynamics 365 for Finance and Operations tulevastes versioonides, seega me ei soovita kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d27c4182703b4421763036b2a338b3598f9e969b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330352"
 ---
-
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Üksik mitme kliendi- või hankijakirjega kanne
 
 [!include [banner](../includes/banner.md)]
 
-See teema annab ülevaate sellest, mis juhtub, kui sisestate ühe mitme kliendi või hankija kirjega kande. See funktsioon katkestatakse rakenduse Microsoft Dynamics 365 for Finance and Operations tulevastes versioonides, mille tulemusena me ei soovita me kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile. 
+See teema annab ülevaate sellest, mis juhtub, kui sisestate ühe mitme kliendi või hankija kirjega kande. See funktsioon katkestatakse rakenduse Microsoft Dynamics 365 for Finance and Operations tulevastes versioonides, seega me ei soovita kasutada seda sisestamise meetodit raamatupidamise mõju tõttu tasakaalustamisprotsessile. 
 
 Mõned levinumad süsteemid, kus üht kannet kasutatakse mitme kliendi või hakija jaoks, hõlmavad saldo ülekandeid klientide vahel ja saldode tasaarveldust klientide ja hankijate vahel samas organisatsioonis. 
 
@@ -249,7 +248,6 @@ Vältimaks soovimatuid probleeme tulevaste tasakaalustamistega selle kande puhul
 | **Kanne** | **Konto tüüp** | **Konto** | **Kirjeldus** | **Debiteeri** | **Krediit** | **Tasakaalustustasu tüüp** | **Vastaskonto** |
 | 001         | Klient         | US-008      |                 |           |  75,00     | Pearaamat          | 999999---          |
 | 002         | Tarnija           | 1001        |                 |  75,00    |            | Pearaamat          | 999999---          |
-
 
 
 

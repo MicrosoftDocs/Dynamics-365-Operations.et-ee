@@ -1,13 +1,13 @@
 ---
 title: Projekti eest arve esitamine
-description: "Selles artiklis antakse ülevaade aja- ja materjalikulu ning fikseeritud hinnaga projektide arveldamise kohta. See sisaldab teavet arvesoovituste (esialgsed arved), arvekontrolli, ettemaksuarvelduse, hankija arvete ja kreeditarvete kohta."
+description: Selles artiklis antakse ülevaade aja- ja materjalikulu ning fikseeritud hinnaga projektide arveldamise kohta. See sisaldab teavet arvesoovituste (esialgsed arved), arvekontrolli, ettemaksuarvelduse, hankija arvete ja kreeditarvete kohta.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5dd51e442479a05ce715fe91ebab0c99df9a8b6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2434e0a97846ce9ca0643327a7a032a9998bde5b
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346314"
 ---
-
 # <a name="project-invoicing"></a>Projekti eest arve esitamine
 
 [!include [banner](../includes/banner.md)]
@@ -121,7 +120,6 @@ Sama dokument võib sisaldada krediteerimiseks, krediitkanneteks valitud kandeid
 Arveldatud summa krediteerimiseks tuleb kõigepealt valida arveldatud summa krediteerimiseks ja koostada siis kreeditarve. Kreeditarve koostatakse sama protseduuri abil, mida kasutate kliendiarve koostamisel. 
 
 Saate koostada negatiivse summaga arve, mis klassifitseeritakse kreeditarveks. Kreeditarve loomiseks ja printimiseks tuleb valida kliendiarvele sisestatud kanded ning seejärel kandeid muuta. Kui juriidilise isiku peamine aadress pole Saksamaal, on arve pealkiri Korrigeeriv arve.
-
 
 
 

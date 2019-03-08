@@ -1,13 +1,13 @@
 ---
-title: "Klienditellimused uudses jaemüügikassas Retail Modern POS (MPOS)"
-description: "See teema annab teavet klienditellimuste kohta uudses jaemüügikassas Retail Modern POS (MPOS). Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta."
+title: Klienditellimused Retail Modern POS-is (MPOS)
+description: Selles teemas kirjeldatakse klienditellimusi Retail Modern POS-is (MPOS). Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: b54f39cc7896871d77f9371e6197bf6dbaac51de
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336608"
 ---
-
-# <a name="customer-orders-in-retail-modern-pos-mpos"></a>Klienditellimused uudses jaemüügikassas Retail Modern POS (MPOS)
+# <a name="customer-orders-in-retail-modern-pos-mpos"></a>Klienditellimused Retail Modern POS-is (MPOS)
 
 [!include [banner](includes/banner.md)]
 
-See teema annab teavet klienditellimuste kohta uudses jaemüügikassas Retail Modern POS (MPOS). Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta.
+Selles teemas kirjeldatakse klienditellimusi Retail Modern POS-is (MPOS). Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta.
 
 Mitmekanalilises jaemüügimaailmas pakuvad paljud jaemüüjad mitmesuguste toote- ja täitmisnõuete täitmiseks klienditellimuste ehk eritellimuste võimalust. Tüüpilised stsenaariumid on näiteks järgmised.
 
@@ -57,7 +56,7 @@ Lehel **Jaemüügi parameetrid** saate määrata muu hulgas järgmisi parameetre
 
 ## <a name="transaction-flow-for-customer-orders"></a>Klienditellimuste kannetevoog
 
-### <a name="create-a-customer-order-in-retail-modern-pos"></a>Klienditellimuse loomine uudses jaemüügikassas
+### <a name="create-a-customer-order-in-retail-modern-pos"></a>Klienditellimuse loomine Retail Modern POS-is
 
 1. Lisage kandesse klient.
 2. Lisage tooted ostukorvi.
@@ -97,9 +96,8 @@ Klienditellimus saab luua kassa klientrakendusest kas sünkroonses režiimis võ
 1. Klõpsake valikuid **Jaemüük** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassaprofiil** &gt; **Funktsiooniprofiilid**.
 2. Määrake kiirkaardil **Üldine** valiku **Klienditellimuse loomine asünkroonses režiimis** sätteks **Jah**.
 
-Kui valiku **Klienditellimuse loomine asünkroonses režiimis** sätteks on valitud **Jah**, luuakse klienditellimused alati asünkroonses režiimis, isegi kui Retail Transaction Service (RTS) on saadaval. Kui määrate valiku sätteks **Ei**, luuakse klienditellimused alati sünkroonses režiimis, kasutades RTS-i. Kui klienditellimused luuakse asünkroonses režiimis, tõmmatakse ja sisestatakse need Retaili tõmbamise (P) töödena. Vastavad müügitellimused luuakse Retailis, kui käsk **Sünkrooni tellimused** käivitatakse käsitsi või pakktöötluse kaudu.
+Kui suvandi **Klienditellimuse loomine asünkroonses režiimis** sätteks on valitud **Jah**, luuakse klienditellimused alati asünkroonses režiimis, isegi kui Retail Transaction Service (RTS) on saadaval. Kui määrate valiku sätteks **Ei**, luuakse klienditellimused alati sünkroonses režiimis, kasutades RTS-i. Kui klienditellimused luuakse asünkroonses režiimis, tõmmatakse ja sisestatakse need Retaili tõmbamise (P) töödena. Vastavad müügitellimused luuakse Retailis, kui käsk **Sünkrooni tellimused** käivitatakse käsitsi või pakktöötluse kaudu.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Hübriidkliendi tellimused](hybrid-customer-orders.md)
-

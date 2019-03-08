@@ -1,13 +1,13 @@
 ---
 title: Hankijakontode seadistamine
-description: "See teema kirjeldab teabetüüpe, mida peate määrama, kui loote uue hankijakonto."
+description: See teema kirjeldab teabetüüpe, mida peate määrama, kui loote uue hankijakonto.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a20fca7420e7bd546e29278b40046d69a81aac6
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329133"
 ---
-
 # <a name="set-up-vendor-accounts"></a>Hankijakontode seadistamine
 
 [!include [banner](../includes/banner.md)]
@@ -61,13 +60,13 @@ Saate talletada hankija kontaktid. Neid kontakte saab seejärel kasutada dokumen
 
 Hankija kontaktide lisamiseks klõpsake lehe **Kõik hankijad** vahekaardi **Grupis** grupis **Seadistus** klõpsake valikuid **Kontaktid** &gt; **Lisa kontaktid**.  
 
-Hankija kontaktid saate luua nullist. Teise võimalusena saate kopeerida üksikasjad ühelt isikult, kes juba on registreeritud Microsoft Dynamics 365 for Finance and Operationsis, ja redigeerida teavet vastavalt nõudmisele.  
+Hankija kontaktid saate luua nullist. Teise võimalusena saate kopeerida üksikasjad teiselt isikult, kes juba on registreeritud Microsoft Dynamics 365 for Finance and Operationsis, ja redigeerida teavet vajadust mööda.  
 
 **Märkus.** Hankija kontakti lisamine pole sama mis sellele hankijale kontaktiteabe lisamine. Kuigi võite lisada hankijale üldise kontaktiteabe, võib teil olla ka mitu teatud inimest, kes on selles ettevõttes kontaktid ja kellel kõigil on oma kontaktiteave.  
 
 Te ei saa kustutada kontaktiisiku kirjet, kui kontaktidel on dokumendis viidatud. Selle asemel saate kontakti inaktiveerida.  
 
-Rakenduses Microsoft Office 365 saate isiklikele kontaktidele hankija kontakte lisada. Peate esmalt Microsoft Exchange Serveri sünkroonimise ja Microsoft Outlooki seadistuse viisardis seadistama sünkroonimise rakenduste Dynamics 365 for Finance and Operations ja Office 365 vahel.
+Rakenduses Microsoft Office 365 saate lisada isiklikele kontaktidele hankija kontakte. Siiski peate esmalt Microsoft Exchange Serveri sünkroonimise ja Microsoft Outlooki seadistusviisardis seadistama sünkroonimise rakenduste Finance and Operations ja Office 365 vahel.
 
 ## <a name="vendors-in-different-legal-entities"></a>Hankijad erinevates juriidilistes isikutes
 Kui hankija on registreeritud teie organisatsioonis ainult ühele juriidilisele isikule ja teised juriidilised isikud peavad registreerima sama hankija, saate kasutada lehte **Lisa hankija teise juriidilisse isikusse**, et konfigureerida hankija tegema äri teise juriidilise isikuga. Peate valima hankija grupi, valuuta ja hoidma hankija olekut valitud juriidilises isikus.  
@@ -116,7 +115,6 @@ Kui peate tegema makseid hankija pangakontole, saate sisestada teabe hankija pan
 Saate määrata vaikekontod, mis ilmuvad automaatselt hankija arve töölehtedel määratud hankija puhul. See funktsioon võib olla kasulik, kui maksate tavaliselt aja jooksul samade hankijate sama tüüpi kaupade või teenuste eest. Kui määrate vaikekonto, saate kiirelt ja tõhusalt arve töölehele töölehe sisestused sisestada. Teie määratud vaikekontosid ei kasutata ostutellimuste ega hankijaarvete puhul, mis on sisestatud lehele **Hankija arve**.  
 
 Valite vaikekontod lehel **Kontode vaikeseadistus**, mille saate avada hankija kirje vahekaardilt **Arve**. Siin valitud kontod ilmuvad hankija konto filtreeritud kontode loendis töölehe kirje sisestamisel. Saate seadistada ühe konto vaikekontona.
-
 
 
 

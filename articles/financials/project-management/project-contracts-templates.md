@@ -1,13 +1,13 @@
 ---
-title: "Projektilepingute ja projektide sünkroonimine otse Project Service Automationist rakendusse Finance and Operations"
-description: "See teema kirjeldab malle ja aluseks olevaid ülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks rakendusest Microsoft Dynamics 365 for Project Service Automation otse rakendusse Microsoft Dynamics 365 for Finance and Operations."
+title: Projektilepingute ja projektide sünkroonimine otse Project Service Automationist rakendusse Finance and Operations
+description: Selles teemas kirjeldatakse malli ja aluseks olevaid ülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks rakendusest Microsoft Dynamics 365 for Project Service Automation otse rakendusse Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,27 +17,26 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312113"
 ---
-
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Projektilepingute ja projektide sünkroonimine otse Project Service Automationist rakendusse Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-See teema kirjeldab malle ja aluseks olevaid ülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks rakendusest Microsoft Dynamics 365 for Project Service Automation otse rakendusse Microsoft Dynamics 365 for Finance and Operations.
+Selles teemas kirjeldatakse malli ja aluseks olevaid ülesandeid, mida kasutatakse projektilepingute ja projektide sünkroonimiseks rakendusest Microsoft Dynamics 365 for Project Service Automation otse rakendusse Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE] 
-> Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0, peate installima KB 4074835.
+> Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations. Enterprise Edition 7.3.0, peate installima KB 4074835.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Andmevoog Project Service Automationist Finance and Operationsisse
 
 > [!NOTE]
-> Enne kui saate kasutada Project Service Automationist Finance and Operationsisse integreerimise lahendust, peate olema tuttav Microsoft Dynamics 365 andmeintegratsiooni funktsiooniga.
+> Enne kui saate kasutada Project Service Automationist Finance and Operationsiga integreerimise lahendust, peate olema tuttav Microsoft Dynamics 365 andmeintegratsiooni funktsiooniga.
 
 Project Service Automationist Finance and Operationsisse integreerimise lahendus kasutab andmete sünkroonimiseks Project Service Automationi ja Finance and Operationsi eksemplaride vahel andmeintegratsiooni funktsiooni. Andmeintegratsiooni funktsiooniga saadaolev integratsioonimall võimaldab andmevoogu projektilepingute, projektide, projektilepingu ridade ja projektilepingu rea vahekokkuvõtete kohta Project Service Automationist Finance and Operationisse.
 
@@ -95,8 +94,8 @@ Kui Project Service Automation Finance and Operationsi integratsiooni lahendus o
 ## <a name="prerequisites-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
 
 - Enne projektilepingute ja projektide sünkroonimist peate sünkroonima kontod.
-- Lisage oma ühendusekogumis atribuudi **msdyn\_organizationalunits** väljale **msdyn\_name \[Nimi\]** integratsioonivõtme väljavastendus. Esmalt peate ühendusekogumile projekti lisama. Lisateabe saamiseks vt [Andmete integreerimine teenusesse Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- Lisage oma ühendusekogumis atribuudi **msdyn\_projects** väljale **msdynce\_projectnumber \[Projekti number\]** integratsioonivõtme väljavastendus. Esmalt peate ühendusekogumile projekti lisama. Lisateabe saamiseks vt [Andmete integreerimine teenusesse Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Lisage oma ühendusekogumis atribuudi **msdyn\_organizationalunits** väljale **msdyn\_name \[Nimi\]** integratsioonivõtme väljavastendus. Esmalt peate ühendusekogumile projekti lisama. Lisateavet vt teemast [Andmete integreerimine teenusesse Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Lisage oma ühendusekogumis atribuudi **msdyn\_projects** väljale **msdynce\_projectnumber \[Projekti number\]** integratsioonivõtme väljavastendus. Esmalt peate ühendusekogumile projekti lisama. Lisateavet vt teemast [Andmete integreerimine teenusesse Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 - Projektilepingute ja projektide atribuudi **SourceDataID** saab värskendada muule väärtusele või vastendusest eemaldada. Malli vaikeväärtus on **Project Service Automation**.
 - Atribuudi **PaymentTerms** vastendust tuleb värskendada, nii et see kajastaks kehtivaid maksetingimusi Finance and Operationsis. Samuti saate vastenduse projektiülesandest eemaldada. Vaikeväärtuste kaardil on demoandmete jaoks vaikeväärtused. Järgmises tabelis on näidatud väärtused Project Service Automationis.
 
@@ -111,7 +110,7 @@ Kui Project Service Automation Finance and Operationsi integratsiooni lahendus o
 
 Peate kasutama andmete filtreerimiseks Microsoft Power Queryt Exceli jaoks, kui täidetud on järgmised tingimused.
 
-- Teil on rakenduses Microsoft Dynamics 365 for Sales müügitellimusi.
+- Teil on Microsoft Dynamics 365 for Sales müügitellimused.
 - Teil on Project Service Automationis mitu organisatsiooniüksust, mis vastendatakse Finance and Operationsis mitme juriidilise isikuga.
 
 Kui peate kasutama Power Queryt, järgige järgmisi juhtnööre.
@@ -135,4 +134,3 @@ Järgmisel joonisel on toodud näited malliülesande vastendustest andmeintegrat
 [![Malli vastendamine](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
 [![Malli vastendamine](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
-

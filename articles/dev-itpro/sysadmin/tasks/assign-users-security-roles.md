@@ -1,13 +1,13 @@
---- 
-title: "Kasutajate määramine turberollidesse"
-description: "Rakendusele Microsoft Dynamics 365 for Finance and Operations, Enterprise edition tuleb määrata kasutajatele turberoll."
+---
+title: Kasutajate määramine turberollidesse
+description: Microsoft Dynamics 365 for Finance and Operations, Enterprise editionile juurdepääsuks peavad kasutajatele olema määratud turberollid.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
 ms.reviewer: margoc
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 55cb085bb5170aa4894a2240a12f6ca451b922fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349948"
 ---
 # <a name="assign-users-to-security-roles"></a>Kasutajate määramine turberollidesse
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Rakendusele Microsoft Dynamics 365 for Finance and Operations, Enterprise edition tuleb määrata kasutajatele turberoll. See protseduur selgitab, kuidas süsteemiadministraatorid saavad määrata kasutajatele automaatselt rolle äriandmete alusel. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+Microsoft Dynamics 365 for Finance and Operations, Enterprise editionile juurdepääsuks peavad kasutajatele olema määratud turberollid. See protseduur selgitab, kuidas süsteemiadministraatorid saavad määrata kasutajatele automaatselt rolle äriandmete alusel. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Kasutajate automaatsel rollidesse määramine
@@ -52,5 +52,4 @@ Rakendusele Microsoft Dynamics 365 for Finance and Operations, Enterprise editio
     * Valige kasutaja.  
 6. Klõpsake suvandit Välista rollist.
     * Klõpsake suvandit Välista rollist valitud kasutajate rollist välistamiseks. Erandite eemaldamiseks valige kasutajad, kelle puhul soovite erandid eemaldada, ja klõpsake seejärel käsku Lähtesta olek. Kui eemaldate välistamise, lähtestades kasutaja olek, määratakse kasutaja roll uuesti automaatselt. Kuid kasutajale ei määrata kohe rolli ega välistate rolli, kui oleku lähtestate. Selle asemel määratakse kasutajale roll või temalt eemaldatakse roll järgmisel korral, kui käitatakse automaatse rollimäärangu reeglit.  
-
 

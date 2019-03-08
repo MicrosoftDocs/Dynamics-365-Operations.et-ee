@@ -1,13 +1,13 @@
---- 
-title: "Elektroonilise aruandluse mudeli vastendamiste määratlemine ja andmeallikate valimine"
-description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab valida andmeallikaid elektroonilise aruandluse andmemudeli jaoks."
+---
+title: Elektroonilise aruandluse mudeli vastendamiste määratlemine ja andmeallikate valimine
+description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab valida andmeallikaid elektroonilise aruandluse andmemudeli jaoks.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348867"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Elektroonilise aruandluse mudeli vastendamiste määratlemine ja andmeallikate valimine
 
@@ -51,7 +51,7 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>Praeguse mudeli vastendamise puhul nõutud andmeallikate määratlemine
 1. Klõpsake valikut Kujundaja.
-2. Valige puul suvand "Dynamics 365 for Operations\tabeli kirjed".
+2. Valige puul väärtus Dynamics 365 for Operations \ Tabeli kirjed.
 3. Klõpsake suvandit Juure lisamine.
     * Sisestage maksekannete juurde pääsemiseks see andmeallikas.  
 4. Sisestage väljale Nimi suvand Kanded.
@@ -110,7 +110,7 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 41. Laiendage puul suvandit Kanded.
 42. Puuvaates laiendage või ahendage suvandit „Kanded\$Summa“.
 43. Puuvaates laiendage või ahendage valikut „Kanded”.
-44. Valige puul suvand "Dynamics 365 for Operations\tabeli kirjed".
+44. Valige puul väärtus Dynamics 365 for Operations \ Tabeli kirjed.
 45. Klõpsake suvandit Juure lisamine.
     * Sisestage see andmeallikas ettevõtte pangakonto üksikasjade juurde pääsemiseks.  
 46. Sisestage väljale Nimi suvand BankAccount.
@@ -157,5 +157,4 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 70. Sulgege leht.
 71. Sulgege leht.
 72. Sulgege leht.
-
 

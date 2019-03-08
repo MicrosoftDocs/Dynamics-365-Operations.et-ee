@@ -1,13 +1,13 @@
 ---
 title: Sortimentide seadistamine
-description: Selles artiklis kirjeldatakse, mis asi on sortiment ja selgitab, kuidas sortimente rakenduses Microsoft Dynamics 365 for Retail seadistada.
+description: Selles artiklis kirjeldatakse, mis asi on sortiment, ja selgitatakse, kuidas sortimente rakenduses Microsoft Dynamics 365 for Retail seadistada.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: a9578a0784d4f4fbfca27ec4093a3f61d1068a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 91713a4492ad82520f7dde611c17a5ea168ed80d
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314965"
 ---
-
 # <a name="set-up-assortments"></a>Sortimentide häälestamine
 
 [!include [banner](includes/banner.md)]
 
-Selles artiklis kirjeldatakse, mis asi on sortiment ja selgitab, kuidas sortimente rakenduses Microsoft Dynamics 365 for Retail seadistada.
+Selles artiklis kirjeldatakse, mis asi on sortiment, ja selgitatakse, kuidas sortimente rakenduses Microsoft Dynamics 365 for Retail seadistada.
 
 Sortiment on kogum seotud tooteid, mille määrate jaemüügikanalile, nagu traditsiooniline kauplus või võrgupood. Sortimentide abil saate tuvastada igas kaupluses saadaolevaid tooteid. Sortiment võib sisaldada tootekategooriaid. Seega sisaldab sortiment kindlale kategooriale määratud tooteid. Sortiment võib sisaldada ka kindlaid tooteid ja tootevariante. Sortimendi seadistamisega saate määrata oma jaemüügikanalitele samal ajal mis tahes kombinatsioonis, mida teie kauplused vajavad, tuhandeid tooteid. Saate seadistada nii palju tootesortimente kui vaja. Iga toote saab lisada ühte või mitmesse sortimenti ja iga sortimendi saab määrata ühele või mitmele jaemüügikanalile. Näiteks määratlete ühe sortimendi, mis sisaldab toodete põhikomplekti. Selle sortimendi saavad kõik kauplused. Seejärel määratlete teise sortimendi, mis sisaldab ainult suuri spordivahendeid. Selle sortimendi saavad ainult teie suuremad kauplused. Järgmisel joonisel on näidatud, kuidas saab tooteid sortimentidele määrata ja kuidas neid sortimente jaemüügikanalitele määrata.
 
@@ -45,7 +44,7 @@ Enne kui saate sortimendi seadistada ja jaemüügikanalile määrata, peate täi
 |-----------------------------------|-------------|
 | Jaemüügikanali seadistamine.          | Jaemüügikanal kujutab endast traditsioonilist kauplust, võrgupoodi või võrguturuplatsi. Peate seadistama vähemalt ühe jaemüügikanali ja konfigureerima kaupluse jaoks suvandid. Sortimendid määratakse kauplustele, et tuvastada tooted, millega kindel kauplus tegeleb. |
 | Organisatsioonihierarhia loomine. | Kui olete oma organisatsiooni jaoks jaemüügikanalid seadistanud, peate konfigureerima jaemüügi organisatsioonihierarhia, mis kujutab teie jaemüügikanalite organisatsioonilist struktuuri. Organisatsioonihierarhiat saab kasutada sortimentide, täiendamise ja aruandluse jaoks. Lisades jaemüügikanalid organisatsioonihierarhiasse, saate määrata sortimendid kaupluste gruppidele. Selle asemel, et määrata igale kauplusele eraldi sortiment, määrate sortimendi kõrgemal tasemel organisatsioonisõlmele. Kui nüüd kõrgemal tasemel organisatsioonisõlmele lisatakse uus jaemüügikanal, pärib see automaatselt kõik sortimendid, mis on kõrgemal tasemel organisatsioonisõlmele määratud. Saate määrata sortimentid ainult jaemüügikanalitele, mis kuuluvad organisatsioonihierarhiasse, millele on määratud otstarve **Jaemüügi sortiment**. |
-| Toodete määratlemine.                  | Enne kui saate tooteid sortimenti lisada, peate need lisama Microsoft Dynamics 365 for Retaili. Saate tooteid lisada käsitsi või importida need hankijalt. Pärast toodete lisamist peate need juriidilisele isikule väljastama. Jaemüügikanalitele saab kättesaadavaks teha ainult juriidilisele isikule väljastatud tooteid. Tooted, mis pole veel juriidilisele isikule väljastatud, saab sortimenti lisada ja sortimendi saab kinnitada. Tooteid ei saa siiski jaemüügikanalitele enne kättesaadavaks teha, kui need on juriidilisele isikule väljastatud. |
+| Toodete määratlemine.                  | Enne kui saate tooteid sortimenti lisada, peate need lisama Microsoft Dynamics 365 for Retailis. Saate tooteid lisada käsitsi või importida need hankijalt. Pärast toodete lisamist peate need juriidilisele isikule väljastama. Jaemüügikanalitele saab kättesaadavaks teha ainult juriidilisele isikule väljastatud tooteid. Tooted, mis pole veel juriidilisele isikule väljastatud, saab sortimenti lisada ja sortimendi saab kinnitada. Tooteid ei saa siiski jaemüügikanalitele enne kättesaadavaks teha, kui need on juriidilisele isikule väljastatud. |
 | Kategooriahierarhia seadistamine.      | Jaemüügitoodete loomisel saate grupeerida ja kategoriseerida need kategooriahierarhia funktsiooni abil. Saate luua ühe tuumhierarhia kõigi toodete grupeerimiseks ja kategoriseerimiseks, mida oma jaemüügikanalite kaudu levitate. Saate luua ka eraldi täiendavaid kategooriahierarhiaid toodete grupeerimiseks või kategoriseerimiseks kindlal otstarbel, näiteks kampaaniate või sortimentide jaoks. Kategooriahierarhiate abil saate määrata sortimendile kõik kindlas kategoorias olevad tooted. Kõik sortimenti kuuluvasse kategooriasse lisatud tooted lisatakse automaatselt sortimenti. Jaemüügisortimendi ajasti järgmisel käivitamisel muutuvad need tooted kättesaadavaks jaemüügikanalitele, millele sortiment on määratud. |
 
 ## <a name="setting-up-an-assortment"></a>Sortimendi seadistamine
@@ -56,4 +55,3 @@ Pärast eeltingimuste täitmist saate luua sortimendi ja määrata selle oma jae
 2. Valige jaemüügikanalid või jaemüügikanalite kõrgema taseme grupid, millele sortiment kohaldub.
 3. Lisage sortimendile tootekategooriad, üksikud tooted või tootevariandid. Saate kaasata kõik kindla kategooria tooted või välistada valitud tooteid sortimenti kaasatud kategooriast.
 4. Avaldage sortiment. Sortimendi avaldamisel käivitatakse jaemüügisortimendi ajasti automaatselt. See protsess loob toodete loendi. Kui see protsess on lõpule viidud, muutuvad tooted kättesaadavaks jaemüügikanalitele, millele on tootesortiment määratud. Avaldatud sortimendi või jaemüügikanalite, millele sortiment on määratud, muutmisel tuleb sortimenti värskendada. Sortimendi värskendamiseks pärast muudatuste tegemist saate käivitada jaemüügisortimendi ajasti pakett-tööna.
-

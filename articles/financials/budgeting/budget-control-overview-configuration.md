@@ -1,13 +1,13 @@
 ---
-title: "Eelarve juhtimise ülevaade"
-description: Selles artiklis tutvustatakse eelarve juhtimist ja antakse teavet rakenduses Microsoft Dynamics 365 for Finance and Operations eelarve juhtimise konfigureerimise kohta, et saaksite hallata rahalisi vahendeid.
+title: Eelarve juhtimise ülevaade
+description: Selles artiklis tutvustatakse eelarve juhtimist ja antakse teavet Microsoft Dynamics 365 for Finance and Operationsis eelarve juhtimise konfigureerimise kohta, et saaksite rahalisi vahendeid hallata.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308525"
 ---
-
-# <a name="budget-control-overview"></a>Eelarve juhtimise ülevaade 
+# <a name="budget-control-overview"></a>Eelarve juhtimise ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis tutvustatakse eelarve juhtimist ja antakse teavet rakenduses Microsoft Dynamics 365 for Finance and Operations eelarve juhtimise konfigureerimise kohta, et saaksite hallata rahalisi vahendeid.
+Selles artiklis tutvustatakse eelarve juhtimist ja antakse teavet Microsoft Dynamics 365 for Finance and Operationsis eelarve juhtimise konfigureerimise kohta, et saaksite rahalisi vahendeid hallata.
 
 <a name="overview"></a>Ülevaade
 --------
@@ -53,7 +52,7 @@ Saate konfigureerida eelarve juhtimist erinevate tegurite alusel.
 -   **Saadaolevate vahendite arvutus** – kas dokumentidega, nagu ostutaotlused (eelpandiõigused) ja ostutellimused (pandiõigused), tuleb saadaolevate vahendite arvutamisel arvestada? Kas mustandi olekus dokumente tuleb arvutamisel arvestada?
 -   **Tühistamise luba** – kellel on õigus saadaolevat eelarvet ületada?
 
-Eelarve juhtimine on Finance and Operationsiga täielikult integreeritud. Seetõttu saate hinnata saadaolevat eelarvet nii plaanitud kui ka tegelike ostude puhul. Saadaval on eelarve päringud ja aruanded. Seega saavad kasutajad eelarvet hinnata ja teha kõiki nõutavaid korrigeerimisi kogu eelarvetsükli jooksul eelarverevisjonide või ülekannete kujul. Eelarve haldur saab eelarve ja tegelikud kulud ka Microsoft Excelisse eksportida, et vajaduse korral paremini analüüsida ja prognoosida.
+Eelarve juhtimine on Finance and Operationsiga täielikult integreeritud. Seetõttu saate hinnata saadaolevat eelarvet nii plaanitud kui ka tegelike ostude puhul. Saadaval on eelarve päringud ja aruanded. Seega saavad kasutajad eelarvet hinnata ja teha kõiki nõutavaid korrigeerimisi kogu eelarvetsükli jooksul eelarverevisjonide või ülekannete kujul. Eelarvehaldur saab eelarve ja tegelikud kulud ka Microsoft Excelisse eksportida, et vajaduse korral paremini analüüsida ning prognoosida.
 
 ## <a name="configuring-budget-control"></a>Eelarve juhtimise konfigureerimine
 ### <a name="budget-cycle-time-span"></a>Eelarvetsükli periood
@@ -128,4 +127,3 @@ Kui eelarve juhtimine on sisse lülitatud, saavad kasutajad eelarve juhtimise os
 Sellelt lehelt saavad kasutajad minna süvitsi lehele **Eelarve juhtimise statistika perioodide kaupa**, et vaadata eelarve saadavaloleku üksikasju ja valitud eelarve juhtimise dimensiooni kombinatsiooni reserveerimisi. Kasutajad saavad süveneda ka lehele **Eelarve juhtimise statistika**, et vaadata kõikide eelarve juhtimisel kasutatavate finantsdimensioonide kombinatsioonide eelarve saadavalolekut. 
 
 Kui eelarve juhtimine on ostutellimuste puhul sisse lülitatud, saab eelarvehaldur kasutada tööruumi **Pearaamatu eelarved ja prognoosid**, et vaadata üle kõikide kinnitamata ostutellimuste järjestus, millel on eelarve kontrollimise hoiatused ja tõrked. Kui eelarve halduril on eelarve ületamise load konfigureeritud, saab ta ostutellimuse kinnitada otse tööruumis.    
-

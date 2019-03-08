@@ -5,30 +5,30 @@ author: sarvanisathish
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 166d419f16866f699b96013222ce8da147a5ec21
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315126"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>SQL Serveri aruandlusteenuste konfigureerimine kohapealseteks juurutamisteks
 
 [!include [banner](../includes/banner.md)]
 
-Kasutage selles teemas toodud etappe SQL Serveri aruandlusteenuste (SSRS) konfigureerimiseks oma rakenduse Microsoft Dynamics 365 for Finance and Operations (kohapealne) juurutuse puhul.
+Kasutage selles teemas toodud juhiseid teenuse SQL Server Reporting Services (SSRS) konfigureerimiseks oma Microsoft Dynamics 365 for Finance and Operationsi (asutusesisese) juurutuse puhul.
 
 1. Avage aruandlusteenuste konfiguratsioonihalduri rakendus.
 2. Jätke alles välja **Serveri nimi**, mis peaks olema praeguse seadme nimi, ning väljade **Report Server Instance**, **MSSQLSERVER** vaikeväärtus.
@@ -87,11 +87,10 @@ Kasutage selles teemas toodud etappe SQL Serveri aruandlusteenuste (SSRS) konfig
 
     [![vahekaart eskaleeritud juurutus](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
 
-    Ärge muutke vahekaardi **Power BI integratsioon** vaikesätteid.
+    Ärge muutke vahekaardi **Power BI integratsioon vaikesätteid**.
 
     [![vahekaart power bi integratsioon](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
 
 13. Klõpsake akna **Aruandlusteenuste konfiguratsioonihaldur** sulgemiseks nuppu **Välju**.
 
     [![aruandlusteenuste konfiguratsioonihalduri sulgemine](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
-

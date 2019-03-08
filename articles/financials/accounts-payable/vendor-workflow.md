@@ -1,13 +1,13 @@
 ---
-title: "Hankija töövoog"
-description: "Muutke hankija teavet ja kasutage töövoogu selle kinnitamiseks."
+title: Hankija töövoog
+description: Muutke hankija teavet ja kasutage töövoogu selle kinnitamiseks.
 author: mikefalkner
 manager: annbe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 950a1852acf9f3e4747ce2d55738c0eb3a646897
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329685"
 ---
-
 # <a name="vendor-workflow"></a>Hankija töövoog
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,7 @@ Enne kui saate töövoo funktsiooni kasutada, peate selle lubama.
 
 ## <a name="change-vendor-information-and-submit-the-changes-to-the-workflow"></a>Hankijateabe muutmine ja muudatuste kinnitamine töövoogu
 
-Kui muudate välja, mis on töövoo jaoks lubatud, ilmub leht **Pakutud muudatused**. Sellel lehel on näha välja algväärtus ja sisestatud uus väärtus. Muudetud väljal taastatakse algne väärtus. Olekuteade teavitab teid, et teie muudatusi ei kinnitatud. 
+Kui muudate välja, mis on töövoo jaoks lubatud, ilmub leht **Pakutud muudatused**. Sellel lehel kuvatakse välja algväärtus ning uus väärtus, mille sisestasite. Muudetud väljal taastatakse algne väärtus. Olekuteade teavitab teid, et teie muudatusi ei kinnitatud. 
 
 Iga kord kui muudate välja, mis on töövoos lubatud, lisatakse see väli loendisse lehel **Pakutud muudatused**. Välja pakutud muudatuse tühistamiseks kasutage nuppu **Hülga** välja kõrval loendis. Kõikide muudatuste hülgamiseks kasutage nuppu **Hülga kõik muudatused** lehe allosas. Lehe sulgemiseks valige **OK**.
 
@@ -59,7 +58,6 @@ Kui teil on vähemalt üks pakutud muudatus, ilmuvad tegumiribale kaks täiendav
 1. Valige vahekaart **Pakutud muudatused**, et avada leht **Pakutud muudatused** ja muudatused üle vaadata.
 2. Valige suvandid **Töövoog \> Edasta, et edastada muudatused töövoogu**.
 
-    Lehe olekuks määratakse **Kinnitamise ootel muudatused**.
+    Lehel on olekuks nüüd **Kinnitamise ootel muudatused**.
 
-Töövoog järgib rakenduses Microsoft Dynamics 365 for Finance and Operations standardset töövooprotsessi. Kinnitaja suunatakse lehele **Hankija**, kus ta saab üle vaadata muudatused lehel **Pakutud muudatused** ja seejärel valida töövoo kinnitamiseks suvandid **Töövoog \> Kinnita**. Kui kõik kinnitamised on tehtud, uuendatakse välju pakutud väärtustega.
-
+Töövoog järgib rakenduses Microsoft Dynamics 365 for Finance and Operations standardset töövooprotsessi. Kinnitaja suunatakse lehele **Hankija**, kus ta saab üle vaadata muudatused lehel **Pakutud muudatused** ja seejärel valida töövoo kinnitamiseks suvandid **Töövoog \> Kinnita**. Kui kõik kinnitamised on lõpule viidud, värskendatakse väljasid teie pakutud muudatustega.

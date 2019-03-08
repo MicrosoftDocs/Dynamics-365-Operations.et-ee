@@ -1,13 +1,13 @@
 ---
-title: "Kõnekeskuse kataloogid"
-description: "Selles teemas kirjeldatakse kõnekeskusepõhiseid funktsioone Microsoft Dynamics 365 for Retaili kataloogidele."
+title: Kõnekeskuse kataloogid
+description: Selles teemas kirjeldatakse kõnekeskusepõhiseid funktsioone rakenduse Microsoft Dynamics 365 for Retail kataloogidele.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,25 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322739"
 ---
-
 # <a name="call-center-catalogs"></a>Kõnekeskuse kataloogid
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse kõnekeskusepõhiseid funktsioone, mis on seotud Microsoft Dynamics 365 for Retaili kataloogide võimalustega.
 
-Dynamics 365 for Retaili kataloogide funktsioone saab kasutada mitmeks eesmärgiks. Kataloogide funktsioonid loodi algselt kolmanda isiku e-kaubanduse integratsioonide toetamiseks. Kataloogide seadistus võimaldas ettevõtetel luua toodete ja atribuutide rühmi, mida on võimalik avaldada väliselt kolmanda isiku e-kaubanduse lahendusele kasutuseks.
+Dynamics 365 for Retaili kataloogide funktsioone saab kasutada mitmel eesmärgil. Kataloogide funktsioonid loodi algselt kolmanda isiku e-kaubanduse integratsioonide toetamiseks. Kataloogide seadistus võimaldas ettevõtetel luua toodete ja atribuutide rühmi, mida on võimalik avaldada väliselt kolmanda isiku e-kaubanduse lahendusele kasutuseks.
 
 Kui Dynamics 365 for Retailile lisati kõnekeskuse kanali tugi, siis laiendati kataloogi mõistet – lisati rohkem võimalusi traditsiooniliste „vahetult tarbijale “ turunduskataloogide funktsioonide toetamiseks ja haldamiseks. „Vahetult tarbijale“ ettevõtted trükivad sageli kataloogid välja ja saadavad need seejärel ühele või mitmele kliendirühmale. Need kataloogid sisaldavad tavaliselt kindlaid kampaaniad või pakkumisi, mille kasutamiseks peab klient esitama tellimuse tegemise ajal kataloogi ID-koodi.
 
-„Vahetult tarbijale“ turundusettevõtted on huvitatud nende kataloogide kasutamise teabest, et tagada, et kataloogide tootmise ja saatmise kulud oleks õigustatud. Kataloogide kasutamise jälgimiseks trükitakse tavaliselt kataloogi tagaküljele kood, mille kataloogi kasutaja peab esitama, kui ta telefoni teel tellimuse esitab (või tänapäeval tavapärasemalt sisestab koodi Interneti kaudu tellides). Kuigi kataloogi jälgimiskoodi jaoks on kasutusel eri termineid (sh võtmekood, kampaaniakood, kataloogikood, lähtekood), viitame sellele Dynamics 365 for Retailis väljendiga **lähtekoodi ID**.
+„Vahetult tarbijale“ turundusettevõtted on huvitatud nende kataloogide kasutamise teabest, et tagada, et kataloogide tootmise ja saatmise kulud oleks õigustatud. Kataloogide kasutamise jälgimiseks trükitakse tavaliselt kataloogi tagaküljele kood, mille kataloogi kasutaja peab esitama, kui ta telefoni teel tellimuse esitab (või tänapäeval tavapärasemalt sisestab koodi Interneti kaudu tellides). Kuigi kataloogi jälgimiskoodi jaoks on kasutusel eri termineid (sh võtmekood, kampaaniakood, kataloogikood, lähtekood), kasutame Dynamics 365 for Retailis selleks mõistet **lähtekoodi ID**.
 
 ## <a name="basic-catalog-setup"></a>Kataloogi põhiseadistus
 
@@ -102,4 +101,3 @@ Vahekaardil **Kataloogid** on olemas ka võimalused suvandite **Maksegraafik** j
 ## <a name="additional-notes"></a>Lisamärkmed
 
 Kui kõnekeskuses kasutatakse müügitellimuse koostamisel lähtekoodi ID-d, siis edastatakse sellega praegu konkreetse kataloogi hindu, kampaaniaid, skripte ja üles-/kaasmüüke. Süsteem ei keela ega takista müügitellimuse kaudu toote tellimist, mis ei ole kataloogis. Kui tellitakse kaup, mida kataloogis pole, siis kasutab süsteem esmalt **hinnagruppi**, mis on määratletud kõnekeskuse kanalis (**Jaemüük** \> **Kanalid** \> **Kõnekeskused** \> **Kõik kõnekeskused**) kauba hinna või kampaaniate jaoks. Kui ei leita konkreetset kanali hinda, siis kasutatakse kauba põhihinda.
-

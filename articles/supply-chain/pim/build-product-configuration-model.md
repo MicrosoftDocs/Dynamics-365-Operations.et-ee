@@ -1,13 +1,13 @@
 ---
 title: Toote konfiguratsioonimudeli koostamine
-description: "Erinõuetele vastamiseks toodete konfigureerimise vajadus on saamas erandist reegliks nii ettevõtetevahelistes kui ka ettevõtte ja tarbija vahelistes suhetes."
+description: Erinõuetele vastamiseks toodete konfigureerimise vajadus on saamas erandist reegliks nii ettevõtetevahelistes kui ka ettevõtte ja tarbija vahelistes suhetes.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfaf16cde329909c167d1ad402e08619bdcd5a2
-ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327454"
 ---
-
 # <a name="build-a-product-configuration-model"></a>Toote konfiguratsioonimudeli koostamine
 
 [!include [banner](../includes/banner.md)]
@@ -158,7 +157,6 @@ Konfiguratsiooni eesmärk on luua kliendi nõuetele vastav toote eristav variant
 ### <a name="multiple-sites-and-intercompany"></a>Mitu laoala ja kontsernisisesus
 
 Kui konfiguratsioon tehakse laoalal või ettevõttes, mis ei ole laoala või ettevõte, kus toimub tootmine, luuakse kooslus ja protsess tarneettevõtte tarnija laoalale. Tootevariant antakse välja kõikides ettevõtetes, mis osalevad tarneahelas.
-
 
 
 

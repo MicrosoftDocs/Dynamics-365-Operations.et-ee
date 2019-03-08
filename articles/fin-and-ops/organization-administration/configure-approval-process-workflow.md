@@ -1,13 +1,13 @@
 ---
-title: "Töövoo kinnitusprotsesside konfigureerimine"
-description: "Kinnitusprotsessi atribuutide konfigureerimiseks tehke järgmist."
+title: Töövoo kinnitusprotsesside konfigureerimine
+description: Kinnitusprotsessi atribuutide konfigureerimiseks tehke järgmist.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 08641eaac31813a8bee3231118f8e2bf802ea3e1
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325637"
 ---
-
 # <a name="configure-approval-processes-in-a-workflow"></a>Töövoo kinnitusprotsesside konfigureerimine
 
 [!include [banner](../includes/banner.md)]
@@ -128,7 +127,7 @@ Saate saata inimestele teatisi dokumendi kinnitamisel, tagasilükkamisel, delege
     <td>
     <ol>
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
-    <li>Loend <strong>Saadaolevad kasutajad:</strong> hõlmab kõiki Microsoft Dynamics 365 for Finance and Operationsi kasutajaid. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Microsoft Dynamics 365 for Finance and Operationsi kasutajaid. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol>
     </td>
     </tr>
@@ -184,4 +183,3 @@ Kinnitusprotsess koosneb kinnitusetappidest. Kinnitusprotsessi etappide lisamise
 1. Topeltklõpsake töövooredaktoris kinnitusprotsessi. Töövooredaktoris kuvatakse kinnitusprotsessi etapid.
 2. Kinnitusetapi lisamiseks lohistage etapp alalt **Töövoo elemendid** lõuendile.
 3. Kinnitusetapi konfigureerimiseks vt teemat [Kinnitusetapi konfigureerimine](configure-approval-step-workflow.md).
-

@@ -1,13 +1,13 @@
 ---
 title: Elektroonilise aruandluse (ER) sihtkohad
-description: "Saate konfigureerida sihtkoha igale elektroonilise aruandluse (ER) vormingu konfiguratsioonile ja selle väljundi komponendile (kaust või fail). Kasutajad, kellele on antud sobilikud juurdepääsuõigused, võivad sihtkoha sätteid ka käitusajal muuta. Selles artiklis selgitatakse ER-i sihtkoha haldust, toetatud sihtkohtade tüüpe ja turbekaalutlusi."
+description: Saate konfigureerida sihtkoha igale elektroonilise aruandluse (ER) vormingu konfiguratsioonile ja selle väljundi komponendile (kaust või fail). Kasutajad, kellele on antud sobilikud juurdepääsuõigused, võivad sihtkoha sätteid ka käitusajal muuta. Selles artiklis selgitatakse ER-i sihtkoha haldust, toetatud sihtkohtade tüüpe ja turbekaalutlusi.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314919"
 ---
-
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
 [!include [banner](../includes/banner.md)]
@@ -35,9 +34,9 @@ Saate konfigureerida sihtkoha igale elektroonilise aruandluse (ER) vormingu konf
 Elektroonilise aruandluse (ER) vormingu konfiguratsioonid sisaldavad tavaliselt vähemalt ühte väljundkomponenti: faili. Tavaliselt sisaldavad konfiguratsioonid mitut erinevat tüüpi faili väljundkomponenti (nt XML, TXT või XLSX), mis on rühmitatud ühte või mitmesse kausta. ER-i sihtkoha haldus võimaldab eelkonfigureerida, mis iga komponendi käitamisel toimub. Vaikimisi kuvatakse konfiguratsiooni käivitamisel dialoogiboks, mis võimaldab kasutajal faili salvestada või avada. Sama toimub ka siis, kui importida ER-i konfiguratsioon ja mitte konfigureerida sellele ühtegi konkreetset sihtkohta. Pärast peamisele väljundkomponendile sihtkoha loomist alistab see sihtkoht vaikekäitumise ja kaust või fail saadetakse sihtkoha sätete kohaselt.
 
 ## <a name="availability-and-general-prerequisites"></a>Kättesaadavus ja üldised eeltingimused
-ER-i sihtkohtade funktsioon ei ole saadaval Microsoft Dynamics AX-i versioonis 7.0 (veebruar 2016). Seetõttu peate kõigi selles teemas kirjeldatud funktsioonide kasutamiseks installima Microsoft Dynamics 365 for Operationsi versiooni 1611 (2016. aasta novembrist). Teine võimalus on installida üks järgmistest eeltingimustest. Võtke siiski arvesse, et sellisel juhul on elektroonilise aruandluse sihtkohtade funktsionaalsus piiratud.
+ER-i sihtkohtade funktsioon ei ole saadaval Microsoft Dynamics AX-i versioonis 7.0 (veebruar 2016). Seetõttu peate kõigi selles teemas kirjeldatud funktsioonide kasutamiseks installima rakenduse Microsoft Dynamics 365 for Operations versiooni 1611 (november 2016). Teine võimalus on installida üks järgmistest eeltingimustest. Võtke siiski arvesse, et sellisel juhul on elektroonilise aruandluse sihtkohtade funktsionaalsus piiratud.
 
-- Microsoft Dynamics AX-i versioon 7.0.1 (mai 2016)
+- Rakenduse Microsoft Dynamics AX versioon 7.0.1 (mai 2016)
 - ER-i sihtkoha halduse [rakenduse kiirparandus](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Võite seadistada sihtkohad ainult imporditud ER-i konfiguratsioonidele ja vormingutele, mis on saadaval lehel **Elektroonilise aruandluse konfiguratsioonid**.
@@ -121,9 +120,9 @@ Kui määrate valiku **Lubatud** väärtuseks **Jah**, kuvatakse konfigureerimis
 
 Kui määrate valiku **Lubatud** väärtuseks **Jah**, luuakse väljundi eelvaade. Saate mõnd failitüüpi, nagu XML, TXT või PDF, vaadata otse brauseriaknas. Muude failitüüpide, näiteks Microsoft Excel või Word, puhul kasutatakse Microsoft Office Online’i teenust.
 
-### <a name="power-bi-destination"></a>Sihtkoht Power BI
+### <a name="power-bi-destination"></a>Power BI sihtkoht
 
-Kui määrate valiku **Lubatud** väärtuseks **Jah**, saate oma elektroonilise aruandluse konfiguratsiooni abil korraldada andmete üleviimine teie Finance and Operationsi eksemplarist Microsoft Power BI teenustesse. Edastatud failid talletatakse Microsoft SharePoint Serveri eksemplari, mis on selleks otstarbeks konfigureeritud. Lisateavet vt teemast [Elektroonilise aruandluse konfiguratsiooni kasutamine Power BI-le andmete esitamiseks rakendusest Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Kui valite suvandi **Lubatud** sätteks **Jah**, saate oma elektroonilise aruandluse konfiguratsiooni abil korraldada andmete üleviimise teie Finance and Operationsi eksemplarist Microsoft Power BI teenustesse. Edastatud failid talletatakse Microsoft SharePoint Serveri eksemplari, mis on selleks otstarbeks konfigureeritud. Lisateavet vt teemast [Elektroonilise aruandluse konfiguratsiooni kasutamine Power BI-le andmete esitamiseks rakendusest Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Vaikekäitumise (st konfigureerimise dialoogiboksi) alistamiseks võite luua peamisele väljundkomponendile sihtkoha viite ja faili sihtkoha ning keelata siis kõik sihtkohad.
@@ -158,11 +157,10 @@ Sihtkohta **Fail** kasutatakse dialoogiboksi juhtimiseks. Kui lubate selle sihtk
 
 Valem on ER-i konfiguratsiooni põhine. Näiteks kui kasutate ISO 20022 kreeditülekande konfiguratsiooni, võite kasutada valemit **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID** või **model.Payments.Creditor.Identification.SourceID** seotud hankija konto toomiseks.
 
-### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Ühes minu vormingukonfiguratsioonidest on mitu faili, mis on rühmitatud ühte kausta (nt kaustas nimega Folder1 on failid File1, File2 ja File3). Kuidas saan seadistada sihtkohad nii, et faili Folder1.zip ei loodaks üldse, File1 saadetaks meiliga, File2 saadetaks SharePointi ja et saaksin faili File3 avada kohe pärast konfigureerimist?
+### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Ühes minu vormingukonfiguratsioonidest on mitu faili, mis on rühmitatud ühte kausta (nt kaustas nimega Folder1 on failid File1, File2 ja File3). Kuidas saan seadistada sihtkohad nii, et faili Folder1.zip ei loodaks üldse, File1 saadetaks meiliga, File2 saadetaks SharePointi ja saaksin faili File3 avada kohe pärast konfigureerimist?
 
 Eeltingimus on, et teie vorming peab olema elektroonilise aruandluse konfiguratsioonides kättesaadav. Kui teil on oma vorming, avage leht **Elektroonilise aruandluse sihtkoht** ja looge sellele konfiguratsioonile uus viide. Seejärel peab teil olema neli faili sihtkohta, üks iga väljundkomponendi jaoks. Looge esimene faili sihtkoht, andke sellele nimi (nt **Kaust**) ja valige failinimi, mis tähistab teie konfiguratsioonis olevat kausta. Siis klõpsake valikut **Sätted** ja veenduge, et kõik sihtkohad oleksid keelatud. Selle faili sihtkoha jaoks ei looda kausta. Vaikimisi (hierarhiliste sõltuvuste tõttu failide ja põhikaustade vahel) käituvad failid samamoodi. Teisisõnu ei saadeta neid kuhugi. Selle vaikekäitumise alistamiseks tuleb luua veel kolm faili sihtkohta, üks iga faili jaoks. Igaühe sihtkoha sätetes tuleb lubada sihtkoht, kuhu fail tuleks saata.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
-

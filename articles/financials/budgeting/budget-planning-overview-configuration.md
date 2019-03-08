@@ -1,13 +1,13 @@
 ---
-title: "Eelarve plaanimise ülevaade"
+title: Eelarve plaanimise ülevaade
 description: Selles artiklis tutvustatakse eelarve plaanimist ja see sisaldab teavet, mis aitab teil eelarve plaanimise konfigureerida ning selle protsesse seadistada.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329915"
 ---
-
 # <a name="budget-planning-overview"></a>Eelarve plaanimise ülevaade
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,7 @@ Eelarve plaanimise abil saate täita järgmisi ülesandeid.
 -   Eelarveplaanide automaatne saatmine koos töölehtede, põhjendusdokumentide ja muude manustega ülevaatamiseks ja kinnitamiseks.
 -   Mitme eelarveplaani konsolideerimine organisatsiooni madalamalt tasemelt ühte pea-eelarveplaani organisatsiooni kõrgemal tasemel. Saate ka välja arendada üksiku eelarveplaani organisatsiooni kõrgemal tasemel eraldada eelarve organisatsiooni madalamatele tasemetele.
 
-Eelarve plaanimine on integreeritud teiste Microsoft Dynamics 365 for Finance and Operationsi moodulitega. Seetõttu saab teavet tuua eelmistest eelarvetest, tegelikest kuludest, põhivaradest ja inimressurssidest. Kuna eelarve plaanimine on integreeritud ka Microsoft Excelisse ja Microsoft Wordi, saate neid programme kasutada eelarve plaanimise andmetega töötamiseks. Näiteks saab eelarvehaldur eksportida mõne osakonna eelarvetaotluse eelarveplaani stsenaariumist Exceli töölehele. Andmeid saab analüüsida, värskendada ja kanda diagrammina töölehele ning seejärel avaldada tagasi eelarveplaani ridadele.
+Eelarve plaanimine on integreeritud teiste Microsoft Dynamics 365 for Finance and Operationsi moodulitega. Seetõttu saab teavet tuua eelmistest eelarvetest, tegelikest kuludest, põhivaradest ja inimressurssidest. Kuna eelarve plaanimine on integreeritud ka rakendustega Microsoft Excel ja Microsoft Word, saate nende programmide abil töötada eelarve plaanimise andmetega. Näiteks saab eelarvehaldur eksportida mõne osakonna eelarvetaotluse eelarveplaani stsenaariumist Exceli töölehele. Andmeid saab analüüsida, värskendada ja kanda diagrammina töölehele ning seejärel avaldada tagasi eelarveplaani ridadele.
 
 ## <a name="configuring-budget-planning"></a>Eelarve planeerimise konfigureerimine
 Leht **Eelarve plaanimise konfiguratsioon** sisaldab enamikku sätteid, mida vajate eelarve plaanimise seadistamiseks. Järgmistes jaotistes kirjeldatakse mõnd põhitegurit, millega peaksite eelarve plaanimise konfigureerimisel arvestama. Pärast konfiguratsiooni lõpetamist saate eelarve plaanimise protsessid seadistada.
@@ -188,7 +187,6 @@ Menüüs **Tegevused** saate luua ka uue protsessi, kopeerides olemasoleva prots
 Teine kasulik käsk menüüs **Tegevused** on **Kuva eelarve protsessi olekut**. See käsk kuvab graafiliselt protsessi eelarveplaanid koos asjakohaste andmetega, nagu plaani töövoo olek, kokkuvõtted summa ja ühiku järgi ja ühe klõpsuga navigeerimine eelarveplaanidele.
 
 [![Eelarve plaanimise protsessi olek](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
 
 
 

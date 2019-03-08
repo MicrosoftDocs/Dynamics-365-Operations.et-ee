@@ -1,13 +1,13 @@
 ---
 title: Kulumiarvestus kordaja alusel
-description: "Selles artiklis antakse ülevaade teguripõhisest kulumiarvestusmeetodist."
+description: Selles artiklis antakse ülevaade teguripõhisest kulumiarvestusmeetodist.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa8bc4566def9dd770a97facb459e6b977bfaffb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 44fa540c31e5302ccf0a65b44b3c45a4c1e1fd1f
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338793"
 ---
-
 # <a name="factor-depreciation"></a>Kulumiarvestus kordaja alusel
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,6 @@ Soetusmaksumus on 100 000, tegur on 20, tööiga on 10 aastat ning kulumiarvestu
 
 ## <a name="straight-line-depreciation"></a>Lineaarne kulum
 Välja **Tegur** väärtus võrdub **50**. Sellisel juhul on kulum igal perioodil sama ja teil tuleks kaaluda oma teistel väljadel määratud väärtuste mõju. Lugege selle kohta teemat [Lineaarne tööea kulumiarvestus](straight-line-service-life-depreciation.md).
-
 
 
 

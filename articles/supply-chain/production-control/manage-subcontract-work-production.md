@@ -1,13 +1,13 @@
 ---
-title: "Allhanketöö haldamine tootmises"
-description: "Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Finance and Operationsis allhanketööd hallatakse. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone."
+title: Allhanketöö haldamine tootmises
+description: Selles teemas selgitatakse, kuidas hallatakse Microsoft Dynamics 365 for Finance and Operationsis allhanketööd. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326580"
 ---
-
 # <a name="manage-subcontracting-work-in-production"></a>Allhanketöö haldamine tootmises
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Finance and Operationsis allhanketööd hallatakse. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
+Selles teemas selgitatakse, kuidas hallatakse Microsoft Dynamics 365 for Finance and Operationsis allhanketööd. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
 
 [Tootmisprotsessides](production-process-overview.md) võivad tööd teha ressursid, mille omanikud on või mida haldavad hankijad. Tavaliselt kasutatakse hankija ressursse perioodilise liigse nõudluse tasakaalustamiseks, kui see ületab ettevõtte oma ressursside mahtu. Võib-olla saab hankija pakkuda ka konkreetseid [ressursivõimalusi](resource-capabilities.md)või ressursse madalama hinnaga.  
 
@@ -101,7 +100,6 @@ Pooltoote on selle reegli erand. Pooltoodete üleviimiseks on ainult järgmised 
 **Märkus.** Ühe tootmistellimuse tootmisprotsess ei või hõlmata mitut laoala. See reegel kehtib ka allhanketöö puhul. Seetõttu tuleb hankija hallatava materjali asukohti kajastavad laod määratleda samal laoalal, kus asuvad selles protsessis kasutatavad sisemised ressursid. Kuigi tootmisvood võivad hõlmata mitut laoala, ei saa need pooltooteid ühelt laoalalt teisele transportida, kuna see toiming viitab kulukonteksti muutumisele.  
 
 Tavaliselt on väljundladu ja allhanke ressursigrupi asukoht määratud otse protsessi või tootmisvoo operatsiooni järgmisse etappi. Selline seadistus aitab vähendada tööde registreerimist või täiendavate üleviimisoperatsioonide arvu, mida tuleb modelleerida.
-
 
 
 

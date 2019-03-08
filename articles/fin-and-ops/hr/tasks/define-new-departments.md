@@ -1,13 +1,13 @@
---- 
-title: "Uute osakondade määratlemine"
-description: "Osakonnad on tootmisüksused, mis tähistavad ettevõtte funktsionaalvaldkonna, nagu müük või raamatupidamine."
+---
+title: Uute osakondade määratlemine
+description: Osakonnad on tootmisüksused, mis tähistavad ettevõtte funktsionaalvaldkonna, nagu müük või raamatupidamine.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6dedddf305e303de5b284b34420cd0eda5170ed1
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342841"
 ---
 # <a name="define-new-departments"></a>Uute osakondade määratlemine
 
@@ -51,5 +51,4 @@ Osakonnad on tootmisüksused, mis tähistavad ettevõtte funktsionaalvaldkonna, 
     * Osakonna hierarhia avaldamisel saate valida, millal muudatused jõustuvad. Muudatused saab dateerida hilisemale kuupäevale. Näiteks teate võib-olla, et lisate finantsaasta alguses uue osakonna. Saate määrata jõustumiskuupäeva finantsaasta algusse ja hierarhia muudatused jõustuvad sellel kuupäeval.  
 16. Sisestage väärtus väljale Kirjelda muudatusi.
 17. Klõpsake Avalda.
-
 

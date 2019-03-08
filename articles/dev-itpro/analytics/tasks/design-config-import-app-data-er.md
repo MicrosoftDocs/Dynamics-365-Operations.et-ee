@@ -1,13 +1,13 @@
---- 
-title: "Elektroonilise aruandluse konfiguratsioonide kujundamine sissetulevate dokumentide sõelumiseks"
-description: "Protseduur näitab, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone sissetuleva elektroonilise dokumendi sõelumiseks."
+---
+title: Elektroonilise aruandluse konfiguratsioonide kujundamine sissetulevate dokumentide sõelumiseks
+description: Protseduur näitab, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone sissetuleva elektroonilise dokumendi sõelumiseks.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326097"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine sissetulevate dokumentide sõelumiseks
 
@@ -35,7 +35,7 @@ Need etapid saab lõpule viia ükskõik millise andmekomplekti abil. Enne alusta
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
     * Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja tähistatud aktiivsena. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud juhised.  
 2. Klõpsake valikut Aruandluse konfiguratsioonid.
-    * Järgmise stsenaariumiga demonstreeritakse sissetulevate XML-vormingus elektrooniliste dokumentide sõelumisfunktsioone: ERP-rakendus (Dynamics 365 for Finance and Operations) taotleb andmeid veebiteenusest (nt http://efsta.org/ EFSTA finantsteenus) ja sõelub sissetulevad vastused, et värskendada sobival moel avalduse andmeid. Kõige tõhusamaks sõelumiseks kasutatakse üht ER-i vormingut olenemata eeldatavate sissetulevate XML-vormingus dokumentide erinevast struktuurist.   
+    * Järgmise stsenaariumiga demonstreeritakse sissetulevate XML-vormingus elektrooniliste dokumentide sõelumisfunktsioone: ERP rakendus (Dynamics 365 for Finance and Operations) taotleb andmeid veebiteenusest (nt http://efsta.org/ EFSTA finantsteenus) ja sõelub sissetulevad vastused, et värskendada sobival moel avalduse andmeid. Kõige tõhusamaks sõelumiseks kasutatakse üht ER-i vormingut olenemata eeldatavate sissetulevate XML-vormingus dokumentide erinevast struktuurist.   
 
 ## <a name="import-and-review-er-configurations"></a>ER-i konfiguratsioonide importimine ja ülevaatamine
 Importige ER-i mudeli konfiguratsioon, mis sisaldab näidisandmemudelit, mis on mõeldud sissetuleva faili andmete talletamiseks.  
@@ -110,5 +110,4 @@ Käivitate loodud mudeli vastendamise testimise eesmärgil, et vaadata, kuidas k
     * Klõpsake käsku Sirvi ja valige fail Response4.xml.  
 16. Klõpsake nuppu OK.
     * Vaadake loodud väljundit. Pange tähele, et vastusetüüpi on nüüd tuvastatud õigesti failiga Response1.xml võrdsena.  
-
 

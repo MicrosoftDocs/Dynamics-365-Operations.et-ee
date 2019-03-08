@@ -5,9 +5,9 @@ author: hasrivas
 manager: AnnBe
 ms.date: 10/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
 ms.openlocfilehash: 2b9cac68093be65584192757229c20b1a1546342
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "304049"
 ---
-
 # <a name="create-a-process-template-in-attract"></a>Protsessimalli loomine Attractis
 
 [!include [banner](includes/banner.md)]
 
-*Värbamisprotsessi mall* sisaldab kõiki tegevusi, mis peaksid olema tööle värbamise protsessi osad. Selles teemas kirjeldatakse protsessimalli elemente rakenduses Microsoft Dynamics 365 for Talent: Attract. Lisaks selgitatakse, kuidas malli luua.
+*Värbamisprotsessi mall* sisaldab kõiki tegevusi, mis peaksid olema tööle värbamise protsessi osad. Selles teemas kirjeldatakse protsessimalli rakenduses Microsoft Dynamics 365 for Talent: Attract. Lisaks selgitatakse, kuidas malli luua.
 
 > [!NOTE]
 > Malli loomine on osa tervikliku värbamise lisamoodulist rakendusele Attract.
@@ -72,4 +71,3 @@ Värbamisprotsessi malli loomiseks tehke järgmist.
     - Tegevuse eemaldamiseks laiendage seda ja seejärel valige prügikasti nupp tegevuse päises.
 
 8. Valige **Salvesta**.
-

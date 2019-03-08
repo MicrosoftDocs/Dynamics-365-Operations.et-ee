@@ -5,10 +5,10 @@ author: josaw
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,18 +18,17 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304095"
 ---
-
 # <a name="email-templates"></a>E-kirjade mallid
 [!include[banner](../includes/banner.md)]
 
-Meilimallide teeki kasutades saavad administraatorid luua ühtse teema ja kaubamärgi kõigile läbi rakenduse Microsoft Dynamics 365 for Talent: Attract saadetavatele meilidele. Administraatorid saavad ka teiste kasutajate kasutatavat meilisisu mallide kogu kureerida. Värbamistöörühm saab neid malle oma töövoos kasutada meilide tõhusamaks saatmiseks. Mõned meilid on Attractis konfigureeritud automaatseks saatmiseks ja administraator saab kasutada meilimallide teeki nende meilide sisu kohandamiseks.
+Meilimallide teeki kasutades saavad administraatorid luua ühtse teema ja kaubamärgi kõigile rakenduse Microsoft Dynamics 365 for Talent: Attract kaudu saadetavatele meilidele. Administraatorid saavad ka teiste kasutajate kasutatavat meilisisu mallide kogu kureerida. Värbamistöörühm saab neid malle oma töövoos kasutada meilide tõhusamaks saatmiseks. Mõned meilid on Attractis konfigureeritud automaatseks saatmiseks ja administraator saab kasutada meilimallide teeki nende meilide sisu kohandamiseks.
 
 > [!NOTE]
 > E-kirja mallide kasutamiseks peab teie organisatsioonil olema Tervikliku palkamise lisandmooduli.
@@ -81,4 +80,3 @@ Kui värbamistöörühm saadab meili, saab kasutada administraatori loodud malle
 
 > [!NOTE] 
 > Automaatselt saadetavatele meilidele saab luua mitu malli. Siiski, aktiivseks malliks saab määrata ainult ühe malli. Sest seda protsessi käivitavad sündmused, saab ainult administraator määrata, millist malli tuleks kasutada. See põhineb mallide teegi märkide **Vaikimisi** ja **Automaatselt saadetav** märkidest.
-

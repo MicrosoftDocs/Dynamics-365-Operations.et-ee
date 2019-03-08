@@ -1,13 +1,13 @@
---- 
-title: "Andmesisestuse hõlbustamiseks kirje malli loomine"
-description: "See protseduur näitab, kuidas luua kirje malli nii, et sageli kasutatavaid välja väärtuseid ei pea iga uue kirje jaoks selgesõnaliselt sisestama."
+---
+title: Andmesisestuse hõlbustamiseks kirje malli loomine
+description: See protseduur näitab, kuidas luua kirje malli nii, et sageli kasutatavaid välja väärtuseid ei pea iga uue kirje jaoks selgesõnaliselt sisestama.
 author: margoc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, SysRecordInfo, SysRecordTemplatePromptOnCreate
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 36d14c386322adab0cc0ba9b7b47c874aefbe519
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6f8d804133f8e9c6f47420d41df8d9430381e2fe
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315977"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Andmesisestuse hõlbustamiseks kirje malli loomine
 
@@ -49,5 +49,4 @@ See protseduur näitab, kuidas luua kirje malli nii, et sageli kasutatavaid väl
     * Näiteks sisestage „ettevõtte sülearvuti”.  
 15. Klõpsake nuppu OK.
 16. Klõpsake valikut Sule.
-
 

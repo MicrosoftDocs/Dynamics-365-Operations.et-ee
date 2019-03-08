@@ -1,39 +1,38 @@
 ---
 title: Tegevuse juhiste salvestamine LCS-i ja nende taasesitamine
-description: "Selles teemas selgitatakse, kuidas salvestada tegevuste juhiseid Microsoft Dynamicsi teenusesse Lifecycle Services (LCS) ja neid seejärel taasesitada."
+description: Selles teemas selgitatakse, kuidas salvestada tegevusjuhiseid teenusesse Microsoft Dynamics Lifecycle Services (LCS) ja neid seejärel taasesitada.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 40b4c3154a04a557b8a670e1f1ae3722c71122fe
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304070"
 ---
-
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Tegevuse juhiste salvestamine LCS-i ja nende taasesitamine
 
 [!include [banner](includes/banner.md)]
 
 **Keskkonna üksikasjad** 
 
-Microsoft Dynamics 365 for Talent, mis juurutati Microsoft Dynamicsi teenuse Lifecycle Services (LCS) kaudu
+Microsoft Dynamics 365 for Talent, mis on juurutatud teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu
 
-**Probleem**
+**Väljastamine**
 
 Klient soovib salvestada uusi tegevuse salvestisi enda LCS-i projekti ja seejärel salvestatud tegevuse juhiseid taasesitada.
 
@@ -66,4 +65,3 @@ Tegevuse juhise taasesitamiseks LCS-ist tehke järgmist.
 2. Valige **Ava LCS-ist**.
 3. Valige salvestatud tegevuse juhist omavad teek ja BPM-i sõlm.
 4. Avage tegevuse juhis.
-

@@ -1,13 +1,13 @@
 ---
 title: Aruandluspuu definitsioonid finantsaruannetes
-description: "See artikkel käsitleb aruandluspuu definitsioone. Aruandluspuu definitsioon on aruande komponent (koosteüksus), mis aitab määratleda teie organisatsiooni struktuuri ja hierarhiat."
+description: See artikkel käsitleb aruandluspuu definitsioone. Aruandluspuu definitsioon on aruande komponent (koosteüksus), mis aitab määratleda teie organisatsiooni struktuuri ja hierarhiat.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 00219f21076af60f8e2f16ca365b1138bb279400
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316943"
 ---
-
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Aruandluspuu definitsioonid finantsaruannetes
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,7 @@ Aruandluspuu definitsioon sisaldab järgmises tabelis kirjeldatud veerge.
 
 | Aruandluspuu veerg | Kirjeldus |
 |-----------------------|-------------|
-| Ettevõte               | Aruandlusüksuse ettevõtte nimi. Väärtus **@ANY**, mis on tavaliselt määratud ainult kokkuvõtte tasemele, võimaldab aruandluspuu kasutamist kõigis ettevõtetes. Kõikidele tütarharudele on määratud ettevõte. |
+| Ettevõte               | Aruandlusüksuse ettevõtte nimi. Väärtus **@ANY**, mis määratakse üldjuhul vaid kokkuvõtvale tasemele, võimaldab kõigil ettevõtetel aruandluspuud kasutada. Kõikidele tütarharudele on määratud ettevõte. |
 | Ühiku nimi             | Kood, mis määratleb selle aruandlusüksuse graafilises aruandluspuus. Veenduge, et looksite kordumatu kodeerimissüsteemi, mis on järjepidev ja mida kasutajatel on lihtne mõista. |
 | Üksuse kirjeldus      | Aruandlusüksuse pealkiri kuvatakse aruande päises ja jaluses suvandi **UnitDesc** koodina sisestamisel aruande definitsiooni vahekaardil **Päised ja jalused**. Pealkiri kuvatakse aruande rea kirjelduses, kui sisestate suvandi **UnitDesc** readefinitsiooni lahtrisse **Kirjeldus**. |
 | Dimensioonid            | Aruandlusüksus, mis tõmbab teavet otse finantsandmetest. See määrab konto ja seotud segmentide loogilise paigutuse ja pikkused. Igal aruandlusüksuse real peab olema selles veerus dimensioon. Saate panna dimensiooni ka kokkuvõtva üksuse reale (nt kulud, mis on selle üksusega otseselt seotud). Kokkuvõtva üksuse reale dimensiooni sisestamisel ei tohiks emaüksustes kasutatavaid kontosid kasutada tütarüksustes. Vastasel korral võidakse summasid dubleerida. |
@@ -166,9 +165,9 @@ Saate vältida teatud kasutajate ja gruppide juurdepääsu aruandlusüksusele. S
 3. Valige nimi dialoogiboksist **Üksuse turvalisus** ja seejärel klõpsake käsku **Eemalda**.
 4. Klõpsake nupul **OK**.
 
-### <a name="link-to-reports"></a>Link aruannete juurde
+### <a name="link-toreports"></a>Link aruannete juurde
 
-Pärast **aruande** veeru loomist readefinitsioonis ja aruandesse kaasatava aruande määratlemist peate värskendama aruandluspuud lingitud veeru ja aruande teabega. Aruande saab importida aruandluspuu mis tahes üksusesse.
+Pärast **aruande** veeru loomist readefinitsioonis ja aruandesse kaasatava aruande määratlemist peate värskendama aruandluspuud lingitud veeru ja aruande teabega. Aruande saab importida aruandluspuu mis tahes üksusesse.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Aruande tuvastamine aruandluspuus
 
@@ -222,4 +221,3 @@ Järgmistes näidetes on võimalik teave, mida koondatavate andmete aruandluspuu
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
-

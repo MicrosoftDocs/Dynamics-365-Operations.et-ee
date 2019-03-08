@@ -1,13 +1,13 @@
 ---
 title: Projektilepingud
-description: "See teema kirjeldab projektilepinguid ja toob näiteid lepingutest, mida saate erinevatele projektitüüpidele ja rahastamise allikatele luua, ning näitab, kuidas hallata rakenduses Microsoft Dynamics 365 for Finance and Operations lepinguid ja arveprojekti kliente."
+description: Selles teemas kirjeldatakse projektilepinguid ja tuuakse näiteid lepingutest, mida saate erinevatele projektitüüpidele ja rahastamise allikatele luua, ning näidatakse, kuidas hallata rakenduses Microsoft Dynamics 365 for Finance and Operations lepinguid ja arveprojekti kliente.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0f0fcec64ce03c6e1d877fb1c8d004bb416bd95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e46393b9ac8797bf12cca12099d177980b75ba38
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310365"
 ---
-
 # <a name="project-contracts"></a>Projektilepingud
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel kirjeldab projektilepinguid ja toob näiteid lepingutest, mida saate erinevatele projektitüüpidele ja rahastamise allikatele luua, ning näitab, kuidas hallata rakenduses Microsoft Dynamics 365 for Finance and Operations lepinguid ja arveprojekti kliente.
+Selles artiklis kirjeldatakse projektilepinguid ja tuuakse näiteid lepingutest, mida saate erinevatele projektitüüpidele ja rahastamise allikatele luua, ning näidatakse, kuidas hallata rakenduses Microsoft Dynamics 365 for Finance and Operations lepinguid ja arveprojekti kliente.
 
 Projektilepingu jaoks loodav projekti tüüp määratleb meetodi, mida kasutatakse projekti klientidele arvete esitamiseks. Projekti lepingut ja seotud projekti saab muuta, kuid projekti tüüpi ei saa muuta. 
 
@@ -342,7 +341,6 @@ Projektilepingu seadistamisel lepite kokku, et esitate kliendile arveid igakuise
 -   Koostate projekti vältel kliendile iga kalendrikuu lõpus arve.
 
 Esimese kuu jooksul registreerivad konsultandid projektile kokku 800 tundi. Projekti kontoritarvete kulu on 2000. Seega koostate kuu lõpus arve summas 122 000, mis sisaldab 800 tundi hinnaga 150 tunni kohta pluss 2000 kontoritarvete eest.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Kassa ekraanipaigutused
-description: "Selles teemas käsitletakse Microsoft Dynamics 365 for Retaili jaemüügikassa ekraanipaigutusi."
+description: Selles teemas käsitletakse Microsoft Dynamics 365 for Retaili kassa ekraanipaigutusi.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321888"
 ---
-
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Kassa ekraanipaigutused
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas käsitletakse Microsoft Dynamics 365 for Retaili jaemüügikassa ekraanipaigutusi.
+Selles teemas käsitletakse Microsoft Dynamics 365 for Retaili kassa ekraanipaigutusi.
 
 Jaemüügikassa kasutajaliidest (UI) saab konfigureerida kauplustele, registritele ja/või kasutajatele määratud visuaalsete profiilide ja ekraanipaigutuste kombinatsiooni abil.
 
@@ -51,7 +50,7 @@ Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vah
 - **Kirjeldus** – saate määrata kirjeldava nime, mis aitab tuvastada teie olukorra jaoks sobiva profiili.
 - **Kujundus** – saate valida heleda või tumeda rakenduse kujunduse. Kujundus mõjutab kogu rakenduse fonti ja taustavärve.
 - **Rõhuvärv** – rõhuvärvi kasutatakse kogu kassas teatud visuaalsete elementide (nt paanide, käsunuppude ja hüperlinkide) eristamiseks või esiletõstmiseks. Tavaliselt eeldavad need elemendid kasutajatoimingut.
-- **Päise värv** – saate konfigureerida lehekülje päise värvi, et vastata jaemüüja kaubamärgi nõuetele. See funktsioon on saadaval ainult Microsoft Dynamics 365 for Retaili versioonis 1611.
+- **Päise värv** – saate konfigureerida lehekülje päise värvi, et vastata jaemüüja kaubamärgi nõuetele. See funktsioon on saadaval ainult rakenduse Microsoft Dynamics 365 for Retail versioonis 1611.
 - **Sisselogimise taustad** – saate määrata sisselogimisekraani taustapildi. Taustapiltide failid peaksid olema võimalikult väikesed, sest suurte failide talletamine ja laadimine võib mõjutada rakenduse toimimist ja jõudlust.
 - **Rakenduse taust** – saate määrata taustpildi, mida kasutatakse kogu rakenduses ühevärvilise kujunduse asemel. Sisselogimise taustade failid peaksid olema võimalikult väikesed.
 
@@ -165,7 +164,7 @@ Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatak
 - **Nupu atribuudid** – saate konfigureerida nupu atribuute, paremklõpsates nupul ja kasutades kiirmenüüd.
 
     > [!IMPORTANT]
-    > Mõned nupupaneeli sätted kehtivad ainult ettevõtte kassas, mitte jaemüügi tänapäevases kassas või pilvekassas.
+    > Mõned nupupaneeli sätted kehtivad ainult ettevõtte kassas, mitte Retail Modern POS-is või pilvekassas.
 
     ![Nupupaneeli nupu atribuudid](../retail/media/Button-grid-button-properties.png)
 
@@ -185,7 +184,7 @@ Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatak
     - **Kohandatud kujundus** – vaikimisi kasutatakse kassa nuppude jaoks rõhuvärvi visuaalsest profiilist. Kui valite märkeruudu **Kasuta kohandatud kujundust**, saate määrata täiendavad värvid.
 
         > [!NOTE]
-        > Retail Modern POS ja Cloud POS kasutavad ainult väärtusi **Taustavärv** ja **Fondi värv**.
+        > Retail Modern POS ja pilvekassa kasutavad ainult väärtusi **Taustavärv** ning **Fondi värv**.
 
     - **Nupu pilt** – nuppudele saab lisada pilte või ikoone. Valige piltide hulgast, mis on saadaval valikus **Jaemüük \> Kanali häälestus \> Kassa häälestus \> Kassa \> Pildid**.
 
@@ -194,4 +193,3 @@ Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatak
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Retail POS-i paigutuse kujundaja installimine](install-pos-layout-designer.md)
-

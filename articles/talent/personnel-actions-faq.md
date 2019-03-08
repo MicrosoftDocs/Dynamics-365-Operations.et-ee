@@ -1,13 +1,13 @@
 ---
 title: Personalitegevuste KKK
-description: "Teema sisaldab vastuseid organisatsioonis personalitoimingute kasutamisega seotud küsimustele. Personalitoimingud on täiendavad etapid, mille peate lõpule viima personaliga seotud ülesannete puhul."
+description: Teema sisaldab vastuseid organisatsioonis personalitoimingute kasutamisega seotud küsimustele. Personalitoimingud on täiendavad etapid, mille peate lõpule viima personaliga seotud ülesannete puhul.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 0e68154ec70fdf26d1d783de29a386a336fff92f
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304050"
 ---
-
 # <a name="personnel-actions-faq"></a>Personalitegevuste KKK
 
 [!include [banner](includes/banner.md)]
@@ -94,5 +93,4 @@ Näide.
 - Toimingu **Töötajaga töösuhte lõpetamine** päises olev kehtiv kuupäev kattub väljale **Lõpetamise kuupäev** sisestatud kuupäevaga.
 - Toimingu **Töötaja palkamine** päises olev kehtiv kuupäev kattub väljale **Töösuhte alguskuupäev** sisestatud kuupäevaga.
 - Toimingu **Töötaja üleviimine** päises olev kehtiv kuupäev kattub töötaja väljale **Määramise alguskuupäev** sisestatud kuupäevaga.
-
 

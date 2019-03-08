@@ -1,47 +1,46 @@
 ---
-title: "Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field Service"
-description: "See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse ladude sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service."
+title: Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse ladude sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 01/14/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
+ms.openlocfilehash: 34cd18a18715d12d4002e6dbeee047467ed2a5ad
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
-ms.openlocfilehash: eb8ba6051777e27bd44504a8160118e8096b1435
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/20/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340311"
 ---
-
 # <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field Service
 
 [!include[banner](../includes/banner.md)]
 
-See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse ladude sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service.
+Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse ladude sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service.
 
 [![Äriprotsesside sünkroonimine rakenduste Finance and Operations ja Field Service vahel](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
-Järgmist malli ja aluseks olevaid ülesandeid kasutatakse ladude sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service.
+Ladude sünkroonimise käitamiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service kasutatakse järgmisi malle ja aluseks olevaid ülesandeid.
 
-**Malli nimi andmete integratsioonis:**
+**Mall andmeintegratsioonis**
 - Laod (rakendusest Finance and Operations rakendusse Field Service)
 
-**Ülesannete nimed andmete integratsiooni projektis.**
+**Ülesanne andmeintegratsiooni projektis**
 - Ladu
 
 ## <a name="entity-set"></a>Üksuste komplekt
@@ -50,32 +49,33 @@ Järgmist malli ja aluseks olevaid ülesandeid kasutatakse ladude sünkroonimise
 | msdyn_warehouses | Laod                             |
 
 ## <a name="entity-flow"></a>Üksuse voog
-Rakenduses Finance and Operations loodud ja säilitatud ladusid saab Common Data Service’i (CDS) andmeintegratsiooni projekti kaudu sünkroonida rakendusega Field Service. Soovitud ladusid, mis sünkroonivad rakendusse Field Service, saab juhtida suvandist Täpsem projekti päring ja filtreerimine. Laod, mis sünkroonivad rakendusest Finance and Operations, luuakse rakenduses Field Service, nii et väli On väliselt hallatud on seadistatud jah peale ja kirje on kirjutuskaitstud.
-Rakenduse Field Service CRM-lahendus Rakenduste Field Service ja Finance and Operations vahelise integratsiooni toetamiseks on vajalikud rakenduse Field Service CRM lahenduse lisafunktsioonid. Lahendus sisaldab järgmisi muudatusi.
-Väli **On väliselt hallatud** on lisatud **Lao (msdyn_warehouses)** üksusele. See väli aitab tuvastada, kas Ladu käsitletakse Operationsi alt või on see olemas ainult rakenduses Field Service.
-- Jah – ladu pärineb rakendusest Finance and Operations ja seda ei saa rakenduses Sales muuta.
-- Ei – ladu sisestati otse rakendusse Field Service ja seda hallatakse seal.
+Rakenduses Finance and Operations loodud ja säilitatud ladusid saab Common Data Service’i (CDS) andmeintegratsiooni projekti kaudu sünkroonida rakendusega Field Service. Ladusid, mille soovite sünkroonida rakendusega Field Service, saab juhtida suvandist Täpsem projekti päring ja filtreerimine. Laod, mis sünkroonivad rakendusest Finance and Operations, luuakse rakenduses Field Service, nii et välja **On väliselt hallatud** väärtuseks on valitud **Jah** ja kirje on kirjutuskaitstud.
 
-Väli **On väliselt hallatud** aitab juhtida kaubavarude taseme, korrigeerimiste, üleviimiste ja töökäskude kasutuse sünkroonimist. Ainult ladusid kus **On väliselt hallatud** = Jah, saab kasutada otse teise süsteemi samasse lattu sünkroonimiseks. 
+## <a name="field-service-crm-solution"></a>Rakenduse Field Service CRM lahendus
+Rakenduste Field Service ja Finance and Operations vahelise integratsiooni toetamiseks on vajalikud rakenduse Field Service CRM lahenduse lisafunktsioonid. Lahenduses on väli **On väliselt hallatud** lisatud üksusele **Lao (msdyn_warehouses)**. See väli aitab tuvastada, kas ladu käsitletakse Finance and Operationsist või on see olemas ainult rakenduses Field Service. Selle välja sätted on järgmised.
+- **Jah** – ladu pärineb rakendusest Finance and Operations ja seda ei saa rakenduses Sales muuta.
+- **Ei** – ladu sisestati otse rakendusse Field Service ja seda hallatakse seal.
 
-Märkus: Rakenduses Field Services on võimalik luua mitmeid ladusid (seadistusega **Is Externally Maintained** = ei) ja seejärel vastendada need ühe laoga rakenduses Finance and Operations, koos täpsema pärinug- ja filtreerimise funktsionaalsusega. Seda kasutakse olukordades, kus soovite, et rakendus Field Service koondab üksikasjaliku kaubavaru taseme ja lihtsalt saadab värskendused rakendusse Finance and Operations. Sllisel juhul ei saa rakendus Field Service kaubavarude taseme värskendusi rakendusest Finance and Operations. Vaadake lisainfot varude korrigeerimise rakendusest Field Service rakendusse Finance and Operations sünkroonimise alt ja sünkroonige töökäsud rakendusest Field Service projektiga seotud töökäskudesse rakenduses Finance and Operations.
+Väli **On väliselt hallatud** aitab juhtida varude tasemete, korrigeerimiste, üleviimiste ja töökäskude kasutuse sünkroonimist. Ainult ladusid, kus suvandi **On väliselt hallatud** sätteks on valitud **Jah**, saab kasutada otse teise süsteemi sama laoga sünkroonimiseks. 
+
+> [!NOTE]
+> Rakenduses Field Service on võimalik luua mitmeid ladusid (seadistusega **Is Externally Maintained** = Ei) ja seejärel vastendada need ühe laoga rakenduses Finance and Operations täpsema päringu ja filtreerimise funktsiooniga. Seda kasutakse olukordades, kus soovite, et rakendus Field Service koondab üksikasjaliku varude taseme ja lihtsalt saadab värskendused rakendusse Finance and Operations. Sellisel juhul ei saa Field Service varude taseme värskendusi rakendusest Finance and Operations. Lisateavet vt teemadest [Varude korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) ja [Töökäskude sünkroonimine rakenduses Field Service rakenduses Finance and Operations projektiga seotud müügitellimustega](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="prerequisites-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
-### <a name="in-the-data-integration-project"></a>Andmeintegratsiooni projektis
-Enne ladude sünkroonimist veenduge, et uuendate suvandit Täpsem projekti päring ja filtreerimine, et see sisaldaks ainult ladusid, mida tahate tuua rakendusest Finance and Operations rakendusse Field Service. ÜPange tähele, et vajate ladu rakenduses Field Service, et rakendada seda töökäskudele, korrigeerimistele ja üleviimistele.  
+### <a name="data-integration-project"></a>Andmeintegratsiooni projekt
+Enne ladude sünkroonimist värskendage kindlasti suvandit Täpsem projekti päring ja filtreerimine, et see sisaldaks ainult ladusid, mille soovite tuua rakendusest Finance and Operations rakendusse Field Service. Pange tähele, et vajate ladu rakenduses Field Service, et rakendada seda töökäskudele, korrigeerimistele ja üleviimistele.  
 
-Veenduge, et üksuse **msdyn_workorders** jaoks oleks olemas **msdyn_warehouses**.
-1. Avage andmete integratsioon
-2. Valige vahekaart **Ühenduskomplekt**
-3. Valige töökäsu sünkroonimiseks kasutatud ühenduskomplekt
-4. Valige vahekaart **Integreerimisvõti**
-5. Leidke msdyn_warehouses ja kontrollige, kas võti **msdyn_name (nimi)** on lisatud. Kui seda ei kuvata, klõpsake selle lisamiseks lehe ülaosas valikut **Lisa võti** ja **Salvesta**
+Veenduge, et üksuse **msdyn_workorders** jaoks oleks olemas **integreerimisvõti**.
+1. Avage andmeintegratsioon.
+2. Valige vahekaart **Ühendusekogum**.
+3. Valige töökäsu sünkroonimiseks kasutatav ühendusekogum.
+4. Valige vahekaart **Integreerimisvõti**.
+5. Leidke msdyn_warehouses ja kontrollige, kas võti **msdyn_name (nimi)** on lisatud. Kui seda ei kuvata, klõpsake selle lisamiseks käsku **Lisa võti** ja seejärel lehe ülaosas käsku **Salvesta**.
 
 ## <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis
 
-Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
+Järgmistel joonistel on näidatud malli vastendamine andmeintegratsioonis.
 
 ### <a name="warehouses-finance-and-operations-to-field-service-warehouse"></a>Laod (rakendusest Finance and Operations rakendusse Field Service): Ladu
 
 [![Malli vastendamine andmete integratsioonis](./media/Warehouse1.png)](./media/Warehouse1.png)
-

@@ -1,13 +1,13 @@
---- 
-title: "Ostutellimuse loomine ühekordse tarnija jaoks"
-description: "Selles protseduuris selgitatakse, kuidas luua ostutellimus ühekordsele hankijale."
+---
+title: Ostutellimuse loomine ühekordse tarnija jaoks
+description: Selles protseduuris selgitatakse, kuidas luua ostutellimus ühekordsele hankijale.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: beaf6bcbc870e11e74289375611c631306545633
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2d4dabaf6e1d79cbd626294ee4e327f2725a5e43
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312872"
 ---
 # <a name="create-a-purchase-order-for-a-one-time-supplier"></a>Ostutellimuse loomine ühekordse tarnija jaoks
 
@@ -38,5 +38,4 @@ Selles protseduuris selgitatakse, kuidas luua ostutellimus ühekordsele hankijal
 4. Sisestage väljale Nimi hankija nimi.
 5. Klõpsake nuppu OK.
     * Ostutellimuse saab nüüd lõpetada ja seda saab töödelda, nagu iga teist tellimust. Selle tegemiseks pole mingeid erijuhiseid. Arvel kajastub tellimusega koos loodud hankija kontol toimuv kanne ja seejärel töödeldakse makse. Kui see on tehtud, võib hankija konto kustutada. Seda teeb tavaliselt ostureskontro osakond.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Elektroonilise aruandluse (ER) konfiguratsiooni elutsükli haldamine"
-description: "Selles teemas kirjeldatakse, kuidas hallata Microsoft Dynamics 365 for Finance and Operationsi lahenduse elektroonilise aruandluse (ER) konfiguratsioonide elutsüklit."
+title: Elektroonilise aruandluse (ER) konfiguratsiooni elutsükli haldamine
+description: Selles teemas kirjeldatakse, kuidas hallata Microsoft Dynamics 365 for Finance and Operationsi lahenduse elektroonilise aruandluse (ER) konfiguratsioonide elutsüklit.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5724ba62bfb2c6e75ae895dc9285966c25f387a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 76ea412a3c10bf33fc06603bab8b94b2eadb9803
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344796"
 ---
-
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektroonilise aruandluse (ER) konfiguratsiooni elutsükli haldamine
 
 [!include [banner](../includes/banner.md)]
@@ -89,4 +88,3 @@ Arenduskeskkonnas kujundatud ER-i konfiguratsioone saab üles laadida testkeskko
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
-

@@ -1,13 +1,13 @@
---- 
-title: "Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (2. osa – mudeli vastendamine)"
-description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) mudeli finantsdimensioonide kasutamiseks elektrooniliste aruannete andmeallikana."
+---
+title: Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (2. osa – mudeli vastendamine)
+description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) mudeli finantsdimensioonide kasutamiseks elektrooniliste aruannete andmeallikana.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319588"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>Elektrooniline aruandlus Finantsdimensioonide kasutamine andmeallikana (2. osa: mudeli vastendamine)
 
@@ -43,7 +43,7 @@ Nende etappide lõpetamiseks peate esmalt lõpetama etapid protseduuris Elektroo
 8. Tippige Dimensioonide andmete vastendamine väljale Kirjeldus.
 9. Klõpsake nuppu Salvesta.
 10. Klõpsake valikut Kujundaja.
-11. Valige puul suvand „Dynamics 365 for Operations\tabel“.
+11. Valige puul väärtus Dynamics 365 for Operations \ Tabel.
 12. Klõpsake suvandit Juure lisamine.
 13. Sisestage väljale Nimi suvand Ettevõte.
 14. Sisestage väljale Tabel suvand CompanyInfo.
@@ -59,7 +59,7 @@ Nende etappide lõpetamiseks peate esmalt lõpetama etapid protseduuris Elektroo
 21. Valige väljal Põhikonto küsimine suvand Jah.
     * Määrake valiku Põhikonto küsimine väärtuseks Jah, et lasta kasutajatel valida põhikontot dimensioonide loendi osana.   Kui väärtus on Ei, ei lisata põhikontot dimensioonide loendisse ja valik On põhikonto kohustuslik on aktiivne. Kui valiku On põhikonto kohustuslik väärtuseks on määratud Jah, siis lisatakse põhikonto dimensioonide loendisse kasutaja valikust olenemata.  
 22. Klõpsake nuppu OK.
-23. Valige puul suvand "Dynamics 365 for Operations\tabeli kirjed".
+23. Valige puul väärtus Dynamics 365 for Operations \ Tabeli kirjed.
 24. Klõpsake suvandit Juure lisamine.
 25. Tippige väljale Nimi tekst LedgerJournal.
 26. Valige väljal Päringu küsimine suvand Jah.
@@ -143,5 +143,4 @@ Nende etappide lõpetamiseks peate esmalt lõpetama etapid protseduuris Elektroo
 3. Klõpsake valikut Muuda olekut.
 4. Klõpsake valikut Valmis.
 5. Klõpsake nuppu OK.
-
 

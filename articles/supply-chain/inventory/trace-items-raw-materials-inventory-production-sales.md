@@ -1,13 +1,13 @@
 ---
-title: "Kauba ja toormaterjali jälgimine varude, tootmise ja müügi puhul"
-description: "Selles teemas kirjeldatakse, kuidas saate kasutada kauba jälgimist tuvastamaks, kus kaupu või toormaterjale tootmis- ja müügiprotsessides kasutatud on, kasutatakse või hakatakse kasutama."
+title: Kauba ja toormaterjali jälgimine varude, tootmise ja müügi puhul
+description: Selles teemas kirjeldatakse, kuidas saate kasutada kauba jälgimist tuvastamaks, kus kaupu või toormaterjale tootmis- ja müügiprotsessides kasutatud on, kasutatakse või hakatakse kasutama.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310066"
 ---
-
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Kauba ja toormaterjali jälgimine varude, tootmise ja müügi puhul
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,7 @@ Kui soovite kasutada valikut **Uus tagasiulatuvalt** või **Uus edasiulatuvalt**
 Saate salvestada vahekaardil <strong>Üksikasjad</strong> oleva teabe XML-failina, klõpsates käsku <strong>Ekspordi</strong>tegumiriba toimingu *<strong><em>Jälgimine</em></strong>* all. Lisaks jälgimise üksikasjadele sisaldab XML-fail ka jälgimise kriteeriume, emasõlme ja laos olevat kogust. Jälgimise üksikasjade salvestamise võimalus on kasulik näiteks juhul, kui soovite manustada teavet kvaliteettellimusele või muule vastavusdokumentatsioonile. Saate määrata faili salvestamiskoha. Faili kohe vaatamiseks märkige ruut <strong>Kuva dokument</strong>. <strong>Märkus:</strong> fail salvestatakse alati, isegi siis, kui soovite seda ainult vaadata. Vaikimisi avaneb XML-fail brauseriaknas. Kuid võite faili paremklõpsata, valida <strong>Ava programmiga</strong> ja valida seejärel sisu kuvamiseks kasutatav programm.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Kas saan arvutada konkreetse kauba või koostisosa saldo?
-Saate eksportida teabe kokkuvõttelehtedelt Microsoft Excelisse. Avage vastav leht, klõpsake ikooni **Ava Microsoft Office’is** ja valige siis **Ekspordi Microsoft Excelisse**. See funktsioon on eriti kasulik, kui soovite arvutada kauba või koostisosa hulgisaldo lehelt **Kannete kokkuvõte**. Lehel **Kannete kokkuvõte** saate soovi korral filtreerida kaupu või koostisosi ja partiid ning seejärel eksportida teabe Excelisse. Excelis saate näiteks laos oleva koguse müüdud kogusest ja tootmises kasutatud kogusest eraldada.
+Saate eksportida teabe kokkuvõtte lehtedelt Microsoft Excelisse. Avage vastav leht, klõpsake ikooni **Ava Microsoft Office’is** ja valige siis **Ekspordi Microsoft Excelisse**. See funktsioon on eriti kasulik, kui soovite arvutada kauba või koostisosa hulgisaldo lehelt **Kannete kokkuvõte**. Lehel **Kannete kokkuvõte** saate soovi korral filtreerida kaupu või koostisosi ja partiid ning seejärel eksportida teabe Excelisse. Excelis saate näiteks laos oleva koguse müüdud kogusest ja tootmises kasutatud kogusest eraldada.
 
 ## <a name="can-i-investigate-whether-there-is-a-history-of-issues-with-items-or-raw-materials"></a>Kas saan uurida, kas on olemas kaupade või toormaterjalide probleemide ajalugu?
 Jälgimise üksikasjad sisaldavad teavet kaupa või toormaterjali hõlmavate kvaliteettellimuste ja mittevastavuste kohta. Kvaliteettellimuste ja mittevastavuste kokkuvõtte vaatamiseks klõpsake tegumiribal valikut **Kvaliteettellimused** või **Mittevastavused**. **Märkus:** purustava katsega kvaliteettellimused võivad esineda jälgimise üksikasjades mitu korda. Kui dokumendi (nt ostutellimuse) jaoks luuakse purustava katsega kvaliteettellimus, kuvatakse see selle dokumendi iga kande puhul.
@@ -141,4 +140,3 @@ Saate luua aruande **Klientidele saadetud**, et tuvastada tarnitud kauba või to
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Kas ma saan jälgida kaastooteid ja kõrvalsaaduseid?
 Saate jälgida kaastooteid, kuid te ei saa jälgida kõrvalsaadusi, sest tavaliselt ei ole kõrvalsaadustele määratud jälgimisdimensioone. Kaupa jälgides lisatakse jälgimise üksikasjadele kõik seotud kaastooted. Kaastoodet sisaldava sõlme üksikasjadesse on lisatud sõna „kaastoode”. Saate vaadata ka kaastoote üksikasju, valides jälgimise üksikasjades sõlme ja klõpsates siis kiirkaarti **Tootmine**.
-

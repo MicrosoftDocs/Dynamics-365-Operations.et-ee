@@ -1,13 +1,13 @@
 ---
 title: Kiirklahvid
-description: "Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Finance and Operations."
+description: Järgmised kiirklahvid ehk klaviatuuriotseteed kehtivad kogu rakenduses Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335941"
 ---
-
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
 [!include [banner](../includes/banner.md)]
 
-Järgmised klaviatuuri otseteed rakenduvad kogu rakendusele Dynamics 365 for Finance and Operations.
+Järgmised kiirklahvid ehk klaviatuuriotseteed kehtivad kogu rakenduses Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
 > Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
@@ -233,4 +232,3 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Otsingus rea võrra üles/alla liikumine                                                                                        | Ülesnool/allanool            |
 | Otsingus lehe võrra üles/alla liikumine                                                                                       | Page Up / Page Down              |
 | Otsingu algusse/lõppu liikumine                                                                                    | Home / End                       |
-

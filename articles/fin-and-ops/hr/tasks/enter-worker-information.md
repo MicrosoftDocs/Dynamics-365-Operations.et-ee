@@ -1,13 +1,13 @@
---- 
-title: "Töötaja andmete sisestamine"
-description: "Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine."
+---
+title: Töötaja andmete sisestamine
+description: Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks etapiks värvatavate inimeste töötaja teabe sisestamine.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMMassHireProject, HRMMassHireLine
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0d850f271a3add191fcdc8ff5624bebbc6c6327f
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339552"
 ---
 # <a name="enter-worker-information"></a>Töötaja andmete sisestamine
 
@@ -44,5 +44,4 @@ Pärast värbaja hulgivärbamisprojekti ja ametikohtade loomist on järgmiseks e
 7. Otsige loendist ja valige soovitud kirje.
 8. Eemaldage loendis valitud realt märge.
     * Valige projekti järgmine ametikoht ja jätkake iga värvatava inimese puhul töötaja teabe sisestamist.  
-
 

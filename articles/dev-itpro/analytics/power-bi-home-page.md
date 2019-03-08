@@ -1,13 +1,13 @@
 ---
-title: "PowerBI.com’i lahenduste koduleht"
-description: "Selles teemas loetletakse saadaolevad PowerBI.com’i lahendused ja osutatakse ressurssidele, kust lahenduste kohta lisateavet saab."
+title: PowerBI.com’i lahenduste koduleht
+description: Selles teemas loetletakse saadaolevad PowerBI.com’i lahendused ja osutatakse ressurssidele, kust lahenduste kohta lisateavet saab.
 author: sericks007
 manager: AnnBe
 ms.date: 05/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 64b1c09b781b7bdbaf01a374e321b8dd9418f3da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 1a391c0111ad39cb8c4ec809eccb3eb7cfb18687
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316690"
 ---
-
 # <a name="powerbicom-solutions-home-page"></a>PowerBI.com’i lahenduste koduleht
 
 [!include [banner](../includes/banner.md)]
 
-Rakenduse Dynamics 365 for Finance and Operations keskkondade jaoks on saadaval järgmised PowerBI.com’i lahendused.
+Dynamics 365 for Finance and Operationsi keskkondade jaoks on saadaval järgmised PowerBI.com’i lahendused.
 
 ## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>Teenuse Lifecycle Services (LCS) kaudu saadaolevad PowerBI.com’i lahendused
 
@@ -59,12 +58,11 @@ LCS-i ühiste vahendite teegis on saadaval järgmised PowerBI.com’i lahendused
 
 ## <a name="powerbicom-solutions-available-from-appsource"></a>AppSource’is saadaolevad PowerBI.com’i lahendused
 
-[Microsoft AppSource’is](https://appsource.microsoft.com) on saadaval järgmised PowerBI.com’i lahendused.
+[Microsoft AppSource](https://appsource.microsoft.com)’is on saadaval järgmised PowerBI.com’i lahendused.
 
 > [!NOTE]
-> Need lahendused on aegunud, nagu on kirjas dokumendis [AppSource’is saadaval olevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Need lahendused on aegunud, nagu on kirjas dokumendis [AppSource’is saadaolevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 - Kuluhaldus
 - [Finantstulemused](financial-performance-power-bi-content-pack.md)
 - [Jaemüügikanali jõudlus ](retail-channel-performance-dashboard-power-bi-data.md)
-

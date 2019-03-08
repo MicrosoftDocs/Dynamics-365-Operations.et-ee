@@ -5,28 +5,27 @@ author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: afd542a652abdf6e45c83a6097dc8f0d36efa905
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/23/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335412"
 ---
-
 # <a name="product-identifiers"></a>Toote identifikaatorid 
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,7 @@ Kui kasutate teenust Common Data Service (CDS), on rakenduses Finance and Operat
 
 ## <a name="item-number-and-product-dimensions"></a>Kaubakood ja tootedimensioonid
 
-Kaubakood on toote identifikaator, mida kasutab kindel juriidiline isik. Ideaalis peaks kaubakood olema sama, mis tootenumber. Kui nomenklatuur erineb juriidilise isiku kohta, muutub toote jälgimine tarneahelas keeruliseks ja kaasnevad koormavad ümbermärgistamise ja viitamise protsessid. Ühilduvuse tagamiseks vanemate versioonidega (st lahendusega Microsoft Dynamics AX 2009 ja varasematega) säilitasime selle mudeli. Kuid soovitame siiski alati eemaldada identifikaatorid, mis on seotud juriidiliste isikutega, ja kasutada selle asemel peamise identifikaatorina kordumatut tootenumbrit.
+Kaubakood on toote identifikaator, mida kasutab kindel juriidiline isik. Ideaalis peaks kaubakood olema sama, mis tootenumber. Kui nomenklatuur erineb juriidilise isiku kohta, muutub toote jälgimine tarneahelas keeruliseks ja kaasnevad koormavad ümbermärgistamise ja viitamise protsessid. Ühilduvuse tagamiseks vanemate versioonidega (st rakendustega Microsoft Dynamics AX 2009 ja varasematega) säilitasime selle mudeli. Kuid soovitame siiski alati eemaldada identifikaatorid, mis on seotud juriidiliste isikutega, ja kasutada selle asemel peamise identifikaatorina kordumatut tootenumbrit.
 
 Peale selle ei saa tootevarianti kaubakoodi järgi kordumatult tuvastada. See nõuab alati kaubakoodi ja kõiki tooteetalonis määratletud tootedimensioonide kombinatsiooni. See nõue võib muutuda kohmakaks ja aeglustada tuvastamise protsessi. Soovitame ka seepärast võimaluse korral alati kaubakoodi asemel kasutada kordumatut tootenumbrit.
 
@@ -186,4 +185,3 @@ Nüüd saate kasutada andmeüksuseid **Tooteüksuse Common Data Service’i iden
 ## <a name="related-topic"></a>Seotud teema
 
 [Toodete ja tootevariantide otsimine tellimuse sisestamise käigus](search-products-product-variants.md)
-

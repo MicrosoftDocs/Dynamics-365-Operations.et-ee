@@ -1,37 +1,36 @@
 ---
-title: "Rakenduse Field Service lepingu arvete sünkroonimine vabas vormis arvetega rakenduses Finance and Operations"
-description: "See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse rakenduse Microsoft Dynamics 365 for Field Service lepingu arvete sünkroonimiseks vabas vormis arvetega rakenduses Microsoft Dynamics 365 for Finance and Operations."
+title: Rakenduse Field Service lepingu arvete sünkroonimine vabas vormis arvetega rakenduses Finance and Operations
+description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse lepinguarvete sünkroonimiseks rakendusest Microsoft Dynamics 365 for Field Service vabas vormis arvetega rakenduses Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333250"
 ---
-
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Rakenduse Field Service lepingu arvete sünkroonimine vabas vormis arvetega rakenduses Finance and Operations
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Finance and Operations vabas vormis arvetega
 
 [!include[banner](../includes/banner.md)]
 
-See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse rakenduse Microsoft Dynamics 365 for Field Service lepingu arvete sünkroonimiseks vabas vormis arvetega rakenduses Microsoft Dynamics 365 for Finance and Operations.
+Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse lepinguarvete sünkroonimiseks rakendusest Microsoft Dynamics 365 for Field Service vabas vormis arvetega rakenduses Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 
@@ -59,7 +58,7 @@ Enne lepingu arvete sünkroonimist on nõutav järgmine sünkroonimine.
 
 ## <a name="entity-flow"></a>Üksuse voog
 
-Rakenduse Field Service lepingu arveid saab Common Data Service’i (CDS) andmeintegratsiooni projekti kaudu sünkroonida rakendusega Finance and Operations. Nende arvete värskendused sünkroonitakse rakenduses Finance and Operations vabas vormis arvetega, kui vabas vormis arvete raamatupidamisolek on **Pooleli**. Pärast vabas vormis arvete sisestamist rakenduses Finance and Operations värskendatakse raamatupidamisolekuks **Lõpetatud**, mis tähendab, et enam ei saa sünkroonida värskendusi rakendusest Field Service.
+Field Service’i lepingu arveid saab teenuse Common Data Service (CDS) andmeintegratsiooni projekti kaudu sünkroonida rakendusega Finance and Operations. Nende arvete värskendused sünkroonitakse rakenduses Finance and Operations vabas vormis arvetega, kui vabas vormis arvete raamatupidamisolek on **Pooleli**. Pärast vabas vormis arvete sisestamist rakenduses Finance and Operations värskendatakse raamatupidamisolekuks **Lõpetatud**, mis tähendab, et enam ei saa sünkroonida värskendusi rakendusest Field Service.
 
 ## <a name="field-service-crm-solution"></a>Rakenduse Field Service CRM lahendus
 
@@ -107,4 +106,3 @@ Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 ### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Lepingu arved (Field Service’ist Fin and Opsi): arve read
 
 [![Malli vastendamine andmete integratsioonis](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-

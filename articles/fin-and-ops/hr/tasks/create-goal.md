@@ -1,13 +1,13 @@
---- 
-title: "Eesmärgi loomine"
-description: "Saate eesmärke luua, eesmärkidele tegevusi lisada, mõõdikuid jälgida ja siduda eesmärke hindamisega."
+---
+title: Eesmärgi loomine
+description: Saate eesmärke luua, eesmärkidele tegevusi lisada, mõõdikuid jälgida ja siduda eesmärke hindamisega.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350707"
 ---
 # <a name="create-a-goal"></a>Eesmärgi loomine
 
@@ -59,5 +59,4 @@ Saate eesmärke luua, eesmärkidele tegevusi lisada, mõõdikuid jälgida ja sid
     * Sageli on eesmärke, mis on töörühma liikmete või kõigi töötajate puhul samad või sarnased.     Teie inimressursside haldur või juht saab nende eesmärkide jaoks eesmärgimalle luua. Eesmärgi saab lisada malli põhjal ja siis seda muuta, et see vastaks teie ajaskaaladele.  
     * Sageli on mitu eesmärki, mis on töörühma liikmete või kõigi töötajate puhul samad või sarnased.     Teie inimressursside haldur või juht saab luua eesmärgigruppe, milles on vähemalt üks eesmärgimall. Saate lisada eesmärgigrupist eesmärke ja muuta neid siis nii, et need vastaksid teie ajaskaaladele.  
     * Hindamise loomisel saate sellele hindamisele eesmärke lisada. Vaadake hindamiste tegevuse juhisest, kuidas hindamistele eesmärke lisada.  
-
 

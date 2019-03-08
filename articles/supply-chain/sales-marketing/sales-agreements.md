@@ -1,13 +1,13 @@
 ---
-title: "Müügilepingud"
-description: "Teema sisaldab teavet müügilepingute kohta. Müügileping on lepe, mis kohustab klienti aja jooksul kindlates kogustes või kindla summa eest tooteid ostma ja võimaldab seda teha erihinnaga või allahindlustega."
+title: Müügilepingud
+description: Teema sisaldab teavet müügilepingute kohta. Müügileping on lepe, mis kohustab klienti aja jooksul kindlates kogustes või kindla summa eest tooteid ostma ja võimaldab seda teha erihinnaga või allahindlustega.
 author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f4ab396d06383e3d6fc7bfab2e01f1afe4aa8fc4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4db47f445fe820e65389799ddcb6ea4a99949178
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309514"
 ---
-
 # <a name="sales-agreements"></a>Müügilepingud
 
 [!include [banner](../includes/banner.md)]
@@ -100,18 +99,17 @@ Kui olete loonud (väljastanud) müügilepinguga seotud müügitellimuse, saate 
 | Kogus                                                          | Kui määrate koguse, mis ületab kogust müügilepingu real, kus märgitud on ruut **Maksimaalne on jõustatud**, kuvatakse sõnumiviip, milles palutakse teil muudetud kogus salvestada. Klõpsake valikut **Jah**, et eemaldada link müügilepingu reaga ja hind ümber arvutada. Klõpsake valikut **Ei**, et eemaldada link müügilepingu reaga ilma hinda ümber arvutamata.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Müügilepingu alusel tellitud kauba tagastamine
-Kui klient tagastab toote, mis on tellitud müügilepingu alusel, saab Microsoft Dynamics 365 for Finance and Operations seotud müügilepingu kohustuse leida ja seda automaatselt uuendada, et kajastada koguse või summa muutust. Algse müügilepinguga lingitud müügitellimuse põhjal tagastustellimust luues loote lingi müügilepingu kohustuse, müügitellimuse rea ja tagastustellimuse arve vahel.  
+Kui klient tagastab toote, mis oli tellitud müügilepingust, saab Microsoft Dynamics 365 for Finance and Operations leida ja automaatselt värskendada seotud müügilepingu kohustust, et näidata koguse või summa muutust. Algse müügilepinguga lingitud müügitellimuse põhjal tagastustellimust luues loote lingi müügilepingu kohustuse, müügitellimuse rea ja tagastustellimuse arve vahel.  
 
 Kui te ei soovi tagastatud kauba kogust müügilepingu kohustusest lahutada, saate kasutada lehel **Tagastustellimus** juhtnuppu **Eemalda link**, et eemaldada tagastustellimuse ja müügilepingu kohustuse vaheline link. Kui peate lingi hiljem uuesti looma, klõpsake nuppu **Loo link**.  
 
 **Märkus.** Tagastustellimust saab linkida ainult ühe müügilepinguga. Kui klient tagastab mitu toodet, mis on tellitud rohkem kui ühe müügilepingu alusel, peate looma igale tootele uue tagastustellimuse ja lingi vastava müügilepinguga.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Müügilepingute automaatne otsimine
-Mõnes olukorras, kui müügitellimus luuakse kaudselt, nt kreeditarve või kontsernisiseste müügitellimuste loomisel, saate reguleerida, kas Microsoft Dynamics 365 for Finance and Operations otsib rakendatavaid müügilepinguid automaatselt.
+Mõnes olukorras, kui müügitellimus luuakse kaudselt, nt kreeditarve või kontsernisiseste müügitellimuste loomisel, saate määrata, kas Microsoft Dynamics 365 for Finance and Operations otsib rakendatavaid müügilepinguid automaatselt.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Müügilepingute finantsdimensioonid
 Saate kopeerida finantsdimensioonid kas dokumendipäistesse või müügilepingu üksikutele ridadele. Saate mis tahes lepingupäises või lepingureal olevaid dimensioone igal ajal muuta. Sellisel juhul kopeeritakse dimensioonid automaatselt väljastuspäisesse või väljalaskeorderite väljastusreale.
-
 
 
 

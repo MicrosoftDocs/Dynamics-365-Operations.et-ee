@@ -1,13 +1,13 @@
 ---
 title: Finantsaruannete loomine
-description: "See teema sisaldab finantsaruande koostamise üldteavet."
+description: See teema sisaldab finantsaruande koostamise üldteavet.
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340886"
 ---
-
 # <a name="generate-financial-reports"></a>Finantsaruannete loomine
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ Aruande loomisel kasutatakse valikuid, mille olete määranud valiku Aruande def
 
 ## <a name="generate-a-financial-report"></a>Finantsaruande loomine
 
-Finantsaruande loomiseks rakendusega Microsoft Dynamics 365 for Finance and Operations valige **Pearaamat** \> **Päringud ja aruanded** \> **Finantsaruanded**.
+Finantsaruande loomiseks rakendusega Microsoft Dynamics 365 for Finance and Operations minge jaotisse **Pearaamat** \> **Päringud ja aruanded** \> **Finantsaruanded**.
 
 - Valige loodav aruanne ja klõpsake nuppu **Loo**.
 - Täitke väli **Aruande kuupäev** ja klõpsake **OK**.
@@ -115,7 +114,7 @@ Puuduvad kontod määratakse, kasutades readefinitsiooni või aruandluspuu defin
 > [!TIP]
 > Protsessi tuleb kinnitamiseks käitada enne igakuiste aruannete ja uute koosteüksuste loomist.
 
-Väärtuste vahemikega aruannete puhul on kontode puudumine vähem tõenäoline. Võimaluse korral kasutage koosteüksuse vahemikke uute kontode lisamiseks nende loomisel. Kui mis tahes aruande definitsioon on määratud ettevõttele @ANY, saate konkreetsesse ettevõttesse sisse logida ja selle ettevõtte puhul puuduva konto analüüsi käivitada.
+Väärtuste vahemikega aruannete puhul on kontode puudumine vähem tõenäoline. Võimaluse korral kasutage koosteüksuse vahemikke uute kontode lisamiseks nende loomisel. Kui aruande määratluses on määratud ettevõte @ANY, siis saate sisse logida kindlasse ettevõttesse ja käitada puuduvate kontode analüüsi.
 
 > [!NOTE]
 > Kui on lisatud uus ettevõte, peate lisama uue ettevõtte mis tahes olemasolevate aruannete aruandluspuudesse, vastasel korral ettevõtet puuduva konto analüüsi ei kaasata.
@@ -158,4 +157,3 @@ Puuduva konto analüüsi käivitamisel on saadaval järgmised kiirklahvid.
 [Finantsaruandlus](financial-reporting-intro.md)
 
 [Aruandekoosturi liides](report-designer-interface.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Kvaliteedijuhtimise ülevaade"
-description: "Selles teemas kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 for Finance and Operationsis kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti."
+title: Kvaliteedijuhtimise ülevaade
+description: Selles teemas kirjeldatakse, kuidas kasutada rakenduses Microsoft Dynamics 365 for Finance and Operations kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79b3127f726a08cc24c20145b5ad9969157a899c
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338310"
 ---
-
 # <a name="quality-management-overview"></a>Kvaliteedijuhtimise ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas kasutada Microsoft Dynamics 365 for Finance and Operationsis kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti.
+Selles teemas kirjeldatakse, kuidas kasutada rakenduses Microsoft Dynamics 365 for Finance and Operations kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti.
 
 Kvaliteedijuhtimise abil saate hallata ümberpööramise aegu, kui käsitsete mittevastavaid tooteid, olenemata nende päritolukohast. Kuna diagnostikatüübid on seotud parandustest teatamisega, saab Microsoft Dynamics 365 for Finance and Operations plaanida ülesandeid probleemide kõrvaldamiseks ja nende kordumise vältimiseks.
 
@@ -362,4 +361,3 @@ Kvaliteediseos tuleb automaatset kvaliteettellimuse genereerimist nõudvas ärip
 [Kvaliteedijuhtimise protsessid](quality-management-processes.md)
 
 [Mittevastavuse haldamise võimaldamine](enable-nonconformance-management.md)
-

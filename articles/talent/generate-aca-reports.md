@@ -1,13 +1,13 @@
 ---
-title: "Taskukohase ravikindlustuse eelnõu (ACA) aruannete koostamine"
-description: "See funktsioon on mõeldud nende tööandjate abistamiseks, kellel on vaja jälgida vormidel 1095-B ja 1095-C esitatud teavet taskukohase ravikindlustuse eelnõu tööandja kohustuse osa toetamiseks. Pange tähele, et see funktsioon on lubatud ainult Ameerika Ühendriikide juriidiliste isikute puhul."
+title: Taskukohase ravikindlustuse eelnõu (ACA) aruannete koostamine
+description: See funktsioon on mõeldud nende tööandjate abistamiseks, kellel on vaja jälgida vormidel 1095-B ja 1095-C esitatud teavet taskukohase ravikindlustuse eelnõu tööandja kohustuse osa toetamiseks. Pange tähele, et see funktsioon on lubatud ainult Ameerika Ühendriikide juriidiliste isikute puhul.
 author: kherr75
 manager: AnnBe
 ms.date: 12/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
 ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304046"
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Taskukohase ravikindlustuse eelnõu (ACA) aruannete koostamine
 
@@ -70,4 +70,3 @@ Saate koostatud töötajate nimekirju eksportida, kasutades mis tahes Exceli fil
 Kui teil on vaja kindlustuskaitsega inimesi aruandesse lisada, kuna pakute tööandjana oma kindlustust, siis saate vaadata ka kõiki soodustusplaanidega kaetud ülalpeetavaid, kellel on märge **ACA-le esitatav**, valides toimingupaanilt toimingu Kuva ülalpeetava kindlustus.
 
 **Märkus:** päringuaknas kuvatakse ainult need soodustused, mille plaanil on märge **ACA-le esitatav**.
-

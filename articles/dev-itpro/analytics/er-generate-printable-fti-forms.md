@@ -1,13 +1,13 @@
 ---
 title: Prinditavate FTI-vormide loomine
-description: "Teemas selgitatakse, kuidas kasutada elektroonilise aruandluse (ER) raamistikku, et luua prinditavaid vabas vormis arvete (FTI) vorme Microsoft Office’i dokumentidena."
+description: Teemas selgitatakse, kuidas kasutada elektroonilise aruandluse (ER) raamistikku, et luua prinditavaid vabas vormis arvete (FTI) vorme Microsoft Office’i dokumentidena.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d27a11a0d925b0f1164578f9c04e6abd4736b2b2
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325522"
 ---
-
 # <a name="generate-printable-fti-forms"></a>Prinditavate FTI-vormide loomine
 
 [!include[banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ Elektroonilise aruandluse (ER) raamistik võimaldab teil luua prinditavaid vabas
 
 ## <a name="overview"></a>Ülevaade
 
-Peale olemasoleva võimaluse luua Microsofti SQL Serveri aruandlusteenustega (SSRS) prinditavaid FTI-vorme, saate nüüd selleks kasutada ka ER-i raamistikku. Saate hallata prinditavaid FTI-vorme Microsoft Office Excelis ja Wordis. Samuti saate konkreetsete nõuete täitmiseks muuta paigutust, andmevoogu ja vormingut ilma, et peaks tegema muudatusi koodis.
+Peale olemasoleva võimaluse luua teenusega Microsoft SQL Server Reporting Services (SSRS) prinditavaid FTI-vorme saate nüüd selleks kasutada ka elektroonilise aruandluse raamistikku. Saate hallata prinditavaid FTI-vorme Microsoft Office Excelis ja Wordis. Samuti saate konkreetsete nõuete täitmiseks muuta paigutust, andmevoogu ja vormingut ilma, et peaks tegema muudatusi koodis.
 
 > [!NOTE]
 > Kui soovite alustuseks näha ülevaadet olemasolevatest ER-i konfiguratsioonidest selle prinditavate FTI-vormide lahenduse näite jaoks, võite kohe liikuda selle teema jaotisesse **ER-i näidiskonfiguratsioonide allalaadimine, et luua prinditavaid FTI-vorme**.
@@ -112,16 +111,16 @@ FTI postitamisel saate ka luua FTI-vorme, kui lülitate sisse suvandi **Prindi a
 ER-i raamistik toetab praegu loodud dokumentide jaoks järgmisi sihtkohti.
 
 - **Allalaaditud fail** – loodud vorme pakutakse allalaadimistena, mida saate brauseri kaudu salvestada.
-- **Ekraan** – kasutatakse rakendust Microsoft Office 365 Excel, et kuvada loodud FTI-vormide eelvaateid Exceli vormingus.
-- **SharePointi kaust** – loodud vorme hoiustatakse dokumendihalduse raamistiku sätete järgi.
-- **Rakenduse arhiiv** – loodud vorme hoiustatakse Microsoft Azure’i salvestusruumis käivituslogi kirjete manustena.
+- **Ekraan** – loodud FTI-vormide eelvaadete kuvamiseks Exceli vormingus kasutatakse rakendust Microsoft Office 365 Excel.
+- **SharePointi kaust** – loodud vorme hoiustatakse dokumendihalduse raamistiku sätete põhjal.
+- **Rakenduse arhiiv**– loodud vorme hoiustatakse Microsoft Azure’i salvestusruumis käivituslogi kirjete manustena.
 - **Meil** – loodud vormid saadetakse meilimanustena.
 
 > [!NOTE]
 > Te ei saa loodud FTI-vorme otse printimisele saata, sest otseprintimine kasutab Dynamicsi printeri marsruudivaliku agenti, mis ei ole praegu toetatud.
 
 ## <a name="download-sample-er-configurations-to-generate-printable-fti-forms"></a>ER-i näidiskonfiguratsioonide allalaadimine, et luua prinditavaid FTI-vorme
-Saate alla laadida ER-i näidiskonfiguratsioone, et kasutada neid oma FTI-lahenduses mallina. Konfiguratsioone talletatakse Microsoft Dynamicsi teenuse Lifecycle Services (LCS) ühiste vahendite teegis. Konfiguratsioonid sisaldavad järgmist.
+Saate alla laadida ER-i näidiskonfiguratsioone, et kasutada neid oma FTI-lahenduses mallina. Konfiguratsioone talletatakse Microsoft Dynamics teenuse Lifecycle Services (LCS) ühiste vahendite teegis. Konfiguratsioonid sisaldavad järgmist.
 
 - Konfiguratsioon **Kliendiarvete mudel** sisaldab vajalikku andmemudelit ja mudelivastendust.
 - Konfiguratsioon **Kliendi FTI-aruanne (GER)** sisaldab näidisvormingut.
@@ -211,7 +210,7 @@ Kui eelmääratletud ID-ga **ERFTITMP** organisatsiooni meilimall on lisatud jur
 
 ![Meilimalli üleslaadimine](media/FTIbyGER-EmailTemplateBody.png)
 
-ER-i näidisvormingu ER-avaldis **Emailing.TxtToUse.Subject** on konfigureeritud asendama kõiki kohatäite %1 esinemisi töödeldava arve ID-ga.
+Elektroonilise aruandluse näidisvormingu ER-avaldis **Emailing.TxtToUse.Subject** on konfigureeritud asendama kõik kohatäite %1 esinemised töödeldava arve ID-ga.
 
 ER-i näidisvormingu ER-avaldis **Emailing.TxtToUse.Body** on konfigureeritud kohatäiteid järgmiste andmetega asendama.
 
@@ -226,4 +225,3 @@ ER-i näidisvormingu ER-avaldis **Emailing.TxtToUse.Body** on konfigureeritud ko
 
 ## <a name="additional-resources"></a>Lisaressursid
 [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
-

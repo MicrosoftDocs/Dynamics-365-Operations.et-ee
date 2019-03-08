@@ -1,13 +1,13 @@
---- 
-title: "Vormingute loomisel andmemudelite määratluste valimine"
-description: "Selle protseduuri toimingute lõpuleviimiseks peate esmalt läbima protseduuri „ER Konfiguratsioonipakkuja loomine ja selle märkimine aktiivseks“."
+---
+title: Vormingute loomisel andmemudelite määratluste valimine
+description: Selle protseduuri toimingute lõpuleviimiseks peate esmalt läbima protseduuri „ER Konfiguratsioonipakkuja loomine ja selle märkimine aktiivseks“.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334492"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Vormingute loomisel andmemudelite määratluste valimine
 
@@ -81,7 +81,7 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
     * Nõutava juurkauba mudeli vastenduste määramiseks kasutage elektroonilise aruandluse koosturit.  
 2. Klõpsake valikut Kujundaja.
     * Saate simuleerida mudeli juurkauba valitud mudelivastenduse sätte.  
-3. Valige puul suvand "Dynamics 365 for Operations\tabeli kirjed".
+3. Valige puul väärtus Dynamics 365 for Operations \ Tabeli kirjed.
 4. Klõpsake suvandit Juure lisamine.
 5. Sisestage nimeväljale „Ledger”.
 6. Sisestage väljale Tabel suvand LedgerJournalTrans.
@@ -98,5 +98,4 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 4. Sisestage või valige väärtus väljal Andmemudeli definitsioon.
     * Pange tähele, et rakenduse andmeallikasse vastendamiseks on nüüd saadaval ainult üks juurkaup. Kui kasutusele on võetud vähemalt üks mudelivastendus, saab elektroonilise aruandluse vormingusse lisada ainult need mudeli juurkaubad, mis on vastendatud rakenduse andmeallikatesse.   
 5. Sulgege leht.
-
 

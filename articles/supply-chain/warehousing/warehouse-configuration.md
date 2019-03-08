@@ -5,9 +5,9 @@ author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318438"
 ---
-
 # <a name="warehouse-configuration"></a>Lao konfiguratsioon
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Selles artiklis selgitatakse, kuidas konfigureerida ladu. See sisaldab teavet se
 **Märkus.** See artikkel kehtib mooduli **Laohaldus** funktsioonidele (täpsem ladustamine). See ei kehti ladustamisfunktsioonidele moodulis **Laohaldus**.
 
 ## <a name="warehouse-layout"></a>Lao paigutus
-Laohalduse süsteem rakenduses Microsoft Dynamics 365 for Finance and Operations pakub paindlikke võimalusi laopaigutuse määratlemiseks, et rahuldada muutuvaid vajadusi, et saavutaksite optimaalse laotõhususe.
+Laohalduse süsteem Microsoft Dynamics 365 for Finance and Operationsis pakub paindlikke võimalusi lao paigutuse määratlemiseks, et rahuldada muutuvaid vajadusi, nii et saavutaksite optimaalse lao tõhususe.
 
 -   Saate luua ja kõrge prioriteediga ja madal prioriteediga hoiustamisalasid kaupade optimaalseks paigutamiseks.
 -   Saate jagada oma lao tsoonideks, et rahuldada mitmesuguseid ladustamisvajadusi, näiteks temperatuurinõudeid või mitmesuguseid kaubakäibe kiirusi.
@@ -116,7 +115,6 @@ Iga asukohakorralduse reaga seotud toimingute hõlpsamaks ja kiriemaks määratl
 --------
 
 [Asukohtade konfigureerimine WMS-loaga laos (tegevuse juhis)](tasks/configure-locations-wms-enabled-warehouse.md)
-
 
 
 

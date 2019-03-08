@@ -1,13 +1,13 @@
 ---
-title: "Konfigureerimine ja töötamine kõnekeskuse tellimuste ootelolekutega"
-description: "Selles teemas kirjeldatakse, kuidas töötada tellimuste ootelolekutega rakenduses Microsoft Dynamics 365 for Retail."
+title: Konfigureerimine ja töötamine kõnekeskuse tellimuste ootelolekutega
+description: Selles teemas kirjeldatakse, kuidas töötada tellimuste ootelolekutega rakenduses Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335297"
 ---
-
-# <a name="configure-and-work-with-call-center-order-holds"></a>Konfigureerimine ja töötamine kõnekeskuse tellimuste ootelolekutega
+# <a name="configure-and-work-with-call-center-order-holds"></a>Kõnekeskuse tellimuse ootelolekute konfigureerimine ja nendega töötamine
 
 [!include [banner](includes/banner.md)]
 
@@ -104,4 +103,3 @@ Kui kasutajad soovivad ooteloleku tühjendada, kuid teevad tellimusele enne sell
 ## <a name="reporting-options"></a>Aruandlusvalikud
 
 Avage **Retail** \> **Päringud ja aruanded** \> **Kõnekeskuse aruanded** \> **Tellimuse ootelolekute aruanne**, et käivitada aruanne tellimuste ooteloleku kohta kuupäevavahemiku, ooteloleku koodi või muude valitud kriteeriumide alusel.
-

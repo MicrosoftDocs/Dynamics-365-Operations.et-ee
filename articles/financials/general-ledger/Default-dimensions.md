@@ -1,13 +1,13 @@
 ---
 title: Finantsdimensioonid ja sisestamine
-description: "Kontoplaani koostades ja häälestades peate arvestama sellega, kuidas erinevad komponendid dokumendi või tööraamatu sisestamisel koos toimivad. Need komponendid on konto struktuurid, täpsemad reeglid ning tasakaalustavad ja fikseeritud dimensioonid. Selles teemas selgitatakse, mis komponendid on ja kuidas need koos töötavad."
+description: Kontoplaani koostades ja häälestades peate arvestama sellega, kuidas erinevad komponendid dokumendi või tööraamatu sisestamisel koos toimivad. Need komponendid on konto struktuurid, täpsemad reeglid ning tasakaalustavad ja fikseeritud dimensioonid. Selles teemas selgitatakse, mis komponendid on ja kuidas need koos töötavad.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 89bc6f1f01f77dac4c24419705737783b07e4ac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327937"
 ---
-
 # <a name="financial-dimensions-and-posting"></a>Finantsdimensioonid ja sisestamine 
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Kontoplaani koostades ja häälestades peate arvestama sellega, kuidas erinevad 
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Kontoplaani ja finantsdimensiooni komponendid
 
-Rakenduses Microsoft Dynamics 365 for Finance and Operations on põhikontode ja finantsdimensioonide väärtuste kehtivate kombinatsioonide määratlemiseks põhjalik reeglitepõhine süsteem. Selles teemas antakse lühiülevaade iga komponendi funktsioonidest ja sellest, kuidas komponenti leida.
+Microsoft Dynamics 365 for Finance and Operations on põhikontode ja finantsdimensioonide väärtuste kehtivate kombinatsioonide määratlemiseks põhjalik reeglitepõhine süsteem. Selles teemas antakse lühiülevaade iga komponendi funktsioonidest ja sellest, kuidas komponenti leida.
 
 ### <a name="account-structures"></a>Konto struktuurid
 
@@ -57,7 +56,7 @@ Vaikedimensioonid tulevad erinevatest kohtadest, näiteks põhikirjetest (nt kli
 Erinevate komponentide käitamisjärjekord tekitab sageli küsimusi. On oluline mõista, millises järjekorras vaikedimensioone rakendatakse, sest sellest sõltub häälestamisel kasutatav lähenemine.
 
 > [!NOTE]
-> See teave kehtib ainult rakenduses vaikedimensioonide rakendamisel. Andmete Microsoft Excelist või rakendusest Data Management Network importimisel rakendamine erineb.
+> See teave kehtib ainult rakenduses vaikedimensioonide rakendamisel. Andmete Microsoft Excelist või rakendusest Data Management Network importimisel käitumine erineb.
 
 ### <a name="example-1"></a>Näide 1
 
@@ -128,4 +127,3 @@ Mõnedes järgmistest teabematerjalidest viidatakse rakenduse Finance and Operat
 [Dimensiooni vaikeväärtused arvestuse jaotustes](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Dimensiooni vaikeväärtused dimensiooniraamistikus](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2014/09/)
-

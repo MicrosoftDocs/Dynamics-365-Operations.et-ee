@@ -1,13 +1,13 @@
 ---
-title: "Arvete kinnitamise mobiilne tööruum"
-description: "See teema annab teavet arvete kinnitamise mobiilse tööruumi kohta. See tööruum annab loendi arvetest, mis on määratud teile hankija arve päise töövooprotsessi kaudu."
+title: Arvete kinnitamise mobiilne tööruum
+description: See teema annab teavet arvete kinnitamise mobiilse tööruumi kohta. See tööruum annab loendi arvetest, mis on määratud teile hankija arve päise töövooprotsessi kaudu.
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: ff726670e0fd7566a74e6def73555a7c53b86f97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6c95c2779d996f489679c8dda4cda462ba0a05ac
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326994"
 ---
-
 # <a name="invoice-approvals-mobile-workspace"></a>Arvete kinnitamise mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
@@ -66,13 +65,13 @@ Enne selle mobiilse tööruumi kasutamist peavad olema täidetud järgmised eelt
 
 Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
--   [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
 
 1.  Käivitage rakendus oma mobiilses seadmes.
-2.  Sisestage Microsoft Dynamics 365 URL.
+2.  Sisestage oma Microsoft Dynamics365 URL.
 3.  Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
 4.  Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
@@ -88,4 +87,3 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 7.  Valige **Manused** kõigi arvele manustatud märkmete või failide kuvamiseks.
 8.  Valige lehelt **Arve üksikasjad** sobiv töövoog ülevaatuse protsessi lõpuleviimiseks.
 9.  Valige suvand **Valmis**.
-

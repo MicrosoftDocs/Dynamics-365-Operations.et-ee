@@ -1,31 +1,30 @@
 ---
 title: Hooldusobjekti seosed
-description: "Saate luua hooldusobjektide vahelisi seoseid, kas hooldusobjekti ja hooldusleppe või hooldustellimuse vahel."
+description: Saate luua hooldusobjektide vahelisi seoseid, kas hooldusobjekti ja hooldusleppe või hooldustellimuse vahel.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 03047b3eccf3c90d4cf7426ddaec83f10dbea1b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: 0e54a0dc9b643077d45fe76e073772e81f99ea44
-ms.contentlocale: et-ee
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314367"
 ---
-
 # <a name="service-object-relations"></a>Hooldusobjekti seosed 
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,7 @@ Tänu sellele, et leppele rakenduvad hooldusobjekti seosed, saate nende objektid
 | Tund             | Käigukasti puhastamine   | EL-L/1000      |
 | Kaup             | Puhastusvahendid | EL-L/1000      |
 
-Hooldusvisiidi käigus peate asendama lifti EL-S/1000 käigukasti. Objekti komponendi välja vahetamisel pääsete hetke hooldusleppele seadistatud hooldusobjekti seost kasutades ligi koosluse koostajale.
+Teenusvisiidi käigus peate asendama lifti EL-S/1000 käigukasti. Objekti komponendi välja vahetamisel pääsete hetke hooldusleppele seadistatud hooldusobjekti seost kasutades ligi koosluse koostajale.
 
 Ligipääs koosluse koostajale hooldusobjekti seost kasutades
 
@@ -78,5 +77,4 @@ Ligipääs koosluse koostajale hooldusobjekti seost kasutades
 ## <a name="automatically-created-service-orders"></a>Automaatselt loodud hooldustellimused
 
 Hooldusleppele automaatselt hooldustellimuste loomisel liiguvad ka lepete hooldusobjekti seosed loodud hooldustellimustesse.
-
 

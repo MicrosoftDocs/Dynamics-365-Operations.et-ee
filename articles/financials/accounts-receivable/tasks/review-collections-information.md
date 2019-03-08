@@ -1,13 +1,13 @@
---- 
-title: "Sissenõuete teabe ülevaatamine"
-description: "Selles protseduuris selgitatakse sissenõuete teabe ülevaatamist ning ka mitmesuguseid häälestussuvandeid ja sissenõudekandeid."
+---
+title: Sissenõuete teabe ülevaatamine
+description: Selles protseduuris selgitatakse sissenõuete teabe ülevaatamist ning ka mitmesuguseid häälestussuvandeid ja sissenõudekandeid.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 44d89d2bacc8f301a19bfd09d229809d492a55fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb0866505702ec5d047b6c8f3f0657aae787bedc
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349097"
 ---
 # <a name="review-collections-information"></a>Sissenõuete teabe ülevaatamine
 
@@ -110,7 +110,7 @@ Selles protseduuris selgitatakse sissenõuete teabe ülevaatamist ning ka mitmes
     * Valige aegumisperioodi definitsioon. Vaikimisi kuvatakse kliendi aegumise hetktõmmisega seostatud aegumisperioodi määratlus. Aegumisperioodi määratlus juhib aegumisperioode ja summasid, mis on näidatud kiirinfos Aegunud saldod ja Krediiditeave.  
     * Avage menüü, mis sisaldab järgmisi elemente: Ettevõte – aegunud saldode summade ja krediiditeabe kiirinfo kuvamine juriidilise isiku arvestusvaluutas.    Klient – aegunud saldode ja krediiditeabe kiirinfo kuvamine kliendi arvestusvaluutas.  
     * Valige kliendi aegumise hetktõmmises üks või mitu juriidilist isikut, kelle teavet soovite vaadata. Loendis olevad juriidilised isikud olid aegumise hetktõmmise loomisel valitud.  
-    * Vaadake kliendi väljavõtet Microsoft Exceli vormingus. Saate valida kannete vahemiku alguskuupäeva, mis kaasatakse väljavõttesse, ja otsustada, kas soovite kaasata ainult avatud kanded või nii avatud kui ka tasakaalustatud kanded. Kui aegumise hetktõmmis hõlmab mitme juriidilise isiku teavet, kaasatakse kõigi juriidiliste isikute kanded.  
+    * Kliendi väljavõtte kuvamine Microsoft Exceli vormingus. Saate valida kannete vahemiku alguskuupäeva, mis kaasatakse väljavõttesse, ja otsustada, kas soovite kaasata ainult avatud kanded või nii avatud kui ka tasakaalustatud kanded. Kui aegumise hetktõmmis hõlmab mitme juriidilise isiku teavet, kaasatakse kõigi juriidiliste isikute kanded.  
     * Avage vorm Dokumendid, kus saate luua või redigeerida dokumente või märkmeid.  
 7. Klõpsake toimingupaanil valikut Suhtlus.
     * Avage Outlook, kus saate saata meilisõnumi väljal Kontakt määratud kontaktile. Kui sissenõuete kontakt määramata, kasutatakse kliendi konto peamist aadressi. Kui esmane kontakt ei ole määratud, saadetakse meilisõnumid esimesele aadressile vormil Kontaktid. Valitud kanded kaasatakse manustena. Manus on Exceli vormingus ja hõlmab kolme töölehte. Kliendi kontaktidele saadetavate sõnumite meilimalli saate määrata vormil Müügireskontro parameetrid.  
@@ -131,5 +131,4 @@ Selles protseduuris selgitatakse sissenõuete teabe ülevaatamist ning ka mitmes
     * Valige kliendile määratud sissenõuete juhtum või jätke väli tühjaks. Kui juhtum on valitud, kuvatakse vormil ainult selle juhtumiga seostatud kanded ja tegevused.  
 8. Klõpsake käsku Kuva loend.
     * Valige kliendi konto või nõustuge vaikesisestusega. Vaikimisi on see loendilehel või vormil, millelt avasite selle vormi, valitud kliendi konto. Kui avasite vormi loendilehelt, on loendis kliendid, kes on kaasatud loendilehel kasutatavasse kliendikausta.  
-
 

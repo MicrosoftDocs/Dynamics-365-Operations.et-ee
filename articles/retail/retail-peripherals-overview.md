@@ -1,13 +1,13 @@
 ---
-title: "Jaemüügi välisseadmed"
-description: "Selles teemas selgitatakse mõisteid, mis on seotud jaemüügi välisseadmetega."
+title: Jaemüügi välisseadmed
+description: Selles teemas selgitatakse mõisteid, mis on seotud jaemüügi välisseadmetega.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/16/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: c2539af8a29b580a10002bc8648505d42c7b8456
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347855"
 ---
-
 # <a name="retail-peripherals"></a>Jaemüügi välisseadmed
 
 [!include [banner](includes/banner.md)]
@@ -40,13 +39,13 @@ Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt;
 
 ### <a name="devices"></a>Seadmed
 
-Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Seadmed**. Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. Seadmeid saab vastendada järgmiste rakenduse tüüpidega: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android ja Retail Modern POS – iOS.
+Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Seadmed**. Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. Seadmed saab vastendada järgmiste rakendusetüüpidega: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android ja Retail Modern POS – iOS.
 
-### <a name="retail-modern-pos"></a>Uudne jaemüügikassa
+### <a name="retail-modern-pos"></a>Retail Modern POS
 
 Modern POS on Microsoft Windowsi kassaprogramm. Seda saab juurutada Windows 10 operatsioonisüsteemides (OS-ides).
 
-### <a name="cloud-pos"></a>Cloud POS
+### <a name="cloud-pos"></a>Pilve kassa
 
 Cloud POS on programmi Modern POS brauseripõhine versioon, millele pääseb juurde veebibrauserist.
 
@@ -56,7 +55,7 @@ Modern POS iOS-ile on programmi Modern POS iOS-i põhine versioon, mida saab juu
 
 ### <a name="modern-pos-for-android"></a>Modern POS Androidile
 
-Modern POS Androidile on Modern POS-i programmi Androidi-põhine versioon, mida saab juurutada Androidi seadmetel.
+Modern POS Androidile on Modern POS-i programmi Androidi-põhine versioon, mida saab juurutada Androidi seadmetes.
 
 ### <a name="pos-peripherals"></a>Kassa välisseadmed
 
@@ -117,9 +116,9 @@ Makseseadme tugi juurutatakse makseliidese kaudu. Makseseadmed võivad täita ü
 
 ### <a name="opos"></a>OPOS
 
-Selleks, et Microsoft Dynamics 365 for Retailiga saaks kasutada suurimat seadmevalikut, on valdkonna standard Objektilinkimine ja -manustamine müügikohas peamine jaemüügi välisseadmete platvorm, mida Microsoft Dynamics 365 for Retailis kasutatakse. Standardi Objektilinkimine ja -manustamine müügikohas looja on organisatsioon National Retail Federation (NRF), mis kehtestab jaemüügi välisseadmetele standardsed sideprotokollid. OPOS on standardi Objektilinkimine ja -manustamine müügikohas laialdaselt kasutatav juurutus. See töötati välja 1990. aastate keskel ja seda on sestsaadik mitu korda uuendatud. OPOS pakub seadmedraiveri arhitektuuri, mis võimaldab kassa riistvara hõlpsat integreerimist Windowsi-põhiste kassasüsteemidega. OPOS-i juhtelemendid tegelevad ühilduva riistvara ja kassatarkvara vahelise sidega. OPOS-i juhtelement koosneb kahest osast.
+Selleks et Microsoft Dynamics 365 for Retailiga saaks kasutada suurimat seadmevalikut, on valdkonna standard Objektilinkimine ja -manustamine müügikohas peamine jaemüügi välisseadmete platvorm, mida Microsoft Dynamics 365 for Retail toetab. Standardi Objektilinkimine ja -manustamine müügikohas looja on organisatsioon National Retail Federation (NRF), mis kehtestab jaemüügi välisseadmetele standardsed sideprotokollid. OPOS on standardi Objektilinkimine ja -manustamine müügikohas laialdaselt kasutatav juurutus. See töötati välja 1990. aastate keskel ja seda on sestsaadik mitu korda uuendatud. OPOS pakub seadmedraiveri arhitektuuri, mis võimaldab kassa riistvara hõlpsat integreerimist Windowsi-põhiste kassasüsteemidega. OPOS-i juhtelemendid tegelevad ühilduva riistvara ja kassatarkvara vahelise sidega. OPOS-i juhtelement koosneb kahest osast.
 
-- **Juhtimisobjekt** – seadmeklassi (nt ridade kuvarite) juhtimisobjekt pakub tarkvaraprogrammi liidest. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) pakub standardset OPOS-i juhtimisobjektide kogumit, mida tuntakse kui üldisi juhtimisobjekte (CCO-sid). CCO-sid kasutatakse Microsoft Dynamics 365 for Retaili kassakomponendi testimiseks. Seega aitab testimine tagada, et kui Microsoft Dynamics 365 for Retail toetab OPOS-i kaudu seadmeklassi, siis saab toetada paljusid seadmetüüpe, eeldusel, et tootja pakub OPOS-i jaoks loodud hooldusobjekti. Iga seadmetüüpi pole vaja otseselt testida.
+- **Juhtimisobjekt** – seadmeklassi (nt ridade kuvarite) juhtimisobjekt pakub tarkvaraprogrammi liidest. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) pakub standardset OPOS-i juhtimisobjektide kogumit, mida tuntakse kui üldisi juhtimisobjekte (CCO-sid). CCO-sid kasutatakse Microsoft Dynamics 365 for Retaili kassakomponendi katsetamiseks. Seega aitab katsetamine tagada, et kui Microsoft Dynamics 365 for Retail toetab OPOS-i kaudu seadmeklassi, siis saab toetada paljusid seadmetüüpe eeldusel, et tootja pakub OPOS-i jaoks loodud hooldusobjekti. Iga seadmetüüpi pole vaja otseselt testida.
 - **Hooldusobjekt** – hooldusobjekt tagab juhtimisobjekti (CCO) ja seadme vahelise side. Tavaliselt annab seadme hooldusobjekti seadme tootja. Kuid mõnel juhul võib teil olla vaja hooldusobjekt tootja veebisaidilt alla laadida. Näiteks võib olla saadaval uuem hooldusobjekt. Tootja veebisaidi aadressi leiate oma riistvara dokumentidest.
 
 [![Kontrolli objekti ja teenuse objekti](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -127,7 +126,7 @@ Selleks, et Microsoft Dynamics 365 for Retailiga saaks kasutada suurimat seadmev
 Juhtimisobjekt ja hooldusobjekt kassa OLE OPOS-i juurutuse tugi aitab tagada, et kui seadme tootjad ja kassa avaldajad juurutavad standardi õigesti, siis töötavad kassasüsteemid ja toetatud seadmed koos, isegi, kui neid eelnevalt koos ei testitud.
 
 > [!NOTE]
-> OPOS-i tugi ei garanteeri kõigi OPOS-i draiveritega seadmete tuge. Microsoft Dynamics 365 for Retail peab esmalt toetama OPOS-i kaudu seda seadmetüüpi või -klassi. Lisaks ei pruugi hooldusobjektid CCO-de viimase versiooni suhtes alati ajakohased olla. Peaksite arvestama ka seda, et üldjuhul on hooldusobjektide kvaliteet erinev.
+> OPOS-i tugi ei garanteeri kõigi OPOS-i draiveritega seadmete tuge. Microsoft Dynamics 365 for Retail peab seda seadmetüüpi või -klassi esmalt OPOS-i kaudu toetama. Lisaks ei pruugi hooldusobjektid CCO-de viimase versiooni suhtes alati ajakohased olla. Peaksite arvestama ka seda, et üldjuhul on hooldusobjektide kvaliteet erinev.
 
 ### <a name="windows"></a>&Aknad...
 
@@ -137,7 +136,7 @@ Kassas kviitungite printimine on OPOS-i jaoks optimeeritud. OPOS on tavaliselt p
 - Printeri kaudu ühendatud (pärgühendusega) seadmed ei pruugi Windowsi draiverite kasutamisel õigesti töötada. Näiteks sularahasahtel ei pruugi avaneda või kviitungiprinter ei pruugi oodatud viisil töötada.
 - OPOS toetab alati ulatuslikumat jaemüügi kviitungiprinterite põhiste muutujate kogumit, nt paberi lõikamist või kviitungi printimist.
 
-Kui OPOS-i juhtelemendid on kasutatava Windowsi printeri puhul saadaval, peaks printer ikkagi Microsoft Dynamics 365 for Retaili jaemüügi mooduliga õigesti töötama.
+Kui OPOS-i juhtelemendid on kasutatava Windowsi printeri puhul saadaval, peaks printer ikkagi Microsoft Dynamics 365 for Retailiga õigesti töötama.
 
 ### <a name="universal-windows-platform"></a>Universaalne Windowsi platvorm
 
@@ -203,7 +202,7 @@ Lisateavet leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja insta
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Rakenduse Modern POS Windowsile seadistamine ja konfigureerimine
 
-Teavet leiate jaotisest [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).
+Lisateavet vt teemast [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS-i seadme seadistamine ja konfigureerimine
 
@@ -223,7 +222,7 @@ Järgmises tabelis on näidatud toetatud topoloogiaid ja juurutusstsenaariume.
 | Klient      | IPC riistvarajaam | IIS-i riistvarajaam |
 |-------------|----------------------|----------------------|
 | Windowsi rakendus | Jah                  | Jah                  |
-| Cloud POS   | Ei                   | Jah                  |
+| Pilve kassa   | Ei                   | Jah                  |
 | Android     | Ei                   | Jah                  |
 | iOS         | Ei                   | Jah                  |
 
@@ -234,7 +233,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 | Klient      | IPC riistvarajaam | IIS-i riistvarajaam |
 |-------------|----------------------|----------------------|
 | Windowsi rakendus | Jah                  | Jah                  |
-| Cloud POS   | Ei                   | Jah                  |
+| Pilve kassa   | Ei                   | Jah                  |
 | Android     | Ei                   | Jah                  |
 | iOS         | Ei                   | Jah                  |
 
@@ -296,7 +295,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 <ul>
 <li>OPOS</li>
 <li>Võrk
-<blockquote>[!NOTE] Seadistada saab ainult ühe sahtli, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</blockquote>
+<blockquote>MÄRKUS. Seadistada saab ainult ühe sahtli, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</blockquote>
 </li>
 </ul>
 </td>
@@ -307,7 +306,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 <ul>
 <li>OPOS</li>
 <li>Võrk
-<blockquote>[!NOTE] Seadistada saab ainult ühe sahtli, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</blockquote>
+<blockquote>MÄRKUS. Seadistada saab ainult ühe sahtli, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</blockquote>
 </li>
 </ul>
 </td>
@@ -375,7 +374,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 <ul>
 <li>OPOS</li>
 <li>Windows draiver
-<blockquote>[!NOTE] Windowsi printerite puhul võrgus peab riistvarajaama kasutajal olema printerile juurdepääsemise õigus.</blockquote>
+<blockquote>MÄRKUS. Windowsi printerite puhul võrgus peab riistvarajaama kasutajal olema printerile juurdepääsemise õigus.</blockquote>
 </li>
 <li>Võrk</li>
 </ul>
@@ -405,7 +404,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 <ul>
 <li>OPOS</li>
 <li>Võrk
-<blockquote>[!NOTE] Seadistada saab ainult ühe sahtli riistvaraprofiili kohta, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</blockquote>
+<blockquote>MÄRKUS. Seadistada saab ainult ühe sahtli riistvaraprofiili kohta, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</blockquote>
 </li>
 </ul>
 </td>
@@ -470,7 +469,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 <ul>
 <li>OPOS</li>
 <li>Windows draiver
-<blockquote>[!NOTE] Windowsi printerite puhul võrgus peab riistvarajaama kasutajal olema printerile juurdepääsemise õigus.</blockquote>
+<blockquote>MÄRKUS. Windowsi printerite puhul võrgus peab riistvarajaama kasutajal olema printerile juurdepääsemise õigus.</blockquote>
 </li>
 <li>Võrk</li>
 </ul>
@@ -492,7 +491,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 <ul>
 <li>OPOS</li>
 <li>Võrk
-<blockquote>[!NOTE] Seadistada saab ainult ühe sahtli riistvaraprofiili kohta, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</blockquote>
+<blockquote>MÄRKUS. Seadistada saab ainult ühe sahtli riistvaraprofiili kohta, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</blockquote>
 </li>
 </ul>
 </td>
@@ -523,7 +522,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 Lisateavet riistvaraprofiilide loomise kohta leiate jaotisest [Kanaliklientide (sh registrite ja riistvarajaamade) määratlemine ja haldamine](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
-> Microsoft Dynamics 365 for Retaili versiooni 1611 puhul ei kasutata enam riistvarajaama profiili. Atribuudid, mille varem riistvarajaama profiilis seadistasite, kuuluvad nüüd riistvarajaama juurde.
+> Microsoft Dynamics 365 for Retaili versiooni 1611 puhul riistvarajaama profiili enam ei kasutata. Atribuudid, mille varem riistvarajaama profiilis seadistasite, kuuluvad nüüd riistvarajaama juurde.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>IPC (integreeritud) riistvarajaamaga Modern POS Windowsile
 
@@ -564,7 +563,7 @@ Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, millel 
 5. Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 6. Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 7. Riistvarajaama paigaldamine. Lisateavet riistvarajaama paigaldamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).
-8. Installige ja aktiveerige Modern POS. Lisateavet Modern POS-i installimise kohta leiate jaotisest [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).
+8. Installige ja aktiveerige Modern POS. Lisateavet Modern POS-i installimise kohta vt teemast [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).
 9. Logige Modern POS-i sisse ja valige **Kassaväliste toimingute tegemine**.
 10. Käivitage toiming **Riistvarajaamade haldamine**.
 11. Klõpsake käsku **Halda**.
@@ -593,7 +592,7 @@ Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, mis kas
 6. Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 7. Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 8. Installige riistvarajaam igasse hostarvutisse, mille toimingutes 2 ja 3 seadistasite. Lisateavet riistvarajaama paigaldamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).
-9. Installige ja aktiveerige Modern POS. Lisateavet Modern POS-i installimise kohta leiate jaotisest [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).
+9. Installige ja aktiveerige Modern POS. Lisateavet Modern POS-i installimise kohta vt teemast [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).
 10. Logige Modern POS-i sisse ja valige **Kassaväliste toimingute tegemine**.
 11. Käivitage toiming **Riistvarajaamade haldamine**.
 12. Klõpsake käsku **Halda**.
@@ -743,7 +742,6 @@ Järgmisi välisseadmeid testiti, kasutades sihtotstarbelist (mitte ühist) IIS-
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud     |
-| Star         | TSP100   | OPOS      | Nõuab TSP650II draivereid |
 | HP           | F7M67AA  | OPOS      | USB-toitel               |
 
 #### <a name="bar-code-scanner"></a>Vöötkoodilugeja
@@ -818,7 +816,6 @@ Järgmisi välisseadmeid testiti, kasutades ühist IIS-i riistvarajaama koos Mod
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud     |
-| Star         | TSP100   | OPOS      | Nõuab TSP650II draivereid |
 | HP           | F7M67AA  | OPOS      | USB-toitel               |
 
 #### <a name="payment-terminal"></a>Makseterminal
@@ -894,4 +891,3 @@ Järgmisi välisseadmeid testiti, kasutades ühist IIS-i riistvarajaama koos Mod
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Jaemüügi välisseadme simulaator](dev-itpro/retail-peripheral-simulator.md)
-

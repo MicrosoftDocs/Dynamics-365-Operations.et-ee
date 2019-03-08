@@ -1,13 +1,13 @@
 ---
 title: Kuluhalduse Power BI sisu
-description: "See teema kirjeldab, mida hõlmab kuluhalduse Power BI sisu."
+description: Selles teemas kirjeldatakse, mida hõlmab kuluhalduse Power BI sisu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327799"
 ---
-
 # <a name="cost-management-power-bi-content"></a>Kuluhalduse Power BI sisu
 
 [!include [banner](../includes/banner.md)]
@@ -36,38 +35,38 @@ ms.lasthandoff: 08/13/2018
 **Kuluhalduse** Microsoft Power BI sisu on mõeldud laoraamatupidajatele või organisatsioonis varude eest vastutavatele või varude olekust või lõpetamata toodangust (WIP) huvitatud üksikisikutele või neile, kes vastutavad või on huvitatud standardkulu erinevuste analüüsimisest.
 
 > [!NOTE]
-> Selles teemas kirjeldatud **Kuluhalduse** Power BI sisu kehtib rakenduse Dynamics 365 for Finance and Operations 8.0 puhul.
+> Selles teemas kirjeldatud **kuluhalduse** Power BI sisu kehtib Dynamics 365 for Finance and Operations 8.0 puhul.
 > 
-> Saidil AppSource saadaval olev **Kuluhalduse** Power BI sisupakett on aegunud. Lisateavet aegumise kohta vt teemast [AppSource’is saadaval olevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> AppSource’i saidil saadaolev **kuluhalduse** Power BI sisupakett on aegunud. Lisateavet aegumise kohta vt teemast [AppSource’is saadaolevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)
 
-See Power BI sisu pakub liigitatud vormingut, mis aitab teil jälgida varude jõudlust ja visualiseerida kulude voogu läbi nende. Pääsete juhtimisülevaadetele, nagu ringluskiirus; päevade arv, kui kaua varud on laos olnud; täpsus ja ABC-liigitus, ligi eelistatud koondtasemel (ettevõte, kaup, kaubagrupp või koht). Teavet saab kasutada ka finantsaruande üksikasjaliku lisana.
+See Power BI sisu pakub liigitatud vormingut, mis aitab teil jälgida varude jõudlust ja visualiseerida läbi nende kulude voogu. Pääsete juhtimisülevaadetele, nagu ringluskiirus; päevade arv, kui kaua varud on laos olnud; täpsus ja ABC-liigitus, ligi eelistatud koondtasemel (ettevõte, kaup, kaubagrupp või koht). Teavet saab kasutada ka finantsaruande üksikasjaliku lisana.
 
-Power BI sisu on rajatud on koondmõõtmisele **CostObjectStatementCacheMonthly**, millele on põhiandmete allikatabelina liidetud **CostObjectStatementCache**. Seda tabelit hallatakse andmekogumi vahemälu raamistikuga. Vaikimisi värskendatakse tabelit iga 24 tunni järel, kuid saate värskendamissagedust muuta või lubada andmekogumi vahemälu konfiguratsioonis käsitsi värskendused. Käsitsi värskendusi saab käivitada kas tööruumis **Kuluhaldus** või **Kuluanalüüs**.
+Power BI sisu on rajatud on koondmõõtmisele **CostObjectStatementCacheMonthly**, mille peamine andmeallikas on tabel **CostObjectStatementCache**. Seda tabelit hallatakse andmekogumi vahemälu raamistikuga. Vaikimisi värskendatakse tabelit iga 24 tunni järel, kuid saate värskendamissagedust muuta või lubada andmekogumi vahemälu konfiguratsioonis käsitsi värskendused. Käsitsi värskendusi saab käivitada kas tööruumis **Kuluhaldus** või **Kuluanalüüs**.
 
-Pärast iga tabeli **CostObjectStatementCache** värskendust tuleb enne, kui andmed Power BI visualisatsioonidel värskendatakse, värskendada koondmõõtmist **CostObjectStatementCacheMonthly**.
+Pärast tabeli **CostObjectStatementCache** iga värskendust tuleb enne, kui andmeid Power BI visualiseeringutel värskendatakse, värskendada koondmõõtmist **CostObjectStatementCacheMonthly**.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 
-**Kuluhalduse** Power BI sisu kuvatakse tööruumis **Kuluhaldus** ja **Kuluanalüüs**.
+**Kuluhalduse** Power BI sisu kuvatakse tööruumides **Kuluhaldus** ja **Kuluanalüüs**.
 
 Tööruum **Kuluhaldus** sisaldab järgmisi vahekaarte.
 
 - **Ülevaade** – sellel vahekaardil kuvatakse rakenduse andmed.
 - **Laoarvestuse olek** – sellel vahekaardil kuvatakse Power BI sisu.
-- **Tootmise raamatupidamise olek** – sellel vahekaardil kuvatakse Power BI sisu.
+- **Tootmisarevestuse olek** – sellel vahekaardil kuvatakse Power BI sisu.
 
 Tööruum **Kuluanalüüs** sisaldab järgmisi vahekaarte.
 
 - **Ülevaade** – sellel vahekaardil kuvatakse rakenduse andmed.
 - **Laoarvestuse analüüs** – sellel vahekaardil kuvatakse Power BI sisu.
-- **Tootmise raamatupidamise analüüs** – sellel vahekaardil kuvatakse Power BI sisu.
+- **Tootmisarevestuse analüüs** – sellel vahekaardil kuvatakse Power BI sisu.
 - **Standardse omahinna hälbe analüüs** – sellel vahekaardil kuvatakse Power BI sisu.
 
-## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruande lehed
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad aruandelehed
 
 **Kuluhalduse** Power BI sisu sisaldab aruandelehtede komplekti, mis koosneb mõõdikute kogumist. Neid mõõdikuid visualiseeritakse diagrammide, paanide ja tabelitena. 
 
-Järgmised tabelid annavad ülevaate **Kuluhalduse** Power BI sisu visualiseeringutest.
+Järgmised tabelid annavad ülevaate **kuluhalduse** Power BI sisu visualiseeringutest.
 
 ### <a name="inventory-accounting-status"></a>Laoarvestuse olek
 
@@ -173,9 +172,9 @@ Järgmised tabelid annavad ülevaate **Kuluhalduse** Power BI sisu visualiseerin
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 
-Rakenduse Microsoft Dynamics 365 for Finance and Operations andmeid kasutatakse **Kuluhalduse** Power BI sisu aruande lehtede täitmiseks. Need andmed esitatakse koondmõõtmistena, mis on koondatud üksuse kauplusesse, mis on analüüsimiseks optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Power BI integratsioon üksuse kauplusega](power-bi-integration-entity-store.md).
+Rakendusest Microsoft Dynamics 365 for Finance and Operations pärita andmeid kasutatakse **sisuhalduse** Power BI sisu aruandelehtede täitmiseks. Need andmed esitatakse koondmõõtmistena, mis on koondatud üksuse kauplusse, mis on analüüsimiseks optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Power BI integratsioon üksuse kauplusega](power-bi-integration-entity-store.md).
 
-Järgmiste objektide peamisi koondmõõdikuid kasutatakse Power BI sisu alusena.
+Järgmiste objektide peamisi koondmõõtmisi kasutatakse Power BI sisu alusena.
 
 | Objekt                          | Peamised koondmõõtmised | Finance and Operationsi andmeallikas | Väli               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
@@ -209,4 +208,3 @@ Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamisek
 | Juriidilised isikud                                          | Juriidilise isiku nimed                              |
 | Rahandussaasta kalendrid                                        | Rahanduskalender, aasta, kvartal, periood, kuu   |
 | Sait                                                    | ID, nimi, aadress, maakond, riik               |
-

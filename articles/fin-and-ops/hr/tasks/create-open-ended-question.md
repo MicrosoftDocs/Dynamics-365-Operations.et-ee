@@ -1,13 +1,13 @@
---- 
-title: "Avatud lõpetatud küsimuse loomine"
-description: "Avatud küsimused võimaldavad vastajatel oma vastuse anda."
+---
+title: Avatud lõpetatud küsimuse loomine
+description: Avatud küsimused võimaldavad vastajatel oma vastuse anda.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMQuestion
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 51d238e41e1c89211d158bd4aee958a85bec772d
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347901"
 ---
 # <a name="create-an-open-ended-question"></a>Avatud lõpetatud küsimuse loomine
 
@@ -37,5 +37,4 @@ Avatud küsimused võimaldavad vastajatel oma vastuse anda. Saate määrata, kas
 5. Valige suvand väljalt Sisendi tüüp.
     * Avatud küsimuse puhul kasutatakse sisendi tüüpi Tekst või Märkus.  
 6. Sisestage küsimus väljale Tekst.
-
 

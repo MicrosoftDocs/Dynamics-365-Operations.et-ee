@@ -1,13 +1,13 @@
---- 
-title: "Saate häälestada ametikohti"
+---
+title: Saate häälestada ametikohti
 description: Ametikohad on organisatsioonihierarhia madalama taseme oluline element.
 author: DarinKramer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmWorkforceWorkspace, HcmWorkerActivityChart, HcmAllWorkersListPart, HcmPosition, HcmPositionNewPosition, HcmJobLookup, HcmPositionReportsToDialog, HcmPositionLookup, FinancialDimensionDefaultTemplatesLookup, DimensionLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 5d69e6b926a047888a162dae1cdc870718d8f945
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337873"
 ---
 # <a name="set-up-positions"></a>Saate häälestada ametikohti
 
@@ -66,5 +66,4 @@ Ametikohad on organisatsioonihierarhia madalama taseme oluline element. Ametikoh
 29. Sisestage või valige väärtus väljal Jaotusmall.
 30. Sisestage või valige väärtus väljal Osakond.
 31. Klõpsake nuppu Salvesta.
-
 

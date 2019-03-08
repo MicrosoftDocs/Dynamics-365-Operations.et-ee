@@ -1,31 +1,31 @@
 ---
-title: "Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (15. november 2018)"
-description: "Teema kirjeldab funktsioone, mis on Microsoft Dynamics 365 for Talent Core HR-is kas uued või muudetud."
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (15. november 2018)
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talent Core HR-i uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 3cc19a8e5f726495e698a3a2f4ccce7460a61657
 ms.openlocfilehash: 0e9de5e36e67941ab09c773a63b0e7045105a07e
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303985"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-november-15-2018"></a>Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (15. november 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-november-15-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (15. november 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -56,4 +56,3 @@ Selle muudatusega saab kuvada valitud kauba jaoks õige teabe, kui navigeerida l
 
 - **Probleemi**: uuele töötajale seotuse lisamisel on nupud **Uus** ja **Redigeeri** hallid. 
 - **Lahendus:** veenduge enne manuse lehe avamist, et **Töötaja** lehe kiirinfod oleksid suletud. Kui kiirinfod on lehe **Töötaja** laadimisel suletud, on manuste nupud lubatud. (See probleem lahendatakse järgmisel platvormivärskendusel.)
-

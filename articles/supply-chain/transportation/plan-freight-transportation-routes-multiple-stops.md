@@ -1,13 +1,13 @@
 ---
 title: Mitme peatusega veose transpordimarsruutide plaanimine
-description: Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordimarsruutide plaanimisel Dynamics 365 for Finance and Operationsis.
+description: Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordiprotsesside plaanimisel Dynamics 365 for Finance and Operationsis.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328305"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Mitme peatusega veose transpordimarsruutide plaanimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordimarsruutide plaanimisel rakenduses Microsoft Dynamics 365 for Finance and Operations.
+Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordiprotsesside plaanimisel Microsoft Dynamics 365 for Finance and Operationsis.
 
 Keerukate transpordimarsruutide puhul, mis sisaldavad mitut peatust, saate kasutada marsruudiplaane ja marsruudi juhendeid. Kui sama marsruuti kasutatakse regulaarselt, saate seadistada plaanitud marsruudi.
 
@@ -51,7 +50,6 @@ Plaanitud marsruut on eelmääratud marsruudiplaan, millel on tarnekuupäevade g
 
 ## <a name="load-building-workbench"></a>Koorma koostamise töölaud
 Koorma koostamise töölaud kasutab koorma soovitamiseks müügitellimuste ja plaanitud marsruutide kliendiaadresse ja tarnekuupäevi. Vaikimisi sisestatakse marsruudi väärtused töölauale. Kuid võite valida alguskuupäeva, mis on marsruudi alguskuupäevast varasem. Koorma soovitamisel kontrollitakse kõigi avatud müügitellimuste tarneaadressi ja tarnekuupäeva. Kui tarneaadressi sihtnumber vastab marsruudiplaani keskuse sihtnumbrile ja kui tarnekuupäev on kriteeriumides valitud vahemikus, soovitatakse koormale müügitellimust. Arvestatakse ka koormamalli mahtu. Korraga pakutakse ainult ühte koormat. Kui teil on müügitellimus, mida ei arvestata, võib olla vaja kasutada teist koormamalli (nt suurema veoki või konteineri koormamalli) või plaanida täiendav tarne.
-
 
 
 

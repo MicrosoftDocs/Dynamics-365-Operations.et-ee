@@ -1,13 +1,13 @@
---- 
+---
 title: Kuluarvestuse pearaamatu andmeallika haldamine
 description: Selle toimingu abil saate hallata kuluarvestuse pearaamatu andmeallikat.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f53101d73bc69199fafb00de0fa1759d59ea4ce8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5735cabd5a1eab23fbe2b92cf1395110cb33a93c
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319312"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Kuluarvestuse pearaamatu andmeallika haldamine
 
@@ -36,7 +36,7 @@ Selle toimingu abil saate hallata kuluarvestuse pearaamatu andmeallikat. Enne se
 6. Klõpsake valikut Uus.
 7. Sisestage väärtus väljale Nimi.
 8. Sisestage või valige väärtus väljal Andmepakkuja.
-    * Selle näite puhul avage Dynamics 365 for Finance and Operations – Pearaamatu kanded.  
+    * Näiteks valige Dynamics 365 for Finance and Operations - Pearaamatu sisestused.  
 9. Sisestage või valige väärtus väljal Kuluelemendi dimensioon.
     * Selles näites valige Kuluelemendid.  
 10. Klõpsake nuppu Salvesta.
@@ -46,5 +46,4 @@ Selle toimingu abil saate hallata kuluarvestuse pearaamatu andmeallikat. Enne se
 13. Klõpsake valikut Uus.
 14. Valige väljal Sisestamiskiht väärtus Praegune.
 15. Klõpsake nuppu OK.
-
 

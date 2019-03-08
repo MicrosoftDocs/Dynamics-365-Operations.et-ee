@@ -1,13 +1,13 @@
---- 
+---
 title: Juriidilise isiku loomine
-description: "Juriidiline isik on organisatsioon, mis on tuvastatav õigusliku asutusega registreerimise kaudu."
+description: Juriidiline isik on organisatsioon, mis on tuvastatav õigusliku asutusega registreerimise kaudu.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2b1869afa9ebbfc81ca321c57cc8e01739103d16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 89d3babc4447ca7398521b93634db7ecb6cfb5de
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338540"
 ---
 # <a name="create-a-legal-entity"></a>Juriidilise isiku loomine
 
@@ -57,5 +57,4 @@ Juriidiline isik on organisatsioon, mis on tuvastatav õigusliku asutusega regis
 16. Laiendage jaotist Maks 1099.
     * Sisestage jaotises Maks 1099 juriidilisele isikule teave 1099.  
 17. Klõpsake nuppu Salvesta.
-
 

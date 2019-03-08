@@ -1,13 +1,13 @@
 ---
-title: "Hankija arve töölehtede ja arve kinnitustöölehtede vaikevastaskontod"
-description: "See teema aitab teil otsustada, kuhu peaksite arve töölehtede vaikekontod määrama."
+title: Hankija arve töölehtede ja arve kinnitustöölehtede vaikevastaskontod
+description: See teema aitab teil otsustada, kuhu peaksite arve töölehtede vaikekontod määrama.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f876e5dfdab67dd98b2449993c3ba2baacde1587
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 90b24e8e00a78c122e0f7c712a694c9c62bd4824
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320255"
 ---
-
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Hankija arve töölehtede ja arve kinnitustöölehtede vaikevastaskontod
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,7 @@ Kasutage järgmist tabelit, mis aitab teil otsustada, kuhu peaksite arve tööle
 <td>Valige see suvand, kui te tavaliselt aja jooksul maksate sama tüüpi asjad eest samadele hankijatele.</td>
 </tr>
 <tr class="odd">
-<td><strong>Töölehe nimed</strong> – seadistage töölehtede vaikevastaskontod leheküljel <strong>Töölehe nimed</strong>. Valige suvand <strong>Fikseeritud vastaskonto</strong>. Pange tähele, et ei saa määrata vaikevastaskontosid töölehe nimedele, kui töölehe nimede töölehe tüüp on <strong>Arveregister</strong> või <strong>Kinnitamine</strong>.</td>
+<td><strong>Töölehe nimed</strong> – seadistage töölehtede vaikevastaskontod leheküljel <strong>Töölehe nimed</strong>. Valige suvand <strong>Fikseeritud vastaskonto</strong>. Pange tähele, et te ei saa määrata vaikevastaskontosid töölehe nimedele, kui töölehe nimede töölehe tüüp on <strong>Arveregister</strong> või <strong>Kinnitamine</strong>.</td>
 <td><ul>
 <li>Töölehe päis, mis kasutab töölehe nime</li>
 <li>Töölehekanded töölehe nime kasutavatel töölehtedel</li>
@@ -78,7 +77,7 @@ Kasutage järgmist tabelit, mis aitab teil otsustada, kuhu peaksite arve tööle
 <td>Selle valiku abil saate seadistada spetsiifiliste väljaminekute ja kulude töölehed, mis arvestatakse konkreetsetele kontodele, olenemata hankijast või hankijagrupist, millesse hankija kuulub.</td>
 </tr>
 <tr class="even">
-<td><strong>Töölehe nimed</strong> – seadistage töölehtede vaikevastaskontod leheküljel <strong>Töölehe nimed</strong>. Tühjendage suvand <strong>Fikseeritud vastaskonto</strong>. Pange tähele, et ei saa määrata vaikevastaskontosid töölehe nimedele, kui töölehe nimede töölehe tüüp on <strong>Arveregister</strong> või <strong>Kinnitamine</strong>.</td>
+<td><strong>Töölehe nimed</strong> – seadistage töölehtede vaikevastaskontod leheküljel <strong>Töölehe nimed</strong>. Tühjendage suvand <strong>Fikseeritud vastaskonto</strong>. Pange tähele, et te ei saa määrata vaikevastaskontosid töölehe nimedele, kui töölehe nimede töölehe tüüp on <strong>Arveregister</strong> või <strong>Kinnitamine</strong>.</td>
 <td><ul>
 <li>Töölehe päis</li>
 <li>Töölehekanded töölehe nime kasutavatel töölehtedel</li>
@@ -87,14 +86,13 @@ Kasutage järgmist tabelit, mis aitab teil otsustada, kuhu peaksite arve tööle
 <td>Selle valiku abil saate seadistada vaikekontod, mida kasutatakse, kui hankija vaikevastaskontot pole määratud.</td>
 </tr>
 <tr class="odd">
-<td><strong>Töölehe päis</strong> – seadistage töölehe vaikevastaskonto töölehe kande lehtedel vaikekirjena. Pange tähele, et ei saa määrata vaikevastaskontosid töölehe päisele, kui töölehe nimede töölehe tüüp on <strong>Arveregister</strong> või <strong>Kinnitamine</strong>.</td>
+<td><strong>Töölehe päis</strong> – seadistage töölehe vaikevastaskonto töölehe kande lehtedel vaikekirjena. Pange tähele, et te ei saa määrata vaikevastaskontosid töölehe päisele, kui töölehe nimede töölehe tüüp on <strong>Arveregister</strong> või <strong>Kinnitamine</strong>.</td>
 <td>Töölehe kanded töölehel</td>
 <td>Töölehe vaikevastaskontot kasutatakse töölehe kande lehtedel vaikekirjena.</td>
 <td>Selle valiku abil saate kiirendada andmesisestust, kui enamikul töölehe kirjetest on sama vastaskonto.</td>
 </tr>
 </tbody>
 </table>
-
 
 
 

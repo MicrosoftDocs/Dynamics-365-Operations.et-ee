@@ -1,31 +1,30 @@
 ---
 title: Kandidaatide otsimine talendikaustu kasutades
 description: Selles teemas kirjeldatakse kuidas Attractis talendikaustu luua ja seadistada.
-author: 
+author: ''
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304043"
 ---
-
 # <a name="source-candidates-by-using-talent-pools"></a>Kandidaatide otsimine talendikaustu kasutades
 
 [!include[banner](../includes/banner.md)]
@@ -108,7 +107,7 @@ Kõigil kasutajatel on kandidaatide profiilide üldvaade. Valige otsitulemuste k
 
 - Vahekaart **Dokumendid** näitab mistahes dokumente, mille kandidaat on on lisanud oma profiilile töödele kandideerimiste käigus. Seda vahekaarti saab kasutada kandidaadi elulookirjelduste, kaaskirjade, portfoolio ja muu haldamiseks. Selle vahekaardi abil saate ka dokumente lisada.
 
-    Dokumendi vaatamiseks valige dokumentide loendist dokumendi nimi. Saate vaadata Microsoft Wordi dokumentide rakenduse Microsoft Office 365 abil. Saate dokumendid ka oma arvutisse alla laadida, kasutades iga dokumendi juures valikut **Laadi alla**.
+    Dokumendi vaatamiseks valige dokumentide loendist dokumendi nimi. Saate vaadata rakenduses Microsoft Wordi dokumente, kasutades Microsoft Office 365. Saate dokumendid ka oma arvutisse alla laadida, kasutades iga dokumendi juures valikut **Laadi alla**.
 
 - Vahekaart **LinkedIn** näitab kandidaadi LinkedIni andmeid. Selle vahekaardi kasutamiseks peate ühendama kasutaja sätetest oma LinkedIn konto ja loodud peab olema teie keskkonna LinkedIn Recruiteri ühendus. Lisainfo saamiseks vt [Hankimine tööriistaga LinkedIn Recruiter](./attract-linked-in-recruiter.md).
 
@@ -139,4 +138,3 @@ Sageli ei valita tööle mitmeid häid kandidaate, kuid te ei taha neid silmist 
 1. Valige avalduse lehelt **Lisa talendikausta**. Kuvatakse talendikaustade loendit, millele teil on juurdepääs.
 
 1. Valige või leidke talendikaust, seejärel valige kandidaadi talendikausta lisamiseks **Lisa**.
-

@@ -1,13 +1,13 @@
 ---
 title: Partii atribuudid
-description: "Selles teemas antakse teavet partii atribuutide kohta. Partii atribuudid on toormaterjalide ja varude partiid moodustavate valmistoodete omadused. See teema selgitab ka partiiatribuutide määramist ja seda, kuidas neilt partiide reserveerimisel otsida saab."
+description: Selles teemas antakse teavet partii atribuutide kohta. Partii atribuudid on toormaterjalide ja varude partiid moodustavate valmistoodete omadused. See teema selgitab ka partiiatribuutide määramist ja seda, kuidas neilt partiide reserveerimisel otsida saab.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 325e647185e3eb4c0eacdfd00c320804e31ddb48
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6c18b007a72686b1ede69b750e930d72e86f0aba
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347625"
 ---
-
 # <a name="batch-attributes"></a>Partii atribuudid
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Pääsete juurde mooduli Tooteteabe haldus lehel **Väljastatud tooted** valitud
 
 ## <a name="reserve-batches"></a>Partiide reserveerimine
 Saate otsida partii atribuute, kui reserveerite partiisid müügitellimuse jaoks, et täita kliendi tellimust, või kui komplekteerite ja reserveerite partiisid tootmistellimuse jaoks. Otsing aitab leida varude partii, mis sisaldab teie soovitud partiiatribuutidega toodet. Kui olete partii(de) asukoha(d) tuvastanud, saate reserveerida toote lähtevarude kandereale.
-
 
 
 

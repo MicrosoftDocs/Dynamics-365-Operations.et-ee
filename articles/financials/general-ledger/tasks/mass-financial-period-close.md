@@ -1,13 +1,13 @@
---- 
+---
 title: Finantsperioodi hulgisulgemine
-description: "See protseduur näitab, kuidas korraga mitmel juriidilisel isikul perioodi ootele panna või jäädavalt sulgeda."
+description: See protseduur näitab, kuidas korraga mitmel juriidilisel isikul perioodi ootele panna või jäädavalt sulgeda.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a2988b7ab0837cc9a3e4f1c4eaf3fe6e219fa721
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8d7151cbcd02f9312ca6b0de5e27231a0b0dc9d6
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311377"
 ---
 # <a name="mass-financial-period-close"></a>Finantsperioodi hulgisulgemine
 
@@ -46,5 +46,4 @@ See protseduur näitab, kuidas korraga mitmel juriidilisel isikul perioodi ootel
 11. Valige Uuenda perioodi olekut ja määrake olekuks Ootel, Avatud või Jäädavalt suletud.
     * Suvand Avatud näitab, et perioodile saab sisestada, eeldusel, et kasutajal on juurdepääs. Ootel tähendab, et perioodi ei saa sisestada, kuid perioodi saab uuesti avada. Jäädavalt suletud tähendab, et periood on suletud ja seda ei saa enam kunagi avada. Korrigeerimisi ei saa sisestada. Me ei soovita määrata perioodi olekuks Jäädavalt suletud, enne kui kõik korrigeerimised ja auditid on lõpule viidud.  
 12. Klõpsake käsku Uuenda.
-
 

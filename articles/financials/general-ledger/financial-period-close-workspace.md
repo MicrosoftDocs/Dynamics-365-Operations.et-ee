@@ -1,13 +1,13 @@
 ---
-title: "Finantsperioodi sulgemise tööruum"
-description: "Selles artiklis antakse ülevaade finantsperioodi sulgemise tööruumist ja sellega seotud konfiguratsioonist."
+title: Finantsperioodi sulgemise tööruum
+description: Selles artiklis antakse ülevaade finantsperioodi sulgemise tööruumist ja sellega seotud konfiguratsioonist.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9c3c7f00d0a0e4379547edc5199f4a9a6727f3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326902"
 ---
-
 # <a name="financial-period-close-workspace"></a>Finantsperioodi sulgemise tööruum
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,7 @@ Suvand **Ülesanne on lõpetatud** tuleb pärast ülesande lõpetamist käsitsi 
 Saate vaadata kõiki praeguse ja eelmise perioodi sulgemise ülesandeid loendilehelt **Kõik finantsperioodi sulgemisülesanded**. Seda loendilehte on kõige parem kasutada sulgemisprotsessi ajaloo analüüsimiseks, kuna see sisaldab teavet plaanitud tähtaja, tegeliku lõpetamise kuupäeva ja ülesande lõpetanud isiku kohta. Selle loendilehe teavet saate aruandluseks ja auditeerimiseks eksportida hõlpsalt Microsoft Excelisse.
 
 ## <a name="financial-period-close-configuration-page"></a>Finantsperioodi sulgemiskonfiguratsiooni leht
-Enne kui saate tööruumi **Finantsperioodi sulgemine** kasutada, peate protsessi rakenduses Microsoft Dynamics 365 for Finance and Operations konfigureerima, kasutades lehte **Finantsperioodi sulgemiskonfiguratsioon**. (Klõpsake valikuid **Pearaamat** &gt; **Perioodi sulgemine** &gt; **Finantsperioodi sulgemiskonfiguratsioon**.)
+Enne kui saate tööruumi **Finantsperioodi sulgemine** kasutada, peate protsessi Microsoft Dynamics 365 for Finance and Operationsis konfigureerima, kasutades lehte **Finantsperioodi sulgemiskonfiguratsioon**. (Klõpsake valikuid **Pearaamat** &gt; **Perioodi sulgemine** &gt; **Finantsperioodi sulgemiskonfiguratsioon**.)
 
 ### <a name="resources"></a>Ressursid
 
@@ -106,7 +105,6 @@ Määrake sulgemise graafiku puhul sobiv kalender, näitamaks ülesande plaanimi
 Peate määratlema ka ettevõtted, mis sulgemise graafikuga seostatakse. Kui malli ülesanded on määratud mitmele ettevõttele, luuakse iga sulgemise graafikus oleva ettevõtte puhul eraldi ülesanded ja määratakse malli ülesandele. 
 
 Pärast sulgemise graafiku lõpetamist valige selle puhul suvand **Suletud**. Ülesande ajalugu on endiselt saadaval loendilehel **Kõik finantsperioodi sulgemisülesanded**, kuid sulgemise graafik eemaldatakse tööruumist. Pärast sulgemise graafiku märkimist valikule **Suletud** ei saa te sellele ülesandeid lisada, ülesandeid redigeerida ega ülesandeid sellelt eemaldada.
-
 
 
 

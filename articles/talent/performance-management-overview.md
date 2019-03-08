@@ -1,13 +1,13 @@
 ---
-title: "Jõudlushaldus"
-description: "Jõudlushalduse protsess võimaldab töövõtjatel dokumenteerida ja arutada oma jõudlust juhatajaga. Juhatajad saavad seejärel anda tagasisidet ja juhendada töövõtjaid."
+title: Jõudlushaldus
+description: Jõudlushalduse protsess võimaldab töövõtjatel dokumenteerida ja arutada oma jõudlust juhatajaga. Juhatajad saavad seejärel anda tagasisidet ja juhendada töövõtjaid.
 author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67da25514edc6b27f8478a7b317f6690720ab592
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303996"
 ---
-
 # <a name="performance-management"></a>Jõudlushaldus
 
 [!include [banner](includes/banner.md)]
@@ -56,9 +55,9 @@ Kui see avatakse **ESS** tööruumi kaudu, võimaldab **jõudluse töölehe** le
 
 Jõudluse töölehe saate linkida ka välisele veebilehele, salvestades lehe URL-i. Kui tööleht on seotud eesmärkide või jõudluse ülevaadetega, saate selle siduda ka ühe või mitmega neist. Kui jõudluse tööleht avatakse **MSS** lehelt, saate sisestada sama teavet, mida töövõtja töölehel. Lisaks saate määrata töövõtja, kelle jaoks tööleht luuakse. Saate valida, kas jagada juhataja töölehte oma töövõtjaga.
 
-### <a name="praise"></a>Kiitus
+### <a name="send-feedback"></a>Saada tagasisidet
 
-Jõudluse tööleht sisaldab täiendavat funktsiooni nimega Kiitus. Kui klõpsate valikul **Saada kiitus**, saate valida töövõtja ja anda talle meili teel tagasisidet. Sõnum saadetakse kiidetavale töövõtjale, töövõtja juhatajale, kiitust saatvale töövõtjale ja selle töövõtja juhatajale. Jõudluse töölehe sisestus luuakse iga inimese jaoks, kes kiitussõnumi saab.
+Jõudluse tööleht sisaldab lisafunktsiooni nimega Tagasiside. Kui klõpsate valikul **Saada tagasisidet**, saate valida töövõtja ja anda talle meili teel tagasisidet. Sõnum saadetakse töövõtjale, kes tagasisidet saab, töövõtja juhatajale, tagasisidet saatvale töövõtjale ja selle töövõtja juhatajale. Jõudluse töölehe sisestus luuakse iga inimese jaoks, kes tagasisidesõnumi saab.
 
 ## <a name="goals"></a>Eesmärgid
 **Jõudluseesmärkide** leht aitab jälgida eesmärke, mille teie ja teie juhataja on teile loonud. Saate luua mis tahes arvu eesmärke ja need eesmärgid võivad hõlmata erinevaid perioode ning jõudluse ülevaateid. Saate luua ka liht- või liiteesmärke, olenevalt teabehulgast, mida soovite eesmärgi kohta sisestada. Eesmärgid pole jõudluse ülevaadete jaoks vajalikud. 
@@ -151,7 +150,6 @@ Jõudluse töölehe allikatüübid kirjeldavad, kust jõudluse töölehed tuleva
 ### <a name="review-types"></a>Ülevaate tüübid
 
 Jõudluse ülevaate tüübid aitavad teil kontrollida ülevaate käitumist. Saate lubada või keelata ülevaate töövoo. Kui ülevaade ei kasuta töövoogu, saate määrata vaikeoleku, mida kasutatakse ülevaate loomisel. Samuti saate otsustada, kas ülevaatele peavad nõusoleku andma töövõtja, juhataja või mõlemad.
-
 
 
 

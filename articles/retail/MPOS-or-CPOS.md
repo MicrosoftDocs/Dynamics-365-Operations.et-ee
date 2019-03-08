@@ -1,36 +1,35 @@
 ---
-title: Valimine Retail Modern POS-i (MPOS) ja Cloud POS-i (CPOS) vahel
-description: "Selles teemas selgitatakse, mis on põhierinevused uudse jaemüügikassa Retail Modern POS-i ja pilvekassa vahel. Selles kirjeldatakse ka erinevaid tegureid, mida lahendust Microsoft Dynamics 365 for Retail rakendavad jaemüüjad peaksid arvesse võtma, et nad saaksid oma nõuetele vastavalt teha parima valiku."
+title: Valimine Retail Modern POS-i (MPOS) ja pilvekassa vahel
+description: Selles teemas selgitatakse, mis on põhierinevused Retail Modern POS-i ja pilvekassa vahel. Selles kirjeldatakse ka erinevaid tegureid, mida rakendust Microsoft Dynamics 365 for Retail kasutusele võtvad jaemüüjad peaksid arvesse võtma, et teha oma nõuetele vastav parim valik.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336240"
 ---
-
-# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Valimine Retail Modern POS-i (MPOS) ja Cloud POS-i (CPOS) vahel
+# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Valimine Retail Modern POS-i (MPOS) ja pilvekassa vahel
 
 [!include [banner](includes/banner.md)]
 
-See teema annab juurutajatele täiendava tausta, näpunäited ja juhiseid tegurite kohta, mida nad peaksid arvesse võtma, kui nad rakendavad lahendust Microsoft Dynamics 365 for Retail. Kui juurutajad vaatavad üle ja järgivad juurutusprotsessi osana neid juhiseid, saavad nad vältida probleeme, mis võivad mõjutada kasutaja rahulolu või jõudlust.
+See teema annab juurutajatele täiendava tausta, näpunäited ja juhiseid tegurite kohta, mida nad peaksid arvesse võtma, kui juurutavad rakendust Microsoft Dynamics 365 for Retail. Kui juurutajad vaatavad üle ja järgivad juurutusprotsessi osana neid juhiseid, saavad nad vältida probleeme, mis võivad mõjutada kasutaja rahulolu või jõudlust.
 
 ## <a name="insights"></a>Ülevaated
 
@@ -40,7 +39,7 @@ Retail pakub mitmekülgseid juurutuse ja topoloogia valikuid. Seega saavad jaem�
 
 Retail toetab järgmisi kassavalikuid.
 
-- Jaemüügi tänapäevane kassa (MPOS) Microsoft Windowsi jaoks
+- Retail Modern POS (MPOS) Microsoft Windowsi jaoks
 - MPOS Microsoft Windows Phone’i jaoks
 - MPOS Apple iPadi või Google Androidi tahvelarvuti jaoks
 - Pilvekassa (CPOS), mis toetab brausereid Microsoft Edge, Internet Explorer ja Google Chrome
@@ -58,10 +57,10 @@ Kuigi MPOS ja CPOS on suures osas samad, on ka olulisi erinevusi, mida peate mõ
 
 #### <a name="mpos"></a>MPOS
 
-Windows-, iOS- või Android-seadmes on MPOS rakendus, mida pakitakse, installitakse ja hooldatakse selles seadmes.
+Windowsi, iOS-i või Androidi seadmes on MPOS rakendus, mida pakitakse, installitakse ja hooldatakse selles seadmes.
 
 - **Windows** – MPOS Windowsi rakenduse jaoks sisaldab kogu rakenduse koodi ja manustatud kaubanduse käitusaega (CRT). 
-- **iOS/Android** – nendel platvormidel toimib rakendus CPOS-i rakenduse koodi hostina. Teisisõnu, rakenduse kood pärineb Microsoft Azure’i või Retail Store Scale Uniti (RSSU) CPOS-i serverist. Lisateavet vt teemast [Retail Store Scale Uniti ülevaade](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** – nendel platvormidel toimib rakendus CPOS-i rakendusekoodi hostina. Teisisõnu tuleb rakendusekood CPOS-i serverist Microsoft Azure’is või Retail Store Scale Unitis (RSSU). Lisateavet vt teemast [Retail Store Scale Uniti ülevaade ](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 
@@ -75,7 +74,7 @@ Lisaks platvormi ja vormiteguri valimisele peavad jaemüüjad kaupluses valima k
 |-------------------------|---------------|-------------------|
 | MPOS Windowsi jaoks        | Pilv või RSSU | Jah               |
 | MPOS iOS-i või Androidi jaoks | Pilv või RSSU | Ei                |
-| Cloud POS               | Pilv või RSSU | Ei                |
+| Pilve kassa               | Pilv või RSSU | Ei                |
 
 #### <a name="retail-server"></a>Jaemüügiserver
 
@@ -106,4 +105,3 @@ Kui planeerite kassa juurutamist oma jaekauplustes, võtke arvesse järgmist tea
 - **Riistvaraseadmed/välisseadmed** – süsteemi Retail POS üks olulistest aspektidest on võimalus kasutada kassa välisseadmeid, nagu printerid, sularahasahtlid ja makseterminalid. Kuigi kõik saadaolevad kassavalikud saavad kasutada välisseadmeid, toetab neid otse ainult MPOS Windowsi jaoks. Kõigi muude rakenduste jaoks on vaja vähemalt üht riistvarajaama. Kuigi see lähenemisviis lisab paindlikkust, tuleb juurutada, konfigureerida ja hooldada lisakomponente.
 - **Süsteeminõuded** – kassarakenduse süsteeminõuded võivad olla erinevad. Enne valiku tegemist kontrollige kindlasti kõige värskemat teavet. Näiteks, kuna CPOS töötab brauseris, toetab see rohkem operatsioonisüsteeme. Lisateavet süsteeminõuete kohta vt teemast [Pilvjuurutuste süsteeminõuded](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Juurutamine ja hooldus** – juurutamis- ja hooldusnõuete keerukus võib olenevalt rakendusest ja juurutusvalikutest olla erinev. Näiteks pilves majutatud CPOS-i juurutamisel ei pea te installima ja värskendama kõigis seadmetes. Seega vähendab see lähenemine oluliselt keerukust ja kulusid. Kuid kui juurutate MPOS-i igas registris ja lubate võrguühenduseta režiimi ning juurutate ka ühiskasutuses riistvarajaamu, suurendate oluliselt haldamist vajavate lõpp-punktide arvu.
-

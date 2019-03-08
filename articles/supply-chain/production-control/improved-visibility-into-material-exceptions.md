@@ -1,13 +1,13 @@
 ---
-title: "Materjalierandite nähtavus"
-description: "See teema kirjeldab, kuidas saate parandada tootmistellimuste ja partiitellimuste puhul toormaterjalide erandite nähtavust."
+title: Materjalierandite nähtavus
+description: See teema kirjeldab, kuidas saate parandada tootmistellimuste ja partiitellimuste puhul toormaterjalide erandite nähtavust.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -16,13 +16,13 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: c7a5cc4f6c6f430a2ceb9125edb3916fe7b71ab8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: eca3141fc48aea24411524e5fc84686d9e4bfaa7
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344750"
 ---
 # <a name="visibility-into-material-exceptions"></a>Materjalierandite nähtavus
 
@@ -67,4 +67,3 @@ Paani valimisel avaneb leht **Kõik tootmisvood**. See leht on filtreeritud avat
 Paanil **Tähelepanu vajav avatud laotöö** kuvatakse koosluse- ja valemiridade arv, mis on väljastatud lattu töötlemata voogudes, mis sisaldavad töötlemata tööd ja mille toormaterjali kuupäev on varasem või sama kui tööruumi kuupäev. Ridu peab tarbima ka toiminguressurss, kes rakendab tööruumile filtri.
 
 Paani valimisel avaneb leht **Kõik tööd**. See leht on filtreeritud avatud tööpäiste arvu järgi, mis sisaldavad tööridu paani kriteeriumidele vastavatelt väljastatud koosluse- ja valemiridadelt. Lehel **Kõik tööd** saate tööd käsitsi töödelda.
-

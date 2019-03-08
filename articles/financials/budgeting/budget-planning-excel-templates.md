@@ -1,13 +1,13 @@
 ---
-title: Eelarve plaanimise mallid Excelile
+title: Eelarve planeerimise mallid Exceli jaoks
 description: See teema kirjeldab, kuidas luua Microsoft Exceli malle, mida saab kasutada eelarveplaanidega.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: shylaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 079aa6bb4be020fc050b81c400050ed23d48f6ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337045"
 ---
-
-# <a name="budget-planning-templates-for-excel"></a>Eelarve plaanimise mallid Excelile
+# <a name="budget-planning-templates-for-excel"></a>Eelarve planeerimise mallid Exceli jaoks
 
 [!include [banner](../includes/banner.md)]
 
@@ -61,7 +60,7 @@ Exceli mall sisaldab kõiki eelarveplaani dokumendi paigutuse elemente, kui veer
 [![Näide](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Exceliga eelarveplaani andmete vaatamisel ja redigeerimisel võimalike probleemide vältimiseks peab sama kasutaja olema sisse loginud nii Microsoft Dynamics 365 for Finance and Operationsisse kui ka Microsoft Dynamics Office’i lisandmooduli andmekonnektorisse.
+> Exceliga eelarveplaani andmete vaatamisel ja redigeerimisel võimalike probleemide vältimiseks peab sama kasutaja olema sisse loginud nii Microsoft Dynamics 365 for Finance and Operationsisse kui ka Microsoft Dynamics Office’i lisandmoodulisse Andmekonnektor.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Eelarveplaani dokumendimallile päise lisamine
 Päiseteabe lisamiseks valige Exceli failis ülemine rida ja sisestage tühjad read. Exceli failile päiseväljade lisamiseks klõpsake rakenduses **Andmekonnektor** valikut **Kujundus**.
@@ -136,7 +135,6 @@ Jah, eelarveplaani mallidega töötab enamik Exceli standardvõimalusi. Soovitam
 Samuti saate eelarveandmete täiendavaks grupeerimiseks ja visualiseerimiseks luua ning kasutada ka liigendtabeleid ja diagramme. Klõpsake vahekaardil **Andmed** grupis **Ühendused** valikut **Värskenda kõik** ja seejärel valikut **Ühenduse atribuudid**. Klõpsake vahekaarti **Kasutus**. Märkige jaotises **Värskendamine** ruut **Värskenda andmeid faili avamisel**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
-
 
 
 

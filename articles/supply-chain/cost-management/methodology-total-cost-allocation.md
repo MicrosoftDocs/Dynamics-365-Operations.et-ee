@@ -1,13 +1,13 @@
 ---
 title: Kogukulude eraldamise meetod
-description: "See teema sisaldab juhiseid kogukulu eraldamise (TCA) kohta. TCA on meetod kulude arvutamiseks partiitellimuse peamise valemi üksuse ja valemile määratletud kaastoodete vahel."
+description: See teema sisaldab juhiseid kogukulu eraldamise (TCA) kohta. TCA on meetod kulude arvutamiseks partiitellimuse peamise valemi üksuse ja valemile määratletud kaastoodete vahel.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cda1c5251b81a3bb73d4d8703d7c3fa1ab4e9c16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341576"
 ---
-
 # <a name="total-cost-allocation-method"></a>Kogukulude eraldamise meetod
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Väli **Kõrvalsaaduse kulu eraldamine** lehel **Kaastooted** on numeraatori vä
 -   **Protsent** – omahind arvutatakse tootmises tarbitud toormaterjalide kogukulu protsendina. Väljale sisestatakse arvutuses kasutatav protsent.
 -   **Seeria kohta** – omahind arvutatakse summana tootmistellimuse standardpartii suuruse kohta. See summa ei sõltu tootmises kinnitatud kogusest. Väljale sisestatakse arvutuses kasutatav summa.
 -   **Koguse kohta** – omahind arvutatakse summana tootmise valemiüksuse kinnitatud koguse kohta. Väljale sisestatakse arvutuses kasutatav summa.
-
 
 
 

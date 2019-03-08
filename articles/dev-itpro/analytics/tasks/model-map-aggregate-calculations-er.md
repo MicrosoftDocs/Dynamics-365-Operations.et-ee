@@ -1,13 +1,13 @@
---- 
+---
 title: Mudelivastenduse konfiguratsioonide kasutamine koondarvutusteks andmebaasi tasemel
-description: "See protseduur annab teavet selle kohta, kuidas kujundada uue elektroonilise aruandluse (ER) mudeli vastendamise konfiguratsiooni ja kasutada sisseehitatud ER-i funktsioone tõhusate koondarvutuste jaoks."
+description: See protseduur annab teavet selle kohta, kuidas kujundada uue elektroonilise aruandluse (ER) mudeli vastendamise konfiguratsiooni ja kasutada sisseehitatud ER-i funktsioone tõhusate koondarvutuste jaoks.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: a462a3997644a494b5cea89c9530ddba67c32450
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313631"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Mudelivastenduse konfiguratsioonide kasutamine koondarvutusteks andmebaasi tasemel
 
@@ -37,7 +37,7 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 3. Tehke puul valik „Intrastati mudel\Intrastati näidisvastendamine”.
 4. Klõpsake valikut Kujundaja.
 5. Klõpsake valikut Kujundaja.
-6. Valige puul suvand "Dynamics 365 for Operations\tabeli kirjed".
+6. Valige puul väärtus Dynamics 365 for Operations \ Tabeli kirjed.
 7. Klõpsake suvandit Juure lisamine.
     * Lisage uus andmeallikas, mis tähistab kirjeid, mille soovite grupeerida.  
 8. Sisestage väljale Nimi suvand Kanded.
@@ -116,5 +116,4 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 67. Laiendage puul valikut „Kauba kirje (Intrastat)”.
 68. Klõpsake nuppu Salvesta.
     * Pange tähele, et väli „Käivitamine:” näitab, et grupeerimine toimub käitusajal mälus, isegi kui ükski kogum ei ole määratud ja valitud andmeallikas tüübiga „Tabeli kirjed” viitab samale tabelile „Intrastat”. Põhjuseks on see, et andmeallikas sisaldab mõningaid arvutatud välju, mida ei saa veel SQL-i andmebaasi tasemele üle kanda.  
-
 

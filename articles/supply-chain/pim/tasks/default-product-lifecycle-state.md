@@ -1,13 +1,13 @@
---- 
-title: "Toote elutsükli vaikeoleku loomine"
-description: "See protseduur näitab, kuidas luua toote elutsükli vaikeolekut ja kuidas seostada vaikeolekut väljastatud toodetega."
+---
+title: Toote elutsükli vaikeoleku loomine
+description: See protseduur näitab, kuidas luua toote elutsükli vaikeolekut ja kuidas seostada vaikeolekut väljastatud toodetega.
 author: cvocph
 manager: AnnBe
 ms.date: 12/05/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6e7e637157ee06a3d07a1a9c5da71295eb75b424
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d445ea2f2362f146a1e3e7bcf747898dc2cc89ba
-ms.openlocfilehash: 06a6c7c8fa767edf6fdf50c3c971b6d767f8755f
-ms.contentlocale: et-ee
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310825"
 ---
 # <a name="create-a-default-product-lifecycle-state"></a>Toote elutsükli vaikeoleku loomine
 
@@ -61,5 +61,4 @@ See protseduur näitab, kuidas luua toote elutsükli vaikeolekut ja kuidas seost
 
 > [!NOTE]
 > Oletame, et aktiivne olek on seadistatud, mis tähendab, et saate nüüd aktiivse oleku valida ja lubada toodet kasutada koondplaneerimisel ja koosluse taseme arvutamisel. See on loogiline ainult juhul, kui kõik ühtse planeerimise jaoks vajalikud toodete üksikasjad on määratud.  
-
 

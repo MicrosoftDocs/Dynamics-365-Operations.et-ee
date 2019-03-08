@@ -1,13 +1,13 @@
---- 
-title: "Jõudluse ülevaate loomine"
-description: "See protseduur näitab, kuidas koostada jõudluse hindamist, ja kirjeldab iga hindamise jaotise eesmärki."
+---
+title: Jõudluse ülevaate loomine
+description: See protseduur näitab, kuidas koostada jõudluse hindamist, ja kirjeldab iga hindamise jaotise eesmärki.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: 437a63159f0333434175acce081fa4ff417c334b
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338471"
 ---
 # <a name="create-a-performance-review"></a>Jõudluse ülevaate loomine
 
@@ -79,5 +79,4 @@ See protseduur näitab, kuidas koostada jõudluse hindamist, ja kirjeldab iga hi
     * Ülevaatuse liikumisel läbi olekute saavad töötaja ja juht iga eesmärgi või kompetentsi kohta kommentaare lisada.  
 42. Klõpsake vahekaarti Nõusolekud.
     * Töötaja ja juht saavad anda ülevaatusele nõusoleku. Kui kõik vajalikud nõusolekud on olemas, määratakse olekuks Lõpetatud ja rohkem muudatusi ei saa teha.  
-
 

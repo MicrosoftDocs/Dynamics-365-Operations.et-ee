@@ -1,32 +1,31 @@
 ---
 title: Valemid ja valemite versioonid
-description: "See teema käsitleb valemeid ja valemiversioone. Valem määratleb materjalid, koostisosad ja konkreetse protsessi väljundid protsessi tootmises. Valemeid kasutatakse protsessi tootmises toodete plaanimiseks ja tootmiseks."
+description: See teema käsitleb valemeid ja valemiversioone. Valem määratleb materjalid, koostisosad ja konkreetse protsessi väljundid protsessi tootmises. Valemeid kasutatakse protsessi tootmises toodete plaanimiseks ja tootmiseks.
 author: cvocph
 manager: AnnBe
 ms.date: 09/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bbffc298ff5d2442092f8f0c987b7e79a7934a84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350109"
 ---
-
 # <a name="formulas-and-formula-versions"></a>Valemid ja valemite versioonid
 
 [!include [banner](../includes/banner.md)]
@@ -72,4 +71,3 @@ Funktsioon Skaleeritav on saadaval ainult juhul, kui kõigile kauba komponentide
 
 ## <a name="use-step-consumption"></a>Etapiviisilise tarbimise kasutamine
 Etapiviisiline tarbimine eemaldab nõude, et koostisosa vahekaardile **Valemirida** tuleb sisestada kogus. Selle asemel on etapiviisiline tarbimine konfigureeritud nii, et sellel on väärtus **Lähteseeria** ja väärtus **Kogus**. Kirjest Etapi tarbimine seeria kohta valitakse teave, mis rahuldab koguse partiitellimusel. Etapiviisiline tarbimine on abiks, kui tarbimismäär ei ole partiitellimuse suuruse suhtes lineaarne ja ainult suurendab vajadust, kui konkreetne koguselävi saavutatakse. Selle funktsiooni lubamiseks uuele valemile muutke grupis **Tarbimise arvutamine** vastava koostisosa valemi sätteks väärtuse **Standard** asemel väärtus **Etapp**. Selle tarbimismeetodi saab määrata lehe **Valemirida** vahekaardil **Seadistus**.
-

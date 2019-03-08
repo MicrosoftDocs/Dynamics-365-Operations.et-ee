@@ -1,28 +1,27 @@
 ---
-title: "Puhkuste ja puudumiste põhimõtted"
-description: "Selles teemas kirjeldatakse puhkuste ja puudumiste mõisteid ja kuidas vaba aja saldosid määratletakse."
+title: Puhkuste ja puudumiste põhimõtted
+description: Selles teemas kirjeldatakse puhkuste ja puudumiste mõisteid ja kuidas vaba aja saldosid määratletakse.
 author: jcart
 manager: AnnBe
 ms.date: 01/03/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2019-01-01
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: a388e0efe6c19a3aabe04e7fff039ce11ae023c4
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 563593d6c93b0488c681f5b43004f5c0d22cc004
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304119"
 ---
-
 # <a name="leave-and-absence-concepts"></a>Puhkuste ja puudumiste põhimõtted
 
 [!include[banner](../includes/banner.md)]
@@ -297,4 +296,3 @@ Prognoositud saldo (30) = juurdekasvu summa (10 × 1) – praegune saldo (40) �
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0,00              | 6/1/2018        | 6/1/2018   | 1,00           | 9/1/2018        | 3,00    |
 | Jay Norman          | 0,00              | 6/15/2018       | 6/15/2018  | 1,00           | 9/1/2018        | 2.00    |
-

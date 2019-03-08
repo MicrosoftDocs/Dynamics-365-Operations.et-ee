@@ -1,14 +1,14 @@
 ---
-title: "Administraatori sätted Attractis"
+title: Administraatori sätted Attractis
 description: Selles teemas kirjeldatakse, kuidas lubada Attractis organisatsioonidele ja kasutajatele funktsioone.
-author: 
+author: ''
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304041"
 ---
-
 # <a name="admin-settings-in-attract"></a>Administraatori sätted Attractis
 [!include[banner](../includes/banner.md)]
 
@@ -69,4 +68,3 @@ Samuti saate konfigureerida kandidaadi kogemusega seotud suvandeid. Näiteks ük
 Samuti saate määrata pakkumistele aegumiskuupäeva ja seda jõustada. Kui määrate suvandi **Nõutud aegumiskuupäev kõigi pakkumiste puhul** olekuks **Jah**, aeguvad pakkumised määratud tundide või päevadega.
 
 Pakkumiste haldamise kohta leiate lisateavet artiklist [Set up offer management](./offer-setup.md).
-

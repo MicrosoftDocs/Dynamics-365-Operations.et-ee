@@ -1,13 +1,13 @@
 ---
-title: "Põhipalgaplaanide loomine"
-description: "Põhipalk on töötaja regulaarne brutopalk või tasu. Selles artiklis kirjeldatakse komponente, mis peavad olema seadistatud, enne kui saate luua põhipalga plaani ja töötajaid registreerida."
+title: Põhipalgaplaanide loomine
+description: Põhipalk on töötaja regulaarne brutopalk või tasu. Selles artiklis kirjeldatakse komponente, mis peavad olema seadistatud, enne kui saate luua põhipalga plaani ja töötajaid registreerida.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompRefPointSetup, HRMCompEligibility, HRMCompEvent, HRMFixedCompPlanTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: cea4aec80bc0b519a6b393724835555b4d0937a8
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304129"
 ---
-
 # <a name="create-fixed-compensation-plans"></a>Põhipalgaplaanide loomine
 
 [!include [banner](includes/banner.md)]
@@ -105,7 +104,6 @@ Süsteem kontrollib, kas klassi või astmiku tüüpi tasuplaani puhul on määra
 --------
 
 [Hüvitusplaanid](compensation-plans.md)
-
 
 
 

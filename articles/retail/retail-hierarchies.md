@@ -1,13 +1,13 @@
 ---
-title: "Jaemüügihierarhiad"
-description: "Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Retaili jaemüügihierarhiaid."
+title: Jaemüügihierarhiad
+description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Retaili jaemüügihierarhiaid.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e94b59540c9ef188a07e2e24ef4a04829b9d37f8
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341898"
 ---
-
 # <a name="retail-hierarchies"></a>Jaemüügihierarhiad
 
 [!include [banner](includes/banner.md)]
@@ -46,4 +45,3 @@ Järgmises tabelis on loetletud saadaolevad jaemüügi kategooriahierarhia tüü
 | Jaemüügi navigeerimishierarhia   | Kasutage seda hierarhiatüüpi toodete grupeerimiseks ja korraldamiseks kategooriatesse, nii et tooteid saab sirvida võrgus või kassas. |
 
 Jaemüügi kategooriahierarhia abil tooteid struktureerides saate seadistada ja hallata tooteatribuute ning omadusi kategooria tasemel. Need atribuudid ja omadused hõlmavad tootedimensioonide ja kassasätteid. Kategooriatesse määratud tooted pärivad automaatselt teie määratud atribuudid ja omadused. Samal ajal saate kopeerida ka mis tahes toote atribuudisätted valitud kategoorias mitmele tootele.
-

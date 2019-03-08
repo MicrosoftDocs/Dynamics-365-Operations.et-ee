@@ -1,13 +1,13 @@
 ---
 title: Ettemaksuarved vs. ettemaksed
-description: "See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Ühe meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Teise meetodi puhul luuakse ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks."
+description: See teema kirjeldab ja vastandab kahte meetodit, mida organisatsioonid saavad avansimaksete (ettemaksete) puhul kasutada. Ühe meetodi puhul peate looma ostutellimusega seotud ettemaksuarve. Teise meetodi puhul luuakse ettemaksu töölehekanded, luues töölehekanded ja märkides need ettemaksu töölehekanneteks.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c81045b72d15f4474d82040d7725740cff5eba91
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310135"
 ---
-
 # <a name="prepayment-invoices-vs-prepayments"></a>Ettemaksuarved vs. ettemaksed
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Paljude riikide/piirkondade raamatupidamistava nõuab, et ettemakseid klientidel
 3.  Looge maksetööleht ja seejärel uus makse.
 4.  Saate tähistada makse ettemaksena. Kui makse on tähistatud ettemaksena, sisestatakse makse etappides 1 ja 2 seadistatud sisestusreeglis määratletud pearaamatukontodele. Kui makse on tähistatud ettemaksena, arvutatakse ka maksud. Mõnes riigis on nõutav, et maksud tuleb tasuda ettemakse registreerimisel, isegi kui arve puudub.
 5.  Sisestage ettemakse.
-6.  Valikuline: saate enne arve loomist makse ostutellimuse või müügitellimuse suhtes tasakaalustada. Kasutage müügitellimuse või ostutellimuse lehe tegevuspaanil valikut **Kannete tasakaalustamine**.
+6.  Valikuline: saate enne arve loomist makse ostutellimuse või müügitellimuse suhtes tasakaalustada. Kasutage müügitellimuse või ostutellimuse lehe tegevuspaanil valikut **Kannete tasakaalustamine**.
 7.  Kui hankija on kaubad või teenused tarninud, registreerige arve. Kui tasakaalustasite ettemakse 6. etapis ostutellimuse või müügitellimuse suhtes, tasakaalustatakse ettemakse automaatselt teie loodud arve suhtes. Kui te ettemakset ostutellimuse või müügitellimuse suhtes ei tasakaalsutanud, saate selle arve suhtes käsitsi tasakaalustada, kasutades kliendi või hankija lehel jaotist **Kannete tasakaalustamine**. Ettemakse summa tühistatakse ajutiselt AP-/AR-pearaamatukontolt. Peale selle tühistatakse ka maksud, kui need on arvutatud, kuna arvel on tegelikud maksud.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Ettemaksuarvelduse protsessi ülevaade
@@ -63,7 +62,6 @@ Ettemaksuarved on levinud äritava. Hankija väljastab ettemaksuarved, et nõuda
 3.  Ostureskontro koordinaator registreerib ettemaksuarve ostutellimuse suhtes ja seejärel tasutakse ettemaksuarve.
 4.  Kui hankija on kaubad või teenused tarninud ja seotud hankijaarved on vastu võetud, rakendab ostureskontro koordinaator ettemaksesumma, mis on arve järgi juba tasutud.
 5.  Ostureskontro koordinaator tasub ja tasakaalustab arve jääksumma.
-
 
 
 

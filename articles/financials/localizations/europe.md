@@ -1,13 +1,13 @@
 ---
 title: Euroopa
-description: See teema sisaldab linke rakenduse Microsoft Dynamics 365 for Finance and Operations Euroopa dokumentatsioonile.
+description: See teema sisaldab linke Microsoft Dynamics 365 for Finance and Operations Euroopa dokumentatsiooni ressurssidele.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321727"
 ---
-
 # <a name="europe"></a>Euroopa 
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ra
 - [Vahetuskursi korrektsioonid](emea-exchange-rate-adjustments.md)
 - [Makseviiside failivormingud](emea-select-file-formats-for-the-method-of-payments.md)
 - [Finantsteenuse (ESR) integratsioon](emea-fiscal-service-integration.md)
-- [Eesti ja Leedu põhivarade likvideerimine](emea-credit-note-reverse-fixed-asset-sale.md)
+- [Põhivarade likvideerimine Eesti ja Leedu puhul](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Varude sisemise üleviimise ülekandedokumendi koostamine](tasks/transfer-document-internal-inventory-transfer.md)
 - [EL-i käibearuande koostamine](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022-failid
@@ -99,5 +98,4 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ra
 
 - [Elektroonilise aruandluse ülevaade](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
 
