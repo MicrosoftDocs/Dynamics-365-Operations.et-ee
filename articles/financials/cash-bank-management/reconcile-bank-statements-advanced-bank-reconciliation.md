@@ -1,13 +1,13 @@
 ---
-title: "Pangaväljavõtete vastavusseviimine täpsema panga vastavusseviimise abil"
-description: "Täpsema panga vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid rakenduses Microsoft Dynamics 365 for Finance and Operations automaatselt pangakannetega vastavusse viia. Selles teemas selgitatakse vastavusseviimise protsessi."
+title: Pangaväljavõtete vastavusseviimine täpsema panga vastavusseviimise abil
+description: Täpsema panga vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid Microsoft Dynamics 365 for Finance and Operationsis automaatselt pangakannetega vastavusse viia. Selles teemas selgitatakse vastavusseviimise protsessi.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93b311d541ab588be82e6704dbe9ae3e43deabba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364967"
 ---
-
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Pangaväljavõtete vastavusseviimine täpsema panga vastavusseviimise abil
 
 [!include [banner](../includes/banner.md)]
 
-Täpsema panga vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid rakenduses Microsoft Dynamics 365 for Finance and Operations automaatselt pangakannetega vastavusse viia. Selles teemas selgitatakse vastavusseviimise protsessi.  
+Täpsema panga vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid Microsoft Dynamics 365 for Finance and Operationsis automaatselt pangakannetega vastavusse viia. Selles teemas selgitatakse vastavusseviimise protsessi.  
 
 <a name="import-an-electronic-bank-statement"></a>Elektroonilise pangaväljavõtte importimine
 -----------------------------------
@@ -94,7 +93,6 @@ Pärast vastavusseviimise protsessi lõpetamist tuleb märkida tööleht Panga v
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Vastendusega seotud uute kannete sisestamine
 Pangaväljavõtte kanded, mis märkisite vastavusseviimise töölehel väärtusega **Uus**, sisestatakse lehele **Pangaväljavõte**. Valige lehelt **Pangaväljavõte** väljavõtte üksikasjade vaatamiseks väljavõtte ID. Menüüs **Raamatupidamine** saate kasutada valikuid **Jaotuste kuvamine** ja **Raamatupidamise kuvamine** uute kannete ja seotud pearaamatukannete üksikasjade vaatamiseks. Tehke valik **Sisesta** väärtusega **Uus** märgitud pangaväljavõtte ridade sisestamiseks pearaamatusse. Pange tähele, et sisestamine saab toimuda vaid üks kord pangaväljavõtte kohta.
-
 
 
 

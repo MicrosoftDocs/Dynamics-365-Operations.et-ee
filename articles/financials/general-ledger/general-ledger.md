@@ -1,13 +1,13 @@
 ---
 title: Pearaamatu ja finantsaruandluse avaleht
-description: "Pearaamatu abil saate määratleda ja hallata juriidilise isiku finantskirjeid."
+description: Pearaamatu abil saate määratleda ja hallata juriidilise isiku finantskirjeid.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
-ms.contentlocale: et-ee
-ms.lasthandoff: 06/25/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363357"
 ---
-
 # <a name="general-ledger"></a>Pearaamat 
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Pearaamatu abil saate määratleda ja hallata juriidilise isiku finantskirjeid. 
  - [Kontoplaanide plaanimine](plan-chart-of-accounts.md)
  - [Põhikonto tüübid](main-account-types.md)
 
-Saate eraldada või jaotada rahalisi summasid ühele või mitmele kontole või konto ja dimensiooni kombinatsioonile vastavalt eraldamise reeglitele. Eraldamisi on kahte tüüpi: fikseeritud ja muutuvad. Saate ka pearaamatukontode vahelisi kandeid tasakaalustada ja valuutasummasid ümber hinnata. Rahandusaasta lõpus tuleb teil luua sulgemiskanded ja valmistada kontod ette järgmiseks rahandusaastaks. Konsolideerimisfunktsiooniga saate kombineerida mitme allüksuse juriidiliste isikute tulemused ühe konsolideeritud organisatsiooni tulemusteks. Allüksused võivad olla Microsoft Dynamics 365 for Finance and Operationsi samas andmebaasis või eraldi andmebaasides.
+Saate eraldada või jaotada rahalisi summasid ühele või mitmele kontole või konto ja dimensiooni kombinatsioonile vastavalt eraldamise reeglitele. Eraldamisi on kahte tüüpi: fikseeritud ja muutuvad. Saate ka pearaamatukontode vahelisi kandeid tasakaalustada ja valuutasummasid ümber hinnata. Rahandusaasta lõpus tuleb teil luua sulgemiskanded ja valmistada kontod ette järgmiseks rahandusaastaks. Konsolideerimisfunktsiooniga saate kombineerida mitme allüksuse juriidiliste isikute tulemused ühe konsolideeritud organisatsiooni tulemusteks. Allüksused võivad olla rakenduse Microsoft Dynamics 365 for Finance and Operations samas andmebaasis või eraldi andmebaasides.
 
 - [Konsolideerimise ja eemaldamise ülevaade](../budgeting/consolidation-elimination-overview.md)
 - [Pearaamatukonto saldod](general-ledger-account-balances.md)
@@ -66,12 +65,11 @@ Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanali
 
 Ostureskontro ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Palju postitusi pearaamatu kohta leiate ka [Microsoft Dynamics AX-i tootemeeskonna ajaveebist](https://blogs.msdn.microsoft.com/dax/). Kuigi mõni neist sisestustest on kirjutatud pearaamatu eelmise versiooni jaoks, kehtivad samad mõisted sellegipoolest ja protseduurid on praeguses versioonis sarnased.
+Palju postitusi pearaamatu kohta leiate [Microsoft Dynamics AX-i tootemeeskonna ajaveebist](https://blogs.msdn.microsoft.com/dax/). Kuigi mõni neist sisestustest on kirjutatud pearaamatu eelmise versiooni jaoks, kehtivad samad mõisted sellegipoolest ja protseduurid on praeguses versioonis sarnased.
 
-[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on rakenduses MBS Operations uut ja põnevat.
+[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamics partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses MBS Operations.
 
 #### <a name="community-blogs"></a>Kogukonna ajaveebid
 
 - [Mida peaks teadma pearaamatu kohta rakenduses Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
-
 

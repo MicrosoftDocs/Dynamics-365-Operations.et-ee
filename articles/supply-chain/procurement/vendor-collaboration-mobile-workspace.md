@@ -1,13 +1,13 @@
 ---
-title: "Hankija koostöö mobiilne tööruum"
-description: "See teema annab teavet hankija koostöö mobiilse tööruumi kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta."
+title: Hankija koostöö mobiilne tööruum
+description: See teema annab teavet hankija koostöö mobiilse tööruumi kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358642"
 ---
-
 # <a name="vendor-collaboration-mobile-workspace"></a>Hankija koostöö mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ See teema annab teavet **hankija koostöö** mobiilse tööruumi kohta. See tö�
 See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Microsoft Dynamics 365 for Unified Operations.
 
 ## <a name="overview"></a>Ülevaade 
-**Hankija koostöö** mobiilne tööruum teavitab hankijaid uutest ostutellimustest, et nad saaksid ostutellimusi rakenduse Microsoft Dynamics 365 for Finance and Operations veebikliendis vaadata ja neile siis reageerida. 
+**Hankija koostöö** mobiilne tööruum teavitab hankijaid uutest ostutellimustest, et nad saaks näha ostutellimusi ja neile vastata rakenduse Microsoft Dynamics 365 for Finance and Operations veebikliendis. 
 
 >[!NOTE]
 > Mobiilset tööruumi tuleb kasutada hankija koostöö veebiliidese lisana, kuid mitte selle asemel. 
@@ -58,12 +57,12 @@ Uute kontaktide loomiseks ja uute kasutajataotluste esitamiseks tuleb kasutada v
 -   Kuvada teavet kasutaja taotluse kohta, mille hankija esitas, ja jälgida taotluse olekut. (See toiming nõuab täiendavat turberolli.)
 
 ## <a name="prerequisites"></a>Eeltingimused
-Eeltingimused erinevad, olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
+Eeltingimused erinevad olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Eeltingimused Microsoft Dynamics 365 for Finance and Operationsi kasutamisel 
-Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, peab süsteemiadministraator avaldama **hankija koostöö** mobiilse tööruumi. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Eeltingimused, kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations 
+Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, peab süsteemiadministraator avaldama mobiilse tööruumi **Hankija koostöö**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused Microsoft Dynamics 365 for Operationsi versiooni 1611 platvormivärskendusega 3 või uuema kasutamisel
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused, kui kasutate rakenduse Microsoft Dynamics 365 for Operations versiooni 1611 platvormivärskendusega 3 või uuemat
 Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 
 
 <table>
@@ -80,7 +79,7 @@ Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi v
 <td>Süsteemiadministraator</td>
 <td>KB 3216943 on binaarne värskendus, mis on vajalik, kui kasutate platvormivärskendust 3. Selle KB juurutamiseks peab süsteemiadministraator tegema järgmist.
 <ol>
-<li>Laadima KB 3216943 alla Microsoft Dynamicsi elutsükliteenustest (LCS).</li>
+<li>Laadige KB 3216943 alla teenusest Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>Installima binaarse värskenduse, mis toimetatakse kohale juurutatava paketina. Teavet juurutatava paketi kohta leiate jaotisest <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Juurutatava paketi rakendamine</a>.</li>
 </ol></td>
 </tr>
@@ -115,12 +114,12 @@ Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi v
 
 Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
--   [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
 1.  Käivitage rakendus oma mobiilses seadmes.
-2.  Sisestage Microsoft Dynamics 365 URL.
+2.  Sisestage oma Microsoft Dynamics365 URL.
 4.  Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
 5.  Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
@@ -171,4 +170,3 @@ Kuvatakse tellimuse rea vastuses tehtud muudatused. Kuid üles laaditud märkusi
 
 ### <a name="open-confirmed-orders"></a>Avatud kinnitatud tellimused
 Kui klient kinnitab ostutellimuse (st ostutellimuse olekuks määratakse **Kinnitatud**), kuvatakse see avatud kinnitatud tellimuses. See jääb loendisse, kuni registreeritakse, et klient on selle vastu võtnud.
-

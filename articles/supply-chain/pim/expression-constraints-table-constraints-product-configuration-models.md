@@ -1,13 +1,13 @@
 ---
 title: Avaldisepiirangud ja tabelipiirangud toote konfiguratsioonimudelites
-description: "Selles teemas kirjeldatakse avaldise piirangute ja tabeli piirangute kasutamist. Piirangute abil kontrollitakse atribuutide väärtusi, mida saab valida toodete konfigureerimisel müügitellimuse, müügipakkumise, ostutellimuse või tootmistellimuse jaoks. Saate avaldise piiranguid või tabeli piiranguid kasutada sõltuvalt sellest, kuidas soovite piiranguid luua."
+description: Selles teemas kirjeldatakse avaldise piirangute ja tabeli piirangute kasutamist. Piirangute abil kontrollitakse atribuutide väärtusi, mida saab valida toodete konfigureerimisel müügitellimuse, müügipakkumise, ostutellimuse või tootmistellimuse jaoks. Saate avaldise piiranguid või tabeli piiranguid kasutada sõltuvalt sellest, kuidas soovite piiranguid luua.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356641"
 ---
-
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Avaldisepiirangud ja tabelipiirangud toote konfiguratsioonimudelites
 
 [!include [banner](../includes/banner.md)]
@@ -223,7 +222,7 @@ Järgmise tabeli näited selgitavad, kuidas kirjutada infix-märke.
 |        (x)        |                           Sulud alistavad vaikejärjestuse.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Miks minu avaldisepiiranguid õigesti ei kinnitata?
-Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või alamkomponentide nimena lahendaja nimena reserveeritud märksõnu. Siin on loend, mis sisaldab reserveeritud märksõnu, mida ei saa kasutada.
+Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või alamkomponentide nimena lahendaja nimena reserveeritud märksõnu. Siin on loend reserveeritud märksõnadest, mida ei saa kasutada.
 
 -   Ülempiir
 -   Element
@@ -252,7 +251,6 @@ Toote konfiguratsioonimudelis ei saa kasutada atribuutide, komponentide või ala
 [Avaldise piirangu loomine (tegevuse juhis)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [Arvutuse lisamine toote konfiguratsioonimudelile (tegevuse juhis)](tasks/add-calculation-product-configuration-model.md)
-
 
 
 

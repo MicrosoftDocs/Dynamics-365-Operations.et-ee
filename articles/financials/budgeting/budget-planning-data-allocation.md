@@ -1,13 +1,13 @@
 ---
 title: Eelarve plaanimise andmete eraldamine
-description: Selles artiklis kirjeldatakse erinevaid rakenduses Microsoft Dynamics 365 for Finance and Operations saadaolevaid eraldamismeetodeid ja kuidas neid kasutada.
+description: Selles artiklis kirjeldatakse erinevaid Microsoft Dynamics 365 for Finance and Operationsis saadaolevaid eraldamismeetodeid ja nende kasutamist.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 430040f7b3706aa1ad913d70c0dbcab9249ea222
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352501"
 ---
-
 # <a name="budget-planning-data-allocation"></a>Eelarve plaanimise andmete eraldamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse erinevaid rakenduses Microsoft Dynamics 365 for Finance and Operations saadaolevaid eraldamismeetodeid ja kuidas neid kasutada.  
+Selles artiklis kirjeldatakse erinevaid Microsoft Dynamics 365 for Finance and Operationsis saadaolevaid eraldamismeetodeid ja nende kasutamist.  
 
 Saate prognoositud summade täpseks kujutamiseks eelarveplaani andmeid jaotada mitmel viisil.
 
@@ -72,7 +71,6 @@ Seejärel loote etapi eraldamise lehel **Eelarve plaanimise konfiguratsioon**. E
 Lõpuks lisate eelarve plaanimise etapi eraldamise automatiseeritud ülesande soovitud töövooetapis. Järgmises näites on töövoogu lisatud kaks eelarve plaanimise etapi eraldamist (punasega esile tõstetud).
 
 [![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
-
 
 
 

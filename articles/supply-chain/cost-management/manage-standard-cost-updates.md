@@ -1,13 +1,13 @@
 ---
-title: "Standardomahinna värskenduste haldus"
-description: "Standardomahinna andmete värskendusi saab hallata kahte erinevat lähenemist kasutades: üheversiooniline lähenemine ja kaheversiooniline lähenemine."
+title: Standardomahinna värskenduste haldus
+description: 'Standardomahinna andmete värskendusi saab hallata kahte erinevat lähenemist kasutades: üheversiooniline lähenemine ja kaheversiooniline lähenemine.'
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e72d4e90ac83787ed7c58d91c2102696acfac68
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b64d9e53736fd3b81ee997ed28ccfa62ed7e9ce6
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367543"
 ---
-
 # <a name="manage-standard-cost-updates"></a>Standardomahinna värskenduste haldus
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ Järgmine näide illustreerib, kuidas üheversioonilist ja kaheversioonilist lä
 -   **Kaheversiooniline lähenemine kuluandmete värskendustele** − kaheversiooniline lähenemine nõuab täiendavat kuluversiooni, mis sisaldab ainult kulu värskendusi. Selle versiooni kood on 2016‑STD‑MUUDATUSED. Kulu värskendused salvestatakse kuluversiooni 2016‑STD-CHANGES ning nende olekuks määratakse „Ootel”. Kaheversioonilise lähenemise puhul on nõutav toodetud kaupade ootel kulude taande andmeallikas. See on vajalik, kuna täiendav kuluversioon 2016‑STD‑MUUDATUSED sisaldab ainult kuluandmete alamkogumit. Taande saab esitada aktiivse kuluna või kuluversioonina 2016-STD, sest mõlemad tuvastavad kuluandmete allika, kui see ei sisaldu versioonis 2016-STD-MUUDATUSED. Ootel kulude aktiivseks saamise järgselt sisaldab kuluversioon 2016-STD-MUUDATUSED aktiivseid kulusid, mis kajastavad värskendusi, samas algne kuluversioon 2016-STD jääb puutumata. Kaheversioonilist lähenemist kasutades tuleks algse kuluversiooni blokeerimispoliitikad määrata värskendusi ennetama. Täiendava kuluversiooni jaoks tuleks määrata identsed blokeerimispoliitikad, v.a kindla alguskuupäeva ja värskenduste valikuliste blokeerimispoliitikate lubamise puhul. Määratud alguskuupäeva peab värskendama iga muudatuse korral, et kajastada plaanitud aktiveerimise kuupäeva.
 
 Selles näites on aasta 2016 värskenduste haldamisel kasutatud täiendavat üht kuluversiooni. Kasutada saab rohkem kui üht täiendavat kuluversiooni, näiteks iga värskenduste partii puhul võib kasutada eraldi versiooni. Kui kasutusel on rohkem kui üks täiendav kuluversioon, peab taande esitama aktiivsete kuludena, sest need jaotatakse mitme kuluversiooni vahel.
-
 
 
 

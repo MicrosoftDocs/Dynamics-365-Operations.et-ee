@@ -1,13 +1,13 @@
 ---
-title: "Laojõudluse Power BI sisu"
-description: "See teema kirjeldab, mida hõlmab Laojõudluse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
+title: Laojõudluse Power BI sisu
+description: See teema kirjeldab, mida hõlmab laojõudluse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,35 +18,34 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365358"
 ---
-
 # <a name="warehouse-performance-power-bi-content"></a>Laojõudluse Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, mida hõlmab **Laojõudluse** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+See teema kirjeldab, mida hõlmab **laojõudluse** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="overview"></a>Ülevaade
 
-**Laojõudluse** Power BI sisu loodi selleks, et lao- ja toiminguhaldurid saaksid jälgida olulisi sissetulevaid, väljaminevaid ja varude parameetreid. See kasutab laohalduse, toote ja muid kandeandmeid teie süsteemist ning pakub hankijatele, tootegruppidele ja toodetele ning tegevuspaikadele ja ladudele nii laojõudluse koondvaadet kui ka jaotusstruktuuri.
+**Laojõudluse** Power BI sisu loodi selleks, et lao- ja toiminguhaldurid saaksid jälgida olulisi sissetulevaid, väljaminevaid ning varude parameetreid. See kasutab laohalduse, toote ja muid kandeandmeid teie süsteemist ning pakub hankijatele, tootegruppidele ja toodetele ning tegevuspaikadele ja ladudele nii laojõudluse koondvaadet kui ka jaotusstruktuuri.
 
-Laohaldurid saavad **Laojõudluse** Power BI sisu abil mõõta kolme järgmist valdkonda.
+Laohaldurid saavad **laojõudluse** Power BI sisu abil mõõta kolme järgmist valdkonda.
 
 - **Sissetulev jõudlus** – saate mõõta hankija jõudlust kliendi vajaduste suhtes (ehk mõõta tarnejõudlust) ja ladustamisjõudlust, et saaksite tuvastada töötajate või kaupadega teatud perioodil ilmnevaid probleeme. Oluline on teada, kas hankijad tarnivad õigel ajal, vara või hilja, et saaksite välja selgitada, kuidas mõjutab hankija jõudlus üldist ladustamisjõudlust. Hankija, kes tarnib väljaspool kokkulepitud kuupäevi, võib ootamatu töö tõttu seada lao surve alla ja suurendada keskmist ladustamisaega.
 - **Lähetamisjõudlus** – saate mõõta, kas teie ladu lähetab klientidele täielikult ja õigel ajal (ehk mõõta väljaminevat lähetamis- ja tarnejõudlust), et saaksite tuvastada tooteid, tegevuskohti või ladusid puudutavaid võimalikke probleeme või asjassepuutuvaid kliente. Kui leiate, et lähetate teatud piirkondadesse või linnadesse hilja, peate ehk pöörama suuremat tähelepanu transpordile või kontohaldusele.
 - **Asukoha varude täpsus** – varude täpsus on oluline siselao äriteave (BI). Väga oluline on välja selgitada, kui täpselt te üldiselt arvestate. Siiski on oluline ka välja selgitada, kui täpne te olete kaupade hoidmisel õigetes asukohtades, ja et tõstaksite lahknevusandmed esile,e t saaksite leida kaupade jaoks paremaid asukohti või algatada kindlate kaupade koguinventuuri. (Praegu pakutakse uut kaubapõhist inventuurifunktsiooni kiirparandusena.) Kui kasutate seda Power BI sisu vaba kaubavaru andmete õigsuse kindlaks tegemiseks asukohtade kaupa, saate tuvastada ka vargust oma kauplustes. Samuti saate välja selgitada, kas mõnes asukohas on vaba kaubavaru koguseid, mis erinevad ettevõtte ressursiplaanimise (ERP) andmetest. Need asukohad võivad olla liiga suured või on nende loendamine võimatu. Teise võimalusena võib osa füüsilisest paigutamisest olla halb, nii et üht tüüpi kauba hoidmine sünkroonis vaba kaubavaru andmetega on keeruline.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Juurdepääs Power BI sisupaketile
-Power BI sisu **Laojõudlus** kuvatakse lehel **Laojõudlus** (**Laohaldus** \> **Päringud ja aruanded** \> **Tootmise jõudlusanalüüs** \> **Laojõudlus**).
+**Laojõudluse** Power BI sisu kuvatakse lehel **Laojõudlus** (**Laohaldus** \> **Päringud ja aruanded** \> **Tootmise jõudlusanalüüs** \> **Laojõudlus**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
-**Laojõudluse** Power BI sisu hõlmab aruannet. See aruanne koosneb mõõdikute komplektist, mida visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate **Laojõudluse** Power BI sisu visualiseerimistest.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad mõõdikud
+**Laojõudluse** Power BI sisu hõlmab aruannet. See aruanne koosneb mõõdikute komplektist, mida visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate **laojõudluse** Power BI sisu visualiseerimistest.
 
 | Aruandeleht                 | Diagrammid                                   | Kirjeldus |
 |-----------------------------|------------------------------------------|-------------|
@@ -79,7 +78,7 @@ Power BI sisu **Laojõudlus** kuvatakse lehel **Laojõudlus** (**Laohaldus** \> 
 | Lähetusjõudlus        | Lähetatud tegevuskoha/lao järgi              | Vara, õigel ajal või hilja lähetatud protsent tegevuskoha või lao järgi. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Andmemudeli ja arvutuste põhimõte
-Aruandelehtede täitmiseks **Laojõudluse** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md).
+Aruandelehtede täitmiseks **laojõudluse** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md).
 
 Sisu alusena kasutatakse järgmisi peamisi koondmõõtmisi.
 
@@ -113,4 +112,3 @@ Sisu alusena kasutatakse järgmisi peamisi koondmõõtmisi.
 | Lähetusjõudlus        | Lähetatud toote järgi                       | CustPackingSlipOnTimeStatus           | Vara, Õigel ajal ja Hilja (vt kirjeldusi tabelis eestpoolt). |
 | Lähetusjõudlus        | Lähetatud kliendi järgi                      | CustPackingSlipOnTimeStatus           | Vara, Õigel ajal ja Hilja (vt kirjeldusi tabelis eestpoolt). |
 | Lähetusjõudlus        | Lähetatud tegevuskoha/lao järgi              | CustPackingSlipOnTimeStatus           | Vara, Õigel ajal ja Hilja (vt kirjeldusi tabelis eestpoolt). |
-

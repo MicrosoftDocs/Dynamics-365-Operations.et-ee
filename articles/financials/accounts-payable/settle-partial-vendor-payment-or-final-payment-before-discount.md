@@ -1,13 +1,13 @@
 ---
-title: "Hankija osalise makse ja lõpliku makse tasakaalustamine enne allahindluse kuupäeva."
-description: "Selles artiklis käsitletakse stsenaariumi, kus osalised maksed tehakse hankija arvele ja võetakse skonto."
+title: Hankija osalise makse ja lõpliku makse tasakaalustamine enne allahindluse kuupäeva.
+description: Selles artiklis käsitletakse stsenaariumi, kus osalised maksed tehakse hankija arvele ja võetakse skonto.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ada8331e0ddac9fd0aaf8e2c75b6b64ede1d5cd9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bfa93961e4e3a7c1c68494ffae94c877aa466183
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361103"
 ---
-
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Hankija osalise makse ja lõpliku makse tasakaalustamine enne allahindluse kuupäeva.
 
 [!include [banner](../includes/banner.md)]
@@ -138,7 +137,6 @@ April sisestab maksetöölehe ja vaatab üle hankija kanded lehel **Hankija kand
 | DISC‑10010 | Skonto    | 01.07.2015  |         | 5,00                                 |                                       | 0,00    | USA dollar      |
 | APP‑10011  | Makse          | 08.07.2015  |         | 495,00                               |                                       | 0,00    | USA dollar      |
 | DISC‑10011 | Skonto    | 08.07.2015  |         | 5,00                                 |                                       | 0,00    | USA dollar      |
-
 
 
 

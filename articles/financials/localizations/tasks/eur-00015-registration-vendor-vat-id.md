@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00015 Hankija KM ID registreerimine
-description: "See protseduur näitab, kuidas lisada hankija kontole KM registreerimise ID-sid ja maksuvabastuse numbrit."
+description: See protseduur näitab, kuidas lisada hankija kontole KM registreerimise ID-sid ja maksuvabastuse numbrit.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, LogisticsPostalAddress, RegNumTaxIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: d9788a35e768a4a289742e9cd864b3ca185a0407
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370588"
 ---
 # <a name="eur-00015-registration-of-vendor-vat-id"></a>EUR-00015 Hankija KM ID registreerimine
 
@@ -63,5 +63,4 @@ Enne seda protseduuri tuleb seadistada KM ID-d. See protseduur kohaldub kõigile
 24. Klõpsake nuppu Redigeeri.
 25. Sisestage või valige väärtus väljal Maksuvabastuse number.
 26. Klõpsake nuppu Salvesta.
-
 

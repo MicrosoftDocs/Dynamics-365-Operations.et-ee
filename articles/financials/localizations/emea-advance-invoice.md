@@ -1,13 +1,13 @@
 ---
 title: Ettemaksuarved Ida-Euroopa puhul
-description: "Ettemaksuarve on dokument, mille saate luua kliendile või hankijale. Sellel märgitakse summa, mis tuleb müügitellimuse puhul ette maksta. See teema annab teavet ettemaksuarvete kohta Ida-Euroopa puhul."
+description: Ettemaksuarve on dokument, mille saate luua kliendile või hankijale. Sellel märgitakse summa, mis tuleb müügitellimuse puhul ette maksta. See teema annab teavet ettemaksuarvete kohta Ida-Euroopa puhul.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 03129177bca7d1a104d297cff70978c43f0bb9c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 97be3eee9ebb99af33e3153fe7726ed5b086b03c
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370536"
 ---
-
 # <a name="advance-invoices-for-eastern-europe"></a>Ettemaksuarved Ida-Euroopa puhul
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,7 @@ Looge müügitellimus või valige olemasolev müügitellimus. Klõpsake valikut 
 | Sisestusreeglid ettemaksu töölehekandega | Saate määrata ettemaksu sisestusreeglid.                                                                                                                                                                                           |
 | Loo maksudokument                             | Saate määrata, kas maksudokument tuleb luua.                                                                                                                                                                                         |
 
-> MÄRKUS. Poola puhul luuakse ettemaksuarve kanded siis, kui seadistate jaotises Müügireskontro parameetrid ettemaksuarvete jaoks sisestusreeglid.
+> [!MÄRKUS.} Poola puhul luuakse ettemaksuarve kanded siis, kui seadistate jaotises Müügireskontro parameetrid ettemaksuarvete jaoks sisestusreeglid.
 
 ## <a name="create-a-customer-advance-invoice-from-a-free-text-invoice"></a>Kliendi ettemaksuarve loomine vabas vormis arvelt
 Looge vabas vormis arve või valige olemasolev vabas vormis arve Klõpsake vahekaardil **Arve** jaotises **Uus** valikut **Ettemaksuarve**. Seejärel saate luua uue ettemaksuarve, mis seostatakse vabas vormis arvega. **Märkus.** Poola puhul luuakse ettemaksuarve kanded siis, kui seadistate jaotises Müügireskontro parameetrid ettemaksuarvete jaoks sisestusreeglid.
@@ -148,7 +147,6 @@ Looge ostutellimus või valige olemasolev ostutellimus. Klõpsake valikut **Arve
 | Protsent                                         | Saate määrata ostutellimuse ettemaksu protsendi.                                                         |
 | Uuenda ostu                                 | Valikud on järgmised. Ettemaksuarve summa arvutatakse kaupade ostutellimuse summa põhjal. |
 | Sisestusreeglid ettemaksu töölehekandega | Saate määrata ettemaksu sisestusreeglid.                                                                          |
-
 
 
 

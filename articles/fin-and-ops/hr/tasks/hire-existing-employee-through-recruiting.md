@@ -1,13 +1,13 @@
---- 
-title: "Olemasolevate töötajate palkamine värbamise kaudu"
-description: "Mõnikord võivad avatud ametikohti täita kandidaadid, kes on juba teie ettevõtte töötajad."
+---
+title: Olemasolevate töötajate palkamine värbamise kaudu
+description: Mõnikord võivad avatud ametikohti täita kandidaadid, kes on juba teie ettevõtte töötajad.
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365381"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Olemasolevate töötajate palkamine värbamise kaudu
 
@@ -40,5 +40,4 @@ Mõnikord võivad avatud ametikohti täita kandidaadid, kes on juba teie ettevõ
 8. Lisaks saate valida põhjusekoodi. Näide: reorganiseerimine
 9. Klõpsake suvandit Muuda ametikohta.
     * Võite sel ajal muuta ka lisatasu. Kui te sel ajal lisatasu ei määra, saate seda muuta, minnes töötaja vormi, valides vahekaardi Lisatasu ja valides suvandi Fikseeritud plaan. Pärast suvandi Muuda ametikohta valimist värskendatakse avaldus olekule Tööle võetud.  
-
 

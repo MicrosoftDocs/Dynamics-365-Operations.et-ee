@@ -3,26 +3,26 @@ title: Pakkumiste halduse seadistamine
 description: Selles teemas kirjeldatakse, kuidas rakenduses Talent pakkumisi seadistada.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
+ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "376503"
 ---
 # <a name="set-up-offer-management"></a>Pakkumiste halduse seadistamine 
 
@@ -203,5 +203,7 @@ Rakenduse Attract administraator saab konfigureerida mitut pakkumise loomise pro
 
     - ESign – see on valmiskujul esitatud vaikesäte, kus kasutaja saab oma nime ja initsiaalide sisestamisega pakkumise allkirjastada.
 
-Pakkumise loomise protsessi kohta lisateabe saamiseks vt [Loomine, kinnitamine ja pakkumiste allkirjastamine](./creating-offers.md).
+>[!NOTE]
+> Adobe Signi litsentside ja tasuta prooviperioodi puhul külastage seda [linki](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+Pakkumise loomise protsessi kohta lisateabe saamiseks vt [Loomine, kinnitamine ja pakkumiste allkirjastamine](./creating-offers.md).

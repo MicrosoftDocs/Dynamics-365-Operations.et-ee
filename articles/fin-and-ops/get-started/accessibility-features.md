@@ -1,33 +1,32 @@
 ---
-title: "Hõlbustusfunktsioonid"
-description: "Selles teemas kirjeldatakse funktsioone, mille eesmärk on aidata erinevate erivajadustega inimestel kasutada rakendusi Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent."
+title: Hõlbustusfunktsioonid
+description: Selles teemas kirjeldatakse funktsioone, mille eesmärk on aidata erinevate erivajadusega inimesi rakenduste Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent kasutamisel.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363403"
 ---
-
 # <a name="accessibility-features"></a>Hõlbustusfunktsioonid
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse funktsioone, mille eesmärk on aidata erinevate erivajadustega inimestel kasutada rakendusi Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent. Näiteks on saadaval funktsioonid inimestele, kes kasutavad nägemist abistavaid tehnoloogiaid, nagu Microsoft Windowsi jutustaja.
+Selles teemas kirjeldatakse funktsioone, mille eesmärk on aidata erinevate erivajadusega inimesi rakenduste Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent kasutamisel. Näiteks on saadaval funktsioonid inimestele, kes kasutavad nägemist abistavaid tehnoloogiaid, nagu Microsoft Windowsi jutustaja.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windowsi jutustaja ja juurdepääs ainult klaviatuuriga
 
@@ -97,4 +96,3 @@ Toode on loodud töötama erinevates seadmetes ja vormiteguritel, alates väikes
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Juhendid, mis aitavad arendajatel ja klientidel oma kohandamistesse kaasata hõlbustavat mõtteviisi
 
 Lisateabe saamiseks parimate tavade kohta, mida Microsoft kasutab hõlbustatuse lihtsustamiseks, vt teemat [Vormide, toodete ja juhtelementide hõlbustatus](../../dev-itpro/user-interface/enable-accessibility.md).
-

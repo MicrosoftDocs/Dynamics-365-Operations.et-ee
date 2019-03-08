@@ -1,13 +1,13 @@
 ---
 title: Efektiivse organisatsiooni modelleerimine
-description: "Artiklis antakse teavet efektiivse organisatsiooni mudeldamise põhimõistete kohta."
+description: Artiklis antakse teavet efektiivse organisatsiooni mudeldamise põhimõistete kohta.
 author: cvocph
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 254616174d3f3c449e2a55dfc5f080d6276105b0
 ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350983"
 ---
-
 # <a name="modeling-a-lean-organization"></a>Efektiivse organisatsiooni modelleerimine
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ Pidevate paranduste paremini toetamiseks juurutatakse tootmisvoogusid ajatõhusa
 
 ## <a name="simplicity"></a>Lihtsus
 Lean manufacturingi juurutamisel valime tootmisvoo ja tegevuse lähenemise, mis võimaldab lihtsate ja keeruliste tootmisstsenaariumite modelleerimist ühes skaleeritavas arhitektuuris. Tegevuse kontseptsiooni lähem vaatlus paljastab uue lihtsuse neile, kes seda tõesti vajavad: tööde juhtijatele ja logistikatöötajatele. Laokannete asemel tegevuspõhistest töödest teavitades kannab kõikide lean manufacturingi variantide ühine kasutajaliides äri keerukuse kasutajaliidesest üle sinna, kuhu see kuulub: tootmisvoog lean manufacturingi selgroona.
-
 
 
 

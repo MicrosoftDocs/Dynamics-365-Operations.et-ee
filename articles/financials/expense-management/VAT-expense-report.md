@@ -1,13 +1,13 @@
 ---
-title: "Käibemaksu korvamine kulude halduses"
-description: "Teema selgitab, kuidas saada tagasimakseid sobilike käibemaksukannete korral."
+title: Käibemaksu korvamine kulude halduses
+description: Teema selgitab, kuidas saada tagasimakseid sobilike käibemaksukannete korral.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: d1c9357f8f51e1a87aebeb8f802dbe3b5fdd5aa0
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359562"
 ---
-
 # <a name="vat-recovery-in-expense-management"></a>Käibemaksu korvamine kulude halduses
 
 [!include [banner](../includes/banner.md)]
@@ -68,11 +67,10 @@ Kui Arnie saab Nancylt paberkviitungid, võrdleb ta neid digitaalsete kviitungit
 
 ## <a name="send-vat-recovery-data-to-the-third-party-vendor-to-file-international-recovery-returns"></a>Käibemaksu korvamise andmete saatmine muust osapoolest hankijale, et registreerida rahvusvahelised korvamised
 
-Kui Arnie on valmis kuluaruande andmete saatmiseks muust osapoolest hankijale, kes esitab käibemaksu korvamised, avab ta lehe **Kulumaksu korvamine**. Ta filtreerib lehte, et see kuvaks ainult kuluaruanded, millel on märge **Korvamiseks valmis**. Seejärel valib Arnie suvandid **Fail** &gt; **Ekspordi Excelisse**. Käibemaksu teave kuluaruannetest eksporditakse Microsoft Exceli töölehele. Arnie esitab selle töölehe muust osapoolest hankijale ja lisab sõnumi teatega, et paberkviitungid on saadetud kulleriga.
+Kui Arnie on valmis kuluaruande andmete saatmiseks muust osapoolest hankijale, kes esitab käibemaksu korvamised, avab ta lehe **Kulumaksu korvamine**. Ta filtreerib lehte, et see kuvaks ainult kuluaruanded, millel on märge **Korvamiseks valmis**. Seejärel valib Arnie suvandid **Fail** &gt; **Ekspordi Excelisse**. Käibemaksuteave kuluaruannetest eksporditakse Microsoft Exceli töölehele. Arnie esitab selle töölehe muust osapoolest hankijale ja lisab sõnumi teatega, et paberkviitungid on saadetud kulleriga.
 
 ## <a name="process-expenses-for-domestic-vat-recovery"></a>Kodumaise käibemaksu korvamise kulude töötlemine
 
 Arnie peab veenduma, et kuluaruande kanded on käibemaksu korvamiseks sobilikud ja et aruannetele on lisatud digitaalsed kviitungid. Kodumaiseks korvamiseks sobilike kulude töötlemiseks avab Arnie lehe **Kulumaksu korvamine** ja valib kinnitamist vajava kuluaruande. Ta kontrollib, et kviitungid on ettevõtte nimel, mitte töövõtja nimel. Käibemaksu korvamiseks peavad kviitungid olema ettevõtte nimel. Seejärel kinnitab Arnie, et kasutati õiget käibemaksugruppi ja kauba käibemaksukoode.
 
 Kui Arnie saab paberkviitungid, muudab ta kuluaruande olekuks **Korvamiseks valmis**. Seejärel saab ta kinnitada korvamise sobivale maksuasutusele. Praegusel juhul on vastutav maksuasutus USAs IRS.
-

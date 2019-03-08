@@ -1,13 +1,13 @@
 ---
-title: "Tööjaotuse struktuurid"
-description: "Tööjaotuse struktuur (WBS) on projekti puhul tehtava töö kirjeldus. See on ülesannete hierarhia, mis kajastab projekti töörühma arusaama töö koosseisust ja iga osa või ülesande ulatusest, maksumusest ja kestusest."
+title: Tööjaotuse struktuurid
+description: Tööjaotuse struktuur (WBS) on projekti puhul tehtava töö kirjeldus. See on ülesannete hierarhia, mis kajastab projekti töörühma arusaama töö koosseisust ja iga osa või ülesande ulatusest, maksumusest ja kestusest.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358895"
 ---
-
 # <a name="work-breakdown-structures"></a>Tööjaotuse struktuurid
 
 [!include [banner](../includes/banner.md)]
@@ -103,10 +102,10 @@ Praegu ei saa WBS-i nummerdamist kohandada.
 
 ### <a name="schedule-estimation"></a>Graafiku prognoosimine
 
-Graafiku prognoosimine on tavaliselt WBS-i loomise teine etapp. Graafikut on kõige parem prognoosida pärast ülesannete loomist. Finance and Operationsi lehel **Tööjaotuse struktuur** on kaks osa. Ülemine paan on mõeldud graafiku prognoosimiseks ja alumisel paanil on vahekaart **Eeldatavad kulud ja tulud**, mida saate kasutada kulude prognoosimiseks. 
+Graafiku prognoosimine on tavaliselt WBS-i loomise teine etapp. Graafikut on kõige parem prognoosida pärast ülesannete loomist. Finance and Operationsi lehel **Tööjaotuse struktuur** on kaks jaotist. Ülemine paan on mõeldud graafiku prognoosimiseks ja alumisel paanil on vahekaart **Eeldatavad kulud ja tulud**, mida saate kasutada kulude prognoosimiseks. 
 **Ülesande sõltuvused** WBS-is saab luua ülesannete vahel eelkäija seose. Kui määrate ülesandele eelkäijatest ülesanded, saab ülesanne alata alles siis, kui kõik eelkäijatest ülesanded on lõpetatud. Ülesande plaanitavaks alguskuupäevaks määratakse automaatselt kõigi selle eelkäijate hiliseim kuupäev. 
 
-**Ülesannete plaanimine rakenduses Finance and Operations** Järgmised tegurid määravad lehe sõlme ülesannete ajastamise.
+**Ülesannete plaanimine rakenduses Microsoft Dynamics 365 for Finance and Operations** Järgmised tegurid määravad lehe sõlme ülesannete plaanimise.
 
 -   Eelkäijad
 -   Panus
@@ -167,7 +166,7 @@ Iga tööjõu või kuluprognoosi rea kulu ja müügihind põhinevad seadistusel,
 ## <a name="tracking-progress-on-the-wbs"></a>Edenemise jälgimine WBS-is
 Mõnes valdkonnas jälgitakse projekti edenemist WBS-i suhtes väga detailsel tasemel, samas kui teistes jälgitakse edenemist WBS-i kõrgemal tasemel. See jaotis kirjeldab, kuidas WBS-i jälgimist projekti nõuete jaoks kasutada saab. 
 
-Finance and Operations on projekti WBS-i jaoks kolm kuva: plaanimiskuva, panuse jälgimise kuva ja kulude jälgimise kuva.
+Finance and Operationsil on projekti WBS-i jaoks kolm kuva: plaanimiskuva, panuse jälgimise kuva ja kulude jälgimise kuva.
 
 ### <a name="planning-view"></a>Plaanimiskuva
 
@@ -243,13 +242,13 @@ Teenitud väärtuse ajafaasi diagramm kuvatakse nädalate või kuude kaupa. Sell
 
 **Plaanitud väärtus** EVM-i teooria väidab, et graafiku plaanitud väärtus kajastab määra, mille ulatuses projekti töörühm plaanis projekti puhul väärtust teenida. 
 
-Finance and Operations kasutab plaanitud väärtuse kavandamisel 0:100 teenimise reeglit. Selle reegli kohaselt sisestatakse ülesande väärtus ülesandele selle lõppkuupäeva seisuga. Ühtegi väärtust ei sisestata enne, kui ülesanne on 100 protsenti lõpule viidud. 
+Finance and Operations kasutab plaanitud väärtuse kavandamisel teenimisreeglit 0 : 100. Selle reegli kohaselt sisestatakse ülesande väärtus ülesandele selle lõppkuupäeva seisuga. Ühtegi väärtust ei sisestata enne, kui ülesanne on 100 protsenti lõpule viidud. 
 
 Moodulis Projektihaldus ja raamatupidamine sisestatakse lehe sõlmede lõppkuupäev ja plaanitud kulu. Kui plaanitud väärtuse graafik kuvatakse nädalakaupa, summeeritakse plaanitud väärtus nädalakaupa kõigi lehe sõlmülesannete puhul projekti vältel. 
 
 **Teenitud väärtus** EVM-i teooria väidab, et graafiku teenitud väärtus kajastab määra, mille ulatuses projekti töörühm tegelikult väärtust teenib. 
 
-Finance and Operations kasutab teenitud väärtuse kavandamisel 0:100 teenimise reeglit. Selle reegli kohaselt sisestatakse ülesande väärtus ülesandele selle lõppkuupäeva seisuga. Ühtegi väärtust ei sisestata enne, kui ülesanne on 100 protsenti lõpule viidud. 
+Finance and Operations kasutab teenitud väärtuse kavandamisel teenimisreeglit 0 : 100. Selle reegli kohaselt sisestatakse ülesande väärtus ülesandele selle lõppkuupäeva seisuga. Ühtegi väärtust ei sisestata enne, kui ülesanne on 100 protsenti lõpule viidud. 
 
 Teenitud väärtuse arvutamisel arvestatakse iga ülesande edenemise protsenti. 0:100 teenimise reegli alusel arvestatakse teenitud väärtuse arvutuses ainult antud perioodi lõpetatud ülesandeid selle perioodi lõpu seisuga. Projekti teenitud väärtus arvutatakse kõigi selle graafiku loomisel lõpetatud ülesannete kohta. 
 
@@ -314,7 +313,6 @@ Panus = ressursside arv × kestus × standardse tööpäeva tundide arv
 Saate parandada kõik plaanimisvead üheaegselt, klõpsates valikut **Paranda kõik plaanimisvead**. 
 
 Teine võimalus plaanimisvigade parandamiseks on parandada need eraldi, klõpsates iga ülesande puhul hoiatusikooni.
-
 
 
 

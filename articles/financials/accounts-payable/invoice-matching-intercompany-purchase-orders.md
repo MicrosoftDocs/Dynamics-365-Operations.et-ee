@@ -1,13 +1,13 @@
 ---
-title: "Arvete võrdlemine ja kontsernisisesed ostutellimused"
-description: "Kontsernisisese kaubanduse kandega seotud juriidilise isiku ostu saab seadistada kasutama ostureskontro arvete võrdlemist. Sel juhul peavad nii kontsernisisese kaubanduse kui ka ostureskontro arvete võrdlemise sisestamisnõuded olema täidetud, enne kui saab sisestada kontsernisisesed hankijate arved."
+title: Arvete võrdlemine ja kontsernisisesed ostutellimused
+description: Kontsernisisese kaubanduse kandega seotud juriidilise isiku ostu saab seadistada kasutama ostureskontro arvete võrdlemist. Sel juhul peavad nii kontsernisisese kaubanduse kui ka ostureskontro arvete võrdlemise sisestamisnõuded olema täidetud, enne kui saab sisestada kontsernisisesed hankijate arved.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 68b586f8afe7557bf6edee3eca0261d1e9cac0f2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357561"
 ---
-
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Arvete võrdlemine ja kontsernisisesed ostutellimused
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Näiteks võite teha järgmist.
 2.  Tehke jaotises Fabrikam Sales arveuuendus ICSO999. Sisestamine nurjub, sest kaup on laost otsas ning seda pole veel vastu võetud. Seetõttu ei saa finantsandmeid uuendada.
 3.  Registreerige kaupade kättesaamine ja sisestage ICSO999 saateleht üksusele Fabrikam Sales. ICPO333 toote sissetulek sisestatakse automaatselt üksusele Fabrikam Purchase. Vastuvõetud kauba B-R14 kogus on üksusel Fabrikam Purchase nüüd 100.
 4.  Tehke jaotises Fabrikam Sales arveuuendus ICSO999. Sisestamine on mõlema juriidilise isiku puhul edukas. Üksusel Fabrikam Purchase muutub kauba B-R14 ostetud kogus väärtuseks 100. 
-
 
 
 

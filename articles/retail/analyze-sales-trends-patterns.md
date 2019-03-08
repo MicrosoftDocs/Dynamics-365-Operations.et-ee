@@ -1,13 +1,13 @@
 ---
-title: "Müügitrendide ja -mustrite analüüsimine"
-description: "Saate Microsoft Dynamics 365 for Retailis uurida müügitrende ja -mustreid reaalajas."
+title: Müügitrendide ja -mustrite analüüsimine
+description: Saate uurida müügitrende ja -mustreid Microsoft Dynamics 365 for Retailis reaalajas.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelReport, SysReportViewerForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b2a23b6013fd9096457647142a40a6710da6ca88
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357998"
 ---
-
 # <a name="analyze-sales-trends-and-patterns"></a>Müügitrendide ja -mustrite analüüsimine
 
 [!include [banner](includes/banner.md)]
 
-Saate Microsoft Dynamics 365 for Retailis uurida müügitrende ja -mustreid reaalajas.
+Saate uurida müügitrende ja -mustreid Microsoft Dynamics 365 for Retailis reaalajas.
 
-Kasutajad saavad Microsoft Dynamics 365 for Retaili osana uurida müügitrende ja -mustreid reaalajas organisatsiooni hierarhia erinevatel tasanditel aastate perioodil, kasutades valmisaruannet **Kanali müük aastate alusel**. Selle aruande saab avada järgmistest asukohtadest.
+Kasutajad saavad Dynamics 365 for Retaili osana uurida müügitrende ja -mustreid reaalajas organisatsiooni hierarhia erinevatel tasanditel aastate perioodil, kasutades valmisaruannet **Kanali müük aastate alusel**. Selle aruande saab avada järgmistest asukohtadest.
 
 - Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali müügiaruanne aastate alusel**
 - Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali müügiaruanne aastate alusel**
@@ -44,4 +43,3 @@ Kasutajad saavad uurida ka müügitrende ja -mustreid tundide kaupa organisatsio
 - Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali müügiaruanne tundide alusel**
 - Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali müügiaruanne tundide alusel**
 - Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali müügiaruanne tundide alusel**
-

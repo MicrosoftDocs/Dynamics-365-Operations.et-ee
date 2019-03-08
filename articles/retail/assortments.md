@@ -1,13 +1,13 @@
 ---
 title: Sortimendi haldus
-description: "Selles teemas selgitatakse sortimendi halduse põhikontseptsioone rakenduses Microsoft Dynamics 365 for Retail ja esitatakse juurutamise kaalutlusi teie projekti jaoks."
+description: Selles teemas selgitatakse sortimendi halduse põhikontseptsioone rakenduses Microsoft Dynamics 365 for Retail ja esitatakse juurutamise kaalutlusi teie projekti jaoks.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
+ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365036"
 ---
-
 # <a name="assortment-management"></a>Sortimendi haldus
 
 [!include [banner](../includes/banner.md)]
@@ -108,4 +107,3 @@ Kui plaanite ja haldate oma jaemüügijuurutuse jaoks sortimente, arvestage jär
 - **Müük ja tagastused väljaspool sortimente** – see võimalus aitab jaemüüjatel oma sortimente tõhusalt hallata, võimaldades piirata saadaolevate toodete arvu toodetega, mis kuuluvad kaupluse peamisse tootevalikusse. See võimalus aitab jaemüüjatel käsitleda olukordi, kus toode jäeti ekslikult sortimendist välja või kus toode tagastati väljaspool sortimendi kehtivuskuupäevi.
 
 Kui toote andmeid pole kanali andmebaasis, teeb kassa vajaliku teabe hankimiseks reaalajas kõnesid peakontorisse, et toodet saaks müüa, tagastada või panna klienditellimusse. Sel viisil hangitav tooteteave on saadaval ainult selle kande käitlemise ajal. Seda toodet ei lisata sortimendi määratlusse. Seetõttu tehakse järgnevad reaalajas kõned vastavalt vajadusele.
-

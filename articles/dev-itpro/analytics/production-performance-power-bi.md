@@ -1,13 +1,13 @@
 ---
-title: Tootmistulemuste Power BI sisu
-description: "See teema kirjeldab, mida hõlmab tootmistulemuste Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
+title: Tootmisjõudluse Power BI sisu
+description: See teema kirjeldab, mida hõlmab tootmisjõudluse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,23 +16,22 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365956"
 ---
-
-# <a name="production-performance-power-bi-content"></a>Tootmistulemuste Power BI sisu
+# <a name="production-performance-power-bi-content"></a>Tootmisjõudluse Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, mida hõlmab **tootmistulemuste** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+See teema kirjeldab, mida hõlmab **tootmisjõudluse** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="overview"></a>Ülevaade
 
-**Tootmistulemuste** Power BI sisu on mõeldud tootmisjuhtidele või nendele inimestele organisatsioonis, kes vastutavad tootmise juhtimise eest.
+**Tootmisjõudluse** Power BI sisu on mõeldud tootmisjuhtidele või nendele inimestele organisatsioonis, kes vastutavad tootmise juhtimise eest.
 
 Lisatud aruanded võimaldavad kasutada Power BI-d tootmistoimingute tulemusi: õigeaegset läbiviimist, kvaliteeti ja kulu. Aruannetes kasutatakse tootmistellimuste ja partiitellimuste kandeandmeid ning antakse nii koondvaade ettevõtteülestest tootmismõõdikutest kui ka mõõdikute jaotus toote ja ressursi kaupa.
 
@@ -40,14 +39,14 @@ Power BI sisu tõstab esile organisatsiooni võime toota õigeaegselt ja täies 
 
 See Power BI sisu võimaldab analüüsida ka tootmiskulude hälbeid. Tootmiskulude hälbed arvutatakse erinevusena eeldatava ja realiseeritud kulu vahel. Tootmiskulude hälbed arvutatakse siis, kui tootmistellimused või partiitellimused saavutavad oleku **Lõpetatud**.
 
-**Tootmistellimuse** Power BI sisu hõlmab tootmistellimustest ja partiitellimustest pärinevaid andmeid. Aruanded ei sisalda andmeid, mis on seotud kanban-tootmistega.
+**Tootmisjõudluse** Power BI sisu hõlmab tootmistellimustest ja partiitellimustest pärinevaid andmeid. Aruanded ei sisalda andmeid, mis on seotud kanban-tootmistega.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-Power BI sisu **Tootmise jõudlus** kuvatakse lehel **Tootmise jõudlus** (**Tootmise juhtimine** \> **Päringud ja aruanded** \> **Tootmise jõudlusanalüüs** \> **Tootmise jõudlus**). 
+**Tootmisjõudluse** Power BI sisu kuvatakse lehel **Tootmise jõudlus** (**Tootmise juhtimine** \> **Päringud ja aruanded** \> **Tootmisjõudluse analüüs** \> **Tootmisjõudlus**). 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad mõõdikud
 
-**Tootmistulemuste** Power BI sisaldab aruandelehtede kogumit. Iga leht koosneb mõõdikute komplektist, mida visualiseeritakse diagrammide, paanide ja tabelitena.
+**Tootmisjõudluse** Power BI sisu sisaldab aruandelehtede kogumit. Iga leht koosneb mõõdikute komplektist, mida visualiseeritakse diagrammide, paanide ja tabelitena.
 
 Järgmises tabelis antakse ülevaade sisalduvatest visualiseeringutest.
 
@@ -63,7 +62,7 @@ Järgmises tabelis antakse ülevaade sisalduvatest visualiseeringutest.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 
-**Tootmistulemuste** Power BI sisu aruandelehtede jaoks kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Üksuse kaupluse kohta lisateabe saamiseks vt jaotist [Power BI integreerimine üksuse kauplusega](power-bi-integration-entity-store.md).
+**Tootmisjõudluse** Power BI sisu aruandelehtede jaoks kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet üksuse kaupluse kohta vt teemast [Power BI integreerimine üksuse kauplusega](power-bi-integration-entity-store.md).
 
 Järgmises tabelis on näidatud peamised koondmõõdikud, mida kasutatakse Power BI sisu alusena.
 
@@ -130,4 +129,3 @@ Järgmises tabelis olevaid põhidimensioone kasutatakse filtritena koondmõõtmi
 | Üksused                  | ID ja nimi                                                   |
 | Ressursid                 | Ressursi ID, ressursi nimi, ressursitüüp ja ressursigrupp |
 | Tooted                  | Tootenumber, toote nimi, kauba ID ja kaubagrupp         |
-

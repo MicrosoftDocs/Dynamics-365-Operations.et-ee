@@ -1,13 +1,13 @@
 ---
-title: "Väljade kirjelduste vaatamine ja eksportimine"
-description: "Selles artiklis kirjeldatakse, kuidas vaadata väljade kirjeldusi ja kuidas kasutada väljade kirjelduste lehte kirjelduste eksportimiseks."
+title: Väljade kirjelduste vaatamine ja eksportimine
+description: Selles artiklis kirjeldatakse, kuidas vaadata väljade kirjeldusi ja kuidas kasutada väljade kirjelduste lehte kirjelduste eksportimiseks.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
 ms.reviewer: rschloma
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7be1495fc42b5f19884a7d9df747f6bec9b64680
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359332"
 ---
-
 # <a name="view-and-export-field-descriptions"></a>Väljade kirjelduste vaatamine ja eksportimine
 
 [!include [banner](../includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas vaadata väljade kirjeldusi ja kuidas kasutada väljade kirjelduste lehte kirjelduste eksportimiseks.
 
-Microsoft Dynamics 365 for Finance and Operationsis on antud mõne keerukama välja kirjeldused. Need kirjeldused kuvatakse, kui liigute välja kohale. Väljade kirjeldusi saab vaadata ja eksportida ka lehel **Väljade kirjeldused**.
+Rakenduses Microsoft Dynamics 365 for Finance and Operations on antud mõne keerukama välja kirjeldused. Need kirjeldused kuvatakse, kui liigute välja kohale. Väljade kirjeldusi saab vaadata ja eksportida ka lehel **Väljade kirjeldused**.
 
 Kõigil lehekülgedel ei ole väljade kirjeldusi. Soovime pakkuda kirjeldusi ainult keerukamate väljade jaoks, mitte nende väljade jaoks, mille kasutamine on ilmselge. Seetõttu pole mõnel lehel väljade kirjeldusi, mõnel lehel on mõned kirjeldused ja mõnel keerukamal lehel (nt paljudel parameetrilehtedel) on palju kirjeldusi.
 
@@ -70,7 +69,7 @@ Kui määrate valiku **Kaasa ilma kirjelduseta väljad** väärtuseks **Jah**, k
 Kirjelduste eksportimiseks tehke järgmist.
 
 1. Valige leht väljalt **Lehe valimine**.
-2. Klõpsake nuppu **Ava Microsoft Office’is** ülemises parempoolses nurgas ja klõpsake siis valikut **FieldDescriptionTmp**.
+2. Klõpsake paremas ülanurgas nuppu **Ava Microsoft Office’is** ja siis klõpsake suvandit **FieldDescriptionTmp**.
 
 ### <a name="searching-for-a-page"></a>Lehe otsimine
 
@@ -109,4 +108,3 @@ Teavet mitmesuguste võimaluste kohta lehtede otsimiseks leiate selle artikli va
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Väljaspikri kohandamine](../../dev-itpro/user-interface/customize-field-help.md)
-

@@ -1,13 +1,13 @@
---- 
+---
 title: Koorma laadimise seadistamine
-description: "See protseduur näitab, kuidas seadistada ja plaanida koormale laadimissilla määramist."
+description: See protseduur näitab, kuidas seadistada ja plaanida koormale laadimissilla määramist.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSAppointment
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f5ede4ab29b5d0c3fcb057049e2abbb9f2bf16f0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8f608a38dd28a77e2a33e5c23cf35b5a9e6a8c38
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354985"
 ---
 # <a name="set-up-an-appointment-for-a-load"></a>Koorma laadimise seadistamine
 
@@ -46,5 +46,4 @@ See protseduur näitab, kuidas seadistada ja plaanida koormale laadimissilla mä
 5. Klõpsake nuppu Kinnita.
 6. Klõpsake nuppu Salvesta.
 7. Sulgege leht.
-
 

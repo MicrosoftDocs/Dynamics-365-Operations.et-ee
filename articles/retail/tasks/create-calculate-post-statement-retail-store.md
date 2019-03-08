@@ -1,13 +1,13 @@
---- 
+---
 title: " Jaekaupluse jaoks väljavõtte loomine, arvutamine ja sisestamine"
-description: "See protseduur kirjeldab kaupluse kohta väljavõtte loomise, arvutamise ja sisestamise etappe."
+description: See protseduur kirjeldab kaupluse kohta väljavõtte loomise, arvutamise ja sisestamise etappe.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9ea30e7e008bfcce77a7ee2f4d7d01a6cf1ababc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
-ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354387"
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Jaekaupluse jaoks väljavõtte loomine, arvutamine ja sisestamine
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-See protseduur kirjeldab kaupluse kohta väljavõtte loomise, arvutamise ja sisestamise etappe. Samade ülesannete jaoks saab konfigureerida ka pakett-töid. Pakett-tööde konfigureerimise ja käitamise etapid leiate teistest teemadest. Selle protseduuri tegemiseks peavad teil olema kassas lõpule viidud ja seejärel Dynamics AX-i tõmmatud kanded. See salvestis kasutab demoettevõtte USRT andmeid. See protseduur võib viidata Microsoft Dynamics AX-ile. Arvestage, et Dynamics AX-i nimi on nüüd Microsoft Dynamics 365 for Operations.
+See protseduur kirjeldab kaupluse kohta väljavõtte loomise, arvutamise ja sisestamise etappe. Samade ülesannete jaoks saab konfigureerida ka pakett-töid. Pakett-tööde konfigureerimise ja käitamise etapid leiate teistest teemadest. Selle protseduuri tegemiseks peavad teil olema kassas lõpule viidud ja seejärel Dynamics AX-i tõmmatud kanded. See salvestis kasutab demoettevõtte USRT andmeid. See toiming võib viidata Microsoft Dynamics AX-ile. Pange tähele, et Dynamics AX-i nimi on nüüd Microsoft Dynamics 365 for Operations.
 
 1. Avage Kõik tööruumid >... > Jaekaupluse rahandus.
 2. Klõpsake suvandit Uus väljavõte.
@@ -47,5 +47,4 @@ See protseduur kirjeldab kaupluse kohta väljavõtte loomise, arvutamise ja sise
 10. Klõpsake valikut Sule.
 11. Minge jaotisse Jaemüük ja kaubandus > Kanalid > Jaekaupluse rahandus.
 12. Klõpsake vahekaarti Sisestatud väljavõtted.
-
 

@@ -1,13 +1,13 @@
 ---
-title: Retail Modern POS-i (MPOS) jaoks piltide seadistamine ja haldamine
-description: "See artikkel selgitab toiminguid, mis on seotud mitmesuguste Retail Modern POS-is (MPOS)kuvatavate üksuste piltide seadistamise ja haldamisega."
+title: Piltide seadistamine ja haldamine Retail Modern POS-i (MPOS) puhul
+description: See artikkel selgitab toiminguid, mis on seotud mitmesuguste Retail Modern POS-is (MPOS) kuvatavate üksuste piltide seadistamise ja haldamisega.
 author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
 audience: Application User
 ms.reviewer: josaw
@@ -19,35 +19,34 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d2f4cc99ec239c4c35c44a226235d01e18d4185f
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356733"
 ---
-
-# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Retail Modern POS-i (MPOS) jaoks piltide seadistamine ja haldamine
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Piltide seadistamine ja haldamine Retail Modern POS-i (MPOS) puhul
 
 [!include [banner](includes/banner.md)]
 
-See artikkel selgitab toiminguid, mis on seotud mitmesuguste Retail Modern POS-is (MPOS)kuvatavate üksuste piltide seadistamise ja haldamisega.
+See artikkel selgitab toiminguid, mis on seotud mitmesuguste Retail Modern POS-is (MPOS) kuvatavate üksuste piltide seadistamise ja haldamisega.
 
 ## <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>Meedia baas-URL-i seadistamine ja meediamallide määratlemine pildi URL-ide vormingu konfigureerimiseks
 
-Retail Modern POS-is (MPOS) kuvatavad pildid peavad olema majutatud väliselt, rakendusest Microsoft Dynamics 365 for Retail väljapoole. Tavaliselt majutatakse neid sisuhaldussüsteemis, sisu edastamise võrgus (CDN) või meediserveris. MPOS toob pildid sobivate üksuste (nagu tooted ja kataloogid) juurde ning kuvab need, kasutades sihtkoha URL-i. Väliselt majutatavate piltide toomiseks nõuab MPOS piltide õiget URL-i vormingut. Saate konfigureerida piltidele nõutava URL-i vormingu, seadistades kanali profiilis väärtuse **Meedia baas-URL** ja kasutades iga üksuse puhul funktsiooni **Meediamalli määratlemine**. Samuti saate alistada standardse URL-i vormingu üksuste alamkogumi jaoks, kasutades funktsiooni **Excelis redigeerimine**.
+Retail Modern POS-is (MPOS) kuvatavaid pilte tuleb majutada väliselt, st väljaspool rakendust Microsoft Dynamics 365 for Retail. Tavaliselt majutatakse neid sisuhaldussüsteemis, sisu edastamise võrgus (CDN) või meediserveris. MPOS toob pildid sobivate üksuste (nagu tooted ja kataloogid) juurde ning kuvab need, kasutades sihtkoha URL-i. Väliselt majutatavate piltide toomiseks nõuab MPOS piltide õiget URL-i vormingut. Saate konfigureerida piltidele nõutava URL-i vormingu, seadistades kanali profiilis väärtuse **Meedia baas-URL** ja kasutades iga üksuse puhul funktsiooni **Meediamalli määratlemine**. Samuti saate alistada standardse URL-i vormingu üksuste alamkogumi jaoks, kasutades funktsiooni **Excelis redigeerimine**.
 
 > [!IMPORTANT]
-> Praeguses rakenduse Dynamics 365 for Retail versioonis ei saate seadistada URL-vormingut, kasutades MPOS-i XML-atribuuti **Pilt** üksuste atribuudigrupis **Vaikimisi**. Kui olete tuttav rakendusega Microsoft Dynamics AX 2012 R3 ja kasutate nüüd rakenduse Dynamics 365 for Retail praegust versiooni, veenduge, et kasutate piltide seadistamiseks alati uut funktsiooni **Meediamallide määratlemine**. Ärge kasutage ega muutke ühegi üksuse (sh tootede) puhul atribuuti **Pilt** atribuudigrupis **Vaikimisi**. Otse atribuudigrupis **Vaikimisi** piltidele tehtud muudatusi ei kajastata. See suvand keelatakse tulevases väljaandes.
+> Praeguses rakenduse Dynamics 365 for Retail versioonis ei saate seadistada URL-vormingu, kasutades MPOS-i XML-atribuuti **Pilt** üksuste atribuudigrupis **Vaikimisi**. Kui olete tuttav Microsoft Dynamics AX 2012 R3-ga ja kasutate praegust Dynamics 365 for Retaili versiooni, siis veenduge, et kasutaksite piltide seadistamisel uut funktsiooni **Meediamalli määratlemine**. Ärge kasutage ega muutke ühegi üksuse (sh tootede) puhul atribuuti **Pilt** atribuudigrupis **Vaikimisi**. Otse atribuudigrupis **Vaikimisi** piltidele tehtud muudatusi ei kajastata. See suvand keelatakse tulevases väljaandes.
 
 Järgmistes protseduurides seadistatakse näitena pildid kataloogiüksuse jaoks. Need protseduurid aitavad tagada, et vaikimisi seadistatakse ühist teed kasutavatele kataloogi piltidele õige pildi sihtkoha tee. Näiteks kui olete seadistanud meediaserveri või CDN-i väliselt ja soovite MPOS-is pilte kuvada konkreetse poe jaoks, aitab funktsioon **Meediamalli määratlemine** määrata tee, mille puhul saab MPOS pilte otsida ja neid tuua.
 
 > [!NOTE]
-> Antud demonandmete näites juurutatakse meediaserver jaemüügiserveris. Samas võib see teil olla igal pool väljaspool rakendust Dynamics 365 for Retail.
+> Antud demonandmete näites juurutatakse meediaserver jaemüügiserveris. Kuid see võib olla ükskõik kus väljaspool Dynamics 365 for Retaili.
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>Meedia baas-URL.i seadistamine kanalile
 
-1. Avage Dynamics 365 for Retaili HQ portaal.
+1. Avage Dynamics 365 for Retail HQ portaal.
 2. Klõpsake nuppe **Jaemüük** &gt; **Kanali seadistus** &gt; **Kanali profiilid**.
 
     [![channel-profile1](./media/channel-profile1.png)](./media/channel-profile1.png)
@@ -214,4 +213,3 @@ Kataloogi, kategooria, töötaja ja kliendi pildid, mida on vaja kasutada võrgu
 5. Järgige muude üksuste (nt Kategooria, Töötaja ja Klient) puhul sama protsessi.
 
     [![offline2](./media/offline2.png)](./media/offline2.png)
-

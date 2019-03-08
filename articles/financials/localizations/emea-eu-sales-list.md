@@ -1,13 +1,13 @@
 ---
-title: "EL-i käibearuandlus"
-description: "Selles artiklis antakse teavet Euroopa Liidu (EL-i) käibearuande aruandluse kohta."
+title: EL-i käibearuandlus
+description: Selles artiklis antakse teavet Euroopa Liidu (EL-i) käibearuande aruandluse kohta.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2c4fe1c93693cee9164f2c22ad71a29abd6473d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e1eff86902170401e593019ea555d9c2a4c11c04
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370578"
 ---
-
 # <a name="eu-sales-list-reporting"></a>EL-i käibearuandlus
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ ESL-i kasutades saavad iga EL-i liikmesriigi ametnikud kontrollida, kas iga EL-i
 EL-i käibearuanne võimaldab teha järgmisi toiminguid.
 
 -   Koguda teavet EL-i siseste kaubanduskannete kohta. EL-i sisene kaubanduskanne võib olla müügiarve, vabas vormis arve, projekti arve või hankija arve. Kanne tuvastatakse vastaspoole riigi/regiooni alusel. Eri tüüpi EL-i sisesed kaubakanded kogutakse EL-i käibearuande tabelisse, kus neid esitatakse tavavormis. ESL-i tabeli iga kirje esindab ühte kannet ja koosneb vastaspoole käibemaksu identifikaatorist ning tarnitud kaupade ja teenuste koguväärtusest.
--   (Valikuline) Eelvaadata **EL-i käibearuannet**. Saate eelvaadata ja kinnitada antud perioodi **EL-i käibearuande** Microsoft Exceli töövihiku vormis.
+-   (Valikuline) Eelvaadata **EL-i käibearuannet**. Saate eelvaadata ja kinnitada antud perioodi **EL-i käibearuande** Microsoft Exceli töövihiku kujul.
 -   Luua **EL-i käibearuanne**. **EL-i käibearuanne** luuakse elektroonilise faili vormis konkreetses vormingus, mis on iga EL-i liikmesriigi puhul ainuomane. Üldiselt sisaldab **EL-i käibearuanne** põhiteavet aruandluse osapoole kohta ning kaupade ja teenuste väärtuste kohta. Teave on rühmitatud riigi ja vastaspoole KM-i identifikaatori järgi.
 -   Sulgeda EL-i käibearuande aruandlusperioodi. Pärast **EL-i käibearuande** loomist ja ametiasutustele esitamist saate märkida ESL-i tabeli kirjete olekuks **Suletud**. Neid kandeid ei kaasata lisaaruannetesse.
 
@@ -122,7 +121,7 @@ Järgmises tabelis kuvatakse eeltingimused, mis peavad olema asukohakorralduse l
 <li>Vahekaart <strong>Riigi/regiooni parameetrid</strong>: tuvastage EL-i liikmesriigid. Looge iga EL-i liikmesriigi kohta lehel kirje ja lisage järgmine teave.
 <ul>
 <li><strong>Riik/regioon</strong> – valige riik/regioon.</li>
-<li><strong>Riigi/regiooni tüüp</strong> – kui suvandi <strong>Riik/regioon</strong> väärtus on riik/regioon, kuhu teie ettevõte on registreeritud, tehke valik <strong>Kodumaine</strong>. Kui suvandi <strong>Riik/regioon</strong> väärtus ei ole EL-i liikmesriik, kuhu teie ettevõte registreeritud on, tehke valik <strong>EL</strong>. Kui suvandi <strong>Riik/regioon</strong> väärtus ei ole EL-i liikmesriik, tehke valik <strong>Kolmas riik/regioon</strong>.</li>
+<li><strong>Riigi/regiooni tüüp</strong> – kui suvandi <strong>Riik/regioon</strong> väärtus on riik/regioon, kuhu teie ettevõte on registreeritud, tehke valik <strong>Kodumaine</strong>. Kui suvandi <strong>Riik/regioon</strong> väärtus ei ole EL-i liikmesriik, kuhu teie ettevõte registreeritud on, tehke valik <strong>EL</strong>. Kui suvandi <strong>Riik/regioon</strong> väärtus ei ole EL-i liikmesriik, valige suvand <strong>Kolmas riik/regioon</strong>.</li>
 </ul></li>
 <li>Vahekaart <strong>Numbriseeriad</strong>: valige real, kus suvandi <strong>Viide</strong> väärtus on <strong>EL-i käibearuanne</strong>, numbriseeria kood.</li>
 </ul></td>
@@ -158,7 +157,6 @@ Saate luua aruande **EL-i käibearuanne**, kasutades funktsiooni **Aruandlus**le
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>EL-i käibearuande aruandlusperioodi sulgemine
 
 Kui olete lõpetanud konkreetse perioodi aruandlusprotsessi (näiteks kui maksuametnikud on **EL-i käibearuande** kinnitanud), saate märkida ESL-i kirjed, mis on perioodil aruandesse kaasatud, seadistades väärtuse **Aruandluse olek** olekuks **Suletud**. Kasutage selle oleku määramiseks funktsiooni **Märgi suletuks**lehel **EL-i käibearuanne**. Kui ennistate perioodi lõpetamise, saate märkida ESL-i kirjed, seadistades suvandi **Aruandluse olek** väärtuseks **Kaasatud**. Need kirjed saab siis uuesti **EL-i käibearuandesse** lisada. Selle oleku seadistamiseks kasutage funktsiooni **Märgi** **kaasatuks**lehel **EL-i käibearuanne**.
-
 
 
 

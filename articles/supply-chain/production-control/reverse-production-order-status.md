@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4761e44b6bbc93ebf4a395948f42c2a73013ecb9
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367313"
 ---
-
 # <a name="reverse-the-production-order-status"></a>Tootmistellimuse oleku ennistamine
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Tootmistellimuse oleku ennistamisel väärtuselt **Väljastatud** väärtusele *
 
 ## <a name="from-started-to-released"></a>Olekust Alustatud olekuks Väljastatud
 Tootmistellimuse oleku ennistamisel väärtuselt **Alustatud** väärtusele **Väljastatud** ennistatakse kõik lõpetatuna kinnitatud kaubad. Kui materjal on komplekteeritud või tootmisele on tehtud sissetulevaid ja väljaminevaid tarneid, ennistatakse need sätted. Tootmistellimuse koosluseridade väli **Jäägi olek** muutub väärtuselt **Lõpetatud** väärtusele **Materjali tarbimine**. Kui kellaaeg on registreeritud või kogused tootmisprotsessi operatsioonide jaoks lõpetatuna kinnitatud, ennistatakse need sätted. Tootmistellimuse väli **Jäägi olek** muutub väärtuselt **Lõpetatud** väärtusele **Protsessi tarbimine**. Ennistatakse sätted kõigi kaupade puhul, mis on sisestatud pooleliolevatena või lõpetamata toodanguna. Lehel **Tootmistellimuse üksikasjad** ennistatakse väljad, millel kuvatakse alustatud või lõpetatuna kinnitatud kogus. Ennistatakse ka nende kannete kuupäevad.
-
 
 
 

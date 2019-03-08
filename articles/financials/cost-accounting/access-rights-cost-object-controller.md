@@ -1,32 +1,31 @@
 ---
-title: "Kuluobjekti kontrollijate pääsuõiguste määratlemine"
-description: "See teema käsitleb kuluobjekti kontrollijate pääsuõigusi."
+title: Kuluobjekti kontrollijate pääsuõiguste määratlemine
+description: See teema käsitleb kuluobjekti kontrollijate pääsuõigusi.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 290b16eeb99ac7ddb9b552b289215c99a0451660
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1cac3c3b724dda4ab39a65aa5221eda427767eb8
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355537"
 ---
-
 # <a name="access-rights-of-a-cost-object-controller"></a>Kuluobjekti kontrollija pääsuõigused
 
 [!include [banner](../includes/banner.md)]
@@ -95,8 +94,8 @@ Juurdepääsuloendi hierarhia sätteid kasutatakse järgmistel aladel kuvatavate
 
 - Microsoft Power BI:
 
-    - Power BI visualisatsioonidel kuvatavad andmed
-    - Andmete Power BI visualisatsioonid, mis on manustatud rakenduse Microsoft Dynamics 365 for Finance and Operationsi klienti
+    - Power BI visualiseeringutel kuvatavad andmed
+    - Microsoft Dynamics 365 for Finance and Operationsi klientrakendusse manustatud Power BI andmevisualiseeringud
 
 > [!IMPORTANT]
 > - Enne kui juurdepääsuloendi hierarhia saab Power BI-s olevaid andmeid mõjutada, tuleb juurdepääsuloendi hierarhia ja rea tasemel turve Power BI-s siduda. Lisateavet leiate teemast [Kuluarvestuse sisupaketi jaoks turbe seadistamine](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
@@ -107,4 +106,3 @@ Lisaressursid
 - [Kulujuhtimise tööruum](cost-control-workspace.md)
 - [Dimensioonihierarhia](dimension-hierarchy.md)
 - [Kuluarvestuse sisupaketi turbe seadistamine](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-

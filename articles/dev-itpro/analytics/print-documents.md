@@ -1,13 +1,13 @@
 ---
 title: Dokumentide printimine
-description: "Rakenduses Microsoft Dynamics 365 for Finance and Operations saate printida dokumente kohaliku printeri või võrku ühendatud seadme abil. See artikkel annab ülevaate dokumentide printimisest."
+description: Rakenduses Microsoft Dynamics 365 for Finance and Operations saate printida dokumente kohaliku printeri või võrku ühendatud seadme abil. See artikkel annab ülevaate dokumentide printimisest.
 author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362046"
 ---
-
 # <a name="document-printing"></a>Dokumentide printimine
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ Rakenduses Microsoft Dynamics 365 for Finance and Operations saate printida doku
 
 ## <a name="printing-overview"></a>Printimise ülevaade
 
-Rakendus Microsoft Dynamics 365 for Finance and Operations pakub integreeritud teenuseid ja klientrakendusi, mis võimaldavad hõlpsalt luua, salvestada ja levitada äritegevust toetavaid dokumente. Rakenduses Finance and Operations saate printida dokumente kohaliku printeri või võrku ühendatud seadme abil. Lisaks saate eksportida rakenduse Finance and Operations lehti ja aruandeid otse kliendilt kas PDF-failide või Microsoft Office’i dokumentidena. Lõpuks võimaldab jaotatud töökoormus teil printida äridokumente otse mobiilsest seadmest, kasutades võrguressursse. Kuigi printimisnõuded võivad erineda, peavad kõik valdkonnad tavaliselt äridokumentidest rakenduse Finance and Operations abil looma paberdokumendid. Dokumentide printimine võrgusseadmetes hostitud rakendustest toob kaasa ainulaadsed probleemid. Järgmisena on toodud mõned näited.
+Microsoft Dynamics 365 for Finance and Operations pakub integreeritud teenuseid ja klientrakendusi, mis võimaldavad hõlpsalt luua, salvestada ning levitada äritegevust toetavaid dokumente. Rakenduses Finance and Operations saate printida dokumente kohaliku printeri või võrku ühendatud seadme abil. Peale selle saate eksportida rakenduse Finance and Operations lehti ja aruandeid otse kliendist kas PDF-failide või Microsoft Office’i dokumentidena. Lõpuks võimaldab jaotatud töökoormus teil printida äridokumente otse mobiilsest seadmest, kasutades võrguressursse. Kuigi printimisnõuded võivad erineda, peavad kõik valdkonnad tavaliselt äridokumentidest rakenduse Finance and Operations abil looma paberdokumendid. Dokumentide printimine võrgusseadmetes hostitud rakendustest toob kaasa ainulaadsed probleemid. Järgmisena on toodud mõned näited.
 
 - Printeridraiverid ei pruugi kasutaja seadmes saadaval olla.
 - Kasutaja seade ei pruugi olla ettevõtte võrguga ühendatud.
@@ -54,7 +53,7 @@ Kuna lahendused on erinevaid, pakuvad Finance and Operationsi rakendused oleneva
 
 - **1. stsenaariumi** toetab HTML5 kliendi brauseri renderdus.
 - **2. stsenaarium** kasutab klientrakendusi ja Microsoft Office 365 teenuseid.
-- **3. stsenaariumi** nõuab tuge klientrakendustest ja teenustest, mida hostitatakse Microsoft Azure’is.
+- **3. stsenaarium** nõuab tuge klientrakendustest ja teenustest, mida hostitakse Microsoft Azure’is.
 
 Lisaks platvormile, mida juurutatakse Azure’i tellimusse, pakuvad Finance and Operationsi rakendused klientidele integreeritud, esimese osapoole Azure’i rakendust, mis aitab neil printimiseks hõlpsamalt kasutada domeenis hostitud seadmeid.
 
@@ -63,7 +62,7 @@ Ajal, mil hostitud rakenduste loodud dokmendid ootavad printimist võrku ühenda
 
 **Käivitamisjärjekord**
 
-1. Microsofti SQL Serveri aruandlusteenused (SSRS) loovad aruande, mis talletatakse Azure’i bloobimälus. Seotud printerisätteid talletatakse koos dokumendiga.
+1. Teenus Microsoft SQL Server Reporting Services (SSRS) loob aruande, mis talletatakse Azure’i bloobimälus. Seotud printerisätteid talletatakse koos dokumendiga.
 2. Dokumendi marsruudivaliku agent esitab Azure’i teenusesiini järjekorda aktiivsete tööde päringu.
 3. Dokumendi marsruudivaliku agent laadib dokumendi alla ja spuulib selle võrguprinterisse.
 
@@ -76,4 +75,3 @@ Järgmisel diagrammil on näidatud põhikomponendid, mis toetavad võrguprintimi
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Pange tähele, et ühe printeri juurde saab registreerida mitu dokumendi marsruudivaliku agenti. Printimiseelistuste lahendamiseks kasutab hostitud teenus võrguteed, mis tuvastab kordumatult iga võrguprinteri. Sellest tulenevalt kuvatakse printer ka siis, kui selle on registreerinud mitu klienti, Finance and Operationsi rakenduste saadaolevate printerite loendis ühe valikuna.
-

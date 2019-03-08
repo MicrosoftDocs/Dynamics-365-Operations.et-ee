@@ -1,13 +1,13 @@
 ---
-title: "Müügi ja tulususe tulemuste Power BI sisu"
-description: "See teema kirjeldab, mida hõlmab müügi ja tulususe jõudluse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
+title: Müügi ja tulususe jõudluse Power BI sisu
+description: See teema kirjeldab, mida hõlmab müügi ja tulususe jõudluse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360413"
 ---
-
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Müügi ja tulususe tulemuste Power BI sisu
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Müügi ja tulususe jõudluse Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, mida hõlmab **müügi ja tulususe jõudluse** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+See teema kirjeldab, mida hõlmab **müügi ja tulususe jõudluse** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -50,9 +49,9 @@ Kasumlikkuse analüüsimiseks on järgmised võimalused.
 - Kliendi kasumlikkus (tulu järgi võrreldes kogutuluga)
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-Power BI sisu **Müügi ja tulususe jõudlus** kuvatakse lehel **Müügi ja tulususe jõudlus** (**Müük ja turundus** \> **Päringud ja aruanded** \> **Müügijõudluse analüüs** \> **Müügi ja tulususe jõudlus**).
+**Müügi ja tulususe jõudluse** Power BI sisu kuvatakse lehel **Müügi ja tulususe jõudlus** (**Müük ja turundus** \> **Päringud ja aruanded** \> **Müügijõudluse analüüs** \> **Müügi ja tulususe jõudlus**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
+## <a name="metricsthat-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad mõõdikud
 **Müügi ja tulususe jõudluse** Power BI sisu sisaldab mõõdikute kogumist koosnevat aruannet. Neid mõõdikuid visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate sisu visualiseerimistest.
 
 | Aruandeleht            | Diagrammid                                     | Paanid                                                   |
@@ -80,7 +79,7 @@ Power BI sisu **Müügi ja tulususe jõudlus** kuvatakse lehel **Müügi ja tulu
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 Aruandelehtede täitmiseks **müügi ja tulususe jõudluse** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md).
 
-Selle sisu koondmõõtmised on rakenduste Microsoft Dynamics AX 2012 ja Microsoft Dynamics AX 2012 R3 müügikuubis olnud koondmõõtmiste alamkogum. Kuubi koondmõõtmiste korraldamiseks üksuse kaupluses tuleb muuta need juurutatavaks. Lisateavet leiate üksuse kaupluses koondmõõtmiste korraldamise protseduurist ajaveebipostituses [Power BI integratsioon üksuse kauplusega Dynamicsis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
+Selle sisu koondmõõtmised on rakenduste Microsoft Dynamics AX 2012 ja Microsoft Dynamics AX 2012 R3 müügikuubis saadaval olnud koondmõõtmiste alamkogum. Kuubi koondmõõtmiste korraldamiseks üksuse kaupluses tuleb muuta need juurutatavaks. Lisateavet leiate üksuse kaupluses koondmõõtmiste korraldamise protseduurist ajaveebipostituses [Power BI integratsioon üksuse kauplusega Dynamicsis](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
 
 Järgmisi arve ridade üksuse peamisi koondmõõtmisi kasutatakse sisu alusena.
 
@@ -109,4 +108,3 @@ Järgmises müügikuubis olevaid põhidimensioone kasutatakse filtritena koondm�
 | Kuupäevad            | Kuupäevad                                                |
 
 Vaikimisi näitab sisu jooksva kalendriaasta andmeid. Kuid kuupäevafiltrit saab muuta aruande filtrite jaotises. Saate muuta ka ettevõtte filtrit.
-

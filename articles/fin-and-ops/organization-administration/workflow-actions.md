@@ -1,13 +1,13 @@
 ---
-title: "Toimingud töövoo kinnitusprotsessides"
-description: "Selles artiklis selgitatakse toiminguid, mida iga osaleja saab töövoo kinnitusprotsessis teha."
+title: Toimingud töövoo kinnitusprotsessides
+description: Selles artiklis selgitatakse toiminguid, mida iga osaleja saab töövoo kinnitusprotsessis teha.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 829ee16b8fd72a0808a657419524487d9c1b3123
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361747"
 ---
-
 # <a name="actions-in-workflow-approval-processes"></a>Toimingud töövoo kinnitusprotsessides
 
 [!include [banner](../includes/banner.md)]
@@ -143,4 +142,3 @@ Kui kinnitaja taotleb dokumendi muutmist, saadetakse dokument tagasi algatajale.
 Näiteks Sam on esitanud kuluaruande väärtuses USD 12 000 ja see dokument on määratud Suele. Kui Sue soovib muutmist, saadetakse kuluaruanne tagasi Samile.
 
 Sam saab kuluaruande uuesti esitada. Ta võib teha esmalt soovitud muudatused või edastada uuesti kuluaruande algse versiooni. Kui Sam taasesitab kuluaruande, saadetakse see Frankile kinnitamiseks, sest Frank on selle kinnitamisprotsessi esimene kinnitaja.
-

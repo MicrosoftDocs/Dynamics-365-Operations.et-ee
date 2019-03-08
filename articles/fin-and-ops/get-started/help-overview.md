@@ -1,13 +1,13 @@
 ---
-title: "Finance and Operationsi spikrisüsteem"
-description: "Selles teemas antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest."
+title: Finance and Operationsi spikrisüsteem
+description: Selles teemas antakse ülevaate rakenduse Microsoft Dynamics 365 for Finance and Operations spikrisüsteemi komponentidest.
 author: margoc
 manager: AnnBe
 ms.date: 11/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,22 +18,21 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350730"
 ---
-
 # <a name="finance-and-operations-help-system"></a>Finance and Operationsi spikrisüsteem
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponentidest.
+Selles teemas antakse ülevaate rakenduse Microsoft Dynamics 365 for Finance and Operations spikrisüsteemi komponentidest.
 
 > [!NOTE]
-> Järgmised tooted on tihedalt seotud: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent. Kõigis 3 tootes võivad ilmneda samad funktsioonid. Seetõttu on peamiselt Retailiga seotud teemades toote nimi Dynamics 365 for Retail; peamiselt Talentiga seotud teemades Dynamics 365 for Talent ja põhitootega seotud teemade puhul Dynamics 365 for Finance and Operations. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
+> Järgmised kolm toodet on omavahel tihedalt seotud: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent. Kõigis 3 tootes võivad ilmneda samad funktsioonid. Seetõttu on peamiselt jaemüügiga seotud teemades toote nimi Dynamics 365 for Retail, Talentiga seotud teemades on toote nimi Dynamics 365 for Talent ja põhitootega seotud teemades on toote nimi Dynamics 365 for Finance and Operations. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
 
 Spikrisüsteemi jagatakse kõigi järgmiste toodete puhul:
 
@@ -137,7 +136,7 @@ Spikri sisule Finance and Operationsis juurdepääsuks klõpsake ikooni **Spikke
 Paanilt Spikker pääsete juurde Finance and Operationsi kliendile kohalduvatele artiklitele. Kui avate esimest korda Spikripaani ja klõpsate vahekaarti **Spikker**, näete artikleid, mis kohalduvad lehele, millel parajasti Finance and Operationsis olete. Kui ühtegi artiklit ei leita, saate sisestada märksõnu otsingu kitsendamiseks. Kui klõpsate artiklit paanil Spikker, avaneb teie brauseris uus vahekaart ja kuvatakse artikkel.
 
 > [!IMPORTANT]
-> See jaotis ei puuduta rakendust Dynamics 365 for Talent. Talenti spikrisüsteem on ühendatud automaatselt toote tegevusjuhistega. Samuti ei saa Talenti puhul kohandatud tegevusjuhiseid luua.
+> See jaotis ei kehti Dynamics 365 for Talenti puhul. Talenti spikrisüsteem on ühendatud automaatselt toote tegevusjuhistega. Samuti ei saa Talenti puhul kohandatud tegevusjuhiseid luua.
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Spikri paanilt tegevuse juhistele juurdepääsemine
 
@@ -194,10 +193,9 @@ Järgmises tabelis esitatakse meie veebilehed. Saitidel, millel on nime kõrval 
 |------------------------------------------------------------------------------------------------|-------------|
 | [Docs.microsoft.com](/dynamics365/)                                                            | Majutab või lingib kõiki Dynamics 365 projektidokumente. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Microsofti vaba eLearning sait. |
-| [Elutsükli teenused](https://lcs.dynamics.com/)\*                                              | Pakub pilvepõhist koostöö tööruumi, mida partnerid ja kliendid saavad kasutada Dynamics 365 for Finance and Operationsi projektide haldamiseks alates müügieelsetest tegevustest kuni juurutamise ja operatsioonideni. See sait on abiks kõigis juurutamise faasides. |
+| [Elutsükli teenused](https://lcs.dynamics.com/)\*                                              | Pakub pilvepõhist koostöö tööruumi, mida partnerid ja kliendid saavad kasutada Dynamics 365 for Finance and Operationsi projektide haldamiseks alates müügieelsetest tegevustest kuni juurutamise ning operatsioonideni. See sait on abiks kõigis juurutamise faasides. |
 | [Toe ajaveeb](http://aka.ms/AXSupportBlog)                                                    | Annab vihjeid ja näpunäiteid, mida sisestab Dynamics 365 for Finance and Operationsi tugiteenuse töörühm. |
 | [Docs.microsoft.com/previous versioonid](https://docs.microsoft.com/previous-versions/dynamics/) | Hoiustab varasemate väljaannete sisu. |
 | [Dynamicsi kogukond](https://community.dynamics.com/)                                          | Majutab ajaveebe, foorumeid ja videoid. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Pakub hinnanguid ja müügiteavet. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | Hoiustab mõningaid Finance and Operationsi koolitusmaterjale, allalaaditavaid aruandeid ja tehnilisi ülevaateid ning on peamine teenusplaani omanike tugisait. Mõndadele saidil olevatele ressurssidele ligipääsemiseks võib olla nõutav hooldusplaan. |
-

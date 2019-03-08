@@ -1,32 +1,31 @@
 ---
-title: "Optimeerimisnõustaja reeglite loomine"
-description: "Selles teemas kirjeldatakse, kuidas optimeerimisnõustajale uusi reegleid lisada."
+title: Optimeerimisnõustaja reeglite loomine
+description: Selles teemas kirjeldatakse, kuidas optimeerimisnõustajale uusi reegleid lisada.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: ca73120a5a0da4dc348c2d16dca8e7654876af5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: a18fac31b5acb7d2a1ec40203122d4eb9d94a439
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354157"
 ---
-
 # <a name="create-rules-for-optimization-advisor"></a>Optimeerimisnõustaja reeglite loomine
 
 [!include [banner](../includes/banner.md)]
@@ -107,7 +106,7 @@ Kaks meetodit, mida tuleb veel juurutada, on **opportunityTitle** ja **opportuni
 
 * **Reegli nimi** – string reegli nimega. See ilmub veerus **Reegli nimi** vormil **Diagnostikareeglite kinnitamise reegel** (**DiagnosticsValidationRuleMaintain**). 
 
-* **Käitussagedus** – tüübi **DiagnosticRunFrequency** loetelu, mis kirjeldab seda, kui sagedusti tuleb reeglit käitada, nt **DiagnosticRunFrequency::Daily**. 
+* **Käitussagedus** – tüübi **DiagnosticRunFrequency** loetelu, mis kirjeldab seda, kui sagedasti tuleb reeglit käitada, nt **DiagnosticRunFrequency::Daily**. 
 
 * **Reegli kirjeldus** – string reegli üksikasjalikuma kirjeldusega. See ilmub veerus **Reegli kirjeldus** vormil **Diagnostikareeglite kinnitamise reegel** (**DiagnosticsValidationRuleMaintain**). 
 
@@ -196,7 +195,7 @@ class ScanNewRulesJob
 
 Reegel kuvatakse vormil **Diagnostikareeglite kinnitamise reegel**, mis on saadaval asukohas **Süsteemihaldus** > **Perioodilised ülesanded** > **Diagnostika kinnitamise reegli haldamine**. Selle hindamiseks minge asukohta **Süsteemihaldus** > **Perioodilised ülesanded** > **Diagnostika kinnitamise reegli ajastamine** ning valige reegli sagedus, nt **Kord päevas**. Klõpsake nupul **OK**. Uue võimaluse vaatamiseks minge asukohta **Süsteemihaldus** > **Optimeerimisnõustaja**. 
 
-Järgmine näide on koodilõik reegli raamistikuga, mis sisaldab kõiki vajalikke meetodeid ja atribuute. See aitab teid uute reeglite loomisega alustamisel. Näites sisalduvaid silte ja tegevuse menüükäskusid on kasutatud ainult demoeesmärgil.
+Järgmine näide on koodilõik reegli raamistikuga, mis sisaldab kõiki vajalikke meetodeid ja atribuute. See aitab teid uute reeglite loomisega alustamisel. Näites sisalduvaid silte ja tegevuse menüükäskusid on kasutatud ainult demoeesmärgil.
 
 ```
 [DiagnosticsRuleAttribute]
@@ -255,5 +254,4 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 }
 ```
 
-Lisateavet vaadake lühikesest YouTube’i videost [Optimeerimise nõustaja rakenduses Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
-
+Lisateabe saamiseks vaadake YouTube’i lühivideot: [Optimeerimise nõustaja rakenduses Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

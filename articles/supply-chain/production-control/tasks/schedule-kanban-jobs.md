@@ -1,13 +1,13 @@
---- 
-title: "Kanban-tööde plaanimine"
-description: "See protseduur keskendub protsessi kanban-tööde plaanimisele kindla tööraku puhul."
+---
+title: Kanban-tööde plaanimine
+description: See protseduur keskendub protsessi kanban-tööde plaanimisele kindla tööraku puhul.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, KanbanPeriodCapacityPart, SysLookupMultiSelectGrid, KanbanBoardScheduleJobForward
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5170fecf0190591d74f45d35fecc4472e7f5e900
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f36544993a9280ae10489a19252bc105abd40ac9
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359539"
 ---
 # <a name="schedule-kanban-jobs"></a>Kanban-tööde plaanimine
 
@@ -61,5 +61,4 @@ See protseduur keskendub protsessi kanban-tööde plaanimisele kindla tööraku 
 6. Klõpsake suvandit Graafik.
     * Pange tähele, et mõlemad tööd lisatakse soovitud perioodi.  
     * Jaotises Perioodi võimsus saate vaadata iga perioodi koormust. Väli Tarbimine kuvab plaanitud tarbimise sellel perioodil. Kui plaanitud tarbimine selles perioodis on saadaolevast võimsusest suurem, valitakse ülekoormatud tarbimine.  
-
 

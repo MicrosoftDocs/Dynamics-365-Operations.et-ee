@@ -1,13 +1,13 @@
 ---
-title: "Põhivarakannete valikud"
-description: "Selles artiklis kirjeldatakse põhivara kannete loomiseks saadaolevaid erinevaid viise."
+title: Põhivara kande valikud
+description: Selles teemas kirjeldatakse põhivara kannete loomiseks saadaolevaid erinevaid viise.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18352ad921c2e2d110a7535f979272685105662f
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377178"
 ---
-
-# <a name="fixed-asset-transaction-options"></a>Põhivarakannete valikud
+# <a name="fixed-asset-transaction-options"></a>Põhivara kande valikud
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse põhivara kannete loomiseks saadaolevaid erinevaid viise.
+Selles teemas kirjeldatakse põhivara kannete loomiseks saadaolevaid erinevaid viise.
 
 Põhivarad on võimalik integreerida ostureskontroga, müügireskontroga, hanke ja pearaamatuga. Samuti saate kaupu laohalduses põhivaradesse üle viia, kui soovite neid kaupu ettevõttesiseselt kasutada.
 
@@ -66,9 +65,6 @@ Kõiki põhivara kandetüüpe saab sisestada lehele Päevaraamat. Samuti saate p
 | ** **                               | Müügireskontro      | Vabas vormis arve                         |
 
 
+Kulumiperioodide põhivara järelejäänud väärtust ei värskendata kulumikande tüüpi tööleherea käsitsi loomisel või importimisel andmeüksuse kaudu. Seda väärtust värskendatakse, kui töölehe rea loomiseks kasutatakse kulumisoovituste protsessi.
 
 Lisateavet leiate jaotisest [Põhivarade integreerimine](fixed-asset-integration.md).
-
-
-
-

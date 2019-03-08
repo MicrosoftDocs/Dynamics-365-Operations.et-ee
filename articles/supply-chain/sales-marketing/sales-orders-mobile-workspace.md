@@ -1,13 +1,13 @@
 ---
-title: "Müügitellimuste mobiilne tööruum"
-description: "Teema annab teavet müügitellimuste mobiilse tööruumi kohta. See tööruum aitab teil olla oma müügitellimustega alati kõikjal kursis."
+title: Müügitellimuste mobiilne tööruum
+description: Teema annab teavet müügitellimuste mobiilse tööruumi kohta. See tööruum aitab teil olla oma müügitellimustega alati kõikjal kursis.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 03e8908ecb78b4f72dae8426b0165f9350d5fe85
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a3b06832112779a4b0826a51b696a1ced10711ec
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365059"
 ---
-
 # <a name="sales-orders-mobile-workspace"></a>Müügitellimuste mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
@@ -82,12 +81,12 @@ Selles vaates on loetletud müügitellimused kliendi järgi.
         -   Saadetised, mis näitavad, kuidas ja millal müügitellimus on teele pandud
 
 ## <a name="prerequisites"></a>Eeltingimused
-Eeltingimused erinevad, olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
+Eeltingimused erinevad olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Eeltingimused Microsoft Dynamics 365 for Finance and Operationsi kasutamisel 
-Kui teie organisatsioonis on juurutatud rakenduse Dynamics 365 for Finance and Operations, peab süsteemiadministraator avaldama **müügitellimuste** mobiilse tööruumi. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Eeltingimused, kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations 
+Kui teie organisatsioonis on juurutatud Dynamics 365 for Finance and Operations, peab süsteemiadministraator avaldama mobiilse tööruumi **Müügitellimused**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused Dynamics 365 for Operationsi versiooni 1611 platvormivärskendusega 3 või uuema kasutamisel
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused, kui kasutate rakenduse Dynamics 365 for Operations versiooni 1611 platvormivärskendusega 3 või uuemat
 Kui teie organisatsioonis on juurutatud Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 
 
 <table>
@@ -123,7 +122,7 @@ Kui teie organisatsioonis on juurutatud Dynamics 365 for Operationsi versioon 16
 ## <a name="download-and-install-the-mobile-app"></a>Laadige alla ja installige mobiilirakendus
 Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
--   [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
@@ -143,4 +142,3 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 4.  Valige klient.
 5.  Valige **Kontaktandmed** või **Müügitellimused**. Kui valite suvandi **Müügitellimused**, kuvatakse kliendi müügitellimuste loend.
 6.  Valige **Müügitellimus**. Nüüd saate vaadata teavet müügitellimuste ja saadetiste kohta ning kliendi kontaktteavet ja tellimuse vastuvõtja kontaktteavet.
-

@@ -1,13 +1,13 @@
 ---
-title: "Müügitagastused"
-description: "See teema annab teavet tagastustellimuste protsessi kohta. See hõlmab teavet klienditagastuste ning nende mõju kohta kuluarvestusele ja vaba kaubavaru kogustele."
+title: Müügitagastused
+description: See teema annab teavet tagastustellimuste protsessi kohta. See hõlmab teavet klienditagastuste ning nende mõju kohta kuluarvestusele ja vaba kaubavaru kogustele.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362690"
 ---
-
 # <a name="sales-returns"></a>Müügitagastused
 
 [!include [banner](../includes/banner.md)]
@@ -329,7 +328,6 @@ Selles näites kasutatakse tagastustellimuse rea loomiseks funktsiooni **Otsi m�
 ![Tagastustellimuse rida, mis luuakse funktsiooni Otsi müügitellimust kasutades ](./media/SalesReturn11.png)  
 
 >[Märkus.] **Allahindlus** ja **Tagastamise omahind** on korrektselt seatud. Seetõttu toimub kliendiarve täpne tühistamine.
-
 
 
 

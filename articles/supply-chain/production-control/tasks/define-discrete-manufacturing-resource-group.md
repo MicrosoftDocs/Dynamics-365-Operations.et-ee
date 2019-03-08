@@ -1,13 +1,13 @@
---- 
-title: "Diskreetse tootmise ressursigrupi määratlemine"
-description: "Ressursigrupp on operatsiooniressursside kogum, mis tavaliselt vastab tootmistöödes kollaste joontega määratletud töörakkude füüsilisele organiseerimisele."
+---
+title: Diskreetse tootmise ressursigrupi määratlemine
+description: Ressursigrupp on operatsiooniressursside kogum, mis tavaliselt vastab tootmistöödes kollaste joontega määratletud töörakkude füüsilisele organiseerimisele.
 author: sorenva
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 50733e34bbf14ae2cade6822105da4d8c2120d7d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c2423fe91d1531a326080e3a584195ea864f2e3e
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353237"
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>Diskreetse tootmise ressursigrupi määratlemine
 
@@ -57,5 +57,4 @@ Ressursigrupp on operatsiooniressursside kogum, mis tavaliselt vastab tootmistö
 5. Sisestage või valige väärtus väljal Ressurss.
 6. Otsige loendist ja valige soovitud kirje.
 7. Klõpsake loendis valitud real olevat linki.
-
 

@@ -1,13 +1,13 @@
 ---
 title: Omahinna tagasiarvestus
-description: "Selles teemas tutvustatakse omahinna tagasiarvestuse mõistet, mida kasutatakse lean manufacturingi jaoks."
+description: Selles teemas tutvustatakse omahinna tagasiarvestuse mõistet, mida kasutatakse lean manufacturingi jaoks.
 author: cvocph
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9fe717752da4c697cf0d896c0d40832330f0d118
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352708"
 ---
-
 # <a name="backflush-costing"></a>Omahinna tagasiarvestus
 
 [!include [banner](../includes/banner.md)]
@@ -62,11 +61,11 @@ Tootmisvoo pakutud toodete puhul peab koosluse arvutamine põhinema protsessiver
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Arvutamine, mis põhineb tootmisvool
 
-Lean manufacturing rakenduse Microsoft Dynamics 365 for Finance and Operations jaoks on protsessidest sõltumatu. Kuluarvutus toodete jaoks, mida pakutakse tootmisvoost, võib põhineda tootmisvool enesel. Enne arvutuse tegemist tuleb luua kanban-reegel, mis pakub toodet tootmisvoost. Kui toodet saab arvutamiskuupäeval pakkuda mitmest tootmisvoost samas tegevuskohas, saate koosluse kalkulatsiooni jaoks valida tootmisvoo. Lehel **Vaikimisi tootmisvoog** saate konfigureerida vaikimisi tootmisvoo iga kauba jaoks. Kui ühes töövoos, mis on kalkulatsiooni kuupäeval aktiivne, on sama kauba jaoks olemas mitu kanban-reeglit, siis valib kalkulatsioon esimese kanban-reegli, mis on kalkulatsiooni jaoks aktiivne.
+Lean manufacturing rakendusele Microsoft Dynamics 365 for Finance and Operations on protsessidest sõltumatu. Kuluarvutus toodete jaoks, mida pakutakse tootmisvoost, võib põhineda tootmisvool enesel. Enne arvutuse tegemist tuleb luua kanban-reegel, mis pakub toodet tootmisvoost. Kui toodet saab arvutamiskuupäeval pakkuda mitmest tootmisvoost samas tegevuskohas, saate koosluse kalkulatsiooni jaoks valida tootmisvoo. Lehel **Vaikimisi tootmisvoog** saate konfigureerida vaikimisi tootmisvoo iga kauba jaoks. Kui ühes töövoos, mis on kalkulatsiooni kuupäeval aktiivne, on sama kauba jaoks olemas mitu kanban-reeglit, siis valib kalkulatsioon esimese kanban-reegli, mis on kalkulatsiooni jaoks aktiivne.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Protsessil põhinev kalkulatsioon
 
-Protsessil põhinev kalkulatsioon on sama sobiv, kui tootmisvool põhinev kalkulatsioon. Siiski ei kasuta protsessil põhinev kalkulatsioon kuluarvutuse ega lean manufacturingi funktsioone. Protsess peaks kasutama ressursigruppide puhul ressursitingimusi. Süstemaatiliste hälvete vältimiseks peaks see kasutama ka samu töörakke või vähemalt samu kulukategooriaid. Jällegi, peaksite vältima kulukategooriaid häälestuse ja koguse jaoks. Need ei aita arvutada kulu detailsema jaotusega kui lean manufacturingi omahinna tagasiarvestus. Otsustamisel, millist suvandit (tootmisvoog või protsess) peaksite kasutama kulude arvutamiseks, arvestage kulude jaotamise tulemusi. Parem suvand on versioon, mis on lähemal tegelikkusele ja toodab üldiselt vähem hälbeid. Lean manufacturingi keskkonnas, kus toodet pakub üksainus tootmisvoog ja üks kanban-reegel, on tootmisvool põhinev kalkulatsioon tõenäoliselt täpsem. Toote puhul, mida saab pakkuda lean manufacturing ja tootmistellimus samas tegevuskohas või millel võib samas voos olla mitu tootmisvoogu või mitu kanban-reeglit, võib kalkulatsioon olla täpsem, kui see põhineb protsessiversioonil, mis on valmistatud just kuluarvutuse ja mitte tootmise jaoks. Tootmisvoo kalkulatsiooni tuleb kasutada toodete arvutamisel, mis hõlmavad allhanget. Rakenduses Microsoft Dynamics 365 for Finance and Operations kasutavad tootmistellimusega allhanke ja lean manufacturingi allhanke kulumudelid kahte erinevat meetodit. Lean manufacturingiga tutvustatakse uut kulugrupi tüüpi **Otse väljasttellimine**, et arvutada allhanketeenuseid.
+Protsessil põhinev kalkulatsioon on sama sobiv, kui tootmisvool põhinev kalkulatsioon. Siiski ei kasuta protsessil põhinev kalkulatsioon kuluarvutuse ega lean manufacturingi funktsioone. Protsess peaks kasutama ressursigruppide puhul ressursitingimusi. Süstemaatiliste hälvete vältimiseks peaks see kasutama ka samu töörakke või vähemalt samu kulukategooriaid. Jällegi, peaksite vältima kulukategooriaid häälestuse ja koguse jaoks. Need ei aita arvutada kulu detailsema jaotusega kui lean manufacturingi omahinna tagasiarvestus. Otsustamisel, millist suvandit (tootmisvoog või protsess) peaksite kasutama kulude arvutamiseks, arvestage kulude jaotamise tulemusi. Parem suvand on versioon, mis on lähemal tegelikkusele ja toodab üldiselt vähem hälbeid. Lean manufacturingi keskkonnas, kus toodet pakub üksainus tootmisvoog ja üks kanban-reegel, on tootmisvool põhinev kalkulatsioon tõenäoliselt täpsem. Toote puhul, mida saab pakkuda lean manufacturing ja tootmistellimus samas tegevuskohas või millel võib samas voos olla mitu tootmisvoogu või mitu kanban-reeglit, võib kalkulatsioon olla täpsem, kui see põhineb protsessiversioonil, mis on valmistatud just kuluarvutuse ja mitte tootmise jaoks. Tootmisvoo kalkulatsiooni tuleb kasutada toodete arvutamisel, mis hõlmavad allhanget. Rakenduses Microsoft Dynamics 365 for Finance and Operations kasutavad tootmistellimusega allhanke ja lean manufacturingi allhanke kulumudelid kaht erinevat meetodit. Lean manufacturingiga tutvustatakse uut kulugrupi tüüpi **Otse väljasttellimine**, et arvutada allhanketeenuseid.
 
 ## <a name="material-consumption"></a>Materjali tarbimine
 Kui materjali tarbitakse laost lõpetamata toodangusse, siis lisatakse materjali kulu lõpetamata toodangule selle kulugrupi standardomahinnaga. See toiming toimub järgmistel tingimustel.
@@ -83,7 +82,7 @@ Tooteid saadakse tootmisvoost järgmistel tingimustel.
 Töövoost saadud tooted lahutatakse lõpetamata toodangust.
 
 ## <a name="products-in-wip"></a>Tooted lõpetamata toodangus
-Rakenduse Microsoft Dynamics 365 for Finance and Operations lean manufacturingi lõpetamata toodangu mudel võimaldab teil kasutada kanbani materjali käsitlemisühiku olekut, et hallata lõpetamata toodangu osaks olevaid materjale, pooltooteid ja lõpetatud tooteid.
+Rakenduse Microsoft Dynamics 365 for Finance and Operations lean manufacturingi lõpetamata toodangu mudel võimaldab kasutada kanbani materjali käsitlemisühiku olekut, et hallata lõpetamata toodangu osaks olevaid materjale, pooltooteid ja lõpetatud tooteid.
 
 -   **Määratud** \– kanban võib kasutada tarbitud materjali, mis on arvestatud lõpetamata toodangus.
 -   **Vastu võetud** \– kui kanban viitab viimasele tegevusele, kus säte **Värskenda varusid sissetulekul** on seatud olekusse **Ei**, esindab see toote või pooltoote kogu materjali käsitlemisühikut, mis pole varudesse registreeritud.
@@ -122,7 +121,6 @@ Peaksite käivitama omahinna tagasiarvestuse, et perioodiliselt hinnata lõpetam
     -   Arvutab kõik perioodi jooksul tarbitud materjalide kaudsed kulud ja lahutab selle lõpetatud toodangust. Ülejäänud kaudsed kulud sisestatakse hälbena.
 
 5.  Arvutab standardomahinna tootmishälbed. Hälve arvutatakse iga kulugrupi kohta.
-
 
 
 

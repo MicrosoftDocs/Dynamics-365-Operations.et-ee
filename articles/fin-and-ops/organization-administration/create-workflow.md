@@ -1,13 +1,13 @@
 ---
-title: "Töövoogude loomine"
-description: "See teema selgitab, kuidas töövoogu luua."
+title: Töövoogude loomine
+description: See teema selgitab, kuidas töövoogu luua.
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353352"
 ---
-
 # <a name="create-workflows"></a>Töövoogude loomine
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ See teema selgitab, kuidas töövoogu luua.
 
 ## <a name="open-the-workflow-editor"></a>Avage töövoo redaktor
 
-Microsoft Dynamics 365 for Finance and Operationsi moodul, milles töötate, määrab töövootüübid, mida saate luua. Läbige need etapid töövoo tüübi valimiseks, et luua ja avada töövoo redaktor.
+Microsoft Dynamics 365 for Finance and Operationsi moodul, millega töötate, määrab töövootüübid, mida saate luua. Läbige need etapid töövoo tüübi valimiseks, et luua ja avada töövoo redaktor.
 
 1. Avage moodul, mille jaoks soovite luua uue töövoo. Näiteks ostutaotluste jaoks töövoo loomiseks klõpsake valikut **Hanked**.
 2. Klõpsake valikuid **Seadistus** &gt; **Mooduli \[mooduli nimi\] töövood**.
@@ -85,4 +84,3 @@ Kui olete valmis töövoo salvestama ja aktiveerima, järgige neid juhiseid.
 
     - Töövoo selle versiooni aktiveerimiseks klõpsake valikut **Aktiveeri uus versioon**. Kui töövoog on aktiivne, saavad kasutajad esitada töötlemiseks dokumente.
     - Kui te ei soovi seda versiooni aktiveerida, klõpsake valikut **Ära aktiveeri uut versiooni**. Saate töövoo hiljem aktiveerida.
-

@@ -1,13 +1,13 @@
---- 
-title: "EUR-00011 EL-i käibearuandluse seadistamine"
-description: "See ülesandejuhend selgitab EL-i käibearuande jaoks nõutavate eeltingimuste ülevaadet."
+---
+title: EUR-00011 EL-i käibearuandluse seadistamine
+description: See ülesandejuhend selgitab EL-i käibearuande jaoks nõutavate eeltingimuste ülevaadet.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, SysQueryForm, SysQueryFieldLookUp,  TaxTable, TaxGroup, TaxItemGroup, TaxCountryRegionParameters, TaxVATNumTable, IntrastatParameters, CustTable, DirPartyQuickCreateForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: aef1d19aabb7937fcd961a9657b8ca65c064b0b1
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370520"
 ---
 # <a name="eur-00011-set-up-eu-sales-list-reporting"></a>EUR-00011 EL-i käibearuandluse seadistamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-See ülesandejuhend selgitab EL-i käibearuande jaoks nõutavate eeltingimuste ülevaadet. Lisateavet EL-i müügiloendi aruandluse, sh nõutavate eeltingimuste kohta leiate rakenduse Dynamics 365 for Finance and Operations spikrist.
+See ülesandejuhend selgitab EL-i käibearuande jaoks nõutavate eeltingimuste ülevaadet. Lisateavet EL-i müügiloendi aruandluse, sh nõutavate eeltingimuste kohta leiate spikrist Dynamics 365 for Finance and Operations.
 
 See ülesanne kohaldub kõigile Euroopa riikidele/piirkondadele. Juhendi loomisel kasutatakse demoettevõtte DEMF andmeid, seega on kodumaise riigi/piirkonna näiteks Saksamaa. Juhend kasutab EL-i riigi/piirkonna näitena ka Portugali.
 
@@ -128,5 +128,4 @@ Need ülesanded on mõeldud süsteemi administraatoritele.
 7. Valige väljal Maksuvabastuse number suvand PT12345.
 8. Valige väljal Riik/piirkond tüüp PRT.
 9. Klõpsake nuppu Salvesta.
-
 

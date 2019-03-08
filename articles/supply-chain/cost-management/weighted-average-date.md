@@ -1,13 +1,13 @@
 ---
-title: "Kaalutud keskmine kuupäev"
-description: "Kaalutud keskmine kuupäev on kaalutud keskmise põhimõttel põhinev laomudel, milles laos olevaid kaupu hinnatakse lattu sissetulevate kaupade keskmise väärtuse järgi iga lao sulgemisperioodi päeva lõikes."
+title: Kaalutud keskmine kuupäev
+description: Kaalutud keskmine kuupäev on kaalutud keskmise põhimõttel põhinev laomudel, milles laos olevaid kaupu hinnatakse lattu sissetulevate kaupade keskmise väärtuse järgi iga lao sulgemisperioodi päeva lõikes.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355399"
 ---
-
 # <a name="weighted-average-date"></a>Kaalutud keskmine kuupäev
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Kui sellel kuupäeval või enne seda on toimunud ainult üks sissetulek, ei ole 
 
 Kaalutud keskmise kuupäeva kuluarvutusmeetodi arvutamiseks kasutatakse järgmist valemit. 
 
-Kaalutud keskmine = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
+Kaalutud keskmine = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
 
 Varude sulgemise ajal tehakse arvutus iga päev sulgemisperioodi kaudu, nagu on näidatud järgmisel joonisel. 
 
@@ -54,7 +53,7 @@ Laokanded, millest jäävad varud, nagu müügitellimused, varude töölehed ja 
 
 Tasakaalustused on lao sulgemissisestused, mis korrigeerivad väljaminekud sulgemiskuupäeva seisuga õigele kaalutud keskmisele. 
 
-**Märkus.** Tasakaalustuste kohta lisateabe jaoks vaadake artiklit varude sulgemise kohta. Järgmised näited illustreerivad kaalutud keskmise kasutamise mõju viie konfiguratsiooniga:
+**Märkus.** Tasakaalustuste kohta lisateabe saamiseks vaadake artiklit varude sulgemise kohta. Järgmised näited illustreerivad kaalutud keskmise kasutamise mõju viie konfiguratsiooniga:
 
 -   kaalutud keskmise kuupäeva otsene tasakaalustus valikut **Kaasa füüsiline väärtus** kasutamata;
 -   kaalutud keskmise kuupäeva summeeritud tasakaalustus valikut **Kaasa füüsiline väärtus** kasutamata;
@@ -195,7 +194,6 @@ Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskenda
 -   Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste jada ajajoonel.
 -   Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
 -   Lao sulgemisel tehtud tasakaalustused tähistatakse punaste katkendlike nooltega, mis suunduvad diagonaalselt sissetulekust väljaminekuni.
-
 
 
 

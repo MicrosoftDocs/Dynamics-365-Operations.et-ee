@@ -1,31 +1,30 @@
 ---
-title: "Tagastatud kauba osaliste tarnete vastu võtmine"
-description: "Osatarned määratakse tagastustellimuse ridade, mitte tagastustellimuse saadetistena."
+title: Tagastatud kauba osaliste tarnete vastu võtmine
+description: Osatarned määratakse tagastustellimuse ridade, mitte tagastustellimuse saadetistena.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2b7bfad1e0d80675848353d4118960d44f2dc01
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f9f596d31f2438a353b02bf939786b284937db86
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363909"
 ---
-
 # <a name="receive-partial-deliveries-of-returned-items"></a>Tagastatud kauba osaliste tarnete vastu võtmine    
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Kui tagastussaadetise kogus on väiksem kui tagastustellimuse rea täiskogus, sa
 4.  Väljale **Tükeldatud kogus** sisestage saadud kaubakoguse koguarv ja seejärel klõpsake nuppu **OK**.
 
 5.  Valige vormil **Töölehe read, asukohad** saabunud kaubakoguse rida ja seejärel klõpsake käsku **Postita**. Täiendava koguse saate reale sisestada pärast kaupade saabumist.
-
 
 
 

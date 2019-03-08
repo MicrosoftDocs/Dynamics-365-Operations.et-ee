@@ -1,32 +1,31 @@
 ---
-title: "Tooteteabe ülevaade"
-description: "Teema annab teavet tooteteabe halduse kohta. Tooteteabe haldus toimib ühiskasutuses toote definitsiooni, kategoriseerimise ja identifikaatoritega kõigi juriidiliste isikute lõikes ja samuti toote konkreetsete konfiguratsioonidega, et sobida äriprotsessidesse."
+title: Tooteteabe ülevaade
+description: Teema annab teavet tooteteabe halduse kohta. Tooteteabe haldus toimib ühiskasutuses toote definitsiooni, kategoriseerimise ja identifikaatoritega kõigi juriidiliste isikute lõikes ja samuti toote konkreetsete konfiguratsioonidega, et sobida äriprotsessidesse.
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363012"
 ---
-
 # <a name="product-information-overview"></a>Tooteteabe ülevaade
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,7 @@ Pange tähele, et dünaamilistes ja kiirelt arenevates organisatsioonides muutuv
 
 ## <a name="product-masters-and-product-variants"></a>Tooteetalonid ja tootevariandid
 
-Kiiresti muutuvas maailmas, kus tooteid tuleb kiiresti klientide nõuete järgi kohandada, määravad tootedefinitsioonid eristatavate toodete asemel tootekogumid. Rakenduses Microsoft Dynamics 365 for Finance and Operations nimetatakse selliseid üldisi tooteid *tooteetalonideks*. Tooteetalonidel on definitsioon ja reeglid, mis määravad, kuidas eristatavaid tooteid äriprotsessis kirjeldatakse ja kuidas nad seal käituvad. Nende definitsioonide põhjal saab luua eristatavaid tooteid. Neid eristatavaid tooteid nimetatakse *tootevariantideks*.
+Kiiresti muutuvas maailmas, kus tooteid tuleb kiiresti klientide nõuete järgi kohandada, määravad tootedefinitsioonid eristatavate toodete asemel tootekogumid. Rakenduses Microsoft Dynamics 365 for Finance and Operationsnimetatakse selliseid üldisi tooteid *tooteetalonideks*. Tooteetalonidel on definitsioon ja reeglid, mis määravad, kuidas eristatavaid tooteid äriprotsessis kirjeldatakse ja kuidas nad seal käituvad. Nende definitsioonide põhjal saab luua eristatavaid tooteid. Neid eristatavaid tooteid nimetatakse *tootevariantideks*.
 
 Finance and Operationsis on tooteetalon seostatud ärireeglite määramiseks tootedimensiooni grupi ja konfiguratsioonitehnoloogiaga. Tootedimensioonid (värv, suurus, stiil ja konfiguratsioon) on konkreetne atribuutide kogum, mida saab kasutada kogu rakenduses seotud toodete konkreetsete käitumiste määratlemiseks ja jälgimiseks. Need dimensioonid aitavad kasutajatel ka tooteid otsida ja tuvastada.
 
@@ -97,4 +96,3 @@ Tööruum koosneb paanide ja kahe loendi kokkuvõttest. Loendis **Avatud juhtumi
 ### <a name="manually-creating-a-new-released-product"></a>Uue väljastatud toote käsitsi loomine
 
 Saate luua väljastatud toote käsitsi ühes tsüklis, olenevalt organisatsiooni äriprotsessidest ja reeglitest selle kohta, kas seda funktsiooni tuleks kasutada. See funktsioon loob uue toote ja vabastab selle automaatselt praegusele juriidilisele isikule. Uue toote loomiseks klõpsake nuppu **Väljastatud tooted** tööruumis **Väljastatud toote haldus** või loendilehel **Väljastatud toode**.
-

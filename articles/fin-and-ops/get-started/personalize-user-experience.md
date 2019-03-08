@@ -1,13 +1,13 @@
 ---
-title: "Kasutuskogemuse isikupärastamine"
-description: "Selles artiklid selgitatakse, kuidas rakendust Microsoft Dynamics 365 for Finance and Operations isikupärastada."
+title: Kasutuskogemuse isikupärastamine
+description: Selles teemas selgitatakse, kuidas isikupärastada rakendust Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
-ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363472"
 ---
-
 # <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklid selgitatakse, kuidas rakendust Microsoft Dynamics 365 for Finance and Operations isikupärastada.
+Selles teemas selgitatakse, kuidas isikupärastada rakendust Microsoft Dynamics 365 for Finance and Operations.
 
 Finance and Operationsis on kolm põhilist isikupärastamisklassi.
 
@@ -115,7 +114,7 @@ Tööriistaribal **Isikupärastamine** on saadaval järgmised tööriistad.
 - Nupuga **Sisesta** saate kuvada loendi elementidest, mida saab lehele lisada.
 
     - Lehele välja lisamiseks valige nupu **Sisesta** alt tööriist **Väli**. Tööriista **Väli** kasutamisel saate lisada ainult välju, mis on osa lehe määratlusest, kuid mida praegu lehel ei kuvata. Teavet selle kohta, kuidas luua uusi välju, mis ei ole osa praeguse lehe määratlusest, vt jaotisest [Kohandatud väljad](user-defined-fields.md). Tööriista **Väli** valimisel peate esmalt valima rühma või ala, kuhu soovite välja lisada. Dialoogiboksis kuvatakse valitud rühma või alaga seotud väljade loend. Valige dialoogiboksis lisamiseks üks või mitu välja ja seejärel valige käsk **Sisesta**. Varem lisatud välja eemaldamiseks korrake protsessi, kuid tühjendage dialoogiboksis välja valik.
-    - Microsoft PowerAppsiga loodud rakenduse manustamiseks lehele valige nupu **Sisesta** alt tööriist **PowerApp**. Üksikasjalikku teavet lehele PowerAppsi rakenduse manustamise kohta vt jaotisest [PowerAppsi manustamine](embed-power-apps.md).
+    - Microsoft PowerAppsiga loodud rakenduse manustamiseks lehele valige suvandis **Sisesta** tööriist **PowerApp**. Üksikasjalikku teavet lehele PowerAppsi rakenduse manustamise kohta vt jaotisest [PowerAppsi manustamine](embed-power-apps.md).
 
 - Valige nupp **Halda**, et kuvada praeguse lehe kõigi isikupärastamistega seotud haldamissuvandite loend.
 
@@ -171,4 +170,3 @@ Lehel varude dimensioonide häälestuse isikupärastamisel võtke arvesse suvand
 **Dimensiooni kuva** sätted rakenduvad kõigile lehtede ja alistavad eraldi lehtedel varude dimensiooniväljade isikupärastatud sätted.
 
 Seega kui te eeltoodud näites ei soovi partiinumbri varude dimensiooni veergu kuvada, peate selle dimensiooni tabeli suvandi **Kuva dimensioonid** osana eemaldama. See muudatus rakendub mitte ainult ühele kindlale lehele, vaid kõigile lehtedele.
-

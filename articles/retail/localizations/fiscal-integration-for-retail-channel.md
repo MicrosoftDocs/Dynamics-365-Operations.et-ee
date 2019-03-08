@@ -1,13 +1,13 @@
 ---
-title: "Jaemüügikanali fiskaalüksuse integreerimine"
-description: "Selles teemas antakse ülevaade Retail POS-i fiskaalüksuse integreerimisest."
+title: Jaemüügikanalite fiskaalüksuse integratsiooni ülevaade
+description: Selles teemas antakse ülevaade rakenduses Microsoft Dynamics 365 for Retail saadaolevatest fiskaalüksuse integratsioonivõimalustest.
 author: josaw
 manager: annbe
-ms.date: 11/01/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -15,122 +15,104 @@ ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: v-kikozl
-ms.search.validFrom: 2018-11-1
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2019-1-16
+ms.dyn365.ops.version: 10
+ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c852d095505abecbd44d29e9e7b53875e9069def
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377131"
 ---
-# <a name="fiscal-integration-for-retail-channel"></a>Jaemüügikanali fiskaalüksuse integreerimine
+# <a name="overview-of-fiscal-integration-for-retail-channels"></a>Jaemüügikanalite fiskaalüksuse integratsiooni ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade programmis Microsoft Dynamics 365 for Retail saadaolevast fiskaalse integreerimise funktsioonist. See fiskaalüksuse integreerimise funktsioon on raamistik, mis on loodud jaekaubanduse pettusi ennetavate kohalike maksuseaduste toetamiseks. Tavalised stsenaariumid, mis kuuluvad fiskaalüksuse integreerimise alla, on järgmised.
+## <a name="introduction"></a>Sissejuhatus
 
-- Fiskaalkviitungi printimine ja selle kliendile andmine.
-- Kassas teostatud müügi ja tagastustega seotud teabe edastamine maksuhalduri pakutavale välisele teenusele.
-- Andmekaitse kasutamine maksuhalduri volitatud digitaalallkirjaga.
+Selles teemas antakse ülevaade rakenduses Microsoft Dynamics 365 for Retail saadaolevatest fiskaalüksuse integratsioonivõimalustest. Fiskaalüksuse integratsioon hõlmab integratsiooni erinevate fiskaalseadmete ja -teenustega, mis võimaldavad jaemüügi fiskaalüksuse registreerimist kooskõlas kohalike rahandusseadustega, mille eesmärk on ennetada maksupettust jaemüügivaldkonnas. Tavalised stsenaariumid, mida fiskaalüksuse integratsioon hõlmab, on järgmised. 
 
-Selles teemas antakse juhised fiskaalüksuse integreerimise seadistamiseks, et kasutajad saaksid teha järgmist. 
+- Jaemüügi registreerimine fiskaalseadmes, mis on ühendatud Reatil POS-iga, nagu fiskaalprinter, ja kliendi jaoks fiskaalsissetuleku printimine.
+- Retail POS-is lõpule viidud müükide ja tagastustega seotud teabe turvaline edastamine välisesse veebiteenusesse, mida käitab maksuamet.
+- Müügi kandeandmete muutmatuse tagamine digitaalallkirjade abil.
 
-- Fiskaalkonnektorite konfigureerimine, milleks on fiskaalsed seadmed või teenused, mida kasutatakse fiskaalüksuse registreerimise jaoks nagu salvestamine, digiallkirjastamine või finantsandmete turvaline esitamine.
-- Dokumendipakkuja konfigureerimine, mis määratleb fiskaaldokumendi loomise väljundmeetodi ja algoritmi.
-- Fiskaalüksuse registreerimisprotsessi konfigureerimine, mis määratleb etappide jada ja igal etapil kasutatava konnektorite grupi.
-- Fiskaalüksuse registreerimisprotsessi määratlemine kassa funktsiooniprofiilidele.
-- Konnektori tehniliste profiilide, kas riistvaraprofiilide (kohalike fiskaalkonntektorite) või kassa funktsiooniprofiilide (teiste fiskaalkonnektorite tüüpide jaoks) määratlemine.
+Fiskaalüksuse integratsiooni funktsioon Retailis on raamistik, mis pakub ühtset lahendust integratsiooni edasiarenduseks ja kohandamiseks Retail POS-i ning fiskaalseadmete ja -teenuste vahel. Funktsioon hõlmab ka fiskaalüksuse integratsiooni näidiseid, mis toetavad jaemüügi põhistsenaariume kindlate riikide või regioonide kohta ja töötavad kindlate fiskaalseadmete või -teenustega. Fiskaalüksuse integratsiooni näidis koosneb mitmest Retaili komponendi laiendusest ja sisaldub Retaili tarkvara arenduskomplektis (SDK). Lisateavet Retail SDK-s saadaolevate fiskaalüksuse integratsiooni näidiste kohta vt teemast [Fiskaalüksuse integratsiooni näidised Retail SDK-s](#fiscal-integration-samples-in-the-retail-sdk). Teavet Retail SDK installimise ja kasutamise kohta vt teemast [Retail SDK ülevaade](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-## <a name="fiscal-integration-execution-flow"></a>Fiskaalüksuse integreerimise elluviimise voog
-Järgmine stsenaarium näitab harilikku fiskaalüksuse integreerimise elluviimise voogu.
+Selleks et toetada muid stsenaariume, mida fiskaalüksuse integratsiooni näidis ei toeta, integreerida Retail POS muude fiskaalseadmete või -teenustega või täita muude riikide või regioonide nõudeid, peate kas laiendama olemasolevat fiskaalüksuse integratsiooni näidist või looma uue näidise, kasutades näitena olemasolevat näidist.
 
-1. Fiskaalüksuse registreerimisprotsessi lähtestamine.
-  
-   Pärast mõne sellise toimingi tegemist, kus fiskaalüksuse registreerimine on nõutav (nt pärast jaemüügikande sõlmimist), seostatakse fiskaalüksuse registreerimisprotsess praeguse kassa funktsiooniprofiiliga.
+## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices"></a>Fiskaalüksuse registreerimisprotsess ja fiskaalüksuse integratsiooni näidised fiskaalseadmete puhul
 
-1. Fiskaalkonnektori otsimine.
-   
-   Igale fiskaalüksuse registreerimisprotsessi etapile vastab süsteemis fiskaalkonnektorite loend. Nende konnektorite määratletud konnektori grupid hõlmavad funktsiooniprofiile ning mitme konnektori tehnilised profiilid on seotud praeguse riistvaraprofiiliga (ainult konnektoritüübi puhul, mis on **Kohalik**) või praeguse kassa funktsiooniprofiiliga (teiste konnektori tüüpide puhul).
-   
-1. Fiskaalüksuse integreerimise teostamine.
+Fiskaalüksuse registreerimisprotsess Retail POS-is võib hõlmata üht või mitut etappi. Iga etapp hõlmab kindlate jaemüügikannete või -sündmuste fiskaalüksuse registreerimist ühes fiskaalseadmes või -teenuses. Riistvarajaamaga ühendatud fiskaalseadmes toimuvas fiskaalüksuse registreerimises osalevad järgmised lahenduse komponendid.
 
-   Süsteem käivitab kõik vajalikud tegevused, mille määratleb leitud konnektoriga ühendatud kogum. See toimub vastavalt konnektori eelmise etapi funktsiooniprofiili ja tehnilise profiili seadetele.
+- **Commerce’i käitusaja (CRT) laiendus** – see komponent serialiseerib jaemüügikannete/-sündmuste andmed vormingus, mida kasutatakse ka fiskaalseadmega suhtlemiseks, sõelub vastused fiskaalseadmest ja talletab need kanali andmebaasi. Laiendus määratleb ka kindlad kanded ja sündmused, mis tuleb registreerida. Seda komponenti nimetatakse sageli *fiskaaldokumendi pakkujaks*.
+- **Riistavarajaama laiendus** – see komponent lähtestab suhtluse fiskaalseadmega, saadab fiskaalseadmele taotlused ja otsekäsud fiskaaldokumendist eraldatud jaemüügikande/-sündmuse andmete põhjal ning võtab vastused fiskaalseadmest vastu. Seda komponenti nimetatakse sageli *fiskaalkonnektoriks*.
 
-## <a name="setup-needed-before-using-fiscal-integration"></a>Vajalikud seadistused enne fiskaalüksuse integreerimise kasutamist
-Enne fiskaalüksuse integreerimise funktsiooni kasutamist tuleb määratleda järgmised seaded.
+Fiskaalüksuse integratsiooni näidis fiskaalseadme puhul sisaldab CRT ja riistvarajaama laiendusi vastavalt fiskaaldokumendi pakkuja ja fiskaalkonnektori kohta. Samuti sisaldab see järgmisi komponendi konfiguratsioone.
 
-- Määratlege fiskaalüksuse funktsiooniprofiili numbri jaoks numbriseeria **Jaemüügi parameetrite** lehel.
-  
-- Määratlege numbriseeriad **Jaemüügi ühisparameetrite** lehel järgmistele viidetele:
-  
-  - Fiskaalüksuse tehnilise profiili number
-  - Fiskaalkonnektori grupi number
-  - Registreerimisprotsessi number
+- **Fiskaaldokumendi pakkuja konfiguratsiooni** – see konfiguratsioon määratleb fiskaaldokumentide väljundmeetodi vormingu. See sisaldab ka andmetüüpide vastendust maksude ja makseviiside kohta, et panna Retail POS-ist pärit andmed ühilduma fiskaalseadme püsivaras eelmääratletud väärtustega.
+- **Fiskaalkonnektori konfiguratsioon** – see konfiguratsioon määratleb füüsilise suhtluse konkreetse fiskaalseadmega.
 
-- Looge igale seadmele või teenusele, mida plaanite fiskaalüksuse integratsiooni eesmärgil kasutada **Fiskaalkonnektor**, minnes **Jaemüük > Kanali seadistus > Fiskaalüksuse integreerimine > Fiskaalkonnektorid**.
+Fiskaalüksuse registreerimise protsess kindla kassaregistri puhul määratletakse vastavate sätetega kassa funktsiooniprofiilis. Lisateavet fiskaalüksuse registreerimisprotsessi, fiskaaldokumendi pakkuja ja fiskaalkonnektori konfiguratsioonide üleslaadimise ning nende parameetrite muutmise kohta vt teemast [Fiskaalüksuse registreerimisprotsessi seadistamine](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
--  Looge kõigile fiskaalkonnektoritele **Fiskaaldokumendi pakkuja**, minnes **Jaemüük > Kanali seadistus > Fiskaalüksuse integreerimine > Fiskaaldokumendi pakkujad**. Andmetüüpide vastendamist peetakse fiskaaldokumendi pakkuja osaks. Samale konnektorile erinavte vastenduste loomiseks (nt riigipõhised määrused), tuleb luua erinevad fiskaaldokumendi pakkujad.
+Järgmises näites on toodud tüüpiline fiskaalüksuse registreerimise käivitamise voog fiskaalseadme puhul. Voog algab sündmusega kassas (nt müügikande lõpetamine) ja rakendab järgmised etapid.
 
-- Looge igale fiskaaldokumendi pakkujale **Konnektori funktsiooniprofiil**, minnes **Jaemüük > Kanali seadistus > Fiskaalüksuse integreerimine > Konnektori funktsiooniprofiilid**.
-  - Valige konnektori nimi.
-  - Valige dokumendipakkuja.
-  - Määratlege KM-määra sätted vahekaardil **Teenuse seadistus**.
-  - Määratlege KM-koodide vastendamine ja maksevahendi tüübi vastendamine **Andmete vastendamise** vahekaardil.
+1. Kassa taotleb CRT-st fiskaaldokumenti.
+2. CRT teeb kindlaks, kas praeguse sündmuse tuleb fiskaalüksus registreerida.
+3. Fiskaalüksuse registreerimisprotsessi põhjal tuvastab CRT fiskaalkonnektori ja vastava fiskaaldokumendi pakkuja, mida fiskaalüksuse registreerimiseks kasutada.
+4. CRT käitab fiskaaldokumendi pakkujat, mis loob fiskaaldokumendi (nt XML-dokumendi), mis kujutab jaemüügikannet või -sündmust.
+5. Kassa saadab CRT ettevalmistatud dokumendi riistvarajaama.
+6. Riistvarajaam käitab fiskaalkonnektorit, mis töötleb fiskaaldokumenti ja edastab selle fiskaalseadmesse või -teenusesse.
+7. Kassa analüüsib fiskaalseadmest või -teenusest saadud vastust, et teha kindlaks, kas fiskaalüksuse registreerimine õnnestus.
+8. CRT salvestab vastuse kanali andmebaasi.
 
-  #### <a name="examples"></a>Näited 
+![Lahenduse skeemi](media/emea-fiscal-integration-solution.png "Lahenduse skeem")
 
-  |  | Vorming | Näide | 
-  |--------|--------|--------|
-  | KM-määrade seadistamine | väärtus: KM-määr | 1 : 2000, 2 : 1800 |
-  | KM-koodide vastendamine | KM-kood: väärtus | KM20 : 1, KM18 : 2 |
-  | Maksevahendi tüüpide vastendamine | Maksevahendi tüüp: väärtus | Sularaha: 1 kaart: 2 |
+## <a name="error-handling"></a>Tõrketöötlus
 
-- Looge **Fiskaalkonnektorite grupid**, minnes **Jaemüük > Kanali seadistus > Fiskaalüksuse integreerimine > Fiskaalkonnektori grupp**. Konnektori grupp on selliste funktsiooniprofiilide alamkogu, mis on seotud fiskaalkonnektoritega, mis teostvad samu funktsioone ja mida kasutatakse fiskaalüksuse registreerimise protsessi samal etapil.
+Fiskaalüksuse integratsiooni raamistik pakub fiskaalüksuse registreerimise ajal ilmnevate tõrgete lahendamiseks järgmisi võimalusi.
 
-   - Konnektori grupile funktsiooniprofiilide lisamine. Klõpsake **Lisa** lehel **Funktsiooniprofiilid** ja valige profiili number.
-   - Kui soovite peatada funktsiooniprofiili kasutamise, määratlege **Keela** olekuks **Jah**. 
-   
-     See muudatus mõjutab ainult praegust konnektori gruppi. Saate jätkata sama funktsiooniprofiili kasutamist teistes konnektori gruppides.
+- **Proovi uuesti** – operaatorid saavad seda valikut kasutada, kui tõrke saab kiiresti lahendada, ja fiskaalüksuse registreerimise võib uuesti käivitada. Näiteks võib seda valikut kasutada siis, kui fiskaalseade pole ühendatud, fiskaalprinteris pole paberit või fiskaalprinteris on paberiummistus.
+- **Tühista** – see valik võimaldab operaatoril praeguse kande või sündmuse fiskaalüksuse registreerimise edasi lükata, kui see nurjub. Kui registreerimine on edasi lükatud, saab operaator tööd kassas jätkata ja teha mis tahes toiminguid, mille jaoks pole fiskaalüksuse registreerimine vajalik. Kui kassas toimub sündmus, mis nõuab fiskaalüksuse registreerimist (nt uue kande avamine), kuvatakse automaatselt tõrketöötluse dialoogiboks, mis teavitab operaatorit, et eelmist kannet ei registreeritud õigesti, ja pakub tõrketöötluse valikud.
+- **Jäta vahele** – operaatorid saavad seda valikut kasutada, kui fiskaalüksuse registreerimise saab teatud tingimustes vahele jätta ja kassas tavatoiminguid jätkata. Näiteks saab seda valikut kasutada, kui müügikannet, mille puhul fiskaalüksuse registreerimine nurjus, saab registreerida spetsiaalsel pabertöölehel.
+- **Märgi registreerituks** – operaatorid saavad seda valikut kasutada, kui kanne on tegelikult fiskaalseadmes registreeritud (nt on prinditud fiskaalsissetulek), kuid fiskaalvastuse salvestamisel kanali andmebaasi tekkis tõrge.
 
-     >[!NOTE]
-     > Konnektori grupis saab igal fiskaalkonnektoril olla ainult üks funktsiooniprofiil.
+> [!NOTE]
+> Valikud **Jäta vahele** ja **Märgi registreerituks** tuleb aktiveerida fiskaalüksuse registreerimisprotsessis, enne kui neid saab kasutada. Peale selle tuleb anda operaatoritele asjakohased õigused.
 
-- Looge igale fiskaalkonnektorile **Konnektori tehniline profiil**, minnes **Jaemüük > Kanali seadistus > Fiskaalüksuse integreerimine > Konnektori tehnilised profiilid**.
-  - Valige konnektori nimi.
-  - Valige konnektori tüüp. 
-      - **Kohalik** – määratlege see tüüp füüsilistele seadmetele või kohalikku arvutisse installitud rakendustele.
-      - **Sisemine** – määratlege see tüüp fiskaalsetele seadmetele ja teenustele, mis on ühendatud jaemüügiserveriga.
-      - **Väline** – väliste finantsteenuste jaoks nagu maksuhalduri pakutav veebiportaal.
-    
-  - Määratlege sätted **Ühenduse** vahekaardil.
+Valikud **Jäta vahele** ja **Märgi registreerituks** võimaldavad teabekoodidel talletada tõrke kohta teatud teavet, nagu tõrke põhjus või fiskaalüksuse registreerimise vahelejätmise või kande registreerituks märkimise põhjendus. Lisateavet tõrketöötluse parameetrite seadistamise kohta vt teemast [Tõrketöötluse sätete määramine](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
-      
- >[!NOTE]
- > Nii tehnilistele kui funktsiooniprofiilidele laaditakse varem laaditud värskendatud konfiguratsiooni versioon. Teid teavitatakse, kui sobiv konnektor või dokumendipakkuja on juba kasutuses. Vaikimisi talletatakse kõik tehnilistes ja funktsiooniprofiilides käsitsi tehtud muudatused. Nende profiilide asendamiseks konfiguratsiooni vaikeparameetritega klõpsake **Konnektori funktsiooniprofiilide** lehel ja **Konnektori tehniliste profiilide** lehel nuppu **Värskenda**.
- 
-- Looge igale fiskaalüksuse integreerimise kordumatule protsessile **Fiskaalüksuse registreerimisprotsess**, minnes **Jaemüük > Kanali seadistus > Fiskaalüksuse integreerimine > Fiskaalüksuse integreerimisprotsess**. Registreerimisprotsess määratletakse registreerimisetappide järjestuse ja igal etapil kasutatava konnektori grupi järgi. 
-  
-  - Registreerimisetappide protsessi lisamine.
-      - Klõpsake vahekaarti **Lisa**.
-      - Valige konnektori tüüp.
-      
-      >[!NOTE]
-      > See väli määratleb, kust süsteem konnektorile tehnilist profiili otsib, kas riistvaraprofiilidest **Kohaliku** konnektori tüübi jaoks või kassa funktsiooniprofiilidest teiste fiskaalkonnektori tüüpide jaoks.
-      
-   - Konnektori grupi valimine.
-   
-     >[!NOTE]
-     > Klõpsake **Kontrolli**, et kontrollida registreerimisprotsessi struktuuri tervislikkust. Kontrollimine on soovitatav järgmistel juhtudel.
-       >- Uue registreerimisprotsessi suhtes pärast seda, kui kõik seadistamised (sh kassa funktsiooniprofiilide ja riistvaraprofiilide sidumine) on lõpule viidud.
-       >- Pärast olemasoleva registreerimisprotsessi värskendamist.
+## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Fiskaalvastuse talletamine fiskaalkandesse
 
--  Fsikaalüksuse registreerimisprotsessi sidumiseks kassa funktsiooniprofiilidega minge **Jaemüük > Kanali seadistus > Kassa seadistus > Kassa profiilid > Funktsiooniprofiilid**.
-   - Klõpsake **Redigeeri** ja valige **Protsessi number** vahekaardil **Fiskaalüksuse registreerimisprotsess**.
-- Konnektori tehniliste profiilide sidumiseks riistvaraprofiilidega minge **Jaemüük > Kanali seadistus > Kassa seadistus > Kassa profiilid > Riistvaraprofiilid**.
-   - Klõpsake **Redigeeri**, seejärel klõpsake **Fiskaalüksuse tehnilise profiili** vahekaardil **Uus**.
-   - Valige **Profiili numbri** väljal konnektori tehniline profiil.
-   
-     >[!NOTE]
-     > Riistvaraprofiilile saab lisada mitu tehnilist profiili. Kuid seda ei toetata, kui riistvaraprofiilil on mis tahes konnektori grupiga rohkem kui üks lõikumine. Valede seadistuste vältimiseks on soovitatav pärast kõigi riistvaraprofiilide värskendamist registreerimisprotsessi kontrollida.
+Kui kande või sündmuse fiskaalüksuse registreerimine õnnestus, luuakse kanali andmebaasi fiskaalkanne ja lingitakse algse kande või sündmusega. Samamoodi, kui nurjunud fiskaalüksuse registreerimisel valitakse suvand **Jäta vahele** või **Märgi registreerituks**, talletatakse see teave fiskaalkandesse. Fiskaalkandel on fiskaalseadme või -teenuse fiskaalvastutus. Kui fiskaalüksuse registreerimisprotsess koosneb mitmest etapist, luuakse fiskaalkanne protsessi iga etapi kohta, mille tulemuseks on õnnestunud või nurjunud registreerimine.
 
+Fiskaalkanded edastatakse kaupluse haldusse *P-tööga* koos jaemüügikannetega. Lehe **Kaupluse kanded** kiirkaardil **Fiskaalkanded** saate vaadata jaemüügikannetega lingitud fiskaalkandeid.
+
+Fiskaalkanne talletab järgmised üksikasjad.
+
+- Fiskaalüksuse registreerimisprotsessi üksikasjad (protsess, konnektorigrupp, konnektor jne). Samuti talletab see fiskaalseadme seerianumbri väljale **Registrinumber**, kui see teave sisaldub fiskaalvastuses.
+- Fiskaalüksuse registreerimise olek: **Lõpule viidud** eduka registreerimise puhul, **Vahele jäetud**, kui operaator valis nurjunud registreerimise puhul suvandi **Jäta vahele**, või **Registreerituks märgitud**, kui operaator valis suvandi **Märgi registreerituks**.
+- Teabekoodi kanded, mis on seotud valitud fiskaalkandega. Teabekoodi kannete kuvamiseks valige kiirkaardil **Fiskaalkanded** fiskaalkanne olekuga **Vahele jäetud** või **Registreerituks märgitud** ja seejärel valige suvand **Teabekoodi kanded**.
+
+## <a name="fiscal-texts-for-discounts"></a>Fiskaaltekstid allahindluste jaoks
+
+Teatud riikides või regioonides kehtivad erinõuded lisatekstide kohta, mis tuleb eri tüüpi allahindluste kohaldamisel fiskaalsissetulekutele printida. Fiskaalüksuse integratsiooni funktsioon võimaldab seadistada allahindluse jaoks teksti, mis prinditakse fiskaalsissetulekul allahindlusrea järele. Käsitsi allahindluste puhul saate määrata fiskaalteksti teabekoodile, mis on määratud kassa funktsiooniprofiilis teabekoodina **Toote allahindlus**. Lisateavet allahindluste jaoks fiskaaltekstide seadistamise kohta vt teemast [Fiskaaltekstide seadistamine allahindluste jaoks](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
+
+## <a name="printing-fiscal-x-and-fiscal-z-reports"></a>Fiskaalüksuse x- ja z-aruannete printimine
+
+Fiskaalüksuse integratsiooni funktsioon toetab integreeritud fiskaalseadme või -teenuse kohaste päeva lõpetamise väljavõtete loomist.
+
+- Kassa ekraanipaigutusse tuleb lisada uued nupud, mis käivitavad vastavad toimingud. Lisateavet vt teemast [Kassa fiskaalüksuste x-/z-aruannete seadistamine](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
+- Fiskaalüksuse integratsiooni näidises peavad need toimingud vastama fiskaalseadme vastavatele toimingutele.
+
+## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Fiskaalüksuse integratsiooni näidised Retail SDK-s
+
+Retailiga väljastatud Retail SDK-s on praegu saadaval järgmised fiskaalüksuse integratsiooni näidised.
+
+- [Fiskaalprinteri integratsiooni näidis Itaalia jaoks](emea-ita-fpi-sample.md)
+- [Fiskaalprinteri integratsiooni näidis Poola jaoks](emea-pol-fpi-sample.md)
+
+Retail SDK-s on saadaval ka järgmised fiskaalüksuse integratsiooni funktsioonid, mis aga praegu ei kasuta fiskaalüksuse integratsiooni raamistikku. Nende funktsioonide migreerimine fiskaalüksuse integratsiooni raamistikku on kavandatud tulevastesse värskendustesse.
+
+- [Digitaalallkiri Prantsusmaa jaoks](emea-fra-cash-registers.md)
+- [Digitaalallkiri Norra jaoks](emea-nor-cash-registers.md)
+- [Juhtseadme integratsiooni näidis Rootsi jaoks](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)

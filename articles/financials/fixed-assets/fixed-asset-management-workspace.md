@@ -1,35 +1,34 @@
 ---
-title: "Põhivara halduse tööruum"
-description: "Teema annab teavet põhivara halduse tööruumi kohta. See tööruum kuvab süsteemi sisestatud põhivaraga seotud andmed. See sisaldab koondvaadet ja analüüsivaadet."
+title: Põhivara halduse tööruum
+description: Teema annab teavet põhivara halduse tööruumi kohta. See tööruum kuvab süsteemi sisestatud põhivaraga seotud andmed. See sisaldab koondvaadet ja analüüsivaadet.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 1e8e02bf308b5506aef41d302755911f6a9ce3e4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8425387d4004e02e9b8adf9ba3b31a0b4e02b6e9
-ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352317"
 ---
-
 # <a name="fixed-asset-management-workspace"></a>Põhivara halduse tööruum
 
 [!include [banner](../includes/banner.md)]
 
-**Põhivara halduse** tööruum kuvab süsteemi sisestatud põhivaraga seotud andmed. See tööruum sisaldab koondvaadet ja analüüsivaadet. Vahekaardil **Minu töö** on kokkuvõttepaanid, põhivara üksikasjad ja seonduv teave põhivara kohta praeguses ettevõttes. Saate lisada ka otse tööruumis Power BI analüüsi jaotisse analüüse. Vahekaardil **Analüüs – kõik ettevõttes** kasutatakse Microsoft Power BI võimalusi kõigi ettevõtete põhivaraga seotud visuaalide näitamiseks.
+**Põhivara halduse** tööruum kuvab süsteemi sisestatud põhivaraga seotud andmed. See tööruum sisaldab koondvaadet ja analüüsivaadet. Vahekaardil **Minu töö** on kokkuvõttepaanid, põhivara üksikasjad ja seonduv teave põhivara kohta praeguses ettevõttes. Saate lisada analüüse ka otse tööruumis Power BI analüüsijaotisse. Vahekaardil **Analüüs – kõik ettevõtted** kasutatakse Microsoft Power BI võimalusi kõigi ettevõtete põhivaraga seotud visuaalide näitamiseks.
 
 ## <a name="my-work"></a>Minu töö
 
@@ -75,4 +74,3 @@ Järgmine tabel näitab igal aruandelehel olevaid visualiseeringuid.
 | Hindamiskaardid        | Põhivara üksikasjad |
 
 Analüüsi kuvamiseks koos andmetega peate esmalt värskendama atribuudi AssetTransactionMeasure koondmõõtmist lehel **Üksuse kauplus**.
-

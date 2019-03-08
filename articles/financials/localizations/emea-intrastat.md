@@ -1,13 +1,13 @@
 ---
 title: Intrastat
-description: "Selles teemas antakse teavet Euroopa Liidu riikide/regioonide vahelise kauba- ja mõnel juhul teenuste vahetuse intrastati aruandluse kohta. Antakse ülevaade aruandlusprotsessist ning kirjeldatakse nõutavaid sätteid ja eeltingimusi."
+description: Selles teemas antakse teavet Euroopa Liidu riikide/regioonide vahelise kauba- ja mõnel juhul teenuste vahetuse intrastati aruandluse kohta. Antakse ülevaade aruandlusprotsessist ning kirjeldatakse nõutavaid sätteid ja eeltingimusi.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: b4b3d8f7da4fbb107353a25ff177492a0744b4c1
 ms.openlocfilehash: 50eb50c636d70dbdc374e8cfc89438433fb1f1b0
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370564"
 ---
-
 # <a name="intrastat"></a>Intrastat
 
 [!include [banner](../includes/banner.md)]
@@ -141,7 +140,7 @@ Järgmised jaotised kirjeldavad sätteid, mida on Intrastat-aruandluse jaoks vaj
 </tr>
 <tr class="even">
 <td>Kandekoodid</td>
-<td>Saate seadistada kande iseloomu teie riigi/regiooni nõuete kohaselt. Iga seadistatava kandekoodi puhul peate seadistama reeglid üleviimistellimuste ja müügi-/ostutellimuste arvesummade ja statistiliste summade arvutamiseks.
+<td>Saate seadistada kande iseloomu oma riigi/regiooni nõuete kohaselt. Iga seadistatava kandekoodi puhul peate seadistama reeglid üleviimistellimuste ja müügi-/ostutellimuste arvesummade ja statistiliste summade arvutamiseks.
 <ul>
 <li>Üleviimistellimuste puhul saate seadistada arvesummade ja statistiliste summade arvutamiseks ühe järgmistest reeglitest.
 <ul>
@@ -160,7 +159,7 @@ Järgmised jaotised kirjeldavad sätteid, mida on Intrastat-aruandluse jaoks vaj
 </tr>
 <tr class="odd">
 <td>Transpordimeetodid</td>
-<td>Saate seadistada transpordiliigi teie riigi/regiooni nõuete kohaselt. Saate määrata iga tarneviisi jaoks vahekaardil <strong>Väliskaubandus</strong> vaike-transpordiliigi.</td>
+<td>Saate seadistada transpordiliigi oma riigi/regiooni nõuete kohaselt. Saate määrata iga tarneviisi jaoks vahekaardil <strong>Väliskaubandus</strong> vaike-transpordiliigi.</td>
 </tr>
 <tr class="even">
 <td>Sadamad</td>
@@ -240,5 +239,4 @@ Kasutage lehte **Väliskaubanduse parameetrid** parameetrite seadistamiseks jär
 </tr>
 </tbody>
 </table>
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Ostu tagastustellimuse loomine
-description: "See protseduur näitab, kuidas koostada ostu tagastustellimust, kasutades kreeditarve toimingut hankija arve dokumendilt ridade kopeerimiseks uuele ostutellimusele."
+description: See protseduur näitab, kuidas koostada ostu tagastustellimust, kasutades kreeditarve toimingut hankija arve dokumendilt ridade kopeerimiseks uuele ostutellimusele.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e080252006d889e2f27db2bccb7b541f3ee4cf9e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9124100f84afb13acc2ac9dda7b9483afb01754
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354134"
 ---
 # <a name="create-a-purchase-return-order"></a>Ostu tagastustellimuse loomine
 
@@ -77,5 +77,4 @@ See protseduur näitab, kuidas koostada ostu tagastustellimust, kasutades kreedi
     * Seda välja kasutatakse viite sisestamiseks, mida kasutatakse toote sissetuleku töölehe kandena.  
 5. Klõpsake nuppu OK.
     * Kaup on nüüd ostu tagastustellimusel saadetuks registreeritud ja loodud on toote sissetuleku tööleht. Saate kasutada toimingut Toote sissetulek ostutellimuse juurde loodud töölehtede ülevaatamiseks, et näha, mis millal vastu võeti või tagastati.  
-
 
