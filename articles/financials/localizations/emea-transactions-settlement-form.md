@@ -1,13 +1,13 @@
 ---
 title: Ida-Euroopa kannete vaatamine tasakaalustamisel
-description: "Selles teemas käsitletakse lehe Kanded tasakaalustamisel teavet klientide ja hankijate kohta."
+description: Selles teemas käsitletakse lehe Kanded tasakaalustamisel teavet klientide ja hankijate kohta.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustVendTransPostingLog_RU
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 0ba1731e4b0dcdeb4591d49dacf517f36e472eef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5ac75d1900a428777374dcc9d7eea10ce4d15b1e
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370524"
 ---
-
 # <a name="view-transactions-on-settlement-for-eastern-europe"></a>Ida-Euroopa kannete vaatamine tasakaalustamisel
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ Hõivatakse tasakaalustamisega seotud andmed ja need saab kuvada lehel **Kanded 
 -   **Sendierinevus** – arve tasakaalustatakse maksega, millel on arvest veidi erinev summa.
 -   **Tingimusliku maksu sisestamine** – arve tasakaalustatakse maksega, millele on rakendatud tingimuslik maks.
 -   **Ettevõtetevaheline tasakaalustamine** – kontsernisisest funktsiooni kasutatakse arve tasakaalustamiseks organisatsiooni maksega.
-
 
 
 

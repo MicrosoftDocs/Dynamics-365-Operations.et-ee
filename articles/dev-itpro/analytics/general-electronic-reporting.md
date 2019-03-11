@@ -1,13 +1,13 @@
 ---
 title: Elektrooniline aruandlus (ER)
-description: "Teema annab ülevaate elektroonilise aruandluse (ER) tööriista kohta. Artikkel sisaldab teavet põhimõistete kohta, ER-i toetatavaid stsenaariume ja loendit vormingutest, mis on loodud ja välja antud lahenduse osana."
+description: Teema annab ülevaate elektroonilise aruandluse (ER) tööriista kohta. Artikkel sisaldab teavet põhimõistete kohta, ER-i toetatavaid stsenaariume ja loendit vormingutest, mis on loodud ja välja antud lahenduse osana.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
 ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310802"
 ---
-
 # <a name="electronic-reporting-er"></a>Elektrooniline aruandlus (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -36,12 +35,12 @@ ER on tööriist, mille abil saate seadistada nii sissetulevate kui ka väljamin
 
 ER-i mootor on suunatud arendajate asemel ärikasutajatele. Kuna seadistate koodi asemel vorminguid, on elektrooniliste dokumentide loomise ja kohandamise protsessid kiiremad ja lihtsamad.
 
-ER toetab praegu vorminguid TEXT, XML, Microsoft Wordi dokumente ja OPENXML-i töölehevorminguid. Kuid laiendusliides toetab täiendavaid vorminguid.
+ER toetab praegu töölehevorminguid TEXT, XML, Microsoft Wordi dokument ja OPENXML. Kuid laiendusliides toetab täiendavaid vorminguid.
 
 ## <a name="capabilities"></a>Võimalused
 ER-i mootoril on järgmised võimalused.
 
-- See on üks ühiskasutatav tööriist elektrooniliseks aruandluseks erinevates domeenides ja asendab enam kui 20 mitmesugust mootorit, mis Microsoft Dynamics 365 for Finance and Operationsis teatud tüüpi elektroonilise aruandlusega tegelevad.
+- See on üks ühiskasutatav tööriist elektrooniliseks aruandluseks erinevates domeenides ja asendab enam kui 20 erinevat mootorit, mis rakenduses Microsoft Dynamics 365 for Finance and Operations teatud tüüpi elektroonilise aruandlusega tegelevad.
 - See isoleerib aruande vormingu praegusest rakenduse Finance and Operations juurutusest. Teisisõnu saab seda vormingut rakendada Finance and Operations erinevatele versioonidele.
 - See toetab algsel vormingul põhineva kohandatud vormingu loomist. See sisaldab ka võimalusi kohandatud vormingu automaatseks versioonitäienduseks, kui algset vormingut muudetakse, kuna kasutusele on võetud lokaliseerimise/kohandamise nõuded.
 - Sellest saab esmane standardtöövahend elektroonilise aruandluse lokaliseerimisnõuete toetamiseks – nii Microsofti kui ka Microsofti partnerite jaoks.
@@ -170,7 +169,7 @@ Hoidla **Operatsiooniressursid** võimaldab juurdepääsu konfiguratsioonide loe
 
 Hoidla **LCS-i projekt** võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimise etapis. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist Finance and Operationsi eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Saate importida konfiguratsioone ka **LCS-i projekti** hoidlast praegusesse Finance and Operationsi eksemplari.
 
-Hoidla **Failisüsteem** võimaldab juurdepääsu konfiguratsioonidele, mis asuvad XML-failidena AOS-i teenuse hostitud masina kohaliku failisüsteemi kindlas kaustas. Vajalik kaust valitakse hoidla registreerimise etapis. Saate importida konfiguratsioone hoidlast **Failisüsteem** praegusesse rakenduse Finance and Operations eksemplari. Pange tähele, et sellele hoidla tüübile saab juurde pääseda järgmistes rakenduse Dynamics 365 for Finance and Operations keskkondades:
+Hoidla **Failisüsteem** võimaldab juurdepääsu konfiguratsioonidele, mis asuvad XML-failidena AOS-i teenuse hostitud masina kohaliku failisüsteemi kindlas kaustas. Vajalik kaust valitakse hoidla registreerimise etapis. Saate importida konfiguratsioone hoidlast **Failisüsteem** praegusesse rakenduse Finance and Operations eksemplari. Pange tähele, et hoidla tüübile pääseb juurde järgmistes Dynamics 365 for Finance and Operationsi keskkondades:
 - arenduseks juurutatud pilves majutatavad keskkonnad (sisaldavad lisatud komplektide katsemudeleid);
 - kohalikult juurutatud keskkonnad (asutusesisene või kohalike äriandmete juurutamine (LBD)).
 
@@ -381,4 +380,3 @@ ER võimaldab võtta automaatselt kasutusele aluskomponendi uusima versiooni muu
 [Lokaliseerimisnõuded – Elektroonilise aruandluse konfiguratsiooni loomine](electronic-reporting-configuration.md)
 
 [Elektroonilise aruandluse konfiguratsiooni elutsükli haldamine](general-electronic-reporting-manage-configuration-lifecycle.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Organisatsioonid ja organisatsiooni hierarhiad
-description: "Organisatsiooni on grupp inimesi, kes töötavad koos äriprotsessi või eesmärgi saavutamiseks. Organisatsiooni hierarhia kajastab teie ettevõttesse kuuluvate organisatsioonide vahelisi seoseid."
+description: Organisatsiooni on grupp inimesi, kes töötavad koos äriprotsessi või eesmärgi saavutamiseks. Organisatsiooni hierarhia kajastab teie ettevõttesse kuuluvate organisatsioonide vahelisi seoseid.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 72834769e393382ac511ad3af21544efddb049d3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f8afc37e8d69b06622176d4f6cfb3ff06a0ab54
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322233"
 ---
-
 # <a name="organizations-and-organizational-hierarchies"></a>Organisatsioonid ja organisatsiooni hierarhiad
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Organisatsiooni on grupp inimesi, kes töötavad koos äriprotsessi või eesmär
 
 ## <a name="organizations"></a>Organisatsioonid
 
-Microsoft Dynamics 365 for Finance and Operationsis saate määratleda järgmist tüüpi siseorganisatsioonid: juriidilised isikud, tootmisüksused ja töörühmad.
+Rakenduses Microsoft Dynamics 365 for Finance and Operations saate määratleda järgmist tüüpi siseorganisatsioonid: juriidilised isikud, tootmisüksused ja töörühmad.
 
 Kõik siseorganisatsioonid on **osapoole** üksuse tüübid. Seetõttu kasutavad need organisatsioonid aadressi- ja kontaktteave talletamiseks aadressiraamatut. Osapool, mis saab olla kas isik või organisatsioon, võib kuuluda ühte või mitmesse aadressiraamatusse.
 
@@ -48,7 +47,7 @@ Ettevõte on juriidiline isik. Selles Microsoft Dynamics 365 for Finance and Ope
 
 Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja tööprotsesside juhtimise jagamiseks. Inimestel tootmisüksuses on kohustus maksimeerida nappide ressursside kasutamist, täiustada protsesse ja vastutada nende toimivuse eest.
 
-Microsoft Dynamics 365 for Finance and Operationsis hõlmavad tootmisüksuste tüübid kulukeskuseid, äriüksuseid, väärtusevooge, osakondi ja jaemüügikanaleid. Järgmine tabel annab lisateavet iga tüüpi tootmisüksuse kohta.
+Rakenduses Microsoft Dynamics 365 for Finance and Operations hõlmavad tootmisüksuste tüübid kulukeskuseid, äriüksuseid, väärtusevoogusid, osakondi ja jaemüügikanaleid. Järgmine tabel annab lisateavet iga tüüpi tootmisüksuse kohta.
 
 | Tootmisüksuse tüüp | Kirjeldus | Eesmärk |
 |---------------------|-------------|---------|
@@ -66,7 +65,6 @@ Töörühm on organisatsioon, mille liikmed jagavad ühist vastutust, huvi või 
 
 Organisatsiooni hierarhiate seadistamine võimaldab teil oma äri vaadata ja selle aruandlust teha erinevatest aspektidest. Näiteks saate seadistada juriidiliste isikute hierarhia maksu-, õigus- või seadusliku aruandluse jaoks. Saate seadistada tootmisüksustel põhineva hierarhia finantsteabe aruandluseks, mis ei ole õiguslikult vajalik, kuid mida kasutatakse sisejuhtimiseks. Näiteks saate luua ostuhierarhia ostupoliitikate, -reeglite ja äriprotsesside juhtimiseks.
 
-Igale hierarhiale määratakse Microsoft Dynamics 365 for Finance and Operationsis eesmärk. Hierarhia eesmärk määratleb organisatsioonide tüübid, mille saab hierarhiasse kaasata. Eesmärk määrab ka rakenduse stsenaariumid, milles hierarhiat saab kasutada.
+Igale hierarhiale määratakse rakenduses Microsoft Dynamics 365 for Finance and Operations eesmärk. Hierarhia eesmärk määratleb organisatsioonide tüübid, mille saab hierarhiasse kaasata. Eesmärk määrab ka rakenduse stsenaariumid, milles hierarhiat saab kasutada.
 
 Hierarhiasse kuuluvad organisatsioonid saavad jagada parameetrid, poliitikaid ja kanded. Organisatsioon võib pärida või alistada oma emaorganisatsiooni parameetrid. Kogu organisatsioonile kehtivad siiski ühised koondandmed, nagu tooted ja aadressiraamatud, ja neid ei saa üksikute organisatsioonide puhul alistada. Organisatsioonide ja hierarhiate loomine nõuab hoolikat planeerimist. Lisateavet kohta vt teemast [Organisatsiooni hierarhia planeerimine](plan-organizational-hierarchy.md).
-

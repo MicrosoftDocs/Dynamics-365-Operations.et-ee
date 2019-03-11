@@ -1,30 +1,29 @@
 ---
-title: "Riistvara suuruse muutmise nõuded kohapealsetes keskkondades"
-description: "Riistvara suuruse muutmise nõuded kohapealsetes keskkondades"
+title: Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
+description: Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
 author: kfend
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340725"
 ---
-
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
 
 [!include [banner](../includes/banner.md)]
@@ -120,7 +119,7 @@ Teie juurutuses eksemplaride arvu kavandamiseks on saadaval [suuruse muutmise ta
     - 1–4 pakktöötluslõime tuuma kohta
     - Pakktöötlusakna iseloomustusel põhinev suurus
 
-- Pange tähele, et AOS-il. andmehaldusel ja pakktöötlusel on Service Fabricus sama roll. Peate valima suuruse nende kolme töökoormuse kohta kokku ega tohi neid eraldada, nagu Microsoft Dynamics AX 2012-is.
+- Pange tähele, et AOS-il. andmehaldusel ja pakktöötlusel on Service Fabricus sama roll. Peate valima suuruse nende kolme töökoormuse kohta kokku ega tohi neid eraldada nagu rakenduses Microsoft Dynamics AX 2012.
 - Siin kehtivad samad varieeruvustegurid mis SQL Serveri puhul.
 
 ### <a name="high-availability"></a>Suur kättesaadavus
@@ -143,4 +142,3 @@ Korraldusteenus on teenus, mis haldab teie juurutust ja seotud sidet LCS-iga. Se
 ## <a name="virtualization-and-oversubscription"></a>Virtualiseerimine ja ületellimine
 
 Missioonikriitilisi teenuseid, nagu AOS, tuleks majutada virtuaalhostides, millel on spetsiaalsed ressursid – tuumad, mälu ja ketas.
-

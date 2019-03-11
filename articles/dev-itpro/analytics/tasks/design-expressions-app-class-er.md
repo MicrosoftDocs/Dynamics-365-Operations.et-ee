@@ -1,13 +1,13 @@
---- 
+---
 title: Elektroonilise aruandluse avaldiste kujundamine, millega kutsuda rakendusklasside meetodeid
 description: Juhendis kirjeldatakse, kuidas taaskasutada olemasolevat rakendusloogikat elektroonilise aruandluse (ER) konfiguratsioonides, kutsudes ER-i rakendusklasside vajalikke meetodeid.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357239"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Elektroonilise aruandluse avaldiste kujundamine, millega kutsuda rakendusklasside meetodeid
 
@@ -103,7 +103,7 @@ Etappide lõpuleviimiseks peate esmalt läbima protseduuri „Pakkuja elektrooni
     * Andmemudeliga vastendamine  
 6. Klõpsake nuppu Salvesta.
 7. Klõpsake valikut Kujundaja.
-8. Valige puul suvand „Dynamics 365 for Operations\Klass“.
+8. Valige puul suvand Dynamics 365 for Operations\Klass.
 9. Klõpsake suvandit Juure lisamine.
     * Lisage uus andmeallikas, et kutsuda olemasolev rakendusloogika IBAN-koodide kontrollimiseks.  
 10. Väljale Nimi tippige „check_codes”.
@@ -157,5 +157,4 @@ Testimiseks käivitage vorminduse vastendamine allalaaditud failiga SampleIncomi
     * Klõpsake nuppu Sirvi ja navigeerige varasemalt allalaaditud failini SampleIncomingMessage.txt.  
 2. Klõpsake nuppu OK.
     * Vaadake väljund üle XML-vormingus, mis tähistab valitud failist imporditud ja andmemudelisse porditud andmeid. Pange tähele, et töödeldi imporditud TXT-faili ainult 3 rida. 4. real olev kehtetu IBAN-kood jäeti vahele ja teabelogisse lisatakse tõrketeade.  
-
 

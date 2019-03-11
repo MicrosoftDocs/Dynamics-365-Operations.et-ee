@@ -1,13 +1,13 @@
---- 
-title: "Jõudluse töölehele kirje lisamine ja teistele tänu saatmine"
-description: "Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke saavutanud või millised on teie tulemused mingil perioodil."
+---
+title: Jõudluse töölehele kirje lisamine ja teistele tänu saatmine
+description: Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke saavutanud või millised on teie tulemused mingil perioodil.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 07f5a16ccb349fbef4c0d2be14c1ef02ed8831dd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364553"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Jõudluse töölehele kirje lisamine ja teistele tänu saatmine
 
@@ -43,7 +43,7 @@ Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke
 9. Tippige väärtus väljale Märksõnad.
 10. Klõpsake valikut Lisa väline link.
 11. Tippige väljale Kirjeldus väärtus Envision.
-12. Tippige väljale Interneti-aadress https://www.microsoft.com/en/envision/default.
+12. Sisestage internetiaadressi väljale väärtus https://www.microsoft.com/en/envision/default.
 13. Klõpsake nupu Salvesta all olevat selgitust „Jõudluse tööleht” ruudustikku naasmiseks.
     * Valitud töölehe või töölehed saab lisada eesmärgile, nii et see kuvatakse, kui eesmärgi avad. Kiirkaardile Lingid lisatakse link. Kui lisate eesmärgile töölehe ja seejärel lisate eesmärgi hindamisse, kuvatakse tööleht automaatselt hindamises.  
     * Valitud töölehe või töölehed saab lisada hindamisele, nii et see kuvatakse, kui hindamise avad.    Kiirkaardile Lingid lisatakse link.  
@@ -55,5 +55,4 @@ Jõudluse töölehel on teave, mis on seotud sellega, kuidas olete oma eesmärke
 19. Valige ettevõtte töötajate nimekirjas olev inimene.
 20. Sisestage väljale Kirjeldus tekst „Aitäh abi eest konverentsil!”.
 21. Klõpsake käsku Saada.
-
 

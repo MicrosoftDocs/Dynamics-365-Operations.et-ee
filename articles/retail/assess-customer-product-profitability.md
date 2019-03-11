@@ -1,13 +1,13 @@
 ---
 title: Kliendi ja toote tulususe hindamine
-description: "See artikkel selgitab, kuidas kasutada mälusisest ja reaalajas analüüsi kliendi ja toote kasumlikkuse vaatamiseks, uurimiseks ja selle kohta ülevaate saamiseks Microsoft Dynamics 365 for Retaili andmetest."
+description: Selles artiklis selgitatakse, kuidas kasutada mälusisest ja reaalajas analüüsi kliendi ning toote kasumlikkuse vaatamiseks, uurimiseks ja selle kohta ülevaate saamiseks Microsoft Dynamics 365 for Retaili andmete põhjal.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationsTemplateForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 28d4eeaa3fcae33f817690ad496b4b123a5838ce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 04ebc624212e6909eda7589b71cd84a22010e721
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326005"
 ---
-
 # <a name="assess-customer-and-product-profitability"></a>Kliendi ja toote tulususe hindamine
 
 [!include [banner](includes/banner.md)]
 
-See artikkel selgitab, kuidas kasutada mälusisest ja reaalajas analüüsi kliendi ja toote kasumlikkuse vaatamiseks, uurimiseks ja selle kohta ülevaate saamiseks Microsoft Dynamics 365 for Retaili andmetest.
+Selles artiklis selgitatakse, kuidas kasutada mälusisest ja reaalajas analüüsi kliendi ning toote kasumlikkuse vaatamiseks, uurimiseks ja selle kohta ülevaate saamiseks Microsoft Dynamics 365 for Retaili andmete põhjal.
 
-Microsoft Dynamics 365 for Retaili osana saavad kasutajad analüüsida parimate klientide (10–100) tulusust organisatsiooni hierarhia erinevatel tasemetel ühe alljärgneva kriteeriumi põhjal:
+Dynamics 365 for Retaili osana saavad kasutajad analüüsida parimate klientide (10–100) tulusust organisatsiooni hierarhia erinevatel tasemetel ühe alljärgneva kriteeriumi põhjal.
 
 - Müügisumma
 - Kogus
@@ -57,4 +56,3 @@ Selle hinnangu jaoks saate kasutada **peamiste toodete** valmisaruandeid, mille 
 - Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Peamiste toodete aruanne**
 - Tööruum **Kategooria ja toote haldus** &gt; **Jaemüük** &gt; **Tooted ja kategooriad** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Peamiste toodete aruanne**
 - Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Peamiste toodete aruanne**
-

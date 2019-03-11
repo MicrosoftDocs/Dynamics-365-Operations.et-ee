@@ -1,13 +1,13 @@
 ---
-title: "Töötaja pädevuste ja arengu Power BI sisu"
-description: "Teema kirjeldab Finance and Operationsi – töötaja pädevusi ja arengut puudutavat Power BI sisu."
+title: Töövõtja pädevuste ja arengu Power BI sisu
+description: Teema kirjeldab Finance and Operationsi mooduli Töötaja pädevused ja areng Power BI sisu.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0442e795eadf28a07132c160d69ad44e9fb05eed
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352915"
 ---
-
-# <a name="employee-competencies-and-development-power-bi-content"></a>Töötaja pädevuste ja arengu Power BI sisu
+# <a name="employee-competencies-and-development-power-bi-content"></a>Töövõtja pädevuste ja arengu Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-Teema kirjeldab Finance and Operationsi – töötaja pädevusi ja arengut puudutavat Power BI sisu. 
+Teema kirjeldab Finance and Operationsi mooduli Töötaja pädevused ja areng Power BI sisu. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Sisupaketti kuuluvad aruanded
-Pärast sisupaketi ühendamist Finance and Operationsi andmetega näitavad aruanded teie organisatsiooni andmeid. Kui te pole Microsoft Power BI-d varem kasutanud, saate selle kohta lisateavet jaotisest [Power BI juhendatud õpe](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Sisupaketti kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
+Pärast sisupaketi ühendamist Finance and Operationsi andmetega näitavad aruanded teie organisatsiooni andmeid. Kui te pole Microsoft Power BI-d varem kasutanud, saate selle kohta lisateavet teemast [Power BI juhendatud õpe.](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) Sisupaketti kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
 
 | Aruanne                            | Sisu                                               |
 |-----------------------------------|--------------------------------------------------------|
@@ -40,7 +39,7 @@ Pärast sisupaketi ühendamist Finance and Operationsi andmetega näitavad aruan
 | Oskuse profiil                     | Valitud töötaja oskuse profiil                |
 | Oskuse analüüs                    | Oskused tüübi ja hinnangu alusel                              |
 
-Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt jaotisest [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt teemast [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 Töötaja pädevuste ja arengu sisupaketi aruannete täitmiseks kasutatakse Finance and Operationsi andmeid. Järgmises tabelis on toodud sisupaketi aluseks olevad üksused.
@@ -71,4 +70,3 @@ Töötaja pädevuste ja arengu sisupaketi aruannete täitmiseks kasutatakse Fina
 | Tööjõud\_WorkerName             | Eesnimi, perekonnanimi ja täielik nimi                                                                       | |
 | Tööjõud\_WorkerTitle            | Ametinimetus ja staaži kuupäev                                                                                   | |
 | Tööjõud\_WorkerTrend             | Töötajad aja jooksul, inimeste arv, ettevõte ja ametikoht                                                        | Tööjõud\_Ettevõte, Tööjõud\_Tasu, Tööjõud\_GeographicLocation, Tööjõud\_Tulemus, Tööjõud\_WorkerName, Tööjõud\_ReportsToWorkerName, Tööjõud\_CalendarOffset, Tööjõud\_Kuupäev, Tööjõud\_WorkerTitle, Tööjõud\_Demograafilised andmed, Tööjõud\_Töösuhe, Tööjõud\_Töö |
-

@@ -1,13 +1,13 @@
 ---
 title: Hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tasakaalustamine
-description: "Selles artiklis läbitakse stsenaarium, kus kreeditarve tasakaalustatakse arvega."
+description: Selles artiklis läbitakse stsenaarium, kus kreeditarve tasakaalustatakse arvega.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5c094b0c3c580a47e7ed876e682c83afc6d9d4c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ec2317f12142f726ad37e39fe11837847b0a5b04
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367888"
 ---
-
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tasakaalustamine
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,6 @@ April saab vaadata üle hankija kanded lehel **Hankija kanded**, valides hankija
 | Inv-10071  |                  | 7/2/2015  | CR10071 | 200,00                               |                                       | 0,00    | USA dollar      |
 | DISC‑10071 |  Skonto   | 7/2/2015  |         | 2.00                                 |                                       | 0,00    | USA dollar      |
 | DISC‑10071 |  Skonto   | 7/2/2015  |         |                                      | 2.00                                  | 0,00    | USA dollar      |
-
 
 
 

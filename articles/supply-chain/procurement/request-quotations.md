@@ -1,13 +1,13 @@
 ---
 title: Pakkumiskutsed
-description: "Selles teemas antakse ülevaade pakkumiskutsete kohta. Organisatsioonid väljastavad pakkumiskutse, kui saavad mitmelt hankijalt konkureerivaid pakkumisi kaupade või teenuste kohta, mida soovivad osta."
+description: Selles teemas antakse ülevaade pakkumiskutsete kohta. Organisatsioonid väljastavad pakkumiskutse, kui saavad mitmelt hankijalt konkureerivaid pakkumisi kaupade või teenuste kohta, mida soovivad osta.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9b840f5511f6a0df0e9ce3db4be69a0ab4ec3261
-ms.openlocfilehash: 8d7b07027443d1ca3894ccb7ed7f3cf49a4dc3e3
-ms.contentlocale: et-ee
-ms.lasthandoff: 06/21/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351282"
 ---
-
 # <a name="requests-for-quotation-rfqs"></a>Pakkumiskutsed
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,7 @@ Saate luua pakkumiskutse juhtumie plaanitud tellimustelt, ostutaotluselt või k�
 
 Kui olete pakkumiskutse ette valmistanud ja hankijad lisanud, valige pakkumiskutses **Saada** (**Saada ja avalda** avaliku sektori korral). Iga hankija kohta, kellele pakkumiskutse saadate, luuakse pakkumiskutse tööleht. Saate konfigureerida saatmistegevuse prindisuvandeid kas printima iga hankija kohta aruande arhiivi või saatma aruande iga hankija meiliaadressile. Peale selle saate iga hankija pakkumiskutse töölehe abil luua aruande, mille saate hankijale saata kohe või hiljem uuesti. Samuti saate konfigureerida saatmistegevuse nii, et see loob vastuselehe, mille hankija saab täita.
 
-Selles teemas käsitletakse pakkumiskutsete käsitlemise protsessi, kui hankija koostööd ei kasutata. Kui teie süsteem on seadistatud hankija koostöö kasutamiseks, saavad hankijad sisestada pakkumised otse rakendusse Microsoft Dynamics 365 for Finance and Operations. Lisateavet vt teemast [Hankija koostöö klientidega](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ja [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
+Selles teemas käsitletakse pakkumiskutsete käsitlemise protsessi, kui hankija koostööd ei kasutata. Kui teie süsteem on seadistatud hankija koostöö kasutamiseks, saavad hankijad sisestada pakkumised otse rakenduses Microsoft Dynamics 365 for Finance and Operations. Lisateavet vt teemast [Hankija koostöö klientidega](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ja [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
 
 Kui peate pakkumiskutset pärast selle saatmist täiendama, saate valmis pakkumiskutse hankijatele uuesti saata, kasutades kaht täiendamistegevust: loomine ja lõpetamine.+
 
@@ -58,7 +57,7 @@ Pakkumiste vastuvõtmisel meili teel saate neid pakkumisi käsitleda lehel **Pak
 Kui nõutav on hankija vastuse teine iteratsioon, valige lehel **Pakkumiskutse** käsk **Tagasta**. Tagastustegevus loob uue töölehe ja aruande, mis prinditakse, arhiivitakse ja saadetakse teie prindisätete järgi.
 
 > [!NOTE]
-> Lehe **Pakkumiskutse** nimi on muutunud. Rakenduse Dynamics 365 for Finance and Operations varasemates versioonides on selle lehe nimi **Pakkumiskutsete vastus**.
+> Lehe **Pakkumiskutse** nimi on muutunud. Rakendus Dynamics 365 for Finance and Operations varasemates versioonides on selle lehe nimi **Pakkumiskutsete vastus**.
 
 Kui olete lisanud pakkumiskutse juhtumile hindamiskriteeriumid, on pakkumiskutsel hindamispaneel, kuhu saate punktisummad sisestada. Punktide kogusumma kuvatakse pakkumiskutsel, kui võrdlete vastuseid lehel **Vastuste võrdlemine**. Lehel **Võrdle vastuseid** saate ka võrrelda vastuse andmeid, nagu rea hind, tarnekuupäev ja koguhind.
 
@@ -268,5 +267,4 @@ All toodud näites näete kõrgeimat ja madalaimat olekut pakkumiskutse juhtumis
 |------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------|-------------------------------------------------|----------------------------------------------|-----------------------------------------------|
 | Aktsepteerige üks pakkumistest. (või vähemalt üks rida) |                          Vastu võetud                           |                           Aktsepteeritud                           |                    Vastu võetud                    |                    Aktsepteeritud                     |                   Vastu võetud                   |                   Aktsepteeritud                    |
 |           Lükake kõik teised pakkumised tagasi.           |                          Tagasi lükatud                           |                           Aktsepteeritud                           |                    Tagasi lükatud                    |                    Aktsepteeritud                     |                   Tagasi lükatud                   |                   Aktsepteeritud                    |
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Andmete importimis- ja eksportimistööd"
-description: "Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi."
+title: Andmete importimis- ja eksportimistööd
+description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360206"
 ---
-
 # <a name="data-import-and-export-jobs"></a>Andmete importimis- ja eksportimistööd
 
 [!include [banner](../includes/banner.md)]
 
-Andmeimpordi ja -ekspordi tööde jaoks rakenduses Microsoft Dynamics 365 for Finance and Operations kasutatakse tööruumi **Andmehaldus**. Vaikimisi loob andmeimpordi ja -ekspordi protsess igale sihtandmebaasi üksusele koondamistabeli. Koondamistabelid võimaldavad andmeid enne teisaldamist kontrollida, puhastada või teisendada.
+Rakenduses Microsoft Dynamics 365 for Finance and Operations andmete impordi- ja eksporditööde loomiseks ning haldamiseks kasutage tööruumi **Andmehaldus**. Vaikimisi loob andmeimpordi ja -ekspordi protsess igale sihtandmebaasi üksusele koondamistabeli. Koondamistabelid võimaldavad andmeid enne teisaldamist kontrollida, puhastada või teisendada.
 
 > [!NOTE]
 > Siin teemas eeldatakse, et olete [andmeüksustega](data-entities.md) tuttav.
@@ -158,4 +157,3 @@ Koondamistabelid saab puhastada, kasutades funktsiooni **Koondamise puhastamine*
 - **Andmeprojektid** – kui valitud on ainult andmeprojekt, kustutatakse valitud andmeprojekti kõigi üksuste kõik kirjed kõigi tööde lõikes.
 
 Kustutatava kirjekogumi täiendavaks piiramiseks saab valikuid ka kombineerida.
-

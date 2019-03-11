@@ -1,13 +1,13 @@
---- 
-title: "Pearaamatu käibemaksu sisestusgruppide seadistamine"
-description: "Käibemaks arvutatakse ja sisestatakse põhikontodele, mis on määratud pearaamatu sisestusgruppides."
+---
+title: Pearaamatu käibemaksu sisestusgruppide seadistamine
+description: Käibemaks arvutatakse ja sisestatakse põhikontodele, mis on määratud pearaamatu sisestusgruppides.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 15421da6f325dfee22a303e9fe83a0e72895fa08
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308341"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Pearaamatu käibemaksu sisestusgruppide seadistamine
 
@@ -48,5 +48,4 @@ Käibemaks arvutatakse ja sisestatakse põhikontodele, mis on määratud pearaam
 11. Valige väljal Kliendi skonto põhikonto selle pearaamatu sisestusgrupiga seotud käibemaksukoodide skonto sisestamiseks.
     * See on valikuline ja kui kontot pole sisestatud, kasutatakse skonto koodide põhikontot. Pearaamatu sisestusgrupi kohta võib olla kasulik kasutada eri kontosid käibemaksugrupi suvandil skonto pöördkäibemaksu kasutamisel.  
 12. Klõpsake nuppu Salvesta.
-
 

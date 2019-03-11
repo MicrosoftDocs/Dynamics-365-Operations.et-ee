@@ -1,13 +1,13 @@
 ---
-title: "Põhivara likvideerimise sisestuskontod"
+title: Põhivara likvideerimise sisestuskontod
 description: Selles teemas selgitatakse, kuidas seadistada pearaamatu sisestuskontosid varade likvideerimiseks.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8e00c00b0cb7058858fde3774941911ce20fb6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bfed7657649f938c3d436468891d40d4194b555d
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367175"
 ---
-
 # <a name="fixed-asset-disposal-posting-accounts"></a>Põhivara likvideerimise sisestuskontod
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ Mõlemat tüüpi kannete puhul toimub pearaamatukonto krediteerimine põhivara l
 Klõpsake suvandit Likvideerimine ja siis suvandit Müük või Praak, seejärel seadistage üksikasjalikud kontod põhivara raamatupidamisliku jääkväärtuse tühistamiseks. Samuti saate sisestada teabe lehe Likvideerimisparameetrid väljadele Järelväärtus ja Müügiväärtuse tüüp. 
 
 Väikese väärtusega vahendite kaustas vähendab põhivara likvideerimiskanne väikese väärtusega vahendite kausta raamatupidamislikku jääkväärtust ainult kasutatud summa võrra. Kuid kui vara müük ületab väikese väärtusega vahendite kausta raamatupidamisliku jääkväärtuse, väheneb raamatupidamislik jääkväärtus nullini.
-
 
 
 

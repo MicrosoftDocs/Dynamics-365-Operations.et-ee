@@ -1,13 +1,13 @@
 ---
-title: "Tööjõu mõõdikute Power BI sisu"
-description: "Selles teemas kirjeldatakse tööjõu mõõdikute Power BI sisu. See selgitab ka seda, kuidas pääseda juurde aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
+title: Tööjõu mõõdikute Power BI sisu
+description: Selles teemas kirjeldatakse tööjõu mõõdikute Power BI sisu. See selgitab ka seda, kuidas pääseda juurde aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,27 +18,26 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345785"
 ---
-
 # <a name="workforce-metrics-power-bi-content"></a>Tööjõu mõõdikute Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse **tööjõu mõõdikute** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+Selles teemas kirjeldatakse **tööjõu mõõdikute** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-**Tööjõu mõõdikute** Power BI sisu kuvatakse tööruumis **Personalijuhtimine**, kui kasutate ühte järgmistest toodetest:
+**Tööjõu mõõdikute** Power BI sisu kuvatakse tööruumis **Personalijuhtimine**, kui kasutate üht järgmistest toodetest:
 
 - Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad mõõdikud
 Järgmine tabel loetleb igas aruandes kuvatavad mõõdikud.
 
 | Aruanne                                           | Mõõdikud |
@@ -57,7 +56,7 @@ Järgmine tabel loetleb igas aruandes kuvatavad mõõdikud.
 | Töötajate sünnipäevad                               | Sünnipäevad sellel kuul, sünnipäevad järgmisel kuul, töötajate sünnipäevad ja sünnipäevad kuu ning osakonna järgi |
 | Hulgivärbamisprojektid                               | Hulgivärbamisprojekte kokku, hulgivärbamisprojektid oleku järgi, hulgivärbamisprojektid osakonna ja omaniku järgi, hulgivärbamisprojektid töö järgi ja hulgivärbamisprojektid |
 
-Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt jaotisest [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt teemast [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Laadige kindlasti alla **tööjõu mõõdikute** Power BI sisu, mis kehtib teie kasutatava Microsoft Dynamics 365 versiooni puhul.
 
@@ -88,4 +87,3 @@ Järgmises tabelis on toodud sisu aluseks olevad üksused.
 | Töötaja trend           | Töötajad aja jooksul, inimeste arv, ettevõte ja ametikoht                                 | Ettevõte, geograafiline asukoht, töötaja nimi, otsene juht, kalendri tasakaalustus, kuupäev, töötaja ametinimetus, demograafilised andmed, töösuhe, töö |
 | Hulgivärbamisprojekt        | Hulgivärbamisprojektide arv, projekti omanik ja projekti olek                     | Ettevõte, hulgivärbamise rida |
 | Hulgivärbamise rida           | Osakond, töösuhte tüüp ja amet                                           | Kuupäev, töö, hulgivärbamisprojekt |
-

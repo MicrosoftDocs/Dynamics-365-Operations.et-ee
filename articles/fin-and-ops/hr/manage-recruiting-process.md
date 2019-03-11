@@ -1,13 +1,13 @@
 ---
-title: "Värbamisprotsesside haldus"
-description: "See artikkel kirjeldab võimalusi, kuidas värbajad saavad jälgida värbamise etappe, sh vabade ametikohtade reklaamimiseks ja kandidaatide värbamiseks, kandidaadi ja avalduse teabe jälgimiseks, kandidaatide intervjueerimiseks ja vaba ametikoha täitmiseks ühe või mitme kandidaadi väljavalimiseks tehtud pingutusi."
+title: Värbamisprotsesside haldus
+description: See artikkel kirjeldab võimalusi, kuidas värbajad saavad jälgida värbamise etappe, sh vabade ametikohtade reklaamimiseks ja kandidaatide värbamiseks, kandidaadi ja avalduse teabe jälgimiseks, kandidaatide intervjueerimiseks ja vaba ametikoha täitmiseks ühe või mitme kandidaadi väljavalimiseks tehtud pingutusi.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9695a7a3f98220f48627e85a51bc6dae5adb35c2
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345670"
 ---
-
 # <a name="manage-recruiting-processes"></a>Värbamisprotsesside haldus
 
 [!include [banner](../includes/banner.md)]
@@ -105,4 +104,3 @@ Vabale töökohale sobiva kandidaadi tuvastamiseks saate kasutada vorme **Oskust
 ## <a name="hiring-applicants"></a>Kandidaatide palkamine
 
 Kandidaadi palkamiseks kasutage lehekülge **Avaldused**. Kandidaadi palkamisel muudetakse avalduse kirje olekuks **Tööle võetud** ja kandidaadi isikukirje globaalses aadressiraamatus seostatakse uue töötaja kirjega. Globaalses aadressiraamatus uue töötaja kirjes tehtud muudatused kuvatakse ka kandidaadi kirjes. See aitab vähendada andmete sisestamiseks kuluvat aega, kui uus töötaja tulevikus ettevõttesiseselt teisele töökohale kandideerib. Olemasoleva töötaja uuele ametikohale palkamiseks avage lehekülg **Avalduse olek** ja klõpsake üleviimisprotsessi käivitamiseks valikut **Ametikoha muutmine**.
-

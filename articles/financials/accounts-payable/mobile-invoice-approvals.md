@@ -1,13 +1,13 @@
 ---
 title: Mobiilsed arvete heakskiidud
-description: "See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele rakenduses Dynamics 365 for Finance and Operations, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks."
+description: See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele rakenduses Dynamics 365 for Finance and Operations, võttes kasutusnäiteks mobiilse hankija arvete kinnitamise.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314390"
 ---
-
 # <a name="mobile-invoice-approvals"></a>Mobiilsed arvete heakskiidud
 
 [!include [banner](../includes/banner.md)]
 
-Mobiilsed võimalused Microsoft Dynamics 365 for Finance and Operationsis lasevad ärikasutajatel mobiilikogemusi kujundada. Täpsemate stsenaariumide puhul võimaldab platvorm arendajatel võimalusi oma soovi kohaselt laiendada. Kõige tulemuslikum viis mõningaid neist uutest mobiilikontseptsioonidest tundma õppida on läbi mõne stsenaariumi kujundamise protsessis. See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks. See teema aitab teil kujundada stsenaariumide muid variatsioone ja seda saab rakendada ka muudele stsenaariumidele, mis pole hankija arvetega seotud.
+Mobiilsed võimalused rakenduses Microsoft Dynamics 365 for Finance and Operations võimaldavad ärikasutajatel mobiilikogemusi kujundada. Täpsemate stsenaariumide puhul võimaldab platvorm arendajatel võimalusi oma soovi kohaselt laiendada. Kõige tulemuslikum viis mõningaid neist uutest mobiilikontseptsioonidest tundma õppida on läbi mõne stsenaariumi kujundamise protsessis. See teema on mõeldud praktilise lähenemise pakkumiseks mobiilistsenaariumide kujundamisele, võttes mobiilse hankija arvete kinnitamise kasutusnäiteks. See teema aitab teil kujundada stsenaariumide muid variatsioone ja seda saab rakendada ka muudele stsenaariumidele, mis pole hankija arvetega seotud.
 
 <a name="prerequisites"></a>Eeltingimused
 -------------
@@ -37,11 +36,11 @@ Mobiilsed võimalused Microsoft Dynamics 365 for Finance and Operationsis laseva
 | Eeltingimus                                                                                            | Kirjeldus                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Mobiili käsiraamat eelnevaks lugemiseks                                                                                |[Mobiilne platvorm](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
-| Dynamics 365 for Finance and Operations                                                                             | Keskkond, millesse on installitud Microsoft Dynamics 365 for Operationsi versioon 1611 ja Microsoft Dynamics for Operationsi platvormivärskendus 3 (november 2016).                   |
+| Dynamics 365 for Finance and Operations                                                                             | Keskkond, millesse on installitud Microsoft Dynamics 365 for Operationsi versioon 1611 ja Microsoft Dynamics for Operationsi platvormivärskendus 3 (november 2016)                   |
 | Installige kiirparandus KB 3204341.                                                                              | Tegevuse salvestaja võib kogemata salvestada rippdialoogidele kaks sulgemiskäsku Dynamics 365 for Operationsi platvormi värskenduses 3 (2016. aasta novembri värskendus) |
 | Installige kiirparandus KB 3207800.                                                                              | See kiirparandus võimaldab vaadata manuseid mobiilikliendil, mis sisaldub Dynamics 365 for Operationsi platvormi värskenduses 3 (2016. aasta novembri värskendus).           |
-| Installige kiirparandus KB 3208224.                                                                              | Rakenduse kood mobiilse hankija arve kinnitamise rakenduse jaoks, mis sisaldub Microsoft Dynamics AX-i rakenduses 7.0.1 (mai 2016).                          |
-| Androidi või iOS-i või Windowsi seade, millesse on installitud Finance and Operationsi mobiilirakendus | Otsige rakendust vastavast rakenduste poest.                                                                                                                     |
+| Installige kiirparandus KB 3208224.                                                                              | Rakenduse kood mobiilse hankija arve kinnitamise rakenduse jaoks, mis sisaldub rakenduses Microsoft Dynamics AX-i 7.0.1 (mai 2016).                          |
+| Androidi, iOS-i või Windowsi seade, millesse on installitud Finance and Operationsi mobiilirakendus | Otsige rakendust vastavast rakenduste poest.                                                                                                                     |
 
 ## <a name="introduction"></a>Sissejuhatus
 Hankija arvete mobiilsed kinnitused nõuavad kolme kiirparandust, mis on nimetatud jaotises „Eeltingimused”. Need kiirparandused ei paku tööruumi arvete kinnitamiseks. Seda, mis on mobiili kontekstis tööruum, saate lugeda jaotises „Eeltingimused” nimetatud mobiili käsiraamatust. Arvete kinnitamise tööruum vajab kujundamist. 
@@ -488,7 +487,6 @@ Avage rakendus oma mobiilses seadmes ja looge ühendus oma Finance and Operation
     3.  Ideaaljuhul tuleks jaotusi näidata selles stsenaariumis arve rea kontekstis. Seega veenduge, et kasutaja saab jaotuste lehe vaatamiseks reas süvitsi minna. Kasutage lehe lingivõimalust süvaaruande koostamiseks, nagu tegite päise ja üksikasjade lehtedel 1. stsenaariumis.
 
 2.  Kuna 2. stsenaariumi puhul eeldatakse mitut summa tüüpi (käibemaks, tasud jne), on kasulik näidata summa tüübi kirjeldust. (Jätsime selle teabe 1. stsenaariumist välja.)
-
 
 
 

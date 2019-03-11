@@ -1,13 +1,13 @@
 ---
 title: Projektipakkumised
-description: "Artikkel tutvustab projektipakkumiste mõistet, mida saate projektifaasi esimese etapina kasutada kliendile atraktiivse pakkumise tegemiseks. Projektipakkumine võib hõlmata pakutavaid kaupu ja teenuseid, peamist kontaktteavet, erilisi kaubandusleppeid ja allahindlusi ning võimalikke makse ja lisatasusid."
+description: Artikkel tutvustab projektipakkumiste mõistet, mida saate projektifaasi esimese etapina kasutada kliendile atraktiivse pakkumise tegemiseks. Projektipakkumine võib hõlmata pakutavaid kaupu ja teenuseid, peamist kontaktteavet, erilisi kaubandusleppeid ja allahindlusi ning võimalikke makse ja lisatasusid.
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bdfb1b0702ed59127e2e26589ea8e44837e81756
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343232"
 ---
-
 # <a name="project-quotations"></a>Projektipakkumised
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ Projektipakkumises saate sisestada projekti teenused, peamise kontaktteabe, konk
 Projektipakkumine on mittesiduv hinnang tehtavale tööle. Kui aga pakkumises olev teave kopeeritakse projekti, mis seostatakse projektilepinguga, muutub see teave kahe osapoole vahelise siduva lepingu osaks. 
 
 Kui klient kinnitab projektipakkumise, saate selles oleva teabe kopeerida projekti. Saate samal ajal kopeerida projektipakkumise teabe ka projekti eelarvesse.
-
 
 
 

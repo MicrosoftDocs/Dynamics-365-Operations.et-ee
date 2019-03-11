@@ -1,28 +1,27 @@
 ---
-title: "Andmete valideerimise kontroll-loendi tööruum"
-description: "Andmete valideerimise kontroll-loendi tööruum võimaldab jälgida andmete valideerimisprotsesse ettevõtete, valdkondade ja inimeste lõikes. Kontroll-loendit saab kasutada uue juurutuse käigus, pärast versioonitäiendust või migreerimist."
+title: Andmete valideerimise kontroll-loendi tööruum
+description: Andmete valideerimise kontroll-loendi tööruum võimaldab jälgida andmete valideerimisprotsesse ettevõtete, valdkondade ja inimeste lõikes. Kontroll-loendit saab kasutada uue juurutuse käigus, pärast versioonitäiendust või migreerimist.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: dd758ac5698d84532c0b724485cc6f0da83bc8e0
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364185"
 ---
-
 # <a name="data-validation-checklist-workspace"></a>Andmete valideerimise kontroll-loendi tööruum
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ Jaotises **Ülesanded ja olek** on kuvatud mitmesugusel moel üldine andmete val
 Viimane vahekaart on ülesannete üksikasjalikuks loendiks. See loend kuvab täieliku ülesannete loendi.
 Saate loendit filtrida mitmel viisil. Klõpsake nuppu **Redigeeri ülesannet** ülesande oleku muutmiseks või ülesande määramiseks. Klõpsake nuppu **Manused** ülesande manuste vaatamiseks.
 
-Ülesande nimi on hüperlink Microsoft Dynamics 365 for Finance and Operationsi lehele või muule veebilehele, kuhu kasutaja peab töö lõpuleviimiseks minema. Selle hüperlingi saab määrata välja **Menüüelemendi nimi** abil, kui redigeerite ülesannet või loote selle vormil **Andmete valideerimise projekti konfigureerimine**.
+Ülesande nimi on hüperlink Microsoft Dynamics 365 for Finance and Operationsi lehele, kuhu kasutaja peab töö lõpuleviimiseks minema. Selle hüperlingi saab määrata välja **Menüüelemendi nimi** abil, kui redigeerite ülesannet või loote selle vormil **Andmete valideerimise projekti konfigureerimine**.
 
 Saate lisada ülesandele faile, märkuseid, pilte ja URL-e, kasutades tegevust **Manused**. Näiteks saate manustada ülesande jaoks prinditud aruandefaili. Ikoon kuvatakse manuse olemasolul ülesande veerus **Manus**.
 
@@ -59,4 +58,3 @@ Enne tööruumi **Andmete valideerimise kontroll-loend** kasutamist tuleb protse
 Kasutate ülesande alasid andmete valideerimise ülesannete grupeerimiseks teie organisatsiooni omandiõiguse loogilistesse aladesse. Näiteks võib ülesande aladena kasutada suvandeid Ostureskontro, Müügireskontro või Pearaamat.
 
 Üksus **Menüüelemendi nimi** on seostatud ülesande tööpanusega ja seda saab kasutada tööruumis ülesande lingilt otse seotud lehele liikumiseks. Näiteks andmete valideerimise ülesande aruande **Ostureskontro aegumine** käivitamiseks ostureskontro jaoks saab linkida lehega **Ostureskontro aegumisaruanne**.
-

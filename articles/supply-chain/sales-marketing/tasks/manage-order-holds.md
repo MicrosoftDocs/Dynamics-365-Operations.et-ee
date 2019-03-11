@@ -1,13 +1,13 @@
---- 
+---
 title: Tellimuste ooteloleku haldamine
-description: "See protseduur näitab, kuidas seada kliendi müügitellimusi ootele, kuidas töötada ootel tellimuse väljaregistreerimisega ja kuidas tellimuse ootelolekut eemaldada."
+description: See protseduur näitab, kuidas seada kliendi müügitellimusi ootele, kuidas töötada ootel tellimuse väljaregistreerimisega ja kuidas tellimuse ootelolekut eemaldada.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ad19ff166c15748b7bbb4b82ef71dbf3e1e8ebd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 3edb8d2fe0fda6634bc2edb8e3bafc5a60344b7a
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323958"
 ---
 # <a name="manage-order-holds"></a>Tellimuste ooteloleku haldamine
 
@@ -74,5 +74,4 @@ Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmete
     * Toiming Eemalda ja saada on kohaldatav ainult siis, kui kasutate kõnekeskuse funktsiooni.  
 8. Klõpsake nuppu Tühjenda ootelolekud.
     * Ootelolek on nüüd tellimusest ja aktiivsete ootelolekute loendist eemaldatud. Nägemaks kõiki ootelolekuid ja nende alamkogumit konkreetse oleku järgi, muutke välja Kuva väärtust.     
-
 

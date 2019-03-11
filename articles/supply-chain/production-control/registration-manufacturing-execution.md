@@ -1,13 +1,13 @@
 ---
-title: "Tootmise käivitamise registreerimine"
-description: "Selles teemas kirjeldatakse põhimõisteid ja tingimusi, mida on vaja tootmise käivitamise konfigureerimiseks ja kasutamiseks mõista."
+title: Tootmise käivitamise registreerimine
+description: Selles teemas kirjeldatakse põhimõisteid ja tingimusi, mida on vaja tootmise käivitamise konfigureerimiseks ja kasutamiseks mõista.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1bbcd7ebea869f921c2eadd05e64509ff9246aa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e5d4ee2fb1cd58107043939c3721fd857909f16b
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318162"
 ---
-
 # <a name="registration-for-manufacturing-execution"></a>Tootmise käivitamise registreerimine
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Töötajad saavad teha tootmisel mitmesuguseid registreerimisi tootmistööde te
 -   **Puhkepauside registreerimine** (saadaval tööajaarvestuse puhul) – töötajad saavad tööpäeva jooksul registreerida puhkepausiks tööjaamast lahkumisi. Seadistada saab mitut tüüpi puhkepause. Kui töötaja naaseb ja uuesti sisse logib, registreerib süsteem töötaja tagasijõudmise ja puhkepausi registreerimine lõpeb.
 -   **Kaudsete tegevuste registreerimine** (saadaval tööajaarvestuse puhul) – kaudsed tegevused on mittetootlikud tegevused, milles töötajad võivad tööpäeva jooksul osaleda (nt osakonna koosolek, töörühma koosolek või töökojas tehtud hooldustööd). Töötajad saavad registreerida määratud kaudseid tegevusi.
 -   **Ületundide registreerimine** (saadaval tööajaarvestuse puhul) – töötajad, kellel on palutud pikemaid töötunde teha, saavad valida, kas registreerida lisaaeg paindliku tööaja või ületunnitööna.
-
 
 
 

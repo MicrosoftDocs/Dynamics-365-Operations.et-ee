@@ -1,13 +1,13 @@
 ---
-title: "Kõnekeskuse tarneviiside ja -tasude konfigureerimine"
-description: "Selles teemas kirjeldatakse, kuidas seada kõnekeskuse jaoks üles tarneviise ja -tasusid rakenduses Microsoft Dynamics 365 for Retail."
+title: Kõnekeskuse tarneviiside ja -tasude konfigureerimine
+description: Selles teemas kirjeldatakse, kuidas seadistada kõnekeskuse jaoks tarneviise ja -tasusid rakenduses Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
-ms.openlocfilehash: ebc8ee52da7d10ca18147684a0190e52a495ad5a
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328420"
 ---
-
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Kõnekeskuse tarneviiside ja -tasude konfigureerimine
 
 [!INCLUDE [banner](includes/banner.md)]
@@ -96,4 +95,3 @@ Saate iga tarneviisiga, mida konfigureerite, valikuliselt siduda kiirsaadetise k
 Näiteks tellimuste puhul, mis tarnitakse järgmisel päeval õhutranspordiga, peab komplekteerimine toimuma laos iga päev kell 13. Sellisel juhul saab luua kiirsaadetise koodi, mille saab siduda ükskõik millise järgmise päeva tarneviisiga, mis on süsteemis konfigureeritud. Kui laos koostatakse komplekteerimisvoog, siis saab väljal **Kiirsaadetis** olevat koodi kasutada filtrina, nii et komplekteeritakse vaid tellimusi, millel on selle koodiga seotud tarneviisid.
 
 Peale selle, kui sisestatud on kõnekeskuse tellimus, saab müügitellimuse päisesse või üksikule müügitellimuse reale käsitsi sisestada kiirsaadetise koodi. Ka sellel puhul saab koodi kasutada sortimiseks ja aruandluseks. Mõnikord on vaja klienditeeninduse vea tõttu tellimust hoolikalt käsitleda. Sellisel juhul saab tellimuse päisesse või ridadele sisestada kiirsaadetise koodi, mis aitab tellimust täitmise käigus tuvastada ja prioriseerida.
-

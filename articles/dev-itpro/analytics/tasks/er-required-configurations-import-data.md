@@ -1,13 +1,13 @@
---- 
-title: "Elektrooniline aruandlus. Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist"
-description: "Järgmised juhised selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmeid välisest failist rakendusse Dynamics 365 for Finance and Operations, Enterprise edition."
+---
+title: Elektrooniline aruandlus. Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist
+description: Järgmised juhised selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmeid välisest failist rakendusse Dynamics 365 for Finance and Operations, Enterprise Edition.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6675f35c9ec163a620e63af32ecdbff02197d3c3
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "337367"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>Elektrooniline aruandlus. Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Järgmised juhised selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmeid välisest failist rakendusse Dynamics 365 for Finance and Operations, Enterprise edition. Juhendit järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Juhendis ülesannete lõpetamiseks peab esmalt täitma juhises "ER konfiguratsioonipakkuja loomine ja selle aktiivseks märkimine" toodud toimingud. Need toimingud saab lõpule viia USMF-i andmekomplekti abil. Samuti peate alla laadima ja kohalikult salvestama järgmised failid, kasutades elektroonilise aruandluse ülevaate teemas olevaid linke (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Järgmised juhised selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmeid välisest failist rakendusse Dynamics 365 for Finance and Operations, Enterprise Edition. Juhendit järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Juhendis ülesannete lõpetamiseks peab esmalt täitma juhises "ER konfiguratsioonipakkuja loomine ja selle aktiivseks märkimine" toodud toimingud. Need toimingud saab lõpule viia USMF-i andmekomplekti abil. Samuti peate alla laadima ja kohalikult salvestama järgmised failid, kasutades elektroonilise aruandluse ülevaate teemas olevaid linke (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
     * Elektrooniline aruandlus pakub ärikasutajatele võimalust konfigureerida väliste andmefailide XML- või TXT-vormingus importimine rakenduse Dynamics 365 for Finance and Operations, Enterprise edition tabelitesse. Esmalt tuleb imporditavate andmete tähistamiseks kujundada abstraktse andmemudeli ja elektroonilise aruandluse andmemudeli konfiguratsioon. Järgmisena peate määratlema imporditava faili struktuuri ja meetodi, mida kasutate andmete portimiseks failist abstraktseks andmemudeliks. Abstraktse andmemudeli jaoks tuleb luua elektroonilise aruandluse vormingu konfiguratsioon, mis vastendab kujundatud andmemudelile. Seejärel tuleb andmemudeli konfiguratsiooni laiendada vastendusega, mis kirjeldab, kuidas imporditud andmeid säilitatakse abstraktse andmemudeli andmetena ja kuidas neid kasutatakse tabelite värskendamiseks rakenduses Dynamics 365 for Finance and Operations, Enterprise edition.  Elektroonilise aruandluse andmemudeli konfiguratsiooni tuleb täiendada uue mudeli vastendusega, mis kirjeldab andmemudeli sidumist rakenduse sihtkohtadega.  
     * Järgmine stsenaarium näitab elektroonilise aruandluse andmete importimise võimalusi. See hõlmab hankijakandeid, mida jälgitakse väliselt ja imporditakse seejärel rakendusse Dynamics 365 for Finance and Operations, Enterprise edition, et luua nende kohta hiljem 1099 hankija tasakaalustuses aruandlus.   
@@ -36,7 +36,7 @@ Järgmised juhised selgitavad, kuidas süsteemiadministraatori või elektroonili
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
     * Veenduge, et konfiguratsioonipakkuja näidisettevõttele Litware, Inc. on saadaval ja märgitud aktiivseks. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” esitatud juhised.   
 2. Klõpsake valikut Aruandluse konfiguratsioonid.
-    * Andmeimpordi toetamiseks uue mudeli loomise asemel laadige varasemalt allalaaditud fail 1099model.xml. See fail sisaldab hankijakannete kohandatud andmemudelit. See andmemudel on vastendatud rakenduse Dynamics 365 for Finance and Operations, Enterprise edition andmekomponentidega, mis on AOT andmeüksuses.   
+    * Andmeimpordi toetamiseks uue mudeli loomise asemel laadige varasemalt allalaaditud fail 1099model.xml. See fail sisaldab hankijakannete kohandatud andmemudelit. See andmemudel on vastendatud rakenduse Dynamics 365 for Finance and Operations, Enterprise edition andmekomponentidega, mis on AOT andmemudelis.   
 3. Klõpsake nuppu Vahetus.
 4. Klõpsake nuppu Laadi XML-failist.
     * Klõpsake nuppu Sirvi ja navigeerige varasemalt allalaaditud failini 1099model.xml.  
@@ -177,17 +177,16 @@ Järgmised juhised selgitavad, kuidas süsteemiadministraatori või elektroonili
 18. Sulgege leht.
 19. Sulgege leht.
 20. Klõpsake nuppu Redigeeri.
-    * Kui installisite kiirparanduse „GER-i mudeli vastenduste tugi KB 4012871 eraldi konfiguratsioonides võimalusega määrata erinevat tüüpi eeltingimused nende juurutamiseks erinevates rakenduse Dynamics 365 for Finance and Operations, Enterprise Edition versioonides” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), käivitage sisestatud vormingu konfiguratsiooni puhul järgmine etapp ”Lülita lipp „Mudelivastenduse vaikeväärtus” sisse”. Vastasel juhul jätke järgmine etapp vahele.  
+    * Kui installisite kiirparanduse „GER-i mudeli vastenduste tugi KB 4012871 eraldi konfiguratsioonides võimalusega määrata erinevat tüüpi eeltingimused nende juurutamiseks erinevates rakenduse Dynamics 365 for Finance and Operations, Enterprise Edition versioonides” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), käivitage sisestatud vormingu konfiguratsiooni puhul järgmine etapp ”Lülita lipp „Mudelivastenduse vaikeväärtus” sisse”. Vastasel juhul jätke järgmine etapp vahele.  
 21. Väljal Mudelivastenduse vaikeväärtus valige Jah.
 22. Puuvaates valige „1099 maksete mudel”.
 23. Klõpsake valikut Kujundaja.
 24. Klõpsake suvandit Mudeli vastendamine andmeallikaga.
 25. Klõpsake nuppu Käivita.
-    * Kui installisite kiirparanduse „GER-i mudeli vastenduste tugi KB 4012871 eraldi konfiguratsioonides võimalusega määrata erinevat tüüpi eeltingimused nende juurutamiseks erinevates rakenduse Dynamics 365 for Finance and Operations, Enterprise Edition versioonides” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), valige otsinguväljal eelistatud mudeli vastendus. Kui te pole kiirparandust veel installinud, jätke järgmine etapp vahele, kuna vastendus on vaikevormingu konfiguratsiooniga juba valitud.  
+    * Kui installisite kiirparanduse „GER-i mudeli vastenduste tugi KB 4012871 eraldi konfiguratsioonides võimalusega määrata erinevat tüüpi eeltingimused nende juurutamiseks erinevates rakenduse Dynamics 365 for Finance and Operations, Enterprise Edition versioonides” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), valige otsinguväljal eelistatud mudelivastendus. Kui te pole kiirparandust veel installinud, jätke järgmine etapp vahele, kuna vastendus on vaikevormingu konfiguratsiooniga juba valitud.  
     * Kui te pole veel kiirparandust KB 4012871 installinud, pange tähele, et dialoogiboks sisaldab täiendavat mudeli vastendamise küsimust, mida kasutatakse imporditava faili sõelumist. Andmed imporditakse seejärel dialoogiboksist andmemudelisse. Praegu saate valida, millist vormingu vastendust tuleb kasutada, sõltuvalt sellest, millist tüüpi faili plaanite importida.  
     * Kui plaanite selle mudelivastenduse kutsuda rakenduse Dynamics 365 for Finance and Operations, Enterprise edition punktist, mis on spetsiaalselt ette nähtud selle toimingu jaoks, tuleb elektroonilise aruandluse sihtkoha ja vormingu vastendus märkida integratsiooni osaks.  
 26. Klõpsake valikut Tühista.
 27. Sulgege leht.
 28. Sulgege leht.
-
 

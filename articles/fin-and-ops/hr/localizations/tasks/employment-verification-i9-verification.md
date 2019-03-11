@@ -1,13 +1,13 @@
---- 
-title: "Tööhõive kinnitamise i9 kinnitamine"
-description: "Immigratsiooni reformi ja kontrollimise seadus nõuab USA tööandjatelt uute palgatud töötajate tööhõivekõlblikkuse oleku kinnitamist."
+---
+title: Tööhõive kinnitamise i9 kinnitamine
+description: Immigratsiooni reformi ja kontrollimise seadus nõuab USA tööandjatelt uute palgatud töötajate tööhõivekõlblikkuse oleku kinnitamist.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4d7346507179d237f60459978b9b7c6351f48611
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333319"
 ---
 # <a name="employment-verification-i9-verification"></a>Tööhõive kinnitamise i9 kinnitamine
 
@@ -54,5 +54,4 @@ Immigratsiooni reformi ja kontrollimise seadus nõuab USA tööandjatelt uute pa
 21. Valige töötaja esitatud dokumenditüüp väljalt I-9 dokumenditüüp.
 22. Sisestage või valige väärtus väljal Dokumendi number.
 23. Klõpsake nuppu Salvesta.
-
 

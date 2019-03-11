@@ -1,13 +1,13 @@
 ---
-title: "Microsoft Dynamics AX 2012 laohalduse täiendamine versioonile Finance and Operations"
-description: "Selles teemas antakse ülevaade toodete ja laohalduse migreerimise võimalustest."
+title: Microsoft Dynamics AX 2012 laohalduse täiendamine rakendusele Finance and Operations
+description: Selles teemas antakse ülevaade toodete ja laohalduse migreerimise võimalustest.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,26 +18,25 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324464"
 ---
-
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Microsoft Dynamics AX 2012 laohalduse täiendamine versioonile Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Microsoft Dynamics AX 2012 laohalduse täiendamine rakendusele Finance and Operations
 
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade WMSII moodulis töötava Microsoft Dynamics AX 2012 R3 täiendamisest versioonidel Microsoft Dynamics 365 for Finance and Operations.
+Selles teemas antakse ülevaade täiendamisest rakenduselt Microsoft Dynamics AX 2012 R3, mis käitab moodulit WMSII, rakendusele Microsoft Dynamics 365 for Finance and Operations.
 
 Finance and Operations ei toeta enam pärandmoodulit **WMSII** rakendusest Microsoft Dynamics AX 2012. Selle asemel saab kasutada moodulit **Laohaldus**. WMSII moodulis saab finantsilisteks varudeks valida varude dimensioonid Asukoht ja Aluse ID, kuid varude dimensiooni Aluse ID ei saa kasutada finantsilisteks varudeks rakenduses Finance and Operations.
 
 Versioonitäienduse käigus tuvastatakse ja märgitakse blokeerituks kõik tooted, mis on seotud laoala dimensioonigrupiga, mis kasutab varude dimensiooni Aluse ID, ja neid ei töödelda versioonitäienduse jaoks.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Versioonitäiendus Finance and Operationsiks, kui kasutatakse rakendust AX 2012 R3 WMSII
+## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Versioonitäiendus Finance and Operationsile, kui kasutatakse AX 2012 R3 moodulit WMSII
 Pärast versioonitäiendust võite kasutada valikute komplekti vormis **Kaupade laoala dimensioonigrupi muutmine**, et versioonitäienduse ajal blokeeritud toodetelt blokeering eemaldada ja seejärel nende toodete kandeid töödelda.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Kaupade aktiveerimine Finance and Operationsis
@@ -69,8 +68,8 @@ Enne väljastatud toodete kasutamist moodulis **Laohaldus** peavad tooted kasuta
 
 1.  Looge vähemalt üks uus asukohaprofiil.
 2.  Klõpsake valikuid **Laohaldus** &gt; **Seadistus** &gt; **Luba laohaldusprotsessid** &gt; **Luba lao seadistus**.
-3.  Lisage lehel **Luba lao seadistus** laod, mis tuleks lubada. Selle toimingu võib teha otse lehel või Microsoft Office’i integratsiooni kasutades.
-4.  Asukohaprofiili määramine kõigile asukohtadele. Selle toimingu võib teha hõlpsasti otse lehel Microsoft Office’i integratsiooni kasutades. Võite andmed eksportida ja importida või kasutada andmeüksuse töötlemist jaotises [Andmehaldus](../../dev-itpro/data-entities/data-entities.md).
+3.  Lisage lehel **Luba lao seadistus** laod, mis tuleks lubada. Selle toimingu saate teha otse lehel või Microsoft Office’i integratsiooni kasutades.
+4.  Asukohaprofiili määramine kõigile asukohtadele. Selle toimingu saate teha hõlpsasti otse lehel Microsoft Office’i integratsiooni kasutades. Võite andmed eksportida ja importida või kasutada andmeüksuse töötlemist jaotises [Andmehaldus](../../dev-itpro/data-entities/data-entities.md).
 5.  Valideerige muudatused. Valideerimisprotsessi käigus toimuvad mitmesugused andmete terviklikkuse valideerimised. Suurema versioonitäienduse protsessi käigus võib olla vaja ilmnevaid probleeme allika juurutamisel korrigeerida. Sellisel juhul on vajalik täiendav andmete versioonitäiendus.
 6.  Töödelge muudatused.
 
@@ -81,7 +80,6 @@ Enne väljastatud toodete kasutamist moodulis **Laohaldus** peavad tooted kasuta
 3.  Määratlege lehel **Reserveerimishierarhia** kauba ladustamise ja jälgimisdimensiooni gruppide kohaselt uus reserveerimishierarhia.
 4.  Looge vähemalt üks kauba seeriagrupp, mis sisaldab vähemalt samu ühikuid, mida kasutatakse kauba laoühikutena.
 5.  Klõpsake valikuid **Laohaldus** &gt; **Seadistus** &gt; **Luba laohaldusprotsessid** &gt; **Kaupade laoala dimensioonigrupi muutmine**.
-6.  Lisage lehel **Kaupade laoala dimensioonigrupi muutmine** kaubakoodid, laoala dimensioonigrupid ja ühiku seeriagrupid. Selle toimingu saab teha otse lehelt, kasutades Microsoft Office’i integratsiooni, või kasutades andmeüksuse protsessi jaotises [Andmehaldus](../../dev-itpro/data-entities/data-entities.md).
+6.  Lisage lehel **Kaupade laoala dimensioonigrupi muutmine** kaubakoodid, laoala dimensioonigrupid ja ühiku seeriagrupid. Selle toimingu saate teha otse lehelt, kasutades Microsoft Office’i integratsiooni, või kasutades andmeüksuse protsessi jaotises [Andmehaldus](../../dev-itpro/data-entities/data-entities.md).
 7.  Valideerige muudatused. Valideerimisprotsessi käigus toimuvad mitmesugused andmete terviklikkuse valideerimised. Suurema versioonitäienduse protsessi käigus võib olla vaja ilmnevaid probleeme allika juurutamisel korrigeerida. Sellisel juhul on vajalik täiendav andmete versioonitäiendus.
 8.  Töödelge muudatused. Kõigi varude dimensioonide uuendamine võib veidi aega võtta. Saate edenemist pakett-tööde toimingute abil jälgida.
-

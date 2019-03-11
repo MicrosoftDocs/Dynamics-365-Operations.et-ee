@@ -1,31 +1,30 @@
 ---
 title: Hooldustoimingud
-description: "Kasutage hooldustoiminguid hooldustellimuse käigus täidetava ülesande kirjeldamiseks. Seda teavet näevad nii tehnikud kui ka kliendid."
+description: Kasutage hooldustoiminguid hooldustellimuse käigus täidetava ülesande kirjeldamiseks. Seda teavet näevad nii tehnikud kui ka kliendid.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceTask
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f2538a7b4a4c13a299afb37dd336f2f5d6f36a23
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: de180a1258bbfb95acbfd0985cb91c88efc320f2
-ms.contentlocale: et-ee
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308594"
 ---
-
 # <a name="service-tasks"></a>Hooldustoimingud  
 
 [!include [banner](../includes/banner.md)]
@@ -74,9 +73,9 @@ Kahe tööülesande hooldusleppe ridadele on lisatud kaks hooldustoimingut. Hool
 
 Hooldustoimingu seosed, mis ühendavad hooldustoiminguid kindla leppega, on järgmised.
 
-### <a name="service-tasks"></a>Hooldustoimingud
+### <a name="service-tasks"></a>teenustoimingud
 
-| Hooldustoiming | Kirjeldus                             | Sisemärkus                                                                                                                 | Väline märkus                 |
+| teenustoiming | Kirjeldus                             | sisemärkus                                                                                                                 | väline märkus                 |
 |--------------|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
 | I/C - GB1234 | Käigukasti GB-1234 kontrollimine           | Käigukasti GB-1234 visuaalne ja mehaaniline kontrollimine ja puhastamine                                                              | Käigukasti rutiinne kontrollimine |
 | RR - GB1234  | GB-1234 osade rutiinne asendamine | Rutiinse teenuse käigus GR-1 ja GR-5 komponentide asendamine (enne 2002. aastat valmistatud käigukastide puhul asendatakse ka GR-2 komponent) | Rutiinne osade asendamine  |
@@ -89,6 +88,5 @@ Kui loote automaatselt hooldustellimusi, siis saate kasutada hooldustoimingut gr
 
 1. Klõpsake valikut **Hooldushaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldusleppegrupid**.
 2. Vahekaardil **Häälestus** valige väljal **Hooldustellimuste ühendamine** valik **Hooldustoimingu alusel**.
-
 
 

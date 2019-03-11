@@ -1,13 +1,13 @@
 ---
 title: Readefinitsiooni lahtrite muutmine
-description: "Selles artiklis kirjeldatakse teavet, mis on nõutav finantsaruandes readefinitsiooni iga lahtri puhul, ja selgitatakse, kuidas seda teavet sisestada."
+description: Selles artiklis kirjeldatakse teavet, mis on nõutav finantsaruandes readefinitsiooni iga lahtri puhul, ja selgitatakse, kuidas seda teavet sisestada.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323636"
 ---
-
 # <a name="modify-row-definition-cells"></a>Readefinitsiooni lahtrite muutmine
 
 [!include [banner](../includes/banner.md)]
@@ -387,10 +386,10 @@ Saate piirata rida olemasoleva konteerimiskoodiga. Veeru definitsioon peab sisal
 Mõned raamatupidamissüsteemid toetavad finantsandmetes konto atribuute ja kande atribuute. Need atribuudid toimivad virtuaalsete kontosegmentidena ja võivad sisaldada lisateavet konto või kande kohta. Selleks lisateabeks võivad olla konto ID-d, partii ID-d, sihtnumbrid või muud atribuudid. Kui teie raamatupidamissüsteem toetab atribuute, saate kasutada konto atribuute või kande atribuute readefinitsioonis rea muutujatena. Lisateabe saamiseks rea teabe alistamise kohta vt selles artiklis varem toodud jaotist Veeru definitsiooni alistamine.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Lahtri Link finantsdimensioonidele määramine
-Lahter **Link finantsdimensioonidele** sisaldab linke finantsandmetele, mis tuleks aruande igale reale lisada. See lahter sisaldab dimensiooniväärtusi, kuid saate lahtreid määrata Microsoft Exceli töölehel segmendiväärtuste või dimensiooniväärtuste asemel või neile lisaks. Dialoogiboksi **Dimensioonid** avamiseks topeltklõpsake lahtrit **Link finantsdimensioonidele**.
+Lahter **Link finantsdimensioonidele** sisaldab linke finantsandmetele, mis tuleks aruande igale reale lisada. See lahter sisaldab dimensiooniväärtusi, kuid saate segmendi- või dimensiooniväärtuste asemel või neile lisaks Microsoft Exceli töölehel lahtreid määrata. Dialoogiboksi **Dimensioonid** avamiseks topeltklõpsake lahtrit **Link finantsdimensioonidele**.
 
 > [!NOTE]
-> Aruande kujundaja ei saa valida kontosid, dimensioone ega välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], {, või }. Readefinitsioonis juba olemasoleva rea teabe määramiseks lisage teave lahtrisse **Link finantsdimensioonidele**. Finantsandmetega seotavate uute ridade lisamiseks kasutage aruande definitsioonis uute ridade loomiseks dialoogiboksi **Sisesta read**. Veeru pealkiri muutub veeru konfiguratsioonist olenevalt, nagu on näidatud järgmises tabelis.
+> Aruande kujundaja ei saa valida kontosid, dimensioone ega välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], { või }. Readefinitsioonis juba olemasoleva rea teabe määratlemiseks lisage teave lahtrisse **Link finantsdimensioonidele**. Finantsandmetega seotavate uute ridade lisamiseks kasutage aruande definitsioonis uute ridade loomiseks dialoogiboksi **Sisesta read**. Veeru pealkiri muutub veeru konfiguratsioonist olenevalt, nagu on näidatud järgmises tabelis.
 
 | Valitud seose tüüp       | Lingi veeru kirjeldus muutub järgmiseks |
 |----------------------------------|----------------------------------------------------|
@@ -429,14 +428,14 @@ Füüsilise segmendi väärtuse sisestamisel dialoogiboksi **Dimensioonid** saat
 Saate määrata segmendiväärtuste või dimensiooniväärtuste vahemiku. Vahemiku määramise kasu seisneb selles, et te ei pea värskendama readefinitsiooni iga kord, kui uus segmendiväärtus või dimensiooniväärtus finantsandmetesse lisatakse. Näiteks vahemik **+Konto=\[6100:6900\]** tõmbab rea summasse väärtusi kontodelt 6100 kuni 6900. Kui vahemik sisaldab metamärki (?), ei hinda aruandekoostur vahemikku märgiti. Selle asemel määratakse vahemiku alam- ja ülempiirid ja seejärel kaasatakse piirväärtused ja kõik nendevahelised väärtused.
 
 > [!NOTE]
-> Aruande kujundaja ei saa valida kontosid, dimensioone ega välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], {, või }. Saate ampersandi (&) lisada ainult juhul, kui loote readefinitsioone automaatselt, kasutades dialoogiboksi **Sisesta read dimensioonidest**.
+> Aruande kujundaja ei saa valida kontosid, dimensioone ega välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], { või }. Saate ampersandi (&) lisada ainult juhul, kui loote readefinitsioone automaatselt, kasutades dialoogiboksi **Sisesta read dimensioonidest**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Mitme segmendi või mitme dimensiooni vahemikud
 
 Vahemiku sisestamisel mitme dimensiooniväärtuse kombinatsioone kasutades võrreldakse vahemikku ..\\finantsdimensioonid\\dimensioonipõhiselt. Vahemiku võrdlust ei saa teha märgiti või osalise segmendi alusel. Näiteks vahemik **+Konto=\[5000:6000\], Osakond=\[1000:2000\], Kulukeskus=\[00\]** hõlmab ainult iga segmendiga ühtivaid kontosid. Selles stsenaariumis peab esimene dimensioon olema vahemikus 5000 kuni 6000, teine dimensioon peab olema vahemikus 1000 kuni 2000 ja viimane dimensioon peab olema 00. Näiteks **+Konto=\[5100\], Osakond=\[1100\], Kulukeskus=\[01\]** ei kaasata aruandesse, kuna viimane segment jääb määratud vahemikust välja. Kui segmendi väärtus sisaldab tühikuid, pange see väärtus nurksulgudesse (\[ \]). Neljakohalise segmendi puhul kehtivad järgmised väärtused: **\[ 234\], \[123 \], \[1 34\]**. Dimensiooniväärtused peaks olema nurksulgudes (\[ \]) ja aruandekoostur lisab need sulud teie eest. Kui mitme segmendi või mitme dimensiooni vahemik sisaldab metamärke (? või \*), määratakse mitme segmendi või mitme dimensiooni vahemiku alam- ja ülempiirid ja seejärel kaasatakse piirväärtused ja kõik nendevahelised väärtused. Laia vahemiku soovimisel, nagu näiteks kogu kontode vahemiku 40 000 kuni 99 999 puhul peaksite võimaluse korral määrama kehtiva algus- ja lõppkonto.
 
 > [!NOTE] 
-> Aruande kujundaja ei saa valida kontosid, dimensioone ega välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], {, või }. Saate ampersandi (&) lisada ainult juhul, kui loote readefinitsioone automaatselt, kasutades dialoogiboksi **Sisesta read dimensioonidest**.
+> Aruande kujundaja ei saa valida kontosid, dimensioone ega välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], { või }. Saate ampersandi (&) lisada ainult juhul, kui loote readefinitsioone automaatselt, kasutades dialoogiboksi **Sisesta read dimensioonidest**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Readefinitsiooni muude kontode liitmine või lahutamine
 Ühe konto rahasummade liitmiseks teise konto rahasummadele või neist lahutamiseks saate kasutada plussmärki (+) ja miinusmärk (–) lahtris **Link finantsdimensioonidele**. Järgmises tabelis kuvatakse linkide finantsandmetele liitmise ja lahutamise puhul lubatud vormingud.
@@ -456,10 +455,10 @@ Vahemiku sisestamisel mitme dimensiooniväärtuse kombinatsioone kasutades võrr
 | Segmendiväärtuste vahemiku lahutamine.                                                     | -Konto=\[1200:1205\]                                                                                       |
 | Metamärke sisaldavate segmendiväärtuste vahemiku lahutamine.                    | -Konto=\[120?:130?\]                                                                                       |
 
-Ehkki saate kontosid otse muuta, saate finantsandmete linkidele õige vormingu rakendamiseks kasutada ka dialoogiboksi **Dimensioonid**. Väärtused võivad sisaldada metamärke (? või \*). Aruande kujundaja ei saa siiski valida kontosid, dimensioone või välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], { või }.
+Ehkki saate kontosid otse muuta, saate finantsandmete linkidele õige vormingu rakendamiseks kasutada ka dialoogiboksi **Dimensioonid**. Väärtused võivad sisaldada metamärke (? või \*). Aruande kujundaja ei saa aga valida kontosid, dimensioone ega välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], { või }.
 
 > [!NOTE]
-> Väärtuste lahutamiseks peate panema need väärtused sulgudesse. Näiteks kui sisestate **450?-(4509)**, kuvatakse see kui **+Konto=\[4509\]-Konto=\[450?\]** ja juhendate aruandekoosturit lahutama konto segmendi 4509 summat mis tahes konto segmendi summast, mis algab 450-ga.
+> Väärtuste lahutamiseks peate need väärtused sulgudesse panema. Näiteks kui sisestate **450?-(4509)**, kuvatakse see kui **+Konto=\[4509\]-Konto=\[450?\]** ja juhendate aruandekoosturit lahutama konto segmendi 4509 summat mis tahes konto segmendi summast, mis algab 450-ga.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Kontode liitmine muudele kontodele või neist lahutamine
 
@@ -533,4 +532,3 @@ Dimensiooniväärtuste kogum on dimensiooniväärtuste nimega grupp. Dimensiooni
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
-

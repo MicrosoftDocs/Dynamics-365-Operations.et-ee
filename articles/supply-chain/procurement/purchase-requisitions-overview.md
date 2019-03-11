@@ -1,13 +1,13 @@
 ---
-title: "Ostutaotluse ülevaade"
-description: "Teema kirjeldab ostutaotluste töövoogu ja erinevaid olekuid, mis ostutaotlusel olla võivad."
+title: Ostutaotluse ülevaade
+description: Teema kirjeldab ostutaotluste töövoogu ja erinevaid olekuid, mis ostutaotlusel olla võivad.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309836"
 ---
-
 # <a name="purchase-requisition-overview"></a>Ostutaotluse ülevaade
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Pärast ostutaotluse kinnitamist saab seda kasutada ostutellimuse loomiseks. Ost
 ## <a name="creating-purchase-requisitions"></a>Ostutaotluste loomine
 Ostutaotluse saate luua leheküljel **Minu ostutaotlused** ja valida kaubad ja teenused, mida vajate. Saate valida kaupu organisatsiooni loodud hankekataloogist või taotleda kataloogist puuduvaid tooteid, valides hankekategooria ja sisestades toote üksikasjad.  
 
-Enne ostutaotluse ülevaatuseks edastamist on vaja Microsoft Dynamics 365 for Finance and Operationsi kliendis töövood konfigureerida. Töövoogu kasutades saate ostutaotlust ülevaatuse protsessis algsest olekust **Mustand** lõplikku olekusse **Kinnitatud** liigutada.
+Enne ostutaotluse ülevaatuseks edastamist tuleb töövood rakenduses Microsoft Dynamics 365 for Finance and Operations konfigureerida. Töövoogu kasutades saate ostutaotlust ülevaatuse protsessis algsest olekust **Mustand** lõplikku olekusse **Kinnitatud** liigutada.
 
 ### <a name="purchase-requisition-statuses"></a>Ostutellimuse olekud
 
@@ -198,7 +197,6 @@ Kinnitatud ostutaotluse ridade konsolideerimiseks tehke järgmist.
 [Tarbimistaotluse loomine (tegevuse juhis)](tasks/create-requisition-consumption.md)
 
 [Ostutaotluse töövoog](purchase-requisitions-workflow.md)
-
 
 
 

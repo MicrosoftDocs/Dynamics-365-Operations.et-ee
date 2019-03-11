@@ -5,24 +5,23 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 03/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Estonia
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 65f171b768f7f9cbc1032a6d1469d2b6518416c5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e03386ad242ec5e4eff7a323f5e1fd492e260db9
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370568"
 ---
-
 # <a name="personal-information-requests-for-estonia"></a>Isikuandmete taotlused Eesti puhul
 
 [!include [banner](../includes/banner.md)]
@@ -40,4 +39,3 @@ Kõik ettevõtted peavad koguma teavet töötajate, klientide ja hankijate kohta
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Ressursid GDPR-i andmetaotlusele vastamiseks](../../dev-itpro/gdpr/gdpr-home-page.md)
-

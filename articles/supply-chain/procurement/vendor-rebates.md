@@ -1,13 +1,13 @@
 ---
 title: Hankija tagasimaksed
-description: "Selles teemas antakse ülevaade kõige levinumatest ülesannetest, mida on vaja teha hankija tagasimaksetega töötamisel. Hankija tagasimaksed aitavad ettevõtetel tarnijate tagasimakseprogramme paremini hallata, automatiseerides toiminguid, mis on vajalikud teenitud tagasimaksete haldamiseks, jälgimiseks ja nõudmiseks."
+description: Selles teemas antakse ülevaade kõige levinumatest ülesannetest, mida on vaja teha hankija tagasimaksetega töötamisel. Hankija tagasimaksed aitavad ettevõtetel tarnijate tagasimakseprogramme paremini hallata, automatiseerides toiminguid, mis on vajalikud teenitud tagasimaksete haldamiseks, jälgimiseks ja nõudmiseks.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: josaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
+ms.openlocfilehash: 90bee2925f135b3d626ba898a0e9995b5b8437ff
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ae5ee60238b951779c7790870e6c6adfba55d7d
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341070"
 ---
-
 # <a name="vendor-rebates"></a>Hankija tagasimaksed
 [!include [banner](../includes/banner.md)]
 
@@ -159,4 +158,3 @@ Hankija tagasimaksete käsitsemise protsess hõlmab mitmeid sageli tüütuid kä
 - Täpsete tagasimaksenõuete loomine
 - Eeldatava tulu ja vahekasumi koondamine pearaamatus
 - Hankija saldo ja kasumiaruande värskendamine tasumisele kuuluva hüvitisega
-

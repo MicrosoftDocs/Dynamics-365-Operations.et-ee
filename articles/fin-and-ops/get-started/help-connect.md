@@ -1,13 +1,13 @@
 ---
-title: "Spikrisüsteemi ühendamine"
-description: "Selles teemas kirjeldatakse Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponente ning antakse ülevaade nende ühendamisest ja kokkuvõte kohandatud spikri loomisest."
+title: Spikrisüsteemi ühendamine
+description: Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Finance and Operations spikrisüsteemi komponente ja antakse ülevaade nende ühendamisest ning kokkuvõte kohandatud spikri loomisest.
 author: margoc
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 673b01648127fe1d19fb3c75c4d6812c4f22c761
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317725"
 ---
-
 # <a name="connect-the-help-system"></a>Spikrisüsteemi ühendamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse Microsoft Dynamics 365 for Finance and Operationsi spikrisüsteemi komponente. Antakse ülevaade nende komponentide ühendamisest ning kokkuvõte kohandatud spikri loomisest.
+Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Finance and Operations spikrisüsteemi komponente. Antakse ülevaade nende komponentide ühendamisest ning kokkuvõte kohandatud spikri loomisest.
 
 ## <a name="help-architecture"></a>Spikri arhitektuur
 
@@ -44,7 +43,7 @@ Järgmisel joonisel on näidatud Finance and Operationsi spikrisüsteemi osad. T
 ## <a name="connecting-the-help-system"></a>Spikrisüsteemi ühendamine
 
 > [!NOTE]
-> Vahekaart **Tegevusjuhised** pole praegu rakendustes Microsoft Dynamics 365 for Talent ja Microsoft Dynamics 365 for Retail saadaval. Tegeleme praegu selle funktsiooni lubamisega mõnes tulevases väljaandes. Tegevusjuhised rakenduse Talent jaotises Alustamine jäävad kättesaadavaks, hõlmates põhifunktsioone. Protseduurispikker on saadaval ka lehel docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) nii rakenduse Retail kui ka Talent puhul.
+> Vahekaart **Tegevusjuhised** ei ole praegu rakendustes Microsoft Dynamics 365 for Talent ega Microsoft Dynamics 365 for Retail saadaval. Tegeleme praegu selle funktsiooni lubamisega mõnes tulevases väljaandes. Tegevusjuhised rakenduse Talent jaotises Alustamine jäävad kättesaadavaks, hõlmates põhifunktsioone. Protseduurispikker on saadaval ka lehel docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) nii rakenduse Retail kui ka Talent puhul.
 
 Lehel **Süsteemiparameetrid** saavad süsteemiadministraatorid spikrisüsteemi osad juurutamiseks ühendada.
 
@@ -102,4 +101,3 @@ Microsoft pakub tehnilist ülevaadet ja näidiskoodi, mis kirjeldavad kohandatud
 [Tegevuse salvestaja ülevaade](../../dev-itpro/user-interface/task-recorder.md)
 
 [Kuidas luua tegevuse salvestist dokumentide või koolitusena kasutamiseks](../../dev-itpro/user-interface/task-recorder-training-docs.md)
-

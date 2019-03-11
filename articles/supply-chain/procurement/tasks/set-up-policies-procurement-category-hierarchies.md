@@ -1,13 +1,13 @@
---- 
+---
 title: Hankekategooria hierarhiate poliitikate seadistamine
 description: Kasutage seda protseduuri, et seadistada reeglid kategooria toodete tellimiseks.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d1fdf357466de12bd0188fc43cd266c67af762c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 50764f99be04d27e04047824f870e724336cb452
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323153"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Hankekategooria hierarhiate poliitikate seadistamine
 
@@ -58,5 +58,4 @@ Kasutage seda protseduuri, et seadistada reeglid kategooria toodete tellimiseks.
     * Valige reegel, et juhtida, milliseid hankijaid võib taotluste loomisel kategooriale valida.  
 7. Klõpsake valikut Sule.
     * Teie määratletud poliitikareeglid on olnud taotlustele tüübiga Tarbimine. Kui soovite määratleda poliitikad taotlustele tüübiga Täiendamine, tuleb luua reegel poliitikareegli tüübile nimega Täiendamise kategooria juurdepääsupoliitika reegel.  
-
 

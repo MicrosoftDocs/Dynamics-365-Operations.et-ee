@@ -1,13 +1,13 @@
 ---
-title: "Tööleheridade ja dokumentide avaldamine Excelist"
-description: "See teema selgitab, kuidas sisestada ja avaldada päevaraamatute ridasid Microsoft Excelist. See sisaldab ka teavet mitmesuguste mallide kohta, mida sisestatava kande tüübist olenevalt kasutada saate."
+title: Tööleheridade ja dokumentide avaldamine Excelist
+description: See teema selgitab, kuidas sisestada ja avaldada päevaraamatute ridasid Microsoft Excelist. See sisaldab ka teavet mitmesuguste mallide kohta, mida sisestatava kande tüübist olenevalt kasutada saate.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36eed913e658433b9200043163aad38521381be2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321037"
 ---
-
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Tööleheridade ja dokumentide avaldamine Excelist
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,7 @@ Kasutajad saavad sisestada ja avaldada finantstöölehtede ridu Microsoft Exceli
 | Arve tööleht          | Toetatakse järgmisi. Kontod: Hankija Vastaskonto: Kontsernisisene pearaamat.                                                      | AP arve tööleht                                                                      |
 | Hankija arve           |                                                                                                                         | Hankija arve                                                                          |
 | Kliendiarvete tööleht | Toetatakse järgmisi. Konto: Kliendi Vastaskonto: Kontsernisisene pearaamat.                                                     | Päevaraamat                                                                         |
-| Vabas vormis arve        |                                                                                                                         | Klõpsake lehel **Vabas vormis arve** valikut **Ava Excelis** (Microsoft Office’i ikoon). |
+| Vabas vormis arve        |                                                                                                                         | Klõpsake lehel **Vabas vormis arve** käsku **Ava Excelis** (Microsoft Office’i ikoon). |
 | Põhivarade tööleht     | Pearaamatu, panga, kliendi või hankija vara. Kontsernisisest ei toetata.                                               | Põhivara tööleht                                                                     |
 | Hankija maksetööleht   | Toetatakse järgmisi. Konto: Hankija Vastaskonto: Pearaamat, Kontsernisisene pank.                                                 | Hankija maksetööleht                                                                  |
 | Kliendimaksete tööleht | Toetatakse järgmisi. Konto: Kliendi Vastaskonto: Pearaamat, Kontsernisisene pank.                                               | Kliendimaksete tööleht                                                                |
@@ -50,8 +49,7 @@ Kasutajad saavad sisestada ja avaldada finantstöölehtede ridu Microsoft Exceli
 
 Kui read on avaldatud, siis neid kontrollitakse, veendumaks, et need vastavad finantstöölehtedel seadistatud reeglitele. Pärast ridade avaldamist saavad kasutajad redigeerida või sisestada kandeid Microsoft Dynamics 365 for Finance and Operationsist. 
 
-Finantsdimensioonide lisamiseks mallile on vajalikud täiendavad muudatused. Lisateavet leiate jaotisest [Dimensioonide lisamine Microsoft Exceli mallile](../../dev-itpro/financial/add-dimensions-excel-templates.md). Pärast seda, kui üksusele on dimensioonid lisatud, on need Exceli kujundajas saadaval ja neid saab mallile lisada.
-
+Finantsdimensioonide lisamiseks mallile on vajalikud täiendavad muudatused. Lisateavet vt teemast [Dimensioonide lisamine Microsoft Exceli mallile](../../dev-itpro/financial/add-dimensions-excel-templates.md). Pärast seda, kui üksusele on dimensioonid lisatud, on need Exceli kujundajas saadaval ja neid saab mallile lisada.
 
 
 

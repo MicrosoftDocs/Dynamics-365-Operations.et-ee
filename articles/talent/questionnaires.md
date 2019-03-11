@@ -1,13 +1,13 @@
 ---
-title: "Küsimustikud"
-description: "Selles teemas on üldine teave küsimustike kohta ja lingid täpsema teabe juurde. Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel. Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida."
+title: Küsimustikud
+description: Selles teemas on üldine teave küsimustike kohta ja lingid täpsema teabe juurde. Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel. Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304013"
 ---
-
 # <a name="questionnaires"></a>Küsimustikud
 
 [!include [banner](includes/banner.md)]
 
 Selles teemas on üldine teave küsimustike kohta ja lingid täpsema teabe juurde. Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel. Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida. 
 
-Saate kohandada küsimustikku nii, et see vastaks teie konkreetsetele nõudmistele, kasutades mitmesuguseid rakenduse Microsoft Dynamics 365 for Finance and Operations funktsioone. Siin on mõned näited küsimustike kasutamise kohta.
+Saate kohandada küsimustikku nii, et see vastaks teie konkreetsetele nõudmistele, kasutades mitmesuguseid Microsoft Dynamics 365 for Finance and Operationsi funktsioone. Siin on mõned näited küsimustike kasutamise kohta.
 
 -   töötajate ja kandidaatide ametialaste oskuste kontrollimine,
 -   Saate hinnata, kas kursusel osalejad on kursuse materjali omandanud.
@@ -58,5 +57,4 @@ Järgmises tabelis on lingid küsimustike põhitoimingute teabe juurde. Lisateab
 [Küsimustike laialisaatmine ja täitmine](distribute-questionnaires.md)
 
 [Küsimustike tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
-
 

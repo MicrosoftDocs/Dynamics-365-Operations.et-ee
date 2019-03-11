@@ -1,13 +1,13 @@
 ---
-title: "Vöötkoodide skannimine kaameraga Microsoft Dynamics 365 for Finance and Operationsi moodulis Ladustamine"
-description: "Selles teemas selgitatakse, kuidas seadistada Microsoft Dynamics 365 for Finance and Operationsi moodulit Ladustamine nii, et see võimaldaks mobiilse seadme kaameraga vöötkoode skannida."
+title: Vöötkoodide skannimine kaamera abil teenuses Dynamics 365 for Finance and Operations – Ladustamine
+description: Selles teemas selgitatakse, kuidas seadistada Dynamics 365 for Finance and Operationsi moodulit Ladustamine nii, et see võimaldaks mobiilse seadme kaameraga vöötkoode skannida.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSMobileAppField
 audience: Application User
 ms.reviewer: josaw
@@ -17,27 +17,26 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: e78d0a82d3ca66a6912ea1a9517296ca241edf1c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: f7fe3ab07578b09822fbfeaa4b07331b79f13610
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/09/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319427"
 ---
-
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Vöötkoodide skannimine kaameraga Microsoft Dynamics 365 for Finance and Operationsi moodulis Ladustamine
+# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Vöötkoodide skannimine kaamera abil teenuses Dynamics 365 for Finance and Operations – Ladustamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada Microsoft Dynamics 365 for Finance and Operationsi moodulit Ladustamine nii, et see võimaldaks mobiilse seadme kaameraga vöötkoode skannida. 
+Selles teemas selgitatakse, kuidas seadistada Dynamics 365 for Finance and Operationsi moodulit Ladustamine nii, et see võimaldaks mobiilse seadme kaameraga vöötkoode skannida. 
 
 ## <a name="prerequisites"></a>Eeltingimused
-Selle funktsiooni kasutamiseks peab teil olema installitud mooduli Ladustamine versioon 1.2.0.0 ja teie seadmel peab olema kaamera. Pärast värskendamist rakenduse avamisel palutakse teilt luba, et Microsoft Dynamics 365 for Finance and Operationsi moodul Ladustamine võib kaamerat kasutada. Kui seadmel ei ole kaamerat, siis viibet ei kuvata ja te ei saa kaamerat skannerina kasutada. 
+Selle funktsiooni kasutamiseks peab teil olema installitud mooduli Ladustamine versioon 1.2.0.0 ja teie seadmel peab olema kaamera. Pärast värskendamist rakenduse avamisel palutakse teilt lubada rakendusel Dynamics 365 for Finance and Operations – Ladustamine kaamerat kasutada. Kui seadmel ei ole kaamerat, siis viibet ei kuvata ja te ei saa kaamerat skannerina kasutada. 
 
 ## <a name="setup"></a>Seadistamine
 Rakenduse Ladustamine kuvasätetes saate valida, kas kaamerat vöötkoodide skannimiseks kasutada. Kui lubate valiku **Kaamera kasutamine skannerina**, saate kaamerat kasutada igas sisendväljas, mille eelistatud sisestusrežiim on seatud väärtusele **Skannimine**. 
 
-Selleks, et kontrollida, kas sisendväli peaks olema skannitav, seadke Dynamics 365 for Finance and Operationsi lehel **Väljanimed rakenduses Ladustamine** **Eelistatud sisestusrežiim** väärtusele **Skannimine**. Selle suvandi valimisel saab rakenduses Ladustamine kasutada kaamerat skannimiseks. Teavet, kuidas rakenduses Ladustamine väljanimesid konfigureerida, leiate teemast [Väljanimede konfigureerimine rakenduses Ladustamine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+Selleks et määrata, et sisendväli peab olema skannitav, valige rakenduses Dynamics 365 for Finance and Operations lehel **Laorakenduse väljanimed** rakenduses suvandi **Eelistatud sisestusrežiim** sätteks **Skannimine**. Selle suvandi valimisel saab rakenduses Ladustamine kasutada kaamerat skannimiseks. Teavet, kuidas rakenduses Ladustamine väljanimesid konfigureerida, leiate teemast [Väljanimede konfigureerimine rakenduses Ladustamine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
 
 ## <a name="supported-bar-code-formats"></a>Toetatud vöötkoodivormingud
 Toetatud on levinuimad vöötkoodivormingud, sh kood 128, kood 39, kood 93, EAN-8, EAN-13, UPC-E, UPC-A ja QR-koodid. 
@@ -55,5 +54,4 @@ Kaameraleht käivitub igal lehel, kus sisestusvälja eelistatud sisestusrežiim 
 Kui klõpsate kaameralehel kaamera nuppu, kuvatakse see vöötkoodi tuvastamise ajal tuhmina. Kui vöötkoodi 5 sekundi jooksul ei tuvastata, aegub protsess ja kaameranupp muutub uuesti kättesaadavaks. Seejärel saate proovida vöötkoodi uuesti skannida.
 
 Kaamerat vöötkoodile suunates hoidke parima tulemuse saavutamiseks vöötkood sulgudega joondatuna. Kui vöötkoodi skannimine õnnestub, läheb tulemus töötlemisele ja teid suunatakse järgmise etapi juurde. Kui järgmine etapp sisaldab järjekordset sisendvälja, mille eelistatud sisestusrežiim on seatud väärtusele Skannimine, käivitub kaameraleht uuesti. Kui järgmine etapp ei sisalda skannimisvälja, siis kaameraleht ei käivitu.
-
 

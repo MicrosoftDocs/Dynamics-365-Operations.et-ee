@@ -1,35 +1,30 @@
 ---
+# required metadata
 title: Finantshalduse avaleht
-description: See teema annab loendi finantshalduse funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations.
+description: Selles teemas on teenuse Microsoft Dynamics 365 for Finance and Operations finantshalduse funktsioonide spikriteemade ja muude ressursside loend.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations
+ms.search.scope: 'Core, Operations'
 ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
-ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
 ---
 
 # <a name="financial-management-home-page"></a>Finantshalduse avaleht
 
 [!include [banner](includes/banner.md)]
 
-See teema annab loendi finantshalduse funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations. 
+Selles teemas on teenuse Microsoft Dynamics 365 for Finance and Operations finantshalduse funktsioonide spikriteemade ja muude ressursside loend. 
 
 Valige funktsiooniala, et selle kohta rohkem teavet saada.
 
@@ -56,11 +51,9 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
 
 ### <a name="blogs"></a>Ajaveebid
 
-Ostureskontro ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-Palju postitusi finantshalduse kohta leiate ka [Microsoft Dynamics AX-i tootemeeskonna ajaveebist](https://blogs.msdn.microsoft.com/dax/). Kuigi mõni neist sisestustest on kirjutatud toote vanema versiooni jaoks, kehtivad samad mõisted sellegipoolest ja protseduurid on praeguses versioonis sarnased.
-
-[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on rakenduses MBS Operations uut ja põnevat.
+- [Microsoft Dynamics 365 ajaveeb](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+- [Ajaveeb Financials](https://community.dynamics.com/365/financeandoperations/b/financials) 
+- [Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
 ### <a name="task-guides"></a>Tegevuse juhised
 Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operations. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.
@@ -72,5 +65,4 @@ Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanali
 ### <a name="countryregion-functionality"></a>Riigi/regiooni funktsionaalsus
 
 Riigi/regiooni määrused mõjutavad maksuhäälestus ja finantshalduse muid valdkondi. Vt spikri jaotist [Lokaliseerimine ja regulatiivsed funktsioonid](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json), et saada lisateavet riigi-/regioonipõhise funktsionaalsuse kohta.
-
 

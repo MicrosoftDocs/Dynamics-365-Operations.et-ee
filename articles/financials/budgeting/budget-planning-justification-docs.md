@@ -1,13 +1,13 @@
 ---
-title: "Eelarve plaanimise põhjendusdokumendid"
-description: "Põhjendusdokumendid pakuvad eelarvetaotlejatele teatud eelarve vajalikkust põhjendavaid selgitusi."
+title: Eelarve plaanimise põhjendusdokumendid
+description: Põhjendusdokumendid pakuvad eelarvetaotlejatele teatud eelarve vajalikkust põhjendavaid selgitusi.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cae6334cd39a91eaf3a2a79f30edc705f484bc8c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333572"
 ---
-
 # <a name="budget-planning-justification-documents"></a>Eelarve plaanimise põhjendusdokumendid
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,7 @@ Eelarvehaldur loob Microsoft Wordis eelarveplaani malli ja määrab selle praegu
 4.  Klõpsake Wordi paremal paanil valikut **Lisa serveriteave**.
 5.  Tippige või kleepige serveri URL ja klõpsake **OK**.
 
-##### <a name="define-the-justification-template-in-microsoft-word"></a>Põhjendusmalli määratlemine Microsoft Wordis
+##### <a name="define-the-justification-template-in-microsoft-word"></a>Põhjenduse malli määratlemine Microsoft Wordis
 
 1.  Klõpsake Microsoft Dynamics Office’i lisandmoodulis pärast sisselogimist nuppu **Kujundus**.
 2.  Päiseteabe jaoks kasutage nuppu **Lisa välju**.
@@ -69,7 +68,6 @@ Eelarvehaldur loob Microsoft Wordis eelarveplaani malli ja määrab selle praegu
 1.  Looge Finance and Operationsis uus eelarveplaan või avage olemasolev.
 2.  Valige ripploendist **Põhjendus** suvand **Uue põhjenduse loomine**.
 3.  Pärast üksikasjade sisestamist valige rippmenüüst **Põhjendus** isikupärastatud dokumendi üleslaadimine.
-
 
 
 

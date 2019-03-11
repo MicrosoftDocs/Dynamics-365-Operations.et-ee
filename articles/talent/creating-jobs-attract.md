@@ -1,32 +1,31 @@
 ---
-title: "Tööde loomine, kinnitamine ja sisestamine Attractis"
-description: "Selles teemas kirjeldatakse Attarcti töö elemente. Lisaks selgitatakse, kuidas tööd luua."
+title: Tööde loomine, kinnitamine ja sisestamine Attractis
+description: Selles teemas kirjeldatakse Attarcti töö elemente. Lisaks selgitatakse, kuidas tööd luua.
 author: josaw
 manager: AnnBe
 ms.date: 12/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
 ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304075"
 ---
-
 # <a name="create-approve-and-post-jobs-in-attract"></a>Tööde loomine, kinnitamine ja sisestamine Attractis
 
 [!include [banner](includes/banner.md)]
@@ -45,7 +44,7 @@ Vahekaart **Töö üksikasjad** sisaldab üksikasju töökohustuste ja atribuuti
 
 Välja **Vabade kohtade arv** vaikeväärtuseks **1**. Kuid te saate selle väärtust muuta. Kui tööle on pakkumine koostatud, vähendatakse välja **Vabade kohtade arv** väärtust.
 
-Kui halduskeskuses on ametikoha haldamine sisse lülitatud, on saadaval otsing **Värskenda ametikohti**. See otsing loeb teenuse Common Data Service for Apps JobPosition üksust ja annab vastuseks loendi ametikohtadest, mida antud tööle saab valida. Kui valitud ametikohtade arv ületab vabade ametikohtade arvu, kuvatakse hoiatus. Samuti kuvatakse hoiatus, kui ametikohta kasutatakse mitme tööga.
+Kui halduskeskuses on ametikoha haldamine sisse lülitatud, on saadaval otsing **Värskenda ametikohti**. See otsing loeb teenuse Common Data Service for Apps üksust JobPosition ja annab vastuseks loendi ametikohtadest, mida selle töö puhul saab valida. Kui valitud ametikohtade arv ületab vabade ametikohtade arvu, kuvatakse hoiatus. Samuti kuvatakse hoiatus, kui ametikohta kasutatakse mitme tööga.
 
 > [!NOTE]
 > Ametikoha haldus on saadaval tervikliku värbamise lisandmooduli korral.
@@ -127,7 +126,7 @@ Pärast töö salvestamist saab selle kinnitamiseks esitada. Järgnev tabel loet
 
 Tööde loendis, saate filtreerida tööde olekuid.
 
-Kinnitusi saab saata ettevõttes mistahes Microsoft Azure Active Directory (Azure AD) kasutajale. Kinnitused saadakse paralleelselt kõigile inimestele, kes on kinnitajate loendis. Pärast töö kinnitamist saab selle aktiveerida.
+Kinnitusi saab saata ettevõttes mis tahes Microsoft Azure Active Directory (Azure AD) kasutajale. Kinnitused saadakse paralleelselt kõigile inimestele, kes on kinnitajate loendis. Pärast töö kinnitamist saab selle aktiveerida.
 
 Kinnitajatena loetletud inimesed saavad Attracti teatise, mis annab teada, et neil on üksus kinnitamiseks. Kinnitamise üksus ilmub ka armatuurlaua jaotisesse **Teile määratud**. Pärast seda, kui keegi töö aktsepteerib või kinnitab, saab värbamistöörühm teatise. Lõpuks saab värbamistöörühm teatise, kui töö on kinnitatud.
 
@@ -162,11 +161,10 @@ Töö loomiseks toimige järgmiselt.
 11. Valige **Salvesta**.
 12. Kui valisite kinnitusprotsessi kasutamise, toimige järgmiselt.
 
-    1. Valige **+ Lisa kinnitaja** ja sisestage kasutaja, kellel on Azure AD konto. Saate lisada mitu kinnitajat.
+    1. Valige suvand **+ Lisa kinnitaja** ja sisestage kasutaja, kellel on Azure AD konto. Saate lisada mitu kinnitajat.
     2. Valige **Saada kinnitajatele**.
 
     Töö väli **Töö olek** määratakse **Ootel** peale. Pärast välja **Töö olek** muutumist olekusse **Kinnitatud**, saab töö aktiveerida.
 
 13. Töö aktiveerimiseks valige **Aktiveeri**.
 14. Töö sisestamiseks avage **Töökuulutused**, ja seejärel valige Talent Careers saidi või LinkedIni all **Sisesta kohe**.
-

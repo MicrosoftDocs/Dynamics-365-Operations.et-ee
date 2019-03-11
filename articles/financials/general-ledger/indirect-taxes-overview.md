@@ -1,13 +1,13 @@
 ---
-title: "Käibemaksu ülevaade"
-description: "Selles teemas antakse ülevaade käibemaksu süsteemist. Selgitatakse käibemaksu seadistamise elemente ja kuidas need koos töötavad."
+title: Käibemaksu ülevaade
+description: Selles teemas antakse ülevaade käibemaksu süsteemist. Selgitatakse käibemaksu seadistamise elemente ja kuidas need koos töötavad.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 11fe694af6180419460ba5dbf4c55f760a38f987
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311354"
 ---
-
 # <a name="sales-tax-overview"></a>Käibemaksu ülevaade
 
 [!include [banner](../includes/banner.md)]
@@ -73,7 +72,7 @@ Iga kande puhul (müügi-/ostudokumendi read, töölehed jne) tuleb sisestada k�
 Iga kande puhul saate vaadata arvutatud käibemaksu, avades lehe **Käibemaksukanne**. Saate vaadata dokumendi rea või kogu dokumendi käibemaksu. Teatud dokumentide (nt hankija arve ja päevaraamatute puhul) saate arvutatud käibemaksu korrigeerida, kui originaaldokumendil on näha erinevad summad.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Käibemaksu tasakaalustamine ja aruandlus
-Käibemaksu kohta tuleb esitada aruanne ja maksta see maksuasutustele regulaarsete ajavahemike järel (kord kuus, kord kvartalis jne). Microsoft Dynamics 365 for Finance and Operationsis on funktsioon, mis võimaldab maksukontode tasakaalustamist ajavahemiku kohta tasakaalustab need käibemaksu tasakaalustuskontoga, nagu pearaamatu sisestusgruppides määratud. Sellele funktsioonile pääseb juurde lehel **Käibemaksu tasakaalustamine ja sisestamine**. Peate määrama käibemaksu tasakaalustusperioodi, mille eest käibemaks tasakaalustada tuleb. 
+Käibemaksu kohta tuleb esitada aruanne ja maksta see maksuasutustele regulaarsete ajavahemike järel (kord kuus, kord kvartalis jne). Microsoft Dynamics 365 for Finance and Operationsis on funktsioon, mis võimaldab maksukontode tasakaalustamist ajavahemiku kohta ja tasakaalustab need käibemaksu tasakaalustuskontoga, nagu on määratud pearaamatu sisestusgruppides. Sellele funktsioonile pääseb juurde lehel **Käibemaksu tasakaalustamine ja sisestamine**. Peate määrama käibemaksu tasakaalustusperioodi, mille eest käibemaks tasakaalustada tuleb. 
 
 Pärast käibemaksu tasumist tuleb käibemaksu tasakaalustuskonto saldo tasakaalustada pangakontoga. Kui käibemaksu tasakaalustusperioodile määratud käibemaksuasutus on seotud hankija kontoga, sisestatakse käibemaksusaldo avatud hankija arvena ja selle saab lisada tavalisse maksesoovitusse.
 
@@ -97,4 +96,3 @@ Kuid kui kasutate tingimuslikku käibemaksu, siis tasakaalustatakse summa maksuh
 
 
 Lisateavet leiate teemast [Kinnipeetava maksu määramine](tasks/set-up-withholding-tax.md).
-

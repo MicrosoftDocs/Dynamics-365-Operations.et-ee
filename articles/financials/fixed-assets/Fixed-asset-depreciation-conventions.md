@@ -1,13 +1,13 @@
 ---
-title: "Põhivara kulumiarvestusreeglid"
-description: "Selles teemas antakse ülevaade põhivarade kulumiarvestusreeglitest."
+title: Põhivara kulumiarvestusreeglid
+description: Selles teemas antakse ülevaade põhivarade kulumiarvestusreeglitest.
 author: saraschi2
 manager: AnnBe
 ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff8575749a33321450ea61fe1f01105c005e9092
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c69fd798c2e978935a63b079fb11c68d8555594c
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337436"
 ---
-
 # <a name="fixed-asset-depreciation-conventions"></a>Põhivara kulumiarvestusreeglid
 
 [!include [banner](../includes/banner.md)]
@@ -45,5 +44,4 @@ Kulumiarvestusreegleid saab määrata põhivaragrupi raamatu häälestuseks. Sel
 | Kuu keskel (kuu 15. päev) |                                                                                                                                                        Vara kasutuselevõtmise aasta kohta kulumi mahaarvamiseks korrutage täisaasta kulum murruga. Selle murru lugeja (Ülemine number) on täis, pluss 1/2 või (0,5) paikneb aasta kuude arv. Nimetaja (alumine number) on 12. Kui likvideerite vara enne taasteperioodi lõppu, kasutage sama meetodit likvideerimise aastal kulumi mahaarvestamiseks.                                                                                                                                                        |
 | Poolaasta (aasta algus) |                                                                                                                                                                                                                                                          Aasta esimesel poolel olevate <strong>teenusesse saatmise</strong> kuupäevadega varade kulumiarvestus algab aasta (täisaasta) esimesel päeval. Aasta teisel poolel olevate <strong>teenusesse saatmise</strong> kuupäevadega varade kulumiarvestus algab aasta keskel.                                                                                                                                                                                                                                                          |
 |   Poolaasta (järgmine aasta)   |                                                            Aasta esimesel poolel olevate <strong>teenusesse saatmise</strong> kuupäevadega varade kulumiarvestus algab aasta (täisaasta) esimesel päeval. Aasta teisel poolel olevate <strong>teenusesse saatmise</strong> kuupäevadega varade kulumiarvestus algab järgmise aasta esimesel päeval. Aasta esimesel poolel tühistatavate varade kulumiarvestus tühistatakse eelmise aasta viimasel päeval. Käesoleval aastal postitatud kulumiarvestus peab olema tühistatud või korrigeeritud. Aasta teisel poolel tühistatavate varade kulumiarvestus tühistatakse aasta viimasel päeval.                                                            |
-
 

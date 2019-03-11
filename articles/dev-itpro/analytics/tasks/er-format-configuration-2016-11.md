@@ -1,13 +1,13 @@
---- 
+---
 title: Elektrooniline aruandlus. Vormingu konfiguratsiooni loomine (november 2016)
-description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad vormindada konfiguratsiooni elektroonilise aruandluse (ER) puhul."
+description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad vormindada konfiguratsiooni elektroonilise aruandluse (ER) puhul.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
+ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377545"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>Elektrooniline aruandlus. Vormingu konfiguratsiooni loomine (november 2016)
 
@@ -35,8 +35,10 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 2. Klõpsake valikut **Aruandluse konfiguratsioonid**.
 3. Valige puul suvand **Maksed (lihtsustatud mudel)**.
 4. Klõpsake valikut **Loo konfiguratsioon**, et avada rippdialoog.
+
  > [!NOTE]
  > Kui te ei näe valikut **Loo konfiguratsioon**, peate lubama kujundusrežiimi lehel **Elektroonilise aruandluse parameetrid**. 
+ 
 5. Sisestage väljale **Uus suvand** **Andmemudelil PaymentModel põhinev vorming**.
 6. Sisestage väljale **Nimi** suvand **BACS (UK fiktiivne)**.
 7. Sisestage väljale **Kirjeldus** suvand **BACS-i hankija maksevorming (UK fiktiivne)**.
@@ -44,9 +46,6 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
     * Määratleda saab elektroonilise dokumendi kindla vormingu. Jätke see väli tühjaks, kui soovite valida vormingu käitusajal.  
 8. Sisestage või valige väärtus väljal **Andmemudeli definitsioon**.
 9. Klõpsake **Loo konfiguratsioon**. Uus konfiguratsioon on loodud. Mustandversiooni saab kasutada vormingu kujunduse salvestamiseks elektrooniliste dokumentide haldamise puhul.  
- > [!NOTE]
- > Kui te ei näe valikut **Loo konfiguratsioon**, peate lubama kujundusrežiimi lehel **Elektroonilise aruandluse parameetrid**.
-
 
 ## <a name="design-the-format-of-an-electronic-document"></a>Elektroonilise dokumendi vormingu kujundus
 1. Klõpsake valikut **Kujundaja**.
@@ -159,5 +158,4 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 41. Klõpsake nupul **OK**.
 42. Klõpsake nuppu **Salvesta**.
 43. Sulgege leht.
-
 

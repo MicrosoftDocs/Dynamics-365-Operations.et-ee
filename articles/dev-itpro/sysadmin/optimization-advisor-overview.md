@@ -1,33 +1,32 @@
 ---
-title: "Optimeerimise nõustaja"
-description: "Selles teemas kirjeldatakse, kuidas kasutada optimeerimise nõustajat, et aidata tagada Microsoft Dynamics 365 Finance and Operationsi optimaalne konfiguratsioon."
+title: Optimeerimise nõustaja
+description: Selles teemas kirjeldatakse, kuidas kasutada optimeerimise nõustajat, et aidata tagada Microsoft Dynamics 365 Finance and Operationsi optimaalne konfiguratsioon.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 206b8a23a52d412d1810b8a355b09ecc461f00b3
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335619"
 ---
-
-# <a name="optimization-advisor"></a>Optimeerimise nõustaja
+# <a name="optimization-advisor"></a>Optimeerimisnõunik
 
 [!include [banner](../includes/banner.md)]
 
@@ -95,5 +94,4 @@ Konkreetsete reeglite hindamise inaktiveerimiseks valige võimalus, mis reegliga
 
 [Uute reeglite loomine](./create-rules-optimization-advisor.md)
 
-[Lahenduse Dynamics 365 for Finance and Operations optimeerimise nõustaja (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
+[Optimeerimise nõustaja rakenduses Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

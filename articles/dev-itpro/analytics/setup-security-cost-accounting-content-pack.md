@@ -1,13 +1,13 @@
 ---
-title: "Kuluarvestuse analüüsi Power BI sisu jaoks turbe seadistamine"
-description: "Selles teemas selgitatakse, kuidas saate kuluarvestuses juurdepääsutaseme turbe Microsoft Power BI-s reatasemel turbeks muuta. See funktsioon aitab tagada, et kasutajad näevad ainult Power BI andmeid, millele neil on juurdepääs."
+title: Kuluarvestuse analüüsi Power BI sisu jaoks turbe seadistamine
+description: Selles teemas selgitatakse, kuidas saate kuluarvestuses juurdepääsutaseme turbe Microsoft Power BI-s reatasemel turbeks muuta. See funktsioon aitab tagada, et kasutajad näevad ainult Power BI andmeid, millele neil on juurdepääs.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: d1cd378a58d4a4fe4388238f97e84a8e2b07937b
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352869"
 ---
-
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu jaoks turbe seadistamine
 
 [!include [banner](../includes/banner.md)]
@@ -33,13 +32,13 @@ Selles teemas selgitatakse, kuidas saate kuluarvestuses juurdepääsutaseme turb
 
 ## <a name="overview"></a>Ülevaade
 
-**Kuluarvestuse analüüsi** Microsoft Power BI sisu kasutab Power BI reatasemel turvet kasutaja juurdepääsu piiramiseks. Turve põhineb juurdepääsutaseme organisatsioonihierarhial, mis seadistatakse kuluarvestuse parameetrites. **Kuluarvestuse analüüsi** Power BI sisu kohta lisateabe saamiseks vaadake teemat [Kuluarvestuse analüüs Power BI sisu](cost-accounting-analysis-content-pack.md).
+**Kuluarvestuse analüüsi** Microsoft Power BI sisu kasutab Power BI reatasemel turvet kasutaja juurdepääsu piiramiseks. Turve põhineb juurdepääsutaseme organisatsioonihierarhial, mis seadistatakse kuluarvestuse parameetrites. **Kuluarvestuse analüüsi** Power BI sisu kohta lisateabe saamiseks vaadake teemat [Kuluarvestuse analüüsi Power BI sisu](cost-accounting-analysis-content-pack.md).
 
-## <a name="setup"></a>Häälestus
+## <a name="setup"></a>Seadistus
 Power BI-le juurdepääsutaseme turbe levitamiseks peab Power BI sisu omanik järgima neid juhiseid.
 
 > [!NOTE]
-> Power BI sisu **Kuluarvestuse analüüs** avaldav kasutaja muutub automaatselt omanikuks. Ainult omanik saab Power BI-s turvet seadistada. Lisaks ei saa mitte keegi peale omaniku näha **Kuluarvestuse analüüsi** Power BI sisus olevaid andmeid, kuni omanik lisab veebisaidile PowerBI.com teised kasutajad.
+> **Kuluarvestuse analüüsi** Power BI sisu avaldanud kasutaja muutub automaatselt omanikuks. Ainult omanik saab Power BI-s turvet seadistada. Peale selle ei saa mitte keegi peale omaniku näha **kuluarvestuse analüüsi** Power BI sisus olevaid andmeid, kuni omanik lisab veebisaidile PowerBI.com teised kasutajad.
 
 1. Definitsioonifaili avaldamine Power BI-sse.
 2. Logige saidile PowerBI.com sisse.
@@ -55,7 +54,7 @@ Power BI-le juurdepääsutaseme turbe levitamiseks peab Power BI sisu omanik jä
 Kasutajad, kes lisatakse rollile **Kuluobjekti kontroller**, näevad ainult neid andmeid, mida neil on kuluarvestuse juurdepääsutaseme organisatsioonihierarhia määratluse järgi lubatud näha.
 
 > [!NOTE]
-> Reatasemel turve kehtib rakenduses Microsoft Dynamics 365 for Finance and Operations olevatele paanidele ja aruannetele, mis manustatakse Power BI kaudu.
+> Reatasemel turve kohaldub rakenduses Microsoft Dynamics 365 for Finance and Operations paanidele ja aruannetele, mis on manustatud Power BI-st.
 
 ## <a name="updating-security"></a>Turbe värskendamine
 Kui värskendused tehakse kuluarvestuses juurdepääsutasemel turbele ja soovite, et Power BI kajastaks neid värskendusi, peate värskendama kogu kauplust **kuluarvestuse analüüsi** Power BI sisu jaoks. Pärast rakenduse Dynamics 365 for Finance and Operations kaudu üksuse kaupluse uuenduse lõpuleviimist peate uuendama artefaktid saidil PowerBI.com. Üksuse kaupluse värskenduse kohta lisateabe saamiseks vaadake teemat [Üksuse kaupluse värskendamine](power-bi-integration-entity-store.md#update-entity-store). Kui uutele kasutajatele antakse juurdepääs organisatsioonihierarhiale, peab **kuluarvestuse analüüsi** Power BI sisu omanik tegema ka üksuse kaupluse värskenduse. Lisaks peab omanik saidil PowerBI.com lisama rollile **Kuluobjekti kontroller** uusi kasutajaid, et neile rakendataks reatasemel turvet.
@@ -65,4 +64,3 @@ Eeldame, et teie organisatsioon soovib andmetele juurdepääsu piirata. Kui turb
 
 ## <a name="additional-resources"></a>Lisaressursid
 Power BI reatasemel turbe kohta lisateabe saamiseks vaadake teemat [Turbe haldamine teie Power BI mudelis](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
-

@@ -1,13 +1,13 @@
 ---
-title: "Eelarve koostamise ülevaade"
-description: "Peaaegu igal ettevõttel, mis kasutab rakendust Microsoft Dynamics 365 for Finance and Operations, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Dynamics 365 for Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist."
+title: Eelarve koostamise ülevaade
+description: Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 for Finance and Operationsis funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Dynamics 365 for Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01b7970119b9abb26570c19162e159dd05496168
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332307"
 ---
-
 # <a name="budgeting-overview"></a>Eelarve koostamise ülevaade 
 
 [!include [banner](../includes/banner.md)]
 
-Peaaegu igal ettevõttel, mis kasutab rakendust Microsoft Dynamics 365 for Finance and Operations, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Dynamics 365 for Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
+Peaaegu igal ettevõttel, mis kasutab Microsoft Dynamics 365 for Finance and Operationsis funktsiooni Finantsid, on võimalik luua aruandeid, milles võrreldakse eelarvet tegelike näitajatega. See artikkel selgitab minimaalset konfiguratsiooni, mis on nõutav Dynamics 365 for Finance and Operationsis eelarvete loomiseks või nende laadimiseks kolmanda osapoole programmist.
 
 <a name="overview"></a>Ülevaade
 --------
@@ -80,7 +79,6 @@ Eelarvehaldur saab praguse eelarve oleku üle vaadata tööruumis **Pearaamatu e
 Päringuleht **Tegelik võrreldes eelarvega** võimaldab süveneda eelarvesummade ja tegelike summade üksikasjadesse. Valige päringulehel rida ja klõpsake siis suvandit **Perioodi saldod**, et näha, kuidas eelarve ja tegelikud summad rahandusperioodil jaotuvad. Lehel **Eelarvekonto kirjed** saab süveneda eelarveregistri kirjetes oleva eelarvesumma üksikasjadesse. Leht **Üldised töölehe sisestused** avab pearaamatu kanded, mis on lisatud arvutatud summale **Tegelikud**. 
 
 Funktsiooni Eelarve planeerimine kasutav ettevõte saab luua *eelarveprognoose* ja neid kasutada tööruumis **Pearaamatu eelarved ja prognoosid**.
-
 
 
 

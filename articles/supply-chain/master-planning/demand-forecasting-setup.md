@@ -1,13 +1,13 @@
 ---
-title: "Nõudluse prognoosi seadistus"
-description: "Selles teemas kirjeldatakse seadistustoiminguid, mida tuleb nõudluse prognoosimiseks valmistumiseks teha."
+title: Nõudluse prognoosi seadistus
+description: Selles teemas kirjeldatakse seadistustoiminguid, mida tuleb nõudluse prognoosimiseks valmistumiseks teha.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330444"
 ---
-
 # <a name="demand-forecasting-setup"></a>Nõudluse prognoosi seadistus
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,7 @@ Nõudluse prognoos loob ettevõteteülesed prognoosid. Microsoft Dynamics 365 fo
 
 Kui kontsernisisese plaanimisgrupi liikmetele ei ole määratud ühtki kauba eraldamisvõtit, arvutatakse nõudluse prognoos vaikimisi kõigile kaupadele, mis on määratud kõigile kauba eraldamisvõtmetele kõigis Finance and Operationsi ettevõtetes. Ettevõtte ja kauba eraldamisvõtmete täiendavad filtreerimissuvandid on saadaval leheküljel **Statistilise alusprognoosi loomine**. 
 
-Vaadake üle prognoositavate kaupade arv. Mittevajalike kaupadega võivad Microsoft Azure'i masinõppe kasutamisel suurenenud kulud kaasneda.
+Vaadake üle prognoositavate kaupade arv. Mittevajalike kaupadega võivad Microsoft Azure’i masinõppe kasutamisel suurenenud kulud kaasneda.
 
 ## <a name="demand-forecasting-parameters"></a>Nõudluse prognoosimise parameetrid
 Nõudluse prognoosimise parameetrite seadistamiseks minge jaotisse **Koondplaneerimine** &gt; **Seadistus** &gt; **Nõudluse prognoosimise parameetrid**. Seadistus on globaalne, kuna nõudluse prognoosimine toimub ettevõteteüleselt. Teisisõnu rakendatakse seadistust kõigis ettevõtetes. 
@@ -64,7 +63,7 @@ Nõudluse prognoosimiseks kasutatavasse dimensioonide loendisse saate igal ajal 
 
 Kõik kaubad ei käitu nõudluse prognoosimise perspektiivist samal viisil. Sarnased kaubad saab koondada ühe kauba eraldamisvõtme alla ning seada kauba eraldamisvõtmeti parameetreid, nagu kande tüübid ja prognoosi meetodi seadistus. Klõpsake lehekülje **Nõudluse prognoosimise parameetrid** vasakul paanil valikut **Kauba eraldamisvõtmed**. 
 
-Prognoosi loomiseks kasutab Finance and Operations masinõppe veebiteenust. Teenusega ühenduse loomiseks peate Microsoft Azure Machine Learning Studiosse sisselogimiseks andma Finance and Operationsile järgmist teavet:
+Prognoosi loomiseks kasutab Finance and Operations masinõppe veebiteenust. Teenusega ühenduse loomiseks peate Microsoft Azure Machine Learning Studiosse sisselogimiseks esitama Finance and Operationsile järgmise teabe:
 
 -   veebiteenuse rakenduse programmeerimisliidese (API) võti;
 -   veebiteenuse lõpp-punkti URL;
@@ -86,7 +85,6 @@ Finance and Operationsi nõudluse prognoosimise teenuse jaoks konfigureeritavate
 [Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md)
 
 [Alusprognoosis käsitsi korrigeerimiste tegemine](manual-adjustments-baseline-forecast.md)
-
 
 
 

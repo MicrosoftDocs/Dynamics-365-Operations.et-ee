@@ -1,13 +1,13 @@
 ---
-title: "Äriprotsesside formaliseerimine"
-description: "See teema selgitab, kuidas saate kasutada äriprotsessi funktsiooni, et luua äriprotsessi malli protsesside jaoks, mis tuleb teie organisatsioonis läbi viia."
+title: Äriprotsesside formaliseerimine
+description: See teema selgitab, kuidas saate kasutada äriprotsessi funktsiooni, et luua äriprotsessi malli protsesside jaoks, mis tuleb teie organisatsioonis läbi viia.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 01/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: PersonnelBusinessProcessGenericWorkspace, BusinessProcessGenericTemplateListpage, BusinessProcessGenericMyTemplates, BusinessProcessGroupAssignment
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: ee4035f3156a91faecdecba45289dbb1ca6e947a
 ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304111"
 ---
 # <a name="formalize-business-processes"></a>Äriprotsesside formaliseerimine
 
@@ -43,7 +43,7 @@ Igale äriprotsessile saate määrata protsessi omaniku. Protsessi omanik näeb 
 Protsessi omanik ei saa luua uusi äriprotsesse või äriprotsessi malle ega kustutada aktiivseid äriprotsesse või äriprotsessi malle.
 
 ## <a name="tasks"></a>Ülesanded
-Äriprotsess koosneb sageli mitmest ülesandest. Mõnd ülesannet, näiteks ettevõttesiseste kursuste pakkumiste ülevaatamist, saab lõpule viia rakenduses Microsoft Dynamics 365 for Talent[?]. Sel juhul valitakse väljal **Ülesande link** suvand. Muud ülesanded võivad hõlmata veebisaidi lehtede ülevaatamist ja täitmist. Sel juhul valitakse väljal **Ülesande link** **URL**, misjärel saab sisestada veebiaadressi. Saate sisestada nii välis- kui ka sisesaitide URL-e. Samuti saate luua ülesandeid tegevustele, mida teete käsitsi, näiteks struktuuride juurdepääsetavuse ülevaatamine. Sel juhul pole ülesande link vajalik. Sedasi on võimalik jälgida mitmesuguseid ülesandeid ulatusliku protsessi abil.
+Äriprotsess koosneb sageli mitmest ülesandest. Mõnd ülesannet, näiteks ettevõttesiseste kursuste pakkumiste ülevaatamist, saab lõpule viia rakenduses Dynamics 365 for Talent[?]. Sel juhul valitakse väljal **Ülesande link** suvand. Muud ülesanded võivad hõlmata veebisaidi lehtede ülevaatamist ja täitmist. Sel juhul valitakse väljal **Ülesande link** **URL**, misjärel saab sisestada veebiaadressi. Saate sisestada nii välis- kui ka sisesaitide URL-e. Samuti saate luua ülesandeid tegevustele, mida teete käsitsi, näiteks struktuuride juurdepääsetavuse ülevaatamine. Sel juhul pole ülesande link vajalik. Sedasi on võimalik jälgida mitmesuguseid ülesandeid ulatusliku protsessi abil.
 
 Ülesandeid on võimalik määrata kas kindlale töötajale või ametikohale. Näiteks on hüvitise ja eeliste haldur alati see inimene, kes vaatab üle kindlustusmaksed. Seetõttu valige selle ülesande loomisel **Ametikoht** väljal **Määramise tüüp** ja seejärel valige **Hüvitise ja eeliste haldur** loendis **Ametikoht**. Äriprotsessi käivitamisel määratakse ülesanne töötajale, kelle ametikohaks on **Hüvitise ja eeliste haldur**. Ülesande määramiseks konkreetsele töötajale valige väljal **Määramise tüüp** suvand **Töötaja** ja seejärel valige sobiv inimene.
 
@@ -74,5 +74,4 @@ Protsessi omanikud saavad endale määratud aktiivseid äriprotsesse vaadata tö
 - Valige **Käivita protsess**, et käivitada valitud äriprotsess, määrata ülesandeid ja arvutada tähtaegu.
 
 Aktiivsete protsesside ja seotud ülesannete vaatamiseks avage tööruum **Äriprotsessid**.
-
 

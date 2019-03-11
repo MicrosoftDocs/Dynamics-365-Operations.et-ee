@@ -1,13 +1,13 @@
 ---
-title: "Kassa ülevaate Power BI sisu"
-description: "Selles teemas kirjeldatakse kassa ülevaate Power BI sisu. See selgitab juurdepääsu sisus sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisu loomiseks kasutati."
+title: Kassa ülevaate Power BI sisu
+description: Selles teemas kirjeldatakse kassa ülevaate Power BI sisu. See selgitab juurdepääsu sisus sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisu loomiseks kasutati.
 author: saraschi2
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318645"
 ---
-
 # <a name="cash-overview-power-bi-content"></a>Kassa ülevaate Power BI sisu
 
 [!include [banner](../includes/banner.md)]
@@ -36,13 +35,13 @@ Selles teemas kirjeldatakse **kassa ülevaate** Microsoft Power BI sisu. See sel
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 
-Aruanded Power BI sisust **Kassa ülevaade** kuvatakse tööruumides **Kassa ülevaade** ja **Pangahaldus**.
+Aruanded **kassa ülevaate** Power BI sisust kuvatakse tööruumides **Kassa ülevaade** ja **Pangahaldus**.
 
 Likviidsuse plaanimise aruannete kuvamiseks koos andmetega peate esmalt käivitama prognoosiarvutusprotsessi, kasutades funktsiooni **Likviidsuse plaanimiste arvutamine** alal Sularaha- ja pangahaldus.  Seda tuleb teha iga prognoosi kaasatava ettevõtte puhul.  Seejärel peate värskendama atribuudi LedgerCovLiquidityMeasurement koondmõõtmist lehel **Üksuse kauplus**.  
 
 Demoeesmärgil saate lisada likviidsuse plaanimise demoandmed, kasutades mooduli Demoandmed lehte **Andmete loomine**.  See skript sisestab andmed likviidsuse plaanimise tabelitesse, et aruannete jaoks vajalikku teavet kiiresti sisestada.  See moodul on saadaval ainult siis, kui teie keskkonnas on juurutatud demoandmete komplekti moodul. 
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruanded
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad aruanded
 Järgmises tabelis on üksikasjad **kassa ülevaate** Power BI sisu igal aruandelehel leiduvate mõõdikute kohta.
 
 | Aruanne                                | Sisu |
@@ -68,6 +67,5 @@ Järgmises tabelis on näidatud üksused, millel **kassa ülevaate** Power BI si
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Summeeritud sularaha sissetulekud ja väljaminekud, kasutades iga ettevõtte arvestusvaluutat |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Summeeritud sularaha sissetulekud ja väljaminekud, kasutades kõigi ettevõtete puhul süsteemivaluutat |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Summeeritud kande netosumma ja valuutade saldo, kasutades kandevaluutat |
-
 
 

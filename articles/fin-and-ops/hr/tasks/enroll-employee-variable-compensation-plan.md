@@ -1,13 +1,13 @@
---- 
-title: "Töötaja liitmine tulemustasu plaaniga"
-description: "Lisatasu ja soodustuste haldur saab lisada töötajaid ergutussüsteemi plaanidesse töötajate rahaliste ja mitterahaliste preemiate arvutamiseks."
+---
+title: Töötaja liitmine tulemustasu plaaniga
+description: Lisatasu ja soodustuste haldur saab lisada töötajaid ergutussüsteemi plaanidesse töötajate rahaliste ja mitterahaliste preemiate arvutamiseks.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompVarEnrollEmpl
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 6ab2533293b5c8cb37953427893b75a98ddf3976
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329570"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Töötaja liitmine tulemustasu plaaniga
 
@@ -42,5 +42,4 @@ Lisatasu ja soodustuste haldur saab lisada töötajaid ergutussüsteemi plaanide
     * Kui töötajale tuleks preemiaks anda kindel summa, saate selle määrata siin.  
 8. Laiendage jaotise Organisatoorsed erandid laiendamist.
     * Kui arvestada tuleks töötaja jõudlust, eri osakondade või muu kui töötaja ametikohas määratud osakonna jõudlust, saab osakonna alistada. Protsendi veeru kogusummaks peab olema 100.  
-
 

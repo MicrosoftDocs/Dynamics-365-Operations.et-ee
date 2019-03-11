@@ -1,13 +1,13 @@
 ---
-title: "Kliendi töövoog"
-description: "Selles teemas kirjeldatakse kliendi töövoogu. Saate muuta kliendi teatud välju ja saata need muudatused töövoo abil kinnitamiseks, enne kui need lisatakse kliendile."
+title: Kliendi töövoog
+description: Selles teemas kirjeldatakse kliendi töövoogu. Saate muuta kliendi teatud välju ja saata need muudatused töövoo abil kinnitamiseks, enne kui need lisatakse kliendile.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302173"
 ---
-
 # <a name="customer-workflow"></a>Kliendi töövoog
 
 [!include [banner](../includes/banner.md)]
 
-Kliendi töövoog lisati Microsoft Dynamics 365 for Finance and Operationsi versiooni 8.0.4. Saate muuta kliendi teatud välju ja saata need muudatused töövoo abil kinnitamiseks, enne kui need lisatakse kliendile.
+Kliendi töövoog lisati teenuse Microsoft Dynamics 365 for Finance and Operations versiooni 8.0.4. Saate muuta kliendi teatud välju ja saata need muudatused töövoo abil kinnitamiseks, enne kui need lisatakse kliendile.
 
 ## <a name="set-up-the-customer-workflow"></a>Kliendi töövoo häälestamine
 
@@ -62,4 +61,3 @@ Kui teil on vähemalt üks pakutud muudatus, kuvatakse toimingupaanil kaks uut m
     Lehel on olekuks nüüd **Kinnitamise ootel muudatused**.
 
 Töövoog järgib rakenduses Finance and Operations standardset töövooprotsessi. Kinnitaja suunatakse lehele **Klient**, kus ta saab lehel **Pakutud muudatused** tehtud muudatused üle vaadata ja seejärel valida **Töövoog \> Kinnita**, et kinnitada töövoog. Kui kõik kinnitamised on lõpule viidud, värskendatakse väljasid teie pakutud muudatustega.
-

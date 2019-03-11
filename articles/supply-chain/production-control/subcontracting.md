@@ -1,33 +1,32 @@
 ---
 title: Allhange
-description: See teema aitab teil koostada Microsoft Dynamics 365 for Finance and Operationsis tootmises allhanke juhised.
+description: See teema aitab teil koostada rakenduses Microsoft Dynamics 365 for Finance and Operations tootmise allhanke juhiseid.
 author: christophernread
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: ade3f4ad9878c9e885afc5034334e41897512871
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 55b516f928eadea9b7ddbb1192db79f3ab7fa204
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336700"
 ---
-
 # <a name="subcontracting"></a>Allhange
 
 [!include [banner](../includes/banner.md)]
 
-See teema aitab teil koostada Microsoft Dynamics 365 for Finance and Operationsis tootmises allhanke juhised. Teema esimeses osas kirjeldatakse andmete seadistamist. Teises osas läbite juhise etapid.
+See teema aitab teil koostada rakenduses Microsoft Dynamics 365 for Finance and Operations tootmise allhanke juhiseid. Teema esimeses osas kirjeldatakse andmete seadistamist. Teises osas läbite juhise etapid.
 
 ## <a name="target-audience"></a>Sihtpublik
 
@@ -304,4 +303,3 @@ Tootele D8100, kaetud korpus, luuakse tootmistellimus 10 ühikuga. Korpuste katm
     ![Kuluvõrdluse diagrammid](./media/subcontract35_cost-comparison-charts.png)
 
 Puuduv seadistus andmetes.
-

@@ -1,13 +1,13 @@
 ---
-title: "Käibemaksuarvutusmeetodid valimine väljal Päritolu"
-description: "See artikkel selgitab käibemaksukoodide lehe välja Päritolu valikuid ja seda, kuidas käibemaks arvutatakse, tuginedes tehtud käibemaksukoodi valikule."
+title: Käibemaksuarvutusmeetodid valimine väljal Päritolu
+description: See artikkel selgitab käibemaksukoodide lehe välja Päritolu valikuid ja seda, kuidas käibemaks arvutatakse, tuginedes tehtud käibemaksukoodi valikule.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 1473eeb2950296f5ae6250d7a53794af3d9cba81
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330674"
 ---
-
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Käibemaksuarvutusmeetodid valimine väljal Päritolu
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,6 @@ Dokumendi/töölehe suvandi Summad sisaldavad käibemaksu sätteks on valitud Ei
 [Käibemaksumäärade määramine väljade Marginaali alus ja Arvutusmeetod põhjal](marginal-base-field.md)
 
 [Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul](whole-amount-interval-options-sales-tax-codes.md)
-
 
 
 

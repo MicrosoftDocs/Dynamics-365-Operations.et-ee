@@ -1,13 +1,13 @@
 ---
 title: Teabekoodid ja teabekoodide grupid
-description: "See artikkel annab ülevaate teabekoodidest, teabekoodide gruppidest ja nende kasutamisest."
+description: See artikkel annab ülevaate teabekoodidest, teabekoodide gruppidest ja nende kasutamisest.
 author: mugunthanm
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailInfocodeTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: c9cd9197f395b69f65137a59392a4d83d692f6fa
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340817"
 ---
-
 # <a name="info-codes-and-info-code-groups"></a>Teabekoodid ja teabekoodide grupid
 
 [!include [banner](includes/banner.md)]
@@ -43,7 +42,7 @@ Teabekoodid võimaldavad teil hõivata andmeid kassaregistris. Saate teabekoodid
 
 ## <a name="info-codes-group"></a>Teabekoodide grupp
 
-Dynamics 365 for Retailis saate luua teabekoodide gruppe. Teabekoodide grupid lisavad paindlikkust, võimaldades teil määratleda vähem teabekoode ja kasutada neid mitmekülgsemalt. Teabekoodide gruppe saate kasutada järgmiselt.
+Rakenduses Dynamics 365 for Retail saate luua teabekoodide gruppe. Teabekoodide grupid lisavad paindlikkust, võimaldades teil määratleda vähem teabekoode ja kasutada neid mitmekülgsemalt. Teabekoodide gruppe saate kasutada järgmiselt.
 
 - Määratlege vähem teabekoode ja kasutage neid hõlpsasti uuesti. Teabekoodigruppides olevatel teabekoodidel ei ole eelmääratletud sõltuvusi teiste teabekoodidega. Võite lisada sama teabekoodi mitmesse teabekoodigruppi ja seejärel esitada prioriteetide abil samu teabekoode järjekorras, mis on mis tahes olukorras loogiline.
 - Saate linkida teabekoodid muude teabekoodide või teabekoodigruppidega, et koguda teavet toote või kande kohta, ilma et peaksite määratlema iga stsenaariumi puhul eraldi teabekoodi või lingitud teabekoodi.
@@ -57,4 +56,3 @@ Saate teabekoodid linkida, mis tähendab, et ühe teabekoodi käivitamise järel
 **Näide 2: teabekoodide linkimine teabekoodigruppidega**
 
 Kui müüte teatud tooteid, näiteks mobiilseid seadmeid, siis küsite klientidelt alati kindlaid andmeid, nagu telefoninumber, mobiilseadme ID (MEID) ja seerianumber. Samas soovite koguda tahvelarvutite müümisel muid andmeid kui mobiiltelefonide puhul. Saate seadistada teabekoodigrupi, mis sisaldab telefoninumbri, MEID ja seerianumbrite viipasid, ning seejärel linkida teabekoodigrupi individuaalse teabekoodiga. Tootepõhise teabekoodi käivitamise järel võib käivituda teabekoodigrupp, mis võimaldab teil koguda üldandmeid, ilma et peaksite määratlema iga seadme jaoks mitut lingitud teabekoodide kogumit.
-

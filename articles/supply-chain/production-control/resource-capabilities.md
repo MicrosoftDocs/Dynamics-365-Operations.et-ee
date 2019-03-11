@@ -1,13 +1,13 @@
 ---
-title: "Ressursi võimalused"
-description: "Selles artiklis antakse teavet ressursivõimaluste kohta. Võimsus on operatsiooniressursi võime konkreetset tegevust sooritada. Artiklis selgitatakse, kuidas võimalusi ja seotud mõisteid, näiteks oskustaset ning prioriteeti, kasutatakse tegevuse jaoks sobilike ressursside valimiseks."
+title: Ressursi võimalused
+description: Selles artiklis antakse teavet ressursivõimaluste kohta. Võimsus on operatsiooniressursi võime konkreetset tegevust sooritada. Artiklis selgitatakse, kuidas võimalusi ja seotud mõisteid, näiteks oskustaset ning prioriteeti, kasutatakse tegevuse jaoks sobilike ressursside valimiseks.
 author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 567b4c5544f2a58801fefb1aa9d4c72815913910
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 533faf78e4cc9a091d64f7c6a0f82d14158710c8
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319289"
 ---
-
 # <a name="resource-capabilities"></a>Ressursi võimalused
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Selles näites võib plaanimismootor valida mõlemad masinad, sest mõlemad täi
 
 ## <a name="competencies-for-human-resources"></a>Inimressursside pädevused
 Kui teil on **Inimressursid** tüüpi operatsiooniressursid, mis on seotud töötajatega inimressurssidega, saate tootmisprotsessi jaoks ressursinõuete määratlemisel ära kasutada ka töötajate pädevusi. Teisisõnu, saate määrata nõudeid ka kindlate oskuste, kursuste, sertide või tiitlite kohta. Plaanimismootor saab siis valida ressursid, mis on seotud töötajatega, ja valik põhineb töötajate pädevustel. Pädevused seadistatakse lehel Inimressursid, mitte lehel **Ressursi võimsused**. Kui määratlete oskused, kursused, serdid või tiitlid ressursinõuetena, peate kasutama funktsiooni Inimressursid ja siduma iga **Inimressursid** tüüpi ressursi vastava töötajaga. Kui te ei kasuta funktsiooni Inimressursid, saate määratleda võimsused lehel **Ressursi võimsused**, mis sarnaneb funktsiooni Inimressursid pädevustega või dubleerib neid. Kuid leht **Ressursi võimsused** ei sisalda funktsionaalsust, mis on nõutav oskuste, kursuste, sertide või tiitlite säilitamiseks.
-
 
 
 

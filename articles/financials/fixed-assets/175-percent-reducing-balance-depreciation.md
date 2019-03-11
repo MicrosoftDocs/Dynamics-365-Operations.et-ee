@@ -1,13 +1,13 @@
 ---
-title: "175 protsenti väheneva saldoga kulum"
-description: "Selles teemas antakse ülevaade 175% väheneva jääkväärtuse kulumiarvestusmeetodi kohta."
+title: 175 protsenti väheneva saldoga kulum
+description: Selles teemas antakse ülevaade 175% väheneva jääkväärtuse kulumiarvestusmeetodi kohta.
 author: saraschi2
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2a63293dbf24c27733f8013947aeab5792fa0db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8f78eb06930eab26d300fba6fd28333a5ce39cf8
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320163"
 ---
-
 # <a name="175-percent-reducing-balance-depreciation"></a>175 protsenti väheneva saldoga kulum
 
 [!include [banner](../includes/banner.md)]
@@ -76,17 +75,16 @@ Kui valite kulumiarvestusaasta **Rahandusaasta**, on väljal **Perioodi sagedus*
 | Kasutusea aastad             | 5      |
 | Kulumiprotsent aastas | 35%    |
 
-175% väheneva jääkväärtuse kulumiarvestusmeetod jagab 175 protsenti kasutusea aastatega. See protsendimäär korrutatakse aasta kulumisumma kindlaksmääramiseks põhivara raamatupidamisliku jääkväärtusega.
+175% väheneva jääkväärtuse kulumiarvestusmeetod jagab 175 protsenti kasutusea aastatega. See protsendimäär korrutatakse aasta kulumisumma kindlaksmääramiseks põhivara raamatupidamisliku jääkväärtusega.
 
 | Periood | Aasta kulumisumma arvutamine | Arvestuslik väärtus                  | Raamatupidamislik jääkväärtus aasta lõpus |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|
-| aasta 1 | (11 000 – 1000) × 35% = 3500                | 11 000 – 3500 = 7500      | 11 000 – 1000 – 3500 = 6500        |
-| aasta 2 | 6500 × 35% = 2275                           | 7,500 – 2,275 = 5,225       | 6500 – 2275 = 4225                 |
-| aasta 3 | 4225 × 35% = 1478.75                        | 5225 – 1478.75 = 3746.25 | 4225 – 1478.75 = 2746.25           |
+| aasta 1 | (11 000 – 1000) × 35% = 3500                | 11 000 – 3500 = 7500      | 11 000 – 1000 – 3500 = 6500        |
+| aasta 2 | 6500 × 35% = 2275                           | 7,500 – 2,275 = 5,225       | 6500 – 2275 = 4225                 |
+| aasta 3 | 4225 × 35% = 1478.75                        | 5225 – 1478.75 = 3746.25 | 4225 – 1478.75 = 2746.25           |
 
 > [!NOTE] 
 > Tavaliselt kui 175% väheneva saldo kulumiarvestusmeetodiga arvutatud summa on väiksem kui lineaarse meetodiga arvutades tulemuseks olev summa, teisendatakse järelejäänud eluiga lineaarse meetodi järgi.
-
 
 
 

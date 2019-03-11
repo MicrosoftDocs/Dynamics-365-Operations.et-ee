@@ -5,9 +5,9 @@ author: rschloma
 manager: AnnBe
 ms.date: 09/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304100"
 ---
 # <a name="provision-talent"></a>Talenti ettevalmistamine
 
 [!include [banner](includes/banner.md)]
 
-See teema selgitab uue tootmiskeskkonna ettevalmistuse protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks. See teema eeldab, et olete ostnud rakenduse Talent pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuur (AE) kaudu. Kui teil on lahenduse Microsoft Dynamics 365 litsents, mis juba sisaldab rakenduse Talent teenuseplaani ja te ei saa selles teemas olevaid etappe läbida, võtke ühendust toega.
+See teema selgitab uue tootmiskeskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks. See teema eeldab, et olete ostnud rakenduse Talent pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuur (AE) kaudu. Kui teil on lahenduse Microsoft Dynamics 365 litsents, mis juba sisaldab rakenduse Talent teenuseplaani ja te ei saa selles teemas olevaid etappe läbida, võtke ühendust toega.
 
-Alustuseks peab üldadministraator [Microsoft Dynamicsi teenusesse Lifecycle Services](https://lcs.dynamics.com) (LCS) sisse logima ja looma uue Talenti projekti. Välja arvatud juhul, kui litsentsimisega seotud probleem takistab teil Talenti kasutuselevõtmist, pole klienditoe või Dynamicsi tehnikaosakonna meeskonna esindajate abi vaja.
+Alustuseks peab üldadministraator sisse logima [Microsoft Dynamicsi teenusesse Lifecycle Services](https://lcs.dynamics.com) (LCS) ja looma uue Talenti projekti. Välja arvatud juhul, kui litsentsimisega seotud probleem takistab teil Talenti kasutuselevõtmist, pole klienditoe või Dynamicsi tehnikaosakonna meeskonna esindajate abi vaja.
 
 ## <a name="create-an-lcs-project"></a>LCS-i projekti loomine
 Selleks, et kasutada oma Talenti keskkondade haldamiseks LCS-i, peate esmalt looma LCS-i projekti.
@@ -38,7 +38,7 @@ Selleks, et kasutada oma Talenti keskkondade haldamiseks LCS-i, peate esmalt loo
 1. Logige [LCS-i](https://lcs.dynamics.com/Logon/Index) sisse, kasutades kontot, mida kasutasite Talenti tellimiseks.
 2. Valige projekti loomiseks plussmärk (**+**).
 3. Valige toote nimeks ja versiooniks **Microsoft Dynamics 365 for Talent**.
-4. Valige metoodika **Dynamics 365 for Talent**.
+4. Valige **Dynamics 365 for Talenti** metoodika.
 5. Valige **Loo**.
 
 Lisateavet selle kohta, kuidas Talenti kasutamist alustada, leiate **Talent**i metoodikast, mille lõite oma uues projektis. Kui olete projekti loomise lõpule viinud, viige oma Talenti keskkonna ettevalmistamiseks läbi järgmine protseduur.
@@ -87,5 +87,4 @@ Kasutage järgmisi juhiseid, kui otsustate, millisesse PowerAppsi keskkonda Tale
  
 ## <a name="grant-access-to-the-environment"></a>Keskkonnale juurdepääsu andmine
 Vaikimisi on keskkonnale juurdepääs ainult selle loonud üldadministraatoril. Rakenduse teistele kasutajatele tuleb juurdepääs anda eraldi. Juurdepääsu andmiseks tuleb Core HR-i keskkonnas [lisada kasutajaid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ja [määrata neile sobivad rollid](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). Lähtestamise lõpetamiseks ja teistele rentiku kasutajatele juurdepääsu lubamiseks peaks Talenti keskkonna juurutanud üldadministraator käivitama ka mõlemad rakendused Attract ja Onboard.  Kuni seda pole tehtud, pole teistel kasutajatel juurdepääsu rakendustele Attract ja Onboard ning nad saavad juurdepääsuõiguste rikkumise tõrkeid.
-
 

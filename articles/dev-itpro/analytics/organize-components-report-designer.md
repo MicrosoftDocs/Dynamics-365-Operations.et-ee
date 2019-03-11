@@ -1,13 +1,13 @@
 ---
 title: Aruande komponentide korraldamine aruandekoosturis
-description: "Kui olete koosteüksused kujundanud ja aruanded koostanud, on abiks nende objektide korraldamine, et kasutajatel oleks neid hõlpsam leida. Selles artiklis kirjeldatakse olemasolevate aruannete,koosteüksuste ja objektide korraldamist aruandekoosturis."
+description: Kui olete koosteüksused kujundanud ja aruanded koostanud, on abiks nende objektide korraldamine, et kasutajatel oleks neid hõlpsam leida. Selles artiklis kirjeldatakse olemasolevate aruannete,koosteüksuste ja objektide korraldamist aruandekoosturis.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323935"
 ---
-
 # <a name="organize-report-components-in-report-designer"></a>Aruande komponentide korraldamine aruandekoosturis
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,7 @@ Järgmises tabelis kirjeldatakse vahekaardi **Aruandegrupp** juhtelemente.
 <td>Üksikasjatase</td>
 <td>Määrake aruannete üksikasjatase.
 <ul>
-<li><strong>Finantsid</strong> – kõrgetasemeline kokkuvõttev aruanne. Te ei saa kontodes ja dimensioonides süvitsi minna, välja arvatud aruandluspuu kaudu lisatud kontode ja dimensioonide puhul.</li>
+<li><strong>Finantsid</strong> – kõrgetasemeline kokkuvõttev aruanne. Te ei saa kontodes ja dimensioonides süvitsi minna, välja arvatud aruandluspuu kaudu lisatud kontode ning dimensioonide puhul.</li>
 <li><strong>Rahaline &amp; Konto</strong> − aruanne, mis sisaldab kõrgetasemelist kokkuvõtet ja konto üksikasju.</li>
 <li><strong>Rahaline, Konto &amp; Kanne</strong> − aruanne, mis sisaldab kõrgetasemelist kokkuvõtet ja kande üksikasju..</li>
 </ul></td>
@@ -117,7 +116,7 @@ Järgmises tabelis kirjeldatakse vahekaardi **Aruandegrupp** juhtelemente.
 </tr>
 <tr>
 <td>Kõigi aruandlusvaluutade kaasamine</td>
-<td>Kui teie Microsoft Dynamics ERP süsteemis on konfigureeritud täiendavaid aruandlusvaluutasid, loetletakse need siin. Märkige see ruut lisaaruannete koostamiseks näidatud valuutades. Aruannete vaatamiseks veebivaaturis klõpsake nuppu <strong>Valuuta</strong> ja valige valuuta.</td>
+<td>Kui teie Microsoft Dynamicsi ERP-süsteemis on konfigureeritud täiendavaid aruandlusvaluutasid, loetletakse need siin. Märkige see ruut lisaaruannete koostamiseks näidatud valuutades. Aruannete vaatamiseks veebivaaturis klõpsake nuppu <strong>Valuuta</strong> ja valige valuuta.</td>
 </tr>
 <tr>
 <td>Aruande definitsiooni ei salvestatud kuupäevateavet</td>
@@ -150,4 +149,3 @@ Aruande definitsiooni salvestatakse ainult baasperioodi vaikesätted.</td>
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
-

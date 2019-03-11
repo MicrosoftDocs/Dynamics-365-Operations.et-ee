@@ -1,13 +1,13 @@
 ---
-title: "Analüütika lisamine tööruumidele teenuse Power BI Embedded abil"
-description: "See teema kirjeldab, kuidas kaasata Power BI aruanne tööruumi vahekaardile Analüütika."
+title: Analüüsi lisamine tööruumidele teenuse Power BI Embedded abil
+description: See teema kirjeldab, kuidas kaasata Power BI aruanne tööruumi vahekaardile Analüüs.
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,27 +15,26 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355215"
 ---
-
-# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analüütika lisamine tööruumidele teenuse Power BI Embedded abil
+# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analüüsi lisamine tööruumidele teenuse Power BI Embedded abil
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Seda funktsiooni toetatakse rakenduses Dynamics 365 for Finance and Operations (versioon 7.2 ja uuemad).
+> Seda funktsiooni toetatakse rakenduses Dynamics 365 for Finance and Operations (versioon 7.2 ja uuem).
 
 ## <a name="introduction"></a>Sissejuhatus
-See teema kirjeldab, kuidas kaasata Microsoft Power BI aruanne tööruumi vahekaardile **Analüütika**. Siin toodud näite puhul laiendame sõidukipargi halduse rakenduse tööruumi **Reserveerimise haldus**, et kaasata analüütiline tööruum vahekaardile **Analüütika**.
+See teema kirjeldab, kuidas kaasata Microsoft Power BI aruanne tööruumi vahekaardile **Analüüs**. Siin toodud näite puhul laiendame sõidukipargi halduse rakenduse tööruumi **Reserveerimise haldus**, et kaasata analüütiline tööruum vahekaardile **Analüütika**.
 
 ## <a name="prerequisites"></a>Eeltingimused
 + Juurdepääs arendaja keskkonnale, mis käitab platvormivärskendust 8 või uuemat.
-+ Microsoft Power BI töölaua abil loodud analüütiline aruanne (pbix-fail), millel on üksuse kaupluse andmebaasist hangitud andmemudel.
++ Microsoft Power BI Desktopi abil loodud analüütiline aruanne (pbix-fail), millel on üksuse kaupluse andmebaasist hangitud andmemudel.
 
 ## <a name="overview"></a>Ülevaade
 Olenemata sellest, kas laiendate olemasolevat rakenduse tööruumi või võtate kasutusele omaenda uue tööruumi, saate kaasatud analüütiliste vaadete abil kuvada oma äriandmetest selgeid ja interaktiivseid vaateid. Analüütilise tööruumi vahekaardi lisamise protsess koosneb neljast etapist.
@@ -46,10 +45,10 @@ Olenemata sellest, kas laiendate olemasolevat rakenduse tööruumi või võtate 
 4. Valikuline: laienduste lisamine vaate kohandamiseks.
 
 > [!NOTE]
-> Lisateavet analüütiliste aruannete loomise kohta vaadake jaotisest [Power BI töölauaga alustamine](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). See leht on suurepärane allikas ülevaadete jaoks, mis aitavad teil luua mõjusaid analüütilise aruandluse lahendusi.
+> Lisateavet analüütiliste aruannete loomise kohta vt teemast [Power BI Desktopiga alustamine](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). See leht on suurepärane allikas ülevaadete jaoks, mis aitavad teil luua mõjusaid analüütilise aruandluse lahendusi.
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Ressursina pbix-faili lisamine
-Enne alustamist peate looma või hankima Power BI aruande, mille soovite tööruumi kaasata. Lisateavet analüütiliste aruannete loomise kohta vaadake jaotisest [Power BI töölauaga alustamine](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
+Enne alustamist peate looma või hankima Power BI aruande, mille soovite tööruumi kaasata. Lisateavet analüütiliste aruannete loomise kohta vt teemast [Power BI Desktopiga alustamine](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
 
 Pbix-faili lisamiseks Visual Studio projekti artefaktina toimige järgmiselt.
 
@@ -177,4 +176,3 @@ public static void initializeReportControl(
 | showFilterPane   | Kahendmuutuja väärtus, mis näitab, kas filtripaan tuleb kuvada (**tõene**) või peita (**väär**).     |
 | showNavPane      | Kahendmuutuja väärtus, mis näitab, kas navigeerimispaan tuleb kuvada (**tõene**) või peita (**väär**). |
 | defaultFilters   | Power BI aruande vaikefiltrid.                                                                 |
-

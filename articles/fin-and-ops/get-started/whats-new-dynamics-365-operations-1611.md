@@ -1,13 +1,13 @@
 ---
-title: "Mis on uut või muudetud rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016)"
-description: "See teema kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics 365 for Operationsi versioonis 1611 uued või muudetud."
+title: Mis on uut või mida on muudetud rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016)
+description: Selles teemas kirjeldatakse Dynamics 365 for Operationsi versiooni 1611 uusi või muutunud funktsioone.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339069"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Mis on uut või muudetud rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016)
+# <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Mis on uut või mida on muudetud rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016)
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics 365 for Operationsi versioonis 1611 uued või muudetud.
+Selles teemas kirjeldatakse Dynamics 365 for Operationsi versiooni 1611 uusi või muutunud funktsioone.
 
 ## <a name="cost-accounting"></a>Kuluarvestus
 
@@ -43,7 +42,7 @@ See teema kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics 365 for Ope
 <tbody>
 <tr>
 <td>Määratlege kuluelemendi dimensioonid ja importige kuluelemendi dimensiooni numbrid.</td>
-<td>Kuluelemente kasutatakse kuluarvestuses, et kategoriseerida kulusid ja dokumenteerida kulude voogu. Esmased kuluelemendid imporditakse, kasutades rakenduse Microsoft Dynamics 365 for Operations andmekonnektorit, et saada põhikontod otse rakendusest Operations, või kasutades üldist andmekonnektorit, kus saate põhikontod Microsoft Exceli kaudu mis tahes muud tüüpi allikasüsteemist. Pärast põhikontode importimist kuluarvestusse kasutatakse neid kuluelemendi dimensiooniliikmetena. Teisesed kuluelemendid on kasutaja määratletud ja neid kasutatakse eraldamistes, et dokumenteerida kulude voolu.</td>
+<td>Kuluelemente kasutatakse kuluarvestuses, et kategoriseerida kulusid ja dokumenteerida kulude voogu. Esmased kuluelemendid imporditakse kas Microsoft Dynamics 365 for Operationsi andmekonnektori abil, et tuua põhikontod otse Operationsist, või üldise andmekonnektori abil, kus saate põhikontod Microsoft Exceli kaudu mis tahes muud tüüpi lähtesüsteemist. Pärast põhikontode importimist kuluarvestusse kasutatakse neid kuluelemendi dimensiooniliikmetena. Teisesed kuluelemendid on kasutaja määratletud ja neid kasutatakse eraldamistes, et dokumenteerida kulude voolu.</td>
 </tr>
 <tr>
 <td>Vastendage kuluelemendi dimensioonid.</td>
@@ -51,7 +50,7 @@ See teema kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics 365 for Ope
 </tr>
 <tr>
 <td>Määratlege kuluobjekti dimensioonid ja importige kuluobjekti dimensiooni liikmed.</td>
-<td>Kuluobjektid on mis tahes tüüpi objektid, millele kulud on määratud. Tüüpilised kuluobjektid hõlmavad tooteid, projekte, ressursse, osakondi, kulukeskuseid ja geograafilisi regioone. Saate kasutada Microsoft Dynamics 365 for Operationsi andmekonnektorit, et saada Operationsist finantsdimensioone ja väärtuseid või kasutage üldist andmekonnektorit, kus saate hankida dimensioonid ja väätused Exceli kaudu mis tahes muud tüüpi allikasüsteemist. Näiteks kui kasutate objekti dimensioonina kulukeskuse finantsdimensiooni, siis on kõik imporditavad kulukeskused selle kuluobjekti dimensiooniliikmed.</td>
+<td>Kuluobjektid on mis tahes tüüpi objektid, millele kulud on määratud. Tüüpilised kuluobjektid hõlmavad tooteid, projekte, ressursse, osakondi, kulukeskuseid ja geograafilisi regioone. Saate kasutada Microsoft Dynamics 365 for Operationsi andmekonnektorit, et tuua Operationsist finantsdimensioone ja väärtuseid, või kasutada üldist andmekonnektorit, kus saate tuua dimensioonid ja väärtused Exceli kaudu mis tahes muud tüüpi lähtesüsteemist. Näiteks kui kasutate objekti dimensioonina kulukeskuse finantsdimensiooni, siis on kõik imporditavad kulukeskused selle kuluobjekti dimensiooniliikmed.</td>
 </tr>
 <tr>
 <td>Määratlege või importige statistilised dimensioonid.</td>
@@ -101,7 +100,7 @@ See teema kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics 365 for Ope
 </tr>
 <tr>
 <td>Looge aruandeid Excelit kasutades.
-<blockquote>[!NOTE] Peate käivitama programmi Microsoft Excel 2016.</blockquote>
+<blockquote>[!NOTE] Peate käivitama Microsoft Excel 2016.</blockquote>
 </td>
 <td>Saate eksportida kuluarvestuse andmed andmeüksuste kaudu otse Excelisse ja kasutada aruannete loomiseks Microsoft PivotTable'it.</td>
 </tr>
@@ -344,7 +343,7 @@ See teema kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics 365 for Ope
 <li>Rootsi</li>
 </ul>
 </td>
-<td>Dynamics 365 for Operations on saadaval 18 lisariigis. Osana meie pingutusest muuta lokaliseerimist lihtsamaks ja paremini konfigureeritavamaks, on regulatiivsed elektroonilised aruandluse funktsioonid teisendatud elektroonilise aruandluse (ER) konfiguratsioonideks ja mõned regulatiivsed teenuse Microsoft SQL Server Reporting Services (SSRS) aruanded on teisendatud elektroonilise aruandluse konfiguratsioonideks, mis kasutavad Exceli malle. Neid teisendatud funktsioone on spetsiaalselt mainitud hiljem selles tabelis.</td>
+<td>Dynamics 365 for Operations on saadaval veel 18 riigis. Osana meie pingutusest muuta lokaliseerimist lihtsamaks ja paremini konfigureeritavamaks on regulatiivsed elektroonilised aruandluse funktsioonid teisendatud elektroonilise aruandluse (ER) konfiguratsioonideks ning mõned teenuse Microsoft SQL Server Reporting Services (SSRS) regulatiivaruanded on teisendatud elektroonilise aruandluse konfiguratsioonideks, mis kasutavad Exceli malle. Neid teisendatud funktsioone on spetsiaalselt mainitud hiljem selles tabelis.</td>
 </tr>
 <tr>
 <td>Jaapan – põhivarade grupeerimine vormi 26 ja sellele lisatud tabelite printimisel.</td>
@@ -621,15 +620,15 @@ See teema kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics 365 for Ope
 | Mida saate teha | Miks on see oluline |
 |-----------------|-----------------------|
 | Konfigureerige elektroonilise aruandluse aruandeid, et sisestada andmeid erinevates vormingutes dokumendihalduse mälust loodud elektroonilistesse sõnumitesse. | Elektroonilise aruandluse aruandeid saab sisestada elektroonilistesse teadetesse, mis luuakse dokumendihalduse mälust. Seetõttu saab äridokumendi manuseid lisada elektroonilistele sõnumitele, mis luuakse selle dokumendi jaoks vastavalt juriidilistel nõuetele. Praegu saab need manused MIME-vormingus lisada loodud XML-teatesse. Teise võimalusena saab manused Base64-vormingus lisada loodud binaarsesse teatesse. |
-| Konfigureerige elektroonilise aruandluse aruandeid, et luua Excelis, Microsoft Wordis või PDF-vormingus elektroonilisi dokumente. | Üks konfiguratsioon lubab elektroonilise aruandluse aruanded, et luua elektroonilisi dokumente kolmes erinevas vormingus: OpenXML-i tööleht (Excel), Word ja XML-vormide andmevorming (XFDF) (PDF). Kasutajad saavad valida vormingu, lisades vormingu malli elektroonilisele aruandlusele Exceli, Wordi või PDF-i dokumendina. |
+| Saate konfigureerida elektroonilise aruandluse aruandeid, et luua Excelis, Microsoft Wordis või PDF-vormingus elektroonilisi dokumente. | Üks konfiguratsioon lubab elektroonilise aruandluse aruanded, et luua elektroonilisi dokumente kolmes erinevas vormingus: OpenXML-i tööleht (Excel), Word ja XML-vormide andmevorming (XFDF) (PDF). Kasutajad saavad valida vormingu, lisades vormingu malli elektroonilisele aruandlusele Exceli, Wordi või PDF-i dokumendina. |
 | Konfigureerige elektroonilise aruandluse aruandeid, et kontrollida lehepiire ja sisestada andmed selliste elektrooniliste dokumentide lehe päisetesse ja jalustesse, mis luuakse OpenXML-i töölehe vormingus. | Elektroonilise aruandluse aruanded saavad sisestada äriandmeid lehepäistesse ja -jalustesse ning samuti kontrollida, kus lehepiir tekib. Seetõttu saavad aruanded toetada loodud elektrooniliste dokumentide lehtede staatilisi ülemisi ja alumisi jaotiseid. Need saavad toetada ka nende dokumentide spetsiifilist saalimist, et need vastaks juriidilistele nõuetele. |
 | Konfigureerige elektroonilise aruandluse aruannete sihtkohta, et väljund saadetaks meilina ning et äriandmeid ja elektroonilise aruandluse loogikat (avaldised) saaks kasutada käitusajal kasutatava meiliaadressi määramiseks. | Varasemalt, kui konfigureerisite elektroonilise aruandluse sihtkohta, sai väljundi adressaadi meiliaadressit määratleda käitusajal. Nüüd saate konfigueerida avaldist elektroonilise aruandluse vormingus. Selle avaldise saab seejärel valida sihtkohas meiliaadressi allikana iga vormingu konfiguratsiooni ja iga väljundi komponendi (kaust või fail) jaoks eraldi. Seetõttu, kui elektrooniline aruanne töötab, saab iga loodava faili erinevale adressaadile saata ja meiliaadressi saab määratleda elektroonilise aruandluse loogika- ja äriandmete põhjal. |
-| Konfigureerige elektroonilise aruandluse aruannete sihtkohta nii, et väljund saadetaks Microsoft SharePointi kausta olemasoleva faili uue nimega faili või uue versioonina ja et äriandmeid saaks kasutada Microsoft Power BI raamistikus andmekogumi või aruandena. | Elektroonilise aruandluse aruannete konfigureerimisel saate nüüd hõlpsalt (ilma kodeerimiseta) valmistada ette nõutavad äriandmed, et Power BI raamistik saaks seda kasutada. Kui käivitate need elektroonilise aruandluse aruanded, saate pakkuda Power BI raamistikku sobivate äriandmete ja/või Exceli aruannetega, mis on juba saadaval. Kui ajastate aruande käitused korduvas režiimis, saate luua äriandmete ajastatud lükke rakendusest Dynamics 365 for Operations Power BI-sse, et toetada Power BI põhiste aruannete värskendamisajakava. |
+| Saate konfigureerida elektroonilise aruandluse aruannete sihtkohta nii, et väljund saadetaks Microsoft SharePointi kausta olemasoleva faili uue nimega faili või uue versioonina ja äriandmeid saaks kasutada Microsoft Power BI raamistikus andmekogumi või aruandena. | Elektroonilise aruandluse aruannete konfigureerimisel saate nüüd hõlpsalt (ilma kodeerimiseta) valmistada ette nõutavad äriandmed, et Power BI raamistik saaks neid kasutada. Kui käivitate need elektroonilise aruandluse aruanded, saate pakkuda Power BI raamistikku sobivate äriandmete ja/või Exceli aruannetega, mis on juba saadaval. Kui ajastate aruande käitused korduvas režiimis, saate luua äriandmete ajastatud lükke rakendusest Dynamics 365 for Operations Power BI-sse, et toetada Power BI põhiste aruannete värskendamisgraafikut. |
 | Konfigureerige elektroonilise aruandluse aruandeid, et kasutada osa elektroonilisest dokumendist, mis on juba loodud andmeallikana selle ülejäänud dokumendi loomiseks. | Saate konfigureerida elektroonilise aruandluse aruandeid väljundi tekstivormingus loomiseks, et teha dokumendi rea loendamine. Seda teavet saab seejärel kasutada teistes dokumendi osades, et luua read, mis hõlmavad kokkuvõtlikke üksikasju. Kokkuvõtlikut teavet (kogusummad ja numbrid) saab arvutada ja printida loodavatesse elektroonilistesse dokumentidesse ilma, et oleks vaja andmete täiendavaid teisendusi. Seetõttu täiustab see funktsioon aruande käivitamise jõudlust ja aitab hoida konfigureeritud elektroonilise aruandluse vormingu tulevast hooldust lihtsamana. |
 | Konfigureerige elektroonilise aruandluse aruandeid, et määrata tekstivormingus loodavate elektrooniliste dokumentide failinime laiend. | Saate konfigureerida elektroonilise aruandluse aruanded, et luua väljund tekstivormingus nii, et seda saaks salvestada kindla laiendiga failina. Lisaks vaikimisi txt-laiendile saate vormingu spetsifikatsiooni järgi konfigureerida laiendid, nagu .csv ja .prn. |
 | Looge uued elektroonilise aruandluse aruanded, mis põhinevad kindlal elektroonilise aruandluse mudeli versioonil. | Varasemalt, kui lõite uue elektroonilise aruandluse vormingu, sai vormingu andmeallika asukohana kasutada ainult valitud elektroonilise aruandluse mudeli kõige värskemat versiooni. Nüüd saate valida valitud elektroonilise aruandluse mudeli mis tahes saadaoleva versiooni. See funktsioon võimaldab teil säilitada käesoleva aasta elektroonilise aruandluse aruanded ja kujundada paralleelselt järgmise aasta jaoks uus elektroonilise aruandluse mudeli versioon. |
 | Otsige andmeallikaid ja vorminguid/mudeleid teksti või valitud artefakti alusel ühe klõpsuga. Lahendage proaktiivselt aluse muutmise konfliktid ja lahendage konfliktid konfiguratsioonide vahel. Konfigureerige elektroonilise aruandluse aruanded, et luua mitu valideerimisteadet vigadele, mida avastatakse, kuni aruande käivitamine lõpetatakse. | Mitmed kasutajakogemuse (UX) täiustused elektroonilise aruandluse raamistikus aitavad kasutajatel elektroonilise aruandlusega tõhusamalt ja hõlpsamalt töötada. |
-| **Elektroonilise aruandluse** tööruumi kuvamine Power BI aruannetel. | Kasutajad saavad konfigureerida **Elektroonilise aruandluse lehe** nii, et see hõlmaks uusi menüü-üksuseid ja reaalajas paane, et käitada Power BI põhiseid aruandeid. |
+| **Elektroonilise aruandluse** tööruumi kuvamine Power BI aruannetel. | Kasutajad saavad konfigureerida **elektroonilise aruandluse** lehe nii, et see hõlmaks uusi menüü-üksuseid ja reaalajas paane, et käitada Power BI põhiseid aruandeid. |
 
 ## <a name="payroll"></a>Palk
 
@@ -642,7 +641,7 @@ See teema kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics 365 for Ope
 </thead>
 <tbody>
 <tr>
-<td>Konfigureerige maksekirjed ja töötlege palgaarvestust, kasutades funktsiooni, mis on võrdne mooduliga <strong>Palk</strong> rakenduses Microsoft Dynamics AX 2012 R3.</td>
+<td>Konfigureerige maksekirjed ja töödelge palgaarvestust, kasutades funktsiooni, mis on samaväärne mooduliga <strong>Palk</strong> rakenduses Microsoft Dynamics AX 2012 R3.</td>
 <td>Nüüd saate konfigureerida ja töödelda USA palgaarvestust, kasutades funktsioonikogumit, mis on võrdne funktsioonikogumiga AX 2012 R3-s.
 <ul>
 <li>Saate konfigureerida tasutsüklid ja tasuperioodid, töötsüklid ja tööperioodid, tulukoodid ja tulukoodi grupid, ajakavad, puhkusetüübid ja soodustuse kogumisplaanid.</li>
@@ -717,7 +716,7 @@ See teema kirjeldab funktsioone, mis on rakenduse Microsoft Dynamics 365 for Ope
 | Mida saate teha | Miks on see oluline |
 |-----------------|-----------------------|
 | Kasutage hilist valikut, kui sisestate arvesoovitused partiis. | Projekti raamatupidajad saavad seadistada pakett-töö automaatselt valima sisestamiseks arvesoovitusi, kui need soovitused vastavad kriteeriumidele, mis on määratud pakett-töös. See funktsioon täiustab arve sisestamise automatiseerimist, sest pakett-tööd saab käitada pidevalt ja valib soovitused sisestamiseks automaatselt. |
-| Looge Power BI töölaual analüüs. | Projekti ja ressursiga seotud andmete äriteabe (BI) sisu saab Power BI töölaual hõlpsalt luua. |
+| Saate luua analüüsi Power BI töölaual. | Projekti ja ressursiga seotud andmete äriteabe (BI) sisu saab Power BI töölaual hõlpsalt luua. |
 | Kasutage ostutellimuse ettemakseid ja kaasake need õigesti projekti hindamisprotsessi. | Projekti ostutellimuste puhul tuleb ettemaksed töödelda enne, kui mingi makse saab hankijatele väljastada. Need ettemaksuarved kuvatakse nüüd projekti hindamise/tuvastamise protsessis tüübiga **Fikseeritud hind** projektide puhul |
 | Saate kulu- ja tuluhinnangutele ning kaubanõuetele juurde pääseda ja neid hallata otse tööjaotuse struktuuri (WBS) ülesande kaudu. | Saate hallata konkreetse WBS-i ülesande hinnangulisi kulusid ja tulusid ning kaubanõudeid selle ülesande üksikasjade dialoogiboksis WBS-i plaanimise vaates. |
 | Valige tasutöölehtedel rahastamise allikas. | Kui projekti leping sisaldab mitut rahastamise allikat, saate tasude sisestamisel valida ühe kindla rahastamise allika. Kui te ei vali konkreetset rahastamise allikat, kasutatakse lepingus määratud rahastamisreegleid tasu eraldamiseks. |
@@ -746,9 +745,9 @@ Sujuv ühiskanali kaubandus viitab haldusele ja tellimuse töötlemisele füüsi
 
 | Mida saate teha | Miks on see oluline |
 |-----------------|-----------------------|
-| Tarbija: tarbijale suunatud rakenduse praegune väljalase lubab järgmised funktsioonid – tooteotsing, kategooria sirvimine, lisamine kärule ja külalise väljaregistreerimine. Jaemüüjad saavad rakendada ka nende ettevõtte kaubamärgi rakendusele ja seejärel pakendada selle Androidi ja iOS-i rakenduse kauplustele. | Jaemüüjad saate lihtsalt luua tarbijale suunatud rakendust, mis võimaldab nende klientidel sirvida, otsida tooteid ja lähetada tooteid külalisena nende mobiiliseadmetest. |
+| Tarbija: tarbijale suunatud rakenduse praegune väljalase lubab järgmised funktsioonid – tooteotsing, kategooria sirvimine, lisamine kärule ja külalise väljaregistreerimine. Jaemüüjad saavad rakendada ka nende ettevõtte kaubamärgi rakendusele ja seejärel pakendada selle Androidi ja iOS-i rakendusepoodidele. | Jaemüüjad saate lihtsalt luua tarbijale suunatud rakendust, mis võimaldab nende klientidel sirvida, otsida tooteid ja lähetada tooteid külalisena nende mobiiliseadmetest. |
 | Kliendi soovinimekirjad c-kaubanduse võrgupoe fassaadides | Sõltumatud tarkvarahankijad (ISV-d) saavad kasutada soovinimekirja juhtelementi, et võimaldada kasutajatel luua ja hallata nende veebipoe fassaadis mitut nimekirja ning vaadata/kasutada neid nimekirju kassas. |
-| Asünkroonne kliendi loomine e-kaubanduse võrgupoe fassaadides | Sõltumatud tarkvaratarnijad saavad nüüd luua kliendikontod isegi siis, kui teenuse Commerce Data Exchange: Real-time Service pole kättesaadav. |
+| Asünkroonne kliendi loomine e-kaubanduse võrgupoe fassaadides | Sõltumatud tarkvaratarnijad saavad nüüd luua kliendikontod isegi siis, kui Commerce Data Exchange: Real-time Service pole kättesaadav. |
 | Avaldage kanali tooted jaemüügiserverist muu osapoole kaupluse fassaadidele. | Jaemüügiserver toetab nüüd teenusest teenusesse autentimist. Sõltumatud tarkvaratarnijad saavad kasutada kanali toote avaldamise eeliseid jaemüügiserverist muu osapoole kaupluse fassaadidele. |
 
 ### <a name="extensibility"></a>Laiendatavus
@@ -783,27 +782,27 @@ Kaupluse süsteem on juurutamisvalik jaemüüjatele, mis aitab juhtida kaupluse 
 - Jaemüügiserver ja kaupluse andmebaas on kaupluses koos Async Clienti teenusega.
 - Jaemüügiserver suhtleb kaupluses otse rakendusobjekti serveriga (AOS) kauplusesüsteemi HQ-s.
 - Toetage terminalivahelisi stsenaariumeid, kus puudub HQ ühenduvus.
-- Tänapäevane jaemüügikassa ja pilve kassa suhtlevad kaupluses alati jaemüügiserveriga.
-- Toetage tänapäevast jaemüügikassat ja pilve kassat, kus puudub HQ ühenduvus.
-- Toetage tänapäevase jaemüügikassa spetsiifilist võrguühenduseta andmebaasi (isoleeritud igale tänapäevase jaemüügikassa eksemplarile), kus puudub HQ ühenduvus.
+- Retail Modern POS ja pilvekassa suhtlevad kaupluses alati jaemüügiserveriga.
+- Toetage Retail Modern POS-i ja pilvekassat, kus puudub HQ ühenduvus.
+- Toetage Retail Modern POS-i spetsiifilist võrguühenduseta andmebaasi (isoleeritud igale Retail Modern POS eksemplarile), kus puudub HQ ühenduvus.
 - Autentimise põhineb kauplusesüsteemi puhul ainult teenuselt teenusele.
 - Reaalajas teenuse kõnesid ei toetata, kui puudub Interneti-ühendus.
-- Tänapäevase jaemüügikassa otsest andmebaasiühendust kanali andmebaasiga ei toetata.
+- Retail Modern POS-i otsest andmebaasiühendust kanali andmebaasiga ei toetata.
 - Lubage telemeetria/jälgimine.
 
 | Mida saate teha | Miks on see oluline |
 |-----------------|-----------------------|
-| Jaemüüja laeb kauplusesüsteemi iseteeninduse installeri alla kanali andmebaasi lehelt Dynamics AX HQ-sse ja laeb alla konfiguratsioonifaili. | Jaemüüja saab iseteeninduse paketi sujuvalt alla laadida. |
+| Jaemüüja laadib kauplusesüsteemi iseteeninduse installifaili alla kanali andmebaasi lehelt Dynamics AX HQ-sse ja laadib alla konfiguratsioonifaili. | Jaemüüja saab iseteeninduse paketi sujuvalt alla laadida. |
 | Jaemüüja installib kauplusesüsteemi, kasutades iseteeninduse installerit. | Jaemüüja saab installida kauplusesüsteemi, kasutades iseteeninduse paketti. |
 | IT-juht konfigureerib rakenduses Dynamics 365 for Operations kauplusesüsteemi (kanali andmebaas, kanali profiil, kauplus ja juurutatav pakett). | IT-juht saab konfigureerida kauplusesüsteemi hõlpsalt ja efektiivselt. |
-| Jaemüüja kasutab tänapäevast jaemüügikassat asutusesiseses kaupluses ja saab ühenduse olemasolu korral teha reaalajas toiminguid, nagu kinkekaartide väljastamine. | Jaemüüja saab ühenduse olemasolu korral teha kauplusesüsteemist reaalajas toiminguid. |
+| Jaemüüja kasutab Retail Modern POS-i asutusesiseses kaupluses ja saab ühenduvuse korral teha reaalajas toiminguid, nagu kinkekaartide väljastamine. | Jaemüüja saab ühenduse olemasolu korral teha kauplusesüsteemist reaalajas toiminguid. |
 | Jaemüüja saab sünkroonida andmeid asutusesisesest kauplusesüsteemist HQ-sse alati, kui on ühendus. | Jaemüüja saab ühenduse olemasolu korral sünkroonida kauplusesüsteemi ja sellest välja. |
 | Jaemüüjal võib olla turvaline kommunikatsioon asutusesisese kauplusesüsteemi ja HQ vahel. | Jaemüüja saab ühenduse olemasolu korral kommunikeerida turvaliselt kauplusesüsteemist. |
 | IT-juht ja Microsoft Operations saavad jälgida ja aru anda asutusesiseses kauplusesüsteemis (diagnostika ja aruandluse muudatused). | IT-juht ja Microsoft Operations saavad jälgida kauplusesüsteemi turvaliselt ja teha tõhusalt tõrkeotsingut. |
 
-### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>Rakendus Universal Windows Platform tänapäevase jaemüügikassa jaoks
+### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>Universaalne Windowsi platvormi rakendus Retail Modern POS-ile
 
-Praegu on tänapäevane jaemüügikassa saadaval ainult Windows 8.1 rakendusena töölaua- ja tahvelarvutitele ning pilve kassana töölaua- ja tahvelarvuti brauseritele. Selles väljalaskes teisendatakse tänapäevane jaemüügikassa rakenduseks Universal Windows Platform (UWP). See muudatus võimaldab tänapäevast jaemüügikassat käitada mis tahes Windows 10 seadmes (töölaua- või tahvelarvuti või telefon) ja isegi lülitada kontinuumi loaga seadmete vaadete vahel
+Praegu on Retail Modern POS saadaval ainult Windows 8.1 rakendusena laua- ja tahvelarvutitele ning pilvekassana laua- ja tahvelarvuti brauseritele. Selles väljalaskes teisendatakse tänapäevane jaemüügikassa rakenduseks Universal Windows Platform (UWP). See muudatus võimaldab Retail Modern POS-i käitada mis tahes Windows 10 seadmes (laua- või tahvelarvuti või telefon) ja Continuumi toega seadmete puhul isegi vaateid vahetada.
 
 | Mida saate teha | Miks on see oluline |
 |-----------------|-----------------------|
@@ -819,7 +818,7 @@ Praegu on tänapäevane jaemüügikassa saadaval ainult Windows 8.1 rakendusena 
 | Hankijana saate teavet kliendile üleviidavate veose varude summa kohta. | Kliendile arve esitamiseks nõuab hankija teavet veose varudest ostetud toormaterjalide kohta ja ostukuupäeva. Hankija saab ka jälgida vaba kaubavaru kliendi tegevuskohas, kasutades hankija koostööliidest. |
 | Liigutage hankijale kuuluvaid varusid, kasutades üleviimistöölehte. | Hankijale kuuluvate varude füüsilise asukoha jälgimiseks peate salvestama asukoha süsteemis. Üleviimistöölehe kasutamisel saate kirjendada varude füüsilise liikumise, näiteks liikumise lao ühest asukohast teise asukohta selles laos. |
 | Reguleerige hankijale kuuluvaid varusid, kasutades inventuuritöölehte. | On oluline hoida süsteemi vaba kaubavaru sünkroonis tegelike füüsiliste varudega. Hankijale kuuluvaid varusid saab reguleerida sisse ja välja, kasutades inventuuriprotsesse, nagu koguse reguleerimine ja inventuuritöölehe protsessid. |
-| Lisateave rakenduse Dynamics 365 for Operations veosetoes | Veoseprotsesside toe kohta lisateabe saamiseks vaadake teemasid [Saadetis](../../supply-chain/inventory/consignment.md), [Veose seadistamine](../../supply-chain/inventory/set-up-consignment.md), [Veose täiendustellimuse loomine (ülesande juhend)](../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) ja [Kaubavaru omandiõiguse muutmine tootmise nõudluse põhjal (ülesande juhend)](../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Lugege lisateavet rakenduses Dynamics 365 for Operations saadetise seadistamise kohta | Veoseprotsesside toe kohta lisateabe saamiseks vaadake teemasid [Saadetis](../../supply-chain/inventory/consignment.md), [Veose seadistamine](../../supply-chain/inventory/set-up-consignment.md), [Veose täiendustellimuse loomine (ülesande juhend)](../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) ja [Kaubavaru omandiõiguse muutmine tootmise nõudluse põhjal (ülesande juhend)](../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Hankija koostöö (varasema nimega hankijaportaal)
 
@@ -828,8 +827,8 @@ Praegu on tänapäevane jaemüügikassa saadaval ainult Windows 8.1 rakendusena 
 | Lubage hankijatel vastata igale ostutellimuse reale ja soovitada muudatusi. | Mõnel juhul soovivad hankijad aktsepteerida mõnesid ostutellimuse ridu, kuid lükata teisi tagasi. Hankijad saavad nüüd ostutellimuse ridu individuaalselt hallata. Iga rida saab tagasi lükata, aktsepteerida või aktsepteerida muudatustega. Näiteks saavad hankijad muuta tarnekuupäeva, tükeldada tarnet ja kogust või soovitada alternatiivset kaupa. |
 | Lubage hankijate hallata kontaktisiku teavet. | Hankijad saavad säilitada nende ettevõtte kontaktisiku teabe. See teave sisaldab nimesid, meiliaadresse ja telefoninumbreid. Juurdepääs sellele funktsioonile antakse integreeritud turberolli kaudu. |
 | Andke ühiskasutusse dokumente, mis on seotud hankijatega tehtud ostutellimustega. | Kui peate andma dokumendi hankijaga ühiskasutusse, nt dokument nõuete kohta, on mugav linkida dokument asjakohase ostutellimusega. Hankija saab seejärel anda märkuseid ja manuseid kliendiga ühiskasutusse, linkides dokumendi tema vastusega ostutellimusele. Dokumendihaldus on aluseks olev tugiraamistik ja ainult märkuseid ja manuseid, mis on klassifitseeritud kui „väline”, saab hankijatega ühiskasutusse anda. |
-| Valmistage ette uusi hankija kasutajaid. | Kui hankijad kasutavad koostööliidest, siis on neil tõrgeteta võimalus nõuda uusi kasutajakontosid, kui uued kontaktid nõuavad juurdepääsu hankija koostööle. Hankeprofessionaalid saavad esitada nõude kontaktisiku kasutajakontole hankija organisatsioonis. Hankija kontaktisik, kes on juba hankija koostöö kasutaja, saab samuti esitada seda tüüpi taotlust. See nõue loob lõpuks rakenduses Dynamics 365 for Operations uue kasutaja, kellel on hankija spetsiifilised turberollid. See hõlbustab ka nõuet Microsoft Azure B2B portaalile, et kasutajat uue Azure Active Directory (Azure AD) kasutajakontoga ette valmistada. Hankijad saavad ka nõuda, et konkreetsed hankija-kasutajakontod inaktiveeritaks või et turberolle modifitseeritaks. |
-| Vaadake lisateavet hankija koostöö toe kohta rakenduses Dynamics 365 for Operations. | Hankija koostöö kohta lisateabe saamiseks vaadake [Hankija koostöö väliste hankijatega](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md), [Hankija koostöö klientidega](../../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md), [Hankija koostöö kasutajate haldamine](../../supply-chain/procurement/manage-vendor-collaboration-users.md), [Hankija koostöö seadistamine ja haldamine](../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md) ja [Hankija koostöö arve tööruum](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). |
+| Valmistage ette uusi hankija kasutajaid. | Kui hankijad kasutavad koostööliidest, siis on neil tõrgeteta võimalus nõuda uusi kasutajakontosid, kui uued kontaktid nõuavad juurdepääsu hankija koostööle. Hankeprofessionaalid saavad esitada nõude kontaktisiku kasutajakontole hankija organisatsioonis. Hankija kontaktisik, kes on juba hankija koostöö kasutaja, saab samuti esitada seda tüüpi taotlust. See taotlus loob lõpuks rakenduses Dynamics 365 for Operations uue kasutaja, kellel on hankijakohased turberollid. See hõlbustab ka taotluse esitamist Microsoft Azure B2B portaalile kasutajale uue Azure Active Directory (Azure AD) kasutajakonto andmise kohta. Hankijad saavad ka nõuda, et konkreetsed hankija-kasutajakontod inaktiveeritaks või et turberolle modifitseeritaks. |
+| Lugege lisateavet hankija koostöö toe kohta rakenduses Dynamics 365 for Operations. | Hankija koostöö kohta lisateabe saamiseks vaadake [Hankija koostöö väliste hankijatega](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md), [Hankija koostöö klientidega](../../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md), [Hankija koostöö kasutajate haldamine](../../supply-chain/procurement/manage-vendor-collaboration-users.md), [Hankija koostöö seadistamine ja haldamine](../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md) ja [Hankija koostöö arve tööruum](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). |
 
 ### <a name="intercompany-order-processing"></a>Kontsernisisene tellimuse töötlemine
 
@@ -884,8 +883,8 @@ Praegu on tänapäevane jaemüügikassa saadaval ainult Windows 8.1 rakendusena 
 
 | Mida saate teha | Miks on see oluline |
 |-----------------|-----------------------|
-| Modelleerige erinevad konteineri tüübid. | Võite laos kasutada erinevaid konteineri tüüpe, et optimeerida talletamist ja muudel põhjustel. Uuel konteineri tüübi üksusel on konteineri tüüpide füüsilised omadused. Nüüd saate seostada litsentsiplaadid konkreetse konteineri tüübiga ja kasutada asukoha ladustamispiiranguid. Näiteks saate kasutada seda funktsiooni kontrollimaks, mitu kaubaalust (või muud tüüpi konteinereid) lubate kindlas asukohas. Konteineritüübid on lisatud ka üksuse seeriagruppidele, et vastuvõtmisprotsessi jaoks konteineri vaiketüübid lisada. Konteineritüüpe saab kasutada sissetulevate ja väljaminevate asukohakorraldustega. Neid saab kasutada ka vaba kaubavaru vaates, et aidata teil määrata, kuidas paljud konteineri tüübid on praegu talletatud laoseisus. Lisateabe jaoks vaadake atjaveebipostitus [Konteineritüüpidega seotud litsentsiplaatide kasutamine laohalduse protsesside jaokss](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/). Kuigi see blogipostitus kirjeldab värskendust rakendusele Microsoft Dynamics AX 2012, on sama tugi lisatud nüüd rakendusele Dynamics 365 for Operations. |
-| Pöörake saadetised ümber. | Laos peate saama käsitleda hilinenud muudatusi. Näiteks mõned kaubad võivad olla kahjustatud, nii et neid ei saa lähetada. Teise võimalusena võib klient võib teha hilinenud nõude tellimuse tühistamiseks või muutmiseks. Dynamics 365 for Operations võimaldab nüüd saadetist ümber pöörata. Seetõttu saate saatelehe tühistada, et saaksite seda hiljem õigete kogustega värskendada. Sarnaselt saate sissetulevas voos tühistada toote sissetulekud nii, et saab luua värskendatud versiooni. |
+| Modelleerige erinevad konteineri tüübid. | Võite laos kasutada erinevaid konteineri tüüpe, et optimeerida talletamist ja muudel põhjustel. Uuel konteineri tüübi üksusel on konteineri tüüpide füüsilised omadused. Nüüd saate seostada litsentsiplaadid konkreetse konteineri tüübiga ja kasutada asukoha ladustamispiiranguid. Näiteks saate kasutada seda funktsiooni kontrollimaks, mitu kaubaalust (või muud tüüpi konteinereid) lubate kindlas asukohas. Konteineritüübid on lisatud ka üksuse seeriagruppidele, et vastuvõtmisprotsessi jaoks konteineri vaiketüübid lisada. Konteineritüüpe saab kasutada sissetulevate ja väljaminevate asukohakorraldustega. Neid saab kasutada ka vaba kaubavaru vaates, et aidata teil määrata, kuidas paljud konteineri tüübid on praegu talletatud laoseisus. Lisateabe jaoks vaadake atjaveebipostitus [Konteineritüüpidega seotud litsentsiplaatide kasutamine laohalduse protsesside jaokss](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/). Kuigi see ajaveebipostitus kirjeldab värskendust rakendusele Microsoft Dynamics AX 2012, on sama tugi lisatud nüüd rakendusele Dynamics 365 for Operations. |
+| Pöörake saadetised ümber. | Laos peate saama käsitleda hilinenud muudatusi. Näiteks mõned kaubad võivad olla kahjustatud, nii et neid ei saa lähetada. Teise võimalusena võib klient võib teha hilinenud nõude tellimuse tühistamiseks või muutmiseks. Dynamics 365 for Operations võimaldab nüüd saadetise tagasi pöörata. Seetõttu saate saatelehe tühistada, et saaksite seda hiljem õigete kogustega värskendada. Sarnaselt saate sissetulevas voos tühistada toote sissetulekud nii, et saab luua värskendatud versiooni. |
 | Kasutage kaubaaluseid, millel on sedatud kaubad. | Nüüd saate „segatud” kaubaaluse vastu võtta ja registreerida. Segatud kaubaalus sisaldab erinevaid kaupu, mis on koondatud ühele kaubaalusele ühe või mitme ostutellimuse või rea jaoks. Kõik registreerimised saab kokku võtta ühte sihtlitsentsiplaati. See protsess lubatakse lao mobiiliseadme kaudu. Näiteks kui segatud kaupade kaubaalused saabuvad lattu, tuvastab vastuvõtuametnik kaubaalusel olevad kaubad ja kogused enne, kui kaubaalus liigutatakse sihtotstarbelisse kõrvalepaneku asukohtadesse. Kõrvalepaneku asukohad tuvastatakse töömallide ja asukohakorraldustega. Kui kõrvalepaneku asukohad jaotatakse mitmele kaubale, millel on fikseeritud asukohad, siis loob see funktsioon nii palju asetamise tööridu kui on erinevaid kaupu segatud kaubaalusel. See funktsioon muudab vastuvõetud segatud kaubaaluste registreerimise ja kõrvalepanemise kiiremaks ja paindlikumaks. Lisateabe saamiseks vaadake ajaveebipostitust [Mitmesuguste lähtedokumendi ridadega aluse vastuvõtmine ja registreerimine, kasutades 1 litsentsiplaati](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/13/receive-and-register-a-pallet-with-mixed-source-document-lines-using-1-license-plate-purchase-order-matching/) ja teavet segatud kaubaaluse toe kohta [meie hiljutise kumulatiivse värskenduse teatest](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/30/whats-new-in-cu11-for-wms-and-tms/). Kuigi see ajaveebipostitus kirjeldab värskendust rakendusele AX 2012, on sama tugi lisatud nüüd rakendusele Dynamics 365 for Operations. |
 
 ### <a name="minor-feature-enhancements-in-supply-chain-management"></a>Väikesed funktsioonitäiustused tarneahela halduses
@@ -946,4 +945,3 @@ Praegu on tänapäevane jaemüügikassa saadaval ainult Windows 8.1 rakendusena 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Mis on uus või muudetud?](whats-new-changed.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Mobiilsete seadmete seadistamine laotöö jaoks"
-description: "Teemas kirjeldatakse, kuidas konfigureerida menüü üksusi, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes."
+title: Mobiilsete seadmete seadistamine laotöö jaoks
+description: Teemas kirjeldatakse, kuidas konfigureerida menüü üksusi, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 4c200c07ad576073ab5410b52ec237d31b2415d2
 ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/03/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347947"
 ---
-
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete seadistamine laotöö jaoks
 
 [!include [banner](../includes/banner.md)]
@@ -208,7 +207,7 @@ Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada men
 </thead>
 <tbody>
 <tr class="odd">
-<td>None</td>
+<td>Pole</td>
 <td>See vaikeväärtus ei töötle tööd.</td>
 </tr>
 <tr class="even">
@@ -334,7 +333,7 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="odd">
 <td>Grupi kõrvalepanek</td>
-<td>Valige see suvand paigutustöö rühmitamiseks. See suvand on saadaval, kui töö rühmitas töötaja või Microsoft Dynamics 365 for Finance and Operations. Kui töötaja on lõpetanud kõik grupis olevad komplekteerimistööd, luuakse sama grupi jaoks paigutamistöö.</td>
+<td>Valige see suvand paigutustöö rühmitamiseks. See valik on saadaval, kui töö rühmitas töötaja või Microsoft Dynamics 365 for Finance and Operations. Kui töötaja on lõpetanud kõik grupis olevad komplekteerimistööd, luuakse sama grupi jaoks paigutamistöö.</td>
 </tr>
 <tr class="even">
 <td>Varude korrigeerimistüübid</td>
@@ -367,7 +366,7 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="even">
 <td>Süsteemi rühmitusväli</td>
-<td>Valige väli, mis määratleb, kuidas Microsoft Dynamics 365 for Finance and Operations rühmitab töötajate jaoks komplekteerimistöö. Kui valite näiteks välja <strong>ShipmentId</strong>, skannib töötaja komplekteerimistöö rühmitamiseks saadetise ID. Seejärel määratakse kogu saadetisega seotud töö töötajale. Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd. Peate ka sisestama teksti väljale <strong>Süsteemi rühmitussilt</strong> töötaja juhendamiseks, mida on töö rühmitamiseks vaja skannida.</td>
+<td>Valige väli, mis määrab, kuidas Microsoft Dynamics 365 for Finance and Operations komplekteerimistööd töötajate jaoks rühmitab. Kui valite näiteks välja <strong>ShipmentId</strong>, skannib töötaja komplekteerimistöö rühmitamiseks saadetise ID. Seejärel määratakse kogu saadetisega seotud töö töötajale. Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd. Peate ka sisestama teksti väljale <strong>Süsteemi rühmitussilt</strong> töötaja juhendamiseks, mida on töö rühmitamiseks vaja skannida.</td>
 </tr>
 <tr class="odd">
 <td>Süsteemi rühmitussilt</td>
@@ -387,13 +386,13 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="odd">
 <td>Töömalli kood</td>
-<td>Valige töömall, mis loob protsessi jaoks töö. Näiteks kui võtate ostutellimuse jaoks kauba vastu, luuakse töömalli alusel paigutamistöö. Kui te töömalli ei vali, määrab Microsoft Dynamics 365 for Finance and Operations malli päringukriteeriumite põhjal. Töömallide kohta lisateabe saamiseks vaadake jaotist <a href="control-warehouse-location-directives.md">Laotöö juhtimine töömallide ja asukohadirektiividega</a>.</td>
+<td>Valige töömall, mis loob protsessi jaoks töö. Näiteks kui võtate ostutellimuse jaoks kauba vastu, luuakse töömalli alusel paigutamistöö. Kui te töömalli ei vali, määrab Microsoft Dynamics 365 for Finance and Operations malli päringukriteeriumide alusel. Töömallide kohta lisateabe saamiseks vaadake jaotist <a href="control-warehouse-location-directives.md">Laotöö juhtimine töömallide ja asukohadirektiividega</a>.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Nõue, et töötajad kinnitaksid kaupade komplekteerimisel toote, asukoha või koguse
-Saate seadistada töökinnitused, mis nõuavad, et töötaja kasutaks laos tööd tehes asukoha või koguse registreerimiseks mobiilset seadet. Töökinnitused aitavad tagada, et töötaja on õiges asukohas või tegeleb õige kaubakogusega. Peale selle saate lubada Microsoft Dynamics 365 for Finance and Operationsil töötaja registreeringu automaatse kinnitamise. Kui lubate automaatse kinnitamise, ei saa te nõuda asukoha või koguse kinnitamist. Töökinnitused sisaldavad ka tooteid ja tootevariante. Peale selle saate kinnitusi vöötkoodi skannides registreerida. Toodete ja tootevariantide kinnitamiseks peate sisestama toote või tootevariandi ID. See võib olla toote ID, tooteotsingu ID, väline ID, GTIN või vöötkood. Kui olete ID sisestanud või vöötkoodi skanninud, kuvatakse mobiilses seadmes tootevariandi dimensioonid. 
+Saate seadistada töökinnitused, mis nõuavad, et töötaja kasutaks laos tööd tehes asukoha või koguse registreerimiseks mobiilset seadet. Töökinnitused aitavad tagada, et töötaja on õiges asukohas või tegeleb õige kaubakogusega. Peale selle saate lubada, et Microsoft Dynamics 365 for Finance and Operations kinnitab töötaja registreeringu automaatselt. Kui lubate automaatse kinnitamise, ei saa te nõuda asukoha või koguse kinnitamist. Töökinnitused sisaldavad ka tooteid ja tootevariante. Peale selle saate kinnitusi vöötkoodi skannides registreerida. Toodete ja tootevariantide kinnitamiseks peate sisestama toote või tootevariandi ID. See võib olla toote ID, tooteotsingu ID, väline ID, GTIN või vöötkood. Kui olete ID sisestanud või vöötkoodi skanninud, kuvatakse mobiilses seadmes tootevariandi dimensioonid. 
 
 Järgmises tabelis kirjeldatakse erinevaid töötüüpe, millega saate töökinnitusi kasutada.
 
@@ -420,6 +419,5 @@ Järgmises tabelis kirjeldatakse erinevaid töötüüpe, millega saate töökinn
 
 [Mobiilse seadme menüüelemendi seadistamine saabunud kaupade registreerimiseks (tegevuse juhis)](tasks/set-up-mobile-device-menu-item-register-received-items.md)
 [Varude olekute kasutamise eelised](../inventory/inventory-statuses.md)
-
 
 

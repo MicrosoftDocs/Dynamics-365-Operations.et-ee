@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00002 ELi Intrastati deklaratsiooni loomine
 description: Selles protseduuris selgitatakse vajalikke toiminguid Intrastati deklaratsiooni eksportimise kohta elektroonilises failivormingus ja deklaratsiooni andmete eelvaatamist Exceli vormingus.
 author: Anasyash
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, IntrastatParameters, IntrastatCommodityLookup, IntrastatCompressParameters, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1236f27a3a5c208ffec41374a6593d1f0e7c4433
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370558"
 ---
 # <a name="eur-00002-generate-an-eu-intrastat-declaration"></a>EUR-00002 ELi Intrastati deklaratsiooni loomine
 
@@ -113,5 +113,4 @@ Protseduuri loomisel kasutati demoettevõtte DEMF andmeid.
 26. Valige suvand väljal Suund.
     * Tehke näiteks valik Kauba lähetamine.  
 27. Klõpsake nuppu OK.
-
 

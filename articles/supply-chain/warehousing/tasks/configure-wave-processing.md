@@ -1,13 +1,13 @@
---- 
-title: "Vootöötluse konfigureerimine"
-description: "Selles juhendis kirjeldatakse, kuidas seadistada kriteeriumid, mis määravad, milline töö luuakse lao jaoks voo töötlemisel ja kas vooge töödeldakse käsitsi või automaatselt."
+---
+title: Vootöötluse konfigureerimine
+description: Selles juhendis kirjeldatakse, kuidas seadistada kriteeriumid, mis määravad, milline töö luuakse lao jaoks voo töötlemisel ja kas vooge töödeldakse käsitsi või automaatselt.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399146d35388a0151abb23e57bc36ec0173be928
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337505"
 ---
 # <a name="configure-wave-processing"></a>Vootöötluse konfigureerimine
 
@@ -68,5 +68,4 @@ Selles juhendis kirjeldatakse, kuidas seadistada kriteeriumid, mis määravad, m
 24. Valige suvand väljal Lattu väljastamine.
     * Müügitellimuste ja kanban-tellimuste puhul tuleb varud reserveerida enne tellimuse väljastamist lattu. Vastasel korral ei saa kaupu ega eraldamisridu voos töödelda. Tootmistellimuste puhul saate valida ka suvandi Luba osaline reserveerimine. Näiteks on see kasulik, kui teil on olemas tootmise alustamiseks vajalikud materjalid ja on võimalik oodata, kuni täiendavad materjalid kättesaadavaks muutuvad, et protsess lõpule viia. Kui valite selle suvandi, peate lattu väljastamise protsessi käsitsi kordama, kui täiendavad materjalid kättesaadavaks muutuvad.  
 25. Sulgege leht.
-
 

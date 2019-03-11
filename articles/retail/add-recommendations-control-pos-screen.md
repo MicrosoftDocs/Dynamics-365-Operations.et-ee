@@ -1,13 +1,13 @@
 ---
 title: Soovituste juhtelemendi lisamine kassaseadmete kandekuvale
-description: See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 for Retaili kuvapaigutuse kujundajat.
+description: See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 for Retaili ekraanipaigutuse kujundajat.
 author: ashishmsft
 manager: AnnBe
 ms.date: 02/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320439"
 ---
-
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Soovituste juhtelemendi lisamine kassaseadmete kandekuvale
 
 [!include [banner](includes/banner.md)]
@@ -34,9 +33,9 @@ ms.lasthandoff: 01/04/2019
 > [!NOTE]
 > Eemaldame tootesoovitusteenuse praeguse versiooni kuniks me seda funktsiooni parema algoritmi ja uuemate jaemüügile suunatud võimalustega täiustame. Lisateavet vt teemast [Eemaldatud või aegunud funktsioonid](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).
 
-See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 for Retaili kuvapaigutuse kujundajat.
+See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 for Retaili ekraanipaigutuse kujundajat.
 
-Saate Microsoft Dynamics 365 for Retaili kasutamisel kuvada kassaaparaadis tootesoovitusi. *Soovitused* on kaubad, millest teie klient võib oma ostuajaloo, oma sooviloendi kaupade ja teiste klientide võrgu- ja füüsilistest poodidest ostetud kaupade põhjal huvituda. Tootesoovituste kuvamiseks peate lisama kannetekuvale juhtelemendi, kasutades kuvapaigutuse kujundajat.
+Saate Microsoft Dynamics 365 for Retaili kasutamisel kuvada kassaseadmes tootesoovitusi. *Soovitused* on kaubad, millest teie klient võib oma ostuajaloo, oma sooviloendi kaupade ja teiste klientide võrgu- ja füüsilistest poodidest ostetud kaupade põhjal huvituda. Tootesoovituste kuvamiseks peate lisama kannetekuvale juhtelemendi, kasutades kuvapaigutuse kujundajat.
 
 ## <a name="open-layout-designer"></a>Paigutusekujundaja avamine
 
@@ -67,7 +66,7 @@ Saadaval on kaks konfigureerimisvalikut. Tehke oma poe jaoks sobivam valik ja j�
     [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. Salvestamiseks ja paigutusekujundajast väljumiseks klõpsake nuppu **X**.
-4. Dynamics 365 for Retailis minge jaotisse **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafikud**.
+4. Minge Dynamics 365 for Retailis jaotisse **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafikud**.
 5. Valige loendist suvand  **1090, registrid**.
 6. Klõpsake valikut **Käivita kohe**.
 
@@ -88,11 +87,10 @@ Saadaval on kaks konfigureerimisvalikut. Tehke oma poe jaoks sobivam valik ja j�
 7. Valige väljal **Pilt** vahekaardil kuvatav pilt.
 8. Klõpsake nupul **OK**. Uus vahekaart kuvatakse nupuruudustikus.
 9. Salvestamiseks ja paigutusekujundajast väljumiseks klõpsake nuppu **X**.
-10. Dynamics 365 for Retailis minge jaotisse **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafikud**.
+10. Minge Dynamics 365 for Retailis jaotisse **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafikud**.
 11. Valige loendist suvand **1090, registrid**.
 12. Klõpsake valikut **Käivita kohe**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Isikupärastatud tootesoovituste ülevaade](personalized-product-recommendations.md)
-

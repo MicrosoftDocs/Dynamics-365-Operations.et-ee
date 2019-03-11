@@ -1,13 +1,13 @@
 ---
-title: "Laotöö juhtimine töömallide ja asukohadirektiividega"
-description: "Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldust määramaks, kuidas ja kus laos tööd tehakse."
+title: Laotöö juhtimine töömallide ja asukohadirektiividega
+description: Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldust määramaks, kuidas ja kus laos tööd tehakse.
 author: perlynne
 manager: AnnBe
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325407"
 ---
-
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Laotöö juhtimine töömallide ja asukohadirektiividega
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldust määramaks, kuidas ja kus laos tööd tehakse.
 
-Juhised, mille laotöötajad mobiilsesse seadmesse saavad, määravad töömallid, mille seadistate teenuses Microsoft Dynamics 365 for Finance and Operations, et määratleda erinevaid laoprotsesse ja ülesandeid. Töömallid määravad, kuidas igas laoprotsessis tööd tehakse. Linkides töömallidega asukohakorralduse, saate tagada, et töö toimub ladude kindlatel füüsilistel aladel.
+Juhised, mille laotöötajad mobiilsesse seadmesse saavad, määravad töömallid, mille seadistate Microsoft Dynamics 365 for Finance and Operationsis, et määratleda erinevad laoprotsessid ja ülesanded. Töömallid määravad, kuidas igas laoprotsessis tööd tehakse. Linkides töömallidega asukohakorralduse, saate tagada, et töö toimub ladude kindlatel füüsilistel aladel.
 
 ## <a name="work-templates"></a>Töömallid
 Leht **Töömallid** võimaldab teil määratleda tööüksuse toimingud, mida tuleb laos teha. Tavaliselt koosnevad lao tööüksuse toimingud paarist tegevusest: laotöötaja komplekteerib ühes kohas vaba kaubavaru ja viib komplekteeritud kaubavarud teise kohta. 
@@ -163,4 +162,3 @@ Selle suvandi valimisel kasutatakse partiiloaga kaupade puhul partiistrateegiaid
 Selle näite puhul kaaluge ostutellimuse protsessi, kus asukohakorraldus peab leidma laos äsja vastuvõtudokis registreeritud laokaupade jaoks vaba ruumi. Esiteks peate leidma vaba ruumi laos, konsolideerides olemasoleva vaba kaubavaruga. Kui konsolideerimine ei ole võimalik, peate leidma tühja asukoha. 
 
 Selle stsenaariumi puhul peate määratlema kaks asukohakorralduse toimingut. Esimene tegevus järjekorras peab kasutama strateegiat **Konsolideeri** ja teine strateegiat **Tühi asukoht sissetuleva tööta**. Kui te ei määratle kolmandat toimingut ületäitmisstsenaariumi käsitlemiseks, on võimalikud kaks tulemust, kui laos ei ole enam ruumi: töö saab luua isegi siis, kui asukohti ei määratleta, või töö loomise protsess võib nurjuda. Tulemuse määrab lehe **Asukoha korralduse tõrked** seadistus, kus saate otsustada, kas valida suvand **Peata töö asukoha korralduse tõrke korral** igale töö tellimuse tüübile.
-

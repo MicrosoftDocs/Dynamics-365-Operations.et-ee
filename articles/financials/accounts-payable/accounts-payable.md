@@ -1,13 +1,13 @@
 ---
-title: "Ostureskontro kodulehekülg"
-description: "Teema annab ülevaate ostureskontrost."
+title: Ostureskontro kodulehekülg
+description: Teema annab ülevaate ostureskontrost.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 6cc7ee98b3fabb774339dd1fc027d38d00d8b31f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7bc09cbd108949b37ea1b2207fc3e0c6961abf4b
-ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302167"
 ---
-
 # <a name="accounts-payable-home-page"></a>Ostureskontro kodulehekülg
 
 [!include [banner](../includes/banner.md)]
@@ -122,7 +121,7 @@ Järgmised teemad annavad teavet tasakaalustuste kohta. Tasakaalustamine tähend
 
 ### <a name="additional-resources"></a>Lisaressursid
 
-#### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel
+#### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 
 Avage [Microsoft Dynamics 365 sisukaart](https://roadmap.dynamics.com/), et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel. 
 
@@ -132,7 +131,7 @@ Ostureskontro ja muude lahendustega seotud arvamused, uudised ja muu teabe leiat
 
 Palju postitusi ostureskontro kohta leiate ka [Microsoft Dynamics AX-i tootemeeskonna ajaveebist](https://blogs.msdn.microsoft.com/dax/). Kuigi mõni neist sisestustest on kirjutatud ostureskontro eelmise versiooni jaoks, kehtivad samad mõisted sellegipoolest ja protseduurid on praeguses versioonis sarnased.
 
-[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on rakenduses MBS Operations uut ja põnevat.
+[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamics partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses MBS Operations.
 
 #### <a name="task-guides"></a>Tegevuse juhised
 Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operations. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.
@@ -140,7 +139,6 @@ Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operatio
 #### <a name="videos"></a>Videod
 
 Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 
 
 

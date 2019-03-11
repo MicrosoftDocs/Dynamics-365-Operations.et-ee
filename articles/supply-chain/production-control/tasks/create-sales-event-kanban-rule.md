@@ -1,13 +1,13 @@
---- 
-title: "Müügisündmuse kanban-reegli loomine"
-description: "See protseduur keskendub müügitellimuse loomise ajal käivitatava kanban-reegli loomiseks vajalikule seadistusele."
+---
+title: Müügisündmuse kanban-reegli loomine
+description: See protseduur keskendub müügitellimuse loomise ajal käivitatava kanban-reegli loomiseks vajalikule seadistusele.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d2bee6e81acd029406c95237f0b4ba4ab2565ea1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f1f66157b2e74ad1b490e10112cbc121ac9826fb
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342013"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Müügisündmuse kanban-reegli loomine
 
@@ -73,5 +73,4 @@ See protseduur keskendub müügitellimuse loomise ajal käivitatava kanban-reegl
 1. Klõpsake valikut Toode ja tarnimine.
 2. Klõpsake suvandit Kuva sidumispuu.
     * Pange tähele, et luuakse kanban, mille kogus on sama mis müügireal. Samuti näete toote L0050 tootmiseks vajalikke materjaliväljastusi. See on selle protseduuri viimane etapp.  
-
 

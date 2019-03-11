@@ -1,31 +1,31 @@
 ---
-title: "Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (14. detsember 2018)"
-description: "Teema kirjeldab funktsioone, mis on Microsoft Dynamics 365 for Talent Core HR-is kas uued või muudetud."
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (14. detsember 2018)
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talent Core HR-i uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 844c23fc908c962203e644f1154cc480425d830b
 ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303978"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (14. detsember 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (14. detsember 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -59,7 +59,7 @@ Tehtud on muudatus õige turvaelemendid kaasamiseks olemasolevas privileegis: "P
 
 Tehtud on muudatus, mis parandab vea "Nullviide" kohatäite %Reviews.PerfPeriod% kasutamisel saatmisjuhistes.
 
-### <a name="workforce-power-bi-report-shows-error-when-worker-seniority-date-is-a-leap-day"></a>Tööjõu Power BI aruandes kuvatakse viga, kui töötaja staaži kuupäv on liigaastal
+### <a name="workforce-power-bi-report-shows-error-when-worker-seniority-date-is-a-leap-day"></a>Tööjõu Power BI aruandes kuvatakse tõrge, kui töötaja staaži kuupäv on liigaastal
 
 Selle muudatusega toetab Power BI nüüd liigaastaid.
 
@@ -96,7 +96,7 @@ Kui ennustamise suutlikus on väljastatud, muutub kuvatav saldo puhkusepäevade 
 
 ### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Vastendamise tõrked integreerimisel rakendusega Finance and Operations
 
-Praegusel mallil on tuvastatud rakendustega Talent ja Dynamics 365 for Finance and Operations integreerimisel järgmised probleemid. Uus mall avaldatakse varsti ja see rakendatakse kõigile uutele loodavatele integreerimisprojektidele. Olemasolevate integreerimisprojektide puhul saab ülesande vastendamist uuendada. Vaadake uuendatud vastendusi järgmisest tabelist. 
+Praegusel mallil on tuvastatud rakendustega Dynamics 365 for Finance and Operations integreerimisel järgmised probleemid. Uus mall avaldatakse varsti ja see rakendatakse kõigile uutele loodavatele integreerimisprojektidele. Olemasolevate integreerimisprojektide puhul saab ülesande vastendamist uuendada. Vaadake uuendatud vastendusi järgmisest tabelist. 
 
 >[!NOTE]
 > Andmete integreerimine Ametikohtast Ametikoha peamisele tööülesandele ei toimi. Seda probleemi praegu uuritakse. Praegusele vastendusele lahendust ei ole. 
@@ -151,4 +151,3 @@ Värskendatud vastendused peaksid välja nägema nagu järgmistel piltidel.
 ![Töötajatelt töötajale ülesanne](./media/WorkerMapping.png)
 
 ![Soo välja muutumine](./media/WorkerTransform.png)
-

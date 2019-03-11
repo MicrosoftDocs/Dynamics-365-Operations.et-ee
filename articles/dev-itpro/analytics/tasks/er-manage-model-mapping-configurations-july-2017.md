@@ -1,13 +1,13 @@
---- 
+---
 title: Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides
-description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad hallata elektroonilise aruandluse (ER) mudelivastendusi eraldi ER-i konfiguratsioonides."
+description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad hallata elektroonilise aruandluse (ER) mudelivastendusi eraldi ER-i konfiguratsioonides.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 24ca4124d190df94e7ca9ac31c2ea757fe9ff242
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349143"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/08/2018
 
 Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad hallata elektroonilise aruandluse (ER) mudelivastendusi eraldi ER-i konfiguratsioonides. Juhendit järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Juhendis ülesannete lõpetamiseks peab esmalt täitma juhises "ER konfiguratsioonipakkuja loomine" toodud toimingud ja märkida see aktiivseks. 
 
-Kuna ER-i konfiguratsioonid on ettevõtete vahel ühisjagamises, võite läbida juhendi toimingud ükskõik, millise ettevõtte andmekogumiga. Selle tegevuse juhise funktsioonid on saadaval, kui olete installinud ühe järgnevatest kiirparandustest: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 rakenduse Dynamics AX 7.0 versiooni jaoks või https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 rakenduse Dynamics 365 for Operations versiooni jaoks.
+Kuna ER-i konfiguratsioonid on ettevõtete vahel ühisjagamises, võite läbida juhendi toimingud ükskõik, millise ettevõtte andmekogumiga. Selle tegevusjuhise funktsioonid on saadaval, kui olete installinud ühe järgmistest kiirparandustest: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 rakenduse Dynamics AX 7.0 versiooni jaoks või https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 rakenduse Dynamics 365 for Operations versiooni jaoks.
 
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
     * Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja tähistatud aktiivsena. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima tegevuse juhises „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” esitatud toimingud.   
@@ -70,7 +70,7 @@ Kuna ER-i konfiguratsioonid on ettevõtete vahel ühisjagamises, võite läbida 
 6. Klõpsake valikut Kujundaja.
     * Pange tähele, et loodud mudelivastenduse konfiguratsiooni sisaldab uut tühja vastendamist, millel on loodud konfiguratsiooniga sama nimi. Võtke arvesse, et kui valitud ülataseme mudeli konfiguratsioon sisaldab mudelivastendusi, kopeeritakse need uude mudelivastenduse konfiguratsiooni.   
 7. Klõpsake valikut Kujundaja.
-8. Valige puul suvand „Dynamics 365 for Operations\tabel“.
+8. Valige puul väärtus Dynamics 365 for Operations \ Tabel.
 9. Klõpsake suvandit Juure lisamine.
 10. Sisestage väljale Nimi suvand Ettevõte.
     * Ettevõte  
@@ -123,7 +123,7 @@ Kuna ER-i konfiguratsioonid on ettevõtete vahel ühisjagamises, võite läbida 
 5. Klõpsake Loo konfiguratsioon.
 6. Klõpsake valikut Kujundaja.
 7. Klõpsake valikut Kujundaja.
-8. Valige puul suvand „Dynamics 365 for Operations\tabel“.
+8. Valige puul väärtus Dynamics 365 for Operations \ Tabel.
 9. Klõpsake suvandit Juure lisamine.
 10. Sisestage väljale Nimi suvand Ettevõte.
     * Ettevõte  
@@ -161,5 +161,4 @@ Kuna ER-i konfiguratsioonid on ettevõtete vahel ühisjagamises, võite läbida 
 6. Klõpsake nuppu Käivita.
 7. Klõpsake nuppu OK.
     * Pange tähele, et mudelivastenduse vaikekonfiguratsiooni kasutab see vormingukonfiguratsioon elektroonilise dokumendi genereerimiseks (loodud väljund sisaldab ettevõtte koodi).  
-
 

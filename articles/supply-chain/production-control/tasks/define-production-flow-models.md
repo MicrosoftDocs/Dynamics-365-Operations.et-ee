@@ -1,13 +1,13 @@
---- 
-title: "Tootmisvoo mudelite määratlemine"
-description: "Tootmisvoo mudelid kirjeldavad, kuidas lean manufacturingi töörakkude võimsust arvutatakse ja hoitakse."
+---
+title: Tootmisvoo mudelite määratlemine
+description: Tootmisvoo mudelid kirjeldavad, kuidas lean manufacturingi töörakkude võimsust arvutatakse ja hoitakse.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e410928bc850e1f3427c9536e9943d1196be7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7850a121ca06f25f6c532e49e18c0b6811bd7455
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336723"
 ---
 # <a name="define-production-flow-models"></a>Tootmisvoo mudelite määratlemine
 
@@ -45,5 +45,4 @@ Tootmisvoo mudelid kirjeldavad, kuidas lean manufacturingi töörakkude võimsus
     * Plaanimise ajapiir kirjeldab päevade arvu, millal seotud töörakkude võimsust saab reserveerida. Sisestage päevade arv väljale Plaanimise ajapiir.   Kanbani protsessitöid, mis jäävad sellest perioodist välja, ei plaanita automaatplaanimisega. Plaanimise ajapiir on tavaliselt kahekordne tootmisvoos või töörakus toodetud toodete lao täitmisaeg. EPE tsükkel ei tohi olla pikem kui pool plaanitavast ajapiirist.     
 8. Valige suvand väljal Võimsuse puudujäägi reaktsioon.
     * Suvandid on järgmised. Lükka edasi – plaanitud sündmuse kogunõudlus lükatakse edasi järgmisesse saadaoleva jõudlusega tootmispäeva. Tühista – plaanitud sündmuse automaatne plaanimine lõpetatakse ja seotud tööd jäetakse plaanimata.   Lisa taotletud päevale – valitud tööd plaanitakse valitud ajavahemikule. See koormab tööraku antud päevaks üle ja eeldab, et plaanija vaatab toimingu üle ja tegutseb käsitsi.   Jaota saadaolevatele perioodidele – plaanitud sündmuse erinevad tööd jagatakse kõiki saadaolevate tootmispäevade vahel alates esimesest saadaolevast päevast. Minimaalne jaotuskogus on kanban-töö kogus. Jaotus määrab igale piisavalt suure saadaoleva jõudlusega päevale minimaalse plaanimiskoguse (kanban-koguse).  
-
 

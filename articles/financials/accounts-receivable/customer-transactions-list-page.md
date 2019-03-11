@@ -1,13 +1,13 @@
 ---
 title: Kliendi kannete loendi leht
-description: See teema sisaldab teavet rakenduse Microsoft Dynamics 365 for Finance and Operations kliendi kannete loendi lehe kohta.
+description: See teema annab teavet rakenduse Microsoft Dynamics 365 for Finance and Operations kliendi kannete loendilehe kohta.
 author: mikefalkner
 manager: aolson
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
+ms.openlocfilehash: b9936a66cc8c8abb24601dae91dcfca77e4f58a4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: 1b359939c867ba0a0c14859c83f0560afe6ba5be
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341691"
 ---
-
 # <a name="customer-transactions-list-page"></a>Kliendi kannete loendi leht
 
 [!include [banner](../includes/banner.md)]
@@ -40,10 +39,10 @@ Nupp **Kuva tasakaalustused** toimingupaanil annab kiire juurdepääsu tasakaalu
 
 4. Selles dialoogiboksis saate teha mitmesuguseid toiminguid. Valige üks või mitu kannet ja seejärel valige üks järgmistest nuppudest.
 
-    - **Kuva seotud** – kuvatakse kõik valitud dokumendiga seotud makse töölehes loodud maksetöölehe kanded. Peale selle kuvatakse kõik nende maksetega seotud tasakaalustused. Seotud maksete vaatamise ajal muutub nupu sildiks **Kuva tasakaalustused**. Valige suvand **Kuva tasakaalustused**, et kuvada ainult need kanded, mis kuvati dialoogiboksi **Kuva tasakaalustused** avamisel.
+    - **Kuva seotud** – kuvab kõik kliendi maksetöölehe kanded ja päevaraamatu kanded, mis loodi töölehtedes, milles loodi loendis kuvatud dokumendid. Näiteks makse kuvamisel kuvatakse kõik maksetöölehel, milles see loodi, olevad maksed. Arve või makse kuvamisel, mis loodi päevaraamatus, kuvatakse kõik päevaraamatus, milles see loodi, olevad dokumendid. Peale selle kuvatakse kõik nende dokumendiloendiga seotud tasakaalustused. Seotud maksete vaatamise ajal muutub nupu sildiks **Kuva tasakaalustused**. Valige suvand **Kuva tasakaalustused**, et kuvada ainult need kanded, mis kuvati dialoogiboksi **Kuva tasakaalustused** avamisel.
     - **Kuva ajalugu** – kuvatakse kannete tasakaalustamisajalugu. Valige dialoogiboksi sulgemiseks suvand **Sule**.
     - **Kuva raamatupidamine** – kuvatakse kõik valitud dokumentidega seotud kanded. Valige dialoogiboksi sulgemiseks suvand **Sule**.
-    - **Ekspordi** – ekspordi valitud kanded Microsoft Excelisse.
+    - **Ekspordi** – valitud kanded eksporditakse Microsoft Excelisse.
     - **Kannete tasakaalustamine** – see nupp kuvatakse ainult siis, kui valitud algdokument ei olnud täielikult tasakaalustatud. Selle nupu valimisel kuvatakse dialoogiboks **Kannete tasakaalustamine**, kus saate valida tasakaalustamiseks kanded.
     - **Tasakaalustamise tühistamine** – see nupp kuvatakse ainult siis, kui valitud algdokument oli täielikult tasakaalustatud. Selle nupu valimisel kuvatakse dialoogiboks **Tasakaalustamise tühistamine**, kus saate selle dokumendi tasakaalustamised tühistada.
 
@@ -98,4 +97,3 @@ Igal väljal on kandele selle redigeerimisel erinev mõju.
 - **Skonto tingimuste redigeerimine** – skontosid muudetakse aluskuupäeva ja skonto tingimuste alusel.
 
 Kui olete maksesätete redigeerimise lõpetanud, valige muudatuste salvestamiseks käsk **Sule**.
-

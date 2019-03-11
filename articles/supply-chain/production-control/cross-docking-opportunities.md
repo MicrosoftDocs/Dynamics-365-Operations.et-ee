@@ -1,13 +1,13 @@
 ---
-title: "Ristlaadimine tootmistellimustest lähetusaladesse"
-description: "Selles teemas kirjeldatakse, kuidas hallata lõpetatuks registreeritava materjali ristlaadimise protsessi tootmisliinilt väljaminevasse transpordidokki."
+title: Ristlaadimine tootmistellimustest lähetusaladesse
+description: Selles teemas kirjeldatakse, kuidas hallata lõpetatuks registreeritava materjali ristlaadimise protsessi tootmisliinilt väljaminevasse transpordidokki.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8691bb6702028070810a1503add33985de5ede3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 62194012cfbe101d19e9de3254afb004da79a562
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329018"
 ---
-
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Ristlaadimine tootmistellimustest lähetusaladesse
 
 [!include [banner](../includes/banner.md)]
@@ -111,7 +110,7 @@ Kui toode on tootmisliinil lõpetatuks registreeritud, edastatakse see laadimisu
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Stsenaarium 2 – ristlaadimine tootmisest laadimisgraafikuga üleviimistellimustesse
 
-Kui toode on tootmisliinil lõpetatuks registreeritud, viiakse see laadimisukse asukohta, mis on tähistatud laadimisuste asukohtade laadimisgraafikuga. Kasutage ettevõtet USMF.
+Kui toode on tootmisliinil lõpetatuks märgitud, viiakse see laadimisukse asukohta, mis on tähistatud laadimisuste asukohtade laadimisgraafikuga. Kasutage ettevõtet USMF.
 
 1.  Muutke ristlaadimise poliitikat. Muutke ristlaadimise poliitikat, mille 1. stsenaariumis koostasite, märkides ruudu **Ristlaadimise nõue nõuab asukohta**.
 2.  Looge uus üleviimistellimus.
@@ -126,6 +125,5 @@ Kui toode on tootmisliinil lõpetatuks registreeritud, viiakse see laadimisukse 
 ### <a name="additional-information"></a>Lisateave
 
 -   Ristlaadimise stsenaariumi toetatakse partii ja seeriaga juhitavate kaupade puhul, nii ülal määratletud partii- ja seerianumbri dimensioonidega kui ka allpool antud asukohaga reserveerimishierarhias. 
-
 
 

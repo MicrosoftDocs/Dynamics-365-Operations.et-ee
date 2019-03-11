@@ -5,25 +5,25 @@ author: josaw1
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302177"
 ---
 # <a name="distributed-order-management-dom"></a>Hajutatud tellimuste haldamine (DOM)
 
@@ -64,7 +64,7 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
         1. Avage Microsoft Dynamicsi teenuses Lifecycle Services ühiste vahendite teek, valige vahendi tüübiks **Mudel** ja laadige alla fail **DOM-i litsents**.
         2. Käivitage Microsofti teenuste Internet Information Services (IIS) haldur, paremklõpsake valikut **AOSService’i veebisait** ja seejärel valige suvand **Uuri**. Windows Exploreri aken avaneb veebijuures **\<AOS-i teenuse juur\>\\**. Märkige \<AOS-i teenuse juure\> tee üles, kuna kasutate seda järgmises etapis.
         3. Kopeerige konfiguratsioonifail kausta **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
-        4. Minge kaupluse halduse kliendi juurde ja avage leht **DOM-i parameetrid**. Vahekaardil **Lahendaja** väljas **Lahendaja tüüp** valige suvand **Tootmise lahendaja** ja veenduge, et tõrketeateid ei kuvataks.
+        4. Minge Retail Headquartersi kliendi juurde ja avage leht **DOM-i parameetrid**. Vahekaardil **Lahendaja** väljas **Lahendaja tüüp** valige suvand **Tootmise lahendaja** ja veenduge, et tõrketeateid ei kuvataks.
 
         > [!NOTE]
         > Lihtsustatud lahendaja on selleks, et jaemüüjad saaksid katsetada DOM-i funktsiooni spetsiaalset litsentsi juurutamata. Organisatsioonid ei tohi lihtsustatud lahendajat kasutada tootmiskeskkondades.
@@ -229,4 +229,3 @@ Allpool on mõned asjad, mida DOM-i funktsiooni kasutades arvesse tuleb võtta.
 - Praegu vaatab DOM ainult tellimusi, mis on loodud jaemüügikanalitest. Müügitellimused tuvastatakse jaemüügitellimustena, kui suvand **Jaemüük** on seatud valikule **Jah**.
 - Microsoft ei ole katsetanud DOM-i laohalduse täiustatud funktsioonidega. Kliendid ja partnerid peavad hoolikalt määratlema, kas DOM ühildub laohalduse täiustatud võimaluste ja protsessidega, mis on nende jaoks asjakohased.
 - DOM on saadaval ainult Retaili pilveversioonis. Seda ei toetata asutusesisestes juurutustes.
-

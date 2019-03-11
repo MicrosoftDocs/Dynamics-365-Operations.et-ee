@@ -1,13 +1,13 @@
 ---
-title: "Finantstulemuste PowerBI.com’i lahendus"
-description: "Selles teemas kirjeldatakse finantstulemuste PowerBI.com’i lahendust."
+title: Finantstulemuste PowerBI.com’i lahendus
+description: Selles teemas kirjeldatakse finantstulemuste PowerBI.com’i lahendust.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,20 +17,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315103"
 ---
-
 # <a name="financial-performance-powerbicom-solution"></a>Finantstulemuste PowerBI.com’i lahendus
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> See PowerBI.com’i lahendus on aegunud, nagu on kirjas dokumendis [AppSource’is saadaval olevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> See PowerBI.com’i lahendus on aegunud, nagu on kirjas dokumendis [AppSource’is saadaolevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Selles teemas kirjeldatakse **finantstulemuste** PowerBI.com’i lahendust. See kirjeldab armatuurlauda ja selles sisalduvaid aruandeid ning annab teavet lahenduse loomiseks kasutatud andmemudeli ja üksuste kohta.
 
@@ -71,7 +70,7 @@ Iga paan on varustatud toetava aruandega. Need aruanded sisaldavad nii teavet an
 | Kuluanalüüs            | Kogukulud, tegelikud eelarveliste kogukulude suhtes juriidilise isiku järgi, tegelik ja eelarveline kogukulu kvartali järgi, kogukulud konto kategooria järgi ning tegevuskulude suhe |
 | Arveldatud tulu analüüs     | Kogu müügireskontro, kogu müügireskontro juriidilise isiku järgi, kogu müügireskontro kvartali järgi ja müügireskontro kontode saldod<blockquote>[!NOTE] Teave ei sisalda müügireskontro pearaamatukontode algsaldosid. See näitab müügireskontrosse sisestatud uute kannete koondsummat.</blockquote> |
 
-Kõikidel nendel aruannetel olevaid diagramme ja paane saab filtreerida ja kinnitada armatuurlauale. Power BI-s filtreerimise ja kinnitamise kohta lisateabe saamiseks vaadake teemat [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Kõikidel nendel aruannetel olevaid diagramme ja paane saab filtreerida ja kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt teemast [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 **Finantstulemuste** PowerBI.com’i lahenduse alusena kasutati järgmisi üksusi.
@@ -90,4 +89,3 @@ Kõikidel nendel aruannetel olevaid diagramme ja paane saab filtreerida ja kinni
 - ChartofAccounts
 
 Neid olemeid kasutati arvutatud meetmete loomiseks andmemudelis. Arvutatud mõõtusid kasutatakse sisus kasutatavate tulemuslikkuse võtmenäitajate (KPI-d) ja aruannete arvutamiseks. Vaikimisi toob sisu sisse viimase kolme aasta ja ühe tulevase aasta andmed. Aruannetesse ja armatuurlauale lisaarvutuste kaasamiseks saate muuta [Microsoft Exceli töövihikut](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). See töövihik on vaikimisi andmemudel, mida kasutati sisu loomiseks.
-

@@ -1,13 +1,13 @@
 ---
 title: Kirjemallid
-description: "Selles artiklis tutvustatakse kirjemallide mõistet ja selgitatakse, kuidas neid saab kasutada teavet jagavate kirjete loomiseks."
+description: Selles artiklis tutvustatakse kirjemallide mõistet ja selgitatakse, kuidas neid saab kasutada teavet jagavate kirjete loomiseks.
 author: pvillads
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 426fd8fafec061b649cbb31109ffe8fabc24917d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ef5e95d9d6beed10cd6c80aa131c5cbef85c07a8
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323567"
 ---
-
 # <a name="record-templates"></a>Kirjemallid
 
 [!include [banner](../includes/banner.md)]
 
 Selles artiklis tutvustatakse kirjemallide mõistet ja selgitatakse, kuidas neid saab kasutada teavet jagavate kirjete loomiseks.
 
-Kirjemallid aitavad teil kirjeid Microsoft Dynamics 365 for Finance and Operationsis kiiremini luua. Microsoft Dynamics 365 for Finance and Operationsis saate kirjemalle luua ainult teatud kirje tüüpide puhul.
+Kirjemallid võivad aidata rakenduses Microsoft Dynamics 365 for Finance and Operations kiiremini kirjeid luua. Rakenduses Microsoft Dynamics 365 for Finance and Operations saate kirjemalle luua ainult teatud kirjetüüpide puhul.
 
 Näiteks kujutage ette, et sisestate renditeavet autorendiettevõtte puhul, mis asub San Franciscos. Kuna enamik kliente on tõenäoliselt pärit San Francisco piirkonnast, oleks tore, kui saaksite rendivormil automaatselt täita väljade **Osariik**, **Maakond** ja **Linn** väärtused.
 
@@ -39,4 +38,3 @@ Näiteks kujutage ette, et sisestate renditeavet autorendiettevõtte puhul, mis 
 > Saate malle rakendada ainult nendes Finance and Operationsi osades, millele teil juurdepääs on. Siiski on kõik mallipealkirjad teile uue kirje loomisel nähtavad, ja ka teistele kasutajatele, kui loote mallid, mis on saadaval kõigile kasutajatele. Võtke seda mallide nimetamisel arvesse. Vältige näiteks nimesid, mis sisaldavad selliseid sõnu, nagu „komisjonitasu”, kui see on konfidentsiaalne teave, et osa ettevõtte töötajatest saab komisjonitasul põhinevat palka.
 
 Kui teil on juurdepääs ühele või mitmele mallile, mis on loodud konkreetse vormi jaoks, ja proovite luua sellesse vormi uut kirjet, kuvatakse leht **Malli valimine üksusele**. Kui valite malli loendist, luuakse uus kirje, mis sisaldab valitud mallil põhinevat vaiketeavet. Kui te ei soovi uute kirjete loomisel malle kasutada, märkige ruut **Ära edaspidi küsi** lehel **Malli valimine üksusele**. Mallivaliku uuesti kuvamiseks paremklõpsake suvalisel kirjel, klõpsake valikut **Kirje teave** ning seejärel klõpsake valikut **Näita mallivalikut**.
-

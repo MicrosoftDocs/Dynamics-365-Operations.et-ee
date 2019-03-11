@@ -5,9 +5,9 @@ author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346084"
 ---
-
 # <a name="set-up-and-generate-positive-pay-files"></a>Positiivse makse failide seadistamine ja loomine
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ See artikkel selgitab, kuidas positiivset makset seadistada ja positiivse makse 
 Positiivse makse seadistamine pangale edastatava elektroonilise tšekkide loendi loomiseks. Tšeki esitamisel pangale võrdleb pank seda tšekkide loendiga. Kui tšekk vastab loendis olevale tšekile, maksab pank selle välja. Kui tšekk ei vasta ühelegi loendis olevale tšekile, võtab pank selle ülevaatamiseks enda kätte.
 
 ## <a name="security-for-positive-pay-files"></a>Positiivse makse failide turve
-Positiivse makse failides võib olla tundliku loomuga teavet maksesaajate ja tšekisummade kohta. Seetõttu kasutage kindlasti vajalikke turvameetmeid alates failide loomise hetkest kuni nende panka saabumiseni. Positiivse makse failid laaditakse alla teie veebibrauseri määratud asukohta. Kuna positiivsed maksefailid saavad sisaldada tundlikku teavet, on oluline, et ainult volitatud kasutajatel on rakenduses Microsoft Dynamics 365 for Finance and Operations juurdepääs selle teabe loomiseks ja vaatamiseks. Järgmise tabelis abil saate määratleda vajalikke õigusi.
+Positiivse makse failides võib olla tundliku loomuga teavet maksesaajate ja tšekisummade kohta. Seetõttu kasutage kindlasti vajalikke turvameetmeid alates failide loomise hetkest kuni nende panka saabumiseni. Positiivse makse failid laaditakse alla teie veebibrauseri määratud asukohta. Positiivse makse failides võib olla tundlikke andmeid, seega on tähtis, et ainult autoriseeritud kasutajatel oleks juurdepääs selle teabe loomiseks ja vaatamiseks Microsoft Dynamics 365 for Finance and Operationsis. Järgmise tabelis abil saate määratleda vajalikke õigusi.
 
 <table>
 <colgroup>
@@ -160,7 +159,6 @@ Kui positiivses maksefailis loetletud tšekid on tasutud, saate pangast kinnitus
 
 ## <a name="recall-a-positive-pay-file"></a>Positiivse makse faili tagasikutsumine
 Kui peate positiivse makse faili muutma, saate selle tagasi kutsuda. Valige lehelt **Positiivse maksefaili kokkuvõte** positiivne maksefail, mille olek on **Loodud**, ja valige siis toiming **Võta tagasi**. Igas positiivse makse failis oleva tšeki puhul lähtestatakse väli, mis näitab, kas see tšekk on olnud positiivse makse faili lisatud. Siis saate luua uue positiivse maksefaili, mis sisaldab tagasi võetud tšekki.
-
 
 
 

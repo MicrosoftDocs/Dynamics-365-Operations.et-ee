@@ -1,37 +1,36 @@
 ---
-title: "Müügitellimuste vahetu sünkroonimine rakenduste Sales ja Finance and Operations vahel"
-description: "See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse müügitellimuste sünkroonimiseks rakenduste Microsoft Dynamics 365 for Sales ja Microsoft Dynamics 365 for Finance and Operations vahel."
+title: Müügitellimuste vahetu sünkroonimine rakenduste Sales ja Finance and Operations vahel
+description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse müügitellimuste sünkroonimise käivitamiseks rakenduste Microsoft Dynamics 365 for Sales ja Microsoft Dynamics 365 for Finance and Operations vahel.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
 ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339115"
 ---
-
-# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Müügitellimuste vahetu sünkroonimine rakenduste Sales ja Finance and Operations vahel
+# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel
 
 [!include [banner](../includes/banner.md)]
 
-See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse müügitellimuste sünkroonimiseks rakenduste Microsoft Dynamics 365 for Sales ja Microsoft Dynamics 365 for Finance and Operations vahel.
+Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse müügitellimuste sünkroonimise käivitamiseks rakenduste Microsoft Dynamics 365 for Sales ja Microsoft Dynamics 365 for Finance and Operations vahel.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Andmevoog lahenduses Potentsiaalne klient sularahaks
 
@@ -198,4 +197,3 @@ Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 ## <a name="related-topics"></a>Seotud dokumendid
 
 [Potentsiaalne klient sularahaks](prospect-to-cash.md)
-

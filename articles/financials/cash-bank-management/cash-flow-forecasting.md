@@ -1,13 +1,13 @@
 ---
 title: Likviidsuse plaanimine
-description: "Selles teemas antakse ülevaade rahavoo prognoosimise protsessist. Samuti selgitatakse, kuidas rahavoogude prognoosimine on integreeritud teiste süsteemi moodulitega."
+description: Selles teemas antakse ülevaade rahavoo prognoosimise protsessist. Samuti selgitatakse, kuidas rahavoogude prognoosimine on integreeritud teiste süsteemi moodulitega.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 681817f2879034d65b53666a9d56ec00cc175ad8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
-ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324487"
 ---
-
 # <a name="cash-flow-forecasting"></a>Likviidsuse plaanimine
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,7 @@ Tööruum **Kassa ülevaade – kõik ettevõtted** näitab likviidsuse plaanimi
 
 Tööruumis **Kassa ülevaade – praegune ettevõte** näidatakse likviidsuse plaanimise analüüsi ettevõtte määratletud arvestusvaluutas. Analüüsiks kasutatav arvestusvaluuta on määratletud lehel **Pearaamat**. Selles tööruumis kuvatakse ülevaade likviidsuse plaanimisest ja pangakontode saldodest praeguse ettevõtte kohta. Sularaha sissetulekute ja väljaminekute diagramm annab ülevaate tulevastest sularaha liikumistest ja saldodest arvestusvaluutas, koos prognoositavate kannete üksikasjalike andmetega. Võimalik on vaadata ka prognoositavaid valuutasaldosid.
 
-Lisateavet likviidsuse plaanimise analüüsi kohta leiate Power BI sisuteemast Kassa ülevaade.
+Lisateavet likviidsuse plaanimise analüüsi kohta leiate teemast Kassa ülevaate Power BI sisu.
 
 Lisaks saate vaadata likviidsuse plaanimise andmeid konkreetsete kontode, tellimuste ja üksuste kohta järgmistelt lehtedelt.
 
@@ -138,5 +137,4 @@ Lisaks saate vaadata likviidsuse plaanimise andmeid konkreetsete kontode, tellim
 - **Kõik ostutellimused**: tehke vahekaardil **Arve** valik **Likviidsuse plaanimine** valitud ostutellimuse prognoositava mõju vaatamiseks sularahale.
 - **Pakkumise prognoos**: valige **Likviidsuse plaanid** valitud üksuse pakkumise prognoosiga seotud tulevaste rahavoogude vaatamiseks.
 - **Nõudluse prognoos**: valige **Likviidsuse plaanid** valitud üksuse nõudluse prognoosiga seotud tulevaste rahavoogude vaatamiseks.
-
 

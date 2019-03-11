@@ -1,13 +1,13 @@
 ---
 title: Projekti ostutellimused
-description: "See artikkel kirjeldab erinevaid meetodeid, mille abil saate luua projekti ostutellimusi. Kasutatav meetod sõltub ostutellimuse eesmärgist ja sellest, millal ostetud kaupu tarbitakse ja nende eest projektile kulud arvestatakse."
+description: See artikkel kirjeldab erinevaid meetodeid, mille abil saate luua projekti ostutellimusi. Kasutatav meetod sõltub ostutellimuse eesmärgist ja sellest, millal ostetud kaupu tarbitakse ja nende eest projektile kulud arvestatakse.
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 767a1805e7a2609c5c28bed891b42f7c8c3aaffc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: dae65394a2180ccbf3317a41b635ba97034e541b
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348683"
 ---
-
 # <a name="purchase-orders-for-a-project"></a>Projekti ostutellimused
 
 [!include [banner](../includes/banner.md)]
 
 See artikkel kirjeldab erinevaid meetodeid, mille abil saate luua projekti ostutellimusi. Kasutatav meetod sõltub ostutellimuse eesmärgist ja sellest, millal ostetud kaupu tarbitakse ja nende eest projektile kulud arvestatakse.
 
-Rakenduses Microsoft Dynamics 365 for Finance and Operations saate kasutada projekti ostutellimuste loomiseks mitut meetodit. Kasutatav meetod sõltub ostutellimuse eesmärgist, sellest, millal ostetud kaupu tarbitakse ja millal ostetud kaupade eest projektile kulud arvestatakse.
+Microsoft Dynamics 365 for Finance and Operationsis saate kasutada projekti ostutellimuste loomiseks mitut meetodit. Kasutatav meetod sõltub ostutellimuse eesmärgist, sellest, millal ostetud kaupu tarbitakse ja millal ostetud kaupade eest projektile kulud arvestatakse.
 
 ### <a name="methods-for-creating-a-purchase-order"></a>Ostutellimuse loomise meetodid
 
@@ -78,5 +77,4 @@ Saate projekti haldamise ja raamatupidamise ostutellimuse loomiseks kasutada üh
 > Hankijaarve või saatelehe uuendamisel palutakse teil uuendada ka kaubavajaduse saateleht.
 
 Lisateabe saamiseks vt [Kaubavajaduse ostutellimuse kaupade vastuvõtt](tasks/receive-items-purchase-order-item-requirement.md).
-
 

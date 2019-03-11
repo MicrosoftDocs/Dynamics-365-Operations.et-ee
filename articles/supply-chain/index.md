@@ -1,36 +1,31 @@
 ---
+# required metadata
 title: Tarneahela juhtimise avaleht
-description: See leht annab loendi tarneahela juhtimise funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations.
+description: Sel lehel on teenuse Microsoft Dynamics 365 for Finance and Operations tarneahela halduse funktsioonide spikriteemade ja muude ressursside loend.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: 
+ms.search.scope: 'Core, Operations'
+ms.custom: null
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: null
 ms.author: shylaw
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: '2016-11-30'
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/09/2018
-
 ---
 
-# <a name="supply-chain-management-home-page"></a>Tarneahela juhtimise avaleht
+# <a name="supply-chain-management-home-page"></a>Tarneahela haldamise avaleht
 
 [!include [banner](includes/banner.md)]
 
-See teema annab loendi tarneahela juhtimise funktsioonide spikriteemadest ja muudest ressurssidest rakenduses Microsoft Dynamics 365 for Finance and Operations. 
+Selles teemas on teenuse Microsoft Dynamics 365 for Finance and Operations tarneahela halduse funktsioonide spikriteemade ja muude ressursside loend. 
 
 ## <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 Valige <a href="https://roadmap.dynamics.com/">Dynamics 365 sisukaart</a>, et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel. 
@@ -53,17 +48,17 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
 
 ## <a name="videos"></a>Videod
 
-Need lühivideod aitavad teil rakenduse Microsoft Dynamics 365 for Finance and Operations versiooni 8.0 (aprill 2018) uute funktsioonidega tutvust teha.
+Nendest lühivideotest saate teavet uute funktsioonide kohta, mis on saadaval teenuse Microsoft Dynamics 365 for Finance and Operations versioonis 8.0 (aprill 2018).
 
 - [Töötellimuse sünkroonimine rakenduse Field Service ja rakenduse Finance and Operations vahel](https://youtu.be/hAB4TDVMjxU)
 
-Need lühivideod aitavad teil rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (detsember 2017) uute funktsioonidega tutvust teha.
+Nendest lühivideotest saate teavet uute funktsioonide kohta, mis on saadaval teenuse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition versioonis 7.3 (detsember 2017).
 
 -  [Potentsiaalse kliendi sularahaks integreerimine](https://youtu.be/AVV9x5x-XCg) 
 -  [Optimeerimise nõustaja](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 -  [Laomalli kasutamine konfiguratsiooni kopeerimiseks](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Need lühivideod aitavad teil rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017) uute funktsioonidega tutvust teha.
+Nendest lühivideotest saate teavet uute funktsioonide kohta, mis on saadaval teenuses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017).
 
 -  [Kuluarvestuse kasutamise alustamine](https://youtu.be/1pUDtJQZ8FU)
 -  [Kulude juhtimise mobiilne tööruum](https://youtu.be/imsuTg8rUVk)
@@ -85,7 +80,7 @@ Need tehnoloogiakonverentsi salvestised räägivad toote funktsionaalsusest rake
 
 **Tooteteabe haldus**
 
--  [Tootekonfiguraator rakenduses Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+-  [Toote konfiguraator teenuses Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 
 **Laohaldus** 
 
@@ -93,7 +88,7 @@ Need tehnoloogiakonverentsi salvestised räägivad toote funktsionaalsusest rake
 -  [Laohaldussüsteemi kasutamise parimad võimalused](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
 -  [R3 täpsem laohaldus – sissetulevate sõnumite töötlus ja minimaalne/maksimaalne täiendus](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
 -  [R3 täpsem laohaldus – ülevaade, väljaminevate sõnumite töötlus ja nõudluse tõttu täiendamine](https://youtu.be/Og0gLlVp7jA)
--  [Sildid uues Microsoft Dynamics AX 2012 R3 laohalduses](https://youtu.be/5w1MngVchBA)
+-  [Uue Microsoft DynamicsAX 2012 R3 laohalduse sildid](https://youtu.be/5w1MngVchBA)
 -  [Dynamics AX 2012 R3: täpsem laohaldus – protsesstootmise ülevaade](https://www.youtube.com/embed/QUxXUrN-7n4)
 
 **Tootmise juhtimine**
@@ -102,19 +97,18 @@ Need tehnoloogiakonverentsi salvestised räägivad toote funktsionaalsusest rake
 
 **Transpordihaldus**
 
--  [Transpordihaldus (TMS) uues Microsoft Dynamics AX-is](https://youtu.be/jgmTgJIgEFQ)
+-  [Transpordihaldus (TMS) uues teenuses Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Ajaveebid
-<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist</a> ning <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX-i tarneahela juhtimise uurimis- ja arendustöörühma ajaveebist</a> leiate palju teemasid tootmise ja tarneahela juhtimise kohta. Enamik neist on kirjutatud rakenduse Finance and Operationsi eelmise versiooni jaoks, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased. 
+<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist</a> ja <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX-i tarneahela haldamise uurimis- ja arendustöörühma ajaveebist</a> leiate palju teemasid tootmise ja tarneahela juhtimise kohta. Enamik neist on kirjutatud rakenduse Finance and Operationsi eelmise versiooni jaoks, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased. 
 
 ## <a name="white-papers"></a>Tehniline ülevaade
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Kuluarvestuse praktilised laborid</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: funktsioon „võimeline lubama“ ja kanban-tööde planeerimine</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Koosluse arvutamine kuluarvestustabeli abil</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Liikuvus laos, mida hõlbustab rakendus Microsoft Dynamics 365 for Finance and Operations</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Koosluse arvutamine kuluarvutustabeli abil</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Lao mobiilsust hõlbustab Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>E-õppe kursused
-Lisateabe saamiseks rakenduse Microsoft Dynamics 365 for Finance and Operations koolituste kohta vt <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamicsi õppeportaali</a>. (vajab CustomerSource’i kontot) 
-
+Lisateavet teenuse Microsoft Dynamics 365 for Finance and Operations koolituse kohta vt <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamicsi õppeportaalist</a>. (vaja on teenuse CustomerSource kontot) 
 
 

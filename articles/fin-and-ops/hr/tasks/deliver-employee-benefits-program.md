@@ -1,13 +1,13 @@
---- 
-title: "Töötaja soodustuste programmi pakkumine"
-description: "Selles ülesandes näitlikustatakse, kuidas luua soodustuse elemente, mida uue soodustuse loomisel kasutakse."
+---
+title: Töötaja soodustuste programmi pakkumine
+description: Selles ülesandes näitlikustatakse, kuidas luua soodustuse elemente, mida uue soodustuse loomisel kasutakse.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 5bf886086fe7ebe20e329c3b69697c390e1db998
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329593"
 ---
 # <a name="deliver-employee-benefits-program"></a>Töötaja soodustuste programmi pakkumine
 
@@ -69,5 +69,4 @@ Selles ülesandes näitlikustatakse, kuidas luua soodustuse elemente, mida uue s
 15. Klõpsake loendis valitud real olevat linki.
 16. Valige suvand väljal Alus.
 17. Sisestage arv väljale Summa või määr.
-
 

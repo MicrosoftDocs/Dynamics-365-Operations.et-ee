@@ -1,13 +1,13 @@
 ---
-title: "Jaetoodete häälestamine"
+title: Jaetoodete häälestamine
 description: Selles artiklis kirjeldatakse, kuidas seadistada jaetooteid rakenduses Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailProductAndCategoryWorkspace, EcoResProductDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,26 +19,24 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 991546424a95463315eaa73c2776d0defe66def5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0906d83ea00edcbd4c04a1f21cc0911828286607
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357400"
 ---
-
 # <a name="set-up-retail-products"></a>Jaetoodete häälestamine
 
 [!include [banner](includes/banner.md)]
 
 Selles artiklis kirjeldatakse, kuidas seadistada jaetooteid rakenduses Microsoft Dynamics 365 for Retail.
 
-Enne kui saate oma jaemüügikanalitel hakata tooteid edasimüügiks pakkuma, peate tooted looma ja konfigureerima rakenduses Dynamics 365 for Retail. Jaemüük kasutab rakenduses Dynamics 365 for Retail olevaid tootefunktsioone, et luua tooteetalonis kogu organisatsiooni hõlmavaid tooteid. Saate luua tooted, määratleda toote omadused ja atribuudid ning määrata tooted jaemüügikategooria hierarhiatesse. Selleks et teha tooted jaemüügikanalites kättesaadavaks ja lisada need aktiivsele sortimendile, peate tooted väljastama juriidilistele isikutele, kus need on saadaval. Jaemüügikanalite kaudu müüdavate toodete seadistamiseks täitke järgmised ülesanded.
+Enne kui saate tooteid oma jaemüügikanalitel edasimüügiks pakkuda, peate tooted rakenduses Dynamics 365 for Retail looma ja konfigureerima. Jaemüük kasutab Dynamics 365 for Retaili tootefunktsioone tooteetalonis organisatsiooniüleste toodete loomiseks. Saate luua tooted, määratleda toote omadused ja atribuudid ning määrata tooted jaemüügikategooria hierarhiatesse. Selleks et teha tooted jaemüügikanalites kättesaadavaks ja lisada need aktiivsele sortimendile, peate tooted väljastama juriidilistele isikutele, kus need on saadaval. Jaemüügikanalite kaudu müüdavate toodete seadistamiseks täitke järgmised ülesanded.
 
-1. Määratlege jaemüügi tootehierarhia. Rakenduses Dynamics 365 for Retail olevate kategooriahierarhiate funktsioonide kasutamisel saate määratleda jaemüügikategooria hierarhiad, et grupeerida ja kategoriseerida jaemüügikanalitesse levitatavaid tooteid. Kasutaja määratletavaid ja süsteemi atribuute saab määratleda kategooria tasemel. Seejärel, pärivad kõik kategooriale määratud tooted need atribuudid. Määratleda saab mitu kategooriahierarhiat ja iga toote saab määrata mitmele hierarhiale. Ühes hierarhias saab siiski iga toote määrata ainult ühte kategooriasse.
+1. Määratlege jaemüügi tootehierarhia. Dynamics 365 for Retaili kategooriahierarhia funktsioonide kasutamisel saate määratleda jaemüügikategooria hierarhiad oma jaemüügikanalitesse levitatavate toodete grupeerimiseks ja kategoriseerimiseks. Kasutaja määratletavaid ja süsteemi atribuute saab määratleda kategooria tasemel. Seejärel, pärivad kõik kategooriale määratud tooted need atribuudid. Määratleda saab mitu kategooriahierarhiat ja iga toote saab määrata mitmele hierarhiale. Ühes hierarhias saab siiski iga toote määrata ainult ühte kategooriasse.
 2. Lisage tooted ja tootevariandid tooteetalonile. Tooteetalonile lisatud tooted esindavad toodete globaalset loendit. Saate lisada tooteid käsitsi, ükshaaval või importida toote andmed hankijatelt.
 3. Väljastage tooted juriidilistele isikutele. Jaemüügikanalitele saab kättesaadavaks teha ainult juriidilistele isikutele väljastatud tooteid. Toote algsel määratlemisel määratlege see organisatsiooniülesel tasemel. Seejärel saate valida ühe või mitu juriidilist isikut, kellele toode väljastada. Siis muutub toode kättesaadavaks teie organisatsiooni mitmele jaemüügikanalile. Selle funktsiooni abil saate luua toote ühekorraga, lisada ning värskendada toote atribuute ja omadusi ühes kohas ning seejärel levitada toodet kogu organisatsioonis jaemüügikanalitesse, kus see on saadaval.
 4. Lisage tooted sortimentidesse. Sortiment kujutab endast teie jaemüügikanalites pakutavate toodete kogumit. Saate määratleda ühe või mitu sortimenti ja iga toote saab määrata ühte või mitmesse sortimenti. Toodete määramiseks jaemüügikanalitele määrake sortimentid nende jaemüügikanalitele. Sortimendi loomisel saate lisada tooteid, mida pole veel juriidilisele isikule väljastatud. Siiski peate tooted väljastama juriidilisele isikule enne, kui need saab jaemüügikanalitele kättesaadavaks teha.
 5. Lisage tooted navigeerimishierarhiatele. Enne kui tooteid saab võrgus või kassas sirvida, tuleb need kategoriseerida jaemüügi navigeerimishierarhias.
 6. Lisage kataloogidesse tooted. Kuigi see juhis on kassa jaoks valikuline, nõuavad võrgupoed, et tooteid kaasataks vähemalt ühte kataloogi.
-

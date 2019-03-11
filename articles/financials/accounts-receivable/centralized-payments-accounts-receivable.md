@@ -1,13 +1,13 @@
 ---
-title: "Müügireskontro tsentraliseeritud maksed"
-description: "Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada sama kannet mitmesse juriidilisse isikusse. Selles artiklis tuuakse näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist erinevates stsenaariumides käsitletakse."
+title: Müügireskontro tsentraliseeritud maksed
+description: Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada sama kannet mitmesse juriidilisse isikusse. Selles artiklis tuuakse näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist erinevates stsenaariumides käsitletakse.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7208acc35e656d12b3c4f88a090f36ecfdd4fdfb
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330743"
 ---
-
 # <a name="centralized-payments-for-accounts-receivable"></a>Müügireskontro tsentraliseeritud maksed
 
 [!include [banner](../includes/banner.md)]
@@ -297,7 +296,6 @@ Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Ma
 | Müügireskontro (Lääne Fabrikam)    |              | 75,00         |
 | Võlg Ida Fabrikamilt (Lääne Fabrikam) | 25,00        |               |
 | Müügireskontro (Lääne Fabrikam)    |              | 25,00         |
-
 
 
 

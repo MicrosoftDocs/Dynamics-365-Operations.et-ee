@@ -5,9 +5,9 @@ author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 34f80d283bb710d7db3137a439dbe8dc67d22682
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351650"
 ---
-
 # <a name="project-resourcing"></a>Projekti ressursieraldus
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas antakse teavet projekti ressursieralduse kohta.
 
-Üks väljakutse projektijuhtide ja ressursihaldurite jaoks projekti plaanimisetapis on ressursside eraldamine, mille käigus nad peavad projektiga töötamiseks õige ressursi välja selgitama ja reserveerima. Rakenduses Microsoft Dynamics 365 for Finance and Operations saab projektide ressursieralduse võimaluste abil määratleda rolle, mida käsitletakse ajutiste ressurssidena, mille saab reserveerida konkreetsele tegevusele või tegevuse osale. Sedalaadi ressursieraldus võimaldab projektijuhtidel ja ressursihalduritel teha järgmisi toiminguid.
+Üks väljakutse projektijuhtide ja ressursihaldurite jaoks projekti plaanimisetapis on ressursside eraldamine, mille käigus nad peavad projektiga töötamiseks õige ressursi välja selgitama ja reserveerima. Microsoft Dynamics 365 for Finance and Operationsis saab projektide ressursieralduse võimaluste abil määratleda rolle, mida käsitletakse ajutiste ressurssidena, mille saab reserveerida konkreetsele tegevusele või tegevuse osale. Sedalaadi ressursieraldus võimaldab projektijuhtidel ja ressursihalduritel teha järgmisi toiminguid.
 
 - Määratleda ressursside sobitamise hõlbustamiseks rolli, millel on vajalikud kompetentsid.
 - Kasutada rolle reserveeritud ressurssidel põhineva algse tegevuse ajakava määratlemiseks.
@@ -351,4 +350,3 @@ Pärast eelmiste toimingute tegemist võite teha vajaduse järgi järgmised toim
 ## <a name="monitor-project-teams"></a>Jälgida projektimeeskondi
 1. Valige lehelt **Kõik projektid** projekti **XYZ täiendusfaas 2** link **Projekti ID**.
 2. Veenduge, et kiirkaardil **Projektimeeskond ja plaanimine** loetletud projektiressursid on õiged.
-

@@ -1,13 +1,13 @@
 ---
-title: "Üldkulude arvutus"
-description: "Selles teemas kirjeldatakse tüüpilisi üldkulude arvutamise ja eraldamise protsesse."
+title: Üldkulude arvutus
+description: Selles teemas kirjeldatakse tüüpilisi üldkulude arvutamise ja eraldamise protsesse.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
 ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/05/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335113"
 ---
-
 # <a name="overhead-calculation"></a>Üldkulude arvutus
 
 [!include [banner](../includes/banner.md)]
@@ -1413,7 +1412,6 @@ Finantsaruandluses sisestatakse elektrikulu 10 000,00 fiktiivse kulukeskuse ID-l
 
 > [!NOTE]
 > Selles teemas selgitatakse, kuidas esmane kuluelement, 10001 Eleter, liigub läbi kuluobjektide. Seega eraldatakse see üldkulu organisatsiooni madalaimale tasemele. Teisisõnu kannavad kulu madalaimal tasemel olevad kuluobjektid. Kui soovite saada kuluobjektide vahelisest kuluvoost visuaalset ülevaadet, saate kuluvoo visualiseerimiseks kasutada kulude kokkuvõtte poliitika reegleid. Täpsemat teavet vt teemast [Kulude kokkuvõte](cost-rollup.md).
-
 
 
 

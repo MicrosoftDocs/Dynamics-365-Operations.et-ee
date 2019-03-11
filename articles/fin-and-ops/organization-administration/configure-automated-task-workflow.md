@@ -1,13 +1,13 @@
 ---
-title: "Töövoos automaatsete ülesannete konfigureerimine"
-description: "See teema selgitab, kuidas konfigureerida automatiseeritud ülesande atribuute."
+title: Töövoos automaatsete ülesannete konfigureerimine
+description: See teema selgitab, kuidas konfigureerida automatiseeritud ülesande atribuute.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5a9f37228beedafa085987668d5c89b06c6c9d61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 047abbf297b3514c7f97d2baa6c0f5cab6696cde
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365105"
 ---
-
 # <a name="configure-automated-tasks-in-a-workflow"></a>Töövoos automaatsete ülesannete konfigureerimine
 
 [!include [banner](../includes/banner.md)]
@@ -112,4 +111,3 @@ Saate saate inimestele teatisi, kui automatiseeritud ülesannet käitatakse või
     </table>
 
 8. Korrake 3.–7. toimingut iga sündmuse puhul, mille 2. etapis valisite.
-

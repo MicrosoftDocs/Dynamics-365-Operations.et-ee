@@ -5,9 +5,9 @@ author: NickSelin
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
 ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331272"
 ---
-
 # <a name="formula-designer-in-electronic-reporting-er"></a>Valemikoostaja elektroonilises aruandluses (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -731,7 +730,7 @@ Kui need andmeallikad on määratletud, saate kasutada avaldist, nt <strong>FILT
 | FA\_BALANCE (põhivara kood, väärtusmudeli kood, aruandlusaasta, aruande kuupäev) | Annab vastuseks põhivarasaldo ettevalmistatud andmekonteineri. Aruandlusaasta peab olema määratud Finance and Operationsi loetelu **AssetYear** väärtusena. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** annab vastuseks põhivara **"COMP-000001"** väärtusmudeliga **"Praegune"** saldode ettevalmistatud andmekonteineri praegusel 365 for Finance and Operationsi seansi kuupäeval. |
 | TABLENAME2ID (string) | Annab vastuseks antud tabelinime tabeli ID täisarvu kujul. | **TABLENAME2ID ("Intrastat")** annab vastuse **1510**. |
 | ISVALIDCHARACTERISO7064 (string) | Annab vastuseks kahendmuutuja **TRUE**, kui määratud string on kehtiv rahvusvaheline pangakonto number (IBAN). Muul juhul annab vastuseks kahendmuutuja väärtuse **FALSE**. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** annab vastuse **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** annab vastuse **FALSE**. |
-| NUMSEQVALUE (numbriseeria kood, ulatus, ulatuse-id) | Annab vastuseks numbriseeria uue loodud väärtuse, põhinedes määratletud numbriseeria koodil, ulatusel ja ulatuse ID-l. Väärtus peab olema määratletud kui **ERExpressionNumberSequenceScopeType** loetelu väärtus (**jagatud**, **juriidiline isik**, või **ettevõtte**). Määratlege **Jagatud** ulatuse jaoks tühi strin ulatuse ID-ks. Määratlege **Ettevõtte** ja **Juriidilise isiku** ulatustele ettevõtte kood ulatuse ID-ks. Kui määratlete **Ettevõtte** ja **Juriidilise isiku** ulatustele ulatuse ID-ks tühja stringi, kasutatakse praegust ettevõtte koodi. | Määratlege oma mudelivastenduses järgmised andmeallikad.<ul><li>**enumScope** (**Dynamics 365 for Operations loetelu** tüüp), mis viitab **ERExpressionNumberSequenceScopeType** loetelule</li><li>**NumSeq** (**Arvutatud välja** tüüp), mis sisaldab avaldist **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Kui kutsutakse **NumSeq** andmeallikat, tagastatakse numbriseeria **Gene\_1** uus loodud väärtus, mis on konfigureeritud selle ettevõtte jaoks, mis varustab ER-vormingu käitamise konteksti. |
+| NUMSEQVALUE (numbriseeria kood, ulatus, ulatuse-id) | Annab vastuseks numbriseeria uue loodud väärtuse, põhinedes määratletud numbriseeria koodil, ulatusel ja ulatuse ID-l. Väärtus peab olema määratletud kui **ERExpressionNumberSequenceScopeType** loetelu väärtus (**jagatud**, **juriidiline isik**, või **ettevõtte**). Määratlege **Jagatud** ulatuse jaoks tühi strin ulatuse ID-ks. Määratlege **Ettevõtte** ja **Juriidilise isiku** ulatustele ettevõtte kood ulatuse ID-ks. Kui määratlete **Ettevõtte** ja **Juriidilise isiku** ulatustele ulatuse ID-ks tühja stringi, kasutatakse praegust ettevõtte koodi. | Määratlege oma mudelivastenduses järgmised andmeallikad.<ul><li>**enumScope** (**Dynamics 365 for Operations enumeration** tüüp), mis viitab loetelule **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (**Arvutatud välja** tüüp), mis sisaldab avaldist **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Kui kutsutakse **NumSeq** andmeallikat, tagastatakse numbriseeria **Gene\_1** uus loodud väärtus, mis on konfigureeritud selle ettevõtte jaoks, mis varustab ER-vormingu käitamise konteksti. |
 | NUMSEQVALUE (numbriseeria kood) | Tagastab numbriseeria uue loodud väärtuse, põhinedes määratletud numbriseerial, **Ettevõtte** ulatusel ja (nagu ulatuse ID puhul) ettevõtte koodil, mis varustab ER-vormingu käitamise konteksti. | Saate määratleda järgmise andmeallika oma mudeli vastendamisel: **NumSeq** (**arvutatud välja** tüüp). See andmeallikas sisaldab avaldist **NUMSEQVALUE ("Gene\_1")**. Kui kutsutakse **NumSeq** andmeallikat, tagastatakse numbriseeria **Gene\_1** uus loodud väärtus, mis on konfigureeritud selle ettevõtte jaoks, mis varustab ER-vormingu käitamise konteksti. |
 | NUMSEQVALUE (numbriseeria kirje ID) | Annab vastuseks numbriseeria uue loodud väärtuse, põhinedes määratletud numbriseeria kirje ID-l. | Määratlege oma mudelivastenduses järgmised andmeallikad.<ul><li>**LedgerParms** (tüüp **Tabel**), mis viitab tabelile LedgerParameters</li><li>**NumSeq** (**Arvutatud välja** tüüp), mis sisaldab avaldist **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Kui kutsutakse **NumSeq** andmeallikat, tagastatakse numbriseeria uus loodud väärtus, mis on konfigureeritud pearaamatu parameetrites selle ettevõtte jaoks, mis varustab ER-vormingu käitamise konteksti. See numbriseeria tuvastab kordumatult töölehed ja toimingud partiinumbrina, mis seob kanded omavahel. |
 
@@ -743,4 +742,3 @@ ER laseb laiendada nende funktsioonide loendit, mida kasutatakse ER-i avaldistes
 
 - [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse (ER) funktsioonide loendi laiendamine](general-electronic-reporting-formulas-list-extension.md)
-

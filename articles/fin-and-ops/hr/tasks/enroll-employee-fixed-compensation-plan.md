@@ -1,13 +1,13 @@
---- 
-title: "Töötaja liitmine fikseeritud hüvitusplaaniga"
-description: "Lisatasu ja eeliste haldur saab määrata töötajad põhipalga plaani nende põhipalga haldamiseks."
+---
+title: Töötaja liitmine fikseeritud hüvitusplaaniga
+description: Lisatasu ja eeliste haldur saab määrata töötajad põhipalga plaani nende põhipalga haldamiseks.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLookup, HRMCompRefPointLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: c9c11292feec06a53cd4426a25bfb2aaac7de3e8
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353329"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Töötaja liitmine fikseeritud hüvitusplaaniga
 
@@ -40,5 +40,4 @@ Lisatasu ja eeliste haldur saab määrata töötajad põhipalga plaani nende põ
     * Lisatasu jõustumis- ja aegumiskuupäevad tulenevad vaikimisi töötaja ametikoha määramise algus- ja lõppkuupäevadest. Vajaduse korral saate neid kuupäevi muuta.  
     * Kui Põhipalgaplaan on etapiplaan, valige etapp, mis sisaldab töötaja õiget palgamäära. Kui põhipalgaplaan on taseme- või palgaastmiku plaan, sisestage töötaja palgamäär. Palgamäära kontrollitakse plaani kõikumise sätetega ja töö lisatasu taseme minimaalsete ja maksimaalsete viitepunktidega.  
 8. Klõpsake nuppu OK.
-
 

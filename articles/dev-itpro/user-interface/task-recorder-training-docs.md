@@ -1,13 +1,13 @@
 ---
-title: "Dokumentide või koolituse loomine tegevuse salvestiste abil"
+title: Dokumentide või koolituse loomine tegevuse salvestiste abil
 description: See teema selgitab, mis asjad on tegevuse salvestaja ja tegevuse juhised, kuidas luua tegevuse salvestisi ja kuidas kohandada Microsoft tegevuse juhiseid ja kaasata neid oma spikrisse.
 author: josaw1
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: fc5b0798397047d1adedfc19406a7875c853bea6
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353421"
 ---
-
 # <a name="create-documentation-or-training-by-using-task-recordings"></a>Dokumentide või koolituse loomine tegevuse salvestiste abil
 
 [!include [banner](../includes/banner.md)]
@@ -33,19 +32,19 @@ ms.lasthandoff: 08/08/2018
 See teema selgitab, mis asjad on tegevuse salvestaja ja tegevuse juhised, kuidas luua tegevuse salvestisi ja kuidas kohandada Microsoft tegevuse juhiseid ja kaasata neid oma spikrisse.
 
 > [!IMPORTANT]
-> Saate salvestada oma ülesande juhised Dynamics 365 for Talent, kuid praegu ei saa te neid äriprotsesside modelleerija (BPM) teeki salvestada või avada neid paanilt Spikker. Saate need lokaalselt või võrgukohta salvestada ning seejärel neid tegevuse salvestajaga avada ja esitada. 
+> Saate salvestada oma rakenduse Dynamics 365 for Talent tegevusjuhised, kuid ei saa neid praegu äriprotsesside modelleerija (BPM) teeki salvestada ega neid paanilt Spikker avada. Saate need lokaalselt või võrgukohta salvestada ning seejärel neid tegevuse salvestajaga avada ja esitada. 
 
 <a name="learn-about-task-recorder"></a>Teave tegevuse salvestaja kohta
 -------------------------
 
 Tegevuse salvestaja on tööriist, mille abil saab salvestada toote kasutajaliideses tehtavaid toiminguid. Tegevuse salvestaja kasutamisel jäädvustatakse kõik sündmused, mida kasutajaliideses teete ja mis serveri suhtes käivitatakse, sh väärtuste lisamine, sätete muutmine ja andmete eemaldamine. Salvestatud toiminguid nimetatakse ühiselt *tegevuse salvestiseks*. Tegevuse salvestisi saab kasutada mitmesugusel moel.
 
--   **Tegevuse salvestisi saab esitada tegevuse juhistena.** Tegevusjuhised on spikri kasutuskogemuse lahutamatu osa. Tegevuse juhis on kontrollitud, juhendatud, interaktiivne kogemus, mis juhib teid äriprotsessi etappides. Kasutajal palutakse läbida iga etapp hüpikviiba (ehk mulli) abil, mis liigub läbi kasutajaliidese ja osutab kasutajaliidese elemendile, millega kasutaja peaks suhtlema. „Mull” annab ka teavet selle kohta, kuidas suhelda elemendiga, nagu „Klõpsake siin” või „Sisestage sellele väljale väärtus”. Tegevuse juhis käitatakse kasutaja praeguse andmekogumi suhtes ja sisestatud andmed salvestatakse kasutaja keskkonda.
--   **Tegevuse salvestisi saab kuvada spikri paanil protseduuri juhistena.** Saate kasutada spikri paani tegevuse salvestiste otsimiseks ja kuvamiseks. Saate juurdepääsu spikripaanile, klõpsates ülemisel navigatsiooniribal ikooni **?** või saate kasutada kiirklahvikombinatsiooni **Ctrl+Shift+?**. Saate lugeda spikripaanilt tegevuse salvestise juhiseid või otsustada esitada salvestise tegevuse juhisena, nii et see juhib teid läbi kasutajaliidese.
--   **Tegevuse salvestised saab BPM-i salvestada.** Saate oma ülesande salvestise salvestada hierarhia reale BPM-i teegis teenuses Lifecycle Services (LCS). Salvestisest luuakse toimingute loend ja äriprotsessi voodiagramm. BPM-i teeki salvestatud tegevuse salvestised võib kuvada spikrina.
+-   **Tegevuse salvestisi saab esitada tegevuse juhistena.** Tegevusjuhised on spikri kasutuskogemuse lahutamatu osa. Tegevuse juhis on kontrollitud, juhendatud, interaktiivne kogemus, mis juhib teid äriprotsessi etappides. Kasutajal palutakse läbida iga etapp hüpikviiba (ehk mulli) abil, mis liigub läbi kasutajaliidese ja osutab kasutajaliidese elemendile, millega kasutaja peaks suhtlema. „Mull” annab ka teavet selle kohta, kuidas suhelda elemendiga, nagu „Klõpsake siin” või „Sisestage sellele väljale väärtus”. Tegevuse juhis käitatakse kasutaja praeguse andmekogumi suhtes ja sisestatud andmed salvestatakse kasutaja keskkonda.
+-   **Tegevuse salvestisi saab kuvada spikri paanil protseduuri juhistena.** Saate kasutada spikri paani tegevuse salvestiste otsimiseks ja kuvamiseks. Saate juurdepääsu spikripaanile, klõpsates ülemisel navigatsiooniribal ikooni **?** või saate kasutada kiirklahvikombinatsiooni  **Ctrl+Shift+?**. Saate lugeda spikripaanilt tegevuse salvestise juhiseid või otsustada esitada salvestise tegevuse juhisena, nii et see juhib teid läbi kasutajaliidese.
+-   **Tegevuse salvestised saab BPM-i salvestada.** Saate oma tegevuse salvestise salvestada hierarhia reale BPM-i teegis teenuses Lifecycle Services (LCS). Salvestisest luuakse toimingute loend ja äriprotsessi voodiagramm. BPM-i teeki salvestatud tegevuse salvestised võib kuvada spikrina.
 -   **Tegevuse salvestised saab salvestada Wordi dokumentidena.** See võimaldab hõlpsasti prinditavaid koolitusjuhendeid koostada.
 
-Saate luua oma tegevuse salvestisi, esitada Microsofti pakutavaid tegevuse salvestisi või muuta Microsofti pakutavaid tegevuse salvestisi teie konfiguratsiooni kajastamiseks. Lisateavet tegevuse salvestaja kohta vt jaotisest [Tegevuse salvestaja](task-recorder.md).
+Saate luua oma tegevuse salvestisi, esitada Microsofti pakutavaid tegevuse salvestisi või muuta Microsofti pakutavaid tegevuse salvestisi teie konfiguratsiooni kajastamiseks. Lisateavet tegevuse salvestaja kohta vt teemast [Tegevuse salvestaja](task-recorder.md).
 
 ## <a name="plan-your-task-recording"></a>Tegevuse salvestaja plaanimine
 Kui loote uut tegevuse salvestust või tuginete oma salvestise puhul Microsofti tegevuse salvestisele, pidage meeles järgmist.
@@ -65,7 +64,7 @@ Kui loote uut tegevuse salvestust või tuginete oma salvestise puhul Microsofti 
 
 **Erinevad marginaalide tüübid** Kõik marginaalid on valikulised. Lisage need ainult siis, kui nad annavad kasutajale kasulikku teavet.
 
--   **Pealkiri**: pealkirja marginaal kuvatakse enne toimingu teksti, mille tegevuse salvestaja automaatselt loob. Tegevuse juhises ilmub automaatselt loodud teksti kohal pealkirja marginaal. Kasutage seda tüüpi marginaali selgitamiseks, miks kasutaja seda toimingut teeb, või täiendava konteksti pakkumiseks.
+-   **Pealkiri**: pealkirja marginaal kuvatakse enne toimingu teksti, mille tegevuse salvestaja automaatselt loob. Tegevuse juhises ilmub automaatselt loodud teksti kohal pealkirja marginaal. Kasutage seda tüüpi marginaali selgitamiseks, miks kasutaja seda toimingut teeb, või täiendava konteksti pakkumiseks.
 
 See on redigeerimispaan, mida marginaali lisamisel näete, kui oma salvestist teete. Sisestage marginaali pealkiri väljale **Pealkiri**. 
 
@@ -85,7 +84,7 @@ Selline näeb välja märkuste marginaal tegevusjuhises mullina.
 
 [![kuva4](./media/screen4.png)](./media/screen4.png)
 
--   **Teabeetapp**: nende marginaalide loomiseks paremklõpsake juhtelemendil või kõikjal vormis &lt; **Tegevuse salvestaja** &lt; **Lisa teabeetapp. **Teabeetapid kuvatakse nummerdatud etapina igas punktis, kuhu selle sisestate, isegi kui kasutajaliideses ei salvestatud ühtki tegevust. Saate lisada vormi-taseme teabeetapi või juhtelemendiga seotud teabeetapi. Kui teabeetapp on vormiga seotud, ilmub vormile tegevuse juhise esitamisel tegevuse juhise „mull” ilma kursorita. Kui teabeetapp on seotud juhtelemendiga, osutab tegevuse juhise „mull” tegevuse juhise esitamisel juhtelemendina. Spikripaanis kuvatakse teabeetapi mis tahes sisestatud tekstiga marginaal nummerdatud etapina. Kasutage teabeetappe kasutaja ettevalmistamiseks järgmisteks toiminguteks, väljaspool rakendust Microsoft Dynamics 365 for Finance and Operations tehtavate toimingute kirjeldamiseks või teistele salvestistele viitamiseks (kuigi marginaalides ei saa hüperlinke luua).
+-   **Teabeetapp**: need marginaalid luuakse paremklõpsuga juhtelemendil või suvalises kohas vormil &lt; **Tegevuse salvestaja** &lt; **Lisa teabeetapp.** Teabeetapid kuvatakse nummerdatud etapina igas punktis, kuhu selle sisestate, isegi kui kasutajaliideses ei salvestatud ühtki tegevust. Saate lisada vormi-taseme teabeetapi või juhtelemendiga seotud teabeetapi. Kui teabeetapp on vormiga seotud, ilmub vormile tegevuse juhise esitamisel tegevuse juhise „mull” ilma kursorita. Kui teabeetapp on seotud juhtelemendiga, osutab tegevuse juhise „mull” tegevuse juhise esitamisel juhtelemendina. Spikripaanil kuvatakse teabeetapi mis tahes sisestatud tekstiga marginaal nummerdatud etapina. Kasutage teabeetappe kasutaja ettevalmistamiseks järgmisteks toiminguteks, väljaspool Microsoft Dynamics 365 for Finance and Operationsit tehtavate toimingute kirjeldamiseks või teistele salvestistele viitamiseks (kuigi marginaalides ei saa hüperlinke luua).
 
 **Määrake, kui pika salvestise teete**
 
@@ -95,10 +94,10 @@ Selline näeb välja märkuste marginaal tegevusjuhises mullina.
 -   Kui protsess hõlmab mitut tegevust, mida inimene tõenäoliselt korraga teeb, võite hoida tegevusi ühes salvestises, nt Funktsiooniprofiilide seadistamine ja määramine.
 -   Kui see on midagi sellist, mida tehakse üks kord (nt konfigureerimine) ja siis tehakse kohe teine tegevus, mida võidakse teha korduvalt ja eraldi, eraldage need kaheks tegevuse salvestiseks.
 
-**Otsustage, kust kasutajaliideses salvestamist alustada** Lehekülg, millel tegevuse salvestise salvestamise käivitamisel asute, mõjutab seda, millisel lehekülje jaoks tegevuse juhis kuvatakse. Näiteks kui soovite, et teie tegevuse salvestis oleks loetletud spikripaanil, kui kasutaja klõpsab lehel Pearaamatu parameetrid spikrit, tuleb alustada salvestamist lehelt Pearaamatu parameetrid. **Salvestiste salvestamine axtr-failidena** Kui olete tegevuse salvestise loomise või redigeerimise lõpetanud, kuvatakse teile mitu valikut salvestise allalaadimiseks või salvestamiseks. Saate laadida failid alla tegevuse salvestise paketina (.axtr), laadida need alla töötlemata salvestise failina (.xml), Wordi dokumendina või salvestada faili LCS-i teeki. On soovitatav salvestada tegevuse salvestis alati tegevuse salvestise paketifailina (.axtr). See aitab faili hõlpsamini hallata, kui hiljem peaks olema vaja protseduure või marginaale muuta. Kui soovite laadida faili alla Wordi dokumendina, salvestage see samuti tegevuse salvestise paketifailina.
+**Otsustage, kust kasutajaliideses salvestamist alustada** Lehekülg, millel tegevuse salvestise salvestamise käivitamisel asute, mõjutab seda, millisel lehekülje jaoks tegevuse juhis kuvatakse. Näiteks kui soovite, et teie tegevuse salvestis oleks loetletud spikripaanil, kui kasutaja klõpsab lehel Pearaamatu parameetrid spikrit, tuleb alustada salvestamist lehelt Pearaamatu parameetrid. **Salvestiste salvestamine axtr-failidena** Kui olete tegevuse salvestise loomise või redigeerimise lõpetanud, kuvatakse teile mitu valikut salvestise allalaadimiseks või salvestamiseks. Saate laadida failid alla tegevuse salvestise paketina (.axtr), laadida need alla töötlemata salvestise failina (.xml), Wordi dokumendina või salvestada faili LCS-i teeki. On soovitatav salvestada tegevuse salvestis alati tegevuse salvestise paketifailina (.axtr). See aitab faili hõlpsamini hallata, kui hiljem peaks olema vaja protseduure või marginaale muuta. Kui soovite laadida faili alla Wordi dokumendina, salvestage see samuti tegevuse salvestise paketifailina.
 
 ## <a name="create-your-task-recording"></a>Tegevuse salvestise loomine
-Üksikasjalike protsessijuhiste puhul vaadake teemat [Kuidas luua tegevuse salvestisi](task-recorder.md).
+Üksikasjalikud protsessijuhised leiate jaotisest [Kuidas luua tegevuse salvestisi](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Microsofti tegevuse salvestiste kopeerimine ja kohandamine
 Saate Microsofti tegevuse salvestised alla laadida ja neid redigeerida, et kasutada neid oma spikridokumentides või koolitusmaterjalides. Microsofti tegevuse salvestise allalaadimiseks tehke järgmist.
@@ -111,7 +110,7 @@ Saate Microsofti tegevuse salvestised alla laadida ja neid redigeerida, et kasut
 6.  Valige puult äriprotsessi teegi sõlm, millega tegevuse salvestis on seotud.
 7.  Klõpsake nupul **OK**.
 8.  Klõpsake käsku **Käivita**.
-9.  Sellel hetkel kerige salvestis läbi, muutes liikudes mis tahes etappe, et see uuesti salvestada. **Märkus**. Kui peate muutma ainult salvestise teksti, saate salvestise avada režiimis **Salvestise marginaalide redigeerimine** ja selle seejärel salvestada.
+9.  Selles punktis liikuge läbi salvestise, muutes jooksvalt toiminguid ja salvestades need uuesti. **Märkus**. Kui teil on vaja ainult salvestise teksti muuta, võite avada salvestise režiimis **Salvestise marginaalide redigeerimine** ja seejärel selle salvestada.
 10. Kui salvestis on lõpuni mänginud, klõpsake ekraani ülaosas tegevuse salvestaja ribal nuppu **Peata**.
 11. Valige, kuidas tegevuse salvestist salvestada soovite.
 
@@ -128,4 +127,3 @@ Oma kohandatud tegevuse salvestiste kuvamiseks spikripaanil, et neid saaks tegev
 [Tegevuse salvestaja](task-recorder.md)
 
 [Tegevuse salvestajaga Richi spikriteemade loomine (väline link)](https://mbspartner.microsoft.com/AX/Videos/970)
-

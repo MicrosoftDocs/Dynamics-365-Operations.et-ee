@@ -1,13 +1,13 @@
 ---
 title: Statistilise alusprognoosi koostamine
-description: "Selles artiklis on esitatud teave nõudluse prognoosimise arvutamisel kasutatavate parameetrite ja filtrite kohta."
+description: Selles artiklis on esitatud teave nõudluse prognoosimise arvutamisel kasutatavate parameetrite ja filtrite kohta.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326419"
 ---
-
 # <a name="generate-a-statistical-baseline-forecast"></a>Statistilise alusprognoosi koostamine
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Ajaloolise perioodi lõppu eiratakse, kui prognoosi strateegiaks on määratud *
 
 Tootmisplaanide segaduse vältimiseks saab teatud hulga prognoosivahemike külmutada. Selle arvu saab määrata väljal **Külmuta ajapiir**. Lehel **Korrigeeritud nõudluse prognoos** on külmutatud vahemike lahtrid keelatud, et näidata visuaalselt, et neid väärtusi ei peaks muutma. 
 
-Nõudluse alusprognoosi alguskuupäev ei pea olema tänane kuupäev ega tulevane kuupäev. Teise alguskuupäeva määramiseks kasutage välja **Alusprognoosi alguskuupäev – alates kuupäevast**. Näiteks saavad kasutajad juunis järgmise aasta prognoosi luua. Ajaloolise nõudluse lõpu ja alusprognoosi alguse prognoosivahemike puudumise tõttu ei pruugi prognoosid täpsed olla. Microsoft Dynamics 365 for Finance and Operationsi nõudluse prognoosimise teenuses on lünkade täitmiseks neli viisi. Soovitud meetodi saate valida, seades parameetri MISSING\_VALUE\_SUBSTITUTION leheküljel **Nõudluse prognoosimise parameetrid**. 
+Nõudluse alusprognoosi alguskuupäev ei pea olema tänane kuupäev ega tulevane kuupäev. Teise alguskuupäeva määramiseks kasutage välja **Alusprognoosi alguskuupäev – alates kuupäevast**. Näiteks saavad kasutajad juunis järgmise aasta prognoosi luua. Ajaloolise nõudluse lõpu ja alusprognoosi alguse prognoosivahemike puudumise tõttu ei pruugi prognoosid täpsed olla. Microsoft Dynamics 365 for Finance and Operationsi nõudluse prognoosimise teenuses on lünkade täitmiseks neli võimalust. Soovitud meetodi saate valida, seades parameetri MISSING\_VALUE\_SUBSTITUTION leheküljel **Nõudluse prognoosimise parameetrid**. 
 
 Väljal **Alusprognoosi alguskuupäev** - **alates kuupäevast** peab määrama prognoosi vahemiku alguse, näiteks Ameerika Ühendriikides on nädalase prognoosivahemiku puhul alguseks pühapäev. Süsteem kohandab automaatselt välja **Alusprognoosi alguskuupäev** - **alates kuupäevast**, et olla vastavuses prognoosivahemiku algusega. 
 
@@ -72,7 +71,6 @@ Kui prognoosi ei looda korraga suure hulga kaupade jaoks, vaid näiteks ühele k
 [Alusprognoosis käsitsi korrigeerimiste tegemine](manual-adjustments-baseline-forecast.md)
 
 [Korrigeeritud prognoosi autoriseerimine](authorize-adjusted-forecast.md)
-
 
 
 

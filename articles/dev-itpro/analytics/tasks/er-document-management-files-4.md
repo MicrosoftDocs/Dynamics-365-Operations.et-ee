@@ -1,13 +1,13 @@
---- 
-title: "Vormingute käitamine dokumendihalduse failide kasutamiseks elektroonilise aruandluse väljundis"
-description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse vormingu dokumendihalduse failide kasutamiseks elektroonilise aruandluse väljundis."
+---
+title: Vormingute käitamine dokumendihalduse failide kasutamiseks elektroonilise aruandluse väljundis
+description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse vormingu dokumendihalduse failide kasutamiseks elektroonilise aruandluse väljundis.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e87dbb0fa890f4d554c3e2ff09566fb2b1f3206b
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364783"
 ---
 # <a name="run-formats-to-use-document-management-files-in-er-output"></a>Vormingute käitamine dokumendihalduse failide kasutamiseks elektroonilise aruandluse väljundis
 
@@ -69,5 +69,4 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 10. Klõpsake nuppu OK.
 11. Klõpsake nuppu OK.
     * Vaadake loodud väljundit. Pange tähele, et igale manusele on loodud üks XML-sõlm. Manuse sisu lisatakse XML-väljundile tekstivormingus MIME (base64).  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "ER-i konfiguratsioonide teistest komponentidest sõltuvuse määramine"
-description: "Toimingute teostamiseks peab esmalt läbima tegevuse juhises toodud ja ER-i mudelihalduse vastendamise konfiguratsioonide etapid, ja teil peab olema juurdepääs teenusele Microsoft Dynamics Lifecycle Services (LCS)."
+---
+title: ER-i konfiguratsioonide teistest komponentidest sõltuvuse määramine
+description: Toimingute teostamiseks peate esmalt läbima tegevusjuhises toodud ja ER-i mudelihalduse vastendamise konfiguratsioonide etapid ning teil peab olema juurdepääs teenusele Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365082"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER-i konfiguratsioonide teistest komponentidest sõltuvuse määramine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Toimingute teostamiseks peab esmalt läbima tegevuse juhises toodud ja ER-i mudelihalduse vastendamise konfiguratsioonide etapid, ja teil peab olema juurdepääs teenusele Microsoft Dynamics Lifecycle Services (LCS).
+Toimingute teostamiseks peate esmalt läbima tegevusjuhises toodud ja ER-i mudelihalduse vastendamise konfiguratsioonide etapid ning teil peab olema juurdepääs teenusele Microsoft Dynamics Lifecycle Services (LCS).
 
-Järgmises juhendis kirjeldatakse elektroonilise aruandluse (ER) konfiguratsiooni kavandamist ja selle teistest tarkvarakomponentidest sõltuvuse määramist, tagamaks et konfiguratsioon on korrektselt alla laetud rakenduse Microsoft Dynamics 365 for Finance and Operations kindlale versioonile. Selles näites loote näidisettevõtte Litware, Inc jaoks vajalikud elektroonilise aruandluse konfiguratsioonid. 
+Järgmises protseduuris kirjeldatakse elektroonilise aruandluse (ER) konfiguratsiooni kavandamist ja selle teistest tarkvarakomponentidest sõltuvuse määramist tagamaks, et konfiguratsioon laaditaks õigesti alla rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition kindlale versioonile. Selles näites loote näidisettevõtte Litware, Inc jaoks vajalikud elektroonilise aruandluse konfiguratsioonid. 
 
 Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Neid etappe võib teha igas ettevõttes, kuna ER-i konfiguratsioonid on kõigi ettevõtete vahel ühiskasutuses. 
 
@@ -46,7 +46,7 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
     * Soovitud sõltuvusi saab kokku grupeerida. Kui valida grupeerimistüüp „Kõik”, peetakse selle grupi sõltuvustingimust täidetuks, kui iga selle grupi ja alamgrupi sõltuvustingimus on täidetud. Kui valida grupeerimistüüp „Üks valitutest”, peetakse selle grupi sõltuvustingimust täidetuks, kui vähemalt üks selle grupi ja alamgrupi sõltuvustingimus on täidetud.   
 5. Klõpsake valikut Uus.
 6. Valige toote eeltingimuse komponent.
-7. Valige rakendus Microsoft Dynamics 365 for Operations (1611).
+7. Valige Microsoft Dynamics 365 for Operations (1611).
 8. Sisestage versiooniväljale väärtus „[7.1.1541.3036,8)”.
     * [7.1.1541.3036,8)  
     * Sisestatud sõltuvusi hinnatakse, kui see konfiguratsioon on ER-i hoidlast alla laaditud. See konfiguratsiooni versioon laaditakse ER-i hoidlast alla, kui konfiguratsiooni „Näidisandmemudel” 1. versioon on juba olemas või eelnevalt alla laaditud. Kui see on eelnevalt alla laaditud, tuleb see lõpule viia rakenduses Finance and Operations, mille versioon peab olema 7.1.1541.3036 või uuem versioon, kuid mis ei tohi ületada põhiversiooni 8.   
@@ -62,7 +62,7 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 18. Valige Microsoft Dynamics AX 7.0 RTW.
 19. Sisestage versiooniväljale väärtus „[7.0.1265.3015,7.1)”.
     * [7.0.1265.3015,7.1)  
-    * Sõltuvusi hinnatakse, kui see konfiguratsioon on ER-i hoidlast alla laaditud. See konfiguratsiooni versioon laaditakse ER-i hoidlast alla, kui konfiguratsiooni „Näidisandmemudel” 1. versioon on juba olemas või eelnevalt alla laaditud. Kui see on eelnevalt alla laaditud, tuleb see lõpule viia rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, mille versioon peab olema 7.0.1265.3015 või uuem versioon, kuid mis ei tohi ületada vaheversiooni 1.   
+    * Sõltuvusi hinnatakse, kui see konfiguratsioon on ER-i hoidlast alla laaditud. See konfiguratsiooni versioon laaditakse ER-i hoidlast alla, kui konfiguratsiooni „Näidisandmemudel” 1. versioon on juba olemas või eelnevalt alla laaditud. Kui see on eelnevalt alla laaditud, tuleb see lõpule viia rakenduses Microsoft Dynamics 365 for Finance and Operationsi ettevõtteversioonis, mis peab olema 7.0.1265.3015 või uuem versioon, kuid mis ei tohi ületada lühiversiooni 1.   
 20. Klõpsake nuppu Salvesta.
 21. Sulgege leht.
 22. Klõpsake valikut Muuda olekut.
@@ -139,6 +139,5 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 25. Avage Organisatsiooni haldamine > Elektrooniline aruandlus > Konfiguratsioonid.
 26. Laiendage puul valikut „Sample data model".
     * Pange tähele, et mudeli „Näidisvastendamine" vastenduskonfiguratsioon on alla laaditud koos valitud andmemudeli konfiguratsiooniga. Kaks faili laaditi koos alla, kuna „Näidisvastendus" on määratletud valitud andmemudeli juurutamisena ja kuna see kehtib Finance and Operationsi kohta. Konfiguratsiooni „Näidisvastendus (alternatiivne)” pole alla laaditud, kuna nõutava avalduse versiooni tingimust pole täidetud.   
-    * Kui logite sisse rakendusse Dynamics 365 for Finance and Operations, Enterprise edition, registreerige sama pakkuja, avage sama LCS-projekt ja laadige alla sama andmemudeli konfiguratsioon. Konfiguratsioon „Näidisvastendus (alternatiivne)” laaditakse alla, aga konfiguratsioon „Näidisvastendus” jäetakse vahele.  
-
+    * Kui logite sisse Dynamics 365 for Finance and Operationsi ettevõtteversiooni, registreerige sama pakkuja, avage sama LCS-projekt ja laadige alla sama andmemudeli konfiguratsioon. Konfiguratsioon „Näidisvastendus (alternatiivne)” laaditakse alla, aga konfiguratsioon „Näidisvastendus” jäetakse vahele.  
 

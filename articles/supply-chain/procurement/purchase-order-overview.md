@@ -1,13 +1,13 @@
 ---
-title: "Ostutellimuse ülevaade"
-description: "Selles artiklis antakse üldist teavet ostutellimuste (PO-de) kohta ja lingid täiendavate artiklite juurde, mis on seotud mitmesuguste etappidega, mille PO läbib."
+title: Ostutellimuse ülevaade
+description: Selles artiklis antakse üldist teavet ostutellimuste (PO-de) kohta ja lingid täiendavate artiklite juurde, mis on seotud mitmesuguste etappidega, mille PO läbib.
 author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b86e934a0ac25b1fe77a3359b74e707fb372ae6b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d01ef1c496c7c79795d9d740ee755e84434dfdf1
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338977"
 ---
-
 # <a name="purchase-order-overview"></a>Ostutellimuse ülevaade
 
 [!include [banner](../includes/banner.md)]
@@ -92,7 +91,6 @@ Välja **Kinnitamise olek** kasutatakse, kui ostutellimus läbib töövoo üleva
 [Toote sissetulek ostutellimuste suhtes](product-receipt-against-purchase-orders.md)
 
 [Hankija arvete ülevaade](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

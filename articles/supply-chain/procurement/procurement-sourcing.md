@@ -5,9 +5,9 @@ author: mkirknel
 manager: AnnBe
 ms.date: 09/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 091b50c26cf596fc03e42f60fc662b8d1f25f06b
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338586"
 ---
-
 # <a name="procurement-and-sourcing-home-page"></a>Hangete avaleht
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,7 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 -   [Hankija koostöö seadistamine ja haldamine](set-up-maintain-vendor-collaboration.md)
 -   [Sissetulevate veoste varude demoskript rakendusele Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tehniline ülevaade)
 -   [Veose varude jälgimine hankija koostöö abil](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Koostöötamine hankijatega, kasutades hankijaportaali](collaborate-vendors-vendor-portal.md)  (ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonid)
+-   [Koostöötamine hankijatega, kasutades hankijaportaali](collaborate-vendors-vendor-portal.md) (ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonid)
 -   [Turbe konfiguratsioon hankijaportaali kasutajatele](configure-security-vendor-portal-users.md) (ainult Finance and Operationsi 2016. aasta veebruari ja 2016. aasta mai versioonid)
 -   [Hankija koostöö mobiilne tööruum rakendusele Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
@@ -102,7 +101,6 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 -   [Äriprotsessi töövoogude määratlemine ostutaotluste jaoks](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (valge raamat)
 -   [Ostupoliitikad](purchase-policies.md)
 -   [Ostupoliitikate loomine](tasks/create-purchasing-policies.md)
-
 
 
 

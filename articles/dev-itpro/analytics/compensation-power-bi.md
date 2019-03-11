@@ -1,13 +1,13 @@
 ---
 title: Tasu Power BI sisu
-description: "Selles teemas kirjeldatakse tasu Power BI sisu. See selgitab ka seda, kuidas pääseda juurde aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
+description: Selles teemas kirjeldatakse tasu Power BI sisu. See selgitab ka seda, kuidas pääseda juurde aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 8457182fee49e28256f2a1102ba77b2b4e89d5b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 93c005d4b85b56f77ddd488c91e477970f4ccd07
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347280"
 ---
-
 # <a name="compensation-power-bi-content"></a>Tasu Power BI sisu
 
 [!include [banner](../includes/banner.md)]
@@ -31,12 +30,12 @@ ms.lasthandoff: 03/26/2018
 Selles teemas kirjeldatakse **tasu** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-**Tasu** Power BI sisu kuvatakse tööruumis **Tasuhaldus**, kui kasutate ühte järgmistest toodetest:
+**Tasu** Power BI sisu kuvatakse tööruumis **Tasuhaldus**, kui kasutate üht järgmistest toodetest:
 
 - Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruanded
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad aruanded
 **Tasu** Power BI sisusse kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
 
 | Aruanne                     | Sisu |
@@ -46,7 +45,7 @@ Selles teemas kirjeldatakse **tasu** Microsoft Power BI sisu. See selgitab ka se
 | Ametikoha tasu analüüs      | Kõrgeim ja madalaim tunni- ja kuupalk, kõrgeima ja madalaima palgaga ametikohad ning täis- ja osalise ajaga ametikohad |
 | Tasuplaani analüüs | Töövõtja liitumine valitud eelise järgi |
 
-Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt jaotisest [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt teemast [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 **Tasu** Power BI sisus olevate aruannete täitmiseks kasutatakse järgmisi andmeid. Selles tabelis on toodud sisu aluseks olevad üksused.
@@ -73,4 +72,3 @@ Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada arma
 | Töövõtja nimi            | Eesnimi, perekonnanimi ja täielik nimi                                                                       | Praegune töötaja, lõpetatud, töötaja, töötaja trend |
 | Töötaja ametinimetus           | Ametinimetus ja staaži kuupäev                                                                                   | Praegune töötaja, lõpetatud, töötaja, töötaja trend |
 | Töötaja trend           | Töötajad aja jooksul, inimeste arv, ettevõte ja ametikoht                                                        | Ettevõte, tasu, geograafiline asukoht, töötaja nimi, otsene juht, kalendri tasakaalustus, kuupäev, töötaja ametinimetus, demograafilised andmed, töö, soodustused |
-

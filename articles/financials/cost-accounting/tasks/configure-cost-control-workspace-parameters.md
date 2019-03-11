@@ -1,13 +1,13 @@
---- 
-title: "Kulujuhtimise tööruumi parameetrite konfigureerimine"
-description: "Selle protseduuri abil saate konfigureerida kulude juhtimise tööruumi nii, et organisatsiooni erinevate tasemete haldurid saavad ülevaate oma kuluobjektidest, nt kulukeskustest ja tootegruppidest."
+---
+title: Kulujuhtimise tööruumi parameetrite konfigureerimine
+description: Selle protseduuri abil saate konfigureerida kulude juhtimise tööruumi nii, et organisatsiooni erinevate tasemete haldurid saavad ülevaate oma kuluobjektidest, nt kulukeskustest ja tootegruppidest.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2f9c50bb0ab7f1b0afadfabb687932f96ab6e689
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8ede40951d08e159358b713fc3dde46576a1b4e3
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308571"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Kulujuhtimise tööruumi parameetrite konfigureerimine
 
@@ -57,5 +57,4 @@ Selle protseduuri abil saate konfigureerida kulude juhtimise tööruumi nii, et 
 26. Sisestage või valige väärtus väljal Rahanduskalendri periood.
 27. Sisestage või valige väärtus väljal Kuluobjekti dimensioonihierarhia sõlm.
     * Pärast kuluobjekti dimensiooni hierarhia valimist laiendage kuluelemendi dimensioon, et vaadata soovitud kuluväärtusi. Näiteks saate väärtuse kuvamiseks laiendada hierarhiat tootmise üldkuluni.  
-
 

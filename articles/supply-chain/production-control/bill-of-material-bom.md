@@ -1,13 +1,13 @@
 ---
 title: Kooslused ja valemid
-description: "See teema annab teavet koosluste ja valemite kohta, mis on toodete ja tootevariantide määratlemise keskne osa."
+description: See teema annab teavet koosluste ja valemite kohta, mis on toodete ja tootevariantide määratlemise keskne osa.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0833143722df5402a17e4f8f456a923792c478a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 430e2ab0c4438222ceb9102c011940af803acfbc
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317104"
 ---
-
 # <a name="bills-of-materials-and-formulas"></a>Kooslused ja valemid
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Valige rea tüüp**Kinnistatud tarne**, kui soovite luua alamtootmist, koosluse 
 Valige rea tüüp **Hankija**, kui tootmisprotsess kasutab allhankijat ja kui soovite allhankija jaoks alamtootmise või ostutellimuse automaatselt luua.  
 
 **Märkus alltöövõtu toimingute kohta koosluses:** teenus või töö, mida teeb allhankija, tuleb luua teenuseüksusena, mida varudes jälgitakse. Teenuseüksus tuleb siduda põhikaubaga koosluse reana. Protsess peab sisaldama allhankija operatsiooniressursile määratud operatsiooni.
-
 
 
 

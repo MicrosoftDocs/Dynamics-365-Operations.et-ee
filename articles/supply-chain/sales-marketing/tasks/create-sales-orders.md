@@ -1,13 +1,13 @@
---- 
-title: "luua müügitellimusi;"
-description: "Selles protseduuris näitlikustatakse, kuidas luua müügitellimust."
+---
+title: luua müügitellimusi;
+description: Selles protseduuris näitlikustatakse, kuidas luua müügitellimust.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8af0333d979ba3a4e12d4f22b1225f3b72d66a7a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4ccd2c4ace41f07dce14498031e3cc29ecb61b1c
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352110"
 ---
 # <a name="create-sales-orders"></a>luua müügitellimusi;
 
@@ -68,5 +68,4 @@ Selles protseduuris näitlikustatakse, kuidas luua müügitellimust. Saate selle
 2. Klõpsake valikut Kogusummad.
     * Leheküljel Kogusummad kuvatakse kogu tellimuse üksikasjad. See sisaldab vahesummat, mis on kõigi lõplike rea allahindluste võrra korrigeeritud rea netosummade summa, ning arve kogusummat, mis on lõpliku tellimuse taseme allahindluse, tasude, käibemaksu, kliendi krediidilimiidi jms alusel korrigeeritud vahesumma.  Arve summa on summa, mis kuvatakse kliendi arvedokumendil.  
 3. Klõpsake nuppu OK.
-
 

@@ -1,13 +1,13 @@
 ---
 title: Automaatne tasakaalustus ja prioritiseerimine
-description: "See teema kirjeldab, kuidas kandeid tasakaalustatakse, kui teete lehel Müügireskontro parameetrid valiku Automaatne tasakaalustamine. Samuti selgitab see, kuidas automaatset tasakaalustamist saab koos makse prioriteediga kasutada."
+description: See teema kirjeldab, kuidas kandeid tasakaalustatakse, kui teete lehel Müügireskontro parameetrid valiku Automaatne tasakaalustamine. Samuti selgitab see, kuidas automaatset tasakaalustamist saab koos makse prioriteediga kasutada.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 775ce10cdba5e38fbb5fc058c6df297143229f79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318967"
 ---
-
 # <a name="automatic-settlement-and-prioritization"></a>Automaatne tasakaalustus ja prioritiseerimine
 
 [!include [banner](../includes/banner.md)]
@@ -79,7 +78,6 @@ Kui kasutaja määratletud tasakaalustuse prioriteet puudub, valitakse kanded ta
 | Arve 2     | 9/1/2015   | 10002   | 250,00                         | 250,00           | 0,00    | USA dollar      |
 | Arve 3     | 10/15/2015 |         | 500,00                         | 350.00           | 150.00  | USA dollar      |
 | Viivisearve | 10/15/2015 |         | 7,00                           | 0,00             | 0,00    | USA dollar      |
-
 
 
 

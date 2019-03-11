@@ -1,13 +1,13 @@
 ---
 title: Ostupoliitikad
-description: "Selles artiklis antakse teavet ostupoliitikate kohta. Ostupoliitika on reeglite kogum, mis juhib taotluse protsessi. Ostupoliitikad aitavad hankeadministraatoritel hankestrateegiat juurutada, luues poliitikastruktuuri, mis on vastavuses organisatsiooni strateegiliste ostunõuetega."
+description: Selles artiklis antakse teavet ostupoliitikate kohta. Ostupoliitika on reeglite kogum, mis juhib taotluse protsessi. Ostupoliitikad aitavad hankeadministraatoritel hankestrateegiat juurutada, luues poliitikastruktuuri, mis on vastavuses organisatsiooni strateegiliste ostunõuetega.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a16f365fa5a8b39dddac2886c36a8231de745a37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 675a7a8b0da228e789ee37ca8fe1d0c0ea01c283
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358757"
 ---
-
 # <a name="purchasing-policies"></a>Ostupoliitikad
 
 [!include [banner](../includes/banner.md)]
@@ -148,7 +147,6 @@ Ostutellimuse loomise ja nõude konsolideerimise reegel määratleb poliitikaree
     -   **Ära luba nõudluskonsolideerimist** – nõudluskonsolideerimise puhul ei ole sobilikke kinnitatud ostutellimuse ridu. See suvand on vaikimisi valitud ja kehtib ainult ostutaotluse ridadele, mis nõuavad ostutellimuse loomisel käsitsi töötlemist.
     -   **Luba alati nõudluskonsolideerimine** – nõudluskonsolideerimise puhul on sobilikud kõik kinnitatud ostutellimuse read. **Märkus.** Kui valite vahekaardil **Nõudluskonsolideerimine** suvandi **Luba alati nõudluskonsolideerimine**, kuid valite vahekaardil **Ostutellimuse käsitsi loomine** suvandi **Loo ostutellimused automaatselt**, säilitatakse kõik ostutaotlused käsitsi töötlemiseks.
     -   **Luba nõudluskonsolideerimine nendel tingimustel** – määrake kriteerium, mis määrab, kas kinnitatud ostutaotluse read on nõudluskonsolideerimise puhul sobilikud. Iga ostutaotluse rea tüübi puhul saate määrata kriteeriumid hankekategooria ja hankija alusel. Kui teete valiku **Luba nõudluskonsolideerimine nendel tingimustel**, saate iga ostutaotluse rea tüübi puhul määrata kriteeriumid hankekategooria ja hankija alusel. Hankekategooria valimisel valitakse ka kõik hankekategooria alamkategooriad. Kui valite suvandi **Kõik** konkreetse rea tüübi puhul, sobivad kõik seda tüüpi ostutaotluse read nõudluskonsolideerimiseks.
-
 
 
 

@@ -1,37 +1,36 @@
 ---
-title: "Rakenduse Field Service töökäskude sünkroonimine rakenduse Finance and Operations müügitellimustega"
-description: "See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse rakenduse Field Service töökäskude sünkroonimiseks rakenduse Finance and Operations müügitellimustega."
+title: Rakenduse Field Service töökäskude sünkroonimine rakenduse Finance and Operations müügitellimustega
+description: See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse rakenduse Field Service töökäskude sünkroonimiseks rakenduse Finance and Operations müügitellimustega.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 49cb5942532e4feab64aa271ebfecf5cb60b1c61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
-ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
-ms.contentlocale: et-ee
-ms.lasthandoff: 06/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324096"
 ---
-
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-finance-and-operations"></a>Rakenduse Field Service töökäskude sünkroonimine rakenduse Finance and Operations müügitellimustega
 
 [!include[banner](../includes/banner.md)]
 
-See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse rakenduse Microsoft Dynamics 365 for Field Service töökäskude sünkroonimiseks müügitellimustega rakenduses Microsoft Dynamics 365 for Finance and Operations.
+Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse projekti numbriga töökäskude sünkroonimiseks rakendusest Microsoft Dynamics 365 for Field Service müügitellimusse rakenduses Microsoft Dynamics 365 for Finance and Operations.
 
 [![Äriprotsesside sünkroonimine rakenduste Finance and Operations ja Field Service vahel](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -273,4 +272,3 @@ Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus
 Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus ne 690970000) ja (msdynce_orderhasexternalmaintainedproductsonly eq true) ja ((msdyn_linestatus eq 690970001) või (msdynce_headersystemstatus eq 690970004) või (msdyn_allocated ne true))
 
 [![Malli vastendamine andmete integratsioonis](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-

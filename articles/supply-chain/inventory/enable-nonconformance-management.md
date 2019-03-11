@@ -1,13 +1,13 @@
 ---
 title: Mittevastavuste haldamine
-description: "Selles artiklis kirjeldatakse põhiseadistust, mis on mittevastavuste kasutamiseks nõutav. Täiendav seadistus on nõutav, kui soovite kasutada kvaliteettellimusi."
+description: Selles artiklis kirjeldatakse põhiseadistust, mis on mittevastavuste kasutamiseks nõutav. Täiendav seadistus on nõutav, kui soovite kasutada kvaliteettellimusi.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fc1e1eb9d8ede1d07a873ca98a1c385cf0126c3f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 93a7ed31dcad19a29a85352a2bf200915766036c
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316437"
 ---
-
 # <a name="nonconformance-management"></a>Mittevastavuste haldamine
 
 [!include [banner](../includes/banner.md)]
@@ -55,4 +54,3 @@ Mittevastavuse haldamise võimaldamiseks tehke järgmist.
 [Kvaliteedijuhtimise protsessid](quality-management-processes.md)
 
 [Eeltingimuste seadistamine mittevastavuse halduseks (tegevuse juhis)](tasks/set-up-prerequisites-nonconformance-management.md)
-

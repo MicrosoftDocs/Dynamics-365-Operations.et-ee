@@ -1,14 +1,14 @@
 ---
-title: "Asukoha ja osapoole seosetüüpide lisamine"
-description: "Selles teemas kirjeldatakse uue asukoha ja osapoole seosetüübi loomist."
+title: Asukoha ja osapoole seosetüüpide lisamine
+description: Selles teemas kirjeldatakse uue asukoha ja osapoole seosetüübi loomist.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 543784e8072f88c10f63e1b44921b9f2d37308c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e0ab9c9894fdd5fba224c166941abbf52172ae46
-ms.openlocfilehash: 27819c922832a30eb0b20db6bffdbd4504e6d5e6
-ms.contentlocale: et-ee
-ms.lasthandoff: 06/12/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357492"
 ---
-
 # <a name="add-location-roles-and-party-relationship-types"></a>Asukoharollide ja osapoole seosetüüpide lisamine 
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Aadressile ja kontaktteabele uute asukoharollide lisamiseks on kaks võimalust.
 
         ![Andmete asustamine](media/Dirdata.PNG)
 
-    4.  Uue asukoharolli testasustamiseks saate luua käitatava klassi ja kutsuda DirDataPopulation::insertLogisticsLocationRoles() asukohas Main(). Kui see protsess on lõpule jõudnud, peaksite nägema uut rolli tabelis **LogisticsLocationRole** tüübiga \> 0. Uus roll kuvatakse lehel **Aadressi ja kontaktteabe eesmärk**.
+    4.  Uue asukoharolli katseasustamiseks saate luua käitatava klassi ja kutsuda atribuudi DirDataPopulation::insertLogisticsLocationRoles() asukohas Main(). Kui see protsess on lõpule jõudnud, peaksite nägema uut rolli tabelis **LogisticsLocationRole** tüübiga \> 0. Uus roll kuvatakse lehel **Aadressi ja kontaktteabe eesmärk**.
 
         ![Uue asukoha sisestamine](media/InsertNewLocation.PNG)
 
@@ -72,7 +71,6 @@ Uue seosetüübi lisamiseks on kaks võimalust.
     
     ![DirRelationshipChild](media/DirRelationship.PNG)
 
-    3.  Uue seosetüübi testasustamiseks saate luua käitatava klassi ja kutsuda DirDataPopulation::insertDirRelationshipTypes() asukohas Main(). Peaksite uut seosetüüpi nägema tabelis **DirRelationshipTypeTable** ja uus seosetüüp on saadaval lehel **Seosetüübid**.
+    3.  Uue seosetüübi katseasustamiseks saate luua käitatava klassi ja kutsuda atribuudi DirDataPopulation::insertDirRelationshipTypes() asukohas Main(). Peaksite uut seosetüüpi nägema tabelis **DirRelationshipTypeTable** ja uus seosetüüp on saadaval lehel **Seosetüübid**.
 
         ![Käitatav klass](media/Runnable.PNG)
-

@@ -1,13 +1,13 @@
 ---
-title: "Koosluse- ja valemiridade lattu väljastamine"
-description: "Selles teemas kirjeldatakse koosluseridade ja valemiridade toormaterjali lattu väljastamise protsessi."
+title: Koosluse- ja valemiridade lattu väljastamine
+description: Selles teemas kirjeldatakse koosluseridade ja valemiridade toormaterjali lattu väljastamise protsessi.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 8ccdb71f49652d6cca6ced2e9e9764d9ad0fffd8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343140"
 ---
-
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Koosluse- ja valemiridade lattu väljastamine
 
 [!include [banner](../includes/banner.md)]
@@ -99,4 +98,3 @@ Saate väljastada toormaterjali lõpetatud kaupade osalise koguse jaoks või kin
     Saadaolevad ühikud on määratletud lõpetatud kauba ühiku seeriagrupi ID-s.
 
     Näiteks on lõpetatud kaubal järgmised ühikuteisendused kilogrammide (kg) ja kaubaaluste (PL) vahel: 1 PL = 100 kg. Tootmistellimuse loomiseks 10 000 kg lõpetatud kauba jaoks saate väljastada toormaterjale kaubaaluste arvule, mida plaanite toota. Valige ühikuna **PL** ja siis valige vastav arv väljal **Kogus**.
-

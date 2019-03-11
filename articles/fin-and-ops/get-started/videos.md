@@ -1,46 +1,45 @@
 ---
 title: Rakenduse Finance and Operations videod
-description: "Sellel lehel on loendatud Microsofti loodud rakendusega Dynamics 365 for Finance and Operations seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel."
+description: Sellel lehel on loetletud Microsofti loodud Dynamics 365 for Finance and Operationsiga seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel.
 author: josaw1
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
+ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
-ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/17/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317817"
 ---
-
 # <a name="videos-for-finance-and-operations"></a>Rakenduse Finance and Operations videod
 
 [!include [banner](../includes/banner.md)]
 
-Sellel lehel on loendatud Microsofti loodud rakendusega Dynamics 365 for Finance and Operations seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel.
+Sellel lehel on loetletud Microsofti loodud Dynamics 365 for Finance and Operationsiga seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel.
 
 ## <a name="dynamics-365-youtube-channel"></a>Dynamics 365 YouTube’i kanal
 
-[Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) leiate Microsofti loodud videod, mis esitlevad laia valikut ärilahendusi Dynamics 365 toodetele. Selles jaotises loendatakse kanalil majutatavate rakenduse Dynamics 365 for Finance and Operations õppevideod.
+[Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) leiate Microsofti loodud videod, mis esitlevad laia valikut ärilahendusi Dynamics 365 toodetele. Selles jaotises on toodud kanalis majutatavate Dynamics 365 for Finance and Operationsi õppevideote loend.
 
 Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu kogu nimekirja.
 
 #### <a name="data-integration"></a>Andmete integratsioon
 
 - [Potentsiaalse kliendi sularahaks integreerimine](https://youtu.be/AVV9x5x-XCg)
-- [Töötellimuse sünkroonimine rakenduse Dynamics 365 for Field Service ja rakenduse Finance and Operations vahel](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Töökäsu sünkroonimine rakenduste Dynamics 365 for Field Service ja Finance and Operations vahel](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Andmehaldus
 
@@ -68,7 +67,7 @@ Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu k
 #### <a name="intelligence"></a>Analüüs
 
 - [Oma andmebaasi toomine (BYOD) rakendusse Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
-- [Kulude haldamise Power BI sisu kasutamine rakenduses Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
+- [Kuluhalduse Power BI sisu kasutamine rakenduses Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
 
@@ -83,20 +82,20 @@ Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu k
 - [Koodiuuenduse ja tööriista protsessi haldamine rakenduses Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
 - [Äriprotsessi teekide haldamine rakenduses Lifecycle Services](https://www.youtube.com/watch?v=S5msxj-2-x0)
 - [Metoodikad teenuses Lifecycle Services](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
-- [Rakenduse Dynamics 365 for Finance and Operations tootmiskeskkonna taotlemine](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
+- [Rakenduse Dynamics 365 for Finance and Operations toomiskeskkonna taotlemine](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
 - [Tootmiskeskkonna andmete värskendamine](https://www.youtube.com/watch?v=VCd5SgkYPTw)
-- [Uue rakenduse Dynamics 365 for Finance and Operations platvormi väljaande kasutuselevõtmine pärast platvormivärskendust 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
+- [Rakenduse Dynamics 365 for Finance and Operations uue platvormiväljaande kasutuselevõtmine pärast platvormivärskendust 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Telemeetria kasutamine peamiste jõudlusloendurite jälgimiseks rakenduses Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
 #### <a name="office-integration"></a>Office’i integreerimine
 
-- [Exceli malli loomine päise ja reamustrite jaoks rakenduses Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+- [Exceli malli loomine päise- ja reamustritele rakenduses Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
 
 #### <a name="organization-administration"></a>Organisatsiooni haldus
 
 - [Dokumendihaldus](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
 
-#### <a name="procurement-and-sourcing"></a>Hange
+#### <a name="procurement-and-sourcing"></a>Hanked
 
 - [Ostutellimuste kinnitamine mobiilses seadmes](https://youtu.be/gZ-gOlJe7H8)
 - [Uue hankija kasutuselevõtt](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
@@ -145,13 +144,13 @@ Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu k
 #### <a name="financial-reporting"></a>Finantsaruandlus
 
 - [Finantsaruandlus (DYN305PAL)](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) 
-- [Rakenduse Dynamics 365 for Finance and Operations aruandlusvalikud (VIR810PAL)](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Aruandlusvalikud rakenduses Dynamics 365 for Finance and Operations (VIR810PAL)](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="integration"></a>Integratsioon
 
 - [CDS-i andmeintegraator (DYN451PAL2)](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Integratsioon (VIR806PAL)](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Rakenduste Dynamics 365 for Sales ja Dynamics 365 for Finance & Operations integratsioon CDS-i kaudu (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Integratsioon rakenduste Dynamics 365 for Sales ja Dynamics 365 for Finance & Operations vahel CDS-i kaudu (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Integreerimisraamistik rakenduses Dynamics 365 for Finance & Operations (DYN385PAL)](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Ülesannete automatiseerimise raamistik andmehaldusele (DYN447PAL2)](https://youtu.be/KqnXjNpR4AY)
 
@@ -172,8 +171,8 @@ Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu k
 
 #### <a name="retail"></a>Retail
 
-- [Rakenduse Dynamics 365 for Retail kassa laiendatavus: üksikasjalik ülevaade (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Jaemüügi arhitektuur ja jaekaupluse skaala ühik (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Dynamics 365 for Retaili kassa laiendatavus: üksikasjalik ülevaade (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Jaemüügi arhitektuur ja Retail Store Scale Unit (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Mis on uut rakenduse Dynamics 365 for Retail kassa laiendatavuses (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="support"></a>Tugi
@@ -184,7 +183,7 @@ Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu k
 
 - [Migreerimistööriistad rakendusest AX 2009 rakendusele Dynamics 365 for Operations (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [AX 2009 migreerimistööriistad (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [AX 2012 uuendus rakendusele Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Täiendamine rakenduselt AX 2012 rakendusele Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Versioonitäiendus versioonile 7.2 (juuli 2017) versioonilt 7.0 (RTW) / 7.1 (väljaanne 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Azure’i arenduskeskkondade seadistus (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
@@ -196,4 +195,3 @@ Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu k
 - [Tükkhaaval komplekteerimise protsess (DYN330PAL2)](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Tootmistellimuste ja kanbanide visuaalne plaanimine (DYN328PAL)](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Lao integratsioon tootmisega (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [Ladustamise mobiilirakendus (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-

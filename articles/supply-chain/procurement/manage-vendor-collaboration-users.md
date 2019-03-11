@@ -1,13 +1,13 @@
 ---
-title: "Hankija koostöö kasutajate haldamine"
-description: "See teema kirjeldab, kuidas saate taotleda uue hankija koostöö kasutajate ettevalmistamist ja kuidas lisada uue hankija koostöö kontakte."
+title: Hankija koostöö kasutajate haldamine
+description: See teema kirjeldab, kuidas saate taotleda uue hankija koostöö kasutajate ettevalmistamist ja kuidas lisada uue hankija koostöö kontakte.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 80374d6dce8aa5d5f2e5afc0656b42236ac974ec
-ms.openlocfilehash: 036e8079bd976087514a074529dd4593c5a2b0a5
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356687"
 ---
-
 # <a name="manage-vendor-collaboration-users"></a>Hankija koostöö kasutajate haldamine
 
 [!include [banner](../includes/banner.md)]
 
 See teema kirjeldab, kuidas saate taotleda uue hankija koostöö kasutajate ettevalmistamist ja kuidas lisada uue hankija koostöö kontakte. 
 
-Hankija koostöö liides rakenduses Microsoft Dynamics 365 for Finance and Operations paljastab teavet ostutellimuste, arvete ja veosevarude kohta välistele hankijatele. Saate luua uued hankija koostöö kontaktid ja nõuda, et uued kasutajad valmistatakse ette, kui töötate välise hankijana turberolliga **Hankija administraator (väline)** või sarnaste lubadega. Samuti saate teha need ülesanded, kui töötate hankeprofessionaalina. Selles teemas viitab see roll hankeprofessionaalile, kes töötab selle ettevõtte siseselt, millele kuulub rakenduse Dynamics 365 for Finance and Operations eksemplar. Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Klientidega hankija](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Hankija koostöö liides rakenduses Microsoft Dynamics 365 for Finance and Operations avaldab teavet ostutellimuste, arvete ja veosevarude kohta välistele hankijatele. Saate luua uued hankija koostöö kontaktid ja nõuda, et uued kasutajad valmistatakse ette, kui töötate välise hankijana turberolliga **Hankija administraator (väline)** või sarnaste lubadega. Samuti saate teha need ülesanded, kui töötate hankeprofessionaalina. Selles teemas viitab see roll hankeprofessionaalile, kes töötab selle ettevõtte siseselt, millele kuulub rakenduse Dynamics 365 for Finance and Operations eksemplar. Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Klientidega hankija](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
 
@@ -61,7 +60,7 @@ Taotluse edastamisel lisatakse see mooduli **Hankija koostöö** loendisse **Han
 Enne kui saate taotleda uue kasutaja ettevalmistamist, tuleb see isik seadistada kontaktina ühe või mitme hankijakonto jaoks. Uue hankija koostöö kasutaja jaoks taotluse loomiseks:
 
 1. Lehel **Kõik kontaktid** klõpsake valikut **Valmista ette hankija-kasutaja**.
-2. Sisestage kasutaja meiliaadress. Seda aadressi kasutab kasutaja, et logida sisse rakendusse Dynamics 365 for Finance and Operations. Kui meiliaadress kuulub domeenile, mis on registreeritud Microsoft Azure'iga üürnikuna, siis peab meiliaadress olema olemasolev Azure Active Directory (AAD) konto, et ettevalmistamise protsessi saaks edukalt lõpuke viia. Kui meiliaadress ei kuulu Microsoft Azure'iga registreeritud domeenile, luuakse ADD konto osana ettevalmistamise protsessit ja uus kasutaja saab kutsemeili. Laiatarbemeiliaadresse, mis on selliste domeenidega nagu @hotmail.com, @gmail.com või @comcast.net, ei saa kasutada rakenduse Dynamics 365 for Finance and Operations kasutaja registreerimiseks.
+2. Sisestage kasutaja meiliaadress. Seda aadressi kasutab kasutaja, et logida sisse rakendusse Dynamics 365 for Finance and Operations. Kui meiliaadress kuulub domeenile, mis on registreeritud Microsoft Azure’is üürnikuna, siis peab meiliaadress olema olemasolev Azure Active Directory (AAD) konto, et ettevalmistamise protsessi saaks edukalt lõpule viia. Kui meiliaadress ei kuulu Microsoft Azure’is registreeritud domeenile, luuakse AAD konto osana ettevalmistamise protsessist ja uus kasutaja saab kutsemeili. Laiatarbemeiliaadresse, mis on selliste domeenidega nagu @hotmail.com, @gmail.com või @comcast.net, ei saa kasutada rakenduse Finance and Operations kasutaja registreerimiseks.
 3. Seadke suvand **Hankija koostöö juurdepääs on lubatud** valikule **Jah** kõikide juriidiliste isikute puhul, millele kasutaja vajab juurdepääsu.
 4. Jaotises **Kasutaja rollide määramine** valige märkeruut **Määra** turberollidele, mis uuel kasutajal peaks olema.
 5. Klõpsake **Edasta**.
@@ -91,7 +90,6 @@ Kasutaja turberollide muutmise taotlemiseks tehke järgmist.
 2.  Kirjutage kommentaar väljale **Äripõhjendus**.
 3.  Jaotises **Säilita kasutajarollid** valige turberollid, mida soovite määrata, või tühjendage need, mida soovite eemaldada.
 4.  Klõpsake **Edasta**.
-
 
 
 

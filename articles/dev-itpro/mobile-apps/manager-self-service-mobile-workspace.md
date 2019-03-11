@@ -1,13 +1,13 @@
 ---
-title: "Mobiilne tööruum Minu töörühm"
-description: "Selles teemas on teave mobiilse tööruumi Minu töörühm kohta, kus juhtidel on võimalus oma otseseid alluvaid ja laiendatud personali vaadata. Kasutajad saavad ka oma aruandlusahela inimestele tänu saata."
+title: Mobiilne tööruum Minu töörühm
+description: Selles teemas on teave mobiilse tööruumi Minu töörühm kohta, kus juhtidel on võimalus oma otseseid alluvaid ja laiendatud personali vaadata. Kasutajad saavad ka oma aruandlusahela inimestele tänu saata.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346912"
 ---
-
 # <a name="my-team-mobile-workspace"></a>Mobiilne tööruum Minu töörühm
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,7 @@ Enne selle mobiilse tööruumi kasutamist peavad olema täidetud järgmised eelt
 </ul>
 </td>
 <td>Süsteemiadministraator</td>
-<td>Kui teie organisatsioonis pole veel Finance and Operations juurutatud, siis vt jaotist <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>. Kui teie organisatsioonis pole veel Talenti juurutatud, pääseb süsteemiadministraator juurde prooviversioonile <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talenti veebilehel</a>.
+<td>Kui teie organisatsioonis pole veel Finance and Operations juurutatud, siis vt teemat <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>. Kui teie organisatsioonis pole veel Talentit juurutatud, pääseb süsteemiadministraator juurde prooviversioonile <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talenti veebilehel</a>.
 </td>
 </tr>
 <tr class="even">
@@ -73,12 +72,12 @@ Enne selle mobiilse tööruumi kasutamist peavad olema täidetud järgmised eelt
 
 Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 
--   [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
 1.  Käivitage rakendus oma mobiilses seadmes.
-2.  Sisestage Microsoft Dynamics 365 URL.
+2.  Sisestage oma Microsoft Dynamics365 URL.
 3.  Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
 4.  Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
@@ -99,4 +98,3 @@ Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
 1.  Valige **Saada tänu**. 
 1. Sisestage tänu tekst, mille saata soovite. 
 1. Valige suvand **Valmis**.
-

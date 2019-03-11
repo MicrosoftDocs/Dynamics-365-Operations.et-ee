@@ -1,13 +1,13 @@
---- 
-title: "EUR-00011 EL-i müügiloendi aruande koostamine"
-description: "See protseduur juhatab teid läbi EL-i käibearuande koostamise protseduuri."
+---
+title: EUR-00011 EL-i müügiloendi aruande koostamine
+description: See protseduur juhatab teid läbi EL-i käibearuande koostamise protseduuri.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  EUSalesList, EUSalesListSelection, SysQueryForm, SysLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370582"
 ---
 # <a name="eur-00011-generate-the-eu-sales-list-report"></a>EUR-00011 EL-i müügiloendi aruande koostamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur juhatab teid läbi EL-i käibearuande koostamise protseduuri. See hõlmab ühendusesisese kaubanduse kannete edastamist ELi käibearuandesse ja aruande käivitamist. See protseduur hõlmab ka ühendusesisese kaubanduse kande loomist demonstreerimiseks. Lisateavet EL-i müügiloendi aruandluse, sh nõutavate eeltingimuste kohta leiate rakenduse Dynamics 365 for Finance and Operations spikrist.
+See protseduur juhatab teid läbi EL-i käibearuande koostamise protseduuri. See hõlmab ühendusesisese kaubanduse kannete edastamist ELi käibearuandesse ja aruande käivitamist. See protseduur hõlmab ka ühendusesisese kaubanduse kande loomist demonstreerimiseks. Lisateavet EL-i müügiloendi aruandluse, sh nõutavate eeltingimuste kohta leiate spikrist Dynamics 365 for Finance and Operations.
 
 See protseduur kohaldub kõigile Euroopa riikidele/piirkondadele. Protseduuri loomisel kasutatakse demoettevõtte DEMF andmeid, seega on kodumaise riigi/piirkonna näiteks Saksamaa. Protseduur kasutab EL-i riigi/piirkonna näitena ka Portugali. Enne selle protseduuri läbimist tuleb konfigureerida EL-i käibearuandlus.
 
@@ -100,5 +100,4 @@ See protseduur on mõeldud raamatupidajatele.
     * Saate määrata lisafiltreid ka suletuks märgitavatele ühendusesisese kaubanduse kannetele.  
 7. Klõpsake nuppu OK.
 8. Valige väljal Valik väärtus Suletud.
-
 

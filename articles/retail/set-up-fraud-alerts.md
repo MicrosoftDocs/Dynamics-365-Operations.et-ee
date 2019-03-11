@@ -1,13 +1,13 @@
 ---
-title: "Kõnekeskuse pettuseteatiste seadistamine ja kasutamine"
-description: "Selles teemas kirjeldatakse, kuidas seadistada reegleid, et tellimuste töötlemise käigus teavitada klienditeeninduse esindajaid potentsiaalsetest valeandmetest. Saate määratleda spetsiaalsed koodid, mida kasutatakse kahtlaste tellimust automaatselt või manuaalselt ootele panekuks."
+title: Kõnekeskuse pettuseteatiste seadistamine ja kasutamine
+description: Selles teemas kirjeldatakse, kuidas seadistada reegleid, et tellimuste töötlemise käigus teavitada klienditeeninduse esindajaid potentsiaalsetest valeandmetest. Saate määratleda spetsiaalsed koodid, mida kasutatakse kahtlaste tellimust automaatselt või manuaalselt ootele panekuks.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361494"
 ---
-
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Kõnekeskuse pettuseteatiste seadistamine ja kasutamine
 
 [!include [banner](includes/banner.md)]
@@ -69,4 +68,3 @@ Tellimus on salvestatud, kuid sellele on märgitud lipp **Ära töötle**. See l
 Pettuse tõttu ülevaatamisel olevate tellimuste vaatamiseks ja haldamiseks avage **Retail** \> **Kliendid** \> **Ootelolevad tellimused**. Lehel **Ootelolevad tellimused** valige loendist kirje ja klõpsake nuppu **Ootelolev tellimus**, et näha üksikasjalikumat vaadet, mis sisaldab teavet ooteloleku põhjuse kohta. Kiirkaardil **Pettuse üksikasjad** saate vaadata süstemaatilisi pettuse kriteeriume, mis leiti olevat tellimuse vasted ja millele rakendati skoorid. Kui tellimus pandi käsitsi ootele, saate vaadata üle tellimuse ootele pannud kasutaja kommentaarid vaadates jaotist **Pettusemärkmed** kiirkaardil **Märkused**.
 
 Lisateavet selle kohta, kuidas töötada ootel olevate tellimustega, vt teemast [Ootelolevad tellimused](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-

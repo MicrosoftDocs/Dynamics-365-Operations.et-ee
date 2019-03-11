@@ -1,32 +1,31 @@
 ---
 title: Kuluhalduse koduleht
-description: "Kuluhaldus võimaldab teil tegeleda toormaterjalide, poolvalmiskaupade, valmiskaupade ja lõpetamata toodangu hindamise ja raamatupidamisega."
+description: Kuluhaldus võimaldab teil tegeleda toormaterjalide, poolvalmiskaupade, valmiskaupade ja lõpetamata toodangu hindamise ja raamatupidamisega.
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: b1513e5a7cb3a19fd3743a5aac8efd211aa02ce8
-ms.contentlocale: et-ee
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333940"
 ---
-
 # <a name="cost-management-home-page"></a>Kuluhalduse koduleht
 
 [!include [banner](../includes/banner.md)]
@@ -67,9 +66,8 @@ Tehniline ülevaade [Koosluse arvutamine kuluarvutustabeli abil](https://mbs.mic
 
 
 #### <a name="blogs"></a>Ajaveebid
-[Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/axmfg) ning [Dynamics AX-i tarneahela juhtimise uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm) leiate arvamusi, uudiseid ja muud teavet kuluhalduse kohta. Kuigi mõni neist sisestustest on kirjutatud kuluhalduse eelmise versiooni jaoks, kehtivad samad mõisted sellegipoolest ja protseduurid on praeguses versioonis sarnased.
+[Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/axmfg) ning [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm) leiate arvamusi, uudiseid ja muud teavet kuluhalduse kohta. Kuigi mõni neist sisestustest on kirjutatud kuluhalduse eelmise versiooni jaoks, kehtivad samad mõisted sellegipoolest ja protseduurid on praeguses versioonis sarnased.
 
 #### <a name="task-guides"></a>Tegevuse juhised
 Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operations. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.
-
 

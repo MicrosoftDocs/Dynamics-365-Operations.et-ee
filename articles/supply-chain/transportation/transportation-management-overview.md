@@ -1,13 +1,13 @@
 ---
-title: "Transpordihalduse ülevaade"
-description: "Selles teemas antakse ülevaade transpordihalduse funktsioonidest rakenduses Microsoft Dynamics 365 for Finance and Operations."
+title: Transpordihalduse ülevaade
+description: Selles teemas antakse ülevaade transpordihalduse funktsioonist rakenduses Microsoft Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355606"
 ---
-
 # <a name="transportation-management-overview"></a>Transpordihalduse ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade transpordihalduse funktsioonidest rakenduses Microsoft Dynamics 365 for Finance and Operations.
+Selles teemas antakse ülevaade transpordihalduse funktsioonist rakenduses Microsoft Dynamics 365 for Finance and Operations.
 
 Moodul Transpordihaldus võimaldab kasutada ettevõtte transporti ning tuvastada ka hankijat ja marsruudilahendusi nii sissetulevate kui ka väljaminevate tellimuste puhul. Näiteks saate tuvastada kiireima marsruudi või soodsaima transpordihinna. Järgmine tabel kirjeldab peamisi stsenaariume transpordihalduse kasutamiseks rakenduses Microsoft Dynamics 365 for Finance and Operations.
 
@@ -85,7 +84,6 @@ Saate planeerida ja töödelda väljaminevat koormat konkreetsete kaupade saatmi
 
 ## <a name="load-building"></a>Koorma koostamine
 Finance and Operations pakub koorma koostamise strateegiat, mille nimi on Mahupõhine koorma koostamise strateegia. See strateegia võimaldab kasutada koorma mallil kõrguse ja kaalu kohta määratud maksimumväärtusi või alistada sätted, sisestades uusi väärtusi. Selle strateegia kasutamiseks valige see väljalt **Koorma koostamise strateegia** kiirkaardil **Seadistus** lehel **Koorma koostamise töölaud**. Lisaks saate lisada oma koorma koostamise strateegiaid, luues rakendusobjektide puul (AOT) uue klassi.
-
 
 
 

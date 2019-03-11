@@ -1,13 +1,13 @@
 ---
 title: Impordi valuutavahetuskursid.
-description: "Kui juriidiline isik on saanud arveid välisvaluutas, on vaja välisvaluuta kohalikku valuutasse teisendada. See tähendab, et vaja on erinevate valuutade ajakohaseid vahetuskursse. Selles teemas antakse ülevaade vajalikest sätetest ja töötlemisest vahetuskursside pakkujate (nt Euroopa Keskpank ja Venemaa Keskpank) Internetis avaldatud vahetuskursside importimiseks."
+description: Kui juriidiline isik on saanud arveid välisvaluutas, on vaja välisvaluuta kohalikku valuutasse teisendada. See tähendab, et vaja on erinevate valuutade ajakohaseid vahetuskursse. Selles teemas antakse ülevaade vajalikest sätetest ja töötlemisest vahetuskursside pakkujate (nt Euroopa Keskpank ja Venemaa Keskpank) Internetis avaldatud vahetuskursside importimiseks.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: edd72b48a640126577dd7a2add3a4891ae505fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333388"
 ---
-
 # <a name="import-currency-exchange-rates"></a>Impordi valuutavahetuskursid.
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Saate importida vahetuskursse vahetuskursi pakkujate allikast ja seadistada neid
 | **Loo vajalikud valuutapaarid**    | See märkeruut juhib valuutapaaride automaatset loomist, kui imporditavaid valuutapaare pole. Mõne pakkuja puhul ei pruugi see valik saadaval olla.                                                                                                                                                                                               |
 | **Alista olemasolevad vahetuskursid**   | See märkeruut juhib olemasoleva vahetuskursi uuendamist valuutapaari puhul, kui konkreetse kuupäeva kohta on valuutakurss juba olemas. Kui te seda ruutu ei märgi, ei impordita konkreetsete kuupäevade valuutakurssi, kui teine valuutakurss on juba olemas.                                                                                       |
 | **Vältida importimist riiklikel pühadel** | See märkeruut juhib valuutakursi importimist kuupäeval, mis on riigipüha. Näiteks kui märgite selle ruudu ja kasutate vahetuskursi pakkujana Euroopa Keskpanka, ei muuda süsteem vahetuskurssi praeguse juriidilise isikuga seotud riigipühal. Mõne pakkuja puhul ei pruugi see valik saadaval olla. |
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Elektroonilise aruandluse konfiguratsioonide kujundamine Wordi vormingus aruannete loomiseks
-description: "Järgmine etapp selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab konfigureerida elektroonilise aruandluse vorminguid, et luua aruandeid Microsoft Wordi failidena."
+description: Järgmine etapp selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab konfigureerida elektroonilise aruandluse vorminguid, et luua aruandeid Microsoft Wordi failidena.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362345"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine Wordi vormingus aruannete loomiseks
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Järgmine etapp selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab konfigureerida elektroonilise aruandluse (ER) vorminguid, et luua aruandeid Microsoft Word failidena. Neid toiminguid saab teha GBSI ettevõttes.
+Järgmine etapp selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab konfigureerida elektroonilise aruandluse (ER) vorminguid, et luua aruandeid Microsoft Wordi failidena. Neid toiminguid saab teha GBSI ettevõttes.
 
 Nende etappide lõpuleviimiseks peate esmalt läbima tegevusejuhises „ER-i konfiguratsiooni loomine aruannete loomiseks vormingus OPENXML” esitatud etapid. Eelnevalt peate näidisaruande jaoks alla laadima ja kohalikult salvestama ka järgmised mallid:
 
@@ -35,7 +35,7 @@ Nende etappide lõpuleviimiseks peate esmalt läbima tegevusejuhises „ER-i kon
 - [Maksearuande piiratud mall](https://go.microsoft.com/fwlink/?linkid=862266)
 
 
-See protseduur on funktsiooni jaoks, mis lisati rakenduse Microsoft Dynamics 365 for Operations versioonis 1611.
+See protseduur on funktsiooni kohta, mis lisati rakenduse Microsoft Dynamics 365 for Operations versioonis 1611.
 
 
 ## <a name="select-the-existing-er-report-configuration"></a>Olemasoleva elektroonilise aruandluse aruande konfiguratsiooni valimine
@@ -99,5 +99,4 @@ See protseduur on funktsiooni jaoks, mis lisati rakenduse Microsoft Dynamics 365
 16. Klõpsake nuppu OK.
 17. Klõpsake nuppu OK.
     * Analüüsige loodud väljundit. Pange tähele, et loodud väljundit esitatakse Wordi vormingus ja sisaldab töödeldud maksete üksikasju.  
-
 

@@ -1,31 +1,31 @@
 ---
-title: "Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (27. november 2018)"
-description: "Teema kirjeldab funktsioone, mis on Microsoft Dynamics 365 for Talent Core HR-is kas uued või muudetud."
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (27. november 2018)
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talent Core HR-i uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-27
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
 ms.openlocfilehash: 6bd049bfe4639136276ab2f14e6310e45d1254f2
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304007"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-november-27-2018"></a>Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (27. november 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-november-27-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (27. november 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -64,4 +64,3 @@ Selle uuendusega kuvatakse lepingu lõpetanud ja uuesti värvatud töövõtjad l
 
 - **Probleemi**: uuele töötajale seotuse lisamisel on nupud **Uus** ja **Redigeeri** hallid. 
 - **Lahendus:** veenduge enne manuse lehe avamist, et **Töötaja** lehe kiirinfod oleksid suletud. Kui kiirinfod on lehe **Töötaja** laadimisel suletud, on manuste nupud lubatud. (See probleem lahendatakse järgmisel platvormivärskendusel.)
-

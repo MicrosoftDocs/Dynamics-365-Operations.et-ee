@@ -1,13 +1,13 @@
 ---
 title: Projektikulu juurdekasv ostu sissetulekute korral
-description: "Selles teemas kirjeldatakse, kuidas ostu sissetulekutest kogunevaid projektikulusid saab rakenduses Microsoft Dynamics 365 for Finance and Operations jälgida."
+description: Selles teemas kirjeldatakse, kuidas jälgida ostu sissetulekutest kogunevaid projektikulusid Microsoft Dynamics 365 for Finance and Operationsis.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bc822652abbba68f094fe5b8a65f796165a92c4c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9a74b684e955376b9c3036954f4a6e6628c468f0
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340426"
 ---
-
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Projektikulu juurdekasv ostu sissetulekute korral
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas ostu sissetulekutest kogunevaid projektikulusid saab rakenduses Microsoft Dynamics 365 for Finance and Operations jälgida. 
+Selles teemas kirjeldatakse, kuidas jälgida ostu sissetulekutest kogunevaid projektikulusid Microsoft Dynamics 365 for Finance and Operationsis. 
 
 Projekti arved saabuvad sageli kaupade ja teenuste üleandmisest hiljem, millel võib olla märkimisväärne mõju projekti juhtimismõõdikutele (KPI-dele). Nende kannete jälgimise võimalus nii finants- kui ka projektiaruannetes on oluline.
 
@@ -82,7 +81,6 @@ Lehel **Kooskõlastatud kulu** suletakse 1. etapis loodud kirjed ja luuakse uued
 [![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
 Hankija arve jääb ootel olekusse, kuni saabub tegelik hankija arve.
-
 
 
 

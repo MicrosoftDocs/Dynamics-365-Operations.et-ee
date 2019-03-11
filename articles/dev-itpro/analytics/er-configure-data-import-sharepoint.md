@@ -1,13 +1,13 @@
 ---
-title: Andmete SharePointist importimise konfigureerimine
+title: SharePointist andmete importimise konfigureerimine
 description: Selles teemas selgitatakse, kuidas importida andmeid Microsoft SharePointist.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 060c3dec71e2b953d9341c5b5c89e60925fda34d
 ms.openlocfilehash: 8053b0316c86c614b87b0e658dffade3a135f2cc
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331088"
 ---
-# <a name="configure-data-import-from-sharepoint"></a>Andmete SharePointist importimise konfigureerimine
+# <a name="configure-data-import-from-sharepoint"></a>SharePointist andmete importimise konfigureerimine
 
 [!include[banner](../includes/banner.md)]
 
-Andmete importimiseks sissetulevast failist, kasutades elektroonilise aruandluse (ER) raamistikku, peate konfigureerima elektroonilise aruandluse vorming, mis toetab importimist, ja seejärel käivitama tüübi **Sihtkohta**, mis kasutab seda vormingut andmeallikana, mudelivastenduse. Andmete importimiseks peate navigeerima failini, mille soovite importida. Kasutaja saab sissetuleva faili käsitsi valida. Elektroonilise aruandluse uue funktsiooniga, mis toetab andmete importimist Microsoft SharePointist, saab selle protsessi konfigureerida järelevalveta protsessina. Elektroonilise aruandluse konfiguratsioonide abil saate importida andmeid Microsoft SharePointi kaustadesse salvestatud failidest. Selles teemas selgitatakse, kuidas importida andmeid SharePointist rakendusse Microsoft Dynamics 365 for Finance and Operations. Näidetes on kasutatud äriandmetena hankija kandeid.
+Andmete importimiseks sissetulevast failist, kasutades elektroonilise aruandluse (ER) raamistikku, peate konfigureerima elektroonilise aruandluse vorming, mis toetab importimist, ja seejärel käivitama tüübi **Sihtkohta**, mis kasutab seda vormingut andmeallikana, mudelivastenduse. Andmete importimiseks peate navigeerima failini, mille soovite importida. Kasutaja saab sissetuleva faili käsitsi valida. Elektroonilise aruandluse uue funktsiooniga, mis toetab andmete importimist Microsoft SharePointist, saab selle protsessi konfigureerida järelevalveta protsessina. Elektroonilise aruandluse konfiguratsioonide abil saate importida andmeid Microsoft SharePointi kaustadesse salvestatud failidest. Selles teemas kirjeldatakse importimist SharePointist rakendusse Microsoft Dynamics 365 for Finance and Operations. Näidetes on kasutatud äriandmetena hankija kandeid.
 
 ## <a name="prerequisites"></a>Eeltingimused
 Selles teemas näidete lõpuleviimiseks peavad teil olema järgmised juurdepääsuõigused.
@@ -43,7 +43,7 @@ Selles teemas näidete lõpuleviimiseks peavad teil olema järgmised juurdepää
 - 1099 makse elektroonilise aruandluse vormingu ja mudeli konfiguratsioonid.
 
 ### <a name="create-required-er-configurations"></a>Vajalike elektroonilise aruandluse konfiguratsioonide loomine
-Vaadake tegevusejuhiseid **Elektrooniline aruandlus: andmete importimine Microsoft Exceli failist**, mis on osa äriprotsessist **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)**. Need tegevusjuhised tutvustavad teile elektroonilise aruandluse konfiguratsioonide kujundamise ja kasutamise protsessi hankija kannete interaktiivseks importimiseks Microsoft Exceli failidest. Lisateabe saamiseks vt teemat [Sissetulevate dokumentide sõelumine Microsoft Excelis](parse-incoming-documents-excel.md). Pärast tegevusjuhiste täitmist on teil järgmised seadistused.
+Vaadake tegevusjuhiseid **Elektrooniline aruandlus: andmete importimine Microsoft Exceli failist**, mis on osa äriprotsessist **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)**. Need tegevusjuhised tutvustavad elektroonilise aruandluse konfiguratsioonide kujundamise ja kasutamise protsessi hankija kannete interaktiivseks importimiseks Microsoft Exceli failidest. Lisateavet vt teemast [Sissetulevate dokumentide sõelumine Microsoft Excelis](parse-incoming-documents-excel.md). Pärast tegevusjuhiste täitmist on teil järgmised seadistused.
 
 #### <a name="er-configurations"></a>Elektroonilise aruandluse konfiguratsioonid
 
@@ -61,11 +61,11 @@ Vaadake tegevusejuhiseid **Elektrooniline aruandlus: andmete importimine Microso
 > [!NOTE]
 > Hankija kannete importimise vorming on valitud vaike-mudelivastendusena. Seega kui käivitate **1099 maksete mudeli** mudelivastenduse ja mudelivastenduse tüüp on **Sihtkohta**, käitab mudelivastendus seda vormingut andmete importimiseks välistest failidest. Seejärel kasutab see neid andmeid rakenduse tabelite värskendamiseks.
 
-## <a name="configure-access-to-sharepoint-for-file-storage"></a>Mälu SharePointi juurdepääsu konfigureerimine
-Elektroonilise aruande failide talletamiseks SharePointi asukohas tuleb konfigureerida juurdepääs praeguses ettevõttes kasutatavale SharePoint Serveri eksemplarile. Selles näites on ettevõte USMF. Lisateabe saamiseks vaadake [SharePointi laoala konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+## <a name="configure-access-to-sharepoint-for-file-storage"></a>SharePointile juurdepääsu konfigureerimine failitalletuseks
+Elektroonilise aruande failide talletamiseks SharePointi asukohas tuleb konfigureerida juurdepääs praeguses ettevõttes kasutatavale SharePoint Serveri eksemplarile. Selles näites on ettevõte USMF. Juhiseid vt teemast [SharePointi salvestusruumi konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. Järgige juhiseid jaotises [SharePointi laoala konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
-2. Avage konfigureeritud SharePointi tegevuskoht.
+1. Järgige juhiseid jaotises teemas [SharePointi salvestusruumi konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+2. Avage konfigureeritud SharePointi sait.
 3. Looge sissetulevate elektrooniliste aruandluse failide talletamiseks järgmised kaustad:
 
      - Failide importimine allikas (põhi) (nt pildil)
@@ -80,7 +80,7 @@ Elektroonilise aruande failide talletamiseks SharePointi asukohas tuleb konfigur
     - Failide veakaust – See kaust oleks failide jaoks, mida ei saanud importida.
 
 4. Avage Finance and Operationsis **Organisatsiooni haldus > Dokumendihaldus > Dokumenditüübid**.
-5. Looge dokumenditüübid, mida kasutatakse äsjaloodud SharePointi kaustade juurdepääsuks. Lisateabe saamiseks vaadake [Dokumenditüüpide konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. Looge dokumenditüübid, mida kasutatakse äsjaloodud SharePointi kaustadele juurdepääsuks. Lisateabe saamiseks vaadake [Dokumenditüüpide konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Dokumendi tüüp        | Grupeeri              | Koht      | SharePointi kaust      |
 |--------------------|--------------------|---------------|------------------------|
@@ -123,7 +123,7 @@ Saate lehe **Allikate failiolekud** avada ka, valides suvandid **Organisatsiooni
 
     - **Valmis** – määratakse automaatselt igale uuele failile SharePointi kaustas. See olek tähendab, et fail on importimiseks valmis.
     - **Importimine** – selle määrab automaatselt elektroonilise aruandluse aruanne, kui impordiprotsess on faili lukustanud, et takistada selle kasutamist teistes protsessides (kui neid töötab korraga mitu).
-    - **Imporditud** – selle määrab automaatselt elektroonilise aruandluse aruanne, kui faili importimine on edukalt lõpule viidud. See olek tähendab, et imporditud fail on konfigureeritud failide allikast (SharePointi kaustast) kustutatud.
+    - **Imporditud** – selle määrab automaatselt elektroonilise aruandluse aruanne, kui faili importimine on edukalt lõpule viidud. See olek tähendab, et imporditud fail on konfigureeritud failiallikast (SharePointi kaustast) kustutatud.
     - **Nurjunud** – selle määrab automaatselt elektroonilise aruandluse aruanne, kui faili importimine on lõpule viidud tõrgete või eranditega.
     - **Ootel** – selle määrab kasutaja lehel käsitsi. See olek tähendab, et faili praegu ei impordita. Seda olekut saab kasutada mõne faili importimise edasilükkamiseks.
 
@@ -143,7 +143,7 @@ Saate lehe **Allikate failiolekud** avada ka, valides suvandid **Organisatsiooni
 
 4. Mudelivastendust saab käitada pakettrežiimis järelevalveta. Sellisel juhul imporditakse igal selle elektroonilise aruandluse vormingu pakettkäitusel üks fail konfigureeritud failiallikatest.
 
-    Kui fail on edukalt imporditud SharePointi kaustast, kustutatakse see sellest kaustast ja teisaldatakse edukalt imporditud failide kausta või hoiatustega imporditud failide kausta. Vastasel juhul teisaldatakse see ebaõnnestunud failide kausta või jääb sellesse kausta, kui ebaõnnestunud failide kausta ei ole loodud. 
+    Kui fail on SharePointi kaustast edukalt imporditud, kustutatakse see sellest kaustast ja teisaldatakse edukalt imporditud failide kausta või hoiatustega imporditud failide kausta. Vastasel juhul teisaldatakse see ebaõnnestunud failide kausta või jääb sellesse kausta, kui ebaõnnestunud failide kausta ei ole loodud. 
 
 5. Sisestage kande ID, nt **V-00001**, ja seejärel valige **OK**.
 
@@ -158,7 +158,7 @@ Saate lehe **Allikate failiolekud** avada ka, valides suvandid **Organisatsiooni
 9. Valige Finance and Operationsis suvandid **Ostureskontro** \> **Perioodilised ülesanded** \> **Maks 1099** \> **Hankija tasakaalustus 1099 jaoks**.
 10. Sisestage väljadele **Alguskuupäev** ja **Lõppkuupäev** asjakohased väärtused. Seejärel valige suvand **Manuaalsed 1099 kanded**.
 
-    Lehel kuvatakse kande puhul **V-00001** SharePointis olevatest Exceli failidest imporditud hankija kanded.
+    Lehel kuvatakse kande **V-00001** puhul SharePointis olevatest Exceli failidest imporditud hankija kanded.
 
     [![1099 hankija kannete leht](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
 
@@ -187,9 +187,8 @@ Saate lehe **Allikate failiolekud** avada ka, valides suvandid **Organisatsiooni
 
     [![Elektroonilise aruandluse failiolekute leht valitud allikate puhul](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
-   Jaotises **Impordivormingu allikate logi** on näidatud, et impordiprotsess nurjus ja fail on endiselt SharePointi failide veakaustas (ruut **On kustutatud** on märkimata). Kui parandate selle faili SharePointis, lisades õige hankija koodi ja seejärel teisaldate selle failide importimise SharePointi lähtekausta (põhi), saate importida faili uuesti.
+   Jaotises **Impordivormingu allikate logi** on näidatud, et impordiprotsess nurjus ja fail on endiselt SharePointi failide veakaustas (ruut **On kustutatud** on märkimata). Kui parandate selle faili SharePointis, lisades õige hankija koodi, ja seejärel teisaldate selle SharePointi kausta Failide impordiallikas (peamine), saate faili uuesti importida.
 
 11. Valige Finance and Operationsis suvandid **Ostureskontro** \> **Perioodilised ülesanded** \> **Maks 1099** \> **Hankija tasakaalustus 1099 jaoks**, sisestage väljadele **Alguskuupäev** ja **Lõppkuupäev** asjakohased väärtused ning siis valige suvand **Manuaalsed 1099 kanded**.
 
     Saadaval on ainult kanded kandele V-00001. Kandele V-00002 ei ole kandeid saadaval, kuigi Exceli failis leiti viimati imporditud kande tõrge.
-

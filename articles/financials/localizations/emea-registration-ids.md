@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7b663b9a72afdd3c2e2dcf503152f02e0b7861fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350500"
 ---
-
 # <a name="registration-ids"></a>Registreerimise ID-d
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,7 @@ Registreerimiskategooria on riigi/regiooni registreerimise identifikaator, mis o
 |-----------------------|----------------|
 | Registreerimise tüüp     | Registreerimistüüp kõnealuses riigis/regioonis.|
 | Kitsendatud         | Maksu registreerimistüübile kohaldub piirangu laad: Pole, Isik, Organisatsioon.|
-| Registreerimiskategooria | Riigis kasutamiseks heakskiidetud kordumatu registreerimise identifikaator. Microsoft Dynamics 365 for Finance and Operationsi toetatud kategooriate tervikloend on allpool. |
+| Registreerimiskategooria | Riigis kasutamiseks heakskiidetud kordumatu registreerimise identifikaator. Täieliku loendi Microsoft Dynamics 365 for Finance and Operationsis toetatud kategooriatest leiate altpoolt. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Sisestage registreerimise ID-d globaalse aadressiraamatu kirjete puhul
 
@@ -101,7 +100,7 @@ Järgmises tabelis on toodud Finance and Operationsis toetatud registreerimistü
 | Ametlik identifitseerimisdokument                              | Hispaania             | Ametlik identifitseerimisdokument|
 | Elukohatõend                                         | Hispaania             | Elukohatõend|
 | Muu identifitseerimisdokument                                 | Hispaania             | Muu identifitseerimisdokument|
-| Pole loendatud                                                  | Hispaania             | Pole lahenduses AX 2012 R3 saadaval|
+| Pole loendatud                                                  | Hispaania             | Pole rakenduses AX 2012 R3 saadaval|
 
 
 Lisateavet registreerimise ID-de töötlemise kohta, sealhulgas nõutavad eeltingimused, leiate järgmistest elutsükliteenuste (LCS) KMKR-i tegevuste salvestistest.
@@ -109,7 +108,6 @@ Lisateavet registreerimise ID-de töötlemise kohta, sealhulgas nõutavad eeltin
 -   KM ID seadistamine
 -   Hankija KMKR-i registreerimine
 -    Osapoole otsing KM ID abil
-
 
 
 

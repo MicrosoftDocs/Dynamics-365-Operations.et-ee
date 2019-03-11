@@ -1,14 +1,14 @@
 ---
 title: Turvalisus ja rollihaldus Attractis
-description: "Selles teemas kirjeldatakse rolli turvalisust rakenduses Microsoft Dynamics 365 for Talent – Attract."
+description: Teema sisaldab teavet rolliturbe kohta rakenduses Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 9eb12bd6b9fc1aa66002908e5989b3ac504ab673
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374776"
 ---
-
 # <a name="security-and-role-management-in-attract"></a>Turvalisus ja rollihaldus Attractis
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract kasutab rollipõhist turvalisust. Teisisõnu ei anta juurdepääsu üksikkasutajatele vaid kasutajatele määratud turberollidele. Kasutajal, kellele on määratud turberoll, on ligipääs selle rolliga seotud määratud privileegidele.
+Microsoft Dynamics 365 for Talent: Attract kasutab rollipõhist turvet. Teisisõnu ei anta juurdepääsu üksikkasutajatele vaid kasutajatele määratud turberollidele. Kasutajal, kellele on määratud turberoll, on ligipääs selle rolliga seotud määratud privileegidele.
 
 Attractis on viis põhilist kasutaja rolli.
 
@@ -53,7 +52,7 @@ Järgmistes jaotistes esitatakse iga rolli üksikasjalik kirjeldus. Allolevad ta
 
 ## <a name="administrator"></a>Administraator
 
-Kasutajad, kellele määratakse Administraatori roll, pääsevad ligi ja saavad muuta kõiki Attracti andmeid. Administraatorid saavad luua, lugeda, värskendada ja kustutada andmeid. Neil on ka juurdepääs Halduskeskusele, kus nad saavad konfigureerida Attracti rakendust ja seadistada kasutajateavet. Soovitame administraatori rolli määrata vähemalt ühe inimese. Vaikimisi seatakse Microsoft PowerApps keskkonna administraator Attracti administraatoriks. Kui te registreerute Attracti prooviversiooni jaoks, määratakse administraatori roll automaatselt teile. Praegu peab administraatori rolliga kasutajal tööde loomiseks olema ka värbaja või personalijuhi roll.
+Kasutajad, kellele määratakse Administraatori roll, pääsevad ligi ja saavad muuta kõiki Attracti andmeid. Administraatorid saavad luua, lugeda, värskendada ja kustutada andmeid. Neil on ka juurdepääs Halduskeskusele, kus nad saavad konfigureerida Attracti rakendust ja seadistada kasutajateavet. Soovitame administraatori rolli määrata vähemalt ühe inimese. Vaikimisi seatakse Microsoft PowerAppsis keskkonna administraator Attracti administraatoriks. Kui te registreerute Attracti prooviversiooni jaoks, määratakse administraatori roll automaatselt teile. Praegu peab administraatori rolliga kasutajal tööde loomiseks olema ka värbaja või personalijuhi roll.
 
 ## <a name="hiring-manager"></a>Personalijuht
 
@@ -63,7 +62,7 @@ Kasutajad, kes on määratud personalijuhi rolli saavad luua töid ja värskenad
 
 Kasutajatel, kellel on värbaja roll, on täielik lugemise, loomise, värskendamise ja kustutamise õigus enda loodud töödele. Neil on ka täielik loomise, lugemise, värskendamine ja kustutamise õigus nende loodud töödega seotud rakendustele. Ainult kasutajad, kellele on määratud värbaja roll, saab värbajana värbamistöörühma lisada.
 
-## <a name="interviewer"></a>Vestluse läbiviija
+## <a name="interviewer"></a>Intervjueerija
 
 Iga kasutaja, kellel on organisatsioonis Microsoft Azure Active Directory (Azure AD) konto, saab lisada värbamistöörühma intervjueerijana. Intervjueerija rolli määratud kasutajad saavad vaadata töö üksikasju ja kandidaadi andmeid nende tööde kohta, mille pärast nad värbamistöörühmas on. Intervjueerijad saavad tööde kohta teha ka värbamissoovitusi ja pakkuda kandidaatide kohta tagasisidet. Kuid nad ei saa värskendada töö üksikasju või kandidaadi andmeid.
 
@@ -108,7 +107,7 @@ Järgmised õigused kehtivad kandidaatide tööspetsiifilistele andmetele ja ava
 | Etapi võrra edasi           | Võidake lükata, kas kasutaja on värbamistöörühmas | Võidake edasi liikuda, kas kasutaja on värbamistöörühmas | Pole lubatud |
 | Pakkumise haldamise käivitamine | Saab alustada pakkumise haldamist | Pakkumise tegevusel on konfiguratsioonivalik. | Pole lubatud |
 
-\*\* Konfiguratsioonivalik väljal [tagasiside tegevuse seadistamine](./activities-attract.md#feedback-activity) kontrollib, kas küsitlejad näevad teineteise tagasisidet.
+\*\* Konfiguratsioonivalik väljal [tagasiside tegevuse seadistamine](activities-attract.md#feedback-activity) kontrollib, kas küsitlejad näevad teineteise tagasisidet.
 
 ## <a name="process-templates"></a>Töötlusmallid
 
@@ -146,4 +145,3 @@ Kandidaadid on inimesed, kes on lisatud talendikausta, kuid ei ole tööga seost
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profiil – kandidaadi andmed | Looge, lugege, värskendage ja kustutage | Looge, lugege, värskendage ja kustutage | Juurdepääs puudub   |
 | Dokumendid                   | Looge, lugege, värskendage ja kustutage | Looge, lugege, värskendage ja kustutage | Juurdepääs puudub   |
-

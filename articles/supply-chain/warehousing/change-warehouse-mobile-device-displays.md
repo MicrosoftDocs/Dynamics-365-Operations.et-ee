@@ -1,13 +1,13 @@
 ---
-title: "Lao mobiilse seadme kuvasätted"
-description: "Selles artiklis kirjeldatakse, kuidas seadistada mobiilse seadme kuva välimust ja vastendada kiirklahve juhtelementidega, näiteks nuppudega."
+title: Lao mobiilse seadme kuvasätted
+description: Selles artiklis kirjeldatakse, kuidas seadistada mobiilse seadme kuva välimust ja vastendada kiirklahve juhtelementidega, näiteks nuppudega.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFColor, WHSRFColorPicker, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 16f332da00d2230ecb4cebc526b6456314564e55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328029"
 ---
-
 # <a name="warehouse-mobile-device-display-settings"></a>Lao mobiilse seadme kuvasätted
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Mobiilse seadme konfiguratsiooni osana saate määratleda mobiilsetele seadmetel
 -    Sisestage CSS-faili nimi väljale **CDD-fail**. Lisage .css-faili nime laiend.
 -   Määrake väljal **Mobiilse seadme kuvasätete vaade** ASPX-fail. **Ärge** lisage faili nimele laiendit .aspx.
 
-CSS- ja ASPX-failid peavad asuma kindlas kaustas, nii et rakendus Internet Information Services (IIS) saaks need laadida. Kui käitate mobiilse seadme funktsioone erinevates brauserites või erinevatel riistvaradel, mis nõuavad erinevat paigutuse juhtelementi, võib olla kasulik määratleda erinevad CSS-failid. Lihtsaid sätteid, nagu taustavärv, font ja teksti fondisuurus, nuppude laius ja käitumine, saab hõlpsasti juhtida CSS-failide erineva kasutamisega. ASPX-faili kasutatakse mobiilisaidi kuvamiseks serveripoolsel rakendusel ASP.NET. Fail juhib, kuidas HTML-i üldine struktuur paigutatud on. Selle funktsiooni võiks kohandada ainult siis, kui teil on HTML-i ja JavaScriptiga tõsiseid struktuuriprobleeme ning peate seda koodi konkreetsete seadmete puhul muutma. Mobiilse seadme lehel olevate HTML-i juhtelementide vastendamiseks klaviatuuri otseteedega määrake lehe **Mobiilse seadme kuvasätted** väljal **Kiirklahv** klahvidele numbrilised koodid. Numbriliste koodide otsimiseks saate kasutada mobiilse seadme menüüd **Kuva klaviatuuri otseteede koodid**. Arvestage sellega, et olenevalt kasutatavast riistvarast võib vastendamine erineda. Vastenduse loomiseks peate kasutama järgmist süntaksit.
+CSS- ja ASPX-failid peavad asuma kindlas kaustas, nii et rakendus Internet Information Services (IIS) saaks need laadida. Kui käitate mobiilse seadme funktsioone erinevates brauserites või erinevatel riistvaradel, mis nõuavad erinevat paigutuse juhtelementi, võib olla kasulik määratleda erinevad CSS-failid. Lihtsaid sätteid, nagu taustavärv, font ja teksti fondisuurus, nuppude laius ja käitumine, saab hõlpsasti juhtida CSS-failide erineva kasutamisega. ASPX-faili kasutatakse mobiilisaidi kuvamiseks serveripoolses rakenduses ASP.NET. Fail juhib, kuidas HTML-i üldine struktuur paigutatud on. Selle funktsiooni võiks kohandada ainult siis, kui teil on HTML-i ja JavaScriptiga tõsiseid struktuuriprobleeme ning peate seda koodi konkreetsete seadmete puhul muutma. Mobiilse seadme lehel olevate HTML-i juhtelementide vastendamiseks klaviatuuri otseteedega määrake lehe **Mobiilse seadme kuvasätted** väljal **Kiirklahv** klahvidele numbrilised koodid. Numbriliste koodide otsimiseks saate kasutada mobiilse seadme menüüd **Kuva klaviatuuri otseteede koodid**. Arvestage sellega, et olenevalt kasutatavast riistvarast võib vastendamine erineda. Vastenduse loomiseks peate kasutama järgmist süntaksit.
 
 &lt;control name&gt;(&lt;key name&gt;)=&lt;key code&gt;;
 
@@ -101,7 +100,6 @@ Saate ühes failis määrata mitu avaldist. Iga avaldis peab olema eraldi real. 
 --------
 
 [Mobiilsete seadmete konfigureerimine laotöö jaoks](configure-mobile-devices-warehouse.md)
-
 
 
 

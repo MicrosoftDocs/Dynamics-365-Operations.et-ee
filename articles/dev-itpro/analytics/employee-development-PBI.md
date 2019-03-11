@@ -1,13 +1,13 @@
 ---
-title: "Töötajate arengu Power BI sisu"
-description: "Selles teemas kirjeldatakse töötajate arengu Power BI sisu."
+title: Töötajate arengu Power BI sisu
+description: Selles teemas kirjeldatakse töötajate arengu Power BI sisu.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347165"
 ---
-
 # <a name="employee-development-power-bi-content"></a>Töötajate arengu Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse **töötajate arengu** Microsoft Power BI sisu.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruanded
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad aruanded
 **Töötaja arengu** Power BI sisusse kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
 
 | Aruanne                        | Sisu |
@@ -42,7 +41,7 @@ Selles teemas kirjeldatakse **töötajate arengu** Microsoft Power BI sisu.
 | Jõudluse hinnangu analüüs   | Töötajad madalaima ja kõrgeima hinnangu järgi töö alusel, töötajate hinnangud osakondade järgi, töötajad hinnangu ja ametikoha tüübi järgi ning kõrgeimad ja madalaimad hinnangud ametikoha järgi |
 | Töötaja jõudluse analüüs | Töötaja hinnangud valitud hinnangu puhul juhilt |
 
-Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt jaotisest [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt teemast [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 
@@ -70,4 +69,3 @@ Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada arma
 | Töötaja oskuste analüüs  | Sertifitseeritud, tase, taseme kuupäev ja oskus                                                                    | Töötaja nimi, oskus |
 | Jõudlus              | Hinnang, kirjeldus ja hinnangumudel                                                                      | Praegune töötaja, praegune ametikoht, töötaja trend, töö eelistatud oskus, varasem ametikoha määramine, ametikoha trend, lõpetatud lepinguga töötaja |
 | Oskus                    | Oskus, oskuse tüüp ja hinnang                                                                              | Töötaja oskuste analüüs, töö eelistatud oskus |
-

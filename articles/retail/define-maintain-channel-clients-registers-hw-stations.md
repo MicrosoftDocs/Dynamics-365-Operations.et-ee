@@ -1,13 +1,13 @@
 ---
-title: "Välisseadmete ühendamine kassaga (POS)"
-description: "See teema käsitleb välisseadmete ühendamist Retail POS-iga."
+title: Välisseadmete ühendamine kassaga (POS)
+description: See teema käsitleb välisseadmete ühendamist Retail POS-iga.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308778"
 ---
-
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Välisseadmete ühendamine kassaga (POS)
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 01/04/2019
 See teema käsitleb välisseadmete ühendamist Retail POS-iga.
 
 > [!NOTE]
-> Konkreetsed paigaldusjuhised leiate jaotistest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md) ja [Retail Modern POS-i iseteeninduse allalaadimine/installimine ja Modern POS-i ning pilvekassa seadme aktiveerimine](retail-modern-pos-device-activation.md).
+> Konkreetsed paigaldusjuhised leiate jaotistest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md) ning [Retail Modern POS-i iseteeninduse allalaadimine/installimine ja Modern POS-i ning pilvekassa seadme aktiveerimine](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Põhikomponendid
 
@@ -188,4 +187,3 @@ Aktiveerimist puudutav lisateave hõlmab töötajat, kes seadme aktiveerimisolek
 ### <a name="client-data-synchronization"></a>Kliendi andmete sünkroonimine
 
 Kõik kassa kliendi muudatused, v.a seadme aktiveerimisoleku muudatused, tuleb nende jõustumiseks kanali andmebaasiga sünkroonida. Muudatuste sünkroonimiseks kanali andmebaasiga minge jaotisse **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik** ja käivitage nõutud jaotusgraafik. Kliendi muudatuste puhul tuleks käivitada jaotusgraafikud Registrid ja Kanali konfiguratsioon.
-

@@ -1,13 +1,13 @@
---- 
-title: "Hankija maksete ülevaade"
-description: "See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri meetodite, sh selle kohta, kuidas kasutada maksesoovitust või sisestada ühekordset makset käsitsi."
+---
+title: Hankija maksete ülevaade
+description: See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri meetodite, sh selle kohta, kuidas kasutada maksesoovitust või sisestada ühekordset makset käsitsi.
 author: kweekley
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d892366a11edcd92f34f37b3e855631820ba816b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
-ms.openlocfilehash: e9a94231f755ff23bb442d62e90daff8f2d1f4fb
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/30/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359953"
 ---
 # <a name="vendor-payment-overview"></a>Hankija maksete ülevaade
 
@@ -76,5 +76,4 @@ See ülesande juhend annab ülevaate hankija maksete loomiseks kasutatavate eri 
 32. Klõpsake nuppu OK.
 33. Maksete loomiseks klõpsake nuppu OK.
 34. Kui kõik maksed on kinnitatud ja loodud, klõpsake käsku Sisesta. 
-
 

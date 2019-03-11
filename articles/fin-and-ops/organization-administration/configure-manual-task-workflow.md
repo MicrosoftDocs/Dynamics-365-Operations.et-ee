@@ -1,13 +1,13 @@
 ---
-title: "Töövoos käsitsi ülesannete konfigureerimine"
-description: "See teema selgitab, kuidas konfigureerida käsitsi ülesande atribuute."
+title: Töövoos käsitsi ülesannete konfigureerimine
+description: See teema selgitab, kuidas konfigureerida käsitsi ülesande atribuute.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 669fce3ddade4d6e0a130da2420ab33ca4ff4671
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309744"
 ---
-
 # <a name="configure-manual-tasks-in-a-workflow"></a>Töövoos käsitsi ülesannete konfigureerimine
 
 [!include [banner](../includes/banner.md)]
@@ -383,4 +382,3 @@ Kui kasutajale määratakse käsitsi ülesanne, tuleb kasutajal teha sellega teg
 5. Märkige ruut **Delegeeri**, kui soovite anda kasutajale õiguse delegeerida ülesanne teisele kasutajale.
 6. Märkige ruut **Määra ümber**, kui soovite anda kasutajale õiguse määrata ülesanne ümber teisele kasutajale tööüksuste järjekorras.
 7. Märkige ruut **Vabasta**, kui soovite anda kasutajale õiguse määrata ülesanne ümber teisele kasutajale tööüksuste järjekorras. Muu kasutaja saab ülesande täita.
-

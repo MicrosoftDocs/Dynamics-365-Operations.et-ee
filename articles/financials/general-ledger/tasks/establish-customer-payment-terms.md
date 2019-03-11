@@ -1,13 +1,13 @@
---- 
-title: "Kliendi maksetingimuste määramine"
-description: "See protseduur määratleb skonto ja tähtaja seadistamise."
+---
+title: Kliendi maksetingimuste määramine
+description: See protseduur määratleb skonto ja tähtaja seadistamise.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 49f4047ab4bff6bdfbe8326a6680f9d8f9762c95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e0e43962bea3ff1c3adafa73da4ce3862963a51
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312481"
 ---
 # <a name="establish-customer-payment-terms"></a>Kliendi maksetingimuste määramine
 
@@ -66,5 +66,4 @@ See protseduur määratleb skonto ja tähtaja seadistamise. See ülesande juhend
     * Kui valite suvandi Kontod arve real, sisestatakse skonto hankija arve ridadel sama vara/kulu põhikontole. Kui valite suvandi Kasuta hankija arvete puhul põhikontot, sisestatakse skonto põhikontole, mille määratlete suvandis Hankija arvete põhikonto. Selle näite puhul valige suvand Kasuta hankija arvete puhul põhikontot.  
 26. Sisestage põhikonto, millele sisestatakse skonto hankija arvete puhul.
 27. Klõpsake nuppu Salvesta.
-
 

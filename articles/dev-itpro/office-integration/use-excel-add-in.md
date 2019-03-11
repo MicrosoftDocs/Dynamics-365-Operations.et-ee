@@ -1,13 +1,13 @@
 ---
-title: "Üksuse andmete avamine Excelis ja andmete värskendamine Exceli lisandmooduliga"
-description: "See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis, ja seejärel vaadata, värskendada ja redigeerida andmeid, kasutades Microsoft Dynamics Office’i Excelile mõeldud lisandmoodulit."
+title: Üksuse andmete avamine Excelis ja andmete värskendamine Exceli lisandmooduliga
+description: See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis ning neid seejärel vaadata, värskendada ja redigeerida Microsoft Dynamics Office’i Excelile mõeldud lisandmooduli abil.
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,29 +17,28 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340633"
 ---
-
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Üksuse andmete avamine Excelis ja andmete värskendamine Exceli lisandmooduliga
 
 [!include [banner](../includes/banner.md)]
 
-See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis, ja seejärel vaadata, värskendada ja redigeerida andmeid, kasutades Microsoft Dynamics Office’i Excelile mõeldud lisandmoodulit. Üksuse andmete avamiseks saate käivitada Exceli või rakenduse Microsoft Dynamics 365 for Finance and Operations kaudu.
+See teema selgitab, kuidas avada üksuse andmeid Microsoft Excelis ning neid seejärel vaadata, värskendada ja redigeerida Microsoft Dynamics Office’i Excelile mõeldud lisandmooduli abil. Üksuse andmete avamiseks saate alustada kas Excelist või rakendusest Microsoft Dynamics 365 for Finance and Operations.
 
 Kui avate üksuse andmed Excelis, saate neid kiiresti ja hõlpsasti vaadata ja redigeerida, kasutades Exceli lisandmoodulit. See lisandmoodul nõuab rakendust Microsoft Excel 2016.
 
 > [!NOTE]
-> Kui teie Microsoft Azure Active Directory (Azure AD) rentnik konfigureeritakse kasutama teenust Active Directory Federation Services (AD FS), peate veenduma, et Office’i 2016. aasta mai värskendus on rakendatud nii, et Exceli lisandmoodul saab teid korrektselt sisse logida.
+> Kui teie Microsoft Azure Active Directory (Azure AD) rentnik konfigureeritakse kasutama teenust Active Directory Federation Services (AD FS), peate veenduma, et Office’i 2016. aasta mai värskendus oleks rakendatud, nii et Exceli lisandmoodul saab teid korrektselt sisse logida.
 
 Exceli lisandmooduli kasutamise kohta lisateabe saamiseks vaadake lühivideot [Exceli malli loomine päise ja reamustrite jaoks rakenduses Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Avage üksuse andmed Excelis rakenduse Finance and Operations käivitamisel
-1. Valige rakenduse Finance and Operations käsk **Ava Microsoft Office’is**.
+1. Valige rakenduse Finance and Operations lehel käsk **Ava Microsoft Office’is**.
 
     Kui lehe juurandmete allikas (tabel) on sama kui mis tahes üksuste juurandmeallikas, luuakse lehe jaoks vaikesuvandid **Ava Excelis**. Suvandid **Ava Excelis** on leitavad sagedasti kasutatavatel lehtedel, nagu **Kõik hankijad** ja **Kõik kliendid**.
  
@@ -52,7 +51,7 @@ Exceli lisandmoodul loeb automaatselt valitud üksuse andmeid. Pange tähele, et
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Üksuse andmete avamine Exceli kaudu käivitamisel
 1. Valige Excelis vahekaardil **Lisa** grupis **Lisandmoodulid** suvand **Store**, et avada Office Store.
-2. Office Store’is otsige märksõna **Dynamics** ja seejärel valige käsk **Lisa**, mis asub valiku **Microsoft Dynamicsi Office’i lisandmoodul** (Exceli lisandmoodul) kõrval.
+2. Office Store’is otsige märksõna **Dynamics** ja seejärel valige käsk **Lisa**, mis asub valiku **Microsoft Dynamics Office’i lisandmoodul** (Exceli lisandmoodul) kõrval.
 3. Kui käivitate Exceli lisandmooduli esimest korda, valige käsk **Usalda seda lisandmoodulit**, et lubada Exceli lisandmooduli käivitamine. Exceli lisandmoodul töötab Exceli akna paremal küljel olevas paanis.
 4. Valige suvand **Serveriteabe lisamine**, et avada paan **Suvandid**.
 5. Kopeerige brauseris URL rakenduse Finance and Operations sihteksemplari URL, kleepige see väljale **Serveri URL** ja seejärel kustutage kõik, mis järgneb hostinimele. Tulemuseks saadav URL peaks sisaldama ainult hostinime.
@@ -124,5 +123,4 @@ On mõned probleemid, mida saab lahendada mõne lihtsa juhise kaudu.
 
 - **Kuvatakse nupp Aplettide laadimine**: kui Exceli lisandmoodulil on pärast sisselogimist nupp **Aplettide laadimine**, pole te tõenäoliselt õige kasutajana sisse logitud. Selle probleemi lahendamiseks veenduge, et Exceli paremas ülanurgas ilmub õige kasutaja. Kui ilmub vale kasutajanimi, valige see, logige välja ja logige tagasi sisse.
 - **Kuvatakse teade „Keelatud”**: kui näete Exceli lisandmoodulis metaandmete laadimise ajal teadet „Keelatud”, siis ei ole kontol, mis on Exceli lisandmoodulisse sisse logitud, õigust kasutada sihtteenust, -eksemplari või -andmebaasi. Selle probleemi lahendamiseks veenduge, et Exceli paremas ülanurgas ilmub õige kasutaja. Kui ilmub vale kasutajanimi, valige see, logige välja ja logige tagasi sisse.
-- **Excelis kuvatakse tühi veebileht**: kui sisselogimisprotsessi käigus avaneb tühi veebileht, nõuab konto AD FS-i, kuid lisandmoodulit sisaldav Exceli versioon pole sisselogimise dialoogiboksi laadimiseks piisavalt hiljutine. Selle probleemi lahendamiseks värskendage kasutatavat Exceli versiooni. Exceli versiooni värskendamiseks, kui olete viitkanalis asuvas ettevõttes, kasutage tööriista [Office’i juurutustööriist](https://technet.microsoft.com/library/jj219422.aspx), et [liikuda edasilükatud kanalist praegusesse kanalisse](https://technet.microsoft.com/library/mt455210.aspx).
-
+- **Excelis kuvatakse tühi veebileht**: kui sisselogimisprotsessi käigus avaneb tühi veebileht, nõuab konto AD FS-i, kuid lisandmoodulit sisaldav Exceli versioon pole sisselogimise dialoogiboksi laadimiseks piisavalt hiljutine. Selle probleemi lahendamiseks värskendage kasutatavat Exceli versiooni. Exceli versiooni värskendamiseks, kui olete viitkanalis asuvas ettevõttes, kasutage tööriista [Office’i juurutustööriist](https://technet.microsoft.com/library/jj219422.aspx), et [liikuda edasilükatud kanalist praegusesse kanalisse](https://technet.microsoft.com/library/mt455210.aspx).

@@ -1,37 +1,32 @@
 ---
-title: Rakenduse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon
-description: Rakenduse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon.
+# required metadata
+title: Teenuse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon
+description: Teenuse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon.
 author: margoc
 manager: AnnBe
 ms.date: 08/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: 'Core, Operations'
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
 ---
 
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Rakenduse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon
+# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Teenuse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon
 
 [!include [banner](includes/banner.md)]
 
-Vaadake, kuidas rakendus Microsoft Dynamics 365 for Finance and Operations oma ettevõtte heaks tööle panna, kasutades allolevaid ressursse lõppkasutajate, arendajate ja IT-professionaalide jaoks suurepärase sisu leidmiseks. 
+Vaadake, kuidas teenus Microsoft Dynamics 365 for Finance and Operations oma ettevõtte heaks tööle panna, kasutades allolevaid ressursse lõppkasutajate, arendajate ja IT-professionaalide jaoks suurepärase sisu leidmiseks. 
 
-Suur osa sellest sisust kehtib järgmiste toodete puhul: Microsoft Dynamics 365 for Retail ja Microsoft Dynamics 365 for Talent. 
+Suur osa sellest sisut kehtib ka seotud toodete – Microsoft Dynamics 365 for Retaili ja Microsoft Dynamics 365 for Talenti puhul. 
 
 <table>
 <colgroup>
@@ -43,7 +38,7 @@ Suur osa sellest sisust kehtib järgmiste toodete puhul: Microsoft Dynamics 365 
 <tr class="odd">
 <td>
 <h3><a href="get-started/before-you-buy.md">Enne ostmist</a></h3>
-<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Eelvaatetellimuse saajaks registreerumine</a></p>
+<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Eelvaatetellimuse hankimiseks registreerumine</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Juurutamissuvandi valimine</a></p>
  <p><a href="get-started/purchase-on-premises.md">Rakenduse Finance and Operations (kohapealne) ostmine</a></p>
 
@@ -131,4 +126,3 @@ Suur osa sellest sisust kehtib järgmiste toodete puhul: Microsoft Dynamics 365 
 
 </tbody>
 </table>
-

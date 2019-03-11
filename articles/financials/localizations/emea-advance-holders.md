@@ -1,13 +1,13 @@
 ---
 title: Avansisaajad
-description: Lugege avansisaaja funktsiooni kohta Microsoft Dynamics 365 for Finance and Operationsis.
+description: Lugege teavet avansisaajate funktsiooni kohta rakenduses Microsoft Dynamics 365 for Finance and Operations.
 author: LizaGolub
 manager: AnnBe
 ms.date: 08/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
 ms.openlocfilehash: 1fc13461ab166d8f20ea2f56f641c86c3172f33b
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370522"
 ---
-
 # <a name="advance-holders"></a>Avansisaajad
 
 [!include [banner](../includes/banner.md)]
 
-Lugege avansisaaja funktsiooni kohta Microsoft Dynamics 365 for Finance and Operationsis.
+Lugege teavet avansisaajate funktsiooni kohta rakenduses Microsoft Dynamics 365 for Finance and Operations.
 
 *Avansisaaja* on ettevõtte töövõtja, kes vastutab organisatsiooni pakutud kulusumma eest. Avansisaaja saab olla ainult ettevõtte töötaja. Hanke toimumisel teavitab avansisaaja ettevõtet tehtud kuludest. Ettevõte hüvitab töövõtjale kulusumma. Ettevõte haldab iga avansisaaja saldot. Kasutajad Eestis, Lätis, Leedus, Poolas, Tšehhi Vabariigis, Ungaris ja Venemaal asuvates juriidilistes isikutes saavad kajastada kindlate kannetega kaasnevaid toiminguid ettevõtte töövõtjatega, kes vastutavad organisatsiooni pakutud kulusumma eest.
 
@@ -124,7 +123,7 @@ Avansisaajate kannetel põhineva aruande eelvaatamiseks ja printimiseks klõpsak
 
 ## <a name="advance-holder-transactions"></a>Avansisaaja kanded
 
-Lugege, kuidas töötada avansisaajate kannetega Microsoft Dynamics 365 for Finance and Operationsis.
+Lugege, kuidas töötada avansisaaja kannetega rakenduses Microsoft Dynamics 365 for Finance and Operations.
 
 Avansisaajast töötajate kandeid saab sisestada avansisaaja kontode abil. Igale avansisaajale määratud töötaja ID alusel saab jälgida kõiki avansisaajate kandeid. See number tuuakse avansisaaja kannete jaoks kontonumbrina lehtedel **Päevaraamatud** ja **Avansisaajate kanded**.
 
@@ -160,7 +159,6 @@ Kui summa väljal **Ülekantav summa** on negatiivne. luuakse pärast saatelehe 
 
 - [Avansimakse töötajale (Ida-Euroopa)](tasks/advance-payment-employee.md)
 - [Avansisaajad Venemaa puhul](rus-advance-holders.md)
-
 
 
 

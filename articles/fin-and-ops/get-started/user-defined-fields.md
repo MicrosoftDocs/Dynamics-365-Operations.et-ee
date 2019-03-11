@@ -1,13 +1,13 @@
 ---
-title: "Kohandatud väljade loomine ja nendega töötamine"
-description: "Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Finance and Operations võimaldab mõnel kasutajal luua kohandatud välju, et rakendus sobiks nende ettevõttega."
+title: Kohandatud väljade loomine ja nendega töötamine
+description: Selles teemas selgitatakse, kuidas Microsoft Dynamics 365 for Finance and Operations võimaldab mõnel kasutajal luua kohandatud välju, et rakendus sobiks nende ettevõttega.
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348016"
 ---
-
 # <a name="create-and-work-with-custom-fields"></a>Kohandatud väljade loomine ja nendega töötamine
 
 [!include [banner](../includes/banner.md)]
@@ -160,4 +159,3 @@ Jõudluse tõttu ja tehnilistel põhjustel võimaldavad praegu kohandatud välja
 - Tabel ei saa teist tabelit laiendada.
 - Tabel ei saa olla märgistatud süsteemitabelina.
 - Tabel ei saa olla ajutine tabel.
-

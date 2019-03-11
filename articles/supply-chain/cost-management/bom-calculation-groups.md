@@ -1,13 +1,13 @@
 ---
 title: Koosluse arvutusgrupid
-description: "Selles artiklis antakse teavet koosluste arvutusgruppide ja nende seadistamise kohta. Koosluse arvutuse käivitamiseks tuleb seadistada arvutusgrupid ja määrata need eraldi üksustele või määrata vaike-arvutusgrupp. Arvutusgrupi arvutussätteid kasutatakse siis koosluse arvutamise ajal lehel Koosluse arvutamine vaikeväärtustena."
+description: Selles artiklis antakse teavet koosluste arvutusgruppide ja nende seadistamise kohta. Koosluse arvutuse käivitamiseks tuleb seadistada arvutusgrupid ja määrata need eraldi üksustele või määrata vaike-arvutusgrupp. Arvutusgrupi arvutussätteid kasutatakse siis koosluse arvutamise ajal lehel Koosluse arvutamine vaikeväärtustena.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d1bc67038c6080bb96d524a549deddbc8d4e0b
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362874"
 ---
-
 # <a name="bom-calculations-groups"></a>Koosluse arvutusgrupid
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ Koosluse arvutus loob hoiatusteated. Saate vaadata valitud kauba hoiatusi. Näit
 -   Tuvastage hoiatus, kui kaubal on koosluse real väiksem kasumiprotsent, kui soovite.
 
 Saate määratleda mitu koosluse arvutusgruppi, olenevalt hoiatusteadete variatsioonide vajadustest. Näiteks üks koosluse kalkulatsioonigrupp, millel on hoiatustingimused aktiivse koosluse, komponendikoguse 0 (null) ja komponendi kulu 0 (null) kohta, võib olla piisav. Koosluse arvutuse alustamisel saate koosluse arvutusgrupiga seotud hoiatustingimusi alistada. Saate hoiatustingimusi ka lisada või eemaldada. Näiteks kui praegune olukord ei hõlma marsruudi andmeid, võite aktiivse marsruudi hoiatustingimuse eemaldada. **Märkus.** Moodulis Kellaaeg ja kohalolek on leht **Arvutusgrupid**, kuid sellel lehel pole koosluse arvutusgruppidega mingit seost. Moodulis Kellaaeg ja kohalolek saab töötajaid määrata arvutusgruppidesse, mis kajastavad sama ülevaataja või juhiga seotud töötajate grupeerimist. Töötajate registreerimiste arvutusi saab ülevaataja või juht teha kas automaatselt või käsitsi.
-
 
 
 

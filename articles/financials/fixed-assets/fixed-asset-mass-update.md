@@ -1,13 +1,13 @@
 ---
-title: "Põhivara massuuendamine"
+title: Põhivara massuuendamine
 description: Kui kasutate raamatuid, saate muuta kulumiarvestusreegleid varade grupi osas, mis on sama raamatu osad.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b740f1fe710c2278bd5ac5f8d615f0e305cd7df1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3fb55f1a51652299db8a31274b07f239fbaf28f
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348798"
 ---
-
 # <a name="fixed-asset-mass-update"></a>Põhivara massuuendamine
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,6 @@ Kui uuendate varade kulumiarvestusreeglit, kustutate kõik nende varade jaoks ol
 Juba likvideeritud varade kulumiarvestusreegli värskendamiseks peate kõigepealt kustutama olemasolevad likvideerimiskanded. Samuti peate kustutama kõik likvideerimisprotsessi tõttu loodud kanded. 
 
 Varade kulumiarvestusreegli uuendamise järel saate menetleda iga vara kulumit ja plaanivälist kulumit ning teha vajadusel käsitsi korrigeerimisi. Samuti saate teha käsitsi korrigeerimisi, kui need on nõutavad.
-
 
 
 

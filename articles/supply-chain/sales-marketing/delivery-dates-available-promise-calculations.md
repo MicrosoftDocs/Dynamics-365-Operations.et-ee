@@ -1,13 +1,13 @@
 ---
 title: Tellimuse lubamine
-description: "See artikkel käsitleb tellimuse lubamist. Tellimuse lubamine aitab teil usaldusväärselt tarnekuupäevi klientidele lubada ja annab teile paindlikkuse, et saaksite neid kuupäevi täita."
+description: See artikkel käsitleb tellimuse lubamist. Tellimuse lubamine aitab teil usaldusväärselt tarnekuupäevi klientidele lubada ja annab teile paindlikkuse, et saaksite neid kuupäevi täita.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 039bc5c572d204d9fa3e10a9f33cb4f4eb00b31c
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312343"
 ---
-
 # <a name="order-promising"></a>Tellimuse lubamine
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ Loote tootele müügitellimuse rea ja sisestate koguseks **150**.
 Kuna tarnekuupäeva kontrollimismeetod on ATP, arvutatakse ATP andmed varaseima võimaliku lähetuskuupäeva leidmiseks. Sätete põhjal arvestatakse hilinenud ostutellimust ja müügitellimust ning saadud ATP kogus praeguse kuupäeva kohta on 0. Homme, kui hilinenud ostutellimus peaks kohale jõudma, arvutatakse ATP koguseks rohkem kui 0 (praegusel juhul arvutatakse selleks 125). 10 päeva pärast, kui oodatakse täiendava 100 ühikuga ostutellimuse saabumist, saab aga ATP koguseks rohkem kui 150.  
 
 Seetõttu määratakse tarnekuupäevaks ATP arvutuse alusel 10 päeva alates tänasest. Seetõttu saate kliendile öelda, et soovitud koguse saab tarnida 10 päeva pärast.
-
 
 
 

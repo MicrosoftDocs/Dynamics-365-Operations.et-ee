@@ -1,13 +1,13 @@
 ---
-title: "Vöötkoodi maskide häälestamine"
-description: "Selles teemas kirjeldatakse, kuidas seadistada vöötkoodi maski tähemärke ja vöötkoodi maske ning kuidas määrata vöötkoodidele vöötkoodi maske."
+title: Vöötkoodi maskide häälestamine
+description: Selles teemas kirjeldatakse, kuidas seadistada vöötkoodi maski tähemärke ja vöötkoodi maske ning kuidas määrata vöötkoodidele vöötkoodi maske.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d3527807650061804212abf67e536c17078aabf9
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340610"
 ---
-
 # <a name="set-up-bar-code-masks"></a>Vöötkoodi maskide häälestamine
 
 [!include [banner](includes/banner.md)]
@@ -51,7 +50,7 @@ Vöötkoodimaske kasutatakse vöötkoodide loomiseks ja kassas skannitavate vö�
 | Töötaja         | Näitab vöötkoodi segmenti vöötkoodi kassa sisselogimise puhul kasutatava töötaja ID-koodi puhul. |
 | Klient         | Näitab kliendi ID segmenti. |
 | Andmekirje       | *Pole veel rakendatud.* |
-| Allahindluse kood    | *Aegunud* alates Dynamics 365 for Retaili 2017. aasta kevade versioonist. Varem: näitab allahindluse koodi vöötkoodile, mida kasutatakse kassa kandele allahindluse lisamiseks. |
+| Allahindluse kood    | *Aegunud* alates Dynamics 365 for Retaili 2017. aasta kevade väljalaskest. Varem: näitab allahindluse koodi vöötkoodile, mida kasutatakse kassa kandele allahindluse lisamiseks. |
 | Kupongikood      | Näitab jaemüügitellimusele allahindluse lisamiseks kasutatava vöötkoodi kupongikoodi. See asendas allahindluse koodi. |
 | Kinkekaart        | Näitab kinkekaardi väljastamisel või sellega tasumisel kinkekaardi numbrit. |
 | Kliendikaart     | Lisab kandele püsikliendi ja seda saab kasutada kliendikaardiga tasumisel. |
@@ -84,4 +83,3 @@ Vöötkoodi maskid tuleb enne nende kasutamist vöötkoodidele määrata. Jätka
 5. Klõpsake nuppu **Salvesta**.
 
 Vöötkoodi maski saab nüüd kasutada toodete jaoks vöötkoodide loomiseks. Eespool toodud juhised on näited selle kohta, kuidas toodete jaoks vöötkoodi maske luua, kuid need näitlikustavad ka seda, kuidas luua vöötkoodi maske mis tahes muude toetatud vöötkoodi tüüpide jaoks. Vöötkoodi maske, tüüpe ja pikkuseid tuleb korrigeerida teie konkreetses keskkonnas kasutamiseks.
-

@@ -1,13 +1,13 @@
 ---
-title: "Krediidi ja võlanõuete seadistamine"
-description: "See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada."
+title: Krediidi ja võlanõuete seadistamine
+description: See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6b1dcd6ad0ca05a94409d5d23039ccefe53392e3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f35981396c782b530737adac8ad62d0ff4b0f77e
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351834"
 ---
-
 # <a name="set-up-credit-and-collections"></a>Krediidi ja võlanõuete seadistamine
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,7 @@ Seadistage mahakandmiskonto, mida kasutatakse pearaamatu mahakandmiskandes, kui 
 Uuendage pangakontosid nii, et neil on õige tööleht, kui lehel **Sissenõuded** tuvastatakse NSF-maksed. Valige makse tööleht vahekaardil **Valuutahaldus** väljal **NSF-makse tööleht**.
 
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Seadistage Outlooki seaded lehe Sissenõuded kasutajate jaoks
-Enne, kui töötajad saavad lehe **Sissenõuded** abil tegevusi luua või meilisõnumeid saata, tuleb veenduda, et on valitud konfiguratsioonivõti **Microsoft Outlooki sünkroonimine** ja et nende töötajate puhul on seadistatud Outlooki sünkroonimine.
+Enne kui töötajad saavad lehe **Sissenõuded** abil tegevusi luua või meilisõnumeid saata, tuleb veenduda, et oleks valitud konfiguratsioonivõti **Microsoft Outlooki sünkroonimine** ja nende töötajate puhul oleks seadistatud Outlooki sünkroonimine.
 
 ## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Sissenõuete kliendikontaktide e-posti ja aadressi seadete häälestamine
 Seadistage kliendikontaktide e-posti aadressid, kui soovite saata meile neile kontaktidele lehelt **Sissenõuded**. Sissenõuete kontakti kasutatakse vaikimisi kontaktina lehel **Sissenõuded**. Saate seadistada kliendi väljavõtte aadressi, kui väljavõtete aadress peab erinema peamisest aadressist. 
@@ -100,5 +99,4 @@ Lisateavet vt järgmistest teemadest:
  - [Märgukirjade töötlemine](tasks/process-collection-letters.md)
 
  - [Sissenõuete teabe ülevaatamine](tasks/review-collections-information.md)
-
 

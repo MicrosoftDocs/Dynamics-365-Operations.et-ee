@@ -1,14 +1,14 @@
 ---
-title: "Juurdepääs eelvaatefunktsioonidele rakenduses Talent"
+title: Juurdepääs eelvaatefunktsioonidele rakenduses Talent
 description: Selles teemas kirjeldatakse, kuidas administraator saab lubada eelvaatefunktsioone, ja loetletakse funktsioone, mis on praegu eelvaate jaoks lubatud.
 author: rschloma
 manager: AnnBe
 ms.date: 04/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304035"
 ---
-
 # <a name="access-preview-features-in-talent"></a>Juurdepääs eelvaatefunktsioonidele rakenduses Talent
 
 [!include[banner](../includes/banner.md)]
@@ -43,9 +42,9 @@ Eelvaatefunktsioonide lubamiseks või keelamiseks saate rakenduse Microsoft Dyna
 
 ### <a name="enable-or-disable-preview-features-for-your-organization"></a>Eelvaatefunktsioonide lubamine või keelamine teie organisatsiooni jaoks
 
-#### <a name="attract"></a>Attract
+#### <a name="attract"></a>Tähelepanu köitmine
 
-1. Logige sisse rakendusse Microsoft Dynamics 365 for Talent: Attract.
+1. Rakenduse Microsoft Dynamics 365 for Talent: Attract sisselogimine.
 2. Valige ülemises parempoolses nurgas olevast menüüst **Seadistus** (hammasratta sümbol) suvand **Administraatori sätted**.
 3. Valige vahekaardi **Funktsioonide haldus** suvandi **Eelvaatefunktsioonid** kõrval olev suvand nii, et see muutuks siniseks.
 4. Soovi korral saate sellel lehel olevaid spetsiifilisi funktsioone lubades/keelates juhtida üksikuid funktsioone.
@@ -92,4 +91,3 @@ Soovime saada teilt tagasisidet eelvaatefunktsioonide kasutamise kohta olenemata
 
 > [!TIP]
 > Lisage see teema järjehoidjatesse ja kontrollige seda tihti, et olla kursis uusimate eelvaatefunktsioonidega, kui neid väljastame.
-

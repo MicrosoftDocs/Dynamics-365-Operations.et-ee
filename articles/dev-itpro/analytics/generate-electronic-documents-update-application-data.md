@@ -1,13 +1,13 @@
 ---
-title: "Elektroonilise aruandluse kaudu elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine"
-description: "Saate kujundada elektroonilise aruandluse (ER) vorminguid, mida saab rakenduses Finance and Operations väljaminevate elektrooniliste dokumentide loomiseks kasutada. Saate kujundada ka ER-vorminguid, mis sõeluvad sissetulevaid elektroonilisi dokumente ja kasutavad nende dokumentide sisu rakenduse andmete uuendamiseks."
+title: Elektroonilise aruandluse kaudu elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine
+description: Saate kujundada elektroonilise aruandluse (ER) vorminguid, mida saab rakenduses Finance and Operations väljaminevate elektrooniliste dokumentide loomiseks kasutada. Saate kujundada ka ER-vorminguid, mis sõeluvad sissetulevaid elektroonilisi dokumente ja kasutavad nende dokumentide sisu rakenduse andmete uuendamiseks.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2a989b0000766478c71b243d7793b2fc8c4ece28
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 6bb2b2480b619a8aee72c2d65052ed419c9a7c7d
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349212"
 ---
-
 # <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Elektroonilise aruandluse kaudu elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine
 
 [!include [banner](../includes/banner.md)]
@@ -42,4 +41,3 @@ Lisateabe saamiseks selle funktsiooni kohta esitage tegevusjuhiste kogum Elektro
 - [Elektroonilise aruandluse andmemudeli konfiguratsioon: Intrastat (mudel)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Elektroonilise aruandluse mudeli vastendamise konfiguratsioon: Intrastat (vastendamine)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Elektroonilise aruandluse vormingu konfiguratsioon: Intrastat (vorming)](https://go.microsoft.com/fwlink/?linkid=849038)
-

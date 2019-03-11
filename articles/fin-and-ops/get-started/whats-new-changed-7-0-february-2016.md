@@ -1,13 +1,13 @@
 ---
-title: "Mis on uus või muutunud rakenduses Dynamics AX 7.0 (veebruar 2016)"
-description: "Artikkel kirjeldab funktsioone, mis on Microsoft Dynamics AX 7.0-s kas uued või muudetud. See versioon sisaldab nii platvormi kui ka rakenduse funktsioone ja anti välja veebruaris 2016."
+title: Mis on uut või mida on muudetud rakenduses Dynamics AX 7.0 (veebruar 2016)
+description: Selles artiklis kirjeldatakse Microsoft Dynamics AX 7.0 uusi või muutunud funktsioone. See versioon sisaldab nii platvormi kui ka rakenduse funktsioone ja anti välja veebruaris 2016.
 author: sericks007
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334883"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Mis on uus või muutunud rakenduses Dynamics AX 7.0 (veebruar 2016)
+# <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Mis on uut või mida on muudetud rakenduses Dynamics AX 7.0 (veebruar 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Artikkel kirjeldab funktsioone, mis on Microsoft Dynamics AX 7.0-s kas uued või muudetud. See versioon sisaldab nii platvormi kui ka rakenduse funktsioone ja anti välja veebruaris 2016.
+Selles artiklis kirjeldatakse Microsoft Dynamics AX 7.0 uusi või muutunud funktsioone. See versioon sisaldab nii platvormi kui ka rakenduse funktsioone ja anti välja veebruaris 2016.
 
 ## <a name="cost-management"></a>Kuluhaldus
 
@@ -62,7 +61,7 @@ Artikkel kirjeldab funktsioone, mis on Microsoft Dynamics AX 7.0-s kas uued või
 <td>Süsteemi on lihtsam seadistada, kuna uued sildid on seotud seda sisestustüüpi kasutavate tegevuse sündmustega.</td>
 </tr>
 <tr>
-<td>Importige/eksportige ostuhind, kulu või müügihind Microsoft Excelist kuluarvutuse versiooni või sealt ära.</td>
+<td>Saate importida/eksportida ostuhinna, kulu või müügihinna Microsoft Excelist kuluarvutuse versiooni või sealt ära.</td>
 <td>Hindu või kulusid ei saa õigesti kuluarvutuse versiooni importida, kuna andmemudel nõuab InventDim ID-d.</td>
 <td>Andmeüksuste kasutuselevõtmine võimaldab rakendada importimise/eksportimise funktsiooni. See funktsioon võimaldab kasutajatel importida või eksportida hindu või kulusid kuluarvutuse versiooni.
 <ul>
@@ -115,12 +114,12 @@ See funktsioon töötab toodetud kaubale määratud kuluarvestuse meetoditest s�
 
 | Mida saate teha? | Dynamics AX 2012 | Dynamics AX 7.0 | Miks on see oluline? |
 |------------------|------------------|-----------------|------------------------|
-| Saate luua pilves veebipõhiseid lahendusi, millele pääseb juurde paljudelt seadmetelt. | Pole saadaval | Dynamics AX-i praegune versioon põhineb uuel veebipõhisel kliendil ja kliendi raamistikul. | Saate pakkuda oma lõppkasutajatele järgmise põlvkonna lahendusi. |
-| Kasutage lahenduste väljatöötamiseks Microsoft Visual Studiot. | Microsoft MorphX on peamine arenduskeskkond, kuid osa arendamisest toimub Visual Studios. | Visual Studio on ainus arenduskeskkond. | Selles on alles tuttavad Dynamics AX 2012 mõisted, mis on sujuvalt kohandatud Visual Studio raamistiku ja paradigmadega. See võimaldab standardset koostalitlust teiste .NET-keelte ja -projektidega. |
+| Saate luua pilves veebipõhiseid lahendusi, millele pääseb juurde paljudelt seadmetelt. | Pole saadaval | Dynamics AX-i praegune versioon põhineb uuel veebipõhisel kliendil ja kliendiraamistikul. | Saate pakkuda oma lõppkasutajatele järgmise põlvkonna lahendusi. |
+| Lahenduste väljatöötamine Microsoft Visual Studio abil. | Microsoft MorphX on peamine arenduskeskkond, kuid osa arendamisest toimub Visual Studios. | Visual Studio on ainus arenduskeskkond. | Selles on alles tuttavad Dynamics AX 2012 mõisted, mis on sujuvalt kohandatud Visual Studio raamistiku ja paradigmadega. See võimaldab standardset koostalitlust teiste .NET-keelte ja -projektidega. |
 | Koostamiskeel Common Intermediate Language (CIL) kõigi funktsioonide jaoks. | X++ on kompileeritud pseudokoodiks. | Täiesti uus X++ kompilaator loob CIL-i kõigi funktsioonide jaoks. CIL on sama vahekeel, mida kasutavad muud. NET-põhised keeled. | CIL on kiirem, suudab tõhusalt viidata hallatud dünaamilise lingiga teekide (DLL-ide) klassidele ja suudab töötada .NET-utiliitide suures tööriistabaasis. |
 | Saate manustada Microsoft Dynamics AX-i klienti äriteabe (BI) aruandeid ja visualiseerimisi. | Pole saadaval | Saate luua väga intuitiivseid ja sujuvaid visualiseerimisi. | See võimaldab BI-l põhinevaid otsustusülevaateid. |
-| Saate integreerida Microsoft Office’iga. | Pole saadaval | Uute võimaluste hulka kuulub Exceli andmekonnektori rakendus, **töövihiku koostaja** leht, ekspordi API ja dokumendihaldus. | Saate luua oma lõppkasutajatele tööviljakuse lahendusi. |
-| Saate koostamist, testimist ja juurutamist automatiseerida. | Osaliselt saadaval | Juurutage arendaja topoloogia, kasutades arendajat ja VM-i koostajat. Konfigureerige automaatselt VM-i koostajat, et avastada ja koostada mooduleid rakenduses Visual Studio Online (VSO) ja käitada teste. Toetatakse C\# ja X++ mooduli kompileerimist ja viiteid. | See suurendab arendaja tööviljakust, vähendades testimise ja valideerimise kulusid ning panust. |
+| Microsoft Office’iga integreerimine. | Pole saadaval | Uute võimaluste hulka kuulub Exceli andmekonnektori rakendus, **töövihiku koostaja** leht, ekspordi API ja dokumendihaldus. | Saate luua oma lõppkasutajatele tööviljakuse lahendusi. |
+| Saate koostamist, testimist ja juurutamist automatiseerida. | Osaliselt saadaval | Juurutage arendaja topoloogia, kasutades arendajat ja VM-i koostajat. Saate konfigureerida automaatselt VM-i koostajat, et avastada ja koostada mooduleid rakenduses Visual Studio Online (VSO) ning käitada teste. Toetatakse C\# ja X++ mooduli kompileerimist ja viiteid. | See suurendab arendaja tööviljakust, vähendades testimise ja valideerimise kulusid ning panust. |
 | Kohandage ülekatte ja laiendustega. | Laiendused ei ole saadaval. | Dynamics AX-i praegusel versioonil on uus kohandamismudel. | Saate kohandada Microsofti või muude Microsofti partnerite tarnitud mudelielementide lähtekoodi ja metaandmeid. |
 | Saate luua uusi juhtelemente ja kasutajaliidese elemente, kasutades X++ ja kaasaegset veebiraamistikku. | Kohandatud juhtelemendid sõltuvad välistest raamistikest, nt Microsoft ActiveX ja Windows Presentation Foundation (WPF). | Praeguses versioonis on lihtsam juhtelemente koostada. X++ raamistikku saab kasutada rakenduse käitumise ja äriloogika jaoks ning HTML/JavaScripti-põhine klient võimaldab kaasaegset visualiseerimist. | Teie juhtelementide välimuse ja toimimise saab kujundada sarnaselt Dynamics AX-i valmis (OOB) juhtelementidele. |
 | Hinnake ja häälestage jõudlust uute tööriistade abil. | PerfSDK, Data Expansion Toolkit, Trace Parseri veebirakendus ja PerfTimer pole saadaval. | PerfSDK, Data Expansion Toolkit, Trace Parseri veebirakendus ja PerfTimer on uued. | Tarkvara arenduskomplekt (SDK) võimaldab kontrollida ja valideerida kõiki olulisi äriprotsesse ühe kasutajaga ja vajaduse korral mitme kasutajaga proovitsüklis. Data Expansion Toolkit võimaldab laiendada õigesti kõiki jõudlusteste, millel peavad olema koondandmed ja kandeandmed õigesti laiendatud. Trace Parser võimaldab valideerida ainukasutaja jõudlustesti mitme kasutajaga tsüklit. PerfTimeri abil saate vaadata, kas mõni päring või konkreetne meetodikutse põhjustab jõudlusprobleemi. Seega pole vaja kõike üksikasjalikult jälgida ja analüüsida. |
@@ -141,7 +140,7 @@ See funktsioon töötab toodetud kaubale määratud kuluarvestuse meetoditest s�
 </thead>
 <tbody>
 <tr>
-<td>Konto struktuuride eksportimine Microsoft Excelisse.</td>
+<td>Kontostruktuuride eksportimine Microsoft Excelisse.</td>
 <td>Pole saadaval</td>
 <td>Nüüd saate valida konto struktuuri ja eksportida selle Excelisse.</td>
 <td>Paljud kliendid on soovinud võimalust eksportida konto struktuure hõlpsamaks filtreerimiseks Excelisse.</td>
@@ -213,14 +212,14 @@ See funktsioon töötab toodetud kaubale määratud kuluarvestuse meetoditest s�
 <td>Nüüd saate finantsaruandeid vaadata ilma teist klienti/rakendust avamata.</td>
 </tr>
 <tr>
-<td>Saate printida finantsaruandeid (Management Reporter) Microsoft Dynamics AX-i kliendis.</td>
+<td>Saate printida finantsaruandeid (Management Reporter) Microsoft Dynamics AX-i kliendist.</td>
 <td>Aruande printimisel kasutatakse printimiseks brauseri printimisvalikuid ja prinditakse ainult seda, mida kasutaja ekraanil näeb.</td>
 <td>Kasutaja saab valida aruande üksikasjalikkuse taseme ja lehekülje paigutuse, kasutades Dynamics AX-i kliendis valikut Prindi.</td>
 <td>Prinditud aruanded prinditakse veebilehe printimise asemel kasutaja soovitud viisil.</td>
 </tr><tr>
-<td>Analüüsige finantsandmeid, kasutades Power BI sisu „Finantsnäitajate jälgimine”.</td>
+<td>Saate finantsandmeid analüüsida, kasutades Power BI sisu „Finantsnäitajate jälgimine”.</td>
 <td>Pole saadaval</td>
-<td>Valige lehel PowerBI.com käsk <strong>Too andmed</strong> ja seejärel valige sisupakett <strong>Dynamics AX – finantsnäitajad</strong>. Sisestage oma Dynamics AX-i lõpp-punkti URL, et näha oma andmeid armatuurlaual.</td>
+<td>Valige lehel PowerBI.com käsk <strong>Too andmed</strong> ja seejärel valige sisupakett <strong>Dynamics AX – finantsnäitajad</strong>. Sisestage oma Dynamics AX-i lõpp-punkti URL, et näha andmeid armatuurlaual.</td>
 <td>3–4 hiireklõpsuga saavad organisatsioonid võtta kasutusele Power BI armatuurlaua, mis sisaldab olulisi finantsandmeid. Organisatsioon saab sisu isikupärastada.</td>
 </tr>
 <tr>
@@ -276,13 +275,13 @@ See funktsioon töötab toodetud kaubale määratud kuluarvestuse meetoditest s�
 <tbody>
 <tr>
 <td>Pääsete kliendile alati kõikjal juurde.</td>
-<td>AX 2012 töölauaklient pakub vormide tervikkomplekti, kuid see töötab ainult arvutitel, milles on Microsoft Windows, ja nõuab installimist. Töölauakliendiga kasutatakse sageli terminaliserverit, et võimaldada juurdepääsu üle laivõrgu (WAN). Ettevõtteportaali veebiklient pakub väiksemat vormikomplekti.</td>
+<td>AX 2012 töölauaklient pakub vormide tervikkomplekti, kuid see töötab ainult arvutites, milles on Microsoft Windows, ja nõuab installimist. Töölauakliendiga kasutatakse sageli terminaliserverit, et võimaldada juurdepääsu üle laivõrgu (WAN). Ettevõtteportaali veebiklient pakub väiksemat vormikomplekti.</td>
 <td>Kaks AX 2012 klienti on asendatud ühe standarditel põhineva veebikliendiga, mis pakub terviklikku töölauakliendi funktsioonide kogumit koos ettevõtteportaali kliendi ulatusega.</td>
 <td>See väldib arenduspanuse jagamist kahe kasutajaliidese platvormi vahel. Kasutades standardseid veebiliideseid, välistab see terminaliserveri vajaduse.</td>
 </tr>
 <tr>
 <td>Olge uue tegevuse salvestaja abil produktiivsed.</td>
-<td>AX 2012 tegevuse salvestaja nõuab otsejuurdepääsu rakendusobjekti serveri (AOS) arvutist ja suuremaid õigusi ning ei paku redigeerimisvalikuid.</td>
+<td>AX 2012 tegevuse salvestaja nõuab otsejuurdepääsu rakendusobjekti serveri (AOS) arvutist ja suuremaid õigusi ega paku redigeerimisvalikuid.</td>
 <td>Uut tegevuse salvestajat saab kasutada otse veebikliendist. Juurdepääs tegevuse salvestajale ei nõua administraatoriõigusi. Salvestatud toiminguid saab salvestamise ajal reaalajas vaadata, kasutusele on võetud uued redigeerimisvõimalused ja tegevuse salvestaja toetab rohkemaid stsenaariume lisaks olemasolevatele äriprotsesside modelleerija (BPM) stsenaariumidele.</td>
 <td>Uus tegevuse salvestaja pakub sujuvamat kogemust ja lisab Dynamics AX-is uusi võimalusi. Mõned neist võimalustest on kohe saadaval ja edaspidi lisandub neid veel.</td>
 </tr>
@@ -321,8 +320,8 @@ See funktsioon töötab toodetud kaubale määratud kuluarvestuse meetoditest s�
 <tbody>
 <tr>
 <td>Protseduuride juhendava spikri (ülesande juhised) ja mõisteid kirjeldavad teemad saate avada, klõpsates jaotist <strong>Spikker</strong>.</td>
-<td>AX 2012 spikrisüsteemi osutab HTML-teemadele, mis on salvestatud kohalikku veebiserverisse. Kliendid ja partnerid saavad luua oma spikri.</td>
-<td>Dynamics AX-i praeguse versiooni spikrisüsteemi kuvab ülesande juhised, mis on salvestatud ja Microsoft Dynamicsi teenuse Lifecycle Services (LCS) BPM-i. Spikrisüsteem kuvab ka Microsofti dokumendisaid teemasid. Lisateabe saamiseks vaadake teemat <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Dynamics AX-i spikker – Alustamine</a> ja teemat <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Saadaval on uued tegevusjuhised (veebruar 2016)</a>.</td>
+<td>AX 2012 spikrisüsteem osutab HTML-teemadele, mis on salvestatud kohalikku veebiserverisse. Kliendid ja partnerid saavad luua oma spikri.</td>
+<td>Dynamics AX-i praeguse versiooni spikrisüsteemi kuvab tegevusjuhised, mis on salvestatud ja Microsoft Dynamicsi teenuse Lifecycle Services (LCS) BPM-i. Spikrisüsteem kuvab ka Microsofti dokumendisaid teemasid. Lisateabe saamiseks vaadake teemat <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Dynamics AX-i spikker – Alustamine</a> ja teemat <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Saadaval on uued tegevusjuhised (veebruar 2016)</a>.</td>
 <td>Ülesande juhised pakuvad juhendatud, interaktiivset kogemust, mis juhib teid läbi ülesande või äriprotsessi toimingute. Saate alla laadida ja kohandada Microsofti pakutavaid ülesande juhiseid. Teema pakub kiiremat ja paindlikumat viisi tootedokumentatsiooni loomiseks, edastamiseks ning värskendamiseks. Seetõttu aitab see tagada teile juurdepääsu uusimale tehnilisele teabele.</td>
 </tr>
 </tbody>
@@ -624,7 +623,7 @@ Tööruum <strong>Kataloogihaldus</strong> võimaldab kasutada järgmisi funktsi
 <ul>
 <li>Uute kanalite ja seotud üksuste loomine ja konfigureerimine.</li>
 <li>Kaupluse igapäevaste tegevuste haldamine.</li>
-<li>Jaemüügikannete töötlemine Microsoft Dynamics AX-is, jaemüügi väljavõtete koostamine ja Microsoft Dynamics AX-i varude ja finantsandmete uuendamine.</li>
+<li>Jaemüügikannete töötlemine Microsoft Dynamics AX-is, jaemüügi väljavõtete koostamine ja Microsoft Dynamics AX-i varude ning finantsandmete uuendamine.</li>
 </ul>
 </td>
 <td>Tööruum <strong>Kanali juurutamine</strong> võimaldab teha järgmist.
@@ -632,7 +631,7 @@ Tööruum <strong>Kataloogihaldus</strong> võimaldab kasutada järgmisi funktsi
 <li>Uute kanalite ja seotud üksuste loomine.</li>
 <li>Jaekaupluse konfigureerimise edenemise jälgimine.</li>
 <li>Tehke vajalikud sammud ülesande täitmiseks või edastage teave ülesande täitmiseks.</li>
-<li>Saate jälgida seadmete olekut ning valideerida otse ja laadida alla programmi Retail Modern POS (MPOS) installifail kauplustes.</li>
+<li>Saate jälgida seadmete olekut ja programmi Retail Modern POS (MPOS) installifaili kauplustes otse valideerida ning alla laadida.</li>
 <li>Pääsete kõigile seotu lehtedele.</li>
 </ul>Tööruum 
 <strong>Jaekaupluse haldus</strong> võimaldab teha järgmist.
@@ -655,7 +654,7 @@ Tööruum <strong>Kataloogihaldus</strong> võimaldab kasutada järgmisi funktsi
 <tr>
 <td>Saate hallata jaemüügi IT-toiminguid.</td>
 <td>Kasutaja peab kasutama mitut vormi.</td>
-<td>Tööruum <strong>Jaemüügi IT</strong> võimaldab antud kanali Commerce Data Exchange’i päringuid ühest kohast, et saaksite teha järgmist.
+<td>Tööruum <strong>Retail IT</strong> võimaldab antud kanali puhul Commerce Data Exchange’i päringuid ühest kohast, et saaksite teha järgmist.
 <ul>
 <li>Seansse alla laadida.</li>
 <li>Seansse üles laadida.</li>
@@ -668,19 +667,19 @@ Tööruum <strong>Kataloogihaldus</strong> võimaldab kasutada järgmisi funktsi
 <td>Saate andmeüksuste abil andmeid importida/eksportida.</td>
 <td>AX 2012 toetab valmis süsteemi Microsoft Dynamics Retail Management System (RMS) migreerimist andmete importimise/eksportimise raamistiku kaudu.</td>
 <td>Jaemüügi andmeüksusi on laiendatud nii, et need toetaksid kõiki jaemüügiga seotud koond- ja viiteandmeid. Olemas on ka täiustatud andmeüksuste tugi kogu Dynamics AX-i lahenduse lõikes.</td>
-<td>Andmeüksused võimaldavad klientidel andmeid metaandmete alusel importida ja eksportida. OData üksused võimaldavad klientidel integreerida Dynamics AX-i ka muude osapoolte programmidega.</td>
+<td>Andmeüksused võimaldavad klientidel andmeid metaandmete alusel importida ja eksportida. OData üksused võimaldavad klientidel integreerida Dynamics AX-i ka muude tootjate programmidega.</td>
 </tr>
 <tr>
-<td>Tehke intelligentset analüüsi, kasutades Dynamics Microsoft AX-i ja kassa kliendi äriteabe aruandeid.</td>
+<td>Saate teha intelligentset analüüsi, kasutades Dynamics Microsoft AX-i ja kassa kliendi äriteabe aruandeid.</td>
 <td>Saadaval on üle 25 kontoriaruande ja viis kanalipoolset aruannet.</td>
 <td>Saadaval on üle 30 kontoriaruande ja 10 kanalipoolset aruannet.</td>
 <td>Need aruanded võimaldavad klientidel saada rohkem äriandmeid suundumuste prognoosimiseks, ülevaadete avamiseks ja pidevalt tippvõimsusel töötamiseks.</td>
 </tr>
 <tr>
-<td>Analüüsige jaemüügikanali müügiandmeid, kasutades Power BI sisu „Jaemüügikanali näitajate jälgimine”.</td>
+<td>Saate analüüsida jaemüügikanali müügiandmeid, kasutades Power BI sisu „Jaemüügikanali näitajate jälgimine”.</td>
 <td>Pole saadaval</td>
-<td>Valige lehel PowerBI.com käsk <strong>Too andmed</strong> ja seejärel valige sisupakett <strong>Dynamics AX – jaemüügikanali näitajad</strong>. Sisestage oma Dynamics AX-i lõpp-punkti URL, et näha oma andmeid armatuurlaual.</td>
-<td>3–4 hiireklõpsuga saavad organisatsioonid võtta kasutusele Power BI armatuurlaua, mis sisaldab olulisi finantsandmeid. Organisatsioon saab sisu isikupärastada. Lisaks saavad kasutajad manustada Power BI armatuurlaua paanid Dynamics AX-i isikupärastatud tööruumidesse, et nad saaksid analüüsiandmetest kiire ülevaate.</td>
+<td>Valige lehel PowerBI.com käsk <strong>Too andmed</strong> ja seejärel valige sisupakett <strong>Dynamics AX – jaemüügikanali näitajad</strong>. Sisestage oma Dynamics AX-i lõpp-punkti URL, et näha andmeid armatuurlaual.</td>
+<td>3–4 hiireklõpsuga saavad organisatsioonid võtta kasutusele Power BI armatuurlaua, mis sisaldab olulisi finantsandmeid. Organisatsioon saab sisu isikupärastada. Peale selle saavad kasutajad manustada Power BI armatuurlaua paanid Dynamics AX-i isikupärastatud tööruumidesse, et saada analüüsiandmetest kiire ülevaate.</td>
 </tr>
 <tr>
 <td>Tarbija lubade konfigureerimine.</td>
@@ -735,15 +734,15 @@ Jaemüügiserver ja andmehaldus võimaldavad tarbijatel ja ettevõtetel luua üh
 </tr>
 <tr>
 <td>Saate teisaldada andmeid Microsoft Dynamics AX-i kontori ja kanalite vahel, kasutades rakendust Commerce Data Exchange.</td>
-<td>Commerce Data Exchange on süsteem, mis edastab andmeid Microsoft Dynamics AX-i ja jaemüügikanalite (nt veebipoed või traditsioonilised kauplused) vahel. Lisateavet leiate jaotisest <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Commerce Data Exchange on süsteem, mis edastab andmeid Microsoft Dynamics AX-i ja jaemüügikanalite (nt veebipoed või traditsioonilised kauplused) vahel. Lisateavet vt teemast <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>On olemas funktsionaalne paarsus rakendusega Microsoft Dynamics AX 2012 CU8. Kuid arvestage järgmist.
 <ul>
-<li>Commerce Data Exchange on korraldatud ümber pilve jaoks.</li>
+<li>Commerce Data Exchange on ümber korraldatud pilve jaoks.</li>
 <li>Teenus Async kasutab otsest andmebaasi juurdepääsu kanali andmebaasile.</li>
 <li>Commerce Data Exchange: reaalajas teenus majutatakse Microsoft Dynamics AX-i kohandatud teenusena.</li>
 <li>MPOS haldab ühenduseta andmebaaside ja jaemüügiserveri vahelist sünkroonimist.</li>
 </ul></td>
-<td>Commerce Data Exchange on korraldatud ümber pilveplatvormi jaoks. See haldab jätkuvalt andmete edastamist Microsoft Dynamics AX-i ja jaemüügikanalite (nt veebipoed või traditsioonilised kauplused) vahel.</td>
+<td>Commerce Data Exchange on ümber korraldatud pilveplatvormi jaoks. See haldab jätkuvalt andmete edastamist Microsoft Dynamics AX-i ja jaemüügikanalite (nt veebipoed või traditsioonilised kauplused) vahel.</td>
 </tr>
 <tr>
 <td>Saate toetada isehäälestuvat, poolintegreeritavat kanalitevahelist maksetöötlust, kasutades makse SDK-d.</td>
@@ -754,7 +753,7 @@ Jaemüügiserver ja andmehaldus võimaldavad tarbijatel ja ettevõtetel luua üh
 <li>Makse kinnitamise leht.</li>
 <li>Välisseadmete tugi LS5300 ja MX925 puhul jaemüügi SDK näidiskoodina.</li>
 </ul></td>
-<td>Dynamics AX-i praegune versioon toetab kõiki olemasolevaid rakenduse Microsoft Dynamics AX 2012 krediit-/deebetkaardi funktsioone ja nelja uut täiustust.</td>
+<td>Dynamics AX-i praegune versioon toetab kõiki olemasolevaid Microsoft Dynamics AX 2012 krediit-/deebetkaardi funktsioone ja nelja uut täiustust.</td>
 <td>See võimaldab kliendil töödelda maksete krediit-/deebetkaardi kandeid.</td>
 </tr>
 <tr>
@@ -823,7 +822,7 @@ Jaemüük pakub kõikjal, alati ja igal seadmel kõikehõlmavat mobiilset kogemu
 <li>Tellimuste komplekteerimine ja vastuvõtmine ning inventuuri tegemine.</li>
 <li>Kaupluse aruannete vaatamine.</li>
 </ul></td>
-<td>Pakutakse funktsionaalset paarsust rakendusega AX 2012 MPOS. See hõlmab järgmisi funktsioone.
+<td>Pakutakse funktsionaalset paarsust AX 2012 MPOS-iga. See hõlmab järgmisi funktsioone.
 <ul>
 <li>Kliendi otsing kaupluste/kanalite lõikes.</li>
 <li>Võimalus koostada klientide tellimusi reaalajas teenust avamata.</li>
@@ -845,7 +844,7 @@ Jaemüük pakub kõikjal, alati ja igal seadmel kõikehõlmavat mobiilset kogemu
 </tr>
 <tr>
 <td>Saate integreerida sisuhalduse süsteemidega, et luua ühiskanali e-kaubanduse veebisait.</td>
-<td>Toetatakse Microsoft SharePointi ja muude osapoolte fassaade.</td>
+<td>Toetatakse Microsoft SharePointi ja muude tootjate fassaade.</td>
 <td>Pakutakse e-kaubanduse platvormi, mis toetab muude osapoolte fassaade. Platvorm sisaldab järgmisi funktsioone.
 <ul>
 <li>Rikkalik tarbija API.</li>
@@ -879,7 +878,7 @@ Jaemüügile ja kaubandusele keskendunud konfiguratsioonisuvand aitab jaemüügi
 | Kasutage armatuurlauda Commerce’i põhitõed. | Saadaval on ala leht menüüelementide linkidega. | Armatuurlaual Commerce’i põhitõed on lingid sagedaste toimingute juurde, sh lingid tööruumide, Power BI veebi juhtelemendi, lemmikute, hiljutiste lehtede ja praeguste tööüksuste juurde. | Täiustatud armatuurlaud muudab töötajad tõhusamaks ja annab igasugusele jaemüügipõhisele ülesandele paindliku lähtepunkti. |
 | Kasutage konto muudatustele juurdepääsemiseks andmeüksusi. | Konto muudatused eksporditakse failisüsteemi kausta. | Konto muudatustele pääseb juurde andmeüksuste kaudu. | See funktsioon tagab andmete liigutamisel erinevate süsteemide vahel suurema paindlikkuse. Seda funktsiooni saab täiustada ka OData rakenduste kaudu. |
 | Kasutage pilve kassat ja MPOS-i. | Valmislahendusena toetatakse ainult rakendust Enterprise POS (EPOS). | MPOS ja pilve kassa asendavad EPOS-i kliendi. Vaikimisi on Commerce’i põhiüksuste hulka lisatud ka e-kaubanduse kanal. | See funktsioon võimaldab ulatuslikumat valmiskanalite tuge kiiresti juurutatavate kassa klientidega. |
-| Kaheastmelise arhitektuuri kasutuselevõtmine ja säilitamine. | Andmete importimise/eksportimise raamistik võimaldab liigutada andmeid AX 2012 ja muude osapoolte süsteemide vahel. | Andmeüksused on loodud kaheastmelise arhitektuuri toe täiustamiseks. | Andmeüksused ja OData rakendused pakuvad abstraktsioonikihti, et muuta kaheastmeliste stsenaariumide rakendamine ja haldamine lihtsamaks. |
+| Kaheastmelise arhitektuuri kasutuselevõtmine ja säilitamine. | Andmete importimise/eksportimise raamistik võimaldab liigutada andmeid AX 2012 ja muude tootjate süsteemide vahel. | Andmeüksused on loodud kaheastmelise arhitektuuri toe täiustamiseks. | Andmeüksused ja OData rakendused pakuvad abstraktsioonikihti, et muuta kaheastmeliste stsenaariumide rakendamine ja haldamine lihtsamaks. |
 | Saate vorme lihtsustada. | Kasutajaliidese lihtsustamiseks on vajalik kohandatud kood. | Vormi ja menüü laiendused lihtsustavad standardiseeritud kasutajaliidest. | See funktsioon annab kiirema ja lihtsama viisi vorme jaemüüja vajaduste põhjal peenhäälestada. |
 
 ### <a name="pos-task-recorder"></a>Kassa ülesande salvestaja
@@ -928,7 +927,7 @@ Jaemüügile ja kaubandusele keskendunud konfiguratsioonisuvand aitab jaemüügi
 <li>Eel- ja järelpäästikud, mis võimaldavad hõlpsasti töövoogu laiendada.</li>
 <li>Rakenduse ja toimingu päästikud.</li>
 </ul>
-Lisaks on saadaval raamistik, mis võimaldab teil luua ja pakkida neid komponente MSBuildi abil ja seejärel teie kohandust teenuste Microsoft Dynamics Lifecycle Services (LCS) kaudu sujuvalt juurutada.</td>
+Peale selle on saadaval raamistik, mis võimaldab teil luua ja pakkida neid komponente MSBuildi abil ning seejärel teie kohandust teenuste Microsoft Dynamics Lifecycle Services (LCS) kaudu sujuvalt juurutada.</td>
 <td>Jaemüüjatel on väga konkreetsed vertikaallahendustel ja tegevuspiirkondadel põhinevad nõuded. Pakkudes lihtsalt laiendatav platvormi, võimaldame kasutust vertikaallahenduste ja turgude lõikes. Kuna jaemüügil on väga mitmeks osaks jaotatud arhitektuur, parandab sujuva juurutamise võimalus oluliselt produktiivsust.</td>
 </tr>
 </tbody>
@@ -1027,11 +1026,10 @@ Uusi funktsioone ei ole lisatud.
 
 | Mida saate teha? | Dynamics AX 2012 | Dynamics AX 7.0 | Miks on see oluline? |
 |------------------|------------------|-----------------|------------------------|
-| Saate lao mobiilsete seadmete portaali alla laadida, installida ja konfigureerida. | Saate laadida, installida ja konfigureerida portaali Microsoft Dynamics AX-i installimisprotsessi käigus, standardse seadistuse kaudu. See on mõeldud ise toimivaks asutusesiseseks juurutamiseks ja konfigureerimiseks. | Autonoomse installiprogrammi saate laadida alla menüüelemendi kaudu moodulis Laohaldus. See on mõeldud ise toimivaks asutusesiseseks juurutamiseks ja konfigureerimiseks. | Kui seadistate mobiilse seadme funktsiooni, tuleb lao mobiilsete seadmete portaal kohalikult installida ja konfigureerida ning luua ühendus Dynamics AX-iga pilves. |
+| Saate lao mobiilsete seadmete portaali alla laadida, installida ja konfigureerida. | Saate laadida, installida ja konfigureerida portaali Microsoft Dynamics AX-i installimisprotsessi käigus standardse seadistuse kaudu. See on mõeldud ise toimivaks asutusesiseseks juurutamiseks ja konfigureerimiseks. | Autonoomse installiprogrammi saate laadida alla menüüelemendi kaudu moodulis Laohaldus. See on mõeldud ise toimivaks asutusesiseseks juurutamiseks ja konfigureerimiseks. | Kui seadistate mobiilse seadme funktsiooni, tuleb lao mobiilsete seadmete portaal kohalikult installida ja konfigureerida ning luua ühendus Dynamics AX-iga pilves. |
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Mis on uus või muudetud?](whats-new-changed.md)
 
 [Saadava on uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)
-

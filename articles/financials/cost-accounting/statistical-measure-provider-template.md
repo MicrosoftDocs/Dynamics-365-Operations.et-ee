@@ -1,32 +1,31 @@
 ---
-title: "Statistilise dimensiooni liikmed ja statistiliste mõõtude pakkuja mallid"
+title: Statistilise dimensiooni liikmed ja statistiliste mõõtude pakkuja mallid
 description: Selles teemas antakse teavet statistilise dimensiooni liikmete ja statistilise meetme pakkuja mallide kohta. Statistilise dimensiooni liikmeid saab kasutada eraldamisalusena poliitikates nagu kulu jaotus ja kulu eraldamine. Neid saab kasutada ka mitterahalise kulu tarbimise registreerimiseks.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360298"
 ---
-
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statistilise dimensiooni liikmed ja statistiliste mõõtude pakkuja mallid
 
 [!include [banner](../includes/banner.md)]
@@ -347,4 +346,3 @@ Kui elektrienergia eelmääratud dimensiooniliikme eraldamisalus on määratud e
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Eraldamise alused](allocation-bases.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Projekti prognoosid ja eelarved
-description: "Microsoft Dynamics 365 for Finance and Operations võimaldab projekti prognooside ja projekti eelarvete abil projekte hallata ja juhtida."
+description: Microsoft Dynamics 365 for Finance and Operations võimaldab projekti prognooside ja projekti eelarvete abil projekte hallata ja juhtida.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310388"
 ---
-
 # <a name="project-forecasts-and-budgets"></a>Projekti prognoosid ja eelarved
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations võimaldab projekte hallata ja juhtida kahel viisil: projekti prognooside ja projekti eelarvete abil. 
+Microsoft Dynamics 365 for Finance and Operations võimaldab hallata ja juhtida projekte kahel viisil: projekti prognoosid ja projekti eelarved. 
 
 Kasutage projekti prognoosi, kui teie organisatsioonil on tegevustele suunatud perspektiiv ja keskendutakse konkreetsetest tehingutest tulenevatele tuludele ja kuludele. Kasutage projekti eelarvet, kui teie organisatsioon keskendub rohkem rahasummadele. 
 
@@ -80,7 +79,6 @@ Projekti eelarveid seostatakse automaatselt kahe eelarvemudeliga: üks algse eel
 Prognoosimudelitel on ühekihiline hierarhia. See tähendab, et üks projektiprognoos tuleb seostada ühe prognoosimudeliga.
 
 Projekti prognoosi kasutamisel saate märkida mudelid alammudeliteks. Seejärel saate koostada prognoose osakonna, ajavahemiku või piirkonna alusel. Näiteks võite luua prognoosimudeli aasta kohta ja luua siis alammudelid kirde-, kagu-, edela- ja loodepiirkonna prognooside jaoks, mida piirkondlikud juhid esitavad. Erinevate valikutega olemasolevates aruannetes saate vaadata andmeid kogu prognoosi või alammudeli järgi.
-
 
 
 

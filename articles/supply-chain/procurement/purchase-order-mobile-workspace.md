@@ -1,13 +1,13 @@
 ---
-title: "Ostutellimuse kinnitamise mobiilne tööruum"
-description: "Selles teemas antakse teavet ostutellimuse kinnitamise mobiilse tööruumi kohta, mis võimaldab ostutellimusi vaadata ja neile tegevuste kaudu reageerida. Näiteks võite ostutellimuse kinnitada või tagasi lükata."
+title: Ostutellimuse kinnitamise mobiilne tööruum
+description: Selles teemas antakse teavet ostutellimuse kinnitamise mobiilse tööruumi kohta, mis võimaldab ostutellimusi vaadata ja neile tegevuste kaudu reageerida. Näiteks võite ostutellimuse kinnitada või tagasi lükata.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348844"
 ---
-
 # <a name="purchase-order-approval-mobile-workspace"></a>Ostutellimuse kinnitamise mobiilne tööruum
 
 [!include [banner](../includes/banner.md)]
@@ -41,10 +40,10 @@ Kinnitamist nõudvad ostutellimused läbivad kinnitamise töövoo. See töövoog
 ## <a name="prerequisites"></a>Eeltingimused
 Eeltingimused erinevad, olenevalt teie organisatsioonis juurutatud Finance and Operationsi versioonist.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Eeltingimused Microsoft Dynamics 365 for Finance and Operationsi kasutamisel 
-Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, peab süsteemiadministraator avaldama **ostutellimuse kinnitamise** mobiilse tööruumi. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Eeltingimused, kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations 
+Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, peab süsteemiadministraator avaldama mobiilse tööruumi **Ostutellimuse heakskiitmine**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused Microsoft Dynamics 365 for Operationsi versiooni 1611 platvormivärskendusega 3 või uuema kasutamisel
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused, kui kasutate rakenduse Microsoft Dynamics 365 for Operations versiooni 1611 platvormivärskendusega 3 või uuemat
 Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 
 
 <table>
@@ -78,14 +77,14 @@ Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi v
 ## <a name="download-and-install-the-mobile-app"></a>Laadige alla ja installige mobiilirakendus
 Laadige alla ja installige Microsoft Dynamics 365 for Unified Operationsi mobiilirakendus.
 
-- [Androidi telefonidele](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 - [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)
 
 
 ## <a name="sign-in-to-the-mobile-app"></a>Logige mobiilirakendusse sisse
 
 1. Käivitage rakendus oma mobiilses seadmes.
-2. Sisestage Microsoft Dynamics 365 URL.
+2. Sisestage oma Microsoft Dynamics365 URL.
 3. Esimesel sisselogimisel küsitakse teilt kasutajanime ja parooli. Sisestage oma identimisteave.
 4. Pärast sisselogimist kuvatakse teie ettevõtte jaoks saadaolevad tööruumid. Pange tähele, et teie süsteemiadministraator avaldab uue tööruumi hiljem ja teil on vaja mobiilsete tööruumide loendit uuendada.
 
@@ -116,4 +115,3 @@ Kui olete endale määratud ostutellimust vaadanud ja töövoo juhiseid lugenud,
 5. Valige sobiv tegevus.
 6. Sisestage lehele **Ülesande täitmine** kommentaar. Pange tähele, et kui valite tegevuse **Delegeeri**, siis peate valima kasutaja, kellele ülesanne delegeerida.
 7. Valige suvand **Valmis**. Kui olete tööruumi uuendanud, ei ole ostutellimust enam teie loendis. 
-

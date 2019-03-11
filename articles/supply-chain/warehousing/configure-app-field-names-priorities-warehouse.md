@@ -1,13 +1,13 @@
 ---
-title: "Rakenduse väljanimede konfigureerimine rakenduses Ladustamine"
-description: "See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Finance and Operationsis."
+title: Rakenduse väljanimede konfigureerimine rakenduses Ladustamine
+description: See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Finance and Operationsis.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 0162014189ed6bffb17e6718a67eecfd55c334a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d029481d31a0064a193e2cb9eeaf79df28bfa159
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351328"
 ---
-
 # <a name="configure-app-field-names-in-warehousing-app"></a>Rakenduse väljanimede konfigureerimine rakenduses Ladustamine
 
 [!include [banner](../includes/banner.md)]
@@ -143,8 +142,7 @@ Näiteks kui laotöötaja täidab ülesannet mobiilses seadmes, sisaldavad raken
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Microsoft Dynamics 365 for Finance and Operationsi mooduli Ladustamine installimine ja konfigureerimine](install-configure-warehousing-app.md)
-
+[Rakenduse Microsoft Dynamics 365 for Finance and Operations mooduli Ladustamine installimine ja konfigureerimine](install-configure-warehousing-app.md)
 
 
 

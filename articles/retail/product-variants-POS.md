@@ -1,32 +1,31 @@
 ---
 title: Otsing varudest kassas
-description: "Selles teemas kirjeldatakse võimalusi, mis on saadaval varude teabe vaatamiseks kassas."
+description: Selles teemas kirjeldatakse võimalusi, mis on saadaval varude teabe vaatamiseks kassas.
 author: ashishmsft
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314413"
 ---
-
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Otsing varudest kassas
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ Otsing varudest kassas aitab jaemüüjatel reaalajas saavutada kõrget töökval
 
 Täpne reaalajas ülevaade varudest kogu organisatsioonis aitab kaupluste töötajatel pakkuda kiiret ja tõhusat klienditeenindust. Kõige tähtsam hetk on see, mil klient on valmis tegema ostuotsust. On tähtis, et kaupluse kassapidajatel oleks varude reaalajas teave käeulatuses, et nad saaksid pakkuda täpseid toote tarne ja komplekteerimise aegu.
 
-Saate avada lehe **Otsing varudest** tööruumist **Jaemüügi tänapäevane kassa** või tööruumist **Jaemüügi pilve kassa**.
+Saate avada lehe **Otsing varudest** tööruumist **Retail Modern POS** või tööruumist **Jaemüügi pilvekassa**.
 
 ![Varude otsingupaan kassa avalehel](media/POSHomepage.png)
 
@@ -116,4 +115,3 @@ Järgnevast tabelist leiate lisateavet võimalike lisatoimingute kohta.
 | Kättesaadavus         | Näidake ATP teavet valitud variandi kombinatsiooni kohta valitud asukoha jaoks. |
 | Kõigi asukohtade kuvamine   | Valige standardne varudest otsimise vaade ja tõstke esile varude saadavuse teave kaubavariandi kohta kõigis kauplustes kaupluselokaatori grupis ja ka jaotuskeskustes, mille tüüp on **Standardne/Vaikimisi**. |
 | Kuva toote üksikasjad | Suunake kasutaja seostatud tooteetaloni lehele **Toote üksikasjad**. |
-

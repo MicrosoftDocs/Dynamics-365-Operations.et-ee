@@ -1,13 +1,13 @@
 ---
 title: Hankija maksete loomine maksesoovituse abil
-description: "See teema annab ülevaate maksesoovituse valikutest ja sisaldab mõningaid näiteid selle kohta, kuidas maksesoovitused toimivad."
+description: See teema annab ülevaate maksesoovituse valikutest ja sisaldab mõningaid näiteid selle kohta, kuidas maksesoovitused toimivad.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 332a18eb98811505b38c023c97c22b86a9367af1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327408"
 ---
-
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Hankija maksete loomine maksesoovituse abil
 
 [!include [banner](../includes/banner.md)]
@@ -70,7 +69,7 @@ April maksab hankijatele 1. juulil. Ta kasutab ülesande tõhusamaks täitmiseks
 
 ### <a name="option-1-by-cash-discount"></a>1. võimalus: skonto järgi
 
-April valib soovituse tüübiks **Skonto**. Ta sisestab kuupäevavahemikuks 26. juuni kuni 10. juuli. Soovitusse kaasatakse järgmised arved.
+April valib soovituse tüübik **Skonto**. Ta sisestab kuupäevavahemikuks 26. juuni kuni 10. juuli. Soovitusse kaasatakse järgmised arved.
 
 -   1002, kuna skonto kuupäev, 4. juuli, jääb maksekuupäevade vahemikku;
 -   1004, kuna skonto kuupäev, 1. juuli, jääb maksekuupäevade vahemikku.
@@ -120,8 +119,7 @@ Dimensioonide juhtimine võimaldab teil juhtida loodud ridade rühmitamist makse
 
 #### <a name="bank-account-selection"></a>Pangakonto valimine
 
-Saate määratleda standardse debiteerimise maksekonto makseviisi kohta sõltumata riigikontekstist. See määratakse soovituse loodud makseridadel. Pangakonto funktsiooniga saate määratleda mitu dimensiooni ja valuutaga hallatavat debiteerimise pangakontot või nende kombinatsiooni, et kasutada erinevaid debiteerimise pangakontosid olenevalt kombinatsioonist. Saate seadistada need kombinatsioonid lehel **Makseviisid**, kasutades nuppu **Pangakontod**, mis on saadaval iga makseviisi puhul, mille puhul **Sisestuskonto tüüp** = **Pank**.
-
+Saate määratleda standardse debiteerimise maksekonto makseviisi kohta sõltumata riigikontekstist. See määratakse soovituse loodud makseridadel. Pangakonto funktsiooniga saate määratleda mitu dimensiooni ja valuutaga hallatavat debiteerimise pangakontot või nende kombinatsiooni, et kasutada erinevaid debiteerimise pangakontosid olenevalt kombinatsioonist. Saate seadistada need kombinatsioonid lehel **Makseviisid**, kasutades nuppu **Pangakontod**, mis on saadaval iga makseviisi puhul, mille **Sisestuskonto tüüp** = **Pank**.
 
 
 

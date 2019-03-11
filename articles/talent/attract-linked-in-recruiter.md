@@ -1,36 +1,35 @@
 ---
-title: "Hankimine tööriistaga LinkedIn Recruiter"
-description: "Selles teemas kirjeldatakse masinõppe kasutamist töökohtade ja töökoha kandidaatide soovituste saamiseks."
+title: Hankimine tööriistaga LinkedIn Recruiter
+description: Selles teemas kirjeldatakse masinõppe kasutamist töökohtade ja töökoha kandidaatide soovituste saamiseks.
 author: josaw
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304001"
 ---
-
 # <a name="sourcing-with-linkedin-recruiter"></a>Hankimine tööriistaga LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
-LinkedIn on maailma suurim talentide andmebaas ja tihti esmane süsteem, mida tööandjad kasutavad oma täidetavatele töökohtadele kandidaatide leidmiseks ja nendega suhtlemiseks. LinkedIn Recruiteri integreerimine tööriistaga Dynamics 365 for Talent: Attract muudab kasutajatele palkamise ja andmete sünkroonimise kahe süsteemi vahel lihtsamaks.
+LinkedIn on maailma suurim talentide andmebaas ja tihti esmane süsteem, mida tööandjad kasutavad oma täidetavatele töökohtadele kandidaatide leidmiseks ja nendega suhtlemiseks. LinkedIn Recruiteri integreerimine rakendusega Dynamics 365 for Talent: Attract muudab kasutajatele palkamise ja andmete sünkroonimise kahe süsteemi vahel lihtsamaks.
 
 > [!NOTE]
 > Teil on vaja, et tervikliku palkamise lisamooduli ja LinkedIn Recruiteri kohad suudaksid kasutada LinkedIn Recruiteri integratsiooni Attractiga.
@@ -65,7 +64,7 @@ Järgmise etapi läbimiseks peab teil olema oma LinkedIn Recruiteri lepingu admi
 
 Attracti süsteem loetletakse koos mõne valikuga, mida saab sisse lülitada.
 
-9. Kui soovite **In-ATS indikaatorile** ja **In-ATS profiilividinale** lubada ainult 1 klõpsuga eksportimise, valige **Ettevõtte tasemel juurdepääs**. Kui soovite lubada kõik ettevõtte tasemel ligipääsu funktsioonid ja InMail ajaloo, märkuste ajaloo ning InMail lühiprofiili ligipääsu, valige **lepingu tasemel juurdepääs**.
+9. Kui soovite **In-ATS indikaatorile** ja **In-ATS profiilividinale** lubada ainult 1 klõpsuga eksportimise, valige **Ettevõtte tasemel juurdepääs**. Kui soovite lubada kõik ettevõttetasemel juurdepääsu funktsioonid ja InMaili ajaloo, märkuste ajaloo ning InMaili lühiprofiili juurdepääsu, valige suvand **Lepingu tasemel juurdepääs**.
 
 10. Lülitage soovitud juurdepääsutase sisse oma LinkedIn Recruiteri **Administraator-ATS** sätetest.
 
@@ -125,11 +124,11 @@ LinkedIn värbaja abil saate saate jälgida, kas kandidaat on kandideerinud teie
 > [!NOTE]
 > Kandidaadi ja avalduse andmeid ei sünkroonita LinkedIni värbajaga, kui kandidaat ei ole potentsiaalne klient.
 
-### <a name="inmail-history"></a>InMail ajalugu
+### <a name="inmail-history"></a>InMaili ajalugu
 
-LinkedIn InMail ajalugu on LinkedIn Recruiteriga saadaval lepingu tasandil juurdepääsuga. Kui see on lubatud, saate vaadata oma kogu kandidaadiga seotud InMail ajalugu. Samuti saate vaadata kes teie organisatsioonist on kandidaadiga veel inMaile vahetanud, kuid te ei saa vaadata nendevahelisi sõnumeid.
+LinkedIn InMaili ajalugu on saadaval LinkedIn Recruiteri lepingutasandil juurdepääsuga. Kui see on lubatud, saate vaadata oma kogu kandidaadiga seotud InMaili ajalugu. Samuti saate vaadata, kes teie organisatsioonist on kandidaadiga veel InMaile vahetanud, kuid te ei saa vaadata nendevahelisi sõnumeid.
 
-InMail ajaloo vaatamiseks minge kandidaadi profiilile, minge vahekaardile **LinkedIn** ja kerige ajaloo vaatamiseks lehe allserva. Kui teil on olnud kandidaadiga arutelu, saate vaadata InMaili ajalugu. InMaili sõnumid sünkroonitakse Attractiga iga paari tunni järel.
+InMaili ajaloo vaatamiseks minge kandidaadi profiilile, vahekaardile **LinkedIn** ja kerige ajaloo vaatamiseks lehe alaserva. Kui teil on olnud kandidaadiga arutelu, saate vaadata InMaili ajalugu. InMaili sõnumid sünkroonitakse Attractiga iga paari tunni järel.
 
 ### <a name="notes-history"></a>Märkuste ajalugu 
 
@@ -137,9 +136,8 @@ LinkedIni märkuste ajalugu on saadaval LinkedIn Recruiteri lepingu tasandil juu
 
 Märkuste ajaloo vaatamiseks minge kandidaadi profiilile, minge vahekaardile **LinkedIn** ja kerige ajaloo vaatamiseks lehe allserva. Saate vaadata kõiki LinkedIn Recruiterist pärit märkusi kandidaadi kohta.
 
-### <a name="inmail-stub-profile"></a>InMail lühiprofiil
+### <a name="inmail-stub-profile"></a>InMaili lühiprofiil
 
-InMail lühiprofiil on saadaval LinkedIn Recruiteri lepingu tasandil juurdepääsuga. Kui kandidaadid nõustuvad oma LinkedIn profiile jagama mistahes teie organisatsiooni kasutajaga, saate kandidaate Attractis jälgida ning igale kandidaadile luuakse uus kandidaadi kirje. Kui kandidaat on juba olemas süsteemis e-posti aadressiga või on jaganud oma aadressi värbajaga, saate vaadata kandidaadi e-posti aadressi.
+InMaili lühiprofiil on saadaval LinkedIn Recruiteri lepingutasandil juurdepääsuga. Kui kandidaadid nõustuvad oma LinkedIn profiile jagama mistahes teie organisatsiooni kasutajaga, saate kandidaate Attractis jälgida ning igale kandidaadile luuakse uus kandidaadi kirje. Kui kandidaat on juba olemas süsteemis e-posti aadressiga või on jaganud oma aadressi värbajaga, saate vaadata kandidaadi e-posti aadressi.
 
 Kandidaatide loendi vaatamiseks avage **Talendikaustad**, et näha süsteemi loodud LinkdedIni talentide kausta. See talentide kaust sisaldab kandidaatide loendit ja nende LinkedInist saadud lühiprofiile, mis näitavad kandidaatide eesnime ja perekonnanime. Kandidaadi e-posti aadressi kuvatakse siis, kui kandidaat soovib oma e-posti aadressi jagada.
-

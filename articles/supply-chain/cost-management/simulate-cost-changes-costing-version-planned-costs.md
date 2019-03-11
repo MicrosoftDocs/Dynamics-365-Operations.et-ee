@@ -1,13 +1,13 @@
 ---
 title: Kulumuudatuste simuleerimine planeeritud kulude kuluversiooni kasutades
-description: "Selles artiklis selgitatakse, kuidas saab kulumuudatuste mõjusid toodetud kauba arvutatud kuludele simuleerida eraldi kuluversiooniga planeeritud kuludele."
+description: Selles artiklis selgitatakse, kuidas saab kulumuudatuste mõjusid toodetud kauba arvutatud kuludele simuleerida eraldi kuluversiooniga planeeritud kuludele.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3ef3cdb2ede2c30609db4addfc10b819629cdc64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8d5b6354ee8c627014a6da675bb2a7b52db97348
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318875"
 ---
-
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Kulumuudatuste simuleerimine planeeritud kulude kuluversiooni kasutades
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ Järgmised stsenaariumid illustreerivad kuluversiooni simulatsiooni kasutamist, 
 -   Simuleerige kulu muutumist kaudse kulu kalkulatsiooni valemis. Näiteks võib kulumuudatus kajastada tootmise üldkulude eeldatavat kasvu või kahanemist. Muutuse määramiseks kaudse kulu kalkulatsiooni valemis kasutage lehte **Kuluarvestuse lehe seadistus**, et sisestada kuluversiooni simulatsioonis olev ootel kulukirje ning kontrollida ja salvestada muudatus.
 
 Pärast kulumuudatuste simulatsiooni sisestamist arvutage toodetavate kaupade kulud, mida kulumuudatused mõjutavad. Kasutage kuluversiooni simulatsiooni jaoks lehte **Kalkulatsioon** ja määrake valitud toodetud kaubad, mida kulumuudatused mõjutavad. Koosluse arvutusi rakendatakse kõigi toodetavate kaupade puhul, v.a juhul, kuivalite kindlad kaubad. Teise võimalusena saate koosluse kalkulatsiooni valikut kasutada kasutuskoha värskenduste jaoks. Vaadake kuluversiooni simulatsioonis olevaid kauba kulukirjeid, et analüüsida, kuidas simuleeritud kulumuudatused valitud toodetavate kaupade kulusid mõjutasid. Kasutage kulude vaatamiseks ja analüüsimiseks lehte **Kauba hind** ja lehte **Kauba kulu arvutamine**.
-
 
 
 

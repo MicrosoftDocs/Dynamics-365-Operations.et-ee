@@ -1,13 +1,13 @@
 ---
-title: "Hüvitise ja eeliste Power BI sisu"
-description: "See teema kirjeldab Finance and Operationsi mooduli Hüvitis ja eelised Power BI sisu."
+title: Hüvitise ja eeliste Power BI sisu
+description: See teema kirjeldab Finance and Operationsi mooduli Hüvitis ja eelised Power BI sisu.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6834940b16749461066e8f1000cbb7c2d4371109
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327431"
 ---
-
 # <a name="compensation-and-benefits-power-bi-content"></a>Hüvitise ja eeliste Power BI sisu
 
 [!include [banner](../includes/banner.md)]
@@ -32,14 +31,14 @@ ms.lasthandoff: 08/13/2018
 See teema kirjeldab Finance and Operationsi mooduli Hüvitis ja eelised Power BI sisu. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Sisupaketti kuuluvad aruanded
-Pärast sisupaketi ühendamist Finance and Operationsi andmetega näitavad aruanded teie organisatsiooni andmeid. Kui te pole Microsoft Power BI-d varem kasutanud, saate selle kohta lisateavet jaotisest [Power BI juhendatud õpe](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Sisupaketti kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
+Pärast sisupaketi ühendamist Finance and Operationsi andmetega näitavad aruanded teie organisatsiooni andmeid. Kui te pole Microsoft Power BI-d varem kasutanud, saate selle kohta lisateavet teemast [Power BI juhendatud õpe.](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) Sisupaketti kuuluvad aruanded sisaldavad nii lisateavet andvaid diagramme kui ka tabeleid. Järgmises tabelis on kirjeldatud aruandeid.
 
 | Aruanne                     | Sisu                                                                                                                              |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Hüvitise ja eeliste analüüs | Ettevõtte tunni- ja kuupalgalised töövõtjad, keskmine tunnitasu, keskmine kuutasu, töövõtjad töövõtutüübi järgi ja plaaniga liitumine |
 | Töövõtja eelised          | Töövõtja liitumine valitud eelise järgi                                                                                               |
 
-Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt jaotisest [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Saate neil aruannetel olevaid diagramme ja paane filtreerida ning kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt teemast [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 Hüvitise ja eeliste sisupaketi aruannete täitmiseks kasutatakse Finance and Operationsi andmeid. Järgmises tabelis on toodud sisupaketi aluseks olevad üksused.
@@ -68,4 +67,3 @@ Hüvitise ja eeliste sisupaketi aruannete täitmiseks kasutatakse Finance and Op
 | Tööjõud\_WorkerName             | Eesnimi, perekonnanimi ja täielik nimi                                                                       | Tööjõud\_CurrentWorker, Tööjõud\_TerminatedWorker, Tööjõud\_WorkerTrend |
 | Tööjõud\_WorkerTitle            | Ametinimetus ja staaži kuupäev                                                                                   | Tööjõud\_CurrentWorker, Tööjõud\_TerminatedWorker, Tööjõud\_WorkerTrend |
 | Tööjõud\_WorkerTrend            | Töötajad aja jooksul, inimeste arv, ettevõte ja ametikoht                                                        | Tööjõud\_Ettevõte, Tööjõud\_Hüvitis, Tööjõud\_GeographicLocation, Tööjõud\_Tulemus, Tööjõud\_WorkerName, Tööjõud\_ReportsToWorkerName, Tööjõud\_CalendarOffset, Tööjõud\_Kuupäev, Tööjõud\_WorkerTitle, Tööjõud\_Demograafia, Tööjõud\_Tööhõive, Tööjõud\_Töö, Tööjõud\_WorkerBenefit |
-

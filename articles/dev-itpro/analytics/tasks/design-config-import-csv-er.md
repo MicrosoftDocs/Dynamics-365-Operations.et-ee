@@ -1,13 +1,13 @@
---- 
-title: "Elektroonilise aruandluse konfiguratsioonide kujundamine andmete importimiseks välistest CSV-failidest"
-description: "Kasutage seda protseduuri, et kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmed CSV-vormingus välisest failist rakendusse Dynamics 365 for Finance and Operations."
+---
+title: Elektroonilise aruandluse konfiguratsioonide kujundamine andmete importimiseks välistest CSV-failidest
+description: Kasutage seda protseduuri, et kujundada elektroonilise aruandluse (ER) konfiguratsioone andmete importimiseks CSV-vormingus välisest failist rakendusse Dynamics 365 for Finance and Operations.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365220"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine andmete importimiseks välistest CSV-failidest
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Kasutage seda protseduuri, et kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmed CSV-vormingus välisest failist rakendusse Dynamics 365 for Finance and Operations. Protseduuri järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Ülesannete lõpetamiseks peab esmalt täitma protseduuris "ER konfiguratsioonipakkuja loomine ja selle aktiivseks märkimine" toodud toimingud. 
+Kasutage seda protseduuri, et kujundada elektroonilise aruandluse (ER) konfiguratsioone andmete importimiseks CSV-vormingus välisest failist rakendusse Dynamics 365 for Finance and Operations. Protseduuri järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Ülesannete lõpetamiseks peab esmalt täitma protseduuris "ER konfiguratsioonipakkuja loomine ja selle aktiivseks märkimine" toodud toimingud. 
 
 Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Need toimingud saab lõpule viia USMF-i andmekomplekti abil. 
 
@@ -119,5 +119,4 @@ Testimiseks käivitage vorminduse vastendamine varem alla laaditud failiga 1099e
     * Vaadake väljund üle XML-vormingus, mis tähistab valitud failist imporditud ja andmemudelisse porditud andmeid. Pange tähele, et imporditud CSV-faili kõiki 7 rida töödeldi. Sisalduvate väljade pealkirjade rida 1 jäeti vahele, 4 kannet sõeluti õigesti ja 2 kannet osutusid kehtetuks.   
 3. Sulgege leht.
 4. Sulgege leht.
-
 

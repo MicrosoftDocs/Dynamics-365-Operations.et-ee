@@ -1,13 +1,13 @@
 ---
 title: Standardkulu teisendamise eeltingimused
-description: "See teema käsitleb ülesandeid, mis tuleb täita enne standardkulu teisendamist."
+description: See teema käsitleb ülesandeid, mis tuleb täita enne standardkulu teisendamist.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 65844bd78363dc6638b16b3fd4ca163a3fde6a23
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351926"
 ---
-
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Standardkulu teisendamise eeltingimused
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Enne standardkulu teisendamise käivitamist toimige järgmiselt.
 
         Aktiivne kulu jaotamine tähendab seda, et toodetud kauba kulu lubamine põhjustab kulugrupi segmentimise talletamise kauba kulukirjes. Kui te ei sisesta väljale **Kulu jaotamine** väärtust, siis kulugrupi kaupade puhul kulugrupi segmentimist ei hallata. Toodetud kauba standardkulu arvutatakse ja talletatakse ühe summana ilma kulugrupi segmenteerimiseta ja toodetud kaupade kulu osad koondatakse ühele summale.
     -   Valige väljalt **Standardi hälbed** grupp summa või kulu alusel. Kulu alusel grupi valimine võimaldab tuvastada ostuhinna hälbeid ja tootmise hälbeid kulugruppide kaupa. See võimaldab tuvastada nelja tüüpi tootmishälbeid (partii suuruse, koguse-, hinna- ja asendushälbed). Summa alusel grupi valimisel ei saa te tuvastada hälbeid kulugrupi alusel nelja tüüpi tootmishälbeid. Te saate vaadata vaid summeeritud tootmiskulude hälbeid. Standardi hälvete poliitika töötab kulujaotumise poliitikast sõltumatult. Te saate valida kulujaotumise poliitika ja erinevused kulugrupi alusel, nii et kulugrupi tootmiskulude hälbed hõlmatakse ikkagi.
-
 
 
 

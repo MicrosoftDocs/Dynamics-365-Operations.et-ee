@@ -1,13 +1,13 @@
 ---
 title: Tegevuse otsing
-description: "See artikkel kirjeldab tegevuste otsingu funktsioone rakenduses Microsoft Dynamics 365 for Finance and Operations. Tegevuste otsing aitab teil leida ka käitada lehel tegevusi."
+description: Selles artiklis kirjeldatakse tegevuse otsingu funktsiooni rakenduses Microsoft Dynamics 365 for Finance and Operations. Tegevuste otsing aitab teil leida ka käitada lehel tegevusi.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 960c715c487fbda5d93630327f07380e6d8fbd3c
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317495"
 ---
-
 # <a name="action-search"></a>Tegevuse otsing
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel kirjeldab tegevuste otsingu funktsioone rakenduses Microsoft Dynamics 365 for Finance and Operations. Tegevuste otsing aitab teil leida ka käitada lehel tegevusi.
+Selles artiklis kirjeldatakse tegevuse otsingu funktsiooni rakenduses Microsoft Dynamics 365 for Finance and Operations. Tegevuste otsing aitab teil leida ka käitada lehel tegevusi.
 
 ## <a name="introduction"></a>Sissejuhatus
 
-Microsoft Dynamics 365 for Finance and Operationsi lehed kuvavad käsklusi peamiselt toimingupaanidel, nii standardsel toimingupaanil, mis kuvatakse lehe ülaosas, kui ka tööriistaribadel, mis kuvatakse lehe erinevates jaotistes. Varasemates versioonides võimaldas klahvinäpunäidete funktsioon teil toimingupaani mis tahes nupule kiiresti juurde pääseda, vajutades Alt-klahvi ja seejärel tähejada.
+Rakenduses Microsoft Dynamics 365 for Finance and Operations olevad lehed kuvavad käsklusi peamiselt toimingupaanidel – nii standardsel toimingupaanil, mis kuvatakse lehe ülaosas, kui ka tööriistaribadel, mis kuvatakse lehe erinevates jaotistes. Varasemates versioonides võimaldas klahvinäpunäidete funktsioon teil toimingupaani mis tahes nupule kiiresti juurde pääseda, vajutades Alt-klahvi ja seejärel tähejada.
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 

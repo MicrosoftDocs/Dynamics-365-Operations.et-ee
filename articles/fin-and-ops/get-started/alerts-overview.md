@@ -1,13 +1,13 @@
 ---
 title: Teatised
-description: "See teema annab üldteavet teatiste kohta rakenduses Microsoft Dynamics 365 for Finance and Operations. Teatisi saate kasutada, et olla kursis sündmustega, mida soovite tööpäeva jooksul jälgida."
+description: See teema annab üldteavet teatiste kohta rakenduses Microsoft Dynamics 365 for Finance and Operations. Teatisi saate kasutada, et olla kursis sündmustega, mida soovite tööpäeva jooksul jälgida.
 author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367451"
 ---
-
 # <a name="alerts"></a>Teatised
 
 [!include [banner](../includes/banner.md)]
@@ -78,4 +77,3 @@ Teatisereegel koosneb viiest osast.
 ## <a name="email-notifications-from-alerts"></a>Teadete meiliteatised
 
 Teadete meiliteatised pole veel lubatud. See lubatakse tulevases värskenduses.
-

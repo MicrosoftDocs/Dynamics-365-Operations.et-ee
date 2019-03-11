@@ -1,37 +1,36 @@
 ---
 title: Toe hankimine rakendusele Dynamics 365 for Retail
-description: Selles artiklis kirjeldatakse abi hankimist rakenduse Microsoft Dynamics 365 for Retail kasutamisel.
+description: See artikkel selgitab, kuidas saada abi rakenduse Microsoft Dynamics 365 for Retail kasutamisel.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
+ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 2e74554338e4b12991756f63257f67ee3e2e6dc4
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364047"
 ---
-
 # <a name="get-support-for-dynamics-365-for-retail"></a>Toe hankimine rakendusele Dynamics 365 for Retail
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse abi hankimist rakenduse Dynamics 365 for Retail kasutamisel.
+See artikkel selgitab, kuidas saada abi rakenduse Dynamics 365 for Retail kasutamisel.
 
-## <a name="contact-support"></a>Võtke ühendust toega
+## <a name="contact-support"></a>Toega ühendustvõtmine
 
 Kasutage selles artiklis toodud teavet Microsoftiga ühenduse võtmsieks, kui teil on tehnilisi küsimusi Retaili kohta.
 
@@ -49,7 +48,7 @@ Retaili toe hankimiseks kasutage järgmises tabelis olevaid ressursse. Ressursid
 <tbody>
 <tr>
 <td>Küsige kogukonnalt.</td>
-<td>Oma küsimusele Dynamicsi kogukonnalt vastuse saamiseks avage kogukonna leht <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a>.</td>
+<td>Oma küsimusele Dynamicsi kogukonnalt vastuse saamiseks minge <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> kogukonna lehele.</td>
 </tr>
 <tr>
 <td>Kasutage tööriista Teema otsing.</td>
@@ -67,12 +66,12 @@ Retaili toe hankimiseks kasutage järgmises tabelis olevaid ressursse. Ressursid
 </tr>
 <tr>
 <td>Tugimeeskonnale pileti edastamine.</td>
-<td>Kui teil on Microsoftile paani <strong>Tugi</strong> kaudu LCS-i pileti edastamisega probleeme, vt teemat <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">Võta ühendust Microsoft Business Solutions Tugiteenusega</a>, kust leiate teavet selle kohta, kuidas võtta ühendust Microsoft Dynamicsi kohaliku tugikeskusega. Tugimeeskond saab teid aidata järgmist tüüpi tehniliste probleemide lahendamisel.
+<td>Kui teil on Microsoftile LCS-i paani <strong>Tugi</strong> kaudu pileti edastamisega probleeme, vaadake teemast <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng">Ühenduse võtmine Microsoft Business Solutionsi toega</a> teavet selle kohta, kuidas võtta ühendust Microsoft Dynamicsi piirkondliku tugikeskusega. Tugimeeskond saab teid aidata järgmist tüüpi tehniliste probleemide lahendamisel.
 <ul>
 <li>Probleemid LCS-i kasutamisel või LCS-ile juurde pääsemisel.</li>
 <li>Retaili kasutamisel ilmnevad tõrked.</li>
 </ul>
-Kui teil on probleeme sisse logimisega ja teenuste (nt CustomerSource, e-õpe, otsing, teabebaas, failide allalaadimine, lehtede ja süsteemi tõrked) toimimisega, vaadake teemat <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">Veebisaidi tugi</a>.</td>
+Kui teil on probleeme sisselogimisega ja teenuste (nt CustomerSource, e-õpe, otsing, teabebaas, failide allalaadimine ning lehtede ja süsteemi tõrked) toimimisega, vaadake teemat <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">Veebisaidi tugi</a>.</td>
 </tr>
 <tr>
 <td>Rakenduse Retail või Finance and Operations litsentsimisega seotud küsimuste spikker.</td>
@@ -85,5 +84,4 @@ Kui teil on probleeme sisse logimisega ja teenuste (nt CustomerSource, e-õpe, o
 </tbody>
 </table>
 
-Lisateavet Microsoft Dynamics tugipakkumiste kohta vt [Microsoft Dynamics veebitugi](https://www.microsoft.com/dynamics/dynamics-online-support.aspx).
-
+Lisateavet Microsoft Dynamicsi toepakkumiste kohta vt teemast [Microsoft Dynamicsi võrgutugi](https://dynamics.microsoft.com/en-us/support/).

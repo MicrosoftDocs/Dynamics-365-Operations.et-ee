@@ -1,13 +1,13 @@
 ---
-title: "Projekti tegelike näitajate sünkroonimine otse Project Service Automationist projekti integratsiooni töölehele Finance and Operationsis sisestamiseks"
-description: "See teema kirjeldab malle ja aluseks olevaid ülesandeid, mida kasutatakse projekti tegelike näitajate sünkroonimiseks otse rakendusest Microsoft Dynamics 365 for Project Service Automation rakendusse Microsoft Dynamics 365 for Finance and Operations."
+title: Projekti tegelike näitajate sünkroonimine otse Project Service Automationist projekti integratsiooni töölehele Finance and Operationsis sisestamiseks
+description: Selles teemas kirjeldatakse malle ja aluseks olevaid ülesandeid, mida kasutatakse projekti tegelike näitajate sünkroonimiseks rakendusest Microsoft Dynamics 365 for Project Service Automation otse rakendusse Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343347"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projekti tegelike näitajate sünkroonimine otse Project Service Automationist projekti integratsiooni töölehele Finance and Operationsis sisestamiseks
 
 [!include[banner](../includes/banner.md)]
 
-See teema kirjeldab malle ja aluseks olevaid ülesandeid, mida kasutatakse projekti tegelike näitajate sünkroonimiseks otse rakendusest Microsoft Dynamics 365 for Project Service Automation rakendusse Microsoft Dynamics 365 for Finance and Operations.
+Selles teemas kirjeldatakse malle ja aluseks olevaid ülesandeid, mida kasutatakse projekti tegelike näitajate sünkroonimiseks rakendusest Microsoft Dynamics 365 for Project Service Automation otse rakendusse Microsoft Dynamics 365 for Finance and Operations.
 
 Mall sünkroonib kanded Project Service Automationist Finance and Operationsi vahetabelisse. Kui sünkroonimine on lõpule jõudnud, **peate** importima andmed vahetabelist integratsiooni töölehele.
 
 > [!NOTE]
-> - Projekti tegelike näitajate integratsioon on saadaval rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 8.01 või uuemas.
-> - Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0, saate pärast KB 4132657 ja KB 4132660 installimist kasutada malle projektiülesannete, kulukannete kategooriate, tunnihinnangute, kuluhinnangute ja tegelike näitajate integreerimiseks ning funktsionaalsuse lukustamise konfigureerimiseks. Kui peate lähtestama arvestuse jaotusi, soovitame installida KB 4131710.
+> - Projekti tegelike näitajate integratsioon on saadaval rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 8.0.1 või uuemas.
+> - Kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0, saate pärast KB 4132657 ja KB 4132660 installimist kasutada projektiülesannete, kulukannete kategooriate, tunnihinnangute, kuluhinnangute ja tegelike näitajate integreerimiseks ning funktsionaalsuse lukustamise konfigureerimiseks malle. Kui peate lähtestama arvestuse jaotusi, soovitame installida KB 4131710.
 > - Kui kasutate rakendust Finance and Operations 7.3.0 ja toote tasukanded rakendusest Project Service Automation üle, peate installima KB 4345320, et need tasud projekti arvesse kaasata.
 > - Kui sisestate Project Service Automationis käibemaksusummasid aja- või kulukannete kohta, peate installima Project Service Automationi värskenduse 7. Vastasel juhul ei lingita maksu tegelikke näitajaid seostatud aja- või kuluandmete tegelike näitajatega ega sünkroonita rakendusse Finance and Operations. Lisateabe saamiseks võtke ühendust tugiteenusega.
 
@@ -140,4 +140,3 @@ Järgmisel joonisel on toodud näited malliülesande vastendustest andmeintegrat
 [![Malli vastendamine](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Malli vastendamine](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-

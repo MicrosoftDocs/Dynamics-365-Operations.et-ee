@@ -1,13 +1,13 @@
---- 
-title: "Põhivarade ümberklassifitseerimine"
-description: "Põhivara ümberklassifitseerimiseks peate edastama selle uuele põhivaragrupile või määrama sellele samas grupis uue põhivara numbri."
+---
+title: Põhivarade ümberklassifitseerimine
+description: Põhivara ümberklassifitseerimiseks peate edastama selle uuele põhivaragrupile või määrama sellele samas grupis uue põhivara numbri.
 author: saraschi2
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d8e289e2c18fd28829fb4b749933ae1d84e0b631
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
-ms.openlocfilehash: 6bce294329c7ec6dc436c3d3baf6597e0283c9bd
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/30/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323291"
 ---
 # <a name="reclassify-fixed-assets"></a>Põhivarade ümberklassifitseerimine
 
@@ -44,5 +44,4 @@ Kui põhivara ümber klassifitseerida:
 5. Sisestage kuupäev väljale Ümberklassifitseerimise kuupäev.
 6. Sisestage või valige väärtus väljal Kande seeria.
 7. Klõpsake nuppu OK.
-
 

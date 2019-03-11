@@ -1,13 +1,13 @@
 ---
 title: Veerudefinitsioonid finantsaruannetes
-description: "See artikkel käsitleb veerudefinitsioone. Veerudefinitsioon on aruande komponent (koosteüksus), mis määrab aruande veergude sisu. Nagu readefinitsioone, saab ka peamisi veerudefinitsioone kasutada mitmes aruandes."
+description: See artikkel käsitleb veerudefinitsioone. Veerudefinitsioon on aruande komponent (koosteüksus), mis määrab aruande veergude sisu. Nagu readefinitsioone, saab ka peamisi veerudefinitsioone kasutada mitmes aruandes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356342"
 ---
-
 # <a name="column-definitions-in-financial-reports"></a>Veerudefinitsioonid finantsaruannetes
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,7 @@ Veeru definitsioon võib sisaldada 2 kuni 255 veergu.
 Veeru definitsioon sisaldab järgmist teavet.
 
 - Readefinitsiooni kirjelduste veerg
-- Summa veerg, milles kuvatakse andmed finantsandmetest, Microsoft Exceli töölehelt või arvutused, mis põhinevad veeru definitsiooni muudel andmetel
+- Summa veerud, milles kuvatakse andmed finantsandmetest, Microsoft Exceli töölehelt või arvutused, mis põhinevad veeru definitsiooni muudel andmetel
 - Vormingu veerud
 - Atribuudi veerud
 
@@ -121,11 +120,11 @@ Järgmises tabelis kirjeldatakse veeru piirangu koode.
 | ADJ                     | Veeru summade piiramine perioodi korrigeerimissummadega nende summade olemasolul. |
 | XAD                     | Veeru summade piiramine nii, et perioodi korrigeerimissummad välistatakse. |
 | Plaanitud üleviimine                      | Veeru summade piiramine nii, et kaasatakse ainult sisestatud kanded, kui need kanded on olemas. |
-| UPT                     | Veeru summade piiramine nii, et kaasatakse ainult sisestamata kanded, kui need kanded on olemas.<blockquote>[!NOTE] Kõik andmepakkujad ei toeta sisestamata kandeid. Lisateabe saamiseks vt oma Microsoft Dynamics ERP süsteemi <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>andmete integratsiooni juhendit</a>.</blockquote> |
+| UPT                     | Veeru summade piiramine nii, et kaasatakse ainult sisestamata kanded, kui need kanded on olemas.<blockquote>[!NOTE] Kõik andmepakkujad ei toeta sisestamata kandeid. Vaadake lisateavet oma Microsoft Dynamicsi ERP-süsteemi <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>andmeintegratsiooni juhendist</a>.</blockquote> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Veeru piiramine aruandlusüksusega
 
-1. Avage aruande kujundajas muudetav veeru definitsioon.
+1. Avage aruandekoosturis muudetav veerudefinitsioon.
 2. Topeltklõpsake piiratava veeru puhul lahtrit **Aruandlusüksus**.
 3. Valige aruandluspuu dialoogiboksi **Aruandlusüksuse valimine** loendist **Aruandluspuu**.
 4. Laiendage või ahendage üksuste loendit, valige aruandlusüksus ja seejärel klõpsake nuppu **OK**.
@@ -171,7 +170,7 @@ Saate kasutada dialoogiboksi **Veerupäis** aruande veergude ülaosas olevate p�
 
 ### <a name="create-an-automatically-generated-header"></a>Automaatselt loodava päise loomine
 
-Aruandekoostur saab veerupäiseid automaatteksti koodide alusel automaatselt luua. Automaatteksti koodid on muutujad, mida värskendatakse iga kord, kui aruanne luuakse. Veerupäis võib sisaldada neid koode varieeruva aruandeteabe, nagu kuupäevade või perioodinumbrite määramiseks. Seetõttu saate kasutada ühte veeru definitsiooni mitme aruande definitsiooni, ajaperioodi ja aruandluspuu puhul. Kuna automaatteksti koodid sõltuvad veeru definitsiooni üksikasjaridade kalendriteabest, toetavad neid ainult veerud **CALC**, **FD** ja **WKS**. Automaatteksti koodi veerupäise lahtris kuvamise viis mõjutab selle teabe ilmet aruandes. Dialoogiboksis **Veerupäis** kuvatakse automaatteksti koodid erinevate tõstudega. Seega kuvatakse tekst aruandes erinevate tõstudega. Näiteks standardses kalendriaastas teisendab **@CalMonthLong** kuu **7** valikule **Juuli**. Kui kuu nimi peaks olema suurtäheline (nt **JUULI**), sisestage automaatteksti kood suurtähtedega väljale **Veerupäise tekst**. Näiteks sisestage **@CALMONTHLONG**. Võite koode ja teksti kombineerida. Näiteks saate sisestada järgmise päiseteksti: **Periood @FiscalPeriod-@FiscalYear alates @StartDate kuni @EndDate**. Loodav aruande pealkiri sarnaneb järgmisega: **Periood 1-02 alates 01/01/02 kuni 01/31/02**.
+Aruandekoostur saab veerupäiseid automaatteksti koodide alusel automaatselt luua. Automaatteksti koodid on muutujad, mida värskendatakse iga kord, kui aruanne luuakse. Veerupäis võib sisaldada neid koode varieeruva aruandeteabe, nagu kuupäevade või perioodinumbrite määramiseks. Seetõttu saate kasutada ühte veeru definitsiooni mitme aruande definitsiooni, ajaperioodi ja aruandluspuu puhul. Kuna automaatteksti koodid sõltuvad veeru definitsiooni üksikasjaridade kalendriteabest, toetavad neid ainult veerud **CALC**, **FD** ja **WKS**. Automaatteksti koodi veerupäise lahtris kuvamise viis mõjutab selle teabe ilmet aruandes. Dialoogiboksis **Veerupäis** kuvatakse automaatteksti koodid erinevate tõstudega. Seega kuvatakse tekst aruandes erinevate tõstudega. Näiteks standardses kalendriaastas teisendab **@CalMonthLong** kuu **7** suvandile **Juuli**. Kui kuu nimi tuleks aruandes suurte tähtedega (näiteks **JUULI**) kuvada, sisestage automaatteksti kood väljale **Veeru päise tekst** suurte tähtedega. Sisestage näiteks **@CALMONTHLONG**. Võite koode ja teksti kombineerida. Näiteks saate sisestada järgmise päiseteksti: **Periood @FiscalPeriod-@FiscalYear alates @StartDate kuni @EndDate**. Loodav aruande pealkiri sarnaneb järgmisega: **Periood 1-02 alates 01/01/02 kuni 01/31/02**.
 
 > [!NOTE]
 > Osa teksti, nt pika kuupäeva, vorming oleneb teie regioonisätetest Finance and Operationsi serveris. Nende sätete muutmiseks klõpsake nuppu **Start**, klõpsake suvandit **Juhtpaneel** ja seejärel klõpsake suvandit **Regioon ja keel**. Järgmises tabelis loetletakse veerupäiste puhul saadaolevad automaatteksti suvandid.
@@ -180,10 +179,10 @@ Aruandekoostur saab veerupäiseid automaatteksti koodide alusel automaatselt luu
 | Automaatteksti suvand ja kood                | Kirjeldus |
 |-----------------------------------------|-------------|
 | Kuu nimi (@CalMonthLong)              | Veerupäise praeguse kuu nime printimine. Kui otsustate ümardada aruandesummad tuhandike, miljonite või miljarditeni või kui seadistate aruande veeru laiuse vähem kui üheksale märgile, lühendatakse kuu nimi esimese kolme märgini. |
-| Kuu lühendatud nimi (@CalMonthShort) | Valitud rahandusperioodi kuu lühendatud nime printimine. |
+| Lühendatud kuu nimi (@CalMonthShort) | Valitud rahandusperioodi kuu lühendatud nime printimine. |
 | Perioodi number (@FiscalPeriod)           | Selle veeru puhul määratud rahandusperioodi numbrilise vormi printimine. Kui veerg hõlmab mitut perioodi, prinditakse vahemiku viimane periood. |
 | Perioodi kirjeldus (@FiscalPeriodName)  | Finantsandmetes määratud rahandusperioodi kirjelduse printimine. |
-| Finantsaasta (@FiscalYear)               | Rahandusaasta printimine veeru puhul numbrites. |
+| Rahandusaasta (@FiscalYear)               | Rahandusaasta printimine veeru puhul numbrites. |
 | Kalendriaasta (@CalYear)                | Kalendriaasta printimine veeru puhul numbrites. |
 | Alguskuupäev (@StartDate)                 | Veeru alguskuupäeva printimine. |
 | Lõppkuupäev (@EndDate)                     | Veeru lõppkuupäeva printimine. |
@@ -472,7 +471,7 @@ Lahter **Hõlmatud perioodid** määratleb summa, mis tuleks veerus kuvada. See 
 
 ### <a name="attribute-filter-in-a-column-definition"></a>Veeru definitsiooni atribuudi filter
 
-Atribuudid on finantsandmete väärtused konto või kande täpsemaks määratlemiseks. Konto atribuudid sisaldavad suvandeid **Vara**, **Kohustus**, **Tulu** ja **Kulu**. Kande atribuudid sisaldavad suvandeid **Kande kirjeldus** ja **Kande rakendamise kuupäev**. Atribuudi tugi võib Microsoft Dynamics ERP süsteemide lõikes erineda. Lahter **Atribuudi filter** piirab andmed veergudes **FD** atribuudikategooriate konkreetsetele väärtustele või vahemikele. Kuigi seda funktsiooni saab kasutada koos veeruga **ATTR**, pole veerg **ATTR** nõutav. Veerus **FD** on aruande atribuudi filtrist kaasatavad kontod või kanded piiratud.
+Atribuudid on finantsandmete väärtused konto või kande täpsemaks määratlemiseks. Konto atribuudid sisaldavad suvandeid **Vara**, **Kohustus**, **Tulu** ja **Kulu**. Kande atribuudid sisaldavad suvandeid **Kande kirjeldus** ja **Kande rakendamise kuupäev**. Atribuudi tugi võib Microsoft Dynamicsi ERP süsteemide lõikes erineda. Lahter **Atribuudi filter** piirab andmed veergudes **FD** atribuudikategooriate konkreetsetele väärtustele või vahemikele. Kuigi seda funktsiooni saab kasutada koos veeruga **ATTR**, pole veerg **ATTR** nõutav. Veerus **FD** on aruande atribuudi filtrist kaasatavad kontod või kanded piiratud.
 
 > [!NOTE]
 > Nägemaks, milliseid atribuute ERP-süsteem toetab, vaadake süsteemi integratsioonijuhendit.
@@ -519,7 +518,7 @@ Täpseks vastendamiseks saate kasutada ka mis tahes kirjamärkide kombinatsiooni
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Mitme valuutaga aruande vormindamine veeru definitsioonis
 
-Mitme valuutaga aruandes saab kuvada summad füüsilises (kohalik) valuutas, ametlikus (vaikimisi) valuutas või aruandlusvaluutas. Ettevõtte ametlik valuuta määratletakse Microsoft Dynamics ERP süsteemis. Ärge ajage seda ERP sätet segamini operatsioonisüsteemi piirkonnavalikute sättega, milles saate konfigureerida vaikevaluuta tähiseid, mida aruannetes kasutatakse. Veeru definitsioonis on saadaval järgmised valuutaga seotud lahtrid.
+Mitme valuutaga aruandes saab kuvada summad füüsilises (kohalik) valuutas, ametlikus (vaikimisi) valuutas või aruandlusvaluutas. Ettevõtte ametlik valuuta määratletakse Microsoft Dynamicsi ERP süsteemis. Ärge ajage seda ERP sätet segamini operatsioonisüsteemi piirkonnavalikute sättega, milles saate konfigureerida vaikevaluuta tähiseid, mida aruannetes kasutatakse. Veeru definitsioonis on saadaval järgmised valuutaga seotud lahtrid.
 
 - **Valuuta kuvamine** – saate määrata kannetes kuvatava valuuta tüübi (füüsiline, ametlik või aruandlus). Sellele funktsioonile viidatakse mõnikord kui valuuta teisendamisele. Valuuta teisendamine on pearaamatu summade aruandluse võimalus valuutas, mis ei pruugi olla ettevõtte ametlik valuuta või kandele sisestatud valuuta.
 - **Valuutafilter** – valuuta filtri määramine. Aruandes kuvatakse ainult valitud valuutas sisestatud kanded.
@@ -612,4 +611,3 @@ Saate veeru summa jagada määratud perioodide arvuga. Näiteks valem **B/Period
 [Readefinitsioonid finantsaruandluses](row-definitions-financial-reporting.md)
 
 [Täpsemad vormingusuvandid finantsaruandluses](advanced-formatting-options-financial-reporting.md)
-

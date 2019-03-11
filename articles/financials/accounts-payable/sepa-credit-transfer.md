@@ -1,13 +1,13 @@
 ---
-title: "SEPA kreeditiülekande ülevaade"
-description: "See artikkel annab üldist teavet ISO 20022 krediidiedastuste kohta, mis hõlmab ühtse euromaksete piirkonna (SEPA) kreeditiülekandeid ja mis tahes muid hankijatele mõeldud elektroonilisi makseid. SEPA kreeditiülekanne on ühe ettevõtte või isiku spetsiifiline makse tüüp eurodes teisele ettevõttele või isikule. Teema selgitab ka, kuidas kreeditiülekande maksefaili seadistada ja edastada."
+title: SEPA kreeditiülekande ülevaade
+description: See artikkel annab üldist teavet ISO 20022 krediidiedastuste kohta, mis hõlmab ühtse euromaksete piirkonna (SEPA) kreeditiülekandeid ja mis tahes muid hankijatele mõeldud elektroonilisi makseid. SEPA kreeditiülekanne on ühe ettevõtte või isiku spetsiifiline makse tüüp eurodes teisele ettevõttele või isikule. Teema selgitab ka, kuidas kreeditiülekande maksefaili seadistada ja edastada.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6081c12ea65812a15b50c627330b4566ab4c679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363771"
 ---
-
 # <a name="sepa-credit-transfer-overview"></a>SEPA kreeditiülekande ülevaade
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,7 @@ SEPA kreeditülekanne on ühe ettevõtte või isiku makse teisele ettevõttele v
 Euroopa riikide puhul kasutatakse kreeditiülekande maksevormingu rakendamiseks elektroonilist aruandlust (ER) ja rakenduse Microsoft Dynamics 365 for Finance and Operations maksefunktsioonide meetodeid. Mõned teistes piirkondades kasutatavad kreeditiülekande vormingud kasutavad endiselt pärandmakseraamistikku. Paljude muude vormingute hulgas on saadaval kaksteist ISO 20022 kreeditiülekande failivormingut. Need ekspordivormingud vastavad SEPA ISO 20022 XML-standardile. Neid kasutatakse mitteeuroste makseülekannete loomiseks riikidele/piirkondadele, kus neid kasutatakse, ja euromaksete loomiseks, nagu on määratud EPC väljastatava trükise SEPA Credit Transfer Scheme Rulebook versioonis 8.2. Enne kreeditiülekannete rakendamist peate pöörduma oma panga poole, et saada tarkvara, mida elektrooniliste pangafailide üleslaadimiseks vaja on. Seda tarkvara kasutatakse maksetellimusi sisaldavate XML-failide edastamiseks panka.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Milliseid kreeditiülekande vorminguid rakendus Finance and Operations praegu toetab?
-Saate alati minna Microsoft Dynamicsi elutsükli teenustes (LCS) olevasse ühiste varade teeki ja vaadata kõige ajakohasemat loendit saadaolevatest failidest, millel on vara tüüp **GER-i konfiguratsioon**. Järgmine jaotis „Mida pean seadistamiseks tegema?” annab lingi teemale, mis selgitab, kuidas luua LCS-hoidlat, et saadaolevaid konfiguratsioone üle vaadata ja valitud konfiguratsioone importida.
+Saate alati minna teenuses Microsoft Dynamics Lifecycle services (LCS) olevasse ühiste varade teeki ja vaadata kõige ajakohasemat loendit saadaolevatest failidest, mille vara tüüp on **GER-i konfiguratsioon**. Järgmine jaotis „Mida pean seadistamiseks tegema?” annab lingi teemale, mis selgitab, kuidas luua LCS-hoidlat, et saadaolevaid konfiguratsioone üle vaadata ja valitud konfiguratsioone importida.
 
 ## <a name="what-do-i-have-to-set-up"></a>Mida pean seadistamiseks tegema?
 -   Enne kui saate kreeditiülekande faile luua, tuleb teie elektroonilise aruandluse konfiguratsioonidesse importida vähemalt üks aktiivne kreeditiülekande konfiguratsioon. Juhiste saamiseks vaadake teemat [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
@@ -92,7 +91,7 @@ Spetsiifiliste parameetrite loend sõltub kreeditiülekande vormingust. Järgmis
 <td>Vorming</td>
 <td>Valige rahaülekande teabe vorming, olenevalt teie riigi/regiooni või panga nõudmistest.
 <ul>
-<li><strong>Struktureeritud</strong> – selle valiku abil saate kasutada struktureeritud vormingut, kus üks makserida tasakaalustatakse ühe arvega. See valik ei ole saadaval Prantsusmaa, Saksamaa või Hollandi riigi-/ regioonipõhiste ekspordivormingute puhul.</li>
+<li><strong>Struktureeritud</strong> – selle valiku abil saate kasutada struktureeritud vormingut, kus üks makserida tasakaalustatakse ühe arvega. See valik ei ole saadaval Prantsusmaa, Saksamaa ega Hollandi riigi-/ regioonipõhiste ekspordivormingute puhul.</li>
 <li><strong>Ustrd</strong> – selle valiku abil saate kasutada struktureerimata vormingut, kus makse tasakaalustatakse mitme arvega. Tasakaalustatud arvete numbrid liidetakse ja kasutatakse rahaülekande teabena. ISO 20022 juhiste kohaselt on struktureerimata rahaülekande teave piiratud 140 märgiga.</li>
 </ul></td>
 </tr>
@@ -124,7 +123,6 @@ Rahvusvahelist pangakonto numbrit (IBAN) ja panga identifikaatorkoodi (BIC) kasu
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Kuidas maksefail panka edastada?
 Maksete loomisel luuakse maksefail ja teil palutakse salvestada see veebibrauserist mõnda olemasolevasse asukohta. Järgmine etapp on XML-faili panka saatmine. See protsess erineb pankade lõikes. Järgige oma panga juhiseid failide edastamiseks panka töötlemiseks.
-
 
 
 

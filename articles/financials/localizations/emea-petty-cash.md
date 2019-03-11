@@ -1,13 +1,13 @@
 ---
-title: "Väikesed summad Ida-Euroopa puhul"
-description: "Selles teemas antakse teavet väikeste summade funktsiooni kohta, mis võimaldab Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis, Poolas ja Venemaal asuvatel kasutajatel kajastada süsteemis sularahatehinguid."
+title: Väikesed summad Ida-Euroopa puhul
+description: Selles teemas antakse teavet väikeste summade funktsiooni kohta, mis võimaldab Eestis, Leedus, Tšehhi Vabariigis, Ungaris, Lätis, Poolas ja Venemaal asuvatel kasutajatel kajastada süsteemis sularahatehinguid.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RCashBalance, RCashCountStatementForm, RCashPosting, RCashRemainLimit, RCashReportJour_PL, RCashTable, RCashTableBalance, RCashTableCredLimit, RCashTableLastRevaluation, RCashTableTransactions, RCashTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 77159c0ef8e8046b50fa1dae60423823865e80b5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4467987c4bb25ec7c44550c9e941298e459bbf22
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370560"
 ---
-
 # <a name="petty-cash-for-eastern-europe"></a>Väikesed summad Ida-Euroopa puhul
 
 [!include [banner](../includes/banner.md)]
@@ -475,7 +474,6 @@ Tasakaalustatud summa kajastub lehe <strong>Sularahakanne</strong> väljal <stro
 | Sularahakanne                              | Sularahakannete kuvamiseks avage **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Sularahakanded**. Määrake funktsiooniga **Filtreeri** lisakriteeriumid sularahakannete valiku piiramiseks. |
 | Registreerimise tööleht (Eesti ja Venemaa puhul) | Aruanne jaotises **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Registreerimise tööleht** kajastab kõiki väljastatud kassa korvamis- ja väljaminekuordereid.                                   |
 | Kassaraamat (Läti, Leedu ja Venemaa puhul)     | Aruanne jaotises **Sularaha- ja pangahaldus** &gt; **Päringud ja aruanded** &gt; **Kassaraamatu aruanne** kajastab tegelikke sularahaliikumisi (sissetulekud ja kulud).                                                            |
-
 
 
 

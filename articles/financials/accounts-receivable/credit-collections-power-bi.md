@@ -1,13 +1,13 @@
 ---
-title: "Krediidi ja võlanõuete halduse Power BI sisu"
-description: "See teema kirjeldab, mida hõlmab krediidi ja võlanõuete halduse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
+title: Krediidi ja võlanõuete halduse Power BI sisu
+description: See teema kirjeldab, mida hõlmab krediidi ja võlanõuete halduse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
-ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325177"
 ---
-
 # <a name="credit-and-collections-management-power-bi-content"></a>Krediidi ja võlanõuete halduse Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, mida hõlmab **krediidi ja võlanõuete halduse** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+See teema kirjeldab, mida hõlmab **krediidi ja võlanõuete halduse** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -44,11 +43,11 @@ Kõik summad on näidatud süsteemivaluutas. Süsteemi valuuta saab seadistada l
 Vaikimisi kuvatakse praeguse ettevõtte krediidi ja võlanõuete andmed. Andmete vaatamiseks kõigi ettevõtete lõikes määrake rollile kohustus **CustCollectionsBICrossCompany**.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
-Power BI sisu **Krediidi ja võlanõuete haldus** kuvatakse tööruumis **Klientide krediidihaldus ja võlanõuded**.
+**Krediidi ja võlanõuete halduse** Power BI sisu kuvatakse tööruumis **Klientide krediidihaldus ja võlanõuded**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad aruanded
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad aruanded
 
-**CustCollectionsBICrossCompany** Power BI sisu sisaldab aruannet, mis koosneb mõõdikute kogumist. Neid mõõdikuid visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate Power BI sisu **CustCollectionsBICrossCompany** visualiseerimistest.
+**CustCollectionsBICrossCompany** Power BI sisu sisaldab aruannet, mis koosneb mõõdikute kogumist. Neid mõõdikuid visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate **CustCollectionsBICrossCompany** Power BI sisu visualiseerimistest.
 
 | Aruandeleht                 | Visualiseering |
 |-----------------------------|---------------|
@@ -63,7 +62,7 @@ Power BI sisu **Krediidi ja võlanõuete haldus** kuvatakse tööruumis **Klient
 | Sissenõuete olek          | <ul><li>Vaidlustatud</li><li>Makselubadust on murtud</li><li>Makselubadus</li><li>Võlanõuete oleku üksikasjad</li><li>Võlanõuete oleku summad</li><li>Avatud juhtumid</li><li>Avatud tegevused</li></ul> |
 | Märgukirjad         | <ul><li>Sissenõude koodi summad</li><li>Võlanõude koodi summa üksikasjad</li><li>Märgukirja summa ettevõtte kohta</li><li>Märgukirja summa kliendigrupi kohta</li><li>Märgukirja summa regiooniti</li></ul> |
 
-Kõikidel nendel aruannetel olevaid diagramme ja paane saab filtreerida ja kinnitada armatuurlauale. Power BI-s filtreerimise ja kinnitamise kohta lisateabe saamiseks vaadake teemat [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Visualisatsioonis summeeritud alusandmete eksportimiseks saab kasutada ka alusandmete eksportimise funktsiooni.
+Kõikidel nendel aruannetel olevaid diagramme ja paane saab filtreerida ja kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt teemast [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Visualisatsioonis summeeritud alusandmete eksportimiseks saab kasutada ka alusandmete eksportimise funktsiooni.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 
@@ -88,5 +87,4 @@ Aruandelehtede täitmiseks **krediidi ja võlanõuete halduse** Power BI sisus k
 |        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Loodud viivisearvete arv.                |
 |        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Ootel olevate müügitellimuste arv.                 |
 |          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Maha kantud kannete summa.                 |
-
 

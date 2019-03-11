@@ -1,13 +1,13 @@
 ---
 title: Talenti keskkondade eemaldamine
-description: "See teema selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks."
+description: See teema selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 for Talent puhul.
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304133"
 ---
 # <a name="remove-talent-environments"></a>Talenti keskkondade eemaldamine
 
 [!include [banner](includes/banner.md)]
 
-See teema selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks.
+See teema selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 for Talent puhul.
 
 ## <a name="removing-a-test-drive-environment"></a>Proovikeskkonna eemaldamine
 
@@ -73,5 +73,4 @@ Talenti eemaldamiseks olemasolevast PowerAppsi keskkonnast tehke järgmist. Pang
 6. Valige oma LCS-i projektis paan **Talenti rakendusehaldus**. 
 7. Valige eksemplar, mille soovite eemaldada (selle juures peaks olema märgitud juurutuse olek **Nurjus**).
 8. Valige **Eemalda eksemplar** ja kinnitage otsus. 
-
 

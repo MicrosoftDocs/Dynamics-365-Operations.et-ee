@@ -1,13 +1,13 @@
 ---
-title: "Tasu registreerimiste põhjal"
-description: "Selles teemas kirjeldatakse, kuidas arvutatakse tasu töötaja registreerimiste põhjal."
+title: Tasu registreerimiste põhjal
+description: Selles teemas kirjeldatakse, kuidas arvutatakse tasu töötaja registreerimiste põhjal.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: f36c411ce24dfd8cceacda3d4659ec9a98fd5aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321106"
 ---
-
 # <a name="pay-based-on-registrations"></a>Tasu registreerimiste põhjal
 
 [!include [banner](../includes/banner.md)]
@@ -600,4 +599,3 @@ Kui töötaja ei ilmu tööpäeval tööle ja tal puudub sel päeval plaanitud p
 - Puudumise automaatsisestus
 
 Kui arvutatakse päevased registreerimised töötaja kohta, kellel on paindtunnid lubatud, kasutatakse väljas **Paind– automaatsisestus** määratud puudumiskoodi vaikimisi puudumiskoodina. Kui töötajal ei ole paindtunnid lubatud, kasutatakse väljas **Puudumise automaatsisestus** määratud puudumiskoodi. Kui ettevõttel on kombinatsioon töötajatest, kellel on paindtunnid lubatud, ja töötajatest, kellel ei ole paindtunnid lubatud, tuleb seadistada mõlemad parameetrid.
-

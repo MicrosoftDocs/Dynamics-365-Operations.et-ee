@@ -1,13 +1,13 @@
 ---
 title: Krediitkaardikannete importimine ja haldamine
-description: "Selles teemas kirjeldatakse kuludega seotud krediitkaardikannete importimist ja haldamist. Neid kandeid saab seadistada nii, et need imporditakse automaatselt korduva graafiku alusel või neid saab vajaduse järgi käsitsi importida."
+description: Selles teemas kirjeldatakse kuludega seotud krediitkaardikannete importimist ja haldamist. Neid kandeid saab seadistada nii, et need imporditakse automaatselt korduva graafiku alusel või neid saab vajaduse järgi käsitsi importida.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322647"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>Krediitkaardikannete importimine ja haldamine
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ Andmeüksuste kohta leiate lisateavet jaotisest [Andmeüksused](../../dev-itpro/
 Pärast töötaja kirje lõpetamist keelatakse töötaja Active Directory domeeniteenuste (ADDS) konto. Kuid võib olla aktiivseid krediitkaardikandeid, mis tuleb siiski kuludesse kanda ja korvata. Lehelt **Krediitkaardikanded** saate määrata töötaja ümber mis tahes krediitkaardikandele, kus seostatud töötaja on lõpetatud.
 
 Valige vähemalt üks krediitkaardikanne ja seejärel **Kannete ümbermääramine**. Seejärel saate valida teise töötaja, kellele krediitkaardikanded määrata. Pärast nende krediitkaardikannete ümbermääramist saab need kuluaruande jaoks valida ja tasuda tavalise kuluaruande korvamise protsessi kaudu.
-

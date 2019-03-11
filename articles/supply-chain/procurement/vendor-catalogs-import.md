@@ -5,33 +5,32 @@ author: mkirknel
 manager: AnnBe
 ms.date: 03/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
-ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362023"
 ---
-
 # <a name="import-vendor-catalogs"></a>Hankija kataloogide importimine
 [!include[banner](../includes/banner.md)]
 
 ## <a name="vendor-catalogs-import"></a>Hankija kataloogide importimine
 
-Rakenduses Microsoft Dynamics 365 for Finance and Operations saavad ostuspetsialistid luua ja hallata katalooge, mida ettevõtte töötajad saavad kaupade ja teenuste sisemiseks kasutamiseks tellimisel kasutada. Hankekataloogi loomiseks saate lisada kaupu ja teenuseid, mille soovite töötajatele kättesaadavaks teha, importides tootekataloogi andmed või lisades tootekataloogi andmed käsitsi tooteetaloni. 
+Microsoft Dynamics 365 for Finance and Operationsis saavad ostuspetsialistid luua ja hallata katalooge, mida ettevõtte töötajad saavad kaupade ning teenuste sisemiseks kasutamiseks tellimisel kasutada. Hankekataloogi loomiseks saate lisada kaupu ja teenuseid, mille soovite töötajatele kättesaadavaks teha, importides tootekataloogi andmed või lisades tootekataloogi andmed käsitsi tooteetaloni. 
 
 Saate laadida üles kataloogiandmed, mille hankija on edastanud Microsoft Dynamics 365 kliendist.
 
@@ -69,5 +68,4 @@ Kataloogi impordifaili mall on XSD-fail, mille abil saate luua hankija toodete C
 
 3. Valige dialoogikastis **Salvesta nimega** asukoht, kus soovite kataloogifaili malli talletada ja salvestage fail.
 
-Lisateave ja näiteid vt ajaveebipostitusest [Hankija kataloogid rakenduses Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).
-
+Lisateavet ja näiteid vt ajaveebipostitusest [Hankija kataloogid rakenduses Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).

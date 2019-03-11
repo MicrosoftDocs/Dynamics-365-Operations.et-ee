@@ -1,13 +1,13 @@
 ---
-title: "Püsikliendi ülevaade"
-description: "Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Retail püsikliendi võimalusi ja vastavaid seadistuse etappe, mis aitavad jaemüüjal hõlpsasti oma püsikliendi programmiga algust teha."
+title: Püsikliendi ülevaade
+description: Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Retail püsikliendi võimalusi ja vastavaid seadistusetappe, mis aitavad jaemüüjal hõlpsasti oma püsikliendiprogrammiga algust teha.
 author: scott-tucker
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 01/08/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: bb1a1ff28c846a35858df971e29bb7a551c8012a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 09d4e46694e89b648981352f64da4a43ab1522e1
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320117"
 ---
-
 # <a name="loyalty-overview"></a>Püsikliendi ülevaade
 
 [!include [banner](includes/banner.md)]
 
-Püsikliendiprogrammid aitavad suurendada klientide lojaalsust, premeerides kliente teie Retaileri kaubamärgiga suhtlemise eest. Rakenduses Microsoft Dynamics 365 for Retailis saate seadistada lihtsad või keerulised püsikliendiprogrammid, mis rakenduvad teie juriidilistele üksustele mis tahes jaemüügikanalis. Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Retail püsikliendi võimalusi ja vastavaid seadistuse etappe, mis aitavad jaemüüjal hõlpsasti oma püsikliendi programmiga algust teha.
+Püsikliendiprogrammid aitavad suurendada klientide lojaalsust, premeerides kliente teie Retaileri kaubamärgiga suhtlemise eest. Rakenduses Microsoft Dynamics 365 for Retail saate seadistada lihtsaid või keerulisi püsikliendiprogramme, mis kehtivad kõikide teie juriidiliste isikute kõikides jaemüügikanalites. Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Retail püsikliendi võimalusi ja vastavaid seadistusetappe, mis aitavad jaemüüjal hõlpsasti oma püsikliendiprogrammiga algust teha.
 
 Saate seadistada püsikliendiprogrammi nii, et see hõlmaks järgmisi valikuid.
 
@@ -43,7 +42,7 @@ Saate seadistada püsikliendiprogrammi nii, et see hõlmaks järgmisi valikuid.
 
 ## <a name="setting-up-loyalty-programs"></a>Püsikliendiprogrammide seadistamine
 
-Peate seadistama mitu komponenti, et lubada rakenduse Dynamics 365 for Retail püsikliendifunktsioon. Järgmisel joonisel on kujutatud püsikliendiprogrammi komponendid ja nende omavahelised seosed.
+Püsikliendifunktsiooni võimaldamiseks rakenduses Dynamics 365 for Retail peate seadistama mitu komponenti. Järgmisel joonisel on kujutatud püsikliendiprogrammi komponendid ja nende omavahelised seosed.
 
 ![Püsikliendiprogrammi seadistuse protsessivoog](./media/loyaltyprocess.gif "Püsikliendiprogrammi komponendid ja nende omavahelised seosed")
 
@@ -70,7 +69,7 @@ Järgmises tabelis kirjeldatakse protsesse, mida tuleb käitada, et saata püsik
 
 | Protsessi nimi                         | Kirjeldus | Lehe nimi |
 |--------------------------------------|-------------|-----------|
-| 1050 (püsikliendi teave)           | Käivitage see protsess, et saata püsikliendiandmeid rakendusest Dynamics 365 for Retail jaekauplustesse. Soovitatav on ajastada see protsess sageli käivituma, et püsikliendiandmed edastataks kõigisse kauplustesse. | Jaotusgraafik |
+| 1050 (püsikliendi teave)           | Käitage seda protsessi, et saata püsikliendiprogrammi konfigureerimise andmed rakendusest Dynamics 365 for Retail jaekauplustesse. Soovitatav on ajastada see protsess sageli käivituma, et püsikliendiandmed edastataks kõigisse kauplustesse. | Jaotusgraafik |
 | Boonusskeemide töötlemine              | Käitage seda protsessi, et seostada püsikliendiskeemid jaemüügikanalitega, millele püsikliendiskeem määratud on. Seda protsessi saab käitada pakktöötlusena. Peate seda protsessi käitama, kui muudate püsikliendi konfiguratsiooniandmeid, nagu püsikliendiskeemid, püsikliendiprogrammid või püsikliendi preemiapunktid. | Boonusskeemide töötlemine |
 | Töötle võrguühenduseta boonuskandeid | Käitage seda protsessi, et värskendada kliendikaarte kaasamaks neisse võrguühenduseta töödeldud kandeid. See protsess rakendub ainult siis, kui lehel **Jaemüügi ühisparameetrid** on märgitud ruut **Teeni võrguühenduseta**, et preemiaid saaks teenida ka võrguühenduseta. | Töötle võrguühenduseta boonuskandeid |
 | Uuenda kliendikaartide järke            | Käitage seda protsessi, et hinnata kliendi teenimisaktiivsust püsikliendiprogrammi järgureeglite suhtes ja värskendada kliendi järgu olekut. See protsess on nõutav ainult siis, kui muudate püsikliendiprogrammide järgureegleid ja soovite, et värskendatud reeglid kehtiksid tagasiulatuvalt juba väljastatud kliendikaartide puhul. Seda protsessi saab käitada pakktöötlusena või üksikute kaartide puhul. | Uuenda kliendikaartide järke |
@@ -118,12 +117,29 @@ Rakendusel Retail on osana 2018. aasta oktoobri väljaandest uus püsikliendipro
 
     ![Aeguvad punktid](./media/Expiring%20points.png "Aeguvate punktide kuvamine")
     
-## <a name="upcoming-enhancements"></a>Tulevased täiustused
 
-Järgmised funktsioonid on saadaval tulevastes Dynamics 365 for Retail igakuistes värskendustes.
-    
-- Kliendid soovivad näha oma boonussaldo üksikasju kliendile suunatud kanalites. Samuti on oluline, et kassapidajad näeksid klientide boonuspunktide ajalugu MPOS/CPOS-is, et kiiresti kliendi päringutele vastata. Tulevases igakuises väljaandes näevad kliendid ja kassapidajad püsikliendiprogrammi ajaloo üksikasju.
-- Mitmed jaemüüjad saavad pakkuda boonuspunkte ainult müügikannete põhjal, kuid kliendikesksemad jaemüüjad soovivad premeerida oma kliente mis tahes suhtlustegevuse eest oma kaubamärgiga. Näiteks tahavad nad pakkuda preemiaid veebiuuringu täitmise eest, poe külastamise eest, jaemüüja meeldivaks märkimise eest Facebookis, jaemüüja kohta säutsumise eest Twitteris ning palju muu eest. Lisame tulevikus võimaluse anda boonuspunkte mis tahes klienditegevuste eest. Selleks saab jaemüüja määrata "Muu tegevuse tüübi" ja määratleda nende tegevuste teenimisreeglid. Avaldame ka Retail Serveri API, mida saab kutsuda, kui tuvastatakse tegevus, mis kasutab teenimisreeglit nõutavate boonuspunktide määramiseks.
-- Tõelise ühiskanali jaemüügi retail experience'i lubamiseks võimaldame klientidel boonuspunktide teenimise ja lunastamise kõikidel kanalitel.
-- Tasuta või allahindlusega tarne on üks kõrgelt motiveeriv tegur, mis paneb kliente veebist ostma. Tarnimiskampaaniate loomiseks tutvustame uut tüüpi kampaaniat, kus jaemüüja saab määratleda läved, mille täitmisel kvalifitseerub klient allahindlusega või tasuta tarnele.
+- Väljaandega 8.1.3 oleme lubanud kõnekeskuse kanalis kliendikaardiga tasumise suvandi. Selle suvandi lubamiseks looge püsikliendi maksevahendi tüüp ja seostage see kõnekeskusega. 
 
+>[!NOTE]
+> Kuna kliendikaardi maksed on seadistatud kaardimaksetena, peate valima kaardi lehelt **Kaardi seadistus**. 
+
+![Kliendikaardi seadistus](./media/LoyaltyCardSetup.png "Kliendikaardi seadistus")
+
+Kui see on seadistatud, saavad kliendid oma boonuspunktid lunastada kõnekeskuses. Peale selle täiustame kasutajakogemust veelgi, kuvades boonuspunktidega kaetud summat, nii et kõnekeskuse kasutajad ei pea boonussaldo nägemiseks liikuma teisele kuvale.
+
+- Paljud jaemüüjad pakuvad boonuspunkte ainult müügikannete põhjal, kuid kliendikesksemad jaemüüjad soovivad premeerida oma kliente mis tahes suhtlustegevuse eest oma kaubamärgiga. Näiteks võivad nad pakkuda preemiaid veebiküsitluse täitmise eest, poe külastamise eest, jaemüüja meeldivaks märkimise eest Facebookis või jaemüüja kohta säutsumise eest Twitteris. Selleks saab jaemüüja määrata mis tahes arvu muid tegevusetüüpe ja määratleda nendele tegevustele vastavad teenimisreeglid. Avaldatud on ka jaemüügiserveri API PostNonTransactionalActivityLoyaltyPoints, mida saab kutsuda, kui tuvastatakse tegevus, mis määrab kliendile boonuspunkte. See API eeldab kliendikaardi ID-d, kanali ID-d ja muu tegevusetüübi ID-d, et leida klient, kellele tuleb boonuspunktid määrata, ja tuvastada tegevuse teenimisreegel. 
+
+    Preemiapunktid kannetega mitteseotud tegevuste puhul koosnevad tavaliselt kahest põhietapist.
+    - Arusaamine, et on toimunud tegevus, mille eest tuleb määrata preemiapunktid.
+    - Asjakohaste punktide andmine.
+
+    Esimene etapp toimub rakendusest Microsoft Dynamics 365 for Retail väljaspool, näiteks kaubamärgist säutsumine või kaubamärgi Facebookis meeldivaks märkimine. Kui tegevus on tuvastatud, saavad jaemüüjad kutsuda ülalnimetatud jaemüügiserveri API ja määrata boonuspunktid reaalajas. Sellistel juhtudel pole ülevaatusetapp vajalik, kuna tegevus on toimunud ja vastavad punktid tuleb määrata. Esineb aga ka stsenaariume, mille puhul jaemüüja soovib kirjed enne punktide määramist üle vaadata. Näiteks on jaemüüja korraldanud kaupluses töötoa, mille puhul kliendid registreeruvad e-poe veebisaidil või muu sündmuste registreerimise rakenduse kaudu. Boonuspunkte teenivad aga ainult osalevad kliendid. Selliste stsenaariumide puhul võtsime versioonis 10.0 kasutusele andmeüksuse nimega **Jaemüügi püsikliendi tegevusetüübi read**. See andmeüksus võimaldab jaemüüjatel kasutada kas andmete impordi/ekspordi raamistikku (DIXF) või OData API-t registreerimaks tegevusi, mille puhul määratakse klientidele boonuspunkte. Andmeüksus talletab tegevused töölehele **Püsikliendi muude tegevuste read**, mida saab kasutada ülevaatamiseks ja muutmiseks. Kui andmed on üle vaadatud, saab IT-kasutaja tegevuseread kas käsitsi sisestada või käivitada töö nimega **Muu tegevusetüübi töötlemine püsikliendi ridade puhul**, mis sisestab kõik sisestamata tegevuseread ja määrab klientidele teenimisreeglite põhjal punktid. Ülaltoodud stsenaariumi puhul kutsub sündmuse registreerimise rakendus OData API, et saata kliendi teave rakendusse Dynamics 365 for Retail. IT-kasutaja saab siiski sisestada tegevuseread ainult nende klientide kohta, kes osalesid töötoas, ja kustutada tegevuseread teiste klientide puhul. 
+
+> [!NOTE]
+> Praegu sunnib süsteem kasutajaid seadistama muude tegevusetüüpide kohta numbriseeria, kuid see pole tulevastes väljaannetes vajalik etapp. Numbriseeria seadistamiseks minge jaotisse **Jaemüügi ühisparameetrid > Numbriseeriad** ja valige numbriseeria suvandile **Püsikliendi muu tegevusetüübi ID**.
+
+- Hea klienditeeninduse pakkumiseks ja kliendipäringute tõhusaks lahendamiseks peab kassapidajatel olema juurdepääs kliendi täielikule profiilile. Väljaandes 10.0 saavad kassapidajad näha kassas püsikliendi ajaloolisi üksikasju koos seostatud püsikliendiprogrammi ja järguteabega.
+- Tasuta või allahindlusega tarne on üks kõrgelt motiveeriv tegur, mis paneb kliente veebist ostma. Tarnimiskampaaniate loomiseks võtsime väljaandes 10.0 kasutusele uut tüüpi kampaania nimega Saatmisläve allahindlus, kus jaemüüja saab määratleda läved, mille täitmisel kvalifitseerub klient allahindlusega või tasuta tarnele. Näiteks tuleb kõigil püsiklientidel kulutada 35 eurot kahepäevase tarne või tasuta kahepäevase tarne saamiseks. Need allahindlused kohalduvad ainult tellimuste saatekulule. Kuna jaemüüja saab seadistada mitut tüüpi tasusid, nagu käsitlemise või paigaldamise eest, peab ta määrama, millist tasu peetakse saatekuluks. Selle konfiguratsiooni nimi on Saatekulu kood ja see on saadaval lehe **Jaemüügi parameetrid** vahekaardil **Klienditellimused**. See allahindlus arvestab kõiki olemasolevaid tavalisi allahindlusvõimalusi, näiteks lubamine jaemüüjal piirata neid allahindlusi kupongidega, nii et allahindlusi saavad ainult kupongidega kliendid. Samuti kasutavad need allahindlused hinnagruppide võimalust määrata sobilikkust neile allahindlustele. Näiteks saab jaemüüja käivitada need soodustused ainult veebikanalites ja/või teatud kliendigruppide, näiteks püsiklientide, kanalites. Kui määratud tarneviisiga tellimuseread vastavad määratletud lävele, kohaldub saatmisele allahindlus ja vähendab saatekulu seadistatud allahindluse põhjal. 
+
+> [!NOTE]
+> Erinevalt muudest perioodilistest allahindlustest, nagu koguse, liht-, segamise ja sobitamise ning läveallahindlused, ei loo saateallahindlus allahindlusridu, vaid saatekulu tuleb redigeerida otse.

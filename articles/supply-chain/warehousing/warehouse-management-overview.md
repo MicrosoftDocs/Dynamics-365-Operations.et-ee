@@ -1,13 +1,13 @@
 ---
 title: Laohaldus
-description: "Laohalduse abil laotoimingute jälgimine ja automatiseerimine."
+description: Laohalduse abil laotoimingute jälgimine ja automatiseerimine.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7c9613070e077bced4b272b136985de5f4ddbdd0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc039b3c35c9ff8f40bf671e523104031c598171
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335251"
 ---
 # <a name="warehouse-management"></a>Laohaldus
 
 [!include [banner](../includes/banner.md)]
 
-Laohalduse moodul rakendusele Dynamics 365 for Finance and Operations võimaldab hallata laoprotsesse tootmis-, hulgi- ja jaemüügiettevõtetes. Sellel moodulil on väga mitmesuguseid funktsioone, mis toetavad ladu alati optimaalsel tasemel. Laohaldus on integreeritud täielikult teiste Finance and Operationsi äriprotsessidega, nt transporti, tootmise, kvaliteedikontrolli, ostmise, üleviimise, müügi ja tagastustega.
+Rakenduse Dynamics 365 for Finance and Operations laohalduse moodul võimaldab hallata laotoiminguid tootmis-, hulgimüügi- ja jaemüügiettevõtetes. Sellel moodulil on väga mitmesuguseid funktsioone, mis toetavad ladu alati optimaalsel tasemel. Laohaldus on integreeritud täielikult teiste Finance and Operationsi äriprotsessidega, nt transporti, tootmise, kvaliteedikontrolli, ostmise, üleviimise, müügi ja tagastustega.
 
 ## <a name="get-started"></a>Alustamine
 Laohaldusega töö alustamiseks tuleb viia lõpule üldiste laoparameetrite seadistamine, et toetada oma ettevõtte äriprotsesse.
@@ -65,7 +65,7 @@ Peate konfigureerima sissetulevate ja väljaminevate laoprotsesside töövoogude
 - Lihtne ristlaadimine
 
 ## <a name="additional-resources"></a>Lisaressursid
-### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel
+### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 Avage [Microsoft Dynamics 365 sisukaart](https://roadmap.dynamics.com/), et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel.
 
 ### <a name="blogs"></a>Ajaveebid
@@ -73,5 +73,4 @@ Laohalduse ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [
 
 
  
-
 

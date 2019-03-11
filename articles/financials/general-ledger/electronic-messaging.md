@@ -1,33 +1,32 @@
 ---
-title: "Elektrooniline sõnumside"
-description: "Selles teemas antakse ülevaade ja seadistusteave elektroonilise sõnumside jaoks rakenduses Microsoft Dynamics 365 for Finance and Operations."
+title: Elektrooniline sõnumside
+description: Selles teemas antakse elektroonilise sõnumside ülevaade ja seadistusteave rakenduses Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 232398a6c4193d0074881e26fff361deb9784bf2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357929"
 ---
-
-# <a name="electronic-messaging"></a>Elektrooniline sõnumside
+# <a name="electronic-messaging"></a>Elektronsõnumid
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade ja seadistusteave elektroonilise sõnumside jaoks rakenduses Microsoft Dynamics 365 for Finance and Operations.
+Selles teemas antakse elektroonilise sõnumside ülevaade ja seadistusteave rakenduses Microsoft Dynamics 365 for Finance and Operations.
 
 Hiljuti kehtestasid erinevate riikide ja piirkondade valitsused ja seadusandlikud asutused üle kogu maailma aruandlusnõuded ettevõtetele, kes on nendes riikides või piirkondades registreeritud. Nende nõuete eesmärk on hankida nendelt ettevõtetelt elektroonilises vormingus andmeid, otse süsteemist, kus neid arvutatakse, hoiustatakse ja töödeldakse.
 
@@ -47,7 +46,7 @@ Järgmine joonis näitab elektroonilise sõnumside andmevoogu.
 
 Elektronsõnumite funktsioon toetab järgmisi stsenaariume:
 
-- Sõnumite loomine ja aruannete koostamine, mis põhinevad erinevat tüüpi seotud eksportimise ER-vormingutel: Microsoft Excel, XML, JavaScript Object Notation (JSON), PDF, tekst ja Microsoft Word.
+- Sõnumite loomine ja aruannete koostamine, mis põhinevad erinevat tüüpi seotud eksportimise ER-vormingutel: Microsoft Excell, XML, JavaScript Object Notation (JSON), PDF, tekst ja Microsoft Word.
 - Sõnumite, mis põhinevad teabel, mida taotleti ja hangiti asutuselt seotud importimise ER-vormingu kaudu, automaatne loomine ja töötlemine.
 - Teabe kogumine ja töötlemine andmeallikast (Finance and Operationsi tabel) sõnumiüksustena.
 - Täiendava teabe talletamine ja erinevate väärtuste hindamine, kutsudes eraldi määratletud täidetavad klassid seoses sõnumite või sõnumiüksustega.
@@ -452,4 +451,3 @@ Saate nüüd sõnumi oleku kas kustutada või seda värskendada. Sõnumi oleku v
 ![Sõnumi oleku värskendamine](media/update-status.png)
 
 Sõnumi olek värskendatakse väärtusele **Ettevalmistatud** ja te saate nüüd aruande luua, valides **Loo aruanne**. Aruanne luuakse ning sõnumi olekut ja tegevuste logi värskendatakse. Loodud aruande vaatamiseks valige toimingupaanil nupp **Manus**.
-

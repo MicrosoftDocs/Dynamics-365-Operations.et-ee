@@ -1,13 +1,13 @@
 ---
-title: Tegevuse salvestaja ja spikker Retail Modern POS (MPOS) ja pilve kassa jaoks
-description: Selles teemas kirjeldatakse tegevuse salvestaja kasutamist Retail Modern POS-is (MPOS) ja pilve kassas.
+title: Tegevuse salvestaja ning spikker Retail Modern POS-i (MPOS) ja pilvekassa jaoks
+description: Selles teemas kirjeldatakse tegevuse salvestaja kasutamist Retail Modern POS-is (MPOS) ja pilvekassas.
 author: mugunthanm
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,23 +19,22 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345992"
 ---
-
-# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Tegevuse salvestaja ja spikker Retail Modern POS (MPOS) ja pilve kassa jaoks
+# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Tegevuse salvestaja ning spikker Retail Modern POS-i (MPOS) ja pilvekassa jaoks
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse tegevuse salvestaja kasutamist Retail Modern POS-is (MPOS) ja pilve kassas.
+Selles teemas kirjeldatakse tegevuse salvestaja kasutamist Retail Modern POS-is (MPOS) ja pilvekassas.
 
 ## <a name="overview"></a>Ülevaade
 
-Tegevuse salvestaja Retail Modern POS-is või pilvekassas on uus lahendus, mille eesmärk on pöörata tähelepanu suurele tundlikkusele. Sellel on paindlik rakenduse programmeerimisliides (API) laiendatavuse ja sujuva integratsiooni tagamiseks äriprotsessi salvestiste tarbijatega. Lisaks on tõstetud esile tegevuse salvestaja integratsioon äriprotsesside modelleerija (BPM) tööriistaga teenuses Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Seetõttu saavad kasutajad luua oma rakenduste analüüsimiseks ja kujundamiseks salvestistest jätkuvalt rikkalikke äriprotsessi diagramme.
+Tegevuse salvestaja Retail Modern POS-is või pilvekassas on uus lahendus, mille eesmärk on pöörata tähelepanu suurele tundlikkusele. Sellel on paindlik rakenduse programmeerimisliides (API) laiendatavuse ja sujuva integratsiooni tagamiseks äriprotsessi salvestiste tarbijatega. Peale selle on tõstetud esile tegevuse salvestaja integratsioon äriprotsesside modelleerija (BPM) tööriistaga teenuses Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Seetõttu saavad kasutajad luua oma rakenduste analüüsimiseks ja kujundamiseks salvestistest jätkuvalt rikkalikke äriprotsessi diagramme.
 
 ## <a name="architecture"></a>Arhitektuur
 
@@ -80,7 +79,7 @@ Pärast salvestusseansi lõpetamist kuvatakse mitu valikut, et saaksite oma salv
 
 ### <a name="save-to-this-pc"></a>Salvesta sellesse arvutisse
 
-Salvestuspaketti saab kasutada tegevuse juhise esitamiseks, salvestise säilitamiseks või salvestise märkuste redigeerimiseks. (See funktsioon ei ole veel Retail modern POS-is ega pilvekassas juurutatud.)
+Salvestuspaketti saab kasutada tegevuse juhise esitamiseks, salvestise säilitamiseks või salvestise märkuste redigeerimiseks. (See funktsioon ei ole veel Retail Modern POS-is ega pilvekassas juurutatud.)
 
 ### <a name="export-as-word-document"></a>Ekspordi Wordi dokumendina
 
@@ -137,9 +136,9 @@ Väljale **Tekst** sisestatav tekst kuvatakse tegevuse juhises toimingu teksti *
 
 Väljale **Märkused** sisestatav tekst kuvatakse tegevuse juhises toimingu teksti *all*. Märkuse teksti lugemiseks peab kasutaja toimingu teksti hüpikaknas laiendama. See asukoht sobib soovi korral loetava materjali jaoks või muu teabe jaoks, millest kasutajale võib abi olla, kuid mis pole toimingu tegemise jaoks kasutajale tingimata vajalik.
 
-## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Retail Modern POS-i ja pilvekassa spikker
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Spikker Retail Modern POS-is ja pilvekassas
 
-Oma kohandatud tegevuse salvestiste kuvamiseks Retail Modern POS-i ja pilvekassa spikripaanil, et neid saaks tekstina kuvada, tuleb salvestada tegevuse salvestised oma BPM-i teeki ja seejärel uuendada oma spikrisüsteemi parameetreid nii, et need osutaksid teie BPM-i teegile. Lisateavet leiate jaotisest [Spikrisüsteemi ühendamine](../fin-and-ops/get-started/help-connect.md). Retail Modern POS-i ja pilvekassa spikker otsib LCS-ist reaalajas. See otsib kõigist BPM-i teekidest, mis on Microsoft Dynamics 365 for Retaili spikrisüsteemi parameetrites valitud, ja kuvab asjakohased tulemused. **Spikri** menüü avamiseks klõpsake ekraani ülaosas **spikri** nuppu (küsimärk) ning sisestage siis otsinguväljale oma protsess nimi ja vajutage otsingunuppu.
+Oma kohandatud tegevuse salvestiste kuvamiseks Retail Modern POS-i ja pilvekassa spikripaanil, et neid saaks tekstina kuvada, peate salvestama tegevuse salvestised oma BPM-i teeki ja seejärel värskendama oma spikrisüsteemi parameetreid nii, et need osutaksid teie BPM-i teegile. Lisateavet leiate jaotisest [Spikrisüsteemi ühendamine](../fin-and-ops/get-started/help-connect.md). Retail Modern POS-i ja pilvekassa spikker otsib LCS-ist reaalajas. See otsib kõigist BPM-i teekidest, mis on Microsoft Dynamics 365 for Retaili spikrisüsteemi parameetrites valitud, ja kuvab asjakohased tulemused. **Spikri** menüü avamiseks klõpsake ekraani ülaosas **spikri** nuppu (küsimärk) ning sisestage siis otsinguväljale oma protsess nimi ja vajutage otsingunuppu.
 
 [![Nupp Spikker](./media/help.jpg)](./media/help.jpg)
 
@@ -147,4 +146,3 @@ Kui klõpsate otsingutulemustes valikut Tegevuse juhis, saate vaadata toiminguid
 
 > [!NOTE]
 > Retail Modern POS-i ja pilvekassa spikker ei kuva tegevusjuhiseid selle põhjal, millisel vormil olete või millist toimingut teete. Protsessi nimi tuleb sisestada otsinguväljale ja klõpsata siis nuppu **Otsing**.
-

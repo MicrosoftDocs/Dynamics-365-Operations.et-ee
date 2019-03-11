@@ -5,9 +5,9 @@ author: aprilolson
 manager: AnnBe
 ms.date: 04/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93d5ef19a4b1cb2885c611c8675ac06fd841ac56
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3f8d97fc42cde9053b0552fc1dfe8e6de0f5e03b
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337574"
 ---
-
 # <a name="plan-your-chart-of-accounts"></a>Kontoplaanide plaanimine
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,7 @@ Järgmiselt on toodud mõni tegur, millega peate oma organisatsiooni kontoplaani
 Saate luua kontoplaani lehel **Kontoplaan**. Saate luua põhikontosid lehel **Kontoplaan** või lehel **Põhikontod**. Põhikontodel ei tohiks kasutada erimärke, mida kasutatakse kontoplaani eraldajatena. Vastasel juhul võib konto ja dimensiooni kombinatsioonide sisestamisel ilmneda ebastabiilsus või vajalik olla alati otsingute või dialoogiboksi kasutamine. Lisateabe jaoks vt [Põhikonto loomine](tasks/create-main-account.md).
 
 > [!NOTE]
-> Rakenduse Microsoft Dynamics for Finance and Operations versioonis 8.0 (aprill 2018) saate muuta kontoplaani eraldajat lehel **Üldised pearaamatu parameetrid**.
+> Rakenduse Microsoft Dynamics for Finance and Operations versioonis 8.0 (aprill 2018) saate muuta kontoplaani eraldajat lehel **Pearaamatu parameetrid**.
 
 Soovitatav on siduda põhikontod põhikonto kategooriatega, nii et saate kasutada vaikimisi finantsaruandeid ega pea muudatusi tegema. Seetõttu saate aruandeid kiiremini ja hõlpsamini kujundada ja säilitada.
 
@@ -61,4 +60,3 @@ Lisateavet vt järgmistest teemadest:
 
 - [Finantsdimensioonid](financial-dimensions.md)
 - [Täpsemate reeglistruktuuride loomine ja määramine](tasks/create-assign-advanced-rule-structures.md)
-

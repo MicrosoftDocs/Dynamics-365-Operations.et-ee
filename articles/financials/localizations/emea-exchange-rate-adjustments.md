@@ -1,13 +1,13 @@
 ---
 title: Vahetuskursi korrigeerimine
-description: "Selles teemas antakse teavet vahetuskursi korrigeerimise funktsiooni kohta kasutajatele Eestis, Ungaris, Tšehhi Vabariigis, Lätis, Leedus, Poolas ja Venemaal."
+description: Selles teemas antakse teavet vahetuskursi korrigeerimise funktsiooni kohta kasutajatele Eestis, Ungaris, Tšehhi Vabariigis, Lätis, Leedus, Poolas ja Venemaal.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: eece22113824fd520568dc46bbd384bda23c3c8d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dbc715a23e14d96e0ac93e47ff793e49fad24b93
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370594"
 ---
-
 # <a name="exchange-rate-adjustments"></a>Vahetuskursi korrigeerimine
 
 [!include [banner](../includes/banner.md)]
@@ -95,7 +94,6 @@ Selle ümberarvutamisnäite puhul pange tähele, et kirje 1. jaanuarist 2013 on 
 |3-jaan-13 | Krediit | 0 CAD / 5000 USD | Valuuta realiseerimata korrigeeritud kasum | Välisvaluuta ümberarvutamine | Vahetuskursi tulu | X |   |
 
 Süsteemi käitumine on sama, olenemata sellest, kas lehe **Pearaamatu parameetrid** jaotises **Pearaamatukanne** jaotises on suvandi **Parandus** sätteks valitud **Jah** või **Ei**.
-
 
 
 

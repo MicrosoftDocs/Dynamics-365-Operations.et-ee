@@ -1,13 +1,13 @@
 ---
 title: Kliendiarve loomine
-description: "**Müügitellimuse kliendiarve** on arve, mis on seotud müügiga, ja mille organisatsioon kliendile annab."
+description: '**Müügitellimuse kliendiarve** on arve, mis on seotud müügiga, ja mille organisatsioon kliendile annab.'
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
 ms.openlocfilehash: 6d7c9a61f935503b74ac27b354c875df095d84b4
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365266"
 ---
-
 # <a name="create-a-customer-invoice"></a>Kliendiarve loomine
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,7 @@ Järgmised väljad muudavad sisestamisprotsessi käitumist.
 <td>Sisestamine</td>
 <td><ul>
 <li>Selle suvandi valimisel paigutatakse müügitellimus töölehele.</li>
-<li>Selle suvandi tühjendamisel prinditakse esialgne müügitellimus. <strong>Märkus.</strong> Kui tegite maksegraafiku leppe, siis esialgsel müügitellimusel maksegraafikut ei kuvata. Maksegraafikud kuvatakse vaid tegelikel müügitellimustel.</li>
+<li>Selle suvandi tühjendamisel prinditakse esialgne müügitellimus. <strong>Märkus</strong>. Kui tegite maksegraafiku leppe, siis esialgsel müügitellimusel maksegraafikut ei kuvata. Maksegraafikud kuvatakse vaid tegelikel müügitellimustel.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -118,7 +117,7 @@ Järgmised väljad muudavad sisestamisprotsessi käitumist.
 <li><strong>Praegune</strong> – saate printida dokumente pärast iga arve uuendamist.</li>
 <li><strong>Pärast</strong> – dokumendid prinditakse pärast kõikide arvete uuendamist.</li>
 </ul>
-<strong>Märkus.</strong> Väli <strong>Prindi</strong> on saadaval vaid juhul, kui teete valiku <strong>Prindi arve</strong>, <strong>Prindi kinnitus</strong>, <strong>Prindi komplekteerimisleht</strong> või <strong>Prindi saateleht</strong>. Nt peate lehel <strong>Vormi sortimine</strong> seadistama süsteemi teavet arvekonto alusel sortima. Seejärel saate valida suvandi <strong>Pärast</strong>, et printida dokumendid arvekonto alusel sorditud partiina. Vastasel korral prinditakse dokumendid enne töötlemise lõpule viimist ja dokumente ei sordita lehel <strong>Vormi sortimine</strong> määratud järjestusse.</td>
+<strong>Märkus.</strong> Väli <strong>Prindi</strong> on saadaval vaid juhul, kui teete valiku <strong>Prindi arve</strong>, <strong>Prindi kinnitus</strong>, <strong>Prindi komplekteerimisleht</strong> või <strong>Prindi saateleht</strong>. Nt peate lehel <strong>Vormi sortimine</strong> seadistama süsteemi teavet arvekonto alusel sortima. Seejärel saate valida suvandi <strong>Pärast</strong>, et printida dokumendid arvekonto alusel sorditud partiina. Vastasel juhul prinditakse dokumendid enne töötlemise lõpule viimist ja dokumente ei sordita lehel <strong>Vormi sortimine</strong> määratud järjestusse.</td>
 </tr>
 <tr class="even">
 <td>Prindi arve</td>
@@ -148,13 +147,13 @@ Järgmised väljad muudavad sisestamisprotsessi käitumist.
 </tr>
 <tr class="odd">
 <td>Krediteeri järelejääv kogus</td>
-<td>Kui sisestate kreeditarve, märkige see valik järelejäänud koguse tellimusel säilitamiseks. Kui see suvand pole märgitud, määratakse järelejäänud koguseks 0 (null).</td>
+<td>Kui sisestate kreeditarve, valige see suvand järelejäänud koguse tellimusel säilitamiseks. Kui see suvand pole märgitud, määratakse järelejäänud koguseks 0 (null).</td>
 </tr>
 <tr class="even">
 <td>Koondsisestamine</td>
 <td>Saate valida mitme müügitellimuse summeerimise viisi.
 <ul>
-<li><strong>Pole</strong> – müügitellimusi ei summeerita. Näiteks luuakse iga müügitellimuse kohta eraldi arve.</li>
+<li><strong>Puudub</strong> – müügitellimusi ei summeerita. Näiteks luuakse iga müügitellimuse kohta eraldi arve.</li>
 <li><strong>Arvekonto</strong> – kõik valitud tellimused summeeritakse lehel <strong>Koondsisestamise parameetrid</strong> seadistatud kriteeriumide alusel.</li>
 <li><strong>Tellimus</strong> – valitud tellimuste vahemik summeeritakse ühte määratud tellimusse. Tellimuses summeeritakse lehel <strong>Koondsisestamise parameetrid</strong> seadistatud kriteeriumide alusel. Selle valiku korral tuleb valida väärtus väljal <strong>Müügitellimus</strong>.</li>
 <li><strong>Automaatkokkuvõte</strong> – kui lehel <strong>Koondsisestamine</strong> on määratud koondsisestamised, summeeritakse kõik valitud tellimused lehel <strong>Koondsisestamise parameetrid</strong> määratud kriteeriumide alusel. Kui koondsisestamisi pole määratud, sisestatakse tellimus eraldi.</li>
@@ -163,7 +162,6 @@ Järgmised väljad muudavad sisestamisprotsessi käitumist.
 </tr>
 </tbody>
 </table>
-
 
 
 

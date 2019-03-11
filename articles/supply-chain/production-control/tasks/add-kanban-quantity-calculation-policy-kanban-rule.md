@@ -1,13 +1,13 @@
---- 
+---
 title: Kanban-koguse arvutuspoliitika lisamine kanban-reeglile
 description: See protseduur keskendub kanban-koguse arvutamise poliitika loomisele ja selle lisamisele kanban-reeglisse kanbani suuruse ja koguste optimeerimiseks.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanQuantityPolicy, KanbanRules
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fffd623104dc403e230128c9234521ad1e39c7bb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6a947d4a5302c6ed1848396d50cfbfcb78aabf97
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352133"
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>Kanban-koguse arvutuspoliitika lisamine kanban-reeglile
 
@@ -62,5 +62,4 @@ See protseduur keskendub kanban-koguse arvutamise poliitika loomisele ja selle l
 7. Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.
 8. Klõpsake loendis valitud real olevat linki.
     * Valige poliitika Speaker2016, mille olete eelmises alamülesandes äsja loonud.  
-
 

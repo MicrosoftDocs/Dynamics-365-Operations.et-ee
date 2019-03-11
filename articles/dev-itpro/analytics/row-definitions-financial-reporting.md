@@ -1,13 +1,13 @@
 ---
 title: Readefinitsioonid finantsaruande koosturis
-description: "Readefinitsioon on aruande komponent (koosteüksus), mis määrab finantsaruandel iga rea sisu. Readefinitsiooni saab kombineerida veerudefinitsioonide, aruandluspuu definitsioonide ja aruande definitsioonidega koosteüksuste grupi loomiseks, mida saavad kasutada mitu ettevõtet."
+description: Readefinitsioon on aruande komponent (koosteüksus), mis määrab finantsaruandel iga rea sisu. Readefinitsiooni saab kombineerida veerudefinitsioonide, aruandluspuu definitsioonide ja aruande definitsioonidega koosteüksuste grupi loomiseks, mida saavad kasutada mitu ettevõtet.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "350431"
 ---
-
 # <a name="row-definitions-in-financial-report-designer"></a>Readefinitsioonid finantsaruande koosturis
 
 [!include [banner](../includes/banner.md)]
@@ -158,9 +157,9 @@ Saate aruande fondilaade luua ja muuta. Seejärel saab rakendada need laadid dok
 
 ### <a name="format-row-text"></a>Rea teksti vormindamine
 
-Readefinitsioonis määratud vorming alistab veeru- ja aruande definitsioonis määratud vormingu. Saate tekstivormingut muuta, kasutades vormindamise tööriistariba nuppe. Need juhtelemendid on standardsed Microsoft Windowsi juhtelemendid.
+Readefinitsioonis määratud vorming alistab veeru- ja aruande definitsioonis määratud vormingu. Saate tekstivormingut muuta, kasutades vormindamise tööriistariba nuppe. Tegemist on Microsoft Windowsi standardsete juhtelementidega.
 
-1. Avage aruande kujundajas muudetav readefinitsioon.
+1. Avage aruandekoosturis muudetav readefinitsioon.
 2. Valige vormindatavad lahtrid. Mitme lahtri valimiseks hoidke lahtri valimisel all klahvi Ctrl.
 3. Vormingu rakendamiseks klõpsake tööriistariba nuppu. Näiteks rea taandamiseks valige rida ja seejärel klõpsake tööriistariba ikooni **Suurenda taanet** ![Suurenda taanet](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Suurenda taanet").
 
@@ -189,4 +188,3 @@ Nende veergude vaatamise lihtsustamiseks, mille kallal readefinitsioonis tööta
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Finantsaruandlus](financial-reporting-intro.md)
-

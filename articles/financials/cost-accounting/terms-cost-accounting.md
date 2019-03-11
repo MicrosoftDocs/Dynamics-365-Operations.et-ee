@@ -1,13 +1,13 @@
 ---
 title: Kuluarvestuse terminoloogia
-description: "See teema määratleb põhimõisted, mida kasutatakse kuluarvestuses."
+description: See teema määratleb põhimõisted, mida kasutatakse kuluarvestuses.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 702fa3cb4219aecd95a74d3c225e104be5f281fc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365933"
 ---
-
 # <a name="cost-accounting-terminology"></a>Kuluarvestuse terminoloogia
 
 [!include [banner](../includes/banner.md)]
@@ -119,7 +118,7 @@ On kaks dimensioonihierarhiat: kategoriseerimise hierarhia ja klassifikatsiooni 
 Kuluarvestus toetab lähtesüsteemidest pärinevate andmete integreerimist andmekonnektorite kogumi kaudu. Saadaval on järgmised andmekonnektorid.
 
 -  Imporditud kanded (eelnevalt konfigureeritud)
--  Dynamics 365 for Finance and Operations (eelnevalt konfigureeritud)
+-  Dynamics 365 for Finance and Operations (eelkonfigureeritud)
 -  Dynamics AX (vajalik on konfigureerimine)
 
 **Märkus.** Andmekonnektor Imporditud kanded põhineb andmeüksustel.
@@ -128,7 +127,7 @@ Kuluarvestus toetab lähtesüsteemidest pärinevate andmete integreerimist andme
 
 Enamik lähtesüsteeme suudab edastada andmeid, mis vastavad kuluarvestuses vähemalt ühele andmeallikale. Lähtesüsteemidest pärinevate andmete sobitamiseks kuluarvestuse andmeallikaga tuleb konfigureerida andmepakkuja. Järgmises tabelis on loetletud andmepakkujate saadavus andmekonnektori ja andmeallika kaupa.
 
-|  **Andmeallikad** |  **Imporditud kannete andmekonnektor** | **Rakenduse Dynamics 365 for Finance and Operations andmekonnektor**  | **Dynamics AX-i andmekonnektor**  |
+|  **Andmeallikad** |  **Imporditud kannete andmekonnektor** | **Dynamics 365 for Finance and Operationsi andmekonnektor**  | **Dynamics AX-i andmekonnektor**  |
 |---|---|---|---|
 | Kuluelemendi dimensiooniliikmed  |  Jah | Jah  | Jah  |
 |  Kuluobjekti dimensiooniliikmed |  Jah | Jah  | Jah  |
@@ -204,6 +203,5 @@ Väljavõtted on vaated juhtidele, kes vastutavad kulude kontrollimise eest. Vä
 **Versioon**
 
 Versioone kasutatakse erinevate väljundite stimuleerimiseks, kuvamiseks ja võrdlemiseks. Vaikimisi kuvatakse kõik tegelikud kulud ühes alusversioonis, mis on tuntud kui *tegelik*. Eelarvete ja arvutuste jaoks saate töötada nii paljude versioonidega kui vaja. Näiteks saate importida eelarve andmed originaalversiooni ja seejärel muuta eelarvet muudetud versioonis. Arvutuste puhul saate luua mitu versiooni. Nendes erinevates versioonides saate seejärel luua arvutused, kasutades erinevaid arvutusreegleid, mis rakendatakse kulueraldamisele.
-
 
 

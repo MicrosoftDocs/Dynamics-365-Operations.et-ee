@@ -1,13 +1,13 @@
 ---
-title: "Uued või värskendatud tegevusjuhised (november 2016)"
-description: "Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (november 2016 – kõike keeled) Microsoft Dynamics 365 for Operationsi APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja."
+title: Uued või värskendatud tegevusjuhised (november 2016)
+description: Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (november 2016 – kõik keeled) Microsoft Dynamics 365 for Operationsi APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,24 +17,23 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9cba30560762b5f647621aafb8db19241523f904
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348913"
 ---
-
 # <a name="new-or-updated-task-guides-november-2016"></a>Uued või värskendatud tegevusjuhised (november 2016)
 
 [!include [banner](../includes/banner.md)]
 
 Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (november 2016 – kõik keeled) Microsoft Dynamics 365 for Operationsi APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja.
 
-(November 2016 – kõik keeled) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics 365 for Operationsi, Microsoft Dynamics 365 for Operationsi platvormi värskenduse 3, Microsoft Dynamics AX-i platvormi värskenduse 2, Dynamics AX-i 2016. a. mai värskenduse ja Microsoft Dynamics AX-i 2016. a. veebruari väljalaske spikrina. Nende väljalasete kohta lisateabe saamiseks vaadake jaotist [Mida on uut või muudetud](whats-new-changed.md). Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
+(November 2016 – kõik keeled) APQC  ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics 365 for Operationsi, Microsoft Dynamics 365 for Operationsi platvormivärskenduse 3, Microsoft Dynamics AX-i platvormivärskenduse 2, Dynamics AX-i 2016. aasta maivärskenduse ja Microsoft Dynamics AX-i 2016. aasta veebruarivärskendusega. Nende väljalasete kohta lisateabe saamiseks vaadake jaotist [Mida on uut või muudetud](whats-new-changed.md). Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
 
 > [!NOTE]
-> Tärn (\*) äriprotsesside modelleerija (BPM) kõrval näitab, et selle äriprotsessi tegevusjuhis loodi Dynamics AX-i 2016. a. novembri värskenduse jaoks ja seda ei toetata Microsoft Dynamics 365 for Operationsi varasemates versioonides.
+> Tärn (\*) äriprotsesside modelleerija (BPM) kõrval näitab, et selle äriprotsessi tegevusjuhis loodi Dynamics 365 for Operationsi 2016. aasta novembrivärskenduse jaoks ja seda ei toetata Microsoft Dynamics AX-i varasemates versioonides.
 
 ### <a name="accounts-payable"></a>Ostureskontro
 
@@ -549,4 +548,3 @@ Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastat
 [Uued või värskendatud tegevusjuhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Uued või värskendatud tegevusjuhised (august 2016)](new-updated-task-guides-available-august-2016.md)
-

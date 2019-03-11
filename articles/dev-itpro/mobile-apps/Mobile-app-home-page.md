@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321382"
 ---
-
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Rakenduse Dynamics 365 for Unified Operations Mobile koduleht
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 10/26/2018
 Selles teemas kirjeldatakse rakendust Microsoft Dynamics 365 for Unified Operations Mobile ja antakse linke ressurssidele, mis aitavad teil seda oma organisatsioonis juurutada.
 
 > [!NOTE]
-> Mobiilirakenduse nimi oli varem *Microsoft Dynamics 365 for Finance and Operations*.
+> Mobiilirakenduse varasem nimi oli *Microsoft Dynamics 365 for Finance and Operations*.
 
 <a name="overview"></a>Ülevaade
 --------
@@ -119,7 +118,7 @@ Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Micro
 <tr class="odd">
 <td>5</td>
 <td>ISV</td>
-<td>Looge kohandatud mobiilseid tööruume sisaldav juurutatav pakett ja laadige see üles Microsoft Dynamicsi elutsükliteenustesse (LCS).</td>
+<td>Looge kohandatud mobiilseid tööruume sisaldav juurutatav pakett ja laadige see üles teenusesse Microsoft Dynamics Lifecycle Services (LCS).</td>
 <td><a href="../deployment/create-apply-deployable-package.md">Juurutatava paketi loomine</a></td>
 </tr>
 <tr class="even">
@@ -153,4 +152,3 @@ Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Micro
 </tr>
 </tbody>
 </table>
-

@@ -1,40 +1,39 @@
 ---
-title: "Ühendusega ja ühenduseta kassatoimingud"
-description: "See teema kirjeldab üksikasjalikult Microsoft Dynamics 365 for Retaili kassaoperatsioone. See kirjeldab, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka ühenduseta režiimis."
+title: Ühendusega ja ühenduseta kassatoimingud
+description: Selles teemas kirjeldatakse üksikasjalikult Microsoft Dynamics 365 for Retaili kassaoperatsioone. See kirjeldab, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka ühenduseta režiimis.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353812"
 ---
-
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
 [!include [banner](includes/banner.md)]
 
-Enamikku toiminguid, mida kasutaja kassas teeb, loetakse toiminguteks. Operatsioone konfigureeritakse ja hallatakse teenuse Microsoft Dynamics 365 for Retail kontoris. Paljud operatsioonid saab lisada kassa nupupaneeli nuppudele. Kasutajad saavad seejärel nuppude abil operatsioone käivitada ja nende funktsioone kasutada. Muud operatsioonid on osa kassa põhirakendusest ning need käivitatakse ekraanil kuvatavate nuppude abil või muude töövoogude või protsesside raames.
+Enamikku toiminguid, mida kasutaja kassas teeb, loetakse toiminguteks. Operatsioone konfigureeritakse ja hallatakse rakenduse Microsoft Dynamics 365 for Retail varukontoris. Paljud operatsioonid saab lisada kassa nupupaneeli nuppudele. Kasutajad saavad seejärel nuppude abil operatsioone käivitada ja nende funktsioone kasutada. Muud operatsioonid on osa kassa põhirakendusest ning need käivitatakse ekraanil kuvatavate nuppude abil või muude töövoogude või protsesside raames.
 
-Järgmisest tabelist leiate üksikasjalikku teavet operatsioonide kohta, mis on saadaval Dynamics 365 for Retailile mõeldud Retail Modern POS-is ja Cloud POS-is. Samuti on tabelis märgitud, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka siis, kui kassa on ühenduseta režiimis.
+Järgmisest tabelist leiate üksikasjalikku teavet operatsioonide kohta, mis on saadaval Dynamics 365 for Retailile mõeldud Retail Modern POS-is ja pilvekassas. Samuti on tabelis märgitud, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka siis, kui kassa on ühenduseta režiimis.
 
-Mõningad operatsioonid ei ole praegu Dynamics 365 for Retailile mõeldud Retail Modern POS-is või Cloud POS-i saadaval. Mõned neist operatsioonidest on lokaadipõhised ning nõuavad täiendavaid laiendeid ja konfigureerimist. Ülejäänud on Microsoft Dynamics AX 2012 funktsioonid, mida praegu ei toetata.
+Mõned operatsioonid pole praegu Dynamics 365 for Retailile mõeldud Retail Modern POS-is ega pilvekassas saadaval. Mõned neist operatsioonidest on lokaadipõhised ning nõuavad täiendavaid laiendeid ja konfigureerimist. Ülejäänud on Microsoft Dynamics AX 2012 funktsioonid, mida praegu ei toetata.
 
 Järgmised veerud näitavad, kus operatsioone käivitatakse.
 
@@ -43,7 +42,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 - **Tervitusekraan**: operatsiooni saab käivitada kassa tervitusekraanil konfigureeritud nupupaneeli nuppudega.
 
 > [!NOTE]
-> Allpool loetletud toimingud kehtivad rakenduse Dynamics 365 for Retail uusimale versioonile. Mõned toimingud võivad olla muutunud või ei pruugi varasemates versioonides saadaval olla.
+> Allpool loetletud toimingud kehtivad rakenduse Dynamics 365 for Retail uusima versiooni puhul. Mõned toimingud võivad olla muutunud või ei pruugi varasemates versioonides saadaval olla.
 
 | ID | Toiming | Kirjeldus | Nupupaneel | Kandeekraan | Tervitusekraan | Ühenduseta saadaval | Lokaadipõhine |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
@@ -199,4 +198,3 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 § Kui kassa on ühenduseta, saab tagastamiseks kutsuda ainult praeguses ühenduseta andmebaasis olevaid kandeid.
 
 \*\* Kui kassa on ühenduseta, kuvatakse töölehel ainult praeguse võrguühenduseta kanali andmebaasi kanded.
-

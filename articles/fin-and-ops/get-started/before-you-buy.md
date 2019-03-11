@@ -1,13 +1,13 @@
 ---
 title: Enne ostmist
-description: "Üksikasjalikud juhised, kui kaalute rakenduse Dynamics 365 for Finance and Operations ostmist."
+description: Üksikasjalikud juhised, kui kaalute rakenduse Dynamics 365 for Finance and Operations ostmist.
 author: kfend
 manager: AnnBe
 ms.date: 01/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345463"
 ---
-
 # <a name="before-you-buy"></a>Enne ostmist
 
 [!include [banner](../includes/banner.md)]
@@ -36,17 +35,17 @@ Saate rakendust Dynamics 365 for Finance and Operations proovida 30 päeva jooks
 
 ## <a name="step-two-choose-a-deployment-option"></a>Teine etapp: juurutamisvaliku tegemine
 
-Nüüd saate juurutada rakenduse Microsoft Dynamics 365 for Finance and Operations pilves või kohapeal. Pilvejuurutus pakub ERP-teenust, mida haldab täielikult Microsoft, samas kui kohapealseid juurutusi hallatakse kohapeal kliendi andmekeskuses.
+Nüüd saate juurutada Microsoft Dynamics 365 for Finance and Operationsi pilve või asutusesiseselt. Pilvejuurutus pakub ERP-teenust, mida haldab täielikult Microsoft, samas kui kohapealseid juurutusi hallatakse kohapeal kliendi andmekeskuses.
 
 Asutusesisese juurutamisvaliku valimisel tuleb kaaluda järgmisi aspekte.
 
 - Regulatiivsed ja nõuetelevastavuse nõuded, mis ei ole saadaval [pilvesertides](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
-- Ühenduseta äriprotsess ajutise Interneti-ühendusega, mida on vaja rakendusse Microsoft Dynamics Lifecycle Services (LCS) ligipääsemiseks rakenduste tööea haldamiseks
+- Ühenduseta äriprotsess ajutise Interneti-ühendusega, mida on vaja teenusesse Microsoft Dynamics Lifecycle Services (LCS) juurdepääsuks rakenduste elutsükli haldamiseks
 - [Funktsioonid, mida pole praegu kohapealsetes juurutustes rakendatud](features-not-implemented-on-prem.md)
 - [Minimaalsed taristunõuded](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> Rakenduse Microsoft Dynamics 365 for Finance and Operations asutusesiseseid juurutusi ei toetata avaliku pilve infrastruktuurides, sh Azure.
+> Rakenduse Microsoft Dynamics 365 for Finance and Operations asutusesiseseid juurutusi ei toetata avaliku pilve taristutes, sh Azure.
 
 Lisateavet vaadake jaotisest [Juurutusvalikud](../../dev-itpro/deployment/choose-deployment-type.md)
 
@@ -79,7 +78,7 @@ Microsofti pilvelahenduse pakkuja saab teiega tihedat koostööd teha, et mõist
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Ostmine Dynamicsi partneri kaudu (kohapealselt)
 
-Rakenduse Finance and Operations kohapealseks ostmiseks peate tegema partneriga koostööd. Lisateavet vaadake jaotisest [Dynamics 365 for Finance and Operationsi (kohapealne) ostmine](purchase-on-premises.md)
+Rakenduse Finance and Operations kohapealseks ostmiseks peate tegema partneriga koostööd. Lisateavet vt teemast [Rakenduse Dynamics 365 for Finance and Operations (asutusesisene) ostmine](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Valige oma toe võimalus
 
@@ -97,4 +96,3 @@ Microsoft FastTrack for Dynamics 365 on meie klientide eduteenus, mis on mõeldu
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Kui täiendate rakenduselt Dynamics AX 2012 või migreerite rakenduselt AX 2009
 
 Kui olete klient, kes täiendab rakenduselt Microsoft Dynamics AX 2012 või migreerib rakenduselt Microsoft Dynamics AX 2009, võite olla sobilik pikema prooviperioodi saamiseks. Lisateabe saamiseks võtke ühendust meiliaadressil <daxcf@microsoft.com>.
-

@@ -1,38 +1,37 @@
 ---
-title: "Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (10. september 2018)"
-description: "Teema kirjeldab funktsioone, mis on Microsoft Dynamics 365 for Talent Core HR-is kas uued või muudetud."
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (10. september 2018)
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talent Core HR-i uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-06
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 7d4a049a44374276655dce696b5bbbe2e6f9fba9
 ms.openlocfilehash: b41ce93c8ae93054d2b0d71340b99e0910d4510f
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/12/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304104"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-10-2018"></a>Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (10. september 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-10-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (10. september 2018)
 
 [!include [banner](includes/banner.md)]
 
 **Järk 8.1.138.0**
 
-Teema kirjeldab funktsioone, mis on Microsoft Dynamics 365 for Talent Core HR-is kas uued või muudetud.
+Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talent Core HR-i uusi või muutunud funktsioone.
 
 ## <a name="allow-specific-time-of-day-on-time-off-requests-half-days"></a>Puhkeajataotlustele teatud aja päevast lubamine (poolikud päevad)
 
@@ -101,4 +100,3 @@ Selles versioonis sisaldub mitu täiendavat veaparandust.
 - Kui peatöövõtja on palgatud, pole vahekaart **Kompensatsioon** taotluse/toimingu lehel saadaval.
 - Taotluse lõpetamisprotsessi kestel ei saa te enne jätkata, kuni kõik nõutud väljad on täidetud.
 - Lahendatud on sortimisjärjestuse ja kuupäeva kuvamise probleemid personalijuhtimise analüüsis.
-

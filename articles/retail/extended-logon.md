@@ -1,13 +1,13 @@
 ---
 title: MPOS-i ja pilve kassa (CPOS) jaoks laiendatud sisselogimise funktsiooni seadistamine
-description: "See teema käsitleb võimalusi laiendatud sisselogimise seadistamiseks pilve kassas ja tänapäevases jaemüügikassas (MPOS)."
+description: See teema käsitleb võimalusi laiendatud sisselogimise seadistamiseks pilvekassas ja Retail Modern POS-is (MPOS).
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: c5771146723b791eb0b3eb5f571ef012cfaadcb9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4e3f8042871e5e423b559bb0e0dae0006af00194
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317909"
 ---
-
-# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>MPOS-i ja pilve kassa (CPOS) jaoks laiendatud sisselogimise funktsiooni seadistamine
+# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Cloud MPOS ja Cloud POS‑i laiendatud sisselogimisfunktsiooni seadistamine
 
 [!include [banner](includes/banner.md)]
 
-See teema käsitleb võimalusi laiendatud sisselogimise seadistamiseks pilve kassas ja tänapäevases jaemüügikassas (MPOS).
+See teema käsitleb võimalusi laiendatud sisselogimise seadistamiseks pilvekassas ja Retail Modern POS-is (MPOS).
 
 ## <a name="setting-up-extended-logon"></a>Laiendatud sisselogimise seadistamine
 
@@ -68,4 +67,3 @@ Sisselogimisteenust saab laiendada täiendavate laiendatud sisselogimine seadmet
 ## <a name="using-extended-logon"></a>Laiendatud sisselogimise kasutamine
 
 Kui laiendatud sisselogimine on konfigureeritud ja töötajale on määratud vöötkood või magnetriba, peab töötaja kassa sisselogimislehe kuvamisel tegema ainult kaarditõmbe või ‑skanni. Kui sisselogimise jätkamiseks on kohustuslik ka parool, palutakse töötajal oma parool sisestada.
-

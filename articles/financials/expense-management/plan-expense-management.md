@@ -1,13 +1,13 @@
 ---
 title: Kuluhalduse konfigureerimine
-description: "Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui rakenduses Microsoft Dynamics 365 for Finance and Operations kuluhaldust konfigureerite."
+description: Selles artiklis kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui Microsoft Dynamics 365 for Finance and Operationsis kuluhaldust konfigureerite.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ac9959a4ee66e52ead5050897403602e407ca10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
-ms.contentlocale: et-ee
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322026"
 ---
-
 # <a name="configure-expense-management"></a>Kuluhalduse konfigureerimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui rakenduses Microsoft Dynamics 365 for Finance and Operations kuluhaldust konfigureerite. Kuluhalduses saate salvestada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jne kohta.
+Selles teemas kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui Microsoft Dynamics 365 for Finance and Operationsis kuluhaldust konfigureerite. Kuluhalduses saate salvestada teavet makseviiside, reisitellimuste, kuluaruannete, poliitikate jne kohta.
 
 Kuna paljud otsused, mida kuluhalduse konfiguratsiooni plaanimisel langetate, põhinevad organisatsiooni hierarhial ja finantsstruktuuril, tuleb juhinduda nende valdkondade plaanimisdokumentidest.
 
@@ -163,4 +162,3 @@ Kuluaruande poliitikate loomisega saate aidata oma organisatsioonil säästa aeg
 - Millal poliitika aegub?
 - Mis see poliitikareegel on?
 - Mis on selle poliitikareegli tulemus?
-

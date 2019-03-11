@@ -1,13 +1,13 @@
 ---
 title: Koosluse koostaja funktsioon
-description: "Selles teemas kirjeldatakse seda, kuidas kasutada koosluse koostaja lehte koosluste puhul puustruktuuridega kujundamiseks ja töötamiseks."
+description: Selles teemas kirjeldatakse seda, kuidas kasutada koosluse koostaja lehte koosluste puhul puustruktuuridega kujundamiseks ja töötamiseks.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d3bae68c9daf7aaaee1802e1def64d04ccea01b8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b7d4530ecccf18d9370d84ff2b61be1514b80192
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338149"
 ---
-
 # <a name="bom-designer-functionality"></a>Koosluse koostaja funktsioon
 
 [!include [banner](../includes/banner.md)]
@@ -117,7 +116,6 @@ Klõpsake suvandit **Seadistus**, et kohandada teavet, mida näidatakse koosluse
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kooslus         | Kasutage märkeruute, et valida puustruktuuris näidatud kriteerium. Koosluse koostaja kuvab valitud kriteeriumi mõlema vahekaardi allosas. |
 | Marsruut       | Kasutage märkeruute, et valida protsesside puhul näidatav kriteerium.                                                                                    |
-
 
 
 

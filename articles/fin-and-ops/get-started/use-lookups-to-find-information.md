@@ -1,13 +1,13 @@
 ---
-title: Teabe leidmine otsingute abil
-description: "Rakenduses Microsoft Dynamics 365 for Finance and Operations on paljudel väljadel otsingud, mis saavad aidata teil hõlpsalt õiget või soovitud väärtust leida. Otsingutele on lisatud mitmed täiustused, mis muudavad need juhtelemendid kasutatavamaks ja kasutajad produktiivsemaks. Selles teemas saate teada nende uute otsingufunktsioonide kohta ja saate mõned näpunäited, et süsteemis otsinguid optimaalselt kasutada."
+title: Teabe leidmiseks otsingute abil
+description: Rakenduses Microsoft Dynamics 365 for Finance and Operations on paljudel väljadel otsingud, mis saavad aidata teil hõlpsalt õiget või soovitud väärtust leida. Otsingutele on lisatud mitmed täiustused, mis muudavad need juhtelemendid kasutatavamaks ja kasutajad produktiivsemaks. Selles teemas saate teada nende uute otsingufunktsioonide kohta ja saate mõned näpunäited, et süsteemis otsinguid optimaalselt kasutada.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a0722f057c1613fdc03281ca68a90608a701aef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328351"
 ---
-
-# <a name="find-information-by-using-lookups"></a>Teabe leidmine otsingute abil
+# <a name="find-information-by-using-lookups"></a>Teabe leidmiseks otsingute abil
 
 [!include [banner](../includes/banner.md)]
 
@@ -85,4 +84,3 @@ Selle asemel peab kasutaja eemaldama otsingu juhtelemendi väärtuse, avama otsi
 Pärast filtri rakendamist (vaadake allolevat pilti) saab kasutaja leida ja valida rea tavapärasel viisil.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
-

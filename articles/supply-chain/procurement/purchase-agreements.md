@@ -1,13 +1,13 @@
 ---
 title: Ostulepingud
-description: "Selles artiklis antakse teavet ostulepingute kohta. Ostuleping on leping, mis kohustab organisatsiooni ostma konkreetset kogust või kindlat summat, kasutades aja jooksul mitut ostutellimust. Selle kohustuse täitmise eest saab ostja erihindu ja allahindlusi."
+description: Selles artiklis antakse teavet ostulepingute kohta. Ostuleping on leping, mis kohustab organisatsiooni ostma konkreetset kogust või kindlat summat, kasutades aja jooksul mitut ostutellimust. Selle kohustuse täitmise eest saab ostja erihindu ja allahindlusi.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314528"
 ---
-
 # <a name="purchase-agreements"></a>Ostulepingud
 
 [!include [banner](../includes/banner.md)]
@@ -97,7 +96,6 @@ Saate kopeerida finantsdimensioonid dokumentide päistesse või ostutellimuse ü
 [Ostulepingu loomine (tegevuse juhis)](tasks/create-purchase-agreement.md)
 
 [Ostu väljalaskeorderi loomine ostulepingust (tegevuse juhis)](tasks/create-purchase-release-order-purchase-agreement.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Eemaldatud või aegunud funktsioonid"
-description: "See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada."
+title: Eemaldatud või aegunud funktsioonid
+description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada.
 author: sericks007
 manager: AnnBe
 ms.date: 12/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
-ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329248"
 ---
-
 # <a name="removed-or-deprecated-features"></a>Eemaldatud või aegunud funktsioonid
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab funktsioone, mis on rakendusest Microsoft Dynamics 365 for Finance and Operations eemaldatud või aegunud.
+See teema kirjeldab funktsioone, mis on rakendusest Dynamics 365 for Finance and Operations eemaldatud või aegunud.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
@@ -42,7 +41,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 > [!Note]
 > Üksikasjalikku teavet rakenduse Finance and Operations objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas rakenduse Finance and Operations versioonis muudetud või eemaldatud.
 
-## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Microsoft Dynamics 365 for Finance and Operations 8.1 platvormivärskendusega 20
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 platvormivärskendusega 20
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Partii ülekannete reeglid alammooduli töölehe konto kirje puhul
 Pearaamatu parameetrites muutub sünkroonne ülekanderežiim aegunuks.  Režiim asendatakse ainult asünkroonse ja planeeritud partiiga, mis on juba ülekandmissuvandina olemas. 
@@ -64,7 +63,7 @@ Funktsioon deklaratsioonide TXT- ja XML-failivormingute konfigureerimiseks.
 | **Asendatud teise funktsiooniga?**   | Jah. |
 | **Mõjutatud tootealad**         | Pearaamat |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Eemaldatud alates Microsoft Dynamics 365 for Finance and Operations 8.1 platvormivärskendusest 20. |
+| **Olek**                         | Eemaldatud alates rakendusest Dynamics 365 for Finance and Operations 8.1 platvormivärskendusega 20. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Finantsaruannete generaator Venemaa jaoks
 Tööriist andmete kogumise seadistamiseks raamatupidamise ja maksuaruannete jaoks ning andmete eksportimiseks XLS- ja DOC-aruandemallidesse. Funktsionaalsed osad: andmete eksportimine XLS- ja DOC-aruandemallidesse, päringud, fikseeritud rekvisiidid on eemaldatud. 
@@ -75,7 +74,7 @@ Tööriist andmete kogumise seadistamiseks raamatupidamise ja maksuaruannete jao
 | **Asendatud teise funktsiooniga?**   | Jah. GL-i kontode või maksuregistritega andmekogumisreeglite seadistamiseks tuleb kasutada finantsaruannete seadistuse kasutajaliidest. Andmete eksportimine erinevatesse failitüüpidesse, fikseeritud rekvisiidid ja päringulaadsete andmete kogumisreeglid tuleb konfigureerida elektroonilises aruandluses. |
 | **Mõjutatud tootealad**         | Pearaamat. |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Eemaldatud alates Microsoft Dynamics 365 for Finance and Operations 8.1 platvormivärskendusest 20. |
+| **Olek**                         | Eemaldatud alates rakendusest Dynamics 365 for Finance and Operations 8.1 platvormivärskendusega 20. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integratsioon väliste pakkujatega elektroonilise aruandluse saatmiseks kommunikatsioonikanalite kaudu Venemaa puhul
 Funktsioon loodud deklaratsioonide elektrooniliste failide saatmiseks kausta edasisaatmiseks elektroonilise aruandluse ametlikele pakkujatele ning oleku tagasi importimiseks.
@@ -86,7 +85,7 @@ Funktsioon loodud deklaratsioonide elektrooniliste failide saatmiseks kausta eda
 | **Asendatud teise funktsiooniga?**   | Jah.  |
 | **Mõjutatud tootealad**         | Pearaamat, maks |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Eemaldatud alates Microsoft Dynamics 365 for Finance and Operations 8.1 platvormivärskendusest 20. |
+| **Olek**                         | Eemaldatud alates rakendusest Dynamics 365 for Finance and Operations 8.1 platvormivärskendusega 20. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Kasumimaksu registreerimise viisard
@@ -94,17 +93,17 @@ Funktsioon uute kasumimaksuregistrite jaoks mallide loomiseks. See funktsioon lo
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Funktsioon ei ühildu rakenduse Dynamics 365 for Finance and Operations laiendatavuse mudeliga. |
+| **Aegumise/eemaldamise põhjus** | Funktsioon ei ühildu rakenduse Dynamics 365 for Finance and Operations laiendatavusmudeliga. |
 | **Asendatud teise funktsiooniga?**   | Ei |
 | **Mõjutatud tootealad**         | Maks |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Eemaldatud alates Microsoft Dynamics 365 for Finance and Operations 8.1 platvormivärskendusest 20. |
+| **Olek**                         | Eemaldatud alates rakendusest Dynamics 365 for Finance and Operations 8.1 platvormivärskendusega 20. |
 
 
-## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Microsoft Dynamics 365 for Finance and Operations 8.0 platvormivärskendusega 15
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 platvormivärskendusega 15
 Selles versioonis pole ühtki funktsiooni eemaldatud ega ükski pole aegunud. Platvormivärskendus 15 on kumulatiivne ja sisaldab uusi või muudetud funktsioone platvormivärskendusest 13, platvormivärskendusest 14 ja platvormivärskendusest 15.
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 platvormivärskendusega 12
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise edition 7.3 platvormivärskendusega 12
 
 ### <a name="personalized-product-recommendations"></a>Isikupärastatud tootesoovitused 
 Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isikupärastatud tootesoovitusi kuvada. Lisateavet vt teemast [Isikupärastatud tootesoovitused](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
@@ -115,7 +114,7 @@ Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isi
 | **Asendatud teise funktsiooniga?**   | Nr Siiski plaanime selle funktsiooni pärast 2018. aasta kevadet uue soovitusteenuse võimendamiseks taastada.   |
 | **Mõjutatud tootealad**         | Isikupärastatud tootesoovitused kassas.                                                    |
 | **Juurutamissuvand**              | Kõik                                                                                      |
-| **Olek**                         |Eemaldatud alates 15. veebruarist 2018. See mõjutab kliente, kes kasutavad Dynamics 365 for Operations 1611 ja hilisemaid versioone.  |
+| **Olek**                         |Eemaldatud alates 15. veebruarist 2018. See mõjutab kliente, kes kasutavad Dynamics 365 for Operations 1611 või uuemat versiooni.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektroonilise aruandluse (ER) funktsioonide loendi pikendus
 Võimalust võtta kasutusele ER avaldisekoosturis kasutatavaid funktsioone (lisateavet vt teemast [Elektroonilise aruandluse funktsioonide loendi pikendus](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) enam ei toetata. ER-i API-de muudatuste tõttu muutuvad kutsutava API sisseehitatud funktsioonid ER-i avaldisekoosturist sisemiseks ja neid ei saa enam laiendada.
@@ -126,7 +125,7 @@ Võimalust võtta kasutusele ER avaldisekoosturis kasutatavaid funktsioone (lisa
 | **Asendatud teise funktsiooniga?**   | Puudub. Kui mõni uus sisseehitatud funktsioon on vajalik, tuleb uus laiendustaotlus esitada ER-i raamistiku meeskonnale.<br><br>Seni kui nõutud funktsioon on ER-i meeskonnas arendusel, saab nõutud loogika ajutiselt programmeerida kohandatud rakendusklassi meetodina. Seda meetodit saab kasutada ER-i avaldises sellele kohandatud rakendusklassile viitava **rakenduse/klassi** tüübi lisatud ER-i andmeallika atribuudina.  |
 | **Mõjutatud tootealad**         | Elektroonilise aruandluse raamistik                                                      |
 | **Juurutamissuvand**              | Kõik                                                                                      |
-| **Olek**                         | Eemaldatud alates rakendusest Dynamics 365 for Finance and Operations, Enterprise Edition 7.3    |
+| **Olek**                         | Eemaldatud alates rakendusest Dynamics 365 for Finance and Operations, Enterprise edition 7.3.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Varud kaubagrupi järgi ja varud varudedimensiooni ajalise jaotuse aruannete järgi
 
@@ -140,13 +139,13 @@ Neid kaht aruannet rakenduses Finance and Operations enam ei toetata. Selle asem
 | **Juurutamissuvand**        | Kõik|
 | **Olek**                       | Aegunud: nende kahe aruande menüü-üksused on versioonis 7.3 eemaldatud. Aruannete kood jääb siiski tootesse. Plaan on kood tulevases väljaandes eemaldada. |
 
-### <a name="power-bi-content-packs-available-on-appsource"></a>AppSource’is saadaval olevad Power BI sisupaketid
+### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI sisupaketid on saadaval AppSource’is
 Sisupaketid **Kuluhaldus**, **Finantstulemused** ja **Jaemüügikanali jõudlus**, mis on saadaval saidil [Microsoft AppSource](https://appsource.microsoft.com), on Microsoft Power BI tootevärskenduste tagajärjel aegunud. Nende sisupakettide juurutamiseks saidile PowerBI.com kasutatavad süsteemiadministreerimise v vormid on rakenduses Finance and Operations samuti aegunud.
 
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Tootevärskendused rakenduses Microsoft Power BI. |
-| **Asendatud teise funktsiooniga?**   | Sisupaketid **Kuluhaldus**, **Finantstulemused** ja **Jaemüügikanali jõudlus**, mis on saadaval saidil [Microsoft AppSource](https://appsource.microsoft.com), on asendatud analüütiliste rakendustega, mis võimaldavad lahenduse integratsioone andmebaasi tasemel. Lisateavet analüütiliste rakenduste kohta vt teemast [Manustatud Power BI tööruumides](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Asendatud teise funktsiooniga?**   | Sisupaketid **Kuluhaldus**, **Finantstulemused** ja **Jaemüügikanali jõudlus**, mis on saadaval saidil [AppSource](https://appsource.microsoft.com), on asendatud analüütiliste rakendustega, mis võimaldavad lahenduse integratsioone andmebaasi tasemel. Lisateavet analüütiliste rakenduste kohta vt teemast [Manustatud Power BI tööruumides](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Mõjutatud tootealad**         | Kuluhaldus, Finance ja Retail                                                                                               |
 | **Juurutamissuvand**              | Ainult pilveteenus (integratsiooni PowerBI.com’iga ei toetata asutusesisestes juurutustes)                                                                                                            |
 | **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on 2018. aasta 2. kvartal.    |
@@ -220,10 +219,10 @@ Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isi
 | **Asendatud teise funktsiooniga?**   | Nr Siiski plaanime selle funktsiooni pärast 2018. aasta kevadet uue soovitusteenuse võimendamiseks taastada.   |
 | **Mõjutatud tootealad**         | Isikupärastatud tootesoovitused kassas.                                                    |
 | **Juurutamissuvand**              | Kõik                                                                                      |
-| **Olek**                         |Eemaldatud alates 15. veebruarist 2018. See mõjutab kliente, kes kasutavad Dynamics 365 for Retail 7.2 ja hilisemaid versioone. |
+| **Olek**                         |Eemaldatud alates 15. veebruarist 2018. See mõjutab kliente, kes kasutavad Dynamics 365 for Retail 7.2 või uuemat. |
 
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, 2017. aasta juulikuu väljaanne platvormivärskendusega 8
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise edition juulist 2017 platvormivärskendusega 8
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Valuutateisendus arvestus- ja aruandlusvaluutade jaoks
 
@@ -244,7 +243,7 @@ Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõel
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Topeltfunktsioon.       |
-| **Asendatud teise funktsiooniga?**   | Jah. See funktsioon on asendatud Finance and Operationsi ladustamise mooduliga. Lisateavet seadistamise ja eeltingimuste kohta leiate jaotisest [Microsoft Dynamics 365 for Finance and Operationsi mooduli Ladustamine installimine ja konfigureerimine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Asendatud teise funktsiooniga?**   | Jah. See funktsioon on asendatud Finance and Operationsi ladustamise mooduliga. Lisateavet seadistuse ja eeltingimuste kohta vt teemast [Rakenduse Microsoft Dynamics 365 for Finance and Operations mooduli Ladustamine installimine ja konfigureerimine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Mõjutatud tootealad**         | Laohaldus, transpordihaldus     |
 | **Juurutamissuvand**              | Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõeldud ise toimivaks asutusesiseseks juurutamiseks.               |
 | **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on 2019. aasta 4. kvartal.   |
@@ -353,7 +352,7 @@ EDIVAT on aegunud Belgia standard elektrooniliseks deklareerimiseks turvalise me
 
 ### <a name="egiro-edifact-cremul-payment-import-format-for-norway"></a>eGiro EDIFACT CREMUL makse impordivorming Norra puhul
 
-eGiro põhineb rahvusvahelisel UN EDIFACT CREMUL-i (Multiple Credit Advice Message) standardil, mida kasutatakse kliendimaksete automaatseks sisestamiseks. Microsoft Dynamics AX-is juurutatakse eGiro kliendimakse impordivorminguna.
+eGiro põhineb rahvusvahelisel UN EDIFACT CREMUL-i (Multiple Credit Advice Message) standardil, mida kasutatakse kliendimaksete automaatseks sisestamiseks. Rakenduses Microsoft Dynamics AX juurutatakse eGiro kliendimakse impordivorminguna.
 
 |   |  |
 |------------|--------------------|
@@ -513,8 +512,8 @@ Raadioidentimine (RFID) on andmete kogumise tehnoloogia, mis kasutab identimiste
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Vähene kasutamine klientide seas ja piiratud funktsioonide kogum.   |
 | **Asendatud teise funktsiooniga?**   | Ei                                              |
-| **Mõjutatud tootealad**         | Varude haldamine                            |
-| **Olek**                         | Eemaldatud alates rakendusest Dynamics 365 for Operations 1611. |
+| **Mõjutatud tootealad**         | Varud                            |
+| **Olek**                         | Eemaldatud alates rakenduse Dynamics 365 for Operations versioonist 1611. |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>Aruanne riigi arvete nummerdamise kohta Läti puhul
 
@@ -573,8 +572,8 @@ Soome puhul on maksete eksportimiseks saadaval kaks vormingut. LM02 (FI) kasutat
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Laohalduse II lahendus (WMS II) moodulis **Varude haldus** dubleerib funktsiooni, mis on olemas Microsoft Dynamics AX 2012 R3-ga välja antud moodulis **Laohaldus**.                                                                         |
-| **Asendatud teise funktsiooniga?**   | Rakendustes AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 ja Microsoft Dynamics AX 2012 R3 CU9 välja antud moodul **Laohaldus** asendab mooduli Laohaldus II funktsioonid. Uuel moodulil on täiustatumad funktsioonid ja paindlikum laohalduse protsess kui moodulil Laohaldus II. |
+| **Aegumise/eemaldamise põhjus** | Laohalduse II lahendus (WMS II), mis oli saadaval moodulis **Varude haldus**, dubleerib funktsiooni, mis on olemas Microsoft Dynamics AX 2012 R3-ga välja antud moodulis **Laohaldus**.                                                                         |
+| **Asendatud teise funktsiooniga?**   | Rakendustes AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 ja Dynamics AX 2012 R3 CU9 välja antud moodul **Laohaldus** asendab mooduli Laohaldus II funktsioonid. Uuel moodulil on täiustatumad funktsioonid ja paindlikum laohalduse protsess kui moodulil Laohaldus II. |
 | **Mõjutatud tootealad**         | Varude haldus, Müük ja turundus, Hanked   |
 | **Olek**                         | Eemaldatud alates rakenduse Dynamics 365 for Operations versioonist 1611.    |
 
@@ -587,7 +586,7 @@ Inimressursside palgateave
 | **Aegumise/eemaldamise põhjus** | Vähene kasutus                                                           |
 | **Asendatud teise funktsiooniga?**   | Ei                                                                  |
 | **Mõjutatud tootealad**         | Inimressursid                                                     |
-| **Olek**                         | Eemaldatud alates rakenduse Dynamics 365 for Operations versioonist 1611. |
+| **Olek**                         | Eemaldatud alates rakenduse Dynamics 365 for Operations versioonist 1611 |
 
 ### <a name="workflow-for-creating-goals"></a>Töövoog eesmärkide loomiseks
 
@@ -734,7 +733,7 @@ Seda tööriista kasutati võtmeandmete integreerimiseks Microsoft Dynamics CRM-
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Topeltfunktsioon |
-| **Asendatud teise funktsiooniga?**   | Jah. Alates versioonist AX 2012 on see funktsioon asendatud konsolideeritud partii tellimuste funktsioonide kogumiga. See funktsioon sisaldab konsolideeritud laoseisu vaadet. |
+| **Asendatud teise funktsiooniga?**   | Jah. Alates versioonist AX 2012 on see funktsioon asendatud konsolideeritud partii tellimuste funktsioonikogumiga. See funktsioon sisaldab konsolideeritud laoseisu vaadet. |
 | **Mõjutatud tootealad**         | Tooteteabe haldus, Tootmise juhtimine, Varude haldus, Müük ja turundus  |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0. |
 
@@ -754,7 +753,7 @@ Seda tööriista kasutati võtmeandmete integreerimiseks Microsoft Dynamics CRM-
 | **Aegumise/eemaldamise põhjus** | Vihje metaandmed olid piiratud arvu või summa teabega.    |
 | **Asendatud teise funktsiooniga?**   | Modelleerimisel paindlikkuse lisamiseks võeti kasutusele paani metaandmed. Näiteks saate modelleerida praegusi arve, navigeerimist ja tulemuslikkuse võtmenäitajaid (KPI-sid). Arvu paani metaandmed on vihje metaandmete otsene asendus. |
 | **Mõjutatud tootealad**         | Kõik moodulid           |
-| **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.      |
+| **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0      |
 
 ### <a name="danish-check-format"></a>Taani tšekivorming
 
@@ -808,13 +807,13 @@ Microsoft Dynamics AX 2012 lubas manuste talletamist andmebaasis ja failiketaste
 
 ### <a name="direct-database-connection"></a>Andmebaasi otseühendus
 
-Dynamics AX 2012 R3-s sai tänapäevane jaemüügikassa luua kanaliandmebaasiga otse ühenduse samamoodi, nagu ettevõtte kassaga. See täiendas jaemüügikassa standardset sidepidamisviisi jaemüügiserveri kaudu.
+Dynamics AX 2012 R3-s sai Retail Modern POS luua kanali andmebaasiga otse ühenduse samamoodi nagu ettevõtte kassaga. See täiendas Retail Modern POS-i standardset sidepidamisviisi jaemüügiserveri kaudu.
 
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Andmebaasi otseühenduvus nõudis madalamaid turbeprotokolle ja seda kasutati peamiselt kõrgeima jõudluse saavutamiseks. Finance and Operationsi jõudlus- ja turbetäiustuste tõttu põhjustab see funktsioon nüüd rohkem probleeme kui lahendab. |
 | **Asendatud teise funktsiooniga?**   | Nr Nüüd toetatakse ainult standardset jaemüügiserveri sidet.  |
-| **Mõjutatud tootealad**         | Kanali andmebaas / tänapäevane jaemüügikassa   |
+| **Mõjutatud tootealad**         | Kanali andmebaas / Retail Modern POS   |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.  |
 
 ### <a name="dutch-swift-mt940"></a>Hollandi SWIFT MT940
@@ -860,7 +859,7 @@ See funktsioon andis keele eXtensible Business Reporting Language (XBRL) väljun
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | ActiveX-i ja hallatud hosti juhtelemendid põhinevad kasutuselt eemaldatud töölauakliendil. |
-| **Asendatud teise funktsiooniga?**   | Laiendatav juhtimisraamistik toetab uusi HTML-il, CSS-il ja JavaScriptil põhinevaid uusi juhtelemente ja on Microsoft Visual Studio tööriistakeskkonnas esmaklassiline juhtelement. |
+| **Asendatud teise funktsiooniga?**   | Laiendatav juhtimisraamistik toetab uusi HTML-il, CSS-il ja JavaScriptil põhinevaid juhtelemente ning on Microsoft Visual Studio tööriistakeskkonnas esmaklassiline juhtelement. |
 | **Mõjutatud tootealad**         | Kõik moodulid     |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.       |
 
@@ -873,7 +872,7 @@ Eelpäringu loomine pole partii abil võimalik, kuid kasutaja saab seda siiski t
 | **Aegumise/eemaldamise põhjus** | Saadud eelpäringu faili säilitamiseks ja kuvamiseks partii abil loomisel pole ühtegi vormi. |
 | **Asendatud teise funktsiooniga?**   | Eelpäringuid saab siiski koostada ja kasutaja saab määrata faili salvestamise kohta.   |
 | **Mõjutatud tootealad**         | Ostureskontro, Müügireskontro, Sularaha- ja pangahaldus  |
-| **Olek**                         | Eemaldatud alates rakendusest AX 7.0.    |
+| **Olek**                         | Eemaldatud alates rakenduse AX versioonist 7.0.    |
 
 ### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a>Saksa DTAUS-makse eksportimine ja konto väljavõtte importimine (kogusummad ja kanded)
 
@@ -917,7 +916,7 @@ Järgmisi menüüelemente sisaldavad aruanded on eemaldatud. **Proovibilansi kok
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Rahalised Microsoft SQL Serveri teenuse Reporting Services (SSRS) aruanded on asendatud Management Reporteri võimaluste ja vaikearuannetega. |
+| **Aegumise/eemaldamise põhjus** | Microsoft SQL Serveri teenuste Reporting Services (SSRS) finantsaruanded on asendatud Management Reporteri võimaluste ja vaikearuannetega. |
 | **Asendatud teise funktsiooniga?**   | Management Reporter (selles Dynamics AX-i versioonis nimega **Finantsaruandlus**)    |
 | **Mõjutatud tootealad**         | Pearaamat   |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.   |
@@ -966,7 +965,7 @@ See funktsioon lubas Mehhiko elektrooniliste arvete loomise, kasutades meetodit 
 
 ### <a name="mexico-realized-and-unrealized-vat"></a>Mehhiko realiseeritud ja realiseerimata käibemaks
 
-Microsoft Dynamics AX 2012 haldas realiseerimata käibemaksu (KM), kasutades Mehhikos kehtivaid realiseerimata maksu funktsioone.
+Microsoft Dynamics AX 2012 haldas realiseerimata käibemaksu (KM), kasutades Mehhiko kohaseid realiseerimata maksu funktsioone.
 
 |   |  |
 |------------|--------------------|
@@ -975,7 +974,7 @@ Microsoft Dynamics AX 2012 haldas realiseerimata käibemaksu (KM), kasutades Meh
 | **Mõjutatud tootealad**         | Maks   |
 | **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata. |
 
-### <a name="microsoft-outlook-integration"></a>Microsoft Outlooki integratsioon
+### <a name="microsoft-outlook-integration"></a>Microsoft Outlook integratsioon
 
 
 |   |  |
@@ -993,7 +992,7 @@ Varude ja laohalduse töölehed ei toeta enam võimalust märkida tööleht vali
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Funktsiooni ei leidnud kasutamist. |
 | **Asendatud teise funktsiooniga?**   | Ei                                     |
-| **Mõjutatud tootealad**         | Varude haldamine                   |
+| **Mõjutatud tootealad**         | Varud                   |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.         |
 
 ### <a name="product-builder"></a>Tootekonstruktor
@@ -1044,10 +1043,10 @@ Dynamics AX 2012 R3-s toimis jaemüügiserveri funktsioon HTTP-sidet (mitteturva
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Rollikeskuse lehed loodi kasutuselt eemaldatud ettevõtteportaali platvormile, mis on Dynamics AX-i praeguses versioonis asendatud uue veebikliendi platvormiga. |
+| **Aegumise/eemaldamise põhjus** | Rollikeskuse lehed loodi ettevõtteportaali aegunud platvormile, mis on Dynamics AX-i praeguses versioonis asendatud uue veebikliendi platvormiga. |
 | **Asendatud teise funktsiooniga?**   | Uus tööruumi vormi struktuur pakub kasutajatele protsessikeskset kujundust, mis annab sageli kasutatavatele toimingutele hõlpsa juurdepääsu.                       |
 | **Mõjutatud tootealad**         | Kõik moodulid    |
-| **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.   |
+| **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0   |
 
 ### <a name="sales-tax-jurisdictions"></a>Käibemaksu jurisdiktsioonid
 
@@ -1064,7 +1063,7 @@ Sites Services võimaldab luua veebisaite, mis laiendavad äriprotsessid Interne
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Dynamics AX-i kasutataval Microsoft Azure'i taristul on uusi funktsioone, mida saab selle asemel kasutada (näiteks Azure'i saidid). |
+| **Aegumise/eemaldamise põhjus** | Dynamics AX-i kasutataval Microsoft Azure’i taristul on uusi funktsioone, mida saab selle asemel kasutada (näiteks Azure’i saidid). |
 | **Asendatud teise funktsiooniga?**   | Ei   |
 | **Mõjutatud tootealad**         | Tööruumid Inimressursside värbamine, Juhtumihaldus, Pakkumiskutsed, Hankija registreerimine, Koostöö müügivõimaluste ja kampaaniate jaoks  |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.    |
@@ -1126,6 +1125,5 @@ Windows 8 tahvelarvuti rakendus pakkus kulude sisestamise ja kinnitamise funktsi
 | <strong>Aegumise/eemaldamise põhjus</strong> |                         See funktsioon on asendatud teise funktsiooniga.                         |
 |  <strong>Asendatud teise funktsiooniga?</strong>  | Management Reporter (selles Dynamics AX-i versioonis nimega <strong>Finantsaruandlus</strong>) |
 |     <strong>Mõjutatud tootealad</strong>     |                                              Pearaamat                                              |
-|             <strong>Olek</strong>             |                                      Eemaldatud alates rakendusest Dynamics AX 2012.                                      |
-
+|             <strong>Olek</strong>             |                                      Eemaldatud alates rakendusest Dynamics AX 2012                                      |
 

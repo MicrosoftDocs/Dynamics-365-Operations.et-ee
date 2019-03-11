@@ -1,13 +1,13 @@
 ---
-title: "Täiendamine"
-description: "Selles teemas kirjeldatakse täiendamisstrateegiaid, mis on saadaval ladude puhul, milles seda laohalduse moodulis saadaolevat funktsiooni kasutatakse."
+title: Täiendamine
+description: Selles teemas kirjeldatakse täiendamisstrateegiaid, mis on saadaval ladude puhul, milles seda laohalduse moodulis saadaolevat funktsiooni kasutatakse.
 author: Mirzaab
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 37a5509b6161caffa8f3ab65f1fd8378966c2c30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344520"
 ---
-
 # <a name="replenishment"></a>Täiendamine
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,7 @@ Nõudluse täiendamist toetatakse müügitellimuste, üleviimistellimuste, tootm
 ## <a name="minmax-replenishment"></a>Min/max täiendamine
 Min/max täiendamise puhul täiendatakse varusid nii, et need oleksid määratud miinimum- ja maksimumpiiri vahel. Tavaliselt toimub see protsess kord päevas, et tagada kõigi komplekteerimiskohtade maksimumtasemel täitmine enne komplekteerimise algust. 
 
-Miinimum- ja maksimumkogused määratakse täiendamismallis. Paljud muud malli sätted sarnanevad voo nõudluse tõttu täiendamises kasutatavate mallide sätetele. Mall peaks sisaldama ühte rida iga kauba ja asukoha kohta. Kui käivitate täiendamise pakett-töö abil, hindab Microsoft Dynamics 365 for Finance and Operations, kas on vajalik täiendamine, kasutades ridade korraldamise seeriat. 
+Miinimum- ja maksimumkogused määratakse täiendamismallis. Paljud muud malli sätted sarnanevad voo nõudluse tõttu täiendamises kasutatavate mallide sätetele. Mall peaks sisaldama ühte rida iga kauba ja asukoha kohta. Kui käivitate täiendamise pakett-töö abil, hindab Microsoft Dynamics 365 for Finance and Operations ridade korraldamise seeriat kasutades, kas täiendamine on nõutav. 
 
 Pange tähele, et min/max täiendamise strateegia ei saa täiendada tühja asukohta, kui asukoht pole määratud kauba puhul fikseeritud asukohaks. Kui asukoht, mida peab täiendama, pole fikseeritud asukoht, ei saa süsteem määratleda, millist kaupa tuleks täiendada. Seetõttu on enne täiendamist vaja vähemalt mingisugust vaba kaubavaru.
 
@@ -77,5 +76,4 @@ Selle asemel, et võtta nõudlus eraldamisprotsessi lõppemisel kokku ja täiend
 |    Asukoha profiilid    |                                                                                                        Asukohtade loomiseks on vajalikud asukohaprofiilid.                                                                                                        |
 |   Asukoha korraldus   |                                                       Asukohakorraldusi on vaja selleks, et juhtida töö asukohtadesse, kus täiendamine on vajalik, ja asukohtadesse, kust varusid hangitakse.                                                        |
 |     Töömallid      |                                                   Töömallid tüübiga <strong>Täiendamine</strong> on vajalikud täiendamistöö loomiseks, et varud saaks soovitud asukohtadesse viia.                                                    |
-
 

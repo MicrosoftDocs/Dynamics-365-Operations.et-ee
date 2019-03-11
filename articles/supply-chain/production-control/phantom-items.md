@@ -1,13 +1,13 @@
 ---
 title: Fiktiivsed kaubad
-description: "Selles teemas kirjeldatakse üksikasjalikult, kuidas saab fiktiivset reatüüpi kasutada koosluse- (BOM) ja valemiridade puhul rakenduses Microsoft Dynamics 365 for Finance and Operations."
+description: Selles teemas kirjeldatakse üksikasjalikult, kuidas saab fiktiivset reatüüpi kasutada koosluse- ja valemiridade puhul rakenduses Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: shylaw
@@ -15,16 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validfrom: 
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.search.validfrom: ''
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: a92dd82f309867586f047e0dfc36e452a44a0f9c
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341806"
 ---
-
 # <a name="phantom-items"></a>Fiktiivsed kaubad
 
 [!include [banner](../includes/banner.md)]
@@ -74,4 +73,3 @@ Fiktiivseid kooslusi saab kasutada ka protsessivõrguga koosluse puhul. Protsess
 Järgmisel joonisel tähistab (a) toote G ning osa F kooslust ning (b) toote G ja osa F protsessilehte.
 
 ![Toode G ja osa F koos protsessilehtedega](media/product-G-part-F-with-route-sheet.png)
-

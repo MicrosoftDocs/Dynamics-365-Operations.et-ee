@@ -1,31 +1,30 @@
 ---
 title: Tagastuse hind ja tagastuspartii ID
-description: "Võib-olla soovite, et tagastatud toodete kulu oleks võrdne toodete kuluga ajal, kui tooted kliendile müüsite. Seda saate määrata valikuga **Tagastatud partii ID**."
+description: Võib-olla soovite, et tagastatud toodete kulu oleks võrdne toodete kuluga ajal, kui tooted kliendile müüsite. Seda saate määrata valikuga **Tagastatud partii ID**.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: aeba56128ab6c9ab7d244bdf153faba8e96069d6
-ms.contentlocale: et-ee
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335136"
 ---
-
 # <a name="return-cost-price-and-return-lot-id"></a>Tagastuse hind ja tagastuspartii ID        
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Kui lisate tagastustellimusse kauba, tagastatakse kaubad lattu vaikimisi praegus
 
 3.  Valige vormis **Tagastustellimuse loomine** kliendikonto ja seejärel klõpsake nuppu **OK**.
 
-4.  Valige vormis **Tagastustellimus – RMA number: %1, %2** kaup ja sisestage välja **Kogus** negatiivne kogus.
+4.  Valige vormil **Tagastustellimus – RMA number: %1, %2** kaup ja sisestage väljale **Kogus** negatiivne kogus.
 
 5.  Klõpsake kiirkaarti **Rea üksikasjad**.
 
@@ -64,7 +63,7 @@ See on tagastusridade loomisel eelistatud meetod. Selleks et kasutada toodete ku
 
 3.  Valige vormis **Tagastustellimuse loomine** kliendikonto ja seejärel klõpsake nuppu **OK**.
 
-4.  Klõpsake vormis **Tagastustellimus – RMA number: %1, %2** **Toimingupaanil** suvandit **Otsi müügitellimust**.
+4.  Klõpsake vormil **Tagastustellimus – RMA number: %1, %2** **Toimingupaanil** suvandit **Otsi müügitellimust**.
 
 5.  Valige vormis **Otsi müügitellimust** tagastatav arverida ja klõpsake nuppu **OK**.
     
@@ -104,12 +103,11 @@ Kui kasutate välja **Tagastuse partii ID** tagastustellimuse real tagastuse oma
 
 8.  Sisestage tagastustellimusele arve. Valige loendilehelt **Kõik müügitellimused** müügitellimus, mille puhul tellimuse tüüp on **Tagastatud tellimus**.
 
-9.  Avage vorm **Laokanded**. Kontrollige, kas tagastusel on arvutatud kulu 7.00 tüki kohta, kasutades väärtust väljas **Tagastuse omahind**, väljas **Omahind** on kogukulu 35.00. Vormi **Laokanded** saate avada vormist **Tagastustellimus – RMA number: %1, %2**. Klõpsake ruudustikul **Read** valikuid **Varud** \> **Kanded**.
+9.  Avage vorm **Laokanded**. Kontrollige, kas tagastusel on arvutatud kulu 7.00 tüki kohta, kasutades väärtust väljas **Tagastuse omahind**, väljas **Omahind** on kogukulu 35.00. Vormi **Laokanded** saate avada vormilt **Tagastustellimus – RMA number: %1, %2**. Klõpsake ruudustikul **Read** valikuid **Varud** \> **Kanded**.
 
 10. Kasutage varude ja laohalduses vormi **Sulgemine ja korrigeerimine**, et käivitada protseduur **3. Sulgemine**.
     
     See toiming kohandab algse müügirea kulu, mis arvutati väärtuselt –35.00 (5 tükki \* 7.00) väärtusele –30.00 (5 tükki \* 6.00). See on seepärast, et laomudeligrupp kasutab elavjärjekorra mudelit (FIFO) ja 6.00 tüki kohta FIFO kulu esimesest ostutellimusest. Peale selle kohandab toiming tagastusmüügi rea kulu, et see ühtiks kuluga tüki kohta algsel müügireal. Seega kohandatakse tagastusrea kulu väärtuselt 35.00 väärtusele 30.00.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Elektroonilise aruande konfiguratsiooni üleslaadimine teenusesse Lifecycle Services"
-description: "Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad luua uue elektroonilise aruandluse (ER) konfiguratsiooni ja laadida selle teenusesse Microsoft Lifecycle Services (LCS)."
+---
+title: Elektroonilise aruande konfiguratsiooni üleslaadimine teenusesse Lifecycle Services
+description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad luua uue elektroonilise aruandluse (ER) konfiguratsiooni ja laadida selle teenusesse Microsoft Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 19ae8820e5d4a798a5789e9632edb431fe9fede4
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335090"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>Elektroonilise aruande konfiguratsiooni üleslaadimine teenusesse Lifecycle Services
 
@@ -93,6 +93,5 @@ Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. ja laadi
 10. Klõpsake valikut Ava.
     * Valige LCS-hoidla ja avage see.  
     * Pange tähele, et valitud konfiguratsiooni näidatakse valitud LCS-i projekti varana.  
-    * Avage LCS, kasutades linki https://lcs.dynamics.com. Avage projekt, mida kasutasite varem hoidla registreerimiseks, avage projekti varateek ja laiendage GER-i konfiguratsiooni vara tüübi sisu – üleslaaditud ER-i konfiguratsioon on saadaval. Pange tähele, et üleslaaditud LCS-i konfiguratsiooni saab importida teise Microsoft Dynamics 365 for Finance and Operations, Enterprise edition eksemplari, kui teenuse pakkujatel on juurdepääs sellele LCS-i projektile.  
-
+    * Avage LCS, kasutades linki https://lcs.dynamics.com. Avage projekt, mida kasutasite varem hoidla registreerimiseks, avage projekti varateek ja laiendage GER-i konfiguratsiooni vara tüübi sisu – üleslaaditud ER-i konfiguratsioon on saadaval. Pange tähele, et üleslaaditud LCS-i konfiguratsiooni saab importida teise Microsoft Dynamics 365 for Finance and Operations, Enterprise editioni eksemplari, kui teenuse pakkujatel on juurdepääs sellele LCS-i projektile.  
 

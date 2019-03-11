@@ -1,13 +1,13 @@
---- 
-title: "Vabas vormis arve malli määramine kliendile"
-description: "See ülesanne näitab, kuidas määrata kliendile vabas vormis arve mall."
+---
+title: Vabas vormis arve malli määramine kliendile
+description: See ülesanne näitab, kuidas määrata kliendile vabas vormis arve mall.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 317b3bd4c1f395987ef3dbbd268c40be5c688320
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318921"
 ---
 # <a name="assign-free-text-invoice-template-to-a-customer"></a>Vabas vormis arve malli määramine kliendile
 
@@ -48,5 +48,4 @@ See ülesanne näitab, kuidas määrata kliendile vabas vormis arve mall. See ü
 10. Valige kordumismuster.
     * Iga päev – valige see suvand ja sisestage päevade arv väljale Kohta. Näiteks kui sisestate 15, koostatakse arve sellele kliendile iga 15 päeva tagant.  Iga nädal – valige see suvand ja sisestage nädalate arv väljale Kohta. Näiteks kui sisestate 2, koostatakse arve sellele kliendile iga kahe nädala tagant.  Iga kuu – valige see suvand ja sisestage kuude arv väljale Kohta. Näiteks kui sisestate 6, koostatakse arve sellele kliendile iga kuue kuu tagant.  Iga aasta – valige see suvand ja sisestage aastate arv väljale Kohta. Näiteks kui sisestate 2, koostatakse arve sellele kliendile iga kahe aasta tagant.  
 11. Sisestage number väljale Kohta.
-
 

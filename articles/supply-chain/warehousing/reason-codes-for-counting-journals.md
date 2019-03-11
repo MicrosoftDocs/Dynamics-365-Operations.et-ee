@@ -1,13 +1,13 @@
 ---
-title: "Varude inventuuri põhjusekoodid"
-description: "Selles teemas kirjeldatakse põhjusekoodide seadistamist ja rakendamist inventuuriülesannete jaoks."
+title: Varude inventuuri põhjusekoodid
+description: Selles teemas kirjeldatakse põhjusekoodide seadistamist ja rakendamist inventuuriülesannete jaoks.
 author: Mirzaab
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCountingReasonCodePolicy
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 2f4332432ad73861cd9b6b6452685d3175ace56b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe01425fa236655731e6e0723f3a1e57c05035cc
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320830"
 ---
-
 # <a name="reason-codes-for-inventory-counting"></a>Varude inventuuri põhjusekoodid
 
 [!include [banner](../includes/banner.md)]
@@ -103,7 +102,7 @@ Põhjusekoodid lisatakse töölehe ridadele inventuuritöölehtedel tüübiga **
 
 ### <a name="use-a-reason-code-for-a-quantity-adjustment"></a>Põhjusekoodi kasutamine koguse korrigeerimiseks
 
-1. Lehel **Vaba kaubavaru** valige **Koguse korrigeerimine**. Saate lehe **Vaba kaubavaru** avada mitmel viisil. Näiteks valige **Varude haldus** \> **Päringud ja aruanded** \> **Vaba kaubavaru **.
+1. Lehel **Vaba kaubavaru** valige **Koguse korrigeerimine**. Saate lehe **Vaba kaubavaru** avada mitmel viisil. Näiteks valige **Varude haldus** \> **Päringud ja aruanded** \> **Vaba kaubavaru**.
 2. Valige **Koguse korrigeerimine** ja seejärel väljal **Inventuuri põhjusekood** valige põhjusekood.
 
 ### <a name="configure-reason-codes-for-mobile-device-menu-items"></a>Põhjusekoodide konfigureerimine mobiilse seadme menüükäskude jaoks
@@ -145,4 +144,3 @@ Järgmised väljad lisatakse mobiilse seadme menüükäsule, kui töö loomise p
 - Inventuuri vaikepõhjusekood
 - Kuva inventuuri põhjusekood
 - Redigeeri inventuuri põhjusekoodi
-

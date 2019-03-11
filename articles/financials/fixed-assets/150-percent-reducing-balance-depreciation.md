@@ -1,13 +1,13 @@
 ---
-title: "150 protsenti väheneva saldoga kulum"
-description: "Selles artiklis antakse ülevaade 150% väheneva jääkväärtuse kulumiarvestusmeetodi kohta."
+title: 150 protsenti väheneva saldoga kulum
+description: Selles artiklis antakse ülevaade 150% väheneva jääkväärtuse kulumiarvestusmeetodi kohta.
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff4b40663f0da6bcc01b00f3f44cd8d8b43b56a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b35b8ea652ccb06c45b8091cc7f57e849e1a5915
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331617"
 ---
-
 # <a name="150-percent-reducing-balance-depreciation"></a>150 protsenti väheneva saldoga kulum
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,7 @@ Kui valite kulumiarvestusaasta **Rahandusaasta**, on väljal **Perioodi sagedus*
 | Kasutusea aastad             | 5      |
 | Kulumiprotsent aastas | 30%    |
 
-150% väheneva saldo meetod jagab 150 protsenti kasutusea aastatega. See protsendimäär korrutatakse aasta kulumisumma kindlaksmääramiseks põhivara raamatupidamisliku jääkväärtusega.
+150% väheneva saldo meetod jagab 150 protsenti kasutusea aastatega. See protsendimäär korrutatakse aasta kulumisumma kindlaksmääramiseks põhivara raamatupidamisliku jääkväärtusega.
 
 | Periood | Aasta kulumisumma arvutamine | Arvestuslik väärtus             | Raamatupidamislik jääkväärtus aasta lõpus |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
@@ -86,7 +85,6 @@ Kui valite kulumiarvestusaasta **Rahandusaasta**, on väljal **Perioodi sagedus*
 
 > [!NOTE]
 > Tavaliselt kui 150% väheneva saldo kulumiarvestusmeetodiga arvutatud summa on väiksem kui lineaarse meetodiga arvutades tulemuseks olev summa, teisendatakse järelejäänud eluiga lineaarse meetodi järgi.
-
 
 
 

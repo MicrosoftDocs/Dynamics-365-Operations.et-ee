@@ -1,13 +1,13 @@
---- 
+---
 title: " Jaemüügi väljavõtete parameetrikonfiguratsioonid"
-description: "See protseduur selgitab jaemüügi parameetrikonfiguratsioone, mis mõjutavad jaemüügi väljavõtete loomise ja sisestamise viisi."
+description: See protseduur selgitab jaemüügi parameetrikonfiguratsioone, mis mõjutavad jaemüügi väljavõtete loomise ja sisestamise viisi.
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6dacd2b80ca0d51d81d2bdf5bc2636b47da621ee
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 0c93633e92221264cc6a67c74d62edaa59bdbd2f
-ms.contentlocale: et-ee
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352616"
 ---
 # <a name="parameter-configurations-for-retail-statements"></a> Jaemüügi väljavõtete parameetrikonfiguratsioonid
 
@@ -42,5 +42,4 @@ See protseduur selgitab jaemüügi parameetrikonfiguratsioone, mis mõjutavad ja
     * Valige suvand Jah, kui soovite tellimusi luua ja töödelda paralleelselt väljavõtete sisestamisega.  
     * Sisestage igas pakett-töö ülesandes töödeldav tellimuste maksimumkogus.  
 3. Klõpsake nuppu Salvesta.
-
 

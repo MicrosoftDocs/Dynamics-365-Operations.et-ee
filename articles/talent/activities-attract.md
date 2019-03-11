@@ -1,14 +1,14 @@
 ---
 title: Protsesside tegevused
-description: "Selles teemas kirjeldatakse eri tüüpi tegevusi, mida saab kasutada värbamisprotsessis."
-author: 
+description: Selles teemas kirjeldatakse eri tüüpi tegevusi, mida saab kasutada värbamisprotsessis.
+author: ''
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c32db1f563466f05b9fef1a03578392888c0b7e6
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374753"
 ---
-
 # <a name="activities-in-the-hiring-processes"></a>Värbamisprotsesside tegevused
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract võimaldab värbamisprotsessile lisada tegevusi. Tegevusi saab lisada protsessimallile või neid saab lisada otse tööle värbamise protsessile. Pärast töö määratlemist valitakse protsessimall ja mallis sisalduvad tegevused rakendatakse tööle. Kui mall on valimata, kasutatakse vaikemalli. Värbamisprotsessi saab töö juures muuta ka pärast malli rakendamist.
+Rakenduses Microsoft Dynamics 365 for Talent: Attract saab värbamisprotsessile lisada tegevusi. Tegevusi saab lisada protsessimallile või neid saab lisada otse tööle värbamise protsessile. Pärast töö määratlemist valitakse protsessimall ja mallis sisalduvad tegevused rakendatakse tööle. Kui mall on valimata, kasutatakse vaikemalli. Värbamisprotsessi saab töö juures muuta ka pärast malli rakendamist.
 
 > [!NOTE] 
 > Protsessimallid on saadaval tervikliku värbamise lisandmooduli korral.
@@ -43,35 +42,13 @@ Tegevus Potentsiaalselt sobiv kandidaat võimaldab tööle lisada potentsiaalsel
 
 Tegevus Avaldus on värbamisprotsessi mallis kohustuslik. Meilisõnumi saatmiseks kandidaatidele, kui nad on esitanud avalduse või lisatud etappi Avaldus, määrake suvandi **Saada kandidaadile meilisõnum** olekuks **Sees**.
 
-## <a name="scheduler-activity"></a>Tegevus Plaanur
+## <a name="interview-schedule-and-feedback-activity"></a>Vestluse plaanimise ja tagasiside tegevus
 
-Tegevus Plaanur ei ole kohustuslik. Sellel tegevusel on kaks komponenti: Kandidaadi kättesaadavus ja Graafik. Kandidaadi kättesaadavuse komponent võimaldab kasutada kandidaadi kättesaadavuse küsimiseks meili. Graafiku komponent võimaldab planeerida töövestlusi kandidaadi ja värbamistöörühma vahel. Konfigureerida saab tegevuse Plaanur järgmisi suvandeid: **Küsi kandidaadi kättesaadavust**, **Võrgukoosolek** ja **Saada kandidaadile meilisõnum**.
+Sellel tegevusel on kolm komponenti: Kandidaadi saadavuspäring, Graafik ja Tagasiside. Kasutage vestluse tegevust töömallis, kui soovite kaasata kandidaadi saadavuspäringu, graafiku ja tagasiside protsessi osana, mitte kasutada neid värbamisprotsessis eraldi tegevustena. Lisateavet vt teemast [Vestluse plaanimine ja tagasiside](interview-scheduling-feedback.md).
 
-- Kandidaatidele nende kättesaadavuse kohta küsimiseks meilisõnumi saatmiseks määrake suvandi **Küsi kandidaadi kättesaadavust** olekuks **Sees**. Kui määrate selle suvandi olekuks **Väljas**, seda etappi tööle värbamise protsessis ei kuvata.
-- Videoülekande või konverentskõne tegemiseks rakendusega Skype for Business määrake välja **Võrgukoosolek** olekuks **Skype for Business**. Õige link **Liitu Skype’i koosolekuga** lisatakse seejärel intervjueerijatele saadetavale vestluskutsele.
-- Kandidaatidele graafiku lõplikuks kinnitamiseks meilisõnumi saatmiseks määrake suvandi **Saada kandidaadile meilisõnum** olekuks **Sees**. Kui määrate selle suvandi olekuks **Väljas**, saavad kandidaadid töövestluste graafiku ainult siis, kui logivad sisse kandidaadi portaali.
+## <a name="powerapps-activity"></a>PowerAppsi tegevus
 
-## <a name="feedback-activity"></a>Tegevus Tagasiside
-
-Tegevus Tagasiside ei ole kohustuslik. See tegevus võimaldab töövestluse osalejatel sisestada kandidaadile soovitusi. Samuti saavad nad sisestada oma tagasisidekommentaarid. Kui lülitate sisse suvandi **Tuleta tagasisides osalejad värbamistöörühmast**, sisestatakse värbaja, personalijuht ja intervjueerijad automaatselt tegevusse Tagasiside. Organisatsioonid võivad lubada intervjueerijatel enne tagasiside andmist vaadata teiste inimeste tagasisidet. Organisatsioonid võivad ka lubada pärast tagasiside andmist intervjueerijatel seda muuta.
-
-## <a name="interview-activity"></a>Tegevus Töövestlus
-
-Tegevus Töövestlus ei ole kohustuslik. Sellel tegevusel on kolm komponenti: Kandidaadi kättesaadavus, Graafik ja Tagasiside. Kandidaadi kättesaadavuse komponent võimaldab kasutada kandidaadi kättesaadavuse küsimiseks meili. Graafiku komponent võimaldab planeerida töövestlusi kandidaadi ja värbamistöörühma vahel. Konfigureerida saab tegevuse Plaanur järgmisi suvandeid: **Küsi kandidaadi kättesaadavust**, **Võrgukoosolek** ja **Saada kandidaadile meilisõnum**.
-
-- Kandidaatidele nende kättesaadavuse kohta küsimiseks meilisõnumi saatmiseks määrake suvandi **Küsi kandidaadi kättesaadavust** olekuks **Sees**. Kui määrate selle suvandi olekuks **Väljas**, seda etappi tööle värbamise protsessis ei kuvata.
-- Videoülekande või konverentskõne tegemiseks rakendusega Skype for Business määrake välja **Võrgukoosolek** olekuks **Skype for Business**. Õige link **Liitu Skype’i koosolekuga** lisatakse seejärel saadetavale vestluskutsele.
-- Kandidaatidele graafiku lõplikuks kinnitamiseks meilisõnumi saatmiseks määrake suvandi **Saada kandidaadile meilisõnum** olekuks **Sees**. Kui määrate selle suvandi olekuks **Väljas**, saavad kandidaadid töövestluste graafiku ainult siis, kui logivad sisse kandidaadi portaali.
-
->[!NOTE]
-> - Kõik üks-ühele intervjuude meeldetuletused saadetakse küsitlejatele iga 24 tunni tagant, kui intervjueerija ei vastanud (nõustunud või keeldunud) vestluse taotlusele.
-> - Kõikide paneeli intervjuude jaoks pole intervjuu taotluse automatiseeritud meeldetuletusi. Meeldetuletuse käivitamiseks käsitsi redigeerige intervjuu ja kasutage **värskendada ja saata** valikut, et saata taotlus tagasi küsitlejatele.
-
-Tagasiside komponent võimaldab inimestel sisestada kandidaadile soovitusi. Samuti saavad nad sisestada oma tagasisidekommentaarid. Kui lülitate sisse suvandi **Tuleta tagasisides osalejad värbamistöörühmast**, sisestatakse värbaja, personalijuht ja intervjueerijad automaatselt komponenti Tagasiside. Organisatsioonid võivad lubada intervjueerijatel enne tagasiside andmist vaadata teiste inimeste tagasisidet. Organisatsioonid võivad ka lubada pärast tagasiside andmist intervjueerijatel seda muuta.
-
-## <a name="powerapps-activity"></a>Tegevus PowerApps
-
-Tegevus PowerApps võimaldab värbamisprotsessi manustada rakenduse Microsoft PowerApps. Rakendus võib olla kohustuslik kõigile kandidaatidele, ainult ettevõttesisestele kandidaatidele, ainult ettevõttevälistele kandidaatidele või mitte ühelegi kandidaadile. Kui see rakendus märgitakse kohustuslikuks, peab enne etapi alustamist selle lõpule viima. Kui see rakendus ei ole kohustuslikuks märgitud, pole see tegevus kohustuslik, ja etappi saab alustada isegi siis, kui rakendus on lõpule viimata.
+PowerAppsi tegevus võimaldab värbamisprotsessi manustada rakenduse Microsoft PowerApps. Rakendus võib olla kohustuslik kõigile kandidaatidele, ainult ettevõttesisestele kandidaatidele, ainult ettevõttevälistele kandidaatidele või mitte ühelegi kandidaadile. Kui see rakendus märgitakse kohustuslikuks, peab enne etapi alustamist selle lõpule viima. Kui see rakendus ei ole kohustuslikuks märgitud, pole see tegevus kohustuslik, ja etappi saab alustada isegi siis, kui rakendus on lõpule viimata.
 
 Värbamisprotsessi jaoks tegevuse PowerApps salvestamiseks peate sisestama PowerAppsi ID. PowerAppsi ID leidmiseks valige [PowerApps](https://web.powerapps.com), **Rakendused** ja seejärel **Üksikasjad**.
 
@@ -80,26 +57,25 @@ Kui valite suvandi **Luba osalejate lisamine sellele tegevusele**, saab rakendus
 > [!NOTE]
 > Tegevus PowerApps on saadaval ainult tervikliku värbamise lisandmooduli korral.
 
-## <a name="youtube-activity"></a>Tegevus YouTube
+## <a name="youtube-activity"></a>YouTube’i tegevus
 
-Tegevus YouTube võimaldab värbamisprotsessi osana jagada YouTube’i videot. Värbamisprotsessi jaoks tegevuse YouTube salvestamiseks on vajalik YouTube’i video URL. Nii nagu tegevuse PowerApps korral, saate lubada ka sellele tegevusele osalejate lisamist. Kui valite suvandi **Näita ainult kandidaadile**, näidatakse videot ainult kandidaatidele. Seda ei näidata Attractis olevas värbamisprotsessis.
+YouTube’i tegevus võimaldab värbamisprotsessi osana jagada YouTube’i videot. Värbamisprotsessi jaoks YouTube’i tegevuse salvestamiseks on vajalik YouTube’i video URL. Nii nagu tegevuse PowerApps korral, saate lubada ka sellele tegevusele osalejate lisamist. Kui valite suvandi **Näita ainult kandidaadile**, näidatakse videot ainult kandidaatidele. Seda ei näidata Attractis olevas värbamisprotsessis.
 
 > [!NOTE]
-> Tegevus YouTube on saadaval ainult tervikliku värbamise lisandmooduli korral.
+> YouTube’i tegevus on saadaval ainult mitmekülgse värbamise lisandmooduli korral.
 
 ## <a name="web-content-activity"></a>Tegevus Veebisisu
 
-Tegevus Veebisisu võimaldab teil värbamisprotsessi manustada veebisisu. Värbamisprotsessi jaoks tegevuse Veebisisu salvestamiseks on vajalik sisu URL. Nii nagu tegevuste PowerApps ja YouTube korral, saate lubada ka sellele tegevusele osalejate lisamist. Kui valite suvandi **Näita ainult kandidaadile**, näidatakse sisu ainult kandidaatidele. Seda ei näidata Attractis olevas värbamisprotsessis. Te saate valida kuvatava sisu suuruse.
+Tegevus Veebisisu võimaldab teil värbamisprotsessi manustada veebisisu. Värbamisprotsessi jaoks tegevuse Veebisisu salvestamiseks on vajalik sisu URL. Nii nagu PowerAppsi ja YouTube’i tegevuste puhul, saate lubada ka sellele tegevusele osalejate lisamist. Kui valite suvandi **Näita ainult kandidaadile**, näidatakse sisu ainult kandidaatidele. Seda ei näidata Attractis olevas värbamisprotsessis. Te saate valida kuvatava sisu suuruse.
 
 > [!NOTE]
 > Tegevus Veebisisu on saadaval ainult tervikliku värbamise lisandmooduli korral.
 
 ## <a name="microsoft-forms-activity"></a>Tegevus Microsoft Forms
 
-Tegevus Microsoft Forms võimaldab värbamisprotsessi manustada Microsoft Formsi vormi. Microsoft Forms võimaldab teil luua viktoriine, uuringuid ja küsitlusi. Värbamisprotsessi jaoks tegevuse Microsoft Forms salvestamiseks on vajalik vormi URL. Nii nagu tegevuste PowerApps, YouTube ja Veebisisu korral, saate lubada ka sellele tegevusele osalejate lisamist. Kui valite suvandi **Näita ainult kandidaadile**, näidatakse vormi ainult kandidaatidele. Seda ei näidata Attractis olevas värbamisprotsessis.
+Tegevus Microsoft Forms võimaldab värbamisprotsessi manustada Microsoft Formsi vormi. Microsoft Forms võimaldab teil luua viktoriine, uuringuid ja küsitlusi. Värbamisprotsessi jaoks tegevuse Microsoft Forms salvestamiseks on vajalik vormi URL. Nii nagu PowerAppsi, YouTube’i ja veebisisu tegevuste puhul, saate lubada ka sellele tegevusele osalejate lisamist. Kui valite suvandi **Näita ainult kandidaadile**, näidatakse vormi ainult kandidaatidele. Seda ei näidata Attractis olevas värbamisprotsessis.
 
 Rakendusega Microsoft Forms saavad autorid muuta oma sätteid, et organisatsioonivälised kasutajad saaksid nende küsitlustele või viktoriinile vastata. Sel juhul on kasutajate vastused anonüümsed. Kui soovite näha, kes on teie küsitlusele või viktoriinile vastanud, saate küsitluse või viktoriini osana paluda vastajatel sisestada oma nimi.
 
 > [!NOTE]
 > Tegevus Microsoft Forms on saadaval ainult tervikliku värbamise lisandmooduli korral.
-

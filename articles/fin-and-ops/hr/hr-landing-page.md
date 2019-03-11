@@ -1,13 +1,13 @@
 ---
 title: Inimressursid
-description: "Inimressursside moodul hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib teie organisatsiooni personalitegevuste protsesse. Samuti annab see personaliosakonna töötajatele raamistiku ülevaatamisega seotud valdkondade juhtimiseks. Need valdkonnad on töötajate töölevõtmine ja hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine."
+description: Inimressursside moodul hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib teie organisatsiooni personalitegevuste protsesse. Samuti annab see personaliosakonna töötajatele raamistiku ülevaatamisega seotud valdkondade juhtimiseks. Need valdkonnad on töötajate töölevõtmine ja hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine.
 author: rschloma
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341760"
 ---
-
 # <a name="human-resources"></a>Inimressursid
 
 [!include [banner](../includes/banner.md)]
@@ -81,7 +80,7 @@ Peale töötajatele töötasu ja preemiate maksmise saate töötada välja soodu
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Töökoha ohutuse ja nõuetele vastavuse haldamine
 
-Microsoft Dynamics AX-i abil saate hoida ohutut töökeskkonda, mis järgib kehtivaid seadusi, sh puuetega ameeriklaste seadust ning sisserände ja naturalisatsiooni seadused. Näiteks saate hallata konkreetsete tööde füüsilisi nõudeid ning jälgida majutustaotlusi, mis võivad aidata teie organisatsioonil oma tööjõu oskusi optimeerida.
+Microsoft Dynamics AX aitab teil säilitada ohutut töökeskkonda, mis järgib kehtivaid seadusi, sh puuetega ameeriklaste seadust ning sisserände ja naturalisatsiooni seadused. Näiteks saate hallata konkreetsete tööde füüsilisi nõudeid ning jälgida majutustaotlusi, mis võivad aidata teie organisatsioonil oma tööjõu oskusi optimeerida.
 
 - [Vorm I-9 töökohale sobivuse kontrollimine](localizations/noam-usa-form-i-9-verification.md)
 - [Ameerika võimetusakti järgimine](localizations/noam-usa-comply-ada.md)
@@ -95,4 +94,3 @@ Saate koostada ja hallata küsimustikke andmete kogumiseks mitmesugustel eesmär
 - [Küsimustiku kujundamine](../../talent/design-questionnaires.md)
 - [Küsimustiku laialisaatmine ja täitmine](../../talent/distribute-questionnaires.md)
 - [Küsimustiku tulemuste vaatamine ja hindamine](../../talent/evaluate-questionnaire-results.md)
-

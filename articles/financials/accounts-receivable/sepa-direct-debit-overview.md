@@ -1,13 +1,13 @@
 ---
-title: "SEPA otsekorralduse ülevaade"
-description: "Ühtse euromaksete piirkonna (SEPA) on määranud Euroopa Komisjon, kelle korraldusel tuleb kõiki elektroonilisi makseid käsitleda kodumaistena, olenemata riigist/piirkonnast, kus üksikisik, ettevõte või organisatsioon ja pank asuvad. Riiklike ja riikidevahelistel maksetel pole mingit vahet. SEPA hõlmab 28 Euroopa Liidu liikmesriiki ning samuti Islandit, Liechtensteini, Norrat, Šveitsi, Monacot ja San Marinot. SEPA aitab Euroopa majanduspiirkonnas (EMP) luua maksekannete jaoks ühtse turu. Lõppkokkuvõttes eeldatakse, et SEPA vähendab maksevormingute arvu, millega pangad, ettevõtted ja üksiksikud peavad tegelema."
+title: SEPA otsekorralduse ülevaade
+description: Ühtse euromaksete piirkonna (SEPA) on määranud Euroopa Komisjon, kelle korraldusel tuleb kõiki elektroonilisi makseid käsitleda kodumaistena, olenemata riigist/piirkonnast, kus üksikisik, ettevõte või organisatsioon ja pank asuvad. Riiklike ja riikidevahelistel maksetel pole mingit vahet. SEPA hõlmab 28 Euroopa Liidu liikmesriiki ning samuti Islandit, Liechtensteini, Norrat, Šveitsi, Monacot ja San Marinot. SEPA aitab Euroopa majanduspiirkonnas (EMP) luua maksekannete jaoks ühtse turu. Lõppkokkuvõttes eeldatakse, et SEPA vähendab maksevormingute arvu, millega pangad, ettevõtted ja üksiksikud peavad tegelema.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23c418c6412e4bd300616eed4577e2b1d3f3d181
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fb55f4b0b06019891c2e490eda837cfad882e6db
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359194"
 ---
-
 # <a name="sepa-direct-debit-overview"></a>SEPA otsekorralduse ülevaade
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ SEPA otsekorralduste maksefaile saab luua järgmistes vormingutes.
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>Kuidas toimib SEPA otsekorraldustega tagasimaksmine ja tagastamine?
 Mõlema SEPA otsekorraldusskeemi alusel on klientidel teatud õigused tagasimaksetele. Kliendil on lubatud kaheksa nädala jooksul pärast tähtaega mis tahes autoriseeritud kanne ilma selgitust andmata tagasi kutsuda. Autoriseerimata kannete korral pikendatakse perioodi 13 kuuni pärast tähtaega. Kõik tehtud maksed tühistatakse käsitsi, kasutades lehel Kliendi kanded olevat nuppu Tühista makse.
-
 
 
 

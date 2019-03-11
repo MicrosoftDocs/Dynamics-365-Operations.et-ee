@@ -1,13 +1,13 @@
 ---
-title: "Kuluarvestuse analüüsi Power BI sisu"
-description: "See teema kirjeldab, mida hõlmab kuluarvestuse analüüsi Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks."
+title: Kuluarvestuse analüüsi Power BI sisu
+description: See teema kirjeldab, mida hõlmab kuluarvestuse analüüsi Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d0b563044843157940f456b07479bbd6006a42f9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347441"
 ---
-
 # <a name="cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, mida hõlmab **kuluarvestuse analüüsi** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
+See teema kirjeldab, mida hõlmab **kuluarvestuse analüüsi** Microsoft Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 
 ## <a name="overview"></a>Ülevaade
 
-**Kuluarvestuse analüüsi** Power BI sisu on mõeldud kulul kontrollijatele või organisatsioonis kulujuhtimise eest vastutavatele isikutele. See hõlmab põhimõõdikuid, nagu kulu, väärtus ja kulumäär tegeliku kulu, eelarvekulu ja paindliku eelarvekulu alusel. See kasutab kandeandmeid Microsoft Dynamics 365 for Operationsi **kuluarvestuse** moodulist ja annab koondvaate kogu organisatsiooni kuludest ühes aruandlusvaluutas. Haldajad saavad andmeid filtreerida kuluobjektide alusel oma organisatsiooniüksuste kulujuhtimiseks, isegi kui organisatsioonil on mitu juriidilist isikut.
+**Kuluarvestuse analüüsi** Power BI sisu on mõeldud kulukontrollijatele või organisatsioonis kulujuhtimise eest vastutavatele isikutele. See hõlmab põhimõõdikuid, nagu kulu, väärtus ja kulumäär tegeliku kulu, eelarvekulu ja paindliku eelarvekulu alusel. See kasutab kandeandmeid Microsoft Dynamics 365 for Operationsi **kuluarvestuse** moodulist ja annab koondvaate kogu organisatsiooni kuludest ühes aruandlusvaluutas. Haldajad saavad andmeid filtreerida kuluobjektide alusel oma organisatsiooniüksuste kulujuhtimiseks, isegi kui organisatsioonil on mitu juriidilist isikut.
 
 Kuna **kuluarvestuse analüüsi** sisu tõstab esile hälbed tegelike ja eelarvestatud kulude vahel, saab haldajaid teavitada nende tootmisüksuse positiivsetest ja negatiivsetest trendidest. Juhid saavad kuluelemendi hierarhiates või eraldi kuluelementides süvitsi minna. Sel viisil saavad juhid üksikasjalikke andmeid selle kohta, kuidas kuluhälbed on tekkinud, ja neil on siis võimalik tulemuslikke meetmeid tarvitusele võtta.
 
@@ -53,7 +52,7 @@ Laadige kindlasti alla **kuluarvestuse analüüsi** sisu, mis kehtib teie kasuta
 > [!NOTE]
 > KB4011327 on selle Power BI sisu eeltingimus. Pärast LCS-i sisselogimist pääsete teabebaasiartiklile juurde aadressil <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisu hulka kuuluvad mõõdikud
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad mõõdikud
 Sisu hõlmab aruandelehtede komplekti. Iga leht koosneb mõõdikute komplektist, mida visualiseeritakse diagrammide, paanide ja tabelitena. Järgmine tabel annab ülevaate **kuluarvestuse analüüsi** Power BI sisu visualiseerimistest.
 
 | Aruandeleht                      | Diagramm                                                                                                                         | Paan                                          |
@@ -127,4 +126,3 @@ Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamisek
 | Rahandussaasta kalendrid                   | Kalender, kalendri kirjeldus                                                                                       |
 | Finantsaastad                       | Kalendriaasta                                                                                                        |
 | Rahandusperioodid                     | Kalendriaasta periood                                                                                                 |
-

@@ -1,13 +1,13 @@
---- 
+---
 title: Alusprognoosi loomine
-description: "Tootmise planeerija saab luua alusprognoosi, kasutades kas ajaseeria prognoosimudeleid või kopeerides ajaloolise nõudluse."
+description: Tootmise planeerija saab luua alusprognoosi, kasutades kas ajaseeria prognoosimudeleid või kopeerides ajaloolise nõudluse.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0d23e245ed1c084c26554ef3f859fdadaef9990d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6363ee48c0d13c79a6c623205dfa10f50d6070f
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310043"
 ---
 # <a name="create-a-baseline-forecast"></a>Alusprognoosi loomine
 
@@ -81,5 +81,4 @@ Tootmise planeerija saab luua alusprognoosi, kasutades kas ajaseeria prognoosimu
 4. Olete prognoosi käsitsi korrigeerinud. Pöörake tähelepanu järgmises etapis olevale graafilisele näidikule.
 5. Klõpsake suvandit Prognoosi rea andmed.
     * Sellel lehel näete täpsuse väärtusi, ajaloolist nõudlust ja prognoosi. Saate ka prognoosi muuta.  
-
 

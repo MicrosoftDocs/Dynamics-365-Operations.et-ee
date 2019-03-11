@@ -1,13 +1,13 @@
 ---
-title: "Automaatse tarbimise põhimõtted"
-description: "Selles teemas kirjeldatakse nelja automaatse tarbimise põhimõtet, mida kasutatakse toormaterjali tarbimisel."
+title: Automaatse tarbimise põhimõtted
+description: Selles teemas kirjeldatakse nelja automaatse tarbimise põhimõtet, mida kasutatakse toormaterjali tarbimisel.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e4b9cd918bec9a094744b208821285c57f01798a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
-ms.contentlocale: et-ee
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358297"
 ---
-
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Toormaterjali tarbimise kontrollimine automaatse tarbimise põhimõtete abil
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ Automaatse tarbimise põhimõte Lõpp näitab, et materjali tarbitakse automaats
 
 ### <a name="available-at-location"></a>Asukohas saadaval
 Automaatse tarbimise põhimõte Saadaval asukohas näitab, et materjali tarbitakse automaatselt, kui see registreeritakse tootmiseks komplekteerituna. Materjal registreeritakse asukohast komplekteerituks, kui töö toormaterjali komplekteerimiseks on lõpule viidud või kui materjal on saadaval tootmise sisendasukohas ja materjalirida on lattu vabastatud. Protsessi käigus loodud komplekteerimisleht sisestatakse pakett-tööna. See põhimõte on asjakohane näiteks juhul, kui teil on ühe tootmistellimusega seotud palju komplekteerimistegevusi. Sel juhul ei pea te komplekteerimislehte käsitsi värskendama ja saate WIP-saldost ajakohase ülevaate.
-

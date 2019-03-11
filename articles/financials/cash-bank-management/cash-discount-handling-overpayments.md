@@ -1,13 +1,13 @@
 ---
-title: "Skonto töötlemine ülemaksete korral"
-description: "Selles artiklis on stsenaariumid, mis nöitavad, kuidas makset käsitletakse, kui klient võtab skonto, kuid maksab üle."
+title: Skonto töötlemine ülemaksete korral
+description: Selles artiklis on stsenaariumid, mis nöitavad, kuidas makset käsitletakse, kui klient võtab skonto, kuid maksab üle.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b1af073e1f5a2e36be24fe0b57a878c77bff8907
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b664ad6d084c5437111149266a859d7157b22ee9
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364944"
 ---
-
 # <a name="handling-cash-discounts-for-overpayments"></a>Skonto töötlemine ülemaksete korral
 
 [!include [banner](../includes/banner.md)]
@@ -135,7 +134,6 @@ Skonto summat 10,50 vähendatakse 10,00-ni. Makse ja arve loetakse tasakaalustat
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Skonto (väli **Kliendi allahindluste põhikonto** lehel **Skontod**) | 10,50        |               |
 | Müügireskontro                                                                              |              | 10,50         |
-
 
 
 

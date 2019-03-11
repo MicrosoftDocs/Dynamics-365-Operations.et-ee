@@ -1,31 +1,30 @@
 ---
-title: "Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine"
-description: "Dynamics 365 for Retaili puhul võite müüa ja tagastada tooteid väljaspool sortimente."
+title: Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine
+description: Rakendusega Dynamics 365 for Retail saate müüa ja tagastada tooteid väljaspool sortimenti.
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.contentlocale: et-ee
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352294"
 ---
-
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine
 
 [!include [banner](includes/banner.md)]
@@ -47,4 +46,3 @@ Need üldised stsenaariumid on saadaval jaemüüjate puhul, kes kasutavad rakend
 + Võtta tooteid peale praegusest või mõnest muust kauplusest.
 + Tühistada tellimuse praeguses kaupluses või mõnes muus kaupluses.
 + Tagastada tellimuse kviitungiga või ilma praegusesse või teise kauplusse.
-

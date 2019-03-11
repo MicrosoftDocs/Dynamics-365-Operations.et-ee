@@ -1,13 +1,13 @@
 ---
-title: "200 protsenti väheneva saldoga kulum"
-description: "Selles artiklis antakse ülevaade 200% väheneva jääkväärtuse kulumiarvestusmeetodi kohta."
+title: 200 protsenti väheneva saldoga kulum
+description: Selles artiklis antakse ülevaade 200% väheneva jääkväärtuse kulumiarvestusmeetodi kohta.
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ec51f9e12e31e81c56fab9e82d0fc18d45beb5e6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 24f677cd3b416c6301a664629cb73e3cbae9f457
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322716"
 ---
-
 # <a name="200-percent-reducing-balance-depreciation"></a>200 protsenti väheneva saldoga kulum
 
 [!include [banner](../includes/banner.md)]
@@ -78,17 +77,16 @@ Kui valite kulumiarvestusaastaks **Rahandusaasta**, on väljal **Perioodi sagedu
 | Kasutusea aastad             | 5      |
 | Kulumiprotsent aastas | 40%    |
 
-200% väheneva saldo meetod jagab 200 protsenti kasutusea aastatega. See protsendimäär korrutatakse aasta kulumisumma kindlaksmääramiseks põhivara raamatupidamisliku jääkväärtusega.
+200% väheneva saldo meetod jagab 200 protsenti kasutusea aastatega. See protsendimäär korrutatakse aasta kulumisumma kindlaksmääramiseks põhivara raamatupidamisliku jääkväärtusega.
 
 | Periood | Aasta kulumisumma arvutamine | Arvestuslik väärtus             | Raamatupidamislik jääkväärtus aasta lõpus |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| aasta 1 | (11 000 – 1000) × 40% = 4000                | 11 000 – 4000 = 7000 | 11 000 – 1 000 – 4 000 = 6 000        |
-| aasta 2 | 6000 × 40% = 2400                           | 7000 – 2400 = 4600  | 6000 – 2400 = 3600                 |
-| aasta 3 | 3600 × 40% = 1440                           | 4600 – 1440 = 3160  | 3600 – 1440 = 2160                 |
+| aasta 1 | (11 000 – 1000) × 40% = 4000                | 11 000 – 4000 = 7000 | 11 000 – 1 000 – 4 000 = 6 000        |
+| aasta 2 | 6000 × 40% = 2400                           | 7000 – 2400 = 4600  | 6000 – 2400 = 3600                 |
+| aasta 3 | 3600 × 40% = 1440                           | 4600 – 1440 = 3160  | 3600 – 1440 = 2160                 |
 
 > [!NOTE] 
 > Tavaliselt kui 200% väheneva saldo kulumiarvestusmeetodiga arvutatud summa on väiksem kui lineaarse meetodiga arvutades tulemuseks olev summa, teisendatakse järelejäänud eluiga lineaarse meetodi järgi.
-
 
 
 

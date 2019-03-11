@@ -1,14 +1,14 @@
 ---
-title: "Põhivarade edasiarvestuse aruanne"
-description: "Selles teemas kirjeldatakse, kuidas kasutada põhivarade edasiarvestuse aruannet."
+title: Põhivarade edasiarvestuse aruanne
+description: Selles teemas kirjeldatakse, kuidas kasutada põhivarade edasiarvestuse aruannet.
 author: saraschi2
-manager: 
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,13 +17,13 @@ ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
-ms.contentlocale: et-ee
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313746"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Põhivarade edasiarvestuse aruanne
 
@@ -31,9 +31,9 @@ ms.lasthandoff: 04/13/2018
 
 **Põhivarade edasiarvestuse** aruandes esitatakse hõlpsasti loetavas Microsoft Exceli vormingus põhivara üksikasjalikud andmed, mida vajate perioodi sulgemise, finantsaruannete ja maksuaruandluse tegemiseks. Aruanne sisaldab põhivarade alg- ja lõppsaldosid koos sel perioodil tehtud hinna määramistega ning iga sel perioodil tehtud põhivara soetamise ja likvideerimisega. Andmed esitatakse põhivarade kohta eraldi ning väärtusi summeeritakse ka põhivaragruppide ja juriidilise isiku jaoks.
 
-**Põhivarade edasiarvestuse** aruanne kasutab elektroonilise aruandluse (ER) raamistikku. Enne aruande käivitamist tuleb Microsoft Dynamicsi teenusest Lifecycle Services (LCS) importida põhivarade mudel ja põhivara edasiarvestuse konfiguratsioonid. Juhiste saamiseks vaadake teemat [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+**Põhivarade edasiarvestuse** aruanne kasutab elektroonilise aruandluse (ER) raamistikku. Enne aruande käivitamist tuleb teenusest Microsoft Dynamics Lifecycle Services (LCS) importida põhivarade mudel ja põhivara edasiarvestuse konfiguratsioonid. Juhiste saamiseks vaadake teemat [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
-Aruanne on saadaval rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 või rakenduse Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017) kiirparanduses. Juuli 2017 väljalaske keskkondadele tuleb rakendada kolm järgmist kiirparandust.
+See aruanne on saadaval rakenduses Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 või kiirparandusena rakendusele Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (juuli 2017). Juuli 2017 väljalaske keskkondadele tuleb rakendada kolm järgmist kiirparandust.
 
 - **KB 4041754:** elektroonilise aruandluse (ER) konfiguratsiooni ei saa LCS-ist alla laadida, kuna see ei ole pärast platvormivärskenduste paketi rakendamist praegusele rakenduse versioonile rakendatav
 - **KB 4056107:** elektroonilise aruandluse (GER) kumulatiivne värskendus 5
@@ -66,5 +66,4 @@ Järgmises tabelis on kirjeldatud aruandes olevaid välju.
 |            Likvideerimised: müügiväärtus            |                                                                                               Põhivararaamatu müügiväärtus likvideerimise müügitehingu korral.                                                                                                |
 |           Likvideerimised: mahakandmise väärtus            |                                                                                               Põhivararaamatu mahakandmise väärtus likvideerimise mahakandmistehingu korral.                                                                                               |
 |           Likvideerimised: kasum/kahjum            |                                                                                 Kasumi või kahjumi väärtus, mis arvutatakse põhivararaamatu likvideerimiskande osana.                                                                                 |
-
 

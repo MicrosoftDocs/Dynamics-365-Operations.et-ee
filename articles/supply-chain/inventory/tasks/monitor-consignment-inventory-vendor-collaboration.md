@@ -1,13 +1,13 @@
---- 
-title: "Veose varude jälgimine hankija koostöö abil"
-description: "See protseduur näitab, kuidas kasutada hankija koostööd teabe nägemiseks toote varude taseme kohta, mille olete kliendi juures olevasse saadetisse paigutanud."
+---
+title: Veose varude jälgimine hankija koostöö abil
+description: See protseduur näitab, kuidas kasutada hankija koostööd teabe nägemiseks toote varude taseme kohta, mille olete kliendi juures olevasse saadetisse paigutanud.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, PurchVendorPortalConfirmedOrders, DefaultDashboard, ConsignmentVendorPortalOnhand
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8186b553e8518f3153bfd88b89121d4b0567501b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 567be29bd9989b3471b22d5a970ed0e51e4549ec
-ms.contentlocale: et-ee
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329432"
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a>Veose varude jälgimine hankija koostöö abil
 
@@ -42,5 +42,4 @@ See protseduur näitab, kuidas kasutada hankija koostööd teabe nägemiseks too
 ## <a name="view-on-hand-inventory"></a>Vabade kaubavarude vaatamine
 1. Avage Hankija koostöö > Veose varud > Veose vaba kaubavaru.
     * Veose vaba kaubavaru lehel on näidatud teile kuuluvad varud kliendi laos. Saate kuvada lisadimensioone nagu tegevuskoht ja ladu, klõpsates vahekaarti Kuva dimensioonid.   
-
 

@@ -1,31 +1,26 @@
 ---
-title: Tere tulemast rakendusse Microsoft Dynamics 365 for Talent
-description: "Talent hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib mitmeid teie organisatsiooni personalitegevuste protsesse. Need protsessid on töötajate hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine."
+# required metadata
+title: Tere tulemast Dynamics 365 for Talentisse
+description: 'Talent hõlbustab paljusid rutiinseid andmesäilitustoiminguid ja automatiseerib mitmeid teie organisatsiooni personalitegevuste protsesse. Need protsessid on töötajate hoidmine, hüvitiste haldamine, koolitus, tulemuste ülevaated ja muudatuste juhtimine.'
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: null
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: 'Core, Operations, Talent'
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.search.validFrom: '2016-02-28'
+ms.dyn365.ops.version: 'AX 7.0.0, Talent July 2017 update'
 ---
 
-# <a name="welcome-to-dynamics-365-for-talent"></a>Tere tulemast rakendusse Microsoft Dynamics 365 for Talent
+# <a name="welcome-to-dynamics-365-for-talent"></a>Tere tulemast Dynamics 365 for Talentisse
 
 [!include [banner](includes/banner.md)]
 
@@ -42,11 +37,11 @@ Saate rakendust Talent kasutada, et teha järgmist.
 + Vaadata üle tulemusi ja seada töötajale eesmärke.
 + Koolituskursuste seadistamine, pakkumine ja analüüs, mis sisaldavad päevakavasid, seansse ja jälgimisi.
 
-Lahendusega Dynamics 365 for Talent tutvumine video abil [Lahendusega Dynamics 365 for Talent alustamine.](https://www.youtube.com/watch?v=6rg2ByadbN0)
+Vaadake Dynamics 365 for Talentiga tutvumiseks videot [Kuidas alustada Dynamics 365 for Talenti kasutamist?](https://www.youtube.com/watch?v=6rg2ByadbN0)
 
 
 > [!NOTE] 
-> Dynamics 365 for Talent on tihedalt seotud rakenduse Dynamics 365 for Finance and Operations inimressurssidega. Mõlemas tootes võivad esineda samad funktsioonid. Seetõttu on teemades, mis on peamiselt seotud inimressurssidega, toote nimeks Dynamics 365 for Finance and Operations; ja teemades, mis on peamiselt seotud Talentiga, on toote nimeks Dynamics 365 for Talent. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
+> Dynamics 365 for Talent on tihedalt seotud inimressurssidega teenuses Dynamics 365 for Finance and Operations. Mõlemas tootes võivad esineda samad funktsioonid. Seetõttu on teemades, mis on peamiselt seotud inimressurssidega, toote nimeks Dynamics 365 for Finance and Operations ja teemades, mis on peamiselt seotud Talentiga, on toote nimeks Dynamics 365 for Talent. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Arendada strateegiat inimressursside haldamiseks.
 ---------------------------------------------------------
@@ -58,8 +53,8 @@ Rakendusega Talent töötamisel saate otsustada, kuidas struktureerida oma organ
 -   [Juriidilistele isikutele inimressursside parameetrite seadistamine](set-up-hr-parameters-across-legal-entities.md) 
 -   [Personalitegevuste KKK](personnel-actions-faq.md)
 -   [Puhkuste ja puudumiste ülevaade](leave-absence-overview.md)
--   [Kuidas kasutada: Dynamics 365 for Talent: puhkused ja puudumised (video)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
--   [Töötajate haldus lahenduses Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
+-   [Teenuse Dynamics 365 for Talent kasutamine: puhkused ja puudumised (video)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [Töötajate haldamine teenuses Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Organisatsiooni personali palkamine
 
@@ -76,7 +71,7 @@ Saate koostada plaane tasu tulemuslikuks ja õiglaseks haldamiseks ning selleks,
 -   [Hüvitusprotsess](process-compensation.md)
 -   [Põhipalga plaanide loomine](create-fixed-compensation-plans.md)
 -   [Ergutussüsteemi plaanide loomine](create-variable-compensation-plans.md)
--   [Kompensatsiooni haldus lahenduses Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=lEw5oKopHDk)
+-   [Kompensatsiooni haldamine teenuses Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=lEw5oKopHDk)
 
 ## <a name="develop-and-train-employees"></a>Töötajate arendamine ja koolitamine
 
@@ -85,7 +80,7 @@ Selleks et aidata oma töötajatel jõuda nende karjäärieesmärkideni, täites
 -   [Jõudlushaldus](performance-management-overview.md)
 -   [Töötajate oskuste ja ärivajaduste joondamine](skills.md)
 -   [Koolituste läbiviimine kursuste kaudu](courses.md)
--   [Töövõtjate arengu haldus lahenduses Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
+-   [Töövõtjate juurutuse haldamine teenuses Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Soodustuste loomine ja haldamine
 
@@ -94,7 +89,7 @@ Peale töötajatele töötasu ja preemiate maksmise saate töötada välja soodu
 -   [Soodustusprogrammi haldamine](manage-benefit-program.md)
 -   [Soodustuse saamise õiguse eeskirjad](benefit-eligibility-policies.md)
 -   [Töötajatele laenatud artiklite haldamine](loan-items.md)
--   [Töövõtjate soodustuste haldus lahenduses Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=nUWkeJTad1o)
+-   [Töövõtjate soodustuste haldamine teenuses Dynamics 365 for Talent (video)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Töökoha ohutuse ja nõuetele vastavuse haldamine
 
@@ -111,4 +106,3 @@ Saate koostada ja hallata küsimustikke andmete kogumiseks mitmesugustel eesmär
 -   [Küsimustiku kujundamine](design-questionnaires.md)
 -   [Küsimustiku laialisaatmine ja täitmine](distribute-questionnaires.md)
 -   [Küsimustiku tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
-

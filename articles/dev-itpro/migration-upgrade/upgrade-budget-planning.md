@@ -1,13 +1,13 @@
 ---
-title: "Eelarve plaanimise täiendamine"
-description: "Eelarve plaanimine erineb Microsoft Dynamics AX 2012 ja Microsoft Dynamics 365 for Finance and Operationsi vahel oluliselt. Mõnd funktsiooni pole täiendatud ja seetõttu nõuavad need ümberkonfigureerimist. Selles teemas selgitatakse, mida tuleb ümber konfigureerida, ja kirjeldatakse ka uusi funktsioone, mida tuleb pärast täiendamise lõpulejõudmist arvesse võtta."
+title: Eelarve plaanimise täiendamine
+description: Eelarve planeerimine on rakendustes Microsoft Dynamics AX 2012 ja Microsoft Dynamics 365 for Finance and Operations suuresti erinev. Mõnd funktsiooni pole täiendatud ja seetõttu nõuavad need ümberkonfigureerimist. Selles teemas selgitatakse, mida tuleb ümber konfigureerida, ja kirjeldatakse ka uusi funktsioone, mida tuleb pärast täiendamise lõpulejõudmist arvesse võtta.
 author: ryansandness
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a39f516bb6d023ea18492ba3dfe721bd1127c60e
-ms.contentlocale: et-ee
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342956"
 ---
-
 # <a name="upgrade-budget-planning"></a>Eelarve plaanimise täiendamine
 
 [!include [banner](../includes/banner.md)]
 
-Eelarve plaanimine erineb Microsoft Dynamics AX 2012 ja Microsoft Dynamics 365 for Finance and Operationsi vahel oluliselt. Mõnd funktsiooni pole täiendatud ja seetõttu nõuavad need ümberkonfigureerimist. Selles teemas selgitatakse, mida tuleb ümber konfigureerida, ja kirjeldatakse ka uusi funktsioone, mida tuleb pärast täiendamise lõpulejõudmist arvesse võtta.  
+Eelarve planeerimine on rakendustes Microsoft Dynamics AX 2012 ja Microsoft Dynamics 365 for Finance and Operations suuresti erinev. Mõnd funktsiooni pole täiendatud ja seetõttu nõuavad need ümberkonfigureerimist. Selles teemas selgitatakse, mida tuleb ümber konfigureerida, ja kirjeldatakse ka uusi funktsioone, mida tuleb pärast täiendamise lõpulejõudmist arvesse võtta.  
 
-Eelarve plaanimisel Microsoft Dynamics 365 for Finance and Operationsis on palju täiendusi, mis polnud Microsoft Dynamics AX 2012-s saadaval. Selles teemas selgitatakse muudatusi, mida täiendust tegevad kliendid peavad rakendama. Samuti tuuakse välja uued funktsioonid, mida tuleb täiendusprotsessis arvesse võtta. Muudatuste rohkuse tõttu ei saa ühtki olemasolevat eelarveplaani avada, enne kui selles teemas kirjeldatud muudatused on tehtud. Siiski peavad aruanded tööd jätkama ega nõua lisamuudatusi.
+Eelarve plaanimisel rakenduses Microsoft Dynamics 365 for Finance and Operations on palju täiustusi, mis ei olnud rakenduses Microsoft Dynamics AX 2012 saadaval. Selles teemas selgitatakse muudatusi, mida täiendust tegevad kliendid peavad rakendama. Samuti tuuakse välja uued funktsioonid, mida tuleb täiendusprotsessis arvesse võtta. Muudatuste rohkuse tõttu ei saa ühtki olemasolevat eelarveplaani avada, enne kui selles teemas kirjeldatud muudatused on tehtud. Siiski peavad aruanded tööd jätkama ega nõua lisamuudatusi.
 
 ## <a name="overview-of-changes"></a>Muudatuste ülevaade
 Finance and Operationsi moodulis Eelarvestus on tehtud palju olulisi muudatusi. Need muudatused hõlbustavad eelarve plaanimise konfigureerimist ja korduskasutamist, et vähendada iga-aastast hooldamist ja seadistamist. Finance and Operations ei sisalda enam järgmisi AX 2012 valdkondi.
@@ -51,7 +50,7 @@ Veerud on uus põhimõte, mis asendab Exceli malli osi ja ka maatriksivälju. Ve
 
 ### <a name="layouts"></a>Paigutused
 
-Paigutused on uus põhimõte, mis asendab Exceli malli. Paigutused sisaldavad veerge, mis määratlevad, milliseid eelarve või tegelike näitajate andmeid ja perioode tuleb kuvada. Paigutusi kasutavad klientrakendus ja Exceli lisandmoodul ka ühiselt. Seetõttu, on kasutajakogemus Finance and Operationsi klientrakenduses andmete sisestamisel või vaatamisel parem kui kasutajakogemus AX 2012-s. Andmete sisestamiseks Finance and Operationsi klientrakenduses pole teil enam kandevaates piirangut vaadata ja sisestada ainult üht stsenaariumit. Selle asemel võimaldab võrdlusvaade hõlpsasti vaadata ja sisestada samal ajal mitme perioodi ning konto summasid. Paigutsi saab ka määratleda nii, et saate sisestada ja vaadata valuutat, kommentaare ning muid valikulisi andmeid. Paigutused võimaldavad ka määratleda, milliseid pearaamatu dimensioone ja dimensioonikirjeldusi tuleb kuvada. Ühtlasi sisaldavad paigutused stsenaariumipiiranguid määratlemaks, milliseid malli veerge saab redigeerida ja millised veerud peavad Excelis saadaval olema. Pärast paigutuse määratlemist luuakse selle jaoks mall. See mall omakorda loob vastava Exceli malli. Seejärel saate Exceli malli redigeerida, et kaasata rohkem valemeid ja vorminguid, ning seejärel selle uuesti üles laadida. Pärast seda määratakse paigutused lehel **Eelarve plaanimise protsess** igale etapireeglile. Seega asendavad paigutused malle, mida määrati ja kasutati samal moel.
+Paigutused on uus põhimõte, mis asendab Exceli malli. Paigutused sisaldavad veerge, mis määratlevad, milliseid eelarve või tegelike näitajate andmeid ja perioode tuleb kuvada. Paigutusi kasutavad klientrakendus ja Exceli lisandmoodul ka ühiselt. Seetõttu on kasutajakogemus Finance and Operationsi klientrakenduses andmete sisestamisel või vaatamisel parem kui kasutajakogemus AX 2012-s. Andmete sisestamiseks Finance and Operationsi klientrakenduses pole teil enam kandevaates piirangut vaadata ja sisestada ainult üht stsenaariumit. Selle asemel võimaldab võrdlusvaade hõlpsasti vaadata ja sisestada samal ajal mitme perioodi ning konto summasid. Paigutsi saab ka määratleda nii, et saate sisestada ja vaadata valuutat, kommentaare ning muid valikulisi andmeid. Paigutused võimaldavad ka määratleda, milliseid pearaamatu dimensioone ja dimensioonikirjeldusi tuleb kuvada. Ühtlasi sisaldavad paigutused stsenaariumipiiranguid määratlemaks, milliseid malli veerge saab redigeerida ja millised veerud peavad Excelis saadaval olema. Pärast paigutuse määratlemist luuakse selle jaoks mall. See mall omakorda loob vastava Exceli malli. Seejärel saate Exceli malli redigeerida, et kaasata rohkem valemeid ja vorminguid, ning seejärel selle uuesti üles laadida. Pärast seda määratakse paigutused lehel **Eelarve plaanimise protsess** igale etapireeglile. Seega asendavad paigutused malle, mida määrati ja kasutati samal moel.
 
 ### <a name="budget-planning-processes"></a>Eelarve planeerimise protsessid
 
@@ -61,8 +60,8 @@ Eelarve plaanimise protsessid on üldjoontes samad mis AX 2012-s. Olulisim muuda
 
 AX 2012-s salvestati põhjendusdokumendid manuse kausta. Eelmisi põhjendusdokumente ei täiendata. Põhjendusdokumente talletatakse nüüd andmebaasis. Kui see teave tuleb täiendatud versioonis salvestada, saate iga plaani puhul lõplikud põhjendusdokumendid manusena üles laadida toimingupaani nupuga **Põhjendus**. AX 2012-s loodi Exceli töölehed iga eelarveplaani kohta malli põhjal. Finance and Operationsis avavad kõik plaanid paigutuse koopia. Exceli faili muudatusi siiski ei salvestata. Kõik valemid või toetav teave, mida kasutatakse iga plaani alusel eraldi, tuleb lisada kommentaaride, põhjendusdokumendi või mõne muu lisaprotsessi kaudu.
 
-## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>AX 2012-st täiendaatud keskkonna konfigureerimine
-Järgmine näide aitab teil määrata, kuidas täiendatud süsteemi konfigureerida, kasutades täiendatud eelarve protsessi AX 2012 demoandmetest. Loodi veergude vaikekonfiguratsiooni andmed täiendamisprotsessi abistamiseks. Saate neid vaikeandmeid värskendada või kustutada, kui need ei vasta teie konfigureerimisnõuetele. **Märkus.** Siin on uued kohustuslikud väljad, mida süsteemis ei seadistata. Kui te ei pääse mõnelt lehelt, näiteks **Eelarve plaanimise konfiguratsioon**, edasi ega saa mujale navigeerida, võite brauseri sulgeda ja seejärel selle uuesti avada teisel lehel, et sisestada üksikasjad õiges järjekorras. Siin on kohustuslikud väljad, mis ei ole veel seadistatud. Seetõttu võib esineda probleeme, kuni kõik on konfigureeritud ja kõik kohustuslikud väljad seadistatud. Selles teemas selgitatakse, kuidas neid välju vastavalt vajadusele seadistada. Nõutud väljad on muu hulgas järgmised.
+## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>AX 2012-st täiendatud keskkonna konfigureerimine
+Järgmine näide aitab teil määrata, kuidas täiendatud süsteemi konfigureerida, kasutades täiendatud eelarve protsessi AX 2012 demoandmete põhjal. Loodi veergude vaikekonfiguratsiooni andmed täiendamisprotsessi abistamiseks. Saate neid vaikeandmeid värskendada või kustutada, kui need ei vasta teie konfigureerimisnõuetele. **Märkus.** Siin on uued kohustuslikud väljad, mida süsteemis ei seadistata. Kui te ei pääse mõnelt lehelt, näiteks **Eelarve plaanimise konfiguratsioon**, edasi ega saa mujale navigeerida, võite brauseri sulgeda ja seejärel selle uuesti avada teisel lehel, et sisestada üksikasjad õiges järjekorras. Siin on kohustuslikud väljad, mis ei ole veel seadistatud. Seetõttu võib esineda probleeme, kuni kõik on konfigureeritud ja kõik kohustuslikud väljad seadistatud. Selles teemas selgitatakse, kuidas neid välju vastavalt vajadusele seadistada. Nõutud väljad on muu hulgas järgmised.
 
 -   Leht **Eelarve planeerimise protsess**: väli **Konto vaikestruktuur**
 -   Leht **Eelarve planeerimise protsess**: väli **Paigutus** kiirkaardil **Eelarve planeerimise etapireeglid ja paigutused**
@@ -160,7 +159,6 @@ Lisatud on mitu andmeüksust, et võimaldada eelarve plaanimist kiiresti rakenda
 -   Eelarveplaani prioriteedid
 -   Eelarveplaani veerud
 -   Eelarveplaani paigutuse elemendid
-
 
 
 

@@ -1,14 +1,14 @@
 ---
-title: "Jaemüügi hinna haldamine"
-description: "Selles teemas kirjeldatakse müügihindade loomise ja haldamise põhimõtteid lahenduses Microsoft Dynamics 365 for Retail."
+title: Jaemüügi hinna haldamine
+description: Selles teemas kirjeldatakse müügihindade loomise ja haldamise põhimõtteid rakenduses Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 04/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,19 +17,18 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362138"
 ---
-
-# <a name="retail-sales-price-management"></a>Jaemüügi hinna haldamine
+# <a name="retail-sales-price-management"></a>Retaili müügihinna haldamine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas antakse teavet müügihindade loomise ja haldamise protsessi kohta lahenduses Microsoft Dynamics 365 for Retail. See keskendub protsessi põhimõtetele ja müügihindade mitmesuguste konfiguratsioonivalikute mõjudele.
+Selles teemas kirjeldatakse müügihindade loomise ja rakendamise protsessi rakenduses Microsoft Dynamics 365 for Retail. See keskendub protsessi põhimõtetele ja müügihindade mitmesuguste konfiguratsioonivalikute mõjudele.
 
 ## <a name="terminology"></a>Terminoloogia
 
@@ -54,7 +53,7 @@ Alloleval joonisel on näidatud, kuidas hinnagruppe kasutatakse. Pange tähele, 
 
 Hinnagruppe luues ei tohiks kasutada üht hinnagrupi mitut tüüpi jaemüügiüksuste jaoks. Muidu võib olla keeruline määrata, miks konkreetset hinda või allahindlust kandele rakendatakse.
 
-Nagu punane katkendjoon joonisel näitab, toetab Retail Microsoft Dynamics 365 otse kliendile määratud hinnagrupi põhifunktsiooni. Kuid sellisel juhul saate ainult müügihinna kaubanduslepingud. Kui soovite rakendada kliendipõhiseid hindu, soovitame otse kliendile hinnagruppe mitte määrata. Selle asemel kasutage alluvusi.
+Nagu punane katkendjoon joonisel näitab, toetab Retail Microsoft Dynamics 365 otse kliendile määratud hinnagrupi põhifunktsioone. Kuid sellisel juhul saate ainult müügihinna kaubanduslepingud. Kui soovite rakendada kliendipõhiseid hindu, soovitame otse kliendile hinnagruppe mitte määrata. Selle asemel kasutage alluvusi.
 
 Järgmistes jaotistes on rohkem teavet jaemüügiüksuste kohta, mida saate hinnagruppide kasutamisel kasutada eraldi hindade määramiseks. Kõikide nende üksuste hindade ja allahindluste konfiguratsioon on kahesammuline protsess. Neid samme võib läbida mis tahes järjekorras. Kuid loogiline järjekord on kõigepealt määrata üksustele hinnagrupid, kuna see samm on tõenäoliselt ühekordne seadistamissamm, mida tehakse juurutamise ajal. Kui hinnad ja allahindlused on loodud, saate neile eraldi määrata hinnagrupid.
 
@@ -67,7 +66,7 @@ Jaemüügitööstuses on väga tavaline, et eri kanalites on eri hinnad. Kaks pe
 
 ### <a name="affiliations"></a>Alluvused
 
-Alluvuse üldine definitsioon on seos grupiga. Retailis on alluvused kliendigrupid. Alluvused on palju paindlikum vahend kliendi hinnakujunduseks ja allahindluste määramiseks kui Microsoft Dynamics 365 kliendigruppide ja allahindlusgruppide põhimõiste. Esiteks saab alluvust kasutada nii hindade kui ka allahindluste jaoks, samas kui jaemüügiga mitteseotud hinnakujundusel on eraldi grupp iga allahindluse ja hinna tüübi jaoks. Teiseks võib klient kuuluda mitmesse alluvusse, aga vaid ühte iga tüübi jaemüügiga mitteseotud hinnakujundusgruppi. Viimasena, kuigi alluvusi saab seadistada nii, et need on kliendiga seotud, ei pea seda tegema. Konkreetseks otstarbeks mõeldud alluvust saab POS-is kasutada anonüümsete klientide jaoks. Anonüümse alluvuse allahindluse tüüpiline näide on allahindlus pensionäridele või õpilastele, mille korral klient saab allahindluse vaid grupi liikmekaarti näidates.
+Alluvuse üldine definitsioon on seos grupiga. Retailis on alluvused kliendigrupid. Alluvused on palju paindlikum vahend kliendi hinnakujunduseks ja allahindluste määramiseks kui Microsoft Dynamics 365 kliendigruppide ja allahindlusgruppide põhimõte. Esiteks saab alluvust kasutada nii hindade kui ka allahindluste jaoks, samas kui jaemüügiga mitteseotud hinnakujundusel on eraldi grupp iga allahindluse ja hinna tüübi jaoks. Teiseks võib klient kuuluda mitmesse alluvusse, aga vaid ühte iga tüübi jaemüügiga mitteseotud hinnakujundusgruppi. Viimasena, kuigi alluvusi saab seadistada nii, et need on kliendiga seotud, ei pea seda tegema. Konkreetseks otstarbeks mõeldud alluvust saab POS-is kasutada anonüümsete klientide jaoks. Anonüümse alluvuse allahindluse tüüpiline näide on allahindlus pensionäridele või õpilastele, mille korral klient saab allahindluse vaid grupi liikmekaarti näidates.
 
 Kuigi alluvused on kõige sagedamini seotud allahindlustega, saab neid kasutada ka eristava hinnakujunduse määramiseks. Näiteks kui jaemüüja müüb töötajale, võib ta soovida müügihinda muuta, selle asemel et rakendada tavahinnale allahindlust. Näiteks võib ka jaemüüja, kes müüb nii tavaklientidele kui ka äriklientidele, pakkuda äriklientidele paremaid hindu, lähtudes ostu mahust. Alluvuste korral on võimalikud mõlemad variandid.
 
@@ -232,4 +231,3 @@ Peale selle toetab järgmisi hinnakujunduse funktsioone **ainult** jaemüügi hi
 
 - Hind põhineb tootedimensioonil kõige konkreetsemast variandi hinnast kõige vähem konkreetse variandi hinnani tooteetaloni hinnani. Hinda, mis on määratud kaht tootedimensiooni kasutades (nt värv ja suurus), kasutatakse enne hinda, mis on määratud ainult üht tootedimensiooni kasutades (nt suurus).
 - Hinnakujunduse ja allahindluste juhtimiseks saab kasutada sama hinnagruppi.
-

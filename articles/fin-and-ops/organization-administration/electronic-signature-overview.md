@@ -1,13 +1,13 @@
 ---
 title: Digitaalallkirjad
-description: "Selles artiklis antakse ülevaade elektronallkirjadest ja kirjeldatakse nende kasutust Microsoft Dynamics 365 for Finance and Operationsis."
+description: Selles artiklis antakse elektronallkirjade ülevaade ja kirjeldatakse nende kasutust rakenduses Microsoft Dynamics 365 for Finance and Operations.
 author: maertenm
 manager: AnnBe
 ms.date: 08/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 676510ef503d51d914ba762e7ac15e2c4811c6ba
-ms.contentlocale: et-ee
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325660"
 ---
-
 # <a name="electronic-signatures"></a>Digitaalallkirjad
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis antakse ülevaade elektronallkirjadest ja kirjeldatakse nende kasutust Microsoft Dynamics 365 for Finance and Operationsis.
+Selles artiklis antakse elektronallkirjade ülevaade ja kirjeldatakse nende kasutust rakenduses Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="what-is-an-electronic-signature"></a>Mis on elektronallkiri?
 
@@ -39,9 +38,9 @@ Elektronallkiri kinnitab isiku, kes käivitab või kinnitab protsessi. Mõnes t�
 Elektronallkirjad on määrustele vastavuse nõue mitmes reguleeritud tööstusharus, nt farmaatsia-, toiduainete- ja joogi-, ja lennundus ja kaitsetööstuses. Need on vajalikud ka vastavuse tagamiseks USA toiduainete ja -ravimiameti väljastatud määruste CFR-i 21. ptk osaga 11.
 
 > [!NOTE]
-> Elektronallkiri pole sama, mis digitaalallkiri. Elektrooniline allkiri asendab lihtsalt käsitsi kirjutatud allkirja, samal ajal, kui digitaalallkirjaga kaasnevad ka täiendavad turvameetmed. Digitaalallkirja abil saab tuvastada kas teine kasutaja või protsess on andmeid rikkunud. Digitaalallkirja saab ka kinnitada ja omanik, kellele andmete allkirjastamise sertifikaat kuulub, ei saa seda ümber lükata. Nagu allpool kirjeldatud, on Microsoft Dynamics 365 for Finance and Operationsi elektronallkirjadel sisseehitatud digitaalallkirja funktsioon.
+> Elektronallkiri pole sama, mis digitaalallkiri. Elektrooniline allkiri asendab lihtsalt käsitsi kirjutatud allkirja, samal ajal, kui digitaalallkirjaga kaasnevad ka täiendavad turvameetmed. Digitaalallkirja abil saab tuvastada kas teine kasutaja või protsess on andmeid rikkunud. Digitaalallkirja saab ka kinnitada ja omanik, kellele andmete allkirjastamise sertifikaat kuulub, ei saa seda ümber lükata. Nagu allpool kirjeldatud, on rakenduse Microsoft Dynamics 365 for Finance and Operations elektronallkirjadel sisseehitatud elektronallkirja funktsioon.
 
-## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Elektronallkirjad Dynamics 365 for Finance and Operationsis
+## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Digitaalallkirjad rakenduses Dynamics 365 for Finance and Operations
 
 Finance and Operationsis saate kasutada tähtsateks äriprotsessideks elektronallkirju. Mõnedel protsessidel on sisseehitatud elektronallkirja võimalused. Igale andmebaasi tabelile või väljale saate luua ka allkirjanõuded.
 
@@ -111,4 +110,3 @@ Kinnitajate määramiseks tehke järgmist.
 1. Klõpsake lehe **Suvandid** vahekaardil **Kontod** valikut **Määra kinnitaja**.
 2. Valige väljal **Kinnitaja kasutaja ID** selle kasutaja ID, kes peab teise kasutaja tehtud muudatuse allkirjastama.
 3. Valige väljal **Allkirjastatava kasutaja ID** selle kasutaja ID, kelle muudatustele peab alla kirjutama.
-

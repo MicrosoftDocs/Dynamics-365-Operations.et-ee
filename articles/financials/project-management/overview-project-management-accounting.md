@@ -1,13 +1,13 @@
 ---
 title: Projektihaldus ja -arvestus
-description: "Projektihaduse ja raamatupidamise funktsiooni saab kasutada mitmes valdkonnas teenuse pakkumiseks, toote tootmiseks või tulemuse saavutamiseks."
+description: Projektihaduse ja raamatupidamise funktsiooni saab kasutada mitmes valdkonnas teenuse pakkumiseks, toote tootmiseks või tulemuse saavutamiseks.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
-ms.contentlocale: et-ee
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311331"
 ---
-
 # <a name="project-management-and-accounting"></a>Projektihaldus ja -arvestus
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Projektihalduse ja raamatupidamise funktsiooni saab kasutada mitmes valdkonnas, 
 
 [![Projektid valdkondade lõikes](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Kõnekeskuses saab kasutada piletit kõne lahendamiseks vajalike tegevuste kogumi kirjeldamiseks. Nõustamisettevõtted (nt juhtimis- või tehnilise nõustamise organisatsioonid või reklaamiagentuurid) viitavad oma tegevustele kui projektidele. Turunduses tähistab kampaania tehtavate tööde kogumit. Projektipõhises tootmises on tootmistellimus seotud mitmesuguste töödega, mis tuleb valmis kaupade tootmiseks teha. Olenemata nimest, mida nende projektide puhul kasutatakse, hõlmavad need ressursse, graafikuid ja kulusid ja projektihalduse ning raamatupidamise funktsioon Microsoft Dynamics 365 Finance and for Operationsis võib aidata neid projekte plaanida, läbi viia ja analüüsida.
+Kõnekeskuses saab kasutada piletit kõne lahendamiseks vajalike tegevuste kogumi kirjeldamiseks. Nõustamisettevõtted (nt juhtimis- või tehnilise nõustamise organisatsioonid või reklaamiagentuurid) viitavad oma tegevustele kui projektidele. Turunduses tähistab kampaania tehtavate tööde kogumit. Projektipõhises tootmises on tootmistellimus seotud mitmesuguste töödega, mis tuleb valmis kaupade tootmiseks teha. Olenemata nimest, mida nende projektide puhul kasutatakse, hõlmavad need ressursse, graafikuid ja kulusid ning projektihalduse ja raamatupidamise funktsioon Microsoft Dynamics 365 for Finance and Operationsis võib aidata neid projekte plaanida, läbi viia ning analüüsida.
 
 ## <a name="project-phases"></a>Projekti faasid
 Kuigi järgmine protsessivoog on suunatud välistele projektidele või vähemalt ühe kliendi heaks läbiviidavale projektile, kehtib see funktsioon ka ettevõttesiseste ainult kuluga projektide puhul. 
@@ -206,7 +205,7 @@ Saate tellida kaupu projektis tarbimiseks ettevõtte varudest. Teise võimalusen
 
 Kaupade tellimise viis oleneb sellest, kust te need tellite.
 
--   Kaupade ettevõtte varudest tellimiseks peate sisestama tellimuse kaubavajadusena. Kui kasutate lehte **Kaubavajadused**, saate seadistada nõude, et saate kaubad osaliste tarnetena. Seetõttu saate kaupade koguse tarbimist edasi lükata selle ajani, millal neid vaja on.
+-   Kaupade ettevõtte varudest tellimiseks peate sisestama tellimuse kaubavajadusena. Kui kasutate lehte **Kaubavajadused**, saate seadistada nõude, et saate kaubad osaliste tarnetena. Seetõttu saate kaupade koguse tarbimist edasi lükata selle ajani, millal neid vaja on.
 -   Kaupade tellimiseks väIiselt hankijalt peate looma tellimuse ostutellimusena lehel **Ostutellimus**.
 
 > [!NOTE] 
@@ -301,7 +300,7 @@ Olenevalt seadistusest saate prognoosida valitud projekti raha sissevoolu. Näit
 -   **Projekti kuupäev:** 5. märts 2012.
 -   **Arve kuupäev:** 31. märts 2012. See kuupäev määratletakse arve sageduse põhjal. Selle näite puhul määratakse arve sageduseks jooksev kuu. Seega esitatakse kõigi märtsikuus sisestatud kannete kohta arve kuu viimasel päeval.
 -   **Tähtaeg:** 14. aprill 2012. See kuupäev määratletakse projekti jaoks seadistatud maksetingimuste alusel. Selle näite puhul valiti maksetingimuseks 14 päeva. Seetõttu lisatakse 14 päeva arve kuupäevale, et saada tähtaeg 14. aprill 2012.
--   **Eeldatav müügi maksekuupäev:** 27. aprill 2012. See kuupäev arvutatakse, liites lehe **Projektihalduse ja raamatupidamise parameetrid** väljal **Üldised puhverpäevad** oleva päevade arvu lehe **Projektilepingud** välja **Üksikud puhverpäevad** päevade arvule ja liites siis koondsumma väljal **Tähtaeg** olevale päevade arvule. Näiteks sisestasite **3** väljale **Üldised puhverpäevad** ja **10** väljale **Üksikud puhverpäevad**. Seetõttu lisatakse tähtajale 13 päeva, et saada eeldatav müügi maksekuupäev 27. aprill 2012.
+-   **Eeldatav müügi maksekuupäev:** 27. aprill 2012. See kuupäev arvutatakse, liites lehe **Projektihalduse ja raamatupidamise parameetrid** väljal **Üldised puhverpäevad** oleva päevade arvu lehe **Projektilepingud** välja **Üksikud puhverpäevad** päevade arvule ja liites siis koondsumma väljal **Tähtaeg** olevale päevade arvule. Näiteks sisestasite **3** väljale **Üldised puhverpäevad** ja **10** väljale **Üksikud puhverpäevad**. Seetõttu lisatakse tähtajale 13 päeva, et saada eeldatav müügi maksekuupäev 27. aprill 2012.
 
 Üldised puhverpäevad võivad asendada üksikuid puhverpäevi või neid saab üksikutele puhverpäevadele liita.
 
@@ -441,4 +440,3 @@ Pärast seda, kui aruanne on arvutatud, saate vaadata järgmisi andmeid lehe **P
 -   **Tarbimine** – teave tundide, kaupade, kulude ja palgakannete tarbimise kohta.
 -   **Arve** – arvete ja ettemaksuarvete teave.
 -   **Tunnimäär** – tulu- ja kulukontole sisestatud tundide tunnimäärad.
-
