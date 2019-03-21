@@ -1,9 +1,9 @@
 ---
-title: Readefinitsiooni lahtrite muutmine
-description: Selles artiklis kirjeldatakse teavet, mis on nõutav finantsaruandes readefinitsiooni iga lahtri puhul, ja selgitatakse, kuidas seda teavet sisestada.
+title: Rea definitsioonide lahtrite muutmine
+description: Selles teemas kirjeldatakse teavet, mis on finantsaruandes nõutav readefinitsiooni iga lahtri puhul, ja selgitatakse, kuidas seda teavet sisestada.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
+ms.sourcegitcommit: eb24b63b10c4d06f7550bba9fbd1910ba2719b0a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323636"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379660"
 ---
-# <a name="modify-row-definition-cells"></a>Readefinitsiooni lahtrite muutmine
+# <a name="modify-row-definition-cells"></a>Rea definitsioonide lahtrite muutmine
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse teavet, mis on nõutav finantsaruandes readefinitsiooni iga lahtri puhul, ja selgitatakse, kuidas seda teavet sisestada.
+Selles teemas kirjeldatakse teavet, mis on finantsaruandes nõutav readefinitsiooni iga lahtri puhul, ja selgitatakse, kuidas seda teavet sisestada.
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Rea koodi määramine readefinitsioonis
 
@@ -386,7 +386,7 @@ Saate piirata rida olemasoleva konteerimiskoodiga. Veeru definitsioon peab sisal
 Mõned raamatupidamissüsteemid toetavad finantsandmetes konto atribuute ja kande atribuute. Need atribuudid toimivad virtuaalsete kontosegmentidena ja võivad sisaldada lisateavet konto või kande kohta. Selleks lisateabeks võivad olla konto ID-d, partii ID-d, sihtnumbrid või muud atribuudid. Kui teie raamatupidamissüsteem toetab atribuute, saate kasutada konto atribuute või kande atribuute readefinitsioonis rea muutujatena. Lisateabe saamiseks rea teabe alistamise kohta vt selles artiklis varem toodud jaotist Veeru definitsiooni alistamine.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Lahtri Link finantsdimensioonidele määramine
-Lahter **Link finantsdimensioonidele** sisaldab linke finantsandmetele, mis tuleks aruande igale reale lisada. See lahter sisaldab dimensiooniväärtusi, kuid saate segmendi- või dimensiooniväärtuste asemel või neile lisaks Microsoft Exceli töölehel lahtreid määrata. Dialoogiboksi **Dimensioonid** avamiseks topeltklõpsake lahtrit **Link finantsdimensioonidele**.
+Lahter **Link finantsdimensioonidele** sisaldab linke finantsandmetele, mis tuleks aruande igale reale lisada. See lahter sisaldab dimensiooniväärtusi. Dialoogiboksi **Dimensioonid** avamiseks topeltklõpsake lahtrit **Link finantsdimensioonidele**.
 
 > [!NOTE]
 > Aruande kujundaja ei saa valida kontosid, dimensioone ega välju Microsoft Dynamics ERP süsteemist, mis sisaldavad järgmisi kinnismärke: &, \*, \[, \], { või }. Readefinitsioonis juba olemasoleva rea teabe määratlemiseks lisage teave lahtrisse **Link finantsdimensioonidele**. Finantsandmetega seotavate uute ridade lisamiseks kasutage aruande definitsioonis uute ridade loomiseks dialoogiboksi **Sisesta read**. Veeru pealkiri muutub veeru konfiguratsioonist olenevalt, nagu on näidatud järgmises tabelis.
@@ -394,9 +394,7 @@ Lahter **Link finantsdimensioonidele** sisaldab linke finantsandmetele, mis tule
 | Valitud seose tüüp       | Lingi veeru kirjeldus muutub järgmiseks |
 |----------------------------------|----------------------------------------------------|
 | Finantsdimensioonid             | Link finantsdimensioonidele                       |
-| Väline tööleht               | Link töölehele                                  |
-| Finantsdimensioonid + tööleht | Link finantsdimensioonidele + tööleht           |
-| Halduse aruandja kujundaja       | Halduse aruandja kujundaja                         |
+| Aruande tööleht                 | Finantsaruandluse aruanne                         |
 
 ### <a name="specify-a-dimension-or-range"></a>Dimensiooni või vahemiku määramine
 

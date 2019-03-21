@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377131"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773273"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Jaemüügikanalite fiskaalüksuse integratsiooni ülevaade
 
@@ -30,7 +30,7 @@ ms.locfileid: "377131"
 
 ## <a name="introduction"></a>Sissejuhatus
 
-Selles teemas antakse ülevaade rakenduses Microsoft Dynamics 365 for Retail saadaolevatest fiskaalüksuse integratsioonivõimalustest. Fiskaalüksuse integratsioon hõlmab integratsiooni erinevate fiskaalseadmete ja -teenustega, mis võimaldavad jaemüügi fiskaalüksuse registreerimist kooskõlas kohalike rahandusseadustega, mille eesmärk on ennetada maksupettust jaemüügivaldkonnas. Tavalised stsenaariumid, mida fiskaalüksuse integratsioon hõlmab, on järgmised. 
+Selles teemas antakse ülevaade rakenduses Microsoft Dynamics 365 for Retail saadaolevatest fiskaalüksuse integratsioonivõimalustest. Fiskaalüksuse integratsioon hõlmab integratsiooni erinevate fiskaalseadmete ja -teenustega, mis võimaldavad jaemüügi fiskaalüksuse registreerimist kooskõlas kohalike rahandusseadustega, mille eesmärk on ennetada maksupettust jaemüügivaldkonnas. Tavalised stsenaariumid, mida fiskaalüksuse integratsioon hõlmab, on järgmised.
 
 - Jaemüügi registreerimine fiskaalseadmes, mis on ühendatud Reatil POS-iga, nagu fiskaalprinter, ja kliendi jaoks fiskaalsissetuleku printimine.
 - Retail POS-is lõpule viidud müükide ja tagastustega seotud teabe turvaline edastamine välisesse veebiteenusesse, mida käitab maksuamet.
@@ -65,7 +65,7 @@ Järgmises näites on toodud tüüpiline fiskaalüksuse registreerimise käivita
 7. Kassa analüüsib fiskaalseadmest või -teenusest saadud vastust, et teha kindlaks, kas fiskaalüksuse registreerimine õnnestus.
 8. CRT salvestab vastuse kanali andmebaasi.
 
-![Lahenduse skeemi](media/emea-fiscal-integration-solution.png "Lahenduse skeem")
+![Lahenduse skeemi](media/emea-fiscal-integration-solution.png "Lahenduse skeemi")
 
 ## <a name="error-handling"></a>Tõrketöötlus
 
@@ -86,6 +86,7 @@ Valikud **Jäta vahele** ja **Märgi registreerituks** võimaldavad teabekoodide
 Kui kande või sündmuse fiskaalüksuse registreerimine õnnestus, luuakse kanali andmebaasi fiskaalkanne ja lingitakse algse kande või sündmusega. Samamoodi, kui nurjunud fiskaalüksuse registreerimisel valitakse suvand **Jäta vahele** või **Märgi registreerituks**, talletatakse see teave fiskaalkandesse. Fiskaalkandel on fiskaalseadme või -teenuse fiskaalvastutus. Kui fiskaalüksuse registreerimisprotsess koosneb mitmest etapist, luuakse fiskaalkanne protsessi iga etapi kohta, mille tulemuseks on õnnestunud või nurjunud registreerimine.
 
 Fiskaalkanded edastatakse kaupluse haldusse *P-tööga* koos jaemüügikannetega. Lehe **Kaupluse kanded** kiirkaardil **Fiskaalkanded** saate vaadata jaemüügikannetega lingitud fiskaalkandeid.
+
 
 Fiskaalkanne talletab järgmised üksikasjad.
 
@@ -115,4 +116,5 @@ Retail SDK-s on saadaval ka järgmised fiskaalüksuse integratsiooni funktsiooni
 
 - [Digitaalallkiri Prantsusmaa jaoks](emea-fra-cash-registers.md)
 - [Digitaalallkiri Norra jaoks](emea-nor-cash-registers.md)
-- [Juhtseadme integratsiooni näidis Rootsi jaoks](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+- [Juhtseadme integratsiooni näidis Rootsi jaoks](./retail-sdk-control-unit-sample.md)
+

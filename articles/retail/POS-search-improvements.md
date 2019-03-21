@@ -3,7 +3,7 @@ title: Tooteotsing ja kliendiotsing kassas
 description: Selles teemas antakse ülevaade toote ja kliendi otsingufunktsiooni täiustustest rakenduses Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/28/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313585"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789865"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Tooteotsing ja kliendiotsing kassas
 
@@ -69,7 +69,7 @@ Kohalike tooteotsingute kogemus on nüüd kasutajasõbralikum. Tehtud on ka jär
 
 ## <a name="customer-search"></a>Kliendi otsing
 
-Kliendiotsingut kasutatakse klientide otsimiseks mitmesugusel eesmärgil. Näiteks võib kassapidajatel olla vaja vaadata kliendi soovinimekirja või ostuajalugu või lisada klienti kandesse. Mitme märksõnaga otsingute puhul annab kliendiotsingu algoritm tulemuseks kõik kliendid, kes mõnele otsitud märksõnale vastavad. Kuid kliendid, kes vastavad enamikule märksõnadest, kuvatakse tulemuste alguses. See sarnaneb viisile, kuidas teised otsingumootorid tulemusi kuvavad. Esmalt kuvavad need tulemused, mis ühtivad enamiku otsingusõnadega, ja seejärel otsingu märksõnadele osaliselt vastavad tulemused. See aitab kassapidajaid olukordades, kus nad kasutavad otsingus mitut märksõna, kuid ühes märksõnas on kirjaviga.
+Kliendiotsingut kasutatakse klientide otsimiseks mitmesugusel eesmärgil. Näiteks võib kassapidajatel olla vaja vaadata kliendi soovinimekirja või ostuajalugu või lisada klienti kandesse. Otsingu algoritm vastab otsinguterminitele järgmistes kliendi atribuutides olevate väärtuste suhtes: nimi, meiliaadress, telefon, kliendikaardi number, aadress ja konto number. Nende hulgas pakub nimeatribuut mitme märksõnaga otsingute puhul kõige enam paindlikkust, kuna algoritm annab tulemuseks kõik kliendid, kes mõnele otsitud märksõnale vastavad, ja kliendid, kes vastavad suurimale märksõnade hulgale, kuvatakse tulemuste eesotsas. See käitumine aitab kassapidajaid olukordades, kus nad otsivad täieliku nime sisestamise kaudu, kuid perekonnanimi ja eesnimi läksid algsel andmete sisestamisel vahetusse. Jõudluse huvides säilitavad kõik teised atribuudid siiski otsingu märksõnade järjekorra, mis tähendab, et kui otsingu märksõnad ei ühti andmete salvestamise järjekorraga, siis ühtegi tulemust ei anta.
 
 Vaikimisi toimub kliendiotsing kauplusega seotud klientide aadressiraamatutest. Seda tüüpi otsingut nimetatakse *kohalikuks kliendiotsinguks*. Kuid töötajad saavad otsida kliente ka globaalselt. Teisisõnu saavad nad otsida kõigist ettevõtte kauplustest või teistest juriidilistest isikutest. Seda tüüpi otsingut nimetatakse *kliendi kaugotsinguks*.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
+ms.sourcegitcommit: 21bbdac152e0cbb0576df9d5e6e90283175834ef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340725"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768410"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
 
@@ -86,7 +86,7 @@ Suuruse muutmise nõuete mõistmiseks peate teadma kannete maksimaalset mahtu, m
     - Lisafunktsioonide, nagu andmebaasilogid ja hoiatused, kasutamine. Äärmuslik andmebaasilogimine vähendab läbilaskevõimet tunnis tuuma kohta veelgi vähem kui 3000 reale.
     - Andmete koosseisu keerukus – lihtsa kontoplaani mõju läbilaskevõimele on teistsugune kui näiteks põhjaliku ja detailse kontoplaani puhul.
     - Kannete iseloomustus.
-    - 2 GB kuni 4 GB mälu iga tuuma kohta.
+    - 2 GB kuni 16 GB mälu iga tuuma kohta.
     - Abistavad andmebaasid andmebaasiserveris, nagu halduse aruandja ja SSRS-i andmebaasid.
     - Ajutine andmebaas = 15% andmebaasimahust, võrdse failide ja füüsiliste protsessorite arvuga.
     - SAN-i suurus ja läbilaskevõime põhinevad samaaegsete kannete kogumahul/-kasutusel.

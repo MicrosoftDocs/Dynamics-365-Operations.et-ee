@@ -3,7 +3,7 @@ title: Eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada.
 author: sericks007
 manager: AnnBe
-ms.date: 12/10/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329248"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836344"
 ---
 # <a name="removed-or-deprecated-features"></a>Eemaldatud või aegunud funktsioonid
 
@@ -35,11 +35,77 @@ See teema kirjeldab funktsioone, mis on rakendusest Dynamics 365 for Finance and
 
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
-> [!Note]
+> [!NOTE]
 > Alates rakenduse Dynamics 365 for Finance and Operations 2017. aasta juulikuu väljaandest platvormivärskendusega 8 on iga eemaldatud või aegunud funktsiooni puhul märgitud juurutuste tüüp. Kõik selles teemas mainitud varasemad versioonid toetasid ainult pilvejuurutusi.
 
-> [!Note]
+> [!NOTE]
 > Üksikasjalikku teavet rakenduse Finance and Operations objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas rakenduse Finance and Operations versioonis muudetud või eemaldatud.
+
+## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 platvormivärskendusega 25
+
+> [!IMPORTANT]
+> 25. platvormivärskendusega Dynamics 365 for Finance and Operations 10.0.1 on saadaval suunatud kasutajatele eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Standardsete ja esmaväljaannete teenusevärskendused](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="deprecated-apis-and-potential-breaking-changes"></a>Aegunud API-d ja võimalikud murrangulised muudatused
+
+#### <a name="deriving-from-internal-classes-is-deprecated"></a>Siseklassidest tuletamine on aegunud
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | 25. platvormivärskendusele eelnenud väljaannetega oli võimalik luua klass või tabel, mis on tuletatud teise paketi/mooduliga määratud siseklassist/-tabelist. See ei ole ohutu programmeerimistava. Alates 25. platvormivärskendusest kuvab kompilaator hoiatusteate, kui üritate seda teha.|
+| **Asendatud teise funktsiooniga?**   | Kompilaatori hoiatus asendatakse tulevases platvormivärskenduses tõrkega. See muudatus on käitamise ajal tagasiühilduv, mis tähendab seda, et kui käitate 25. või hilisemat platvormivärskendust, saab seda juurutada ükskõik millises liivakasti- või tootmiskeskkonnas ilma kohandatud koodi muutmata. See muudatus mõjutab ainult arendus- ja kompileerimisaega. |
+| **Mõjutatud tootealad**         | Visual Studio arendustööriistad. |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud – hoiatusest saab tulevases platvormivärskenduses kompileerimistõrge. |
+
+#### <a name="overriding-internal-methods-is-deprecated"></a>Sisemeetodite alistamine on aegunud
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | 25. platvormivärskendusele eelnenud väljaannetega oli võimalik alistada paketi/mooduliga määratud tuletatud klassi sisemeetod. See ei ole ohutu programmeerimistava. Alates 25. platvormivärskendusest kuvab kompilaator hoiatusteate, kui üritate seda teha.|
+| **Asendatud teise funktsiooniga?**   | See hoiatus asendatakse tulevases platvormivärskenduses kompileerimistõrkega. See muudatus on käitamise ajal tagasiühilduv, mis tähendab seda, et kui käitate 25. või hilisemat platvormivärskendust, saab seda juurutada ükskõik millises liivakasti- või tootmiskeskkonnas ilma kohandatud koodi muutmata. See muudatus mõjutab ainult arendus- ja kompileerimisaega. |
+| **Mõjutatud tootealad**         | Visual Studio arendustööriistad. |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud – hoiatusest saab tulevases platvormivärskenduses kompileerimistõrge. |
+
+## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 platvormivärskendusega 23
+
+### <a name="print-to-screen-functionality"></a>Ekraanile printimise funktsionaalsus
+Kliendid saavad platvormi Finance and Operations rakenduste loodud dokumentide allalaadimiseks kasutada aruandevaaturi juhtelemendi tegevust **Impordi**. See HTML-il põhinev aruande kuvamine võimaldab kasutajatel näha dokumendi lehekülgjaotuseta eelvaadet.
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | HTML-il põhineva eelvaate lehekülgjaotuseta vormi tõttu **ei** ole platvormiga Finance and Operations lõplikult loodavad füüsilised dokumendid täpselt samasugused. Äritegevuse standardvorminguna PDF-i täielik omaksvõtmine võimaldab meil drastiliselt lihtsustada kasutajate võimalusi rakendusaruannetega töötada ja dokumentide renderdamise protsessi sujuvamaks muuta. |
+| **Asendatud teise funktsiooniga?**   | Lähitulevikus saab PDF-dokumentidest platvormi Finance and Operations renderdatud aruannete vaikevorming.   |
+| **Mõjutatud tootealad**         | See muudatus **ei** mõjuta selliseid kliendistsenaariume, mille korral aruandeid levitatakse elektrooniliselt või saadetakse otse printeritesse.    |
+| **Juurutamissuvand**              | Kõik  |
+| **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata. PDF-dokumentide kujul rakendusaruannete automaatne allalaadimine brauserisse on funktsioonina planeeritud 2019. aasta mai platvormivärskendusse. <br><br>**NB!**  Praegustel klientidel, kes toetuvad ekraanile printimise funktsioonile, soovitame enne 26. platvormivärskenduse installimist teavitada [kliendituge](../lifecycle-services/lcs-support.md). |
+
+### <a name="client-kpi-controls"></a>Kliendi KPI-juhtelemendid
+Arendaja saab manustatud juhtimismõõdikuid (KPI-d) Visual Studio kaudu modelleerida ja lõppkasutaja neid veelgi kohandada.
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | KPI-de määramiseks kasutatavad kliendi algsed juhtelemendid püüdsid vähe kliente ja vajasid jälgitavate mõõdikute lisamiseks arendajat. |
+| **Asendatud teise funktsiooniga?**   | Teenusel PowerBI.com on olemas tipptasemel tööriistad välistest allikatest pärinevatel andmetel põhinevate KPI-de määramiseks ja haldamiseks.  Tulevases väljaandes plaanime anda teile võimaluse manustada teenuse PowerBI.com majutatud lahendusi rakenduste tööruumides.   |
+| **Mõjutatud tootealad**         | See värskendus takistab arendajatel Visual Studio kujundajas uute KPI-juhtelementide loomise.    |
+| **Juurutamissuvand**              | Kõik  |
+| **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata. |
+
+### <a name="deprecated-apis-and-future-breaking-changes"></a>Aegunud API-d ja tulevased murrangulised muudatused
+
+#### <a name="field-groups-containing-invalid-field-references"></a>Sobimatuid väljaviiteid sisaldavad väljagrupid
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Tabeli metaandmete definitsioonidel korral on võimalik, et väljagrupid sisaldavad sobimatuid väljaviiteid. See probleem on praegu liigitatud *kompilaatori hoiatuseks*, mitte *tõrkeks*, mis tähendab, et juurutatava paketi loomist ja juurutamist saab jätkata ilma probleemi kõrvaldamata. Juurutamise korral võib see põhjustada käitusaja tõrkeid finantsaruandluses ja SQL Serveri aruandlusteenustes (SSRS). Probleemi kõrvaldamiseks:<br><br>1. Eemaldage sobimatu väljaviide tabeli väljagrupi definitsioonist.<br><br>2. Kompileerige uuesti.<br><br>3. Veenduge, et kõikide hoiatuste või tõrgetega oleks tegeletud. |
+| **Asendatud teise funktsiooniga?**   | See hoiatus asendatakse tulevikus kompileerimistõrkega.  |
+| **Mõjutatud tootealad**         | Visual Studio arendustööriistad. |
+| **Juurutamissuvand**              | Kõik. |
+| **Olek**                         | Aegunud – sellest hoiatusest saab tulevikus kompileerimisaegne tõrge. Oleme sihiks võtnud 30. platvormivärskenduse. |
+
+#### <a name="complete-list"></a>Täielik loend
+Aegunuks kuulutatud API-de täieliku loendi nägemiseks vt teemat [Meetodite ja metaandmete elementide aegunuks kuulutamine](deprecation-deletion-apis.md).
 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 platvormivärskendusega 20
 

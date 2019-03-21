@@ -1,9 +1,9 @@
 ---
 title: Finantsaruannete vaatamine
-description: Selles artiklis kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid Microsoft Dynamics 365 for Finance and Operationsis. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
+description: Selles teemas kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid Microsoft Dynamics 365 for Finance and Operationsis. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
 author: kweekley
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a939ce2f43645963392363fc6452f8bc55bd963
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
+ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312941"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791437"
 ---
 # <a name="view-financial-reports"></a>Finantsaruannete vaatamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid Microsoft Dynamics 365 for Finance and Operationsis. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
+Selles teemas kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid Microsoft Dynamics 365 for Finance and Operationsis. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
 
 <a name="financial-reporting-overview"></a>Finantsaruandluse ülevaade
 ----------------------------
@@ -67,18 +67,15 @@ Finantsaruande saab kuvada alati soovitud valuutas. Aruande kuvamiseks teises va
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Finantsaruande kokkuvõttevaate kuvamine
 Finantsaruanne võib sisaldada üksikasjaridu ja kokkuvõtteridu. Üksikasjaread on read, mis sisaldavad põhikontosid või dimensioone. Kokkuvõtteread on kirjelduse, koondsumma ja arvutuste read. Ainult aruande kokkuvõtteridade kuvamiseks klõpsake nuppu **Kuva** ja seejärel valikut **Ainult kokkuvõtteread**. Aruanne ahendatakse ning kuvatakse ainult kokkuvõtteread. Üksikasjaridade kuvamiseks koos kokkuvõtteridadega klõpsake nuppu **Kuva** ja seejärel uuesti valikut **Ainult kokkuvõtteread**.
 
-## <a name="open-a-financial-report-from-a-previous-month"></a>Eelmine kuu finantsaruande avamine
-Saate vaadata praeguse või eelmise kuu aruandeid, ilma aruannet uuesti koostamata. Eelneva kuu aruande avamiseks klõpsake nuppu **Näita** ja seejärel nuppu **Eelmised aruanded**. Ilmub loend eelnevatest kuudest, mille jaoks aruanne loodi. Laiendage kuud, mille kohta soovite aruannet kuvada, valige kuupäev ja klõpsake siis nuppu **OK**. Kuvatakse eelmise kuu aruanne. Praeguse kuu aruande juurde naasmiseks klõpsake nuppu **Tühista**.
-
 ## <a name="print-a-financial-report"></a>Finantsaruande printimine
-Finantsaruande printimiseks klõpsake tegumiribal nuppu **Prindi** ja tehke siis vähemalt üks järgmistest toimingutest prindisuvandite määramiseks.
+Finantsaruande printimine loob PDF-faili, mille saab seejärel käsitsi printida. Prinditava finantsaruande loomiseks klõpsake tegumiribal nuppu **Prindi** ja tehke siis vähemalt üks järgmistest toimingutest prindisuvandite määramiseks.
 
 -   Prinditud aruandesse mitmesuguste üksikasjatasemete lisamiseks määrake liuguri asendiks **Jah** või **Ei**. Kui aruandes kasutatakse aruandluspuud, saate lisada kõik aruandlusüksused või ainult praeguse aruandlusüksuse.
 -   Lehe suuruse määramiseks valige loendist lehe suurus.
 -   Lehe paigutuse määramiseks valige loendist paigutus. Kui soovite sobitada aruande sisu enda valitud laiusega, määrake liuguri asendiks **Jah**.
 -   Lehe ääriste määramiseks tippige ülemise, alumise, vasaku ja parema äärise suurus tollides.
 
-Kui olete printimisvalikute seadistamise lõpetanud, klõpsake nuppu **Prindi** aruande printimiseks. Kui te ei soovi aruannet printida, klõpsake selle asemel nuppu **Tühista**. Kuvatakse prinditud aruande eelvaade. Saate valida printeri, kuhu aruanne edastada, ja kohandada prindisuvandeid.
+Kui olete prindisuvandite määramise lõpetanud, klõpsake jätkamiseks nuppu **Prindi** ja teilt küsitakse, kas soovite faili alla laadida või selle OneDrive’i või SharePointi salvestada. Kui te ei soovi jätkata, klõpsake selle asemel nuppu **Tühista**. Kui jätkate, hakatakse aruannet serveris renderdama ja teil palutakse aruanne PDF-vormingus alla laadida. Nüüd saate oma aruannet vaadata PDF-i vaaturis ja siin saate valida printeri, kuhu aruanne saata, ning teha prindisuvanditele täiendavaid kohandusi.
 
 ## <a name="export-a-financial-report"></a>Finantsaruande eksportimine
 Finantsaruande eksportimiseks klõpsake tegumiribal käsku **Ekspordi**. Aruanne eksporditakse Microsoft Excelisse ja brauser küsib, kas soovite eksporditud faili avada või salvestada. Aruande kujunduses määratletud ekspordisätted rakendatakse eksporditud aruandele.    
@@ -86,7 +83,7 @@ Finantsaruande eksportimiseks klõpsake tegumiribal käsku **Ekspordi**. Aruanne
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Finantsaruandlus rakendusele Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Finantsaruandlus](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

@@ -3,7 +3,7 @@ title: Põhivarade integreerimine
 description: Põhivarasid saab integreerida moodulitega Pearaamat, Varude haldus, Müügi- ja Ostureskontro. Samuti on teil võimalik seadistada moodulit Põhivarad, et see oleks integreeritud ostutellimustega.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2023d68a1455c6bb5ec569b6ae19fc3268f8769d
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336976"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778151"
 ---
 # <a name="fixed-assets-integration"></a>Põhivarade integreerimine
 
@@ -41,7 +41,7 @@ Lehel **Põhivara sisestusreeglid** saate määratleda põhikontod, kuhu sisesta
 ## <a name="inventory-management"></a>Varud
 Põhivarade laotöölehel saate sisestada juriidilise isiku enda jaoks toodetud või loodud põhivarade soetuse. Seejärel saate laokaubad kas soetusena või soetuse osana põhivaradesse edastada. 
 
-Saate varasid soetada ka ostutellimusi kasutades. Kui ostutellimused sisaldavad laokaupu, mis on määratud põhivarana, määrab märkeruudu **Luba vara soetamine ostmiselt** säte lehel **Põhivarade parameetrid**, kas soetus sisestatakse põhivara puhul arve sisestamisel. Põhivarade soetamise mõju varudele sõltub juriidilise isiku seadistusest. 
+Saate varasid soetada ka ostutellimusi kasutades. Kui ostutellimused sisaldavad laokaupu, mis on määratud põhivarana, määrab märkeruudu **Luba vara soetamine ostmiselt** säte lehel **Põhivarade parameetrid**, kas soetus sisestatakse põhivara puhul arve sisestamisel. Üks osturida loob ühe põhivara, olenemata kogusest. Põhivarade soetamise mõju varudele sõltub juriidilise isiku seadistusest. 
 
 Kui laokaubast saab põhivara soetus (laotöölehe, ostutellimuse või soetussoovituse kaudu), luuakse põhivara raamatu soetuskanne. Raamatu soetuses sisalduva tuletatud raamatu puhul luuakse ka tuletatud raamatu soetuskanne. 
 

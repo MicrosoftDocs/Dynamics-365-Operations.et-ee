@@ -3,7 +3,7 @@ title: Müügireskontro tsentraliseeritud maksed
 description: Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada sama kannet mitmesse juriidilisse isikusse. Selles artiklis tuuakse näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist erinevates stsenaariumides käsitletakse.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f6b8b1548bf70363431ad58482ba82cf11017332
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330743"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390139"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Müügireskontro tsentraliseeritud maksed
 
@@ -33,7 +33,7 @@ Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallat
 
 Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada sama kannet mitmesse juriidilisse isikusse. Lisaks säästab organisatsioon aega, kuna maksesoovituste, tasakaalustuste ja avatud ja suletud kannete redigeerimise protsessid on tsentraliseeritud maksete puhul sujuvamad. 
 
-Tsentraliseeritud maksete organisatsioonis on toimingute jaoks palju juriidilisi isikuid ja iga tegutsev juriidiline isik haldab oma müügireskontro teavet. Maksed kõigi tegutsevate juriidiliste isikute jaoks luuakse ühest juriidilisest isikust, mida nimetatakse makse juriidiliseks isikuks. Tasakaalustusprotsessi ajal luuakse rakendatavad millest milleni kanded. Saate määrata, milline juriidiline isik organisatsioonis võtab vastu realiseeritud kasumi või realiseeritud kahjumi kanded ning kuidas käsitsetakse tsentraliseeritud maksetega seotud allahindluskandeid. 
+Tsentraliseeritud maksete organisatsioonis on toimingute jaoks palju juriidilisi isikuid ja iga tegutsev juriidiline isik haldab oma müügireskontro teavet. Maksed kõigi tegutsevate juriidiliste isikute jaoks luuakse ühest juriidilisest isikust, mida nimetatakse makse juriidiliseks isikuks. Tasakaalustusprotsessi ajal luuakse rakendatavad millest milleni kanded. Saate määrata, milline juriidiline isik organisatsioonis võtab vastu realiseeritud kasumi või realiseeritud kahjumi kanded ning kuidas käsitsetakse tsentraliseeritud maksetega seotud allahindluskandeid. Tsentraliseeritud maksetöölehe real peaks suvandi **Konto tüüp** sätteks peaks olema määratud Klient. Suvandi **Vastaskonto tüüp** sätteks peaks olema määratud Pank või Pearaamat. Pangakonto peaks olema praeguses ettevõttes. 
 
 Järgmised näited illustreerivad sisestamise käsitlust erisugustes stsenaariumides. Kõigi nende näidete puhul eeldatakse järgmist konfiguratsiooni.
 
@@ -296,8 +296,3 @@ Fabrikam võtab kliendile 4000, Northwind Traders, vastu makse 75,00 ühikut. Ma
 | Müügireskontro (Lääne Fabrikam)    |              | 75,00         |
 | Võlg Ida Fabrikamilt (Lääne Fabrikam) | 25,00        |               |
 | Müügireskontro (Lääne Fabrikam)    |              | 25,00         |
-
-
-
-
-

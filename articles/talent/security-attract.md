@@ -3,7 +3,7 @@ title: Turvalisus ja rollihaldus Attractis
 description: Teema sisaldab teavet rolliturbe kohta rakenduses Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374776"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789693"
 ---
 # <a name="security-and-role-management-in-attract"></a>Turvalisus ja rollihaldus Attractis
 
@@ -100,14 +100,16 @@ Järgmised õigused kehtivad kandidaatide tööspetsiifilistele andmetele ja ava
 | Andmed või tegevus          | Värbaja | Personalijuht | Vestluse läbiviija |
 |-------------------------|-----------|----------------|-------------|
 | Avalduse dokumendid   | Luua, lugeda, värskendada ja kustutada töösid, mille pärast kasutaja värbamistöörühmas on | Luua, lugeda, värskendada ja kustutada töösid, mille pärast kasutaja värbamistöörühmas on | Kirjutuskaitstud |
-| Avalduse märkmed       | Luua, lugeda, värskendada ja kustutada töösid, mille pärast kasutaja värbamistöörühmas on | Luua, lugeda, värskendada ja kustutada töösid, mille pärast kasutaja värbamistöörühmas on | Loomine |
+| Avalduse märkmed       | Luua, lugeda, värskendada ja kustutada töösid, mille pärast kasutaja värbamistöörühmas on | Luua, lugeda, värskendada ja kustutada töösid, mille pärast kasutaja värbamistöörühmas on | Kirjutuskaitstud|
 | Avalduse tegevuse    | Vaadake, kas kasutaja on värbamistöörühmas | Vaadake, kas kasutaja on värbamistöörühmas | Kirjutuskaitstud |
 | Avalduse tagasiside    | Lisage ja vaadake kogu tagasisidet, kui kasutaja on värbamistöörühmas | Lisage ja vaadake kogu tagasisidet, kui kasutaja on värbamistöörühmas | Saab lisada tagasiside\*\* |
 | Avalduse tagasilükkamine      | Võidake lükata, kas kasutaja on värbamistöörühmas | Pole lubatud | Pole lubatud |
 | Etapi võrra edasi           | Võidake lükata, kas kasutaja on värbamistöörühmas | Võidake edasi liikuda, kas kasutaja on värbamistöörühmas | Pole lubatud |
 | Pakkumise haldamise käivitamine | Saab alustada pakkumise haldamist | Pakkumise tegevusel on konfiguratsioonivalik. | Pole lubatud |
 
-\*\* Konfiguratsioonivalik väljal [tagasiside tegevuse seadistamine](activities-attract.md#feedback-activity) kontrollib, kas küsitlejad näevad teineteise tagasisidet.
+
+\*\* Konfiguratsioonivalik väljal [tagasiside tegevuse seadistamine](./activities-attract.md) kontrollib, kas küsitlejad näevad teineteise tagasisidet.
+
 
 ## <a name="process-templates"></a>Töötlusmallid
 

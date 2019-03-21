@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 64362ae9e4ebb63ca6da2cd2f41376d1d9047694
+ms.sourcegitcommit: c6af2de37309b574dcb69c9caad436b55136600f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303977"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768481"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Rakenduse Talent süsteeminõuded ja värskenduspoliitika
 
@@ -36,8 +36,8 @@ Microsoft Dynamics 365 for Talenti veebirakendust saab kasutada kõigis järgmis
 
 *   Microsoft Edge (viimane avalikult saadaolev versioon) Windows 10-s
 *   Internet Explorer 11 operatsioonisüsteemides Windows 10, Windows 8.1 või Windows 7
-*   Google Chrome (viimane avalikult saadaolev versioon) operatsioonisüsteemides Windows 10, Windows 8.1, Windows 8, Windows 7 või tahvelarvuti Google Nexus 10
-*   Apple Safari (viimane avalikult saadaolev versioon) operatsioonisüsteemides Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) või 10.12 (Sierra) või Apple iPad
+*   Google Chrome (viimane avalikult saadaolev versioon)
+*   Apple Safari (viimane avalikult saadaolev versioon)
 
 Iga veebibrauseri uusima versiooni leidmiseks minge tarkvaratootja veebisaidile. 
 
