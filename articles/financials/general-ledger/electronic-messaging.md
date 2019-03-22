@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5326642553c7efcebc6c6af953e2dafe9e62e9ec
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357929"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832191"
 ---
 # <a name="electronic-messaging"></a>Elektronsõnumid
 
@@ -69,6 +69,7 @@ Kui te ei impordi andmeüksuse paketti, saate elektronsõnumite funktsiooni sead
 - [Lisaväljad](#additional-fields)
 - [Täidetava klassi sätted](#executable-class-settings)
 - [Kirjete asustamise tegevused](#populate-records-actions)
+- [Veebirakendused](#web-applications)
 - [Veebiteenuse sätted](#web-service-settings)
 - [Sõnumi töötlemise tegevused](#message-processing-actions)
 - [Elektronsõnumi töötlemine](#electronic-message-processing)
@@ -85,27 +86,49 @@ Sõnumiüksuste tüübid tuvastavad kirjete tüübid, mida kasutatakse elektrons
 
 Sõnumiüksuste tüübid tuvastavad olekud, mis rakenduvad sõnumiüksustele teie seadistataval töötlemisel. Saate sõnumiüksuste tüübid seadistada lehel **Sõnumiüksuste olekud** (**Maks** \> **Seadistamine** \> **Elektronsõnumid** \> **Sõnumiüksuste olekud**).
 
+Sõnumiüksuse oleku parameeter **Luba kustutamine** määrab selle, kas kasutajal on lubatud vormi **Elektronsõnumid** või **Elektronsõnumi üksused** kaudu sellises olekus sõnumiüksust kustuta. 
+
 ### <a name="message-statuses"></a>Sõnumite olekud
 
 Saate seadistada sõnumite olekud, mis peaksid sõnumite töötlemisel kättesaadavad olema. Saate sõnumite olekud seadistada lehel **Sõnumite olekud** (**Maks** \> **Seadistamine** \> **Elektronsõnumid** \> **Sõnumite olekud**).
+
+Väljade kirjeldused
+
+| Välja nimi           | Kirjeldus |
+|----------------------|-------------|
+|Teate olek        | Elektronsõnumi oleku kordumatu nimi, mis iseloomustab sõnumi olekut igal hetkel. See nimi kuvatakse vormil Elektronsõnumid ja elektronsõnumiga seotud logis. |
+|Kirjeldus           | Elektronsõnumi olekuga seotud kirjeldus      |
+|Vastuse tüüp         | Töötluse mõned tegevused võivad anda enam kui üht tüüpi vastuseid. Näiteks tegevus **Veebiteenus** võib olenevalt selle täitmise tulemusest anda vastuseks **Edukalt täidetud** või **Tehniline tõrge**. Sel juhul peab määrama sõnumi oleku mõlema vastusetüübi korral. Lisateavet tegevuse tüüpide ja nendega seotud vastusetüüpide kohta vt jaotisest [Sõnumi töötlemise tegevuse tüübid](#message-processing-action-types). |
+|Sõnumiüksuse olek   |Esineb juhtumeid, mille korral elektronsõnumi olek peab mõjutama vastavalt seotud sõnumiüksuste olekuid. Sellise sõnumiüksuse oleku seostamiseks sellel väljal valige see otsingust. |
+|Luba kustutamine          | Elektronsõnumi oleku parameeter **Luba kustutamine** määrab selle, kas kasutajal on lubatud vormi **Elektronsõnumid** kaudu sellises olekus elektronsõnumit kustutada.            |
 
 ### <a name="additional-fields"></a>Lisaväljad
 
 Elektronsõnumite funktsioon võimaldab teil asustada kirjeid kandetabelist. Sel viisil saate kirjed aruandluseks ette valmistada ja seejärel need esitada. Mõnikord pole kandetabelis piisavalt teavet kirje esitamiseks aruande nõuete kohaselt. Saate täita kogu teabe, mis tuleb kirje kohta esitada, seadistades lisaväljad. Lisaväljad saab seostada nii sõnumite kui ka sõnumiüksustega. Saate seadistada lisaväljad lehel **Lisaväljad** (**Maks** \> **Seadistamine** \> **Elektronsõnumid** \> **Lisaväljad**).
 
-Järgmises tabelis kirjeldatakse lehe **Lisaväljad** välju.
+Alljärgnevas tabelis kirjeldatakse lehe **Lisaväljad** üldisi välju.
 
 | Väli                | Kirjeldus |
 |----------------------|-------------|
 | Välja nimi           | Saate sisestada protsessiga seotud sõnumiüksuste täiendava atribuudi nime. See nimi kuvatakse kasutajaliideses, kui töötate protsessiga. Seda saab kasutada ka protsessiga seotud ER-i konfiguratsioonides. |
 | Kirjeldus          | Saate sisestada protsessiga seotud sõnumiüksuste täiendava atribuudi kirjelduse. |
-| Välja väärtus          | Saate sisestada välja väärtuse, mida kasutada aruandluse ajal seoses sõnumiüksusega. |
-| Välja kirjeldus    | Saate sisestada välja väärtuse kirjelduse, mida kasutada aruandluse ajal seoses sõnumiüksusega. |
+| Kasutaja redigeerimine            | Juhul kui kasutaja peab saama muuta kasutajaliidese abil lisavälja väärtust, märkige ruut **Jah**, muul juhul **Ei**. |
+| Loendur              | Kui lisaväli peab sisaldama elektronsõnumis olevat seerianumbrit, märkige see ruut. Lisaväljale sisestatakse väärtused automaatselt elektroonilise aruandluse eksportimise tegevuse sooritamise ajal.  |
+| Peidetud               | Kui lisaväli peab olema kasutajaliideses peidetud, märkige see ruut.  |
+
+Iga lisaväli võib olla töötlemise tarbeks eri väärtustega. Need väärtused saate määrata kiirkaardil Väärtused.
+
+| Väli                | Kirjeldus |
+|----------------------|-------------|
+| Välja väärtus          | Saate sisestada aruandluse ajal seoses sõnumi või sõnumiüksusega kasutatava väljaväärtuse. |
+| Välja kirjeldus    | Saate sisestada aruandluse ajal seoses sõnumi või sõnumiüksusega kasutatava väljaväärtuse kirjelduse. |
 | Konto tüüp         | Mõned lisaväljade väärtused võivad olla piiratud kindlate kontotüüpidega. Valige üks järgmistest väärtustest: **Kõik**, **Klient** või **Hankija**. |
 | Konto kood         | Kui valisite väljal **Konto tüüp** väärtuse **Klient** või **Hankija**, saate täiendavalt piirata välja väärtuste kasutamist kindla grupi või tabeliga. |
 | Konto/grupi number | Kui valisite väljal **Konto tüüp** väärtuse **Klient** või **Hankija** ja sisestasite väljale **Konto kood** grupi või tabeli, saate sellele väljale sisestada kindla grupi või vastaspoole. |
 | Jõustunud            | Saate määrata kuupäeva, mil väärtust tuleks arvestama hakata. |
 | Aegumine           | Saate määrata kuupäeva, mil väärtuse arvestamine tuleks lõpetada. |
+
+Väljadel **Konto/grupi number**, **Konto kood**, **Jõustunud**, **Aegumine** määratud kriteeriumide kombinatsioonid ei mõjuta vaikimisi väärtuse valikut lisaväljale, kuid neid saab kasutada täidetavas klassis, et rakendada mõnda lisavälja väärtuse spetsiifilist arvutusloogikat.
 
 ### <a name="executable-class-settings"></a>Täidetava klassi sätted
 
@@ -120,6 +143,8 @@ Saate täidetava klassi käsitsi seadistada lehel **Täidetava klassi sätted** 
 | Täidetava klassi nimi | Saate valida X++ täidetava klassi. |
 | Käivitamise tase       | See väli määratakse automaatselt, sest väärtus peab valitud täidetava klassi jaoks olema eelmääratletud. See väli piirab taset, millel seotud hindamine käivitatakse. |
 | Klassi kirjeldus     | See väli määratakse automaatselt, sest väärtus peab valitud täidetava klassi jaoks olema eelmääratletud. |
+
+Mõnel täidetaval klassil võivad olla kohustuslikud parameetrid, mille peab määrama enne täidetava klassi esmakordset käivitamist. Selliste parameetrite määramiseks klõpsake toimingupaanil nuppu **Parameetrid**, määrake dialoogiaknas vastavad väärtused ja väljad ning klõpsake nuppu **OK**. Nupu **OK** klõpsamine siin on oluline, kuna muidu parameetreid alusesse ei salvestata ja täidetavat klassi ei kutsuta õigesti.
 
 ### <a name="populate-records-actions"></a>Kirjete asustamise tegevused
 
@@ -143,6 +168,37 @@ Kiirkaardil **Andmeallikate seadistus** lisage rida iga andmeallika jaoks, mida 
 | Dokumendi kontoväli | Saate valida välja, millelt tuleks valitud tabelis võtta dokumendi konto. |
 | Kasutaja päring             | Kui see märkeruut on valitud, saate seadistada päringu, valides ruudustiku kohal suvandi **Redigeeri päringut**. Vastasel juhul asustatakse kõik kirjed andmeallikast. |
 
+### <a name="web-applications"></a>Veebirakendused
+
+Veebirakenduste lehte saate kasutada veebirakenduse parameetrite määramiseks, et toetada avatud standardit OAuth 2.0, mis võimaldab kasutajatel anda enda nimel rakendusele „turvaline delegeeritud juurdepääs” ilma oma juurdepääsumandaati jagamata. Samuti saate sellel lehel läbi teha autoriseerimisprotsessi ja saada autoriseerimiskoodi ja pääsutõendi. Veebirakenduse sätteid saate määrata lehel **Veebirakendused** (**Maks** \> **Seadistamine** \> **Elektronsõnumid** \> **Veebirakendused**).
+
+Alljärgnevas tabelis kirjeldatakse lehe **Veebirakendused** välju.
+
+| Väli                         | Kirjeldus |
+|-------------------------------|-------------|
+| Rakenduse nimi              | Saate sisestada veebirakenduse nime. |
+| Kirjeldus                   | Saate sisestada veebirakenduse kirjelduse. |
+| Baas-URL                      | Saate sisestada veebirakenduse Interneti-baasaadressi. |
+| Autoriseerimise URL-i tee        | Saate määrata tee autoriseerimiseks vajaliku URL-i koostamiseks.  |
+| Loa URL-i tee                | Saate määrata tee tõendiks vajaliku URL-i koostamiseks.  |
+| Ümbersuunamis-URL                  | Saate sisestada ümbersuunamis-URL-i.  |
+| Kliendi ID                     | Saate sisestada veebirakenduse kliendi ID.  |
+| Kliendi saladus                 | Saate sisestada veebirakenduse kliendi saladuse.  |
+| Serveri luba                  | Saate sisestada veebirakenduse serveritõendi.  |
+| Autoriseerimise vormingu vastendamine  | Saate valida autoriseerimise taotluse loomiseks kasutatava elektroonilise aruandluse (ER) vormingu.   |
+| Impordi loa mudelivastendus    | Saate valida pääsutõendi salvestamiseks kasutatava elektroonilise aruandluse importimismudeli vastendamise.  |
+| Antud ulatus      Pääsutõend aegub  | Seda välja värskendatakse automaatselt. Selle väärtus näitab, millises ulatuses saab veebirakendusele taotlusi teha.  |
+| Aktsepteeri                        | Saate määrata veebitaotluse aktsepteerimisatribuudi. Näiteks „application/vnd.hmrc.1.0+json”.  |
+| Sisutüüp           | Saate määrata sisu tüüpi. Näiteks „application/json”.  |
+
+Lehel **Veebirakendused** on autoriseerimisprotsessi toetamiseks saadaval järgmised funktsioonid:
+-   **Hangi autoriseerimiskood** – veebirakenduse autoriseerimise käivitamiseks.
+-   **Hangi pääsutõend** – pääsutõendi hankimise käivitamiseks.
+-   **Värskenda pääsutõendit** – pääsutõendi värskendamiseks.
+
+Kui süsteemi andmebaasi salvestatud veebirakenduse pääsutõend on krüptitud kujul, saab seda kasutada veebiteenusele tehtavate taotluste jaoks. Turvalisuse tagamiseks peab juurdepääs pääsutõendile olema antud ainult neile turberollidele, mis peavad saama nende taotlustega tegeleda. Kui turberühma mittekuuluv kasutaja üritab mõne taotlusega tegeleda, teavitab erand kasutajat, et tal ei ole lubatud valitud veebirakenduse kaudu tegutseda.
+Valige Maks > Seadistamine > Elektronsõnumid > Veebirakendused, et kasutada kiirtabelit **Turberollid**, et määrata rollid, millel peab olema juurdepääs pääsutõendile. Kui turberolle pole veebirakenduse jaoks määratud, saab ainult süsteemiadministraator selle veebirakenduse kaudu tegutseda.
+
 ### <a name="web-service-settings"></a>Veebiteenuse sätted
 
 Saate veebiteenuse sätteid kasutada otsese andmeedastuse seadistamiseks veebiteenusele. Veebiteenuse sätted saate seadistada lehel **Veebiteenuse sätted** (**Maks** \> **Seadistamine** \> **Elektronsõnumid** \> **Veebiteenuse sätted**).
@@ -153,13 +209,17 @@ Järgmises tabelis kirjeldatakse lehe **Veebiteenuse sätted** välju.
 |-------------------------|-------------|
 | Veebiteenus             | Saate sisestada veebiteenuse nime. |
 | Kirjeldus             | Saate sisestada veebiteenuse kirjelduse. |
-| Interneti-aadress        | Saate sisestada veebiteenuse Interneti-aadressi. |
+| Interneti-aadress        | Saate sisestada veebiteenuse Interneti-aadressi. Kui veebirakendus on määratud veebiteenusele ja selle Interneti-aadress peaks olema sama mis valitud veebirakendusele määratud aadress, klõpsake veebirakendusest pärineva **baas-URL-i** kopeerimiseks veebiteenuse väljale **Interneti-aadress** nuppu **Kopeeri baas-URL**.  |
 | Tunnistus             | Saate valida eelnevalt seadistatud võtmehoidla serdi. |
+| Veebirakendus         | Saate valida eelnevalt seadistatud võtmehoidla serdi. |
 | Vastuse tüüp – XML | Määrake selle suvandi väärtuseks **Jah**, kui vastuse tüüp on XML. |
 | Päringu meetod          | Saate määrata päringu meetodi. HTTP määrab päringu meetodite komplekti, mis näitavad toimingut, mis tuleb antud ressursiga teha. Meetod võib olla **HANGI**, **POSTITA** või muu HTTP meetod. |
 | Päringu päised         | Saate määrata päringu päised. Päringu päis on HTTP-päis, mida saab kasutada HTTP-päringus ja see pole sõnumi sisuga seotud. |
+| Aktsepteeri                  | Saate määrata veebitaotluse aktsepteerimisatribuudi. |
 | Aktsepteeri kodeering         | Saate määrata taotluse Aktsepteeri kodeering. Taotluse Aktsepteeri kodeering HTTP-päis reklaamib sisu kodeeringut, millest klient saab aru. See sisu kodeering on tavaliselt tihendamise algoritm. |
 | Sisu tüüp            | Saate määrata sisu tüübi. Sisu tüübi üksuse päis tähistab ressursi meediumitüüpi. |
+| Edukas vastuse kood   | Saate määrata HTTP olekukoodi, mis näitab, et taotlus õnnestus. |
+| Taotluse päiste vorminguvastendus  | Saate valida elektroonilise aruandluse vormingu veebitaotluste päiste loomiseks. |
 
 ### <a name="message-processing-actions"></a>Sõnumi töötlemise tegevused
 
@@ -172,17 +232,21 @@ Järgmistes tabelites kirjeldatakse lehel **Sõnumi töötlemise tegevused** ole
 | Väli                   | Kirjeldus |
 |-------------------------|-------------|
 | Tegevuse tüüp             | Saate valida tegevuse tüübi. Lisateavet saadaolevate valikute kohta vt jaotisest [Sõnumi töötlemise tegevuse tüübid](#message-processing-action-types). |
-| Vormingu vastendamine          | Saate valida ER-i vormingu, mis tuleb tegevuse jaoks kutsuda. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Elektroonilise aruandluse eksportimine**, **Elektroonilise aruandluse importimine** ja **Elektroonilise aruandluse eksportimissõnum**. |
-| Sõnumiüksuse tüüp       | Saate valida kirjete tüübid, mille saamiseks tegevust tuleb hinnata. See väli on saadaval tegevuste jaoks, mille tüüp on **Sõnumiüksuse käivitamise tase**, **Elektroonilise aruandluse eksportimine** ja **Elektroonilise aruandluse importimine** ja veel mõned muud tüübid. Kui jätate selle välja tühjaks, hinnatakse kõiki sõnumiüksuse tüüpe, mis on sõnumi töötlemiseks määratletud. |
+| Vormingu vastendamine          | Saate valida ER-i vormingu, mis tuleb tegevuse jaoks kutsuda. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Elektroonilise aruandluse eksportimine**, **Elektroonilise aruandluse importimine**, **Elektroonilise aruandluse eksportimissõnum**. |
+| Vorminguvastendus URL-i tee jaoks | Saate valida ER-i vormingu, mis tuleb tegevuse jaoks kutsuda. See väli on saadaval ainult nende tegevuste jaoks, mille tüüp on **Veebiteenus**, ja seda kasutatakse valitud veebiserveri jaoks määratud Interneti-baasaadressile lisatava URL-aadressi tee koostamiseks. |
+| Sõnumiüksuse tüüp       | Saate valida kirjete tüübid, mille saamiseks tegevust tuleb hinnata. See väli on saadaval tegevuste jaoks, mille tüüp on **Sõnumiüksuse käivitamise tase**, **Elektroonilise aruandluse eksportimine** ja **Elektroonilise aruandluse importimine**, **Veebiteenus** jne. Kui jätate selle välja tühjaks, hinnatakse kõiki sõnumiüksuse tüüpe, mis on sõnumi töötlemiseks määratletud. |
 | Täidetav klass        | Saate valida eelnevalt loodud täidetava klassi sätted. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Sõnumi täitmise tase** ja **Sõnumiüksuse täitmise tase**. |
 | Kirjete asustamise tegevus | Saate valida eelnevalt seadistatud kirjete asustamise tegevuse. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Kirjete asustamine**. |
+| Veebiteenus  | Saate valida varem seadistatud veebiteenuse. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Veebiteenus**.  |
+| Faili nimi  | Saate määrata nime failile, mis tekib veebiserveri vastuse või aruande loomise tulemusel. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Veebiteenus** ja **Elektroonilise aruandluse eksportimissõnum**.   |
+| Kuva dialoog  | Märkige see ruut, kui enne aruande loomist peab kasutaja nägema dialoogi. See väli on saadaval ainult tegevuste jaoks, mille tüüp on **Elektroonilise aruandluse eksportimissõnum**.   |
 
 ##### <a name="message-processing-action-types"></a>Sõnumi töötlemise tegevuse tüübid
 
 Väljal **Tegevuse tüüp** on saadaval järgmised suvandid.
 
-- **Kirjete asustamine** – eelnevalt peab olema seadistatud tegevus **kirjete asustamine**. Seostage see tegevusega, mille tüüp on **Kirjete asustamine**, et lubada selle kaasamine töötlemisse. Eeldatakse, et seda tegevuse tüüpi kasutatakse esimese tegevuse jaoks sõnumi töötlemisel. Seetõttu saab seda tüüpi tegevuse jaoks seadistada ainult tulemuse oleku. Esialgset olekut ei saa seadistada.
 - **Loo sõnum** – kasutage seda tüüpi, et kasutajad saaksid lehel **Elektronsõnum** käsitsi sõnumeid koostada. Seda tüüpi tegevuse jaoks ei saa esialgset olekut seadistada.
+- **Kirjete asustamine** – eelnevalt peab olema seadistatud tegevus **kirjete asustamine**. Seostage see tegevusega, mille tüüp on **Kirjete asustamine**, et lubada selle kaasamine töötlemisse. Eeldatakse, et seda tegevuse tüüpi kasutatakse kas sõnumitöötluse esimeseks tegevuseks (kui pole ühtegi varem loodud elektronsõnumit) või tegevusena, millega lisatakse sõnumiüksuseid varem loodud sõnumile (tegevusega, mille tüüp on **Loo sõnum**). Seetõttu saab seda tüüpi tegevuse jaoks seadistada ainult sõnumiüksuste tulemuse oleku. Esialgse oleku saab seadistada ainult sõnumi jaoks.
 - **Sõnumi täitmise tase** – kasutage seda tüüpi, et seadistada täidetav klass, mida tuleb hinnata sõnumi tasemel.
 - **Sõnumiüksuse täitmise tase** – kasutage seda tüüpi, et seadistada täidetav klass, mida tuleb hinnata sõnumiüksuse tasemel.
 - **Elektroonilise aruandluse eksportimine** – kasutage seda tüüpi tegevuste jaoks, mis peavad looma aruande, mis põhineb eksporditaval ER-i konfiguratsioonil sõnumiüksuse tasemel.
@@ -190,13 +254,13 @@ Väljal **Tegevuse tüüp** on saadaval järgmised suvandid.
 - **Elektroonilise aruandluse importimine** – kasutage seda tüüpi tegevuste jaoks, mis peavad looma aruande, mis põhineb imporditaval ER-i konfiguratsioonil.
 - **Kasutaja töötlemine sõnumi tasemel** – kasutage seda tüüpi tegevuste jaoks, mis eeldavad, et kasutaja peab midagi käsitsi tegema. Näiteks võib kasutaja uuendada sõnumite olekut.
 - **Kasutaja töötlemine** – kasutage seda tüüpi tegevuste jaoks, mis eeldavad, et kasutaja peab midagi käsitsi tegema. Näiteks võib kasutaja uuendada sõnumiüksuste olekut.
-- **Veebiteenus** – kasutage seda tüüpi tegevuste jaoks, mis peavad loodud aruande edastama veebiteenusele. Seda tegevuse tüüpi ei kasutata itaalia ostu- ja müügiarvete suhtluse aruandluse jaoks.
+- **Veebiteenus** – kasutage seda tüüpi tegevuste jaoks, mis peavad loodud aruande edastama veebiteenusele. Seda tegevuse tüüpi ei kasutata itaalia ostu- ja müügiarvete suhtluse aruandluse jaoks. Tegevuste jaoks, mille tüüp on **Veebiteenus**, saate lehe **Sõnumi töötlemise tegevused** kiirkaardil **Mitmesugused andmed** määrata suvandi **Kinnitustekst**. See kinnitustekst kuvatakse kasutajale enne valitud veebiteenusele tehtud taotlusega tegelemist.
 - **Kinnitamise taotlemine** – kasutage seda tüüpi kinnitamise taotlemiseks serverist.
 
 #### <a name="initial-statuses-fasttab"></a>Kiirkaart Algolekud
 
 > [!NOTE]
-> Kiirkaart **Algolekud** pole saadaval tegevuste jaoks, mille esialgne tüüp on **Kirjete asustamine** või **Loo sõnum**.
+> Kiirkaart **Algolekud** pole saadaval tegevuste jaoks, mille esialgne tüüp on **Loo sõnum**.
 
 | Väli               | Kirjeldus                                                                                         |
 |---------------------|-----------------------------------------------------------------------------------------------------|
@@ -212,11 +276,29 @@ Väljal **Tegevuse tüüp** on saadaval järgmised suvandid.
 | Vastuse tüüp       | Valitud sõnumi oleku vastuse tüüp. |
 | Sõnumiüksuse olek | Saate valida tulemuseks saavad olekud, mis peaksid olema saadaval pärast seda, kui valitud sõnumi töötlemise tegevus on hinnatud. See väli on saadaval ainult sõnumi töötlemise tegevuse jaoks, mida hinnatakse sõnumiüksuse tasemel. Näiteks on see saadaval tegevuste jaoks, mille tüüp on **Kasutaja töötlemine** ja **Sõnumiüksuse käivitamise tase**. Sõnumi töötlemise tegevuste jaoks, mida hinnatakse sõnumi tasemel, kuvab see väli sõnumiüksuse oleku, mis seadistati valitud sõnumi oleku jaoks. |
 
+Alljärgnev tabel näitlikustab, millised tulemuse olekud peab tegevuste tüüpidega seoses seadistatud.
+
+| Elektronsõnumi tegevuse tüüp / Vastuse tüüp  | Täitmine õnnestus  | Äritõrge  | Tehniline tõrge  | Kasutaja määratud  | Loobu  |
+|-------------------------------------------------|--------------|---------|-------|-----|-----------------|
+| Loo sõnum                                  | X            |         |       |     |                 |
+| Elektroonilise aruandluse eksportimine                     | X            |         |       |     |                 |
+| Elektroonilise aruandluse importimine                     |              |         |       |     |                 |
+| Veebiteenus                                     | X            |         | X     |     |                 |
+| Kasutaja töötlemine                                 |              |         |       |     |                 |
+| Sõnumi käivitamise tase                         |              |         |       |     |                 |
+| Asustamiskirjed                                |              |         |       |     |                 |
+| Sõnumiüksuse käivitamise tase                    |              |         |       |     |                 |
+| Päringu kinnitamine                            | X            |  X      | X     |     |                 |
+| Elektroonilise aruandluse eksportimissõnum             | X            |         |       |     |                 |
+| Kasutaja töötlemine sõnumi tasemel                   |              |         |       |     |                 |
+
 ### <a name="electronic-message-processing"></a>Elektronsõnumi töötlemine
 
-Elektronsõnumi töötlemine on elektronsõnumite funktsiooni põhikontseptsioon. See koondab tegevused, mida tuleb elektronsõnumi saamiseks hinnata. Tegevusi saab siduda esialgse oleku ja tulemuse oleku kaudu. Teise võimalusena saab tüübiga **Kasutaja töötlemine** tegevusi alustada sõltumatult. Lehel **Elektronsõnumi töötlemine** (**Maks** \> **Seadistamine** \> **Elektronsõnumid** \> **Elektronsõnumi töötlemine**) saate valida ka täiendavaid välju, mida tuleb töötlemise jaoks toetada.
+Elektronsõnumi töötlemine on elektronsõnumite funktsiooni põhikontseptsioon. See koondab tegevused, mida tuleb elektronsõnumi saamiseks hinnata. Tegevusi saab siduda esialgse oleku ja tulemuse oleku kaudu. Teise võimalusena saab tüübiga **Kasutaja töötlemine** tegevusi alustada sõltumatult. Samuti saate lehel **Elektronsõnumi töötlemine** (**Maks** \> **Seadistamine** \> **Elektronsõnumid** \> **Elektronsõnumi töötlemine**) valida lisavälju, mida tuleb töötlemise jaoks toetada kas sõnumi tasemel või sõnumiüksuste tasemel.
 
-Kiirkaart **Tegevus** võimaldab teil töötlemisele lisada eelmääratletud tegevusi. Saate määrata, kas tegevus peab käivitama eraldi või kas selle saab käivitada töötlemisega. (Kasutaja tegevused tuleb käivitada eraldi.)
+Kiirkaart **Tegevus** võimaldab teil töötlemisele lisada eelmääratletud tegevusi. Saate määrata, kas tegevus peab käivitama eraldi või kas selle saab käivitada töötlemisega. Selleks, et määrata tegevuse käivitamine ainult kasutaja poolt, märkige töötluses oleva tegevuse jaoks ruut **Käivita eraldi**. Eemaldage parameetri **Käivita eraldi** ruudust märge, kui soovite, et töötlemine käivitaks tegevuse, kui sõnumid või sõnumiüksused on olekus, mis on määratud selle tegevuse esialgseks olekuks. Tegevust, mille tüüp on **Kasutaja tegevus**, peab ainult käivitama eraldi. 
+
+Mõnikord võib olla seda vaja mitme tegevuse koondamiseks jadasse, isegi kui esimene neist on määratud eraldi käivituma. Näiteks kui on nõutud, et aruande loomise peab käivitama kasutaja, kuid loodud aruande peab kohe saatma veebiteenusele ja veebiteenuselt saadud vastus peab kajastuma süsteemis. Selleks saate kasutada suvandit **Eraldamatu jada**. Selleks klõpsake lehe **Elektronsõnumi töötlemine** kiirkaardi **Tegevus** toimingupaani nuppu **Eraldamatu jada**, looge jada ja valige see veerust **Eraldamatu jada** nende tegevuste jaoks, mis peavad alati koos käivituma. Sellisel juhul saab seadistada esimese tegevuse parameetriks **Käivita eraldi**, aga mitte ülejäänutel.
 
 Kiirkaart **Sõnumiüksuse lisaväljad** võimaldab teil lisada eelmääratletud lisavälju, mis on seotud sõnumiüksustega. Peata lisama lisaväljad iga sõnumiüksuse tüübi jaoks, millega väljad on seotud.
 
@@ -238,16 +320,22 @@ Kiirkaardil **Sõnumid** kuvatakse elektronsõnumid valitud töötlemise jaoks. 
 
 - **Uus** – see nupp on seotud tegevustega, mille tüüp on **Loo sõnum**.
 - **Kustuta** – see nupp on saadaval, kui valitud sõnumi praeguse oleku jaoks on valitud märkeruut **Luba kustutamine**.
+- **Kogu andmeid** – see nupp on seotud tegevusega, mille tüüp on **Kirjete asutamine**.
 - **Loo aruanne** – see nupp on seotud tegevustega, mille tüüp on **Elektroonilise aruandluse eksportimissõnum**.
 - **Saada aruanne** – see nupp on seotud tegevustega, mille tüüp on **Veebiteenus**.
+- **Impordi vastus** – see nupp on seotud tegevustega, mille tüüp on **Elektroonilise aruandluse importimine**.
 - **Värskenda olekut** – see nupp on seotud tegevustega, mille tüüp on **Kasutaja töötlemine sõnumi tasemel**.
 - **Sõnumiüksused** – avab lehe **Elektronsõnumi üksused**.
 
-Kiirkaart **Tegevuste logi** kuvab teabe kõigi tegevuste kohta, mis on valitud sõnumi jaoks käivitatud.
+Kiirkaart **Tegevuste logi** kuvab teabe kõigi tegevuste kohta, mis on valitud sõnumi jaoks käivitatud. Kui tegevuse tulemusel tekkis tõrge, lisatakse teave tõrke kohta seotud tegevuse logireale. Valige rida ja klõpsake tõrke kohta teabe vaatamiseks lehe ülemises paremas nurgas asuvat nuppu **Klipp**.
 
 Kiirkaart **Sõnumi lisaväljad** kuvab kõik lisaväljad, mis on sõnumite jaoks määratletud töötlemise seadistuses. See kuvab ka nende lisaväljade väärtused.
 
-Kiirkaart **Sõnumiüksused** kuvab kõik sõnumiüksused, mis on seotud valitud sõnumiga.
+Kiirkaart **Sõnumiüksused** kuvab kõik sõnumiüksused, mis on seotud valitud sõnumiga. Iga sõnumiüksuse jaoks saab olenevalt sõnumiüksuse olekust kasutada järgmisi funktsioone:
+
+- **Kustuta** – see nupp on saadaval, kui valitud sõnumiüksuse praeguse oleku jaoks on valitud märkeruut **Luba kustutamine**.
+- **Värskenda olekut** – see nupp on seotud tegevustega, mille tüüp on **Kasutaja töötlemine**.
+- **Algdokument** – see nupp võimaldab kasutajal avada lehel, millel on valitud sõnumi algdokument.
 
 Saate kõik valitud sõnumi manused läbi vaadata. Need manused on aruanded, mis on juba loodud ja vastu võetud. Valige sõnum, mille manuseid soovite läbi vaadata ja seejärel valige toimingupaanil nupp **Manus**.
 

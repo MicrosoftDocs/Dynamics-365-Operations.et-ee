@@ -3,7 +3,7 @@ title: Omnikanali täpsemad automaatsed kulud
 description: See teema kirjeldab võimalusi jaemüügikanali tellimuste täiendavate tellimuskulude haldamise kohta, kasutades täpsemate automaatsete kulude funktsioone.
 author: hhaines
 manager: annbe
-ms.date: 01/22/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a980ae9571fb47522d3966dc172b2343641b827e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b63a1bb8791ab3f0c71a2fd03677e7d0bf71e62
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345555"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789767"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Omnikanali täpsemad automaatsed kulud
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 See teema sisaldab teavet rakenduse Dynamics 365 for Retail versioonis 10.0 saadaolevate täpsemate automaatsete kulude funktsiooni konfigureerimise ja juurutamise kohta.
@@ -67,6 +66,8 @@ Uued toimingud on järgmised.
 - **143 – kulude ümberarvutamine**: see toiming võimaldab teha müügikande kulude täieliku ümberarvutamise. Mis tahes varasemad kasutaja ülekirjutatud automaatsed kulud arvutatakse ümber praeguse ostukorvi konfiguratsiooni põhjal.  
 
 Nagu kõigi kassatoimingute puhul saab teha turbekonfiguratsioonid, mille alusel nõutakse toimingu käivitamiseks halduri kinnitust.
+
+On oluline tähele panna, et ülal loetletud kassatoimingud saab kassa paigutusse lisada isegi siis, kui parameeter **Kasuta täpsemaid automaatseid kulusid** on keelatud. Selles stsenaariumis saavad organisatsioonid veel kasutada lisatud eeliseid nagu käsitsi lisatud kulude vaatamine ja nende redigeerimine toiminguga **Kulude haldamine**. Kasutajad saavad kassakannete jaoks kasutada toiminguid **Lisa päisetasud** ja **Lisa reatasud**, isegi kui parameeter **Kasuta täpsemaid automaatseid kulusid** on keelatud. Toimingul **Kulude ümberarvutus** on vähem funktsioonaalsust, kui seda kasutatakse, kui parameeter **Kasuta täpsemaid automaatseid kulusid** on keelatud. Selle stsenaariumi puhul ei arvutata midagi ümber ja mis tahes kandele käsitsi lisatud kulud lähtestatakse lihtsalt väärtusele $0,00.
 
 ## <a name="use-case-examples"></a>Kasutusjuhtumite näited
 Selles jaotises on kirjeldatud kasutusjuhtude näidiseid, mis aitavad teil mõista automaatsete kulude ja lisakulude konfigureerimist ning kasutamist jaemüügikanali tellimuste kontekstis. Need näited illustreerivad rakenduse käitumist, kui parameeter **Kasuta täpsemaid automaatseid kulusid** on lubatud.
@@ -207,3 +208,7 @@ Organisatsioonil on soovitatav lisada sissetuleku jalusesse ka vabas vormis teks
 ### <a name="preventing-charges-from-being-calculated-until-the-pos-order-is-completed"></a>Kulude arvutamise keelamine, enne kui kassatellimus on lõpule viidud
 
 Mõni organisatsioon võib soovida, et kasutaja oleks kassakandele kõigi müügiridade lisamise lõpetanud, enne kui kulud arvutatakse. Kulude arvutamise keelamiseks, kui kaupu lisatakse kassakandele, lülitage poe kasutatavas suvandis **Funktsiooniprofiil** sisse parameeter **Kulude käsitsi arvutamine**. Selle parameetri lubamisel peab kassa kasutaja kasutama toimingut **Arvuta kogusummad**, kui ta on toodete lisamise kassakandesse lõpule viinud. Seejärel käivitab toiming **Kogusummade arvutamine** vajadust mööda tellimuse päise või ridade puhul mis tahes automaatsete kulude arvutamise.
+
+### <a name="charges-override-reports"></a>Tasude tühistamisaruanded
+
+Kui kasutajad tühistavad arvutatud kulud käsitsi või lisavad kulu kandele käsitsi, on need andmed auditeerimiseks saadaval aruandes **Kulu tühistamisajalugu**. Aruandele pääsete juurde jaotisest **Retail \> Päringud ja aruanded \> Kulu tühistamisajalugu**.  On oluline tähele panna, et aruandele vajalikud andmed imporditakse kanali andmebaasist HQ-sse „P” jaotuse tööde plaanimise kaudu. Seetõttu ei pruugi kassas just tehtud tühistamiste teave aruandes saadaval olla enne, kui see töö on kaupluse kandeandmed HQ-sse üles laadinud. 

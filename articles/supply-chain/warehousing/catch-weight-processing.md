@@ -3,7 +3,7 @@ title: Tegeliku kaalu toote protsess laohalduse abil
 description: Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldusi määramaks, kuidas ja kus laos tööd tehakse.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5161860e3b1c5b0ae795d109159268be085ec5af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
+ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334055"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "777268"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Tegeliku kaalu toote protsess laohalduse abil
-[!include [preview banner](../../includes/preview-banner.md)]
+
 [!include [banner](../includes/banner.md)]
 
-**Funktsiooni esiletõstmine**
+## <a name="feature-exposure"></a>Funktsiooni esiletõstmine
 
 Laohalduse abil tegeliku kaaluga toodete haldamiseks peate selle funktsiooni litsentsi konfiguratsioonivõtme abil sisse lülitama. (Valige suvandid **Süsteemihaldus \> Seadistamine \> Litsentsi konfiguratsioon**. Seejärel laiendage vahekaardil **Konfiguratsioonivõtmed** jaotist **Kaubandus \> Lao- ja transpordihaldus** ja märkige ruut **Tegelik kaal lao jaoks**).
 
 > [!NOTE]
-> Sisse tuleb lülitada ka konfiguratsioonivõtmed **Lao- ja transpordihaldus** ning **Tegelike kaalude jaotuse protsess**.
+> Sisse peab lülitama ka litsentsi konfiguratsioonivõtmed **Lao- ja transpordihaldus** ning **Protsessi jaotus \> Tegelik kaal**.
 
 Kui litsentsi konfiguratsioonivõti on sisse lülitatud ja loote väljastatud toote, saate valida suvandi **Tegelik kaal**. Samuti saate seostada väljastatud toote laoala dimensiooni rühmaga, mille puhul on valitud parameeter **Kasuta laohalduse protsesse**.
 

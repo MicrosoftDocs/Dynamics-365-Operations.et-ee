@@ -3,7 +3,7 @@ title: Püsikliendi ülevaade
 description: Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Retail püsikliendi võimalusi ja vastavaid seadistusetappe, mis aitavad jaemüüjal hõlpsasti oma püsikliendiprogrammiga algust teha.
 author: scott-tucker
 manager: AnnBe
-ms.date: 01/08/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bb1a1ff28c846a35858df971e29bb7a551c8012a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9b73c52a72c82c109a1ff874d2369ce9c0b3a6d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320117"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789716"
 ---
 # <a name="loyalty-overview"></a>Püsikliendi ülevaade
 
@@ -93,7 +93,11 @@ Rakendusel Retail on osana 2018. aasta oktoobri väljaandest uus püsikliendipro
 
     ![Loo kliendikaarti](./media/Generate%20loyalty%20card.png "Looge automaatselt kliendikaardi number")
 
-- Teenitud ja lunastatud püsikliendipunktid salvestatakse nüüd iga kande ja müügitellimuse müügirea suhtes, et sama summa saaks täieliku või osalise tagastuse korral tagasi maksta või tagasi võtta. Lisaks annab punktide nägemine müügireal kõnekeskuse kasutajatele võimaluse vastata klientide küsimustele teenitud või lunastatud punktide kohta igal real. Enne seda muudatust kalkuleeriti boonuspunktid tagastustel alati ümber, mille tulemuseks oli originaalist erinev summa, kui teenimis- või lunastusreegleid oli muudetud ning kõnekeskuse kasutajatel ei olnud ülevaadet punktide jaotumisest. Punkte saab vaadata iga kliendikaardi **Kaardikannete** alt.    
+- Teenitud ja lunastatud püsikliendipunktid salvestatakse nüüd iga kande ja müügitellimuse müügirea suhtes, et sama summa saaks täieliku või osalise tagastuse korral tagasi maksta või tagasi võtta. Lisaks annab punktide nägemine müügireal kõnekeskuse kasutajatele võimaluse vastata klientide küsimustele teenitud või lunastatud punktide kohta igal real. Enne seda muudatust kalkuleeriti boonuspunktid tagastustel alati ümber, mille tulemuseks oli originaalist erinev summa, kui teenimis- või lunastusreegleid oli muudetud ning kõnekeskuse kasutajatel ei olnud ülevaadet punktide jaotumisest. Punkte saab vaadata iga kliendikaardi **Kaardikannete** alt. Funktsiooni lubamiseks lülitage sisse konfiguratsioon **Sisesta boonuspunktid müügirea kohta** jaotise **Jaemüügi ühisparameetrid**  >  vahekaardil **Üldine**.
+
+>[!NOTE]
+> Soovitame tungivalt see funktsioon sisse lülitada, et tagastuste korral saaks kliendile tagasi anda või temalt võtta õige arvu punkte.
+
 - Jaemüüjad saavad nüüd määrata iga boonuspunkti üleandmisperioodi. Üleandmisperioodi konfiguratsioon määrab kestuse alates teenimiskuupäevast, pärast mida on boonuspunktid klientidele saadavad. Üleandmata punkte saab vaadata **Üleandmata punktide** veerus **Kliendikaartide** lehel. Lisaks saavad jaemüüjad määratleda maksimaalse püsikliendiprogrammi preemiapunktide määra ühe klinedikaardi kohta. Seda välja saab kasutada püsikliendiprogrammi pettuste vähendamiseks. Kui maksimaalne boonuspunktide summa on saavutatud, ei saa kasutaja rohkem punkte teenida. Jaemüüja võib otsustada sellised kaardid blokeerida, kuni nad on uurinud võimalikke pettuseid. Kui jaemüüja tuvastab pettuse, saab ta lisaks kliendikaardi blokeerimisele märkida ka kliendi blokeerituks. Selleks määrake **Blokeerida kliendi püsikliendiprogrammi registreerimise** atribuut olekusse **Jah** **Retaili** kiirkaardil **Kõigi klientide** all. Blokeeritud kliendile ei saa väljastada kliendikaarti ühestki teisest kanalist.
 
     ![Pensionireeglid ja maksimaalsed preemiapunktid](./media/Vesting%20and%20maximum%20reward%20points.png "Määratlege pensionireeglid ja maksimaalsed preemiapunktid")
@@ -139,7 +143,8 @@ Kui see on seadistatud, saavad kliendid oma boonuspunktid lunastada kõnekeskuse
 > Praegu sunnib süsteem kasutajaid seadistama muude tegevusetüüpide kohta numbriseeria, kuid see pole tulevastes väljaannetes vajalik etapp. Numbriseeria seadistamiseks minge jaotisse **Jaemüügi ühisparameetrid > Numbriseeriad** ja valige numbriseeria suvandile **Püsikliendi muu tegevusetüübi ID**.
 
 - Hea klienditeeninduse pakkumiseks ja kliendipäringute tõhusaks lahendamiseks peab kassapidajatel olema juurdepääs kliendi täielikule profiilile. Väljaandes 10.0 saavad kassapidajad näha kassas püsikliendi ajaloolisi üksikasju koos seostatud püsikliendiprogrammi ja järguteabega.
-- Tasuta või allahindlusega tarne on üks kõrgelt motiveeriv tegur, mis paneb kliente veebist ostma. Tarnimiskampaaniate loomiseks võtsime väljaandes 10.0 kasutusele uut tüüpi kampaania nimega Saatmisläve allahindlus, kus jaemüüja saab määratleda läved, mille täitmisel kvalifitseerub klient allahindlusega või tasuta tarnele. Näiteks tuleb kõigil püsiklientidel kulutada 35 eurot kahepäevase tarne või tasuta kahepäevase tarne saamiseks. Need allahindlused kohalduvad ainult tellimuste saatekulule. Kuna jaemüüja saab seadistada mitut tüüpi tasusid, nagu käsitlemise või paigaldamise eest, peab ta määrama, millist tasu peetakse saatekuluks. Selle konfiguratsiooni nimi on Saatekulu kood ja see on saadaval lehe **Jaemüügi parameetrid** vahekaardil **Klienditellimused**. See allahindlus arvestab kõiki olemasolevaid tavalisi allahindlusvõimalusi, näiteks lubamine jaemüüjal piirata neid allahindlusi kupongidega, nii et allahindlusi saavad ainult kupongidega kliendid. Samuti kasutavad need allahindlused hinnagruppide võimalust määrata sobilikkust neile allahindlustele. Näiteks saab jaemüüja käivitada need soodustused ainult veebikanalites ja/või teatud kliendigruppide, näiteks püsiklientide, kanalites. Kui määratud tarneviisiga tellimuseread vastavad määratletud lävele, kohaldub saatmisele allahindlus ja vähendab saatekulu seadistatud allahindluse põhjal. 
+- Tasuta või allahindlusega tarne on üks kõrgelt motiveeriv tegur, mis paneb kliente veebist ostma. Tarnimiskampaaniate loomiseks võtsime väljaandes 10.0 kasutusele uut tüüpi kampaania nimega Saatmisläve allahindlus, kus jaemüüja saab määratleda läved, mille täitmisel kvalifitseerub klient allahindlusega või tasuta tarnele. Näiteks tuleb kõigil püsiklientidel kulutada 35 eurot kahepäevase tarne või tasuta kahepäevase tarne saamiseks. See funktsioon mõjutab uut täpsemate automaatsete kulude võimalust. Vaadake täpsemate automaatsete kulude dokumentatsiooni siin: https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/omni-auto-charges. Täpsemad automaatsed kulud tuleb lubada tarnimiskampaaniate toimimiseks. Need saab lubada lehe **Jaemüügi parameetrid** vahekaardil **Kliendi tellimused**, kui sisse lülitada konfiguratsioon Kasuta täpsemaid automaatseid kulusid. Kuna jaemüüja saab seadistada mitut tüüpi tasusid, nt käsitlemise või paigaldamise eest, peab ta määrama, millist tasu peetakse saatekuluks. Saatmise allahindlused kohalduvad ainult saatekulule. Tasu määramiseks saatekuluna liikuge vormile **Kulukoodid**, mille leiate jaotisest **Jaemüük** > **Jaemüügi IT** > **Kanali seadistus** > **Kulud** ja märkige soovitud kulude jaoks märkeruut Kättetoimetamise tasu. Nüüd saate liikuda vormile **Jaemüügi tarne läve allahindlus** ja määrata allahindluse.
+    Nagu ka toodete allahindlused, arvestab see allahindlus kõiki olemasolevaid tavalisi allahindlusvõimalusi, näiteks lubamine jaemüüjal piirata neid allahindlusi kupongidega, nii et allahindlusi saavad ainult kupongidega kliendid. Samuti kasutavad need allahindlused hinnagruppide võimalust määrata sobilikkust neile allahindlustele. Näiteks saab jaemüüja käivitada need soodustused ainult veebikanalites ja/või teatud kliendigruppide, näiteks püsiklientide, kanalites. Kui määratud tarneviisiga tellimuseread vastavad määratletud lävele, kohaldub saatmisele allahindlus ja vähendab saatekulu seadistatud allahindluse põhjal. 
 
 > [!NOTE]
-> Erinevalt muudest perioodilistest allahindlustest, nagu koguse, liht-, segamise ja sobitamise ning läveallahindlused, ei loo saateallahindlus allahindlusridu, vaid saatekulu tuleb redigeerida otse.
+> Erinevalt muudest perioodilistest allahindlustest, nagu koguse, liht-, segamise ja sobitamise ning läveallahindlused, ei loo saateallahindlus allahindlusridu, pigem redigeerib saatekulu otse ja lisab allahindluse nime kulu kirjeldusele.

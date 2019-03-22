@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d636e77888fff383849b3a91bf643475a6d516ac
-ms.sourcegitcommit: 383a344deb5abf48584ea2ee7774b8dbbbec49b3
+ms.openlocfilehash: efda4e39f63155785386ecec6d21973e01a0f69f
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "377874"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770889"
 ---
 # <a name="integration-with-microsoft-dynamics-365-for-field-service"></a>Microsoft Dynamics 365 for Field Service-iga integreerimine
 
@@ -75,7 +75,7 @@ Lisafunktsioon selles teises etapis on suunatud väljatehnikutele ülevaate andm
 ### <a name="system-requirements-for-finance-and-operations"></a>Rakenduse Finance and Operations süsteeminõuded
 Rakenduse Field Service integratsioon toetab järgmisi versioone.
 
-- Rakenduse Dynamics 365 for Finance and Operations versioon 8.1.2 (detsember 2019) väljastati detsembris 2019 ja selle järgunumber on 8.1.195 platvormivärskendusega 22 (7.0.5095). 
+- Rakenduse Dynamics 365 for Finance and Operations versioon 8.1.2 (detsember 2018) väljastati detsembris 2018 ja selle järgunumber on 8.1.195 platvormivärskendusega 22 (7.0.5095). 
 
 ### <a name="system-requirements-for-field-service"></a>Rakenduse Field Service süsteeminõuded
 Rakenduse Field Service integreerimislahenduse kasutamiseks tuleb installida järgmised komponendid.

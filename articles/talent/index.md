@@ -75,7 +75,7 @@ Saate koostada plaane tasu tulemuslikuks ja õiglaseks haldamiseks ning selleks,
 
 ## <a name="develop-and-train-employees"></a>Töötajate arendamine ja koolitamine
 
-Selleks et aidata oma töötajatel jõuda nende karjäärieesmärkideni, täites samas oma tähtsaid äriülesandeid, saate seadistada eesmärke, luua jõudluse ülevaatusi ning jälgida tagasisidet. Selleks et aidata töötajatel arendada vajalikke oskusi, saate enne kursusele juhendaja määramist või kellegi registreerimist kursusele seadistada ka juhendajaid, kursusetüüpe, kursuseid, kursusekirjeldusi, päevakordi, teid ja seansse. Juhendajad peavad juba töötajate, kandidaatide või kontaktidena olemas olema.
+Saate seadistada eesmärke, luua tulemuste ülevaatusi ja jälgida tagasisidet, et aidata töövõtjatel saavutada karjäärieesmärke, täites samas äriliselt kriitilisi ülesandeid. Selleks et aidata töövõtjatel vajalikke oskusi arendada, saate ka seadistada juhendajad, kursusetüübid, kursused, kursusekirjeldused, päevakorrad, teed ja sessioonid enne kursusele juhendaja määramist või kellegi registreerimist kursusele. Juhendajad peavad juba töötajate, kandidaatide või kontaktidena olemas olema.
 
 -   [Jõudlushaldus](performance-management-overview.md)
 -   [Töötajate oskuste ja ärivajaduste joondamine](skills.md)

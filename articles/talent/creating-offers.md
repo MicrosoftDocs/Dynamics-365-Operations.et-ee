@@ -3,7 +3,7 @@ title: Pakkumiste loomine, kinnitamine ja allkirjastamine
 description: Selles teemas kirjeldatakse, kuidas luua, kinnitada ja allkirjastada kandidaadile tehtavat pakkumist, kasutades rakendust Dynamics 365 for Talent.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5ad7ce1e089d2a8b5c52e7cd01bb3d89070004b1
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304097"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768901"
 ---
 # <a name="creating-approving-and-signing-offers"></a>Pakkumiste loomine, kinnitamine ja allkirjastamine
 
@@ -104,15 +104,20 @@ Enne pakkumise kandidaadile saatmist saate teha mitmeid tegevusi.
 
 -  Võib olla soovite pakkumise kinnitamise protsessi lisada lisadokumente. Teil on võimalik lisada nõutava dokumendi tüüp.
 
-- Elektroonilise allkirja valik: kui Adobe Sign on valitud eelistatud elektroonilise allkirjastamise meetodina, peavad pakkumiste loojad ühendama oma Adobe Sign litsentsi. On kaks võimalust. Valige kasutaja **Sätted** jaotises **Pakkumine**, jaotise all **Ühendused** looge ühendus jaotisega **Adobe Sign**. Teise võimalusena palutakse teil luua ühendus ekraaniga Saada pakkumine kandidaadile, kui ei ole juba ühendust kasutaja sätete põhjal loodud. 
+- Elektroonilise allkirja võimalus: teie valitud elektroonilise allkirja teenuse osutaja ühendamiseks on kaks viisi. Avage jaotise **Ühendused** jaotise **Pakkumine** menüü **Kasutajasätted**, valige ühenduse loomiseks **Adobe Sign** või **DocuSign**. Teise võimalusena palutakse teil luua ühendus lehega **Saada pakkumine kandidaadile**, kui kasutajasätete põhjal pole ühendust juba loodud. Elektroonilise allkirja konto peab ühendama ainult korra. Sama kasutajalitsentsi kasutatakse tulevaste pakkumispakettide puhul, mis on välja saadetud sama kasutaja poolt. 
 
-> [!NOTE]
-> Kasutajatel tuleb Adobe Sign'iga ühenduda vaid ühe korra. Sama kasutajalitsentsi kasutatakse tulevaste pakkumispakettide puhul, mis on välja saadetud sama kasutaja poolt. 
+### <a name="adobe-sign"></a>Adobe Sign
+Kui eelistatud elektroonilise allkirjastamise meetodiks on valitud Adobe Sign, peavad pakkumiste loojad nüüd ühendama oma Adobe Signi litsentsi. 
+
+### <a name="docusign"></a>DocuSign
+Kui eelistatud elektroonilise allkirjastamise meetodiks on valitud DocuSign, peavad pakkumiste loojad nüüd ühendama oma DocuSigni litsentsi. Pärast sisselogimist ühendatakse kasutaja DocuSigni profiiliga seotud vaikekonto ja load rakendusega Talent Attract. 
 
 -  Vajadusel saate meilimalli vaadata ja redigeerida.
 
 Kui pakkumine on valmis ja klõpsate **Saada kandidaadile**, saab kandidaat meili, et pakkumine ootab läbi vaatamist.
 
+>[!NOTE]
+> Kui kasutate lahendust Adobe Sign või DocuSign ning pakkumise saatmisel kandidaadile tekib tõrge, proovige menüü **Kasutajasätted** kaudu elektroonilise allkirja kasutajakonto ühendus kõigepealt katkestada ja siis taasluua. Kui probleem ei lahene, võtke lingi **Teata probleemist** kaudu ühendust meie kasutajatoega.
 
 ## <a name="candidates-actions-after-receiving-an-offer"></a>Kandidaadi tegevused pärast pakkumise saamist
 

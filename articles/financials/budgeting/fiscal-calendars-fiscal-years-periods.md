@@ -3,7 +3,7 @@ title: Rahanduskalendrid, rahandusaastad ja -perioodid
 description: Selles artiklis käsitletakse rahanduskalendreid, rahandusaastaid ja -perioode ning seda, kuidas neid kasutada juriidiliste isikute, põhivara ja eelarvestamise puhul.
 author: aprilolson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 01f8f939079d55d5a75d1a4b1fd718bf2a3f9700
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361655"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778197"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Rahanduskalendrid, rahandusaastad ja -perioodid
 
@@ -43,7 +43,7 @@ Sulgemisperioodi kasutatakse pearaamatukannete eraldamiseks, mis luuakse, kui ma
 Sulgemisperioodi loomisel saate valida perioodi, mille olek on Avatud ja millel on kuupäevad, mida soovite kasutada. Uus sulgemisperiood kopeerib algus- ja lõppkuupäevad olemasolevast perioodist. Esialgne periood on jätkuvalt olemas. Näiteks valite perioodi 12, mis on majandusaasta viimane periood, ja mille kuupäevad on 1. august kuni 31. august. Sisestate sulgemisperioodi nime, näiteks Sulgemine. Pärast uue sulgemisperioodi loomist on teil nüüd esialgne periood ja sulgemisperiood. Mõlemal on kuupäevad, mis algavad 1. augustil ja lõpevad 31. augustil.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Rahanduskalendrite valimine pearaamatute, põhivarade ja eelarvetsüklite jaoks
-Rahanduskalendreid kasutatakse põhivara kulumi, finantskannete ja eelarvetsüklite puhul. Rahanduskalendri loomisel saate kasutada seda mitmeks otstarbeks. Saate valida rahanduskalendri väärtusmudelile või kulumiraamatule, muutes selle põhivarakalendriks. Saate valida rahanduskalendri pearaamatule, muutes selle pearaamatukalendriks. Ning saate valida rahanduskalendri eelarvetsüklile, muutes selle eelarvekalendriks. Saate kasutada sama rahanduskalendrit kõigis nendes olukordades.
+Rahanduskalendreid kasutatakse põhivara kulumi, finantskannete ja eelarvetsüklite puhul. Rahanduskalendri loomisel saate kasutada seda mitmeks otstarbeks. Saate valida rahanduskalendri põhivararaamatule, muutes selle põhivarakalendriks. Saate valida rahanduskalendri pearaamatule, muutes selle pearaamatukalendriks. Ning saate valida rahanduskalendri eelarvetsüklile, muutes selle eelarvekalendriks. Saate kasutada sama rahanduskalendrit kõigis nendes olukordades.
 
 ### <a name="select-a-fiscal-calendar-for-your-legal-entity"></a>Rahanduskalendri valimine juriidilise üksuse jaoks
 
@@ -51,7 +51,7 @@ Valige rahanduskalender, mida soovite kasutada oma juriidilise isiku pearaamatu 
 
 ### <a name="select-a-fiscal-calendar-for-fixed-assets"></a>Rahanduskalendri valimine põhivara jaoks
 
-Saate valida rahanduskalendri väärtusmudeli või kulumiraamatu jaoks ja seda rahanduskalendrit kasutavad põhivarad, mis vastavat väärtusmudelit või kulumiraamatut kasutavad. Saate valida ükskõik millisest lehel Rahanduskalendrid määratletud rahanduskalendrist.
+Saate valida rahanduskalendri põhivararaamatu jaoks ja seda rahanduskalendrit kasutavad põhivarad, mis vastavat raamatut kasutavad. Saate valida ükskõik millisest lehel Rahanduskalendrid määratletud rahanduskalendrist.
 
 ### <a name="define-budget-cycle-time-spans"></a>Eelarvetsükli perioodide määratlemine
 

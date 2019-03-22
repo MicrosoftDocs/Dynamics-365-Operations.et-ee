@@ -3,7 +3,7 @@ title: Rakenduse Attract laiendatavus
 description: Selles teemas kirjeldatakse, kuidas saate laiendada rakendust Microsoft Dynamics 365 for Talent - Attract Microsofti Power Platformiga.
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,18 +18,41 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c77c64070cb82180441f4b629b6884981b9b81d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304029"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789647"
 ---
 # <a name="extensibility-in-attract"></a>Rakenduse Attract laiendatavus
 
 [!include[banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent on rajatud lahenduse Common Data Service (CDS) for Apps platvormile ning seda on võimalik mitmel viisil laiendada, kasutades Microsofti Power Platformi ja lahenduse Common Data Service for Apps võimalusi. Seega saate süsteemi konfigureerida ja isikupärastada, kasutades Microsoft PowerAppsi ja Microsoft Flow’d. Microsoft Power BI-ga saate ka inimeste kohta täiendavaid analüüsiandmeid koguda. Lisaks muudavad uued kohandatud tegevused nagu PowerAppsi ja veebisisu (iFrame'i) tegevused värbamisprotsessi kohandatavamaks kui kunagi varem. Nende tegevuste abil saate kohandada värbamisprotsessi vastavalt oma ettevõtte vajadustele ja protsessidele ning veenduda, et nii värbamismeeskond kui ka kandidaadid saavad sujuva, kohandatud kogemuse osaliseks.
+
+## <a name="extending-option-sets-in-attract"></a>Suvandikomplektide laiendamine Attractis
+
+**Suvandikomplekt** (märkeloend) on välja tüüp, mille saab üksusesse kaasata. See määratleb suvandite komplekti. Kui suvandikomplekt kuvatakse vormil, kasutab see ripploendi juhtelementi.  Attractis on mitu välja, mis on suvandikomplektid.  Hakkame tutvustama võimalust suvandikomplektide laiendamiseks, alustades väljadega Tagasilükkamise põhjus, Töösuhte tüüp ja Staaži tüüp.   Samuti saate lisatavatele suvanditele lisada lokaliseeritud kuvasilte.  Lisateabe saamiseks külastage järgmist linki: [Suvandikomplekti siltide kohandamine](https://docs.microsoft.com/en-us/poweapps/developer/common-data-service/customize-labels-suport-multiple-languages)
+
+> [!NOTE]
+> Funktsioon Töö sisestamine LinkedIni nõuab lehel **Töö üksikasjad** väljade **Töösuhte tüüp** ja **Staaži tüüp** kasutamist. LinkedIn toetab nende väljade vaikeväärtuseid ja need kuvatakse pärast töö sisestamist. Seetõttu, kui sisestate töid LinkedIni ja muudate nende väljade olemasolevaid suvandikomplekti väärtusi, töö siiski sisestatakse, kuid LinkedIn ei kuva väljade **Töösuhte tüüp** ja **Staaži tüüp** kohandatud väärtusi.  
+
+Allpool on toodud etapid, kuidas värskendada välja **Tagasilükkamise põhjus** väärtustega, mis on omased teie ettevõttele.  
+
+1. Suvandikomplekti **Tagasilükkamise põhjus** laiendamiseks liikuge [PowerAppsi halduse veebisaidile.](Https://admin.powerapps.microsoft.com)
+2. Teil võidakse paluda oma kontole sisse logida. Esitage oma kasutajatunnus ja parool, mida kasutate teenusesse Dynamics365 ja/või Office365 sisselogimiseks, ning seejärel klõpsake nuppu **Edasi**.
+3. Valige vahekaardil **Keskkonnad** keskkond, mida soovite hallata ja topeltklõpsake, et liikuda vahekaardile **Üksikasjad**.
+4. Vahekaardil **Üksikasjad** tehke valik **Dynamics 365 halduskeskus**.
+5. Valige eksemplar, mida soovite muuta ja tehke valik **Ava**.
+6. Liikuge jaotisesse **Sätted**, **Kohandused** ja valige **Süsteemi kohandamine**.
+7. Üksuse, mille jaoks soovite suvandikomplekti laiendada leiate, kui teete valiku **Üksused** ja laiendate gruppi. Selles näites on selleks **Tööavalduse üksus**.
+8. Väljale, mille jaoks soovite suvandikomplekti laiendada, saate liikuda, kui valite suvandi **Väljad**. Selles näites on selleks **msdyn_rejectionreason**. Topeltklõpsake välja.
+9. Tehke väljal **Suvandikomplekt** valik **Redigeeri**.
+10. Valige ikoon **+**.
+11. Sisestage **Silt**.  (See peab olema kordumatu väärtus – duplikaadid pole lubatud).
+12. Valige käsk **Salvesta**.
+13. Tehke lehe ülaosas valik **Avalda**.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Kasutage Microsofti Power platformi ära. 
 

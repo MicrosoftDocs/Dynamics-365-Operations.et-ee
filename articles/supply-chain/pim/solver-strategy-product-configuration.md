@@ -3,7 +3,7 @@ title: Lahendaja strateegia toote konfiguratsiooni jaoks
 description: Selles teemas kirjeldatakse, kuidas kasutada lahendaja strateegiat toote konfiguratsiooni jõudluse parandamiseks.
 author: cvocph
 manager: AnnBe
-ms.date: 01/02/2018
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
+ms.sourcegitcommit: 0ceee30a60468a01db6f5b3526dcb9c6abc9d4dc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351144"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "403912"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Lahendaja strateegia toote konfiguratsiooni jaoks
 
@@ -62,8 +62,8 @@ Järgmine tabel pakub soovitusi lahendaja strateegia kasutamiseks eri stsenaariu
 | Lahendaja strateegia      | Stsenaarium, milles strateegiat saab kasutada |
 |----------------------|-----------------------------------|
 | Vaikimisi              | Strateegia **Vaikimisi** on optimeeritud lahendama mudeleid, mis sõltuvad tabeli piirangutest. Kliendijuurutamisuuringud on näidanud, et see strateegia on kõige tõhusam stsenaariumides, kus tabeli piiranguid kasutatakse ulatuslikult. |
-| Minimaalne domeen kõigepealt | Strateegiad **Minimaalne domeen kõigepealt** ja **Ülalt alla** on omavahel tihedalt seotud. Kliendijuurutamisuuringud on näidanud, et CUB-s kasutusele võetud strateegia **Ülalt alla** on strateegiast **Minimaalne domeen kõigepealt** tõhusam. Strateegiat **Minimaalne domeen kõigepealt** hoitakse tootes tagasiühilduvuseks. Mõlemad lahendaja strateegiad on tõhusamad selliste mudelite lahendamises, mis sisaldavad mitut aritmeetilist avaldist, kus ei kasutata tabelipiiranguid. Mõnel juhul on aga strateegia **Vaikimisi** neist kahest tõhusam. Seetõttu on oluline proovida kõiki strateegiaid. |
-| Ülevalt alla             | Strateegiad **Minimaalne domeen kõigepealt** ja **Ülalt alla** on omavahel tihedalt seotud. Kliendijuurutamisuuringud on näidanud, et CUB-s kasutusele võetud strateegia **Ülalt alla** on strateegiast **Minimaalne domeen kõigepealt** tõhusam. Strateegiat **Minimaalne domeen kõigepealt** hoitakse tootes tagasiühilduvuseks. Mõlemad lahendaja strateegiad on tõhusamad selliste mudelite lahendamises, mis sisaldavad mitut aritmeetilist avaldist, kus ei kasutata tabelipiiranguid. Mõnel juhul on aga strateegia **Vaikimisi** neist kahest tõhusam. Seetõttu on oluline proovida kõiki strateegiaid. |
+| Minimaalsed domeenid kõigepealt | Strateegiad **Minimaalsed domeenid kõigepealt** ja **Ülalt alla** on omavahel tihedalt seotud. Kliendijuurutamisuuringud on näidanud, et strateegia **Ülalt alla** on strateegiast **Minimaalsed domeenid kõigepealt** tõhusam. Strateegiat **Minimaalsed domeenid kõigepealt** hoitakse tootes tagasiühilduvuseks. Mõlemad lahendaja strateegiad on tõhusamad selliste mudelite lahendamises, mis sisaldavad mitut aritmeetilist avaldist, kus ei kasutata tabelipiiranguid. Mõnel juhul on aga strateegia **Vaikimisi** neist kahest tõhusam. Seetõttu on oluline proovida kõiki strateegiaid. |
+| Ülevalt alla             | Strateegiad **Minimaalsed domeenid kõigepealt** ja **Ülalt alla** on omavahel tihedalt seotud. Kliendijuurutamisuuringud on näidanud, et strateegia **Ülalt alla** on strateegiast **Minimaalsed domeenid kõigepealt** tõhusam. Strateegiat **Minimaalsed domeenid kõigepealt** hoitakse tootes tagasiühilduvuseks. Mõlemad lahendaja strateegiad on tõhusamad selliste mudelite lahendamises, mis sisaldavad mitut aritmeetilist avaldist, kus ei kasutata tabelipiiranguid. Mõnel juhul on aga strateegia **Vaikimisi** neist kahest tõhusam. Seetõttu on oluline proovida kõiki strateegiaid. |
 | Z3                   | Strateegiat **Z3** soovitame kasutada lahendaja vaikestrateegiana. Kui muretsete jõudluse ja mastaabitavuse pärast, saate hinnata teisi strateegiaid. |
 
 ## <a name="additional-resources"></a>Lisaressursid

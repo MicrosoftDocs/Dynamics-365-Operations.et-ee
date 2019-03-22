@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: db01a12b92574b41f1f4fe7281c23992e0d36027
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 8b373ce3cfd1183a082e2b1ebaf8c907b16e581e
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302179"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379989"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Jaemüügikande süsteemsuskontroll
 
@@ -45,7 +45,7 @@ Järgmine diagramm illustreerib kande süsteemsuskontrolliga sisestusprotsessi.
 
 ![Väljavõtte sisestamise protsess jaemüügikande süsteemsuskontrolliga](./media/validchecker.png "Väljavõtte sisestamise protsess jaemüügikande süsteemsuskontrolliga")
 
-Pakktöötluse funktsioon **Kinnita kaupluse kanded** kontrollib jaemüügi kandetabelite järjepidevust järgmiste stsenaariumite suhtes.
+Pakktöötluse funktsioon **Kinnita kaupluse kanded** kontrollib jaemüügi kandetabelite järjepidevust järgmiste stsenaariumide suhtes.
 
 - Kliendi konto: kontrollib, kas jaemüügi kandetabelites märgitud kliendi konto on peakontori kliendi koondandmetes olemas.
 - Ridade arv: kontrollib, kas kande päsietabelis märgitud ridade arv kattub müügikande tabeli ridade arvuga.

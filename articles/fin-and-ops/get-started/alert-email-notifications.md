@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 314f04eec04a75aed058c9c38066738e8758f653
-ms.sourcegitcommit: 440ebe14ad26574ba227d23ee8370f6b6110645b
+ms.openlocfilehash: 9545731af20a96c322b4e92c17f3a46b7077295b
+ms.sourcegitcommit: a13f44549ab402cfd04b600f6097ba179915f233
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373759"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "775060"
 ---
 # <a name="client-alert-notifications-by-email"></a>Klienditeatiste edastamine meili teel
 
@@ -48,7 +48,7 @@ Järgmisel pildil on näidatud dialoogiboks **Teatisereegli loomine**, milles on
 
 ## <a name="alert-notification-email-templates"></a>Teatiste meilimallid
 
-Teenus saadab meiliteatised eelmääratletud meilimalle kasutades, mis edastavad teatise põhiandmed. Need andmed sisaldavad otselinki lehele, kus teatisereegel määratleti.
+Teenus saadab meiliteatised eelmääratletud meilimalle kasutades, mis edastavad teatise põhiandmed.
 
 Järgmisel pildil on näidatud teatiste struktuur, kui need on meili teel vastu võetud.
 

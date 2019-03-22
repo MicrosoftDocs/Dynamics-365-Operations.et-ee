@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4f682e0c98ff70d526648bc50f8a5d6cb884ac93
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302177"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "380012"
 ---
 # <a name="distributed-order-management-dom"></a>Hajutatud tellimuste haldamine (DOM)
 
@@ -64,7 +64,7 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
         1. Avage Microsoft Dynamicsi teenuses Lifecycle Services ühiste vahendite teek, valige vahendi tüübiks **Mudel** ja laadige alla fail **DOM-i litsents**.
         2. Käivitage Microsofti teenuste Internet Information Services (IIS) haldur, paremklõpsake valikut **AOSService’i veebisait** ja seejärel valige suvand **Uuri**. Windows Exploreri aken avaneb veebijuures **\<AOS-i teenuse juur\>\\**. Märkige \<AOS-i teenuse juure\> tee üles, kuna kasutate seda järgmises etapis.
         3. Kopeerige konfiguratsioonifail kausta **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
-        4. Minge Retail Headquartersi kliendi juurde ja avage leht **DOM-i parameetrid**. Vahekaardil **Lahendaja** väljas **Lahendaja tüüp** valige suvand **Tootmise lahendaja** ja veenduge, et tõrketeateid ei kuvataks.
+        4. Minge kaupluse halduse Retail Headquarters klientrakendusse ja avage leht **DOM-i parameetrid**. Vahekaardil **Lahendaja** väljal **Lahendaja tüüp** valige suvand **Tootmise lahendaja** ja veenduge, et tõrketeateid ei kuvataks.
 
         > [!NOTE]
         > Lihtsustatud lahendaja on selleks, et jaemüüjad saaksid katsetada DOM-i funktsiooni spetsiaalset litsentsi juurutamata. Organisatsioonid ei tohi lihtsustatud lahendajat kasutada tootmiskeskkondades.

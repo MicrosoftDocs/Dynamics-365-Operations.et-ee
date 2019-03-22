@@ -3,7 +3,7 @@ title: Tööde loomine, kinnitamine ja sisestamine Attractis
 description: Selles teemas kirjeldatakse Attarcti töö elemente. Lisaks selgitatakse, kuidas tööd luua.
 author: josaw
 manager: AnnBe
-ms.date: 12/21/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
+ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304075"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "772807"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Tööde loomine, kinnitamine ja sisestamine Attractis
 
@@ -76,8 +76,23 @@ Lisainfot tegevuste kohta, mida värbamisprotsessile lisada saab, leiate artikli
 
 Pärast töö aktiveerimist saab selle sisestada. Ainult värbajad ja administraatorid saavad töid sisestada. Töö saab sisestada kas rakendusse Talent Careers (Microsoft Dynamics 365 for Talent karjäärisait) või LinkedIni. 
 
+Attracti meeskond töötab pidevalt töökuulutuste vahendajatega koostöös. See loend laieneb aja jooksul.
+
+Töösisestuste kohta lisainfo saamiseks vt [Karjäärisaidi funktsionaalsus Attractis](career-site.md).
+
 > [!NOTE]
-> On kolm tähtsat asja, mida tähele panna LinkedIni töö sisestusprotsessi kohta.
+> Töösisestuste funktsionaalsus on saadaval ainult tervikliku värbamise lisandmooduliga Attractile.
+
+### <a name="posting-jobs-to-linkedin"></a>Töökohtade sisestamine LinkedIni 
+
+Enne rakenduse Attract kaudu LinkedIni töökoha sisestamist peab administraator menüüs **Administraatori sätted** lisama LinkedIni jaoks kasutatava ettevõtte ID ja ettevõtte nime. LinkedIni jaoks kasutatav ettevõtte ID on vajalik selleks, et tagada, et rakenduse Attract kaudu sisestatud töökohad vastendataks õigele ettevõtte lehele.
+
+LinkedIn jaoks kasutatav ettevõtte ID on kordumatu numbrijada, mis eristab teie ettevõtet LinkedIni piires. LinkedIni jaoks kasutatava ettevõtte ID leidmise kohta lisateabe saamiseks külastage [LinkedIni saiti](https://aka.ms/findID).
+
+LinkedIni jaoks kasutatava ettevõtte nime värskendamiseks valige menüüst **Sätted**  (hammasratta kujutis) suvand **Halduskeskus** ja valige vahekaart **LinkedIni integreerimine** . Sisestage jaotises **LinkedIniga ühendamine** LinkedIni jaoks kasutatav ettevõtte nimi ja ID ning seejärel salvestage sätted.
+
+> [!NOTE]
+> Töökoha sisestamisel LinkedIni peate meeles pidama nelja olulist asja.
 > 1. LinkedIni sisestatud tööd on sisestatud "Piiratud loendite" töödena. Piiratud loendite töid ei saa propageerida kogu LinkedIni saidil. Kui soovite propageerida Attractist LinkedIni sisestatud piiratud loendite töid, peaksite tegema koostööd LinkedIniga võimaluse "Töö pakkimine" lubamiseks. Lisateavet saate allolevatelt linkidelt ja LinkedIni tugiteenustelt.
 >
 >    [Piiratud loendid vs preemiatöö pesad töö pakkimiseks](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
@@ -90,14 +105,10 @@ Pärast töö aktiveerimist saab selle sisestada. Ainult värbajad ja administra
 >
 >    Kui teil esineb pärast seda etappi probleeme, võtke ühendust LinkedIni toega. 
 > 
+> 1. LinkedIni sisestatud töökohad ilmuvad otse LinkedIni saidil. Katsekeskkond töökohtade sisestamiseks LinkedIni puudub. 
+>
 > 1. Võib kuluda kuni 24 tundi LinkedIni sisestatud tööde LinkedInis olevatele kandidaatidele nähtavaks muutumiseks praeguse LinkedIni partiitöö sisestamise protsessi tõttu.
 
-Attracti meeskond töötab pidevalt töökuulutuste vahendajatega koostöös. See loend laieneb aja jooksul.
-
-Töösisestuste kohta lisainfo saamiseks vt [Karjäärisaidi funktsionaalsus Attractis](./career-site.md).
-
-> [!NOTE]
-> Töösisestuste funktsionaalsus on saadaval ainult tervikliku värbamise lisandmooduliga Attractile.
 
 ## <a name="activate"></a>Aktiveeri
 

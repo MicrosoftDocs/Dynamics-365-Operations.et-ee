@@ -1,98 +1,114 @@
 ---
-title: "Karjäärisaidi funktsionaalsus Attractis"
-description: "Selles artiklis antakse ülevaade kandidaatide leidmise karjäärisaidi funktsionaalsusest rakenduses Microsoft Dynamics 365 for Talent - Attract. See selgitab ka seda, kuidas seda funktsionaalsust seadistada."
-author: josaw
+title: Rakenduse Attract karjäärisaidi funktsionaalsus
+description: See teema annab ülevaate kandidaatidele suunatud karjäärisaidi funktsionaalsusest rakenduses Attract.
+author: josaw1
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 02/12/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Talent
-ms.custom: 
-ms.assetid: 
+ms.search.scope: Talent, Core
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.author: rschloma
-ms.search.validFrom: 2018-10-18
-ms.dyn365.ops.version: AX 7.0.0
+ms.author: josaw
+ms.search.validFrom: 2019-02-12
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
+ms.openlocfilehash: 087ab4034a1e601e7f3514c77d56ef54b0c5c52d
+ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 452e3e92ea32ab5f1e3720ab81ff2f7ea18b2a06
-ms.contentlocale: et-ee
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: et-EE
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "389958"
 ---
-# <a name="career-site-functionality-in-attract"></a>Karjäärisaidi funktsionaalsus Attractis
+# <a name="career-site-functionality-in-attract"></a>Rakenduse Attract karjäärisaidi funktsionaalsus
 
-[!include [banner](includes/banner.md)]
+[!include[banner](../includes/banner.md)]
 
-Selles artiklis antakse ülevaade kandidaatide leidmise karjäärisaidi funktsionaalsusest rakenduses Microsoft Dynamics 365 for Talent: Attract. See selgitab ka seda, kuidas seda funktsionaalsust seadistada.
+See teema annab ülevaate kandidaatidele suunatud karjäärisaidi funktsionaalsusest rakenduses Dynamics 365 for Talent: Attract. Samuti selgitatakse, kuidas seda funktsionaalsust seadistada.
 
-## <a name="overview"></a>Ülevaade
+Attract annab rentniku igale keskkonnale ühe karjäärisaidi. Näiteks kui organisatsioonil on arenduskeskkond ja katsekeskkond, eraldatakse üks karjäärisait arenduskeskkonnale ja teine karjäärisait katsekeskkonnale. Iga karjäärisait on täiesti isoleeritud ja oma autentimismehhanismiga. Ühiseid töid ja kandidaatide profiile karjäärisaitidel pole.
 
-Attract annab rentniku igale keskkonnale ühe karjäärisaidi. Näiteks kui organisatsioonil on arenduskeskkond ja katsekeskkond, eraldatakse üks karjäärisait arenduskeskkonnale ja teine karjäärisait eraldatakse katsekeskkonnale. Iga karjäärisait on **täiesti isoleeritud** ja omab eraldi autentimise mehhanismi. Töid ja kandidaatide profiile karjäärisaitide vahel ei jagata.
-
-Vaikimisi on karjäärisait avalik. Seega saavad kandidaadid näha kõiki väliseks märgitud töid ilma sisse logimata. Siiski, kõik muud toimingud nõuavad kandidaadilt sisselogimist.
+Vaikimisi on karjäärisaidid avalikud. Kandidaadid saavad seetõttu vaadata kõiki väliseks märgitud töökohti ilma sisse logimata. Kõigi muude toimingute jaoks aga peavad kandidaadid sisse logima.
 
 ## <a name="career-site-management"></a>Karjäärisaidi haldus
 
-Järgmisi karjäärisaidi elemente juhitakse sätete abil.
+Alljärgnevate üksuste väärtuste määramiseks logige administraatorina rakendusse Attract sisse, valige menüüst **Sätted** (hammasratta kujutis) suvand **Halduskeskus** ja seejärel valige vahekaart **Ettevõtte andmed**.
 
-- **Organisatsiooni nimi:** organisatsiooni nimi kuvatakse karjäärisaidi ülaosas navigeerimisribal. Valides organisatsiooni nime, lähevad kandidaadid lehele, kus on loetletud kõik avatud tööd.
-- **Organisatsiooni logo:** karjäärisaidi ülemises vasakus servas kuvatakse organisatsiooni logo kujutist. Valides logo kujutise, lähevad kandidaadid lehele, kus on loetletud kõik avatud tööd.
+-   **Organisatsiooni nimi** – organisatsiooni nimi kuvatakse karjäärisaidi ülaosas oleval navigeerimisribal. Organisatsiooni nime valimise korral avaneb kandidaatidele leht, kus on toodud kõik vabad töökohad.
 
-Organisatsiooni nime ja logo väärtuste seadistamiseks logige administraatorina Attracti sisse, valige menüü **Sätted** (hammasratta sümbol) alt **Halduskeskus** ja seejärel valige vahekaart **Ettevõtte andmed**.
+-   **Organisatsiooni logo** – karjäärisaidi ülemises vasakus servas kuvatakse organisatsiooni logo kujutist. Logo kujutise valimise korral avaneb kandidaatidele leht, kus on toodud kõik vabad töökohad.
 
-> [!NOTE]
-> Karjäärisaidil näidatava logo kujutise fikseeritud kõrgus on 20 pikslit (px). Halduskeskusest lisatud pildi suurus muudetakse sobivaks. Seetõttu võib laius sõltuvalt pildist muutuda.
+    >   [!NOTE] 
+    >   Karjäärisaidil kuvatava logo kujutise fikseeritud kõrgus on 20 pikslit (px). Halduskeskuse kaudu lisatud pildi suurus muudetakse sobivaks. Olenevalt kujutisest võib laius seetõttu muutuda.
+ 
+Alljärgnevate üksuste väärtuste määramiseks logige administraatorina rakendusse Attract sisse, valige menüüst **Sätted** suvand **Halduskeskus** ja seejärel valige vahekaart **Karjäärisaidi haldus**.
 
-## <a name="career-site-url"></a>Karjäärisaidi URL
+-   **Otsingumootori optimeerimine** – kui see on lubatud, on kõik rakenduse Attract karjäärisaidile sisestatud avalikud töökohad leitavad otsingumootoritega, nagu Bing ja Google.
 
-Kui te esmakordselt [sisestate välise töö](./Creating-jobs-Attract.md#postings), võite **Rakenda** lingi Attracti rakendusest kopeerida. Selle lingi URL on järgmises vormingus: `https://jobs.talent.dynamics.com/jobs/<company_name>/<environment_number>/<job_number>/apply`
+    >   [!NOTE] 
+    >   Selle sätte sisselülitamise ja otsingutulemite ilmumise vahel võib olla viivitus, mis oleneb kasutatavast otsingumootorist.
+         
+## <a name="career-site-urls"></a>Karjäärisaidi URL-id
 
-Karjäärisaidi URL on URL-i **Rakenda** alamstring. See sisaldab kõike, kuni ettevõtte nimeni. Seepärast on eelnevale **Rakenda** URL-ile karjäärisaidi URL `https://jobs.talent.dynamics.com/jobs/<company_name>/`.
+Alljärgnev loend sisaldab tavaliselt kasutatavaid karjäärisaitide URL-e ja teavet, kuidas neile juurde pääsed.
 
-## <a name="authentication-options"></a>Autentimise valikud
+-   **Karjäärisaidi avalehe URL** – karjäärisaidi avalehe URL-i vaatamiseks logige rakendusse Attract sisse administraatorina, valige menüüst **Sätted** suvand **Halduskeskus** ja seejärel valige vahekaart **Karjäärisaidi haldus**.
 
-Kandidaatidel on Attracti karjäärisaidile sisselogimiseks järgmised võimalused.
+-   **Üksiku töökuulutuse kandideerimise URL** – kui [sisestate välise töökoha](Creating-jobs-Attract.md#postings) esmakordselt, võite rakendusest Attract kopeerida lingi **Kandideeri**. Selle lingi URL on järgmises vormingus: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
-- Isiklik konto:
+-   **Üksiku töökuulutuse URL** – töökuulutusee URL on kandideerimise URL-i alamstring. See sisaldab kõike kuni töökoha numbrini. Seetõttu on eelneva kandideerimise URL-i töökuulutuse URL [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 
-    - LinkedIn
-    - Microsoft – WHS
-    - Google
-    - Facebook
+## <a name="authentication-options"></a>Autentimisvõimalused
 
-- Töö- või koolikonto:
+Kandidaatidel on rakenduse Attract karjäärisaidile sisselogimiseks järgmised võimalused:
 
-    - Windows Azure Active Directory (Azure AD)
+-   isiklik konto:
 
-Azure AD sisselogimine on mõeldud ainult sisemistele kandidaatidele. Seetõttu toimib see ainult sisemistele kandidaatidele, kes kasutavad oma ettevõtte Azure AD mandaate. Näiteks kandidaat, kes on hetkel Contoso Ltd töötaja, soovib kandideerida kõrvalise ettevõtte, Alpine Ski House, tööle. Sellisel juhul sisselogimine ebaõnnestub, kui töötaja proovige kasutada oma Contoso Ltd. Azure AD mandaate.
+    -   LinkedIn
+
+    -   Microsoft
+
+    -   Google
+
+    -   Facebook
+
+-   töö- või koolikonto:
+
+    -   Microsoft Azure Active Directory (Azure AD)
+
+Azure AD-ga sisselogimine on mõeldud ainult sisekandidaatidele. Seetõttu toimib see ainult sisekandidaatidega, kes kasutavad oma ettevõtte Azure AD identimisteavet. Näiteks kandidaat, kes on hetkel ettevõtte Contoso Ltd töötaja, soovib kandideerida sellega mitteseotud ettevõtte Alpine Ski House töökohale. Sellisel juhul sisselogimine ei õnnestu, kui töövõtja üritab kasutada ettevõtte Contoso Ltd Azure AD identimisteavet.
 
 ## <a name="create-and-maintain-a-profile"></a>Profiili loomine ja haldamine
 
-Pärast kandidaatide karjäärisaidile sisselogimist saavad nad lehe ülaosast navigeerimisribalt valida **Minu profiil**, et omale profiil luua ja seda hallata. Profiil sisaldab isikuandmeid, töökogemuse andmeid, hariduse üksikasju, dokumente, linke ja andmeid oskuste kohta. Pärast profiili loomist saab seda kasutada kandidaadile huvi pakkuvatele töödele kandideerimiseks. Profiilid aitavad ka Attractil kandidaatidele õigeid töid soovitada.
+Pärast karjäärisaidile sisselogimist saavad kandidaadid lehe ülaosas olevalt navigeerimisribalt oma profiili loomiseks ja haldamiseks kasutada valikut **Minu profiil**.
+Profiil sisaldab isikuandmeid, andmeid töökogemuse kohta, haridusandmeid, dokumente, linke ja andmeid oskuste kohta. Pärast profiili loomist saab seda kasutada kandidaadile huvi pakkuvatele töökohtadele kandideerimiseks. Samuti aitavad profiilid rakendusel Attract kandidaatidele õigeid töökohti soovitada.
 
-## <a name="find-the-right-job"></a>Õige töö leidmine
+>   [!NOTE]
+>   Kui kandidaat kasutab ühe ülevalpool nimetatud autentimisteenuse pakkuja abil sisselogimiseks meili ID-d, määratakse see meili ID vaikimisi profiiliga seotud kontaktmeili ID-ks. Viimast saab aga igal ajal muuta ja see on esimesest täiesti sõltumatu. Attract kasutab kogu meilisuhtluse jaoks alati kontaktmeili ID sidumist teie profiiliga.
 
-Tööde loendi lehel saavad kandidaadid konkreetset tööd otsida sisestades otsingusõnu. Otsingu funktsionaalsus otsib otsingusõnu töö pealkirjadest ja töö kirjeldustest ning näitab tulemusena vastavaid töid. Kandidaadid saavad tulemusi igal ajal vastavalt töö asukohale või töö funktsioonile filtreerida.
+## <a name="find-the-right-job"></a>Õige töökoha leidmine
 
-Kandidaadid saavad karjäärisaidil vaadata ka soovitatud töid. Kandidaatidele soovitatud tööd põhinevad kandidaadi varasematel kandideerimistel, profiilil ja elulookirjeldusel.
+Töökohtade loendi lehel saavad kandidaadid otsingusõnu sisestades otsida kindlat töökohta. Otsingufunktsioon otsib otsingusõnu ametinimetustest ja töökirjeldustest ning kuvab asjakohased töökohad tulemitena. Kandidaadid saavad tulemusi igal ajal töökoha asukoha või tööfunktsiooni alusel filtreerida.
 
-> [!NOTE]
-> Töö soovitused kuvatakse ainult siis, kui karjäärisaidile on postitatud vähemalt 10 tööd ja kui kandidaat on täitnud oma profiili.
+Samuti saavad kandidaadid karjäärisaidil vaadata soovitatud töökohti. Kandidaatidele soovitatavad töökohad põhinevad kandidaadi varasematel kandideerimistel, profiilil ja elulookirjeldustel.
+
+>   [!NOTE] 
+>   Soovitatavad töökohad kuvatakse ainult siis, kui karjäärisaidile on sisestatud vähemalt 10 töökohta ja kandidaat on täitnud oma profiili lõpuni.
 
 ## <a name="apply-for-jobs"></a>Töökohtadele kandideerimine
 
-Kui kandidaadid leiavad õige töö, saavad nad kandideerida, kasutades töö üksikasjade lehel olevat nuppu **Esita avaldus**. Sellel hetkel saavad kandidaadid luua kas täiesti uue profiili või vaadata üle oma olemasoleva profiili andmed. Kui see on nõutud, saavad kandidaadid üles laadida oma elulookirjelduse ja seejärel tööavalduse esitada.
+Kui kandidaat leiab õige töökoha, saab ta kandideerida lehe **Töö üksikasjad** nupu **Kandideeri** abil. Sellel hetkel saavad kandidaadid luua kas uue profiili või vaadata üle oma olemasoleva profiili andmed.
+Samuti saavad kandidaadid vajaduse korral üles laadida elulookirjelduse ja seejärel esitada avalduse töökohale kandideerimiseks.
 
 ## <a name="check-application-status"></a>Avalduse oleku kontrollimine
 
-Kui kandidaadid kandideerivad ühele või enamale tööle, saavad nad oma avatud ja suletud kandideerimiste vaatamiseks valida lehe ülaservas olevalt navigeerimisribalt **Avaldused**. Kui kandidaadid ühe oma avaldustest avavad, näevad nad hetkeseisu ja mistahes ootel olevat tegevust, mille nad peavad teostama. Näiteks, kui kandidaat peab välja pakkuma võimalikud kuupäevad silmast silma vestluseks, kuvatakse lehel tema valikuid.
+Pärast ühele või mitmele töökohale kandideerimist saavad kandidaadid oma avatud ja suletud avaldusi vaadata lehe ülaosas oleva navigeerimisriba valiku **Avaldused** kaudu. Kui kandidaadid avavad ühe oma avaldustest, näevad nad hetkeseisu ja mistahes ootel olevat tegevust, mille nad peavad teostama. Näiteks, kui kandidaat peab välja pakkuma võimalikud kuupäevad silmast silma vestluseks, kuvatakse lehel võimaliku valikud.
 
-## <a name="internal-jobs"></a>Sisemised tööd
+## <a name="internal-jobs"></a>Organisatsioonisisesed töökohad
 
-Hetkel ei kuvata sisemiseks märgitud ja Attracti karjäärisaidile sisestatud töid karjäärisaidil. Need on juurdepääsetavad ainult läbi otsese URL-i **Esita avaldus**, mille saab kopeerida Attracti rakendusest.
-
+Hetkel ei kuvata karjäärisaidil organisatsioonisiseseks märgitud ja rakenduse Attract karjäärisaidile sisestatud töökohti. Need on juurdepääsetavad ainult otsese URL-i **Kandideeri** kaudu, mida saab kopeerida rakendusest Attract.

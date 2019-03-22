@@ -3,7 +3,7 @@ title: Andmete importimis- ja eksportimistööd
 description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 03/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
+ms.sourcegitcommit: 7b438a94b59ab52518e03b22217cb48e41fbeb71
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360206"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "834656"
 ---
 # <a name="data-import-and-export-jobs"></a>Andmete importimis- ja eksportimistööd
 
@@ -128,6 +128,9 @@ Töö saab kaitsta korraga rollide, kasutajate ja juriidiliste isikute kaudu.
 
 ## <a name="run-the-import-or-export-job"></a>Impordi- või eksporditöö käivitamine
 Töö saab käivitada ühe korra, valides pärast töö määratlemist nupu **Impordi** või **Ekspordi**. Korduva töö seadistamiseks valige **Korduva andmetöö loomine**.
+
+[!NOTE]
+Importimis- või eksportimistööd saab käivitada asünkroonselt, kui valite nupu **Impordi** või **Ekspordi**. Asünkroonne käivitamine kasutab platvormi Finance and Operations asünkroonimisraamistikku, mis erineb paketiraamistikust. Kui nii nagu paketiraamistikku võidakse asünkroonimisraamistikku ahendada ja selle tulemusel ei tarvitse töö kohe käivituda. Töid saab käivitada ka sünkroonselt, kui valite nupu **Impordi kohe** või **Ekspordi kohe**. See käivitab töö kohe ja on kasulik siis, kui asünkroonimine või paketi ahendamise tõttu kohe ei käivitu. Töid saab käivitada ka paketina, kui valida käsk **Pakettkäivitus**. Paketiressursid kuuluvad ahendamisele, seega pakett-töö ei tarvitse kohe käivituda. Asünkroonimise võimalus on kasulik, kui kasutajad suhtlevad otse kasutajaliidesega ega ole lauskasutajad, et saada aru paketiplaneerimisest. Paketi kasutamine on alternatiivne võimalus suurte hulkade eksportimiseks või importimiseks. Pakett-töid saab planeerida käivituma kindlate paketigruppide korral, mis koormuse ühtlustamise seisukohast võimaldab suuremat kontrolli. Kui nii asünkroonimist kui ka paketti parasjagu süsteemi suure ressursikasutuse tõttu ahendataks, siis võib viivitamatu vastukaaluna kasutada sünkroonset importimist/eksportimist. Sünkroonne variant käivitub kohe ja blokeerib kasutajaliidese, kuna toimub sünkroonselt. Brauseri aken peab jääma sünkroonse toimingu ajal avatuks.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Kontrollimine, et töö toimus õigesti
 Töö ajalugu on tõrkeotsinguks ja uurimiseks saadaval nii impordi- kui ka eksporditööde puhul. Varasemad töötsüklid on korraldatud ajavahemike alusel.

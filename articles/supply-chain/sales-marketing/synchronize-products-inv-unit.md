@@ -3,7 +3,7 @@ title: Laoühikuga toodete sünkroonimine rakendusest Finance and Operations rak
 description: Selles teemas käsitletakse malle ja aluseks olevat ülesannet, mida kasutatakse laoühikuga toodete sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 5d3767c1a499f3d888d8fc2ce06c2837442e39f0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 8e421be79fde6103be6344040b6ae6cda0626c5a
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359240"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836298"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>Laoühikuga toodete sünkroonimine rakendusest Finance and Operations rakendusse Field Service
 
@@ -34,9 +34,11 @@ Selles teemas käsitletakse malle ja aluseks olevat ülesannet, mida kasutatakse
 
 [![Äriprotsesside sünkroonimine rakenduste Finance and Operations ja Field Service vahel](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-Kasutatud mall **Field Service’i tooted (Finance and Operationsist Field Service’isse)** põhineb lahenduse Potentsiaalne klient sularahaks mallil **Tooted (Finance and Operationsist Salesi) – otse**. Lisateabe saamiseks vt [Tooted (Finance and Operationsist Salesi) – otse](products-template-mapping-direct.md).
+Kasutatud **Field Service’i laoüksusega toodete (Finance and Operationsist Field Service’isse)** mall põhineb mallil **Field Service’i tooted (Finance and Operationsist Field Service’isse)**. Lisateabe saamiseks vt [Field Service’i tooted (Finance and Operationsist Field Service’isse)](field-service-product.md).
 
-Selles teemas kirjeldatakse ainult mallide **Field Service’i tooted (Finance and Operationsist Field Service’isse)** ja **Field Service'i tooted (Finance and Operationsist Salesi)** erinevusi.
+Selles teemas kirjeldatakse ainult kahe malli vahelisi erinevusi: 
+- **Field Service'i tooted laoühikuga (rakendusest Finance and Operations rakendusse Müük)**
+- **Field Service’i tooted (Finance and Operationsist Field Service’isse)** 
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 

@@ -20,11 +20,11 @@ items:
           href: ../dev-itpro/deployment/cloud-deployment-overview.md?toc=/fin-and-ops/toc.json
         - name: Pilvjuurutuste süsteeminõuded
           href: get-started/system-requirements.md
-        - name: Kohapealne juurutus
+        - name: Asutusesisene juurutus
           href: ../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/fin-and-ops/toc.json
-        - name: Kohapealsete juurutuste süsteeminõuded
+        - name: Asutusesiseste juurutuste süsteeminõuded
           href: get-started/system-requirements-on-prem.md
-        - name: Kohapealsete juurutuste ladustamise konfigureerimine
+        - name: Asutusesiseste juurutuste ladustamise konfigureerimine
           href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
       - name: Standardsete ja esmaväljaannete teenusevärskendused
         href: get-started/public-preview-releases.md
@@ -35,12 +35,6 @@ items:
     - name: Mis on uut või mida on muudetud?
       href: get-started/whats-new-changed.md
       items:
-      - name: Ühe versiooni teenuse värskenduste KKK
-        href: get-started/one-version.md
-      - name: Tarkvara elutsükli poliitika ja pilveväljalasked
-        href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-      - name: Tarkvara elutsükli poliitika ja asutusesisesed väljalasked
-        href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
       - name: Microsoft Dynamics AX 2009 ja 2012 tavatoe lõpp
         href: get-started/mainstream-support-ax-2009-2012.md
       - name: Eemaldatud või aegunud funktsioonid
@@ -49,10 +43,14 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: Asutusesisestes juurutustes rakendamata funktsioonid
         href: get-started/features-not-implemented-on-prem.md
+      - name: Finance and Operationsi versiooni 10.0.1 (aprill 2019) eelvaatefunktsioonid
+        href: get-started/whats-new-changed-10-0-1.md
       - name: Finance and Operationsi versioon 10.0 (aprill 2019)
         href: get-started/whats-new-changed-10.md
       - name: Finance and Operationsi versioon 8.1.3 (jaanuar 2019)
         href: get-started/whats-new-changed-8-1-3.md
+      - name: Finance and Operationsi platvormivärskenduse Platform update 25 (aprill 2019) eelvaatefunktsioonid
+        href: get-started/whats-new-platform-25.md
       - name: Platform update 24 (märts 2019)
         href: get-started/whats-new-platform-update-24.md
       - name: Platform update 23 (jaanuar 2019)
@@ -73,7 +71,7 @@ items:
         href: get-started/whats-new-changed-8-0-April-2018.md
       - name: Platform update 15 (märts 2018)
         href: get-started/whats-new-platform-update-15.md
-      - name: Rakenduse Finance and Operations, Enterprise Edition versiooni 7.2 kohapealsed juurutused platvormi värskendusega platform update 12 (märts 2018)
+      - name: Rakenduse Finance and Operations, Enterprise Edition versiooni 7.2 kohapealsed juurutused platvormi värskendusega Platform update 12 (märts 2018)
         href: get-started/whats-new-LBD-PU12-App72.md
       - name: Finance and Operations, Enterprise Edition 7.3
         href: get-started/whats-new-application-7.3-update.md
@@ -202,10 +200,33 @@ items:
       href: get-started/move-lcs-implementation-project-tenant.md
     - name: Mitu LCS-i projekti ja tootmiskeskkonda ühes Azure AD rentnikus
       href: get-started/implement-multiple-projects-aad-tenant.md
+  - name: Ühe versiooni teenusevärskendused
+    href: ../dev-itpro/lifecycle-services/oneversion-overview.md
+    items:
+    - name: Ühe versiooni teenusevärskenduste KKK
+      href: get-started/one-version.md
+    - name: Tarkvara elutsükli poliitika – pilv
+      href: ../dev-itpro/migration-upgrade/versions-update-policy.md
+    - name: Tarkvara elutsükli poliitika – asutusesisene
+      href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
+    - name: Standardsete ja esmaväljaannete teenusevärskendused
+      href: get-started/public-preview-releases.md
+    - name: Värskenduste rakendamine pilvekeskkondadele
+      href: ../dev-itpro/deployment/apply-deployable-package-system.md
+    - name: Teenusevärskenduste konfigureerimine
+      href: ../dev-itpro/lifecycle-services/configure-service-updates.md
+    - name: Teenusevärskenduste peatamine
+      href: ../dev-itpro/lifecycle-services/pause-service-updates.md
+    - name: Teenusevärskenduste kohta teadete saamine
+      href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
+    - name: Andmeülesannete automatiseerimine
+      href: ../dev-itpro/data-entities/data-task-automation.md
+    - name: Regression Suite Automation Tool
+      href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
   - name: Ärisündmused
     href: ../dev-itpro/business-events/home-page.md
     items:
-    - name: Avalduse ärisündmused
+    - name: Rakenduse ärisündmused
       href: ../dev-itpro/business-events/app-business-events.md
     - name: Töövoo ärisündmused
       href: ../dev-itpro/business-events/business-events-workflow.md
@@ -401,7 +422,7 @@ items:
             href: ../supply-chain/sales-marketing/synchronize-project-list.md
           - name: Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field Service
             href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-          - name: Töötellimuste sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+          - name: Projektiga töökäskude sünkroonimine rakendusest Field Service rakendusse Finance and Operations
             href: ../supply-chain/sales-marketing/synchronize-work-orders.md
         - name: Project Service Automationi integreerimise konfigureerimine
           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
@@ -1416,7 +1437,9 @@ items:
           href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
         - name: Maksuameti jaoks NF-e parameetrite seadistamine
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-      - name: SPED-põhine maksudeklaratsioon
+      - name: SPED ECD
+        href: ../financials/localizations/latam-bra-sped-ecd.md
+      - name: SPED-Reinfi maksudeklaratsioon
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: Parameetrid juriidiliste isikute jaoks
         href: ../financials/localizations/latam-bra-legal-entity-parameters.md
@@ -2236,6 +2259,8 @@ items:
           href: ../financials/localizations/rus-sales-books-purchase-books.md
       - name: Põhivarad
         items:
+        - name: Põhivarade seadistamine
+          href: ../financials/localizations/rus-set-up-fixed-assets.md
         - name: Põhivarade soetamine ja kasutuselevõtmine
           href: ../financials/localizations/rus-fixed-asset-acquisition.md
         - name: Põhivarade soetuste registreerimine
@@ -2266,6 +2291,18 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: Kulumiarvestus
           href: ../financials/localizations/rus-depreciation-calculation.md
+      - name: Müügi- ja ostureskontrod
+        items:
+        - name: Arved maksmiseks
+          href: ../financials/localizations/rus-invoice-payment.md
+        - name: Tasakaalustuste dimensioonide juhtimise seadistamine
+          href: ../financials/localizations/rus-transactions-settlement-date.md
+        - name: Rahavoohaldus
+          href: ../financials/localizations/rus-cash-flow.md
+      - name: Aruandlus
+        items:
+        - name: Finantsaruandlus
+          href: ../financials/localizations/rus-financial-reports.md
       - name: Ettevõtte jaotused
         href: ../financials/localizations/rus-company-divisions.md
       - name: Valuutakannete vahetuskursside seadistamine
@@ -2280,8 +2317,10 @@ items:
         href: ../financials/localizations/rus-invoice-payment.md
       - name: Finantsaruandlus
         href: ../financials/localizations/rus-financial-reports.md
-      - name: Uue osturaamatu loomine
-        href: ../financials/localizations/rus-sales-books-purchase-books.md
+      - name: Raamatupidamise elektrooniline aruandlus
+        href: ../financials/localizations/rus-accounting-reporting.md
+      - name: Rahavoohaldus
+        href: ../financials/localizations/rus-cash-flow.md
     - name: Saudi Araabia
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2367,6 +2406,8 @@ items:
         href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
       - name: Käibemaksugruppide seadistamine pöördkäibemaksu jaoks
         href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+      - name: Maksu muutmine käibemaksu jaoks digitaalseks
+        href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
     - name: Ameerika Ühendriigid
       href: ../financials/localizations/united-states.md
       items:
@@ -2825,13 +2866,15 @@ items:
         items:
         - name: Elektroonilise aruandluse funktsioonide loendi laiendamine
           href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-        - name: Elektroonilise aruandluse raamistiku API muudatused Application update 7.3 jaoks
+        - name: Elektroonilise aruandluse raamistiku API muudatused rakenduse värskenduse 7.3 puhul
           href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+        - name: Loodud dokumentidele kohandatud salvestusruumi määramine
+          href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
     - name: Manustatud analüütilised lahendused
       items:
       - name: Manustatud Power BI tööruumides
         href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json
-      - name: Power BI Embedded integratsioon
+      - name: Power BI Embeddedi integratsioon
         href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
     - name: Isikupärastamise suvandid saidil PowerBI.com
       items:
@@ -3281,6 +3324,8 @@ items:
         href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
       - name: Töövoo tüüpide aruanne
         href: organization-administration/workflow-types-report.md
+      - name: Töövoo KKK
+        href: organization-administration/workflow-FAQ.md
     - name: Teatised
       href: get-started/alerts-overview.md
       items:
@@ -3799,8 +3844,6 @@ items:
         href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
       - name: Müügilepingute täitmine
         href: ../supply-chain/sales-marketing/tasks/fulfill-sales-agreements.md
-      - name: Uue kaubandusleppe loomine
-        href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
       - name: Kliendi tagasimaksete genereerimine ja töötlemine
         href: ../supply-chain/sales-marketing/tasks/process-customer-rebates.md
       - name: Makse tagasimaksete töötlemine
@@ -3827,7 +3870,9 @@ items:
         href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
     - name: Kaubandushüvitis
       href: ../supply-chain/sales-marketing/trade-allowance.md
-  - name: Teenuste haldus
+    - name: Uue kaubandusleppe loomine
+      href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
+  - name: Teenuste haldamine
     href: ../supply-chain/service-management/service-management-home-page.md
     items:
     - name: Klienditeeninduse seadistamine
@@ -4241,9 +4286,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: cb58a9f8fa8305a3d8b956804ef74bef86ca04b9
-ms.sourcegitcommit: 7e0097bdd835e04521bffbce2fd802e6381dde0d
+ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "376914"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836392"

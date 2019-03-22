@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 982b72b3fd71d58038218e007f9f3790874ceddc
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 262d301262189ec1ba40577e962eeee2ccff0da3
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377201"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791564"
 ---
 # <a name="whats-new-or-changed"></a>Mis on uus või muudetud
 
@@ -53,15 +53,21 @@ Selles tabelis on loetletud rakenduse põhiversioonid. Igakuiseid pilvevärskend
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10,0</td>
-<td>10,0,8</td>
+<td>10.0.1</td>
+<td>10.0.51</td>
 <td>2019. aprill</td>
-<td><a href="whats-new-changed-10.md">Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations versioonis 10.0 (aprill 2019)</a></td>
+<td><a href="whats-new-changed-10-0-1.md">Eelvaatefunktsioonid rakenduse Dynamics 365 for Finance and Operations versioonis 10.0.1 (aprill 2019)</a></td>
+</tr><tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>10.0</td>
+<td>10.0.8</td>
+<td>2019. aprill</td>
+<td><a href="whats-new-changed-10-0-1.md">Mis on uut või muutunud rakenduse Finance and Operations versioonis 10.0 (aprill 2019) </a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>8,1,3</td>
-<td>8,1,227</td>
+<td>8.1.3</td>
+<td>8.1.227</td>
 <td>jaanuar 2019</td>
 <td><a href="whats-new-changed-8-1-3.md">Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations versioonis 8.1.3 (jaanuar 2019)</a></td>
 </tr>
@@ -146,8 +152,14 @@ Selles tabelis on loetletud rakenduse põhiversioonid. Igakuiseid pilvevärskend
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>Platvormivärskendus update 25</td>
+<td>7.0.5222</td>
+<td>2019. aprill</td>
+<td><a href="whats-new-platform-25.md">Eelvaatefunktsioonid rakenduse Dynamics 365 for Finance and Operations platvormivärskenduses 25 (aprill 2019)</a></td>
+</tr><tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Platvormivärskendus update 24</td>
-<td>7,0,5179</td>
+<td>7.0.5179</td>
 <td>2019. märts</td>
 <td><a href="whats-new-platform-update-24.md">Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations platvormivärskenduses 24 (märts 2019)</a></td>
 </tr>

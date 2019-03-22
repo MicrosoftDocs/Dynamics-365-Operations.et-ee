@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356342"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832144"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Veerudefinitsioonid finantsaruannetes
 
@@ -62,7 +62,7 @@ Veeru definitsioon võib sisaldada 2 kuni 255 veergu.
 Veeru definitsioon sisaldab järgmist teavet.
 
 - Readefinitsiooni kirjelduste veerg
-- Summa veerud, milles kuvatakse andmed finantsandmetest, Microsoft Exceli töölehelt või arvutused, mis põhinevad veeru definitsiooni muudel andmetel
+- Summa veerud, milles kuvatakse veeru definitsiooni muudel andmetele põhinevate finantsandmete või arvutuste andmed
 - Vormingu veerud
 - Atribuudi veerud
 
@@ -170,7 +170,7 @@ Saate kasutada dialoogiboksi **Veerupäis** aruande veergude ülaosas olevate p�
 
 ### <a name="create-an-automatically-generated-header"></a>Automaatselt loodava päise loomine
 
-Aruandekoostur saab veerupäiseid automaatteksti koodide alusel automaatselt luua. Automaatteksti koodid on muutujad, mida värskendatakse iga kord, kui aruanne luuakse. Veerupäis võib sisaldada neid koode varieeruva aruandeteabe, nagu kuupäevade või perioodinumbrite määramiseks. Seetõttu saate kasutada ühte veeru definitsiooni mitme aruande definitsiooni, ajaperioodi ja aruandluspuu puhul. Kuna automaatteksti koodid sõltuvad veeru definitsiooni üksikasjaridade kalendriteabest, toetavad neid ainult veerud **CALC**, **FD** ja **WKS**. Automaatteksti koodi veerupäise lahtris kuvamise viis mõjutab selle teabe ilmet aruandes. Dialoogiboksis **Veerupäis** kuvatakse automaatteksti koodid erinevate tõstudega. Seega kuvatakse tekst aruandes erinevate tõstudega. Näiteks standardses kalendriaastas teisendab **@CalMonthLong** kuu **7** suvandile **Juuli**. Kui kuu nimi tuleks aruandes suurte tähtedega (näiteks **JUULI**) kuvada, sisestage automaatteksti kood väljale **Veeru päise tekst** suurte tähtedega. Sisestage näiteks **@CALMONTHLONG**. Võite koode ja teksti kombineerida. Näiteks saate sisestada järgmise päiseteksti: **Periood @FiscalPeriod-@FiscalYear alates @StartDate kuni @EndDate**. Loodav aruande pealkiri sarnaneb järgmisega: **Periood 1-02 alates 01/01/02 kuni 01/31/02**.
+Aruandekoostur saab veerupäiseid automaatteksti koodide alusel automaatselt luua. Automaatteksti koodid on muutujad, mida värskendatakse iga kord, kui aruanne luuakse. Veerupäis võib sisaldada neid koode varieeruva aruandeteabe, nagu kuupäevade või perioodinumbrite määramiseks. Seetõttu saate kasutada ühte veeru definitsiooni mitme aruande definitsiooni, ajaperioodi ja aruandluspuu puhul. Kuna automaatteksti koodid sõltuvad veeru definitsiooni üksikasjaridade kalendriteabest, toetavad neid ainult veerud **CALC** ja **FD**. Automaatteksti koodi veerupäise lahtris kuvamise viis mõjutab selle teabe ilmet aruandes. Dialoogiboksis **Veerupäis** kuvatakse automaatteksti koodid erinevate tõstudega. Seega kuvatakse tekst aruandes erinevate tõstudega. Näiteks standardses kalendriaastas teisendab **@CalMonthLong** kuu **7** suvandile **Juuli**. Kui kuu nimi tuleks aruandes suurte tähtedega (näiteks **JUULI**) kuvada, sisestage automaatteksti kood väljale **Veeru päise tekst** suurte tähtedega. Sisestage näiteks **@CALMONTHLONG**. Võite koode ja teksti kombineerida. Näiteks saate sisestada järgmise päiseteksti: **Periood @FiscalPeriod-@FiscalYear alates @StartDate kuni @EndDate**. Loodav aruande pealkiri sarnaneb järgmisega: **Periood 1-02 alates 01/01/02 kuni 01/31/02**.
 
 > [!NOTE]
 > Osa teksti, nt pika kuupäeva, vorming oleneb teie regioonisätetest Finance and Operationsi serveris. Nende sätete muutmiseks klõpsake nuppu **Start**, klõpsake suvandit **Juhtpaneel** ja seejärel klõpsake suvandit **Regioon ja keel**. Järgmises tabelis loetletakse veerupäiste puhul saadaolevad automaatteksti suvandid.
@@ -291,7 +291,7 @@ Lahter **Lisatühikuid enne veergu** määrab veeru definitsioonis ühe veeru ja
 1. Avage aruande kujundajas muudetav veeru definitsioon.
 2. Sisestage lahtrisse **Lisatühikud enne veergu** veergude vahele sisestatavate tühikute arv.
 
-### <a name="specify-a-currency"></a>Valuuta määramine
+### <a name="specify-a-format-currency-override"></a>Vormingu/valuuta alistamise määramine
 
 Vahekaart **Vormingu/valuuta alistamine** määrab kümnend-, valuuta- ja protsendisummade vormingu veerus. Selline vorming alistab veeru definitsioonis või süsteemi vaikesuvandites määratud vormingu.
 
@@ -361,7 +361,7 @@ Teabe tüüp, mida iga aruande veerg sisaldab, määratakse väärtusega veeru d
     <tbody>
     <tr>
     <td>FD</td>
-    <td>Kuvage finantsandmed või Exceli töölehe andmed, kui kasutate reamääratluses veergu <strong>Link finantsdimensioonidele</strong> või veergu <strong>Link töölehele</strong>. Kui valite <strong>FD</strong>‑tüüpi veeru, määratakse järgmistel ridadel automaatselt vaikesätted. <ul>
+    <td>Kui kasutate rea definitsioonis veergu <strong>Link finantsdimensioonidele</strong>, kuvatakse finantsandmed. Kui valite <strong>FD</strong>‑tüüpi veeru, määratakse järgmistel ridadel automaatselt vaikesätted. <ul>
     <li><strong>Arvestuskood/atribuudikategooria:</strong> TEGELIK</li>
     <li><strong>Arvestuskood/atribuudikategooria:</strong> TEGELIK</li>
     <li><strong>Finantsaasta:</strong> BAAS</li>
@@ -394,14 +394,6 @@ Saate neid vaikesätteid muuta.</td>
     <tr>
     <td>PAGE</td>
     <td>Vertikaalse lehepiiri sisestamine aruandesse. Veerust <strong>LEHT</strong> paremal olevad veerud ilmuvad muul lehel.</td>
-    </tr>
-    <tr>
-    <td>WKS</td>
-    <td>Exceli töölehelt tõmmatavate andmete kuvamine. Kui valite veerutüübi <strong>WKS</strong>, määratakse järgmistele ridadele automaatselt vaikesätted. <ul>
-    <li><strong>Finantsaasta:</strong> PERIOODILINE</li>
-    <li><strong>Periood:</strong> BAAS</li>
-    </ul>
-Saate neid vaikesätteid muuta.</td>
     </tr>
     <tr>
     <td>ATTR</td>
@@ -518,13 +510,13 @@ Täpseks vastendamiseks saate kasutada ka mis tahes kirjamärkide kombinatsiooni
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Mitme valuutaga aruande vormindamine veeru definitsioonis
 
-Mitme valuutaga aruandes saab kuvada summad füüsilises (kohalik) valuutas, ametlikus (vaikimisi) valuutas või aruandlusvaluutas. Ettevõtte ametlik valuuta määratletakse Microsoft Dynamicsi ERP süsteemis. Ärge ajage seda ERP sätet segamini operatsioonisüsteemi piirkonnavalikute sättega, milles saate konfigureerida vaikevaluuta tähiseid, mida aruannetes kasutatakse. Veeru definitsioonis on saadaval järgmised valuutaga seotud lahtrid.
+Mitme valuutaga aruanne võib kuvada summasid pearaamatu arvestusvaluutas, pearaamatu aruandlusvaluutas, algses kandevaluutas või teisendatud aruandlusvaluutas. Ettevõtte arvestusvaluuta on määratud pearaamatu seadistuses. Ärge ajage seda sätet segamini operatsioonisüsteemi piirkonnavalikute sättega, milles saate konfigureerida aruannetest kasutatavaid vaikevaluutatähiseid. Veeru definitsioonis on saadaval järgmised valuutaga seotud lahtrid.
 
-- **Valuuta kuvamine** – saate määrata kannetes kuvatava valuuta tüübi (füüsiline, ametlik või aruandlus). Sellele funktsioonile viidatakse mõnikord kui valuuta teisendamisele. Valuuta teisendamine on pearaamatu summade aruandluse võimalus valuutas, mis ei pruugi olla ettevõtte ametlik valuuta või kandele sisestatud valuuta.
+- **Valuuta kuvamine** – saate määrata kannetes kuvatava valuuta tüübi (arvestusvaluuta, aruandlusvaluuta, kandevaluuta või teisendatud aruandlusvaluuta). Aruandlusvaluutaks teisendamise funktsiooni nimetatakse mõnikord valuuta teisendamiseks. Valuuta teisendamine on võimalus esitada pearaamatu summasid valuutas, mis ei ole ettevõtte tegevus- või aruandlusvaluuta või sisestatud kande valuuta.
 - **Valuutafilter** – valuuta filtri määramine. Aruandes kuvatakse ainult valitud valuutas sisestatud kanded.
 
-> [!NOTE]
-> Mitut valuutat kasutavate aruannete loomiseks peate valima märkeruudu **Kaasa kõik aruandlusvaluutad** aruande definitsiooni vahekaardil **Aruanne**. Ettevõtte ametliku valuuta määramiseks toimige järgmiselt.
+> 
+Ettevõtte arvestusvaluuta määramiseks toimige allpool kirjeldatud viisil.
 
 1. Klõpsake aruandekoosturis menüü **Ettevõte** suvandit **Ettevõtted**.
 2. Valige ettevõte dialoogiboksist **Ettevõtted** ja seejärel klõpsake käsku **Kuva**..
@@ -533,20 +525,18 @@ Mitme valuutaga aruandes saab kuvada summad füüsilises (kohalik) valuutas, ame
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Valuuta määramine mitme valuutaga aruandel
 
 1. Avage aruande kujundajas muudetav veeru definitsioon.
-2. Topeltklõpsake lahtrit **Valuuta kuva** asjakohases veerus **FD** ja seejärel valige valuutateabe kuvamise suvand: **Füüsiline/pärinev valuuta**, **Ettevõtte teabe ametlik valuuta** või aruandlusvaluuta.
+2. Topeltklõpsake asjakohases veerus **FD** olevat lahtrit **Valuutakuva** ja seejärel valige valuutateabe kuvamise suvand: **Pearaamatu arvestusvaluuta**, **Pearaamatu aruandlusvaluuta**, kandevaluuta või muuks aruandlusvaluutaks teisendamine.
 3. Topeltklõpsake lahtrit **Valuutafilter** asjakohases veerus **FD** ja seejärel valige loendist sobiv valuutakood. Aruandes kuvatakse ainult selles valuutas sisestatud kanded.
 
-> [!NOTE]
-> Siin kirjeldatavad suvandid võivad olenevalt ERP süsteemist erineda. Lisateabe saamiseks vaadake oma [Microsoft ERP süsteemi dokumente](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Lahtrite Kuva valuuta ja Valuutafilter näide
 
 Phyllis tegi oma veeru definitsioonis järgmised valuuta valikud.
 
 - **Valuutafilter:** jeen
-- **Valuuta kuva:** ametlik (USA dollarid)
+- **Valuutakuva:** pearaamatu arvestusvaluuta (USA dollarid)
 
-Phyllise valitud valuutafiltri tõttu sisaldab aruanne ainult kandeid, mis sisestati Jaapani jeenides (JPY). Tema valitud valuuta kuva tõttu kuvatakse need kanded aruandes ametlikus valuutas USA dollarites (USD).
+Phyllise valitud valuutafiltri tõttu sisaldab aruanne ainult kandeid, mis sisestati Jaapani jeenides (JPY). Tema valitud valuutakuva tõttu kuvatakse need kanded aruandes arvestusvaluutas, USA dollarites (USD).
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Kombinatsioonid Valuutafilter ja Valuuta kuva
 
@@ -555,10 +545,10 @@ Järgmises tabelis kuvatakse aruande tulemused, mis võivad ilmneda suvandite er
 
 | Lahter Valuuta kuva                        | Lahter Valuutafilter | Aruande tulemus |
 |----------------------------------------------|----------------------|---------------|
-| Füüsiline/pärinev valuuta                 | **YEN**              | **Y6,000** – tulemus kuvab ainult valuutas JPY sisestatud kanded. |
-| Ettevõtte teabe ametlik valuuta | **YEN**              |**$60** – tulemus kuvab ainult need kanded, mis sisestati valuutas JPY ja kuvab need kanded valuutas USD.<blockquote>[!NOTE] Vahetuskurss on umbes 100 JPY USD kohta.</blockquote> |
-| Funktsionaalne valuuta ettevõtte andmetest | Tühi                | **2310 $** – tulemus kuvab kõik andmed ettevõtte andmetes määratud ametlikus valuutas.<blockquote>[!NOTE] See summa on kõigi kannete summa ametlikus valuutas.</blockquote> |
-| Füüsiline/pärinev valuuta                 | Tühi                | **$2,250** – tulemus kuvab kõik summad valuutas, milles kanne tehti. |
+| Kande valuuta                 | **YEN**              | **Y6,000** – tulemus kuvab ainult valuutas JPY sisestatud kanded. |
+| Pearaamatu arvestusvaluuta | **YEN**              |**$60** – tulemus kuvab ainult need kanded, mis sisestati valuutas JPY ja kuvab need kanded valuutas USD.<blockquote>[!NOTE] Vahetuskurss on umbes 100 JPY USD kohta.</blockquote> |
+| Pearaamatu arvestusvaluuta | Tühi                | **2310 $** – kõik andmed kuvatakse pearaamatus määratud arvestusvaluutas.<blockquote>[!NOTE] See summa on kõigi kannete summa arvestusvaluutas.</blockquote> |
+| Kande valuuta                 | Tühi                | **$2,250** – tulemus kuvab kõik summad valuutas, milles kanne tehti. See tähendab, et kogusummaks liidetakse kokku eri valuutade summad. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Veeru definitsiooni arvutuse veerg
 

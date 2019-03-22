@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: 43cf13d96e345747e06541267d820e17de7c1763
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376503"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768878"
 ---
 # <a name="set-up-offer-management"></a>Pakkumiste halduse seadistamine 
 
@@ -199,11 +199,11 @@ Rakenduse Attract administraator saab konfigureerida mitut pakkumise loomise pro
 - **Kandidaadi pakkumise kogemus** – administraatorina saate valida, kas määrata kõigile pakkumistele aegumiskuupäev ja kui, siis milline peaks olema aegumiskuupäeva vaikevastasus. Saate konfigureerida ka selle, kas kandidaat saab pakkumisest keelduda.
 
 - **Elektronallkirjad** -administraatorina saate määrata ka meetodi, mille abil kandidaatid saavad pakkumistele allkirju anda.
-    - Adobe Sign - kõik pakkumispaketid saadetakse ja allkirjastatakse rakenduse Adobe Sign abil. Iga avaldatud pakkumise looja peab ühendama oma Adobe Sign'i litsentsi rakendusega Attract. 
+    - Adobe Sign - kõik pakkumispaketid saadetakse ja allkirjastatakse rakenduse Adobe Sign abil. Iga pakkumise looja, kes pakkumise avaldab, peab ühendama oma Adobe Sign’i konto rakendusega Attract. Adobe Signi litsentside ja tasuta prooviperioodi puhul külastage seda [linki](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+    - DocuSign – kõik pakkumispaketid saadetakse ja allkirjastatakse rakenduse DocuSign abil. Iga pakkumise looja, kes pakkumise avaldab, peab ühendama oma DocuSigni konto rakendusega Attract. 
+    
     - ESign – see on valmiskujul esitatud vaikesäte, kus kasutaja saab oma nime ja initsiaalide sisestamisega pakkumise allkirjastada.
 
->[!NOTE]
-> Adobe Signi litsentside ja tasuta prooviperioodi puhul külastage seda [linki](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
 Pakkumise loomise protsessi kohta lisateabe saamiseks vt [Loomine, kinnitamine ja pakkumiste allkirjastamine](./creating-offers.md).
