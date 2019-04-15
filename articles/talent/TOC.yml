@@ -8,6 +8,14 @@ items:
     - name: Mis on uut või mida on muudetud rakenduses Talent?
       href: whats-new.md
       items:
+      - name: 2. aprill 2019
+        href: whats-new-talent-april-2-2019.md
+      - name: 26. märts 2019
+        href: whats-new-talent-march-26-2019.md
+      - name: 20. märts 2019
+        href: whats-new-talent-march-20.md
+      - name: 14. märts 2019
+        href: whats-new-talent-march-14.md
       - name: 5. märts 2019
         href: whats-new-talent-march-5.md
       - name: 27. veebruar 2019
@@ -20,38 +28,42 @@ items:
         href: whats-new-talent-january-29.md
       - name: 23. jaanuar 2019
         href: whats-new-talent-january-23.md
-      - name: 17. jaanuar 2019
-        href: whats-new-talent-january-17.md
-      - name: 11. jaanuar 2019
-        href: whats-new-talent-january-11.md
-      - name: 14. detsember 2018
-        href: whats-new-talent-december-14.md
-      - name: 6. detsember 2018
-        href: whats-new-talent-december-6.md
-      - name: 27. november 2018
-        href: whats-new-talent-november-27.md
-      - name: 15. november 2018
-        href: whats-new-talent-november-15.md
-      - name: 31. oktoober 2018
-        href: whats-new-talent-october-31.md
-      - name: 19. oktoober 2018
-        href: whats-new-talent-october-19.md
-      - name: 15. oktoober 2018
-        href: whats-new-talent-october-11.md
-      - name: 8. oktoober 2018
-        href: whats-new-talent-october-8.md
-      - name: 1. oktoober 2018
-        href: whats-new-talent-october-01.md
-      - name: 24. september 2018
-        href: whats-new-talent-september-24.md
-      - name: 17. september 2018
-        href: whats-new-talent-september-17-2018.md
-      - name: 10. september 2018
-        href: whats-new-talent-september-10.md
-      - name: August 2018
-        href: whats-new-talent-august2018.md
-      - name: Juuli 2018
-        href: whats-new-talent-july2018.md
+      - name: Mis on uut arhiivides 2019?
+        items:
+        - name: 17. jaanuar 2019
+          href: whats-new-talent-january-17.md
+        - name: 11. jaanuar 2019
+          href: whats-new-talent-january-11.md
+      - name: Mis on uut arhiivides 2018?
+        items:
+        - name: 14. detsember 2018
+          href: whats-new-talent-december-14.md
+        - name: 6. detsember 2018
+          href: whats-new-talent-december-6.md
+        - name: 27. november 2018
+          href: whats-new-talent-november-27.md
+        - name: 15. november 2018
+          href: whats-new-talent-november-15.md
+        - name: 31. oktoober 2018
+          href: whats-new-talent-october-31.md
+        - name: 19. oktoober 2018
+          href: whats-new-talent-october-19.md
+        - name: 15. oktoober 2018
+          href: whats-new-talent-october-11.md
+        - name: 8. oktoober 2018
+          href: whats-new-talent-october-8.md
+        - name: 1. oktoober 2018
+          href: whats-new-talent-october-01.md
+        - name: 24. september 2018
+          href: whats-new-talent-september-24.md
+        - name: 17. september 2018
+          href: whats-new-talent-september-17-2018.md
+        - name: 10. september 2018
+          href: whats-new-talent-september-10.md
+        - name: August 2018
+          href: whats-new-talent-august2018.md
+        - name: Juuli 2018
+          href: whats-new-talent-july2018.md
     - name: Süsteeminõuded ja värskenduspoliitika
       href: talent-versions-update-policy.md
     - name: Talenti ettevalmistamine
@@ -62,7 +74,7 @@ items:
       href: modular-app-tech-faq.md
     - name: PowerAppsi rakenduste manustamine
       href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Core HR ja Common Data Service rakendustele
+    - name: Core HR ja Common Data Service
       href: CoreHREntities.md
     - name: Juurdepääs eelvaatefunktsioonidele
       href: access-preview-feature.md
@@ -102,6 +114,8 @@ items:
       href: Process-templates-Attract.md
     - name: Tööde loomine, kinnitamine ja sisestamine Attractis
       href: Creating-jobs-Attract.md
+    - name: Tööde sisestamine Attractist välistele saitidele
+      href: posting-jobs-external.md
     - name: Hankimine talendikaustadega
       href: attract-talent-pools.md
     - name: Hankimine tööriistaga LinkedIn Recruiter
@@ -128,6 +142,8 @@ items:
       href: Intelligent-Recommendations.md
     - name: Kaasahaarava sisseelamiskogemuse loomine
       href: create-onboarding-experience.md
+    - name: Kandidaadi profiilide ja avalduste allikate jälgimine
+      href: source-tracking.md
     - name: Attracti värbamise lisandmooduli mitmekülgsed funktsioonid
       href: attract-comprehensive-hiring.md
   - name: Töötajate motiveerimine
@@ -203,9 +219,17 @@ items:
       href: talent-fo-integration.md
     - name: Korduvate andmete eksport Azure Logic Appsi abil
       href: tutorial-integration-recurring-export.md
+  - name: Laiendatavus
+    items:
+    - name: Talenti laiendamine PowerAppsi ja Microsoft Flow’ga – näidisstsenaariumid
+      href: extensibility-examples.md
+    - name: Rakenduse Attract laiendatavus
+      href: extensibility-attract.md
+    - name: Core HR kohandatud väljad
+      href: corehr-custom-fields.md
   - name: Office’i integreerimine
     items:
-    - name: Office’i integreerimise õpik
+    - name: Office’i integreerimise õppetükk
       href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Exceli lisandmooduli kasutamine
       href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -322,7 +346,7 @@ items:
       href: save-play-task-guides-LCS.md
     - name: Juurdepääs privaatsetele aadressidele turberolli järgi
       href: security-roles-addresses.md
-    - name: Talentit ei kuvata Microsoft Dynamics 365 rakenduste hulgas (CDS1.0)
+    - name: Talentit ei kuvata Microsoft Dynamics 365 rakenduste hulgas (Common Data Service 1.0)
       href: talent-not-in-home-CDS.md
     - name: Kasutaja pääseb ligi Core HR-ile, aga mitte rakendusele Onboard või Attract
       href: user-access-core-hr.md
@@ -332,9 +356,9 @@ items:
       href: talent-FO-integration.md
     - name: Azure Active Directory kasutajaid ei leitud inimeste valijast
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: 0454094f05b3e571a38b8361fa9573c929647551
+ms.sourcegitcommit: 594fd4c7b937695396a7154a906563f43293926a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782748"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "969443"
