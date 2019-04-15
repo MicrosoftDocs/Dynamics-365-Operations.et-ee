@@ -3,7 +3,7 @@ title: Ärianalüüsi (BI) ja aruandlus avaleht
 description: Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Microsoft Dynamics 365 for Finance and Operations saadaoleva ärianalüüsi ja aruandlustööriistade kohta.
 author: sericks007
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 03/27/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302155"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902838"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Ärianalüüsi (BI) ja aruandlus avaleht
 
@@ -32,8 +32,8 @@ Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Mi
 
 ## <a name="get-started"></a>Alustamine
 - [Teabe juurdepääs ja aruandlus](information-access-reporting.md)
-- [Tech Talk: Reporting options](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
-- [Finance and Operations: Business intelligence](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (ajaveeb)
+- [Tech Talk: aruandlusvõimalused](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
+- [Finance and Operations: Power BI analüütika ja aruandlusteenuste ajaveeb](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (ajaveeb)
 
 ## <a name="analytical-workspaces"></a>Analüütikatööruumid
 Rakendus Finance and Operations esitab interaktiivseid aruandeid, mis on sujuvalt integreeritud rakenduse tööruumidesse. Tööruumides saab kasutada rikkalikke teabegraafikuid ja visuaale, mida Microsoft Power BI toetab. Need teabegraafikud ja visuaalid hõlmavad mitmesuguseid kolmandate osapoolte pakutavaid juhtelemente. Seetõttu on tööruumide kasutamine väga visuaalne ja interaktiivne.

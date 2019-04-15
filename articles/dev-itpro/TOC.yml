@@ -278,7 +278,7 @@ items:
         href: extensibility/class-extensions.md
       - name: Klassi laiend meetodi mähkimise ja käsuliini kaudu
         href: extensibility/method-wrapping-coc.md
-      - name: Mudeli laiendite nimejuhised
+      - name: Laiendite nimejuhised
         href: extensibility/naming-guidelines-extensions.md
       - name: Laiendite ülekatmise refaktooringu jaoks mudelipiirangute lõdvendamine
         href: extensibility/refactoring-over-layering.md
@@ -374,6 +374,28 @@ items:
       href: perf-test/continuous-build-test-automation.md
     - name: SysTesti filtreerimine klassi- ja meetodiatribuutidega
       href: perf-test/systest-filtering.md
+    - name: Vastuvõtutesti teek
+      href: perf-test/acceptance-test-library.md
+    - name: Navigeerimispaani põhimõtted
+      href: perf-test/concepts-navigation.md
+    - name: Andmemeetodite test
+      href: perf-test/test-data-methods.md
+    - name: Üksused vastuvõtutestimise teegis
+      href: perf-test/concepts-entities.md
+    - name: Vastuvõtutesti teegi käsud
+      href: perf-test/concepts-commands.md
+    - name: Loojad vastuvõtutesti teegis
+      href: perf-test/concepts-creators.md
+    - name: Päringud vastuvõtutesti teegis
+      href: perf-test/concepts-queries.md
+    - name: Täpsustuse klassid
+      href: perf-test/concepts-specifications.md
+    - name: Vastuvõtutesti teegi koodiloomise viisard
+      href: perf-test/code-generation-wizard.md
+    - name: Vastuvõtutesti teegi parimad tavad
+      href: perf-test/atl-best-practices.md
+    - name: Korduma kippuvad küsimused
+      href: perf-test/atl-faq.md
   - name: Kuupäeva jõustumine
     href: dev-tools/date-effectivity.md
   - name: ISV litsentsimine
@@ -451,6 +473,8 @@ items:
       href: user-interface/control-checklist.md
   - name: Sõnumid
     items:
+    - name: Funktsioonide viiktekstid
+      href: user-interface/feature-callouts.md
     - name: Liugur ja teateakna dialoogid
       href: user-interface/slider-messagebox.md
     - name: Sõnumikeskuse, sõnumiriba ja sõnumi üksikasjade API
@@ -920,7 +944,7 @@ items:
       href: deployment/apply-deployable-package-system.md
     - name: Värskenduste ja laiendite rakendamine pilve majutatud Retaili kanali komponentidele
       href: deployment/Update-retail-channel.md
-    - name: Pilve majutatud Retaili kanali komponentide lähtestamine
+    - name: Lähtesta Retail Cloud Scale Unit
       href: deployment/Initialize-Retail-Channels.md
   - name: Asutusesisene juurutus
     href: deployment/on-premises-deployment-landing-page.md
@@ -1044,7 +1068,7 @@ items:
     items:
     - name: Uusima värskenduse kasutuselevõtmise protsess
       href: migration-upgrade/upgrade-latest-update.md
-    - name: Keskkondade värskendamine versioonilt 8.0 versioonile 8.1
+    - name: Keskkondade värskendamine versioonilt 8.0 versioonile 8.1.X/10.X
       href: migration-upgrade/appupdate-80-81.md
     - name: Tarkvara elutsükli poliitika ja pilveväljalasked
       href: migration-upgrade/versions-update-policy.md
@@ -1133,6 +1157,12 @@ items:
       href: sysadmin/runby.md
     - name: Pakett-töö SQL-indeksi defragmentimise käsitsemiseks
       href: sysadmin/batch-job-SQL-defragmentation.md
+    - name: Partiiteatiste konfigureerimine
+      href: sysadmin/alerts.md
+    - name: Täiustatud partiivormid
+      href: sysadmin/enhanced-forms.md
+    - name: Partii ajaloo puhastamine
+      href: sysadmin/batch-history-cleanup.md
   - name: Optimeerimisnõustaja
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1225,12 +1255,14 @@ items:
       href: database/import-database.md
     - name: Andmebaasi ajapunktipõhine taaste
       href: database/database-point-in-time-restore.md
-  - name: Õpikud
+  - name: Õppetükid
     items:
     - name: Värskendamine koolitusotstarbel
       href: database/dbmovement-scenario-general-refresh.md
-    - name: Veaparandus ja diagnostika
+    - name: Tootmisandmebaasi koopia silumine
       href: database/dbmovement-scenario-debugdiag.md
+    - name: Standardse kasutaja vastuvõtu testimise (UAT) andmebaasi koopia eksportimine
+      href: database/dbmovement-scenario-exportuat.md
     - name: Kuldse konfiguratsiooni kampaania
       href: database/dbmovement-scenario-goldenconfig.md
     - name: Purustav katse
@@ -1251,9 +1283,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: Finance and Operationsi tugikogemuste haldamine
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
-ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
+ms.openlocfilehash: 93081e4ccc64b68ae8f5cb3aa0f0c499bc1a426b
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "773798"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "976008"
