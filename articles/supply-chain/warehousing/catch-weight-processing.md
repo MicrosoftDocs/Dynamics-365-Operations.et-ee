@@ -3,7 +3,7 @@ title: Tegeliku kaalu toote protsess laohalduse abil
 description: Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldusi määramaks, kuidas ja kus laos tööd tehakse.
 author: perlynne
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.openlocfilehash: d4082464dafebfcadd02425081f5f9b5716af01a
+ms.sourcegitcommit: 118cd383a327519a266dfe27720b12e9bbfbac14
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777268"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "946429"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Tegeliku kaalu toote protsess laohalduse abil
 
@@ -97,7 +97,9 @@ Näiteks on tegeliku kaalu ühik **kast** ja te saate ühe kaubaaluse kaheksa ka
 
 Kui tegeliku kaalu sildi jälgimist ei kasutata, saab kaalu registreerida iga dimensioonikogumi kohta (nt iga litsentsiplaadi ja jälgimisdimensiooni kohta). Samuti on võimalik kaal registreerida koondtaseme, näiteks viie litsentsiplaadi (kaubaaluse), põhjal.
 
-Väljamineva kaalu registreerimisviisidena saate määratleda, kas kaalumine toimub iga tegeliku kaalu ühiku (st kasti) kohta või registreeritakse kaal komplekteeritava koguse (nt kolm kasti) põhjal. Pange tähele, et tootmisrea komplekteerimisprotsessi puhul kasutatakse keskmist kaalu, kui kasutusel on suvand **Registreerimata**.
+Väljamineva kaalu registreerimisviisidena saate määratleda, kas kaalumine toimub iga tegeliku kaalu ühiku (st kasti) kohta või registreeritakse kaal komplekteeritava koguse (nt kolm kasti) põhjal. Pange tähele, et tootmisrea komplekteerimise ja siseliikumise protsesside puhul kasutatakse keskmist kaalu, kui kasutusel on suvand **Ei jäädvustata**.
+
+Selleks et laohalduse komplekteerimisprotsessid ei jäädvustaks kaale, mis annavad tulemuseks tegeliku kaalu kasumi/kahjumi korrigeerimised, saab kasutada väljamineva kaalu hälbe meetodit.
 
 ## <a name="supported-scenarios"></a>Toetatud stsenaariumid
 
@@ -121,14 +123,12 @@ Kõik töövood ei toeta tegeliku kaalu toote protsessi laohalduse abil. Praegu 
  
 ### <a name="order-processing"></a>Tellimuse töötlemine
 
-- Kontsernisisese tellimuse töötlemist ei toetata.
 - Saadetise eelteatise (ASN/pakendistruktuurid) loomine ei toeta kaaluteavet.
 - Tellimuse kogus tuleb säilitada tegeliku kaalu ühiku alusel.
  
 ### <a name="inbound-warehouse-processing"></a>Sissetulevad laoprotsessid
 
 - Litsentsiplaatide vastuvõtmine nõuab registreerimise ajal kaalude määramist, kuna kaaluteavet ei toetata saadetise eelteatise osana. Tegeliku kaalu sildi protsesside kasutamisel tuleb sildi number määrata käsitsi iga tegeliku kaalu ühiku kohta.
-- Tegeliku kaalu toodete puhul ei toetata segalitsentsiplaatide vastuvõtmist.
  
 ### <a name="inventory-and-warehouse-operations"></a>Varude ja lao toimingud
 
@@ -169,7 +169,6 @@ Kõik töövood ei toeta tegeliku kaalu toote protsessi laohalduse abil. Praegu 
  
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Muud piirangud ja käitumised tegeliku kaalu toodete protsesside puhul laohaldusega
 
-- Kui tegeliku kaalu sildid on registreeritud laorakenduse protsessi osana, ei saa kasutaja töövoogu tühistada.
 - Komplekteerimisprotsesside puhul, kus kasutajal ei paluta jälgimisdimensioone tuvastada, toimub kaalu määramine keskmise kaalu põhjal. See käitumine ilmneb näiteks siis, kui samas asukohas kasutatakse jälgimisdimensioonide kombinatsiooni ja pärast seda, kui kasutaja on komplekteerimisprotsessi lõpule viinud, jääb asukohta alles ainult üks jälgimisdimensioon.
 - Kui varud reserveeritakse tegeliku kaalu tootele, mis on konfigureeritud laohaldusprotsesside jaoks, toimub reserveerimine määratletud minimaalse kaalu põhjal, isegi kui kogus on viimane laos olev käsitlemiskogus. See käitumine erineb käitumisest kaupade puhul, mis ei ole laohaldusprotsesside jaoks konfigureeritud.
 - Protsessid, mis kasutavad kaalu võimsuse arvutuste osana (vooläved, maksimaalsed tööjaotused, konteineri maksimumväärtused, asukoha koormavõimsused jne), ei kasuta varude tegelikku kaalu. Selle asemel põhinevad protsessid toote jaoks määratletud füüsilisel käsitlemiskaalul.
@@ -193,3 +192,5 @@ Praegu toetatakse tegeliku kaalu siltide funktsiooni ainult järgmiste stsenaari
 - Konteinerite uuesti avamisel.
 - Laorakenduse abil valemitoodete lõpetatuna kinnitamisel.
 - Laorakenduse abil transpordikoormate töötlemisel.
+
+Tegeliku kaalu sildi saab luua kas laorakenduse protsessiga, vormil käsitsi või andmeüksuse protsessiga. Kui tegeliku kaalu silt seostatakse sissetuleva lähtedokumendi reaga, näiteks ostutellimuse reaga, siis silt registreeritakse. Kui rida kasutatakse väljaminevaks töötlemiseks. Silt värskendatakse olekule Saadetud.

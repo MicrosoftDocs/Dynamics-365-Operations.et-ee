@@ -3,7 +3,7 @@ title: Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field
 description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse ladude sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 34cd18a18715d12d4002e6dbeee047467ed2a5ad
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7e6d7626c00b9d7d98ce872652653c36ce7bc975
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340311"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842529"
 ---
 # <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field Service
 
@@ -38,7 +38,7 @@ Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatak
 Ladude sünkroonimise käitamiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service kasutatakse järgmisi malle ja aluseks olevaid ülesandeid.
 
 **Mall andmeintegratsioonis**
-- Laod (rakendusest Finance and Operations rakendusse Field Service)
+- Laod (rakendusest Fin and Ops rakendusse Field Service)
 
 **Ülesanne andmeintegratsiooni projektis**
 - Ladu
@@ -76,6 +76,6 @@ Veenduge, et üksuse **msdyn_workorders** jaoks oleks olemas **integreerimisvõt
 
 Järgmistel joonistel on näidatud malli vastendamine andmeintegratsioonis.
 
-### <a name="warehouses-finance-and-operations-to-field-service-warehouse"></a>Laod (rakendusest Finance and Operations rakendusse Field Service): Ladu
+### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>Laod (rakendusest Fin and Ops rakendusse Field Service): ladu
 
 [![Malli vastendamine andmete integratsioonis](./media/Warehouse1.png)](./media/Warehouse1.png)

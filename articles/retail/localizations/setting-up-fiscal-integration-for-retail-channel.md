@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773323"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "898973"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Jaemüügikanalite fiskaalüksuse integreerimise seadistamine
 
@@ -60,7 +60,7 @@ Enne fiskaalüksuse integreerimise funktsiooni kasutamist tuleb konfigureerida j
 2. Laadige fiskaalkonnektorite ja fiskaaldokumendi pakkujate konfiguratsioonid üles.
 
     Fiskaaldokumendi pakkuja vastutab fiskaaldokumentide loomise eest, mis tähistavad jaemüügikandeid ja sündmusi, mis on kassas registreeritud vormingus, mida kasutatakse ka fiskaalseadme või -teenusega suhtlemiseks. Näiteks võib fiskaaldokumendi pakkuja luua fiskaalsissetuleku esituse XML-vormingus.
-    
+
     Fiskaalkonnektor vastutab fiskaalseadme või -teenusega suhtlemise eest. Näiteks võib fiskaalkonnektor saata fiskaalprinterile fiskaalsissetuleku, mille fiskaaldokumendi pakkuja lõi XML-vormingus. Lisateavet fiskaalüksuse integratsiooni komponentide kohta vt teemast [Fiskaalüksuse registreerimise protsess ja fiskaalüksuse integratsiooni näidised fiskaalseadmete puhul](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
     1. Laadige lehel **Fiskaalkonnektorid** (**Retail \> Kanali seadistus \> Fiskaalüksuse integratsioon \> Fiskaalkonnektorid**) üles XML-konfiguratsioon iga seadme või teenuse jaoks, mida kavatsete fiskaalüksuse integratsiooniks kasutada.
@@ -185,8 +185,12 @@ Fiskaalüksuse integratsioonis saadaolevad tõrketöötluse sätted määratakse
 
     - **Luba vahelejätmine** – see parameeter lubab tõrketöötluse dialoogiboksis suvand **Jäta vahele**.
     - **Luba registreerituks märkimine** – see parameeter lubab tõrketöötluse dialoogiboksis suvandi **Märgi registreerituks**.
+    - **Jätka tõrke korral** – kui see parameeter on lubatud, saab fiskaalüksuse registreerimise protsess kande või sündmuse fiskaalüksuse registreerimise nurjumise korral kassaregistris tegevust jätkata. Muidu peaks operaator järgmisel kandel või sündmusel fiskaalüksuse registreerimise käitamise jaoks nurjunud fiskaalüksuse registreerimist uuesti proovima, selle vahele jätma või märkima kande või sündmuse registreerituks. Lisateavet vaadake teemast [Valikuline fiskaalüksuse registreerimine](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).
 
-2. Tõrketöötluse dialoogiboksi suvandid **Jäta vahele** ja **Märgi registreerituks** nõuavad luba **Vahelejätmise või registreerituks märkimise lubamine**. Seetõttu lubage lehel **Lubade grupid** (**Retail \> Töövõtjad \> Lubade grupid**) luba **Vahelejätmise või registreerituks märkimise lubamine**.
+    > [!NOTE]
+    > Kui lubatud on parameeter **Jätka tõrke korral**, siis on parameetrid **Luba vahelejätmine** ja **Luba registreerituks märkimine** automaatselt keelatud.
+
+2. Tõrketöötluse dialoogiboksi suvandid **Jäta vahele** ja **Märgi registreerituks** nõuavad luba **Registreerimise vahelejätmise või registreerituks märkimise lubamine**. Seetõttu lubage lehel **Lubade grupid** (**Retail \> Töövõtjad \> Lubade grupid**) luba **Registreerimise vahelejätmise või registreerituks märkimise lubamine**.
 3. Suvandid **Jäta vahele** ja **Märgi registreerituks** võimaldavad operaatoritel sisestada lisateavet, kui fiskaalüksuse registreerimine nurjub. Selle funktsiooni kättesaadavaks tegemiseks peate määrama fiskaalkonnektorite grupis teabekoodid **Jäta vahele** ja **Märgi registreerituks**: Seejärel salvestatakse operaatorite sisestatav teave teabekoodi kandena, mis on lingitud fiskaalkandega. Lisateavet teabekoodide kohta vt teemast [Teabekoodid ja teabekoodigrupid](../info-codes-retail.md).
 
     > [!NOTE]
@@ -200,6 +204,8 @@ Fiskaalüksuse integratsioonis saadaolevad tõrketöötluse sätted määratakse
     > - **Fiskaaldokument** – kohustuslik dokument, mis tuleb edukalt registreerida (nt fiskaalsissetulek).
     > - **Mittefiskaaldokument** – kande või sündmuse lisadokument (nt kinkekaardi sedel).
 
+4. Kui operaator peab pärast seisundikontrolli tõrke esinemist olema võimeline jätkama praeguse operatsiooni (näiteks kande loomine või lõpetamine) protsessi, siis peaksite lubama loa **Luba seisundikontrolli tõrge vahele jätta**, mille leiate lehelt **Loagrupid** (**Retail \> Töövõtjad \> Loagrupid**). Lisateavet seisundikontrolli protseduuri kohta leiate teemast [Fiskaalüksuse registreerimise seisundikontroll](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>Fiskaalüksuse x-/z-aruannete seadistamine kassast
 
 Fiskaalüksuse x-/z-aruannete käitamise lubamiseks kassast peate lisama kassa ekraanipaigutusse uued nupud.
@@ -211,3 +217,12 @@ Fiskaalüksuse x-/z-aruannete käitamise lubamiseks kassast peate lisama kassa e
     3. Lisage uus nupp ja määrake nupu **Prindi fiskaalüksuse z** atribuut.
     4. Käivitage lehel **Jaotusgraafik** töö **1090**, et edastada muudatused kanali andmebaasile.
 
+## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Edasi lükatud fiskaalüksuse registreerimise käsitsi käivitamise lubamine
+
+Edasi lükatud fiskaalüksuse registreerimise käsitsi käivitamise lubamiseks peaksite kassa paigutusse lisama uue nupu.
+
+- Järgige lehel **Nupupaneelid** teemas [Kohandatud toimingunupu lisamine kassa ekraanipaigutusse kaupluse halduses](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) toodud juhiseid kujundaja installimiseks ja kassa ekraanipaigutuse värskendamiseks.
+
+    1. Valige värskendatav paigutus.
+    2. Lisage uus nupp ja määrake nupu atribuut **Lõpeta fiskaalüksuse registreerimise protsess**.
+    3. Käivitage lehel **Jaotusgraafik** töö **1090**, et edastada teie muudatused kanali andmebaasile.

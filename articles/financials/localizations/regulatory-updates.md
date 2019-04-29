@@ -3,7 +3,7 @@ title: Regulatiivsed värskendused
 description: Selles teemas on toodud loend rakenduse Microsoft Dynamics 365 for Finance and Operations plaanitud ja väljastatud regulatiivsetest värskendustest.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/19/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
-ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
+ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832097"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992832"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
@@ -28,12 +28,18 @@ ms.locfileid: "832097"
 
 Selles teemas on toodud loend regulatiivsetest värskendustest, mis on plaanitud rakenduse Microsoft Dynamics 365 for Finance and Operations toetatud lokaliseeringute väljalaskesse. Väljaandmise tähtajad võivad muutuda ja kavandatud funktsioonid võivad muutuda või ei pruugita neid väljastada. Lisateavet vt jaotisest [Microsofti poliitika](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Regulatiivsed värskendused erinevad regulatiivsetest funktsioonidest. Teavet plaanitud või välja antud regulatiivsete funktsioonide kohta vaadake järgmistest ressurssidest.
+Regulatiivsed värskendused on funktsioonid, mida juurutatakse, et toetada uusi või muudetud riigikohaseid õigusakte. Teavet muude plaanitud ja välja antud riigikohaste funktsioonide kohta vaadake järgmistest ressurssidest.
 
 - [Dynamics 365 ja Power Platformi väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Mis on uut rakenduses Microsoft Dynamics 365 for Finance and Operations?](../../fin-and-ops/get-started/whats-new-changed.md)
 
-Kui veerus Kuupäev on näidatud kuu, on regulatiivne värskendus plaanitud välja anda selle kuu jooksul. Väljaandmiskuupäev võib olla selle kuu mis tahes, mitte ainult esimene päev.
+Microsoft püüab juurutada uusi regulatiivseid nõudeid võimalikult kiiresti. Tegelik väljalaskekuupäev sõltub seaduse väljakuulutamise päevast, nõuete üksikasjaliku teabe kättesaadavusest kohalike omavalitsuste käest, valideerimisvahendite kättesaadavusest ning muutuste ulatusest ja keerukusest. 
+
+Kavatseme saata regulatiivsed värskendused ühe versiooni teenusevärskendustega, mis väljastatakse klientidele õigeks ajaks tarkvara värskendamiseks ja jõustumiskuupäevaks valmisolekuks (kannete regulatiivsete värskenduste puhul) või esimeseks kohustuslikuks aruandlustähtajaks (aruandlusega seotud regulatiivsete värskenduste puhul). Kliendid ja partnerid saavad näha uute regulatiivsete värskenduste eelvaadet Varajase juurutuse eelvaateprogrammist (PEAP ehk Preview Early Adoption Program).
+
+Kui väljakuulutamise kuupäevad on hilised, nõuete üksikasjaliku teabe või valideerimisvahendite saadavus on hiline või muudatused on ulatuslikud ja keerulised, siis ei pruugi olla võimalik teha regulatiivset värskendust kättesaadavaks igakuise värskenduse üldise kättesaadavuse kuupäevaks. Sellistel juhtudel saadetakse regulatiivne värskendus kiirparandustena mõnele olemasolevale igakuisele värskendusele.
+
+Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist tabelit. 
 
 |Plaanitud väljaandmiskuupäev|Vabasta versioon|Riik|Regulatiivne värskendus|
 |--------------------|---------------|-------|-------|
@@ -47,7 +53,9 @@ Kui veerus Kuupäev on näidatud kuu, on regulatiivne värskendus plaanitud väl
 |      2019. aprill          |   10.0.1      |    Ühendkuningriik     |[KM-aruande esitamismuudatused (maksude digitaalseks muutmine)](emea-gbr-mtd-vat-integration.md)    |    
 |      2019. aprill          |   10.0.1      |    Brasiilia     |NF-e uus NT 2018.005         |
 |      2019. aprill          |   10.0.1      |    Venemaa     |KM-i deklaratsiooni vorming muutub alates 2019. aastast         |
-|      2019. aprill          |   10.0.1      |    Venemaa     |KM-i deklaratsiooni vorming muutub alates 2019. aastast (müügi- ja osturaamatute vormingud)  |
+|      2019. aprill          |   10.0.1      |    Venemaa     |KM-i deklaratsiooni vorming muutub alates 2019. aastast (müügi- ja osturaamatud) 
+|      2019. mai            |   10.0.2      | Brasiilia      |   SPED ECD kavand 7   |
+
 
 ## <a name="additional-resources"></a>Lisaressursid
 - Kõik plaanitud ja väljaantud regulatiivsed värskendused leiate jaotisest [Lifecycle Service – väljaande otsing](https://lcs.dynamics.com/Logon/Index) (vajalik on sisselogimine).

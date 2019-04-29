@@ -1,29 +1,29 @@
 ---
 title: Intelligentsed soovitused
 description: Selles teemas kirjeldatakse, kuidas masinõppe abil töökohtadele ja töökoha kandidaatidele soovitusi anda.
-author: josaw
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304059"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896553"
 ---
 # <a name="intelligent-recommendations"></a>Intelligentsed soovitused
 
@@ -32,8 +32,9 @@ ms.locfileid: "304059"
 Masinõpe võib aidata värbajatel ja värbamisjuhtidel kiiresti tuvastada ametikoha parimad kandidaadid. Samuti võib see aidata potentsiaalsetel tööotsijatel leida ametikoha, mis sobib kõige paremini nende profiili ja huvidega. Nende funktsioonide kasutamisel ja tagasiside andmisel soovitused täiustuvad.
 
 > [!NOTE] 
-> - Intelligentse soovituse funktsioon on saadaval ainult tervikliku värbamise lisandmooduli korral.
-> - Kandidaadi ja töökoha soovitusfunktsioonide lubamiseks peab administraator nende jaoks eelvaatesuvandid sisse lülitama. Veenduge Halduskeskuse **Funktsiooni halduse** vahekaardil, et **Eelvaate funktsioonide** suvand oleks määratud olekusse **Sees**. Seejärel veenduge, et individuaalsed **Kandidaadi soovitamise** ja **Töökoha soovitamise** suvandid oleks määratus olekusse **Sees**.
+> - Intelligentse soovituse funktsioon on saadaval ainult [tervikliku värbamise lisandmooduli korral](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Selles teemas märgitud funktsioonid on saadaval eelväljaandes. Sisu ja funktsioonid võivad muutuda. Selle funktsiooni kasutamiseks paluge administraatoril see lubada, kasutades Attractis **administraatori sätteid**. Määrake suvandid **Kandidaadisoovitus**, **Töökohasoovitus** ja **Potentsiaalselt sobiva kandidaadi soovitus** valikule **Sees**. Lisateavet leiate teemast [Juurdepääs eelvaatefunktsioonidele rakenduses Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+
 
 ## <a name="candidate-recommendations"></a>Kandidaadisoovitused
 
@@ -43,4 +44,15 @@ Iga soovitatud kandidaadi kohta saate kandidaadi profiili ülevaatamiseks ja tem
 
 ## <a name="job-recommendations"></a>Töösoovitused 
 
-Kui potentsiaalne töövõtja kasutab karjäärisaiti tööle kandideerimiseks, soovitatakse talle ka organisatsiooni teisi vabasid ametikohti. Need soovitused põhinevad potentsiaalse töövõtja varasematel avadustel ja tema elulool või kandidaadi profiilil. Seega aitavad töösoovitused potentsiaalsetel töövõtjatel kiiresti tuvastada neile sobivaimad tööd. Potentsiaalsetele töövõtjatele pakutakse töösoovitusi, kui karjäärisaidile sisestatakse rohkem kui kümme tööd. Potentsiaalsed töövõtjad saavad töösisestuse üksikasju vaadata soovituse kaardilt. Nad saavad soovituste kohta ka tagasisidet anda, et tulevasi soovitusi täiustada aidata.
+Kui potentsiaalne töövõtja kasutab karjäärisaiti tööle kandideerimiseks, soovitab Attract talle ka organisatsiooni teisi vabasid ametikohti. Need soovitused põhinevad potentsiaalse töövõtja varasematel avaldustel ja tema elulool või kandidaadi profiilil. Seega aitavad töösoovitused potentsiaalsetel töövõtjatel kiiresti tuvastada neile sobivaimad tööd. Potentsiaalsetele töövõtjatele pakutakse töösoovitusi, kui karjäärisaidile sisestatakse rohkem kui kümme tööd. Potentsiaalsed töövõtjad saavad töösisestuse üksikasju vaadata soovituse kaardilt. Nad saavad soovituste kohta ka tagasisidet anda, et tulevasi soovitusi täiustada aidata.
+
+## <a name="prospect-recommendations"></a>Potentsiaalselt sobiva kandidaadi soovitamine 
+
+Kui saadavale tuleb uus ametikoht, võib kõikide varasemate kandidaatide ja kogu talendivõrgustiku läbivaatamine võtta palju aega. Selleks et Attract teid selles aitaks, võite kasutada nutikaid masinõppe algoritme. See tähendab, et Attract vaatab läbi kõik kandidaadid ja soovitab selleks sobivaid niipea, kui ametikoha loote. Soovituste vaatamiseks lubage ametikoha jaoks etapp **Potentsiaalselt sobiv kandidaat**. Attractil võib kogu kandidaatide andmebaasi sirvimiseks ja soovituste tegemiseks kuluda kuni minut.
+
+Soovitused kuvatakse kaartidena vahekaardil **Potentsiaalselt sobivad kandidaadid** iga ametikoha kohta, mille etapp **Potentsiaalselt sobiv kandidaat** on lubatud. Nendel kaartidel on toodud potentsiaalse kandidaadi profiililt leitud oskused ja teave hariduse kvalifikatsiooni kohta. Kui leiate teile sobiva soovituse, saate lisada kandidaadi sellele ametikohale potentsiaalselt sobivaks kandidaadiks.
+
+> [!NOTE]
+> Kui hakkasite hiljuti Attracti kasutama, peate ootama, kuni teil on 10 või rohkem täisprofiili või elulooga kandidaati, et saaksite seda võimalust kasutada.
+
+Võimaliku kallutatuse vältimiseks soovitustes otsib Attract kandidaatide profiilidelt ainult töö kirjeldusele vastavaid oskusi, kvalifikatsioone ja muid märksõnu. Peale selle eemaldab Attract enne hindamist isiku tuvastamist võimaldavad andmed.

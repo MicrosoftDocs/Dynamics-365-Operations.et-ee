@@ -1,29 +1,29 @@
 ---
 title: Rakenduse Attract karjäärisaidi funktsionaalsus
 description: See teema annab ülevaate kandidaatidele suunatud karjäärisaidi funktsionaalsusest rakenduses Attract.
-author: josaw1
+author: hasrivas
 manager: AnnBe
-ms.date: 02/12/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 087ab4034a1e601e7f3514c77d56ef54b0c5c52d
-ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
+ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
+ms.sourcegitcommit: 063a9296e645e0da182241941869d8102954540a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "389958"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898927"
 ---
 # <a name="career-site-functionality-in-attract"></a>Rakenduse Attract karjäärisaidi funktsionaalsus
 
@@ -43,15 +43,15 @@ Alljärgnevate üksuste väärtuste määramiseks logige administraatorina raken
 
 -   **Organisatsiooni logo** – karjäärisaidi ülemises vasakus servas kuvatakse organisatsiooni logo kujutist. Logo kujutise valimise korral avaneb kandidaatidele leht, kus on toodud kõik vabad töökohad.
 
-    >   [!NOTE] 
-    >   Karjäärisaidil kuvatava logo kujutise fikseeritud kõrgus on 20 pikslit (px). Halduskeskuse kaudu lisatud pildi suurus muudetakse sobivaks. Olenevalt kujutisest võib laius seetõttu muutuda.
+    > [!NOTE] 
+    > Karjäärisaidil kuvatava logo kujutise fikseeritud kõrgus on 20 pikslit (px). Halduskeskuse kaudu lisatud pildi suurus muudetakse sobivaks. Olenevalt kujutisest võib laius seetõttu muutuda.
  
 Alljärgnevate üksuste väärtuste määramiseks logige administraatorina rakendusse Attract sisse, valige menüüst **Sätted** suvand **Halduskeskus** ja seejärel valige vahekaart **Karjäärisaidi haldus**.
 
 -   **Otsingumootori optimeerimine** – kui see on lubatud, on kõik rakenduse Attract karjäärisaidile sisestatud avalikud töökohad leitavad otsingumootoritega, nagu Bing ja Google.
 
-    >   [!NOTE] 
-    >   Selle sätte sisselülitamise ja otsingutulemite ilmumise vahel võib olla viivitus, mis oleneb kasutatavast otsingumootorist.
+    > [!NOTE] 
+    > Selle sätte sisselülitamise ja otsingutulemite ilmumise vahel võib olla viivitus, mis oleneb kasutatavast otsingumootorist.
          
 ## <a name="career-site-urls"></a>Karjäärisaidi URL-id
 
@@ -81,15 +81,17 @@ Kandidaatidel on rakenduse Attract karjäärisaidile sisselogimiseks järgmised 
 
     -   Microsoft Azure Active Directory (Azure AD)
 
-Azure AD-ga sisselogimine on mõeldud ainult sisekandidaatidele. Seetõttu toimib see ainult sisekandidaatidega, kes kasutavad oma ettevõtte Azure AD identimisteavet. Näiteks kandidaat, kes on hetkel ettevõtte Contoso Ltd töötaja, soovib kandideerida sellega mitteseotud ettevõtte Alpine Ski House töökohale. Sellisel juhul sisselogimine ei õnnestu, kui töövõtja üritab kasutada ettevõtte Contoso Ltd Azure AD identimisteavet.
+Azure AD-ga sisselogimine on mõeldud ainult sisekandidaatidele. Seetõttu toimib see ainult sisekandidaatidega, kes kasutavad oma ettevõtte Azure AD identimisteavet. Näiteks kandidaat, kes on hetkel ettevõtte Contoso Ltd töötaja, soovib kandideerida sellega mitteseotud ettevõtte Alpine Ski House töökohale. Sellisel juhul sisselogimine ei õnnestu, kui töövõtja üritab kasutada ettevõtte Contoso Ltd Azure AD identimisteavet. 
+
+Kandidaadid peavad Azure AD abil sisse logima, kui töökoht, mida nad vaatavad või millele kandideerivad, on märgitud ainult organisatsioonisiseseks.
 
 ## <a name="create-and-maintain-a-profile"></a>Profiili loomine ja haldamine
 
 Pärast karjäärisaidile sisselogimist saavad kandidaadid lehe ülaosas olevalt navigeerimisribalt oma profiili loomiseks ja haldamiseks kasutada valikut **Minu profiil**.
 Profiil sisaldab isikuandmeid, andmeid töökogemuse kohta, haridusandmeid, dokumente, linke ja andmeid oskuste kohta. Pärast profiili loomist saab seda kasutada kandidaadile huvi pakkuvatele töökohtadele kandideerimiseks. Samuti aitavad profiilid rakendusel Attract kandidaatidele õigeid töökohti soovitada.
 
->   [!NOTE]
->   Kui kandidaat kasutab ühe ülevalpool nimetatud autentimisteenuse pakkuja abil sisselogimiseks meili ID-d, määratakse see meili ID vaikimisi profiiliga seotud kontaktmeili ID-ks. Viimast saab aga igal ajal muuta ja see on esimesest täiesti sõltumatu. Attract kasutab kogu meilisuhtluse jaoks alati kontaktmeili ID sidumist teie profiiliga.
+> [!NOTE]
+> Kui kandidaat kasutab ühe ülevalpool nimetatud autentimisteenuse pakkuja abil sisselogimiseks meili ID-d, määratakse see meili ID vaikimisi profiiliga seotud kontaktmeili ID-ks. Viimast saab aga igal ajal muuta ja see on esimesest täiesti sõltumatu. Attract kasutab kogu meilisuhtluse jaoks alati kontaktmeili ID sidumist teie profiiliga.
 
 ## <a name="find-the-right-job"></a>Õige töökoha leidmine
 
@@ -97,13 +99,38 @@ Töökohtade loendi lehel saavad kandidaadid otsingusõnu sisestades otsida kind
 
 Samuti saavad kandidaadid karjäärisaidil vaadata soovitatud töökohti. Kandidaatidele soovitatavad töökohad põhinevad kandidaadi varasematel kandideerimistel, profiilil ja elulookirjeldustel.
 
->   [!NOTE] 
->   Soovitatavad töökohad kuvatakse ainult siis, kui karjäärisaidile on sisestatud vähemalt 10 töökohta ja kandidaat on täitnud oma profiili lõpuni.
+> [!NOTE] 
+> Soovitatavad töökohad kuvatakse ainult siis, kui karjäärisaidile on sisestatud vähemalt 10 töökohta ja kandidaat on täitnud oma profiili lõpuni.
+
+Organisatsioonisisesed kandidaadid näevad ka, kes on töökohaga seotud värbamisjuht ja/või värbaja, juhul kui nad soovivad värbamistöörühma liikmetega ühendust võtta. Organisatsioonivälised kandidaadid aga ei näe värbamistöörühma liikmeid ühegi töökoha korral.
+
+## <a name="contact-the-hiring-team"></a>Värbamistöörühmaga ühendusevõtmine
+Ainult organisatsioonisisesed kandidaadid saavad värbamistöörühmaga ühendust võtta. See piirang kehtib kõikide töökohtade korral, olenemata sellest, kas nende kuulutused on nähtavad organisatsioonisiseselt või avalikult.
+
+Kandidaadid võivad soovida värbamistöörühmaga ühendust võtta, et töökuulutuse suhtes huvi üles näidata või selle kohta rohkem teada saada. Nad saavad võtta ühendust kõigi värbamistöörühma liikmetega, kes on nimekirjas (värbamisjuht või värbajad). Samuti saavad nad sõnumile lisada elulookirjelduse või valida oma profiilile varem üles laaditud elulookirjelduse.
+
+Pärast seda, kui organisatsioonisisene kandidaat on valinud värbamistöörühma liikmed, kellega ta soovib ühendust võtta, saadab Attract nendele inimestele kandidaadi nimel meili. Samal ajal lisatakse kandidaadi profiil etappi **Potentsiaalselt sobiv kandidaat**, kui see etapp on töökoha korral saadaval. Etapis **Potentsiaalselt sobiv kandidaat** saavad värbajad või värbamisjuhid nendega ühendust võtnud kandidaate vaadata. Samuti saavad nad üle vaadata kandidaatide profiile ja kutsuda potentsiaalseid kandidaate kandideerima.
+
+Kandidaadid saavad kandideerida töökohale, mille pärast nad värbamistöörühma liikmetega on juba ühendust võtnud. Pärast kandideerimist ei saa kandidaadid enam värbamistöörühmaga karjäärisaidi kaudu ühendust võtta.
 
 ## <a name="apply-for-jobs"></a>Töökohtadele kandideerimine
 
-Kui kandidaat leiab õige töökoha, saab ta kandideerida lehe **Töö üksikasjad** nupu **Kandideeri** abil. Sellel hetkel saavad kandidaadid luua kas uue profiili või vaadata üle oma olemasoleva profiili andmed.
+Kui kandidaat on leidnud sobiva töökoha, saab ta kandideerida lehel **Töö üksikasjad** oleva nupu **Kandideeri** abil. Sellel hetkel saavad kandidaadid luua kas uue profiili või vaadata üle oma olemasoleva profiili andmed.
 Samuti saavad kandidaadid vajaduse korral üles laadida elulookirjelduse ja seejärel esitada avalduse töökohale kandideerimiseks.
+
+### <a name="enable-applying-for-jobs-with-linkedin-profiles"></a>Töökohtadele LinkedIni profiilidega kandideerimise lubamine
+
+Te saate teha ametikohtadele kandideerimise kandidaatidele lihtsaks, kui konfigureerite rakendust Attract nii, et see võimaldab neil kandideerida LinkedIni kaudu.
+
+> [!NOTE] 
+> Enne LinkedIni kaudu kandideerimise lubamist peate olema saanud LinkedInilt ühe või mitu värbaja litsentsi.
+
+1. Attracti administraatorina sisse logimine.
+2. Valige lehe paremast ülanurgast nupp **Sätted** (hammasrattasümbol) ja seejärel valige **Administreerimiskeskus**.
+3. Valige vahekaart **LinkedIni integreerimine** ja looge ühendus LinkedIn Recruiteri kontoga.
+4. Jaotises **LinkedIn Recruiter System Connect i integreerimine** valige sätte **Kandideeri LinkedIni kaudu** olekuks **Lubatud**.
+
+Pärast selle sätte lubamist saavad kandidaadid kandideerida oma LinkedIni profiili andmeid kasutades. Kui kandidaadid kandideerivad nupu **Kandideeri LinkedIni kaudu** abil, palutakse neil LinkedIni kaudu autentida, kui nad pole veel sisse loginud. Pärast autentimist asendab nende LinkedIni profiil kandideerimise lehel juba olevad profiiliandmed. Kandidaadid saavad neid andmeid vajaduse järgi muuta ja seejärel kandideerida. Kui kandidaat lahkub lehelt ilma töökohale kandideerimata, ei värskendata rakenduses Attract tema profiili andmeid.
 
 ## <a name="check-application-status"></a>Avalduse oleku kontrollimine
 

@@ -1,7 +1,7 @@
 ---
 title: Rakenduse Dynamics 365 for Talent rakendusse Dynamics 365 for Finance and Operations integreerimise KKK
 description: Selles teemas selgitatakse, millised andmed sünkroonitakse rakenduste Talent ja Finance and Operations integratsioonis.
-author: negudava
+author: andreabichsel
 manager: AnnBe
 ms.date: 01/09/2019
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: negudava
+ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: aea025bc4898d6399e82030cf1f52b21949e014f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304083"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950079"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Rakenduse Dynamics 365 for Talent rakendusse Dynamics 365 for Finance and Operations integreerimise KKK
 
@@ -34,15 +34,15 @@ Teemas on toodud vastused peamistele küsimustele selle kohta, milliseid andmeid
 
 Rakenduse Core Human Resources (HR) puhul sünkroonitakse andmete alamkogum. Kõigi üksuste loendi leiate teemast [Integratsioon rakendusest Dynamics 365 for Talent rakendusse Dynamics 365 for Finance and Operations](talent-financeandoperations-integration.md).
 
-Rakenduste Attract ja Onboard puhul on kõik andmed teenuse Common Data Services (CDS) for Apps omaandmed.
+Rakenduste Attract ja Onboard puhul on kõik andmed teenuse Common Data Service omaandmed.
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Kas uue vastenduse saab luua malle kasutamata?
 
-Mallid on alguspunkt. Saate luua oma malli, kuid malli on integratsiooniprojekti loomisel alati vaja. Lisateavet andmeintegraatori (DI), mallide ja projektide kohta vt teemast [Andmete integreerimine teenusesse Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+Mallid on alguspunkt. Saate luua oma malli, kuid malli on integratsiooniprojekti loomisel alati vaja. Lisateavet andmeintegraatori (DI), mallide ja projektide kohta vaadake teemast [Andmete integreerimine teenusesse Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Kas ma saan vastendada finantsdimensioonide edastamise rakenduste Talent ja Finance and Operations vahel?
 
-Finantsdimensioonid puuduvad praegu teenusest CDS for Apps ja seetõttu ei ole need ka vaikemalli osa. See üksus on kavas, kuid praegu pole väljastamise ajakava saadaval.
+Finantsdimensioonid puuduvad praegu teenusest Common Data Service ja seetõttu ei ole need ka vaikemalli osa. See üksus on kavas, kuid praegu pole väljastamise ajakava saadaval.
 
 Andmete puhul, mis on olemas rakenduses Finance and Operations, kuid puuduvad rakendusest Talent, linkige kaks süsteemi kokku, kasutades Talenti funktsiooni **Linkide konfigureerimine**. Lisateavet linkide konfigureerimise kohta rakenduste Talent ja Finance and Operations vahel vt teemast [Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (31. oktoober 2018)](whats-new-talent-october-31.md).
 
@@ -64,7 +64,7 @@ Kasutades täpsemat päringut, saate lähteandmeid filtreerida ja ümber kujunda
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Kas saan määrata, millised väljad saadetakse rakendusse Finance and Operations kindla üksuse puhul?
 
-Integratsiooniülesandele saab välju lisada või neid eemaldada. Kõiki andmevälju, mis on teenuse CDS for Apps (CDS 2.0) üksuses olemas, ei asustata rakendusest Core HR.
+Integratsiooniülesandele saab välju lisada või neid eemaldada. Kõiki andmevälju, mis on teenuse Common Data Service üksuses olemas, ei asustata rakendusest Core HR.
 Lisaandmeid saab asustada PowerAppsi kaudu.
 
 ![](media/SpecifyFieldsIncludedInIntegration.png)
@@ -83,7 +83,7 @@ Ei, andmeintegraator ei talleta kustutatud kirjeid andmeedastuseks. Praegu hõlm
 
 ## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a>Kas tõrkega käituse saab uuesti käivitada? Kui jah, siis kas see saadab kogu faili või ainult muudatused?
 
-Andmeintegraatori esmane käitamine on alati täielik. Järgmised käitused põhinevad muudatuste jälgimisel. Tõrkega käituse korral eraldab see kõnealused kirjed käitusest ja saadab CDS-ist välja uusimad muudatused.
+Andmeintegraatori esmane käitamine on alati täielik. Järgmised käitused põhinevad muudatuste jälgimisel. Tõrkega käituse korral eraldab see kõnealused kirjed käitusest ja saadab teenusest Common Data Service välja uusimad muudatused.
 
 ## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a>Saan projekti salvestamisel tõrketeate „Projektil on vastendustõrked”. Mida teha?
 
@@ -97,15 +97,15 @@ Jah, rakenduses Finance and Operations peab iga juriidilise isiku kohta olema an
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Pean edastama andmeid, mis ei ole Microsofti vaikemalli osa. Kas saan seda teha?
 
-Jah, olemasolevale mallile saab välju lisada või neid eemaldada. Malli saab muuta, kaasates lisaandmeid teistest teenuse CDS for Apps üksustest. Malli kaasamiseks peab üksus olema teenuses CDS for Apps. 
+Jah, olemasolevale mallile saab välju lisada või neid eemaldada. Malli saab muuta, kaasates lisaandmeid teistest teenuse Common Data Service üksustest. Malli kaasamiseks peab üksus olema teenuses Common Data Service. 
 
 ## <a name="i-just-created-new-finance-and-operations-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Lõin äsja uued Finance and Operationsi ja Talenti keskkonnad ning saan tõrketeate „Andmete väärtus rikub tervikluse piiranguid”. Miks?
 
 Tõrke põhjused võivad olla järgmised.
 
-- Andmeedastuse tulemuseks on topeltkirjete eraldamine lähtekohas (CDS).
+- Andmeedastuse tulemuseks on topeltkirjete eraldamine lähtekohas (Common Data Service).
 
-- Andmeedastusel on Finance and Operationsis vajalike väljade puhul nullväärtused. Kontrollige, kas CDS-is olevad andmed vastavad rakenduse Finance and Operations nõuetele.
+- Andmeedastusel on Finance and Operationsis vajalike väljade puhul nullväärtused. Kontrollige, kas teenuses Common Data Service olevad andmed vastavad rakenduse Finance and Operations nõuetele.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Kui esineb käivitustõrkeid ja töövõtja ID-d ei sünkroonita, siis kuidas leida ajalooline töö, milles on nurjunud töövõtja kirje?
 
@@ -127,17 +127,17 @@ Jälgige aega andmeintegraatori käivitusajaloost ja leidke rakenduses Finance a
 
 ## <a name="after-integrating-talent-and-finance-and-operations-i-dont-see-my-talent-data-in-finance-and-operations-what-do-i-do"></a>Pärast Talenti ja Finance and Operationsi integreerimist ei näe ma enam oma Talenti andmeid rakenduses Finance and Operations. Mida teha?
 
-Integratsioon rakendusse Finance and Operations on kaheetapiline protsess. Esmalt kontrollige, kas Talenti andmed on värskendatud ja CDS-is saadaval. See on peaaegu reaalajas sünkroonimine ja seda saab kontrollida PowerAppsis, vaadates andmeüksustes olevaid andmeid.
+Integratsioon rakendusse Finance and Operations on kaheetapiline protsess. Esmalt kontrollige, kas Talenti andmed on värskendatud ja teenuses Common Data Service saadaval. See on peaaegu reaalajas sünkroonimine ja seda saab kontrollida PowerAppsis, vaadates andmeüksustes olevaid andmeid.
 
-![Andmed CDS-is](media/DataInCDS.png)
+![Andmed teenuses Common Data Service](media/DataInCDS.png)
 
-Kui andmeid ei kuvata CDS-is oodatud viisil, siis kontrollige, kas integratsioon toetab üksust. CDS-i lisaandmete kaasamiseks on vajalik muudatus Microsofti poolel.
+Kui andmeid ei kuvata teenuses Common Data Service oodatud viisil, siis kontrollige, kas integratsioon toetab üksust. Teenuse Common Data Service lisaandmete kaasamiseks on vajalik muudatus Microsofti poolel.
 
-Kui üksust toetatakse ja andmed on CDS-is saadaval, siis kontrollige, kas vastendus on andmeintegraatoris õige. Kui integraatori vastendus tundub olevat korras, siis kontrollige edukalt käitatud andmehalduse töid. Tõrked võivad ilmneda pakett-tööde käivitamisel. Lisateavet andmehalduse kohta vt teemast [Andmehaldus](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Kui üksust toetatakse ja andmed on teenuses Common Data Service saadaval, siis kontrollige, kas vastendus on andmeintegraatoris õige. Kui integraatori vastendus tundub olevat korras, siis kontrollige edukalt käitatud andmehalduse töid. Tõrked võivad ilmneda pakett-tööde käivitamisel. Lisateavet andmehalduse kohta vt teemast [Andmehaldus](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>Pärast töövõtjate importimist rakendusse Finance and Operations on nende aadressid valed. Mida teha?
 
-**Asukoha ID** numbriseeria kasutab rakendustes Talent ja Finance and Operations sama mustrit. Numbriseeria peab olema mõlemal poolel kordumatu, et andmete integreerimisel CDS-ist rakendusse Finance and Operations ei tekiks aadressivastuolusid.
+**Asukoha ID** numbriseeria kasutab rakendustes Talent ja Finance and Operations sama mustrit. Numbriseeria peab olema mõlemal poolel kordumatu, et andmete integreerimisel teenusest Common Data Service rakendusse Finance and Operations ei tekiks aadressivastuolusid.
 
 Talenti juurutamise ajal kontrollige, et numbriseeriad poleks Talentis ja Finance and Operationsis samad. Veenduge, et ükski numbriseeria poleks identne, kui andmeid võidakse hallata mõlemas süsteemis.
 
@@ -147,7 +147,7 @@ Veenduge, et valiksite ühenduste loomisel suvandid Dynamics 365 for Finance and
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Saan töösuhete sünkroonimisel tõrketeate „Atribuuti CompanyInfo_FK pole olemas” või „Väärtust 12/31/2154 23:59:59 väljal Töösuhte lõppkuupäev ei leitud seotud tabelist Töösuhe”. Mida teha?
 
-Veendute, et vastendaksite õigete juriidiliste isikutega. Juriidilise isiku sünkroonimine pole vaikemalli osa, seega peaks iga Talentis ja CDS-is olev juriidiline isik olemas olema ka Finance and Operationsis.
+Veendute, et vastendaksite õigete juriidiliste isikutega. Juriidilise isiku sünkroonimine pole vaikemalli osa, seega peaks iga Talentis ja teenuses Common Data Service olev juriidiline isik olemas olema ka Finance and Operationsis.
 Veenduge ka, et valiksite seostatud ühendusekogumi jaoks õiged juriidilised isikud.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-and-operations-appears-to-be-empty-what-should-i-do"></a>Pärast projekti seadistamist kuvatakse väljavastendus Finance and Operationsi puhul tühjana. Mida teha?
@@ -160,11 +160,11 @@ Värskendage andmeüksuseid rakenduses Finance and Operations, minnes jaotisse *
 
 - Andmeintegraator (DI): 
 
-  - [Andmete integreerimine teenusesse Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+  - [Andmete integreerimine teenusesse Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
 
   - [Andmeintegraatori tõrkehaldus ja tõrkeotsing](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
 
-  - [DSR-i taotlustele vastamine süsteemi loodud logide puhul teenustes PowerApps, Microsoft Flow ja teenuses Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [DSR-i taotlustele vastamine süsteemi loodud logide puhul teenustes PowerApps, Microsoft Flow ja Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Andmehaldus
 

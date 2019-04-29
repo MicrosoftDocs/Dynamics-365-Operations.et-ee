@@ -3,7 +3,7 @@ title: Eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada.
 author: sericks007
 manager: AnnBe
-ms.date: 03/12/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836344"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992879"
 ---
 # <a name="removed-or-deprecated-features"></a>Eemaldatud või aegunud funktsioonid
 
@@ -41,45 +41,114 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 > [!NOTE]
 > Üksikasjalikku teavet rakenduse Finance and Operations objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas rakenduse Finance and Operations versioonis muudetud või eemaldatud.
 
+
+## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 platvormivärskendusega 26
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.2 platvormivärskendusega 26 on saadaval suunatud kasutajatele eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-default-action-behavior"></a>Vaiketegevuse pärandkäitumine
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Vaiketegevuste pärandkäitumine ruudustikes annab tulemuseks ootamatu veeru, millel on vaiketegevuse link ruudustiku veergude järel, mis on isikupärastamise kaudu ümber järjestatud. Selle probleemi parandab uus vaikimisi kleepetegevuse funktsioon. Lisateabe saamiseks vt teemat [Vaikimisi kleepetegevused ruudustikes](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Asendatud teise funktsiooniga?**   | Alates platvormivärskendusest 21 on kasutusele võetud vaikimisi kleepetegevuste funktsioon. Saate selle funktsiooni lubada lehel **Kliendi jõudlussuvandid**. |
+| **Mõjutatud tootealad**         | Ruudustikud veebikliendis |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud: alates aprillist 2020 on vaikimisi kleepetegevused vaikekäitumine ilma pärandkäitumisele ennistamise mehhanismita. |
+
+### <a name="legacy-is-one-of-filtering-experience"></a>Pärandfiltreerimisvõimalus „üks (mitmest)“
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Filtreerimisvõimalus „üks (mitmest)” kujundati platvormivärskendusega 22 ümber plaaniga jätta see lõpuks ainsaks „üks (mitmest)” filtreerimisvõimalusest. |
+| **Asendatud teise funktsiooniga?**   | Alates platvormivärskendusest 22 muutus filtreerimisvõimalus „üks (mitmest)” saadavaks lehel **Kliendi jõudlussuvandid**. Lisateabe saamiseks vt teemast [Filtreerimisvõimalust „üks (mitmest)” on optimeeritud](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Mõjutatud tootealad**         | Veebiklient |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud: alates aprillist 2020 on parandatud filtreerimisvõimalus „üks (mitmest)” vaikekäitumine ilma pärandkäitumisele ennistamise mehhanismita. |
+
+### <a name="deriving-from-internal-classes-is-deprecated"></a>Siseklassidest tuletamine on aegunud
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Enne platvormivärskendust 25 oli võimalik luua klass või tabel, mis on tuletatud teises paketis/moodulis määratletud siseklassist/-tabelist. See ei ole ohutu programmeerimistava. Alates platvormivärskendusest 25 kuvab kompilaator hoiatuse. |
+| **Asendatud teise funktsiooniga?**   | Kompilaatori hoiatus asendatakse platvormivärskenduses 26 tõrkega. See muudatus on käitamise ajal tagasiühilduv, mis tähendab seda, et platvormivärskenduse 25 või uuema saab juurutada ükskõik millises liivakasti- või tootmiskeskkonnas ilma kohandatud koodi muutmata. See muudatus mõjutab ainult arendus- ja kompileerimisaega.|
+| **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud: hoiatus muutub platvormivärskenduses 26 kompileerimistõrkeks. |
+
+### <a name="overriding-internal-methods-is-deprecated"></a>Sisemeetodite alistamine on aegunud
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Enne platvormivärskendust 25 oli võimalik alistada teises paketis/moodulis määratletud tuletatud klassi sisemeetod. See ei ole ohutu programmeerimistava. Alates platvormivärskendusest 25 kuvab kompilaator hoiatuse. |
+| **Asendatud teise funktsiooniga?**   | See hoiatus asendatakse platvormivärskenduses 26 kompileerimistõrkega. See muudatus on käitamise ajal tagasiühilduv, mis tähendab seda, et platvormivärskenduse 25 või uuema saab juurutada ükskõik millises liivakasti- või tootmiskeskkonnas ilma kohandatud koodi muutmata. See muudatus mõjutab ainult arendus- ja kompileerimisaega. |
+| **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud: hoiatus muutub platvormivärskenduses 26 kompileerimistõrkeks. |
+
+### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parameeter müügitellimuste lubamiseks mitme projektilepingu rahastamisallikaga
+Projektipõhiste müügitellimuste loomise toe, kui projektilepingul on mitu rahastamisallikat, lubatakse suvandi **Projektihalduse parameetrid** sättega **Luba müügitellimused mitme rahastamisallikaga projekti puhul**. Vaikimisi ei ole see parameeter lubatud. 
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Pärast parameetri eemaldamist on see funktsioon alati lubatud. |
+| **Asendatud teise funktsiooniga?**   | Nr Mitme rahastamisallikaga projektipõhiste müügitellimuste toetamise funktsioon on alati lubatud.   |
+| **Mõjutatud tootealad**         |Parameeter **Luba müügitellimused mitme rahastamisallikaga projektide puhul**. Parameetri eemaldamisel muudetakse järgmisi meetodeid: meetod **ctrlSalesOrderTable** klassis **ProjStatusType**, meetod **valideeri** välja **ProjId** puhul ja meetod **käita** vormil **SalescreateOrder**. Parameetri eemaldamisel muutuvad aegunuks järgmised meetodid: meetod **IsSalesOrderAllowedForMultipleFundingSources** tabelifailis **ProjTable**, meetod **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** tabelifailis **ProjTable**, andmeväli **AllowSalesOrdersForMultipleFundingSources** vormil **ProjParameters** ja failides **ProjParameterEntity**, privaatmeetod **IsAssociatedToMultipleFundingSourcesContract** tabelifailis **ProjTable**. |
+| **Juurutamissuvand**              | Kõik  |
+| **Olek**                         | Aegumine on plaanitud 2020. aprilli väljalaskevoogu. |
+
+### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>Pärand-töövooaruanded jälgimise ja eksemplari oleku kohta
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Pärand-töövooaruanded jälgimise ja eksemplari oleku kohta kõrvaldatakse kasutuselt, kuna navigeerimisest neile enam ei viidata. Aruannete nimed on WorkflowWorkflowInstanceByStatusReport ja WorkflowWorkflowTrackingReport. |
+| **Asendatud teise funktsiooniga?**   | Nende asemel saab kasutada töövoo ajaloo vormi. |
+| **Mõjutatud tootealad**         | Veebiklient |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on aprill 2020. |
+
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 platvormivärskendusega 25
 
 > [!IMPORTANT]
-> 25. platvormivärskendusega Dynamics 365 for Finance and Operations 10.0.1 on saadaval suunatud kasutajatele eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Standardsete ja esmaväljaannete teenusevärskendused](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+> Dynamics 365 for Finance and Operations 10.0.1 platvormivärskendusega 25 on saadaval suunatud kasutajatele eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Aegunud API-d ja võimalikud murrangulised muudatused
+
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>Siseklassidest tuletamine on aegunud
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | 25. platvormivärskendusele eelnenud väljaannetega oli võimalik luua klass või tabel, mis on tuletatud teise paketi/mooduliga määratud siseklassist/-tabelist. See ei ole ohutu programmeerimistava. Alates 25. platvormivärskendusest kuvab kompilaator hoiatusteate, kui üritate seda teha.|
-| **Asendatud teise funktsiooniga?**   | Kompilaatori hoiatus asendatakse tulevases platvormivärskenduses tõrkega. See muudatus on käitamise ajal tagasiühilduv, mis tähendab seda, et kui käitate 25. või hilisemat platvormivärskendust, saab seda juurutada ükskõik millises liivakasti- või tootmiskeskkonnas ilma kohandatud koodi muutmata. See muudatus mõjutab ainult arendus- ja kompileerimisaega. |
-| **Mõjutatud tootealad**         | Visual Studio arendustööriistad. |
+| **Aegumise/eemaldamise põhjus** | Enne platvormivärskendust 25 oli võimalik luua klass või tabel, mis on tuletatud teises paketis/moodulis määratletud siseklassist/-tabelist. See ei ole ohutu programmeerimistava. Alates platvormivärskendusest 25 kuvab kompilaator hoiatuse. |
+| **Asendatud teise funktsiooniga?**   | Kompilaatori hoiatus asendatakse platvormivärskenduses 26 tõrkega. See muudatus on käitamise ajal tagasiühilduv, mis tähendab seda, et platvormivärskenduse 25 või uuema saab juurutada ükskõik millises liivakasti- või tootmiskeskkonnas ilma kohandatud koodi muutmata. See muudatus mõjutab ainult arendus- ja kompileerimisaega.|
+| **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud – hoiatusest saab tulevases platvormivärskenduses kompileerimistõrge. |
+| **Olek**                         | Aegunud: hoiatus muutub platvormivärskenduses 26 kompileerimistõrkeks. |
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>Sisemeetodite alistamine on aegunud
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | 25. platvormivärskendusele eelnenud väljaannetega oli võimalik alistada paketi/mooduliga määratud tuletatud klassi sisemeetod. See ei ole ohutu programmeerimistava. Alates 25. platvormivärskendusest kuvab kompilaator hoiatusteate, kui üritate seda teha.|
-| **Asendatud teise funktsiooniga?**   | See hoiatus asendatakse tulevases platvormivärskenduses kompileerimistõrkega. See muudatus on käitamise ajal tagasiühilduv, mis tähendab seda, et kui käitate 25. või hilisemat platvormivärskendust, saab seda juurutada ükskõik millises liivakasti- või tootmiskeskkonnas ilma kohandatud koodi muutmata. See muudatus mõjutab ainult arendus- ja kompileerimisaega. |
-| **Mõjutatud tootealad**         | Visual Studio arendustööriistad. |
+| **Aegumise/eemaldamise põhjus** | Enne platvormivärskendust 25 oli võimalik alistada teises paketis/moodulis määratletud tuletatud klassi sisemeetod. See ei ole ohutu programmeerimistava. Alates platvormivärskendusest 25 kuvab kompilaator hoiatuse. |
+| **Asendatud teise funktsiooniga?**   | See hoiatus asendatakse platvormivärskenduses 26 kompileerimistõrkega. See muudatus on käitamise ajal tagasiühilduv, mis tähendab seda, et platvormivärskenduse 25 või uuema saab juurutada ükskõik millises liivakasti- või tootmiskeskkonnas ilma kohandatud koodi muutmata. See muudatus mõjutab ainult arendus- ja kompileerimisaega. |
+| **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud – hoiatusest saab tulevases platvormivärskenduses kompileerimistõrge. |
+| **Olek**                         | Aegunud: hoiatus muutub platvormivärskenduses 26 kompileerimistõrkeks. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 platvormivärskendusega 23
 
-### <a name="print-to-screen-functionality"></a>Ekraanile printimise funktsionaalsus
-Kliendid saavad platvormi Finance and Operations rakenduste loodud dokumentide allalaadimiseks kasutada aruandevaaturi juhtelemendi tegevust **Impordi**. See HTML-il põhinev aruande kuvamine võimaldab kasutajatel näha dokumendi lehekülgjaotuseta eelvaadet.
+### <a name="sql-server-reporting-services-reportviewer-control"></a>Teenuse SQL Server Reporting Services juhtelement ReportViewer
+Kliendid saavad platvormi Finance and Operations rakenduste loodud dokumentide allalaadimiseks kasutada teenuse SQL Server Reporting Services (SSRS) manustatud juhtelemendi ReportViewer tegevust **Ekspordi**. See HTML-il põhinev aruande kuvamine võimaldab kasutajatel näha dokumendi lehekülgjaotuseta eelvaadet.
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | HTML-il põhineva eelvaate lehekülgjaotuseta vormi tõttu **ei** ole platvormiga Finance and Operations lõplikult loodavad füüsilised dokumendid täpselt samasugused. Äritegevuse standardvorminguna PDF-i täielik omaksvõtmine võimaldab meil drastiliselt lihtsustada kasutajate võimalusi rakendusaruannetega töötada ja dokumentide renderdamise protsessi sujuvamaks muuta. |
+| **Aegumise/eemaldamise põhjus** | HTML-il põhineva eelvaate lehekülgjaotuseta vormi tõttu **ei** ole platvormiga Finance and Operations lõplikult loodavad füüsilised dokumendid täpselt samasugused. Kasutades äridokumentide standardvorminguna PDF-i, saavad kasutajad rakenduse aruannete loomisel kasutada ära parandatud jõudlusega tänapäevaseid kuvamisvõimalusi. |
 | **Asendatud teise funktsiooniga?**   | Lähitulevikus saab PDF-dokumentidest platvormi Finance and Operations renderdatud aruannete vaikevorming.   |
 | **Mõjutatud tootealad**         | See muudatus **ei** mõjuta selliseid kliendistsenaariume, mille korral aruandeid levitatakse elektrooniliselt või saadetakse otse printeritesse.    |
 | **Juurutamissuvand**              | Kõik  |
-| **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata. PDF-dokumentide kujul rakendusaruannete automaatne allalaadimine brauserisse on funktsioonina planeeritud 2019. aasta mai platvormivärskendusse. <br><br>**NB!**  Praegustel klientidel, kes toetuvad ekraanile printimise funktsioonile, soovitame enne 26. platvormivärskenduse installimist teavitada [kliendituge](../lifecycle-services/lcs-support.md). |
+| **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata. Rakenduse aruannete automaatse eelvaatamise funktsioon manustatud PDF-vaaturiga on kavandatud 2019. aasta mai platvormivärskendusse. |
 
 ### <a name="client-kpi-controls"></a>Kliendi KPI-juhtelemendid
 Arendaja saab manustatud juhtimismõõdikuid (KPI-d) Visual Studio kaudu modelleerida ja lõppkasutaja neid veelgi kohandada.
@@ -102,7 +171,7 @@ Arendaja saab manustatud juhtimismõõdikuid (KPI-d) Visual Studio kaudu modelle
 | **Asendatud teise funktsiooniga?**   | See hoiatus asendatakse tulevikus kompileerimistõrkega.  |
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad. |
 | **Juurutamissuvand**              | Kõik. |
-| **Olek**                         | Aegunud – sellest hoiatusest saab tulevikus kompileerimisaegne tõrge. Oleme sihiks võtnud 30. platvormivärskenduse. |
+| **Olek**                         | Aegunud: hoiatus muutub tulevikus kompileerimisaegseks tõrkeks. Oleme sihiks võtnud 30. platvormivärskenduse. |
 
 #### <a name="complete-list"></a>Täielik loend
 Aegunuks kuulutatud API-de täieliku loendi nägemiseks vt teemat [Meetodite ja metaandmete elementide aegunuks kuulutamine](deprecation-deletion-apis.md).
@@ -110,7 +179,7 @@ Aegunuks kuulutatud API-de täieliku loendi nägemiseks vt teemat [Meetodite ja 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 platvormivärskendusega 20
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Partii ülekannete reeglid alammooduli töölehe konto kirje puhul
-Pearaamatu parameetrites muutub sünkroonne ülekanderežiim aegunuks.  Režiim asendatakse ainult asünkroonse ja planeeritud partiiga, mis on juba ülekandmissuvandina olemas. 
+Pearaamatu parameetrites muutub sünkroonne ülekanderežiim aegunuks.  Režiim asendatakse ainult asünkroonse ja planeeritud partiiga, mis on juba ülekandmissuvandina olemas. Lisateabe saamiseks vt ajaveebipostitust [Pearaamatu parameetrid – partii ülekandereeglid](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
 
 |   |  |
 |------------|--------------------|
@@ -172,7 +241,7 @@ Selles versioonis pole ühtki funktsiooni eemaldatud ega ükski pole aegunud. Pl
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise edition 7.3 platvormivärskendusega 12
 
 ### <a name="personalized-product-recommendations"></a>Isikupärastatud tootesoovitused 
-Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isikupärastatud tootesoovitusi kuvada. Lisateavet vt teemast [Isikupärastatud tootesoovitused](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isikupärastatud tootesoovitusi kuvada. Lisateavet vt teemast [Isikupärastatud tootesoovitused](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -277,7 +346,7 @@ Kasutajad saavad selle alla laadida valitsuse portaalist.
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Isikupärastatud tootesoovitused 
-Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isikupärastatud tootesoovitusi kuvada. Lisateavet vt teemast [Isikupärastatud tootesoovitused](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isikupärastatud tootesoovitusi kuvada. Lisateavet vt teemast [Isikupärastatud tootesoovitused](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -309,7 +378,7 @@ Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõel
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Topeltfunktsioon.       |
-| **Asendatud teise funktsiooniga?**   | Jah. See funktsioon on asendatud Finance and Operationsi ladustamise mooduliga. Lisateavet seadistuse ja eeltingimuste kohta vt teemast [Rakenduse Microsoft Dynamics 365 for Finance and Operations mooduli Ladustamine installimine ja konfigureerimine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Asendatud teise funktsiooniga?**   | Jah. See funktsioon on asendatud Finance and Operationsi ladustamise mooduliga. Lisateavet seadistuse ja eeltingimuste kohta vt teemast [Rakenduse Microsoft Dynamics 365 for Finance and Operations mooduli Ladustamine installimine ja konfigureerimine](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Mõjutatud tootealad**         | Laohaldus, transpordihaldus     |
 | **Juurutamissuvand**              | Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõeldud ise toimivaks asutusesiseseks juurutamiseks.               |
 | **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on 2019. aasta 4. kvartal.   |
@@ -687,6 +756,17 @@ Rakenduste integreerimise raamistikus (AIF) saab vahetada andmeid välissüsteem
 | **Asendatud teise funktsiooniga?**   | See funktsioon on asendatud andmete importimise/eksportimise raamistikuga, mis toetab korduvat hulgiimportimist/eksportimist. AxBC puhul soovitame kasutada tegelikke tabeleid. |
 | **Mõjutatud tootealad**         | AxDs, AxBCs ja AIF   |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.   |
+
+### <a name="billing-code-rate-scripts"></a>Arvelduskoodi kursiskriptid
+
+Arveldusskripte kasutati arvekoodide jaoks arvelduskursside arvutamiseks. Need skriptid on vajalikud kohandatud arenduseks programmeerimiskeeles C Sharp või Visual Basic. Dynamics AX-i praeguses veebis **arvelduskoodi kursiskripte** ei toetata.
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Kohandatud C Sharpi või Visual Basicu kohandatud skriptide tuge rakendusse Dynamics AX 7.0 ei lisatud. |
+| **Asendatud teise funktsiooniga?**   | Ei                                                                                      |
+| **Mõjutatud tootealad**         | Avalik sektor, müügireskontrod                                    |
+| **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.                                                          |
 
 ### <a name="boms-without-bom-versions"></a>Kooslused ilma koosluse versioonideta
 
@@ -1068,7 +1148,7 @@ Tootekonstruktorit kasutati müügitellimuse, ostutellimuse, tootmistellimuse, m
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Tootekonstruktor avaldas X++ koodi lõppkasutajatele ja Dynamics AX-i praeguses versioonis seda ei toetata. See on eemaldatud kattuvate suurte koodibaaside haldamisel dubleerimise vältimiseks.  |
-| **Asendatud teise funktsiooniga?**   | Jah. Rakenduses Dynamics AX 2012, kus tootekonstruktori tulevaste versioonide aegumine oli juba välja kuulutatud, võeti kasutusele piirangupõhine konfiguratsioon. Konfiguratsiooni lubamiseks valitakse tooteetalonides piirangupõhise konfiguratsiooni tehnoloogia. Lisateabe saamiseks vt teemat [Toote konfiguratsioonimudeli koostamine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
+| **Asendatud teise funktsiooniga?**   | Jah. Rakenduses Dynamics AX 2012, kus tootekonstruktori tulevaste versioonide aegumine oli juba välja kuulutatud, võeti kasutusele piirangupõhine konfiguratsioon. Konfiguratsiooni lubamiseks valitakse tooteetalonides piirangupõhise konfiguratsiooni tehnoloogia. Lisateabe saamiseks vt teemat [Toote konfiguratsioonimudeli koostamine](../../supply-chain/pim/build-product-configuration-model.md). |
 | **Mõjutatud tootealad**         | Tooteteabe haldus, Müük ja turundus  |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.      |
 

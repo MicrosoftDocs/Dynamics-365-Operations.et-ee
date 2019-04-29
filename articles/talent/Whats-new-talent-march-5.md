@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782845"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949801"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (5. märts 2019)
 
@@ -35,7 +35,7 @@ Selles teemas kirjeldatakse Talenti uusi või muutunud funktsioone
 
 ### <a name="extending-option-sets-in-attract"></a>Suvandikomplektide laiendamine Attractis
 
-Attractis on mitu välja, mis on teenuse Common Data Service (CDS) suvandikomplektid. Suvandikomplektide laiendamiseks on kasutusele võetud uusi võimalusi, alustades väljadega **Tagasilükkamise põhjus**, **Töösuhte tüüp** ja **Staaži tüüp**.
+Attractis on mitu välja, mis on teenuse Common Data Service suvandikomplektid. Suvandikomplektide laiendamiseks on kasutusele võetud uusi võimalusi, alustades väljadega **Tagasilükkamise põhjus**, **Töösuhte tüüp** ja **Staaži tüüp**.
 
 > [!IMPORTANT]
 > Funktsioon Töö sisestamine LinkedIni nõuab lehel **Töö üksikasjad** väljade **Töösuhte tüüp** ja **Staaži tüüp** kasutamist. LinkedIn toetab nende väljade vaikeväärtuseid ja need kuvatakse pärast töö sisestamist. Kui sisestate töid LinkedIni ja muudate nende väljade olemasolevaid suvandikomplekti väärtusi, töö siiski sisestatakse, kuid LinkedIn ei kuva väljade **Töösuhte tüüp** ja **Staaži tüüp** kohandatud väärtusi.
@@ -70,8 +70,8 @@ Selle muudatuse tõttu määratakse olemasolevate ametikohtade muudatuste taotle
 ### <a name="other-miscellaneous-bug-fixes"></a>Muud mitmesugused veaparandused
 See versioon sisaldab ka muid väikesi veaparandusi.
 
-### <a name="upgrade-to-cds-for-apps"></a>Täiendamine teenusele CDS for Apps
-Teenusele CDS for Apps täiendamise tähtajad lähenevad kiirelt. Logige sisse PowerAppsi halduskeskusesse, et määrata, kas teie andmebaas vajab täiendamist. Lisateavet tähtaegade ja täiendamiseks nõutavate etappide kohta vt jaotisest [Täiendamine teenusele Common Data Service for Apps](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+### <a name="upgrade-to-common-data-service"></a>Common Data Service'i värskendus
+Tähtajad Common Data Service'i värskendamiseks lähenevad kiiresti. Logige sisse PowerAppsi halduskeskusesse, et määrata, kas teie andmebaas vajab täiendamist. Lisateavet tähtaegade ja täiendamiseks nõutavate etappide kohta vt jaotisest [Täiendamine teenusele Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Peagi tulekul
 

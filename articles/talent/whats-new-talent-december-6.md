@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6fae56d2feeec8e5c26fc86bdf89b8ab4c282144
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 80d62492d58a436c15fac82df0d000ab9efa6ea5
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304122"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949939"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (6. detsember 2018)
 
@@ -135,7 +135,7 @@ Töötajatelt Tööülesandele ülesanne vajab järgmiste vastenduste uuendamist
 
 Soo välja muutmine vajab samuti värskendamist. Valige vastenduse tüüp **fn** (funktsioon) Soole ja värskendada järgmisi väärtuste vastendusi.
 
-| CD väärtus | Rakenduse Finance and Operations väärtus || ------------|------------------ -----------| | 75440000 | Mehed || 75440001 | Naised || 75440002 | Mitte ükski || 75440003 | Mittespetsiifilised |
+| Common Data Service väärtus   | Finance and Operations väärtus | | ------------|------------------ -----------| | 75440000    | Mees                         | | 75440001    | Naine                       | | 75440002    | Puudub                        | | 75440003    | Mittespetsiifilised                  |
 
 Värskendatud vastendused peaksid välja nägema sellised.
 

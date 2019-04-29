@@ -1,29 +1,29 @@
 ---
 title: Protsesside tegevused
 description: Selles teemas kirjeldatakse eri tüüpi tegevusi, mida saab kasutada värbamisprotsessis.
-author: ''
+author: hasrivas
 manager: AnnBe
-ms.date: 02/04/2018
+ms.date: 04/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c32db1f563466f05b9fef1a03578392888c0b7e6
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374753"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "989910"
 ---
 # <a name="activities-in-the-hiring-processes"></a>Värbamisprotsesside tegevused
 
@@ -32,7 +32,7 @@ ms.locfileid: "374753"
 Rakenduses Microsoft Dynamics 365 for Talent: Attract saab värbamisprotsessile lisada tegevusi. Tegevusi saab lisada protsessimallile või neid saab lisada otse tööle värbamise protsessile. Pärast töö määratlemist valitakse protsessimall ja mallis sisalduvad tegevused rakendatakse tööle. Kui mall on valimata, kasutatakse vaikemalli. Värbamisprotsessi saab töö juures muuta ka pärast malli rakendamist.
 
 > [!NOTE] 
-> Protsessimallid on saadaval tervikliku värbamise lisandmooduli korral.
+> Protsessimallid on saadaval tervikliku värbamise lisandmooduli korral. Lisateabe saamiseks lugege [Attracti värbamise lisandmooduli mitmekülgsete funktsioonide kohta](./attract-comprehensive-hiring.md).
 
 ## <a name="prospect-activity"></a>Tegevus Potentsiaalselt sobiv kandidaat
 
@@ -48,34 +48,43 @@ Sellel tegevusel on kolm komponenti: Kandidaadi saadavuspäring, Graafik ja Taga
 
 ## <a name="powerapps-activity"></a>PowerAppsi tegevus
 
-PowerAppsi tegevus võimaldab värbamisprotsessi manustada rakenduse Microsoft PowerApps. Rakendus võib olla kohustuslik kõigile kandidaatidele, ainult ettevõttesisestele kandidaatidele, ainult ettevõttevälistele kandidaatidele või mitte ühelegi kandidaadile. Kui see rakendus märgitakse kohustuslikuks, peab enne etapi alustamist selle lõpule viima. Kui see rakendus ei ole kohustuslikuks märgitud, pole see tegevus kohustuslik, ja etappi saab alustada isegi siis, kui rakendus on lõpule viimata.
+PowerAppsi tegevus võimaldab värbamisprotsessi manustada rakenduse Microsoft PowerApps. Rakendus võib olla kohustuslik kõigile kandidaatidele, ainult ettevõttesisestele kandidaatidele, ainult ettevõttevälistele kandidaatidele või mitte ühelegi kandidaadile. Kui see rakendus märgitakse kohustuslikuks, peab enne etapi alustamist selle lõpule viima. Lõpetatuks lugemiseks peab välja **JobApplicationStatus** olekuks olema määratud **Lõpetatud**. See väli asub üksuses JobApplicationActivity, seega peab PowerAppsi rakendus enne etapi alustamist seda välja värskendama. Kui see rakendus ei ole kohustuslikuks märgitud, pole see tegevus kohustuslik, ja etappi saab alustada isegi siis, kui rakendus on lõpule viimata.
 
 Värbamisprotsessi jaoks tegevuse PowerApps salvestamiseks peate sisestama PowerAppsi ID. PowerAppsi ID leidmiseks valige [PowerApps](https://web.powerapps.com), **Rakendused** ja seejärel **Üksikasjad**.
 
-Kui valite suvandi **Luba osalejate lisamine sellele tegevusele**, saab rakendusele, mis kasutab tegevust PowerApps, lisada kaasautoreid. Näiteks organisatsioon on loonud PowerAppsi rakenduse, mis on tehniliste rollide jaoks peetavate töövestluste küsimuste teek. See organisatsioon otsib parasjagu uut tarkvaraarendajat ja on lisanud tegevuse PowerApps tarkvaraarendaja rolli värbamisprotsessile. Kui valitud on suvand **Luba osalejate lisamine sellele tegevusele**, saab värbaja või personalijuht, kes vaatab tarkvaraarendaja rolli jaoks olevat kandidaati, tegevusse PowerApps inimesi lisada. Need inimesed saavad siis vaadata töövestluse küsimustega rakendust.
+Vaikimisi on PowerAppsi tegevus saadaval värbamisjuhile, värbajale ja nende delegaatidele. Kui valite suvandi **Luba osalejate lisamine sellele tegevusele**, saab PowerAppsi tegevust kasutavale rakendusele lisada värbamistöörühmast osalejaid. Näiteks organisatsioon on loonud PowerAppsi rakenduse, mis on tehniliste rollide jaoks peetavate töövestluste küsimuste teek. See organisatsioon otsib parasjagu uut tarkvaraarendajat ja on lisanud tegevuse PowerApps tarkvaraarendaja rolli värbamisprotsessile. Kui valitud on suvand **Luba osalejate lisamine sellele tegevusele**, saab tarkvaraarendaja rolli jaoks olevat kandidaati vaatav värbaja või värbamisjuht lisada PowerAppsi tegevusele intervjueerijaid. Need inimesed saavad siis vaadata töövestluse küsimustega rakendust.
 
 > [!NOTE]
-> Tegevus PowerApps on saadaval ainult tervikliku värbamise lisandmooduli korral.
+> Tegevus PowerApps on saadaval ainult tervikliku värbamise lisandmooduli korral. Lisateabe saamiseks lugege [Attracti värbamise lisandmooduli mitmekülgsete funktsioonide kohta](./attract-comprehensive-hiring.md).
 
 ## <a name="youtube-activity"></a>YouTube’i tegevus
 
-YouTube’i tegevus võimaldab värbamisprotsessi osana jagada YouTube’i videot. Värbamisprotsessi jaoks YouTube’i tegevuse salvestamiseks on vajalik YouTube’i video URL. Nii nagu tegevuse PowerApps korral, saate lubada ka sellele tegevusele osalejate lisamist. Kui valite suvandi **Näita ainult kandidaadile**, näidatakse videot ainult kandidaatidele. Seda ei näidata Attractis olevas värbamisprotsessis.
+YouTube’i tegevus võimaldab värbamisprotsessi osana jagada YouTube’i videot. Värbamisprotsessi jaoks YouTube’i tegevuse salvestamiseks on vajalik YouTube’i video URL. Sisu nägijaid on võimalik valida suvanditega **Värbamistöörühm**, **Ainult sisekandidaadid**, **Ainult väliskandidaadid** või **Kõik kandidaadid**. Nii nagu PowerAppsi tegevuse korral, saate lubada ka sellele tegevusele värbamistöörühma osalejate lisamist. Kui otsustate lasta kandidaatidel näha sisu, näidatakse videot ainult kandidaatidele, mitte värbamisprotsessis.
 
 > [!NOTE]
-> YouTube’i tegevus on saadaval ainult mitmekülgse värbamise lisandmooduli korral.
+> YouTube’i tegevus on saadaval ainult mitmekülgse värbamise lisandmooduli korral. Lisateabe saamiseks lugege [Attracti värbamise lisandmooduli mitmekülgsete funktsioonide kohta](./attract-comprehensive-hiring.md).
 
 ## <a name="web-content-activity"></a>Tegevus Veebisisu
 
-Tegevus Veebisisu võimaldab teil värbamisprotsessi manustada veebisisu. Värbamisprotsessi jaoks tegevuse Veebisisu salvestamiseks on vajalik sisu URL. Nii nagu PowerAppsi ja YouTube’i tegevuste puhul, saate lubada ka sellele tegevusele osalejate lisamist. Kui valite suvandi **Näita ainult kandidaadile**, näidatakse sisu ainult kandidaatidele. Seda ei näidata Attractis olevas värbamisprotsessis. Te saate valida kuvatava sisu suuruse.
+Tegevus Veebisisu võimaldab teil värbamisprotsessi manustada veebisisu. Värbamisprotsessi jaoks tegevuse Veebisisu salvestamiseks on vajalik sisu URL. Sisu nägijaid on võimalik valida suvanditega **Värbamistöörühm**, **Ainult sisekandidaadid**, **Ainult väliskandidaadid** või **Kõik kandidaadid**. Nii nagu PowerAppsi ja YouTube’i tegevuste korral, saate lubada ka sellele tegevusele värbamistöörühma osalejate lisamist. Kui otsustate lasta kandidaatidel näha sisu, näidatakse veebisisu ainult kandidaatidele, mitte värbamisprotsessis. Te saate valida kuvatava sisu suuruse.
 
 > [!NOTE]
-> Tegevus Veebisisu on saadaval ainult tervikliku värbamise lisandmooduli korral.
+> Tegevus Veebisisu on saadaval ainult tervikliku värbamise lisandmooduli korral. Lisateabe saamiseks lugege [Attracti värbamise lisandmooduli mitmekülgsete funktsioonide kohta](./attract-comprehensive-hiring.md).
 
 ## <a name="microsoft-forms-activity"></a>Tegevus Microsoft Forms
 
-Tegevus Microsoft Forms võimaldab värbamisprotsessi manustada Microsoft Formsi vormi. Microsoft Forms võimaldab teil luua viktoriine, uuringuid ja küsitlusi. Värbamisprotsessi jaoks tegevuse Microsoft Forms salvestamiseks on vajalik vormi URL. Nii nagu PowerAppsi, YouTube’i ja veebisisu tegevuste puhul, saate lubada ka sellele tegevusele osalejate lisamist. Kui valite suvandi **Näita ainult kandidaadile**, näidatakse vormi ainult kandidaatidele. Seda ei näidata Attractis olevas värbamisprotsessis.
+Microsoft Formsi tegevus võimaldab värbamisprotsessi manustada Microsoft Formsi tegevuse. Microsoft Forms võimaldab teil luua viktoriine, uuringuid ja küsitlusi. Värbamisprotsessi jaoks Microsoft Formsi tegevuse salvestamiseks on vajalik vormi URL. Sisu nägijaid on võimalik valida suvanditega **Värbamistöörühm**, **Ainult sisekandidaadid**, **Ainult väliskandidaadid** või **Kõik kandidaadid**. Nii nagu PowerAppsi, YouTube’i ja veebisisu tegevuste korral, saate lubada ka sellele tegevusele värbamistöörühma osalejate lisamist. Kui otsustate lasta kandidaatidel näha sisu, näidatakse vormi ainult kandidaatidele, mitte värbamisprotsessis.
 
 Rakendusega Microsoft Forms saavad autorid muuta oma sätteid, et organisatsioonivälised kasutajad saaksid nende küsitlustele või viktoriinile vastata. Sel juhul on kasutajate vastused anonüümsed. Kui soovite näha, kes on teie küsitlusele või viktoriinile vastanud, saate küsitluse või viktoriini osana paluda vastajatel sisestada oma nimi.
 
 > [!NOTE]
-> Tegevus Microsoft Forms on saadaval ainult tervikliku värbamise lisandmooduli korral.
+> Tegevus Microsoft Forms on saadaval ainult tervikliku värbamise lisandmooduli korral. Lisateabe saamiseks lugege [Attracti värbamise lisandmooduli mitmekülgsete funktsioonide kohta](./attract-comprehensive-hiring.md).
+
+## <a name="offer-activity"></a>Pakkumise tegevus
+
+Värbamisprotsessi mall nõuab pakkumise tegevust. Integreeritud pakkumiste haldamise rakenduse kasutamiseks määrake sätte **Käivita pakkumiste haldamise rakendus pakkumise koostamisel** olekuks **Sees**. Kui see säte on välja lülitatud, ei kuvata kandidaati pakkumise rakenduses, mistõttu peate kandidaadi pakkumise tegevuse värskendusi jälgima käsitsi. Selleks, et värbamisjuhid saaksid kandidaadi jaoks pakkumise koostada pakkumise rakenduses, määrake sätte **Personalijuhid saavad pakkumise ette valmistada** olekuks **Sees**. Kui tööga on seotud mitu ametikohta, saate otsustada, kas soovite sama ametikoha numbriga seoses ette valmistada mitu pakkumist. Kui soovite lubada ainult ühe pakkumise ühe ametikoha kohta ühe töö kohta, määrake sätte **Luba töös positsioone uuesti kasutada** olekuks **Väljas**.
+
+> [!NOTE]
+> Integreeritud pakkumiste haldamise rakendus on saadaval ainult tervikliku värbamise lisandmooduli korral. Lisateabe saamiseks lugege [Attracti värbamise lisandmooduli mitmekülgsete funktsioonide kohta](./attract-comprehensive-hiring.md).
+
+

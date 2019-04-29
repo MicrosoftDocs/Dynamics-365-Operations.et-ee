@@ -3,7 +3,7 @@ title: Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field S
 description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse varude korrigeerimiste ja üleviimiste sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: aa54945cea5821da163e1f6ea1747ac29b31a3ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 75181661c41d238cdc06ffbb6969a2efd7d88d46
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308364"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842411"
 ---
 # <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>Varude korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Finance and Operations
 
@@ -38,8 +38,8 @@ Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatak
 Varude korrigeerimiste ja üleviimiste sünkroonimiseks rakendusest Microsoft Dynamics 365 for Field Service rakendusse Microsoft Dynamics 365 for Finance and Operations kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
 
 **Mallid andmeintegratsioonis**
-- Varude korrigeerimine (rakendusest Field Service rakendusse Finance and Operations)
-- Varude üleviimine (rakendusest Field Service rakendusse Finance and Operations)
+- Varude korrigeerimine (rakendusest Field Service rakendusse Fin and Ops)
+- Varude üleviimine (rakendusest Field Service rakendusse Fin and Ops)
 
 **Ülesanded andmeintegratsiooni projektides**
 - Varude korrigeerimine
@@ -71,11 +71,11 @@ Integratsiooniga loodud integratsiooni varude töölehed saab pakett-tööga aut
 
 Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 
-### <a name="inventory-adjustment-field-service-to-finance-and-operations-inventory-adjustment"></a>Varude korrigeerimine (Field Service’ist Finance and Operationsisse): varude korrigeerimine
+### <a name="inventory-adjustment-field-service-to-fin-and-ops-inventory-adjustment"></a>Varude korrigeerimine (rakendusest Field Service rakendusse Fin and Ops): varude korrigeerimine
 
 [![Malli vastendamine andmete integratsioonis](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
-### <a name="inventory-transfer-field-service-to-finance-and-operations-inventory-transfer"></a>Varude üleviimine (Field Service’ist Finance and Operationsisse): varude üleviimine
+### <a name="inventory-transfer-field-service-to-fin-and-ops-inventory-transfer"></a>Varude üleviimine (rakendusest Field Service rakendusse Fin and Ops): varude üleviimine
 
 [![Malli vastendamine andmete integratsioonis](./media/FSTrans1.png)](./media/FSTrans1.png)

@@ -3,7 +3,7 @@ title: Projektiloendi sünkroonimine rakendusest Finance and Operations rakendus
 description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse projektide sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b5aeb4c3925994d7488e8e113e88b9d06ee6b350
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312504"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842600"
 ---
 # <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>Projektiloendi sünkroonimine rakendusest Finance and Operations rakendusse Field Service
 
@@ -38,13 +38,13 @@ Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatak
 Projektide sünkroonimise käitamiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service kasutatakse järgmisi malle ja aluseks olevaid ülesandeid.
 
 **Mall andmeintegratsioonis**
-- Projektid (rakendusest Finance and Operations rakendusse Field Service)
+- Projektid (rakendusest Fin and Ops rakendusse Field Service)
 
 **Ülesanne andmeintegratsiooni projektis**
 - Projektid
 
 Enne projektide loendi sünkroonimist on nõutavad järgmised sünkroonimisülesanded.
-- Kontod (Müügi integratsioon Finance and Operationsiks) 
+- Kontod (Salesist Fin and Opsi) 
 
 ## <a name="entity-set"></a>Üksuste komplekt
 | Field Service           | Finance and Operations  |
@@ -64,6 +64,6 @@ Muudatuste jälgimise lubamine andmeüksuse projektide jaoks.
 ## <a name="template-mapping-in-data-integration"></a>Malli vastendamine andmete integratsioonis
 
 
-### <a name="projects-finance-and-operations-to-field-service-projects"></a>Projektid (rakendusest Finance and Operations rakendusse Field Service): Projektid
+### <a name="projects-fin-and-ops-to-field-service-projects"></a>Projektid (rakendusest Fin and Ops rakendusse Field Service): projektid
 
 [![Malli vastendamine andmete integratsioonis](./media/FSProject1.png)](./media/FSProject1.png)

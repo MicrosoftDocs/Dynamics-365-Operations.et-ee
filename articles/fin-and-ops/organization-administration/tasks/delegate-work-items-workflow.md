@@ -3,7 +3,7 @@ title: Töövoos olevate tööüksuste delegeerimine
 description: Kui plaanite olla kontorist väljas või muul viisil tööüksustega tegelemiseks kättesaamatu, saate tööüksused teistele kasutajatele delegeerida või ümber määrata.
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 04/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,25 +16,26 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: feace647d7acef6abf86b13fcb8019c622c55ff6
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346245"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "976777"
 ---
-# <a name="delegate-work-items-in-a-workflow"></a>Töövoos olevate tööüksuste delegeerimine
+# <a name="delegate-work-items-in-a-workflow"></a>Tööüksuste delegeerimine töövoos
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Kui plaanite olla kontorist väljas või muul viisil tööüksustega tegelemiseks kättesaamatu, saate tööüksused teistele kasutajatele delegeerida või ümber määrata. See protseduur aitab teil konfigureerida süsteemi automaatselt delegeerima teie tööüksused teisele kasutajale.
+## <a name="manually-delegate-a-work-item"></a>Tööüksuse käsitsi delegeerimine
 
+Üksiku tööüksuse delegeerimiseks valige menüüst **Töövoog** suvand **Delegeeri** ja seejärel sisestage delegeeritav kasutaja ning kommentaar. See määrab tööüksuse ümber nimetatud kasutajale, nii et ta saaks selle lõpule viia.
 
+## <a name="automatically-delegate-work-items"></a>Tööüksuste automaatne delegeerimine
 
-Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+Kui plaanite minna kontorist välja või olla muul moel kättesaamatu teatud ajaperioodil tööüksustega töötamiseks, saate uued tööüksused automaatselt teistele kasutajatele delegeerida, kasutades lehte **Kasutaja suvandid**.
 
-
-## <a name="set-up-automatic-delegation"></a>Automaatse delegeerimise seadistamine
+### <a name="set-up-automatic-delegation"></a>Automaatse delegeerimise seadistamine
 1. Avage Üldine > Häälestamine > Kasutaja suvandid.
 2. Klõpsake vahekaarti Töövoog.
     * Veenduge, et jaotis Delegatsioon on laiendatud.    Konfigureerimaks süsteemi automaatselt tööüksuseid teistele kasutajatele delegeerima, peate looma delegeerimisreeglid, mis määravad, millal teatud tüüpi tööüksuseid delegeeritakse. Järgige delegeerimisreegli loomiseks neid juhiseid.  
