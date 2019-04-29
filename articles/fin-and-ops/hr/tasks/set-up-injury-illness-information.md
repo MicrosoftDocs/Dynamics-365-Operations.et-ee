@@ -1,7 +1,7 @@
 ---
 title: Saate häälestada vigastuste ja haiguste teavet.
 description: Tööandjad peavad teadma, kui nende töötajad saavad töökoha ohtude tõttu viga või haigestuvad.
-author: ShielaSogge
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,58 +10,58 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMInjurySetup
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shielas
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fcc924e11ac17b561c5f5840a4fe1b183a8232d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ae074b451e0da46fb36f1580fe5e399bd58d5da6
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "316023"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859179"
 ---
-# <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="72847-103">Saate häälestada vigastuste ja haiguste teavet.</span><span class="sxs-lookup"><span data-stu-id="72847-103">Set up injury and illness information</span></span>
+# <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="e0ad4-103">Saate häälestada vigastuste ja haiguste teavet.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-103">Set up injury and illness information</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="72847-104">Tööandjad peavad teadma, kui nende töötajad saavad töökoha ohtude tõttu viga või haigestuvad.</span><span class="sxs-lookup"><span data-stu-id="72847-104">Employers need to know when their employees suffer injuries or illness resulting from hazards in the workplace.</span></span> <span data-ttu-id="72847-105">Vigastuste ja haiguste lehel saate häälestada teabe, mis hõlbustab töökohas tekkinud vigastuste või haiguste aruandlust.</span><span class="sxs-lookup"><span data-stu-id="72847-105">You can use the injury and illness page to set up information that facilitates reporting work-place injuries or illnesses.</span></span> <span data-ttu-id="72847-106">Saate seadistada vigastuste ja haiguste tüübid, sh ravi, kulude ja tulemuste tüübid.</span><span class="sxs-lookup"><span data-stu-id="72847-106">You can set up types of injuries and illnesses, including types of treatments, costs, and outcomes.</span></span> <span data-ttu-id="72847-107">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="72847-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="e0ad4-104">Tööandjad peavad teadma, kui nende töötajad saavad töökoha ohtude tõttu viga või haigestuvad.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-104">Employers need to know when their employees suffer injuries or illness resulting from hazards in the workplace.</span></span> <span data-ttu-id="e0ad4-105">Vigastuste ja haiguste lehel saate häälestada teabe, mis hõlbustab töökohas tekkinud vigastuste või haiguste aruandlust.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-105">You can use the injury and illness page to set up information that facilitates reporting work-place injuries or illnesses.</span></span> <span data-ttu-id="e0ad4-106">Saate seadistada vigastuste ja haiguste tüübid, sh ravi, kulude ja tulemuste tüübid.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-106">You can set up types of injuries and illnesses, including types of treatments, costs, and outcomes.</span></span> <span data-ttu-id="e0ad4-107">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-107">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="72847-108">Avage Inimressursid > Töötajad > Vigastus ja haigus > Vigastuste ja haiguste seadistus.</span><span class="sxs-lookup"><span data-stu-id="72847-108">Go to Human resources > Workers > Injury and illness > Injury and illness setup.</span></span>
-2. <span data-ttu-id="72847-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="72847-109">Click New.</span></span>
-3. <span data-ttu-id="72847-110">Sisestage väärtus väljale Vigastus või haigus.</span><span class="sxs-lookup"><span data-stu-id="72847-110">In the Injury or illness type field, type a value.</span></span>
-    * <span data-ttu-id="72847-111">Näide: luumurd</span><span class="sxs-lookup"><span data-stu-id="72847-111">Example: Fracture</span></span>  
-4. <span data-ttu-id="72847-112">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="72847-112">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="72847-113">Näide: luumurd</span><span class="sxs-lookup"><span data-stu-id="72847-113">Example: Bone fracture</span></span>  
-5. <span data-ttu-id="72847-114">Klõpsake vahekaarti Kehaosad.</span><span class="sxs-lookup"><span data-stu-id="72847-114">Click the Body parts tab.</span></span>
-6. <span data-ttu-id="72847-115">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="72847-115">Click New.</span></span>
-7. <span data-ttu-id="72847-116">Sisestage väärtus väljale Kehaosa.</span><span class="sxs-lookup"><span data-stu-id="72847-116">In the Body part field, type a value.</span></span>
-    * <span data-ttu-id="72847-117">Näide: ranne</span><span class="sxs-lookup"><span data-stu-id="72847-117">Example: Wrist</span></span>  
-8. <span data-ttu-id="72847-118">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="72847-118">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="72847-119">Näide: ranne</span><span class="sxs-lookup"><span data-stu-id="72847-119">Example: Wrist</span></span>  
-9. <span data-ttu-id="72847-120">Klõpsake vahekaarti Ravitüübid.</span><span class="sxs-lookup"><span data-stu-id="72847-120">Click the Treatment types tab.</span></span>
-10. <span data-ttu-id="72847-121">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="72847-121">Click New.</span></span>
-11. <span data-ttu-id="72847-122">Sisestage väärtus väljale Ravitüüp.</span><span class="sxs-lookup"><span data-stu-id="72847-122">In the Treatment type field, type a value.</span></span>
-    * <span data-ttu-id="72847-123">Näide: lahas</span><span class="sxs-lookup"><span data-stu-id="72847-123">Example: Splint</span></span>  
-12. <span data-ttu-id="72847-124">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="72847-124">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="72847-125">Näide: lahastamine</span><span class="sxs-lookup"><span data-stu-id="72847-125">Example: Put a splint on</span></span>  
-13. <span data-ttu-id="72847-126">Klõpsake vahekaarti Kulutüübid.</span><span class="sxs-lookup"><span data-stu-id="72847-126">Click the Cost types tab.</span></span>
-14. <span data-ttu-id="72847-127">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="72847-127">Click New.</span></span>
-15. <span data-ttu-id="72847-128">Sisestage väärtus väljale Kulutüüp.</span><span class="sxs-lookup"><span data-stu-id="72847-128">In the Cost type field, type a value.</span></span>
-    * <span data-ttu-id="72847-129">Näide: röntgen</span><span class="sxs-lookup"><span data-stu-id="72847-129">Example: X-rays</span></span>  
-16. <span data-ttu-id="72847-130">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="72847-130">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="72847-131">Näide: röntgen</span><span class="sxs-lookup"><span data-stu-id="72847-131">Example: X-rays</span></span>  
-17. <span data-ttu-id="72847-132">Klõpsake vahekaarti Tulemusetüübid.</span><span class="sxs-lookup"><span data-stu-id="72847-132">Click the Outcome types tab.</span></span>
-18. <span data-ttu-id="72847-133">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="72847-133">Click New.</span></span>
-19. <span data-ttu-id="72847-134">Sisestage väärtus väljale Tulemusetüüp.</span><span class="sxs-lookup"><span data-stu-id="72847-134">In the Outcome type field, type a value.</span></span>
-    * <span data-ttu-id="72847-135">Näide: ravi</span><span class="sxs-lookup"><span data-stu-id="72847-135">Example: Therapy</span></span>  
-20. <span data-ttu-id="72847-136">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="72847-136">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="72847-137">Näide: füsioteraapia</span><span class="sxs-lookup"><span data-stu-id="72847-137">Example: Physical therapy</span></span>  
-21. <span data-ttu-id="72847-138">Klõpsake vahekaarti Raskusastmed.</span><span class="sxs-lookup"><span data-stu-id="72847-138">Click the Severity levels tab.</span></span>
-    * <span data-ttu-id="72847-139">Saate luua kohandatavaid raskusastmeid.</span><span class="sxs-lookup"><span data-stu-id="72847-139">Customizable severity levels can be created.</span></span> <span data-ttu-id="72847-140">Näide: 1. raskusaste võib tähendada pisivigastust, 3. raskusaste aga ränka vigastust</span><span class="sxs-lookup"><span data-stu-id="72847-140">For example: Severity 1 might mean a minor injury, where severity 3 might indicate a severe injury.</span></span>  
-22. <span data-ttu-id="72847-141">Klõpsake vahekaarti Aruandlusasutused.</span><span class="sxs-lookup"><span data-stu-id="72847-141">Click the Reporting agencies tab.</span></span>
-    * <span data-ttu-id="72847-142">Aruandlusasutused on asutused, mida tuleb juhtumist teavitada.</span><span class="sxs-lookup"><span data-stu-id="72847-142">Reporting agencies are the agencies that the incident needs to be reported to.</span></span> <span data-ttu-id="72847-143">Märkige ruut Vaikimisi asutuse juures, mida vaikimisi vigastustest ja haigustest teavitatakse.</span><span class="sxs-lookup"><span data-stu-id="72847-143">Select the default check box for the agency that is the default agency for reporting injury and illnesses to.</span></span>  
-23. <span data-ttu-id="72847-144">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="72847-144">Click Save.</span></span>
+1. <span data-ttu-id="e0ad4-108">Avage Inimressursid > Töötajad > Vigastus ja haigus > Vigastuste ja haiguste seadistus.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-108">Go to Human resources > Workers > Injury and illness > Injury and illness setup.</span></span>
+2. <span data-ttu-id="e0ad4-109">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-109">Click New.</span></span>
+3. <span data-ttu-id="e0ad4-110">Sisestage väärtus väljale Vigastus või haigus.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-110">In the Injury or illness type field, type a value.</span></span>
+    * <span data-ttu-id="e0ad4-111">Näide: luumurd</span><span class="sxs-lookup"><span data-stu-id="e0ad4-111">Example: Fracture</span></span>  
+4. <span data-ttu-id="e0ad4-112">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-112">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="e0ad4-113">Näide: luumurd</span><span class="sxs-lookup"><span data-stu-id="e0ad4-113">Example: Bone fracture</span></span>  
+5. <span data-ttu-id="e0ad4-114">Klõpsake vahekaarti Kehaosad.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-114">Click the Body parts tab.</span></span>
+6. <span data-ttu-id="e0ad4-115">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-115">Click New.</span></span>
+7. <span data-ttu-id="e0ad4-116">Sisestage väärtus väljale Kehaosa.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-116">In the Body part field, type a value.</span></span>
+    * <span data-ttu-id="e0ad4-117">Näide: ranne</span><span class="sxs-lookup"><span data-stu-id="e0ad4-117">Example: Wrist</span></span>  
+8. <span data-ttu-id="e0ad4-118">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-118">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="e0ad4-119">Näide: ranne</span><span class="sxs-lookup"><span data-stu-id="e0ad4-119">Example: Wrist</span></span>  
+9. <span data-ttu-id="e0ad4-120">Klõpsake vahekaarti Ravitüübid.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-120">Click the Treatment types tab.</span></span>
+10. <span data-ttu-id="e0ad4-121">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-121">Click New.</span></span>
+11. <span data-ttu-id="e0ad4-122">Sisestage väärtus väljale Ravitüüp.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-122">In the Treatment type field, type a value.</span></span>
+    * <span data-ttu-id="e0ad4-123">Näide: lahas</span><span class="sxs-lookup"><span data-stu-id="e0ad4-123">Example: Splint</span></span>  
+12. <span data-ttu-id="e0ad4-124">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-124">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="e0ad4-125">Näide: lahastamine</span><span class="sxs-lookup"><span data-stu-id="e0ad4-125">Example: Put a splint on</span></span>  
+13. <span data-ttu-id="e0ad4-126">Klõpsake vahekaarti Kulutüübid.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-126">Click the Cost types tab.</span></span>
+14. <span data-ttu-id="e0ad4-127">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-127">Click New.</span></span>
+15. <span data-ttu-id="e0ad4-128">Sisestage väärtus väljale Kulutüüp.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-128">In the Cost type field, type a value.</span></span>
+    * <span data-ttu-id="e0ad4-129">Näide: röntgen</span><span class="sxs-lookup"><span data-stu-id="e0ad4-129">Example: X-rays</span></span>  
+16. <span data-ttu-id="e0ad4-130">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-130">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="e0ad4-131">Näide: röntgen</span><span class="sxs-lookup"><span data-stu-id="e0ad4-131">Example: X-rays</span></span>  
+17. <span data-ttu-id="e0ad4-132">Klõpsake vahekaarti Tulemusetüübid.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-132">Click the Outcome types tab.</span></span>
+18. <span data-ttu-id="e0ad4-133">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-133">Click New.</span></span>
+19. <span data-ttu-id="e0ad4-134">Sisestage väärtus väljale Tulemusetüüp.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-134">In the Outcome type field, type a value.</span></span>
+    * <span data-ttu-id="e0ad4-135">Näide: ravi</span><span class="sxs-lookup"><span data-stu-id="e0ad4-135">Example: Therapy</span></span>  
+20. <span data-ttu-id="e0ad4-136">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-136">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="e0ad4-137">Näide: füsioteraapia</span><span class="sxs-lookup"><span data-stu-id="e0ad4-137">Example: Physical therapy</span></span>  
+21. <span data-ttu-id="e0ad4-138">Klõpsake vahekaarti Raskusastmed.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-138">Click the Severity levels tab.</span></span>
+    * <span data-ttu-id="e0ad4-139">Saate luua kohandatavaid raskusastmeid.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-139">Customizable severity levels can be created.</span></span> <span data-ttu-id="e0ad4-140">Näide: 1. raskusaste võib tähendada pisivigastust, 3. raskusaste aga ränka vigastust</span><span class="sxs-lookup"><span data-stu-id="e0ad4-140">For example: Severity 1 might mean a minor injury, where severity 3 might indicate a severe injury.</span></span>  
+22. <span data-ttu-id="e0ad4-141">Klõpsake vahekaarti Aruandlusasutused.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-141">Click the Reporting agencies tab.</span></span>
+    * <span data-ttu-id="e0ad4-142">Aruandlusasutused on asutused, mida tuleb juhtumist teavitada.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-142">Reporting agencies are the agencies that the incident needs to be reported to.</span></span> <span data-ttu-id="e0ad4-143">Märkige ruut Vaikimisi asutuse juures, mida vaikimisi vigastustest ja haigustest teavitatakse.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-143">Select the default check box for the agency that is the default agency for reporting injury and illnesses to.</span></span>  
+23. <span data-ttu-id="e0ad4-144">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="e0ad4-144">Click Save.</span></span>
 
