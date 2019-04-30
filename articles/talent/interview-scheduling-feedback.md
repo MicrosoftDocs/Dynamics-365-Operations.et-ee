@@ -1,25 +1,25 @@
 ---
 title: Vestluse plaanimine ja tagasiside
 description: Selles teemas antakse teavet vestluse plaanimise ja tagasiside tegevuste kohta rakenduses Attract.
-author: ''
+author: hasrivas
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 04/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
-ms.author: hasrivas
-ms.openlocfilehash: 7bc5a66bb221cb0ab2c69fcb1013ed48a7c664a6
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.author: shielas
+ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374884"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "989933"
 ---
 # <a name="interview-scheduling-and-feedback"></a>Vestluse plaanimine ja tagasiside
 
@@ -28,6 +28,8 @@ ms.locfileid: "374884"
 ## <a name="scheduler-activity"></a>Tegevus Plaanur
 
 Andmeedastaja tegevus on valikuline ja koosneb kahest osast: kandidaadi saadavuspäring ning graafik. Kandidaadi kättesaadavuse komponent võimaldab kasutada kandidaadi kättesaadavuse küsimiseks meili. Graafiku komponent võimaldab planeerida töövestlusi kandidaadi ja värbamistöörühma vahel.
+
+Graafiku tegevuse seadistamiseks nii, et see sisaldaks või piiraks plaanitud kandidaate, valige väärtus väljast **Plaanitavad kandidaadid**. Saadaval on valikud **Kõik kandidaadid**, **Väliskandidaadid** ja **Sisekandidaadid**. Näiteks kui soovite plaanimise esimeses etapis jätta vahele sisekandidaadid, saate määrata graafiku tegevuse ainult väliskandidaatidele, määrates valiku **Plaanitavad kandidaadid** valikule **Väliskandidaadid**.
 
 ### <a name="candidate-availability-request"></a>Kandidaadi saadavuspäring
 
@@ -54,7 +56,7 @@ Vestluse andmeedastaja jaoks on saadaval mitu konfiguratsiooni, mille abil vestl
 
 2. Valige iga vestlussündmuse kestus ja klõpsake **OK** graafiku loomiseks.
 
-    Kui suvand **Soovitused** on valitud, kuvatakse soovitused ja vestluseruudustik eeltäidetakse. Näete kõiki valitud intervjueerijate praegust saadavust kalendris. Samuti saate vaadata kandidaadi kalendrit, kui tegemist on sisemise kandidaadiga.
+    Kui suvand **Soovitused** on valitud, kuvatakse soovitused ja vestluseruudustik eeltäidetakse. Näete kõigi valitud intervjueerijate praegust saadavust kalendris. Samuti saate vaadata kandidaadi kalendrit, kui tegemist on sisemise kandidaadiga. Intervjueerijate ja sisekandidaatide kohta saate vaadata aega, millal nad on hõivatud, nende töötunde, kontorist väljas olemise aega ja ühtlasi tuvastada, kas nad on märkinud kalendrisse teatud aegadele, et töötavad mujal. 
 
 3. Kui soovitusi pole saadaval, klõpsake veerus **Intervjueerijad** ajavahemikul, sisestage vestluse pealkiri ja üksikasjad ning sisestage vajaduse korral asukohaandmed. Saate lisada vestlusele lingi **Skype for Business**.
 
@@ -73,7 +75,7 @@ Vestluse andmeedastaja jaoks on saadaval mitu konfiguratsiooni, mille abil vestl
 
     Intervjueerija vastused talletatakse ja kuvatakse Attractis. Kui intervjueerija keeldub vestlusest, teavitatakse teid, et saaksite muudatuse teha. Vastuse kuvamiseks **Andmeedastaja** ruudustikuvaates klõpsake mulliikooni.
 
-[![Attracti värbajavaade intervjueerija vastusest](./media/schedule-interviewer-response.png)](./media/schedule-interviewer-response.png)
+[![Attracti värbajavaade intervjueerija vastusest](./media/schedule-interviewer-response2.png)](./media/schedule-interviewer-response2.png)
 
 7. Kui vestluse graafik on kandidaadiga jagamiseks valmis, klõpsake käsku **Saada kandidaadile**. Saate intervjueerijate nimed ja pesad kandidaadi jaoks peita või kuvada.
 
@@ -82,10 +84,21 @@ Vestluse andmeedastaja jaoks on saadaval mitu konfiguratsiooni, mille abil vestl
 >[!NOTE] 
 > Kandidaadi saadavus kuvatakse kalendris ainult siis, kui kandidaat on sisemine. Samuti saab ainult sisemist kandidaati kasutada vestluse graafikusoovituste täiustamiseks. Praegu ei saa kandidaadid (ei välised ega sisemised) meili teel koosolekukutset, vaid ainult vestluste kokkuvõtte.
 
-## <a name="feedback-activity"></a>Tegevus Tagasiside
+Kandidaadid saavad meili kokkuvõttega vestluslõimest. See meil sisaldab faili .ics, mille saab salvestada isiklikku kalendrisse hõlpsamaks juurdepääsuks ja teatiste saamiseks intervjuu kohta.
 
-Tagasisidetegevus on töömallis valikuline. See tegevus võimaldab vestlusel osalejatel sisestada kandidaadile soovitusi või tagasisidet. Kui valitud on väli **Tuleta tagasisides osalejad värbamistöörühmast**, sisestatakse värbaja, värbamisjuht ja intervjueerijad automaatselt tagasisidetegevusse. Organisatsioonid võivad lubada intervjueerijatel enne tagasiside andmist vaadata teiste inimeste tagasisidet. Organisatsioonid võivad ka lubada pärast tagasiside andmist intervjueerijatel seda muuta. Töömalli osana tuletatakse eelmääratud konfiguratsiooni põhjal intervjueerijatele meelde esitada hiljuti korraldatud vestluste puhul tagasisidet. Värbamisjuht või värbaja saab intervjueerijale tagasiside andmise kohta ka käsitsi meeldetuletuse saata.
+>[!TIP] 
+> Kui saadate intervjuu graafiku kandidaadile uuesti, saavad nad uue faili .ics. Soovitame värskendada meilimalle iga kandidaadi intervjuu kokkuvõtte jaoks, et tagada, et kandidaadid kustutavad varem lisatud intervjuu sündmused ega näed kalendris duplikaate. 
+
+## <a name="feedback-activity"></a>Tagasiside tegevus
+
+Tagasisidetegevus on töömallis valikuline. See tegevus võimaldab vestlusel osalejatel sisestada kandidaadile soovitusi või tagasisidet. 
+
+Selleks et kaasata või piirata kandidaate, kelle kohta soovite tagasisidet anda, valige väärtus väljast **Kelle kohta peavad intervjueerijad andma tagasisidet**.  Saadaval on valikud **Kõik kandidaadid**, **Väliskandidaadid** ja **Sisekandidaadid**. Näiteks kui soovite plaanimise esimeses etapis jätta vahele sisekandidaadid, määrake väli **Kelle kohta peavad intervjueerijad andma tagasisidet** väärtusele **Väliskandidaadid**.
+
+Kui valite välja **Tuleta tagasisides osalejad värbamistöörühmast**, sisestatakse värbaja, värbamisjuht ja intervjueerijad automaatselt tagasisidetegevusse. Organisatsioonid võivad lubada intervjueerijatel enne tagasiside andmist vaadata teiste inimeste tagasisidet. Organisatsioonid võivad ka lubada pärast tagasiside andmist intervjueerijatel seda muuta. Töömalli osana tuletatakse eelmääratud konfiguratsiooni põhjal intervjueerijatele meelde esitada hiljuti korraldatud vestluste puhul tagasisidet. Värbamisjuht või värbaja saab intervjueerijale tagasiside andmise kohta ka käsitsi meeldetuletuse saata.
 
 ## <a name="interview-activity"></a>Tegevus Töövestlus
 
-Vestlustegevus on valikuline ja koosneb kolmest osast: kandidaadi saadavuspäring, graafik ning tagasiside. Kasutage töömallis vestlustegevust, kui soovite kandidaadi saadavuspäringu, graafiku ja tagasiside määrata protsessi osaks, mitte kasutada neid ükshaaval värbamisprotsessi osana.
+Vestlustegevus on valikuline ja koosneb kolmest osast: **kandidaadi saadavuspäring**, **graafik** ja **tagasiside**. Kasutage vestluse tegevust töömallis, kui soovite kõiki kandidaadi saadavuspäringuid, graafikuid ja tagasisidet protsessi osana, mitte kasutada neid eraldi tegevustena.
+
+Intervjueeritavate kandidaatide lisamiseks või piiramiseks valige väärtus väljas **Intervjueeritavad**. Saadaval on valikud **Kõik kandidaadid**, **Väliskandidaadid** ja **Sisekandidaadid**. Näiteks kui soovite intervjueerimise esimeses etapis jätta vahele sisekandidaadid, määrake väli **Intervjueeritavad** väärtusele **Väliskandidaadid**.

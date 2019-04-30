@@ -1,29 +1,29 @@
 ---
 title: Kandidaatide otsimine talendikaustu kasutades
 description: Selles teemas kirjeldatakse kuidas Attractis talendikaustu luua ja seadistada.
-author: ''
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/22/2018
+ms.date: 04/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304043"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949340"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Kandidaatide otsimine talendikaustu kasutades
 
@@ -34,7 +34,7 @@ Värbajad ja personalijuhid saavad oma kandidaate Attracti talendikaustade funkt
 
 ## <a name="create-and-share-a-talent-pool"></a>Talendikaustade loomine ja jagamine
 
-Kõik kasutajad, kellel on värbaja, personalijuhi või Attracti administraatori roll, saavad luua talendikaustu. Talendikausta omanik saab kausta jagada teiste kasutajatega, nii et kasutajate grupid, eriti värbajad, saavad näha jagatud kandidaatide kaustu.
+Kõik kasutajad, kellel on värbaja, värbamisjuhi või Attracti administraatori roll, saavad luua talendikaustu. Talendikausta omanik saab kausta jagada teiste kasutajatega, nii et kasutajate grupid, eriti värbajad, saavad näha jagatud kandidaatide kaustu.
 
 Talendikausta kaasautorid saavad vaadata selles kaustas olevate kandidaatide loendit. Nad saavad kausta ka kandidaate lisada või neid sealt eemaldada.
 
@@ -44,7 +44,7 @@ Talendikausta loomiseks ja jagamiseks toimige järgmiselt.
 
     Vahekaart **Minu talendikaustad** näitab kõiki talendikaustu, millele teil on juurdepääs, ja nende üksikasju. Üksikasjad sisaldavad kausta omanikku ja seal olevate kandidaatide arvu.
 
-1. Valige ülevalt paremast servast **+ Uus** ja avage dialoogiboks **Talendikausta loomine**.
+1. Dialoogiboksi **Talendikausta loomine** avamiseks valige ülevalt paremast servast **Uus**.
 1. Sisestage talendikaustale kordumatu nimi.
 1. Kaustale kaasautorite lisamiseks leidke inimeste valija abil nende nimed ja lisage nad nimekirja. Talendikausta saate jagada ainult kasutajatega, kellel on värbaja, personalijuhi või Attracti administraatori roll.
 1. Talendikausta loomiseks valige **Lisa**.
@@ -78,26 +78,35 @@ Talendikausta omanik ja kaasautorid saavad talendikaustale kandidaate lisada, se
 
 ## <a name="search-and-view-candidate-profiles"></a>Kandidaatide profiilide otsimine ja vaatamine
 
-Talendikausta kasutajad saavad vaadata kandidaadi profiili, tema LinkedIni andmeid, seotud dokumente või kandidaadi kogu kandideerimise ajalugu. Võite ka kogu oma kandidaatide andmebaasist otsida mistahes kandidaati, kes on kunagi mistahes teie organisatsiooni tööle kandideerinud või kes on kunagi mistahes talendikausta lisatud.
+> [!NOTE] 
+> See funktsioon on praegu eelvaateversioonis. Kui soovite seda proovida, peate [selle sisse lülitama Attracti administraatori sätetega](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
 
-1. Kasutage otsinguvälja vahekaardi **Minu talendikaustad** ülaservas, et otsida tervest kandidaatide andmebaasist.
-1. Otsige erinevate profiili atribuutide seast. Valige otsingu atribuutide kategooria, looge otsingu päring, ja seejärel valige otsingu käivitamiseks parem noolenupp (**-\>**).
+Talendikaustad võimaldavad vaadata kandidaadi profiili, LinkedIni andmeid, seotud dokumente ja kandideerimisajalugu. Te saate otsida mis tahes talendikausta lisatud kõikide kandidaatide andmebaasist, sealhulgas suletud ja aktiivseid kandideerijaid.
 
-    Kandidaate saate otsida nende nime järgi, organisatsiooni järgi, kus nad töötavad, nende oskuste, hariduskäigu, praeguse ametinimetuse või välja teenitud kraadi järgi, kui need andmed on nende profiilil olemas.
+>[!NOTE]
+> Uute kandidaatide ja kandideerijate lisamise korral võib nende indekseerimine otsingu jaoks võtta kuni 15 minutit.
 
-    Saate luua ka otsingupäringu, mis kasutab kriteeriumina nendest atribuutidest kahte või enamat. Ühendage kriteeriumid kasutades operaatorit **ja**.
+Täiustatud otsinguga saate otsida kõiki kandidaatide dokumente ja filtreerida hõbemedalite, allikate, oskuste, hariduse jm järgi. Eelmises versioonis pidite määrama üksuse, millest soovisite otsida. Attract võimaldab nüüd otsida kõikidelt kandidaadiga seotud väljadelt ja järjestada tulemused.
 
-    Kui teie otsingu päringule leidub vastavaid kandidaate, loetletakse nad otsitulemustes.
+1. Kandidaatide andmebaasist otsimiseks sisestage vahekaardi **Talendikaustad** otsinguväljale soovitud otsingutekst. 
 
-1. Otsitulemuste piiritlemiseks võite otsingu päringut ülaservas olevat otsinguvälja kasutades värskendada.
+Saate sisestada kandidaadi nime või otsitavad atribuudid. Atribuutide eraldamiseks kasutage tühikut.
 
-    Teise võimalusena kasutage paremal asuvaid nutikaid filtreid. Neid nutikaid filtreid lisatakse dünaamiliselt otsingutulemuste põhjal.
+Otsingut saate kitsendada, kui muudate otsingupäringut või kasutate lehe vasakus servas asuvaid nutikaid filtreid.
 
-    Otsingu tulemused näitavad esimest 20 oskust, kooli, organisatsiooni ja nii edasi, mida kanditaatide loendis kõige sagedamini leitakse. Võite kõigile neile atribuutidele filtreid juurde lisada, et oma otsitulemusi veelgi piiritleda.
+Otsingutulemustes tõstetakse esile mitmeid atribuute, mis vastavad teie otsingupäringule. Valige teile huvi pakkuva kandidaadi profiili nägemiseks valige see kandidaat.
 
-1. Kui olete tuvastanud kandidaat, valige tema profiili vaatamiseks selle kandidaadi rida.
+### <a name="syntax-highlights"></a>Süntaksi esiletõst 
 
-Kõigil kasutajatel on kandidaatide profiilide üldvaade. Valige otsitulemuste komplektist või talendikaustast kandidaadi rida, et näha tema profiili. Vahekaart **Profiil** näitab mistahes andmeid oskuste, töökogemuse ja hariduse kohta, mida kandidaat on karjääriportaalist värskendanud.
+| Operaator | Kasutus                                                      | Näide              |
+|----------|------------------------------------------------------------|----------------------|
+| \*       | Alamstringide otsingud; saab kasutada kõikide kirjete tagastamiseks | Sisend: Mi\* <br></br> Tulemus: kõik kirjed, mille väljade alguses on „Mi”, nagu Microsoft, Micro systems, Midtown Enterprises või Middleton <br></br>Sisend: \* <br></br> Tulemus: kõik andmebaasis olevad kirjed |
+| “”       | Täpse vaste otsingud                                | Sisend: „Microsoft” <br></br> Tulemus: kõik kirjed, milles sisaldub „Microsoft”                    |
+
+>[!WARNING]
+> Ärge lülitage välja teenuse Common Data Service eksemplari asjakohasuse otsingut. Sellega lülitatakse välja Attracti otsing.
+
+Kõigil kasutajatel on kandidaatide profiilide üldvaade. Vahekaardil **Profiil** kuvatakse kõik andmed, mille kandidaat on oskuste, töökogemuse ja hariduse kohta karjääriportaali kaudu kandideerimisel sisestanud.
 
 - Saate vaadata kandidaadi kontaktandmeid. Saate vastavalt vajadusele andmeid ka muuta või uuendada, kasutades nuppu **Üksikasjade redigeerimine**.
 
@@ -109,7 +118,7 @@ Kõigil kasutajatel on kandidaatide profiilide üldvaade. Valige otsitulemuste k
 
     Dokumendi vaatamiseks valige dokumentide loendist dokumendi nimi. Saate vaadata rakenduses Microsoft Wordi dokumente, kasutades Microsoft Office 365. Saate dokumendid ka oma arvutisse alla laadida, kasutades iga dokumendi juures valikut **Laadi alla**.
 
-- Vahekaart **LinkedIn** näitab kandidaadi LinkedIni andmeid. Selle vahekaardi kasutamiseks peate ühendama kasutaja sätetest oma LinkedIn konto ja loodud peab olema teie keskkonna LinkedIn Recruiteri ühendus. Lisainfo saamiseks vt [Hankimine tööriistaga LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- Vahekaart **LinkedIn** näitab kandidaadi LinkedIni andmeid. Selle vahekaardi kasutamiseks peate kasutaja sätete abil ühendama oma LinkedIni konto ja loodud peab olema teie keskkonna LinkedIn Recruiteri ühendus. Lisateavet leiate artiklist [Hankimine tööriistaga LinkedIn Recruiter](./attract-linked-in-recruiter.md).
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Talendikaustast tööle kandidaatide lisamine
 
@@ -117,7 +126,7 @@ Saate lisada otsitulemustest või talendikaustast kandidaadi mistahes aktiivsele
 
 1. Leidke otsingu valikut kasutades kandidaat ja seejärel avage tema profiil. Teise võimalusena avage vahekaardilt **Minu talendikaustad** talendikaust, otsige oma talendikaustast kandidaat välja ja seejärel avage tema profiil.
 
-1. Valige kandidaadi profiililehe paremast ülaservast **+ Lisa tööle**. 
+1. Valige kandidaadi profiili lehe paremast ülaservast **Lisa tööle**. 
      
      Kuvatakse tööde loendit, mille värbamisrühma te kas värbajana või personalijuhina kuulute.
 

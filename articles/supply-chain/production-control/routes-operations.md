@@ -3,7 +3,7 @@ title: Protsessid ja operatsioonid
 description: See teema annab teavet protsesside ja operatsioonide kohta.
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 417fd960a43ad3fd023ea0c4a17be735b69743de
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
+ms.sourcegitcommit: dc90d56050d7353930d048476451542cce147e37
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333342"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "850664"
 ---
-# <a name="routes-and-operations"></a>Protsessid ja toimingud
+# <a name="routes-and-operations"></a>Protsessid ja operatsioonid
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,15 +55,14 @@ Kui aktiveerite tootmise juhtimise parameetrites ainult lihtsad protsessid, loob
 
 ### <a name="route-networks"></a>Protsessivõrgud
 
-Kui aktiveerite tootmise juhtimise parameetrites keerukamad protsessivõrgud, saate määratleda protsessid, millel on mitu lähtepunkti ja toimingut, mis võivad töötada paralleelselt.  
+Kui aktiveerite tootmise juhtimise parameetrites keerukamad protsessivõrgud, saate määratleda protsessid, millel on mitu lähtepunkti ja operatsiooni, mis võivad töötada paralleelselt.  
 
-[![Protsessivõrk](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Protsessi võrk](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
-**Märkused.**
-
--   Igal operatsioonil võib olla ainult üks järglasoperatsioon ja kogu protsess peab lõppema ühe operatsiooniga.
--   Pole mingit garantiid, et mitu operatsiooni, millel on sama järglasoperatsioon (nt operatsioonid 30 ja 40 eelmisel illustratsioonil) töötaksid tegelikult paralleelselt. Operatsioonide plaanimisele võib seada piirangud ressursside saadavus ja maht.
--   Operatsiooni numbrina ei saa kasutada numbrit 0 (null). See number on reserveeritud ja seda kasutatakse määramiseks, et protsessi viimasel operatsioonil ei ole järglasoperatsiooni.
+> [!NOTE]
+> -   Igal operatsioonil võib olla ainult üks järglasoperatsioon ja kogu protsess peab lõppema ühe operatsiooniga.
+> -   See ei taga, et mitu operatsiooni, millel on sama järglasoperatsioon (nt operatsioonid 30 ja 40 eelmisel illustratsioonil), töötaksid tegelikult paralleelselt. Operatsioonide plaanimisele võib seada piirangud ressursside saadavus ja maht.
+> -   Operatsiooni numbrina ei saa kasutada numbrit 0 (null). See number on reserveeritud ja seda kasutatakse määramiseks, et protsessi viimasel operatsioonil ei ole järglasoperatsiooni.
 
 ### <a name="parallel-operations"></a>Paralleelsed operatsioonid
 
@@ -88,7 +87,7 @@ Kui teil on vaja säilitada logi, milles salvestatakse iga protsessi kinnitaja, 
 ## <a name="operations"></a>Operations
 Operatsioon on tootmisprotsessi etapp. Finance and Operationsis on igal operatsioonil ID ja lihtne kirjeldus. Järgmistes tabelites on toodud tüüpilised töökojaoperatsioonide näited.
 
-| Toiming  | Kirjeldus        |
+| Operatsioon  | Kirjeldus        |
 |------------|--------------------|
 | PipeCut    | Torude lõikamine       |
 | TIGweld    | TIG keevitamine        |
@@ -97,7 +96,7 @@ Operatsioon on tootmisprotsessi etapp. Finance and Operationsis on igal operatsi
 
 Operatsiooni tööatribuudid, nagu seadistusaeg ja käitusaeg, ressursivajadused, kuluarvestuse andmed ja tarbimise arvestus, määratakse operatsiooni seoses. (Lisateavet operatsiooni seoste kohta leiate järgmisest jaotisest.)
 
-## <a name="operation-relations"></a>Toimingu seosed
+## <a name="operation-relations"></a>Operatsiooni seosed
 Operatsiooni seoses hallatakse järgmisi operatsiooni tööatribuute.
 
 -   Kulukategooriad
@@ -122,7 +121,8 @@ Samuti saate määrata, et operatsiooni seos on asukohapõhine. Sel viisil võiv
 
 Operatsiooni seosed annavad protsesside määratlemisel palju paindlikkust. Lisaks aitab vaikeatribuutide määratlemise võimalus vähendada koondandmete hulka, mida tuleb hallata. Kuid see paindlikkus tähendab ka seda, et peate olema teadlik kontekstist, milles operatsiooni seost muudate.  
 
-**Märkus.** Kuna operatsiooni atribuudid on salvestatud operatsiooni seostesse operatsiooni ja protsessi kohta, on kõigil sama operatsiooni juhtumitel (nt Koostamine) sama seadistusaeg, käitusaeg, ressursivajadused jne. Seega kui kaks operatsiooni juhtumit peavad toimuma samas protsessis, kuid olema erineva käitusajaga, siis tuleb luua kaks eraldi operatsiooni, nt Koostamine1 ja Koostamine2.
+> [!NOTE]
+> Kuna operatsiooni atribuudid on salvestatud operatsiooni seostesse iga protsessi iga operatsiooni jaoks, on kõigil sama operatsiooni juhtumitel (nt assembler) sama seadistusaeg, käitusaeg ja ressursivajadused. Seega kui kaks operatsiooni juhtumit peavad toimuma samas protsessis, kuid peavad olema erineva käitusajaga, siis tuleb luua kaks eraldi operatsiooni, nt Assembler1 ja Assembler2.
 
 ### <a name="modifying-product-specific-routes"></a>Tootepõhiste protsesside muutmine
 
@@ -132,7 +132,8 @@ Lehel **Protsess** saate muuta operatsiooni tööatribuute, nt käitusaega või 
 
 Saate luua ka käsitsi operatsiooni, mis on protsessi ja väljastatud toote põhine, kasutades funktsiooni **Seose kopeerimine ja redigeerimine**.  
 
-**Märkus.** Kui lisate lehel **Protsess** protsessile uue operatsiooni, luuakse operatsiooni seos ainult praegusele väljastatud tootele. Seega kui protsessi kasutatakse ka teiste väljastatud toodete valmistamiseks, siis puudub nende väljastatud toodete jaoks kehtiv operatsioon ja protsessi ei saa enam nende väljastatud toodete jaoks kasutada.
+> [!NOTE]
+> Kui lisate lehel **Protsess** protsessile uue operatsiooni, luuakse operatsiooni seos ainult praegusele väljastatud tootele. Seega kui protsessi kasutatakse ka teiste väljastatud toodete valmistamiseks, siis puudub nende väljastatud toodete jaoks kehtiv operatsioon ja protsessi ei saa enam nende väljastatud toodete jaoks kasutada.
 
 ### <a name="maintaining-operation-relations-per-route"></a>Operatsiooni seoste haldamine protsessi kohta
 
@@ -228,17 +229,32 @@ Kui te operatsiooni ressursivajaduste hulgas operatsiooniressurssi või ressursi
 -   **Partii** – partii maht arvutatakse operatsiooni seose teabe abil. Siis saab arvutada tellimuse koguse põhjal partiide arvu ja protsessi aja.
 -   **Ressursi partii** – see valik on põhimõtteliselt sama, mis valik **Partii**. Kuid arvutus sisaldab operatsiooniressursi välja **Partii maht**. Seega on aeg ressursist sõltuv.
 
+### <a name="set-up-route-groups"></a>Saate häälestada protsessigruppe.
 
-<a name="additional-resources"></a>Lisaressursid
---------
+Saate määratleda protsessigruppe ja selle protsessi või töötüüpide seadistust, kui valite **Tootmise juhtimine > Seadistus > Protsessid > Protsessigrupid**. Iga protsessigrupi protsessi/töötüübi jaoks saate valida või tühistada järgmisi suvandeid.
 
-[Kooslused ja valemid](bill-of-material-bom.md)
+- **Aktiveerimine** – valige see suvand valitud töötüübi puhul arvutuste ja plaanimise lubamiseks ning töö tagasiside saamiseks tööde plaanimise käitamisel. Töötüübi lubamiseks peate valima selle suvandi ning seejärel valima selle töötüübi jaoks ülejäänud suvandid. Kui aktiveerimine pole valitud, siis ei lubata seda töötüüpi vaatamata muude suvandite valimisele. 
+- **Töö haldus** – valige see suvand, et kaasata töötüüp tööde juhtimisse tööde plaanimise käivitamisel. 
+- **Tööaeg** – valige see suvand töötüübi plaanimiseks operatsiooniressursi jaoks määratletud töögraafiku järgi, muidu kasutatakse Gregoriuse kalendrit. Tööaega saab planeerida kas Gregoriuse kalendri või määratletud töökalendri järgi. Kui valite selle suvandi, on planeerimise aluseks määratletud töögraafikut. Lisaks planeeritakse vastava tüübiga töö alates selle alguskuupäevana määratletud kuupäeva keskööst.
+- **Võimsus** – valige see suvand võimsuse reserveerimiseks töötüübi jaoks tööde plaanimise käitamisel. Selle suvandi valimisel reserveeritakse võimsus valitud töötüübi puhul planeerimise käitamisel. See annab teile ülevaate, millised töötüübid igas protsessigrupis kasutavad operatsiooniressursse. Näiteks olukorras, kus kuivatusressursid on ressursside kitsaskoht, tuleb need ressursid määrata kitsaskohtadeks. Ooteaja töötüüpidele määratud kuivatusoperatsioonid reserveerivad kuivatusressursid. 
 
-[Tootmisprotsessis kasutatud kulukategooriad](../cost-management/cost-categories-used-production-routings.md)
+Iga töötüübi puhul peate selle kõigepealt aktiveerima või inaktiveerima. Inaktiveeritud olekus ei võeta arvesse ühtegi muud seadistust (töö haldus, tööaeg ja võimsus), kuna töötüüp pole aktiivne. 
 
-[Ressursi võimalused](resource-capabilities.md)
+Töötüüpide seast leiate valiku Kattumine. Kattumine võimaldab eri töösid samal ajal teha. Kui tööd kattuvad, saab ressursse kasutada, kuid neid ei saa konkreetsete tööde jaoks reserveerida.
+Seega, kui valiku Kattumine jaoks on valitud aktiveerimine, siis ei mõjuta ülejäänud sätted (töö haldus, tööaeg ja võimsus) protsessigruppi üldse. 
 
-[Digitaalallkirja ülevaade](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+> [!NOTE]
+> Versiooni täiendamisel võib ilmneda järgmine tõrge: **„Plaanimismootori käivitamisel ilmnes CRL-tõrge.”**. Kui see teade kuvatakse, minge lehele **Protsessigrupid** ja tühistage protsessidel, mille jaoks olete aktiveerinud valiku **Kattumine**, suvandid **Töö haldus**, **Tööaeg** ja **Võimsus**. 
+
+## <a name="additional-resources"></a>Lisaressursid
+
+- [Kooslused ja valemid](bill-of-material-bom.md)
+
+- [Tootmisprotsessis kasutatud kulukategooriad](../cost-management/cost-categories-used-production-routings.md)
+
+- [Ressursi võimalused](resource-capabilities.md)
+
+- [Digitaalallkirja ülevaade](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
 
 
 

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353812"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842718"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
@@ -93,8 +93,8 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 614 | Kliendi tellimuse redigeerimine | Kutsuge valitud tellimus tagasi, et seda saaks kassas muuta. | Ei | Ei | Ei | Ei | Ei |
 | 615 | Redigeeri pakkumist | Kutsuge valitud pakkumine tagasi, et seda saaks kassas muuta. | Ei | Ei | Ei | Ei | Ei |
 | 518 | Kulukontod | Sularahasahtlist juhuslike kulutuste jaoks eemaldatud raha kirjendamine. | Jah | Jah | Jah | Jah | Ei |
-| 919 | Laiendatud sisselogimine | Määrake või eemaldage vöötkoodi skannimise või kaarditõmbega sisselogimise õigus. | Jah | Jah | Jah | Ei | Ei |
-| 1201 | Sularaha sissemakse | See operatsioon võimaldab kasutajal praegusesse sahtlisse või vahetusse raha lisada. | Jah | Jah | Jah | Jah | Ei |
+| 919 | Laiendatud sisselogimine | Määrake või eemaldage vöötkoodi skannimise või kaarditõmbega sisselogimise õigus. | Jah | Jah | Jah | Jah | Ei |
+| 1201 | Vahetusraha kirje | See operatsioon võimaldab kasutajal praegusesse sahtlisse või vahetusse raha lisada. | Jah | Jah | Jah | Jah | Ei |
 | 1218 | Ava perifeerseade sunniviisiliselt | Operatsiooni kasutatakse süsteemisiseselt kassa välisseadmete avamiseks. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Ei |
 | 520 | Kinkekaardi saldo | Näitab kinkekaardi saldot. | Jah | Jah | Ei | Ei | Ei |
 | 708 | Seadme inaktiveerimine | Inaktiveerige praegune seade, et seda ei saaks kasutada kassaaparaadina. | Ei | Ei | Ei | Ei | Ei |

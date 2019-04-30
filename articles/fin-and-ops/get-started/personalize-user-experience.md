@@ -3,7 +3,7 @@ title: Kasutuskogemuse isikupärastamine
 description: Selles teemas selgitatakse, kuidas isikupärastada rakendust Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363472"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975847"
 ---
 # <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Selles teemas selgitatakse, kuidas isikupärastada rakendust Microsoft Dynamics 365 for Finance and Operations.
 
@@ -47,6 +48,8 @@ Leht **Kasutaja suvandid** sisaldab mitut süsteemiülest sätet praegusele kasu
 - **Eelistused** – saate valida vaikeväärtused, mida kasutatakse iga kord, kui Finance and Operationsi avate. Väärtused hõlmavad ettevõtet, avalehte ja kuvamise/redigeerimise vaikerežiimi. (Kuva-/redigeerimisrežiim määrab, kas leht on vaatamiseks lukus või avaneb iga kord redigeerimiseks, kui selle avate.) Sellel vahekaardil on ka suvandid keele, ajavööndi ning kuupäeva-, kellaaja- ja numbrivormingu valimiseks. Samuti sisaldab see vahekaart mitmesuguseid eelistusi, mis erinevad olenevalt väljaandest.
 - **Konto** – saate kohandada oma kasutajanime ja muid kontoga seotud suvandeid.
 - **Töövoog** – saate valida seotud suvandeid.
+
+Lisaks kasutajasätete muutmisele saate vaadata ja kustutada ka oma kasutusandmed ning isikupärastamisi, klõpsates nuppu **Kasutusandmed**. Rakenduse kasutamisel salvestatakse paljud teie valikud, et muuta süsteemi kasutamine tulevikus teie jaoks lihtsamaks. Süsteemi lehtedele tehtud isiklikke muudatusi võimaldab teil vaadata ja hallata eelkõige vahekaart **Isikupärastamine**. Sellel vahekaardil on võimalik lähtestada ka funktsioonide viiktekste ehk hüpikaknaid, mis tutvustavad teile toote uusi funktsioone (saadaval platvormivärskenduses 26) nii, et teid teavitatakse uuesti funktsioonidest, millega te olete varem juba kokku puutunud.  
 
 ## <a name="implicit-personalizations"></a>Varjatud isikupärastamised
 
@@ -160,7 +163,7 @@ Administraatori õigustega kasutaja saab lehel **Isikupärastamine** hallata ka 
 
 - **Rakenda** – saate importida või valida vähemalt ühe kasutaja isikupärastamise. Isikupärastamise rakendamiseks ühele või mitmele kasutajale valige esmalt roll ja selle rolliga kasutajad. Seejärel valige kas olemasolev isikupärastamine valitud kasutajatele rakendamiseks või importige isikupärastamise fail. Isikupärastamine kinnitatakse ja rakendatakse valitud kasutajatele järgmisel korral, kui nad valitud lehe avavad.
 - **Eemalda** – saate eemaldada vähemalt ühe kasutaja lehe või tööruumi kõik isikupärastamised. Esmalt valige leht või tööruum, et näha seda isikupärastanud kasutajate loendit. Seejärel valige kasutajad, kelle isikupärastamised tuleb sellelt lehelt või sellest tööruumist eemaldada, ja valige käsk **Eemalda**. Kõik isikupärastamised, mille valitud kasutajad on valitud lehele või tööruumile rakendanud, kustutatakse. Seda tegevust ei saa tagasi võtta. Kui aga isikupärastamine on lehele või tööruumile salvestatud, saab selle isikupärastamise uuesti importida.
-- **Haldur kasutaja kohta** – saate valida kasutaja, et kuvada loend lehtedest, mille ta on isikupärastanud. Seejärel saate lubada või keelata valitud kasutaja võimaluse kasutada isikupärastamisi kindlatel lehtedel või terves süsteemis. Samuti saate valitud kasutaja jaoks isikupärastamise importida, eksportida või eemaldada.
+- **Haldur kasutaja kohta** – saate valida kasutaja, et kuvada loend lehtedest, mille kasutaja on isikupärastanud. Seejärel saate lubada või keelata valitud kasutaja võimaluse kasutada isikupärastamisi kindlatel lehtedel või terves süsteemis. Samuti saate valitud kasutaja jaoks isikupärastamise importida, eksportida või eemaldada. Peale selle saate valitud kasutaja puhul lähtestada funktsioonide viiktekste, millega kuvatakse varem kõrvale jäetud hüpikaknaid, mis tutvustasid uusi funktsioone, uuesti järgmine kord, kui kasutaja nende funktsioonidega kokku puutub.   
 - **Süsteem** – saate ajutiselt keelata süsteemis olevad kõigi kasutajate kõik isikupärastamised. Sel juhul isikupärastamised kustutatakse. Kõik lehed lähtestatakse kõigi kasutajate puhul vaikeolekusse. Kui lubate isikupärastamise hiljem uuesti, rakendatakse kõik isikupärastamised uuesti. Saate ka kõigi kasutajate isikupärastamised süsteemist jäädavalt kustutada. Kustutatud isikupärastamisi ei ole võimalik taastada. Seega veenduge enne seda ülesannet, et oleksite eksportinud kõik isikupärastamised, mida võite soovida hiljem importida.
 
 ## <a name="personalization-of-inventory-dimensions"></a>Varude dimensioonide isikupärastamine.

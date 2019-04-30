@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773273"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950400"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Jaemüügikanalite fiskaalüksuse integratsiooni ülevaade
 
@@ -81,12 +81,37 @@ Fiskaalüksuse integratsiooni raamistik pakub fiskaalüksuse registreerimise aja
 
 Valikud **Jäta vahele** ja **Märgi registreerituks** võimaldavad teabekoodidel talletada tõrke kohta teatud teavet, nagu tõrke põhjus või fiskaalüksuse registreerimise vahelejätmise või kande registreerituks märkimise põhjendus. Lisateavet tõrketöötluse parameetrite seadistamise kohta vt teemast [Tõrketöötluse sätete määramine](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
+### <a name="optional-fiscal-registration"></a>Valikuline fiskaalüksuse registreerimine
+
+Fiskaalüksuse registreerimine võib olla kohustuslik mõne toimingu jaoks, aga valikuline teiste jaoks. Näiteks võib kohustuslik olla regulaarsete müükide ja tagastuste fiskaalüksuse registreerimine, aga kliendi deposiitidega seotud toimingute fiskaalüksuse registreerimine võib olla valikuline. Sellisel juhul peaks müügi fiskaalüksuse registreerimise tegemata jätmine keelama edaspidised müügid, kuid kliendi deposiidi fiskaalüksuse registreerimise tegemata jätmine ei tohiks edaspidiseid müüke keelata. Kohustuslike ja valikuliste toimingute eristamiseks soovitame nendega tegeleda läbi eri dokumendipakkujate ning seadistada nende pakkujate jaoks fiskaalüksuse registreerimise protsessis eraldi etapid. Parameeter **Jätka tõrke korral** peab olema lubatud mis tahes etapi jaoks, mis on seotud valikulise fiskaalüksuse registreerimisega. Lisateavet tõrketöötluse parameetrite seadistamise kohta vt teemast [Tõrketöötluse sätete määramine](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
+### <a name="manually-running-fiscal-registration"></a>Fiskaalüksuse registreerimise käsitsi käivitamine
+
+Kui kande või sündmuse fiskaalüksuse registreerimine on pärast tõrget edasi lükatud (nt kui operaator valis tõrketöötluse dialoogiboksis suvandi **Tühista**), saate fiskaalüksuse registreerimist käsitsi uuesti alustada, käivitades vastava toimingu. Lisateavet leiate teemast [Edasi lükatud fiskaalüksuse registreerimise käsitsi käivitamise lubamine](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+
+### <a name="fiscal-registration-health-check"></a>Fiskaalüksuse registreerimise seisundikontroll
+
+Fiskaalüksuse registreerimise seisundikontrolli protseduur kontrollib fiskaalse seadme või teenuse saadavust konkreetsete sündmuste tekkimisel. Kui fiskaalüksuse registreerimist ei saa lõpule viia, teavitatakse sellest operaatorit ette.
+
+Kassa käivitab seisundikontrolli järgmiste sündmuste tekkimisel.
+
+- Avatakse uus kanne.
+- Peatatud kanne kutsutakse tagasi.
+- Müügi- või tagastuskanne viiakse lõpule.
+
+Kui seisundikontroll nurjub, kuvab kassa seisundikontrolli dialoogiboksi. Selles dialoogiboksis on järgmised nupud.
+
+- **OK** – selle nupuga saab operaator eirata seisundikontrolli tõrget ja jätkata toimingu töötlemist. Operaatorid saavad seda nuppu valida ainult siis, kui luba **Luba seisundikontrolli tõrge vahele jätta** on nende jaoks lubatud.
+- **Tühista** – kui operaator valib selle nupu, tühistab kassa viimase toimingu (nt ei lisata kaupa uude kandesse).
+
+> [!NOTE]
+> Seisundikontroll käivitatakse ainult siis, kui praegune toiming nõuab fiskaalüksuse registreerimist ja parameeter **Jätka tõrke korral** on fiskaalüksuse registreerimise protsessi selles etapis keelatud. Lisateavet leiate teemast [Tõrketöötluse sätete määramine](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Fiskaalvastuse talletamine fiskaalkandesse
 
 Kui kande või sündmuse fiskaalüksuse registreerimine õnnestus, luuakse kanali andmebaasi fiskaalkanne ja lingitakse algse kande või sündmusega. Samamoodi, kui nurjunud fiskaalüksuse registreerimisel valitakse suvand **Jäta vahele** või **Märgi registreerituks**, talletatakse see teave fiskaalkandesse. Fiskaalkandel on fiskaalseadme või -teenuse fiskaalvastutus. Kui fiskaalüksuse registreerimisprotsess koosneb mitmest etapist, luuakse fiskaalkanne protsessi iga etapi kohta, mille tulemuseks on õnnestunud või nurjunud registreerimine.
 
-Fiskaalkanded edastatakse kaupluse haldusse *P-tööga* koos jaemüügikannetega. Lehe **Kaupluse kanded** kiirkaardil **Fiskaalkanded** saate vaadata jaemüügikannetega lingitud fiskaalkandeid.
-
+Fiskaalkanded edastatakse Retail Headquartersisse *P-tööga* koos jaemüügikannetega. Lehe **Kaupluse kanded** kiirkaardil **Fiskaalkanded** saate vaadata jaemüügikannetega lingitud fiskaalkandeid.
 
 Fiskaalkanne talletab järgmised üksikasjad.
 
@@ -109,12 +134,13 @@ Fiskaalüksuse integratsiooni funktsioon toetab integreeritud fiskaalseadme või
 
 Retailiga väljastatud Retail SDK-s on praegu saadaval järgmised fiskaalüksuse integratsiooni näidised.
 
-- [Fiskaalprinteri integratsiooni näidis Itaalia jaoks](emea-ita-fpi-sample.md)
-- [Fiskaalprinteri integratsiooni näidis Poola jaoks](emea-pol-fpi-sample.md)
+- [Fiskaalprinteri integratsiooni näide Itaalia jaoks](emea-ita-fpi-sample.md)
+- [Fiskaalprinteri integratsiooni näide Poola jaoks](emea-pol-fpi-sample.md)
+- [Fiskaalüksuse registreerimisteenuse integratsiooni näide Austria jaoks](emea-aut-fi-sample.md)
+- [Fiskaalüksuse registreerimisteenuse integratsiooni näide Tšehhi Vabariigi jaoks](emea-cze-fi-sample.md)
 
 Retail SDK-s on saadaval ka järgmised fiskaalüksuse integratsiooni funktsioonid, mis aga praegu ei kasuta fiskaalüksuse integratsiooni raamistikku. Nende funktsioonide migreerimine fiskaalüksuse integratsiooni raamistikku on kavandatud tulevastesse värskendustesse.
 
 - [Digitaalallkiri Prantsusmaa jaoks](emea-fra-cash-registers.md)
 - [Digitaalallkiri Norra jaoks](emea-nor-cash-registers.md)
 - [Juhtseadme integratsiooni näidis Rootsi jaoks](./retail-sdk-control-unit-sample.md)
-

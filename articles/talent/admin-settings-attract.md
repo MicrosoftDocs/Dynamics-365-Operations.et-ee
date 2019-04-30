@@ -1,7 +1,7 @@
 ---
 title: Administraatori sätted Attractis
 description: Selles teemas kirjeldatakse, kuidas lubada Attractis organisatsioonidele ja kasutajatele funktsioone.
-author: ''
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0de215103306ef7115ba390b1b4855179979c77b
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304041"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856366"
 ---
 # <a name="admin-settings-in-attract"></a>Administraatori sätted Attractis
 [!include[banner](../includes/banner.md)]
@@ -36,11 +36,11 @@ Sisestage kuvatav ettevõtte nimi ja lisage ettevõtte logo. Kuvatavat nime ja l
 
 ## <a name="linkedin-integration"></a>LinkedIni integreerimine
 
-Häälestage integreerimine LinkedIni värbajasüsteemi ühendusega (Recruiter System Connect – RSC). Pärast ühenduse loomist LinkedIniga LinkedIni sisselogimisteabe abil, saate sünkroonida kandidaadi LinkedIni profiili, avaldusi, töövestluste tagasisidet ja värbamistöörühma märkmeid. Vajalik on LinkedIni värbaja täislitsents. LinkedIni värbaja kohta leiate lisateavet spikriartiklist [Recruiter System Connect (RSC) – FAQ](https://www.linkedin.com/help/recruiter/answer/90483).
+Seadistage integreerimine lahendusega LinkedIn Recruiter System Connect (RSC). Pärast ühenduse loomist LinkedIniga LinkedIni sisselogimisteabe abil, saate sünkroonida kandidaadi LinkedIni profiili, avaldusi, töövestluste tagasisidet ja värbamistöörühma märkmeid. Vajalik on LinkedIni värbaja täislitsents. Platvormi LinkedIn Recruiter kohta leiate lisateavet spikriartiklist [Recruiter System Connect (RSC) – FAQ](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>Kasutajaõigused
 
-Määrake oma organisatsioonis olevatele kasutajatele rolle. Kasutada on järgmised rollid: **Administraator**, **Värbaja**, **Personalijuht** ja **Kirjutuskaitstud**. Kasutajaõiguste kohta leiate lisateavet artiklist [Security and role management in Attract](./security-attract.md).
+Määrake oma organisatsioonis olevatele kasutajatele rolle. Kasutada on järgmised rollid: **Administraator**, **Värbaja**, **Personalijuht** ja **Kirjutuskaitstud**. Kasutajaõiguste kohta leiate lisateavet artiklist [Turvalisus ja rollihaldus Attractis](./security-attract.md).
 
 ## <a name="feature-management"></a>Funktsioonide haldus
 
@@ -48,11 +48,11 @@ Uute funktsioonide lisamisel võidakse need avaldada avalikus eelversioonis. Ava
 
 ## <a name="template-management"></a>Mallihaldus
 
-Protsessimall sisaldab kõiki tegevusi, mis peaksid olema tööle värbamise protsessi osad. Teie organisatsioon võib lubada värbamisprotsessi malle luua kõigil töörühma liikmetel või ainult administraatoritel. Töörühma liikmetele värbamisprotsessi mallide loomise lubamiseks lülitage sisse mallihalduse funktsioon. Protsessimallide kohta leiate lisateavet artiklist [Process templates in Attract](./process-templates-attract.md).
+Protsessimall sisaldab kõiki tegevusi, mis peaksid olema tööle värbamise protsessi osad. Teie organisatsioon võib lubada värbamisprotsessi malle luua kõigil töörühma liikmetel või ainult administraatoritel. Töörühma liikmetele värbamisprotsessi mallide loomise lubamiseks lülitage sisse mallihalduse funktsioon. Protsessimallide kohta leiate lisateavet artiklist [Protsessimallid Attractis](./process-templates-attract.md).
 
 ## <a name="email-template-settings"></a>E-kirja malli sätted.
 
-Organisatsioonid saavad luua meilimalle mitmesuguste olukordade jaoks. Võimalik on valida meilimallidele lisatav päisepilt. Valitud päis lisatakse seejärel kõigile meilimallidele. Malli jalusesse saate lisada oma organisatsiooni privaatsusavalduse ja teadetega seotud kasutustingimuste lingi. Lisateavet leiate artiklist [Email templates in Attract](./email-templates.md).
+Organisatsioonid saavad luua meilimalle mitmesuguste olukordade jaoks. Võimalik on valida meilimallidele lisatav päisepilt. Valitud päis lisatakse seejärel kõigile meilimallidele. Malli jalusesse saate lisada oma organisatsiooni privaatsusavalduse ja teadetega seotud kasutustingimuste lingi. Lisateavet leiate artiklist [Meilimallid Attractis](./email-templates.md).
 
 ## <a name="offer-process"></a>Pakkumise protsess
 
@@ -67,4 +67,4 @@ Samuti saate konfigureerida kandidaadi kogemusega seotud suvandeid. Näiteks ük
 
 Samuti saate määrata pakkumistele aegumiskuupäeva ja seda jõustada. Kui määrate suvandi **Nõutud aegumiskuupäev kõigi pakkumiste puhul** olekuks **Jah**, aeguvad pakkumised määratud tundide või päevadega.
 
-Pakkumiste haldamise kohta leiate lisateavet artiklist [Set up offer management](./offer-setup.md).
+Pakkumiste haldamise kohta leiate lisateavet artiklist [Pakkumiste halduse seadistamine](./offer-setup.md).

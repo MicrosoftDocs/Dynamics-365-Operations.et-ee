@@ -1,9 +1,9 @@
 ---
 title: Hankijaarvete ülevaade
 description: Selles artiklis antakse üldteavet hankija arvete kohta. Hankija arved on maksetaotlused saadud toodete ja teenuste eest. Hankija arved võivad esindada kehtivate teenuste arvet või need võivad põhineda kindlate kaupade ja teenuste ostutellimustel.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,24 @@ ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e563688b46c556ffbf46f9d20d9b9f248d26e02c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329754"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975798"
 ---
 # <a name="vendor-invoices-overview"></a>Hankijaarvete ülevaade
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Selles artiklis antakse üldteavet hankija arvete kohta. Hankija arved on maksetaotlused saadud toodete ja teenuste eest. Hankija arved võivad esindada kehtivate teenuste arvet või need võivad põhineda kindlate kaupade ja teenuste ostutellimustel. 
 
-<a name="vendor-invoices"></a>Hankijaarved
----------------
+## <a name="vendor-invoices"></a>Hankijaarved
 
 Ostutellimuse hankija arve on arve, mis koostatakse toodete või teenuste vastuvõtmisel hankijale esitatud ostutellimuse põhjal. Hankijaarve sisaldab päist ning kaupade ja teenuste jaoks vähemalt üht rida. Hankijaarve viib lõpule tsükli ostutellimusest toote sissetulekuni ja omakorda hankijaarveni. 
 
@@ -79,10 +79,17 @@ Lisainfot vt teemast [Hankija arve kirjendamine ja sissetulnud kogusega vastenda
 
 Saate töötada mitme arvega samal ajal ja pärast need kõik korraga sisestada. Kui teil on vaja luua mitu arvet, kasutage lehte **Ootel hankija arved**. Kui peate sisestama ja printima mitu hankija arvet, kasutage arve kinnitamise töölehte. Kui kasutate arve kinnitamise töölehte, tuleb ostutellimusele sisestada vähemalt üks toote sissetulek ja ostutellimuse arve tuleb sisestada arveregistrisse. Arve finantsiline teave tuleb arvelt, mis sisestati registrisse.
 
+## <a name="recovering-vendor-invoices-that-are-in-use"></a>Kasutuses olevate hankija arvete taastamine
 
-Lisateavet vt 
+Kui hankija arve on kasutuses, ei saa teine kasutaja seda muuta. Siiski, võib arve olek vahel näidata, et arve on kasutuses, isegi kui seda aktiivselt ei muudeta. Näiteks võib rakendus olla peatunud arve muutmise ajal, või kasutaja võis arve kogemata rakenduses lahti jätta.
 
- - [Hankija arvepoliitikate seadistamine](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+Saate kasutada lehte **Taasta hankija arved**, et taastada või väljastada hankija arveid, mis on olnud kasutuses rohkem kui neli tundi, nii et neid saaks muuta. Saate avada selle lehe **Perioodiline ülesanne** alt või paani tööruumis **Hankija arved**. Kui arve on taastatud, on see lehel **Hankija arve** muutmiseks saadaval.
+
+Saate lehele **Hankija arvete taastamine** juurdepääsu ainult siis, kui teile on määratud **Kasutuses olevate hankija arvete taastamise** kohustus ja õigus. Lisaks peab parameeter **Luba hankija arvete taastamine** lehel **Ostureskontro parameetrid** olema sisse lülitatud.
+
+## <a name="additional-resources"></a>Lisaressursid
+
+ - [Hankija arve poliitikate seadistamine](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [Arve põhiandmed ostureskontrosse hankija arve abil](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 

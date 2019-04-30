@@ -1,30 +1,30 @@
 ---
 title: Tööde loomine, kinnitamine ja sisestamine Attractis
 description: Selles teemas kirjeldatakse Attarcti töö elemente. Lisaks selgitatakse, kuidas tööd luua.
-author: josaw
+author: hasrivas
 manager: AnnBe
-ms.date: 02/26/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
-ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
+ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "772807"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969345"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Tööde loomine, kinnitamine ja sisestamine Attractis
 
@@ -44,7 +44,7 @@ Vahekaart **Töö üksikasjad** sisaldab üksikasju töökohustuste ja atribuuti
 
 Välja **Vabade kohtade arv** vaikeväärtuseks **1**. Kuid te saate selle väärtust muuta. Kui tööle on pakkumine koostatud, vähendatakse välja **Vabade kohtade arv** väärtust.
 
-Kui halduskeskuses on ametikoha haldamine sisse lülitatud, on saadaval otsing **Värskenda ametikohti**. See otsing loeb teenuse Common Data Service for Apps üksust JobPosition ja annab vastuseks loendi ametikohtadest, mida selle töö puhul saab valida. Kui valitud ametikohtade arv ületab vabade ametikohtade arvu, kuvatakse hoiatus. Samuti kuvatakse hoiatus, kui ametikohta kasutatakse mitme tööga.
+Kui halduskeskuses on ametikoha haldamine sisse lülitatud, on saadaval otsing **Värskenda ametikohti**. See otsing loeb teenuse Common Data Service üksust JobPosition ja annab vastuseks loendi ametikohtadest, mida selle töö puhul saab valida. Kui valitud ametikohtade arv ületab vabade ametikohtade arvu, kuvatakse hoiatus. Samuti kuvatakse hoiatus, kui ametikohta kasutatakse mitme tööga.
 
 > [!NOTE]
 > Ametikoha haldus on saadaval tervikliku värbamise lisandmooduli korral.
@@ -74,9 +74,7 @@ Lisainfot tegevuste kohta, mida värbamisprotsessile lisada saab, leiate artikli
 
 ## <a name="postings"></a>Sisestamised
 
-Pärast töö aktiveerimist saab selle sisestada. Ainult värbajad ja administraatorid saavad töid sisestada. Töö saab sisestada kas rakendusse Talent Careers (Microsoft Dynamics 365 for Talent karjäärisait) või LinkedIni. 
-
-Attracti meeskond töötab pidevalt töökuulutuste vahendajatega koostöös. See loend laieneb aja jooksul.
+Pärast töö aktiveerimist saab selle sisestada. Ainult värbajad ja administraatorid saavad töid sisestada. Töö saab sisestada kas rakendusse Talent Careers (Microsoft Dynamics 365 for Talent karjäärisait) või LinkedIni. Attracti meeskond töötab pidevalt töökuulutuste vahendajatega koostöös. See loend laieneb aja jooksul. Töö sisestamisel ainult sisesena vajavad kandidaadid töö vaatamiseks ja sellele kandideerimiseks AAD kontot. Kui töö on loetletud avalikuna, saavad kandidaadid töid vaadata ja neile kandideerida kõiki autentimissuvandeid kasutades. 
 
 Töösisestuste kohta lisainfo saamiseks vt [Karjäärisaidi funktsionaalsus Attractis](career-site.md).
 
@@ -137,16 +135,21 @@ Pärast töö salvestamist saab selle kinnitamiseks esitada. Järgnev tabel loet
 
 Tööde loendis, saate filtreerida tööde olekuid.
 
-Kinnitusi saab saata ettevõttes mis tahes Microsoft Azure Active Directory (Azure AD) kasutajale. Kinnitused saadakse paralleelselt kõigile inimestele, kes on kinnitajate loendis. Pärast töö kinnitamist saab selle aktiveerida.
+Kinnitusi saab saata ettevõttes mis tahes Microsoft Azure Active Directory (Azure AD) kasutajale. Kinnitused saadakse paralleelselt kõigile inimestele, kes on kinnitajate loendis. Kõik kinnitajad peavad töö heaks kiitma, enne kui see saab edasi liikuda. Kui üks kinnitaja lükkab töö tagasi, kuvatakse töö olekuna **Tagasi lükatud**. Pärast töö kinnitamist saab selle aktiveerida.
 
-Kinnitajatena loetletud inimesed saavad Attracti teatise, mis annab teada, et neil on üksus kinnitamiseks. Kinnitamise üksus ilmub ka armatuurlaua jaotisesse **Teile määratud**. Pärast seda, kui keegi töö aktsepteerib või kinnitab, saab värbamistöörühm teatise. Lõpuks saab värbamistöörühm teatise, kui töö on kinnitatud.
+Kui kasutaja redigeerib tööd, kui see on kinnitatud, kuid mitte aktiveeritud, lähtestatakse töö olekule **Mustand** ja töö tuleb uuesti kinnitamiseks esitada. Kui kinnitatud töö on aktiveeritud, ei saa seda enam redigeerida.
+
+Kinnitajatena loetletud inimesed saavad Attracti teatise ja meili, mis annab teada, et neil on üksus kinnitamiseks.  Meilis saavad kinnitajad klõpsata linki töö avamiseks, üksikasjade ülevaatamiseks ja kas kinnitamiseks või tagasilükkamiseks. Kui töö olekuks on seatud **Kinnitatud** või **Tagasi lükatud**, teavitatakse esitajat Attractis ja talle saadetakse meil. Samuti saavad kinnitajad meeldetuletusmeili, kui nad pole kinnitustaotlusele 24 tunni jooksul vastanud.
+
+> [!NOTE]
+> saate luua kinnitusmeilide jaoks kohandatud meilimalle. Lisateabe saamiseks vt teemat [Meilimallide loomine ja haldamine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Töö loomine
 
 Töö loomiseks toimige järgmiselt.
 
 1. Minge valikusse **Tööd**.
-2. Valige **Uus**.
+2. Valige suvand **Uus**.
 3. Sisestage töö nimetus väljale **Töö nimetus**. Sisestage oma roll väljale **Roll**.
 4. Valige mall väljal **Mall**. Teise võimalusena valige **Jäta vahele**. Kui valite **Jäta vahele**, kasutatakse vaikemalliks märgitud malli.
 

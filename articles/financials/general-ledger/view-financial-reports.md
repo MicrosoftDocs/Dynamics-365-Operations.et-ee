@@ -3,7 +3,7 @@ title: Finantsaruannete vaatamine
 description: Selles teemas kirjeldatakse, kuidas kuvada ja uurida finantsaruandeid Microsoft Dynamics 365 for Finance and Operationsis. See sisaldab teavet mitmesuguste võimaluste kohta, mida saate finantsaruannetele rakendada, et muuta nende välimust ja andmeid, mida need sisaldavad.
 author: kweekley
 manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
-ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
+ms.openlocfilehash: 0ba92ab4f751758c4adf26885ebb7b2c5290ecac
+ms.sourcegitcommit: 1e8dfa62989dbd7601bafdc933558f6bea1638ae
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791437"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "894584"
 ---
 # <a name="view-financial-reports"></a>Finantsaruannete vaatamine
 
@@ -46,12 +46,11 @@ Finantsaruanded võivad sisaldada mitut üksikasjataset. Rahaline tase on esimen
 Kui andmed on eelarveandmed, saate avada eelarvekonto kirjed. Aruande tasemete sulgemiseks ja alguspunkti naasmiseks võite vajutada paoklahvi Esc või klõpsata nuppu **Sule** (**X**) ülal paremas nurgas.
 
 ## <a name="change-report-options"></a>Aruande suvandite muutmine
-Saate muuta aruande kuupäeva, rakendada atribuudi- ja dimensioonifiltreid või muuta eelarvestsenaariumi aruandes **Tegelik vs eelarve**. Klõpsake tegumiribal valikut **Aruandevalikud** ja tehke siis vähemalt üks järgmistest toimingutest.
+Saate rakendada atribuudi- ja dimensioonifiltreid või muuta eelarvestsenaariumi aruandes **Tegelik vs eelarve**. Klõpsake tegumiribal valikut **Aruandevalikud** ja tehke siis vähemalt üks järgmistest toimingutest.
 
--   Aruande baasperioodi ja baasaasta kasutamiseks valige vaasperiood ja baasaasta ning klõpsake nuppu **OK**.
 -   Aruandele atribuudifiltrite rakendamiseks valige käsk **Lisa atribuudifilter**. Valige atribuudi tüüp, tippige atribuudi väärtus ja klõpsake siis **OK**. Näiteks kui valite atribuudi **Konto kategooria**, sisestage atribuudi väärtuseks **MÜÜK**. Atribuudifiltri eemaldamiseks klõpsake käsku **Tühjenda**.
 -   Aruandele dimensioonifiltrite rakendamiseks valige **Lisa dimensioonifilter**. Valige dimensioon ja seejärel sisestage dimensiooni ID või valige loendist dimensioon. Dimensioonifiltri eemaldamiseks klõpsake käsku **Tühjenda**.
--   Aruandes **Tegelik vs eelarve** stsenaariumi muutmiseks valige uus stsenaarium ja klõpsake siis nuppu **OK**. Kui valitud stsenaarium on teise aasta kohta, muutke kindlasti baasaastat. Näiteks kui praegune stsenaarium on finantsaasta 2015 jaoks ja valite uue stsenaariumi, mis on finantsaasta 2016 jaoks, tuleb baasaastaks märkida **2016**.
+-   Aruandes **Tegelik vs eelarve** stsenaariumi muutmiseks valige uus stsenaarium ja klõpsake siis nuppu **OK**. Kui valitud stsenaarium on erineva finantsaasta kohta, ei esitata tulemusi. Näiteks kui aruanne on loodud FY2015 jaoks ja praegune stsenaarium on FY2015 jaoks ja uus stsenaarium valitakse FY2016 jaoks, tulemusi ei näidata. Kui vajatakse uut stsenaariumi erineva finantsaasta kohta, looge stsenaariumiga seotud finantsaastale uus aruande versioon.
 
 Kui klõpsate **OK**, rakendatakse kõik valitud suvandid aruandele. Kui otsustate, et ei soovi valitud suvandeid rakendada, klõpsake käsku **Tühista**.
 

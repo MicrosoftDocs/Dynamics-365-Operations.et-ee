@@ -1,6 +1,6 @@
 ---
-title: Planeerimise koefitsiendid
-description: See artikkel sisaldab näiteid planeerimise koefitsiendi seadistamise kohta. Selles on teave mitmesuguste planeerimise koefitsiendi sätete ja nende tulemuste kohta. Planeerimise koefitsiendi abil saate määratleda, kuidas eelarvevajadusi vähendada.
+title: Eelarve planeerimise koefitsiendid
+description: Selles teemas esitatakse näiteid planeerimise koefitsiendi seadistamise kohta. Selles on teave mitmesuguste planeerimise koefitsiendi sätete ja nende tulemuste kohta. Planeerimise koefitsiendi abil saate määratleda, kuidas eelarvevajadusi vähendada.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 02/28/2019
@@ -19,52 +19,83 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7457aca4ca4d5188bafb497d3052276cfc154ad1
-ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
+ms.openlocfilehash: b915570145a48db7a182b9fce34e1544e3600107
+ms.sourcegitcommit: a95ccf4cee8757c5fb2442a2aaeb45b1e33b6492
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "770912"
+ms.lasthandoff: 04/14/2019
+ms.locfileid: "993040"
 ---
-# <a name="reduction-keys"></a>Planeerimise koefitsiendid
+# <a name="method-used-to-reduce-forecast-requirements"></a>Eelarvevajaduste vähendamiseks kasutatav meetod
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel sisaldab näiteid planeerimise koefitsiendi seadistamise kohta. Selles on teave mitmesuguste planeerimise koefitsiendi sätete ja nende tulemuste kohta. Planeerimise koefitsiendi abil saate määratleda, kuidas eelarvevajadusi vähendada.
+Selles teemas kirjeldatakse eri meetodeid, mida kasutatakse eelarvevajaduste vähendamiseks. Iga meetodi tulemuste kohta on toodud näited. Samuti selgitatakse, kuidas eelarve planeerimise koefitsienti luua, seadistada ja kasutada. Mõni meetod kasutab eelarvevajaduste vähendamiseks eelarve planeerimise koefitsienti.
 
-<a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>1. näide. Prognoosi vähendamise põhimõte Protsent – planeerimise koefitsient
----------------------------------------------------------------
+## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Meetodid, mida kasutatakse eelarvevajaduste vähendamiseks
+
+Kui kaasate koondplaani eelarve, saate valida, kuidas vähendatakse eelarvevajadusi, kui kaasatud on tegelik nõudlus.
+
+Selleks, et eelarve koondplaani kaasata ja eelarvevajaduste vähendamise meetod valida, valige **Koondplaneerimine \> Seadistus \> Plaanid \> Koondplaanid**. Valige väljal **Eelarvemudel** sobiv eelarvemudel. Valige väljal **Eelarvevajaduste vähendamiseks kasutatav meetod** sobiv meetod. Valikud on järgmised:
+
+- Puudub
+- Protsent – planeerimise koefitsient
+- Kanded – planeerimise koefitsient
+- Kanded – dünaamiline periood
+
+Järgmised jaotised annavad iga suvandi kohta lisateavet.
+
+### <a name="none"></a>Puudub
+
+Kui valite suvandi **Puudub**, siis ei vähendata koondplaneerimisel eelarvevajadusi. Sellisel juhul loob koondplaneerimine plaanitud tellimused, et täita prognoositud nõudlust (eelarvevajadusi). Need plaanitud tellimused hoiavad soovitatud kogust vaatamata teistele nõudlustüüpidele. Näiteks loob koondplaneerimine müügitellimuste esitamisel täiendavad plaanitud tellimused, et müügitellimusi täita. Eelarvevajaduste kogust ei vähendata.
+
+### <a name="percent--reduction-key"></a>Protsent – planeerimise koefitsient
+
+Kui valite suvandi **Protsent – planeerimise koefitsient**, siis vähendatakse eelarvevajadusi planeerimise koefitsiendiga määratud protsentide ja perioodide kohaselt. Sellisel juhul loob koondplaneerimine plaanitud tellimusi, milles arvutatakse kogust iga perioodi jaoks valemiga hinnanguline kogus × planeerimise koefitsient. Kui teisi nõudlustüüpe pole, siis loob koondplaneerimine nõudluse täitmiseks ka plaanitud tellimused.
+
+#### <a name="example-percent--reduction-key"></a>Näide: valik Protsent – planeerimise koefitsient
 
 See näide selgitab, kuidas vähendab planeerimise koefitsient nõudluse prognoosi nõudeid planeerimise koefitsiendiga määratletud protsentide ja perioodide alusel.
 
-1. Seadistage lehel **Planeerimise koefitsiendid** järgmised read.
+Selle näite jaoks kaasate koondplaani järgmised nõudluse prognoosid.
 
-   | Muuda | Ühik  | Protsent |
-   |--------|-------|---------|
-   |   1    | Kuu |   100   |
-   |   2    | Kuu |   75    |
-   |   3    | Kuu |   50    |
-   |   4    | Kuu |   25    |
+| Kuu    | Nõudluse prognoos |
+|----------|-----------------|
+| Jaanuar  | 1000           |
+| veebruar | 1000           |
+| märts    | 1000           |
+| aprill    | 1000           |
 
+Seadistage lehel **Planeerimise koefitsiendid** järgmised read.
 
-2. Linkige planeerimise koefitsient kauba laovarude grupiga.
-3. Valige lehel **Koondplaanid** väljal **Vähenduspõhimõte** suvand **Protsent – planeerimise koefitsient**.
-4. Looge nõudluse prognoos 1000 tk kuus.
+| Muutmine | Ühik  | Protsent |
+|--------|-------|---------|
+| 1      | Kuu | 100     |
+| 2      | Kuu | 75      |
+| 3      | Kuu | 50      |
+| 4      | Kuu | 25      |
 
-Kui käivitate eelplaneerimise 1. jaanuaril, tabitakse nõudluse prognoosi nõudeid lehel **Planeerimise koefitsiendid** seadistatud protsentide järgi. Koondplaani kantakse üle järgmised vajaduse kogused.
+Määrake planeerimise koefitsient kauba laovarude grupile. Seejärel valige lehe **Koondplaanid** väljal **Eelarvevajaduste vähendamiseks kasutatav meetod** suvand **Protsent – planeerimise koefitsient**.
 
-| Kuu                | Vajalik tükkide arv |
-|----------------------|---------------------------|
-| Jaanuar              | 0                         |
-| Veebruar             | 250                       |
-| Märts                | 500                       |
-| aprill                | 750                       |
-| Mai kuni detsember | 1000                     |
+Kui käivitate sellisel juhul eelplaneerimise 1. jaanuaril, tarbitakse nõudluse prognoosi nõudeid lehel **Planeerimise koefitsiendid** seadistatud protsentide järgi. Koondplaani kantakse üle järgmised vajaduse kogused.
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>2. näide. Prognoosi vähendamise põhimõte Kanded – planeerimise koefitsient
+| Kuu                | Plaanitud tellimuse kogus | Kalkulatsioon    |
+|----------------------|------------------------|----------------|
+| Jaanuar              | 0                      | = 0% × 1000   |
+| veebruar             | 250                    | = 25% × 1000  |
+| märts                | 500                    | = 50% × 1000  |
+| aprill                | 750                    | = 75% × 1000  |
+| Mai kuni detsember | 1000                  | = 100% × 1000 |
+
+### <a name="transactions--reduction-key"></a>Kanded – planeerimise koefitsient
+
+Kui valite suvandi **Kanded – planeerimise koefitsient**, siis vähendatakse eelarvevajadusi planeerimise koefitsiendiga määratud perioodide jooksul toimuvate kannete kohaselt.
+
+#### <a name="example-transactions--reduction-key"></a>Näide: valik Kanded – planeerimise koefitsient
+
 See näide selgitab, kuidas vähendavad planeerimise koefitsiendiga määratletud perioodide ajal tehtavad tegelikud tellimused nõudluse prognoosi nõudeid.
 
--   Valige lehel **Koondplaanid** väljal **Vähenduspõhimõte** suvand **Kanded – planeerimise koefitsient**.
+Selle näite jaoks valige lehe **Koondplaanid** väljal **Eelarvevajaduste vähendamiseks kasutatav meetod** suvand **Kanded – planeerimise koefitsient**.
 
 1. jaanuaril on olemas järgmised müügitellimused.
 
@@ -75,66 +106,124 @@ See näide selgitab, kuidas vähendavad planeerimise koefitsiendiga määratletu
 | Märts    | 451                      |
 | Aprill    | 119                      |
 
-Kui kasutate sama nõudluse prognoosi (1000 tk kuus), kantakse koondplaani üle järgmised vajaduse kogused.
+Kui kasutate sama nõudluse prognoosi (1000 tk kuus), mida kasutati eelmises näites, kantakse koondplaani üle järgmised vajaduse kogused.
 
 | Kuu                | Vajalik tükkide arv |
 |----------------------|---------------------------|
 | Jaanuar              | 44                        |
-| Veebruar             | 0                         |
-| Märts                | 549                       |
+| veebruar             | 0                         |
+| märts                | 549                       |
 | aprill                | 881                       |
 | Mai kuni detsember | 1000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>3. näide. Prognoosi vähendamise põhimõte Kanded – dünaamiline periood
-Enamasti on süsteemid seadistatud nii, et kanded vähendavad nõudluse prognoosi teatud prognoosiperioodide (nädalad, kuud jne) jooksul. Need perioodid on määratletud planeerimise koefitsiendis. Siiski võib ka kahe nõudluse perioodi rea vaheline aeg *tähendada* perioodi.
+### <a name="transactions--dynamic-period"></a>Kanded – dünaamiline periood
 
-1. Looge nõudluse prognoos järgmiste kuupäevade ja koguste kohta.
+Kui valite suvandi **Kanded – dünaamiline periood**, siis vähendatakse eelarvevajadusi dünaamilise perioodi jooksul toimuvate tegelike tellimuste kannete võrra. Dünaamiline periood katab praeguse eelarve kuupäevad ja lõpeb järgmise prognoosi algusega. Sellisel juhul loob koondplaneerimine plaanitud tellimused, et täita prognoositud nõudlust (eelarvevajadusi). Sellegipoolest vähendatakse eelarvevajadusi tegelike tellimuste kannete esitamisel. Tegelikud kanded tarbivad osa eelarvevajadustest.
 
-   | Kuupäev       | Nõudluse prognoos |
-   |------------|-----------------|
-   | 1. jaanuar  | 1000           |
-   | 5. jaanuar  | 500             |
-   | 12. jaanuar | 1000           |
+Selle suvandi kasutamisel ilmneb järgmine käitumine.
 
-   Selles prognoosis ei ole prognoosi kuupäevade vahel selget perioodi: esimese ja teise kuupäeva vahel on neljapäevane vahe ning teise ja kolmanda kuupäeva vahel on seitsmepäevane vahe. Need erinevad vahed on dünaamilised perioodid.
-2. Looge müügitellimuse read järgmiselt.
+- Planeerimise koefitsiendid pole vajalikud või neid ei kasutata. 
+- Prognoosi täielikul vähendamisel muutub praeguse prognoosi eelarvevajaduseks 0 (null).
+- Kui tulevasi prognoose pole, vähendatakse eelarvevajadusi viimati sisestatud prognoosist.
+- Prognoosi vähenduse arvutamisse kaasatakse ajapiirid.
+- Prognoosi vähenduse arvutamisse kaasatakse positiivne päevade arv.
+- Kui tellimuse tegelikud kanded ületavad eelarvevajadusi, ei edastata järelejäänud kandeid järgmisse prognoosiperioodi.
 
-   | Kuupäev                             | Müügitellimuse kogus |
-   |----------------------------------|----------------------|
-   | Eelmise aasta 15. detsember | 500                  |
-   | 3. jaanuar                        | 100                  |
-   | 10. jaanuar                       | 200                  |
+#### <a name="example-1-transactions--dynamic-period"></a>Näide 1: valik Kanded – dünaamiline periood
 
-Prognoosi vähendatakse järgmiselt.
+Selles lihtsas näites demonstreeritakse, kuidas toimib meetod**Kanded – dünaamiline periood**.
 
--   Esimene müügitellimus ei jää ühegi perioodi piiresse ega vähenda seega ühtki prognoosi.
--   Teine müügitellimus jääb 1. jaanuari ja 5. jaanuari vahele ning vähendab seega prognoosi 1. jaanuariks 100 võrra.
--   Kolmas müügitellimus jääb 5. jaanuari ja 12. jaanuari vahele ning vähendab seega prognoosi 5. jaanuariks 200 võrra.
+Selle näite jaoks kaasate koondplaani järgmised nõudluse prognoosid.
 
-Järgmine plaanitud tellimus luuakse prognoosi täitmiseks.
+| Kuupäev       | Nõudluse prognoos |
+|------------|-----------------|
+| 1. jaanuar  | 1000           |
+| 1. veebruar | 500             |
 
-| Nõudluse prognoosi kuupäev | Vähendatud kogus |
-|----------------------|------------------|
-| 1. jaanuar            | 900              |
-| 5. jaanuar            | 300              |
-| 12. jaanuar           | 1000            |
+Samuti looge järgmised müügitellimused.
 
-Siin on toodud vähenduse **Kanded – dünaamiline periood** kokkuvõte.
+| Kuupäev        | Müügitellimuse kogus |
+|-------------|----------------------|
+| 15. jaanuar  | 500                  |
+| 15. veebruar | 100                  |
 
--   Eelarvevajadusi vähendatakse tegelike tellimusekannete võrra, mis tehakse dünaamilise perioodi jooksul. Dünaamiline periood katab praeguse eelarve kuupäevad ja lõpeb järgmise prognoosi algusega.
--   See meetod ei kasuta ega nõua planeerimise koefitsienti.
--   Selle suvandi kasutamisel ilmneb järgmine käitumine.
-    -   Prognoosi täielikul vähendamisel muutub praeguse prognoosi eelarvevajaduseks 0 (null).
-    -   Kui tulevasi prognoose pole, vähendatakse eelarvevajadusi viimati sisestatud prognoosist.
-    -   Prognoosi vähenduse arvutamisse kaasatakse ajapiirid.
-    -   Prognoosi vähenduse arvutamisse kaasatakse positiivne päevade arv.
-    -   Kui tellimuse tegelikud kanded ületavad eelarvevajadusi, ei edastata järelejäänud kandeid järgmisse prognoosiperioodi.
+Sellisel juhul luuakse järgmised plaanitud tellimused.
 
+| Nõudluse prognoosi kuupäev | Kogus | Selgitus                           |
+|--------------------- |----------|---------------------------------------|
+| 1. jaanuar            | 800      | Eelarvevajadused (= 1000 – 200) |
+| 15. jaanuar           | 200      | Müügitellimuste vajadus             |
+| 1. veebruar           | 600      | Eelarvevajadused (= 1000 – 400) |
+| 15. veebruar          | 400      | Müügitellimuste vajadus             |
 
-<a name="additional-resources"></a>Lisaressursid
---------
+#### <a name="example-2-transactions--dynamic-period"></a>Näide 2: valik Kanded – dünaamiline periood
+
+Enamasti on süsteemid seadistatud nii, et kanded vähendavad nõudluse prognoosi teatud prognoosiperioodis (nädalad, kuud jne). Need perioodid on määratletud planeerimise koefitsiendis. Siiski võib ka kahe nõudluse perioodi rea vaheline aeg *tähendada* perioodi.
+
+Selle näite jaoks looge nõudluse prognoos järgmiste kuupäevade ja koguste kohta.
+
+| Kuupäev       | Nõudluse prognoos |
+|------------|-----------------|
+| 1. jaanuar  | 1000           |
+| 5. jaanuar  | 500             |
+| 12. jaanuar | 1000           |
+
+Pange tähele, et selles prognoosis pole eelarve kuupäevade vahel kindlat perioodi. Esimese ja teise kuupäeva vahel on neljapäevane vahemik ning teise ja kolmanda kuupäeva vahel on seitsmepäevane vahemik. Need vahemikud on dünaamilised perioodid.
+
+Samuti looge järgmised müügitellimuste read.
+
+| Kuupäev                             | Müügitellimuse kogus |
+|----------------------------------|----------------------|
+| Eelmise aasta 15. detsember | 500                  |
+| 3. jaanuar                        | 100                  |
+| 10. jaanuar                       | 200                  |
+
+Sellisel juhul vähendatakse prognoosi järgmiselt.
+
+- Kuna esimene müügitellimus ei jää ühegi perioodi piiresse, ei vähenda see ühtki prognoosi.
+- Kuna teine müügitellimus jääb 1. jaanuari ja 5. jaanuari vahele, vähendab see prognoosi 1. jaanuariks 100 võrra.
+- Kuna kolmas müügitellimus jääb 5. jaanuari ja 12. jaanuari vahele, vähendab see prognoosi 5. jaanuariks 200 võrra.
+
+Seega luuakse järgmised plaanitud tellimused.
+
+| Nõudluse prognoosi kuupäev             | Kogus | Selgitus                                                         |
+|----------------------------------|----------|---------------------------------------------------------------------|
+| Eelmise aasta 15. detsember | 500      | Müügitellimuste vajadus                                            |
+| 1. jaanuar                        | 900      | Eelarvevajaduse periood 1. jaanuarist kuni 5. jaanuarini (= 1000 – 100) |
+| 3. jaanuar                        | 100      | Müügitellimuste vajadus                                            |
+| 5. jaanuar                        | 300      | Eelarvevajaduse periood 5. jaanuarist kuni 10. jaanuarini (= 500 – 200)  |
+| 12. jaanuar                       | 1000    | Eelarvevajaduse periood 12. jaanuarist lõpuni                      |
+
+## <a name="create-and-set-up-a-forecast-reduction-key"></a>Eelarve planeerimise koefitsiendi loomine ja seadistamine
+
+Meetodites **Kanded – planeerimise koefitsient** ja **Protsent – planeerimise koefitsient** kasutatakse eelarvevajaduste vähendamiseks eelarve planeerimise koefitsienti. Järgige neid samme, et luua ja seadistada planeerimise koefitsienti.
+
+1. Valige **Koondplaneerimine \> Seadistus \> Laovarud \> Planeerimise koefitsiendid**.
+2. Planeerimise koefitsiendi loomiseks valige käsk **Uus** või vajutage klahve **Ctrl + N**.
+3. Sisestage väljale **Planeerimise koefitsient** eelarve planeerimise koefitsiendi jaoks kordumatu identifikaator. Seejärel sisestage nimi väljal **Nimi**. 
+4. Määratlege iga perioodi jaoks perioodid ja planeerimise koefitsiendi protsent.
+
+    - Väli **Jõustumiskuupäev** tähistab kuupäeva, millal perioodide loomine algab. Kui suvandi **Kasuta jõustumiskuupäeva** olekuks on määratud **Jah**, siis algavad perioodid jõustumiskuupäeval. Kui suvandi olek on **Ei**, siis algavad perioodid kuupäeval, mil koondplaneerimine käitatakse.
+    - Määrake perioodid, mille jooksul eelarvevähendus peaks toimuma.
+    - Määrake konkreetse perioodi jaoks protsendid, mille võrra eelarvevajadusi vähendama peaks. Vajaduste vähendamiseks saate sisestada positiivsed väärtused, suurendamiseks negatiivsed väärtused.
+
+## <a name="use-a-reduction-key"></a>Planeerimise koefitsiendi kasutamine
+
+Planeerimise koefitsient peab olema määratud kauba laovarude grupile. Järgige neid samme, et määrata kauba laovarude grupile planeerimise koefitsient.
+
+1. Valige **Koondplaneerimine \> Seadistus \> Laovarud \> Laovarude grupid**.
+2. Valige kiirkaardi **Muud** väljal **Planeerimise koefitsient** planeerimise koefitsient, mida laovarude grupile määrata. Planeerimise koefitsient rakendub seejärel kõikidele kaupadele, mis sellesse laovarude gruppi kuuluvad.
+3. Selleks, et kasutada planeerimise koefitsienti koondplaneerimise ajal prognoosi vähendamise arvutamiseks, peate määratlema selle sätte koondplaani eelarveplaani seadistuses. Minge ühele järgmistest asukohtadest.
+
+    - Koondplaneerimine \> Seadistus \> Plaanid \> Eelarveplaanid
+    - Koondplaneerimine \> Seadistus \> Plaanid \> Koondplaanid
+
+4. Valige lehe **Eelarveplaanid** või **Koondplaanid** kiirkaardi **Üldine** väljal **Eelarvevajaduste vähendamiseks kasutatav meetod** suvand **Protsent – planeerimise koefitsient** või **Kanded – planeerimise koefitsient**.
+
+## <a name="reduce-a-forecast-by-transactions"></a>Eelarve vähendamine kannetega
+
+Kui valite eelarvevajaduste vähendamise meetodiks **Kanded – planeerimise koefitsient** või **Kanded – dünaamiline periood**, siis saate määrata, millised kanded eelarvet vähendavad. Valige lehe **Väljastatud tooted** kiirkaardi **Muud** väljal **Prognoosi vähendamisalus:** suvand **Kõik kanded**, kui eelarvet peaks vähendama kõik kanded, või **Tellimused**, kui eelarvet peaks vähendama ainult müügitellimused.
+
+## <a name="additional-resources"></a>Lisaressursid
 
 [Koondplaanid](master-plans.md)
-
-
-
