@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Mõned selles teemas toodud täiustused on saadaval ainult kasutajatele, kes on registreerinud programmis Continuous Auto-update Advantage Program (CAAP). Lisateabe saamiseks standardsete ja suunatud väljalasete kohta vt [Standardsed ja suunatud platvormi väljalasked](../../fin-and-ops/get-started/public-preview-releases.md).
+> Mõni selles teemas kirjeldatud täiustus on saadaval ainult neile kasutajatele, kes on tellinud platvormivärskendused programmi Continuous Auto-update Advantage Program (CAAP) kaudu. Lisateavet standardsete ja kindlatele kasutajatele suunatud väljaannete kohta leiate teemast [Standardsete ja suunatud väljaannete platvormiväljaanded](../../fin-and-ops/get-started/public-preview-releases.md).

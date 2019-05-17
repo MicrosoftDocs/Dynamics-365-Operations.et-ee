@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: Teenuse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon
 description: Teenuse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon.
 author: margoc
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 04/11/2019
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: 'Core, Operations'
+ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4547a0c8d43584e4cb8981e0a055c514c184f6dd
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507585"
 ---
-
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Teenuse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon
 
 [!include [banner](includes/banner.md)]
@@ -60,6 +64,11 @@ Suur osa sellest sisut kehtib ka seotud toodete – Microsoft Dynamics 365 for R
 <p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Teenusevärskenduste kohta teadete saamine</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">Andmeülesannete automatiseerimine</a></p>
 <p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
+
+<h3><a href="../dev-itpro/data-entities/integration-overview.md">Integratsioonid</a></h3>
+<p><a href="../dev-itpro/business-events/home-page.md">Ärisündmused</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Andmeüksused</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integratsioon Microsoft Flow' abil</a></p>
 
 <h3><a href="../financials/index.md">Finantshaldus</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Ostureskontro</a></p>
@@ -105,10 +114,6 @@ Suur osa sellest sisut kehtib ka seotud toodete – Microsoft Dynamics 365 for R
 
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Arendus</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Laiendatavus</a></p>
-
-<p><a href="../dev-itpro/data-entities/integration-overview.md">Andmete integratsioon</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Andmehaldus</a></p>
-
 <p><a href="../dev-itpro/office-integration/office-integration.md">Office’i integreerimine</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Pidev tarne</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobiilne platvorm</a></p>
@@ -119,7 +124,6 @@ Suur osa sellest sisut kehtib ka seotud toodete – Microsoft Dynamics 365 for R
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Asutusesisene juurutus</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Täiendamine</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Hooldus</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Andmehaldusraamistik</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">Organisatsiooni haldus</a></p>
 </td>

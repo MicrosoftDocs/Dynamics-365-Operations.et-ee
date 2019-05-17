@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> See funktsioon on saadaval värskenduses Platform update 15 (7.0.4841) või uuemas versioonis. See värskendus on praegu saadaval suunatud klientidele ja see on kõigile kasutajatele saadaval alates 2018. aasta juunist.
+> See funktsioon on saadaval platvormivärskenduses 15 (7.0.4841) või uuemas. See värskendus on praegu saadaval suunatud klientidele ning tehakse kõigi jaoks kättesaadavaks 2018. aasta juunis.

@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
-ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
+ms.openlocfilehash: 5a0a6a060a1b4a4d5a80c797f61b212a828d2f04
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "379920"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517047"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Vahetuse konfigureerimine ja töötlemine tagastustellimusel
 
 [!include [banner](includes/banner.md)]
 
-Rakenduse Microsoft Dynamics 365 for Retail eelmistes versioonides töödeldi kliendi tellimuste tagastusi, kasutades tagastustellimuse dokumenti kaupluse halduses Retail Headquarters. Kuid tagastustellimuse dokumenti saab kasutada vaid tagastatavate toodete töötlemiseks. Tagastatud tooted on tagastustellimuse ridadel tähistatud negatiivse kogusega. Müügid on aga tähistatud positiivse kogusega. Kuid tagastustellimuse dokument ei toeta positiivseid koguseid. Selle piirangu tõttu ei toetanud Retaili varasemad versioonid stsenaariume, kus tootevahetusi tehakse tagastustellimuse dokumenti kasutades.
+Rakenduse Microsoft Dynamics 365 for Retail eelmistes versioonides töödeldi klienditellimuste tagastusi, kasutades programmis Retail Headquarters tagastustellimuse dokumenti. Kuid tagastustellimuse dokumenti saab kasutada vaid tagastatavate toodete töötlemiseks. Tagastatud tooted on tagastustellimuse ridadel tähistatud negatiivse kogusega. Müügid on aga tähistatud positiivse kogusega. Kuid tagastustellimuse dokument ei toeta positiivseid koguseid. Selle piirangu tõttu ei toetanud Retaili varasemad versioonid stsenaariume, kus tootevahetusi tehakse tagastustellimuse dokumenti kasutades.
 
 Kuid nüüd on lisatud funktsioon tagastustellimuste vahetuste stsenaariumide toetamiseks. Retail kasutab nüüd seda tüüpi kannete töötlemiseks tagastustellimuse dokumendi asemel müügitellimuse dokumenti.
 
@@ -44,7 +44,7 @@ Järgige neid etappe süsteemi konfigureerimiseks nii, et see toetaks vahetusi t
 
 Kui süsteem on eelmises jaotises kirjeldatud viisil konfigureeritud, valib kassa (POS) kasutaja endiselt müügitellimuse või müügiarve tagastuse töötlemiseks, nagu Retaili eelmistes versioonides. Kuid pärast tagastuskaupade lisamist korvi saab kasutaja lisada korvi uued müügiread.
 
-Nende müügiridade jaoks peab kasutaja määrama kõik atribuudid, mis on vajalikud kliendi tellimuse rea töötlemiseks. Need atribuudid on muu hulgas tarneviis ja täitmisasukoht. Kandeks ootel makse on tagastustellimuse ridade ja müügitellimuse ridade netosumma. Kui makse kandeks makstakse, postitatakse tagastustellimus kaupluse halduses Retail Headquarters müügitellimuse dokumendina ja süsteem koostab kohe tagastusridade kohta arve.
+Nende müügiridade jaoks peab kasutaja määrama kõik atribuudid, mis on vajalikud kliendi tellimuse rea töötlemiseks. Need atribuudid on muu hulgas tarneviis ja täitmisasukoht. Kandeks ootel makse on tagastustellimuse ridade ja müügitellimuse ridade netosumma. Kui makse kandeks makstakse, postitatakse tagastustellimus programmis Retail Headquarters müügitellimuse dokumendina ja süsteem koostab kohe tagastusridade kohta arve.
 
 Korvi eri summade paremaks nähtavuseks on korvi lisatud kolm uut summa välja. Nende väljade kättesaadavaks muutmiseks kassa kasutajaliideses (UI) saate kasutada ekraanikoostajat.
 
