@@ -20,28 +20,28 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 49c2df19168855e6e6ab9ff061bcdce698947b20
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "358803"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569447"
 ---
-# <a name="consolidated-batch-orders"></a><span data-ttu-id="9cc5f-103">Konsolideeritud partiitellimused</span><span class="sxs-lookup"><span data-stu-id="9cc5f-103">Consolidated batch orders</span></span>
+# <a name="consolidated-batch-orders"></a><span data-ttu-id="9ff21-103">Konsolideeritud partiitellimused</span><span class="sxs-lookup"><span data-stu-id="9ff21-103">Consolidated batch orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9cc5f-104">Selles artiklis kirjeldatakse konsolideeritud partiitellimuste mõistet.</span><span class="sxs-lookup"><span data-stu-id="9cc5f-104">This article describes the concept of consolidated batch orders.</span></span>
+<span data-ttu-id="9ff21-104">Selles artiklis kirjeldatakse konsolideeritud partiitellimuste mõistet.</span><span class="sxs-lookup"><span data-stu-id="9ff21-104">This article describes the concept of consolidated batch orders.</span></span>
 
-<span data-ttu-id="9cc5f-105">Toodetud hulgikaup on emaüksus ja pakitud kaup on tütarüksus.</span><span class="sxs-lookup"><span data-stu-id="9cc5f-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="9cc5f-106">Hulgikauba ja pakitud kauba seost väljendab hulgikauba teisendamine.</span><span class="sxs-lookup"><span data-stu-id="9cc5f-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="9cc5f-107">See hulgikauba teisendamine on määratletud hulgikaubas endas.</span><span class="sxs-lookup"><span data-stu-id="9cc5f-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
+<span data-ttu-id="9ff21-105">Toodetud hulgikaup on emaüksus ja pakitud kaup on tütarüksus.</span><span class="sxs-lookup"><span data-stu-id="9ff21-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="9ff21-106">Hulgikauba ja pakitud kauba seost väljendab hulgikauba teisendamine.</span><span class="sxs-lookup"><span data-stu-id="9ff21-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="9ff21-107">See hulgikauba teisendamine on määratletud hulgikaubas endas.</span><span class="sxs-lookup"><span data-stu-id="9ff21-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
 
-<span data-ttu-id="9cc5f-108">Pakitud kaubad võib pakkida ühe või mitme suurusega konteineritesse, mida loetakse üheks ühikuks.</span><span class="sxs-lookup"><span data-stu-id="9cc5f-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="9cc5f-109">Hulgikauba tellimuste konsolideerimisel saate vaadata kõiki seotud partiitellimusi ühes vaates,mis aitab teil tuvastada tööd, mis tuleb lõpule viia.</span><span class="sxs-lookup"><span data-stu-id="9cc5f-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
+<span data-ttu-id="9ff21-108">Pakitud kaubad võib pakkida ühe või mitme suurusega konteineritesse, mida loetakse üheks ühikuks.</span><span class="sxs-lookup"><span data-stu-id="9ff21-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="9ff21-109">Hulgikauba tellimuste konsolideerimisel saate vaadata kõiki seotud partiitellimusi ühes vaates,mis aitab teil tuvastada tööd, mis tuleb lõpule viia.</span><span class="sxs-lookup"><span data-stu-id="9ff21-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
 
-<span data-ttu-id="9cc5f-110">Konsolideeritud partiitellimus võib sisaldada järgmiste tellimuste mis tahes kombinatsiooni.</span><span class="sxs-lookup"><span data-stu-id="9cc5f-110">A consolidated batch order can contain any combination of the following orders:</span></span>
+<span data-ttu-id="9ff21-110">Konsolideeritud partiitellimus võib sisaldada järgmiste tellimuste mis tahes kombinatsiooni.</span><span class="sxs-lookup"><span data-stu-id="9ff21-110">A consolidated batch order can contain any combination of the following orders:</span></span>
 
--   <span data-ttu-id="9cc5f-111">Üks hulgitellimus ja mitu pakitud tellimust</span><span class="sxs-lookup"><span data-stu-id="9cc5f-111">A single bulk order and multiple packed orders</span></span>
--   <span data-ttu-id="9cc5f-112">Mitu hulgitellimust ja mitu pakitud tellimust</span><span class="sxs-lookup"><span data-stu-id="9cc5f-112">Multiple bulk orders and multiple packed orders</span></span>
--   <span data-ttu-id="9cc5f-113">Mitu hulgitellimust ja üks pakitud tellimust</span><span class="sxs-lookup"><span data-stu-id="9cc5f-113">Multiple bulk orders and a single packed order</span></span>
--   <span data-ttu-id="9cc5f-114">Ainult pakitud tellimused</span><span class="sxs-lookup"><span data-stu-id="9cc5f-114">Only packed orders</span></span>
+-   <span data-ttu-id="9ff21-111">Üks hulgitellimus ja mitu pakitud tellimust</span><span class="sxs-lookup"><span data-stu-id="9ff21-111">A single bulk order and multiple packed orders</span></span>
+-   <span data-ttu-id="9ff21-112">Mitu hulgitellimust ja mitu pakitud tellimust</span><span class="sxs-lookup"><span data-stu-id="9ff21-112">Multiple bulk orders and multiple packed orders</span></span>
+-   <span data-ttu-id="9ff21-113">Mitu hulgitellimust ja üks pakitud tellimust</span><span class="sxs-lookup"><span data-stu-id="9ff21-113">Multiple bulk orders and a single packed order</span></span>
+-   <span data-ttu-id="9ff21-114">Ainult pakitud tellimused</span><span class="sxs-lookup"><span data-stu-id="9ff21-114">Only packed orders</span></span>
 
 
 

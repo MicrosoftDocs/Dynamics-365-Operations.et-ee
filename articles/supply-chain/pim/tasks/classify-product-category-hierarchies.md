@@ -17,28 +17,28 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 59c74ff34fde9064c54f8e6e6c4717df83680fae
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345647"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568669"
 ---
-# <a name="classify-a-product-using-category-hierarchies"></a><span data-ttu-id="856c6-103">Toote klassifitseerimine kategooriahierarhiate abil</span><span class="sxs-lookup"><span data-stu-id="856c6-103">Classify a product using category hierarchies</span></span>
+# <a name="classify-a-product-using-category-hierarchies"></a><span data-ttu-id="b8eb2-103">Toote klassifitseerimine kategooriahierarhiate abil</span><span class="sxs-lookup"><span data-stu-id="b8eb2-103">Classify a product using category hierarchies</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="856c6-104">Kategooriahierarhiaid kasutatakse toodete liigitamiseks ekspordi, hangete, müügi või muu jaoks.</span><span class="sxs-lookup"><span data-stu-id="856c6-104">Use category hierarchies to classify products for export, procurement, sales, or other purposes.</span></span> <span data-ttu-id="856c6-105">Seda toimingut teeb üldjuhul tootejuht.</span><span class="sxs-lookup"><span data-stu-id="856c6-105">This task is typically performed by a product manager.</span></span> <span data-ttu-id="856c6-106">Selles näites kasutatakse demoettevõtte USMF tootenumbri M0009.</span><span class="sxs-lookup"><span data-stu-id="856c6-106">The example uses product number M0009 in demo data company USMF.</span></span>
+<span data-ttu-id="b8eb2-104">Kategooriahierarhiaid kasutatakse toodete liigitamiseks ekspordi, hangete, müügi või muu jaoks.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-104">Use category hierarchies to classify products for export, procurement, sales, or other purposes.</span></span> <span data-ttu-id="b8eb2-105">Seda toimingut teeb üldjuhul tootejuht.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-105">This task is typically performed by a product manager.</span></span> <span data-ttu-id="b8eb2-106">Selles näites kasutatakse demoettevõtte USMF tootenumbri M0009.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-106">The example uses product number M0009 in demo data company USMF.</span></span>
 
-1. <span data-ttu-id="856c6-107">Klõpsake valikut Väljastatud toodete hooldus.</span><span class="sxs-lookup"><span data-stu-id="856c6-107">Click Released product maintenance.</span></span>
-2. <span data-ttu-id="856c6-108">Klõpsake valikut Kõik väljastatud tooted.</span><span class="sxs-lookup"><span data-stu-id="856c6-108">Click All released products.</span></span>
-3. <span data-ttu-id="856c6-109">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="856c6-109">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="856c6-110">Klõpsake toimingupaanil suvandit Toode.</span><span class="sxs-lookup"><span data-stu-id="856c6-110">On the Action Pane, click Product.</span></span>
-5. <span data-ttu-id="856c6-111">Klõpsake valikut Tootekategooriad.</span><span class="sxs-lookup"><span data-stu-id="856c6-111">Click Product categories.</span></span>
-6. <span data-ttu-id="856c6-112">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="856c6-112">Click New.</span></span>
-7. <span data-ttu-id="856c6-113">Sisestage või valige väärtus väljal Kategooriahierarhia.</span><span class="sxs-lookup"><span data-stu-id="856c6-113">In the Category hierarchy field, enter or select a value.</span></span>
-8. <span data-ttu-id="856c6-114">Valige või sisestage väärtus väljal Kategooria.</span><span class="sxs-lookup"><span data-stu-id="856c6-114">In the Category field, enter or select a value.</span></span>
-9. <span data-ttu-id="856c6-115">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="856c6-115">Click New.</span></span>
-10. <span data-ttu-id="856c6-116">Sisestage või valige väärtus väljal Kategooriahierarhia.</span><span class="sxs-lookup"><span data-stu-id="856c6-116">In the Category hierarchy field, enter or select a value.</span></span>
-11. <span data-ttu-id="856c6-117">Valige või sisestage väärtus väljal Kategooria.</span><span class="sxs-lookup"><span data-stu-id="856c6-117">In the Category field, enter or select a value.</span></span>
-12. <span data-ttu-id="856c6-118">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="856c6-118">Close the page.</span></span>
+1. <span data-ttu-id="b8eb2-107">Klõpsake valikut Väljastatud toodete hooldus.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-107">Click Released product maintenance.</span></span>
+2. <span data-ttu-id="b8eb2-108">Klõpsake valikut Kõik väljastatud tooted.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-108">Click All released products.</span></span>
+3. <span data-ttu-id="b8eb2-109">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-109">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="b8eb2-110">Klõpsake toimingupaanil suvandit Toode.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-110">On the Action Pane, click Product.</span></span>
+5. <span data-ttu-id="b8eb2-111">Klõpsake valikut Tootekategooriad.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-111">Click Product categories.</span></span>
+6. <span data-ttu-id="b8eb2-112">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-112">Click New.</span></span>
+7. <span data-ttu-id="b8eb2-113">Sisestage või valige väärtus väljal Kategooriahierarhia.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-113">In the Category hierarchy field, enter or select a value.</span></span>
+8. <span data-ttu-id="b8eb2-114">Valige või sisestage väärtus väljal Kategooria.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-114">In the Category field, enter or select a value.</span></span>
+9. <span data-ttu-id="b8eb2-115">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-115">Click New.</span></span>
+10. <span data-ttu-id="b8eb2-116">Sisestage või valige väärtus väljal Kategooriahierarhia.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-116">In the Category hierarchy field, enter or select a value.</span></span>
+11. <span data-ttu-id="b8eb2-117">Valige või sisestage väärtus väljal Kategooria.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-117">In the Category field, enter or select a value.</span></span>
+12. <span data-ttu-id="b8eb2-118">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="b8eb2-118">Close the page.</span></span>
 

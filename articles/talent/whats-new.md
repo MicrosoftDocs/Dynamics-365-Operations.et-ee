@@ -19,20 +19,20 @@ ms.author: tfehr
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 55fcec49feb27c1dd5c96b48a95e879d75e8d977
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "855605"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517817"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent"></a><span data-ttu-id="fdaf6-103">Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="fdaf6-103">What's new or changed in Dynamics 365 for Talent</span></span> 
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent"></a><span data-ttu-id="b0a84-103">Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="b0a84-103">What's new or changed in Dynamics 365 for Talent</span></span> 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="fdaf6-104">See leht annab ülevaate sellest, kuidas leida teavet rakenduse Microsoft Dynamics Talent HR Core uusimate väljaannete kohta.</span><span class="sxs-lookup"><span data-stu-id="fdaf6-104">This page provides details about how to find information about the latest releases of Microsoft Dynamics Talent HR Core.</span></span>
+<span data-ttu-id="b0a84-104">See leht annab ülevaate sellest, kuidas leida teavet rakenduse Microsoft Dynamics Talent HR Core uusimate väljaannete kohta.</span><span class="sxs-lookup"><span data-stu-id="b0a84-104">This page provides details about how to find information about the latest releases of Microsoft Dynamics Talent HR Core.</span></span>
 
-<span data-ttu-id="fdaf6-105">Rakendus Talent saab igal nädalal uue väljaande.</span><span class="sxs-lookup"><span data-stu-id="fdaf6-105">Each week there are new releases for Talent.</span></span> <span data-ttu-id="fdaf6-106">Need väljaanded on loetletud docs.microsoft.com saidi sisukorrras ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span><span class="sxs-lookup"><span data-stu-id="fdaf6-106">These releases are listed in the table of contents on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span></span> <span data-ttu-id="fdaf6-107">Võite skannida sisukorda või kasutada sisukorra kohal olevat filtri juhtelementi, et leida värskemaid teemad, mida otsite.</span><span class="sxs-lookup"><span data-stu-id="fdaf6-107">You can either scan the table of contents or use the Filter control above the table of contents to find the latest topics that you’re looking for.</span></span> <span data-ttu-id="fdaf6-108">Teemade pealkirjad algavad viisil „Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent...”.</span><span class="sxs-lookup"><span data-stu-id="fdaf6-108">The topic titles will begin with "What's new or changed in Dynamics 365 for Talent…”.</span></span>
+<span data-ttu-id="b0a84-105">Rakendus Talent saab igal nädalal uue väljaande.</span><span class="sxs-lookup"><span data-stu-id="b0a84-105">Each week there are new releases for Talent.</span></span> <span data-ttu-id="b0a84-106">Need väljaanded on loetletud docs.microsoft.com saidi sisukorrras ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span><span class="sxs-lookup"><span data-stu-id="b0a84-106">These releases are listed in the table of contents on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span></span> <span data-ttu-id="b0a84-107">Võite skannida sisukorda või kasutada sisukorra kohal olevat filtri juhtelementi, et leida värskemaid teemad, mida otsite.</span><span class="sxs-lookup"><span data-stu-id="b0a84-107">You can either scan the table of contents or use the Filter control above the table of contents to find the latest topics that you’re looking for.</span></span> <span data-ttu-id="b0a84-108">Teemade pealkirjad algavad viisil „Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent...”.</span><span class="sxs-lookup"><span data-stu-id="b0a84-108">The topic titles will begin with "What's new or changed in Dynamics 365 for Talent…”.</span></span>
 
-<span data-ttu-id="fdaf6-109">Sisukorda uuendatakse igal nädalal, nii et tulge tagasi, et leida kõik uued funktsioonid ja muudatused värskeimatest Talenti väljaannetest.</span><span class="sxs-lookup"><span data-stu-id="fdaf6-109">The table of contents will continue to be updated each week, so check back to find all of the new features and changes in the latest releases of Talent.</span></span>
+<span data-ttu-id="b0a84-109">Sisukorda uuendatakse igal nädalal, nii et tulge tagasi, et leida kõik uued funktsioonid ja muudatused värskeimatest Talenti väljaannetest.</span><span class="sxs-lookup"><span data-stu-id="b0a84-109">The table of contents will continue to be updated each week, so check back to find all of the new features and changes in the latest releases of Talent.</span></span>
 
 [!include [release notes](../fin-and-ops/includes/release-notes.md)]

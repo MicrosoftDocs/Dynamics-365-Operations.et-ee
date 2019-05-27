@@ -17,23 +17,23 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: c663c9f6b4f74ea20f0481632af9eef303ba27ed
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359470"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570132"
 ---
-# <a name="add-an-image-to-a-product"></a><span data-ttu-id="5d98b-103">Tootele pildi lisamine</span><span class="sxs-lookup"><span data-stu-id="5d98b-103">Add an image to a product</span></span>
+# <a name="add-an-image-to-a-product"></a><span data-ttu-id="28016-103">Tootele pildi lisamine</span><span class="sxs-lookup"><span data-stu-id="28016-103">Add an image to a product</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="5d98b-104">See protseduur näitab, kuidas tootele pilti lisada. Selle toimingu loomiseks on kasutatud demoettevõtet USMF.</span><span class="sxs-lookup"><span data-stu-id="5d98b-104">This procedure shows how to add an image to a product The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="28016-104">See protseduur näitab, kuidas tootele pilti lisada. Selle toimingu loomiseks on kasutatud demoettevõtet USMF.</span><span class="sxs-lookup"><span data-stu-id="28016-104">This procedure shows how to add an image to a product The demo data company used to create this task is USMF.</span></span>
 
-1. <span data-ttu-id="5d98b-105">Avage Tooteteabe haldus > Tooted > Väljastatud tooted.</span><span class="sxs-lookup"><span data-stu-id="5d98b-105">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="5d98b-106">Laiendage toote pildi kiirinfot.</span><span class="sxs-lookup"><span data-stu-id="5d98b-106">Expand the Product image FactBox.</span></span>
-3. <span data-ttu-id="5d98b-107">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="5d98b-107">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="5d98b-108">Näiteks valige kaubakood C0002.</span><span class="sxs-lookup"><span data-stu-id="5d98b-108">For example, select the item number C0002.</span></span>  
-4. <span data-ttu-id="5d98b-109">Klõpsake nuppu Pildi muutmine.</span><span class="sxs-lookup"><span data-stu-id="5d98b-109">Click Change image.</span></span>
-5. <span data-ttu-id="5d98b-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="5d98b-110">Click New.</span></span>
-    * <span data-ttu-id="5d98b-111">Klõpsake käsku Sirvi.</span><span class="sxs-lookup"><span data-stu-id="5d98b-111">Click Browse.</span></span> <span data-ttu-id="5d98b-112">Leidke pilt, mida kasutada soovite, valige see ja sulgege siis dialoogiboks.</span><span class="sxs-lookup"><span data-stu-id="5d98b-112">Find the image that you want to use, select it, and then close the dialog box.</span></span>    
+1. <span data-ttu-id="28016-105">Avage Tooteteabe haldus > Tooted > Väljastatud tooted.</span><span class="sxs-lookup"><span data-stu-id="28016-105">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="28016-106">Laiendage toote pildi kiirinfot.</span><span class="sxs-lookup"><span data-stu-id="28016-106">Expand the Product image FactBox.</span></span>
+3. <span data-ttu-id="28016-107">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="28016-107">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="28016-108">Näiteks valige kaubakood C0002.</span><span class="sxs-lookup"><span data-stu-id="28016-108">For example, select the item number C0002.</span></span>  
+4. <span data-ttu-id="28016-109">Klõpsake nuppu Pildi muutmine.</span><span class="sxs-lookup"><span data-stu-id="28016-109">Click Change image.</span></span>
+5. <span data-ttu-id="28016-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="28016-110">Click New.</span></span>
+    * <span data-ttu-id="28016-111">Klõpsake käsku Sirvi.</span><span class="sxs-lookup"><span data-stu-id="28016-111">Click Browse.</span></span> <span data-ttu-id="28016-112">Leidke pilt, mida kasutada soovite, valige see ja sulgege siis dialoogiboks.</span><span class="sxs-lookup"><span data-stu-id="28016-112">Find the image that you want to use, select it, and then close the dialog box.</span></span>    
 

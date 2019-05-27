@@ -17,39 +17,39 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f29442c2ef2e3d0008a74298fda218e4cbd93f8e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "349166"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571579"
 ---
-# <a name="set-up-sales-tax-codes"></a><span data-ttu-id="b7f39-103">Saate häälestada käibemaksukoode.</span><span class="sxs-lookup"><span data-stu-id="b7f39-103">Set up sales tax codes</span></span>
+# <a name="set-up-sales-tax-codes"></a><span data-ttu-id="e8611-103">Saate häälestada käibemaksukoode.</span><span class="sxs-lookup"><span data-stu-id="e8611-103">Set up sales tax codes</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b7f39-104">Käibemaksukoodid luuakse iga kaudse maksu või kohustuse puhul, mida juriidiline isik on kohustatud arvutama, koguma ja käibemaksuhalduritele maksma.</span><span class="sxs-lookup"><span data-stu-id="b7f39-104">Sales tax codes are created for every indirect tax or duty that the legal entity is obligated to calculate, collect, and pay to sales tax authorities.</span></span>
+<span data-ttu-id="e8611-104">Käibemaksukoodid luuakse iga kaudse maksu või kohustuse puhul, mida juriidiline isik on kohustatud arvutama, koguma ja käibemaksuhalduritele maksma.</span><span class="sxs-lookup"><span data-stu-id="e8611-104">Sales tax codes are created for every indirect tax or duty that the legal entity is obligated to calculate, collect, and pay to sales tax authorities.</span></span>
 
-<span data-ttu-id="b7f39-105">See ülesanne kasutab demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="b7f39-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="e8611-105">See ülesanne kasutab demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="e8611-105">This task uses the USMF demo company.</span></span>
 
 
 
-1. <span data-ttu-id="b7f39-106">Avage Maks > Kaudsed maksud > Käibemaks > Käibemaksukoodid.</span><span class="sxs-lookup"><span data-stu-id="b7f39-106">Go to Tax > Indirect taxes > Sales tax > Sales tax codes.</span></span>
-2. <span data-ttu-id="b7f39-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="b7f39-107">Click New.</span></span>
-3. <span data-ttu-id="b7f39-108">Sisestage väärtus väljale Käibemaksukood.</span><span class="sxs-lookup"><span data-stu-id="b7f39-108">In the Sales tax code field, type a value.</span></span>
-4. <span data-ttu-id="b7f39-109">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="b7f39-109">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="b7f39-110">Valige tasakaalustusperiood, määramaks, millisele maksuhaldurile ning mis vahemikega tuleb seda käibemaksu esitada ja maksta.</span><span class="sxs-lookup"><span data-stu-id="b7f39-110">Select a Settlement period to specify which Sales tax authority and in which intervals this sales tax needs to be reported and paid.</span></span>
-6. <span data-ttu-id="b7f39-111">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="b7f39-111">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="b7f39-112">Valige Pearaamatu sisestusgrupp, et määrata põhikontod käibemaksu sisestamiseks pearaamatusse.</span><span class="sxs-lookup"><span data-stu-id="b7f39-112">Select a Ledger posting group to specify the main accounts to post sales tax to the general ledger.</span></span>
-8. <span data-ttu-id="b7f39-113">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="b7f39-113">In the list, find and select the desired record.</span></span>
-9. <span data-ttu-id="b7f39-114">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="b7f39-114">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="b7f39-115">Laiendage kiirvahekaarti Arvutus.</span><span class="sxs-lookup"><span data-stu-id="b7f39-115">Expand the Calculation FastTab.</span></span>
-    * <span data-ttu-id="b7f39-116">Kiirvahekaardil Arvutamine on mitu välja, mis määravad, kuidas käibemaksusummasid arvutatakse.</span><span class="sxs-lookup"><span data-stu-id="b7f39-116">The Calculation FastTab has multiple fields that control how sales tax amounts will be calculated.</span></span>  
-11. <span data-ttu-id="b7f39-117">Klõpsake toimingupaanil suvandit Käibemaksukood.</span><span class="sxs-lookup"><span data-stu-id="b7f39-117">On the Action Pane, click Sales tax code.</span></span>
-12. <span data-ttu-id="b7f39-118">Klõpsake suvandit Väärtused.</span><span class="sxs-lookup"><span data-stu-id="b7f39-118">Click Values.</span></span>
-13. <span data-ttu-id="b7f39-119">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="b7f39-119">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="b7f39-120">Sisestage selle maksukoodi väärtus.</span><span class="sxs-lookup"><span data-stu-id="b7f39-120">Enter the value for this tax code.</span></span>
-    * <span data-ttu-id="b7f39-121">Kiirvahekaardi Arvutamine väljal Päritolu korrutatakse juhul, kui Summa ühiku kohta on valitud, käibemaksusumma arvutamiseks väärtus kande kogusega.</span><span class="sxs-lookup"><span data-stu-id="b7f39-121">On the Calculation FastTab, in the Origin field, if Amount per unit is selected, the value will be multiplied by the quantity on the transaction to calculate the sales tax amount.</span></span>  <span data-ttu-id="b7f39-122">Kui maksukood pole ühikupõhine maks, on väärtus protsent, mis rakendatakse selle maksukoodi päritolule käibemaksu summa arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="b7f39-122">If the tax code is not a unit based tax, the value is a percentage that is applied on the Origin for this tax code to calculate the sales tax amount.</span></span>     
-15. <span data-ttu-id="b7f39-123">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="b7f39-123">Click Save.</span></span>
-16. <span data-ttu-id="b7f39-124">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="b7f39-124">Close the page.</span></span>
-17. <span data-ttu-id="b7f39-125">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="b7f39-125">Click Save.</span></span>
+1. <span data-ttu-id="e8611-106">Avage Maks > Kaudsed maksud > Käibemaks > Käibemaksukoodid.</span><span class="sxs-lookup"><span data-stu-id="e8611-106">Go to Tax > Indirect taxes > Sales tax > Sales tax codes.</span></span>
+2. <span data-ttu-id="e8611-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="e8611-107">Click New.</span></span>
+3. <span data-ttu-id="e8611-108">Sisestage väärtus väljale Käibemaksukood.</span><span class="sxs-lookup"><span data-stu-id="e8611-108">In the Sales tax code field, type a value.</span></span>
+4. <span data-ttu-id="e8611-109">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="e8611-109">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="e8611-110">Valige tasakaalustusperiood, määramaks, millisele maksuhaldurile ning mis vahemikega tuleb seda käibemaksu esitada ja maksta.</span><span class="sxs-lookup"><span data-stu-id="e8611-110">Select a Settlement period to specify which Sales tax authority and in which intervals this sales tax needs to be reported and paid.</span></span>
+6. <span data-ttu-id="e8611-111">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="e8611-111">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="e8611-112">Valige Pearaamatu sisestusgrupp, et määrata põhikontod käibemaksu sisestamiseks pearaamatusse.</span><span class="sxs-lookup"><span data-stu-id="e8611-112">Select a Ledger posting group to specify the main accounts to post sales tax to the general ledger.</span></span>
+8. <span data-ttu-id="e8611-113">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="e8611-113">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="e8611-114">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="e8611-114">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="e8611-115">Laiendage kiirvahekaarti Arvutus.</span><span class="sxs-lookup"><span data-stu-id="e8611-115">Expand the Calculation FastTab.</span></span>
+    * <span data-ttu-id="e8611-116">Kiirvahekaardil Arvutamine on mitu välja, mis määravad, kuidas käibemaksusummasid arvutatakse.</span><span class="sxs-lookup"><span data-stu-id="e8611-116">The Calculation FastTab has multiple fields that control how sales tax amounts will be calculated.</span></span>  
+11. <span data-ttu-id="e8611-117">Klõpsake toimingupaanil suvandit Käibemaksukood.</span><span class="sxs-lookup"><span data-stu-id="e8611-117">On the Action Pane, click Sales tax code.</span></span>
+12. <span data-ttu-id="e8611-118">Klõpsake suvandit Väärtused.</span><span class="sxs-lookup"><span data-stu-id="e8611-118">Click Values.</span></span>
+13. <span data-ttu-id="e8611-119">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="e8611-119">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="e8611-120">Sisestage selle maksukoodi väärtus.</span><span class="sxs-lookup"><span data-stu-id="e8611-120">Enter the value for this tax code.</span></span>
+    * <span data-ttu-id="e8611-121">Kiirvahekaardi Arvutamine väljal Päritolu korrutatakse juhul, kui Summa ühiku kohta on valitud, käibemaksusumma arvutamiseks väärtus kande kogusega.</span><span class="sxs-lookup"><span data-stu-id="e8611-121">On the Calculation FastTab, in the Origin field, if Amount per unit is selected, the value will be multiplied by the quantity on the transaction to calculate the sales tax amount.</span></span>  <span data-ttu-id="e8611-122">Kui maksukood pole ühikupõhine maks, on väärtus protsent, mis rakendatakse selle maksukoodi päritolule käibemaksu summa arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="e8611-122">If the tax code is not a unit based tax, the value is a percentage that is applied on the Origin for this tax code to calculate the sales tax amount.</span></span>     
+15. <span data-ttu-id="e8611-123">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="e8611-123">Click Save.</span></span>
+16. <span data-ttu-id="e8611-124">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="e8611-124">Close the page.</span></span>
+17. <span data-ttu-id="e8611-125">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="e8611-125">Click Save.</span></span>
 
