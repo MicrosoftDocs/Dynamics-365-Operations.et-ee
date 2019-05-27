@@ -19,17 +19,17 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 633d85333a510cec9cee2721e6e2330a47b6c78c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331985"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545782"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Organisatsiooni hierarhia kavandamine
 
 [!include [banner](../includes/banner.md)]
 
-Organisatsioonide ja organisatsiooni hierarhiate seadistamiseks rakenduses Microsoft Dynamics 365 for Finance and Operations plaanige kindlasti oma ettevõtte mudel. Organisatsioonimudelil on rakenduse Dynamics 365 for Finance and Operations juurutamisele ja äriprotsessidele oluline mõju.
+Organisatsioonide ja organisatsiooni hierarhiate seadistamiseks rakenduses Microsoft Dynamics 365 for Finance and Operations plaanige kindlasti oma ettevõtte mudel. Organisatsioonimudelil on rakenduse Finance and Operationsi juurutamisele ja äriprotsessidele oluline mõju.
 
 Organisatsioonihierarhiad kajastavad ettevõtte koosseisu kuuluvate organisatsioonide seoseid. Seetõttu on organisatsioonimudeli loomisel kõige tähtsam arvestada teie ettevõtte struktuuri. Soovitame määratleda organisatsioonistruktuurid tippjuhtkonnalt ja osakondade (nt finants- ja raamatupidamis-, personali-, operatsiooni-, ostu- ning müügi- ja turundusosakond) juhtivatelt töötajatelt pärineva tagasiside põhjal.
 

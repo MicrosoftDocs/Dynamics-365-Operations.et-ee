@@ -18,11 +18,11 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0a0722f057c1613fdc03281ca68a90608a701aef
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "328351"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561733"
 ---
 # <a name="find-information-by-using-lookups"></a>Teabe leidmiseks otsingute abil
 
@@ -77,7 +77,7 @@ Eelmises kahes jaotises kirjeldatud otsingu täiustused parandavad suuresti kasu
 
 ![emptyitemlookup](./media/emptyitemlookup.png)
 
-Selle asemel peab kasutaja eemaldama otsingu juhtelemendi väärtuse, avama otsingu rippmenüü ja filtreerima rippmenüü, kasutades ruudustiku veeru päist, nagu allpool on näidatud. Hiirt (või puudutamist) kasutav kasutaja saab lihtsalt klõpsata (või puudutada) mis tahes veerupäist, et saada juurdepääs selle veeru filtreerimise ja sortimise suvanditele. Klaviatuuri kasutaja peab lihtsalt vajutama teist korda klahvikombinatsiooni **Alt**+**Allanool**, et liigutada fookus rippmenüüle, pärast mida saab kasutaja tabeldusklahvi abil õigesse veergu liikuda ja vajutada seejärel klahvikombinatsiooni **Ctrl**+**G**, et avada ruudustiku veeru päise rippmenüüd.
+Selle asemel peab kasutaja eemaldama otsingu juhtelemendi väärtuse, avama otsingu rippmenüü ja filtreerima rippmenüü, kasutades ruudustiku veeru päist, nagu allpool on näidatud. Hiirt (või puudutamist) kasutav kasutaja saab lihtsalt klõpsata (või puudutada) mis tahes veerupäist, et saada juurdepääs selle veeru filtreerimise ja sortimise suvanditele. Klaviatuuri kasutaja peab lihtsalt vajutama teist korda klahvikombinatsiooni **Alt**+**Alla** **Allanool**, et liigutada fookus rippmenüüle, pärast mida saab kasutaja tabeldusklahvi abil õigesse veergu liikuda ja vajutada seejärel klahvikombinatsiooni **Ctrl**+**G**, et avada ruudustiku veeru päise rippmenüüd.
 
 [![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
