@@ -1,9 +1,9 @@
 ---
 title: Kulude haldus
-description: Kuluhalduse abil saate luua integreeritud töövoo, kus saate talletada makseviisi kohta käivat teavet, importida krediitkaardikandeid ja jälgida raha, mida teie töötajad ettevõtte kulutustena kasutavad.
+description: Selles teemas on üldine teave kuluhaldamise kohta ja lingid lisaressursside juurde. Kuluhalduse abil võite luua integreeritud töövoo, kus saate talletada makseviisi kohta käivat teavet, importida krediitkaardikandeid ja jälgida raha, mida teie töötajad ettevõtte kulutustena kasutavad.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,41 +18,44 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11445390acef5ddfd57a1a0017e8bc423cdb1914
-ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
+ms.openlocfilehash: fe1e92dbf63d2683a53684b350f77c978b14c75e
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "403210"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538605"
 ---
 # <a name="expense-management"></a>Kulude haldus
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Kuluhalduse abil saate luua integreeritud töövoo, kus saate talletada makseviisi kohta käivat teavet, importida krediitkaardikandeid ja jälgida raha, mida teie töötajad ettevõtte kulutustena kasutavad. Saate ka määrata kulupoliitikad ja automatiseerida reisikulude hüvitamise. 
+Kuluhalduse abil võite luua integreeritud töövoo, kus saate talletada makseviisi kohta käivat teavet, importida krediitkaardikandeid ja jälgida raha, mida teie töötajad ettevõtte kulutustena kasutavad. Saate ka määrata kulupoliitikad ja automatiseerida reisikulude hüvitamise.
 
-[Kuluhalduse plaanimine](plan-expense-management.md) 
+Lisateavet vt jaotisest [Kuluhalduse konfigureerimine](plan-expense-management.md).
 
-### <a name="additional-resources"></a>Lisaressursid
+## <a name="additional-resources"></a>Lisaressursid
 
-#### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
+### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 
-Avage jaotis [Microsoft Dynamics 365 väljalaskemärkmed](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, millised uued funktsioonid on plaanitud. 
+Avage [Microsoft Dynamics 365 väljalaskemärkmed](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone kavandatakse.
 
-#### <a name="blogs"></a>Ajaveebid
+#### <a name="expense-report-entry"></a>Kuluaruande sisestamine
 
-Arvamusi, uudiseid ja muud teavet leiate ajaveebidest [Microsoft Dynamics 365 ajaveeb](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ja [Microsoft Dynamics 365 Finance and Operations – ajaveeb Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Kuluaruande kirje on ümber kujundatud, et lihtsustada kasutuskogemust ja vähendada kuluaruannete lõpetamiseks kuluvat aega. Selle funktsiooni saate funktsiooni halduses sisse lülitada. Saate lisada uue seadistuslehekülje, et konfigureerida kuluväljade nähtavust ja määrata, milliseid andmeid on vajalikud, valikulised või pole saadaval kuluaruannete sisestamisel. Kui see funktsioon on sisse lülitatud, on saadaval uus kulude tööruum. See tööruum asendab eelmise kulu tööruumi ja on paranenud sisestuskogemuse sihtleht.
 
-[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamics partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses MBS Operations. 
+Lisateavet vt jaotisest [Uuendatud kuluaruanded](ExpenseWorkspaceNew.md).
 
-#### <a name="task-guides"></a>Tegevuse juhised
-Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operations. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.
+### <a name="blogs"></a>Ajaveebid
 
-#### <a name="videos"></a>Videod
+Arvamusi, uudiseid ja muud teavet leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ning [ajaveebist Microsoft Dynamics 365 Finance and Operations – Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+
+[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamics partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses MBS Operations.
+
+### <a name="task-guides"></a>Tegevusjuhised
+
+Täiendav spikker on saadaval Microsoft Dynamics 365 for Finance and Operationsi ülesandejuhistena. Tegevuse juhistele juurdepääsemiseks valige ükskõik millisel lehel nupp **Spikker**.
+
+### <a name="videos"></a>Videod
 
 Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-
-
-
-

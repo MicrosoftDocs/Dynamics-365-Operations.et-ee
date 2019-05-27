@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321727"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545458"
 ---
 # <a name="europe"></a>Euroopa 
 
@@ -32,7 +32,7 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ra
  - [Avansisaajate kanded](emea-advance-holders-transactions.md)
  - [Avansimakse töötajale (Ida-Euroopa)](tasks/advance-payment-employee.md)
 - [Täpsem arveldamine](emea-advance-invoice.md)
-- [Panga vastavusseviimine](emea-bank-reconciliation.md)
+- [Pangakonto vastavusseviimine](emea-bank-reconciliation.md)
 - [Parandav arveldamine](emea-corrective-invoice.md)
 - [Perioodiliste töölehtede loomine ja sisestamine](emea-create-post-periodic-journals.md)
 - [Maksete loomine kliendile, kellel on otsekorralduse load](tasks/create-payments-customers-who-have-direct-debit-mandates.md)
@@ -90,7 +90,7 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ra
   - [KM-i vahetuskursid](emea-vat-exchange-rate.md)
   - [KM-i vastavusseviimise aruanne](tasks/eur-00018-vat-reconciliation-report.md)
   - [Ida-Euroopa käibemaksuregistri kanded](emea-vat-register-transactions.md)
-  - [Käibemaksuaruanne](emea-vat-reporting.md)
+  - [KM-aruanne](emea-vat-reporting.md)
   - [KM-aruande loomine ja esitamine](tasks/create-submit-vat-report.md)
   - [Kannete kuvamine tasakaalustamisel](emea-transactions-settlement-form.md)
 

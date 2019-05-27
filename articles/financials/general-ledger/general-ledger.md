@@ -19,11 +19,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0b6683107f4b2dbe36af78749612ce950ea19582
-ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "403233"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569286"
 ---
 # <a name="general-ledger"></a>Pearaamat 
 
@@ -59,7 +59,7 @@ Avage jaotis [Microsoft Dynamics 365 väljalaskemärkmed](https://go.microsoft.c
 
 #### <a name="blogs"></a>Ajaveebid
 
-Arvamusi, uudiseid ja muud teavet leiate ajaveebidest [Microsoft Dynamics 365 ajaveeb](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ja [Microsoft Dynamics 365 Finance and Operations – ajaveeb Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Arvamusi, uudiseid ja muud teavet leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ning [ajaveebist Microsoft Dynamics 365 Finance and Operations – Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamics partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses MBS Operations.
 

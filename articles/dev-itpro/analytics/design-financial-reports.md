@@ -19,17 +19,17 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9d2d9bef0b70d5f645e358a970750aefef890ec1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "343876"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545217"
 ---
 # <a name="view-and-design-financial-reports"></a>Finantsaruannete vaatamine ja kujundamine
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel sisaldab harjutusi, mis selgitavad teile Microsoft Dynamics 365 for Finance and Operationsis finantsaruannete vaatamist ja loomist. Finantsaruandlus hõlmab vaatamist Dynamics 365 for Finance and Operationsis ja korra klõpsatavat aruandekujundajat, mis võimaldab teil finantsaruandeid luua ja redigeerida.
+See artikkel sisaldab harjutusi, mis selgitavad teile Microsoft Dynamics 365 for Finance and Operationsis finantsaruannete vaatamist ja loomist. Finantsaruandlus hõlmab vaatamist Finance and Operations'is ja korra klõpsatavat aruandekujundajat, mis võimaldab teil finantsaruandeid luua ja redigeerida.
 
 ## <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>1. harjutus: vaikimisi finantsaruande loomine ja uurimine
 
@@ -63,7 +63,7 @@ Selle harjutuse puhul loote ja uurite olemasolevat vaikearuannet. See aruanne si
 13. Valige suvand **Aruandevalikud**.
 14. Valige **Lisa dimensioonifilter** ja valige **Äriüksus**.
 15. Sisestage väljale 001 ja valige **OK**. Aruandes kuvatakse nüüd ainult äriüksuse 001 andmed. See on aruande isikupärastatud vaade ja pole saadaval teistele vaatamiseks.
-16. Sulgege filtritud aruanne. Finantsaruandeid saab kuvada mis tahes valuutas, mis on Dynamics 365 for Finance and Operationsisse lisatud.
+16. Sulgege filtritud aruanne. Finantsaruandeid saab kuvada mis tahes valuutas, mis on Finance and Operationsisse lisatud.
 17. Valige **Valuuta**, seejärel valige **EUR**. Aruanne kuvatakse nüüd eurodes. Aruande kujundusse kaasatud mis tahes valuutakoodid või -tähised kuvatakse nüüd rakendatud valuutas. Kui valuuta puhul pole ühtegi valuutatähist määratletud, siis valuuta tähist ei kuvata.
 18. Sulgege aruanne **Pearaamatu üksikasjad**.
 19. Sulgege **aruande kujundaja**.

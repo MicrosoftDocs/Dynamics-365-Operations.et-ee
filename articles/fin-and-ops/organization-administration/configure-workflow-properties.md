@@ -18,11 +18,11 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 576ce368b2a8672aa39116eb0cc6e3d3f2a06bb3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "328466"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571308"
 ---
 # <a name="configure-workflow-properties"></a>Töövoo atribuutide konfigureerimine
 
@@ -166,7 +166,7 @@ Kui dokument esitatakse töötlemiseks, luuakse töövooeksemplar. Saate saata k
     <td>
     <ol>
     <li>Klõpsake vahekaardil <strong>Adressaat</strong> suvandit <strong>Kasutaja</strong>.</li>
-    <li>Vahekaardi <strong>Kasutaja</strong> loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Dynamics 365 for Finance and Operationsi kasutajaid. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
+    <li>Vahekaardi <strong>Kasutaja</strong> loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki Finance and Operationsi kasutajaid. Valige kasutajad, kellele teatisi saata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol>
     </td>
     </tr>

@@ -20,11 +20,11 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "326419"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546313"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Statistilise alusprognoosi koostamine
 
@@ -53,7 +53,7 @@ Väljal **Alusprognoosi alguskuupäev** - **alates kuupäevast** peab määrama 
 
 Väljale **Alusprognoosi alguskuupäev** - **alates kuupäevast** saab määrata mineviku kuupäeva. Teisisõnu on võimalik luua nõudluse prognoosi minevikus. See on kasulik, kuna võimaldab kasutajatel prognoosimisteenuse parameetreid kohandada selliselt, et varem loodud statistiline prognoos vastab tegelikule ajaloolisele nõudlusele. Seejärel saavad kasutajad neid parameetri sätted tulevase statistilise alusprognoosi loomisel kasutada. 
 
-Varasemates prognoosimise iteratsioonides käsitsi tehtud korrigeerimised saab automaatselt uuele alusprognoosile rakendada, kui ruut **Kandke käsitsi tehtud korrigeerimised üle nõudluse prognoosi** on märgitud. Kui ruut on tühi, ei lisata alusprognoosis käsitsi tehtud korrigeerimisi, kuid ei kustutata ka. Prognoosis käsitsi tehtud korrigeerimisi saab kustutada ainult prognoosi importimise ajal, tühjendades ruudu **Salvestage nõudluse alusprognoosis käsitsi tehtud korrigeerimised**. Käsitsi tehtud korrigeerimised salvestatakse autoriseerimise ajal. Seega, kui kasutaja korrigeerib prognoosi käsitsi, kuid ei autoriseeri prognoosi uuesti Dynamics 365 for Finance and Operationsis, lähevad muudatused kaotsi. Käsitsi tehtud korrigeerimiste ja nende tööpõhimõtete kohta vt lisateavet artiklist [Korrigeeritud prognoosi autoriseerimine](authorize-adjusted-forecast.md). 
+Varasemates prognoosimise iteratsioonides käsitsi tehtud korrigeerimised saab automaatselt uuele alusprognoosile rakendada, kui ruut **Kandke käsitsi tehtud korrigeerimised üle nõudluse prognoosi** on märgitud. Kui ruut on tühi, ei lisata alusprognoosis käsitsi tehtud korrigeerimisi, kuid ei kustutata ka. Prognoosis käsitsi tehtud korrigeerimisi saab kustutada ainult prognoosi importimise ajal, tühjendades ruudu **Salvestage nõudluse alusprognoosis käsitsi tehtud korrigeerimised**. Käsitsi tehtud korrigeerimised salvestatakse autoriseerimise ajal. Seega, kui kasutaja korrigeerib prognoosi käsitsi, kuid ei autoriseeri prognoosi uuesti Finance and Operationsis, lähevad muudatused kaotsi. Käsitsi tehtud korrigeerimiste ja nende tööpõhimõtete kohta vt lisateavet artiklist [Korrigeeritud prognoosi autoriseerimine](authorize-adjusted-forecast.md). 
 
 Nõudluse prognoosil võib olla nimi ja kommetaarid, mis aitavad kasutajatel loodud prognoosi tuvastada. Need väärtused kuvatakse prognoosi loomise ajaloos leheküljel **Statistilise alusprognoosi loomise ajalugu**. 
 
