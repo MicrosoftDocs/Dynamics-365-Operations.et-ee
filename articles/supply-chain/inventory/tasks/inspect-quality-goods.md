@@ -18,42 +18,42 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f9e9d750f116db62519ac7148f19bf62050430e9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "315425"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545401"
 ---
-# <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="675b9-103">Kaupade kvaliteedi kontrollimine</span><span class="sxs-lookup"><span data-stu-id="675b9-103">Inspect the quality of goods</span></span>
+# <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="288ce-103">Kaupade kvaliteedi kontrollimine</span><span class="sxs-lookup"><span data-stu-id="288ce-103">Inspect the quality of goods</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="675b9-104">See protseduur näitab, kuidas kvaliteettellimust töödelda.</span><span class="sxs-lookup"><span data-stu-id="675b9-104">This procedure shows you how to process a quality order.</span></span> <span data-ttu-id="675b9-105">Saate selle juhendi käitada demoettevõtte USMF andmetega.</span><span class="sxs-lookup"><span data-stu-id="675b9-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="675b9-106">Enne selle näidisprotseduuri käivitamist peate ostutellimuse 000016 kinnitama ja toote sissetuleku sisestama.</span><span class="sxs-lookup"><span data-stu-id="675b9-106">Before you start this example procedure, you need to confirm purchase order “000016” and post a product receipt.</span></span> <span data-ttu-id="675b9-107">See loob kvaliteettellimuse automaatselt.</span><span class="sxs-lookup"><span data-stu-id="675b9-107">This will automatically create a quality order.</span></span> <span data-ttu-id="675b9-108">Kvaliteedikontrolle teeb üldjuhul kvaliteediametnik.</span><span class="sxs-lookup"><span data-stu-id="675b9-108">Quality inspections are typically carried out by a quality clerk.</span></span>
+<span data-ttu-id="288ce-104">See protseduur näitab, kuidas kvaliteettellimust töödelda.</span><span class="sxs-lookup"><span data-stu-id="288ce-104">This procedure shows you how to process a quality order.</span></span> <span data-ttu-id="288ce-105">Saate selle juhendi käitada demoettevõtte USMF andmetega.</span><span class="sxs-lookup"><span data-stu-id="288ce-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="288ce-106">Enne selle näidisprotseduuri käivitamist peate ostutellimuse 000016 kinnitama ja toote sissetuleku sisestama.</span><span class="sxs-lookup"><span data-stu-id="288ce-106">Before you start this example procedure, you need to confirm purchase order “000016” and post a product receipt.</span></span> <span data-ttu-id="288ce-107">See loob kvaliteettellimuse automaatselt.</span><span class="sxs-lookup"><span data-stu-id="288ce-107">This will automatically create a quality order.</span></span> <span data-ttu-id="288ce-108">Kvaliteedikontrolle teeb üldjuhul kvaliteediametnik.</span><span class="sxs-lookup"><span data-stu-id="288ce-108">Quality inspections are typically carried out by a quality clerk.</span></span>
 
 
-## <a name="select-a-quality-order"></a><span data-ttu-id="675b9-109">Kvaliteettellimuse valimine</span><span class="sxs-lookup"><span data-stu-id="675b9-109">Select a quality order</span></span>
-1. <span data-ttu-id="675b9-110">Avage Varude haldus > Perioodilised ülesanded > Kvaliteedijuhtimine > Kvaliteettellimused.</span><span class="sxs-lookup"><span data-stu-id="675b9-110">Go to Inventory management > Periodic tasks > Quality management > Quality orders.</span></span>
-2. <span data-ttu-id="675b9-111">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="675b9-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="675b9-112">Valige kvaliteettellimus, mis loodi enne selle protseduuri käivitamist.</span><span class="sxs-lookup"><span data-stu-id="675b9-112">Select the quality order that was created before you started this procedure.</span></span>  
+## <a name="select-a-quality-order"></a><span data-ttu-id="288ce-109">Kvaliteettellimuse valimine</span><span class="sxs-lookup"><span data-stu-id="288ce-109">Select a quality order</span></span>
+1. <span data-ttu-id="288ce-110">Avage Varude haldus > Perioodilised ülesanded > Kvaliteedijuhtimine > Kvaliteettellimused.</span><span class="sxs-lookup"><span data-stu-id="288ce-110">Go to Inventory management > Periodic tasks > Quality management > Quality orders.</span></span>
+2. <span data-ttu-id="288ce-111">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="288ce-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="288ce-112">Valige kvaliteettellimus, mis loodi enne selle protseduuri käivitamist.</span><span class="sxs-lookup"><span data-stu-id="288ce-112">Select the quality order that was created before you started this procedure.</span></span>  
 
-## <a name="record-test-results"></a><span data-ttu-id="675b9-113">Testitulemuste salvestamine</span><span class="sxs-lookup"><span data-stu-id="675b9-113">Record test results</span></span>
-1. <span data-ttu-id="675b9-114">Klõpsake suvandit Tulemused.</span><span class="sxs-lookup"><span data-stu-id="675b9-114">Click Results.</span></span>
-2. <span data-ttu-id="675b9-115">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="675b9-115">Click Edit.</span></span>
-3. <span data-ttu-id="675b9-116">Sisestage number väljale Tulemuse kogus.</span><span class="sxs-lookup"><span data-stu-id="675b9-116">In the Result quantity field, enter a number.</span></span>
-4. <span data-ttu-id="675b9-117">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="675b9-117">In the list, mark the selected row.</span></span>
-5. <span data-ttu-id="675b9-118">Klõpsake väljal Tulemus otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="675b9-118">In the Outcome field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="675b9-119">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="675b9-119">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="675b9-120">Selles näites põhineb tulemus eelmääratletud tulemusel.</span><span class="sxs-lookup"><span data-stu-id="675b9-120">In this example the result is based on a pre-defined outcome.</span></span> <span data-ttu-id="675b9-121">Üldjuhul saate salvestada täpsema katse tulemuse, nt suuruse või muu dimensiooni.</span><span class="sxs-lookup"><span data-stu-id="675b9-121">Normally you would record a more specific test result, for example a size or other dimension.</span></span>  
-7. <span data-ttu-id="675b9-122">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="675b9-122">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="675b9-123">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="675b9-123">Click Save.</span></span>
-9. <span data-ttu-id="675b9-124">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="675b9-124">Close the page.</span></span>
+## <a name="record-test-results"></a><span data-ttu-id="288ce-113">Testitulemuste salvestamine</span><span class="sxs-lookup"><span data-stu-id="288ce-113">Record test results</span></span>
+1. <span data-ttu-id="288ce-114">Klõpsake suvandit Tulemused.</span><span class="sxs-lookup"><span data-stu-id="288ce-114">Click Results.</span></span>
+2. <span data-ttu-id="288ce-115">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="288ce-115">Click Edit.</span></span>
+3. <span data-ttu-id="288ce-116">Sisestage number väljale Tulemuse kogus.</span><span class="sxs-lookup"><span data-stu-id="288ce-116">In the Result quantity field, enter a number.</span></span>
+4. <span data-ttu-id="288ce-117">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="288ce-117">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="288ce-118">Klõpsake väljal Tulemus otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="288ce-118">In the Outcome field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="288ce-119">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="288ce-119">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="288ce-120">Selles näites põhineb tulemus eelmääratletud tulemusel.</span><span class="sxs-lookup"><span data-stu-id="288ce-120">In this example the result is based on a pre-defined outcome.</span></span> <span data-ttu-id="288ce-121">Üldjuhul saate salvestada täpsema katse tulemuse, nt suuruse või muu dimensiooni.</span><span class="sxs-lookup"><span data-stu-id="288ce-121">Normally you would record a more specific test result, for example a size or other dimension.</span></span>  
+7. <span data-ttu-id="288ce-122">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="288ce-122">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="288ce-123">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="288ce-123">Click Save.</span></span>
+9. <span data-ttu-id="288ce-124">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="288ce-124">Close the page.</span></span>
 
-## <a name="validate-the-quality-order"></a><span data-ttu-id="675b9-125">Kontrolli kvaliteettellimuse õigsust</span><span class="sxs-lookup"><span data-stu-id="675b9-125">Validate the quality order</span></span>
-1. <span data-ttu-id="675b9-126">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="675b9-126">Click Validate.</span></span>
-2. <span data-ttu-id="675b9-127">Klõpsake väljal Kinnitaja otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="675b9-127">In the Validated by field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="675b9-128">Valige kontrolliv kasutaja.</span><span class="sxs-lookup"><span data-stu-id="675b9-128">Select the user performing the inspection.</span></span>  
-3. <span data-ttu-id="675b9-129">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="675b9-129">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="675b9-130">Klõpsake Vali.</span><span class="sxs-lookup"><span data-stu-id="675b9-130">Click Select.</span></span>
-5. <span data-ttu-id="675b9-131">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="675b9-131">Click OK.</span></span>
-6. <span data-ttu-id="675b9-132">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="675b9-132">Close the page.</span></span>
+## <a name="validate-the-quality-order"></a><span data-ttu-id="288ce-125">Kontrolli kvaliteettellimuse õigsust</span><span class="sxs-lookup"><span data-stu-id="288ce-125">Validate the quality order</span></span>
+1. <span data-ttu-id="288ce-126">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="288ce-126">Click Validate.</span></span>
+2. <span data-ttu-id="288ce-127">Klõpsake väljal Kinnitaja otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="288ce-127">In the Validated by field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="288ce-128">Valige kontrolliv kasutaja.</span><span class="sxs-lookup"><span data-stu-id="288ce-128">Select the user performing the inspection.</span></span>  
+3. <span data-ttu-id="288ce-129">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="288ce-129">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="288ce-130">Klõpsake Vali.</span><span class="sxs-lookup"><span data-stu-id="288ce-130">Click Select.</span></span>
+5. <span data-ttu-id="288ce-131">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="288ce-131">Click OK.</span></span>
+6. <span data-ttu-id="288ce-132">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="288ce-132">Close the page.</span></span>
 

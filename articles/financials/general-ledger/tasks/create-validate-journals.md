@@ -17,31 +17,31 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: c94d992b97e9a2a18299f97c982430f8205cabf2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329961"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566668"
 ---
-# <a name="create-and-validate-journals"></a><span data-ttu-id="ca5ea-103">Töölehtede loomine ja kinnitamine</span><span class="sxs-lookup"><span data-stu-id="ca5ea-103">Create and validate journals</span></span>
+# <a name="create-and-validate-journals"></a><span data-ttu-id="e91cc-103">Töölehtede loomine ja kinnitamine</span><span class="sxs-lookup"><span data-stu-id="e91cc-103">Create and validate journals</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ca5ea-104">Selles ülesandejuhendis luuakse ja kinnitatakse töölehed ning tööleheread.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="ca5ea-105">Ülesandes kasutatakse demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-105">This tasks uses the USMF demo company.</span></span>  
+<span data-ttu-id="e91cc-104">Selles ülesandejuhendis luuakse ja kinnitatakse töölehed ning tööleheread.</span><span class="sxs-lookup"><span data-stu-id="e91cc-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="e91cc-105">Ülesandes kasutatakse demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="e91cc-105">This tasks uses the USMF demo company.</span></span>  
 
 
 
-1. <span data-ttu-id="ca5ea-106">Avage Pearaamat > Töölehe sisestused > Päevaraamatud.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-106">Go to General ledger > Journal entries > General journals.</span></span>
-2. <span data-ttu-id="ca5ea-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-107">Click New.</span></span>
-3. <span data-ttu-id="ca5ea-108">Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-108">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="ca5ea-109">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-109">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="ca5ea-110">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-110">Click Lines.</span></span>
-6. <span data-ttu-id="ca5ea-111">Sisestage konto tüübi põhjal väljale Konto sobiv konto.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-111">In the Account field enter an appropriate account based on the Account type.</span></span>
-7. <span data-ttu-id="ca5ea-112">Sisestage väärtus väljale Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-112">In the Description field, type a value.</span></span>
-8. <span data-ttu-id="ca5ea-113">Sisestage jaotises Deebet või Kreedit väljale Konto soovitud summa.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-113">Enter an amount for the Account in either Debit or Credit.</span></span> <span data-ttu-id="ca5ea-114">Selles ülesandejuhendis eeldatakse deebetsummat.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-114">This task guide is assuming a debit amount.</span></span>
-9. <span data-ttu-id="ca5ea-115">Sisestage vastaskonto tüübi põhjal väljale Vastaskonto sobiv konto.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-115">In the Offset account field enter an appropriate account based on the Offset account type.</span></span>
-10. <span data-ttu-id="ca5ea-116">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-116">Click Validate.</span></span>
-11. <span data-ttu-id="ca5ea-117">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-117">Click Validate.</span></span>
-12. <span data-ttu-id="ca5ea-118">Klõpsake valikut Sisesta.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-118">Click Post.</span></span>
-13. <span data-ttu-id="ca5ea-119">Klõpsake suvandit Kanne.</span><span class="sxs-lookup"><span data-stu-id="ca5ea-119">Click Voucher.</span></span>
+1. <span data-ttu-id="e91cc-106">Avage Pearaamat > Töölehe sisestused > Päevaraamatud.</span><span class="sxs-lookup"><span data-stu-id="e91cc-106">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="e91cc-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="e91cc-107">Click New.</span></span>
+3. <span data-ttu-id="e91cc-108">Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="e91cc-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="e91cc-109">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="e91cc-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="e91cc-110">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="e91cc-110">Click Lines.</span></span>
+6. <span data-ttu-id="e91cc-111">Sisestage konto tüübi põhjal väljale Konto sobiv konto.</span><span class="sxs-lookup"><span data-stu-id="e91cc-111">In the Account field enter an appropriate account based on the Account type.</span></span>
+7. <span data-ttu-id="e91cc-112">Sisestage väärtus väljale Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="e91cc-112">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="e91cc-113">Sisestage jaotises Deebet või Kreedit väljale Konto soovitud summa.</span><span class="sxs-lookup"><span data-stu-id="e91cc-113">Enter an amount for the Account in either Debit or Credit.</span></span> <span data-ttu-id="e91cc-114">Selles ülesandejuhendis eeldatakse deebetsummat.</span><span class="sxs-lookup"><span data-stu-id="e91cc-114">This task guide is assuming a debit amount.</span></span>
+9. <span data-ttu-id="e91cc-115">Sisestage vastaskonto tüübi põhjal väljale Vastaskonto sobiv konto.</span><span class="sxs-lookup"><span data-stu-id="e91cc-115">In the Offset account field enter an appropriate account based on the Offset account type.</span></span>
+10. <span data-ttu-id="e91cc-116">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="e91cc-116">Click Validate.</span></span>
+11. <span data-ttu-id="e91cc-117">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="e91cc-117">Click Validate.</span></span>
+12. <span data-ttu-id="e91cc-118">Klõpsake valikut Sisesta.</span><span class="sxs-lookup"><span data-stu-id="e91cc-118">Click Post.</span></span>
+13. <span data-ttu-id="e91cc-119">Klõpsake suvandit Kanne.</span><span class="sxs-lookup"><span data-stu-id="e91cc-119">Click Voucher.</span></span>
 

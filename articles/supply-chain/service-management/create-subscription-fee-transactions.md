@@ -19,26 +19,26 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1c42f595a317170ab5bb64fcb0bb1ca299523bd7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310411"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1552157"
 ---
-# <a name="create-subscription-fee-transactions"></a><span data-ttu-id="4c108-103">Loo kordustellimuse tasu kanded</span><span class="sxs-lookup"><span data-stu-id="4c108-103">Create subscription fee transactions</span></span> 
+# <a name="create-subscription-fee-transactions"></a><span data-ttu-id="93e5e-103">Loo kordustellimuse tasu kanded</span><span class="sxs-lookup"><span data-stu-id="93e5e-103">Create subscription fee transactions</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="4c108-104">Klõpsake valikuid **Teenuste haldus** \> **Üldine** \> **Teenuse kordustellimused** \> **Kõik teenuse kordustellimused**.</span><span class="sxs-lookup"><span data-stu-id="4c108-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
+1.  <span data-ttu-id="93e5e-104">Klõpsake valikuid **Teenuste haldus** \> **Üldine** \> **Teenuse kordustellimused** \> **Kõik teenuse kordustellimused**.</span><span class="sxs-lookup"><span data-stu-id="93e5e-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
 
-2.  <span data-ttu-id="4c108-105">Valige loendilehel **Kõik teenuse kordustellimused** kordustellimus, mille jaoks soovite luua kordustellimuse tasu kannet.</span><span class="sxs-lookup"><span data-stu-id="4c108-105">On the **All service subscriptions** list page, select the subscription for which you want to create a subscription fee transaction.</span></span>
+2.  <span data-ttu-id="93e5e-105">Valige loendilehel **Kõik teenuse kordustellimused** kordustellimus, mille jaoks soovite luua kordustellimuse tasu kannet.</span><span class="sxs-lookup"><span data-stu-id="93e5e-105">On the **All service subscriptions** list page, select the subscription for which you want to create a subscription fee transaction.</span></span>
 
-3.  <span data-ttu-id="4c108-106">Klõpsake **toimingupaani** vahekaardil **Kordustellimus** nuppu **Kordustellimuse tasud**.</span><span class="sxs-lookup"><span data-stu-id="4c108-106">On the **Action Pane**, on the **Subscription** tab, click **Subscription fees**.</span></span>
+3.  <span data-ttu-id="93e5e-106">Klõpsake **toimingupaani** vahekaardil **Kordustellimus** nuppu **Kordustellimuse tasud**.</span><span class="sxs-lookup"><span data-stu-id="93e5e-106">On the **Action Pane**, on the **Subscription** tab, click **Subscription fees**.</span></span>
 
-4.  <span data-ttu-id="4c108-107">Sisestage asjakohane teave vormil väljadele **Kordustellimuse tasu loomine**.</span><span class="sxs-lookup"><span data-stu-id="4c108-107">On the **Create subscription fee** form, enter the appropriate information in the fields.</span></span>
+4.  <span data-ttu-id="93e5e-107">Sisestage asjakohane teave vormil väljadele **Kordustellimuse tasu loomine**.</span><span class="sxs-lookup"><span data-stu-id="93e5e-107">On the **Create subscription fee** form, enter the appropriate information in the fields.</span></span>
 
-5.  <span data-ttu-id="4c108-108">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="4c108-108">Click **OK**.</span></span>
+5.  <span data-ttu-id="93e5e-108">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="93e5e-108">Click **OK**.</span></span>
 
   
 
