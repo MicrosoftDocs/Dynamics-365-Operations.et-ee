@@ -16,41 +16,41 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: dd9d40bb331b9e024617c8be55330dfce8ba1cc6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "309468"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555904"
 ---
-# <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a><span data-ttu-id="b9f9f-103">Toote elutsükli oleku määramine väljastatud tooteetalonile</span><span class="sxs-lookup"><span data-stu-id="b9f9f-103">Assign a product lifecycle state to a released product master</span></span>
+# <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a><span data-ttu-id="4252b-103">Toote elutsükli oleku määramine väljastatud tooteetalonile</span><span class="sxs-lookup"><span data-stu-id="4252b-103">Assign a product lifecycle state to a released product master</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b9f9f-104">See protseduur näitab, kuidas määrata toote elutsükli olek väljastatud tooteetalonile ja selle variantidele.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-104">This procedure shows how to assign a product lifecycle state to a released product master and its variants.</span></span> <span data-ttu-id="b9f9f-105">Eeltingimus: teil tuleb esmalt esitada tegevuse juhist „Uue toote elutsükli oleku loomine” ja veenduda, et vähemalt üks toote elutsükli olek oleks loodud, et saaksite tegevuse juhist esitada.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that you have at least one product lifecycle state created before you can play this task guide.</span></span>
+<span data-ttu-id="4252b-104">See protseduur näitab, kuidas määrata toote elutsükli olek väljastatud tooteetalonile ja selle variantidele.</span><span class="sxs-lookup"><span data-stu-id="4252b-104">This procedure shows how to assign a product lifecycle state to a released product master and its variants.</span></span> <span data-ttu-id="4252b-105">Eeltingimus: teil tuleb esmalt esitada tegevuse juhist „Uue toote elutsükli oleku loomine” ja veenduda, et vähemalt üks toote elutsükli olek oleks loodud, et saaksite tegevuse juhist esitada.</span><span class="sxs-lookup"><span data-stu-id="4252b-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that you have at least one product lifecycle state created before you can play this task guide.</span></span>
 
 
-## <a name="find-a-released-product-master"></a><span data-ttu-id="b9f9f-106">Väljastatud tooteetaloni ülesotsimine</span><span class="sxs-lookup"><span data-stu-id="b9f9f-106">Find a released product master</span></span>
-1. <span data-ttu-id="b9f9f-107">Avage Tooteteabe haldus > Tooted > Väljastatud tooted.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-107">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="b9f9f-108">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-108">In the list, find and select the desired record.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="b9f9f-109">Tooteetaloni alamtüüp on Tooteetalon.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-109">A product master has the Product subtype Product master.</span></span>  
-
-## <a name="update-the-lifecycle-state"></a><span data-ttu-id="b9f9f-110">Elutsükli oleku värskendamine</span><span class="sxs-lookup"><span data-stu-id="b9f9f-110">Update the lifecycle state</span></span>
-1. <span data-ttu-id="b9f9f-111">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-111">Click Edit.</span></span>
-2. <span data-ttu-id="b9f9f-112">Väljal Toote elutsükli olek sisestage või valige väärtus.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-112">In the Product lifecycle state field, enter or select a value.</span></span>
-3. <span data-ttu-id="b9f9f-113">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-113">Click Save.</span></span>
-4. <span data-ttu-id="b9f9f-114">Klõpsake nuppu Jah.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-114">Click Yes.</span></span>
+## <a name="find-a-released-product-master"></a><span data-ttu-id="4252b-106">Väljastatud tooteetaloni ülesotsimine</span><span class="sxs-lookup"><span data-stu-id="4252b-106">Find a released product master</span></span>
+1. <span data-ttu-id="4252b-107">Avage Tooteteabe haldus > Tooted > Väljastatud tooted.</span><span class="sxs-lookup"><span data-stu-id="4252b-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="4252b-108">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="4252b-108">In the list, find and select the desired record.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b9f9f-115">Kui valitud on Jah, värskendatakse toote uue elutsükli oleku alusel ka kõiki seotud väljastatud tootevariante, millel on sama algne olek mis väljastatud tooteetalonil.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-115">If Yes is selected, all the related released product variants that have the same original status as the released product master are also updated to the new product lifecycle state.</span></span> <span data-ttu-id="b9f9f-116">Kui valitud on Ei, säilitatakse kõikide variantide praegune olek.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-116">If No is selected, all variants keep their actual state.</span></span> <span data-ttu-id="b9f9f-117">Väljastatud tooteetalonist erineva elutsükli olekuga variante ei värskendata.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-117">Variants that have a different product lifecycle state from the released product master are not updated.</span></span>  
+> <span data-ttu-id="4252b-109">Tooteetaloni alamtüüp on Tooteetalon.</span><span class="sxs-lookup"><span data-stu-id="4252b-109">A product master has the Product subtype Product master.</span></span>  
 
-## <a name="verify-the-lifecycle-state-of-the-variants"></a><span data-ttu-id="b9f9f-118">Variantide elutsükli oleku kontrollimine</span><span class="sxs-lookup"><span data-stu-id="b9f9f-118">Verify the lifecycle state of the variants</span></span>
-1. <span data-ttu-id="b9f9f-119">Klõpsake valikut Väljastatud tootevariandid.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-119">Click Released product variants.</span></span>
+## <a name="update-the-lifecycle-state"></a><span data-ttu-id="4252b-110">Elutsükli oleku värskendamine</span><span class="sxs-lookup"><span data-stu-id="4252b-110">Update the lifecycle state</span></span>
+1. <span data-ttu-id="4252b-111">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="4252b-111">Click Edit.</span></span>
+2. <span data-ttu-id="4252b-112">Väljal Toote elutsükli olek sisestage või valige väärtus.</span><span class="sxs-lookup"><span data-stu-id="4252b-112">In the Product lifecycle state field, enter or select a value.</span></span>
+3. <span data-ttu-id="4252b-113">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="4252b-113">Click Save.</span></span>
+4. <span data-ttu-id="4252b-114">Klõpsake nuppu Jah.</span><span class="sxs-lookup"><span data-stu-id="4252b-114">Click Yes.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b9f9f-120">Pange tähele, et kõik variandid pärivad väljastatud tooteetaloni jaoks valitud elutsükli oleku.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-120">Note that all variants have inherited the selected lifecycle state from the released product master.</span></span>  
+> <span data-ttu-id="4252b-115">Kui valitud on Jah, värskendatakse toote uue elutsükli oleku alusel ka kõiki seotud väljastatud tootevariante, millel on sama algne olek mis väljastatud tooteetalonil.</span><span class="sxs-lookup"><span data-stu-id="4252b-115">If Yes is selected, all the related released product variants that have the same original status as the released product master are also updated to the new product lifecycle state.</span></span> <span data-ttu-id="4252b-116">Kui valitud on Ei, säilitatakse kõikide variantide praegune olek.</span><span class="sxs-lookup"><span data-stu-id="4252b-116">If No is selected, all variants keep their actual state.</span></span> <span data-ttu-id="4252b-117">Väljastatud tooteetalonist erineva elutsükli olekuga variante ei värskendata.</span><span class="sxs-lookup"><span data-stu-id="4252b-117">Variants that have a different product lifecycle state from the released product master are not updated.</span></span>  
 
-2. <span data-ttu-id="b9f9f-121">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-121">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="b9f9f-122">Väljal Toote elutsükli olek sisestage või valige väärtus.</span><span class="sxs-lookup"><span data-stu-id="b9f9f-122">In the Product lifecycle state field, enter or select a value.</span></span>
+## <a name="verify-the-lifecycle-state-of-the-variants"></a><span data-ttu-id="4252b-118">Variantide elutsükli oleku kontrollimine</span><span class="sxs-lookup"><span data-stu-id="4252b-118">Verify the lifecycle state of the variants</span></span>
+1. <span data-ttu-id="4252b-119">Klõpsake valikut Väljastatud tootevariandid.</span><span class="sxs-lookup"><span data-stu-id="4252b-119">Click Released product variants.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="4252b-120">Pange tähele, et kõik variandid pärivad väljastatud tooteetaloni jaoks valitud elutsükli oleku.</span><span class="sxs-lookup"><span data-stu-id="4252b-120">Note that all variants have inherited the selected lifecycle state from the released product master.</span></span>  
+
+2. <span data-ttu-id="4252b-121">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="4252b-121">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="4252b-122">Väljal Toote elutsükli olek sisestage või valige väärtus.</span><span class="sxs-lookup"><span data-stu-id="4252b-122">In the Product lifecycle state field, enter or select a value.</span></span>
 
