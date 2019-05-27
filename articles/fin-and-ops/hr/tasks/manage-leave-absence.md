@@ -17,33 +17,33 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4ce57495be4ae601d6ac06bb4780a2e1192dfcc5
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859340"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1509753"
 ---
-# <a name="manage-leave-of-absence"></a><span data-ttu-id="83e30-103">Puhkuse haldamine</span><span class="sxs-lookup"><span data-stu-id="83e30-103">Manage leave of absence</span></span>
+# <a name="manage-leave-of-absence"></a><span data-ttu-id="bc0fe-103">Puhkuse haldamine</span><span class="sxs-lookup"><span data-stu-id="bc0fe-103">Manage leave of absence</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="83e30-104">Selles protseduuris näitlikustatakse, kuidas luua töötaja puhkusekirjeid.</span><span class="sxs-lookup"><span data-stu-id="83e30-104">This procedure walks through the creation of employee leave records.</span></span> <span data-ttu-id="83e30-105">Saate jälgida erinevatel põhjustel, nagu meditsiiniline, hariduslik või vanemlikud kohustused, puhkusel oldud aega.</span><span class="sxs-lookup"><span data-stu-id="83e30-105">You can track leave time for reasons that include medical, educational, or parental activities.</span></span> <span data-ttu-id="83e30-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="83e30-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="bc0fe-104">Selles protseduuris näitlikustatakse, kuidas luua töötaja puhkusekirjeid.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-104">This procedure walks through the creation of employee leave records.</span></span> <span data-ttu-id="bc0fe-105">Saate jälgida erinevatel põhjustel, nagu meditsiiniline, hariduslik või vanemlikud kohustused, puhkusel oldud aega.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-105">You can track leave time for reasons that include medical, educational, or parental activities.</span></span> <span data-ttu-id="bc0fe-106">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="83e30-107">Avage Personaliarvestus > Töötajad > Töötajad.</span><span class="sxs-lookup"><span data-stu-id="83e30-107">Go to Human resources > Workers > Employees.</span></span>
-2. <span data-ttu-id="83e30-108">Valige loendist töötaja.</span><span class="sxs-lookup"><span data-stu-id="83e30-108">In the list, select an employee.</span></span>
-3. <span data-ttu-id="83e30-109">Töötaja nime valides saate kuvada üksikasjaliku teabe valitud töötaja kohta.</span><span class="sxs-lookup"><span data-stu-id="83e30-109">Display detailed information for the selected employee by selecting the employee's name.</span></span>
-4. <span data-ttu-id="83e30-110">Klõpsake vahekaarti Tööhõive.</span><span class="sxs-lookup"><span data-stu-id="83e30-110">Click the Employment tab.</span></span>
-5. <span data-ttu-id="83e30-111">Klõpsake valikut Puhkus.</span><span class="sxs-lookup"><span data-stu-id="83e30-111">Click Leave.</span></span>
-6. <span data-ttu-id="83e30-112">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="83e30-112">Click New.</span></span>
-7. <span data-ttu-id="83e30-113">Klõpsake väljal Puhkuse tüüp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="83e30-113">In the Leave type field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="83e30-114">Puhkuse tüübi saate tulukoodiga seostada vormil Puhkuse tüübid.</span><span class="sxs-lookup"><span data-stu-id="83e30-114">You can associate a leave type to an earning code in the Leave types form.</span></span> <span data-ttu-id="83e30-115">Kui tulukoodiga on seostatud puhkuse tüüp, luuakse sisestatud puudumisperioodiks tulukoodiga seostatud tulurida.</span><span class="sxs-lookup"><span data-stu-id="83e30-115">If a leave type is associated with an earning code, an earning line will be generated with the associated earning code during the leave period that you enter.</span></span>  
-8. <span data-ttu-id="83e30-116">Valige loendist puhkuse tüüp.</span><span class="sxs-lookup"><span data-stu-id="83e30-116">In the list, select a leave type.</span></span> 
-    * <span data-ttu-id="83e30-117">Näide: adopteerimine</span><span class="sxs-lookup"><span data-stu-id="83e30-117">For example: Adoption</span></span>  
-9. <span data-ttu-id="83e30-118">Sisestage puhkuse alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="83e30-118">Enter the date that the leave will start.</span></span> <span data-ttu-id="83e30-119">Näide: 26.10.2015</span><span class="sxs-lookup"><span data-stu-id="83e30-119">Example: '2015-10-26'</span></span>
-    * <span data-ttu-id="83e30-120">Näide: 26.10.2015</span><span class="sxs-lookup"><span data-stu-id="83e30-120">For example:  2015-10-26</span></span>  
-10. <span data-ttu-id="83e30-121">Sisestage puhkuse alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="83e30-121">Enter the date that the leave will start.</span></span> 
-    * <span data-ttu-id="83e30-122">Näide: 20.11.2015</span><span class="sxs-lookup"><span data-stu-id="83e30-122">For example:  2015-11-20</span></span>  
-11. <span data-ttu-id="83e30-123">Sisestage märkuse väljale kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="83e30-123">In the note field, enter a description.</span></span>
-    * <span data-ttu-id="83e30-124">Näide: adopteerimispuhkus</span><span class="sxs-lookup"><span data-stu-id="83e30-124">For example: Leave for adoption</span></span>  
-12. <span data-ttu-id="83e30-125">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="83e30-125">Click Save.</span></span>
+1. <span data-ttu-id="bc0fe-107">Avage Personaliarvestus > Töötajad > Töötajad.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-107">Go to Human resources > Workers > Employees.</span></span>
+2. <span data-ttu-id="bc0fe-108">Valige loendist töötaja.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-108">In the list, select an employee.</span></span>
+3. <span data-ttu-id="bc0fe-109">Töötaja nime valides saate kuvada üksikasjaliku teabe valitud töötaja kohta.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-109">Display detailed information for the selected employee by selecting the employee's name.</span></span>
+4. <span data-ttu-id="bc0fe-110">Klõpsake vahekaarti Tööhõive.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-110">Click the Employment tab.</span></span>
+5. <span data-ttu-id="bc0fe-111">Klõpsake valikut Puhkus.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-111">Click Leave.</span></span>
+6. <span data-ttu-id="bc0fe-112">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-112">Click New.</span></span>
+7. <span data-ttu-id="bc0fe-113">Klõpsake väljal Puhkuse tüüp otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-113">In the Leave type field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="bc0fe-114">Puhkuse tüübi saate tulukoodiga seostada vormil Puhkuse tüübid.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-114">You can associate a leave type to an earning code in the Leave types form.</span></span> <span data-ttu-id="bc0fe-115">Kui tulukoodiga on seostatud puhkuse tüüp, luuakse sisestatud puudumisperioodiks tulukoodiga seostatud tulurida.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-115">If a leave type is associated with an earning code, an earning line will be generated with the associated earning code during the leave period that you enter.</span></span>  
+8. <span data-ttu-id="bc0fe-116">Valige loendist puhkuse tüüp.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-116">In the list, select a leave type.</span></span> 
+    * <span data-ttu-id="bc0fe-117">Näide: adopteerimine</span><span class="sxs-lookup"><span data-stu-id="bc0fe-117">For example: Adoption</span></span>  
+9. <span data-ttu-id="bc0fe-118">Sisestage puhkuse alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-118">Enter the date that the leave will start.</span></span> <span data-ttu-id="bc0fe-119">Näide: 26.10.2015</span><span class="sxs-lookup"><span data-stu-id="bc0fe-119">Example: '2015-10-26'</span></span>
+    * <span data-ttu-id="bc0fe-120">Näide: 26.10.2015</span><span class="sxs-lookup"><span data-stu-id="bc0fe-120">For example:  2015-10-26</span></span>  
+10. <span data-ttu-id="bc0fe-121">Sisestage puhkuse alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-121">Enter the date that the leave will start.</span></span> 
+    * <span data-ttu-id="bc0fe-122">Näide: 20.11.2015</span><span class="sxs-lookup"><span data-stu-id="bc0fe-122">For example:  2015-11-20</span></span>  
+11. <span data-ttu-id="bc0fe-123">Sisestage märkuse väljale kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-123">In the note field, enter a description.</span></span>
+    * <span data-ttu-id="bc0fe-124">Näide: adopteerimispuhkus</span><span class="sxs-lookup"><span data-stu-id="bc0fe-124">For example: Leave for adoption</span></span>  
+12. <span data-ttu-id="bc0fe-125">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="bc0fe-125">Click Save.</span></span>
 
