@@ -1,16 +1,16 @@
 ---
 title: Täpsemad vormingusuvandid finantsaruandluses
 description: Finantsaruandluses aruannet luues on saadaval täiendavad vormindusfunktsioonid, sealhulgas dimensioonide filtrid, veergude ja aruandlusüksuste piirangud, mitteprinditavad read ja IF-/THEN-/ELSE-laused arvutustes.
-author: ShylaThompson
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 70f69fdad3d9186886190c62fba08af06d2a24d6
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335573"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1502561"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Täpsemad vormingusuvandid finantsaruandluses
 
@@ -41,6 +41,7 @@ Järgmises tabelis selgitatakse täpsemaid vormingufunktsioone, mis on aruannete
 | Veeru piirang         | Readefinitsiooni veeru piirang on kasulik väärtuste peitmiseks, mis on asjakohased ainult mõne aruande rea puhul. Rea protsendiarvutuste tegemisel takistab veeru piirang kogusumma veergude või muude veergude printimise, kui need numbrid ei kehti. |
 | Veerupiir               | Saate lisada readefinitsiooni veerupiire aruande teabe kõrvuti kuvamiseks. Saate lisada ühte readefinitsiooni mitu veerupiiri ja veerupäised korduvad iga veeru ülaosas pärast veerupiiri. Aruande kommentaarid kuvatakse veerupiiride vahel. |
 | Lause IF/THEN/ELSE     | Saate muuta readefinitsiooni või veeru definitsiooni arvutusi. |
+| Kasutage ühekordseid jutumärke ('') ning ja-märki (&) dimensiooniväärtuste jaoks | Saate kasutada dimensiooniväärtusi, sh ja-märki ning märki aruande kujunduse jaoks. |
 
 ## <a name="advanced-cell-placement"></a>Täpsem lahtri paigutus
 Täpsem lahtri paigutus või *sundimine* hõlmab kindlate väärtuste paigutamist kindlatesse lahtritesse. Näiteks kasutatakse sundimist sageli rahavoogude aruande õige saldo teisaldamiseks. Saate kasutada sundimist järgmistel eesmärkidel.
@@ -297,3 +298,9 @@ Lause **IF/THEN/ELSE** võimaldab mis tahes arvutuse sõltumise teiste veergude 
 
 > [!NOTE]
 > Arvutuse tulemusi ei saa panna muusse veergu. Tulemused peavad olema valemit sisaldavas veerus.
+
+#### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Kasutage ühekordseid jutumärke ('') ning ja-märki (&) dimensiooniväärtusi reas, veerus või aruandluspuul
+
+Saate koostada aruandeid, kasutades dimensiooniväärtusi, mis sisaldavad ja-märki (&). 
+
+Mis tahes väljal **Link finantsdimensioonidele** saate sisestada väärtuse nagu **"P & L"**. Ühekordsete jutumärkide (' ') kasutamine dimensiooniväärtuse mõlemal küljel näitab, et kasutate literaalväärtust, sh ja-märk (&). 
