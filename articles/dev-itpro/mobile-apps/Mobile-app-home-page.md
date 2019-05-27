@@ -18,11 +18,11 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321382"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554458"
 ---
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Rakenduse Dynamics 365 for Unified Operations Mobile koduleht
 
@@ -84,12 +84,12 @@ Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Micro
 <td>1</td>
 <td>Süsteemiadministraator</td>
 <td>Juurutage oma organisatsioonis rakendust Finance and Operations.</td>
-<td><ul><li>Kui te ei ole veel ühtegi Microsoft Dynamics 365 versiooni juurutanud, vt jaotist <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>.</li><li>Kasutatavate mobiilsete tööruumide loendi leiate jaotisest <a href="mobile-workspaces-released.md">Hiljuti välja antud mobiilsed tööruumid</a>.</li></ul></td>
+<td><ul><li>Kui te e&#39;i ole veel ühtegi Microsoft Dynamics 365 versiooni juurutanud, vt jaotist <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>.</li><li>Kasutatavate mobiilsete tööruumide loendi leiate jaotisest <a href="mobile-workspaces-released.md">Hiljuti välja antud mobiilsed tööruumid</a>.</li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>Süsteemiadministraator</td>
-<td><strong>Kui kasutate Microsoft Dynamics 365 for Operationsi versiooni 1611:</strong> laadige alla ja installige KB-d, mis lubavad Microsofti pakutavad mobiilsed tööruumid.</td>
+<td><strong>Kui kasutat&#39;e Microsoft Dynamics 365 for Operationsi versiooni 1611:</strong> laadige alla ja installige KB-d, mis lubavad Microsofti pakutavad mobiilsed tööruumid.</td>
 <td>Lisateavet vt järgmistest teemadest.
 <ul>
 

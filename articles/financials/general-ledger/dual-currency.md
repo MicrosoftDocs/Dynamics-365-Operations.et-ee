@@ -3,7 +3,7 @@ title: Topeltvaluuta
 description: Selles teemas antakse teavet topeltvaluuta kohta, kui kasutatakse rakenduses Microsoft Dynamics 365 for Finance and Operations kasutatakse teise arvestusvaluutana aruandlusvaluutat.
 author: kweekley
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 05/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3665ec1cb15fc63e5707a4721699872fe81424a0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330306"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1532244"
 ---
 # <a name="dual-currency"></a>Topeltvaluuta
 
@@ -61,6 +61,9 @@ Erinevate aruannete ja päringute korral lisati ka loogika, kus aruandlusvaluuta
 ## <a name="financial-journals"></a>Finantstöölehed
 
 Finantstöölehed nagu päevaraamat ja hankija arvete tööleht on uuendatud nii, et nad sisaldavad lisateavet aruandlusvaluuta kohta. Kande ja töölehe kogusummad kuvatakse nüüd aruandlusvaluutas. Lisaks kuvatakse nüüd aruandlusvaluuta vahetuskursi andmeid töölehe ridade vahekaardil **Üldine**. Seega saate kandeid sisestades aruandlusvaluuta vahetuskursi alistada.
+
+## <a name="vendor-invoices-sales-orders-and-sales-agreements"></a>Hankijaarved, müügitellimused ja müügilepingud
+Hankijaarved, müügitellimused ja müügilepingud on uuendatud, et kaasata aruandlusvaluuta jaoks fikseeritud vahetuskurss. Fikseeritud vahetuskurssi saab määratleda nii arvestusvaluuta kui ka aruandevaluuta puhul, kui kandevaluuta on erinev. Kui arvestusvaluuta ja aruandevaluuta on samad, hoitakse fikseeritud vahetuskurssi sünkroonis, kasutades aruandlusvaluuta fikseeritud määra arvestusvaluuta fikseeritud määrana. Selle konfiguratsiooni puhul ei saa muuta aruandlusvaluuta fikseeritud vahetuskurssi. Kui arvestusvaluuta ja aruandlusvaluuta erinevad, siis saab fikseeritud vahetuskurssi määratleda nii arvestusvaluuta kui ka aruandlusvaluuta puhul kandekirje ajal. Kui aruandlusvaluuta ei ole pearaamatus määratletud, pole väli **Aruandlusvaluuta fikseeritud vahetuskurss** lubatud ja ühtegi aruandlusvaluuta summat ei arvutata.
 
 ## <a name="module-changes"></a>Mooduli muudatused
 

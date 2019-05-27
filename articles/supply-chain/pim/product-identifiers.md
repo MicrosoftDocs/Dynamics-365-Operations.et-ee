@@ -20,11 +20,11 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
 ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335412"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546221"
 ---
 # <a name="product-identifiers"></a>Toote identifikaatorid 
 
@@ -132,7 +132,7 @@ Kahjuks pole standardfunktsiooni, mis võimaldaks tooteid otsida väliste koodid
 | Väljastatud toodevariantide väliskoodid | Väline kood | Väline kood, väliskoodi klassid, kaubakood, tootedimensioonid | Välised koodid on esitatud juriidilise isiku alusel. Importimiseks peate viitama määratletud koodiklassile. Importige koodiklassid, kasutades üksust **Väljastatud toodete väliskoodi klassid**. See üksus viitab tootevariantidele kaubakoodi ja tootedimensioonide alusel. |
 | Väljastatud tootevariantide välised koodid tootenumbri identifikaatori järgi | Väline kood | Väline kood, väliskoodi klassid, tootenumber | Välised koodid on esitatud juriidilise isiku alusel. Importimiseks peate viitama määratletud koodiklassile. Importige koodiklassid, kasutades üksust **Väljastatud toodete väliskoodi klassid**. See üksus viitab tootevariantidele variandi tootenumbri järgi. (Alates järgmisest peamisest väljalaskest) |
 | GTIN | Pole kohaldatav | Pole kohaldatav | Praegu pole ühtegi kindlat üksust, mida kasutatakse GTIN-koodide importimiseks ja eksportimiseks. Soovitame kasutada üksust **Kauba vöötkood**. |
-| Tooteüksuse Common Data Service’i identifikaatori üksus | Pole kohaldatav | Kaubakood, kauba otsingunimi, toote otsingunimi, hankija kaubakood, kliendi kaubakood, välised koodid, GTIN-koodid, vöötkoodid | See üksus konsolideerib kõik identifikaatorid ühte andmemudelisse, et kõigi identifikaatorite ja nende seotud tüüpide eksportimiseks saaks kasutada ühte liidest. Kasutage üksust **Tooteüksuse identifitseerimiskood**, et eksportida identifitseerimiskoodid ja kirjeldused. Kasutage üksust **Tooteüksuse identifikaatori ulatus**, et eksportida identifikaatorisse täiendavat ulatuse teavet, nagu osapool, juriidiline isik, kogus või ühik. |
+| Tooteüksuse common data service’i identifikaatori üksus | Pole kohaldatav | Kaubakood, kauba otsingunimi, toote otsingunimi, hankija kaubakood, kliendi kaubakood, välised koodid, GTIN-koodid, vöötkoodid | See üksus konsolideerib kõik identifikaatorid ühte andmemudelisse, et kõigi identifikaatorite ja nende seotud tüüpide eksportimiseks saaks kasutada ühte liidest. Kasutage üksust **Tooteüksuse identifitseerimiskood**, et eksportida identifitseerimiskoodid ja kirjeldused. Kasutage üksust **Tooteüksuse identifikaatori ulatus**, et eksportida identifikaatorisse täiendavat ulatuse teavet, nagu osapool, juriidiline isik, kogus või ühik. |
 
 ### <a name="product-and-item-number-sequences"></a>Toote ja kauba numbriseeriad
 
@@ -162,15 +162,15 @@ Järgmine tabel annab ülevaate importimise ja käsitsi loomise tulemustest, kui
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Tooteüksuse identifikaator (kõigi tooteidentifikaatorite eksportimine)
 
-Tooteüksuse identifikaatori mudel loodi selleks, et lubada CDS-i versiooni 1.0 ettevalmistamist kõigi identifikaatoritega, mida kasutatakse tootele viitamiseks. Ülesande lihtsustamiseks koondatakse kõik identifikaatorid ühte globaalsesse identifikaatorite tabelisse, et neid saaks eksportida ühe mudelina. Pange tähele, et CDS-i see versioon ei kasutada tooteidentifikaatorite mudelit. Seetõttu on üksuse **Tooteüksuse Common Data Service’i identifikaatori üksus** ja selle protsessi praktilisus piiratud ja see võib tulevikus muutuda.
+Tooteüksuse identifikaatori mudel loodi selleks, et lubada CDS-i versiooni 1.0 ettevalmistamist kõigi identifikaatoritega, mida kasutatakse tootele viitamiseks. Ülesande lihtsustamiseks koondatakse kõik identifikaatorid ühte globaalsesse identifikaatorite tabelisse, et neid saaks eksportida ühe mudelina. Pange tähele, et CDS-i see versioon ei kasutada tooteidentifikaatorite mudelit. Seetõttu on üksuse **Tooteüksuse common data service’i identifikaatori üksus** ja selle protsessi praktilisus piiratud ja see võib tulevikus muutuda.
 
-Tooteidentifikaatorite tabel on globaalne tabel, kuhu lisatakse korduva pakett-töö kaudu andmeid kõigist peamise juriidilise isiku viitetabelitest. Peate globaalse tooteetaloni ulatuse määratlusena valima juriidilise isiku ja tootekategooria hierarhia. Globaalse tooteidentifikaatorite tabeli loomine on piiratud toodetega, mis on väljastatud valitud juriidilisse isikusse, ja toodetega, mis on tootekategooria hierarhias oleva rolli **Common Data Service** jaoks valitud tootehierarhia liikmed.
+Tooteidentifikaatorite tabel on globaalne tabel, kuhu lisatakse korduva pakett-töö kaudu andmeid kõigist peamise juriidilise isiku viitetabelitest. Peate globaalse tooteetaloni ulatuse määratlusena valima juriidilise isiku ja tootekategooria hierarhia. Globaalse tooteidentifikaatorite tabeli loomine on piiratud toodetega, mis on väljastatud valitud juriidilisse isikusse, ja toodetega, mis on tootekategooria hierarhias oleva rolli **common data service'i** jaoks valitud tootehierarhia liikmed.
 
 See protsess eeldab, et toote koondandmeid hallatakse peamiselt ühes keskses juriidilises isikus. (Kuid see juriidiline isik võib olla virtuaalne juriidiline isik, mida kasutatakse ainult globaalsete koondandmete haldamiseks.)
 
 Keskkonna konfigureerimiseks tehke järgmist.
 
-1. Valige CDS-i jaoks kategooriahierarhia. Kui lehel **Kategooriahierarhia rolli seosed** pole rolliga **Common Data Service** seostatud ühtegi hierarhiat, peate looma uue seose. Valige roll **Common Data Service** ja seejärel seostage kategooriahierarhia, mis esindab tooteportfooliot, mis tuleb CDS-iga sünkroonida.
+1. Valige CDS-i jaoks kategooriahierarhia. Kui lehel **Kategooriahierarhia rolli seosed** pole rolliga **common data service** seostatud ühtegi hierarhiat, peate looma uue seose. Valige roll **common data service** ja seejärel seostage kategooriahierarhia, mis esindab tooteportfooliot, mis tuleb CDS-iga sünkroonida.
 2. Valige globaalsete toote koondandmete jaoks juriidiline isik. Lehel **Tooteteabe halduse parameetrid** vahekaardil **Toote atribuudid** valige peaettevõte, kus toote ja kauba identifikaatoreid peamiselt hallatakse.
 3. Määratlege identifitseerimiskoodide tüübid ja koodid, mis tuleb eksportida. Avage **Tooteteabe haldus** &gt; **Häälestus** &gt; **Toote identifitseerimiskoodid**. Identifitseerimiskoodide tüüpide loomiseks valige **Loo koodid**. Koodi tüübi kirje luuakse iga identifikaatoritüübi jaoks, mis leitakse valitud juriidilisest isikust.
 
@@ -180,7 +180,7 @@ Keskkonna konfigureerimiseks tehke järgmist.
 
 4. Kui olete lõpetanud tooteidentifikaatori kooditüüpide määratlemise, saate luua identifikaatoreid globaalses tabelis, käivitades lehel **Tooteüksuse identifitseerimiskoodid** töö **Tooteüksuse identifikaatorite loomine**. See töö tuleks käivitada pakett-tööna. See töö tuleks seadistada perioodilise pakett-tööna, et tabelit täidetaks uute kirjete kohaselt.
 
-Nüüd saate kasutada andmeüksuseid **Tooteüksuse Common Data Service’i identifikaatori üksus**, **Tooteüksuse identifitseerimiskood** ja **Tooteüksuse identifikaatori ulatus**, et eksportida identifikaatoreid mis tahes sihtsüsteemi jaoks.
+Nüüd saate kasutada andmeüksuseid **Tooteüksuse common data service’i identifikaatori üksus**, **Tooteüksuse identifitseerimiskood** ja **Tooteüksuse identifikaatori ulatus**, et eksportida identifikaatoreid mis tahes sihtsüsteemi jaoks.
 
 ## <a name="related-topic"></a>Seotud teema
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992879"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527667"
 ---
 # <a name="removed-or-deprecated-features"></a>Eemaldatud või aegunud funktsioonid
 
@@ -66,26 +66,6 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Mõjutatud tootealad**         | Veebiklient |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud: alates aprillist 2020 on parandatud filtreerimisvõimalus „üks (mitmest)” vaikekäitumine ilma pärandkäitumisele ennistamise mehhanismita. |
-
-### <a name="deriving-from-internal-classes-is-deprecated"></a>Siseklassidest tuletamine on aegunud
-
-|   |  |
-|------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Enne platvormivärskendust 25 oli võimalik luua klass või tabel, mis on tuletatud teises paketis/moodulis määratletud siseklassist/-tabelist. See ei ole ohutu programmeerimistava. Alates platvormivärskendusest 25 kuvab kompilaator hoiatuse. |
-| **Asendatud teise funktsiooniga?**   | Kompilaatori hoiatus asendatakse platvormivärskenduses 26 tõrkega. See muudatus on käitamise ajal tagasiühilduv, mis tähendab seda, et platvormivärskenduse 25 või uuema saab juurutada ükskõik millises liivakasti- või tootmiskeskkonnas ilma kohandatud koodi muutmata. See muudatus mõjutab ainult arendus- ja kompileerimisaega.|
-| **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
-| **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud: hoiatus muutub platvormivärskenduses 26 kompileerimistõrkeks. |
-
-### <a name="overriding-internal-methods-is-deprecated"></a>Sisemeetodite alistamine on aegunud
-
-|   |  |
-|------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Enne platvormivärskendust 25 oli võimalik alistada teises paketis/moodulis määratletud tuletatud klassi sisemeetod. See ei ole ohutu programmeerimistava. Alates platvormivärskendusest 25 kuvab kompilaator hoiatuse. |
-| **Asendatud teise funktsiooniga?**   | See hoiatus asendatakse platvormivärskenduses 26 kompileerimistõrkega. See muudatus on käitamise ajal tagasiühilduv, mis tähendab seda, et platvormivärskenduse 25 või uuema saab juurutada ükskõik millises liivakasti- või tootmiskeskkonnas ilma kohandatud koodi muutmata. See muudatus mõjutab ainult arendus- ja kompileerimisaega. |
-| **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
-| **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud: hoiatus muutub platvormivärskenduses 26 kompileerimistõrkeks. |
 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parameeter müügitellimuste lubamiseks mitme projektilepingu rahastamisallikaga
 Projektipõhiste müügitellimuste loomise toe, kui projektilepingul on mitu rahastamisallikat, lubatakse suvandi **Projektihalduse parameetrid** sättega **Luba müügitellimused mitme rahastamisallikaga projekti puhul**. Vaikimisi ei ole see parameeter lubatud. 

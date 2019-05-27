@@ -16,12 +16,12 @@ ms.search.region: Estonia
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52940dedc05765d376ecc9e2eb52fa9d9c83e4fa
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 635374024e7759a6d7373fcd79e49b3b32025504
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370584"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537826"
 ---
 # <a name="ee-00015-payment-reference-generation-tool"></a>EE-00015 Makseviite loomise tööriist
 

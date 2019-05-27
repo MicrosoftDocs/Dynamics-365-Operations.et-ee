@@ -18,11 +18,11 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: d0b563044843157940f456b07479bbd6006a42f9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "347441"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548669"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu
 
@@ -32,7 +32,7 @@ See teema kirjeldab, mida hõlmab **kuluarvestuse analüüsi** Microsoft Power B
 
 ## <a name="overview"></a>Ülevaade
 
-**Kuluarvestuse analüüsi** Power BI sisu on mõeldud kulukontrollijatele või organisatsioonis kulujuhtimise eest vastutavatele isikutele. See hõlmab põhimõõdikuid, nagu kulu, väärtus ja kulumäär tegeliku kulu, eelarvekulu ja paindliku eelarvekulu alusel. See kasutab kandeandmeid Microsoft Dynamics 365 for Operationsi **kuluarvestuse** moodulist ja annab koondvaate kogu organisatsiooni kuludest ühes aruandlusvaluutas. Haldajad saavad andmeid filtreerida kuluobjektide alusel oma organisatsiooniüksuste kulujuhtimiseks, isegi kui organisatsioonil on mitu juriidilist isikut.
+**Kuluarvestuse analüüsi** Power BI sisu on mõeldud kulukontrollijatele või organisatsioonis kulujuhtimise eest vastutavatele isikutele. See hõlmab põhimõõdikuid, nagu kulu, väärtus ja kulumäär tegeliku kulu, eelarvekulu ja paindliku eelarvekulu alusel. See kasutab kandeandmeid **Kuluarvestuse** moodulist ja annab koondvaate kogu organisatsiooni kuludest ühes aruandlusvaluutas. Haldajad saavad andmeid filtreerida kuluobjektide alusel oma organisatsiooniüksuste kulujuhtimiseks, isegi kui organisatsioonil on mitu juriidilist isikut.
 
 Kuna **kuluarvestuse analüüsi** sisu tõstab esile hälbed tegelike ja eelarvestatud kulude vahel, saab haldajaid teavitada nende tootmisüksuse positiivsetest ja negatiivsetest trendidest. Juhid saavad kuluelemendi hierarhiates või eraldi kuluelementides süvitsi minna. Sel viisil saavad juhid üksikasjalikke andmeid selle kohta, kuidas kuluhälbed on tekkinud, ja neil on siis võimalik tulemuslikke meetmeid tarvitusele võtta.
 

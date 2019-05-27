@@ -3,7 +3,7 @@ title: Väljavõtte sisestamise funktsiooni täiustused
 description: Selles teemas kirjeldatakse väljavõtte sisestamise täiustusi.
 author: josaw1
 manager: AnnBe
-ms.date: 04/26/2016
+ms.date: 05/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321428"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541287"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Väljavõtte sisestamise funktsiooni täiustused
 
@@ -43,7 +43,7 @@ Rakenduses Finance and Operations on järgmised nende konfiguratsioonivõtmetega
 - Konkreetse väljavõtte elutsükli jooksul (loomine, arvutamine, sisestamine jne) tehtavate kõikide toimingute jaoks tuleb kasutada sama konfiguratsioonivõtit. Näiteks ei saa luua ja arvutada väljavõtet, kui konfiguratsioonivõti **Jaemüügi väljavõte (pärand)** on sisse lülitatud, ja üritada sama väljavõtet sisestada konfiguratsioonivõtmega **Jaemüügi väljavõte**.
 
 > [!NOTE]
-> Soovitame kasutada konfiguratsioonivõtit **Jaemüügi väljavõtted** väljavõtte sisestamise täiustatud funktsiooni jaoks, kui teil pole just mõjuvat põhjust kasutada konfiguratsioonivõtit **Jaemüügi väljavõtted (pärand)**. Microsoft investeerib ka edaspidi uude ja täiustatud väljavõtte sisestamise funktsiooni ning on oluline, et te esimesel võimalusel sellele üle läheksite, et sellest kasu saada. Väljavõtte sisestamise pärandfunktsioon aegub tulevases väljaandes.
+> Soovitame kasutada konfiguratsioonivõtit **Jaemüügi väljavõtted** väljavõtte sisestamise täiustatud funktsiooni jaoks, kui teil pole just mõjuvat põhjust kasutada konfiguratsioonivõtit **Jaemüügi väljavõtted (pärand)**. Microsoft investeerib ka edaspidi uude ja täiustatud väljavõtte sisestamise funktsiooni ning on oluline, et te esimesel võimalusel sellele üle läheksite, et sellest kasu saada. Väljavõtte sisestamise pärandfunktsioon on aegunud alates väljaandest 8.0.
 
 ## <a name="setup"></a>Seadistamine
 
@@ -56,11 +56,15 @@ Väljavõtte sisestamise funktsiooni täiustuste osana on lehe **Jaemüügi para
 
 - **Inventuuri keelamine on nõutav** – kui see suvand on seatud valikule **Jah**, jätkub väljavõtte sisestamise protsess, isegi kui väljavõttel oleva loendatud summa ja kandesumma vaheline erinevus jääb väljapoole läve, mis on määratud jaekaupluste kiirkaardil **Statement**.
 
-Peale selle on kiirkaardile **Pakktöötlus** lisatud suvand **Paralleelselt sisestatavate väljavõtete maksimumarv**. See väli määrab pakett-töö ülesannete arvu, mida tuleks korraga käivitada. Praegu tuleb selle välja väärtus käsitsi määrata.
+Lisaks on kiirkaardil **Pakktöötlus** vahekaardil **Sisestamine** lehel **Jaemüügi parameetrid** kasutusele võetud järgmised parameetrid. 
 
-Koos uue sisestamisprotsessiga tuleb määratleda **Kingekaardi toode** kiirkaardil **Kinkekaart** vahekaardil **Sisestamine** lehel **Jaemüügi parameetrid**. See kehtib isegi siis, kui organisatsioon ei kasuta kinkekaarte.
+- **Paralleelselt sisestatavate väljavõtete maksimumarv** – see väli määratleb mitme väljavõtte sisestamiseks kasutatavate pakett-ülesannete arvu. 
+- **Lõimede maksimumarv tellimuse töötlemisel väljavõtte kohta** – see väli näitab maksimaalset lõimede arvu, mida kasutatakse väljavõtte sisestamisel pakett-töös, et luua ja arveldada müügitellimusi ühe väljavõtte jaoks. Väljavõtete sisestamise protsessi kasutatav lõimede koguarv arvutatakse selle parameetri väärtuse alusel, mis korrutatakse parameetri **Paralleelselt sisestatavate väljavõtete maksimumarv** väärtusega. Selle parameetri väärtuse liiga kõrgeks määramine võib negatiivselt mõjutada väljavõtte sisestamise protsessi jõudlust.
+- **Kogumisse kaasatud kanderidade maksimumarv** – see väli määrab kanderidade arvu, mis kaasatakse ühte kandekogumisse enne uue loomist. Koondatud kanded luuakse erinevate koondamiskriteeriumide alusel, nagu näiteks klient, ärikuupäev või finantsdimensioonid. Oluline on märkida, et ühest jaemüügi kandest pärinevaid ridu ei tükeldata erinevate koondatud kannete vahel. See tähendab võimalust, et koondatud kandes on ridade arv veidi suurem või väiksem, põhinedes sellistel teguritel nagu eristavate toodete arv.
+- **Maksimaalne lõimede arv kaupluse kannete kinnitamiseks** – see väli määratleb nende lõimede arvu, mida kasutatakse jaemüügi kannete kontrollimiseks. Jaemüügi kannete kinnitamine on nõutud etapp, mis peab toimuma enne kannete sisestamist väljavõtetesse. Peate ka määratlema **Kingekaardi toode** kiirkaardil **Kinkekaart** vahekaardil **Sisestamine** lehel **Jaemüügi parameetrid**. See tuleb määrata isegi siis, kui organisatsioon ei kasuta kinkekaarte.
 
-Pange tähele, et kõik väljavõtte sisestamisega seotud ning jaekaupluste lehel ja lehel **Jaemüügi parameetrid** määratud sätted ja parameetrid kehtivad väljavõtte sisestamise täiustatud funktsioonile.
+> [!NOTE]
+> Kõik väljavõtte sisestamisega seotud ning jaekaupluste lehel ja lehel **Jaemüügi parameetrid** määratud sätted ja parameetrid kehtivad väljavõtte sisestamise täiustatud funktsioonile.
 
 ## <a name="processing"></a>Teostamine
 

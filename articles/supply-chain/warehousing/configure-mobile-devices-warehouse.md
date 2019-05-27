@@ -3,7 +3,7 @@ title: Mobiilsete seadmete seadistamine laotöö jaoks
 description: Teemas kirjeldatakse, kuidas konfigureerida menüü üksusi, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2b6555086d6c86c17b501af9d4d8155e9c08a447
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "347947"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1536545"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete seadistamine laotöö jaoks
 
@@ -173,7 +173,7 @@ Saate seadistada menüüelemendi, mis loob töö teisele töötajale pärast sed
 </tr>
 <tr>
 <td>Litsentsiplaadi laadimine</td>
-<td>Kasutage seda võimalust, kui seadistate ladu esimest korda. Skannige lao kõigi asukohtade kõik litsentsiplaadid. Asukohad peavad olema litsentsiplaatidega juhitavad. Seda suvandit ei saa kasutada, kui suvand <strong>Seerianumber</strong> või <strong>Partii number</strong> on varude reserveerimishierarhias suvandist <strong>Asukoht</strong> kõrgemal.</td>
+<td>Kasutage seda võimalust, kui seadistate ladu esimest korda. Skannige lao kõigi asukohtade kõik litsentsiplaadid. Asukohad peavad olema litsentsiplaatidega juhitavad. Seda suvandit e&#39;i saa kasutada, kui suvand <strong>Seerianumber</strong> või <strong>Partii number</strong> on varude reserveerimishierarhias suvandist <strong>Asukoht</strong> kõrgemal.</td>
 </tr>
 <tr>
 <td>Tsükliline inventuur</td>
@@ -208,7 +208,7 @@ Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada men
 <tbody>
 <tr class="odd">
 <td>Pole</td>
-<td>See vaikeväärtus ei töötle tööd.</td>
+<td>See vaikeväärtus e&#39;i töötle tööd.</td>
 </tr>
 <tr class="even">
 <td>Süsteemi suunatud</td>
@@ -237,7 +237,7 @@ Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada men
 <li><strong>Kinnitatud kasutaja suunatud väli</strong> – valige väli, mida töötaja skannib töö rühmitamiseks.</li>
 <li><strong>Kinnitatud kasutaja suunatud silt</strong> – sisestage tekst töötaja juhendamiseks, mida skannida, kui komplekteerimistöö on rühmitanud süsteem.</li>
 </ul>
-See suvand on kasulik näiteks siis, kui koorma jaoks kasutatakse mitut kaubaalust. Kui valite väljal <strong>Kinnitatud kasutaja suunatud</strong> suvandi <strong>LoadId</strong>, saab töötaja valida koormaga seostatud mis tahes kaubaaluse. Kui töötaja skannib kaupa, mis pole koormaga seostatud, kuvatakse tõrketeade.</td>
+See suvand on kasulik näiteks siis, kui koorma jaoks kasutatakse mitut kaubaalust. Kui valite väljal <strong>Kinnitatud kasutaja suunatud</strong> suvandi <strong>LoadId</strong>, saab töötaja valida koormaga seostatud mis tahes kaubaaluse. Kui töötaja skannib kaupa, mis po&#39;le koormaga seostatud, kuvatakse tõrketeade.</td>
 </tr>
 <tr class="odd">
 <td>Kogumi komplekteerimine</td>
@@ -281,7 +281,7 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="odd">
 <td>Ankurdaja</td>
-<td>Kui kasutate ankurdamist, peate määrama, kas ankurdada saadetise või koorma järgi.</td>
+<td>Kui kasutat&#39;e ankurdamist, peate määrama, kas ankurdada saadetise või koorma järgi.</td>
 </tr>
 <tr class="even">
 <td>Auditi malli ID</td>
@@ -305,11 +305,11 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="odd">
 <td>Keela tsüklilise inventuuri läved</td>
-<td>Valige see suvand, et eirata tsüklilise inventuuri lävesid. Selle suvandi valimisel ei looda läveväärtuste ületamisel tsüklilise inventuuri tööd.</td>
+<td>Valige see suvand, et eirata tsüklilise inventuuri lävesid. Selle suvandi valimisel e&#39;i looda läveväärtuste ületamisel tsüklilise inventuuri tööd.</td>
 </tr>
 <tr class="even">
 <td>Partii likvideerimiskoodi kuvamine</td>
-<td>Selle suvandi valimisel kuvatakse partii likvideerimiskoodid. Näiteks saate kuvada partii likvideerimiskoodid, kui võtate vastu tagastatud partii. Seejärel saavad töötajad hinnata partii olekut või kvaliteeti ja valida sobiva koodi. Partii likvideerimiskoodi reeglid määravad, kas partii on saadaval teiste laoprotsesside jaoks. Kui te seda suvandit ei vali, kasutatakse üht järgmistest partii likvideerimiskoodidest.
+<td>Selle suvandi valimisel kuvatakse partii likvideerimiskoodid. Näiteks saate kuvada partii likvideerimiskoodid, kui võtate vastu tagastatud partii. Seejärel saavad töötajad hinnata partii olekut või kvaliteeti ja valida sobiva koodi. Partii likvideerimiskoodi reeglid määravad, kas partii on saadaval teiste laoprotsesside jaoks. Kui te seda suvandit e&#39;i vali, kasutatakse üht järgmistest partii likvideerimiskoodidest.
 <ul>
 <li>Kui saate uue partiinumbri, kasutatakse kauba mudeligrupis määratud partii likvideerimiskoodi.</li>
 <li>Kasutatakse partiile juba määratud partii likvideerimiskoodi.</li>
@@ -356,8 +356,8 @@ Valikute selgitused leiate järgmisest tabelist.
 <td>Näidake, kas töötaja peab kõigepealt komplekteerima asukoha vanima partii. Valikud on järgmised:
 <ul>
 <li><strong>Puudub</strong> – töötaja saab komplekteerida asukohas mis tahes töö. Töötaja ei saa mingit sõnumit.</li>
-<li><strong>Hoiata</strong> – töötaja saab komplekteerida asukohas mis tahes partii, aga kui partii pole kõige vanem, kuvatakse hoiatusteade.</li>
-<li><strong>Sunni</strong> – töötaja peab komplekteerima asukoha vanima partii. Töötaja saab tõrketeade, kui partii pole vanim. <strong>Märkus.</strong> See suvand on asjakohane ainult siis, kui kaubale määratud reserveerimishierarhias on <strong>Partii number</strong> madalamal kui <strong>Asukoht</strong>.</li>
+<li><strong>Hoiata</strong> – töötaja saab komplekteerida asukohas mis tahes partii, aga kui partii po&#39;le kõige vanem, kuvatakse hoiatusteade.</li>
+<li><strong>Sunni</strong> – töötaja peab komplekteerima asukoha vanima partii. Töötaja saab tõrketeade, kui partii pol&#39;e vanim. <strong>Märkus.</strong> See suvand on asjakohane ainult siis, kui kaubale määratud reserveerimishierarhias on <strong>Partii number</strong> madalamal kui <strong>Asukoht</strong>.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -370,7 +370,7 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="odd">
 <td>Süsteemi rühmitussilt</td>
-<td>Sisestage tekst töötaja juhendamiseks, mida skannida, kui Microsoft Dynamics 365 for Finance and Operations rühmitab komplekteerimistöö. Kui kasutate näiteks komplekteerimistöö rühmitamiseks saadetise järgi välja <strong>ShipmentId</strong>, võib vajalik olla väljale <strong>Saadetise ID</strong> sisestamine. Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd. Peale selle peate valima väljal <strong>Süsteemi rühmitamisväli</strong> rühmitamise aluseks oleva välja.</td>
+<td>Sisestage tekst töötaja juhendamiseks, mida skannida, kui Microsoft Dynamics 365 for Finance and Operations rühmitab komplekteerimistöö. Kui kasutat&#39;e näiteks komplekteerimistöö rühmitamiseks saadetise järgi välja <strong>ShipmentId</strong>, võib vajalik olla väljale <strong>Saadetise ID</strong> sisestamine. Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd. Peale selle peate valima väljal <strong>Süsteemi rühmitamisväli</strong> rühmitamise aluseks oleva välja.</td>
 </tr>
 <tr class="even">
 <td>Kasuta vaikeandmeid</td>
@@ -386,7 +386,7 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="odd">
 <td>Töömalli kood</td>
-<td>Valige töömall, mis loob protsessi jaoks töö. Näiteks kui võtate ostutellimuse jaoks kauba vastu, luuakse töömalli alusel paigutamistöö. Kui te töömalli ei vali, määrab Microsoft Dynamics 365 for Finance and Operations malli päringukriteeriumide alusel. Töömallide kohta lisateabe saamiseks vaadake jaotist <a href="control-warehouse-location-directives.md">Laotöö juhtimine töömallide ja asukohadirektiividega</a>.</td>
+<td>Valige töömall, mis loob protsessi jaoks töö. Näiteks kui võtate ostutellimuse jaoks kauba vastu, luuakse töömalli alusel paigutamistöö. Kui te töömalli e&#39;i vali, määrab Microsoft Dynamics 365 for Finance and Operations malli päringukriteeriumide alusel. Töömallide kohta lisateabe saamiseks vaadake jaotist <a href="control-warehouse-location-directives.md">Laotöö juhtimine töömallide ja asukohadirektiividega</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -412,8 +412,6 @@ Järgmises tabelis kirjeldatakse erinevaid töötüüpe, millega saate töökinn
 
 <a name="additional-resources"></a>Lisaressursid
 --------
-
-[Lao mobiilse seadme kuvasätted](change-warehouse-mobile-device-displays.md)
 
 [Mobiilse seadme menüüelemendi seadistamine ostutellimuse lõpetamiseks (tegevuse juhis)](tasks/set-up-mobile-device-menu.md)
 

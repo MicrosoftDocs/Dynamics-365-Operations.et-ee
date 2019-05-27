@@ -1,9 +1,9 @@
 ---
 title: Kassa tellimuse teatiste kuvamine
-description: Selles teemas kirjeldatakse tellimuse teatiste kuvamise lubamist kassas ja teatiste raamistikku. Lõpuks saavad arendajad laiendada neid teatisi ka muudele toimingutele peale tellimuse täitmise toimingute.
+description: Selles teemas kirjeldatakse tellimuse teatiste kuvamise lubamist kassas ja teatiste raamistikku.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/13/2018
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361333"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530266"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Kassa tellimuse teatiste kuvamine
 
@@ -67,6 +67,10 @@ Kassa nupud saavad nüüd kuvada arvu, mis võimaldab töötajatel hõlpsalt nä
 Järgmine joonis näitab reaalajas sisu sätteid nupupaneeli koostajas.
 
 ![Reaalajas sisu sätted nupupaneeli koostajas](./media/ButtonGridDesigner.png "Reaalajas sisu sätted nupupaneeli koostajas")
+
+Nupul teatiste arvu kuvamiseks peate veenduma, et uuendatakse õiget ekraani paigutust. Kassa kasutatava ekraani paigutuse määramiseks valige ülemises parempoolses nurgas ikoon **Sätted** ja märkige **Ekraani paigutuse ID** ja **Paigutuse eraldusvõime** Kasutades brauserit Edge, minge lehele **Ekraani paigutus** rakenduses Dynamics 365 for Finance and Operations, leidke ülal tuvastatud **Ekraani paigutuse ID** ja **Paigutuse eraldusvõime** ning valige märkeruut **Luba reaalajas sisu**- Minge **Jaemüük > Jaemüügi IT > Jaotusgraafik** ja käivitage töö 1090 (registrid), et sünkroonida paigutuse muudatused. 
+
+![Kassa kasutatava ekraani paigutuse leidmine](./media/Choose_screen_layout.png "Ekraani paigutuse leidmine ")
 
 Järgmisel joonisel on näidatud, mis on vahet valikul **Üleval paremal** ja **Keskel** väljal **Sisu joondamine** erinevates suurustes nuppude korral.
 

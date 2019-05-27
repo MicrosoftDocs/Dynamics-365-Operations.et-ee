@@ -3,7 +3,7 @@ title: Ostukulutuste analüüsi Power BI sisu
 description: See teema kirjeldab, mida hõlmab ostukulutuste analüüsi Power BI sisu. See selgitab juurdepääsu sisus sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisu loomiseks kasutatakse.
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3206573022c0f843b07a468987a112ca6ac435ef
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313838"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527713"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Ostukulutuste analüüsi Power BI sisu
 
@@ -44,88 +44,88 @@ Sisu kasutab ostukannete andmeid ning annab koondvaate kogu ettevõtte ostunumbr
 **Ostukulutuste analüüsi** Power BI sisu kuvatakse lehel **Ostu- ja kulutusanalüüs** (**Hanked** \> **Päringud ja aruanded** \> **Ostujõudluse analüüs** \> **Ostu- ja kulutusanalüüs**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad mõõdikud
-**Ostukulutuste analüüsi** Power BI sisu sisaldab mõõdikute kogumist koosnevat aruannet. Neid mõõdikuid visualiseeritakse diagrammide, paanide ja tabelitena. Järgmises tabelis antakse ülevaade visualiseeringutest.
+**Ostukulutuste analüüsi** Power BI sisu sisaldab mõõdikute kogumist koosnevat aruannet. Neid mõõdikuid visualiseeritakse diagrammide, paanide ja tabelitena. 
 
-<table>
-<thead>
-<tr>
-<th>Aruandeleht</th>
-<th>Diagrammid</th>
-<th>Paanid</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Ostud hankija alusel</td>
-<td><ul>
-<li>10 tipphankijat ostu alusel (virntulpdiagramm)</li>
-<li>Ostud kokku hankijagrupi/riigi/nime alusel (sektordiagramm)</li>
-<li>Ostud hankijagrupi/riigi/nime alusel (tulpdiagramm)</li>
-<li>Keskmine ost hankijagrupi/riigi/nime alusel (tulpdiagramm)</li>
-</ul></td>
-<td><ul>
-<li>Koguost</li>
-<li>YOY ostude kasv</li>
-<li>Hankijate arv kokku</li>
-<li>Aktiivsete hankijate arv kokku</li>
-</ul></td>
-</tr>
-<tr>
-<td>Ostud toodete alusel</td>
-<td><ul>
-<li>Ostud hankekategooria / toote nime alusel (tulpdiagramm)</li>
-<li>Ostud hankekategooria / toote nime alusel kokku (sektordiagramm)</li>
-<li>10 tipptoodet ostu alusel (virntulpdiagramm)</li>
-</ul></td>
-<td><ul>
-<li>Toodete arv kokku</li>
-<li>Aktiivsete toodete osakaal toodete arvust kokku</li>
-<li>Toodete arv, mis annavad 80% ostudest</li>
-</ul></td>
-</tr>
-<tr>
-<td>Ostud perioodi alusel*</td>
-<td><ul>
-<li>Ostud kuu/päeva alusel (tulpdiagramm)</li>
-<li>Kumulatiivsete ostude YOY hälve (kaskaaddiagramm)</li>
-<li>Ostude YOY kasv kokku (tulpdiagramm)</li>
-<li>Hankeväljavõte (maatriks)</li>
-</ul></td>
-<td><ul>
-<li>YOY ostude kasv</li>
-<li>YOY ostude kasvu %</li>
-</ul></td>
-</tr>
-<tr>
-<td>Ostud hankija asukoha alusel</td>
-<td><ul>
-<li>Ostud linna alusel</li>
-<li>Ostude YOY kasvu %</li>
-<li>Ostud riikide järgi</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Ostukulutuste analüüs aja alusel</td>
-<td><ul>
-<li>Jooksva aasta ostud kuu/päeva alusel (joondiagramm)</li>
-<li>Jooksva ja eelmise aasta ostud (joon- ja tulpdiagramm)</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Ostukulutuste analüüs hankija alusel</td>
-<td><ul>
-<li>10 juhtiva hankija ostude % ostudest (lehter)</li>
-<li>10 parimat hankijat suurema kulutuste YOY-ga</li>
-<li>10 parimat hankijat väiksema kulutuste YOY-ga</li>
-</ul></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+Järgmistes jaotistes antakse ülevaade visualiseeringutest.
 
-\* Selle ja eelmise aasta ostud ja kasv hankekategooriate alusel
+### <a name="purchase-by-vendor-report-page"></a>Ostmine hankija aruandelehe alusel
+**Diagrammid**
+- 10 tipphankijat ostu alusel (virntulpdiagramm)
+- Ostud kokku hankijagrupi/riigi/nime alusel (sektordiagramm)
+- Ostud hankijagrupi/riigi/nime alusel (tulpdiagramm)
+- Keskmine ost hankijagrupi/riigi/nime alusel (tulpdiagramm)
+
+**Paanid**
+- Koguost
+- YOY ostude kasv
+- Hankijate arv kokku
+- Aktiivsete hankijate arv kokku
+
+**Näide**
+<img src="media/spend1.PNG" alt="Purchase by vendor">
+
+### <a name="purchase-by-product-report-page"></a>Ostmine toote aruandelehe alusel
+
+**Diagrammid**
+- Ostud hankekategooria / toote nime alusel (tulpdiagramm)
+- Ostud hankekategooria / toote nime alusel kokku (sektordiagramm)
+- 10 tipptoodet ostu alusel (virntulpdiagramm)
+
+**Paanid**
+- Toodete arv kokku</li>
+- Aktiivsete toodete osakaal toodete arvust kokku
+- Toodete arv, mis annavad 80% ostudest
+
+**Näide**
+
+
+<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+
+### <a name="purchase-by-period-report-page"></a>Ostmine ajaperioodi aruandelehe alusel
+See leht näitab selle ja eelmise aasta oste ja kasvu hankekategooriate alusel.
+
+**Diagrammid** 
+- Ostud kuu/päeva alusel (tulpdiagramm)
+- Kumulatiivsete ostude YOY hälve (kaskaaddiagramm)
+- Ostude YOY kasv kokku (tulpdiagramm)
+- Hankeväljavõte (maatriks)
+
+**Paanid**
+- YOY ostude kasv
+- YOY ostude kasvu %
+
+**Näide**
+<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+
+### <a name="purchase-by-vendor-location-report-page"></a>Ostmine hankija asukoha aruandelehe alusel
+
+**Diagrammid**
+- Ostud linna alusel
+- Ostude YOY kasvu %
+- Ostud riikide järgi
+
+**Näide**
+<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+
+### <a name="purchase-spend-analysis-by-time-report-page"></a>Ostukulutuste analüüs aja aruandelehe alusel
+
+**Diagrammid** 
+- Jooksva aasta ostud kuu/päeva alusel (joondiagramm)
+- Jooksva ja eelmise aasta ostud (joon- ja tulpdiagramm)
+
+**Näide**
+<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+
+### <a name="purchase-spend-analysis-by-vendor-report-page"></a>Ostukulutuste analüüs hankija aruandelehe alusel
+
+**Diagrammid** 
+- 10 juhtiva hankija ostude % ostudest (lehter)
+- 10 parimat hankijat suurema kulutuste YOY-ga
+- 10 parimat hankijat väiksema kulutuste YOY-ga
+
+**Näide** 
+<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+
 
 ## <a name="data-model-and-entities"></a>Andmemudel ja üksused
 Aruandelehtede täitmiseks **ostukulutuste analüüsi** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md).

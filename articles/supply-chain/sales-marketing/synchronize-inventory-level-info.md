@@ -3,7 +3,7 @@ title: Varude taseme teabe sünkroonimine rakendusest Finance and Operations rak
 description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse varude tasemel teabe sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 03/13/2019
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: c7dce4427810b93e0ee4f1a27881c2b1b04fb125
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842552"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1535694"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Varude taseme teabe sünkroonimine rakendusest Finance and Operations rakendusse Field Service 
 
@@ -75,6 +75,14 @@ Tooteid ja ladusid, kus varude tase koondatakse rakendusest Finance and Operatio
 
 ## <a name="prerequisites-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
 
+### <a name="data-integration"></a>Andmete integratsioon
+Et projekt töötaks peate tagama, et uuendatakse integreerimisvõtit msdynce_externalproductinventories jaoks.
+1.  Avage **Andmete integreerimine > Ühenduskomplektid**.
+2.  Valige kasutatav ühenduskomplekt.
+3.  Vahekaardil **Integreerimisvõti** veenduge, et lisatakse järgmised võtmed toodetele msdynce_externalproductinventories
+      - msdynce_productnumber (tootenumber)
+      - msdynce_warehouseid (lao ID)
+      
 ### <a name="data-integration-project"></a>Andmeintegratsiooni projekt
 Saate rakendada filtreid täpsema päringu ja filtreerimise abil, nii et ainult teatud tooted ja laod saadavad varude tasemel teavet rakendusest Finance and Operations rakendusse Field Service.
 
