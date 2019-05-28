@@ -19,11 +19,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 64b1c09b781b7bdbaf01a374e321b8dd9418f3da
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "316690"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551690"
 ---
 # <a name="powerbicom-solutions-home-page"></a>PowerBI.com’i lahenduste koduleht
 
@@ -61,7 +61,7 @@ LCS-i ühiste vahendite teegis on saadaval järgmised PowerBI.com’i lahendused
 [Microsoft AppSource](https://appsource.microsoft.com)’is on saadaval järgmised PowerBI.com’i lahendused.
 
 > [!NOTE]
-> Need lahendused on aegunud, nagu on kirjas dokumendis [AppSource’is saadaolevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Need lahendused on aegunud, nagu on kirjas dokumendis [AppSource saadaolevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 - Kuluhaldus
 - [Finantstulemused](financial-performance-power-bi-content-pack.md)

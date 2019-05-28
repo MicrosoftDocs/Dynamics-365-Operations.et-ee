@@ -19,11 +19,11 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 673b01648127fe1d19fb3c75c4d6812c4f22c761
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "317725"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561971"
 ---
 # <a name="connect-the-help-system"></a>Spikrisüsteemi ühendamine
 
@@ -33,7 +33,7 @@ Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Finance and Ope
 
 ## <a name="help-architecture"></a>Spikri arhitektuur
 
-Järgmisel joonisel on näidatud Finance and Operationsi spikrisüsteemi osad. Toote sisespikri süsteem toob artikleid Finance and Operationsi saidilt https://docs.microsoft.com ja tegevusejuhistest, mis on salvestatud teenuse Microsoft Dynamics Lifecycle Services (LCS) äriprotsesside modelleerijasse.
+Järgmisel joonisel on näidatud Finance and Operationsi spikrisüsteemi osad. Toote sisespikri süsteem toob artikleid Finance and Operationsi saidilt https://docs.microsoft.com ja tegevusejuhistest, mis on salvestatud teenuse Business Process Modeler Lifecycle Services (LCS) äriprotsesside modelleerijasse.
 
 > [!NOTE]
 > Joonisel tärniga (\*) märgitud funktsioonid on meil plaanis, kuid pole veel saadaval.

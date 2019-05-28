@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c5cfe92b8733a0a6d76e074cc31eec3f3935b512
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353789"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530864"
 ---
 # <a name="define-financial-dimensions"></a>Finantsdimensioonide määratlemine
 
@@ -32,8 +32,8 @@ Selles ülesandejuhendis selgitatakse üksuse tagatud finantsdimensiooni ja koha
 
 ## <a name="create-an-entity-backed-financial-dimension"></a>Üksuse tagatud finantsdimensiooni loomine
 1. Avage Pearaamat > Kontoplaan > Dimensioonid > Finantsdimensioonid.
-2. Klõpsake valikut Uus.
-3. Valige väljal Kasutaja väärtused süsteemi määratletud üksus, millele finantsdimensioon rajada. 
+2. Klõpsake Uus.
+3. Valige Kasutaja väärtuste vormiväljal süsteemi määratletud üksus, millele finantsdimensioon rajada. 
 4. Sisestage väljale Dimensiooni nimi finantsdimensiooni kirjeldav väärtus.
     * Nimi võib erineda süsteemi määratletud üksusest, kuid ei tohi sisaldada tühikuid ega erimärke.  
 5. Klõpsake käsku Aktiveeri.
@@ -46,8 +46,8 @@ Selles ülesandejuhendis selgitatakse üksuse tagatud finantsdimensiooni ja koha
 
 ## <a name="create-a-custom-financial-dimension"></a>Kohanadtud finantsdimensiooni loomine
 1. Sulgege leht.
-2. Klõpsake valikut Uus.
-3. Väljal Kasuta väärtusi valige suvand <Custom dimension> (kohandatud dimensioon).
+2. Klõpsake Uus.
+3. Valige väljal Kasuta väärtusi allikast suvand Kohandatud dimensioon.
 4. Sisestage väljale Dimensiooni nimi finantsdimensiooni kirjeldav väärtus.
     * Nimi ei tohi sisaldada tühikuid ega erimärke.  
     * Samuti saate määrata kontomaski, et piirata dimensiooniväärtuste puhul sisestatava teabe hulka ja tüüpi.   

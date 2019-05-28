@@ -3,7 +3,7 @@ title: Müügitellimuste vahetu sünkroonimine rakenduste Sales ja Finance and O
 description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse müügitellimuste sünkroonimise käivitamiseks rakenduste Microsoft Dynamics 365 for Sales ja Microsoft Dynamics 365 for Finance and Operations vahel.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/11/2018
+ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
+ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339115"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539110"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel
 
@@ -146,6 +146,16 @@ Enne müügitellimuste sünkroonimist on oluline värskendada süsteemides järg
 ### <a name="setup-in-finance-and-operations"></a>Seadistus rakenduses Finance and Operations
 
 - Avage jaotis **Müük ja turundus** &gt; **Perioodilised ülesanded** &gt; **Müügi kogusummade arvutamine** ja seadistage töö pakett-tööna. Valige suvandi **Müügitellimuste kogusummade arvutamine** väärtuseks **Jah**. See toiming on oluline, kuna Salesiga sünkroonitakse ainult need müügitellimused, mille müügi kogusummad on arvutatud. Pakett-töö sagedus tuleks sobitada müügitellimuse sünkroonimise sagedusega.
+
+Kui kasutate ka töötellimuse integratsiooni, peate seadistama müügiallika. Müügiallikat kasutatakse, et eristada müügitellimusi rakendusest Finance and Operations, mis on loodud rakenduse Field Service töökäskudest. Kui müügitellimuse müügiallika tüübiks on **Töökäsu integratsioon**, kuvatakse müügitellimuse päises väli **Välise töö tellimuse olek**. Lisaks aitab müügiallikas tagada, et rakenduse Field Service töökäskudest loodud müügitellimused filtreeritakse välja müügitellimuse sünkroonimisel rakendusest Finance and Operations rakendusse Field Service.
+
+1. Avage **Müük ja turundus** \> **Seadistus** \> **Müügitellimused** \> **Müügiallikas**.
+2. Uue müügiallika loomiseks valige **Uus**.
+3. Sisestage väljal **Müügiallikas** müügiallika nimi, näiteks **Müügitellimus**.
+4. Sisestage väljale **Kirjeldus** kirjeldus, näiteks **Müügitellimus müügist**.
+5. Valige märkeruut **Päritolu tüübi määramine**.
+6. Seadke välja **Müügi päritolu tüüp** väärtuseks **Müügitellimuse integratsioon**.
+7. Valige käsk **Salvesta**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Seadistamine müügitellimustes (rakendusest Sales rakendusse Fin and Ops) – andmete integratsiooni otseprojekt
 

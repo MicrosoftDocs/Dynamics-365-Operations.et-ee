@@ -18,11 +18,11 @@ ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "342956"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554492"
 ---
 # <a name="upgrade-budget-planning"></a>Eelarve plaanimise täiendamine
 
@@ -54,7 +54,7 @@ Paigutused on uus põhimõte, mis asendab Exceli malli. Paigutused sisaldavad ve
 
 ### <a name="budget-planning-processes"></a>Eelarve planeerimise protsessid
 
-Eelarve plaanimise protsessid on üldjoontes samad mis AX 2012-s. Olulisim muudatus on mallide asendamine paigutustega. Kui AX 2012-s viidi mis tahes protsessid lõpule, seatakse nende olekuks nüüd Pooleli, et oleks võimalik teha muudatusi, Peate määrama iga etapireegli jaoks vajalikud paigutused, et määrata, millised stsenaariumid ja ajaperioodid kuvatakse, kui plaan klientrakenduses avatakse. Paigutused määravad ka selle, milline Exceli mall avatakse väljaspool Dynamics 365 for Finance and Operationsit, et saaksite eelarvet vaadata. **Konto vaikestruktuur** on eelarve planeerimise protsessi uus kohustuslik väli. Iga eelarve planeerimise protsessi puhul saate määrata eelarvestamisel kasutatava esmase kontostruktuuri.
+Eelarve plaanimise protsessid on üldjoontes samad mis AX 2012-s. Olulisim muudatus on mallide asendamine paigutustega. Kui AX 2012-s viidi mis tahes protsessid lõpule, seatakse nende olekuks nüüd Pooleli, et oleks võimalik teha muudatusi, Peate määrama iga etapireegli jaoks vajalikud paigutused, et määrata, millised stsenaariumid ja ajaperioodid kuvatakse, kui plaan klientrakenduses avatakse. Paigutused määravad ka selle, milline Exceli mall avatakse väljaspool Dynamic 365 for Finance and Operationsit, et saaksite eelarvet vaadata. **Konto vaikestruktuur** on eelarve planeerimise protsessi uus kohustuslik väli. Iga eelarve planeerimise protsessi puhul saate määrata eelarvestamisel kasutatava esmase kontostruktuuri.
 
 ### <a name="attachments"></a>Manused
 

@@ -17,11 +17,11 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 325e3974cb38afea46c2f735165ee2fd1a6a22ab
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353214"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545723"
 ---
 # <a name="configure-address-books"></a>Aadressiraamatute konfigureerimine
 

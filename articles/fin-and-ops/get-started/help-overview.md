@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
+ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350730"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1538952"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operationsi spikrisüsteem
 
@@ -90,8 +90,6 @@ Meil on klientide tagasiside üle alati hea meel. Saate GitHubi kaudu lisada mei
 Kui teil on küsimusi konkreetse teema kohta, lisage kommentaar lehe alaosas.
 
 1. Klõpsake nuppu **Tagasiside**, et liikuda lehe lõpus olevate kommentaaride juurde, ja seejärel klõpsake kas nuppu **Toote tagasiside** või **Sisselogimine dokumentatsiooni tagasiside andmiseks**.
-
-    ![Tagasiside](./media/comments.png)
 
 2. Alustage kommentaaride sisestamist ja klõpsake siis valikut **Tagasiside edastamine**.
 

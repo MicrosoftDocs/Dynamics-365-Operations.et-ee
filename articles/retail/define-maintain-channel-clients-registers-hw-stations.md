@@ -20,11 +20,11 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308778"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568041"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Välisseadmete ühendamine kassaga (POS)
 
@@ -49,11 +49,11 @@ Kassaregister on olem, mida kasutatakse kassa konkreetse eksemplari omaduste mä
 
 Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Seadmed**.
 
-Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. Seadmed võivad olla kahte tüüpi: **Retail Modern POS** (MPOS) või **Retail Cloud POS** (pilvekassa).
+Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. Seadmed võivad olla kahte tüüpi: **Retail modern POS** (MPOS) või **Retail Cloud POS** (pilvekassa).
 
 #### <a name="mpos"></a>MPOS
 
-MPOS on POS-i klientrakendus, mis on installitud operatsioonisüsteemi Windows 8.1 või uuemasse PC-põhisesse operatsioonisüsteemi. Kui rakenduse tüüp **Retail Modern POS** vastendatakse seadmega, saab konkreetsele seadmele määrata allalaadimispaketi. Allalaadimispaketti saab kohandada nii, et see sisaldaks installipaketi erinevaid versioone. Võimalus juurutada erinevaid pakette tagab paindlikkuse olukordades, kus erinevad kassaregistrid võivad nõuda erinevaid integratsioone. MPOS juurutatakse koos integreeritud riistvarajaamaga.
+MPOS on POS-i klientrakendus, mis on installitud operatsioonisüsteemi Windows 8.1 või uuemasse PC-põhisesse operatsioonisüsteemi. Kui rakenduse tüüp **Retail modern POS** vastendatakse seadmega, saab konkreetsele seadmele määrata allalaadimispaketi. Allalaadimispaketti saab kohandada nii, et see sisaldaks installipaketi erinevaid versioone. Võimalus juurutada erinevaid pakette tagab paindlikkuse olukordades, kus erinevad kassaregistrid võivad nõuda erinevaid integratsioone. MPOS juurutatakse koos integreeritud riistvarajaamaga.
 
 #### <a name="cloud-pos"></a>Cloud POS
 

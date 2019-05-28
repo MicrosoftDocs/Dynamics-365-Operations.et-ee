@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "358642"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1552597"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Hankija koostöö mobiilne tööruum
 
@@ -75,9 +75,9 @@ Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi v
 </thead>
 <tbody>
 <tr class="odd">
-<td>Kui kasutate platvormivärskendust 3, tuleb juurutada KB 3216943.</td>
+<td>Kui kasutat&#39;e platvormivärskendust 3, tuleb juurutada KB 3216943.</td>
 <td>Süsteemiadministraator</td>
-<td>KB 3216943 on binaarne värskendus, mis on vajalik, kui kasutate platvormivärskendust 3. Selle KB juurutamiseks peab süsteemiadministraator tegema järgmist.
+<td>KB 3216943 on binaarne värskendus, mis on vajalik, kui kasutat&#39;e platvormivärskendust 3. Selle KB juurutamiseks peab süsteemiadministraator tegema järgmist.
 <ol>
 <li>Laadige KB 3216943 alla teenusest Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>Installima binaarse värskenduse, mis toimetatakse kohale juurutatava paketina. Teavet juurutatava paketi kohta leiate jaotisest <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Juurutatava paketi rakendamine</a>.</li>

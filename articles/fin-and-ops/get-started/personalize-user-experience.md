@@ -3,7 +3,7 @@ title: Kasutuskogemuse isikupärastamine
 description: Selles teemas selgitatakse, kuidas isikupärastada rakendust Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "975847"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1528840"
 ---
 # <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
 
@@ -75,7 +75,7 @@ Mõned tüüpilisimad ja olulisimad muudatused, mille lehele saab teha, on saada
 
 Peale selle on enamik selge isikupärastamise tüüpe saadaval, kui paremklõpsate elemendil ja valite käsu **Isikupärastamine**. (Arvestage sellega, et kõiki lehel olevaid elemente ei saa isikupärastada.) Kui valite selle isikupärastamise viisi, ilmub elemendi atribuudiaken.
 
-[![Elemendi atribuutide isikupärastamine](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
+[![Elemendi atribuutide isikupärastamine](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
 
 Atribuudiakna kaudu on elemendi isikupärastamiseks järgmised võimalused.
 
@@ -91,7 +91,7 @@ Atribuudiaken võib sisaldada ka muid isikupärastamisvõimalusi olenevalt eleme
 
 Kui soovite teha lehele mitu muudatust või teete muudatusi, mis pole muude mehhanismide (nt elementide ümberjärjestamine) kaudu saadaval, saate kasutada tööriistariba **Isikupärastamine**. Tööriistariba **Isikupärastamine** avamiseks valige elemendi atribuudiaknas suvand **Selle vormi isikupärastamine**. Saate valida suvandi **Selle vormi isikupärastamine** iga lehe toimingupaani vahekaardil **Suvandid** olevast rühmast **Isikupärastamine**.
 
-[![Isikupärastamise tööriistariba](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
+[![Isikupärastamise tööriistariba](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Lehel liikumine
 

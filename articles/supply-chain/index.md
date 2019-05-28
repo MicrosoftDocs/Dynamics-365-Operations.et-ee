@@ -1,26 +1,30 @@
 ---
-# required metadata
 title: Tarneahela juhtimise avaleht
 description: Sel lehel on teenuse Microsoft Dynamics 365 for Finance and Operations tarneahela halduse funktsioonide spikriteemade ja muude ressursside loend.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: 'Core, Operations'
-ms.custom: null
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
-ms.search.industry: null
+ms.search.industry: ''
 ms.author: shylaw
-ms.search.validFrom: '2016-11-30'
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b46b95a10d257c56fdf20b016fbb598225d1f930
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517043"
 ---
-
 # <a name="supply-chain-management-home-page"></a>Tarneahela haldamise avaleht
 
 [!include [banner](includes/banner.md)]
@@ -88,7 +92,7 @@ Need tehnoloogiakonverentsi salvestised räägivad toote funktsionaalsusest rake
 -  [Laohaldussüsteemi kasutamise parimad võimalused](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
 -  [R3 täpsem laohaldus – sissetulevate sõnumite töötlus ja minimaalne/maksimaalne täiendus](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
 -  [R3 täpsem laohaldus – ülevaade, väljaminevate sõnumite töötlus ja nõudluse tõttu täiendamine](https://youtu.be/Og0gLlVp7jA)
--  [Uue Microsoft DynamicsAX 2012 R3 laohalduse sildid](https://youtu.be/5w1MngVchBA)
+-  [Uue Microsoft Dynamics AX 2012 R3 laohalduse sildid](https://youtu.be/5w1MngVchBA)
 -  [Dynamics AX 2012 R3: täpsem laohaldus – protsesstootmise ülevaade](https://www.youtube.com/embed/QUxXUrN-7n4)
 
 **Tootmise juhtimine**

@@ -3,7 +3,7 @@ title: Valemikoostaja elektroonilises aruandluses (ER)
 description: Selles teemas selgitatakse, kuidas kasutada elektroonilises aruandluses (ER) valemikoostajat.
 author: NickSelin
 manager: AnnBe
-ms.date: 10/03/2018
+ms.date: 05/14/2014
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331272"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541264"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Valemikoostaja elektroonilises aruandluses (ER)
 
@@ -439,6 +439,11 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <td>FILTER (loend, tingimus)</td>
 <td>Annab vastuseks määratud loendi pärast seda, kui päringut on muudetud filtreerima määratud tingimuse kohaselt. Erinevalt funktsioonist <strong>WHERE</strong> rakendatakse määratud tingimust andmebaasi tasemel kõigile tüübi <strong>Tabeli kirjed</strong> ER-i andmeallikatele. Loendi ja tingimuse saab määrata tabelite ja seoste abil.</td>
 <td>Kui <strong>Hankija</strong> on konfigureeritud ER-i andmeallikana, mis viitab tabelile VendTable, annab vastuseks <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> hankijate loendi, mis kuulub hankijate gruppi 40. Kui <strong>Hankija</strong> on konfigureeritud ER andmeallikana, mis viitab tabelile VendTable ja kui <strong>parmVendorBankGroup</strong> on konfigureeritud ER andmeallikana, mis tagastab väärtuse andmetüübiga <strong>String</strong>, tagastab avaldis <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> loendi ainult nende hankijakontodega, mis kuuluvad kindlasse pangarühma.</td>
+</tr>
+<tr>
+<td>INDEKS (loend, indeks)</td>
+<td>See funktsioon tagastab kirje, mis on valitud loendi kindla arvulise indeksiga. Erand tehakse, kui indeks on loendis olevate kirjete vahemikust väljas.</td>
+<td>Kui sisestate andmeallika <strong>DS</strong> <strong>Arvutatud välja</strong> tüübile ja see sisaldab avaldist <strong>SPLIT ("A|B|C","|"), 2)</strong>, siis avaldise <strong>DS.Väärtus</strong> tagastab teksti väärtuse "B". Avaldisega <strong>INDEKS (SPLIT ("A|B|C","|"), 2).Väärtus</strong> tagastatakse ka "B" teksti väärtus.</td>
 </tr>
 </tbody>
 </table>

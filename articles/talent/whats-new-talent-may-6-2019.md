@@ -1,0 +1,95 @@
+---
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (6. mai 2019)
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+author: Darinkramer
+manager: AnnBe
+ms.date: 05/06/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Talent
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2019-05-06
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: 4830c5d626e5e10972c81c3445eb54e4b6b00e6c
+ms.sourcegitcommit: 0400bfd66e98af50e64444a1c102575099a9312f
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539401"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-6-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (6. mai 2019)
+
+[!include [banner](includes/banner.md)]
+
+Selles teemas kirjeldatakse Dynamics 365 for Talenti uusi või muutunud funktsioone.
+
+## <a name="changes-in-attract"></a>Muutused Attractis
+
+### <a name="select-optional-documents-upon-offer-creation"></a>Lisakokumentide valimine pakkumise loomisel
+
+Kui valite pakkumise paketimalli, viipab Attract teid nüüd valima sobivaid, lisadokumente sellest paketimallist. Pakkumise ettevalmistamise ajal saate lisada muid lisadokumente.
+
+## <a name="changes-in-onboard"></a>Muutused Onboardis
+
+Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Onboard veaparandused.
+
+## <a name="changes-in-core-hr"></a>Core HR-i muudatused
+
+Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2282. Sulgudes olevad numbrid mõnedes pealkirjades viitavad toenumbritele teenuses Microsoft Dynamics Lifecycle Services (LCS).
+
+### <a name="platform-update-26"></a>Platvormivärskendus update 26
+
+Lisainfo saamiseks platvormi värskenduse 26 kohta vt [Dynamics 365 for Finance and Operations platvormi värskenduse 26 (mai, 2019) funktsioonide eelvaade](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+
+### <a name="common-data-service-entity-support-for-custom-fields"></a>Common Data Service'i üksuse tugi kohandatud väljadele
+
+Selle nädala väljaandes toetavad nüüd järgmised üksused kohandatud välju: soodustuse arvutamise sagedus, soodustuse arvutamise määr, soodustuse tüüp, töökalender, pühad töökalendris, palgatsükkel ja töötaja ID-tüübid.
+
+### <a name="leave-mass-enrollment-changing-the-tier-basis-to-seniority-date-doesnt-refresh-the-initial-accrual-rate-318526"></a>Väljumisel hulgiregistreerimisest, tasemealuse "Staaži kuupäev" muutmine ei värskenda algset tekkepõhisuse määra (318526)
+
+Kui hulgiregistreerite töötajad ja muudate taseme alust, kajastub esialgne tekkepõhisus nüüd teie valitud tasemes.
+
+### <a name="workflow-showing-duplicate-place-holders-313636"></a>Töövoog näitab dubleerivaid-järjehoidjaid (313636)
+
+Selles väljaandes tehtud muudatused kõrvaldavad järjehoidjate dubleerimise, kui töövooteatised on saadetud.
+
+### <a name="dimension-fields-arent-updated-when-using-open-in-excel-176261"></a>Dimensioonivälju ei värskendata, kui kasutatakse funktsiooni Ava Excelis (176261)
+
+Selle väljalaskega saate nüüd värskendada finantsdimensiooni, kasutades funktsiooni **Ava Excelis** lehel **Töötaja**. 
+
+### <a name="worker-address-created-in-common-data-service-isnt-synced-to-talent-317555"></a>Common Data Service'is loodud töötaja aadress pole Talentiga sünkroonitud (317555)
+
+Selle muudatusega värskendatakse aadressi, mis on loodud Common Data Service'is rakendusega Talent Core HR.
+
+
+## <a name="in-preview"></a>Eelvaates
+
+### <a name="new-page-to-validate-position-hierarchy-data"></a>Uus leht ametikoha hierarhia andmete kinnitamiseks
+
+Personaliosakond (HR) ja administraatorid saavad nüüd kinnitatada juhtimishierarhiat mis tahes ringviidetega, mis võivad olla kogemata imporditud. Sellele uuele leheküljele pääsete, kui lähete **Organisatsiooni haldus > Lingid > Ametikohad > Ametikoha hierarhia kinnitamine**.
+
+### <a name="specify-reason-codes-on-leave-types"></a>Määrake puhkuse tüüpide põhjusekoodid
+
+Organisatsioonid võivad vajada puhkuseavaldustega seotud lisanduvat infot. Nüüd saate määrata puhkuse tüüpidega seotud põhjusekoodid ja lasta töötajatel valida põhjusekood oma puhkuseavaldusele.
+
+### <a name="require-reason-codes-for-specific-leave-types-on-time-off-requests"></a>Kindlat tüüpi puhkusetüüpidele ja puhkuseavaldustele põhjusekoodide nõudmine
+
+Organisatsioonid võivad nõuda teatud puhkusetüüpide korral töötajate esitatud puhkusetaotluste põhjusekoodide määramist. See nõue võib eksisteerida ettevõtte poliitika või regulatiivsete nõuete tõttu. Nüüd saate määrata, milline puhkusetüüp vajab põhjusekoodi ja saate nõuda, et töötajad esitavad oma puhkuseavaldusel oma puhkusetüübile põhjusekoodi.
+
+### <a name="provide-a-leave-and-absence-transaction-list-for-hr"></a>Personaliosakonnale puhkuse ja puudumise kannete nimekirja esitamine
+
+Võimalus jägida töötaja puhkuseaega ja mõista, kuidas puhkus on arvestatud, mitte ainult ei aita personaliosakonnal vastata töötajate küsimustele, vaid võimaldab ka töötajatele tagada täpse puhkusehüvitise. Personaliosakonnal on nüüd uus tehingute vaade (hüvitused, viitvõlad, korrigeerimised ja taotlused), et personaliosakond näeks saldode taga olevaid põhjuseid.
+
+## <a name="coming-soon"></a>Peagi tulekul
+
+### <a name="indicate-instance-type-when-provisioning-talent"></a>Näidake eksemplari tüüpi Talenti ettevalmistamisel
+
+Uue Talenti eksemplari ettevalmistamisel saate näidata, kas eksemplari tüüp on **Tootmine** või **Liivakast**, mis võimaldab uute funktsioonide varajast testimist. Kõik olemasolevad Talenti eksemplarid uuendatakse tootmise eksemplari tüübiks. Kui soovite mõne olemasoleva eksemplari värskendada Liivakasti eksemplari tüübiks, võtke muudatuse taotlemiseks ühendust toega.

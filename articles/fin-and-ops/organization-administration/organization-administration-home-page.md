@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0a693529b55b66eb940f8215a336d5c4ae0acedd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "332813"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545852"
 ---
 # <a name="organization-administration-home-page"></a>Organisatsioonihalduse kodulehekülg
 
@@ -44,7 +44,7 @@ Numbriseeriaid kasutatakse loetavate ainuidentifikaatorite loomiseks koondandmet
 
 Organisatsiooni on grupp inimesi, kes töötavad koos äriprotsessi või eesmärgi saavutamiseks. Organisatsiooni hierarhia kajastab teie ettevõttesse kuuluvate organisatsioonide vahelisi seoseid.
 
-Organisatsioonide ja organisatsiooni hierarhiate seadistamiseks rakenduses Finance and Operations plaanige kindlasti oma ettevõtte mudel. Organisatsioonimudelil on rakenduse Dynamics 365 for Finance and Operations juurutamisele ja äriprotsessidele oluline mõju.
+Organisatsioonide ja organisatsiooni hierarhiate seadistamiseks rakenduses Finance and Operations plaanige kindlasti oma ettevõtte mudel. Organisatsioonimudelil on rakenduse Finance and Operations juurutamisele ja äriprotsessidele oluline mõju.
 
 - [Organisatsioonid ja organisatsiooni hierarhiad](organizations-organizational-hierarchies.md)
 - [Organisatsiooni hierarhia kavandamine](plan-organizational-hierarchy.md)

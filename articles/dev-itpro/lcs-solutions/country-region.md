@@ -1,9 +1,9 @@
 ---
-title: Lokaliseerimine ja regulatiivsed funktsioonid
-description: See teema sisaldab loetelu ressurssidest, mis aitavad teil riigi-/regioonipõhiste funktsioonide kohta rohkem teada saada.
+title: Globaliseerimine
+description: See teema sisaldab loetelu ressurssidest, mis aitavad teil riigi-/regioonipõhiste funktsioonide ja pakkumiste kohta rohkem teada saada.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/30/2018
+ms.date: 04/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,21 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8207af4dc9d5059d487bda97959eff559b7ca06
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b9815ee404981719888e4fdf637bd81f1744d7fb
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302187"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517049"
 ---
-# <a name="localization-and-regulatory-features"></a>Lokaliseerimine ja regulatiivsed funktsioonid
+# <a name="globalization"></a>Globaliseerimine
+
+## <a name="local-and-regional-deployments"></a>Kohalikud ja regioonipõhised juurutused
+Kui teie riigiasutuste määrused nõuavad andmete teistsugust talletamist või teenindamist kui teistes riikides/regioonides, peate rakenduse Finance and Operations juurutamisel võib-olla arvestama oma riigi/regiooni kohaste nõuetega. Võtke arvesse järgmisi ressursse, mis võivad teie jaoks asjakohased olla.
+
+[Microsoft Dynamics 365 for Finance and Operations, mida käitab 21Vianet Hiinas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+
+## <a name="localization-and-regulatory-features"></a>Lokaliseerimine ja regulatiivsed funktsioonid
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,9 +41,9 @@ See teema sisaldab ressursside loetelusid, mis aitavad teil teha järgmist:
 - saada lisateavet riigi-/regioonikohaste lahenduste arendamise kohta;
 - saada riigi-/regioonikohaseid värskendusi;
 - esitada ja vaadata üle regulatiivseid teatisi;
-- õppida, kuidas kasutada riigi-/regioonikohast funktsionaalsust. 
+- õppida, kuidas kasutada riigi-/regioonikohaseid funktsioone.
 
-## <a name="developing-localized-solutions"></a>Lokaliseeritud lahenduste väljatöötamine
+### <a name="developing-localized-solutions"></a>Lokaliseeritud lahenduste väljatöötamine
 Järgmised ressursid sisaldavad juhiseid ja teavet, mis on abiks arendajatele ja ISV-dele, kes loovad riigi-/regioonipõhiseid kohandusi või lahendust riigi jaoks, mida Microsoft ei toeta.
 -   [Eraldi lokaliseerimismudelid](separate-localization-models.md)
 -   [Riigi/regiooni konteksti rakendamine](apply-country-context.md)
@@ -44,22 +51,25 @@ Järgmised ressursid sisaldavad juhiseid ja teavet, mis on abiks arendajatele ja
 -   [Lokaliseerimisfunktsioonide klassifikatsioon](classify-localization-features.md)
 -   [Riigikoodid – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="regulatory-updates-and-communication"></a>Regulatiivsed värskendused ja suhtlus
+### <a name="regulatory-updates-and-communication"></a>Regulatiivsed värskendused ja suhtlus
 Järgmised ressursid sisaldavad teavet plaanitud ja uute lokaliseerimisfunktsioonide kohta. 
 
-### <a name="regulatory-updates"></a>Regulatiivsed värskendused
+#### <a name="regulatory-updates"></a>Regulatiivsed värskendused
 -   [Regulatiivsed värskendused](../../financials/localizations/regulatory-updates.md)
 -   [Lokaliseerimise portaal](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (uuendatakse kord nädalas)
 -   [LCS-i väljamineku otsing](../lifecycle-services/issue-search-lcs.md) (uuendatakse iga päev)
 
-### <a name="communication-and-alerts"></a>Suhtlus ja teatised
+#### <a name="communication-and-alerts"></a>Suhtlus ja teatised
 -   [Regulatiivse vaatluse ja regulatiivsete värskenduste teabevahetus](regulatory-watch-communication.md)
 -   [Microsofti teavitamine riigi/regiooni regulatiivsetest teatistest ja regulatiivsete funktsioonide oleku jälgimine](submit-localization-alerts.md)
 
-### <a name="dynamics-365-release-notes"></a>Dynamics 365 väljalaskemärkmed
-[Dynamics 365 väljalaskemärkmed (PDF-faili allalaadimine)](https://aka.ms/businessappsreleasenotes) sisaldavad kirjeldust täiustatud ja uute võimaluste kohta Dynamics 365 ärirakendustes ja rakenduse platvormides. 
+#### <a name="dynamics-365-release-notes"></a>Dynamics 365 väljalaskemärkmed
+[Dynamics 365 väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/) sisaldavad kirjeldust täiustatud ja uute võimaluste kohta, mida plaanitakse Dynamics 365 ärirakenduste ja rakendusplatvormide jaoks. 
 
-## <a name="electronic-reporting"></a>Elektrooniline aruandlus
+#### <a name="finance-and-operations-whats-new"></a>Finance and Operations – mis on uut?
+Teemast [Mis on uut?](../../fin-and-ops/get-started/whats-new-changed.md) leiate rakenduse Finance and Operations konkreetsetesse versioonidesse lisatud funktsioonid.
+
+### <a name="electronic-reporting"></a>Elektrooniline aruandlus
 Elektroonilise aruandluse (ER) tööriist võimaldab teil konfigureerida elektrooniliste dokumentide vorminguid erinevate riikide/regioonide õigusnõuete järgi. ER võimaldab hallata neid vorminguid nende elutsükli jooksul. Lisateavet vt järgmistest teemadest.
 -   [Elektroonilise aruandluse ülevaade](../analytics/general-electronic-reporting.md)
 -   [Elektroonilise aruandluse konfiguratsiooni elutsükli haldamine](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
@@ -71,7 +81,7 @@ Elektroonilise aruandluse (ER) tööriist võimaldab teil konfigureerida elektro
 -   [Elektroonilise aruandluse konfigureerimine andmete tõmbamiseks Power BI-sse](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [Elektroonilise aruandluse tööriista abil elektrooniliste dokumentide loomine ja avalduse andmete värskendamine](../analytics/generate-electronic-documents-update-application-data.md)
 
-## <a name="task-guides"></a>Tegevuse juhised
+### <a name="task-guides"></a>Tegevuse juhised
 Tegevuse juhised asuvad toote spikripaanil ja need pakuvad juhendatud ülevaadet peamistest äriprotsessidest. Saate avada tegevuse juhise, et lugeda äriprotsessi etappe või saate esitada tegevuse juhise, et saada ülevaade äriprotsessist ja sisestada andmeid.
 
 Tegevuse juhiste leidmiseks liikuge teenuses Microsoft Dynamics 365 for Finance and Operations soovitud lehele ja klõpsake nuppu Spikker. Lehte kasutavad tegevuste juhised on loetletud spikripaanil. Spikripaani saate kasutada ka tegevuse juhiste otsimiseks pealkirja järgi.
@@ -79,7 +89,7 @@ Tegevuse juhiste leidmiseks liikuge teenuses Microsoft Dynamics 365 for Finance 
 Lisateabe saamiseks vt teemat [tegevuse juhised](../../fin-and-ops/get-started/help-overview.md#task-guides).
 
 
-## <a name="countryregion-specific-help-content"></a>Riigi-/regioonikohane spikrisisu​
+### <a name="countryregion-specific-help-content"></a>Riigi-/regioonikohane spikrisisu​
 :::row:::
     :::column:::
         - [Austraalia](../../financials/localizations/australia.md)

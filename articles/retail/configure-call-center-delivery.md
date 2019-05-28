@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "328420"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1553595"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Kõnekeskuse tarneviiside ja -tasude konfigureerimine
 
@@ -32,7 +32,7 @@ Kui rakenduses Microsoft Dynamics 365 for Retail tehakse müügitellimus ja mü�
 
 Müügitellimuse loomisel saate valida tarneviisi müügitellimuse päisest ja müügitellimuse ridadest. Vaikimisi kasutatakse päisest valitud tarneviisi kõikidel müügitellimuse ridadel. Siiski saate vajaduse korral muuta vaike-tarneviisi igal müügireal eraldi. Saate määratleda tarneviisi ka kliendikirjel. Seejärel kasutatakse seda tarneviisi selle kliendi tellimuste loomisel müügitellimuse päises vaikimisi.
 
-Rakendusel Microsoft Dynamics 365 for Retail on funktsioonid, mis võimaldavad kasutajatel piirata kanali kasutatavaid tarneviise, toote jaoks kasutatavaid tarneviise ja tarneviise, mis on sobivad vaid teatud tarne sihtkohtade jaoks. Tasusid saab määrata ka nii, et lisatasud lisatakse kliendi tellimusele olenevalt müügitellimuse jaoks valitud tarneviisidest ja tellimuse koguväärtusest.
+Rakendusel Retail on funktsioonid, mis võimaldavad kasutajatel piirata kanali kasutatavaid tarneviise, toote jaoks kasutatavaid tarneviise ja tarneviise, mis on sobivad vaid teatud tarne sihtkohtade jaoks. Tasusid saab määrata ka nii, et lisatasud lisatakse kliendi tellimusele olenevalt müügitellimuse jaoks valitud tarneviisidest ja tellimuse koguväärtusest.
 
 ## <a name="define-delivery-modes"></a>Tarneviiside määratlemine
 

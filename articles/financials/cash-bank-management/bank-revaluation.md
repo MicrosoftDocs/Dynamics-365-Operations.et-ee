@@ -3,7 +3,7 @@ title: Panga välisvaluuta ümberarvutamine
 description: Selles teemas antakse ülevaade panga välisvaluuta ümberarvutamise protsessi kohta. Siin on teave seadistamise, protsessi käitamise, protsessi jaoks arvutuste tegemise ja ümberarvutuskannete tühistamise kohta.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/27/2019
+ms.date: 04/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3aed5a6c12e8dd39956f906f922bfbed1b8fb680
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "976649"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538628"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Panga välisvaluuta ümberarvutamine
 
@@ -52,7 +52,7 @@ Välisvaluuta ümberarvutuste töötlemiseks peate sisse lülitama panga välisv
 3. Vahekaardil **Numbriseeriad** lisage välisvaluuta ümberarvutamise jaoks numbriseeria.
 4. Värskendage brauserit, et **Välisvaluuta ümberarvutamine** ilmuks ala lehe jaotisse **Perioodilised ülesanded**.
 
-Peate funktsiooni sisse lülitama iga välisvaluuta ümberarvutamist kasutava juriidilise isiku korral.
+Peate funktsiooni sisse lülitama iga välisvaluuta ümberarvutamist kasutava juriidilise isiku korral. Kui teile on määratud süsteemiadministraatori või funktsioonihalduri roll, saate selle etapi eemaldada, lubades funktsiooni nimega **Panga ümberhindamine ilma parameetrita** tööruumis **Funktsioonihaldus**.
 
 > [!NOTE]
 > Kui teie juriidiline isik kasutab Vene, Poola või Ungari riigi/regiooni koodi, saate juba teha panga välisvaluuta ümberarvutamist. Te ei saa kasutada välisvaluuta ümberarvutamist, mida kasutatavad teised riigid või regioonid.

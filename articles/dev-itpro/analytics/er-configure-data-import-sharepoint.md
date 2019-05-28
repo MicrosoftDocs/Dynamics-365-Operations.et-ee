@@ -18,11 +18,11 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.openlocfilehash: 8053b0316c86c614b87b0e658dffade3a135f2cc
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331088"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1552809"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>SharePointist andmete importimise konfigureerimine
 
@@ -62,7 +62,7 @@ Vaadake tegevusjuhiseid **Elektrooniline aruandlus: andmete importimine Microsof
 > Hankija kannete importimise vorming on valitud vaike-mudelivastendusena. Seega kui käivitate **1099 maksete mudeli** mudelivastenduse ja mudelivastenduse tüüp on **Sihtkohta**, käitab mudelivastendus seda vormingut andmete importimiseks välistest failidest. Seejärel kasutab see neid andmeid rakenduse tabelite värskendamiseks.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>SharePointile juurdepääsu konfigureerimine failitalletuseks
-Elektroonilise aruande failide talletamiseks SharePointi asukohas tuleb konfigureerida juurdepääs praeguses ettevõttes kasutatavale SharePoint Serveri eksemplarile. Selles näites on ettevõte USMF. Juhiseid vt teemast [SharePointi salvestusruumi konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+Elektroonilise aruande failide talletamiseks SharePointi asukohas tuleb konfigureerida juurdepääs praeguses ettevõttes kasutatavale SharePointi Serveri eksemplarile. Selles näites on ettevõte USMF. Juhiseid vt teemast [SharePointi salvestusruumi konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
 1. Järgige juhiseid jaotises teemas [SharePointi salvestusruumi konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 2. Avage konfigureeritud SharePointi sait.

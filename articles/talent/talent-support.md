@@ -1,9 +1,9 @@
 ---
 title: Talenti toe hankimine
-description: Selles teemas selgitatakse, kuidas saada abi rakenduse Dynamics 365 for Talent kasutamisel.
+description: Selles teemas selgitatakse, kuidas saada abi Microsoft Dynamics 365 for Talent kasutamisel.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/18/2018
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,32 +15,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 39aadda6e4c221e243d55e2fd60bbc8484d3b21d
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 9895ae8bdc6326b3863585d77b93576fe5fddcb4
+ms.sourcegitcommit: ab88de98a1958734213eb9d9b1988508b055f748
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992808"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538769"
 ---
 # <a name="get-support-for-talent"></a>Talenti toe hankimine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas saada abi rakenduste Talent: Core HR, Attract ja Onboard kasutamisel.
+Selles teemas kirjeldatakse, kuidas saada abi rakenduste Microsoft Dynamics 365 for Talent Core HR, Dynamics 365 Talent: Attract ja Dynamics 365 Talent: Onboard kasutamisel.
 
-<a name="contact-support"></a>Võtke ühendust toega
----------------
+## <a name="support-for-talent"></a>Talenti tugi
 
-Kasutage selles teemas toodud teavet Microsoftiga ühenduse võtmsieks, kui teil on tehnilisi küsimusi Talenti kohta.
+Talenti toe hankimiseks kasutage järgmises tabelis olevaid ressursse. Ressursid on loendatud tõrkeotsingul soovitatavas tegutsemise järjekorras.
 
-### <a name="talent-support"></a>Talenti tugi 
+| Ülesanne | Lisateave |
+|------|------------------|
+| Küsige kogukonnalt. | Küsimustele abi saamiseks minge [Dynamics 365 for Talent Community](https://community.dynamics.com/365/talent). Vastuste leidmiseks sisestage küsimus otsinguväljale lause **Mul on küsimus** kõrval. Küsimuse esitamiseks valige **Küsimuse küsimine**. |
+| Pilvepõhise tugitööriista kasutamine. | Rakenduses [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/) minge oma projektile ja valige paan **Tugi**. Sealt saate esitada küsimusi kahel viisil.<ul><li>Vahekaardil **Aktiivsed probleemid** valige küsimus, mida soovite esitada ja seejärel valige **Edasta Microsoftile**.</li><li>Vahekaardil **Edastatud Microsoftile** valige **Uue juhtumi edastamine** uue küsimuse edastamiseks.</li></ul> |
+| Hankige rakendusesisene tugi. | Valige lehe ülemises parempoolses nurgas olev nupp **Spikker** (**?**). Seejärel, kui olete rakenduses Core HR, valige **Tugi.** Kui olete rakenduses Attract või Onboard, valige **Probleemist teatamine**. Küsimustest teatakse LCS-i vahekaardil **Aktiivsed probleemid**, kus administraator saab määrata, kas pakkuda kohapealset tuge või esitada küsimused Microsoftile. (Kui teil on Onboardi eraldiseisev versioon, esitatakse probleemid otse Microsoftile.) |
+| Abi saamine küsimuste korrral Talenti litsentsimise kohta. | Võtke ühendust partneri või Microsofti müügiesindajaga. |
+| Talentis uute funktsioonide ja võimaluste taotlemine. | Rakenduse Talent avalehel valige nupp **Spikker** (**?**) ja seejärel **ideed**. Saate külastada [Dynamics 365 rakenduse ideid](https://experience.dynamics.com/ideas/), et vaadata, otsida või hääletada olemasolevate ideede poolt või lisada uusi. |
 
-Talenti toe hankimiseks kasutage järgmises tabelis olevaid ressursse. Ressursid on loendatud tõrkeotsingu puhul soovitatavas tegutsemise järjekorras.
+## <a name="support-for-the-onboard-stand-alone-app"></a>Onboardi eraldiseisva rakenduse tugi
 
-| **Tööülesanne**                                                | **Lisateave**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kogukonnalt küsimine                                      | Oma küsimuste vastuste leidmiseks minge lehele [Kogukonnalt küsimine](https://community.dynamics.com/365/talent) ja teemade otsimiseks Core HR-is kasutage suvandit Spikker.                                                                                                                                                                                                                                                                                                                                                                                  |
-| Pilvepõhise toe tööriista kasutamine                     | Teenuses [Lifecycle Services (LCS)](https://lcs.dynamics.com/) on paan **Tugi** tööriist, mis aitab teil toejuhtumeid hallata. Probleemide edastamiseks otse Microsoftile avage oma LCS-i projektis paan **Tugi** või kasutage LCS-is **toetaotluste jaotist** ja klõpsake suvandit **Pilvepõhine tugi**. Sealt saate esitada küsimusi kahel viisil. 1. Probleemi edastamisel LCS-i kaudu valige vahekaardil **Aktiivne probleem** oma probleem ja klõpsake nuppu **Edasta Microsoftile**. 2. Probleemide edastamiseks klõpsake vahekaardil **Edastatud Microsoftile** nuppu **Uue juhtumi edastamine**.  |
-| Rakenduse toes                                 | Valige menüüst ikoon **?** ja valige **Tugi (Core HR) Teavita probleemist (Attract, Onboard)**. Probleemid edastatakse LCS vahekaardil **Aktiivsed probleemid**. Pange tähele, et kui ostsite Onboardi eraldiseisva versiooni, saadetakse probleemist teatamisel probleemid Microsoftile.  |
-| Abi saamine küsimuste korrral Talenti litsentsimise kohta         | Võtke ühendust partneri või Microsofti müügiesindajaga.     |
-| Talentis uute funktsioonide ja võimaluste taotlemine | Valige rakenduses Talenti põhilehel ikoon **?** ja seejärel valige suvand **Ideed** või kasutage linki [Ideed](https://experience.dynamics.com/ideas/), et ideid vaadata, otsida, hääletada või uusi lisada.          |                                                                                                                                                                                                                                                                                           
+Eraldiseisva rakenduse Onboard toe hankimiseks kasutage järgmises tabelis olevaid ressursse. Ressursid on loendatud tõrkeotsingul soovitatavas tegutsemise järjekorras. Kõiki neid tugiteenuste võimalusi leiate, kui valite lehe ülemises parempoolses nurgas nupu **Spikker** (**?**).
+
+| Ülesanne | Lisateave |
+|------|------------------|
+| Küsige kogukonnalt. | Küsimustele abi saamiseks minge [Dynamics 365 for Talent kogukond](https://community.dynamics.com/365/talent). Vastuste leidmiseks sisestage küsimus otsinguväljale lause **Mul on küsimus** kõrval. Küsimuse esitamiseks valige **Küsimuse küsimine**. |
+| Teatage probleemist. | Valige lehe ülemises parempoolses nurgas nupp **Spikker** (**?**) ja seejärel **Probleemist teatamine**. Sisestage probleemi kirjeldus ja lisage meiliaadress, kui soovite teatatava probleemi kohta tagasisidet saada. |
+| Abi saamine küsimuste korrral Talenti litsentsimise kohta. | Võtke ühendust partneri või Microsofti müügiesindajaga. |
+| Onboardis uute funktsioonide ja võimaluste taotlemine. | Valige nupp **Spikker** (**?**) ja seejärel **ideed**. Saate külastada [Dynamics 365 for Talent: Onboardi ideed](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard), et vaadata, otsida või hääletada olemasolevate ideede poolt või lisada uusi. |

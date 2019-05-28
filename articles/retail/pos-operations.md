@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842718"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505092"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
@@ -71,6 +71,8 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 640 | Tühjenda realt müügiesindaja | Eemaldage komisjonitasu müügigrupp (müügiesindaja) praegu valitud realt. | Jah | Jah | Ei | Jah | Ei |
 | 121 | Tühjenda väli Müüja | Seda operatsiooni ei toetata. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Ei |
 | 1055 | Sule vahetus | Sulgege praegune vahetus, printige Z-aruanne ja logige kasutaja süsteemist välja. | Jah | Jah | Jah | Ei | Ei |
+| 139 | Lõpeta kanne | Kasutajal palutakse valida makseviis | Jah | Jah | Ei | Jah | Ei |
+| 620 | Kliendi tellimuse loomine | Teisendage kassa kanne kliendi tellimuseks. | Jah | Jah | Ei | Jah\* | Ei |
 | 925 | Pangatšeki kopeerimine | Seda operatsiooni ei toetata. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Jah |
 | 620 | Kliendi tellimuse loomine | Teisendage kassa kanne kliendi tellimuseks. | Jah | Jah | Ei | Jah\* | Ei |
 | 621 | Loo pakkumine | Teisendage kassa kanne müügipakkumiseks. | Jah | Jah | Ei | Jah\* | Ei |

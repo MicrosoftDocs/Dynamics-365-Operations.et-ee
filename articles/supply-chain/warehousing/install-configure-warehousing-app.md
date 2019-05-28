@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "316115"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559182"
 ---
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Microsoft Dynamics 365 for Finance and Operations &#8211; mooduli Ladustamine installimine ja konfigureerimine
 
@@ -91,10 +91,10 @@ Peate konfigureerima rakenduse seadmel Finance and Operationsi serveriga Azure A
 1.  Avage rakenduses **Ühenduse sätted**.
 2.  Tühjendage väli **Demorežiim**. <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
 3.  Sisestage järgmine teave: 
-    + **Azure Active Directory kliendi ID** – kliendi ID hangiti sammus 9 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. 
-    + **Azure Active Directory kliendi saladus** – kliendi saladus hangiti sammus 11 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. 
-    + **Azure Active Directory ressurss** – Azure AD kausta ressurss kujutab endast Finance and Operationsi juur-URL-i. **Märkus**. Ärge lõpetage seda välja kaldkriipsuga (/). 
-    + **Azure Active Directory rentnik** – Azure AD kausta rentnik, mida Finance and Operationsi serveri puhul kasutatakse: `https://login.windows.net/your-AD-tenant-ID`. Näide: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
+    + **Azure Active directory kliendi ID** – kliendi ID hangiti sammus 9 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. 
+    + **Azure Active directory kliendi saladus** – kliendi saladus hangiti sammus 11 jaotises „Veebiteenuse rakenduse loomine Active Directorys”. 
+    + **Azure Active directory ressurss** – Azure AD kausta ressurss kujutab endast Finance and Operationsi juur-URL-i. **Märkus**. Ärge lõpetage seda välja kaldkriipsuga (/). 
+    + **Azure Active directory rentnik** – Azure AD kausta rentnik, mida Finance and Operationsi serveri puhul kasutatakse: `https://login.windows.net/your-AD-tenant-ID`. Näide: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Märkus**. Ärge lõpetage seda välja kaldkriipsuga (/). 
     + **Ettevõte** – sisestage rakendusse Finance and Operations juriidiline isik, millega soovite rakenduse ühendada. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Valige nupp **Tagasi** rakenduse ülemises vasakus nurgas. Rakendus loob nüüd ühenduse teie Finance and Operationsi serveriga ja kuvatakse laotöötaja sisselogimisekraan. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)

@@ -3,14 +3,14 @@ title: Talenti laiendamine PowerAppsi ja Microsoft Flow’ga – näidisstsenaar
 description: Selles teemas kirjeldatakse laiendatavuse stsenaariume rakenduses Microsoft Dynamics 365 for Talent, mis kasutab Microsoft PowerAppsi ja Microsoft Flow’d.
 author: negudava
 manager: Annbe
-ms.date: 03/04/2018
+ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent;Core;Experience Apps
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0aa3578047b9397682a7039d0dbcc05cc1b167e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "949916"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517784"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talenti laiendamine PowerAppsi ja Microsoft Flow’ga – näidisstsenaariumid
 
@@ -101,7 +101,21 @@ Seda malli saab laiendada kasutamiseks mis tahes stsenaariumi jaoks, mis hõlmab
 
 Malli **Flow – SharePointi integratsioon** alla laadimiseks minge Microsofti allalaadimiskeskuses lehele [Flow – SharePointi integratsioon](https://go.microsoft.com/fwlink/?linkid=2082109).
 
+## <a name="admin-console-to-manage-talent-pools"></a>Administraatori konsool talendikaustade haldamiseks
 
+Kui lubate integratsiooni LinkedIniga, loob Attract automaatselt LinkedIni talentikausta. Kui värbaja saadab InMail kandidaadile LinkedIni kaudu, loob Attract kandidaadile profiili ja temast saab LinkedIni talendikausta liige. See PowerAppsi rakendus on otstarbekas kandidaatide järjestamiseks talendikaustades oskuste alusel.
+
+Käivitage rakendus PowerApps administraatori konsoolina järgmiste ülesannete täitmiseks.
+
+- Kandidaatide järjestamine talendikaustas
+- Kandidaatide lisamine ja eemaldamine talendikausta
+- Kandidaatide teisaldamine ühest talendikaustast teise
+- Määratlemine, kas kandidaadid on enne teisaldamist juba talendikaustas
+- Kandidaatide oskuste kontrollimine enne nende teisaldamist teistesse talendikaustadesse
+
+See PowerAppsi rakendus kasutab mitu-mitmele-seoseid ning saate seda kasutada mallina muudel juhtudel, kui teil on vaja ekstraktida kirjeid, millel on mitu-mitmele seosed.
+
+Malli **Administraatori konsool talendikaustade haldamiseks** allalaadimiseks avage [Administraatori konsool talendikaustade haldamiseks](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) Microsofti allalaadimiskeskuses.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

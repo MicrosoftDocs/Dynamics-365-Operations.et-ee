@@ -18,11 +18,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 5a48ea7b0c1faf5726de21a246e3d8b4d98f166a
-ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "897174"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1511656"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobiilsed arvete heakskiidud
 
@@ -38,7 +38,7 @@ Mobiilsed võimalused rakenduses Microsoft Dynamics 365 for Finance and Operatio
 | Mobiili käsiraamat eelnevaks lugemiseks                                                                                |[Mobiilne platvorm](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Keskkond, millesse on installitud Microsoft Dynamics 365 for Operationsi versioon 1611 ja Microsoft Dynamics for Operationsi platvormivärskendus 3 (november 2016)                   |
 | Installige kiirparandus KB 3204341.                                                                              | Tegevuse salvestaja võib kogemata salvestada rippdialoogidele kaks sulgemiskäsku Dynamics 365 for Operationsi platvormi värskenduses 3 (2016. aasta novembri värskendus) |
-| Installige kiirparandus KB 3207800.                                                                              | See kiirparandus võimaldab vaadata manuseid mobiilikliendil, mis sisaldub Dynamics 365 for Operationsi platvormi värskenduses 3 (2016. aasta novembri värskendus).           |
+| Installige kiirparandus KB 3207800.                                                                              | See kiirparandus võimaldab vaadata manuseid mobiilikliendil, mis sisaldub Dynamics 365 for Operationi platvormi värskenduses 3 (2016. aasta novembri värskendus).           |
 | Installige kiirparandus KB 3208224.                                                                              | Rakenduse kood mobiilse hankija arve kinnitamise rakenduse jaoks, mis sisaldub rakenduses Microsoft Dynamics AX-i 7.0.1 (mai 2016).                          |
 | Androidi, iOS-i või Windowsi seade, millesse on installitud Finance and Operationsi mobiilirakendus | Otsige rakendust vastavast rakenduste poest.                                                                                                                     |
 
