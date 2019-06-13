@@ -1,67 +1,192 @@
----
-title: Hankijate kopeerimine ühiskasutatavate numbriseeriate abil
-description: Selles teemas selgitatakse, kuidas kasutada ühiskasutatavaid numbriseeriaid hankija kopeerimiseks teise juriidilisse isikusse, säilitades sama hankija ID.
-author: mikefalkner
-manager: aolson
-ms.date: 08/24/2018
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: VendTable
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.author: mikefalkner
-ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 14e361b38f417ee7017981f564eac1b12c93b9f5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508872"
----
-# <a name="copy-vendors-by-using-shared-number-sequences"></a><span data-ttu-id="021e7-103">Hankijate kopeerimine ühiskasutatavate numbriseeriate abil</span><span class="sxs-lookup"><span data-stu-id="021e7-103">Copy vendors by using shared number sequences</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="021e7-104">Saate kasutada hankija ID-de määramiseks ühiskasutatavaid numbriseeriaid</span><span class="sxs-lookup"><span data-stu-id="021e7-104">You can use shared number sequences to assign vendor IDs.</span></span> <span data-ttu-id="021e7-105">Ühiskasutatavad numbriseeriad võimaldavad kopeerida hankijaid ühest juriidilisest isikust teise juriidilisse isikusse, kasutades mõlemas juriidilises isikus samu hankija ID-sid.</span><span class="sxs-lookup"><span data-stu-id="021e7-105">Shared number sequences also let you copy vendors from one legal entity to another legal entity but use the same vendor IDs in both legal entities.</span></span>
-
-## <a name="setup"></a><span data-ttu-id="021e7-106">Seadistamine</span><span class="sxs-lookup"><span data-stu-id="021e7-106">Setup</span></span>
-
-<span data-ttu-id="021e7-107">Funktsioon aktiveeritakse hankija ID-de määramisel ühiskasutatava numbriseeria kasutamisel.</span><span class="sxs-lookup"><span data-stu-id="021e7-107">The feature is activated when you use a shared number sequence to assign vendor IDs.</span></span> <span data-ttu-id="021e7-108">Peate kasutama sama numbriseeriat igas juriidilises isikus, kuhu soovite hankija kopeerida.</span><span class="sxs-lookup"><span data-stu-id="021e7-108">You must use the same number sequence in every legal entity that you want to copy a vendor to.</span></span> <span data-ttu-id="021e7-109">Hankija numbriseeriat saate muuta iga juriidilise isiku lehel **Ostureskontro parameetrid**.</span><span class="sxs-lookup"><span data-stu-id="021e7-109">You change the vendor number sequence on the **Accounts payable parameters** page for each legal entity.</span></span> <span data-ttu-id="021e7-110">Valige suvandid **Ostureskontro** \> **Seadistus** \> **Ostureskontro parameetrid** ja seejärel valige vahekaart **Numbriseeriad**.</span><span class="sxs-lookup"><span data-stu-id="021e7-110">Select **Accounts payable** \> **Setup** \> **Accounts payable parameters**, and then select the **Number sequences** tab.</span></span>
-
-<span data-ttu-id="021e7-111">Samuti saate seadistada hankija numbriseeriad iga hankijagrupi jaoks.</span><span class="sxs-lookup"><span data-stu-id="021e7-111">You can also set up vendor number sequences for each vendor group.</span></span> <span data-ttu-id="021e7-112">Need numbriseeriad peavad samuti olema ühiskasutuses.</span><span class="sxs-lookup"><span data-stu-id="021e7-112">These number sequences must also be shared.</span></span> <span data-ttu-id="021e7-113">Esmalt kasutatakse valitud hankijagrupi numbriseeriat.</span><span class="sxs-lookup"><span data-stu-id="021e7-113">The number sequence for a vendor group is used first.</span></span> <span data-ttu-id="021e7-114">Kui hankijagrupile pole ühtki numbriseeriat määratud, kasutatakse lehel **Ostureskontro parameetrid** määratud numbriseeriat.</span><span class="sxs-lookup"><span data-stu-id="021e7-114">If no number sequence is specified for a vendor group, the number sequence that is specified on the **Accounts payable parameters** page is used.</span></span>
-
-<span data-ttu-id="021e7-115">Käsitsi hankija ID-de kasutamisel saate hankijaid juriidiliste isikute vahel ka kopeerida.</span><span class="sxs-lookup"><span data-stu-id="021e7-115">You can also copy vendors between legal entities if you use manual vendor IDs.</span></span> <span data-ttu-id="021e7-116">Kui aga püüate kopeerida hankija juriidilisse isikusse, kus hankija ID on juba olemas, siis kopeerimisprotsessi ei alustata.</span><span class="sxs-lookup"><span data-stu-id="021e7-116">However, if you try to copy a vendor to a legal entity where the vendor ID already exists, the copy process won't be started.</span></span>
-
-## <a name="copy-a-vendor"></a><span data-ttu-id="021e7-117">Hankija kopeerimine</span><span class="sxs-lookup"><span data-stu-id="021e7-117">Copy a vendor</span></span>
-
-<span data-ttu-id="021e7-118">Hankija kopeerimiseks valige loendilehel **Kõik hankijad** suvand **Uus**, et avada leht **Kõik hankijad, uus kirje**.</span><span class="sxs-lookup"><span data-stu-id="021e7-118">To copy a vendor, select **New** on the **All vendors** list page to open the **All vendors, new record** page.</span></span> <span data-ttu-id="021e7-119">Pange tähele, et uut hankija ID-d ei määrata kohe.</span><span class="sxs-lookup"><span data-stu-id="021e7-119">Notice that the new vendor ID isn't assigned immediately.</span></span> <span data-ttu-id="021e7-120">See käitumine erineb teenuse Microsoft Dynamics 365 for Finance and Operations eelmiste versioonide käitumisest.</span><span class="sxs-lookup"><span data-stu-id="021e7-120">This behavior differs from the behavior in previous versions of Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="021e7-121">Kuna hankijagrupp pole veel valitud, ei saa süsteem määrata kasutamiseks õiget numbriseeriat.</span><span class="sxs-lookup"><span data-stu-id="021e7-121">Because you haven't yet selected the vendor group, the system can't determine the correct number sequence to use.</span></span> <span data-ttu-id="021e7-122">Samuti ei saa see kindlaks teha, kas püüate luua uue hankija või hankija kopeerida.</span><span class="sxs-lookup"><span data-stu-id="021e7-122">Additionally, it can't determine whether you're trying to create a new vendor or copy a vendor.</span></span> <span data-ttu-id="021e7-123">Seetõttu ei määrata hankija ID-d enne, kui valite lehe alaservast käsu **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="021e7-123">Therefore, the vendor ID isn't assigned until you select **Save** at the bottom of the page.</span></span>
-
-<span data-ttu-id="021e7-124">Uue hankija loomisel saate jätkata kõigi väljade täitmist, nagu seda tavaliselt teete.</span><span class="sxs-lookup"><span data-stu-id="021e7-124">If you're creating a new vendor, you can continue to fill in all the fields as you usually do.</span></span> <span data-ttu-id="021e7-125">Kui olete lõpetanud ja valite käsu **Salvesta**, siis näete, et hankija ID on automaatselt määratud.</span><span class="sxs-lookup"><span data-stu-id="021e7-125">When you've finished, and you select **Save**, you will see that the vendor ID was assigned automatically.</span></span> <span data-ttu-id="021e7-126">Käsitsi numbriseeriate puhul näete, et kasutatakse teie käsitsi määratud hankija ID-d.</span><span class="sxs-lookup"><span data-stu-id="021e7-126">Alternatively, for manual number sequences, you will see that your manual vendor ID was used.</span></span>
-
-<span data-ttu-id="021e7-127">Hankija kopeerimiseks sisestage väljale **Nimi** üks või mitu tähte, mis otsitavat hankijat tähistavad.</span><span class="sxs-lookup"><span data-stu-id="021e7-127">To copy a vendor, in the **Name** field, enter one or more characters that represent the vendor that you're looking for.</span></span> <span data-ttu-id="021e7-128">Otsingu dialoogiboksis kuvatakse loend osapooltest, kes võivad olla teie otsitavad hankijad.</span><span class="sxs-lookup"><span data-stu-id="021e7-128">A search dialog box shows a list of parties that might represent the vendor that you're looking for.</span></span> <span data-ttu-id="021e7-129">Mõne osapoole valimisel kuvatakse dialoogiboksi paremas servas lisateave.</span><span class="sxs-lookup"><span data-stu-id="021e7-129">When you select one of the parties, additional information appears on the right side of the dialog box:</span></span>
-
-- <span data-ttu-id="021e7-130">Vahekaardil **Üldine** kuvatakse osapoole telefoninumber ja aadress.</span><span class="sxs-lookup"><span data-stu-id="021e7-130">The **General** tab shows the party's phone number and address.</span></span>
-- <span data-ttu-id="021e7-131">Vahekaardil **Rollid** kuvatakse rollid, mis võivad valitud osapoolel olla, ja juriidiline isik, kus tal iga roll on.</span><span class="sxs-lookup"><span data-stu-id="021e7-131">The **Roles** tab shows the roles that the selected party can have and the legal entity where it has each role.</span></span>
-- <span data-ttu-id="021e7-132">Vahekaardil **Maksukohustuslasena registreerimise ID** kuvatakse osapoolele määratud makuskohustuslasena registreerimise ID-d.</span><span class="sxs-lookup"><span data-stu-id="021e7-132">**Tax registration ID** tab shows the tax registration IDs that are assigned to the party.</span></span>
-
-<span data-ttu-id="021e7-133">Saate osapoole kopeerida ainult siis, kui sellel on hankija roll ja kui sellel on roll juriidilises isikus, mis pole praegune juriidiline isik.</span><span class="sxs-lookup"><span data-stu-id="021e7-133">You can copy a party only if it has a vendor role, and if it has that role in a legal entity that isn't the current legal entity.</span></span> <span data-ttu-id="021e7-134">Kui leiate kriteeriumidele vastava osapoole, tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="021e7-134">When you find a party that meets these criteria, follow these steps.</span></span>
-
-1. <span data-ttu-id="021e7-135">Kuvatakse suvand **Hankija kopeerimine**.</span><span class="sxs-lookup"><span data-stu-id="021e7-135">A **Copy vendor** option appears.</span></span> <span data-ttu-id="021e7-136">Vaikimisi on selle suvandi säte **Ei**.</span><span class="sxs-lookup"><span data-stu-id="021e7-136">By default, this option is set to **No**.</span></span> <span data-ttu-id="021e7-137">Hankija kopeerimiseks praegusse juriidilisse isikusse määrake suvandi sätteks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="021e7-137">To copy the vendor to the current legal entity, set the option to **Yes**.</span></span> 
-2. <span data-ttu-id="021e7-138">Kuvatakse väli **Juriidiline isik**.</span><span class="sxs-lookup"><span data-stu-id="021e7-138">A **Legal entity** field appears.</span></span> <span data-ttu-id="021e7-139">Valige juriidiline isik, millest hankija kopeerida.</span><span class="sxs-lookup"><span data-stu-id="021e7-139">Select the legal entity to copy the vendor from.</span></span> <span data-ttu-id="021e7-140">Kui hankija on olemas ainult ühes juriidilises isikus, on sellel väljal vaikimisi see juriidiline isik.</span><span class="sxs-lookup"><span data-stu-id="021e7-140">If the vendor exists in only one legal entity, the field is set to that legal entity by default.</span></span>
-3. <span data-ttu-id="021e7-141">Valige käsk **Vali**.</span><span class="sxs-lookup"><span data-stu-id="021e7-141">Select **Select**.</span></span> <span data-ttu-id="021e7-142">Luuakse uus hankija.</span><span class="sxs-lookup"><span data-stu-id="021e7-142">The new vendor is created.</span></span>
-
-## <a name="validation"></a><span data-ttu-id="021e7-143">Kinnitamine</span><span class="sxs-lookup"><span data-stu-id="021e7-143">Validation</span></span>
-
-<span data-ttu-id="021e7-144">Hankija kopeerimisel püüab süsteem salvestada uue hankija teabe.</span><span class="sxs-lookup"><span data-stu-id="021e7-144">When you copy a vendor, the system tries to save the new vendor information.</span></span> <span data-ttu-id="021e7-145">Kinnitamisi tehakse selleks, et kontrollida, kas kopeeritud andmed on korras.</span><span class="sxs-lookup"><span data-stu-id="021e7-145">Validations are run to verify that the data that was copied is good.</span></span> <span data-ttu-id="021e7-146">Iga nurjunud kinnitamise korral kuvatakse tõrketeade.</span><span class="sxs-lookup"><span data-stu-id="021e7-146">You receive an error message for every validation that fails.</span></span> <span data-ttu-id="021e7-147">Tõrketeated selgitavad, millist teavet tuleb värskendada.</span><span class="sxs-lookup"><span data-stu-id="021e7-147">The error messages explain what information must be updated.</span></span> <span data-ttu-id="021e7-148">Hankija koopiat ei saa salvestada enne, kui olete kõik kinnitamistõrked kõrvaldanud.</span><span class="sxs-lookup"><span data-stu-id="021e7-148">The copy of the vendor can't be saved until you fix all the validation errors.</span></span>
-
-## <a name="copy-a-vendor-by-using-the-tax-exempt-number-search-feature"></a><span data-ttu-id="021e7-149">Hankija kopeerimine maksuvabastuse numbri otsingu funktsiooni abil</span><span class="sxs-lookup"><span data-stu-id="021e7-149">Copy a vendor by using the Tax exempt number search feature</span></span>
-
-<span data-ttu-id="021e7-150">Hankijaid saab kopeerida ka maksuvabastuse numbri otsingu funktsiooni abil lehe **Kõik hankijad** toimingupaani vahekaardi **Hankija** rühmas **Registreerimine**.</span><span class="sxs-lookup"><span data-stu-id="021e7-150">You can also copy vendors by using the Tax exempt number search feature that is in the **Registration** group on the **Vendor** tab on the Action Pane of the **All vendors** page.</span></span> <span data-ttu-id="021e7-151">Avanevas dialoogiboksis **Maksuvabastuse numbri otsing** kuvatakse maksuvabastuse numbrid, hankija ID, hankija nimi ja juriidiline isik, kus maksuvabastuse ID-d kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="021e7-151">The **Tax exempt number search** dialog box that appears shows tax exempt numbers, the vendor ID, the vendor name, and the legal entity where the tax exempt ID is used.</span></span> <span data-ttu-id="021e7-152">Hankija saate kopeerida ainult siis, kui see on juriidilises isikus, mis pole praegune juriidiline isik.</span><span class="sxs-lookup"><span data-stu-id="021e7-152">You can copy a vendor only if it's in a legal entity that isn't the current legal entity.</span></span> <span data-ttu-id="021e7-153">Kui olete sellele kriteeriumile vastava hankija valinud, tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="021e7-153">After you select a vendor that meets this criterion, follow these steps.</span></span>
-
-1. <span data-ttu-id="021e7-154">Kuvatakse suvand **Hankija kopeerimine**.</span><span class="sxs-lookup"><span data-stu-id="021e7-154">A **Copy vendor** option appears.</span></span> <span data-ttu-id="021e7-155">Vaikimisi on selle suvandi säte **Ei**.</span><span class="sxs-lookup"><span data-stu-id="021e7-155">By default, this option is set to **No**.</span></span> <span data-ttu-id="021e7-156">Hankija kopeerimiseks praegusse juriidilisse isikusse määrake suvandi sätteks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="021e7-156">To copy the vendor to the current legal entity, set the option to **Yes**.</span></span>
-2. <span data-ttu-id="021e7-157">Valige käsk **Vali**.</span><span class="sxs-lookup"><span data-stu-id="021e7-157">Select **Select**.</span></span> <span data-ttu-id="021e7-158">Luuakse uus hankija.</span><span class="sxs-lookup"><span data-stu-id="021e7-158">The new vendor is created.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="vendor-copy.md" target-language="et-EE">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>vendor-copy.deb9a6.0c492cd76fc9742aa4cff8fe588541cb2c6f1863.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>0c492cd76fc9742aa4cff8fe588541cb2c6f1863</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\accounts-payable\vendor-copy.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Copy vendors by using shared number sequences</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankijate kopeerimine ühiskasutatavate numbriseeriate abil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains how to use shared number sequences to copy a vendor to another legal entity but keep the same vendor ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles teemas selgitatakse, kuidas kasutada ühiskasutatavaid numbriseeriaid hankija kopeerimiseks teise juriidilisse isikusse, säilitades sama hankija ID.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Copy vendors by using shared number sequences</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankijate kopeerimine ühiskasutatavate numbriseeriate abil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>You can use shared number sequences to assign vendor IDs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate kasutada hankija ID-de määramiseks ühiskasutatavaid numbriseeriaid</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Shared number sequences also let you copy vendors from one legal entity to another legal entity but use the same vendor IDs in both legal entities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ühiskasutatavad numbriseeriad võimaldavad kopeerida hankijaid ühest juriidilisest isikust teise juriidilisse isikusse, kasutades mõlemas juriidilises isikus samu hankija ID-sid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Setup</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seadistamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The feature is activated when you use a shared number sequence to assign vendor IDs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funktsioon aktiveeritakse hankija ID-de määramisel ühiskasutatava numbriseeria kasutamisel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>You must use the same number sequence in every legal entity that you want to copy a vendor to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Peate kasutama sama numbriseeriat igas juriidilises isikus, kuhu soovite hankija kopeerida.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>You change the vendor number sequence on the <bpt id="p1">**</bpt>Accounts payable parameters<ept id="p1">**</ept> page for each legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankija numbriseeriat saate muuta iga juriidilise isiku lehel <bpt id="p1">**</bpt>Ostureskontro parameetrid<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Select <bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Accounts payable parameters<ept id="p3">**</ept>, and then select the <bpt id="p4">**</bpt>Number sequences<ept id="p4">**</ept> tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige suvandid <bpt id="p1">**</bpt>Ostureskontro<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Seadistus<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Ostureskontro parameetrid<ept id="p3">**</ept> ja seejärel valige vahekaart <bpt id="p4">**</bpt>Numbriseeriad<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>You can also set up vendor number sequences for each vendor group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samuti saate seadistada hankija numbriseeriad iga hankijagrupi jaoks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>These number sequences must also be shared.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Need numbriseeriad peavad samuti olema ühiskasutuses.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>The number sequence for a vendor group is used first.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esmalt kasutatakse valitud hankijagrupi numbriseeriat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>If no number sequence is specified for a vendor group, the number sequence that is specified on the <bpt id="p1">**</bpt>Accounts payable parameters<ept id="p1">**</ept> page is used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui hankijagrupile pole ühtki numbriseeriat määratud, kasutatakse lehel <bpt id="p1">**</bpt>Ostureskontro parameetrid<ept id="p1">**</ept> määratud numbriseeriat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>You can also copy vendors between legal entities if you use manual vendor IDs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käsitsi hankija ID-de kasutamisel saate hankijaid juriidiliste isikute vahel ka kopeerida.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>However, if you try to copy a vendor to a legal entity where the vendor ID already exists, the copy process won't be started.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui aga püüate kopeerida hankija juriidilisse isikusse, kus hankija ID on juba olemas, siis kopeerimisprotsessi ei alustata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Copy a vendor</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankija kopeerimine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>To copy a vendor, select <bpt id="p1">**</bpt>New<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>All vendors<ept id="p2">**</ept> list page to open the <bpt id="p3">**</bpt>All vendors, new record<ept id="p3">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankija kopeerimiseks valige loendilehel <bpt id="p2">**</bpt>Kõik hankijad<ept id="p2">**</ept> suvand <bpt id="p1">**</bpt>Uus<ept id="p1">**</ept>, et avada leht <bpt id="p3">**</bpt>Kõik hankijad, uus kirje<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Notice that the new vendor ID isn't assigned immediately.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pange tähele, et uut hankija ID-d ei määrata kohe.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>This behavior differs from the behavior in previous versions of Microsoft Dynamics 365 for Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See käitumine erineb teenuse Microsoft Dynamics 365 for Finance and Operations eelmiste versioonide käitumisest.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Because you haven't yet selected the vendor group, the system can't determine the correct number sequence to use.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuna hankijagrupp pole veel valitud, ei saa süsteem määrata kasutamiseks õiget numbriseeriat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Additionally, it can't determine whether you're trying to create a new vendor or copy a vendor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samuti ei saa see kindlaks teha, kas püüate luua uue hankija või hankija kopeerida.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Therefore, the vendor ID isn't assigned until you select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> at the bottom of the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seetõttu ei määrata hankija ID-d enne, kui valite lehe alaservast käsu <bpt id="p1">**</bpt>Salvesta<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>If you're creating a new vendor, you can continue to fill in all the fields as you usually do.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uue hankija loomisel saate jätkata kõigi väljade täitmist, nagu seda tavaliselt teete.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>When you've finished, and you select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>, you will see that the vendor ID was assigned automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui olete lõpetanud ja valite käsu <bpt id="p1">**</bpt>Salvesta<ept id="p1">**</ept>, siis näete, et hankija ID on automaatselt määratud.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Alternatively, for manual number sequences, you will see that your manual vendor ID was used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käsitsi numbriseeriate puhul näete, et kasutatakse teie käsitsi määratud hankija ID-d.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>To copy a vendor, in the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, enter one or more characters that represent the vendor that you're looking for.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankija kopeerimiseks sisestage väljale <bpt id="p1">**</bpt>Nimi<ept id="p1">**</ept> üks või mitu tähte, mis otsitavat hankijat tähistavad.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>A search dialog box shows a list of parties that might represent the vendor that you're looking for.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otsingu dialoogiboksis kuvatakse loend osapooltest, kes võivad olla teie otsitavad hankijad.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>When you select one of the parties, additional information appears on the right side of the dialog box:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mõne osapoole valimisel kuvatakse dialoogiboksi paremas servas lisateave.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>The <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab shows the party's phone number and address.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahekaardil <bpt id="p1">**</bpt>Üldine<ept id="p1">**</ept> kuvatakse osapoole telefoninumber ja aadress.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>The <bpt id="p1">**</bpt>Roles<ept id="p1">**</ept> tab shows the roles that the selected party can have and the legal entity where it has each role.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahekaardil <bpt id="p1">**</bpt>Rollid<ept id="p1">**</ept> kuvatakse rollid, mis võivad valitud osapoolel olla, ja juriidiline isik, kus tal iga roll on.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">**</bpt>Tax registration ID<ept id="p1">**</ept> tab shows the tax registration IDs that are assigned to the party.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahekaardil <bpt id="p1">**</bpt>Maksukohustuslasena registreerimise ID<ept id="p1">**</ept> kuvatakse osapoolele määratud makuskohustuslasena registreerimise ID-d.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>You can copy a party only if it has a vendor role, and if it has that role in a legal entity that isn't the current legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate osapoole kopeerida ainult siis, kui sellel on hankija roll ja kui sellel on roll juriidilises isikus, mis pole praegune juriidiline isik.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>When you find a party that meets these criteria, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui leiate kriteeriumidele vastava osapoole, tehke järgmist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>A <bpt id="p1">**</bpt>Copy vendor<ept id="p1">**</ept> option appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuvatakse suvand <bpt id="p1">**</bpt>Hankija kopeerimine<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>By default, this option is set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaikimisi on selle suvandi säte <bpt id="p1">**</bpt>Ei<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>To copy the vendor to the current legal entity, set the option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankija kopeerimiseks praegusse juriidilisse isikusse määrake suvandi sätteks <bpt id="p1">**</bpt>Jah<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>A <bpt id="p1">**</bpt>Legal entity<ept id="p1">**</ept> field appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuvatakse väli <bpt id="p1">**</bpt>Juriidiline isik<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Select the legal entity to copy the vendor from.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige juriidiline isik, millest hankija kopeerida.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>If the vendor exists in only one legal entity, the field is set to that legal entity by default.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui hankija on olemas ainult ühes juriidilises isikus, on sellel väljal vaikimisi see juriidiline isik.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Select <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige käsk <bpt id="p1">**</bpt>Vali<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>The new vendor is created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Luuakse uus hankija.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Validation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kinnitamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>When you copy a vendor, the system tries to save the new vendor information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankija kopeerimisel püüab süsteem salvestada uue hankija teabe.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Validations are run to verify that the data that was copied is good.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kinnitamisi tehakse selleks, et kontrollida, kas kopeeritud andmed on korras.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>You receive an error message for every validation that fails.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iga nurjunud kinnitamise korral kuvatakse tõrketeade.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>The error messages explain what information must be updated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tõrketeated selgitavad, millist teavet tuleb värskendada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>The copy of the vendor can't be saved until you fix all the validation errors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankija koopiat ei saa salvestada enne, kui olete kõik kinnitamistõrked kõrvaldanud.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Copy a vendor by using the Tax exempt number search feature</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankija kopeerimine maksuvabastuse numbri otsingu funktsiooni abil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>You can also copy vendors by using the Tax exempt number search feature that is in the <bpt id="p1">**</bpt>Registration<ept id="p1">**</ept> group on the <bpt id="p2">**</bpt>Vendor<ept id="p2">**</ept> tab on the Action Pane of the <bpt id="p3">**</bpt>All vendors<ept id="p3">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankijaid saab kopeerida ka maksuvabastuse numbri otsingu funktsiooni abil lehe <bpt id="p3">**</bpt>Kõik hankijad<ept id="p3">**</ept> toimingupaani vahekaardi <bpt id="p2">**</bpt>Hankija<ept id="p2">**</ept> rühmas <bpt id="p1">**</bpt>Registreerimine<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>The <bpt id="p1">**</bpt>Tax exempt number search<ept id="p1">**</ept> dialog box that appears shows tax exempt numbers, the vendor ID, the vendor name, and the legal entity where the tax exempt ID is used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avanevas dialoogiboksis <bpt id="p1">**</bpt>Maksuvabastuse numbri otsing<ept id="p1">**</ept> kuvatakse maksuvabastuse numbrid, hankija ID, hankija nimi ja juriidiline isik, kus maksuvabastuse ID-d kasutatakse.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>You can copy a vendor only if it's in a legal entity that isn't the current legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankija saate kopeerida ainult siis, kui see on juriidilises isikus, mis pole praegune juriidiline isik.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>After you select a vendor that meets this criterion, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui olete sellele kriteeriumile vastava hankija valinud, tehke järgmist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>A <bpt id="p1">**</bpt>Copy vendor<ept id="p1">**</ept> option appears.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuvatakse suvand <bpt id="p1">**</bpt>Hankija kopeerimine<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>By default, this option is set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaikimisi on selle suvandi säte <bpt id="p1">**</bpt>Ei<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>To copy the vendor to the current legal entity, set the option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankija kopeerimiseks praegusse juriidilisse isikusse määrake suvandi sätteks <bpt id="p1">**</bpt>Jah<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Select <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige käsk <bpt id="p1">**</bpt>Vali<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>The new vendor is created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Luuakse uus hankija.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
