@@ -1,99 +1,216 @@
----
-title: Hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi seadistamine
-description: Selles teemas selgitatakse, kuidas seadistada klientidele hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi.
-author: josaw1
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-ms.search.form: MCRRFMDefinition
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 78943
-ms.assetid: 8ff9aac3-5ada-4150-85fd-18901c926d53
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: josaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553041"
----
-# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi seadistamine
-
-[!include [banner](includes/banner.md)]
-
-Selles teemas selgitatakse, kuidas seadistada klientidele hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi.
-
-Hiljutisuse, sageduse ja rahasumma (RFM) analüüs on turunduse tööriist, mida teie organisatsioon saab kasutada kliendi ostudega loodud andmete hindamiseks. Pärast RFM-analüüsi seadistamist määratakse klientidele arvutatud RFM-i skoori, kui nad oste sooritavad. RFM-i skoor võib olla kolmekohaline hinne või koondnumber, sõltuvalt sellest, kuidas teie organisatsioon on RFM-analüüsi seadistanud. Kui teie organisatsioon kasutab skoori puhul kolmekohalist hinnet, siis selle põhimõte on järgmine.
-
-- Esimene number on kliendi hiljutisuse määr, mis näitab, kui hiljuti klient teie organisatsioonist ostis.
-- Teine number on kliendi sageduse hinne, mis näitab, kui tihti klient teie organisatsioonist ostab.
-- Kolmas number on kliendi rahasumma hinne, mis näitab, kui palju klient teie organisatsioonist ostude tegemisel kulutab.
-
-Näiteks on teie organisatsioon määranud hinded skaalal 1 kuni 5, kus 5 on kõrgeim hinne. Sel juhul ütleb kliendi hinne 535 teile kliendi kohta järgmist.
-
-- **Hiljutisuse hinne 5** – klient ostis hiljuti.
-- **Sageduse hinne 3** – klient ostab teie organisatsioonist tooteid keskmise sagedusega.
-- **Rahasumma hinne 5** – klient kulutab ostes märkimisväärse rahasumma.
-
-Kui teie organisatsioon kasutab skoori puhul koondnumbrit, pannake üksikud hinded kokku. Sama näite puhul on kliendi hinne 13 (5 + 3 + 5).
-
-## <a name="to-set-up-rfm-analysis-for-the-customers-in-your-organization"></a>RFM-analüüsi seadistamiseks oma organisatsiooni klientide jaoks toimige järgmiselt
-
-1. Avage **Kõnekeskus** \> **Perioodiline** \> **RFM-analüüs**.
-2. Valige lehel **RFM-analüüs** suvand **Uus**. Sisestage väljale **RFM-i definitsioon** RFM-i definitsiooni nimi. Näiteks võite anda definitsioonile nime RFM-A.
-3. Sisestage selle RFM-i definitsiooni algus- ja lõppkuupäev.
-4. Tehke kiirkaardil **Üldine** järgmist.
-
-    - Kui RFM-i skoori iga osa peab sisaldama võrdset arvu kliente, märkige ruut **Ühtlane jaotus**.
-    - Kolme tulemuse liitmiseks märkige ruut **Punktisummade lisamine**. Näiteks annab see kliendile RFM-i skoori 535 asemel skooriks 13.
-    - Märkige ruut **Ajaloo salvestamine**, kui soovite, et süsteem salvestaks klientide statistilised andmed, et neid saaks RFM-i skoori arvutamiseks kasutada.
-
-5. Tehke kiirkaardil **Hiljutisus** järgmist.
-
-    - Sisestage väljale **Jaotused** jaotuste või gruppide arv, mida klientide hiljutisuse skoori arvutamisel kasutada. Näiteks kui teil on 100 klienti, tähendab jaotus 5, et iga skoori kohta on 20 klienti. 20 kliendi puhul, kes on kõige viimasena ostnud, on hiljutisuse skoor 5. Järgmise 20 kliendi hiljutisuse skoor on 4 jne. Kui teil on 50 klienti, on 10 kliendi hiljutisuse skoor 5, 10 kliendi hiljutisuse skoor 4 jne.
-    - Valige väljal **Prioriteet**, kui suur kaal on kliendi RFM-i skoori arvutamisel hiljutisuse parameetril võrreldes teiste parameetritega. Näiteks võite hiljutisuse skoori väärtuse rahalise skoori omast suuremaks määrata.
-    - Sisestage väljale **Kordaja** väärtus, millega hiljutisuse skoori korrutada. Kui te väärtust ei sisesta, siis skoori ei korrutata.
-    - Valige väljal **Periood** ajavahemik, mille alusel hiljutisuse skoori arvutada. Nt nädala või kuu kaupa.
-
-6. Tehke kiirkaardil **Sagedus** järgmist.
-
-    - Sisestage väljale **Jaotused** jaotuste või gruppide arv, mida klientide sageduse skoori arvutamisel kasutada.
-    - Valige väljal **Prioriteet**, kui suur kaal on kliendi RFM-i skoori arvutamisel sageduse parameetril võrreldes teiste parameetritega.
-    - Sisestage väljale **Kordaja** väärtus, millega sageduse skoori korrutada. Kui te väärtust ei sisesta, siis skoori ei korrutata.
-
-7. Tehke kiirkaardil **Valuuta** järgmist.
-
-    - Sisestage väljale **Jaotused** jaotuste või gruppide arv, mida klientide rahalise skoori arvutamisel kasutada.
-    - Valige väljal **Prioriteet**, kui suur kaal on kliendi RFM-i skoori arvutamisel rahalisel parameetril võrreldes teiste parameetritega.
-    - Sisestage väljale **Kordaja** väärtus, millega rahalist skoori korrutada. Kui te väärtust ei sisesta, siis skoori ei korrutata.
-    - Valige väljal **Bruto/neto**, kas kliendi rahalist skoori tuleks arvutada arvete bruto- või netosumma alusel.
-    - Kui kliendi tagastuste summad tuleks kliendi arvete kogusummadest lahutada, märkige ruut **Tagastuste lahutamine**.
-
-## <a name="view-a-customers-rfm-score"></a>Kliendi RFM-i skoori vaatamine
-
-Kasutage seda protseduuri kliendi RFM-i skoori vaatamiseks.
-
-1. Avage **Kõnekeskus** \> **Töölehed** \> **Klienditeenindus**.
-2. Valige lehe **Klienditeenindus** paani **Klienditeenindus** otsinguväljadelt otsitava märksõna tüüp ja sisestage otsingutekst.
-3. Valige **Otsi**.
-4. Valige lehel **Kliendi otsing** soovitud kliendi kirje ja seejärel klõpsake valikut **Vali klient**.
-
-RFM-i skoor kuvatakse grupis **Tellimuste ajalugu** lehe **Klienditeenindus** parempoolses osas.
-
-## <a name="view-or-clear-the-history-of-an-rfm-analysis-record"></a>RFM-i analüüsi kirje vaatamine või kustutamine
-
-Kasutage seda protseduuri RFM-i analüüsi kirje vaatamiseks või kustutamiseks.
-
-1. Avage **Kõnekeskus** \> **Perioodiline** \> **RFM-analüüs**.
-2. Valige lehel **RFM-analüüs** kirje, mida soovite vaadata.
-3. Kirje ajaloo vaatamiseks klõpsake kiirkaarti **Ajalugu**.
-4. Kirje ajaloo kustutamiseks klõpsake käsku **Kustuta ajalugu**.
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="set-up-rfm-analysis.md" target-language="et-EE">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>set-up-rfm-analysis.69f5cb.c7cb79fa82b579bee01e51cb635597cc5f711a98.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>c7cb79fa82b579bee01e51cb635597cc5f711a98</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\set-up-rfm-analysis.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Set up Recency, Frequency, and Monetary (RFM) analysis</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi seadistamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles teemas selgitatakse, kuidas seadistada klientidele hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Set up Recency, Frequency, and Monetary (RFM) analysis</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi seadistamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles teemas selgitatakse, kuidas seadistada klientidele hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Recency, frequency, and monetary (RFM) analysis is a marketing tool that your organization can use to evaluate the data that is generated by customer purchases.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hiljutisuse, sageduse ja rahasumma (RFM) analüüs on turunduse tööriist, mida teie organisatsioon saab kasutada kliendi ostudega loodud andmete hindamiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>After you set up RFM analysis, customers are assigned a calculated RFM score as they make purchases.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast RFM-analüüsi seadistamist määratakse klientidele arvutatud RFM-i skoori, kui nad oste sooritavad.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The RFM score can be a three-digit rating or an aggregate number, depending on how your organization has configured RFM analysis.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">RFM-i skoor võib olla kolmekohaline hinne või koondnumber, sõltuvalt sellest, kuidas teie organisatsioon on RFM-analüüsi seadistanud.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Here's how the rating works if your organization uses a three-digit rating for the score:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui teie organisatsioon kasutab skoori puhul kolmekohalist hinnet, siis selle põhimõte on järgmine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>The first digit is the customer's recency rating, which is how recently the customer made a purchase from your organization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esimene number on kliendi hiljutisuse määr, mis näitab, kui hiljuti klient teie organisatsioonist ostis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>The second digit is the customer's frequency rating, which is how often the customer makes purchases from your organization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teine number on kliendi sageduse hinne, mis näitab, kui tihti klient teie organisatsioonist ostab.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>The third digit is the customer's monetary rating, which is how much the customer spends when he makes purchases from your organization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kolmas number on kliendi rahasumma hinne, mis näitab, kui palju klient teie organisatsioonist ostude tegemisel kulutab.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>For example, your organization has set the ratings on a scale of 1 through 5, where 5 is the highest rating.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks on teie organisatsioon määranud hinded skaalal 1 kuni 5, kus 5 on kõrgeim hinne.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In this case, a customer rating of 535 tells you the following information about the customer:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sel juhul ütleb kliendi hinne 535 teile kliendi kohta järgmist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source><bpt id="p1">**</bpt>Recency rating of 5<ept id="p1">**</ept> – The customer recently made a purchase.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Hiljutisuse hinne 5<ept id="p1">**</ept> – klient ostis hiljuti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">**</bpt>Frequency rating of 3<ept id="p1">**</ept> – The customer purchases products from your organization moderately often.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sageduse hinne 3<ept id="p1">**</ept> – klient ostab teie organisatsioonist tooteid keskmise sagedusega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">**</bpt>Monetary rating of 5<ept id="p1">**</ept> – When the customer makes a purchase, he spends a significant amount of money.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Rahasumma hinne 5<ept id="p1">**</ept> – klient kulutab ostes märkimisväärse rahasumma.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>If your organization uses an aggregate number for the score, the individual ratings are added together.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui teie organisatsioon kasutab skoori puhul koondnumbrit, pannake üksikud hinded kokku.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>For the same example, the customer has a rating of 13 (5 + 3 + 5).</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Sama näite puhul on kliendi hinne 13 (5 + 3 + 5).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Set up RFM analysis for the customers in your organization</source><target logoport:matchpercent="94" state="translated" state-qualifier="fuzzy-match">RFM-analüüsi seadistamine oma organisatsiooni klientide jaoks</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Go to <bpt id="p1">**</bpt>Call center<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Periodic<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>RFM analysis<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Avage <bpt id="p1">**</bpt>Kõnekeskus<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Perioodiline<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>RFM-analüüs<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>On <bpt id="p1">**</bpt>RFM analysis<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>New<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige lehel <bpt id="p1">**</bpt>RFM-analüüs<ept id="p1">**</ept> suvand <bpt id="p2">**</bpt>Uus<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>In the <bpt id="p1">**</bpt>RFM definition<ept id="p1">**</ept> field, enter a name for the RFM definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale <bpt id="p1">**</bpt>RFM-i definitsioon<ept id="p1">**</ept> RFM-i definitsiooni nimi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>For example, you could call the definition RFM-A.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks võite anda definitsioonile nime RFM-A.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Enter a start date and end date for this RFM definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage selle RFM-i definitsiooni algus- ja lõppkuupäev.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, do the following:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke kiirkaardil <bpt id="p1">**</bpt>Üldine<ept id="p1">**</ept> järgmist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>If each section of the RFM score must contain an equal count of customers, select the <bpt id="p1">**</bpt>Even distribution<ept id="p1">**</ept> check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui RFM-i skoori iga osa peab sisaldama võrdset arvu kliente, märkige ruut <bpt id="p1">**</bpt>Ühtlane jaotus<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Select the <bpt id="p1">**</bpt>Add scores<ept id="p1">**</ept> check box to aggregate the three scores.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kolme tulemuse liitmiseks märkige ruut <bpt id="p1">**</bpt>Punktisummade lisamine<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>For example, this would give a customer an RFM score of 13 instead of 535.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks annab see kliendile RFM-i skoori 535 asemel skooriks 13.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Select the <bpt id="p1">**</bpt>Save history<ept id="p1">**</ept> check box to require the system to save the statistical data for customers so that the data can be used to calculate the RFM score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige ruut <bpt id="p1">**</bpt>Ajaloo salvestamine<ept id="p1">**</ept>, kui soovite, et süsteem salvestaks klientide statistilised andmed, et neid saaks RFM-i skoori arvutamiseks kasutada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>On the <bpt id="p1">**</bpt>Recency<ept id="p1">**</ept> FastTab, do the following:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke kiirkaardil <bpt id="p1">**</bpt>Hiljutisus<ept id="p1">**</ept> järgmist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>In the <bpt id="p1">**</bpt>Divisions<ept id="p1">**</ept> field, enter the number of divisions, or groups, which will be used to calculate the recency score for customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale <bpt id="p1">**</bpt>Jaotused<ept id="p1">**</ept> jaotuste või gruppide arv, mida klientide hiljutisuse skoori arvutamisel kasutada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>For example, if you have 100 customers, a division of 5 means that there are 20 customers for each score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks kui teil on 100 klienti, tähendab jaotus 5, et iga skoori kohta on 20 klienti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>The 20 customers who have made purchases most recently have a recency score of 5.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20 kliendi puhul, kes on kõige viimasena ostnud, on hiljutisuse skoor 5.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>The next 20 customers have a recency score of 4, and so on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmise 20 kliendi hiljutisuse skoor on 4 jne.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>If you have 50 customers, 10 customers have a recency score of 5, 10 have a recency score of 4, and so on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui teil on 50 klienti, on 10 kliendi hiljutisuse skoor 5, 10 kliendi hiljutisuse skoor 4 jne.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>In the <bpt id="p1">**</bpt>Priority<ept id="p1">**</ept> field, select how much weight to give the recency parameter in relation to the other parameters when the RFM score is calculated for a customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal <bpt id="p1">**</bpt>Prioriteet<ept id="p1">**</ept>, kui suur kaal on kliendi RFM-i skoori arvutamisel hiljutisuse parameetril võrreldes teiste parameetritega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>For example, you might place more value on the recency score than the monetary score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks võite hiljutisuse skoori väärtuse rahalise skoori omast suuremaks määrata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In the <bpt id="p1">**</bpt>Multiplier<ept id="p1">**</ept> field, enter the value by which to multiply the recency score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale <bpt id="p1">**</bpt>Kordaja<ept id="p1">**</ept> väärtus, millega hiljutisuse skoori korrutada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>If you do not enter a value, the score will not be multiplied.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui te väärtust ei sisesta, siis skoori ei korrutata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>In the <bpt id="p1">**</bpt>Period<ept id="p1">**</ept> field, select the time period by which the recency score is calculated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal <bpt id="p1">**</bpt>Periood<ept id="p1">**</ept> ajavahemik, mille alusel hiljutisuse skoori arvutada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>For example, by week or by month.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nt nädala või kuu kaupa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>On the <bpt id="p1">**</bpt>Frequency<ept id="p1">**</ept> FastTab, do the following:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke kiirkaardil <bpt id="p1">**</bpt>Sagedus<ept id="p1">**</ept> järgmist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>In the <bpt id="p1">**</bpt>Divisions<ept id="p1">**</ept> field, enter the number of divisions, or groups, which will be used to calculate the frequency score for customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale <bpt id="p1">**</bpt>Jaotused<ept id="p1">**</ept> jaotuste või gruppide arv, mida klientide sageduse skoori arvutamisel kasutada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>In the <bpt id="p1">**</bpt>Priority<ept id="p1">**</ept> field, select how much weight to give the frequency parameter in relation to the others when the RFM score is calculated for a customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal <bpt id="p1">**</bpt>Prioriteet<ept id="p1">**</ept>, kui suur kaal on kliendi RFM-i skoori arvutamisel sageduse parameetril võrreldes teiste parameetritega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>In the <bpt id="p1">**</bpt>Multiplier<ept id="p1">**</ept> field, enter the value by which to multiply the frequency score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale <bpt id="p1">**</bpt>Kordaja<ept id="p1">**</ept> väärtus, millega sageduse skoori korrutada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>If you do not enter a value, the score will not be multiplied.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui te väärtust ei sisesta, siis skoori ei korrutata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>On the <bpt id="p1">**</bpt>Monetary<ept id="p1">**</ept> FastTab, do the following:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke kiirkaardil <bpt id="p1">**</bpt>Valuuta<ept id="p1">**</ept> järgmist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>In the <bpt id="p1">**</bpt>Divisions<ept id="p1">**</ept> field, enter the number of divisions, or groups, which will be used to calculate the monetary score for customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale <bpt id="p1">**</bpt>Jaotused<ept id="p1">**</ept> jaotuste või gruppide arv, mida klientide rahalise skoori arvutamisel kasutada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>In the <bpt id="p1">**</bpt>Priority<ept id="p1">**</ept> field, select how much weight to give the monetary parameter in relation to the others when the RFM score is calculated for a customer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal <bpt id="p1">**</bpt>Prioriteet<ept id="p1">**</ept>, kui suur kaal on kliendi RFM-i skoori arvutamisel rahalisel parameetril võrreldes teiste parameetritega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>In the <bpt id="p1">**</bpt>Multiplier<ept id="p1">**</ept> field, enter the value by which to multiply the monetary score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale <bpt id="p1">**</bpt>Kordaja<ept id="p1">**</ept> väärtus, millega rahalist skoori korrutada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>If you do not enter a value, the score will not be multiplied.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui te väärtust ei sisesta, siis skoori ei korrutata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>In the <bpt id="p1">**</bpt>Gross/net<ept id="p1">**</ept> field, select whether the customer's monetary score should be calculated by using the gross or net invoice amount.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal <bpt id="p1">**</bpt>Bruto/neto<ept id="p1">**</ept>, kas kliendi rahalist skoori tuleks arvutada arvete bruto- või netosumma alusel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>If a customer's return amounts should be subtracted from the customer's total invoice calculation, select the <bpt id="p1">**</bpt>Subtract returns<ept id="p1">**</ept> check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui kliendi tagastuste summad tuleks kliendi arvete kogusummadest lahutada, märkige ruut <bpt id="p1">**</bpt>Tagastuste lahutamine<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>View a customer's RFM score</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kliendi RFM-i skoori vaatamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Use this procedure to view a customer's RFM score.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasutage seda protseduuri kliendi RFM-i skoori vaatamiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Go to <bpt id="p1">**</bpt>Call center<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Journals<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Customer service<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage <bpt id="p1">**</bpt>Kõnekeskus<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Töölehed<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Klienditeenindus<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>On the <bpt id="p1">**</bpt>Customer service<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Customer service<ept id="p2">**</ept> pane, in the search fields, select the keyword type to search on and enter the search text.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige lehe <bpt id="p1">**</bpt>Klienditeenindus<ept id="p1">**</ept> paani <bpt id="p2">**</bpt>Klienditeenindus<ept id="p2">**</ept> otsinguväljadelt otsitava märksõna tüüp ja sisestage otsingutekst.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Select <bpt id="p1">**</bpt>Search<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige <bpt id="p1">**</bpt>Otsi<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>On the <bpt id="p1">**</bpt>Customer search<ept id="p1">**</ept> page, select the customer record that you want, and then click <bpt id="p2">**</bpt>Select customer<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige lehel <bpt id="p1">**</bpt>Kliendi otsing<ept id="p1">**</ept> soovitud kliendi kirje ja seejärel klõpsake valikut <bpt id="p2">**</bpt>Vali klient<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>The RFM score is displayed in the <bpt id="p1">**</bpt>Order history<ept id="p1">**</ept> group on the right side of the <bpt id="p2">**</bpt>Customer service<ept id="p2">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">RFM-i skoor kuvatakse grupis <bpt id="p1">**</bpt>Tellimuste ajalugu<ept id="p1">**</ept> lehe <bpt id="p2">**</bpt>Klienditeenindus<ept id="p2">**</ept> parempoolses osas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>View or clear the history of an RFM analysis record</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">RFM-i analüüsi kirje vaatamine või kustutamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Use this procedure to view or clear the history of an RFM analysis record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasutage seda protseduuri RFM-i analüüsi kirje vaatamiseks või kustutamiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Go to <bpt id="p1">**</bpt>Call center<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Periodic<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>RFM analysis<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage <bpt id="p1">**</bpt>Kõnekeskus<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Perioodiline<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>RFM-analüüs<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>On the <bpt id="p1">**</bpt>RFM analysis<ept id="p1">**</ept> page, select the record that you want to view.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige lehel <bpt id="p1">**</bpt>RFM-analüüs<ept id="p1">**</ept> kirje, mida soovite vaadata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>To view the record history, select the <bpt id="p1">**</bpt>History<ept id="p1">**</ept> FastTab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirje ajaloo vaatamiseks klõpsake kiirkaarti <bpt id="p1">**</bpt>Ajalugu<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>To clear the history of the record, select <bpt id="p1">**</bpt>Clear history<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirje ajaloo kustutamiseks klõpsake käsku <bpt id="p1">**</bpt>Kustuta ajalugu<ept id="p1">**</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

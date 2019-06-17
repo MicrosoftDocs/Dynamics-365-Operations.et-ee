@@ -1,70 +1,225 @@
----
-title: Kaupluse varude haldamine
-description: Selles teemas kirjeldatakse dokumenditüüpe, mida saate kasutada varude haldamiseks.
-author: rubencdelgado
-manager: AnnBe
-ms.date: 04/23/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 21391
-ms.assetid: bfef3717-d0e0-491d-8466-d8a9c995177d
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: rubendel
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: efc729c83b81bd8afb806c403d52fd85b36efc9d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1523757"
----
-# <a name="store-inventory-management"></a>Kaupluse varude haldamine
-
-[!include [banner](includes/banner.md)]
-
-Töötades varudega rakenduses Dynamics 365 for Retail ja kasutades kassarakendust, on oluline märkida, et kassa pakub piiratud tuge varude dimensioonidele ja teatud laokaubatüüpidele.  
-
-Kassalahendus ei toeta järgmiste kaupade konfiguratsioone.
-- Kooslusekaubad (v.a komplekttooted, mis kasutavad koosluse raamistiku mõningaid komponente)
-- Tegeliku kaaluga kaubad
-- Partiiga juhitavad kaubad
-
-Kassarakendus ei toeta praegu kassas järgmisi jälgimisdimensioone.
-- Partii jälgimisdimensioon
-- Omanikudimensioon
-
-Kassalahendus pakub piiratud tuge järgmistele dimensioonidele. Piiratud tugi tähendab, et kassa võib lao/kaupluse seadistuse konfiguratsiooni põhjal mõne neist dimensioonidest varude kannetesse automaatselt vaikimisi määrata. Kassa ei toeta dimensioone täielikult samal viisil, nagu neid toetatakse müügikande käsitsi sisestamisel ERP-sse. 
-
-- **Lao asukoht** – kasutajatel ei ole võimalik hallata vastuvõtva lao asukohta kaupade vastuvõtmisel kaupluse lattu, kui kauplus ei ole konfigureeritud kasutama laohalduse protsessi.  Nende kaupade puhul kasutatakse kaupluse ladu vaikimisi määratletud vastuvõtva asukohana.  Kui laohalduse protsess on kaupluses lubatud, siis käivitatakse piiratud tugi, mis palub kasutajal valida vastuvõttev asukoht kogu sissetuleku kohta.  Poest müüdavaid kaupu müüakse alati kaupluse laoseadistuses vaikimisi määratletud jaemüügi asukohast.   Tagastatava kauba lao asukoha haldamist saab kontrollida poe lao vaikimisi tagastatava asukoha definitsiooni alusel või tagastamise põhjusekoodide alusel, nagu on määratletud tagastamise asukoha poliitikas.
-- **Litsentsiplaat** –litsentsiplaadid kohalduvad ainult siis, kui kauba ja kaupluselao puhul on lubatud suvand **Kasuta laohaldusprotsesse**.  Kui Varud võetakse kaupluse lattu, kus laohalduse protsess on lubatud, ja kauba vastuvõtmiseks valitud asukoht on seotud asukoha profiiliga, mis nõuab litsentsiplaadi juhtimist, siis rakendus Kassa rakendab vastuvõtvale reale litsentsiplaati süstemaatiliselt.  Kassa kasutajatel ei ole võimalust neid litsentsiplaadi andmeid muuta ega hallata.   Kui on nõutav litsentsiplaadi täielik haldamine, soovitatakse kauplusel kasutada rakendusi WMS Mobile või ERP-i kontoriklienti nende kaupade vastuvõtmise haldamiseks.
-- **Seerianumber** – rakendusel Kassa on piiratud tugi ühe seerianumbri jaoks, mis registreeritakse kande müügireal kassas loodud tellimuste alusel järjestatud kaupadele.  Seda seerianumbrit ei kinnitata laos registreeritud seerianumbrite suhtes.  Kui müügitellimus on loodud kõnekeskuse kanalis või on täidetud ERP-i kaudu ja mitu seerianumbrit on registreeritud ühel müügireal ERP-is täitmise protsessi käigus, siis neid seerianumbreid ei saa rakendada ega kinnitata, kui nende tellimuste puhul teostatakse kassas tagastust.
-- **Lao olek** – kaupade puhul, mis kasutavad laohalduse protsessi ja nõuavad lao olekut, ei saa oleku välja määrata ega muuta rakenduse Kassa kaudu.  Kaupluse lao konfiguratsioonis määratletud lao vaikimisi olekut kasutatakse kaupade lattu vastuvõtmisel.  
-
-> [!NOTE]
-> Kõik organisatsioonid peavad kaubakonfiguratsioone kassa kaudu arendus- või katsekeskkonnas katsetama, enne kui need tootmisse juurutab. Katsetage oma kaupu, tehes nendega kassa kaudu regulaarseid sularahaga müügikandeid ja luues klienditellimusi (kohaldatavusel). Katsetamine peab hõlmama katsekeskkonnas täielikke väljavõtte sisestamise protsesse ja probleemide puudumise kontrollimist.
-> Kaupade konfigureerimine viisil, mida kassarakendus ei toeta, ilma nõuetekohase katsetamiseta, võib põhjustada teie väljavõtete sisestamise protsessi nurjumist tootmises ilma probleemide hõlpsa lahendamise võimaluseta. Nende sisestusprotsesside õnnestumise võimaldamiseks võib kaaluda rakendusele partneri või kliendi kohanduste lubamist. Kui kohandused pole vajalikud, peab organisatsioon veenduma, et toodete tootekonfiguratsioon on tehtud viisil, mida toetab standardne kassarakenduse / tellimuse loomise / väljavõtte sisestamise protsess.
-
-## <a name="purchase-orders"></a>Ostutellimused
-
-Ostutellimused koostatakse peakontoris. Kui ostutellimuse päisesse on kaasatud jaemüügiladu, saab tellimust vastu võtta kaupluses, kasutades rakenduses Modern POS-i (MPOS) või pilvekassat rakenduses Microsoft Dynamics 365 for Retail toimingu **Komplekteerimine ja vastuvõtmine** kaudu. Pärast seda, kui laos vastuvõetud kogused sisestatakse ostutellimuse dokumendi jaoks kassas väljale **Saa kohe**, saab neid salvestada kohalikult või kooskõlastatult. Selle teabe salvestamisel kohalikult eil ole mõju laovarule. Salvestamine peaks toimuma ainult juhul, kui kasutaja ei ole valmis sissetulekut sisestama HQ-sse ja vajab lihtsalt võimalust eelnevalt sisestatud andmed **Saa kohe** ajutiselt talletada.  See salvestab nüüd andmed kohalikult kasutaja kanali andmebaasi. Pärast dokumendi töötlemist, kasutades suvandit **Kinnita**,saadetakse andmed **Saa kohe** HQ-sse ja ostutellimuse sissetulek sisestatakse. 
-
-## <a name="transfer-orders"></a>Üleviimistellimused
-
-Üleviimistellimusega saab määrata, et kindel kauplus on asukoht, kust kaupu saab lähetada või kuhu võetakse varusid vastu. Kui kassa kasutaja on üleviimistellimust lähetav ladu, saavad nad sisestada koguse **Läheta kohe** otse kassast.  Lähetava kaupluse sisestatud andmeid saab salvestada kohalikult või kooskõlastatud.  Kohalikult salvestamisel ei tehta üleviimistellimuse dokumendile HQ-s ühtegi värskendust. Salvestamine peaks toimuma ainult juhul, kui kasutaja ei ole valmis saadetist sisestama HQ-sse ja vajab lihtsalt võimalust eelnevalt sisestatud andmed **Läheta kohe** ajutiselt talletada. Kui kauplus on saadetise kinnitamiseks valmis, tuleb valida suvand **Kinnita**. See sisestab üleviimistellimuse saadetise HQ-sse, et vastuvõttev ladu saaks selle nüüd vastu vastu võtta. 
-
-Kui kassa kasutaja on üleviimistellimust vastuvõttev ladu, saavad nad sisestada koguse **Saa kohe** otse kassast.  Vastuvõtva kaupluse sisestatud andmeid saab salvestada kohalikult või kooskõlastatud. Salvestamine peaks toimuma ainult juhul, kui kasutaja ei ole valmis sissetulekut sisestama HQ-sse ja vajab võimalust eelnevalt sisestatud andmed **Saa kohe** ajutiselt talletada. See salvestab nüüd andmed kohalikult kasutaja kanali andmebaasi. Pärast dokumendi töötlemist, kasutades suvandit **Kinnita**, saadetakse andmed **Saa kohe** HQ-sse ja üleviimistellimuse sissetulek sisestatakse. On oluline, et vastuvõttev kauplus saab ainult kinnitada vastuvõetavaid kogused, mis on saadetud kogustega võrdsed või sellest väiksemad. Katse võtta vastu koguseid üleviimistellimusega, mida pole eelnevalt saadetud, põhjustab tõrkeid ja sissetulekut ei kinnitata HQ-s.
-
-## <a name="stock-counts"></a>Laoinventuurid
-
-Laoinventuurid võivad olla plaanipärased või plaanivälised. Plaanitud laoinventuurid algatab peakontor, mis määrab ka loendatavad kaubad. Peakontor loob inventuuridokumendi, mida saab vastu võtta kaupluses, kus vaba laovaru kogused sisestatakse MPOS-is või pilve POS-is. Plaanimata laoinventuurid käivitatakse kaupluses ja vaba laoseisu koguseid värskendatakse MPOS-is või pilve POS-is. Erinevalt ajastatud laoinventuuridest puudub plaanimata laovarudel eelmääratletud kaupade loend. Mõlemat tüüpi laoinventuuri lõpetamisel see kooskõlastatakse ja saadetakse peakontorisse. Peakontoris inventuur kinnitatakse ja sisestatakse eraldi etapina.
-
-## <a name="inventory-lookup"></a>Otsing varudest
-
-Jooksvat vaba tootekogust mitme kaupluse ja lao kohta saab vaadata lehelt **Otsing varudest**. Lisaks jooksvale vabale kaubavarule saab tulevasi lubamiseks saadaval (ATP) koguseid vaadata iga eraldi kaupluse kohta. Selleks valige kauplus, mille ATP-d soovite vaadata, ja seejärel klõpsake valikut **Kaupluse saadavuse kuvamine**.
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="work-with-store-inventory.md" target-language="et-EE">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>work-with-store-inventory.418f90.551a8408aa730bc1916f1c57b7cfd773966ce8bf.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>551a8408aa730bc1916f1c57b7cfd773966ce8bf</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\work-with-store-inventory.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Store inventory management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupluse varude haldamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes the types of documents that you can use to manage inventory.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles teemas kirjeldatakse dokumenditüüpe, mida saate kasutada varude haldamiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Store inventory management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupluse varude haldamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>When working with inventory in Dynamics 365 for Retail and using the POS application, it is important to note that POS provides limited support for inventory dimensions and certain inventory item types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Töötades varudega rakenduses Dynamics 365 for Retail ja kasutades kassarakendust, on oluline märkida, et kassa pakub piiratud tuge varude dimensioonidele ja teatud laokaubatüüpidele.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The POS solution does not support the following item configurations:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassalahendus ei toeta järgmiste kaupade konfiguratsioone.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>BOM items (except kit products, which utilize some components of the BOM framework)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kooslusekaubad (v.a komplekttooted, mis kasutavad koosluse raamistiku mõningaid komponente)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Catch weight items</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegeliku kaaluga kaubad</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Batch-controlled items</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Partiiga juhitavad kaubad</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>The POS application currently does not support the following tracking dimensions in the POS:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassarakendus ei toeta praegu kassas järgmisi jälgimisdimensioone.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Batch tracking dimension</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Partii jälgimisdimensioon</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Owner dimension</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Omanikudimensioon</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>The POS solution provides limited support for the following dimensions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassalahendus pakub piiratud tuge järgmistele dimensioonidele.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Limited support indicates that the POS may default some of these dimensions into inventory transactions automatically based on warehouse/store setup configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piiratud tugi tähendab, et kassa võib lao/kaupluse seadistuse konfiguratsiooni põhjal mõne neist dimensioonidest varude kannetesse automaatselt vaikimisi määrata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>POS will not fully support the dimensions in the way they are supported if a sales transaction is manually entered into the ERP.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Kassa ei toeta dimensioone täielikult samal viisil, nagu neid toetatakse müügikande käsitsi sisestamisel ERP-sse.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">**</bpt>Warehouse Location<ept id="p1">**</ept> – Users will not have the ability to manage the receiving warehouse location for items received into a store warehouse when the store has not been configured to use the warehouse management process.</source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited"><bpt id="p1">**</bpt>Lao asukoht<ept id="p1">**</ept> – kasutajatel ei ole võimalik hallata vastuvõtva lao asukohta kaupade vastuvõtmisel kaupluse lattu, kui kauplus ei ole konfigureeritud kasutama laohalduse protsessi.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>A default receiving location defined on the store warehouse will be used for these items.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nende kaupade puhul kasutatakse kaupluse ladu vaikimisi määratletud vastuvõtva asukohana.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>If the warehouse management process has been enabled for the store, limited support that prompts the user to choose a receiving location for the entire receipt will be triggered.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui laohalduse protsess on kaupluses lubatud, siis käivitatakse piiratud tugi, mis palub kasutajal valida vastuvõttev asukoht kogu sissetuleku kohta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Items sold from the store will always be sold out of the default retail location as defined on the store warehouse setup.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Poest müüdavaid kaupu müüakse alati kaupluse laoseadistuses vaikimisi määratletud jaemüügi asukohast.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>The location for managing return inventory can be controlled through default return location definition on the store warehouse or based on return reason codes as defined in the return location policy.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Tagastatava kauba lao asukoha haldamist saab kontrollida poe lao vaikimisi tagastatava asukoha definitsiooni alusel või tagastamise põhjusekoodide alusel, nagu on määratletud tagastamise asukoha poliitikas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source><bpt id="p1">**</bpt>License plate<ept id="p1">**</ept> – License plates are only applicable when <bpt id="p2">**</bpt>Use warehouse management process<ept id="p2">**</ept> has been enabled on the item and the store warehouse.</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">**</bpt>Litsentsiplaat<ept id="p1">**</ept> – litsentsiplaadid kohalduvad ainult siis, kui kauba ja kaupluselao puhul on lubatud suvand <bpt id="p2">**</bpt>Kasuta laohaldusprotsesse<ept id="p2">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>In POS, if inventory is received into a store warehouse where the warehouse management process has been enabled, and the location chosen to receive the item into is tied to a location profile that requires license plate control, the POS application will systematically apply a license plate to the receiving line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui Varud võetakse kaupluse lattu, kus laohalduse protsess on lubatud, ja kauba vastuvõtmiseks valitud asukoht on seotud asukoha profiiliga, mis nõuab litsentsiplaadi juhtimist, siis rakendus Kassa rakendab vastuvõtvale reale litsentsiplaati süstemaatiliselt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Users in POS will not have the ability to change or manage this license plate data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassa kasutajatel ei ole võimalust neid litsentsiplaadi andmeid muuta ega hallata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>If full management of license plates is required, it is suggested the store use the WMS mobile application or the back office ERP client to manage the receipt of these items.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Kui on nõutav litsentsiplaadi täielik haldamine, soovitatakse kauplusel kasutada rakendusi WMS Mobile või ERP-i kontoriklienti nende kaupade vastuvõtmise haldamiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">**</bpt>Serial number<ept id="p1">**</ept> – The POS application has limited support for single serial number to be registered on a transaction sales line for orders created in POS with serialized items.</source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited"><bpt id="p1">**</bpt>Seerianumber<ept id="p1">**</ept> – rakendusel Kassa on piiratud tugi ühe seerianumbri jaoks, mis registreeritakse kande müügireal kassas loodud tellimuste alusel järjestatud kaupadele.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>This serial number is not validated against registered serial numbers already in inventory.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seda seerianumbrit ei kinnitata laos registreeritud seerianumbrite suhtes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>If a sales order is created in the call center channel or fulfilled through the ERP and multiple serial numbers are registered to a single sales line during the fulfillment process in the ERP, these serial numbers will not be able to be applied or validated if a return is processed in POS for these orders.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Kui müügitellimus on loodud kõnekeskuse kanalis või on täidetud ERP-i kaudu ja mitu seerianumbrit on registreeritud ühel müügireal ERP-is täitmise protsessi käigus, siis neid seerianumbreid ei saa rakendada ega kinnitata, kui nende tellimuste puhul teostatakse kassas tagastust.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source><bpt id="p1">**</bpt>Inventory status<ept id="p1">**</ept> – For items that use the warehouse management process and require an inventory status, this status field is not able to be set or modified through the POS application.</source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited"><bpt id="p1">**</bpt>Lao olek<ept id="p1">**</ept> – kaupade puhul, mis kasutavad laohalduse protsessi ja nõuavad lao olekut, ei saa oleku välja määrata ega muuta rakenduse Kassa kaudu.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>The default inventory status as defined on the store warehouse configuration will be used when items are received into inventory.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupluse lao konfiguratsioonis määratletud lao vaikimisi olekut kasutatakse kaupade lattu vastuvõtmisel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>All organizations must test item configurations through POS in development or test environments before deploying them to production.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõik organisatsioonid peavad kaubakonfiguratsioone kassa kaudu arendus- või katsekeskkonnas katsetama, enne kui need tootmisse juurutab.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Test your items by performing regular cash and carry sales transacting and creating customer orders (if applicable) through the POS with your items.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katsetage oma kaupu, tehes nendega kassa kaudu regulaarseid sularahaga müügikandeid ja luues klienditellimusi (kohaldatavusel).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Testing must include running a full statement posting processes in your test environment and verifying that there are no issues.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katsetamine peab hõlmama katsekeskkonnas täielikke väljavõtte sisestamise protsesse ja probleemide puudumise kontrollimist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Configuring items in a way that is not supported by the POS application, without proper testing, can result in your statement posting process failing in production without an easy way to correct the issues.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupade konfigureerimine viisil, mida kassarakendus ei toeta, ilma nõuetekohase katsetamiseta, võib põhjustada teie väljavõtete sisestamise protsessi nurjumist tootmises ilma probleemide hõlpsa lahendamise võimaluseta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Partner or customer customizations to the application may optionally be considered to allow these posting processes to successfully complete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nende sisestusprotsesside õnnestumise võimaldamiseks võib kaaluda rakendusele partneri või kliendi kohanduste lubamist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>If customizations are not needed, the organization must ensure that the product configuration of your products has been done in a way that is supported by the standard POS application/order creation/statement posting process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui kohandused pole vajalikud, peab organisatsioon veenduma, et toodete tootekonfiguratsioon on tehtud viisil, mida toetab standardne kassarakenduse / tellimuse loomise / väljavõtte sisestamise protsess.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Purchase orders</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostutellimused</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Purchase orders are created at the head office.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostutellimused koostatakse peakontoris.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>If a retail warehouse is included in the purchase order header, the order can be received at the store by using Modern POS (MPOS) or Cloud POS in Microsoft Dynamics 365 for Retail through the <bpt id="p1">**</bpt>Picking/Receiving<ept id="p1">**</ept> operation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui ostutellimuse päisesse on kaasatud jaemüügiladu, saab tellimust vastu võtta kaupluses, kasutades rakenduses Modern POS-i (MPOS) või pilvekassat rakenduses Microsoft Dynamics 365 for Retail toimingu <bpt id="p1">**</bpt>Komplekteerimine ja vastuvõtmine<ept id="p1">**</ept> kaudu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>After the quantities that are received at the store are entered in the <bpt id="p1">**</bpt>Receive Now<ept id="p1">**</ept> field in POS for the purchase order document, they can be saved locally or committed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast seda, kui laos vastuvõetud kogused sisestatakse ostutellimuse dokumendi jaoks kassas väljale <bpt id="p1">**</bpt>Saa kohe<ept id="p1">**</ept>, saab neid salvestada kohalikult või kooskõlastatult.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Saving this data locally has no effect on in-stock inventory.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle teabe salvestamisel kohalikult eil ole mõju laovarule.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Saving should be done only if the user is not ready to post the receipt to HQ and just needs a way to temporarily store the previously entered <bpt id="p1">**</bpt>Receive Now<ept id="p1">**</ept> data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Salvestamine peaks toimuma ainult juhul, kui kasutaja ei ole valmis sissetulekut sisestama HQ-sse ja vajab lihtsalt võimalust eelnevalt sisestatud andmed <bpt id="p1">**</bpt>Saa kohe<ept id="p1">**</ept> ajutiselt talletada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>This saves the receive now data locally to the user's channel database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See salvestab nüüd andmed kohalikult kasutaja kanali andmebaasi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>After the document is processed using the <bpt id="p1">**</bpt>Commit<ept id="p1">**</ept> option, the <bpt id="p2">**</bpt>Receive Now<ept id="p2">**</ept> data is sent to HQ and the purchase order receipt will be posted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast dokumendi töötlemist, kasutades suvandit <bpt id="p1">**</bpt>Kinnita<ept id="p1">**</ept>,saadetakse andmed <bpt id="p2">**</bpt>Saa kohe<ept id="p2">**</ept> HQ-sse ja ostutellimuse sissetulek sisestatakse.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Transfer orders</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üleviimistellimused</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>A transfer order can specify that a particular store is the location that items can be shipped from or the location the inventory will be received into.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üleviimistellimusega saab määrata, et kindel kauplus on asukoht, kust kaupu saab lähetada või kuhu võetakse varusid vastu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>If the POS user is the shipping warehouse for a transfer order, they will be able to enter <bpt id="p1">**</bpt>Ship Now<ept id="p1">**</ept> quantities from POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui kassa kasutaja on üleviimistellimust lähetav ladu, saavad nad sisestada koguse <bpt id="p1">**</bpt>Läheta kohe<ept id="p1">**</ept> otse kassast.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>The data entered by the shipping store can be saved locally or committed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lähetava kaupluse sisestatud andmeid saab salvestada kohalikult või kooskõlastatud.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>When saved locally, no updates are made to the transfer order document in HQ.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohalikult salvestamisel ei tehta üleviimistellimuse dokumendile HQ-s ühtegi värskendust.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Saving should be done only if the user is not ready to post the shipment to HQ and needs a way to temporarily store the previously entered <bpt id="p1">**</bpt>Ship Now<ept id="p1">**</ept> data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Salvestamine peaks toimuma ainult juhul, kui kasutaja ei ole valmis saadetist sisestama HQ-sse ja vajab lihtsalt võimalust eelnevalt sisestatud andmed <bpt id="p1">**</bpt>Läheta kohe<ept id="p1">**</ept> ajutiselt talletada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>After the store is ready to confirm shipment, the <bpt id="p1">**</bpt>Commit<ept id="p1">**</ept> option should be selected.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui kauplus on saadetise kinnitamiseks valmis, tuleb valida suvand <bpt id="p1">**</bpt>Kinnita<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>This posts the shipment of the transfer order in HQ so that the receiving warehouse will now be able to receive against it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See sisestab üleviimistellimuse saadetise HQ-sse, et vastuvõttev ladu saaks selle nüüd vastu vastu võtta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>If the POS user is the receiving warehouse for a transfer order, they will be able to enter the <bpt id="p1">**</bpt>Receive Now<ept id="p1">**</ept> quantities from POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui kassa kasutaja on üleviimistellimust vastuvõttev ladu, saavad nad sisestada koguse <bpt id="p1">**</bpt>Saa kohe<ept id="p1">**</ept> otse kassast.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>The data entered by the receiving store can be saved locally or committed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vastuvõtva kaupluse sisestatud andmeid saab salvestada kohalikult või kooskõlastatud.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Saving should be done only if the user is not ready to post the receipt to HQ and needs a way to temporarily store the previously entered <bpt id="p1">**</bpt>Receive Now<ept id="p1">**</ept> data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Salvestamine peaks toimuma ainult juhul, kui kasutaja ei ole valmis sissetulekut sisestama HQ-sse ja vajab võimalust eelnevalt sisestatud andmed <bpt id="p1">**</bpt>Saa kohe<ept id="p1">**</ept> ajutiselt talletada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>This saves the receive now data locally to the user's channel database.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See salvestab nüüd andmed kohalikult kasutaja kanali andmebaasi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>After the document is processed using the <bpt id="p1">**</bpt>Commit<ept id="p1">**</ept> option, the <bpt id="p2">**</bpt>Receive Now<ept id="p2">**</ept> data is sent to HQ and the transfer order receipt will be posted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast dokumendi töötlemist, kasutades suvandit <bpt id="p1">**</bpt>Kinnita<ept id="p1">**</ept>, saadetakse andmed <bpt id="p2">**</bpt>Saa kohe<ept id="p2">**</ept> HQ-sse ja üleviimistellimuse sissetulek sisestatakse.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>It's important to note that the receiving store will be restricted to only being able to commit receive quantities that are equal to or less than shipped quantities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">On oluline, et vastuvõttev kauplus saab ainult kinnitada vastuvõetavaid kogused, mis on saadetud kogustega võrdsed või sellest väiksemad.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>An attempt to receive quantities on a transfer order that have not previously shipped will result in errors and the receipt will not be confirmed in HQ.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katse võtta vastu koguseid üleviimistellimusega, mida pole eelnevalt saadetud, põhjustab tõrkeid ja sissetulekut ei kinnitata HQ-s.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Stock counts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laoinventuurid</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Stock counts can be either scheduled or unscheduled.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laoinventuurid võivad olla plaanipärased või plaanivälised.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Scheduled stock counts are initiated at the head office, which specifies the items that must be counted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plaanitud laoinventuurid algatab peakontor, mis määrab ka loendatavad kaubad.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>The head office creates a counting document that can be received at the store, where the quantities of actual on-hand stock are entered in MPOS or Cloud POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Peakontor loob inventuuridokumendi, mida saab vastu võtta kaupluses, kus vaba laovaru kogused sisestatakse MPOS-is või pilve POS-is.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Unscheduled stock counts are initiated at a store, and the quantities of actual on-hand stock are updated in either MPOS or Cloud POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plaanimata laoinventuurid käivitatakse kaupluses ja vaba laoseisu koguseid värskendatakse MPOS-is või pilve POS-is.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Unlike scheduled stock counts, unscheduled stock counts do not have a predefined list of items.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Erinevalt ajastatud laoinventuuridest puudub plaanimata laovarudel eelmääratletud kaupade loend.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>When a stock count of either type is completed, it is committed and sent to the head office.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mõlemat tüüpi laoinventuuri lõpetamisel see kooskõlastatakse ja saadetakse peakontorisse.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>At the head office, the count is validated and posted as a separate step.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Peakontoris inventuur kinnitatakse ja sisestatakse eraldi etapina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>Inventory lookup</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otsing varudest</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>The current product quantity on hand for multiple stores and warehouses can be viewed on the <bpt id="p1">**</bpt>Inventory lookup<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jooksvat vaba tootekogust mitme kaupluse ja lao kohta saab vaadata lehelt <bpt id="p1">**</bpt>Otsing varudest<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>In addition to the current quantity on hand, the future available to promise (ATP) quantities can be viewed for each individual store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisaks jooksvale vabale kaubavarule saab tulevasi lubamiseks saadaval (ATP) koguseid vaadata iga eraldi kaupluse kohta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>To do so, select the store that you want to view the ATP for and then click <bpt id="p1">**</bpt>Show store availability<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selleks valige kauplus, mille ATP-d soovite vaadata, ja seejärel klõpsake valikut <bpt id="p1">**</bpt>Kaupluse saadavuse kuvamine<ept id="p1">**</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

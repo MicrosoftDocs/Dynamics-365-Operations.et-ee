@@ -1,99 +1,534 @@
----
-title: Vahetuskursi korrigeerimine
-description: Selles teemas antakse teavet vahetuskursi korrigeerimise funktsiooni kohta kasutajatele Eestis, Ungaris, Tšehhi Vabariigis, Lätis, Leedus, Poolas ja Venemaal.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 04/10/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: LedgerParameters
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 272683
-ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
-ms.author: v-elgolu
-ms.dyn365.ops.version: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 83f1b5686088292a4f23da2b479e963a8ed086fa
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513090"
----
-# <a name="exchange-rate-adjustments"></a>Vahetuskursi korrigeerimine
-
-[!include [banner](../includes/banner.md)]
-
-Selles teemas antakse teavet vahetuskursi korrigeerimise funktsiooni kohta kasutajatele Eestis, Ungaris, Tšehhi Vabariigis, Lätis, Leedus, Poolas ja Venemaal.
-
-Vahetuskursi korrigeerimise funktsioon Eesti, Ungari, Tšehhi Vabariigi, Läti, Leedu, Poola ja Venemaa jaoks sisaldab järgmisi müügireskontro ja ostureskontro jaoks asjakohaseid laiendusi.
-
--   Vahetuskursi korrigeerimise sisestusi saab tühistada algsete korrigeerimiste parandusena (negatiivsed summad).
--   Järjestikuste realiseerimata korrigeerimiste sisestamisel kasutatakse sama pearaamatu sisestuskontot ja kandetüüpi sõltumata sellest, kas korrigeerimised tähistavad kasumit või kahjumit.
--   Arvutatud vahetuskursi kasum sisestatakse alati kasumikontodele ja arvutatud vahetuskursi kahjum sisestatakse alati kulukontodele.
-
-Juriidilised isikud, kelle esmane aadress on Tšehhi Vabariigis, saavad vahetuskursi korrigeerimiseks kasutada erimeetodit. Seda nimetatakse astmeliseks meetodiks. Kui see meetod on sisse lülitatud, ei rakendata praeguses funktsioonis kasutusele võetud muudatusi. Realiseeritud ja realiseerimata kasum või kahjum arvutatakse viimati kasutatud vahetuskursi suhtes. Algse summa asemel kasutatakse arvutamise alusena korrigeeritud summat. Vahetuskursi korrigeerimise astmelisele meetodile lülitumiseks valige lehel **Pearaamatu parameetrid** jaotises **Välisvaluuta ümberarvutamine** väljal **Arvutusmeetod** suvand **Astmeline**. Järgmises näites kirjeldatakse vahetuskursi korrigeerimise funktsiooni toimimise põhimõtet Eesti, Ungari, Tšehhi Vabariigi, Läti Leedu, Poola ja Venemaa puhul. Ettevõtte stsenaarium oleks näiteks järgmine.
-
--   1. detsembril 2012 on sisestatud välisvaluutas arve.
--   3. jaanuaril 2013 on sisestatud välisvaluutas makse.
--   Makse rakendamiseks arvele tehakse tasakaalustamine.
--   Vahetuskursi korrigeerimine toimub 31. detsembril 2012 (meetod = standardne).
--   Vahetuskursi korrigeerimine toimub 1. jaanuaril 2013 (meetod = arve kuupäev).
-
-Selle näite puhul on Kanada dollari (CAD) ja USA dollari (USD) vahetuskursid järgmised.
-
--   1. detsember 2012: 400,000
--   31. detsember 2012: 450,0000
--   3. jaanuar 2013: 420,0000
-
-### <a name="invoice"></a>Arve
-
-| Kuupäev                             | Deebet/kreedit | Summad               | Pearaamatukonto    | Kande tüüp             | Sisestamistüüp       | Krediit | Parandus |
-|----------------------------------|--------------|-----------------------|--------------------------------|------------------------------|--------------------|--------|------------|
-| 1-dets-12                         | Debiteeri        | 10 000 CAD / 40 000 USD | MR                             | Arve                      | Kliendi saldo   |        |            |
-| 1-dets-12                         | Krediit       | 10 000 CAD / 40 000 USD | Vastas                         | Arve                      | Pearaamatu tööleht     | X      |
-
-### <a name="payment"></a>Makse
-
-| Kuupäev                             | Deebet/kreedit | Summad               | Pearaamatukonto    | Kande tüüp             | Sisestamistüüp       | Krediit | Parandus |
-|----------------------------------|--------------|-----------------------|--------------------------------|------------------------------|--------------------|--------|------------|
-| 3-jaan-13                         | Debiteeri        | 10 000 CAD / 42 000 USD | Vastas                         | Makse                      | Pearaamatu tööleht     |        |            |
-| 3-jaan-13                         | Krediit       | 10 000 CAD / 42 000 USD | MR                             | Makse                      | Kliendi saldo   | X      |            |
-
-### <a name="settlement"></a>Tasakaalustus
-
-| Kuupäev                             | Deebet/kreedit | Summad               | Pearaamatukonto    | Kande tüüp             | Sisestamistüüp       | Krediit | Parandus |
-|----------------------------------|--------------|-----------------------|--------------------------------|------------------------------|--------------------|--------|------------|
-|3. jaanuar 2013 (= maksekuupäev) | Debiteeri        | 0 CAD / 2000 USD       | MR                             | Klient                     | Vahetuskursi tulu |        |            |
-3. jaanuar 2013 (= maksekuupäev) | Krediit       | 0 CAD / 2000 USD       | Valuuta realiseeritud korrigeeritud kasum   | Klient                     | Vahetuskursi tulu | X      |            |
-
-
-### <a name="revaluation--standard-method-date--december-31-2012"></a>Ümberarvutamine (standardne meetod; kuupäev = 31. detsember 2012)
-Selle ümberarvutamisnäite puhul pange tähele, et kirje 3. jaanuarist 2013 on 31. detsembrist 2012 pärineva kirje otsene tühistamine. Isegi pearaamatukontod ja sisestustüübid on samad. Samuti pange tähele, et seatud on lipp **Parandus**.
-
-| Kuupäev                             | Deebet/kreedit | Summad               | Pearaamatukonto    | Kande tüüp             | Sisestamistüüp       | Krediit | Parandus |
-|----------------------------------|--------------|-----------------------|--------------------------------|------------------------------|--------------------|--------|------------|
-| 31-dets-12           | Debiteeri        | 0 CAD / 5000 USD       | MR                             | Välisvaluuta ümberarvutamine | Vahetuskursi tulu |        |            |
-| 31-dets-12           | Krediit       | 0 CAD / 5000 USD       | Valuuta realiseerimata korrigeeritud kasum | Välisvaluuta ümberarvutamine | Vahetuskursi tulu | X      |            |
-| 3-jaan-13            | Debiteeri        | 0 CAD / 5000 USD       | MR                             | Välisvaluuta ümberarvutamine | Vahetuskursi tulu |        | X          |
- 3-jaan-13            | Krediit       | 0 CAD / 5000 USD       | Valuuta realiseerimata korrigeeritud kasum | Välisvaluuta ümberarvutamine | Vahetuskursi tulu | X      | X          |
-
-
-### <a name="revaluation-invoice-date-method-date--january-1-2013"></a>Ümberarvutamine (arve kuupäeva meetod; kuupäev = 1. jaanuar 2013)
-Selle ümberarvutamisnäite puhul pange tähele, et kirje 1. jaanuarist 2013 on 3. jaanuarist 2013 pärineva kirje otsene tühistamine. Isegi pearaamatukontod ja sisestustüübid on samad. Samuti pange tähele, et seatud on lipp **Parandus**.
-
-| Kuupäev   | Deebet/kreedit | Summad | Pearaamatukonto| Kande tüüp| Sisestamistüüp| Krediit | Parandus |
-|--------|--------------|---------|----------------------------|----------------|--------|------------|--------------|
-|1-jaan-13 | Debiteeri  | 0 CAD / 5000 USD | MR                             | Välisvaluuta ümberarvutamine | Vahetuskursi tulu |   | X |
-|1-jaan-13 | Krediit | 0 CAD / 5000 USD | Valuuta realiseerimata korrigeeritud kasum | Välisvaluuta ümberarvutamine | Vahetuskursi tulu | X | X |
-|3-jaan-13 | Debiteeri  | 0 CAD / 5000 USD | MR                             | Välisvaluuta ümberarvutamine | Vahetuskursi tulu |   |   |
-|3-jaan-13 | Krediit | 0 CAD / 5000 USD | Valuuta realiseerimata korrigeeritud kasum | Välisvaluuta ümberarvutamine | Vahetuskursi tulu | X |   |
-
-Süsteemi käitumine on sama, olenemata sellest, kas lehe **Pearaamatu parameetrid** jaotises **Pearaamatukanne** jaotises on suvandi **Parandus** sätteks valitud **Jah** või **Ei**.
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="emea-exchange-rate-adjustments.md" target-language="et-EE">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>emea-exchange-rate-adjustments.8c3cbc.eece22113824fd520568dc46bbd384bda23c3c8d.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>eece22113824fd520568dc46bbd384bda23c3c8d</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-exchange-rate-adjustments.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Exchange rate adjustments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi korrigeerimine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides information about the exchange rate adjustment functionality for users in legal entities in Estonia, Hungary, Czech Republic, Latvia, Lithuania, Poland, and Russia.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles teemas antakse teavet vahetuskursi korrigeerimise funktsiooni kohta kasutajatele Eestis, Ungaris, Tšehhi Vabariigis, Lätis, Leedus, Poolas ja Venemaal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Exchange rate adjustments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi korrigeerimine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides information about the exchange rate adjustment functionality for users in legal entities in Estonia, Hungary, Czech Republic, Latvia, Lithuania, Poland, and Russia.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles teemas antakse teavet vahetuskursi korrigeerimise funktsiooni kohta kasutajatele Eestis, Ungaris, Tšehhi Vabariigis, Lätis, Leedus, Poolas ja Venemaal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The functionality for exchange rate adjustments for Estonia, Hungary, Czech Republic, Latvia, Lithuania, Poland, and Russia includes the following extensions that are relevant for Accounts receivable and Accounts payable:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi korrigeerimise funktsioon Eesti, Ungari, Tšehhi Vabariigi, Läti, Leedu, Poola ja Venemaa jaoks sisaldab järgmisi müügireskontro ja ostureskontro jaoks asjakohaseid laiendusi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Postings of exchange rate adjustments can be reversed as corrections (negative amounts) to the original adjustments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi korrigeerimise sisestusi saab tühistada algsete korrigeerimiste parandusena (negatiivsed summad).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>When consecutive unrealized adjustments are posted, the same general ledger posting account and transaction type are used, regardless of whether the adjustments represent a gain or a loss.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järjestikuste realiseerimata korrigeerimiste sisestamisel kasutatakse sama pearaamatu sisestuskontot ja kandetüüpi sõltumata sellest, kas korrigeerimised tähistavad kasumit või kahjumit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Calculated exchange rate gains are always posted to gain accounts, and calculated exchange rate losses are always posted to loss accounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvutatud vahetuskursi kasum sisestatakse alati kasumikontodele ja arvutatud vahetuskursi kahjum sisestatakse alati kulukontodele.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Legal entities that have their primary address in the Czech Republic can use a special method for exchange rate adjustment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juriidilised isikud, kelle esmane aadress on Tšehhi Vabariigis, saavad vahetuskursi korrigeerimiseks kasutada erimeetodit.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>This method is known as the Incremental method.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seda nimetatakse astmeliseks meetodiks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>When this method is turned on, changes that the current feature introduces aren't applied.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui see meetod on sisse lülitatud, ei rakendata praeguses funktsioonis kasutusele võetud muudatusi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Unrealized and realized gains or losses are calculated against the last exchange rate that was used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Realiseeritud ja realiseerimata kasum või kahjum arvutatakse viimati kasutatud vahetuskursi suhtes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>The adjusted amount is used instead of the original amount as the basis of calculation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Algse summa asemel kasutatakse arvutamise alusena korrigeeritud summat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>To switch to the Incremental exchange rate adjustment method, on the <bpt id="p1">**</bpt>General ledger parameters<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Foreign currency revaluation<ept id="p2">**</ept> section, in the <bpt id="p3">**</bpt>Calculation method<ept id="p3">**</ept> field, select <bpt id="p4">**</bpt>Incremental<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi korrigeerimise astmelisele meetodile lülitumiseks valige lehel <bpt id="p1">**</bpt>Pearaamatu parameetrid<ept id="p1">**</ept> jaotises <bpt id="p2">**</bpt>Välisvaluuta ümberarvutamine<ept id="p2">**</ept> väljal <bpt id="p3">**</bpt>Arvutusmeetod<ept id="p3">**</ept> suvand <bpt id="p4">**</bpt>Astmeline<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>The following example shows how the exchange rate adjustment functionality works for Estonia, Hungary, Czech Republic, Latvia, Lithuania, Poland, and Russia.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises näites kirjeldatakse vahetuskursi korrigeerimise funktsiooni toimimise põhimõtet Eesti, Ungari, Tšehhi Vabariigi, Läti Leedu, Poola ja Venemaa puhul.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Here is the business scenario for this example:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ettevõtte stsenaarium oleks näiteks järgmine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>An invoice in a foreign currency is posted on December 1, 2012.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1. detsembril 2012 on sisestatud välisvaluutas arve.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>The payment in the foreign currency is posted on January 3, 2013</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. jaanuaril 2013 on sisestatud välisvaluutas makse.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Settlement is done to apply the payment to the invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makse rakendamiseks arvele tehakse tasakaalustamine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Exchange rates adjustment is done on December 31, 2012 (method = Standard).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi korrigeerimine toimub 31. detsembril 2012 (meetod = standardne).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Exchange rates adjustment is done on January 1, 2013 (method = Invoice date).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi korrigeerimine toimub 1. jaanuaril 2013 (meetod = arve kuupäev).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Here are the exchange rates for Canadian dollars (CAD) to U.S. dollars (USD) for this example:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle näite puhul on Kanada dollari (CAD) ja USA dollari (USD) vahetuskursid järgmised.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>December 1, 2012: 400.0000</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1. detsember 2012: 400,000</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>December 31, 2012: 450.0000</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">31. detsember 2012: 450,0000</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>January 3, 2013: 420.0000</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. jaanuar 2013: 420,0000</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Invoice</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arve</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Date</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuupäev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Debit/credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deebet/kreedit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Amounts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Summad</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>General ledger (GL) account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pearaamatukonto</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kande tüüp</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Posting type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestamistüüp</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Correction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parandus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>1-Dec-12</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1-dets-12</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Debit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debiteeri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>10,000 CAD/40,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10 000 CAD / 40 000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>AR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Invoice</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arve</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Customer balance</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kliendi saldo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>1-Dec-12</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1-dets-12</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>10,000 CAD/40,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10 000 CAD / 40 000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Offset</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vastas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Invoice</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arve</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Ledger journal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pearaamatu tööleht</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>X</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makse</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Date</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuupäev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Debit/credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deebet/kreedit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Amounts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Summad</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>General ledger (GL) account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pearaamatukonto</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kande tüüp</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Posting type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestamistüüp</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Correction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parandus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>3-Jan-13</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3-jaan-13</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Debit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debiteeri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>10,000 CAD/42,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10 000 CAD / 42 000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Offset</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vastas</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makse</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Ledger journal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pearaamatu tööleht</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>3-Jan-13</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3-jaan-13</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>10,000 CAD/42,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10 000 CAD / 42 000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>AR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makse</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Customer balance</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kliendi saldo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>X</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Settlement</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tasakaalustus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Date</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuupäev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Debit/credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deebet/kreedit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Amounts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Summad</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>General ledger (GL) account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pearaamatukonto</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kande tüüp</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Posting type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestamistüüp</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Correction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parandus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>January 3, 2013 (= payment date)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. jaanuar 2013 (= maksekuupäev)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Debit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debiteeri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>0 CAD/2,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0 CAD / 2000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>AR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Customer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klient</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Exchange rate gain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi tulu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>January 3, 2013 (= payment date)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. jaanuar 2013 (= maksekuupäev)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>0 CAD/2,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0 CAD / 2000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Realized currency adj profit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valuuta realiseeritud korrigeeritud kasum</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Customer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klient</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Exchange rate gain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi tulu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>X</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>Revaluation  (Standard method; date = December 31, 2012)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ümberarvutamine (standardne meetod; kuupäev = 31. detsember 2012)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>For this revaluation example, notice that the entry from January 3, 2013, is a direct reversal of the December 31, 2012 entry.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle ümberarvutamisnäite puhul pange tähele, et kirje 3. jaanuarist 2013 on 31. detsembrist 2012 pärineva kirje otsene tühistamine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Even the GL accounts and posting types are the same.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Isegi pearaamatukontod ja sisestustüübid on samad.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Additionally, notice that the <bpt id="p1">**</bpt>Correction<ept id="p1">**</ept> flag has been set.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samuti pange tähele, et seatud on lipp <bpt id="p1">**</bpt>Parandus<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Date</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuupäev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Debit/credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deebet/kreedit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Amounts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Summad</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>General ledger (GL) account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pearaamatukonto</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kande tüüp</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Posting type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestamistüüp</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Correction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parandus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>31-Dec-12</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">31-dets-12</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Debit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debiteeri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>0 CAD/5,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0 CAD / 5000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>AR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Foreign currency revaluation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Välisvaluuta ümberarvutamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Exchange rate gain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi tulu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>31-Dec-12</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">31-dets-12</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>0 CAD/5,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0 CAD / 5000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Unrealized currency adj profit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valuuta realiseerimata korrigeeritud kasum</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Foreign currency revaluation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Välisvaluuta ümberarvutamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Exchange rate gain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi tulu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>X</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>3-Jan-13</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3-jaan-13</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Debit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debiteeri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>0 CAD/5,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0 CAD / 5000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>AR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Foreign currency revaluation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Välisvaluuta ümberarvutamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Exchange rate gain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi tulu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>X</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>3-Jan-13</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3-jaan-13</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>0 CAD/5,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0 CAD / 5000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Unrealized currency adj profit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valuuta realiseerimata korrigeeritud kasum</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Foreign currency revaluation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Välisvaluuta ümberarvutamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>Exchange rate gain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi tulu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>X</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>X</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Revaluation (Invoice date method; date = January 1, 2013)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ümberarvutamine (arve kuupäeva meetod; kuupäev = 1. jaanuar 2013)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>For this revaluation, notice that the entry from January 1, 2013, is a direct reversal of the January 3, 2013 entry).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle ümberarvutamisnäite puhul pange tähele, et kirje 1. jaanuarist 2013 on 3. jaanuarist 2013 pärineva kirje otsene tühistamine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Even the GL accounts and posting types are the same.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Isegi pearaamatukontod ja sisestustüübid on samad.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Additionally, notice that the <bpt id="p1">**</bpt>Correction<ept id="p1">**</ept> flag has been set.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samuti pange tähele, et seatud on lipp <bpt id="p1">**</bpt>Parandus<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Date</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuupäev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Debit/credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deebet/kreedit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>Amounts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Summad</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>General ledger (GL) account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pearaamatukonto</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>Transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kande tüüp</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Posting type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestamistüüp</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Correction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parandus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>1-Jan-13</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1-jaan-13</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Debit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debiteeri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>0 CAD/5,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0 CAD / 5000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>AR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>Foreign currency revaluation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Välisvaluuta ümberarvutamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Exchange rate gain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi tulu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>X</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>1-Jan-13</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1-jaan-13</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>0 CAD/5,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0 CAD / 5000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Unrealized currency adj profit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valuuta realiseerimata korrigeeritud kasum</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Foreign currency revaluation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Välisvaluuta ümberarvutamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Exchange rate gain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi tulu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>X</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>X</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>3-Jan-13</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3-jaan-13</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Debit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debiteeri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>0 CAD/5,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0 CAD / 5000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>AR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Foreign currency revaluation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Välisvaluuta ümberarvutamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Exchange rate gain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi tulu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>3-Jan-13</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3-jaan-13</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>0 CAD/5,000 USD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0 CAD / 5000 USD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Unrealized currency adj profit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valuuta realiseerimata korrigeeritud kasum</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Foreign currency revaluation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Välisvaluuta ümberarvutamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>Exchange rate gain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuskursi tulu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>X</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>The system behavior is the same, regardless of whether the <bpt id="p1">**</bpt>Correction<ept id="p1">**</ept> option in the <bpt id="p2">**</bpt>Transaction reversal<ept id="p2">**</ept> section on the <bpt id="p3">**</bpt>General ledger parameters<ept id="p3">**</ept> page is set to <bpt id="p4">**</bpt>Yes<ept id="p4">**</ept> or <bpt id="p5">**</bpt>No<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Süsteemi käitumine on sama, olenemata sellest, kas lehe <bpt id="p3">**</bpt>Pearaamatu parameetrid<ept id="p3">**</ept> jaotises <bpt id="p2">**</bpt>Pearaamatukanne<ept id="p2">**</ept> jaotises on suvandi <bpt id="p1">**</bpt>Parandus<ept id="p1">**</ept> sätteks valitud <bpt id="p4">**</bpt>Jah<ept id="p4">**</ept> või <bpt id="p5">**</bpt>Ei<ept id="p5">**</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
