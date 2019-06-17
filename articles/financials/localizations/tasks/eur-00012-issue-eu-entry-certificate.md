@@ -1,90 +1,204 @@
----
-title: EUR-00012 EL-i kandesertifikaadi väljastamine
-description: See protseduur selgitab EL-i kandesertifikaadi lubamist, kliendikonto konfigureerimist kandesertifikaatide kasutamiseks ja sertifikaadi väljastamist.
-author: mrolecki
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: CustParameters, CustTable, SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CustEntryCertificateJour_W, SrsReportViewerForm
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
-ms.author: mrolecki
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee04632eee45aff1fe4b286c65024b0bc57bbb73
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537821"
----
-# <a name="eur-00012-issue-an-eu-entry-certificate"></a><span data-ttu-id="9e931-103">EUR-00012 EL-i kandesertifikaadi väljastamine</span><span class="sxs-lookup"><span data-stu-id="9e931-103">EUR-00012 Issue an EU entry certificate</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="9e931-104">See protseduur selgitab EL-i kandesertifikaadi lubamist, kliendikonto konfigureerimist kandesertifikaatide kasutamiseks ja sertifikaadi väljastamist.</span><span class="sxs-lookup"><span data-stu-id="9e931-104">This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</span></span> <span data-ttu-id="9e931-105">Protseduuri loomisel kasutati demoettevõtte DEMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="9e931-105">This procedure was created using the demo data company DEMF.</span></span>
-
-
-## <a name="enable-entry-certificate-management"></a><span data-ttu-id="9e931-106">Luba kandesertifikaadi haldamine</span><span class="sxs-lookup"><span data-stu-id="9e931-106">Enable entry certificate management</span></span>
-1. <span data-ttu-id="9e931-107">Minge jaotisse Müügireskontro > Seadistus > Müügireskontro parameetrid.</span><span class="sxs-lookup"><span data-stu-id="9e931-107">Go to Accounts receivable > Setup > Accounts receivable parameters.</span></span>
-2. <span data-ttu-id="9e931-108">Klõpsake vahekaarti Saadetised.</span><span class="sxs-lookup"><span data-stu-id="9e931-108">Click the Shipments tab.</span></span>
-3. <span data-ttu-id="9e931-109">Laiendage jaotist Kandesertifikaat.</span><span class="sxs-lookup"><span data-stu-id="9e931-109">Expand the Entry certificate section.</span></span>
-4. <span data-ttu-id="9e931-110">Valige väljal Luba kandesertifikaadi haldus suvand Jah.</span><span class="sxs-lookup"><span data-stu-id="9e931-110">Select Yes in the Enable entry certificate management field.</span></span>
-5. <span data-ttu-id="9e931-111">Valige väljal Luba kandesertifikaadi väljastamine suvand Jah.</span><span class="sxs-lookup"><span data-stu-id="9e931-111">Select Yes in the Enable entry certificate issuing field.</span></span>
-6. <span data-ttu-id="9e931-112">Klõpsake vahekaarti Numbriseeriad.</span><span class="sxs-lookup"><span data-stu-id="9e931-112">Click the Number sequences tab.</span></span>
-7. <span data-ttu-id="9e931-113">Leidke ja valige loendist rida Kandesertifikaat.</span><span class="sxs-lookup"><span data-stu-id="9e931-113">In the list, find and select Entry certificate row.</span></span>
-8. <span data-ttu-id="9e931-114">Sisestage või valige väärtus väljal Numbriseeria kood.</span><span class="sxs-lookup"><span data-stu-id="9e931-114">In the Number sequence code field, enter or select a value.</span></span>
-
-## <a name="set-up-a-customer"></a><span data-ttu-id="9e931-115">Kliendi seadistamine</span><span class="sxs-lookup"><span data-stu-id="9e931-115">Set up a customer</span></span>
-1. <span data-ttu-id="9e931-116">Avage Müügireskontro > Kliendid > Kõik kliendid.</span><span class="sxs-lookup"><span data-stu-id="9e931-116">Go to Accounts receivable > Customers > All customers.</span></span>
-2. <span data-ttu-id="9e931-117">Saate kirjete leidmiseks kasutada valikut Kiirfilter.</span><span class="sxs-lookup"><span data-stu-id="9e931-117">Use the Quick Filter to find records.</span></span> <span data-ttu-id="9e931-118">Näiteks saate filtrida välja Konto väärtuse DE-015 järgi.</span><span class="sxs-lookup"><span data-stu-id="9e931-118">For example, filter on the Account field with a value of 'DE-015'.</span></span>
-3. <span data-ttu-id="9e931-119">Avage kliendi konto üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="9e931-119">Open customer account details.</span></span>
-4. <span data-ttu-id="9e931-120">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="9e931-120">Click Edit.</span></span>
-5. <span data-ttu-id="9e931-121">Laiendage jaotist Arve ja tarne.</span><span class="sxs-lookup"><span data-stu-id="9e931-121">Expand the Invoice and delivery section.</span></span>
-6. <span data-ttu-id="9e931-122">Valige väljal Kandesertifikaat on nõutav suvand Jah.</span><span class="sxs-lookup"><span data-stu-id="9e931-122">Select Yes in the Entry certificate required field.</span></span>
-7. <span data-ttu-id="9e931-123">Valige väljal Väljasta kandesertifikaat suvand Jah.</span><span class="sxs-lookup"><span data-stu-id="9e931-123">Select Yes in the Issue entry certificate field.</span></span>
-8. <span data-ttu-id="9e931-124">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="9e931-124">Click Save.</span></span>
-
-## <a name="create-an-eu-entry-certificate-automatically"></a><span data-ttu-id="9e931-125">EL-i kandesertifikaadi automaatne loomine</span><span class="sxs-lookup"><span data-stu-id="9e931-125">Create an EU entry certificate automatically</span></span>
-1. <span data-ttu-id="9e931-126">Avage Müügireskontro > Tellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="9e931-126">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="9e931-127">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="9e931-127">Click New.</span></span>
-3. <span data-ttu-id="9e931-128">Valige või sisestage väärtus väljal Kliendi konto.</span><span class="sxs-lookup"><span data-stu-id="9e931-128">In the Customer account field, enter or select a value.</span></span>
-4. <span data-ttu-id="9e931-129">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="9e931-129">Click OK.</span></span>
-5. <span data-ttu-id="9e931-130">Sisestage või valige väärtus väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="9e931-130">In the Item number field, enter or select a value.</span></span>
-6. <span data-ttu-id="9e931-131">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="9e931-131">Click Save.</span></span>
-7. <span data-ttu-id="9e931-132">Klõpsake toimingupaanil valikut Komplekteerimine ja pakkimine.</span><span class="sxs-lookup"><span data-stu-id="9e931-132">On the Action Pane, click Pick and pack.</span></span>
-8. <span data-ttu-id="9e931-133">Klõpsake valikut Saatelehe sisestamine.</span><span class="sxs-lookup"><span data-stu-id="9e931-133">Click Post packing slip.</span></span>
-9. <span data-ttu-id="9e931-134">Laiendage jaotist Parameetrid.</span><span class="sxs-lookup"><span data-stu-id="9e931-134">Expand the Parameters section.</span></span>
-10. <span data-ttu-id="9e931-135">Valige väljal Kogus väärtus Kõik.</span><span class="sxs-lookup"><span data-stu-id="9e931-135">In the Quantity field, select 'All'.</span></span>
-11. <span data-ttu-id="9e931-136">Tühjendage ruut Väljasta kandesertifikaat.</span><span class="sxs-lookup"><span data-stu-id="9e931-136">Clear the Issue entry certificate check box.</span></span>
-    * <span data-ttu-id="9e931-137">Kandesertifikaadi saab väljastada saatelehe sisestamise või tellimuse arveldamise ajal.</span><span class="sxs-lookup"><span data-stu-id="9e931-137">An entry certificate can be issued during packing slip posting or during order invoicing.</span></span> <span data-ttu-id="9e931-138">Hiljem väljastamiseks jätke ruut Väljasta kandesertifikaat tühjaks.</span><span class="sxs-lookup"><span data-stu-id="9e931-138">Leave the Issue entry certificate checkbox unchecked to issue it later.</span></span>  
-12. <span data-ttu-id="9e931-139">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="9e931-139">Click OK.</span></span>
-13. <span data-ttu-id="9e931-140">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="9e931-140">Click OK.</span></span>
-14. <span data-ttu-id="9e931-141">Klõpsake toimingupaanil valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="9e931-141">On the Action Pane, click Invoice.</span></span>
-15. <span data-ttu-id="9e931-142">Klõpsake valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="9e931-142">Click Invoice.</span></span>
-    * <span data-ttu-id="9e931-143">Kontrollige, kas ruudud Kandesertifikaat on nõutav ja Väljasta kandesertifikaat jaotises Ülevaade on märgitud.</span><span class="sxs-lookup"><span data-stu-id="9e931-143">Verify that the Entry certificate required and Issue entry certificate checkboxes in the Overview section are marked.</span></span>  <span data-ttu-id="9e931-144">Saate valida ka ruudu Prindi kandesertifikaat, et lubada sertifikaadi printimine.</span><span class="sxs-lookup"><span data-stu-id="9e931-144">You can also select the Print entry certificate check box to allow printing of the certificate.</span></span>  
-16. <span data-ttu-id="9e931-145">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="9e931-145">Click OK.</span></span>
-17. <span data-ttu-id="9e931-146">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="9e931-146">Click OK.</span></span>
-18. <span data-ttu-id="9e931-147">Klõpsake toimingupaanil valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="9e931-147">On the Action Pane, click Invoice.</span></span>
-19. <span data-ttu-id="9e931-148">Klõpsake valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="9e931-148">Click Invoice.</span></span>
-20. <span data-ttu-id="9e931-149">Klõpsake toimingupaanil valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="9e931-149">On the Action Pane, click Invoice.</span></span>
-21. <span data-ttu-id="9e931-150">Klõpsake suvandit Kuva väljastatud kandesertifikaadid.</span><span class="sxs-lookup"><span data-stu-id="9e931-150">Click View issued entry certificates.</span></span>
-22. <span data-ttu-id="9e931-151">Klõpsake Prindi.</span><span class="sxs-lookup"><span data-stu-id="9e931-151">Click Print.</span></span>
-23. <span data-ttu-id="9e931-152">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="9e931-152">Close the page.</span></span>
-24. <span data-ttu-id="9e931-153">Klõpsake valikut Muuda olekut.</span><span class="sxs-lookup"><span data-stu-id="9e931-153">Click Change status.</span></span>
-25. <span data-ttu-id="9e931-154">Valige suvand väljal Uus olek.</span><span class="sxs-lookup"><span data-stu-id="9e931-154">In the New status field, select an option.</span></span>
-26. <span data-ttu-id="9e931-155">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="9e931-155">Click OK.</span></span>
-27. <span data-ttu-id="9e931-156">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="9e931-156">Close the page.</span></span>
-
-## <a name="create-an-eu-entry-certificate-manually"></a><span data-ttu-id="9e931-157">EL-i kandesertifikaadi käsitsi loomine</span><span class="sxs-lookup"><span data-stu-id="9e931-157">Create an EU entry certificate manually</span></span>
-1. <span data-ttu-id="9e931-158">Klõpsake toimingupaanil valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="9e931-158">On the Action Pane, click Invoice.</span></span>
-2. <span data-ttu-id="9e931-159">Klõpsake suvandit Loo kandesertifikaat.</span><span class="sxs-lookup"><span data-stu-id="9e931-159">Click Create entry certificate.</span></span>
-3. <span data-ttu-id="9e931-160">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="9e931-160">Click OK.</span></span>
-4. <span data-ttu-id="9e931-161">Klõpsake toimingupaanil valikut Arve.</span><span class="sxs-lookup"><span data-stu-id="9e931-161">On the Action Pane, click Invoice.</span></span>
-5. <span data-ttu-id="9e931-162">Klõpsake suvandit Kuva väljastatud kandesertifikaadid.</span><span class="sxs-lookup"><span data-stu-id="9e931-162">Click View issued entry certificates.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="eur-00012-issue-eu-entry-certificate.md" target-language="et-EE">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>eur-00012-issue-eu-entry-certificate.2f67ef.5a566b1d25064e3fccc8953dc883aa63bd16a301.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>5a566b1d25064e3fccc8953dc883aa63bd16a301</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\eur-00012-issue-eu-entry-certificate.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>EUR-00012 Issue an EU entry certificate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00012 EL-i kandesertifikaadi väljastamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur selgitab EL-i kandesertifikaadi lubamist, kliendikonto konfigureerimist kandesertifikaatide kasutamiseks ja sertifikaadi väljastamist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>EUR-00012 Issue an EU entry certificate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00012 EL-i kandesertifikaadi väljastamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This procedure walks you through enabling an EU entry certificate, configuring a customer account to use entry certificates and issue a certificate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur selgitab EL-i kandesertifikaadi lubamist, kliendikonto konfigureerimist kandesertifikaatide kasutamiseks ja sertifikaadi väljastamist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This procedure was created using the demo data company DEMF.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Protseduuri loomisel kasutati demoettevõtte DEMF andmeid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Enable entry certificate management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Luba kandesertifikaadi haldamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Go to Accounts receivable &gt; Setup &gt; Accounts receivable parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Minge jaotisse Müügireskontro &gt; Seadistus &gt; Müügireskontro parameetrid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Click the Shipments tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake vahekaarti Saadetised.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Expand the Entry certificate section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage jaotist Kandesertifikaat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Select Yes in the Enable entry certificate management field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal Luba kandesertifikaadi haldus suvand Jah.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Select Yes in the Enable entry certificate issuing field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal Luba kandesertifikaadi väljastamine suvand Jah.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Click the Number sequences tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake vahekaarti Numbriseeriad.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the list, find and select Entry certificate row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leidke ja valige loendist rida Kandesertifikaat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>In the Number sequence code field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Numbriseeria kood.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Set up a customer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kliendi seadistamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Go to Accounts receivable &gt; Customers &gt; All customers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Müügireskontro &gt; Kliendid &gt; Kõik kliendid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Use the Quick Filter to find records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate kirjete leidmiseks kasutada valikut Kiirfilter.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>For example, filter on the Account field with a value of 'DE-015'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks saate filtrida välja Konto väärtuse DE-015 järgi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Open customer account details.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage kliendi konto üksikasjad.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Click Edit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Redigeeri.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Expand the Invoice and delivery section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage jaotist Arve ja tarne.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Select Yes in the Entry certificate required field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal Kandesertifikaat on nõutav suvand Jah.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Select Yes in the Issue entry certificate field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal Väljasta kandesertifikaat suvand Jah.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Create an EU entry certificate automatically</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EL-i kandesertifikaadi automaatne loomine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Go to Accounts receivable &gt; Orders &gt; All sales orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Müügireskontro &gt; Tellimused &gt; Kõik müügitellimused.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Uus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>In the Customer account field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige või sisestage väärtus väljal Kliendi konto.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>In the Item number field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Kaubakood.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>On the Action Pane, click Pick and pack.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake toimingupaanil valikut Komplekteerimine ja pakkimine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Click Post packing slip.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Saatelehe sisestamine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Expand the Parameters section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage jaotist Parameetrid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>In the Quantity field, select 'All'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal Kogus väärtus Kõik.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Clear the Issue entry certificate check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tühjendage ruut Väljasta kandesertifikaat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>An entry certificate can be issued during packing slip posting or during order invoicing.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kandesertifikaadi saab väljastada saatelehe sisestamise või tellimuse arveldamise ajal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Leave the Issue entry certificate checkbox unchecked to issue it later.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hiljem väljastamiseks jätke ruut Väljasta kandesertifikaat tühjaks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>On the Action Pane, click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake toimingupaanil valikut Arve.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Arve.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Verify that the Entry certificate required and Issue entry certificate checkboxes in the Overview section are marked.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kontrollige, kas ruudud Kandesertifikaat on nõutav ja Väljasta kandesertifikaat jaotises Ülevaade on märgitud.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>You can also select the Print entry certificate check box to allow printing of the certificate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate valida ka ruudu Prindi kandesertifikaat, et lubada sertifikaadi printimine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>On the Action Pane, click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake toimingupaanil valikut Arve.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Arve.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>On the Action Pane, click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake toimingupaanil valikut Arve.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Click View issued entry certificates.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Kuva väljastatud kandesertifikaadid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Click Print.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake Prindi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sulgege leht.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Click Change status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Muuda olekut.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>In the New status field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige suvand väljal Uus olek.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sulgege leht.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Create an EU entry certificate manually</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EL-i kandesertifikaadi käsitsi loomine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>On the Action Pane, click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake toimingupaanil valikut Arve.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Click Create entry certificate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Loo kandesertifikaat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>On the Action Pane, click Invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake toimingupaanil valikut Arve.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Click View issued entry certificates.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Kuva väljastatud kandesertifikaadid.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

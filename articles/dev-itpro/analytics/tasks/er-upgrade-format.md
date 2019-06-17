@@ -1,202 +1,576 @@
----
-title: Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga
-description: Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad hallata elektroonilise aruandluse (ER) vormingu konfiguratsiooni.
-author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
-audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.author: nselin
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544445"
----
-# <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a><span data-ttu-id="a2060-103">Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga</span><span class="sxs-lookup"><span data-stu-id="a2060-103">ER Upgrade your format by adopting a new, base version of that format</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="a2060-104">Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad hallata elektroonilise aruandluse (ER) vormingu konfiguratsiooni.</span><span class="sxs-lookup"><span data-stu-id="a2060-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</span></span> <span data-ttu-id="a2060-105">Selles protseduuris selgitatakse, kuidas saab luua vormingu kohandatud versiooni konfiguratsiooni pakkujalt (CP) saadud vormingu alusel.</span><span class="sxs-lookup"><span data-stu-id="a2060-105">This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</span></span> <span data-ttu-id="a2060-106">Selgitatakse ka seda, kuidas võtta kasutusele selle vormingu uus alusversioon.</span><span class="sxs-lookup"><span data-stu-id="a2060-106">It also explains how to adopt a new, base version of that format.</span></span>
-
-
-
-<span data-ttu-id="a2060-107">Nende etappide lõpuleviimiseks peate kõigepealt lõpetama etapid protseduurides „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” ja „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”.</span><span class="sxs-lookup"><span data-stu-id="a2060-107">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” and “Use created format to generate electronic documents for payments” procedures.</span></span> <span data-ttu-id="a2060-108">Neid toiminguid saab teha GBSI ettevõttes.</span><span class="sxs-lookup"><span data-stu-id="a2060-108">These steps can be performed in the GBSI company.</span></span>
-
-
-## <a name="select-format-configuration-for-customization"></a><span data-ttu-id="a2060-109">Vormingu konfiguratsiooni valimine kohandamiseks</span><span class="sxs-lookup"><span data-stu-id="a2060-109">Select format configuration for customization</span></span>
-1. <span data-ttu-id="a2060-110">Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="a2060-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-    * <span data-ttu-id="a2060-111">Selles näites on näidisettevõte Litware, Inc. (http://www.litware.com) konfiguratsiooni pakkuja, mis toetab kindla riigi elektrooniliste maksete vormingu konfiguratsioone.</span><span class="sxs-lookup"><span data-stu-id="a2060-111">In this example, sample company Litware, Inc. (http://www.litware.com) will act as a configuration provider that supports format configurations for electronic payments for a particular country.</span></span>    <span data-ttu-id="a2060-112">Näidisettevõte Proseware, Inc. (http://www.proseware.com) on selle vormingukonfiguratsiooni tarbija, mida pakub Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="a2060-112">Sample company Proseware, Inc. (http://www.proseware.com) will act as a consumer of the format configuration that Litware, Inc. provided.</span></span> <span data-ttu-id="a2060-113">Proseware, Inc. kasutab vorminguid selle riigi teatud piirkondades.</span><span class="sxs-lookup"><span data-stu-id="a2060-113">Proseware, Inc. uses formats in certain regions of that country.</span></span>  
-2. <span data-ttu-id="a2060-114">Klõpsake valikut Aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="a2060-114">Click Reporting configurations.</span></span>
-3. <span data-ttu-id="a2060-115">Klõpsake suvandit Näita filtreid.</span><span class="sxs-lookup"><span data-stu-id="a2060-115">Click Show filters.</span></span>
-4. <span data-ttu-id="a2060-116">Rakendage järgmised filtrid: sisestage filtri väärtus „BACS (UK fiktiivne)” väljale „Nimi”, kasutades filtri tehtemärki „algab üksusega”,</span><span class="sxs-lookup"><span data-stu-id="a2060-116">Apply the following filters: Enter a filter value of "BACS (UK fictitious)" on the "Name" field using the "begins with" filter operator</span></span>
-    * <span data-ttu-id="a2060-117">BACS (UK fiktiivne)</span><span class="sxs-lookup"><span data-stu-id="a2060-117">BACS (UK fictitious)</span></span>  
-    * <span data-ttu-id="a2060-118">Valitud vormingu konfiguratsiooni BACS (UK fiktiivne) omanik on pakkuja Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="a2060-118">The selected format configuration BACS (UK fictitious) is owned by provider Litware, Inc.</span></span>  
-5. <span data-ttu-id="a2060-119">Klõpsake suvandit Näita filtreid.</span><span class="sxs-lookup"><span data-stu-id="a2060-119">Click Show filters.</span></span>
-6. <span data-ttu-id="a2060-120">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="a2060-120">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="a2060-121">Proseware, Inc. kasutab isikupärastamiseks vormingu versiooni olekuga Lõpule viidud.</span><span class="sxs-lookup"><span data-stu-id="a2060-121">The version of the format with the status of Completed will be used by Proseware, Inc. for customization.</span></span>  
-
-## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a><span data-ttu-id="a2060-122">Elektroonilise dokumendi kohandatud vormingule uue konfiguratsiooni loomine</span><span class="sxs-lookup"><span data-stu-id="a2060-122">Create a new configuration for your custom format of electronic document</span></span>
-    * <span data-ttu-id="a2060-123">Proseware, Inc. sai ettevõttelt Litware, Inc vastavalt nende teenusekirjeldusele BACS-i (UK fiktiivne) konfiguratsiooniversiooni 1.1, mis sisaldab algset vormingut elektrooniliste maksedokumentide loomiseks.</span><span class="sxs-lookup"><span data-stu-id="a2060-123">Proseware, Inc. received version 1.1 of BACS (UK fictitious) configuration that contains the initial format to generate electronic payment documents from Litware, Inc. in accordance to their service subscription.</span></span> <span data-ttu-id="a2060-124">Proseware, Inc. soovib hakata seda kasutama oma riigi standardina, kuid nõutavad on mõned kohandamised, et toetada teatud piirkondlikke nõudeid.</span><span class="sxs-lookup"><span data-stu-id="a2060-124">Proseware, Inc. wants to start using this as a standard for their country but some customization is required to support specific regional requirements.</span></span> <span data-ttu-id="a2060-125">Proseware, Inc. soovib säilitada ka võime täiendada kohandatud vormingut niipea kui selle uus versioon (koos muudatustega uute riigipõhiste nõuete toetamiseks) ettevõttelt Litware, Inc. välja antakse ja soovib täienduse läbi viia võimalikult väikeste kuludega.</span><span class="sxs-lookup"><span data-stu-id="a2060-125">Proseware, Inc. also wants to keep the ability to upgrade a custom format as soon as a new version of it (with changes to support new country-specific requirements) comes from Litware, Inc. and they want to perform this upgrade with the lowest cost.</span></span>  <span data-ttu-id="a2060-126">Selleks peab Proseware, Inc. looma konfiguratsiooni, kasutades alusena Litware, Inc. konfiguratsiooni BACS (UK fiktiivne).</span><span class="sxs-lookup"><span data-stu-id="a2060-126">To do this, Proseware, Inc. needs to create a configuration using the Litware, Inc. configuration BACS (UK fictitious) as a base.</span></span>  
-1. <span data-ttu-id="a2060-127">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="a2060-127">Close the page.</span></span>
-2. <span data-ttu-id="a2060-128">Valige Proseware, Inc, et muuta see aktiivseks pakkujaks.</span><span class="sxs-lookup"><span data-stu-id="a2060-128">Select Proseware, Inc. to make it an active provider.</span></span>
-3. <span data-ttu-id="a2060-129">Klõpsake valikut Määra aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="a2060-129">Click Set active.</span></span>
-4. <span data-ttu-id="a2060-130">Klõpsake valikut Aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="a2060-130">Click Reporting configurations.</span></span>
-5. <span data-ttu-id="a2060-131">Laiendage puustruktuuris suvandit Maksed (lihtsustatud mudel).</span><span class="sxs-lookup"><span data-stu-id="a2060-131">In the tree, expand 'Payments (simplified model)'.</span></span>
-6. <span data-ttu-id="a2060-132">Tehke puustruktuuris valik 'Maksed (lihtsustatud mudel)\BACS (UK fiktiivne)'.</span><span class="sxs-lookup"><span data-stu-id="a2060-132">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
-    * <span data-ttu-id="a2060-133">Valige ettevõtte Litware, Inc. pakutav BACS (UK fiktiivne). Proseware, Inc. kasutab väljaannet 1.1 kohandatud versiooni alusena.</span><span class="sxs-lookup"><span data-stu-id="a2060-133">Select the BACS (UK fictitious) configuration from Litware, Inc.     Proseware, Inc. will use version 1.1 as a base for the custom version.</span></span>  
-7. <span data-ttu-id="a2060-134">Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.</span><span class="sxs-lookup"><span data-stu-id="a2060-134">Click Create configuration to open the drop dialog.</span></span>
-    * <span data-ttu-id="a2060-135">See võimaldab teil luua uut konfiguratsiooni kohandatud maksevormingule.</span><span class="sxs-lookup"><span data-stu-id="a2060-135">This lets you create a new configuration for a custom payment format.</span></span>  
-8. <span data-ttu-id="a2060-136">Sisestage väljale Uus tekst 'Tuleta nimest: BACS (UK fiktiivne), Litware, Inc.'.</span><span class="sxs-lookup"><span data-stu-id="a2060-136">In the New field, enter 'Derive from Name: BACS (UK fictitious), Litware, Inc.'.</span></span>
-    * <span data-ttu-id="a2060-137">Valige suvand Tuleta, et kinnitada BACS-i (UK fiktiivne) kasutamine kohandatud versiooni loomise alusena.</span><span class="sxs-lookup"><span data-stu-id="a2060-137">Select the Derive option to confirm the usage of BACS (UK fictitious) as the base for creating the custom version.</span></span>  
-9. <span data-ttu-id="a2060-138">Tippige väljale Nimi tekst 'BACS (UK fiktiivne kohandatud)'.</span><span class="sxs-lookup"><span data-stu-id="a2060-138">In the Name field, type 'BACS (UK fictitious custom)'.</span></span>
-    * <span data-ttu-id="a2060-139">BACS (UK fiktiivne kohandatud)</span><span class="sxs-lookup"><span data-stu-id="a2060-139">BACS (UK fictitious custom)</span></span>  
-10. <span data-ttu-id="a2060-140">Väljale Kirjeldus tippige „BACS-i hankija makse (UK fiktiivne kohandatud)”.</span><span class="sxs-lookup"><span data-stu-id="a2060-140">In the Description field, type 'BACS vendor payment (UK fictitious custom)'.</span></span>
-    * <span data-ttu-id="a2060-141">BACS-i hankija makse (UK fiktiivne kohandatud)</span><span class="sxs-lookup"><span data-stu-id="a2060-141">BACS vendor payment (UK fictitious custom)</span></span>  
-    * <span data-ttu-id="a2060-142">Aktiivse konfiguratsiooni pakkuja (Proseware, Inc.) sisestatakse siia automaatselt.</span><span class="sxs-lookup"><span data-stu-id="a2060-142">The active configuration provider (Proseware, Inc.) is automatically entered here.</span></span> <span data-ttu-id="a2060-143">See pakkuja saab seda konfiguratsiooni hallata.</span><span class="sxs-lookup"><span data-stu-id="a2060-143">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="a2060-144">Muud pakkujad saavad seda konfiguratsiooni kasutada, kuid ei saa seda hallata.</span><span class="sxs-lookup"><span data-stu-id="a2060-144">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
-11. <span data-ttu-id="a2060-145">Klõpsake Loo konfiguratsioon.</span><span class="sxs-lookup"><span data-stu-id="a2060-145">Click Create configuration.</span></span>
-
-## <a name="customize-your-format-for-the-electronic-document"></a><span data-ttu-id="a2060-146">Elektroonilise dokumendi jaoks vormingu kohandamine</span><span class="sxs-lookup"><span data-stu-id="a2060-146">Customize your format for the electronic document</span></span>
-1. <span data-ttu-id="a2060-147">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="a2060-147">Click Designer.</span></span>
-2. <span data-ttu-id="a2060-148">Klõpsake nuppu Laienda/ahenda.</span><span class="sxs-lookup"><span data-stu-id="a2060-148">Click Expand/collapse.</span></span>
-3. <span data-ttu-id="a2060-149">Klõpsake nuppu Laienda/ahenda.</span><span class="sxs-lookup"><span data-stu-id="a2060-149">Click Expand/collapse.</span></span>
-4. <span data-ttu-id="a2060-150">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank”.</span><span class="sxs-lookup"><span data-stu-id="a2060-150">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
-5. <span data-ttu-id="a2060-151">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="a2060-151">Click Add to open the drop dialog.</span></span>
-6. <span data-ttu-id="a2060-152">Valige puul suvand XML\Element.</span><span class="sxs-lookup"><span data-stu-id="a2060-152">In the tree, select 'XML\Element'.</span></span>
-7. <span data-ttu-id="a2060-153">Sisestage väljale Nimi suvand IBAN.</span><span class="sxs-lookup"><span data-stu-id="a2060-153">In the Name field, type 'IBAN'.</span></span>
-    * <span data-ttu-id="a2060-154">IBAN</span><span class="sxs-lookup"><span data-stu-id="a2060-154">IBAN</span></span>  
-8. <span data-ttu-id="a2060-155">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="a2060-155">Click OK.</span></span>
-9. <span data-ttu-id="a2060-156">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank\IBAN”.</span><span class="sxs-lookup"><span data-stu-id="a2060-156">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</span></span>
-10. <span data-ttu-id="a2060-157">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="a2060-157">Click Add to open the drop dialog.</span></span>
-11. <span data-ttu-id="a2060-158">Valige puul suvand Tekst\String.</span><span class="sxs-lookup"><span data-stu-id="a2060-158">In the tree, select 'Text\String'.</span></span>
-12. <span data-ttu-id="a2060-159">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="a2060-159">Click OK.</span></span>
-13. <span data-ttu-id="a2060-160">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Nimi\String”.</span><span class="sxs-lookup"><span data-stu-id="a2060-160">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
-14. <span data-ttu-id="a2060-161">Sisestage väljale Maksimaalne pikkus väärtus '60'.</span><span class="sxs-lookup"><span data-stu-id="a2060-161">In the Maximum length field, enter '60'.</span></span>
-15. <span data-ttu-id="a2060-162">Klõpsake vahekaarti Vastendus.</span><span class="sxs-lookup"><span data-stu-id="a2060-162">Click the Mapping tab.</span></span>
-16. <span data-ttu-id="a2060-163">Laiendage puus sõlme „model”.</span><span class="sxs-lookup"><span data-stu-id="a2060-163">In the tree, expand 'model'.</span></span>
-17. <span data-ttu-id="a2060-164">Laiendage puus sõlme model\Payments.</span><span class="sxs-lookup"><span data-stu-id="a2060-164">In the tree, expand 'model\Payments'.</span></span>
-18. <span data-ttu-id="a2060-165">Laiendage puus sõlme model\Payments\Creditor.</span><span class="sxs-lookup"><span data-stu-id="a2060-165">In the tree, expand 'model\Payments\Creditor'.</span></span>
-19. <span data-ttu-id="a2060-166">Laiendage puus sõlme model\Payments\Creditor\Account.</span><span class="sxs-lookup"><span data-stu-id="a2060-166">In the tree, expand 'model\Payments\Creditor\Account'.</span></span>
-20. <span data-ttu-id="a2060-167">Puuvaates valige „mudel\Maksed\Kreeditor\Konto\IBAN”.</span><span class="sxs-lookup"><span data-stu-id="a2060-167">In the tree, select 'model\Payments\Creditor\Account\IBAN'.</span></span>
-21. <span data-ttu-id="a2060-168">Puuvaates valige „Xml\Teade\Maksed\Kaup = model.Payments\Hankija\Pank\IBAN\String”.</span><span class="sxs-lookup"><span data-stu-id="a2060-168">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</span></span>
-22. <span data-ttu-id="a2060-169">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="a2060-169">Click Bind.</span></span>
-23. <span data-ttu-id="a2060-170">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="a2060-170">Click Save.</span></span>
-
-## <a name="validate-the-customized-format"></a><span data-ttu-id="a2060-171">Kohandatud vormingu kinnitamine</span><span class="sxs-lookup"><span data-stu-id="a2060-171">Validate the customized format</span></span>
-1. <span data-ttu-id="a2060-172">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="a2060-172">Click Validate.</span></span>
-    * <span data-ttu-id="a2060-173">Kinnitage kohandatud vormingu paigutus ja andmete vastendamise muudatused veendumaks, et kõik seosed on korras.</span><span class="sxs-lookup"><span data-stu-id="a2060-173">Validate the customized format layout and data mapping changes to make sure that all bindings are okay.</span></span>  
-2. <span data-ttu-id="a2060-174">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="a2060-174">Close the page.</span></span>
-
-## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a><span data-ttu-id="a2060-175">Kohandatud vormingu konfiguratsiooni praeguse versiooni oleku muutmine</span><span class="sxs-lookup"><span data-stu-id="a2060-175">Change the status of the current version of the custom format configuration</span></span>
-    * <span data-ttu-id="a2060-176">Muutke koostatud vormingu konfiguratsiooni olek suvandilt Mustand suvandile Lõpetatud, et muuta see maksedokumedi loomiseks kättesaadavaks.</span><span class="sxs-lookup"><span data-stu-id="a2060-176">Change the status of the designed format configuration from Draft to Completed to make it available for payment document generation.</span></span>  
-1. <span data-ttu-id="a2060-177">Klõpsake valikut Muuda olekut.</span><span class="sxs-lookup"><span data-stu-id="a2060-177">Click Change status.</span></span>
-    * <span data-ttu-id="a2060-178">Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.</span><span class="sxs-lookup"><span data-stu-id="a2060-178">Note that the current version of the selected configuration is in Draft status.</span></span>  
-2. <span data-ttu-id="a2060-179">Klõpsake valikut Valmis.</span><span class="sxs-lookup"><span data-stu-id="a2060-179">Click Complete.</span></span>
-3. <span data-ttu-id="a2060-180">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="a2060-180">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="a2060-181">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="a2060-181">Click OK.</span></span>
-5. <span data-ttu-id="a2060-182">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="a2060-182">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="a2060-183">Pange tähele, et loodud konfiguratsioon salvestatakse kui lõpetatud versioon 1.1.1.</span><span class="sxs-lookup"><span data-stu-id="a2060-183">Note that the created configuration is saved as completed version 1.1.1.</span></span> <span data-ttu-id="a2060-184">See tähendab, et see on kohandatud BACS-i (UK fiktiivne kohandatud) vormingu 1. versioon, mis põhineb BACS-i (UK fiktiivne) vormingu 1. versioonil, mis põhineb andmemudeli Maksed (lihtsustatud mudel) 1. versioonil.</span><span class="sxs-lookup"><span data-stu-id="a2060-184">This means it is version 1 of the custom BACS (UK fictitious custom) format, which is based on version 1 of the BACS (UK fictitious) format, which is based on version 1 of the Payments (simplified model) data model.</span></span>  
-
-## <a name="test-the-customized-format-to-generate-payment-files"></a><span data-ttu-id="a2060-185">Kohandatud vormingu testimine maksefailide loomiseks</span><span class="sxs-lookup"><span data-stu-id="a2060-185">Test the customized format to generate payment files</span></span>
-    * <span data-ttu-id="a2060-186">Viige rakenduse Dynamics 365 for Finance and Operations, Enterprise edition paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”.</span><span class="sxs-lookup"><span data-stu-id="a2060-186">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in a parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="a2060-187">Valige BACS-i (UK fiktiivne kohandatud) vorming elektroonilise makseviisi parameetrites.</span><span class="sxs-lookup"><span data-stu-id="a2060-187">Select the BACS (UK fictitious custom) format in electronic payment method parameters.</span></span> <span data-ttu-id="a2060-188">Veenduge, et loodud maksefail sisaldab hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele.</span><span class="sxs-lookup"><span data-stu-id="a2060-188">Make sure that the created payment file contains the recently introduced XML node presenting IBAN code in accordance to regional requirements.</span></span>  
-
-## <a name="update-the-existing-country-specific-configuration"></a><span data-ttu-id="a2060-189">Olemasoleva riigipõhise konfiguratsiooni värskendamine</span><span class="sxs-lookup"><span data-stu-id="a2060-189">Update the existing country-specific configuration</span></span>
-    * <span data-ttu-id="a2060-190">Litware, Inc. peab värskendama BACS-i (UK fiktiivne) konfiguratsiooni ja kasutusele võtma uued riigipõhised nõuded, et hallata elektroonilise dokumendi vormingut.</span><span class="sxs-lookup"><span data-stu-id="a2060-190">Litware, Inc. needs to update the BACS (UK fictitious) configuration and adopt new country requirements for managing the format of the electronic document.</span></span> <span data-ttu-id="a2060-191">Hiljem lisatakse see selle konfiguratsiooni uude versiooni, mida pakutakse teenuse tellijatele, sh ettevõttele Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="a2060-191">Later, this will be enclosed in a new version of this configuration that will be offered for service subscribers, including Proseware, Inc.</span></span>  
-    * <span data-ttu-id="a2060-192">Tegelikes teenuse osutamisega seotud protsessides saab Proseware, Inc. importida iga uue BACS-i (UK fiktiivne) väljaande ettevõtte Litware, Inc. konfiguratsioonide LCS-hoidlast.</span><span class="sxs-lookup"><span data-stu-id="a2060-192">In real service provision related processes, each new version of BACS (UK fictitious) can be imported by Proseware, Inc. from Litware, Inc. configurations’ LCS repository.</span></span> <span data-ttu-id="a2060-193">Selles protseduuris simuleerime seda, värskendades BACS-i (UK fiktiivne) teenusepakkuja nimel.</span><span class="sxs-lookup"><span data-stu-id="a2060-193">In this procedure we will simulate this by updating BACS (UK fictitious) on behalf of a service provider.</span></span>  
-1. <span data-ttu-id="a2060-194">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="a2060-194">Close the page.</span></span>
-2. <span data-ttu-id="a2060-195">Valige pakkuja Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="a2060-195">Select Litware, inc. provider.</span></span>
-3. <span data-ttu-id="a2060-196">Klõpsake valikut Määra aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="a2060-196">Click Set active.</span></span>
-4. <span data-ttu-id="a2060-197">Klõpsake valikut Aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="a2060-197">Click Reporting configurations.</span></span>
-5. <span data-ttu-id="a2060-198">Laiendage puustruktuuris suvandit Maksed (lihtsustatud mudel).</span><span class="sxs-lookup"><span data-stu-id="a2060-198">In the tree, expand 'Payments (simplified model)'.</span></span>
-6. <span data-ttu-id="a2060-199">Tehke puustruktuuris valik 'Maksed (lihtsustatud mudel)\BACS (UK fiktiivne)'.</span><span class="sxs-lookup"><span data-stu-id="a2060-199">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
-    * <span data-ttu-id="a2060-200">Ettevõtte Litware, Inc omandis mustandversioon pakkuja BACS (UK fiktiivne) on valitud toomaks kaasa muudatusi, et toetada uusi riigipõhiseid nõudeid.</span><span class="sxs-lookup"><span data-stu-id="a2060-200">The draft version owned by Litware, Inc. provider BACS (UK fictitious) is selected to bring in changes to support new country-specific requirements.</span></span>  
-
-## <a name="localize-the-base-format-of-the-electronic-document"></a><span data-ttu-id="a2060-201">Elektroonilise dokumendi alusvormingu lokaliseerimine</span><span class="sxs-lookup"><span data-stu-id="a2060-201">Localize the base format of the electronic document</span></span>
-    * <span data-ttu-id="a2060-202">Oletame, et on olemas uued riigipõhised nõuded, mida Litware, Inc. peab täitma: iga makse puhul kreeditori panga SWIFT-koodi väärtus.</span><span class="sxs-lookup"><span data-stu-id="a2060-202">Assume that there are new country-specific requirements to be supported by Litware, Inc.:  - A value for the creditor’s bank SWIFT code in each payment transaction.</span></span>  <span data-ttu-id="a2060-203">- 100 tähemärgi piirang hankija nime tekstipikkusele loomisfailis.</span><span class="sxs-lookup"><span data-stu-id="a2060-203">- A limit of 100 characters for the length of text for the vendor’s name in a generating file.</span></span>  
-    * <span data-ttu-id="a2060-204">Uued riigipõhised nõuded</span><span class="sxs-lookup"><span data-stu-id="a2060-204">New country-specific requirements</span></span>  
-    * <span data-ttu-id="a2060-205">Valige soovitud konfiguratsiooni mustandiversioon, et nõutavad muudatused kasutusele võtta.</span><span class="sxs-lookup"><span data-stu-id="a2060-205">Select the draft version of the desired configuration to introduce required changes.</span></span>  
-1. <span data-ttu-id="a2060-206">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="a2060-206">Click Designer.</span></span>
-2. <span data-ttu-id="a2060-207">Klõpsake nuppu Laienda/ahenda.</span><span class="sxs-lookup"><span data-stu-id="a2060-207">Click Expand/collapse.</span></span>
-3. <span data-ttu-id="a2060-208">Klõpsake nuppu Laienda/ahenda.</span><span class="sxs-lookup"><span data-stu-id="a2060-208">Click Expand/collapse.</span></span>
-4. <span data-ttu-id="a2060-209">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank”.</span><span class="sxs-lookup"><span data-stu-id="a2060-209">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
-5. <span data-ttu-id="a2060-210">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="a2060-210">Click Add to open the drop dialog.</span></span>
-6. <span data-ttu-id="a2060-211">Valige puul suvand XML\Element.</span><span class="sxs-lookup"><span data-stu-id="a2060-211">In the tree, select 'XML\Element'.</span></span>
-7. <span data-ttu-id="a2060-212">Sisestage väljale Nimi suvand SWIFT.</span><span class="sxs-lookup"><span data-stu-id="a2060-212">In the Name field, type 'SWIFT'.</span></span>
-    * <span data-ttu-id="a2060-213">SWIFT</span><span class="sxs-lookup"><span data-stu-id="a2060-213">SWIFT</span></span>  
-8. <span data-ttu-id="a2060-214">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="a2060-214">Click OK.</span></span>
-9. <span data-ttu-id="a2060-215">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank\SWIFT”.</span><span class="sxs-lookup"><span data-stu-id="a2060-215">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</span></span>
-10. <span data-ttu-id="a2060-216">Klõpsake valikut Lisa rippdialoogi avamiseks.</span><span class="sxs-lookup"><span data-stu-id="a2060-216">Click Add to open the drop dialog.</span></span>
-11. <span data-ttu-id="a2060-217">Valige puul suvand Tekst\String.</span><span class="sxs-lookup"><span data-stu-id="a2060-217">In the tree, select 'Text\String'.</span></span>
-12. <span data-ttu-id="a2060-218">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="a2060-218">Click OK.</span></span>
-13. <span data-ttu-id="a2060-219">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Nimi\String”.</span><span class="sxs-lookup"><span data-stu-id="a2060-219">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
-14. <span data-ttu-id="a2060-220">Sisestage väljale Maksimaalne pikkus väärtus '100'.</span><span class="sxs-lookup"><span data-stu-id="a2060-220">In the Maximum length field, enter '100'.</span></span>
-15. <span data-ttu-id="a2060-221">Klõpsake vahekaarti Vastendus.</span><span class="sxs-lookup"><span data-stu-id="a2060-221">Click the Mapping tab.</span></span>
-16. <span data-ttu-id="a2060-222">Laiendage puus sõlme „model”.</span><span class="sxs-lookup"><span data-stu-id="a2060-222">In the tree, expand 'model'.</span></span>
-17. <span data-ttu-id="a2060-223">Laiendage puus sõlme model\Payments.</span><span class="sxs-lookup"><span data-stu-id="a2060-223">In the tree, expand 'model\Payments'.</span></span>
-18. <span data-ttu-id="a2060-224">Laiendage puus sõlme model\Payments\Creditor.</span><span class="sxs-lookup"><span data-stu-id="a2060-224">In the tree, expand 'model\Payments\Creditor'.</span></span>
-19. <span data-ttu-id="a2060-225">Laiendage puus sõlme model\Payments\Creditor\Agent.</span><span class="sxs-lookup"><span data-stu-id="a2060-225">In the tree, expand 'model\Payments\Creditor\Agent'.</span></span>
-20. <span data-ttu-id="a2060-226">Puuvaates valige „mudel\Maksed\Kreeditor\Agent\SWIFT”.</span><span class="sxs-lookup"><span data-stu-id="a2060-226">In the tree, select 'model\Payments\Creditor\Agent\SWIFT'.</span></span>
-21. <span data-ttu-id="a2060-227">Puuvaates valige „Xml\Teade\Maksed\Kaup = model.Payments\Hankija\Pank\SWIFT\String”.</span><span class="sxs-lookup"><span data-stu-id="a2060-227">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</span></span>
-22. <span data-ttu-id="a2060-228">Klõpsake valikut Seo.</span><span class="sxs-lookup"><span data-stu-id="a2060-228">Click Bind.</span></span>
-23. <span data-ttu-id="a2060-229">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="a2060-229">Click Save.</span></span>
-
-## <a name="validate-the-localized-format"></a><span data-ttu-id="a2060-230">Lokaliseeritud vormingu kinnitamine</span><span class="sxs-lookup"><span data-stu-id="a2060-230">Validate the localized format</span></span>
-1. <span data-ttu-id="a2060-231">Klõpsake suvandit Kinnita.</span><span class="sxs-lookup"><span data-stu-id="a2060-231">Click Validate.</span></span>
-2. <span data-ttu-id="a2060-232">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="a2060-232">Close the page.</span></span>
-
-## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a><span data-ttu-id="a2060-233">Alusvormingu konfiguratsiooni praeguse versiooni oleku muutmine</span><span class="sxs-lookup"><span data-stu-id="a2060-233">Change the status of the current version of the base format configuration</span></span>
-    * <span data-ttu-id="a2060-234">Muutke värskendatud alusvormingu konfiguratsiooni olek suvandist Mustand suvandiks Lõpetatud, et teha see kättesaadavaks maksedokumentide loomiseks ja sellest tuletatud vormingu konfiguratsioonide värskendusteks.</span><span class="sxs-lookup"><span data-stu-id="a2060-234">Change the status of the updated base format configuration from Draft to Completed to make it available for generation of payment documents and updates of format configurations derived from it.</span></span>  
-1. <span data-ttu-id="a2060-235">Klõpsake valikut Muuda olekut.</span><span class="sxs-lookup"><span data-stu-id="a2060-235">Click Change status.</span></span>
-    * <span data-ttu-id="a2060-236">Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.</span><span class="sxs-lookup"><span data-stu-id="a2060-236">Note that the current version of the selected configuration is in Draft status.</span></span>  
-2. <span data-ttu-id="a2060-237">Klõpsake valikut Valmis.</span><span class="sxs-lookup"><span data-stu-id="a2060-237">Click Complete.</span></span>
-3. <span data-ttu-id="a2060-238">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="a2060-238">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="a2060-239">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="a2060-239">Click OK.</span></span>
-5. <span data-ttu-id="a2060-240">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="a2060-240">In the list, find and select the desired record.</span></span>
-
-## <a name="change-the-base-version-for-the-custom-format-configuration"></a><span data-ttu-id="a2060-241">Kohandatud vormingu konfiguratsiooni alusversiooni muutmine</span><span class="sxs-lookup"><span data-stu-id="a2060-241">Change the base version for the custom format configuration</span></span>
-    * <span data-ttu-id="a2060-242">Proseware, Inc. saab teada, et saadaval on BACS-i (UK fiktiivne) konfiguratsiooni uus versioon 1.2, et luua elektroonilisi maksedokumente vastavalt hiljuti teatatud riigipõhistele nõuetele.</span><span class="sxs-lookup"><span data-stu-id="a2060-242">Proseware, Inc. is informed that a new version 1.2 of BACS (UK fictitious) configuration is available to generate electronic payment documents in accordance to recently announced country-specific requirements.</span></span> <span data-ttu-id="a2060-243">Proseware, Inc. soovib hakata kasutama seda riigi standardina.</span><span class="sxs-lookup"><span data-stu-id="a2060-243">Proseware, Inc. wants to start using it as a standard for the country.</span></span>  <span data-ttu-id="a2060-244">Selleks peab Proseware, Inc. muutma kohandatud konfiguratsiooni BACS-i (UK fiktiivne kohandatud) aluskonfiguratsiooni versiooni.</span><span class="sxs-lookup"><span data-stu-id="a2060-244">To do this, Proseware, Inc. needs to change the base configuration version for the custom configuration BACS (UK fictitious custom).</span></span> <span data-ttu-id="a2060-245">BACS-i (UK fiktiivne) versiooni 1.1 asemel kasutage uut versiooni 1.2.</span><span class="sxs-lookup"><span data-stu-id="a2060-245">Instead of version 1.1 of BACS (UK fictitious) use new version 1.2.</span></span>  
-1. <span data-ttu-id="a2060-246">Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="a2060-246">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="a2060-247">Valige pakkuja Proseware, Inc, et muuta see aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="a2060-247">Select the Proseware, Inc. provider to mark it as active.</span></span>
-3. <span data-ttu-id="a2060-248">Klõpsake valikut Määra aktiivseks.</span><span class="sxs-lookup"><span data-stu-id="a2060-248">Click Set active.</span></span>
-4. <span data-ttu-id="a2060-249">Klõpsake valikut Aruandluse konfiguratsioonid.</span><span class="sxs-lookup"><span data-stu-id="a2060-249">Click Reporting configurations.</span></span>
-5. <span data-ttu-id="a2060-250">Laiendage puustruktuuris suvandit Maksed (lihtsustatud mudel).</span><span class="sxs-lookup"><span data-stu-id="a2060-250">In the tree, expand 'Payments (simplified model)'.</span></span>
-6. <span data-ttu-id="a2060-251">Laiendage puustruktuuris suvandit 'Payments (simplified model)\BACS (UK fictitious)'.</span><span class="sxs-lookup"><span data-stu-id="a2060-251">In the tree, expand 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
-7. <span data-ttu-id="a2060-252">Tehke puustruktuuris valik 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</span><span class="sxs-lookup"><span data-stu-id="a2060-252">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</span></span>
-    * <span data-ttu-id="a2060-253">Valige BACS-i (UK fiktiivne kohandatud) konfiguratsioon, mille omanik on Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="a2060-253">Select the BACS (UK fictitious custom) configuration, which is owned by Proseware, Inc.</span></span>  
-    * <span data-ttu-id="a2060-254">Kasutage valitud konfiguratsiooni mustandiversiooni, et nõutavad muudatused kasutusele võtta.</span><span class="sxs-lookup"><span data-stu-id="a2060-254">Use the draft version of the selected configuration to introduce required changes.</span></span>  
-8. <span data-ttu-id="a2060-255">Klõpsake nuppu Muuda alust.</span><span class="sxs-lookup"><span data-stu-id="a2060-255">Click Rebase.</span></span>
-    * <span data-ttu-id="a2060-256">Valige aluskonfiguratsiooni uus versioon 1.2 konfiguratsiooni värskendamise uueks aluseks.</span><span class="sxs-lookup"><span data-stu-id="a2060-256">Select the new version 1.2 of the base configuration to be applied as a new base for updating the configuration.</span></span>  
-9. <span data-ttu-id="a2060-257">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="a2060-257">Click OK.</span></span>
-    * <span data-ttu-id="a2060-258">Pange tähele, et kohandatud versiooni ja uue alusversiooni liitmisel on avastatud mõned probleemid, mis esindavad mõnd vormingumuudatusi, mida ei saa automaatselt ühendada.</span><span class="sxs-lookup"><span data-stu-id="a2060-258">Note that some conflicts have been discovered between merging the custom version and a new base version representing some format changes that can’t be merged automatically.</span></span>  
-
-## <a name="resolve-rebase-conflicts"></a><span data-ttu-id="a2060-259">Aluse muutmise konfliktide lahendamine</span><span class="sxs-lookup"><span data-stu-id="a2060-259">Resolve rebase conflicts</span></span>
-1. <span data-ttu-id="a2060-260">Klõpsake valikut Kujundaja.</span><span class="sxs-lookup"><span data-stu-id="a2060-260">Click Designer.</span></span>
-    * <span data-ttu-id="a2060-261">Pange tähele, et hankija nime pikkuse piirangu muudatusi ei saa automaatselt lahendada.</span><span class="sxs-lookup"><span data-stu-id="a2060-261">Note that changes to the vendor’s name text length limit couldn’t be resolved automatically.</span></span> <span data-ttu-id="a2060-262">Seega on see esitatud konfliktide loendis.</span><span class="sxs-lookup"><span data-stu-id="a2060-262">Therefore, this is presented in a conflicts list.</span></span> <span data-ttu-id="a2060-263">Iga Värskendus-tüüpi konflikti puhul on saadaval järgmised võimalused: - rakendage eelnevat alusväärtust (ruudustiku ülaosas olev nupp), et tuua sisse eelmise alusversiooni väärtus (meie juhtumi puhul 0);</span><span class="sxs-lookup"><span data-stu-id="a2060-263">For each conflict of type Update, the following options are available:  - Apply a prior base value (button on top of the grid) to bring in the previous base version value (0 in our case).</span></span>  <span data-ttu-id="a2060-264">- rakendage alusväärtust (ruudustiku ülaosas olev nupp), et tuua sisse uue alusversiooni väärtus (meie juhtumi puhul 100);</span><span class="sxs-lookup"><span data-stu-id="a2060-264">- Apply a base value (button on top of the grid) to bring in the new base version value (100 in our case).</span></span>  <span data-ttu-id="a2060-265">- Säilitage enda (kohandatud) väärtus (60 meie juhtumis).</span><span class="sxs-lookup"><span data-stu-id="a2060-265">- Keep your own (custom) value (60 in our case).</span></span>  <span data-ttu-id="a2060-266">Klõpsake suvandit Alusväärtuse rakendamine, et rakendada riigipõhist 100 tähemärgi piirangut hankijate nimepikkuste puhul.</span><span class="sxs-lookup"><span data-stu-id="a2060-266">Click Apply base value to apply a country-specific limit of 100 characters for vendor’s name text length.</span></span>  
-    * <span data-ttu-id="a2060-267">Pange tähele, et ettevõtetel Proseware, Inc. ja Litware Inc. on selle vormingu kohandatud ja kohalikud versioonid, mis kasutavad IBAN- ja SWIFT-koode koos seotud komponentidega, mis liidetakse automaatselt haldusvormingus.</span><span class="sxs-lookup"><span data-stu-id="a2060-267">Note that Proseware, Inc. and Litware, Inc. have custom and local versions of this format using IBAN and SWIFT codes with related components that are automatically merged in the managing format.</span></span>  
-2. <span data-ttu-id="a2060-268">Klõpsake suvandit Alusväärtuse rakendamine.</span><span class="sxs-lookup"><span data-stu-id="a2060-268">Click Apply base value.</span></span>
-    * <span data-ttu-id="a2060-269">Klõpsake suvandit Alusväärtuse rakendamine, et rakendada riigipõhist 100 tähemärgi piirangut hankijate nimede puhul.</span><span class="sxs-lookup"><span data-stu-id="a2060-269">Click Apply base value to apply the country-specific limit of 100 characters for vendor names.</span></span>  
-3. <span data-ttu-id="a2060-270">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="a2060-270">Click Save.</span></span>
-    * <span data-ttu-id="a2060-271">Vormingu salvestamine eemaldab lahendatud konfliktid konfliktide loendist.</span><span class="sxs-lookup"><span data-stu-id="a2060-271">Saving the format will remove resolved conflicts from the conflicts list.</span></span>  
-4. <span data-ttu-id="a2060-272">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="a2060-272">Close the page.</span></span>
-
-## <a name="change-the-status-of-the-new-version-of-the-custom-format-configuration"></a><span data-ttu-id="a2060-273">Kohandatud vormingu konfiguratsiooni uue versiooni oleku muutmine</span><span class="sxs-lookup"><span data-stu-id="a2060-273">Change the status of the new version of the custom format configuration</span></span>
-1. <span data-ttu-id="a2060-274">Klõpsake valikut Muuda olekut.</span><span class="sxs-lookup"><span data-stu-id="a2060-274">Click Change status.</span></span>
-    * <span data-ttu-id="a2060-275">Muutke värskendatud, kohandatud vormingu konfiguratsiooni olekust Mustand olekule Lõpule viidud.</span><span class="sxs-lookup"><span data-stu-id="a2060-275">Change the status of the updated, custom format configuration from Draft to Completed.</span></span> <span data-ttu-id="a2060-276">See muudab vormingu konfiguratsiooni maksedokumentide loomiseks kättesaadavaks.</span><span class="sxs-lookup"><span data-stu-id="a2060-276">This will make the format configuration available for generating payment documents.</span></span> <span data-ttu-id="a2060-277">Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.</span><span class="sxs-lookup"><span data-stu-id="a2060-277">Note that the current version of the selected configuration is in Draft status.</span></span>  
-2. <span data-ttu-id="a2060-278">Klõpsake valikut Valmis.</span><span class="sxs-lookup"><span data-stu-id="a2060-278">Click Complete.</span></span>
-3. <span data-ttu-id="a2060-279">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="a2060-279">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="a2060-280">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="a2060-280">Click OK.</span></span>
-    * <span data-ttu-id="a2060-281">Pange tähele, et loodud konfiguratsioon salvestatakse lõpetatud versioonina 1.2.2: alus-BACS-i (UK fiktiivne kohandatud) vormingu versioon 2, mis põhineb alust-BACS-i (UK fiktiivne) vormingu versioonil 2, mis põhineb andmemudeli Maksed (lihtsustatud mudel) versioonil 1.</span><span class="sxs-lookup"><span data-stu-id="a2060-281">Note that the created configuration is saved as completed version 1.2.2: version 2 of base BACS (UK fictitious custom) format, which is based on version 2 of base BACS (UK fictitious) format, which is based on version 1 of Payments (simplified model) data model.</span></span>  
-
-## <a name="test-the-customized-format-for-payment-files-generation"></a><span data-ttu-id="a2060-282">Kohandatud vormingu testimine maksefailide loomiseks</span><span class="sxs-lookup"><span data-stu-id="a2060-282">Test the customized format for payment files generation</span></span>
-    * <span data-ttu-id="a2060-283">Viige rakenduse Dynamics 365 for Finance and Operations, Enterprise edition paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”.</span><span class="sxs-lookup"><span data-stu-id="a2060-283">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="a2060-284">Valige loodud vorming ‘BACS (UK fiktiivne kohandatud)’ elektroonilise makseviisi parameetrites.</span><span class="sxs-lookup"><span data-stu-id="a2060-284">Select the created ‘BACS (UK fictitious custom)’ format in electronic payment method parameters.</span></span> <span data-ttu-id="a2060-285">Veenduge, et loodud maksefail sisaldab ettevõttes Proseware, Inc. hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele.</span><span class="sxs-lookup"><span data-stu-id="a2060-285">Make sure that the created payment file contains recently introduced by Proseware, Inc. XML node presenting IBAN account code in accordance to regional requirements.</span></span> <span data-ttu-id="a2060-286">Fail peab sisaldama ka hiljuti ettevõtte Litware, Inc. poolt loodud XML-sõlme SWIFT-pangakoodiga vastavalt riigi nõuetele.</span><span class="sxs-lookup"><span data-stu-id="a2060-286">The file also should contain the recently introduced by Litware, Inc. XML node presenting SWIFT bank code in accordance to country requirements.</span></span>  
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="er-upgrade-format.md" target-language="et-EE">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>er-upgrade-format.32ec25.151b8936a46a1945e98bfe0ed040ca50c93db4b0.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>151b8936a46a1945e98bfe0ed040ca50c93db4b0</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\dev-itpro\analytics\tasks\er-upgrade-format.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>ER Upgrade your format by adopting a new, base version of that format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad hallata elektroonilise aruandluse (ER) vormingu konfiguratsiooni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>ER Upgrade your format by adopting a new, base version of that format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad hallata elektroonilise aruandluse (ER) vormingu konfiguratsiooni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles protseduuris selgitatakse, kuidas saab luua vormingu kohandatud versiooni konfiguratsiooni pakkujalt (CP) saadud vormingu alusel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>It also explains how to adopt a new, base version of that format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selgitatakse ka seda, kuidas võtta kasutusele selle vormingu uus alusversioon.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” and “Use created format to generate electronic documents for payments” procedures.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nende etappide lõpuleviimiseks peate kõigepealt lõpetama etapid protseduurides „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” ja „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>These steps can be performed in the GBSI company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Neid toiminguid saab teha GBSI ettevõttes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Select format configuration for customization</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormingu konfiguratsiooni valimine kohandamiseks</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Go to Organization administration &gt; Workspaces &gt; Electronic reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Organisatsiooni haldamine &gt; Tööruumid &gt; Elektrooniline aruandlus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>In this example, sample company Litware, Inc. (<ph id="ph1">https://www.litware.com)</ph> will act as a configuration provider that supports format configurations for electronic payments for a particular country.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles näites on näidisettevõte Litware, Inc. (<ph id="ph1">https://www.litware.com)</ph> konfiguratsiooni pakkuja, mis toetab kindla riigi elektrooniliste maksete vormingu konfiguratsioone.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Sample company Proseware, Inc. (<ph id="ph1">http://www.proseware.com)</ph> will act as a consumer of the format configuration that Litware, Inc. provided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näidisettevõte Proseware, Inc. (<ph id="ph1">http://www.proseware.com)</ph> on selle vormingukonfiguratsiooni tarbija, mida pakub Litware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Proseware, Inc. uses formats in certain regions of that country.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. kasutab vorminguid selle riigi teatud piirkondades.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Click Reporting configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Aruandluse konfiguratsioonid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Click Show filters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Näita filtreid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Apply the following filters: Enter a filter value of "BACS (UK fictitious)" on the "Name" field using the "begins with" filter operator</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rakendage järgmised filtrid: sisestage filtri väärtus „BACS (UK fiktiivne)” väljale „Nimi”, kasutades filtri tehtemärki „algab üksusega”,</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>BACS (UK fictitious)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BACS (UK fiktiivne)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>The selected format configuration BACS (UK fictitious) is owned by provider Litware, Inc.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valitud vormingu konfiguratsiooni BACS (UK fiktiivne) omanik on pakkuja Litware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Click Show filters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Näita filtreid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otsige loendist ja valige soovitud kirje.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>The version of the format with the status of Completed will be used by Proseware, Inc. for customization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. kasutab isikupärastamiseks vormingu versiooni olekuga Lõpule viidud.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Create a new configuration for your custom format of electronic document</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektroonilise dokumendi kohandatud vormingule uue konfiguratsiooni loomine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Proseware, Inc. received version 1.1 of BACS (UK fictitious) configuration that contains the initial format to generate electronic payment documents from Litware, Inc. in accordance to their service subscription.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. sai ettevõttelt Litware, Inc vastavalt nende teenusekirjeldusele BACS-i (UK fiktiivne) konfiguratsiooniversiooni 1.1, mis sisaldab algset vormingut elektrooniliste maksedokumentide loomiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Proseware, Inc. wants to start using this as a standard for their country but some customization is required to support specific regional requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. soovib hakata seda kasutama oma riigi standardina, kuid nõutavad on mõned kohandamised, et toetada teatud piirkondlikke nõudeid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Proseware, Inc. also wants to keep the ability to upgrade a custom format as soon as a new version of it (with changes to support new country-specific requirements) comes from Litware, Inc. and they want to perform this upgrade with the lowest cost.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. soovib säilitada ka võime täiendada kohandatud vormingut niipea kui selle uus versioon (koos muudatustega uute riigipõhiste nõuete toetamiseks) ettevõttelt Litware, Inc. välja antakse ja soovib täienduse läbi viia võimalikult väikeste kuludega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>To do this, Proseware, Inc. needs to create a configuration using the Litware, Inc. configuration BACS (UK fictitious) as a base.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selleks peab Proseware, Inc. looma konfiguratsiooni, kasutades alusena Litware, Inc. konfiguratsiooni BACS (UK fiktiivne).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sulgege leht.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Select Proseware, Inc. to make it an active provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige Proseware, Inc, et muuta see aktiivseks pakkujaks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Click Set active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Määra aktiivseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Click Reporting configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Aruandluse konfiguratsioonid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>In the tree, expand 'Payments (simplified model)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage puustruktuuris suvandit Maksed (lihtsustatud mudel).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke puustruktuuris valik 'Maksed (lihtsustatud mudel)\BACS (UK fiktiivne)'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Select the BACS (UK fictitious) configuration from Litware, Inc.     Proseware, Inc. will use version 1.1 as a base for the custom version.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige ettevõtte Litware, Inc. pakutav BACS (UK fiktiivne). Proseware, Inc. kasutab väljaannet 1.1 kohandatud versiooni alusena.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Click Create configuration to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>This lets you create a new configuration for a custom payment format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See võimaldab teil luua uut konfiguratsiooni kohandatud maksevormingule.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>In the New field, enter 'Derive from Name: BACS (UK fictitious), Litware, Inc.'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Uus tekst 'Tuleta nimest: BACS (UK fiktiivne), Litware, Inc.'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Select the Derive option to confirm the usage of BACS (UK fictitious) as the base for creating the custom version.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige suvand Tuleta, et kinnitada BACS-i (UK fiktiivne) kasutamine kohandatud versiooni loomise alusena.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In the Name field, type 'BACS (UK fictitious custom)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tippige väljale Nimi tekst 'BACS (UK fiktiivne kohandatud)'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>BACS (UK fictitious custom)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BACS (UK fiktiivne kohandatud)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>In the Description field, type 'BACS vendor payment (UK fictitious custom)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väljale Kirjeldus tippige „BACS-i hankija makse (UK fiktiivne kohandatud)”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>BACS vendor payment (UK fictitious custom)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BACS-i hankija makse (UK fiktiivne kohandatud)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>The active configuration provider (Proseware, Inc.) is automatically entered here.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aktiivse konfiguratsiooni pakkuja (Proseware, Inc.) sisestatakse siia automaatselt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>This provider will be able to maintain this configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See pakkuja saab seda konfiguratsiooni hallata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Other providers can use this configuration, but will not be able to maintain it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Muud pakkujad saavad seda konfiguratsiooni kasutada, kuid ei saa seda hallata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Click Create configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake Loo konfiguratsioon.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Customize your format for the electronic document</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektroonilise dokumendi jaoks vormingu kohandamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Click Designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Kujundaja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Click Expand/collapse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Laienda/ahenda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Click Expand/collapse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Laienda/ahenda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Click Add to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Lisa rippdialoogi avamiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>In the tree, select 'XML\Element'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige puul suvand XML\Element.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>In the Name field, type 'IBAN'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Nimi suvand IBAN.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>IBAN</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IBAN</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank\IBAN”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Click Add to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Lisa rippdialoogi avamiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>In the tree, select 'Text\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige puul suvand Tekst\String.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Nimi\String”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>In the Maximum length field, enter '60'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Maksimaalne pikkus väärtus '60'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Click the Mapping tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake vahekaarti Vastendus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>In the tree, expand 'model'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage puus sõlme „model”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>In the tree, expand 'model\Payments'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage puus sõlme model\Payments.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>In the tree, expand 'model\Payments\Creditor'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage puus sõlme model\Payments\Creditor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>In the tree, expand 'model\Payments\Creditor\Account'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage puus sõlme model\Payments\Creditor\Account.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>In the tree, select 'model\Payments\Creditor\Account\IBAN'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puuvaates valige „mudel\Maksed\Kreeditor\Konto\IBAN”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puuvaates valige „Xml\Teade\Maksed\Kaup = model.Payments\Hankija\Pank\IBAN\String”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Click Bind.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Seo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Validate the customized format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohandatud vormingu kinnitamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Click Validate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Kinnita.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Validate the customized format layout and data mapping changes to make sure that all bindings are okay.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kinnitage kohandatud vormingu paigutus ja andmete vastendamise muudatused veendumaks, et kõik seosed on korras.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sulgege leht.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Change the status of the current version of the custom format configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohandatud vormingu konfiguratsiooni praeguse versiooni oleku muutmine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Change the status of the designed format configuration from Draft to Completed to make it available for payment document generation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Muutke koostatud vormingu konfiguratsiooni olek suvandilt Mustand suvandile Lõpetatud, et muuta see maksedokumedi loomiseks kättesaadavaks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Click Change status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Muuda olekut.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Note that the current version of the selected configuration is in Draft status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Click Complete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Valmis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Kirjeldus soovitud väärtus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otsige loendist ja valige soovitud kirje.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Note that the created configuration is saved as completed version 1.1.1.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pange tähele, et loodud konfiguratsioon salvestatakse kui lõpetatud versioon 1.1.1.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>This means it is version 1 of the custom BACS (UK fictitious custom) format, which is based on version 1 of the BACS (UK fictitious) format, which is based on version 1 of the Payments (simplified model) data model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See tähendab, et see on kohandatud BACS-i (UK fiktiivne kohandatud) vormingu 1. versioon, mis põhineb BACS-i (UK fiktiivne) vormingu 1. versioonil, mis põhineb andmemudeli Maksed (lihtsustatud mudel) 1. versioonil.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Test the customized format to generate payment files</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohandatud vormingu testimine maksefailide loomiseks</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Complete the steps in the “Use created format to generate electronic documents for payments” procedure in a parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viige rakenduse Dynamics 365 for Finance and Operations, Enterprise edition paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Select the BACS (UK fictitious custom) format in electronic payment method parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige BACS-i (UK fiktiivne kohandatud) vorming elektroonilise makseviisi parameetrites.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Make sure that the created payment file contains the recently introduced XML node presenting IBAN code in accordance to regional requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veenduge, et loodud maksefail sisaldab hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Update the existing country-specific configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Olemasoleva riigipõhise konfiguratsiooni värskendamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Litware, Inc. needs to update the BACS (UK fictitious) configuration and adopt new country requirements for managing the format of the electronic document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Litware, Inc. peab värskendama BACS-i (UK fiktiivne) konfiguratsiooni ja kasutusele võtma uued riigipõhised nõuded, et hallata elektroonilise dokumendi vormingut.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Later, this will be enclosed in a new version of this configuration that will be offered for service subscribers, including Proseware, Inc.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hiljem lisatakse see selle konfiguratsiooni uude versiooni, mida pakutakse teenuse tellijatele, sh ettevõttele Proseware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>In real service provision related processes, each new version of BACS (UK fictitious) can be imported by Proseware, Inc. from Litware, Inc. configurations’ LCS repository.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegelikes teenuse osutamisega seotud protsessides saab Proseware, Inc. importida iga uue BACS-i (UK fiktiivne) väljaande ettevõtte Litware, Inc. konfiguratsioonide LCS-hoidlast.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>In this procedure we will simulate this by updating BACS (UK fictitious) on behalf of a service provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles protseduuris simuleerime seda, värskendades BACS-i (UK fiktiivne) teenusepakkuja nimel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sulgege leht.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Select Litware, inc. provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige pakkuja Litware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Click Set active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Määra aktiivseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Click Reporting configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Aruandluse konfiguratsioonid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>In the tree, expand 'Payments (simplified model)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage puustruktuuris suvandit Maksed (lihtsustatud mudel).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke puustruktuuris valik 'Maksed (lihtsustatud mudel)\BACS (UK fiktiivne)'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>The draft version owned by Litware, Inc. provider BACS (UK fictitious) is selected to bring in changes to support new country-specific requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ettevõtte Litware, Inc omandis mustandversioon pakkuja BACS (UK fiktiivne) on valitud toomaks kaasa muudatusi, et toetada uusi riigipõhiseid nõudeid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Localize the base format of the electronic document</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektroonilise dokumendi alusvormingu lokaliseerimine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Assume that there are new country-specific requirements to be supported by Litware, Inc.:  - A value for the creditor’s bank SWIFT code in each payment transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Oletame, et on olemas uued riigipõhised nõuded, mida Litware, Inc. peab täitma: iga makse puhul kreeditori panga SWIFT-koodi väärtus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>- A limit of 100 characters for the length of text for the vendor’s name in a generating file.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- 100 tähemärgi piirang hankija nime tekstipikkusele loomisfailis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>New country-specific requirements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uued riigipõhised nõuded</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Select the draft version of the desired configuration to introduce required changes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige soovitud konfiguratsiooni mustandiversioon, et nõutavad muudatused kasutusele võtta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Click Designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Kujundaja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Click Expand/collapse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Laienda/ahenda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Click Expand/collapse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Laienda/ahenda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Click Add to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Lisa rippdialoogi avamiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>In the tree, select 'XML\Element'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige puul suvand XML\Element.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>In the Name field, type 'SWIFT'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Nimi suvand SWIFT.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>SWIFT</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SWIFT</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Pank\SWIFT”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>Click Add to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Lisa rippdialoogi avamiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>In the tree, select 'Text\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige puul suvand Tekst\String.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puuvaates valige „Xml\Teade\Maksed\Kaup\Hankija\Nimi\String”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>In the Maximum length field, enter '100'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Maksimaalne pikkus väärtus '100'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Click the Mapping tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake vahekaarti Vastendus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>In the tree, expand 'model'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage puus sõlme „model”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>In the tree, expand 'model\Payments'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage puus sõlme model\Payments.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>In the tree, expand 'model\Payments\Creditor'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage puus sõlme model\Payments\Creditor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>In the tree, expand 'model\Payments\Creditor\Agent'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage puus sõlme model\Payments\Creditor\Agent.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>In the tree, select 'model\Payments\Creditor\Agent\SWIFT'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puuvaates valige „mudel\Maksed\Kreeditor\Agent\SWIFT”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puuvaates valige „Xml\Teade\Maksed\Kaup = model.Payments\Hankija\Pank\SWIFT\String”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Click Bind.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Seo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Validate the localized format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lokaliseeritud vormingu kinnitamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Click Validate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Kinnita.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sulgege leht.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Change the status of the current version of the base format configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alusvormingu konfiguratsiooni praeguse versiooni oleku muutmine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Change the status of the updated base format configuration from Draft to Completed to make it available for generation of payment documents and updates of format configurations derived from it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Muutke värskendatud alusvormingu konfiguratsiooni olek suvandist Mustand suvandiks Lõpetatud, et teha see kättesaadavaks maksedokumentide loomiseks ja sellest tuletatud vormingu konfiguratsioonide värskendusteks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Click Change status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Muuda olekut.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Note that the current version of the selected configuration is in Draft status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Click Complete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Valmis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Kirjeldus soovitud väärtus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otsige loendist ja valige soovitud kirje.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Change the base version for the custom format configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohandatud vormingu konfiguratsiooni alusversiooni muutmine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Proseware, Inc. is informed that a new version 1.2 of BACS (UK fictitious) configuration is available to generate electronic payment documents in accordance to recently announced country-specific requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. saab teada, et saadaval on BACS-i (UK fiktiivne) konfiguratsiooni uus versioon 1.2, et luua elektroonilisi maksedokumente vastavalt hiljuti teatatud riigipõhistele nõuetele.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Proseware, Inc. wants to start using it as a standard for the country.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. soovib hakata kasutama seda riigi standardina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>To do this, Proseware, Inc. needs to change the base configuration version for the custom configuration BACS (UK fictitious custom).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selleks peab Proseware, Inc. muutma kohandatud konfiguratsiooni BACS-i (UK fiktiivne kohandatud) aluskonfiguratsiooni versiooni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Instead of version 1.1 of BACS (UK fictitious) use new version 1.2.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BACS-i (UK fiktiivne) versiooni 1.1 asemel kasutage uut versiooni 1.2.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Go to Organization administration &gt; Workspaces &gt; Electronic reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Organisatsiooni haldamine &gt; Tööruumid &gt; Elektrooniline aruandlus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Select the Proseware, Inc. provider to mark it as active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige pakkuja Proseware, Inc, et muuta see aktiivseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>Click Set active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Määra aktiivseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Click Reporting configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Aruandluse konfiguratsioonid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>In the tree, expand 'Payments (simplified model)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage puustruktuuris suvandit Maksed (lihtsustatud mudel).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>In the tree, expand 'Payments (simplified model)\BACS (UK fictitious)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage puustruktuuris suvandit 'Payments (simplified model)\BACS (UK fictitious)'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>In the tree, select 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke puustruktuuris valik 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Select the BACS (UK fictitious custom) configuration, which is owned by Proseware, Inc.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige BACS-i (UK fiktiivne kohandatud) konfiguratsioon, mille omanik on Proseware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Use the draft version of the selected configuration to introduce required changes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasutage valitud konfiguratsiooni mustandiversiooni, et nõutavad muudatused kasutusele võtta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Click Rebase.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Muuda alust.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Select the new version 1.2 of the base configuration to be applied as a new base for updating the configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige aluskonfiguratsiooni uus versioon 1.2 konfiguratsiooni värskendamise uueks aluseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Note that some conflicts have been discovered between merging the custom version and a new base version representing some format changes that can’t be merged automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pange tähele, et kohandatud versiooni ja uue alusversiooni liitmisel on avastatud mõned probleemid, mis esindavad mõnd vormingumuudatusi, mida ei saa automaatselt ühendada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Resolve rebase conflicts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aluse muutmise konfliktide lahendamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Click Designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Kujundaja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Note that changes to the vendor’s name text length limit couldn’t be resolved automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pange tähele, et hankija nime pikkuse piirangu muudatusi ei saa automaatselt lahendada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Therefore, this is presented in a conflicts list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seega on see esitatud konfliktide loendis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>For each conflict of type Update, the following options are available:  - Apply a prior base value (button on top of the grid) to bring in the previous base version value (0 in our case).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iga Värskendus-tüüpi konflikti puhul on saadaval järgmised võimalused: - rakendage eelnevat alusväärtust (ruudustiku ülaosas olev nupp), et tuua sisse eelmise alusversiooni väärtus (meie juhtumi puhul 0);</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>- Apply a base value (button on top of the grid) to bring in the new base version value (100 in our case).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- rakendage alusväärtust (ruudustiku ülaosas olev nupp), et tuua sisse uue alusversiooni väärtus (meie juhtumi puhul 100);</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>- Keep your own (custom) value (60 in our case).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Säilitage enda (kohandatud) väärtus (60 meie juhtumis).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Click Apply base value to apply a country-specific limit of 100 characters for vendor’s name text length.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Alusväärtuse rakendamine, et rakendada riigipõhist 100 tähemärgi piirangut hankijate nimepikkuste puhul.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>Note that Proseware, Inc. and Litware, Inc. have custom and local versions of this format using IBAN and SWIFT codes with related components that are automatically merged in the managing format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pange tähele, et ettevõtetel Proseware, Inc. ja Litware Inc. on selle vormingu kohandatud ja kohalikud versioonid, mis kasutavad IBAN- ja SWIFT-koode koos seotud komponentidega, mis liidetakse automaatselt haldusvormingus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Click Apply base value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Alusväärtuse rakendamine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Click Apply base value to apply the country-specific limit of 100 characters for vendor names.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Alusväärtuse rakendamine, et rakendada riigipõhist 100 tähemärgi piirangut hankijate nimede puhul.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>Saving the format will remove resolved conflicts from the conflicts list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormingu salvestamine eemaldab lahendatud konfliktid konfliktide loendist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sulgege leht.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>Change the status of the new version of the custom format configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohandatud vormingu konfiguratsiooni uue versiooni oleku muutmine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>Click Change status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Muuda olekut.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>Change the status of the updated, custom format configuration from Draft to Completed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Muutke värskendatud, kohandatud vormingu konfiguratsiooni olekust Mustand olekule Lõpule viidud.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>This will make the format configuration available for generating payment documents.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See muudab vormingu konfiguratsiooni maksedokumentide loomiseks kättesaadavaks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Note that the current version of the selected configuration is in Draft status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pange tähele, et valitud konfiguratsiooni praegune versioon on olekus Mustand.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Click Complete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Valmis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Kirjeldus soovitud väärtus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Note that the created configuration is saved as completed version 1.2.2: version 2 of base BACS (UK fictitious custom) format, which is based on version 2 of base BACS (UK fictitious) format, which is based on version 1 of Payments (simplified model) data model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pange tähele, et loodud konfiguratsioon salvestatakse lõpetatud versioonina 1.2.2: alus-BACS-i (UK fiktiivne kohandatud) vormingu versioon 2, mis põhineb alust-BACS-i (UK fiktiivne) vormingu versioonil 2, mis põhineb andmemudeli Maksed (lihtsustatud mudel) versioonil 1.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Test the customized format for payment files generation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohandatud vormingu testimine maksefailide loomiseks</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Complete the steps in the “Use created format to generate electronic documents for payments” procedure in parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viige rakenduse Dynamics 365 for Finance and Operations, Enterprise edition paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>Select the created ‘BACS (UK fictitious custom)’ format in electronic payment method parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige loodud vorming ‘BACS (UK fiktiivne kohandatud)’ elektroonilise makseviisi parameetrites.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>Make sure that the created payment file contains recently introduced by Proseware, Inc. XML node presenting IBAN account code in accordance to regional requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veenduge, et loodud maksefail sisaldab ettevõttes Proseware, Inc. hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>The file also should contain the recently introduced by Litware, Inc. XML node presenting SWIFT bank code in accordance to country requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fail peab sisaldama ka hiljuti ettevõtte Litware, Inc. poolt loodud XML-sõlme SWIFT-pangakoodiga vastavalt riigi nõuetele.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

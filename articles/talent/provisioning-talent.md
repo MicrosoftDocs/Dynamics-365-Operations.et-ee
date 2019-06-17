@@ -1,89 +1,237 @@
----
-title: Talenti ettevalmistamine
-description: See teema selgitab uue keskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks.
-author: andreabichsel
-manager: AnnBe
-ms.date: 00/05/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Talent
-ms.custom: 17271
-ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
-ms.search.region: Global
-ms.author: anbichse
-ms.search.validFrom: 2017-11-20
-ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 98f60e466b8b97215fdba0f48ca53ca57157283b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517809"
----
-# <a name="provision-talent"></a><span data-ttu-id="e966d-103">Talenti ettevalmistamine</span><span class="sxs-lookup"><span data-stu-id="e966d-103">Provision Talent</span></span>
-
-[!include [banner](includes/banner.md)]
-
-<span data-ttu-id="e966d-104">See teema selgitab uue tootmiskeskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks.</span><span class="sxs-lookup"><span data-stu-id="e966d-104">This topic walks you through the process of provisioning a new production environment for Microsoft Dynamics 365 for Talent.</span></span> <span data-ttu-id="e966d-105">See teema eeldab, et olete ostnud rakenduse Talent pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuur (AE) kaudu.</span><span class="sxs-lookup"><span data-stu-id="e966d-105">This topic assumes that you've purchased Talent through a Cloud Solution Provider (CSP) or enterprise architecture (EA) agreement.</span></span> <span data-ttu-id="e966d-106">Kui teil on lahenduse Microsoft Dynamics 365 litsents, mis juba sisaldab rakenduse Talent teenuseplaani ja te ei saa selles teemas olevaid etappe läbida, võtke ühendust toega.</span><span class="sxs-lookup"><span data-stu-id="e966d-106">If you have an existing Microsoft Dynamics 365 license that already includes the Talent service plan, and you can't complete the steps in this topic, contact Support.</span></span>
-
-<span data-ttu-id="e966d-107">Alustuseks peab üldadministraator sisse logima [Microsoft Dynamicsi teenusesse Lifecycle Services](https://lcs.dynamics.com) (LCS) ja looma uue Talenti projekti.</span><span class="sxs-lookup"><span data-stu-id="e966d-107">To begin, the global administrator should sign in to [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) and create a new Talent project.</span></span> <span data-ttu-id="e966d-108">Välja arvatud juhul, kui litsentsimisega seotud probleem takistab teil Talenti kasutuselevõtmist, pole klienditoe või Dynamicsi tehnikaosakonna meeskonna esindajate abi vaja.</span><span class="sxs-lookup"><span data-stu-id="e966d-108">Unless a licensing issue prevents you from provisioning Talent, assistance from Support or Dynamics Service Engineering (DSE) representatives isn't required.</span></span>
-
-## <a name="create-an-lcs-project"></a><span data-ttu-id="e966d-109">LCS-i projekti loomine</span><span class="sxs-lookup"><span data-stu-id="e966d-109">Create an LCS project</span></span>
-<span data-ttu-id="e966d-110">Selleks, et kasutada oma Talenti keskkondade haldamiseks LCS-i, peate esmalt looma LCS-i projekti.</span><span class="sxs-lookup"><span data-stu-id="e966d-110">To use LCS to manage your Talent environments, you must first create an LCS project.</span></span>
-
-1. <span data-ttu-id="e966d-111">Logige [LCS-i](https://lcs.dynamics.com/Logon/Index) sisse, kasutades kontot, mida kasutasite Talenti tellimiseks.</span><span class="sxs-lookup"><span data-stu-id="e966d-111">Sign in to [LCS](https://lcs.dynamics.com/Logon/Index) by using the account that you used to subscribe to Talent.</span></span>
-2. <span data-ttu-id="e966d-112">Valige projekti loomiseks plussmärk (**+**).</span><span class="sxs-lookup"><span data-stu-id="e966d-112">Select the plus sign (**+**) to create a project.</span></span>
-3. <span data-ttu-id="e966d-113">Valige toote nimeks ja versiooniks **Microsoft Dynamics 365 for Talent**.</span><span class="sxs-lookup"><span data-stu-id="e966d-113">Select **Microsoft Dynamics 365 for Talent** as the product name and product version.</span></span>
-4. <span data-ttu-id="e966d-114">Valige **Dynamics 365 for Talenti** metoodika.</span><span class="sxs-lookup"><span data-stu-id="e966d-114">Select the **Dynamics 365 for Talent** methodology.</span></span>
-5. <span data-ttu-id="e966d-115">Valige **Loo**.</span><span class="sxs-lookup"><span data-stu-id="e966d-115">Select **Create**.</span></span>
-
-<span data-ttu-id="e966d-116">Lisateavet selle kohta, kuidas Talenti kasutamist alustada, leiate **Talent**i metoodikast, mille lõite oma uues projektis.</span><span class="sxs-lookup"><span data-stu-id="e966d-116">For information about how to get started with Talent, see the **Talent** methodology that you created in your new project.</span></span> <span data-ttu-id="e966d-117">Kui olete projekti loomise lõpule viinud, viige oma Talenti keskkonna ettevalmistamiseks läbi järgmine protseduur.</span><span class="sxs-lookup"><span data-stu-id="e966d-117">After you've finished creating the project, complete the following procedure to provision your Talent environment.</span></span>
-
-## <a name="provision-a-talent-project"></a><span data-ttu-id="e966d-118">Talenti projekti ettevalmistamine</span><span class="sxs-lookup"><span data-stu-id="e966d-118">Provision a Talent project</span></span>
-<span data-ttu-id="e966d-119">Pärast LCS-i projekti loomist saate Talenti ette valmistada keskkonnas.</span><span class="sxs-lookup"><span data-stu-id="e966d-119">After you've created an LCS project, you can provision Talent into an environment.</span></span>
-
-1. <span data-ttu-id="e966d-120">Valige oma LCS-i projektis paan **Talenti rakendusehaldus**.</span><span class="sxs-lookup"><span data-stu-id="e966d-120">In your LCS project, select the **Talent App Management** tile.</span></span>
-2. <span data-ttu-id="e966d-121">Talent on alati ette valmistatud Microsoft PowerAppsi keskkonnana, et lubada PowerAppsi integreerimine ja laiendatavus.</span><span class="sxs-lookup"><span data-stu-id="e966d-121">Talent is always provisioned into a Microsoft PowerApps environment to enable PowerApps integration and extensibility.</span></span> <span data-ttu-id="e966d-122">Enne jätkamist lugege selle teema jaotist „PowerAppsi keskkonna valimine”.</span><span class="sxs-lookup"><span data-stu-id="e966d-122">Read the “Selecting a PowerApps environment” section of this topic before you continue.</span></span> <span data-ttu-id="e966d-123">Kui teil ei ole veel PowerAppsi keskkonda, valige LCS-is Keskkondade haldamine või navigeerige PowerAppsi Halduskeskusesse.</span><span class="sxs-lookup"><span data-stu-id="e966d-123">If you don't already have a PowerApps environment, select Manage environments in LCS or navigate to the PowerApps Admin center.</span></span> <span data-ttu-id="e966d-124">Seejärel järgige juhseid jaotises [PowerAppsi keskkonna loomine](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).</span><span class="sxs-lookup"><span data-stu-id="e966d-124">Then follow the steps to [Create a PowerApps environment](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="e966d-125">Olemasolevate keskkondade vaatamiseks või uute keskkondade loomiseks peab Talenti ettevalmistavale rentnikuadministraatorile olema määratud PowerApps P2 litsents.</span><span class="sxs-lookup"><span data-stu-id="e966d-125">To view existing environments or create new environments, the tenant admin who provisions Talent must be assigned to the PowerApps P2 license.</span></span> <span data-ttu-id="e966d-126">Kui teie organisatsioonil ei ole PowerApps P2 litsentsi, saate selle oma CSP-lt või [PowerAppsi hinnakujunduse lehelt](https://powerapps.microsoft.com/en-us/pricing/).</span><span class="sxs-lookup"><span data-stu-id="e966d-126">If your organization doesn't have a PowerApps P2 license, you can get one from your CSP or from the [PowerApps pricing page](https://powerapps.microsoft.com/en-us/pricing/).</span></span>
-
-4. <span data-ttu-id="e966d-127">Valige **Lisa** ja seejärel valige keskkond, milles Talenti ette valmistada.</span><span class="sxs-lookup"><span data-stu-id="e966d-127">Select **Add**, and then select the environment to provision Talent into.</span></span>
-5. <span data-ttu-id="e966d-128">Kui soovite, et keskkonnas kasutataks samu demoandmete kogumit, mida kasutati Talenti proovikeskkonnas, siis valige suvand **Kaasa demoandmed**.</span><span class="sxs-lookup"><span data-stu-id="e966d-128">Select the **Include Demo Data** option if you want your environment to include the same demo data set used in the Talent Test Drive experience.</span></span> <span data-ttu-id="e966d-129">See on kasulik pikaajalistes demo- või koolituskeskkondades, kuid seda ei tohiks kunagi tootmiskeskkondade jaoks kasutada.</span><span class="sxs-lookup"><span data-stu-id="e966d-129">This is beneficial for long-term demo or training environments, and should never be used for production environments.</span></span>  <span data-ttu-id="e966d-130">Pange tähele, et see suvand tuleb valida algsel juurutusel.</span><span class="sxs-lookup"><span data-stu-id="e966d-130">Note that you must choose this option upon initial deployment.</span></span> <span data-ttu-id="e966d-131">Hiljem ei saa olemasolevat juurutust värskendada.</span><span class="sxs-lookup"><span data-stu-id="e966d-131">You cannot update an existing deployment later.</span></span>
-6. <span data-ttu-id="e966d-132">Valige **Jah**, et nõustuda tingimustega ja alustada juurutamist.</span><span class="sxs-lookup"><span data-stu-id="e966d-132">Select **Yes** to agree to the terms and begin deployment.</span></span>
-
-    <span data-ttu-id="e966d-133">Teie uus keskkond kuvatakse vasakul oleval navigeerimispaanil asuvas keskkondade loendis.</span><span class="sxs-lookup"><span data-stu-id="e966d-133">Your new environment appears in the list of environments in the navigation pane on the left.</span></span> <span data-ttu-id="e966d-134">Kuid te ei saa keskkonda kasutada enne, kui juurutuse olekuks on värskendatud **Juurutatud**.</span><span class="sxs-lookup"><span data-stu-id="e966d-134">However, you can't start to use the environment until the deployment status is updated to **Deployed**.</span></span> <span data-ttu-id="e966d-135">See protsess võtab tavaliselt paar minutit aega.</span><span class="sxs-lookup"><span data-stu-id="e966d-135">This process typically takes a few minutes.</span></span> <span data-ttu-id="e966d-136">Kui ettevalmistuse protsess ei õnnestu, peate võtma ühendust toega.</span><span class="sxs-lookup"><span data-stu-id="e966d-136">If the provisioning process is unsuccessful, you must contact Support.</span></span>
-
-7. <span data-ttu-id="e966d-137">Valige oma uue keskkonna kasutamiseks suvand **Logi Talentisse sisse**.</span><span class="sxs-lookup"><span data-stu-id="e966d-137">Select **Log on to Talent** to use your new environment.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="e966d-138">Kui te pole veel lõplikke nõudeid kinnitanud, saate projektis juurutada Talenti testeksemplari.</span><span class="sxs-lookup"><span data-stu-id="e966d-138">If you haven't yet signed off on the final requirements, you can deploy a test instance of Talent in the project.</span></span> <span data-ttu-id="e966d-139">Seejärel saate oma lahenduse testimiseks kuni kinnitamiseni kasutada seda testeksemplari.</span><span class="sxs-lookup"><span data-stu-id="e966d-139">You can then use this instance to test your solution until you sign off.</span></span> <span data-ttu-id="e966d-140">Kui kasutate oma uut keskkonda testimiseks, peate tootmiskeskkonna loomiseks seda protseduuri kordama.</span><span class="sxs-lookup"><span data-stu-id="e966d-140">If you use your new environment for testing, you must repeat this procedure to create a production environment.</span></span>
-
-    > <span data-ttu-id="e966d-141">Kuna Talendi kordustellimuse puhul on lubatud ainult kaks LCS-i keskkonda, võite kaaluda tasuta 60-päevase [Talenti proovikeskkonna](https://dynamics.microsoft.com/en-us/talent/overview/) kasutamist.</span><span class="sxs-lookup"><span data-stu-id="e966d-141">Because only two LCS environments are allowed as part of the Talent subscription, you might consider leveraging a free 60-day [Talent trial environment](https://dynamics.microsoft.com/en-us/talent/overview/).</span></span> <span data-ttu-id="e966d-142">Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi Core HR-i süsteemiadministratsiooni kogemuse.</span><span class="sxs-lookup"><span data-stu-id="e966d-142">Although a trial environment is owned by the user who requested it, other users can be invited through the system administration experience for Core HR.</span></span> <span data-ttu-id="e966d-143">Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda.</span><span class="sxs-lookup"><span data-stu-id="e966d-143">Trial environments contain fictitious data that can be used to explore the program in a safe manner.</span></span> <span data-ttu-id="e966d-144">Need pole mõeldud kasutamiseks tootmiskeskkonnana.</span><span class="sxs-lookup"><span data-stu-id="e966d-144">They aren't intended to be used as production environments.</span></span> <span data-ttu-id="e966d-145">Pange tähele, et proovikeskkonna aegumisel 60 päeva möödudes kustutatakse kõik selles sisalduvad andmed ning neid ei saa taastada.</span><span class="sxs-lookup"><span data-stu-id="e966d-145">Note that when a trial environment expires after 60 days, all the data that's in it is deleted and can't be recovered.</span></span> <span data-ttu-id="e966d-146">Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.</span><span class="sxs-lookup"><span data-stu-id="e966d-146">You can sign up for a new trial environment after the existing environment expires.</span></span>
-
-## <a name="select-a-powerapps-environment"></a><span data-ttu-id="e966d-147">PowerAppsi keskkonna valimine</span><span class="sxs-lookup"><span data-stu-id="e966d-147">Select a PowerApps environment</span></span>
-
-<span data-ttu-id="e966d-148">Talenti ja PowerAppsi keskkondade integratsioon võimaldab teil Talenti andmeid integreerida ja nende kasutust laiendada, kasutades PowerAppsi tööriistu.</span><span class="sxs-lookup"><span data-stu-id="e966d-148">The integration between Talent and the PowerApps environments lets you integrate and extend the use of Talent data using PowerApps tools.</span></span> <span data-ttu-id="e966d-149">PowerAppsi keskkondade eesmärkide mõistmine aitab teil luua rakendusi Talenti laiendamiseks ja lihtsustab ka Talenti ettevalmistamisel õige keskkonna valimist.</span><span class="sxs-lookup"><span data-stu-id="e966d-149">Understanding the purpose of PowerApps environments will not only help you build apps to extend Talent, but will also help you select the correct environment when provisioning Talent.</span></span> <span data-ttu-id="e966d-150">Teavet PowerAppsi keskkondade, sh keskkonna ulatuse, keskkonnale juurdepääsu ning keskkonna loomise ja valimise kohta vaadaketeemat [Tutvustame PowerAppsi keskkondi](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/).</span><span class="sxs-lookup"><span data-stu-id="e966d-150">For information about PowerApps environments, including environment scope, environment access, and creating and choosing an environment, see [Announcing PowerApps environments](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/).</span></span> 
-
-<span data-ttu-id="e966d-151">Kasutage järgmisi juhiseid, kui otsustate, millisesse PowerAppsi keskkonda Talenti juurutada.</span><span class="sxs-lookup"><span data-stu-id="e966d-151">Use the following guidance when determining which PowerApps environment to deploy Talent into:</span></span> 
-
-1. <span data-ttu-id="e966d-152">LCS-is valige suvand **Keskkondade haldamine** või minge otse PowerAppsi administreerimiskeskusse, kus saate vaadata olemasolevaid keskkondi ja luua uusi keskkondi.</span><span class="sxs-lookup"><span data-stu-id="e966d-152">In LCS, select **Manage environments**, or go directly to the PowerApps Admin center where you can view existing environments and create new environments.</span></span>
-2. <span data-ttu-id="e966d-153">Üks Talenti keskkond on vastendatud ühe PowerAppsi keskkonnaga.</span><span class="sxs-lookup"><span data-stu-id="e966d-153">A single Talent environment is mapped to a single PowerApps environment.</span></span>
-3. <span data-ttu-id="e966d-154">PowerAppsi keskkond sisaldab Talenti rakendust koos vastavate PowerAppsi, Flow ja Common Data Servicei rakendustega.</span><span class="sxs-lookup"><span data-stu-id="e966d-154">A PowerApps environment “contains” the Talent application, along with the corresponding PowerApps, Flow, and Common Data Service applications.</span></span> <span data-ttu-id="e966d-155">Kui PowerAppsi keskkond kustutatakse, kustutatakse ka selles olevad rakendused.</span><span class="sxs-lookup"><span data-stu-id="e966d-155">If the PowerApps environment is deleted, so are the apps within it.</span></span> <span data-ttu-id="e966d-156">Talenti keskkonna ettevalmistamisel saab ette valmistada kas "Prooviversiooni" või "Tootmise".</span><span class="sxs-lookup"><span data-stu-id="e966d-156">When provisioning a Talent environment, either "Trial" or "Production" can be provisioned.</span></span> <span data-ttu-id="e966d-157">Valige keskkonna tüüp keskkonna kasutamisel põhjal.</span><span class="sxs-lookup"><span data-stu-id="e966d-157">Choose the type of environment based on how the environment will be used.</span></span> 
-4. <span data-ttu-id="e966d-158">Arvestada tuleks andmete integreerimis- ja testimisstrateegiatega, nagu liivakast, UAT või tootmine.</span><span class="sxs-lookup"><span data-stu-id="e966d-158">Data integration and testing strategies should be considered, such as Sandbox, UAT, or Production.</span></span> <span data-ttu-id="e966d-159">Soovitame kaaluda juurutamise erinevaid mõjusid, kuna hiljem ei ole lihtne muuta, milline Talenti keskkond PowerAppsi keskkonnaga vastendatakse.</span><span class="sxs-lookup"><span data-stu-id="e966d-159">We recommend that you consider the various implications for your deployment, because it isn't easy to later change which Talent environment is mapped to a PowerApps environment.</span></span>
-5. <span data-ttu-id="e966d-160">Järgmisi PowerAppsi keskkondasid ei saa Talenti jaoks kasutada ja need filtreeritakse LCS-is valikuloendist välja.</span><span class="sxs-lookup"><span data-stu-id="e966d-160">The following PowerApps environments cannot be used for Talent and will be filtered from the selection list within LCS:</span></span>
- 
-    - <span data-ttu-id="e966d-161">**PowerAppsi vaikekeskkonnad** – kuigi iga rentniku jaoks on automaatselt ette valmistatud PowerAppsi vaikekeskkond, ei soovita me neid keskkondi Talentis kasutada, sest kõigil rentniku kasutajatel on juurdepääs PowerAppsi keskkonnale ja nad võivad tahtmatult tootmisandmeid rikkuda, kui nad katsetavad ja tutvuvad PowerAppsi või Flow integratsioonidega.</span><span class="sxs-lookup"><span data-stu-id="e966d-161">**Default Power Apps environments** - Although each tenant is automatically provisioned with a default PowerApps environment, we don't recommend using them with Talent because all tenant users have access to the PowerApps environment and could unintentionally corrupt production data when testing and exploring with PowerApps or Flow integrations.</span></span>
-   
-    - <span data-ttu-id="e966d-162">**Proovikeskkonnad** – need keskkonnad luuakse aegumisperioodiga, pärast mida need aeguvad, misjärel teie keskkond ja selles sisalduvad Talenti eksemplarid eemaldatakse automaatselt.</span><span class="sxs-lookup"><span data-stu-id="e966d-162">**Trial environments** - These environments are created with an expiration date and will expire after that time, causing your environment and any Talent instances contained within to be removed automatically.</span></span>
-   
-    - <span data-ttu-id="e966d-163">**Toetamata piirkonnad** – praegu toetatakse Talentit ainult järgmistes piirkondades: Ameerika Ühendriigid, Euroopa, Ühendkuningriik või Austraalia.</span><span class="sxs-lookup"><span data-stu-id="e966d-163">**Unsupported regions** - Currently Talent is only supported in the following regions: United States, Europe, United Kingdom, or Australia.</span></span>
-  
-6. <span data-ttu-id="e966d-164">Kui olete määratlenud kasutatava keskkonna, saate ettevalmistamise protsessiga jätkata.</span><span class="sxs-lookup"><span data-stu-id="e966d-164">After you have determined the correct environment to use, you can continue with the provisioning process.</span></span> 
- 
-## <a name="grant-access-to-the-environment"></a><span data-ttu-id="e966d-165">Keskkonnale juurdepääsu andmine</span><span class="sxs-lookup"><span data-stu-id="e966d-165">Grant access to the environment</span></span>
-<span data-ttu-id="e966d-166">Vaikimisi on keskkonnale juurdepääs ainult selle loonud üldadministraatoril.</span><span class="sxs-lookup"><span data-stu-id="e966d-166">By default, the global administrator who created the environment has access to it.</span></span> <span data-ttu-id="e966d-167">Rakenduse teistele kasutajatele tuleb juurdepääs anda eraldi.</span><span class="sxs-lookup"><span data-stu-id="e966d-167">However, additional application users must be explicitly granted access.</span></span> <span data-ttu-id="e966d-168">Juurdepääsu andmiseks tuleb Core HR-i keskkonnas lisada kasutajaid ja määrata neile sobivad rollid.</span><span class="sxs-lookup"><span data-stu-id="e966d-168">To grant access, you need to add users and assign the appropriate roles to them in the Core HR environment.</span></span> <span data-ttu-id="e966d-169">Lähtestamise lõpetamiseks ja teistele rentiku kasutajatele juurdepääsu lubamiseks peaks Talenti keskkonna juurutanud üldadministraator käivitama ka mõlemad rakendused Attract ja Onboard.</span><span class="sxs-lookup"><span data-stu-id="e966d-169">The global administrator that deployed Talent must also launch both the Attract and Onboard applications to complete the initialization and enable access for other tenant users.</span></span>  <span data-ttu-id="e966d-170">Kuni seda pole tehtud, pole teistel kasutajatel juurdepääsu rakendustele Attract ja Onboard ning nad saavad juurdepääsuõiguste rikkumise tõrkeid.</span><span class="sxs-lookup"><span data-stu-id="e966d-170">Until this happens, other users will not be able to access Attract and Onboard applications and will get access violation errors.</span></span> <span data-ttu-id="e966d-171">Lisateabe saamiseks vaadake teemasid [Uute kasutajate loomine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ja [Kasutajate määramine turberollidesse](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles).</span><span class="sxs-lookup"><span data-stu-id="e966d-171">For more information, see [Create new users](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) and [Assign users to security roles](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles).</span></span> 
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="provisioning-talent.md" target-language="et-EE">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>provisioning-talent.6d6b8d.03edb5d626f221863f45804ce84168692c2bd1f3.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>03edb5d626f221863f45804ce84168692c2bd1f3</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\talent\provisioning-talent.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Provision Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talenti ettevalmistamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic walks you through the process of provisioning a new environment for Microsoft Dynamics 365 for Talent.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See teema selgitab uue keskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Provision Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talenti ettevalmistamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic walks you through the process of provisioning a new production environment for Microsoft Dynamics 365 for Talent.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See teema selgitab uue tootmiskeskkonna ettevalmistamise protsessi rakenduse Microsoft Dynamics 365 for Talent jaoks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This topic assumes that you've purchased Talent through a Cloud Solution Provider (CSP) or enterprise architecture (EA) agreement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See teema eeldab, et olete ostnud rakenduse Talent pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuur (AE) kaudu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>If you have an existing Microsoft Dynamics 365 license that already includes the Talent service plan, and you can't complete the steps in this topic, contact Support.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui teil on lahenduse Microsoft Dynamics 365 litsents, mis juba sisaldab rakenduse Talent teenuseplaani ja te ei saa selles teemas olevaid etappe läbida, võtke ühendust toega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>To begin, the global administrator should sign in to <bpt id="p1">[</bpt>Microsoft Dynamics Lifecycle Services<ept id="p1">](https://lcs.dynamics.com)</ept> (LCS) and create a new Talent project.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alustuseks peab üldadministraator sisse logima <bpt id="p1">[</bpt>Microsoft Dynamicsi teenusesse Lifecycle Services<ept id="p1">](https://lcs.dynamics.com)</ept> (LCS) ja looma uue Talenti projekti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Unless a licensing issue prevents you from provisioning Talent, assistance from Support or Dynamics Service Engineering (DSE) representatives isn't required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Välja arvatud juhul, kui litsentsimisega seotud probleem takistab teil Talenti kasutuselevõtmist, pole klienditoe või Dynamicsi tehnikaosakonna meeskonna esindajate abi vaja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Create an LCS project</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LCS-i projekti loomine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>To use LCS to manage your Talent environments, you must first create an LCS project.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selleks, et kasutada oma Talenti keskkondade haldamiseks LCS-i, peate esmalt looma LCS-i projekti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Sign in to <bpt id="p1">[</bpt>LCS<ept id="p1">](https://lcs.dynamics.com/Logon/Index)</ept> by using the account that you used to subscribe to Talent.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Logige <bpt id="p1">[</bpt>LCS-i<ept id="p1">](https://lcs.dynamics.com/Logon/Index)</ept> sisse, kasutades kontot, mida kasutasite Talenti tellimiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Select the plus sign (<bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept>) to create a project.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige projekti loomiseks plussmärk (<bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Select <bpt id="p1">**</bpt>Microsoft Dynamics 365 for Talent<ept id="p1">**</ept> as the product name and product version.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige toote nimeks ja versiooniks <bpt id="p1">**</bpt>Microsoft Dynamics 365 for Talent<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Select the <bpt id="p1">**</bpt>Dynamics 365 for Talent<ept id="p1">**</ept> methodology.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige <bpt id="p1">**</bpt>Dynamics 365 for Talenti<ept id="p1">**</ept> metoodika.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige <bpt id="p1">**</bpt>Loo<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>For information about how to get started with Talent, see the <bpt id="p1">**</bpt>Talent<ept id="p1">**</ept> methodology that you created in your new project.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateavet selle kohta, kuidas Talenti kasutamist alustada, leiate <bpt id="p1">**</bpt>Talent<ept id="p1">**</ept>i metoodikast, mille lõite oma uues projektis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>After you've finished creating the project, complete the following procedure to provision your Talent environment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui olete projekti loomise lõpule viinud, viige oma Talenti keskkonna ettevalmistamiseks läbi järgmine protseduur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Provision a Talent project</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talenti projekti ettevalmistamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>After you've created an LCS project, you can provision Talent into an environment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast LCS-i projekti loomist saate Talenti ette valmistada keskkonnas.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In your LCS project, select the <bpt id="p1">**</bpt>Talent App Management<ept id="p1">**</ept> tile.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Valige oma LCS-i projektis paan <bpt id="p1">**</bpt>Talenti rakendusehaldus<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Indicate whether this is a Sandbox or Production instance of Talent.</source><target logoport:matchpercent="99" state="translated" state-qualifier="fuzzy-match">Näidake, kas see on Talenti liivakasti- või tootmiseksemplar.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Early preview features may be available in Sandbox instances to allow for early feedback and testing.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Liivakastieksemplaride puhul võivad varase tagasiside ja testimise jaoks saadaval olla eelvaatefunktsioonid.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Select the <bpt id="p1">**</bpt>Include Demo Data<ept id="p1">**</ept> option if you want your environment to include the same demo data set used in the Talent Test Drive experience.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Kui soovite, et keskkonnas kasutataks samu demoandmete kogumit, mida kasutati Talenti proovikeskkonnas, siis valige suvand <bpt id="p1">**</bpt>Kaasa demoandmed<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>This is beneficial for long-term demo or training environments, and should never be used for production environments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See on kasulik pikaajalistes demo- või koolituskeskkondades, kuid seda ei tohiks kunagi tootmiskeskkondade jaoks kasutada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Note that you must choose this option upon initial deployment.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Pange tähele, et see suvand tuleb valida algsel juurutusel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>You cannot update an existing deployment later.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Hiljem ei saa olemasolevat juurutust värskendada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Talent is always provisioned into a Microsoft PowerApps environment to enable PowerApps integration and extensibility.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Talent on alati ette valmistatud Microsoft PowerAppsi keskkonnana, et lubada PowerAppsi integreerimine ja laiendatavus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Read the “Selecting a PowerApps environment” section of this topic before you continue.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Enne jätkamist lugege selle teema jaotist „PowerAppsi keskkonna valimine”.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>If you don't already have a PowerApps environment, select Manage environments in LCS or navigate to the PowerApps Admin center.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui teil ei ole veel PowerAppsi keskkonda, valige LCS-is Keskkondade haldamine või navigeerige PowerAppsi Halduskeskusesse.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Then follow the steps to <bpt id="p1">[</bpt>Create a PowerApps environment<ept id="p1">](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seejärel järgige juhseid jaotises <bpt id="p1">[</bpt>PowerAppsi keskkonna loomine<ept id="p1">](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>To view existing environments or create new environments, the tenant admin who provisions Talent must be assigned to the PowerApps P2 license.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Olemasolevate keskkondade vaatamiseks või uute keskkondade loomiseks peab Talenti ettevalmistavale rentnikuadministraatorile olema määratud PowerApps P2 litsents.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>If your organization doesn't have a PowerApps P2 license, you can get one from your CSP or from the <bpt id="p1">[</bpt>PowerApps pricing page<ept id="p1">](https://powerapps.microsoft.com/en-us/pricing/)</ept>.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Kui teie organisatsioonil ei ole PowerApps P2 litsentsi, saate selle oma CSP-lt või <bpt id="p1">[</bpt>PowerAppsi hinnakujunduse lehelt<ept id="p1">](https://powerapps.microsoft.com/en-us/pricing/)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Select the environment to provision Talent into.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Valige keskkond, kus Talenti ette valmistada.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Select <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to agree to the terms and begin deployment.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Valige <bpt id="p1">**</bpt>Jah<ept id="p1">**</ept>, et nõustuda tingimustega ja alustada juurutamist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Your new environment appears in the list of environments in the navigation pane on the left.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Teie uus keskkond kuvatakse vasakul oleval navigeerimispaanil asuvas keskkondade loendis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>However, you can't start to use the environment until the deployment status is updated to <bpt id="p1">**</bpt>Deployed<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuid te ei saa keskkonda kasutada enne, kui juurutuse olekuks on värskendatud <bpt id="p1">**</bpt>Juurutatud<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>This process typically takes a few minutes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protsess võtab tavaliselt paar minutit aega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>If the provisioning process is unsuccessful, you must contact Support.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui ettevalmistuse protsess ei õnnestu, peate võtma ühendust toega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Select <bpt id="p1">**</bpt>Log on to Talent<ept id="p1">**</ept> to use your new environment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige oma uue keskkonna kasutamiseks suvand <bpt id="p1">**</bpt>Logi Talentisse sisse<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>If you haven't yet signed off on the final requirements, you can deploy a test instance of Talent in the project.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui te pole veel lõplikke nõudeid kinnitanud, saate projektis juurutada Talenti testeksemplari.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>You can then use this instance to test your solution until you sign off.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seejärel saate oma lahenduse testimiseks kuni kinnitamiseni kasutada seda testeksemplari.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>If you use your new environment for testing, you must repeat this procedure to create a production environment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui kasutate oma uut keskkonda testimiseks, peate tootmiskeskkonna loomiseks seda protseduuri kordama.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Because only two LCS environments are allowed as part of the Talent subscription, you might consider leveraging a free 60-day <bpt id="p1">[</bpt>Talent trial environment<ept id="p1">](https://dynamics.microsoft.com/en-us/talent/overview/)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuna Talendi kordustellimuse puhul on lubatud ainult kaks LCS-i keskkonda, võite kaaluda tasuta 60-päevase <bpt id="p1">[</bpt>Talenti proovikeskkonna<ept id="p1">](https://dynamics.microsoft.com/en-us/talent/overview/)</ept> kasutamist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Although a trial environment is owned by the user who requested it, other users can be invited through the system administration experience for Core HR.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi Core HR-i süsteemiadministratsiooni kogemuse.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Trial environments contain fictitious data that can be used to explore the program in a safe manner.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>They aren't intended to be used as production environments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Need pole mõeldud kasutamiseks tootmiskeskkonnana.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Note that when a trial environment expires after 60 days, all the data that's in it is deleted and can't be recovered.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pange tähele, et proovikeskkonna aegumisel 60 päeva möödudes kustutatakse kõik selles sisalduvad andmed ning neid ei saa taastada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>You can sign up for a new trial environment after the existing environment expires.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Select a PowerApps environment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PowerAppsi keskkonna valimine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>The integration between Talent and the PowerApps environments lets you integrate and extend the use of Talent data using PowerApps tools.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talenti ja PowerAppsi keskkondade integratsioon võimaldab teil Talenti andmeid integreerida ja nende kasutust laiendada, kasutades PowerAppsi tööriistu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Understanding the purpose of PowerApps environments will not only help you build apps to extend Talent, but will also help you select the correct environment when provisioning Talent.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PowerAppsi keskkondade eesmärkide mõistmine aitab teil luua rakendusi Talenti laiendamiseks ja lihtsustab ka Talenti ettevalmistamisel õige keskkonna valimist.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>For information about PowerApps environments, including environment scope, environment access, and creating and choosing an environment, see <bpt id="p1">[</bpt>Announcing PowerApps environments<ept id="p1">](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teavet PowerAppsi keskkondade, sh keskkonna ulatuse, keskkonnale juurdepääsu ning keskkonna loomise ja valimise kohta vaadaketeemat <bpt id="p1">[</bpt>Tutvustame PowerAppsi keskkondi<ept id="p1">](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Use the following guidance when determining which PowerApps environment to deploy Talent into:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasutage järgmisi juhiseid, kui otsustate, millisesse PowerAppsi keskkonda Talenti juurutada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>In LCS, select <bpt id="p1">**</bpt>Manage environments<ept id="p1">**</ept>, or go directly to the PowerApps Admin center where you can view existing environments and create new environments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LCS-is valige suvand <bpt id="p1">**</bpt>Keskkondade haldamine<ept id="p1">**</ept> või minge otse PowerAppsi administreerimiskeskusse, kus saate vaadata olemasolevaid keskkondi ja luua uusi keskkondi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>A single Talent environment is mapped to a single PowerApps environment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üks Talenti keskkond on vastendatud ühe PowerAppsi keskkonnaga.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>A PowerApps environment “contains” the Talent application, along with the corresponding PowerApps, Flow, and Common Data Service applications.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PowerAppsi keskkond sisaldab Talenti rakendust koos vastavate PowerAppsi, Flow ja Common Data Servicei rakendustega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>If the PowerApps environment is deleted, so are the apps within it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui PowerAppsi keskkond kustutatakse, kustutatakse ka selles olevad rakendused.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>When provisioning a Talent environment, either "Trial" or "Production" can be provisioned.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talenti keskkonna ettevalmistamisel saab ette valmistada kas "Prooviversiooni" või "Tootmise".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Choose the type of environment based on how the environment will be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige keskkonna tüüp keskkonna kasutamisel põhjal.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Data integration and testing strategies should be considered, such as Sandbox, UAT, or Production.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvestada tuleks andmete integreerimis- ja testimisstrateegiatega, nagu liivakast, UAT või tootmine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>We recommend that you consider the various implications for your deployment, because it isn't easy to later change which Talent environment is mapped to a PowerApps environment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Soovitame kaaluda juurutamise erinevaid mõjusid, kuna hiljem ei ole lihtne muuta, milline Talenti keskkond PowerAppsi keskkonnaga vastendatakse.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>The following PowerApps environments cannot be used for Talent and will be filtered from the selection list within LCS:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmisi PowerAppsi keskkondasid ei saa Talenti jaoks kasutada ja need filtreeritakse LCS-is valikuloendist välja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source><bpt id="p1">**</bpt>Default Power Apps environments<ept id="p1">**</ept> - Although each tenant is automatically provisioned with a default PowerApps environment, we don't recommend using them with Talent because all tenant users have access to the PowerApps environment and could unintentionally corrupt production data when testing and exploring with PowerApps or Flow integrations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>PowerAppsi vaikekeskkonnad<ept id="p1">**</ept> – kuigi iga rentniku jaoks on automaatselt ette valmistatud PowerAppsi vaikekeskkond, ei soovita me neid keskkondi Talentis kasutada, sest kõigil rentniku kasutajatel on juurdepääs PowerAppsi keskkonnale ja nad võivad tahtmatult tootmisandmeid rikkuda, kui nad katsetavad ja tutvuvad PowerAppsi või Flow integratsioonidega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source><bpt id="p1">**</bpt>Trial environments<ept id="p1">**</ept> - These environments are created with an expiration date and will expire after that time, causing your environment and any Talent instances contained within to be removed automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Proovikeskkonnad<ept id="p1">**</ept> – need keskkonnad luuakse aegumisperioodiga, pärast mida need aeguvad, misjärel teie keskkond ja selles sisalduvad Talenti eksemplarid eemaldatakse automaatselt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source><bpt id="p1">**</bpt>Unsupported regions<ept id="p1">**</ept> - Currently Talent is only supported in the following regions: United States, Europe, United Kingdom, or Australia.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Toetamata piirkonnad<ept id="p1">**</ept> – praegu toetatakse Talentit ainult järgmistes piirkondades: Ameerika Ühendriigid, Euroopa, Ühendkuningriik või Austraalia.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>After you have determined the correct environment to use, you can continue with the provisioning process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui olete määratlenud kasutatava keskkonna, saate ettevalmistamise protsessiga jätkata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Grant access to the environment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Keskkonnale juurdepääsu andmine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>By default, the global administrator who created the environment has access to it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaikimisi on keskkonnale juurdepääs ainult selle loonud üldadministraatoril.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>However, additional application users must be explicitly granted access.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rakenduse teistele kasutajatele tuleb juurdepääs anda eraldi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>To grant access, you need to add users and assign the appropriate roles to them in the Core HR environment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juurdepääsu andmiseks tuleb Core HR-i keskkonnas lisada kasutajaid ja määrata neile sobivad rollid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>The global administrator that deployed Talent must also launch both the Attract and Onboard applications to complete the initialization and enable access for other tenant users.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lähtestamise lõpetamiseks ja teistele rentiku kasutajatele juurdepääsu lubamiseks peaks Talenti keskkonna juurutanud üldadministraator käivitama ka mõlemad rakendused Attract ja Onboard.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Until this happens, other users will not be able to access Attract and Onboard applications and will get access violation errors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuni seda pole tehtud, pole teistel kasutajatel juurdepääsu rakendustele Attract ja Onboard ning nad saavad juurdepääsuõiguste rikkumise tõrkeid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>For more information, see <bpt id="p1">[</bpt>Create new users<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)</ept> and <bpt id="p2">[</bpt>Assign users to security roles<ept id="p2">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateabe saamiseks vaadake teemasid <bpt id="p1">[</bpt>Uute kasutajate loomine<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)</ept> ja <bpt id="p2">[</bpt>Kasutajate määramine turberollidesse<ept id="p2">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

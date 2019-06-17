@@ -1,63 +1,132 @@
----
-title: EUR-00015 KM ID seadistamine
-description: See protseduur selgitab KM ID registreerimise eeltingimusi, nt registreerimistüübi seadistamist ja selle määramist registreerimiskategooriale.
-author: v-oloski
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: TaxRegistrationType, TaxRegistrationTypeCreate, TaxRegistrationLegislationTypes
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
-ms.author: v-oloski
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60b22c3e15a9d7b228ec724ca77a61a18b11b257
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537822"
----
-# <a name="eur-00015-set-up-vat-id"></a><span data-ttu-id="8f821-103">EUR-00015 KM ID seadistamine</span><span class="sxs-lookup"><span data-stu-id="8f821-103">EUR-00015 Set up VAT ID</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="8f821-104">See protseduur selgitab KM ID registreerimise eeltingimusi, nt registreerimistüübi seadistamist ja selle määramist registreerimiskategooriale.</span><span class="sxs-lookup"><span data-stu-id="8f821-104">This procedure walks you through VAT ID registration prerequisites, such as setting up a registration type and assigning it to a registration category.</span></span> <span data-ttu-id="8f821-105">Lisateavet registreerimise ID-de ja registreerimise ID töötlemise kohta, sealhulgas nõutavad eeltingimused, leiate spikriteemast Registreerimise ID-d.</span><span class="sxs-lookup"><span data-stu-id="8f821-105">You can find additional information about registration IDs and registration ID processing, including required prerequisites, in the Registration IDs help topic.</span></span> 
-
-<span data-ttu-id="8f821-106">Siin antud teave kohaldub kõigile Euroopa riikidele/piirkondadele.</span><span class="sxs-lookup"><span data-stu-id="8f821-106">The information here applies to all European countries/regions.</span></span> <span data-ttu-id="8f821-107">Ülesande loomisel kasutati demoettevõtte DEMF, mille juriidilise isiku esmaseks aadressiks on Saksamaa, andmeid.</span><span class="sxs-lookup"><span data-stu-id="8f821-107">The task was created using the demo data company DEMF with Germany as the legal entity primary address.</span></span> <span data-ttu-id="8f821-108">See ülesanne on mõeldud süsteemi administraatoritele.</span><span class="sxs-lookup"><span data-stu-id="8f821-108">This task is intended for system administrators.</span></span> <span data-ttu-id="8f821-109">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="8f821-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
-
-1. <span data-ttu-id="8f821-110">Avage Organisatsioonihaldus > Globaalne aadressiraamat > Registreerimistüübid > Registreerimistüübid.</span><span class="sxs-lookup"><span data-stu-id="8f821-110">Go to Organization administration > Global address book > Registration types > Registration types.</span></span>
-2. <span data-ttu-id="8f821-111">Rippdialoogi avamiseks klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="8f821-111">Click New to open the drop dialog.</span></span>
-3. <span data-ttu-id="8f821-112">Tippige KM ID väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="8f821-112">In the Name field, type 'VAT ID'.</span></span>
-4. <span data-ttu-id="8f821-113">KM-kood väljal Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="8f821-113">In the Description field, VAT number.</span></span>
-5. <span data-ttu-id="8f821-114">Sisestage või valige väärtus DEU väljal Riik/piirkond</span><span class="sxs-lookup"><span data-stu-id="8f821-114">In the Country/region field, enter or select a value DEU</span></span>
-6. <span data-ttu-id="8f821-115">Tehke väljal Kordumatu valik Jah.</span><span class="sxs-lookup"><span data-stu-id="8f821-115">Select Yes in the Unique field.</span></span>
-    * <span data-ttu-id="8f821-116">Märkige see ruut kontrollimiseks, kas KM ID on kordumatu.</span><span class="sxs-lookup"><span data-stu-id="8f821-116">Select this check box to verify if the VAT ID is unique.</span></span>  
-7. <span data-ttu-id="8f821-117">Valige Jah väljal Riigi puhul esmane.</span><span class="sxs-lookup"><span data-stu-id="8f821-117">Select Yes in the Primary for country field.</span></span>
-    * <span data-ttu-id="8f821-118">Märkige see ruut, kui KM ID peaks kehtima kõigi määratud riigi/regiooni aadresside puhul.</span><span class="sxs-lookup"><span data-stu-id="8f821-118">Select this check box if the VAT ID should be effective for all addresses belonging to the specified country/region.</span></span>  
-8. <span data-ttu-id="8f821-119">Klõpsake käsku Loo.</span><span class="sxs-lookup"><span data-stu-id="8f821-119">Click Create.</span></span>
-9. <span data-ttu-id="8f821-120">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="8f821-120">Click Add.</span></span>
-10. <span data-ttu-id="8f821-121">Sisestage või valige väärtus ITA väljal Riik/piirkond</span><span class="sxs-lookup"><span data-stu-id="8f821-121">In the Country/region field, enter or select a value ITA</span></span>
-11. <span data-ttu-id="8f821-122">Tippige väljale Vorming ###########.</span><span class="sxs-lookup"><span data-stu-id="8f821-122">In the Format field, type '###########'.</span></span>
-    * <span data-ttu-id="8f821-123">Seda tüüpi registreerimisnumbri sisestamisel valitud riigi/piirkonna puhul kontrollitakse registreerimise ID-d selle vormingu suhtes.</span><span class="sxs-lookup"><span data-stu-id="8f821-123">When you enter a registration ID of this type for the selected country/region, the registration ID will be verified against this format.</span></span>  
-12. <span data-ttu-id="8f821-124">Märkige ruut Kordumatu.</span><span class="sxs-lookup"><span data-stu-id="8f821-124">Select the Unique check box.</span></span>
-    * <span data-ttu-id="8f821-125">Märkige see ruut kontrollimiseks, kas KM ID on kordumatu.</span><span class="sxs-lookup"><span data-stu-id="8f821-125">Select this check box to verify if the VAT ID is unique.</span></span>  
-13. <span data-ttu-id="8f821-126">Märkige või tühjendage ruut Riigi puhul esmane.</span><span class="sxs-lookup"><span data-stu-id="8f821-126">Select the Primary for country check box.</span></span>
-    * <span data-ttu-id="8f821-127">Märkige see ruut, kui KM ID peaks kehtima kõigi määratud riigi/regiooni aadresside puhul.</span><span class="sxs-lookup"><span data-stu-id="8f821-127">Select this check box if the VAT ID should be effective for all addresses belonging to the specified country/region.</span></span>  
-14. <span data-ttu-id="8f821-128">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8f821-128">Click Save.</span></span>
-15. <span data-ttu-id="8f821-129">Avage Organisatsioonihaldus > Globaalne aadressiraamat > Registreerimistüübid > Registreerimiskategooriad.</span><span class="sxs-lookup"><span data-stu-id="8f821-129">Go to Organization administration > Global address book > Registration types > Registration categories.</span></span>
-16. <span data-ttu-id="8f821-130">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="8f821-130">Click New.</span></span>
-17. <span data-ttu-id="8f821-131">Sisestage või valige väärtus KM ID, DEU väljal Riik/piirkond</span><span class="sxs-lookup"><span data-stu-id="8f821-131">In the Country/region field, enter or select a value VAT ID, DEU</span></span>
-18. <span data-ttu-id="8f821-132">Valige väljal Registreerimiskategooria väärtus KM ID.</span><span class="sxs-lookup"><span data-stu-id="8f821-132">In the Registration category field, select 'VAT ID'.</span></span>
-    * <span data-ttu-id="8f821-133">Määrake varem loodud registreerimistüüp eelmääratletud registreerimiskategooriale.</span><span class="sxs-lookup"><span data-stu-id="8f821-133">Assign the registration type that you created earlier to a predefined Registration category.</span></span>  
-19. <span data-ttu-id="8f821-134">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="8f821-134">Click New.</span></span>
-20. <span data-ttu-id="8f821-135">Sisestage või valige väärtus KM ID, ITA väljal Riik/piirkond</span><span class="sxs-lookup"><span data-stu-id="8f821-135">In the Country/region field, enter or select a value VAT ID, ITA</span></span>
-21. <span data-ttu-id="8f821-136">Valige väljal Registreerimiskategooria väärtus KM ID.</span><span class="sxs-lookup"><span data-stu-id="8f821-136">In the Registration category field, select 'VAT ID'.</span></span>
-    * <span data-ttu-id="8f821-137">Määrake loodud registreerimistüüp eelmääratletud registreerimiskategooriale.</span><span class="sxs-lookup"><span data-stu-id="8f821-137">Assign the registration type that you created to a predefined registration category.</span></span>  
-22. <span data-ttu-id="8f821-138">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="8f821-138">Click Save.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="eur-00015-vat-id.md" target-language="et-EE">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>eur-00015-vat-id.ebdcfa.66ee7215dc21921f9d8e405c3f77d9b5e0b89a9e.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>66ee7215dc21921f9d8e405c3f77d9b5e0b89a9e</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\eur-00015-vat-id.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>EUR-00015 Set up VAT ID</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00015 KM ID seadistamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This procedure walks you through VAT ID registration prerequisites, such as setting up a registration type and assigning it to a registration category.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur selgitab KM ID registreerimise eeltingimusi, nt registreerimistüübi seadistamist ja selle määramist registreerimiskategooriale.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>EUR-00015 Set up VAT ID</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00015 KM ID seadistamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This procedure walks you through VAT ID registration prerequisites, such as setting up a registration type and assigning it to a registration category.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur selgitab KM ID registreerimise eeltingimusi, nt registreerimistüübi seadistamist ja selle määramist registreerimiskategooriale.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>You can find additional information about registration IDs and registration ID processing, including required prerequisites, in the Registration IDs help topic.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateavet registreerimise ID-de ja registreerimise ID töötlemise kohta, sealhulgas nõutavad eeltingimused, leiate spikriteemast Registreerimise ID-d.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>The information here applies to all European countries/regions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Siin antud teave kohaldub kõigile Euroopa riikidele/piirkondadele.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The task was created using the demo data company DEMF with Germany as the legal entity primary address.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ülesande loomisel kasutati demoettevõtte DEMF, mille juriidilise isiku esmaseks aadressiks on Saksamaa, andmeid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>This task is intended for system administrators.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See ülesanne on mõeldud süsteemi administraatoritele.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Go to Organization administration &gt; Global address book &gt; Registration types &gt; Registration types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Organisatsioonihaldus &gt; Globaalne aadressiraamat &gt; Registreerimistüübid &gt; Registreerimistüübid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Click New to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rippdialoogi avamiseks klõpsake valikut Uus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the Name field, type 'VAT ID'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tippige KM ID väljale Nimi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the Description field, VAT number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">KM-kood väljal Kirjeldus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>In the Country/region field, enter or select a value DEU</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus DEU väljal Riik/piirkond</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Select Yes in the Unique field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke väljal Kordumatu valik Jah.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Select this check box to verify if the VAT ID is unique.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige see ruut kontrollimiseks, kas KM ID on kordumatu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Select Yes in the Primary for country field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige Jah väljal Riigi puhul esmane.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Select this check box if the VAT ID should be effective for all addresses belonging to the specified country/region.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige see ruut, kui KM ID peaks kehtima kõigi määratud riigi/regiooni aadresside puhul.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Click Create.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake käsku Loo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Click Add.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake vahekaarti Lisa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>In the Country/region field, enter or select a value ITA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus ITA väljal Riik/piirkond</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>In the Format field, type '###########'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tippige väljale Vorming ###########.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>When you enter a registration ID of this type for the selected country/region, the registration ID will be verified against this format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seda tüüpi registreerimisnumbri sisestamisel valitud riigi/piirkonna puhul kontrollitakse registreerimise ID-d selle vormingu suhtes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Select the Unique check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige ruut Kordumatu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Select this check box to verify if the VAT ID is unique.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige see ruut kontrollimiseks, kas KM ID on kordumatu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Select the Primary for country check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige või tühjendage ruut Riigi puhul esmane.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Select this check box if the VAT ID should be effective for all addresses belonging to the specified country/region.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige see ruut, kui KM ID peaks kehtima kõigi määratud riigi/regiooni aadresside puhul.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Go to Organization administration &gt; Global address book &gt; Registration types &gt; Registration categories.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Organisatsioonihaldus &gt; Globaalne aadressiraamat &gt; Registreerimistüübid &gt; Registreerimiskategooriad.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Uus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>In the Country/region field, enter or select a value VAT ID, DEU</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus KM ID, DEU väljal Riik/piirkond</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>In the Registration category field, select 'VAT ID'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal Registreerimiskategooria väärtus KM ID.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Assign the registration type that you created earlier to a predefined Registration category.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Määrake varem loodud registreerimistüüp eelmääratletud registreerimiskategooriale.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Uus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>In the Country/region field, enter or select a value VAT ID, ITA</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus KM ID, ITA väljal Riik/piirkond</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>In the Registration category field, select 'VAT ID'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal Registreerimiskategooria väärtus KM ID.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Assign the registration type that you created to a predefined registration category.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Määrake loodud registreerimistüüp eelmääratletud registreerimiskategooriale.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,126 +1,471 @@
----
-title: Finantsaruandlus
-description: Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 for Finance and Operations finantsaruandlusele ja kasutada finantsaruandluse võimalusi. See sisaldab pakutavate vaike-finantsaruannete kirjeldust.
-author: aprilolson
-manager: AnnBe
-ms.date: 09/26/2018
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: FinancialReports
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 10444
-ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
-ms.search.region: Global
-ms.author: aolson
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550301"
----
-# <a name="financial-reporting"></a><span data-ttu-id="9858a-104">Finantsaruandlus</span><span class="sxs-lookup"><span data-stu-id="9858a-104">Financial reporting</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="9858a-105">Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 for Finance and Operations finantsaruandlusele ja kasutada finantsaruandluse võimalusi.</span><span class="sxs-lookup"><span data-stu-id="9858a-105">This topic describes where to access financial reporting in Microsoft Dynamics 365 for Finance and Operations and how to use the financial reporting capabilities.</span></span> <span data-ttu-id="9858a-106">See sisaldab pakutavate vaike-finantsaruannete kirjeldust.</span><span class="sxs-lookup"><span data-stu-id="9858a-106">It includes a description of the default financial reports that are provided.</span></span>
-
-<a name="accessing-financial-reporting"></a><span data-ttu-id="9858a-107">Juurdepääs finantsaruandlusele</span><span class="sxs-lookup"><span data-stu-id="9858a-107">Accessing financial reporting</span></span>
------------------------------
-
-<span data-ttu-id="9858a-108">Menüü **Finantsaruandlus** leiate rakenduses Finance and Operations järgmistest kohtadest.</span><span class="sxs-lookup"><span data-stu-id="9858a-108">You can find the **Financial reporting** menu in the following places in Finance and Operations:</span></span>
-
--   <span data-ttu-id="9858a-109">**Pearaamat** &gt; **Päringud ja aruanded**</span><span class="sxs-lookup"><span data-stu-id="9858a-109">**General Ledger** &gt; **Inquiries and reports**</span></span>
--   <span data-ttu-id="9858a-110">**Eelarvestamine** &gt; **Päringud ja aruanded** &gt; **Põhiline eelarvestamine**</span><span class="sxs-lookup"><span data-stu-id="9858a-110">**Budgeting** &gt; **Inquires and reports** &gt; **Basic budgeting**</span></span>
--   <span data-ttu-id="9858a-111">**Eelarvestamine** &gt; **Päringud ja aruanded** &gt; **Eelarve plaanimine**</span><span class="sxs-lookup"><span data-stu-id="9858a-111">**Budgeting** &gt; **Inquiries and reports** &gt; **Budget planning**</span></span>
--   <span data-ttu-id="9858a-112">**Eelarvestamine** &gt; **Päringud ja aruanded** &gt; **Eelarve juhtimine**</span><span class="sxs-lookup"><span data-stu-id="9858a-112">**Budgeting** &gt; **Inquiries and reports** &gt; **Budget control**</span></span>
--   <span data-ttu-id="9858a-113">Konsolideerimised</span><span class="sxs-lookup"><span data-stu-id="9858a-113">Consolidations</span></span>
-
-<span data-ttu-id="9858a-114">Finantsaruannete loomiseks ja genereerimiseks juriidilisele isikule tuleb seadistada sellele juriidilisele isikule järgmine teave.</span><span class="sxs-lookup"><span data-stu-id="9858a-114">To create and generate financial reports for a legal entity, you must set up the following information for that legal entity:</span></span>
-
--   <span data-ttu-id="9858a-115">Rahanduskalender</span><span class="sxs-lookup"><span data-stu-id="9858a-115">Fiscal calendar</span></span>
--   <span data-ttu-id="9858a-116">Pearaamat</span><span class="sxs-lookup"><span data-stu-id="9858a-116">Ledger</span></span>
--   <span data-ttu-id="9858a-117">Kontoplaan</span><span class="sxs-lookup"><span data-stu-id="9858a-117">Chart of accounts</span></span>
--   <span data-ttu-id="9858a-118">Valuuta</span><span class="sxs-lookup"><span data-stu-id="9858a-118">Currency</span></span>
-
-<span data-ttu-id="9858a-119">Rahalise aruandluse funktsioonid on saadaval kasutajatele, kellele on turberollide kaudu määratud sobivad privileegid ja kohustused.</span><span class="sxs-lookup"><span data-stu-id="9858a-119">The financial reporting functions are available to users who have the appropriate privileges and duties assigned to them through their security roles.</span></span> <span data-ttu-id="9858a-120">Järgmistes jaotistes on nimetatud need privileegid ja kohustused koos seotud rollidega.</span><span class="sxs-lookup"><span data-stu-id="9858a-120">The following sections list these privileges and duties, together with the associated roles.</span></span>
-
-### <a name="duties"></a><span data-ttu-id="9858a-121">Kohustused</span><span class="sxs-lookup"><span data-stu-id="9858a-121">Duties</span></span>
-
-| <span data-ttu-id="9858a-122">Kohustuse silt</span><span class="sxs-lookup"><span data-stu-id="9858a-122">Duty label</span></span>                            | <span data-ttu-id="9858a-123">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="9858a-123">Description</span></span>                                                             | <span data-ttu-id="9858a-124">AOT nimi</span><span class="sxs-lookup"><span data-stu-id="9858a-124">AOT name</span></span>                         |
-|---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
-| <span data-ttu-id="9858a-125">Finantsaruandluse turbe haldamine</span><span class="sxs-lookup"><span data-stu-id="9858a-125">Maintain financial reporting security</span></span> | <span data-ttu-id="9858a-126">Finantsaruandluse turbe haldamine ja administratiivtoimingute tegemine.</span><span class="sxs-lookup"><span data-stu-id="9858a-126">Maintain financial reporting security and perform administrative tasks.</span></span> | <span data-ttu-id="9858a-127">FinancialReportsSecurityMaintain</span><span class="sxs-lookup"><span data-stu-id="9858a-127">FinancialReportsSecurityMaintain</span></span> |
-| <span data-ttu-id="9858a-128">Finantsaruannete haldamine</span><span class="sxs-lookup"><span data-stu-id="9858a-128">Maintain financial reports</span></span>            | <span data-ttu-id="9858a-129">Finantsaruannete koostamine ja haldamine.</span><span class="sxs-lookup"><span data-stu-id="9858a-129">Design and maintain financial reports.</span></span>                                  | <span data-ttu-id="9858a-130">FinancialReportsMaintain</span><span class="sxs-lookup"><span data-stu-id="9858a-130">FinancialReportsMaintain</span></span>         |
-| <span data-ttu-id="9858a-131">Finantsaruannete loomine</span><span class="sxs-lookup"><span data-stu-id="9858a-131">Generate financial reports</span></span>            | <span data-ttu-id="9858a-132">Finantsaruannete loomine ja värskendamine.</span><span class="sxs-lookup"><span data-stu-id="9858a-132">Generate and refresh financial reports.</span></span>                                 | <span data-ttu-id="9858a-133">FinancialReportsGenerate</span><span class="sxs-lookup"><span data-stu-id="9858a-133">FinancialReportsGenerate</span></span>         |
-| <span data-ttu-id="9858a-134">Finantstulemuste ülevaatamine</span><span class="sxs-lookup"><span data-stu-id="9858a-134">Review financial performance</span></span>          | <span data-ttu-id="9858a-135">Finantstulemuste ülevaatamine ja analüüsimine.</span><span class="sxs-lookup"><span data-stu-id="9858a-135">Review and analyze financial performance.</span></span>                               | <span data-ttu-id="9858a-136">FinancialReportsPerfReview</span><span class="sxs-lookup"><span data-stu-id="9858a-136">FinancialReportsPerfReview</span></span>       |
-
-### <a name="privileges"></a><span data-ttu-id="9858a-137">Privileegid</span><span class="sxs-lookup"><span data-stu-id="9858a-137">Privileges</span></span>
-
-| <span data-ttu-id="9858a-138">Privileegi silt</span><span class="sxs-lookup"><span data-stu-id="9858a-138">Privilege label</span></span>                       | <span data-ttu-id="9858a-139">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="9858a-139">Description</span></span>                                                             | <span data-ttu-id="9858a-140">AOT nimi</span><span class="sxs-lookup"><span data-stu-id="9858a-140">AOT name</span></span>                         |
-|---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
-| <span data-ttu-id="9858a-141">Finantsaruandluse turbe haldamine</span><span class="sxs-lookup"><span data-stu-id="9858a-141">Maintain financial reporting security</span></span> | <span data-ttu-id="9858a-142">Finantsaruandluse turbe haldamine ja administratiivtoimingute tegemine.</span><span class="sxs-lookup"><span data-stu-id="9858a-142">Maintain financial reporting security and perform administrative tasks.</span></span> | <span data-ttu-id="9858a-143">FinancialReportsSecurityMaintain</span><span class="sxs-lookup"><span data-stu-id="9858a-143">FinancialReportsSecurityMaintain</span></span> |
-| <span data-ttu-id="9858a-144">Finantsaruannete haldamine</span><span class="sxs-lookup"><span data-stu-id="9858a-144">Maintain financial reports</span></span>            | <span data-ttu-id="9858a-145">Finantsaruannete koostamine ja haldamine.</span><span class="sxs-lookup"><span data-stu-id="9858a-145">Design and maintain financial reports.</span></span>                                  | <span data-ttu-id="9858a-146">FinancialReportsMaintainReports</span><span class="sxs-lookup"><span data-stu-id="9858a-146">FinancialReportsMaintainReports</span></span>  |
-| <span data-ttu-id="9858a-147">Finantsaruannete loomine</span><span class="sxs-lookup"><span data-stu-id="9858a-147">Generate financial reports</span></span>            | <span data-ttu-id="9858a-148">Finantsaruannete loomine ja värskendamine.</span><span class="sxs-lookup"><span data-stu-id="9858a-148">Generate and refresh financial reports.</span></span>                                 | <span data-ttu-id="9858a-149">FinancialReportsGenerateReports</span><span class="sxs-lookup"><span data-stu-id="9858a-149">FinancialReportsGenerateReports</span></span>  |
-| <span data-ttu-id="9858a-150">Finantsaruannete vaatamine</span><span class="sxs-lookup"><span data-stu-id="9858a-150">View financial reports</span></span>                | <span data-ttu-id="9858a-151">Finantsaruannete vaatamine.</span><span class="sxs-lookup"><span data-stu-id="9858a-151">View financial reports.</span></span>                                                 | <span data-ttu-id="9858a-152">FinancialReportsView</span><span class="sxs-lookup"><span data-stu-id="9858a-152">FinancialReportsView</span></span>             |
-
-### <a name="roles"></a><span data-ttu-id="9858a-153">Rollid</span><span class="sxs-lookup"><span data-stu-id="9858a-153">Roles</span></span>
-
-| <span data-ttu-id="9858a-154">Privileegi silt</span><span class="sxs-lookup"><span data-stu-id="9858a-154">Privilege label</span></span>                       | <span data-ttu-id="9858a-155">Kohustus</span><span class="sxs-lookup"><span data-stu-id="9858a-155">Duty</span></span>                                  | <span data-ttu-id="9858a-156">Rollid</span><span class="sxs-lookup"><span data-stu-id="9858a-156">Roles</span></span>                                                                           |
-|---------------------------------------|---------------------------------------|---------------------------------------------------------------------------------|
-| <span data-ttu-id="9858a-157">Finantsaruandluse turbe haldamine</span><span class="sxs-lookup"><span data-stu-id="9858a-157">Maintain financial reporting security</span></span> | <span data-ttu-id="9858a-158">Finantsaruandluse turbe haldamine</span><span class="sxs-lookup"><span data-stu-id="9858a-158">Maintain financial reporting security</span></span> | <span data-ttu-id="9858a-159">Turbeadministraator</span><span class="sxs-lookup"><span data-stu-id="9858a-159">Security administrator</span></span>                                                          |
-| <span data-ttu-id="9858a-160">Finantsaruannete haldamine</span><span class="sxs-lookup"><span data-stu-id="9858a-160">Maintain financial reports</span></span>            | <span data-ttu-id="9858a-161">Finantsaruannete haldamine</span><span class="sxs-lookup"><span data-stu-id="9858a-161">Maintain financial reports</span></span>            | <span data-ttu-id="9858a-162">Pearaamatupidaja, Raamatupidaja, Finantskontroller, Eelarvehaldur</span><span class="sxs-lookup"><span data-stu-id="9858a-162">Accounting Manager, Accounting Supervisor, Financial Controller, Budget Manager</span></span> |
-| <span data-ttu-id="9858a-163">Finantsaruannete loomine</span><span class="sxs-lookup"><span data-stu-id="9858a-163">Generate financial reports</span></span>            | <span data-ttu-id="9858a-164">Finantsaruannete loomine</span><span class="sxs-lookup"><span data-stu-id="9858a-164">Generate financial reports</span></span>            | <span data-ttu-id="9858a-165">Juhataja, Finantsjuht, Raamatupidaja</span><span class="sxs-lookup"><span data-stu-id="9858a-165">CEO, CFO, Accountant</span></span>                                                            |
-| <span data-ttu-id="9858a-166">Finantsaruannete vaatamine</span><span class="sxs-lookup"><span data-stu-id="9858a-166">View financial reports</span></span>                | <span data-ttu-id="9858a-167">Finantstulemuste ülevaatamine</span><span class="sxs-lookup"><span data-stu-id="9858a-167">Review financial performance</span></span>          | <span data-ttu-id="9858a-168">Ühtegi pole määratud</span><span class="sxs-lookup"><span data-stu-id="9858a-168">None assigned</span></span>                                                                   |
-
-<span data-ttu-id="9858a-169">Pärast kasutaja lisamist või rolli muutmist peaks kasutaja mõne minuti jooksul finantsaruandlusele juurde pääsema.</span><span class="sxs-lookup"><span data-stu-id="9858a-169">After a user is added or a role is changed, the user should be able to access financial reporting within a few minutes.</span></span> <span data-ttu-id="9858a-170">**Märkus:** süsteemiadministraatori roll lisatakse finantsaruandluses kõigile rollidele.</span><span class="sxs-lookup"><span data-stu-id="9858a-170">**Note:** The sysadmin role is added to all roles in financial reporting.</span></span>
-
-## <a name="default-reports"></a><span data-ttu-id="9858a-171">Vaikearuanded</span><span class="sxs-lookup"><span data-stu-id="9858a-171">Default reports</span></span>
-<span data-ttu-id="9858a-172">Finantsaruandlus pakub 22 vaike-finantsaruannet.</span><span class="sxs-lookup"><span data-stu-id="9858a-172">Financial reporting provides 22 default financial reports.</span></span> <span data-ttu-id="9858a-173">Iga aruanne kasutab rakenduses Finance and Operations põhikonto vaikekategooriaid.</span><span class="sxs-lookup"><span data-stu-id="9858a-173">Every report uses the default main account categories in Finance and Operations.</span></span> <span data-ttu-id="9858a-174">Saate kasutada neid aruandeid olemasoleval kujul või finantsaruandluse vajaduste lähtepunktina.</span><span class="sxs-lookup"><span data-stu-id="9858a-174">You can use these reports as is or as a starting point for your financial reporting needs.</span></span> <span data-ttu-id="9858a-175">Lisaks tavalistele finantsaruannetele nagu kasumiaruanne ja bilanss sisaldavad need vaikearuanded aruandeid, millel on näidatud erinevat tüüpi finantsaruanded, mida saate koostada.</span><span class="sxs-lookup"><span data-stu-id="9858a-175">In addition to the traditional financial statements, such as Income statement and Balance sheet, these default reports include reports that show the different types of financial reports that you can create.</span></span> 
-
-<!--Each report in the following table links to an Office Mix presentation about the report.-->
-
-| <span data-ttu-id="9858a-176">Vaikearuanne</span><span class="sxs-lookup"><span data-stu-id="9858a-176">Default report</span></span>                                                                                         | <span data-ttu-id="9858a-177">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="9858a-177">Description</span></span>                                                                                                                                                                                                                                                                                                          |
-|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="9858a-178">12 kuu jooksev ühe veeruga kasumiaruanne – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-178">12 Month Rolling Single Column Income Statement – Default</span></span> | <span data-ttu-id="9858a-179">Vaadake organisatsiooni tulusust viimase 12 kuu jooksul ühes veerus.</span><span class="sxs-lookup"><span data-stu-id="9858a-179">View an organization’s profitability for the past 12 months in a single column.</span></span>                                                                                                                                                                                                                                      |
-| <span data-ttu-id="9858a-180">12 kuu trendi kasumiaruanne – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-180">12 Month Trend Income Statement – Default</span></span>                 | <span data-ttu-id="9858a-181">Vaadake organisatsiooni tulusust iga viimase 12 kuu kohta.</span><span class="sxs-lookup"><span data-stu-id="9858a-181">View an organization’s profitability for each of the last 12 months.</span></span> <span data-ttu-id="9858a-182">Need 12 kuud võivad hõlmata rohkem kui ühte rahandusaastat.</span><span class="sxs-lookup"><span data-stu-id="9858a-182">These 12 months can span more than one fiscal year.</span></span>                                                                                                                                                                                             |
-| <span data-ttu-id="9858a-183">Tegelik võrreldes eelarvega – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-183">Actual vs Budget – Default</span></span>                                | <span data-ttu-id="9858a-184">Vaadake kõigi algse eelarve kontode üksikasjalikku saldoteavet ja võrrelge parandatud eelarvet tegelike hälbega summadega.</span><span class="sxs-lookup"><span data-stu-id="9858a-184">View detailed balance information for all accounts for the original budget, and compare the revised budget to actuals that have a variance.</span></span>                                                                                                                                                                          |
-| <span data-ttu-id="9858a-185">Auditi üksikasjad – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-185">Audit Details – Default</span></span>                                  | <span data-ttu-id="9858a-186">Saate vaadata kõigi kontode üksikasjalikku saldoteavet.</span><span class="sxs-lookup"><span data-stu-id="9858a-186">View detailed balance information for all accounts.</span></span> <span data-ttu-id="9858a-187">Selles aruandes kuvatakse deebet- ja kreeditsaldod aruandlusvaluutas ja kohalikus valuutas koos täiendava kandeteabega, nt kasutaja ID, andmeid viimati muutnud kasutaja, viimase muutmise kuupäev ja töölehe ID.</span><span class="sxs-lookup"><span data-stu-id="9858a-187">This report shows debit and credit balances in the reporting currency and the local currency, together with additional transaction information, such as the user ID, the user who last modified the data, the date of the last modification, and the journal ID.</span></span> |
-| <span data-ttu-id="9858a-188">Saldoloend – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-188">Balance List – Default</span></span>                                   | <span data-ttu-id="9858a-189">Saate vaadata kõigi kontode üksikasjalikku saldoteavet.</span><span class="sxs-lookup"><span data-stu-id="9858a-189">View detailed balance information for all accounts.</span></span> <span data-ttu-id="9858a-190">Selles aruandes kuvatakse avamis- ja sulgemissaldod ning deebet- ja kreeditsaldod praeguse perioodi ja möödunud aasta kohta koos täiendavat kandeteabega (nt kanne).</span><span class="sxs-lookup"><span data-stu-id="9858a-190">This report shows opening and closing balances, and debit and credit balances for the current period and year to date, together with additional transaction information, such as the voucher.</span></span>                                                                    |
-| <span data-ttu-id="9858a-191">Bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-191">Balance Sheet – Default</span></span>                                   | <span data-ttu-id="9858a-192">Saate vaadata organisatsiooni aasta rahalist seisu.</span><span class="sxs-lookup"><span data-stu-id="9858a-192">View the organization's financial position for the year.</span></span>                                                                                                                                                                                                                                                             |
-| <span data-ttu-id="9858a-193">Kõrvuti konsolideeritud bilanss ja kasumiaruanne – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-193">Balance Sheet and Income Statement Side by Side - Default</span></span> | <span data-ttu-id="9858a-194">Saate vaadata kõrvuti organisatsiooni aasta finantsseisundit ja tulusust.</span><span class="sxs-lookup"><span data-stu-id="9858a-194">View the organization’s financial position and profitability for the year side by side.</span></span>                                                                                                                                                                                                                              |
-| <span data-ttu-id="9858a-195">Rahavoog – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-195">Cash Flow – Default</span></span>                                       | <span data-ttu-id="9858a-196">Saate ülevaate organisatsiooni sissetulevast ja väljuvast sularahast.</span><span class="sxs-lookup"><span data-stu-id="9858a-196">Gain insight into the cash that is coming in to and going out of the organization.</span></span>                                                                                                                                                                                                                                   |
-| <span data-ttu-id="9858a-197">Üksikasjalik JE ja TB ülevaade – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-197">Detailed JE and TB Review – Default</span></span>                      | <span data-ttu-id="9858a-198">Saate kuvada kõigi kontode algsaldo ja tegevuse teabe.</span><span class="sxs-lookup"><span data-stu-id="9858a-198">View opening balance and activity information for all accounts.</span></span>                                                                                                                                                                                                                                                      |
-| <span data-ttu-id="9858a-199">Üksikasjalik proovibilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-199">Detailed Trial Balance - Default</span></span>                         | <span data-ttu-id="9858a-200">Saate vaadata kõigi deebet- ja kreeditsaldodega kontode saldoteavet ja nende saldode netoväärtust koos kande kuupäeva, kande ja töölehe kirjeldusega.</span><span class="sxs-lookup"><span data-stu-id="9858a-200">View balance information for all accounts that have debit and credit balances, and the net of these balances, together with the transaction date, voucher, and journal description.</span></span>                                                                                                                                  |
-| <span data-ttu-id="9858a-201">Kulude kolme aasta kvartalitrend – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-201">Expenses Three Year Quarterly Trend – Default</span></span>             | <span data-ttu-id="9858a-202">Saate ülevaate viimase 12 kvartali kuludest kolme viimase aasta jooksul.</span><span class="sxs-lookup"><span data-stu-id="9858a-202">Gain insight into expenses for the past 12 quarters over the previous three years.</span></span>                                                                                                                                                                                                                                   |
-| <span data-ttu-id="9858a-203">Finantspealdised: JE ja TB ülevaade – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-203">Financial Captions JE and TB Review – Default</span></span>            | <span data-ttu-id="9858a-204">Saate vaadata ülevaadet saldodest ja tegevustest vara, kohustuse, omakapitali, tulu, kulu, kasumi või kahjumi finantspealdiste kohta.</span><span class="sxs-lookup"><span data-stu-id="9858a-204">See an overview of the balances and activity for the asset, liability, owner’s equity, revenue, expense, gain, or loss financial captions.</span></span>                                                                                                                                                                           |
-| <span data-ttu-id="9858a-205">Kasumiaruanne – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-205">Income Statement – Default</span></span>                                | <span data-ttu-id="9858a-206">Saate vaadata organisatsiooni tulusust praeguse perioodi ja aasta puhul kuni praeguse kuupäevani.</span><span class="sxs-lookup"><span data-stu-id="9858a-206">View the organization’s profitability for the current period and the year to date.</span></span>                                                                                                                                                                                                                                   |
-| <span data-ttu-id="9858a-207">Pearaamatukannete loend – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-207">Ledger Transaction List – Default</span></span>                        | <span data-ttu-id="9858a-208">Saate vaadata kõigi kontode üksikasjalikku saldoteavet.</span><span class="sxs-lookup"><span data-stu-id="9858a-208">View detailed balance information for all accounts.</span></span> <span data-ttu-id="9858a-209">Selles aruandes kuvatakse deebet- ja kreeditsaldod koos täiendava kandeteabega, nt kandekuupäev, töölehe number, kanne, sisestustüüp ja jälgimisnumber.</span><span class="sxs-lookup"><span data-stu-id="9858a-209">This report shows debit and credit balances, together with additional transaction information, such as the transaction date, journal number, voucher, posting type, and trace number.</span></span>                                                                            |
-| <span data-ttu-id="9858a-210">Suhtarvud – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-210">Ratios – Default</span></span>                                          | <span data-ttu-id="9858a-211">Saate vaadata organisatsiooni maksejõulisust, tulusust ja efektiivsuse suhtarve aasta kohta.</span><span class="sxs-lookup"><span data-stu-id="9858a-211">View the solvency, profitability, and efficiency ratios for the organization for the year.</span></span>                                                                                                                                                                                                                           |
-| <span data-ttu-id="9858a-212">Jooksva 12 kuu kulud – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-212">Rolling 12 Month Expenses – Default</span></span>                       | <span data-ttu-id="9858a-213">Saate ülevaate kuludest viimase 12 kuu kohta.</span><span class="sxs-lookup"><span data-stu-id="9858a-213">Gain insight into expenses for each of the last 12 months.</span></span> <span data-ttu-id="9858a-214">Need 12 kuud võivad hõlmata rohkem kui ühte rahandusaastat.</span><span class="sxs-lookup"><span data-stu-id="9858a-214">These 12 months can span more than one fiscal year.</span></span>                                                                                                                                                                                                       |
-| <span data-ttu-id="9858a-215">Jooksva kvartali kasumiaruanne – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-215">Rolling Quarter Income Statement – Default</span></span>               | <span data-ttu-id="9858a-216">Vaadake organisatsiooni tulusust kvartalis eelmise aasta kohta ja aasta kohta tänase kuupäevani.</span><span class="sxs-lookup"><span data-stu-id="9858a-216">View the organization’s profitability on a quarterly basis for the past year and the year to date.</span></span>                                                                                                                                                                                                                   |
-| <span data-ttu-id="9858a-217">Kõrvuti bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-217">Side by Side Balance Sheet – Default</span></span>                      | <span data-ttu-id="9858a-218">Saate vaadata organisatsiooni aasta rahalist seisu.</span><span class="sxs-lookup"><span data-stu-id="9858a-218">View the organization's financial position for the year.</span></span> <span data-ttu-id="9858a-219">Selles aruandes kuvatakse varad ja kohustused ning omakapital kõrvuti.</span><span class="sxs-lookup"><span data-stu-id="9858a-219">This report shows assets and liability, and shareholder equity side by side.</span></span>                                                                                                                                                                                |
-| <span data-ttu-id="9858a-220">Proovibilansi kokkuvõte – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-220">Summary Trial Balance – Default</span></span>                          | <span data-ttu-id="9858a-221">Saate vaadata bilansi teavet kõigi avamis- ja sulgemissaldode ning deebet- ja kreeditsaldodega kontode puhul koos nende netoerinevusega.</span><span class="sxs-lookup"><span data-stu-id="9858a-221">View balance information for all accounts that have opening and closing balances, and debit and credit balances together with their net difference.</span></span>                                                                                                                                                                  |
-| <span data-ttu-id="9858a-222">Proovibilansi kokkuvõte aasta-aastalt – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-222">Summary Trial Balance Year Over Year – Default</span></span>           | <span data-ttu-id="9858a-223">Saate vaadata bilansi teavet kõigi avamis- ja sulgemissaldode ning deebet- ja kreeditsaldodega kontode puhul koos nende netoerinevusega praeguse aasta ja möödunud aasta kohta.</span><span class="sxs-lookup"><span data-stu-id="9858a-223">View balance information for all accounts that have opening and closing balances, and debit and credit balances together with their net difference for the current year and the past year.</span></span>                                                                                                                           |
-| <span data-ttu-id="9858a-224">Nädala müük ja allahindlused – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="9858a-224">Weekly Sales and Discounts - Default</span></span>                     | <span data-ttu-id="9858a-225">Saate ülevaate kuu iga nädala müügist ja allahindlustest.</span><span class="sxs-lookup"><span data-stu-id="9858a-225">Gain insight into sales and discounts for each week in a month.</span></span> <span data-ttu-id="9858a-226">See aruanne sisaldab kokku nelja nädalat.</span><span class="sxs-lookup"><span data-stu-id="9858a-226">This report includes a four-week total.</span></span>                                                                                                                                                                                                              |
-| <span data-ttu-id="9858a-227">Saadaolevad eelarvefondid – vaikesäte</span><span class="sxs-lookup"><span data-stu-id="9858a-227">Budget Funds Available - Default</span></span>                         | <span data-ttu-id="9858a-228">Saate vaadata üksikasjalikku võrdlust muudetud eelarve, tegelike kulude, eelarvereservide ja eelarvefondide vahel kõigi kontode kohta</span><span class="sxs-lookup"><span data-stu-id="9858a-228">View a detailed comparison of revised budget, actual expenditures, budget reservations, and budget funds available for all accounts</span></span>                                                                                                                                                                                  |
-
-## <a name="opening-financial-reports"></a><span data-ttu-id="9858a-229">Finantsaruannete avamine</span><span class="sxs-lookup"><span data-stu-id="9858a-229">Opening financial reports</span></span>
-<span data-ttu-id="9858a-230">Kui klõpsate menüüd **Finantsaruandlus**, kuvatakse ettevõtte vaike-finantsaruannete loend.</span><span class="sxs-lookup"><span data-stu-id="9858a-230">When you click the **Financial reporting** menu, the list of default financial reports for the company is shown.</span></span> <span data-ttu-id="9858a-231">Seejärel saate aruande avada või seda muuta.</span><span class="sxs-lookup"><span data-stu-id="9858a-231">You can then open or modify a report.</span></span> <span data-ttu-id="9858a-232">Mõne vaikearuande avamiseks valige aruande nimi.</span><span class="sxs-lookup"><span data-stu-id="9858a-232">To open one of the default reports, select the report name.</span></span> <span data-ttu-id="9858a-233">Aruande esmakordsel avamisel koostatakse see automaatselt eelmise kuu kohta.</span><span class="sxs-lookup"><span data-stu-id="9858a-233">The first time that a report is opened, it's automatically generated for the previous month.</span></span> <span data-ttu-id="9858a-234">Näiteks kui avate aruande esmakordselt augustis 2016, koostatakse aruanne 31. juuli 2016 kohta.</span><span class="sxs-lookup"><span data-stu-id="9858a-234">For example, if you open a report for the first time in August 2016, the report is generated for July 31, 2016.</span></span> <span data-ttu-id="9858a-235">Pärast aruande avamist saab seda uurida, minnes süvitsi konkreetsetes andmehulkades ja muutes aruande valikuid.</span><span class="sxs-lookup"><span data-stu-id="9858a-235">After a report is opened, you can start exploring it by drilling down on specific pieces of data and changing report options.</span></span>
-
-## <a name="creating-and-modifying-financial-reports"></a><span data-ttu-id="9858a-236">Finantsaruannete koostamine ja muutmine</span><span class="sxs-lookup"><span data-stu-id="9858a-236">Creating and modifying financial reports</span></span>
-<span data-ttu-id="9858a-237">Finantsaruannete loendist saate luua uue aruande või muuta olemasolevat aruannet.</span><span class="sxs-lookup"><span data-stu-id="9858a-237">From the financial reports list, you can create a new report or modify an existing report.</span></span> <span data-ttu-id="9858a-238">Kui teil on olemas vastavad load, saate koostada uue finantsaruande, klõpsates tegumiribal nuppu **Uus**.</span><span class="sxs-lookup"><span data-stu-id="9858a-238">If you have the appropriate permissions, you can create a new financial report by clicking **New** on the Action Pane.</span></span> <span data-ttu-id="9858a-239">Aruande koostamise programm laaditakse teie seadmesse.</span><span class="sxs-lookup"><span data-stu-id="9858a-239">A report designer program is downloaded to your device.</span></span> <span data-ttu-id="9858a-240">Kui aruandekoostur on käivitunud, saate koostada uue aruande.</span><span class="sxs-lookup"><span data-stu-id="9858a-240">After the report designer starts you can then create the new report.</span></span> <span data-ttu-id="9858a-241">Pärast uue aruande salvestamist kuvatakse see finantsaruannete loendis.</span><span class="sxs-lookup"><span data-stu-id="9858a-241">After you save the new report, it appears in the financial reports list.</span></span> <span data-ttu-id="9858a-242">Loendis kuvatakse ainult need aruanded, mis on loodud ettevõttele, mida Finance and Operationsis kasutate.</span><span class="sxs-lookup"><span data-stu-id="9858a-242">The list shows only reports that were created for the company that you're using in Finance and Operations.</span></span> 
-
-> [!NOTE] 
-> <span data-ttu-id="9858a-243">Arvutisse, kuhu aruandekoosturi alla laadite, peab olema installitud Microsoft .NET Frameworki versioon 4.6.2.</span><span class="sxs-lookup"><span data-stu-id="9858a-243">The computer that you are downloading the report designer client on must have version 4.6.2 of the Microsoft .NET Framework installed on it.</span></span> <span data-ttu-id="9858a-244">Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [Microsofti allalaadimiskeskusest](https://www.microsoft.com/en-us/download/details.aspx?id=53345).</span><span class="sxs-lookup"><span data-stu-id="9858a-244">This version of the Microsoft .NET Framework can be downloaded and installed from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53345).</span></span> <span data-ttu-id="9858a-245">Kui kasutate Chrome’i, peate aruandekoosturi kliendi allalaadimiseks installima laienduse ClickOnce.</span><span class="sxs-lookup"><span data-stu-id="9858a-245">If you are using Chrome, you must install a ClickOnce extension in order to download the report designer client.</span></span> <span data-ttu-id="9858a-246">Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud.</span><span class="sxs-lookup"><span data-stu-id="9858a-246">If you are running in incognito mode, make sure the ClickOnce extension is enabled for incognito mode.</span></span> <span data-ttu-id="9858a-247">Finantsaruannete loendis kuvatavat aruannet saab ka muuta.</span><span class="sxs-lookup"><span data-stu-id="9858a-247">You can also modify a report that appears in the financial reports list.</span></span> <span data-ttu-id="9858a-248">Kui on valitud aruande nime ümber olev ala, klõpsake tegumiribal nuppu **Redigeeri**.</span><span class="sxs-lookup"><span data-stu-id="9858a-248">When the area around the report name is selected, click **Edit** on the Action Pane.</span></span> <span data-ttu-id="9858a-249">Käivitub aruande koostamise programm.</span><span class="sxs-lookup"><span data-stu-id="9858a-249">The report designer program starts.</span></span>
-
-## <a name="additional-resources"></a><span data-ttu-id="9858a-250">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="9858a-250">Additional resources</span></span>
-- [<span data-ttu-id="9858a-251">Finantsaruannete vaatamine</span><span class="sxs-lookup"><span data-stu-id="9858a-251">View financial reports</span></span>](view-financial-reports.md)
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="financial-reporting-getting-started.md" target-language="et-EE">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>financial-reporting-getting-started.2bf0de.b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>06c8dc5bc4e1c41f68e1cda141d61529768be958</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\general-ledger\financial-reporting-getting-started.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Financial reporting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruandlus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes where to access financial reporting in Microsoft Dynamics 365 for Finance and Operations and how to use the financial reporting capabilities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 for Finance and Operations finantsaruandlusele ja kasutada finantsaruandluse võimalusi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
+          <source>It includes a description of the default financial reports that are provided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See sisaldab pakutavate vaike-finantsaruannete kirjeldust.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Financial reporting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruandlus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This topic describes where to access financial reporting in Microsoft Dynamics 365 for Finance and Operations and how to use the financial reporting capabilities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 for Finance and Operations finantsaruandlusele ja kasutada finantsaruandluse võimalusi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>It includes a description of the default financial reports that are provided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See sisaldab pakutavate vaike-finantsaruannete kirjeldust.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Accessing financial reporting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juurdepääs finantsaruandlusele</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>You can find the <bpt id="p1">**</bpt>Financial reporting<ept id="p1">**</ept> menu in the following places in Finance and Operations:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Menüü <bpt id="p1">**</bpt>Finantsaruandlus<ept id="p1">**</ept> leiate rakenduses Finance and Operations järgmistest kohtadest.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source><bpt id="p1">**</bpt>General Ledger<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inquiries and reports<ept id="p2">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pearaamat<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Päringud ja aruanded<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source><bpt id="p1">**</bpt>Budgeting<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inquires and reports<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Basic budgeting<ept id="p3">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Eelarvestamine<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Päringud ja aruanded<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Põhiline eelarvestamine<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source><bpt id="p1">**</bpt>Budgeting<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inquiries and reports<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Budget planning<ept id="p3">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Eelarvestamine<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Päringud ja aruanded<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Eelarve plaanimine<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source><bpt id="p1">**</bpt>Budgeting<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inquiries and reports<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Budget control<ept id="p3">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Eelarvestamine<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Päringud ja aruanded<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Eelarve juhtimine<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Consolidations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konsolideerimised</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>To create and generate financial reports for a legal entity, you must set up the following information for that legal entity:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete loomiseks ja genereerimiseks juriidilisele isikule tuleb seadistada sellele juriidilisele isikule järgmine teave.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Fiscal calendar</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rahanduskalender</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Ledger</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pearaamat</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Chart of accounts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kontoplaan</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valuuta</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>The financial reporting functions are available to users who have the appropriate privileges and duties assigned to them through their security roles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rahalise aruandluse funktsioonid on saadaval kasutajatele, kellele on turberollide kaudu määratud sobivad privileegid ja kohustused.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>The following sections list these privileges and duties, together with the associated roles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmistes jaotistes on nimetatud need privileegid ja kohustused koos seotud rollidega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Duties</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohustused</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Duty label</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohustuse silt</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>AOT name</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AOT nimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Maintain financial reporting security</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruandluse turbe haldamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Maintain financial reporting security and perform administrative tasks.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruandluse turbe haldamine ja administratiivtoimingute tegemine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>FinancialReportsSecurityMaintain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FinancialReportsSecurityMaintain</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Maintain financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete haldamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Design and maintain financial reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete koostamine ja haldamine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>FinancialReportsMaintain</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FinancialReportsMaintain</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Generate financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete loomine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Generate and refresh financial reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete loomine ja värskendamine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>FinancialReportsGenerate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FinancialReportsGenerate</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Review financial performance</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantstulemuste ülevaatamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Review and analyze financial performance.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantstulemuste ülevaatamine ja analüüsimine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>FinancialReportsPerfReview</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FinancialReportsPerfReview</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Privileges</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Privileegid</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Privilege label</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Privileegi silt</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>AOT name</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AOT nimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Maintain financial reporting security</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruandluse turbe haldamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Maintain financial reporting security and perform administrative tasks.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Finantsaruandluse turbe haldamine ja administratiivtoimingute tegemine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>FinancialReportsSecuritySystemMaintain</source><target logoport:matchpercent="0" state="translated">FinancialReportsSecuritySystemMaintain</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Maintain financial reports</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Finantsaruannete haldamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Design and maintain financial reports.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Finantsaruannete koostamine ja haldamine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>FinancialReportsMaintainReports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FinancialReportsMaintainReports</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Generate financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete loomine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Generate and refresh financial reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete loomine ja värskendamine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>FinancialReportsGenerateReports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FinancialReportsGenerateReports</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>View financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete vaatamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>View financial reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete vaatamine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>FinancialReportsView</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FinancialReportsView</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Roles</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rollid</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Privilege label</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Privileegi silt</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Duty</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohustus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Roles</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rollid</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Maintain financial reporting security</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruandluse turbe haldamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Maintain financial reporting security</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruandluse turbe haldamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Security administrator</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Turbeadministraator</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Maintain financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete haldamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Maintain financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete haldamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Accounting Manager, Accounting Supervisor, Financial Controller, Budget Manager</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pearaamatupidaja, Raamatupidaja, Finantskontroller, Eelarvehaldur</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Generate financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete loomine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Generate financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete loomine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>CEO, CFO, Accountant</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juhataja, Finantsjuht, Raamatupidaja</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>View financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete vaatamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Review financial performance</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantstulemuste ülevaatamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>None assigned</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ühtegi pole määratud</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>After a user is added or a role is changed, the user should be able to access financial reporting within a few minutes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast kasutaja lisamist või rolli muutmist peaks kasutaja mõne minuti jooksul finantsaruandlusele juurde pääsema.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The sysadmin role is added to all roles in financial reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Märkus:<ept id="p1">**</ept> süsteemiadministraatori roll lisatakse finantsaruandluses kõigile rollidele.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Default reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaikearuanded</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Financial reporting provides 22 default financial reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruandlus pakub 22 vaike-finantsaruannet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Every report uses the default main account categories in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iga aruanne kasutab rakenduses Finance and Operations põhikonto vaikekategooriaid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>You can use these reports as is or as a starting point for your financial reporting needs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate kasutada neid aruandeid olemasoleval kujul või finantsaruandluse vajaduste lähtepunktina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>In addition to the traditional financial statements, such as Income statement and Balance sheet, these default reports include reports that show the different types of financial reports that you can create.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisaks tavalistele finantsaruannetele nagu kasumiaruanne ja bilanss sisaldavad need vaikearuanded aruandeid, millel on näidatud erinevat tüüpi finantsaruanded, mida saate koostada.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Default report</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaikearuanne</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>12 Month Rolling Single Column Income Statement – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">12 kuu jooksev ühe veeruga kasumiaruanne – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>View an organization’s profitability for the past 12 months in a single column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaadake organisatsiooni tulusust viimase 12 kuu jooksul ühes veerus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>12 Month Trend Income Statement – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">12 kuu trendi kasumiaruanne – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>View an organization’s profitability for each of the last 12 months.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaadake organisatsiooni tulusust iga viimase 12 kuu kohta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>These 12 months can span more than one fiscal year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Need 12 kuud võivad hõlmata rohkem kui ühte rahandusaastat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Actual vs Budget – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegelik võrreldes eelarvega – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>View detailed balance information for all accounts for the original budget, and compare the revised budget to actuals that have a variance.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaadake kõigi algse eelarve kontode üksikasjalikku saldoteavet ja võrrelge parandatud eelarvet tegelike hälbega summadega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Audit Details – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Auditi üksikasjad – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>View detailed balance information for all accounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata kõigi kontode üksikasjalikku saldoteavet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>This report shows debit and credit balances in the reporting currency and the local currency, together with additional transaction information, such as the user ID, the user who last modified the data, the date of the last modification, and the journal ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles aruandes kuvatakse deebet- ja kreeditsaldod aruandlusvaluutas ja kohalikus valuutas koos täiendava kandeteabega, nt kasutaja ID, andmeid viimati muutnud kasutaja, viimase muutmise kuupäev ja töölehe ID.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Balance List – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saldoloend – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>View detailed balance information for all accounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata kõigi kontode üksikasjalikku saldoteavet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>This report shows opening and closing balances, and debit and credit balances for the current period and year to date, together with additional transaction information, such as the voucher.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles aruandes kuvatakse avamis- ja sulgemissaldod ning deebet- ja kreeditsaldod praeguse perioodi ja möödunud aasta kohta koos täiendavat kandeteabega (nt kanne).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Balance Sheet – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bilanss – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>View the organization's financial position for the year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata organisatsiooni aasta rahalist seisu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>Balance Sheet and Income Statement Side by Side - Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõrvuti konsolideeritud bilanss ja kasumiaruanne – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>View the organization’s financial position and profitability for the year side by side.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata kõrvuti organisatsiooni aasta finantsseisundit ja tulusust.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Cash Flow – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rahavoog – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Gain insight into the cash that is coming in to and going out of the organization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate ülevaate organisatsiooni sissetulevast ja väljuvast sularahast.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Detailed JE and TB Review – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üksikasjalik JE ja TB ülevaade – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>View opening balance and activity information for all accounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate kuvada kõigi kontode algsaldo ja tegevuse teabe.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Detailed Trial Balance - Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üksikasjalik proovibilanss – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>View balance information for all accounts that have debit and credit balances, and the net of these balances, together with the transaction date, voucher, and journal description.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata kõigi deebet- ja kreeditsaldodega kontode saldoteavet ja nende saldode netoväärtust koos kande kuupäeva, kande ja töölehe kirjeldusega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Expenses Three Year Quarterly Trend – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kulude kolme aasta kvartalitrend – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Gain insight into expenses for the past 12 quarters over the previous three years.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate ülevaate viimase 12 kvartali kuludest kolme viimase aasta jooksul.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Financial Captions JE and TB Review – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantspealdised: JE ja TB ülevaade – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>See an overview of the balances and activity for the asset, liability, owner’s equity, revenue, expense, gain, or loss financial captions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata ülevaadet saldodest ja tegevustest vara, kohustuse, omakapitali, tulu, kulu, kasumi või kahjumi finantspealdiste kohta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Income Statement – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasumiaruanne – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>View the organization’s profitability for the current period and the year to date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata organisatsiooni tulusust praeguse perioodi ja aasta puhul kuni praeguse kuupäevani.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Ledger Transaction List – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pearaamatukannete loend – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>View detailed balance information for all accounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata kõigi kontode üksikasjalikku saldoteavet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>This report shows debit and credit balances, together with additional transaction information, such as the transaction date, journal number, voucher, posting type, and trace number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles aruandes kuvatakse deebet- ja kreeditsaldod koos täiendava kandeteabega, nt kandekuupäev, töölehe number, kanne, sisestustüüp ja jälgimisnumber.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Ratios – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suhtarvud – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>View the solvency, profitability, and efficiency ratios for the organization for the year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata organisatsiooni maksejõulisust, tulusust ja efektiivsuse suhtarve aasta kohta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>Rolling 12 Month Expenses – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jooksva 12 kuu kulud – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Gain insight into expenses for each of the last 12 months.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate ülevaate kuludest viimase 12 kuu kohta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>These 12 months can span more than one fiscal year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Need 12 kuud võivad hõlmata rohkem kui ühte rahandusaastat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Rolling Quarter Income Statement – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jooksva kvartali kasumiaruanne – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>View the organization’s profitability on a quarterly basis for the past year and the year to date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaadake organisatsiooni tulusust kvartalis eelmise aasta kohta ja aasta kohta tänase kuupäevani.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>Side by Side Balance Sheet – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõrvuti bilanss – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>View the organization's financial position for the year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata organisatsiooni aasta rahalist seisu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>This report shows assets and liability, and shareholder equity side by side.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles aruandes kuvatakse varad ja kohustused ning omakapital kõrvuti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>Summary Trial Balance – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proovibilansi kokkuvõte – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>View balance information for all accounts that have opening and closing balances, and debit and credit balances together with their net difference.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata bilansi teavet kõigi avamis- ja sulgemissaldode ning deebet- ja kreeditsaldodega kontode puhul koos nende netoerinevusega.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Summary Trial Balance Year Over Year – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proovibilansi kokkuvõte aasta-aastalt – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>View balance information for all accounts that have opening and closing balances, and debit and credit balances together with their net difference for the current year and the past year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata bilansi teavet kõigi avamis- ja sulgemissaldode ning deebet- ja kreeditsaldodega kontode puhul koos nende netoerinevusega praeguse aasta ja möödunud aasta kohta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>Weekly Sales and Discounts - Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nädala müük ja allahindlused – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>Gain insight into sales and discounts for each week in a month.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate ülevaate kuu iga nädala müügist ja allahindlustest.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>This report includes a four-week total.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See aruanne sisaldab kokku nelja nädalat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Budget Funds Available - Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saadaolevad eelarvefondid – vaikesäte</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>View a detailed comparison of revised budget, actual expenditures, budget reservations, and budget funds available for all accounts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate vaadata üksikasjalikku võrdlust muudetud eelarve, tegelike kulude, eelarvereservide ja eelarvefondide vahel kõigi kontode kohta</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>Opening financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete avamine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>When you click the <bpt id="p1">**</bpt>Financial reporting<ept id="p1">**</ept> menu, the list of default financial reports for the company is shown.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui klõpsate menüüd <bpt id="p1">**</bpt>Finantsaruandlus<ept id="p1">**</ept>, kuvatakse ettevõtte vaike-finantsaruannete loend.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>You can then open or modify a report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seejärel saate aruande avada või seda muuta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>To open one of the default reports, select the report name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mõne vaikearuande avamiseks valige aruande nimi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>The first time that a report is opened, it's automatically generated for the previous month.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruande esmakordsel avamisel koostatakse see automaatselt eelmise kuu kohta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>For example, if you open a report for the first time in August 2016, the report is generated for July 31, 2016.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks kui avate aruande esmakordselt augustis 2016, koostatakse aruanne 31. juuli 2016 kohta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>After a report is opened, you can start exploring it by drilling down on specific pieces of data and changing report options.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast aruande avamist saab seda uurida, minnes süvitsi konkreetsetes andmehulkades ja muutes aruande valikuid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Creating and modifying financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete koostamine ja muutmine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>From the financial reports list, you can create a new report or modify an existing report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete loendist saate luua uue aruande või muuta olemasolevat aruannet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>If you have the appropriate permissions, you can create a new financial report by clicking <bpt id="p1">**</bpt>New<ept id="p1">**</ept> on the Action Pane.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui teil on olemas vastavad load, saate koostada uue finantsaruande, klõpsates tegumiribal nuppu <bpt id="p1">**</bpt>Uus<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>A report designer program is downloaded to your device.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruande koostamise programm laaditakse teie seadmesse.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>After the report designer starts you can then create the new report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui aruandekoostur on käivitunud, saate koostada uue aruande.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>After you save the new report, it appears in the financial reports list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast uue aruande salvestamist kuvatakse see finantsaruannete loendis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>The list shows only reports that were created for the company that you're using in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Loendis kuvatakse ainult need aruanded, mis on loodud ettevõttele, mida Finance and Operationsis kasutate.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>The computer that you are downloading the report designer client on must have version 4.6.2 of the Microsoft .NET Framework installed on it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvutisse, kuhu aruandekoosturi alla laadite, peab olema installitud Microsoft .NET Frameworki versioon 4.6.2.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>This version of the Microsoft .NET Framework can be downloaded and installed from the <bpt id="p1">[</bpt>Microsoft Download Center<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=53345)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida <bpt id="p1">[</bpt>Microsofti allalaadimiskeskusest<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=53345)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>If you are using Chrome, you must install a ClickOnce extension in order to download the report designer client.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui kasutate Chrome’i, peate aruandekoosturi kliendi allalaadimiseks installima laienduse ClickOnce.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>If you are running in incognito mode, make sure the ClickOnce extension is enabled for incognito mode.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>You can also modify a report that appears in the financial reports list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete loendis kuvatavat aruannet saab ka muuta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>When the area around the report name is selected, click <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> on the Action Pane.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui on valitud aruande nime ümber olev ala, klõpsake tegumiribal nuppu <bpt id="p1">**</bpt>Redigeeri<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>The report designer program starts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käivitub aruande koostamise programm.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisaressursid</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source><bpt id="p1">[</bpt>View financial reports<ept id="p1">](view-financial-reports.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Finantsaruannete vaatamine<ept id="p1">](view-financial-reports.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

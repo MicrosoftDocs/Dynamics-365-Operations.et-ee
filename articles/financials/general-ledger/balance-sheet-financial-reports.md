@@ -1,84 +1,159 @@
----
-title: Bilansi finantsaruanded
-description: Selles artiklis kirjeldatakse bilansside vaikearuandeid. Samuti kirjeldatakse nende aruannetega seotud koosteüksusi.
-author: jcart1106
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: FinanicalReports
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 12274
-ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
-ms.search.region: Global
-ms.author: jcart
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ff778af1bb3af3a10132ab3193ad1cd5daa24e1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567325"
----
-# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="3b365-104">Bilansi finantsaruanded</span><span class="sxs-lookup"><span data-stu-id="3b365-104">Balance sheet financial reports</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="3b365-105">Selles artiklis kirjeldatakse bilansside vaikearuandeid.</span><span class="sxs-lookup"><span data-stu-id="3b365-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="3b365-106">Samuti kirjeldatakse nende aruannetega seotud koosteüksusi.</span><span class="sxs-lookup"><span data-stu-id="3b365-106">It also describes the building blocks that are associated with these reports.</span></span> 
-
-<a name="default-balance-sheet-reports"></a><span data-ttu-id="3b365-107">Bilansi vaikearuanded</span><span class="sxs-lookup"><span data-stu-id="3b365-107">Default balance sheet reports</span></span>
------------------------------
-
-<span data-ttu-id="3b365-108">Bilansi vaikearuandeid on kaks.</span><span class="sxs-lookup"><span data-stu-id="3b365-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="3b365-109">Ühes aruandes on jaotised virnastatud.</span><span class="sxs-lookup"><span data-stu-id="3b365-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="3b365-110">Teises aruandes on jaotised kõrvuti.</span><span class="sxs-lookup"><span data-stu-id="3b365-110">On the other report, the sections are side by side.</span></span>
-
-| <span data-ttu-id="3b365-111">Vaikearuanne</span><span class="sxs-lookup"><span data-stu-id="3b365-111">Default report</span></span>                       | <span data-ttu-id="3b365-112">Selle funktsioon</span><span class="sxs-lookup"><span data-stu-id="3b365-112">What it does</span></span>                                                                                                                           |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="3b365-113">Bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="3b365-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="3b365-114">Annab ülevaate organisatsiooni aasta rahalisest seisust.</span><span class="sxs-lookup"><span data-stu-id="3b365-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
-| <span data-ttu-id="3b365-115">Kõrvuti bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="3b365-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="3b365-116">Annab ülevaate organisatsiooni aasta rahalisest seisust.</span><span class="sxs-lookup"><span data-stu-id="3b365-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="3b365-117">Varad ja kohustused ja omakapital on kõrvuti.</span><span class="sxs-lookup"><span data-stu-id="3b365-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
-
-## <a name="building-blocks"></a><span data-ttu-id="3b365-118">Koosteüksused</span><span class="sxs-lookup"><span data-stu-id="3b365-118">Building blocks</span></span>
-<span data-ttu-id="3b365-119">Bilansi finantsaruanded kasutavad järgmisi koosteüksusi.</span><span class="sxs-lookup"><span data-stu-id="3b365-119">The balance sheet financial reports use the following building blocks.</span></span>
-
-| <span data-ttu-id="3b365-120">Vaikearuanne</span><span class="sxs-lookup"><span data-stu-id="3b365-120">Default report</span></span>                       | <span data-ttu-id="3b365-121">Rea definitsioon</span><span class="sxs-lookup"><span data-stu-id="3b365-121">Row definition</span></span>                       | <span data-ttu-id="3b365-122">Veeru määratlus</span><span class="sxs-lookup"><span data-stu-id="3b365-122">Column definition</span></span>             |
-|--------------------------------------|--------------------------------------|-------------------------------|
-| <span data-ttu-id="3b365-123">Bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="3b365-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="3b365-124">Bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="3b365-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="3b365-125">YTD ja hälve – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="3b365-125">YTD and Variance - Default</span></span>    |
-| <span data-ttu-id="3b365-126">Kõrvuti bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="3b365-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="3b365-127">Kõrvuti bilanss – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="3b365-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="3b365-128">Veerg Aasta tänaseni – vaikimisi</span><span class="sxs-lookup"><span data-stu-id="3b365-128">Year to Date Column - Default</span></span> |
-
-### <a name="row-definition"></a><span data-ttu-id="3b365-129">Rea definitsioon</span><span class="sxs-lookup"><span data-stu-id="3b365-129">Row definition</span></span>
-
-<span data-ttu-id="3b365-130">Mõlema bilansiaruande rea definitsioonid sisaldavad jaotisi iga tavalise bilansi osa puhul.</span><span class="sxs-lookup"><span data-stu-id="3b365-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="3b365-131">Kõrvutiaruanne sisaldab veerupiiri, nii et kohustus ja omakapital kuvatakse varade kõrval.</span><span class="sxs-lookup"><span data-stu-id="3b365-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="3b365-132">Põhikonto kategooria dimensiooni kasutatakse mõlema readefinitsiooni loomiseks.</span><span class="sxs-lookup"><span data-stu-id="3b365-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="3b365-133">Seega saab igaüks luua aruanded ilma muudatusi tegemata.</span><span class="sxs-lookup"><span data-stu-id="3b365-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
-
-### <a name="column-definition"></a><span data-ttu-id="3b365-134">Veeru määratlus</span><span class="sxs-lookup"><span data-stu-id="3b365-134">Column definition</span></span>
-
-<span data-ttu-id="3b365-135">Veeru definitsioonid sisaldavad eri tüüpi veerge üksikasjade ja finantsandmete eri tasemete pakkumiseks.</span><span class="sxs-lookup"><span data-stu-id="3b365-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
-
--   <span data-ttu-id="3b365-136">**YTD ja hälve – vaikimisi veerutüübid:**</span><span class="sxs-lookup"><span data-stu-id="3b365-136">**YTD and Variance – Default column types:**</span></span>
-    -   <span data-ttu-id="3b365-137">**DESC** – kirjeldus readefinitsioonist</span><span class="sxs-lookup"><span data-stu-id="3b365-137">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="3b365-138">**FD** – jooksva aasta finantsandmed aasta algusest praeguse kuupäevani</span><span class="sxs-lookup"><span data-stu-id="3b365-138">**FD** – Year-to-date financial data for the current year</span></span>
-    -   <span data-ttu-id="3b365-139">**FD** – möödunud aasta finantsandmed aasta algusest praeguse kuupäevani</span><span class="sxs-lookup"><span data-stu-id="3b365-139">**FD** – Year-to-date financial data for the last year</span></span>
-    -   <span data-ttu-id="3b365-140">**CALC** – hälve möödunud aasta jooksvast aastast lahutamisest</span><span class="sxs-lookup"><span data-stu-id="3b365-140">**CALC** – The variance from subtracting last year from this year</span></span>
-
-<!-- -->
-
--   <span data-ttu-id="3b365-141">**Veerg Aasta tänaseni – vaikimisi:**</span><span class="sxs-lookup"><span data-stu-id="3b365-141">**Year to Date Column – Default:**</span></span>
-    -   <span data-ttu-id="3b365-142">**DESC** – kirjeldus readefinitsioonist</span><span class="sxs-lookup"><span data-stu-id="3b365-142">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="3b365-143">**FD** – jooksva aasta finantsandmed aasta algusest praeguse kuupäevani</span><span class="sxs-lookup"><span data-stu-id="3b365-143">**FD** – Year-to-date financial data for the current year</span></span>
-
-
-
-<a name="additional-resources"></a><span data-ttu-id="3b365-144">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="3b365-144">Additional resources</span></span>
---------
-
-[<span data-ttu-id="3b365-145">Finantsaruandlus</span><span class="sxs-lookup"><span data-stu-id="3b365-145">Financial reporting</span></span>](financial-reporting-getting-started.md)
-
-[<span data-ttu-id="3b365-146">Finantsaruannete vaatamine</span><span class="sxs-lookup"><span data-stu-id="3b365-146">View financial reports</span></span>](view-financial-reports.md)
-
-[<span data-ttu-id="3b365-147">Dynamicsi finantsaruandluse ajaveeb</span><span class="sxs-lookup"><span data-stu-id="3b365-147">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="balance-sheet-financial-reports.md" target-language="et-EE">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>balance-sheet-financial-reports.efb624.2d54748daa27011e0222123ee2b9a19b9288734c.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>2d54748daa27011e0222123ee2b9a19b9288734c</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\general-ledger\balance-sheet-financial-reports.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Balance sheet financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bilansi finantsaruanded</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This article describes the default reports for balance sheets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles artiklis kirjeldatakse bilansside vaikearuandeid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
+          <source>It also describes the building blocks that are associated with these reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samuti kirjeldatakse nende aruannetega seotud koosteüksusi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Balance sheet financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bilansi finantsaruanded</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This article describes the default reports for balance sheets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles artiklis kirjeldatakse bilansside vaikearuandeid.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>It also describes the building blocks that are associated with these reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samuti kirjeldatakse nende aruannetega seotud koosteüksusi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Default balance sheet reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bilansi vaikearuanded</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>There are two default balance sheet reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bilansi vaikearuandeid on kaks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>On one report, the sections are stacked.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ühes aruandes on jaotised virnastatud.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>On the other report, the sections are side by side.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teises aruandes on jaotised kõrvuti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Default report</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaikearuanne</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>What it does</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle funktsioon</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Balance Sheet – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bilanss – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Provides a view of the organization's financial position for the year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Annab ülevaate organisatsiooni aasta rahalisest seisust.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Side by Side Balance Sheet – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõrvuti bilanss – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Provides a view of the organization's financial position for the year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Annab ülevaate organisatsiooni aasta rahalisest seisust.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Assets and liability and shareholder’s equity are side by side.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varad ja kohustused ja omakapital on kõrvuti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Building blocks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koosteüksused</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>The balance sheet financial reports use the following building blocks.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bilansi finantsaruanded kasutavad järgmisi koosteüksusi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Default report</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaikearuanne</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Row definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rea definitsioon</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru määratlus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Balance Sheet - Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bilanss – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Balance Sheet - Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bilanss – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>YTD and Variance - Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">YTD ja hälve – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Side by Side Balance Sheet – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõrvuti bilanss – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Side by Side Balance Sheet – Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõrvuti bilanss – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Year to Date Column - Default</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerg Aasta tänaseni – vaikimisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Row definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rea definitsioon</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mõlema bilansiaruande rea definitsioonid sisaldavad jaotisi iga tavalise bilansi osa puhul.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõrvutiaruanne sisaldab veerupiiri, nii et kohustus ja omakapital kuvatakse varade kõrval.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>The Main Account Category dimension is used to build both row definitions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Põhikonto kategooria dimensiooni kasutatakse mõlema readefinitsiooni loomiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Therefore, anyone can generate the reports without having to make any modifications.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seega saab igaüks luua aruanded ilma muudatusi tegemata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru määratlus</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>The column definitions contain different types of columns to provide different levels of detail and financial data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsioonid sisaldavad eri tüüpi veerge üksikasjade ja finantsandmete eri tasemete pakkumiseks.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">**</bpt>YTD and Variance – Default column types:<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>YTD ja hälve – vaikimisi veerutüübid:<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> – The description from the row definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> – kirjeldus readefinitsioonist</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Year-to-date financial data for the current year</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – jooksva aasta finantsandmed aasta algusest praeguse kuupäevani</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Year-to-date financial data for the last year</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – möödunud aasta finantsandmed aasta algusest praeguse kuupäevani</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> – The variance from subtracting last year from this year</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> – hälve möödunud aasta jooksvast aastast lahutamisest</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source><bpt id="p1">**</bpt>Year to Date Column – Default:<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Veerg Aasta tänaseni – vaikimisi:<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> – The description from the row definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> – kirjeldus readefinitsioonist</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Year-to-date financial data for the current year</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – jooksva aasta finantsandmed aasta algusest praeguse kuupäevani</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisaressursid</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source><bpt id="p1">[</bpt>Financial reporting<ept id="p1">](financial-reporting-getting-started.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Finantsaruandlus<ept id="p1">](financial-reporting-getting-started.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source><bpt id="p1">[</bpt>View financial reports<ept id="p1">](view-financial-reports.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Finantsaruannete vaatamine<ept id="p1">](view-financial-reports.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source><bpt id="p1">[</bpt>Dynamics Financial Reporting Blog<ept id="p1">](https://blogs.msdn.com/b/dynamics_financial_reporting/)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Dynamicsi finantsaruandluse ajaveeb<ept id="p1">](https://blogs.msdn.com/b/dynamics_financial_reporting/)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
