@@ -1,240 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="eur-00011-eu-sales-list-report.md" target-language="et-EE">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>eur-00011-eu-sales-list-report.8c82a6.9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\eur-00011-eu-sales-list-report.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>EUR-00011 Generate the EU sales list report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00011 EL-i müügiloendi aruande koostamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This procedure walks you through generating the EU sales list report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur juhatab teid läbi EL-i käibearuande koostamise protseduuri.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>EUR-00011 Generate the EU sales list report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00011 EL-i müügiloendi aruande koostamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This procedure walks you through generating the EU sales list report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur juhatab teid läbi EL-i käibearuande koostamise protseduuri.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This includes transferring intra-community trade transactions to the EU sales list and running the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See hõlmab ühendusesisese kaubanduse kannete edastamist ELi käibearuandesse ja aruande käivitamist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This  procedure also includes creating an intra-community trade transaction for demo purposes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur hõlmab ka ühendusesisese kaubanduse kande loomist demonstreerimiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>For more information about EU Sales list reporting, including required prerequisites, refer to the Dynamics 365 for Finance and Operations Help.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateavet EL-i müügiloendi aruandluse, sh nõutavate eeltingimuste kohta leiate spikrist Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>This procedure applies to all European countries/regions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur kohaldub kõigile Euroopa riikidele/piirkondadele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>The procedure was created using the demo data company DEMF and consequently Germany as an exemplar domestic country/region.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Protseduuri loomisel kasutatakse demoettevõtte DEMF andmeid, seega on kodumaise riigi/piirkonna näiteks Saksamaa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>The procedure also uses Portugal as an exemplar EU country/region.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Protseduur kasutab EL-i riigi/piirkonna näitena ka Portugali.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Before you can complete this procedure, you must configure EU sales list reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Enne selle protseduuri läbimist tuleb konfigureerida EL-i käibearuandlus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>This procedure is intended for accountants.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur on mõeldud raamatupidajatele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Create an intra-community sales transaction for demo purposes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ühendusesisese müügikande loomine demonstreerimiseks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Go to Accounts receivable &gt; Orders &gt; All sales orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Müügireskontro &gt; Tellimused &gt; Kõik müügitellimused.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Uus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>In the Customer account field, type 'PRT-001'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Kliendi konto tekst „PRT-001”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>In the Item number field, type 'D0001'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Kaubakood tüüp D0001.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Expand the Line details section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage jaotis Rea üksikasjad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Click the Setup tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake vahekaarti Seadistus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>In the Item sales tax group field, type 'FULL'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage FULL väljale Kauba käibemaksugrupp.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Click Add line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake käsku Lisa rida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>In the Item number field, type 'D0003'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Kaubakood tüüp D0003.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In the Item sales tax group field, type 'RED'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage RED väljale Kauba käibemaksugrupp.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake toimingupaanil valikut Arve.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Arve.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Expand the Parameters section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage jaotis Parameetrid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>In the Quantity field, select 'All'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal Kogus väärtus Kõik.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Expand the Setup section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage jaotist Seadistus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>In the Invoice date field, set the date to '01/11/2016'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Määrake väljal Arve kuupäev kuupäevaks 01/11/2016.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Transfer intra-community trade transactions to the EU sales list</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ühendusesisese kaubanduse kannete edastamine ELi käibearuandesse</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Go to Tax &gt; Declarations &gt; Foreign trade &gt; EU sales list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Maks &gt; Deklaratsioonid &gt; Väliskaubandus &gt; EL-i käibearuanne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Click Transfer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake käsku Ülekanne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Select Yes in the Item field to transfer item transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kauba kannete edastamiseks valige Jah väljal Kaup.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Select Yes in the Service field to transfer service transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teenuse kannete edastamiseks valige Jah väljal Teenus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>You can also specify additional filters on intra-community trade transactions to transfer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate määrata lisafiltreid ka edastatavatele ühendusesisese kaubanduse kannetele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Click Transfer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake käsku Ülekanne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Verify that the intra-community sales transaction is successfully transferred to the EU sales list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kontrollige, et ühendusesisene müügitehing on edukalt EL-i käibearuandesse edastatud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Generate the EU sales list report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EL-i käibearuande loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Click Reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake vahekaarti Aruandlus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>In the Reporting period field, select 'Monthly'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige Igakuine väljal Aruandlusperiood.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>In the From date field, set the date to '01/01/2016'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Määrake väljal Alguskuupäev kuupäevaks 01/01/2016.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Select Yes in the Generate file field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige Jah väljal Loo fail.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Select Yes in the Generate report field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige Jah väljal Loo aruanne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>In the File name field, type 'EUSalesList'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tippige väljale Faili nimi väärtus EUSalesList.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>In the Report file name field, type 'EUSalesList'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tippige väljale Aruandefaili nimi väärtus EUSalesList.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>In the EU Sales List Registration ID field, type '123'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tippige väljale EL-i käibearuande registreerimise ID väärtus 123.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>This field is only available for Germany.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See väli on saadaval ainult Saksamaa puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>You can also specify additional filters on intra-community trade transactions to include in the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate määrata lisafiltreid ka aruandesse lisatavatele ühendusesisese kaubanduse kannetele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Verify that pop-up windows appear to confirm that the file and the control report are being downloaded.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kontrollige, et kuvatakse hüpikaknad, mis kinnitavad faili ja kontrollaruande allalaadimist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Mark EU sales list lines as Reported</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ELi käibearuande ridade esitatuks märkimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Click Mark.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake käsku Märgi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Click Mark as reported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake käsku Märgi esitatuks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>In the list, select the row for the Invoice date field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige loendist välja Arve kuupäev rida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>In the Criteria field, type '01/01/2016..01/31/2016'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tippige väljale Kriteerium väärtus 01/01/2016..01/31/2016.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>In the list, select the row for the Reporting status field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige loendist rida väljale Aruandluse olek.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>In the Criteria field, select 'Included'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal Kriteeriumid väärtus Kaasatud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>You can also specify additional filters on intra-community trade transactions to mark as Reported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate määrata lisafiltreid ka edastatuks märgitavatele ühendusesisese kaubanduse kannetele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>In the Selection field, select 'Reported'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal Valik väärtus Esitatud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Mark EU sales list lines as Closed</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ELi käibearuande ridade suletuks märkimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Click Mark.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake käsku Märgi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Click Mark as closed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake käsku Märgi suletuks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>In the list, mark the row for the Invoice date field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige loendis välja Arve kuupäev rida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>In the Criteria field, type '01/01/2016..01/31/2016'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tippige väljale Kriteerium väärtus 01/01/2016..01/31/2016.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>In the list, mark the row for the Reporting status field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige loendis välja Aruandluse olek rida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>In the Criteria field, select ‘Reported’.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal Kriteeriumid väärtus Esitatud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>You can also specify additional filters on intra-community trade transactions to mark as Closed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate määrata lisafiltreid ka suletuks märgitavatele ühendusesisese kaubanduse kannetele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>In the Selection field, select 'Closed'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljal Valik väärtus Suletud.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: EUR-00011 EL-i müügiloendi aruande koostamine
+description: See protseduur juhatab teid läbi EL-i käibearuande koostamise protseduuri.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  EUSalesList, EUSalesListSelection, SysQueryForm, SysLookup
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
+ms.author: epopov
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564428"
+---
+# <a name="eur-00011-generate-the-eu-sales-list-report"></a>EUR-00011 EL-i müügiloendi aruande koostamine
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+See protseduur juhatab teid läbi EL-i käibearuande koostamise protseduuri. See hõlmab ühendusesisese kaubanduse kannete edastamist ELi käibearuandesse ja aruande käivitamist. See protseduur hõlmab ka ühendusesisese kaubanduse kande loomist demonstreerimiseks. Lisateavet EL-i müügiloendi aruandluse, sh nõutavate eeltingimuste kohta leiate spikrist Dynamics 365 for Finance and Operations.
+
+See protseduur kohaldub kõigile Euroopa riikidele/piirkondadele. Protseduuri loomisel kasutatakse demoettevõtte DEMF andmeid, seega on kodumaise riigi/piirkonna näiteks Saksamaa. Protseduur kasutab EL-i riigi/piirkonna näitena ka Portugali. Enne selle protseduuri läbimist tuleb konfigureerida EL-i käibearuandlus.
+
+See protseduur on mõeldud raamatupidajatele.
+
+
+## <a name="create-an-intra-community-sales-transaction-for-demo-purposes"></a>Ühendusesisese müügikande loomine demonstreerimiseks
+1. Avage Müügireskontro > Tellimused > Kõik müügitellimused.
+2. Klõpsake valikut Uus.
+3. Sisestage väljale Kliendi konto tekst „PRT-001”.
+4. Klõpsake nuppu OK.
+5. Sisestage väljale Kaubakood tüüp D0001.
+6. Laiendage jaotis Rea üksikasjad.
+7. Klõpsake vahekaarti Seadistus.
+8. Sisestage FULL väljale Kauba käibemaksugrupp.
+9. Klõpsake käsku Lisa rida.
+10. Sisestage väljale Kaubakood tüüp D0003.
+11. Sisestage RED väljale Kauba käibemaksugrupp.
+12. Klõpsake nuppu Salvesta.
+13. Klõpsake toimingupaanil valikut Arve.
+14. Klõpsake valikut Arve.
+15. Laiendage jaotis Parameetrid.
+16. Valige väljal Kogus väärtus Kõik.
+17. Laiendage jaotist Seadistus.
+18. Määrake väljal Arve kuupäev kuupäevaks 01/11/2016.
+19. Klõpsake nuppu OK.
+20. Klõpsake nuppu OK.
+
+## <a name="transfer-intra-community-trade-transactions-to-the-eu-sales-list"></a>Ühendusesisese kaubanduse kannete edastamine ELi käibearuandesse
+1. Avage Maks > Deklaratsioonid > Väliskaubandus > EL-i käibearuanne.
+2. Klõpsake käsku Ülekanne.
+3. Kauba kannete edastamiseks valige Jah väljal Kaup.
+4. Teenuse kannete edastamiseks valige Jah väljal Teenus.
+    * Saate määrata lisafiltreid ka edastatavatele ühendusesisese kaubanduse kannetele.  
+5. Klõpsake käsku Ülekanne.
+    * Kontrollige, et ühendusesisene müügitehing on edukalt EL-i käibearuandesse edastatud.  
+
+## <a name="generate-the-eu-sales-list-report"></a>EL-i käibearuande loomine
+1. Klõpsake vahekaarti Aruandlus.
+2. Valige Igakuine väljal Aruandlusperiood.
+3. Määrake väljal Alguskuupäev kuupäevaks 01/01/2016.
+4. Valige Jah väljal Loo fail.
+5. Valige Jah väljal Loo aruanne.
+6. Tippige väljale Faili nimi väärtus EUSalesList.
+7. Tippige väljale Aruandefaili nimi väärtus EUSalesList.
+8. Tippige väljale EL-i käibearuande registreerimise ID väärtus 123.
+    * See väli on saadaval ainult Saksamaa puhul.  
+    * Saate määrata lisafiltreid ka aruandesse lisatavatele ühendusesisese kaubanduse kannetele.  
+9. Klõpsake nuppu OK.
+    * Kontrollige, et kuvatakse hüpikaknad, mis kinnitavad faili ja kontrollaruande allalaadimist.  
+
+## <a name="mark-eu-sales-list-lines-as-reported"></a>ELi käibearuande ridade esitatuks märkimine
+1. Klõpsake käsku Märgi.
+2. Klõpsake käsku Märgi esitatuks.
+3. Valige loendist välja Arve kuupäev rida.
+4. Tippige väljale Kriteerium väärtus 01/01/2016..01/31/2016.
+5. Valige loendist rida väljale Aruandluse olek.
+6. Valige väljal Kriteeriumid väärtus Kaasatud.
+    * Saate määrata lisafiltreid ka edastatuks märgitavatele ühendusesisese kaubanduse kannetele.  
+7. Klõpsake nuppu OK.
+8. Valige väljal Valik väärtus Esitatud.
+
+## <a name="mark-eu-sales-list-lines-as-closed"></a>ELi käibearuande ridade suletuks märkimine
+1. Klõpsake käsku Märgi.
+2. Klõpsake käsku Märgi suletuks.
+3. Märkige loendis välja Arve kuupäev rida.
+4. Tippige väljale Kriteerium väärtus 01/01/2016..01/31/2016.
+5. Märkige loendis välja Aruandluse olek rida.
+6. Valige väljal Kriteeriumid väärtus Esitatud.
+    * Saate määrata lisafiltreid ka suletuks märgitavatele ühendusesisese kaubanduse kannetele.  
+7. Klõpsake nuppu OK.
+8. Valige väljal Valik väärtus Suletud.
+
