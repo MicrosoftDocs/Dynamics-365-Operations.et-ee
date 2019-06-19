@@ -1,378 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="emea-est-vat-statement-details.md" target-language="et-EE">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>emea-est-vat-statement-details.c340e2.1ec590c39f88382055b85df19a05c7ff94ef111d.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>1ec590c39f88382055b85df19a05c7ff94ef111d</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-est-vat-statement-details.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>VAT statement details for Estonia</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">KM-aruande üksikasjad Eesti puhul</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic explains how to set up a VAT statement for legal entities in Estonia.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>VAT statement details for Estonia</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">KM-aruande üksikasjad Eesti puhul</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic explains how to set up a VAT statement for legal entities in Estonia.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This topic includes country/region-specific information about the setup of the value-added tax (VAT) statement for legal entities in Estonia only.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See teema sisaldab riigi-/piirkonnakohast teavet käibemaksu (KM) aruande seadistamise kohta ainult Eestis asuvate juriidiliste isikute puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>For more information about the setup of VAT statements, see <bpt id="p1">[</bpt>VAT reporting<ept id="p1">](emea-vat-reporting.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateavet käibemaksuaruannete seadistamise kohta vt teemast <bpt id="p1">[</bpt>Käibemaksuaruanne<ept id="p1">](emea-vat-reporting.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Set up sales tax authorities</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksuhaldurite seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>To generate a VAT declaration in the correct format for the appropriate tax authority, you must set up the report layout for sales tax authorities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksuaruande loomist asjakohase maksuasutuse jaoks sobivas vormingus peate seadistama käibemaksuasutuste jaoks aruande paigutuse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>On the <bpt id="p1">**</bpt>Sales tax authorities<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>Report layout<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Estonian report layout<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke lehel <bpt id="p1">**</bpt>Käibemaksuasutused<ept id="p1">**</ept> väljal <bpt id="p2">**</bpt>Aruande paigutus<ept id="p2">**</ept> valik <bpt id="p3">**</bpt>Eesti aruande paigutus<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Select the same sales tax authority for the sales tax settlement period that will be used for the sales tax codes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige käibemaksu tasakaalustamisperioodi kohta sama käibemaksuasutus, mida kasutatakse käibemaksukoodide puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Set up sales tax reporting codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate häälestada käibemaksuaruandluse koode.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Here is an example that shows how you can use sales tax reporting codes to generate VAT statements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises näites selgitatakse käibemaksuaruande koodide kasutamist käibemaksuaruannete loomiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Sales tax reporting code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksu aruandluskood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Line on the VAT return (KMD)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksutagastuse rida (KMD)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Acts and transactions that are subject to tax at a rate of 20 percent</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lepped ja kanded, millele kehtib 20-protsendine maksumäär</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>11</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">11</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Self-supply of goods or services that are taxable at 20 percent</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20 protsendiga maksustavate kaupade või teenuste isevarustamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>1.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1,1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Acts and transactions that are subject to tax at a rate of 9 percent</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lepped ja kanded, millele kehtib 9-protsendine maksumäär</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>21</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Self-supply of goods or services that are taxable at 9 percent</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">9 protsendiga maksustavate kaupade või teenuste isevarustamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>2.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2,1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Acts and transactions that are subject to tax at a rate of 0 percent, inclusive</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lepped ja kanded, millele kehtib 0-protsendine maksumäär. k.a</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>31</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">31</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Total intra-community supply of goods and services that are provided to a taxable person of another member state/taxable person that has limited liability, inclusive</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupade ja teenuste täielik sisetarne teise liikmesriigi maksukohuslasele / piiratud vastutusega maksukohustuslasele, k.a</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>3.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>311</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">311</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Intra-community supply of goods</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupade sisetarne</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>3.1.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3.1.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>32</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Export of goods, inclusive</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupade eksport, k.a</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>3.2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3.2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>321</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">321</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Sale to passengers that involves the return of VAT</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müük reisijatele, mis hõlmab käibemaksu tagastamist</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>3.2.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3.2.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>5</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Total amount of input VAT that is subject to deduction according to law, inclusive</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisendkäibemaksu kogusumma, millele kohaldub mahaarvamine vastavalt seadusele, k.a</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>5</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>51</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">51</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>VAT that is paid or payable on import</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importimisel tasutud või tasutav käibemaks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>5.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>52</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">52</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>VAT that is paid or payable on the acquisition of fixed assets</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Põhivara soetamisel tasutud või tasutav käibemaks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>5.2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5.2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>6</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Total intra-community acquisitions of goods and services that are received from a taxable person of another member state, inclusive</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupade ja teenuste täielik sisesoetus teise liikmesriigi maksukohuslaselt, k.a</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>6</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>61</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">61</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Intra-community acquisitions of goods</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupade sisesoetus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>6.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>7</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Acquisition of other goods and services that are subject to VAT, inclusive</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Muude kaupade ja teenuste soetus, millele kohaldub käibemaks, k.a</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>7</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>71</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">71</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Acquisition of immovables and metal waste that are taxable by special arrangements for the imposition of VAT on immovables, metal waste, and precious metals (VAT Act §41)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kinnisvara ja metallijäätmete soetus, mis on käibemaksuga maksustatavad kinnisvara, metallijäätmete ja väärismetallide erikorra alusel (Käibemaksuseaduse §41).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>7.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>8</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Supply that is exempt from tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksuvabastusega tarne</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>8</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>9</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">9</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Supply of goods that are taxable by special arrangements for the imposition of VAT on immovable, metal waste, and precious metals (VAT Act §1 41), and the taxable value of goods that will be installed or assembled in another member state</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupade tarne, mis on käibemaksuga maksustatavad kinnisvara, metallijäätmete ja väärismetallide erikorralduste alusel (Käibemaksuseaduse §41 1).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>9</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">9</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>1010</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1010</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Adjustments (+)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Korrigeerimised (+)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>1011</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1011</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Adjustments (–)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Korrigeerimised (–)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>11</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">11</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Set up VAT declaration tax codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksudeklaratsiooni maksukoodide seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>The VAT declaration tax codes are used to map sales tax codes to values that are required in the declaration (20, 9, 20erikord, or 9erikord).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksudeklaratsiooni maksukoode kasutatakse käibemaksukoodide vastendamiseks deklaratsioonis nõutavate väärtustega (20, 9, 20erikord või 9erikord).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>In addition, for every tax code, you can specify optional sales and purchase comment codes (01, 02, or 03 for sales, and 11 or 12 for purchases).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Peale selle saate iga maksukoodi puhul määrata valikulised müügi- ja ostu seletuskoodid (01, 02 või 03 müügi puhul, 11 või 12 ostu puhul).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>To set up VAT declaration tax codes, on the <bpt id="p1">**</bpt>VAT declaration tax code<ept id="p1">**</ept> page, set the following fields.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksudeklaratsiooni maksukoodide seadistamiseks määrake lehel <bpt id="p1">**</bpt>Käibemaksudeklaratsiooni maksukood<ept id="p1">**</ept> järgmised väljad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väli</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Sales tax code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksukood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Select the sales tax code that is used for sales or purchase invoices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige käibemaksukood, mida kasutatakse müügi- või ostuarvete puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>VAT declaration tax code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksudeklaratsiooni maksukood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>Enter the code that will appear on the declaration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage deklaratsioonil kuvatav kood.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>Special code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Erikood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Enter the comment code that will appear in the sales and purchase annexes of the declaration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage seletuskood, mis kuvatakse deklaratsiooni müügi- ja ostulisades.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Configure the Electronic reporting model and format for the report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektroonilise aruandlusmudeli ja aruande vormingu konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>To review or change the VAT statement configuration, on the <bpt id="p1">**</bpt>Reporting configurations<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>VAT declaration model<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksuaruande konfiguratsiooni vaatamiseks või muutmiseks tehke lehel <bpt id="p1">**</bpt>Aruandluse konfiguratsioonid<ept id="p1">**</ept> valik <bpt id="p2">**</bpt>Käibemaksudeklaratsiooni mudel<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>This same model is used for Austria, Czech Republic, Estonia, Finland, Latvia, and Lithuania, and for aggregate tax data that is required for the VAT declaration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sama mudelit kasutatakse Austria, Tšehhi Vabariigi, Eesti, Soome, Läti ja Leedu puhul ning koondmaksuandmete puhul, mis on käibemaksudeklaratsiooni jaoks nõutavad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Click <bpt id="p1">**</bpt>Designer<ept id="p1">**</ept> to review or change the model.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mudeli ülevaatamiseks või muutmiseks klõpsake valikut <bpt id="p1">**</bpt>Kujundaja<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>To review or change the VAT statement format, on the <bpt id="p1">**</bpt>Reporting configurations<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>VAT declaration model<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Designer<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksuaruande vormingu vaatamiseks või muutmiseks tehke lehel <bpt id="p1">**</bpt>Aruandluse konfiguratsioonid<ept id="p1">**</ept> valik <bpt id="p2">**</bpt>Käibemaksudeklaratsiooni mudel<ept id="p2">**</ept> ja seejärel klõpsake valikut <bpt id="p3">**</bpt>Kujundaja<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Generate a VAT statement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksuaruande loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>At the end of the VAT reporting period, the Settle and post sales tax process calculates statement line amounts for the definition of sales tax reporting codes that you created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksu aruandlusperioodi lõpus arvutab käibemaksu tasakaalustamise ja sisestamise protsess aruande reasummad teie loodud käibemaksu aruandluskoodide määratlemiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>If the company must use the date of the VAT register instead of the tax transaction date, the <bpt id="p1">**</bpt>Date of Vat register<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>General ledger parameters<ept id="p2">**</ept> page must be selected.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui ettevõte peab kasutama käibemaksukande kuupäeva asemel käibemaksuregistri kuupäeva, peab väli <bpt id="p1">**</bpt>Käibemaksuregistri kuupäev<ept id="p1">**</ept> lehel <bpt id="p2">**</bpt>Pearaamatu parameetrid<ept id="p2">**</ept> olema valitud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source><bpt id="p1">**</bpt>Estonian report layout<ept id="p1">**</ept> must be selected as the report layout of the sales tax authority that is configured for the settlement period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tasakaalustamisperioodi jaoks konfigureeritud käibemaksuasutuse aruande paigutusena peab olema valitud <bpt id="p1">**</bpt>Eesti aruandepaigutus<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>If the <bpt id="p1">**</bpt>Conditional sales tax<ept id="p1">**</ept> field is selected on the <bpt id="p2">**</bpt>General ledger parameters<ept id="p2">**</ept> page, the Estonian VAT declaration will support the Cash accounting scheme, and the Sales and Purchase annexes must be completed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui lehel <bpt id="p2">**</bpt>Pearaamatu parameetrid<ept id="p2">**</ept> on valitud väli <bpt id="p1">**</bpt>Tingimuslik käibemaks<ept id="p1">**</ept>, toetab Eesti käibemaksudeklaratsioon sularahaarvestuse skeemi ning müügi- ja ostulisad peavad olema täidetud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>To generate a VAT XML file, on the <bpt id="p1">**</bpt>Sales tax payments<ept id="p1">**</ept> page, select one or more vouchers, and then click <bpt id="p2">**</bpt>Export VAT XML file<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksu XML-faili loomiseks valige lehel <bpt id="p1">**</bpt>Käibemaksu maksed<ept id="p1">**</ept> üks või mitu kannet ja klõpsake valikut <bpt id="p2">**</bpt>Ekspordi käibemaksu XML-fail<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source><bpt id="p1">**</bpt>Notes:<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Märkused.<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>You can select more than one sales tax payment line for each requested period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate iga nõutud perioodi kohta valida rohkem kui ühe käibemaksu makserea.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>If the selected lines occurred in more than one settlement period, you receive an error message.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui valitud read esinevad rohkem kui ühes tasakaalustamisperioodis, saate tõrketeate.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Then set the following fields.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seejärel määrake järgmised väljad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väli</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Format mapping</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormingu vastendamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Specify the name and path of the exported XML file.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Määrake eksporditud XML-faili nimi ja tee.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Name</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nimi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Specify the employee who creates the declaration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Määrake töötaja, kes loob deklaratsiooni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Declaration period type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deklaratsiooni perioodi tüüp</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Select one of the following declaration types: <bpt id="p1">**</bpt>Normal<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Bankruptcy<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige üks järgmistest deklaratsioonitüüpidest: <bpt id="p1">**</bpt>Tavaline<ept id="p1">**</ept> või <bpt id="p2">**</bpt>Pankrot<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Invoice threshold</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arve lävi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Specify the minimum total net amount of invoices per customer or vendor in a reporting period that must be included in the annexes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Määrake lisadesse kaasatav arvete minimaalne kogu netosumma kliendi või hankija kohta aruandlusperioodil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Declaration (In the <bpt id="p1">**</bpt>Export<ept id="p1">**</ept> field group)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deklaratsioon (väljagrupis <bpt id="p1">**</bpt>Eksport<ept id="p1">**</ept>)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Set this option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to export the declaration body.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deklaratsiooni kehateksti eksportimiseks määrake selle valiku sätteks <bpt id="p1">**</bpt>Jah<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Sales annex (In the <bpt id="p1">**</bpt>Export<ept id="p1">**</ept> field group)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müügilisa (väljagrupis <bpt id="p1">**</bpt>Eksport<ept id="p1">**</ept>)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>Set this option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to export invoices and credit notes in the Sales annex.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvete ja kreeditarvete eksportimiseks müügilisasse määrake selle valiku sätteks <bpt id="p1">**</bpt>Jah<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>Purchase annex (In the <bpt id="p1">**</bpt>Export<ept id="p1">**</ept> field group)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostulisa (väljagrupis <bpt id="p1">**</bpt>Eksport<ept id="p1">**</ept>)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>Set this option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to export invoices and credit notes in the Purchase annex.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvete ja kreeditarvete eksportimiseks ostulisasse määrake selle valiku sätteks <bpt id="p1">**</bpt>Jah<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> The field values in the <bpt id="p2">**</bpt>Period<ept id="p2">**</ept> field group are entered automatically, based on options on the <bpt id="p3">**</bpt>Sales tax settlement periods<ept id="p3">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Märkus.<ept id="p1">**</ept> Väljade väärtused väljagrupis <bpt id="p2">**</bpt>Periood<ept id="p2">**</ept> sisestatakse automaatselt lehel <bpt id="p3">**</bpt>Käibemaksu tasakaalustusperioodid<ept id="p3">**</ept> tehtud valikute põhjal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>To set up sales tax settlement periods, go to the <bpt id="p1">**</bpt>Sales tax settlement periods<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksu tasakaalustusperioodid saate seadistada lehel <bpt id="p1">**</bpt>Käibemaksu tasakaalustamisperioodid<ept id="p1">**</ept>.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: KM-aruande üksikasjad Eesti puhul
+description: See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: TaxPeriod, TaxReportCollection, TaxReportVoucher
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 266904
+ms.search.region: Estonia
+ms.author: v-elgolu
+ms.search.validFrom: 2016-05-31
+ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 1ec590c39f88382055b85df19a05c7ff94ef111d
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547212"
+---
+# <a name="vat-statement-details-for-estonia"></a><span data-ttu-id="33038-103">KM-aruande üksikasjad Eesti puhul</span><span class="sxs-lookup"><span data-stu-id="33038-103">VAT statement details for Estonia</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="33038-104">See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul.</span><span class="sxs-lookup"><span data-stu-id="33038-104">This topic explains how to set up a VAT statement for legal entities in Estonia.</span></span>
+
+<span data-ttu-id="33038-105">See teema sisaldab riigi-/piirkonnakohast teavet käibemaksu (KM) aruande seadistamise kohta ainult Eestis asuvate juriidiliste isikute puhul.</span><span class="sxs-lookup"><span data-stu-id="33038-105">This topic includes country/region-specific information about the setup of the value-added tax (VAT) statement for legal entities in Estonia only.</span></span> <span data-ttu-id="33038-106">Lisateavet käibemaksuaruannete seadistamise kohta vt teemast [Käibemaksuaruanne](emea-vat-reporting.md).</span><span class="sxs-lookup"><span data-stu-id="33038-106">For more information about the setup of VAT statements, see [VAT reporting](emea-vat-reporting.md).</span></span>
+
+## <a name="set-up-sales-tax-authorities"></a><span data-ttu-id="33038-107">Maksuhaldurite seadistamine</span><span class="sxs-lookup"><span data-stu-id="33038-107">Set up sales tax authorities</span></span>
+<span data-ttu-id="33038-108">Käibemaksuaruande loomist asjakohase maksuasutuse jaoks sobivas vormingus peate seadistama käibemaksuasutuste jaoks aruande paigutuse.</span><span class="sxs-lookup"><span data-stu-id="33038-108">To generate a VAT declaration in the correct format for the appropriate tax authority, you must set up the report layout for sales tax authorities.</span></span> <span data-ttu-id="33038-109">Tehke lehel **Käibemaksuasutused** väljal **Aruande paigutus** valik **Eesti aruande paigutus**.</span><span class="sxs-lookup"><span data-stu-id="33038-109">On the **Sales tax authorities** page, in the **Report layout** field, select **Estonian report layout**.</span></span> <span data-ttu-id="33038-110">Valige käibemaksu tasakaalustamisperioodi kohta sama käibemaksuasutus, mida kasutatakse käibemaksukoodide puhul.</span><span class="sxs-lookup"><span data-stu-id="33038-110">Select the same sales tax authority for the sales tax settlement period that will be used for the sales tax codes.</span></span>
+
+## <a name="set-up-sales-tax-reporting-codes"></a><span data-ttu-id="33038-111">Saate häälestada käibemaksuaruandluse koode.</span><span class="sxs-lookup"><span data-stu-id="33038-111">Set up sales tax reporting codes</span></span>
+<span data-ttu-id="33038-112">Järgmises näites selgitatakse käibemaksuaruande koodide kasutamist käibemaksuaruannete loomiseks.</span><span class="sxs-lookup"><span data-stu-id="33038-112">Here is an example that shows how you can use sales tax reporting codes to generate VAT statements.</span></span>
+
+| <span data-ttu-id="33038-113">Käibemaksu aruandluskood</span><span class="sxs-lookup"><span data-stu-id="33038-113">Sales tax reporting code</span></span> | <span data-ttu-id="33038-114">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="33038-114">Description</span></span>                                                                                                                                                                                                                                   | <span data-ttu-id="33038-115">Käibemaksutagastuse rida (KMD)</span><span class="sxs-lookup"><span data-stu-id="33038-115">Line on the VAT return (KMD)</span></span> |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
+| <span data-ttu-id="33038-116">1</span><span class="sxs-lookup"><span data-stu-id="33038-116">1</span></span>                        | <span data-ttu-id="33038-117">Lepped ja kanded, millele kehtib 20-protsendine maksumäär</span><span class="sxs-lookup"><span data-stu-id="33038-117">Acts and transactions that are subject to tax at a rate of 20 percent</span></span>                                                                                                                                                                         | <span data-ttu-id="33038-118">1</span><span class="sxs-lookup"><span data-stu-id="33038-118">1</span></span>                            |
+| <span data-ttu-id="33038-119">11</span><span class="sxs-lookup"><span data-stu-id="33038-119">11</span></span>                       | <span data-ttu-id="33038-120">20 protsendiga maksustavate kaupade või teenuste isevarustamine</span><span class="sxs-lookup"><span data-stu-id="33038-120">Self-supply of goods or services that are taxable at 20 percent</span></span>                                                                                                                                                                               | <span data-ttu-id="33038-121">1,1</span><span class="sxs-lookup"><span data-stu-id="33038-121">1.1</span></span>                          |
+| <span data-ttu-id="33038-122">2</span><span class="sxs-lookup"><span data-stu-id="33038-122">2</span></span>                        | <span data-ttu-id="33038-123">Lepped ja kanded, millele kehtib 9-protsendine maksumäär</span><span class="sxs-lookup"><span data-stu-id="33038-123">Acts and transactions that are subject to tax at a rate of 9 percent</span></span>                                                                                                                                                                          | <span data-ttu-id="33038-124">2</span><span class="sxs-lookup"><span data-stu-id="33038-124">2</span></span>                            |
+| <span data-ttu-id="33038-125">21</span><span class="sxs-lookup"><span data-stu-id="33038-125">21</span></span>                       | <span data-ttu-id="33038-126">9 protsendiga maksustavate kaupade või teenuste isevarustamine</span><span class="sxs-lookup"><span data-stu-id="33038-126">Self-supply of goods or services that are taxable at 9 percent</span></span>                                                                                                                                                                                | <span data-ttu-id="33038-127">2,1</span><span class="sxs-lookup"><span data-stu-id="33038-127">2.1</span></span>                          |
+| <span data-ttu-id="33038-128">3</span><span class="sxs-lookup"><span data-stu-id="33038-128">3</span></span>                        | <span data-ttu-id="33038-129">Lepped ja kanded, millele kehtib 0-protsendine maksumäär. k.a</span><span class="sxs-lookup"><span data-stu-id="33038-129">Acts and transactions that are subject to tax at a rate of 0 percent, inclusive</span></span>                                                                                                                                                               | <span data-ttu-id="33038-130">3</span><span class="sxs-lookup"><span data-stu-id="33038-130">3</span></span>                            |
+| <span data-ttu-id="33038-131">31</span><span class="sxs-lookup"><span data-stu-id="33038-131">31</span></span>                       | <span data-ttu-id="33038-132">Kaupade ja teenuste täielik sisetarne teise liikmesriigi maksukohuslasele / piiratud vastutusega maksukohustuslasele, k.a</span><span class="sxs-lookup"><span data-stu-id="33038-132">Total intra-community supply of goods and services that are provided to a taxable person of another member state/taxable person that has limited liability, inclusive</span></span>                                                                         | <span data-ttu-id="33038-133">3.1</span><span class="sxs-lookup"><span data-stu-id="33038-133">3.1</span></span>                          |
+| <span data-ttu-id="33038-134">311</span><span class="sxs-lookup"><span data-stu-id="33038-134">311</span></span>                      | <span data-ttu-id="33038-135">Kaupade sisetarne</span><span class="sxs-lookup"><span data-stu-id="33038-135">Intra-community supply of goods</span></span>                                                                                                                                                                                                               | <span data-ttu-id="33038-136">3.1.1</span><span class="sxs-lookup"><span data-stu-id="33038-136">3.1.1</span></span>                        |
+| <span data-ttu-id="33038-137">32</span><span class="sxs-lookup"><span data-stu-id="33038-137">32</span></span>                       | <span data-ttu-id="33038-138">Kaupade eksport, k.a</span><span class="sxs-lookup"><span data-stu-id="33038-138">Export of goods, inclusive</span></span>                                                                                                                                                                                                                    | <span data-ttu-id="33038-139">3.2</span><span class="sxs-lookup"><span data-stu-id="33038-139">3.2</span></span>                          |
+| <span data-ttu-id="33038-140">321</span><span class="sxs-lookup"><span data-stu-id="33038-140">321</span></span>                      | <span data-ttu-id="33038-141">Müük reisijatele, mis hõlmab käibemaksu tagastamist</span><span class="sxs-lookup"><span data-stu-id="33038-141">Sale to passengers that involves the return of VAT</span></span>                                                                                                                                                                                            | <span data-ttu-id="33038-142">3.2.1</span><span class="sxs-lookup"><span data-stu-id="33038-142">3.2.1</span></span>                        |
+| <span data-ttu-id="33038-143">5</span><span class="sxs-lookup"><span data-stu-id="33038-143">5</span></span>                        | <span data-ttu-id="33038-144">Sisendkäibemaksu kogusumma, millele kohaldub mahaarvamine vastavalt seadusele, k.a</span><span class="sxs-lookup"><span data-stu-id="33038-144">Total amount of input VAT that is subject to deduction according to law, inclusive</span></span>                                                                                                                                                            | <span data-ttu-id="33038-145">5</span><span class="sxs-lookup"><span data-stu-id="33038-145">5</span></span>                            |
+| <span data-ttu-id="33038-146">51</span><span class="sxs-lookup"><span data-stu-id="33038-146">51</span></span>                       | <span data-ttu-id="33038-147">Importimisel tasutud või tasutav käibemaks</span><span class="sxs-lookup"><span data-stu-id="33038-147">VAT that is paid or payable on import</span></span>                                                                                                                                                                                                         | <span data-ttu-id="33038-148">5.1</span><span class="sxs-lookup"><span data-stu-id="33038-148">5.1</span></span>                          |
+| <span data-ttu-id="33038-149">52</span><span class="sxs-lookup"><span data-stu-id="33038-149">52</span></span>                       | <span data-ttu-id="33038-150">Põhivara soetamisel tasutud või tasutav käibemaks</span><span class="sxs-lookup"><span data-stu-id="33038-150">VAT that is paid or payable on the acquisition of fixed assets</span></span>                                                                                                                                                                                | <span data-ttu-id="33038-151">5.2</span><span class="sxs-lookup"><span data-stu-id="33038-151">5.2</span></span>                          |
+| <span data-ttu-id="33038-152">6</span><span class="sxs-lookup"><span data-stu-id="33038-152">6</span></span>                        | <span data-ttu-id="33038-153">Kaupade ja teenuste täielik sisesoetus teise liikmesriigi maksukohuslaselt, k.a</span><span class="sxs-lookup"><span data-stu-id="33038-153">Total intra-community acquisitions of goods and services that are received from a taxable person of another member state, inclusive</span></span>                                                                                                           | <span data-ttu-id="33038-154">6</span><span class="sxs-lookup"><span data-stu-id="33038-154">6</span></span>                            |
+| <span data-ttu-id="33038-155">61</span><span class="sxs-lookup"><span data-stu-id="33038-155">61</span></span>                       | <span data-ttu-id="33038-156">Kaupade sisesoetus</span><span class="sxs-lookup"><span data-stu-id="33038-156">Intra-community acquisitions of goods</span></span>                                                                                                                                                                                                         | <span data-ttu-id="33038-157">6.1</span><span class="sxs-lookup"><span data-stu-id="33038-157">6.1</span></span>                          |
+| <span data-ttu-id="33038-158">7</span><span class="sxs-lookup"><span data-stu-id="33038-158">7</span></span>                        | <span data-ttu-id="33038-159">Muude kaupade ja teenuste soetus, millele kohaldub käibemaks, k.a</span><span class="sxs-lookup"><span data-stu-id="33038-159">Acquisition of other goods and services that are subject to VAT, inclusive</span></span>                                                                                                                                                                    | <span data-ttu-id="33038-160">7</span><span class="sxs-lookup"><span data-stu-id="33038-160">7</span></span>                            |
+| <span data-ttu-id="33038-161">71</span><span class="sxs-lookup"><span data-stu-id="33038-161">71</span></span>                       | <span data-ttu-id="33038-162">Kinnisvara ja metallijäätmete soetus, mis on käibemaksuga maksustatavad kinnisvara, metallijäätmete ja väärismetallide erikorra alusel (Käibemaksuseaduse §41).</span><span class="sxs-lookup"><span data-stu-id="33038-162">Acquisition of immovables and metal waste that are taxable by special arrangements for the imposition of VAT on immovables, metal waste, and precious metals (VAT Act §41)</span></span>                                                                    | <span data-ttu-id="33038-163">7.1</span><span class="sxs-lookup"><span data-stu-id="33038-163">7.1</span></span>                          |
+| <span data-ttu-id="33038-164">8</span><span class="sxs-lookup"><span data-stu-id="33038-164">8</span></span>                        | <span data-ttu-id="33038-165">Maksuvabastusega tarne</span><span class="sxs-lookup"><span data-stu-id="33038-165">Supply that is exempt from tax</span></span>                                                                                                                                                                                                                | <span data-ttu-id="33038-166">8</span><span class="sxs-lookup"><span data-stu-id="33038-166">8</span></span>                            |
+| <span data-ttu-id="33038-167">9</span><span class="sxs-lookup"><span data-stu-id="33038-167">9</span></span>                        | <span data-ttu-id="33038-168">Kaupade tarne, mis on käibemaksuga maksustatavad kinnisvara, metallijäätmete ja väärismetallide erikorralduste alusel (Käibemaksuseaduse §41 1).</span><span class="sxs-lookup"><span data-stu-id="33038-168">Supply of goods that are taxable by special arrangements for the imposition of VAT on immovable, metal waste, and precious metals (VAT Act §1 41), and the taxable value of goods that will be installed or assembled in another member state</span></span> | <span data-ttu-id="33038-169">9</span><span class="sxs-lookup"><span data-stu-id="33038-169">9</span></span>                            |
+| <span data-ttu-id="33038-170">1010</span><span class="sxs-lookup"><span data-stu-id="33038-170">1010</span></span>                     | <span data-ttu-id="33038-171">Korrigeerimised (+)</span><span class="sxs-lookup"><span data-stu-id="33038-171">Adjustments (+)</span></span>                                                                                                                                                                                                                               | <span data-ttu-id="33038-172">10</span><span class="sxs-lookup"><span data-stu-id="33038-172">10</span></span>                           |
+| <span data-ttu-id="33038-173">1011</span><span class="sxs-lookup"><span data-stu-id="33038-173">1011</span></span>                     | <span data-ttu-id="33038-174">Korrigeerimised (–)</span><span class="sxs-lookup"><span data-stu-id="33038-174">Adjustments (–)</span></span>                                                                                                                                                                                                                               | <span data-ttu-id="33038-175">11</span><span class="sxs-lookup"><span data-stu-id="33038-175">11</span></span>                           |
+
+## <a name="set-up-vat-declaration-tax-codes"></a><span data-ttu-id="33038-176">Käibemaksudeklaratsiooni maksukoodide seadistamine</span><span class="sxs-lookup"><span data-stu-id="33038-176">Set up VAT declaration tax codes</span></span>
+<span data-ttu-id="33038-177">Käibemaksudeklaratsiooni maksukoode kasutatakse käibemaksukoodide vastendamiseks deklaratsioonis nõutavate väärtustega (20, 9, 20erikord või 9erikord).</span><span class="sxs-lookup"><span data-stu-id="33038-177">The VAT declaration tax codes are used to map sales tax codes to values that are required in the declaration (20, 9, 20erikord, or 9erikord).</span></span> <span data-ttu-id="33038-178">Peale selle saate iga maksukoodi puhul määrata valikulised müügi- ja ostu seletuskoodid (01, 02 või 03 müügi puhul, 11 või 12 ostu puhul).</span><span class="sxs-lookup"><span data-stu-id="33038-178">In addition, for every tax code, you can specify optional sales and purchase comment codes (01, 02, or 03 for sales, and 11 or 12 for purchases).</span></span> <span data-ttu-id="33038-179">Käibemaksudeklaratsiooni maksukoodide seadistamiseks määrake lehel **Käibemaksudeklaratsiooni maksukood** järgmised väljad.</span><span class="sxs-lookup"><span data-stu-id="33038-179">To set up VAT declaration tax codes, on the **VAT declaration tax code** page, set the following fields.</span></span>
+
+| <span data-ttu-id="33038-180">Väli</span><span class="sxs-lookup"><span data-stu-id="33038-180">Field</span></span>                    | <span data-ttu-id="33038-181">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="33038-181">Description</span></span>                                                                                   |
+|--------------------------|-----------------------------------------------------------------------------------------------|
+| <span data-ttu-id="33038-182">Käibemaksukood</span><span class="sxs-lookup"><span data-stu-id="33038-182">Sales tax code</span></span>           | <span data-ttu-id="33038-183">Märkige käibemaksukood, mida kasutatakse müügi- või ostuarvete puhul.</span><span class="sxs-lookup"><span data-stu-id="33038-183">Select the sales tax code that is used for sales or purchase invoices.</span></span>                        |
+| <span data-ttu-id="33038-184">Käibemaksudeklaratsiooni maksukood</span><span class="sxs-lookup"><span data-stu-id="33038-184">VAT declaration tax code</span></span> | <span data-ttu-id="33038-185">Sisestage deklaratsioonil kuvatav kood.</span><span class="sxs-lookup"><span data-stu-id="33038-185">Enter the code that will appear on the declaration.</span></span>                                           |
+| <span data-ttu-id="33038-186">Erikood</span><span class="sxs-lookup"><span data-stu-id="33038-186">Special code</span></span>             | <span data-ttu-id="33038-187">Sisestage seletuskood, mis kuvatakse deklaratsiooni müügi- ja ostulisades.</span><span class="sxs-lookup"><span data-stu-id="33038-187">Enter the comment code that will appear in the sales and purchase annexes of the declaration.</span></span> |
+
+## <a name="configure-the-electronic-reporting-model-and-format-for-the-report"></a><span data-ttu-id="33038-188">Elektroonilise aruandlusmudeli ja aruande vormingu konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="33038-188">Configure the Electronic reporting model and format for the report</span></span>
+<span data-ttu-id="33038-189">Käibemaksuaruande konfiguratsiooni vaatamiseks või muutmiseks tehke lehel **Aruandluse konfiguratsioonid** valik **Käibemaksudeklaratsiooni mudel**.</span><span class="sxs-lookup"><span data-stu-id="33038-189">To review or change the VAT statement configuration, on the **Reporting configurations** page, select **VAT declaration model**.</span></span> <span data-ttu-id="33038-190">Sama mudelit kasutatakse Austria, Tšehhi Vabariigi, Eesti, Soome, Läti ja Leedu puhul ning koondmaksuandmete puhul, mis on käibemaksudeklaratsiooni jaoks nõutavad.</span><span class="sxs-lookup"><span data-stu-id="33038-190">This same model is used for Austria, Czech Republic, Estonia, Finland, Latvia, and Lithuania, and for aggregate tax data that is required for the VAT declaration.</span></span> <span data-ttu-id="33038-191">Mudeli ülevaatamiseks või muutmiseks klõpsake valikut **Kujundaja**.</span><span class="sxs-lookup"><span data-stu-id="33038-191">Click **Designer** to review or change the model.</span></span> <span data-ttu-id="33038-192">Käibemaksuaruande vormingu vaatamiseks või muutmiseks tehke lehel **Aruandluse konfiguratsioonid** valik **Käibemaksudeklaratsiooni mudel** ja seejärel klõpsake valikut **Kujundaja**.</span><span class="sxs-lookup"><span data-stu-id="33038-192">To review or change the VAT statement format, on the **Reporting configurations** page, select **VAT declaration model**, and then click **Designer**.</span></span>
+
+## <a name="generate-a-vat-statement"></a><span data-ttu-id="33038-193">Käibemaksuaruande loomine</span><span class="sxs-lookup"><span data-stu-id="33038-193">Generate a VAT statement</span></span>
+<span data-ttu-id="33038-194">Käibemaksu aruandlusperioodi lõpus arvutab käibemaksu tasakaalustamise ja sisestamise protsess aruande reasummad teie loodud käibemaksu aruandluskoodide määratlemiseks.</span><span class="sxs-lookup"><span data-stu-id="33038-194">At the end of the VAT reporting period, the Settle and post sales tax process calculates statement line amounts for the definition of sales tax reporting codes that you created.</span></span>
+
+-   <span data-ttu-id="33038-195">Kui ettevõte peab kasutama käibemaksukande kuupäeva asemel käibemaksuregistri kuupäeva, peab väli **Käibemaksuregistri kuupäev** lehel **Pearaamatu parameetrid** olema valitud.</span><span class="sxs-lookup"><span data-stu-id="33038-195">If the company must use the date of the VAT register instead of the tax transaction date, the **Date of Vat register** field on the **General ledger parameters** page must be selected.</span></span>
+-   <span data-ttu-id="33038-196">Tasakaalustamisperioodi jaoks konfigureeritud käibemaksuasutuse aruande paigutusena peab olema valitud **Eesti aruandepaigutus**.</span><span class="sxs-lookup"><span data-stu-id="33038-196">**Estonian report layout** must be selected as the report layout of the sales tax authority that is configured for the settlement period.</span></span>
+-   <span data-ttu-id="33038-197">Kui lehel **Pearaamatu parameetrid** on valitud väli **Tingimuslik käibemaks**, toetab Eesti käibemaksudeklaratsioon sularahaarvestuse skeemi ning müügi- ja ostulisad peavad olema täidetud.</span><span class="sxs-lookup"><span data-stu-id="33038-197">If the **Conditional sales tax** field is selected on the **General ledger parameters** page, the Estonian VAT declaration will support the Cash accounting scheme, and the Sales and Purchase annexes must be completed.</span></span>
+
+<span data-ttu-id="33038-198">Käibemaksu XML-faili loomiseks valige lehel **Käibemaksu maksed** üks või mitu kannet ja klõpsake valikut **Ekspordi käibemaksu XML-fail**.</span><span class="sxs-lookup"><span data-stu-id="33038-198">To generate a VAT XML file, on the **Sales tax payments** page, select one or more vouchers, and then click **Export VAT XML file**.</span></span> <span data-ttu-id="33038-199">**Märkused.**</span><span class="sxs-lookup"><span data-stu-id="33038-199">**Notes:**</span></span>
+
+-   <span data-ttu-id="33038-200">Saate iga nõutud perioodi kohta valida rohkem kui ühe käibemaksu makserea.</span><span class="sxs-lookup"><span data-stu-id="33038-200">You can select more than one sales tax payment line for each requested period.</span></span>
+-   <span data-ttu-id="33038-201">Kui valitud read esinevad rohkem kui ühes tasakaalustamisperioodis, saate tõrketeate.</span><span class="sxs-lookup"><span data-stu-id="33038-201">If the selected lines occurred in more than one settlement period, you receive an error message.</span></span>
+
+<span data-ttu-id="33038-202">Seejärel määrake järgmised väljad.</span><span class="sxs-lookup"><span data-stu-id="33038-202">Then set the following fields.</span></span>
+
+| <span data-ttu-id="33038-203">Väli</span><span class="sxs-lookup"><span data-stu-id="33038-203">Field</span></span>                                          | <span data-ttu-id="33038-204">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="33038-204">Description</span></span>                                                                                                                         |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="33038-205">Vormingu vastendamine</span><span class="sxs-lookup"><span data-stu-id="33038-205">Format mapping</span></span>                                 | <span data-ttu-id="33038-206">Määrake eksporditud XML-faili nimi ja tee.</span><span class="sxs-lookup"><span data-stu-id="33038-206">Specify the name and path of the exported XML file.</span></span>                                                                                 |
+| <span data-ttu-id="33038-207">Nimi</span><span class="sxs-lookup"><span data-stu-id="33038-207">Name</span></span>                                           | <span data-ttu-id="33038-208">Määrake töötaja, kes loob deklaratsiooni.</span><span class="sxs-lookup"><span data-stu-id="33038-208">Specify the employee who creates the declaration.</span></span>                                                                                   |
+| <span data-ttu-id="33038-209">Deklaratsiooni perioodi tüüp</span><span class="sxs-lookup"><span data-stu-id="33038-209">Declaration period type</span></span>                        | <span data-ttu-id="33038-210">Valige üks järgmistest deklaratsioonitüüpidest: **Tavaline** või **Pankrot**.</span><span class="sxs-lookup"><span data-stu-id="33038-210">Select one of the following declaration types: **Normal** or **Bankruptcy**.</span></span>                                                        |
+| <span data-ttu-id="33038-211">Arve lävi</span><span class="sxs-lookup"><span data-stu-id="33038-211">Invoice threshold</span></span>                              | <span data-ttu-id="33038-212">Määrake lisadesse kaasatav arvete minimaalne kogu netosumma kliendi või hankija kohta aruandlusperioodil.</span><span class="sxs-lookup"><span data-stu-id="33038-212">Specify the minimum total net amount of invoices per customer or vendor in a reporting period that must be included in the annexes.</span></span> |
+| <span data-ttu-id="33038-213">Deklaratsioon (väljagrupis **Eksport**)</span><span class="sxs-lookup"><span data-stu-id="33038-213">Declaration (In the **Export** field group)</span></span>    | <span data-ttu-id="33038-214">Deklaratsiooni kehateksti eksportimiseks määrake selle valiku sätteks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="33038-214">Set this option to **Yes** to export the declaration body.</span></span>                                                                          |
+| <span data-ttu-id="33038-215">Müügilisa (väljagrupis **Eksport**)</span><span class="sxs-lookup"><span data-stu-id="33038-215">Sales annex (In the **Export** field group)</span></span>    | <span data-ttu-id="33038-216">Arvete ja kreeditarvete eksportimiseks müügilisasse määrake selle valiku sätteks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="33038-216">Set this option to **Yes** to export invoices and credit notes in the Sales annex.</span></span>                                                  |
+| <span data-ttu-id="33038-217">Ostulisa (väljagrupis **Eksport**)</span><span class="sxs-lookup"><span data-stu-id="33038-217">Purchase annex (In the **Export** field group)</span></span> | <span data-ttu-id="33038-218">Arvete ja kreeditarvete eksportimiseks ostulisasse määrake selle valiku sätteks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="33038-218">Set this option to **Yes** to export invoices and credit notes in the Purchase annex.</span></span>                                               |
+
+<span data-ttu-id="33038-219">**Märkus.** Väljade väärtused väljagrupis **Periood** sisestatakse automaatselt lehel **Käibemaksu tasakaalustusperioodid** tehtud valikute põhjal.</span><span class="sxs-lookup"><span data-stu-id="33038-219">**Note:** The field values in the **Period** field group are entered automatically, based on options on the **Sales tax settlement periods** page.</span></span> <span data-ttu-id="33038-220">Käibemaksu tasakaalustusperioodid saate seadistada lehel **Käibemaksu tasakaalustamisperioodid**.</span><span class="sxs-lookup"><span data-stu-id="33038-220">To set up sales tax settlement periods, go to the **Sales tax settlement periods** page.</span></span>
+
+
+

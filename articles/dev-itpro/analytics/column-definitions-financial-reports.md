@@ -1,2340 +1,603 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="column-definitions-financial-reports.md" target-language="et-EE">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>column-definitions-financial-reports.2311f7.bb08833cca843c370e2c845bce56d6f5a8b5f2ed.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>bb08833cca843c370e2c845bce56d6f5a8b5f2ed</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\dev-itpro\analytics\column-definitions-financial-reports.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Column definitions in financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerudefinitsioonid finantsaruannetes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This article provides information about column definitions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See artikkel käsitleb veerudefinitsioone.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
-          <source>A column definition is a report component, or building block, that defines the contents of columns on a report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerudefinitsioon on aruande komponent (koosteüksus), mis määrab aruande veergude sisu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104" restype="x-metadata">
-          <source>Like row definitions, basic column definitions can be used on multiple reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nagu readefinitsioone, saab ka peamisi veerudefinitsioone kasutada mitmes aruandes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Column definitions in financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerudefinitsioonid finantsaruannetes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This article provides information about column definitions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See artikkel käsitleb veerudefinitsioone.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>A column definition is a report component, or building block, that defines the contents of columns on a report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerudefinitsioon on aruande komponent (koosteüksus), mis määrab aruande veergude sisu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Like row definitions, basic column definitions can be used on multiple reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nagu readefinitsioone, saab ka peamisi veerudefinitsioone kasutada mitmes aruandes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Create and modify a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsiooni loomine ja muutmine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>A column definition can contain two to 255 columns.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsioon võib sisaldada 2 kuni 255 veergu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Create a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsiooni loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>In Report Designer, in the navigation pane, click <bpt id="p1">**</bpt>Column Definitions<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake aruande kujundajas navigeerimispaanil suvandit <bpt id="p1">**</bpt>Veeru definitsioonid<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>New<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Column Definition<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake menüüs <bpt id="p1">**</bpt>Fail<ept id="p1">**</ept> suvandit <bpt id="p2">**</bpt>Uus<ept id="p2">**</ept> ja seejärel klõpsake suvandit <bpt id="p3">**</bpt>Veeru definitsioon<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Add the contents of the column definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisage veeru definitsiooni sisu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Open a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsiooni avamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>In Report Designer, in the navigation pane, click <bpt id="p1">**</bpt>Column Definitions<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake aruande kujundajas navigeerimispaanil suvandit <bpt id="p1">**</bpt>Veeru definitsioonid<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Double-click a column definition to open it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsiooni avamiseks topeltklõpsake seda.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Add a column to a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru lisamine veerudefinitsiooni</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>In Report Designer, click <bpt id="p1">**</bpt>Column Definitions<ept id="p1">**</ept>, and then open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake aruande kujundajas suvandit <bpt id="p1">**</bpt>Veeru definitsioonid<ept id="p1">**</ept> ja seejärel avage muutmiseks veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Select the column where a new column should be inserted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige veerg, kuhu tuleks lisada uus veerg.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>On the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Insert Column<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake menüüs <bpt id="p1">**</bpt>Redigeerimine<ept id="p1">**</ept> suvandit <bpt id="p2">**</bpt>Lisa veerg<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>The new column appears to the left of the column that you selected.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uus veerg ilmub valitud veerust vasakule.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Delete a column from a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru kustutamine veerudefinitsioonist</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In Report Designer, click <bpt id="p1">**</bpt>Column Definitions<ept id="p1">**</ept>, and then open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake aruandekoosturis suvandit <bpt id="p1">**</bpt>Veerudefinitsioonid<ept id="p1">**</ept> ja seejärel avage muutmiseks veerudefinitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Select the column to delete.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige kustutatav veerg.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>On the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Delete Column<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake menüüs <bpt id="p1">**</bpt>Redigeeri<ept id="p1">**</ept> suvandit <bpt id="p2">**</bpt>Kustuta veerg<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Contents of a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerudefinitsiooni sisu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>A column definition includes the following information:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsioon sisaldab järgmist teavet.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>A column of the descriptions for the row definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Readefinitsiooni kirjelduste veerg</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Amount columns that show data from the financial data or calculations that are based on other data in the column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Summa veerud, milles kuvatakse veeru definitsiooni muudel andmetele põhinevate finantsandmete või arvutuste andmed</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Formatting columns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormingu veerud</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Attribute columns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribuudi veerud</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>This information appears in the following areas in the column definition:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See teave kuvatakse veeru definitsiooni järgmistes alades.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>The headers area of the column definition contains the heading text and formatting that appears in the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsiooni päiste ala sisaldab aruandes kuvatavat päiseteksti ja vormingut.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>A header can apply to a single column of data, can span multiple columns, or can apply to columns on a conditional basis.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Päis saab rakenduda üksikule andmeveerule, laieneda üle mitme veeru või rakenduda veergudele tingimuslikkuse alusel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>The column definition can include as many column header rows as you require.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru määratlus võib sisaldada nii palju veerupäise ridasid, kui vajate.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Column headers apply to each column of data on the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerupäised rakenduvad igale aruande andmeveerule.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Report headers apply to the whole report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruande päised rakenduvad kogu aruandele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>You define report headers on the <bpt id="p1">**</bpt>Headers and Footers<ept id="p1">**</ept> tab of the report definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate määratleda aruande päiseid aruande definitsiooni vahekaardil <bpt id="p1">**</bpt>Päised ja jalused<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Column detail rows are the rows under the header rows in the column definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru üksikasjade read on veeru definitsioonis päiseridade all olevad read.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Column detail rows define the information that is included on the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru üksikasjade read määratlevad aruandesse kaasatava teabe.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>The following table lists and describes the column detail rows.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises tabelis loetletakse ja kirjeldatakse veeru üksikasjade ridu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Column detail row name</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru üksikasjade rea nimi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Column Type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru tüüp</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>(Required) Specify the type of data in the column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Nõutav) Veeru andmete tüübi määramine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Book Code/Attribute Category</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konteerimiskood/atribuudi kategooria</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Specify financial data information for columns of the <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ATTR<ept id="p2">**</ept> types.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tüüpide <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> ja <bpt id="p2">**</bpt>ATTR<ept id="p2">**</ept> veergude finantsandmete teabe määratlemine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Fiscal Year Period Periods Covered</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rahandusaasta perioodi hõlmatud perioodid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Specify financial data information for columns of the <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tüübi <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> veergude finantsandmete teabe määratlemine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Formula</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valem</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Specify a calculation formula for columns of the <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvutusvalemi määramine tüübiga <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> veergude puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Column Width Extra Spaces Before Column Format Override Print Control</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru laius Lisatühikud enne veergu Vormingu alistamine Prindi kontrollkood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Specify special format options.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Erivormingu suvandite määramine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Column Restrictions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru piirangud</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Restrict data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Andmete piiramine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Reporting Unit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruandlusüksus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Restrict the column, so that it shows data only for the specified reporting unit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru piiramine nii, et see kuvaks ainult kindla aruandlusüksuse andmeid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Currency Display Currency Filter</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valuuta kuva Valuutafilter</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Format currency.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valuuta vorming.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Dimension Filter</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dimensioonifilter</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Specify a filter to restrict data to certain financial data reporting units.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Filtri määramine andmete piiramiseks teatud finantsandmete aruandlusüksustega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Attribute Filter</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribuudi filter</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Specify a filter to restrict the financial data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Filtri määramine finantsandmete piiramiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Start Date End Date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alguskuupäev Lõppkuupäev</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Restrict the financial data to specific dates.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsandmete piiramine kindlate kuupäevadega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Justification</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Põhjendus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Left-align, center-align, or right-align the description text that is specified in the row definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Readefinitsioonis määratud kirjelduse teksti vasakjoondamine, keskjoondamine või paremjoondamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Column restrictions in a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsiooni veeru piirangud</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>You can use column restrictions to specify how a column definition uses data or calculates information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate kasutada veeru piiranguid määramaks, kuidas veeru definitsioon andmeid kasutab või arvutab.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>You can also restrict a report column to a specific unit or for specific dates.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate aruandeveeru piirata ka kindlale üksusele või kindlatele kuupäevadele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>A <bpt id="p1">**</bpt>Column Restriction<ept id="p1">**</ept> code overrides any conflicting setting that is assigned in the row definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kood <bpt id="p1">**</bpt>Veerupiirang<ept id="p1">**</ept> tühistab ükskõik millise readefinitsioonis määratud vastuolulise sätte.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Column Restrictions cell</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter Veeru piirangud</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>The <bpt id="p1">**</bpt>Column Restrictions<ept id="p1">**</ept> cell can include codes that restrict or suppress information, such as row formatting, details, and amounts, for that column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter <bpt id="p1">**</bpt>Veeru piirangud<ept id="p1">**</ept> võib sisaldada koode, mis piiravad või peidavad selle veeru puhul teavet, näiteks rea vormingut, üksikasju ja summasid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Add a column restriction in a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru piirangu lisamine veeru definitsioonis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Double-click the <bpt id="p1">**</bpt>Column Restrictions<ept id="p1">**</ept> cell for the column to restrict.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake piiratava veeru puhul lahtrit <bpt id="p1">**</bpt>Veeru piirangud<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>In the <bpt id="p1">**</bpt>Column Restrictions<ept id="p1">**</ept> dialog box, select one or more codes in the list, and then click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige dialoogiboksis <bpt id="p1">**</bpt>Veeru piirangud<ept id="p1">**</ept> loendist üks või enam koodi ja seejärel klõpsake nuppu <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Column restriction codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerupiirangu koodid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>The following table describes the column restriction codes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises tabelis kirjeldatakse veeru piirangu koode.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Column restriction code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru piirangu kood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>SU</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SU</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>Suppress the underscore for a column where either an underscore command (<bpt id="p1">**</bpt><ph id="ph1">---</ph><ept id="p1">**</ept>) or a double underscore command (<bpt id="p2">**</bpt><ph id="ph2">===</ph><ept id="p2">**</ept>) is entered in the row definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allkriipsu peitmine veeru puhul, mil readefinitsiooni on sisestatud kas allkriipsu käsk (<bpt id="p1">**</bpt><ph id="ph1">---</ph><ept id="p1">**</ept>) või topelt-allkriipsu käsk (<bpt id="p2">**</bpt><ph id="ph2">===</ph><ept id="p2">**</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>For example, you might not want to underline amounts that are produced by a percentage calculation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks ei pruugi te soovida protsendiarvutuse loodud summade allakriipsutamist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>ST</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ST</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Suppress totals, so that only details are shown in the column (for example, a statistical column).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kogusummade peitmine nii, et veerus kuvatakse ainult üksikasju (nt statistiline veerg).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>SD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Suppress details, so that only <bpt id="p1">**</bpt>TOT<ept id="p1">**</ept> and <bpt id="p2">**</bpt>CAL<ept id="p2">**</ept> rows (from the row definition) are shown in the column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üksikasjade peitmine nii, et veerus kuvatakse ainult read <bpt id="p1">**</bpt>TOT<ept id="p1">**</ept> ja <bpt id="p2">**</bpt>CAL<ept id="p2">**</ept> (readefinitsioonist).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>DR</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DR</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Restrict the amounts in an <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column to debit amounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> summade piiramine deebetsummadega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>CR</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CR</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Restrict the amounts in an <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column to credit amounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> summade piiramine kreeditsummadega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>ADJ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ADJ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Restrict the amounts in the column to period adjustment amounts, if these amounts are available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru summade piiramine perioodi korrigeerimissummadega nende summade olemasolul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>XAD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">XAD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Restrict the amounts in the column, so that period adjustment amounts are excluded.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru summade piiramine nii, et perioodi korrigeerimissummad välistatakse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>PT</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plaanitud üleviimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Restrict the amounts in the column, so that only posted transactions are included, if these transactions are available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru summade piiramine nii, et kaasatakse ainult sisestatud kanded, kui need kanded on olemas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>UPT</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UPT</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>Restrict the amounts in the column, so that only unposted transactions are included, if these transactions are available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru summade piiramine nii, et kaasatakse ainult sisestamata kanded, kui need kanded on olemas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Not all data providers support unposted transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Märkus.<ept id="p1">&lt;/strong&gt;</ept> Kõik andmepakkujad ei toeta sisestamata kandeid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>For more information, see the <bpt id="p1">&lt;a href='https://go.microsoft.com/fwlink/?LinkID=162565'&gt;</bpt>data integration guide<ept id="p1">&lt;/a&gt;</ept> for your Microsoft Dynamics ERP system.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Vaadake lisateavet oma Microsoft Dynamicsi ERP-süsteemi <bpt id="p1">&lt;a href='https://go.microsoft.com/fwlink/?LinkID=162565'&gt;</bpt>andmeintegratsiooni juhendist<ept id="p1">&lt;/a&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>Restrict a column to a reporting unit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru piiramine aruandlusüksusega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruandekoosturis muudetav veerudefinitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Double-click the <bpt id="p1">**</bpt>Reporting Unit<ept id="p1">**</ept> cell for the column to restrict.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake piiratava veeru puhul lahtrit <bpt id="p1">**</bpt>Aruandlusüksus<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>In the <bpt id="p1">**</bpt>Reporting Unit Selection<ept id="p1">**</ept> dialog box, in the <bpt id="p2">**</bpt>Reporting tree<ept id="p2">**</ept> list, select a tree.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige aruandluspuu dialoogiboksi <bpt id="p1">**</bpt>Aruandlusüksuse valimine<ept id="p1">**</ept> loendist <bpt id="p2">**</bpt>Aruandluspuu<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Expand or collapse the list of units, select a reporting unit, and then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage või ahendage üksuste loendit, valige aruandlusüksus ja seejärel klõpsake nuppu <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Format column headers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerupäiste vormindamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>You can add, modify, and delete the headers that appear at the top of the columns on a report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate lisada, muuta ja kustutada aruande veergude ülaosas olevaid päiseid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>You can also configure conditional spanning column headers, based on the <bpt id="p1">**</bpt>Period<ept id="p1">**</ept> field from column definitions and the <bpt id="p2">**</bpt>Base Period<ept id="p2">**</ept> field from report definitions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samuti saate konfigureerida tingimusliku laiendamise veerupäiseid veerudefinitsioonide välja <bpt id="p1">**</bpt>Periood<ept id="p1">**</ept> ja aruande definitsioonide välja <bpt id="p2">**</bpt>Baasperiood<ept id="p2">**</ept> põhjal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>The base period feature helps save you time when you create rolling forecast reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Baasperioodi funktsioon aitab säästa jooksva eelarve aruannete loomisel aega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Create and manage column headers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerupäiste loomine ja haldamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>You can use the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box to add, modify, and delete the headers that appear at the top of the columns on a report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate kasutada dialoogiboksi <bpt id="p1">**</bpt>Veerupäis<ept id="p1">**</ept> aruande veergude ülaosas olevate päiste lisamiseks, muutmiseks ja kustutamiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>The following table describes the fields in the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises tabelis kirjeldatakse dialoogiboksi <bpt id="p1">**</bpt>Veerupäis<ept id="p1">**</ept> välju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väli</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>Column header text</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerupäise tekst</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>This text appears in the column header.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See tekst kuvatakse veerupäises.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>You can type text directly in this field, or click <bpt id="p1">**</bpt>Insert AutoText<ept id="p1">**</ept> to select an option that updates the column header every time that the report is generated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate sisestada teksti otse sellele väljale või klõpsata suvandit <bpt id="p1">**</bpt>Sisesta automaattekst<ept id="p1">**</ept> suvandi valimiseks, mis värskendab veerupäist iga kord aruande loomisel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>To include multiple autotext codes, click <bpt id="p1">**</bpt>Insert AutoText<ept id="p1">**</ept> again, and then click another code in the list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mitme automaatteksti koodi lisamiseks klõpsake suvandit <bpt id="p1">**</bpt>Sisesta automaattekst<ept id="p1">**</ept> uuesti ja seejärel klõpsake loendis muud koodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>Format options</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormingusuvandid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>Apply formatting to a column header, such as box or underline.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormingu rakendamine veeru päisele, nt kasti või allakriipsutuse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Spread from Spread to</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Algusvahemik Lõppvahemik</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Define the column or columns that the header text applies to.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru või veergude määramine, millele päisetekst rakendub.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Justification</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Põhjendus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Specify how the column header text should be aligned for the column or range of columns that is specified in the <bpt id="p1">**</bpt>Spread from<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Spread to<ept id="p2">**</ept> fields.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate määrata, kuidas tuleks veeru päisetekst joondada veeru või veergude vahemiku puhul, mis on määratud väljadel <bpt id="p1">**</bpt>Algusvahemik<ept id="p1">**</ept> ja <bpt id="p2">**</bpt>Lõppvahemik<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>Create a column header</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerupäise loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Double-click a header cell.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake päise lahtrit.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>In the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box, enter the column header text.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage veerupäise tekst dialoogiboksi <bpt id="p1">**</bpt>Veerupäis<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Alternatively, click <bpt id="p1">**</bpt>Insert AutoText<ept id="p1">**</ept>, and select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teise võimalusena saate klõpsata suvandit <bpt id="p1">**</bpt>Sisesta automaattekst<ept id="p1">**</ept> ja valida suvandi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>In the <bpt id="p1">**</bpt>Format options<ept id="p1">**</ept> field, select a format for the header.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljalt <bpt id="p1">**</bpt>Vormingusuvandid<ept id="p1">**</ept> päise vorming.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>In the <bpt id="p1">**</bpt>Spread from<ept id="p1">**</ept> field, enter the letter of the column that the column header should start over.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale <bpt id="p1">**</bpt>Algusvahemik<ept id="p1">**</ept> veeru täht, millest alates tuleks veerupäis kuvada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>In the <bpt id="p1">**</bpt>Spread to<ept id="p1">**</ept> field, enter the letter of the column that the column header should end over.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale <bpt id="p1">**</bpt>Lõppvahemik<ept id="p1">**</ept> veeru täht, kuni milleni tuleks veerupäis kuvada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Under <bpt id="p1">**</bpt>Justification<ept id="p1">**</ept>, select whether the column header text to should be left-justified, center-justified, or right-justified.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige suvandi <bpt id="p1">**</bpt>Joondus<ept id="p1">**</ept> alt, kas veerupäise tekst peaks olema vasakjoondatud, keskjoondatud või paremjoondatud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nupul <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>Add a column header row</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerupäise rea lisamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>Select a cell in the header row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige päisereast lahter.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>On the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Insert Row<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake menüüs <bpt id="p1">**</bpt>Redigeerimine<ept id="p1">**</ept> suvandit <bpt id="p2">**</bpt>Lisa rida<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>The new row is inserted above the row that you selected in step 2.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uus rida sisestatakse 2. etapis valitud rea kohale.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>If you have four or more rows of report headers on a report, the headers will overlap when the report is exported to an Excel worksheet.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui teie aruandes on aruande päiseid neli rida või rohkem ja aruanne eksporditakse Exceli töölehele, siis päised kattuvad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>To view all headers on the report, increase the top margin in the report definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõigi päiste kuvamiseks aruandes suurendage aruande definitsioonis ülemist veerist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>Delete a column header row</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerupäise rea kustutamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>In the header row, select the cell to delete.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige päisereal kustutatav lahter.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>On the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Delete Row<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake menüüs <bpt id="p1">**</bpt>Redigeerimine<ept id="p1">**</ept> suvandit <bpt id="p2">**</bpt>Kustuta rida<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>Create an automatically generated header</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Automaatselt loodava päise loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>Report designer can automatically generate column headers, based on autotext codes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruandekoostur saab veerupäiseid automaatteksti koodide alusel automaatselt luua.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>Autotext codes are variables that are updated every time that a report is generated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Automaatteksti koodid on muutujad, mida värskendatakse iga kord, kui aruanne luuakse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>Any column header can include these codes to specify report information that can vary, such as dates or period numbers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerupäis võib sisaldada neid koode varieeruva aruandeteabe, nagu kuupäevade või perioodinumbrite määramiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>Therefore, you can use one column definition for multiple report definitions, time periods, and reporting trees.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seetõttu saate kasutada ühte veeru definitsiooni mitme aruande definitsiooni, ajaperioodi ja aruandluspuu puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>Because autotext codes rely on the calendar information from the detail rows of the column definition, they are supported only for <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> and <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> columns.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuna automaatteksti koodid sõltuvad veeru definitsiooni üksikasjaridade kalendriteabest, toetavad neid ainult veerud <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> ja <bpt id="p2">**</bpt>FD<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>The way that an autotext code appears in the column header cell affects how that information appears on the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Automaatteksti koodi veerupäise lahtris kuvamise viis mõjutab selle teabe ilmet aruandes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>In the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box, the autotext codes appear in mixed case.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dialoogiboksis <bpt id="p1">**</bpt>Veerupäis<ept id="p1">**</ept> kuvatakse automaatteksti koodid erinevate tõstudega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>Therefore, the text appears in mixed case on the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seega kuvatakse tekst aruandes erinevate tõstudega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>For example, in a standard calendar year, <bpt id="p1">**</bpt>@CalMonthLong<ept id="p1">**</ept> resolves month <bpt id="p2">**</bpt>7<ept id="p2">**</ept> to <bpt id="p3">**</bpt>July<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks standardses kalendriaastas teisendab <bpt id="p1">**</bpt>@CalMonthLong<ept id="p1">**</ept> kuu <bpt id="p2">**</bpt>7<ept id="p2">**</ept> suvandile <bpt id="p3">**</bpt>Juuli<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>If the name of the month should be uppercase (for example <bpt id="p1">**</bpt>JULY<ept id="p1">**</ept>), enter the autotext code in uppercase characters in the <bpt id="p2">**</bpt>Column header text<ept id="p2">**</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui kuu nimi tuleks aruandes suurte tähtedega (näiteks <bpt id="p1">**</bpt>JUULI<ept id="p1">**</ept>) kuvada, sisestage automaatteksti kood väljale <bpt id="p2">**</bpt>Veeru päise tekst<ept id="p2">**</ept> suurte tähtedega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>For example, enter <bpt id="p1">**</bpt>@CALMONTHLONG<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage näiteks <bpt id="p1">**</bpt>@CALMONTHLONG<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>You can mix codes and text.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Võite koode ja teksti kombineerida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>For example, you enter the following header text: <bpt id="p1">**</bpt>Period @FiscalPeriod-@FiscalYear from @StartDate to @EndDate<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks saate sisestada järgmise päiseteksti: <bpt id="p1">**</bpt>Periood @FiscalPeriod-@FiscalYear alates @StartDate kuni @EndDate<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>The report heading that is generated resembles the following text: <bpt id="p1">**</bpt>Period 1-02 from 01/01/02 to 01/31/02<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Loodav aruande pealkiri sarnaneb järgmisega: <bpt id="p1">**</bpt>Periood 1-02 alates 01/01/02 kuni 01/31/02<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>The format of some of the text, such as the long date, depends on your regional settings on the Finance and Operations server.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Osa teksti, nt pika kuupäeva, vorming oleneb teie regioonisätetest Finance and Operationsi serveris.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>To change these settings, click the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> button, click <bpt id="p2">**</bpt>Control Panel<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Region and Language<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nende sätete muutmiseks klõpsake nuppu <bpt id="p1">**</bpt>Start<ept id="p1">**</ept>, klõpsake suvandit <bpt id="p2">**</bpt>Juhtpaneel<ept id="p2">**</ept> ja seejärel klõpsake suvandit <bpt id="p3">**</bpt>Regioon ja keel<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>The following table lists the available autotext options for column headers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises tabelis loetletakse veerupäiste puhul saadaolevad automaatteksti suvandid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>Autotext option and code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Automaatteksti suvand ja kood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>Month name (@CalMonthLong)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuu nimi (@CalMonthLong)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>Print the name of the current month in the column heading.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerupäise praeguse kuu nime printimine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>If you decide to round the amounts in the report to thousands, millions, or billions, or if you set the column width on the report to fewer than nine characters, the name of the month is abbreviated to the first three characters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui otsustate ümardada aruandesummad tuhandike, miljonite või miljarditeni või kui seadistate aruande veeru laiuse vähem kui üheksale märgile, lühendatakse kuu nimi esimese kolme märgini.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>Abbreviated month name (@CalMonthShort)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lühendatud kuu nimi (@CalMonthShort)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>Print the abbreviated name of the month for the selected fiscal period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valitud rahandusperioodi kuu lühendatud nime printimine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source>Period number (@FiscalPeriod)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perioodi number (@FiscalPeriod)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>Print the numeric form of the fiscal period that is identified for that column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle veeru puhul määratud rahandusperioodi numbrilise vormi printimine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>If the column spans multiple periods, the last period in the range is printed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui veerg hõlmab mitut perioodi, prinditakse vahemiku viimane periood.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>Period description (@FiscalPeriodName)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perioodi kirjeldus (@FiscalPeriodName)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>Print the fiscal period description that is identified in the financial data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsandmetes määratud rahandusperioodi kirjelduse printimine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>Fiscal year (@FiscalYear)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rahandusaasta (@FiscalYear)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>Print the fiscal year for the column in numeric form.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rahandusaasta printimine veeru puhul numbrites.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>Calendar year (@CalYear)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kalendriaasta (@CalYear)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>Print the calendar year for the column in numeric form.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kalendriaasta printimine veeru puhul numbrites.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>Start date (@StartDate)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alguskuupäev (@StartDate)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>Print the start date for the column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru alguskuupäeva printimine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>End Date (@EndDate)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lõppkuupäev (@EndDate)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Print the end date for the column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru lõppkuupäeva printimine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>Unit name from tree (@UnitName)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üksuse nimi puust (@UnitName)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>If you restrict a column to a specific unit of the reporting tree, print the unit name in the column header.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üksuse nime printimine veerupäises veeru piiramisel aruandluspuu kindla üksuseni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source>Unit description (@UnitDesc)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üksuse kirjeldus (@UnitDesc)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source>If you restrict a column to a specific unit of the reporting tree, print the unit description in the column header.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üksuse kirjelduse printimine veerupäises veeru piiramisel aruandluspuu kindla üksuseni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="291">
-          <source>Book Code (@BookCode)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konteerimiskood (@BookCode)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="292">
-          <source>Print the book code that is specified in the column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerus määratud konteerimiskoodi printimine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="293">
-          <source>Blank line (@Blank)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tühi rida (@Blank)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="294">
-          <source>Insert an empty line in the column header.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tühja rea lisamine veerupäises.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="295">
-          <source>Create a conditional spanning header</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tingimusliku laiendamise päise loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="296">
-          <source>Conditional spanning headers can span multiple columns that are based on specific period data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tingimusliku laiendamise päised võivad hõlmata mitut konkreetse perioodi andmetel põhinevat veergu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="297">
-          <source>For example, if you have a budget report for the fiscal year and want to display the actual budgets of past months together with the projected budgets of future months, you can use a conditional spanning header to automatically update the report header.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks kui teil on rahandusaasta eelarve aruanne ja soovite kuvada viimaste kuude tegeliku eelarve koos tulevaste kuude prognoositud eelarvetega, saate aruandepäise automaatseks värskendamiseks kasutada tingimusliku laiendamise päist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="298">
-          <source>Be aware of the following situations when you create a conditional spanning header:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pöörake tingimusliku laienduspäise loomisel tähelepanu järgmistele olukordadele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="299">
-          <source>Any stop condition (<bpt id="p1">**</bpt>Spread to<ept id="p1">**</ept> field) that is matched before a start condition (<bpt id="p2">**</bpt>Spread From<ept id="p2">**</ept> field) is ignored.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mis tahes peatamise tingimust (väli <bpt id="p1">**</bpt>Lõppvahemik<ept id="p1">**</ept>), mis on vastavusse viidud enne alustamise tingimust (väli <bpt id="p2">**</bpt>Lõppvahemik<ept id="p2">**</ept>), eiratakse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="300">
-          <source>For example, column B has the spread condition defined as BASE+1 to BASE, BASE is in column C, and BASE+1 is in column D. In this case, the stop condition in column C is ignored, and the printing of the header starts at column D.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks veeru B laiendamise tingimus on määratletud järgmiselt: BASE+1 kuni BASE, BASE on veerus C ja BASE+1 on veerus D. Sellisel juhul eiratakse peatamise tingimust veerus C ja päise printimine algab veerust D.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="301">
-          <source>If you specify column headers that overlap, they overlap when they are printed on the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kattuvate veerupäiste määramisel kattuvad need aruandesse printimisel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="302">
-          <source>The report is generated, but the following warning appears in the <bpt id="p1">**</bpt>Report Queue Status<ept id="p1">**</ept> field: "Column headers using Base intersect with other column headers and may cause overlapping text."</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruanne luuakse, kuid väljal <bpt id="p1">**</bpt>Aruande järjekorra olek<ept id="p1">**</ept> kuvatakse järgmine hoiatus: „Väärtust Base kasutavad veerupäised ristuvad teiste veerupäistega ja võivad põhjustada teksti kattumist”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="303">
-          <source>For example, the header definition on column B is B to BASE+1, and the header definition on column D is BASE+1 to F. In this case, the headers are printed on top of each other and are unreadable.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks päise definitsioon veerus B on B kuni BASE+1 ja päise definitsioon veerus D on BASE+1 kuni F. Sellisel juhul prinditakse päised üksteise peale ja pole loetavad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="304">
-          <source>Whenever BASE is used in a <bpt id="p1">**</bpt>Spread from/Spread to<ept id="p1">**</ept> definition, be sure to view the report that is generated, to see whether the headers overlap.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väärtuse BASE kasutamisel definitsioonis <bpt id="p1">**</bpt>Algusvahemik/lõppvahemik<ept id="p1">**</ept> veenduge, et vaatate loodavat aruannet, et näha, kas päised kattuvad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="305">
-          <source>If you specify BASE in the spread definition in a No Print (<bpt id="p1">**</bpt>NP<ept id="p1">**</ept>) column, it's ignored, regardless of what is defined in the column definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui määrate väärtuse BASE laiendamise definitsiooni veerus Mitteprinditav (<bpt id="p1">**</bpt>NP<ept id="p1">**</ept>), eiratakse seda olenemata sellest, mis on veeru definitsioonis määratletud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="306">
-          <source>Essentially, this scenario is the same as not creating a column header definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Põhiolemuselt sarnaneb see stsenaarium veerupäise definitsiooni mitteloomisega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="307">
-          <source>For conditional printing columns (<bpt id="p1">**</bpt>P<ph id="ph1">&amp;lt;</ph>B<ept id="p1">**</ept>, <bpt id="p2">**</bpt>P<ph id="ph2">&amp;gt;</ph>=B<ept id="p2">**</ept>), conditional spanning headers behave like any regular column header definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tingimusliku printimise veerude puhul (<bpt id="p1">**</bpt>P<ph id="ph1">&amp;lt;</ph>B<ept id="p1">**</ept>, <bpt id="p2">**</bpt>P<ph id="ph2">&amp;gt;</ph>=B<ept id="p2">**</ept>) toimivad tingimusliku laiendamise päised nagu mis tahes tavaline veerupäise definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="308">
-          <source>For example, if the condition is false, any subsequent column matching for the spread condition starts the printing of the header.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks kui tingimus on väär, alustavad kõik järgnevad laiendamise tingimuse puhul ühtivad veerud päise printimist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="309">
-          <source>Create a conditional spanning header</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tingimusliku laiendamise päise loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="310">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="311">
-          <source>Double-click a header cell.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake päise lahtrit.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="312">
-          <source>In the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box, enter the column header text.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage veerupäise tekst dialoogiboksi <bpt id="p1">**</bpt>Veerupäis<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="313">
-          <source>Alternatively, click <bpt id="p1">**</bpt>Insert AutoText<ept id="p1">**</ept>, and select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teise võimalusena saate klõpsata suvandit <bpt id="p1">**</bpt>Sisesta automaattekst<ept id="p1">**</ept> ja valida suvandi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="314">
-          <source>In the <bpt id="p1">**</bpt>Format options<ept id="p1">**</ept> field, select a formatting style for the header.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige väljalt <bpt id="p1">**</bpt>Vormingusuvandid<ept id="p1">**</ept> päise vormingu laad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="315">
-          <source>Specify a period relative to the base period that is specified when the report is generated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Määrake periood aruande loomisel määratud baasperioodi suhtes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="316">
-          <source>In the <bpt id="p1">**</bpt>Spread from<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Spread to<ept id="p2">**</ept> fields, enter one of the following values: <bpt id="p3">**</bpt>BASE<ept id="p3">**</ept>, <bpt id="p4">**</bpt>BASE-X<ept id="p4">**</ept> or <bpt id="p5">**</bpt>BASE+X<ept id="p5">**</ept>, where X is the number of periods from the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljadele <bpt id="p1">**</bpt>Algusvahemik<ept id="p1">**</ept> ja <bpt id="p2">**</bpt>Lõppvahemik<ept id="p2">**</ept> üks järgmistest väärtustest: <bpt id="p3">**</bpt>BASE<ept id="p3">**</ept>, <bpt id="p4">**</bpt>BASE-X<ept id="p4">**</ept> või <bpt id="p5">**</bpt>BASE+X<ept id="p5">**</ept>, kus X on baasperioodi perioodide arv.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="317">
-          <source>For example, if you enter <bpt id="p1">**</bpt>BASE<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Spread from<ept id="p2">**</ept> field, the conditional spanning column header text starts in the column header where the report definition's <bpt id="p3">**</bpt>Base period<ept id="p3">**</ept> value equals the column definition's <bpt id="p4">**</bpt>Period<ept id="p4">**</ept> value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks kui sisestate väärtuse <bpt id="p1">**</bpt>BASE<ept id="p1">**</ept> väljale <bpt id="p2">**</bpt>Algusvahemik<ept id="p2">**</ept>, algab tingimusliku laiendamise veeru päisetekst veerupäisest, milles aruande definitsiooni väärtus <bpt id="p3">**</bpt>Baasperiood<ept id="p3">**</ept> ühtib veeru definitsiooni väärtusega <bpt id="p4">**</bpt>Periood<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="318">
-          <source>It ends in the column that is indicated in the <bpt id="p1">**</bpt>Spread to<ept id="p1">**</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See lõpeb väljal <bpt id="p1">**</bpt>Lõppvahemik<ept id="p1">**</ept> näidatud veerus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="319">
-          <source>Therefore, if the spread is BASE to M, and the report definition's <bpt id="p1">**</bpt>Base period<ept id="p1">**</ept> value is <bpt id="p2">**</bpt>4<ept id="p2">**</ept>, the header starts in the column where the period is set to <bpt id="p3">**</bpt>4<ept id="p3">**</ept> and ends at column M. Headers stop and start on printing columns only.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seega kui laiendamine on BASE kuni M ja aruande definitsiooni suvandi <bpt id="p1">**</bpt>Baasperiood<ept id="p1">**</ept> väärtus on <bpt id="p2">**</bpt>4<ept id="p2">**</ept>, algab päis veerust, kus periood on seatud väärtusele <bpt id="p3">**</bpt>4<ept id="p3">**</ept> ja lõpeb veerus M. Päised lõppevad ja algavad ainult prinditavatelt veergudelt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="320">
-          <source>Under <bpt id="p1">**</bpt>Justification<ept id="p1">**</ept>, select whether the column header text should be left-justified, center-justified, or right justified.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige suvandi <bpt id="p1">**</bpt>Joondus<ept id="p1">**</ept> alt, kas veerupäise tekst peaks olema vasakjoondatud, keskjoondatud või paremjoondatud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="321">
-          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nupul <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="322">
-          <source>Example of a conditional spanning header</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tingimusliku laiendamise päise näide</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="323">
-          <source>Phyllis is creating a report for a dynamic six-month forecast.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Phyllis loob dünaamilise kuue kuu eelarve aruande.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="324">
-          <source>She wants the word "Actual" to be printed over the columns that contain actual data, and the word "Budget" to be printed over the columns that contain budget forecasts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ta soovib, et tegelikke andmeid sisaldavatele veergudele prinditaks sõna „Tegelik” ja eelarveprognoose sisaldavatele veergudele prinditaks sõna „Eelarve”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="325">
-          <source>Each month that the report is run, there is one more actual column and one less budget column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iga kuu, mil aruannet käitatakse, on üks tegelik veerg rohkem ja üks eelarve veerg vähem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="326">
-          <source>Although Phyllis can modify the column definition manually each time that the report is generated to adjust the headers, to save time and effort, she decides to create conditional spanning headers that will automatically create headers over the appropriate columns each time that the report is run.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuigi Phyllis saab veeru definitsiooni päiste korrigeerimiseks aruande loomisel iga kord käsitsi muuta, otsustab ta luua tingimusliku laiendamise päised, mis loovad päised asjakohastele veergudele iga kord aruande käitamisel automaatselt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="327">
-          <source>Phyllis opens Report Designer, clicks <bpt id="p1">**</bpt>Column Definition<ept id="p1">**</ept> in the navigation pane, and opens the column definition for the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Phyllis avab aruande kujundaja, klõpsab navigeerimispaanil suvandit <bpt id="p1">**</bpt>Veeru definitsioon<ept id="p1">**</ept> ja avab aruande veeru definitsiooni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="328">
-          <source>She then enters the following information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seejärel sisestab ta järgmise teabe.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="329">
-          <source>The base period in the report definition is 4.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Baasperiood aruande definitsioonis on 4.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="330">
-          <source>A</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="331">
-          <source>B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="332">
-          <source>C</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">C</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="333">
-          <source>D</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">D</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="334">
-          <source>E</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="335">
-          <source>F</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">R</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="336">
-          <source>G</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">G</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="337">
-          <source>H</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">H</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="338">
-          <source>I</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mina</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="339">
-          <source>J</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">J</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="340">
-          <source>K</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">K</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="341">
-          <source>L</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="342">
-          <source>M</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="343">
-          <source>Header 1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Päis 1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="344">
-          <source>Actual</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegelik</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="345">
-          <source>Budget</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eelarve</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="346">
-          <source>Header 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Päis 2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="347">
-          <source>@CalMonthLong</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="348">
-          <source>@CalMonthLong</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="349">
-          <source>@CalMonthLong</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="350">
-          <source>@CalMonthLong</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="351">
-          <source>@CalMonthLong</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="352">
-          <source>@CalMonthLong</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="353">
-          <source>@CalMonthLong</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="354">
-          <source>@CalMonthLong</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="355">
-          <source>@CalMonthLong</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="356">
-          <source>@CalMonthLong</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="357">
-          <source>@CalMonthLong</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="358">
-          <source>@CalMonthLong</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="359">
-          <source>Header 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Päis 3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="360">
-          <source>Column Type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru tüüp</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="361">
-          <source>DESC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DESC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="362">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="363">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="364">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="365">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="366">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="367">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="368">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="369">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="370">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="371">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="372">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="373">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="374">
-          <source>Book Code/Attribute</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konteerimiskood/atribuut</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="375">
-          <source>ACTUAL</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="376">
-          <source>BUDGET2012</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EELARVE2012</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="377">
-          <source>ACTUAL</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="378">
-          <source>BUDGET2012</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EELARVE2012</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="379">
-          <source>ACTUAL</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="380">
-          <source>BUDGET2012</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EELARVE2012</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="381">
-          <source>ACTUAL</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="382">
-          <source>BUDGET2012</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EELARVE2012</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="383">
-          <source>ACTUAL</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="384">
-          <source>BUDGET2012</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EELARVE2012</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="385">
-          <source>ACTUAL</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="386">
-          <source>BUDGET2012</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EELARVE2012</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="387">
-          <source>Fiscal Year</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaasta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="388">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="389">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="390">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="391">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="392">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="393">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="394">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="395">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="396">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="397">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="398">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="399">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="400">
-          <source>Period</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Periood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="401">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="402">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="403">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="404">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="405">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="406">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="407">
-          <source>4</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="408">
-          <source>4</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="409">
-          <source>5</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="410">
-          <source>5</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="411">
-          <source>6</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="412">
-          <source>6</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="413">
-          <source>Periods Covered</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaetud perioodid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="414">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="415">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="416">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="417">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="418">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="419">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="420">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="421">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="422">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="423">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="424">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="425">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="426">
-          <source>Column Width</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru laius</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="427">
-          <source>30</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">30</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="428">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="429">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="430">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="431">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="432">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="433">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="434">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="435">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="436">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="437">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="438">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="439">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="440">
-          <source>Print Control</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prindi kontrollkood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="441">
-          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="442">
-          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="443">
-          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="444">
-          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="445">
-          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="446">
-          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="447">
-          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="448">
-          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="449">
-          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="450">
-          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="451">
-          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="452">
-          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="453">
-          <source>Phyllis double-clicks a column header cell to open the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box, where she enters the following information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Phyllis topeltklõpsab veerupäise lahtrit dialoogiboksi <bpt id="p1">**</bpt>Veerupäis<ept id="p1">**</ept> avamiseks, kuhu ta sisestab järgmise teabe.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="454">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väli</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="455">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väärtus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="456">
-          <source>Column header text</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerupäise tekst</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="457">
-          <source>Actual</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegelik</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="458">
-          <source>Insert AutoText</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisesta automaattekst</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="459">
-          <source>No selection is made.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valik puudub.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="460">
-          <source>Format options</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormingusuvandid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="461">
-          <source>Box</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väli</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="462">
-          <source>Justification</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Põhjendus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="463">
-          <source>No selection is made.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valik puudub.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="464">
-          <source>Spread from</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Algusvahemik</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="465">
-          <source>B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="466">
-          <source>Spread to</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lõppvahemik</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="467">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="468">
-          <source>Budget header</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eelarve päis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="469">
-          <source>BASE+1 to end column</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE+1 kuni lõppveerg</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="470">
-          <source>After she has finished entering information, Phyllis clicks <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast teabe sisestamise lõpetamist klõpsab Phyllis nuppu <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="471">
-          <source>She then double-clicks the column header cell in column C to open the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box, where she enters the following information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seejärel topeltklõpsab ta veerus C veerupäise lahtrit dialoogiboksi <bpt id="p1">**</bpt>Veerupäis<ept id="p1">**</ept> avamiseks, kuhu ta sisestab järgmise teabe.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="472">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väli</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="473">
-          <source>Value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väärtus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="474">
-          <source>Column header text</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerupäise tekst</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="475">
-          <source>Budget</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eelarve</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="476">
-          <source>Insert AutoText</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisesta automaattekst</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="477">
-          <source>No selection is made.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valik puudub.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="478">
-          <source>Format options</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormingusuvandid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="479">
-          <source>Box</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väli</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="480">
-          <source>Justification</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Põhjendus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="481">
-          <source>No selection is made.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valik puudub.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="482">
-          <source>Spread from</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Algusvahemik</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="483">
-          <source>C</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">C</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="484">
-          <source>Spread to</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lõppvahemik</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="485">
-          <source>BASE+2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE+2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="486">
-          <source>Now, every time that this report is generated, the word "Actual" will be printed over the columns that contain actual data, and the word "Budget" will be printed over the columns that contain budget forecasts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nüüd prinditakse iga kord selle aruande loomisel tegelikke andmeid sisaldavatele veergudele sõna „Tegelik” ja eelarveprognoose sisaldavatele veergudele sõna „Eelarve”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="487">
-          <source>Additionally, the number of columns will be adjusted each month.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisaks korrigeeritakse iga kuu veergude arvu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="488">
-          <source>Apply column justification</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru joonduse rakendamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="489">
-          <source>The <bpt id="p1">**</bpt>Justification<ept id="p1">**</ept> cell is used to apply justification formatting to a description column in a report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahtrit <bpt id="p1">**</bpt>Joondus<ept id="p1">**</ept> kasutatakse joonduse rakendamiseks aruande kirjelduse veerule.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="490">
-          <source>This option affects only the column descriptions, not the actual values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See suvand mõjutab ainult veeru kirjeldusi, mitte tegelikke väärtusi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="491">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="492">
-          <source>Double-click the <bpt id="p1">**</bpt>Justification<ept id="p1">**</ept> cell.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake lahtrit <bpt id="p1">**</bpt>Joondus<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="493">
-          <source>Select one of the following values in the list:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige loendist üks järgmistest väärtustest.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="494">
-          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept> – No justification is applied.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Puudub<ept id="p1">**</ept> – joondust pole rakendatud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="495">
-          <source><bpt id="p1">**</bpt>Left<ept id="p1">**</ept> – Left-align the column descriptions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vasak<ept id="p1">**</ept> – veeru kirjelduste vasakjoondus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="496">
-          <source><bpt id="p1">**</bpt>Center<ept id="p1">**</ept> – Center-align the column descriptions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Keskel<ept id="p1">**</ept> – veeru kirjelduste keskjoondus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="497">
-          <source><bpt id="p1">**</bpt>Right<ept id="p1">**</ept> – Right-align the column descriptions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Parem<ept id="p1">**</ept> – veeru kirjelduste paremjoondus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="498">
-          <source>Add special formatting options</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Erivormingu suvandite lisamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="499">
-          <source>In the column definition, the formatting column detail rows apply special formatting to selected columns.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsioonis rakendavad vorminduse veeru üksikasjaread erivormingu valitud veergudele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="500">
-          <source>Although some of the <bpt id="p1">**</bpt>Print Control<ept id="p1">**</ept> options and <bpt id="p2">**</bpt>Column Restrictions<ept id="p2">**</ept> options are specific to <bpt id="p3">**</bpt>FD<ept id="p3">**</ept> columns, most of the options apply to all column types.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuigi mõni suvand <bpt id="p1">**</bpt>Prindi kontrollkood<ept id="p1">**</ept> ja <bpt id="p2">**</bpt>Veeru piirangud<ept id="p2">**</ept> on omased veergudele <bpt id="p3">**</bpt>FD<ept id="p3">**</ept>, kehtib enamik suvandeid kõigi veergude kohta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="501">
-          <source>The formatting that is specified in the column definition overrides the formatting that is specified in the report definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsioonis määratud vorming alistab aruande definitsioonis määratud vormingu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="502">
-          <source>However, the formatting that is specified in the row definition overrides the formatting that is specified in the column definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Readefinitsioonis määratud vorming aga alistab veeru definitsioonis määratud vormingu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="503">
-          <source>The following rows are considered formatting rows:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormingu ridadeks peetakse järgmisi ridu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="504">
-          <source>Column Width</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru laius</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="505">
-          <source>Extra Spaces Before Column</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisatühikud enne veergu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="506">
-          <source>Format/Currency Override</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormingu/valuuta alistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="507">
-          <source>Print Control</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prindi kontrollkood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="508">
-          <source>Changing the column width</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru laiuse muutmine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="509">
-          <source>The <bpt id="p1">**</bpt>Column Width<ept id="p1">**</ept> cell specifies the number of characters to use for the width of this column on the printed report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter <bpt id="p1">**</bpt>Veeru laius<ept id="p1">**</ept> määrab prinditud aruandes selle veeru laiuse puhul kasutatava märkide arvu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="510">
-          <source>Column width is important for columns that contain amounts (columns of the <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept>, <bpt id="p2">**</bpt>WKS<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>FD<ept id="p3">**</ept> type), descriptions (columns of the <bpt id="p4">**</bpt>DESC<ept id="p4">**</ept> type), or fill (columns of the <bpt id="p5">**</bpt>FILL<ept id="p5">**</ept> type).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru laius on oluline summasid sisaldavate veergude (veerud tüübiga <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept>, <bpt id="p2">**</bpt>WKS<ept id="p2">**</ept> või <bpt id="p3">**</bpt>FD<ept id="p3">**</ept>), kirjelduste (veerud tüübiga <bpt id="p4">**</bpt>DESC<ept id="p4">**</ept>) või täitmise (veerud tüübiga <bpt id="p5">**</bpt>FILL<ept id="p5">**</ept>) puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="511">
-          <source>By default, the <bpt id="p1">**</bpt>AutoFit<ept id="p1">**</ept> option is selected, so that the width of each column is automatically adjusted to fit the contents.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaikimisi valitakse suvand <bpt id="p1">**</bpt>AutoFit<ept id="p1">**</ept>, nii et iga veeru laiust korrigeeritakse sisu mahutamiseks automaatselt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="512">
-          <source>Specify the width of a column on a report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruande veeru laiuse määramine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="513">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="514">
-          <source>In the <bpt id="p1">**</bpt>Column Width<ept id="p1">**</ept> cell, enter the number of spaces for the width of the column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage lahtrisse <bpt id="p1">**</bpt>Veeru laius<ept id="p1">**</ept> tühikute arv veeru laiuse puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="515">
-          <source>The maximum width of any column is 255 characters (this number includes cents, commas, and parentheses).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iga veeru maksimumlaius on 255 märki (see arv sisaldab sendimärke, komasid ja sulge).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="516">
-          <source>Alternatively, to enable report designer to select the appropriate width for the column, based on the cell content, double-click the <bpt id="p1">**</bpt>Column Width<ept id="p1">**</ept> cell, and then click <bpt id="p2">**</bpt>AutoFit<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui aga soovite lubada aruandekoosturil valida veeru jaoks sobiva laiuse lahtri sisu alusel, topeltklõpsake lahtrit <bpt id="p1">**</bpt>Veeru laius<ept id="p1">**</ept> ja seejärel klõpsake suvandit <bpt id="p2">**</bpt>Sobita automaatselt<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="517">
-          <source>Add space between columns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tühiku lisamine veergude vahele</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="518">
-          <source>The <bpt id="p1">**</bpt>Extra Spaces Before Column<ept id="p1">**</ept> cell specifies the width of the separator between one column and adjacent columns in the column definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter <bpt id="p1">**</bpt>Lisatühikuid enne veergu<ept id="p1">**</ept> määrab veeru definitsioonis ühe veeru ja külgnevate veergude vahelise eraldaja laiuse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="519">
-          <source>The <bpt id="p1">**</bpt>Extra Spaces Before Column<ept id="p1">**</ept> setting affects all column detail rows for the column, but not the column header rows.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suvandi <bpt id="p1">**</bpt>Lisatühikud enne veergu<ept id="p1">**</ept> säte mõjutab kõiki veeru üksikasjaridade ridu, kuid mitte veeru päiseridu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="520">
-          <source>Use this option to separate groups of columns or to add a few spaces before the description, so that the description column is indented from the left-aligned titles on the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasutage seda suvandit veergude gruppide eraldamiseks või mõne tühiku lisamiseks enne kirjeldust, nii et kirjelduse veergu taandatakse aruande vasakjoondatud tiitlitest.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="521">
-          <source>The default number of spaces between each column is two.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõigi veergude vaheliste tühikute vaikearv on kaks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="522">
-          <source>You can change this setting on the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> tab in the report definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate seda sätet muuta aruande definitsiooni vahekaardil <bpt id="p1">**</bpt>Sätted<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="523">
-          <source>Specify the space between columns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veergude vahelise tühiku määramine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="524">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="525">
-          <source>In the <bpt id="p1">**</bpt>Extra Spaces Before Column<ept id="p1">**</ept> cell, enter the number of spaces to insert between columns.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage lahtrisse <bpt id="p1">**</bpt>Lisatühikud enne veergu<ept id="p1">**</ept> veergude vahele sisestatavate tühikute arv.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="526">
-          <source>Specify a format currency override</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormingu/valuuta alistamise määramine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="527">
-          <source>The <bpt id="p1">**</bpt>Format/Currency Override<ept id="p1">**</ept> cell specifies the formatting of the decimal, currency, and percentage amounts in the column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahekaart <bpt id="p1">**</bpt>Vormingu/valuuta alistamine<ept id="p1">**</ept> määrab kümnend-, valuuta- ja protsendisummade vormingu veerus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="528">
-          <source>This formatting overrides any formatting that is specified in the report definition or system defaults.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selline vorming alistab veeru definitsioonis või süsteemi vaikesuvandites määratud vormingu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="529">
-          <source>Assign a format currency override to a report column</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormingu/valuuta alistamise määramine aruande veerule</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="530">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruandekoosturis muudetav veerudefinitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="531">
-          <source>Double-click a <bpt id="p1">**</bpt>Format/Currency Override<ept id="p1">**</ept> cell in an amount column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake summaveerus lahtrit <bpt id="p1">**</bpt>Vormingu/valuuta alistamine<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="532">
-          <source>In the <bpt id="p1">**</bpt>Format Override<ept id="p1">**</ept> dialog box, select formatting options.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige vormingusuvandid dialoogiboksist <bpt id="p1">**</bpt>Vormingu alistamine<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="533">
-          <source>Add a print control code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prindi kontrollkoodi lisamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="534">
-          <source>The <bpt id="p1">**</bpt>Print Control<ept id="p1">**</ept> cell can contain codes that adjust the display or the printing characteristics of a column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter <bpt id="p1">**</bpt>Prindi kontrollkood<ept id="p1">**</ept> võib sisaldada koode, mis korrigeerivad veeru kuva või printimisomadusi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="535">
-          <source>There are two types of print control codes: regular print control codes and conditional print control codes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prindi kontrollkoode on kahte tüüpi: tavalised prindi kontrollkoodid ja tingimuslikud prindi kontrollkoodid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="536">
-          <source>Regular print control codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tavalised prindi kontrollkoodid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="537">
-          <source>Print control code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prindi kontrollkood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="538">
-          <source>Translation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teisendamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="539">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="540">
-          <source>NP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="541">
-          <source>Nonprinting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mitteprinditav</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="542">
-          <source>Exclude the amounts in this column from the report that is printed and from calculations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle veeru summade välistamine prinditavast aruandest ja arvutustest.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="543">
-          <source>To include a non-printing column in a calculation, refer to the column directly in the calculation formula.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mitteprinditava veeru kaasamiseks arvutusse viidake veerule otse arvutusvalemis.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="544">
-          <source>For example, the non-printing column C is included in the following calculation: <bpt id="p1">**</bpt>B+C+D<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks on mitteprinditav veerg C kaasatud järgmisse arvutusse: <bpt id="p1">**</bpt>B+C+D<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="545">
-          <source>However, the non-printing column C isn't included in the following calculation: <bpt id="p1">**</bpt>B:D<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mitteprinditav veerg C pole kaasatud järgmisse arvutusse: <bpt id="p1">**</bpt>B:D<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="546">
-          <source>XCR</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">XCR</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="547">
-          <source>Change sign if typical balance of row is credit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märgi muutmine, kui rea tavaline saldo on kreedit</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="548">
-          <source>Create a budget or comparative report where any unfavorable variance (such as a revenue shortfall or an expense overrun) is always negative.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eelarve või võrdlusaruande loomine, kui soovimatu hälve (nt tulu puudujääk või ülekulu) on alati negatiivne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="549">
-          <source>Apply this code to a <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> column to reverse the sign of the column amount if the typical balance of a given row is a credit (as identified by a <bpt id="p2">**</bpt>C<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Normal Balance<ept id="p3">**</ept> column of the row definition).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rakendage see kood veerule <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> veeru summa märgi muutmiseks, kui antud rea tavaline saldo on kreedit (määratud tähega <bpt id="p2">**</bpt>C<ept id="p2">**</ept> readefinitsiooni veerus <bpt id="p3">**</bpt>Normaalsaldo<ept id="p3">**</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="550">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> For <bpt id="p2">&lt;strong&gt;</bpt>TOT<ept id="p2">&lt;/strong&gt;</ept> rows and <ph id="ph1">&lt;/strong&gt;</ph>CAL<ph id="ph2">&lt;/strong&gt;</ph> rows that typically carry a credit balance, be sure to enter a <bpt id="p3">&lt;strong&gt;</bpt>C<ept id="p3">&lt;/strong&gt;</ept> in the <bpt id="p4">&lt;strong&gt;</bpt>Normal Balance<ept id="p4">&lt;/strong&gt;</ept> column in the row definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Märkus.<ept id="p1">&lt;/strong&gt;</ept> Veenduge ridade <bpt id="p2">&lt;strong&gt;</bpt>TOT<ept id="p2">&lt;/strong&gt;</ept> ja <ph id="ph1">&lt;/strong&gt;</ph>CAL<ph id="ph2">&lt;/strong&gt;</ph> puhul, mis tavaliselt sisaldavad kreeditsaldot, et sisestaksite <bpt id="p3">&lt;strong&gt;</bpt>C<ept id="p3">&lt;/strong&gt;</ept> readefinitsiooni veergu <bpt id="p4">&lt;strong&gt;</bpt>Normaalsaldo<ept id="p4">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="551">
-          <source>X0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="552">
-          <source>Suppress column if all zeros or blanks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru peitmine, kui kõik on nullid või tühjad</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="553">
-          <source>Exclude an <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column from the report if all cells in that column are either empty or contain zeros.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> välistamine aruandest, kui kõik selle veeru lahtrid on kas tühjad või sisaldavad nulle.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="554">
-          <source>SR</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SR</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="555">
-          <source>Suppress rounding</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Peida ümardamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="556">
-          <source>Prevent the amounts in this column from being rounded.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle veeru summade ümardamise takistamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="557">
-          <source>XR</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">XR</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="558">
-          <source>Suppress rollup</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ümberarvestuse peitmine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="559">
-          <source>Suppress a rollup.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ümberarvestuse peitmine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="560">
-          <source>If the report uses a reporting tree, the amounts in this column aren't rolled up into subsequent parent nodes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui aruanne kasutab aruandluspuud, ei koondata selle veeru summasid järgnevatesse emasõlmedesse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="561">
-          <source>RP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">RP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="562">
-          <source>Repeat column on each page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Korda veergu igal lehel</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="563">
-          <source>Repeat a specified column on each page of a report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Määratud veeru kordamine aruande igal lehel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="564">
-          <source>For example, you can use the <bpt id="p1">**</bpt>RP<ept id="p1">**</ept> print control code to include a column of the <bpt id="p2">**</bpt>ROW<ept id="p2">**</ept> type that pulls in row codes on every page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks saate kasutada prindi kontrollkoodi <bpt id="p1">**</bpt>RP<ept id="p1">**</ept> tüüpi <bpt id="p2">**</bpt>ROW<ept id="p2">**</ept> veeru kaasamiseks, mis tõmbab rea koodid igale lehele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="565">
-          <source>WT</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">WT</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="566">
-          <source>Wrap text</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Murra tekst</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="567">
-          <source>If the text in a column is too long to fit the space, wrap the text to keep all the text in the column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui veeru tekst on ruumi mahtumiseks liiga pikk, murdke tekst kogu teksti säilitamiseks veerus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="568">
-          <source>Conditional print control codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tingimuslikud prindi kontrollkoodid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="569">
-          <source>Conditional print control code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tingimuslik prindi kontrollkood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="570">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="571">
-          <source>(none)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(puudub)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="572">
-          <source>Clear the conditional print selection.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tingimusliku prindi suvandi tühjendamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="573">
-          <source>P<ph id="ph1">&amp;lt;</ph>B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="574">
-          <source>Display a specified column only if the period is less than the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kindla veeru kuvamine ainult siis, kui periood on baasperioodist lühem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="575">
-          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="576">
-          <source>Display a specified column only if the period is more than the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kindla veeru kuvamine ainult siis, kui periood on baasperioodist pikem.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="577">
-          <source>P=B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P=B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="578">
-          <source>Display a specified column only if the period is equal to the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kindla veeru kuvamine ainult siis, kui periood on baasperioodiga võrdne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="579">
-          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="580">
-          <source>Display a specified column only if the period is less than or equal to the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kindla veeru kuvamine ainult siis, kui periood on baasperioodist lühem või sellega võrdne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="581">
-          <source>P<ph id="ph1">&amp;gt;</ph>=B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>=B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="582">
-          <source>Display a specified column only if the period is more than or equal to the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kindla veeru kuvamine ainult siis, kui periood on baasperioodist pikem või sellega võrdne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="583">
-          <source>Add print control codes to a report column</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prindi kontrollkoodide lisamine aruande veergu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="584">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruandekoosturis muudetav veerudefinitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="585">
-          <source>Double-click the <bpt id="p1">**</bpt>Print Control<ept id="p1">**</ept> cell.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake lahtrit <bpt id="p1">**</bpt>Printimise juhtelement<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="586">
-          <source>In the <bpt id="p1">**</bpt>Print Control<ept id="p1">**</ept> dialog box, select a code in the <bpt id="p2">**</bpt>Select print control options<ept id="p2">**</ept> list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige dialoogiboksis <bpt id="p1">**</bpt>Prindi kontrollkood<ept id="p1">**</ept> kood loendist <bpt id="p2">**</bpt>Prindi kontrollkoodi suvandite valimine<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="587">
-          <source>To select more than one code, hold down the Ctrl key while you select the codes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rohkem kui ühe koodi valimiseks hoidke koodide valimisel all klahvi Ctrl.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="588">
-          <source>Select an option in the <bpt id="p1">**</bpt>Conditional print options<ept id="p1">**</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige suvand väljalt <bpt id="p1">**</bpt>Tingimuslikud prindi suvandid<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="589">
-          <source>By default, <bpt id="p1">**</bpt>(none)<ept id="p1">**</ept> is selected.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaikimisi on valitud säte <bpt id="p1">**</bpt>(puudub)<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="590">
-          <source>You can select only one conditional print code at a time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Korraga saate valida ainult ühe tingimusliku prindi kontrollkoodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="591">
-          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="592">
-          <source>You can also enter the print codes directly in the <bpt id="p1">**</bpt>Print Control<ept id="p1">**</ept> cell.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate prindi kontrollkoodid sisestada ka otse lahtrisse <bpt id="p1">**</bpt>Prindi kontrollkood<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="593">
-          <source>Separate multiple print control codes with a comma.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eraldage mitu prindi kontrollkoodi komadega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="594">
-          <source>Column types</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerutüübid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="595">
-          <source>The type of information that each column on a report includes is specified by the value in the <bpt id="p1">**</bpt>Column Type<ept id="p1">**</ept> row in the column definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teabe tüüp, mida iga aruande veerg sisaldab, määratakse väärtusega veeru definitsiooni real <bpt id="p1">**</bpt>Veeru tüüp<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="596">
-          <source>Each column definition must contain at least one description (<bpt id="p1">**</bpt>DESC<ept id="p1">**</ept>) column and one amount (<bpt id="p2">**</bpt>FD<ept id="p2">**</ept>, <bpt id="p3">**</bpt>WKS<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>CALC<ept id="p4">**</ept>) column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iga veerudefinitsioon peab sisaldama vähemalt ühte kirjelduse (<bpt id="p1">**</bpt>DESC<ept id="p1">**</ept>) veergu ja ühte summa (<bpt id="p2">**</bpt>FD<ept id="p2">**</ept>, <bpt id="p3">**</bpt>WKS<ept id="p3">**</ept> või <bpt id="p4">**</bpt>CALC<ept id="p4">**</ept>) veergu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="597">
-          <source>The column type codes don't apply to all accounting systems.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru tüübi koodid ei rakendu kõigile raamatupidamissüsteemidele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="598">
-          <source>If you select a type that isn't valid for your accounting system, that column is blank on the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valides tüübi, mis teie raamatupidamissüsteemi puhul ei kehti, on see veerg aruandes tühi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="599">
-          <source>Specify a column type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru tüübi määramine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="600">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="601">
-          <source>In the appropriate column, double-click a cell in the <bpt id="p1">**</bpt>Column Type<ept id="p1">**</ept> row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake asjakohases veerus lahtrit real <bpt id="p1">**</bpt>Veeru tüüp<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="602">
-          <source>Select a column type in the list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige loendist veeru tüüp.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="603">
-          <source>The following table describes the various column types.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises tabelis kirjeldatakse eri veeru tüüpe.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="604">
-          <source>Column type code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru tüübi kood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="605">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="606">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="607">
-          <source>Display financial data when you use a <bpt id="p1">&lt;strong&gt;</bpt>Link to Financial Dimensions<ept id="p1">&lt;/strong&gt;</ept> column in the row definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui kasutate rea definitsioonis veergu <bpt id="p1">&lt;strong&gt;</bpt>Link finantsdimensioonidele<ept id="p1">&lt;/strong&gt;</ept>, kuvatakse finantsandmed.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="608">
-          <source>When you select the <bpt id="p1">&lt;strong&gt;</bpt>FD<ept id="p1">&lt;/strong&gt;</ept> column type, default settings are automatically specified for the following rows:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui valite <bpt id="p1">&lt;strong&gt;</bpt>FD<ept id="p1">&lt;/strong&gt;</ept>‑tüüpi veeru, määratakse järgmistel ridadel automaatselt vaikesätted.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="609">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Book Code/Attribute Category:<ept id="p1">&lt;/strong&gt;</ept> ACTUAL</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Arvestuskood/atribuudikategooria:<ept id="p1">&lt;/strong&gt;</ept> TEGELIK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="610">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Book Code/Attribute Category:<ept id="p1">&lt;/strong&gt;</ept> ACTUAL</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Arvestuskood/atribuudikategooria:<ept id="p1">&lt;/strong&gt;</ept> TEGELIK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="611">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Fiscal Year:<ept id="p1">&lt;/strong&gt;</ept> BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Finantsaasta:<ept id="p1">&lt;/strong&gt;</ept> BAAS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="612">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Period:<ept id="p1">&lt;/strong&gt;</ept> BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Periood:<ept id="p1">&lt;/strong&gt;</ept> BAAS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="613">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Periods Covered:<ept id="p1">&lt;/strong&gt;</ept> PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Kaetud perioodid:<ept id="p1">&lt;/strong&gt;</ept> PERIOODILINE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="614">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Column Width:<ept id="p1">&lt;/strong&gt;</ept> 14</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Veeru laius:<ept id="p1">&lt;/strong&gt;</ept> 14</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="615">
-          <source>You can change these default settings.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate neid vaikesätteid muuta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="616">
-          <source>CALC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CALC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="617">
-          <source>Display the result of a simple or complex calculation that is specified in the <bpt id="p1">&lt;strong&gt;</bpt>Formula<ept id="p1">&lt;/strong&gt;</ept> cell.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahtris <bpt id="p1">&lt;strong&gt;</bpt>Valem<ept id="p1">&lt;/strong&gt;</ept> määratletud lihtsa või keeruka arvutuse tulemuse kuvamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="618">
-          <source>For more information, see <bpt id="p1">&lt;a href="advanced-formatting-options-financial-reporting.md"&gt;</bpt>Advanced formatting options in financial reporting<ept id="p1">&lt;/a&gt;</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateabe saamiseks vt jaotist <bpt id="p1">&lt;a href="advanced-formatting-options-financial-reporting.md"&gt;</bpt>Finantsaruandluse täpsemad vormingusuvandid<ept id="p1">&lt;/a&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="619">
-          <source>DESC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DESC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="620">
-          <source>Display the row description from the row definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rea kirjelduse kuvamine readefinitsioonist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="621">
-          <source>Although the description column is often the first column on the report, it can be in any position.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuigi kirjelduse veerg on sageli aruande esimene veerg, võib see olla mis tahes kohas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="622">
-          <source>ROW</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ROW</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="623">
-          <source>Display the individual row codes for financial rows from the <bpt id="p1">&lt;strong&gt;</bpt>Row Code<ept id="p1">&lt;/strong&gt;</ept> column in the row definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsridade üksiku rea koodide kuvamine readefinitsiooni veerult <bpt id="p1">&lt;strong&gt;</bpt>Rea kood<ept id="p1">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="624">
-          <source>For more information, see <bpt id="p1">&lt;a href="row-definitions-financial-reporting.md"&gt;</bpt>Row definitions in financial reporting<ept id="p1">&lt;/a&gt;</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateabe saamiseks vt jaotist <bpt id="p1">&lt;a href="row-definitions-financial-reporting.md"&gt;</bpt>Finantsaruandluse readefinitsioonid<ept id="p1">&lt;/a&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="625">
-          <source>ACCT (Account codes)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACCT (kontokoodid)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="626">
-          <source>Display the financial data segment values or dimension values that apply to each row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsandmete segmendi väärtuste või dimensiooniväärtuste kuvamine, mida rakendatakse igale reale.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="627">
-          <source>For account and transaction detail reports, the fully qualified account is printed (for example, <bpt id="p1">&lt;strong&gt;</bpt>110140-070-0101<ept id="p1">&lt;/strong&gt;</ept>).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konto ja kande üksikasjade aruannete puhul prinditakse täielik konto (näiteks <bpt id="p1">&lt;strong&gt;</bpt>110140-070-0101<ept id="p1">&lt;/strong&gt;</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="628">
-          <source>If ranges have been specified in the <bpt id="p1">&lt;strong&gt;</bpt>Link to Financial Dimensions<ept id="p1">&lt;/strong&gt;</ept> column in an associated row definition, the range is enclosed in square brackets and is treated as a single value (for example, <bpt id="p2">&lt;strong&gt;</bpt>[110140:110700]-070-[0101:0200]<ept id="p2">&lt;/strong&gt;</ept>).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui vahemikud on määratud seonduva reamääratluse veerus <bpt id="p1">&lt;strong&gt;</bpt>Link finantsdimensioonidele<ept id="p1">&lt;/strong&gt;</ept>, pannakse vahemik nurksulgudesse ja seda käsitletakse üksiku väärtusena (näiteks <bpt id="p2">&lt;strong&gt;</bpt>[110140:110700]‑070‑[0101:0200]<ept id="p2">&lt;/strong&gt;</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="629">
-          <source>For financial reports and high-level reports that are a combination of several accounts, the financial data link from the row definition is printed (for example, <bpt id="p1">&lt;strong&gt;</bpt>1100:1200<ept id="p1">&lt;/strong&gt;</ept>).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaruannete ja kõrgetasemeliste aruannete puhul, mis on mitmete kontode kombinatsioonid, prinditakse finantsandmete link reamääratlusest (näiteks <bpt id="p1">&lt;strong&gt;</bpt>1100:1200<ept id="p1">&lt;/strong&gt;</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="630">
-          <source>FILL</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FILL</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="631">
-          <source>Fill the cell with a character that you enclose in single quotation marks.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahtri täitmine märgiga, mille panete üksisjutumärkidesse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="632">
-          <source>If you don't enter a character, the column is empty.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui te märki ei sisesta, on veerg tühi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="633">
-          <source>For example, to fill a column with an ellipsis (...), enter <bpt id="p1">&lt;strong&gt;</bpt>FILL<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt>'.'<ept id="p2">&lt;/strong&gt;</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks veeru täitmiseks kolmikpunktiga (...) sisestage <bpt id="p1">&lt;strong&gt;</bpt>FILL<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt>'.'<ept id="p2">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="634">
-          <source>PAGE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PAGE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="635">
-          <source>Insert a vertical page break in the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vertikaalse lehepiiri sisestamine aruandesse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="636">
-          <source>The columns that are to the right of the <bpt id="p1">&lt;strong&gt;</bpt>PAGE<ept id="p1">&lt;/strong&gt;</ept> column appear on a different page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerust <bpt id="p1">&lt;strong&gt;</bpt>LEHT<ept id="p1">&lt;/strong&gt;</ept> paremal olevad veerud ilmuvad muul lehel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="637">
-          <source>ATTR</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ATTR</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="638">
-          <source>If your accounting system supports attributes, display an account or transaction attribute in the column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konto või kande atribuudi kuvamine veerus, kui teie raamatupidamissüsteem atribuute toetab.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="639">
-          <source>An attribute, which must apply to a single full account, extracts underlying account or transaction information from the financial data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribuut, mis tuleb rakendada ühele täielikule kontole, ekstrakdib aluseks oleva konto või kande teabe finantsandmetest.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="640">
-          <source>Account-level attributes display data from the account, and transaction-level attributes display data that occurred at the time that the transaction was posted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konto taseme atribuudid kuvavad andmeid kontolt ja kande taseme atribuudid kuvavad kande postitamise ajal ilmnenud andmeid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="641">
-          <source>If you select <bpt id="p1">&lt;strong&gt;</bpt>ATTR<ept id="p1">&lt;/strong&gt;</ept> as the column type, specify the attribute category in the <bpt id="p2">&lt;strong&gt;</bpt>Book Code/Attribute Category<ept id="p2">&lt;/strong&gt;</ept> detail row of the column definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui valite <bpt id="p1">&lt;strong&gt;</bpt>ATTR<ept id="p1">&lt;/strong&gt;</ept>‑tüüpi veeru, määrake atribuudikategooria veeru määratluse üksikasjade real <bpt id="p2">&lt;strong&gt;</bpt>Arvestuskood/atribuudikategooria<ept id="p2">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="642">
-          <source>Financial Dimensions column</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerg Finantsdimensioonid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="643">
-          <source>The following <bpt id="p1">**</bpt>Column Definition<ept id="p1">**</ept> row definitions apply to columns that have a column type of <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> (Amounts from financial dimensions).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmised rea <bpt id="p1">**</bpt>Veeru definitsioon<ept id="p1">**</ept> definitsioonid rakenduvad veergudele, mille veeru tüüp on <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> (finantsdimensioonide summad).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="644">
-          <source>Book Code/Attribute Category cell</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter Konteerimiskood/atribuudi kategooria</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="645">
-          <source>The <bpt id="p1">**</bpt>Book Code/Attribute Category<ept id="p1">**</ept> cell identifies the book code for the data in the <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter <bpt id="p1">**</bpt>Konteerimiskood/atribuudi kategooria<ept id="p1">**</ept> määratleb konteerimiskoodi veeru <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> andmete puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="646">
-          <source>A column definition can include multiple actual, budget, and statistical columns.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsioon võib sisaldada mitut tegelikku, eelarve ja statistilist veergu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="647">
-          <source>A column definition can also display different periods, such as current or year-to-date, and different amounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsioon võib kuvada ka eri perioode, nagu praegune või aasta algusest praeguse kuupäevani, ja eri summasid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="648">
-          <source>The list of book codes reflects the actual, budget, and statistical (non-financial) options that have been established in your financial data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konteerimiskoodide loend kajastab teie ettevõtte andmetes loodud tegelikke, eelarve ja statistilisi (mitterahalisi) suvandeid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="649">
-          <source>Fiscal Year cell</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter Rahandusaasta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="650">
-          <source>The <bpt id="p1">**</bpt>Fiscal Year<ept id="p1">**</ept> cell identifies the fiscal year that the column should include.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter <bpt id="p1">**</bpt>Rahandusaasta<ept id="p1">**</ept> määratleb rahandusaasta, mis tuleks veergu kaasata.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="651">
-          <source>The year can be relative to the base year that is specified when the report is generated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aasta võib olla aruande loomisel määratud baasperioodile vastav.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="652">
-          <source>The following options are available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saadaval on järgmised suvandid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="653">
-          <source>Option</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suvand</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="654">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="655">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="656">
-          <source>Use the base year that is specified at report time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruande ajal määratud aasta kasutamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="657">
-          <source>BASE+<ph id="ph1">\#</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE+<ph id="ph1">\#</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="658">
-          <source>Use the year that is <ph id="ph1">\#</ph> years after the base year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aasta kasutamine, mis on <ph id="ph1">\#</ph> aastat pärast baasaastat.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="659">
-          <source>For example, to use the third year after the base year, enter <bpt id="p1">**</bpt>BASE+3<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks baasaastale järgneva kolmanda aasta kasutamiseks sisestage <bpt id="p1">**</bpt>BASE+3<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="660">
-          <source>BASE-<ph id="ph1">\#</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE-<ph id="ph1">\#</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="661">
-          <source>Use the year that is <ph id="ph1">\#</ph> years before the base year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aasta kasutamine, mis on <ph id="ph1">\#</ph> aastat enne baasaastat.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="662">
-          <source>For example, to use the previous year, enter <bpt id="p1">**</bpt>BASE-1<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks eelmise aasta kasutamiseks sisestage <bpt id="p1">**</bpt>BASE-1<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="663">
-          <source>Enter the actual fiscal year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegeliku rahandusaasta sisestamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="664">
-          <source>Period cell</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter Periood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="665">
-          <source>The <bpt id="p1">**</bpt>Period<ept id="p1">**</ept> cell identifies the fiscal periods that the column should include.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter <bpt id="p1">**</bpt>Periood<ept id="p1">**</ept> määratleb rahandusperioodid, mis tuleks veergu kaasata.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="666">
-          <source>The period can be relative to the base period that is specified when the report is generated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Periood võib olla aruande loomisel määratud baasperioodile vastav.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="667">
-          <source>The following options are available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saadaval on järgmised suvandid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="668">
-          <source>Option</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suvand</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="669">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="670">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="671">
-          <source>Use the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Baasperioodi kasutamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="672">
-          <source>BASE+<ph id="ph1">\#</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE+<ph id="ph1">\#</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="673">
-          <source>Use the period that is <ph id="ph1">\#</ph> periods after the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perioodi kasutamine, mis on <ph id="ph1">\#</ph> perioodi pärast baasperioodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="674">
-          <source>For example, to use the third period after the base period, enter <bpt id="p1">**</bpt>BASE+3<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks baasperioodile järgneva kolmanda perioodi kasutamiseks sisestage <bpt id="p1">**</bpt>BASE+3<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="675">
-          <source>BASE-<ph id="ph1">\#</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE-<ph id="ph1">\#</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="676">
-          <source>Use the period that is <ph id="ph1">\#</ph> periods before the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perioodi kasutamine, mis on <ph id="ph1">\#</ph> perioodi enne baasperioodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="677">
-          <source>For example, to use the previous period, enter <bpt id="p1">**</bpt>BASE-1<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks eelmise perioodi kasutamiseks sisestage <bpt id="p1">**</bpt>BASE-1<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="678">
-          <source>BASE-<ph id="ph1">\#</ph>:BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE-<ph id="ph1">\#</ph>:BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="679">
-          <source>Use multiple periods, from several periods before the base period through the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mitme perioodi kasutamine alates mitmest perioodist enne alusperioodi kuni baasperioodini.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="680">
-          <source>For example, to use the three previous periods and the base period, enter <bpt id="p1">**</bpt>BASE-3:BASE<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks kolme eelmise perioodi ja baasperioodi kasutamiseks sisestage <bpt id="p1">**</bpt>BASE-3:BASE<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="681">
-          <source>BASE:BASE+<ph id="ph1">\#</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE:BASE+<ph id="ph1">\#</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="682">
-          <source>Use multiple periods, from the base period through several periods after the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mitme perioodi kasutamine alates baasperioodist kuni mitme perioodini pärast baasperioodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="683">
-          <source>For example, to use the base period and the following two periods, enter <bpt id="p1">**</bpt>BASE:BASE+2<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks baasperioodi ja kahe järgmise perioodi kasutamiseks sisestage <bpt id="p1">**</bpt>BASE:BASE+2<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="684">
-          <source>BASE-<ph id="ph1">\#</ph>:BASE+<ph id="ph2">\#</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE-<ph id="ph1">\#</ph>:BASE+<ph id="ph2">\#</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="685">
-          <source>Use multiple periods, from several periods before the base period to several periods after the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mitme perioodi kasutamine alates mitmest perioodist enne baasperioodi kuni mitme perioodini pärast baasperioodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="686">
-          <source>For example, to use the three previous periods, the base period, and the following two periods, enter <bpt id="p1">**</bpt>BASE-3:BASE+2<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks kolme eelmise perioodi, baasperioodi ja kahe järgmise perioodi kasutamiseks sisestage <bpt id="p1">**</bpt>BASE-3:BASE+2<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="687">
-          <source>1:BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1:BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="688">
-          <source>Use multiple periods, from the first period through the base period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mitme perioodi kasutamine alates esimesest perioodist kuni baasperioodini.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="689">
-          <source>Always use a specific period number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alati kindla perioodi koodi kasutamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="690">
-          <source>We don't recommend that you use this option, because it reduces the flexibility of the column definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle suvandi kasutamine pole soovitatav, kuna see vähendab veeru definitsiooni paindlikkust.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="691">
-          <source><ph id="ph1">\#</ph>:<ph id="ph2">\#</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">\#</ph>                                      : <ph id="ph2">\#</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="692">
-          <source>Always use a specific range of periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alati kindla perioodide vahemiku kasutamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="693">
-          <source>We don't recommend that you use this option, because it reduces the flexibility of the column definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle suvandi kasutamine pole soovitatav, kuna see vähendab veeru definitsiooni paindlikkust.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="694">
-          <source>You can go beyond fiscal year boundaries in any of the period specifications, and you can mix years in a range of periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate rahandusaasta piire ületada mis tahes perioodi spetsifikatsioonis ja kombineerida perioodide vahemiku aastaid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="695">
-          <source>For example, you specify the periods as <bpt id="p1">**</bpt>BASE-5<ept id="p1">**</ept> (to represent the past six periods) and run a report that has a base period of 2.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks saate määrata perioodid kui <bpt id="p1">**</bpt>BASE-5<ept id="p1">**</ept> (viimase kuue perioodi tähistamiseks) ja käivitada aruande, mille baasperiood on 2.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="696">
-          <source>In this case, the report shows data for the first two periods of the specified fiscal year and the last four periods of the previous fiscal year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sellisel juhul kuvatakse aruandes määratud rahandusaasta kahe esimese perioodi ja eelmise rahandusaasta nelja viimase perioodi andmed.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="697">
-          <source>Specify the periods for an FD column</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perioodide määratlemine veeru FD jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="698">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruandekoosturis muudetav veerudefinitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="699">
-          <source>In an <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column, double-click the cell in the <bpt id="p2">**</bpt>Period<ept id="p2">**</ept> row, and then select an option in the list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake veeru <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> rea lahtrit <bpt id="p2">**</bpt>Periood<ept id="p2">**</ept> ja seejärel valige suvand loendist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="700">
-          <source>In the formula bar above the navigation pane, or in the <bpt id="p1">**</bpt>Period<ept id="p1">**</ept> cell, complete the formula.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lõpetage valem navigeerimispaani kohal valemiribal või lahtris <bpt id="p1">**</bpt>Periood<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="701">
-          <source>Replace any number sign (<ph id="ph1">\#</ph>) with the appropriate value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Asendage numbrimärk (<ph id="ph1">\#</ph>) sobiva väärtusega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="702">
-          <source>Periods Covered cell</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter Hõlmatud perioodid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="703">
-          <source>The <bpt id="p1">**</bpt>Periods Covered<ept id="p1">**</ept> cell identifies the amount that the column should display.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter <bpt id="p1">**</bpt>Hõlmatud perioodid<ept id="p1">**</ept> määratleb summa, mis tuleks veerus kuvada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="704">
-          <source>This amount is relative to the value in the <bpt id="p1">**</bpt>Fiscal Year<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Period<ept id="p2">**</ept> cells for the column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See summa on seotud väärtusega veeru lahtrites <bpt id="p1">**</bpt>Rahandusaasta<ept id="p1">**</ept> ja <bpt id="p2">**</bpt>Periood<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="705">
-          <source>The following options are available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saadaval on järgmised suvandid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="706">
-          <source>Option</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suvand</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="707">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="708">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="709">
-          <source>Display the sum of the activity for the current period or range of periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Praeguse perioodi või perioodide vahemiku tegevuse summa kuvamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="710">
-          <source>PERIODIC/BB</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC/BB</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="711">
-          <source>Display the beginning balance for the current period or range of periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Praeguse perioodi või perioodide vahemiku algsaldo kuvamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="712">
-          <source>YTD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">YTD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="713">
-          <source>Display the sum of the year-to-date activity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kumulatiivse tegevuse summa kuvamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="714">
-          <source>YTD/BB</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">YTD/BB</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="715">
-          <source>Display the beginning balance for the year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aasta algsaldo kuvamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="716">
-          <source>Specify the periods that are covered for an FD column</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru FD puhul hõlmatud perioodide määramine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="717">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="718">
-          <source>In an <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column, double-click the cell in the <bpt id="p2">**</bpt>Periods Covered<ept id="p2">**</ept> row, and select an option in the list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake veeru <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> rea lahtrit <bpt id="p2">**</bpt>Hõlmatud perioodid<ept id="p2">**</ept> ja valige suvand loendist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="719">
-          <source>Attribute filter in a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsiooni atribuudi filter</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="720">
-          <source>Attributes are financial data values that further define an account or transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribuudid on finantsandmete väärtused konto või kande täpsemaks määratlemiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="721">
-          <source>The account attributes include <bpt id="p1">**</bpt>Asset<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Liability<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Revenue<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Expense<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konto atribuudid sisaldavad suvandeid <bpt id="p1">**</bpt>Vara<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Kohustus<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Tulu<ept id="p3">**</ept> ja <bpt id="p4">**</bpt>Kulu<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="722">
-          <source>The transaction attributes include <bpt id="p1">**</bpt>Transaction Description<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Transaction Apply Date<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kande atribuudid sisaldavad suvandeid <bpt id="p1">**</bpt>Kande kirjeldus<ept id="p1">**</ept> ja <bpt id="p2">**</bpt>Kande rakendamise kuupäev<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="723">
-          <source>Attribute support might differ between Microsoft Dynamics ERP systems.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribuudi tugi võib Microsoft Dynamicsi ERP süsteemide lõikes erineda.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="724">
-          <source>The <bpt id="p1">**</bpt>Attribute Filter<ept id="p1">**</ept> cell restricts the data in <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> columns to specific values or ranges for attribute categories.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter <bpt id="p1">**</bpt>Atribuudi filter<ept id="p1">**</ept> piirab andmed veergudes <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> atribuudikategooriate konkreetsetele väärtustele või vahemikele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="725">
-          <source>Although this feature can be used together with an <bpt id="p1">**</bpt>ATTR<ept id="p1">**</ept> column, the <bpt id="p2">**</bpt>ATTR<ept id="p2">**</ept> column isn't required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuigi seda funktsiooni saab kasutada koos veeruga <bpt id="p1">**</bpt>ATTR<ept id="p1">**</ept>, pole veerg <bpt id="p2">**</bpt>ATTR<ept id="p2">**</ept> nõutav.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="726">
-          <source>In an <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column, there is a limit on the accounts or transactions that the report will include from the attribute filter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veerus <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> on aruande atribuudi filtrist kaasatavad kontod või kanded piiratud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="727">
-          <source>To see which attributes your ERP system supports, see the integration guide for your system.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nägemaks, milliseid atribuute ERP-süsteem toetab, vaadake süsteemi integratsioonijuhendit.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="728">
-          <source>Apply an attribute filter for an FD column on a report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribuudi filtri rakendamine aruande veerule FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="729">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="730">
-          <source>Double-click the <bpt id="p1">**</bpt>Attribute Filter<ept id="p1">**</ept> cell for an <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake veeru <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> jaoks lahtrit <bpt id="p1">**</bpt>Atribuudifilter<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="731">
-          <source>In the <bpt id="p1">**</bpt>Attribute Filter<ept id="p1">**</ept> dialog box, double-click a cell in the <bpt id="p2">**</bpt>Attribute<ept id="p2">**</ept> column, and then select the filter type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake dialoogiboksis <bpt id="p1">**</bpt>Atribuudifilter<ept id="p1">**</ept> mõnd veeru <bpt id="p2">**</bpt>Atribuut<ept id="p2">**</ept> lahtrit ning valige seejärel filtri tüüp.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="732">
-          <source>To further limit the results, enter a range in the <bpt id="p1">**</bpt>From<ept id="p1">**</ept> and <bpt id="p2">**</bpt>To<ept id="p2">**</ept> columns.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tulemuste edasiseks piiramiseks sisestage vahemik veergudesse <bpt id="p1">**</bpt>Alates<ept id="p1">**</ept> ja <bpt id="p2">**</bpt>Kuni<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="733">
-          <source>The <bpt id="p1">**</bpt>From<ept id="p1">**</ept> cell must contain a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter <bpt id="p1">**</bpt>Alates<ept id="p1">**</ept> peab sisaldama väärtust.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="734">
-          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nupul <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="735">
-          <source>Example of an attribute filter</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribuudi filtri näide</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="736">
-          <source>The following example shows part of a column description that has an account attribute in the <bpt id="p1">**</bpt>Book Code/Attribute Category<ept id="p1">**</ept> row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises näites kuvatakse veeru kirjelduse osa, mille konto atribuut on real <bpt id="p1">**</bpt>Konteerimiskood/atribuudi kategooria<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="737">
-          <source>The attribute filter for this column specifies the range of values to include in the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle veeru atribuudi filter määrab aruandesse kaasatavate väärtuste vahemiku.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="738">
-          <source>A</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="739">
-          <source>B</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="740">
-          <source>Column Type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru tüüp</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="741">
-          <source>DESC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DESC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="742">
-          <source>FD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="743">
-          <source>Book Code/Attribute Category</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvestuskood/atribuudikategooria</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="744">
-          <source>ACTUAL</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="745">
-          <source>Fiscal Year</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finantsaasta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="746">
-          <source>BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="747">
-          <source>Period</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Periood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="748">
-          <source>1:BASE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1:BASE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="749">
-          <source>Periods Covered</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaetud perioodid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="750">
-          <source>PERIODIC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="751">
-          <source>...</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">...</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="752">
-          <source>Column Width</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru laius</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="753">
-          <source>30</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">30</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="754">
-          <source>...</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">...</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="755">
-          <source>Attribute Filter</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribuudi filter</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="756">
-          <source>Reference=<ph id="ph1">\[</ph>01:10<ph id="ph2">\]</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viide=<ph id="ph1">\[</ph>01:10<ph id="ph2">\]</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="757">
-          <source>Dimension filter in a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsiooni dimensioonifilter</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="758">
-          <source>A dimension filter is used to restrict the <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column to specific dimension values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dimensiooni filtrit kasutatakse veeru <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> piiramiseks teatud dimensiooniväärtusteni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="759">
-          <source>The filter can include a single dimension, a range of dimensions, or a group of dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Filter võib hõlmata üksikut dimensiooni, dimensioonide vahemikku või dimensioonide gruppi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="760">
-          <source>The filter can also include dimension value sets.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Filter võib sisaldada ka dimensiooni väärtuste kogumit.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="761">
-          <source>Because dimension values can vary, a ..<ph id="ph1">\\</ph>financial-dimensions<ph id="ph2">\\</ph>dimension-based system doesn't have to correspond to an exact length.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuna dimensiooniväärtused võivad olla erinevad, ei pea ..<ph id="ph1">\\</ph>finantsdimensioonid<ph id="ph2">\\</ph>dimensioonipõhine süsteem täpsele pikkusele vastama.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="762">
-          <source>The filter is applied, regardless of whether the report includes a reporting tree.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Filtrit rakendatakse olenemata sellest, kas aruanne sisaldab aruandluspuud või mitte.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="763">
-          <source>You can use a wildcard character (<ph id="ph1">\*</ph> or ?) in any position.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate kasutada metamärki (<ph id="ph1">\*</ph> või ?) kõigis kohtades.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="764">
-          <source>When you specify multiple accounts, put a comma between accounts, as in the following example: +Account=<ph id="ph1">\[</ph>1200<ph id="ph2">\]</ph>, +Account=<ph id="ph3">\[</ph>1100<ph id="ph4">\]</ph>, Department=<ph id="ph5">\[</ph>01?<ph id="ph6">\]</ph> To receive all departments for a specific account, you can exclude the Department dimension from the dimension filter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui määrate mitu kontot, pange kontode vahele koma, nagu järgmises näites: +konto=<ph id="ph1">\[</ph>1200<ph id="ph2">\]</ph>, +konto=<ph id="ph3">\[</ph>1100<ph id="ph4">\]</ph>, osakond=<ph id="ph5">\[</ph>01?<ph id="ph6">\]</ph> Kõigi konkreetse konto osakondade saamiseks võite dimensioonifiltrist dimensiooni Osakond välja jätta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="765">
-          <source>For example, both of the following dimension filters are handled in the same way:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks käsitletakse mõlemat järgmist dimensioonifiltrit samamoodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="766">
-          <source>+Account=<ph id="ph1">\[</ph>1100<ph id="ph2">\]</ph>,Department</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">+Konto=<ph id="ph1">\[</ph>1100<ph id="ph2">\]</ph>,Osakond</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="767">
-          <source>+Account=<ph id="ph1">\[</ph>1100<ph id="ph2">\]</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">+Konto=<ph id="ph1">\[</ph>1100<ph id="ph2">\]</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="768">
-          <source>You can also use any combination of alphanumeric characters for exact matching, and you can define partial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Täpseks vastendamiseks saate kasutada ka mis tahes kirjamärkide kombinatsiooni ja määratleda osalised dimensioonid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="769">
-          <source>For example, <bpt id="p1">**</bpt>Location = <ph id="ph1">\[</ph>10<ph id="ph2">\*</ph><ph id="ph3">\]</ph><ept id="p1">**</ept> includes all location dimension values that begin with 10.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks <bpt id="p1">**</bpt>Asukoht = <ph id="ph1">\[</ph>10<ph id="ph2">\*</ph><ph id="ph3">\]</ph><ept id="p1">**</ept> sisaldab kõiki asukoha dimensiooniväärtusi, mis algavad numbriga 10.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="770">
-          <source>Apply a dimension filter for a column on a report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dimensioonifiltri rakendamine aruande veerule</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="771">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="772">
-          <source>Double-click the <bpt id="p1">**</bpt>Dimension Filter<ept id="p1">**</ept> cell for an <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake lahtrit <bpt id="p1">**</bpt>Dimensioonifilter<ept id="p1">**</ept> veeru <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="773">
-          <source>In the <bpt id="p1">**</bpt>Dimensions<ept id="p1">**</ept> dialog box, enter the filters to apply.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage dialoogiboksi <bpt id="p1">**</bpt>Dimensioonid<ept id="p1">**</ept> rakendatavad filtrid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="774">
-          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nupul <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="775">
-          <source>Format a multiple-currency report in a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mitme valuutaga aruande vormindamine veeru definitsioonis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="776">
-          <source>A multiple-currency report can display amounts in the ledger's accounting currency, the ledger's reporting, the originating transaction currency, or the translated reporting currency.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mitme valuutaga aruanne võib kuvada summasid pearaamatu arvestusvaluutas, pearaamatu aruandlusvaluutas, algses kandevaluutas või teisendatud aruandlusvaluutas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="777">
-          <source>A company's accounting currency is defined in the Ledgers setup.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ettevõtte arvestusvaluuta on määratud pearaamatu seadistuses.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="778">
-          <source>Don't confuse this setting with the operating system's regional options setting, where you can configure the default currency symbols that are used on reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ärge ajage seda sätet segamini operatsioonisüsteemi piirkonnavalikute sättega, milles saate konfigureerida aruannetest kasutatavaid vaikevaluutatähiseid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="779">
-          <source>The following currency-related cells are available in the column definition:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsioonis on saadaval järgmised valuutaga seotud lahtrid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="780">
-          <source><bpt id="p1">**</bpt>Currency Display<ept id="p1">**</ept> – Specify the type of currency (accounting, reporting, transaction, or translated reporting) that the transactions are displayed in.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Valuuta kuvamine<ept id="p1">**</ept> – saate määrata kannetes kuvatava valuuta tüübi (arvestusvaluuta, aruandlusvaluuta, kandevaluuta või teisendatud aruandlusvaluuta).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="781">
-          <source>Translated to a reporting currency functionality is sometimes referred to as currency translation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruandlusvaluutaks teisendamise funktsiooni nimetatakse mõnikord valuuta teisendamiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="782">
-          <source>Currency translation is the ability to report general ledger amounts in a currency that might not be the functional or reporting currency of the company or the currency that the transaction was entered in.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valuuta teisendamine on võimalus esitada pearaamatu summasid valuutas, mis ei ole ettevõtte tegevus- või aruandlusvaluuta või sisestatud kande valuuta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="783">
-          <source><bpt id="p1">**</bpt>Currency Filter<ept id="p1">**</ept> – Specify a currency filter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Valuutafilter<ept id="p1">**</ept> – valuuta filtri määramine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="784">
-          <source>Only transactions that are entered in the selected currency are displayed on the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruandes kuvatakse ainult valitud valuutas sisestatud kanded.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="785">
-          <source>To determine a company's accounting currency, follow these steps.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ettevõtte arvestusvaluuta määramiseks toimige allpool kirjeldatud viisil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="786">
-          <source>In Report Designer, on the <bpt id="p1">**</bpt>Company<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Companies<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake aruandekoosturis menüü <bpt id="p1">**</bpt>Ettevõte<ept id="p1">**</ept> suvandit <bpt id="p2">**</bpt>Ettevõtted<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="787">
-          <source>In the <bpt id="p1">**</bpt>Companies<ept id="p1">**</ept> dialog box, select a company, and then click <bpt id="p2">**</bpt>View<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige ettevõte dialoogiboksist <bpt id="p1">**</bpt>Ettevõtted<ept id="p1">**</ept> ja seejärel klõpsake käsku <bpt id="p2">**</bpt>Kuva<ept id="p2">**</ept>..</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="788">
-          <source>In the <bpt id="p1">**</bpt>View Company<ept id="p1">**</ept> dialog box, under <bpt id="p2">**</bpt>Regional options<ept id="p2">**</ept>, you can view the currency that is defined for the selected company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dialoogiboksi <bpt id="p1">**</bpt>Ettevõtte kuvamine<ept id="p1">**</ept> suvandi <bpt id="p2">**</bpt>Piirkonnavalikud<ept id="p2">**</ept> all saate vaadata valitud ettevõtte puhul määratud valuutat.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="789">
-          <source>Specify the currency on a multiple-currency report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valuuta määramine mitme valuutaga aruandel</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="790">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="791">
-          <source>Double-click the <bpt id="p1">**</bpt>Currency Display<ept id="p1">**</ept> cell in the appropriate <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> column, and then select the option for displaying currency information: <bpt id="p3">**</bpt>Ledger accounting currency<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Ledger reporting<ept id="p4">**</ept>, transaction currency, or select to translate to a different reporting currency.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake asjakohases veerus <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> olevat lahtrit <bpt id="p1">**</bpt>Valuutakuva<ept id="p1">**</ept> ja seejärel valige valuutateabe kuvamise suvand: <bpt id="p3">**</bpt>Pearaamatu arvestusvaluuta<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Pearaamatu aruandlusvaluuta<ept id="p4">**</ept>, kandevaluuta või muuks aruandlusvaluutaks teisendamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="792">
-          <source>Double-click the <bpt id="p1">**</bpt>Currency Filter<ept id="p1">**</ept> cell in the appropriate <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> column, and then select the appropriate currency code in the list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Topeltklõpsake lahtrit <bpt id="p1">**</bpt>Valuutafilter<ept id="p1">**</ept> asjakohases veerus <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> ja seejärel valige loendist sobiv valuutakood.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="793">
-          <source>Only transactions that are entered in this currency are displayed on the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruandes kuvatakse ainult selles valuutas sisestatud kanded.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="794">
-          <source>Example for Currency Display and Currency Filter cells</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahtrite Kuva valuuta ja Valuutafilter näide</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="795">
-          <source>Phyllis has made the following currency selections in her column definition:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Phyllis tegi oma veeru definitsioonis järgmised valuuta valikud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="796">
-          <source><bpt id="p1">**</bpt>Currency Filter:<ept id="p1">**</ept> Yen</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Valuutafilter:<ept id="p1">**</ept> jeen</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="797">
-          <source><bpt id="p1">**</bpt>Currency Display:<ept id="p1">**</ept> Accounting currency from Ledger (U.S. dollars)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Valuutakuva:<ept id="p1">**</ept> pearaamatu arvestusvaluuta (USA dollarid)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="798">
-          <source>Because of the currency filter that Phyllis selected, the report includes only transactions that were entered in Japanese yen (JPY).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Phyllise valitud valuutafiltri tõttu sisaldab aruanne ainult kandeid, mis sisestati Jaapani jeenides (JPY).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="799">
-          <source>Because of the currency display that she selected, the report displays those transactions in the accounting currency, U.S. dollars (USD).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tema valitud valuutakuva tõttu kuvatakse need kanded aruandes arvestusvaluutas, USA dollarites (USD).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="800">
-          <source>Currency Filter and Currency Display combinations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kombinatsioonid Valuutafilter ja Valuuta kuva</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="801">
-          <source>The following table shows the report results that can occur for various combinations of the options in <bpt id="p1">**</bpt>Currency Display<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Currency Filter<ept id="p2">**</ept> cells because of the selections that Phyllis made.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises tabelis kuvatakse aruande tulemused, mis võivad ilmneda suvandite eri kombinatsioonide puhul lahtrites <bpt id="p1">**</bpt>Valuuta kuva<ept id="p1">**</ept> ja <bpt id="p2">**</bpt>Valuutafilter<ept id="p2">**</ept> Phyllise tehtud valikute tõttu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="802">
-          <source>The functional currency is USD.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ametlik valuuta on USD.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="803">
-          <source>Currency Display cell</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter Valuuta kuva</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="804">
-          <source>Currency Filter cell</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lahter Valuutafilter</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="805">
-          <source>Report result</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruande tulemus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="806">
-          <source>Transaction currency</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kande valuuta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="807">
-          <source><bpt id="p1">**</bpt>YEN<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>YEN<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="808">
-          <source><bpt id="p1">**</bpt>Y6,000<ept id="p1">**</ept> – The result shows only transactions that were entered in JPY.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Y6,000<ept id="p1">**</ept> – tulemus kuvab ainult valuutas JPY sisestatud kanded.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="809">
-          <source>Accounting currency from Ledger</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pearaamatu arvestusvaluuta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="810">
-          <source><bpt id="p1">**</bpt>YEN<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>YEN<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="811">
-          <source><bpt id="p1">**</bpt>$60<ept id="p1">**</ept> – The result shows only transactions that were entered in JPY and displays those transactions in USD.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>$60<ept id="p1">**</ept> – tulemus kuvab ainult need kanded, mis sisestati valuutas JPY ja kuvab need kanded valuutas USD.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="812">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> The conversion rate is approximately 100 JPY per USD.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Märkus.<ept id="p1">&lt;/strong&gt;</ept> Vahetuskurss on umbes 100 JPY USD kohta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="813">
-          <source>Accounting currency from Ledger</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Pearaamatu arvestusvaluuta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="814">
-          <source>Empty</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tühi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="815">
-          <source><bpt id="p1">**</bpt>$2,310<ept id="p1">**</ept> – The result shows all data in the accounting currency that is specified in the Ledger.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>2310 $<ept id="p1">**</ept> – kõik andmed kuvatakse pearaamatus määratud arvestusvaluutas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="816">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> This amount is the sum of all transactions in accounting currency.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;strong&gt;</bpt>Märkus.<ept id="p1">&lt;/strong&gt;</ept> See summa on kõigi kannete summa arvestusvaluutas.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="817">
-          <source>Transaction currency</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kande valuuta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="818">
-          <source>Empty</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tühi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="819">
-          <source><bpt id="p1">**</bpt>$2,250<ept id="p1">**</ept> – The result shows all amounts in the currency that the transaction was performed in.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>$2,250<ept id="p1">**</ept> – tulemus kuvab kõik summad valuutas, milles kanne tehti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="820">
-          <source>This means the total is adding together amounts from different currencies.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See tähendab, et kogusummaks liidetakse kokku eri valuutade summad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="821">
-          <source>Calculation column in a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsiooni arvutuse veerg</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="822">
-          <source>A column type of <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> in a column definition supports complex calculations in the <bpt id="p2">**</bpt>Formula<ept id="p2">**</ept> cell, and can include the <bpt id="p3">**</bpt><ph id="ph1">+</ph><ept id="p3">**</ept>, <bpt id="p4">**</bpt><ph id="ph2">-</ph><ept id="p4">**</ept>, <bpt id="p5">**</bpt><ph id="ph3">\*</ph><ept id="p5">**</ept>, and <bpt id="p6">**</bpt><ph id="ph4">/</ph><ept id="p6">**</ept> operators, and also <bpt id="p7">**</bpt>IF/THEN/ELSE<ept id="p7">**</ept> statements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru definitsiooni veeru tüüp <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> toetab keerukaid arvutusi lahtris <bpt id="p2">**</bpt>Valem<ept id="p2">**</ept> ning võib sisaldada tehtemärke <bpt id="p3">**</bpt><ph id="ph1">+</ph><ept id="p3">**</ept>, <bpt id="p4">**</bpt><ph id="ph2">-</ph><ept id="p4">**</ept>, <bpt id="p5">**</bpt><ph id="ph3">\*</ph><ept id="p5">**</ept> ja <bpt id="p6">**</bpt><ph id="ph4">/</ph><ept id="p6">**</ept>  ning ka lauseid <bpt id="p7">**</bpt>IF/THEN/ELSE<ept id="p7">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="823">
-          <source>A calculation column can also refer to any other column, even subsequent columns.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvutuse veerg võib viidata ka mis tahes muule veerule, sh järgnevatele veergudele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="824">
-          <source>Additionally, a calculation column can also include the fiscal year and period to support headers for the column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisaks võib arvutuse veerg veeru päiste toetamiseks sisaldada ka rahandusaastat ja perioodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="825">
-          <source>The calculation formula can be up to 1,024 characters long.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvutusvalem võib olla kuni 1024 märki pikk.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="826">
-          <source>To express the calculation result as a percentage, use a special format override.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvutustulemuse väljendamiseks protsendina kasutage kindla vormingu alistamist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="827">
-          <source>The results of calculation formulas don't include the values in non-printing column ranges.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvutusvalemite tulemused ei hõlma mitteprinditavate veergude vahemikes olevaid väärtusi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="828">
-          <source>For example, <bpt id="p1">**</bpt>A:D<ept id="p1">**</ept> prints <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (zero), whereas <bpt id="p3">**</bpt>A+B+C<ept id="p3">**</ept> for non-printing values calculates the value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks <bpt id="p1">**</bpt>A:D<ept id="p1">**</ept> prindib <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (null), samas kui <bpt id="p3">**</bpt>A+B+C<ept id="p3">**</ept> arvutab mitteprinditavate väärtuste puhul väärtuse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="829">
-          <source>Operators in calculation columns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvutusveergude tehtemärgid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="830">
-          <source>To add, subtract, multiply, or divide columns, enter the column letters in the order of computation, and then use the appropriate operator to separate each column letter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veergude liitmiseks, lahutamiseks, korrutamiseks või jagamiseks sisestage veeru tähed arvutamise järjekorras ja kasutage seejärel iga veeru tähe eraldamiseks asjakohast tehtemärki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="831">
-          <source>The following table explains the operators that you can use in a calculation column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises tabelis selgitatakse tehtemärke, mida saate arvutusveerus kasutada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="832">
-          <source>Operator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Operaator</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="833">
-          <source>Example calculation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvutuse näide</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="834">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="835">
-          <source>A+C</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A+C</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="836">
-          <source>Add the amount in column A to the amount in column C.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru A summa liitmine veeru C summale.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="837">
-          <source>:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="838">
-          <source>A:C A:C-D</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A:C A:C-D</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="839">
-          <source>Add a range of consecutive columns.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järjestikuste veergude vahemiku liitmine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="840">
-          <source>For example, the formula <bpt id="p1">**</bpt>A:C<ept id="p1">**</ept> adds the sums of columns A through C, and the formula <bpt id="p2">**</bpt>A:C-D<ept id="p2">**</ept> adds the sums of columns A through C, and then subtracts the amount in column D.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks valem <bpt id="p1">**</bpt>A:C<ept id="p1">**</ept> liidab veergude A kuni C summad ja valem <bpt id="p2">**</bpt>A:C-D<ept id="p2">**</ept> liidab veergude A kuni C summad ja lahutab seejärel veeru D summa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="841">
-          <source>A-C</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">A-C</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="842">
-          <source>Subtract the amount in column A from the amount in column C.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Lahutage veerus A olev summa veerus C olevast summast.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="843">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> You can also use the minus sign (-) to reverse the signs in a column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Märkus.<ept id="p1">&lt;/strong&gt;</ept> Veerus märkide ümberpööramiseks võite kasutada miinusmärki (-).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="844">
-          <source>For example, use <bpt id="p1">&lt;strong&gt;</bpt>-A+B<ept id="p1">&lt;/strong&gt;</ept> to add the reverse of the amount in column A to the amount in column B.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks kasutage valemit <bpt id="p1">&lt;strong&gt;</bpt>-A+B<ept id="p1">&lt;/strong&gt;</ept> veeru A summa pöördmärgi liitmiseks veeru B summale.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="845">
-          <source>A<ph id="ph1">\*</ph>C</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A<ph id="ph1">\*</ph>C</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="846">
-          <source>Multiply the amount in column A by the amount in column C.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru A summa korrutamine veeru C summaga.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="847">
-          <source>A/C</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A/C</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="848">
-          <source>Divide the amount in column A by the amount in column C.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru A summa jagamine veeru C summaga.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="849">
-          <source>Use a calculation formula in a column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvutusvalemi kasutamine veeru definitsioonis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="850">
-          <source>In Report Designer, open the column definition to modify.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage aruande kujundajas muudetav veeru definitsioon.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="851">
-          <source>In the appropriate <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> column, enter a formula in the <bpt id="p2">**</bpt>Formula<ept id="p2">**</ept> cell.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage valem asjakohase veeru <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> lahtrisse <bpt id="p2">**</bpt>Valem<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="852">
-          <source>Complex calculations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Keerukad arvutused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="853">
-          <source>A complex calculation can contain any combination of cell references, operators, values, and levels of nested parentheses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Keerukas arvutus võib sisaldada lahtri viidete, tehtemärkide, väärtuste ja pesastatud sulgude tasemete mis tahes kombinatsioone.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="854">
-          <source>For example, to compute the average of columns A and B, use the calculation formula <bpt id="p1">**</bpt>((A+B)/2)<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks kasutage veergude A ja B keskmise arvutamiseks arvutusvalemit <bpt id="p1">**</bpt>((A+B)/2)<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="855">
-          <source>Specify report cells in a column calculation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aruande lahtrite määramine veeru arvutuses</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="856">
-          <source>You can refer to a specific report cell by entering a column letter and a row code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate viidata kindlale aruande lahtrile, sisestades veeru tähe ja rea koodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="857">
-          <source>For example, <bpt id="p1">**</bpt>B.100<ept id="p1">**</ept> refers to row code 100 in column B. You can divide a whole column by a specific report cell amount that is in the same column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks <bpt id="p1">**</bpt>B.100<ept id="p1">**</ept> viitab rea koodile 100 veerus B. Saate kogu veeru jagada kindla aruande samas veerus oleva lahtri summaga.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="858">
-          <source>For example, the calculation <bpt id="p1">**</bpt>B/B.100<ept id="p1">**</ept> means that the amount in column B should be divided by the value in row code 100 in column B. If the calculation refers to a column that depends on another column, the dependent column is resolved first.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks arvutus <bpt id="p1">**</bpt>B/B.100<ept id="p1">**</ept> tähendab, et veeru B summa tuleks jagada veeru B rea koodi 100 väärtusega. Kui arvutus viitab veerule, mis sõltub teisest veerust, lahendatakse esmalt sõltuv veerg.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="859">
-          <source>If you refer a column to another column that refers back to the first column, you will cause a circular reference error.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru viitamisel teisele veerule, mis viitab taas esimesele veerule põhjustate ringviite tõrke.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="860">
-          <source>The calculation might be incorrect if you change the calculation priority for the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arvutus võib vale olla, kui aruande arvutamise prioriteeti muudate.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="861">
-          <source>You can set the calculation priority on the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> tab of the report definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate seadistada arvutamise prioriteedi aruande definitsiooni vahekaardil <bpt id="p1">**</bpt>Sätted<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="862">
-          <source>Multiply or divide a column by a base row</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru korrutamine või jagamine baasreaga</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="863">
-          <source>You can create a column that displays all the values in a specified column as a percentage of a base number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate luua veeru, mis kuvaks määratud veerus kõik väärtused baasarvu protsendina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="864">
-          <source>Therefore, you can show relationships between rows, such as a percentage of a sales row or a percentage of a total expenses row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seega saate kuvada ridadevahelised seosed, nagu müügi rea protsendi või kogukulude rea protsendi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="865">
-          <source>To multiply or divide each row in a specific column by a base row, enter the column to use in the calculation, and then enter <bpt id="p1">**</bpt><ph id="ph1">\*</ph>BASEROW<ept id="p1">**</ept> or <bpt id="p2">**</bpt>/BASEROW<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iga konkreetse veeru rea korrutamiseks või jagamiseks baasreaga sisestage arvutamisel kasutatav veerg ja seejärel sisestage <bpt id="p1">**</bpt><ph id="ph1">\*</ph>BASEROW<ept id="p1">**</ept> või <bpt id="p2">**</bpt>/BASEROW<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="866">
-          <source>For example, enter <bpt id="p1">**</bpt>C<ph id="ph1">\*</ph>BASEROW<ept id="p1">**</ept> or <bpt id="p2">**</bpt>C/BASEROW<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks sisestage <bpt id="p1">**</bpt>C<ph id="ph1">\*</ph>BASEROW<ept id="p1">**</ept> või <bpt id="p2">**</bpt>C/BASEROW<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="867">
-          <source>When you use a base row calculation in a column definition, make sure that each row definition that is used with this column definition contains at least one base row for calculations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui kasutate veerudefinitsioonis baasrea arvutust, veenduge, et kõik selle veerudefinitsiooniga kasutatavad readefinitsioonid sisaldavad arvutamiseks vähemalt üht baasrida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="868">
-          <source>Divide the amount in a column by the number of periods</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veeru summa jagamine perioodide arvuga</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="869">
-          <source>You can divide the amount in a column by a specified number of periods.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate veeru summa jagada määratud perioodide arvuga.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="870">
-          <source>For example, the formula <bpt id="p1">**</bpt>B/Periods<ept id="p1">**</ept> divides the value in column B by the number of periods in column B. If the calculation spans multiple columns, specify the number of periods to use in the calculation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks valem <bpt id="p1">**</bpt>B/Periods<ept id="p1">**</ept> jagab veeru B väärtuse veerus B olevate perioodide arvuga. Kui arvutus hõlmab mitut veergu, määrake arvutamisel kasutatavate perioodide arv.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="871">
-          <source>For example, the formula <bpt id="p1">**</bpt>(B+C)/Periods<ept id="p1">**</ept> adds the amounts in column B and column C, and then divides the result by the period value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks valem <bpt id="p1">**</bpt>(B+C)/Periods<ept id="p1">**</ept> liidab veeru B ja veeru C summad ja jagab seejärel tulemuse perioodi väärtusega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="872">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisaressursid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="873">
-          <source><bpt id="p1">[</bpt>Row definitions in financial reporting<ept id="p1">](row-definitions-financial-reporting.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Readefinitsioonid finantsaruandluses<ept id="p1">](row-definitions-financial-reporting.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="874">
-          <source><bpt id="p1">[</bpt>Advanced formatting options in financial reporting<ept id="p1">](advanced-formatting-options-financial-reporting.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Täpsemad vormingusuvandid finantsaruandluses<ept id="p1">](advanced-formatting-options-financial-reporting.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Veerudefinitsioonid finantsaruannetes
+description: See artikkel käsitleb veerudefinitsioone. Veerudefinitsioon on aruande komponent (koosteüksus), mis määrab aruande veergude sisu. Nagu readefinitsioone, saab ka peamisi veerudefinitsioone kasutada mitmes aruandes.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: FinancialReports
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 106601
+ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
+ms.search.region: Global
+ms.author: aolson
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595335"
+---
+# <a name="column-definitions-in-financial-reports"></a><span data-ttu-id="759bf-105">Veerudefinitsioonid finantsaruannetes</span><span class="sxs-lookup"><span data-stu-id="759bf-105">Column definitions in financial reports</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="759bf-106">See artikkel käsitleb veerudefinitsioone.</span><span class="sxs-lookup"><span data-stu-id="759bf-106">This article provides information about column definitions.</span></span> <span data-ttu-id="759bf-107">Veerudefinitsioon on aruande komponent (koosteüksus), mis määrab aruande veergude sisu.</span><span class="sxs-lookup"><span data-stu-id="759bf-107">A column definition is a report component, or building block, that defines the contents of columns on a report.</span></span> <span data-ttu-id="759bf-108">Nagu readefinitsioone, saab ka peamisi veerudefinitsioone kasutada mitmes aruandes.</span><span class="sxs-lookup"><span data-stu-id="759bf-108">Like row definitions, basic column definitions can be used on multiple reports.</span></span>
+
+## <a name="create-and-modify-a-column-definition"></a><span data-ttu-id="759bf-109">Veeru definitsiooni loomine ja muutmine</span><span class="sxs-lookup"><span data-stu-id="759bf-109">Create and modify a column definition</span></span>
+
+<span data-ttu-id="759bf-110">Veeru definitsioon võib sisaldada 2 kuni 255 veergu.</span><span class="sxs-lookup"><span data-stu-id="759bf-110">A column definition can contain two to 255 columns.</span></span>
+
+### <a name="create-a-column-definition"></a><span data-ttu-id="759bf-111">Veeru definitsiooni loomine</span><span class="sxs-lookup"><span data-stu-id="759bf-111">Create a column definition</span></span>
+
+1. <span data-ttu-id="759bf-112">Klõpsake aruande kujundajas navigeerimispaanil suvandit **Veeru definitsioonid**.</span><span class="sxs-lookup"><span data-stu-id="759bf-112">In Report Designer, in the navigation pane, click **Column Definitions**.</span></span>
+2. <span data-ttu-id="759bf-113">Klõpsake menüüs **Fail** suvandit **Uus** ja seejärel klõpsake suvandit **Veeru definitsioon**.</span><span class="sxs-lookup"><span data-stu-id="759bf-113">On the **File** menu, click **New**, and then click **Column Definition**.</span></span>
+3. <span data-ttu-id="759bf-114">Lisage veeru definitsiooni sisu.</span><span class="sxs-lookup"><span data-stu-id="759bf-114">Add the contents of the column definition.</span></span>
+
+### <a name="open-a-column-definition"></a><span data-ttu-id="759bf-115">Veeru definitsiooni avamine</span><span class="sxs-lookup"><span data-stu-id="759bf-115">Open a column definition</span></span>
+
+1. <span data-ttu-id="759bf-116">Klõpsake aruande kujundajas navigeerimispaanil suvandit **Veeru definitsioonid**.</span><span class="sxs-lookup"><span data-stu-id="759bf-116">In Report Designer, in the navigation pane, click **Column Definitions**.</span></span>
+2. <span data-ttu-id="759bf-117">Veeru definitsiooni avamiseks topeltklõpsake seda.</span><span class="sxs-lookup"><span data-stu-id="759bf-117">Double-click a column definition to open it.</span></span>
+
+### <a name="add-a-column-to-a-column-definition"></a><span data-ttu-id="759bf-118">Veeru lisamine veerudefinitsiooni</span><span class="sxs-lookup"><span data-stu-id="759bf-118">Add a column to a column definition</span></span>
+
+1. <span data-ttu-id="759bf-119">Klõpsake aruande kujundajas suvandit **Veeru definitsioonid** ja seejärel avage muutmiseks veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-119">In Report Designer, click **Column Definitions**, and then open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-120">Valige veerg, kuhu tuleks lisada uus veerg.</span><span class="sxs-lookup"><span data-stu-id="759bf-120">Select the column where a new column should be inserted.</span></span>
+3. <span data-ttu-id="759bf-121">Klõpsake menüüs **Redigeerimine** suvandit **Lisa veerg**.</span><span class="sxs-lookup"><span data-stu-id="759bf-121">On the **Edit** menu, click **Insert Column**.</span></span> <span data-ttu-id="759bf-122">Uus veerg ilmub valitud veerust vasakule.</span><span class="sxs-lookup"><span data-stu-id="759bf-122">The new column appears to the left of the column that you selected.</span></span>
+
+### <a name="delete-a-column-from-a-column-definition"></a><span data-ttu-id="759bf-123">Veeru kustutamine veerudefinitsioonist</span><span class="sxs-lookup"><span data-stu-id="759bf-123">Delete a column from a column definition</span></span>
+
+1. <span data-ttu-id="759bf-124">Klõpsake aruandekoosturis suvandit **Veerudefinitsioonid** ja seejärel avage muutmiseks veerudefinitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-124">In Report Designer, click **Column Definitions**, and then open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-125">Valige kustutatav veerg.</span><span class="sxs-lookup"><span data-stu-id="759bf-125">Select the column to delete.</span></span>
+3. <span data-ttu-id="759bf-126">Klõpsake menüüs **Redigeeri** suvandit **Kustuta veerg**.</span><span class="sxs-lookup"><span data-stu-id="759bf-126">On the **Edit** menu, click **Delete Column**.</span></span>
+
+## <a name="contents-of-a-column-definition"></a><span data-ttu-id="759bf-127">Veerudefinitsiooni sisu</span><span class="sxs-lookup"><span data-stu-id="759bf-127">Contents of a column definition</span></span>
+<span data-ttu-id="759bf-128">Veeru definitsioon sisaldab järgmist teavet.</span><span class="sxs-lookup"><span data-stu-id="759bf-128">A column definition includes the following information:</span></span>
+
+- <span data-ttu-id="759bf-129">Readefinitsiooni kirjelduste veerg</span><span class="sxs-lookup"><span data-stu-id="759bf-129">A column of the descriptions for the row definition</span></span>
+- <span data-ttu-id="759bf-130">Summa veerud, milles kuvatakse veeru definitsiooni muudel andmetele põhinevate finantsandmete või arvutuste andmed</span><span class="sxs-lookup"><span data-stu-id="759bf-130">Amount columns that show data from the financial data or calculations that are based on other data in the column definition</span></span>
+- <span data-ttu-id="759bf-131">Vormingu veerud</span><span class="sxs-lookup"><span data-stu-id="759bf-131">Formatting columns</span></span>
+- <span data-ttu-id="759bf-132">Atribuudi veerud</span><span class="sxs-lookup"><span data-stu-id="759bf-132">Attribute columns</span></span>
+
+<span data-ttu-id="759bf-133">See teave kuvatakse veeru definitsiooni järgmistes alades.</span><span class="sxs-lookup"><span data-stu-id="759bf-133">This information appears in the following areas in the column definition:</span></span>
+
+- <span data-ttu-id="759bf-134">Veeru definitsiooni päiste ala sisaldab aruandes kuvatavat päiseteksti ja vormingut.</span><span class="sxs-lookup"><span data-stu-id="759bf-134">The headers area of the column definition contains the heading text and formatting that appears in the report.</span></span> <span data-ttu-id="759bf-135">Päis saab rakenduda üksikule andmeveerule, laieneda üle mitme veeru või rakenduda veergudele tingimuslikkuse alusel.</span><span class="sxs-lookup"><span data-stu-id="759bf-135">A header can apply to a single column of data, can span multiple columns, or can apply to columns on a conditional basis.</span></span> <span data-ttu-id="759bf-136">Veeru määratlus võib sisaldada nii palju veerupäise ridasid, kui vajate.</span><span class="sxs-lookup"><span data-stu-id="759bf-136">The column definition can include as many column header rows as you require.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="759bf-137">Veerupäised rakenduvad igale aruande andmeveerule.</span><span class="sxs-lookup"><span data-stu-id="759bf-137">Column headers apply to each column of data on the report.</span></span> <span data-ttu-id="759bf-138">Aruande päised rakenduvad kogu aruandele.</span><span class="sxs-lookup"><span data-stu-id="759bf-138">Report headers apply to the whole report.</span></span> <span data-ttu-id="759bf-139">Saate määratleda aruande päiseid aruande definitsiooni vahekaardil **Päised ja jalused**.</span><span class="sxs-lookup"><span data-stu-id="759bf-139">You define report headers on the **Headers and Footers** tab of the report definition.</span></span>
+
+- <span data-ttu-id="759bf-140">Veeru üksikasjade read on veeru definitsioonis päiseridade all olevad read.</span><span class="sxs-lookup"><span data-stu-id="759bf-140">Column detail rows are the rows under the header rows in the column definition.</span></span> <span data-ttu-id="759bf-141">Veeru üksikasjade read määratlevad aruandesse kaasatava teabe.</span><span class="sxs-lookup"><span data-stu-id="759bf-141">Column detail rows define the information that is included on the report.</span></span> <span data-ttu-id="759bf-142">Järgmises tabelis loetletakse ja kirjeldatakse veeru üksikasjade ridu.</span><span class="sxs-lookup"><span data-stu-id="759bf-142">The following table lists and describes the column detail rows.</span></span>
+
+    | <span data-ttu-id="759bf-143">Veeru üksikasjade rea nimi</span><span class="sxs-lookup"><span data-stu-id="759bf-143">Column detail row name</span></span>                                                | <span data-ttu-id="759bf-144">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="759bf-144">Description</span></span>                                                                                            |
+    |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+    | <span data-ttu-id="759bf-145">Veeru tüüp</span><span class="sxs-lookup"><span data-stu-id="759bf-145">Column Type</span></span>                                                           | <span data-ttu-id="759bf-146">(Nõutav) Veeru andmete tüübi määramine.</span><span class="sxs-lookup"><span data-stu-id="759bf-146">(Required) Specify the type of data in the column.</span></span>                                                     |
+    | <span data-ttu-id="759bf-147">Konteerimiskood/atribuudi kategooria</span><span class="sxs-lookup"><span data-stu-id="759bf-147">Book Code/Attribute Category</span></span>                                          | <span data-ttu-id="759bf-148">Tüüpide **FD** ja **ATTR** veergude finantsandmete teabe määratlemine.</span><span class="sxs-lookup"><span data-stu-id="759bf-148">Specify financial data information for columns of the **FD** and **ATTR** types.</span></span>                       |
+    | <span data-ttu-id="759bf-149">Rahandusaasta perioodi hõlmatud perioodid</span><span class="sxs-lookup"><span data-stu-id="759bf-149">Fiscal Year Period Periods Covered</span></span>                                    | <span data-ttu-id="759bf-150">Tüübi **FD** veergude finantsandmete teabe määratlemine.</span><span class="sxs-lookup"><span data-stu-id="759bf-150">Specify financial data information for columns of the **FD** type.</span></span>                                     |
+    | <span data-ttu-id="759bf-151">Valem</span><span class="sxs-lookup"><span data-stu-id="759bf-151">Formula</span></span>                                                               | <span data-ttu-id="759bf-152">Arvutusvalemi määramine tüübiga **CALC** veergude puhul.</span><span class="sxs-lookup"><span data-stu-id="759bf-152">Specify a calculation formula for columns of the **CALC** type.</span></span>                                        |
+    | <span data-ttu-id="759bf-153">Veeru laius Lisatühikud enne veergu Vormingu alistamine Prindi kontrollkood</span><span class="sxs-lookup"><span data-stu-id="759bf-153">Column Width Extra Spaces Before Column Format Override Print Control</span></span> | <span data-ttu-id="759bf-154">Erivormingu suvandite määramine.</span><span class="sxs-lookup"><span data-stu-id="759bf-154">Specify special format options.</span></span>                                                                        |
+    | <span data-ttu-id="759bf-155">Veeru piirangud</span><span class="sxs-lookup"><span data-stu-id="759bf-155">Column Restrictions</span></span>                                                   | <span data-ttu-id="759bf-156">Andmete piiramine.</span><span class="sxs-lookup"><span data-stu-id="759bf-156">Restrict data.</span></span>                                                                                         |
+    | <span data-ttu-id="759bf-157">Aruandlusüksus</span><span class="sxs-lookup"><span data-stu-id="759bf-157">Reporting Unit</span></span>                                                        | <span data-ttu-id="759bf-158">Veeru piiramine nii, et see kuvaks ainult kindla aruandlusüksuse andmeid.</span><span class="sxs-lookup"><span data-stu-id="759bf-158">Restrict the column, so that it shows data only for the specified reporting unit.</span></span>                      |
+    | <span data-ttu-id="759bf-159">Valuuta kuva Valuutafilter</span><span class="sxs-lookup"><span data-stu-id="759bf-159">Currency Display Currency Filter</span></span>                                      | <span data-ttu-id="759bf-160">Valuuta vorming.</span><span class="sxs-lookup"><span data-stu-id="759bf-160">Format currency.</span></span>                                                                                       |
+    | <span data-ttu-id="759bf-161">Dimensioonifilter</span><span class="sxs-lookup"><span data-stu-id="759bf-161">Dimension Filter</span></span>                                                      | <span data-ttu-id="759bf-162">Filtri määramine andmete piiramiseks teatud finantsandmete aruandlusüksustega.</span><span class="sxs-lookup"><span data-stu-id="759bf-162">Specify a filter to restrict data to certain financial data reporting units.</span></span>                           |
+    | <span data-ttu-id="759bf-163">Atribuudi filter</span><span class="sxs-lookup"><span data-stu-id="759bf-163">Attribute Filter</span></span>                                                      | <span data-ttu-id="759bf-164">Filtri määramine finantsandmete piiramiseks.</span><span class="sxs-lookup"><span data-stu-id="759bf-164">Specify a filter to restrict the financial data.</span></span>                                                       |
+    | <span data-ttu-id="759bf-165">Alguskuupäev Lõppkuupäev</span><span class="sxs-lookup"><span data-stu-id="759bf-165">Start Date End Date</span></span>                                                   | <span data-ttu-id="759bf-166">Finantsandmete piiramine kindlate kuupäevadega.</span><span class="sxs-lookup"><span data-stu-id="759bf-166">Restrict the financial data to specific dates.</span></span>                                                         |
+    | <span data-ttu-id="759bf-167">Põhjendus</span><span class="sxs-lookup"><span data-stu-id="759bf-167">Justification</span></span>                                                         | <span data-ttu-id="759bf-168">Readefinitsioonis määratud kirjelduse teksti vasakjoondamine, keskjoondamine või paremjoondamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-168">Left-align, center-align, or right-align the description text that is specified in the row definition.</span></span> |
+
+## <a name="column-restrictions-in-a-column-definition"></a><span data-ttu-id="759bf-169">Veeru definitsiooni veeru piirangud</span><span class="sxs-lookup"><span data-stu-id="759bf-169">Column restrictions in a column definition</span></span>
+<span data-ttu-id="759bf-170">Saate kasutada veeru piiranguid määramaks, kuidas veeru definitsioon andmeid kasutab või arvutab.</span><span class="sxs-lookup"><span data-stu-id="759bf-170">You can use column restrictions to specify how a column definition uses data or calculates information.</span></span> <span data-ttu-id="759bf-171">Saate aruandeveeru piirata ka kindlale üksusele või kindlatele kuupäevadele.</span><span class="sxs-lookup"><span data-stu-id="759bf-171">You can also restrict a report column to a specific unit or for specific dates.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="759bf-172">Kood **Veerupiirang** tühistab ükskõik millise readefinitsioonis määratud vastuolulise sätte.</span><span class="sxs-lookup"><span data-stu-id="759bf-172">A **Column Restriction** code overrides any conflicting setting that is assigned in the row definition.</span></span>
+
+### <a name="column-restrictions-cell"></a><span data-ttu-id="759bf-173">Lahter Veeru piirangud</span><span class="sxs-lookup"><span data-stu-id="759bf-173">Column Restrictions cell</span></span>
+
+<span data-ttu-id="759bf-174">Lahter **Veeru piirangud** võib sisaldada koode, mis piiravad või peidavad selle veeru puhul teavet, näiteks rea vormingut, üksikasju ja summasid.</span><span class="sxs-lookup"><span data-stu-id="759bf-174">The **Column Restrictions** cell can include codes that restrict or suppress information, such as row formatting, details, and amounts, for that column.</span></span>
+
+#### <a name="add-a-column-restriction-in-a-column-definition"></a><span data-ttu-id="759bf-175">Veeru piirangu lisamine veeru definitsioonis</span><span class="sxs-lookup"><span data-stu-id="759bf-175">Add a column restriction in a column definition</span></span>
+
+1. <span data-ttu-id="759bf-176">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-176">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-177">Topeltklõpsake piiratava veeru puhul lahtrit **Veeru piirangud**.</span><span class="sxs-lookup"><span data-stu-id="759bf-177">Double-click the **Column Restrictions** cell for the column to restrict.</span></span>
+3. <span data-ttu-id="759bf-178">Valige dialoogiboksis **Veeru piirangud** loendist üks või enam koodi ja seejärel klõpsake nuppu **OK**.</span><span class="sxs-lookup"><span data-stu-id="759bf-178">In the **Column Restrictions** dialog box, select one or more codes in the list, and then click **OK**.</span></span>
+
+### <a name="column-restriction-codes"></a><span data-ttu-id="759bf-179">Veerupiirangu koodid</span><span class="sxs-lookup"><span data-stu-id="759bf-179">Column restriction codes</span></span>
+
+<span data-ttu-id="759bf-180">Järgmises tabelis kirjeldatakse veeru piirangu koode.</span><span class="sxs-lookup"><span data-stu-id="759bf-180">The following table describes the column restriction codes.</span></span>
+
+| <span data-ttu-id="759bf-181">Veeru piirangu kood</span><span class="sxs-lookup"><span data-stu-id="759bf-181">Column restriction code</span></span> | <span data-ttu-id="759bf-182">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="759bf-182">Description</span></span> |
+|-------------------------|-------------|
+| <span data-ttu-id="759bf-183">SU</span><span class="sxs-lookup"><span data-stu-id="759bf-183">SU</span></span>                      | <span data-ttu-id="759bf-184">Allkriipsu peitmine veeru puhul, mil readefinitsiooni on sisestatud kas allkriipsu käsk (**---**) või topelt-allkriipsu käsk (**===**).</span><span class="sxs-lookup"><span data-stu-id="759bf-184">Suppress the underscore for a column where either an underscore command (**---**) or a double underscore command (**===**) is entered in the row definition.</span></span> <span data-ttu-id="759bf-185">Näiteks ei pruugi te soovida protsendiarvutuse loodud summade allakriipsutamist.</span><span class="sxs-lookup"><span data-stu-id="759bf-185">For example, you might not want to underline amounts that are produced by a percentage calculation.</span></span> |
+| <span data-ttu-id="759bf-186">ST</span><span class="sxs-lookup"><span data-stu-id="759bf-186">ST</span></span>                      | <span data-ttu-id="759bf-187">Kogusummade peitmine nii, et veerus kuvatakse ainult üksikasju (nt statistiline veerg).</span><span class="sxs-lookup"><span data-stu-id="759bf-187">Suppress totals, so that only details are shown in the column (for example, a statistical column).</span></span> |
+| <span data-ttu-id="759bf-188">SD</span><span class="sxs-lookup"><span data-stu-id="759bf-188">SD</span></span>                      | <span data-ttu-id="759bf-189">Üksikasjade peitmine nii, et veerus kuvatakse ainult read **TOT** ja **CAL** (readefinitsioonist).</span><span class="sxs-lookup"><span data-stu-id="759bf-189">Suppress details, so that only **TOT** and **CAL** rows (from the row definition) are shown in the column.</span></span> |
+| <span data-ttu-id="759bf-190">DR</span><span class="sxs-lookup"><span data-stu-id="759bf-190">DR</span></span>                      | <span data-ttu-id="759bf-191">Veeru **FD** summade piiramine deebetsummadega.</span><span class="sxs-lookup"><span data-stu-id="759bf-191">Restrict the amounts in an **FD** column to debit amounts.</span></span> |
+| <span data-ttu-id="759bf-192">CR</span><span class="sxs-lookup"><span data-stu-id="759bf-192">CR</span></span>                      | <span data-ttu-id="759bf-193">Veeru **FD** summade piiramine kreeditsummadega.</span><span class="sxs-lookup"><span data-stu-id="759bf-193">Restrict the amounts in an **FD** column to credit amounts.</span></span> |
+| <span data-ttu-id="759bf-194">ADJ</span><span class="sxs-lookup"><span data-stu-id="759bf-194">ADJ</span></span>                     | <span data-ttu-id="759bf-195">Veeru summade piiramine perioodi korrigeerimissummadega nende summade olemasolul.</span><span class="sxs-lookup"><span data-stu-id="759bf-195">Restrict the amounts in the column to period adjustment amounts, if these amounts are available.</span></span> |
+| <span data-ttu-id="759bf-196">XAD</span><span class="sxs-lookup"><span data-stu-id="759bf-196">XAD</span></span>                     | <span data-ttu-id="759bf-197">Veeru summade piiramine nii, et perioodi korrigeerimissummad välistatakse.</span><span class="sxs-lookup"><span data-stu-id="759bf-197">Restrict the amounts in the column, so that period adjustment amounts are excluded.</span></span> |
+| <span data-ttu-id="759bf-198">Plaanitud üleviimine</span><span class="sxs-lookup"><span data-stu-id="759bf-198">PT</span></span>                      | <span data-ttu-id="759bf-199">Veeru summade piiramine nii, et kaasatakse ainult sisestatud kanded, kui need kanded on olemas.</span><span class="sxs-lookup"><span data-stu-id="759bf-199">Restrict the amounts in the column, so that only posted transactions are included, if these transactions are available.</span></span> |
+| <span data-ttu-id="759bf-200">UPT</span><span class="sxs-lookup"><span data-stu-id="759bf-200">UPT</span></span>                     | <span data-ttu-id="759bf-201">Veeru summade piiramine nii, et kaasatakse ainult sisestamata kanded, kui need kanded on olemas.</span><span class="sxs-lookup"><span data-stu-id="759bf-201">Restrict the amounts in the column, so that only unposted transactions are included, if these transactions are available.</span></span><p><span data-ttu-id="759bf-202"><strong>Märkus.</strong> Kõik andmepakkujad ei toeta sisestamata kandeid.</span><span class="sxs-lookup"><span data-stu-id="759bf-202"><strong>Note:</strong> Not all data providers support unposted transactions.</span></span> <span data-ttu-id="759bf-203">Vaadake lisateavet oma Microsoft Dynamicsi ERP-süsteemi <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>andmeintegratsiooni juhendist</a>.</span><span class="sxs-lookup"><span data-stu-id="759bf-203">For more information, see the <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>data integration guide</a> for your Microsoft Dynamics ERP system.</span></span></p> |
+
+### <a name="restrict-a-column-to-a-reporting-unit"></a><span data-ttu-id="759bf-204">Veeru piiramine aruandlusüksusega</span><span class="sxs-lookup"><span data-stu-id="759bf-204">Restrict a column to a reporting unit</span></span>
+
+1. <span data-ttu-id="759bf-205">Avage aruandekoosturis muudetav veerudefinitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-205">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-206">Topeltklõpsake piiratava veeru puhul lahtrit **Aruandlusüksus**.</span><span class="sxs-lookup"><span data-stu-id="759bf-206">Double-click the **Reporting Unit** cell for the column to restrict.</span></span>
+3. <span data-ttu-id="759bf-207">Valige aruandluspuu dialoogiboksi **Aruandlusüksuse valimine** loendist **Aruandluspuu**.</span><span class="sxs-lookup"><span data-stu-id="759bf-207">In the **Reporting Unit Selection** dialog box, in the **Reporting tree** list, select a tree.</span></span>
+4. <span data-ttu-id="759bf-208">Laiendage või ahendage üksuste loendit, valige aruandlusüksus ja seejärel klõpsake nuppu **OK**.</span><span class="sxs-lookup"><span data-stu-id="759bf-208">Expand or collapse the list of units, select a reporting unit, and then click **OK**.</span></span>
+
+## <a name="format-column-headers"></a><span data-ttu-id="759bf-209">Veerupäiste vormindamine</span><span class="sxs-lookup"><span data-stu-id="759bf-209">Format column headers</span></span>
+<span data-ttu-id="759bf-210">Saate lisada, muuta ja kustutada aruande veergude ülaosas olevaid päiseid.</span><span class="sxs-lookup"><span data-stu-id="759bf-210">You can add, modify, and delete the headers that appear at the top of the columns on a report.</span></span> <span data-ttu-id="759bf-211">Samuti saate konfigureerida tingimusliku laiendamise veerupäiseid veerudefinitsioonide välja **Periood** ja aruande definitsioonide välja **Baasperiood** põhjal.</span><span class="sxs-lookup"><span data-stu-id="759bf-211">You can also configure conditional spanning column headers, based on the **Period** field from column definitions and the **Base Period** field from report definitions.</span></span> <span data-ttu-id="759bf-212">Baasperioodi funktsioon aitab säästa jooksva eelarve aruannete loomisel aega.</span><span class="sxs-lookup"><span data-stu-id="759bf-212">The base period feature helps save you time when you create rolling forecast reports.</span></span>
+
+### <a name="create-and-manage-column-headers"></a><span data-ttu-id="759bf-213">Veerupäiste loomine ja haldamine</span><span class="sxs-lookup"><span data-stu-id="759bf-213">Create and manage column headers</span></span>
+
+<span data-ttu-id="759bf-214">Saate kasutada dialoogiboksi **Veerupäis** aruande veergude ülaosas olevate päiste lisamiseks, muutmiseks ja kustutamiseks.</span><span class="sxs-lookup"><span data-stu-id="759bf-214">You can use the **Column Header** dialog box to add, modify, and delete the headers that appear at the top of the columns on a report.</span></span> <span data-ttu-id="759bf-215">Järgmises tabelis kirjeldatakse dialoogiboksi **Veerupäis** välju.</span><span class="sxs-lookup"><span data-stu-id="759bf-215">The following table describes the fields in the **Column Header** dialog box.</span></span>
+
+| <span data-ttu-id="759bf-216">Väli</span><span class="sxs-lookup"><span data-stu-id="759bf-216">Field</span></span>                 | <span data-ttu-id="759bf-217">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="759bf-217">Description</span></span> |
+|-----------------------|-------------|
+| <span data-ttu-id="759bf-218">Veerupäise tekst</span><span class="sxs-lookup"><span data-stu-id="759bf-218">Column header text</span></span>    | <span data-ttu-id="759bf-219">See tekst kuvatakse veerupäises.</span><span class="sxs-lookup"><span data-stu-id="759bf-219">This text appears in the column header.</span></span> <span data-ttu-id="759bf-220">Saate sisestada teksti otse sellele väljale või klõpsata suvandit **Sisesta automaattekst** suvandi valimiseks, mis värskendab veerupäist iga kord aruande loomisel.</span><span class="sxs-lookup"><span data-stu-id="759bf-220">You can type text directly in this field, or click **Insert AutoText** to select an option that updates the column header every time that the report is generated.</span></span> <span data-ttu-id="759bf-221">Mitme automaatteksti koodi lisamiseks klõpsake suvandit **Sisesta automaattekst** uuesti ja seejärel klõpsake loendis muud koodi.</span><span class="sxs-lookup"><span data-stu-id="759bf-221">To include multiple autotext codes, click **Insert AutoText** again, and then click another code in the list.</span></span> |
+| <span data-ttu-id="759bf-222">Vormingusuvandid</span><span class="sxs-lookup"><span data-stu-id="759bf-222">Format options</span></span>        | <span data-ttu-id="759bf-223">Vormingu rakendamine veeru päisele, nt kasti või allakriipsutuse.</span><span class="sxs-lookup"><span data-stu-id="759bf-223">Apply formatting to a column header, such as box or underline.</span></span> |
+| <span data-ttu-id="759bf-224">Algusvahemik Lõppvahemik</span><span class="sxs-lookup"><span data-stu-id="759bf-224">Spread from Spread to</span></span> | <span data-ttu-id="759bf-225">Veeru või veergude määramine, millele päisetekst rakendub.</span><span class="sxs-lookup"><span data-stu-id="759bf-225">Define the column or columns that the header text applies to.</span></span> |
+| <span data-ttu-id="759bf-226">Põhjendus</span><span class="sxs-lookup"><span data-stu-id="759bf-226">Justification</span></span>         | <span data-ttu-id="759bf-227">Saate määrata, kuidas tuleks veeru päisetekst joondada veeru või veergude vahemiku puhul, mis on määratud väljadel **Algusvahemik** ja **Lõppvahemik**.</span><span class="sxs-lookup"><span data-stu-id="759bf-227">Specify how the column header text should be aligned for the column or range of columns that is specified in the **Spread from** and **Spread to** fields.</span></span> |
+
+### <a name="create-a-column-header"></a><span data-ttu-id="759bf-228">Veerupäise loomine</span><span class="sxs-lookup"><span data-stu-id="759bf-228">Create a column header</span></span>
+
+1. <span data-ttu-id="759bf-229">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-229">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-230">Topeltklõpsake päise lahtrit.</span><span class="sxs-lookup"><span data-stu-id="759bf-230">Double-click a header cell.</span></span>
+3. <span data-ttu-id="759bf-231">Sisestage veerupäise tekst dialoogiboksi **Veerupäis**.</span><span class="sxs-lookup"><span data-stu-id="759bf-231">In the **Column Header** dialog box, enter the column header text.</span></span> <span data-ttu-id="759bf-232">Teise võimalusena saate klõpsata suvandit **Sisesta automaattekst** ja valida suvandi.</span><span class="sxs-lookup"><span data-stu-id="759bf-232">Alternatively, click **Insert AutoText**, and select an option.</span></span>
+4. <span data-ttu-id="759bf-233">Valige väljalt **Vormingusuvandid** päise vorming.</span><span class="sxs-lookup"><span data-stu-id="759bf-233">In the **Format options** field, select a format for the header.</span></span>
+5. <span data-ttu-id="759bf-234">Sisestage väljale **Algusvahemik** veeru täht, millest alates tuleks veerupäis kuvada.</span><span class="sxs-lookup"><span data-stu-id="759bf-234">In the **Spread from** field, enter the letter of the column that the column header should start over.</span></span> <span data-ttu-id="759bf-235">Sisestage väljale **Lõppvahemik** veeru täht, kuni milleni tuleks veerupäis kuvada.</span><span class="sxs-lookup"><span data-stu-id="759bf-235">In the **Spread to** field, enter the letter of the column that the column header should end over.</span></span>
+6. <span data-ttu-id="759bf-236">Valige suvandi **Joondus** alt, kas veerupäise tekst peaks olema vasakjoondatud, keskjoondatud või paremjoondatud.</span><span class="sxs-lookup"><span data-stu-id="759bf-236">Under **Justification**, select whether the column header text to should be left-justified, center-justified, or right-justified.</span></span>
+7. <span data-ttu-id="759bf-237">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="759bf-237">Click **OK**.</span></span>
+
+### <a name="add-a-column-header-row"></a><span data-ttu-id="759bf-238">Veerupäise rea lisamine</span><span class="sxs-lookup"><span data-stu-id="759bf-238">Add a column header row</span></span>
+
+1. <span data-ttu-id="759bf-239">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-239">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-240">Valige päisereast lahter.</span><span class="sxs-lookup"><span data-stu-id="759bf-240">Select a cell in the header row.</span></span>
+3. <span data-ttu-id="759bf-241">Klõpsake menüüs **Redigeerimine** suvandit **Lisa rida**.</span><span class="sxs-lookup"><span data-stu-id="759bf-241">On the **Edit** menu, click **Insert Row**.</span></span> <span data-ttu-id="759bf-242">Uus rida sisestatakse 2. etapis valitud rea kohale.</span><span class="sxs-lookup"><span data-stu-id="759bf-242">The new row is inserted above the row that you selected in step 2.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="759bf-243">Kui teie aruandes on aruande päiseid neli rida või rohkem ja aruanne eksporditakse Exceli töölehele, siis päised kattuvad.</span><span class="sxs-lookup"><span data-stu-id="759bf-243">If you have four or more rows of report headers on a report, the headers will overlap when the report is exported to an Excel worksheet.</span></span> <span data-ttu-id="759bf-244">Kõigi päiste kuvamiseks aruandes suurendage aruande definitsioonis ülemist veerist.</span><span class="sxs-lookup"><span data-stu-id="759bf-244">To view all headers on the report, increase the top margin in the report definition.</span></span>
+
+### <a name="delete-a-column-header-row"></a><span data-ttu-id="759bf-245">Veerupäise rea kustutamine</span><span class="sxs-lookup"><span data-stu-id="759bf-245">Delete a column header row</span></span>
+
+1. <span data-ttu-id="759bf-246">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-246">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-247">Valige päisereal kustutatav lahter.</span><span class="sxs-lookup"><span data-stu-id="759bf-247">In the header row, select the cell to delete.</span></span>
+3. <span data-ttu-id="759bf-248">Klõpsake menüüs **Redigeerimine** suvandit **Kustuta rida**.</span><span class="sxs-lookup"><span data-stu-id="759bf-248">On the **Edit** menu, click **Delete Row**.</span></span>
+
+### <a name="create-an-automatically-generated-header"></a><span data-ttu-id="759bf-249">Automaatselt loodava päise loomine</span><span class="sxs-lookup"><span data-stu-id="759bf-249">Create an automatically generated header</span></span>
+
+<span data-ttu-id="759bf-250">Aruandekoostur saab veerupäiseid automaatteksti koodide alusel automaatselt luua.</span><span class="sxs-lookup"><span data-stu-id="759bf-250">Report designer can automatically generate column headers, based on autotext codes.</span></span> <span data-ttu-id="759bf-251">Automaatteksti koodid on muutujad, mida värskendatakse iga kord, kui aruanne luuakse.</span><span class="sxs-lookup"><span data-stu-id="759bf-251">Autotext codes are variables that are updated every time that a report is generated.</span></span> <span data-ttu-id="759bf-252">Veerupäis võib sisaldada neid koode varieeruva aruandeteabe, nagu kuupäevade või perioodinumbrite määramiseks.</span><span class="sxs-lookup"><span data-stu-id="759bf-252">Any column header can include these codes to specify report information that can vary, such as dates or period numbers.</span></span> <span data-ttu-id="759bf-253">Seetõttu saate kasutada ühte veeru definitsiooni mitme aruande definitsiooni, ajaperioodi ja aruandluspuu puhul.</span><span class="sxs-lookup"><span data-stu-id="759bf-253">Therefore, you can use one column definition for multiple report definitions, time periods, and reporting trees.</span></span> <span data-ttu-id="759bf-254">Kuna automaatteksti koodid sõltuvad veeru definitsiooni üksikasjaridade kalendriteabest, toetavad neid ainult veerud **CALC** ja **FD**.</span><span class="sxs-lookup"><span data-stu-id="759bf-254">Because autotext codes rely on the calendar information from the detail rows of the column definition, they are supported only for **CALC** and **FD** columns.</span></span> <span data-ttu-id="759bf-255">Automaatteksti koodi veerupäise lahtris kuvamise viis mõjutab selle teabe ilmet aruandes.</span><span class="sxs-lookup"><span data-stu-id="759bf-255">The way that an autotext code appears in the column header cell affects how that information appears on the report.</span></span> <span data-ttu-id="759bf-256">Dialoogiboksis **Veerupäis** kuvatakse automaatteksti koodid erinevate tõstudega.</span><span class="sxs-lookup"><span data-stu-id="759bf-256">In the **Column Header** dialog box, the autotext codes appear in mixed case.</span></span> <span data-ttu-id="759bf-257">Seega kuvatakse tekst aruandes erinevate tõstudega.</span><span class="sxs-lookup"><span data-stu-id="759bf-257">Therefore, the text appears in mixed case on the report.</span></span> <span data-ttu-id="759bf-258">Näiteks standardses kalendriaastas teisendab **@CalMonthLong** kuu **7** suvandile **Juuli**.</span><span class="sxs-lookup"><span data-stu-id="759bf-258">For example, in a standard calendar year, **@CalMonthLong** resolves month **7** to **July**.</span></span> <span data-ttu-id="759bf-259">Kui kuu nimi tuleks aruandes suurte tähtedega (näiteks **JUULI**) kuvada, sisestage automaatteksti kood väljale **Veeru päise tekst** suurte tähtedega.</span><span class="sxs-lookup"><span data-stu-id="759bf-259">If the name of the month should be uppercase (for example **JULY**), enter the autotext code in uppercase characters in the **Column header text** field.</span></span> <span data-ttu-id="759bf-260">Sisestage näiteks **@CALMONTHLONG**.</span><span class="sxs-lookup"><span data-stu-id="759bf-260">For example, enter **@CALMONTHLONG**.</span></span> <span data-ttu-id="759bf-261">Võite koode ja teksti kombineerida.</span><span class="sxs-lookup"><span data-stu-id="759bf-261">You can mix codes and text.</span></span> <span data-ttu-id="759bf-262">Näiteks saate sisestada järgmise päiseteksti: **Periood @FiscalPeriod-@FiscalYear alates @StartDate kuni @EndDate**.</span><span class="sxs-lookup"><span data-stu-id="759bf-262">For example, you enter the following header text: **Period @FiscalPeriod-@FiscalYear from @StartDate to @EndDate**.</span></span> <span data-ttu-id="759bf-263">Loodav aruande pealkiri sarnaneb järgmisega: **Periood 1-02 alates 01/01/02 kuni 01/31/02**.</span><span class="sxs-lookup"><span data-stu-id="759bf-263">The report heading that is generated resembles the following text: **Period 1-02 from 01/01/02 to 01/31/02**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="759bf-264">Osa teksti, nt pika kuupäeva, vorming oleneb teie regioonisätetest Finance and Operationsi serveris.</span><span class="sxs-lookup"><span data-stu-id="759bf-264">The format of some of the text, such as the long date, depends on your regional settings on the Finance and Operations server.</span></span> <span data-ttu-id="759bf-265">Nende sätete muutmiseks klõpsake nuppu **Start**, klõpsake suvandit **Juhtpaneel** ja seejärel klõpsake suvandit **Regioon ja keel**.</span><span class="sxs-lookup"><span data-stu-id="759bf-265">To change these settings, click the **Start** button, click **Control Panel**, and then click **Region and Language**.</span></span> <span data-ttu-id="759bf-266">Järgmises tabelis loetletakse veerupäiste puhul saadaolevad automaatteksti suvandid.</span><span class="sxs-lookup"><span data-stu-id="759bf-266">The following table lists the available autotext options for column headers.</span></span>
+
+
+| <span data-ttu-id="759bf-267">Automaatteksti suvand ja kood</span><span class="sxs-lookup"><span data-stu-id="759bf-267">Autotext option and code</span></span>                | <span data-ttu-id="759bf-268">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="759bf-268">Description</span></span> |
+|-----------------------------------------|-------------|
+| <span data-ttu-id="759bf-269">Kuu nimi (@CalMonthLong)</span><span class="sxs-lookup"><span data-stu-id="759bf-269">Month name (@CalMonthLong)</span></span>              | <span data-ttu-id="759bf-270">Veerupäise praeguse kuu nime printimine.</span><span class="sxs-lookup"><span data-stu-id="759bf-270">Print the name of the current month in the column heading.</span></span> <span data-ttu-id="759bf-271">Kui otsustate ümardada aruandesummad tuhandike, miljonite või miljarditeni või kui seadistate aruande veeru laiuse vähem kui üheksale märgile, lühendatakse kuu nimi esimese kolme märgini.</span><span class="sxs-lookup"><span data-stu-id="759bf-271">If you decide to round the amounts in the report to thousands, millions, or billions, or if you set the column width on the report to fewer than nine characters, the name of the month is abbreviated to the first three characters.</span></span> |
+| <span data-ttu-id="759bf-272">Lühendatud kuu nimi (@CalMonthShort)</span><span class="sxs-lookup"><span data-stu-id="759bf-272">Abbreviated month name (@CalMonthShort)</span></span> | <span data-ttu-id="759bf-273">Valitud rahandusperioodi kuu lühendatud nime printimine.</span><span class="sxs-lookup"><span data-stu-id="759bf-273">Print the abbreviated name of the month for the selected fiscal period.</span></span> |
+| <span data-ttu-id="759bf-274">Perioodi number (@FiscalPeriod)</span><span class="sxs-lookup"><span data-stu-id="759bf-274">Period number (@FiscalPeriod)</span></span>           | <span data-ttu-id="759bf-275">Selle veeru puhul määratud rahandusperioodi numbrilise vormi printimine.</span><span class="sxs-lookup"><span data-stu-id="759bf-275">Print the numeric form of the fiscal period that is identified for that column.</span></span> <span data-ttu-id="759bf-276">Kui veerg hõlmab mitut perioodi, prinditakse vahemiku viimane periood.</span><span class="sxs-lookup"><span data-stu-id="759bf-276">If the column spans multiple periods, the last period in the range is printed.</span></span> |
+| <span data-ttu-id="759bf-277">Perioodi kirjeldus (@FiscalPeriodName)</span><span class="sxs-lookup"><span data-stu-id="759bf-277">Period description (@FiscalPeriodName)</span></span>  | <span data-ttu-id="759bf-278">Finantsandmetes määratud rahandusperioodi kirjelduse printimine.</span><span class="sxs-lookup"><span data-stu-id="759bf-278">Print the fiscal period description that is identified in the financial data.</span></span> |
+| <span data-ttu-id="759bf-279">Rahandusaasta (@FiscalYear)</span><span class="sxs-lookup"><span data-stu-id="759bf-279">Fiscal year (@FiscalYear)</span></span>               | <span data-ttu-id="759bf-280">Rahandusaasta printimine veeru puhul numbrites.</span><span class="sxs-lookup"><span data-stu-id="759bf-280">Print the fiscal year for the column in numeric form.</span></span> |
+| <span data-ttu-id="759bf-281">Kalendriaasta (@CalYear)</span><span class="sxs-lookup"><span data-stu-id="759bf-281">Calendar year (@CalYear)</span></span>                | <span data-ttu-id="759bf-282">Kalendriaasta printimine veeru puhul numbrites.</span><span class="sxs-lookup"><span data-stu-id="759bf-282">Print the calendar year for the column in numeric form.</span></span> |
+| <span data-ttu-id="759bf-283">Alguskuupäev (@StartDate)</span><span class="sxs-lookup"><span data-stu-id="759bf-283">Start date (@StartDate)</span></span>                 | <span data-ttu-id="759bf-284">Veeru alguskuupäeva printimine.</span><span class="sxs-lookup"><span data-stu-id="759bf-284">Print the start date for the column.</span></span> |
+| <span data-ttu-id="759bf-285">Lõppkuupäev (@EndDate)</span><span class="sxs-lookup"><span data-stu-id="759bf-285">End Date (@EndDate)</span></span>                     | <span data-ttu-id="759bf-286">Veeru lõppkuupäeva printimine.</span><span class="sxs-lookup"><span data-stu-id="759bf-286">Print the end date for the column.</span></span> |
+| <span data-ttu-id="759bf-287">Üksuse nimi puust (@UnitName)</span><span class="sxs-lookup"><span data-stu-id="759bf-287">Unit name from tree (@UnitName)</span></span>         | <span data-ttu-id="759bf-288">Üksuse nime printimine veerupäises veeru piiramisel aruandluspuu kindla üksuseni.</span><span class="sxs-lookup"><span data-stu-id="759bf-288">If you restrict a column to a specific unit of the reporting tree, print the unit name in the column header.</span></span> |
+| <span data-ttu-id="759bf-289">Üksuse kirjeldus (@UnitDesc)</span><span class="sxs-lookup"><span data-stu-id="759bf-289">Unit description (@UnitDesc)</span></span>            | <span data-ttu-id="759bf-290">Üksuse kirjelduse printimine veerupäises veeru piiramisel aruandluspuu kindla üksuseni.</span><span class="sxs-lookup"><span data-stu-id="759bf-290">If you restrict a column to a specific unit of the reporting tree, print the unit description in the column header.</span></span> |
+| <span data-ttu-id="759bf-291">Konteerimiskood (@BookCode)</span><span class="sxs-lookup"><span data-stu-id="759bf-291">Book Code (@BookCode)</span></span>                   | <span data-ttu-id="759bf-292">Veerus määratud konteerimiskoodi printimine.</span><span class="sxs-lookup"><span data-stu-id="759bf-292">Print the book code that is specified in the column.</span></span> |
+| <span data-ttu-id="759bf-293">Tühi rida (@Blank)</span><span class="sxs-lookup"><span data-stu-id="759bf-293">Blank line (@Blank)</span></span>                     | <span data-ttu-id="759bf-294">Tühja rea lisamine veerupäises.</span><span class="sxs-lookup"><span data-stu-id="759bf-294">Insert an empty line in the column header.</span></span> |
+
+### <a name="create-a-conditional-spanning-header"></a><span data-ttu-id="759bf-295">Tingimusliku laiendamise päise loomine</span><span class="sxs-lookup"><span data-stu-id="759bf-295">Create a conditional spanning header</span></span>
+
+<span data-ttu-id="759bf-296">Tingimusliku laiendamise päised võivad hõlmata mitut konkreetse perioodi andmetel põhinevat veergu.</span><span class="sxs-lookup"><span data-stu-id="759bf-296">Conditional spanning headers can span multiple columns that are based on specific period data.</span></span> <span data-ttu-id="759bf-297">Näiteks kui teil on rahandusaasta eelarve aruanne ja soovite kuvada viimaste kuude tegeliku eelarve koos tulevaste kuude prognoositud eelarvetega, saate aruandepäise automaatseks värskendamiseks kasutada tingimusliku laiendamise päist.</span><span class="sxs-lookup"><span data-stu-id="759bf-297">For example, if you have a budget report for the fiscal year and want to display the actual budgets of past months together with the projected budgets of future months, you can use a conditional spanning header to automatically update the report header.</span></span> <span data-ttu-id="759bf-298">Pöörake tingimusliku laienduspäise loomisel tähelepanu järgmistele olukordadele.</span><span class="sxs-lookup"><span data-stu-id="759bf-298">Be aware of the following situations when you create a conditional spanning header:</span></span>
+
+- <span data-ttu-id="759bf-299">Mis tahes peatamise tingimust (väli **Lõppvahemik**), mis on vastavusse viidud enne alustamise tingimust (väli **Lõppvahemik**), eiratakse.</span><span class="sxs-lookup"><span data-stu-id="759bf-299">Any stop condition (**Spread to** field) that is matched before a start condition (**Spread From** field) is ignored.</span></span> <span data-ttu-id="759bf-300">Näiteks veeru B laiendamise tingimus on määratletud järgmiselt: BASE+1 kuni BASE, BASE on veerus C ja BASE+1 on veerus D. Sellisel juhul eiratakse peatamise tingimust veerus C ja päise printimine algab veerust D.</span><span class="sxs-lookup"><span data-stu-id="759bf-300">For example, column B has the spread condition defined as BASE+1 to BASE, BASE is in column C, and BASE+1 is in column D. In this case, the stop condition in column C is ignored, and the printing of the header starts at column D.</span></span>
+- <span data-ttu-id="759bf-301">Kattuvate veerupäiste määramisel kattuvad need aruandesse printimisel.</span><span class="sxs-lookup"><span data-stu-id="759bf-301">If you specify column headers that overlap, they overlap when they are printed on the report.</span></span> <span data-ttu-id="759bf-302">Aruanne luuakse, kuid väljal **Aruande järjekorra olek** kuvatakse järgmine hoiatus: „Väärtust Base kasutavad veerupäised ristuvad teiste veerupäistega ja võivad põhjustada teksti kattumist”.</span><span class="sxs-lookup"><span data-stu-id="759bf-302">The report is generated, but the following warning appears in the **Report Queue Status** field: "Column headers using Base intersect with other column headers and may cause overlapping text."</span></span> <span data-ttu-id="759bf-303">Näiteks päise definitsioon veerus B on B kuni BASE+1 ja päise definitsioon veerus D on BASE+1 kuni F. Sellisel juhul prinditakse päised üksteise peale ja pole loetavad.</span><span class="sxs-lookup"><span data-stu-id="759bf-303">For example, the header definition on column B is B to BASE+1, and the header definition on column D is BASE+1 to F. In this case, the headers are printed on top of each other and are unreadable.</span></span> <span data-ttu-id="759bf-304">Väärtuse BASE kasutamisel definitsioonis **Algusvahemik/lõppvahemik** veenduge, et vaatate loodavat aruannet, et näha, kas päised kattuvad.</span><span class="sxs-lookup"><span data-stu-id="759bf-304">Whenever BASE is used in a **Spread from/Spread to** definition, be sure to view the report that is generated, to see whether the headers overlap.</span></span>
+- <span data-ttu-id="759bf-305">Kui määrate väärtuse BASE laiendamise definitsiooni veerus Mitteprinditav (**NP**), eiratakse seda olenemata sellest, mis on veeru definitsioonis määratletud.</span><span class="sxs-lookup"><span data-stu-id="759bf-305">If you specify BASE in the spread definition in a No Print (**NP**) column, it's ignored, regardless of what is defined in the column definition.</span></span> <span data-ttu-id="759bf-306">Põhiolemuselt sarnaneb see stsenaarium veerupäise definitsiooni mitteloomisega.</span><span class="sxs-lookup"><span data-stu-id="759bf-306">Essentially, this scenario is the same as not creating a column header definition.</span></span>
+- <span data-ttu-id="759bf-307">Tingimusliku printimise veerude puhul (**P&lt;B**, **P&gt;=B**) toimivad tingimusliku laiendamise päised nagu mis tahes tavaline veerupäise definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-307">For conditional printing columns (**P&lt;B**, **P&gt;=B**), conditional spanning headers behave like any regular column header definition.</span></span> <span data-ttu-id="759bf-308">Näiteks kui tingimus on väär, alustavad kõik järgnevad laiendamise tingimuse puhul ühtivad veerud päise printimist.</span><span class="sxs-lookup"><span data-stu-id="759bf-308">For example, if the condition is false, any subsequent column matching for the spread condition starts the printing of the header.</span></span>
+
+#### <a name="create-a-conditional-spanning-header"></a><span data-ttu-id="759bf-309">Tingimusliku laiendamise päise loomine</span><span class="sxs-lookup"><span data-stu-id="759bf-309">Create a conditional spanning header</span></span>
+
+1. <span data-ttu-id="759bf-310">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-310">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-311">Topeltklõpsake päise lahtrit.</span><span class="sxs-lookup"><span data-stu-id="759bf-311">Double-click a header cell.</span></span>
+3. <span data-ttu-id="759bf-312">Sisestage veerupäise tekst dialoogiboksi **Veerupäis**.</span><span class="sxs-lookup"><span data-stu-id="759bf-312">In the **Column Header** dialog box, enter the column header text.</span></span> <span data-ttu-id="759bf-313">Teise võimalusena saate klõpsata suvandit **Sisesta automaattekst** ja valida suvandi.</span><span class="sxs-lookup"><span data-stu-id="759bf-313">Alternatively, click **Insert AutoText**, and select an option.</span></span>
+4. <span data-ttu-id="759bf-314">Valige väljalt **Vormingusuvandid** päise vormingu laad.</span><span class="sxs-lookup"><span data-stu-id="759bf-314">In the **Format options** field, select a formatting style for the header.</span></span>
+5. <span data-ttu-id="759bf-315">Määrake periood aruande loomisel määratud baasperioodi suhtes.</span><span class="sxs-lookup"><span data-stu-id="759bf-315">Specify a period relative to the base period that is specified when the report is generated.</span></span> <span data-ttu-id="759bf-316">Sisestage väljadele **Algusvahemik** ja **Lõppvahemik** üks järgmistest väärtustest: **BASE**, **BASE-X** või **BASE+X**, kus X on baasperioodi perioodide arv.</span><span class="sxs-lookup"><span data-stu-id="759bf-316">In the **Spread from** and **Spread to** fields, enter one of the following values: **BASE**, **BASE-X** or **BASE+X**, where X is the number of periods from the base period.</span></span> <span data-ttu-id="759bf-317">Näiteks kui sisestate väärtuse **BASE** väljale **Algusvahemik**, algab tingimusliku laiendamise veeru päisetekst veerupäisest, milles aruande definitsiooni väärtus **Baasperiood** ühtib veeru definitsiooni väärtusega **Periood**.</span><span class="sxs-lookup"><span data-stu-id="759bf-317">For example, if you enter **BASE** in the **Spread from** field, the conditional spanning column header text starts in the column header where the report definition's **Base period** value equals the column definition's **Period** value.</span></span> <span data-ttu-id="759bf-318">See lõpeb väljal **Lõppvahemik** näidatud veerus.</span><span class="sxs-lookup"><span data-stu-id="759bf-318">It ends in the column that is indicated in the **Spread to** field.</span></span> <span data-ttu-id="759bf-319">Seega kui laiendamine on BASE kuni M ja aruande definitsiooni suvandi **Baasperiood** väärtus on **4**, algab päis veerust, kus periood on seatud väärtusele **4** ja lõpeb veerus M. Päised lõppevad ja algavad ainult prinditavatelt veergudelt.</span><span class="sxs-lookup"><span data-stu-id="759bf-319">Therefore, if the spread is BASE to M, and the report definition's **Base period** value is **4**, the header starts in the column where the period is set to **4** and ends at column M. Headers stop and start on printing columns only.</span></span>
+6. <span data-ttu-id="759bf-320">Valige suvandi **Joondus** alt, kas veerupäise tekst peaks olema vasakjoondatud, keskjoondatud või paremjoondatud.</span><span class="sxs-lookup"><span data-stu-id="759bf-320">Under **Justification**, select whether the column header text should be left-justified, center-justified, or right justified.</span></span>
+7. <span data-ttu-id="759bf-321">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="759bf-321">Click **OK**.</span></span>
+
+#### <a name="example-of-a-conditional-spanning-header"></a><span data-ttu-id="759bf-322">Tingimusliku laiendamise päise näide</span><span class="sxs-lookup"><span data-stu-id="759bf-322">Example of a conditional spanning header</span></span>
+
+<span data-ttu-id="759bf-323">Phyllis loob dünaamilise kuue kuu eelarve aruande.</span><span class="sxs-lookup"><span data-stu-id="759bf-323">Phyllis is creating a report for a dynamic six-month forecast.</span></span> <span data-ttu-id="759bf-324">Ta soovib, et tegelikke andmeid sisaldavatele veergudele prinditaks sõna „Tegelik” ja eelarveprognoose sisaldavatele veergudele prinditaks sõna „Eelarve”.</span><span class="sxs-lookup"><span data-stu-id="759bf-324">She wants the word "Actual" to be printed over the columns that contain actual data, and the word "Budget" to be printed over the columns that contain budget forecasts.</span></span> <span data-ttu-id="759bf-325">Iga kuu, mil aruannet käitatakse, on üks tegelik veerg rohkem ja üks eelarve veerg vähem.</span><span class="sxs-lookup"><span data-stu-id="759bf-325">Each month that the report is run, there is one more actual column and one less budget column.</span></span> <span data-ttu-id="759bf-326">Kuigi Phyllis saab veeru definitsiooni päiste korrigeerimiseks aruande loomisel iga kord käsitsi muuta, otsustab ta luua tingimusliku laiendamise päised, mis loovad päised asjakohastele veergudele iga kord aruande käitamisel automaatselt.</span><span class="sxs-lookup"><span data-stu-id="759bf-326">Although Phyllis can modify the column definition manually each time that the report is generated to adjust the headers, to save time and effort, she decides to create conditional spanning headers that will automatically create headers over the appropriate columns each time that the report is run.</span></span> <span data-ttu-id="759bf-327">Phyllis avab aruande kujundaja, klõpsab navigeerimispaanil suvandit **Veeru definitsioon** ja avab aruande veeru definitsiooni.</span><span class="sxs-lookup"><span data-stu-id="759bf-327">Phyllis opens Report Designer, clicks **Column Definition** in the navigation pane, and opens the column definition for the report.</span></span> <span data-ttu-id="759bf-328">Seejärel sisestab ta järgmise teabe.</span><span class="sxs-lookup"><span data-stu-id="759bf-328">She then enters the following information.</span></span> <span data-ttu-id="759bf-329">Baasperiood aruande definitsioonis on 4.</span><span class="sxs-lookup"><span data-stu-id="759bf-329">The base period in the report definition is 4.</span></span>
+
+
+|                     |  <span data-ttu-id="759bf-330">A</span><span class="sxs-lookup"><span data-stu-id="759bf-330">A</span></span>   | <span data-ttu-id="759bf-331">B</span><span class="sxs-lookup"><span data-stu-id="759bf-331">B</span></span>             | <span data-ttu-id="759bf-332">C</span><span class="sxs-lookup"><span data-stu-id="759bf-332">C</span></span>             | <span data-ttu-id="759bf-333">D</span><span class="sxs-lookup"><span data-stu-id="759bf-333">D</span></span>             | <span data-ttu-id="759bf-334">E</span><span class="sxs-lookup"><span data-stu-id="759bf-334">E</span></span>             | <span data-ttu-id="759bf-335">R</span><span class="sxs-lookup"><span data-stu-id="759bf-335">F</span></span>             | <span data-ttu-id="759bf-336">G</span><span class="sxs-lookup"><span data-stu-id="759bf-336">G</span></span>             | <span data-ttu-id="759bf-337">H</span><span class="sxs-lookup"><span data-stu-id="759bf-337">H</span></span>             | <span data-ttu-id="759bf-338">Mina</span><span class="sxs-lookup"><span data-stu-id="759bf-338">I</span></span>             | <span data-ttu-id="759bf-339">J</span><span class="sxs-lookup"><span data-stu-id="759bf-339">J</span></span>             | <span data-ttu-id="759bf-340">K</span><span class="sxs-lookup"><span data-stu-id="759bf-340">K</span></span>             | <span data-ttu-id="759bf-341">L</span><span class="sxs-lookup"><span data-stu-id="759bf-341">L</span></span>             | <span data-ttu-id="759bf-342">E</span><span class="sxs-lookup"><span data-stu-id="759bf-342">M</span></span>             |
+|---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
+| <span data-ttu-id="759bf-343">Päis 1</span><span class="sxs-lookup"><span data-stu-id="759bf-343">Header 1</span></span>            |      | <span data-ttu-id="759bf-344">Tegelik</span><span class="sxs-lookup"><span data-stu-id="759bf-344">Actual</span></span>        | <span data-ttu-id="759bf-345">Eelarve</span><span class="sxs-lookup"><span data-stu-id="759bf-345">Budget</span></span>        |               |               |               |               |               |               |               |               |               |               |
+| <span data-ttu-id="759bf-346">Päis 2</span><span class="sxs-lookup"><span data-stu-id="759bf-346">Header 2</span></span>            |      | <span data-ttu-id="759bf-347">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="759bf-347">@CalMonthLong</span></span> | <span data-ttu-id="759bf-348">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="759bf-348">@CalMonthLong</span></span> | <span data-ttu-id="759bf-349">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="759bf-349">@CalMonthLong</span></span> | <span data-ttu-id="759bf-350">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="759bf-350">@CalMonthLong</span></span> | <span data-ttu-id="759bf-351">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="759bf-351">@CalMonthLong</span></span> | <span data-ttu-id="759bf-352">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="759bf-352">@CalMonthLong</span></span> | <span data-ttu-id="759bf-353">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="759bf-353">@CalMonthLong</span></span> | <span data-ttu-id="759bf-354">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="759bf-354">@CalMonthLong</span></span> | <span data-ttu-id="759bf-355">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="759bf-355">@CalMonthLong</span></span> | <span data-ttu-id="759bf-356">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="759bf-356">@CalMonthLong</span></span> | <span data-ttu-id="759bf-357">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="759bf-357">@CalMonthLong</span></span> | <span data-ttu-id="759bf-358">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="759bf-358">@CalMonthLong</span></span> |
+| <span data-ttu-id="759bf-359">Päis 3</span><span class="sxs-lookup"><span data-stu-id="759bf-359">Header 3</span></span>            |      |               |               |               |               |               |               |               |               |               |               |               |               |
+| <span data-ttu-id="759bf-360">Veeru tüüp</span><span class="sxs-lookup"><span data-stu-id="759bf-360">Column Type</span></span>         | <span data-ttu-id="759bf-361">DESC</span><span class="sxs-lookup"><span data-stu-id="759bf-361">DESC</span></span> | <span data-ttu-id="759bf-362">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-362">FD</span></span>            | <span data-ttu-id="759bf-363">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-363">FD</span></span>            | <span data-ttu-id="759bf-364">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-364">FD</span></span>            | <span data-ttu-id="759bf-365">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-365">FD</span></span>            | <span data-ttu-id="759bf-366">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-366">FD</span></span>            | <span data-ttu-id="759bf-367">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-367">FD</span></span>            | <span data-ttu-id="759bf-368">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-368">FD</span></span>            | <span data-ttu-id="759bf-369">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-369">FD</span></span>            | <span data-ttu-id="759bf-370">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-370">FD</span></span>            | <span data-ttu-id="759bf-371">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-371">FD</span></span>            | <span data-ttu-id="759bf-372">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-372">FD</span></span>            | <span data-ttu-id="759bf-373">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-373">FD</span></span>            |
+| <span data-ttu-id="759bf-374">Konteerimiskood/atribuut</span><span class="sxs-lookup"><span data-stu-id="759bf-374">Book Code/Attribute</span></span> |      | <span data-ttu-id="759bf-375">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="759bf-375">ACTUAL</span></span>        | <span data-ttu-id="759bf-376">EELARVE2012</span><span class="sxs-lookup"><span data-stu-id="759bf-376">BUDGET2012</span></span>    | <span data-ttu-id="759bf-377">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="759bf-377">ACTUAL</span></span>        | <span data-ttu-id="759bf-378">EELARVE2012</span><span class="sxs-lookup"><span data-stu-id="759bf-378">BUDGET2012</span></span>    | <span data-ttu-id="759bf-379">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="759bf-379">ACTUAL</span></span>        | <span data-ttu-id="759bf-380">EELARVE2012</span><span class="sxs-lookup"><span data-stu-id="759bf-380">BUDGET2012</span></span>    | <span data-ttu-id="759bf-381">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="759bf-381">ACTUAL</span></span>        | <span data-ttu-id="759bf-382">EELARVE2012</span><span class="sxs-lookup"><span data-stu-id="759bf-382">BUDGET2012</span></span>    | <span data-ttu-id="759bf-383">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="759bf-383">ACTUAL</span></span>        | <span data-ttu-id="759bf-384">EELARVE2012</span><span class="sxs-lookup"><span data-stu-id="759bf-384">BUDGET2012</span></span>    | <span data-ttu-id="759bf-385">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="759bf-385">ACTUAL</span></span>        | <span data-ttu-id="759bf-386">EELARVE2012</span><span class="sxs-lookup"><span data-stu-id="759bf-386">BUDGET2012</span></span>    |
+| <span data-ttu-id="759bf-387">Finantsaasta</span><span class="sxs-lookup"><span data-stu-id="759bf-387">Fiscal Year</span></span>         |      | <span data-ttu-id="759bf-388">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-388">BASE</span></span>          | <span data-ttu-id="759bf-389">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-389">BASE</span></span>          | <span data-ttu-id="759bf-390">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-390">BASE</span></span>          | <span data-ttu-id="759bf-391">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-391">BASE</span></span>          | <span data-ttu-id="759bf-392">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-392">BASE</span></span>          | <span data-ttu-id="759bf-393">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-393">BASE</span></span>          | <span data-ttu-id="759bf-394">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-394">BASE</span></span>          | <span data-ttu-id="759bf-395">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-395">BASE</span></span>          | <span data-ttu-id="759bf-396">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-396">BASE</span></span>          | <span data-ttu-id="759bf-397">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-397">BASE</span></span>          | <span data-ttu-id="759bf-398">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-398">BASE</span></span>          | <span data-ttu-id="759bf-399">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-399">BASE</span></span>          |
+| <span data-ttu-id="759bf-400">Periood</span><span class="sxs-lookup"><span data-stu-id="759bf-400">Period</span></span>              |      | <span data-ttu-id="759bf-401">1</span><span class="sxs-lookup"><span data-stu-id="759bf-401">1</span></span>             | <span data-ttu-id="759bf-402">1</span><span class="sxs-lookup"><span data-stu-id="759bf-402">1</span></span>             | <span data-ttu-id="759bf-403">2</span><span class="sxs-lookup"><span data-stu-id="759bf-403">2</span></span>             | <span data-ttu-id="759bf-404">2</span><span class="sxs-lookup"><span data-stu-id="759bf-404">2</span></span>             | <span data-ttu-id="759bf-405">3</span><span class="sxs-lookup"><span data-stu-id="759bf-405">3</span></span>             | <span data-ttu-id="759bf-406">3</span><span class="sxs-lookup"><span data-stu-id="759bf-406">3</span></span>             | <span data-ttu-id="759bf-407">4</span><span class="sxs-lookup"><span data-stu-id="759bf-407">4</span></span>             | <span data-ttu-id="759bf-408">4</span><span class="sxs-lookup"><span data-stu-id="759bf-408">4</span></span>             | <span data-ttu-id="759bf-409">5</span><span class="sxs-lookup"><span data-stu-id="759bf-409">5</span></span>             | <span data-ttu-id="759bf-410">5</span><span class="sxs-lookup"><span data-stu-id="759bf-410">5</span></span>             | <span data-ttu-id="759bf-411">6</span><span class="sxs-lookup"><span data-stu-id="759bf-411">6</span></span>             | <span data-ttu-id="759bf-412">6</span><span class="sxs-lookup"><span data-stu-id="759bf-412">6</span></span>             |
+| <span data-ttu-id="759bf-413">Kaetud perioodid</span><span class="sxs-lookup"><span data-stu-id="759bf-413">Periods Covered</span></span>     |      | <span data-ttu-id="759bf-414">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-414">PERIODIC</span></span>      | <span data-ttu-id="759bf-415">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-415">PERIODIC</span></span>      | <span data-ttu-id="759bf-416">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-416">PERIODIC</span></span>      | <span data-ttu-id="759bf-417">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-417">PERIODIC</span></span>      | <span data-ttu-id="759bf-418">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-418">PERIODIC</span></span>      | <span data-ttu-id="759bf-419">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-419">PERIODIC</span></span>      | <span data-ttu-id="759bf-420">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-420">PERIODIC</span></span>      | <span data-ttu-id="759bf-421">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-421">PERIODIC</span></span>      | <span data-ttu-id="759bf-422">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-422">PERIODIC</span></span>      | <span data-ttu-id="759bf-423">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-423">PERIODIC</span></span>      | <span data-ttu-id="759bf-424">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-424">PERIODIC</span></span>      | <span data-ttu-id="759bf-425">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-425">PERIODIC</span></span>      |
+| <span data-ttu-id="759bf-426">Veeru laius</span><span class="sxs-lookup"><span data-stu-id="759bf-426">Column Width</span></span>        | <span data-ttu-id="759bf-427">30</span><span class="sxs-lookup"><span data-stu-id="759bf-427">30</span></span>   | <span data-ttu-id="759bf-428">10</span><span class="sxs-lookup"><span data-stu-id="759bf-428">10</span></span>            | <span data-ttu-id="759bf-429">10</span><span class="sxs-lookup"><span data-stu-id="759bf-429">10</span></span>            | <span data-ttu-id="759bf-430">10</span><span class="sxs-lookup"><span data-stu-id="759bf-430">10</span></span>            | <span data-ttu-id="759bf-431">10</span><span class="sxs-lookup"><span data-stu-id="759bf-431">10</span></span>            | <span data-ttu-id="759bf-432">10</span><span class="sxs-lookup"><span data-stu-id="759bf-432">10</span></span>            | <span data-ttu-id="759bf-433">10</span><span class="sxs-lookup"><span data-stu-id="759bf-433">10</span></span>            | <span data-ttu-id="759bf-434">10</span><span class="sxs-lookup"><span data-stu-id="759bf-434">10</span></span>            | <span data-ttu-id="759bf-435">10</span><span class="sxs-lookup"><span data-stu-id="759bf-435">10</span></span>            | <span data-ttu-id="759bf-436">10</span><span class="sxs-lookup"><span data-stu-id="759bf-436">10</span></span>            | <span data-ttu-id="759bf-437">10</span><span class="sxs-lookup"><span data-stu-id="759bf-437">10</span></span>            | <span data-ttu-id="759bf-438">10</span><span class="sxs-lookup"><span data-stu-id="759bf-438">10</span></span>            | <span data-ttu-id="759bf-439">10</span><span class="sxs-lookup"><span data-stu-id="759bf-439">10</span></span>            |
+| <span data-ttu-id="759bf-440">Prindi kontrollkood</span><span class="sxs-lookup"><span data-stu-id="759bf-440">Print Control</span></span>       |      | <span data-ttu-id="759bf-441">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="759bf-441">P&lt;=B</span></span>       | <span data-ttu-id="759bf-442">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="759bf-442">P&gt;B</span></span>        | <span data-ttu-id="759bf-443">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="759bf-443">P&lt;=B</span></span>       | <span data-ttu-id="759bf-444">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="759bf-444">P&gt;B</span></span>        | <span data-ttu-id="759bf-445">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="759bf-445">P&lt;=B</span></span>       | <span data-ttu-id="759bf-446">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="759bf-446">P&gt;B</span></span>        | <span data-ttu-id="759bf-447">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="759bf-447">P&lt;=B</span></span>       | <span data-ttu-id="759bf-448">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="759bf-448">P&gt;B</span></span>        | <span data-ttu-id="759bf-449">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="759bf-449">P&lt;=B</span></span>       | <span data-ttu-id="759bf-450">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="759bf-450">P&gt;B</span></span>        | <span data-ttu-id="759bf-451">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="759bf-451">P&lt;=B</span></span>       | <span data-ttu-id="759bf-452">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="759bf-452">P&gt;B</span></span>        |
+
+<span data-ttu-id="759bf-453">Phyllis topeltklõpsab veerupäise lahtrit dialoogiboksi **Veerupäis** avamiseks, kuhu ta sisestab järgmise teabe.</span><span class="sxs-lookup"><span data-stu-id="759bf-453">Phyllis double-clicks a column header cell to open the **Column Header** dialog box, where she enters the following information.</span></span>
+
+| <span data-ttu-id="759bf-454">Väli</span><span class="sxs-lookup"><span data-stu-id="759bf-454">Field</span></span>              | <span data-ttu-id="759bf-455">Väärtus</span><span class="sxs-lookup"><span data-stu-id="759bf-455">Value</span></span>                 |
+|--------------------|-----------------------|
+| <span data-ttu-id="759bf-456">Veerupäise tekst</span><span class="sxs-lookup"><span data-stu-id="759bf-456">Column header text</span></span> | <span data-ttu-id="759bf-457">Tegelik</span><span class="sxs-lookup"><span data-stu-id="759bf-457">Actual</span></span>                |
+| <span data-ttu-id="759bf-458">Sisesta automaattekst</span><span class="sxs-lookup"><span data-stu-id="759bf-458">Insert AutoText</span></span>    | <span data-ttu-id="759bf-459">Valik puudub.</span><span class="sxs-lookup"><span data-stu-id="759bf-459">No selection is made.</span></span> |
+| <span data-ttu-id="759bf-460">Vormingusuvandid</span><span class="sxs-lookup"><span data-stu-id="759bf-460">Format options</span></span>     | <span data-ttu-id="759bf-461">Väli</span><span class="sxs-lookup"><span data-stu-id="759bf-461">Box</span></span>                   |
+| <span data-ttu-id="759bf-462">Põhjendus</span><span class="sxs-lookup"><span data-stu-id="759bf-462">Justification</span></span>      | <span data-ttu-id="759bf-463">Valik puudub.</span><span class="sxs-lookup"><span data-stu-id="759bf-463">No selection is made.</span></span> |
+| <span data-ttu-id="759bf-464">Algusvahemik</span><span class="sxs-lookup"><span data-stu-id="759bf-464">Spread from</span></span>        | <span data-ttu-id="759bf-465">B</span><span class="sxs-lookup"><span data-stu-id="759bf-465">B</span></span>                     |
+| <span data-ttu-id="759bf-466">Lõppvahemik</span><span class="sxs-lookup"><span data-stu-id="759bf-466">Spread to</span></span>          | <span data-ttu-id="759bf-467">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-467">BASE</span></span>                  |
+| <span data-ttu-id="759bf-468">Eelarve päis</span><span class="sxs-lookup"><span data-stu-id="759bf-468">Budget header</span></span>      | <span data-ttu-id="759bf-469">BASE+1 kuni lõppveerg</span><span class="sxs-lookup"><span data-stu-id="759bf-469">BASE+1 to end column</span></span>  |
+
+<span data-ttu-id="759bf-470">Pärast teabe sisestamise lõpetamist klõpsab Phyllis nuppu **OK**.</span><span class="sxs-lookup"><span data-stu-id="759bf-470">After she has finished entering information, Phyllis clicks **OK**.</span></span> <span data-ttu-id="759bf-471">Seejärel topeltklõpsab ta veerus C veerupäise lahtrit dialoogiboksi **Veerupäis** avamiseks, kuhu ta sisestab järgmise teabe.</span><span class="sxs-lookup"><span data-stu-id="759bf-471">She then double-clicks the column header cell in column C to open the **Column Header** dialog box, where she enters the following information.</span></span>
+
+| <span data-ttu-id="759bf-472">Väli</span><span class="sxs-lookup"><span data-stu-id="759bf-472">Field</span></span>              | <span data-ttu-id="759bf-473">Väärtus</span><span class="sxs-lookup"><span data-stu-id="759bf-473">Value</span></span>                 |
+|--------------------|-----------------------|
+| <span data-ttu-id="759bf-474">Veerupäise tekst</span><span class="sxs-lookup"><span data-stu-id="759bf-474">Column header text</span></span> | <span data-ttu-id="759bf-475">Eelarve</span><span class="sxs-lookup"><span data-stu-id="759bf-475">Budget</span></span>                |
+| <span data-ttu-id="759bf-476">Sisesta automaattekst</span><span class="sxs-lookup"><span data-stu-id="759bf-476">Insert AutoText</span></span>    | <span data-ttu-id="759bf-477">Valik puudub.</span><span class="sxs-lookup"><span data-stu-id="759bf-477">No selection is made.</span></span> |
+| <span data-ttu-id="759bf-478">Vormingusuvandid</span><span class="sxs-lookup"><span data-stu-id="759bf-478">Format options</span></span>     | <span data-ttu-id="759bf-479">Väli</span><span class="sxs-lookup"><span data-stu-id="759bf-479">Box</span></span>                   |
+| <span data-ttu-id="759bf-480">Põhjendus</span><span class="sxs-lookup"><span data-stu-id="759bf-480">Justification</span></span>      | <span data-ttu-id="759bf-481">Valik puudub.</span><span class="sxs-lookup"><span data-stu-id="759bf-481">No selection is made.</span></span> |
+| <span data-ttu-id="759bf-482">Algusvahemik</span><span class="sxs-lookup"><span data-stu-id="759bf-482">Spread from</span></span>        | <span data-ttu-id="759bf-483">C</span><span class="sxs-lookup"><span data-stu-id="759bf-483">C</span></span>                     |
+| <span data-ttu-id="759bf-484">Lõppvahemik</span><span class="sxs-lookup"><span data-stu-id="759bf-484">Spread to</span></span>          | <span data-ttu-id="759bf-485">BASE+2</span><span class="sxs-lookup"><span data-stu-id="759bf-485">BASE+2</span></span>                |
+
+<span data-ttu-id="759bf-486">Nüüd prinditakse iga kord selle aruande loomisel tegelikke andmeid sisaldavatele veergudele sõna „Tegelik” ja eelarveprognoose sisaldavatele veergudele sõna „Eelarve”.</span><span class="sxs-lookup"><span data-stu-id="759bf-486">Now, every time that this report is generated, the word "Actual" will be printed over the columns that contain actual data, and the word "Budget" will be printed over the columns that contain budget forecasts.</span></span> <span data-ttu-id="759bf-487">Lisaks korrigeeritakse iga kuu veergude arvu.</span><span class="sxs-lookup"><span data-stu-id="759bf-487">Additionally, the number of columns will be adjusted each month.</span></span>
+
+## <a name="apply-column-justification"></a><span data-ttu-id="759bf-488">Veeru joonduse rakendamine</span><span class="sxs-lookup"><span data-stu-id="759bf-488">Apply column justification</span></span>
+<span data-ttu-id="759bf-489">Lahtrit **Joondus** kasutatakse joonduse rakendamiseks aruande kirjelduse veerule.</span><span class="sxs-lookup"><span data-stu-id="759bf-489">The **Justification** cell is used to apply justification formatting to a description column in a report.</span></span> <span data-ttu-id="759bf-490">See suvand mõjutab ainult veeru kirjeldusi, mitte tegelikke väärtusi.</span><span class="sxs-lookup"><span data-stu-id="759bf-490">This option affects only the column descriptions, not the actual values.</span></span>
+
+1. <span data-ttu-id="759bf-491">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-491">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-492">Topeltklõpsake lahtrit **Joondus**.</span><span class="sxs-lookup"><span data-stu-id="759bf-492">Double-click the **Justification** cell.</span></span>
+3. <span data-ttu-id="759bf-493">Valige loendist üks järgmistest väärtustest.</span><span class="sxs-lookup"><span data-stu-id="759bf-493">Select one of the following values in the list:</span></span>
+
+    - <span data-ttu-id="759bf-494">**Puudub** – joondust pole rakendatud.</span><span class="sxs-lookup"><span data-stu-id="759bf-494">**None** – No justification is applied.</span></span>
+    - <span data-ttu-id="759bf-495">**Vasak** – veeru kirjelduste vasakjoondus.</span><span class="sxs-lookup"><span data-stu-id="759bf-495">**Left** – Left-align the column descriptions.</span></span>
+    - <span data-ttu-id="759bf-496">**Keskel** – veeru kirjelduste keskjoondus.</span><span class="sxs-lookup"><span data-stu-id="759bf-496">**Center** – Center-align the column descriptions.</span></span>
+    - <span data-ttu-id="759bf-497">**Parem** – veeru kirjelduste paremjoondus.</span><span class="sxs-lookup"><span data-stu-id="759bf-497">**Right** – Right-align the column descriptions.</span></span>
+
+## <a name="add-special-formatting-options"></a><span data-ttu-id="759bf-498">Erivormingu suvandite lisamine</span><span class="sxs-lookup"><span data-stu-id="759bf-498">Add special formatting options</span></span>
+<span data-ttu-id="759bf-499">Veeru definitsioonis rakendavad vorminduse veeru üksikasjaread erivormingu valitud veergudele.</span><span class="sxs-lookup"><span data-stu-id="759bf-499">In the column definition, the formatting column detail rows apply special formatting to selected columns.</span></span> <span data-ttu-id="759bf-500">Kuigi mõni suvand **Prindi kontrollkood** ja **Veeru piirangud** on omased veergudele **FD**, kehtib enamik suvandeid kõigi veergude kohta.</span><span class="sxs-lookup"><span data-stu-id="759bf-500">Although some of the **Print Control** options and **Column Restrictions** options are specific to **FD** columns, most of the options apply to all column types.</span></span> <span data-ttu-id="759bf-501">Veeru definitsioonis määratud vorming alistab aruande definitsioonis määratud vormingu.</span><span class="sxs-lookup"><span data-stu-id="759bf-501">The formatting that is specified in the column definition overrides the formatting that is specified in the report definition.</span></span> <span data-ttu-id="759bf-502">Readefinitsioonis määratud vorming aga alistab veeru definitsioonis määratud vormingu.</span><span class="sxs-lookup"><span data-stu-id="759bf-502">However, the formatting that is specified in the row definition overrides the formatting that is specified in the column definition.</span></span> <span data-ttu-id="759bf-503">Vormingu ridadeks peetakse järgmisi ridu.</span><span class="sxs-lookup"><span data-stu-id="759bf-503">The following rows are considered formatting rows:</span></span>
+
+- <span data-ttu-id="759bf-504">Veeru laius</span><span class="sxs-lookup"><span data-stu-id="759bf-504">Column Width</span></span>
+- <span data-ttu-id="759bf-505">Lisatühikud enne veergu</span><span class="sxs-lookup"><span data-stu-id="759bf-505">Extra Spaces Before Column</span></span>
+- <span data-ttu-id="759bf-506">Vormingu/valuuta alistamine</span><span class="sxs-lookup"><span data-stu-id="759bf-506">Format/Currency Override</span></span>
+- <span data-ttu-id="759bf-507">Prindi kontrollkood</span><span class="sxs-lookup"><span data-stu-id="759bf-507">Print Control</span></span>
+
+### <a name="changing-the-column-width"></a><span data-ttu-id="759bf-508">Veeru laiuse muutmine</span><span class="sxs-lookup"><span data-stu-id="759bf-508">Changing the column width</span></span>
+
+<span data-ttu-id="759bf-509">Lahter **Veeru laius** määrab prinditud aruandes selle veeru laiuse puhul kasutatava märkide arvu.</span><span class="sxs-lookup"><span data-stu-id="759bf-509">The **Column Width** cell specifies the number of characters to use for the width of this column on the printed report.</span></span> <span data-ttu-id="759bf-510">Veeru laius on oluline summasid sisaldavate veergude (veerud tüübiga **CALC**, **WKS** või **FD**), kirjelduste (veerud tüübiga **DESC**) või täitmise (veerud tüübiga **FILL**) puhul.</span><span class="sxs-lookup"><span data-stu-id="759bf-510">Column width is important for columns that contain amounts (columns of the **CALC**, **WKS**, or **FD** type), descriptions (columns of the **DESC** type), or fill (columns of the **FILL** type).</span></span> <span data-ttu-id="759bf-511">Vaikimisi valitakse suvand **AutoFit**, nii et iga veeru laiust korrigeeritakse sisu mahutamiseks automaatselt.</span><span class="sxs-lookup"><span data-stu-id="759bf-511">By default, the **AutoFit** option is selected, so that the width of each column is automatically adjusted to fit the contents.</span></span>
+
+#### <a name="specify-the-width-of-a-column-on-a-report"></a><span data-ttu-id="759bf-512">Aruande veeru laiuse määramine</span><span class="sxs-lookup"><span data-stu-id="759bf-512">Specify the width of a column on a report</span></span>
+
+1. <span data-ttu-id="759bf-513">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-513">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-514">Sisestage lahtrisse **Veeru laius** tühikute arv veeru laiuse puhul.</span><span class="sxs-lookup"><span data-stu-id="759bf-514">In the **Column Width** cell, enter the number of spaces for the width of the column.</span></span> <span data-ttu-id="759bf-515">Iga veeru maksimumlaius on 255 märki (see arv sisaldab sendimärke, komasid ja sulge).</span><span class="sxs-lookup"><span data-stu-id="759bf-515">The maximum width of any column is 255 characters (this number includes cents, commas, and parentheses).</span></span> <span data-ttu-id="759bf-516">Kui aga soovite lubada aruandekoosturil valida veeru jaoks sobiva laiuse lahtri sisu alusel, topeltklõpsake lahtrit **Veeru laius** ja seejärel klõpsake suvandit **Sobita automaatselt**.</span><span class="sxs-lookup"><span data-stu-id="759bf-516">Alternatively, to enable report designer to select the appropriate width for the column, based on the cell content, double-click the **Column Width** cell, and then click **AutoFit**.</span></span>
+
+### <a name="add-space-between-columns"></a><span data-ttu-id="759bf-517">Tühiku lisamine veergude vahele</span><span class="sxs-lookup"><span data-stu-id="759bf-517">Add space between columns</span></span>
+
+<span data-ttu-id="759bf-518">Lahter **Lisatühikuid enne veergu** määrab veeru definitsioonis ühe veeru ja külgnevate veergude vahelise eraldaja laiuse.</span><span class="sxs-lookup"><span data-stu-id="759bf-518">The **Extra Spaces Before Column** cell specifies the width of the separator between one column and adjacent columns in the column definition.</span></span> <span data-ttu-id="759bf-519">Suvandi **Lisatühikud enne veergu** säte mõjutab kõiki veeru üksikasjaridade ridu, kuid mitte veeru päiseridu.</span><span class="sxs-lookup"><span data-stu-id="759bf-519">The **Extra Spaces Before Column** setting affects all column detail rows for the column, but not the column header rows.</span></span> <span data-ttu-id="759bf-520">Kasutage seda suvandit veergude gruppide eraldamiseks või mõne tühiku lisamiseks enne kirjeldust, nii et kirjelduse veergu taandatakse aruande vasakjoondatud tiitlitest.</span><span class="sxs-lookup"><span data-stu-id="759bf-520">Use this option to separate groups of columns or to add a few spaces before the description, so that the description column is indented from the left-aligned titles on the report.</span></span> <span data-ttu-id="759bf-521">Kõigi veergude vaheliste tühikute vaikearv on kaks.</span><span class="sxs-lookup"><span data-stu-id="759bf-521">The default number of spaces between each column is two.</span></span> <span data-ttu-id="759bf-522">Saate seda sätet muuta aruande definitsiooni vahekaardil **Sätted**.</span><span class="sxs-lookup"><span data-stu-id="759bf-522">You can change this setting on the **Settings** tab in the report definition.</span></span>
+
+#### <a name="specify-the-space-between-columns"></a><span data-ttu-id="759bf-523">Veergude vahelise tühiku määramine</span><span class="sxs-lookup"><span data-stu-id="759bf-523">Specify the space between columns</span></span>
+
+1. <span data-ttu-id="759bf-524">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-524">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-525">Sisestage lahtrisse **Lisatühikud enne veergu** veergude vahele sisestatavate tühikute arv.</span><span class="sxs-lookup"><span data-stu-id="759bf-525">In the **Extra Spaces Before Column** cell, enter the number of spaces to insert between columns.</span></span>
+
+### <a name="specify-a-format-currency-override"></a><span data-ttu-id="759bf-526">Vormingu/valuuta alistamise määramine</span><span class="sxs-lookup"><span data-stu-id="759bf-526">Specify a format currency override</span></span>
+
+<span data-ttu-id="759bf-527">Vahekaart **Vormingu/valuuta alistamine** määrab kümnend-, valuuta- ja protsendisummade vormingu veerus.</span><span class="sxs-lookup"><span data-stu-id="759bf-527">The **Format/Currency Override** cell specifies the formatting of the decimal, currency, and percentage amounts in the column.</span></span> <span data-ttu-id="759bf-528">Selline vorming alistab veeru definitsioonis või süsteemi vaikesuvandites määratud vormingu.</span><span class="sxs-lookup"><span data-stu-id="759bf-528">This formatting overrides any formatting that is specified in the report definition or system defaults.</span></span>
+
+#### <a name="assign-a-format-currency-override-to-a-report-column"></a><span data-ttu-id="759bf-529">Vormingu/valuuta alistamise määramine aruande veerule</span><span class="sxs-lookup"><span data-stu-id="759bf-529">Assign a format currency override to a report column</span></span>
+
+1. <span data-ttu-id="759bf-530">Avage aruandekoosturis muudetav veerudefinitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-530">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-531">Topeltklõpsake summaveerus lahtrit **Vormingu/valuuta alistamine**.</span><span class="sxs-lookup"><span data-stu-id="759bf-531">Double-click a **Format/Currency Override** cell in an amount column.</span></span>
+3. <span data-ttu-id="759bf-532">Valige vormingusuvandid dialoogiboksist **Vormingu alistamine**.</span><span class="sxs-lookup"><span data-stu-id="759bf-532">In the **Format Override** dialog box, select formatting options.</span></span>
+
+### <a name="add-a-print-control-code"></a><span data-ttu-id="759bf-533">Prindi kontrollkoodi lisamine</span><span class="sxs-lookup"><span data-stu-id="759bf-533">Add a print control code</span></span>
+
+<span data-ttu-id="759bf-534">Lahter **Prindi kontrollkood** võib sisaldada koode, mis korrigeerivad veeru kuva või printimisomadusi.</span><span class="sxs-lookup"><span data-stu-id="759bf-534">The **Print Control** cell can contain codes that adjust the display or the printing characteristics of a column.</span></span> <span data-ttu-id="759bf-535">Prindi kontrollkoode on kahte tüüpi: tavalised prindi kontrollkoodid ja tingimuslikud prindi kontrollkoodid.</span><span class="sxs-lookup"><span data-stu-id="759bf-535">There are two types of print control codes: regular print control codes and conditional print control codes.</span></span>
+
+#### <a name="regular-print-control-codes"></a><span data-ttu-id="759bf-536">Tavalised prindi kontrollkoodid</span><span class="sxs-lookup"><span data-stu-id="759bf-536">Regular print control codes</span></span>
+
+| <span data-ttu-id="759bf-537">Prindi kontrollkood</span><span class="sxs-lookup"><span data-stu-id="759bf-537">Print control code</span></span> | <span data-ttu-id="759bf-538">Teisendamine</span><span class="sxs-lookup"><span data-stu-id="759bf-538">Translation</span></span>                                     | <span data-ttu-id="759bf-539">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="759bf-539">Description</span></span> |
+|--------------------|-------------------------------------------------|-------------|
+| <span data-ttu-id="759bf-540">NP</span><span class="sxs-lookup"><span data-stu-id="759bf-540">NP</span></span>                 | <span data-ttu-id="759bf-541">Mitteprinditav</span><span class="sxs-lookup"><span data-stu-id="759bf-541">Nonprinting</span></span>                                     | <span data-ttu-id="759bf-542">Selle veeru summade välistamine prinditavast aruandest ja arvutustest.</span><span class="sxs-lookup"><span data-stu-id="759bf-542">Exclude the amounts in this column from the report that is printed and from calculations.</span></span> <span data-ttu-id="759bf-543">Mitteprinditava veeru kaasamiseks arvutusse viidake veerule otse arvutusvalemis.</span><span class="sxs-lookup"><span data-stu-id="759bf-543">To include a non-printing column in a calculation, refer to the column directly in the calculation formula.</span></span> <span data-ttu-id="759bf-544">Näiteks on mitteprinditav veerg C kaasatud järgmisse arvutusse: **B+C+D**.</span><span class="sxs-lookup"><span data-stu-id="759bf-544">For example, the non-printing column C is included in the following calculation: **B+C+D**.</span></span> <span data-ttu-id="759bf-545">Mitteprinditav veerg C pole kaasatud järgmisse arvutusse: **B:D**.</span><span class="sxs-lookup"><span data-stu-id="759bf-545">However, the non-printing column C isn't included in the following calculation: **B:D**.</span></span> |
+| <span data-ttu-id="759bf-546">XCR</span><span class="sxs-lookup"><span data-stu-id="759bf-546">XCR</span></span>                | <span data-ttu-id="759bf-547">Märgi muutmine, kui rea tavaline saldo on kreedit</span><span class="sxs-lookup"><span data-stu-id="759bf-547">Change sign if typical balance of row is credit</span></span> | <span data-ttu-id="759bf-548">Eelarve või võrdlusaruande loomine, kui soovimatu hälve (nt tulu puudujääk või ülekulu) on alati negatiivne.</span><span class="sxs-lookup"><span data-stu-id="759bf-548">Create a budget or comparative report where any unfavorable variance (such as a revenue shortfall or an expense overrun) is always negative.</span></span> <span data-ttu-id="759bf-549">Rakendage see kood veerule **CALC** veeru summa märgi muutmiseks, kui antud rea tavaline saldo on kreedit (määratud tähega **C** readefinitsiooni veerus **Normaalsaldo**).</span><span class="sxs-lookup"><span data-stu-id="759bf-549">Apply this code to a **CALC** column to reverse the sign of the column amount if the typical balance of a given row is a credit (as identified by a **C** in the **Normal Balance** column of the row definition).</span></span><p><span data-ttu-id="759bf-550"><strong>Märkus.</strong> Veenduge ridade <strong>TOT</strong> ja </strong>CAL</strong> puhul, mis tavaliselt sisaldavad kreeditsaldot, et sisestaksite <strong>C</strong> readefinitsiooni veergu <strong>Normaalsaldo</strong>.</span><span class="sxs-lookup"><span data-stu-id="759bf-550"><strong>Note:</strong> For <strong>TOT</strong> rows and </strong>CAL</strong> rows that typically carry a credit balance, be sure to enter a <strong>C</strong> in the <strong>Normal Balance</strong> column in the row definition.</span></span></p> |
+| <span data-ttu-id="759bf-551">X0</span><span class="sxs-lookup"><span data-stu-id="759bf-551">X0</span></span>                 | <span data-ttu-id="759bf-552">Veeru peitmine, kui kõik on nullid või tühjad</span><span class="sxs-lookup"><span data-stu-id="759bf-552">Suppress column if all zeros or blanks</span></span>          | <span data-ttu-id="759bf-553">Veeru **FD** välistamine aruandest, kui kõik selle veeru lahtrid on kas tühjad või sisaldavad nulle.</span><span class="sxs-lookup"><span data-stu-id="759bf-553">Exclude an **FD** column from the report if all cells in that column are either empty or contain zeros.</span></span> |
+| <span data-ttu-id="759bf-554">SR</span><span class="sxs-lookup"><span data-stu-id="759bf-554">SR</span></span>                 | <span data-ttu-id="759bf-555">Peida ümardamine</span><span class="sxs-lookup"><span data-stu-id="759bf-555">Suppress rounding</span></span>                               | <span data-ttu-id="759bf-556">Selle veeru summade ümardamise takistamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-556">Prevent the amounts in this column from being rounded.</span></span> |
+| <span data-ttu-id="759bf-557">XR</span><span class="sxs-lookup"><span data-stu-id="759bf-557">XR</span></span>                 | <span data-ttu-id="759bf-558">Ümberarvestuse peitmine</span><span class="sxs-lookup"><span data-stu-id="759bf-558">Suppress rollup</span></span>                                 | <span data-ttu-id="759bf-559">Ümberarvestuse peitmine.</span><span class="sxs-lookup"><span data-stu-id="759bf-559">Suppress a rollup.</span></span> <span data-ttu-id="759bf-560">Kui aruanne kasutab aruandluspuud, ei koondata selle veeru summasid järgnevatesse emasõlmedesse.</span><span class="sxs-lookup"><span data-stu-id="759bf-560">If the report uses a reporting tree, the amounts in this column aren't rolled up into subsequent parent nodes.</span></span> |
+| <span data-ttu-id="759bf-561">RP</span><span class="sxs-lookup"><span data-stu-id="759bf-561">RP</span></span>                 | <span data-ttu-id="759bf-562">Korda veergu igal lehel</span><span class="sxs-lookup"><span data-stu-id="759bf-562">Repeat column on each page</span></span>                      | <span data-ttu-id="759bf-563">Määratud veeru kordamine aruande igal lehel.</span><span class="sxs-lookup"><span data-stu-id="759bf-563">Repeat a specified column on each page of a report.</span></span> <span data-ttu-id="759bf-564">Näiteks saate kasutada prindi kontrollkoodi **RP** tüüpi **ROW** veeru kaasamiseks, mis tõmbab rea koodid igale lehele.</span><span class="sxs-lookup"><span data-stu-id="759bf-564">For example, you can use the **RP** print control code to include a column of the **ROW** type that pulls in row codes on every page.</span></span> |
+| <span data-ttu-id="759bf-565">WT</span><span class="sxs-lookup"><span data-stu-id="759bf-565">WT</span></span>                 |  <span data-ttu-id="759bf-566">Murra tekst</span><span class="sxs-lookup"><span data-stu-id="759bf-566">Wrap text</span></span>                                      |  <span data-ttu-id="759bf-567">Kui veeru tekst on ruumi mahtumiseks liiga pikk, murdke tekst kogu teksti säilitamiseks veerus.</span><span class="sxs-lookup"><span data-stu-id="759bf-567">If the text in a column is too long to fit the space, wrap the text to keep all the text in the column.</span></span> |
+
+#### <a name="conditional-print-control-codes"></a><span data-ttu-id="759bf-568">Tingimuslikud prindi kontrollkoodid</span><span class="sxs-lookup"><span data-stu-id="759bf-568">Conditional print control codes</span></span>
+
+| <span data-ttu-id="759bf-569">Tingimuslik prindi kontrollkood</span><span class="sxs-lookup"><span data-stu-id="759bf-569">Conditional print control code</span></span> | <span data-ttu-id="759bf-570">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="759bf-570">Description</span></span>                                                                             |
+|--------------------------------|-----------------------------------------------------------------------------------------|
+| <span data-ttu-id="759bf-571">(puudub)</span><span class="sxs-lookup"><span data-stu-id="759bf-571">(none)</span></span>                         | <span data-ttu-id="759bf-572">Tingimusliku prindi suvandi tühjendamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-572">Clear the conditional print selection.</span></span>                                                  |
+| <span data-ttu-id="759bf-573">P&lt;B</span><span class="sxs-lookup"><span data-stu-id="759bf-573">P&lt;B</span></span>                         | <span data-ttu-id="759bf-574">Kindla veeru kuvamine ainult siis, kui periood on baasperioodist lühem.</span><span class="sxs-lookup"><span data-stu-id="759bf-574">Display a specified column only if the period is less than the base period.</span></span>             |
+| <span data-ttu-id="759bf-575">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="759bf-575">P&gt;B</span></span>                         | <span data-ttu-id="759bf-576">Kindla veeru kuvamine ainult siis, kui periood on baasperioodist pikem.</span><span class="sxs-lookup"><span data-stu-id="759bf-576">Display a specified column only if the period is more than the base period.</span></span>             |
+| <span data-ttu-id="759bf-577">P=B</span><span class="sxs-lookup"><span data-stu-id="759bf-577">P=B</span></span>                            | <span data-ttu-id="759bf-578">Kindla veeru kuvamine ainult siis, kui periood on baasperioodiga võrdne.</span><span class="sxs-lookup"><span data-stu-id="759bf-578">Display a specified column only if the period is equal to the base period.</span></span>              |
+| <span data-ttu-id="759bf-579">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="759bf-579">P&lt;=B</span></span>                        | <span data-ttu-id="759bf-580">Kindla veeru kuvamine ainult siis, kui periood on baasperioodist lühem või sellega võrdne.</span><span class="sxs-lookup"><span data-stu-id="759bf-580">Display a specified column only if the period is less than or equal to the base period.</span></span> |
+| <span data-ttu-id="759bf-581">P&gt;=B</span><span class="sxs-lookup"><span data-stu-id="759bf-581">P&gt;=B</span></span>                        | <span data-ttu-id="759bf-582">Kindla veeru kuvamine ainult siis, kui periood on baasperioodist pikem või sellega võrdne.</span><span class="sxs-lookup"><span data-stu-id="759bf-582">Display a specified column only if the period is more than or equal to the base period.</span></span> |
+
+#### <a name="add-print-control-codes-to-a-report-column"></a><span data-ttu-id="759bf-583">Prindi kontrollkoodide lisamine aruande veergu</span><span class="sxs-lookup"><span data-stu-id="759bf-583">Add print control codes to a report column</span></span>
+
+1. <span data-ttu-id="759bf-584">Avage aruandekoosturis muudetav veerudefinitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-584">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-585">Topeltklõpsake lahtrit **Printimise juhtelement**.</span><span class="sxs-lookup"><span data-stu-id="759bf-585">Double-click the **Print Control** cell.</span></span>
+3. <span data-ttu-id="759bf-586">Valige dialoogiboksis **Prindi kontrollkood** kood loendist **Prindi kontrollkoodi suvandite valimine**.</span><span class="sxs-lookup"><span data-stu-id="759bf-586">In the **Print Control** dialog box, select a code in the **Select print control options** list.</span></span> <span data-ttu-id="759bf-587">Rohkem kui ühe koodi valimiseks hoidke koodide valimisel all klahvi Ctrl.</span><span class="sxs-lookup"><span data-stu-id="759bf-587">To select more than one code, hold down the Ctrl key while you select the codes.</span></span>
+4. <span data-ttu-id="759bf-588">Valige suvand väljalt **Tingimuslikud prindi suvandid**.</span><span class="sxs-lookup"><span data-stu-id="759bf-588">Select an option in the **Conditional print options** field.</span></span> <span data-ttu-id="759bf-589">Vaikimisi on valitud säte **(puudub)**.</span><span class="sxs-lookup"><span data-stu-id="759bf-589">By default, **(none)** is selected.</span></span> <span data-ttu-id="759bf-590">Korraga saate valida ainult ühe tingimusliku prindi kontrollkoodi.</span><span class="sxs-lookup"><span data-stu-id="759bf-590">You can select only one conditional print code at a time.</span></span>
+5. <span data-ttu-id="759bf-591">Klõpsake nuppu **OK**.</span><span class="sxs-lookup"><span data-stu-id="759bf-591">Click **OK**.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="759bf-592">Saate prindi kontrollkoodid sisestada ka otse lahtrisse **Prindi kontrollkood**.</span><span class="sxs-lookup"><span data-stu-id="759bf-592">You can also enter the print codes directly in the **Print Control** cell.</span></span> <span data-ttu-id="759bf-593">Eraldage mitu prindi kontrollkoodi komadega.</span><span class="sxs-lookup"><span data-stu-id="759bf-593">Separate multiple print control codes with a comma.</span></span>
+
+## <a name="column-types"></a><span data-ttu-id="759bf-594">Veerutüübid</span><span class="sxs-lookup"><span data-stu-id="759bf-594">Column types</span></span>
+<span data-ttu-id="759bf-595">Teabe tüüp, mida iga aruande veerg sisaldab, määratakse väärtusega veeru definitsiooni real **Veeru tüüp**.</span><span class="sxs-lookup"><span data-stu-id="759bf-595">The type of information that each column on a report includes is specified by the value in the **Column Type** row in the column definition.</span></span> <span data-ttu-id="759bf-596">Iga veerudefinitsioon peab sisaldama vähemalt ühte kirjelduse (**DESC**) veergu ja ühte summa (**FD**, **WKS** või **CALC**) veergu.</span><span class="sxs-lookup"><span data-stu-id="759bf-596">Each column definition must contain at least one description (**DESC**) column and one amount (**FD**, **WKS**, or **CALC**) column.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="759bf-597">Veeru tüübi koodid ei rakendu kõigile raamatupidamissüsteemidele.</span><span class="sxs-lookup"><span data-stu-id="759bf-597">The column type codes don't apply to all accounting systems.</span></span> <span data-ttu-id="759bf-598">Valides tüübi, mis teie raamatupidamissüsteemi puhul ei kehti, on see veerg aruandes tühi.</span><span class="sxs-lookup"><span data-stu-id="759bf-598">If you select a type that isn't valid for your accounting system, that column is blank on the report.</span></span>
+
+### <a name="specify-a-column-type"></a><span data-ttu-id="759bf-599">Veeru tüübi määramine</span><span class="sxs-lookup"><span data-stu-id="759bf-599">Specify a column type</span></span>
+
+1. <span data-ttu-id="759bf-600">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-600">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-601">Topeltklõpsake asjakohases veerus lahtrit real **Veeru tüüp**.</span><span class="sxs-lookup"><span data-stu-id="759bf-601">In the appropriate column, double-click a cell in the **Column Type** row.</span></span>
+3. <span data-ttu-id="759bf-602">Valige loendist veeru tüüp.</span><span class="sxs-lookup"><span data-stu-id="759bf-602">Select a column type in the list.</span></span> <span data-ttu-id="759bf-603">Järgmises tabelis kirjeldatakse eri veeru tüüpe.</span><span class="sxs-lookup"><span data-stu-id="759bf-603">The following table describes the various column types.</span></span>
+
+    <table>
+    <thead>
+    <tr>
+    <th><span data-ttu-id="759bf-604">Veeru tüübi kood</span><span class="sxs-lookup"><span data-stu-id="759bf-604">Column type code</span></span></th>
+    <th><span data-ttu-id="759bf-605">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="759bf-605">Description</span></span></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td><span data-ttu-id="759bf-606">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-606">FD</span></span></td>
+    <td><span data-ttu-id="759bf-607">Kui kasutate rea definitsioonis veergu <strong>Link finantsdimensioonidele</strong>, kuvatakse finantsandmed.</span><span class="sxs-lookup"><span data-stu-id="759bf-607">Display financial data when you use a <strong>Link to Financial Dimensions</strong> column in the row definition.</span></span> <span data-ttu-id="759bf-608">Kui valite <strong>FD</strong>‑tüüpi veeru, määratakse järgmistel ridadel automaatselt vaikesätted.</span><span class="sxs-lookup"><span data-stu-id="759bf-608">When you select the <strong>FD</strong> column type, default settings are automatically specified for the following rows:</span></span> <ul>
+    <li><span data-ttu-id="759bf-609"><strong>Arvestuskood/atribuudikategooria:</strong> TEGELIK</span><span class="sxs-lookup"><span data-stu-id="759bf-609"><strong>Book Code/Attribute Category:</strong> ACTUAL</span></span></li>
+    <li><span data-ttu-id="759bf-610"><strong>Arvestuskood/atribuudikategooria:</strong> TEGELIK</span><span class="sxs-lookup"><span data-stu-id="759bf-610"><strong>Book Code/Attribute Category:</strong> ACTUAL</span></span></li>
+    <li><span data-ttu-id="759bf-611"><strong>Finantsaasta:</strong> BAAS</span><span class="sxs-lookup"><span data-stu-id="759bf-611"><strong>Fiscal Year:</strong> BASE</span></span></li>
+    <li><span data-ttu-id="759bf-612"><strong>Periood:</strong> BAAS</span><span class="sxs-lookup"><span data-stu-id="759bf-612"><strong>Period:</strong> BASE</span></span></li>
+    <li><span data-ttu-id="759bf-613"><strong>Kaetud perioodid:</strong> PERIOODILINE</span><span class="sxs-lookup"><span data-stu-id="759bf-613"><strong>Periods Covered:</strong> PERIODIC</span></span></li>
+    <li><span data-ttu-id="759bf-614"><strong>Veeru laius:</strong> 14</span><span class="sxs-lookup"><span data-stu-id="759bf-614"><strong>Column Width:</strong> 14</span></span></li>
+    </ul>
+<span data-ttu-id="759bf-615">Saate neid vaikesätteid muuta.</span><span class="sxs-lookup"><span data-stu-id="759bf-615">You can change these default settings.</span></span></td>
+    </tr>
+    <tr>
+    <td><span data-ttu-id="759bf-616">CALC</span><span class="sxs-lookup"><span data-stu-id="759bf-616">CALC</span></span></td>
+    <td><span data-ttu-id="759bf-617">Lahtris <strong>Valem</strong> määratletud lihtsa või keeruka arvutuse tulemuse kuvamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-617">Display the result of a simple or complex calculation that is specified in the <strong>Formula</strong> cell.</span></span> <span data-ttu-id="759bf-618">Lisateabe saamiseks vt jaotist <a href="advanced-formatting-options-financial-reporting.md">Finantsaruandluse täpsemad vormingusuvandid</a>.</span><span class="sxs-lookup"><span data-stu-id="759bf-618">For more information, see <a href="advanced-formatting-options-financial-reporting.md">Advanced formatting options in financial reporting</a>.</span></span></td>
+    </tr>
+    <tr>
+    <td><span data-ttu-id="759bf-619">DESC</span><span class="sxs-lookup"><span data-stu-id="759bf-619">DESC</span></span></td>
+    <td><span data-ttu-id="759bf-620">Rea kirjelduse kuvamine readefinitsioonist.</span><span class="sxs-lookup"><span data-stu-id="759bf-620">Display the row description from the row definition.</span></span> <span data-ttu-id="759bf-621">Kuigi kirjelduse veerg on sageli aruande esimene veerg, võib see olla mis tahes kohas.</span><span class="sxs-lookup"><span data-stu-id="759bf-621">Although the description column is often the first column on the report, it can be in any position.</span></span></td>
+    </tr>
+    <tr>
+    <td><span data-ttu-id="759bf-622">ROW</span><span class="sxs-lookup"><span data-stu-id="759bf-622">ROW</span></span></td>
+    <td><span data-ttu-id="759bf-623">Finantsridade üksiku rea koodide kuvamine readefinitsiooni veerult <strong>Rea kood</strong>.</span><span class="sxs-lookup"><span data-stu-id="759bf-623">Display the individual row codes for financial rows from the <strong>Row Code</strong> column in the row definition.</span></span> <span data-ttu-id="759bf-624">Lisateabe saamiseks vt jaotist <a href="row-definitions-financial-reporting.md">Finantsaruandluse readefinitsioonid</a>.</span><span class="sxs-lookup"><span data-stu-id="759bf-624">For more information, see <a href="row-definitions-financial-reporting.md">Row definitions in financial reporting</a>.</span></span></td>
+    </tr>
+    <tr>
+    <td><span data-ttu-id="759bf-625">ACCT (kontokoodid)</span><span class="sxs-lookup"><span data-stu-id="759bf-625">ACCT (Account codes)</span></span></td>
+    <td><span data-ttu-id="759bf-626">Finantsandmete segmendi väärtuste või dimensiooniväärtuste kuvamine, mida rakendatakse igale reale.</span><span class="sxs-lookup"><span data-stu-id="759bf-626">Display the financial data segment values or dimension values that apply to each row.</span></span> <span data-ttu-id="759bf-627">Konto ja kande üksikasjade aruannete puhul prinditakse täielik konto (näiteks <strong>110140-070-0101</strong>).</span><span class="sxs-lookup"><span data-stu-id="759bf-627">For account and transaction detail reports, the fully qualified account is printed (for example, <strong>110140-070-0101</strong>).</span></span> <span data-ttu-id="759bf-628">Kui vahemikud on määratud seonduva reamääratluse veerus <strong>Link finantsdimensioonidele</strong>, pannakse vahemik nurksulgudesse ja seda käsitletakse üksiku väärtusena (näiteks <strong>[110140:110700]‑070‑[0101:0200]</strong>).</span><span class="sxs-lookup"><span data-stu-id="759bf-628">If ranges have been specified in the <strong>Link to Financial Dimensions</strong> column in an associated row definition, the range is enclosed in square brackets and is treated as a single value (for example, <strong>[110140:110700]-070-[0101:0200]</strong>).</span></span> <span data-ttu-id="759bf-629">Finantsaruannete ja kõrgetasemeliste aruannete puhul, mis on mitmete kontode kombinatsioonid, prinditakse finantsandmete link reamääratlusest (näiteks <strong>1100:1200</strong>).</span><span class="sxs-lookup"><span data-stu-id="759bf-629">For financial reports and high-level reports that are a combination of several accounts, the financial data link from the row definition is printed (for example, <strong>1100:1200</strong>).</span></span></td>
+    </tr>
+    <tr>
+    <td><span data-ttu-id="759bf-630">FILL</span><span class="sxs-lookup"><span data-stu-id="759bf-630">FILL</span></span></td>
+    <td><span data-ttu-id="759bf-631">Lahtri täitmine märgiga, mille panete üksisjutumärkidesse.</span><span class="sxs-lookup"><span data-stu-id="759bf-631">Fill the cell with a character that you enclose in single quotation marks.</span></span> <span data-ttu-id="759bf-632">Kui te märki ei sisesta, on veerg tühi.</span><span class="sxs-lookup"><span data-stu-id="759bf-632">If you don't enter a character, the column is empty.</span></span> <span data-ttu-id="759bf-633">Näiteks veeru täitmiseks kolmikpunktiga (...) sisestage <strong>FILL</strong> <strong>'.'</strong>.</span><span class="sxs-lookup"><span data-stu-id="759bf-633">For example, to fill a column with an ellipsis (...), enter <strong>FILL</strong> <strong>'.'</strong>.</span></span></td>
+    </tr>
+    <tr>
+    <td><span data-ttu-id="759bf-634">PAGE</span><span class="sxs-lookup"><span data-stu-id="759bf-634">PAGE</span></span></td>
+    <td><span data-ttu-id="759bf-635">Vertikaalse lehepiiri sisestamine aruandesse.</span><span class="sxs-lookup"><span data-stu-id="759bf-635">Insert a vertical page break in the report.</span></span> <span data-ttu-id="759bf-636">Veerust <strong>LEHT</strong> paremal olevad veerud ilmuvad muul lehel.</span><span class="sxs-lookup"><span data-stu-id="759bf-636">The columns that are to the right of the <strong>PAGE</strong> column appear on a different page.</span></span></td>
+    </tr>
+    <tr>
+    <td><span data-ttu-id="759bf-637">ATTR</span><span class="sxs-lookup"><span data-stu-id="759bf-637">ATTR</span></span></td>
+    <td><span data-ttu-id="759bf-638">Konto või kande atribuudi kuvamine veerus, kui teie raamatupidamissüsteem atribuute toetab.</span><span class="sxs-lookup"><span data-stu-id="759bf-638">If your accounting system supports attributes, display an account or transaction attribute in the column.</span></span> <span data-ttu-id="759bf-639">Atribuut, mis tuleb rakendada ühele täielikule kontole, ekstrakdib aluseks oleva konto või kande teabe finantsandmetest.</span><span class="sxs-lookup"><span data-stu-id="759bf-639">An attribute, which must apply to a single full account, extracts underlying account or transaction information from the financial data.</span></span> <span data-ttu-id="759bf-640">Konto taseme atribuudid kuvavad andmeid kontolt ja kande taseme atribuudid kuvavad kande postitamise ajal ilmnenud andmeid.</span><span class="sxs-lookup"><span data-stu-id="759bf-640">Account-level attributes display data from the account, and transaction-level attributes display data that occurred at the time that the transaction was posted.</span></span> <span data-ttu-id="759bf-641">Kui valite <strong>ATTR</strong>‑tüüpi veeru, määrake atribuudikategooria veeru määratluse üksikasjade real <strong>Arvestuskood/atribuudikategooria</strong>.</span><span class="sxs-lookup"><span data-stu-id="759bf-641">If you select <strong>ATTR</strong> as the column type, specify the attribute category in the <strong>Book Code/Attribute Category</strong> detail row of the column definition.</span></span></td>
+    </tr>
+    </tbody>
+    </table>
+
+### <a name="financial-dimensions-column"></a><span data-ttu-id="759bf-642">Veerg Finantsdimensioonid</span><span class="sxs-lookup"><span data-stu-id="759bf-642">Financial Dimensions column</span></span>
+
+<span data-ttu-id="759bf-643">Järgmised rea **Veeru definitsioon** definitsioonid rakenduvad veergudele, mille veeru tüüp on **FD** (finantsdimensioonide summad).</span><span class="sxs-lookup"><span data-stu-id="759bf-643">The following **Column Definition** row definitions apply to columns that have a column type of **FD** (Amounts from financial dimensions).</span></span>
+
+#### <a name="book-codeattribute-category-cell"></a><span data-ttu-id="759bf-644">Lahter Konteerimiskood/atribuudi kategooria</span><span class="sxs-lookup"><span data-stu-id="759bf-644">Book Code/Attribute Category cell</span></span>
+
+<span data-ttu-id="759bf-645">Lahter **Konteerimiskood/atribuudi kategooria** määratleb konteerimiskoodi veeru **FD** andmete puhul.</span><span class="sxs-lookup"><span data-stu-id="759bf-645">The **Book Code/Attribute Category** cell identifies the book code for the data in the **FD** column.</span></span> <span data-ttu-id="759bf-646">Veeru definitsioon võib sisaldada mitut tegelikku, eelarve ja statistilist veergu.</span><span class="sxs-lookup"><span data-stu-id="759bf-646">A column definition can include multiple actual, budget, and statistical columns.</span></span> <span data-ttu-id="759bf-647">Veeru definitsioon võib kuvada ka eri perioode, nagu praegune või aasta algusest praeguse kuupäevani, ja eri summasid.</span><span class="sxs-lookup"><span data-stu-id="759bf-647">A column definition can also display different periods, such as current or year-to-date, and different amounts.</span></span> <span data-ttu-id="759bf-648">Konteerimiskoodide loend kajastab teie ettevõtte andmetes loodud tegelikke, eelarve ja statistilisi (mitterahalisi) suvandeid.</span><span class="sxs-lookup"><span data-stu-id="759bf-648">The list of book codes reflects the actual, budget, and statistical (non-financial) options that have been established in your financial data.</span></span>
+
+#### <a name="fiscal-year-cell"></a><span data-ttu-id="759bf-649">Lahter Rahandusaasta</span><span class="sxs-lookup"><span data-stu-id="759bf-649">Fiscal Year cell</span></span>
+
+<span data-ttu-id="759bf-650">Lahter **Rahandusaasta** määratleb rahandusaasta, mis tuleks veergu kaasata.</span><span class="sxs-lookup"><span data-stu-id="759bf-650">The **Fiscal Year** cell identifies the fiscal year that the column should include.</span></span> <span data-ttu-id="759bf-651">Aasta võib olla aruande loomisel määratud baasperioodile vastav.</span><span class="sxs-lookup"><span data-stu-id="759bf-651">The year can be relative to the base year that is specified when the report is generated.</span></span> <span data-ttu-id="759bf-652">Saadaval on järgmised suvandid.</span><span class="sxs-lookup"><span data-stu-id="759bf-652">The following options are available.</span></span>
+
+| <span data-ttu-id="759bf-653">Suvand</span><span class="sxs-lookup"><span data-stu-id="759bf-653">Option</span></span>  | <span data-ttu-id="759bf-654">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="759bf-654">Description</span></span>                                                                                                                  |
+|---------|------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="759bf-655">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-655">BASE</span></span>    | <span data-ttu-id="759bf-656">Aruande ajal määratud aasta kasutamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-656">Use the base year that is specified at report time.</span></span>                                                                          |
+| <span data-ttu-id="759bf-657">BASE+\#</span><span class="sxs-lookup"><span data-stu-id="759bf-657">BASE+\#</span></span> | <span data-ttu-id="759bf-658">Aasta kasutamine, mis on \# aastat pärast baasaastat.</span><span class="sxs-lookup"><span data-stu-id="759bf-658">Use the year that is \# years after the base year.</span></span> <span data-ttu-id="759bf-659">Näiteks baasaastale järgneva kolmanda aasta kasutamiseks sisestage **BASE+3**.</span><span class="sxs-lookup"><span data-stu-id="759bf-659">For example, to use the third year after the base year, enter **BASE+3**.</span></span> |
+| <span data-ttu-id="759bf-660">BASE-\#</span><span class="sxs-lookup"><span data-stu-id="759bf-660">BASE-\#</span></span> | <span data-ttu-id="759bf-661">Aasta kasutamine, mis on \# aastat enne baasaastat.</span><span class="sxs-lookup"><span data-stu-id="759bf-661">Use the year that is \# years before the base year.</span></span> <span data-ttu-id="759bf-662">Näiteks eelmise aasta kasutamiseks sisestage **BASE-1**.</span><span class="sxs-lookup"><span data-stu-id="759bf-662">For example, to use the previous year, enter **BASE-1**.</span></span>                 |
+| \#      | <span data-ttu-id="759bf-663">Tegeliku rahandusaasta sisestamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-663">Enter the actual fiscal year.</span></span>                                                                                                |
+
+#### <a name="period-cell"></a><span data-ttu-id="759bf-664">Lahter Periood</span><span class="sxs-lookup"><span data-stu-id="759bf-664">Period cell</span></span>
+
+<span data-ttu-id="759bf-665">Lahter **Periood** määratleb rahandusperioodid, mis tuleks veergu kaasata.</span><span class="sxs-lookup"><span data-stu-id="759bf-665">The **Period** cell identifies the fiscal periods that the column should include.</span></span> <span data-ttu-id="759bf-666">Periood võib olla aruande loomisel määratud baasperioodile vastav.</span><span class="sxs-lookup"><span data-stu-id="759bf-666">The period can be relative to the base period that is specified when the report is generated.</span></span> <span data-ttu-id="759bf-667">Saadaval on järgmised suvandid.</span><span class="sxs-lookup"><span data-stu-id="759bf-667">The following options are available.</span></span>
+
+| <span data-ttu-id="759bf-668">Suvand</span><span class="sxs-lookup"><span data-stu-id="759bf-668">Option</span></span>          | <span data-ttu-id="759bf-669">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="759bf-669">Description</span></span> |
+|-----------------|-------------|
+| <span data-ttu-id="759bf-670">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-670">BASE</span></span>            | <span data-ttu-id="759bf-671">Baasperioodi kasutamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-671">Use the base period.</span></span> |
+| <span data-ttu-id="759bf-672">BASE+\#</span><span class="sxs-lookup"><span data-stu-id="759bf-672">BASE+\#</span></span>         | <span data-ttu-id="759bf-673">Perioodi kasutamine, mis on \# perioodi pärast baasperioodi.</span><span class="sxs-lookup"><span data-stu-id="759bf-673">Use the period that is \# periods after the base period.</span></span> <span data-ttu-id="759bf-674">Näiteks baasperioodile järgneva kolmanda perioodi kasutamiseks sisestage **BASE+3**.</span><span class="sxs-lookup"><span data-stu-id="759bf-674">For example, to use the third period after the base period, enter **BASE+3**.</span></span> |
+| <span data-ttu-id="759bf-675">BASE-\#</span><span class="sxs-lookup"><span data-stu-id="759bf-675">BASE-\#</span></span>         | <span data-ttu-id="759bf-676">Perioodi kasutamine, mis on \# perioodi enne baasperioodi.</span><span class="sxs-lookup"><span data-stu-id="759bf-676">Use the period that is \# periods before the base period.</span></span> <span data-ttu-id="759bf-677">Näiteks eelmise perioodi kasutamiseks sisestage **BASE-1**.</span><span class="sxs-lookup"><span data-stu-id="759bf-677">For example, to use the previous period, enter **BASE-1**.</span></span> |
+| <span data-ttu-id="759bf-678">BASE-\#:BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-678">BASE-\#:BASE</span></span>    | <span data-ttu-id="759bf-679">Mitme perioodi kasutamine alates mitmest perioodist enne alusperioodi kuni baasperioodini.</span><span class="sxs-lookup"><span data-stu-id="759bf-679">Use multiple periods, from several periods before the base period through the base period.</span></span> <span data-ttu-id="759bf-680">Näiteks kolme eelmise perioodi ja baasperioodi kasutamiseks sisestage **BASE-3:BASE**.</span><span class="sxs-lookup"><span data-stu-id="759bf-680">For example, to use the three previous periods and the base period, enter **BASE-3:BASE**.</span></span> |
+| <span data-ttu-id="759bf-681">BASE:BASE+\#</span><span class="sxs-lookup"><span data-stu-id="759bf-681">BASE:BASE+\#</span></span>    | <span data-ttu-id="759bf-682">Mitme perioodi kasutamine alates baasperioodist kuni mitme perioodini pärast baasperioodi.</span><span class="sxs-lookup"><span data-stu-id="759bf-682">Use multiple periods, from the base period through several periods after the base period.</span></span> <span data-ttu-id="759bf-683">Näiteks baasperioodi ja kahe järgmise perioodi kasutamiseks sisestage **BASE:BASE+2**.</span><span class="sxs-lookup"><span data-stu-id="759bf-683">For example, to use the base period and the following two periods, enter **BASE:BASE+2**.</span></span> |
+| <span data-ttu-id="759bf-684">BASE-\#:BASE+\#</span><span class="sxs-lookup"><span data-stu-id="759bf-684">BASE-\#:BASE+\#</span></span> | <span data-ttu-id="759bf-685">Mitme perioodi kasutamine alates mitmest perioodist enne baasperioodi kuni mitme perioodini pärast baasperioodi.</span><span class="sxs-lookup"><span data-stu-id="759bf-685">Use multiple periods, from several periods before the base period to several periods after the base period.</span></span> <span data-ttu-id="759bf-686">Näiteks kolme eelmise perioodi, baasperioodi ja kahe järgmise perioodi kasutamiseks sisestage **BASE-3:BASE+2**.</span><span class="sxs-lookup"><span data-stu-id="759bf-686">For example, to use the three previous periods, the base period, and the following two periods, enter **BASE-3:BASE+2**.</span></span> |
+| <span data-ttu-id="759bf-687">1:BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-687">1:BASE</span></span>          | <span data-ttu-id="759bf-688">Mitme perioodi kasutamine alates esimesest perioodist kuni baasperioodini.</span><span class="sxs-lookup"><span data-stu-id="759bf-688">Use multiple periods, from the first period through the base period.</span></span> |
+| \#              | <span data-ttu-id="759bf-689">Alati kindla perioodi koodi kasutamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-689">Always use a specific period number.</span></span> <span data-ttu-id="759bf-690">Selle suvandi kasutamine pole soovitatav, kuna see vähendab veeru definitsiooni paindlikkust.</span><span class="sxs-lookup"><span data-stu-id="759bf-690">We don't recommend that you use this option, because it reduces the flexibility of the column definition.</span></span> |
+| <span data-ttu-id="759bf-691">\#                                      : \#</span><span class="sxs-lookup"><span data-stu-id="759bf-691">\#:\#</span></span>           | <span data-ttu-id="759bf-692">Alati kindla perioodide vahemiku kasutamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-692">Always use a specific range of periods.</span></span> <span data-ttu-id="759bf-693">Selle suvandi kasutamine pole soovitatav, kuna see vähendab veeru definitsiooni paindlikkust.</span><span class="sxs-lookup"><span data-stu-id="759bf-693">We don't recommend that you use this option, because it reduces the flexibility of the column definition.</span></span> |
+
+<span data-ttu-id="759bf-694">Saate rahandusaasta piire ületada mis tahes perioodi spetsifikatsioonis ja kombineerida perioodide vahemiku aastaid.</span><span class="sxs-lookup"><span data-stu-id="759bf-694">You can go beyond fiscal year boundaries in any of the period specifications, and you can mix years in a range of periods.</span></span> <span data-ttu-id="759bf-695">Näiteks saate määrata perioodid kui **BASE-5** (viimase kuue perioodi tähistamiseks) ja käivitada aruande, mille baasperiood on 2.</span><span class="sxs-lookup"><span data-stu-id="759bf-695">For example, you specify the periods as **BASE-5** (to represent the past six periods) and run a report that has a base period of 2.</span></span> <span data-ttu-id="759bf-696">Sellisel juhul kuvatakse aruandes määratud rahandusaasta kahe esimese perioodi ja eelmise rahandusaasta nelja viimase perioodi andmed.</span><span class="sxs-lookup"><span data-stu-id="759bf-696">In this case, the report shows data for the first two periods of the specified fiscal year and the last four periods of the previous fiscal year.</span></span>
+
+### <a name="specify-the-periods-for-an-fd-column"></a><span data-ttu-id="759bf-697">Perioodide määratlemine veeru FD jaoks</span><span class="sxs-lookup"><span data-stu-id="759bf-697">Specify the periods for an FD column</span></span>
+
+1. <span data-ttu-id="759bf-698">Avage aruandekoosturis muudetav veerudefinitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-698">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-699">Topeltklõpsake veeru **FD** rea lahtrit **Periood** ja seejärel valige suvand loendist.</span><span class="sxs-lookup"><span data-stu-id="759bf-699">In an **FD** column, double-click the cell in the **Period** row, and then select an option in the list.</span></span>
+3. <span data-ttu-id="759bf-700">Lõpetage valem navigeerimispaani kohal valemiribal või lahtris **Periood**.</span><span class="sxs-lookup"><span data-stu-id="759bf-700">In the formula bar above the navigation pane, or in the **Period** cell, complete the formula.</span></span> <span data-ttu-id="759bf-701">Asendage numbrimärk (\#) sobiva väärtusega.</span><span class="sxs-lookup"><span data-stu-id="759bf-701">Replace any number sign (\#) with the appropriate value.</span></span>
+
+#### <a name="periods-covered-cell"></a><span data-ttu-id="759bf-702">Lahter Hõlmatud perioodid</span><span class="sxs-lookup"><span data-stu-id="759bf-702">Periods Covered cell</span></span>
+
+<span data-ttu-id="759bf-703">Lahter **Hõlmatud perioodid** määratleb summa, mis tuleks veerus kuvada.</span><span class="sxs-lookup"><span data-stu-id="759bf-703">The **Periods Covered** cell identifies the amount that the column should display.</span></span> <span data-ttu-id="759bf-704">See summa on seotud väärtusega veeru lahtrites **Rahandusaasta** ja **Periood**.</span><span class="sxs-lookup"><span data-stu-id="759bf-704">This amount is relative to the value in the **Fiscal Year** and **Period** cells for the column.</span></span> <span data-ttu-id="759bf-705">Saadaval on järgmised suvandid.</span><span class="sxs-lookup"><span data-stu-id="759bf-705">The following options are available.</span></span>
+
+| <span data-ttu-id="759bf-706">Suvand</span><span class="sxs-lookup"><span data-stu-id="759bf-706">Option</span></span>      | <span data-ttu-id="759bf-707">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="759bf-707">Description</span></span>                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| <span data-ttu-id="759bf-708">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-708">PERIODIC</span></span>    | <span data-ttu-id="759bf-709">Praeguse perioodi või perioodide vahemiku tegevuse summa kuvamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-709">Display the sum of the activity for the current period or range of periods.</span></span> |
+| <span data-ttu-id="759bf-710">PERIODIC/BB</span><span class="sxs-lookup"><span data-stu-id="759bf-710">PERIODIC/BB</span></span> | <span data-ttu-id="759bf-711">Praeguse perioodi või perioodide vahemiku algsaldo kuvamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-711">Display the beginning balance for the current period or range of periods.</span></span>   |
+| <span data-ttu-id="759bf-712">YTD</span><span class="sxs-lookup"><span data-stu-id="759bf-712">YTD</span></span>         | <span data-ttu-id="759bf-713">Kumulatiivse tegevuse summa kuvamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-713">Display the sum of the year-to-date activity.</span></span>                               |
+| <span data-ttu-id="759bf-714">YTD/BB</span><span class="sxs-lookup"><span data-stu-id="759bf-714">YTD/BB</span></span>      | <span data-ttu-id="759bf-715">Aasta algsaldo kuvamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-715">Display the beginning balance for the year.</span></span>                                 |
+
+### <a name="specify-the-periods-that-are-covered-for-an-fd-column"></a><span data-ttu-id="759bf-716">Veeru FD puhul hõlmatud perioodide määramine</span><span class="sxs-lookup"><span data-stu-id="759bf-716">Specify the periods that are covered for an FD column</span></span>
+
+1. <span data-ttu-id="759bf-717">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-717">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-718">Topeltklõpsake veeru **FD** rea lahtrit **Hõlmatud perioodid** ja valige suvand loendist.</span><span class="sxs-lookup"><span data-stu-id="759bf-718">In an **FD** column, double-click the cell in the **Periods Covered** row, and select an option in the list.</span></span>
+
+### <a name="attribute-filter-in-a-column-definition"></a><span data-ttu-id="759bf-719">Veeru definitsiooni atribuudi filter</span><span class="sxs-lookup"><span data-stu-id="759bf-719">Attribute filter in a column definition</span></span>
+
+<span data-ttu-id="759bf-720">Atribuudid on finantsandmete väärtused konto või kande täpsemaks määratlemiseks.</span><span class="sxs-lookup"><span data-stu-id="759bf-720">Attributes are financial data values that further define an account or transaction.</span></span> <span data-ttu-id="759bf-721">Konto atribuudid sisaldavad suvandeid **Vara**, **Kohustus**, **Tulu** ja **Kulu**.</span><span class="sxs-lookup"><span data-stu-id="759bf-721">The account attributes include **Asset**, **Liability**, **Revenue**, and **Expense**.</span></span> <span data-ttu-id="759bf-722">Kande atribuudid sisaldavad suvandeid **Kande kirjeldus** ja **Kande rakendamise kuupäev**.</span><span class="sxs-lookup"><span data-stu-id="759bf-722">The transaction attributes include **Transaction Description** and **Transaction Apply Date**.</span></span> <span data-ttu-id="759bf-723">Atribuudi tugi võib Microsoft Dynamicsi ERP süsteemide lõikes erineda.</span><span class="sxs-lookup"><span data-stu-id="759bf-723">Attribute support might differ between Microsoft Dynamics ERP systems.</span></span> <span data-ttu-id="759bf-724">Lahter **Atribuudi filter** piirab andmed veergudes **FD** atribuudikategooriate konkreetsetele väärtustele või vahemikele.</span><span class="sxs-lookup"><span data-stu-id="759bf-724">The **Attribute Filter** cell restricts the data in **FD** columns to specific values or ranges for attribute categories.</span></span> <span data-ttu-id="759bf-725">Kuigi seda funktsiooni saab kasutada koos veeruga **ATTR**, pole veerg **ATTR** nõutav.</span><span class="sxs-lookup"><span data-stu-id="759bf-725">Although this feature can be used together with an **ATTR** column, the **ATTR** column isn't required.</span></span> <span data-ttu-id="759bf-726">Veerus **FD** on aruande atribuudi filtrist kaasatavad kontod või kanded piiratud.</span><span class="sxs-lookup"><span data-stu-id="759bf-726">In an **FD** column, there is a limit on the accounts or transactions that the report will include from the attribute filter.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="759bf-727">Nägemaks, milliseid atribuute ERP-süsteem toetab, vaadake süsteemi integratsioonijuhendit.</span><span class="sxs-lookup"><span data-stu-id="759bf-727">To see which attributes your ERP system supports, see the integration guide for your system.</span></span>
+
+#### <a name="apply-an-attribute-filter-for-an-fd-column-on-a-report"></a><span data-ttu-id="759bf-728">Atribuudi filtri rakendamine aruande veerule FD</span><span class="sxs-lookup"><span data-stu-id="759bf-728">Apply an attribute filter for an FD column on a report</span></span>
+
+1. <span data-ttu-id="759bf-729">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-729">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-730">Topeltklõpsake veeru **FD** jaoks lahtrit **Atribuudifilter**.</span><span class="sxs-lookup"><span data-stu-id="759bf-730">Double-click the **Attribute Filter** cell for an **FD** column.</span></span>
+3. <span data-ttu-id="759bf-731">Topeltklõpsake dialoogiboksis **Atribuudifilter** mõnd veeru **Atribuut** lahtrit ning valige seejärel filtri tüüp.</span><span class="sxs-lookup"><span data-stu-id="759bf-731">In the **Attribute Filter** dialog box, double-click a cell in the **Attribute** column, and then select the filter type.</span></span>
+4. <span data-ttu-id="759bf-732">Tulemuste edasiseks piiramiseks sisestage vahemik veergudesse **Alates** ja **Kuni**.</span><span class="sxs-lookup"><span data-stu-id="759bf-732">To further limit the results, enter a range in the **From** and **To** columns.</span></span> <span data-ttu-id="759bf-733">Lahter **Alates** peab sisaldama väärtust.</span><span class="sxs-lookup"><span data-stu-id="759bf-733">The **From** cell must contain a value.</span></span>
+5. <span data-ttu-id="759bf-734">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="759bf-734">Click **OK**.</span></span>
+
+#### <a name="example-of-an-attribute-filter"></a><span data-ttu-id="759bf-735">Atribuudi filtri näide</span><span class="sxs-lookup"><span data-stu-id="759bf-735">Example of an attribute filter</span></span>
+
+<span data-ttu-id="759bf-736">Järgmises näites kuvatakse veeru kirjelduse osa, mille konto atribuut on real **Konteerimiskood/atribuudi kategooria**.</span><span class="sxs-lookup"><span data-stu-id="759bf-736">The following example shows part of a column description that has an account attribute in the **Book Code/Attribute Category** row.</span></span> <span data-ttu-id="759bf-737">Selle veeru atribuudi filter määrab aruandesse kaasatavate väärtuste vahemiku.</span><span class="sxs-lookup"><span data-stu-id="759bf-737">The attribute filter for this column specifies the range of values to include in the report.</span></span>
+
+|                              | <span data-ttu-id="759bf-738">A</span><span class="sxs-lookup"><span data-stu-id="759bf-738">A</span></span>    | <span data-ttu-id="759bf-739">B</span><span class="sxs-lookup"><span data-stu-id="759bf-739">B</span></span>                   |
+|------------------------------|------|---------------------|
+| <span data-ttu-id="759bf-740">Veeru tüüp</span><span class="sxs-lookup"><span data-stu-id="759bf-740">Column Type</span></span>                  | <span data-ttu-id="759bf-741">DESC</span><span class="sxs-lookup"><span data-stu-id="759bf-741">DESC</span></span> | <span data-ttu-id="759bf-742">FD</span><span class="sxs-lookup"><span data-stu-id="759bf-742">FD</span></span>                  |
+| <span data-ttu-id="759bf-743">Arvestuskood/atribuudikategooria</span><span class="sxs-lookup"><span data-stu-id="759bf-743">Book Code/Attribute Category</span></span> |      | <span data-ttu-id="759bf-744">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="759bf-744">ACTUAL</span></span>              |
+| <span data-ttu-id="759bf-745">Finantsaasta</span><span class="sxs-lookup"><span data-stu-id="759bf-745">Fiscal Year</span></span>                  |      | <span data-ttu-id="759bf-746">BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-746">BASE</span></span>                |
+| <span data-ttu-id="759bf-747">Periood</span><span class="sxs-lookup"><span data-stu-id="759bf-747">Period</span></span>                       |      | <span data-ttu-id="759bf-748">1:BASE</span><span class="sxs-lookup"><span data-stu-id="759bf-748">1:BASE</span></span>              |
+| <span data-ttu-id="759bf-749">Kaetud perioodid</span><span class="sxs-lookup"><span data-stu-id="759bf-749">Periods Covered</span></span>              |      | <span data-ttu-id="759bf-750">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="759bf-750">PERIODIC</span></span>            |
+| <span data-ttu-id="759bf-751">...</span><span class="sxs-lookup"><span data-stu-id="759bf-751">...</span></span>                          |      |                     |
+| <span data-ttu-id="759bf-752">Veeru laius</span><span class="sxs-lookup"><span data-stu-id="759bf-752">Column Width</span></span>                 | <span data-ttu-id="759bf-753">30</span><span class="sxs-lookup"><span data-stu-id="759bf-753">30</span></span>   |                     |
+| <span data-ttu-id="759bf-754">...</span><span class="sxs-lookup"><span data-stu-id="759bf-754">...</span></span>                          |      |                     |
+| <span data-ttu-id="759bf-755">Atribuudi filter</span><span class="sxs-lookup"><span data-stu-id="759bf-755">Attribute Filter</span></span>             |      | <span data-ttu-id="759bf-756">Viide=\[01:10\]</span><span class="sxs-lookup"><span data-stu-id="759bf-756">Reference=\[01:10\]</span></span> |
+
+### <a name="dimension-filter-in-a-column-definition"></a><span data-ttu-id="759bf-757">Veeru definitsiooni dimensioonifilter</span><span class="sxs-lookup"><span data-stu-id="759bf-757">Dimension filter in a column definition</span></span>
+
+<span data-ttu-id="759bf-758">Dimensiooni filtrit kasutatakse veeru **FD** piiramiseks teatud dimensiooniväärtusteni.</span><span class="sxs-lookup"><span data-stu-id="759bf-758">A dimension filter is used to restrict the **FD** column to specific dimension values.</span></span> <span data-ttu-id="759bf-759">Filter võib hõlmata üksikut dimensiooni, dimensioonide vahemikku või dimensioonide gruppi.</span><span class="sxs-lookup"><span data-stu-id="759bf-759">The filter can include a single dimension, a range of dimensions, or a group of dimensions.</span></span> <span data-ttu-id="759bf-760">Filter võib sisaldada ka dimensiooni väärtuste kogumit.</span><span class="sxs-lookup"><span data-stu-id="759bf-760">The filter can also include dimension value sets.</span></span> <span data-ttu-id="759bf-761">Kuna dimensiooniväärtused võivad olla erinevad, ei pea ..\\finantsdimensioonid\\dimensioonipõhine süsteem täpsele pikkusele vastama.</span><span class="sxs-lookup"><span data-stu-id="759bf-761">Because dimension values can vary, a ..\\financial-dimensions\\dimension-based system doesn't have to correspond to an exact length.</span></span> <span data-ttu-id="759bf-762">Filtrit rakendatakse olenemata sellest, kas aruanne sisaldab aruandluspuud või mitte.</span><span class="sxs-lookup"><span data-stu-id="759bf-762">The filter is applied, regardless of whether the report includes a reporting tree.</span></span> <span data-ttu-id="759bf-763">Saate kasutada metamärki (\* või ?) kõigis kohtades.</span><span class="sxs-lookup"><span data-stu-id="759bf-763">You can use a wildcard character (\* or ?) in any position.</span></span> <span data-ttu-id="759bf-764">Kui määrate mitu kontot, pange kontode vahele koma, nagu järgmises näites: +konto=\[1200\], +konto=\[1100\], osakond=\[01?\] Kõigi konkreetse konto osakondade saamiseks võite dimensioonifiltrist dimensiooni Osakond välja jätta.</span><span class="sxs-lookup"><span data-stu-id="759bf-764">When you specify multiple accounts, put a comma between accounts, as in the following example: +Account=\[1200\], +Account=\[1100\], Department=\[01?\] To receive all departments for a specific account, you can exclude the Department dimension from the dimension filter.</span></span> <span data-ttu-id="759bf-765">Näiteks käsitletakse mõlemat järgmist dimensioonifiltrit samamoodi.</span><span class="sxs-lookup"><span data-stu-id="759bf-765">For example, both of the following dimension filters are handled in the same way:</span></span>
+
+- <span data-ttu-id="759bf-766">+Konto=\[1100\],Osakond</span><span class="sxs-lookup"><span data-stu-id="759bf-766">+Account=\[1100\],Department</span></span>
+- <span data-ttu-id="759bf-767">+Konto=\[1100\]</span><span class="sxs-lookup"><span data-stu-id="759bf-767">+Account=\[1100\]</span></span>
+
+<span data-ttu-id="759bf-768">Täpseks vastendamiseks saate kasutada ka mis tahes kirjamärkide kombinatsiooni ja määratleda osalised dimensioonid.</span><span class="sxs-lookup"><span data-stu-id="759bf-768">You can also use any combination of alphanumeric characters for exact matching, and you can define partial dimensions.</span></span> <span data-ttu-id="759bf-769">Näiteks **Asukoht = \[10\*\]** sisaldab kõiki asukoha dimensiooniväärtusi, mis algavad numbriga 10.</span><span class="sxs-lookup"><span data-stu-id="759bf-769">For example, **Location = \[10\*\]** includes all location dimension values that begin with 10.</span></span>
+
+#### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a><span data-ttu-id="759bf-770">Dimensioonifiltri rakendamine aruande veerule</span><span class="sxs-lookup"><span data-stu-id="759bf-770">Apply a dimension filter for a column on a report</span></span>
+
+1. <span data-ttu-id="759bf-771">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-771">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-772">Topeltklõpsake lahtrit **Dimensioonifilter** veeru **FD** puhul.</span><span class="sxs-lookup"><span data-stu-id="759bf-772">Double-click the **Dimension Filter** cell for an **FD** column.</span></span>
+3. <span data-ttu-id="759bf-773">Sisestage dialoogiboksi **Dimensioonid** rakendatavad filtrid.</span><span class="sxs-lookup"><span data-stu-id="759bf-773">In the **Dimensions** dialog box, enter the filters to apply.</span></span>
+4. <span data-ttu-id="759bf-774">Klõpsake nupul **OK**.</span><span class="sxs-lookup"><span data-stu-id="759bf-774">Click **OK**.</span></span>
+
+### <a name="format-a-multiple-currency-report-in-a-column-definition"></a><span data-ttu-id="759bf-775">Mitme valuutaga aruande vormindamine veeru definitsioonis</span><span class="sxs-lookup"><span data-stu-id="759bf-775">Format a multiple-currency report in a column definition</span></span>
+
+<span data-ttu-id="759bf-776">Mitme valuutaga aruanne võib kuvada summasid pearaamatu arvestusvaluutas, pearaamatu aruandlusvaluutas, algses kandevaluutas või teisendatud aruandlusvaluutas.</span><span class="sxs-lookup"><span data-stu-id="759bf-776">A multiple-currency report can display amounts in the ledger's accounting currency, the ledger's reporting, the originating transaction currency, or the translated reporting currency.</span></span> <span data-ttu-id="759bf-777">Ettevõtte arvestusvaluuta on määratud pearaamatu seadistuses.</span><span class="sxs-lookup"><span data-stu-id="759bf-777">A company's accounting currency is defined in the Ledgers setup.</span></span> <span data-ttu-id="759bf-778">Ärge ajage seda sätet segamini operatsioonisüsteemi piirkonnavalikute sättega, milles saate konfigureerida aruannetest kasutatavaid vaikevaluutatähiseid.</span><span class="sxs-lookup"><span data-stu-id="759bf-778">Don't confuse this setting with the operating system's regional options setting, where you can configure the default currency symbols that are used on reports.</span></span> <span data-ttu-id="759bf-779">Veeru definitsioonis on saadaval järgmised valuutaga seotud lahtrid.</span><span class="sxs-lookup"><span data-stu-id="759bf-779">The following currency-related cells are available in the column definition:</span></span>
+
+- <span data-ttu-id="759bf-780">**Valuuta kuvamine** – saate määrata kannetes kuvatava valuuta tüübi (arvestusvaluuta, aruandlusvaluuta, kandevaluuta või teisendatud aruandlusvaluuta).</span><span class="sxs-lookup"><span data-stu-id="759bf-780">**Currency Display** – Specify the type of currency (accounting, reporting, transaction, or translated reporting) that the transactions are displayed in.</span></span> <span data-ttu-id="759bf-781">Aruandlusvaluutaks teisendamise funktsiooni nimetatakse mõnikord valuuta teisendamiseks.</span><span class="sxs-lookup"><span data-stu-id="759bf-781">Translated to a reporting currency functionality is sometimes referred to as currency translation.</span></span> <span data-ttu-id="759bf-782">Valuuta teisendamine on võimalus esitada pearaamatu summasid valuutas, mis ei ole ettevõtte tegevus- või aruandlusvaluuta või sisestatud kande valuuta.</span><span class="sxs-lookup"><span data-stu-id="759bf-782">Currency translation is the ability to report general ledger amounts in a currency that might not be the functional or reporting currency of the company or the currency that the transaction was entered in.</span></span>
+- <span data-ttu-id="759bf-783">**Valuutafilter** – valuuta filtri määramine.</span><span class="sxs-lookup"><span data-stu-id="759bf-783">**Currency Filter** – Specify a currency filter.</span></span> <span data-ttu-id="759bf-784">Aruandes kuvatakse ainult valitud valuutas sisestatud kanded.</span><span class="sxs-lookup"><span data-stu-id="759bf-784">Only transactions that are entered in the selected currency are displayed on the report.</span></span>
+
+> 
+<span data-ttu-id="759bf-785">Ettevõtte arvestusvaluuta määramiseks toimige allpool kirjeldatud viisil.</span><span class="sxs-lookup"><span data-stu-id="759bf-785">To determine a company's accounting currency, follow these steps.</span></span>
+
+1. <span data-ttu-id="759bf-786">Klõpsake aruandekoosturis menüü **Ettevõte** suvandit **Ettevõtted**.</span><span class="sxs-lookup"><span data-stu-id="759bf-786">In Report Designer, on the **Company** menu, click **Companies**.</span></span>
+2. <span data-ttu-id="759bf-787">Valige ettevõte dialoogiboksist **Ettevõtted** ja seejärel klõpsake käsku **Kuva**..</span><span class="sxs-lookup"><span data-stu-id="759bf-787">In the **Companies** dialog box, select a company, and then click **View**.</span></span>
+3. <span data-ttu-id="759bf-788">Dialoogiboksi **Ettevõtte kuvamine** suvandi **Piirkonnavalikud** all saate vaadata valitud ettevõtte puhul määratud valuutat.</span><span class="sxs-lookup"><span data-stu-id="759bf-788">In the **View Company** dialog box, under **Regional options**, you can view the currency that is defined for the selected company.</span></span>
+
+#### <a name="specify-the-currency-on-a-multiple-currency-report"></a><span data-ttu-id="759bf-789">Valuuta määramine mitme valuutaga aruandel</span><span class="sxs-lookup"><span data-stu-id="759bf-789">Specify the currency on a multiple-currency report</span></span>
+
+1. <span data-ttu-id="759bf-790">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-790">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-791">Topeltklõpsake asjakohases veerus **FD** olevat lahtrit **Valuutakuva** ja seejärel valige valuutateabe kuvamise suvand: **Pearaamatu arvestusvaluuta**, **Pearaamatu aruandlusvaluuta**, kandevaluuta või muuks aruandlusvaluutaks teisendamine.</span><span class="sxs-lookup"><span data-stu-id="759bf-791">Double-click the **Currency Display** cell in the appropriate **FD** column, and then select the option for displaying currency information: **Ledger accounting currency**, **Ledger reporting**, transaction currency, or select to translate to a different reporting currency.</span></span>
+3. <span data-ttu-id="759bf-792">Topeltklõpsake lahtrit **Valuutafilter** asjakohases veerus **FD** ja seejärel valige loendist sobiv valuutakood.</span><span class="sxs-lookup"><span data-stu-id="759bf-792">Double-click the **Currency Filter** cell in the appropriate **FD** column, and then select the appropriate currency code in the list.</span></span> <span data-ttu-id="759bf-793">Aruandes kuvatakse ainult selles valuutas sisestatud kanded.</span><span class="sxs-lookup"><span data-stu-id="759bf-793">Only transactions that are entered in this currency are displayed on the report.</span></span>
+
+
+### <a name="example-for-currency-display-and-currency-filter-cells"></a><span data-ttu-id="759bf-794">Lahtrite Kuva valuuta ja Valuutafilter näide</span><span class="sxs-lookup"><span data-stu-id="759bf-794">Example for Currency Display and Currency Filter cells</span></span>
+
+<span data-ttu-id="759bf-795">Phyllis tegi oma veeru definitsioonis järgmised valuuta valikud.</span><span class="sxs-lookup"><span data-stu-id="759bf-795">Phyllis has made the following currency selections in her column definition:</span></span>
+
+- <span data-ttu-id="759bf-796">**Valuutafilter:** jeen</span><span class="sxs-lookup"><span data-stu-id="759bf-796">**Currency Filter:** Yen</span></span>
+- <span data-ttu-id="759bf-797">**Valuutakuva:** pearaamatu arvestusvaluuta (USA dollarid)</span><span class="sxs-lookup"><span data-stu-id="759bf-797">**Currency Display:** Accounting currency from Ledger (U.S. dollars)</span></span>
+
+<span data-ttu-id="759bf-798">Phyllise valitud valuutafiltri tõttu sisaldab aruanne ainult kandeid, mis sisestati Jaapani jeenides (JPY).</span><span class="sxs-lookup"><span data-stu-id="759bf-798">Because of the currency filter that Phyllis selected, the report includes only transactions that were entered in Japanese yen (JPY).</span></span> <span data-ttu-id="759bf-799">Tema valitud valuutakuva tõttu kuvatakse need kanded aruandes arvestusvaluutas, USA dollarites (USD).</span><span class="sxs-lookup"><span data-stu-id="759bf-799">Because of the currency display that she selected, the report displays those transactions in the accounting currency, U.S. dollars (USD).</span></span>
+
+#### <a name="currency-filter-and-currency-display-combinations"></a><span data-ttu-id="759bf-800">Kombinatsioonid Valuutafilter ja Valuuta kuva</span><span class="sxs-lookup"><span data-stu-id="759bf-800">Currency Filter and Currency Display combinations</span></span>
+
+<span data-ttu-id="759bf-801">Järgmises tabelis kuvatakse aruande tulemused, mis võivad ilmneda suvandite eri kombinatsioonide puhul lahtrites **Valuuta kuva** ja **Valuutafilter** Phyllise tehtud valikute tõttu.</span><span class="sxs-lookup"><span data-stu-id="759bf-801">The following table shows the report results that can occur for various combinations of the options in **Currency Display** and **Currency Filter** cells because of the selections that Phyllis made.</span></span> <span data-ttu-id="759bf-802">Ametlik valuuta on USD.</span><span class="sxs-lookup"><span data-stu-id="759bf-802">The functional currency is USD.</span></span>
+
+
+| <span data-ttu-id="759bf-803">Lahter Valuuta kuva</span><span class="sxs-lookup"><span data-stu-id="759bf-803">Currency Display cell</span></span>                        | <span data-ttu-id="759bf-804">Lahter Valuutafilter</span><span class="sxs-lookup"><span data-stu-id="759bf-804">Currency Filter cell</span></span> | <span data-ttu-id="759bf-805">Aruande tulemus</span><span class="sxs-lookup"><span data-stu-id="759bf-805">Report result</span></span> |
+|----------------------------------------------|----------------------|---------------|
+| <span data-ttu-id="759bf-806">Kande valuuta</span><span class="sxs-lookup"><span data-stu-id="759bf-806">Transaction currency</span></span>                 | <span data-ttu-id="759bf-807">**YEN**</span><span class="sxs-lookup"><span data-stu-id="759bf-807">**YEN**</span></span>              | <span data-ttu-id="759bf-808">**Y6,000** – tulemus kuvab ainult valuutas JPY sisestatud kanded.</span><span class="sxs-lookup"><span data-stu-id="759bf-808">**Y6,000** – The result shows only transactions that were entered in JPY.</span></span> |
+| <span data-ttu-id="759bf-809">Pearaamatu arvestusvaluuta</span><span class="sxs-lookup"><span data-stu-id="759bf-809">Accounting currency from Ledger</span></span> | <span data-ttu-id="759bf-810">**YEN**</span><span class="sxs-lookup"><span data-stu-id="759bf-810">**YEN**</span></span>              |<span data-ttu-id="759bf-811">**$60** – tulemus kuvab ainult need kanded, mis sisestati valuutas JPY ja kuvab need kanded valuutas USD.</span><span class="sxs-lookup"><span data-stu-id="759bf-811">**$60** – The result shows only transactions that were entered in JPY and displays those transactions in USD.</span></span><p><span data-ttu-id="759bf-812"><strong>Märkus.</strong> Vahetuskurss on umbes 100 JPY USD kohta.</span><span class="sxs-lookup"><span data-stu-id="759bf-812"><strong>Note:</strong> The conversion rate is approximately 100 JPY per USD.</span></span></p> |
+| <span data-ttu-id="759bf-813">Pearaamatu arvestusvaluuta</span><span class="sxs-lookup"><span data-stu-id="759bf-813">Accounting currency from Ledger</span></span> | <span data-ttu-id="759bf-814">Tühi</span><span class="sxs-lookup"><span data-stu-id="759bf-814">Empty</span></span>                | <span data-ttu-id="759bf-815">**2310 $** – kõik andmed kuvatakse pearaamatus määratud arvestusvaluutas.</span><span class="sxs-lookup"><span data-stu-id="759bf-815">**$2,310** – The result shows all data in the accounting currency that is specified in the Ledger.</span></span><p><span data-ttu-id="759bf-816"><strong>Märkus.</strong> See summa on kõigi kannete summa arvestusvaluutas.</span><span class="sxs-lookup"><span data-stu-id="759bf-816"><strong>Note:</strong> This amount is the sum of all transactions in accounting currency.</span></span></p> |
+| <span data-ttu-id="759bf-817">Kande valuuta</span><span class="sxs-lookup"><span data-stu-id="759bf-817">Transaction currency</span></span>                 | <span data-ttu-id="759bf-818">Tühi</span><span class="sxs-lookup"><span data-stu-id="759bf-818">Empty</span></span>                | <span data-ttu-id="759bf-819">**$2,250** – tulemus kuvab kõik summad valuutas, milles kanne tehti.</span><span class="sxs-lookup"><span data-stu-id="759bf-819">**$2,250** – The result shows all amounts in the currency that the transaction was performed in.</span></span> <span data-ttu-id="759bf-820">See tähendab, et kogusummaks liidetakse kokku eri valuutade summad.</span><span class="sxs-lookup"><span data-stu-id="759bf-820">This means the total is adding together amounts from different currencies.</span></span> |
+
+### <a name="calculation-column-in-a-column-definition"></a><span data-ttu-id="759bf-821">Veeru definitsiooni arvutuse veerg</span><span class="sxs-lookup"><span data-stu-id="759bf-821">Calculation column in a column definition</span></span>
+
+<span data-ttu-id="759bf-822">Veeru definitsiooni veeru tüüp **CALC** toetab keerukaid arvutusi lahtris **Valem** ning võib sisaldada tehtemärke **+**, **-**, **\*** ja **/**  ning ka lauseid **IF/THEN/ELSE**.</span><span class="sxs-lookup"><span data-stu-id="759bf-822">A column type of **CALC** in a column definition supports complex calculations in the **Formula** cell, and can include the **+**, **-**, **\***, and **/** operators, and also **IF/THEN/ELSE** statements.</span></span> <span data-ttu-id="759bf-823">Arvutuse veerg võib viidata ka mis tahes muule veerule, sh järgnevatele veergudele.</span><span class="sxs-lookup"><span data-stu-id="759bf-823">A calculation column can also refer to any other column, even subsequent columns.</span></span> <span data-ttu-id="759bf-824">Lisaks võib arvutuse veerg veeru päiste toetamiseks sisaldada ka rahandusaastat ja perioodi.</span><span class="sxs-lookup"><span data-stu-id="759bf-824">Additionally, a calculation column can also include the fiscal year and period to support headers for the column.</span></span> <span data-ttu-id="759bf-825">Arvutusvalem võib olla kuni 1024 märki pikk.</span><span class="sxs-lookup"><span data-stu-id="759bf-825">The calculation formula can be up to 1,024 characters long.</span></span> <span data-ttu-id="759bf-826">Arvutustulemuse väljendamiseks protsendina kasutage kindla vormingu alistamist.</span><span class="sxs-lookup"><span data-stu-id="759bf-826">To express the calculation result as a percentage, use a special format override.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="759bf-827">Arvutusvalemite tulemused ei hõlma mitteprinditavate veergude vahemikes olevaid väärtusi.</span><span class="sxs-lookup"><span data-stu-id="759bf-827">The results of calculation formulas don't include the values in non-printing column ranges.</span></span> <span data-ttu-id="759bf-828">Näiteks **A:D** prindib **0** (null), samas kui **A+B+C** arvutab mitteprinditavate väärtuste puhul väärtuse.</span><span class="sxs-lookup"><span data-stu-id="759bf-828">For example, **A:D** prints **0** (zero), whereas **A+B+C** for non-printing values calculates the value.</span></span>
+
+#### <a name="operators-in-calculation-columns"></a><span data-ttu-id="759bf-829">Arvutusveergude tehtemärgid</span><span class="sxs-lookup"><span data-stu-id="759bf-829">Operators in calculation columns</span></span>
+
+<span data-ttu-id="759bf-830">Veergude liitmiseks, lahutamiseks, korrutamiseks või jagamiseks sisestage veeru tähed arvutamise järjekorras ja kasutage seejärel iga veeru tähe eraldamiseks asjakohast tehtemärki.</span><span class="sxs-lookup"><span data-stu-id="759bf-830">To add, subtract, multiply, or divide columns, enter the column letters in the order of computation, and then use the appropriate operator to separate each column letter.</span></span> <span data-ttu-id="759bf-831">Järgmises tabelis selgitatakse tehtemärke, mida saate arvutusveerus kasutada.</span><span class="sxs-lookup"><span data-stu-id="759bf-831">The following table explains the operators that you can use in a calculation column.</span></span>
+
+| <span data-ttu-id="759bf-832">Operaator</span><span class="sxs-lookup"><span data-stu-id="759bf-832">Operator</span></span> | <span data-ttu-id="759bf-833">Arvutuse näide</span><span class="sxs-lookup"><span data-stu-id="759bf-833">Example calculation</span></span> | <span data-ttu-id="759bf-834">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="759bf-834">Description</span></span> |
+|----------|---------------------|-------------|
+| +        | <span data-ttu-id="759bf-835">A+C</span><span class="sxs-lookup"><span data-stu-id="759bf-835">A+C</span></span>                 | <span data-ttu-id="759bf-836">Veeru A summa liitmine veeru C summale.</span><span class="sxs-lookup"><span data-stu-id="759bf-836">Add the amount in column A to the amount in column C.</span></span> |
+| <span data-ttu-id="759bf-837">:</span><span class="sxs-lookup"><span data-stu-id="759bf-837">:</span></span>        | <span data-ttu-id="759bf-838">A:C A:C-D</span><span class="sxs-lookup"><span data-stu-id="759bf-838">A:C A:C-D</span></span>           | <span data-ttu-id="759bf-839">Järjestikuste veergude vahemiku liitmine.</span><span class="sxs-lookup"><span data-stu-id="759bf-839">Add a range of consecutive columns.</span></span> <span data-ttu-id="759bf-840">Näiteks valem **A:C** liidab veergude A kuni C summad ja valem **A:C-D** liidab veergude A kuni C summad ja lahutab seejärel veeru D summa.</span><span class="sxs-lookup"><span data-stu-id="759bf-840">For example, the formula **A:C** adds the sums of columns A through C, and the formula **A:C-D** adds the sums of columns A through C, and then subtracts the amount in column D.</span></span> |
+| -        | <span data-ttu-id="759bf-841">A-C</span><span class="sxs-lookup"><span data-stu-id="759bf-841">A-C</span></span>                 | <span data-ttu-id="759bf-842">Lahutage veerus A olev summa veerus C olevast summast.</span><span class="sxs-lookup"><span data-stu-id="759bf-842">Subtract the amount in column A from the amount in column C.</span></span><p><span data-ttu-id="759bf-843"><strong>Märkus.</strong> Veerus märkide ümberpööramiseks võite kasutada miinusmärki (-).</span><span class="sxs-lookup"><span data-stu-id="759bf-843"><strong>Note:</strong> You can also use the minus sign (-) to reverse the signs in a column.</span></span> <span data-ttu-id="759bf-844">Näiteks kasutage valemit <strong>-A+B</strong> veeru A summa pöördmärgi liitmiseks veeru B summale.</span><span class="sxs-lookup"><span data-stu-id="759bf-844">For example, use <strong>-A+B</strong> to add the reverse of the amount in column A to the amount in column B.</span></span></p> |
+| \*       | <span data-ttu-id="759bf-845">A\*C</span><span class="sxs-lookup"><span data-stu-id="759bf-845">A\*C</span></span>                | <span data-ttu-id="759bf-846">Veeru A summa korrutamine veeru C summaga.</span><span class="sxs-lookup"><span data-stu-id="759bf-846">Multiply the amount in column A by the amount in column C.</span></span> |
+| /        | <span data-ttu-id="759bf-847">A/C</span><span class="sxs-lookup"><span data-stu-id="759bf-847">A/C</span></span>                 | <span data-ttu-id="759bf-848">Veeru A summa jagamine veeru C summaga.</span><span class="sxs-lookup"><span data-stu-id="759bf-848">Divide the amount in column A by the amount in column C.</span></span> |
+
+#### <a name="use-a-calculation-formula-in-a-column-definition"></a><span data-ttu-id="759bf-849">Arvutusvalemi kasutamine veeru definitsioonis</span><span class="sxs-lookup"><span data-stu-id="759bf-849">Use a calculation formula in a column definition</span></span>
+
+1. <span data-ttu-id="759bf-850">Avage aruande kujundajas muudetav veeru definitsioon.</span><span class="sxs-lookup"><span data-stu-id="759bf-850">In Report Designer, open the column definition to modify.</span></span>
+2. <span data-ttu-id="759bf-851">Sisestage valem asjakohase veeru **CALC** lahtrisse **Valem**.</span><span class="sxs-lookup"><span data-stu-id="759bf-851">In the appropriate **CALC** column, enter a formula in the **Formula** cell.</span></span>
+
+#### <a name="complex-calculations"></a><span data-ttu-id="759bf-852">Keerukad arvutused</span><span class="sxs-lookup"><span data-stu-id="759bf-852">Complex calculations</span></span>
+
+<span data-ttu-id="759bf-853">Keerukas arvutus võib sisaldada lahtri viidete, tehtemärkide, väärtuste ja pesastatud sulgude tasemete mis tahes kombinatsioone.</span><span class="sxs-lookup"><span data-stu-id="759bf-853">A complex calculation can contain any combination of cell references, operators, values, and levels of nested parentheses.</span></span> <span data-ttu-id="759bf-854">Näiteks kasutage veergude A ja B keskmise arvutamiseks arvutusvalemit **((A+B)/2)**.</span><span class="sxs-lookup"><span data-stu-id="759bf-854">For example, to compute the average of columns A and B, use the calculation formula **((A+B)/2)**.</span></span>
+
+#### <a name="specify-report-cells-in-a-column-calculation"></a><span data-ttu-id="759bf-855">Aruande lahtrite määramine veeru arvutuses</span><span class="sxs-lookup"><span data-stu-id="759bf-855">Specify report cells in a column calculation</span></span>
+
+<span data-ttu-id="759bf-856">Saate viidata kindlale aruande lahtrile, sisestades veeru tähe ja rea koodi.</span><span class="sxs-lookup"><span data-stu-id="759bf-856">You can refer to a specific report cell by entering a column letter and a row code.</span></span> <span data-ttu-id="759bf-857">Näiteks **B.100** viitab rea koodile 100 veerus B. Saate kogu veeru jagada kindla aruande samas veerus oleva lahtri summaga.</span><span class="sxs-lookup"><span data-stu-id="759bf-857">For example, **B.100** refers to row code 100 in column B. You can divide a whole column by a specific report cell amount that is in the same column.</span></span> <span data-ttu-id="759bf-858">Näiteks arvutus **B/B.100** tähendab, et veeru B summa tuleks jagada veeru B rea koodi 100 väärtusega. Kui arvutus viitab veerule, mis sõltub teisest veerust, lahendatakse esmalt sõltuv veerg.</span><span class="sxs-lookup"><span data-stu-id="759bf-858">For example, the calculation **B/B.100** means that the amount in column B should be divided by the value in row code 100 in column B. If the calculation refers to a column that depends on another column, the dependent column is resolved first.</span></span> <span data-ttu-id="759bf-859">Veeru viitamisel teisele veerule, mis viitab taas esimesele veerule põhjustate ringviite tõrke.</span><span class="sxs-lookup"><span data-stu-id="759bf-859">If you refer a column to another column that refers back to the first column, you will cause a circular reference error.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="759bf-860">Arvutus võib vale olla, kui aruande arvutamise prioriteeti muudate.</span><span class="sxs-lookup"><span data-stu-id="759bf-860">The calculation might be incorrect if you change the calculation priority for the report.</span></span> <span data-ttu-id="759bf-861">Saate seadistada arvutamise prioriteedi aruande definitsiooni vahekaardil **Sätted**.</span><span class="sxs-lookup"><span data-stu-id="759bf-861">You can set the calculation priority on the **Settings** tab of the report definition.</span></span>
+
+#### <a name="multiply-or-divide-a-column-by-a-base-row"></a><span data-ttu-id="759bf-862">Veeru korrutamine või jagamine baasreaga</span><span class="sxs-lookup"><span data-stu-id="759bf-862">Multiply or divide a column by a base row</span></span>
+
+<span data-ttu-id="759bf-863">Saate luua veeru, mis kuvaks määratud veerus kõik väärtused baasarvu protsendina.</span><span class="sxs-lookup"><span data-stu-id="759bf-863">You can create a column that displays all the values in a specified column as a percentage of a base number.</span></span> <span data-ttu-id="759bf-864">Seega saate kuvada ridadevahelised seosed, nagu müügi rea protsendi või kogukulude rea protsendi.</span><span class="sxs-lookup"><span data-stu-id="759bf-864">Therefore, you can show relationships between rows, such as a percentage of a sales row or a percentage of a total expenses row.</span></span> <span data-ttu-id="759bf-865">Iga konkreetse veeru rea korrutamiseks või jagamiseks baasreaga sisestage arvutamisel kasutatav veerg ja seejärel sisestage **\*BASEROW** või **/BASEROW**.</span><span class="sxs-lookup"><span data-stu-id="759bf-865">To multiply or divide each row in a specific column by a base row, enter the column to use in the calculation, and then enter **\*BASEROW** or **/BASEROW**.</span></span> <span data-ttu-id="759bf-866">Näiteks sisestage **C\*BASEROW** või **C/BASEROW**.</span><span class="sxs-lookup"><span data-stu-id="759bf-866">For example, enter **C\*BASEROW** or **C/BASEROW**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="759bf-867">Kui kasutate veerudefinitsioonis baasrea arvutust, veenduge, et kõik selle veerudefinitsiooniga kasutatavad readefinitsioonid sisaldavad arvutamiseks vähemalt üht baasrida.</span><span class="sxs-lookup"><span data-stu-id="759bf-867">When you use a base row calculation in a column definition, make sure that each row definition that is used with this column definition contains at least one base row for calculations.</span></span>
+
+#### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a><span data-ttu-id="759bf-868">Veeru summa jagamine perioodide arvuga</span><span class="sxs-lookup"><span data-stu-id="759bf-868">Divide the amount in a column by the number of periods</span></span>
+
+<span data-ttu-id="759bf-869">Saate veeru summa jagada määratud perioodide arvuga.</span><span class="sxs-lookup"><span data-stu-id="759bf-869">You can divide the amount in a column by a specified number of periods.</span></span> <span data-ttu-id="759bf-870">Näiteks valem **B/Periods** jagab veeru B väärtuse veerus B olevate perioodide arvuga. Kui arvutus hõlmab mitut veergu, määrake arvutamisel kasutatavate perioodide arv.</span><span class="sxs-lookup"><span data-stu-id="759bf-870">For example, the formula **B/Periods** divides the value in column B by the number of periods in column B. If the calculation spans multiple columns, specify the number of periods to use in the calculation.</span></span> <span data-ttu-id="759bf-871">Näiteks valem **(B+C)/Periods** liidab veeru B ja veeru C summad ja jagab seejärel tulemuse perioodi väärtusega.</span><span class="sxs-lookup"><span data-stu-id="759bf-871">For example, the formula **(B+C)/Periods** adds the amounts in column B and column C, and then divides the result by the period value.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="759bf-872">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="759bf-872">Additional resources</span></span>
+
+[<span data-ttu-id="759bf-873">Readefinitsioonid finantsaruandluses</span><span class="sxs-lookup"><span data-stu-id="759bf-873">Row definitions in financial reporting</span></span>](row-definitions-financial-reporting.md)
+
+[<span data-ttu-id="759bf-874">Täpsemad vormingusuvandid finantsaruandluses</span><span class="sxs-lookup"><span data-stu-id="759bf-874">Advanced formatting options in financial reporting</span></span>](advanced-formatting-options-financial-reporting.md)
