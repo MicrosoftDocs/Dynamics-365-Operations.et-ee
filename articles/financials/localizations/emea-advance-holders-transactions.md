@@ -1,177 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="emea-advance-holders-transactions.md" target-language="et-EE">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>emea-advance-holders-transactions.04f341.f71df6fff803855cf08ca0672604ae97efe3f40e.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>f71df6fff803855cf08ca0672604ae97efe3f40e</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-advance-holders-transactions.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Advance holder transactions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avansisaaja kanded</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Learn how to work with advance holder transactions in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lugege, kuidas töötada avansisaaja kannetega rakenduses Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Advance holder transactions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avansisaaja kanded</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Learn how to work with advance holder transactions in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lugege, kuidas töötada avansisaaja kannetega rakenduses Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Transactions for these workers who are advance holders can be posted by using advance holder accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avansisaajast töötajate kandeid saab sisestada avansisaaja kontode abil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>The worker ID that is specified for each advance holder can be used to track all advance holder transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Igale avansisaajale määratud töötaja ID alusel saab jälgida kõiki avansisaajate kandeid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>This number is retrieved as an account number for advance holder transactions in the <bpt id="p1">**</bpt>General journals<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Advance holder transactions<ept id="p2">**</ept> pages.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See number tuuakse avansisaaja kannete jaoks kontonumbrina lehtedel <bpt id="p1">**</bpt>Päevaraamatud<ept id="p1">**</ept> ja <bpt id="p2">**</bpt>Avansisaajate kanded<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Create and post a purchase order with advance holder details</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostutellimuse loomine ja sisestamine avansisaaja andmetega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>For more general information about purchase orders, see <bpt id="p1">[</bpt>Purchase order overview<ept id="p1">](../../supply-chain/procurement/purchase-order-overview.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Täpsemat teavet ostutellimuste kohta vt teemast <bpt id="p1">[</bpt>Ostutellimuse ülevaade<ept id="p1">](../../supply-chain/procurement/purchase-order-overview.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>If a vendor invoice is created and posted with advance holder details, the advance holder’s balances will be posted to the employee balance account instead of the vendor balance account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankija arve loomisel ja sisestamisel avansisaaja andmetega sisestatakse avansisaaja saldod töövõtja saldokontole, mitte hankija saldokontole.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>To add advance holder details to a purchase order, do the following:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostutellimusele avansisaaja andmete lisamiseks tehke järgmist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>In the <bpt id="p1">**</bpt>Terms of payment<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Price and discount<ept id="p2">**</ept> section, select the payment term.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige jaotises <bpt id="p2">**</bpt>Hind ja allahindlus<ept id="p2">**</ept> väljal <bpt id="p1">**</bpt>Maksetingimused<ept id="p1">**</ept> maksetingimus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Select a payment term that has the <bpt id="p1">**</bpt>From advance holder<ept id="p1">**</ept> option selected on the <bpt id="p2">**</bpt>Terms of payment<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige maksetingimus, millel on suvand <bpt id="p1">**</bpt>Avansisaajalt<ept id="p1">**</ept> valitud lehel <bpt id="p2">**</bpt>Maksetingimused<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>For more information about setting up terms of payment for advance holders, see <bpt id="p1">[</bpt>Advance holders<ept id="p1">](emea-advance-holders.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateavet avansisaajate maksetingimuste seadistamise kohta vt teemast <bpt id="p1">[</bpt>Avansisaajad<ept id="p1">](emea-advance-holders.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>In the <bpt id="p1">**</bpt>Advance holder<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Price and discount<ept id="p2">**</ept> FastTab, select the advance holder for the purchase order.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige kiirkaardi <bpt id="p2">**</bpt>Hind ja allahindlus<ept id="p2">**</ept> väljal <bpt id="p1">**</bpt>Avansisaaja<ept id="p1">**</ept> ostutellimuse avansisaaja.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>The purchase order posting process creates two vendor transactions with opposite amounts and one advance holder transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostutellimuse sisestusprotsess loob kaks hankija kannet vastandsummadega ja ühe avansisaaja kande.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Without advance holder details, only one vendor transaction is created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ilma avansisaaja andmetega luuakse ainult üks hankija kanne.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Settle advance holder balances via a bank</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avansisaaja saldode tasakaalustamine panga kaudu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>When you settle advance holder balances via a bank, journal entries for closing the advance holder balances are created in the general journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avansisaaja saldode tasakaalustamisel panga kaudu luuakse päevaraamatus töölehe sisestused avansisaaja saldode sulgemiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>You can set up the code for the journal and the bank in the <bpt id="p1">**</bpt>Advance holders<ept id="p1">**</ept> section on the <bpt id="p2">**</bpt>Accounts payable parameters<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate seadistada töölehe ja panga koodi lehe <bpt id="p2">**</bpt>Ostureskontro parameetrid<ept id="p2">**</ept> jaotises <bpt id="p1">**</bpt>Avansisaajad<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>For more information, see <bpt id="p1">[</bpt>Advance holders<ept id="p1">](emea-advance-holders.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateavet vt teemast <bpt id="p1">[</bpt>Avansisaajad<ept id="p1">](emea-advance-holders.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>To close an advance holder’s balance via a bank, open <bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Advance holders<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Advance holders<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avansisaaja saldo sulgemiseks panga kaudu avage <bpt id="p1">**</bpt>Ostureskontro<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Avansisaajad<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Avansisaajad<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Click the <bpt id="p1">**</bpt>Balance<ept id="p1">**</ept> button on the Action Pane, and then click <bpt id="p2">**</bpt>Close via bank<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake toimingupaanil nuppu <bpt id="p1">**</bpt>Saldo<ept id="p1">**</ept> ja seejärel nuppu <bpt id="p2">**</bpt>Panga kaudu sulgemine<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Enter the following information on the <bpt id="p1">**</bpt>Close via bank<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage lehel <bpt id="p1">**</bpt>Panga kaudu sulgemine<ept id="p1">**</ept> järgmine teave.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väli</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source><bpt id="p1">**</bpt>Date of payment<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Maksekuupäev<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Enter the date that the payment should be posted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage makse sisestamiseks nõutav kuupäev.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source><bpt id="p1">**</bpt>Amount to be transferred<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ülekantav summa<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Enter the balance amount while closing.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage sulgemisel saldo summa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>The amount that is indicated in the <bpt id="p1">**</bpt>Amount<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Balance<ept id="p2">**</ept> form is displayed by default.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormi <bpt id="p2">**</bpt>Saldo<ept id="p2">**</ept> väljal <bpt id="p1">**</bpt>Summa<ept id="p1">**</ept> näidatud summa kuvatakse vaikimisi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source><bpt id="p1">**</bpt>Automatic<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Automaatne<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Select the <bpt id="p1">**</bpt>Automatic<ept id="p1">**</ept> check box to create and post a journal that is preset on the <bpt id="p2">**</bpt>Accounts payable parameters<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige ruut <bpt id="p1">**</bpt>Automaatne<ept id="p1">**</ept>, et luua ja sisestada lehel <bpt id="p2">**</bpt>Ostureskontro parameetrid<ept id="p2">**</ept> eelseadistatud tööleht.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Settle advance holder balances via cash</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avansisaaja saldode tasakaalustamine kassa kaudu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>When you settle advance holder balances via cash, journal entries for closing the advance holder balances are created in a slip journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avansisaaja saldode tasakaalustamisel kassa kaudu luuakse saatelehe töölehel sisestused avansisaaja saldode sulgemiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>You can set up the code for the journal and the cash in the <bpt id="p1">**</bpt>Advance holders<ept id="p1">**</ept> tab on the <bpt id="p2">**</bpt>Accounts payable parameters<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate seadistada töölehe ja kassa koodi lehe <bpt id="p2">**</bpt>Ostureskontro parameetrid<ept id="p2">**</ept> vahekaardil <bpt id="p1">**</bpt>Avansisaajad<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>For more information, see <bpt id="p1">[</bpt>Advance holders<ept id="p1">](emea-advance-holders.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateavet vt teemast <bpt id="p1">[</bpt>Avansisaajad<ept id="p1">](emea-advance-holders.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>To close an advance holder’s balance via cash, open <bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Advance holders<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Advance holders<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avansisaaja saldo sulgemiseks kassa kaudu avage <bpt id="p1">**</bpt>Ostureskontro<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Avansisaajad<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Avansisaajad<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Click the <bpt id="p1">**</bpt>Balance<ept id="p1">**</ept> button on the Action Pane, and then click <bpt id="p2">**</bpt>Close via cash<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake toimingupaanil nuppu <bpt id="p1">**</bpt>Saldo<ept id="p1">**</ept> ja seejärel nuppu <bpt id="p2">**</bpt>Kassa kaudu sulgemine<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Enter the following information on the <bpt id="p1">**</bpt>Close via cash<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage lehel <bpt id="p1">**</bpt>Kassa kaudu sulgemine<ept id="p1">**</ept> järgmine teave.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väli</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source><bpt id="p1">**</bpt>Date of payment<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Maksekuupäev<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Enter the date that the payment should be posted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage makse sisestamiseks nõutav kuupäev.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source><bpt id="p1">**</bpt>Amount to be transferred<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ülekantav summa<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Enter the balance amount while closing.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage sulgemisel saldo summa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>The amount that is indicated in the <bpt id="p1">**</bpt>Amount<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Balance<ept id="p2">**</ept> form is displayed by default.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vormi <bpt id="p2">**</bpt>Saldo<ept id="p2">**</ept> väljal <bpt id="p1">**</bpt>Summa<ept id="p1">**</ept> näidatud summa kuvatakse vaikimisi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source><bpt id="p1">**</bpt>Automatic<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Automaatne<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Select the <bpt id="p1">**</bpt>Automatic<ept id="p1">**</ept> check box to create and post automatically a journal that is preset on the <bpt id="p2">**</bpt>Accounts payable parameters<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige ruut <bpt id="p1">**</bpt>Automaatne<ept id="p1">**</ept>, et luua ja sisestada lehel <bpt id="p2">**</bpt>Ostureskontro parameetrid<ept id="p2">**</ept> eelseadistatud tööleht automaatselt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>After the slip journal is processed, if the amount in the <bpt id="p1">**</bpt>Amount to be transferred<ept id="p1">**</ept> field was negative, a disbursement slip is generated for the advance holder when the balances are closed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui summa väljal <bpt id="p1">**</bpt>Ülekantav summa<ept id="p1">**</ept> on negatiivne. luuakse pärast saatelehe töölehe töötlemist avansisaajale väljaminekuorder, kui saldod on suletud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>If the amount in the <bpt id="p1">**</bpt>Amount to be transferred<ept id="p1">**</ept> field was positive, a reimbursement slip is generated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui summa väljal <bpt id="p1">**</bpt>Ülekantav summa<ept id="p1">**</ept> on positiivne, luuakse korvamisorder.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisaressursid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source><bpt id="p1">[</bpt>Advance payment to an employee (Eastern Europe)<ept id="p1">](tasks/advance-payment-employee.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Avansimakse töötajale (Ida-Euroopa)<ept id="p1">](tasks/advance-payment-employee.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Avansisaaja kanded
+description: Lugege, kuidas töötada avansisaaja kannetega rakenduses Microsoft Dynamics 365 for Finance and Operations.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: HcmWorkerAdvHolderTableListPage_RU
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 262554
+ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
+ms.author: v-elgolu
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: f71df6fff803855cf08ca0672604ae97efe3f40e
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564448"
+---
+# <a name="advance-holder-transactions"></a><span data-ttu-id="0d465-103">Avansisaaja kanded</span><span class="sxs-lookup"><span data-stu-id="0d465-103">Advance holder transactions</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="0d465-104">Lugege, kuidas töötada avansisaaja kannetega rakenduses Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="0d465-104">Learn how to work with advance holder transactions in Microsoft Dynamics 365 for Finance and Operations.</span></span>
+
+<span data-ttu-id="0d465-105">Avansisaajast töötajate kandeid saab sisestada avansisaaja kontode abil.</span><span class="sxs-lookup"><span data-stu-id="0d465-105">Transactions for these workers who are advance holders can be posted by using advance holder accounts.</span></span> <span data-ttu-id="0d465-106">Igale avansisaajale määratud töötaja ID alusel saab jälgida kõiki avansisaajate kandeid.</span><span class="sxs-lookup"><span data-stu-id="0d465-106">The worker ID that is specified for each advance holder can be used to track all advance holder transactions.</span></span> <span data-ttu-id="0d465-107">See number tuuakse avansisaaja kannete jaoks kontonumbrina lehtedel **Päevaraamatud** ja **Avansisaajate kanded**.</span><span class="sxs-lookup"><span data-stu-id="0d465-107">This number is retrieved as an account number for advance holder transactions in the **General journals** and **Advance holder transactions** pages.</span></span>
+
+## <a name="create-and-post-a-purchase-order-with-advance-holder-details"></a><span data-ttu-id="0d465-108">Ostutellimuse loomine ja sisestamine avansisaaja andmetega</span><span class="sxs-lookup"><span data-stu-id="0d465-108">Create and post a purchase order with advance holder details</span></span>
+<span data-ttu-id="0d465-109">Täpsemat teavet ostutellimuste kohta vt teemast [Ostutellimuse ülevaade](../../supply-chain/procurement/purchase-order-overview.md).</span><span class="sxs-lookup"><span data-stu-id="0d465-109">For more general information about purchase orders, see [Purchase order overview](../../supply-chain/procurement/purchase-order-overview.md).</span></span> <span data-ttu-id="0d465-110">Hankija arve loomisel ja sisestamisel avansisaaja andmetega sisestatakse avansisaaja saldod töövõtja saldokontole, mitte hankija saldokontole.</span><span class="sxs-lookup"><span data-stu-id="0d465-110">If a vendor invoice is created and posted with advance holder details, the advance holder’s balances will be posted to the employee balance account instead of the vendor balance account.</span></span> <span data-ttu-id="0d465-111">Ostutellimusele avansisaaja andmete lisamiseks tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="0d465-111">To add advance holder details to a purchase order, do the following:</span></span>
+
+-   <span data-ttu-id="0d465-112">Valige jaotises **Hind ja allahindlus** väljal **Maksetingimused** maksetingimus.</span><span class="sxs-lookup"><span data-stu-id="0d465-112">In the **Terms of payment** field in the **Price and discount** section, select the payment term.</span></span> <!---For more information about **Terms of payment**, see [Define vendor payment terms](../accounts-payable/tasks/define-vendor-payment-terms.md).--> <span data-ttu-id="0d465-113">Valige maksetingimus, millel on suvand **Avansisaajalt** valitud lehel **Maksetingimused**.</span><span class="sxs-lookup"><span data-stu-id="0d465-113">Select a payment term that has the **From advance holder** option selected on the **Terms of payment** page.</span></span> <span data-ttu-id="0d465-114">Lisateavet avansisaajate maksetingimuste seadistamise kohta vt teemast [Avansisaajad](emea-advance-holders.md).</span><span class="sxs-lookup"><span data-stu-id="0d465-114">For more information about setting up terms of payment for advance holders, see [Advance holders](emea-advance-holders.md).</span></span>
+-   <span data-ttu-id="0d465-115">Valige kiirkaardi **Hind ja allahindlus** väljal **Avansisaaja** ostutellimuse avansisaaja.</span><span class="sxs-lookup"><span data-stu-id="0d465-115">In the **Advance holder** field on the **Price and discount** FastTab, select the advance holder for the purchase order.</span></span>
+
+<span data-ttu-id="0d465-116">Ostutellimuse sisestusprotsess loob kaks hankija kannet vastandsummadega ja ühe avansisaaja kande.</span><span class="sxs-lookup"><span data-stu-id="0d465-116">The purchase order posting process creates two vendor transactions with opposite amounts and one advance holder transaction.</span></span> <span data-ttu-id="0d465-117">Ilma avansisaaja andmetega luuakse ainult üks hankija kanne.</span><span class="sxs-lookup"><span data-stu-id="0d465-117">Without advance holder details, only one vendor transaction is created.</span></span>
+
+## <a name="settle-advance-holder-balances-via-a-bank"></a><span data-ttu-id="0d465-118">Avansisaaja saldode tasakaalustamine panga kaudu</span><span class="sxs-lookup"><span data-stu-id="0d465-118">Settle advance holder balances via a bank</span></span>
+<span data-ttu-id="0d465-119">Avansisaaja saldode tasakaalustamisel panga kaudu luuakse päevaraamatus töölehe sisestused avansisaaja saldode sulgemiseks.</span><span class="sxs-lookup"><span data-stu-id="0d465-119">When you settle advance holder balances via a bank, journal entries for closing the advance holder balances are created in the general journal.</span></span> <span data-ttu-id="0d465-120">Saate seadistada töölehe ja panga koodi lehe **Ostureskontro parameetrid** jaotises **Avansisaajad**.</span><span class="sxs-lookup"><span data-stu-id="0d465-120">You can set up the code for the journal and the bank in the **Advance holders** section on the **Accounts payable parameters** page.</span></span> <span data-ttu-id="0d465-121">Lisateavet vt teemast [Avansisaajad](emea-advance-holders.md).</span><span class="sxs-lookup"><span data-stu-id="0d465-121">For more information, see [Advance holders](emea-advance-holders.md).</span></span> <span data-ttu-id="0d465-122">Avansisaaja saldo sulgemiseks panga kaudu avage **Ostureskontro** &gt; **Avansisaajad** &gt; **Avansisaajad**.</span><span class="sxs-lookup"><span data-stu-id="0d465-122">To close an advance holder’s balance via a bank, open **Accounts payable** &gt; **Advance holders** &gt; **Advance holders**.</span></span> <span data-ttu-id="0d465-123">Klõpsake toimingupaanil nuppu **Saldo** ja seejärel nuppu **Panga kaudu sulgemine**.</span><span class="sxs-lookup"><span data-stu-id="0d465-123">Click the **Balance** button on the Action Pane, and then click **Close via bank**.</span></span> <span data-ttu-id="0d465-124">Sisestage lehel **Panga kaudu sulgemine** järgmine teave.</span><span class="sxs-lookup"><span data-stu-id="0d465-124">Enter the following information on the **Close via bank** page.</span></span>
+
+| <span data-ttu-id="0d465-125">Väli</span><span class="sxs-lookup"><span data-stu-id="0d465-125">Field</span></span>                    | <span data-ttu-id="0d465-126">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="0d465-126">Description</span></span> |
+|------------------------------|-------------------|
+| <span data-ttu-id="0d465-127">**Maksekuupäev**</span><span class="sxs-lookup"><span data-stu-id="0d465-127">**Date of payment**</span></span>          | <span data-ttu-id="0d465-128">Sisestage makse sisestamiseks nõutav kuupäev.</span><span class="sxs-lookup"><span data-stu-id="0d465-128">Enter the date that the payment should be posted.</span></span>|
+| <span data-ttu-id="0d465-129">**Ülekantav summa**</span><span class="sxs-lookup"><span data-stu-id="0d465-129">**Amount to be transferred**</span></span> | <span data-ttu-id="0d465-130">Sisestage sulgemisel saldo summa.</span><span class="sxs-lookup"><span data-stu-id="0d465-130">Enter the balance amount while closing.</span></span> <span data-ttu-id="0d465-131">Vormi **Saldo** väljal **Summa** näidatud summa kuvatakse vaikimisi.</span><span class="sxs-lookup"><span data-stu-id="0d465-131">The amount that is indicated in the **Amount** field in the **Balance** form is displayed by default.</span></span> |
+| <span data-ttu-id="0d465-132">**Automaatne**</span><span class="sxs-lookup"><span data-stu-id="0d465-132">**Automatic**</span></span>                | <span data-ttu-id="0d465-133">Märkige ruut **Automaatne**, et luua ja sisestada lehel **Ostureskontro parameetrid** eelseadistatud tööleht.</span><span class="sxs-lookup"><span data-stu-id="0d465-133">Select the **Automatic** check box to create and post a journal that is preset on the **Accounts payable parameters** page.</span></span>|
+
+## <a name="settle-advance-holder-balances-via-cash"></a><span data-ttu-id="0d465-134">Avansisaaja saldode tasakaalustamine kassa kaudu</span><span class="sxs-lookup"><span data-stu-id="0d465-134">Settle advance holder balances via cash</span></span>
+<span data-ttu-id="0d465-135">Avansisaaja saldode tasakaalustamisel kassa kaudu luuakse saatelehe töölehel sisestused avansisaaja saldode sulgemiseks.</span><span class="sxs-lookup"><span data-stu-id="0d465-135">When you settle advance holder balances via cash, journal entries for closing the advance holder balances are created in a slip journal.</span></span> <span data-ttu-id="0d465-136">Saate seadistada töölehe ja kassa koodi lehe **Ostureskontro parameetrid** vahekaardil **Avansisaajad**.</span><span class="sxs-lookup"><span data-stu-id="0d465-136">You can set up the code for the journal and the cash in the **Advance holders** tab on the **Accounts payable parameters** page.</span></span> <span data-ttu-id="0d465-137">Lisateavet vt teemast [Avansisaajad](emea-advance-holders.md).</span><span class="sxs-lookup"><span data-stu-id="0d465-137">For more information, see [Advance holders](emea-advance-holders.md).</span></span> <span data-ttu-id="0d465-138">Avansisaaja saldo sulgemiseks kassa kaudu avage **Ostureskontro** &gt; **Avansisaajad** &gt; **Avansisaajad**.</span><span class="sxs-lookup"><span data-stu-id="0d465-138">To close an advance holder’s balance via cash, open **Accounts payable** &gt; **Advance holders** &gt; **Advance holders**.</span></span> <span data-ttu-id="0d465-139">Klõpsake toimingupaanil nuppu **Saldo** ja seejärel nuppu **Kassa kaudu sulgemine**.</span><span class="sxs-lookup"><span data-stu-id="0d465-139">Click the **Balance** button on the Action Pane, and then click **Close via cash**.</span></span> <span data-ttu-id="0d465-140">Sisestage lehel **Kassa kaudu sulgemine** järgmine teave.</span><span class="sxs-lookup"><span data-stu-id="0d465-140">Enter the following information on the **Close via cash** page.</span></span>
+
+| <span data-ttu-id="0d465-141">Väli</span><span class="sxs-lookup"><span data-stu-id="0d465-141">Field</span></span>                    | <span data-ttu-id="0d465-142">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="0d465-142">Description</span></span>
+|------------------------------|-----------------|
+| <span data-ttu-id="0d465-143">**Maksekuupäev**</span><span class="sxs-lookup"><span data-stu-id="0d465-143">**Date of payment**</span></span>          | <span data-ttu-id="0d465-144">Sisestage makse sisestamiseks nõutav kuupäev.</span><span class="sxs-lookup"><span data-stu-id="0d465-144">Enter the date that the payment should be posted.</span></span>|
+| <span data-ttu-id="0d465-145">**Ülekantav summa**</span><span class="sxs-lookup"><span data-stu-id="0d465-145">**Amount to be transferred**</span></span> | <span data-ttu-id="0d465-146">Sisestage sulgemisel saldo summa.</span><span class="sxs-lookup"><span data-stu-id="0d465-146">Enter the balance amount while closing.</span></span> <span data-ttu-id="0d465-147">Vormi **Saldo** väljal **Summa** näidatud summa kuvatakse vaikimisi.</span><span class="sxs-lookup"><span data-stu-id="0d465-147">The amount that is indicated in the **Amount** field in the **Balance** form is displayed by default.</span></span> |
+| <span data-ttu-id="0d465-148">**Automaatne**</span><span class="sxs-lookup"><span data-stu-id="0d465-148">**Automatic**</span></span>                | <span data-ttu-id="0d465-149">Märkige ruut **Automaatne**, et luua ja sisestada lehel **Ostureskontro parameetrid** eelseadistatud tööleht automaatselt.</span><span class="sxs-lookup"><span data-stu-id="0d465-149">Select the **Automatic** check box to create and post automatically a journal that is preset on the **Accounts payable parameters** page.</span></span>     |
+
+<span data-ttu-id="0d465-150">Kui summa väljal **Ülekantav summa** on negatiivne. luuakse pärast saatelehe töölehe töötlemist avansisaajale väljaminekuorder, kui saldod on suletud.</span><span class="sxs-lookup"><span data-stu-id="0d465-150">After the slip journal is processed, if the amount in the **Amount to be transferred** field was negative, a disbursement slip is generated for the advance holder when the balances are closed.</span></span> <span data-ttu-id="0d465-151">Kui summa väljal **Ülekantav summa** on positiivne, luuakse korvamisorder.</span><span class="sxs-lookup"><span data-stu-id="0d465-151">If the amount in the **Amount to be transferred** field was positive, a reimbursement slip is generated.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="0d465-152">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="0d465-152">Additional resources</span></span>
+
+- [<span data-ttu-id="0d465-153">Avansimakse töötajale (Ida-Euroopa)</span><span class="sxs-lookup"><span data-stu-id="0d465-153">Advance payment to an employee (Eastern Europe)</span></span>](tasks/advance-payment-employee.md)
+

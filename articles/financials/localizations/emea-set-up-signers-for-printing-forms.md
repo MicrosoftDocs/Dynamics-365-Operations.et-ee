@@ -1,258 +1,167 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="emea-set-up-signers-for-printing-forms.md" target-language="et-EE">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>emea-set-up-signers-for-printing-forms.af81e0.c81625e9a042bf88268759065727bde332d37ea9.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>c81625e9a042bf88268759065727bde332d37ea9</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-set-up-signers-for-printing-forms.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Set up signers for print forms</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prinditud vormide allkirjastajate seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>For legal entities in Czech Republic, Estonia, Hungary, Lithuania, Latvia, Poland, and Russia, you can set up signers and titles for customers and vendors that print documents such as invoices and cash orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juriidiliste isikute puhul Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis, Poolas ja Venemaal saate seadistada allkirjastajaid ja õigusi klientidele ning hankijatele, kes prindivad dokumente nagu arved ja kassaorderid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Set up signers for print forms</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prinditud vormide allkirjastajate seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>For legal entities in Czech Republic, Estonia, Hungary, Lithuania, Latvia, Poland, and Russia, you can set up signers and titles for customers and vendors that print documents such as invoices and cash orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juriidiliste isikute puhul Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis, Poolas ja Venemaal saate seadistada allkirjastajaid ja õigusi klientidele ning hankijatele, kes prindivad dokumente nagu arved ja kassaorderid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Set up default values</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaikeväärtuste seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>To set up signers for the documents that a company prints, use the <bpt id="p1">**</bpt>Officials<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ettevõtte prinditavate dokumentide allkirjastajate seadistamiseks kasutage lehte <bpt id="p1">**</bpt>Ametiisikud<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>You can set up signers and their titles both for the company and for customers or vendors, depending on the document type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate seadistada allkirjastajaid ja nende õigusi nii ettevõtte kui ka klientide või hankijate puhul, olenevalt dokumendi tüübist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>The following table describes the tabs on the <bpt id="p1">**</bpt>Officials<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises tabelis kirjeldatakse lehe <bpt id="p1">**</bpt>Ametiisikud<ept id="p1">**</ept> vahekaarte.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Tab</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahekaart</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>General</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üldine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Add positions and related information for signers (Director and Chief accountant) who can sign print documents of all types.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisage ametikohti ja seotud teavet allkirjastajate (direktor ja pearaamatupidaja) kohta, kes võivad kõikvõimalikke prinditud dokumente allkirjastada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Ledger</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pearaamat</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Add the position and related information for signers who can sign the following internal financial documents that are related to cash flow:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisage ametikoht ja seotud teave allkirjastajate kohta, kes võivad allkirjastada järgmisi rahavoogudega seotud ettevõttesiseseid finantsdokumente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Cash slips</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaorderid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Advance report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ettemaksuaruanne</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Page of cash book</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaraamatu leht</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Count statement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Loendusväljavõte</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Deferrals<ph id="ph1">&lt;em&gt;</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viitvõlad<ph id="ph1">&lt;em&gt;</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Sales orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müügitellimused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Add positions and related information for signers who can sign the following outgoing primary documents that are related to customers:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi klientidega seotud väljaminevaid põhidokumente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Invoice for payment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksearve</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arve</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Facture<ph id="ph1">&lt;em&gt;</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Faktuurarve<ph id="ph1">&lt;em&gt;</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Invoice - credit-note</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arve – kreeditarve</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Facture - credit-note</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Faktuurarve – kreeditarve</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Tax transaction facture (client)<ph id="ph1">&lt;em&gt;</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksukande faktuurarve (klient)<ph id="ph1">&lt;em&gt;</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostutellimused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Add positions and related information for signers who can sign the following incoming primary documents that are related to vendors:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi hankijatega seotud sissetulevaid põhidokumente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arve</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Facture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Faktuurarve</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Invoice - credit-note</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arve – kreeditarve</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Facture - credit-note<ph id="ph1">&lt;em&gt;</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Faktuurarve – kreeditarve<ph id="ph1">&lt;em&gt;</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Invoice for payment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksearve</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Tax transaction facture (vendor)<ph id="ph1">&lt;em&gt;</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksukande faktuurarve (hankija)<ph id="ph1">&lt;em&gt;</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Inventory item management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laokaupade haldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Add positions and related information for signers who can sign the following warehouse documents when tangible assets are issued to a customer or received from a vendor:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi laodokumente, kui kliendile väljastatakse või hankijalt saadakse materiaalseid varasid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Issue slip for sales order (M-15)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väljasta müügitellimuse (M-15) saateleht</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Rmb.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Korv.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>slip/Receipt order</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">order / Sisset. order</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Issue slip for transfer order (M-15)*</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väljasta üleviimistellimuse (M-15) saateleht*</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source><ph id="ph1">\*</ph> This document type is available only for legal entities that have their primary address in Russia.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">\*</ph> See dokumendi tüüp on saadaval ainult juriidilistele isikutele, kelle esmane aadress on Venemaal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>The following table describes the fields on the <bpt id="p1">**</bpt>Officials<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises tabelis kirjeldatakse lehe <bpt id="p1">**</bpt>Ametiisikud<ept id="p1">**</ept> välju.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väli</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Position</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ametikoht</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Select the signer’s post title.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige allkirjastaja ametinimetus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Name</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nimi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Select the signer’s name.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige allkirjastaja nimi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>The names in the list come from either the Contacts table or the Employees table, depending on the type of signer (that is, depending on whether the <bpt id="p1">&lt;strong&gt;</bpt>Our<ept id="p1">&lt;/strong&gt;</ept> check box is selected).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Loendis olevad nimed tulevad kas tabelist Kontaktid või tabelist Töötajad, olenevalt allkirjastaja tüübist (st olenevalt sellest, kas märkeruut <bpt id="p1">&lt;strong&gt;</bpt>Meie<ept id="p1">&lt;/strong&gt;</ept> on valitud).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>If the signer&amp;#39;s name isn&amp;#39;t in the list, manually enter the signer’s full name.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui allkirjastaja nime ei ole loendis, siis sisestage allkirjastaja täielik nimi käsitsi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Job title</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ametinimetus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Select the signer’s job title.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige allkirjastaja ametinimetus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>If the signer’s title isn&amp;#39;t in the list, manually enter the signer’s title.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui allkirjastaja ametinimetust pole loendis, siis sisestage allkirjastaja ametinimetus käsitsi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Account code</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konto kood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Select whether the signer can sign all documents of the selected document type, or only documents for a specific customer or vendor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige, kas allkirjastaja saab allkirjastada kõiki valitud dokumenditüübiga dokumente või ainult konkreetse kliendi või hankija dokumente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Account relation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konto seos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Select the customer or vendor account that is related to the selected account code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige kliendi või hankija konto, mis on seotud valitud konto koodiga.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>This field is available only if you select <bpt id="p1">&lt;strong&gt;</bpt>Record<ept id="p1">&lt;/strong&gt;</ept> in the <bpt id="p2">&lt;strong&gt;</bpt>Account code<ept id="p2">&lt;/strong&gt;</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See väli on saadaval ainult siis, kui teete väljal <bpt id="p2">&lt;strong&gt;</bpt>Konto kood<ept id="p2">&lt;/strong&gt;</ept> valiku <bpt id="p1">&lt;strong&gt;</bpt>Kirje<ept id="p1">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Our</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Meie</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>A selected check box indicates that the position is internal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valitud märkeruut näitab, et ametikoht on sisemine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Association with warehouse</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seos laohoonega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Select whether the signer is assigned to all warehouses or only a specific warehouse.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige, kas allkirjastaja on määratud kõigile ladudele või ainult konkreetsele laole.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>The following options are available:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valikud on järgmised:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>All<ept id="p1">&lt;/strong&gt;</ept> – The signer is assigned to all warehouses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Kõik<ept id="p1">&lt;/strong&gt;</ept> – allkirjastaja on määratud kõigile ladudele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Record<ept id="p1">&lt;/strong&gt;</ept> – The signer is assigned to a specific warehouse.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Kirje<ept id="p1">&lt;/strong&gt;</ept> – allkirjastaja on määratud konkreetsele laole.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Warehouse</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ladu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Select the warehouse code that corresponds to the warehouse that the signer is assigned to.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige lao kood, mis vastab laole, millele allkirjastaja määratud on.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>This field is available only if you select <bpt id="p1">&lt;strong&gt;</bpt>Record<ept id="p1">&lt;/strong&gt;</ept> in the <bpt id="p2">&lt;strong&gt;</bpt>Association with warehouse<ept id="p2">&lt;/strong&gt;</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See väli on saadaval ainult siis, kui teete väljal <bpt id="p2">&lt;strong&gt;</bpt>Seos laoga<ept id="p2">&lt;/strong&gt;</ept> valiku <bpt id="p1">&lt;strong&gt;</bpt>Kirje<ept id="p1">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Set up a number sequence code for officials</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ametiisikute numbriseeria häälestamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>You can assign a number sequence code for officials in the <bpt id="p1">**</bpt>Number sequences<ept id="p1">**</ept> section of the <bpt id="p2">**</bpt>Legal entities<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate määrata numbriseeria koodi ametiisikutele lehe <bpt id="p2">**</bpt>Juriidilised isikud<ept id="p2">**</ept> jaotises <bpt id="p1">**</bpt>Numbriseeriad<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Select a number sequence code for the <bpt id="p1">**</bpt>Officials session ID<ept id="p1">**</ept> reference.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige viitele <bpt id="p1">**</bpt>Ametiisikute seansi ID<ept id="p1">**</ept> numbriseeria kood.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Modify signers in primary documents</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Põhidokumentidel allkirjastajate muutmine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>The Officials functionality shows the default predefined signers from the Officials table.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ametiisikute funktsioon näitab vaikimisi eelmääratud allkirjastajaid tabelis Ametiisikud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>On the <bpt id="p1">**</bpt>Posting invoice<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Officials<ept id="p2">**</ept> tab, you can modify a signer’s name and title on the primary document for the following document types:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lehel <bpt id="p1">**</bpt>Arve sisestamine<ept id="p1">**</ept> vahekaardil <bpt id="p2">**</bpt>Ametiisikud<ept id="p2">**</ept> saate muuta allkirjastaja nime ja ametinimetust põhidokumendil järgmiste dokumenditüüpide puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Customer invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kliendiarve</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Vendor invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hankija arve</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Ship transfer order</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lähetuse üleviimistellimus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Cash order</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaorder</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> After a document is posted, officials can't be edited.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Märkus:<ept id="p1">**</ept> pärast dokumendi sisestamist ei saa ametiisikuid muuta.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Prinditud vormide allkirjastajate seadistamine
+description: Juriidiliste isikute puhul Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis, Poolas ja Venemaal saate seadistada allkirjastajaid ja õigusi klientidele ning hankijatele, kes prindivad dokumente nagu arved ja kassaorderid.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 263464
+ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
+ms.author: v-elgolu
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c81625e9a042bf88268759065727bde332d37ea9
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571131"
+---
+# <a name="set-up-signers-for-print-forms"></a><span data-ttu-id="b4e40-103">Prinditud vormide allkirjastajate seadistamine</span><span class="sxs-lookup"><span data-stu-id="b4e40-103">Set up signers for print forms</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="b4e40-104">Juriidiliste isikute puhul Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis, Poolas ja Venemaal saate seadistada allkirjastajaid ja õigusi klientidele ning hankijatele, kes prindivad dokumente nagu arved ja kassaorderid.</span><span class="sxs-lookup"><span data-stu-id="b4e40-104">For legal entities in Czech Republic, Estonia, Hungary, Lithuania, Latvia, Poland, and Russia, you can set up signers and titles for customers and vendors that print documents such as invoices and cash orders.</span></span>
+
+<a name="set-up-default-values"></a><span data-ttu-id="b4e40-105">Vaikeväärtuste seadistamine</span><span class="sxs-lookup"><span data-stu-id="b4e40-105">Set up default values</span></span>
+---------------------
+
+<span data-ttu-id="b4e40-106">Ettevõtte prinditavate dokumentide allkirjastajate seadistamiseks kasutage lehte **Ametiisikud**.</span><span class="sxs-lookup"><span data-stu-id="b4e40-106">To set up signers for the documents that a company prints, use the **Officials** page.</span></span> <span data-ttu-id="b4e40-107">Saate seadistada allkirjastajaid ja nende õigusi nii ettevõtte kui ka klientide või hankijate puhul, olenevalt dokumendi tüübist.</span><span class="sxs-lookup"><span data-stu-id="b4e40-107">You can set up signers and their titles both for the company and for customers or vendors, depending on the document type.</span></span> <span data-ttu-id="b4e40-108">Järgmises tabelis kirjeldatakse lehe **Ametiisikud** vahekaarte.</span><span class="sxs-lookup"><span data-stu-id="b4e40-108">The following table describes the tabs on the **Officials** page.</span></span>
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="b4e40-109">Vahekaart</span><span class="sxs-lookup"><span data-stu-id="b4e40-109">Tab</span></span></th>
+<th><span data-ttu-id="b4e40-110">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="b4e40-110">Description</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="b4e40-111">Üldine</span><span class="sxs-lookup"><span data-stu-id="b4e40-111">General</span></span></td>
+<td><span data-ttu-id="b4e40-112">Lisage ametikohti ja seotud teavet allkirjastajate (direktor ja pearaamatupidaja) kohta, kes võivad kõikvõimalikke prinditud dokumente allkirjastada.</span><span class="sxs-lookup"><span data-stu-id="b4e40-112">Add positions and related information for signers (Director and Chief accountant) who can sign print documents of all types.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4e40-113">Pearaamat</span><span class="sxs-lookup"><span data-stu-id="b4e40-113">Ledger</span></span></td>
+<td><span data-ttu-id="b4e40-114">Lisage ametikoht ja seotud teave allkirjastajate kohta, kes võivad allkirjastada järgmisi rahavoogudega seotud ettevõttesiseseid finantsdokumente.</span><span class="sxs-lookup"><span data-stu-id="b4e40-114">Add the position and related information for signers who can sign the following internal financial documents that are related to cash flow:</span></span>
+<ul>
+<li><span data-ttu-id="b4e40-115">Kassaorderid</span><span class="sxs-lookup"><span data-stu-id="b4e40-115">Cash slips</span></span></li>
+<li><span data-ttu-id="b4e40-116">Ettemaksuaruanne</span><span class="sxs-lookup"><span data-stu-id="b4e40-116">Advance report</span></span></li>
+<li><span data-ttu-id="b4e40-117">Kassaraamatu leht</span><span class="sxs-lookup"><span data-stu-id="b4e40-117">Page of cash book</span></span></li>
+<li><span data-ttu-id="b4e40-118">Loendusväljavõte</span><span class="sxs-lookup"><span data-stu-id="b4e40-118">Count statement</span></span></li>
+<li><span data-ttu-id="b4e40-119">Viitvõlad<em></span><span class="sxs-lookup"><span data-stu-id="b4e40-119">Deferrals<em></span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4e40-120">Müügitellimused</span><span class="sxs-lookup"><span data-stu-id="b4e40-120">Sales orders</span></span></td>
+<td><span data-ttu-id="b4e40-121">Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi klientidega seotud väljaminevaid põhidokumente.</span><span class="sxs-lookup"><span data-stu-id="b4e40-121">Add positions and related information for signers who can sign the following outgoing primary documents that are related to customers:</span></span>
+<ul>
+<li><span data-ttu-id="b4e40-122">Maksearve</span><span class="sxs-lookup"><span data-stu-id="b4e40-122">Invoice for payment</span></span></em></li>
+<li><span data-ttu-id="b4e40-123">Arve</span><span class="sxs-lookup"><span data-stu-id="b4e40-123">Invoice</span></span></li>
+<li><span data-ttu-id="b4e40-124">Faktuurarve<em></span><span class="sxs-lookup"><span data-stu-id="b4e40-124">Facture<em></span></span></li>
+<li><span data-ttu-id="b4e40-125">Arve – kreeditarve</span><span class="sxs-lookup"><span data-stu-id="b4e40-125">Invoice - credit-note</span></span></li>
+<li><span data-ttu-id="b4e40-126">Faktuurarve – kreeditarve</span><span class="sxs-lookup"><span data-stu-id="b4e40-126">Facture - credit-note</span></span></em></li>
+<li><span data-ttu-id="b4e40-127">Maksukande faktuurarve (klient)<em></span><span class="sxs-lookup"><span data-stu-id="b4e40-127">Tax transaction facture (client)<em></span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4e40-128">Ostutellimused</span><span class="sxs-lookup"><span data-stu-id="b4e40-128">Purchase orders</span></span></td>
+<td><span data-ttu-id="b4e40-129">Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi hankijatega seotud sissetulevaid põhidokumente.</span><span class="sxs-lookup"><span data-stu-id="b4e40-129">Add positions and related information for signers who can sign the following incoming primary documents that are related to vendors:</span></span>
+<ul>
+<li><span data-ttu-id="b4e40-130">Arve</span><span class="sxs-lookup"><span data-stu-id="b4e40-130">Invoice</span></span></li>
+<li><span data-ttu-id="b4e40-131">Faktuurarve</span><span class="sxs-lookup"><span data-stu-id="b4e40-131">Facture</span></span></em></li>
+<li><span data-ttu-id="b4e40-132">Arve – kreeditarve</span><span class="sxs-lookup"><span data-stu-id="b4e40-132">Invoice - credit-note</span></span></li>
+<li><span data-ttu-id="b4e40-133">Faktuurarve – kreeditarve<em></span><span class="sxs-lookup"><span data-stu-id="b4e40-133">Facture - credit-note<em></span></span></li>
+<li><span data-ttu-id="b4e40-134">Maksearve</span><span class="sxs-lookup"><span data-stu-id="b4e40-134">Invoice for payment</span></span></em></li>
+<li><span data-ttu-id="b4e40-135">Maksukande faktuurarve (hankija)<em></span><span class="sxs-lookup"><span data-stu-id="b4e40-135">Tax transaction facture (vendor)<em></span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4e40-136">Laokaupade haldus</span><span class="sxs-lookup"><span data-stu-id="b4e40-136">Inventory item management</span></span></td>
+<td><span data-ttu-id="b4e40-137">Lisage ametikohti ja seotud teavet allkirjastajate kohta, kes võivad allkirjastada järgmisi laodokumente, kui kliendile väljastatakse või hankijalt saadakse materiaalseid varasid.</span><span class="sxs-lookup"><span data-stu-id="b4e40-137">Add positions and related information for signers who can sign the following warehouse documents when tangible assets are issued to a customer or received from a vendor:</span></span>
+<ul>
+<li><span data-ttu-id="b4e40-138">Väljasta müügitellimuse (M-15) saateleht</span><span class="sxs-lookup"><span data-stu-id="b4e40-138">Issue slip for sales order (M-15)</span></span></em></li>
+<li><span data-ttu-id="b4e40-139">Korv.</span><span class="sxs-lookup"><span data-stu-id="b4e40-139">Rmb.</span></span> <span data-ttu-id="b4e40-140">order / Sisset. order</span><span class="sxs-lookup"><span data-stu-id="b4e40-140">slip/Receipt order</span></span></li>
+<li><span data-ttu-id="b4e40-141">Väljasta üleviimistellimuse (M-15) saateleht\*</span><span class="sxs-lookup"><span data-stu-id="b4e40-141">Issue slip for transfer order (M-15)\*</span></span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+<span data-ttu-id="b4e40-142">\* See dokumendi tüüp on saadaval ainult juriidilistele isikutele, kelle esmane aadress on Venemaal.</span><span class="sxs-lookup"><span data-stu-id="b4e40-142">\* This document type is available only for legal entities that have their primary address in Russia.</span></span> <span data-ttu-id="b4e40-143">Järgmises tabelis kirjeldatakse lehe **Ametiisikud** välju.</span><span class="sxs-lookup"><span data-stu-id="b4e40-143">The following table describes the fields on the **Officials** page.</span></span>
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="b4e40-144">Väli</span><span class="sxs-lookup"><span data-stu-id="b4e40-144">Field</span></span></th>
+<th><span data-ttu-id="b4e40-145">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="b4e40-145">Description</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="b4e40-146">Ametikoht</span><span class="sxs-lookup"><span data-stu-id="b4e40-146">Position</span></span></td>
+<td><span data-ttu-id="b4e40-147">Valige allkirjastaja ametinimetus.</span><span class="sxs-lookup"><span data-stu-id="b4e40-147">Select the signer’s post title.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4e40-148">Nimi</span><span class="sxs-lookup"><span data-stu-id="b4e40-148">Name</span></span></td>
+<td><span data-ttu-id="b4e40-149">Valige allkirjastaja nimi.</span><span class="sxs-lookup"><span data-stu-id="b4e40-149">Select the signer’s name.</span></span> <span data-ttu-id="b4e40-150">Loendis olevad nimed tulevad kas tabelist Kontaktid või tabelist Töötajad, olenevalt allkirjastaja tüübist (st olenevalt sellest, kas märkeruut <strong>Meie</strong> on valitud).</span><span class="sxs-lookup"><span data-stu-id="b4e40-150">The names in the list come from either the Contacts table or the Employees table, depending on the type of signer (that is, depending on whether the <strong>Our</strong> check box is selected).</span></span> <span data-ttu-id="b4e40-151">Kui allkirjastaja nime ei ole loendis, siis sisestage allkirjastaja täielik nimi käsitsi.</span><span class="sxs-lookup"><span data-stu-id="b4e40-151">If the signer&#39;s name isn&#39;t in the list, manually enter the signer’s full name.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4e40-152">Ametinimetus</span><span class="sxs-lookup"><span data-stu-id="b4e40-152">Job title</span></span></td>
+<td><span data-ttu-id="b4e40-153">Valige allkirjastaja ametinimetus.</span><span class="sxs-lookup"><span data-stu-id="b4e40-153">Select the signer’s job title.</span></span> <span data-ttu-id="b4e40-154">Kui allkirjastaja ametinimetust pole loendis, siis sisestage allkirjastaja ametinimetus käsitsi.</span><span class="sxs-lookup"><span data-stu-id="b4e40-154">If the signer’s title isn&#39;t in the list, manually enter the signer’s title.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4e40-155">Konto kood</span><span class="sxs-lookup"><span data-stu-id="b4e40-155">Account code</span></span></td>
+<td><span data-ttu-id="b4e40-156">Valige, kas allkirjastaja saab allkirjastada kõiki valitud dokumenditüübiga dokumente või ainult konkreetse kliendi või hankija dokumente.</span><span class="sxs-lookup"><span data-stu-id="b4e40-156">Select whether the signer can sign all documents of the selected document type, or only documents for a specific customer or vendor.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4e40-157">Konto seos</span><span class="sxs-lookup"><span data-stu-id="b4e40-157">Account relation</span></span></td>
+<td><span data-ttu-id="b4e40-158">Valige kliendi või hankija konto, mis on seotud valitud konto koodiga.</span><span class="sxs-lookup"><span data-stu-id="b4e40-158">Select the customer or vendor account that is related to the selected account code.</span></span> <span data-ttu-id="b4e40-159">See väli on saadaval ainult siis, kui teete väljal <strong>Konto kood</strong> valiku <strong>Kirje</strong>.</span><span class="sxs-lookup"><span data-stu-id="b4e40-159">This field is available only if you select <strong>Record</strong> in the <strong>Account code</strong> field.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4e40-160">Meie</span><span class="sxs-lookup"><span data-stu-id="b4e40-160">Our</span></span></td>
+<td><span data-ttu-id="b4e40-161">Valitud märkeruut näitab, et ametikoht on sisemine.</span><span class="sxs-lookup"><span data-stu-id="b4e40-161">A selected check box indicates that the position is internal.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4e40-162">Seos laohoonega</span><span class="sxs-lookup"><span data-stu-id="b4e40-162">Association with warehouse</span></span></td>
+<td><span data-ttu-id="b4e40-163">Valige, kas allkirjastaja on määratud kõigile ladudele või ainult konkreetsele laole.</span><span class="sxs-lookup"><span data-stu-id="b4e40-163">Select whether the signer is assigned to all warehouses or only a specific warehouse.</span></span> <span data-ttu-id="b4e40-164">Valikud on järgmised:</span><span class="sxs-lookup"><span data-stu-id="b4e40-164">The following options are available:</span></span>
+<ul>
+<li><span data-ttu-id="b4e40-165"><strong>Kõik</strong> – allkirjastaja on määratud kõigile ladudele.</span><span class="sxs-lookup"><span data-stu-id="b4e40-165"><strong>All</strong> – The signer is assigned to all warehouses.</span></span></li>
+<li><span data-ttu-id="b4e40-166"><strong>Kirje</strong> – allkirjastaja on määratud konkreetsele laole.</span><span class="sxs-lookup"><span data-stu-id="b4e40-166"><strong>Record</strong> – The signer is assigned to a specific warehouse.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4e40-167">Ladu</span><span class="sxs-lookup"><span data-stu-id="b4e40-167">Warehouse</span></span></td>
+<td><span data-ttu-id="b4e40-168">Valige lao kood, mis vastab laole, millele allkirjastaja määratud on.</span><span class="sxs-lookup"><span data-stu-id="b4e40-168">Select the warehouse code that corresponds to the warehouse that the signer is assigned to.</span></span> <span data-ttu-id="b4e40-169">See väli on saadaval ainult siis, kui teete väljal <strong>Seos laoga</strong> valiku <strong>Kirje</strong>.</span><span class="sxs-lookup"><span data-stu-id="b4e40-169">This field is available only if you select <strong>Record</strong> in the <strong>Association with warehouse</strong> field.</span></span></td>
+</tr>
+</tbody>
+</table>
+
+## <a name="set-up-a-number-sequence-code-for-officials"></a><span data-ttu-id="b4e40-170">Ametiisikute numbriseeria häälestamine</span><span class="sxs-lookup"><span data-stu-id="b4e40-170">Set up a number sequence code for officials</span></span>
+<span data-ttu-id="b4e40-171">Saate määrata numbriseeria koodi ametiisikutele lehe **Juriidilised isikud** jaotises **Numbriseeriad**.</span><span class="sxs-lookup"><span data-stu-id="b4e40-171">You can assign a number sequence code for officials in the **Number sequences** section of the **Legal entities** page.</span></span> <span data-ttu-id="b4e40-172">Valige viitele **Ametiisikute seansi ID** numbriseeria kood.</span><span class="sxs-lookup"><span data-stu-id="b4e40-172">Select a number sequence code for the **Officials session ID** reference.</span></span>
+
+## <a name="modify-signers-in-primary-documents"></a><span data-ttu-id="b4e40-173">Põhidokumentidel allkirjastajate muutmine</span><span class="sxs-lookup"><span data-stu-id="b4e40-173">Modify signers in primary documents</span></span>
+<span data-ttu-id="b4e40-174">Ametiisikute funktsioon näitab vaikimisi eelmääratud allkirjastajaid tabelis Ametiisikud.</span><span class="sxs-lookup"><span data-stu-id="b4e40-174">The Officials functionality shows the default predefined signers from the Officials table.</span></span> <span data-ttu-id="b4e40-175">Lehel **Arve sisestamine** vahekaardil **Ametiisikud** saate muuta allkirjastaja nime ja ametinimetust põhidokumendil järgmiste dokumenditüüpide puhul.</span><span class="sxs-lookup"><span data-stu-id="b4e40-175">On the **Posting invoice** page, on the **Officials** tab, you can modify a signer’s name and title on the primary document for the following document types:</span></span>
+
+-   <span data-ttu-id="b4e40-176">Kliendiarve</span><span class="sxs-lookup"><span data-stu-id="b4e40-176">Customer invoice</span></span>
+-   <span data-ttu-id="b4e40-177">Hankija arve</span><span class="sxs-lookup"><span data-stu-id="b4e40-177">Vendor invoice</span></span>
+-   <span data-ttu-id="b4e40-178">Lähetuse üleviimistellimus</span><span class="sxs-lookup"><span data-stu-id="b4e40-178">Ship transfer order</span></span>
+-   <span data-ttu-id="b4e40-179">Kassaorder</span><span class="sxs-lookup"><span data-stu-id="b4e40-179">Cash order</span></span>
+
+<span data-ttu-id="b4e40-180">**Märkus:** pärast dokumendi sisestamist ei saa ametiisikuid muuta.</span><span class="sxs-lookup"><span data-stu-id="b4e40-180">**Note:** After a document is posted, officials can't be edited.</span></span>
+
+
+

@@ -1,75 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="eur-00015-party-search-vat-id.md" target-language="et-EE">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>eur-00015-party-search-vat-id.80c8d4.ec36ead402882c1022811b7b398a03c6325ef7c0.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>ec36ead402882c1022811b7b398a03c6325ef7c0</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\eur-00015-party-search-vat-id.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>EUR-00015 Party search using VAT ID</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00015 Osapoole otsing KM ID abil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This procedure shows how to complete a party search using a registration ID.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur näitab, kuidas teha osapoole otsingut, kasutades registreerimise ID-d.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>EUR-00015 Party search using VAT ID</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00015 Osapoole otsing KM ID abil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This procedure shows how to complete a party search using a registration ID.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur näitab, kuidas teha osapoole otsingut, kasutades registreerimise ID-d.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Before you can complete this procedure, you must set up VAT IDs and enter any VAT IDs for vendors, customers, or legal entities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Enne seda protseduuri tuleb seadistada KM ID-d ja sisestada hankijate, klientide või juriidiliste isikute KM ID-d.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This procedure applies to all European countries/regions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur kohaldub kõigile Euroopa riikidele/piirkondadele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>The procedure was created using the demo data company DEMF with a primary address in Germany.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Protseduuri loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Saksamaa, andmeid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>This procedure is intended for an accounts payable manager or accounts receivable manager.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur on mõeldud ostureskontro juhile või müügireskontro juhile.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Go to Organization administration &gt; Global address book &gt; Global address book.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Organisatsioonihaldus &gt; Globaalne aadressiraamat &gt; Globaalne aadressiraamat.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Click Registration ID search.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Registreerimise ID otsing.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Click Add.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake vahekaarti Lisa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>In the Registration type field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Registreerimise tüüp.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>For example, if you wanted to find parties with a registration ID of type VAT ID, select VAT ID.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Näiteks kui soovite leida osapooli, kelle registreerimise ID tüüp on KM ID, valige KM ID.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>In the Country/region field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Riik/piirkond.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>For example, enter DEU.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage näiteks DEU.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>In the Registration number field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tippige väärtus väljale Registreerimisnumber.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Click Find.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake käsku Otsi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>All parties with that registration ID will be displayed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuvatakse kõik selle registreerimise ID-ga osapooled.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: EUR-00015 Osapoole otsing KM ID abil
+description: See protseduur näitab, kuidas teha osapoole otsingut, kasutades registreerimise ID-d.
+author: v-oloski
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: DirPartyTable, DirPartTaxRegistrationSearch
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
+ms.author: v-oloski
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ec36ead402882c1022811b7b398a03c6325ef7c0
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556618"
+---
+# <a name="eur-00015-party-search-using-vat-id"></a><span data-ttu-id="05e43-103">EUR-00015 Osapoole otsing KM ID abil</span><span class="sxs-lookup"><span data-stu-id="05e43-103">EUR-00015 Party search using VAT ID</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="05e43-104">See protseduur näitab, kuidas teha osapoole otsingut, kasutades registreerimise ID-d.</span><span class="sxs-lookup"><span data-stu-id="05e43-104">This procedure shows how to complete a party search using a registration ID.</span></span> <span data-ttu-id="05e43-105">Enne seda protseduuri tuleb seadistada KM ID-d ja sisestada hankijate, klientide või juriidiliste isikute KM ID-d.</span><span class="sxs-lookup"><span data-stu-id="05e43-105">Before you can complete this procedure, you must set up VAT IDs and enter any VAT IDs for vendors, customers, or legal entities.</span></span>
+
+<span data-ttu-id="05e43-106">See protseduur kohaldub kõigile Euroopa riikidele/piirkondadele.</span><span class="sxs-lookup"><span data-stu-id="05e43-106">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="05e43-107">Protseduuri loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Saksamaa, andmeid.</span><span class="sxs-lookup"><span data-stu-id="05e43-107">The procedure was created using the demo data company DEMF with a primary address in Germany.</span></span> <span data-ttu-id="05e43-108">See protseduur on mõeldud ostureskontro juhile või müügireskontro juhile.</span><span class="sxs-lookup"><span data-stu-id="05e43-108">This procedure is intended for an accounts payable manager or accounts receivable manager.</span></span> <span data-ttu-id="05e43-109">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="05e43-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+
+1. <span data-ttu-id="05e43-110">Avage Organisatsioonihaldus > Globaalne aadressiraamat > Globaalne aadressiraamat.</span><span class="sxs-lookup"><span data-stu-id="05e43-110">Go to Organization administration > Global address book > Global address book.</span></span>
+2. <span data-ttu-id="05e43-111">Klõpsake valikut Registreerimise ID otsing.</span><span class="sxs-lookup"><span data-stu-id="05e43-111">Click Registration ID search.</span></span>
+3. <span data-ttu-id="05e43-112">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="05e43-112">Click Add.</span></span>
+4. <span data-ttu-id="05e43-113">Sisestage või valige väärtus väljal Registreerimise tüüp.</span><span class="sxs-lookup"><span data-stu-id="05e43-113">In the Registration type field, enter or select a value.</span></span>
+    * <span data-ttu-id="05e43-114">Näiteks kui soovite leida osapooli, kelle registreerimise ID tüüp on KM ID, valige KM ID.</span><span class="sxs-lookup"><span data-stu-id="05e43-114">For example, if you wanted to find parties with a registration ID of type VAT ID, select VAT ID.</span></span>  
+5. <span data-ttu-id="05e43-115">Sisestage või valige väärtus väljal Riik/piirkond.</span><span class="sxs-lookup"><span data-stu-id="05e43-115">In the Country/region field, enter or select a value.</span></span>
+    * <span data-ttu-id="05e43-116">Sisestage näiteks DEU.</span><span class="sxs-lookup"><span data-stu-id="05e43-116">For example, enter DEU.</span></span>  
+6. <span data-ttu-id="05e43-117">Tippige väärtus väljale Registreerimisnumber.</span><span class="sxs-lookup"><span data-stu-id="05e43-117">In the Registration number field, type a value.</span></span>
+7. <span data-ttu-id="05e43-118">Klõpsake käsku Otsi.</span><span class="sxs-lookup"><span data-stu-id="05e43-118">Click Find.</span></span>
+    * <span data-ttu-id="05e43-119">Kuvatakse kõik selle registreerimise ID-ga osapooled.</span><span class="sxs-lookup"><span data-stu-id="05e43-119">All parties with that registration ID will be displayed.</span></span>  
+

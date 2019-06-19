@@ -1,234 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="emea-invoice-processing.md" target-language="et-EE">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>emea-invoice-processing.e0cd34.7486282d4fad1f9557d19f33b067242debc264f2.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>7486282d4fad1f9557d19f33b067242debc264f2</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-invoice-processing.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Invoice processing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arve töötlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides information about invoice processing for Eastern Europe.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See teema annab teavet arve töötlemise kohta Ida-Euroopa puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Invoice processing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arve töötlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic briefly describes some country-specific scenarios, such as intra-community value-added tax (VAT) and deferred tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See teema käsitleb lühidalt mõningaid riigipõhiseid stsenaariume, nagu EL-i sisene käibemaks (KM) ja viitmaks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Legal requirements for some European countries affect the invoicing process.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mõne Euroopa riigi seadusenõuded mõjutavad arveldusprotsessi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This topic provides also an information about how customer and vendor invoices are processed for these countries.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles teemas on teave ka selle kohta, kuidas nende riikide puhul klientide ja hankijate arveid töödeldakse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Scenario</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stsenaarium</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Countries</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Riigid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Description of the functionality changes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funktsioonimuudatuste kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Accounts receivable and Accounts payable dates for VAT</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Müügireskontro ja ostureskontro kuupäevad käibemaksu jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Czech Republic, Poland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tšehhi Vabariik, Poola</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>When goods are purchased from European Union (EU) countries, there is an obligation of self-assessment of VAT:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Euroopa Liidu (EL) riikidest kaupade ostmisel on kohustuslik iseseisev KM arvestamine:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>The output VAT must be paid in a VAT period where the invoice was issued (document date).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">arvestatud KM tuleb maksta sellel KM-perioodil, millal arve väljastati (dokumendi kuupäev).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>The input VAT can’t be deducted before the document receipt (VAT register date).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisendkäibemaksu ei saa enne dokumendi kättesaamist (KM registreerimise kuupäeva) maha arvestada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>The following settings should be configured to support this scenario:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle stsenaariumi toetamiseks peaksid olema konfigureeritud järgmised sätted.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>On the <bpt id="p1">&lt;strong&gt;</bpt>Accounts payable parameters<ept id="p1">&lt;/strong&gt;</ept> page, enable the <bpt id="p2">&lt;strong&gt;</bpt>Intra-community VAT<ept id="p2">&lt;/strong&gt;</ept> and <bpt id="p3">&lt;strong&gt;</bpt>Document date for intra-community VAT<ept id="p3">&lt;/strong&gt;</ept> parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aktiveerige lehel <bpt id="p1">&lt;strong&gt;</bpt>Ostureskontro parameetrid<ept id="p1">&lt;/strong&gt;</ept> valik <bpt id="p2">&lt;strong&gt;</bpt>EL-i sisene KM<ept id="p2">&lt;/strong&gt;</ept> ja <bpt id="p3">&lt;strong&gt;</bpt>Dokumendi kuupäev EL-i sisese käibemaksu puhul<ept id="p3">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Set up two sales tax codes, one that has a positive sales tax percentage and one that has a negative sales tax percentage.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seadistage kuni kaks käibemaksukoodi: üks, millel on positiivne käibemaksuprotsent ja teine, millel on negatiivne käibemaksuprotsent.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Set up a sales tax group that includes both the positive and negative sales tax codes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seadistage käibemaksugrupp, mis sisaldab nii positiivset kui ka negatiivset käibemaksukoodi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>For the negative sales tax code, set the <bpt id="p1">&lt;strong&gt;</bpt>Intracommunity VAT<ept id="p1">&lt;/strong&gt;</ept> parameter to <bpt id="p2">&lt;strong&gt;</bpt>Yes<ept id="p2">&lt;/strong&gt;</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Negatiivse käibemaksukoodi puhul määrake parameetri <bpt id="p1">&lt;strong&gt;</bpt>EL-i sisene KM<ept id="p1">&lt;/strong&gt;</ept> väärtuseks <bpt id="p2">&lt;strong&gt;</bpt>Jah<ept id="p2">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>After successful setup, purchases will have two posted sales tax transactions:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast edukat seadistust on ostudel kaks sisestatud käibemaksukannet:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>A positive transaction that has a direction of <bpt id="p1">&lt;strong&gt;</bpt>sales tax receivable<ept id="p1">&lt;/strong&gt;</ept> and a VAT register date that equals the date from the invoice posting page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">positiivne kanne, mille suund on <bpt id="p1">&lt;strong&gt;</bpt>saadaolev käibemaks<ept id="p1">&lt;/strong&gt;</ept> ja millel on arve sisestuslehe kuupäevaga võrdne käibemaksu registreerimiskuupäev;</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>A negative transaction that has a direction of <bpt id="p1">&lt;strong&gt;</bpt>sales tax payable<ept id="p1">&lt;/strong&gt;</ept> and a VAT register date that equals the document date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">negatiivne kanne, mille suund on <bpt id="p1">&lt;strong&gt;</bpt>maksmisele kuuluv käibemaks<ept id="p1">&lt;/strong&gt;</ept> ja mille käibemaksu registreerimiskuupäev on võrdne dokumendi kuupäevaga.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Modify a sales document date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müügidokumendi kuupäeva muutmine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>All Eastern European countries</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõik Ida-Euroopa riigid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>You can modify the <bpt id="p1">&lt;strong&gt;</bpt>Document date<ept id="p1">&lt;/strong&gt;</ept> field on a project invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate muuta välja <bpt id="p1">&lt;strong&gt;</bpt>Dokumendi kuupäev<ept id="p1">&lt;/strong&gt;</ept> projekti arvel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>This date appears on the printed invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See kuupäev kuvatakse prinditud arvel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>There is also a <bpt id="p1">&lt;strong&gt;</bpt>Document date<ept id="p1">&lt;/strong&gt;</ept> field on the <bpt id="p2">&lt;strong&gt;</bpt>Posting invoice<ept id="p2">&lt;/strong&gt;</ept> and <bpt id="p3">&lt;strong&gt;</bpt>Free text invoice<ept id="p3">&lt;/strong&gt;</ept> pages.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lehtedel <bpt id="p2">&lt;strong&gt;</bpt>Arve sisestamine<ept id="p2">&lt;/strong&gt;</ept> ja <bpt id="p3">&lt;strong&gt;</bpt>Vabas vormis arve<ept id="p3">&lt;/strong&gt;</ept> on ka väli <bpt id="p1">&lt;strong&gt;</bpt>Dokumendi kuupäev<ept id="p1">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>After you post an invoice, the document date appears on the invoice header.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast arve sisestamist kuvatakse dokumendi kuupäev arve päises.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Document date for exchange rates</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dokumendi kuupäev vahetuskursside jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Poland, Hungary, Czech Republic</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Poola, Ungari, Tšehhi Vabariik</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Legislation provides different rules for selecting valid exchange rates for business transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seaduses on äritehingute jaoks kehtivate vahetuskursside valimiseks erinevad reeglid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>In the <bpt id="p1">&lt;strong&gt;</bpt>Exchange rate date<ept id="p1">&lt;/strong&gt;</ept> field on the <bpt id="p2">&lt;strong&gt;</bpt>Accounts receivable parameters<ept id="p2">&lt;/strong&gt;</ept> and <bpt id="p3">&lt;strong&gt;</bpt>Accounts payable parameters<ept id="p3">&lt;/strong&gt;</ept> pages, you can select the date that should be used for amounts in the accounting currency calculation on purchase and sales documents.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lehtede <bpt id="p2">&lt;strong&gt;</bpt>Müügireskontro parameetrid<ept id="p2">&lt;/strong&gt;</ept> ja <bpt id="p3">&lt;strong&gt;</bpt>Ostureskontro parameetrid<ept id="p3">&lt;/strong&gt;</ept> väljal <bpt id="p1">&lt;strong&gt;</bpt>Vahetuskursi kuupäev<ept id="p1">&lt;/strong&gt;</ept> saab valida kuupäeva, mida tuleks kasutada ostu- ja müügidokumentidel arvestusvaluuta arvutuste jaoks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>During data entry, the system retrieves the exchange rate for the transaction, based on this parameter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Andmete sisestamisel toob süsteem selle parameetri põhjal kande vahetuskursi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>When you set the <bpt id="p1">&lt;strong&gt;</bpt>Exchange rate date<ept id="p1">&lt;/strong&gt;</ept> field to <bpt id="p2">&lt;strong&gt;</bpt>Document date (for EU trade only)<ept id="p2">&lt;/strong&gt;</ept>, the system uses the sales tax group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui määrate välja <bpt id="p1">&lt;strong&gt;</bpt>Vahetuskursi kuupäev<ept id="p1">&lt;/strong&gt;</ept> väärtuseks <bpt id="p2">&lt;strong&gt;</bpt>Dokumendi kuupäev (ainult EL-i kaubanduse puhul)<ept id="p2">&lt;/strong&gt;</ept>, kasutab süsteem käibemaksugruppi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>For the sales tax group, there is a <bpt id="p1">&lt;strong&gt;</bpt>EU trade<ept id="p1">&lt;/strong&gt;</ept> parameter on the <bpt id="p2">&lt;strong&gt;</bpt>General<ept id="p2">&lt;/strong&gt;</ept> tab. If the <bpt id="p3">&lt;strong&gt;</bpt>EU trade<ept id="p3">&lt;/strong&gt;</ept> option is set to <bpt id="p4">&lt;strong&gt;</bpt>Yes<ept id="p4">&lt;/strong&gt;</ept> for the sales tax group, and if this sales tax group exists on the header of the document, the system retrieves the exchange rate based on the document date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksugrupi puhul on vahekaardil <bpt id="p2">&lt;strong&gt;</bpt>Üldine<ept id="p2">&lt;/strong&gt;</ept> parameeter <bpt id="p1">&lt;strong&gt;</bpt>EL-i kaubandus<ept id="p1">&lt;/strong&gt;</ept>. Kui käibemaksugrupil on valiku <bpt id="p3">&lt;strong&gt;</bpt>EL-i kaubandus<ept id="p3">&lt;/strong&gt;</ept> väärtuseks määratud <bpt id="p4">&lt;strong&gt;</bpt>Jah<ept id="p4">&lt;/strong&gt;</ept> ja kui see käibemaksugrupp on dokumendi päises olemas, toob süsteem vahetuskursi dokumendi kuupäeva põhjal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>If the <bpt id="p1">&lt;strong&gt;</bpt>EU trade<ept id="p1">&lt;/strong&gt;</ept> option is set to <bpt id="p2">&lt;strong&gt;</bpt>No<ept id="p2">&lt;/strong&gt;</ept> for this sales tax group, the system retrieves the exchange rate based on the posting date of the document.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui selle käibemaksugrupi puhul on valiku <bpt id="p1">&lt;strong&gt;</bpt>EL-i kaubandus<ept id="p1">&lt;/strong&gt;</ept> väärtuseks määratud <bpt id="p2">&lt;strong&gt;</bpt>Ei<ept id="p2">&lt;/strong&gt;</ept>, toob süsteem vahetuskursi dokumendi sisestuskuupäeva põhjal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Trade dates, VAT register dates, and document and VAT date control</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaubavahetuse kuupäevad, käibemaksu registreerimise kuupäevad ja käibemaksu kuupäeva juhtimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Poland, Hungary, Czech Republic</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Poola, Ungari, Tšehhi Vabariik</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>The sales date and the document receipt date are required for VAT reporting:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müügikuupäev ja dokumendi vastuvõtukuupäev on käibemaksuaruande jaoks kohustuslikud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>The sales date is the fulfilment date of the transaction in Accounts receivable.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müügikuupäev on kande täitmise kuupäev müügireskontrol.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>The document receipt date is a date that demonstrates the rights to claim a VAT deduction in Accounts payable.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dokumendi vastuvõtukuupäev on kuupäev, mis näitab käibemaksu mahaarvamise nõudmise õigusi ostureskontrol.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Each document that is received has a date for audit purposes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Igal vastuvõetaval dokumendil on auditeerimiseks kuupäev.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>The Hungarian functionality for date deadlines, the Czech Republic functionality for fulfill dates, and the Polish functionality for the VAT register date include the requirement for tax information reporting that is based on a date that differs from the posting date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ungari kuupäeva tähtaegade funktsioon, Tšehhi Vabariigi kuupäevade täitmise funktsioon ja Poola KM registreerimise kuupäeva funktsioon hõlmavad maksuteabe aruandluse nõuet, mis põhineb sisestuskuupäevast erineval kuupäeval.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>The <bpt id="p1">&lt;strong&gt;</bpt>Date of VAT register<ept id="p1">&lt;/strong&gt;</ept> field supports this requirement and appears on more than 20 pages.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väli <bpt id="p1">&lt;strong&gt;</bpt>KM-registri kuupäev<ept id="p1">&lt;/strong&gt;</ept> toetab seda nõuet ja kuvatakse rohkem kui 20 lehel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>These pages include journals, sales orders, purchase orders, free-text invoices, vendor invoice journals, and project invoices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nende lehtede hulka kuuluvad töölehed, müügitellimused, ostutellimused, vabas vormis arved, hankija arve töölehed ja projektiarved.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>When you update or post the documents, all taxes are posted by using the corresponding date of the VAT register, and the date is included on pages such as the customer and vendor invoice journals pages.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dokumentide värskendamisel või sisestamisel sisestatakse kõik maksud käibemaksuregistri asjakohase kuupäevaga ja kuupäev on lisatud lehtedele, nt kliendi ja hankija arve töölehtede lehtedele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Specifically, for the Czech Republic, the <bpt id="p1">&lt;strong&gt;</bpt>VAT register date<ept id="p1">&lt;/strong&gt;</ept> field can be blank during posting, in the event of postponed VAT posting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konkreetselt Tšehhi Vabariigi puhul võib väli <bpt id="p1">&lt;strong&gt;</bpt>Käibemaksu registreerimiskuupäev<ept id="p1">&lt;/strong&gt;</ept> sisestamise ajal tühi olla, kui KM-sisestus on edasi lükatud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Otherwise, the field is mandatory and must be filled in.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vastasel korral väli on kohustuslik ja tuleb täita.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Date validation parameters can be set on the <bpt id="p1">&lt;strong&gt;</bpt>Sales tax groups<ept id="p1">&lt;/strong&gt;</ept> page:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuupäeva valideerimise parameetrid saab määrata lehel <bpt id="p1">&lt;strong&gt;</bpt>Käibemaksugrupid<ept id="p1">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>The <bpt id="p1">&lt;strong&gt;</bpt>Date of VAT register filling<ept id="p1">&lt;/strong&gt;</ept> and <bpt id="p2">&lt;strong&gt;</bpt>Sales date filling<ept id="p2">&lt;/strong&gt;</ept> parameters are used as a default filling method for appropriate dates.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parameetreid <bpt id="p1">&lt;strong&gt;</bpt>KM-registri kuupäeva täitmine<ept id="p1">&lt;/strong&gt;</ept> ja <bpt id="p2">&lt;strong&gt;</bpt>Müügikuupäeva täitmine<ept id="p2">&lt;/strong&gt;</ept> kasutatakse täitmise vaikemeetodina sobivatel kuupäevadel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Manual input and several automated input methods are also available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saadaval on ka käsitsi sisestus ja mitu automaatset sisestusmeetodit.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>The <bpt id="p1">&lt;strong&gt;</bpt>Mandatory sales date<ept id="p1">&lt;/strong&gt;</ept> field indicates whether the sales date must be entered before a sales invoice is posted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väljal <bpt id="p1">&lt;strong&gt;</bpt>Kohustuslik müügikuupäev<ept id="p1">&lt;/strong&gt;</ept> on näidatud, kas müügikuupäev tuleb sisestada enne müügiarve sisestamist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>On the <bpt id="p1">&lt;strong&gt;</bpt>VAT Register transactions<ept id="p1">&lt;/strong&gt;</ept> page, you can fill in blank dates for the VAT register for posted tax transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lehel <bpt id="p1">&lt;strong&gt;</bpt>Käibemaksuregistri kanded<ept id="p1">&lt;/strong&gt;</ept> saate täita sisestatud maksukannete kohta käibemaksuregistri tühjad kuupäevad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>VAT register dates that include deferred tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">KM-registri kuupäevad, mis sisaldavad viitmaksu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Hungary</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ungari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Hungary tax regulations require that invoices be created at either the time of fulfilment or no later than 15 days after fulfilment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ungari maksuseadused nõuavad, et arved koostatakse kas täitmise ajal või hiljemalt 15 päeva pärast täitmist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>The fulfilment date is either the date when the ordered services were provided or the date when ordered items were delivered.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Täitmise kuupäev on tellitud teenuste osutamise või tellitud kaupade kohaletoimetamise kuupäev.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>When you update or post the documents, all taxes are posted by using the corresponding date of the VAT register, and the date appears on relevant pages.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dokumentide muutmisel või sisestamisel sisestatakse kõik maksud, kasutades vastavat käibemaksuregistri kuupäeva, ja kuupäev kuvatakse vastavatel lehtedel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Additionally, regulations require that VAT on continuous delivery of services, such as renting, leasing, consulting, and heating, meet the following criteria:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisaks nõuavad eeskirjad, et pidevalt osutatavate teenuste (nt rentimine, liisimine, konsultatsioonid ja küte) KM vastaks järgmistele kriteeriumidele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>VAT must be posted to a dedicated general ledger account on the invoice date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">KM tuleb sisestada spetsiaalsele pearaamatukontole arve kuupäeval.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>VAT must be transferred from the special accounts to a sales tax receivable account or a payable account, and must be included in the VAT report on the due date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">KM tuleb kanda üle spetsiaalsetelt kontodelt saadaoleva või tasumisele kuuluva käibemaksu kontole ja see peab kajastuma ettenähtud kuupäeva KM-aruandes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>To support these requirements, you can transfer General ledger postings to the Deferred incoming tax account and the Deferred outgoing tax account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nende nõuete täitmiseks võite kanda pearaamatu sisestused laekuva viitmaksu kontole ja väljamineva viitmaksu kontole.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>However, you must first complete the following prerequisites:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuid kõigepealt peavad olema täidetud järgmised eeltingimused.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Set up the Deferred VAT Payable and Deferred VAT Receivable ledger accounts in ledger posting groups.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seadistage pearaamatu sisestamisgruppides maksmisele kuuluva viitkäibemaksu ja saadaoleva viitkäibemaksu pearaamatukontod.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Enable the <bpt id="p1">&lt;strong&gt;</bpt>Deferred VAT<ept id="p1">&lt;/strong&gt;</ept> parameter for item sales tax groups.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lubage kauba käibemaksugruppide parameeter <bpt id="p1">&lt;strong&gt;</bpt>Viitkäibemaks<ept id="p1">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Mandatory VAT date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Kohustuslik käibemaksu kuupäev</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Poland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Poola</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>You can require that the date of the VAT register be included in purchase and sales transaction records.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Võite nõuda, et KM-registri kuupäev lisataks ostu- ja müügikande kirjetele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Therefore, the date of the VAT register can be captured before a transaction is posted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seetõttu saab KM-registri kuupäeva hõivata enne kande sisestamist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>This functionality helps you avoid having to handle multiple transactions at the end of the period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle funktsiooni abil saate vältida mitme kande töötlemist perioodi lõpus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>You can make the <bpt id="p1">&lt;strong&gt;</bpt>Date of VAT register<ept id="p1">&lt;/strong&gt;</ept> field mandatory when customer or vendor transactions are posted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate muuta välja <bpt id="p1">&lt;strong&gt;</bpt>KM-registri kuupäev<ept id="p1">&lt;/strong&gt;</ept> kliendi või hankija kannete sisestamisel kohustuslikuks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>To make this field mandatory, enable the <bpt id="p1">&lt;strong&gt;</bpt>VAT date is required<ept id="p1">&lt;/strong&gt;</ept> option for the related customer or vendor account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Välja kohustuslikuks muutmiseks lubage seotud kliendi või hankija kontol valik <bpt id="p1">&lt;strong&gt;</bpt>KM kuupäev on nõutav<ept id="p1">&lt;/strong&gt;</ept>.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Arve töötlemine
+description: See teema annab teavet arve töötlemise kohta Ida-Euroopa puhul.
+author: v-kikozl
+manager: AnnBe
+ms.date: 07/21/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CustParameters, VendParameters
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
+ms.author: v-kikozl
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 7486282d4fad1f9557d19f33b067242debc264f2
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566763"
+---
+# <a name="invoice-processing"></a><span data-ttu-id="edadf-103">Arve töötlemine</span><span class="sxs-lookup"><span data-stu-id="edadf-103">Invoice processing</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="edadf-104">See teema käsitleb lühidalt mõningaid riigipõhiseid stsenaariume, nagu EL-i sisene käibemaks (KM) ja viitmaks.</span><span class="sxs-lookup"><span data-stu-id="edadf-104">This topic briefly describes some country-specific scenarios, such as intra-community value-added tax (VAT) and deferred tax.</span></span> <span data-ttu-id="edadf-105">Mõne Euroopa riigi seadusenõuded mõjutavad arveldusprotsessi.</span><span class="sxs-lookup"><span data-stu-id="edadf-105">Legal requirements for some European countries affect the invoicing process.</span></span> <span data-ttu-id="edadf-106">Selles teemas on teave ka selle kohta, kuidas nende riikide puhul klientide ja hankijate arveid töödeldakse.</span><span class="sxs-lookup"><span data-stu-id="edadf-106">This topic provides also an information about how customer and vendor invoices are processed for these countries.</span></span> 
+<table>
+<thead>
+<tr>
+<th><span data-ttu-id="edadf-107">Stsenaarium</span><span class="sxs-lookup"><span data-stu-id="edadf-107">Scenario</span></span></th>
+<th><span data-ttu-id="edadf-108">Riigid</span><span class="sxs-lookup"><span data-stu-id="edadf-108">Countries</span></span></th>
+<th><span data-ttu-id="edadf-109">Funktsioonimuudatuste kirjeldus</span><span class="sxs-lookup"><span data-stu-id="edadf-109">Description of the functionality changes</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="edadf-110"> Müügireskontro ja ostureskontro kuupäevad käibemaksu jaoks</span><span class="sxs-lookup"><span data-stu-id="edadf-110">Accounts receivable and Accounts payable dates for VAT</span></span></td>
+<td><span data-ttu-id="edadf-111">Tšehhi Vabariik, Poola</span><span class="sxs-lookup"><span data-stu-id="edadf-111">Czech Republic, Poland</span></span></td>
+<td>
+<p><span data-ttu-id="edadf-112">Euroopa Liidu (EL) riikidest kaupade ostmisel on kohustuslik iseseisev KM arvestamine:</span><span class="sxs-lookup"><span data-stu-id="edadf-112">When goods are purchased from European Union (EU) countries, there is an obligation of self-assessment of VAT:</span></span></p>
+<ul>
+<li><span data-ttu-id="edadf-113">arvestatud KM tuleb maksta sellel KM-perioodil, millal arve väljastati (dokumendi kuupäev).</span><span class="sxs-lookup"><span data-stu-id="edadf-113">The output VAT must be paid in a VAT period where the invoice was issued (document date).</span></span></li>
+<li><span data-ttu-id="edadf-114">Sisendkäibemaksu ei saa enne dokumendi kättesaamist (KM registreerimise kuupäeva) maha arvestada.</span><span class="sxs-lookup"><span data-stu-id="edadf-114">The input VAT can’t be deducted before the document receipt (VAT register date).</span></span></li>
+</ul>
+<p><span data-ttu-id="edadf-115">Selle stsenaariumi toetamiseks peaksid olema konfigureeritud järgmised sätted.</span><span class="sxs-lookup"><span data-stu-id="edadf-115">The following settings should be configured to support this scenario:</span></span></p>
+<ul>
+<li><span data-ttu-id="edadf-116">Aktiveerige lehel <strong>Ostureskontro parameetrid</strong> valik <strong>EL-i sisene KM</strong> ja <strong>Dokumendi kuupäev EL-i sisese käibemaksu puhul</strong>.</span><span class="sxs-lookup"><span data-stu-id="edadf-116">On the <strong>Accounts payable parameters</strong> page, enable the <strong>Intra-community VAT</strong> and <strong>Document date for intra-community VAT</strong> parameters.</span></span></li>
+<li><span data-ttu-id="edadf-117">Seadistage kuni kaks käibemaksukoodi: üks, millel on positiivne käibemaksuprotsent ja teine, millel on negatiivne käibemaksuprotsent.</span><span class="sxs-lookup"><span data-stu-id="edadf-117">Set up two sales tax codes, one that has a positive sales tax percentage and one that has a negative sales tax percentage.</span></span></li>
+<li><span data-ttu-id="edadf-118">Seadistage käibemaksugrupp, mis sisaldab nii positiivset kui ka negatiivset käibemaksukoodi.</span><span class="sxs-lookup"><span data-stu-id="edadf-118">Set up a sales tax group that includes both the positive and negative sales tax codes.</span></span> <span data-ttu-id="edadf-119">Negatiivse käibemaksukoodi puhul määrake parameetri <strong>EL-i sisene KM</strong> väärtuseks <strong>Jah</strong>.</span><span class="sxs-lookup"><span data-stu-id="edadf-119">For the negative sales tax code, set the <strong>Intracommunity VAT</strong> parameter to <strong>Yes</strong>.</span></span></li>
+</ul>
+<p><span data-ttu-id="edadf-120">Pärast edukat seadistust on ostudel kaks sisestatud käibemaksukannet:</span><span class="sxs-lookup"><span data-stu-id="edadf-120">After successful setup, purchases will have two posted sales tax transactions:</span></span></p>
+<ul>
+<li><span data-ttu-id="edadf-121">positiivne kanne, mille suund on <strong>saadaolev käibemaks</strong> ja millel on arve sisestuslehe kuupäevaga võrdne käibemaksu registreerimiskuupäev;</span><span class="sxs-lookup"><span data-stu-id="edadf-121">A positive transaction that has a direction of <strong>sales tax receivable</strong> and a VAT register date that equals the date from the invoice posting page.</span></span></li>
+<li><span data-ttu-id="edadf-122">negatiivne kanne, mille suund on <strong>maksmisele kuuluv käibemaks</strong> ja mille käibemaksu registreerimiskuupäev on võrdne dokumendi kuupäevaga.</span><span class="sxs-lookup"><span data-stu-id="edadf-122">A negative transaction that has a direction of <strong>sales tax payable</strong> and a VAT register date that equals the document date.</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="edadf-123">Müügidokumendi kuupäeva muutmine.</span><span class="sxs-lookup"><span data-stu-id="edadf-123">Modify a sales document date.</span></span></td>
+<td><span data-ttu-id="edadf-124">Kõik Ida-Euroopa riigid</span><span class="sxs-lookup"><span data-stu-id="edadf-124">All Eastern European countries</span></span></td>
+<td><p><span data-ttu-id="edadf-125">Saate muuta välja <strong>Dokumendi kuupäev</strong> projekti arvel.</span><span class="sxs-lookup"><span data-stu-id="edadf-125">You can modify the <strong>Document date</strong> field on a project invoice.</span></span> <span data-ttu-id="edadf-126">See kuupäev kuvatakse prinditud arvel.</span><span class="sxs-lookup"><span data-stu-id="edadf-126">This date appears on the printed invoice.</span></span></p>
+<p><span data-ttu-id="edadf-127">Lehtedel <strong>Arve sisestamine</strong> ja <strong>Vabas vormis arve</strong> on ka väli <strong>Dokumendi kuupäev</strong>.</span><span class="sxs-lookup"><span data-stu-id="edadf-127">There is also a <strong>Document date</strong> field on the <strong>Posting invoice</strong> and <strong>Free text invoice</strong> pages.</span></span> <span data-ttu-id="edadf-128">Pärast arve sisestamist kuvatakse dokumendi kuupäev arve päises.</span><span class="sxs-lookup"><span data-stu-id="edadf-128">After you post an invoice, the document date appears on the invoice header.</span></span></p>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="edadf-129">Dokumendi kuupäev vahetuskursside jaoks</span><span class="sxs-lookup"><span data-stu-id="edadf-129">Document date for exchange rates</span></span></td>
+<td><span data-ttu-id="edadf-130">Poola, Ungari, Tšehhi Vabariik</span><span class="sxs-lookup"><span data-stu-id="edadf-130">Poland, Hungary, Czech Republic</span></span></td>
+<td>
+<p><span data-ttu-id="edadf-131">Seaduses on äritehingute jaoks kehtivate vahetuskursside valimiseks erinevad reeglid.</span><span class="sxs-lookup"><span data-stu-id="edadf-131">Legislation provides different rules for selecting valid exchange rates for business transactions.</span></span> <span data-ttu-id="edadf-132">Lehtede <strong>Müügireskontro parameetrid</strong> ja <strong>Ostureskontro parameetrid</strong> väljal <strong>Vahetuskursi kuupäev</strong> saab valida kuupäeva, mida tuleks kasutada ostu- ja müügidokumentidel arvestusvaluuta arvutuste jaoks.</span><span class="sxs-lookup"><span data-stu-id="edadf-132">In the <strong>Exchange rate date</strong> field on the <strong>Accounts receivable parameters</strong> and <strong>Accounts payable parameters</strong> pages, you can select the date that should be used for amounts in the accounting currency calculation on purchase and sales documents.</span></span> <span data-ttu-id="edadf-133">Andmete sisestamisel toob süsteem selle parameetri põhjal kande vahetuskursi.</span><span class="sxs-lookup"><span data-stu-id="edadf-133">During data entry, the system retrieves the exchange rate for the transaction, based on this parameter.</span></span></p>
+<blockquote>[!NOTE]<br><span data-ttu-id="edadf-134">Kui määrate välja <strong>Vahetuskursi kuupäev</strong> väärtuseks <strong>Dokumendi kuupäev (ainult EL-i kaubanduse puhul)</strong>, kasutab süsteem käibemaksugruppi.</span><span class="sxs-lookup"><span data-stu-id="edadf-134">When you set the <strong>Exchange rate date</strong> field to <strong>Document date (for EU trade only)</strong>, the system uses the sales tax group.</span></span> <span data-ttu-id="edadf-135">Käibemaksugrupi puhul on vahekaardil <strong>Üldine</strong> parameeter <strong>EL-i kaubandus</strong>. Kui käibemaksugrupil on valiku <strong>EL-i kaubandus</strong> väärtuseks määratud <strong>Jah</strong> ja kui see käibemaksugrupp on dokumendi päises olemas, toob süsteem vahetuskursi dokumendi kuupäeva põhjal.</span><span class="sxs-lookup"><span data-stu-id="edadf-135">For the sales tax group, there is a <strong>EU trade</strong> parameter on the <strong>General</strong> tab. If the <strong>EU trade</strong> option is set to <strong>Yes</strong> for the sales tax group, and if this sales tax group exists on the header of the document, the system retrieves the exchange rate based on the document date.</span></span> <span data-ttu-id="edadf-136">Kui selle käibemaksugrupi puhul on valiku <strong>EL-i kaubandus</strong> väärtuseks määratud <strong>Ei</strong>, toob süsteem vahetuskursi dokumendi sisestuskuupäeva põhjal.</span><span class="sxs-lookup"><span data-stu-id="edadf-136">If the <strong>EU trade</strong> option is set to <strong>No</strong> for this sales tax group, the system retrieves the exchange rate based on the posting date of the document.</span></span></blockquote>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="edadf-137">Kaubavahetuse kuupäevad, käibemaksu registreerimise kuupäevad ja käibemaksu kuupäeva juhtimine</span><span class="sxs-lookup"><span data-stu-id="edadf-137">Trade dates, VAT register dates, and document and VAT date control</span></span></td>
+<td><span data-ttu-id="edadf-138">Poola, Ungari, Tšehhi Vabariik</span><span class="sxs-lookup"><span data-stu-id="edadf-138">Poland, Hungary, Czech Republic</span></span></td>
+<td>
+<p><span data-ttu-id="edadf-139">Müügikuupäev ja dokumendi vastuvõtukuupäev on käibemaksuaruande jaoks kohustuslikud.</span><span class="sxs-lookup"><span data-stu-id="edadf-139">The sales date and the document receipt date are required for VAT reporting:</span></span></p>
+<ul>
+<li><span data-ttu-id="edadf-140">Müügikuupäev on kande täitmise kuupäev müügireskontrol.</span><span class="sxs-lookup"><span data-stu-id="edadf-140">The sales date is the fulfilment date of the transaction in Accounts receivable.</span></span></li>
+<li><span data-ttu-id="edadf-141">Dokumendi vastuvõtukuupäev on kuupäev, mis näitab käibemaksu mahaarvamise nõudmise õigusi ostureskontrol.</span><span class="sxs-lookup"><span data-stu-id="edadf-141">The document receipt date is a date that demonstrates the rights to claim a VAT deduction in Accounts payable.</span></span> <span data-ttu-id="edadf-142">Igal vastuvõetaval dokumendil on auditeerimiseks kuupäev.</span><span class="sxs-lookup"><span data-stu-id="edadf-142">Each document that is received has a date for audit purposes.</span></span></li>
+</ul>
+<p><span data-ttu-id="edadf-143">Ungari kuupäeva tähtaegade funktsioon, Tšehhi Vabariigi kuupäevade täitmise funktsioon ja Poola KM registreerimise kuupäeva funktsioon hõlmavad maksuteabe aruandluse nõuet, mis põhineb sisestuskuupäevast erineval kuupäeval.</span><span class="sxs-lookup"><span data-stu-id="edadf-143">The Hungarian functionality for date deadlines, the Czech Republic functionality for fulfill dates, and the Polish functionality for the VAT register date include the requirement for tax information reporting that is based on a date that differs from the posting date.</span></span></p>
+<p><span data-ttu-id="edadf-144">Väli <strong>KM-registri kuupäev</strong> toetab seda nõuet ja kuvatakse rohkem kui 20 lehel.</span><span class="sxs-lookup"><span data-stu-id="edadf-144">The <strong>Date of VAT register</strong> field supports this requirement and appears on more than 20 pages.</span></span> <span data-ttu-id="edadf-145">Nende lehtede hulka kuuluvad töölehed, müügitellimused, ostutellimused, vabas vormis arved, hankija arve töölehed ja projektiarved.</span><span class="sxs-lookup"><span data-stu-id="edadf-145">These pages include journals, sales orders, purchase orders, free-text invoices, vendor invoice journals, and project invoices.</span></span> <span data-ttu-id="edadf-146">Dokumentide värskendamisel või sisestamisel sisestatakse kõik maksud käibemaksuregistri asjakohase kuupäevaga ja kuupäev on lisatud lehtedele, nt kliendi ja hankija arve töölehtede lehtedele.</span><span class="sxs-lookup"><span data-stu-id="edadf-146">When you update or post the documents, all taxes are posted by using the corresponding date of the VAT register, and the date is included on pages such as the customer and vendor invoice journals pages.</span></span></p>
+<p><span data-ttu-id="edadf-147">Konkreetselt Tšehhi Vabariigi puhul võib väli <strong>Käibemaksu registreerimiskuupäev</strong> sisestamise ajal tühi olla, kui KM-sisestus on edasi lükatud.</span><span class="sxs-lookup"><span data-stu-id="edadf-147">Specifically, for the Czech Republic, the <strong>VAT register date</strong> field can be blank during posting, in the event of postponed VAT posting.</span></span> <span data-ttu-id="edadf-148">Vastasel korral väli on kohustuslik ja tuleb täita.</span><span class="sxs-lookup"><span data-stu-id="edadf-148">Otherwise, the field is mandatory and must be filled in.</span></span></p>
+<p><span data-ttu-id="edadf-149">Kuupäeva valideerimise parameetrid saab määrata lehel <strong>Käibemaksugrupid</strong>.</span><span class="sxs-lookup"><span data-stu-id="edadf-149">Date validation parameters can be set on the <strong>Sales tax groups</strong> page:</span></span></p>
+<ul>
+<li><span data-ttu-id="edadf-150">Parameetreid <strong>KM-registri kuupäeva täitmine</strong> ja <strong>Müügikuupäeva täitmine</strong> kasutatakse täitmise vaikemeetodina sobivatel kuupäevadel.</span><span class="sxs-lookup"><span data-stu-id="edadf-150">The <strong>Date of VAT register filling</strong> and <strong>Sales date filling</strong> parameters are used as a default filling method for appropriate dates.</span></span> <span data-ttu-id="edadf-151">Saadaval on ka käsitsi sisestus ja mitu automaatset sisestusmeetodit.</span><span class="sxs-lookup"><span data-stu-id="edadf-151">Manual input and several automated input methods are also available.</span></span></li>
+<li><span data-ttu-id="edadf-152">Väljal <strong>Kohustuslik müügikuupäev</strong> on näidatud, kas müügikuupäev tuleb sisestada enne müügiarve sisestamist.</span><span class="sxs-lookup"><span data-stu-id="edadf-152">The <strong>Mandatory sales date</strong> field indicates whether the sales date must be entered before a sales invoice is posted.</span></span></li>
+</ul>
+<p><span data-ttu-id="edadf-153">Lehel <strong>Käibemaksuregistri kanded</strong> saate täita sisestatud maksukannete kohta käibemaksuregistri tühjad kuupäevad.</span><span class="sxs-lookup"><span data-stu-id="edadf-153">On the <strong>VAT Register transactions</strong> page, you can fill in blank dates for the VAT register for posted tax transactions.</span></span></p>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="edadf-154">KM-registri kuupäevad, mis sisaldavad viitmaksu</span><span class="sxs-lookup"><span data-stu-id="edadf-154">VAT register dates that include deferred tax</span></span></td>
+<td><span data-ttu-id="edadf-155">Ungari</span><span class="sxs-lookup"><span data-stu-id="edadf-155">Hungary</span></span></td>
+<td>
+<p><span data-ttu-id="edadf-156">Ungari maksuseadused nõuavad, et arved koostatakse kas täitmise ajal või hiljemalt 15 päeva pärast täitmist.</span><span class="sxs-lookup"><span data-stu-id="edadf-156">Hungary tax regulations require that invoices be created at either the time of fulfilment or no later than 15 days after fulfilment.</span></span></p>
+<p><span data-ttu-id="edadf-157">Täitmise kuupäev on tellitud teenuste osutamise või tellitud kaupade kohaletoimetamise kuupäev.</span><span class="sxs-lookup"><span data-stu-id="edadf-157">The fulfilment date is either the date when the ordered services were provided or the date when ordered items were delivered.</span></span> <span data-ttu-id="edadf-158">Dokumentide muutmisel või sisestamisel sisestatakse kõik maksud, kasutades vastavat käibemaksuregistri kuupäeva, ja kuupäev kuvatakse vastavatel lehtedel.</span><span class="sxs-lookup"><span data-stu-id="edadf-158">When you update or post the documents, all taxes are posted by using the corresponding date of the VAT register, and the date appears on relevant pages.</span></span> <span data-ttu-id="edadf-159">Lisaks nõuavad eeskirjad, et pidevalt osutatavate teenuste (nt rentimine, liisimine, konsultatsioonid ja küte) KM vastaks järgmistele kriteeriumidele.</span><span class="sxs-lookup"><span data-stu-id="edadf-159">Additionally, regulations require that VAT on continuous delivery of services, such as renting, leasing, consulting, and heating, meet the following criteria:</span></span></p>
+<ul>
+<li><span data-ttu-id="edadf-160">KM tuleb sisestada spetsiaalsele pearaamatukontole arve kuupäeval.</span><span class="sxs-lookup"><span data-stu-id="edadf-160">VAT must be posted to a dedicated general ledger account on the invoice date.</span></span></li>
+<li><span data-ttu-id="edadf-161">KM tuleb kanda üle spetsiaalsetelt kontodelt saadaoleva või tasumisele kuuluva käibemaksu kontole ja see peab kajastuma ettenähtud kuupäeva KM-aruandes.</span><span class="sxs-lookup"><span data-stu-id="edadf-161">VAT must be transferred from the special accounts to a sales tax receivable account or a payable account, and must be included in the VAT report on the due date.</span></span></li>
+</ul>
+<p><span data-ttu-id="edadf-162">Nende nõuete täitmiseks võite kanda pearaamatu sisestused laekuva viitmaksu kontole ja väljamineva viitmaksu kontole.</span><span class="sxs-lookup"><span data-stu-id="edadf-162">To support these requirements, you can transfer General ledger postings to the Deferred incoming tax account and the Deferred outgoing tax account.</span></span> <span data-ttu-id="edadf-163">Kuid kõigepealt peavad olema täidetud järgmised eeltingimused.</span><span class="sxs-lookup"><span data-stu-id="edadf-163">However, you must first complete the following prerequisites:</span></span></p>
+<ul>
+<li><span data-ttu-id="edadf-164">Seadistage pearaamatu sisestamisgruppides maksmisele kuuluva viitkäibemaksu ja saadaoleva viitkäibemaksu pearaamatukontod.</span><span class="sxs-lookup"><span data-stu-id="edadf-164">Set up the Deferred VAT Payable and Deferred VAT Receivable ledger accounts in ledger posting groups.</span></span></li>
+<li><span data-ttu-id="edadf-165">Lubage kauba käibemaksugruppide parameeter <strong>Viitkäibemaks</strong>.</span><span class="sxs-lookup"><span data-stu-id="edadf-165">Enable the <strong>Deferred VAT</strong> parameter for item sales tax groups.</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="edadf-166"> Kohustuslik käibemaksu kuupäev</span><span class="sxs-lookup"><span data-stu-id="edadf-166">Mandatory VAT date</span></span></td>
+<td><span data-ttu-id="edadf-167">Poola</span><span class="sxs-lookup"><span data-stu-id="edadf-167">Poland</span></span></td>
+<td>
+<p><span data-ttu-id="edadf-168">Võite nõuda, et KM-registri kuupäev lisataks ostu- ja müügikande kirjetele.</span><span class="sxs-lookup"><span data-stu-id="edadf-168">You can require that the date of the VAT register be included in purchase and sales transaction records.</span></span> <span data-ttu-id="edadf-169">Seetõttu saab KM-registri kuupäeva hõivata enne kande sisestamist.</span><span class="sxs-lookup"><span data-stu-id="edadf-169">Therefore, the date of the VAT register can be captured before a transaction is posted.</span></span> <span data-ttu-id="edadf-170">Selle funktsiooni abil saate vältida mitme kande töötlemist perioodi lõpus.</span><span class="sxs-lookup"><span data-stu-id="edadf-170">This functionality helps you avoid having to handle multiple transactions at the end of the period.</span></span></p>
+<p><span data-ttu-id="edadf-171">Saate muuta välja <strong>KM-registri kuupäev</strong> kliendi või hankija kannete sisestamisel kohustuslikuks.</span><span class="sxs-lookup"><span data-stu-id="edadf-171">You can make the <strong>Date of VAT register</strong> field mandatory when customer or vendor transactions are posted.</span></span> <span data-ttu-id="edadf-172">Välja kohustuslikuks muutmiseks lubage seotud kliendi või hankija kontol valik <strong>KM kuupäev on nõutav</strong>.</span><span class="sxs-lookup"><span data-stu-id="edadf-172">To make this field mandatory, enable the <strong>VAT date is required</strong> option for the related customer or vendor account.</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
