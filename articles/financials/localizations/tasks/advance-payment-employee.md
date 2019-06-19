@@ -1,429 +1,173 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="advance-payment-employee.md" target-language="et-EE">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>advance-payment-employee.b35bf3.e3c07789bfa0839436caf32e428f3abeecb8f2b7.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>e3c07789bfa0839436caf32e428f3abeecb8f2b7</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\advance-payment-employee.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>EEU-00047 Advance payment to employee</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EEU-00047 Töötajale avansi maksmine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This procedure demonstrates how to set up and register transactions for an advance holder.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur näitab, kuidas seadistada ja registreerida avansisaaja kandeid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>EEU-00047 Advance payment to employee</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EEU-00047 Töötajale avansi maksmine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This procedure demonstrates how to set up and register transactions for an advance holder.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur näitab, kuidas seadistada ja registreerida avansisaaja kandeid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This procedure was created using the demo data company DEMF with a primary address in Lithuania.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle protseduuri loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Leedu, andmeid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This task only works for legal entities with a primary address in Poland, Lithuania, Latvia, Estonia, Czech Republic, or Hungary.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle toiming sobib ainule juriidilistele isikutele esmase aadressiga Poolas, Leedus, Lätis, Eestis, Tšehhi Vabariigis või Ungaris.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Create a new cash account</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uue sularahakonto loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Go to Cash and bank management &gt; Bank accounts &gt; Cash accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Minge jaotisse Sularaha- ja pangahaldus &gt; Pangakontod &gt; Sularahakontod.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Uus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In the Cash field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tippige väärtus väljale Sularaha.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>In the Name field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väärtus väljale Nimi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>In the Number sequence group field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Numbriseeria grupp.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Expand the Validation section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage jaotist Kinnitamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>In the Currency field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige või sisestage väärtus väljal Valuuta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Select Yes in the Negative cash field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke väljal Negatiivne kassa valik Jah.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Create a new journal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uue töölehe loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Go to General ledger &gt; Journal setup &gt; Journal names.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Minge jaotisesse Pearaamat &gt; Töölehe seadistamine &gt; Töölehtede nimed.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Uus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>In the Name field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väärtus väljale Nimi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>In the Voucher series field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Kande seeria.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Uus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>In the Name field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väärtus väljale Nimi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>In the Journal type field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige suvand väljal Töölehe tüüp.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>In the Voucher series field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Kande seeria.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Create an advance holder group</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avansisaajate grupi loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Go to Accounts payable &gt; Setup &gt; Advance holders &gt; Advance holder groups.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Ostureskonto &gt; Seadistus &gt; Avansisaajad &gt; Avansisaajate rühmad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Uus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>In the Group field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väärtus väljale Grupp.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Kirjeldus soovitud väärtus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Create an employee posting profile</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Töötaja sisestusreeglite loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Go to Accounts payable &gt; Setup &gt; Advance holders &gt; Employee posting profiles.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Ostureskontro &gt; Seadistus &gt; Avansisaajad &gt; Töötaja sisestusreeglid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Uus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>In the Posting profile field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väärtus väljale Sisestusreeglid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Kirjeldus soovitud väärtus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige loendis valitud rida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>In the Valid for field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige suvand väljal Kehtiv.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>In the Summary account field, specify the desired values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Määrake väljal Summakonto soovitud väärtused.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Set up advance holder parameters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avansisaaja parameetrite seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Go to Accounts payable &gt; Setup &gt; Accounts payable parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Ostureskontro &gt; Seadistus &gt; Ostureskontro parameetrid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Click the Advance holders tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake vahekaarti Avansisaajad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>In the Posting profile field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Sisestusreeglid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>In the Name field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Nimi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>In the Cash field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige või sisestage väärtus väljal Sularaha.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>In the Name field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Nimi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>In the Account type field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige suvand väljal Konto tüüp.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>In the Main account field, specify the desired values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Täpsustage soovitud väärtusi väljal Põhikonto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Click the Number sequences tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake vahekaarti Numbriseeriad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Set up a cash posting profile</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassa sisestusprofiili seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Go to Cash and bank management &gt; Setup &gt; Cash posting profiles.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Minge jaotisse Sularaha- ja pangahaldus &gt; Seadistus &gt; Sularaha sisestusreeglid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Uus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>In the Cash posting field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tippige väärtus väljale Kassaseisu sisestamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>In the Description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Kirjeldus soovitud väärtus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige loendis valitud rida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>In the Valid for field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige suvand väljal Kehtiv.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>In the Main account field, specify the desired values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Täpsustage soovitud väärtusi väljal Põhikonto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Set up cash and bank parameters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sularaha- ja pangahalduse parameetrite seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Go to Cash and bank management &gt; Setup &gt; Cash and bank management parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Minge jaotisse Sularaha- ja pangahaldus &gt; Seadistus &gt; Sularaha- ja pangahalduse parameetrid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Click the Cash tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake vahekaarti Sularaha.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>In the Cash field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige või sisestage väärtus väljal Sularaha.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>In the Cash posting field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige või sisestage väärtus väljal Kassaseisu sisestamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Click the Number sequences tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake vahekaarti Numbriseeriad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>In the list, find and select the desired record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otsige loendist ja valige soovitud kirje.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>In the Number sequence code field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Numbriseeria kood.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>In the list, find and select the desired record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otsige loendist ja valige soovitud kirje.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>In the Number sequence code field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Numbriseeria kood.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Set up terms of payment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksetingimuste häälestamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Go to Accounts payable &gt; Payment setup &gt; Terms of payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Ostureskontro &gt; Makse seadistus &gt; Maksetingimused.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Redigeeri.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Select Yes in the From advance holder field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke väljal Avansisaajalt valik Jah.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Create a new worker</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uue töötaja loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Go to Human resources &gt; Workers &gt; Workers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Personaliarvestus &gt; Töötajad &gt; Töötajad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Uus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>In the First name field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väärtus väljale Eesnimi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>In the Last name field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väärtus väljale Perekonnanimi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>In the Worker ID field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tippige väärtus väljale Töötaja ID.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Click Hire new worker.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Uue töötaja värbamine.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Set up a worker as an advance holder</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Töötaja seadistamine avansisaajaks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>Go to Accounts payable &gt; Advance holders &gt; Advance holders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Ostureskonto &gt; Avansisaajad &gt; Avansisaajad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Redigeeri.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>In the Group field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Grupp.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Select Yes in the Advance holder field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke väljal Avansisaaja valik Jah.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Create and post a purchase order invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostutellimuse arve loomine ja sisestamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Go to Accounts payable &gt; Purchase orders &gt; All purchase orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Ostureskontro &gt; Ostutellimused &gt; Kõik ostutellimused.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Uus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>In the Vendor account field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väärtus väljale Hankija konto või valige see.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>In the Lines or header field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige üks suvand väljalt Read või päis.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>Expand the Price and discount section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendage jaotist Hind ja allahindlus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>In the Terms of payment field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige või sisestage väärtus väljal Terms of payment (Makse tingimused).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>In the Advance holder field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige või sisestage väärtus väljal Avansisaaja.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>In the Lines or header field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige üks suvand väljalt Read või päis.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Märkige loendis valitud rida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>In the Item number field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage või valige väärtus väljal Kaubakood.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>In the Quantity field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage arv väljale Kogus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>In the Unit price field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage arv väljale Ühiku hind.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu Salvesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>On the Action Pane, click Purchase.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake toimingupaanil valikut Ost.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Click Confirm.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake käsku Kinnita.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake toimingupaanil valikut Arve.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Arve.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Click Default from: Product receipt quantity to open the drop dialog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rippdialoogi avamiseks klõpsake valikut Vaikimisi asukohast: toote sissetuleku kogus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>In the Default quantity for lines field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige suvand väljal Ridade vaikekogus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>In the Number field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väärtus väljale Arv.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>In the Invoice description field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Arve kirjeldus soovitud väärtus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>In the Invoice date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage kuupäev väljale Arve kuupäev.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>In the Date of VAT register field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage kuupäev väljale KM-registri kuupäev.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>In the Receive document date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage kuupäev väljale Vastuvõtudokumendi kuupäev.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>Click Post.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Sisesta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>Balance and close advance holders transactions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avansisaajate kannete tasakaalustamine ja sulgemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Go to Accounts payable &gt; Advance holders &gt; Advance holders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avage Ostureskonto &gt; Avansisaajad &gt; Avansisaajad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Click Transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Kanded.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sulgege leht.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Click Balance.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Saldo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>Click Close via bank.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Sule panga kaudu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>Select Yes in the Automatic field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke väljal Automaatne valik Jah.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>In the Amount to be transferred.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisestage väljale Ülekantav summa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">number.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>Click Close via cash.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake valikut Sule kassa kaudu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>Select Yes in the Automatic field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke väljal Automaatne valik Jah.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu OK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sulgege leht.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Click Transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake suvandit Kanded.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: EEU-00047 Töötajale avansi maksmine
+description: See protseduur näitab, kuidas seadistada ja registreerida avansisaaja kandeid.
+author: v-oloski
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: RCashTable, LedgerJournalSetup, HcmWorkerGroup_RU, EmplPosting_RU, VendParameters, RCashPosting, BankParameters, PaymTerm, HcmWorker, HcmWorkerNewWorker, HcmWorkerAdvHolderTableListPage_RU, HcmWorkerAdvHolderTable_RU, PurchTable, PurchCreateOrder, HcmAdvHolderLookup_RU, InventItemIdLookupPurchase, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog, EmplTrans_RU, EmplBalance_RU
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
+ms.author: v-oloski
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e3c07789bfa0839436caf32e428f3abeecb8f2b7
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568086"
+---
+# <a name="eeu-00047-advance-payment-to-employee"></a>EEU-00047 Töötajale avansi maksmine
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+See protseduur näitab, kuidas seadistada ja registreerida avansisaaja kandeid. Selle protseduuri loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Leedu, andmeid. Selle toiming sobib ainule juriidilistele isikutele esmase aadressiga Poolas, Leedus, Lätis, Eestis, Tšehhi Vabariigis või Ungaris. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
+
+
+## <a name="create-a-new-cash-account"></a>Uue sularahakonto loomine
+1. Minge jaotisse Sularaha- ja pangahaldus > Pangakontod > Sularahakontod.
+2. Klõpsake valikut Uus.
+3. Tippige väärtus väljale Sularaha.
+4. Sisestage väärtus väljale Nimi.
+5. Sisestage või valige väärtus väljal Numbriseeria grupp.
+6. Laiendage jaotist Kinnitamine.
+7. Valige või sisestage väärtus väljal Valuuta.
+8. Tehke väljal Negatiivne kassa valik Jah.
+9. Klõpsake nuppu Salvesta.
+
+## <a name="create-a-new-journal"></a>Uue töölehe loomine
+1. Minge jaotisesse Pearaamat > Töölehe seadistamine > Töölehtede nimed.
+2. Klõpsake valikut Uus.
+3. Sisestage väärtus väljale Nimi.
+4. Sisestage või valige väärtus väljal Kande seeria.
+5. Klõpsake nuppu Salvesta.
+6. Klõpsake valikut Uus.
+7. Sisestage väärtus väljale Nimi.
+8. Valige suvand väljal Töölehe tüüp.
+9. Sisestage või valige väärtus väljal Kande seeria.
+10. Klõpsake nuppu Salvesta.
+
+## <a name="create-an-advance-holder-group"></a>Avansisaajate grupi loomine
+1. Avage Ostureskonto > Seadistus > Avansisaajad > Avansisaajate rühmad.
+2. Klõpsake valikut Uus.
+3. Sisestage väärtus väljale Grupp.
+4. Sisestage väljale Kirjeldus soovitud väärtus.
+5. Klõpsake nuppu Salvesta.
+
+## <a name="create-an-employee-posting-profile"></a>Töötaja sisestusreeglite loomine
+1. Avage Ostureskontro > Seadistus > Avansisaajad > Töötaja sisestusreeglid.
+2. Klõpsake valikut Uus.
+3. Sisestage väärtus väljale Sisestusreeglid.
+4. Sisestage väljale Kirjeldus soovitud väärtus.
+5. Märkige loendis valitud rida.
+6. Valige suvand väljal Kehtiv.
+7. Määrake väljal Summakonto soovitud väärtused.
+8. Klõpsake nuppu Salvesta.
+
+## <a name="set-up-advance-holder-parameters"></a>Avansisaaja parameetrite seadistamine
+1. Avage Ostureskontro > Seadistus > Ostureskontro parameetrid.
+2. Klõpsake vahekaarti Avansisaajad.
+3. Sisestage või valige väärtus väljal Sisestusreeglid.
+4. Sisestage või valige väärtus väljal Nimi.
+5. Valige või sisestage väärtus väljal Sularaha.
+6. Sisestage või valige väärtus väljal Nimi.
+7. Valige suvand väljal Konto tüüp.
+8. Täpsustage soovitud väärtusi väljal Põhikonto.
+9. Klõpsake vahekaarti Numbriseeriad.
+10. Klõpsake nuppu Salvesta.
+
+## <a name="set-up-a-cash-posting-profile"></a>Kassa sisestusprofiili seadistamine
+1. Minge jaotisse Sularaha- ja pangahaldus > Seadistus > Sularaha sisestusreeglid.
+2. Klõpsake valikut Uus.
+3. Tippige väärtus väljale Kassaseisu sisestamine.
+4. Sisestage väljale Kirjeldus soovitud väärtus.
+5. Märkige loendis valitud rida.
+6. Valige suvand väljal Kehtiv.
+7. Täpsustage soovitud väärtusi väljal Põhikonto.
+8. Klõpsake nuppu Salvesta.
+
+## <a name="set-up-cash-and-bank-parameters"></a>Sularaha- ja pangahalduse parameetrite seadistamine
+1. Minge jaotisse Sularaha- ja pangahaldus > Seadistus > Sularaha- ja pangahalduse parameetrid.
+2. Klõpsake vahekaarti Sularaha.
+3. Valige või sisestage väärtus väljal Sularaha.
+4. Valige või sisestage väärtus väljal Kassaseisu sisestamine.
+5. Klõpsake nuppu Salvesta.
+6. Klõpsake vahekaarti Numbriseeriad.
+7. Otsige loendist ja valige soovitud kirje.
+8. Sisestage või valige väärtus väljal Numbriseeria kood.
+9. Otsige loendist ja valige soovitud kirje.
+10. Sisestage või valige väärtus väljal Numbriseeria kood.
+11. Klõpsake nuppu Salvesta.
+
+## <a name="set-up-terms-of-payment"></a>Maksetingimuste häälestamine
+1. Avage Ostureskontro > Makse seadistus > Maksetingimused.
+2. Klõpsake nuppu Redigeeri.
+3. Tehke väljal Avansisaajalt valik Jah.
+4. Klõpsake nuppu Salvesta.
+
+## <a name="create-a-new-worker"></a>Uue töötaja loomine
+1. Avage Personaliarvestus > Töötajad > Töötajad.
+2. Klõpsake valikut Uus.
+3. Sisestage väärtus väljale Eesnimi.
+4. Sisestage väärtus väljale Perekonnanimi.
+5. Tippige väärtus väljale Töötaja ID.
+6. Klõpsake suvandit Uue töötaja värbamine.
+7. Klõpsake nuppu Salvesta.
+
+## <a name="set-up-a-worker-as-an-advance-holder"></a>Töötaja seadistamine avansisaajaks
+1. Avage Ostureskonto > Avansisaajad > Avansisaajad.
+2. Klõpsake nuppu Redigeeri.
+3. Sisestage või valige väärtus väljal Grupp.
+4. Tehke väljal Avansisaaja valik Jah.
+5. Klõpsake nuppu Salvesta.
+
+## <a name="create-and-post-a-purchase-order-invoice"></a>Ostutellimuse arve loomine ja sisestamine
+1. Avage Ostureskontro > Ostutellimused > Kõik ostutellimused.
+2. Klõpsake valikut Uus.
+3. Sisestage väärtus väljale Hankija konto või valige see.
+4. Klõpsake nuppu OK.
+5. Valige üks suvand väljalt Read või päis.
+6. Laiendage jaotist Hind ja allahindlus.
+7. Valige või sisestage väärtus väljal Terms of payment (Makse tingimused).
+8. Valige või sisestage väärtus väljal Avansisaaja.
+9. Valige üks suvand väljalt Read või päis.
+10. Märkige loendis valitud rida.
+11. Sisestage või valige väärtus väljal Kaubakood.
+12. Sisestage arv väljale Kogus.
+13. Sisestage arv väljale Ühiku hind.
+14. Klõpsake nuppu Salvesta.
+15. Klõpsake toimingupaanil valikut Ost.
+16. Klõpsake käsku Kinnita.
+17. Klõpsake toimingupaanil valikut Arve.
+18. Klõpsake valikut Arve.
+19. Rippdialoogi avamiseks klõpsake valikut Vaikimisi asukohast: toote sissetuleku kogus.
+20. Valige suvand väljal Ridade vaikekogus.
+21. Klõpsake nuppu OK.
+22. Sisestage väärtus väljale Arv.
+23. Sisestage väljale Arve kirjeldus soovitud väärtus.
+24. Sisestage kuupäev väljale Arve kuupäev.
+25. Sisestage kuupäev väljale KM-registri kuupäev.
+26. Sisestage kuupäev väljale Vastuvõtudokumendi kuupäev.
+27. Klõpsake valikut Sisesta.
+
+## <a name="balance-and-close-advance-holders-transactions"></a>Avansisaajate kannete tasakaalustamine ja sulgemine
+1. Avage Ostureskonto > Avansisaajad > Avansisaajad.
+2. Klõpsake suvandit Kanded.
+3. Sulgege leht.
+4. Klõpsake valikut Saldo.
+5. Klõpsake valikut Sule panga kaudu.
+6. Tehke väljal Automaatne valik Jah.
+7. Sisestage väljale Ülekantav summa number.
+8. Klõpsake nuppu OK.
+9. Klõpsake valikut Sule kassa kaudu.
+10. Tehke väljal Automaatne valik Jah.
+11. Klõpsake nuppu OK.
+12. Sulgege leht.
+13. Klõpsake suvandit Kanded.
+
