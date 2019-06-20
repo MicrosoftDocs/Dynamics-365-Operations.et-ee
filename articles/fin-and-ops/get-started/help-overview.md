@@ -1,450 +1,199 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="help-overview.md" target-language="et-EE">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>help-overview.81e3b7.7c74ff55e0a9a81c058de802d70365d13d34c8ff.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>7c74ff55e0a9a81c058de802d70365d13d34c8ff</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\fin-and-ops\get-started\help-overview.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Finance and Operations Help system</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operationsi spikrisüsteem</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides an overview of the components of the Microsoft Dynamics 365 for Finance and Operations Help system.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles teemas antakse ülevaate rakenduse Microsoft Dynamics 365 for Finance and Operations spikrisüsteemi komponentidest.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Finance and Operations Help system</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operationsi spikrisüsteem</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic provides an overview of the components of the Microsoft Dynamics 365 for Finance and Operations Help system.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selles teemas antakse ülevaate rakenduse Microsoft Dynamics 365 for Finance and Operations spikrisüsteemi komponentidest.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmised kolm toodet on omavahel tihedalt seotud: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>The same functionality may appear in all 3 products.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõigis 3 tootes võivad ilmneda samad funktsioonid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seetõttu on peamiselt jaemüügiga seotud teemades toote nimi Dynamics 365 for Retail, Talentiga seotud teemades on toote nimi Dynamics 365 for Talent ja põhitootega seotud teemades on toote nimi Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Topics that are written for one product may apply to the same functionality in a related product.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>The Help system is shared by the following products:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spikrisüsteemi jagatakse kõigi järgmiste toodete puhul:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Dynamics 365 for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Dynamics 365 for Talent</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Talent</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Finance and Operations includes a Help system that is based on two main components:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations sisaldab spikrisüsteemi, mis põhineb kahel peamisel komponendil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>A documentation site</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dokumentide sait</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegevuse juhised</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>You can access help from the Help pane in whichever product you are using.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pääsete spikrile ligi mis tahes toote Spikripaanilt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>The following screenshot shows Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmistel kuvatõmmistel näidatakse rakendust Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Help pane</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spikripaan</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">**</bpt>Task guides<ept id="p1">**</ept> are not currently available for Retail, or in the Help pane for Talent (a few task guides are available in the Getting Started pane for Talent).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tegevuse juhised<ept id="p1">**</ept> pole praegu saadaval Retaili ega Talenti Spikripaanis (mõned tegevuse juhised on saadaval Talenti alustamise paanis).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Procedural help is available on the docs.microsoft.com site (<bpt id="p1">[</bpt>docs.microsoft.com/dynamics365/unified-operations<ept id="p1">](../../index.md)</ept>) for both Retail and Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Protseduurispikker on saadaval ka lehel docs.microsoft.com (<bpt id="p1">[</bpt>docs.microsoft.com/dynamics365/unified-operations<ept id="p1">](../../index.md)</ept>) nii rakenduse Retail kui ka Talent jaoks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Help on docs.microsoft.com</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spikker saidil docs.microsoft.com</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>The docs.microsoft.com site (<bpt id="p1">[</bpt>docs.microsoft.com/dynamics365/unified-operations<ept id="p1">](../../index.md)</ept>) is the primary source of product documentation for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sait docs.microsoft.com (<bpt id="p1">[</bpt>docs.microsoft.com/dynamics365/unified-operations<ept id="p1">](../../index.md)</ept>) on Finance and Operationsi peamine tootedokumentide allikas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>The site offers the following features:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See sait pakub järgmisi funktsioone.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source><bpt id="p1">**</bpt>Access to the most up-to-date content<ept id="p1">**</ept> – The site gives us a faster and more flexible way to create, deliver, and update product documentation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Juurdepääs kõige ajakohasemale sisule<ept id="p1">**</ept> – sait annab meile kiirema ja paindliku võimaluse tootedokumente luua, edastada ja uuendada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Therefore, it helps to ensure that you have access to the latest technical information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seetõttu aitab see tagada teile juurdepääsu uusimale tehnilisele teabele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source><bpt id="p1">**</bpt>Content that is written by experts<ept id="p1">**</ept> – The site provides a richer set of product documentation that can be enhanced by community members both inside and outside Microsoft.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Asjatundjate kirjutatud sisu<ept id="p1">**</ept> – sait pakub rikkalikumat tootedokumentatsiooni kogumit, mida saavad täiustada kogukonna liikmed nii Microsoftis kui ka väljaspool.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source><bpt id="p1">**</bpt>Access to different types of content<ept id="p1">**</ept> – The site lets you quickly access different types of content about Finance and Operations, such as task guides, videos, and topics.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Juurdepääs erinevat tüüpi sisule<ept id="p1">**</ept> – sait võimaldab pääseda kiiresti juurde Finance and Operationsi erinevat tüüpi sisule, nagu tegevusjuhised, videod ja teemad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source><bpt id="p1">**</bpt>Content that supports your business processes<ept id="p1">**</ept> – The site includes business process–focused content that takes advantage of the Business Process Modeler (BPM) in Microsoft Dynamics Lifecycle Services (LCS).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Teie äriprotsesse toetav sisu<ept id="p1">**</ept> – sait sisaldab äriprotsessidele suunatud sisu, milles kasutatakse äriprotsessi modelleerijat (BPM) teenuses Microsoft Dynamics Lifecycle Services (LCS).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Searching on docs.microsoft.com</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otsimine saidil docs.microsoft.com</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>We get a lot of questions about how to search for our content.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saame palju küsimusi selle kohta, kuidas meie sisu otsida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>On our site, if you start from a page about Finance and Operations, we scope your search to just be for Finance and Operations content.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui alustate meie saidil Finance and Operationsi lehelt, määrame teie otsingu ulatuseks ainult Finance and Operationsi sisu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>You can remove the scoping by clicking the X next to Unified Operations in the search box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Selle piirangu saab eemaldada, klõpsates otsinguväljal märki X valiku Unified Operations juures.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Search</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otsige</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>You can also find our content with any search engine.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leiate meie sisu ka igasuguse otsingumootoriga.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>We recommend that for best results, you use a site search, such as site:docs.microsoft.com dynamics 365 "search term".</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Soovitame kasutada parimate tulemuste saamiseks saidiotsingut, nt sait: docs.microsoft.com dynamics 365 "otsingusõna".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>The docs.microsoft.com table of contents</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisukord lehel docs.microsoft.com</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Finance and Operations and Retail all share a single table of contents on the docs site, which enables customers to see the context of the topic they are in.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rakendustel Finance and Operations ja Retail on dokumentide saidil ühine sisukord, mis võimaldab klientidel näha selle teema konteksti, millesse nad kuuluvad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>It also enables you to use the Filter control above the table of contents to find topics that you are looking for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samuti võimaldab see kasutada sisukorra kohal olevat filtri juhtelementi otsitavate teemade leidmiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>You can get help on other Dynamics 365 products by searching for them, or by clicking Dynamics 365 in the site breadcrumb to get to our hub page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Muude Dynamics 365 toodete kohta saab abi neid otsides või klõpsates saidi lingireal Dynamics 365-le, et jõuda meie jaoturi lehele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Use an RSS feed</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">RSS-kanali kasutamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>To subscribe to an RSS feed of all updates to the Unified Operations content, use the following link from a browser that supports RSS feeds, such as Internet Explorer, or an RSS feed manager:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Unified Operationsi sisu kõigi värskenduste RSS-kanali tellimiseks kasutage brauseril, mis kasutab RSS-kanaleid (nt Internet Explorer) või RSS-kanali haldurit, järgmist linki:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source><bpt id="p1">[</bpt>RSS feed<ept id="p1">](https://docs.microsoft.com/api/search/rss?locale=en-us&amp;$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>RSS-kanal<ept id="p1">](https://docs.microsoft.com/api/search/rss?locale=en-us&amp;$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Give feedback</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tagasiside andmine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>We really like customer feedback.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Meil on klientide tagasiside üle alati hea meel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>You can either comment or suggest changes to our content through GitHub.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate GitHubi kaudu lisada meie sisu kohta kommentaare või soovitada muudatusi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>For more information about our feedback system, see <bpt id="p1">[</bpt>this blog post<ept id="p1">](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateavet meie tagasisidesüsteemi kohta leiate <bpt id="p1">[</bpt>sellest ajaveebipostitusest<ept id="p1">](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Leave us feedback</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tagasiside andmine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>If you have feedback or questions about a topic, leave us a comment at the bottom of the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui teil on küsimusi konkreetse teema kohta, lisage kommentaar lehe alaosas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Click <bpt id="p1">**</bpt>Feedback<ept id="p1">**</ept> to get to the comments at the bottom of the page, and then click either <bpt id="p2">**</bpt>Product feedback<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Sign in to give documentation feedback<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake nuppu <bpt id="p1">**</bpt>Tagasiside<ept id="p1">**</ept>, et liikuda lehe lõpus olevate kommentaaride juurde, ja seejärel klõpsake kas nuppu <bpt id="p2">**</bpt>Toote tagasiside<ept id="p2">**</ept> või <bpt id="p3">**</bpt>Sisselogimine dokumentatsiooni tagasiside andmiseks<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Start typing your comments, and then click <bpt id="p1">**</bpt>Submit feedback<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alustage kommentaaride sisestamist ja klõpsake siis valikut <bpt id="p1">**</bpt>Tagasiside edastamine<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Post comment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sisesta kommentaar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Suggest a change or contribute content through GitHub</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Soovitage muudatusi või lisage sisu GitHubi kaudu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>To suggest a change, you'll need to have a GitHub account, and sign a Contributor License Agreement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Muudatuse soovitamiseks peab teil olema GitHubi konto ja teil tuleb allkirjastada kaasautori litsentsileping.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>After you submit a pull request, we'll review your proposed changes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast tõmbamistaotluse esitamist vaatame teie soovitatud muudatused üle.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>If necessary, we'll discuss them internally, and then get back to you.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vajaduse korral arutleme neid ja seejärel võtame teiega ühendust.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>To get started, click the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> (pencil) button on a topic, or go to our repo at <ph id="ph1">&lt;https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public&gt;</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alustamiseks klõpsake teemas nuppu <bpt id="p1">**</bpt>Redigeeri<ept id="p1">**</ept> (pliiats) või vaadake meie repolepingut aadressil <ph id="ph1">&lt;https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public&gt;</ph>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>For more information, please refer to our contributor's guide: <ph id="ph1">&lt;https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md&gt;</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateabe saamiseks vaadake meie kaasautori juhendit: <ph id="ph1">&lt;https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md&gt;</ph>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>We only accept contributions to our English content set at this time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Praegu aktsepteerime panuseid ainult ingliskeelsetesse sisukomplektidesse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegevuse juhised</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>A Task guide is a controlled, guided, interactive experience that leads you through the steps of a task, or business process.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegevuse juhis on juhendatud, interaktiivne kogemus, mis juhib teid läbi tegevuse või äriprotsessi toimingute.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>You can open (play) a Task guide from the Help pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegevuse juhise saab avada (esitada) paanilt Spikker.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>When you first click a Task guide, the Help pane will show the step-by-step instructions for the task.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegevuse juhise esmakordsel klõpsamisel kuvatakse paanil Spikker tegevuse etapiviisilised juhised.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Localized Task guides are now available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lokaliseeritud tegevuse juhised on nüüd saadaval.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Microsoft shipped task guide libraries for releases through December 2017 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft avaldas Finance and Operations tegevuse juhise teegid 2017. aasta detsembris.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>The section <bpt id="p1">[</bpt>Accessing Task guides from the Help pane<ept id="p1">](help-overview.md#accessing-task-guides-from-the-help-pane)</ept> describes how to find the correct task guides for your product.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaotis <bpt id="p1">[</bpt>Ligipääs tegevuse juhistele Spikripaanilt<ept id="p1">](help-overview.md#accessing-task-guides-from-the-help-pane)</ept> kirjeldab, kuidas leida oma toote jaoks sobivaid tegevuse juhiseid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Task guide reading view</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegevuse juhise lugemisvaade</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>To begin the guided, interactive experience, click <bpt id="p1">**</bpt>Start task guide<ept id="p1">**</ept> at the bottom of the Help pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juhitud interaktiivse kogemusega alustamiseks klõpsake valikut <bpt id="p1">**</bpt>Käivita tegevusjuhis<ept id="p1">**</ept> paani Spikker alumises osas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>A black pointer opens and indicates the action that you must perform.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avaneb must kursor, mis näitab tegevust, mida tegema peate.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Follow the directions that appear in the UI, and enter data as directed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgige kasutajaliideses kuvatavaid juhiseid ja sisestage andmed näidatud viisil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Task guide step instruction</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegevusjuhise etapijuhend</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>The data that you enter when you play a task guide is real.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegevuse juhise käitamisel sisestatavad andmed on tõelised.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>If you're in a production environment, the data will be entered in the company that you're currently using.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui olete tootmiskeskkonnas, sisestatakse andmed hetkel kasutatavasse ettevõttesse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>You can use Task recorder to create your own custom task guides.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegevuse salvestajat saate kasutada kohandatud tegevuse juhiste loomiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>For more information, see <bpt id="p1">[</bpt>Create documentation or training by using task recordings<ept id="p1">](../../dev-itpro/user-interface/task-recorder-training-docs.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateavet vt jaotisest <bpt id="p1">[</bpt>Dokumentide või koolituse loomine tegevuse salvestiste abil<ept id="p1">](../../dev-itpro/user-interface/task-recorder-training-docs.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>In-product Help</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toote sisespikker</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>To access Help content within Finance and Operations, either click the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> (<bpt id="p2">**</bpt>?<ept id="p2">**</ept>) icon and then choose Help or press Ctrl+Shift+?.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spikri sisule Finance and Operationsis juurdepääsuks klõpsake ikooni <bpt id="p1">**</bpt>Spikker<ept id="p1">**</ept> (<bpt id="p2">**</bpt>?<ept id="p2">**</ept>) ja valige Spikker või vajutage klahve Ctrl + Shift + ?.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>In both cases, the Help pane opens.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mõlemal juhul avaneb paan Spikker.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>From the Help pane, you can access articles or task guides.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paanilt Spikker pääsete juurde artiklitele või tegevuse juhistele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Help pane</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spikripaan</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Accessing help topics from the Help pane</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spikri paanilt spikriteemadele juurdepääsemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>From the Help pane, you can access articles that apply to the Finance and Operations client.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paanilt Spikker pääsete juurde Finance and Operationsi kliendile kohalduvatele artiklitele.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>When you first open the Help pane and click the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> tab, you'll see the articles that apply to the page that you're currently on in Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui avate esimest korda Spikripaani ja klõpsate vahekaarti <bpt id="p1">**</bpt>Spikker<ept id="p1">**</ept>, näete artikleid, mis kohalduvad lehele, millel parajasti Finance and Operationsis olete.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>If no articles are found, you can enter keywords to refine your search.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui ühtegi artiklit ei leita, saate sisestada märksõnu otsingu kitsendamiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>When you click an article in the Help pane, a new tab opens in your browser and displays the article.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui klõpsate artiklit paanil Spikker, avaneb teie brauseris uus vahekaart ja kuvatakse artikkel.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>This section does not apply to Dynamics 365 for Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See jaotis ei kehti Dynamics 365 for Talenti puhul.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>The Help system for Talent is automatically connected to Task guides for the product.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talenti spikrisüsteem on ühendatud automaatselt toote tegevusjuhistega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Also, you cannot create custom Task guides for Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samuti ei saa Talenti puhul kohandatud tegevusjuhiseid luua.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Accessing Task guides from the Help pane</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spikri paanilt tegevuse juhistele juurdepääsemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Before you can access Task guides from the Help pane, a System administrator has to go to the <bpt id="p1">**</bpt>System parameters<ept id="p1">**</ept> page in Finance and Operations and configure some settings.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Enne, kui pääsete paanilt Spikker tegevuse juhistele juurde, peab süsteemiadministraator minema Finance and Operationsis lehele <bpt id="p1">**</bpt>Süsteemi parameetrid<ept id="p1">**</ept> ja konfigureerima mõned sätted.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>In order to configure help, you must be signed in with an account in the same tenant as the tenant in which Finance and Operations is deployed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spikri konfigureerimiseks peate olema sisse loginud kontoga samas rentnikus, kus Finance and Operations on juurutatud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>It is not possible to connect to an LCS library from an instance of Finance and Operations running in a local virtual hard drive (VHD).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LCS-i teegiga ei saa ühendust luua Finance and Operationsi eksemplarist, mis töötab virtuaalsel kõvakettal (VHD).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>System Parameters form with Help settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Süsteemi parameetrite vorm koos spikrisätetega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>On the <bpt id="p1">**</bpt>System parameters<ept id="p1">**</ept> page, follow these steps:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tehke lehel <bpt id="p1">**</bpt>Süsteemi parameetrid<ept id="p1">**</ept> järgmist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source><bpt id="p1">**</bpt>Important:<ept id="p1">**</ept> The first time that you open the Help tab, you must connect to Lifecycle Services.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Oluline:<ept id="p1">**</ept> vahekaardi Spikker esmakordsel avamisel peate looma ühenduse teenusega Lifecycle Services.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Be sure to click the link in the middle of the form, wait for the connection, close the dialog box, and then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to get to the parameters form.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klõpsake kindlasti vormi keskel olevat linki, oodake, kuni ühendus on loodud, sulgege dialoogiboks ja seejärel klõpsake parameetrite vormi avamiseks <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Connect to LCS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ühenda LCS-iga</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Select the Lifecycle Services project to connect to.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige elutsükli teenuste projekt, millega ühendus luua.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Select BPM libraries (within the selected project) to retrieve task recordings from.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige BPM-i teegid (valitud projektis), kust tegevuse salvestised tuua.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>For Finance and Operations, for Microsoft content, select the February 2017 QPC Unified Library for Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operationsi puhul valige Microsofti sisu jaoks 2017. aasta veebruari Microsoft Dynamics 365 for Finance and Operationsi QPC ühendatud teek.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>For Retail, we will be releasing a library in July.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili jaoks anname teegi välja juulis.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>You do not need to select a library for Talent—the connection to the correct library is established for you.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talenti jaoks pole vaja teeki valida – ühendus õige teegiga on teie eest loodud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Set the display order of the BPM libraries.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige BPM-i teekide kuvamise järjekord.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>This determines the order in which task recordings from the libraries will appear in the Help pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See määrab teekidest pärinevate tegevuse salvestiste kuvamise järjekorra paanil Spikker.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>After a System administrator has completed these steps, you can open the Help pane and click the <bpt id="p1">**</bpt>Task guides<ept id="p1">**</ept> tab. You'll now see the Task guides that apply to the page that you're currently on in Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui süsteemiadministraator on need toimingud lõpetanud, võite avada paani Spikker ja klõpsata vahekaarti <bpt id="p1">**</bpt>Tegevuse juhised<ept id="p1">**</ept>. Näete nüüd tegevuse juhiseid, mis rakenduvad lehele, millel parajasti Finance and Operationsis olete.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>If no Task guides are found, you can enter keywords to refine your search.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui ühtegi tegevuse juhist ei leita, saate sisestada märksõnu otsingu kitsendamiseks.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>After you click a Task guide in the Help pane, the Help pane shows the step-by-step instructions, and you can play the task guide.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pärast tegevuse juhise klõpsamist paanil Spikker kuvatakse paanil Spikker etapiviisilised juhised ja saate tegevuse juhise esitada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Task guide reading view</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegevuse juhise lugemisvaade</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Where are the translated Task guides for Microsoft libraries?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kus on Microsofti teekide tõlgitud tegevuse juhised?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Translated Task guides are released in libraries with "All languages" in the title.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tõlgitud tegevuse juhised on väljastatud teekidesse, mille pealkirjas on „Kõik keeled”.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>In Finance and Operations, to see localized Task guide help, make sure that you are connected to an appropriate library.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operationsis lokaliseeritud tegevusjuhise vaatamiseks veenduge, et teil oleks ühendus sobiva teegiga.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>The language that a Task guide appears in is controlled for each user by the Language settings under <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Preferences<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Keelt, milles tegevuse juhis kuvatakse, juhitakse iga kasutaja puhul keelesätetega jaotises <bpt id="p1">**</bpt>Suvandid<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Eelistused<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>If a Task guide has been translated, when you open that Task guide all the text of the Task guide will appear in your selected language.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui tegevuse juhis on tõlgitud, siis kuvatakse tegevuse juhise avamisel kogu selle tekst teie valitud keeles.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>If a Task guide has not yet been translated, when you open it, only some of the text (the text of the controls) will appear in your selected language.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kui tegevuse juhist pole veel tõlgitud, siis kuvatakse tegevuse juhise avamisel teie valitud keeles ainult osa tekstist (juhtelementide tekst).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Creating custom help</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohandatud spikri loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>You can create help for your users by creating custom task guides, or connect your own website to the Help pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasutajatele saab spikreid luua kohandatud tegevusjuhiseid luues või enda veebisaiti spikripaaniga ühendades.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>For details, see:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisateavet vt jaotisest</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source><bpt id="p1">[</bpt>How to create a task recording to use as documentation or training<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Kuidas luua tegevuse salvestist dokumentide või koolitusena kasutamiseks<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source><bpt id="p1">[</bpt>Create Custom Help for Finance and Operations (white paper)<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2041185)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Kohandatud spikri loomine rakendusele Finance and Operations(tehniline ülevaade)<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2041185)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisaressursid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source><bpt id="p1">[</bpt>Finance and Operations help system (downloadable fact sheet)<ept id="p1">](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Finance and Operationsi spikrisüsteem (allalaaditav teabeleht)<ept id="p1">](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source><bpt id="p1">[</bpt>Task Recorder<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Tegevuse salvestaja<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source><bpt id="p1">[</bpt>Create documentation or training using Task recordings<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Dokumentide või koolituse loomine tegevuse salvestiste abil<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>The following table lists our websites.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgmises tabelis esitatakse meie veebilehed.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Sites that have an asterisk (<ph id="ph1">\*</ph>) next to the name require that you sign in by using an account that is associated with a service plan.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saitidel, millel on nime kõrval tärn (<ph id="ph1">\*</ph>), nõuavad, et logiksite sisse, kasutades teenusepaketiga seotud kontot.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Site</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sait</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kirjeldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source><bpt id="p1">[</bpt>Docs.microsoft.com<ept id="p1">](/dynamics365/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Docs.microsoft.com<ept id="p1">](/dynamics365/)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>Hosts or links to all product documentation for Dynamics 365.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Majutab või lingib kõiki Dynamics 365 projektidokumente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source><bpt id="p1">[</bpt>Microsoft Learn<ept id="p1">](https://docs.microsoft.com/learn/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Microsoft Learn<ept id="p1">](https://docs.microsoft.com/learn/)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Microsoft's free eLearning site.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsofti vaba eLearning sait.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source><bpt id="p1">[</bpt>Lifecycle Services<ept id="p1">](https://lcs.dynamics.com/)</ept><ph id="ph1">\*</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Elutsükli teenused<ept id="p1">](https://lcs.dynamics.com/)</ept><ph id="ph1">\*</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Provides a cloud-based collaborative workspace that customers and partners can use to manage Dynamics 365 for Finance and Operations projects from pre-sales to implementation and operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pakub pilvepõhist koostöö tööruumi, mida partnerid ja kliendid saavad kasutada Dynamics 365 for Finance and Operationsi projektide haldamiseks alates müügieelsetest tegevustest kuni juurutamise ning operatsioonideni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>This site is useful in all phases of an implementation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">See sait on abiks kõigis juurutamise faasides.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source><bpt id="p1">[</bpt>Support blog<ept id="p1">](https://aka.ms/AXSupportBlog)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Toe ajaveeb<ept id="p1">](https://aka.ms/AXSupportBlog)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Provides tips and tricks that are posted by the Dynamics 365 for Finance and Operations Support team.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Annab vihjeid ja näpunäiteid, mida sisestab Dynamics 365 for Finance and Operationsi tugiteenuse töörühm.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source><bpt id="p1">[</bpt>Docs.microsoft.com/previous versions<ept id="p1">](https://docs.microsoft.com/previous-versions/dynamics/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Docs.microsoft.com/previous versioonid<ept id="p1">](https://docs.microsoft.com/previous-versions/dynamics/)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Hosts content from previous releases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hoiustab varasemate väljaannete sisu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source><bpt id="p1">[</bpt>Dynamics Community<ept id="p1">](https://community.dynamics.com/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Dynamicsi kogukond<ept id="p1">](https://community.dynamics.com/)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>Hosts blogs, forums, and videos.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Majutab ajaveebe, foorumeid ja videoid.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source><bpt id="p1">[</bpt>Microsoft.com/dynamics365/<ept id="p1">](https://www.microsoft.com/dynamics365/home)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Microsoft.com/dynamics365/<ept id="p1">](https://www.microsoft.com/dynamics365/home)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Provides evaluation and sales information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pakub hinnanguid ja müügiteavet.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source><bpt id="p1">[</bpt>CustomerSource<ept id="p1">](https://mbs.microsoft.com/customersource/)</ept><ph id="ph1">\*</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>CustomerSource<ept id="p1">](https://mbs.microsoft.com/customersource/)</ept><ph id="ph1">\*</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Hosts some training resources for Finance and Operations, downloadable reports and white papers, and is the primary support site for service plan holders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hoiustab mõningaid Finance and Operationsi koolitusmaterjale, allalaaditavaid aruandeid ja tehnilisi ülevaateid ning on peamine teenusplaani omanike tugisait.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>May require a service plan to access some resources on the site.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mõndadele saidil olevatele ressurssidele ligipääsemiseks võib olla nõutav hooldusplaan.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Finance and Operationsi spikrisüsteem
+description: Selles teemas antakse ülevaate rakenduse Microsoft Dynamics 365 for Finance and Operations spikrisüsteemi komponentidest.
+author: margoc
+manager: AnnBe
+ms.date: 11/13/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: SystemParameters
+audience: Application User, Developer, IT Pro
+ms.reviewer: margoc
+ms.search.scope: Core, Operations
+ms.custom: 16381
+ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
+ms.search.region: Global
+ms.author: margoc
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595635"
+---
+# <a name="finance-and-operations-help-system"></a><span data-ttu-id="65608-103">Finance and Operationsi spikrisüsteem</span><span class="sxs-lookup"><span data-stu-id="65608-103">Finance and Operations Help system</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="65608-104">Selles teemas antakse ülevaate rakenduse Microsoft Dynamics 365 for Finance and Operations spikrisüsteemi komponentidest.</span><span class="sxs-lookup"><span data-stu-id="65608-104">This topic provides an overview of the components of the Microsoft Dynamics 365 for Finance and Operations Help system.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="65608-105">Järgmised kolm toodet on omavahel tihedalt seotud: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="65608-105">The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</span></span> <span data-ttu-id="65608-106">Kõigis 3 tootes võivad ilmneda samad funktsioonid.</span><span class="sxs-lookup"><span data-stu-id="65608-106">The same functionality may appear in all 3 products.</span></span> <span data-ttu-id="65608-107">Seetõttu on peamiselt jaemüügiga seotud teemades toote nimi Dynamics 365 for Retail, Talentiga seotud teemades on toote nimi Dynamics 365 for Talent ja põhitootega seotud teemades on toote nimi Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="65608-107">As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="65608-108">Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.</span><span class="sxs-lookup"><span data-stu-id="65608-108">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
+
+<span data-ttu-id="65608-109">Spikrisüsteemi jagatakse kõigi järgmiste toodete puhul:</span><span class="sxs-lookup"><span data-stu-id="65608-109">The Help system is shared by the following products:</span></span>
+
+- <span data-ttu-id="65608-110">Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="65608-110">Dynamics 365 for Finance and Operations</span></span>
+- <span data-ttu-id="65608-111">Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="65608-111">Dynamics 365 for Retail</span></span>
+- <span data-ttu-id="65608-112">Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="65608-112">Dynamics 365 for Talent</span></span>
+
+<span data-ttu-id="65608-113">Finance and Operations sisaldab spikrisüsteemi, mis põhineb kahel peamisel komponendil.</span><span class="sxs-lookup"><span data-stu-id="65608-113">Finance and Operations includes a Help system that is based on two main components:</span></span>
+
+- <span data-ttu-id="65608-114">Dokumentide sait</span><span class="sxs-lookup"><span data-stu-id="65608-114">A documentation site</span></span>
+- <span data-ttu-id="65608-115">Tegevuse juhised</span><span class="sxs-lookup"><span data-stu-id="65608-115">Task guides</span></span>
+
+<span data-ttu-id="65608-116">Pääsete spikrile ligi mis tahes toote Spikripaanilt.</span><span class="sxs-lookup"><span data-stu-id="65608-116">You can access help from the Help pane in whichever product you are using.</span></span> <span data-ttu-id="65608-117">Järgmistel kuvatõmmistel näidatakse rakendust Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="65608-117">The following screenshot shows Finance and Operations.</span></span>
+
+![Spikripaan](./media/help-pane-ops-task-guides.png)
+
+> [!IMPORTANT]
+> <span data-ttu-id="65608-119">**Tegevuse juhised** pole praegu saadaval Retaili ega Talenti Spikripaanis (mõned tegevuse juhised on saadaval Talenti alustamise paanis).</span><span class="sxs-lookup"><span data-stu-id="65608-119">**Task guides** are not currently available for Retail, or in the Help pane for Talent (a few task guides are available in the Getting Started pane for Talent).</span></span> <span data-ttu-id="65608-120">Protseduurispikker on saadaval ka lehel docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) nii rakenduse Retail kui ka Talent jaoks.</span><span class="sxs-lookup"><span data-stu-id="65608-120">Procedural help is available on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) for both Retail and Talent.</span></span>
+
+## <a name="help-on-docsmicrosoftcom"></a><span data-ttu-id="65608-121">Spikker saidil docs.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="65608-121">Help on docs.microsoft.com</span></span>
+
+<span data-ttu-id="65608-122">Sait docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) on Finance and Operationsi peamine tootedokumentide allikas.</span><span class="sxs-lookup"><span data-stu-id="65608-122">The docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) is the primary source of product documentation for Finance and Operations.</span></span> <span data-ttu-id="65608-123">See sait pakub järgmisi funktsioone.</span><span class="sxs-lookup"><span data-stu-id="65608-123">The site offers the following features:</span></span>
+
+- <span data-ttu-id="65608-124">**Juurdepääs kõige ajakohasemale sisule** – sait annab meile kiirema ja paindliku võimaluse tootedokumente luua, edastada ja uuendada.</span><span class="sxs-lookup"><span data-stu-id="65608-124">**Access to the most up-to-date content** – The site gives us a faster and more flexible way to create, deliver, and update product documentation.</span></span> <span data-ttu-id="65608-125">Seetõttu aitab see tagada teile juurdepääsu uusimale tehnilisele teabele.</span><span class="sxs-lookup"><span data-stu-id="65608-125">Therefore, it helps to ensure that you have access to the latest technical information.</span></span>
+- <span data-ttu-id="65608-126">**Asjatundjate kirjutatud sisu** – sait pakub rikkalikumat tootedokumentatsiooni kogumit, mida saavad täiustada kogukonna liikmed nii Microsoftis kui ka väljaspool.</span><span class="sxs-lookup"><span data-stu-id="65608-126">**Content that is written by experts** – The site provides a richer set of product documentation that can be enhanced by community members both inside and outside Microsoft.</span></span>
+- <span data-ttu-id="65608-127">**Juurdepääs erinevat tüüpi sisule** – sait võimaldab pääseda kiiresti juurde Finance and Operationsi erinevat tüüpi sisule, nagu tegevusjuhised, videod ja teemad.</span><span class="sxs-lookup"><span data-stu-id="65608-127">**Access to different types of content** – The site lets you quickly access different types of content about Finance and Operations, such as task guides, videos, and topics.</span></span>
+- <span data-ttu-id="65608-128">**Teie äriprotsesse toetav sisu** – sait sisaldab äriprotsessidele suunatud sisu, milles kasutatakse äriprotsessi modelleerijat (BPM) teenuses Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="65608-128">**Content that supports your business processes** – The site includes business process–focused content that takes advantage of the Business Process Modeler (BPM) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+
+### <a name="searching-on-docsmicrosoftcom"></a><span data-ttu-id="65608-129">Otsimine saidil docs.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="65608-129">Searching on docs.microsoft.com</span></span>
+
+<span data-ttu-id="65608-130">Saame palju küsimusi selle kohta, kuidas meie sisu otsida.</span><span class="sxs-lookup"><span data-stu-id="65608-130">We get a lot of questions about how to search for our content.</span></span> <span data-ttu-id="65608-131">Kui alustate meie saidil Finance and Operationsi lehelt, määrame teie otsingu ulatuseks ainult Finance and Operationsi sisu.</span><span class="sxs-lookup"><span data-stu-id="65608-131">On our site, if you start from a page about Finance and Operations, we scope your search to just be for Finance and Operations content.</span></span> <span data-ttu-id="65608-132">Selle piirangu saab eemaldada, klõpsates otsinguväljal märki X valiku Unified Operations juures.</span><span class="sxs-lookup"><span data-stu-id="65608-132">You can remove the scoping by clicking the X next to Unified Operations in the search box.</span></span>
+
+![Otsige](./media/search-scope-2.png)
+
+<span data-ttu-id="65608-134">Leiate meie sisu ka igasuguse otsingumootoriga.</span><span class="sxs-lookup"><span data-stu-id="65608-134">You can also find our content with any search engine.</span></span> <span data-ttu-id="65608-135">Soovitame kasutada parimate tulemuste saamiseks saidiotsingut, nt sait: docs.microsoft.com dynamics 365 "otsingusõna".</span><span class="sxs-lookup"><span data-stu-id="65608-135">We recommend that for best results, you use a site search, such as site:docs.microsoft.com dynamics 365 "search term".</span></span>
+
+### <a name="the-docsmicrosoftcom-table-of-contents"></a><span data-ttu-id="65608-136">Sisukord lehel docs.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="65608-136">The docs.microsoft.com table of contents</span></span>
+
+<span data-ttu-id="65608-137">Rakendustel Finance and Operations ja Retail on dokumentide saidil ühine sisukord, mis võimaldab klientidel näha selle teema konteksti, millesse nad kuuluvad.</span><span class="sxs-lookup"><span data-stu-id="65608-137">Finance and Operations and Retail all share a single table of contents on the docs site, which enables customers to see the context of the topic they are in.</span></span> <span data-ttu-id="65608-138">Samuti võimaldab see kasutada sisukorra kohal olevat filtri juhtelementi otsitavate teemade leidmiseks.</span><span class="sxs-lookup"><span data-stu-id="65608-138">It also enables you to use the Filter control above the table of contents to find topics that you are looking for.</span></span>
+
+<span data-ttu-id="65608-139">Muude Dynamics 365 toodete kohta saab abi neid otsides või klõpsates saidi lingireal Dynamics 365-le, et jõuda meie jaoturi lehele.</span><span class="sxs-lookup"><span data-stu-id="65608-139">You can get help on other Dynamics 365 products by searching for them, or by clicking Dynamics 365 in the site breadcrumb to get to our hub page.</span></span>
+
+### <a name="use-an-rss-feed"></a><span data-ttu-id="65608-140">RSS-kanali kasutamine</span><span class="sxs-lookup"><span data-stu-id="65608-140">Use an RSS feed</span></span>
+
+<span data-ttu-id="65608-141">Unified Operationsi sisu kõigi värskenduste RSS-kanali tellimiseks kasutage brauseril, mis kasutab RSS-kanaleid (nt Internet Explorer) või RSS-kanali haldurit, järgmist linki:</span><span class="sxs-lookup"><span data-stu-id="65608-141">To subscribe to an RSS feed of all updates to the Unified Operations content, use the following link from a browser that supports RSS feeds, such as Internet Explorer, or an RSS feed manager:</span></span>
+
+<span data-ttu-id="65608-142">[RSS-kanal](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))</span><span class="sxs-lookup"><span data-stu-id="65608-142">[RSS feed](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))</span></span>
+
+### <a name="give-feedback"></a><span data-ttu-id="65608-143">Tagasiside andmine</span><span class="sxs-lookup"><span data-stu-id="65608-143">Give feedback</span></span>
+
+<span data-ttu-id="65608-144">Meil on klientide tagasiside üle alati hea meel.</span><span class="sxs-lookup"><span data-stu-id="65608-144">We really like customer feedback.</span></span> <span data-ttu-id="65608-145">Saate GitHubi kaudu lisada meie sisu kohta kommentaare või soovitada muudatusi.</span><span class="sxs-lookup"><span data-stu-id="65608-145">You can either comment or suggest changes to our content through GitHub.</span></span> <span data-ttu-id="65608-146">Lisateavet meie tagasisidesüsteemi kohta leiate [sellest ajaveebipostitusest](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).</span><span class="sxs-lookup"><span data-stu-id="65608-146">For more information about our feedback system, see [this blog post](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).</span></span>
+
+#### <a name="leave-us-feedback"></a><span data-ttu-id="65608-147">Tagasiside andmine</span><span class="sxs-lookup"><span data-stu-id="65608-147">Leave us feedback</span></span>
+
+<span data-ttu-id="65608-148">Kui teil on küsimusi konkreetse teema kohta, lisage kommentaar lehe alaosas.</span><span class="sxs-lookup"><span data-stu-id="65608-148">If you have feedback or questions about a topic, leave us a comment at the bottom of the page.</span></span>
+
+1. <span data-ttu-id="65608-149">Klõpsake nuppu **Tagasiside**, et liikuda lehe lõpus olevate kommentaaride juurde, ja seejärel klõpsake kas nuppu **Toote tagasiside** või **Sisselogimine dokumentatsiooni tagasiside andmiseks**.</span><span class="sxs-lookup"><span data-stu-id="65608-149">Click **Feedback** to get to the comments at the bottom of the page, and then click either **Product feedback**, or **Sign in to give documentation feedback**.</span></span>
+
+2. <span data-ttu-id="65608-150">Alustage kommentaaride sisestamist ja klõpsake siis valikut **Tagasiside edastamine**.</span><span class="sxs-lookup"><span data-stu-id="65608-150">Start typing your comments, and then click **Submit feedback**.</span></span>
+
+    ![Sisesta kommentaar](./media/feedback.png)
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a><span data-ttu-id="65608-152">Soovitage muudatusi või lisage sisu GitHubi kaudu</span><span class="sxs-lookup"><span data-stu-id="65608-152">Suggest a change or contribute content through GitHub</span></span>
+
+<span data-ttu-id="65608-153">Muudatuse soovitamiseks peab teil olema GitHubi konto ja teil tuleb allkirjastada kaasautori litsentsileping.</span><span class="sxs-lookup"><span data-stu-id="65608-153">To suggest a change, you'll need to have a GitHub account, and sign a Contributor License Agreement.</span></span> <span data-ttu-id="65608-154">Pärast tõmbamistaotluse esitamist vaatame teie soovitatud muudatused üle.</span><span class="sxs-lookup"><span data-stu-id="65608-154">After you submit a pull request, we'll review your proposed changes.</span></span> <span data-ttu-id="65608-155">Vajaduse korral arutleme neid ja seejärel võtame teiega ühendust.</span><span class="sxs-lookup"><span data-stu-id="65608-155">If necessary, we'll discuss them internally, and then get back to you.</span></span>
+
+<span data-ttu-id="65608-156">Alustamiseks klõpsake teemas nuppu **Redigeeri** (pliiats) või vaadake meie repolepingut aadressil <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>.</span><span class="sxs-lookup"><span data-stu-id="65608-156">To get started, click the **Edit** (pencil) button on a topic, or go to our repo at <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>.</span></span>
+
+<span data-ttu-id="65608-157">Lisateabe saamiseks vaadake meie kaasautori juhendit: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.</span><span class="sxs-lookup"><span data-stu-id="65608-157">For more information, please refer to our contributor's guide: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="65608-158">Praegu aktsepteerime panuseid ainult ingliskeelsetesse sisukomplektidesse.</span><span class="sxs-lookup"><span data-stu-id="65608-158">We only accept contributions to our English content set at this time.</span></span>
+
+## <a name="task-guides"></a><span data-ttu-id="65608-159">Tegevuse juhised</span><span class="sxs-lookup"><span data-stu-id="65608-159">Task guides</span></span>
+
+<span data-ttu-id="65608-160">Tegevuse juhis on juhendatud, interaktiivne kogemus, mis juhib teid läbi tegevuse või äriprotsessi toimingute.</span><span class="sxs-lookup"><span data-stu-id="65608-160">A Task guide is a controlled, guided, interactive experience that leads you through the steps of a task, or business process.</span></span> <span data-ttu-id="65608-161">Tegevuse juhise saab avada (esitada) paanilt Spikker.</span><span class="sxs-lookup"><span data-stu-id="65608-161">You can open (play) a Task guide from the Help pane.</span></span> <span data-ttu-id="65608-162">Tegevuse juhise esmakordsel klõpsamisel kuvatakse paanil Spikker tegevuse etapiviisilised juhised.</span><span class="sxs-lookup"><span data-stu-id="65608-162">When you first click a Task guide, the Help pane will show the step-by-step instructions for the task.</span></span> <span data-ttu-id="65608-163">Lokaliseeritud tegevuse juhised on nüüd saadaval.</span><span class="sxs-lookup"><span data-stu-id="65608-163">Localized Task guides are now available.</span></span>
+
+<span data-ttu-id="65608-164">Microsoft avaldas Finance and Operations tegevuse juhise teegid 2017. aasta detsembris.</span><span class="sxs-lookup"><span data-stu-id="65608-164">Microsoft shipped task guide libraries for releases through December 2017 for Finance and Operations.</span></span> <span data-ttu-id="65608-165">Jaotis [Ligipääs tegevuse juhistele Spikripaanilt](help-overview.md#accessing-task-guides-from-the-help-pane) kirjeldab, kuidas leida oma toote jaoks sobivaid tegevuse juhiseid.</span><span class="sxs-lookup"><span data-stu-id="65608-165">The section [Accessing Task guides from the Help pane](help-overview.md#accessing-task-guides-from-the-help-pane) describes how to find the correct task guides for your product.</span></span>
+
+![Tegevuse juhise lugemisvaade](./media/task-guide-ops.png)
+
+<span data-ttu-id="65608-167">Juhitud interaktiivse kogemusega alustamiseks klõpsake valikut **Käivita tegevusjuhis** paani Spikker alumises osas.</span><span class="sxs-lookup"><span data-stu-id="65608-167">To begin the guided, interactive experience, click **Start task guide** at the bottom of the Help pane.</span></span> <span data-ttu-id="65608-168">Avaneb must kursor, mis näitab tegevust, mida tegema peate.</span><span class="sxs-lookup"><span data-stu-id="65608-168">A black pointer opens and indicates the action that you must perform.</span></span> <span data-ttu-id="65608-169">Järgige kasutajaliideses kuvatavaid juhiseid ja sisestage andmed näidatud viisil.</span><span class="sxs-lookup"><span data-stu-id="65608-169">Follow the directions that appear in the UI, and enter data as directed.</span></span>
+
+![Tegevusjuhise etapijuhend](./media/task-guide-step-1-ops.png)
+
+> [!IMPORTANT]
+> <span data-ttu-id="65608-171">Tegevuse juhise käitamisel sisestatavad andmed on tõelised.</span><span class="sxs-lookup"><span data-stu-id="65608-171">The data that you enter when you play a task guide is real.</span></span> <span data-ttu-id="65608-172">Kui olete tootmiskeskkonnas, sisestatakse andmed hetkel kasutatavasse ettevõttesse.</span><span class="sxs-lookup"><span data-stu-id="65608-172">If you're in a production environment, the data will be entered in the company that you're currently using.</span></span>
+
+<span data-ttu-id="65608-173">Tegevuse salvestajat saate kasutada kohandatud tegevuse juhiste loomiseks.</span><span class="sxs-lookup"><span data-stu-id="65608-173">You can use Task recorder to create your own custom task guides.</span></span> <span data-ttu-id="65608-174">Lisateavet vt jaotisest [Dokumentide või koolituse loomine tegevuse salvestiste abil](../../dev-itpro/user-interface/task-recorder-training-docs.md).</span><span class="sxs-lookup"><span data-stu-id="65608-174">For more information, see [Create documentation or training by using task recordings](../../dev-itpro/user-interface/task-recorder-training-docs.md).</span></span>
+
+## <a name="in-product-help"></a><span data-ttu-id="65608-175">Toote sisespikker</span><span class="sxs-lookup"><span data-stu-id="65608-175">In-product Help</span></span>
+
+<span data-ttu-id="65608-176">Spikri sisule Finance and Operationsis juurdepääsuks klõpsake ikooni **Spikker** (**?**) ja valige Spikker või vajutage klahve Ctrl + Shift + ?.</span><span class="sxs-lookup"><span data-stu-id="65608-176">To access Help content within Finance and Operations, either click the **Help** (**?**) icon and then choose Help or press Ctrl+Shift+?.</span></span> <span data-ttu-id="65608-177">Mõlemal juhul avaneb paan Spikker.</span><span class="sxs-lookup"><span data-stu-id="65608-177">In both cases, the Help pane opens.</span></span> <span data-ttu-id="65608-178">Paanilt Spikker pääsete juurde artiklitele või tegevuse juhistele.</span><span class="sxs-lookup"><span data-stu-id="65608-178">From the Help pane, you can access articles or task guides.</span></span>
+
+![Spikripaan](./media/help-pane-wiki.png)
+
+### <a name="accessing-help-topics-from-the-help-pane"></a><span data-ttu-id="65608-180">Spikri paanilt spikriteemadele juurdepääsemine</span><span class="sxs-lookup"><span data-stu-id="65608-180">Accessing help topics from the Help pane</span></span>
+
+<span data-ttu-id="65608-181">Paanilt Spikker pääsete juurde Finance and Operationsi kliendile kohalduvatele artiklitele.</span><span class="sxs-lookup"><span data-stu-id="65608-181">From the Help pane, you can access articles that apply to the Finance and Operations client.</span></span> <span data-ttu-id="65608-182">Kui avate esimest korda Spikripaani ja klõpsate vahekaarti **Spikker**, näete artikleid, mis kohalduvad lehele, millel parajasti Finance and Operationsis olete.</span><span class="sxs-lookup"><span data-stu-id="65608-182">When you first open the Help pane and click the **Help** tab, you'll see the articles that apply to the page that you're currently on in Finance and Operations.</span></span> <span data-ttu-id="65608-183">Kui ühtegi artiklit ei leita, saate sisestada märksõnu otsingu kitsendamiseks.</span><span class="sxs-lookup"><span data-stu-id="65608-183">If no articles are found, you can enter keywords to refine your search.</span></span> <span data-ttu-id="65608-184">Kui klõpsate artiklit paanil Spikker, avaneb teie brauseris uus vahekaart ja kuvatakse artikkel.</span><span class="sxs-lookup"><span data-stu-id="65608-184">When you click an article in the Help pane, a new tab opens in your browser and displays the article.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="65608-185">See jaotis ei kehti Dynamics 365 for Talenti puhul.</span><span class="sxs-lookup"><span data-stu-id="65608-185">This section does not apply to Dynamics 365 for Talent.</span></span> <span data-ttu-id="65608-186">Talenti spikrisüsteem on ühendatud automaatselt toote tegevusjuhistega.</span><span class="sxs-lookup"><span data-stu-id="65608-186">The Help system for Talent is automatically connected to Task guides for the product.</span></span> <span data-ttu-id="65608-187">Samuti ei saa Talenti puhul kohandatud tegevusjuhiseid luua.</span><span class="sxs-lookup"><span data-stu-id="65608-187">Also, you cannot create custom Task guides for Talent.</span></span>
+
+### <a name="accessing-task-guides-from-the-help-pane"></a><span data-ttu-id="65608-188">Spikri paanilt tegevuse juhistele juurdepääsemine</span><span class="sxs-lookup"><span data-stu-id="65608-188">Accessing Task guides from the Help pane</span></span>
+
+<span data-ttu-id="65608-189">Enne, kui pääsete paanilt Spikker tegevuse juhistele juurde, peab süsteemiadministraator minema Finance and Operationsis lehele **Süsteemi parameetrid** ja konfigureerima mõned sätted.</span><span class="sxs-lookup"><span data-stu-id="65608-189">Before you can access Task guides from the Help pane, a System administrator has to go to the **System parameters** page in Finance and Operations and configure some settings.</span></span>
+
+> [!NOTE]
+> - <span data-ttu-id="65608-190">Spikri konfigureerimiseks peate olema sisse loginud kontoga samas rentnikus, kus Finance and Operations on juurutatud.</span><span class="sxs-lookup"><span data-stu-id="65608-190">In order to configure help, you must be signed in with an account in the same tenant as the tenant in which Finance and Operations is deployed.</span></span>
+> - <span data-ttu-id="65608-191">LCS-i teegiga ei saa ühendust luua Finance and Operationsi eksemplarist, mis töötab virtuaalsel kõvakettal (VHD).</span><span class="sxs-lookup"><span data-stu-id="65608-191">It is not possible to connect to an LCS library from an instance of Finance and Operations running in a local virtual hard drive (VHD).</span></span>
+
+![Süsteemi parameetrite vorm koos spikrisätetega](./media/system-parameters_ops-1024x437.png)
+
+<span data-ttu-id="65608-193">Tehke lehel **Süsteemi parameetrid** järgmist.</span><span class="sxs-lookup"><span data-stu-id="65608-193">On the **System parameters** page, follow these steps:</span></span>
+
+1. <span data-ttu-id="65608-194">**Oluline:** vahekaardi Spikker esmakordsel avamisel peate looma ühenduse teenusega Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="65608-194">**Important:** The first time that you open the Help tab, you must connect to Lifecycle Services.</span></span> <span data-ttu-id="65608-195">Klõpsake kindlasti vormi keskel olevat linki, oodake, kuni ühendus on loodud, sulgege dialoogiboks ja seejärel klõpsake parameetrite vormi avamiseks **OK**.</span><span class="sxs-lookup"><span data-stu-id="65608-195">Be sure to click the link in the middle of the form, wait for the connection, close the dialog box, and then click **OK** to get to the parameters form.</span></span>
+
+    ![Ühenda LCS-iga](./media/connect-to-lcs-crop-1024x365.png)
+
+2. <span data-ttu-id="65608-197">Valige elutsükli teenuste projekt, millega ühendus luua.</span><span class="sxs-lookup"><span data-stu-id="65608-197">Select the Lifecycle Services project to connect to.</span></span>
+3. <span data-ttu-id="65608-198">Valige BPM-i teegid (valitud projektis), kust tegevuse salvestised tuua.</span><span class="sxs-lookup"><span data-stu-id="65608-198">Select BPM libraries (within the selected project) to retrieve task recordings from.</span></span>
+
+    - <span data-ttu-id="65608-199">Finance and Operationsi puhul valige Microsofti sisu jaoks 2017. aasta veebruari Microsoft Dynamics 365 for Finance and Operationsi QPC ühendatud teek.</span><span class="sxs-lookup"><span data-stu-id="65608-199">For Finance and Operations, for Microsoft content, select the February 2017 QPC Unified Library for Microsoft Dynamics 365 for Finance and Operations.</span></span>
+    - <span data-ttu-id="65608-200">Retaili jaoks anname teegi välja juulis.</span><span class="sxs-lookup"><span data-stu-id="65608-200">For Retail, we will be releasing a library in July.</span></span>
+    - <span data-ttu-id="65608-201">Talenti jaoks pole vaja teeki valida – ühendus õige teegiga on teie eest loodud.</span><span class="sxs-lookup"><span data-stu-id="65608-201">You do not need to select a library for Talent—the connection to the correct library is established for you.</span></span>
+
+4. <span data-ttu-id="65608-202">Valige BPM-i teekide kuvamise järjekord.</span><span class="sxs-lookup"><span data-stu-id="65608-202">Set the display order of the BPM libraries.</span></span> <span data-ttu-id="65608-203">See määrab teekidest pärinevate tegevuse salvestiste kuvamise järjekorra paanil Spikker.</span><span class="sxs-lookup"><span data-stu-id="65608-203">This determines the order in which task recordings from the libraries will appear in the Help pane.</span></span>
+
+<span data-ttu-id="65608-204">Kui süsteemiadministraator on need toimingud lõpetanud, võite avada paani Spikker ja klõpsata vahekaarti **Tegevuse juhised**. Näete nüüd tegevuse juhiseid, mis rakenduvad lehele, millel parajasti Finance and Operationsis olete.</span><span class="sxs-lookup"><span data-stu-id="65608-204">After a System administrator has completed these steps, you can open the Help pane and click the **Task guides** tab. You'll now see the Task guides that apply to the page that you're currently on in Finance and Operations.</span></span> <span data-ttu-id="65608-205">Kui ühtegi tegevuse juhist ei leita, saate sisestada märksõnu otsingu kitsendamiseks.</span><span class="sxs-lookup"><span data-stu-id="65608-205">If no Task guides are found, you can enter keywords to refine your search.</span></span> <span data-ttu-id="65608-206">Pärast tegevuse juhise klõpsamist paanil Spikker kuvatakse paanil Spikker etapiviisilised juhised ja saate tegevuse juhise esitada.</span><span class="sxs-lookup"><span data-stu-id="65608-206">After you click a Task guide in the Help pane, the Help pane shows the step-by-step instructions, and you can play the task guide.</span></span>
+
+![Tegevuse juhise lugemisvaade](./media/task-guide-ops.png)
+
+### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a><span data-ttu-id="65608-208">Kus on Microsofti teekide tõlgitud tegevuse juhised?</span><span class="sxs-lookup"><span data-stu-id="65608-208">Where are the translated Task guides for Microsoft libraries?</span></span>
+
+<span data-ttu-id="65608-209">Tõlgitud tegevuse juhised on väljastatud teekidesse, mille pealkirjas on „Kõik keeled”.</span><span class="sxs-lookup"><span data-stu-id="65608-209">Translated Task guides are released in libraries with "All languages" in the title.</span></span> <span data-ttu-id="65608-210">Finance and Operationsis lokaliseeritud tegevusjuhise vaatamiseks veenduge, et teil oleks ühendus sobiva teegiga.</span><span class="sxs-lookup"><span data-stu-id="65608-210">In Finance and Operations, to see localized Task guide help, make sure that you are connected to an appropriate library.</span></span> <span data-ttu-id="65608-211">Keelt, milles tegevuse juhis kuvatakse, juhitakse iga kasutaja puhul keelesätetega jaotises **Suvandid** &gt; **Eelistused**.</span><span class="sxs-lookup"><span data-stu-id="65608-211">The language that a Task guide appears in is controlled for each user by the Language settings under **Options** &gt; **Preferences**.</span></span>
+
+- <span data-ttu-id="65608-212">Kui tegevuse juhis on tõlgitud, siis kuvatakse tegevuse juhise avamisel kogu selle tekst teie valitud keeles.</span><span class="sxs-lookup"><span data-stu-id="65608-212">If a Task guide has been translated, when you open that Task guide all the text of the Task guide will appear in your selected language.</span></span>
+- <span data-ttu-id="65608-213">Kui tegevuse juhist pole veel tõlgitud, siis kuvatakse tegevuse juhise avamisel teie valitud keeles ainult osa tekstist (juhtelementide tekst).</span><span class="sxs-lookup"><span data-stu-id="65608-213">If a Task guide has not yet been translated, when you open it, only some of the text (the text of the controls) will appear in your selected language.</span></span>
+
+## <a name="creating-custom-help"></a><span data-ttu-id="65608-214">Kohandatud spikri loomine</span><span class="sxs-lookup"><span data-stu-id="65608-214">Creating custom help</span></span>
+
+<span data-ttu-id="65608-215">Kasutajatele saab spikreid luua kohandatud tegevusjuhiseid luues või enda veebisaiti spikripaaniga ühendades.</span><span class="sxs-lookup"><span data-stu-id="65608-215">You can create help for your users by creating custom task guides, or connect your own website to the Help pane.</span></span> <span data-ttu-id="65608-216">Lisateavet vt jaotisest</span><span class="sxs-lookup"><span data-stu-id="65608-216">For details, see:</span></span>
+
+- <span data-ttu-id="65608-217">[Kuidas luua tegevuse salvestist dokumentide või koolitusena kasutamiseks](../../dev-itpro/user-interface/task-recorder.md).</span><span class="sxs-lookup"><span data-stu-id="65608-217">[How to create a task recording to use as documentation or training](../../dev-itpro/user-interface/task-recorder.md).</span></span>
+- [<span data-ttu-id="65608-218">Kohandatud spikri loomine rakendusele Finance and Operations(tehniline ülevaade)</span><span class="sxs-lookup"><span data-stu-id="65608-218">Create Custom Help for Finance and Operations (white paper)</span></span>](https://go.microsoft.com/fwlink/?linkid=2041185)
+
+## <a name="additional-resources"></a><span data-ttu-id="65608-219">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="65608-219">Additional resources</span></span>
+
+- [<span data-ttu-id="65608-220">Finance and Operationsi spikrisüsteem (allalaaditav teabeleht)</span><span class="sxs-lookup"><span data-stu-id="65608-220">Finance and Operations help system (downloadable fact sheet)</span></span>](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+- [<span data-ttu-id="65608-221">Tegevuse salvestaja</span><span class="sxs-lookup"><span data-stu-id="65608-221">Task Recorder</span></span>](../../dev-itpro/user-interface/task-recorder.md)
+- [<span data-ttu-id="65608-222">Dokumentide või koolituse loomine tegevuse salvestiste abil</span><span class="sxs-lookup"><span data-stu-id="65608-222">Create documentation or training using Task recordings</span></span>](../../dev-itpro/user-interface/task-recorder.md)
+
+<span data-ttu-id="65608-223">Järgmises tabelis esitatakse meie veebilehed.</span><span class="sxs-lookup"><span data-stu-id="65608-223">The following table lists our websites.</span></span> <span data-ttu-id="65608-224">Saitidel, millel on nime kõrval tärn (\*), nõuavad, et logiksite sisse, kasutades teenusepaketiga seotud kontot.</span><span class="sxs-lookup"><span data-stu-id="65608-224">Sites that have an asterisk (\*) next to the name require that you sign in by using an account that is associated with a service plan.</span></span>
+
+| <span data-ttu-id="65608-225">Sait</span><span class="sxs-lookup"><span data-stu-id="65608-225">Site</span></span>                                                                                           | <span data-ttu-id="65608-226">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="65608-226">Description</span></span> |
+|------------------------------------------------------------------------------------------------|-------------|
+| [<span data-ttu-id="65608-227">Docs.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="65608-227">Docs.microsoft.com</span></span>](/dynamics365/)                                                            | <span data-ttu-id="65608-228">Majutab või lingib kõiki Dynamics 365 projektidokumente.</span><span class="sxs-lookup"><span data-stu-id="65608-228">Hosts or links to all product documentation for Dynamics 365.</span></span> |
+| [<span data-ttu-id="65608-229">Microsoft Learn</span><span class="sxs-lookup"><span data-stu-id="65608-229">Microsoft Learn</span></span>](https://docs.microsoft.com/learn/)                                           | <span data-ttu-id="65608-230">Microsofti vaba eLearning sait.</span><span class="sxs-lookup"><span data-stu-id="65608-230">Microsoft's free eLearning site.</span></span> |
+| <span data-ttu-id="65608-231">[Elutsükli teenused](https://lcs.dynamics.com/)\*</span><span class="sxs-lookup"><span data-stu-id="65608-231">[Lifecycle Services](https://lcs.dynamics.com/)\*</span></span>                                              | <span data-ttu-id="65608-232">Pakub pilvepõhist koostöö tööruumi, mida partnerid ja kliendid saavad kasutada Dynamics 365 for Finance and Operationsi projektide haldamiseks alates müügieelsetest tegevustest kuni juurutamise ning operatsioonideni.</span><span class="sxs-lookup"><span data-stu-id="65608-232">Provides a cloud-based collaborative workspace that customers and partners can use to manage Dynamics 365 for Finance and Operations projects from pre-sales to implementation and operations.</span></span> <span data-ttu-id="65608-233">See sait on abiks kõigis juurutamise faasides.</span><span class="sxs-lookup"><span data-stu-id="65608-233">This site is useful in all phases of an implementation.</span></span> |
+| [<span data-ttu-id="65608-234">Toe ajaveeb</span><span class="sxs-lookup"><span data-stu-id="65608-234">Support blog</span></span>](https://aka.ms/AXSupportBlog)                                                    | <span data-ttu-id="65608-235">Annab vihjeid ja näpunäiteid, mida sisestab Dynamics 365 for Finance and Operationsi tugiteenuse töörühm.</span><span class="sxs-lookup"><span data-stu-id="65608-235">Provides tips and tricks that are posted by the Dynamics 365 for Finance and Operations Support team.</span></span> |
+| [<span data-ttu-id="65608-236">Docs.microsoft.com/previous versioonid</span><span class="sxs-lookup"><span data-stu-id="65608-236">Docs.microsoft.com/previous versions</span></span>](https://docs.microsoft.com/previous-versions/dynamics/) | <span data-ttu-id="65608-237">Hoiustab varasemate väljaannete sisu.</span><span class="sxs-lookup"><span data-stu-id="65608-237">Hosts content from previous releases.</span></span> |
+| [<span data-ttu-id="65608-238">Dynamicsi kogukond</span><span class="sxs-lookup"><span data-stu-id="65608-238">Dynamics Community</span></span>](https://community.dynamics.com/)                                          | <span data-ttu-id="65608-239">Majutab ajaveebe, foorumeid ja videoid.</span><span class="sxs-lookup"><span data-stu-id="65608-239">Hosts blogs, forums, and videos.</span></span> |
+| [<span data-ttu-id="65608-240">Microsoft.com/dynamics365/</span><span class="sxs-lookup"><span data-stu-id="65608-240">Microsoft.com/dynamics365/</span></span>](https://www.microsoft.com/dynamics365/home)                       | <span data-ttu-id="65608-241">Pakub hinnanguid ja müügiteavet.</span><span class="sxs-lookup"><span data-stu-id="65608-241">Provides evaluation and sales information.</span></span> |
+| <span data-ttu-id="65608-242">[CustomerSource](https://mbs.microsoft.com/customersource/)\*</span><span class="sxs-lookup"><span data-stu-id="65608-242">[CustomerSource](https://mbs.microsoft.com/customersource/)\*</span></span>                                  | <span data-ttu-id="65608-243">Hoiustab mõningaid Finance and Operationsi koolitusmaterjale, allalaaditavaid aruandeid ja tehnilisi ülevaateid ning on peamine teenusplaani omanike tugisait.</span><span class="sxs-lookup"><span data-stu-id="65608-243">Hosts some training resources for Finance and Operations, downloadable reports and white papers, and is the primary support site for service plan holders.</span></span> <span data-ttu-id="65608-244">Mõndadele saidil olevatele ressurssidele ligipääsemiseks võib olla nõutav hooldusplaan.</span><span class="sxs-lookup"><span data-stu-id="65608-244">May require a service plan to access some resources on the site.</span></span> |

@@ -1,1056 +1,696 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="TOC.yml" target-language="et-EE">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>TOC.1b20fc.88485598ac4a9d5d2829a3021361885065ad76a4.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>88485598ac4a9d5d2829a3021361885065ad76a4</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>bbc9aa0d6b94a942e1f4d5b038601509dcc87937</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>06/05/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\TOC.yml</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101">
-          <source>Welcome to Dynamics 365 for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tere tulemast rakendusse Dynamics 365 for Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102">
-          <source>Get started</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Alustamine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>What's new or changed</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mis on uut või mida on muudetud?</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Preview features in Dynamics 365 for Retail 10.0.3</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Dynamics 365 for Retail 10.0.3 eelvaatefunktsioonid</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>What's new or changed in Dynamics 365 for Retail 10.0.2</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mis on uut või mida on muudetud rakenduses Dynamics 365 for Retail 10.0.2?</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>What's new ot changed in Dynamics 365 for Retail 10.0.1</source><target logoport:matchpercent="87" state="translated" state-qualifier="x-fuzzy-match-unedited">Mis on uut või mida on muudetud rakenduses Dynamics 365 for Retail 10.0.1?</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>What's new or changed in Dynamics 365 for Retail (April 2019)</source><target logoport:matchpercent="87" state="translated" state-qualifier="x-fuzzy-match-unedited">Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Retail (aprill 2019)?</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Before you buy Retail</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Enne Retaili ostmist</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Sign up for a preview subscription</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Eelvaatetellimuse saamiseks registreerumine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Deploy a demo environment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Demokeskkonna juurutamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Deployment options</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juurutamissuvandid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Get support for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili toe hankimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>One Version service updates FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ühe versiooni teenuse värskenduste KKK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Understand the implementation lifecycle</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juurutamise elutsükli mõistmine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Microsoft FastTrack for Dynamics 365</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft FastTrack for Dynamics 365</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Onboarding</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasutuselevõtt</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Preparing for go-live</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ettevalmistamine süsteemi Go-Live jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Go-live FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Süsteemi Go-live KKK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Submit a service request</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teenusetaotluse esitamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Subscriptions, LCS projects, and Azure Active Directory tenants FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tellimuste, LCS-i projektide ja Azure Active Directory rentnike KKK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Move environments between data centers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Keskkondade teisaldamine andmekeskuste vahel</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Move licenses between agreement types</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Litsentside teisaldamine lepingutüüpide vahel</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Move an LCS Implementation project to another Azure Active Directory tenant</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LCS-i juurutusprojekti teisaldamine teise Azure Active Directory rentnikusse</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Implement multiple LCS projects and production environments on the same Azure Active Directory tenant</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mitme LCS-i projekti ja tootmiskeskkonna juurutamine samasse Azure Active Directory rentnikusse</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Implement Finance and Operations Retail projects</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Finance and Operationsi Retaili projektide juurutamine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Set up new environments, Azure DevOps, and branches for Retail projects</source><target logoport:matchpercent="0" state="translated">Uute keskkondade, Azure DevOpsi ja Retaili projektide harude seadistamine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Update code and environments for Retail projects</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Retaili projektide koodi ja keskkondade värskendamine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Testing and performance issues</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Testimine ja jõudlusprobleemid</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Distributed order management (DOM)</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Hajutatud tellimuste haldamine (DOM)</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>DOM overview</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">DOM-i ülevaade</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Cost configuration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kulukonfiguratsioon</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Payments</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Maksed</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Payment methods</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Makseviisid</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Credit card setup, authorization, and capture</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Krediitkaardi seadistamine, autoriseerimine ja hõivamine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Configure cash denominations for the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Sularaha nimiväärtuste konfigureerimine kassa jaoks</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Dynamics 365 Payment Connector for Adyen</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Dynamics 365 maksekonnektor Adyeni jaoks</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Saving online payment instruments with the Adyen connector</source><target logoport:matchpercent="0" state="translated">Veebimaksevahendite salvestamine Adyeni konnektori abil</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Set up pay invoice scenarios</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Arve tasumise stsenaariumide seadistamine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Payments FAQ</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Maksete KKK</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Duplicate payments prevention</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Duplikaatmaksete vältimine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostutellimused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Purchase order overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostutellimuse ülevaade</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Create purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostutellimuste loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Product receipt against purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toote sissetulek ostutellimuste suhtes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Approve and confirm purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostutellimuste kinnitamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Purchase order approval mobile workspace</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ostutellimuse heakskiitmise mobiilne tööruum</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väljavõtted</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Retail statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügi väljavõtted</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Retail transaction consistency checker</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügikande süsteemsuskontroll</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Create, calculate, and post statements for a retail store</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Jaekaupluse jaoks väljavõtete loomine, arvutamine ja sisestamine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Improvements to statement posting functionality</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Väljavõtte sisestamisfunktsiooni täiustused</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Improved handling of batch tracked items</source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited">Partii jälgimisega kaupade täiustatud käsitlemine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Configure Retail parameters that affect retail statements</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Jaemüügi väljavõtteid mõjutavate Jaemüügi parameetrite konfigureerimine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Configure payment method settings that affect retail statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügi väljavõtteid mõjutavate makseviisi sätete konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Configure and run a job to calculate statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väljavõtete arvutamiseks töö konfigureerimine ja käivitamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Configure and run a job to post statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väljavõtete sisestamiseks töö konfigureerimine ja käivitamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Configure store settings that affect retail statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügi väljavõtteid mõjutavate kaupluse sätete konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Sales tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Sales tax overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksu ülevaade</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Sales tax calculation methods in the Origin field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Käibemaksuarvutusmeetodid väljal Päritolu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Sales tax assignment and overrides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Käibemaksu määramine ja tühistamised</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Whole amount and Interval calculation options for sales tax codes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Omni-channel payments overview</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Omnikanali maksete ülevaade</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Omni-channel advanced auto charges</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Omnikanali täpsemad automaatsed kulud</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Configure and use advanced auto charges</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Täpsemate automaatsete tasude konfigureerimine ja kasutamine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Prorate header charges to matching sales lines</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Call center</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõnekeskus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Call center sales functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõnekeskuse müügifunktsioonid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Call center catalogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõnekeskuse kataloogid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Configure delivery modes and charges</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tarneviiside ja -tasude konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Set up and work with fraud alerts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pettuseteatiste seadistamine ja nendega töötamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Set up call center channels</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõnekeskuse kanalite seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Set up continuity programs for call centers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõnekeskuste järjepidevusprogrammide seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Configure and work with call center order holds</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõnekeskuse tellimuse ootelolekute konfigureerimine ja nendega töötamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Payment methods</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makseviisid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Channel setup and management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanali seadistus ja haldamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Initialize seed data in new Retail environments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Algandmete lähtestamine uutes Retaili keskkondades</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Define and maintain retail channels</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügikanalite määratlemine ja haldamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Assortment management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sortimendi haldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Set up online stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Võrgupoodide seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Configure and install Retail hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Hardware Stationi konfigureerimine ja installimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Time and attendance in Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tööajaarvestus Retailis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Modern Point of Sale (MPOS) and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern Point of Sale (MPOS) ja Cloud POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>Choose between MPOS and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valimine MPOS-i ja pilve kassa vahel</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>Online and offline POS operations</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Ühendusega ja ühenduseta kassatoimingud</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>Device activation of a customized Retail MPOS</source><target logoport:matchpercent="83" state="translated" state-qualifier="fuzzy-match">Kohandatud Retail MPOS-i seadme aktiveerimine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Demo data screen layouts in MPOS and Cloud POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Demoandmete ekraanipaigutused MPOS-is ja Cloud POS-is</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Product and customer search in the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Toote ja kliendi otsing kassas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Cash management improvements</source><target logoport:matchpercent="68" state="translated" state-qualifier="fuzzy-match">Sularahahalduse täiustused</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>Inventory lookup in the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Otsing varudest kassas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Suspend and resume transactions in the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kannete katkestamine ja jätkamine kassas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>Hardware peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Riistvara välisseadmed</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Retail peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili välisseadmed</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>Retail peripheral simulator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili välisseadme simulaator</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Connect peripherals to the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Välisseadmete ühendamine kassaga</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Screen layouts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekraani paigutused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Demo data screen layouts in MPOS/CPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Demoandmete ekraanipaigutused MPOS-is/CPOS-is</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Screen layouts for the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassa ekraanipaigutused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Install the Retail POS layout designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail POS-i paigutuse kujundaja installimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>Choose notification settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valige teavitamise sätted</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>POS application and user language settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassarakenduse ja kasutaja keelesätted</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Set up and manage images for MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Piltide seadistamine ja haldamine MPOS-i jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>Info codes and info code groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teabekoodid ja teabekoodide grupid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>POS improvements for serialized products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassa täiustused seerianumbritega toodete jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tootesoovitused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Personalized product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Isikupärastatud tootesoovitused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Add a recommendations control on POS devices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Soovituste juhtelemendi lisamine kassaseadmetes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Offline POS functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Võrguühenduseta kassa funktsioonid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Shift and cash drawer management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuse ja sularahasahtli haldamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Cash out gift card balance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kinkekaardi saldo sularahas väljavõtmine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Customer orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kliendi tellimused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Customer orders in MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kliendi tellimused MPOS-is</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Hybrid customer orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hübriidkliendi tellimused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Sales associates</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müügi koostööpartnerid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Track commissions in the POS using sales groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komisjonitasude jälgimine kassas müügigruppide abil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>Ship orders from another store</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tellimuste lähetamine teisest kauplusest</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>Device activation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seadme aktiveerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>Configure, install and activate MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS-i konfigureerimine, installimine ja aktiveerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>Set up extended logon functionality for MPOS and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud MPOS ja Cloud POS‑i laiendatud sisselogimisfunktsiooni seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>Manage Retail activation accounts and validate devices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügi aktiveerimiskontode haldamine ja seadmete kinnitamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>Receipts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kviitungid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>Set up and design receipt formats</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kviitungi vormingute seadistamine ja kujundamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>Send email receipts from MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Meilikviitungite saatmine MPOS-ist</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Task recorder and Help for MPOS and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegevuse salvestaja ning spikker MPOS-i ja Cloud POS-i jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Order fulfillment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tellimuse täitmine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Store order fulfillment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupluse tellimuse täitmine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Set up order fulfillment for stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupluse tellimuse täitmise seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>Show order notifications in the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tellimuse teatiste kuvamine kassas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>Returns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tagastused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Sell and return products not included in a store's assortment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>Configure and process an exchange on a return order</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahetuse konfigureerimine ja töötlemine tagastustellimusel</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Restrict payment methods for returns without a receipt</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kviitungita tagastuste makseviiside piiramine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>Return items across multiple customer orders and invoices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupade tagastamine mitme klienditellimuse ja -arve alusel</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>Monitoring and analysis</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jälgimine ja analüüs</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Monitor sales and margin performance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müügi ja marginaali jõudluse jälgimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Analyze sales trends and patterns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müügitrendide ja -mustrite analüüsimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Assess sales performance by product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müügitulemuste hindamine toote alusel</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>Assess customer and product profitability</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kliendi ja toote tulususe hindamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>Analyze store performance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupluse jõudluse analüüsimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>Set up Recency, Frequency, and Monetary (RFM) analysis</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hiljutisuse, sageduse ja rahasumma (RFM) analüüsi seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Retail price reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügihinna aruanded</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>Pricing and discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hinnad ja allahindlused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Retail discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügi allahindlused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>Retail sales price management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügihinna haldamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>Price adjustments and discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hinnakorrigeerimised ja allahindlused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>Apply multiple discounts to a product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mitme allahindluse kohaldamine tootele</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>Determine the optimal combination of overlapping discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kattuvate allahindluste optimaalse kombinatsiooni määratlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>Define channel-specific discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanalipõhiste allahindluste määratlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>Options for preventing discounts for retail products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valikud jaetoodete allahindluse takistamiseks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>Shipping discount overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saatmise allahindluse ülevaade</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>Set up coupons for retail sales</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kupongide seadistamine jaemüügi jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>Products and merchandising</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tooted ja turustus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>Product information overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tooteteabe ülevaade</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>Retail hierarchies</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügi hierarhiad</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>Attributes and attribute groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribuudid ja atribuudigrupid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>Create and manage attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atribuutide loomine ja haldamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>Set up retail products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaetoodete häälestamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>Manage Retail product categories and products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili tootekategooriate ja toodete haldamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>Product dimensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tootedimensioonid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>Set up bar codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vöötkoodide häälestamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>Set up bar code masks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vöötkoodi maskide häälestamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>Set up assortments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sortimentide häälestamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>Sell and return products not included in a store's assortment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>Default order settings for dimensions and product variants</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dimensioonide ja tootevariantide tellimuse vaikesätted</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Search for products and product variants during order entry</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toodete ja tootevariantide otsimine tellimuse sisestamise käigus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>Loyalty</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Püsiklient</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>Loyalty overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Püsikliendi ülevaade</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>Inventory</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varud</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>Store inventory management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupluse varude haldamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>Register serial numbers in the sales process</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seerianumbrite registreerimine müügiprotsessis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>Inventory journals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laotöölehed</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>Inventory tag counting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sildiga varude inventuur</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>FIFO with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FIFO füüsilise väärtuse ja märkimisega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source>LIFO Date with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LIFO kuupäev füüsilise väärtuse ja märkimisega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>LIFO with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LIFO füüsilise väärtuse ja märkimisega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>Weighted average date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaalutud keskmine kuupäev</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>Weighted average with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaalutud keskmine füüsilise väärtuse ja märgistusega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>Quarantine orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vahelaoorderid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>Running average cost price</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Keskmine jooksev omahind</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>Track running average cost per inventory dimension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jooksvate keskmiste kulude jälgimine varude dimensiooni alusel</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>Human resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inimressursid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>Organize your workforce using departments, jobs, and positions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tööjõu korraldamine osakondade, tööde ja ametikohtade abil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>Set up the components of a job</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Töö komponentide seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>Localization and regulatory features</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lokaliseerimine ja regulatiivsed funktsioonid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>Fiscal integration overview for Retail channel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügikanali fiskaalüksuse integreerimise ülevaade</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Set up fiscal integration for Retail channel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügikanali fiskaalüksuse integreerimise seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>Austria</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Austria</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>Fiscal registration service integration sample for Austria</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiskaalüksuse registreerimisteenuse integratsiooni näide Austria jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source>Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ida-Euroopa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source>Advance invoices for Retail for Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili ettemaksuarved Ida-Euroopa puhul</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="291">
-          <source>Petty cash management for Retail for Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili pisikulude kassa haldus Ida-Euroopa puhul</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="292">
-          <source>Retail customer invoices and return sales orders in Eastern European countries</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili kliendiarved ja tagastuse müügitellimused Ida-Euroopa riikides</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="293">
-          <source>Deployment guidelines for cash registers for Czech Republic, Hungary, and Poland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaaparaatide juurutamise juhised Tšehhi Vabariigile, Ungarile ja Poolale</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="294">
-          <source>Fiscal printer integration sample for Poland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiskaalprinteri integratsiooni näide Poola jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="295">
-          <source>Fiscal registration service integration sample for Czech Republic</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiskaalüksuse registreerimisteenuse integratsiooni näide Tšehhi Vabariigi jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="296">
-          <source>France</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prantsusmaa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="297">
-          <source>Cash register functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaaparaadi funktsioonid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="298">
-          <source>Deployment guidelines for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaaparaatide juurutamise juhised</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="299">
-          <source>India</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">India</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="300">
-          <source>Goods and Services Tax (GST) integration for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaaparaatide kaupade ja teenuste maksu (GST) integreerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="301">
-          <source>Deployment guidelines for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaaparaatide juurutamise juhised</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="302">
-          <source>Support for upgrade and N-1 for India</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Täiendamise tugi ja N-1 India jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="303">
-          <source>Italy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Itaalia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="304">
-          <source>Fiscal printer integration sample for Italy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiskaalprinteri integratsiooni näide Itaalia jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="305">
-          <source>Norway</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norra</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="306">
-          <source>Cash register functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaaparaadi funktsioonid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="307">
-          <source>Deployment guidelines for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaaparaatide juurutamise juhised</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="308">
-          <source>Sweden</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rootsi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="309">
-          <source>Cash register functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaaparaadi funktsioonid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="310">
-          <source>Sample for Retail POS integration with control units</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail POS-i juhtseadmetega integreerimise näide</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="311">
-          <source>Retail tasks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili ülesanded</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="312">
-          <source>Create a product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toote loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="313">
-          <source>Configure linked products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lingitud toodete konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="314">
-          <source>Release a product/product master to legal entities</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toote/tooteetaloni väljastamine juriidilistele isikutele</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="315">
-          <source>Create channel-specific trade agreements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanalipõhiste kaubanduslepete loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="316">
-          <source>Create trade agreements using category pricing rules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaubanduslepete loomine kategooria hinnakujunduse reeglitega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="317">
-          <source>Configure credit card processing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krediitkaardi töötlemise konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="318">
-          <source>Configure functionality profiles for sales representatives</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müügiesindajate funktsiooniprofiilide konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="319">
-          <source>Configure machine learning-powered product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Masinõppele tuginevate tootesoovituste konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="320">
-          <source>Create devices and associate them with registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seadmete loomine ja nende seostamine registritega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="321">
-          <source>Create hardware stations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Riistvarajaamade loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="322">
-          <source>Create POS registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaregistrite loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="323">
-          <source>Create call center orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõnekeskuse tellimuste loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="324">
-          <source>Create financial dimensions for POS registers and configure dimension values on registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassaregistrite jaoks finantsdimensioonide loomine ja registrites dimensiooniväärtuste konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="325">
-          <source>Create financial dimensions for retail channels and configure dimension values on stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügikanalite jaoks finantsdimensioonide loomine ja kauplustes dimensiooniväärtuste konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="326">
-          <source>Create online channels and define channel attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Võrgukanalite loomine ja kanaliatribuutide määratlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="327">
-          <source>Create POS permission groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassa loagruppide loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="328">
-          <source>Create POS visual profiles</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassa visuaalprofiilide loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="329">
-          <source>Create product packages for purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tootepakendite loomine ostutellimuste jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="330">
-          <source>Create call center channels and define channel attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kõnekeskuse kanalite loomine ja kanali atribuutide määratlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="331">
-          <source>Define channel attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanali atribuutide määratlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="332">
-          <source>Define continuity schedules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järjepidevuse graafikute määratlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="333">
-          <source>Define loyalty programs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Püsikliendiprogrammide määratlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="334">
-          <source>Define loyalty reward points</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Püsikliendi preemiapunktide määratlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="335">
-          <source>Define loyalty schemes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Püsikliendiskeemide määratlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="336">
-          <source>Design the relationships between organizational units</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Organisatsiooniüksuste vaheliste seoste kujundamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="337">
-          <source>Manage assortments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sortimentide haldamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="338">
-          <source>Download hardware stations by using self-service</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iseteeninduses riistvarajaamade allalaadimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="339">
-          <source>Post online sales and payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veebimüügi ja - maksete sisestamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="340">
-          <source>Process adjustments of loyalty reward points</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Püsikliendi preemiapunktide korrigeerimiste töötlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="341">
-          <source>Push products from distribution centers to stores via buyer's push</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toodete jaotamine jaotuskeskustest kauplustesse kesklaost jaotuse abil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="342">
-          <source>Create retail price adjustments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügitoodete hinnakorrigeerimiste loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="343">
-          <source>Generate and run out-of-box reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valmisaruannete genereerimine ja käivitamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="344">
-          <source>Set up rules and parameters for cross-docking and buyer's push</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reeglite ja parameetrite seadistamine ristlaadimise ja kesklaost jaotuse jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="345">
-          <source>Selling continuity programs and processing sales orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järjepidevusprogrammide müümine ja müügitellimuste töötlemine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="346">
-          <source>Configure retail workers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügitöötajate konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="347">
-          <source>Retail development and administration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili arendaja ja haldus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="348">
-          <source>Architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ülesehitus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="349">
-          <source>Retail components</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaupluse komponendid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="350">
-          <source>Retail Server architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Serveri ülesehitus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="351">
-          <source>Select an in-store topology</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kauplusesisese topoloogia valimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="352">
-          <source>Commerce Data Exchange and retail channel communications</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Commerce Data Exchange’i ja jaemüügikanali side</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="353">
-          <source>Retail Modern POS architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS-i ülesehitus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="354">
-          <source>Retail online store publishing architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail-võrgupoe avaldamise ülesehitus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="355">
-          <source>Retail Channel Performance Power BI content</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Channel Performance’i Power BI sisu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="356">
-          <source>Payment Application Data Security Standards (PA-DSS) certification</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makse rakendusandmete turbestandardite (PA-DSS) sertifikaat</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="357">
-          <source>Retail capabilities available in on-premises deployments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Asutusesiseste juurutuste jaemüügi võimalused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="358">
-          <source>Deployment and hotfixes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juurutamine ja kiirparandused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="359">
-          <source>Retail Store Scale Unit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Store Scale Unit</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="360">
-          <source>Configure and install Retail Store Scale Unit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Store Scale Uniti konfigureerimine ja installimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="361">
-          <source>Retail Modern POS configuration and installation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS-i installimine ja konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="362">
-          <source>Manage Retail accounts and devices from headquarters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügikontode ja - seadmete haldamine peakontorist</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="363">
-          <source>Retail POS device activation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail POS-i seadme aktiveerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="364">
-          <source>Help secure Cloud POS in shared environments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS-i turbe abistamine ühiskasutatavates keskkondades</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="365">
-          <source>Retail Hardware Station configuration and installation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Hardware Stationi konfigureerimine ja installimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="366">
-          <source>Mass deployment of Retail self-service components</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili iseteeninduse komponentide hulgijuurutus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="367">
-          <source>Retail component events for diagnostics and troubleshooting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili komponentide sündmused diagnostika ja tõrkeotsingu jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="368">
-          <source>Apply a deployable package</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juurutatava paketi rakendamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="369">
-          <source>Upgrade and N-1 support</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Täiendus ja N-1 tugi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="370">
-          <source>Upgrade and N-1 support for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili täiendus ja N-1 tugi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="371">
-          <source>Phased Rollout (N-1) installation, configuration, and cutover</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Etapiviisilise levitamise (N-1) installimine, konfigureerimine ja üleminek</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="372">
-          <source>Upgrade the Retail channel extension to the latest Retail SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Täiendage kanali Retail laiend uusimale Retail SDK-le</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="373">
-          <source>Implementation guidance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juurutamise juhised</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="374">
-          <source>Device management implementation guidance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seadmehalduse juurutamise juhised</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="375">
-          <source>Environment configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Keskkonna konfiguratsioon</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="376">
-          <source>Add links to your organization's legal terms and privacy statement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saate oma organisatsiooni juriidilistele tingimustele ja privaatsusavaldusele linke lisada</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="377">
-          <source>Manage Bing Maps</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bingi kaartide haldamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="378">
-          <source>Localize Retail extension resources and label files</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retaili laiendiressursside ja sildifailide lokaliseerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="379">
-          <source>Point of sale extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassa laiendatavus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="380">
-          <source>Retail POS screen layouts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail POS-i ekraani paigutused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="381">
-          <source>Open URL in POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">URL-i avamine kassas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="382">
-          <source>Install the POS Layout designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassa paigutuse kujundaja installimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="383">
-          <source>Retail Modern POS in offline mode</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS ühenduseta režiimis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="384">
-          <source>Extend the POS Dual display view</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassa topeltkuva laiendamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="385">
-          <source>Retail Modern POS and Cloud POS trigger extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS-i ja pilve kassa käivitaja laiendatavus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="386">
-          <source>Add custom controls to POS views</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohandatud juhtelementide lisamine POS-i vaadetele</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="387">
-          <source>Add POS operations to POS layouts using Button grid designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassatoimingute lisamine kassa paigutustele nupupaneeli koostaja abil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="388">
-          <source>Retail POS APIs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail POS-i API-d</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="389">
-          <source>POS payment extension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassa makselaiend</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="390">
-          <source>Support for external gift cards</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Väliste kinkekaartide tugi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="391">
-          <source>Create and apply branding to the Retail Experience app</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tootjakohanduse loomine ja rakendamine rakendusele Retail Experience</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="392">
-          <source>Set up POS Hybrid app on Android and iOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rakenduse POS Hybrid seadistamine Androidis ja iOS-is</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="393">
-          <source>Override POS request handler</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassa taotluseohjuri tühistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="394">
-          <source>View POS extension package information</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kassa laiendipaketi teabe kuvamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="395">
-          <source>Hardware Station and extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hardware Station ja laiendatavus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="396">
-          <source>Retail Server extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Serveri laiendatavus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="397">
-          <source>Extend a Retail Server OData controller</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Server OData kontrolleri laiendamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="398">
-          <source>Create a Web API controller for Retail Server</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Web API kontrolleri loomine Retail Serveri jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="399">
-          <source>Retail Server customer and consumer APIs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Serveri kliendi ja tarbija API-d</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="400">
-          <source>Extend the default Retail Server metadata controller</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Vaikimisi Retail Serveri metaandmete kontrolleri laiendamine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="401">
-          <source>Call the CRT service in offline mode</source><target logoport:matchpercent="0" state="translated">CRT-teenuse kutsumine ühenduseta režiimis</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="402">
-          <source>Commerce runtime (CRT) extensibility</source><target logoport:matchpercent="0" state="translated">Commerce Runtime'i (CRT) laiendatavus</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="403">
-          <source>CRT architecture and configuration</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">CRT arhitektuur ja konfigureerimine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="404">
-          <source>CRT services</source><target logoport:matchpercent="0" state="translated">CRT-teenused</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="405">
-          <source>CRT and Retail Server extensibility</source><target logoport:matchpercent="0" state="translated">CRT ja Retail Serveri laiendatavus</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="406">
-          <source>Add customer preference data to channel databases</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kliendieelistuste andmete lisamine kanali andmebaasidesse</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="407">
-          <source>Add properties to sales orders</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Müügitellimustele atribuutide lisamine</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="408">
-          <source>CRT extensibility and triggers</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">CRT laiendatavus ja päästikud</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="409">
-          <source>Block transactions using triggers</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kannete blokeerimine päästikute abil</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="410">
-          <source>Implement a return policy using triggers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tagastuspoliitika juurutamine päästikute abil</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="411">
-          <source>e-Commerce extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">e-Commerce’i laiendatavus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="412">
-          <source>Configure online stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konfigureeri e-poode</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="413">
-          <source>Configure authentication providers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Autentimise pakkujate konfigureerimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="414">
-          <source>e-Commerce platform</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">e-Commerce’i platvorm</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="415">
-          <source>e-Commerce platform SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">e-Commerce’i platvormi SDK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="416">
-          <source>Payment connector extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makseühenduse laiendatavus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="417">
-          <source>Create a payment integration for a payment terminal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makse integreerimise loomine makseterminali jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="418">
-          <source>Implementing a payment connector and payment device (white paper)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makseühenduse ja -seadme juurutamine (tehniline ülevaade)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="419">
-          <source>Deploy payment connectors</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksekonnektorite juurutamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="420">
-          <source>Create custom localized error messages for payment terminal extensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohandatud lokaliseeritud tõrketeadete loomine makseterminali laienduste jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="421">
-          <source>Create Windows installers for payment connectors</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windowsi installerite loomine maksekonnektorite jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="422">
-          <source>Payment data use</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makse andmete kasutamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="423">
-          <source>Enable duplicate payment protection for payment connector</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Maksekonnektori duplikaatmaksete kaitse lubamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="424">
-          <source>Retail SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaemüügi SDK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="425">
-          <source>Upcoming changes in the Retail SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail SDK tulevased muudatused</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="426">
-          <source>Merge the build systems for Retail and Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Järgusüsteemide ühendamine Retaili ja Finance and Operationsi jaoks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="427">
-          <source>Retail SDK extensibility samples</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail SDK laiendatavuse näited</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="428">
-          <source>Create retail deployable packages</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Juurutatavate jaemüügipakettide loomine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="429">
-          <source>Retail SDK samples</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail SDK näidised</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="430">
-          <source>Extension points for packing slips</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saatelehtede laienduspunktid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="431">
-          <source>Channel database extensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanali andmebaasi laiendid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="432">
-          <source>Enable custom CDX synchronization via extension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laiendi kaudu kohandatud CDX-i sünkroonimise lubamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="433">
-          <source>Add custom fields to the POS Totals panel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohandatud väljade lisamine kassa kogusummade paneeli</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="434">
-          <source>Define and set order attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tellimuse atribuutide määratlemine ja seadistamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="435">
-          <source>Customer attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kliendi atribuudid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="436">
-          <source>Retail Typescript and C# proxies</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Typescript ja C# puhvrid</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="437">
-          <source>Run the Retail POS samples</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail POS-i näidete käitamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="438">
-          <source>Extend POS views to add custom columns and app bar buttons</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS-i vaadete laiendamine kohandatud veergude ja rakendusriba nuppude lisamiseks</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="439">
-          <source>Add custom controls to Retail Modern POS transaction pages</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS-i kandelehtedele kohandatud juhtelementide lisamine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="440">
-          <source>Add custom columns to a POS transaction grid</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohandatud veergude lisamine POS-i kanderuudustikule</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="441">
-          <source>Call POS APIs or operations from POS extensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS-i APIde või toimingute kutsumine POS-i laienditest</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="442">
-          <source>Retail Modern POS triggers and printing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS-i käivitajad ja printimine</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="443">
-          <source>Add custom controls to non-screen designer-based POS views</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kohandatud juhtelementide lisamine ekraanivälistele koostajapõhistele POS-i vaadetele</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="444">
-          <source>Development in cloud-hosted dev environments without admin access</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arendus pilves majutatavates arenduskeskkondades ilma administraatori juurdepääsuta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="445">
-          <source>Commerce runtime</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Commerce’i käitusaeg</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="446">
-          <source>Loyalty extension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Püsikliendi laiendus</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+- name: Tere tulemast rakendusse Dynamics 365 for Retail
+  href: index.md
+- name: Alustamine
+  items:
+    - name: Mis on uut või mida on muudetud?
+      href: get-started/whats-new.md
+    - name: Dynamics 365 for Retail 10.0.3 eelvaatefunktsioonid
+      href: get-started/whats-new-10-0-3.md
+    - name: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Retail 10.0.2?
+      href: get-started/whats-new-10-0-2.md
+    - name: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Retail 10.0.1?
+      href: get-started/whats-new-10-0-1.md
+    - name: Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Retail (aprill 2019)?
+      href: get-started/april-whats-new.md
+    - name: Enne Retaili ostmist
+      href: get-started/before-you-buy.md
+    - name: Eelvaatetellimuse saamiseks registreerumine
+      href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
+    - name: Demokeskkonna juurutamine
+      href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
+    - name: Juurutamissuvandid
+      href: dev-itpro/choose-deployment.md
+    - name: Retaili toe hankimine
+      href: retail-support.md
+    - name: Ühe versiooni teenuse värskenduste KKK
+      href: ../fin-and-ops/get-started/one-version.md
+- name: Juurutamise elutsükli mõistmine
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: Microsoft FastTrack for Dynamics 365
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: Kasutuselevõtt
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: Ettevalmistamine süsteemi Go-Live jaoks
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: Süsteemi Go-live KKK
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: Teenusetaotluse esitamine
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: 'Tellimuste, LCS-i projektide ja Azure Active Directory rentnike KKK'
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: Keskkondade teisaldamine andmekeskuste vahel
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: Litsentside teisaldamine lepingutüüpide vahel
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: LCS-i juurutusprojekti teisaldamine teise Azure Active Directory rentnikusse
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: Mitme LCS-i projekti ja tootmiskeskkonna juurutamine samasse Azure Active Directory rentnikusse
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: Finance and Operationsi Retaili projektide juurutamine
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: 'Uute keskkondade, Azure DevOpsi ja Retaili projektide harude seadistamine'
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: Retaili projektide koodi ja keskkondade värskendamine
+      href: dev-itpro/updating-environments.md
+    - name: Testimine ja jõudlusprobleemid
+      href: dev-itpro/retail-implementation-testing-performance.md
+- name: Hajutatud tellimuste haldamine (DOM)
+  items:
+    - name: DOM-i ülevaade
+      href: dom.md
+    - name: Kulukonfiguratsioon
+      href: cost.md
+- name: Maksed
+  items:
+    - name: Makseviisid
+      href: payment-methods.md
+    - name: 'Krediitkaardi seadistamine, autoriseerimine ja hõivamine'
+      href: ../financials/accounts-receivable/credit-card-authorizations.md
+    - name: Sularaha nimiväärtuste konfigureerimine kassa jaoks
+      href: cash-denominations.md
+    - name: Dynamics 365 maksekonnektor Adyeni jaoks
+      href: dev-itpro/adyen-connector.md
+    - name: Veebimaksevahendite salvestamine Adyeni konnektori abil
+      href: dev-itpro/adyen-connector-listPI.md
+    - name: Arve tasumise stsenaariumide seadistamine
+      href: payinvoice.md
+    - name: Maksete KKK
+      href: dev-itpro/payments-retail.md
+    - name: Duplikaatmaksete vältimine
+      href: duplicate-payment-protection.md
+- name: Ostutellimused
+  items:
+    - name: Ostutellimuse ülevaade
+      href: ../supply-chain/procurement/purchase-order-overview.md
+    - name: Ostutellimuste loomine
+      href: ../supply-chain/procurement/purchase-order-creation.md
+    - name: Toote sissetulek ostutellimuste suhtes
+      href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md
+    - name: Ostutellimuste kinnitamine
+      href: ../supply-chain/procurement/purchase-order-approval-confirmation.md
+    - name: Ostutellimuse heakskiitmise mobiilne tööruum
+      href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
+- name: Väljavõtted
+  items:
+    - name: Jaemüügi väljavõtted
+      href: retail-statements.md
+    - name: Jaemüügikande süsteemsuskontroll
+      href: valid-checker.md
+    - name: 'Jaekaupluse jaoks väljavõtete loomine, arvutamine ja sisestamine'
+      href: tasks/create-calculate-post-statement-retail-store.md
+    - name: Väljavõtte sisestamisfunktsiooni täiustused
+      href: statement-posting-EOD.md
+    - name: Partii jälgimisega kaupade täiustatud käsitlemine
+      href: batch.md
+    - name: Jaemüügi väljavõtteid mõjutavate Jaemüügi parameetrite konfigureerimine
+      href: tasks/parameter-configurations-retail-statements.md
+    - name: Jaemüügi väljavõtteid mõjutavate makseviisi sätete konfigureerimine
+      href: tasks/payment-configurations-retail-statements.md
+    - name: Väljavõtete arvutamiseks töö konfigureerimine ja käivitamine
+      href: tasks/run-job-calculate-statements.md
+    - name: Väljavõtete sisestamiseks töö konfigureerimine ja käivitamine
+      href: tasks/run-job-post-statements.md
+    - name: Jaemüügi väljavõtteid mõjutavate kaupluse sätete konfigureerimine
+      href: tasks/store-configurations-retail-statements.md
+- name: Käibemaks
+  items:
+    - name: Käibemaksu ülevaade
+      href: ../financials/general-ledger/indirect-taxes-overview.md
+    - name: Käibemaksuarvutusmeetodid väljal Päritolu
+      href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+    - name: ' Käibemaksu määramine ja tühistamised'
+      href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
+    - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
+      href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+- name: Omnikanali maksete ülevaade
+  href: omni-channel-payments.md
+- name: Omnikanali täpsemad automaatsed kulud
+  items:
+    - name: Täpsemate automaatsete tasude konfigureerimine ja kasutamine
+      href: omni-auto-charges.md
+    - name: Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele
+      href: pro-rate-charges-matching-lines.md
+- name: Kõnekeskus
+  items:
+    - name: Kõnekeskuse müügifunktsioonid
+      href: call-center-functionality.md
+    - name: Kõnekeskuse kataloogid
+      href: call-center-catalogs.md
+    - name: Tarneviiside ja -tasude konfigureerimine
+      href: configure-call-center-delivery.md
+    - name: Pettuseteatiste seadistamine ja nendega töötamine
+      href: set-up-fraud-alerts.md
+    - name: Kõnekeskuse kanalite seadistamine
+      href: set-up-order-processing-options.md
+    - name: Kõnekeskuste järjepidevusprogrammide seadistamine
+      href: set-up-continuity-program.md
+    - name: Kõnekeskuse tellimuse ootelolekute konfigureerimine ja nendega töötamine
+      href: work-with-order-holds.md
+    - name: Makseviisid
+      href: work-with-payments.md
+- name: Kanali seadistus ja haldamine
+  items:
+    - name: Algandmete lähtestamine uutes Retaili keskkondades
+      href: enable-configure-retail-functionality.md
+    - name: Jaemüügikanalite määratlemine ja haldamine
+      href: define-maintain-retail-channels.md
+    - name: Sortimendi haldus
+      href: assortments.md
+    - name: Võrgupoodide seadistamine
+      href: online-stores.md
+    - name: Retail Hardware Stationi konfigureerimine ja installimine
+      href: retail-hardware-station-configuration-installation.md
+    - name: Tööajaarvestus Retailis
+      href: retail-time-attendance.md
+- name: Modern Point of Sale (MPOS) ja Cloud POS
+  items:
+    - name: Valimine MPOS-i ja pilve kassa vahel
+      href: MPOS-or-CPOS.md
+    - name: Ühendusega ja ühenduseta kassatoimingud
+      href: pos-operations.md
+    - name: Kohandatud Retail MPOS-i seadme aktiveerimine
+      href: dev-itpro/retail-POS-activation-changes.md
+    - name: Demoandmete ekraanipaigutused MPOS-is ja Cloud POS-is
+      href: demo-data.md
+    - name: Toote ja kliendi otsing kassas
+      href: POS-search-improvements.md
+    - name: Sularahahalduse täiustused
+      href: cash-mgmt.md
+    - name: Otsing varudest kassas
+      href: product-variants-POS.md
+    - name: Kannete katkestamine ja jätkamine kassas
+      href: pos-suspend-recall-transactions.md
+    - name: Riistvara välisseadmed
+      items:
+        - name: Retaili välisseadmed
+          href: retail-peripherals-overview.md
+        - name: Retaili välisseadme simulaator
+          href: dev-itpro/retail-peripheral-simulator.md
+        - name: Välisseadmete ühendamine kassaga
+          href: define-maintain-channel-clients-registers-hw-stations.md
+    - name: Ekraani paigutused
+      items:
+        - name: Demoandmete ekraanipaigutused MPOS-is/CPOS-is
+          href: demo-data.md
+        - name: Kassa ekraanipaigutused
+          href: pos-screen-layouts.md
+        - name: Retail POS-i paigutuse kujundaja installimine
+          href: install-pos-layout-designer.md
+        - name: Valige teavitamise sätted
+          href: Notifications-POS.md
+        - name: Kassarakenduse ja kasutaja keelesätted
+          href: pos-application-user-language-settings.md
+        - name: Piltide seadistamine ja haldamine MPOS-i jaoks
+          href: set-up-manage-images-retail-mpos.md
+    - name: Teabekoodid ja teabekoodide grupid
+      href: info-codes-retail.md
+    - name: Kassa täiustused seerianumbritega toodete jaoks
+      href: serialized-inventory.md
+    - name: Tootesoovitused
+      items:
+        - name: Isikupärastatud tootesoovitused
+          href: personalized-product-recommendations.md
+        - name: Soovituste juhtelemendi lisamine kassaseadmetes
+          href: add-recommendations-control-pos-screen.md
+    - name: Võrguühenduseta kassa funktsioonid
+      href: pos-offline-functionality.md
+    - name: Vahetuse ja sularahasahtli haldamine
+      href: shift-drawer-management.md
+    - name: Kinkekaardi saldo sularahas väljavõtmine
+      href: dev-itpro/gift-card-cash-out.md
+    - name: Kliendi tellimused
+      items:
+        - name: Kliendi tellimused MPOS-is
+          href: customer-orders-overview.md
+        - name: Hübriidkliendi tellimused
+          href: hybrid-customer-orders.md
+    - name: Müügi koostööpartnerid
+      items:
+        - name: Komisjonitasude jälgimine kassas müügigruppide abil
+          href: pos-sales-groups-track-commissions.md
+    - name: Tellimuste lähetamine teisest kauplusest
+      href: charge-send.md
+    - name: Seadme aktiveerimine
+      items:
+        - name: 'MPOS-i konfigureerimine, installimine ja aktiveerimine'
+          href: retail-modern-pos-device-activation.md
+        - name: Cloud MPOS ja Cloud POS‑i laiendatud sisselogimisfunktsiooni seadistamine
+          href: extended-logon.md
+        - name: Jaemüügi aktiveerimiskontode haldamine ja seadmete kinnitamine
+          href: set-up-activation-accounts-validate-devices-hq.md
+    - name: Kviitungid
+      items:
+        - name: Kviitungi vormingute seadistamine ja kujundamine
+          href: receipt-templates-printing.md
+        - name: Meilikviitungite saatmine MPOS-ist
+          href: email-receipts.md
+    - name: Tegevuse salvestaja ning spikker MPOS-i ja Cloud POS-i jaoks
+      href: task-recorder-retail-pos.md
+- name: Tellimuse täitmine
+  items:
+    - name: Kaupluse tellimuse täitmine
+      href: Order-fulfillment-overview.md
+    - name: Kaupluse tellimuse täitmise seadistamine
+      href: Order-fulfillment-POS-setup.md
+    - name: Tellimuse teatiste kuvamine kassas
+      href: Notifications-POS.md
+- name: Tagastused
+  items:
+    - name: Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine
+      href: sell-return-outside-assortments.md
+    - name: Vahetuse konfigureerimine ja töötlemine tagastustellimusel
+      href: orderexchanges.md
+    - name: Kviitungita tagastuste makseviiside piiramine
+      href: payment-methods-restrictions.md
+    - name: Kaupade tagastamine mitme klienditellimuse ja -arve alusel
+      href: multireturn.md
+- name: Jälgimine ja analüüs
+  items:
+    - name: Müügi ja marginaali jõudluse jälgimine
+      href: monitor-sales-margin-performance.md
+    - name: Müügitrendide ja -mustrite analüüsimine
+      href: analyze-sales-trends-patterns.md
+    - name: Müügitulemuste hindamine toote alusel
+      href: sales-performance-products.md
+    - name: Kliendi ja toote tulususe hindamine
+      href: assess-customer-product-profitability.md
+    - name: Kaupluse jõudluse analüüsimine
+      href: store-performance-information.md
+    - name: 'Hiljutisuse, sageduse ja rahasumma (RFM) analüüsi seadistamine'
+      href: set-up-rfm-analysis.md
+- name: Jaemüügihinna aruanded
+  href: price-report.md
+- name: Hinnad ja allahindlused
+  items:
+    - name: Jaemüügi allahindlused
+      href: retail-discounts-overview.md
+    - name: Jaemüügihinna haldamine
+      href: price-management.md
+    - name: Hinnakorrigeerimised ja allahindlused
+      href: price-adjustments-discounts.md
+    - name: Mitme allahindluse kohaldamine tootele
+      href: Apply-multiple-retail-discounts.md
+    - name: Kattuvate allahindluste optimaalse kombinatsiooni määratlemine
+      href: optimal-combination-overlapping-discounts.md
+    - name: Kanalipõhiste allahindluste määratlemine
+      href: define-channel-specific-discounts.md
+    - name: Valikud jaetoodete allahindluse takistamiseks
+      href: prevent-discounts.md
+    - name: Saatmise allahindluse ülevaade
+      href: retail-shipping-discount.md
+    - name: Kupongide seadistamine jaemüügi jaoks
+      href: retail-coupons.md
+- name: Tooted ja turustus
+  items:
+    - name: Tooteteabe ülevaade
+      href: ../supply-chain/pim/product-information.md
+    - name: Jaemüügi hierarhiad
+      href: retail-hierarchies.md
+    - name: Atribuudid ja atribuudigrupid
+      href: attribute-attributegroups-lifecycle.md
+    - name: Atribuutide loomine ja haldamine
+      href: create-manage-attributes.md
+    - name: Jaetoodete häälestamine
+      href: set-up-retail-products.md
+    - name: Retaili tootekategooriate ja toodete haldamine
+      href: category-management-product-creation.md
+    - name: Tootedimensioonid
+      href: ../supply-chain/pim/product-dimensions.md
+    - name: Vöötkoodide häälestamine
+      href: set-up-bar-codes.md
+    - name: Vöötkoodi maskide häälestamine
+      href: set-up-bar-code-masks.md
+    - name: Sortimentide häälestamine
+      href: set-up-assortments.md
+    - name: Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine
+      href: sell-return-outside-assortments.md
+    - name: Dimensioonide ja tootevariantide tellimuse vaikesätted
+      href: ../supply-chain/production-control/default-order-settings.md
+    - name: Toodete ja tootevariantide otsimine tellimuse sisestamise käigus
+      href: ../supply-chain/pim/search-products-product-variants.md
+- name: Püsiklient
+  items:
+    - name: Püsikliendi ülevaade
+      href: set-up-customer-loyalty-program.md
+- name: Varud
+  items:
+    - name: Kaupluse varude haldamine
+      href: work-with-store-inventory.md
+    - name: Seerianumbrite registreerimine müügiprotsessis
+      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
+    - name: Laotöölehed
+      href: ../supply-chain/inventory/inventory-journals.md
+    - name: Sildiga varude inventuur
+      href: ../supply-chain/inventory/inventory-tag-counting.md
+    - name: FIFO füüsilise väärtuse ja märkimisega
+      href: ../supply-chain/cost-management/fifo-physical-value-marking.md
+    - name: LIFO kuupäev füüsilise väärtuse ja märkimisega
+      href: ../supply-chain/cost-management/lifo-date-physical-value-marking.md
+    - name: LIFO füüsilise väärtuse ja märkimisega
+      href: ../supply-chain/cost-management/lifo-physical-value-marking.md
+    - name: Kaalutud keskmine kuupäev
+      href: ../supply-chain/cost-management/weighted-average-date.md
+    - name: Kaalutud keskmine füüsilise väärtuse ja märgistusega
+      href: ../supply-chain/cost-management/weighted-average-physical-value-marking.md
+    - name: Vahelaoorderid
+      href: ../supply-chain/inventory/quarantine-orders.md
+    - name: Keskmine jooksev omahind
+      href: ../supply-chain/cost-management/running-average-cost-price.md
+    - name: Jooksvate keskmiste kulude jälgimine varude dimensiooni alusel
+      href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+- name: Inimressursid
+  items:
+    - name: 'Tööjõu korraldamine osakondade, tööde ja ametikohtade abil'
+      href: ../talent/departments-jobs-positions.md
+    - name: Töö komponentide seadistamine
+      href: ../talent/create-job.md
+- name: Lokaliseerimine ja regulatiivsed funktsioonid
+  items:
+    - name: Jaemüügikanali fiskaalüksuse integreerimise ülevaade
+      href: localizations/fiscal-integration-for-retail-channel.md
+    - name: Jaemüügikanali fiskaalüksuse integreerimise seadistamine
+      href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+    - name: Austria
+      items:
+        - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Austria jaoks
+          href: localizations/emea-aut-fi-sample.md
+    - name: Ida-Euroopa
+      items:
+        - name: Retaili ettemaksuarved Ida-Euroopa puhul
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: Retaili pisikulude kassa haldus Ida-Euroopa puhul
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: Retaili kliendiarved ja tagastuse müügitellimused Ida-Euroopa riikides
+          href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Kassaaparaatide juurutamise juhised Tšehhi Vabariigile, Ungarile ja Poolale'
+          href: localizations/emea-eeu-deployment.md
+        - name: Fiskaalprinteri integratsiooni näide Poola jaoks
+          href: localizations/emea-pol-fpi-sample.md
+        - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Tšehhi Vabariigi jaoks
+          href: localizations/emea-cze-fi-sample.md
+    - name: Prantsusmaa
+      items:
+        - name: Kassaaparaadi funktsioonid
+          href: localizations/emea-fra-cash-registers.md
+        - name: Kassaaparaatide juurutamise juhised
+          href: localizations/emea-fra-deployment.md
+    - name: India
+      items:
+        - name: Kassaaparaatide kaupade ja teenuste maksu (GST) integreerimine
+          href: localizations/apac-ind-cash-registers.md
+        - name: Kassaaparaatide juurutamise juhised
+          href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: Täiendamise tugi ja N-1 India jaoks
+          href: localizations/apac-ind-n-1-for-india.md
+    - name: Itaalia
+      items:
+        - name: Fiskaalprinteri integratsiooni näide Itaalia jaoks
+          href: localizations/emea-ita-fpi-sample.md
+    - name: Norra
+      items:
+        - name: Kassaaparaadi funktsioonid
+          href: localizations/emea-nor-cash-registers.md
+        - name: Kassaaparaatide juurutamise juhised
+          href: localizations/emea-nor-loc-deployment-guidelines.md
+    - name: Rootsi
+      items:
+        - name: Kassaaparaadi funktsioonid
+          href: localizations/emea-swe-cash-registers.md
+        - name: Retail POS-i juhtseadmetega integreerimise näide
+          href: localizations/retail-sdk-control-unit-sample.md
+- name: Retaili ülesanded
+  items:
+    - name: Toote loomine
+      href: ../supply-chain/pim/tasks/create-product.md
+    - name: Lingitud toodete konfigureerimine
+      href: ../supply-chain/pim/tasks/configure-linked-products.md
+    - name: Toote/tooteetaloni väljastamine juriidilistele isikutele
+      href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
+    - name: Kanalipõhiste kaubanduslepete loomine
+      href: tasks/base-price-trade-agreements.md
+    - name: Kaubanduslepete loomine kategooria hinnakujunduse reeglitega
+      href: tasks/category-pricing-rules-trade-agreements.md
+    - name: Krediitkaardi töötlemise konfigureerimine
+      href: tasks/configure-credit-card-processing.md
+    - name: Müügiesindajate funktsiooniprofiilide konfigureerimine
+      href: tasks/configure-functionality-profile-sales-representative.md
+    - name: Masinõppele tuginevate tootesoovituste konfigureerimine
+      href: tasks/configure-machine-learning-product-recommendations.md
+    - name: Seadmete loomine ja nende seostamine registritega
+      href: tasks/create-associate-device.md
+    - name: Riistvarajaamade loomine
+      href: tasks/create-associate-hardware-station.md
+    - name: Kassaregistrite loomine
+      href: tasks/create-associate-registers.md
+    - name: Kõnekeskuse tellimuste loomine
+      href: tasks/create-call-center-orders.md
+    - name: Kassaregistrite jaoks finantsdimensioonide loomine ja registrites dimensiooniväärtuste konfigureerimine
+      href: tasks/create-financial-dimensions-pos.md
+    - name: Jaemüügikanalite jaoks finantsdimensioonide loomine ja kauplustes dimensiooniväärtuste konfigureerimine
+      href: tasks/create-financial-dimensions-retail-channels.md
+    - name: Võrgukanalite loomine ja kanaliatribuutide määratlemine
+      href: tasks/create-online-channel-define-channel-attributes.md
+    - name: Kassa loagruppide loomine
+      href: tasks/create-pos-permission-groups.md
+    - name: Kassa visuaalprofiilide loomine
+      href: tasks/create-pos-visual-profile-2016-02.md
+    - name: Tootepakendite loomine ostutellimuste jaoks
+      href: tasks/create-product-packages-purchase-orders.md
+    - name: Kõnekeskuse kanalite loomine ja kanali atribuutide määratlemine
+      href: tasks/define-call-center-channel-channel-attributes.md
+    - name: Kanali atribuutide määratlemine
+      href: tasks/define-channel-attributes.md
+    - name: Järjepidevuse graafikute määratlemine
+      href: tasks/define-continuity-schedules.md
+    - name: ' Püsikliendiprogrammide määratlemine'
+      href: tasks/define-loyalty-programs.md
+    - name: ' Püsikliendi preemiapunktide määratlemine'
+      href: tasks/define-loyalty-reward-points.md
+    - name: ' Püsikliendiskeemide määratlemine'
+      href: tasks/define-loyalty-schemes.md
+    - name: Organisatsiooniüksuste vaheliste seoste kujundamine
+      href: tasks/design-relationships-between-organizational-units.md
+    - name: Sortimentide haldamine
+      href: tasks/manage-assortments-2016-11.md
+    - name: Iseteeninduses riistvarajaamade allalaadimine
+      href: tasks/perform-self-service-download-hardware-station.md
+    - name: Veebimüügi ja - maksete sisestamine
+      href: tasks/posting-online-sales-payments.md
+    - name: Püsikliendi preemiapunktide korrigeerimiste töötlemine
+      href: tasks/process-loyalty-reward-point-adjustments.md
+    - name: Toodete jaotamine jaotuskeskustest kauplustesse kesklaost jaotuse abil
+      href: tasks/push-products-distribution-center-store-buyers-push.md
+    - name: Jaemüügitoodete hinnakorrigeerimiste loomine
+      href: tasks/retail-price-adjustments.md
+    - name: Valmisaruannete genereerimine ja käivitamine
+      href: tasks/run-out-box-reports.md
+    - name: Reeglite ja parameetrite seadistamine ristlaadimise ja kesklaost jaotuse jaoks
+      href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+    - name: Järjepidevusprogrammide müümine ja müügitellimuste töötlemine
+      href: tasks/use-continuity-program.md
+    - name: Jaemüügitöötajate konfigureerimine
+      href: tasks/worker.md
+- name: Retaili arendaja ja haldus
+  href: dev-itpro/dev-retail-home-page.md
+  items:
+    - name: Ülesehitus
+      items:
+        - name: Kaupluse komponendid
+          href: retail-components.md
+        - name: Retail Serveri ülesehitus
+          href: dev-itpro/retail-server-architecture.md
+        - name: Kauplusesisese topoloogia valimine
+          href: dev-itpro/retail-in-store-topology.md
+        - name: Commerce Data Exchange’i ja jaemüügikanali side
+          href: dev-itpro/define-retail-channel-communications-cdx.md
+        - name: Retail Modern POS-i ülesehitus
+          href: dev-itpro/retail-modern-pos-architecture.md
+        - name: Retail-võrgupoe avaldamise ülesehitus
+          href: dev-itpro/retail-online-store-publishing-architecture.md
+        - name: Retail Channel Performance’i Power BI sisu
+          href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
+        - name: Makse rakendusandmete turbestandardite (PA-DSS) sertifikaat
+          href: dev-itpro/PA-DSS-Certification.md
+        - name: Asutusesiseste juurutuste jaemüügi võimalused
+          href: retail-onprem.md
+    - name: Juurutamine ja kiirparandused
+      items:
+        - name: Retail Store Scale Unit
+          href: dev-itpro/retail-store-system-begin.md
+        - name: Retail Store Scale Uniti konfigureerimine ja installimine
+          href: dev-itpro/retail-store-scale-unit-configuration-installation.md
+        - name: Retail Modern POS-i installimine ja konfigureerimine
+          href: retail-modern-pos-device-activation.md
+        - name: Jaemüügikontode ja - seadmete haldamine peakontorist
+          href: set-up-activation-accounts-validate-devices-hq.md
+        - name: Retail POS-i seadme aktiveerimine
+          href: dev-itpro/retail-device-activation.md
+        - name: Cloud POS-i turbe abistamine ühiskasutatavates keskkondades
+          href: dev-itpro/secure-retail-cloud-pos.md
+        - name: Retail Hardware Stationi konfigureerimine ja installimine
+          href: retail-hardware-station-configuration-installation.md
+        - name: Retaili iseteeninduse komponentide hulgijuurutus
+          href: dev-itpro/retail-mass-deployment.md
+        - name: Retaili komponentide sündmused diagnostika ja tõrkeotsingu jaoks
+          href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+        - name: Juurutatava paketi rakendamine
+          href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
+    - name: Täiendus ja N-1 tugi
+      items:
+        - name: Retaili täiendus ja N-1 tugi
+          href: dev-itpro/overview-upgrade-n-minus1.md
+        - name: 'Etapiviisilise levitamise (N-1) installimine, konfigureerimine ja üleminek'
+          href: dev-itpro/n-1-installation-configuration.md
+        - name: Täiendage kanali Retail laiend uusimale Retail SDK-le
+          href: dev-itpro/retailSDK-update.md
+    - name: Juurutamise juhised
+      items:
+        - name: Seadmehalduse juurutamise juhised
+          href: implementation-considerations-devices.md
+    - name: Keskkonna konfiguratsioon
+      items:
+        - name: Saate oma organisatsiooni juriidilistele tingimustele ja privaatsusavaldusele linke lisada
+          href: ../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json
+        - name: Bingi kaartide haldamine
+          href: dev-itpro/manage-bing-maps.md
+    - name: Retaili laiendiressursside ja sildifailide lokaliseerimine
+      href: dev-itpro/extension-resource-localization.md
+    - name: Kassa laiendatavus
+      items:
+        - name: Retail POS-i ekraani paigutused
+          href: pos-screen-layouts.md
+        - name: URL-i avamine kassas
+          href: Open-URL-in-POS.md
+        - name: Kassa paigutuse kujundaja installimine
+          href: install-pos-layout-designer.md
+        - name: Retail Modern POS ühenduseta režiimis
+          href: dev-itpro/retail-modern-pos-offline.md
+        - name: Kassa topeltkuva laiendamine
+          href: dev-itpro/pos-dual-display-extension.md
+        - name: Retail Modern POS-i ja pilve kassa käivitaja laiendatavus
+          href: dev-itpro/modern-pos-trigger-extensibility.md
+        - name: Kohandatud juhtelementide lisamine POS-i vaadetele
+          href: dev-itpro/pos-custom-control.md
+        - name: Kassatoimingute lisamine kassa paigutustele nupupaneeli koostaja abil
+          href: dev-itpro/add-POS-operations.md
+        - name: Retail POS-i API-d
+          href: dev-itpro/POS-APIs.md
+        - name: Kassa makselaiend
+          href: dev-itpro/pos-payment-extension.md
+        - name: Väliste kinkekaartide tugi
+          href: dev-itpro/gift-card.md
+        - name: Tootjakohanduse loomine ja rakendamine rakendusele Retail Experience
+          href: dev-itpro/create-retail-experience-app.md
+        - name: Rakenduse POS Hybrid seadistamine Androidis ja iOS-is
+          href: dev-itpro/hybridApp.md
+        - name: Kassa taotluseohjuri tühistamine
+          href: dev-itpro/pos-handler.md
+        - name: Kassa laiendipaketi teabe kuvamine
+          href: dev-itpro/view-pos-extension-package-details.md
+    - name: Hardware Station ja laiendatavus
+      href: dev-itpro/hardware-station-extensibility.md
+    - name: Retail Serveri laiendatavus
+      items:
+        - name: Retail Server OData kontrolleri laiendamine
+          href: dev-itpro/extend-retail-server-odata-controller.md
+        - name: Web API kontrolleri loomine Retail Serveri jaoks
+          href: dev-itpro/odata-controllers-api.md
+        - name: Retail Serveri kliendi ja tarbija API-d
+          href: dev-itpro/retail-server-customer-consumer-api.md
+        - name: Vaikimisi Retail Serveri metaandmete kontrolleri laiendamine
+          href: dev-itpro/extend-metadata.md
+        - name: CRT-teenuse kutsumine ühenduseta režiimis
+          href: dev-itpro/call-crt-service-offline.md
+    - name: Commerce Runtime'i (CRT) laiendatavus
+      items:
+        - name: CRT arhitektuur ja konfigureerimine
+          href: dev-itpro/commerce-runtime-overview.md
+        - name: CRT-teenused
+          href: dev-itpro/crt-services.md
+        - name: CRT ja Retail Serveri laiendatavus
+          href: dev-itpro/commerce-runtime-extensibility.md
+        - name: Kliendieelistuste andmete lisamine kanali andmebaasidesse
+          href: dev-itpro/add-customer-preference-channel.md
+        - name: Müügitellimustele atribuutide lisamine
+          href: dev-itpro/add-properties-sales-order.md
+        - name: CRT laiendatavus ja päästikud
+          href: dev-itpro/commerce-runtime-extensibility-trigger.md
+        - name: Kannete blokeerimine päästikute abil
+          href: dev-itpro/trigger-example-blocking-transaction.md
+        - name: Tagastuspoliitika juurutamine päästikute abil
+          href: dev-itpro/trigger-example-return-policy.md
+    - name: e-Commerce’i laiendatavus
+      items:
+        - name: Konfigureeri e-poode
+          href: dev-itpro/configure-online-store.md
+        - name: Autentimise pakkujate konfigureerimine
+          href: dev-itpro/configure-authentication-providers.md
+        - name: e-Commerce’i platvorm
+          href: dev-itpro/ecommerce-platform.md
+        - name: e-Commerce’i platvormi SDK
+          href: dev-itpro/ecommerce-platform-sdk.md
+    - name: Makseühenduse laiendatavus
+      items:
+        - name: Makse integreerimise loomine makseterminali jaoks
+          href: dev-itpro/end-to-end-payment-extension.md
+        - name: Makseühenduse ja -seadme juurutamine (tehniline ülevaade)
+          href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
+        - name: Maksekonnektorite juurutamine
+          href: dev-itpro/deploy-payment-connector.md
+        - name: Kohandatud lokaliseeritud tõrketeadete loomine makseterminali laienduste jaoks
+          href: dev-itpro/payment-custom-error-messages.md
+        - name: Windowsi installerite loomine maksekonnektorite jaoks
+          href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Makse andmete kasutamine
+          href: payment-connector-data-fields.md
+        - name: Maksekonnektori duplikaatmaksete kaitse lubamine
+          href: dev-itpro/duplicate-payment-protection.md
+    - name: Jaemüügi SDK
+      href: dev-itpro/retail-sdk/retail-sdk-overview.md
+      items:
+        - name: Retail SDK tulevased muudatused
+          href: dev-itpro/UpcomingSDKChanges.md
+        - name: Järgusüsteemide ühendamine Retaili ja Finance and Operationsi jaoks
+          href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+        - name: Retail SDK laiendatavuse näited
+          href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+        - name: Juurutatavate jaemüügipakettide loomine
+          href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+        - name: Retail SDK näidised
+          href: dev-itpro/retail-sdk/retail-sdk-samples.md
+          items:
+            - name: Saatelehtede laienduspunktid
+              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Kanali andmebaasi laiendid
+          href: dev-itpro/channel-db-extensions.md
+        - name: Laiendi kaudu kohandatud CDX-i sünkroonimise lubamine
+          href: dev-itpro/cdx-extensibility.md
+        - name: Kohandatud väljade lisamine kassa kogusummade paneeli
+          href: dev-itpro/custom-field-pos-totals.md
+        - name: Tellimuse atribuutide määratlemine ja seadistamine
+          href: dev-itpro/order-attributes.md
+        - name: Kliendi atribuudid
+          href: dev-itpro/customer-attributes.md
+        - name: 'Retail Typescript ja C# puhvrid'
+          href: dev-itpro/typescript-proxy-retail-pos.md
+        - name: Retail POS-i näidete käitamine
+          href: dev-itpro/pos-run-samples.md
+        - name: POS-i vaadete laiendamine kohandatud veergude ja rakendusriba nuppude lisamiseks
+          href: dev-itpro/pos-view-extension.md
+        - name: Retail Modern POS-i kandelehtedele kohandatud juhtelementide lisamine
+          href: dev-itpro/pos-custom-transaction.md
+        - name: Kohandatud veergude lisamine POS-i kanderuudustikule
+          href: dev-itpro/pos-custom-transaction-column.md
+        - name: POS-i APIde või toimingute kutsumine POS-i laienditest
+          href: dev-itpro/pos-api-extension.md
+        - name: Retail Modern POS-i käivitajad ja printimine
+          href: dev-itpro/pos-trigger-printing.md
+        - name: Kohandatud juhtelementide lisamine ekraanivälistele koostajapõhistele POS-i vaadetele
+          href: dev-itpro/pos-control-non-screen.md
+        - name: Arendus pilves majutatavates arenduskeskkondades ilma administraatori juurdepääsuta
+          href: dev-itpro/cloud-dev-box.md
+    - name: Commerce’i käitusaeg
+      items:
+        - name: Püsikliendi laiendus
+          href: dev-itpro/retail-sdk/loyalty-extension-sample.md
