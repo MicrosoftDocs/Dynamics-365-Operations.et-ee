@@ -3,7 +3,7 @@ title: Jaemüügi hinna haldamine
 description: Selles teemas kirjeldatakse müügihindade loomise ja haldamise põhimõtteid rakenduses Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 04/20/2018
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afa553fd0562b306f720f2a30c7f901db7ad1b3a
+ms.sourcegitcommit: 0fbfb9b0ab78c804f3931a083028d2ce313d6521
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549392"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1594066"
 ---
 # <a name="retail-sales-price-management"></a>Retaili müügihinna haldamine
 
@@ -231,3 +231,9 @@ Peale selle toetab järgmisi hinnakujunduse funktsioone **ainult** jaemüügi hi
 
 - Hind põhineb tootedimensioonil kõige konkreetsemast variandi hinnast kõige vähem konkreetse variandi hinnani tooteetaloni hinnani. Hinda, mis on määratud kaht tootedimensiooni kasutades (nt värv ja suurus), kasutatakse enne hinda, mis on määratud ainult üht tootedimensiooni kasutades (nt suurus).
 - Hinnakujunduse ja allahindluste juhtimiseks saab kasutada sama hinnagruppi.
+
+## <a name="pricing-api-enhancements"></a>Hinnakujunduse API-täiustused
+
+Hind on üks kõige tähtsamaid tegureid, mis mõjutavad klientide ostuotsuseid, ja paljud kliendid võrdlevad enne ostu sooritamist hindu eri veebisaitidel. Jaemüüjad hoiavad oma konkurentidel silma peal, et tagada konkurentsivõimeliste hindade pakkumine, ning korraldavad sageli kampaaniaid. Selleks, et aidata jaemüüjatel kliente ligi meelitada, on seega väga oluline, et toote otsingu lehel, sirvimise funktsiooni puhul ning toote üksikasjade lehel kuvataks kõige täpsemaid hindu.
+
+Tarkvara Retail tulevases väljalaskes esitab rakenduse programmeerimisliides (API) **GetActivePrices** hindu, mis kaasavad lihtsaid allahindlusi (näiteks ühe rea allahindlused, mis ei sõltu muudest ostukorvis olevatest kaupadest). Sellisel moel on kuvatud hinnad sarnasemad tegeliku summaga, mida kliendid kaupade eest maksavad. See API kaasab kõiki lihtsate allahindluste tüüpe: alluvus-, püsikliendi-, kataloogi- ja kanalipõhised allahindlused. Peale selle esitab see API rakendatud allahindluste nimed ja kehtivusteabe, nii et jaemüüjad saavad pakkuda üksiksasjalikumat hinnakirjeldust ning rõhutada kiireloomulisust, kui allahindluse kehtivus peagi aegub.

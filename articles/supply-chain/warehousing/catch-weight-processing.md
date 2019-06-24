@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14f2c6eb3baf0de65de3b72e10b42b03a8c6b21a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6e295456838ca0195a472518b5979dfdc7819f74
+ms.sourcegitcommit: 19859d8566a8c7840066b2c10c6b08b67f1b83f4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536706"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "1617969"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Tegeliku kaalu toote protsess laohalduse abil
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview banner](../includes/pivate-preview-banner.md)]
+[!include [banner](../includes/pivate-preview-banner.md)]
 
 
 ## <a name="feature-exposure"></a>Funktsiooni esiletõstmine
@@ -138,10 +138,6 @@ Kõik töövood ei toeta tegeliku kaalu toote protsessi laohalduse abil. Praegu 
 - Tegeliku kaalu toodete puhul ei toetata karantiinitellimuste käsitsi loomist.
 - Tegeliku kaalu toodete puhul ei toetata tööga seotud varude käsitsi liigutamist.
 - Tegeliku kaalu toodete puhul ei toetata litsentsiplaatide konsolideerimist.
-- Tegeliku kaalu toodete puhul ei toetata perioodilise ülesande osana laovarude oleku muutmist.
-- Tegeliku kaalu toodete puhul ei toetata päringuga määratletud varude oleku muutmist. (Samuti ei toetata kvaliteettellimuse varude oleku muutmist.)
-- Tegeliku kaalu toodete puhul ei saa varude olekut muuta lehel **Vaba kaubavaru asukoha järgi**.
-- Tegeliku kaalu toodete puhul ei saa varude olekut muuta laorakenduse liigutamistöö osana.
 - Tegeliku kaalu toodete puhul ei toetata litsentsiplaadi laadimist laoseisu lähtestamiseks.
 - Tegeliku kaalu toodete puhul ei toetata partii tasakaalustamise protsesse.
 - Tegeliku kaalu toodete puhul ei toetata negatiivsete füüsiliste varude käsitlemist.
@@ -151,7 +147,6 @@ Kõik töövood ei toeta tegeliku kaalu toote protsessi laohalduse abil. Praegu 
 
 - Tegeliku kaalu toodete puhul ei toetata funktsiooni klastri komplekteerimisel.
 - Tegeliku kaalu toodete puhul ei toetata lao komplekteerimis- ja pakkimisprotsesse.
-- Tegeliku kaalu toodete puhul ei saa tööd lõpetada lehel **Töö**.
 - Tegeliku kaalu toodete puhul saab töömallis määratletud tööd automaatselt käitada.
 - Tegeliku kaalu toodete puhul ei toetata töö tagasivõtmise funktsiooni.
 - Tegeliku kaalu toodete puhul ei toetata käsitsi pakkimisjaama protsessi, kus töö luuakse pärast konteinerite sulgemist.
@@ -163,7 +158,7 @@ Kõik töövood ei toeta tegeliku kaalu toote protsessi laohalduse abil. Praegu 
 - Tegeliku kaalu toodete puhul ei toetata kanbani funktsiooni.
 - Tegeliku kaalu toodete puhul ei saa seerianumbreid enne tarbimist registreerida.
 - Tegeliku kaalu toodete puhul ei toetata litsentsiplaatide tagasivõtmise funktsiooni.
-- Tegeliku kaalu toodete puhul saab lõpetatuna kinnitamise registreerida seerianumbri järgi.
+- Tegeliku kaalu toodete puhul ei saa lõpetatuna kinnitamist registreerida seerianumbri järgi.
 
 ### <a name="transportation-management-processing"></a>Transpordihalduse protsessid
 

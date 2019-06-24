@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4832a056a99e0f7521e022982b7db7b16d7064a3
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561994"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595489"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Riistvara suuruse muutmise nõuded kohapealsetes keskkondades
 
@@ -99,7 +99,7 @@ Soovitame kogumi või peegelduse seadistamisel kasutada alati SQL Serverit. SQL-
 
 AD FS-i suuruse muutmiseks vaadake [AD FS-i serveri jõudluse dokumentatsiooni](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
-Teie juurutuses eksemplaride arvu kavandamiseks on saadaval [suuruse muutmise tabel](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx).
+Teie juurutuses eksemplaride arvu kavandamiseks on saadaval [suuruse muutmise tabel](https://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx).
 
 ## <a name="aos-online-and-batch"></a>AOS (veebipõhine ja pakktöötlus)
 

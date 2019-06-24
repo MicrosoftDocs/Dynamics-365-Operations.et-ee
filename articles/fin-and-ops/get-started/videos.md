@@ -3,7 +3,7 @@ title: Rakenduse Finance and Operations videod
 description: Sellel lehel on loetletud Microsofti loodud Dynamics 365 for Finance and Operationsiga seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2018
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
+ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561664"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1591544"
 ---
 # <a name="videos-for-finance-and-operations"></a>Rakenduse Finance and Operations videod
 
@@ -50,7 +50,7 @@ Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu k
 - [Optimeerimise nõustaja](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Arendusharu ja -järgu seadistamine](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [Arendusmasina seadistamine](https://www.youtube.com/watch?v=cqp9MetfiyM)
-- [Azure’i arenduskeskkondade integratsioon Lifecycle Servicesiga](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
+- [Tarkvara Azure DevOps teenusega Lifecycle Services integreerimine](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
 
 #### <a name="explore-the-user-interface"></a>Kasutajaliidesega tutvumine
 
@@ -63,8 +63,9 @@ Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu k
 - [Kulude juhtimise mobiilne tööruum](https://youtu.be/imsuTg8rUVk)
 - [Kuluarvestuse kasutamise alustamine](https://youtu.be/1pUDtJQZ8FU)
 - [Kuluanalüüs Exceli abil](https://youtu.be/-HKHYdClvx8)
+- [Kulukogemus](https://youtu.be/Ocy-MsTvEE0)
 
-#### <a name="intelligence"></a>Analüüs
+#### <a name="intelligence"></a>Teave
 
 - [Oma andmebaasi toomine (BYOD) rakendusse Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Kuluhalduse Power BI sisu kasutamine rakenduses Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
@@ -185,7 +186,7 @@ Videod on loendatud funktsiooni järgi, nii et kerige alla, et näha videosisu k
 - [AX 2009 migreerimistööriistad (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Täiendamine rakenduselt AX 2012 rakendusele Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Versioonitäiendus versioonile 7.2 (juuli 2017) versioonilt 7.0 (RTW) / 7.1 (väljaanne 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Azure’i arenduskeskkondade seadistus (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Tarkvara Azure DevOps häälestamine (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="warehouse-management"></a>Laohaldus
 

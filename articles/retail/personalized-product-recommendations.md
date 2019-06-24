@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6706cbb7630aeb230bc9eb1c187397897c9de68
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c73bc10332329e81986a259969f8fe34b57f4ee6
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559554"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606995"
 ---
 # <a name="personalized-product-recommendations"></a>Isikupärastatud tootesoovitused
 
@@ -44,7 +44,7 @@ Tootesoovitused on aktiivsed järgmiste kassastsenaariumide puhul. Need on saada
     - Kui poemüüja läheb varasemate kannete vaatamise käigus erinevate kanalite lõikes lehele **Toote üksikasjad**, soovitab soovituste mootor täiendavaid kaupu, mida tõenäoliselt koos ostetakse.
     - Kui poemüüja lisab kandele kliendi ja läheb siis lehele **Toote üksikasjad**, edastab soovituste mootor kliendi kannete ajaloo põhjal isikupärastatud soovitusi.
 
-    [![proddetails](./media/proddetails.png)](./media/proddetails.png)
+    [![Soovitused lehel Toote üksikasjad](./media/proddetails.png)](./media/proddetails.png)
 
 2. Lehel **Kanne** toimub järgmine.
 
@@ -54,13 +54,11 @@ Tootesoovitused on aktiivsed järgmiste kassastsenaariumide puhul. Need on saada
     > [!NOTE]
     > Soovituste kuvamiseks lehel **Kanne** peab jaemüüja muutma Dynamics 365 for Retailis ekraanipaigutust. Juhtelement **Soovitused** tuleb paigutada lehele **Kanne**.
 
-    [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Soovitused lehel Kanne](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-3. Lehel **Kliendi üksikasjad** toimub järgmine.
+3. Lehel **Kliendi üksikasjad** soovitab soovituste mootor kaupu kasutaja ID ja kliendi sooviloendis olevate kaupade alusel.
 
-    - Soovituste mootor soovitab kaupu kasutaja ID ja kliendi sooviloendis olevate kaupade alusel.
-
-    [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
+    [![Soovitused lehel Kliendi üksikasjad](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
 ## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>Dynamics 365 for Retaili konfigureerimine kassasoovituste kuvamiseks
 

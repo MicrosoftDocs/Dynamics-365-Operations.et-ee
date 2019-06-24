@@ -3,7 +3,7 @@ title: Intelligentsed soovitused
 description: Selles teemas kirjeldatakse, kuidas masinõppe abil töökohtadele ja töökoha kandidaatidele soovitusi anda.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/25/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517787"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620616"
 ---
 # <a name="intelligent-recommendations"></a>Intelligentsed soovitused
 
@@ -33,7 +33,7 @@ Masinõpe võib aidata värbajatel ja värbamisjuhtidel kiiresti tuvastada ameti
 
 > [!NOTE] 
 > - Intelligentse soovituse funktsioon on saadaval ainult [tervikliku värbamise lisandmooduli korral](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - Selles teemas märgitud funktsioonid on saadaval eelväljaandes. Sisu ja funktsioonid võivad muutuda. Selle funktsiooni kasutamiseks paluge administraatoril see lubada, kasutades Attractis **administraatori sätteid**. Määrake suvandid **Kandidaadisoovitus**, **Töökohasoovitus** ja **Potentsiaalselt sobiva kandidaadi soovitus** valikule **Sees**. Lisateavet leiate teemast [Juurdepääs eelvaatefunktsioonidele rakenduses Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> - Selles teemas märgitud funktsioonid on saadaval eelväljaandes. Sisu ja funktsioonid võivad muutuda. Selle funktsiooni kasutamiseks paluge administraatoril see lubada, kasutades Attractis jaotist **Halduskeskus**. Määrake suvandid **Kandidaadisoovitus**, **Töökohasoovitus** ja **Potentsiaalselt sobiva kandidaadi soovitus** valikule **Sees**. Lisateavet leiate teemast [Juurdepääs eelvaatefunktsioonidele rakenduses Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Kandidaadisoovitused

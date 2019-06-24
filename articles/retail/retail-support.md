@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567972"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577840"
 ---
 # <a name="get-support-for-dynamics-365-for-retail"></a>Toe hankimine rakendusele Dynamics 365 for Retail
 
@@ -61,7 +61,7 @@ Retaili toe hankimiseks kasutage järgmises tabelis olevaid ressursse. Ressursid
 <li>Valige vahekaardil <strong>Aktiivne probleem</strong> oma probleem ja klõpsake nuppu <strong>Edasta Microsoftile</strong>.</li>
 <li>Probleemi edastamiseks klõpsake vahekaardil <strong>Edastatud Microsoftile</strong> nuppu <strong>Uue juhtumi edastamine</strong>.</li>
 </ul>
-<blockquote>[!NOTE] Microsofti Premier-i kliendid ja partnerid saavad samuti ülaltoodud etappide abil edastada tugiteenusepileteid.</blockquote>
+<p><strong>Märkus.</strong> Microsoft Premier-i kliendid ja partnerid saavad ülaltoodud etappide abil samuti edastada tugiteenusepileteid.</p>
 </td>
 </tr>
 <tr>
@@ -84,4 +84,4 @@ Kui teil on probleeme sisselogimisega ja teenuste (nt CustomerSource, e-õpe, ot
 </tbody>
 </table>
 
-Lisateavet Microsoft Dynamicsi toepakkumiste kohta vt teemast [Microsoft Dynamicsi võrgutugi](https://dynamics.microsoft.com/en-us/support/).
+Lisateavet Microsoft Dynamicsi toepakkumiste kohta vt teemast [Microsoft Dynamicsi võrgutugi](https://dynamics.microsoft.com/support/).

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571554"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577924"
 ---
 # <a name="retail-peripherals"></a>Jaemüügi välisseadmed
 
@@ -295,7 +295,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 <ul>
 <li>OPOS</li>
 <li>Võrk
-<blockquote>MÄRKUS. Seadistada saab ainult ühe sahtli, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</blockquote>
+<p><strong>Märkus.</strong> Seadistada saab ainult ühe sahtli, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</p>
 </li>
 </ul>
 </td>
@@ -306,7 +306,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 <ul>
 <li>OPOS</li>
 <li>Võrk
-<blockquote>MÄRKUS. Seadistada saab ainult ühe sahtli, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</blockquote>
+<p><strong>Märkus.</strong> Seadistada saab ainult ühe sahtli, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</p>
 </li>
 </ul>
 </td>
@@ -374,7 +374,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 <ul>
 <li>OPOS</li>
 <li>Windows draiver
-<blockquote>MÄRKUS. Windowsi printerite puhul võrgus peab riistvarajaama kasutajal olema printerile juurdepääsemise õigus.</blockquote>
+<p><strong>Märkus.</strong> Võrgus olevate Windowsi printerite puhul peab riistvarajaama kasutajal olema printerile juurdepääsemise õigus.</p>
 </li>
 <li>Võrk</li>
 </ul>
@@ -404,7 +404,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 <ul>
 <li>OPOS</li>
 <li>Võrk
-<blockquote>MÄRKUS. Seadistada saab ainult ühe sahtli riistvaraprofiili kohta, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</blockquote>
+<p><strong>Märkus.</strong> Seadistada saab ainult ühe sahtli riistvaraprofiili kohta, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</p>
 </li>
 </ul>
 </td>
@@ -469,7 +469,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 <ul>
 <li>OPOS</li>
 <li>Windows draiver
-<blockquote>MÄRKUS. Windowsi printerite puhul võrgus peab riistvarajaama kasutajal olema printerile juurdepääsemise õigus.</blockquote>
+<p><strong>Märkus.</strong> Võrgus olevate Windowsi printerite puhul peab riistvarajaama kasutajal olema printerile juurdepääsemise õigus.</p>
 </li>
 <li>Võrk</li>
 </ul>
@@ -491,7 +491,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 <ul>
 <li>OPOS</li>
 <li>Võrk
-<blockquote>MÄRKUS. Seadistada saab ainult ühe sahtli riistvaraprofiili kohta, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</blockquote>
+<p><strong>Märkus.</strong> Seadistada saab ainult ühe sahtli riistvaraprofiili kohta, kui sahtlil on konfigureeritud valik <strong>Kasuta ühist vahetust</strong>.</p>
 </li>
 </ul>
 </td>

@@ -3,7 +3,7 @@ title: Töökuulutuste sisestamine Attractist välistele karjäärisaitidele
 description: Selles teemas selgitatakse, kuidas kasutada rakendust Dynamics 365 for Talent - Attract töökuulutuste sisestamiseks välistele värbamissaitidele
 author: pganapmsft
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: eca599ad189edae29ef2de496196b08799a5e745
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517811"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590478"
 ---
 # <a name="post-jobs-to-external-career-sites-from-attract"></a>Töökuulutuste sisestamine Attractist välistele karjäärisaitidele
 
@@ -36,6 +36,7 @@ Enne töökuulutuste sisestamist Broadbeani peate konfigureerima Broadbeani inte
 
 > [!NOTE]
 > - Töökuulutuste sisestamiseks välistele veebisaitidele peab teil olema [tervikliku värbamise lisandmoodul](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Tööde sisestamiseks Broadbeani Attracti kaudu peab teil olema Broadbeani kordustellimus.
 > - See funktsioon on praegu eelvaateversioonis. Kui soovite seda proovida, peate [selle sisse lülitama Attracti administraatori sätetega](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 ### <a name="configure-broadbean-integration"></a>Broadbeani integreerimise konfigureerimine

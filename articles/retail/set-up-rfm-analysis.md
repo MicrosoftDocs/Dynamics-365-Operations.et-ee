@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c7cb79fa82b579bee01e51cb635597cc5f711a98
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553041"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606822"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Hiljutisuse, sageduse ja valuuta (RFM-i) analüüsi seadistamine
 
@@ -46,7 +46,7 @@ Näiteks on teie organisatsioon määranud hinded skaalal 1 kuni 5, kus 5 on kõ
 
 Kui teie organisatsioon kasutab skoori puhul koondnumbrit, pannake üksikud hinded kokku. Sama näite puhul on kliendi hinne 13 (5 + 3 + 5).
 
-## <a name="to-set-up-rfm-analysis-for-the-customers-in-your-organization"></a>RFM-analüüsi seadistamiseks oma organisatsiooni klientide jaoks toimige järgmiselt
+## <a name="set-up-rfm-analysis-for-the-customers-in-your-organization"></a>RFM-analüüsi seadistamine oma organisatsiooni klientide jaoks
 
 1. Avage **Kõnekeskus** \> **Perioodiline** \> **RFM-analüüs**.
 2. Valige lehel **RFM-analüüs** suvand **Uus**. Sisestage väljale **RFM-i definitsioon** RFM-i definitsiooni nimi. Näiteks võite anda definitsioonile nime RFM-A.

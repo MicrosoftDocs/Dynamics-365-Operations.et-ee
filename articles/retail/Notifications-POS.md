@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530266"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577976"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Kassa tellimuse teatiste kuvamine
 
@@ -68,7 +68,7 @@ Järgmine joonis näitab reaalajas sisu sätteid nupupaneeli koostajas.
 
 ![Reaalajas sisu sätted nupupaneeli koostajas](./media/ButtonGridDesigner.png "Reaalajas sisu sätted nupupaneeli koostajas")
 
-Nupul teatiste arvu kuvamiseks peate veenduma, et uuendatakse õiget ekraani paigutust. Kassa kasutatava ekraani paigutuse määramiseks valige ülemises parempoolses nurgas ikoon **Sätted** ja märkige **Ekraani paigutuse ID** ja **Paigutuse eraldusvõime** Kasutades brauserit Edge, minge lehele **Ekraani paigutus** rakenduses Dynamics 365 for Finance and Operations, leidke ülal tuvastatud **Ekraani paigutuse ID** ja **Paigutuse eraldusvõime** ning valige märkeruut **Luba reaalajas sisu**- Minge **Jaemüük > Jaemüügi IT > Jaotusgraafik** ja käivitage töö 1090 (registrid), et sünkroonida paigutuse muudatused. 
+Nupul teatiste arvu kuvamiseks peate veenduma, et uuendatakse õiget ekraani paigutust. Kassa kasutatava ekraani paigutuse määramiseks valige ülemises parempoolses nurgas ikoon **Sätted** ja märkige **Ekraani paigutuse ID** ja **Paigutuse eraldusvõime** Kasutades brauserit Edge, minge lehele **Ekraani paigutus** rakenduses Dynamics 365 for Finance and Operations, leidke ülal tuvastatud **Ekraani paigutuse ID** ja **Paigutuse eraldusvõime** ning valige märkeruut **Luba reaalajas sisu**- Minge **Jaemüük \> Jaemüügi IT \> Jaotusgraafik** ja käivitage töö 1090 (registrid), et sünkroonida paigutuse muudatused.
 
 ![Kassa kasutatava ekraani paigutuse leidmine](./media/Choose_screen_layout.png "Ekraani paigutuse leidmine ")
 

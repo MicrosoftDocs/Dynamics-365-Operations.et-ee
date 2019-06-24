@@ -3,7 +3,7 @@ title: Uuendatud kuluaruanded
 description: See teema annab teavet ümberkujundatud ja uuendatud kasutuskogemuse kohta kuluaruande sisestamisel rakenduses Microsoft Dynamics 365 for Finance and Operations. Uus kogemus lihtsustab kuluaruannete lõpetamise protsessi ja vähendab selleks kuluvat aega.
 author: ryansandness
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 3039cda3f2cf9259ca06207bdf941bc6b0fb28e1
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538682"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592633"
 ---
 # <a name="expense-reports-reimagined"></a>Uuendatud kuluaruanded
 
@@ -46,10 +46,9 @@ Uue kogemuse sisselülitamiseks kasutage tööruumi **Funktsioonihaldus**, et l�
 
 ## <a name="getting-started-video-for-new-users"></a>Õppevideo vaatamine uute kasutajate jaoks
 
-Saate vaadata lühikest videot, mis näitab kulude sisestamise põhifunktsioone.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
 
-> [!NOTE]
-> Videot pole veel saadaval. See teema värskendatakse, kui video on saadaval.
+[Video kulukogemuse kohta rakenduses Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (näha allpool) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube’is.
 
 ## <a name="new-features"></a>Uued funktsioonid
 

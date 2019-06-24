@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 151b8936a46a1945e98bfe0ed040ca50c93db4b0
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544445"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595436"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga
 
@@ -36,7 +36,7 @@ Nende etappide lõpuleviimiseks peate kõigepealt lõpetama etapid protseduuride
 
 ## <a name="select-format-configuration-for-customization"></a>Vormingu konfiguratsiooni valimine kohandamiseks
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-    * Selles näites on näidisettevõte Litware, Inc. (http://www.litware.com) konfiguratsiooni pakkuja, mis toetab kindla riigi elektrooniliste maksete vormingu konfiguratsioone.    Näidisettevõte Proseware, Inc. (http://www.proseware.com) on selle vormingukonfiguratsiooni tarbija, mida pakub Litware, Inc. Proseware, Inc. kasutab vorminguid selle riigi teatud piirkondades.  
+    * Selles näites on näidisettevõte Litware, Inc. (https://www.litware.com) konfiguratsiooni pakkuja, mis toetab kindla riigi elektrooniliste maksete vormingu konfiguratsioone.    Näidisettevõte Proseware, Inc. (http://www.proseware.com) on selle vormingukonfiguratsiooni tarbija, mida pakub Litware, Inc. Proseware, Inc. kasutab vorminguid selle riigi teatud piirkondades.  
 2. Klõpsake valikut Aruandluse konfiguratsioonid.
 3. Klõpsake suvandit Näita filtreid.
 4. Rakendage järgmised filtrid: sisestage filtri väärtus „BACS (UK fiktiivne)” väljale „Nimi”, kasutades filtri tehtemärki „algab üksusega”,

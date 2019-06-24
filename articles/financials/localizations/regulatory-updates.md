@@ -3,7 +3,7 @@ title: Regulatiivsed värskendused
 description: Selles teemas on toodud loend rakenduse Microsoft Dynamics 365 for Finance and Operations plaanitud ja väljastatud regulatiivsetest värskendustest.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
+ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530703"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593339"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
@@ -52,9 +52,20 @@ Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist t
 |      2019. aprill          |   10.0.1      |   Saksamaa     |E-arveldus – klientide arvete eksport vormingus xRechnung 1.1         |
 |      2019. aprill          |   10.0.1      |    Ühendkuningriik     |[KM-aruande esitamismuudatused (maksude digitaalseks muutmine)](emea-gbr-mtd-vat-integration.md)    |    
 |      2019. aprill          |   10.0.1      |    Brasiilia     |NF-e uus NT 2018.005         |
-|      2019. aprill          |   10.0.1      |    Venemaa     |KM-i deklaratsiooni vorming muutub alates 2019. aastast         |
-|      2019. aprill          |   10.0.1      |    Venemaa     |KM-i deklaratsiooni vorming muutub alates 2019. aastast (müügi- ja osturaamatud) 
+|      2019. aprill          |   10.0.1      |    Venemaa     |[KM-i deklaratsiooni vorming muutub alates 2019. aastast](rus-VAT-declaration.md) |
+|      2019. aprill          |   10.0.1      |    Venemaa     |KM-i deklaratsiooni vorming muutub alates 2019. aastast (müügi- ja osturaamatud) |
+|      2019. aprill          |   10.0.1      |    Venemaa     |Maamaksu deklaratsiooni muudatused alates 2018. aastast |
+|      2019. aprill          |   10.0.1      |    Venemaa     |[Omandimaksu deklaratsiooni muudatused alates 2019. aastast](rus-assessed-tax-declaration.md)|
+|      2019. aprill          |   10.0.1      |    Venemaa     |Transpordimaksu deklaratsiooni muudatused alates 2019. aastast  |
+|      2019. aprill            |   10.0.1      | Ungari      |  Ungari: veebipõhine arveldussüsteem v. 1.1 2019 tarkvaras Microsoft Dynamics 365 for Finance and Operations  |
 |      2019. mai            |   10.0.2      | Brasiilia      |   SPED ECD kavand 7   |
+|      Ootel            |   10.0.3      | Brasiilia      |   NF-e uus NT 2018.005 – v. 1.20   |
+|      Ootel            |   10.0.3      | Brasiilia      |   SPED ECD kavand 7   |
+|      Ootel            |   10.0.3      | Brasiilia      |   SPED ECF – paigutus 5 2019 jaoks   |
+|      Ootel            |   10.0.3      | Leedu    |   i. SAF-aruanne võimaldab kasutajal määratleda süsteemi käibemaksukoode koos juriidiliste maksukoodidega    |
+|      Ootel            |   10.0.3      | Poola     |   SAF-arved (JPK_FA) v. 2 alates 1. juuli 2019  |
+|      Ootel            |   10.0.3      | Brasiilia   |   ICMS-i fiskaaldokumentide korrigeerimised lubavad tabeli 5.2   |
+|      Ootel            |   10.0.3      | Brasiilia    |   NF-e dekreet 54.308/18 (RS)   |
 
 
 ## <a name="additional-resources"></a>Lisaressursid

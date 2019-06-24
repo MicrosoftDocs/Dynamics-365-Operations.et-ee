@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
-ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1538952"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595635"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operationsi spikrisüsteem
 
@@ -192,7 +192,7 @@ Järgmises tabelis esitatakse meie veebilehed. Saitidel, millel on nime kõrval 
 | [Docs.microsoft.com](/dynamics365/)                                                            | Majutab või lingib kõiki Dynamics 365 projektidokumente. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Microsofti vaba eLearning sait. |
 | [Elutsükli teenused](https://lcs.dynamics.com/)\*                                              | Pakub pilvepõhist koostöö tööruumi, mida partnerid ja kliendid saavad kasutada Dynamics 365 for Finance and Operationsi projektide haldamiseks alates müügieelsetest tegevustest kuni juurutamise ning operatsioonideni. See sait on abiks kõigis juurutamise faasides. |
-| [Toe ajaveeb](http://aka.ms/AXSupportBlog)                                                    | Annab vihjeid ja näpunäiteid, mida sisestab Dynamics 365 for Finance and Operationsi tugiteenuse töörühm. |
+| [Toe ajaveeb](https://aka.ms/AXSupportBlog)                                                    | Annab vihjeid ja näpunäiteid, mida sisestab Dynamics 365 for Finance and Operationsi tugiteenuse töörühm. |
 | [Docs.microsoft.com/previous versioonid](https://docs.microsoft.com/previous-versions/dynamics/) | Hoiustab varasemate väljaannete sisu. |
 | [Dynamicsi kogukond](https://community.dynamics.com/)                                          | Majutab ajaveebe, foorumeid ja videoid. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Pakub hinnanguid ja müügiteavet. |

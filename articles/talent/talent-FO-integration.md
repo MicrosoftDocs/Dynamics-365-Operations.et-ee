@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517853"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617339"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Rakenduse Dynamics 365 for Talent rakendusse Dynamics 365 for Finance and Operations integreerimise KKK
 
@@ -46,7 +46,7 @@ Finantsdimensioonid puuduvad praegu teenusest Common Data Service ja seetõttu e
 
 Andmete puhul, mis on olemas rakenduses Finance and Operations, kuid puuduvad rakendusest Talent, linkige kaks süsteemi kokku, kasutades Talenti funktsiooni **Linkide konfigureerimine**. Lisateavet linkide konfigureerimise kohta rakenduste Talent ja Finance and Operations vahel vt teemast [Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (31. oktoober 2018)](whats-new-talent-october-31.md).
 
-![](media/MapFinancialDimensions.png)
+![Finantsdimensioonide vastendamine](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>Töövõtjate importimisel liiguvad need mõnikord rakenduses Finance and Operations passiivsete töötajate loendisse. Miks?
 
@@ -60,14 +60,14 @@ Andmete sünkroonimine järgib käivitusgraafikut. Integratsioon valib kirje, ku
 
 Kasutades täpsemat päringut, saate lähteandmeid filtreerida ja ümber kujundada, enne kui edastate need sihtkohta.
 
-![](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Aktiivsete töötajate täpsem päring](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Kas saan määrata, millised väljad saadetakse rakendusse Finance and Operations kindla üksuse puhul?
 
 Integratsiooniülesandele saab välju lisada või neid eemaldada. Kõiki andmevälju, mis on teenuse Common Data Service üksuses olemas, ei asustata rakendusest Core HR.
 Lisaandmeid saab asustada PowerAppsi kaudu.
 
-![](media/SpecifyFieldsIncludedInIntegration.png)
+![Integratsiooniülesandele väljade lisamine ja nende eemaldamine](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-talent-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Seadistan integratsiooni pakett-tööna, kuid Talentil kadus ühendus sihtsüsteemiga. Kuidas saata sihtsüsteemi sama muudatuste kogum?
 

@@ -3,7 +3,7 @@ title: Võrgukanali loomine ja kanaliatribuutide määratlemine
 description: See protseduur juhendab uue võrgukanali loomisel ja selle lisamisel organisatsiooni hierarhiasse.
 author: jashanno
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/04/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4547731d7e3bc56b1ba5e0a35ff4746c6c0e9863
+ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569517"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1618292"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>Võrgukanali loomine ja kanaliatribuutide määratlemine
 
@@ -60,4 +60,10 @@ See protseduur juhendab uue võrgukanali loomisel ja selle lisamisel organisatsi
 9. Rippdialoogi avamiseks klõpsake käsku Avalda.
 10. Sisestage kuupäev ja kellaaeg väljale Jõustumiskuupäev.
 11. Klõpsake Avalda.
+
+## <a name="configure-orders-for-near-realtime-notification"></a>Tellimuste konfigureerimine peaaegu reaalajas teatiste jaoks
+1. Valige suvandid Retail > Peakontori seadistamine > Parameetrid > Retaili parameetrid.
+2. Määrake reaalajas kasutamise teenus e-kaubanduse tellimuste loomiseks väärtusele Jah.
+3. Kävitage jaotusgraafik 1070 muudatuste sünkroonimiseks kanali andmebaasiga. 
+
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1525321"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577896"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Jaemüügikanalite fiskaalüksuse integreerimise seadistamine
 
@@ -88,7 +88,7 @@ Enne fiskaalüksuse integreerimise funktsiooni kasutamist tuleb konfigureerida j
         Saate muuta andmetüüpide vastendamise parameetreid konnektori funktsiooniprofiilis. Vaikeparameetrite taastamiseks, mis on määratletud fiskaaldokumendi pakkuja konfiguratsioonis, valige käsk **Värskenda**.
 
         **Näited**
-    
+
         |   | Vorming | Näide |
         |---|--------|---------|
         | **KM-määrade seadistamine** | väärtus: KM-määr | 1 : 2000, 2 : 1800 |
@@ -111,7 +111,7 @@ Enne fiskaalüksuse integreerimise funktsiooni kasutamist tuleb konfigureerida j
 4. Looge fiskaalkonnektorite grupid.
 
     Fiskaalkonnektori grupp ühendab fiskaalkonnektorite, mis teostvad samu funktsioone ja mida kasutatakse fiskaalüksuse registreerimise protsessi samas etapis, funktsiooniprofiile. Näiteks kui jaekaupluses saab kasutada mitut fiskaalprinteri mudelit, saab nende fiskaalprinterite fiskaalkonnektorid koondada fiskaalkonnektorite gruppi.
-    
+
     1. Looge lehel **Fiskaalkonnektorite grupp** (**Retail \> Kanali seadistus \> Fiskaalüksuse integratsioon \> Fiskaalkonnektorite grupid**) uus fiskaalkonnektorite grupp.
     2. Konnektori grupile funktsiooniprofiilide lisamine. Valige vahekaardil **Funktsiooniprofiilid** suvand **Lisa** ja valige profiili number. Konnektorite grupis saab igal fiskaalkonnektoril olla ainult üks funktsiooniprofiil.
     3. Funktsiooniprofiili kasutamise peatamiseks valige suvandi **Keela** sätteks **Jah**. See muudatus mõjutab ainult praegust konnektorigruppi. Saate jätkata sama funktsiooniprofiili kasutamist teistes konnektorigruppides.
@@ -119,7 +119,7 @@ Enne fiskaalüksuse integreerimise funktsiooni kasutamist tuleb konfigureerida j
 5. Looge fiskaalüksuse registreerimisprotsess.
 
     Fiskaalüksuse registreerimisprotsess määratletakse registreerimisetappide jada ja igas etapis kasutatava konnektorigrupi järgi.
-    
+
     1. Looge lehel **Fiskaalüksuse registreerimisprotsess** (**Retail \> Kanali seadistus \> Fiskaalüksuse integratsioon \> Fiskaalüksuse registreerimisprotsessid**) iga kordumatu fiskaalüksuse registreerimisprotsessi jaoks uus kirje.
     2. Registreerimisetappide protsessi lisamine.
 
@@ -145,7 +145,7 @@ Enne fiskaalüksuse integreerimise funktsiooni kasutamist tuleb konfigureerida j
 7. Valige lehel **Fiskaalüksuse registreerimisprotsess** (**Retail \> Kanali seadistus \> Fiskaalüksuse integratsioon \> Fiskaalüksuse registreerimisprotsessid**) käsk **Valideeri** fiskaalüksuse registreerimisprotsessi valideerimiseks.
 
     Soovitatav on seda tüüpi valideerimine käivitada järgmistel juhtudel.
-    
+
     - Pärast kõigi uue registreerimisprotsessi sätete lõpuleviimist, sh registreerimisprotsesside määramisel kassa funktsiooniprofiilidele ja riistvaraprofiilidele.
     - Pärast olemasoleva fiskaalüksuse registreerimisprotsessi muutmist, mille puhul muudatused võivad põhjustada käitusajal teise fiskaalkonnektori valimise (näiteks kui muudate fiskaalüksuse registreerimisprotsessi etapi jaoks konnektorigruppi, lubate konnektorigrupis konnektori funktsiooniprofiili või lisate konnektorigrupile uue konnektori funktsiooniprofiili).
     - Pärast konnektori tehniliste profiilide riistvaraprofiilidele määramise muutmist.

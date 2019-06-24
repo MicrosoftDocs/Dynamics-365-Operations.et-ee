@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5fb6b23d11ab263ed158a0a4476f77ed22b5084
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561805"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595658"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Mis on uut või mida on muudetud rakenduses Dynamics AX 7.0 (veebruar 2016)
 
@@ -721,7 +721,7 @@ Jaemüügiserver ja andmehaldus võimaldavad tarbijatel ja ettevõtetel luua üh
 </thead>
 <tbody>
 <tr>
-<td>Looge ühendus kaubanduse käitusaja (CRT) andmebaasiga, mis salvestab kanali äriandmeid, kasutades CRT-teenuseid.</td>
+<td>Looge ühendus Commerce Runtime’i (CRT) andmebaasiga, mis salvestab kanali äriandmeid, kasutades CRT-teenuseid.</td>
 <td>Toetatakse OData versiooni V3.</td>
 <td>Toetatakse OData versiooni V4.</td>
 <td>See aitab kliendil OData standarditega kursis püsida. Samuti loob see tugeva ühiskanali kogemuse, integreerides kaupluse, mobiilsete ja veebikanalite müügi.</td>
@@ -971,7 +971,7 @@ Iseteeninduse installimise kaudu on olemas parem „vähese puudutusega” klien
 </tr>
 <tr>
 <td>Saate jälgida süsteemi seisundit ja diagnoosida tõrkeid ning probleeme.</td>
-<td>See funktsioon nõuab <a href="http://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Packi rakendusele Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>See funktsioon nõuab <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Packi rakendusele Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Jaemüügi komponentide jälgimine ja diagnostika on nüüd saadaval LCS-i armatuurlaual <strong>Tegevusülevaated</strong>.</td>
 <td>Armatuurlaud <strong>Tegevusülevaated</strong> on pilvepõhine jälgimisportaal, mis asendab vajaduse laadida alla System Center Operations Manageri (SCOM) infrastruktuur.</td>
 </tr>

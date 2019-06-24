@@ -3,7 +3,7 @@ title: Konto struktuuride konfigureerimine
 description: Teema sisaldab teavet konto struktuuride ja finantsdimensioonide kohta.
 author: aprilolson
 manager: AnnBe
-ms.date: 05/21/2018
+ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5fbd4b34d09b4ba8e1d34234c8e32268bba18778
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551997"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617292"
 ---
 # <a name="configure-account-structures"></a>Konto struktuuride konfigureerimine
 
@@ -70,6 +70,16 @@ Jaotis **Lubatud väärtuse üksikasjad** juhendab teid kriteeriumite loomisel, 
 
 [![Lubatud väärtused](./media/account.png)](./media/account.png) 
 
+Lubatud väärtused sisestatakse vaikimisi töölehele või arvestuse jaotuse sisestamise lehele, kui konto struktuuri seadistuse järgi valimiseks pole muid võimalikke väärtusi.
+
+Siin on näide **tulu ja kulu konto struktuurist**.
+
+|Põhikonto          | Äriüksus    |Osakond          | Kulukeskus    |
+|----------------------|-----------|----------------------|-----------|
+|400000–999999 | 002 | 022 | 014 |
+
+Töölehte sisestades ning kasumi ja kahjumi vahemikust kontot valides määrab äriüksus 002 väärtused 022 ja 014 kontrollkonto vaikeväärtusteks. See juhtub ka arvestuse jaotuse lehel. 
+
 ## <a name="more-than-7-criteria-needed"></a>Rohkem kui 7 kriteeriumit
 
 Kui teil on vaja rohkem kui 7 kriteeriumit, saate nende lisamist jätkata järgmisel real. Jaotises **Lubatud väärtuse üksikasjad** töötades märkate, et kriteerium **+ Lisa uus** pole enam pärast seitsmenda kriteeriumi sisestamist aktiivne. Seda mõjutavad järgmised tegurid. 
@@ -79,8 +89,6 @@ Kui teil on vaja rohkem kui 7 kriteeriumit, saate nende lisamist jätkata järgm
  - Kasutatavus  
  
 Täiendavate kriteeriumide lisamiseks klõpsake **Dubleeri segmendis** ja **Lubatud väärtuste jaotis**. Sellega kopeeritakse kriteeriumid uuele reale. Seejärel saate jaotisesse **Lubatud väärtuse üksikasjad** kirjutada või seda muuta.
-
-(LINK LOODAVALE VIDEOLE)
 
 ## <a name="best-practices"></a>Head tavad
 Konto struktuuride ülesseadmisel on välja kujunenud mõned head tavad, mida järgida saate. See on siiski vaid juhis, nii et terviklik arutelu teie ettevõtte, kasvuplaani ja halduse kohta peaks olema selle arutelu osa.

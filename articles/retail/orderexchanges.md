@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a0a6a060a1b4a4d5a80c797f61b212a828d2f04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517047"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561383"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Vahetuse konfigureerimine ja töötlemine tagastustellimusel
 
@@ -37,7 +37,7 @@ Kuid nüüd on lisatud funktsioon tagastustellimuste vahetuste stsenaariumide to
 
 Järgige neid etappe süsteemi konfigureerimiseks nii, et see toetaks vahetusi tagastustellimustel.
 
-1. Valige suvandid **Retail \> Peakontori seadistamine \> Parameetrid \> Retaili parameetrid**. Määrake kiirkaardil **Kliendi tellimused** suvand **Töötle tagastustellimusi müügitellimustena** valikule **Jah**.
+1. Valige suvandid **Retail \> Peakontori seadistamine \> Parameetrid \> Jaemüügi parameetrid**. Määrake kiirkaardil **Kliendi tellimused** suvand **Töötle tagastustellimusi müügitellimustena** valikule **Jah**.
 2. Käivitage töö **Globaalse konfiguratsiooni jaotusgraafik** (**1110**).
 
 ## <a name="make-an-exchange"></a>Vahetuse tegemine

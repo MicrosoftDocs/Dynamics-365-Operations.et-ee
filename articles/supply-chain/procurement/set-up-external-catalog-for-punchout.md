@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571627"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595607"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
 
@@ -59,8 +59,10 @@ Selles jaotises antakse lisateavet eelmise jaotise ülesande 4 kohta.
 4. Valige kataloogi jaoks hankija. Loendis **Juriidilised isikud** on rida iga juriidilise isiku jaoks, kus hankija on seadistatud. Selleks et võimaldada kasutajatel tellida tooteid otse hankija kataloogist mõne juriidilise isiku, kuid mitte teiste, puhul, võite kasutada nuppu **Takista juurdepääsu** või **Luba juurdepääs** iga juriidilise isiku puhul, kelle kataloogi soovite kättesaadavaks teha või mitte.
 5. Sisestage väljale **Vaikimisi aegumine (päevades)** päevade arv, mille jooksul välisest kataloogist saadud pakkumine kehtib ja seda saab kasutada väliselt hankijalt ostmiseks. Kui pakkumine on loodud ja toodud hankija väliselt kataloogisaidilt, on pakkumine kehtiv praeguse süsteemikuupäeva seisuga ja jääb kehtivaks sellele väljale sisestatud päevade jooksul.
 6. Klõpsake nuppu **Lisa** hankekategooriate vastendamise alustamiseks välise kataloogiga. Siis valige kategooria loendist Kategooria nimi. Kategooriate loend on hankekategooriate ülemhulk, millega hankija on kõigis hankijale seadistatud juriidilistes isikutes vastendatud.
-[!NOTE]
-Hankepoliitikaid kasutatakse ostva juriidilise isiku või vastuvõtva tootmisüksuse kategooriatele juurdepääsu lubamiseks või piiramiseks. Väljaregistreerimine välisesse kataloogi nõuab, et oleks lubatud juurdepääs vähemalt ühele kataloogiga vastendatud hankekategooriale.
+
+    > [!NOTE]
+    > Hankepoliitikaid kasutatakse ostva juriidilise isiku või vastuvõtva tootmisüksuse kategooriatele juurdepääsu lubamiseks või piiramiseks. Väljaregistreerimine välisesse kataloogi nõuab, et oleks lubatud juurdepääs vähemalt ühele kataloogiga vastendatud hankekategooriale.
+
 7. Seadistage cXML-i seadistustaotluse sõnum, mis hankijale saadetakse. Automaatselt loodava sõnumi vorming on minimaalne mall, mis on seansi alustamiseks nõutav. Sisestage siltide väärtused.
 
 Saate igal ajal süsteemi loodud sõnumimalli uuesti laadida, klõpsates nuppu **Taasta sõnumivorming**. 
@@ -85,7 +87,7 @@ Allpool leiate mallis sisalduvate siltide kirjelduse.
 
 Väline element on lisateave, nt kasutajanimi, mis põhineb väljaregistreerival kasutajal. Väline element määratakse väljaregistreerimise toimumisel ja selle saab saata taotluse seadistussõnumis.
 Teie hankijal võib olla nõue välise elemendi vastuvõtmise kohta seadistustaotluses. Sel juhul tuleb lisada väline element väliste elementide loendisse lehe **Väline kataloog** jaotises **Sõnumivorming**. Määrake välisele elemendile nimi, mille hankija ära tunneb, ja vastendage see väärtusega. Väärtuste valikud on: kasutaja nimi, kasutaja meil või juhuslik väärtus.
-Lisateavet cXML-protokolli kohta vt http://cxml.org/.
+Lisateavet cXML-protokolli kohta leiate [veebisaidilt cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Tagasisisestamise teade
 Tagasisisestamise teade on teade, mis saadakse hankijalt, kui kasutaja logib väliselt saidilt välja ja naaseb rakendusse Finance and Operations. Tagasisisestamise teateid ei saa konfigureerida. Need teated põhinevad cXML-protokolli definitsioonil. Siin on teave, mis võib kuuluda ostutaotluse real saadud tagasisisestuse teatesse.

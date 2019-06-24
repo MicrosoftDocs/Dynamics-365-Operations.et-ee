@@ -3,7 +3,7 @@ title: Eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada.
 author: sericks007
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 06/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1527667"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620641"
 ---
 # <a name="removed-or-deprecated-features"></a>Eemaldatud või aegunud funktsioonid
 
@@ -38,8 +38,35 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 > [!NOTE]
 > Alates rakenduse Dynamics 365 for Finance and Operations 2017. aasta juulikuu väljaandest platvormivärskendusega 8 on iga eemaldatud või aegunud funktsiooni puhul märgitud juurutuste tüüp. Kõik selles teemas mainitud varasemad versioonid toetasid ainult pilvejuurutusi.
 
-> [!NOTE]
 > Üksikasjalikku teavet rakenduse Finance and Operations objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas rakenduse Finance and Operations versioonis muudetud või eemaldatud.
+
+## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+
+### <a name="france-fec-accounting-data-export-in-xml"></a>Prantsusmaa: FEC raamatupidamisandmete eksport XML-vormingus
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | TXT-vorminguga asendatud **Prantsuse FEC auditifail** on saadaval suvanditega **Pearaamat** \> **Perioodilised ülesanded** \> **Andmete eksportimine**.
+| **Asendatud teise funktsiooniga?**   | Jah |
+| **Mõjutatud tootealad**         | Pearaamat |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. Funktsiooni eemaldamise sihtperiood on 2020. aasta juuli. |
+
+=======
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 platvormivärskendusega 28
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.4 platvormivärskendusega 28 on saadaval suunatud kasutajatele eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-navigation-bar"></a>Pärandnavigeerimisriba
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Päise joondus teiste Dynamicsi ja Office’i toodetega. Lisateavet vt teemast [Uuendatud navigeerimisriba, mis joondub Office’i päisega](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **Asendatud teise funktsiooniga?**   | Alates platvormivärskendusest 24 on kasutusele võetud otsingufunktsiooniga ümber kujundatud navigeerimisriba. |
+| **Mõjutatud tootealad**         | Veebiklient |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud. Alates 2020. aasta aprillist pole pärandnavigeerimisriba enam saadaval. Selle ajani saavad kliendid ennistada pärandnavigeerimisriba lehe **Kliendi jõudlussuvandid** kaudu. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 platvormivärskendusega 26

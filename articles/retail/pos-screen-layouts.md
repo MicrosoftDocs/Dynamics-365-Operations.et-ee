@@ -3,7 +3,7 @@ title: Kassa ekraanipaigutused
 description: Selles teemas käsitletakse Microsoft Dynamics 365 for Retaili kassa ekraanipaigutusi.
 author: jblucher
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549424"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607030"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Kassa ekraanipaigutused
 
@@ -51,6 +51,7 @@ Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vah
 - **Kujundus** – saate valida heleda või tumeda rakenduse kujunduse. Kujundus mõjutab kogu rakenduse fonti ja taustavärve.
 - **Rõhuvärv** – rõhuvärvi kasutatakse kogu kassas teatud visuaalsete elementide (nt paanide, käsunuppude ja hüperlinkide) eristamiseks või esiletõstmiseks. Tavaliselt eeldavad need elemendid kasutajatoimingut.
 - **Päise värv** – saate konfigureerida lehekülje päise värvi, et vastata jaemüüja kaubamärgi nõuetele. See funktsioon on saadaval ainult rakenduse Microsoft Dynamics 365 for Retail versioonis 1611.
+- **Kuva kuupäev/kellaaeg** – kui see on lubatud, kuvatakse kassa päises praegune kuupäev ja kellaaeg.
 - **Sisselogimise taustad** – saate määrata sisselogimisekraani taustapildi. Taustapiltide failid peaksid olema võimalikult väikesed, sest suurte failide talletamine ja laadimine võib mõjutada rakenduse toimimist ja jõudlust.
 - **Rakenduse taust** – saate määrata taustpildi, mida kasutatakse kogu rakenduses ühevärvilise kujunduse asemel. Sisselogimise taustade failid peaksid olema võimalikult väikesed.
 

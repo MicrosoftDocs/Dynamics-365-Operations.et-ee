@@ -3,7 +3,7 @@ title: Projekti mobiilirakenduste ülevaade
 description: Selles teemas kirjeldatakse tootele Microsoft Dynamics 365 mobiilsetes seadmetes saadavalolevaid projekti ajaga seotud rakendusi.
 author: KimANelson
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 5b0560a8be32962f94b24754458fb2cf714a15c8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 22ccc70e242ffc9a487720c6a25fa6c5b8d78073
+ms.sourcegitcommit: 2d4b10fb5d3d0fbe518acdd921ebdd1bdc1d135e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1529967"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "1608134"
 ---
 # <a name="project-mobile-applications-overview"></a>Projekti mobiilirakenduste ülevaade
 
@@ -45,4 +45,4 @@ Minu ajatabelid (optimeeritud mobiilile) ja Minu ülevaatamise ajatabelid (optim
 
 ## <a name="for-more-information"></a>Lisateave
 
-Lisateabe saamiseks vaadake teemasid [Microsoft Dynamics 365 Project Timesheeti mobiilirakendus](project-timesheet.md), [Projekti ajakirje]( project-time-entry-mobile-workspace.md) ja [Projekti ajatabelid mobiilses seadmes](Mobile-timesheets.md).
+Lisateavet leiate teemadest [Microsoft Dynamics 365 Project Timesheeti mobiilirakendus](project-timesheet.md), [Projekti ajakirje]( project-time-entry-mobile-workspace.md), [Projekti ajatabelid mobiilses seadmes](Mobile-timesheets.md) ja [Kohandatud väljade juurutamine mobiilirakenduses Project Timesheet](custom-fields-mobile.md).

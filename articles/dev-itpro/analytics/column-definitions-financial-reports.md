@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1502726"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595335"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Veerudefinitsioonid finantsaruannetes
 
@@ -120,7 +120,7 @@ Järgmises tabelis kirjeldatakse veeru piirangu koode.
 | ADJ                     | Veeru summade piiramine perioodi korrigeerimissummadega nende summade olemasolul. |
 | XAD                     | Veeru summade piiramine nii, et perioodi korrigeerimissummad välistatakse. |
 | Plaanitud üleviimine                      | Veeru summade piiramine nii, et kaasatakse ainult sisestatud kanded, kui need kanded on olemas. |
-| UPT                     | Veeru summade piiramine nii, et kaasatakse ainult sisestamata kanded, kui need kanded on olemas.<blockquote>[!NOTE] Kõik andmepakkujad ei toeta sisestamata kandeid. Vaadake lisateavet oma Microsoft Dynamicsi ERP-süsteemi <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>andmeintegratsiooni juhendist</a>.</blockquote> |
+| UPT                     | Veeru summade piiramine nii, et kaasatakse ainult sisestamata kanded, kui need kanded on olemas.<p><strong>Märkus.</strong> Kõik andmepakkujad ei toeta sisestamata kandeid. Vaadake lisateavet oma Microsoft Dynamicsi ERP-süsteemi <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>andmeintegratsiooni juhendist</a>.</p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Veeru piiramine aruandlusüksusega
 
@@ -310,7 +310,7 @@ Lahter **Prindi kontrollkood** võib sisaldada koode, mis korrigeerivad veeru ku
 | Prindi kontrollkood | Teisendamine                                     | Kirjeldus |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Mitteprinditav                                     | Selle veeru summade välistamine prinditavast aruandest ja arvutustest. Mitteprinditava veeru kaasamiseks arvutusse viidake veerule otse arvutusvalemis. Näiteks on mitteprinditav veerg C kaasatud järgmisse arvutusse: **B+C+D**. Mitteprinditav veerg C pole kaasatud järgmisse arvutusse: **B:D**. |
-| XCR                | Märgi muutmine, kui rea tavaline saldo on kreedit | Eelarve või võrdlusaruande loomine, kui soovimatu hälve (nt tulu puudujääk või ülekulu) on alati negatiivne. Rakendage see kood veerule **CALC** veeru summa märgi muutmiseks, kui antud rea tavaline saldo on kreedit (määratud tähega **C** readefinitsiooni veerus **Normaalsaldo**).<blockquote>[!NOTE] Veenduge ridade <strong>TOT</strong> ja </strong>CAL</strong> puhul, mis tavaliselt sisaldavad kreeditsaldot, et sisestaksite <strong>C</strong> readefinitsiooni veergu <strong>Normaalsaldo</strong>.</blockquote> |
+| XCR                | Märgi muutmine, kui rea tavaline saldo on kreedit | Eelarve või võrdlusaruande loomine, kui soovimatu hälve (nt tulu puudujääk või ülekulu) on alati negatiivne. Rakendage see kood veerule **CALC** veeru summa märgi muutmiseks, kui antud rea tavaline saldo on kreedit (määratud tähega **C** readefinitsiooni veerus **Normaalsaldo**).<p><strong>Märkus.</strong> Veenduge ridade <strong>TOT</strong> ja </strong>CAL</strong> puhul, mis tavaliselt sisaldavad kreeditsaldot, et sisestaksite <strong>C</strong> readefinitsiooni veergu <strong>Normaalsaldo</strong>.</p> |
 | X0                 | Veeru peitmine, kui kõik on nullid või tühjad          | Veeru **FD** välistamine aruandest, kui kõik selle veeru lahtrid on kas tühjad või sisaldavad nulle. |
 | SR                 | Peida ümardamine                               | Selle veeru summade ümardamise takistamine. |
 | XR                 | Ümberarvestuse peitmine                                 | Ümberarvestuse peitmine. Kui aruanne kasutab aruandluspuud, ei koondata selle veeru summasid järgnevatesse emasõlmedesse. |
@@ -546,8 +546,8 @@ Järgmises tabelis kuvatakse aruande tulemused, mis võivad ilmneda suvandite er
 | Lahter Valuuta kuva                        | Lahter Valuutafilter | Aruande tulemus |
 |----------------------------------------------|----------------------|---------------|
 | Kande valuuta                 | **YEN**              | **Y6,000** – tulemus kuvab ainult valuutas JPY sisestatud kanded. |
-| Pearaamatu arvestusvaluuta | **YEN**              |**$60** – tulemus kuvab ainult need kanded, mis sisestati valuutas JPY ja kuvab need kanded valuutas USD.<blockquote>[!NOTE] Vahetuskurss on umbes 100 JPY USD kohta.</blockquote> |
-| Pearaamatu arvestusvaluuta | Tühi                | **2310 $** – kõik andmed kuvatakse pearaamatus määratud arvestusvaluutas.<blockquote>[!NOTE] See summa on kõigi kannete summa arvestusvaluutas.</blockquote> |
+| Pearaamatu arvestusvaluuta | **YEN**              |**$60** – tulemus kuvab ainult need kanded, mis sisestati valuutas JPY ja kuvab need kanded valuutas USD.<p><strong>Märkus.</strong> Vahetuskurss on umbes 100 JPY USD kohta.</p> |
+| Pearaamatu arvestusvaluuta | Tühi                | **2310 $** – kõik andmed kuvatakse pearaamatus määratud arvestusvaluutas.<p><strong>Märkus.</strong> See summa on kõigi kannete summa arvestusvaluutas.</p> |
 | Kande valuuta                 | Tühi                | **$2,250** – tulemus kuvab kõik summad valuutas, milles kanne tehti. See tähendab, et kogusummaks liidetakse kokku eri valuutade summad. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Veeru definitsiooni arvutuse veerg
@@ -565,7 +565,7 @@ Veergude liitmiseks, lahutamiseks, korrutamiseks või jagamiseks sisestage veeru
 |----------|---------------------|-------------|
 | +        | A+C                 | Veeru A summa liitmine veeru C summale. |
 | :        | A:C A:C-D           | Järjestikuste veergude vahemiku liitmine. Näiteks valem **A:C** liidab veergude A kuni C summad ja valem **A:C-D** liidab veergude A kuni C summad ja lahutab seejärel veeru D summa. |
-| -        | A-C                 | Lahutage veerus A olev summa veerus C olevast summast.<blockquote>[!NOTE] Võite miinusmärki (-) kasutada ka veerus olevate tehtemärkide ümberpööramiseks. Näiteks kasutage valemit <strong>-A+B</strong> veeru A summa pöördmärgi liitmiseks veeru B summale.</blockquote> |
+| -        | A-C                 | Lahutage veerus A olev summa veerus C olevast summast.<p><strong>Märkus.</strong> Veerus märkide ümberpööramiseks võite kasutada miinusmärki (-). Näiteks kasutage valemit <strong>-A+B</strong> veeru A summa pöördmärgi liitmiseks veeru B summale.</p> |
 | \*       | A\*C                | Veeru A summa korrutamine veeru C summaga. |
 | /        | A/C                 | Veeru A summa jagamine veeru C summaga. |
 
