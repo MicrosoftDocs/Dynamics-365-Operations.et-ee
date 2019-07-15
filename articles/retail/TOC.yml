@@ -1,10 +1,10 @@
-- name: Tere tulemast rakendusse Dynamics 365 for Retail
+- name: Tere tulemast kasutama rakendust Dynamics 365 for Retail
   href: index.md
 - name: Alustamine
   items:
     - name: Mis on uut või mida on muudetud?
       href: get-started/whats-new.md
-    - name: Dynamics 365 for Retail 10.0.3 eelvaatefunktsioonid
+    - name: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Retail 10.0.3?
       href: get-started/whats-new-10-0-3.md
     - name: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Retail 10.0.2?
       href: get-started/whats-new-10-0-2.md
@@ -49,7 +49,7 @@
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
     - name: Finance and Operationsi Retaili projektide juurutamine
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-    - name: 'Uute keskkondade, Azure DevOpsi ja Retaili projektide harude seadistamine'
+    - name: 'Uute keskkondade, Azure DevOps’i ja Retaili projektide harude seadistamine'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
     - name: Retaili projektide koodi ja keskkondade värskendamine
       href: dev-itpro/updating-environments.md
@@ -119,7 +119,7 @@
       href: ../financials/general-ledger/indirect-taxes-overview.md
     - name: Käibemaksuarvutusmeetodid väljal Päritolu
       href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-    - name: ' Käibemaksu määramine ja tühistamised'
+    - name: Käibemaksu määramine ja tühistamised
       href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
     - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
@@ -407,6 +407,10 @@
       items:
         - name: Fiskaalprinteri integratsiooni näide Itaalia jaoks
           href: localizations/emea-ita-fpi-sample.md
+    - name: Mehhiko
+      items:
+        - name: Globaalsed CFDI e-arved Mehhiko jaoks
+          href: ../financials/localizations/latam-mex-global-cfdi-3-3.md
     - name: Norra
       items:
         - name: Kassaaparaadi funktsioonid
@@ -463,11 +467,11 @@
       href: tasks/define-channel-attributes.md
     - name: Järjepidevuse graafikute määratlemine
       href: tasks/define-continuity-schedules.md
-    - name: ' Püsikliendiprogrammide määratlemine'
+    - name: Püsikliendiprogrammide määratlemine
       href: tasks/define-loyalty-programs.md
-    - name: ' Püsikliendi preemiapunktide määratlemine'
+    - name: Püsikliendi preemiapunktide määratlemine
       href: tasks/define-loyalty-reward-points.md
-    - name: ' Püsikliendiskeemide määratlemine'
+    - name: Püsikliendiskeemide määratlemine
       href: tasks/define-loyalty-schemes.md
     - name: Organisatsiooniüksuste vaheliste seoste kujundamine
       href: tasks/design-relationships-between-organizational-units.md
@@ -600,9 +604,9 @@
           href: dev-itpro/retail-server-customer-consumer-api.md
         - name: Vaikimisi Retail Serveri metaandmete kontrolleri laiendamine
           href: dev-itpro/extend-metadata.md
-        - name: CRT-teenuse kutsumine ühenduseta režiimis
+        - name: CRT teenusele helistamine ühenduseta režiimis
           href: dev-itpro/call-crt-service-offline.md
-    - name: Commerce Runtime'i (CRT) laiendatavus
+    - name: Commerce Runtime’i (CRT) laiendatavus
       items:
         - name: CRT arhitektuur ja konfigureerimine
           href: dev-itpro/commerce-runtime-overview.md
@@ -610,7 +614,7 @@
           href: dev-itpro/crt-services.md
         - name: CRT ja Retail Serveri laiendatavus
           href: dev-itpro/commerce-runtime-extensibility.md
-        - name: Kliendieelistuste andmete lisamine kanali andmebaasidesse
+        - name: Kliendi eelistuse andmete lisamine kanali andmebaasidesse
           href: dev-itpro/add-customer-preference-channel.md
         - name: Müügitellimustele atribuutide lisamine
           href: dev-itpro/add-properties-sales-order.md

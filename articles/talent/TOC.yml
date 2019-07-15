@@ -8,6 +8,16 @@
         - name: Mis on uut või mida on muudetud rakenduses Talent?
           href: whats-new.md
           items:
+            - name: 2. juuli 2019
+              href: whats-new-talent-july-2-2019.md
+            - name: 25. juuni 2019
+              href: whats-new-talent-june-25-2019.md
+            - name: 18. juuni 2019
+              href: whats-new-talent-june-18-2019.md
+            - name: 11. juuni 2019
+              href: whats-new-talent-june-11-2019.md
+            - name: 4. juuni 2019
+              href: whats-new-talent-june-4-2019.md
             - name: 28. mai 2019
               href: whats-new-talent-may-28-2019.md
             - name: 21. mai 2019
@@ -16,26 +26,26 @@
               href: whats-new-talent-may-13-2019.md
             - name: 6. mai 2019
               href: whats-new-talent-may-6-2019.md
-            - name: 30. aprill 2019
-              href: whats-new-talent-april-30-2019.md
-            - name: 25. aprill 2019
-              href: whats-new-talent-april-25-2019.md
-            - name: 16. aprill 2019
-              href: whats-new-talent-april-16-2019.md
-            - name: 9. aprill 2019
-              href: whats-new-talent-april-9-2019.md
-            - name: 2. aprill 2019
-              href: whats-new-talent-april-2-2019.md
-            - name: 26. märts 2019
-              href: whats-new-talent-march-26-2019.md
-            - name: 20. märts 2019
-              href: whats-new-talent-march-20.md
-            - name: 14. märts 2019
-              href: whats-new-talent-march-14.md
-            - name: 5. märts 2019
-              href: whats-new-talent-march-5.md
             - name: Mis on uut arhiivides 2019?
               items:
+                - name: 30. aprill 2019
+                  href: whats-new-talent-april-30-2019.md
+                - name: 25. aprill 2019
+                  href: whats-new-talent-april-25-2019.md
+                - name: 16. aprill 2019
+                  href: whats-new-talent-april-16-2019.md
+                - name: 9. aprill 2019
+                  href: whats-new-talent-april-9-2019.md
+                - name: 2. aprill 2019
+                  href: whats-new-talent-april-2-2019.md
+                - name: 26. märts 2019
+                  href: whats-new-talent-march-26-2019.md
+                - name: 20. märts 2019
+                  href: whats-new-talent-march-20.md
+                - name: 14. märts 2019
+                  href: whats-new-talent-march-14.md
+                - name: 5. märts 2019
+                  href: whats-new-talent-march-5.md
                 - name: 27. veebruar 2019
                   href: whats-new-talent-feb-27.md
                 - name: 14. veebruar 2019
@@ -102,16 +112,24 @@
           href: attract-comprehensive-hiring.md
         - name: Attracti funktsioonid ja võimalused
           href: attract-overview.md
+        - name: LinkedIn-i KKK
+          href: attract-linkedin-faq.md
+        - name: Meilisätete konfigureerimine
+          href: attract-configure-email-settings.md
         - name: Protsessimalli loomine Attractis
           href: Process-templates-Attract.md
-        - name: 'Tööde loomine, kinnitamine ja sisestamine Attractis'
+        - name: Tööde koostamine ja sisestamine
           href: Creating-jobs-Attract.md
-        - name: Tööde sisestamine Attracti-välistele karjäärisaitidele
+        - name: LinkedIn-iga integreerimise seadistamine
+          href: attract-admin-linkedin.md
+        - name: Tööde sisestamine Attractist LinkedIn-i
+          href: attract-post-jobs-to-linkedin.md
+        - name: Tööde sisestamine Attractist Broadbeani
           href: posting-jobs-external.md
         - name: Kandidaatide hankimine talendikaustade abil
           href: attract-talent-pools.md
-        - name: Hankimine tööriistaga LinkedIn Recruiter
-          href: attract-linked-in-recruiter.md
+        - name: Kandidaatide hankimine teenuse LinkedIn Recruiter abil
+          href: attract-linkedin-recruiter.md
         - name: Tegevused värbamisprotsessides
           href: activities-attract.md
         - name: Vestluse plaanimine ja tagasiside
@@ -132,12 +150,28 @@
           href: Admin-Settings-Attract.md
         - name: Intelligentsed soovitused
           href: Intelligent-Recommendations.md
-        - name: Kaasahaarava sisseelamiskogemuse loomine
-          href: create-onboarding-experience.md
         - name: Kandidaadi profiilide ja avalduste allikate jälgimine
           href: source-tracking.md
         - name: Analüüsiaruannete kasutamine värbamisprotsessi ülevaadete jaoks
           href: analytic-reports.md
+    - name: Uute töötajate sisseelamine Onboardi abil
+      items:
+        - name: Onboardi kasutamise alustamine
+          href: create-onboarding-experience.md
+        - name: Rakenduse Onboard hankimine
+          href: onboard-get-app.md
+        - name: Sisseelamisjuhendi loomine ja saatmine
+          href: onboard-create-guide.md
+        - name: Sisseelamismalli loomine
+          href: onboard-create-template.md
+        - name: Juhendite ja mallide redigeerimine
+          href: onboard-edit-guides-templates.md
+        - name: Sisu jagamine
+          href: onboard-share-template.md
+        - name: Oleku vaatamine
+          href: onboard-view-status.md
+        - name: Värbamistöörühma loomine
+          href: onboard-create-team.md
     - name: Tööjõu haldamine Core HR-i abil
       items:
         - name: Tööjõu korraldamine
@@ -353,10 +387,12 @@
           href: process-auditing.md
         - name: Rakenduse Attract laiendatavus
           href: extensibility-attract.md
-        - name: Core HR kohandatud väljad
+        - name: Core HR-i kohandatud väljad
           href: corehr-custom-fields.md
     - name: Talenti tõrkeotsing
       items:
+        - name: LinkedIn-i tööde sisestamine tõrkeotsing
+          href: attract-troubleshoot-linkedin.md
         - name: Analüütilisi aruandeid ei värskendata
           href: analytic-reports-not-updated.md
         - name: PowerAppsi halduskeskuses ei saa keskkonda luua
