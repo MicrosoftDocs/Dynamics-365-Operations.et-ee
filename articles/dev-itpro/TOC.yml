@@ -25,9 +25,9 @@
           href: dev-tools/configure-developer-vm.md
         - name: Uute kasutajate loomine arendusmasinatel
           href: dev-tools/enable-development-machine.md
-        - name: Administraatorijuurdepääsu keelavate VM-ide arendamise ja koostamise KKK
+        - name: Administraatori juurdepääsu keelavate VM-ide arendamise ja koostamise KKK
           href: sysadmin/VMs-no-admin-access.md
-        - name: Kohalike keskkondade ümbernimetamine Azure DevOpsile juurdepääsuks
+        - name: Kohalike keskkondade ümbernimetamine Azure DevOps’ile juurdepääsuks
           href: migration-upgrade/vso-machine-renaming.md
         - name: Arendussüsteemi nõuded
           href: dev-tools/development-system-requirements.md
@@ -997,6 +997,8 @@
               href: deployment/deploy-retail-onprem.md
         - name: Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse
           href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: PowerBI.com-i integratsioon kohapealsete keskkondadega
+          href: analytics/entity-store-on-prem.md
         - name: Pöördpuhverserverite konfigureerimine kohapealsete keskkondade jaoks
           href: deployment/onprem-reverseproxy.md
         - name: Värskenduste rakendamine kohapealsesse juurutamisse
@@ -1013,6 +1015,8 @@
           href: user-interface/client-disconnected.md
         - name: Kohapealsete juurutamiste tõrkeotsing
           href: deployment/troubleshoot-on-prem.md
+        - name: Sertide roteerimine
+          href: deployment/certificate-rotation-on-prem.md
     - name: Kohandatud koodi juurutamine
       items:
         - name: Juurutatavate mudelipakettide loomine
@@ -1087,7 +1091,7 @@
       items:
         - name: Koodi migreerimise ettevalmistamine
           href: migration-upgrade/prepare-migration.md
-        - name: Azure DevOpsi vastenduse konfigureerimine
+        - name: Azure DevOps’i vastenduse konfigureerimine
           href: migration-upgrade/configure-vso-solution.md
         - name: Mudeli tükeldamine
           href: dev-tools/model-split.md
@@ -1245,7 +1249,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: Aktiivsuse diagrammidega töötamine BPM-i teekides
       href: lifecycle-services/using-activity-diagrams.md
-    - name: BPM-i teekide sünkroonimine Azure DevOpsiga
+    - name: BPM-i teekide sünkroonimine Azure DevOps’iga
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: 'Kasutaja vastuvõtu testimise teekide loomine, kasutades tegevuse juhiseid ja BPM-i'
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
