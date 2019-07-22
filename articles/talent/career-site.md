@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517845"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729699"
 ---
 # <a name="career-site-functionality-in-attract"></a>Rakenduse Attract karjäärisaidi funktsionaalsus
 
@@ -48,11 +48,14 @@ Alljärgnevate üksuste väärtuste määramiseks logige administraatorina raken
  
 Alljärgnevate üksuste väärtuste määramiseks logige administraatorina rakendusse Attract sisse, valige menüüst **Sätted** suvand **Halduskeskus** ja seejärel valige vahekaart **Karjäärisaidi haldus**.
 
--   **Otsingumootori optimeerimine** – kui see on lubatud, on kõik rakenduse Attract karjäärisaidile sisestatud avalikud töökohad leitavad otsingumootoritega, nagu Bing ja Google.
+-   **Otsingumootori optimeerimine** – kui see on lubatud, on kõik rakenduse Attract karjäärisaidile sisestatud avalikud töökohad leitavad otsingumootoritega, nagu Bing ja Google. 
 
     > [!NOTE] 
     > Selle sätte sisselülitamise ja otsingutulemite ilmumise vahel võib olla viivitus, mis oleneb kasutatavast otsingumootorist.
-         
+    
+-   **Tingimused** – kui see on lubatud, peavad kõik kandidaadid mis tahes töö taotlemisel nõustuma organisatsiooni tingimustega. Attracti administraator saab konfigureerida enda nõusolemisteksti ja ka linki Tingimuste lehele. 
+
+        
 ## <a name="career-site-urls"></a>Karjäärisaidi URL-id
 
 Alljärgnev loend sisaldab tavaliselt kasutatavaid karjäärisaitide URL-e ja teavet, kuidas neile juurde pääsed.

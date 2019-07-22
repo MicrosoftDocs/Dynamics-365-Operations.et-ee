@@ -3,7 +3,7 @@ title: Mis on uus või muudetud
 description: See leht suunab teid teemadele, mis võivad aidata teil saada lisateavet rakenduse Microsoft Dynamics 365 for Finance and Operations värskeimate versioonide uute funktsioonide kohta.
 author: josaw1
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: bc13efe11f383157338ccd6b2ae378ee1f92a698
-ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
+ms.openlocfilehash: 42c31195a0b1a785afadfefc33f5cf7e1a6fce1f
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1619188"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1632001"
 ---
 # <a name="whats-new-or-changed"></a>Mis on uus või muudetud
 
@@ -63,7 +63,7 @@ Selles tabelis on loetletud rakenduse põhiversioonid. Igakuiseid pilvevärskend
 <td>10.0.3</td>
 <td>10.0.107</td>
 <td>2019. juuni</td>
-<td><a href="whats-new-changed-10-0-3.md">Eelvaatefunktsioonid rakenduse Dynamics 365 for Finance and Operations versioonis 10.0.3 (juuni, 2019)</a></td>
+<td><a href="whats-new-changed-10-0-3.md">Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations versioonis 10.0.3 (juuni 2019)</a></td>
 </tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.2</td>
@@ -183,7 +183,7 @@ Selles tabelis on loetletud rakenduse põhiversioonid. Igakuiseid pilvevärskend
 <td>Platvormivärskendus update 27</td>
 <td>7.0.5286</td>
 <td>2019. juuni</td>
-<td><a href="whats-new-platform-update-27.md">Eelvaatefunktsioonid rakenduse Dynamics 365 for Finance and Operations platvormivärskenduses 27 (juuni, 2019)</a></td>
+<td><a href="whats-new-platform-update-27.md">Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations platvormivärskenduses 27 (juuni 2019)</a></td>
 </tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Platvormivärskendus update 26</td>

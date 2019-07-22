@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 13cfe68e3d06001c56770fa60838404c43d0b38d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517780"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624577"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (23. aprill, 2019)?
 
@@ -46,7 +46,7 @@ Selle nädala väljaandes toetavad järgmised üksused kohandatud välju: hüvit
 ### <a name="additional-odata-entities-302992"></a>Täiendavad OData üksused (302992)
 Järgmised üksused on nüüd toetatud ODataga: töötaja töökogemus ja töötaja haridus.
    
-### <a name="performance-journal-attachments-for-nanagers-and-employees-308248"></a>Juhtide ja töötajate jõudluse töölehe manused (308248)
+### <a name="performance-journal-attachments-for-managers-and-employees-308248"></a>Juhtide ja töötajate jõudluse töölehe manused (308248)
 Koos selle väljaandega on nüüd saadaval manused nii juhtidele kui ka töötajatele jõudluse töölehe kirjete loomisel ja uuendamisel.
 
 ### <a name="employee-rehire-flag-always-available-310047"></a>Töötaja uuesti palkamise lipp on alati saadaval (310047)

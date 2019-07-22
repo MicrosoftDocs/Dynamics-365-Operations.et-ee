@@ -3,7 +3,7 @@ title: Finance and Operationsi spikrisüsteem
 description: Selles teemas antakse ülevaate rakenduse Microsoft Dynamics 365 for Finance and Operations spikrisüsteemi komponentidest.
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2018
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
+ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595635"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625325"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operationsi spikrisüsteem
 
@@ -95,18 +95,20 @@ Kui teil on küsimusi konkreetse teema kohta, lisage kommentaar lehe alaosas.
 
     ![Sisesta kommentaar](./media/feedback.png)
 
-##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Soovitage muudatusi või lisage sisu GitHubi kaudu
+### <a name="contribute-to-the-documentation"></a>Dokumenti panustamine
 
-Muudatuse soovitamiseks peab teil olema GitHubi konto ja teil tuleb allkirjastada kaasautori litsentsileping. Pärast tõmbamistaotluse esitamist vaatame teie soovitatud muudatused üle. Vajaduse korral arutleme neid ja seejärel võtame teiega ühendust.
+Saate anda oma panuse Finance and Operationsi dokumentidesse ja neid redigeerida. Alustamiseks klõpsake teemas nuppu **Redigeeri** (pliiats) või vaadake meie repolepingut aadressil <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. Järgmises videod näidatakse, kuidas saate meie dokumentidesse panustada.
 
-Alustamiseks klõpsake teemas nuppu **Redigeeri** (pliiats) või vaadake meie repolepingut aadressil <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
 
-Lisateabe saamiseks vaadake meie kaasautori juhendit: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
+Video [Kuidas panustada Microsoft Dynamics 365 dokumenti](https://youtu.be/m5djioozRbg) (üleval) on lisatud esitusloendisse [Mis on uut rakenduses Dynamics 365](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9), mis on saadaval YouTube’is.
+
+Lisateabe saamiseks vaadake meie kaasautori juhendit lehel <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
 
 > [!NOTE]
-> Praegu aktsepteerime panuseid ainult ingliskeelsetesse sisukomplektidesse.
+> Praegu aktsepteerime panuseid ainult ingliskeelsesse sisusse.
 
-## <a name="task-guides"></a>Tegevuse juhised
+## <a name="task-guides"></a>Tegevusjuhised
 
 Tegevuse juhis on juhendatud, interaktiivne kogemus, mis juhib teid läbi tegevuse või äriprotsessi toimingute. Tegevuse juhise saab avada (esitada) paanilt Spikker. Tegevuse juhise esmakordsel klõpsamisel kuvatakse paanil Spikker tegevuse etapiviisilised juhised. Lokaliseeritud tegevuse juhised on nüüd saadaval.
 

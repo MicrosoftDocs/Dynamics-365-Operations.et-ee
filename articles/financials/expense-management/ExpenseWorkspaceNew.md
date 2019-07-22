@@ -3,7 +3,7 @@ title: Uuendatud kuluaruanded
 description: See teema annab teavet ümberkujundatud ja uuendatud kasutuskogemuse kohta kuluaruande sisestamisel rakenduses Microsoft Dynamics 365 for Finance and Operations. Uus kogemus lihtsustab kuluaruannete lõpetamise protsessi ja vähendab selleks kuluvat aega.
 author: ryansandness
 manager: AnnBe
-ms.date: 05/20/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 9e87a61bd6dd7bc1c7ef569882daf2074c7cade9
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592633"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1631951"
 ---
 # <a name="expense-reports-reimagined"></a>Uuendatud kuluaruanded
 
 [!include[banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Kuluaruande kirje on ümber kujundatud, et lihtsustada kuluaruannete lõpetamise protsesssi ja vähendada kuluaruannete lõpetamiseks kuluvat aega. Siin on uue kulukogemuse peamised komponendid.
 

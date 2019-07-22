@@ -3,7 +3,7 @@ title: Operatsioonide planeerimine
 description: See teema annab teavet operatsioonide plaanimise kohta. Operatsioonide plaanimine võimaldab anda tootmisprotsessi kohta üldise hinnangu aja jooksul.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 298c07346427a949ffa544e66eb6b01995dadc38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
+ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560252"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691458"
 ---
 # <a name="operations-scheduling"></a>Operatsioonide planeerimine
 
@@ -67,6 +67,9 @@ Operatsioonide graafik juhib ka koondplaneerimist ning määrab materjalivajadus
 -   **Mahajäämusega tooted**: tooted, mis on plaanitud, vabastatud või alustatud.
 -   **Materjali saadavus**: varu, alamkooslused, tarnijad ja hankijad.
 -   **Võimsuse saadavus**: tootmiseks vajalikud ressursid
+
+> [!NOTE]
+> Kui kasutate mitmelõimelist koondplaneerimist ja operatsioonide planeerimist, siis piiratud võimsust ei arvestata. 
 
 ## <a name="cancellations"></a>Tühistamised
 Kui käivitate operatsioonide plaanimise, saate tühistada protsessi teatud osi. Need osad on ooteaeg, seadistusaeg, töötlusaeg, kattumisaeg ja transpordiajad.

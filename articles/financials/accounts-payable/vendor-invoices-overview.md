@@ -3,7 +3,7 @@ title: Hankija arvete ülevaade
 description: Selles teemas antakse üldteavet hankija arvete kohta. Hankija arved on maksetaotlused saadud toodete ja teenuste eest. Hankija arved võivad esindada kehtivate teenuste arvet või need võivad põhineda kindlate kaupade ja teenuste ostutellimustel.
 author: abruer
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b57c18b5b2cf690111511e4c5a92d51fc23dd68c
-ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
+ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
+ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1618269"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625075"
 ---
 # <a name="vendor-invoices-overview"></a>Hankija arvete ülevaade
 
@@ -91,13 +91,6 @@ Saate kasutada lehte **Taasta hankija arved**, et taastada või väljastada hank
 
 Saate lehele **Hankija arvete taastamine** juurdepääsu ainult siis, kui teile on määratud **Kasutuses olevate hankija arvete taastamise** kohustus ja õigus. Lisaks peab parameeter **Luba hankija arvete taastamine** lehel **Ostureskontro parameetrid** olema sisse lülitatud.
 
-## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Hankija arvete töövoo oleku lähtestamine olekult Parandamatu olekule Mustand
-
-Taastamatu tõrke tõttu peatatud töövoo eksemplaril on töövoo olekuks **Parandamatu**. Kui hankija arve töövoo olek on **Parandamatu**, saate selle lähtestada olekule **Mustand**. Seejärel saate hankija arvet redigeerida. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Hankija arve töövoo mustandi olekule lähtestamine** sisse lülitatud.
-
-Saate kasutada lehte **Hankija arvete töövoo oleku lähtestamine**, et lähtestada töövoogu olekule **Mustand**. Selle lehe saate avada navigeerimisüksuselt **Perioodiline ülesanne**. Lehel kuvatakse kõik hankija arved, mille töövoo olek on praeguses juriidilises isikus **Parandamatu**. Samuti näitab see kasutajat, kes iga arve töövoogu esitas, ja arve identifikaatorit ning esitab lingi töövoo ajaloole. Selleks, et lähtestada töövoog olekule **Mustand**, märkige üks või mitu arvet ja valige seejärel käsk **Värskenda mustandiks**. Pärast töövoo olekule **Mustand** lähtestamist muutub see lehel **Hankija arve** redigeerimise jaoks kättesaadavaks.
-
-Lehele **Hankija arvete töövoo oleku lähtestamine** saate juurde pääseda ainult juhul, kui turbekohustus **Säilita hankija arve töövoo olekut** ja privileeg **Hankija arve töövoo oleku lähtestamine** on teile määratud.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

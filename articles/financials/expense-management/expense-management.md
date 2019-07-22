@@ -3,7 +3,7 @@ title: Kulude haldus
 description: Selles teemas on üldine teave kuluhaldamise kohta ja lingid lisaressursside juurde. Kuluhalduse abil võite luua integreeritud töövoo, kus saate talletada makseviisi kohta käivat teavet, importida krediitkaardikandeid ja jälgida raha, mida teie töötajad ettevõtte kulutustena kasutavad.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 06/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe1e92dbf63d2683a53684b350f77c978b14c75e
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: 7509553df57b9cba206e606b78c70732da32074d
+ms.sourcegitcommit: 169b593b0d9afb228d2cfb0f3b742e4777ec81af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538605"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "1633971"
 ---
 # <a name="expense-management"></a>Kulude haldus
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Kuluhalduse abil võite luua integreeritud töövoo, kus saate talletada makseviisi kohta käivat teavet, importida krediitkaardikandeid ja jälgida raha, mida teie töötajad ettevõtte kulutustena kasutavad. Saate ka määrata kulupoliitikad ja automatiseerida reisikulude hüvitamise.
 

@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7eff0ce166785cb777fbf58ecf08ca8915be5af
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557325"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624880"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Projekti ajatabelid mobiilses seadmes
 
 [!include [banner](../includes/banner.md)]
-
-# <a name="overview"></a>Ülevaade
 
 **Minu ajatabelid (optimeeritud mobiilile)** võimaldab töötajatel luua ja esitada projekti ajatabeleid, et registreerida oma kindla projektiga seotud tööaeg mobiilses seadmes. Töötajad saavad luua uue ajatabeli või kopeerida andmeid olemasolevast ajatabelist, et tagada kiire ja täpne ajakirje. Kui teid on määratud delegaadiks, saate sisestada ka teise töötaja ajatabeli. Rakendus võimaldab töötajatel ajatabeli kiiresti leidmiseks ja valimiseks filtreerida projekti, ressursi või kinnituse oleku alusel. See võimaldab töötajatel ka salvestada lemmikuid, mis salvestab projekti ja tegevuse teabe ajatabelisse. Salvestatud lemmikuid saab kasutada uute ajatabelite loomiseks, mis muudab ajakirje loomise protsessi kiiremaks. Redigeerimist või finantsdimensiooni teabe vaatamist ei toetata mobiilirakenduses. Valikule **Minu ajatabelid (optimeeritud mobiilile)** pääseb juurde mobiilse seadme veebibrauseri kaudu.
 
@@ -35,8 +33,7 @@ ms.locfileid: "1557325"
 Seda mobiilirakendust saab kasutada iPhone’is rakenduse Dynamics 365 for Finance and Operations platvormivärskendusega 15.
 Android ühildub platvormivärskendusega 16, kui see muutub kättesaadavaks.
 
-<a name="create-a-project-timesheet-on-your-mobile-device"></a>Projekti ajatabeli loomine mobiilses seadmes
-------------------------------------------------
+## <a name="create-a-project-timesheet-on-your-mobile-device"></a>Projekti ajatabeli loomine mobiilses seadmes
 
 1.  Märkige üles rakenduse Dynamics 365 lehe **Projektihaldus ja raamatupidamine**\>**Ajatabelid**\>**Minu ajatabelid (optimeeritud mobiilile)** URL.
 

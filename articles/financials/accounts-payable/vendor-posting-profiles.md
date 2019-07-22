@@ -3,7 +3,7 @@ title: Hankija sisestusreeglid
 description: Hankija sisestusreeglid kontrollivad hankijakannete sisestamist pearaamatusse.
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e81f8b472e7ac7578c184716dcb4e5f3d7aeb65d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c3f62df7ec5627556561db950d54ff4347d2b4d6
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512164"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625891"
 ---
 # <a name="vendor-posting-profiles"></a>Hankija sisestusreeglid
 
@@ -34,9 +34,9 @@ Hankija sisestusreeglid kontrollivad hankijakannete sisestamist pearaamatusse.
 <a name="vendor-posting-profiles"></a>Hankija sisestusreeglid
 -----------------------
 
-Hankija sisestusreeglid võimaldavad määrata pearaamatukontosid ja dokumendisätteid kõigile hankijatele, hankijagrupile või üksikule hankijale. Neid sätteid kasutatakse ostutellimuste, hankija arvete ja sularahamaksete loomisel. Mõne kande puhul saate valida sisestusreegli, mis erineb ja on olulisem sellel lehel kannete jaoks seadistatud sisestusreeglitest. Vaike-sisestusreeglid määratletakse kiirkaardil Pearaamat ja käibemaks lehel Ostureskontro parameetrid. Vaike-sisestusreeglid lisatakse siis automaatselt uute dokumentide päisesse, kus saate vahetada need vajaduse korral teistsuguste sisestusreeglite vastu.
+Hankija sisestusreeglid võimaldavad määrata pearaamatukontosid ja dokumendisätteid kõigile hankijatele, hankijagrupile või üksikule hankijale. Neid sätteid kasutatakse ostutellimuste, hankija arvete ja sularahamaksete loomisel. Mõne kande puhul saate valida sisestusreegli, mis erineb ja on olulisem sellel lehel kannete jaoks seadistatud sisestusreeglitest. Vaike-sisestusreeglid määratletakse kiirkaardil **Pearaamat ja käibemaks** lehel **Ostureskontro parameetrid**. Vaike-sisestusreeglid lisatakse siis automaatselt uute dokumentide päisesse, kus saate need vajaduse korral teistsuguste sisestusreeglite vastu vahetada.
 
-Saate seostada sisestamisdefinitsioonid kande sisestamistüüpidega lehel Kande sisestamisdefinitsioonid. Sisestamisdefinitsioonid juhivad hankija kannete sisestamist sisestusreeglite asemel pearaamatusse.
+Saate seostada sisestamisdefinitsioonid kande sisestamistüüpidega lehel **Kande sisestamisdefinitsioonid**. Sisestamisdefinitsioonid juhivad hankija kannete sisestamist sisestusreeglite asemel pearaamatusse.
 
 ## <a name="creating-a-posting-profile"></a>Sisestusreeglite loomine
 ### <a name="setup"></a>**Häälestus**
@@ -46,10 +46,10 @@ Määrake kannete sisestamisel kasutatavad pearaamatukontod, mis kasutavad valit
 | Välja **Konto kood** väärtus | Välja **Konto/grupi number** väärtus        | Otsingu prioriteet |
 |------------------------------|---------------------------------------------|-----------------|
 | **Tabel**                    | Konkreetse hankija konto                     | 1               |
-| **Grupp**                    | hankijale määratud hankijagrupp | 2               |
+| **Grupeeri**                    | Hankijale määratud hankijagrupp | 2               |
 | **Kõik**                      | Tühi                                       | 3               |
 
-Kui soovite, et kõigil hankija kannetel oleksid samad sisestusreeglid, seadistage ainult üks sisestusreegel, valides väljal Konto kood väärtuse Kõik. Määrake sisestusreeglite seadistamiseks järgmised väärtused.
+Kui soovite, et kõigil hankija kannetel oleksid samad sisestusreeglid, seadistage ainult üks sisestusreegel, valides väljal **Konto kood** väärtuse **Kõik**. Määrake sisestusreeglite seadistamiseks järgmised väärtused.
 
 <table>
 <thead>
@@ -71,32 +71,20 @@ Kui soovite, et kõigil hankija kannetel oleksid samad sisestusreeglid, seadista
 <td><strong>Konto kood</strong></td>
 <td>Määrake, kas sisestusreeglit rakendatakse kindlale hankijale, hankijagrupile või kõikidele hankijatele.
 <ul>
-<li><strong>Tabel</strong> – sisestusreeglid rakenduvad ühele hankijale. Valige hankija konto väljal Konto/grupi number.</li>
-<li><strong>Grupp</strong> – sisestusreeglid rakenduvad hankijagrupile. Valige hankijagrupp väljal Konto/grupi number.</li>
-<li><strong>Kõik</strong> – sisestusreeglid rakenduvad kõigile hankijatele. Jätke väli Konto/grupi number tühjaks.</li>
+<li><strong>Tabel</strong> – sisestusreeglid rakenduvad ühele hankijale. Valige hankija konto väljal <strong>Konto/grupi number</strong>.</li>
+<li><strong>Grupp</strong> – sisestusreeglid rakenduvad hankijagrupile. Valige hankijagrupp väljal <strong>Konto/grupi number</strong>.</li>
+<li><strong>Kõik</strong> – sisestusreeglid rakenduvad kõigile hankijatele. Jätke väli <strong>Konto/grupi number</strong> tühjaks.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><strong>Konto/grupi number</strong></td>
-<td>Kui väljal Konto kood on valitud väärtus Tabel, valige sisestusreegliga seotud hankija konto number. Kui on valitud väärtus Grupp, valige hankijagrupp. Kui on valitud väärtus Kõik, jätke see väli tühjaks.</td>
+<td>Kui väljal <strong>Konto kood</strong> on valitud väärtus <strong>Tabel</strong>, valige sisestusreegliga seotud hankija konto number. Kui on valitud väärtus <strong>Grupp</strong>, valige hankijagrupp. Kui on valitud väärtus <strong>Kõik</strong>, jätke see väli tühjaks.</td>
 </tr>
 <tr class="odd">
 <td><strong>Summakonto</strong></td>
-<td>Valige selle pearaamatukonto number, mida kasutatakse antud sisestusreeglitega seotud hankijate puhul summakontona.
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Paberraha" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Märkus</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Kui lehel Pearaamatu parameetrid on valitud nupp Kasuta sisestamisdefinitsioone, kasutatakse hankija arvete puhul summakonto asemel kande sisestamisdefinitsiooni.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
+<td>Valige selle pearaamatukonto number, mida kasutatakse antud sisestusreeglitega seotud hankijate puhul summakontona. Märgitakse parameeter <strong>Ära luba käsitsi sisestamist</strong>. Kui eemaldate seejärel selle konto sisestusreeglitest, kinnitage seadistus <strong>Ära luba käsitsi sisestamist</strong> lehel <strong>Põhikontod</strong>. 
+<p><strong>Märkus</strong>Kui lehel <strong>Pearaamatu parameetrid</strong> on valitud nupp <strong>Kasuta sisestamisdefinitsioone</strong>, kasutatakse hankija arvete puhul summakonto asemel kande sisestamisdefinitsiooni.</p>
+</td>
 </tr>
 <tr class="even">
 <td><strong>Tasakaalusta konto</strong></td>
@@ -105,24 +93,12 @@ Kui soovite, et kõigil hankija kannetel oleksid samad sisestusreeglid, seadista
 <tr class="odd">
 <td><strong>Käibemaksu ettemaksed</strong></td>
 <td>Valige ettemaksuna saadud maksete käibemaksu jaoks kasutatav konto.
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Paberraha" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Märkus</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sisestusreegel, mida kasutatakse, kui ettemakseks märgitud makse on valitud lehel Ostureskontro parameetrid ala Pearaamat ja käibemaks väljal Sisestusreeglid ettemaksu töölehekandega.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
+<p><strong>Märkus.</strong>Sisestusreegel, mida kasutatakse, kui ettemakseks märgitud makse on valitud lehel <strong>Ostureskontro parameetrid</strong> ala <strong>Pearaamat ja käibemaks</strong> väljal <strong>Sisestusreeglid</strong> <strong>Ettemaksu töölehekandega</strong>.</p>
+</td>
 </tr>
 <tr class="even">
 <td><strong>Saabumine</strong></td>
-<td>Valige pearaamatukonto, kuhu sisestatakse teave kinnitamata hankija arvete kohta. Teave sisestatakse arveregistri töölehele. Näiteks kasutaja sisestab kõige põhilisema teabe hankija arvete kohta, nii nagu need on vastu võetud arveregistrisse. Arveregistri sisestamisel sisestatakse kanded sellele väljale ja väljale Vastaskonto sisestatud väljale. Kui arved kinnitatakse, kantakse võlg kontolt Saabumine üle hankija summakontole.</td>
+<td>Valige pearaamatukonto, kuhu sisestatakse teave kinnitamata hankija arvete kohta. Teave sisestatakse arveregistri töölehele. Näiteks kasutaja sisestab kõige põhilisema teabe hankija arvete kohta, nii nagu need on vastu võetud arveregistrisse. Arveregistri sisestamisel sisestatakse kanded sellele väljale ja väljale <strong>Vastaskonto</strong> sisestatud kontole. Kui arved kinnitatakse, kantakse võlg saabumiskontolt üle hankija summakontole.</td>
 </tr>
 <tr class="odd">
 <td><strong>Vastaskonto</strong></td>
@@ -140,11 +116,6 @@ Määrake sisestusreeglite seadistamiseks järgmised väärtused.
 
 | Väli          | Kirjeldus                                                                                                                                                                                                    |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Tasakaalustus** | Tehke see valik nende sisestusreeglitega kannete automaatse tasakaalustamise lubamiseks. Kui see valik eemaldada, tuleb kanded käsitsi tasakaalustada, kasutades lehte Avatud kannete tasakaalustamine. |
+| **Tasakaalustus** | Tehke see valik nende sisestusreeglitega kannete automaatse tasakaalustamise lubamiseks. Kui see valik eemaldada, tuleb kanded käsitsi tasakaalustada, kasutades lehte **Avatud kannete tasakaalustamine**. |
 | **Tühista**     | Tehke see valik, kui soovite, et saaksite nende sisestusreeglitega kandeid tühistada.                                                                                                               |
 | **Sulge**      | Valige sisestusreeglid, millele üle minna, kui nende sisestusreeglitega kanded suletakse. Kanne loetakse suletuks, kui see on täielikult tasakaalustatud.                                       |
-
-
-
-
-

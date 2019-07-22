@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577924"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624808"
 ---
 # <a name="retail-peripherals"></a>Jaemüügi välisseadmed
 
@@ -156,13 +156,13 @@ Seadme tüüpi **Windows** kasutatakse ainult printerite puhul. Kui riistvarapro
 
 ### <a name="network"></a>Võrk
 
-Võrguaadressiga sularahasahtleid, kviitungiprintereid ja makseterminale saab kasutada üle võrgu kas otse rakendusse Modern POS Windowsile integreeritud protsessisisese side (IPC) riistvarajaama kaudu või IIS-i riistvarajaama kaudu teiste Modern POS-i klientide jaoks.
+Võrguaadressiga sularahasahtleid, kviitungiprintereid ja makseterminale saab kasutada üle võrgu kas otse rakendustele Modern POS Windowsile ja Modern POS Androidile integreeritud protsessisisese side (IPC) riistvarajaama kaudu või IIS-i riistvarajaama kaudu teiste Modern POS-i klientide jaoks.
 
 ## <a name="hardware-station-deployment-options"></a>Riistvarajaama juurutusvõimalused
 
 ### <a name="ipc-built-in"></a>IPC (integreeritud)
 
-Protsessisisese side (IPC) riistvarajaam on integreeritud rakendusse Modern POS Windowsile. IPC riistvarajaama kasutamiseks määrake riistvaraprofiil registrile, mis kasutab rakendust Modern POS Windowsile. Seejärel looge kauplusele, kus registrit kasutatakse, riistvarajaam tüübiga **Sihtotstarbeline**. Modern POS-i käivitamisel on IPC riistvarajaam aktiivne ja konfigureeritud kassa välisseadmed kasutamiseks valmis. Kui teil pole kohalikku riistvara mingil põhjusel ajutiselt vaja, siis kasutage toimingut **Riistvarajaamade haldamine** riistvarajaama võimaluste väljalülitamiseks. Modern POS saab kasutada IPC riistvarajaama otse võrgu välisseadmetega suhtlemiseks.
+Protsessisisese side (IPC) riistvarajaam on integreeritud rakendustesse Modern POS Windowsile ja Modern POS Androidile. IPC riistvarajaama kasutamiseks määrake riistvaraprofiil registrile, mis kasutab rakendust Modern POS Windowsile. Seejärel looge kauplusele, kus registrit kasutatakse, riistvarajaam tüübiga **Sihtotstarbeline**. Modern POS-i käivitamisel on IPC riistvarajaam aktiivne ja konfigureeritud kassa välisseadmed kasutamiseks valmis. Kui teil pole kohalikku riistvara mingil põhjusel ajutiselt vaja, siis kasutage toimingut **Riistvarajaamade haldamine** riistvarajaama võimaluste väljalülitamiseks. Modern POS saab kasutada IPC riistvarajaama otse võrgu välisseadmetega suhtlemiseks.
 
 ### <a name="iis"></a>IIS-I
 
@@ -190,7 +190,11 @@ Riistvaraprofiili seadmete võrgutähistus võimaldab ühendada sularahasahtlid,
 
 Võrgu välisseadmetele saab määrata IP-aadresse kahest kohast. Kui Modern POS-i Windowsi klient kasutab ühte võrgu välisseadmete kogumit, tuleb neile seadmetele määrata IP-aadressid valikuga **IP konfigureerimine** registri enda toimingupaanil. Võrguseadmete puhul, mis on kassaregistrite seas ühiskasutuses, saab riistvaraprofiili, millele on määratud võrguseadmeid, vastendada otse ühiskasutuses riistvarajaamaga. IP-aadresside määramiseks valige lehelt **Jaekauplused** riistvarajaam ja kasutage siis valikut **IP konfigureerimine** jaotises **Riistvarajaamad** sellele riistvarajaamale määratud võrguseadmete määramiseks. Ainult võrguseadmetega riistvarajaamade puhul pole vaja riistvarajaama ennast juurutada. Sellisel juhul on riistvarajaam vajalik ainult võrguaadressiga seadmete põhimõtteliseks grupeerimiseks nende asukoha järgi jaekaupluses.
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Pilvekassa, Modern POS iOS-ile ja Modern POS Androidile
+#### <a name="modern-pos-for-android"></a>Modern POS Androidile
+
+Alates Dynamics 365 for Retail versioonist 8.1.3, sisaldab rakendus Modern POS Androidile sisse-ehitatud IPC riistvarajaama. See riistvarajaam toetab suhtlemist võrguprinterite ja maksekonnektoritega. Lisateabe saamiseks külastage artiklit [Hübriidrakendus Androidi dokkidele](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+
+#### <a name="cloud-pos-and-modern-pos-for-ios"></a>Pilvekassa ja tänapäevane kassa iOS-ile
 
 Füüsiliselt ühendatud ja võrguaadressiga välisseadmete juhtimise loogika sisaldub riistvarajaamas. Seetõttu peab kõigi kassaklientide puhul, v.a Modern POS Windowsile, olema juurutatud ja aktiivne IIS-i riistvarajaam, et kassa saaks välisseadmetega suhelda, olenemata sellest, kas need välisseadmed on füüsiliselt riistvarajaamaga ühendatud või võrgu kaudu adresseeritud.
 
@@ -223,7 +227,7 @@ Järgmises tabelis on näidatud toetatud topoloogiaid ja juurutusstsenaariume.
 |-------------|----------------------|----------------------|
 | Windowsi rakendus | Jah                  | Jah                  |
 | Pilve kassa   | Ei                   | Jah                  |
-| Android     | Ei                   | Jah                  |
+| Android     | Jah                  | Jah                  |
 | iOS         | Ei                   | Jah                  |
 
 ### <a name="network-peripherals"></a>Võrgu välisseadmed
@@ -234,7 +238,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 |-------------|----------------------|----------------------|
 | Windowsi rakendus | Jah                  | Jah                  |
 | Pilve kassa   | Ei                   | Jah                  |
-| Android     | Ei                   | Jah                  |
+| Android     | Jah                  | Jah                  |
 | iOS         | Ei                   | Jah                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Toetatud seadmetüübid riistvarajaama tüübi järgi
@@ -661,14 +665,15 @@ Järgmisi välisseadmeid testiti rakendusse Modern POS Windowsile integreeritud 
 
 #### <a name="printer"></a>Printer
 
-| Tootja | Mudel    | Liides | Kommentaarid                |
-|--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | Kohandatud    | Võrgu kaudu ühendatud   |
-| Star         | mPOP     | OPOS      | Bluetoothi kaudu ühendatud |
-| HP           | F7M67AA  | OPOS      | USB-toitel             |
+| Tootja | Mudel      | Liides | Kommentaarid                |
+|--------------|------------|-----------|-------------------------|
+| Epson        | Tm-T88IV   | OPOS      |                         |
+| Epson        | TM-T88V    | OPOS      |                         |
+| Epson        | ePOS – printimine | Kohandatud    | Võrgu kaudu ühendatud   |
+| Star         | TSP650II   | OPOS      |                         |
+| Star         | TSP650II   | Kohandatud    | Võrgu kaudu ühendatud   |
+| Star         | mPOP       | OPOS      | Bluetoothi kaudu ühendatud |
+| HP           | F7M67AA    | OPOS      | USB-toitel             |
 
 #### <a name="bar-code-scanner"></a>Vöötkoodilugeja
 
@@ -688,11 +693,12 @@ Järgmisi välisseadmeid testiti rakendusse Modern POS Windowsile integreeritud 
 
 #### <a name="payment-terminal"></a>Makseterminal
 
-| Tootja | Mudel | Liides | Kommentaarid                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Kohandatud    | Nõuab makseliidese kohandamist                                |
-| VeriFone     | MX925 | Kohandatud    | Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu |
-| VeriFone     | MX915 | Kohandatud    | Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu |
+| Tootja | Mudel        | Liides | Kommentaarid                                                                       |
+|--------------|--------------|-----------|--------------------------------------------------------------------------------|
+| Equinox      | L5300        | Kohandatud    | Nõuab makseliidese kohandamist                                |
+| VeriFone     | MX925        | Kohandatud    | Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu |
+| VeriFone     | MX915        | Kohandatud    | Nõuab makseliidese kohandamist; ühendatakse võrgu ja USB kaudu |
+| Verifone     | Kuva kommentaarid | Adyen     | Adyen konnektor toetab kõiki [siin](https://www.adyen.com/pos-payments/terminals) loetletud seadmeid |
 
 #### <a name="cash-drawer"></a>Sularahasahtel
 

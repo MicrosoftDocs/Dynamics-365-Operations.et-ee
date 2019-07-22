@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592656"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625868"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Valemikoostaja elektroonilises aruandluses (ER)
 
@@ -57,11 +57,11 @@ ER toetab valemikoostajat. Seega saate koostamise ajal konfigureerida avaldisi, 
 
 ER-i valemikoostajat saab kasutada määratlemaks avaldist, mis teisendab andmeid, mis saadakse andmeallikatest, nii et käitamisel saab andmeid sisestada andmete tarbijas:
 
-- Dynamics 365 for Finance and Operationsi andmeallikatest ja käitamisaja parameetritest ER-i andmemudelisse;
+- Finance and Operationsi andmeallikatest ja käitamisaja parameetritest ER-i andmemudelisse;
 - ER-i andmemudelist ER-i vormingusse;
-- Dynamics 365 for Finance and Operationsi andmeallikatest ja käitamisaja parameetritest ER-i vormingusse.
+- Finance and Operationsi andmeallikatest ja käitamisaja parameetritest ER-i vormingusse.
 
-Järgmisel joonisel on seda tüüpi avaldise kujundus. Selles näites ümardab avaldis Dynamics 365 for Finance and Operationsi tabeli Intrastat välja **Intrastat.AmountMST** väärtuse kahe kümnendkohani ning annab siis ümardatud väärtuse.
+Järgmisel joonisel on seda tüüpi avaldise kujundus. Selles näites ümardab avaldis Finance and Operationsi tabeli Intrastat välja **Intrastat.AmountMST** väärtuse kahe kümnendkohani ning annab siis ümardatud väärtuse.
 
 [![Andmete sidumine](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
@@ -181,7 +181,7 @@ Kõikidele viidatava andmeallika nimes olevatele tähemärkidele, mis ei kuulu t
 - Andmeallikale **Tänane kuupäev ja kellaaeg** tuleb viidata ER-i avaldises järgmiselt: **'Tänane kuupäev ja kellaaeg'**.
 - ER-i avaldises tuleb viidata andmeallika **Kliendid** meetodile **nimi()** järgmiselt: **Kliendi.'nimi()'**.
 
-Kui Dynamics 365 for Finance and Operationsi andmeallikate meetoditel on parameetrid, kasutatakse järgmist süntaksit.
+Kui Finance and Operationsi andmeallikate meetoditel on parameetrid, kasutatakse järgmist süntaksit.
 
 - Kui andmeallika **System** meetodi **isLanguageRTL** andmetüübil **String** on parameeter **EN-US**, peab see meetod olema ER-avaldises viidatud järgmisel viisil: **System.'isLanguageRTL'("EN-US")**.
 - Kui meetodi nimi sisaldab ainult tähti ja numbreid, siis ei ole jutumärgid vajalikud. Need on aga vajalikud sulgusid sisaldava tabelimeetodi puhul.
@@ -651,6 +651,11 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 <td>NUMBERFORMAT (number, vorming)</td>
 <td>Annab vastuseks määratud vormingus määratud numbri stringiesituse. (Teavet toetatud vormingute kohta vt jaotistest <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standardne</a> ja <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">kohandatud</a>.) Selle funktsiooni käitamise kontekst määrab kultuuri, mida kasutatakse numbrite vormindamiseks.</td>
 <td>Ingliskeelses kultuuris tagastab <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> väärtuse <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> tagastab väärtuse <strong>&quot;10&quot;</strong>.</td>
+</tr>
+<tr>
+<td>NUMBERFORMAT (number, vorming, kultuur)</td>
+<td>Annab vastuseks määratud arvu määratud vormingus ja konkreetses kultuuris stringi kujul. (Toetatud vormingute kohta lisateabe saamiseks vt jaotisi <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">standardne</a> ja <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">kohandatud</a>.)</td>
+<td><strong>NUMBERFORMAT (10/3, “F2”, "de")</strong> annab vastuseks <strong>3,33</strong>, <strong>NUMBERFORMAT (10/3, “F2”, "en-us")</strong> aga annab vastuseks <strong>3.33</strong>.</td>
 </tr>
 <tr>
 <td>NUMERALSTOTEXT (number, keel, valuuta, prindi valuuta nime lipp, kümnendkohad)</td>
