@@ -3,7 +3,7 @@ title: Koolituskursuste seadistamine
 description: Inimressursside administraatorid ja haldurid saavad kasutada kursuste funktsioone töötajatele pakutavate koolituste kohta teabe haldamiseks.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 83f88d17c744bb53dad975b77d169a09375d20d1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 26e76d68c6d5c8bd965e65e65d57f239fb8a2918
+ms.sourcegitcommit: 87e8b811680b1f87a973ce1680f07d657fa23046
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517761"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701386"
 ---
 # <a name="set-up-training-courses"></a>Koolituskursuste seadistamine
 
@@ -128,12 +128,12 @@ Järgmises tabelis on antud võimalikud kursuse olekud ja toimingud, mida saate 
 </table>
 
 ## <a name="course-participants"></a>Kursusel osalejad
-Kursusel osalejad on töötajad, kandidaadid või kontaktisikud, kes koolituskursusel või sündmusel osalevad. Saate registreerida osalejaid ainult avatud kursustele. Minimaalne ja maksimaalne kursusele registreeritav osalejate arv määratakse kiirkaardil **Üldine** lehel **Kursused**.
+Kursusel osalejad on töötajad, kes koolituskursusel või sündmusel osalevad. Saate registreerida osalejaid ainult avatud kursustele. Minimaalne ja maksimaalne kursusele registreeritav osalejate arv määratakse kiirkaardil **Üldine** lehel **Kursused**.
 
 <a name="workflow"></a>Töövoog
 --------
 
-Töötajad, kes registreeruvad kursusele lehe **Töötaja iseteenindus** kaudu, saavad lasta oma registreerumisel läbida kinnitamise töövoo.  Töövoo saab kursusele määrata lehe **Kursused** kiirkaardil **Üldine**.
+Töötajad, kes registreeruvad kursusele lehe **Töötaja iseteenindus** kaudu, saavad lasta oma registreerumisel läbida kinnitamise töövoo. Te võite määrata töövookursusele lehe **Kursused** kiirkaardil **Üldine**.
 
 
 

@@ -3,7 +3,7 @@ title: Regulatiivsed värskendused
 description: Selles teemas on toodud loend rakenduse Microsoft Dynamics 365 for Finance and Operations plaanitud ja väljastatud regulatiivsetest värskendustest.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/16/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
-ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
+ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593339"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624307"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
@@ -66,6 +66,13 @@ Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist t
 |      Ootel            |   10.0.3      | Poola     |   SAF-arved (JPK_FA) v. 2 alates 1. juuli 2019  |
 |      Ootel            |   10.0.3      | Brasiilia   |   ICMS-i fiskaaldokumentide korrigeerimised lubavad tabeli 5.2   |
 |      Ootel            |   10.0.3      | Brasiilia    |   NF-e dekreet 54.308/18 (RS)   |
+  | Ootel            |   10.0.4      | Brasiilia    |   Sissetulev finantsdokument 66   |
+   | Ootel            |   10.0.4      | Brasiilia    |   NF-e ja NFC-e – otsus 13/2019 ja määrus SUCIEF 55/2019- RJ – uued tingimused maksuvabastusega siltide väljastamiseks NF-es.   |
+   | Ootel            |   10.0.4      | India   |   "Tarnekoha" ja "oleku" kuvamine GST-i maksuarves  |
+   | Ootel            |   10.0.4      | Mehhiko   |  DIOT kolmanda osapoole deklaratsioon – muudatused paigutuse 2019   |
+   | Ootel            |   10.0.4      | Brasiilia    |   NF-e ICMS-ST – määrus CAT 42/18 SP olekule – CAT 42/18
+   | Ootel            |   10.0.4      | Brasiilia    |   NF-e dekreet 54.308/18 – RS NF   |
+   
 
 
 ## <a name="additional-resources"></a>Lisaressursid

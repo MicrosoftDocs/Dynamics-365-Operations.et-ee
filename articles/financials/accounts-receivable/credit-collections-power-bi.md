@@ -3,7 +3,7 @@ title: Krediidi ja võlanõuete halduse Power BI sisu
 description: See teema kirjeldab, mida hõlmab krediidi ja võlanõuete halduse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547228"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702768"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Krediidi ja võlanõuete halduse Power BI sisu
 
@@ -42,7 +42,17 @@ Kõik summad on näidatud süsteemivaluutas. Süsteemi valuuta saab seadistada l
 
 Vaikimisi kuvatakse praeguse ettevõtte krediidi ja võlanõuete andmed. Andmete vaatamiseks kõigi ettevõtete lõikes määrake rollile kohustus **CustCollectionsBICrossCompany**.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Power BI sisu vaatamiseks on vajalik häälestus
+
+**Klientide krediidihaldus ja võlanõuded** Power BI visuaalide kuvamiseks tuleb teha järgmine seadistus.
+
+1. Avage **Süsteemihaldus > Seadistamine > Süsteemi parameetrid**, et määrata **Süsteemi valuuta** ja **Süsteemi vahetuskurss**.
+2. Avage **Üldine pearaamat > Seadistus > Pearaamat** ja määrake **Raamatupidamise valuutat** ja **Vahetuskursi tüüpi**.
+3. Määratlege vahetuskursid kannete valuutade ja arvestusvaluuta, raamatupidamise valuuta ja süsteemi valuuta vahel. Selleks avage **Pearaamat > Valuutad > Valuutakursid**.
+4. Avage **Süsteemihaldus > Seadistamine > Üksuse kauplus**, et värskendada **CustCollectionsBIMeasurements** koondmõõtmist.
+
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
+
 **Krediidi ja võlanõuete halduse** Power BI sisu kuvatakse tööruumis **Klientide krediidihaldus ja võlanõuded**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI sisusse kuuluvad aruanded
@@ -63,28 +73,3 @@ Vaikimisi kuvatakse praeguse ettevõtte krediidi ja võlanõuete andmed. Andmete
 | Märgukirjad         | <ul><li>Sissenõude koodi summad</li><li>Võlanõude koodi summa üksikasjad</li><li>Märgukirja summa ettevõtte kohta</li><li>Märgukirja summa kliendigrupi kohta</li><li>Märgukirja summa regiooniti</li></ul> |
 
 Kõikidel nendel aruannetel olevaid diagramme ja paane saab filtreerida ja kinnitada armatuurlauale. Lisateavet Power BI-s filtreerimise ja kinnitamise kohta vt teemast [Armatuurlaua loomine ja konfigureerimine](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Visualisatsioonis summeeritud alusandmete eksportimiseks saab kasutada ka alusandmete eksportimise funktsiooni.
-
-## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
-
-Aruandelehtede täitmiseks **krediidi ja võlanõuete halduse** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
-
-
-|                   Üksus                    |      Peamised koondmõõtmised      |             Andmeallikas              |                           Väli                            |                                    Kirjeldus                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     Suletud tegevuste arv ja keskmine aeg nende tegevuste sulgemiseks.     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           Avatud tegevuste arv.                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             Aegunud saldode summa.                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           Tähtaja ületanud summad.                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        Suletud teenindusjuhtumite arv ja keskmine aeg nende teenindusjuhtumite sulgemiseks.        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              Avatud teenindusjuhtumite arv.                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       Avatud märgukirjade arv.                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     Sisestatud märgukirjade saldo.                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                Võlanõude olekuga kannete saldo.                 |
-|           CustCollectionsBICredit           | CreditExposed, AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | Krediidi mahu summa ja summad, mille võrra kliendid on oma krediidilimiiti ületanud. |
-|         CustCollectionsBICustOnHold         |               Blokeeritud                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     Ootel olevate klientide arv.                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        Laekumata müügi päevad 30 päeva kohta.                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 Eeldatavate maksete summa järgmise aasta jooksul.                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Loodud viivisearvete arv.                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Ootel olevate müügitellimuste arv.                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Maha kantud kannete summa.                 |
-

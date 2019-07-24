@@ -3,7 +3,7 @@ title: Eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada.
 author: sericks007
 manager: AnnBe
-ms.date: 06/05/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620641"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624903"
 ---
 # <a name="removed-or-deprecated-features"></a>Eemaldatud või aegunud funktsioonid
 
@@ -40,7 +40,10 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 > Üksikasjalikku teavet rakenduse Finance and Operations objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas rakenduse Finance and Operations versioonis muudetud või eemaldatud.
 
-## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 platvormivärskendusega 28
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.4 platvormivärskendusega 28 on saadaval suunatud kasutajatele eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Prantsusmaa: FEC raamatupidamisandmete eksport XML-vormingus
 
@@ -52,17 +55,12 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud. Funktsiooni eemaldamise sihtperiood on 2020. aasta juuli. |
 
-=======
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 platvormivärskendusega 28
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 platvormivärskendusega 28 on saadaval suunatud kasutajatele eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-navigation-bar"></a>Pärandnavigeerimisriba
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Päise joondus teiste Dynamicsi ja Office’i toodetega. Lisateavet vt teemast [Uuendatud navigeerimisriba, mis joondub Office’i päisega](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **Aegumise/eemaldamise põhjus** | Päise joondus teiste Dynamicsi ja Office’i toodetega. Lisateavet vt teemast [Uuendatud navigeerimisriba, mis joondub Office’i päisega](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Asendatud teise funktsiooniga?**   | Alates platvormivärskendusest 24 on kasutusele võetud otsingufunktsiooniga ümber kujundatud navigeerimisriba. |
 | **Mõjutatud tootealad**         | Veebiklient |
 | **Juurutamissuvand**              | Kõik |
@@ -71,8 +69,6 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 platvormivärskendusega 26
 
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.2 platvormivärskendusega 26 on saadaval suunatud kasutajatele eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-default-action-behavior"></a>Vaiketegevuse pärandkäitumine
 
@@ -116,9 +112,6 @@ Projektipõhiste müügitellimuste loomise toe, kui projektilepingul on mitu rah
 | **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on aprill 2020. |
 
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 platvormivärskendusega 25
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 platvormivärskendusega 25 on saadaval suunatud kasutajatele eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Aegunud API-d ja võimalikud murrangulised muudatused
 

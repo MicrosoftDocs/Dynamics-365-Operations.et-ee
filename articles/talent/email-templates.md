@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b88ba4386dbf3513d75990acca1c07fa6f0dc9b0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517821"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729722"
 ---
 # <a name="email-templates"></a>E-kirjade mallid
 [!include[banner](../includes/banner.md)]
 
-Meilimallide teeki kasutades saavad administraatorid luua ühtse teema ja kaubamärgi kõigile rakenduse Microsoft Dynamics 365 for Talent: Attract kaudu saadetavatele meilidele. Administraatorid saavad ka teiste kasutajate kasutatavat meilisisu mallide kogu kureerida. Värbamistöörühm saab neid malle oma töövoos kasutada meilide tõhusamaks saatmiseks. Mõned meilid on Attractis konfigureeritud automaatseks saatmiseks ja administraator saab kasutada meilimallide teeki nende meilide sisu kohandamiseks.
+Meilimallide teeki kasutades saavad administraatorid luua ühtse teema ja kaubamärgi kõigile rakenduse Microsoft Dynamics 365 for Talent: Attract and Offer kaudu saadetavatele meilidele. Administraatorid saavad ka teiste kasutajate kasutatavat meilisisu mallide kogu kureerida. Värbamistöörühm saab neid malle oma töövoos kasutada meilide tõhusamaks saatmiseks. Mõned meilid on konfigureeritud automaatseks saatmiseks ja administraator saab kasutada meilimallide teeki nende meilide sisu kohandamiseks.
 
 > [!NOTE]
 > E-kirja mallide kasutamiseks peab teie organisatsioonil olema Tervikliku palkamise lisandmooduli.
@@ -37,7 +37,7 @@ Meilimallide teeki kasutades saavad administraatorid luua ühtse teema ja kaubam
 
 Kogu meilisuhtlusele ühtse tootjakohanduse loomiseks peab administraator esmalt kõigile meilimallidele määrama üldise päise ja jaluse. Halduskeskuse vahekaardi **Meilimalli sätted** jaotises **Päis** saab administraator üles laadida kujutise kõigi meilide päise või bännerina kasutamiseks. Kujutis võib olla ettevõtte logo, Pilt võib olla ettevõtte logo, kirja päismik või mõni muu esindav kujutis. Soovitame, et laius oleks vahemikus 25 kuni 800 pikslit ja kõrgus vahemikus 25 ja 150 pikslit, sest need mõõtmed on optimaalsed enamikele meiliklientidele, nagu näiteks Microsoft Outlook. Kujutis peab olema JPEG-, JPG, PNG või SVG fail ja faili suurus peab olema väiksem kui 1 megabait (MB). Pärast pildi üles laadimist luuakse ja kuvatakse päise eelvaade. Kui päise kujutis tuleb eemaldada või vahetada, saab administraator kasutada eelvaate kohal asuvad valikut **Eemaldada**.
 
-Jaotisesse **Jalus** saab administraator sisestada ettevõtte privaatsuspoliitika, kontaktide ja kasutustingimuste linke. Need lingid lisatakse automaatselt loodavasse jalusesse. Seejärel kuvatakse jaluse eelvaade.
+Jaotisesse **Jalus** saab administraator sisestada ettevõtte privaatsuspoliitika, kontaktide ja kasutustingimuste linke. Need lingid lisatakse automaatselt loodavasse jalusesse. Seejärel kuvatakse jaluse eelvaade. Administraator saab valida ka kindla keele, milles kõigi meilide korral meili jalused saadetakse. Sama keelekonfiguratsiooni kasutatakse ka vestluse kokkuvõttetabeli koostamiseks. 
 
 Salvestage kindlasti enne halduskeskuse sulgemist oma muudatused.
 
@@ -46,7 +46,7 @@ Salvestage kindlasti enne halduskeskuse sulgemist oma muudatused.
 
 ## <a name="email-template-library"></a>Meilimallide teek 
 
-Pärast globaalse malli konfiguratsiooni seadistamist saab administraator alustada mallide loomist ja kureerimist kõigile läbi Attracti saadetavatele meilidele. Meilimallide teek on saadaval ainult administraatoritele. Teegi avamiseks valige peamisest navigeerimise menüüst vahekaart **Meilimallid**. Teek on liigitatud erinevate Attracti tegevuste järgi, mille tõttu meile saadetakse, näiteks nagu planeerimine, hindamine ja töö loomine. Administraator võib valida mistahes kategooria, et näha kõiki selle tegevusega seotud meilitüüpe. Näiteks valige **Planeerimine**, et näha erinevat tüüpi planeerimisprotsessi käigus saadetavaid meile ja kõiki malle, mis on igat tüüpi meili jaoks saadaval. Kategooria iga alajaotis esindab meili tüüpi.
+Pärast globaalse malli konfiguratsiooni seadistamist saab administraator alustada mallide loomist ja kureerimist kõigile läbi Attract ja Offeri saadetavatele meilidele. Meilimallide teek on saadaval ainult administraatoritele. Teegi avamiseks valige peamisest navigeerimise menüüst vahekaart **Meilimallid**. Teek on liigitatud erinevate Attracti tegevuste järgi, mille tõttu meile saadetakse, näiteks nagu planeerimine, hindamine ja töö loomine ning pakkumine. Administraator võib valida mistahes kategooria, et näha kõiki selle tegevusega seotud meilitüüpe. Näiteks valige **Planeerimine**, et näha erinevat tüüpi planeerimisprotsessi käigus saadetavaid meile ja kõiki malle, mis on igat tüüpi meili jaoks saadaval. Kategooria iga alajaotis esindab meili tüüpi.
 
 Teatud tüüpi meilidel võib olla rohkem kui üks adressaat. Näiteks kategooria **Planeerimine** meilid, mis saadetakse siis, kui vaja on vestluse ajakava kokkuvõtet, saadetakse nii kandidaadile kui ka intervjueerijale. Igal jaotisel on kaks peamist veergu: **Malli nimi** ja **Saaja**. Jaotise iga rida esindab ühte meili tüübi malli. Algul ilmub iga malli reale lukuga sümbol. See sümbol näitab, et mall on Attractiga kaasa tulnud standardne mall ja seda ei saa kustutada. Iga malli juures saab administraator selle malli koopia saamiseks kasutada ellipsnuppu (**...**), määrata see vaikimisi malliks või kustutada see. Kui mall on seatud vaikimisi malliks, võib toimuda üks kahest käitumisest. Käitumist näitab malli reale ilmuv märk või märgid:
 

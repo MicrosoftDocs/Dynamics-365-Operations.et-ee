@@ -3,7 +3,7 @@ title: Ühendusega ja ühenduseta kassatoimingud
 description: Selles teemas kirjeldatakse üksikasjalikult Microsoft Dynamics 365 for Retaili kassaoperatsioone. See kirjeldab, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka ühenduseta režiimis.
 author: jblucher
 manager: AnnBe
-ms.date: 10/12/2017
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505092"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625661"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
@@ -160,9 +160,9 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 1211 | Seifi viidav raha | Raha viimine kassaaparaadist seifi. | Jah | Jah | Jah | Jah | Ei |
 | 516 | Müügiarve | See operatsioon võimaldab kliendil teha makseid valitud müügiarve alusel. | Jah | Jah | Ei | Ei | Ei |
 | 502 | Müüja | See operatsioon võimaldab kasutajal määrata kassas klienditellimuste müügitellimuses väärtuse **Müügi ülevõtja**. | Jah | Jah | Ei | Jah\* | Ei |
-| 2000 | Graafiku haldus | See operatsioon võimaldab kasutajatel luua, muuta või vaadata töövõtjate ajakavasid. | Jah | Jah | Jah | Ei | Ei |
-| 2001 | Graafiku taotlused | See operatsioon võimaldab kasutajal taotleda vaba aega, töövahetusi vahetada või pakkuda vahetusi teistele töötajatele. | Jah | Jah | Jah | Ei | Ei |
-| 622 | Otsige | See operatsioon võimaldab kasutajatel eelkonfigureerida kassa nuppe, et otsida kauba, kliendi või kategooria alusel. | Jah | Jah | Jah | Jah | Ei |
+| 2000 | Graafiku haldus | See toiming ei ole veel toetatud. | Jah | Jah | Jah | Ei | Ei |
+| 2001 | Graafiku taotlused | See toiming ei ole veel toetatud. | Jah | Jah | Jah | Ei | Ei |
+| 622 | Tellimuste otsing | See operatsioon võimaldab kasutajatel eelkonfigureerida kassa nuppe, et otsida kauba, kliendi või kategooria alusel. | Jah | Jah | Jah | Jah | Ei |
 | 1213 | Otsi tarneaadress | Seda operatsiooni ei toetata. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Ei |
 | 709 | Riistvarajaama valimine | See operatsioon võimaldab kasutajal valida riistvarajaama saadaolevate riistvarajaamade loendist. | Jah | Jah | Jah | Jah | Ei |
 | 637 | Määra kande vaikemüügiesindaja | See operatsioon võimaldab kasutajal valida ühe sobilikest komisjonitasu müügigruppidest (müügiesindajad) hiljem lisatavate ridade vaikemüügiesindajaks. | Jah | Jah | Ei | Jah | Ei |
