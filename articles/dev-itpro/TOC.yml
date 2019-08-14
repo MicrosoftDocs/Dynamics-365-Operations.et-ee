@@ -106,10 +106,28 @@
           items:
             - name: X++ keeleviide
               href: dev-ref/xpp-language-reference.md
-            - name: X++ muutujad ja andmetüübid
-              href: dev-ref/xpp-variables-data-types.md
-            - name: 'X++ lausete, tsüklite ja erandite töötlemine'
-              href: dev-ref/xpp-statements-loops.md
+            - name: Muutujad ja andmetüübid
+              items:
+                - name: Muutujad
+                  href: dev-ref/xpp-variables-data-types.md
+                - name: Primitiivsed andmetüübid.
+                  href: dev-ref/xpp-data-primitive.md
+                - name: Liitandmetüübid.
+                  href: dev-ref/xpp-data-composite.md
+                - name: Kogumiklassid
+                  href: dev-ref/xpp-data-collection.md
+                - name: Laiendatud andmetüübid
+                  href: dev-ref/xpp-data-edt.md
+            - name: 'Väljavõtete, tsüklite ja erandite töötlemine'
+              items:
+                - name: 'Kommentaarid, kasutamine ja printimine'
+                  href: dev-ref/xpp-statements-loops.md
+                - name: Tingimuslikud väljavõtted
+                  href: dev-ref/xpp-conditional.md
+                - name: Tsükli väljavõtted
+                  href: dev-ref/xpp-loops.md
+                - name: Erandite käsitlemine
+                  href: dev-ref/xpp-exceptions.md
             - name: SQL-i ühenduse tõrke X++ erand
               href: dev-ref/sql-connection-error.md
             - name: X++ tehtemärgid
@@ -118,8 +136,10 @@
               href: dev-ref/xpp-operator-precedence.md
             - name: X++ klassid ja meetodid
               href: dev-ref/xpp-classes-methods.md
-            - name: X++ andmete valimine ja manipuleerimine
+            - name: '-X++ andmete valimine ja manipuleerimine'
               href: dev-ref/xpp-data-query.md
+            - name: Juurdepääs andmetele SysDa API abil
+              href: dev-ref/sysda.md
             - name: X++ makrod
               href: dev-ref/xpp-macros.md
             - name: X++ atribuudiklassid
@@ -438,6 +458,10 @@
           href: user-interface/page-layout.md
         - name: Dynamicsi sümboli font
           href: user-interface/symbol-font.md
+        - name: Salvestatud vaated
+          href: ../fin-and-ops/get-started/saved-views.md
+        - name: 'Koostage vorme, mis täielikult kasutavad salvestatud vaateid'
+          href: user-interface/understanding-saved-views.md
         - name: Kohandatud mustreid kasutavate vormide testimine
           href: user-interface/testing-forms-custom-patterns.md
         - name: Jagatavate kaitstud URL-ide loomine (süvalingid)
@@ -496,7 +520,7 @@
           href: user-interface/messaging-api-center-bar-details.md
         - name: 'Sõnumikeskuse, sõnumiriba ja sõnumi üksikasjade KKK'
           href: user-interface/messaging-user.md
-    - name: Esmaste vormi mustrite juhised
+    - name: Vormi mustrite juhised
       items:
         - name: Migreeritud vormide vormimustrid
           href: user-interface/select-form-pattern.md
@@ -1129,7 +1153,7 @@
           href: migration-upgrade/on-prem-upgrade.md
     - name: Kiirparandused
       items:
-        - name: Kiirparanduste allalaadimine teenusest Lifecycle Services
+        - name: Värskendused teenusest Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
         - name: Värskenduste rakendamine pilvekeskkondadele
           href: deployment/apply-deployable-package-system.md
@@ -1162,6 +1186,8 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: B2B kasutajate eksportimine Azure AD-sse
       href: sysadmin/implement-b2b.md
+    - name: Seansi jõudeoleku ajalõpu määramine
+      href: sysadmin/session-idle-timeout.md
     - name: Rollipõhine turve
       href: sysadmin/role-based-security.md
       items:
@@ -1308,8 +1334,10 @@
           href: database/dbmovement-scenario-destructivetests.md
 - name: Tugi
   items:
-    - name: Toe hankimine rakenduste Finance and Operations ja Lifecycle Services kasutamisel
+    - name: Rakenduste Finance and Operations ja Lifecycle Services tugi
       href: lifecycle-services/lcs-support.md
+    - name: Dynamics 365 toe ülevaade
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
     - name: 'Toe hankimine rakenduse Finance and Operations jaoks, mida käitab 21Vianet Hiinas'
       href: lifecycle-services/21vianet-support.md
     - name: Premier-tugiteenusepileti logimine

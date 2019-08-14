@@ -27,6 +27,8 @@
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
                 - name: 'Finance and Operations, mida käitab 21Vianet Hiinas'
                   href: ../dev-itpro/deployment/china-local-deployment.md
+                - name: Finance and Operations Prantsusmaal
+                  href: ../dev-itpro/deployment/france-local-deployment.md
             - name: Teenusevärskenduste kättesaadavus
               href: get-started/public-preview-releases.md
             - name: Rakenduse Finance and Operations ostmine
@@ -44,6 +46,8 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Asutusesisestes juurutustes rakendamata funktsioonid
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operationsi versiooni 10.0.5 (oktoober 2019) eelvaatefunktsioonid
+              href: get-started/whats-new-changed-10-0-5.md
             - name: Finance and Operationsi versioon 10.0.4 (juuli 2019)
               href: get-started/whats-new-changed-10-0-4.md
             - name: Finance and Operationsi versioon 10.0.3 (juuni 2019)
@@ -56,6 +60,8 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operationsi versioon 8.1.3 (jaanuar 2019)
               href: get-started/whats-new-changed-8-1-3.md
+            - name: Platform update 29 (oktoober 2019) eelvaatefunktsioonid
+              href: get-started/whats-new-platform-update-29.md
             - name: Platform update 28 (juuli 2019)
               href: get-started/whats-new-platform-update-28.md
             - name: Platform update 27 (juuni 2019)
@@ -156,6 +162,8 @@
               href: get-started/navigation-search.md
             - name: Kasutuskogemuse isikupärastamine
               href: get-started/personalize-user-experience.md
+            - name: Salvestatud vaated
+              href: get-started/saved-views.md
             - name: Kohandatud väljade loomine ja nendega töötamine
               href: get-started/user-defined-fields.md
             - name: PowerAppsi rakenduste manustamine
@@ -267,14 +275,14 @@
           items:
             - name: Ärisündmuste kasutamine Microsoft Flow abil
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-    - name: Vastavus
-      items:
-        - name: Auditipoliitika reeglid
-          href: ../financials/general-ledger/audit-policy-rules.md
-        - name: Auditipoliitika rikkumised ja juhtumid
-          href: ../financials/general-ledger/audit-policy-violations-cases.md
-        - name: Lähtedokumentide jaoks auditipoliitikate määratlemine
-          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: Ärisündmuste kasutamine Azure Event Gridi abil
+              href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
+            - name: Ärisündmuste kasutamine Azure Service Busi abil
+              href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
+            - name: Ärisündmuste kasutamine töövoo nõusolekuga
+              href: ../dev-itpro/business-events/how-to/how-to-workflow.md
+            - name: Ärisündmuste kasutamine Microsoft Forms Pro abil
+              href: ../dev-itpro/business-events/how-to/FormsPro.md
     - name: Kuluhaldus
       href: ../supply-chain/cost-management/cost-management-home-page.md
       items:
@@ -419,61 +427,85 @@
                 - name: Kirjete loomine kirjemallide abil
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Andmete integratsioon Common Data Service’i abil
-              href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine
-                  href: ../supply-chain/sales-marketing/prospect-to-cash.md
+                - name: Andmete integratsiooni ülevaade
+                  href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
+                - name: 'Sünkroonne, kahesuunaline integratsioon'
                   items:
-                    - name: Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega
-                      href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                    - name: Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega
-                      href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                    - name: Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega
-                      href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                    - name: Rakenduse Finance and Operations müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales
-                      href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                    - name: Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel
-                      href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                    - name: Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
-                      href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                - name: Integratsiooni konfigureerimine Field Service’iga
-                  href: ../supply-chain/sales-marketing/field-service.md
+                    - name: Reaalaja lähedane teabe integratsioon
+                      href: ../dev-itpro/data-entities/dual-write-overview.md?toc=/fin-and-ops/toc.json
+                    - name: Common Data Service-i organisatsiooni hierarhia
+                      href: ../dev-itpro/data-entities/dual-write-organization.md?toc=/fin-and-ops/toc.json
+                    - name: Ettevõtte kontseptsioon Common Data Service'is
+                      href: ../dev-itpro/data-entities/dual-write-company.md?toc=/fin-and-ops/toc.json
+                    - name: Integreeritud kliendi koondandmed
+                      href: ../dev-itpro/data-entities/dual-write-customer.md?toc=/fin-and-ops/toc.json
+                    - name: Integreeritud hankija koondandmed
+                      href: ../dev-itpro/data-entities/dual-write-vendor.md?toc=/fin-and-ops/toc.json
+                    - name: Esialgne sünkroonimine
+                      href: ../dev-itpro/data-entities/dual-write-initial.md?toc=/fin-and-ops/toc.json
+                    - name: Andmete integratsiooni tõrkeotsing
+                      href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
+                - name: 'Asünkroonne, ühesuunaline integratsioon'
                   items:
-                    - name: Rakenduse Finance and Operations toodete sünkroonimine rakenduse Field Service toodetega
-                      href: ../supply-chain/sales-marketing/field-service-product.md
-                    - name: Rakenduse Field Service töötellimuste sünkroonimine rakenduse Finance and Operations müügitellimustega
-                      href: ../supply-chain/sales-marketing/field-service-work-order.md
-                    - name: Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Finance and Operations vabas vormis arvetega
-                      href: ../supply-chain/sales-marketing/field-service-invoice.md
-                    - name: Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Finance and Operations
-                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                    - name: Varude taseme teabe sünkroonimine rakendusest Finance and Operations rakendusse Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                    - name: Laoühikuga toodete sünkroonimine rakendusest Finance and Operations rakendusse Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                    - name: Projektiloendi sünkroonimine rakendusest Finance and Operations rakendusse Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
-                    - name: Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-                    - name: Projektiga töökäskude sünkroonimine rakendusest Field Service rakendusse Finance and Operations
-                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                - name: Project Service Automationi integreerimise konfigureerimine
-                  href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
-                  items:
-                    - name: Project Service Automationi integreerimisparameetrid
-                      href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
-                    - name: Projektilepingute ja projektide sünkroonimine
-                      href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
-                    - name: Projektiülesannete sünkroonimine
-                      href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
-                    - name: Projekti kulukategooriate sünkroonimine
-                      href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
-                    - name: Projektihinnangute sünkroonimine projekti eelarvetega
-                      href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
-                    - name: Projekti tegelike väärtuste sünkroonimine projekti integratsiooni töölehega
-                      href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Potentsiaalne klient sularahaks
+                      items:
+                        - name: Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine
+                          href: ../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega
+                          href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega
+                          href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega
+                          href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Rakenduse Finance and Operations müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales
+                          href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel
+                          href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
+                          href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Field Service
+                      items:
+                        - name: Integratsiooni konfigureerimine Field Service’iga
+                          href: ../supply-chain/sales-marketing/field-service.md
+                        - name: Rakenduse Finance and Operations toodete sünkroonimine rakenduse Field Service toodetega
+                          href: ../supply-chain/sales-marketing/field-service-product.md
+                        - name: Rakenduse Field Service töötellimuste sünkroonimine rakenduse Finance and Operations müügitellimustega
+                          href: ../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Finance and Operations vabas vormis arvetega
+                          href: ../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Finance and Operations
+                          href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Varude taseme teabe sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Laoühikuga toodete sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Projektiloendi sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Projektiga töökäskude sünkroonimine rakendusest Field Service rakendusse Finance and Operations
+                          href: ../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Project Service Automation
+                      items:
+                        - name: Project Service Automationi integreerimise konfigureerimine
+                          href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
+                        - name: Project Service Automationi integreerimisparameetrid
+                          href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
+                        - name: Projektilepingute ja projektide sünkroonimine
+                          href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
+                        - name: Projektiülesannete sünkroonimine
+                          href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
+                        - name: Projekti kulukategooriate sünkroonimine
+                          href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
+                        - name: Projektihinnangute sünkroonimine projekti eelarvetega
+                          href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
+                        - name: Projekti tegelike väärtuste sünkroonimine projekti integratsiooni töölehega
+                          href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
         - name: Väliste veebiteenuste tarbimine
           href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: Elektronsõnumid
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: Andmehaldus
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -666,6 +698,8 @@
               href: ../financials/accounts-receivable/set-up-collections.md
             - name: Sissenõuete teabe ülevaatamine
               href: ../financials/accounts-receivable/tasks/review-collections-information.md
+            - name: Tulu tuvastamise ülevaade
+              href: ../financials/accounts-receivable/revenue-recognition-overview.md
             - name: Korduvate arvete seadistamine ja töötlemine
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
             - name: Arvestuse jaotused ja alammooduli töölehe sisestused vabas vormis arvete puhul
@@ -1068,167 +1102,7 @@
         - name: Pearaamat
           href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: Kontod
-              items:
-                - name: Viitvõlgade ülevaade
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: Eemaldamisreeglid
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: Konto ja dimensiooni kombinatsioonid
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: Tasakaalustatud töölehed sisekäibe jaoks
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: Sisestamisdefinitsioonid
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: Sisestamisdefinitsiooni näited
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: Pearaamatukonto saldod
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: Finantsdimensioonide määratlemine
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: Finantsdimensiooni vaikemallide haldamine
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: Kontostruktuuride loomine
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: Finantsdimensioonid ja sisestamine
-                  href: ../financials/general-ledger/default-dimensions.md
-                - name: Viitvõlaskeemide loomine
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Finantskonsolideerimised ja valuuta teisendamine
-                  href: ../financials/general-ledger/financial-consolidations-currency-translation.md
-                  items:
-                    - name: Konsolideeri võrgus
-                      href: ../financials/general-ledger/consolidate-online.md
-                    - name: Konsolideeritud finantsaruannete loomine
-                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
-                - name: Konsolideerimisgruppide ja täiendava konsolideerimiskonto loomine
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: Põhikonto tüübid
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: Põhikonto loomine
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: Kontoplaanide plaanimine
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: Pearaamatukontode kannete tasakaalustamine
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: Pearaamatukonto pseudonüümi seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: Põhikonto kategooriate seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: Arveldusallika uurija
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: Arvestuse jaotused
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: Eraldiste töötlemine
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: Finantsdimensioonid
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: Arvestus- või aruandlusvaluutade teisendamine
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: Konsolideerimiskontogrupid ja -kontod
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Konsolideerimise ja eemaldamise ülevaade
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: 'Rahandusaasta kalendrid, rahandusaastad ja perioodid'
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-                - name: Konto struktuuride konfigureerimine
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: Topeltvaluuta
-                  href: ../financials/general-ledger/dual-currency.md
-            - name: Töölehed ja pearaamatud
-              items:
-                - name: Üldtöölehe töötlemine
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: Perioodiliste töölehtede sisestamine
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Pearaamatu eraldamistöölehe töötlemine
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: Kontsernisisese raamatupidamise seadistamine
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: Pearaamatu eraldamisreeglid
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: Täpsemate reeglite loomine töölehtede jaoks
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: Täpsemate reeglistruktuuride loomine ja määramine
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: Pearaamatu töölehe tüübid
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: Töölehtede loomine ja kinnitamine
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: Töölehe sisestuste või kannete kuvamine
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: Seotud kontsernisisese kande kuvamine töölehelt
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: Töölehe sisestuse loomine malli abil
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: Pearaamatu tekkepõhiste kannete loomine
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: Exceli töölehe ridade ja dokumentide avaldamine
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: Töölehe sisestuste ja kannete kuvamine
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: Sisestatud töölehekirjete töölehele paigutamine
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: Valuuta ümberarvutamine konsolideeritavas ettevõttes
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: Pearaamatu välisvaluuta ümberarvutamine
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Valuutavahetuskursside importimine
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-                - name: Üks kanne
-                  href: ../financials/general-ledger/one-voucher.md
-                - name: Pearaamatu tasakaalustused
-                  href: ../financials/general-ledger/ledger-settlements.md
-            - name: Perioodi lõpu sulgemine
-              items:
-                - name: Pearaamatu sulgemine perioodi lõpus
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: Finantsperioodi sulgemise tööruum
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: Aastalõpu sulgemine
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: Finantsaasta sulgemine
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: Finantsperioodi hulgisulgemine
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: Käibemaks
-              items:
-                - name: Käibemaksu ülevaade
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: Käibemaksu määrad marginaali aluse põhjal ja arvutamismeetodid
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: Käibemaksu maksed ja ümardamisreeglid
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: Käibemaksuarvutusmeetodid väljal Päritolu
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Käibemaksu arvutamine ja korrigeerimine hankija arvel
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Käibemaksumakse loomine
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: Käibemaksukannete loomine dokumentidel
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Pearaamatu käibemaksu sisestusgruppide seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Käibemaksuhaldurite seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Käibemaksukoodide seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Käibemaksugruppide ja kauba käibemaksugruppide seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Käibemaksuaruandluse koodide seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Käibemaksu tasakaalustusperioodide seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Kinnipeetava maksu seadistamine
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: Sisestatud käibemaksukannete kuvamine
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
-        - name: Avalik sektor
-          href: ../financials/public-sector/public-sector-functionality.md
-          items:
-            - name: Avaliku sektori funktsioonide plaanimine
+            - name: Avaliku sektori funktsioonide plaan
               href: ../financials/public-sector/plan-public-sector-functionality.md
             - name: Avaliku sektori maksearuande jaoks tiitel- ja allkirjalehtede loomine
               href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
@@ -2429,7 +2303,8 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: Valuutakannete vahetuskursside seadistamine
                   href: ../financials/localizations/rus-exchange-difference.md
-                - name: Valuutakursside importimine CBRF-ist ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Impordi valuutavahetuskursid CBRF-ist.
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Avansisaajad
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2453,6 +2328,8 @@
                   href: ../financials/localizations/rus-currency-sale-purchase.md
             - name: KM
               items:
+                - name: Müügi käibemaksu kohalik spetsiifiline sisestamine
+                  href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
                 - name: Maksuesindajate käibemaks (KM)
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: KM-i deklaratsioon
@@ -2535,6 +2412,22 @@
                   href: ../financials/localizations/rus-officials.md
                 - name: Ettevõtte jaotused
                   href: ../financials/localizations/rus-company-divisions.md
+            - name: Viitvõlad
+              items:
+                - name: Viitvõlgade häälestamine
+                  href: ../financials/localizations/rus-set-up-deferrals.md
+                - name: Viidete loomine või genereerimine
+                  href: ../financials/localizations/rus-create-generate-deferrals.md
+                - name: Viitvõlgade kviitung
+                  href: ../financials/localizations/rus-deferral-transactions.md
+                - name: Viitvõlgade mahakandmine
+                  href: ../financials/localizations/rus-write-off-deferral.md
+                - name: Viitvõlgade likvideerimine
+                  href: ../financials/localizations/rus-dispose-deferrals.md
+                - name: Tulevaste perioodide kulude inventuur
+                  href: ../financials/localizations/rus-counting-deferrals.md
+                - name: Viitvõlgade aruandlus
+                  href: ../financials/localizations/rus-reporting-deferrals.md
         - name: Saudi Araabia
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2949,204 +2842,204 @@
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
             - name: PDF-dokumentide eelvaade manustatud vaaturi abil
               href: ../dev-itpro/analytics/preview-pdf-documents.md?toc=/fin-and-ops/toc.json
-    - name: Elektrooniline aruandlus
-      items:
-        - name: Elektroonilise aruandluse ülevaade
-          href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Konfiguratsioonid
+        - name: Elektrooniline aruandlus
           items:
-            - name: Konfiguratsioonide loomine
-              href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
-            - name: Elektroonilise aruandluse lahenduse komponentide ettevalmistamine
+            - name: Elektroonilise aruandluse ülevaade
+              href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Konfiguratsioonid
               items:
-                - name: Domeenispetsiifiliste andmemudelite kujundamine
-                  href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Rakendusekohaste metaandmete ettevalmistamine
+                - name: Konfiguratsioonide loomine
+                  href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
+                - name: Elektroonilise aruandluse lahenduse komponentide ettevalmistamine
                   items:
-                    - name: (ER) RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine
-                      href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
-                    - name: (RCS) Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil
-                      href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
-                    - name: (RCS) Juurdepääs rakenduse metaandmetele ühendatud rakenduste abil
-                      href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
-                - name: Mudeli vastenduste määratlemine ja andmeallikate valimine
-                  href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Andmemudeli vastendamine valitud andmeallikatele
-                  href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Vormingukonfiguratsiooni loomine
-                  href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Loodud vormingu komponentide vastendamine andmemudeli elementidega
-                  href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Ettevalmistatud ER-lahenduse testimine sihtrakenduses
+                    - name: Domeenispetsiifiliste andmemudelite kujundamine
+                      href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Rakendusekohaste metaandmete ettevalmistamine
+                      items:
+                        - name: (ER) RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine
+                          href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
+                        - name: (RCS) Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil
+                          href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
+                        - name: (RCS) Juurdepääs rakenduse metaandmetele ühendatud rakenduste abil
+                          href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
+                    - name: Mudeli vastenduste määratlemine ja andmeallikate valimine
+                      href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Andmemudeli vastendamine valitud andmeallikatele
+                      href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Vormingukonfiguratsiooni loomine
+                      href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Loodud vormingu komponentide vastendamine andmemudeli elementidega
+                      href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Ettevalmistatud ER-lahenduse testimine sihtrakenduses
+                  items:
+                    - name: (ER) Konfiguratsioonide importimine RCS-ist
+                      href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
+                    - name: Elektrooniliste dokumentide loomine maksete jaoks vormingukonfiguratsiooni abil
+                      href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
+                - name: Vormingu täiendamine uue alusversiooni kasutuselevõtuga
+                  href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
+            - name: Valemikoostaja elektroonilises aruandluses
+              href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
+            - name: Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides
+              href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: Vormingute loomisel andmemudelite määratluste valimine
+              href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: Aruannete loomine toore XML-i sisu lisamisega
+              href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
+            - name: (ER) Ettevõtteülesed andmeallikad elektroonilises aruandluses
+              href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
+            - name: ER-vormingute kujundamine väljaminevate elektrooniliste dokumentide loomiseks eri vormingutes
               items:
-                - name: (ER) Konfiguratsioonide importimine RCS-ist
-                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
-                - name: Elektrooniliste dokumentide loomine maksete jaoks vormingukonfiguratsiooni abil
-                  href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-            - name: Vormingu täiendamine uue alusversiooni kasutuselevõtuga
-              href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
-        - name: Valemikoostaja elektroonilises aruandluses
-          href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-        - name: Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides
-          href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: Vormingute loomisel andmemudelite määratluste valimine
-          href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: Aruannete loomine toore XML-i sisu lisamisega
-          href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-        - name: (ER) Ettevõtteülesed andmeallikad elektroonilises aruandluses
-          href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-        - name: ER-vormingute kujundamine väljaminevate elektrooniliste dokumentide loomiseks eri vormingutes
-          items:
-            - name: (ER) OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine
-              href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: (ER) Konfiguratsioonide loomine Wordi vormingus aruannete loomiseks
-              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Konfiguratsioonide koostamine PDF-mallide täitmiseks
-              href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
-        - name: Piltide ja kujundite manustamine
-          items:
-            - name: (ER) Piltide ja kujundiste manustamine loodavates dokumentides
-              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
-            - name: Piltide ja kujundite manustamise näide
+                - name: (ER) OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine
+                  href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: (ER) Konfiguratsioonide loomine Wordi vormingus aruannete loomiseks
+                  href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Konfiguratsioonide koostamine PDF-mallide täitmiseks
+                  href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
+            - name: Piltide ja kujundite manustamine
               items:
-                - name: Konfiguratsioonide kujundamine aruannete loomiseks Office’i vormingutes koos manustatud piltidega
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: Konfiguratsioonide läbivaatus aruannete loomiseks Office’i vormingutes koos manustatud piltidega
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Aruannete loomine Office’i vormingutes koos manustatud piltidega
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
-        - name: Elektroonilise aruandluse vormingute muutmine Exceli malle uuesti rakendades
-          href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-        - name: Finance and Operationi versioonikohaste ER-konfiguratsioonide kujundamine
-          items:
-            - name: ER-konfiguratsioonide sõltuvuse määramine teistest komponentidest
-              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: ER-lahenduse kujundamine finantsdimensioonide kasutamiseks
-          items:
-            - name: Andmemudelite loomine finantsdimensioonide kasutamiseks andmeallikatena
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-            - name: Mudelite vastendamine finantsdimensioonide kasutamiseks andmeallikatena
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-            - name: Aruannete loomine finantsdimensioonide kasutamiseks andmeallikatena
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-            - name: Finantsdimensioone andmeallikatena kasutavate aruannete käivitamine
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-        - name: 'ER-vormingute kujundamine loendamiseks ja summeerimiseks, kasutades loodud väljundi teavet'
-          items:
-            - name: Vormingute loomine loendamiseks ja summeerimiseks
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
-            - name: Vormingu konfigureerimine loendamiseks ja summeerimiseks
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-            - name: Arvutuste kasutamine loendamise ja liitmise väljundi loomiseks
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-            - name: Vormingute käivitamine loendamiseks ja summeerimiseks
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-        - name: Dünaamiline veergude lisamine Exceli aruannetesse horisontaalselt laiendatavate vahemikena
-          items:
-            - name: 'Vormingute kujundamine, et dünaamiliselt lisada veerge Exceli aruannetesse horisontaalselt laiendatavate vahemikena'
-              href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-            - name: 'Vormingute käivitamine, et dünaamiliselt lisada veerge Exceli aruannetesse horisontaalselt laiendatavate vahemikena'
-              href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-        - name: Dokumendihalduse failide kasutamine vorminguväljundites
-          items:
-            - name: Andmemudelite ettevalmistamine dokumendihalduse failide kasutamiseks ER-väljundites
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-            - name: Andmemudelite laiendamine dokumendihalduse failide kasutamiseks ER-väljundites
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-            - name: Vormingute loomine dokumendihalduse failide kasutamiseks ER-väljundites
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-            - name: Vormingute käivitamine dokumendihalduse failide kasutamiseks ER-väljundites
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-            - name: Vormingute muutmine ja käivitamine dokumendihalduse failide kasutamiseks ER-väljundites
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-        - name: Rakenduse andmete värskendamine elektroonilise aruandluse abil
-          items:
-            - name: Elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine
-              href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
-            - name: Konfiguratsioonide importimine dokumentide loomiseks rakenduse andmetega
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Konfiguratsioonide loomine dokumentide loomiseks rakenduse andmetega
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-            - name: Mudelite ja vastenduste muutmine dokumentide loomiseks rakenduse andmetega
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-            - name: Vormingute muutmine dokumentide loomiseks rakenduse andmetega
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-            - name: Rakenduse andmetega dokumentide loomine
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-        - name: Andmete importimine sissetulevatest failidest ER-lahenduste abil
-          items:
-            - name: Sissetulevate dokumentide sõelumine eri vormingutes
-              href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
-            - name: Käsitsi valitud failidest andmete importimise konfigureerimine
+                - name: (ER) Piltide ja kujundiste manustamine loodavates dokumentides
+                  href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
+                - name: Piltide ja kujundite manustamise näide
+                  items:
+                    - name: Konfiguratsioonide kujundamine aruannete loomiseks Office’i vormingutes koos manustatud piltidega
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
+                    - name: Konfiguratsioonide läbivaatus aruannete loomiseks Office’i vormingutes koos manustatud piltidega
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
+                    - name: Aruannete loomine Office’i vormingutes koos manustatud piltidega
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
+            - name: Elektroonilise aruandluse vormingute muutmine Exceli malle uuesti rakendades
+              href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
+            - name: Finance and Operationi versioonikohaste ER-konfiguratsioonide kujundamine
               items:
-                - name: Konfiguratsioonide loomine andmete importimiseks välisest XML-failist
-                  href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
-            - name: Rakenduses SharePoint asuvatest failidest partiirežiimis andmete importimise konfigureerimine
-              href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Failide importimine XML-vormingus
+                - name: ER-konfiguratsioonide sõltuvuse määramine teistest komponentidest
+                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: ER-lahenduse kujundamine finantsdimensioonide kasutamiseks
               items:
-                - name: Failide importimine XML-vormingus koos valikuliste atribuutidega
-                  href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
-                - name: ER-vormingute konfigureerimine XML-vormingus failide importimiseks koos valikuliste atribuutidega
-                  href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                - name: Andmemudelite loomine finantsdimensioonide kasutamiseks andmeallikatena
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
+                - name: Mudelite vastendamine finantsdimensioonide kasutamiseks andmeallikatena
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
+                - name: Aruannete loomine finantsdimensioonide kasutamiseks andmeallikatena
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
+                - name: Finantsdimensioone andmeallikatena kasutavate aruannete käivitamine
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
+            - name: 'ER-vormingute kujundamine loendamiseks ja summeerimiseks, kasutades loodud väljundi teavet'
+              items:
+                - name: Vormingute loomine loendamiseks ja summeerimiseks
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
+                - name: Vormingu konfigureerimine loendamiseks ja summeerimiseks
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
+                - name: Arvutuste kasutamine loendamise ja liitmise väljundi loomiseks
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
+                - name: Vormingute käivitamine loendamiseks ja summeerimiseks
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
+            - name: Dünaamiline veergude lisamine Exceli aruannetesse horisontaalselt laiendatavate vahemikena
+              items:
+                - name: 'Vormingute kujundamine, et dünaamiliselt lisada veerge Exceli aruannetesse horisontaalselt laiendatavate vahemikena'
+                  href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
+                - name: 'Vormingute käivitamine, et dünaamiliselt lisada veerge Exceli aruannetesse horisontaalselt laiendatavate vahemikena'
+                  href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
+            - name: Dokumendihalduse failide kasutamine vorminguväljundites
+              items:
+                - name: Andmemudelite ettevalmistamine dokumendihalduse failide kasutamiseks ER-väljundites
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
+                - name: Andmemudelite laiendamine dokumendihalduse failide kasutamiseks ER-väljundites
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
+                - name: Vormingute loomine dokumendihalduse failide kasutamiseks ER-väljundites
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
+                - name: Vormingute käivitamine dokumendihalduse failide kasutamiseks ER-väljundites
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
+                - name: Vormingute muutmine ja käivitamine dokumendihalduse failide kasutamiseks ER-väljundites
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
+            - name: Rakenduse andmete värskendamine elektroonilise aruandluse abil
+              items:
+                - name: Elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine
+                  href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
+                - name: Konfiguratsioonide importimine dokumentide loomiseks rakendusandmetega
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
+                - name: Konfiguratsioonide loomine dokumentide loomiseks rakendusandmetega
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
+                - name: Mudelite ja vastenduste muutmine dokumentide loomiseks rakendusandmetega
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
+                - name: Vormingute muutmine dokumentide loomiseks avalduse andmetega
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
+                - name: Rakenduse andmetega dokumentide loomine
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+            - name: Andmete importimine sissetulevatest failidest ER-lahenduste abil
+              items:
+                - name: Sissetulevate dokumentide sõelumine eri vormingutes
+                  href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
+                - name: Käsitsi valitud failidest andmete importimise konfigureerimine
+                  items:
+                    - name: Konfiguratsioonide loomine andmete importimiseks välisest XML-failist
+                      href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
+                - name: Rakenduses SharePoint asuvatest failidest partiirežiimis andmete importimise konfigureerimine
+                  href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
+                - name: Failide importimine XML-vormingus
+                  items:
+                    - name: Failide importimine XML-vormingus koos valikuliste atribuutidega
+                      href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
+                    - name: ER-vormingute konfigureerimine XML-vormingus failide importimiseks koos valikuliste atribuutidega
+                      href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: Loodud XML-failide tükeldamine failimahu ja sisukoguse alusel
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
-        - name: Konfiguratsiooni elutsükkel
-          items:
-            - name: Konfiguratsioonide elutsükli haldamine
-              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
-            - name: Konfiguratsioonide üleslaadimine teenusesse Lifecycle Services
-              href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-            - name: Konfiguratsioonide importimine teenusest Lifecycle Services
-              href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-            - name: Konfiguratsioonide allalaadimine teenusest Lifecycle Services
-              href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-            - name: Konfiguratsioonide importimine
-              href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: ER-konfiguratsioonide allalaadimine RCS-hoidlast
+            - name: Konfiguratsiooni elutsükkel
               items:
-                - name: Konfiguratsioonide allalaadimine RCS-i tüüpi ER-hoidlavormingutest
-                  href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Konfiguratsioonide importimine RCS-ist
-                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
-        - name: Elektrooniliste aruandluse lahenduste Finance and Operationsis
-          items:
-            - name: Raamistiku konfigureerimine
+                - name: Konfiguratsioonide elutsükli haldamine
+                  href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
+                - name: Konfiguratsioonide üleslaadimine teenusesse Lifecycle Services
+                  href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Konfiguratsioonide importimine teenusest Lifecycle Services
+                  href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Konfiguratsioonide allalaadimine teenusest Lifecycle Services
+                  href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
+                - name: Konfiguratsioonide importimine
+                  href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
+                - name: ER-konfiguratsioonide allalaadimine RCS-hoidlast
+                  items:
+                    - name: Konfiguratsioonide allalaadimine RCS-i tüüpi ER-hoidlavormingutest
+                      href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
+                    - name: Konfiguratsioonide importimine RCS-ist
+                      href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
+            - name: Elektrooniliste aruandluse lahenduste Finance and Operationsis
               items:
-                - name: Elektroonilise aruandluse raamistiku konfigureerimine
-                  href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
-                - name: Konfiguratsioonipakkujate loomine ja nende märkimine aktiivseks
-                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Sihtkohad
+                - name: Raamistiku konfigureerimine
+                  items:
+                    - name: Elektroonilise aruandluse raamistiku konfigureerimine
+                      href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
+                    - name: Konfiguratsioonipakkujate loomine ja nende märkimine aktiivseks
+                      href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Sihtkohad
+                  items:
+                    - name: Sihtkohtade ülevaade
+                      href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
+                    - name: Sihtkohade konfigureerimine
+                      href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Loodud aruannete automaatne kinnitamine
+                  items:
+                    - name: Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega
+                      href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
+                    - name: Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
+                      href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
+                    - name: Testimise automatiseerimine elektroonilise aruandluse abil
+                      href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
+                - name: Äriprotsesside automatiseerimine elektroonilise aruandluse konfiguratsioone kasutades
+                  items:
+                    - name: Elektroonilise aruandluse konfigureerimine andmete tõmbamiseks Power BI-sse
+                      href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
+                    - name: Prinditava vabas vormis arve (FTI) vormide loomine
+                      href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
+                - name: Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks
+                  href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+            - name: ER-raamistiku API
               items:
-                - name: Sihtkohtade ülevaade
-                  href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
-                - name: Sihtkohade konfigureerimine
-                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Loodud aruannete automaatne kinnitamine
-              items:
-                - name: Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega
-                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
-                - name: Loodud ER-aruannete ja võrdluste alusväärtuste abil jälgimise tulemuste täiustused
-                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
-                - name: Testimise automatiseerimine elektroonilise aruandluse abil
-                  href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
-            - name: Äriprotsesside automatiseerimine elektroonilise aruandluse konfiguratsioone kasutades
-              items:
-                - name: Elektroonilise aruandluse konfigureerimine andmete tõmbamiseks Power BI-sse
-                  href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-                - name: Prinditava vabas vormis arve (FTI) vormide loomine
-                  href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
-            - name: Elektroonilise aruandluse vormingute täitmise jälgimine jõudlusprobleemide tõrkeotsingu tegemiseks
-              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
-        - name: ER-raamistiku API
-          items:
-            - name: Elektroonilise aruandluse funktsioonide loendi laiendamine
-              href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-            - name: Elektroonilise aruandluse raamistiku API muudatused Application update 7.3 puhul
-              href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
-            - name: Loodud dokumentidele kohandatud salvestuskoha määramine
-              href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
+                - name: Elektroonilise aruandluse funktsioonide loendi laiendamine
+                  href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
+                - name: Elektroonilise aruandluse raamistiku API muudatused Application update 7.3 puhul
+                  href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+                - name: Loodud dokumentidele kohandatud salvestuskoha määramine
+                  href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
         - name: Manustatud analüütilised lahendused
           items:
             - name: Manustatud Power BI tööruumides
@@ -3281,14 +3174,107 @@
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
     - name: Tarneahel
       href: ../supply-chain/index.md
+    - name: Varahaldus
+      items:
+        - name: Varahalduse ülevaade
+          href: ../supply-chain/asset-management/index.md
+          items:
+            - name: Töö asukohad ja varad
+              href: ../supply-chain/asset-management/overview/functional-locations-and-objects.md
+            - name: Varad ja töökäsud
+              href: ../supply-chain/asset-management/overview/objects-and-work-orders.md
+        - name: Töö asukohtade seadistus
+          items:
+            - name: Töö asukoha töötsükli olekud
+              href: ../supply-chain/asset-management/setup-for-functional-locations/functional-location-stages.md
+            - name: Hooldustöö atribuuditüübid
+              href: ../supply-chain/asset-management/setup-for-functional-locations/functional-location-types.md
+            - name: Töö asukoha tüübid
+              href: ../supply-chain/asset-management/setup-for-functional-locations/specification-types.md
+        - name: Töö asukohad
+          items:
+            - name: Töö asukohtade tutvustus
+              href: ../supply-chain/asset-management/functional-locations/introduction-to-functional-locations.md
+            - name: Töö asukohtade loomine
+              href: ../supply-chain/asset-management/functional-locations/create-functional-locations.md
+            - name: Varade installimine töö asukohtades
+              href: ../supply-chain/asset-management/functional-locations/install-objects-on-functional-locations.md
+        - name: 'Varade häälestamine:'
+          items:
+            - name: Vara tüübid
+              href: ../supply-chain/asset-management/setup-for-objects/object-types.md
+            - name: Tingimuse hindamine
+              href: ../supply-chain/asset-management/setup-for-objects/condition-assessment.md
+            - name: Vara tootja ja mudel
+              href: ../supply-chain/asset-management/setup-for-objects/product-and-model.md
+            - name: Kassad
+              href: ../supply-chain/asset-management/setup-for-objects/counters.md
+            - name: Varahalduse parameetrid.
+              href: ../supply-chain/asset-management/setup-for-objects/enterprise-asset-management-parameters.md
+            - name: Vara töötsükli olekud
+              href: ../supply-chain/asset-management/setup-for-objects/object-stages.md
+            - name: Vara teenindustasemed
+              href: ../supply-chain/asset-management/setup-for-objects/object-priorities.md
+            - name: Vara kriitilisused
+              href: ../supply-chain/asset-management/setup-for-objects/object-criticalities.md
+            - name: Vara dokumendid
+              href: ../supply-chain/asset-management/setup-for-objects/object-documents.md
+            - name: Hooldustöötajad ja töötajate grupid
+              href: ../supply-chain/asset-management/setup-for-objects/workers-and-worker-groups.md
+        - name: Varad
+          items:
+            - name: Varade sissejuhatus
+              href: ../supply-chain/asset-management/objects/introduction-to-objects.md
+            - name: Vara loomine
+              href: ../supply-chain/asset-management/objects/create-an-object.md
+            - name: Mitme taseme varad
+              href: ../supply-chain/asset-management/objects/multi-level-objects.md
+            - name: 'Varade teisaldamine, asendamine ja installimine'
+              href: ../supply-chain/asset-management/objects/move-replace-and-install-objects.md
+            - name: Varade loomine ostutellimuste põhjal
+              href: ../supply-chain/asset-management/objects/create-objects-based-on-purchase-orders.md
+            - name: Vara kooslus
+              href: ../supply-chain/asset-management/objects/object-bom.md
+            - name: Vara sündmuste ajalugu
+              href: ../supply-chain/asset-management/objects/object-timeline.md
+            - name: Vara vaade
+              href: ../supply-chain/asset-management/objects/object-view.md
+            - name: Vara atribuudi ülevaade
+              href: ../supply-chain/asset-management/objects/object-specification-overview.md
+        - name: Hooldusnõude häälestus
+          items:
+            - name: Hooldusnõuded
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/requests.md
+            - name: Hooldusnõuete töötsükli olek
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/request-stages.md
+            - name: Hooldusnõuete tüübid
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/request-types.md
+            - name: Vastutavad hooldustöötajad
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/responsible-workers.md
+        - name: Hooldusnõuete haldamine
+          items:
+            - name: Hooldusnõuded
+              href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-overview.md
+            - name: Hooldusnõude loomine
+              href: ../supply-chain/asset-management/manage-maintenance-requests/create-a-maintenance-request.md
+            - name: Töökäsu loomine hooldusnõudest
+              href: ../supply-chain/asset-management/manage-maintenance-requests/create-work-order-from-a-maintenance-request.md
+            - name: Laenuvarad
+              href: ../supply-chain/asset-management/manage-maintenance-requests/asset-loan.md
+            - name: Sissetulevad ja väljaminevad varad
+              href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
+            - name: Hooldusnõuete aruanded
+              href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
     - name: Koondplaneerimine
       href: ../supply-chain/master-planning/master-planning-home-page.md
       items:
         - name: Koondplaanid
           href: ../supply-chain/master-planning/master-plans.md
           items:
-            - name: Koondplaanide seadistamine
+            - name: Koondplaanide häälestus
               href: ../supply-chain/master-planning/master-planning-setup.md
+            - name: Koondplaneerimise häälestusviisard.
+              href: ../supply-chain/master-planning/master-planning-setup-wizard.md
             - name: Laovarude sätted
               href: ../supply-chain/master-planning/coverage-settings.md
             - name: Kaubakatte reeglite määratlemine
@@ -3363,7 +3349,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Nõudluse prognoosi käsitsi muutmine
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Mobiilirakendus Dynamics 365 for Unified Operations
+    - name: Mobiilirakendus
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: Saadaval mobiilsed tööruumid
@@ -3615,6 +3601,24 @@
               href: organization-administration/tasks/view-workflow-history.md
             - name: Süsteemi konfigureerimine saatma kasutajatele töövooga seotud meilisõnumeid
               href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
+            - name: Töövoo tüübid
+              items:
+                - name: Töövoo tüüp on loomine.
+                  href: organization-administration/workflow-type-create.md
+                - name: Töövoo tüüpide kontroll-loend
+                  href: organization-administration/workflow-type-checklist.md
+                - name: Töövoo kategooria loomine
+                  href: organization-administration/workflow-type-category.md
+                - name: Töövoo tüübi kohta päringu loomine
+                  href: organization-administration/workflow-type-query.md
+                - name: Uue töövoo tüübi loomine
+                  href: organization-administration/workflow-type-create-new.md
+                - name: Töövoodokumendi klassi loomine
+                  href: organization-administration/workflow-type-document-create.md
+                - name: SubmitToWorkflow klassi loomine
+                  href: organization-administration/workflow-type-submit-to-workflow.md
+                - name: Töövoodokumendi klassi seostamine töövoo tüübiga
+                  href: organization-administration/workflow-type-associate-document.md
             - name: Töövoo tüüpide aruanne
               href: organization-administration/workflow-types-report.md
             - name: Töövoo KKK
@@ -4491,6 +4495,8 @@
               href: ../supply-chain/warehousing/tasks/create-work-class.md
             - name: Laotöötajate haldamine
               href: ../supply-chain/warehousing/manage-warehouse-workers.md
+            - name: Lao töö töötlemise edasi lükkamine
+              href: ../supply-chain/warehousing/deferred-put.md
         - name: Osalise vabastamise ja osaline saadetis
           items:
             - name: Transpordikoorma osaline saadetis
