@@ -1,9 +1,11 @@
-- name: Tere tulemast kasutama rakendust Dynamics 365 for Retail
+- name: Tere tulemast rakendusse Dynamics 365 for Retail
   href: index.md
 - name: Alustamine
   items:
     - name: Mis on uut või mida on muudetud?
       href: get-started/whats-new.md
+    - name: Dynamics 365 for Retail 10.0.5 eelvaatefunktsioonid
+      href: get-started/whats-new-10-0-5.md
     - name: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Retail 10.0.3?
       href: get-started/whats-new-10-0-3.md
     - name: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Retail 10.0.2?
@@ -257,6 +259,8 @@
       href: Notifications-POS.md
 - name: Tagastused
   items:
+    - name: Lingitud tagasimaksed
+      href: dev-itpro/linked-refunds.md
     - name: Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine
       href: sell-return-outside-assortments.md
     - name: Vahetuse konfigureerimine ja töötlemine tagastustellimusel

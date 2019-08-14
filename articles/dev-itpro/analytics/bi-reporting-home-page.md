@@ -1,6 +1,6 @@
 ---
-title: Ärianalüüsi (BI) ja aruandlus avaleht
-description: Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Microsoft Dynamics 365 for Finance and Operations saadaoleva ärianalüüsi ja aruandlustööriistade kohta.
+title: Ärianalüüsi (BI) ja aruandluse avaleht
+description: Teema suunab teid ressursside juurde, mis annavad teile lisateavet tarkvaras Microsoft Dynamics 365 for Finance and Operations saadaoleva ärianalüüsi (BI) ja aruandlustööriistade kohta.
 author: sericks007
 manager: AnnBe
 ms.date: 03/27/2019
@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
@@ -17,26 +17,26 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1088194ca4b92bfb38dbcad43cfbb5d33f15d935
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1504098"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848569"
 ---
-# <a name="business-intelligence-bi-and-reporting-home-page"></a>Ärianalüüsi (BI) ja aruandlus avaleht
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>Ärianalüüsi (BI) ja aruandluse avaleht
 
 [!include [banner](../includes/banner.md)]
 
-Teema suunab teid ressursside juurde, mis annavad teile lisateavet rakenduses Microsoft Dynamics 365 for Finance and Operations saadaoleva ärianalüüsi (BI) ja aruandlustööriistade kohta.
+Teema suunab teid ressursside juurde, mis annavad teile lisateavet tarkvaras Microsoft Dynamics 365 for Finance and Operations saadaoleva ärianalüüsi (BI) ja aruandlustööriistade kohta.
 
 ## <a name="get-started"></a>Alustamine
-- [Teabe juurdepääs ja aruandlus](information-access-reporting.md)
+- [Teabele juurdepääs ja aruandlus](information-access-reporting.md)
 - [Tech Talk: aruandlusvõimalused](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
 - [Finance and Operations: Power BI analüütika ja aruandlusteenuste ajaveeb](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (ajaveeb)
 
 ## <a name="analytical-workspaces"></a>Analüütikatööruumid
-Rakendus Finance and Operations esitab interaktiivseid aruandeid, mis on sujuvalt integreeritud rakenduse tööruumidesse. Tööruumides saab kasutada rikkalikke teabegraafikuid ja visuaale, mida Microsoft Power BI toetab. Need teabegraafikud ja visuaalid hõlmavad mitmesuguseid kolmandate osapoolte pakutavaid juhtelemente. Seetõttu on tööruumide kasutamine väga visuaalne ja interaktiivne.
+Rakendus Finance and Operations esitab interaktiivseid aruandeid, mis on sujuvalt integreeritud rakenduse tööruumidesse. Tööruumides saab kasutada rikkalikke teabegraafikuid ja visuaale, mida Microsoft Power BI toetab. Need teabegraafikud ja visuaalid sisaldavad mitmesuguseid kolmandate osapoolte pakutavaid juhtelemente. Seetõttu on tööruumide kasutamine väga visuaalne ja interaktiivne.
 
 Kasutajad saavad andmetega suhtlemiseks klõpsata või puudutada lehel olevaid visuaale. Nad saavad vaadata põhjuseid ja tagajärgi ning teha lihtsaid võimalike stsenaariumitega seotud toiminguid tööruumist lahkumata. Tänu hämmastavatele interaktiivsetele visuaalidele saavad kasutajad meeldival moel andmeid uurida ja peidetud trende avastada.
 
