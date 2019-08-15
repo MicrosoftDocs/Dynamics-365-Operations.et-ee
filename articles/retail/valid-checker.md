@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
+ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617316"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "1790417"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Jaemüügikande süsteemsuskontroll
 
@@ -50,6 +50,7 @@ Pakktöötluse funktsioon **Kinnita kaupluse kanded** kontrollib jaemüügi kand
 - **Kliendi konto** – kontrollib, kas jaemüügi kandetabelites märgitud kliendikonto on peakontori kliendi koondandmetes olemas.
 - **Ridade arv** – kontrollib, kas kande päisetabelis märgitud ridade arv kattub müügikande tabeli ridade arvuga.
 - **Hind sisaldab maksu** – kontrollib kas parameeter **Hind sisaldab maksu** on kõigil kanderidadel ühtne.
+- **Maksesumma** – kontrollib kas maksekirjed ühtivad makse summaga päises.
 - **Brutosumma** – kontrollib, kas päises olev brutosumma vastab ridadel olevate netosummade kogusummale pluss maksusummale.
 - **Netosumma** – kontrollib, kas päises olev netosumma vastab ridadel olevate netosummade kogusummale.
 - **Üle-/alamakse** – kontrollib, ega päises oleva brutosumma ja maksesumma vahe ei ületa üle-/alamakse konfiguratsiooni maksimumi.
@@ -58,6 +59,7 @@ Pakktöötluse funktsioon **Kinnita kaupluse kanded** kontrollib jaemüügi kand
 - **Kinkekaardi kaup** – Retail ei toeta kinkekaardikaupade tagastamist. Kinkekaardil oleva saldo saab aga sularahaks teisendada. Väljavõtte sisestamise protsess nurjub iga kinkekaardikauba puhul, mida töödeldakse sularahaks teisendamise rea asemel tagastusreana. Kinkekaardikaupade valideerimisprotsess aitab tagada, et ainsad tagastatavad kinkekaardi reakaubad jaemüügi kandetabelites oleksid kinkekaardi sularahaks teisendamise read.
 - **Negatiivne hind** – kontrollib, ega kuskil pole negatiivse hinna kanderidu.
 - **Kaup ja variant** – kontrollib, kas kanderidadel olevad kaubad ja variandid on olemas ka kauba ja variandi põhifailis.
+- **Maksusumma** – kontrollib, kas maksekirjed vastavad ridadel olevatele maksusummadele. 
 
 ## <a name="set-up-the-consistency-checker"></a>Süsteemsuskontrolli seadistamine
 
