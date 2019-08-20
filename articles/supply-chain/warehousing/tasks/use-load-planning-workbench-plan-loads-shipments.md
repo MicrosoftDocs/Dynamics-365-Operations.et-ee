@@ -1,9 +1,9 @@
 ---
 title: Koormate ja saadetiste planeerimine koorma planeerimise töölaua abil
-description: See protseduur näitab, kuidas kasutada müügitellimuse koorma loomiseks koorma planeerimise töölauda.
+description: Selles teemas näidatakse, kuidas kasutada koormuse planeerimise töölauda müügitellimuse koormuse loomiseks.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,53 +16,47 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1927cff48beb30f934bd066c32ab48dfb9d06f74
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5e20eef8aa748bb64c6c14dd7e1d92ccf6592e0
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564788"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1739061"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Koormate ja saadetiste planeerimine koorma planeerimise töölaua abil
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas kasutada müügitellimuse koorma loomiseks koorma planeerimise töölauda. Eeltingimusena loome esmalt müügitellimuse. See protseduur on osa transpordikoordinaatori igapäevatööst. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
+Selles teemas näidatakse, kuidas kasutada koormuse planeerimise töölauda müügitellimuse koormuse loomiseks. Eeltingimusena loome esmalt müügitellimuse. See protseduur on osa transpordikoordinaatori igapäevatööst. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 
 
 ## <a name="create-a-sales-order"></a>Loo müügitellimus
-1. Avage Müügireskontro > Tellimused > Kõik müügitellimused.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Kliendi konto otsingu avamiseks ripploendi nuppu.
-4. Valige konto US-004.
-5. Klõpsake nuppu OK.
-6. Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.
-7. Valige kaup A0001.
-    * A0001 on lubatud transpordihalduse puhul.  
-8. Klõpsake loendis valitud real olevat linki.
-9. Sisestage arv väljale Kogus.
-10. Sisestage väljale Ladu väärtus 24.
-    * Valige selle näite puhul ladu 24. See ladu võimaldab transpordihaldust ja täiustatud laohaldust.  
-11. Klõpsake nuppu Salvesta.
+1. Avage **Navigeerimispaan > Moodulid > Müügireskontro > Tellimused > Kõik müügitellimused**.
+2. Valige suvand **Uus**.
+3. Valige otsingu avamiseks väljal **Kliendi konto** ripploendi nupp.
+4. Valige konto **US-004**.
+5. Valige nupp **OK**.
+6. Valige otsingu avamiseks väljal **Kaubakood** ripploendi nupp.
+7. Valige üksus **A0001**. **A0001** on transpordihaldusele lubatud.  
+8. Valige väljal **Koht** ripploendi nupp, et avada otsing, ja seejärel valige üksus.
+9. Sisestage arv väljale **Kogus**.
+10. Selle näite korral sisestage väljale **Ladu** tekst „24“. See ladu võimaldab transpordihaldust ja täiustatud laohaldust.  
+11. Valige käsk **Salvesta**.
 12. Sulgege leht.
 
 ## <a name="create-a-new-load"></a>Uue koorma loomine
-1. Avage Transpordihaldus > Plaanimine > Koorma plaanimise töölaud.
-2. Klõpsake vahekaarti Müügiread.
-    * Nüüd saate luua äsja loodud müügitellimuse koorma. Koormaid saab luua ostutellimuste, üleviimistellimuste ja müügitellimuste pakkumise ja nõudluse põhjal.  
-3. Klõpsake toimingupaanil suvandit Pakkumine ja nõudlus.
-4. Klõpsake suvandit Uude koormasse.
-5. Klõpsake väljal Koorma malli ID otsingu avamiseks ripploendi nuppu.
-    * Koorma mall määratleb kogu koorma maksimaalse kaalu ja mahu mõõtmed. Näiteks võib koorma mall tähistada konteineri või veoauto suurust.  
-6. Klõpsake loendis valitud real olevat linki.
-7. Klõpsake nuppu OK.
+1. Avage **Navigeerimispaan > Moodulid > Transpordihaldus > planeerimine > Koormuse planeerimise töölaud**.
+2. Valige vahekaart **Müügiread**. Nüüd saate luua koormuse äsja loodud müügitellimuse jaoks. Koormaid saab luua ostutellimuste, üleviimistellimuste ja müügitellimuste pakkumise ja nõudluse põhjal.  
+3. Valige toimingupaanil **Pakkumine ja nõudlus**.
+4. Valige **Uuele koormusele**.
+5. Valige väljal **Koormuse malli ID** otsingu avamiseks ripploendi nupp. Koorma mall määratleb kogu koorma maksimaalse kaalu ja mahu mõõtmed. Näiteks võib koorma mall tähistada konteineri või veoauto suurust. Valige kaup.
+6. Valige nupp **OK**.
 
 ## <a name="rate-and-route-the-load"></a>Koorma hindamine ja marsruudi määramine
-1. Klõpsake suvandit Hindamine ja marsruudivalik.
-2. Klõpsake suvandit Marsruudi töölaua määr.
-3. Klõpsake suvandit Kogumäär.
+1. Valige **Hindamine ja marsruutimine**.
+2. Valige **Hinda marsruudi töölauda**.
+3. Valige **Hinda poodi**.
 4. Otsige loendist ja valige soovitud kirje.
-5. Klõpsake käsku Määra.
+5. Valige **Määra**.
 6. Sulgege leht.
-7. Sulgege leht.
 

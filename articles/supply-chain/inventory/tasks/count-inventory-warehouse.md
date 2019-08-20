@@ -1,72 +1,58 @@
 ---
 title: Varude loendamine laos
-description: Selle protseduuriga selgitatakse lao inventuuritöölehe loomise ja sisestamise protsessi lao asukohas oleva konkreetse toote inventuuriks.
+description: Selles teemas kirjeldatakse protsessi, kuidas luua ja sisestada varude inventuuritöölehte, et loendada konkreetset kaupa asukohas laos.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c0bbfe8f86d27f81b0d577ed89dfa34ebcf3f18
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a0909625f31d15fe6b1387ff9ab7fd5d9a9135f4
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549889"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836440"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Varude loendamine laos
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Selle protseduuriga selgitatakse lao inventuuritöölehe loomise ja sisestamise protsessi lao asukohas oleva konkreetse toote inventuuriks. Seda protseduuri rakendatakse funktsiooni „üldine ladustamine” puhul laohalduse moodulis, mitte ladustamisfunktsiooni puhul moodulis Laohaldus. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. Kui kasutate oma andmeid, siis veenduge, et teil oleksid tooted ja asukohad seadistatud ja et oleksite loonud inventuuritöölehtedele varude töölehe nime. Inventuuri teeb harilikult laotöötaja.
+Selles teemas kirjeldatakse protsessi, kuidas luua ja sisestada varude inventuuritöölehte, et loendada konkreetset kaupa asukohas laos. Seda protseduuri rakendatakse funktsiooni „üldine ladustamine” puhul laohalduse moodulis, mitte ladustamisfunktsiooni puhul moodulis Laohaldus. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. Kui kasutate oma andmeid, siis veenduge, et teil oleksid tooted ja asukohad seadistatud ja et oleksite loonud inventuuritöölehtedele varude töölehe nime. Inventuuri teeb harilikult laotöötaja.
 
 
 ## <a name="create-an-inventory-counting-journal"></a>Lao inventuuritöölehe loomine
-1. Avage Laohaldus > Töölehe sisestused > Kauba inventuur > Inventuur.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.
-4. Klõpsake loendis soovitud lao inventuuritöölehe nime
-    * Mõned muud väljad täidetakse teie valitud lao inventuuritöölehe nime seadistuse põhjal.  
-5. Klõpsake väljal Töötaja otsingu avamiseks ripploendi nuppu.
-6. Valige loendist töötaja, keda soovite kasutada.
-7. Klõpsake Vali.
-8. Klõpsake nuppu OK.
+1. **Avage Laohaldus > Töölehe sisestused > Kauba inventuur > Inventuur.**
+2. Valige suvand **Uus**.
+3. Valige väljal **Nimi** varude inventuuri töölehe nimi, mida soovite ripploendis kasutada. Mõned muud väljad täidetakse teie valitud lao inventuuritöölehe nime seadistuse põhjal.  
+4. Klõpsake välja **Töötaja** otsingu avamiseks ripploendi nuppu.
+5. **Valige** loendist töötaja, keda soovite kasutada.
+6. Valige nupp **OK**.
 
-## <a name="create-journal-lines"></a>Tööleheridade loomine
-1. Klõpsake valikut Uus.
-2. Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.
-3. Otsige loendist ja valige soovitud kirje.
-    * Kui kasutate demoettevõtte USMF andmeid, valige A0001.  
-4. Klõpsake väljal Koht otsingu avamiseks ripploendi nuppu.
-5. Otsige loendist ja valige soovitud kirje.
-    * Kui kasutate demoettevõtte USMF andmeid, valige tegevuskoht 2.  
-6. Klõpsake väljal Ladu otsingu avamiseks ripploendi nuppu.
-7. Otsige loendist ja valige soovitud kirje.
-    * Kui kasutate demoettevõtte USMF andmeid, valige ladu 24.  
-8. Klõpsake väljal Asukoht otsingu avamiseks ripploendi nuppu.
-9. Otsige loendist ja valige soovitud kirje.
-    * Kui kasutate demoettevõtte USMF andmeid, valige tegevuskoht BULK-001.  
-10. Sisestage number väljale Loendatud.
-    * Kui sisestate loendatud arvu, mis erineb väljal Laoseis näidatud arvust, värskendatakse välja Kogus, näidates lahknevust.  
-11. Klõpsake nuppu Salvesta.
+## <a name="create-journal-lines"></a>Loo töölehe read
+1. Valige suvand **Uus**.
+2. Väljal **Eseme number** valige soovitud kirje ripploendist. Kui kasutate demoettevõtte USMF andmeid, valige **A0001**.  
+3. Väljal **sait** valige soovitud kirje ripploendist. Kui kasutate demoettevõtte USMF andmeid, valige tegevuskoht **2**.
+4. Väljal **Ladu** valige soovitud kirje ripploendist. Kui kasutate demoettevõtte USMF andmeid, valige ladu **24**.  
+5. Väljal **Asukoht** valige soovitud kirje ripploendist. Kui kasutate demoettevõtte USMF andmeid, valige tegevuskoht **BULK-001**.  
+6. Sisestage number väljale Loendatud. Kui sisestate loendatud arvu, mis erineb väljal **Laos** näidatud arvust, värskendatakse välja **Kogus**, näidates lahknevust.  
+7. Valige käsk **Salvesta**.
 
 ## <a name="post-the-inventory-counting-journal"></a>Lao inventuuritöölehe sisestamine
-1. Klõpsake valikut Sisesta.
-    * Kui sisestate lao inventuuritöölehe ja loendatud arv erineb väljal Laoseis olevast kogusest, sisestatakse lao sissetulek või väljaminek, kaubavaru taset ja väärtust muudetakse ja tekitatakse pearaamatukanded.  
-2. Klõpsake nuppu OK.
+1. Valige **Sisesta**. Kui sisestate lao inventuuritöölehe ja loendatud arv erineb väljal **Laos** olevast kogusest, sisestatakse lao sissetulek või väljaminek, kaubavaru taset ja väärtust muudetakse ja tekitatakse pearaamatukanded.
+2. Valige nupp **OK**.
 
 ## <a name="view-inventory-transactions"></a>Varude kannete kuvamine
-1. Klõpsake Ladu.
-2. Klõpsake suvandit Kanded.
-    * Siin saate vaadata kõiki seotud kandeid, mis teie laoinventuuri töölehe sisestamisel luuakse.   
+1. Valige **Laoseis**.
+2. Valige **Kanded**. Siin saate vaadata kõiki seotud kandeid, mis teie laoinventuuri töölehe sisestamisel luuakse.   
 

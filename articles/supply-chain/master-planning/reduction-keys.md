@@ -3,7 +3,7 @@ title: Eelarve planeerimise koefitsiendid
 description: Selles teemas esitatakse näiteid planeerimise koefitsiendi seadistamise kohta. Selles on teave mitmesuguste planeerimise koefitsiendi sätete ja nende tulemuste kohta. Planeerimise koefitsiendi abil saate määratleda, kuidas eelarvevajadusi vähendada.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 02/28/2019
+ms.date: 07/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b915570145a48db7a182b9fce34e1544e3600107
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5efa5b2c7a4c45bbf6e940170000b391384fe7ff
+ms.sourcegitcommit: add48ece3864645a89a28327c4add607714befb5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1504075"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "1736300"
 ---
 # <a name="method-used-to-reduce-forecast-requirements"></a>Eelarvevajaduste vähendamiseks kasutatav meetod
 
@@ -138,14 +138,14 @@ Selle näite jaoks kaasate koondplaani järgmised nõudluse prognoosid.
 | Kuupäev       | Nõudluse prognoos |
 |------------|-----------------|
 | 1. jaanuar  | 1000           |
-| 1. veebruar | 500             |
+| 1. veebruar | 1000             |
 
 Samuti looge järgmised müügitellimused.
 
 | Kuupäev        | Müügitellimuse kogus |
 |-------------|----------------------|
-| 15. jaanuar  | 500                  |
-| 15. veebruar | 100                  |
+| 15. jaanuar  | 200                  |
+| 15. veebruar | 400                  |
 
 Sellisel juhul luuakse järgmised plaanitud tellimused.
 

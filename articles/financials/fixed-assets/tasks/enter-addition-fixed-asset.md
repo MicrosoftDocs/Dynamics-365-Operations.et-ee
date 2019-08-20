@@ -3,25 +3,25 @@ title: Põhivarale lisandi sisestamine
 description: See protseduur kirjeldab lisandi lisamist olemasoleva põhivara hulka.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c9733f07f995dd37669f3c33fd0f082daa34dd2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fe1a1d4db696ac013afee05b697b301383232134
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566934"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839949"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Põhivarale lisandi sisestamine
 
@@ -29,22 +29,20 @@ ms.locfileid: "1566934"
 
 See protseduur kirjeldab lisandi lisamist olemasoleva põhivara hulka. Põhivara lisandite eesmärk on jälgida vara kauba lisandeid, hooldust või remonti ja see on üksnes teavituslik. Põhivara väärtus või kasutusea kõik muudatused tuleb teha eraldi.   
 
-
-
 Protseduur kasutab raamatupidaja rolli ja demoandmeid USMF-i juriidilise isiku puhul.
 
-1. Minge jaotisse Põhivarad > Põhivarad > Põhivarad.
+1. Avage navigeerimispaanil **Moodulid > Põhivara > Põhivara > Põhivara**.
 2. Leidke ja valige loendist lisandi puhul põhivara.
 3. Klõpsake loendis valitud real olevat linki.
-4. Klõpsake toimingupaanil suvandit Põhivara.
-5. Klõpsake suvandit Põhivara lisamised.
-6. Klõpsake Uus.
-7. Sisestage väärtus väljale Nimi.
-8. Määrake lisamise ostu või teenuse kuupäev.
-9. Sisestage vara kauba, hoolduse või muu paranduse hind.
-10. Sisestage arv väljale Kogus.
-    * Kogukulu ei mõjuta põhivara väärtust ning on üksnes jälgimise ja teavitusliku otstarbega. Kui kulud on kapitaliseeritud, tuleb väärtuse tõstmise korrigeerimise kanne sisestada eraldi.  
-11. Klõpsake vahekaarti Üldine.
-    * Märkige Pikendab kasutusiga, kui lisamine pikendab vara kasutusiga.  
+4. Klõpsake toimingupaanil **Põhivara**.
+5. **Klõpsake suvandit Põhivara lisamised.**
+6. Klõpsake valikut **Uus**.
+7. Sisestage väärtus väljale **Nimi**.
+8. Väljal **Soetamiskuupäev** määrake lisandostu või teenuse kuupäev.
+9. **Sisestage vara kauba, hoolduse või muu paranduse hind.**
+10. Sisestage arv väljale **Kogus**. Kogukulu ei mõjuta põhivara väärtust ning on üksnes jälgimise ja teavitusliku otstarbega. Kui kulud on kapitaliseeritud, tuleb väärtuse tõstmise korrigeerimise kanne sisestada eraldi.  
+11. Klõpsake vahekaarti **Üldine**.
+
+    * Märkige **Pikendab kasutusiga**, **Jah** kui lisamine pikendab vara kasutusiga.  
     * See väli on üksnes teavituslik. Kasutusea pikendamiseks muutke kasutusiga väärtusmudelitel ja/või vara kulumiraamatutes.  
 

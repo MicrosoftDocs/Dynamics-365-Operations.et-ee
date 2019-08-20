@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6a904529dccbe392793d0d108335b623bb1ed8b2
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571998"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742535"
 ---
 # <a name="requests-for-quotation-rfqs"></a>Pakkumiskutsed
 
@@ -48,7 +48,7 @@ Saate luua pakkumiskutse juhtumie plaanitud tellimustelt, ostutaotluselt või k�
 
 Kui olete pakkumiskutse ette valmistanud ja hankijad lisanud, valige pakkumiskutses **Saada** (**Saada ja avalda** avaliku sektori korral). Iga hankija kohta, kellele pakkumiskutse saadate, luuakse pakkumiskutse tööleht. Saate konfigureerida saatmistegevuse prindisuvandeid kas printima iga hankija kohta aruande arhiivi või saatma aruande iga hankija meiliaadressile. Peale selle saate iga hankija pakkumiskutse töölehe abil luua aruande, mille saate hankijale saata kohe või hiljem uuesti. Samuti saate konfigureerida saatmistegevuse nii, et see loob vastuselehe, mille hankija saab täita.
 
-Selles teemas käsitletakse pakkumiskutsete käsitlemise protsessi, kui hankija koostööd ei kasutata. Kui teie süsteem on seadistatud hankija koostöö kasutamiseks, saavad hankijad sisestada pakkumised otse rakenduses Microsoft Dynamics 365 for Finance and Operations. Lisateavet vt teemast [Hankija koostöö klientidega](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ja [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
+Selles teemas käsitletakse pakkumiskutsete käsitlemise protsessi, kui hankija koostööd ei kasutata. Kui teie süsteem on seadistatud hankija koostöö kasutamiseks, saavad hankijad sisestada pakkumised otse rakenduses Microsoft Dynamics 365 for Finance and Operations. Lisateavet vt teemast [Hankija koostöö klientidega](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ja [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
 
 Kui peate pakkumiskutset pärast selle saatmist täiendama, saate valmis pakkumiskutse hankijatele uuesti saata, kasutades kaht täiendamistegevust: loomine ja lõpetamine.+
 
@@ -179,7 +179,7 @@ Kui konfigureerite täiendamisprotsessi nii, et see oleks rohkem piirav, siis en
 
 Kui konfigureerite täiendamisprotsessi nii, et see oleks vähem piirav, ei pea te enne saadetud pakkumiskutse juhtumi väljade muutmist käsku **Loo** valima. Siiski peate täiendamismärkuse käsitsi pakkumiskutsele lisama ja juhtumi uuesti saatma. Võtke arvesse, et seda lähenemisviisi saab kasutada ainult siis, kui ühtki vastust (pakkumist) pole redigeeritud. Kui olete vastuse sisestanud ja selle olek on **Vastu võetud**, pole nupp **Saada** saadaval. Sel juhul peate valima käsu **Loo** ja seejärel **VII lõpule** ning tegutsema rohkem piiravas protsessis. Seejärel saadetakse vastus pakkumiskutse juhtumi muudatuste kajastamiseks.
 
-Kui hankijad kasutavad pakkumiste sisestamiseks hankija koostöö liidest, peate hankijaid pakkumiskutse juhtumi muudatustest teavitama alati täiendamisprotsessi kaudu. See protsess aitab vältida olukorda, kus hankijad teevad aegunud pakkumiskutsele pakkumise, kui nende pakkumine on veel pooleli. Lisateavet hankija koostöö kohta vt teemast [Hankija koostöö väliste hankijatega](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Kui hankijad kasutavad pakkumiste sisestamiseks hankija koostöö liidest, peate hankijaid pakkumiskutse juhtumi muudatustest teavitama alati täiendamisprotsessi kaudu. See protsess aitab vältida olukorda, kus hankijad teevad aegunud pakkumiskutsele pakkumise, kui nende pakkumine on veel pooleli. Lisateavet hankija koostöö kohta vt teemast [Hankija koostöö väliste hankijatega](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Kui soovite kutsuda pakkumist tegema täiendavaid hankijaid ja pakkumiskutse juhtumit pole muudetud, saate kasutada nuppu **Saada**. Lisatud hankijad kuvatakse lehel **Saatmine** ja neile saadetakse meilikutse.
 

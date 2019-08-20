@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: e78d0a82d3ca66a6912ea1a9517296ca241edf1c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5ec9197c2e8b7970fcbf5ea42612c60f940bcae0
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559031"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742924"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Vöötkoodide skannimine kaamera abil teenuses Dynamics 365 for Finance and Operations – Ladustamine
 
@@ -36,7 +36,7 @@ Selle funktsiooni kasutamiseks peab teil olema installitud mooduli Ladustamine v
 ## <a name="setup"></a>Seadistamine
 Rakenduse Ladustamine kuvasätetes saate valida, kas kaamerat vöötkoodide skannimiseks kasutada. Kui lubate valiku **Kaamera kasutamine skannerina**, saate kaamerat kasutada igas sisendväljas, mille eelistatud sisestusrežiim on seatud väärtusele **Skannimine**. 
 
-Selleks et määrata, et sisendväli peab olema skannitav, valige rakenduses Dynamics 365 for Finance and Operations lehel **Laorakenduse väljanimed** rakenduses suvandi **Eelistatud sisestusrežiim** sätteks **Skannimine**. Selle suvandi valimisel saab rakenduses Ladustamine kasutada kaamerat skannimiseks. Teavet, kuidas rakenduses Ladustamine väljanimesid konfigureerida, leiate teemast [Väljanimede konfigureerimine rakenduses Ladustamine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+Selleks et määrata, et sisendväli peab olema skannitav, valige rakenduses Dynamics 365 for Finance and Operations lehel **Laorakenduse väljanimed** rakenduses suvandi **Eelistatud sisestusrežiim** sätteks **Skannimine**. Selle suvandi valimisel saab rakenduses Ladustamine kasutada kaamerat skannimiseks. Teavet, kuidas rakenduses Ladustamine väljanimesid konfigureerida, leiate teemast [Väljanimede konfigureerimine rakenduses Ladustamine](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
 
 ## <a name="supported-bar-code-formats"></a>Toetatud vöötkoodivormingud
 Toetatud on levinuimad vöötkoodivormingud, sh kood 128, kood 39, kood 93, EAN-8, EAN-13, UPC-E, UPC-A ja QR-koodid. 

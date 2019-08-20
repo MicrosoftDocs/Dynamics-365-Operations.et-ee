@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624808"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742629"
 ---
 # <a name="retail-peripherals"></a>Jaemüügi välisseadmed
 
@@ -192,7 +192,7 @@ Võrgu välisseadmetele saab määrata IP-aadresse kahest kohast. Kui Modern POS
 
 #### <a name="modern-pos-for-android"></a>Modern POS Androidile
 
-Alates Dynamics 365 for Retail versioonist 8.1.3, sisaldab rakendus Modern POS Androidile sisse-ehitatud IPC riistvarajaama. See riistvarajaam toetab suhtlemist võrguprinterite ja maksekonnektoritega. Lisateabe saamiseks külastage artiklit [Hübriidrakendus Androidi dokkidele](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+Alates Dynamics 365 for Retail versioonist 8.1.3, sisaldab rakendus Modern POS Androidile sisse-ehitatud IPC riistvarajaama. See riistvarajaam toetab suhtlemist võrguprinterite ja maksekonnektoritega. Lisateabe saamiseks külastage artiklit [Hübriidrakendus Androidi dokkidele](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>Pilvekassa ja tänapäevane kassa iOS-ile
 
@@ -541,7 +541,7 @@ See konfiguratsioon on tavapäraste fikseeritud kassaregistrite puhul kõige lev
 
 4. Klõpsake valikut **Jaemüük** &gt; **Jaemüügi IT** &gt; **Jaotusgraafik**.
 5. Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
-6. Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
+6. Valige jaotusgraafik **1070** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 7. Installige ja aktiveerige Modern POS Windowsile.
 8. Käivitage Modern POS Windowsile ja alustage ühendatud välisseadmete kasutamist.
 
