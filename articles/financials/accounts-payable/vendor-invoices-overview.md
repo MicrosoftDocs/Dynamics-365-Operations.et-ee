@@ -3,14 +3,14 @@ title: Hankija arvete ülevaade
 description: Selles teemas antakse üldteavet hankija arvete kohta. Hankija arved on maksetaotlused saadud toodete ja teenuste eest. Hankija arved võivad esindada kehtivate teenuste arvet või need võivad põhineda kindlate kaupade ja teenuste ostutellimustel.
 author: abruer
 manager: AnnBe
-ms.date: 06/11/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
-ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
+ms.openlocfilehash: c69291214796847af7169cf261865860998f0d27
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625075"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863319"
 ---
 # <a name="vendor-invoices-overview"></a>Hankija arvete ülevaade
 
 [!include [banner](../includes/banner.md)]
-
+[!include [banner](../includes/preview-banner.md)]
 
 Selles teemas antakse üldteavet hankija arvete kohta. Hankija arved on maksetaotlused saadud toodete ja teenuste eest. Hankija arved võivad esindada kehtivate teenuste arvet või need võivad põhineda kindlate kaupade ja teenuste ostutellimustel.
 
@@ -90,6 +90,13 @@ Kui hankija arve on kasutuses, ei saa teine kasutaja seda muuta. Siiski võib ar
 Saate kasutada lehte **Taasta hankija arved**, et taastada või väljastada hankija arveid, mis on olnud kasutuses rohkem kui neli tundi, nii et neid saaks muuta. Saate avada selle lehe **Perioodiline ülesanne** alt või paani tööruumis **Hankija arved**. Kui arve on taastatud, on see lehel **Hankija arve** muutmiseks saadaval.
 
 Saate lehele **Hankija arvete taastamine** juurdepääsu ainult siis, kui teile on määratud **Kasutuses olevate hankija arvete taastamise** kohustus ja õigus. Lisaks peab parameeter **Luba hankija arvete taastamine** lehel **Ostureskontro parameetrid** olema sisse lülitatud.
+
+## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Hankija arvete töövoo oleku lähtestamine olekult Parandamatu olekule Mustand
+
+Taastamatu tõrke tõttu peatatud töövoo eksemplaril on töövoo olekuks **Parandamatu**. Kui hankija arve töövoo olek on **Taastamatu**, saate lähtestada selle olekusse **Mustand**, valides suvandi **Tagasikutsumine**. Seejärel saate hankija arvet redigeerida. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Hankija arve töövoo mustandi olekule lähtestamine** sisse lülitatud.
+
+Saate kasutada lehte **Töövoo ajalugu**, et lähtestada töövoo olekuks **Mustand**. Saate avada selle lehe jaotisest **Hankija arve** või navigeerides **Üldine > Päringud > Töövoog**. Töövoo oleku lähtestamiseks olekusse **Mustand**, valige **Tagasikutsumine**. Võite lähtestada töövoo oleku mustandiks ka valides tegevuse **Tagasikutsumine** lehel **Hankija arve** või **Ootel hankija arved**. Pärast töövoo olekule **Mustand** lähtestamist muutub see lehel **Hankija arve** redigeerimise jaoks kättesaadavaks.
+
 
 
 ## <a name="additional-resources"></a>Lisaressursid

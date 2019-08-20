@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566106"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841989"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Garantiikirja kanne
 
@@ -61,7 +61,7 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 15. Sisestage kuupäev väljale Nõutav lähetuskuupäev.
 16. Sisestage kuupäev väljale Kinnitatud lähetuskuupäev.
 
-## <a name="process-letter-of-guaranteerequest"></a>Garantiikirja protsess Taotlemine
+## <a name="process-letter-of-guarantee_request"></a>Garantiikirja protsess Taotlemine
 1. Klõpsake tegumiribal valikut Haldamine.
 2. Klõpsake suvandit Garantiikiri.
 3. Klõpsake tegevuspaanil suvandit Garantiikiri.
@@ -73,7 +73,7 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 9. Klõpsake nuppu OK.
 10. Sulgege leht.
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>Garantiikirja protsess Edasta panka
+## <a name="process-letter-of-guarantee_submit-to-bank"></a>Garantiikirja protsess Edasta panka
 1. Avage Sularaha- ja pangahaldus > Garantiikirjad > Garantiikirjad.
 2. Otsige loendist ja valige soovitud kirje.
 3. Klõpsake suvandit Edasta panka, et avada rippdialoog.
@@ -81,7 +81,7 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 5. Klõpsake loendis valitud real olevat linki.
 6. Klõpsake nuppu OK.
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>Garantiikirja Protsess Võta pangalt vastu
+## <a name="process-letter-of-guarantee_receive-from-bank"></a>Garantiikirja Protsess Võta pangalt vastu
 1. Klõpsake suvandit Võta pangalt vastu, et avada rippdialoog.
 2. Sisestage väärtus väljale Panga number.
     * Kontrollige arvutatud väärtusi väljadel Marginaal ja Kulu.  
@@ -93,7 +93,7 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
     * Kontrollige töölehekannete sisestamist.  
 7. Sulgege leht.
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>Garantiikirja protsess Anna kasusaajale
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>Garantiikirja protsess Anna kasusaajale
 1. Avage Müügireskontro > Tellimused > Kõik müügitellimused.
 2. Klõpsake loendis valitud real olevat linki.
 3. Klõpsake tegumiribal valikut Haldamine.
@@ -108,7 +108,7 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 12. Laiendage jaotist Tegevused.
     * Kinnitage kirje Anna kasusaajale.  
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>Garantiikirja protsess Suurenda väärtust
+## <a name="process-letter-of-guarantee_increase-value"></a>Garantiikirja protsess Suurenda väärtust
 1. Avage Müügireskontro > Tellimused > Kõik müügitellimused.
 2. Klõpsake loendis valitud real olevat linki.
 3. Klõpsake tegumiribal valikut Haldamine.
@@ -128,7 +128,7 @@ See protsess kasutab demoettevõtte USMF-i andmeid.
 16. Klõpsake valikut Read.
     * Kontrollige sisestatud töölehekandeid.  
 
-## <a name="process-letter-of-guaranteeliquidate"></a>Garantiikirja protsess Likvideeri
+## <a name="process-letter-of-guarantee_liquidate"></a>Garantiikirja protsess Likvideeri
 1. Avage Müügireskontro > Tellimused > Kõik müügitellimused.
 2. Klõpsake loendis valitud real olevat linki.
 3. Klõpsake tegumiribal valikut Haldamine.

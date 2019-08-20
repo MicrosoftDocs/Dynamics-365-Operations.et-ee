@@ -1,54 +1,49 @@
 ---
 title: Hankija maksetingimuste määratlemine
-description: Seadistage hankija arvete maksetingimused.
+description: Selles teemas selgitatakse, kuidas sätestada maksetingimusi tarnija arvete jaoks.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68c69d5be5ccbdfb17fea7c61121cbf26fee48d4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6432d04aa821e76d67e2c430e514f4b9056d8228
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569028"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843189"
 ---
 # <a name="define-vendor-payment-terms"></a>Hankija maksetingimuste määratlemine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Seadistage hankija arvete maksetingimused. See ülesanne kasutab demoettevõtte USMF andmeid.
+Selles teemas selgitatakse, kuidas sätestada maksetingimusi tarnija arvete jaoks. See ülesanne kasutab demoettevõtte USMF andmeid.
 
-1. Avage Ostureskontro > Makse seadistus > Maksetingimused.
-2. Klõpsake valikut Uus.
-    * Lehte Maksetingimused kasutatakse määratlemaks, kuidas tähtaega arvutatakse. Seda ei kasutata määratlemaks, kuidas skonto kuupäeva arvutatakse.  
-3. Sisestage väärtus väljale Maksetingimused.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Sisestage number väljale Päevad.
-    * Siin sisestatud numbrit kasutatakse tähtajale või makseviisis määratletud perioodi lõppu lisamiseks. Näiteks kui valite Neto, lisatakse number tähtajale. Praeguse kuu valimisel lisatakse tähtaja arvutamiseks number praeguse kuu viimasele päevale.  
-6. Klõpsake nuppu Salvesta.
+1. Avage **Navigeerimispaan > Moodulid > Ostureskontro > Makse häälestus > Maksetingimused**.
+2. Valige suvand **Uus**. Lehte Maksetingimused kasutatakse määratlemaks, kuidas tähtaega arvutatakse. Seda ei kasutata määratlemaks, kuidas skonto kuupäeva arvutatakse.  
+3. Sisestage väärtus väljale **Maksetingimused**.
+4. Sisestage väärtus väljale **Kirjeldus**.
+5. Sisestage number väljale **Päevad**. Siin sisestatud numbrit kasutatakse tähtajale või makseviisis määratletud perioodi lõppu lisamiseks. Näiteks kui valite **Neto**, lisatakse number tähtajale. **Praeguse kuu** valimisel lisatakse tähtaja arvutamiseks number praeguse kuu viimasele päevale.  
+6. Valige käsk **Salvesta**.
 7. Sulgege leht.
-8. Avage Ostureskontro > Makse seadistus > Skontod.
-9. Klõpsake valikut Uus.
-10. Sisestage ID väljale Skonto.
-11. Sisestage väljale Kirjeldus soovitud väärtus.
+8. Avage **Ostureskontro > Makse seadistus > Skontod**.
+9. Valige suvand **Uus**.
+10. Sisestage ID väljale **Skonto**.
+11. Sisestage väärtus väljale **Kirjeldus**.
 12. Kui hankija pakub mitmetasandilist allahindlust, valige järgmine skonto pärast praeguse aegumist.
 13. Sulgege leht.
-14. Sisestage number väljale Päevad.
-    * Väljale Päevad sisestatud kogust kasutatakse skonto kuupäeva arvutamiseks selle põhjal, milline suvand väljal Neto/praegune valiti. Neto valimisel lisatakse skonto kuupäeva määramiseks kogus arve kuupäevale. Praeguse kuu valimisel lisatakse skonto kuupäeva määramiseks kogus praeguse kuu lõppu.  
-15. Sisestage skonto protsent väljale Allahindlus. 
-16. Sisestage põhikonto, millele skonto kliendiarvete puhul sisestatakse.
-17. Sisestage põhikonto, millele skonto hankija arvete puhul sisestatakse.
-    * Kui suvand Allahindluse vastaskontod on seatud valikule Kasuta hankija allahindluse jaoks põhikontot, siis kasutatakse põhikontot.  Kui suvand on seatud valikule Kontod arve real, sisestatakse skonto arve ridadel vara/kulu kontodele.  
-18. Klõpsake nuppu Salvesta.
+14. Sisestage number väljale **Päevad**. Väljale **Päevad** sisestatud kogust kasutatakse skonto kuupäeva arvutamiseks selle põhjal, milline suvand väljal **Neto/praegune** valiti. **Neto** valimisel lisatakse skonto kuupäeva määramiseks kogus arve kuupäevale. **Praeguse kuu** valimisel lisatakse skonto kuupäeva määramiseks kogus arve kuupäevale.  
+15. Sisestage skonto protsent väljale **Allahindlus**. 
+16. Sisestage põhikonto, kuhu skonto sisestatakse kliendiarvete puhul, seejärel sisestage põhikonto, kuhu skonto sisestatakse hankija arvete puhul. Kui suvand **Allahindluse vastaskontod** on seatud valikule **Kasuta hankija allahindluse jaoks põhikontot**, siis kasutatakse põhikontot. Kui suvand on seatud valikule **Kontod arve real**, sisestatakse skonto arve ridadel vara/kulu kontodele.  
+17. Valige käsk **Salvesta**.
 

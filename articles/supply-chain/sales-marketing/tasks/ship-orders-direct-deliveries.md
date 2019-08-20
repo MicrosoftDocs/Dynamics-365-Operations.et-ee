@@ -1,105 +1,84 @@
 ---
 title: Tellimuste lähetamine otsetarnetena
-description: Selles protseduuris näitlikustatakse, kuidas müügitellimuse jaoks otsetarnet luua.
+description: Selles teemas näidatakse, kuidas luua müügitellimuse otsetarnet.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchEditLines, PurchTableReferences, MCRDropShipWorkbench
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5cd68aa1c15672c702db887c08ecf9b3d63f2618
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1bce2674b321475bc516724f74bac2d3a648e257
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557775"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843357"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Tellimuste lähetamine otsetarnetena
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Selles protseduuris näitlikustatakse, kuidas müügitellimuse jaoks otsetarnet luua. Otsetarnet kasutatakse siis, kui soovite saata kaubad kliendile otse oma hankijalt, ilma et tarniksite need esmalt oma lattu. Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega. Teise alamülesande „Loo töölaualt otsetarneid” edukaks lõpuleviimiseks veenduge, et kaubal, mille müügitellimuselt valite, on väljastatud tooteetaloni kiirkaardil Ost määratud vaikehankija.
-
+Selles teemas näidatakse, kuidas luua müügitellimuse otsetarnet. Otsetarnet kasutatakse siis, kui soovite saata kaubad kliendile otse oma hankijalt, ilma et tarniksite need esmalt oma lattu. Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega. Teise alamülesande „Loo töölaualt otsetarneid” edukaks lõpuleviimiseks veenduge, et kaubal, mille müügitellimuselt valite, on väljastatud tooteetaloni kiirkaardil Ost määratud vaikehankija.
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Eraldi otsetarne tellimuse määramine
-1. Avage Kõik müügitellimused.
-2. Klõpsake valikut Uus.
-3. Valige või sisestage väärtus väljal Kliendi konto.
-    * Kui kasutate USMF-i, saate valida konto US-001.  
-4. Klõpsake nuppu OK.
-5. Sisestage või valige väärtus väljal Kaubakood.
-    * USMF-i kasutamisel saate valida kauba T0020.  
-6. Klõpsake nuppu Salvesta.
-7. Klõpsake toimingupaanil valikut Müügitellimus.
-8. Klõpsake valikut Otsetarne.
-    * Lehel Tarne loomine on kõik avatud müügitellimuse read müügitellimuselt kopeeritud kujul. Saate vaadata tellimuse üksikasju ja vajaduse korral muuta üksikasju nagu ostu kogus ja hinnatingimused, enne otsetarne loomist.  
-9. Valige väljal Kaasa kõik väärtus Jah.
-    * Kui soovite luua otsetarne ainult müügitellimuse ridade alamkogumile, valige need eraldi.  
-    * Hankija konto väljal võib juba olla või mitte olla hankija number. Kui tootele on (seotud kauba laovarudes) seadistatud vaikehankija, kopeeritakse reale see hankija. Vastasel korral tuleb hankija sisestada käsitsi. Selles näites valime järgmises sammus uue hankija, isegi juhul, kui mõni on juba lisatud.   
-10. Sisestage väärtus väljale Hankija konto või valige see.
-    * Kui kasutate USMF-i, saate valida konto 1001.  
-11. Klõpsake nuppu OK.
-    * Saate teate, et ostutellimus on nüüd loodud.   
-12. Laiendage jaotis Rea üksikasjad.
-13. Klõpsake vahekaarti Tarne.
-    * Otsetarne välja väärtuseks on nüüd määratud Jah.  
-    * Otsetarne olek näitab koostatud ostutellimust.   
-14. Klõpsake toimingupaanil valikut Üldine.
-15. Klõpsake valikut Seotud tellimused.
-16. Klõpsake, et järgida linki väljal Ostutellimus.
-17. Laiendage jaotis Rea üksikasjad.
-18. Klõpsake vahekaarti Aadress.
-    * Pange tähele, et selle ostutellimuse rea tarneaadress on kliendi tarneaadress ja mitte teie ettevõtte aadress.  
-    * Kui muudate tarneaadressi ostutellimuse real või algse müügitellimuse real, muudetakse automaatselt vastava tellimuse rea aadressi.  
-19. Klõpsake vahekaarti Tarne.
-    * Sarnaselt müügitellimuse reale on ka seotud ostutellimuse rea tüübiks määratud Otsetarne.  
-    * Ostutellimuse rea tarnekuupäevaks ja kinnitatud tarnekuupäevaks on määratud vastavalt nõutav sissetulekukuupäev ja algse müügitellimuse rea kinnitatud sissetulekukuupäev.   
-    * Kui neid kuupäevi ostu- või müügireal muudate, muudetakse automaatselt vastava tellimuse kuupäevi.     
-    * Ostutellimus, mis on määratud edastama kaupu otse kliendile, on seotud algse müügitellimusega erilise seose abil. See seos kehtestab reegli, et müügitellimuse saatelehte ei saa uuendada müügitellimuselt endalt ning seda tuleb teha ostutellimuse abil. Kuid arve tuleb esitada kliendile müügitellimuselt.  
-20. Klõpsake toimingupaanil valikut Ost.
-21. Klõpsake suvandit Kinnitus.
-22. Klõpsake nuppu OK.
-23. Klõpsake toimingupaanil valikut Vastuvõtt.
-24. Klõpsake valikut Toote sissetulek.
-25. Sisestage väärtus väljale Toote sissetulek.
-26. Klõpsake nuppu OK.
-27. Klõpsake toimingupaanil valikut Üldine.
-28. Klõpsake valikut Seotud tellimused.
-29. Märkige loendis valitud rida.
-    * Pärast ostutellimuse vastuvõetuks märkimist (teisisõnu: pärast seda, kui hankija on saatnud kauba teie kliendi aadressile) määratakse algse müügitellimuse olekuks automaatselt Tarnitud.  
-    * Nüüd saab müügitellimuse eest arve esitada.    
-30. Klõpsake nuppu OK.
-31. Sulgege leht.
-32. Klõpsake nuppu OK.
+1. Avage **Navigeerimispaan > Moodulid > Müügireskontro > Tellimused > Kõik müügitellimused**.
+2. Valige suvand **Uus**.
+3. Sisestage või valige väärtus väljale **Kliendi konto**, seejärel valige **OK**
+4. Sisestage või valige väärtused väljadel **Üksuse number** ja **Sait**, seejärel valige **Salvesta**.
+5. Valige toimingupaanil **Müügitellimus**, seejärel valige **Otsetarne**. Lehel Tarne loomine on kõik avatud müügitellimuse read müügitellimuselt kopeeritud kujul. Saate vaadata tellimuse üksikasju ja vajaduse korral muuta üksikasju nagu ostu kogus ja hinnatingimused, enne otsetarne loomist.  
+6. Valige **Jah** väljal **Kaasa kõik**.
+    - Kui soovite luua otsetarne ainult müügitellimuse ridade alamkogumile, valige need eraldi.  
+    - Väli **Hankija konto** võib juba hankija numbrit sisaldada või mitte sisaldada. Kui tootele on (seotud kauba laovarudes) seadistatud vaikehankija, kopeeritakse reale see hankija. Vastasel korral tuleb hankija sisestada käsitsi. Selles näites valime järgmises sammus uue hankija, isegi juhul, kui mõni on juba lisatud.   
+7. Sisestage või valige väärtus väljale **Hankija konto**, seejärel valige **OK** Saate teate, et ostutellimus on nüüd loodud.   
+8. Laiendage jaotist **Rea üksikasjad**.
+9. Valige vahekaart **Tarne** ja kontrollige, et väli **Otsetarne** oleks määratud olekusse **Jah**.
+10. Valige toimingupaanil **Üldine**.
+11. Valige **Seotud tellimused**.
+12. Valige link väljal **Ostutellimus**.
+13. Laiendage jaotist **Rea üksikasjad** ja valige vahekaart **Aadress**.
+    - Selle ostutellimuse rea tarneaadress on kliendi tarneaadress ja mitte teie ettevõtte aadress.  
+    - Kui muudate tarneaadressi ostutellimuse real või algse müügitellimuse real, muudetakse automaatselt vastava tellimuse rea aadressi.  
+14. Valige vahekaart **Tarne**.
+    - Sarnaselt müügitellimuse reale on ka seotud ostutellimuse rea tüübiks määratud Otsetarne.  
+    - Ostutellimuse rea tarnekuupäevaks ja kinnitatud tarnekuupäevaks on määratud vastavalt nõutav sissetulekukuupäev ja algse müügitellimuse rea kinnitatud sissetulekukuupäev.   
+    - Kui neid kuupäevi ostu- või müügireal muudate, muudetakse automaatselt vastava tellimuse kuupäevi.     
+    - Ostutellimus, mille järgi tarnitakse kaup otse kliendile, on seotud algse müügitellimusega erilise seostamise teel. See seos kehtestab reegli, et müügitellimuse saatelehte ei saa uuendada müügitellimuselt endalt ning seda tuleb teha ostutellimuse abil. Kuid arve tuleb esitada kliendile müügitellimuselt.  
+15. Valige toimingupaanil **Ostmine**.
+16. Valige **Kinnitus**.
+17. Valige nupp **OK**.
+18. Valige toimingupaanil **Vastuvõtmine**.
+19. Valige **Toote sissetulek**.
+20. Sisestage väärtus väljale **Toote sissetulek**.
+21. Valige nupp **OK**.
+22. Valige toimingupaanil **Üldine**.
+23. Valige **Seotud tellimused** ja tõstke esile soovitud kirje.
+    - Pärast ostutellimuse vastuvõetuks märkimist (teisisõnu: pärast seda, kui hankija on saatnud kauba teie kliendi aadressile) määratakse algse müügitellimuse olekuks automaatselt Tarnitud.  
+    - Nüüd saab müügitellimuse eest arve esitada.    
+24. Valige nupp **OK**.
+25. Sulgege leht.
+26. Valige nupp **OK**. Sulgege leheküljed ja naaske avalehele.
 
 ## <a name="create-direct-deliveries-from-the-workbench"></a>Otsetarnete loomine töölaualt
-1. Sulgege leht.
-2. Sulgege leht.
-3. Avage Kõik müügitellimused.
-4. Klõpsake valikut Uus.
-5. Valige või sisestage väärtus väljal Kliendi konto.
-6. Klõpsake nuppu OK.
-7. Sisestage või valige väärtus väljal Kaubakood.
-8. Laiendage jaotis Rea üksikasjad.
-9. Klõpsake vahekaarti Tarne.
-    * Selle asemel, et luua müügitellimuse töötlemise käigus otsetarne (nagu eelmises protseduuris) võite otsustada anda selle ülesande edasi ostuspetsialistile. Müügitellimuse rea lisamiseks otsetarne käsitsusprotsessi tuleb märkida rida otsetarneks.  
-10. Tehke väljal Otsetarne valik Jah.
-    *   Kaup on juba vaikimisi otsetarneks seadistatud; väljale määratakse tellimuse rea sisestamisel automaatselt valik Jah. Saate seadistada kauba otsetarneks väljastatud toote etalonile, määrates otsetarne valikuks Jah ja valides otsetarne vaikelao.  
-    * Kuna ostutellimust pole veel koostatud, on otsetarne olekuks määratud Tarnitakse otse.   
-11. Sulgege leht.
-12. Sulgege leht.
-13. Minge jaotisse Otsetarne.
-    * Otsetarne leht toimib töölauana, mis annab ostuagendile ülevaate kõigist müügitellimuse ridadest, mis tuleb otse tarnida, ja võimaldab tal koostada vastavaid ostutellimusi. Lisaks saab ta vaadata avatud otsetarne tellimusi ja kinnitatud tellimusi vahekaartidel Kinnitus ja Tarne.   
-14. Klõpsake valikut Loo otsetarne.
-15. Klõpsake vahekaarti Kinnitus.
-    * Pärast otsetarne tellimuse koostamist teisaldatakse see automaatselt vahekaardile Kinnitus. Saate kinnitada tellimuse otse sellelt lehelt. Kui ost on kinnitatud, teisaldatakse see automaatselt vahekaardile Tarne, millelt saate registreerida selle sissetuleku.  
+1. Avage **Navigeerimine > Moodulid > Müügireskontro > Tellimused > Kõik müügitellimused**.
+2. Valige suvand **Uus**.
+3. Sisestage või valige väärtus väljale **Kliendi konto**, seejärel valige **OK**
+4. Sisestage või valige väärtused väljadel **Kauba kood** ja **Sait**.
+5. Laiendage jaotist **Rea üksikasjad** ja seejärel valige vahekaart **Tarne**.Selle asemel, et luua müügitellimuste töötlemise osana otsetarne, nagu eelmises protseduuris, võite selle ülesande ostuspetsialistile üle anda. Müügitellimuse rea lisamiseks otsetarne käsitsusprotsessi tuleb märkida rida otsetarneks.  
+6. Valige **Jah** väljal **Otsetarne**.
+    - Kaup on juba vaikimisi otsetarneks seadistatud; väljale määratakse tellimuse rea sisestamisel automaatselt valik Jah. Saate seadistada kauba otsetarneks väljastatud toote etalonile, määrates otsetarne valikuks Jah ja valides otsetarne vaikelao.  
+    - Kuna seda ostutellimust ei ole veel loodud, on otsetarne olekuks määratud „Tarnitakse otse“.   
+7. Valige käsk **Salvesta**.
+8. Sulgege leheküljed, kuni naasete avalehele.
+9. Sisestage otsinguribale `Direct delivery`.
+    - Otsetarne leht toimib töölauana, mis annab ostuagendile ülevaate kõigist müügitellimuse ridadest, mis tuleb otse tarnida, ja võimaldab tal koostada vastavaid ostutellimusi. Lisaks saab ta vaadata avatud otsetarne tellimusi ja kinnitatud tellimusi vahekaartidel Kinnitus ja Tarne.  
+    - Pärast otsetarne tellimuse koostamist teisaldatakse see automaatselt vahekaardile Kinnitus. Saate kinnitada tellimuse otse sellelt lehelt. Kui ost on kinnitatud, teisaldatakse see automaatselt vahekaardile Tarne, millelt saate registreerida selle sissetuleku.  
 

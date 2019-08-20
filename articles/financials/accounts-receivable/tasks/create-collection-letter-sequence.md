@@ -3,25 +3,25 @@ title: Märgukirjaseeria loomine
 description: Kasutage seda ülesande juhendit märgukirjaseeria loomiseks.
 author: mikefalkner
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db5264f6d8d7723ff01d13e99728c2bfebcb4515
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a317fba4f30ab9fefe6b12637d53fda141d354bf
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567429"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843021"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Märgukirjaseeria loomine
 
@@ -29,40 +29,33 @@ ms.locfileid: "1567429"
 
 Kasutage seda ülesande juhendit märgukirjaseeria loomiseks. See ülesanne kasutab demoettevõtte USMF andmeid.
 
-1. Avage Krediit ja sissenõuded > Seadistus > Märgukirjaseeria seadistamine.
-2. Klõpsake valikut Uus.
-3. Sisestage seeriat tähistav seeria ID väljale Märgukirjaseeria. Seda kasutatakse sisestusreeglite seadistamiseks.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-    * Maksetingimused on valikulised. Kui sisestate väärtuse siia, kasutab märgukirja tasu arve neid maksetingimusi kliendi puhul salvestatud maksetingimuste asemel.  
-5. Valige märgukirja koodi väljalt esimese märgukirja kood, mille soovite saata.
-    * Esimene märgukiri luuakse arve maksetähtaja, selle rea väljale Päevad ajapikendusperioodi puhul sisestatud väärtuse ja muu sellele reale sisestatud teabe järgi.  
-6. Sisestage väljale Kirjeldus soovitud väärtus.
-    * Tasu valuuta on vaikimisi kliendi valuutas. Valuutakood võib arve valuutast erineda.  
-7. Seerias järgmisena saadetava märgukirja lisamiseks klõpsake nuppu Lisa
-    * Paljudel juhtudel on esimene märgukiri ainult hoiatus. Vajaduse korral saate lisada tasud.  
+1. Avage navigeerimispaanil **Moodulid > Kreedit ja sissenõuded > Häälestus > Sätesta märgukirja seeria**.
+2. Klõpsake valikut **Uus**.
+3. Sisestage seeriat tähistav seeria ID väljale **Märgukirja seeria**. Seda kasutatakse sisestusreeglite seadistamiseks.
+4. Sisestage väärtus väljale **Kirjeldus**.  Maksetingimused on valikulised. Kui sisestate väärtuse siia, kasutab märgukirja tasu arve neid maksetingimusi kliendi puhul salvestatud maksetingimuste asemel.  
+5. **Valige märgukirja koodi** väljalt esimese märgukirja kood, mille soovite saata. Esimene märgukiri luuakse arve maksetähtaja, selle rea väljale Päevad ajapikendusperioodi puhul sisestatud väärtuse ja muu sellele reale sisestatud teabe järgi.  
+6. Sisestage väärtus väljale **Kirjeldus**. Tasu valuuta on vaikimisi kliendi valuutas. Valuutakood võib arve valuutast erineda.  
+7. Seerias järgmisena saadetava märgukirja lisamiseks klõpsake nuppu **Lisa**. Paljudel juhtudel on esimene märgukiri ainult hoiatus. Vajaduse korral saate lisada tasud.  
 8. Valige märgukirja koodi väljalt seerias järgmisena saadetav märgukiri.
-9. Sisestage väärtus väljale Kirjeldus.
-10. Valige põhikonto väljalt tasude puhul kasutatav tulukonto.
+9. Sisestage väärtus väljale **Kirjeldus**.
+10. Väljal **Põhikonto** valige tulukonto, mida kasutatakse tasude jaoks.
 11. Sisestage tasu, mis tuleb maksta selle märgukirja sisestamisel.
-12. Klõpsake väljal Kauba käibemaksugrupp otsingu avamiseks ripploendi nuppu.
-    * Kui tasu puhul tuleb arvutada käibemaksu, valige kauba käibemaksugrupp.  
+12. Klõpsake väljal **Kauba käibemaksu rühm** ripploendi nuppu otsingu avamiseks. Kui tasu puhul tuleb arvutada käibemaksu, valige kauba käibemaksugrupp.  
 13. Klõpsake loendis valitud real olevat linki.
-14. Sisestage minimaalne tähtaja ületanud saldo, mis on nõutav enne märgukirja saatmist.
-15. Sisestage teie lubatavate ajapikenduspäevade arv.
-    * See on päevade arv pärast maksetähtaega, mil saab luua märgukirja. Arvutuses kasutatav tähtaeg oleneb märgukirja paigutusest märgukirjade järjestuses: ⦁ 1. märgukirja ajapikenduse periood on seotud arve maksetähtajaga.  ⦁ 2. ja edasiste märgukirjade ajapikenduse periood on seotud eelmise märgukirja sisestamise või printimise kuupäevaga, olenevalt välja Värskenda märgukirja koodi valikust lehel Müügireskontro parameetrid.  
-16. Seerias viimase märgukirja lisamiseks klõpsake nuppu Lisa.
-    * Saate märgukirjaseeria puhul lisada kuni viis märgukirjakoodi.  
-17. Valige märgukirja koodi väljalt seerias järgmisena saadetav märgukiri.
-18. Sisestage väärtus väljale Kirjeldus.
-19. Täpsustage soovitud väärtusi väljal Põhikonto.
-20. Sisestage number väljale Tasu valuutas.
-21. Klõpsake väljal Kauba käibemaksugrupp otsingu avamiseks ripploendi nuppu.
+14. Väljale **Minimaalne tähtaja ületamise saldo** sisestage enne märgukirja saatmist nõutav minimaalne tähtaja ületamise saldo.
+15. Väljale **Päevad** sisestage ajapikenduspäevade arv, mida lubate. See on päevade arv pärast maksetähtaega, mil saab luua märgukirja. Arvutamisel kasutatav maksetähtaeg oleneb märgukirja asukohast märgukirjaseerias järgmiselt: ⦁
+    - Ajapikenduse periood 1. märgukirja puhul on seotud arve tähtajaga.
+    - 2. ja edasiste märgukirjade ajapikenduse periood on seotud eelmise märgukirja sisestamise või printimise kuupäevaga, olenevalt välja Värskenda märgukirja koodi valikust lehel Müügireskontro parameetrid.  
+16. Seerias viimase märgukirja lisamiseks klõpsake nuppu **Lisa**. Saate märgukirjaseeria puhul lisada kuni viis märgukirjakoodi.  
+17. Väljal **Märgukirja kood** valige seerias järgmisena saadetav märgukiri.
+18. Sisestage väärtus väljale **Kirjeldus**.
+19. Määratlega väljal **Põhikonto** soovitud väärtused.
+20. Sisestage number väljale **Tasu valuutas**.
+21. Klõpsake väljal **Kauba käibemaksu rühm** ripploendi nuppu otsingu avamiseks.
 22. Klõpsake loendis valitud real olevat linki.
-23. Sisestage number väljale Minimaalne tähtaja ületanud saldo.
-24. Sisestage number väljale Päevad.
-25. Märkige see ruut kliendi jaoks täiendavate tarnete ja arvelduste peatamiseks.
-    * Kontolt blokeeringu eemaldamiseks tehke lehe Kliendid väljal Arveldamine ja tarne ootel valik Ei.  
-26. Laiendage kiirkaarti Märkus.
-27. Sisestage valitud märgukirjakoodi puhul märgukirjas kuvatav tekst.
-    * Saate selle teksti tõlkida mitmesse keelde, kasutades märkuse kasti kohal olevat menüüd Tõlked.  
+23. Sisestage number väljale **Minimaalne tähtaja ületanud saldo**.
+24. Sisestage number väljale **Päevad**.
+25. Valige märkeruut **Blokeering**, et peatada kliendil edasiste saadetiste ja arvete saatmine. Kontolt blokeeringu eemaldamiseks tehke lehe Kliendid väljal Arveldamine ja tarne ootel valik **Ei**.  
+26. Laiendage kiirkaarti **Märkus**.
+27. Sisestage valitud märgukirjakoodi puhul märgukirjas kuvatav tekst. Saate selle teksti tõlkida mitmesse keelde, kasutades märkuse kasti kohal olevat menüüd Tõlked.  
 

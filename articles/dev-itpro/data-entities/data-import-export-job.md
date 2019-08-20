@@ -3,28 +3,29 @@ title: Andmete importimis- ja eksportimistööd
 description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 03/11/2019
+ms.date: 07/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505790"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862900"
 ---
 # <a name="data-import-and-export-jobs"></a>Andmete importimis- ja eksportimistööd
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Rakenduses Microsoft Dynamics 365 for Finance and Operations andmete impordi- ja eksporditööde loomiseks ning haldamiseks kasutage tööruumi **Andmehaldus**. Vaikimisi loob andmeimpordi ja -ekspordi protsess igale sihtandmebaasi üksusele koondamistabeli. Koondamistabelid võimaldavad andmeid enne teisaldamist kontrollida, puhastada või teisendada.
 
@@ -129,8 +130,8 @@ Töö saab kaitsta korraga rollide, kasutajate ja juriidiliste isikute kaudu.
 ## <a name="run-the-import-or-export-job"></a>Impordi- või eksporditöö käivitamine
 Töö saab käivitada ühe korra, valides pärast töö määratlemist nupu **Impordi** või **Ekspordi**. Korduva töö seadistamiseks valige **Korduva andmetöö loomine**.
 
-[!NOTE]
-Importimis- või eksportimistööd saab käivitada asünkroonselt, kui valite nupu **Impordi** või **Ekspordi**. Asünkroonne käivitamine kasutab platvormi Finance and Operations asünkroonimisraamistikku, mis erineb paketiraamistikust. Kui nii nagu paketiraamistikku võidakse asünkroonimisraamistikku ahendada ja selle tulemusel ei tarvitse töö kohe käivituda. Töid saab käivitada ka sünkroonselt, kui valite nupu **Impordi kohe** või **Ekspordi kohe**. See käivitab töö kohe ja on kasulik siis, kui asünkroonimine või paketi ahendamise tõttu kohe ei käivitu. Töid saab käivitada ka paketina, kui valida käsk **Pakettkäivitus**. Paketiressursid kuuluvad ahendamisele, seega pakett-töö ei tarvitse kohe käivituda. Asünkroonimise võimalus on kasulik, kui kasutajad suhtlevad otse kasutajaliidesega ega ole lauskasutajad, et saada aru paketiplaneerimisest. Paketi kasutamine on alternatiivne võimalus suurte hulkade eksportimiseks või importimiseks. Pakett-töid saab planeerida käivituma kindlate paketigruppide korral, mis koormuse ühtlustamise seisukohast võimaldab suuremat kontrolli. Kui nii asünkroonimist kui ka paketti parasjagu süsteemi suure ressursikasutuse tõttu ahendataks, siis võib viivitamatu vastukaaluna kasutada sünkroonset importimist/eksportimist. Sünkroonne variant käivitub kohe ja blokeerib kasutajaliidese, kuna toimub sünkroonselt. Brauseri aken peab jääma sünkroonse toimingu ajal avatuks.
+> [!NOTE]
+> Importimis- või eksportimistööd saab käivitada asünkroonselt, kui valite nupu **Impordi** või **Ekspordi**. Asünkroonne käivitamine kasutab platvormi Finance and Operations asünkroonimisraamistikku, mis erineb paketiraamistikust. Kui nii nagu paketiraamistikku võidakse asünkroonimisraamistikku ahendada ja selle tulemusel ei tarvitse töö kohe käivituda. Töid saab käivitada ka sünkroonselt, kui valite nupu **Impordi kohe** või **Ekspordi kohe**. See käivitab töö kohe ja on kasulik siis, kui asünkroonimine või paketi ahendamise tõttu kohe ei käivitu. Töid saab käivitada ka paketina, kui valida käsk **Pakettkäivitus**. Paketiressursid kuuluvad ahendamisele, seega pakett-töö ei tarvitse kohe käivituda. Asünkroonimise võimalus on kasulik, kui kasutajad suhtlevad otse kasutajaliidesega ega ole lauskasutajad, et saada aru paketiplaneerimisest. Paketi kasutamine on alternatiivne võimalus suurte hulkade eksportimiseks või importimiseks. Pakett-töid saab planeerida käivituma kindlate paketigruppide korral, mis koormuse ühtlustamise seisukohast võimaldab suuremat kontrolli. Kui nii asünkroonimist kui ka paketti parasjagu süsteemi suure ressursikasutuse tõttu ahendataks, siis võib viivitamatu vastukaaluna kasutada sünkroonset importimist/eksportimist. Sünkroonne variant käivitub kohe ja blokeerib kasutajaliidese, kuna toimub sünkroonselt. Brauseri aken peab jääma sünkroonse toimingu ajal avatuks.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Kontrollimine, et töö toimus õigesti
 Töö ajalugu on tõrkeotsinguks ja uurimiseks saadaval nii impordi- kui ka eksporditööde puhul. Varasemad töötsüklid on korraldatud ajavahemike alusel.
@@ -153,6 +154,8 @@ Koondamisandmed saab laadida eksporditööde puhul alla failina või impordi- ja
 Käivitamise üksikasjadest saab avada ka käivituslogi.
 
 ## <a name="clean-up-the-staging-tables"></a>Koondamistabelite puhastamine
+Alates platvormivärskendusest 29, on see funktsioon aegunud. See on asendatud töö ajaloo puhastamise funktsiooni uue versiooniga, mida allpool selgitatakse.
+
 Koondamistabelid saab puhastada, kasutades funktsiooni **Koondamise puhastamine** tööruumis **Andmehaldus**. Järgmiste valikute abil saate valida, millised kirjed millisest koondamistabelist kustutada tuleks.
 
 - **Üksus** – kui antud on ainult üksus, kustutatakse kõik selle üksuse kirjed koondamistabelist. Selle valiku abil saate kustutada kõik üksuse andmed kõigi andmeprojektide ja kõigi tööde lõikes.
@@ -160,3 +163,37 @@ Koondamistabelid saab puhastada, kasutades funktsiooni **Koondamise puhastamine*
 - **Andmeprojektid** – kui valitud on ainult andmeprojekt, kustutatakse valitud andmeprojekti kõigi üksuste kõik kirjed kõigi tööde lõikes.
 
 Kustutatava kirjekogumi täiendavaks piiramiseks saab valikuid ka kombineerida.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Tööajaloo puhastamine (saadaval platvormivärskenduses 29 ja uuemate versioonide puhul)
+
+Tööajaloo puhastamise funktsiooni tuleb andmehaldustöös kasutada käivitusajaloo perioodilise puhastuse planeerimiseks. See funktsioon asendab eelmise koondamistabeli puhastamise funktsiooni, mis on nüüd aegunud. Puhastamise käigus puhastatakse järgmised tabelid.
+
+-   Kõik koondamistabelid
+
+-   DMFSTAGINGVALIDATIONLOG
+
+-   DMFSTAGINGEXECUTIONERRORS
+
+-   DMFSTAGINGLOGDETAIL
+
+-   (DMFSTAGINGLOG)
+
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+
+-   DMFEXECUTION
+
+-   DMFDEFINITIONGROUPEXECUTION
+
+Funktsioonile pääseb juurde kohast **Andmehaldus \>Tööajaloo puhastamine**.
+
+### <a name="scheduling-parameters"></a>Parameetrite planeerimine
+
+Puhastamise protsessi planeerimisel tuleb täpsustada puhastuse kriteeriumite järgmised parameetrid.
+
+-   **Ajaloo säilitamise päevade arv** – seda sätet kasutatakse säilitatava käivitusajaloo hulga kontrollimiseks. Väljal määratud päevade arv. Kui puhastustöö on ajastatud korduva pakett-tööna, siis see säte tegutseb nagu pidevalt teisaldatav aken, jättes alati määratud päevade arvu puutumata kui ülejäänud kustutatakse. Vaikeväärtus on 7.
+
+-   **Töö täitmiseks minevate tundide arv** – sõltuvalt puhastatavad ajaloo kogusest võib puhastustöö täitmisaeg varieeruda mõnest minutist kuni mõne tunnini. Kuna nimetatud tabelite puhastamine tuleb teha siis, kui süsteemis pole muud andmehaldustegevust, on oluline veenduda, et puhastustöö käivitub ja lõpetab enne äritegevuse alustamist.
+
+    Maksimaalse käivitusaja saab määrata, sätestades maksimumpiirangu tundide arvule, mille jooksul töö peab selle sätte abil käivitama. Puhastamise loogika läbib ühe töö käivituse ID korraga kronoloogiliselt korraldatud jadas, millest seotud tööajaloo vanim puhastatakse esimesena. See lõpetab uute käivituse ID-de valimise puhastamiseks, kui järelejäänud täitmise kestus on määratus kestuse viimase 10% sees. Mõnel juhul eeldatakse, et puhastamise töö kestab kauem kui määratud maksimaalne aeg. See sõltub suurel määral praeguse käivituse ID-ga kustutatavate kirjete arvust, mis käivitati enne 10% künnise saavutamist. Alustatud puhastamine tuleb lõpule viia, et tagada andmete terviklikkus, mis tähendab, et puhastamine jätkub, vaatamata määratud piirmäärangu ületamisele. Kui see on lõpule jõudnud, uusi käivituse ID-sid pole valitud ja puhastamise töö viiakse lõpule. Järelejäänud täitmise ajalugu, mida ei puhastata piisava täitmisaja puudumise tõttu, võetakse tööle järgmisel korral, kui puhastamine on sätestatud. Selle sätte vaikeväärtus ja miinimumväärtus on seatud 2 tunniks.
+
+-   **Korduvpartii** – puhastamise tööd saab käitada ühekordse käsitsi käivitusena või seda saab ajastada ka korduva partii käivitamise jaoks. Partiid saab ajastada, kasutades seadistusi **Käivita taustal**, mis on standardne partiikomplekt.

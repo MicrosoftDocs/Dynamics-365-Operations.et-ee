@@ -3,7 +3,7 @@ title: Funktsioonihalduse ülevaade
 description: See teema kirjeldab funktsioonihaldust ja kuidas seda kasutada.
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/14/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1632049"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862934"
 ---
 # <a name="feature-management-overview"></a>Funktsioonihalduse ülevaade
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Igale Microsoft Dynamics 365 for Finance and Operationsi väljalaskele lisatakse funktsioone ja nende uuendusi. Funktsioonihalduse kogemus pakub tööruumi, kus saate vaadata igale väljalaskele lisatud funktsioonide loendit. Vaikimisi on uued funktsioonid välja lülitatud. Saate kasutada tööruumi funktsioonide sisselülitamiseks ja nende dokumentatsiooni vaatamiseks.
 
@@ -60,6 +61,10 @@ Kui funktsioon ei ole sisse lülitatud, kuvatakse üksikasjade paanil nupp **Lub
 
 Mõnda funktsiooni ei saa pärast sisse lülitamist välja lülitada. Kui funktsiooni, mida proovite sisse lülitada, ei saa välja lülitada, kuvatakse hoiatus. Saate valida nupu **Tühista** toimingu tühistamiseks ja jätta funktsiooni väljalülitatuks. Kui aga valite nupu **Luba** funktsiooni sisselülitamiseks, ei saa te seda hiljem välja lülitada.
 
+Mõni funktsioon kuvab sõnumi, mis annab lisateavet enne nende sisselülitamist. Need omadused on tähistatud kollase hoiatussümboliga. Lugege lisateavet hoolikalt, et paremini mõista, mis juhtub, kui funktsioon on lubatud. Siiski saate endiselt valida suvandi **Luba**, et funktsioon sisse lülitada.
+
+Mõni funktsioon kuvab sõnum, et funktsiooni ei saa enne toimingu tegemist lubada. Need omadused on tähistatud punane X hoiatussümboliga. Enne funktsiooni lubamist peate täitma kirjelduses kirjeldatud toimingud. Näiteks kui te ei saa kasutada funktsiooni kuni konfiguratsioonivõti on keelatud, siis peate esmalt keelama konfiguratsioonivõtme ja seejärel naasma funktsiooni haldusesse funktsiooni lubamiseks.
+
 Kui funktsioon on sisse lülitatud, kuvatakse teade üksikasjade paani lingi **Lisateave** all. See teade kas ütleb, et funktsioon lülitati sisse, või näitab kuupäeva, millal on funktsioon plaanitud sisse lülitada. See ilmub iga kord, kui valite selle funktsiooni funktsioonide loendist.
 
 Funktsioonid, mis on plaanitud tulevikus sisse lülitada, kuvatakse vahekaardil **Plaanitud**. Pakktöötlus lülitab need määratud kuupäeval keskööl sisse, lähtudes süsteemi kuupäevaga tähistatud ajavööndist.
@@ -84,12 +89,28 @@ Kui funktsioon on välja lülitatud, kuvatakse teade üksikasjade paani lingi **
 
 Mõnikord lisatakse kriitiline funktsioon, mis tuleb uuendamisel automaatselt sisse lülitada. Need funktsioonid lülitatakse sisse automaatselt väljas **Luba kuupäeval** määratud kuupäeval. Nende funktsioonide kohta kuvatakse teade üksikasjade paani lingi **Lisateave** all. See teade kas ütleb, et funktsioon lülitati sisse, või näitab kuupäeva, millal funktsioon sisse lülitatakse. See ilmub iga kord, kui valite selle funktsiooni funktsioonide loendist.
 
+## <a name="enable-all-features"></a>Kõigi funktsioonide lubamine
+
+Vaikimisi lülitatakse kõik teie keskkonda lisatavad funktsioonid välja, kui need pole kohustuslikud funktsioonid. Kõik funktsioonid saate lubada, kui valite nupu **Luba kõik**. 
+
+Kui valite **Luba kõik**, kuvatakse suvand, kus peate esitama järgmise teabe.
+- Kõigi funktsioonide loend, mis vajavad kinnitamist enne, kui neid saab lubada. Kui soovite funktsioone loendis lubada, valige väärtus **Jah** nupul **Luba funktsioonid, mis vajavad kinnitust**.
+- Kõik funktsioonid, mida saab lubada, on lubatud. Neid funktsioone ei saa lubada.
+
+Kõik funktsioonid, mida saab lubada, on lubatud. Kui funktsioon on juba plaanitud tulevikus lubatuks, siis ajakava ei muutu. 
+
 ## <a name="turn-on-all-features-automatically"></a>Kõikide funktsioonide automaatselt sisselülitamine
 
 Vaikimisi lülitatakse kõik teie keskkonda lisatavad funktsioonid välja, kui need pole kohustuslikud funktsioonid. Kuid kui soovite kõiki uusi funktsioone automaatselt sisse lülitada, saate kasutada ripploendit tööruumi nime all, et muuta, mis juhtub uute funktsioonide lisamisel.
 
 - Valige suvand **Kõik uued funktsioonid lubatakse vaikimisi**, et kõik uued funktsioonid teie keskkonda lisamisel automaatselt sisse lülitada.
 - Valige suvand **Kõik uued funktsioonid keelatakse vaikimisi**, et kõik uued funktsioonid teie keskkonda lisamisel automaatselt välja lülitada.
+
+Kui lubate kõik funktsioonid automaatselt, lubab see kõik funktsioonid, mis oleks lubatud, kui klõpsate nuppu **Luba kõik**. See ei luba kinnitamist nõudvaid funktsioone või funktsioone, mida ei saa enne toimingu tegemist lubada.
+
+## <a name="check-for-updates"></a>Otsi värskendusi
+
+Funktsioonid lisatakse teie keskkonda pärast iga värskendust. Siiski saate käsitsi värskendusi otsida, klõpsates nuppu **Otsi värskendusi**. Iga funktsioon, mis lisati süsteemi pärast värskendust, lisatakse funktsioonide loendisse. Näiteks kui kaasatud funktsioon on lubatud pärast väljaandmist, siis saate otsida värskendusi ja funktsioon lisatakse teie loendisse.
 
 ## <a name="assigning-roles"></a>Rollide määramine
 

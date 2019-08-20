@@ -1,88 +1,75 @@
 ---
-title: Saate häälestada hankija arve poliitikaid.
-description: Hankija arvepoliitikad käivitatakse, kui sisestate hankija arve leheküljel Hankija arve ja avate lehekülje Hankija arve poliitika rikkumised.
+title: Hankija arve poliitikate seadistamine
+description: Selles teemas selgitatakse, kuidas seadistada hankija arve poliitikaid rakenduses Dynamics 365 for Finance and Operations.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b424eee7c91ef1085c98828c0d5e5cf674717a81
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 328aafd16496fdbb963c9aa40a5c13005be7a382
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559660"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842805"
 ---
-# <a name="set-up-vendor-invoice-policies"></a>Saate häälestada hankija arve poliitikaid.
+# <a name="set-up-vendor-invoice-policies"></a>Hankija arve poliitikate seadistamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Hankija arvepoliitikad käivitatakse, kui sisestate hankija arve leheküljel Hankija arve ja avate lehekülje Hankija arve poliitika rikkumised. Hankija arve töövoogu saate konfigureerida ka selliselt, et hankija arve poliitikad käivitatakse iga kord, kui sisestate arve töövoogu. 
+Selles teemas selgitatakse, kuidas seadistada hankija arve poliitikaid rakenduses Dynamics 365 for Finance and Operations. Hankija arvepoliitikad käivitatakse, kui sisestate hankija arve leheküljel Hankija arve ja avate lehekülje Hankija arve poliitika rikkumised. Hankija arve töövoogu saate konfigureerida ka selliselt, et hankija arve poliitikad käivitatakse iga kord, kui sisestate arve töövoogu. 
 
-Hankija arvepoliitikad ei kehti arvetele, mis on loodud arveregistris või arve töölehel. 
-
-Arvete võrdlemise kinnitamisel ei kasutata hankija arvepoliitikaid, vaid selle sätted määratakse leheküljel Ostureskontro parameetrid.
-
-Salvestamisel kasutatakse demoettevõtte USMF-i. Järgmiste sammude tegemiseks on vaja ostureskontro juhi või pearaamatupidaja rolli. Enne alustamist veenduge, et valitud on konfiguratsioonivõti Arvete vastendamine.
+- Hankija arvepoliitikad ei kehti arvetele, mis on loodud arveregistris või arve töölehel.  
+- Arvete võrdlemise kinnitamisel ei kasutata hankija arvepoliitikaid, vaid selle sätted määratakse leheküljel Ostureskontro parameetrid.  
+- Salvestamisel kasutatakse demoettevõtte USMF-i. Järgmiste sammude tegemiseks on vaja ostureskontro juhi või pearaamatupidaja rolli. Enne alustamist veenduge, et valitud on konfiguratsioonivõti Arvete vastendamine.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>Hankija arve poliitikate loomise ettevalmistus
-1. Avage Ostureskontro > Seadistus > Ostureskontro parameetrid.
-2. Klõpsake vahekaarti Arve kinnitamine.
-3. Märkige või tühjendage ruut Arve päise oleku automaatne värskendus.
-4. Klõpsake nuppu OK.
-5. Valige suvand väljal Lahknevustega arvete sisestamine.
+1. Avage **Navigeerimispaan > Moodulid > Ostureskontro > Häälestus > Ostureskontro parameetrid**.
+2. Valige vahekaart **Arve kinnitamine**.
+3. Valige või tühjendage oleku **Arve päise automaatne uuendamine** märkeruut.
+4. Valige nupp **OK**.
+5. Valige suvand väljal **Lahknevustega arve sisestamine**.
 6. Sulgege leht.
-7. Avage Ostureskontro > Poliitika seadistus > Hankija arvepoliitikad.
-8. Klõpsake valikut Parameetrid.
-9. Klõpsake btnAdd.
-10. Sulgege leht.
+7. Avage **Navigeerimispaan > Moodulid > Ostureskontro > Poliitika häälestus > Hankija arve poliitika**.
+8. Valige **Parameetrid**.
+9. Valige **Lisa**.
+10. Avalehele naasmiseks sulgege lehekülg.
 
 ## <a name="create-policy-rule-types-for-vendor-invoices"></a>Hankija arvete poliitika reegli tüüpide loomine
-1. Avage Ostureskontro > Poliitika seadistus > Hankija arve poliitikareegli tüübid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Reegli nimi.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Klõpsake väljal Päringu nimi otsingu avamiseks ripploendi nuppu.
-6. Otsige loendist ja valige soovitud kirje.
-7. Klõpsake loendis valitud real olevat linki.
-8. Klõpsake nuppu Salvesta.
-9. Sulgege leht.
+1. Avage **Navigeerimispaan > Moodulid > Ostureskontro > Poliitika häälestus > Hankija arve poliitika reegli tüübid**.
+2. Valige suvand **Uus**.
+3. Sisestage väärtused väljadele **Reegli nimi** ja **Kirjeldus**.
+4. Valige väljal **Päringu nimi** otsingu avamiseks ripploendi nupp ja seejärel valige soovitud kirje.
+5. Valige käsk **Salvesta**.
+6. Avalehele naasmiseks sulgege lehekülg.
 
 ## <a name="define-a-vendor-invoice-policy"></a>Hankija arvepoliitika määratlemine
-1. Avage Ostureskontro > Poliitika seadistus > Hankija arvepoliitikad.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Nimi.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Laiendage või ahendage jaotist Poliitika organisatsioonid.
-6. Valige puul Contoso Entertainment System USA.
-7. Klõpsake vahekaarti Lisa.
-8. Laiendage või ahendage jaotist Poliitika reeglid.
-9. Klõpsake valikut Loo poliitika reegel.
-10. Sisestage väärtus väljale Poliitika reegel.
-11. Klõpsake käsku Filtreeri.
-12. Klõpsake vahekaarti Lisa.
-13. Märkige loendis valitud rida.
-14. Klõpsake väljal Tabel otsingu avamiseks ripploendi nuppu.
-15. Klõpsake loendis valitud real olevat linki.
-16. Klõpsake väljal Tuletatud tabel otsingu avamiseks ripploendi nuppu.
-17. Klõpsake loendis valitud real olevat linki.
-18. Klõpsake väljal Väli otsingu avamiseks ripploendi nuppu.
-19. Sisestage väärtus väljale Väli.
-20. Sulgege leht.
-21. Sisestage väärtus väljale Kriteeriumid.
-22. Klõpsake nuppu OK.
-23. Klõpsake nuppu OK.
-24. Sulgege leht.
-25. Sulgege leht.
+1. Avage **Navigeerimispaan > Moodulid > Ostureskontro > Poliitika häälestus > Hankija arve poliitika**.
+2. Valige suvand **Uus**.
+3. Sisestage väärtused väljadele **Nimi** ja **Kirjeldus**.
+4. Laiendage või ahendage jaotist **Poliitika organisatsioonid**.
+5. Valige puust **Contoso Entertainment System USA**.
+6. Valige **Lisa**.
+7. Laiendage või ahendage jaotist **Poliitika reeglid**.
+8. Valige **Poliitika reegli loomine**.
+9. Sisestage väärtus väljale **Poliitika reegli kirjeldus**.
+10. Valige **Filter**.
+11. Valige **Lisa**. Valige soovitud kirje.
+12. Väljadel **Tabel**, **Tuletatud tabel** ja **Väli**, valige või sisestage suvandid ripploendi menüüdest.
+13. Sulgege leht.
+14. Sisestage väärtus väljale **Kriteerium**.
+15. Valige nupp **OK**.
+16. Valige nupp **OK**.
+17. Avalehele naasmiseks sulgege leheküljed.
 

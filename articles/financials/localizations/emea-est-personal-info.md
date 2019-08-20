@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Estonia
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 65f171b768f7f9cbc1032a6d1469d2b6518416c5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2af550ecaa1135f258ad1912d14f4048594db4e1
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547213"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852191"
 ---
 # <a name="personal-information-requests-for-estonia"></a>Isikuandmete taotlused Eesti puhul
 

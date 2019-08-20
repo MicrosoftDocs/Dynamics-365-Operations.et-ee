@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: f6074906dc77f17d10cc2fb94a4ded7cb8b32f14
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595681"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850947"
 ---
 # <a name="before-you-buy"></a>Enne ostmist
 
@@ -39,7 +39,7 @@ Nüüd saate juurutada Microsoft Dynamics 365 for Finance and Operationsi pilve 
 
 Asutusesisese juurutamisvaliku valimisel tuleb kaaluda järgmisi aspekte.
 
-- Regulatiivsed ja nõuetelevastavuse nõuded, mis ei ole saadaval [pilvesertides](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- Regulatiivsed ja nõuetelevastavuse nõuded, mis ei ole saadaval pilvesertides
 - Ühenduseta äriprotsess ajutise Interneti-ühendusega, mida on vaja teenusesse Microsoft Dynamics Lifecycle Services (LCS) juurdepääsuks rakenduste elutsükli haldamiseks
 - [Funktsioonid, mida pole praegu kohapealsetes juurutustes rakendatud](features-not-implemented-on-prem.md)
 - [Minimaalsed taristunõuded](system-requirements-on-prem.md#minimum-infrastructure-requirements)

@@ -3,26 +3,26 @@ title: Kvaliteettellimuste seadistamine
 description: See protseduur näitab teile, kuidas lubada kvaliteedijuhtimise protsess, kui sissetulevaid varusid tuleb kontrollida kohe pärast saabumise registreerimist.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters, InventTestReportSetup, InventTestTable, DefaultDashboard, InventTestVariable, InventTestVariableOutcome, InventItemSampling, InventTestQualityGroup, InventTestItemQualityGroupAdd, SysQueryForm, InventTestItemQualityGroup, InventTestGroup, InventTestAssociationTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a073de7bdfd2ef597c09a8066ff2b6a7721ca62
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0119ae07e490f048dbb021983e25889cb1cb42b3
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561313"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845342"
 ---
 # <a name="set-up-quality-orders"></a>Kvaliteettellimuste seadistamine
 
@@ -32,115 +32,102 @@ See protseduur näitab teile, kuidas lubada kvaliteedijuhtimise protsess, kui si
 
 
 ## <a name="enable-quality-management"></a>Kvaliteedijuhtimise lubamine
-1. Avage Varude haldus > Seadistus > Varude ja lao halduse parameetrid.
-2. Klõpsake vahekaarti Kvaliteedijuhtimine.
-3. Määrake suvandi Kasuta kvaliteedijuhtimist sätteks Jah.
-4. Klõpsake suvandit Aruande seadistus.
-    * USMF-is on kvaliteedijuhtimise aruande seadistus juba määratletud. Kui seda pole tehtud, tuleks lisada siia uued read erinevate aruandetüüpide jaoks ja valida iga aruande jaoks kasutatav dokumenditüüp.  
+1. Avage **Navigeerimispaan > Moodulid > Varud > Häälestus > Varude ja laohalduse parameetrid**.
+2. Klõpsake vahekaardil **Kvaliteedijuhtimine**.
+3. Seadistage suvand **Kasuta kvaliteedihaldust** olekusse „Jah“.
+4. Klõpsake **Aruande seadistus**. USMF-is on kvaliteedijuhtimise aruande seadistus juba määratletud. Kui seda pole tehtud, tuleks lisada siia uued read erinevate aruandetüüpide jaoks ja valida iga aruande jaoks kasutatav dokumenditüüp.  
 5. Sulgege leht.
 6. Sulgege leht.
 
 ## <a name="create-a-test"></a>Katse loomine
-1. Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Katsed.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Katse.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Valige väljalt Tüüp valik Suvand.
-    * Selles näites valime valiku Suvand, mis võimaldab määrata katsetulemused eelmääratletud väärtuste alusel.  
-6. Klõpsake nuppu Salvesta.
+1. Avage **Varud > Häälestus > Kvaliteedijuhtimine > Katsed**.
+2. Klõpsake valikut **Uus**.
+3. Sisestage väärtus väljale **Test**.
+4. Sisestage väärtus väljale **Kirjeldus**.
+5. Valige suvand väljal **Tüüp**. Selles näites valime valiku Suvand, mis võimaldab määrata katsetulemused eelmääratletud väärtuste alusel.  
+6. Klõpsake valikut **Salvesta**.
 7. Sulgege leht.
 
 ## <a name="create-test-variables-to-define-the-way-test-results-are-recorded"></a>Katse muutujate loomine katsetulemuste salvestamise viisi määratlemiseks
-1. Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Katse muutujad.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Muutuja.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Klõpsake nuppu Salvesta.
-6. Klõpsake suvandit Tulemused.
-7. Klõpsake valikut Uus.
-8. Sisestage väärtus väljale Tulemus.
-9. Sisestage väljale Kirjeldus soovitud väärtus.
-10. Valige väljalt Tulemuse olek suvand Läbinud.
-11. Klõpsake nuppu Salvesta.
-12. Klõpsake valikut Uus.
-13. Sisestage väärtus väljale Tulemus.
-14. Sisestage väljale Kirjeldus soovitud väärtus.
-15. Klõpsake nuppu Salvesta.
+1. Avage **Varud > Häälestus > Kvaliteedijuhtimine > Katse muutujad**.
+2. Klõpsake valikut **Uus**.
+3. Sisestage väärtus väljale **Muutuv**.
+4. Sisestage väärtus väljale **Kirjeldus**.
+5. Klõpsake valikut **Salvesta**.
+6. Klõpsake **Tulemused**.
+7. Klõpsake valikut **Uus**.
+8. Sisestage väärtus väljale **Tulemus**.
+9. Sisestage väärtus väljale **Kirjeldus**.
+10. Valige väljal **Tulemuse olek** „Läbitud“.
+11. Klõpsake valikut **Salvesta**.
+12. Klõpsake valikut **Uus**.
+13. Sisestage väärtus väljale **Tulemus**.
+14. Sisestage väärtus väljale **Kirjeldus**.
+15. Klõpsake valikut **Salvesta**.
 16. Sulgege leht.
 17. Sulgege leht.
 
 ## <a name="set-up-item-sampling"></a>Kauba valimi seadistamine
-1. Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Kaubanäidised.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Kauba valim.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Sisestage number väljale Väärtus.
-    * See väärtus on seotud kõrvalväljal valitud koguse spetsifikatsiooniga.  
-6. Laiendage või ahendage jaotist Protsess.
-7. Märkige või tühjendage ruut Täielik blokeerimine.
-    * Selle suvandi valimisel blokeeritakse katse nurjumisel kogu saatepartii või tellimuse rea kogus. Selle mittevalimisel blokeeritakse ainult kvaliteettellimuse kaubad.  
-8. Klõpsake nuppu Salvesta.
+1. Avage **Varud > Häälestus > Kvaliteedijuhtimine > Üksuse diskreetimine**.
+2. Klõpsake valikut **Uus**.
+3. Sisestage väärtus väljale **Üksuse diskreetimine**.
+4. Sisestage väärtus väljale **Kirjeldus**.
+5. Sisestage arv väljale **Väärtus**. See väärtus on seotud kõrvalväljal valitud koguse spetsifikatsiooniga.  
+6. Laiendage või ahendage jaotist **Protsess**.
+7. Valige või tühjendage märkeruut **Täielik blokeerimine**. Selle suvandi valimisel blokeeritakse katse nurjumisel kogu saatepartii või tellimuse rea kogus. Selle mittevalimisel blokeeritakse ainult kvaliteettellimuse kaubad.  
+8. Klõpsake valikut **Salvesta**.
 9. Sulgege leht.
 
 ## <a name="create-a-quality-group"></a>Kvaliteedigrupi loomine
-1. Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Kvaliteedigrupid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Kvaliteedigrupp.
-    * Kasutage kirjeldavat nime, mis aitab teil tuvastada, millist tüüpi kaupu grupp sisaldab (valimi kriteeriumid).  
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Klõpsake nuppu Salvesta.
-6. Klõpsake käsku Lisa kaupu.
-7. Kaubakoodi rea valimine
-    * Selles näites käivitatakse filtrimine kaubakoodi põhjal.  
-8. Sisestage väärtus väljale Kriteeriumid.
-    * Näiteks sisestage T* kaubakoodide filtrimiseks, mis algavad T-ga.  
-9. Klõpsake nuppu OK.
-10. Klõpsake nuppu OK.
-11. Klõpsake suvandit Kauba kvaliteedigrupid.
+1. Avage **Varud > Häälestus > Kvaliteedijuhtimine > Kvaliteedirühmad**.
+2. Klõpsake valikut **Uus**.
+3. Sisestage väärtus väljale **Kvaliteedirühm**. Kasutage kirjeldavat nime, mis aitab teil tuvastada, millist tüüpi kaupu grupp sisaldab (valimi kriteeriumid).  
+4. Sisestage väärtus väljale **Kirjeldus**.
+5. Klõpsake valikut **Salvesta**.
+6. Klõpsake **Üksuste lisamine**.
+7. Valige rida **Kaubakood**. Selles näites käivitatakse filtrimine kaubakoodi põhjal.  
+8. Sisestage väärtus väljale **Kriteerium**. Näiteks sisestage T* kaubakoodide filtrimiseks, mis algavad T-ga.  
+9. Klõpsake valikut **OK**.
+10. Klõpsake valikut **OK**.
+11. Klõpsake nuppu **Kauba kvaliteedigrupid**.
 12. Sulgege leht.
 13. Sulgege leht.
 
 ## <a name="create-a-test-group"></a>Katsegrupi loomine
-1. Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Katsegrupid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Katsegrupp.
-    * Andke katsegrupile nimi, mis aitab teil meeles pidada, milliseid katseid tehakse ja millise kvaliteedigrupiga peaks need seostatud olema. Näiteks kui seda kasutatakse kvaliteedigrupiga, mis valib T-ga algavaid kaupu, võite selle nimeks panna T-kauba katsed.  
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Valige väljalt Kauba näidised varem loodud kauba näidiste rida.
+1. Avage **Varud > Häälestus > Kvaliteedijuhtimine > Testrühmad**.
+2. Klõpsake valikut **Uus**.
+3. Sisestage väärtus väljale **Testrühm**. Andke **Testrühmale** nimi, mis aitab teil meeles pidada, milliseid katseid teostatakse ja millise kvaliteedigrupiga see peaks seotud olema. Näiteks kui seda kasutatakse kvaliteedigrupiga, mis valib T-ga algavaid kaupu, võite selle nimeks panna T-kauba katsed.  
+4. Sisestage väärtus väljale **Kirjeldus**.
+5. Valige väljal **Üksuse diskreetimine** üksuse diskreetimise rida, mille enne lõite.
 6. Otsige loendist ja valige soovitud kirje.
-7. Klõpsake vahekaarti Lisa.
-8. Sisestage number väljale Seerianumber.
-9. Valige väljalt Katse varem loodud katse.
+7. Klõpsake käsku **Lisa**.
+8. Sisestage arv väljale **Järjekorranumber**.
+9. Valige väljal **Katse** see katse, mille enne lõite.
 10. Otsige loendist ja valige soovitud kirje.
-11. Klõpsake vahekaarti Katsetamine.
-12. Valige väljalt Muutuja varem loodud katse muutuja.
+11. Klõpsake vahekaarti **Katsetamine**.
+12. Valige väljal **Muutuja** see katse muutuja, mille enne lõite.
 13. Otsige loendist ja valige soovitud kirje.
-14. Klõpsake väljal Vaiketulemus otsingu avamiseks ripploendi nuppu.
+14. Klõpsake väljal **Vaiketulemus** otsingu avamiseks ripploendi nuppu.
 15. Klõpsake loendis valitud real olevat linki.
-16. Klõpsake nuppu Salvesta.
+16. Klõpsake valikut **Salvesta**.
 17. Sulgege leht.
 
 ## <a name="define-when-quality-orders-will-be-created"></a>Kvaliteettellimuste loomise aja määratlemine
-1. Avage Varude haldus > Seadistus > Kvaliteedijuhtimine > Kvaliteediseosed.
-2. Klõpsake valikut Uus.
-3. Valige suvand väljalt Viite tüüp.
-4. Valige väljalt Kaubakood suvand Grupp.
-    * Selles näites valime suvandi Grupp ja kasutame varem loodud kvaliteedigruppi. Võite selle seada ka valikule Tabel, et määrata kaupu käsitsi, või valida suvandi Kõik kõikide kaupade lisamiseks kvaliteettellimusse.  
-5. Valige väljalt Kaup varem loodud kvaliteedigrupp.
-    * Väljal Kaup saadaolevad suvandid olenevad sellest, mille määrate väljal Kauba kood.  
+1. Avage **Varud > Häälestus > Kvaliteedijuhtimine > Kvaliteedi seosed**.
+2. Klõpsake valikut **Uus**.
+3. Valige suvand väljal **Viite tüüp**.
+4. Valige väljal **Kaubakood** „Rühm“. Selles näites valime suvandi Grupp ja kasutame varem loodud kvaliteedigruppi. Võite selle seada ka valikule Tabel, et määrata kaupu käsitsi, või valida suvandi Kõik kõikide kaupade lisamiseks kvaliteettellimusse.  
+5. Valige väljal **Üksus** see kvaliteedi rühm, mille enne lõite. Väljal Kaup saadaolevad suvandid olenevad sellest, mille määrate väljal Kauba kood.  
 6. Otsige loendist ja valige soovitud kirje.
 7. Laiendage või ahendage jaotist Protsess.
-8. Valige suvand väljalt Sündmuse tüüp.
-    * See on katse käivitav sündmus. Siin saadaolevad suvandid olenevad protsessist, mille valisite väljal Viite tüüp.  
-9. Valige suvand väljalt Käivitamine.
-10. Laiendage või ahendage jaotist Kvaliteettellimuse protsess.
-11. Klõpsake väljal Sündmuse blokeerimine otsingu avamiseks ripploendi nuppu.
-    * Sellel väljal kuvatakse protsesside loend, mida on võimalik blokeerida, kui kvaliteettellimus on veel avatud. Suvandid olenevad sellest, mille valisite väljal Sündmuse tüüp.  
-12. Klõpsake loendis valitud real olevat linki.
-    * See oleneb eelmistest valitud väärtustest. Valige, kui blokeerida tuleb järgmised protsessid, kui lähtedokumendi reaga on seotud avatud kvaliteettellimused.  
-13. Laiendage või ahendage jaotist Tehnilised andmed.
-14. Valige väljalt Katsegrupp varem loodud katsegrupp.
+8. Valige suvand väljal **Sündmuse tüüp**. See on katse käivitav sündmus. Siin saadaolevad suvandid olenevad protsessist, mille valisite väljal Viite tüüp.  
+9. Valige suvand väljal **Täitmine**.
+10. Laiendage või ahendage jaotist **Kvaliteettellimuse protsess**.
+11. Klõpsake väljal **Sündmuste blokeerimine** otsingu avamiseks ripploendi nuppu. Sellel väljal kuvatakse protsesside loend, mida on võimalik blokeerida, kui kvaliteettellimus on veel avatud. Suvandid olenevad sellest, mille valisite väljal Sündmuse tüüp.  
+12. Klõpsake loendis valitud real olevat linki. See oleneb eelmistest valitud väärtustest. Valige, kui blokeerida tuleb järgmised protsessid, kui lähtedokumendi reaga on seotud avatud kvaliteettellimused.  
+13. Laiendage või ahendage jaotist **Spetsifikatsioonid**.
+14. Valige väljal **Testgrupp** see testgrupp, mille enne lõite.
 15. Otsige loendist ja valige soovitud kirje.
-16. Klõpsake nuppu Salvesta.
+16. Klõpsake valikut **Salvesta**.
 17. Sulgege leht.
 

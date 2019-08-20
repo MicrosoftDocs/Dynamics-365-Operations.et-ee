@@ -3,7 +3,7 @@ title: Eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada.
 author: sericks007
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624903"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863379"
 ---
 # <a name="removed-or-deprecated-features"></a>Eemaldatud või aegunud funktsioonid
 
@@ -40,10 +40,32 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 > Üksikasjalikku teavet rakenduse Finance and Operations objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas rakenduse Finance and Operations versioonis muudetud või eemaldatud.
 
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 platvormivärskendusega 28
+## <a name="dynamics-365-for-finance-and-operations-1005-with-platform-update-29"></a>Dynamics 365 for Finance and Operations 10.0.5 platvormivärskendusega 29
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 platvormivärskendusega 28 on saadaval suunatud kasutajatele eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](../../fin-and-ops/get-started/public-preview-releases.md).
+> Dynamics 365 for Finance and Operations 10.0.5 platvormivärskendusega 29 on saadaval suunatud kasutajatele eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="us-payroll-tax-updates"></a>USA palgaarvestuse maksu uuendused
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Me kõrvaldame kasutuselt USA palgaarvestuse funktsiooni maksu uuendused selle vähese kasutuse ja täiustatud funktsionaalsuse tõttu, mida pakutakse nüüd strateegiliste integratsioonide kaudu.  |
+| **Asendatud teise funktsiooniga?**   | Jah |
+| **Mõjutatud tootealad**         | Palk |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud: 1. oktoobril 2021. aastal plaanime enam USA palgaarvestuse klientidele maksu uuendusi mitte pakkuda. Funktsionaalsus jääb tootesse, kuid täiendused ei hoia enam funktsioone ajakohasena ja toote defekte hinnatakse iga juhtumi puhul eraldi. Lisateabe saamiseks vaadake teemat [USA palgaarvestuse maksu uuenduste kasutuselt kõrvaldamine lisana rakenduses Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
+
+
+### <a name="data-management-staging-clean-up"></a>Andmehalduse koondamise puhastamine
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Ei vasta põhinõuetele, mis on vajalikud perioodilise puhastamise plaanimiseks. |
+| **Asendatud teise funktsiooniga?**   | Jah, töö ajaloo puhastuse funktsioon lisatakse terviklikult. |
+| **Mõjutatud tootealad**         | Andmehaldus |
+| **Juurutamissuvand**              | Kõik  |
+| **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on aprill 2020. |
+
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 platvormivärskendusega 28
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Prantsusmaa: FEC raamatupidamisandmete eksport XML-vormingus
 
@@ -1235,7 +1257,7 @@ Sites Services võimaldab luua veebisaite, mis laiendavad äriprotsessid Interne
 
 ### <a name="virtual-company-accounts"></a>Virtuaalsed ettevõtted
 
-Virtuaalettevõtete funktsiooni ei toetata enam Dynamics AX-is. Virtuaalettevõtete funktsioon võimaldab kasutajatel seadistada ettevõtete kogumis jagatavaid tabeleid. Funktsiooni kirjelduse leiate siit: [Ettevõtete ja virtuaalettevõtete kontod](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). See funktsioon rühmitab tabelid kogumitesse, mis on määratud virtuaalsetele ettevõtetele, mis on olemasolevate „tõeliste” ettevõtete grupid. Päringud koostatakse nii, et kõik virtuaalse ettevõtte ettevõtted pääsevad seotud tabelikogumites olevate tabelite andmetele juurde.
+Virtuaalettevõtete funktsiooni ei toetata enam Dynamics AX-is. Virtuaalettevõtete funktsioon võimaldab kasutajatel seadistada ettevõtete kogumis jagatavaid tabeleid. Funktsiooni kirjelduse leiate siit: [Ettevõtete ja virtuaalettevõtete kontod](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). See funktsioon rühmitab tabelid kogumitesse, mis on määratud virtuaalsetele ettevõtetele, mis on olemasolevate „tõeliste” ettevõtete grupid. Päringud koostatakse nii, et kõik virtuaalse ettevõtte ettevõtted pääsevad seotud tabelikogumites olevate tabelite andmetele juurde.
 
 |   |  | 
 |------------|--------------------|

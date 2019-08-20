@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551833"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863720"
 ---
 # <a name="modify-row-definition-cells"></a>Rea definitsioonide lahtrite muutmine
 
@@ -402,7 +402,7 @@ Lahter **Link finantsdimensioonidele** sisaldab linke finantsandmetele, mis tule
 2. Topeltklõpsake veerus **Link finantsdimensioonidele** olevat lahtrit.
 3. Topeltklõpsake dialoogiboksis **Dimensioonid** dimensiooni nime all olevat lahtrit.
 4. Valige dimensiooni dialoogiaknas suvand **Üksik või vahemik**.
-5. Sisestage väljale **Alates** algusdimensioon või klõpsake saadaolevate dimensioonide otsimiseks ikooni ![Sirvi](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Sirvi"). Dimensioonide vahemiku sisestamiseks sisestage lõppdimensioon väljale **Kuni**.
+5. Sisestage väljale **Alates** algusdimensioon või klõpsake saadaolevate dimensioonide otsimiseks ikooni ![Sirvi](media/browse.gif "Sirvi"). Dimensioonide vahemiku sisestamiseks sisestage lõppdimensioon väljale **Kuni**.
 6. Dimensiooni dialoogiboksi sulgemiseks klõpsake nuppu **OK**. Dialoogiboksis **Dimensioonid** kuvatakse värskendatud dimensioon või vahemik.
 7. Klõpsake nuppu **OK** dialoogiboksi **Dimensioonid** sulgemiseks.
 
@@ -479,7 +479,7 @@ Järgmises tabelis kirjeldatakse dialoogiboksi **Dimensioonid** välju.
 
 | Kaup                | Kirjeldus |
 |---------------------|-------------|
-| Üksik või vahemik | Sisestage väljale **Alates** konto nimi või klõpsake nuppu **Sirvi** ![Sirvi](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Sirvi") konto sirvimiseks. Vahemiku valimiseks sisestage väärtus või sirvige seda väljal **Kuni**. |
+| Üksik või vahemik | Sisestage väljale **Alates** konto nimi või klõpsake nuppu **Sirvi** ![Sirvi](media/browse.gif "Sirvi") konto sirvimiseks. Vahemiku valimiseks sisestage väärtus või sirvige seda väljal **Kuni**. |
 | Dimensiooniväärtuste kogum | Sisestage dimensiooniväärtuste kogumi nimi väljale **Nimi**. Kogumi loomiseks, muutmiseks, kopeerimiseks või kustutamiseks klõpsake suvandit **Dimensiooniväärtuste kogumite haldamine**. Väli **Valem** täidetakse valemiga lahtrist **Link finantsdimensioonidele** readefinitsioonis määratud dimensiooniväärtuse puhul. |
 | Kontode summeerimine   | Sisestage kontode summeerimise dimensioon väljale **Nimi** või sirvige seda sellel väljal. Väli **Vorming** asustatakse valemiga lahtris **Link finantsdimensioonidele** aruande definitsiooni selle konto summeerimise puhul. |
 
