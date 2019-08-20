@@ -10,48 +10,48 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqTransPOUrgentFormPart, SysQueryForm
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f34d694171e690354721c87f07aa81e811ecdfdc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: daa185864052849b2c78d975a7eb02e9697cb618
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560320"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845162"
 ---
-# <a name="create-a-plan-for-a-site"></a><span data-ttu-id="7c769-103">Tegevuskoha jaoks plaani loomine</span><span class="sxs-lookup"><span data-stu-id="7c769-103">Create a plan for a site</span></span>
+# <a name="create-a-plan-for-a-site"></a><span data-ttu-id="13c26-103">Tegevuskoha jaoks plaani loomine</span><span class="sxs-lookup"><span data-stu-id="13c26-103">Create a plan for a site</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="7c769-104">Tootmise plaanija arvutab materjali ja võimsuse nõuded konkreetse kauba tootmiseks.</span><span class="sxs-lookup"><span data-stu-id="7c769-104">The production planner calculates the material and capacity requirements for the production of a specific item.</span></span> <span data-ttu-id="7c769-105">Pärast hankimissoovituste loomist otsib ta planeeritava tegevuskoha tellimused ja kinnitab tellimused, alustades pakilisematega.</span><span class="sxs-lookup"><span data-stu-id="7c769-105">After the sourcing suggestions are created, he finds the orders at the site for which he is planning and firms the orders, starting from the urgent ones.</span></span> <span data-ttu-id="7c769-106">Kõige pakilisemad tellimused on need, mis tuleb kinnitada käesoleval kuupäeval.</span><span class="sxs-lookup"><span data-stu-id="7c769-106">The most urgent orders are the ones that need to be firmed on the current date.</span></span> <span data-ttu-id="7c769-107">Kasutage nende ülesannete täitmiseks demoandmete ettevõtet USMF.</span><span class="sxs-lookup"><span data-stu-id="7c769-107">Use the demo data company USMF to perform these tasks.</span></span>
+<span data-ttu-id="13c26-104">Tootmise plaanija arvutab materjali ja võimsuse nõuded konkreetse kauba tootmiseks.</span><span class="sxs-lookup"><span data-stu-id="13c26-104">The production planner calculates the material and capacity requirements for the production of a specific item.</span></span> <span data-ttu-id="13c26-105">Pärast hankimissoovituste loomist otsib ta planeeritava tegevuskoha tellimused ja kinnitab tellimused, alustades pakilisematega.</span><span class="sxs-lookup"><span data-stu-id="13c26-105">After the sourcing suggestions are created, he finds the orders at the site for which he is planning and firms the orders, starting from the urgent ones.</span></span> <span data-ttu-id="13c26-106">Kõige pakilisemad tellimused on need, mis tuleb kinnitada käesoleval kuupäeval.</span><span class="sxs-lookup"><span data-stu-id="13c26-106">The most urgent orders are the ones that need to be firmed on the current date.</span></span> <span data-ttu-id="13c26-107">Kasutage nende ülesannete täitmiseks demoandmete ettevõtet USMF.</span><span class="sxs-lookup"><span data-stu-id="13c26-107">Use the demo data company USMF to perform these tasks.</span></span>
 
 
-## <a name="create-a-materials-and-capacity-plan-for-an-item"></a><span data-ttu-id="7c769-108">Kaubale materjalide ja võimsuse plaani loomine</span><span class="sxs-lookup"><span data-stu-id="7c769-108">Create a materials and capacity plan for an item</span></span>
-1. <span data-ttu-id="7c769-109">Klõpsake valikul Koondplaneerimine.</span><span class="sxs-lookup"><span data-stu-id="7c769-109">Click Master planning.</span></span>
-    * <span data-ttu-id="7c769-110">Peate liikuma vaikearmatuurlauale.</span><span class="sxs-lookup"><span data-stu-id="7c769-110">You need to navigate to the default Dashboard.</span></span>  
-2. <span data-ttu-id="7c769-111">Klõpsake nuppu Käivita.</span><span class="sxs-lookup"><span data-stu-id="7c769-111">Click Run.</span></span>
-3. <span data-ttu-id="7c769-112">Jaotise kaasamiseks laiendage kirjeid.</span><span class="sxs-lookup"><span data-stu-id="7c769-112">Expand the Records to include section.</span></span>
-4. <span data-ttu-id="7c769-113">Klõpsake käsku Filtreeri.</span><span class="sxs-lookup"><span data-stu-id="7c769-113">Click Filter.</span></span>
-5. <span data-ttu-id="7c769-114">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="7c769-114">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="7c769-115">Sisestage väärtus väljale Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="7c769-115">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="7c769-116">Näide: D0001.</span><span class="sxs-lookup"><span data-stu-id="7c769-116">Example: D0001</span></span>  
-7. <span data-ttu-id="7c769-117">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="7c769-117">Click OK.</span></span>
-8. <span data-ttu-id="7c769-118">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="7c769-118">Click OK.</span></span>
-    * <span data-ttu-id="7c769-119">Selleks võib kuluda mõni minut.</span><span class="sxs-lookup"><span data-stu-id="7c769-119">This may take a few minutes.</span></span>  
-9. <span data-ttu-id="7c769-120">Värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="7c769-120">Refresh the page.</span></span>
+## <a name="create-a-materials-and-capacity-plan-for-an-item"></a><span data-ttu-id="13c26-108">Kaubale materjalide ja võimsuse plaani loomine</span><span class="sxs-lookup"><span data-stu-id="13c26-108">Create a materials and capacity plan for an item</span></span>
+1. <span data-ttu-id="13c26-109">Klõpsake valikul Koondplaneerimine.</span><span class="sxs-lookup"><span data-stu-id="13c26-109">Click Master planning.</span></span>
+    * <span data-ttu-id="13c26-110">Peate liikuma vaikearmatuurlauale.</span><span class="sxs-lookup"><span data-stu-id="13c26-110">You need to navigate to the default Dashboard.</span></span>  
+2. <span data-ttu-id="13c26-111">Klõpsake nuppu Käivita.</span><span class="sxs-lookup"><span data-stu-id="13c26-111">Click Run.</span></span>
+3. <span data-ttu-id="13c26-112">Jaotise kaasamiseks laiendage kirjeid.</span><span class="sxs-lookup"><span data-stu-id="13c26-112">Expand the Records to include section.</span></span>
+4. <span data-ttu-id="13c26-113">Klõpsake käsku Filtreeri.</span><span class="sxs-lookup"><span data-stu-id="13c26-113">Click Filter.</span></span>
+5. <span data-ttu-id="13c26-114">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="13c26-114">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="13c26-115">Sisestage väärtus väljale Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="13c26-115">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="13c26-116">Näide: D0001.</span><span class="sxs-lookup"><span data-stu-id="13c26-116">Example: D0001</span></span>  
+7. <span data-ttu-id="13c26-117">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="13c26-117">Click OK.</span></span>
+8. <span data-ttu-id="13c26-118">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="13c26-118">Click OK.</span></span>
+    * <span data-ttu-id="13c26-119">Selleks võib kuluda mõni minut.</span><span class="sxs-lookup"><span data-stu-id="13c26-119">This may take a few minutes.</span></span>  
+9. <span data-ttu-id="13c26-120">Värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="13c26-120">Refresh the page.</span></span>
 
-## <a name="identify-the-urgent-planned-orders-for-the-item"></a><span data-ttu-id="7c769-121">Pakiliste plaanitud kaubatellimuste tuvastamine</span><span class="sxs-lookup"><span data-stu-id="7c769-121">Identify the urgent planned orders for the item</span></span>
-1. <span data-ttu-id="7c769-122">Avage veeru Kaubakood filter.</span><span class="sxs-lookup"><span data-stu-id="7c769-122">Open Item number column filter.</span></span>
-2. <span data-ttu-id="7c769-123">Rakendage väljal Kaubakood filtrit väärtusega „D0001”ning kasutage filtri tehtemärki algab järgmisega.</span><span class="sxs-lookup"><span data-stu-id="7c769-123">Apply a filter on the "Item number" field, with a value of "D0001", using the "begins with" filter operator.</span></span>
-3. <span data-ttu-id="7c769-124">Avage veeru Tellimuse kuupäev filter.</span><span class="sxs-lookup"><span data-stu-id="7c769-124">Open Order date column filter.</span></span>
-4. <span data-ttu-id="7c769-125">Rakendage filtrit väljal Tellimuse kuupäev koos praeguse kuupäeva väärtusega, kasutades filtrit väärtusega „on täpselt”.</span><span class="sxs-lookup"><span data-stu-id="7c769-125">Apply a filter on the "Order date" field, with a value of current date, using the "is exactly" filter operator.</span></span>
+## <a name="identify-the-urgent-planned-orders-for-the-item"></a><span data-ttu-id="13c26-121">Pakiliste plaanitud kaubatellimuste tuvastamine</span><span class="sxs-lookup"><span data-stu-id="13c26-121">Identify the urgent planned orders for the item</span></span>
+1. <span data-ttu-id="13c26-122">Avage veeru Kaubakood filter.</span><span class="sxs-lookup"><span data-stu-id="13c26-122">Open Item number column filter.</span></span>
+2. <span data-ttu-id="13c26-123">Rakendage väljal Kaubakood filtrit väärtusega „D0001”ning kasutage filtri tehtemärki algab järgmisega.</span><span class="sxs-lookup"><span data-stu-id="13c26-123">Apply a filter on the "Item number" field, with a value of "D0001", using the "begins with" filter operator.</span></span>
+3. <span data-ttu-id="13c26-124">Avage veeru Tellimuse kuupäev filter.</span><span class="sxs-lookup"><span data-stu-id="13c26-124">Open Order date column filter.</span></span>
+4. <span data-ttu-id="13c26-125">Rakendage filtrit väljal Tellimuse kuupäev koos praeguse kuupäeva väärtusega, kasutades filtrit väärtusega „on täpselt”.</span><span class="sxs-lookup"><span data-stu-id="13c26-125">Apply a filter on the "Order date" field, with a value of current date, using the "is exactly" filter operator.</span></span>
 
-## <a name="firm-all-the-urgent-orders-for-the-item"></a><span data-ttu-id="7c769-126">Kõikide pakiliste kaubatellimuste kinnitamine</span><span class="sxs-lookup"><span data-stu-id="7c769-126">Firm all the urgent orders for the item</span></span>
-1. <span data-ttu-id="7c769-127">Märkige või tühjendage loendis kõik read.</span><span class="sxs-lookup"><span data-stu-id="7c769-127">In the list, mark or unmark all rows.</span></span>
-2. <span data-ttu-id="7c769-128">Klõpsake nuppu Kinnita.</span><span class="sxs-lookup"><span data-stu-id="7c769-128">Click Firm.</span></span>
-3. <span data-ttu-id="7c769-129">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="7c769-129">Click OK.</span></span>
+## <a name="firm-all-the-urgent-orders-for-the-item"></a><span data-ttu-id="13c26-126">Kõikide pakiliste kaubatellimuste kinnitamine</span><span class="sxs-lookup"><span data-stu-id="13c26-126">Firm all the urgent orders for the item</span></span>
+1. <span data-ttu-id="13c26-127">Märkige või tühjendage loendis kõik read.</span><span class="sxs-lookup"><span data-stu-id="13c26-127">In the list, mark or unmark all rows.</span></span>
+2. <span data-ttu-id="13c26-128">Klõpsake nuppu Kinnita.</span><span class="sxs-lookup"><span data-stu-id="13c26-128">Click Firm.</span></span>
+3. <span data-ttu-id="13c26-129">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="13c26-129">Click OK.</span></span>
 

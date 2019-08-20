@@ -10,27 +10,27 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 268014
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fab099ccd8f3dd9269143670fee0abdc24ff4782
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 95b15b05ab71dfa90b7bbf7da2d7963d09d9017e
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561447"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852205"
 ---
-# <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a><span data-ttu-id="f8eed-103">Arvete ID-de redigeerimine müügitellimustel Ida-Euroopa puhul</span><span class="sxs-lookup"><span data-stu-id="f8eed-103">Edit invoice IDs on sales orders for Eastern Europe</span></span>
+# <a name="edit-invoice-ids-on-sales-orders-for-eastern-europe"></a><span data-ttu-id="1097a-103">Arvete ID-de redigeerimine müügitellimustel Ida-Euroopa puhul</span><span class="sxs-lookup"><span data-stu-id="1097a-103">Edit invoice IDs on sales orders for Eastern Europe</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f8eed-104">See teema annab teavet müügireskontro parameetrite kohta, mis mõjutab arvenumbreid saatelehtedel ja arvetel. Teave kehtib Tšehhi Vabariigi, Eesti, Ungari, Leedu, Läti ja Poola puhul.</span><span class="sxs-lookup"><span data-stu-id="f8eed-104">This topic provides information about accounts receivable parameters that affect invoice numbers on packing slips and invoices for the Czech Republic, Estonia, Hungary, Lithuania, Latvia, and Poland.</span></span>
+<span data-ttu-id="1097a-104">See teema annab teavet müügireskontro parameetrite kohta, mis mõjutab arvenumbreid saatelehtedel ja arvetel. Teave kehtib Tšehhi Vabariigi, Eesti, Ungari, Leedu, Läti ja Poola puhul.</span><span class="sxs-lookup"><span data-stu-id="1097a-104">This topic provides information about accounts receivable parameters that affect invoice numbers on packing slips and invoices for the Czech Republic, Estonia, Hungary, Lithuania, Latvia, and Poland.</span></span>
 
-<span data-ttu-id="f8eed-105">Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis ja Poolas asuvatel juriidilistel isikutel võimaldab suvand **Arve ID redigeerimine müügitellimustel** sisestada saatelehe- ja arvenumbreid kliendi saatelehtedele ja arvetele käsitsi.</span><span class="sxs-lookup"><span data-stu-id="f8eed-105">For legal entities in Czech Republic, Estonia, Hungary, Lithuania, Latvia, and Poland, the **Edit invoice ID on Sales orders** option allows you to manually enter packing slip and invoice numbers on the customer’s packing slip and invoices.</span></span> <span data-ttu-id="f8eed-106">Lehe **Müügireskontro parameetrid** kiirkaardi **Arve** vahekaardil **Värskendused** on saadaval järgmised suvandid.</span><span class="sxs-lookup"><span data-stu-id="f8eed-106">The following options are available on the **Accounts receivable parameters** page, on the **Invoice** FastTab in the **Updates** tab.</span></span>
+<span data-ttu-id="1097a-105">Tšehhi Vabariigis, Eestis, Ungaris, Leedus, Lätis ja Poolas asuvatel juriidilistel isikutel võimaldab suvand **Arve ID redigeerimine müügitellimustel** sisestada saatelehe- ja arvenumbreid kliendi saatelehtedele ja arvetele käsitsi.</span><span class="sxs-lookup"><span data-stu-id="1097a-105">For legal entities in Czech Republic, Estonia, Hungary, Lithuania, Latvia, and Poland, the **Edit invoice ID on Sales orders** option allows you to manually enter packing slip and invoice numbers on the customer’s packing slip and invoices.</span></span> <span data-ttu-id="1097a-106">Lehe **Müügireskontro parameetrid** kiirkaardi **Arve** vahekaardil **Värskendused** on saadaval järgmised suvandid.</span><span class="sxs-lookup"><span data-stu-id="1097a-106">The following options are available on the **Accounts receivable parameters** page, on the **Invoice** FastTab in the **Updates** tab.</span></span>
 <table>
 <colgroup>
 <col width="50%" />
@@ -38,21 +38,21 @@ ms.locfileid: "1561447"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="f8eed-107"><strong> Parameeter</strong></span><span class="sxs-lookup"><span data-stu-id="f8eed-107"><strong> Parameter</strong></span></span></td>
-<td> <span data-ttu-id="f8eed-108"><strong>Kirjeldus</strong></span><span class="sxs-lookup"><span data-stu-id="f8eed-108"><strong>Description</strong></span></span></td>
+<td><span data-ttu-id="1097a-107"><strong> Parameeter</strong></span><span class="sxs-lookup"><span data-stu-id="1097a-107"><strong> Parameter</strong></span></span></td>
+<td> <span data-ttu-id="1097a-108"><strong>Kirjeldus</strong></span><span class="sxs-lookup"><span data-stu-id="1097a-108"><strong>Description</strong></span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="f8eed-109">Redigeeri arve ID-d müügitellimusel</span><span class="sxs-lookup"><span data-stu-id="f8eed-109">Edit invoice ID on sales order</span></span></td>
-<td><span data-ttu-id="f8eed-110">Kui see suvand on valitud, saate teha järgmist.</span><span class="sxs-lookup"><span data-stu-id="f8eed-110">If this option is selected, you will be able to do the following:</span></span>
+<td><span data-ttu-id="1097a-109">Redigeeri arve ID-d müügitellimusel</span><span class="sxs-lookup"><span data-stu-id="1097a-109">Edit invoice ID on sales order</span></span></td>
+<td><span data-ttu-id="1097a-110">Kui see suvand on valitud, saate teha järgmist.</span><span class="sxs-lookup"><span data-stu-id="1097a-110">If this option is selected, you will be able to do the following:</span></span>
 <ul>
-<li><span data-ttu-id="f8eed-111">Välja <strong>Saateleht</strong> redigeerimine lehel <strong>Saatelehe sisestamine</strong>.</span><span class="sxs-lookup"><span data-stu-id="f8eed-111">Edit the <strong>Packing slip</strong> field on the <strong>Packing slip posting</strong> page.</span></span></li>
-<li><span data-ttu-id="f8eed-112">Välja <strong>Arve</strong> redigeerimine lehel <strong>Arve sisestamine</strong>.</span><span class="sxs-lookup"><span data-stu-id="f8eed-112">Edit the <strong>Invoice</strong> field on the <strong>Invoice posting</strong> page.</span></span></li>
-<li><span data-ttu-id="f8eed-113">Parameetri <strong>Kontrolli kasutatavat arvenumbrit</strong> valimine.</span><span class="sxs-lookup"><span data-stu-id="f8eed-113">Select the <strong>Check the invoice number used</strong> parameter.</span></span></li>
+<li><span data-ttu-id="1097a-111">Välja <strong>Saateleht</strong> redigeerimine lehel <strong>Saatelehe sisestamine</strong>.</span><span class="sxs-lookup"><span data-stu-id="1097a-111">Edit the <strong>Packing slip</strong> field on the <strong>Packing slip posting</strong> page.</span></span></li>
+<li><span data-ttu-id="1097a-112">Välja <strong>Arve</strong> redigeerimine lehel <strong>Arve sisestamine</strong>.</span><span class="sxs-lookup"><span data-stu-id="1097a-112">Edit the <strong>Invoice</strong> field on the <strong>Invoice posting</strong> page.</span></span></li>
+<li><span data-ttu-id="1097a-113">Parameetri <strong>Kontrolli kasutatavat arvenumbrit</strong> valimine.</span><span class="sxs-lookup"><span data-stu-id="1097a-113">Select the <strong>Check the invoice number used</strong> parameter.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="f8eed-114">Kontrollige kasutatavat arvenumbrit</span><span class="sxs-lookup"><span data-stu-id="f8eed-114">Check the invoice number used</span></span></td>
-<td><span data-ttu-id="f8eed-115">Kui see suvand on valitud, kontrollib süsteem arve sisestamise protsessi ajal, ega arvenumbrit pole sisestatud arvete puhul juba olemas.</span><span class="sxs-lookup"><span data-stu-id="f8eed-115">If this option is selected, during the invoice posting process, the system will verify that the invoice number doesn&#39;t already exist for posted invoices.</span></span> <span data-ttu-id="f8eed-116">Kui see number on olemas, kuvatakse tõrketeade.</span><span class="sxs-lookup"><span data-stu-id="f8eed-116">If the number does exist, an error message is displayed.</span></span></td>
+<td><span data-ttu-id="1097a-114">Kontrollige kasutatavat arvenumbrit</span><span class="sxs-lookup"><span data-stu-id="1097a-114">Check the invoice number used</span></span></td>
+<td><span data-ttu-id="1097a-115">Kui see suvand on valitud, kontrollib süsteem arve sisestamise protsessi ajal, ega arvenumbrit pole sisestatud arvete puhul juba olemas.</span><span class="sxs-lookup"><span data-stu-id="1097a-115">If this option is selected, during the invoice posting process, the system will verify that the invoice number doesn&#39;t already exist for posted invoices.</span></span> <span data-ttu-id="1097a-116">Kui see number on olemas, kuvatakse tõrketeade.</span><span class="sxs-lookup"><span data-stu-id="1097a-116">If the number does exist, an error message is displayed.</span></span></td>
 </tr>
 </tbody>
 </table>

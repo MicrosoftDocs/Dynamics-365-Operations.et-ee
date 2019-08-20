@@ -1,52 +1,46 @@
 ---
 title: Käibemaksu arvutamine ja korrigeerimine hankija arvel
-description: Kui algne lähtedokument kuvab erinevad arvutatud maksusummade, saate neid summasid enne sisestamist korrigeerida.
+description: Selles teemas selgitatakse, kuidas kohandada müügimaksu tarnija arvel rakenduses Dynamics 365 for Finance and Operations.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice, VendTableLookup, TaxTmpWorkTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 803c038d907b68a3c72a83a3e035c4e08b8a8661
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 684529087d5348c9e02310f812f8aa6f64c6655f
+ms.sourcegitcommit: 016832198c306e8329ad21b5254e7d1cdff74c2f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545167"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862610"
 ---
-# <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a><span data-ttu-id="5e26f-103">Käibemaksu arvutamine ja korrigeerimine hankija arvel</span><span class="sxs-lookup"><span data-stu-id="5e26f-103">Calculate and adjust sales tax on a vendor invoice</span></span>
+# <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a><span data-ttu-id="3fc54-103">Käibemaksu arvutamine ja korrigeerimine hankija arvel</span><span class="sxs-lookup"><span data-stu-id="3fc54-103">Calculate and adjust sales tax on a vendor invoice</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="5e26f-104">Kui algne lähtedokument kuvab erinevad arvutatud maksusummade, saate neid summasid enne sisestamist korrigeerida.</span><span class="sxs-lookup"><span data-stu-id="5e26f-104">If the original source document displays different tax amounts as calculated, you can adjust those amounts before posting.</span></span> <span data-ttu-id="5e26f-105">See ülesanne kasutab demoettevõtte DEMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="5e26f-105">This task uses the DEMF demo company.</span></span>
+<span data-ttu-id="3fc54-104">Selles teemas selgitatakse, kuidas kohandada müügimaksu tarnija arvel rakenduses Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="3fc54-104">This topic explains how to adjust sales tax on a vendor invoice in Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="3fc54-105">Kui algne lähtedokument kuvab erinevad arvutatud maksusummade, saate neid summasid enne sisestamist korrigeerida.</span><span class="sxs-lookup"><span data-stu-id="3fc54-105">If the original source document displays different tax amounts as calculated, you can adjust those amounts before posting.</span></span> <span data-ttu-id="3fc54-106">See ülesanne kasutab demoettevõtte DEMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="3fc54-106">This task uses the DEMF demo company.</span></span>
 
-1. <span data-ttu-id="5e26f-106">Avage Ostureskontro > Arved > Arve tööleht.</span><span class="sxs-lookup"><span data-stu-id="5e26f-106">Go to Accounts payable > Invoices > Invoice journal.</span></span>
-2. <span data-ttu-id="5e26f-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="5e26f-107">Click New.</span></span>
-3. <span data-ttu-id="5e26f-108">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="5e26f-108">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="5e26f-109">Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="5e26f-109">In the Name field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="5e26f-110">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="5e26f-110">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="5e26f-111">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="5e26f-111">Click Lines.</span></span>
-7. <span data-ttu-id="5e26f-112">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="5e26f-112">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="5e26f-113">Täpsustage soovitud väärtusi väljal Konto.</span><span class="sxs-lookup"><span data-stu-id="5e26f-113">In the Account field, specify the desired values.</span></span>
-9. <span data-ttu-id="5e26f-114">Sisestage väärtus väljale Arve.</span><span class="sxs-lookup"><span data-stu-id="5e26f-114">In the Invoice field, type a value.</span></span>
-10. <span data-ttu-id="5e26f-115">Sisestage arv väljale Kreedit.</span><span class="sxs-lookup"><span data-stu-id="5e26f-115">In the Credit field, enter a number.</span></span>
-11. <span data-ttu-id="5e26f-116">Täpsustage soovitud väärtusi väljal Vastaskonto.</span><span class="sxs-lookup"><span data-stu-id="5e26f-116">In the Offset account field, specify the desired values.</span></span>
-12. <span data-ttu-id="5e26f-117">Klõpsake suvandit Käibemaks.</span><span class="sxs-lookup"><span data-stu-id="5e26f-117">Click Sales tax.</span></span>
-13. <span data-ttu-id="5e26f-118">Sisestage number väljale Tegeliku käibemaksu kogusumma.</span><span class="sxs-lookup"><span data-stu-id="5e26f-118">In the Total actual sales tax amount field, enter a number.</span></span>
-14. <span data-ttu-id="5e26f-119">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="5e26f-119">Click OK.</span></span>
-15. <span data-ttu-id="5e26f-120">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="5e26f-120">Click Save.</span></span>
-16. <span data-ttu-id="5e26f-121">Klõpsake suvandit Käibemaks.</span><span class="sxs-lookup"><span data-stu-id="5e26f-121">Click Sales tax.</span></span>
-17. <span data-ttu-id="5e26f-122">Vahekaardil Korrigeerimine saab korrigeerida käibemaksusummat käibemaksukoodi kohta.</span><span class="sxs-lookup"><span data-stu-id="5e26f-122">On the Adjustment tab, the sales tax amounts can be adjusted per sales tax code.</span></span>
-18. <span data-ttu-id="5e26f-123">Klõpsake suvandit Tegeliku väärtuse lähtestamine arvutatud summadest.</span><span class="sxs-lookup"><span data-stu-id="5e26f-123">Click Reset actual from calculated amounts.</span></span>
-19. <span data-ttu-id="5e26f-124">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="5e26f-124">Click OK.</span></span>
-20. <span data-ttu-id="5e26f-125">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="5e26f-125">Click Save.</span></span>
+1. <span data-ttu-id="3fc54-107">Avage navigeerimispaanil **Moodulid > Ostureskontro > Arved > Arve tööleht**.</span><span class="sxs-lookup"><span data-stu-id="3fc54-107">In the navigation pane, go to **Modules > Accounts payable > Invoices > Invoice journal**.</span></span>
+2. <span data-ttu-id="3fc54-108">Valige suvand **Uus**.</span><span class="sxs-lookup"><span data-stu-id="3fc54-108">Select **New**.</span></span>
+3. <span data-ttu-id="3fc54-109">Uue veeru väljal **Nimi** valige ripploendist suvand.</span><span class="sxs-lookup"><span data-stu-id="3fc54-109">In the **Name** field of the new row, select an option in the drop-down menu.</span></span>
+4. <span data-ttu-id="3fc54-110">Toimingupaanil valige nupp **Alused**.</span><span class="sxs-lookup"><span data-stu-id="3fc54-110">In the Action Pane, select **Lines**.</span></span>
+5. <span data-ttu-id="3fc54-111">Täpsustage soovitud väärtusi väljal **Konto**.</span><span class="sxs-lookup"><span data-stu-id="3fc54-111">In the **Account** field, specify the desired values.</span></span>
+6. <span data-ttu-id="3fc54-112">Sisestage väärtus väljale **Arve**.</span><span class="sxs-lookup"><span data-stu-id="3fc54-112">In the **Invoice** field, type a value.</span></span>
+7. <span data-ttu-id="3fc54-113">Sisestage number väljale **Kreedit**.</span><span class="sxs-lookup"><span data-stu-id="3fc54-113">In the **Credit** field, enter a number.</span></span>
+8. <span data-ttu-id="3fc54-114">Määratlega väljal **Vastaskonto** soovitud väärtused.</span><span class="sxs-lookup"><span data-stu-id="3fc54-114">In the **Offset account** field, specify the desired values.</span></span>
+9. <span data-ttu-id="3fc54-115">Valige **Käibemaks**.</span><span class="sxs-lookup"><span data-stu-id="3fc54-115">Select **Sales tax**.</span></span>
+10. <span data-ttu-id="3fc54-116">Sisestage number väljale **Tegeliku käibemaksu kogusumma**.</span><span class="sxs-lookup"><span data-stu-id="3fc54-116">In the **Total actual sales tax amount** field, enter a number.</span></span>
+11. <span data-ttu-id="3fc54-117">Vahekaardil **Korrigeerimine** saab korrigeerida käibemaksusummat käibemaksukoodi kohta.</span><span class="sxs-lookup"><span data-stu-id="3fc54-117">On the **Adjustment** tab, the sales tax amounts can be adjusted per sales tax code.</span></span>
+12. <span data-ttu-id="3fc54-118">Valige **Tegeliku väärtuse lähtestamine arvutatud summadest**.</span><span class="sxs-lookup"><span data-stu-id="3fc54-118">Select **Reset actual from calculated amounts**.</span></span>
+13. <span data-ttu-id="3fc54-119">Valige nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="3fc54-119">Select **OK**.</span></span>
+14. <span data-ttu-id="3fc54-120">Valige käsk **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="3fc54-120">Select **Save**.</span></span>
 

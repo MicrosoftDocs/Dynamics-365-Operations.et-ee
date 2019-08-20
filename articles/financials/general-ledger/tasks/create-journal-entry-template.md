@@ -10,57 +10,57 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a749740b62e39202d502a112f947679f85ca085
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1a3fb750e04fb134fc9ac38d9a47201803566113
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562493"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846627"
 ---
-# <a name="create-a-journal-entry-using-template"></a><span data-ttu-id="4066d-103">Töölehe sisestuse loomine malli abil</span><span class="sxs-lookup"><span data-stu-id="4066d-103">Create a journal entry using template</span></span>
+# <a name="create-a-journal-entry-using-template"></a><span data-ttu-id="027ed-103">Töölehe sisestuse loomine malli abil</span><span class="sxs-lookup"><span data-stu-id="027ed-103">Create a journal entry using template</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4066d-104">Sisestatud töölehe kandeid saab salvestada Kande mallidena ja rakendada uue töölehe kandes.</span><span class="sxs-lookup"><span data-stu-id="4066d-104">Posted journal vouchers can be saved as Voucher templates and applied in a new journal voucher.</span></span> <span data-ttu-id="4066d-105">See protsess kasutab demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="4066d-105">This procedure uses the USMF demo company.</span></span>
+<span data-ttu-id="027ed-104">Sisestatud töölehe kandeid saab salvestada Kande mallidena ja rakendada uue töölehe kandes.</span><span class="sxs-lookup"><span data-stu-id="027ed-104">Posted journal vouchers can be saved as Voucher templates and applied in a new journal voucher.</span></span> <span data-ttu-id="027ed-105">See protsess kasutab demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="027ed-105">This procedure uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="4066d-106">Avage Pearaamat > Töölehe kirjed > Üldised töölehed.</span><span class="sxs-lookup"><span data-stu-id="4066d-106">General ledger > Journal entries > General journals.</span></span> <span data-ttu-id="4066d-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="4066d-107">Click New.</span></span>
-    * <span data-ttu-id="4066d-108">See protseduur algab töölehe kande loomise ja sisestamisega, kuid varem sisestatud töölehe kannet saab salvestada mallina.</span><span class="sxs-lookup"><span data-stu-id="4066d-108">This procedure starts by creating and posting a journal voucher, but any previously posted journal voucher can be saved as a template.</span></span>  
-2. <span data-ttu-id="4066d-109">Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="4066d-109">In the Name field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="4066d-110">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="4066d-110">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="4066d-111">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="4066d-111">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="4066d-112">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="4066d-112">Click Lines.</span></span>
-6. <span data-ttu-id="4066d-113">Sisestage suvandi Konto tüüp puhul konto.</span><span class="sxs-lookup"><span data-stu-id="4066d-113">Enter an account for the Account type.</span></span>
-7. <span data-ttu-id="4066d-114">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="4066d-114">In the Description field, type a value.</span></span>
-8. <span data-ttu-id="4066d-115">Sisestage summa väljale Deebet.</span><span class="sxs-lookup"><span data-stu-id="4066d-115">Enter an amount in the Debit field.</span></span>
-9. <span data-ttu-id="4066d-116">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="4066d-116">Click New.</span></span>
-10. <span data-ttu-id="4066d-117">Sisestage suvandi Konto tüüp puhul muu konto.</span><span class="sxs-lookup"><span data-stu-id="4066d-117">Enter a different account for the Account type.</span></span>
-11. <span data-ttu-id="4066d-118">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="4066d-118">In the Description field, type a value.</span></span>
-12. <span data-ttu-id="4066d-119">Sisestage summa väljale Deebet.</span><span class="sxs-lookup"><span data-stu-id="4066d-119">Enter an amount in the Debit field.</span></span>
-13. <span data-ttu-id="4066d-120">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="4066d-120">Click New.</span></span>
-14. <span data-ttu-id="4066d-121">Täpsustage soovitud väärtusi väljal Konto.</span><span class="sxs-lookup"><span data-stu-id="4066d-121">In the Account field, specify the desired values.</span></span>
-15. <span data-ttu-id="4066d-122">Sisestage väärtus väljale Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="4066d-122">In the Description field, type a value.</span></span>
-16. <span data-ttu-id="4066d-123">Sisestage kande tasakaalustamiseks summa väljale Kreedit.</span><span class="sxs-lookup"><span data-stu-id="4066d-123">Enter an amount in the Credit field to balance the voucher.</span></span>
-17. <span data-ttu-id="4066d-124">Klõpsake valikut Sisesta.</span><span class="sxs-lookup"><span data-stu-id="4066d-124">Click Post.</span></span>
-18. <span data-ttu-id="4066d-125">Klõpsake suvandit Funktsioonid.</span><span class="sxs-lookup"><span data-stu-id="4066d-125">Click Functions.</span></span>
-19. <span data-ttu-id="4066d-126">Klõpsake suvandit Salvesta kande mall.</span><span class="sxs-lookup"><span data-stu-id="4066d-126">Click Save voucher template.</span></span>
-20. <span data-ttu-id="4066d-127">See protseduur eeldab protsendi malli tüüpi.</span><span class="sxs-lookup"><span data-stu-id="4066d-127">This procedure assumes a Percent Template type.</span></span> <span data-ttu-id="4066d-128">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4066d-128">Click OK.</span></span>
-    * <span data-ttu-id="4066d-129">• Protsent: kande summad teisendatakse protsentideks, mis võimaldab malli Kanne valimisel rakendada mis tahes summat.</span><span class="sxs-lookup"><span data-stu-id="4066d-129">• Percent: The amounts in the voucher are converted into percentage factors, which allows any amount to be applied when the Voucher template is selected.</span></span>  <span data-ttu-id="4066d-130">• Summa: tegelikud summad salvestatakse ja rakendatakse.</span><span class="sxs-lookup"><span data-stu-id="4066d-130">• Amount: The actual amounts will be stored and applied.</span></span>  
-21. <span data-ttu-id="4066d-131">Klõpsake suvandit Päevaraamatud.</span><span class="sxs-lookup"><span data-stu-id="4066d-131">Click General journals.</span></span>
-22. <span data-ttu-id="4066d-132">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="4066d-132">Click New.</span></span>
-23. <span data-ttu-id="4066d-133">Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="4066d-133">In the Name field, click the drop-down button to open the lookup.</span></span>
-24. <span data-ttu-id="4066d-134">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="4066d-134">In the list, click the link in the selected row.</span></span>
-25. <span data-ttu-id="4066d-135">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="4066d-135">Click Lines.</span></span>
-26. <span data-ttu-id="4066d-136">Klõpsake suvandit Funktsioonid.</span><span class="sxs-lookup"><span data-stu-id="4066d-136">Click Functions.</span></span>
-27. <span data-ttu-id="4066d-137">Klõpsake suvandit Vali kande mall.</span><span class="sxs-lookup"><span data-stu-id="4066d-137">Click Select voucher template.</span></span>
-28. <span data-ttu-id="4066d-138">Leidke varem loodud mall.</span><span class="sxs-lookup"><span data-stu-id="4066d-138">Find the template that you created earlier.</span></span> <span data-ttu-id="4066d-139">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4066d-139">Click OK.</span></span>
-    * <span data-ttu-id="4066d-140">Teil võib olla vaja klõpsata eelmist etappi ja valida muude mallide olemasolul õige mall.</span><span class="sxs-lookup"><span data-stu-id="4066d-140">You may need to click Previous step and then select the correct template if other templates exist.</span></span>  
-29. <span data-ttu-id="4066d-141">Sisestage väljale Summa kandele rakendatav summa.</span><span class="sxs-lookup"><span data-stu-id="4066d-141">In the Amount field, enter the amount to be applied to the voucher.</span></span>
-    * <span data-ttu-id="4066d-142">Summa väli kuvatakse vaid juhul, kui kande malli tüübiks on Protsent.</span><span class="sxs-lookup"><span data-stu-id="4066d-142">The amount field is only displayed if the voucher template is of type Percent.</span></span>  
-30. <span data-ttu-id="4066d-143">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4066d-143">Click OK.</span></span>
+1. <span data-ttu-id="027ed-106">Avage Pearaamat > Töölehe kirjed > Üldised töölehed.</span><span class="sxs-lookup"><span data-stu-id="027ed-106">General ledger > Journal entries > General journals.</span></span> <span data-ttu-id="027ed-107">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="027ed-107">Click New.</span></span>
+    * <span data-ttu-id="027ed-108">See protseduur algab töölehe kande loomise ja sisestamisega, kuid varem sisestatud töölehe kannet saab salvestada mallina.</span><span class="sxs-lookup"><span data-stu-id="027ed-108">This procedure starts by creating and posting a journal voucher, but any previously posted journal voucher can be saved as a template.</span></span>  
+2. <span data-ttu-id="027ed-109">Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="027ed-109">In the Name field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="027ed-110">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="027ed-110">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="027ed-111">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="027ed-111">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="027ed-112">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="027ed-112">Click Lines.</span></span>
+6. <span data-ttu-id="027ed-113">Sisestage suvandi Konto tüüp puhul konto.</span><span class="sxs-lookup"><span data-stu-id="027ed-113">Enter an account for the Account type.</span></span>
+7. <span data-ttu-id="027ed-114">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="027ed-114">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="027ed-115">Sisestage summa väljale Deebet.</span><span class="sxs-lookup"><span data-stu-id="027ed-115">Enter an amount in the Debit field.</span></span>
+9. <span data-ttu-id="027ed-116">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="027ed-116">Click New.</span></span>
+10. <span data-ttu-id="027ed-117">Sisestage suvandi Konto tüüp puhul muu konto.</span><span class="sxs-lookup"><span data-stu-id="027ed-117">Enter a different account for the Account type.</span></span>
+11. <span data-ttu-id="027ed-118">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="027ed-118">In the Description field, type a value.</span></span>
+12. <span data-ttu-id="027ed-119">Sisestage summa väljale Deebet.</span><span class="sxs-lookup"><span data-stu-id="027ed-119">Enter an amount in the Debit field.</span></span>
+13. <span data-ttu-id="027ed-120">Klõpsake Uus.</span><span class="sxs-lookup"><span data-stu-id="027ed-120">Click New.</span></span>
+14. <span data-ttu-id="027ed-121">Täpsustage soovitud väärtusi väljal Konto.</span><span class="sxs-lookup"><span data-stu-id="027ed-121">In the Account field, specify the desired values.</span></span>
+15. <span data-ttu-id="027ed-122">Sisestage väärtus väljale Kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="027ed-122">In the Description field, type a value.</span></span>
+16. <span data-ttu-id="027ed-123">Sisestage kande tasakaalustamiseks summa väljale Kreedit.</span><span class="sxs-lookup"><span data-stu-id="027ed-123">Enter an amount in the Credit field to balance the voucher.</span></span>
+17. <span data-ttu-id="027ed-124">Klõpsake valikut Sisesta.</span><span class="sxs-lookup"><span data-stu-id="027ed-124">Click Post.</span></span>
+18. <span data-ttu-id="027ed-125">Klõpsake suvandit Funktsioonid.</span><span class="sxs-lookup"><span data-stu-id="027ed-125">Click Functions.</span></span>
+19. <span data-ttu-id="027ed-126">Klõpsake suvandit Salvesta kande mall.</span><span class="sxs-lookup"><span data-stu-id="027ed-126">Click Save voucher template.</span></span>
+20. <span data-ttu-id="027ed-127">See protseduur eeldab protsendi malli tüüpi.</span><span class="sxs-lookup"><span data-stu-id="027ed-127">This procedure assumes a Percent Template type.</span></span> <span data-ttu-id="027ed-128">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="027ed-128">Click OK.</span></span>
+    * <span data-ttu-id="027ed-129">• Protsent: kande summad teisendatakse protsentideks, mis võimaldab malli Kanne valimisel rakendada mis tahes summat.</span><span class="sxs-lookup"><span data-stu-id="027ed-129">• Percent: The amounts in the voucher are converted into percentage factors, which allows any amount to be applied when the Voucher template is selected.</span></span>  <span data-ttu-id="027ed-130">• Summa: tegelikud summad salvestatakse ja rakendatakse.</span><span class="sxs-lookup"><span data-stu-id="027ed-130">• Amount: The actual amounts will be stored and applied.</span></span>  
+21. <span data-ttu-id="027ed-131">Klõpsake suvandit Päevaraamatud.</span><span class="sxs-lookup"><span data-stu-id="027ed-131">Click General journals.</span></span>
+22. <span data-ttu-id="027ed-132">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="027ed-132">Click New.</span></span>
+23. <span data-ttu-id="027ed-133">Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="027ed-133">In the Name field, click the drop-down button to open the lookup.</span></span>
+24. <span data-ttu-id="027ed-134">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="027ed-134">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="027ed-135">Klõpsake valikut Read.</span><span class="sxs-lookup"><span data-stu-id="027ed-135">Click Lines.</span></span>
+26. <span data-ttu-id="027ed-136">Klõpsake suvandit Funktsioonid.</span><span class="sxs-lookup"><span data-stu-id="027ed-136">Click Functions.</span></span>
+27. <span data-ttu-id="027ed-137">Klõpsake suvandit Vali kande mall.</span><span class="sxs-lookup"><span data-stu-id="027ed-137">Click Select voucher template.</span></span>
+28. <span data-ttu-id="027ed-138">Leidke varem loodud mall.</span><span class="sxs-lookup"><span data-stu-id="027ed-138">Find the template that you created earlier.</span></span> <span data-ttu-id="027ed-139">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="027ed-139">Click OK.</span></span>
+    * <span data-ttu-id="027ed-140">Teil võib olla vaja klõpsata eelmist etappi ja valida muude mallide olemasolul õige mall.</span><span class="sxs-lookup"><span data-stu-id="027ed-140">You may need to click Previous step and then select the correct template if other templates exist.</span></span>  
+29. <span data-ttu-id="027ed-141">Sisestage väljale Summa kandele rakendatav summa.</span><span class="sxs-lookup"><span data-stu-id="027ed-141">In the Amount field, enter the amount to be applied to the voucher.</span></span>
+    * <span data-ttu-id="027ed-142">Summa väli kuvatakse vaid juhul, kui kande malli tüübiks on Protsent.</span><span class="sxs-lookup"><span data-stu-id="027ed-142">The amount field is only displayed if the voucher template is of type Percent.</span></span>  
+30. <span data-ttu-id="027ed-143">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="027ed-143">Click OK.</span></span>
 

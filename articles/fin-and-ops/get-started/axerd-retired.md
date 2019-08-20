@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: AX 2012
 ms.custom: 62303
 ms.assetid: ''
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 71c61764ca2dd79df110d257b61bd656804519ef
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cc08b5a8c31a6bc5da0e66de550bb7b823a11f5a
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546889"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850971"
 ---
-# <a name="axerd-page-has-been-retired"></a><span data-ttu-id="4c442-104">AXErd-i leht on eemaldatud</span><span class="sxs-lookup"><span data-stu-id="4c442-104">AxErd page has been retired</span></span>
+# <a name="axerd-page-has-been-retired"></a><span data-ttu-id="a2ef0-104">AXErd-i leht on eemaldatud</span><span class="sxs-lookup"><span data-stu-id="a2ef0-104">AxErd page has been retired</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4c442-105">Kahjuks pidime eemaldama AxErdi veebilehe, kus esitati mitmeMicrosoft Dynamics AX 2012 tabeli kohta üksuste seoste skeeme (ERD).</span><span class="sxs-lookup"><span data-stu-id="4c442-105">We've unfortunately had to retire the AxErd web page, which provided Entity relationship diagrams (ERDs) for many Microsoft Dynamics AX 2012 tables.</span></span> <span data-ttu-id="4c442-106">Oleme GitHubi hoidlasse sisestanud nii projekti lähtekoodi, kui ka veebilehe HTML-failid: https://github.com/Microsoft/ax-2012-doc-tools</span><span class="sxs-lookup"><span data-stu-id="4c442-106">We've been able to post both the source code for the project, and the HTML files for the web page in a GitHub repo: https://github.com/Microsoft/ax-2012-doc-tools</span></span>
+<span data-ttu-id="a2ef0-105">Kahjuks pidime eemaldama AxErdi veebilehe, kus esitati mitmeMicrosoft Dynamics AX 2012 tabeli kohta üksuste seoste skeeme (ERD).</span><span class="sxs-lookup"><span data-stu-id="a2ef0-105">We've unfortunately had to retire the AxErd web page, which provided Entity relationship diagrams (ERDs) for many Microsoft Dynamics AX 2012 tables.</span></span> <span data-ttu-id="a2ef0-106">Oleme GitHubi hoidlasse sisestanud nii projekti lähtekoodi, kui ka veebilehe HTML-failid: https://github.com/Microsoft/ax-2012-doc-tools</span><span class="sxs-lookup"><span data-stu-id="a2ef0-106">We've been able to post both the source code for the project, and the HTML files for the web page in a GitHub repo: https://github.com/Microsoft/ax-2012-doc-tools</span></span>
 
-<span data-ttu-id="4c442-107">HTML-lehed asuvad hoidlas, veebiaadressil: [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)</span><span class="sxs-lookup"><span data-stu-id="4c442-107">The HTML pages are in the repo, at [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)</span></span>
+<span data-ttu-id="a2ef0-107">HTML-lehed asuvad hoidlas, veebiaadressil: [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)</span><span class="sxs-lookup"><span data-stu-id="a2ef0-107">The HTML pages are in the repo, at [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)</span></span>
 
-<span data-ttu-id="4c442-108">Enda ERD loomiseks leiate kirjelduse aadressilt: [https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm](https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm)</span><span class="sxs-lookup"><span data-stu-id="4c442-108">A description of how to create your own ERDs is at: [https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm](https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm)</span></span>
+<span data-ttu-id="a2ef0-108">Enda ERD loomiseks leiate kirjelduse aadressilt: [https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm](https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm)</span><span class="sxs-lookup"><span data-stu-id="a2ef0-108">A description of how to create your own ERDs is at: [https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm](https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm)</span></span>
 
-<span data-ttu-id="4c442-109">Lahendus asub kausta AxErd juurkataloogis [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd).</span><span class="sxs-lookup"><span data-stu-id="4c442-109">The solution is at the root of the AxErd folder [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd).</span></span>
+<span data-ttu-id="a2ef0-109">Lahendus asub kausta AxErd juurkataloogis [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd).</span><span class="sxs-lookup"><span data-stu-id="a2ef0-109">The solution is at the root of the AxErd folder [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd).</span></span>

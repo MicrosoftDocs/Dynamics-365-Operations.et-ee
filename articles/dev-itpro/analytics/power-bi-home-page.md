@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations, Core
 ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
@@ -18,51 +18,51 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 64b1c09b781b7bdbaf01a374e321b8dd9418f3da
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9d8425c9479f775b1e45d1624a069759b3f45d98
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551690"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850119"
 ---
-# <a name="powerbicom-solutions-home-page"></a><span data-ttu-id="16338-103">PowerBI.com’i lahenduste koduleht</span><span class="sxs-lookup"><span data-stu-id="16338-103">PowerBI.com solutions home page</span></span>
+# <a name="powerbicom-solutions-home-page"></a><span data-ttu-id="d4df6-103">PowerBI.com’i lahenduste koduleht</span><span class="sxs-lookup"><span data-stu-id="d4df6-103">PowerBI.com solutions home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="16338-104">Dynamics 365 for Finance and Operationsi keskkondade jaoks on saadaval järgmised PowerBI.com’i lahendused.</span><span class="sxs-lookup"><span data-stu-id="16338-104">The following PowerBI.com solutions are available for Dynamics 365 for Finance and Operations environments.</span></span>
+<span data-ttu-id="d4df6-104">Dynamics 365 for Finance and Operationsi keskkondade jaoks on saadaval järgmised PowerBI.com’i lahendused.</span><span class="sxs-lookup"><span data-stu-id="d4df6-104">The following PowerBI.com solutions are available for Dynamics 365 for Finance and Operations environments.</span></span>
 
-## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="16338-105">Teenuse Lifecycle Services (LCS) kaudu saadaolevad PowerBI.com’i lahendused</span><span class="sxs-lookup"><span data-stu-id="16338-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="d4df6-105">Teenuse Lifecycle Services (LCS) kaudu saadaolevad PowerBI.com’i lahendused</span><span class="sxs-lookup"><span data-stu-id="d4df6-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
 
-<span data-ttu-id="16338-106">LCS-i ühiste vahendite teegis on saadaval järgmised PowerBI.com’i lahendused.</span><span class="sxs-lookup"><span data-stu-id="16338-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="16338-107">Vaadake versiooniteavet ühiste vahendite teegist, et laadida oma keskkonna jaoks alla õige versioon.</span><span class="sxs-lookup"><span data-stu-id="16338-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="16338-108">Enamik PowerBI.com’i lahendustest järgmises loendis on manustatud rakenduse Dynamics 365 for Finance and Operations viimaste versioonide analüütilistesse tööruumidesse.</span><span class="sxs-lookup"><span data-stu-id="16338-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions of Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="16338-109">Analüütiliste tööruumide kasutamine kõrvaldab vajaduse nende lahenduste allalaadimiseks ühiste vahendite teegist LCS-is.</span><span class="sxs-lookup"><span data-stu-id="16338-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="16338-110">Selles loendis toodud teemad näitavad, kuhu need PowerBI.com’i lahendused on Finance and Operationsis manustatud (kohaldatavusel).</span><span class="sxs-lookup"><span data-stu-id="16338-110">The topics in this list indicate where these PowerBI.com solutions have been embedded in Finance and Operations, where applicable.</span></span>
-
-- [<span data-ttu-id="16338-111">Tegelik võrreldes eelarvega</span><span class="sxs-lookup"><span data-stu-id="16338-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
-- [<span data-ttu-id="16338-112">Kassa ülevaade</span><span class="sxs-lookup"><span data-stu-id="16338-112">Cash overview</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [<span data-ttu-id="16338-113">Hüvitused ja soodustused</span><span class="sxs-lookup"><span data-stu-id="16338-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="16338-114">Kuluarvestuse analüüs</span><span class="sxs-lookup"><span data-stu-id="16338-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md)
-- [<span data-ttu-id="16338-115">Krediidi ja võlanõuete haldus</span><span class="sxs-lookup"><span data-stu-id="16338-115">Credit and collections management</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="16338-116">Töövõtja pädevused ja areng</span><span class="sxs-lookup"><span data-stu-id="16338-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="16338-117">Finantstulemused</span><span class="sxs-lookup"><span data-stu-id="16338-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="16338-118">Põhivara haldamine</span><span class="sxs-lookup"><span data-stu-id="16338-118">Fixed asset management</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [<span data-ttu-id="16338-119">Organisatsiooni koolitus</span><span class="sxs-lookup"><span data-stu-id="16338-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="16338-120">Harjutushaldur</span><span class="sxs-lookup"><span data-stu-id="16338-120">Practice manager</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="16338-121">Tootmise jõudlus</span><span class="sxs-lookup"><span data-stu-id="16338-121">Production performance</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="16338-122">Ostu kulutusanalüüs</span><span class="sxs-lookup"><span data-stu-id="16338-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md)
-- [<span data-ttu-id="16338-123">Värbamine</span><span class="sxs-lookup"><span data-stu-id="16338-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="16338-124">Müügi ja tulususe jõudlus</span><span class="sxs-lookup"><span data-stu-id="16338-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="16338-125">Hankija maksed</span><span class="sxs-lookup"><span data-stu-id="16338-125">Vendor payments</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [<span data-ttu-id="16338-126">Laojõudlus</span><span class="sxs-lookup"><span data-stu-id="16338-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="16338-127">Tööjõu mõõdikud</span><span class="sxs-lookup"><span data-stu-id="16338-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)
-
-## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="16338-128">AppSource’is saadaolevad PowerBI.com’i lahendused</span><span class="sxs-lookup"><span data-stu-id="16338-128">PowerBI.com solutions available from AppSource</span></span>
-
-<span data-ttu-id="16338-129">[Microsoft AppSource](https://appsource.microsoft.com)’is on saadaval järgmised PowerBI.com’i lahendused.</span><span class="sxs-lookup"><span data-stu-id="16338-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+<span data-ttu-id="d4df6-106">LCS-i ühiste vahendite teegis on saadaval järgmised PowerBI.com’i lahendused.</span><span class="sxs-lookup"><span data-stu-id="d4df6-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="d4df6-107">Vaadake versiooniteavet ühiste vahendite teegist, et laadida oma keskkonna jaoks alla õige versioon.</span><span class="sxs-lookup"><span data-stu-id="d4df6-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="16338-130">Need lahendused on aegunud, nagu on kirjas dokumendis [AppSource saadaolevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span><span class="sxs-lookup"><span data-stu-id="16338-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+> <span data-ttu-id="d4df6-108">Enamik PowerBI.com’i lahendustest järgmises loendis on manustatud rakenduse Dynamics 365 for Finance and Operations viimaste versioonide analüütilistesse tööruumidesse.</span><span class="sxs-lookup"><span data-stu-id="d4df6-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions of Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="d4df6-109">Analüütiliste tööruumide kasutamine kõrvaldab vajaduse nende lahenduste allalaadimiseks ühiste vahendite teegist LCS-is.</span><span class="sxs-lookup"><span data-stu-id="d4df6-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="d4df6-110">Selles loendis toodud teemad näitavad, kuhu need PowerBI.com’i lahendused on Finance and Operationsis manustatud (kohaldatavusel).</span><span class="sxs-lookup"><span data-stu-id="d4df6-110">The topics in this list indicate where these PowerBI.com solutions have been embedded in Finance and Operations, where applicable.</span></span>
 
-- <span data-ttu-id="16338-131">Kuluhaldus</span><span class="sxs-lookup"><span data-stu-id="16338-131">Cost management</span></span>
-- [<span data-ttu-id="16338-132">Finantstulemused</span><span class="sxs-lookup"><span data-stu-id="16338-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="16338-133">Jaemüügikanali jõudlus </span><span class="sxs-lookup"><span data-stu-id="16338-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md)
+- [<span data-ttu-id="d4df6-111">Tegelik võrreldes eelarvega</span><span class="sxs-lookup"><span data-stu-id="d4df6-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
+- [<span data-ttu-id="d4df6-112">Kassa ülevaade</span><span class="sxs-lookup"><span data-stu-id="d4df6-112">Cash overview</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [<span data-ttu-id="d4df6-113">Hüvitused ja soodustused</span><span class="sxs-lookup"><span data-stu-id="d4df6-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="d4df6-114">Kuluarvestuse analüüs</span><span class="sxs-lookup"><span data-stu-id="d4df6-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md)
+- [<span data-ttu-id="d4df6-115">Krediidi ja võlanõuete haldus</span><span class="sxs-lookup"><span data-stu-id="d4df6-115">Credit and collections management</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [<span data-ttu-id="d4df6-116">Töövõtja pädevused ja areng</span><span class="sxs-lookup"><span data-stu-id="d4df6-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="d4df6-117">Finantstulemused</span><span class="sxs-lookup"><span data-stu-id="d4df6-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="d4df6-118">Põhivara haldamine</span><span class="sxs-lookup"><span data-stu-id="d4df6-118">Fixed asset management</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [<span data-ttu-id="d4df6-119">Organisatsiooni koolitus</span><span class="sxs-lookup"><span data-stu-id="d4df6-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="d4df6-120">Harjutushaldur</span><span class="sxs-lookup"><span data-stu-id="d4df6-120">Practice manager</span></span>](practice-manager-power-bi.md)
+- [<span data-ttu-id="d4df6-121">Tootmise jõudlus</span><span class="sxs-lookup"><span data-stu-id="d4df6-121">Production performance</span></span>](production-performance-power-bi.md)
+- [<span data-ttu-id="d4df6-122">Ostu kulutusanalüüs</span><span class="sxs-lookup"><span data-stu-id="d4df6-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md)
+- [<span data-ttu-id="d4df6-123">Värbamine</span><span class="sxs-lookup"><span data-stu-id="d4df6-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="d4df6-124">Müügi ja tulususe jõudlus</span><span class="sxs-lookup"><span data-stu-id="d4df6-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
+- [<span data-ttu-id="d4df6-125">Hankija maksed</span><span class="sxs-lookup"><span data-stu-id="d4df6-125">Vendor payments</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [<span data-ttu-id="d4df6-126">Laojõudlus</span><span class="sxs-lookup"><span data-stu-id="d4df6-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
+- [<span data-ttu-id="d4df6-127">Tööjõu mõõdikud</span><span class="sxs-lookup"><span data-stu-id="d4df6-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)
+
+## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="d4df6-128">AppSource’is saadaolevad PowerBI.com’i lahendused</span><span class="sxs-lookup"><span data-stu-id="d4df6-128">PowerBI.com solutions available from AppSource</span></span>
+
+<span data-ttu-id="d4df6-129">[Microsoft AppSource](https://appsource.microsoft.com)’is on saadaval järgmised PowerBI.com’i lahendused.</span><span class="sxs-lookup"><span data-stu-id="d4df6-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="d4df6-130">Need lahendused on aegunud, nagu on kirjas dokumendis [AppSource saadaolevad Power BI sisupaketid](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span><span class="sxs-lookup"><span data-stu-id="d4df6-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+
+- <span data-ttu-id="d4df6-131">Kuluhaldus</span><span class="sxs-lookup"><span data-stu-id="d4df6-131">Cost management</span></span>
+- [<span data-ttu-id="d4df6-132">Finantstulemused</span><span class="sxs-lookup"><span data-stu-id="d4df6-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="d4df6-133">Jaemüügikanali jõudlus </span><span class="sxs-lookup"><span data-stu-id="d4df6-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md)

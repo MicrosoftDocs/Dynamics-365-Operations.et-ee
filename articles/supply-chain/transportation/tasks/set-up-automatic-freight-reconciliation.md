@@ -10,65 +10,65 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSFreightBillTypeAssignment, TMSCarrierCodeLookup, DefaultDashboard, TMSAuditMaster
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 057d1b3a1b5294c75f02f4ed443ae6f525ac6b83
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562019"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837610"
 ---
-# <a name="set-up-automatic-freight-reconciliation"></a><span data-ttu-id="063ae-103">Veose automaatse vastavusseviimise seadistamine</span><span class="sxs-lookup"><span data-stu-id="063ae-103">Set up automatic freight reconciliation</span></span>
+# <a name="set-up-automatic-freight-reconciliation"></a><span data-ttu-id="2718d-103">Veose automaatse vastavusseviimise seadistamine</span><span class="sxs-lookup"><span data-stu-id="2718d-103">Set up automatic freight reconciliation</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="063ae-104">See protseduur näitab, kuidas seadistada andmeid veose automaatseks vastavusseviimiseks.</span><span class="sxs-lookup"><span data-stu-id="063ae-104">This procedure shows how to set up data for automatic freight reconciliation.</span></span> <span data-ttu-id="063ae-105">Sellega tegeleb tavaliselt laohaldur.</span><span class="sxs-lookup"><span data-stu-id="063ae-105">This is typically done by a warehouse manager.</span></span> <span data-ttu-id="063ae-106">Saate seda protseduuri kasutada demoandmete ettevõttes USMF.</span><span class="sxs-lookup"><span data-stu-id="063ae-106">You can use this procedure in demo data company USMF.</span></span>
+<span data-ttu-id="2718d-104">See protseduur näitab, kuidas seadistada andmeid veose automaatseks vastavusseviimiseks.</span><span class="sxs-lookup"><span data-stu-id="2718d-104">This procedure shows how to set up data for automatic freight reconciliation.</span></span> <span data-ttu-id="2718d-105">Sellega tegeleb tavaliselt laohaldur.</span><span class="sxs-lookup"><span data-stu-id="2718d-105">This is typically done by a warehouse manager.</span></span> <span data-ttu-id="2718d-106">Saate seda protseduuri kasutada demoandmete ettevõttes USMF.</span><span class="sxs-lookup"><span data-stu-id="2718d-106">You can use this procedure in demo data company USMF.</span></span>
 
 
-## <a name="set-up-the-freight-bill-type"></a><span data-ttu-id="063ae-107">Veoarve tüübi seadistamine</span><span class="sxs-lookup"><span data-stu-id="063ae-107">Set up the freight bill type</span></span>
-1. <span data-ttu-id="063ae-108">Avage Transpordihaldus > Seadistus > Veose vastavusseviimine > Veoarve tüüp.</span><span class="sxs-lookup"><span data-stu-id="063ae-108">Go to Transportation management > Setup > Freight reconciliation > Freight bill type.</span></span>
-    * <span data-ttu-id="063ae-109">Veoarve tüüp määratleb, kuidas veoarveid ja vedaja arveid tuleks vastendada.</span><span class="sxs-lookup"><span data-stu-id="063ae-109">The freight bill type defines how freight bills and carrier invoices  should be matched.</span></span>  
-2. <span data-ttu-id="063ae-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="063ae-110">Click New.</span></span>
-3. <span data-ttu-id="063ae-111">Tippige väärtus väljale Veoarve tüüp.</span><span class="sxs-lookup"><span data-stu-id="063ae-111">In the Freight bill type field, type a value.</span></span>
-4. <span data-ttu-id="063ae-112">Tippige väljale Mootori koost Microsoft.Dynamics.Ax.Tms.dll.</span><span class="sxs-lookup"><span data-stu-id="063ae-112">In the Engine assembly field, type 'Microsoft.Dynamics.Ax.Tms.dll'.</span></span>
-    * <span data-ttu-id="063ae-113">See on standardne transpordihalduse vastendusmootori koodi teek.</span><span class="sxs-lookup"><span data-stu-id="063ae-113">This is the standard Transportation management matching engine code library.</span></span>  
-5. <span data-ttu-id="063ae-114">Tippige väljale Mootori klass Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer.</span><span class="sxs-lookup"><span data-stu-id="063ae-114">In the Engine class field, type 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'.</span></span>
-    * <span data-ttu-id="063ae-115">See on standardne transpordihalduse vastendusmootori klass.</span><span class="sxs-lookup"><span data-stu-id="063ae-115">This is the standard Transportation management matching engine class.</span></span>  
-6. <span data-ttu-id="063ae-116">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="063ae-116">Click New.</span></span>
-7. <span data-ttu-id="063ae-117">Valige väljalt Kirjeldus väärtus, mis peaks veoarvel ja vedaja arvel ühtima.</span><span class="sxs-lookup"><span data-stu-id="063ae-117">In the Description field, choose the value that should match on the freight bill and the carrier invoice.</span></span>  
-8. <span data-ttu-id="063ae-118">Valige Jah väljalt Sobitus on nõutav.</span><span class="sxs-lookup"><span data-stu-id="063ae-118">In the Match required field, select 'Yes'.</span></span>
-    * <span data-ttu-id="063ae-119">Kui määrate selle välja väärtuseks Jah, siis tähendab see, et väljal Kirjeldus valitud väärtus peab olema vastav nii veoarvel kui ka vedaja arvel.</span><span class="sxs-lookup"><span data-stu-id="063ae-119">If you set this field to Yes this means that the value selected in the Description field needs to match on both the freight bill and the carrier invoice.</span></span> <span data-ttu-id="063ae-120">Kui määrate väärtuseks Ei, võib ühel neist see väli tühi olla.</span><span class="sxs-lookup"><span data-stu-id="063ae-120">If you set it to No, the field can be blank on one of these.</span></span>  
-9. <span data-ttu-id="063ae-121">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="063ae-121">Click Save.</span></span>
+## <a name="set-up-the-freight-bill-type"></a><span data-ttu-id="2718d-107">Veoarve tüübi seadistamine</span><span class="sxs-lookup"><span data-stu-id="2718d-107">Set up the freight bill type</span></span>
+1. <span data-ttu-id="2718d-108">Avage Transpordihaldus > Seadistus > Veose vastavusseviimine > Veoarve tüüp.</span><span class="sxs-lookup"><span data-stu-id="2718d-108">Go to Transportation management > Setup > Freight reconciliation > Freight bill type.</span></span>
+    * <span data-ttu-id="2718d-109">Veoarve tüüp määratleb, kuidas veoarveid ja vedaja arveid tuleks vastendada.</span><span class="sxs-lookup"><span data-stu-id="2718d-109">The freight bill type defines how freight bills and carrier invoices  should be matched.</span></span>  
+2. <span data-ttu-id="2718d-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2718d-110">Click New.</span></span>
+3. <span data-ttu-id="2718d-111">Tippige väärtus väljale Veoarve tüüp.</span><span class="sxs-lookup"><span data-stu-id="2718d-111">In the Freight bill type field, type a value.</span></span>
+4. <span data-ttu-id="2718d-112">Tippige väljale Mootori koost Microsoft.Dynamics.Ax.Tms.dll.</span><span class="sxs-lookup"><span data-stu-id="2718d-112">In the Engine assembly field, type 'Microsoft.Dynamics.Ax.Tms.dll'.</span></span>
+    * <span data-ttu-id="2718d-113">See on standardne transpordihalduse vastendusmootori koodi teek.</span><span class="sxs-lookup"><span data-stu-id="2718d-113">This is the standard Transportation management matching engine code library.</span></span>  
+5. <span data-ttu-id="2718d-114">Tippige väljale Mootori klass Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer.</span><span class="sxs-lookup"><span data-stu-id="2718d-114">In the Engine class field, type 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'.</span></span>
+    * <span data-ttu-id="2718d-115">See on standardne transpordihalduse vastendusmootori klass.</span><span class="sxs-lookup"><span data-stu-id="2718d-115">This is the standard Transportation management matching engine class.</span></span>  
+6. <span data-ttu-id="2718d-116">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2718d-116">Click New.</span></span>
+7. <span data-ttu-id="2718d-117">Valige väljalt Kirjeldus väärtus, mis peaks veoarvel ja vedaja arvel ühtima.</span><span class="sxs-lookup"><span data-stu-id="2718d-117">In the Description field, choose the value that should match on the freight bill and the carrier invoice.</span></span>  
+8. <span data-ttu-id="2718d-118">Valige Jah väljalt Sobitus on nõutav.</span><span class="sxs-lookup"><span data-stu-id="2718d-118">In the Match required field, select 'Yes'.</span></span>
+    * <span data-ttu-id="2718d-119">Kui määrate selle välja väärtuseks Jah, siis tähendab see, et väljal Kirjeldus valitud väärtus peab olema vastav nii veoarvel kui ka vedaja arvel.</span><span class="sxs-lookup"><span data-stu-id="2718d-119">If you set this field to Yes this means that the value selected in the Description field needs to match on both the freight bill and the carrier invoice.</span></span> <span data-ttu-id="2718d-120">Kui määrate väärtuseks Ei, võib ühel neist see väli tühi olla.</span><span class="sxs-lookup"><span data-stu-id="2718d-120">If you set it to No, the field can be blank on one of these.</span></span>  
+9. <span data-ttu-id="2718d-121">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="2718d-121">Click Save.</span></span>
 
-## <a name="set-up-the-freight-bill-type-assignment"></a><span data-ttu-id="063ae-122">Veoarve tüübi määramise seadistamine</span><span class="sxs-lookup"><span data-stu-id="063ae-122">Set up the freight bill type assignment</span></span>
-1. <span data-ttu-id="063ae-123">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="063ae-123">Close the page.</span></span>
-2. <span data-ttu-id="063ae-124">Avage Transpordihaldus > Seadistus > Veose vastavusseviimine > Veoarve tüübi määramised.</span><span class="sxs-lookup"><span data-stu-id="063ae-124">Go to Transportation management > Setup > Freight reconciliation > Freight bill type assignments.</span></span>
-    * <span data-ttu-id="063ae-125">Veoarve tüübi määrangut kasutatakse määramiseks, millist veoarve tüüpi konkreetse vedaja puhul kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="063ae-125">The freight bill type assignment is used to specify which freight bill type is used for a particular carrier.</span></span>   
-3. <span data-ttu-id="063ae-126">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="063ae-126">Click New.</span></span>
-4. <span data-ttu-id="063ae-127">Valige või sisestage väärtus väljal Režiim.</span><span class="sxs-lookup"><span data-stu-id="063ae-127">In the Mode field, enter or select a value.</span></span>
-5. <span data-ttu-id="063ae-128">Valige või sisestage väärtus väljal Kättetoimetaja.</span><span class="sxs-lookup"><span data-stu-id="063ae-128">In the Shipping carrier field, enter or select a value.</span></span>
-6. <span data-ttu-id="063ae-129">Valige väljalt Veoarve tüüp varem loodud veoarve tüüp.</span><span class="sxs-lookup"><span data-stu-id="063ae-129">In the Freight bill type field, select the freight bill type that you created earlier.</span></span>
-7. <span data-ttu-id="063ae-130">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="063ae-130">Close the page.</span></span>
+## <a name="set-up-the-freight-bill-type-assignment"></a><span data-ttu-id="2718d-122">Veoarve tüübi määramise seadistamine</span><span class="sxs-lookup"><span data-stu-id="2718d-122">Set up the freight bill type assignment</span></span>
+1. <span data-ttu-id="2718d-123">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2718d-123">Close the page.</span></span>
+2. <span data-ttu-id="2718d-124">Avage Transpordihaldus > Seadistus > Veose vastavusseviimine > Veoarve tüübi määramised.</span><span class="sxs-lookup"><span data-stu-id="2718d-124">Go to Transportation management > Setup > Freight reconciliation > Freight bill type assignments.</span></span>
+    * <span data-ttu-id="2718d-125">Veoarve tüübi määrangut kasutatakse määramiseks, millist veoarve tüüpi konkreetse vedaja puhul kasutatakse.</span><span class="sxs-lookup"><span data-stu-id="2718d-125">The freight bill type assignment is used to specify which freight bill type is used for a particular carrier.</span></span>   
+3. <span data-ttu-id="2718d-126">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2718d-126">Click New.</span></span>
+4. <span data-ttu-id="2718d-127">Valige või sisestage väärtus väljal Režiim.</span><span class="sxs-lookup"><span data-stu-id="2718d-127">In the Mode field, enter or select a value.</span></span>
+5. <span data-ttu-id="2718d-128">Valige või sisestage väärtus väljal Kättetoimetaja.</span><span class="sxs-lookup"><span data-stu-id="2718d-128">In the Shipping carrier field, enter or select a value.</span></span>
+6. <span data-ttu-id="2718d-129">Valige väljalt Veoarve tüüp varem loodud veoarve tüüp.</span><span class="sxs-lookup"><span data-stu-id="2718d-129">In the Freight bill type field, select the freight bill type that you created earlier.</span></span>
+7. <span data-ttu-id="2718d-130">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2718d-130">Close the page.</span></span>
 
-## <a name="set-up-the-audit-master"></a><span data-ttu-id="063ae-131">Auditi koondi seadistamine</span><span class="sxs-lookup"><span data-stu-id="063ae-131">Set up the audit master</span></span>
-1. <span data-ttu-id="063ae-132">Avage Transpordihaldus > Seadistus > Veose vastavusseviimine > Auditi koond.</span><span class="sxs-lookup"><span data-stu-id="063ae-132">Go to Transportation management > Setup > Freight reconciliation > Audit master.</span></span>
-    * <span data-ttu-id="063ae-133">Auditi koond määratleb automaatne veose vastavusseviimise lubatud hälbe.</span><span class="sxs-lookup"><span data-stu-id="063ae-133">The audit master defines the tolerance limits for automatic freight reconciliation.</span></span> <span data-ttu-id="063ae-134">See määrab kui palju veoarve ja vedaja arve rahasummad võivad erineda, et vastavusseviimine siiski toimuda saaks.</span><span class="sxs-lookup"><span data-stu-id="063ae-134">It specifies by how much the monetary amounts on the freight bill and the carrier invoice can differ and still allow reconciliation to occur.</span></span> <span data-ttu-id="063ae-135">See määratleb ka lahknevuste käsitlemise viisi.</span><span class="sxs-lookup"><span data-stu-id="063ae-135">It also defines how to handle discrepancies.</span></span>  
-2. <span data-ttu-id="063ae-136">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="063ae-136">Click New.</span></span>
-3. <span data-ttu-id="063ae-137">Tippige väärtus väljale Auditi koondi ID.</span><span class="sxs-lookup"><span data-stu-id="063ae-137">In the Audit master ID field, type a value.</span></span>
-4. <span data-ttu-id="063ae-138">Valige väljalt Kättetoimetaja sama kättetoimetaja, kelle varem valisite.</span><span class="sxs-lookup"><span data-stu-id="063ae-138">In the Shipping carrier  field, select the same shipping carrier as you did earlier.</span></span>
-5. <span data-ttu-id="063ae-139">Valige väljalt Veoarve tüüp varem loodud veoarve tüüp.</span><span class="sxs-lookup"><span data-stu-id="063ae-139">In the Freight bill type field, select the freight bill type that you created earlier.</span></span>
-6. <span data-ttu-id="063ae-140">Laiendage jaotist Hälve.</span><span class="sxs-lookup"><span data-stu-id="063ae-140">Expand the Tolerance section.</span></span>
-7. <span data-ttu-id="063ae-141">Sisestage number väljale Minimaalne lubatud hälbe tase.</span><span class="sxs-lookup"><span data-stu-id="063ae-141">In the Minimum tolerance level field, enter a number.</span></span>
-8. <span data-ttu-id="063ae-142">Sisestage number väljale Maksimaalne lubatud hälbe tase.</span><span class="sxs-lookup"><span data-stu-id="063ae-142">In the Maximum tolerance level field, enter a number.</span></span>
-9. <span data-ttu-id="063ae-143">Laiendage jaotist Tulemus.</span><span class="sxs-lookup"><span data-stu-id="063ae-143">Expand the Result section.</span></span>
-10. <span data-ttu-id="063ae-144">Valige või sisestage väärtus väljal Ülemakse põhjuse kood.</span><span class="sxs-lookup"><span data-stu-id="063ae-144">In the Overpayment reason code field, enter or select a value.</span></span>
-    * <span data-ttu-id="063ae-145">Kui summad on veoarvel ja vedaja arvel erinevad, määratlevad üle- ja alamakse põhjuse koodid kontod, millel vahe tuleks registreerida, kuni vahe on lubatud hälbe piirides.</span><span class="sxs-lookup"><span data-stu-id="063ae-145">If the monetary amounts differ on the freight bill and the carrier invoice, the overpayment and underpayment reason codes specify the accounts that the difference should be registered on, as long as the difference is within the tolerance levels.</span></span>  
-11. <span data-ttu-id="063ae-146">Valige või sisestage väärtus väljal Alamakse põhjuse kood.</span><span class="sxs-lookup"><span data-stu-id="063ae-146">In the Underpayment reason code field, enter or select a value.</span></span>
-12. <span data-ttu-id="063ae-147">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="063ae-147">Close the page.</span></span>
+## <a name="set-up-the-audit-master"></a><span data-ttu-id="2718d-131">Auditi koondi seadistamine</span><span class="sxs-lookup"><span data-stu-id="2718d-131">Set up the audit master</span></span>
+1. <span data-ttu-id="2718d-132">Avage Transpordihaldus > Seadistus > Veose vastavusseviimine > Auditi koond.</span><span class="sxs-lookup"><span data-stu-id="2718d-132">Go to Transportation management > Setup > Freight reconciliation > Audit master.</span></span>
+    * <span data-ttu-id="2718d-133">Auditi koond määratleb automaatne veose vastavusseviimise lubatud hälbe.</span><span class="sxs-lookup"><span data-stu-id="2718d-133">The audit master defines the tolerance limits for automatic freight reconciliation.</span></span> <span data-ttu-id="2718d-134">See määrab kui palju veoarve ja vedaja arve rahasummad võivad erineda, et vastavusseviimine siiski toimuda saaks.</span><span class="sxs-lookup"><span data-stu-id="2718d-134">It specifies by how much the monetary amounts on the freight bill and the carrier invoice can differ and still allow reconciliation to occur.</span></span> <span data-ttu-id="2718d-135">See määratleb ka lahknevuste käsitlemise viisi.</span><span class="sxs-lookup"><span data-stu-id="2718d-135">It also defines how to handle discrepancies.</span></span>  
+2. <span data-ttu-id="2718d-136">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="2718d-136">Click New.</span></span>
+3. <span data-ttu-id="2718d-137">Tippige väärtus väljale Auditi koondi ID.</span><span class="sxs-lookup"><span data-stu-id="2718d-137">In the Audit master ID field, type a value.</span></span>
+4. <span data-ttu-id="2718d-138">Valige väljalt Kättetoimetaja sama kättetoimetaja, kelle varem valisite.</span><span class="sxs-lookup"><span data-stu-id="2718d-138">In the Shipping carrier  field, select the same shipping carrier as you did earlier.</span></span>
+5. <span data-ttu-id="2718d-139">Valige väljalt Veoarve tüüp varem loodud veoarve tüüp.</span><span class="sxs-lookup"><span data-stu-id="2718d-139">In the Freight bill type field, select the freight bill type that you created earlier.</span></span>
+6. <span data-ttu-id="2718d-140">Laiendage jaotist Hälve.</span><span class="sxs-lookup"><span data-stu-id="2718d-140">Expand the Tolerance section.</span></span>
+7. <span data-ttu-id="2718d-141">Sisestage number väljale Minimaalne lubatud hälbe tase.</span><span class="sxs-lookup"><span data-stu-id="2718d-141">In the Minimum tolerance level field, enter a number.</span></span>
+8. <span data-ttu-id="2718d-142">Sisestage number väljale Maksimaalne lubatud hälbe tase.</span><span class="sxs-lookup"><span data-stu-id="2718d-142">In the Maximum tolerance level field, enter a number.</span></span>
+9. <span data-ttu-id="2718d-143">Laiendage jaotist Tulemus.</span><span class="sxs-lookup"><span data-stu-id="2718d-143">Expand the Result section.</span></span>
+10. <span data-ttu-id="2718d-144">Valige või sisestage väärtus väljal Ülemakse põhjuse kood.</span><span class="sxs-lookup"><span data-stu-id="2718d-144">In the Overpayment reason code field, enter or select a value.</span></span>
+    * <span data-ttu-id="2718d-145">Kui summad on veoarvel ja vedaja arvel erinevad, määratlevad üle- ja alamakse põhjuse koodid kontod, millel vahe tuleks registreerida, kuni vahe on lubatud hälbe piirides.</span><span class="sxs-lookup"><span data-stu-id="2718d-145">If the monetary amounts differ on the freight bill and the carrier invoice, the overpayment and underpayment reason codes specify the accounts that the difference should be registered on, as long as the difference is within the tolerance levels.</span></span>  
+11. <span data-ttu-id="2718d-146">Valige või sisestage väärtus väljal Alamakse põhjuse kood.</span><span class="sxs-lookup"><span data-stu-id="2718d-146">In the Underpayment reason code field, enter or select a value.</span></span>
+12. <span data-ttu-id="2718d-147">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="2718d-147">Close the page.</span></span>
 
