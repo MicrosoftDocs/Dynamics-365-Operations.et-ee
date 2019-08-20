@@ -1,9 +1,9 @@
 ---
 title: Koormate ja saadetiste planeerimine koorma planeerimise töölaua abil
-description: See protseduur näitab, kuidas kasutada müügitellimuse koorma loomiseks koorma planeerimise töölauda.
+description: Selles teemas näidatakse, kuidas kasutada koormuse planeerimise töölauda müügitellimuse koormuse loomiseks.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,53 +16,47 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1927cff48beb30f934bd066c32ab48dfb9d06f74
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5e20eef8aa748bb64c6c14dd7e1d92ccf6592e0
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564788"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1739061"
 ---
-# <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a><span data-ttu-id="619ce-103">Koormate ja saadetiste planeerimine koorma planeerimise töölaua abil</span><span class="sxs-lookup"><span data-stu-id="619ce-103">Plan loads and shipments using the Load planning workbench</span></span>
+# <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a><span data-ttu-id="816d9-103">Koormate ja saadetiste planeerimine koorma planeerimise töölaua abil</span><span class="sxs-lookup"><span data-stu-id="816d9-103">Plan loads and shipments using the Load planning workbench</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="619ce-104">See protseduur näitab, kuidas kasutada müügitellimuse koorma loomiseks koorma planeerimise töölauda.</span><span class="sxs-lookup"><span data-stu-id="619ce-104">This procedure shows how to use the load planning workbench to create a load for a sales order.</span></span> <span data-ttu-id="619ce-105">Eeltingimusena loome esmalt müügitellimuse.</span><span class="sxs-lookup"><span data-stu-id="619ce-105">As a prerequisite we'll create the sales order first.</span></span> <span data-ttu-id="619ce-106">See protseduur on osa transpordikoordinaatori igapäevatööst.</span><span class="sxs-lookup"><span data-stu-id="619ce-106">This procedure is part of the daily work for the transportation coordinator.</span></span> <span data-ttu-id="619ce-107">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="619ce-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="816d9-104">Selles teemas näidatakse, kuidas kasutada koormuse planeerimise töölauda müügitellimuse koormuse loomiseks.</span><span class="sxs-lookup"><span data-stu-id="816d9-104">This topic shows how to use the load planning workbench to create a load for a sales order.</span></span> <span data-ttu-id="816d9-105">Eeltingimusena loome esmalt müügitellimuse.</span><span class="sxs-lookup"><span data-stu-id="816d9-105">As a prerequisite we'll create the sales order first.</span></span> <span data-ttu-id="816d9-106">See protseduur on osa transpordikoordinaatori igapäevatööst.</span><span class="sxs-lookup"><span data-stu-id="816d9-106">This procedure is part of the daily work for the transportation coordinator.</span></span> <span data-ttu-id="816d9-107">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="816d9-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-sales-order"></a><span data-ttu-id="619ce-108">Loo müügitellimus</span><span class="sxs-lookup"><span data-stu-id="619ce-108">Create a sales order</span></span>
-1. <span data-ttu-id="619ce-109">Avage Müügireskontro > Tellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="619ce-109">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="619ce-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="619ce-110">Click New.</span></span>
-3. <span data-ttu-id="619ce-111">Klõpsake väljal Kliendi konto otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="619ce-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="619ce-112">Valige konto US-004.</span><span class="sxs-lookup"><span data-stu-id="619ce-112">Select account US-004.</span></span>
-5. <span data-ttu-id="619ce-113">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="619ce-113">Click OK.</span></span>
-6. <span data-ttu-id="619ce-114">Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="619ce-114">In the Item number field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="619ce-115">Valige kaup A0001.</span><span class="sxs-lookup"><span data-stu-id="619ce-115">Select item A0001.</span></span>
-    * <span data-ttu-id="619ce-116">A0001 on lubatud transpordihalduse puhul.</span><span class="sxs-lookup"><span data-stu-id="619ce-116">A0001 is enabled for transportation management.</span></span>  
-8. <span data-ttu-id="619ce-117">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="619ce-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="619ce-118">Sisestage arv väljale Kogus.</span><span class="sxs-lookup"><span data-stu-id="619ce-118">In the Quantity field, enter a number.</span></span>
-10. <span data-ttu-id="619ce-119">Sisestage väljale Ladu väärtus 24.</span><span class="sxs-lookup"><span data-stu-id="619ce-119">In the Warehouse field, type '24'.</span></span>
-    * <span data-ttu-id="619ce-120">Valige selle näite puhul ladu 24.</span><span class="sxs-lookup"><span data-stu-id="619ce-120">In this example select warehouse 24.</span></span> <span data-ttu-id="619ce-121">See ladu võimaldab transpordihaldust ja täiustatud laohaldust.</span><span class="sxs-lookup"><span data-stu-id="619ce-121">This warehouse is enabled for transportation management and advanced warehouse management.</span></span>  
-11. <span data-ttu-id="619ce-122">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="619ce-122">Click Save.</span></span>
-12. <span data-ttu-id="619ce-123">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="619ce-123">Close the page.</span></span>
+## <a name="create-a-sales-order"></a><span data-ttu-id="816d9-108">Loo müügitellimus</span><span class="sxs-lookup"><span data-stu-id="816d9-108">Create a sales order</span></span>
+1. <span data-ttu-id="816d9-109">Avage **Navigeerimispaan > Moodulid > Müügireskontro > Tellimused > Kõik müügitellimused**.</span><span class="sxs-lookup"><span data-stu-id="816d9-109">Go to the **Navigation pane > Modules > Accounts receivable > Orders > All sales orders**.</span></span>
+2. <span data-ttu-id="816d9-110">Valige suvand **Uus**.</span><span class="sxs-lookup"><span data-stu-id="816d9-110">Select **New**.</span></span>
+3. <span data-ttu-id="816d9-111">Valige otsingu avamiseks väljal **Kliendi konto** ripploendi nupp.</span><span class="sxs-lookup"><span data-stu-id="816d9-111">In the **Customer account** field, select the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="816d9-112">Valige konto **US-004**.</span><span class="sxs-lookup"><span data-stu-id="816d9-112">Select account **US-004**.</span></span>
+5. <span data-ttu-id="816d9-113">Valige nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="816d9-113">Select **OK**.</span></span>
+6. <span data-ttu-id="816d9-114">Valige otsingu avamiseks väljal **Kaubakood** ripploendi nupp.</span><span class="sxs-lookup"><span data-stu-id="816d9-114">In the **Item number** field, select the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="816d9-115">Valige üksus **A0001**.</span><span class="sxs-lookup"><span data-stu-id="816d9-115">Select item **A0001**.</span></span> <span data-ttu-id="816d9-116">**A0001** on transpordihaldusele lubatud.</span><span class="sxs-lookup"><span data-stu-id="816d9-116">**A0001** is enabled for transportation management.</span></span>  
+8. <span data-ttu-id="816d9-117">Valige väljal **Koht** ripploendi nupp, et avada otsing, ja seejärel valige üksus.</span><span class="sxs-lookup"><span data-stu-id="816d9-117">In the **Site** field, select the drop-down button to open the lookup, then select an item.</span></span>
+9. <span data-ttu-id="816d9-118">Sisestage arv väljale **Kogus**.</span><span class="sxs-lookup"><span data-stu-id="816d9-118">In the **Quantity** field, enter a number.</span></span>
+10. <span data-ttu-id="816d9-119">Selle näite korral sisestage väljale **Ladu** tekst „24“.</span><span class="sxs-lookup"><span data-stu-id="816d9-119">In the **Warehouse** field, type '24' for this example.</span></span> <span data-ttu-id="816d9-120">See ladu võimaldab transpordihaldust ja täiustatud laohaldust.</span><span class="sxs-lookup"><span data-stu-id="816d9-120">This warehouse is enabled for transportation management and advanced warehouse management.</span></span>  
+11. <span data-ttu-id="816d9-121">Valige käsk **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="816d9-121">Select **Save**.</span></span>
+12. <span data-ttu-id="816d9-122">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="816d9-122">Close the page.</span></span>
 
-## <a name="create-a-new-load"></a><span data-ttu-id="619ce-124">Uue koorma loomine</span><span class="sxs-lookup"><span data-stu-id="619ce-124">Create a new load</span></span>
-1. <span data-ttu-id="619ce-125">Avage Transpordihaldus > Plaanimine > Koorma plaanimise töölaud.</span><span class="sxs-lookup"><span data-stu-id="619ce-125">Go to Transportation management > Planning > Load planning workbench.</span></span>
-2. <span data-ttu-id="619ce-126">Klõpsake vahekaarti Müügiread.</span><span class="sxs-lookup"><span data-stu-id="619ce-126">Click the Sales lines tab.</span></span>
-    * <span data-ttu-id="619ce-127">Nüüd saate luua äsja loodud müügitellimuse koorma.</span><span class="sxs-lookup"><span data-stu-id="619ce-127">Now you'll build the load for the sales order that you just created.</span></span> <span data-ttu-id="619ce-128">Koormaid saab luua ostutellimuste, üleviimistellimuste ja müügitellimuste pakkumise ja nõudluse põhjal.</span><span class="sxs-lookup"><span data-stu-id="619ce-128">Loads can be built based on supply and demand from purchase orders, transfer orders, and sales orders.</span></span>  
-3. <span data-ttu-id="619ce-129">Klõpsake toimingupaanil suvandit Pakkumine ja nõudlus.</span><span class="sxs-lookup"><span data-stu-id="619ce-129">On the Action Pane, click Supply and demand.</span></span>
-4. <span data-ttu-id="619ce-130">Klõpsake suvandit Uude koormasse.</span><span class="sxs-lookup"><span data-stu-id="619ce-130">Click To new load.</span></span>
-5. <span data-ttu-id="619ce-131">Klõpsake väljal Koorma malli ID otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="619ce-131">In the Load template ID field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="619ce-132">Koorma mall määratleb kogu koorma maksimaalse kaalu ja mahu mõõtmed.</span><span class="sxs-lookup"><span data-stu-id="619ce-132">The Load template defines maximum measurements for weight and volume of the entire load.</span></span> <span data-ttu-id="619ce-133">Näiteks võib koorma mall tähistada konteineri või veoauto suurust.</span><span class="sxs-lookup"><span data-stu-id="619ce-133">For example, the load template might represent the size of a container or truck.</span></span>  
-6. <span data-ttu-id="619ce-134">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="619ce-134">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="619ce-135">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="619ce-135">Click OK.</span></span>
+## <a name="create-a-new-load"></a><span data-ttu-id="816d9-123">Uue koorma loomine</span><span class="sxs-lookup"><span data-stu-id="816d9-123">Create a new load</span></span>
+1. <span data-ttu-id="816d9-124">Avage **Navigeerimispaan > Moodulid > Transpordihaldus > planeerimine > Koormuse planeerimise töölaud**.</span><span class="sxs-lookup"><span data-stu-id="816d9-124">Go to the **Navigation pane > Modules > Transportation management > Planning > Load planning workbench**.</span></span>
+2. <span data-ttu-id="816d9-125">Valige vahekaart **Müügiread**. Nüüd saate luua koormuse äsja loodud müügitellimuse jaoks.</span><span class="sxs-lookup"><span data-stu-id="816d9-125">Select the **Sales lines** tab. Now you'll build the load for the sales order that you just created.</span></span> <span data-ttu-id="816d9-126">Koormaid saab luua ostutellimuste, üleviimistellimuste ja müügitellimuste pakkumise ja nõudluse põhjal.</span><span class="sxs-lookup"><span data-stu-id="816d9-126">Loads can be built based on supply and demand from purchase orders, transfer orders, and sales orders.</span></span>  
+3. <span data-ttu-id="816d9-127">Valige toimingupaanil **Pakkumine ja nõudlus**.</span><span class="sxs-lookup"><span data-stu-id="816d9-127">On the Action Pane, select **Supply and demand**.</span></span>
+4. <span data-ttu-id="816d9-128">Valige **Uuele koormusele**.</span><span class="sxs-lookup"><span data-stu-id="816d9-128">Select **To new load**.</span></span>
+5. <span data-ttu-id="816d9-129">Valige väljal **Koormuse malli ID** otsingu avamiseks ripploendi nupp.</span><span class="sxs-lookup"><span data-stu-id="816d9-129">In the **Load template ID** field, select the drop-down button to open the lookup.</span></span> <span data-ttu-id="816d9-130">Koorma mall määratleb kogu koorma maksimaalse kaalu ja mahu mõõtmed.</span><span class="sxs-lookup"><span data-stu-id="816d9-130">The Load template defines maximum measurements for weight and volume of the entire load.</span></span> <span data-ttu-id="816d9-131">Näiteks võib koorma mall tähistada konteineri või veoauto suurust.</span><span class="sxs-lookup"><span data-stu-id="816d9-131">For example, the load template might represent the size of a container or truck.</span></span> <span data-ttu-id="816d9-132">Valige kaup.</span><span class="sxs-lookup"><span data-stu-id="816d9-132">Select an item.</span></span>
+6. <span data-ttu-id="816d9-133">Valige nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="816d9-133">Select **OK**.</span></span>
 
-## <a name="rate-and-route-the-load"></a><span data-ttu-id="619ce-136">Koorma hindamine ja marsruudi määramine</span><span class="sxs-lookup"><span data-stu-id="619ce-136">Rate and route the load</span></span>
-1. <span data-ttu-id="619ce-137">Klõpsake suvandit Hindamine ja marsruudivalik.</span><span class="sxs-lookup"><span data-stu-id="619ce-137">Click Rating and routing.</span></span>
-2. <span data-ttu-id="619ce-138">Klõpsake suvandit Marsruudi töölaua määr.</span><span class="sxs-lookup"><span data-stu-id="619ce-138">Click Rate route workbench.</span></span>
-3. <span data-ttu-id="619ce-139">Klõpsake suvandit Kogumäär.</span><span class="sxs-lookup"><span data-stu-id="619ce-139">Click Rate shop.</span></span>
-4. <span data-ttu-id="619ce-140">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="619ce-140">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="619ce-141">Klõpsake käsku Määra.</span><span class="sxs-lookup"><span data-stu-id="619ce-141">Click Assign.</span></span>
-6. <span data-ttu-id="619ce-142">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="619ce-142">Close the page.</span></span>
-7. <span data-ttu-id="619ce-143">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="619ce-143">Close the page.</span></span>
+## <a name="rate-and-route-the-load"></a><span data-ttu-id="816d9-134">Koorma hindamine ja marsruudi määramine</span><span class="sxs-lookup"><span data-stu-id="816d9-134">Rate and route the load</span></span>
+1. <span data-ttu-id="816d9-135">Valige **Hindamine ja marsruutimine**.</span><span class="sxs-lookup"><span data-stu-id="816d9-135">Select **Rating and routing**.</span></span>
+2. <span data-ttu-id="816d9-136">Valige **Hinda marsruudi töölauda**.</span><span class="sxs-lookup"><span data-stu-id="816d9-136">Select **Rate route workbench**.</span></span>
+3. <span data-ttu-id="816d9-137">Valige **Hinda poodi**.</span><span class="sxs-lookup"><span data-stu-id="816d9-137">Select **Rate shop**.</span></span>
+4. <span data-ttu-id="816d9-138">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="816d9-138">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="816d9-139">Valige **Määra**.</span><span class="sxs-lookup"><span data-stu-id="816d9-139">Select **Assign**.</span></span>
+6. <span data-ttu-id="816d9-140">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="816d9-140">Close the page.</span></span>
 

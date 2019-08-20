@@ -10,46 +10,46 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 98968b0025ff5c3b9723dc6cc8a8eae799a4eb43
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 800b7009f023bd2a0d8437b81d82c0e9de770841
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557184"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836011"
 ---
-# <a name="create-a-preliminary-budget-for-public-sector"></a><span data-ttu-id="ea950-103">Esialgse eelarve loomine avaliku sektori puhul</span><span class="sxs-lookup"><span data-stu-id="ea950-103">Create a preliminary budget for Public sector</span></span>
+# <a name="create-a-preliminary-budget-for-public-sector"></a><span data-ttu-id="65a72-103">Esialgse eelarve loomine avaliku sektori puhul</span><span class="sxs-lookup"><span data-stu-id="65a72-103">Create a preliminary budget for Public sector</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ea950-104">Saate luua esialgsed eelarve registreerimiskanded kindla eelarvemudeli jaoks ja dimensiooniväärtused.</span><span class="sxs-lookup"><span data-stu-id="ea950-104">You can create preliminary budget register entries for a specific budget model and dimension values.</span></span> <span data-ttu-id="ea950-105">Pärast tegeliku eelarve kinnitamist saate luua eelarve algsed registrikirjed.</span><span class="sxs-lookup"><span data-stu-id="ea950-105">After the actual budget is approved, you can create original budget register entries.</span></span> <span data-ttu-id="ea950-106">See protseduur loodi PSUS-ettevõtte demoandmetega avaliku sektori sektsioonis.</span><span class="sxs-lookup"><span data-stu-id="ea950-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
+<span data-ttu-id="65a72-104">Saate luua esialgsed eelarve registreerimiskanded kindla eelarvemudeli jaoks ja dimensiooniväärtused.</span><span class="sxs-lookup"><span data-stu-id="65a72-104">You can create preliminary budget register entries for a specific budget model and dimension values.</span></span> <span data-ttu-id="65a72-105">Pärast tegeliku eelarve kinnitamist saate luua eelarve algsed registrikirjed.</span><span class="sxs-lookup"><span data-stu-id="65a72-105">After the actual budget is approved, you can create original budget register entries.</span></span> <span data-ttu-id="65a72-106">See protseduur loodi PSUS-ettevõtte demoandmetega avaliku sektori sektsioonis.</span><span class="sxs-lookup"><span data-stu-id="65a72-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 
-1. <span data-ttu-id="ea950-107">Tehke valik Eelarvestamine > Eelarveregistri kirjed.</span><span class="sxs-lookup"><span data-stu-id="ea950-107">Go to Budgeting > Budget register entries.</span></span>
-2. <span data-ttu-id="ea950-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="ea950-108">Click New.</span></span>
-3. <span data-ttu-id="ea950-109">Klõpsake väljal Budget model (Eelarve mudel) otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="ea950-109">In the Budget model field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="ea950-110">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="ea950-110">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="ea950-111">Klõpsake väljal Budget code (Eelarve kood) otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="ea950-111">In the Budget code field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="ea950-112">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="ea950-112">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="ea950-113">Klõpsake väljal Reason code (Põhjuse kood) otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="ea950-113">In the Reason code field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="ea950-114">Klõpsake loendis soovitud kirjel.</span><span class="sxs-lookup"><span data-stu-id="ea950-114">In the list, click the desired record.</span></span>
-9. <span data-ttu-id="ea950-115">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="ea950-115">Click Save.</span></span>
-10. <span data-ttu-id="ea950-116">Klõpsake käsku Lisa rida.</span><span class="sxs-lookup"><span data-stu-id="ea950-116">Click Add line.</span></span>
-    * <span data-ttu-id="ea950-117">Valikuline: kui soovite päises kuupäeva muuta, sisestage uus kuupäev.</span><span class="sxs-lookup"><span data-stu-id="ea950-117">Optional: If you want to change the date from the one in the header, enter a new date.</span></span> <span data-ttu-id="ea950-118">See kuupäev määrab rahdnusperioodi, millesse eelarve salvestatakse.</span><span class="sxs-lookup"><span data-stu-id="ea950-118">This date determines the fiscal period that the budget will be recorded to.</span></span> <span data-ttu-id="ea950-119">Ülesannete juhendi kuvamisel teiste väljade täitmiseks klõpsake lehe ülaosas valikut Unlock (Vabasta lukust).</span><span class="sxs-lookup"><span data-stu-id="ea950-119">When viewing the task guide, to fill out other fields, click Unlock at the top of the page.</span></span>  
-11. <span data-ttu-id="ea950-120">Klõpsake väljal Konto struktuur otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="ea950-120">In the Account structure field, click the drop-down button to open the lookup.</span></span>
-12. <span data-ttu-id="ea950-121">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="ea950-121">In the list, find and select the desired record.</span></span>
-13. <span data-ttu-id="ea950-122">Täpsustage väljal Dimension values (Dimensiooni väärtused) soovitud väärtused.</span><span class="sxs-lookup"><span data-stu-id="ea950-122">In the Dimension values field, specify the desired values.</span></span>
-14. <span data-ttu-id="ea950-123">Sisestage number väljale Summa.</span><span class="sxs-lookup"><span data-stu-id="ea950-123">In the Amount field, enter a number.</span></span>
-    * <span data-ttu-id="ea950-124">Saate sisestada ka summa tüübi.</span><span class="sxs-lookup"><span data-stu-id="ea950-124">You can also enter an amount type.</span></span>  
-15. <span data-ttu-id="ea950-125">Klõpsake väljal Valuuta otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="ea950-125">In the Currency field, click the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="ea950-126">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="ea950-126">In the list, find and select the desired record.</span></span>
-17. <span data-ttu-id="ea950-127">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="ea950-127">Click Save.</span></span>
-18. <span data-ttu-id="ea950-128">Klõpsake Update budget balances (Värskenda eelarve tasakaalud).</span><span class="sxs-lookup"><span data-stu-id="ea950-128">Click Update budget balances.</span></span>
-19. <span data-ttu-id="ea950-129">Klõpsake käsku Uuenda.</span><span class="sxs-lookup"><span data-stu-id="ea950-129">Click Update.</span></span>
-    * <span data-ttu-id="ea950-130">Uuendamise tulemuste vaatamiseks klõpsake sinisel ribal valikut Message details (Teate üksikasjad).</span><span class="sxs-lookup"><span data-stu-id="ea950-130">To see the results of the update, click Message details on the blue bar.</span></span>  
+1. <span data-ttu-id="65a72-107">Tehke valik Eelarvestamine > Eelarveregistri kirjed.</span><span class="sxs-lookup"><span data-stu-id="65a72-107">Go to Budgeting > Budget register entries.</span></span>
+2. <span data-ttu-id="65a72-108">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="65a72-108">Click New.</span></span>
+3. <span data-ttu-id="65a72-109">Klõpsake väljal Budget model (Eelarve mudel) otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="65a72-109">In the Budget model field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="65a72-110">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="65a72-110">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="65a72-111">Klõpsake väljal Budget code (Eelarve kood) otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="65a72-111">In the Budget code field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="65a72-112">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="65a72-112">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="65a72-113">Klõpsake väljal Reason code (Põhjuse kood) otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="65a72-113">In the Reason code field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="65a72-114">Klõpsake loendis soovitud kirjel.</span><span class="sxs-lookup"><span data-stu-id="65a72-114">In the list, click the desired record.</span></span>
+9. <span data-ttu-id="65a72-115">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="65a72-115">Click Save.</span></span>
+10. <span data-ttu-id="65a72-116">Klõpsake käsku Lisa rida.</span><span class="sxs-lookup"><span data-stu-id="65a72-116">Click Add line.</span></span>
+    * <span data-ttu-id="65a72-117">Valikuline: kui soovite päises kuupäeva muuta, sisestage uus kuupäev.</span><span class="sxs-lookup"><span data-stu-id="65a72-117">Optional: If you want to change the date from the one in the header, enter a new date.</span></span> <span data-ttu-id="65a72-118">See kuupäev määrab rahdnusperioodi, millesse eelarve salvestatakse.</span><span class="sxs-lookup"><span data-stu-id="65a72-118">This date determines the fiscal period that the budget will be recorded to.</span></span> <span data-ttu-id="65a72-119">Ülesannete juhendi kuvamisel teiste väljade täitmiseks klõpsake lehe ülaosas valikut Unlock (Vabasta lukust).</span><span class="sxs-lookup"><span data-stu-id="65a72-119">When viewing the task guide, to fill out other fields, click Unlock at the top of the page.</span></span>  
+11. <span data-ttu-id="65a72-120">Klõpsake väljal Konto struktuur otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="65a72-120">In the Account structure field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="65a72-121">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="65a72-121">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="65a72-122">Täpsustage väljal Dimension values (Dimensiooni väärtused) soovitud väärtused.</span><span class="sxs-lookup"><span data-stu-id="65a72-122">In the Dimension values field, specify the desired values.</span></span>
+14. <span data-ttu-id="65a72-123">Sisestage number väljale Summa.</span><span class="sxs-lookup"><span data-stu-id="65a72-123">In the Amount field, enter a number.</span></span>
+    * <span data-ttu-id="65a72-124">Saate sisestada ka summa tüübi.</span><span class="sxs-lookup"><span data-stu-id="65a72-124">You can also enter an amount type.</span></span>  
+15. <span data-ttu-id="65a72-125">Klõpsake väljal Valuuta otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="65a72-125">In the Currency field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="65a72-126">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="65a72-126">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="65a72-127">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="65a72-127">Click Save.</span></span>
+18. <span data-ttu-id="65a72-128">Klõpsake Update budget balances (Värskenda eelarve tasakaalud).</span><span class="sxs-lookup"><span data-stu-id="65a72-128">Click Update budget balances.</span></span>
+19. <span data-ttu-id="65a72-129">Klõpsake käsku Uuenda.</span><span class="sxs-lookup"><span data-stu-id="65a72-129">Click Update.</span></span>
+    * <span data-ttu-id="65a72-130">Uuendamise tulemuste vaatamiseks klõpsake sinisel ribal valikut Message details (Teate üksikasjad).</span><span class="sxs-lookup"><span data-stu-id="65a72-130">To see the results of the update, click Message details on the blue bar.</span></span>  
 

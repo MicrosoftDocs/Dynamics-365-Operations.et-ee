@@ -18,33 +18,33 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c4b9585a1a0f98ea3773270f1fe7628287e235c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c9bfed12543ec9cf960eba61a993790713263579
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555743"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743091"
 ---
-# <a name="set-up-subscription-groups"></a><span data-ttu-id="38522-103">Saate häälestada kordustellimuste gruppe.</span><span class="sxs-lookup"><span data-stu-id="38522-103">Set up subscription groups</span></span> 
+# <a name="set-up-subscription-groups"></a><span data-ttu-id="d5aa8-103">Saate häälestada kordustellimuste gruppe.</span><span class="sxs-lookup"><span data-stu-id="d5aa8-103">Set up subscription groups</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="38522-104">Klõpsake valikuid **Teenuste haldus** \> **Seadistus** \> **Teenuse kordustellimused** \> **Kordustellimuste grupid**.</span><span class="sxs-lookup"><span data-stu-id="38522-104">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
+1.  <span data-ttu-id="d5aa8-104">Klõpsake valikuid **Teenuste haldus** \> **Seadistus** \> **Teenuse kordustellimused** \> **Kordustellimuste grupid**.</span><span class="sxs-lookup"><span data-stu-id="d5aa8-104">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
 
-2.  <span data-ttu-id="38522-105">Uue kordustellimuse grupi loomiseks vajutage klahve CTRL + N või klõpsake käsku **Uus**.</span><span class="sxs-lookup"><span data-stu-id="38522-105">Press Ctrl+N or click **New** to create a new subscription group.</span></span>
+2.  <span data-ttu-id="d5aa8-105">Uue kordustellimuse grupi loomiseks vajutage klahve CTRL + N või klõpsake käsku **Uus**.</span><span class="sxs-lookup"><span data-stu-id="d5aa8-105">Press Ctrl+N or click **New** to create a new subscription group.</span></span>
 
-3.  <span data-ttu-id="38522-106">Sisestage väljale **Kordustellimuse grupp** uue kordustellimuse grupi nimi.</span><span class="sxs-lookup"><span data-stu-id="38522-106">In the **Subscription group** field, enter a name for the new subscription group.</span></span>
+3.  <span data-ttu-id="d5aa8-106">Sisestage väljale **Kordustellimuse grupp** uue kordustellimuse grupi nimi.</span><span class="sxs-lookup"><span data-stu-id="d5aa8-106">In the **Subscription group** field, enter a name for the new subscription group.</span></span>
 
-4.  <span data-ttu-id="38522-107">Valige väljal **Arveldamine** kordustellimuse arve esitamise sagedus.</span><span class="sxs-lookup"><span data-stu-id="38522-107">In the **Invoicing** field, select an invoicing frequency for the subscription.</span></span> <span data-ttu-id="38522-108">Arve esitamise sagedust näitab perioodi kood, mis on määratud vormis **Perioodi tüübid**.</span><span class="sxs-lookup"><span data-stu-id="38522-108">The invoicing frequency is indicated by a period code that is set up in the **Period types** form.</span></span>
+4.  <span data-ttu-id="d5aa8-107">Valige väljal **Arveldamine** kordustellimuse arve esitamise sagedus.</span><span class="sxs-lookup"><span data-stu-id="d5aa8-107">In the **Invoicing** field, select an invoicing frequency for the subscription.</span></span> <span data-ttu-id="d5aa8-108">Arve esitamise sagedust näitab perioodi kood, mis on määratud vormis **Perioodi tüübid**.</span><span class="sxs-lookup"><span data-stu-id="d5aa8-108">The invoicing frequency is indicated by a period code that is set up in the **Period types** form.</span></span>
 
-5.  <span data-ttu-id="38522-109">Tulu lisamiseks kordustellimuse kannetele valige märkeruut **Lisatulu** ja seejärel valige sagedus väljas **Lisandumine**.</span><span class="sxs-lookup"><span data-stu-id="38522-109">To accrue revenue for subscription transactions, select the **Accrue revenue** check box, and then in the **Accrual** field, select a frequency.</span></span> <span data-ttu-id="38522-110">Lisandumise sagedus põhineb vormil **Perioodid** seadistatud perioodi koodil.</span><span class="sxs-lookup"><span data-stu-id="38522-110">The accrual frequency is based on a period code that is set up in the **Periods** form.</span></span>
+5.  <span data-ttu-id="d5aa8-109">Tulu lisamiseks kordustellimuse kannetele valige märkeruut **Lisatulu** ja seejärel valige sagedus väljas **Lisandumine**.</span><span class="sxs-lookup"><span data-stu-id="d5aa8-109">To accrue revenue for subscription transactions, select the **Accrue revenue** check box, and then in the **Accrual** field, select a frequency.</span></span> <span data-ttu-id="d5aa8-110">Lisandumise sagedus põhineb vormil **Perioodid** seadistatud perioodi koodil.</span><span class="sxs-lookup"><span data-stu-id="d5aa8-110">The accrual frequency is based on a period code that is set up in the **Periods** form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="38522-111">Vt ka</span><span class="sxs-lookup"><span data-stu-id="38522-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d5aa8-111">Vt ka</span><span class="sxs-lookup"><span data-stu-id="d5aa8-111">See also</span></span>
 
-<span data-ttu-id="38522-112">[Kordustellimuste grupid (vorm)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="38522-112">[Subscription groups (form)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span></span>
+<span data-ttu-id="d5aa8-112">[Kordustellimuste grupid (vorm)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="d5aa8-112">[Subscription groups (form)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span></span>
 
-[<span data-ttu-id="38522-113">Kordustellimuste grupid</span><span class="sxs-lookup"><span data-stu-id="38522-113">Subscription groups</span></span>](subscription-groups.md)
+[<span data-ttu-id="d5aa8-113">Kordustellimuste grupid</span><span class="sxs-lookup"><span data-stu-id="d5aa8-113">Subscription groups</span></span>](subscription-groups.md)
 
   
 

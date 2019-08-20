@@ -10,68 +10,68 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad19ff166c15748b7bbb4b82ef71dbf3e1e8ebd2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 00ce4a31c0b0f466911658c79f6e32788273c127
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563855"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1833998"
 ---
-# <a name="manage-order-holds"></a><span data-ttu-id="48668-103">Tellimuste ooteloleku haldamine</span><span class="sxs-lookup"><span data-stu-id="48668-103">Manage order holds</span></span>
+# <a name="manage-order-holds"></a><span data-ttu-id="25305-103">Tellimuste ooteloleku haldamine</span><span class="sxs-lookup"><span data-stu-id="25305-103">Manage order holds</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="48668-104">See protseduur näitab, kuidas seada kliendi müügitellimusi ootele, kuidas töötada ootel tellimuse väljaregistreerimisega ja kuidas tellimuse ootelolekut eemaldada.</span><span class="sxs-lookup"><span data-stu-id="48668-104">This procedure demonstrates how to place customer sales orders on hold, how to work with order hold checkouts, and how to remove order holds.</span></span> <span data-ttu-id="48668-105">Tellimus võidakse ootele panna mitmel põhjusel.</span><span class="sxs-lookup"><span data-stu-id="48668-105">An order might be placed on hold for a variety of reasons.</span></span> <span data-ttu-id="48668-106">Näiteks võidakse tellimus ootele panna seni, kuni kliendi aadressi või makseviisi saab kinnitada või kuni haldur saab kliendi krediidilimiidi üle vaadata.</span><span class="sxs-lookup"><span data-stu-id="48668-106">For example, you might hold an order until a customer address or payment method can be verified or until a manager can review the customer’s credit limit.</span></span> <span data-ttu-id="48668-107">Kui tellimus on ootel, ei saa ladu seda lähetamiseks töödelda.</span><span class="sxs-lookup"><span data-stu-id="48668-107">While the order on hold, it cannot be processed by the warehouse for shipping.</span></span> 
+<span data-ttu-id="25305-104">See protseduur näitab, kuidas seada kliendi müügitellimusi ootele, kuidas töötada ootel tellimuse väljaregistreerimisega ja kuidas tellimuse ootelolekut eemaldada.</span><span class="sxs-lookup"><span data-stu-id="25305-104">This procedure demonstrates how to place customer sales orders on hold, how to work with order hold checkouts, and how to remove order holds.</span></span> <span data-ttu-id="25305-105">Tellimus võidakse ootele panna mitmel põhjusel.</span><span class="sxs-lookup"><span data-stu-id="25305-105">An order might be placed on hold for a variety of reasons.</span></span> <span data-ttu-id="25305-106">Näiteks võidakse tellimus ootele panna seni, kuni kliendi aadressi või makseviisi saab kinnitada või kuni haldur saab kliendi krediidilimiidi üle vaadata.</span><span class="sxs-lookup"><span data-stu-id="25305-106">For example, you might hold an order until a customer address or payment method can be verified or until a manager can review the customer’s credit limit.</span></span> <span data-ttu-id="25305-107">Kui tellimus on ootel, ei saa ladu seda lähetamiseks töödelda.</span><span class="sxs-lookup"><span data-stu-id="25305-107">While the order on hold, it cannot be processed by the warehouse for shipping.</span></span> 
 
-<span data-ttu-id="48668-108">Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega.</span><span class="sxs-lookup"><span data-stu-id="48668-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
+<span data-ttu-id="25305-108">Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega.</span><span class="sxs-lookup"><span data-stu-id="25305-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="set-up-order-holds"></a><span data-ttu-id="48668-109">Tellimuse ootelolekute häälestamine</span><span class="sxs-lookup"><span data-stu-id="48668-109">Set up order holds</span></span>
-1. <span data-ttu-id="48668-110">Avage Müük ja turundus > Häälestamine > Müügitellimused > Tellimuse ooteloleku koodid.</span><span class="sxs-lookup"><span data-stu-id="48668-110">Go to Sales and marketing > Setup > Sales orders > Order hold codes.</span></span>
-2. <span data-ttu-id="48668-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="48668-111">Click New.</span></span>
-3. <span data-ttu-id="48668-112">Tippige väärtus väljale Ooteloleku kood.</span><span class="sxs-lookup"><span data-stu-id="48668-112">In the Hold code field, type a value.</span></span>
-    * <span data-ttu-id="48668-113">Näiteks tippige Helista tagasi.</span><span class="sxs-lookup"><span data-stu-id="48668-113">For example, type Call back.</span></span>  
-4. <span data-ttu-id="48668-114">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="48668-114">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="48668-115">Näiteks Kliendi tagasihelistuse ootel hoitav tellimus.</span><span class="sxs-lookup"><span data-stu-id="48668-115">For example, Order held waiting for customer callback.</span></span>  
-    * <span data-ttu-id="48668-116">Valikuliselt valige märkeruut Eemalda reserveeringud, et selle ooteloleku koodi lisamisel eemaldada tellimuselt mis tahes füüsilised reserveerimised.</span><span class="sxs-lookup"><span data-stu-id="48668-116">Optionally, select the Remove reservations check box to remove any physical reservations from the order when this hold code is added.</span></span>  
-5. <span data-ttu-id="48668-117">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="48668-117">Click Save.</span></span>
+## <a name="set-up-order-holds"></a><span data-ttu-id="25305-109">Tellimuse ootelolekute häälestamine</span><span class="sxs-lookup"><span data-stu-id="25305-109">Set up order holds</span></span>
+1. <span data-ttu-id="25305-110">Avage Müük ja turundus > Häälestamine > Müügitellimused > Tellimuse ooteloleku koodid.</span><span class="sxs-lookup"><span data-stu-id="25305-110">Go to Sales and marketing > Setup > Sales orders > Order hold codes.</span></span>
+2. <span data-ttu-id="25305-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="25305-111">Click New.</span></span>
+3. <span data-ttu-id="25305-112">Tippige väärtus väljale Ooteloleku kood.</span><span class="sxs-lookup"><span data-stu-id="25305-112">In the Hold code field, type a value.</span></span>
+    * <span data-ttu-id="25305-113">Näiteks tippige Helista tagasi.</span><span class="sxs-lookup"><span data-stu-id="25305-113">For example, type Call back.</span></span>  
+4. <span data-ttu-id="25305-114">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="25305-114">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="25305-115">Näiteks Kliendi tagasihelistuse ootel hoitav tellimus.</span><span class="sxs-lookup"><span data-stu-id="25305-115">For example, Order held waiting for customer callback.</span></span>  
+    * <span data-ttu-id="25305-116">Valikuliselt valige märkeruut Eemalda reserveeringud, et selle ooteloleku koodi lisamisel eemaldada tellimuselt mis tahes füüsilised reserveerimised.</span><span class="sxs-lookup"><span data-stu-id="25305-116">Optionally, select the Remove reservations check box to remove any physical reservations from the order when this hold code is added.</span></span>  
+5. <span data-ttu-id="25305-117">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="25305-117">Click Save.</span></span>
 
-## <a name="place-order-on-hold"></a><span data-ttu-id="48668-118">Tellimuse ootele seadmine</span><span class="sxs-lookup"><span data-stu-id="48668-118">Place order on hold</span></span>
-1. <span data-ttu-id="48668-119">Avage Müük ja turundus > Müügitellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="48668-119">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
-2. <span data-ttu-id="48668-120">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="48668-120">Click New.</span></span>
-3. <span data-ttu-id="48668-121">Valige või sisestage väärtus väljal Kliendi konto.</span><span class="sxs-lookup"><span data-stu-id="48668-121">In the Customer account field, enter or select a value.</span></span>
-4. <span data-ttu-id="48668-122">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="48668-122">Click OK.</span></span>
-5. <span data-ttu-id="48668-123">Sisestage või valige väärtus väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="48668-123">In the Item number field, enter or select a value.</span></span>
-6. <span data-ttu-id="48668-124">Sisestage arv väljale Kogus.</span><span class="sxs-lookup"><span data-stu-id="48668-124">In the Quantity field, enter a number.</span></span>
-7. <span data-ttu-id="48668-125">Klõpsake toimingupaanil valikut Müügitellimus.</span><span class="sxs-lookup"><span data-stu-id="48668-125">On the Action Pane, click Sales order.</span></span>
-8. <span data-ttu-id="48668-126">Klõpsake nuppu Ootelolevad tellimused.</span><span class="sxs-lookup"><span data-stu-id="48668-126">Click Order holds.</span></span>
-9. <span data-ttu-id="48668-127">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="48668-127">Click New.</span></span>
-10. <span data-ttu-id="48668-128">Väljal Ooteloleku kood valige eelmises alamülesandes loodud kood.</span><span class="sxs-lookup"><span data-stu-id="48668-128">In the Hold code field, select the code you have created in the previous subtask.</span></span>
-11. <span data-ttu-id="48668-129">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="48668-129">Click Save.</span></span>
-12. <span data-ttu-id="48668-130">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="48668-130">Close the page.</span></span>
-13. <span data-ttu-id="48668-131">Avage Müük ja turundus > Müügitellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="48668-131">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
-14. <span data-ttu-id="48668-132">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="48668-132">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="48668-133">Praegu ootelolevatel tellimustel on väljad „Ära töötle” ja „Pane ootele” märgitud.</span><span class="sxs-lookup"><span data-stu-id="48668-133">Orders that are currently on hold have the "Do not process" and "Hold" fields marked.</span></span>    
-15. <span data-ttu-id="48668-134">Klõpsake toimingupaanil valikut Komplekteerimine ja pakkimine.</span><span class="sxs-lookup"><span data-stu-id="48668-134">On the Action Pane, click Pick and pack.</span></span>
+## <a name="place-order-on-hold"></a><span data-ttu-id="25305-118">Tellimuse ootele seadmine</span><span class="sxs-lookup"><span data-stu-id="25305-118">Place order on hold</span></span>
+1. <span data-ttu-id="25305-119">Avage Müük ja turundus > Müügitellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="25305-119">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="25305-120">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="25305-120">Click New.</span></span>
+3. <span data-ttu-id="25305-121">Valige või sisestage väärtus väljal Kliendi konto.</span><span class="sxs-lookup"><span data-stu-id="25305-121">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="25305-122">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="25305-122">Click OK.</span></span>
+5. <span data-ttu-id="25305-123">Sisestage või valige väärtus väljal Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="25305-123">In the Item number field, enter or select a value.</span></span>
+6. <span data-ttu-id="25305-124">Sisestage arv väljale Kogus.</span><span class="sxs-lookup"><span data-stu-id="25305-124">In the Quantity field, enter a number.</span></span>
+7. <span data-ttu-id="25305-125">Klõpsake toimingupaanil valikut Müügitellimus.</span><span class="sxs-lookup"><span data-stu-id="25305-125">On the Action Pane, click Sales order.</span></span>
+8. <span data-ttu-id="25305-126">Klõpsake nuppu Ootelolevad tellimused.</span><span class="sxs-lookup"><span data-stu-id="25305-126">Click Order holds.</span></span>
+9. <span data-ttu-id="25305-127">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="25305-127">Click New.</span></span>
+10. <span data-ttu-id="25305-128">Väljal Ooteloleku kood valige eelmises alamülesandes loodud kood.</span><span class="sxs-lookup"><span data-stu-id="25305-128">In the Hold code field, select the code you have created in the previous subtask.</span></span>
+11. <span data-ttu-id="25305-129">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="25305-129">Click Save.</span></span>
+12. <span data-ttu-id="25305-130">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="25305-130">Close the page.</span></span>
+13. <span data-ttu-id="25305-131">Avage Müük ja turundus > Müügitellimused > Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="25305-131">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+14. <span data-ttu-id="25305-132">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="25305-132">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="25305-133">Praegu ootelolevatel tellimustel on väljad „Ära töötle” ja „Pane ootele” märgitud.</span><span class="sxs-lookup"><span data-stu-id="25305-133">Orders that are currently on hold have the "Do not process" and "Hold" fields marked.</span></span>    
+15. <span data-ttu-id="25305-134">Klõpsake toimingupaanil valikut Komplekteerimine ja pakkimine.</span><span class="sxs-lookup"><span data-stu-id="25305-134">On the Action Pane, click Pick and pack.</span></span>
 
-## <a name="manage-order-holds"></a><span data-ttu-id="48668-135">Tellimuste ooteloleku haldamine</span><span class="sxs-lookup"><span data-stu-id="48668-135">Manage order holds</span></span>
-1. <span data-ttu-id="48668-136">Avage Müük ja turundus > Müügitellimused > Avatud tellimused > Ootelolevad tellimused.</span><span class="sxs-lookup"><span data-stu-id="48668-136">Go to Sales and marketing > Sales orders > Open orders > Order holds.</span></span>
-    * <span data-ttu-id="48668-137">Ootelolevate tellimuste lehekülg funktsioneerib töölauana, kus saate hankida ülevaate kõigist praegustest ja töödeldud ootelolekutest ning käsitleda neid ja seotud müügitellimusi.</span><span class="sxs-lookup"><span data-stu-id="48668-137">Order holds page functions as a workbench where you can get an overview of all the current and processed holds, and handle them and associated sales orders.</span></span>      
-2. <span data-ttu-id="48668-138">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="48668-138">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="48668-139">Tegumiribal klõpsake nuppu Väljaregistreerimise ootelepanek.</span><span class="sxs-lookup"><span data-stu-id="48668-139">On the Action Pane, click Hold checkout.</span></span>
-4. <span data-ttu-id="48668-140">Klõpsake nuppu Registreeri välja.</span><span class="sxs-lookup"><span data-stu-id="48668-140">Click Check out.</span></span>
-5. <span data-ttu-id="48668-141">Eemaldage loendis valitud realt märge.</span><span class="sxs-lookup"><span data-stu-id="48668-141">In the list, unmark the selected row.</span></span>
-    * <span data-ttu-id="48668-142">Väli Väljaregistreerimine näitab nüüd teie kasutaja ID-d.</span><span class="sxs-lookup"><span data-stu-id="48668-142">The Checkout out to field now shows your user ID.</span></span>   
-6. <span data-ttu-id="48668-143">Klõpsake nuppu Tühjenda väljaregistreerimine.</span><span class="sxs-lookup"><span data-stu-id="48668-143">Click Clear checkout.</span></span>
-7. <span data-ttu-id="48668-144">Tegumiribal klõpsake nuppu Eemalda ootelolek.</span><span class="sxs-lookup"><span data-stu-id="48668-144">On the Action Pane, click Clear hold.</span></span>
-    * <span data-ttu-id="48668-145">Kui olete valmis ooteloleku eemaldama ja lubama tellimusel järgmisesse täitmise etappi liikuda, peate ooteloleku tühistama.</span><span class="sxs-lookup"><span data-stu-id="48668-145">When you are ready to remove the hold and allow the order to proceed to the next fulfilment step, you must clear the hold.</span></span> <span data-ttu-id="48668-146">Kui tellimus ei nõua muudatuste tegemist, saate käivitada toimingu Tühjenda ootelolekud.</span><span class="sxs-lookup"><span data-stu-id="48668-146">If the order requires no changes, you can run the Clear holds action.</span></span> <span data-ttu-id="48668-147">Siiski saate kasutada toimingut Eemalda ja muuda, kui pärast ooteloleku tühistamist tuleb tellimust värskendada.</span><span class="sxs-lookup"><span data-stu-id="48668-147">However, you can use the Clear and modify action if, when clearing a hold, the order has to be updated.</span></span>      
-    * <span data-ttu-id="48668-148">Toiming Eemalda ja saada on kohaldatav ainult siis, kui kasutate kõnekeskuse funktsiooni.</span><span class="sxs-lookup"><span data-stu-id="48668-148">The Clear and submit action is only applicable when you use Call center functionality.</span></span>  
-8. <span data-ttu-id="48668-149">Klõpsake nuppu Tühjenda ootelolekud.</span><span class="sxs-lookup"><span data-stu-id="48668-149">Click Clear holds.</span></span>
-    * <span data-ttu-id="48668-150">Ootelolek on nüüd tellimusest ja aktiivsete ootelolekute loendist eemaldatud.</span><span class="sxs-lookup"><span data-stu-id="48668-150">The hold has now been cleared from the order and removed from the list of Active holds.</span></span> <span data-ttu-id="48668-151">Nägemaks kõiki ootelolekuid ja nende alamkogumit konkreetse oleku järgi, muutke välja Kuva väärtust.</span><span class="sxs-lookup"><span data-stu-id="48668-151">To see all the holds or their subset according to a specific status, change the value in the Show field.</span></span>     
+## <a name="manage-order-holds"></a><span data-ttu-id="25305-135">Tellimuste ooteloleku haldamine</span><span class="sxs-lookup"><span data-stu-id="25305-135">Manage order holds</span></span>
+1. <span data-ttu-id="25305-136">Avage Müük ja turundus > Müügitellimused > Avatud tellimused > Ootelolevad tellimused.</span><span class="sxs-lookup"><span data-stu-id="25305-136">Go to Sales and marketing > Sales orders > Open orders > Order holds.</span></span>
+    * <span data-ttu-id="25305-137">Ootelolevate tellimuste lehekülg funktsioneerib töölauana, kus saate hankida ülevaate kõigist praegustest ja töödeldud ootelolekutest ning käsitleda neid ja seotud müügitellimusi.</span><span class="sxs-lookup"><span data-stu-id="25305-137">Order holds page functions as a workbench where you can get an overview of all the current and processed holds, and handle them and associated sales orders.</span></span>      
+2. <span data-ttu-id="25305-138">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="25305-138">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="25305-139">Tegumiribal klõpsake nuppu Väljaregistreerimise ootelepanek.</span><span class="sxs-lookup"><span data-stu-id="25305-139">On the Action Pane, click Hold checkout.</span></span>
+4. <span data-ttu-id="25305-140">Klõpsake nuppu Registreeri välja.</span><span class="sxs-lookup"><span data-stu-id="25305-140">Click Check out.</span></span>
+5. <span data-ttu-id="25305-141">Eemaldage loendis valitud realt märge.</span><span class="sxs-lookup"><span data-stu-id="25305-141">In the list, unmark the selected row.</span></span>
+    * <span data-ttu-id="25305-142">Väli Väljaregistreerimine näitab nüüd teie kasutaja ID-d.</span><span class="sxs-lookup"><span data-stu-id="25305-142">The Checkout out to field now shows your user ID.</span></span>   
+6. <span data-ttu-id="25305-143">Klõpsake nuppu Tühjenda väljaregistreerimine.</span><span class="sxs-lookup"><span data-stu-id="25305-143">Click Clear checkout.</span></span>
+7. <span data-ttu-id="25305-144">Tegumiribal klõpsake nuppu Eemalda ootelolek.</span><span class="sxs-lookup"><span data-stu-id="25305-144">On the Action Pane, click Clear hold.</span></span>
+    * <span data-ttu-id="25305-145">Kui olete valmis ooteloleku eemaldama ja lubama tellimusel järgmisesse täitmise etappi liikuda, peate ooteloleku tühistama.</span><span class="sxs-lookup"><span data-stu-id="25305-145">When you are ready to remove the hold and allow the order to proceed to the next fulfilment step, you must clear the hold.</span></span> <span data-ttu-id="25305-146">Kui tellimus ei nõua muudatuste tegemist, saate käivitada toimingu Tühjenda ootelolekud.</span><span class="sxs-lookup"><span data-stu-id="25305-146">If the order requires no changes, you can run the Clear holds action.</span></span> <span data-ttu-id="25305-147">Siiski saate kasutada toimingut Eemalda ja muuda, kui pärast ooteloleku tühistamist tuleb tellimust värskendada.</span><span class="sxs-lookup"><span data-stu-id="25305-147">However, you can use the Clear and modify action if, when clearing a hold, the order has to be updated.</span></span>      
+    * <span data-ttu-id="25305-148">Toiming Eemalda ja saada on kohaldatav ainult siis, kui kasutate kõnekeskuse funktsiooni.</span><span class="sxs-lookup"><span data-stu-id="25305-148">The Clear and submit action is only applicable when you use Call center functionality.</span></span>  
+8. <span data-ttu-id="25305-149">Klõpsake nuppu Tühjenda ootelolekud.</span><span class="sxs-lookup"><span data-stu-id="25305-149">Click Clear holds.</span></span>
+    * <span data-ttu-id="25305-150">Ootelolek on nüüd tellimusest ja aktiivsete ootelolekute loendist eemaldatud.</span><span class="sxs-lookup"><span data-stu-id="25305-150">The hold has now been cleared from the order and removed from the list of Active holds.</span></span> <span data-ttu-id="25305-151">Nägemaks kõiki ootelolekuid ja nende alamkogumit konkreetse oleku järgi, muutke välja Kuva väärtust.</span><span class="sxs-lookup"><span data-stu-id="25305-151">To see all the holds or their subset according to a specific status, change the value in the Show field.</span></span>     
 
