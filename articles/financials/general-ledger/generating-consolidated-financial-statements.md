@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557727"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863696"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolideeritud finantsaruannete loomine
 
@@ -49,11 +49,11 @@ Nagu konsolideeritud aruandes järgmisel joonisel on näha, saate aruandluspuu k
 
 Saate ka luua mitmetasemelise aruandluspuu, mis hõlmab nii palju tasemeid, kui teil on vaja. Järgmisel joonisel on näha mitmetasemeline aruandluspuu definitsioon, millel on kokkuvõtted üleilmse piirkonna järgi.
 
-![Mitmetasemeline aruandluspuu definitsoon kokkuvõtetega piirkonna järgi](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "Mitmetasemeline aruandluspuu definitsoon kokkuvõtetega piirkonna järgi")
+![Mitmetasemeline aruandluspuu definitsoon kokkuvõtetega piirkonna järgi](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Mitmetasemeline aruandluspuu definitsoon kokkuvõtetega piirkonna järgi")
 
 Järgmisel joonisel on näha mitmetasemeline aruandluspuu definitsioon, millel on kokkuvõtted funktsiooni järgi.
 
-![Mitmetasemeline aruandluspuu definitsoon kokkuvõtetega funktsiooni järgi](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "Mitmetasemeline aruandluspuu definitsoon kokkuvõtetega funktsiooni järgi")
+![Mitmetasemeline aruandluspuu definitsoon kokkuvõtetega funktsiooni järgi](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Mitmetasemeline aruandluspuu definitsoon kokkuvõtetega funktsiooni järgi")
 
 ### <a name="viewing-companies-side-by-side"></a>Ettevõtete vaatamine kõrvuti
 Paljud kliendid eelistavad aruandeid, kus ettevõtted kuvatakse kõrvuti ja kus veerus on näha konsolideeritud kogusumma. Seda vormingut on lihtne saavutada pärast aruandluspuu loomist. Siin on kõrgetasemelised etapid ettevõtete kõrvuti vaatamiseks konsolideeritud finantsaruannetel.
@@ -98,7 +98,7 @@ Sisestage aruandluspuu definitsioonis omandiõiguse protsent veergu **Ümberarve
 > [!NOTE]
 > Saate seda omandiõiguse protsenti rakendada mis tahes aruandlusüksusele, mitte ainult ettevõtte tasemel. 
 
-![Aruandluspuu definitsiooni protsendi kasutamine](./media/Using-reporting%20tree-definition-percentage.png "Aruandluspuu definitsiooni protsendi kasutamine")
+![Aruandluspuu definitsiooni protsendi kasutamine](./media/Using-reporting-tree-definition-percentage.png "Aruandluspuu definitsiooni protsendi kasutamine")
 
 Aruande loomisel kuvab Contoso Germany aruanne 100 protsenti müügisummast ning 80 protsenti summast eraldatakse ja arvestatakse ümber müügi konsolideeritud tasemele.
 

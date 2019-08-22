@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.custom: 221294
 ms.assetid: 357931ed-f843-4bf5-bc85-0da3de0619ec
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b200f6b8a636a5e7c4ee2625226510f538ff023c
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548028"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863489"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Mis on uut või mida on muudetud rakenduse Dynamics 365 for Operations versioonis 1611 (november 2016)
 
@@ -757,7 +757,7 @@ Sujuv ühiskanali kaubandus viitab haldusele ja tellimuse töötlemisele füüsi
 
 | Mida saate teha | Miks on see oluline |
 |-----------------|-----------------------|
-| CRT/jaemüügiserver: jaemüüjad ja sõltumatud tarkvaratarnijad saavad pikendada CRT-d laiendikonksude kaudu. Koodisiseseid muudatusi ei toetata enam. | Pideva integratsiooni ja pideva juurutamise lubamiseks tuleb koodisiseseid muudatusi täielikult vältida. Lisaks, et toetada kiirparanduse lihtsat kasutuselevõttu ilma mis tahes koodi ühendamise ja juurutamiseta CRT komponentidele. |
+| CRT/Jaemüügiserver: Jaemüüjad või ISV-d saavad laiendada CRT pikenduskonksude kaudu. Koodisiseseid muudatusi ei toetata enam. | Pideva integratsiooni ja pideva juurutamise lubamiseks tuleb koodisiseseid muudatusi täielikult vältida. Samuti selleks, et toetada lihtsat kiirparanduse teostamist ilma koodi liitmise ja CRT komponentide juurutamiseta. |
 
 ### <a name="personalized-product-recommendations"></a>Isikupärastatud tootesoovitused
 
@@ -769,7 +769,7 @@ Sujuv ühiskanali kaubandus viitab haldusele ja tellimuse töötlemisele füüsi
 
 | Mida saate teha | Miks on see oluline |
 |-----------------|-----------------------|
-| Jaemüüjad saavad kasutada kassa tegevuse salvestajat, et toota koolitusmaterjale, äriprotsesside modelleerija (BPM) diagramme ja luua spikrisisu täiustamaks tootlikkust ja tegemaks paremat rakenduste analüüsi ja kujundust. | Pideva integratsiooni ja pideva juurutamise lubamiseks tuleb sisemuudatusi täielikult vältida. Lisaks, et toetada kiirparanduse lihtsat kasutuselevõttu ilma mis tahes koodi ühendamise ja juurutamiseta CRT komponentidele. |
+| Jaemüüjad saavad kasutada kassa tegevuse salvestajat, et toota koolitusmaterjale, äriprotsesside modelleerija (BPM) diagramme ja luua spikrisisu täiustamaks tootlikkust ja tegemaks paremat rakenduste analüüsi ja kujundust. | Pideva integratsiooni ja pideva juurutamise lubamiseks tuleb sisemuudatusi täielikult vältida. Samuti selleks, et toetada lihtsat kiirparanduse teostamist ilma koodi liitmise ja CRT komponentide juurutamiseta. |
 | Reaalajas spikker kassas. | Kassapidaja/juhataja saab hankida kassast äriprotsesside kohta reaalajas abi ilma konteksti muutmata. |
 
 ### <a name="store-system-providing-a-seamless-on-premises-store-experience"></a>Kaupluse süsteemi: annab sujuva asutusesisese kaupluse kogemuse

@@ -3,7 +3,7 @@ title: Kiirklahvid
 description: Järgmised kiirklahvid ehk klaviatuuriotseteed kehtivad kogu rakenduses Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 12/12/2017
+ms.date: 07/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
+ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561829"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1780054"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
@@ -138,9 +138,13 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Valitud kogumile ridade vahemiku lisamine<blockquote>[!NOTE] See otsetee kehtib ainult mitme valikuga stsenaariumide puhul.</blockquote>         | Shift + klõps                     |
 | Eelmisele/järgmisele andmelehele liikumine                                                                                   | Page Up / Page Down             |
 | Loo ruudustiku allservas uus rida                                                                             | Allanool (alates viimasest reast)  |
-| Märgi või tühjenda kõik read                                                                                               | Ctrl + Shift + M                    |
 | Teisalda esimesse kirjesse                                                                                               | Ctrl + Home                       |
 | Liigu viimasele kirjele                                                                                                | Ctrl + End                        |
+| Märgi või tühjenda kõik read                                                                                               | Ctrl + Shift + M                    |
+| Liigu esimese märgitud reani                                                                                           | Alt+Shift+M, F                    |
+| Liigu järgmise märgitud reani                                                                                            | Alt+Shift+M, L                    |
+| Liigu eelmise märgitud reani                                                                                        | Alt+Shift+M, P                    |
+| Liigu viimase märgitud reani                                                                                           | Alt+Shift+M, N                    |
 | Vaiketegevuse käivitamine ruudustikus<blockquote>[!NOTE] See otsetee on lubatud, kui fookus on hüperlinki sisaldaval lahtril ja kõigil selle veeru lahtritel on hüperlingid.</blockquote> | Sisestusklahv                           |
 | Lülita fookus ümber valitud rea ja päiserea vahel                                                               | Alt + Shift + H                     |
 | Praeguse veeru suuremaks/väiksemaks tegemine (kui fookus on päisereas)                                                  | Paremnool/vasaknool        |

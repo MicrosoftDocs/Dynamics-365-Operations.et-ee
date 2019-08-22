@@ -3,25 +3,25 @@ title: Hankekategooria hierarhiate poliitikate seadistamine
 description: Kasutage seda protseduuri, et seadistada reeglid kategooria toodete tellimiseks.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1fdf357466de12bd0188fc43cd266c67af762c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569910"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844168"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Hankekategooria hierarhiate poliitikate seadistamine
 
@@ -31,31 +31,24 @@ Kasutage seda protseduuri, et seadistada reeglid kategooria toodete tellimiseks.
 
 
 ## <a name="find-the-procurement-policy"></a>Hankepoliitika otsimine
-1. Valige Hanked > Seadistus > Poliitikad > Ostupoliitikad.
-2. Klõpsake poliitika Hankepoliitika USMF linki.
-    * See on poliitika, millele reegli lisate. See peab olema aktiivne poliitika.  
+1. Avage navigeerimispaanil **Moodulid > Jange > Häälestus > Poliitika > Ostupoliitika**.
+2. Klõpsake „Hankepoliitika USMF“ poliitika linki. See on poliitika, millele reegli lisate. See peab olema aktiivne poliitika.  
 
 ## <a name="create-a-category-access-rule"></a>Kategooria juurdepääsureegli loomine
-1. Valige kategooria juurdepääsupoliitika reegel.
-    * Kui nupp Loo poliitikareegel on tuhm, siis on kategooria juurdepääsul juba aktiivne poliitikareegel olemas. Kontrollige jõustumis- ja aegumiskuupäeva välju, et määrata, mis see on, ning seejärel valige see ja klõpsake valikut Määra poliitikareegel aegunuks. Kui nupp Loo poliitikareegel on saadaval, pole midagi vaja teha.  
-2. Klõpsake valikut Loo poliitika reegel.
-3. Sisestage kuupäev ja kellaaeg väljale Jõustumiskuupäev.
-    * Aeg ei tohi kattuda teise juba aktiivse reegliga.  
-    * Valige kategooria, millele reegel rakendub. Märkige üles, milline kategooria see on – seda on hiljem vaja. Kategooria valimisel lisatakse loendisse Valitud kategooriad selle põhikategooria või -kategooriad.  
-    * Kui soovite, et reegel kehtiks kõigile valitud kategooria alamkategooriatele, märkige ruut Kaasa alamkategooriad.  
-4. Klõpsake vahekaarti Lisa.
-    * Kui määrate valiku Kaasa põhireegel väärtuseks Jah, määratakse põhireeglile määratletud poliitikareegel ka selle alamkategooriatele, kui alamkategooriatele on poliitikareegel määratletud.  
-5. Klõpsake nuppu OK.
+1. Laiendage kiirkaarti **Poliitika reeglid**.
+2. Valige loendist **Poliitika reegli tüüp** suvand **Kategooria juurdepääsupoliitika reegel**. Kui nupp **Poliitika reegli loomine** on tuhm, tähendab see seda, et aktiivne poliitika reegel on katekoogira juurdepääsuks juba olemas. Kontrollige välju **Tõhus** ja **Aegumine**, et tuvastada, kumb see on, ning seejärel valige see ja klõpsake **Poliitika reegli kustutamine**. Kui nupp **Poliitika reegli loomine** on saadaval, ei pea te midagi tegema.  
+3. Klõpsake nuppu **Poliitika reegli loomine**.
+4. Sisestage kuupäev ja kellaaeg väljale **Jõustumiskuupäev**. Aeg ei tohi kattuda teise juba aktiivse reegliga.  
+5. Valige kategooria, millele reegel rakendub. Märkige üles, milline kategooria see on – seda on hiljem vaja. Kategooria valimisel lisatakse loendisse Valitud kategooriad selle põhikategooria või -kategooriad. Kui soovite, et reegel rakenduks kõigile valitud kategooria alamkategooriatele, valige märkeruut **Kaasa alamkategooriad**.
+6. Klõpsake paremnoolt, et lisada loend **Valitud kategooriad**.  
+4. Klõpsake valikut **OK**. Kui seadistate suvandi **Kaasa ema reegel** olekusse Jah, määratakse emakategooriale määratud poliitika reegel ka selle alamkategooriatele, kui alamkategooriatele ei ole poliitika reeglit määratud.
 
 ## <a name="create-a-category-policy-rule"></a>Kategooria poliitikareegli loomine
-1. Valige kategooria poliitikareegel
-    * Kui nupp Loo poliitikareegel on tuhm, valige aktiivne poliitikareegel ja klõpsake valikut Määra poliitikareegel aegunuks.  
-2. Klõpsake valikut Loo poliitika reegel.
-3. Sisestage kuupäev ja kellaaeg väljale Jõustumiskuupäev.
-4. Klõpsake vahekaarti Lisa.
-5. Valige sama kategooria, mida kasutasite kategooria juurdepääsureegli puhul.
-6. Tehke valik väljal Hankija olek.
-    * Valige reegel, et juhtida, milliseid hankijaid võib taotluste loomisel kategooriale valida.  
-7. Klõpsake valikut Sule.
-    * Teie määratletud poliitikareeglid on olnud taotlustele tüübiga Tarbimine. Kui soovite määratleda poliitikad taotlustele tüübiga Täiendamine, tuleb luua reegel poliitikareegli tüübile nimega Täiendamise kategooria juurdepääsupoliitika reegel.  
+1. Valige loendist **Poliitika reegli tüüp** suvand **Kategooria poliitika reegel**. Kui nupp **Poliitika reegli loomine** on tuhm, valige aktiivne poliitika reegel ja seejärel klõpsake **Kustuta poliitika reegel**.  
+2. Klõpsake nuppu **Poliitika reegli loomine**.
+3. Sisestage kuupäev ja kellaaeg väljale **Jõustumiskuupäev**.
+4. Klõpsake käsku **Lisa**.
+5. Valige väljal **Kategooria** sama kategooria, mida kasutasite **Kategooria juurdepääsu reegli** korral.
+6. Valige suvand väljal **Hankia valik**. Valige reegel, et juhtida, milliseid hankijaid võib taotluste loomisel kategooriale valida.  
+7. Klõpsake valikut **Sule**. Teie määratletud poliitikareeglid on olnud taotlustele tüübiga Tarbimine. Kui soovite määratleda poliitikad taotlustele tüübiga Täiendamine, tuleb luua reegel poliitikareegli tüübile nimega Täiendamise kategooria juurdepääsupoliitika reegel.  
 

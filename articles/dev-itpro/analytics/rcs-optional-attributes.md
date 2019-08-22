@@ -1,5 +1,5 @@
 ---
-title: Rakendusekohaste metaandmete ettevalmistamine RCS-i ja ER-i jaoks
+title: Failide importimine XML-vormingus koos valikuliste atribuutidega
 description: Selles teemas kirjeldatakse ER-vormingute kujundamist, mis määravad XML-atribuute sissetulevate elektrooniliste dokumentide sõelumiseks XML-vormingus.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726571"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849991"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Rakendusekohaste metaandmete ettevalmistamine RCS-i ja ER-i jaoks
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>Failide importimine XML-vormingus koos valikuliste atribuutidega
 
 Saate kujundada elektroonilise aruandluse (ER) vormingud sõeluma sissetulevaid dokumente XML-vormingus. XML-elementide teatud atribuute saab loodud ER-vormingus määratleda valikuliselt. See võimaldab teil selliste XML-atribuutidega ja ilma nendeta sissetulevaid faile õigesti käsistseda. Seejärel saate neist failidest pärit sisu kasutada rakenduse andmete värskendamiseks.
 
@@ -97,11 +97,11 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 5.  Klõpsake valikut **Salvesta**.
 6.  Klõpsake valikut **Kujundaja**.
 7.  Laiendage puul valikut **format**.
-8.  Laiendage puul valikut **format\root: XML Element(root)**.
-9.  Valige puul **format\root: XML Element(root)\document: XML Element 1..* (dokument)**.
+8.  Laiendage puul valikut **formatoot: XML Element(root)**.
+9.  Valige puul **formatoot: XML Element(root)\document: XML Element 1..* (dokument)**.
 10. Klõpsake valikult **Seo**.
-11. Laiendage puul valikut **format\root: XML Element(root)\document: XML Element 1..* (dokument)**.
-12. Valige puul **format\root: XML Element(root)\document: XML Element 1..* (dokument)\id**.
+11. Laiendage puul valikut **formatoot: XML Element(root)\document: XML Element 1..* (dokument)**.
+12. Valige puul **formatoot: XML Element(root)\document: XML Element 1..* (dokument)\id**.
 13. Laiendage puul valikut **List = format.root.document**.
 14. Valige puul **List = format.root.document\Code**.
 15. Klõpsake valikult **Seo**.

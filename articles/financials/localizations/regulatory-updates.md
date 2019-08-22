@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624307"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849328"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
@@ -59,19 +59,22 @@ Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist t
 |      2019. aprill          |   10.0.1      |    Venemaa     |Transpordimaksu deklaratsiooni muudatused alates 2019. aastast  |
 |      2019. aprill            |   10.0.1      | Ungari      |  Ungari: veebipõhine arveldussüsteem v. 1.1 2019 tarkvaras Microsoft Dynamics 365 for Finance and Operations  |
 |      2019. mai            |   10.0.2      | Brasiilia      |   SPED ECD kavand 7   |
-|      Ootel            |   10.0.3      | Brasiilia      |   NF-e uus NT 2018.005 – v. 1.20   |
-|      Ootel            |   10.0.3      | Brasiilia      |   SPED ECD kavand 7   |
-|      Ootel            |   10.0.3      | Brasiilia      |   SPED ECF – paigutus 5 2019 jaoks   |
-|      Ootel            |   10.0.3      | Leedu    |   i. SAF-aruanne võimaldab kasutajal määratleda süsteemi käibemaksukoode koos juriidiliste maksukoodidega    |
-|      Ootel            |   10.0.3      | Poola     |   SAF-arved (JPK_FA) v. 2 alates 1. juuli 2019  |
-|      Ootel            |   10.0.3      | Brasiilia   |   ICMS-i fiskaaldokumentide korrigeerimised lubavad tabeli 5.2   |
-|      Ootel            |   10.0.3      | Brasiilia    |   NF-e dekreet 54.308/18 (RS)   |
-  | Ootel            |   10.0.4      | Brasiilia    |   Sissetulev finantsdokument 66   |
-   | Ootel            |   10.0.4      | Brasiilia    |   NF-e ja NFC-e – otsus 13/2019 ja määrus SUCIEF 55/2019- RJ – uued tingimused maksuvabastusega siltide väljastamiseks NF-es.   |
-   | Ootel            |   10.0.4      | India   |   "Tarnekoha" ja "oleku" kuvamine GST-i maksuarves  |
-   | Ootel            |   10.0.4      | Mehhiko   |  DIOT kolmanda osapoole deklaratsioon – muudatused paigutuse 2019   |
-   | Ootel            |   10.0.4      | Brasiilia    |   NF-e ICMS-ST – määrus CAT 42/18 SP olekule – CAT 42/18
-   | Ootel            |   10.0.4      | Brasiilia    |   NF-e dekreet 54.308/18 – RS NF   |
+|      2019. juuni            |   10.0.3      | Brasiilia      |   NF-e uus NT 2018.005 – v. 1.20   |
+|      2019. juuni            |   10.0.3      | Brasiilia      |   SPED ECD kavand 7   |
+|      2019. juuni            |   10.0.3      | Brasiilia      |   SPED ECF – paigutus 5 2019 jaoks   |
+|      2019. juuni            |   10.0.3      | Leedu    |   i. SAF-aruanne võimaldab kasutajal määratleda süsteemi käibemaksukoode koos juriidiliste maksukoodidega    |
+|      2019. juuni            |   10.0.3      | Poola     |   SAF-arved (JPK_FA) v. 2 alates 1. juuli 2019  |
+|      2019. juuni            |   10.0.3      | Brasiilia   |   ICMS-i fiskaaldokumentide korrigeerimised lubavad tabeli 5.2   |
+|      2019. juuni            |   10.0.3      | Brasiilia    |   NF-e dekreet 54.308/18 (RS)   |
+  | Juuli 2019            |   10.0.4      | Brasiilia    |   Sissetulev finantsdokument 66   |
+   | Juuli 2019            |   10.0.4      | Brasiilia    |   NF-e ja NFC-e – otsus 13/2019 ja määrus SUCIEF 55/2019- RJ – uued tingimused maksuvabastusega siltide väljastamiseks NF-es.   |
+   | Juuli 2019            |   10.0.4      | India   |   "Tarnekoha" ja "oleku" kuvamine GST-i maksuarves  |
+   | Juuli 2019            |   10.0.4      | Mehhiko   |  DIOT kolmanda osapoole deklaratsioon – muudatused paigutuse 2019   |
+   | Juuli 2019            |   10.0.4      | Brasiilia    |   NF-e ICMS-ST – määrus CAT 42/18 SP olekule – CAT 42/18
+   | Juuli 2019            |   10.0.4      | Brasiilia    |   NF-e dekreet 54.308/18 – RS NF   |
+       | Ootel            |   10.0.5      | Brasiilia    |   SPED panuse praktiline juhend 1,31. Uued suunised   |
+         | Ootel            |   10.0.5      | Brasiilia    |   Tehniliste märkmete uus versioon NF-e jaoks: NT 2019.001 versioon 1,00   |
+          | Ootel            |   10.0.5      | Hispaania    |   Valideerimisreeglid muutuvad 1. oktoobril 2019   |
    
 
 

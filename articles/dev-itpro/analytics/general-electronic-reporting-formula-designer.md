@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
-ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
+ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625868"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849505"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Valemikoostaja elektroonilises aruandluses (ER)
 
@@ -215,12 +215,12 @@ Järgmistes tabelites kirjeldatakse andmete manipuleerimise funktsioone, mida sa
 | TODAY () | Tagastab Finance and Operationsi rakenduseserveri kuupäeva kuupäevaväärtusena. | |
 | NULLDATE () | Tagastab kuupäeva väärtuse **null**. | |
 | NULLDATETIME () | Annab vastuseks kuupäeva ja kellaaja väärtuse **null**. | |
-| DATETIMEFORMAT (kuupäev ja kellaaeg, vorming) | Teisendage määratud kuupäeva ja kellaaja väärtus määratud vormingus stringiks. (Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), „pp-KK-aaaa”)** annab vastuseks praeguse Finance and Operationsi rakenduseserveri kuupäeva 24. detsember 2015 kujul **"24-12-2015"** määratud kohandatud vormingu kohaselt. |
-| DATETIMEFORMAT (kuupäev ja kelaaeg, vorming, kultuur) | Teisendage määratud kuupäeva ja kellaaja väärtus määratud vormingus ja [kultuuris](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) stringiks. (Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** annab vastuseks Finance and Operationsi rakenduseserveri praeguse kuupäeva 24. detsember 2015 kujul **"24.12.2015"** valitud saksa kultuuri kohaselt. |
+| DATETIMEFORMAT (kuupäev ja kellaaeg, vorming) | Teisendage määratud kuupäeva ja kellaaja väärtus määratud vormingus stringiks. (Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), „pp-KK-aaaa”)** annab vastuseks praeguse Finance and Operationsi rakenduseserveri kuupäeva 24. detsember 2015 kujul **"24-12-2015"** määratud kohandatud vormingu kohaselt. |
+| DATETIMEFORMAT (kuupäev ja kelaaeg, vorming, kultuur) | Teisendage määratud kuupäeva ja kellaaja väärtus määratud vormingus ja [kultuuris](https://msdn.microsoft.com/goglobal/bb896001.aspx) stringiks. (Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** annab vastuseks Finance and Operationsi rakenduseserveri praeguse kuupäeva 24. detsember 2015 kujul **"24.12.2015"** valitud saksa kultuuri kohaselt. |
 | SESSIONTODAY () | Annab vastuseks Finance and Operationsi seansi kuupäeva kuupäevaväärtusena. | |
 | SESSIONNOW () | Annab vastuseks Finance and Operationsi seansi praeguse kuupäeva ja kellaaja kuupäeva- ja kellaaja väärtusena. | |
 | DATEFORMAT (kuupäev, vorming) | Annab vastuseks määratud kuupäeva määratud vormingus stringi kujul. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** annab vastuseks praeguse Finance and Operationsi seansi kuupäeva 24. detsember 2015 kujul **"24-12-2015"** määratud kohandatud vormingu kohaselt. |
-| DATEFORMAT (kuupäev, vorming, kultuur) | Teisendage määratud kuupäevaväärtus määratud vormingus ja [kultuuris](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) stringiks. (Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** annab vastuseks Finance and Operationsi seansi praeguse kuupäeva 24. detsember 2015 kujul **"24.12.2015"** valitud saksa kultuuri kohaselt. |
+| DATEFORMAT (kuupäev, vorming, kultuur) | Teisendage määratud kuupäevaväärtus määratud vormingus ja [kultuuris](https://msdn.microsoft.com/goglobal/bb896001.aspx) stringiks. (Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** annab vastuseks Finance and Operationsi seansi praeguse kuupäeva 24. detsember 2015 kujul **"24.12.2015"** valitud saksa kultuuri kohaselt. |
 | DAYOFYEAR (kuupäev) | Annab vastuseks 1. jaanuari ja määratud kuupäeva vahelise päevade arvu täisarvuna. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** annab vastuseks **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** annab vastuseks **1**. |
 | DAYS (kuupäev 1, kuupäev 2) | Annab vastuseks esimese määratud kuupäeva ja teise määratud kuupäeva vahele jäävate päevade arvu. Annab vastuseks positiivse väärtuse, kui esimene kuupäev on hilisem kui teine kuupäev, annab vastuseks **0** (nulli), kui esimene kuupäev võrdub teise kuupäevaga, või annab vastuseks negatiivse väärtuse, kui esimene kuupäev on varasem kui teine kuupäev. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** annab vastuseks **-1**. |
 
@@ -649,12 +649,12 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </tr>
 <tr>
 <td>NUMBERFORMAT (number, vorming)</td>
-<td>Annab vastuseks määratud vormingus määratud numbri stringiesituse. (Teavet toetatud vormingute kohta vt jaotistest <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standardne</a> ja <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">kohandatud</a>.) Selle funktsiooni käitamise kontekst määrab kultuuri, mida kasutatakse numbrite vormindamiseks.</td>
+<td>Annab vastuseks määratud vormingus määratud numbri stringiesituse. (Teavet toetatud vormingute kohta vt jaotistest <a href="https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx">standardne</a> ja <a href="https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx">kohandatud</a>.) Selle funktsiooni käitamise kontekst määrab kultuuri, mida kasutatakse numbrite vormindamiseks.</td>
 <td>Ingliskeelses kultuuris tagastab <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> väärtuse <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> tagastab väärtuse <strong>&quot;10&quot;</strong>.</td>
 </tr>
 <tr>
 <td>NUMBERFORMAT (number, vorming, kultuur)</td>
-<td>Annab vastuseks määratud arvu määratud vormingus ja konkreetses kultuuris stringi kujul. (Toetatud vormingute kohta lisateabe saamiseks vt jaotisi <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">standardne</a> ja <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">kohandatud</a>.)</td>
+<td>Annab vastuseks määratud arvu määratud vormingus ja konkreetses kultuuris stringi kujul. (Toetatud vormingute kohta lisateabe saamiseks vt jaotisi <a href="https://docs.microsoft.com/dotnet/standard/base-types/standard-numeric-format-strings">standardne</a> ja <a href="https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings">kohandatud</a>.)</td>
 <td><strong>NUMBERFORMAT (10/3, “F2”, "de")</strong> annab vastuseks <strong>3,33</strong>, <strong>NUMBERFORMAT (10/3, “F2”, "en-us")</strong> aga annab vastuseks <strong>3.33</strong>.</td>
 </tr>
 <tr>

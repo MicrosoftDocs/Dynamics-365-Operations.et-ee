@@ -1,53 +1,51 @@
 ---
 title: Kinnipeetava maksu seadistamine
-description: Kinnipeetav maks on maks hankijatele, mis ei loo käibemaksukandeid.
+description: Selles teemas selgitatakse, kuidas seadistada kinnipeetavat maksu.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxWithholdTable, TaxWithholdData, TaxWithholdGroup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 382b6332665af2491563960a75d498a4f007aba8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 10e7018c79e54841d0729636b08ad475a94d20d5
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562784"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834730"
 ---
 # <a name="set-up-withholding-tax"></a>Kinnipeetava maksu seadistamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Kinnipeetav maks on maks hankijatele, mis ei loo käibemaksukandeid. Hankija maksetelt arvutatav kinnipeetav maks on kohustus. Seetõttu on kinnipeetava maksu sisestamisel kehtivad kontod ainult bilansikontod või kohustuste kontod. See ülesande juhend näitab, kuidas kinnipeetavat maksu seadistada.
+Selles teemas selgitatakse, kuidas seadistada kinnipeetavat maksu. *Kinnipeetav maks* on käibemaksu mitte loovate hankijate maks. Hankija maksetelt arvutatav kinnipeetav maks on kohustus. Seetõttu on kinnipeetava maksu sisestamisel kehtivad kontod ainult bilansikontod või kohustuste kontod. See ülesande juhend näitab, kuidas kinnipeetavat maksu seadistada.
 
-1. Avage Maks > Kaudsed maksud > Kinnipeetav maks > Kinnipeetava maksu koodid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Kinnipeetava maksu kood.
-4. Sisestage kinnipeetava maksu koodi nimi väljale Kinnipeetava maksu nimi.
-5. Valige väljal Põhikonto kinnipeetava maksu kohustuse sisestamiseks kasutatav põhikonto.
-6. Klõpsake nuppu Salvesta.
-7. Klõpsake suvandit Väärtused.
-8. Märkige loendis valitud rida.
-9. Sisestage väljale Väärtus kinnipeetava maksu arvutamiseks kasutatav protsent.
-10. Klõpsake nuppu Salvesta.
-11. Sulgege leht.
-12. Klõpsake nuppu Salvesta.
-13. Sulgege leht.
-14. Avage Maks > Kaudsed maksud > Kinnipeetav maks > Kinnipeetava maksu grupid.
-15. Klõpsake valikut Uus.
-16. Sisestage kinnipeetava maksu grupi identifikaator väljale Kinnipeetava maksu grupp.
-17. Sisestage kinnipeetava maksu grupi nimi väljale Kirjeldus.
-18. Märkige loendis valitud rida.
-19. Valige kinnipeetava maksu kood väljalt Kinnipeetava maksu kood.
-20. Klõpsake loendis valitud real olevat linki.
-21. Klõpsake nuppu Salvesta.
+1. Avage **Navigeerimispaan > Moodulid > Maks > Kaudsed maksud > Kinnipeetav maks > Kinnipeetava maksu koodid**.
+2. Valige suvand **Uus**.
+3. Sisestage väärtus väljale **Kinnipeetava maksu kood**.
+4. Sisestage väljale **Kinnipeetava maksu nimi** kinnipeetava maksu koodi nimi.
+5. Valige väljal **Põhikonto** peamine konto kinnipeetava maksukohustuse sisestamiseks.
+6. Valige käsk **Salvesta**.
+7. Valige **Väärtused** ja märgistage loendis soovitud kirje.
+8. Sisestage väljale **Väärtus** kinnipeetava maksu arvutamiseks kasutatav protsent.
+9. Valige käsk **Salvesta**.
+10. Sulgege leht.
+11. Valige käsk **Salvesta**.
+12. Sulgege leht.
+13. Avage **Navigeerimispaan > Moodulid > Maks > Kaudsed maksud > Kinnipeetav maks > Kinnipeetava maksu rühmad**.
+14. Valige suvand **Uus**.
+15. Sisestage väljale **Kinnipeetava maksu rühm** kinnipeetava maksu rühma identifikaator.
+16. Sisestage väljale **Kirjeldus** kinnipeetava maksu rühma nimi.
+17. Valige väljal **Kinnipeetava maksu kood** kinnipeetava maksu kood.
+18. Valige käsk **Salvesta**.
+19. Sulgege leht.
 
