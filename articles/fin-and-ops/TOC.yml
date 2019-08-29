@@ -1,21 +1,24 @@
 - name: Dynamics 365 for Finance and Operations
-  href: index.md
   items:
+    - name: Teenuse Dynamics 365 for Finance and Operations dokumentatsioon
+      href: index.md
     - name: Alustamine
       items:
         - name: Enne ostmist
-          href: get-started/before-you-buy.md
           items:
+            - name: Enne ostmist – avaleht
+              href: get-started/before-you-buy.md
             - name: Eelvaatetellimuse hankimiseks registreerumine
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
             - name: Demokeskkonna juurutamine
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: Pilvepõhiste ja kohapealsete funktsioonide võrdlus
               href: get-started/cloud-prem-comparison.md
-            - name: Juurutamissuvandid
-              href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
+            - name: Juurutamiskaalutlused
               items:
-                - name: Pilvejuurutus
+                - name: Juurutamissuvandid
+                  href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
+                - name: Pilvjuurutus
                   href: ../dev-itpro/deployment/cloud-deployment-overview.md?toc=/fin-and-ops/toc.json
                 - name: Pilvjuurutuste süsteeminõuded
                   href: get-started/system-requirements.md
@@ -36,8 +39,9 @@
                 - name: Rakenduse Finance and Operations (on-premises) ostmine
                   href: get-started/purchase-on-premises.md
         - name: Mis on uut või mida on muudetud?
-          href: get-started/whats-new-changed.md
           items:
+            - name: Mis on uut või mida on muudetud? – avaleht
+              href: get-started/whats-new-changed.md
             - name: Microsoft Dynamics AX 2009 ja 2012 tavatoe lõpp
               href: get-started/mainstream-support-ax-2009-2012.md
             - name: Eemaldatud või aegunud funktsioonid
@@ -140,6 +144,8 @@
                   href: get-started/new-task-guides-available-february-2016.md
         - name: Kasutajaliidesega tutvumine
           items:
+            - name: Kasutajaliidese elemendid
+              href: get-started/user-interface-elements.md
             - name: Hõlbustusfunktsioonid
               href: get-started/accessibility-features.md
             - name: Funktsioonihalduse ülevaade
@@ -196,9 +202,10 @@
               href: get-started/glossary.md
         - name: Rakenduse Finance and Operations videod
           href: get-started/videos.md
-    - name: Elutsükli halduse juurutamine
-      href: imp-lifecycle/implementation-lifecycle.md
+    - name: Juurutamise elutsüklihaldus
       items:
+        - name: Juurutamise elutsüklihalduse avaleht
+          href: imp-lifecycle/implementation-lifecycle.md
         - name: Finance and Operationsi arhitektuur
           href: imp-lifecycle/architecture-overview.md
         - name: Microsoft FastTrack for Finance and Operations
@@ -224,8 +231,9 @@
         - name: Mitu LCS-i projekti ja tootmiskeskkonda ühes Azure AD rentnikus
           href: get-started/implement-multiple-projects-aad-tenant.md
     - name: Ühe versiooni teenusevärskendused
-      href: ../dev-itpro/lifecycle-services/oneversion-overview.md
       items:
+        - name: Ühe versiooni teenusevärskenduste ülevaade
+          href: ../dev-itpro/lifecycle-services/oneversion-overview.md
         - name: Ühe versiooni teenusevärskenduste KKK
           href: get-started/one-version.md
         - name: Tarkvara elutsükli poliitika – pilv
@@ -242,21 +250,16 @@
           href: ../dev-itpro/lifecycle-services/pause-service-updates.md
         - name: Teenusevärskenduste kohta teadete saamine
           href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
-        - name: Andmete ülesannete automatiseerimine
+        - name: Andmeülesannete automatiseerimine
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: ISV-lahenduste pakkumine ühe versiooni abil
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: Testimise automaatika
-          items:
-            - name: Kasutaja vastuvõtu testide loomine ja automatiseerimine
-              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: Tööriista Regression Suite Automation Tool õppetüki seadistamine
-              href: get-started/hol-set-up-regression-suite-automation-tool.md
-            - name: Tööriista Regression Suite Automation Tool õppetüki kasutamine
-              href: get-started/hol-use-regression-suite-automation-tool.md
+        - name: Kasutaja vastuvõtu testide loomine ja automatiseerimine
+          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
     - name: Ärisündmused
-      href: ../dev-itpro/business-events/home-page.md
       items:
+        - name: Ärisündmuste ülevaade
+          href: ../dev-itpro/business-events/home-page.md
         - name: Rakenduse ärisündmused
           href: ../dev-itpro/business-events/app-business-events.md
         - name: Töövoo ärisündmused
@@ -273,22 +276,34 @@
           href: ../dev-itpro/business-events/potential-use-cases.md
         - name: Õppetükid
           items:
-            - name: Ärisündmuste kasutamine Microsoft Flow abil
+            - name: Ärisündmused ja Microsoft Flow
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-            - name: Ärisündmuste kasutamine Azure Event Gridi abil
+            - name: Ärisündmused ja Azure Event Grid
               href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
-            - name: Ärisündmuste kasutamine Azure Service Busi abil
+            - name: Ärisündmused ja Azure Service Bus
               href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
-            - name: Ärisündmuste kasutamine töövoo nõusolekuga
+            - name: Ärisündmuste ja töövoogude kinnitused
               href: ../dev-itpro/business-events/how-to/how-to-workflow.md
-            - name: Ärisündmuste kasutamine Microsoft Forms Pro abil
+            - name: Ärisündmused ja Microsoft Forms Pro
               href: ../dev-itpro/business-events/how-to/FormsPro.md
-    - name: Kuluhaldus
-      href: ../supply-chain/cost-management/cost-management-home-page.md
+            - name: Ärisündmused ja Azure Event Hubs
+              href: ../dev-itpro/business-events/how-to/event-hub.md
+    - name: Vastavus
       items:
+        - name: Auditipoliitika reeglid
+          href: ../financials/general-ledger/audit-policy-rules.md
+        - name: Auditipoliitika rikkumised ja juhtumid
+          href: ../financials/general-ledger/audit-policy-violations-cases.md
+        - name: Lähtedokumentide jaoks auditipoliitikate määratlemine
+          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+    - name: Kuluhaldus
+      items:
+        - name: Kuluhalduse avaleht
+          href: ../supply-chain/cost-management/cost-management-home-page.md
         - name: Standardkulude eeltingimused
-          href: ../supply-chain/cost-management/prerequisites-standard-costs.md
           items:
+            - name: Standardkulude eeltingimuste ülevaade
+              href: ../supply-chain/cost-management/prerequisites-standard-costs.md
             - name: Standardkulu teisendamise ülevaade
               href: ../supply-chain/cost-management/standard-cost-conversion-overview.md
             - name: Standardomahinna teisendamise eeltingimus
@@ -307,12 +322,13 @@
               href: ../supply-chain/cost-management/update-standard-costs-non-manufacturing-environment.md
             - name: Toodetud kaupade standardomahindade säilitamise ettevalmistus
               href: ../supply-chain/cost-management/prepare-maintain-standard-costs-manufactured-items.md
-        - name: Kuluversioonid
-          href: ../supply-chain/cost-management/costing-versions.md
+        - name: Kuluarvutusversioonid
           items:
+            - name: Kuluarvutusversioonide ülevaade
+              href: ../supply-chain/cost-management/costing-versions.md
             - name: Kuluarvutustabelid
               href: ../supply-chain/cost-management/costing-sheets.md
-            - name: Kulumuudatuste simuleerimine planeeritud kulude kuluversiooni kasutades
+            - name: Kulumuudatuste simuleerimine planeeritud kulude kuluarvutusversiooni kasutades
               href: ../supply-chain/cost-management/simulate-cost-changes-costing-version-planned-costs.md
         - name: Laoarvestus
           items:
@@ -397,8 +413,9 @@
             - name: Andmehalduse paketi REST API
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Teenuse lõpp-punktid
-              href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Teenuse lõpp-punktide ülevaade
+                  href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
                 - name: Teenuste autentimise tõrkeotsing
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
@@ -414,8 +431,9 @@
         - name: Arendus integreerimiseks
           items:
             - name: Andmete integreerimine andmeüksuste abil
-              href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Andmete integreerimine andmeüksuste abil – ülevaade
+                  href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
                 - name: Üksuse arendamine andmemigratsiooni jaoks
                   href: ../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/fin-and-ops/toc.json
                 - name: Liit-andmeüksuste arendamine
@@ -426,9 +444,9 @@
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
                 - name: Kirjete loomine kirjemallide abil
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
-            - name: Andmete integratsioon Common Data Service’i abil
+            - name: Andmeintegratsioon Common Data Service’i abil
               items:
-                - name: Andmete integratsiooni ülevaade
+                - name: Andmeintegratsioon Common Data Service'i abil – ülevaade
                   href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
                 - name: 'Sünkroonne, kahesuunaline integratsioon'
                   items:
@@ -448,9 +466,9 @@
                       href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
                 - name: 'Asünkroonne, ühesuunaline integratsioon'
                   items:
-                    - name: Potentsiaalne klient sularahaks
+                    - name: Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine
                       items:
-                        - name: Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine
+                        - name: Potentsiaalne klient sularahaks
                           href: ../supply-chain/sales-marketing/prospect-to-cash.md
                         - name: Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega
                           href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
@@ -464,9 +482,9 @@
                           href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
                         - name: Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
                           href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                    - name: Field Service
+                    - name: Integratsiooni konfigureerimine Field Service’iga
                       items:
-                        - name: Integratsiooni konfigureerimine Field Service’iga
+                        - name: Integratsiooni konfigureerimine Field Service’i abil – ülevaade
                           href: ../supply-chain/sales-marketing/field-service.md
                         - name: Rakenduse Finance and Operations toodete sünkroonimine rakenduse Field Service toodetega
                           href: ../supply-chain/sales-marketing/field-service-product.md
@@ -486,9 +504,9 @@
                           href: ../supply-chain/sales-marketing/synchronize-warehouse.md
                         - name: Projektiga töökäskude sünkroonimine rakendusest Field Service rakendusse Finance and Operations
                           href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Project Service Automation
+                    - name: Project Service Automationi integreerimise konfigureerimine
                       items:
-                        - name: Project Service Automationi integreerimise konfigureerimine
+                        - name: Project Service Automationi ülevaade
                           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                         - name: Project Service Automationi integreerimisparameetrid
                           href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
@@ -507,16 +525,19 @@
         - name: Elektronsõnumid
           href: ../financials/general-ledger/electronic-messaging.md
     - name: Andmehaldus
-      href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Andmehalduse ülevaade
+          href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Andmeüksused
-          href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Andmeüksuste ülevaade
+              href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
             - name: Konfigureerimisandmete projektid
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
             - name: Konfiguratsiooniandmete kopeerimine ettevõtete või juriidiliste isikute vahel
-              href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Konfiguratsiooniandmete kopeerimise ülevaade
+                  href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
                 - name: Konfigureerimisandmete paketid
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Konfiguratsiooniandmete paketid (ainult 2017. a juuli väljaanne)
@@ -538,8 +559,9 @@
             - name: Konfigureerimisandmete paketid
               href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Andmete importimis- ja eksportimistööd
-          href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Andmete importimis- ja eksportimistööde ülevaade
+              href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
             - name: Üldise töölehe üksuse abil kannete importimise head tavad
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: Andmeüksuste arendamine
@@ -574,23 +596,26 @@
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
         - name: Automatiseeritud üksuse kaupluse värskendamine
           href: ../dev-itpro/analytics/automated-entity-store-refresh.md
-        - name: Andmete ülesannete automatiseerimine
+        - name: Andmeülesannete automatiseerimine
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: Andmete valideerimise kontroll-loendi tööruum
           href: ../dev-itpro/user-interface/data-validation-workspace.md
         - name: Andmehalduse tõrgete kirjeldused
           href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Finantshaldus
-      href: ../financials/index.md
       items:
+        - name: Finantshalduse avaleht
+          href: ../financials/index.md
         - name: Ostureskontro
-          href: ../financials/accounts-payable/accounts-payable.md
           items:
+            - name: Ostureskontro avaleht
+              href: ../financials/accounts-payable/accounts-payable.md
             - name: Hankija arvete ülevaade
               href: ../financials/accounts-payable/vendor-invoices-overview.md
             - name: Ostureskontro konfigureerimine
-              href: ../financials/accounts-payable/accounts-payable-overview.md
               items:
+                - name: Ostureskontro konfigureerimise ülevaade
+                  href: ../financials/accounts-payable/accounts-payable-overview.md
                 - name: Arve põhiandmed ostureskontrosse hankija arve abil
                   href: ../financials/accounts-payable/tasks/key-invoice-data-ap-system-vendor-invoice.md
                 - name: Arve põhiandmed ostureskontrosse kinnitamise töölehe abil
@@ -601,11 +626,12 @@
                   href: ../financials/accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
             - name: Arvete ja võtmeandmete audit ostureskontros
               href: ../financials/general-ledger/tasks/audit-invoices-key-data-ap-system.md
-            - name: Kolmesuunalised vastavusse viimise poliitikad
+            - name: Kolmesuunalised vastavusseviimise poliitikad
               href: ../financials/accounts-payable/three-way-matching-policies.md
             - name: Ostureskontro arvete võrdlemine
-              href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
               items:
+                - name: Ostureskontro arvete võrdlemise ülevaade
+                  href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
                 - name: Ostureskontro arvete võrdlemise seadistamine
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
             - name: Arvestuse jaotused ja alammooduli töölehe kirjed hankija arvete puhul
@@ -625,8 +651,9 @@
             - name: Hankija töövoog
               href: ../financials/accounts-payable/vendor-workflow.md
             - name: Lahknevuste lahendamine arve kogusummade võrdlemisel
-              href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
               items:
+                - name: Lahknevuste lahendamine arve kogusummade võrdlemisel – ülevaade
+                  href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: Erandite uurimine või lahendamine
                   href: ../financials/accounts-payable/tasks/research-resolve-exceptions.md
             - name: Hankija sisestusreeglid
@@ -688,8 +715,9 @@
                 - name: Hankija kannete loendi leht
                   href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: Müügireskontro
-          href: ../financials/accounts-receivable/accounts-receivable.md
           items:
+            - name: Müügireskontro avaleht
+              href: ../financials/accounts-receivable/accounts-receivable.md
             - name: Kreedit ja sissenõuded moodulis Müügireskontro
               href: ../financials/accounts-receivable/collections-credit-accounts-receivable.md
             - name: Moodulite Müügireskontro ja krediit ja võlanõuded konfigureerimine
@@ -783,8 +811,9 @@
                 - name: Kliendi kannete loendi leht
                   href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: Eelarvestamine
-          href: ../financials/budgeting/budgeting-overview.md
           items:
+            - name: Eelarvestamise avaleht
+              href: ../financials/budgeting/budgeting-overview.md
             - name: Eelarve plaanimise ülevaade
               href: ../financials/budgeting/budget-planning-overview-configuration.md
             - name: Eelarve juhtimise ülevaade
@@ -808,8 +837,9 @@
             - name: Eelarve plaanimise integreerimine muude moodulitega
               href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: Sularaha- ja pangahaldus
-          href: ../financials/cash-bank-management/cash-bank-management.md
           items:
+            - name: Sularaha- ja pangahalduse avaleht
+              href: ../financials/cash-bank-management/cash-bank-management.md
             - name: Likviidsuse plaanimine
               href: ../financials/cash-bank-management/cash-flow-forecasting.md
             - name: Pangahalduse tööruum
@@ -885,8 +915,9 @@
                 - name: Pangatöölehe liitüksuse värskendamine
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Kuluarvestus
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
           items:
+            - name: Kuluarvestuse avaleht
+              href: ../financials/cost-accounting/cost-accounting-home-page.md
             - name: Kuluarvestuse terminoloogia
               href: ../financials/cost-accounting/terms-cost-accounting.md
             - name: 'Rahandusaasta kalendrid, rahandusaastad ja perioodid'
@@ -958,8 +989,9 @@
             - name: Kulujuhtimise tööruumi kasutamine Finance and Operationsi mobiilirakenduses
               href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
         - name: Kulude haldus
-          href: ../financials/expense-management/expense-management.md
           items:
+            - name: Kuluhalduse ülevaade
+              href: ../financials/expense-management/expense-management.md
             - name: Uuendatud kuluaruanded
               href: ../financials/expense-management/ExpenseWorkspaceNew.md
             - name: Kuluhalduse plaanimine
@@ -995,8 +1027,9 @@
             - name: Isiklikud kulud kuluaruandes
               href: ../financials/expense-management/personal-expenses.md
         - name: Põhivarad
-          href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: Põhivarade avaleht
+              href: ../financials/fixed-assets/fixed-assets.md
             - name: Uue põhivara loomine
               href: ../financials/fixed-assets/tasks/create-fixed-asset.md
             - name: Põhivarale lisandi sisestamine
@@ -1100,15 +1133,187 @@
                 - name: Kasuliku eluea lineaarne kulum
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
         - name: Pearaamat
-          href: ../financials/general-ledger/general-ledger.md
           items:
+            - name: Pearaamatu ülevaade
+              href: ../financials/general-ledger/general-ledger.md
+            - name: Kontod
+              items:
+                - name: Viitvõlgade ülevaade
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: Eemaldamisreeglid
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: Konto ja dimensiooni kombinatsioonid
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Tasakaalustatud töölehed sisekäibe jaoks
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Sisestamisdefinitsioonid
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: Sisestamisdefinitsiooni näited
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: Pearaamatukonto saldod
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: Finantsdimensioonide määratlemine
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: Finantsdimensiooni vaikemallide haldamine
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Kontostruktuuride loomine
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Finantsdimensioonid ja sisestamine
+                  href: ../financials/general-ledger/default-dimensions.md
+                - name: Viitvõlaskeemide loomine
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: Finantskonsolideerimised ja valuuta teisendamine
+                  items:
+                    - name: Finantskonsolideerimiste ja valuutateisenduse ülevaade
+                      href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                    - name: Konsolideerimine võrgus
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: Konsolideeritud finantsaruannete loomine
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
+                - name: Konsolideerimisgruppide ja täiendava konsolideerimiskonto loomine
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: Põhikonto tüübid
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: Põhikonto loomine
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: Kontoplaanide plaanimine
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: Pearaamatukontode kannete tasakaalustamine
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Pearaamatukonto pseudonüümi seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Põhikonto kategooriate seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: Arveldusallika uurija
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: Arvestuse jaotused
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: Eraldiste töötlemine
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: Finantsdimensioonid
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: Arvestus- või aruandlusvaluutade teisendamine
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: Konsolideerimiskontogrupid ja -kontod
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Konsolideerimise ja eemaldamise ülevaade
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 'Rahandusaasta kalendrid, rahandusaastad ja perioodid'
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Konto struktuuride konfigureerimine
+                  href: ../financials/general-ledger/configure-account-structures.md
+                - name: Topeltvaluuta
+                  href: ../financials/general-ledger/dual-currency.md
+            - name: Töölehed ja pearaamatud
+              items:
+                - name: Üldtöölehe töötlemine
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: Perioodiliste töölehtede sisestamine
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: Pearaamatu eraldamistöölehe töötlemine
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Kontsernisisese raamatupidamise seadistamine
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: Pearaamatu eraldamisreeglid
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: Täpsemate reeglite loomine töölehtede jaoks
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Täpsemate reeglistruktuuride loomine ja määramine
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Pearaamatu töölehe tüübid
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: Töölehtede loomine ja kinnitamine
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: Töölehe sisestuste või kannete kuvamine
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Seotud kontsernisisese kande kuvamine töölehelt
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Töölehe sisestuse loomine malli abil
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: Pearaamatu tekkepõhiste kannete loomine
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Exceli töölehe ridade ja dokumentide avaldamine
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: Töölehe sisestuste ja kannete kuvamine
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: Sisestatud töölehekirjete töölehele paigutamine
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Valuuta ümberarvutamine konsolideeritavas ettevõttes
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: Pearaamatu välisvaluuta ümberarvutamine
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Valuutavahetuskursside importimine
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Üks kanne
+                  href: ../financials/general-ledger/one-voucher.md
+                - name: Pearaamatu tasakaalustused
+                  href: ../financials/general-ledger/ledger-settlements.md
+            - name: Perioodi lõpu sulgemine
+              items:
+                - name: Pearaamatu sulgemine perioodi lõpus
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: Finantsperioodi sulgemise tööruum
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: Aastalõpu sulgemine
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: Finantsaasta sulgemine
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: Finantsperioodi hulgisulgemine
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: Käibemaks
+              items:
+                - name: Käibemaksu ülevaade
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: Käibemaksu määrad marginaali aluse põhjal ja arvutamismeetodid
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: Käibemaksu maksed ja ümardamisreeglid
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: Käibemaksuarvutusmeetodid väljal Päritolu
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Käibemaksu arvutamine ja korrigeerimine hankija arvel
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Käibemaksumakse loomine
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: Käibemaksukannete loomine dokumentidel
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Pearaamatu käibemaksu sisestusgruppide seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: Käibemaksuhaldurite seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: Käibemaksukoodide seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: Käibemaksugruppide ja kauba käibemaksugruppide seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Käibemaksuaruandluse koodide seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Käibemaksu tasakaalustusperioodide seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Kinnipeetava maksu seadistamine
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: Sisestatud käibemaksukannete kuvamine
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
+            - name: Auditi töölaud
+              items:
+                - name: Auditipoliitika reeglid
+                  href: ../financials/general-ledger/audit-policy-rules.md
+                - name: Auditipoliitika rikkumised ja juhtumid
+                  href: ../financials/general-ledger/audit-policy-violations-cases.md
+                - name: Lähtedokumentide jaoks auditipoliitikate määratlemine
+                  href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: Avalik sektor
+          items:
+            - name: Avaliku sektori avaleht
+              href: ../financials/public-sector/public-sector-functionality.md
             - name: Avaliku sektori funktsioonide plaan
               href: ../financials/public-sector/plan-public-sector-functionality.md
             - name: Avaliku sektori maksearuande jaoks tiitel- ja allkirjalehtede loomine
               href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
             - name: Ostureskontro avalikus sektoris
-              href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
+                - name: Ostureskontro avalikus sektoris – ülevaade
+                  href: ../financials/public-sector/accounts-payable-public-sector.md
                 - name: Ostutellimuste koodid avalikus sektoris
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
                 - name: Äripartnerikoodi loomine ja määramine avalikus sektoris
@@ -1130,8 +1335,9 @@
                 - name: Ostulepingu klassifikatsioonide seadistamine avalikus sektoris
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: Müügireskontro avalikus sektoris
-              href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
+                - name: Müügireskontro avalikus sektoris – ülevaade
+                  href: ../financials/public-sector/accounts-receivable-public-sector.md
                 - name: Arveldusklassifikatsioonid ja arvelduskoodid avalikus sektoris
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
                 - name: Arveldusklassifikatsiooni loomine avalikus sektoris
@@ -1145,8 +1351,9 @@
                 - name: Korvamised avalikus sektoris
                   href: ../financials/public-sector/reimbursements-public-sector.md
             - name: Eelarvestamine avalikus sektoris
-              href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: Eelarvestamine avalikus sektoris – ülevaade
+                  href: ../financials/public-sector/budgeting-public-sector.md
                 - name: Algse eelarve loomine ja esialgse eelarve kirjete tagasivõtmine avalikus sektoris
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: Esialgse eelarve loomine avaliku sektori jaoks
@@ -1172,8 +1379,9 @@
             - name: Põhivarad avalikus sektoris
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: Pearaamat avalikus sektoris
-              href: ../financials/public-sector/general-ledger-public-sector.md
               items:
+                - name: Pearaamat avalikus sektoris – ülevaade
+                  href: ../financials/public-sector/general-ledger-public-sector.md
                 - name: Täpsemad pearaamatu kirjed avalikus sektoris
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
                 - name: Laiendatud pearaamatu kirje loomine avalikus sektoris
@@ -1199,8 +1407,9 @@
             - name: Sertifikaadi tüübi lisamine avaliku sektori hankijale
               href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: Finantsaruandlus
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
+            - name: Finantsaruandluse ülevaade
+              href: ../financials/general-ledger/financial-reporting-getting-started.md
             - name: Finantsaruandluse ülevaade
               href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
             - name: Finantsaruande komponendid
@@ -1236,13 +1445,15 @@
         - name: Elektronsõnumid
           href: ../financials/general-ledger/electronic-messaging.md
     - name: Globaliseerimine
-      href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Globaliseerimisressursid
+          href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
         - name: Regulatiivsed värskendused
           href: ../financials/localizations/regulatory-updates.md
         - name: Austraalia
-          href: ../financials/localizations/australia.md
           items:
+            - name: Austraalia ülevaade
+              href: ../financials/localizations/australia.md
             - name: Äritegevuse aruanne (BAS)
               href: ../financials/localizations/apac-aus-business-activity-statement.md
             - name: Aruandeväljade lisamine ja BAS-i loomine
@@ -1252,8 +1463,9 @@
             - name: BAS-aruande põhjusekoodide seadistamine
               href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
         - name: Austria
-          href: ../financials/localizations/austria.md
           items:
+            - name: Austria ülevaade
+              href: ../financials/localizations/austria.md
             - name: Täiendavate soetamiste poolaasta kulum
               href: ../financials/localizations/emea-aut-half-year-depreciation.md
             - name: Pakkematerjali maksud
@@ -1261,8 +1473,9 @@
             - name: KM-aruanne
               href: ../financials/localizations/emea-aut-vat-statement-details.md
         - name: Belgia
-          href: ../financials/localizations/belgium.md
           items:
+            - name: Belgia ülevaade
+              href: ../financials/localizations/belgium.md
             - name: CODA pangaväljavõte
               href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
             - name: Kannete loomine ja edastamine BLWI-sse
@@ -1276,13 +1489,15 @@
             - name: PRODCOM-i häälestus ja haldamine
               href: ../financials/localizations/emea-bel-prodcom-report.md
         - name: Brasiilia
-          href: ../financials/localizations/brazil.md
           items:
+            - name: Brasiilia ülevaade
+              href: ../financials/localizations/brazil.md
             - name: Lokaliseerimise ulatus
               href: ../financials/localizations/latam-bra-scope.md
             - name: Finantsraamatud
-              href: ../financials/localizations/latam-bra-fiscal-books.md
               items:
+                - name: Brasiilia finantsraamatute ülevaade
+                  href: ../financials/localizations/latam-bra-fiscal-books.md
                 - name: Finantsraamatute konfigureerimine
                   href: ../financials/localizations/latam-bra-configure-fiscal-books.md
                 - name: ICMS-maksustamise finantsdokumendid
@@ -1350,8 +1565,9 @@
                 - name: Projekti deebetaviisid
                   href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
             - name: NF-e protsess
-              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
+                - name: Brasiilia NF-e protsessi ülevaade
+                  href: ../financials/localizations/latam-bra-nf-e-process.md
                 - name: NF-e fiskaaldokumentide automaatne ülekandmine
                   href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
                 - name: Meilisõnumite koostamine kinnitatud NF-e jaoks ja DANFE PDF-failide ja NF-e XML-failide manustamine meilisõnumitele
@@ -1397,8 +1613,9 @@
             - name: Kliendimaksete intresside ja trahvide arvutamine
               href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
             - name: Maksud
-              href: ../financials/localizations/latam-bra-calculate-taxes.md
               items:
+                - name: Brasiilia maksude ülevaade
+                  href: ../financials/localizations/latam-bra-calculate-taxes.md
                 - name: Maksu arvutamine ostupakkumistel
                   href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
                 - name: Maksuarvestuse loomine - ICMS
@@ -1444,8 +1661,9 @@
                 - name: Hankijamaksetelt kinni peetavad maksud
                   href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
         - name: Hiina
-          href: ../financials/localizations/china.md
           items:
+            - name: Hiina ülevaade
+              href: ../financials/localizations/china.md
             - name: 'Finance and Operations, mida käitab 21Vianet Hiinas'
               href: ../dev-itpro/deployment/china-local-deployment.md
             - name: Koosluse võrdlus
@@ -1485,8 +1703,9 @@
             - name: KM-i sisaldavate kliendiarvete KKK
               href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
         - name: Tšehhi Vabariik
-          href: ../financials/localizations/czech-republic.md
           items:
+            - name: Tšehhi Vabariik
+              href: ../financials/localizations/czech-republic.md
             - name: Skonto kreeditarve
               href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
             - name: Põhivarad
@@ -1514,8 +1733,9 @@
             - name: Aastalõpu sulgemine
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: Taani
-          href: ../financials/localizations/denmark.md
           items:
+            - name: Taani ülevaade
+              href: ../financials/localizations/denmark.md
             - name: Maksekviitungi vormingu määramine kliendikontole
               href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
             - name: Kliendiarve loomine ja sisestamine avaliku sektori kliendi jaoks
@@ -1539,18 +1759,21 @@
             - name: Maksekviitungi vormingu seadistamine
               href: ../financials/localizations/tasks/set-up-payment-slip-format.md
         - name: Eesti
-          href: ../financials/localizations/estonia.md
           items:
+            - name: Eesti ülevaade
+              href: ../financials/localizations/estonia.md
             - name: Isiklike andmete taotlused
               href: ../financials/localizations/emea-est-personal-info.md
             - name: KM-aruanne
               href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: Euroopa
-          href: ../financials/localizations/europe.md
           items:
+            - name: Euroopa ülevaade
+              href: ../financials/localizations/europe.md
             - name: Avansisaajad
-              href: ../financials/localizations/emea-advance-holders.md
               items:
+                - name: Avansisaajate ülevaade
+                  href: ../financials/localizations/emea-advance-holders.md
                 - name: Avansisaajate kanded
                   href: ../financials/localizations/emea-advance-holders-transactions.md
                 - name: Avansimakse töövõtjale (Ida-Euroopa)
@@ -1606,8 +1829,9 @@
                 - name: Hankijamaksete loomine ja eksportimine ISO20022 maksevormingu abil
                   href: ../financials/localizations/tasks/create-export-vendor-payments-iso20022-payment-format.md
             - name: Intrastat
-              href: ../financials/localizations/emea-intrastat.md
               items:
+                - name: Intrastati ülevaade
+                  href: ../financials/localizations/emea-intrastat.md
                 - name: Kannete ülekandmine Intrastati
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
                 - name: Laadimisaadressi määramine ühendusesisesele kandele
@@ -1632,7 +1856,7 @@
               href: ../financials/localizations/tasks/ee-00015-payment-reference-generation-tool.md
             - name: Maksekviitungi aruanne
               href: ../financials/localizations/emea-eur-payment-slip-report-giro.md
-            - name: Väikesed summad
+            - name: Pisikulude kassa
               href: ../financials/localizations/emea-petty-cash.md
             - name: Põhivara eelsoetuse sisestamine
               href: ../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md
@@ -1685,8 +1909,9 @@
             - name: Kannete kuvamine tasakaalustamisel
               href: ../financials/localizations/emea-transactions-settlement-form.md
         - name: Prantsusmaa
-          href: ../financials/localizations/france.md
           items:
+            - name: Prantsusmaa ülevaade
+              href: ../financials/localizations/france.md
             - name: Avalik sektor
               items:
                 - name: Avaliku sektori raamatupidamine
@@ -1695,7 +1920,7 @@
                   href: ../financials/localizations/emea-fra-commitments-public-sector.md
                 - name: Mandats de paiement
                   href: ../financials/localizations/emea-fra-mandats-de-paiement.md
-                - name: Hange
+                - name: Hanked
                   href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
                 - name: Titres de recette
                   href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
@@ -1740,13 +1965,15 @@
                 - name: Kassaaparaatide juurutamise juhised
                   href: ../retail/localizations/emea-fra-deployment.md
         - name: Saksamaa
-          href: ../financials/localizations/germany.md
           items:
+            - name: Saksamaa ülevaade
+              href: ../financials/localizations/germany.md
             - name: Täiendavate soetamiste kulum
               href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
             - name: Auditifail
-              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
               items:
+                - name: Saksamaa auditifaili ülevaade
+                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                 - name: Auditifaili konfiguratsiooni kohandamine
                   href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
                 - name: Auditifaili genereerimine
@@ -1762,8 +1989,9 @@
             - name: Elektroonilise maksudeklaratsioonide seadistamine
               href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
         - name: Ungari
-          href: ../financials/localizations/hungary.md
           items:
+            - name: Ungari ülevaade
+              href: ../financials/localizations/hungary.md
             - name: Vahetuskursi arvutamine
               href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
             - name: Põhivarade kulumiarvestuse meetodid
@@ -1777,8 +2005,9 @@
             - name: Aastalõpu sulgemine
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: Island
-          href: ../financials/localizations/iceland.md
           items:
+            - name: Islandi ülevaade
+              href: ../financials/localizations/iceland.md
             - name: Hankija konto loomine ja arve deklaratsiooni kategooria manustamine
               href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
             - name: Hankijate arvedeklaratsiooni seadistamine
@@ -1788,11 +2017,15 @@
             - name: Hankija arvedeklaratsioonide uuendamine ja aruande genereerimine
               href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
         - name: India
-          href: ../financials/localizations/india.md
           items:
+            - name: India ülevaade
+              href: ../financials/localizations/india.md
+            - name: India lokaliseerimise ulatus
+              href: ../financials/localizations/apac-ind-scope.md
             - name: Põhivarad
-              href: ../financials/localizations/apac-ind-fixed-assets.md
               items:
+                - name: India põhivarade ülevaade
+                  href: ../financials/localizations/apac-ind-fixed-assets.md
                 - name: Päevapõhise kalendri manustamine põhivararaamatule
                   href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
                 - name: Vahetuskulumi arvestus
@@ -1816,8 +2049,9 @@
                 - name: Kapitalikaupade ülekanne põhivarasse
                   href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
             - name: India GST
-              href: ../financials/localizations/apac-ind-gst.md
               items:
+                - name: India GST ülevaade
+                  href: ../financials/localizations/apac-ind-gst.md
                 - name: India GST viitegrupid
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: Kassaaparaatide GST integreerimine
@@ -1960,22 +2194,27 @@
                   href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
                 - name: Kassaaparaatide juurutamise juhised
                   href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: Maksumootori ülevaade
-              href: ../financials/general-ledger/tax-engine.md
+            - name: Maksumootor
               items:
-                - name: Impordi konfiguratsioon
-                  href: ../financials/general-ledger/tax-engine-import-configuration.md
-                - name: Maksumootori kohaldatavus
-                  href: ../financials/general-ledger/tax-engine-applicability.md
-                - name: Maksumootori integratsioon
-                  href: ../financials/general-ledger/tax-engine-integration.md
-                - name: Maksumootori laiendamine
-                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+                - name: Maksumootori ülevaade
+                  href: ../financials/general-ledger/tax-engine.md
+                  items:
+                    - name: Impordi konfiguratsioon
+                      href: ../financials/general-ledger/tax-engine-import-configuration.md
+                    - name: Maksumootori kohaldatavus
+                      href: ../financials/general-ledger/tax-engine-applicability.md
+                    - name: Maksumootori integratsioon
+                      href: ../financials/general-ledger/tax-engine-integration.md
+                    - name: Maksumootori laiendamine
+                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
             - name: Maksulävede KKK
               href: ../financials/localizations/apac-ind-tax-thresholds.md
+            - name: Aktsiaülekanded
+              href: ../financials/localizations/apac-ind-stock-transfer.md
         - name: Itaalia
-          href: ../financials/localizations/italy.md
           items:
+            - name: Itaalia ülevaade
+              href: ../financials/localizations/italy.md
             - name: KM-aruannete üksikasjad
               href: ../financials/localizations/emea-ita-vat-statements-details.md
             - name: Musta loendi aruanne
@@ -1994,11 +2233,12 @@
               href: ../financials/localizations/emea-ita-fiscal-books.md
             - name: Tükeldatud makse avalikule haldusele väljastatud arvete korral
               href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
-            - name: Maksu kinnipidamine
+            - name: Kinnipeetav maks
               href: ../financials/localizations/emea-ita-withholding-tax.md
         - name: Jaapan
-          href: ../financials/localizations/japan.md
           items:
+            - name: Jaapani ülevaade
+              href: ../financials/localizations/japan.md
             - name: Põhivara soetamine ja valitsuse toetuse taotlemine
               href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
             - name: Põhivara soetamine vara käibelt kõrvaldamise kohustustega
@@ -2156,8 +2396,9 @@
             - name: Põhivarade osadeks jaotamise loendi kasutamine
               href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
         - name: Läti
-          href: ../financials/localizations/latvia.md
           items:
+            - name: Läti ülevaade
+              href: ../financials/localizations/latvia.md
             - name: Põhivarade raamatupidamine
               href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
             - name: Põhivarade asukoha muudatuse jälgimine
@@ -2169,8 +2410,9 @@
             - name: KM-aruande üksikasjad
               href: ../financials/localizations/emea-lva-vat-statement-details.md
         - name: Leedu
-          href: ../financials/localizations/lithuania.md
           items:
+            - name: Leedu ülevaade
+              href: ../financials/localizations/lithuania.md
             - name: Põhivara paranduse väljavõte
               href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
             - name: Põhivara ladude vahelise üleviimise dokumendi genereerimine
@@ -2180,8 +2422,9 @@
             - name: KM-aruande üksikasjad
               href: ../financials/localizations/emea-ltu-vat-statement-details.md
         - name: Malaisia
-          href: ../financials/localizations/malaysia.md
           items:
+            - name: Malaisia ülevaade
+              href: ../financials/localizations/malaysia.md
             - name: Kliendi kreediti genereerimine projektimüügi jaoks
               href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
             - name: Kliendi deebeti genereerimine projektimüügi jaoks
@@ -2203,8 +2446,9 @@
             - name: GST maksuvabastusklauslite seadistamine
               href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
         - name: Mehhiko
-          href: ../financials/localizations/mexico.md
           items:
+            - name: Mehhiko ülevaade
+              href: ../financials/localizations/mexico.md
             - name: Lokaliseerimise ulatus
               href: ../financials/localizations/latam-mex-scope.md
             - name: Korrigeerimise inflatsiooni deklaratsiooni aruanne
@@ -2242,15 +2486,17 @@
             - name: Hankijate registreerimisnumbrid
               href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
         - name: Holland
-          href: ../financials/localizations/netherlands.md
           items:
+            - name: Hollandi ülevaade
+              href: ../financials/localizations/netherlands.md
             - name: Elektroonilised maksudeklaratsioonid (EVAT)
               href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
             - name: Semansys XBRL-i integreerimine
               href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
         - name: Norra
-          href: ../financials/localizations/norway.md
           items:
+            - name: Norra ülevaade
+              href: ../financials/localizations/norway.md
             - name: Kliendi ja hankija maksevormingud
               href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
             - name: Makse ID-l põhinev kliendimakse
@@ -2264,9 +2510,10 @@
             - name: Kassaaparaatide juurutamise juhised
               href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
         - name: Poola
-          href: ../financials/localizations/poland.md
           items:
-            - name: Aktiveeri stornoarvestus
+            - name: Poola ülevaade
+              href: ../financials/localizations/poland.md
+            - name: Stornoarvestuse aktiveerimine
               href: ../financials/localizations/emea-pol-red-storno.md
             - name: Ühiku hinnast rea allahindluste arvutamine
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -2293,8 +2540,9 @@
             - name: Käibe saldoväljavõte
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: Venemaa
-          href: ../financials/localizations/russia.md
           items:
+            - name: Venemaa ülevaade
+              href: ../financials/localizations/russia.md
             - name: Pearaamat
               items:
                 - name: Kontode korrespondeeruvus
@@ -2306,8 +2554,9 @@
                 - name: Impordi valuutavahetuskursid CBRF-ist.
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Avansisaajad
-              href: ../financials/localizations/rus-advance-holders.md
               items:
+                - name: Venemaa avansisaajate ülevaade
+                  href: ../financials/localizations/rus-advance-holders.md
                 - name: Avansisaaja loomine
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Avansisaajate igapäevased toimingud
@@ -2318,21 +2567,29 @@
                   href: ../financials/localizations/rus-advance-adjustment-parameters.md
                 - name: Avansisaajate aruanded
                   href: ../financials/localizations/rus-local-management-reports-primary-forms.md
-            - name: Pank
+            - name: Sularaha ja pank
               items:
                 - name: Pangakontode seadistamine
                   href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
                 - name: Maksekorralduste seadistamine ja töötlemine
                   href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: Valuutakursi korrigeerimine
+                  href: ../financials/localizations/rus-exchange-adjustment.md
                 - name: 'Välisvaluuta müügid, ostud ja ülekanded'
                   href: ../financials/localizations/rus-currency-sale-purchase.md
+                - name: Pisikulude kassa
+                  href: ../financials/localizations/emea-petty-cash.md
             - name: KM
               items:
-                - name: Müügi käibemaksu kohalik spetsiifiline sisestamine
+                - name: Arvestatud käibemaksu kohalik spetsiifiline sisestamine
                   href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
+                - name: Arvete/faktuurarvete töötlemine ja printimine
+                  href: ../financials/localizations/rus-invoice-facture-process-print.md
+                - name: Faktuurarvete ja korrigeerivate faktuurarvete revisjon
+                  href: ../financials/localizations/rus-revise-invoice-facture.md
                 - name: Maksuesindajate käibemaks (KM)
                   href: ../financials/localizations/rus-tax-agent.md
-                - name: KM-i deklaratsioon
+                - name: Käibemaksudeklaratsioon
                   href: ../financials/localizations/rus-VAT-declaration.md
                 - name: 'Müügiraamatud, osturaamatud ja faktuurarvete töölehed'
                   href: ../financials/localizations/rus-sales-books-purchase-books.md
@@ -2382,6 +2639,8 @@
                   href: ../financials/localizations/rus-not-valuable-assets.md
             - name: Müügi- ja ostureskontrod
               items:
+                - name: Kreeditarve parandused (Venemaa)
+                  href: ../financials/localizations/rus-credit-note-correction.md
                 - name: Arved maksmiseks
                   href: ../financials/localizations/rus-invoice-payment.md
                 - name: Tasakaalustuste dimensioonide juhtimise seadistamine
@@ -2416,7 +2675,7 @@
               items:
                 - name: Viitvõlgade häälestamine
                   href: ../financials/localizations/rus-set-up-deferrals.md
-                - name: Viidete loomine või genereerimine
+                - name: Viitvõlgade loomine või genereerimine
                   href: ../financials/localizations/rus-create-generate-deferrals.md
                 - name: Viitvõlgade kviitung
                   href: ../financials/localizations/rus-deferral-transactions.md
@@ -2429,20 +2688,23 @@
                 - name: Viitvõlgade aruandlus
                   href: ../financials/localizations/rus-reporting-deferrals.md
         - name: Saudi Araabia
-          href: ../financials/localizations/saudi-arabia.md
           items:
+            - name: Saudi Araabia ülevaade
+              href: ../financials/localizations/saudi-arabia.md
             - name: Käibemaks
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Saudi Araabia Zakat-aruandlus
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: Singapur
-          href: ../financials/localizations/singapore.md
           items:
+            - name: Singapuri ülevaade
+              href: ../financials/localizations/singapore.md
             - name: GST-05 aruande loomine
               href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
         - name: Hispaania
-          href: ../financials/localizations/spain.md
           items:
+            - name: Hispaania ülevaade
+              href: ../financials/localizations/spain.md
             - name: Arvele skontode rakendamine
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Käskveksli valikud
@@ -2472,8 +2734,9 @@
             - name: Erikanded ja avamislehed
               href: ../financials/localizations/emea-esp-opening-sheets-spain.md
         - name: Rootsi
-          href: ../financials/localizations/sweden.md
           items:
+            - name: Rootsi ülevaade
+              href: ../financials/localizations/sweden.md
             - name: Rahandusteabe eksportimine audiitoritele Rootsis
               href: ../financials/localizations/emea-swe-sie-standard-report.md
             - name: Maksevormingute importimine
@@ -2481,24 +2744,27 @@
             - name: Kassaaparaadid
               href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
         - name: Šveits
-          href: ../financials/localizations/switzerland.md
           items:
+            - name: Šveitsi ülevaade
+              href: ../financials/localizations/switzerland.md
             - name: Kliendimaksete importimine ESR-is
               href: ../financials/localizations/emea-che-esr-customer-payments-import.md
         - name: Tai
-          href: ../financials/localizations/thailand.md
           items:
+            - name: Tai ülevaade
+              href: ../financials/localizations/thailand.md
             - name: Laokaardi aruanded
               href: ../financials/localizations/apac-tha-stock-card-reports.md
             - name: Maksuarve asendamine/korrigeerimine
               href: ../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md
             - name: Realiseerimata ostu käibemaks
               href: ../financials/localizations/apac-tha-unrealized-vat.md
-            - name: Maksu kinnipidamine
+            - name: Kinnipeetav maks
               href: ../financials/localizations/apac-tha-withholding-tax.md
         - name: Ühendkuningriik
-          href: ../financials/localizations/united-kingdom.md
           items:
+            - name: Ühendkuningriigi ülevaade
+              href: ../financials/localizations/united-kingdom.md
             - name: Ehitustööstuse skeem
               href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
             - name: Kreediti loomine tasakaalustuse allahindlusele
@@ -2516,15 +2782,17 @@
             - name: Maksu muutmine käibemaksu jaoks digitaalseks
               href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
         - name: Ameerika Ühendriigid
-          href: ../financials/localizations/united-states.md
           items:
+            - name: Ameerika Ühendriikide ülevaade
+              href: ../financials/localizations/united-states.md
             - name: Aastalõpu aruanne 1099 Ameerika Ühendriikides
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
             - name: Avaliku sektori vorm 1099
               href: ../financials/localizations/noam-usa-form-1099-public-sector.md
     - name: Inimressursid
-      href: hr/hr-landing-page.md
       items:
+        - name: Inimressursside ülevaade
+          href: hr/hr-landing-page.md
         - name: Inimressursside strateegia arendamine
           items:
             - name: Eesmärkide loomine
@@ -2676,9 +2944,10 @@
             - name: Töötajate vigastuste ja haiguste teabe haldamine
               href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: USA palk
-          href: hr/localizations/noam-usa-payroll.md
           items:
-            - name: Palgaarvestuse häälestus
+            - name: USA palgaarvestuse ülevaade
+              href: hr/localizations/noam-usa-payroll.md
+            - name: Palgaarvestuse häälestamine
               items:
                 - name: Töötajate palga seadistamine
                   href: hr/localizations/noam-usa-worker-position-payroll-tasks.md
@@ -2743,13 +3012,15 @@
                 - name: Standardsed palgaaruanded
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
     - name: Teave
-      href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
-        - name: Teabe juurdepääs ja aruandlus
+        - name: Teabe avaleht
+          href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
+        - name: Teabele juurdepääs ja aruandlus
           href: ../dev-itpro/analytics/information-access-reporting.md?toc=/fin-and-ops/toc.json
         - name: Power BI sisu
-          href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Power BI sisu avaleht
+              href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
             - name: Tegelik võrreldes eelarvega
               href: ../dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Soodustused
@@ -2758,13 +3029,14 @@
               href: ../financials/cash-bank-management/Cash-Overview-Power-BI-content.md
             - name: CFO ülevaade
               href: ../dev-itpro/analytics/CFO-power-bi.md?toc=/fin-and-ops/toc.json
-            - name: Hüvitus
+            - name: Kompensatsioon
               href: ../dev-itpro/analytics/compensation-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Hüvitused ja soodustused
               href: ../dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Kuluarvestuse analüüs
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Kuluarvestuse analüüsi Power BI sisu
+                  href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
                 - name: Kuluarvestuse analüüsi Power BI sisu jaoks turbe seadistamine
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Kuluhaldus
@@ -2812,8 +3084,9 @@
             - name: SSRS-i konfigureerimine kohapealseteks juurutamisteks
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
             - name: Printimine
-              href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Dokumentide printimise ülevaade
+                  href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
                 - name: Dokumendi marsruudivaliku agendi installimine võrguprintimise lubamiseks
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
                 - name: Dokumendi marsruudivaliku agendi täiendamine
@@ -2910,10 +3183,8 @@
                       href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
             - name: Elektroonilise aruandluse vormingute muutmine Exceli malle uuesti rakendades
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: Finance and Operationi versioonikohaste ER-konfiguratsioonide kujundamine
-              items:
-                - name: ER-konfiguratsioonide sõltuvuse määramine teistest komponentidest
-                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: ER-konfiguratsioonide sõltuvuse määramine teistest komponentidest
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
             - name: ER-lahenduse kujundamine finantsdimensioonide kasutamiseks
               items:
                 - name: Andmemudelite loomine finantsdimensioonide kasutamiseks andmeallikatena
@@ -2936,9 +3207,9 @@
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
             - name: Dünaamiline veergude lisamine Exceli aruannetesse horisontaalselt laiendatavate vahemikena
               items:
-                - name: 'Vormingute kujundamine, et dünaamiliselt lisada veerge Exceli aruannetesse horisontaalselt laiendatavate vahemikena'
+                - name: Vormingute kujundamine veergude dünaamilisteks lisamiseks Exceli aruannetesse horisontaalselt laiendatavate vahemikena
                   href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: 'Vormingute käivitamine, et dünaamiliselt lisada veerge Exceli aruannetesse horisontaalselt laiendatavate vahemikena'
+                - name: Vormingute käivitamine veergude dünaamiliseks lisamiseks Exceli aruannetesse horisontaalselt laiendatavate vahemikena
                   href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
             - name: Dokumendihalduse failide kasutamine vorminguväljundites
               items:
@@ -3032,6 +3303,8 @@
                       href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
                 - name: Elektroonilise aruandluse vormingute täitmise jälitamine jõudlusprobleemide tõrkeotsingu tegemiseks
                   href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+                - name: Äridokumentide halduse ülevaade
+                  href: ../dev-itpro/analytics/er-business-document-management.md?toc=/fin-and-ops/toc.json
             - name: ER-raamistiku API
               items:
                 - name: Elektroonilise aruandluse funktsioonide loendi laiendamine
@@ -3081,16 +3354,19 @@
             - name: Oma andmebaasi toomine
               href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
     - name: Varude haldus
-      href: ../supply-chain/inventory/inventory-home-page.md
       items:
-        - name: Saabumise ülevaade
-          href: ../supply-chain/inventory/arrival-overview.md
+        - name: Varude halduse ülevaade
+          href: ../supply-chain/inventory/inventory-home-page.md
+        - name: Saabumine
           items:
+            - name: Saabumise ülevaade
+              href: ../supply-chain/inventory/arrival-overview.md
             - name: Kauba saabumise ülevaateprofiili seadistamine
               href: ../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md
         - name: Kvaliteedijuhtimine
-          href: ../supply-chain/inventory/enable-quality-management.md
           items:
+            - name: Kvaliteedijuhtimise ülevaade
+              href: ../supply-chain/inventory/enable-quality-management.md
             - name: Kvaliteedijuhtimise protsessid
               href: ../supply-chain/inventory/quality-management-processes.md
             - name: Mittevastavuse haldus
@@ -3156,8 +3432,9 @@
             - name: Mobiilse tööruumi varude laoseis
               href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md
         - name: Väljaminev protsess
-          href: ../supply-chain/inventory/outbound-process.md
           items:
+            - name: Väljamineva protsessi ülevaade
+              href: ../supply-chain/inventory/outbound-process.md
             - name: Laokoguste reserveerimine
               href: ../supply-chain/inventory/reserve-inventory-quantities.md
             - name: Sama partii reserveerimine müügitellimuse jaoks
@@ -3265,12 +3542,140 @@
               href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
             - name: Hooldusnõuete aruanded
               href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
-    - name: Koondplaneerimine
-      href: ../supply-chain/master-planning/master-planning-home-page.md
-      items:
-        - name: Koondplaanid
-          href: ../supply-chain/master-planning/master-plans.md
+        - name: Töötellimuste häälestamine
           items:
+            - name: 'Hooldustööde tüüpide kategooriad ja hooldustööde tüübid, hooldustööde tüüpide variandid, hooldustööde kaubandus ja hoolduse kontrollnimekirjad'
+              href: ../supply-chain/asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
+            - name: Töökäsu elutsükli olekud
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-lifecycle-states.md
+            - name: Töökäsu tüübid
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-types.md
+            - name: Töökäsu projekti seadistus
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-project-setup.md
+            - name: Teenuse tase ja kirjeldus
+              href: ../supply-chain/asset-management/setup-for-work-orders/service-level-and-description.md
+            - name: Plaanitud käivitamine
+              href: ../supply-chain/asset-management/setup-for-work-orders/scheduled-execution.md
+            - name: Veahaldus
+              href: ../supply-chain/asset-management/setup-for-work-orders/fault-management.md
+        - name: Töökäsud
+          items:
+            - name: Töökäskude tutvustus
+              href: ../supply-chain/asset-management/work-orders/introduction-to-work-orders.md
+            - name: Käsitsi loodud töökäsud
+              href: ../supply-chain/asset-management/work-orders/manually-created-workorders.md
+            - name: Hooldusprognoosid
+              href: ../supply-chain/asset-management/work-orders/maintenance-forecasts.md
+            - name: Hange
+              href: ../supply-chain/asset-management/work-orders/procurement.md
+            - name: Varaloendurite käsitsi värskendamine
+              href: ../supply-chain/asset-management/work-orders/manual-update-of-asset-counters.md
+            - name: Varaloendurite automaatne värskendamine
+              href: ../supply-chain/asset-management/work-orders/automatic-update-of-asset-counters.md
+            - name: Hoolduse kontrollnimekirjad
+              href: ../supply-chain/asset-management/work-orders/maintenance-checklists.md
+            - name: Hoolduskatkestus
+              href: ../supply-chain/asset-management/work-orders/maintenance-downtime.md
+            - name: Töökäsule vea lisamine
+              href: ../supply-chain/asset-management/work-orders/add-fault-to-work-order.md
+            - name: Töökäsu aruanne
+              href: ../supply-chain/asset-management/work-orders/work-order-report.md
+            - name: Töökäsu kaustad
+              href: ../supply-chain/asset-management/work-orders/work-order-pools.md
+            - name: Töökäsu aktiivsed hooldustööd
+              href: ../supply-chain/asset-management/work-orders/active-work-order-jobs-overview.md
+            - name: Töökäsud ja põhivarad
+              href: ../supply-chain/asset-management/work-orders/work-orders-and-fixed-assets.md
+        - name: Integratsioon projektijuhtimise ja raamatupidamisega
+          items:
+            - name: 'Prognoosid, töökäsud ja projektid'
+              href: ../supply-chain/asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+        - name: Ennetav ja reaktiivne hooldus
+          items:
+            - name: Korraline hooldus
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/preventive-maintenance-overview.md
+            - name: Hoolduskavad
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-plans.md
+            - name: Hoolduskavade plaanimine
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/schedule-maintenance-plans.md
+            - name: Hoolduskorrad
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-rounds.md
+            - name: Hooldusgraafik
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule.md
+            - name: Hooldusgraafiku kulu
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
+            - name: Töökäskude loomine
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
+            - name: Hoolduskatkestus
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
+        - name: Võimsuse planeerimine
+          items:
+            - name: Arvuta täiskoormus
+              href: ../supply-chain/asset-management/capacity-planning/calculate-capacity-load.md
+            - name: Arvuta kauba prognoos
+              href: ../supply-chain/asset-management/capacity-planning/calculate-item-forecast.md
+        - name: Töökäsu plaanimine
+          items:
+            - name: Hooldustöötaja kalender ja planeerimine
+              href: ../supply-chain/asset-management/work-order-scheduling/maintenance-worker-calendar-and-scheduling.md
+            - name: Eelistatud hooldustöötajad
+              href: ../supply-chain/asset-management/work-order-scheduling/preferred-maintenance-workers.md
+            - name: Töökäskude plaanimine
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-orders.md
+            - name: Lähetuse töökäsk
+              href: ../supply-chain/asset-management/work-order-scheduling/dispatch-work-order.md
+            - name: Töökäsu plaanimine konkreetsel kuupäeval ja kellaajal
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-order-on-specific-date-and-time.md
+            - name: Töökäsu plaanitud hooldustööd
+              href: ../supply-chain/asset-management/work-order-scheduling/scheduled-work-order-maintenance-jobs.md
+            - name: Plaanitud töökäskude täiskoormuse arvutamine
+              href: ../supply-chain/asset-management/work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md
+        - name: Tarbimine
+          items:
+            - name: Tarbimise registreerimine
+              href: ../supply-chain/asset-management/consumption/register-consumption.md
+            - name: Tarbimisaruannete loomine
+              href: ../supply-chain/asset-management/consumption/create-consumption-reports.md
+        - name: Garantii
+          items:
+            - name: Garantiileping
+              href: ../supply-chain/asset-management/warranty/warranty-agreement.md
+            - name: Varade ja varatüüpide garantii
+              href: ../supply-chain/asset-management/warranty/warranty-on-assets-and-asset-types.md
+        - name: Hoolduse eelarved
+          items:
+            - name: Hoolduse eelarved
+              href: ../supply-chain/asset-management/maintenance-budgets/create-maintenance-budget.md
+            - name: Hoolduseelarvete värskendamine
+              href: ../supply-chain/asset-management/maintenance-budgets/update-maintenance-budget.md
+        - name: Kontrollimine ja aruandlus
+          items:
+            - name: Kulu ja kuupäeva juhtimine
+              href: ../supply-chain/asset-management/controlling-and-reporting/cost-and-date-control.md
+            - name: Töötundide kontroll
+              href: ../supply-chain/asset-management/controlling-and-reporting/work-hour-control.md
+            - name: Vara vea kulujuhtimine
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-cost-control.md
+            - name: Vara vea analüüs
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-analysis.md
+            - name: Vara KPI-d
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-kpis.md
+            - name: 'Üksus, kus on kasutatud'
+              href: ../supply-chain/asset-management/controlling-and-reporting/item-where-used.md
+            - name: Hooldusolek
+              href: ../supply-chain/asset-management/controlling-and-reporting/maintenance-status.md
+        - name: Andmehaldus
+          items:
+            - name: Sihtüksused
+              href: ../supply-chain/asset-management/data-management/target-entities.md
+    - name: Koondplaneerimine
+      items:
+        - name: Koondplaneerimise avaleht
+          href: ../supply-chain/master-planning/master-planning-home-page.md
+        - name: Koondplaanid
+          items:
+            - name: Koondplaanide ülevaade
+              href: ../supply-chain/master-planning/master-plans.md
             - name: Koondplaanide häälestus
               href: ../supply-chain/master-planning/master-planning-setup.md
             - name: Koondplaneerimise häälestusviisard.
@@ -3303,9 +3708,10 @@
               href: ../supply-chain/master-planning/supply-chain-calendars-master-planning.md
             - name: Koondplaneerimise jõudluse parandamine
               href: ../supply-chain/master-planning/master-planning-performance.md
-            - name: Koondplaanid ja mitme tegevuskoha režiim
-              href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
+            - name: Koondplaanid ja mitme tegevuskoha funktsioon
               items:
+                - name: Koondplaneerimine ja mitme tegevuskoha funktsiooni ülevaade
+                  href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
                 - name: 'Koondplaanimine laovarude puhul, kohustuslik ladu'
                   href: ../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md
                 - name: 'Koondplaanimine laovarude puhul, ladu ei ole kohustuslik'
@@ -3327,8 +3733,9 @@
             - name: Sisemise tarneahela klientidega koostöö tegemine
               href: ../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md
         - name: Nõudluse prognoos
-          href: ../supply-chain/master-planning/introduction-demand-forecasting.md
           items:
+            - name: Nõudluse prognoosimise ülevaade
+              href: ../supply-chain/master-planning/introduction-demand-forecasting.md
             - name: Nõudluse prognoosi seadistus
               href: ../supply-chain/master-planning/demand-forecasting-setup.md
             - name: Nõudluse prognooside ajalooliste andmete importimine
@@ -3349,12 +3756,14 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Nõudluse prognoosi käsitsi muutmine
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Mobiilirakendus
-      href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+    - name: Mobiilirakendus Dynamics 365 for Unified Operations
       items:
-        - name: Saadaval mobiilsed tööruumid
-          href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
+        - name: Dynamics 365 for Unified Operationsi mobiilirakenduse avaleht
+          href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+        - name: Mobiilsed tööruumid
           items:
+            - name: Saadaval mobiilsed tööruumid
+              href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
             - name: Ettevõtte kataloog
               href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: Kulude juhtimine
@@ -3367,11 +3776,11 @@
               href: ../dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: Minu töörühm
               href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/fin-and-ops/toc.json
-            - name: Projekti mobiilirakenduste ülevaade
+            - name: Projecti mobiilirakenduste ülevaade
               href: ../financials/project-management/project-mobile-application-overview.md
             - name: Projekti ajakirje
               href: ../financials/project-management/project-time-entry-mobile-workspace.md
-            - name: Projekti ajatabel
+            - name: Project Timesheet
               href: ../financials/project-management/project-timesheet.md
             - name: Ostutellimuse heakskiitmine
               href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
@@ -3382,8 +3791,9 @@
         - name: Mobiilsete tööruumide avaldamine
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
     - name: Office’i integreerimine
-      href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Office'i integreerimise ülevaade
+          href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
         - name: Office’i integreerimise õppetükk
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
         - name: Üksuse andmete avamine Excelis ja nende värskendamine Exceli lisandmooduliga
@@ -3400,26 +3810,30 @@
           href: ../dev-itpro/dev-tools/sysmailer-develop.md
         - name: Office’i integreerimise tõrkeotsing
           href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/fin-and-ops/toc.json
-    - name: Hange
-      href: ../supply-chain/procurement/procurement-sourcing-overview.md
+    - name: Hanked
       items:
+        - name: Hangete ülevaade
+          href: ../supply-chain/procurement/procurement-sourcing-overview.md
         - name: Hangete töövoog
           href: ../supply-chain/procurement/procurement-sourcing-workflows.md
         - name: Hankekataloogid
-          href: ../supply-chain/procurement/procurement-catalogs.md
           items:
+            - name: Hankekataloogide ülevaade
+              href: ../supply-chain/procurement/procurement-catalogs.md
             - name: Hankekataloogi loomine
               href: ../supply-chain/procurement/tasks/create-procurement-catalog.md
             - name: Hankekategooria hierarhia seadistamine
               href: ../supply-chain/procurement/tasks/set-up-procurement-category-hierarchy.md
         - name: Ostutaotlused
-          href: ../supply-chain/procurement/purchase-requisitions-overview.md
           items:
+            - name: Ostutaotluste ülevaade
+              href: ../supply-chain/procurement/purchase-requisitions-overview.md
             - name: Ostutaotluse töövoog
               href: ../supply-chain/procurement/purchase-requisitions-workflow.md
         - name: Pakkumiskutsed (RFQ-d)
-          href: ../supply-chain/procurement/request-quotations.md
           items:
+            - name: Pakkumiskutsete ülevaade
+              href: ../supply-chain/procurement/request-quotations.md
             - name: Pakkumiskutse loomine
               href: ../supply-chain/procurement/tasks/create-request-quotation.md
             - name: Pakkumiskutset kasutava taotluse loomine
@@ -3471,8 +3885,9 @@
             - name: Hankija tagasimaksed
               href: ../supply-chain/procurement/vendor-rebates.md
         - name: Ostupoliitikad
-          href: ../supply-chain/procurement/purchase-policies.md
           items:
+            - name: Ostupoliitikate ülevaade
+              href: ../supply-chain/procurement/purchase-policies.md
             - name: Ostupoliitikate loomine
               href: ../supply-chain/procurement/tasks/create-purchasing-policies.md
             - name: Hankekategooria hierarhiate poliitikate seadistamine
@@ -3530,19 +3945,22 @@
             - name: Projekti eelarverevisjonide esitamine ja kinnitamine
               href: ../supply-chain/procurement/tasks/submit-approve-project-budget-revision.md
     - name: Organisatsiooni haldus
-      href: organization-administration/organization-administration-home-page.md
       items:
+        - name: Organisatsioonihalduse avaleht
+          href: organization-administration/organization-administration-home-page.md
         - name: Numbriseeriad
-          href: organization-administration/number-sequence-overview.md
           items:
+            - name: Numbriseeriate ülevaade
+              href: organization-administration/number-sequence-overview.md
             - name: Individuaalsete numbriseeriate häälestamine
               href: organization-administration/tasks/set-up-number-sequences-individual-basis.md
             - name: Numbriseeriate häälestamine viisardi abil
               href: organization-administration/tasks/set-up-number-sequences-wizard.md
         - name: Organisatsioonid ja organisatsiooni hierarhiad
-          href: organization-administration/organizations-organizational-hierarchies.md
           items:
-            - name: Organisatsiooni hierarhia kavandamine
+            - name: Organisatsioonide ja organisatsioonihierarhiate ülevaade
+              href: organization-administration/organizations-organizational-hierarchies.md
+            - name: Organisatsioonihierarhia kavandamine
               href: organization-administration/plan-organizational-hierarchy.md
             - name: Organisatsioonihierarhia loomine
               href: organization-administration/tasks/create-organization-hierarchy.md
@@ -3551,8 +3969,9 @@
             - name: Tootmisüksuste loomine
               href: organization-administration/tasks/create-operating-unit.md
         - name: Globaalne aadressiraamat
-          href: organization-administration/overview-global-address-book.md
           items:
+            - name: Globaalse aadressiraamatu ülevaade
+              href: organization-administration/overview-global-address-book.md
             - name: Plaan globaalse aadressiraamatu ja muude aadressiraamatute jaoks
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: Globaalse aadressiraamatu konfigureerimine
@@ -3562,20 +3981,22 @@
             - name: Aadressiraamatute konfigureerimine
               href: organization-administration/tasks/address-books.md
         - name: Töövoo süsteem
-          href: organization-administration/overview-workflow-system.md
           items:
+            - name: Töövoosüsteemi ülevaade
+              href: organization-administration/overview-workflow-system.md
             - name: Töövoo süsteemi arhitektuur
               href: organization-administration/workflow-system-architecture.md
-            - name: Töövoo elemendid
+            - name: Töövooelemendid
               href: organization-administration/workflow-elements.md
             - name: Töövoo tegevused
               href: organization-administration/workflow-actions.md
             - name: Töövoogude loomine
-              href: organization-administration/create-workflow.md
               items:
-                - name: Töövoo atribuutide konfigureerimine
+                - name: Töövoogude loomise ülevaade
+                  href: organization-administration/create-workflow.md
+                - name: Töövooatribuutide konfigureerimine
                   href: organization-administration/configure-workflow-properties.md
-                - name: Käsitsi ülesannete konfigureerimine
+                - name: Käsitsiülesannete konfigureerimine
                   href: organization-administration/configure-manual-task-workflow.md
                 - name: Automatiseeritud ülesannete konfigureerimine
                   href: organization-administration/configure-automated-task-workflow.md
@@ -3619,13 +4040,14 @@
                   href: organization-administration/workflow-type-submit-to-workflow.md
                 - name: Töövoodokumendi klassi seostamine töövoo tüübiga
                   href: organization-administration/workflow-type-associate-document.md
-            - name: Töövoo tüüpide aruanne
+            - name: Töövootüüpide aruanne
               href: organization-administration/workflow-types-report.md
             - name: Töövoo KKK
               href: organization-administration/workflow-FAQ.md
         - name: Teatised
-          href: get-started/alerts-overview.md
           items:
+            - name: Teatiste ülevaade
+              href: get-started/alerts-overview.md
             - name: Teatisereeglite loomine
               href: get-started/create-alerts.md
             - name: Teatiste pakktöötlus
@@ -3633,18 +4055,21 @@
             - name: Kliendi teatiste teatamine meili teel
               href: get-started/alert-email-notifications.md
         - name: Digitaalallkirjad
-          href: organization-administration/electronic-signature-overview.md
           items:
+            - name: Digitaalallkirjade ülevaade
+              href: organization-administration/electronic-signature-overview.md
             - name: Digitaalallkirjade seadistamine
               href: organization-administration/tasks/set-up-electronic-signatures.md
         - name: Juhtumihaldus
-          href: organization-administration/cases.md
           items:
+            - name: Juhtumihalduse ülevaade
+              href: organization-administration/cases.md
             - name: 'Juhtumi turbe, protsesside ja kategooriate plaanimine'
               href: organization-administration/plan-case-management.md
         - name: Kirjemallid
-          href: organization-administration/record-templates.md
           items:
+            - name: Kirjemallide ülevaade
+              href: organization-administration/record-templates.md
             - name: Kirjemalli loomine
               href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
             - name: Kirje malli abil uue kirje loomine
@@ -3656,8 +4081,9 @@
         - name: Kuupäeva/kellaaja andmed ja ajavööndid
           href: organization-administration/date-time-zones.md
     - name: Tootmise juhtimine
-      href: ../supply-chain/production-control/production-process-overview.md
       items:
+        - name: Tootmisprotsessi ülevaade
+          href: ../supply-chain/production-control/production-process-overview.md
         - name: 'Segarežiimis plaanimine: diskreetse, protsessi- ja säästliku hanke kombineerimine'
           href: ../supply-chain/production-control/mixed-mode-plan.md
         - name: Allhanketöö haldamine tootmises
@@ -3721,8 +4147,9 @@
             - name: Tootmistööde toimimine
               items:
                 - name: Tootmistellimuse elutsükli haldamine
-                  href: ../supply-chain/production-control/create-production-orders.md
                   items:
+                    - name: Tootmistellimuse elutsükli ülevaade
+                      href: ../supply-chain/production-control/create-production-orders.md
                     - name: Tootmistellimuse loomine
                       href: ../supply-chain/production-control/tasks/create-production-order.md
                     - name: Tootmistellimuse hindamine
@@ -3782,8 +4209,9 @@
                 - name: Tootmise sisestamine
                   href: ../supply-chain/cost-management/production-posting.md
             - name: Tööajaarvestuse registreerimine
-              href: ../supply-chain/production-control/time-attendance-registrations.md
               items:
+                - name: Tööajaarvestuse registreerimise ülevaade
+                  href: ../supply-chain/production-control/time-attendance-registrations.md
                 - name: Tasu registreerimiste põhjal
                   href: ../supply-chain/production-control/pay-based-on-registrations.md
                 - name: Puudumiste registreerimine tööajaarvestuses
@@ -3945,8 +4373,9 @@
                 - name: Tootmise sisestamine
                   href: ../supply-chain/cost-management/production-posting.md
     - name: Tooteteabe haldus
-      href: ../supply-chain/pim/product-information.md
       items:
+        - name: Tooteteabe ülevaade
+          href: ../supply-chain/pim/product-information.md
         - name: Tooteteave
           items:
             - name: Toote identifikaatorid
@@ -3972,8 +4401,9 @@
             - name: Väljastatud toote loomine ühe ettevõtte jaoks
               href: ../supply-chain/pim/tasks/create-released-product-single-company.md
             - name: Toote töötsükli olek
-              href: ../supply-chain/pim/product-lifecycle.md
               items:
+                - name: Toote elutsükliolekute ülevaade
+                  href: ../supply-chain/pim/product-lifecycle.md
                 - name: Toote töötsükli uue oleku loomine
                   href: ../supply-chain/pim/tasks/new-product-lifecycle-state.md
                 - name: Toote töötsükli vaikeoleku loomine
@@ -4017,11 +4447,13 @@
             - name: Koosluse kalkulatsioonid
               href: ../supply-chain/cost-management/bom-calculations.md
         - name: Toote konfiguratsioon
-          href: ../supply-chain/pim/build-product-configuration-model.md
           items:
+            - name: Tootekonfiguratsiooni ülevaade
+              href: ../supply-chain/pim/build-product-configuration-model.md
             - name: Dimensioonipõhise konfiguratsiooni loomine
-              href: ../supply-chain/pim/dimension-based-product-configuration.md
               items:
+                - name: Dimensioonipõhise tootekonfiguratsiooni ülevaade
+                  href: ../supply-chain/pim/dimension-based-product-configuration.md
                 - name: Tootedimensioon
                   href: ../supply-chain/pim/product-dimensions.md
                 - name: Dimensioonipõhise tooteetaloni loomine
@@ -4041,8 +4473,9 @@
                 - name: Dimensioonipõhiste konfiguratsioonide loomine
                   href: ../supply-chain/pim/tasks/create-dimension-based-configurations.md
             - name: Piirangupõhise konfiguratsiooni loomine
-              href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
               items:
+                - name: Toote konfiguratsioonimudeli häälestamine
+                  href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
                 - name: Toote konfiguratsioonimudeli arvutamise KKK
                   href: ../supply-chain/pim/calculate-product-configuration-models.md
                 - name: Konfiguratsioonireegel
@@ -4072,8 +4505,9 @@
                 - name: Tootemudelite andmete ülekandmine
                   href: ../supply-chain/pim/tasks/transfer-data-product-models.md
     - name: Projektihaldus ja -arvestus
-      href: ../financials/project-management/overview-project-management-accounting.md
       items:
+        - name: Projektihalduse ja -arvestuse ülevaade
+          href: ../financials/project-management/overview-project-management-accounting.md
         - name: Kontsernisisene arveldamine
           href: ../financials/project-management/intercompany-invoicing.md
         - name: Kontsernisisese projekti arveldamise konfigureerimine
@@ -4099,23 +4533,25 @@
         - name: Ostutellimusel olevate kaupade kaubavajadusest vastuvõtmine
           href: ../financials/project-management/tasks/receive-items-purchase-order-item-requirement.md
         - name: Tööjaotuse struktuurid
-          href: ../financials/project-management/work-breakdown-structures.md
           items:
-            - name: Microsoft Projecti kliendi integreerimine
+            - name: Tööjaotuse struktuuride ülevaade
+              href: ../financials/project-management/work-breakdown-structures.md
+            - name: Microsoft Project Clienti integreerimine
               href: ../financials/project-management/project-integration.md
-        - name: Projekti mobiilirakenduste ülevaade
+        - name: Projecti mobiilirakenduste ülevaade
           href: ../financials/project-management/project-mobile-application-overview.md
         - name: Mobiilse tööruumi projekti ajakirje
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
-        - name: Projekti ajatabeli mobiilirakendus
+        - name: Project Timesheeti mobiilirakendus
           href: ../financials/project-management/project-timesheet.md
         - name: Projekti ajatabelid mobiilses seadmes
           href: ../financials/project-management/mobile-timesheets.md
-        - name: Kohandatud väljade juurutamine Projecti ajatabeli mobiilirakenduses
+        - name: Kohandatud väljade juurutamine Project Timesheeti mobiilirakenduses
           href: ../financials/project-management/custom-fields-mobile.md
     - name: Müük ja turundus
-      href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:
+        - name: Müügi ja turunduse ülevaade
+          href: ../supply-chain/sales-marketing/overview-sales-marketing.md
         - name: Müügitellimused
           items:
             - name: Tellimuse lubamine
@@ -4149,8 +4585,9 @@
             - name: Müügitellimuste kinnitamine
               href: ../supply-chain/sales-marketing/tasks/confirm-sales-orders.md
         - name: Müügilepingud
-          href: ../supply-chain/sales-marketing/sales-agreements.md
           items:
+            - name: Müügilepingute ülevaade
+              href: ../supply-chain/sales-marketing/sales-agreements.md
             - name: Müügilepingute sisestamine
               href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
             - name: Müügilepingute täitmine
@@ -4183,14 +4620,16 @@
           href: ../supply-chain/sales-marketing/trade-allowance.md
         - name: Uue kaubandusleppe loomine
           href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
-    - name: Teenuste haldamine
-      href: ../supply-chain/service-management/service-management-home-page.md
+    - name: Teenuste haldus
       items:
+        - name: Teenuste halduse ülevaade
+          href: ../supply-chain/service-management/service-management-home-page.md
         - name: Klienditeeninduse seadistamine
           items:
             - name: Hoolduslepete seadistamine
-              href: ../supply-chain/service-management/service-agreement-groups.md
               items:
+                - name: Hoolduslepete ülevaade
+                  href: ../supply-chain/service-management/service-agreement-groups.md
                 - name: Hoolduslepete loomine
                   href: ../supply-chain/service-management/create-service-agreements.md
                 - name: Hooldusintervallid
@@ -4204,13 +4643,15 @@
                 - name: Hooldusmallide grupi loomine
                   href: ../supply-chain/service-management/create-service-template-group.md
             - name: Hooldustoimingute seadistamine
-              href: ../supply-chain/service-management/service-tasks.md
               items:
+                - name: Hooldustoimingute ülevaade
+                  href: ../supply-chain/service-management/service-tasks.md
                 - name: Hooldustoimingute seoste loomine
                   href: ../supply-chain/service-management/create-service-task-relations.md
             - name: Hooldusobjektide seadistamine
-              href: ../supply-chain/service-management/service-objects.md
               items:
+                - name: Teenuseobjektide ülevaade
+                  href: ../supply-chain/service-management/service-objects.md
                 - name: Hooldusobjektide loomine
                   href: ../supply-chain/service-management/create-service-task-relations.md
                 - name: Laokaupade sidumine hooldusobjektidega
@@ -4230,17 +4671,19 @@
                 - name: Mallide sidumine hooldusobjektidega
                   href: ../supply-chain/service-management/attach-templates-service-objects.md
             - name: Põhjusekoodid määratlemine hooldustellimuste jaoks
-              href: ../supply-chain/service-management/reason-codes-service-orders.md
               items:
+                - name: Hooldustellimuste põhjusekoodid
+                  href: ../supply-chain/service-management/reason-codes-service-orders.md
                 - name: Hooldustellimuste etapid
                   href: ../supply-chain/service-management/service-order-stages.md
                 - name: Hooldustellimuse etappide seadistamine
                   href: ../supply-chain/service-management/set-up-service-order-stages.md
                 - name: Põhjusekoodide loomine
                   href: ../supply-chain/service-management/create-reason-codes.md
-            - name: Hoolduslepingute ja kordustellimuste seadistamine
-              href: ../supply-chain/service-management/service-level-agreements.md
+            - name: Hoolduslepete ja kordustellimuste seadistamine
               items:
+                - name: Teenusetaseme lepete ülevaade
+                  href: ../supply-chain/service-management/service-level-agreements.md
                 - name: Kordustellimuse müügihinnad
                   href: ../supply-chain/service-management/subscription-sales-prices.md
                 - name: Kordustellimuste grupid
@@ -4249,28 +4692,32 @@
                   href: ../supply-chain/service-management/set-up-subscription-groups.md
                 - name: Etapi põhjusekoodide kasutamine
                   href: ../supply-chain/service-management/use-stage-reason-codes.md
-                - name: Hoolduslepingute ja projektide integreerimine
+                - name: Hoolduslepete ja projektide integreerimine
                   href: ../supply-chain/service-management/integration-service-agreements-projects.md
             - name: Parandushalduse seadistamine
               href: ../supply-chain/service-management/repair-management.md
             - name: Klienditagastuste seadistamine
-              href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
               items:
-                - name: Likvideerimiskoodide seadistamine
+                - name: Klienditagastuste ülevaade
+                  href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
+                - name: Likvideerimiskoodide häälestamine
                   href: ../supply-chain/service-management/set-up-disposition-codes.md
                 - name: Tagastuspõhjuste koodide seadistamine
                   href: ../supply-chain/service-management/set-up-return-reason-code.md
                 - name: Tagastatud kaupade likvideerimise viisi määratlemine
                   href: ../supply-chain/service-management/specify-how-to-dispose-of-returned-items.md
         - name: Töö klienditeenindusega
-          href: ../supply-chain/service-management/working-with-customer-service.md
           items:
+            - name: Töö klienditeenindusega – ülevaade
+              href: ../supply-chain/service-management/working-with-customer-service.md
             - name: Hoolduslepete täitmine
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: Hoolduslepete täitmise ülevaade
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: Lepingute arendamine ja sõlmimine
-                  href: ../supply-chain/service-management/service-agreements.md
                   items:
+                    - name: Hoolduslepete arendamise ja loomise ülevaade
+                      href: ../supply-chain/service-management/service-agreements.md
                     - name: Hoolduslepete loomine
                       href: ../supply-chain/service-management/create-service-agreements.md
                     - name: Teenuse kordustellimused
@@ -4296,8 +4743,9 @@
                     - name: Kordustellimuse müügihindade värskendamine ja indekseerimine
                       href: ../supply-chain/service-management/update-and-index-subscription-sales-prices.md
             - name: Kliendipäringute käsitlemine
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: Hoolduslepete täitmise ülevaade
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: Hooldustellimuses aja salvestuse käivitamine ja salvestamine
                   href: ../supply-chain/service-management/start-and-stop-time-recording-on-a-service-order.md
                 - name: Hooldustellimuse algusaja ja kestuse vaatamine
@@ -4407,11 +4855,12 @@
                     - name: Kordustellimuste kannete arveldamine
                       href: ../supply-chain/service-management/invoice-subscription-transactions.md
     - name: Transpordihaldus
-      href: ../supply-chain/transportation/transportation-management-overview.md
       items:
+        - name: Transpordihalduse ülevaade
+          href: ../supply-chain/transportation/transportation-management-overview.md
         - name: Transpordihalduse mootorid
           href: ../supply-chain/transportation/transportation-management-engines.md
-        - name: Uue transportimishalduse mootori loomine
+        - name: Uue transpordihalduse mootori loomine
           href: ../supply-chain/transportation/create-new-transportation-management-engine.md
         - name: Kütuseindeksi seostamine vedajaga lisatasuna
           href: ../supply-chain/transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
@@ -4420,8 +4869,9 @@
         - name: Veose transpordimarsruutide planeerimine
           href: ../supply-chain/transportation/plan-freight-transportation-routes-multiple-stops.md
         - name: Koormate plaanimine keskuse konsolideerimisega
-          href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
           items:
+            - name: Koormate plaanimine keskuse konsolideerimise kaudu – ülevaade
+              href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
             - name: Koormate ja saadetiste planeerimine koorma planeerimise töölaua abil
               href: ../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md
         - name: Konteineri kaalu ja mahu lisamine laadimisel
@@ -4451,11 +4901,13 @@
         - name: Kauba transpordipiirangute seadistamine
           href: ../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md
     - name: Laohaldus
-      href: ../supply-chain/warehousing/warehouse-management-overview.md
       items:
+        - name: Laohalduse ülevaade
+          href: ../supply-chain/warehousing/warehouse-management-overview.md
         - name: Lao konfiguratsioon
-          href: ../supply-chain/warehousing/warehouse-configuration.md
           items:
+            - name: Lao konfiguratsiooni ülevaade
+              href: ../supply-chain/warehousing/warehouse-configuration.md
             - name: Lao seadistamine lao konfiguratsioonimalli abil
               href: ../supply-chain/inventory/warehouse-template.md
             - name: Töö juhtimine töömallide ja asukohakorralduste abil
@@ -4485,8 +4937,9 @@
             - name: Lao seadistamine üleviimistellimuste jaoks
               href: ../supply-chain/warehousing/transfer-orders-warehouse.md
         - name: Lao tööpoliitikad
-          href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
+            - name: Lao tööpoliitikate ülevaade
+              href: ../supply-chain/warehousing/warehouse-work-policies.md
             - name: Lao tööpoliitikate seadistamine
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: Seostatud tööga varude teisaldamine laohalduses
@@ -4546,8 +4999,9 @@
             - name: Sildiga varude inventuur
               href: ../supply-chain/inventory/inventory-tag-counting.md
         - name: Täiendamine
-          href: ../supply-chain/warehousing/replenishment.md
           items:
+            - name: Täiendamise ülevaade
+              href: ../supply-chain/warehousing/replenishment.md
             - name: Viivitamatu täiendamine
               href: ../supply-chain/warehousing/immediate-replenishment.md
             - name: Täiendamine tagastamiskanbanitega
@@ -4555,8 +5009,9 @@
             - name: Min-max täiendamisprotsessi seadistamine
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
         - name: Lao rakenduse installimine ja konfigureerimine
-          href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
+            - name: Installimise ja konfigureerimise ülevaade
+              href: ../supply-chain/warehousing/install-configure-warehousing-app.md
             - name: Välja nimede konfigureerimine lao rakenduses
               href: ../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md
             - name: Mobiilsete seadmete seadistamine laotöö jaoks

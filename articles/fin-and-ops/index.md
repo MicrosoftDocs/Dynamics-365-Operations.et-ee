@@ -1,9 +1,9 @@
 ---
-title: Teenuse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon
+title: Teenuse Dynamics 365 for Finance and Operations dokumentatsioon
 description: Teenuse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon.
 author: robinarh
 manager: AnnBe
-ms.date: 04/11/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f29d8c74c0e7a4384f8e071d0b9babe5c5f630c
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 56e49776acdcdd730aec3fb80ff68534e935ca10
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856301"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864838"
 ---
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Teenuse Microsoft Dynamics 365 for Finance and Operations dokumentatsioon
+# <a name="dynamics-365-for-finance-and-operations-documentation"></a>Teenuse Dynamics 365 for Finance and Operations dokumentatsioon
 
 [!include [banner](includes/banner.md)]
 
@@ -116,11 +116,11 @@ Suur osa sellest sisut kehtib ka seotud toodete – Microsoft Dynamics 365 for R
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Laiendatavus</a></p>
 <p><a href="../dev-itpro/office-integration/office-integration.md">Office’i integreerimine</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Pidev tarne</a></p>
-<p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobiilne platvorm</a></p>
+<p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobiiliplatvorm</a></p>
 <p><a href="get-started/demo-data.md">Demoandmed</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Haldus</h3>
-<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Pilvejuurutus</a></p>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Pilvjuurutus</a></p>
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Asutusesisene juurutus</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Täiendamine</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Hooldus</a></p>

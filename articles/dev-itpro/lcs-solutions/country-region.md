@@ -1,9 +1,9 @@
 ---
-title: Globaliseerimine
+title: Globaliseerimisressursid
 description: See teema sisaldab loetelu ressurssidest, mis aitavad teil riigi-/regioonipõhiste funktsioonide ja pakkumiste kohta rohkem teada saada.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/01/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d2fe0b357edf3594aa7d795eb2a15f03a886d79
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 668a24c54ded798658a136b8482823b595962306
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850611"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864962"
 ---
-# <a name="globalization"></a>Globaliseerimine
+# <a name="globalization-resources"></a>Globaliseerimisressursid
 
 ## <a name="local-and-regional-deployments"></a>Kohalikud ja regioonipõhised juurutused
 Kui teie riiklike õigusaktidega nõutakse andmete teistsugust talletamist või haldamist kui teistes riikides/regioonides, peate rakenduse Finance and Operations juurutamisel võib-olla arvestama oma riigi/regiooni nõuetega. Võtke arvesse järgmisi ressursse, mis võivad teie jaoks asjakohased olla.
