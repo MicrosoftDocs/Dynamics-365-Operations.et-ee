@@ -5,22 +5,25 @@
 - name: Kohapealsete juurutuste süsteeminõuded
   href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
 - name: Demoandmed
-  href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
+    - name: Demoandmete ülevaade
+      href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
     - name: Demoandmete loomine andmepakettide abil
       href: data-entities/generate-demo-data-packages.md
 - name: Arendamine ja kohandamine
-  href: dev-tools/developer-home-page.md
   items:
-    - name: Avaldustevirna ja serveri ülesehitus
+    - name: Arendamise ja kohandamise avaleht
+      href: dev-tools/developer-home-page.md
+    - name: Rakendusepinu ja serveri ülesehitus
       href: dev-tools/application-stack-server-architecture.md
     - name: Tutvumiseksemplaride hankimine
       href: dev-tools/get-evaluation-copy.md
     - name: Eelvaatetellimuste saajaks registreerumine
       href: dev-tools/sign-up-preview-subscription.md
     - name: Arenduskeskkondade juurutamine ja juurdepääs
-      href: dev-tools/access-instances.md
       items:
+        - name: Arenduskeskkonnad
+          href: dev-tools/access-instances.md
         - name: Valmis arenduskeskkondade konfigureerimine
           href: dev-tools/configure-developer-vm.md
         - name: Uute kasutajate loomine arendusmasinatel
@@ -58,11 +61,12 @@
         - name: Koodiredaktori funktsioonid
           href: dev-tools/code-editor.md
         - name: Mudelite ja andmemudeli elementide loomine
-          href: dev-tools/create-data-model-elements.md
           items:
+            - name: Mudelite ja andmemudeli elementide ülevaade
+              href: dev-tools/create-data-model-elements.md
             - name: Laiendite nimejuhised
               href: extensibility/NamingGuidelines.md
-            - name: Mudeli kohandamise ja aegumise funktsiooni väljalülitamine
+            - name: Mudeli kohandamise ja aegumisfunktsiooni väljalülitamine
               href: dev-tools/lock-models.md
         - name: Kliendi kohanduste analüüsi aruanne
           href: dev-tools/customization-analysis-report.md
@@ -86,8 +90,6 @@
       items:
         - name: X++ ja siluri funktsioonid
           href: dev-tools/new-x-debugger-features.md
-        - name: X++ silumine tootmisandmebaaside koopiate suhtes
-          href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: X++ koodi silumine
           href: dev-tools/debug-xpp.md
         - name: Atribuudi EventHandlerResult klassid taotluste või vastuste stsenaariumides
@@ -104,15 +106,15 @@
           href: dev-ref/application-explorer-aot-properties.md
         - name: X++ keeleviide
           items:
-            - name: X++ keeleviide
+            - name: X++ keeleviite ülevaade
               href: dev-ref/xpp-language-reference.md
             - name: Muutujad ja andmetüübid
               items:
                 - name: Muutujad
                   href: dev-ref/xpp-variables-data-types.md
-                - name: Primitiivsed andmetüübid.
+                - name: Primitiivsed andmetüübid
                   href: dev-ref/xpp-data-primitive.md
-                - name: Liitandmetüübid.
+                - name: Liitandmetüübid
                   href: dev-ref/xpp-data-composite.md
                 - name: Kogumiklassid
                   href: dev-ref/xpp-data-collection.md
@@ -135,8 +137,20 @@
             - name: X++ tehtemärkide eelistamine
               href: dev-ref/xpp-operator-precedence.md
             - name: X++ klassid ja meetodid
-              href: dev-ref/xpp-classes-methods.md
-            - name: '-X++ andmete valimine ja manipuleerimine'
+              items:
+                - name: Klassid ja meetodid
+                  href: dev-ref/xpp-classes-methods.md
+                - name: Pärilus
+                  href: dev-ref/xpp-inheritance.md
+                - name: Staatilise klassi liikmed
+                  href: dev-ref/xpp-static-classes.md
+                - name: Liidesed
+                  href: dev-ref/xpp-interfaces.md
+                - name: Teegid
+                  href: dev-ref/xpp-library-objects.md
+                - name: Sündmused
+                  href: dev-ref/xpp-events.md
+            - name: X++ andmete valimine ja manipuleerimine
               href: dev-ref/xpp-data-query.md
             - name: Juurdepääs andmetele SysDa API abil
               href: dev-ref/sysda.md
@@ -149,13 +163,15 @@
             - name: X++ süntaks
               href: dev-ref/xpp-syntax.md
     - name: 'API, klassi ja tabeli viide'
-      href: dev-ref/api-reference.md
       items:
+        - name: 'API, klassi ja tabeli ressursid'
+          href: dev-ref/api-reference.md
         - name: X++ kompileerimisaja funktsioonid
           href: dev-ref/xpp-compile-time-functions.md
         - name: X++ käitusaja funktsioonid
-          href: dev-ref/xpp-run-time-functions.md
           items:
+            - name: X++ käitusajafunktsiooni ressursid
+              href: dev-ref/xpp-run-time-functions.md
             - name: X++ ärilahenduse käitusaja funktsioonid
               href: dev-ref/xpp-business-run-time-functions.md
             - name: X++ konteineri käitusaja funktsioonid
@@ -409,8 +425,9 @@
         - name: SysTesti filtreerimine klassi- ja meetodiatribuutidega
           href: perf-test/systest-filtering.md
         - name: Vastuvõtutesti teek
-          href: perf-test/acceptance-test-library.md
           items:
+            - name: Vastuvõtutesti teegi ressursid
+              href: perf-test/acceptance-test-library.md
             - name: Navigeerimispaani põhimõtted
               href: perf-test/concepts-navigation.md
             - name: Andmemeetodite test
@@ -438,13 +455,14 @@
     - name: ISV asutusesisene litsentsimine
       href: dev-tools/isv-licensing-on-prem.md
 - name: Kasutajaliidese arendus
-  href: user-interface/user-interface-development-home-page.md
   items:
+    - name: Kasutajaliidese arenduse avaleht
+      href: user-interface/user-interface-development-home-page.md
     - name: Õppetükid
       items:
         - name: Renditasu tüübi vormi koostamine
           href: user-interface/build-rental-charge-type-form.md
-        - name: Kliendi vormi koostamine
+        - name: Kliendivormi koostamine
           href: user-interface/build-customer-form.md
         - name: Navigeerimise koostamine
           href: user-interface/build-navigation.md
@@ -633,18 +651,21 @@
         - name: Paani ja loendi vahemällu salvestamine tööruumide jaoks
           href: user-interface/tile-list-caching-workspaces.md
     - name: Tegevuse salvestaja
-      href: user-interface/task-recorder.md
       items:
+        - name: Tegevuse salvestaja ressursid
+          href: user-interface/task-recorder.md
         - name: Tegevuse salvestaja kiirviide
           href: user-interface/task-recorder-quick-reference.md
         - name: Dokumentide või koolituse loomine tegevuse salvestiste abil
           href: user-interface/task-recorder-training-docs.md
-- name: Mobiilne platvorm
-  href: mobile-apps/platform/mobile-platform-home-page.md
+- name: Mobiiliplatvorm
   items:
+    - name: Mobiiliplatvormi ressursid
+      href: mobile-apps/platform/mobile-platform-home-page.md
     - name: Alustamine
-      href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
+        - name: Mobiiliplatvormi kasutamise alustamine
+          href: mobile-apps/platform/mobile-platform-getting-started.md
         - name: Arhitektuuri ja disainipõhimõtted
           href: mobile-apps/platform/mobile-platform-architecture.md
         - name: Äriloogika sündmused
@@ -678,8 +699,9 @@
         - name: Kliendipoolsed kujunduse API-d
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: Kliendi API-d
-          href: mobile-apps/platform/client-apis/client-apis-reference.md
           items:
+            - name: Kliendi API-de avaleht
+              href: mobile-apps/platform/client-apis/client-apis-reference.md
             - name: PageState’i loetelu
               href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
             - name: Rakendusemoodul
@@ -843,16 +865,18 @@
             - name: ValueMetadata tüüp
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
 - name: Isikuandmete kaitse üldmäärus (GDPR)
-  href: gdpr/gdpr-guide.md
   items:
-    - name: Ressursid GDPR-i andmetaotlustele vastamiseks
-      href: gdpr/gdpr-home-page.md
+    - name: Isikuandmete kaitse üldmääruse ülevaade
+      href: gdpr/gdpr-guide.md
+    - name: GDPR-i andmetaotlustele vastamine
       items:
+        - name: GDPR-i andmetaotlustele vastamise ressursid
+          href: gdpr/gdpr-home-page.md
         - name: Varade klassifikatsioonid
           href: gdpr/gdpr-asset-classification-values.md
-        - name: Isiku otsingu aruanne
+        - name: Isikuotsingu aruanne
           href: gdpr/gdpr-person-search-report.md
-        - name: Isiku otsingu aruande laiendamine
+        - name: Isikuotsingu aruande laiendamine
           href: gdpr/gdpr-extend-person-search-report.md
         - name: Tundlike andmete juurdepääsu haldamine
           href: gdpr/gdpr-auditing-sensitive-data.md
@@ -863,17 +887,36 @@
         - name: GDPR-i andmetaotlused LCS-i jaoks
           href: gdpr/gdpr-lcs.md
 - name: Pidev tarne
-  href: dev-tools/continuous-delivery-home-page.md
   items:
+    - name: Pideva tarne kodulehekülg
+      href: dev-tools/continuous-delivery-home-page.md
     - name: Arenduse ja pideva tarne KKK
       href: dev-tools/continuous-delivery-faq.md
-    - name: Proovipakendite välja arvamine koosteväljundist
+    - name: Testpakettide väljaarvamine koosteväljundist
       href: dev-tools/exclude-test-packages.md
-    - name: Kolmanda osapoole mudelite ja käitusaja pakendite haldus allikakontrolli abil
+    - name: Kolmanda osapoole mudelite ja käitusajapakettide haldus allikakontrolli abil
       href: dev-tools/manage-runtime-packages.md
     - name: Mudeliversioonide värskendamine automatiseeritud koostes
       href: dev-tools/version-models-build.md
-- name: Teenusega Lifecycle Services lahenduste väljastamine
+- name: Regression Suite Automation Tool
+  items:
+    - name: Regression Suite Automation Tooli ülevaade
+      href: perf-test/rsat/rsat-overview.md
+    - name: Installimine ja konfigureerimine
+      href: perf-test/rsat/rsat-install-configure.md
+    - name: Käitustestide juhtumid
+      href: perf-test/rsat/rsat-run.md
+    - name: Eeldatavate väärtuste valideerimine
+      href: perf-test/rsat/rsat-validate-expected.md
+    - name: Aheltestjuhtumid
+      href: perf-test/rsat/rsat-chain-test-cases.md
+    - name: Tuletatud testjuhtumid
+      href: perf-test/rsat/rsat-derived-test-cases.md
+    - name: Head tavad
+      href: perf-test/rsat/rsat-best-practices.md
+    - name: Tõrkeotsing
+      href: perf-test/rsat/rsat-troubleshooting.md
+- name: Lahenduste väljaandmine teenuse Lifecycle Services abil
   items:
     - name: Arendamine ja väljastamine
       href: lcs-solutions/lcs-solutions-app-source.md
@@ -889,11 +932,12 @@
       href: lcs-solutions/app-validation-lcs-solutions.md
     - name: Andmepakettide töötlemine ja kasutamine
       href: lcs-solutions/process-data-packages-lcs-solutions.md
-    - name: Lahenduse andmebaaside varundamine
+    - name: Lahenduseandmebaaside varundamine
       href: lcs-solutions/database-backup-lcs-solutions.md
     - name: Lokaliseerimine ja regulatiivsed funktsioonid
-      href: lcs-solutions/country-region.md
       items:
+        - name: Globaliseerimisressursid
+          href: lcs-solutions/country-region.md
         - name: Lokaliseerimisfunktsioonide klassifikatsioon
           href: lcs-solutions/classify-localization-features.md
         - name: Riigi/regiooni konteksti rakendamine
@@ -907,8 +951,9 @@
         - name: Regulatiivsete teatiste edastamine
           href: lcs-solutions/submit-localization-alerts.md
 - name: Finantside arendamine
-  href: financial/financial-dev-home-page.md
   items:
+    - name: Finantside arendamise avaleht
+      href: financial/financial-dev-home-page.md
     - name: Finantsdimensiooni raamistik
       items:
         - name: Pearaamatukonto kombinatsioonid
@@ -961,18 +1006,20 @@
   items:
     - name: Gantti juhtelemendi arengu juhis
       href: user-interface/gantt-development-guide.md
-    - name: Uue transportimishalduse mootori loomine
+    - name: Uue transpordihalduse mootori loomine
       href: ../supply-chain/transportation/create-new-transportation-management-engine.md
 - name: Juurutamine
   items:
     - name: Demokeskkondade juurutamine
       href: deployment/deploy-demo-environment.md
-    - name: Pilvejuurutus
-      href: deployment/cloud-deployment-overview.md
+    - name: Pilvjuurutus
       items:
+        - name: Pilvjuurutuse ülevaade
+          href: deployment/cloud-deployment-overview.md
         - name: Iseteeninduse juurutamine
-          href: deployment/infrastructure-stack.md
           items:
+            - name: Iseteeninduse juurutamise ülevaade
+              href: deployment/infrastructure-stack.md
             - name: Uue keskkonna juurutamine
               href: deployment/deployenvironment-newinfrastructure.md
             - name: Juurutuse KKK
@@ -1000,20 +1047,22 @@
         - name: Retaili andmete asukoht
           href: deployment/retail-data-residency.md
     - name: Asutusesisene juurutus
-      href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: Asutusesisese juurutuse suvand
+        - name: Asutusesisese juurutuse avaleht
+          href: deployment/on-premises-deployment-landing-page.md
+        - name: Asutusesisese juurutuse ülevaade
           href: deployment/on-premises-overview.md
-        - name: Asutusesiseseks juurutusteks plaanimine ja ettevalmistamine
+        - name: Asutusesiseste juurutuste plaanimine ja ettevalmistamine
           href: deployment/plan-onprem-deployment.md
         - name: Riistvarakalkulaatori nõuded
           href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-        - name: Kohapealsete projektide seadistamine
+        - name: Asutusesiseste projektide häälestamine
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-        - name: Kohapealsete keskkondade seadistamine ja juurutamine
-          href: deployment/setup-deploy-on-premises-environments.md
+        - name: Asutusesiseste keskkondade häälestamine ja juurutamine
           items:
-            - name: Kohapealsete keskkondade juurutamine (Platform update 12 ja uuemad)
+            - name: Asutusesiseste keskkondade häälestamise ja juurutamise avaleht
+              href: deployment/setup-deploy-on-premises-environments.md
+            - name: Asutusesiseste keskkondade juurutamine (Platform update 12 ja uuemad)
               href: deployment/setup-deploy-on-premises-pu12.md
             - name: Kohapealsete keskkondade juurutamine (Platform update 8 ja 11)
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
@@ -1031,8 +1080,14 @@
           href: deployment/on-premises-diagnostics.md
         - name: Kohapealsete juurutamiste uuesti juurutamine
           href: deployment/redeploy-on-prem.md
-        - name: Kohaliku esindaja värskendamine
-          href: lifecycle-services/update-local-agent.md
+        - name: Kohalik esindaja
+          items:
+            - name: AD FS Office 365-ga ühilduvus
+              href: deployment/onprem-adfscompatibility.md
+            - name: Kohaliku esindaja eeljuurutuse ja järeljuurutuse skriptid
+              href: lifecycle-services/pre-post-scripts.md
+            - name: Kohaliku esindaja värskendamine
+              href: lifecycle-services/update-local-agent.md
         - name: Keskkondade ümberkonfigureerimine
           href: lifecycle-services/reconfigure-environment.md
         - name: Kliendi Interneti-ühendus
@@ -1049,14 +1104,16 @@
           href: deployment/install-deployable-package.md
         - name: Paketi desinstallimine
           href: deployment/uninstall-deployable-package.md
-        - name: Paketi rakenduse probleemide tõrkeotsing
+        - name: Paketi rakendusprobleemide tõrkeotsing
           href: deployment/deployable-package-troubleshooting.md
 - name: 'Täiendused, värskendused ja kiirparandused'
-  href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: Versiooni AX 2012 täiendamine versioonile Finance and Operations
-      href: migration-upgrade/upgrade-overview-2012.md
+    - name: 'Täienduste, värskenduste ja kiirparanduste ressursid'
+      href: migration-upgrade/upgrade-home-page.md
+    - name: Üleminek versioonilt AX 2012
       items:
+        - name: Versiooni AX 2012 täiendamine versioonile Finance and Operations
+          href: migration-upgrade/upgrade-overview-2012.md
         - name: AX 2012 täiendus – täienduse analüüsija tööriista kasutamine plaanimiseks
           href: migration-upgrade/upgrade-analyzer-tool.md
         - name: AX 2012 täiendus – kooditäienduse teenuse kasutamine panuse hindamiseks
@@ -1091,13 +1148,14 @@
               href: migration-upgrade/workflow-subsystem.md
             - name: Kuupide asemel liitmudelite kasutamine analüüsimiseks
               href: migration-upgrade/in-memory-real-time-aggregate-models.md
-            - name: Täiendatud müügikuupide migreerimine üksuse kauplusse
+            - name: Täiendatud müügikuupide migreerimine üksusesalve
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Eelarve plaanimise täiendamine
               href: migration-upgrade/upgrade-budget-planning.md
-    - name: Andmete migreerimine AX 2009-st rakendusse Finance and Operations
-      href: migration-upgrade/data-migration-tool.md
+    - name: Andmete migreerimine versioonist AX 2009
       items:
+        - name: Andmete migreerimine AX 2009-st rakendusse Finance and Operations
+          href: migration-upgrade/data-migration-tool.md
         - name: AX 2009 migratsioon – andmemigratsiooni tööriista installimine
           href: migration-upgrade/install-dmt.md
         - name: AX 2009 migratsioon – kaartide koostamine
@@ -1111,11 +1169,12 @@
         - name: AX 2009 migratsioon – pakettide importimine
           href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Koodi migreerimine ja täiendamine
-      href: migration-upgrade/code-migration-home-page.md
       items:
+        - name: Koodi migreerimise ja täiendamise avaleht
+          href: migration-upgrade/code-migration-home-page.md
         - name: Koodi migreerimise ettevalmistamine
           href: migration-upgrade/prepare-migration.md
-        - name: Azure DevOps’i vastenduse konfigureerimine
+        - name: Azure DevOpsi vastenduse konfigureerimine
           href: migration-upgrade/configure-vso-solution.md
         - name: Mudeli tükeldamine
           href: dev-tools/model-split.md
@@ -1135,8 +1194,6 @@
           href: migration-upgrade/versions-update-policy.md
         - name: Uusima platvormivärskenduse rakendamine keskkondadele
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: Dynamics AX-i platvormi täiendamine 2016. aasta augusti versioonile
-          href: migration-upgrade/update-platform-each-release.md
         - name: Andmete täiendamine arendus- või demokeskkondades
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Arendustööriistade värskendamine
@@ -1172,9 +1229,10 @@
         - name: Aegunud API-d (juuni 2017)
           href: migration-upgrade/deprecated-apis.md
 - name: Süsteemihaldus
-  href: sysadmin/system-administration-home-page.md
   items:
-    - name: Linkide lisamine juriidilistele tingimustele ja privaatsusavaldusele
+    - name: Süsteemihalduse koduleht
+      href: sysadmin/system-administration-home-page.md
+    - name: Juriidilistele tingimuste ja privaatsusavalduse linkide lisamine
       href: sysadmin/legal-terms-privacy-statement.md
     - name: Litsentsikoodide ja konfiguratsioonivõtmete aruanne
       href: sysadmin/license-codes-configuration-keys-report.md
@@ -1186,13 +1244,14 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: B2B kasutajate eksportimine Azure AD-sse
       href: sysadmin/implement-b2b.md
-    - name: Seansi jõudeoleku ajalõpu määramine
-      href: sysadmin/session-idle-timeout.md
-    - name: Rollipõhine turve
-      href: sysadmin/role-based-security.md
+    - name: Turve
       items:
+        - name: Rollipõhine turve
+          href: sysadmin/role-based-security.md
         - name: Turbearhitektuur
           href: sysadmin/security-architecture.md
+        - name: Seansi jõudeoleku ajalõpu määramine
+          href: sysadmin/session-idle-timeout.md
         - name: Valmisturbearuanded
           href: sysadmin/security-reports.md
         - name: Uute kasutajate loomine
@@ -1206,13 +1265,14 @@
         - name: Kasutajate määramine turberollidesse
           href: sysadmin/tasks/assign-users-security-roles.md
     - name: Pakktöötlus
-      href: sysadmin/batch-processing-overview.md
       items:
+        - name: Pakktöötluse ülevaade
+          href: sysadmin/batch-processing-overview.md
         - name: Pakktöötlus ja partiiserverid
           href: sysadmin/batch-server-overview.md
         - name: Pakett-tööde loomine
           href: sysadmin/tasks/create-batch-job.md
-        - name: Kopeeri pakett-töö
+        - name: Pakett-töö kopeerimine
           href: sysadmin/copy-batch-job.md
         - name: Aktiivsed partiiperioodid
           href: sysadmin/activeperiod.md
@@ -1228,18 +1288,20 @@
           href: sysadmin/batch-history-cleanup.md
         - name: Pakett-töö täitmise katkestamine
           href: sysadmin/batch-abort.md
-    - name: Optimeerimise nõustaja
-      href: sysadmin/optimization-advisor-overview.md
+    - name: Optimeerimisnõustaja
       items:
-        - name: Optimeerimise nõustaja reeglite loomine
+        - name: Nõustaja ülevaate optimeerimine
+          href: sysadmin/optimization-advisor-overview.md
+        - name: Optimeerimisnõustaja reeglite loomine
           href: sysadmin/create-rules-optimization-advisor.md
     - name: Tootmiskatkestusest teatamine
       href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: Teenuse Lifecycle Services ressursid
-      href: lifecycle-services/lcs.md
       items:
+        - name: Teenuse Lifecycle Services ressursid
+          href: lifecycle-services/lcs.md
         - name: LCS klientidele
           href: lifecycle-services/lcs-works-lcs.md
         - name: LCS partneritele
@@ -1257,8 +1319,9 @@
     - name: Teema otsing
       href: lifecycle-services/issue-search-lcs.md
     - name: Konfiguratsioonihaldur
-      href: lifecycle-services/configuration-manager-lcs.md
       items:
+        - name: Konfiguratsioonihalduri ülevaade
+          href: lifecycle-services/configuration-manager-lcs.md
         - name: Konfiguratsioonihalduri häälestamine
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: Koodiuuenduse teenuse konfigureerimine
@@ -1298,8 +1361,9 @@
     - name: Päringu kokaraamat
       href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
-      href: lifecycle-services/translation-service-overview.md
       items:
+        - name: Dynamics 365 Translation Service'i ülevaade
+          href: lifecycle-services/translation-service-overview.md
         - name: Kasutajaliidese failide tõlkimine
           href: lifecycle-services/use-translation-service.md
         - name: Dokumentatsioonifailide tõlkimine
