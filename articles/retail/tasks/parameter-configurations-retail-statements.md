@@ -1,9 +1,9 @@
 ---
-title: " Jaemüügi väljavõtete parameetrikonfiguratsioonid"
-description: See protseduur selgitab jaemüügi parameetrikonfiguratsioone, mis mõjutavad jaemüügi väljavõtete loomise ja sisestamise viisi.
+title: Jaemüügi väljavõtteid mõjutavate Jaemüügi parameetrite konfigureerimine
+description: Selles teemas demonstreeritakse jaemüügi parameetrite konfiguratsioone, mis mõjutavad jaemüügiaruannete loomist ja sisestamist.
 author: josaw1
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,29 +17,29 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6dacd2b80ca0d51d81d2bdf5bc2636b47da621ee
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b9a0386a4d61395903e82d988244dd131c1febaf
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564289"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867267"
 ---
-# <a name="parameter-configurations-for-retail-statements"></a> Jaemüügi väljavõtete parameetrikonfiguratsioonid
+# <a name="configure-retail-parameters-that-affect-retail-statements"></a>Jaemüügi väljavõtteid mõjutavate Jaemüügi parameetrite konfigureerimine
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-See protseduur selgitab jaemüügi parameetrikonfiguratsioone, mis mõjutavad jaemüügi väljavõtete loomise ja sisestamise viisi. See protsess kasutab demoettevõtte USRT-i andmeid.
+Selles teemas demonstreeritakse jaemüügi parameetrite konfiguratsioone, mis mõjutavad jaemüügiaruannete loomist ja sisestamist. See protsess kasutab demoettevõtte USRT-i andmeid.
 
-1. Avage Jaemüük ja kaubandus > Peakontori seadistamine > Parameetrid > Jaemüügi parameetrid.
-2. Klõpsake vahekaarti Sisestamine.
-    * Valige suvand Jah, kui soovite sisestada eraldi perioodilise allahindluse summad.  
-    * Valige suvand Standard, kui soovite kasutada vaikekontosid, või suvand Perioodiline, kui soovite määratleda, millist kontot iga perioodilise allahindluse puhul kasutada.  
-    * Valige suvand Kokkuvõte, kui varude read tuleks võimaluse korral liita.  
-    * Valige suvand Jah, kui arved ja maksed tuleks osana väljavõtte sisestamise protsessist automaatselt tasakaalustada.  
-    * Valige suvand Jah, kui raha seifi viimise kanded tuleks liita.  
-    * Valige suvand Jah, kui raha panka hoiustamise kanded tuleks liita.  
-    * Valige suvand Jah, kui soovite liitmise väljavõtte sisestamise jaoks sisse lülitada.  
-    * Valige suvand Jah, kui soovite tellimusi luua ja töödelda paralleelselt väljavõtete sisestamisega.  
-    * Sisestage igas pakett-töö ülesandes töödeldav tellimuste maksimumkogus.  
-3. Klõpsake nuppu Salvesta.
+1. Avage navigeerimispaanil **Moodulid > Jaemüük ja kaubandus > Peakontori seadistus > Parameetrid > Jaemüügi parameetrid**.
+2. Valige vahekaart **Sisestamine**.
+    - Valige **Jah**, kui soovite sisestada just perioodilise allahindluse summasid.  
+    - Valige **Standardne**, et kasutada vaikekontosid, või valige **Perioodiline**, kui soovite määratleda, milliseid kontosid iga perioodilise allahindluse jaoks kasutada.  
+      - Kui varude read tuleks võimalusel alati kokku võtta, valige **Kokkuvõte**.  
+      - Valige **Jah**, kui arved ja maksed tuleks alati aruande sisestamise protsessi käigus automaatselt tasuda.  
+      - Valige **Jah**, kui Seifi vähenemise tehingud tuleks kokku võtta.  
+      - Valige **Jah**, kui Panga vähenemise tehingud tuleks kokku võtta.  
+      - Valige **Jah**, et lülitada sisse aruannete sisestamise kokku võtmine.  
+      - Valige **Jah**, et aruannete sisestamisel paralleelselt tellimusi luua ja töödelda.  
+      - Sisestage igas pakett-töö ülesandes töödeldav tellimuste maksimumkogus.  
+3. Valige käsk **Salvesta**.
 

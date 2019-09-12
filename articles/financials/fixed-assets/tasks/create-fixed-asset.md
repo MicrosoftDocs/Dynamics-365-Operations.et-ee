@@ -3,7 +3,7 @@ title: Uue põhivara loomine
 description: See ülesande juhend kasutab demoettevõtet USMF.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f03f96b854fb790bc67149e318a9e577be456b76
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 59d2b421fcce3551145b85e004380ed06cd45626
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839973"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916434"
 ---
 # <a name="create-a-fixed-asset"></a>Uue põhivara loomine
 
@@ -29,16 +29,14 @@ ms.locfileid: "1839973"
 
 See ülesande juhend kasutab demoettevõtet USMF.  See loob uue põhivara, kasutades Põhivara loendilehte.
 
-1. Minge jaotisse Põhivarad > Põhivarad > Põhivarad.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Põhivara grupp või valige sellelt väljalt.
-    * Number tuuakse vaikimisi, kui olete põhivarade parameetrites ja põhivara grupis lubanud funktsiooni Nummerda põhivarad automaatselt.  Kui te seda teinud pole, sisestage põhivara tuvastamiseks kordumatu number.  
-4. Sisestage väärtus väljale Nimi.
-    * Sisestage lisateave, mida teie ettevõte selle vara puhul vajab.  
-5. Klõpsake valikut Raamatud.
-6. Sisestage kuupäev väljale Soetamiskuupäev.
-7. Sisestage number väljale Soetusmaksumus.
-    * Sisestage lisateave, mida teie ettevõte selle raamatu puhul vajab.  
-    * Sisestage täiendav teave, mida teie ettevõte ülejäänud raamatute jaoks vajab.  
+1. Avage **Navigeerimispaan > Moodulid > Põhivarad > Põhivarad > Põhivarad**.
+2. Paanil **Toimingupaan** klõpsake valikut **Uus**.
+3. Väljale **Põhivara grupp** sisestage või valige väärtus. Väli **Arv** on vaikimisi, kui olete lubanud valikud **Nummerda põhivarade funktsioonid automaatselt**, **Põhivarade parameetrid** ja **Põhivara grupp**.  Kui te seda teinud pole, sisestage põhivara tuvastamiseks kordumatu number.  
+4. Sisestage väärtus väljale **Nimi**. Sisestage lisateave, mida teie ettevõte selle vara puhul vajab.  
+5. Klõpsake paanil **Toimingupaan** valikut **Raamatud**.
+6. Väljale **Soetamiskuupäev** sisestage kuupäev.
+7. Väljale **Soetusmaksumus** sisestage arv.
+    - Sisestage lisateave, mida teie ettevõte selle raamatu puhul vajab.  
+    - Sisestage täiendav teave, mida teie ettevõte ülejäänud raamatute jaoks vajab.  
 8. Sulgege leht.
 

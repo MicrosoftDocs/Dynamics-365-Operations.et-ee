@@ -3,7 +3,7 @@ title: Funktsioonihalduse ülevaade
 description: See teema kirjeldab funktsioonihaldust ja kuidas seda kasutada.
 author: mikefalkner
 manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 6aeb5383520f799223d62420f6e0c1079c6c961f
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862934"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887107"
 ---
 # <a name="feature-management-overview"></a>Funktsioonihalduse ülevaade
 
@@ -103,8 +103,9 @@ Kõik funktsioonid, mida saab lubada, on lubatud. Kui funktsioon on juba plaanit
 
 Vaikimisi lülitatakse kõik teie keskkonda lisatavad funktsioonid välja, kui need pole kohustuslikud funktsioonid. Kuid kui soovite kõiki uusi funktsioone automaatselt sisse lülitada, saate kasutada ripploendit tööruumi nime all, et muuta, mis juhtub uute funktsioonide lisamisel.
 
-- Valige suvand **Kõik uued funktsioonid lubatakse vaikimisi**, et kõik uued funktsioonid teie keskkonda lisamisel automaatselt sisse lülitada.
-- Valige suvand **Kõik uued funktsioonid keelatakse vaikimisi**, et kõik uued funktsioonid teie keskkonda lisamisel automaatselt välja lülitada.
+- Kõikide uute funktsioonide automaatseks lubamiseks keskkonda lisandumisel valige **Luba uued funktsioonid automaatselt**.
+- Kõikide uute funktsioonide automaatseks keelamiseks keskkonda lisandumisel valige **Keela uued funktsioonid automaatselt**.
+
 
 Kui lubate kõik funktsioonid automaatselt, lubab see kõik funktsioonid, mis oleks lubatud, kui klõpsate nuppu **Luba kõik**. See ei luba kinnitamist nõudvaid funktsioone või funktsioone, mida ei saa enne toimingu tegemist lubada.
 

@@ -1,9 +1,9 @@
 ---
 title: Meilimallide haldamine
-description: Saate teisaldada teabe teie organisatsiooni andmebaasist uue dokumendi järjehoidjatesse ja kasutada seda mallides, mis aitavad teil tõhusalt kandidaatidega suhelda.
+description: Selles teemas selgitatakse meilipallide haldust.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4667d0506c5ae6bea87b982c7feebab8963797a6
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3ecfa720dfa9b3ed6ee15ec68498d2a46612a9ae
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508029"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867483"
 ---
 # <a name="manage-email-templates"></a>Meilimallide haldamine
 
@@ -31,23 +31,20 @@ Saate teisaldada teabe teie organisatsiooni andmebaasist uue dokumendi järjehoi
 
 
 ## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a>Meilimallides kasutatavate järjehoidjate valimine
-1. Avage Avalduste järjehoidjad.
+1. Navigeerimispaanil avage **Moodulid > Inimressursid > Värbamine > Suhtlus > Rakenduse järjehoidjad**.
 2. Leidke ja valige loendist soovitud vastamistegevus.
-3. Klõpsake nuppu Redigeeri.
-4. Otsige loendist ja valige soovitud kirje.
-    * Valige väljad, mida sooviksite valitud vastamistegevuse puhul meilimallis kasutada ja teisaldage need väljadele Järjehoidja.  
+3. Valige suvand **Redigeeri**.
+4. Valige väljad, mida sooviksite valitud vastamistegevuse puhul meilimallis kasutada ja teisaldage need väljadele Järjehoidja.  
 5. Sulgege leht.
 
-## <a name="create-an-email-template"></a>Meilimalli loomine
-1. Avage Inimressursid > Värbamine > Suhtlus > Avalduse meilimallid.
-2. Klõpsake valikut Uus.
-3. Valige väljalt Vastamistegevus suvand Vestlus.
-    * Valige vastamistegevus, mis sisaldab seda tüüpi meilisuhtluse puhul kasutatavaid järjehoidjaid.  
-4. Sisestage väärtus väljale Meilimall.
-5. Sisestage väärtus väljale Teema.
-6. Sisestage väärtus väljale Tekst.
+## <a name="create-an-email-template"></a>Loo e-kirja mall
+1. Navigeerimispaanil avage **Moodulid > Inimressursid > Värbamine > Suhtlus > Rakenduse meilimallid**.
+2. Valige suvand **Uus**.
+3. Valige väljal **Kirjavahetuse tegevus** suvand **Vestlus**. Valige vastamistegevus, mis sisaldab seda tüüpi meilisuhtluse puhul kasutatavaid järjehoidjaid.  
+4. Sisestage väärtus väljale **Meilimall**.
+5. Sisestage väärtus väljale **Teema**.
+6. **Sisestage väärtus väljale Tekst.**
 7. Leidke ja valige loendist soovitud järjehoidja väli.
 8. Jätka meilisõnumi sisestamist, lisades vajalikku kohta järjehoidja väljad.
-    * Jätka meilisõnumi sisestamist, lisades soovitud kohta järjehoidja väljad.  
-9. Klõpsake nuppu Salvesta.
+9. Valige käsk **Salvesta**.
 

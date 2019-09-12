@@ -3,7 +3,7 @@ title: Eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada.
 author: sericks007
 manager: AnnBe
-ms.date: 07/30/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 4aad4f2cf42b72256b5c4727bfd145d16af033ed
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863379"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867097"
 ---
 # <a name="removed-or-deprecated-features"></a>Eemaldatud või aegunud funktsioonid
 
@@ -157,6 +157,17 @@ Projektipõhiste müügitellimuste loomise toe, kui projektilepingul on mitu rah
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud: hoiatus muutub platvormivärskenduses 26 kompileerimistõrkeks. |
+
+## <a name="dynamics-365-for-finance-and-operations-1000-with-platform-update-24"></a>Dynamics 365 for Finance and Operations 10.0.0 platvormivärskendusega 24
+
+### <a name="renaming-released-products"></a>Väljastatud toodete ümbernimetamine 
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Kui kasutate funktsiooni **Nimeta esmane võti ümber**, et muuta väljastatud toote ItemId värskendatakse ainult võõrvõtme viited. Mis tahes muud väljastatud toote viited, näiteks tootmistellimustest, säilitavad vana ItemId. Tulemuseks võivad olla ebaühtlased andmed, mis lõpuks blokeerivad äriprotsessid. |
+| **Asendatud teise funktsiooniga?**   | Nr |
+| **Mõjutatud tootealad**         | Tooteteabe haldus |
+| **Juurutamissuvand**              | Kõik  |
+| **Olek**                         | Eemaldatud alates rakendusest Dynamics 365 for Finance and Operations 10.0.0 platvormivärskendusega 24. Erandjuhtudel, näiteks väljastatud toote esmase võtme varasema ümbernimetamise taastamine, on Microsoftilt võimalik taotleda väljastatud toodete esmase võtme ümbernimetamise piirangu ajutist eemaldamist. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 platvormivärskendusega 23

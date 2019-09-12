@@ -1,9 +1,9 @@
 ---
-title: Saate häälestada põhivaragruppe.
-description: See protseduur näitab, kuidas luua uut põhivaragruppi.
+title: Põhivaragruppide häälestamine
+description: Selles teemas tutvustatakse, kuidas luua uut põhivara rühma.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,26 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8f52b73c07aad1047d6e6e7caf80daecc9c26e7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 246502f66c0cfcd4b4ed3c4b9f2ae616e71a1c50
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839781"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867531"
 ---
-# <a name="set-up-fixed-asset-groups"></a>Saate häälestada põhivaragruppe.
+# <a name="set-up-fixed-asset-groups"></a>Põhivaragruppide häälestamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas luua uut põhivaragruppi. See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.
+Selles teemas tutvustatakse, kuidas luua uut põhivara rühma. See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.
 
-1. Avage Põhivarad > Seadistus > Põhivaragrupid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Põhivara grupp.
-4. Sisestage väärtus väljale Nimi.
-    * Põhivaragrupi suvandid Nummerda põhivarad automaatselt ja Numbriseeria kood alistavad põhivarade parameetrite sätted. Saate seda muuta siin, kui selle põhivaragrupi varadel on teistest gruppidest erinev nummerdus.  
-5. Klõpsake valikut Raamatud.
-6. Valige või sisestage väärtus väljal Raamat.
-    * Väli Kulumiarvestus on seatud valikule Jah, mistõttu kaasatakse vara raamat kulumisoovitustesse. Kui väli Kulumiarvestus on seatud valikule Ei, ei amortiseerita vara automaatselt.  
-7. Seadistage vara kasutusiga aastates.
-    * Pange tähele, et välja Kulumiperioodid väärtus arvutatakse pärast kasutusea seadistamist.  
-8. Valige suvand väljalt Kulumiarvestusreegel.
+1. Avage navigeerimispaanil **Moodulid > Põhivarad > Seadistus > Põhivara rühmad**.
+2. Valige suvand **Uus**.
+3. Sisestage väärtus väljale **Põhivara rühm**.
+4. Sisestage väärtus väljale **Nimi**. Põhivarade ja numbrijada koodi automaatnummerdamine rühmas **Põhivara** kirjutab üle põhivara parameetrite sätted. Saate seda muuta siin, kui selle põhivaragrupi varadel on teistest gruppidest erinev nummerdus.  
+5. Valige **Materjalid**.
+6. Sisestage või valige väärtus väljale **Raamat**. Väli **Kuluarvestus** on seadistatud olekusse **Jah**, et vara materjal oleks kaasatud kulumi pakkumistesse. Kui **Kuluarvestus** on seadistatud olekusse **Ei**, ei aegu vara automaatselt.  
+7. Seadistage vara kasutusiga aastates. Pange tähele, et välja **Kuluperioodid** väärtust arvutatakse pärast teenindusaja seadistamist.  
+8. Valige suvand väljal **Kulukonventsioon**.
 9. Sulgege leht.
 

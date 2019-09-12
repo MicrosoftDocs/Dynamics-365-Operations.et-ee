@@ -1,9 +1,9 @@
 ---
 title: Ostutellimuse loomine
-description: Selles protseduuris selgitatakse, kuidas luua ostutellimus käsitsi.
+description: Selles teemas näidatakse teile, kuidas luua ostutellimust käsitsi.
 author: FrankDahl
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,63 +16,61 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3ad846ba14b05f8e7d34aff2e3a256cc9b3b56c1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 3c54f7a9800bb0fcfb23f0c6c4d16f48bee8c28d
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838114"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867121"
 ---
 # <a name="create-a-purchase-order"></a>Ostutellimuse loomine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Selles protseduuris selgitatakse, kuidas luua ostutellimus käsitsi. Koondplaneerimise, otsetarne ja muude protsesside tulemusena luuakse ostutellimused tavaliselt automaatselt. Ostutellimused loob tavaliselt ostuagent. Siin esitatud näidet saab kasutada demoandmete ettevõttes USMF, kasutades väärtusi, mida on soovitatud erinevate etappide märkustes.
+Selles teemas näidatakse teile, kuidas luua ostutellimust käsitsi. Koondplaneerimise, otsetarne ja muude protsesside tulemusena luuakse ostutellimused tavaliselt automaatselt. Ostutellimused loob tavaliselt ostuagent. Siin esitatud näidet saab kasutada demoandmete ettevõttes USMF, kasutades väärtusi, mida on soovitatud erinevate etappide märkustes.
 
 
 ## <a name="create-the-purchase-order-header"></a>Ostutellimuse päise loomine
-1. Avage Hanked > Ostutellimused > Kõik ostutellimused.
-2. Klõpsake valikut Uus.
-3. Valige hankija konto US-101.
-    * Kui valite hankija, kopeeritakse hankijakirje üksikasjad, nagu aadress, arvekonto, tarnetingimused ja -viis vaikeväärtustena tellimuse päisesse. Saate neid väärtusi alati muuta.  
-4. Laiendage jaotis Üldine.
-    * Väli Tegevuskoht koos väljaga Ladu määrab, kuhu peab tarnitud kaubad või teenused tarnima. Vaikimisi kohaletoimetamise aadress on tegevuskoht. Mõlemad väljad saab täita valitud hankijale seadistatud väärtustega või määrata need käsitsi.  
-    * Välja Tarnekuupäev kasutatakse selleks, et määrata, millal sisse ostetud kaubad ja teenused tarnida tuleb. Saate määrata ühe tarnekuupäeva tellimuse kohta või anda üksikutele tellimuse ridadele ainulaadsed tarnekuupäevad. Kui siin määratud tarnekuupäeva ei saa teatud toodete või teenuste puhul kasutada, sest neil on pikemad täitmisajad, siis need read luuakse vastavalt sellele hilisema tarnekuupäevaga.  
-5. Ahendage jaotist Üldine.
-6. Laiendage jaotist Administreerimine.
-    * Välja Tellija abil saab määrata, kes tellimuse esitab. Seda võib olla mugav hankijaga ühiskasutada, kui tal on vaja selle inimesega ühendust võtta. Väljale võidakse määrata väärtus automaatselt, kui praegune kasutajakonto on seostatud nimega lehel Kasutajad.  
-7. Ahendage jaotist Administreerimine.
-8. Klõpsake nuppu OK.
-    * Tellimuse päis on nüüd loodud. Kui töötate ostutellimuse ridadega, kuvatakse ainult päise teabe kokkuvõte. Kui peate vaatama ülejäänud teavet, klõpsake päist.  
+1. Minge **navigeerimispaanile > Moodulid > Hange ja hankimine > Ostutellimused > Kõik ostutellimused**.
+2. Valige suvand **Uus**.
+3. Valige hankija konto **US-101**. Kui valite hankija, kopeeritakse hankijakirje üksikasjad, nagu aadress, arvekonto, tarnetingimused ja -viis vaikeväärtustena tellimuse päisesse. Saate neid väärtusi alati muuta.  
+4. Laiendage jaotist **Üldine**.
+
+    - Väli **Sait** koos väljaga **Ladu** täpsustab, kuhu hangitud kaubad ja teenused peab tarnima. Vaikimisi kohaletoimetamise aadress on tegevuskoht. Mõlemad väljad saab täita valitud hankijale seadistatud väärtustega või määrata need käsitsi.  
+    - Välja **Tarnekuupäev** kasutatakse, et täpsustada millal hangitud kaubad ja teenused peavad olema tarnitud. Saate määrata ühe tarnekuupäeva tellimuse kohta või anda üksikutele tellimuse ridadele ainulaadsed tarnekuupäevad. Kui siin määratud tarnekuupäeva ei saa teatud toodete või teenuste puhul kasutada, sest neil on pikemad täitmisajad, siis need read luuakse vastavalt sellele hilisema tarnekuupäevaga.  
+
+5. Laiendage jaotist **Haldus**. Välja **Tellija** saab kasutada selleks, et täpsustada, kes on tellimuse teinud. Seda võib olla mugav hankijaga ühiskasutada, kui tal on vaja selle inimesega ühendust võtta. Väljale võidakse määrata väärtus automaatselt, kui praegune kasutajakonto on seotud nimega lehel **Kasutajad**.  
+6. Valige nupp **OK**. Tellimuse päis on nüüd loodud. Kui töötate ostutellimuse ridadega, kuvatakse ainult päise teabe kokkuvõte. Kui teil on vaja kuvada ülejäänud teavet, valige **Päis**.  
 
 ## <a name="add-a-purchase-order-line"></a>Ostutellimuse rea lisamine
-1. Klõpsake suvandit Ostutellimuse rida.
-2. Klõpsake valikut Dimensioonid.
-    * Toodetel võivad olla variandid, mis on eristatavad dimensioonidega, nagu värv, suurus või stiil. Tooteid saab seadistada ka nii, et need kasutavad laoala dimensioone, nagu tegevuskoht ja ladu. On olemas ka valikulised jälgimisdimensioonid, nagu partii- ja seerianumber. Tellimuse sisestamise tõhususe parandamiseks saate lisada sagedamini kasutatavad dimensiooniväljad otse tellimuse ruudustikku.  
-3. Valige märkeruut Värv.
-    * Valikuline: kui valite välja Salvesta seadistus, kuvatakse järgmisel ostutellimuse lehe avamisel tellimuse rea ruudustikus ka valitud dimensioone.  
-4. Klõpsake nuppu OK.
-5. Tehke väljal Kaubakood valik T0004.
-    * Tellimuse read luuakse toodetele ja teenustele, määrates kaubakoodi, või nagu kulud, määrates hankekategooria.  
-    * Välja Hankekategooria kasutatakse ridade lisamiseks juhul, kui hangitud kaubad kantakse kuludesse otse, mitte ei saadeta varudesse. See tähendab, et kui peate ostu kuludesse kandma, saate seda teha, luues ostutellimuse rea, mis määrab hankekategooria, mitte ei loo kaubakoodiga rida. Kaupu saab ka hankekategooriaga seostada ja sellisel juhul kuvatakse hankekategooria ainult informatiivse teabena.  
-6. Sisestage või valige väärtus väljal Värv.
-    * Väljad Tegevuskoht ja Ladu täidetakse tavaliselt tellimuse päisest pärit väärtustega, kuid on võimalik väljad alistada, kui mõned read tuleb tarnida erinevatesse asukohtadesse.  
-7. Sisestage arv väljale Kogus.
-    * Valige kogus, mida soovite osta. Koguse väli täidetakse automaatselt toote minimaalse tellimise kogusega, kui see on seadistatud, või väärtusega 1.  
-    * Väli Ühik näitab tellitud koguse mõõtühikut. Tavaliselt tuleb ühik automaatselt tooteetaloni andmete ostuühikust, kuid saate seda muuta.  
-    * Väli Ühiku hind sisaldab tavaliselt väärtust kas ostulepingust või kaubandusleppest. Ühiku hinda on võimalik üksikute tellimuse ridade puhul muuta, näiteks siis, kui hankijaga lepitakse kokku ainulaadne hind.  
-    * Allahindluse väli tähistab allahindluse summat ühiku kohta. See allahindlus vähendab seega ühiku hinda allahindluse võrra. See allahindlus tuleb tavaliselt automaatselt ostulepingutest või kaubanduslepetest, kuid seda on võimalik üksikutel ridadel tühistada, kui ainulaadsed allahindlused on hankijaga kokku lepitud.  
-    * Saab sisestada allahindluse protsendi, mis vähendab rea netosummat vastavalt. See allahindluse protsent tuleb tihti automaatselt ostulepingutest või kaubanduslepetest, kuid seda on võimalik üksikutel ridadel tühistada, kui ainulaadne allahindluse protsent on hankijaga kokku lepitud.  
-    * Välja Netosumma väärtus arvutatakse rea teistest väljadest, sh kogus, ühiku hind, allahindlus ja allahindluse protsent. Netosummat on võimalik muuta, kuid siis jäävad väljad Ühiku hind, Allahindlus ja Allahindluse protsent tühjaks ning kui sisestate rea poole, siis on sisestatud summa neotosummaga proportsionaalne. Tavaliselt kasutatakse välja Netosumma ainult rea netosumma kuvamiseks.  
-8. Laiendage jaotis Rea üksikasjad.
-9. Klõpsake vahekaarti Tarne.
-    * Igale tellimuse reale saab määrata kordumatu tarnekuupäeva. Kuupäev on päritud ostutellimuse päise väljalt, kuid saate seda muuta.  
-10. Ahendage jaotist Rea üksikasjad.
+1. Valige rida **Ostutellimus**.
+2. Valige **Dimensioonid**. Toodetel võivad olla variandid, mis on eristatavad dimensioonidega, nagu värv, suurus või stiil. Tooteid saab seadistada ka nii, et need kasutavad laoala dimensioone, nagu tegevuskoht ja ladu. On olemas ka valikulised jälgimisdimensioonid, nagu partii- ja seerianumber. Tellimuse sisestamise tõhususe parandamiseks saate lisada sagedamini kasutatavad dimensiooniväljad otse tellimuse ruudustikku.  
+3. Märkige märkeruut **Värv**. Valikuline: kui valite välja **Salvesta seadistus**, kuvatakse teie valitud dimensioonid tellimusrea ruudustikus järgmine kord kui avate ostutellimuse lehe.  
+4. Valige nupp **OK**.
+5. Valige väljal **Kaubakood** väärtus **T0004**.
+
+    - Tellimuse read luuakse toodetele ja teenustele, määrates kaubakoodi, või nagu kulud, määrates hankekategooria. 
+    - Kategooriavälja **Hange** kasutatakse ridade lisamiseks, kui hangitud kaubad kantakse otse kuludesse, mitte ei lähe varudesse. See tähendab, et kui peate ostu kuludesse kandma, saate seda teha, luues ostutellimuse rea, mis määrab hankekategooria, mitte ei loo kaubakoodiga rida. Kaupu saab ka hankekategooriaga seostada ja sellisel juhul kuvatakse hankekategooria ainult informatiivse teabena.  
+
+6. Väljale **Värv** sisestage või valige väärtus. Väljad **Sait** ja **Ladu** on tavaliselt täidetud väärtustega tellimuse päisest, kuid välju on võimalik tühistada, kui on ridu teistesse asukohtadesse viia.  
+7. Sisestage arv väljale **Kogus**.
+
+    - Valige kogus, mida soovite osta. Väli **Kogus** on automaatselt täidetud minimaalse toote tellimuse kogusega, kui see on seadistatud või väärtusega 1.  
+    - Väli **Ühik** näitab tellitud koguse mõõtühikut. Tavaliselt tuleb ühik automaatselt tooteetaloni andmete ostuühikust, kuid saate seda muuta.  
+    - Väli **Ühiku hind** sisaldab tavaliselt väärtust kas ostulepingust või kaubandusleppest. Ühiku hinda on võimalik üksikute tellimuse ridade puhul muuta, näiteks siis, kui hankijaga lepitakse kokku ainulaadne hind.  
+    - Väli **Allahindlus** väljendab allahindluse summat ühiku kohta. See allahindlus vähendab seega ühiku hinda allahindluse võrra. See allahindlus tuleb tavaliselt automaatselt ostulepingutest või kaubanduslepetest, kuid seda on võimalik üksikutel ridadel tühistada, kui ainulaadsed allahindlused on hankijaga kokku lepitud.  
+    - Saab sisestada allahindluse protsendi, mis vähendab rea netosummat vastavalt. See allahindluse protsent tuleb tihti automaatselt ostulepingutest või kaubanduslepetest, kuid seda on võimalik üksikutel ridadel tühistada, kui ainulaadne allahindluse protsent on hankijaga kokku lepitud.  
+    - Väärtus väljal **Netosumma** on arvutatud rea teiste väljade põhjal, sealhulgas kogus, ühiku hind, allahindlus ja allahindluse protsent. Netosummat on võimalik muuta, kuid väljad **Ühiku hind**, **Allahindlus** ja **Allahindluse protsent** jäävad tühjaks ja kui sisestate rea suunas, on sisestatud summa proportsionaalne netosummaga. Tavaliselt kasutatakse välja **Netosumma** ainult rea netosumma kuvamiseks.  
+
+8. Laiendage jaotist **Rea üksikasjad**.
+9. Valige vahekaart **Tarne**. Igale reale määratakse unikaalne tarnekuupäev. Kuupäev on päritud ostutellimuse päise väljalt, kuid saate seda muuta.  
 
 ## <a name="review-order-totals"></a>Tellimuse kogusummade ülevaatamine
-1. Klõpsake valikut Kogusummad.
-    * Kui te ei näe toimingut Kogusummad, klõpsake tegevusribal vahekaarti Ostutellimus.  
-    * See dialoogiboks kuvab kogu tellimuse kogusummad.  
-    * Väli Valik võimaldab muuta kogusummade arvutamise alust. Näiteks saate teha valiku, et väli Toote sissetuleku kogus kuvab kogusummad, mis on seotud vastu võetud toote/toodete summaga, või et välu Tellitud kogus kuvab tellitud toote summa.  
-2. Klõpsake nuppu OK.
+1. Valige **Kogusummad**.
+
+    - Kui te ei näe toimingut **Kogusummad**, valige toiminguribal vahekaart **Ostutellimus**.  
+    - See dialoogiboks kuvab kogu tellimuse kogusummad.  
+    - Väli **Valik** lubab teil muuta kogusummade arvutamise alust. Näiteks saate valida **Toote sissetuleku kogus**, et näidata kogusummasid, mis on seotud saadu toote/toodete summaga või **Tellitud kogus**, et näidata tellitud toodete hulka.  
+
+2. Valige nupp **OK**.
 

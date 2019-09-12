@@ -1,9 +1,9 @@
 ---
 title: Sisestatud käibemaksukannete kuvamine
-description: Saate sisestatud käibemaksukandeid vaadata eri lehtedelt, olenevalt sellest, mida teil on vaja vaadata.
+description: See teema kirjeldab mõningaid sisestatud käibemaksu kannete vaatamise viise.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,36 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5668c1cd4325f557d83a2291c8139f65c4d170e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
+ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846195"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870864"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Sisestatud käibemaksukannete kuvamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Saate sisestatud käibemaksukandeid vaadata eri lehtedelt, olenevalt sellest, mida teil on vaja vaadata. See ülesanne kasutab demoettevõtte USMF andmeid.
+See teema kirjeldab mõningaid sisestatud käibemaksu kannete vaatamise viise. Saate sisestatud käibemaksukandeid vaadata eri lehtedelt, olenevalt sellest, mida teil on vaja vaadata. See ülesanne kasutab demoettevõtte USMF andmeid.
 
-1. Avage Maks > Päringud ja aruanded > Käibemaksupäringud > Sisestatud käibemaks.
-2. Klõpsake suvandit Näita filtreid.
+# <a name="posted-sales-tax-page"></a>Sisestatud käibemaksu leht
+
+1. Minge navigeerimispaneelis **Moodulid > Maks > Päringud ja aruanded > Käibemaksu päringud > Sisestatud käibemaks**.
+2. Valige **Kuva filtrid**, et kitsendada vaadet kindlatele kannetele.
 3. Sulgege leht.
-4. Avage Maks > Kaudsed maksud > Käibemaks > Käibemaksu tasakaalustusperioodid.
-5. Laiendage jaotist Perioodivahemikud.
-6. Valige vahemik, millest olete huvitatud.
-7. Kuvage sisestatud käibemaksukanded valitud tasakaalustusperioodi vahemiku puhul.
-8. Saate sisestatud käibemaksukannete loendit täiendavalt filtrida.
-9. Sulgege leht.
-10. Avage Maks > Kaudsed maksud > Käibemaks > Käibemaksukoodid.
-11. Klõpsake toimingupaanil suvandit Käibemaksukood.
-12. Klõpsake suvandit Sisestatud käibemaks.
+
+# <a name="sales-tax-settlement-periods-page"></a>Käibemaksu tasakaalustusperioodide leht
+
+1. Minge navigeerimispaneelis **Moodulid > Maks > Kaudsed maksud > Käibemaks > Käibemaksu tasakaalustusperioodid**.
+2. Laiendage jaotist **Perioodivahemikud**.
+3. Valige vahemik, millest olete huvitatud.
+4. Saate sisestatud käibemaksukannete loendit täiendavalt filtrida.
+5. Sulgege leht.
+
+# <a name="sales-tax-codes-page"></a>Käibemaksukoodide leht
+
+1. Avage navigeerimispaneelil **Moodulid > Maks > Kaudsed maksud > Käibemaks > Käibemaksukoodid**.
+2. Klõpsake toimingupaneelil suvandit **Käibemaksukood**.
+3. Valige **Sisestatud käibemaks**.
 

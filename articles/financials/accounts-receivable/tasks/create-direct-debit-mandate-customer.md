@@ -3,7 +3,7 @@ title: Kliendi jaoks otsekorralduse loa loomine
 description: See ülesande juhend näitab, kuidas luua otsekorralduse luba ja seda arvel kasutada.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c93a1aba6ca32e783a6ed6f005c72aab3e06978
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5ca5ff2290df2179004ca1cebd11f67fbb7a724e
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1842997"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916363"
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>Kliendi jaoks otsekorralduse loa loomine
 
@@ -31,62 +31,62 @@ See ülesande juhend näitab, kuidas luua otsekorralduse luba ja seda arvel kasu
 
 
 ## <a name="create-a-bank-account"></a>Pangakonto loomine
-1. Avage Müügireskontro > Kliendid > Kõik kliendid.
-2. Näiteks valige US-001
-3. Klõpsake toimingupaanil suvandit Klient.
-4. Klõpsake valikut Pangakontod.
-5. Klõpsake valikut Uus.
-6. Sisestage väärtus väljale Pangakonto.
-7. Sisestage väärtus väljale Nimi.
-8. Sisestage väärtus väljale IBAN.
-9. Sisestage väärtus väljale Valuuta.
-10. Klõpsake nuppu Salvesta.
+1. **Navigeerimispaan**il avage **Moodulid > Müügireskontro > Kliendid > Kõik kliendid**.
+2. Valige loendis kirje. Näiteks valige US-001
+3. Toimingupaanil klõpsake **Klient**.
+4. Klõpsake **Pangakontod**.
+5. Klõpsake valikut **Uus**.
+6. Sisestage väärtus väljale **Pangakonto**.
+7. Sisestage väärtus väljale **Nimi**.
+8. Sisestage väärtus väljale **IBAN**.
+9. Sisestage väärtus väljale **Valuuta**.
+10. Klõpsake valikut **Salvesta**.
 11. Sulgege leht.
-12. Avage Sularaha- ja pangahaldus > Pangakontod > Pangakontod.
+12. Paanil **Navigeerimispaan** avage **Moodulid > Sularaha- ja pangahaldus > Pangakontod > Pangakontod**.
 13. Otsige loendist ja valige soovitud kirje.
 14. Klõpsake loendis valitud real olevat linki.
-15. Klõpsake nuppu Redigeeri.
-16. Laiendage jaotist Täiendav identifitseerimine.
-17. Tippige väärtus väljale Otsekorralduse ID.
-18. Sisestage väärtus väljale IBAN.
+15. Klõpsake valikut **Redigeeri**.
+16. Laiendage kiirkaart **Täiendav identifitseerimine**.
+17. Väljale **Otsedeebeti ID** sisestage väärtus.
+18. Sisestage väärtus väljale **IBAN**.
 19. Sulgege leht.
 20. Sulgege leht.
 
 ## <a name="define-the-electronic-payment-method"></a>Elektroonilise makseviisi määratlemine
-1. Avage Müügireskontro > Maksete seadistus > Makseviisid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Makseviis.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Makse tüübiks peab otsekorralduse loa makseviisi puhul olema elektrooniline makse.
-6. Valige väljal Nõua luba suvand Jah.
+1. Paanil **Navigeerimispaan** avage **Moodulid > Müügireskontro > Maksete seadistamine > Makseviisid**.
+2. Klõpsake valikut **Uus**.
+3. Väljale **Makseviis** sisestage väärtus.
+4. Sisestage väärtus väljale **Kirjeldus**.
+5. Väljale **Maksetüüp** sisestage "Elektrooniline makse". Makse tüübiks peab otsekorralduse loa makseviisi puhul olema elektrooniline makse.
+6. Valige väärtus "Jah" väljal **Nõua luba**.
 7. Sulgege leht.
 
 ## <a name="add-a-direct-debit-mandate-to-a-customer"></a>Kliendile otsekorralduse loa lisamine.
-1. Avage Müügireskontro > Kliendid > Kõik kliendid.
-2. Näiteks valige US-001
-3. Klõpsake nuppu Redigeeri.
-4. Laiendage jaotist Makse vaikeandmed.
-5. Valige või sisestage väärtus väljal Makseviis.
-6. Laiendage jaotist Makse vaikeandmed.
-7. Laiendage jaotist Otsekorralduse load.
-8. Klõpsake vahekaarti Lisa.
-9. Sisestage väärtus väljale Pangakonto või valige see.
-10. Sisestage väärtus väljale Kreeditori pangakonto või valige see.
-11. Sisestage maksete arv, mille loodate selle loa puhul töödelda.
-12. Klõpsake nuppu OK.
-13. Klõpsake Prindi.
-14. Klõpsake suvandit Loa aruanne.
+1. **Navigeerimispaan**il avage **Moodulid > Müügireskontro > Kliendid > Kõik kliendid**.
+2. Valige loendis kirje. Näiteks valige US-001
+3. Klõpsake valikut **Redigeeri**.
+4. Laiendage kiirkaart **Makse vaikeandmed**.
+5. Valige või sisestage väärtus väljal **Makseviis**.
+6. Laiendage kiirkaart **Makse vaikeandmed**.
+7. Laiendage kiirkaart **Otsedeebeti load**.
+8. Klõpsake käsku **Lisa**.
+9. Sisestage või valige väärtus väljal **Pangakonto**.
+10. Väljale **Kreeditori pangakonto** sisestage või valige väärtus.
+11. Väljale **Makse sagedus** sisestage maksete arv, mida selle loa täitmiseks eeldate.
+12. Klõpsake valikut **OK**.
+13. Klõpsake **Prindi**.
+14. Klõpsake **Loa aruanne**.
 15. Sulgege leht.
-16. Klõpsake nuppu Redigeeri.
-17. Sisestage kuupäev väljale Allkirjastamise kuupäev.
-18. Klõpsake nuppu Jah.
+16. Klõpsake valikut **Redigeeri**.
+17. Väljale **Allkirjastamise kuupäev** sisestage kuupäev.
+18. Klõpsake nuppu **Jah**.
 19. Sisestage asukoht, kus luba allkirjastati.
-20. Klõpsake nuppu OK.
+20. Klõpsake valikut **OK**.
 21. Sulgege leht.
 
 ## <a name="create-a-free-text-invoice-with-mandate"></a>Vabas vormis arve loomine loaga
-1. Avage Müügireskontro > Arved > Kõik vabas vormis arved.
-2. Klõpsake valikut Uus.
+1. Paanil **Navigeerimispaan** avage **Moodulid > Müügireskontro > Arved > Kõik vaba tekstiga arved**.
+2. Klõpsake valikut **Uus**.
 3. Valige klient, kellele loa lisasite.
-4. Sisestage või valige väärtus väljal Otsekorralduse luba.
+4. Väljale **Otsedeebeti loa ID** sisestage või valige väärtus.
 

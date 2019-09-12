@@ -3,7 +3,7 @@ title: Kliendimaksete deponeerimine
 description: Hoiustage kliendimaksed.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: afbf74d1cf3dc87e97dda0873115b5c7fa49ca3d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 595d1b609ae83af8f1581caeff9ef7d3892a6207
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834459"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867770"
 ---
 # <a name="deposit-customer-payments"></a>Kliendimaksete deponeerimine
 
@@ -29,29 +29,22 @@ ms.locfileid: "1834459"
 
 Hoiustage kliendimaksed. See ülesanne kasutab demoettevõtte USMF andmeid.
 
-1. Avage Müügireskontro > Maksed > Makse tööleht.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.
-4. Valige makse tööleht. 
-5. Klõpsake valikut Read.
-6. Valige väljalt Konto klient, kelle puhul makse registreerite.
-7. Sisestage makse summa väljale Kreedit.
-    * Saate valida summa tühjaks jätmise ja lasta selle süsteemil arvutada, valides makstud arved.  
-8. Sisestage väärtus väljale Makse viide.
-    * Makse viiteks võib olla sisestatava makse tšeki number. Makse viide on vajalik makse kaasamiseks deposiitkviitungile.  
-9. Märkige ruut Kasuta deposiitkviitungit.
-    * Kui makse tuleks deposiiti kaasata, muutke sätte väärtuseks Jah.  
-10. Klõpsake valikut Uus.
-11. Valige järgmise makse klient väljalt Konto.
-12. Sisestage maksesumma väljale Kreedit.
-13. Sisestage väärtus väljale Makse viide.
-14. Märkige ruut Kasuta deposiitkviitungit.
-15. Klõpsake valikut Sisesta.
-    * Maksed tuleb sisestada enne deposiitkviitungi loomist. See tagab, et maksed pärast deposiitkviitungi loomist ei muutuks.  
-16. Klõpsake suvandit Funktsioonid.
-17. Klõpsake suvandit Deposiitkviitung.
-18. Klõpsake nuppu OK.
-    * Esimest lehte kasutatakse deposiitkviitungi loomiseks.  
-19. Klõpsake nuppu OK.
-    * Teise etapina tuleb deposiitkviitung printida, kuid see etapp pole nõutav.  
+1. Avage **Navigeerimispaan > Moodulid > Müügireskontro > Maksed > Maksete töölehed**.
+2. Valige suvand **Uus**.
+3. Väljal **Nimi** valige rippmenüüst **CustPay**.
+4. Valige **Read**.
+5. Väljal **Konto** valige klient, kelle jaoks registreerite makset.
+6. Väljale **Kreedit** sisestage maksesumma. Saate valida summa tühjaks jätmise ja lasta selle süsteemil arvutada, valides makstud arved.  
+7. Väljale **Makse viide** sisestage väärtus. Makse viiteks võib olla sisestatava makse tšeki number. Makse viide on vajalik makse kaasamiseks deposiitkviitungile.  
+8. Märkige ruut Kasuta deposiitkviitungit. Kui makse tuleks deposiiti kaasata, muutke sätte väärtuseks Jah.  
+9. Valige suvand **Uus**.
+10. Väljal **Konto** valige klient järgmise makse jaoks.
+11. Väljale **Kreedit** sisestage maksesumma.
+12. Väljale **Makse viide** sisestage väärtus.
+13. Märkige ruut **Kasuta deposiitkviitungit**.
+14. Valige **Sisesta**. Maksed tuleb sisestada enne deposiitkviitungi loomist. See tagab, et maksed pärast deposiitkviitungi loomist ei muutuks.  
+15. Valige **Funktsioonid**.
+16. Valige **Deposiitkviitung**.
+17. Valige nupp **OK**. Esimest lehte kasutatakse deposiitkviitungi loomiseks.  
+18. Valige nupp **OK**. Teise etapina tuleb deposiitkviitung printida, kuid see etapp pole nõutav.  
 

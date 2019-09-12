@@ -1,9 +1,9 @@
 ---
-title: Eesti
+title: Eesti ülevaade
 description: Selles teemas antakse ülevaade Eestile kohastest funktsioonidest.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/08/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.region: Estonia
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2998900a4e29bdce687829482535a64a0041bbd5
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: cf6d01b1ef608f271af5d5336d0a103944e85e20
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1852497"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865688"
 ---
-# <a name="estonia"></a>Eesti
+# <a name="estonia-overview"></a>Eesti ülevaade
 
 [!include[banner](../includes/banner.md)]
 

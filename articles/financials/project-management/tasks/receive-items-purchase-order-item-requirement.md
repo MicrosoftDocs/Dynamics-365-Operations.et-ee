@@ -1,9 +1,9 @@
 ---
 title: Ostutellimusel olevate kaupade kaubavajadusest vastuvõtmine
-description: See protseduur näitab, kuidas ostutellimusel olevaid kaupu kaubavajadusest vastu võtta.
+description: Selles teemas selgitatakse, kuidas ostutellimusel olevaid kaupu kaubavajadusest vastu võtta.
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,45 +16,43 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fee2c965b0c065f00564b849ec93504336fb3f60
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7afdae65c5ae7e3196c6b9f142dd87aec39b5ea3
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838243"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867291"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Ostutellimusel olevate kaupade kaubavajadusest vastuvõtmine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas ostutellimusel olevaid kaupu kaubavajadusest vastu võtta.
+Selles teemas selgitatakse, kuidas ostutellimusel olevaid kaupu kaubavajadusest vastu võtta.
 
 Kasutades kaubakannete asemel kaubavajadusi, saate planeerida tarne just selleks ajaks, mil kaupa tegelikult kasutatakse, luua ostutellimuse, kaasata kauba kaubandusleppe raamistikku ja kaasata kaubavajaduse tootmisplaanidesse. 
 
 Ülesandes kasutatakse USSI andmekomplekti.
 
-1. Avage Projektihaldus ja -arvestus > Projektid > Kõik projektid.
-2. Klõpsake loendis valitud real olevat linki.
-3. Klõpsake toimingupaanil valikut Plaan.
-4. Klõpsake nuppu Kaubavajadused.
-5. Klõpsake valikut Uus.
-6. Märkige loendis valitud rida.
-7. Sisestage või valige väärtus väljal Kaubakood.
-8. Sisestage arv väljale Kogus.
-9. Klõpsake nuppu Salvesta.
-10. Klõpsake tegumiribal valikut Haldamine.
-11. Klõpsake suvandit Funktsioonid.
-12. Klõpsake nuppu Loo ostutellimus.
-13. Märkige ruut Kaasata.
-14. Sisestage väärtus väljale Hankija konto või valige see.
-15. Klõpsake nuppu OK.
-16. Avage Ostureskontro > Ostutellimused > Kõik ostutellimused.
-17. Klõpsake loendis valitud real olevat linki.
-18. Klõpsake toimingupaanil valikut Ost.
-19. Klõpsake käsku Kinnita.
-20. Klõpsake toimingupaanil valikut Vastuvõtt.
-21. Klõpsake valikut Toote sissetulek.
-22. Märkige loendis valitud rida.
-23. Sisestage väärtus väljale Toote sissetulek.
-24. Klõpsake nuppu OK.
+1. Navigeerimispaanil avage **Moodulid > Projektihaldus ja raamatupidamine > Projektid > Kõik projektid**.
+2. Valige loendis link soovitud reas.
+3. Valige toimingupaanil nupp **Plaan**.
+4. Valige **Kaubavajadused**.
+5. Valige suvand **Uus**.
+6. Uuel real sisestage või valige väärtus väljale **Kaubakood**.
+7. Sisestage arv väljale **Kogus**.
+8. Valige käsk **Salvesta**.
+9. Valige toimingupaanil **Haldus**.
+10. Valige **Funktsioonid**.
+11. Valige käsk **Loo ostutellimus**.
+12. Valige märkeruut **Kaasa kõik**.
+13. Sisestage või valige väärtus väljale **Hankija konto**.
+14. Valige nupp **OK**.
+15. Avage navigeerimispaanil **Moodulid > Ostureskontro > Ostutellimused > Kõik ostutellimused**.
+16. Valige loendis link soovitud reas.
+17. Valige toimingupaanil **Ostmine**.
+18. Valige **Kinnita**.
+19. Valige toimingupaanil **Vastuvõtmine**.
+20. Valige **Toote sissetulek**.
+21. Sisestage väärtus väljale **Toote sissetulek**.
+22. Valige nupp **OK**.
 

@@ -1,47 +1,44 @@
 ---
 title: Põhikonto kategooriate seadistamine
-description: Põhikonto kategooriaid kasutatakse vaikearuanneteks finantsaruandluses ja Power BI-s.
+description: Selles teemas selgitatakse, kuidas seadistada põhikonto kategooriaid rakenduses Dynamics 365 for Finance and Operations.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccountCategory, MainAccountCategoryLink
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e33df434b6a4361872bad10250fe3547d7c4affa
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4d37deb0bda225abb111375d8a00ae22d9e0c4fe
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834802"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916064"
 ---
 # <a name="set-up-main-account-categories"></a>Põhikonto kategooriate seadistamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Põhikonto kategooriaid kasutatakse vaikearuanneteks finantsaruandluses ja Power BI-s. Vaikimisi loodud põhikonto kategooriaid saab ümber nimetada, kuid mitte kustutada. Luua saab täiendavaid kontokategooriaid ning kasutada neid aruandluseks ja analüüsiks. See ülesanne kasutab demoettevõtte USMF andmeid.
-
+Selles teemas selgitatakse, kuidas seadistada põhikonto kategooriaid rakenduses Dynamics 365 for Finance and Operations. Põhikonto kategooriaid kasutatakse vaikearuanneteks finantsaruandluses ja Power BI-s. Vaikimisi loodud põhikonto kategooriaid saab ümber nimetada, kuid mitte kustutada. Luua saab täiendavaid kontokategooriaid ning kasutada neid aruandluseks ja analüüsiks. Teemas kasutatakse demoettevõtet USMF.
 
 ## <a name="create-a-main-account-category"></a>Põhikonto kategooria loomine
-1. Minge jaotisse Pearaamat > Kontoplaan > Kontod > Põhikonto kategooriad.
-2. Klõpsake valikut Uus.
-3. Sisestage kordumatu nimi väljale Põhikonto kategooria.
-4. Sisestage väljale Kirjeldus põhikonto kategooria kirjeldus.
-5. Valige väljal Põhikonto tüüp kategooriaga seotav põhikonto tüüp.
+1. Avage **Navigeerimispaan > Moodulid > Pearaamat > Kontoplaan > Kontod > Põhikontode kategooriad**.
+2. Valige suvand **Uus**.
+3. **Sisestage kordumatu nimi väljale Põhikonto kategooria.**
+4. Sisestage väljale **Kirjeldus** põhikonto kategooria kirjeldus.
+5. Valige väljal **Põhikonto tüüp** kategooriaga seotav põhikonto tüüp.
 
 ## <a name="link-main-accounts-to-account-category"></a>Põhikontode linkimine kontokategooriaga
-1. Klõpsake suvandit Põhikontode linkimine.
-2. Valige loendist põhikonto, mille soovite määrata põhikonto kategooriale.
-    * Põhikontode määramine põhikontode kategooriasse koondab kontode saldod, kui seda kategooriat kasutatakse finantsaruandluseks ja analüüsiks.  
-3. Põhikontode valimiseks märkige või tühjendage suvand Lingitud.
-4. Klõpsake nuppu OK.
-5. Klõpsake nuppu Jah.
-
+1. Klõpsake suvandit **Põhikontode linkimine.**
+2. Valige loendist põhikontod, mida põhikonto kategooriale määrata, kontrollides **lingitud** veeru välju. Põhikontode määramine põhikontode kategooriasse koondab kontode saldod, kui seda kategooriat kasutatakse finantsaruandluseks ja analüüsiks.  
+3. Põhikontode valimiseks märkige või tühjendage suvand **Lingitud.**
+4. Valige nupp **OK**.
+5. Valige **Jah**.

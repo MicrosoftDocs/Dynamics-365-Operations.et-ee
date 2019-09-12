@@ -1,9 +1,9 @@
 ---
 title: Lähtedokumentide jaoks auditipoliitikate määratlemine
-description: Selles protseduuris näitlikustatakse, kuidas seadistada ja käitada auditi poliitikareegleid.
+description: Selles teemas selgitatakse, kuidas seadistada ja käivitada auditipoliitika reegleid.
 author: ryansandness
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,80 +16,75 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17b712f07a0ffe6874eb6d98b47ced96f5a54483
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a6b0fa28d778a4d9fa1f718b1d50bf1dce00be00
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846483"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914816"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Lähtedokumentide jaoks auditipoliitikate määratlemine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Selles protseduuris näitlikustatakse, kuidas seadistada ja käitada auditi poliitikareegleid. Näites kasutatakse hotelli kulu tüübiga kuluaruandeid. See protsess kasutab demoettevõtte USMF-i andmeid. Audiitori roll sisaldab nende ülesannete teostamiseks vajalikke õigusi.
+Selles teemas selgitatakse, kuidas seadistada ja käivitada auditipoliitika reegleid. Näites kasutatakse hotelli kulu tüübiga kuluaruandeid. See protsess kasutab demoettevõtte USMF-i andmeid. Audiitori roll sisaldab nende ülesannete teostamiseks vajalikke õigusi.
 
-1. Minge jaotisse Auditi töölaud > Seadistus > Poliitika reegli tüüp.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Reegli nimi.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Valige Kuluaruande rida väljal Päringu nimi
-6. Valige Koonda väljal Päringu tüüp.
-7. Valige Juriidiline isik väljal Juriidiline isik.
-8. Valige Muudetud kuupäev ja kellaaeg väljal Dokumendi kuupäeva viide
-9. Klõpsake nuppu Salvesta.
-10. Minge jaotisse Auditi töölaud > Seadistus > Auditipoliitikad.
-11. Klõpsake valikut Uus.
-12. Sisestage väärtus väljale Nimi.
-13. Laiendage jaotist Poliitika organisatsioonid.
-14. Valige puul Contoso Entertainment System USA.
-15. Klõpsake vahekaarti Lisa.
-16. Valige puul Contoso Consulting USA.
-17. Klõpsake vahekaarti Lisa.
-18. Valige puul Contoso Retail USA.
-19. Klõpsake vahekaarti Lisa.
-20. Ahendage jaotist Poliitika organisatsioonid.
-21. Laiendage jaotist Poliitika reeglid.
-22. Leidke ja valige loendist varem loodud poliitika reegel.
-23. Klõpsake valikut Loo poliitika reegel.
-24. Sisestage kuupäev ja kellaaeg väljale Jõustumiskuupäev.
-25. Klõpsake käsku Filtreeri.
-26. Valige loendist kulukategooria rida ja seadke üksikasjadeks Hotell
-27. Sisestage või valige väärtus väljal Kriteeriumid.
-28. Klõpsake vahekaarti Koondamine.
-29. Klõpsake vahekaarti Lisa.
-30. Valige loendist kandesumma väärtus
-31. Sisestage või valige väärtus väljal Väli.
-32. Valige Summa väljal AggregateFunction.
-33. Klõpsake vahekaarti Grupeerimisalus.
-34. Klõpsake vahekaarti Lisa.
-35. Valige loendist väärtus Töötaja  
-36. Klõpsake vahekaarti Lisa.
-37. Valige loendist väärtus Kulukategooria
-38. Sisestage või valige väärtus väljal Väli.
-39. Klõpsake vahekaarti Saamine.
-40. Klõpsake vahekaarti Lisa.
-41. Valige Kandesumma
-42. Sisestage või valige väärtus väljal Väli.
-43. Valige Summa väljal AggregateFunction.
-44. Sisestage väljale Kriteeriumid väärtus >2000.
-45. Klõpsake nuppu OK.
-46. Klõpsake nuppu Test.
-47. Sisestage kuupäev ja kellaaeg väljale Dokumendivaliku alguskuupäev.
-48. Sisestage kuupäev ja kellaaeg väljale Dokumendivaliku lõpukuupäev.
-49. Klõpsake käsku Käivita test.
-50. Klõpsake toimingupaanil valikut Auditipoliitika.
-51. Klõpsa valikut Lisasuvandid.
-52. Sisestage kuupäev ja kellaaeg väljale Alguskuupäev.
-53. Sisestage kuupäev ja kellaaeg väljale Lõpukuupäev.
-54. Klõpsake valikut Partii.
-55. Laiendage jaotist Käivita taustal.
-56. Valige suvand Jah väljal Pakktöötlus.
-57. Klõpsake nuppu OK.
-58. Minge jaotisse Auditi töölaud > Auditijuhtumid.
-59. Otsige loendist ja valige soovitud kirje.
-60. Klõpsake loendis valitud real olevat linki.
-61. Laiendage jaotist Seosed.
-62. Otsige loendist ja valige soovitud kirje.
-63. Klõpsake loendis valitud real olevat linki.
+1. Navigeerimispaanil avage **Moodulid > Auditi töölaud > Seadistus > Poliitika reegli tüüp**.
+2. Valige suvand **Uus**.
+3. Sisestage väärtus väljale **Reegli nimi**.
+4. Sisestage väärtus väljale **Kirjeldus**.
+5. Väljal **Päringu nimi** valige **Kuluaruande rida**.
+6. Väljal **Päringu tüüp** valige **Liitväärtus**.
+7. Väljal **Juriidiline isik** valige **Juriidiline isik**.
+8. Väljal **Dokumendi kuupäeva viide** valige **Muutmise kuupäev ja kellaaeg**
+9. Valige käsk **Salvesta**.
+10. Navigeerimispaanil avage **Moodulid > Auditi töölaud > Seadistus > Auditipoliitika**.
+11. Valige suvand **Uus**.
+12. Sisestage väärtus väljale **Nimi**.
+13. Laiendage jaotist **Poliitika organisatsioonid**.
+14. Puus valige **Contoso Meelelahutussüsteem USA**, seejärel valige **Lisa**.
+15. Puus valige **Contoso Nõustamine USA**, seejärel valige **Lisa**.
+16. Puus valige **Contoso Jaemüük USA**, seejärel valige **Lisa**.
+17. Ahendage jaotist **Poliitika organisatsioonid**.
+18. Laiendage jaotist **Poliitika reeglid**.
+19. Leidke ja valige loendist varem loodud poliitika reegel.
+20. Valige **Poliitika reegli loomine**.
+21. Sisestage kuupäev ja kellaaeg väljale **Jõustumiskuupäev**.
+22. Valige **Filter**.
+23. Loendist valige rida **Kulukategooria** ja seadke üksikasjad valikule **Hotell**.
+24. Sisestage või valige väärtus väljal **Kriteeriumid**.
+25. Valige vahekaart **Liitväärtus**.
+26. Valige **Lisa**.
+27. Loendist valige välja väärtus **Kandesumma**.
+28. Väljale **Väli** sisestage või valige väärtus.
+29. Väljal **Liitväärtuse funktsioon** valige **Summa**.
+30. Valige vahekaart **Grupeerimisalus**.
+31. Valige **Lisa**.
+32. Loendist valige välja väärtus **Töötaja**.
+33. Valige **Lisa**.
+34. Loendist valige välja väärtus **Kulukategooria**.
+35. Väljale **Väli** sisestage või valige väärtus.
+36. Valige vahekaart **Saamine**.
+37. Valige **Lisa**.
+38. Valige **Kandesumma**.
+39. Väljale **Väli** sisestage või valige väärtus.
+40. Väljal **Liitväärtuse funktsioon** valige **Summa**.
+41. Väljale **Kriteerium** sisestage `>2000`.
+42. Valige nupp **OK**.
+43. Valige **Test**.
+44. Väljale **Dokumendi valimise alguskuupäev** sisestage kuupäev ja kellaaeg.
+45. Väljale **Dokumendi valimise lõppkuupäev** sisestage kuupäev ja kellaaeg.
+46. Valige **Käivita test**.
+47. Toimingupaanil valige **Auditipoliitika**.
+48. Valige **Lisasuvandid**.
+49. Väljale **Alguskuupäev** sisestage kuupäev ja kellaaeg.
+50. Väljale **Lõppkuupäev** sisestage kuupäev ja kellaaeg.
+51. Valige **Partii**.
+52. Laiendage jaotist **Käivita taustal**.
+53. Valige väärtus **Jah** väljal **Pakett-töötlus**.
+54. Valige nupp **OK**.
+55. Navigeerimispaanil avage **Moodulid > Auditi töölaud > Auditi juhtumid**.
+56. Otsige loendist ja valige soovitud kirje.
+57. Laiendage jaotist **Seosed**.
+58. Otsige loendist ja valige soovitud kirje.
 

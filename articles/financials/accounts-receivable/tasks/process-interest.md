@@ -3,7 +3,7 @@ title: Intressi töötlemine
 description: See protseduur kirjeldab viivisearvete loomist, printimist ja sisestamist.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fba25c900461fbbf4db0cd3b93847d258704ab4e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7170a7a14237058064ed3091e9437cae312e6bd5
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1842877"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916272"
 ---
 # <a name="process-interest"></a>Intressi töötlemine
 
@@ -31,40 +31,40 @@ See protseduur kirjeldab viivisearvete loomist, printimist ja sisestamist. See �
 
 
 ## <a name="set-up-interest-on-the-posting-profile"></a>Viivise seadistamine sisestusreeglis
-1. Avage Krediit ja sissenõuded > Seadistus > Kliendi sisestusreeglid.
-2. Klõpsake nuppu Redigeeri.
-    * Valige ripploendist viivise kood. Kui te ei soovi, et viivist arvutataks kannete puhul selle sisestusreegliga, jätke väli tühjaks.  
-    * Piirangu vahekaardil Tabel saate muuta seda, kuidas viivist töödeldakse. Kui väli on seatud olekusse Jah, arvutatakse viivist selle sisestusreegli puhul.  
+1. **Navigeerimispaanis** minge **Moodulid > Krediit ja sissenõuded > Seadistus > Kliendi postitusprofiil**.
+2. Klõpsake valikut **Redigeeri**.
+3. Valige **Seadistus fastTab** moodulis **intressi koodi** väljal ripploendist intressi kood. Kui te ei soovi, et viivist arvutataks kannete puhul selle sisestusreegliga, jätke väli tühjaks. **Tabeli piirangu** fastTab abil saate muuta viisi, kuidas intressi töödeldakse. Kui väli on seatud olekusse Jah, arvutatakse viivist selle sisestusreegli puhul.  
 
 ## <a name="calculate-interest"></a>Arvuta intress
-1. Avage Krediit ja sissenõuded > Intress > Viivisearvete loomine.
-    * Valige kandetüübid, mille puhul viivist arvutatakse. Kõik seda tüüpi avatud kanded kaasatakse kalkulatsiooni.  
-    * Viivise valimisel arvutate viivisearve viivise. Võite soovida enne nende kannete kaasamist kontrollida viivisearve viivise arvutamise seadusi.  
-    * Viivist arvutatakse alates sellest kuupäevast kuni sihtkuupäevani. Kui te alguskuupäeva ei täpsusta, tühistatakse kõik sisestamata viivisearved ja viivis arvutatakse kande alguskuupäevast alates ümber.  
-2. Sisestage viivisearve kuupäev.
-    * Saadaval on kolm sisestusreeglit: Konto – kasutage iga viivisearve puhul kliendi kontole määratud sisestusreeglit.   Vali – kasutage sisestusreeglit, mille valite väljal Sisestusreegel.   Kanne – kasutage eraldi sisestusprofiile kannetest, milles arvutatakse viivis iga viivisearve jaoks. Kanded, millele ei ole sisestusprofiili määratud, kasutavad sisestusprofiili, mis on määratletud vormi Müügireskontro parameetrid alal Pearaamat ja käibemaks.  
-    * Valige sisestusreegel siin, kui määrasite suvandi Kasuta sisestusreegleid olekusse Vali.  
-3. Laiendage või ahendage jaotist Kaasatavad kirjed.
-4. Klõpsake käsku Filtreeri.
-5. Sisestage kliendi ID väljale Kriteeriumid. Näiteks sisestage US-001.
-6. Klõpsake nuppu OK.
-7. Klõpsake nuppu OK.
+1. **Navigeerimispaanis** minge **Moodulid > Krediit ja sissenõuded > Intress > Viivisearve loomine**.
+2. Valige kandetüübid, mille puhul viivist arvutatakse. Kõik seda tüüpi avatud kanded kaasatakse kalkulatsiooni.  
+3. Kui te seadistate **Intress** kui "Jah" arvutate viivisearve viivise. Võite soovida enne nende kannete kaasamist kontrollida viivisearve viivise arvutamise seadusi.  
+4. Sisestage väljale **Alates** kuupäev, millest alates intressi arvutatakse. Kui te ei täpsusta kuupäeva **Alates**, tühistatakse kõik sisestamata viivisearved ja viivis arvutatakse kande alguskuupäevast alates ümber.
+5. Sisestage väljale **Kuupäevani** kuupäev, milleni intressi arvutatakse.
+6. Tehke väljal **Kasuta postitusprofiili** valik. Sisestusreegli jaoks kolm võimalust:
+    - Konto – kasutab iga viivisearve kohta kliendi kontole määratud sisestusreeglit. 
+    - Vali – kasutage sisestusreeglit, mille valite väljal Sisestusreegel.
+    - Kanne – kasutage eraldi sisestusprofiile kannetest, milles arvutatakse viivis iga viivisearve jaoks. Kanded, millele ei ole sisestusprofiili määratud, kasutavad sisestusprofiili, mis on määratletud vormi Müügireskontro parameetrid alal Pearaamat ja käibemaks.  
+7. Jaotise kaasamiseks laiendage fastTab valikut **Kirjed kaasamiseks**.
+8. Klõpsake käsku **Filtreeri**.
+9. Sisestage kliendi ID väljale **Kriteeriumid**. Sisestage näiteks US-001.
+6. Klõpsake valikut **OK**.
+7. Klõpsake valikut **OK**.
 
 ## <a name="print-interest-notes"></a>Viivisearvete printimine
-1. Avage Krediit ja sissenõuded > Intress > Viivisearvete ülevaade ja töötlus.
-2. Valige väljal Olek suvand Loodud.
-3. Valige väljal Prinditud suvand Printimata.
-4. Klõpsake Prindi.
-5. Laiendage või ahendage jaotist Kaasatavad kirjed.
-6. Klõpsake nuppu OK.
+1. **Navigeerimispaanis** minge **Moodulid > Krediit ja sissenõuded > Intress > Viivisearve ülevaade ja töötlemine**.
+2. Valige väljal **Olek** suvand "Loodud".
+3. Valige väljal **Prinditud** suvand "Printimata".
+4. Klõpsake **Prindi**.
+5. Jaotise kaasamiseks laiendage fastTab valikut **Kirjed kaasamiseks**.
+6. Klõpsake valikut **OK**.
 7. Sulgege leht.
 
 ## <a name="post-the-interest-note"></a>Viivisearve sisestamine
 1. Valige viivisearve, mis on sisestamiseks valmis (olek on loodud).
-2. Klõpsake valikut Sisesta.
-3. Sisestage viivisearve sisestamise kuupäev.
-    * Iga viivisearve kohta pearaamatukande loomiseks valige suvand Jah.     Valiku Jah mittemärkimisel summeeritakse kliendi kõigi viivisearvete viivised ja sisestatakse pearaamatusse ühe kandega.  
-4. Laiendage või ahendage jaotist Kaasatavad kirjed.
-5. Klõpsake nuppu OK.
-6. Valige väljal Olek suvand Sisestatud.
+2. Klõpsake käsku **Sisesta**.
+3. Sisestage viivisearve sisestamise kuupäev. Iga viivisearve kohta pearaamatukande loomiseks valige suvand Jah. Valiku Jah mittemärkimisel summeeritakse kliendi kõigi viivisearvete viivised ja sisestatakse pearaamatusse ühe kandega.  
+4. Jaotise kaasamiseks laiendage fastTab valikut **Kirjed kaasamiseks**.
+5. Klõpsake valikut **OK**.
+6. Valige väljal **Olek** suvand "Sisestatud".
 

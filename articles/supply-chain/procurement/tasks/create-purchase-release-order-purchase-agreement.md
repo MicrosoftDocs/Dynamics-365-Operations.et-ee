@@ -3,7 +3,7 @@ title: Ostu väljalaskeorderi loomine ostulepingu põhjal
 description: See protseduur selgitab, kuidas kasutada ostulepingut ostutellimuse loomisel.
 author: mkirknel
 manager: AnnBe
-ms.date: 12/04/2015
+ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c45db4ac01be831c0c75f888d313d61d934fc33f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: da161c9066c822f8c09e5eda90994e8b03af4681
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547572"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916853"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Ostu väljalaskeorderi loomine ostulepingu põhjal
 
@@ -30,37 +30,32 @@ See protseduur selgitab, kuidas kasutada ostulepingut ostutellimuse loomisel. Os
 
 
 ## <a name="create-a-purchase-order"></a>Ostutellimuse loomine
-1. Avage ostutellimuse ettevalmistamise tööruum.
-2. Klõpsake suvandit Uus ostutellimus.
-3. Klõpsake väljal Hankija konto otsingu avamiseks ripploendi nuppu.
+1. Paanil **Navigeerimispaan** avage **Tööruumid > Ostutellimuse ettevalmistus**. 
+2. Klõpsake **Uus ostutellimus**.
+3. Klõpsake väljal **Hankija konto** otsingu avamiseks ripploendi nuppu.
 4. Otsige loendist ja valige soovitud kirje.
 5. Klõpsake loendis valitud real olevat linki.
-6. Lülitage jaotise Üldine laiendamist.
-7. Klõpsake väljal Ostuleping otsingu avamiseks ripploendi nuppu.
-    * Siin loetletakse kõik hankija puhul saadaolevad lepped. Leidke kehtiv lepe, mida soovite kasutada.  
+6. Suurendage vahekaarti **Üldine**.
+7. Väljal **Ostuleping** klõpsake rippmenüü nuppu, et avada otsing. Siin loetletakse kõik hankija puhul saadaolevad lepped. Leidke kehtiv lepe, mida soovite kasutada.  
 8. Klõpsake loendis valitud real olevat linki.
-9. Klõpsake nuppu Jah.
-10. Klõpsake nuppu OK.
+9. Klõpsake nuppu **Jah**.
+10. Klõpsake valikut **OK**.
 
 ## <a name="add-a-line"></a>Rea lisamine
-1. Sisestage väärtus väljale Kaubakood.
-    * Kui kohustusel on kindlad varud või asukoha dimensioonid, peate leppe kasutamiseks sisestama sama väärtuse ostutellimuse reale.  
-2. Klõpsake väljal Koht otsingu avamiseks ripploendi nuppu.
-    * Tegevuskoht võib olla juba täidetud vaikeväärtusega tellimuselt või hankijalt. Sellisel juhul jätke see etapp vahele.  
+1. Sisestage väärtus väljale **Kaubakood**. Kui kohustusel on kindlad varud või asukoha dimensioonid, peate leppe kasutamiseks sisestama sama väärtuse ostutellimuse reale.  
+2. Klõpsake väljal **Sait** otsingu avamiseks ripploendi nuppu. Tegevuskoht võib olla juba täidetud vaikeväärtusega tellimuselt või hankijalt. Sellisel juhul jätke see etapp vahele.  
 3. Otsige loendist ja valige soovitud kirje.
 4. Klõpsake loendis valitud real olevat linki.
-5. Sisestage arv väljale Kogus.
-    * Kontrollige, kas hind on kohustusest kopeeritud.  
+5. Sisestage arv väljale **Kogus**. Kontrollige, kas hind on kohustusest kopeeritud.  
 
 ## <a name="look-up-the-commitment"></a>Kohustuse otsimine
-1. Klõpsake käsku Värskenda rida.
-2. Klõpsake valikut Seotud.
-    * Siin saate hankida ostulepingu üksikasjad. Näiteks saate vaadata hinda ning seda, kas hind ja allahindlus on fikseeritud, mis tähendab, et kui muudate ostutellimusel hinna või allahindluse muutmisel muule väärtusele kui on kohustusel, eemaldab süsteem lingi, nii et ostutellimuse rida ei täida kohustust. Näete ka seda, kas suvand Maksimaalne on jõustatud on valitud, mis tähendab, et kohustusel olevat kogust ei saa ületada, summeerides kõik kohustust täitvad ostud.  
+1. Klõpsake nuppu **Värskenda rida**.
+2. Klõpsake nuppu **Manustatud**. Siin saate hankida ostulepingu üksikasjad. Näiteks saate vaadata hinda ning seda, kas hind ja allahindlus on fikseeritud, mis tähendab, et kui muudate ostutellimusel hinna või allahindluse muutmisel muule väärtusele kui on kohustusel, eemaldab süsteem lingi, nii et ostutellimuse rida ei täida kohustust. Näete ka seda, kas suvand Maksimaalne on jõustatud on valitud, mis tähendab, et kohustusel olevat kogust ei saa ületada, summeerides kõik kohustust täitvad ostud.  
 3. Sulgege leht.
 
 ## <a name="look-up-the-purchase-agreement"></a>Ostulepingu otsimine
-1. Klõpsake toimingupaanil valikut Üldine.
-2. Klõpsake suvandit Ostuleping.
+1. Paanil **Toimingupaan** klõpsake **Üldine**.
+2. Klõpsake **Ostutellimus**.
 3. Sulgege leht.
 4. Sulgege leht.
 

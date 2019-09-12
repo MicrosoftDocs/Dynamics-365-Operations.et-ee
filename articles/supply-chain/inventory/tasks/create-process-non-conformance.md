@@ -1,9 +1,9 @@
 ---
 title: Vastavuse loomine ja töötlemine
-description: Kasutage seda protseduuri mittevastavuse haldamiseks olemasoleva kvaliteettellimuse põhjal.
+description: Selles teemas tutvustatakse, kuidas teha mittevastavuse haldust olemasoleva kvaliteettellimuse põhjal.
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/07/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,65 +16,54 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16ed11bce92920fe8240fc85f706a2ac6ab0a04b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e9cf42f80ef7a4c9c5f68a308386db5835c8f2e
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572807"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916641"
 ---
 # <a name="create-and-process-a-conformance"></a>Vastavuse loomine ja töötlemine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Kasutage seda protseduuri mittevastavuse haldamiseks olemasoleva kvaliteettellimuse põhjal. Saate käivitada selle salvestise demoettevõttes USMF ja kasutada soovitatud väärtusi. Tavaliselt teostab selle protseduuri kvaliteediametnik.  Eeltingimusena käivitage ülesandesalvestis „Kaupade kvaliteedi kontrollimine”. Mittevastavuse kinnitamise töötlemiseks peab ülesandesalvestist käitavale kasutajale olema lehel Kasutajad määratud väärtus Nimi. Dokumendi märkuste kasutamiseks peab kasutajal olema kasutajasuvandites aktiveeritud ka suvand Dokumenditöötlus.
+Selles teemas tutvustatakse, kuidas teha mittevastavuse haldust olemasoleva kvaliteettellimuse põhjal. Saate käivitada selle salvestise demoettevõttes USMF ja kasutada soovitatud väärtusi. Tavaliselt teostab selle protseduuri kvaliteediametnik.  Eeltingimusena täitke juhised jaotises [Kontrollige kaupade kvaliteeti](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md). Mittevastavuse kinnitamise töötlemiseks peab ülesandesalvestist käitavale kasutajale olema lehel Kasutajad määratud väärtus Nimi. Dokumendi märkuste kasutamiseks peab kasutajal olema kasutajasuvandites aktiveeritud ka suvand Dokumenditöötlus.
 
 
 ## <a name="select-a-quality-order"></a>Kvaliteettellimuse valimine
-1. Minge jaotisse Kvaliteettellimused.
-2. Märkige loendis valitud rida.
-    * Valige kvaliteettellimus, mis loodi ülesandesalvestises „Kaupade kvaliteedi kontrollimine”.  
+1. Navigeerimispaanil avage **Moodulid > Varud > Perioodilised ülesanded > Kvaliteethaldus > Kvaliteettellimus**.
+2. Valige loendist kvaliteettellimus, mis loodi jaotises [Kontrolli kaupade kvaliteeti](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).  
 
 ## <a name="create-a-nonconformance"></a>Mittevastavuse loomine
-1. Klõpsake suvandit Päringud.
-2. Klõpsake suvandit Mittevastavused.
-3. Klõpsake valikut Uus.
-4. Klõpsake väljal Probleemi tüüp otsingu avamiseks ripploendi nuppu.
-    * Valige kontrolliprotsessi käigus leitud probleem.  
-5. Klõpsake väljal Probleemi tüüp otsingu avamiseks ripploendi nuppu.
-6. Otsige loendist ja valige soovitud kirje.
-7. Klõpsake loendis valitud real olevat linki.
-8. Klõpsake nuppu OK.
+1. Toimingupaanil valige **Päringud**.
+2. Valige **Mittevastavused**.
+3. Valige suvand **Uus**.
+4. Rippmenüü väljal **Probleemi tüüp** valige probleem, mis leiti kontrollimise protsessi käigus.  
+5. Valige nupp **OK**.
 
 ## <a name="approvereject-a-nonconformance"></a>Mittevastavuse kinnitamine/tagasilükkamine
-1. Klõpsake suvandit Funktsioonid.
-2. Klõpsake suvandit Kinnita mittevastavus.
-    * Selles näites kinnitage mittevastavus. Kinnitatud mittevastavused saab seostada töö salvestamisega seotud toimingutega, mida tehakse osana mittevastavuse töötlemisest, ja (nagu selles ülesandesalvestises) paranduse käsitlemise töötlemisega.  
-3. Klõpsake nuppu Jah.
+1. Valige **Funktsioonid**.
+2. Valige **Kinnita mittevastavus**. Selles näites kinnitage mittevastavus. Kinnitatud mittevastavusi saab seostada seotud toimingutega, et salvestada töö, mis on tehtud osana mittevastavusi käsitlemisest ja nagu selles teemas, paranduste käsitlemise töötlemisel.  
+3. Valige **Jah**.
 
 ## <a name="create-a-correction-action"></a>Parandustegevuse loomine
-1. Klõpsake suvandit Parandused.
-2. Klõpsake valikut Uus.
-3. Märkige loendis valitud rida.
-4. Klõpsake väljal Personalinumber otsingu avamiseks ripploendi nuppu.
-5. Klõpsake loendis valitud real olevat linki.
-6. Klõpsake Vali.
-7. Klõpsake suvandit Manusta.
-    * Looge paranduse kohta märkus. Selles näites on tegevuseks hankijaga ühenduse võtmine, et arutleda mittevastavuse juhtumit.  
-8. Klõpsake valikut Uus.
-9. Klõpsake suvandit Märkus.
-    * Pange tähele, et olenevalt aruande seadistusest saab mittevastavuse haldusega seotud aruannetele printida erinevat tüüpi dokumente.  
-10. Sisestage väljale Kirjeldus soovitud väärtus.
-11. Sulgege leht.
+1. Valige **Parandused**.
+2. Valige suvand **Uus**.
+3. Uue rea väljal **Personalinumber** valige rippmenüüst soovitud kirje.
+4. Klõpsake **Vali**.
+5. Valige **Manusta**. Looge paranduse kohta märkus. Selles näites on tegevuseks hankijaga ühenduse võtmine, et arutleda mittevastavuse juhtumit.  
+6. Valige suvand **Uus**.
+7. Valige **Märge**. Sõltuvalt aruande seadistusest saab eri dokumendi tüüpe printida aruannetele, mis on seotud mittevastavuse haldusega.  
+8. Sisestage väärtus väljale **Kirjeldus**.
+9. Sulgege leht.
 
 ## <a name="maintain-a-correction"></a>Paranduse haldamine
-1. Klõpsake suvandit Märgi lõpuleviiduks.
-2. Klõpsake nuppu OK.
+1. Valige **Märgi lõpuleviiduks**.
+2. Valige nupp **OK**.
 3. Sulgege leht.
 
 ## <a name="close-a-nonconformance"></a>Mittevastavuse sulgemine
-1. Klõpsake suvandit Funktsioonid.
-2. Klõpsake suvandit Sule mittevastavus.
-3. Klõpsake nuppu Jah.
-4. Sulgege leht.
-5. Sulgege leht.
+1. Valige **Funktsioonid**.
+2. Valige **Sulge mittevastavus**.
+3. Valige **Jah**.
+4. Sulgege lehed.

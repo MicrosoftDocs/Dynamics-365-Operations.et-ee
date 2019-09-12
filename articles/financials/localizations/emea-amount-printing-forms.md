@@ -1,9 +1,9 @@
 ---
 title: Aruannetel ja dokumentidel summade kuvamisviisi värskendamine
 description: Selles teemas antakse teavet aruannetel ja muudel dokumentidel summade kuvamisviisi värskendamiseks Eesti, Leedu, Poola, Tšehhi Vabariigi, Ungaris ja Venemaa puhul.
-author: ShylaThompson
+author: anasyash
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2c19023a5b1edf75b7b355adccb3c00bd19c01c0
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 29d9369aaeef8cb62d4dd8f9eb8fcc171a28ca6a
+ms.sourcegitcommit: 109a6ef2d20758dc4a25c51b11e22dd2214a1cc4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1852138"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "1886654"
 ---
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Aruannetel ja dokumentidel summade kuvamisviisi värskendamine
 
@@ -37,8 +37,8 @@ Valuutaühikute ja allühikute täielike ning lühinimede seadistamiseks valitud
 
 1. Avage leht **Valuutad**.
 2. Valige valuuta.
-3. Klõpsake toimingupaanil valikut **Käänamine**.
-4. Keele jaoks täieliku ja lühinime lisamiseks klõpsake valikut **Uus** ja täitke järgmised väljad.
+3. Toimingupaanil valige nupp **Käänamine**.
+4. Keele täis- ja lühinime lisamiseks valige valik **Uus** ja sisestage teave järgmistesse väljadesse.
 
    |                                                                        |                                                                                                                                                                                                                                                                        |
    |------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -51,10 +51,7 @@ Valuutaühikute ja allühikute täielike ning lühinimede seadistamiseks valitud
    |    <strong>Ühikute lühinimi (Lühinime väljagrupp)</strong>    |                                                                                         Sisestage valuutat tuvastav ISO-kood. Näiteks littide tuvastamiseks sisestage LTL.                                                                                         |
    |   <strong>Ühikute lühinimi (Lühinime väljagrupp)</strong>    |                                                                                               Sisestage valuuta allühiku üldnimetus. Näiteks sisestage Centas.                                                                                               |
    |       <strong>Sidesõna „ja” ühikute ja allühikute vahel</strong>       |                                     Märkige ruut , et printida ühikute ja allühikute vahel sidesõna „ja”. Näiteks kuvatakse summa LTL 100,20 arvetel või aruannetes kui „100 Litas and 20 Centas”.                                      |
+   |       <strong>Sugu</strong>       |  Valige **Mehelik**, **Naiselik** või **Kesksoost**. See näitaja võib mõjutada summa käänet, mida näidatakse kassaorderi kohalikus keeles. Näiteks, kui määrate EUR valuuta **sooks** **Kesksugu**, siis summa 1,01 EUR on tšehhikeelsel kassaorderil, kui *Edno euro 01 cent*.  |
 
-
-5. Klõpsake käsku **Salvesta**.
-
-
-
+5. Valige käsk **Salvesta**.
 

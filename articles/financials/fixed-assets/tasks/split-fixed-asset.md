@@ -1,9 +1,9 @@
 ---
 title: Põhivara tükeldamine
-description: See ülesande juhend tükeldab ühe vara raamatu protsendi uude vara raamatusse.
+description: See teema selgitab, kuidas tükeldada ühe vararaamatu protsenti uude vararaamatusse.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,46 +16,47 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8e5fdc8a7b326daca1fc0f0962c69bb8fb1ff64
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a4e001a6fdf390c6211ba85aa327b60dcdf16d9e
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839709"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867579"
 ---
 # <a name="split-a-fixed-asset"></a>Põhivara tükeldamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-See ülesande juhend tükeldab ühe vara raamatu protsendi uude vara raamatusse.  See kasutab raamatupidaja rolli ja USMF-i demoandmeid.
+See teema selgitab, kuidas tükeldada ühe vararaamatu protsenti uude vararaamatusse. See kasutab raamatupidaja rolli ja USMF-i demoandmeid.
 
 
 ## <a name="create-a-new-fixed-asset"></a>Uue põhivara loomine
-1. Minge jaotisse Põhivarad > Põhivarad > Põhivarad.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Põhivara grupp või valige sellelt väljalt.
-4. Märkige põhivara kood hilisemaks tükeldamisprotsessis kasutamiseks üles.
-5. Sisestage väärtus väljale Nimi.
-6. Sulgege vorm.
+1. Navigeerimispaanil avage **Moodulid > Põhivarad > Põhivarad > Põhivarad**.
+2. Valige suvand **Uus**.
+3. Väljale **Põhivara grupp** sisestage või valige väärtus. Märkige põhivara kood hilisemaks tükeldamisprotsessis kasutamiseks üles.  
+4. Sisestage väärtus väljale **Nimi**.
+5. Sulgege vorm.
 
 ## <a name="split-a-fixed-asset"></a>Põhivara tükeldamine
-1. Leidke loendist tükeldatav põhivara ja valige see.
-2. Klõpsake loendis valitud real olevat linki.
-3. Klõpsake valikut Raamatud.
-    * Valige uuele varale tükeldatav raamat.  
-4. Klõpsake suvandit Funktsioonid.
-5. Klõpsake suvandit Tükelda põhivara.
-6. Sisestage väärtus väljale Põhivarasse või valige sellelt väljalt.
-7. Klõpsake väljal Raamatusse otsingu avamiseks ripploendi nuppu.
-8. Sisestage kuupäev väljale Kande kuupäev.
-9. Sisestage number väljale Protsent.
-10. Valige või sisestage väärtus väljal Töölehe nimi.
-11. Klõpsake nuppu OK.
+1. Leidke loendist tükeldatav põhivara ja valige selle link.
+2. Valige **Raamatud**. Valige uuele varale tükeldatav raamat.  
+3. Valige **Funktsioonid**.
+4. Valige **Tükelda põhivara**.
+5. Sisestage väärtus väljale **Põhivarasse** või valige sellelt väljalt.
+6. Klõpsake väljal **Raamatusse** otsingu avamiseks ripploendi nuppu.
+7. Sisestage kuupäev väljale **Kande kuupäev**.
+8. Sisestage number väljale **Protsent**.
+9. Valige või sisestage väärtus väljal **Töölehe nimi**.
+10. Valige nupp **OK**.
 
 ## <a name="post-the-journal-transaction"></a>Töölehekande sisestamine
-1. Avage Põhivarad > Töölehe sisestused > Põhivarade tööleht.
+1. Avage navigeerimispaneelil **Moodulid > Põhivarad > Töölehe kanded > Põhivarade tööleht**.
 2. Valige loendist tükeldamise protsessis loodud tööleht.
-3. Klõpsake valikut Read.
-    * Kontrollige loodud töölehe ridu.  Soetamise korrigeerimiskanne luuakse algse vara puhul väärtuse vähendamiseks tükeldamisprotsessis määratud protsendi võrra.  Soetamiskanne luuakse uue vara puhul samas summas.  
-4. Klõpsake valikut Sisesta.
+3. Valige **Read**.
+
+    - Kontrollige loodud töölehe ridu.  
+    - Soetamise korrigeerimiskanne luuakse algse vara puhul väärtuse vähendamiseks tükeldamisprotsessis määratud protsendi võrra.  
+    - Soetamiskanne luuakse uue vara puhul samas summas.  
+
+4. Valige **Sisesta**.
 

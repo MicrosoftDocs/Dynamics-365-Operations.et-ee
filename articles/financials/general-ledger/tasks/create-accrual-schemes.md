@@ -1,9 +1,9 @@
 ---
 title: Viitvõlaskeemide loomine
-description: See ülesandejuhend kirjeldab viitvõlaskeemi loomise etappe.
+description: Selles teemas selgitatakse, kuidas luua viitvõlaskeeme.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,30 +16,28 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0ae55000a5cf1593d057d940dc3dbbf9e5cb3f3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e8f8cf8546187ae1c65d4966887e1c5842dff431
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834877"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867555"
 ---
 # <a name="create-accrual-schemes"></a>Viitvõlaskeemide loomine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-See ülesandejuhend kirjeldab viitvõlaskeemi loomise etappe. See ülesanne kasutab demoettevõtte USMF andmeid.
+Selles teemas selgitatakse, kuidas luua viitvõlaskeeme. See ülesanne kasutab demoettevõtte USMF andmeid.
 
-1. Minge jaotisse Pearaamat > Töölehe seadistus > Viitvõlaskeemid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Viitvõla ID.
-4. Sisestage väärtus väljale Viitvõlaskeemi kirjeldus.
-5. Määrake väljal Deebet soovitud väärtused.
-    * Määratletud põhikonto asendab deebeti põhikonto töölehe kandereal ja seda kasutatakse ka viitvõla tühistamiseks pearaamatu tekkepõhiste kannete põhjal.  
-6. Määrake väljal Kreedit soovitud väärtused.
-    * Määratletud põhikonto asendab kreediti põhikonto töölehe kandereal ja seda kasutatakse ka viitvõla tühistamiseks pearaamatu tekkepõhiste kannete põhjal.  
-7. Valige väljal Kanne kannete sisestamisel kande määratlemise viis.
-8. Sisestage väljale Kirjeldus sisestatavaid kandeid kirjeldav väärtus.
-9. Valige väljal Perioodi sagedus kannete soovitud toimumissagedus.
-10. Sisestage arv väljale Juhtumite arv perioodide kaupa.
-11. Valige väljal Kannete sisestamine kannete sisestamise aeg, näiteks Kord kuus.
+1. Avage **Navigeerimispaan > Moodulid > Pearaamat > Töölehe seadistus > Viitvõlaskeemid**.
+2. Valige suvand **Uus**.
+3. Väljale **Viitvõla ID** sisestage väärtus.
+4. Väljale **Viitvõlaskeemi kirjeldus** sisestage väärtus.
+5. Väljal **Deebet** täpsustage soovitud väärtust. Määratletud põhikonto asendab deebeti põhikonto töölehe kandereal ja seda kasutatakse ka viitvõla tühistamiseks pearaamatu tekkepõhiste kannete põhjal.  
+6. Väljal **Kreedit** täpsustage soovitud väärtust. Määratletud põhikonto asendab kreediti põhikonto töölehe kandereal ja seda kasutatakse ka viitvõla tühistamiseks pearaamatu tekkepõhiste kannete põhjal.  
+7. Väljal **Sooduskood** valige kuidas soovite, et sooduskood tuvastatakse kui kanded on sisestatud.
+8. Väljale **Kirjeldus** sisestage väärtus, mis kirjeldab sisestatud kandeid.
+9. Väljal **Perioodi sagedus** valige, kui sageli soovite, et kanded esineks.
+10. Väljale **Juhtumite arv perioodide kaupa** sisestage arv.
+11. Väljal **Sisesta kanded** valige, millal kandeid peaks postitama, näiteks **Iga kuu**.
 

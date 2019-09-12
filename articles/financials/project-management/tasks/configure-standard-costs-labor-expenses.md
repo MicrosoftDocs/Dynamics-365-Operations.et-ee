@@ -1,9 +1,9 @@
 ---
 title: Tööjõu ja kulude standardsete kulude konfigureerimine
-description: See protseduur näitab, kuidas saate projekti tööjõu ja kulude jaoks standardseid kulusid häälestada.
+description: Selles teemas selgitatakse, kuidas seadistada töö jaoks standardne kulu ja projekti kulutused.
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,46 +17,40 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b76956e9b1ce1a1e977aaa7c4974e73754e0d261
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 60ab8eb94d4a8a0fb2c1e732ec7b25bfd5e7611e
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845880"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867722"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Tööjõu ja kulude standardsete kulude konfigureerimine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas saate projekti tööjõu ja kulude jaoks standardseid kulusid häälestada. Ülesandes kasutatakse USSI andmekomplekti.
+Selles teemas selgitatakse, kuidas seadistada töö jaoks standardne kulu ja projekti kulutused. Ülesandes kasutatakse USSI andmekomplekti.
 
-1. Avage menüü Projektihaldus ja raamatupidamine > Häälestamine > Hinnad > Omahind (tund).
-2. Klõpsake valikut Uus.
-3. Sisestage kuupäev väljale Jõustumiskuupäev.
-4. Sisestage arv väljale Omahind.
-    * Saate teatud projektikategooria jaoks standardse omahinna häälestada või häälestada omahinna töötaja koodi, projekti numbri, kategooria, kuupäeva või mis tahes nende kombinatsiooni alusel. Rakendatakse kõrgeima üksikasjatasemega omahind.  
-5. Klõpsake nuppu Salvesta.
-6. Sulgege leht.
-7. Avage menüü Projektihaldus ja -arvestus > Häälestamine > Hinnad > Müügihind (hour).
-8. Klõpsake valikut Uus.
-9. Sisestage kuupäev väljale Jõustumiskuupäev.
-10. Valige suvand väljal Kehtiv.
-11. Väljale Hinnakujundus sisestage number.
-    * Saate häälestada standardse müügihinna tunnikannetele või projekti kategooriale. Saate häälestada ka müügihinnad töötaja koodi, projekti numbri, kategooria, kande kuupäeva või nende mis tahes kombinatsioonide alusel. Tegelik müügihind, mis rakendatakse, kui töötaja sisestab kande tunnitöölehele, on kõrgeima üksikasjatasemega müügihind. Näiteks kui nii üldine kui ka töötajapõhine müügihind on häälestatud, kasutatakse töötajapõhist müügihinda.  
-12. Klõpsake nuppu Salvesta.
-13. Sulgege leht.
-14. Avage menüü Projektihaldus ja raamatupidamine > Häälestamine > Hinnad > Omahind (kulu).
-15. Klõpsake valikut Uus.
-16. Sisestage kuupäev väljale Jõustumiskuupäev.
-17. Sisestage arv väljale Omahind.
-    * Täita saab mitut välja, kuid see on kirje salvestamiseks vajalik miinimum.  
-18. Klõpsake nuppu Salvesta.
-19. Sulgege leht.
-20. Avage menüü Projektihaldus ja raamatupidamine > Häälestamine > Hinnad > Müügihind (kulu).
-21. Klõpsake valikut Uus.
-22. Sisestage kuupäev väljale Jõustumiskuupäev.
-23. Valige suvand väljal Kehtiv.
-24. Väljale Hinnakujundus sisestage number.
-    * Tegelik müügihind, mis seotakse, kui töötaja sisestab kanded kulude töölehele, on kõrgeima üksikasjatasemega müügihind. Näiteks kui nii üldine kui ka töötajapõhine müügihind on häälestatud, kasutatakse töötajapõhist müügihinda.  
-25. Klõpsake nuppu Salvesta.
+1. Navigeerimispaanil avage **Moodulid > Projektihaldus ja raamatupidamine > Seadistus > Hinnad > Omahind (tund)**.
+2. Valige suvand **Uus**.
+3. Väljale **Jõustumiskuupäev** sisestage kuupäev.
+4. Väljale **Omahind** sisestage arv. Saate teatud projektikategooria jaoks standardse omahinna häälestada või häälestada omahinna töötaja koodi, projekti numbri, kategooria, kuupäeva või mis tahes nende kombinatsiooni alusel. Rakendatakse kõrgeima üksikasjatasemega omahind.  
+5. Valige käsk **Salvesta**.
+6. Navigeerimispaanil avage **Moodulid > Projektihaldus ja raamatupidamine > Seadistus > Hinnad > Müügihind (tund)**.
+7. Valige suvand **Uus**.
+8. Väljale **Jõustumiskuupäev** sisestage kuupäev.
+9. Väljal **Kehtib** valige sobiv variant.
+10. Väljale **Hinnakujundus** sisestage arv. Saate häälestada standardse müügihinna tunnikannetele või projekti kategooriale. Saate häälestada ka müügihinnad töötaja koodi, projekti numbri, kategooria, kande kuupäeva või nende mis tahes kombinatsioonide alusel. Tegelik müügihind, mis rakendatakse, kui töötaja sisestab kande tunnitöölehele, on kõrgeima üksikasjatasemega müügihind. Näiteks kui nii üldine kui ka töötajapõhine müügihind on häälestatud, kasutatakse töötajapõhist müügihinda.  
+11. Valige käsk **Salvesta**.
+12. Sulgege leht.
+13. Navigeerimispaanil avage **Moodulid > Projektihaldus ja raamatupidamine > Seadistus > Hinnad > Omahind (kulu)**.
+14. Valige suvand **Uus**.
+15. Väljale **Jõustumiskuupäev** sisestage kuupäev.
+16. Väljale **Omahind** sisestage arv. Täita saab mitut välja, kuid see on kirje salvestamiseks vajalik miinimum.  
+17. Valige käsk **Salvesta**.
+18. Navigeerimispaanil avage **Moodulid > Projektihaldus ja raamatupidamine > Seadistus > Hinnad > Müügihind (kulu)**.
+19. Valige suvand **Uus**.
+20. Väljale **Jõustumiskuupäev** sisestage kuupäev.
+21. Väljal **Kehtib** valige sobiv variant.
+22. Väljale **Hinnakujundus** sisestage arv. Tegelik müügihind, mis seotakse, kui töötaja sisestab kanded kulude töölehele, on kõrgeima üksikasjatasemega müügihind. Näiteks kui nii üldine kui ka töötajapõhine müügihind on häälestatud, kasutatakse töötajapõhist müügihinda.  
+23. Valige käsk **Salvesta**.
 

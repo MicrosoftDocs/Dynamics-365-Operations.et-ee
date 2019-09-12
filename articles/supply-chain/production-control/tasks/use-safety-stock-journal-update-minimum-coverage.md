@@ -3,7 +3,7 @@ title: Puhvervaru abil minimaalse laovaru uuendamine
 description: See protseduur näitab, kuidas arvutada varasemate kannete põhjal minimaalse laovaru soovitusi ja uuendada siis soovituste abil kauba laovaru.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3b2916d6d2f24579fd9795c0e0bc548b6c2b747
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 478dd85abebf76dd264e93bcbe3f218a0ff0a5a8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835771"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916802"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Puhvervaru abil minimaalse laovaru uuendamine
 
@@ -32,47 +32,37 @@ See protseduur näitab, kuidas arvutada varasemate kannete põhjal minimaalse la
 
 
 ## <a name="create-a-new-safety-stock-journal-name"></a>Uue puhvervaru töölehe nime loomine
-1. Avage Puhvervaru töölehe nimed.
-2. Klõpsake valikut Uus.
-3. Tippige väljale Nimi väärtus Materjal.
-4. Tippige väljale Kirjeldus väärtus Materjal.
+1. Avage **Navigeerimispaneelil** **Koondplaneerimine > Seadistus > Puhvervaru töölehe nimed**.
+2. Klõpsake valikut **Uus**.
+3. Tippige väljale **Nimi** väärtus Materjal.
+4. Tippige väljale **Kirjeldus** väärtus Materjal.
 5. Sulgege leht.
 
 ## <a name="create-a-safety-stock-journal"></a>Puhvervaru töölehe loomine
-1. Avage Puhvervaru arvutamine.
-2. Klõpsake valikut Uus.
-3. Sisestage või valige väärtus väljal Nimi.
-    * Valige puhvervaru töölehe nimi, mille lõite, nt Materjal.  
-4. Klõpsake suvandit Loo read.
-5. Sisestage kuupäev väljale Alguskuupäev.
-    * Määrake kuupäevaks 2015-01-02.  
-6. Sisestage kuupäev väljale Lõpukuupäev.
-    * Määrake kuupäevaks 2015-12-30.  
-7. Klõpsake nuppu OK.
-    * See loob read dimensioonidele, millel on laokanded.  
+1. Avage **Navigeerimispaneelil** **Koondplaneerimine > Koondplaneerimine > Käivita > Puhvervaru arvutus**.
+2. Klõpsake valikut **Uus**.
+3. Sisestage või valige väärtus väljal **Nimi**. Valige puhvervaru töölehe nimi, mille lõite, nt Materjal.  
+4. Klõpsake suvandit **Loo read**.
+5. Sisestage kuupäev väljale **Alates kuupäevast**.  
+6. Sisestage kuupäev väljale **Lõppkuupäev**.
+7. Klõpsake valikut **OK**. See loob read dimensioonidele, millel on laokanded.  
 
 ## <a name="calculate-proposal"></a>Arvuta soovitus
-1. Klõpsake valikut Arvuta soovitus.
-2. Tehke valik Kasuta täitmisaja jooksul keskmist väljaminekut.
-3. Määrake valiku Korrutustegur väärtuseks 10.
-    * Tegurit Korruta kasutatakse soovituse korrigeerimiseks. Kuna demoandmetel on vaid mõned kanded, tuleb realistliku soovituse saamiseks tegur määrata.  
-4. Klõpsake nuppu OK.
-    * Kerige alla M0002 ja M0003 leidmiseks. Vaadake veergu Arvutatud miinimumkogus.   
+1. Klõpsake valikut **Arvuta soovitus**.
+2. Tehke valik **Kasuta täitmisaja jooksul keskmist väljaminekut**.
+3. Määrake valiku **Korrutustegur** väärtuseks 10. Tegurit Korruta kasutatakse soovituse korrigeerimiseks. Kuna demoandmetel on vaid mõned kanded, tuleb realistliku soovituse saamiseks tegur määrata.  
+4. Klõpsake valikut **OK**. Kerige alla M0002 ja M0003 leidmiseks. Vaadake veergu **Arvutatud miinimumkogus**.   
 
 ## <a name="update-minimum-quantity"></a>Miinimumkoguse uuendamine
-1. Sisestage number väljale Uus miinimumkogus.
-    * Uuendage väärtust Uus miinimumkogus nii, et see vastaks väärtusele jaotises Arvutatud miinimumkogus. Kui Arvutatud miinimum on null, võite sisestada soovitud tulevase väärtuse. Näiteks võite sisestada sellele väljale väärtuse Arvutatud miinimumkogus M0002 kohta, millel on ladu 12.  
-2. Otsige loendist ja valige soovitud kirje.
-    * Näiteks võite valida M0002, millel on ladu 12.  
-3. Sisestage number väljale Uus miinimumkogus.
-    * Uuendage väärtust Uus miinimumkogus nii, et see vastaks väärtusele jaotises Arvutatud miinimumkogus. Kui Arvutatud miinimum on null, võite sisestada soovitud tulevase väärtuse.  
+1. Sisestage number väljale **Uus miinimumkogus**. Uuendage väärtust Uus miinimumkogus nii, et see vastaks väärtusele jaotises Arvutatud miinimumkogus. Kui Arvutatud miinimum on null, võite sisestada soovitud tulevase väärtuse. Näiteks võite sisestada sellele väljale väärtuse Arvutatud miinimumkogus M0002 kohta, millel on ladu 12.  
+2. Otsige loendist ja valige soovitud kirje. Näiteks võite valida M0002, millel on ladu 12.  
+3. Sisestage number väljale **Uus miinimumkogus**. Uuendage väärtust Uus miinimumkogus nii, et see vastaks väärtusele jaotises Arvutatud miinimumkogus. Kui Arvutatud miinimum on null, võite sisestada soovitud tulevase väärtuse.  
 
 ## <a name="post-the-new-minimum-quantity-and-validate-the-result"></a>Uue miinimumkoguse sisestamine ja tulemuse kinnitamine
-1. Klõpsake valikut Sisesta.
-2. Klõpsake nuppu OK.
-3. Klõpsake, et järgida linki väljal Kaubakood.
-4. Klõpsake, et järgida linki väljal Kaubakood.
-5. Klõpsake toimingupaanil valikut Plaan.
-6. Klõpsake valikut Kauba laovarud.
-    * Pange tähele, et miinimumkoguseks on määratud uus miinimumkogus puhvervaru töölehelt.  
+1. Klõpsake käsku **Sisesta**.
+2. Klõpsake valikut **OK**.
+3. Klõpsake, et järgida linki väljal **Kaubakood**.
+4. Klõpsake, et järgida linki väljal **Kaubakood**.
+5. Klõpsake **Toimingupaanil** valikut Plaan.
+6. Klõpsake valikut **Kauba laovarud**. Pange tähele, et väärtuseks **Miinimumkogus** on määratud uus miinimumkogus puhvervaru töölehelt.  
 

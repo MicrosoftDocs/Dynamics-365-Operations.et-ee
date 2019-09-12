@@ -1,9 +1,9 @@
 ---
 title: Müügitellimuste lähetamine ladustamiseta
-description: Selles juhendis selgitatakse, kuidas värskendada müügitellimust, kui tooted on kliendile tarnitud.
+description: Selles teemas selgitatakse, kuidas värskendada müügitellimust, kui tooted on kliendile tarnitud.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,43 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62bbd65e2d80dca5a07b761e1aa76f1894b667c1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f9e311d3e033168ed577094e94477e7fe47d185d
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843309"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914926"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Müügitellimuste lähetamine ladustamiseta
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Selles juhendis selgitatakse, kuidas värskendada müügitellimust, kui tooted on kliendile tarnitud. Juhend kehtib täitmisvoo puhul, mis pole seadistatud laohalduse jaoks (ei põhi- ega täpsema lao puhul) ega nõua seetõttu toote komplekteerimise registreerimist enne tarnimist. Saate seda protseduuri käitada oma andmete või demoettevõtte USMF andmetega. Mõlemal juhul tuleb enne selle ülesande alustamist luua müügitellimus varundatud tootele, mille kogus on suurem kui 1. Sisestamise tõrke vältimiseks peab kontrollima, et toote saadaolev kogus tellimusel valitud asukohas ja laos vastab tellitud kogusele.
-
+Selles teemas selgitatakse, kuidas värskendada müügitellimust, kui tooted on kliendile tarnitud. Juhend kehtib täitmisvoo puhul, mis pole seadistatud laohalduse jaoks (ei põhi- ega täpsema lao puhul) ega nõua seetõttu toote komplekteerimise registreerimist enne tarnimist. Saate seda protseduuri käitada oma andmete või demoettevõtte USMF andmetega. Mõlemal juhul tuleb enne selle ülesande alustamist luua müügitellimus varundatud tootele, mille kogus on suurem kui 1. Sisestamise tõrke vältimiseks peab kontrollima, et toote saadaolev kogus tellimusel valitud asukohas ja laos vastab tellitud kogusele.
 
 ## <a name="post-packing-slip-for-an-order"></a>Tellimuse saatelehe sisestamine
-1. Avage Müük ja turundus > Müügitellimused > Kõik müügitellimused.
+1. Avage navigeerimispaanil **Moodulid > Müük ja turundus > Müügitellimused > Kõik müügitellimused**.
 2. Leidke ja valige loendist selle ülesande jaoks loodud tellimus.
-3. Klõpsake loendis valitud real olevat linki.
-4. Klõpsake toimingupaanil valikut Komplekteerimine ja pakkimine.
-5. Klõpsake valikut Saatelehe sisestamine.
-6. Laiendage või ahendage jaotist Parameetrid.
-7. Valige väljal Kogus väärtus Kõik.
-    * Muud suvandiud on Tarni kohe ja Komplekteeritud. Kui tellimuserida tuleb tarnida osaliselt ja tellimuserea väli Tarni kohe sisaldab kogust, valige suvand Tarni kohe. Kui teie organisatsiooni täitmisvoog sisaldab komplekteerimist eraldi protsessina, mida hallatakse ja registreeritakse komplekteerimisloendiga, valige suvand Komplekteeritud.  
-    * Kontrollige, kas suvandi Sisestamine sätteks on valitud Jah.  
-8. Määrake suvandi Saatelehe printimine sätteks Jah.
-    * Vahekaart Ülevaade sisaldab loendit selles sisestuses loodavate saatelehtede loendit. Kui tarnite üksikut tellimust, luuakse tavaliselt üks saateleht. Kui aga selle tellimuse read tarnitakse erinevatest kohtadest, jaotatakse sisestus automaatselt vastavaks arvuks dokumentideks. See on kohustuslik tingimus, mida ei saa muuta. Samamoodi jaotatakse sisestus mitmeks dokumendiks, kui tellimuse read tuleb tarnida erinevatele tarneaadressidele ja tarnepoliitika on seadistatud jaotust nõudma.  
-9. Valige vahekaardil Read tarnitava tellimuserea jaoks rida.
-10. Sisestage väljale Värskendus algsest kogusest väiksem arv.
-11. Klõpsake nuppu OK.
-12. Klõpsake nuppu Jah.
-13. Sulgege leht.
-14. Klõpsake toimingupaanil valikut Suvandid.
-15. Klõpsake suvandit Muuda vaadet.
-16. Klõpsake suvandit Päisevaade.
-    * Kui kõik tellimuse read on täielikult tarnitud, muutub tellimuse olek väärtuselt Avatud väärtusele Tarnitud.  
-    * Selles näites on tellimuserida tarnitud osaliselt. Seetõttu jääb tellimuse olekuks Avatud.     
-    * Välja Dokumendi olek väärtuseks määratakse Saateleht, kuna vähemalt üks tellimuserida on tarnitud.  
-17. Klõpsake toimingupaanil valikut Üldine.
-18. Klõpsake suvandit Rea kogus.
-19. Sulgege leht.
-20. Klõpsake toimingupaanil valikut Komplekteerimine ja pakkimine.
-21. Klõpsake suvandit Saateleht.
-    * Leht Saatelehe tööleht sisaldab kõiki teie tellimuse jaoks loodud saatelehedokumente. Saate iga dokumendi üksikasjad soovi korral üle vaadata ja välja printida.  
+3. Klõpsake tegevuspaneelil valikut **Komplekteerimine ja pakkimine.**
+4. Vali **Sisesta saateleht**.
+5. Laiendage või ahendage jaotist **Parameetrid**.
+6. Valige väljal **Kogus** suvand **Kõik**.
+    - Muud suvandid on **Tarni kohe** ja **Komplekteeritud**. Kui tellimuserida tuleb tarnida osaliselt ja tellimuserea väli **Tarni kohe** sisaldab kogust, valige suvand **Tarni kohe**. Kui teie organisatsiooni täitmisvoog sisaldab komplekteerimist eraldi protsessina, mida hallatakse ja registreeritakse komplekteerimisloendiga, valige suvand **Komplekteeritud**.  
+    - Kontrollige, kas suvandi **Sisestamine** sätteks on valitud **Jah**.  
+7. Määrake suvandi **Saatelehe printimine** sätteks **Jah**. Vahekaart **Ülevaade** sisaldab loendit selles sisestuses loodavate saatelehtede loendit. Kui tarnite üksikut tellimust, luuakse tavaliselt üks saateleht. Kui aga selle tellimuse read tarnitakse erinevatest kohtadest, jaotatakse sisestus automaatselt vastavaks arvuks dokumentideks. See on kohustuslik tingimus, mida ei saa muuta. Samamoodi jaotatakse sisestus mitmeks dokumendiks, kui tellimuse read tuleb tarnida erinevatele tarneaadressidele ja tarnepoliitika on seadistatud jaotust nõudma.  
+8. Valige vahekaardil **Read** tarnitava tellimuserea jaoks rida.
+9. Sisestage väljale **Värskendus** algsest kogusest väiksem arv.
+10. Valige nupp **OK**.
+11. Valige **Jah**.
+12. Sulgege leht.
+13. Toimingupaanil valige **Suvandid**.
+14. Valige **Muuda vaadet**.
+15. Valige **Päise vaade**.
+    - Kui kõik tellimuse read on täielikult tarnitud, muutub tellimuse olek väärtuselt Avatud väärtusele Tarnitud.  
+    - Selles näites on tellimuserida tarnitud osaliselt. Seetõttu jääb tellimuse olekuks Avatud.     
+    - Välja **Dokumendi olek** väärtuseks määratakse Saateleht, kuna vähemalt üks tellimuserida on tarnitud.  
+16. Valige toimingupaanil **Üldine**.
+17. Valige **Rea kogus**.
+18. Sulgege leht.
+19. Klõpsake tegevuspaneelil valikut **Komplekteerimine ja pakkimine.**
+20. Vali **Saateleht**. Leht **Saatelehe tööleht** sisaldab kõiki teie tellimuse jaoks loodud saatelehedokumente. Saate iga dokumendi üksikasjad soovi korral üle vaadata ja välja printida.  
 

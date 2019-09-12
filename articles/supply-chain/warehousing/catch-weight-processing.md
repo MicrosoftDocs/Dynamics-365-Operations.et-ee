@@ -3,7 +3,7 @@ title: Tegeliku kaalu toote protsess laohalduse abil
 description: Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldusi määramaks, kuidas ja kus laos tööd tehakse.
 author: perlynne
 manager: AnnBe
-ms.date: 03/18/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ed588ea28bec3e734f9648c1fbd7551ab0b3cdda
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836104"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887131"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Tegeliku kaalu toote protsess laohalduse abil
 
@@ -136,7 +136,6 @@ Kõik töövood ei toeta tegeliku kaalu toote protsessi laohalduse abil. Praegu 
 
 - Tegeliku kaalu toodete puhul ei toetata karantiinitellimuste käsitsi loomist.
 - Tegeliku kaalu toodete puhul ei toetata tööga seotud varude käsitsi liigutamist.
-- Tegeliku kaalu toodete puhul ei toetata litsentsiplaatide konsolideerimist.
 - Tegeliku kaalu toodete puhul ei toetata litsentsiplaadi laadimist laoseisu lähtestamiseks.
 - Tegeliku kaalu toodete puhul ei toetata partii tasakaalustamise protsesse.
 - Tegeliku kaalu toodete puhul ei toetata negatiivsete füüsiliste varude käsitlemist.
@@ -147,7 +146,6 @@ Kõik töövood ei toeta tegeliku kaalu toote protsessi laohalduse abil. Praegu 
 - Tegeliku kaalu toodete puhul ei toetata funktsiooni klastri komplekteerimisel.
 - Tegeliku kaalu toodete puhul ei toetata lao komplekteerimis- ja pakkimisprotsesse.
 - Tegeliku kaalu toodete puhul saab töömallis määratletud tööd automaatselt käitada.
-- Tegeliku kaalu toodete puhul ei toetata töö tagasivõtmise funktsiooni.
 - Tegeliku kaalu toodete puhul ei toetata käsitsi pakkimisjaama protsessi, kus töö luuakse pärast konteinerite sulgemist.
 - Tegeliku kaalu toodete puhul ei toetata tükikaupa skannimise funktsiooni.
  

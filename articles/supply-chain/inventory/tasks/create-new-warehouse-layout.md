@@ -1,9 +1,9 @@
 ---
 title: Uue laopaigutuse loomine
-description: Selles protseduuris näitlikustatakse, kuidas seadistada lao asukohtade teavet.
+description: Selles teemas kirjeldatakse, kuidas seadistada lao asukohtade teavet.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,62 +17,49 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0a52c5d68816a81a94db019387b9ea3ec3efc5a
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 302c028a93dfdb57972e4759abbbc4fdedabbd17
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845518"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867227"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Uue laopaigutuse loomine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Selles protseduuris näitlikustatakse, kuidas seadistada lao asukohtade teavet. See rakendub ainult ladudele, mis on loodud, kasutades üldist ladustamist moodulis Varude haldus, mitte nendele ladudele, mis on loodud moodulis Laohaldus. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades.
+Selles teemas kirjeldatakse, kuidas seadistada lao asukohtade teavet. See rakendub ainult ladudele, mis on loodud, kasutades üldist ladustamist moodulis Varude haldus, mitte nendele ladudele, mis on loodud moodulis Laohaldus. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades.
 
 
 ## <a name="set-the-default-location-capacity"></a>Määrake asukoha vaikemahutavus
-1. Avage Varude haldus > Seadistus > Varude ja lao halduse parameetrid.
-2. Klõpsake vahekaarti Asukohad.
-3. Sisestage arv väljale Standardlaius.
-4. Sisestage arv väljale Standardmaht.
-5. Sisestage arv väljale Standardkõrgus.
-6. Klõpsake nuppu Salvesta.
+1. Navigeerimispaanil avage **Moodulid > Varude haldus > Seadistus > Ladu > Varude ja laohalduse parameetrid**.
+2. Valige vahekaart **Asukoht**.
+3. Väljale **Standardlaius** sisestage arv.
+4. Väljale **Standardmaht** sisestage arv.
+5. Väljale **Standardkõrgus** sisestage arv.
+6. Valige käsk **Salvesta**.
 7. Sulgege leht.
 
 ## <a name="define-the-location-name-format"></a>Asukoha nime vormingu määratlemine
-1. Avage Varude haldus > Seadistus > Laovarude jaotamine > Laod.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Ladu.
-4. Sisestage väärtus väljale Nimi.
-5. Klõpsake väljal Koht otsingu avamiseks ripploendi nuppu.
-6. Otsige loendist ja valige soovitud kirje.
-7. Lülitage ümber jaotis Asukoha nimed.
-    * Selle jaotise suvandites saate määratleda asukohanimede vaikevormingu. Selles näites on kasutatud riiulirea, sektsiooni ja riiuli numbrit.  
-8. Seadistage suvand Kaasa riiulirida väärtusele Jah.
-9. Seadistage suvand Kaasa sektsioon väärtusele Jah. 
-10. Sisestage sektsiooni jaoks väärtus väljale Vorming.
-    * Näide: ‑##  
-11. Seadistage suvand Kaasa riiul väärtusele Jah.
-12. Sisestage riiuli jaoks väärtus väljale Vorming.
-    * Näide: ‑##  
+1. Navigeerimispaanil avage **Moodulid > Varude haldus > Seadistus > Laovarude jaotamine > Laod**.
+2. Valige suvand **Uus**.
+3. Sisestage väärtus väljale **Ladu**.
+4. Sisestage väärtus väljale **Nimi**.
+5. Väljal **Sait** valige otsingust soovitud kirje.
+6. Lülituge ümber jaotise **Asukohanimed** laiendusele. Selle jaotise suvandites saate määratleda asukohanimede vaikevormingu. Selles näites on kasutatud riiulirea, sektsiooni ja riiuli numbrit.  
+7. Määrake suvandi **Kaasa riiulirida** väärtuseks **Jah**.
+8. Määrake suvandi **Kaasa sektsioon** väärtuseks **Jah**. 
+9. Sisestage sektsioonile väärtus väljal **Vorming**.
+10. Määrake suvandi **Kaasa riiul** väärtuseks **Jah**.
+11. Sisestage riiulile väärtus väljal **Vorming**.
 
 ## <a name="define-warehouse-locations"></a>Lao asukohtade määratlemine
-1. Klõpsake toimingupaanil valikut Ladu.
-2. Klõpsake Asukohaviisardit.
-3. Klõpsake käsku Edasi.
-4. Tühistage suvand Lähetusalad
-5. Tühistage suvand Hulgiasukohad
-6. Klõpsake käsku Edasi.
-7. Klõpsake käsku Edasi.
-8. Klõpsake käsku Edasi.
-9. Klõpsake käsku Edasi.
-10. Klõpsake käsku Edasi.
-11. Klõpsake käsku Edasi.
-12. Klõpsake käsku Edasi.
-    * Pange tähele, et sellel lehel kuvatavad füüsilised dimensioonid on need, mille te selle protseduuri alguses seadistasite.  
-13. Klõpsake käsku Edasi.
-14. Klõpsake Lõpeta.
-15. Sulgege leht.
-16. Värskendage lehte.
+1. Toimingupaanil valige **Ladu**.
+2. Valige **Asukohaviisard**.
+3. Valige **Edasi**.
+4. Tühistage suvandi **Lähetusalad** valik.
+5. Tühistage suvandi **Partii asukohad** valik.
+6. Valige **Järgmine** kuni jõuate suvandini **Lõpeta**.
+7. Sulgege leht.
+8. Värskendage lehte.
 
