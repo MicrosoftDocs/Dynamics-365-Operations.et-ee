@@ -1,9 +1,9 @@
 ---
 title: Seansi kuupäeva muutmine
-description: Vaikimisi kasutatakse praegust kuupäeva töölehe sisestuste ja lähtedokumentide sisestamisel.
+description: Selles teemas tutvustatakse, kuidas muuta seansi kuupäeva rakenduses Dynamics 365 for Finance and Operations.
 author: pvillads
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d27a4d36ff8c8192d2342cd97f29c556540d00b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 81b45f71cda7c682e7a9dee241e483890a80d487
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545620"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867352"
 ---
-# <a name="change-the-date-for-the-session"></a><span data-ttu-id="cad9e-103">Seansi kuupäeva muutmine</span><span class="sxs-lookup"><span data-stu-id="cad9e-103">Change the date for the session</span></span>
+# <a name="change-the-date-for-a-session"></a><span data-ttu-id="7f586-103">Seansi kuupäeva muutmine</span><span class="sxs-lookup"><span data-stu-id="7f586-103">Change the date for a session</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="cad9e-104">Vaikimisi kasutatakse praegust kuupäeva töölehe sisestuste ja lähtedokumentide sisestamisel.</span><span class="sxs-lookup"><span data-stu-id="cad9e-104">By default, the current date is used when entering and posting journal entries or source documents.</span></span> <span data-ttu-id="cad9e-105">Saate muuta praeguse seansi jaoks kasutatavat kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="cad9e-105">You can change the date that is used for your current session.</span></span> <span data-ttu-id="cad9e-106">Kasutage seda funktsiooni, et vajaduse korral töölehesisestusi või lähtedokumente varasema kuupäevaga dateerida.</span><span class="sxs-lookup"><span data-stu-id="cad9e-106">Use this feature to back-date journal entries or source documents, as necessary.</span></span>
+<span data-ttu-id="7f586-104">Selles teemas tutvustatakse, kuidas muuta seansi kuupäeva rakenduses Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="7f586-104">This topic explains how to change the date for a session in Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="7f586-105">Vaikimisi kasutatakse praegust kuupäeva töölehe sisestuste ja lähtedokumentide sisestamisel.</span><span class="sxs-lookup"><span data-stu-id="7f586-105">By default, the current date is used when entering and posting journal entries or source documents.</span></span> <span data-ttu-id="7f586-106">Saate muuta praeguse seansi jaoks kasutatavat kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="7f586-106">You can change the date that is used for your current session.</span></span> <span data-ttu-id="7f586-107">Kasutage seda funktsiooni, et vajaduse korral töölehesisestusi või lähtedokumente varasema kuupäevaga dateerida.</span><span class="sxs-lookup"><span data-stu-id="7f586-107">Use this feature to back-date journal entries or source documents, as necessary.</span></span>
 
-1. <span data-ttu-id="cad9e-107">Avage jaotis Üldine > Üldine > Seansi kuupäev ja kellaaeg.</span><span class="sxs-lookup"><span data-stu-id="cad9e-107">Go to Common > Common > Session date and time.</span></span>
-2. <span data-ttu-id="cad9e-108">Sisestage kuupäev väljale Kuupäev.</span><span class="sxs-lookup"><span data-stu-id="cad9e-108">In the Date field, enter a date.</span></span>
-3. <span data-ttu-id="cad9e-109">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="cad9e-109">Click OK.</span></span>
+1. <span data-ttu-id="7f586-108">Navigeerimispaanil avage **Moodulid > Üldine > Üldine > Seansi kuupäev ja aeg**.</span><span class="sxs-lookup"><span data-stu-id="7f586-108">In the navigation pane, go to **Modules > Common > Common > Session date and time**.</span></span>
+2. <span data-ttu-id="7f586-109">Väljale **Kuupäev** sisestage kuupäev.</span><span class="sxs-lookup"><span data-stu-id="7f586-109">In the **Date** field, enter a date.</span></span>
+3. <span data-ttu-id="7f586-110">Valige nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="7f586-110">Select **OK**.</span></span>
 

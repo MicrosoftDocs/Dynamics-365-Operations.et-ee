@@ -1,9 +1,9 @@
 ---
 title: Veose täiendustellimuse loomine
-description: See protseduur näitab, kuidas koostada veose täiendustellimust, kus saate jälgida hankija eeldatavat tarnet oma veose varudesse.
+description: Selles teemas selgitatakse, kuidas luua veose täiendustellimust, kus saate jälgida hankija eeldatavat tarnet oma veose varudesse.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,58 +17,48 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cf2e8f742fee2dedaac72902d207af0081700ca
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f426dbf00eace23da2f26eb50dd9675fe22ed445
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845542"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914767"
 ---
-# <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="3a2f8-103">Veose täiendustellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="3a2f8-103">Create a consignment replenishment order</span></span>
+# <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="c404d-103">Veose täiendustellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="c404d-103">Create a consignment replenishment order</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="3a2f8-104">See protseduur näitab, kuidas koostada veose täiendustellimust, kus saate jälgida hankija eeldatavat tarnet oma veose varudesse.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-104">This procedure shows how to create a consignment replenishment order where you can track the expected delivery from a vendor into your consignment inventory.</span></span> <span data-ttu-id="3a2f8-105">Samuti näitab see, kuidas registreerida toodete sissetulekut, et veose varud oleksid registreeritud hankijale kuuluva vaba kaubavaruna.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-105">It also shows how to record a receipt of products so that the consignment inventory is registered as on-hand inventory owned by the vendor.</span></span> <span data-ttu-id="3a2f8-106">Selle protseduuri viib tavaliselt läbi hankespetsialist.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-106">This procedure would typically be done by a procurement professional.</span></span> <span data-ttu-id="3a2f8-107">Saate seda juhendit kasutada demoettevõtte USMF andmetega.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="3a2f8-108">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-108">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
+<span data-ttu-id="c404d-104">Selles teemas selgitatakse, kuidas luua veose täiendustellimust, kus saate jälgida hankija eeldatavat tarnet oma veose varudesse.</span><span class="sxs-lookup"><span data-stu-id="c404d-104">This topic explains how to create a consignment replenishment order where you can track the expected delivery from a vendor into your consignment inventory.</span></span> <span data-ttu-id="c404d-105">Samuti näitab see, kuidas registreerida toodete sissetulekut, et veose varud oleksid registreeritud hankijale kuuluva vaba kaubavaruna.</span><span class="sxs-lookup"><span data-stu-id="c404d-105">It also shows how to record a receipt of products so that the consignment inventory is registered as on-hand inventory owned by the vendor.</span></span> <span data-ttu-id="c404d-106">Selle protseduuri viib tavaliselt läbi hankespetsialist.</span><span class="sxs-lookup"><span data-stu-id="c404d-106">This procedure would typically be done by a procurement professional.</span></span> <span data-ttu-id="c404d-107">Saate seda juhendit kasutada demoettevõtte USMF andmetega.</span><span class="sxs-lookup"><span data-stu-id="c404d-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="c404d-108">See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.</span><span class="sxs-lookup"><span data-stu-id="c404d-108">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
+## <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="c404d-109">Veose täiendustellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="c404d-109">Create a consignment replenishment order</span></span>
+1. <span data-ttu-id="c404d-110">Navigeerimispaanil avage **Moodulid > Hanked > Veos > Veose täiendustellimused**.</span><span class="sxs-lookup"><span data-stu-id="c404d-110">In the navigation pane, go to **Modules > Procurement and sourcing > Consignment > Consignment replenishment orders**.</span></span>
+2. <span data-ttu-id="c404d-111">Valige suvand **Uus**.</span><span class="sxs-lookup"><span data-stu-id="c404d-111">Select **New**.</span></span>
+3. <span data-ttu-id="c404d-112">Väljal **Hankija konto** valige hankija **US-104** (peate valima hankija, mis on lehel **varude omanikud** omanikuna registreeritud).</span><span class="sxs-lookup"><span data-stu-id="c404d-112">In the **Vendor account** field, select vendor **US-104** (you must select a vendor that's registered as an owner in the **inventory owners** page).</span></span> 
+4. <span data-ttu-id="c404d-113">Valige nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="c404d-113">Select **OK**.</span></span>
+5. <span data-ttu-id="c404d-114">Valige **Lisa rida**.</span><span class="sxs-lookup"><span data-stu-id="c404d-114">Select **Add line**.</span></span>
+6. <span data-ttu-id="c404d-115">Väljale **Kaubakood** sisestage `M9211CI` (peate valima kauba, mis on seadistatud veose varude jaoks).</span><span class="sxs-lookup"><span data-stu-id="c404d-115">In the **Item number** field, type `M9211CI` (you must select an item that is set up for consignment inventory).</span></span>
+7. <span data-ttu-id="c404d-116">Sisestage arv väljale **Kogus**.</span><span class="sxs-lookup"><span data-stu-id="c404d-116">In the **Quantity** field, enter a number.</span></span>
+8. <span data-ttu-id="c404d-117">Väljale **Nõutud tarnekuupäev** sisestage kuupäev.</span><span class="sxs-lookup"><span data-stu-id="c404d-117">In the **Requested delivery date** field, enter a date.</span></span> <span data-ttu-id="c404d-118">MRP moodul kasutab nõutud ja kinnitatud kuupäevi kaupade eeldatava saabumise jaoks.</span><span class="sxs-lookup"><span data-stu-id="c404d-118">The requested and confirmed dates are used by the MRP engine for the expected arrival of the goods.</span></span>  
+9. <span data-ttu-id="c404d-119">Väljale **Kinnitatud tarnekuupäev** sisestage kuupäev.</span><span class="sxs-lookup"><span data-stu-id="c404d-119">In the **Confirmed delivery date** field, enter a date.</span></span>
+10. <span data-ttu-id="c404d-120">Laiendage jaotist **Rea üksikasjad**.</span><span class="sxs-lookup"><span data-stu-id="c404d-120">Expand the **Line details** section.</span></span>
+11. <span data-ttu-id="c404d-121">Valige vahekaart **Varude dimensioonid**.</span><span class="sxs-lookup"><span data-stu-id="c404d-121">Select the **Inventory dimensions** tab.</span></span>
+12. <span data-ttu-id="c404d-122">Värskendage lehte omaniku kuvamiseks väljal **Varude dimensioonide omanik**.</span><span class="sxs-lookup"><span data-stu-id="c404d-122">To show the owner in the **Inventory dimensions owner** field, refresh the page.</span></span> <span data-ttu-id="c404d-123">Hankija US-104 on nüüd omanikuna registreeritud.</span><span class="sxs-lookup"><span data-stu-id="c404d-123">Vendor US-104 is now listed as the owner.</span></span>  
 
+## <a name="check-the-inventory-transaction-status"></a><span data-ttu-id="c404d-124">Kontrollige kande kuupäeva olekut</span><span class="sxs-lookup"><span data-stu-id="c404d-124">Check the inventory transaction status</span></span>
+1. <span data-ttu-id="c404d-125">Valige **Laoseis**.</span><span class="sxs-lookup"><span data-stu-id="c404d-125">Select **Inventory**.</span></span>
+2. <span data-ttu-id="c404d-126">Valige **Kanded**.</span><span class="sxs-lookup"><span data-stu-id="c404d-126">Select **Transactions**.</span></span>
+3. <span data-ttu-id="c404d-127">Pange tähele, et soovitud rea väli **Sissetulek** on seadistatud olekule **Tellitud**.</span><span class="sxs-lookup"><span data-stu-id="c404d-127">In the desired row, notice that the **Receipt** field is set to **Ordered**.</span></span>  
+4. <span data-ttu-id="c404d-128">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="c404d-128">Close the page.</span></span>
 
+## <a name="receive-items"></a><span data-ttu-id="c404d-129">Võta kaubad vastu</span><span class="sxs-lookup"><span data-stu-id="c404d-129">Receive items</span></span>
+1. <span data-ttu-id="c404d-130">Valige **Toote sissetulek**.</span><span class="sxs-lookup"><span data-stu-id="c404d-130">Select **Product receipt**.</span></span>
+2. <span data-ttu-id="c404d-131">Väljale **Väline toote sissetulek** sisestage väärtus.</span><span class="sxs-lookup"><span data-stu-id="c404d-131">In the **External product receipt** field, type a value.</span></span>
+3. <span data-ttu-id="c404d-132">Väljale **Kogus** sisestage arv, mis on väiksem kui arv, mida seal kuvatakse.</span><span class="sxs-lookup"><span data-stu-id="c404d-132">In the **Quantity** field, enter a number that’s lower than the number that’s shown there.</span></span> 
+4. <span data-ttu-id="c404d-133">Valige nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="c404d-133">Select **OK**.</span></span>
 
-## <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="3a2f8-109">Veose täiendustellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="3a2f8-109">Create a consignment replenishment order</span></span>
-1. <span data-ttu-id="3a2f8-110">Avage Hanked > Saadetis > Saadetise täiendustellimused.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-110">Go to Procurement and sourcing > Consignment > Consignment replenishment orders.</span></span>
-2. <span data-ttu-id="3a2f8-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-111">Click New.</span></span>
-3. <span data-ttu-id="3a2f8-112">Valige väljalt Hankija konto hankija US-104.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-112">In the Vendor account field, select vendor US-104.</span></span>
-    * <span data-ttu-id="3a2f8-113">Peate valima hankija, kes on registreeritud omanikuna lehel Varude omanikud.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-113">You must select a vendor that’s registered as an owner in the Inventory owners page.</span></span>  
-4. <span data-ttu-id="3a2f8-114">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-114">Click OK.</span></span>
-5. <span data-ttu-id="3a2f8-115">Klõpsake käsku Lisa rida.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-115">Click Add line.</span></span>
-6. <span data-ttu-id="3a2f8-116">Tippige väärtus M9211CI väljale Kaubakood.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-116">In the Item number field, type M9211CI.</span></span>
-    * <span data-ttu-id="3a2f8-117">Peate valima kauba, mis on seadistatud veose kaubavaruna.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-117">You must select an item that is set up for consignment inventory.</span></span>  
-7. <span data-ttu-id="3a2f8-118">Sisestage arv väljale Kogus.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-118">In the Quantity field, enter a number.</span></span>
-8. <span data-ttu-id="3a2f8-119">Sisestage kuupäev väljale Nõutav tarnekuupäev.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-119">In the Requested delivery date field, enter a date.</span></span>
-    * <span data-ttu-id="3a2f8-120">MRP moodul kasutab nõutud ja kinnitatud kuupäevi kaupade eeldatava saabumise jaoks.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-120">The requested and confirmed dates are used by the MRP engine for the expected arrival of the goods.</span></span>  
-9. <span data-ttu-id="3a2f8-121">Sisestage kuupäev väljale Kinnitatud tarnekuupäev.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-121">In the Confirmed delivery date field, enter a date.</span></span>
-10. <span data-ttu-id="3a2f8-122">Laiendage jaotis Rea üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-122">Expand the Line details section.</span></span>
-11. <span data-ttu-id="3a2f8-123">Klõpsake vahekaarti Varude dimensioonid.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-123">Click the Inventory dimensions tab.</span></span>
-12. <span data-ttu-id="3a2f8-124">Omaniku näitamiseks väljal Laodimensioonide omanik värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-124">To show the owner in the Inventory dimensions owner field, refresh the page.</span></span>
-    * <span data-ttu-id="3a2f8-125">Hankija US-104 on nüüd omanikuna registreeritud.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-125">Vendor US-104 is now listed as the owner.</span></span>  
-
-## <a name="check-the-inventory-transaction-status"></a><span data-ttu-id="3a2f8-126">Kontrollige kande kuupäeva olekut</span><span class="sxs-lookup"><span data-stu-id="3a2f8-126">Check the inventory transaction status</span></span>
-1. <span data-ttu-id="3a2f8-127">Klõpsake Ladu.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-127">Click Inventory.</span></span>
-2. <span data-ttu-id="3a2f8-128">Klõpsake suvandit Kanded.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-128">Click Transactions.</span></span>
-3. <span data-ttu-id="3a2f8-129">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-129">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="3a2f8-130">Pange tähele, et välja Sissetulek olekuks on määratud Tellitud.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-130">Notice that the Receipt field is set to Ordered.</span></span>  
-4. <span data-ttu-id="3a2f8-131">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-131">Close the page.</span></span>
-
-## <a name="receive-items"></a><span data-ttu-id="3a2f8-132">Võta kaubad vastu</span><span class="sxs-lookup"><span data-stu-id="3a2f8-132">Receive items</span></span>
-1. <span data-ttu-id="3a2f8-133">Klõpsake valikut Toote sissetulek.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-133">Click Product receipt.</span></span>
-2. <span data-ttu-id="3a2f8-134">Tippige väärtus väljale Väline toote sissetulek.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-134">In the External product receipt field, type a value.</span></span>
-3. <span data-ttu-id="3a2f8-135">Sisestage väljale Kogus seal kuvatud numbrist väiksem number.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span> 
-4. <span data-ttu-id="3a2f8-136">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-136">Click OK.</span></span>
-
-## <a name="check-the-on-hand-inventory"></a><span data-ttu-id="3a2f8-137">Kontrollige vaba kaubavaru</span><span class="sxs-lookup"><span data-stu-id="3a2f8-137">Check the on-hand inventory</span></span>
-1. <span data-ttu-id="3a2f8-138">Klõpsake Ladu.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-138">Click Inventory.</span></span>
-2. <span data-ttu-id="3a2f8-139">Klõpsake valikut Laoseis.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-139">Click On-hand.</span></span>
-3. <span data-ttu-id="3a2f8-140">Klõpsake valikut Ülevaade.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-140">Click Overview.</span></span>
-    * <span data-ttu-id="3a2f8-141">Kaubad, mis on saadud hankijale kuuluva veose kaubavaruna, on vaba varuna saadaval.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-141">The items that have been received as consignment inventory owned by the vendor are available on-hand.</span></span> <span data-ttu-id="3a2f8-142">Ülejäänud kogus veose täiendustellimusel on näidatud väljal Tellitud kokku.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-142">The remaining quantity on the consignment replenishment order is shown in the Ordered in total field.</span></span>  
-4. <span data-ttu-id="3a2f8-143">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-143">Close the page.</span></span>
-5. <span data-ttu-id="3a2f8-144">Klõpsake valikut Sule.</span><span class="sxs-lookup"><span data-stu-id="3a2f8-144">Click Close.</span></span>
+## <a name="check-the-on-hand-inventory"></a><span data-ttu-id="c404d-134">Kontrollige vaba kaubavaru</span><span class="sxs-lookup"><span data-stu-id="c404d-134">Check the on-hand inventory</span></span>
+1. <span data-ttu-id="c404d-135">Valige **Laoseis**.</span><span class="sxs-lookup"><span data-stu-id="c404d-135">Select **Inventory**.</span></span>
+2. <span data-ttu-id="c404d-136">Valige **Varu**.</span><span class="sxs-lookup"><span data-stu-id="c404d-136">Select **On-hand**.</span></span>
+3. <span data-ttu-id="c404d-137">Valige **Ülevaade**.</span><span class="sxs-lookup"><span data-stu-id="c404d-137">Select **Overview**.</span></span> <span data-ttu-id="c404d-138">Kaubad, mis on saadud hankijale kuuluva veose kaubavaruna, on vaba varuna saadaval.</span><span class="sxs-lookup"><span data-stu-id="c404d-138">The items that have been received as consignment inventory owned by the vendor are available on-hand.</span></span> <span data-ttu-id="c404d-139">Veose täiendustellimuse järelejäänud kogus kuvatakse väljal **Tellitud kokku**.</span><span class="sxs-lookup"><span data-stu-id="c404d-139">The remaining quantity on the consignment replenishment order is shown in the **Ordered in total** field.</span></span>  
+4. <span data-ttu-id="c404d-140">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="c404d-140">Close the page.</span></span>
 
