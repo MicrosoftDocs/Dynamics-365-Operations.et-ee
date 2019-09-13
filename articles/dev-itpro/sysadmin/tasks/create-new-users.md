@@ -3,7 +3,7 @@ title: Uute kasutajate loomine
 description: Kasutajad on teie organisatsioonisisesed töötajad või välised kliendid ja hankijad, kes vajavad oma töö tegemiseks juurdepääsu süsteemile.
 author: maertenm
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89e492ef5030dd28020094152259b615010aa676
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: a542ece226750330262e0c44427e5654fa4f6369
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1851307"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916480"
 ---
 # <a name="create-new-users"></a>Uute kasutajate loomine
 
@@ -30,29 +30,23 @@ ms.locfileid: "1851307"
 Kasutajad on teie organisatsioonisisesed töötajad või välised kliendid ja hankijad, kes vajavad oma töö tegemiseks juurdepääsu süsteemile. Süsteemiadministraatorid saavad selle protseduuri abil lisada süsteemi kasutajaid. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. 
 
 
-## <a name="add-a-new-user"></a>Lisab uue kirje
-1. Minge jaotisse Süsteemihaldus > Kasutajad > Kasutajad.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Kasutaja ID.
-    * Sisestage kasutaja ainuidentifikaator. Kasutaja ID on kohustuslik.  
-4. Sisestage väärtus väljale Kasutaja nimi.
-    * Sisestage kasutaja nimi.  
-5. Sisestage väärtus väljale Domeen.
-    * Sisestage kasutaja domeen.  
-6. Sisestage väärtus väljale Pseudonüüm.
-    * Sisestage kasutaja pseudonüüm.  
-7. Klõpsake väljal Ettevõte otsingu avamiseks ripploendi nuppu.
-8. Otsige loendist ja valige soovitud kirje.
-9. Klõpsake loendis valitud real olevat linki.
-    * Valige kasutaja ettevõte.  
-10. Klõpsake suvandit Määra rollid.
-11. Otsige loendist ja valige soovitud kirje.
-12. Klõpsake nuppu OK.
-13. Klõpsake nuppu Salvesta.
+## <a name="add-a-new-user"></a>Lisa uus kasutaja
+1. Avage **Navigeerimispaan > Moodulid > Süsteemiadministraator > Kasutajad > Kasutajad**.
+2. Paanil **Toimingupaan** klõpsake valikut **Uus**.
+3. Sisestage väärtus väljale **Kasutaja ID**. Sisestage kasutaja ainuidentifikaator. Kasutaja ID on kohustuslik.  
+4. Sisestage väärtus väljale **Kasutajanimi**. Sisestage kasutaja nimi.  
+5. Sisestage väärtus väljale **Domeen**. Sisestage kasutaja domeen.  
+6. Sisestage väärtus väljale **Pseudonüüm**. Sisestage kasutaja pseudonüüm.  
+7. Väljal **Ettevõte** klõpsake ripploendi nuppu, et avada otsing.
+8. Otsige loendist ja valige soovitud kirje. 
+9. Jaotises **Kasutaja rollid** klõpsake **Määra rollid**.
+10. Otsige loendist ja valige soovitud kirje.
+11. Klõpsake valikut **OK**.
+12. Klõpsake valikut **Salvesta**.
 
 ## <a name="import-users"></a>Impordi kasutajad
-1. Klõpsake suvandit Impordi kasutajad.
+1. Paanil **Toimingupaan** klõpsake **Impordi kasutajad**.
 2. Märkige loendis valitud rida.
-3. Klõpsake suvandit Impordi kasutajad.
-4. Klõpsake valikut Sule.
+3. Klõpsake **Impordi kasutajad**.
+4. Klõpsake valikut **Sule**.
 

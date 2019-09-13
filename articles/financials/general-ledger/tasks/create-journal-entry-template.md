@@ -3,7 +3,7 @@ title: Töölehe sisestuse loomine malli abil
 description: Sisestatud töölehe kandeid saab salvestada Kande mallidena ja rakendada uue töölehe kandes.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1a3fb750e04fb134fc9ac38d9a47201803566113
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: babbc5ee067743d368680970556f8e5d3d8585f0
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846627"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916144"
 ---
 # <a name="create-a-journal-entry-using-template"></a>Töölehe sisestuse loomine malli abil
 
@@ -29,38 +29,37 @@ ms.locfileid: "1846627"
 
 Sisestatud töölehe kandeid saab salvestada Kande mallidena ja rakendada uue töölehe kandes. See protsess kasutab demoettevõtte USMF-i andmeid.
 
-1. Avage Pearaamat > Töölehe kirjed > Üldised töölehed. Klõpsake valikut Uus.
-    * See protseduur algab töölehe kande loomise ja sisestamisega, kuid varem sisestatud töölehe kannet saab salvestada mallina.  
-2. Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.
-3. Otsige loendist ja valige soovitud kirje.
-4. Klõpsake loendis valitud real olevat linki.
-5. Klõpsake valikut Read.
-6. Sisestage suvandi Konto tüüp puhul konto.
-7. Sisestage väljale Kirjeldus soovitud väärtus.
-8. Sisestage summa väljale Deebet.
-9. Klõpsake Uus.
-10. Sisestage suvandi Konto tüüp puhul muu konto.
-11. Sisestage väljale Kirjeldus soovitud väärtus.
-12. Sisestage summa väljale Deebet.
-13. Klõpsake Uus.
-14. Täpsustage soovitud väärtusi väljal Konto.
-15. Sisestage väärtus väljale Kirjeldus.
-16. Sisestage kande tasakaalustamiseks summa väljale Kreedit.
-17. Klõpsake valikut Sisesta.
-18. Klõpsake suvandit Funktsioonid.
-19. Klõpsake suvandit Salvesta kande mall.
-20. See protseduur eeldab protsendi malli tüüpi. Klõpsake nuppu OK.
-    * • Protsent: kande summad teisendatakse protsentideks, mis võimaldab malli Kanne valimisel rakendada mis tahes summat.  • Summa: tegelikud summad salvestatakse ja rakendatakse.  
-21. Klõpsake suvandit Päevaraamatud.
-22. Klõpsake valikut Uus.
-23. Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.
+1. Avage **Navigeerimispaan > Moodulid > Pearaamat > Töölehe kanded > Päevaraamatud**.
+2. Paanil **Toimingupaan** klõpsake valikut **Uus**. See protseduur algab töölehe kande loomise ja sisestamisega, kuid varem sisestatud töölehe kannet saab salvestada mallina.  
+3. Klõpsake väljal **Nimi** otsingu avamiseks ripploendi nuppu.
+4. Otsige loendist ja valige soovitud kirje.
+5. Klõpsake loendis valitud real olevat linki.
+6. Klõpsake **Read**.
+7. Sisestage väärtus väljale **Konto liik**.
+8. Sisestage väärtus väljale **Kirjeldus**.
+9. Sisestage väärtus väljale **Deebet**.
+10. Klõpsake valikut **Uus**.
+11. Sisestage väärtus väljale **Konto liik**.
+12. Sisestage väärtus väljale **Kirjeldus**.
+13. Sisestage väärtus väljale **Deebet**.
+14. Klõpsake valikut **Uus**.
+14. Täpsustage soovitud väärtusi väljal **Konto**.
+15. Sisestage väärtus väljale **Kirjeldus**.
+16. Väljale **Kreedit** sisestage väärtus, et kanne tasakaalustada.
+17. Paanil **Toimingupaan** klõpsake käsku **Sisesta**.
+18. Klõpsake suvandit **Funktsioonid**.
+19. Klõpsake malli **Salvesta kanne**.
+20. Selle protseduuri eelduseks on tüüp **Protsendi mall**. Klõpsake nuppu OK.
+    - Protsent: kogused kandes on teisendatud protsentuaalseteks teguriteks, mis lubab rakendamise igale kogusele, kui kande mall on valitud.
+    - Kogus: tegelikud kogused talletatakse ja rakendatakse.  
+21. Klõpsake **Pearaamatud**.
+22. Klõpsake valikut **Uus**.
+23. Klõpsake väljal **Nimi** otsingu avamiseks ripploendi nuppu.
 24. Klõpsake loendis valitud real olevat linki.
-25. Klõpsake valikut Read.
-26. Klõpsake suvandit Funktsioonid.
-27. Klõpsake suvandit Vali kande mall.
-28. Leidke varem loodud mall. Klõpsake nuppu OK.
-    * Teil võib olla vaja klõpsata eelmist etappi ja valida muude mallide olemasolul õige mall.  
-29. Sisestage väljale Summa kandele rakendatav summa.
-    * Summa väli kuvatakse vaid juhul, kui kande malli tüübiks on Protsent.  
-30. Klõpsake nuppu OK.
+25. Klõpsake **Read**.
+26. Klõpsake suvandit **Funktsioonid**.
+27. Klõpsake **Vali kande mall**.
+28. Leidke varem loodud mall. Klõpsake valikut **OK**. Ehk peate klõpsama **Eelnev etapp** ja seejärel valima õige malli, kui on ka teisi malle.  
+29. Sisestage kandele rakendatav summa väljale **Summa**. Väli **Summa** kuvatakse ainult siis, kui kande malli tüüp on Protsent.  
+30. Klõpsake valikut **OK**.
 

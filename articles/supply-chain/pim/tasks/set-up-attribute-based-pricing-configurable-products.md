@@ -1,9 +1,9 @@
 ---
 title: Atribuudipõhise hinnakujunduse loomine konfigureeritavatele toodetele
-description: See protseduur näitab, kuidas seadistada atribuudipõhist hinnakujundust.
+description: Selles teemas selgitatakse, kuidas seadistada atribuutidepõhist hinnastamist.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,46 +16,39 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba84fa4de660d16b266763fff5b0b794ed327c81
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 534e9c9332c107afebd814cf2090ecbdf0ec6459
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844197"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914695"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Atribuudipõhise hinnakujunduse loomine konfigureeritavatele toodetele
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas seadistada atribuudipõhist hinnakujundust. Eeltingimusena peab teil olema tootekonfiguratsiooni mudel, millel on vähemalt üks komponent ja atribuut. Selles näites kasutatakse demoettevõtte USMF tipptasemel kõlari tootemudelit. Tavaliselt kasutab seda protseduuri tootejuht.
+Selles teemas selgitatakse, kuidas seadistada atribuutidepõhist hinnastamist. Eeltingimusena peab teil olema tootekonfiguratsiooni mudel, millel on vähemalt üks komponent ja atribuut. Selles näites kasutatakse demoettevõtte USMF tipptasemel kõlari tootemudelit. Tavaliselt kasutab seda protseduuri tootejuht.
 
 
 ## <a name="create-a-new-price-model"></a>Uue hinnamudeli loomine
-1. Klõpsake valikut Tootevariandi mudeli määratlus.
-2. Klõpsake valikut Toote konfiguratsioonimudelid.
-3. Valige loendist tipptasemel kõlari rida, kuid ärge klõpsake nime linki.
-4. Klõpsake tegumiribal valikut Mudel.
-5. Klõpsake valikut Hinnamudelid.
-6. Klõpsake valikut Uus.
-7. Tippige väärtus väljale Hinnamudeli nimi.
-    * Kasutage nime, mille abil on mudelit kerge tuvastada.  
-8. Sisestage väljale Kirjeldus soovitud väärtus.
-9. Klõpsake nuppu Salvesta.
+1. Valige avalehel **Tootevariandi mudeli määratlus**.
+2. Valige **Toote konfiguratsioonimudelid** jaotisest **lingid**.
+3. Valige loendist rida **Kvaliteetkõlar**, aga ärge valige linki nimele.
+4. Valige toiminguplaanil **Mudel**.
+5. Valige **Hinnamudelid**.
+6. Valige suvand **Uus**.
+7. Sisestage väärtus väljale **Hinnamudeli nimi**. Kasutage nime, mille abil on mudelit kerge tuvastada.  
+8. Sisestage väärtus väljale **Kirjeldus**.
+9. Valige käsk **Salvesta**.
 
 ## <a name="add-price-elements"></a>Hinnaelementide lisamine
-1. Klõpsake nuppu Redigeeri.
-    * Igal tootemudeli komponendil võib olla baashinna element ja mis tahes arv hinnaavaldise reegleid. Saate lisada hindu ka erinevates valuutades.  
-2. Tippige väärtus väljale Baashinna avaldis.
-    * Tippige näiteks 100.   Baashinna avaldis võib olla arvväärtus või koosneda aritmeetilisest tehtest, mis sisaldab vähemalt ühte atribuuti.  
-3. Klõpsake vahekaarti Lisa.
-4. Tippige Rosewood väljale Nimi.
-    * Hinnaavaldise nimi aitab tuvastada, mida hinnaelement tähistab. Selles näites loome hinnaelemendi Rosewoodi kõlari korpuse viimistluse valikule.  
-5. Klõpsake nuppu Muuda tingimust.
-    * Hinnatingimus aitab tagada hinnaavaldise elemendi lisamise müügihinda ainult juhul, kui on olemas konkreetne atribuutide kombinatsioon.  
-6. Sisestage väljale ConstraintBody tekst CabinetFinish=="Rosewood".
-7. Klõpsake nuppu OK.
-8. Tippige väärtus väljale Avaldis.
-    * Tippige näiteks 50.  
+1. Valige suvand **Redigeeri**. Igal tootemudeli komponendil võib olla baashinna element ja mis tahes arv hinnaavaldise reegleid. Saate lisada hindu ka erinevates valuutades.  
+2. Sisestage väärtus väljale **Baashinna väljend**. Tippige näiteks 100. Baashinna avaldis võib olla arvväärtus või koosneda aritmeetilisest tehtest, mis sisaldab vähemalt ühte atribuuti.  
+3. Valige **Lisa**.
+4. Väljale **Nimi** sisestage `Rosewood`. Hinnaavaldise nimi aitab tuvastada, mida hinnaelement tähistab. Selles näites loome hinnaelemendi Rosewoodi kõlari korpuse viimistluse valikule.  
+5. Valige **Tingimuse redigeerimine**. Hinnatingimus aitab tagada hinnaavaldise elemendi lisamise müügihinda ainult juhul, kui on olemas konkreetne atribuutide kombinatsioon.  
+6. Sisestage **ConstraintBody** väljale `CabinetFinish=="Rosewood"`.
+7. Valige nupp **OK**.
+8. Sisestage väärtus väljale **Avaldis**. Sisestage näiteks `50`. 
 9. Sulgege leht.
-10. Sulgege leht.
 

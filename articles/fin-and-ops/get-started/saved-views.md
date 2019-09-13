@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 43f25796e6271f14acfc72f931398ab63338a307
+ms.sourcegitcommit: b068b17ef708a0b349db8df1542e4244bb983d13
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863056"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870829"
 ---
 # <a name="saved-views"></a>Salvestatud vaated
 
@@ -153,11 +153,13 @@ Salvestatud vaadete lubamiseks funktsiooni eelvaates järgige järgmiseid juhise
 
 1.  **Luba lend**: Käivitage järgmine SQL-lause: 
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
 
-2.  **Leia funktsioon**: Minge tööruumi **Funktsioonihaldus**. Kui **Salvestatud vaated** ei ilmu loendis, valige nupp **Kontrolli värskendusi**.   
+2. **Lähtesta IIS**, et tühjendada staatilise eelväljaande vahemälu. 
 
-3.  **Funktsiooni lubamine**: Leidke funktsioonide loendist funktsioon **Salvestatud vaated** ja klõpsake üksikasjapaanil nuppu **Luba kohe**.
+3.  **Leia funktsioon**: avage tööruum **Funktsiooni haldus**. Kui **Salvestatud vaated** ei ilmu loendis, valige **Kontrolli värskendusi**.   
+
+4.  **Luba funktsioon**: leidke funktsioon **Salvestatud vaated** funktsioonide loendist ja valige üksikasjade paanilt suvand **Luba nüüd**.
 
 Kõik järgmised kasutajaseansid algavad lubatud salvestatud vaadetega.  
 

@@ -3,7 +3,7 @@ title: Tootmisüksuse loomine
 description: Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja tööprotsesside juhtimise jagamiseks.
 author: sericks007
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef03329cfe477256cfbe1dde1dc18df52137286f
-ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
+ms.openlocfilehash: 164b347e1c929f60762793799a500a7203f0f72f
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755565"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874899"
 ---
 # <a name="create-an-operating-unit"></a>Tootmisüksuse loomine
 
@@ -40,5 +40,5 @@ Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja t�
     + Sisestage aadressiteave, nt tänavanimi, majanumber, sihtnumber ja linn. Klõpsake suvandit **Lisa**, et sisestada uus aadressikirje, või suvandit Redigeeri, et muuta olemasolevat aadressikirjet.   
     + Vajaduse korral laiendage jaotist **Kontaktteave**.  
     + Sisestage teave selliste sidepidamisviiside kohta nagu meiliaadressid, URL-id ja telefoninumbrid. Uue sidekirje sisestamiseks klõpsake suvandit Uus. Olemasoleva sidekirje muutmiseks klõpsake suvandeid **Rohkem suvandeid > Täpsem**.   
-6. Klõpsake valikut **Salvesta**.
-
+6. Muutke valikut **Tootmisüksuse number** vastavalt vajadusele. Pange tähele, et see number on ainuidentifikaator, mis vastab kirjele **Osapool** ja see ei saa olla sama ühegi teise tootmisüksusega.
+7. Valige käsk **Salvesta**.

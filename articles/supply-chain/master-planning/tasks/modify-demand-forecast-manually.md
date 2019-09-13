@@ -3,7 +3,7 @@ title: Nõudluse prognoosi käsitsi muutmine
 description: See protseduur näitab, kuidas kauba prognoosi muuta.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca6b881bc094b68d1bbf8c7c20b65418e42b28e3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1ec1edb861619bae2ae3c211720b55e170b83ec9
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835862"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916618"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Nõudluse prognoosi käsitsi muutmine
 
@@ -31,19 +31,15 @@ See protseduur näitab, kuidas kauba prognoosi muuta. Selle protseduuri loomisek
 
 
 ## <a name="modify-the-forecast-for-an-item"></a>Kauba prognoosi muutmine
-1. Avage Tooteteabe haldus > Tooted > Väljastatud tooted.
-2. Otsige loendist ja valige soovitud kirje.
-    * Valige kaup, mille puhul soovite prognoosi muuta. Näiteks saate valida kauba D0001.  
-3. Klõpsake toimingupaanil valikut Plaan.
-4. Klõpsake valikut Nõudluse prognoos.
-5. Märkige loendis valitud rida.
-    * Kui prognoosiridu ei ole, saab luua uue rea,  klõpsates rakenduse real nuppu Uus.  
-6. Sisestage number väljale Müügikogus.
-    * See number näitab kauba hinnangulist kogust.  
+1. **Navigeerimispaanil** avage **Moodulid > Toote teabe haldus > Tooted > Väljastatud tooted**.
+2. Otsige loendist ja valige soovitud kirje. Valige kaup, mille puhul soovite prognoosi muuta. Näiteks saate valida kauba D0001.  
+3. Klõpsake **Toimingupaanil** valikut **Plaan**.
+4. Klõpsake **Nõudluse prognoos**.
+5. Märkige loendis valitud rida. Kui prognoosi read puuduvad, looge uus rida klõpsates rakendusribal nuppu Uus.  
+6. Väljale **Müügi kogus** sisestage arv. See number näitab kauba hinnangulist kogust.  
 7. Klõpsake nuppu Salvesta.
 
 ## <a name="modify-the-forecast-in-excel"></a>Prognoosi muutmine Excelis
-1. Klõpsake rakenduses Microsoft Office käsku Ava.
-2. Klõpsake suvandit Nõudluse prognoosi korrigeerimine Excelis.
-    * Excelis saate nõudluse prognoosi ridu lisada, kustutada ja muuta. Kui te andmeid Excelis ei näe, peate sisse logima rakendusse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, nii et suvand Hoia mind sisselogituna on lubatud ja peate andmeühenduse rakendust usaldama.  
+1. Klõpsake **Ava** lahenduses Microsoft Office.
+2. Klõpsake Excelis **Nõudluse prognoosi redigeerimine**. Excelis saate nõudluse prognoosi ridu lisada, kustutada ja muuta. Kui te andmeid Excelis ei näe, peate sisse logima rakendusse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, nii et suvand Hoia mind sisselogituna on lubatud ja peate andmeühenduse rakendust usaldama.  
 

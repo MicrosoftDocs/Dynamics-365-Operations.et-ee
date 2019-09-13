@@ -1,9 +1,9 @@
 ---
 title: Põhivara käibelt kõrvaldamine vabas vormis arve abil
-description: See protseduur näitab, kuidas soetada põhivara, kasutades põhivara töölehe soetussoovitust.
+description: Siin peatükis selgitatakse, kuidas hankida põhivarade töölehe põhivara soetamise soovituse abil.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,28 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26446df21a3b55abcdd5f163ae84f8e35d853965
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 179a6e45d57baf810068cb5c14aed670ebb94706
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846987"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914649"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Põhivara käibelt kõrvaldamine vabas vormis arve abil
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur kirjeldab põhivara likvideerimist vabas vormis arve abil.
+Siin peatükis selgitatakse, kuidas käibelt kõrvaldada põhivara vabas vormis arve abil.
 
-1. Avage Müügireskontro > Arved > Kõik vabas vormis arved.
-2. Klõpsake valikut Uus.
-3. Valige või sisestage väärtus väljal Kliendi konto.
-4. Kinnitage arve vaikekuupäev ja vajaduse korral redigeerige seda.
-5. Kinnitage ülejäänud vaike-päiseväljad, nagu Valuuta, ja vajaduse korral redigeerige neid.
-6. Sisestage arve reale kirjeldus.
-7. Sisestage või valige arve real põhikonto.
-8. Kinnitage vaike-käibemaksugrupp ja kauba käibemaksugrupp.
-9. Sisestage põhivara ühiku hind või müügisumma.
-10. Klõpsake valikut Rea üksikasjad.  
-11. Valige müüdava põhivara number.
-12. Klõpsake valikut Sisesta.
+1. Navigeerimispaanil avage **Moodulid > Müügireskontro > Arved > Kõik vaba tekstiga arved**.
+2. Valige suvand **Uus**.
+3. Väljale **Kliendi konto** sisestage või valige väärtus.
+4. Kinnitage tavaline **Arve** kuupäev ja kohaldatavusel muutke seda.
+5. Kinnitage ülejäänud tavalised päiseväljad nagu **Valuuta** ja kohaldatavusel muutke neid.
+6. Kinnitage jaotise **Arve read** väljad **Kirjeldus** ja **Põhikonto**.
+7. Kinnitage tavaväljad **Käibemaksugrupp** ja **Kauba käibemaksugrupp**.
+8. Sisestage põhivara müügi **Ühiku hind** ja **Summa**.
+9. Valige jaotis **Rea üksikasjad**.  
+10. Sisestage väärtus välja **Põhivara** või valige sealne väärtus.
+11. Valige **Sisesta**. 
 

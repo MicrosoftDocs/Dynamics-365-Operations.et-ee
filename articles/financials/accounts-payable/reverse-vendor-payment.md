@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6587505fc5a729ffd82ab65aca7d5aa6ca4a265
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837248"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867746"
 ---
 # <a name="reverse-a-vendor-payment"></a>Hankija makse storneerimine
 
@@ -48,7 +48,7 @@ Oma organisatsioonis kasutatavat meetodit vaadake lehelt **Sularaha- ja pangahal
 Kui teie organisatsioon soovib sisestada tšekkide storneerimise kohe, kui klõpsate lehel **Tšekid** suvandit **Makse storneerimine**. Valige lehel **Sularaha- ja pangahalduse parameetrid** suvandi **Kasuta maksete storneerimiseks läbivaatusprotsessi** sätteks **Ei**. Lehel **Tšekid** saate valida tšeki storneerimise ja suvandi **Makse storneerimine**. Seejärel saate sisestada kuupäeva ja valida storneerimise põhjuse.
 
 ## <a name="reverse-posted-checks-after-they-are-reviewed-in-the-check-reversal-journal"></a>Sisestatud tšekkide storneerimine pärast nende läbivaatamist tšeki storneerimise töölehel
-Kui teie organisatsioon soovib tšekkide storneerimised enne sisestamist läbi vaadata, looge tšeki storneerimise tööleht läbivaatuseks ja valige lehel **Sularaha- ja pangahalduse parameetrid** suvandi **Kasuta maksete storneerimiseks läbivaatusprotsessi** sätteks **Jah**. Lehel **Tšekid** saate valida storneeritava tšeki ja suvandi **Makse storneerimine**. Seejärel saate sisestada kuupäeva ja valida storneerimise põhjuse. Töölehe loomiseks tšeki storneerimise töölehel tuleb valida ka töölehe nimi.
+Kui teie organisatsioon soovib tšekkide storneerimised enne sisestamist läbi vaadata, looge tšeki storneerimise tööleht läbivaatuseks ja valige lehel **Sularaha- ja pangahalduse parameetrid** suvandi **Kasuta maksete storneerimiseks läbivaatusprotsessi** sätteks **Jah**. Lehel **Tšekid** saate valida storneeritava tšeki ja suvandi **Makse storneerimine**. Seejärel saate sisestada kuupäeva ja valida storneerimise põhjuse. Finantspõhjuse peab seadistama nii panga kui ka hankija tüüpide kohta. Töölehe loomiseks tšeki storneerimise töölehel tuleb valida ka töölehe nimi.
 
 ### <a name="review-a-reversal"></a>Tagasivõtmise ülevaatamine
 

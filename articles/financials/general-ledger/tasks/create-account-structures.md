@@ -3,7 +3,7 @@ title: Kontostruktuuride loomine
 description: See ülesandejuhend kirjeldab konto struktuuri loomise etappe.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2183f88356fc8094781af147bf079c4e53ffb2b4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8b100d5da6ec26dc386c0c6cb0793245531eb0d8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846699"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916226"
 ---
 # <a name="create-account-structures"></a>Kontostruktuuride loomine
 
@@ -29,56 +29,35 @@ ms.locfileid: "1846699"
 
 See ülesandejuhend kirjeldab konto struktuuri loomise etappe. Etapid kasutavad demoandmete ettevõtet USMF.
 
-1. Minge jaotisse Pearaamat > Kontoplaan > Struktuurid > Konto struktuuride konfigureerimine.
-2. Rippdialoogi avamiseks klõpsake valikut Uus.
-3. Sisestage väljale Konto struktuur nimi, mis kirjeldab konto struktuuri eesmärki.
-4. Sisestage väljale Kirjeldus kirjeldus, mis määrab konto struktuuri eesmärgi.
-5. Klõpsake käsku Loo.
-6. Klõpsake suvandit Segmendi lisamine.
-7. Valige loendist Dimensioon konto struktuurile lisatav dimensioon.
-8. Klõpsake suvandit Segmendi lisamine.
-9. Klõpsake suvandit Segmendi lisamine.
-10. Valige loendist Dimensioon konto struktuurile lisatav dimensioon.
-11. Klõpsake suvandit Segmendi lisamine.
-12. Klõpsake suvandit Segmendi lisamine.
-13. Valige loendist Dimensioon konto struktuurile lisatav dimensioon.
-14. Klõpsake suvandit Segmendi lisamine.
-15. Valige ruudustikus segment, mille lubatud väärtusi soovite muuta.
-    * Klõpsake näiteks suvandit Põhikonto.  
-16. Valige suvand väljal Operaator, näiteks „vahemikus ja hõlmab”.
-17. Sisestage väärtus väljale Väärtus.
-    * Näiteks 600 000.  
-18. Sisestage väärtus väljale Kuni.
-    * Näiteks 699 999.  
-19. Klõpsake käsku Apply (Rakenda).
-20. Valige ruudustikus segment, mille lubatud väärtusi soovite muuta.
-    * Näiteks Osakond.  
-21. Valige suvand väljal Operaator, näiteks „vahemikus ja hõlmab”.
-22. Sisestage väärtus väljale Väärtus.
-    * Näiteks 022.  
-23. Sisestage väärtus väljale Kuni.
-    * Näiteks 031.  
-24. Klõpsake suvandit Uute kriteeriumide lisamine.
-25. Valige suvand väljal Operaator, näiteks „vahemikus ja hõlmab”.
-26. Sisestage väärtus väljale Väärtus.
-    * Näiteks 033.  
-27. Sisestage väärtus väljale Kuni.
-    * Näiteks 034.  
-28. Klõpsake käsku Apply (Rakenda).
-29. Valige ruudustikus segment, mille lubatud väärtusi soovite muuta.
-    * Näiteks Kulukeskus.  
-30. Sisestage väärtus väljale CostCenter.
-    * Näiteks 007 … 021.  
-31. Klõpsake vahekaarti Lisa.
-32. Sisestage väärtus väljale MainAccount.
-    * Näiteks 600 000 … 699 999  
-33. Valige ruudustikus segment, mille lubatud väärtusi soovite muuta.
-    * Näiteks Osakond.  
-34. Sisestage väärtus väljale Department.
-    * Näiteks 032.  
-35. Sisestage väärtus väljale CostCenter.
-    * Näiteks 086.  
-36. Klõpsake suvandit Kinnita.
-37. Klõpsake käsku Aktiveeri.
-38. Klõpsake käsku Aktiveeri.
+1. Avage **Navigeerimispaan > Moodulid > Pearaamat > Kontoplaan > Struktuurid > Konfigureeri konto struktuure**.
+2. Rippdialoogi avamiseks klõpsake paanil **Toimingupaan** nuppu **Uus**.
+3. Väljale **Konto struktuur** sisestage nimi, mis kirjeldab konto struktuuri eesmärki.
+4. Väljale **Kirjeldus** sisestage kirjeldus, mis täpsustab konto struktuuri eesmärki.
+5. Klõpsake käsku **Loo**.
+6. Suvandis **Segmendid ja lubatud väärtused** klõpsake käsku **Lisa segment**.
+7. Dimensioonide loendist valige dimensioon, mille soovite lisada konto struktuuri.
+8. Loendi lõpus klõpsake käsku **Lisa segment**.
+9. Korrake etappe 6 ja 9 vastavalt vajadusele.
+10. Jaotises **Lubatud väärtuse üksikasjad** valige segment, et redigeerida lubatud väärtusi.
+    Näiteks klõpsake välja **Põhikonto**.  
+11. Väljal **Tehtemärk** valige suvand, näiteks "on vahemikus ja hõlmab".
+12. Sisestage väärtus väljale **Väärtus**. Näiteks 600 000.  
+13. Sisestage väärtus väljale **Kuni**. Näiteks 699 999.  
+14. Jaotises **Lubatud väärtuse üksikasjad** klõpsake käsku **Rakenda**.
+15. Korrake etappe 10 ja 15 vastavalt vajadusele.  
+16. Jaotises **Lubatud väärtuse üksikasjad** klõpsake käsku **Lisa uus kriteerium**.
+17. Väljal Tehtemärk valige suvand, näiteks "on vahemikus ja hõlmab".
+18. Sisestage väärtus väljale **Väärtus**. Näiteks 033.  
+19. Sisestage väärtus väljale **Kuni**. Näiteks 034.  
+20. Klõpsake käsku **Rakenda**.
+21. Valige ruudustikus segment, mille lubatud väärtusi soovite muuta. Näiteks Kulukeskus.  
+22. Sisestage väärtus väljale **Kulukeskus**. Näiteks 007 … 021.  
+23. Suvandis **Segmendid ja lubatud väärtused** klõpsake käsku **Lisa**.
+24. Sisestage väärtus väljale **Põhikonto**. Näiteks 600 000 … 699 999  
+25. Valige ruudustikus segment, mille lubatud väärtusi soovite muuta. Näiteks Osakond.  
+26. Sisestage väärtus väljale Osakond. Näiteks 032.  
+27. Sisestage väärtus väljale Kulukeskus. Näiteks 086.  
+28. Paanil **Toimingupaan** klõpsake käsku **Kontrolli**.
+29. Paanil **Toimingupaan** klõpsake käsku **Aktiveeri**.
+30. Klõpsake käsku **Aktiveeri**.
 

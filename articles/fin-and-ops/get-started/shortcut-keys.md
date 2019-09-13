@@ -3,7 +3,7 @@ title: Kiirklahvid
 description: Järgmised kiirklahvid ehk klaviatuuriotseteed kehtivad kogu rakenduses Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 07/22/2019
+ms.date: 08/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
-ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
+ms.openlocfilehash: 91e3f202d479fd77893da3cc746f3d23587107b1
+ms.sourcegitcommit: 69bd97dcc191a0cabfed91f678bac0ba2aebb1b8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1780054"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "1920647"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
@@ -155,8 +155,8 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Toiming                                                                   | Klahv või klahvikombinatsioon                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Hüperlingi avamine                                                           | Ctrl + Enter                    |
-| Kuupäevaväljale seansi kuupäeva sisestamine                                       | D + tabeldusklahv                         |
-| Kuupäevaväljale praeguse kuupäeva sisestamine                                       | T + tabeldusklahv                         |
+| Kuupäevaväljale seansi kuupäeva sisestamine                                       | D                         |
+| Kuupäevaväljale praeguse kuupäeva sisestamine                                       | T                         |
 | Otsingu, liitboksi, kuupäevavalija, rippdialoogiboksi avamine                         | Alt + allanool                |
 | Otsingu, liitboksi, kuupäevavalija, rippdialoogiboksi sulgemine                        | Esc-klahv                           |
 | Fookuse nihutamine otsingule (kui otsing on juba avatud)                   | Alt + allanool                |

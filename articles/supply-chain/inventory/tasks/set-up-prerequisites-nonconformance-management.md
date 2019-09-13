@@ -1,9 +1,9 @@
 ---
 title: Eeltingimuste seadistamine mittevastavuse halduseks
-description: Kasutage seda protseduuri, et lubada mittevastavuse haldamise protsessid.
+description: Kasutage seda teemat, et lubada mittevastavuse haldamise protsessid.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,89 +17,66 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9094be37e44b978db224b16c255d04a36c5cefff
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 78d38b00d8039612aa236b3aa9593693983407dc
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845313"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914718"
 ---
 # <a name="set-up-prerequisites-for-nonconformance-management"></a>Eeltingimuste seadistamine mittevastavuse halduseks
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Kasutage seda protseduuri, et lubada mittevastavuse haldamise protsessid. Mittevastavus kirjeldab protseduuri või kaupa, millel on kvaliteediprobleem, kus kirjeldav teave sisaldab probleemi allikat ja tüüpi. Protseduur kasutab demoettevõtte USMF andmeid. Tavaliselt teostab selle protseduuri kvaliteedijuht.
+Kasutage seda teemat, et lubada mittevastavuse haldamise protsessid. Mittevastavus kirjeldab protseduuri või kaupa, millel on kvaliteediprobleem, kus kirjeldav teave sisaldab probleemi allikat ja tüüpi. Protseduur kasutab demoettevõtte USMF andmeid. Tavaliselt teostab selle protseduuri kvaliteedijuht.
 
 
 ## <a name="enable-quality-management-processes-within-the-company"></a>Ettevõttes kvaliteedijuhtimise protsesside lubamine
-1. Avage Varude haldus > Seadistus > Varude ja lao halduse parameetrid.
-2. Klõpsake vahekaarti Kvaliteedijuhtimine.
-3. Tehke väljal Kasuta kvaliteedijuhtimist valik Jah.
-    * Valige see parameeter ettevõtte jaoks kvaliteedi haldamise protsesside lubamiseks.  
-4. Sisestage väljale Tunnimäär number.
-    * Kasutage välja Tunnimäär, et sisestada tunnitasu kohalikus valuutas. Tunnimäära kasutatakse mittevastavusega seotud toimingute kulude arvutamiseks. Tunnimäär ja arvutatud kulud annavad viiteteavet mittevastavuse kohta ega mõjuta teisi funktsioone.  
-5. Klõpsake suvandit Aruande seadistus.
-    * See leht võimaldab määratleda kvaliteediaruande märkuse tüübid, mida kasutatakse erinevatel kvaliteedijuhtimise aruannetel.  
-6. Sulgege leht.
-7. Sulgege leht.
+1. Navigeerimispaanil avage **Moodulid > Varude haldus > Seadistus > Ladu > Varude ja laohalduse parameetrid**.
+2. Klõpsake vahekaardil **Kvaliteedijuhtimine**.
+3. Valige **Jah** väljal **Kasuta kvaliteedijuhtimist**, et lubada kvaliteedijuhtimise protsessid ettevõttele.
+4. Sisestage väljale **Tunnimäär** tunnitasu kohalikus valuutas. Tunnimäära kasutatakse mittevastavusega seotud toimingute kulude arvutamiseks. Tunnimäär ja arvutatud kulud annavad viiteteavet mittevastavuse kohta ega mõjuta teisi funktsioone.  
+5. Valige **Aruande seadistus**, et määratleda kvaliteediaruande märkuse tüübid, mida kasutatakse erinevatel kvaliteedijuhtimise aruannetel.
 
 ## <a name="enable-user-for-nonconformance-processing"></a>Mittevastavuse töötlemise lubamine kasutaja jaoks
-1. Minge jaotisse Süsteemihaldus > Kasutajad > Kasutajad.
-    * Mittevastavuse kinnitamise töötlemiseks peab mittevastavusi kinnitavale või tagasilükkavale kasutajale olema lehel Kasutajad määratud väärtus Nimi. Dokumendi märkuste kasutamiseks peab kasutajal olema kasutajasuvandites aktiveeritud ka suvand Dokumenditöötlus.  
-2. Saate kirjete leidmiseks kasutada valikut Kiirfilter. Näiteks saate filtreerida välja Nimi väärtuse „Ricardo” järgi.
-    * Kasutage filtrit, et otsida kasutajat, kes mittevastavuse kirjeid kinnitab või tagasi lükkab.  
-3. Klõpsake loendis valitud real olevat linki.
-    * Mittevastavuse kinnitamise töötlemiseks peab mittevastavusi kinnitavale või tagasilükkavale kasutajale olema lehel Kasutajad määratud väärtus Nimi.  
-4. Klõpsake suvandit Kasutaja suvandid.
-5. Klõpsake vahekaarti Eelistused.
-6. Tehke väljal Luba dokumenditöötlus valik Jah.
-    * Dokumendi märkuste kasutamiseks peab kasutajal olema kasutajasuvandites aktiveeritud ka suvand Dokumenditöötlus.  
-7. Sulgege leht.
-8. Sulgege leht.
-9. Sulgege leht.
+1. Avage navigeerimispaneel, seejärel **Moodulid > Süsteemiadministraator > Kasutajad > Kasutajad**. 
+2. Kasutage kiirfiltrit, et otsida kasutajat, kes mittevastavuse kirjeid kinnitab või tagasi lükkab. Näiteks saate filtrida välja **Nimi** väärtuse `Ricardo` järgi. Mittevastavuse kinnitamise töötlemiseks peab mittevastavusi kinnitavale või tagasilükkavale kasutajale olema lehel **Kasutajad** määratud väärtus Nimi. Dokumendi märkuste kasutamiseks peab kasutajal olema kasutajasuvandites aktiveeritud ka suvand Dokumenditöötlus.  
+3. Märkige soovitud kirje rida.
+4. Valige **Kasutaja valikud**.
+5. Valige vahekaart **Eelistused**.
+6. Tehke väljal **Luba dokumenditöötlus** valik **Jah**.
 
 ## <a name="define-diagnostic-types-for-nonconformance-processing"></a>Mittevastavuse töötlemise jaoks diagnostikatüüpide määratlemine
-1. Avage Laohaldus > Seadistus > Kvaliteedijuhtimine > Diagnostika tüübid.
-    * Kasutage lehte Diagnostika tüübid diagnostiliste toimingute klassifikatsiooni määratlemiseks. Parandus tuvastab, mis tüüpi diagnostilist tegevust tuleks kinnitatud mittevastavuse korral kasutada, kes peaks seda tegema ja soovitud ja planeeritud lõpetamiskuupäev.  
-2. Klõpsake valikut Uus.
-3. Tippige väärtus väljale Diagnostika.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Sulgege leht.
+1. Navigeerimispaneelil avage **Moodulid > Varude haldus > Seadistus > Kvaliteedihaldus > Diagnostilised tüübid**. Kasutage lehte **Diagnostika tüübid** diagnostiliste toimingute klassifikatsiooni määratlemiseks. Parandus tuvastab, mis tüüpi diagnostilist tegevust tuleks kinnitatud mittevastavuse korral kasutada, kes peaks seda tegema ja soovitud ja planeeritud lõpetamiskuupäev.  
+2. Valige suvand **Uus**.
+3. Tippige väärtus välja **Diagnostika**.
+4. Sisestage väärtus väljale **Kirjeldus**.
 
 ## <a name="define-quality-charges-for-nonconformance-processing"></a>Mittevastavuse töötlemise jaoks kvaliteedikulude määratlemine
-1. Avage Laohaldus > Seadistus > Kvaliteedijuhtimine > Kvaliteedikulud.
-    * Kasutage lehte Kvaliteedikulud, et määratleda kulude klassifikatsioon, mida kasutatakse mittevastavustega seotud toimingutes.  
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Tasukood.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Sulgege leht.
+1. Navigeerimispaneelil avage **Moodulid > Varude haldus > Seadistus > Kvaliteedihaldus > Kvaliteedikulud**. Kasutage lehte **Kvaliteedikulud**, et määratleda kulude klassifikatsioon, mida kasutatakse mittevastavustega seotud toimingutes.  
+2. Valige suvand **Uus**.
+3. Sisestage väärtus väljale **Tasukood**.
+4. Sisestage väärtus väljale **Kirjeldus**.
 
 ## <a name="define-the-operations-for-nonconformance-processing"></a>Mittevastavuste töötlemise jaoks toimingute määratlemine
-1. Avage Laohaldus > Seadistus > Kvaliteedijuhtimine > Toimingud.
-    * Kasutage lehte Toimingud, et määratleda klassifikatsioon tööle, mida saab teha kinnitatud mittevastavuse puhul. Kui seote toimingu mittevastavusega, saate määrata toimingu tegemiseks nõutava teabe seotud materjali, töötundide ja lisakulude kohta. Selle teabe alusel arvutatakse toimingu tegemise hinnanguline kulu.  
-2. Klõpsake valikut Uus.
-3. Tippige väärtus väljale Toimingud.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Sulgege leht.
+1. Navigeerimispaneelil avage **Moodulid > Varude haldus > Seadistus > Kvaliteedihaldus > Toimingud**. Kasutage lehte **Toimingud**, et määratleda klassifikatsioon tööle, mida saab teha kinnitatud mittevastavuse puhul. Kui seote toimingu mittevastavusega, saate määrata toimingu tegemiseks nõutava teabe seotud materjali, töötundide ja lisakulude kohta. Selle teabe alusel arvutatakse toimingu tegemise hinnanguline kulu.  
+2. Valige suvand **Uus**.
+3. Tippige väärtus väljale **Toimingud**.
+4. Sisestage väärtus väljale **Kirjeldus**.
 
 ## <a name="define-problem-types-for-nonconformance-processing"></a>Mittevastavuse töötlemise jaoks probleemitüüpide määatlemine
-1. Avage Laohaldus > Seadistus > Kvaliteedijuhtimine > Probleemi tüübid.
-    * Kasutage lehte Probleemi tüübid mitmesugustes mittevastavuse tüüpides ilmnevate kvaliteediprobleemide klassifikatsiooni määratlemiseks. Mittevastavuse tüübid on Sisemine, Klient, Hankija, Teenuse päring, Tootmine ja Kaastoote tootmine. Üks probleemi tüüp võib olla seotud mitme mittevastavuse tüübiga.  
-2. Klõpsake valikut Uus.
-3. Tippige väärtus väljale Probleemi tüüp.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
-5. Klõpsake suvandit Mittevastavuse tüübid.
-    * Kasutage lehte Mittevastavuse tüübid, et lubada probleemi tüübi kasutamine ühes või enamas mittevastavuse tüübis. Näiteks veakoodiga seotud probleemitüüpi saab rakendada kõigis mittevastavuse tüüpides, samas kui kliendikaebuste probleemitüüpi saab rakendada ainult kliendi ja teenuse taotluse mittevastavuse tüüpides.  
-6. Klõpsake valikut Uus.
-7. Märkige loendis valitud rida.
-8. Valige suvand väljal Mittevastavuse tüüp.
-9. Sulgege leht.
-10. Sulgege leht.
+1. Navigeerimispaneelil avage **Moodulid > Varude haldus > Seadistus > Kvaliteedihaldus > Probleemitüübid**. Kasutage lehte **Probleemi tüübid** mitmesugustes mittevastavuse tüüpides ilmnevate kvaliteediprobleemide klassifikatsiooni määratlemiseks. Mittevastavuse tüübid on **Sisemine**, **Klient**, **Hankija**, **Teenuse päring**, **Tootmine** ja **Kaastoote tootmine**. Üks probleemi tüüp võib olla seotud mitme mittevastavuse tüübiga.  
+2. Valige suvand **Uus**.
+3. Tippige väärtus väljale **Probleemi tüüp**.
+4. Sisestage väärtus väljale **Kirjeldus**.
+5. Valige **Mittevastavuse tüübid**. Kasutage lehte **Mittevastavuse tüübid**, et lubada probleemi tüübi kasutamine ühes või enamas mittevastavuse tüübis. Näiteks veakoodiga seotud probleemitüüpi saab rakendada kõigis mittevastavuse tüüpides, samas kui kliendikaebuste probleemitüüpi saab rakendada ainult kliendi ja teenuse taotluse mittevastavuse tüüpides.  
+6. Valige suvand **Uus**.
+7. Valige suvand väljal **Mittevastavuse tüüp**.
 
 ## <a name="define-quarantine-zones-for-nonconformance-processing"></a>Mittevastavuse töötlemise jaoks vahelao tsoonide määratlemine
-1. Avage Laohaldus > Seadistus > Kvaliteedijuhtimine > Vahelao tsoonid.
-2. Klõpsake valikut Uus.
-3. Tippige väärtus väljale Vahelao tsoon.
-4. Sisestage väljale Kirjeldus soovitud väärtus.
+1. Avage navigeerimispaneelil **Moodulid > Varude haldus > Seadistus > Kvaliteedihaldus > Vahelao tsoonid**.
+2. Valige suvand **Uus**.
+3. Tippige väärtus väljale **Vahelao tsoon**.
+4. Sisestage väärtus väljale **Kirjeldus**.
 5. Sulgege leht.
 

@@ -1,6 +1,6 @@
 ---
 title: Tõrkeotsingu juhend andmete integreerimiseks
-description: See teema pakub tõrkeotsingu teavet andmete integreerimise kohta rakenduste Microsoft Dynamics 365 for Finance and Operations ja Common Data Service vahel.
+description: See teema annab teavet Microsoft Dynamics 365 for Finance and Operations ja Common Data Service’i vahelise andmete integratsiooni tõrkeotsingu kohta.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,50 +19,56 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ca62a6b3aa64ec2383ee3ded3b7bbf4650a41166
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 5e71729dafd2ad85a01b055363d1c7056b5558b2
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797271"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873101"
 ---
 # <a name="troubleshooting-guide-for-data-integration"></a>Tõrkeotsingu juhend andmete integreerimiseks
 
-## <a name="enable-plugin-trace-in-common-data-service-and-check-the-dual-write-plugin-error-details"></a>Lülitage sisse lisandmoodulite jälgimine rakenduses Common Data Service ja kontrollige topeltkirjutamise lisandmooduli vea üksikasju.
+## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Lubage Common Data Service’i lisandmooduli jälituslogid ja kontrollige topeltkirjutamise lisandmooduli vea andmeid
 
-Kui teil esineb probleem või tõrge topeltkirjutamise sünkroonimisega, saate kontrollida vigu jälituslogis.
+[!include [banner](../includes/banner.md)]
 
-1. Enne kui saate vigu kontrollida, peate lubama lisandmooduli jälgimise, kasutades juhiseid teemas [Lisandmooduli registreerimine](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs) lisandmooduli jälgimise lubamiseks. Nüüd saate tõrkeid kontrollida.
-2. Dynamics 365 for Sales-sse sisselogimine
-3. Klõpsake ikoonil Sätted (käik) ja valige **Täpsemad sätted**.
-4. Menüüs **Sätted** valige **Kohandamine > Lisandmooduli jälituslogi**.
-5. Klõpsake tüübi nimetus **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**, et kuvada tõrke üksikasjad.
+[!include [preview](../includes/preview-banner.md)]
 
-## <a name="check-dual-write-synchronization-errors-in-finance-and-operations"></a>Topeltkirjutamise sünkroonimise tõrgete kontrollimine rakenduses Finance and Operations
+Kui kogete topeltkirjutamise sünkroniseerimisel probleemi või viga, järgige jälituslogi vigade kontrollimiseks neid etappe.
 
-Tõrgete kontrollimiseks testimisel toimige järgmiselt.
+1. Enne vigade kontrollimist peate lubama lisandmooduli jälituslogid. Juhised leiate [õpetuse: lisandmooduli kirjutamine ja registreerimine](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs) jaotisest „Jälituslogide vaatamine“.
 
-+ Logige sisse teenusesse Lifecycle Services (LCS).
-+ Avage LCS-i projekt, mille valisite topeltkirjutamise testimiseks.
-+ Avage Pilve majutatud keskkonnad.
-+ Kaugtöölaud Finance and Operations VM, kasutades kohalikku kontot, mis kuvatakse LCS-is.
-+ Aruandevaaturi avamine 
-+ Liikuge **Rakenduste ja teenuste logid > Microsoft > Dynamics > AX-DualWriteSync > Toiming**. Kuvatakse tõrked ja üksikasjad.
+    Nüüd võite vigu kontrollida.
 
-## <a name="how-to-unlink-and-link-another-common-data-service-environment-from-finance-and-operations"></a>Kuidas linkida ja lahti linkida teise Common Data Service’i keskkond rekandusest Finance and Operations.
+2. Logige sisse rakendusse Microsoft Dynamics 365 for Sales.
+3. Valige nupp **Sätted** (hammasratas) ja seejärel suvand **Täpsemad sätted**.
+4. Menüüs **Sätted** valige **Kohandamine\> lisandmooduli jälituslogi**.
+5. Vigade üksikasjade nägemiseks valige tüübi nimeks **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
 
-Saate värskendada linke, järgides neid samme.
+## <a name="inspect-dual-write-synchronization-errors-in-finance-and-operations"></a>Kontrollige Finance and Operationsi topeltkirjutamise sünkroonimise vigu
 
-+ Liikuge Finance and Operationsi keskkonda.
-+ Avage andmehaldus.
-+ Klõpsake **Lingi CDS rakenduste jaoks**.
-+ Valige kõik töötavad vastendused ja klõpsake nuppu **Peata**. 
-+ Valige kõik töötavad vastendused ja klõpsake nuppu **Kustuta**.
+Järgige neid juhiseid, et kontrollida testimise ajal vigu.
+
+1. Microsoft Dynamics Lifecycle Services’i (LCS) sisselogimine.
+2. Avage LCS projekt, mille topeltkirjutamist testida.
+3. Valige **Pilve majutatud keskkonnad**.
+4. Looge kaugtöölaua ühendus Dynamics 365 for Finance and Operationsi virtuaalarvutiga (VM), kasutage selleks LCS-is näidatavat kohalikku kontot.
+5. Avage sündmusevaatur. 
+6. Minge **Rakenduste ja teenuste logid \> Microsoft \> Dynamics \> AX-DualWriteSync \> Toiming**. Näidatakse tõrkeid ja üksikasju.
+
+## <a name="unlink-one-common-data-service-environment-from-finance-and-operations-and-link-another-environment"></a>Linkige lahti üks Common Data Service’i keskkond rakendusest Finance and Operations ja linkige teine keskkond
+
+Linkide värskendamiseks tehke järgmist.
+
+1. Minge Finance and Operationsi keskkonda.
+2. Avage andmehaldus.
+3. Valige **CDS rakenduste jaoks link**.
+4. Valige kõik töötavad vastendused ja seejärel valige **Peata**
+5. Valige kõik töötavad vastendused ja seejärel valige nuppu **Kustuta**.
 
     > [!NOTE]
-    > Suvandit **Kustuta** ei kuvata, kui mall **CustomerV3-Account** on valitud. Vajaduse korral tühistage see valik. **CustomerV3-Account** on vanem ettevalmistatud mall ja töötab raha väljavaate lahendusega. Kuna see on välja antud ülemaailmselt, kuvatakse see kõigi mallide puhul.
+    > Suvand **Kustuta** pole saadaval, kui mall **CustomerV3-Account** on valitud. Vajadusel tühjendage selle malli valik. **CustomerV3-Account** on vanem ettevalmistatud mall ja töötab raha väljavaate lahendusega. Kuna see on välja antud ülemaailmselt, näidatakse seda kõigi mallide puhul.
 
-+ Klõpsake nuppu **Tühista keskkonna link**.
-+ Kinnitamiseks klõpsake **Jah**.
-+ Uue keskkonna linkimiseks järgige [installimise juhendis](https://aka.ms/dualwrite-docs) olevaid juhiseid.
-
+6. Valige nupp **Tühista keskkonna link**.
+7. Toimingu kinnitamiseks valige **Jah**.
+8. Uue keskkonna linkimiseks järgige [installimise juhendis](https://aka.ms/dualwrite-docs) olevaid juhiseid.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0dfbcf70493a43320e17d4d2734fe6343d43eaf3
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1d6df2068f99a42764fc13f282a7c38099109e06
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850323"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887083"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Konfiguratsiooni pakkujate loomine ja nende märkimine aktiivseks
 
@@ -44,3 +44,4 @@ Selles teemas selgitatakse, kuidas süsteemiadministraatori või elektroonilise 
 1. Valige pakkuja Litware, Inc.
 2. Valige **Määra aktiivseks**.
 
+![Elektroonilise aruandluse tööruumi leht](../media/GER-Task-ActiveProvider-1.png)

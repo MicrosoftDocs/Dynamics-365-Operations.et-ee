@@ -3,7 +3,7 @@ title: Kliendi jaoks mahakandmise töölehe loomine
 description: See ülesande juhend näitab, kuidas seadistada mahakandmiste parameetreid ja seejärel kandeid lehelt Sissenõuded, Kliendiarvete avamine ja Klient maha kanda.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44f36a12195a57e1b4cea524d2e4881f1fa7d0e9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2422f0a9d168daa76d105099c8b7455c97f92125
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1842925"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916319"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Kliendi jaoks mahakandmise töölehe loomine
 
@@ -31,59 +31,56 @@ See ülesande juhend näitab, kuidas seadistada mahakandmiste parameetreid ja se
 
 
 ## <a name="set-up-the-write-off-parameters"></a>Mahakandmise parameetrite seadistamine
-1. Tehke valik Krediit ja sissenõuded > Seadistus > Ostureskontro parameetrid.
-2. Klõpsake vahekaarti Sissenõuded.
-3. Laiendage või ahendage jaotist Mahakandmine.
-    * Mahakandmise tööleht on peažurnaal, millel on teie loodud mahakandmise kanded.  
-    * Saate lisada igale mahakandmisele põhjusekoodi. Saate selle vaikeväärtuse mahakandmisel alistada.  
-    * Kui soovite mahakandmisel käibemaksu algsest kandest eristada, määrake see suvandile Jah.  
+1. Avage **Navigeerimispaan > Moodulid > Krediidihaldus ja võlanõuded > Seadistus > Müügireskontro parameetrid**.
+2. Klõpsake vahekaarti **Võlanõuded**.
+3. Laiendage või ahendage jaotis **Mahakandmine**.
+    - **Mahakandmise tööleht** on päevaraamat, mis hoiustab teie loodud mahakandmiskandeid.  
+    - Saate lisada igale mahakandmisele põhjusekoodi. Saate selle vaikeväärtuse mahakandmisel alistada.  
+    - Seadke suvandi **Eralda käibemaks** väärtuseks Jah, kui soovite eraldada käibemaksu algsest kandest mahakandmisel.  
 4. Sulgege leht.
-5. Avage Krediit ja sissenõuded > Seadistus > Kliendi sisestusreeglid.
-    * Mahakandmiskontot kasutatakse peažurnaalil kulu kontona või korrigeerimise reserveerimiseks   
+5. Avage **Krediit ja sissenõuded > Seadistus > Kliendi sisestusreeglid**. Mahakandmise kontot kasutatakse kulukontona või reservi kohandamiseks pearaamatus.
 6. Sulgege leht.
 
 ## <a name="write-off-a-customer-balance-from-the-aged-balances-page"></a>Kliendi saldo mahakandmine aegunud saldode lehelt
-1. Tehke valik Krediit ja sissenõuded > Sissenõuded > Aegunud saldod.
+1. Avage **Krediit ja sissenõudmised > Sissenõudmised > Aegunud kliendisaldod**.
 2. Märkige kliendi puhul rida, mille soovite maha kanda. Näiteks märkige rida, millel on ettevõte Birch Company.
-3. Klõpsake toimingupaanil suvandit Sissenõudmine.
-4. Klõpsake valikut Mahakandmine.
-5. Klõpsake nuppu OK.
+3. Paanil **Toimingupaan** klõpsake **Võta vastu**.
+4. Klõpsake **Kanna maha**.
+5. Klõpsake valikut **OK**.
 6. Sulgege leht.
-7. Avage Pearaamat > Töölehe sisestused > Päevaraamatud.
-8. Valige töölehe partiinumber töölehe puhul, mis sisaldab teie mahakandmist.
-    * Kliendi saldo tühistamiseks luuakse üks rida. Üks või mitu rida luuakse mahakandmise sisestamiseks mahakandmiskontole.  
+7. Avage **Navigeerimispaan > Moodulid > Pearaamat > Töölehe kanded > Päevaraamatud**.
+8. Valige töölehe partiinumber töölehe puhul, mis sisaldab teie mahakandmist. Kliendi saldo tühistamiseks luuakse üks rida. Üks või mitu rida luuakse mahakandmise sisestamiseks mahakandmiskontole.  
 9. Sulgege leht.
 10. Sulgege leht.
 
 ## <a name="write-off-transactions-from-the-collections-form"></a>Kannete mahakandmine sissenõuete vormilt.
-1. Tehke valik Krediit ja sissenõuded > Sissenõuded > Aegunud saldod.
+1. Avage **Krediit ja sissenõudmised > Sissenõudmised > Aegunud kliendisaldod**.
 2. Valige kliendi nimi, kelle kandeid soovite maha kanda. Näiteks valige Cave Wholesales (US-004).
 3. Märkige esimese kande rida.
 4. Märkige teise kande rida.
-5. Klõpsake valikut Mahakandmine.
-6. Sisestage väljale Põhjuse kommentaar suvand Halvad võlad.
-7. Klõpsake nuppu OK.
+5. Klõpsake **Kanna maha**.
+6. Väljale **Põhjuse kommentaar** sisestage "Halvad võlad".
+7. Klõpsake valikut **OK**.
 8. Sulgege leht.
 9. Sulgege leht.
-10. Avage Pearaamat > Töölehe sisestused > Päevaraamatud.
-11. Valige töölehe partiinumber töölehe puhul, mis sisaldab teie mahakandmist.
-    * Kliendi saldo tühistamiseks luuakse üks rida. Üks või mitu rida luuakse mahakandmise sisestamiseks mahakandmiskontole.  
+10. Avage **Pearaamat > Töölehe kanded > Päevaraamatud**.
+11. Valige töölehe partiinumber töölehe puhul, mis sisaldab teie mahakandmist. Kliendi saldo tühistamiseks luuakse üks rida. Üks või mitu rida luuakse mahakandmise sisestamiseks mahakandmiskontole.  
 12. Sulgege leht.
 13. Sulgege leht.
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Arve mahakandmine lehelt Klientide arvete avamine
-1. Avage Müügireskontro > Arved > Kliendiarvete avamine.
+1. Avage **Navigeerimispaan > Moodulid > Müügireskontro > Arved > Avatud kliendiarved**.
 2. Märkige arve rida. Näiteks, märkige rida CIV-000667 jaoks.
-3. Klõpsake toimingupaanil valikut Arve.
-4. Klõpsake valikut Mahakandmine.
-5. Klõpsake nuppu OK.
+3. Paanil **Toimingupaan** klõpsake **Arve**.
+4. Klõpsake **Kanna maha**.
+5. Klõpsake valikut **OK**.
 6. Sulgege leht.
 
 ## <a name="write-off-a-customer-balance-from-the-customer-page"></a>Kliendi saldo mahakandmine kliendi lehelt
-1. Avage Müügireskontro > Kliendid > Kõik kliendid.
+1. Avage **Müügireskontro > Kliendid > Kõik kliendid**.
 2. Valige kliendi konto. Näiteks valige US-001 (Contoso Retail San Diego).
-3. Klõpsake toimingupaanil suvandit Sissenõudmine.
-4. Klõpsake valikut Mahakandmine.
-5. Klõpsake nuppu OK.
+3. Paanil **Toimingupaan** klõpsake **Võta vastu**.
+4. Klõpsake **Kanna maha**.
+5. Klõpsake valikut **OK**.
 6. Sulgege leht.
 

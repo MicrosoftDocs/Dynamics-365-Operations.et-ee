@@ -2,8 +2,8 @@
 title: Valemikoostaja elektroonilises aruandluses (ER)
 description: Selles teemas selgitatakse, kuidas kasutada elektroonilises aruandluses (ER) valemikoostajat.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
+manager: kfend
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1f6caa6afd0ce36340caf237c1acca0ea343824f
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849505"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864290"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Valemikoostaja elektroonilises aruandluses (ER)
 
@@ -113,6 +113,33 @@ ER-i valemikoostajat saab kasutada ka failinime loomiseks loodavale elektroonili
 - Avaldis lubab (andes vatuseks väärtuse **TRUE**) faili loomise protsessi partiidele, mis sisaldavad vähemalt ühte kirjet.
 
 [![Faili juhtimine](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+
+### <a name="documents-content-control"></a>Dokumentide sisu juhtelement
+
+ER-valemi koostajaga saab seadistada väljendeid, millega valitakse, mis andmeid asetatakse käitusajal loodud elektroonilistesse dokumentidesse. Väljendid võivad lubada või keelata vormingu teatud elementide väljundit vastavalt töödeldavatele andmetele ja seadistatud loogikale. Neid väljendeid saab sisestada ühes vormingus elemendi puhul lehe **Tegevuste kujundaja** vahekaardi **Vastendamine** välja **Lubatud**, kui väärtust **Loogika** taastav loogika tingimus:
+
+-   kui tulemiks on **Tõene**, käivitatakse praegune vormingu element;
+-   kui tulemiks on **Väär**, jäetakse vahele praegune vormingu element.
+
+Järgmine joonis näitab sellist tüüpi väljendeid (näiteks Microsofti **ISO20022 krediidiedastuse (NO)** versiooni **11.12.11** vormingu seadistus). **XMLHeader** vormingu komponent kirjeldab krediidi edastamise sõnumi ülesehitust vastavalt ISO 20022 XML sõnumi standarditele. Vormingu komponent **XMLHeader/Document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** lisab loodud sõnumi, XML elemendi **Ustrd** ja asetab rahaülekande teabe struktureerimata vormingus järgmistest XML elementidest:
+
+-   Komponendiga **PaymentNotes** väljastatakse maksemärkmete teksti.
+-   Komponent **DelimitedSequence** väljastab komaga eraldatud arve numbreid, millega arveldatakse praegune krediidiedastus.
+
+[![Tegevuste kujundaja](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+
+> [!NOTE]
+> Komponendid **PaymentNotes** ja **DelimitedSequence** sildistatakse küsimärgiga. See tähendab seda, et mõlema komponendi kasutamine on tingimuslik vastavalt järgmisele nõudele:
+
+-   **PaymentNote**’i komponendi puhul lubab väljend **@.PaymentsNotes<>""** XML elemendi **Ustrd** sisu (andes lahendiks **TÕENE**). Maksemärkmete tekst, kui praeguse krediidiedastuse tekst pole tühi.
+
+[![Tegevuste kujundaja](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+
+-   Komponendi **DelimitedSequence** puhul lubab väljend **@.PaymentsNotes=""** (andes lahendiks **TÕENE**) XML elemendi **Ustrd** sisu. Komadega eraldatud arve numbrid, millega arveldatakse praegust krediidiedastust, kui selle krediidiedastuse maksemärkmete tekst on tühi.
+
+[![Tegevuste kujundaja](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+
+Vastavalt sellele seadele sisaldab selle makse arveldamiseks iga võlgniku makse (XML-elemendi **Ustrd**) jaoks loodud sõnum makse märkusi või sellise teksti puudumisel komaga eraldatud arve numbreid.
 
 ### <a name="basic-syntax"></a>Põhisüntaks
 

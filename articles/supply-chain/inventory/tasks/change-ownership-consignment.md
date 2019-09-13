@@ -3,7 +3,7 @@ title: Kaubavaru omandiõiguse muutmine tootmise nõudluse põhjal
 description: See protseduur näitab, kuidas määrata saadetise varude omanikuks hankija asemel teie juriidiline isik, kui on olemas nõudlus tootmises olevate varude järele.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9587d39801ad39649aa5fa3ff682cdeab411516e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1cf45e838afcb55e15175811f4d38be07d7a484d
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838795"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874873"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Kaubavaru omandiõiguse muutmine tootmise nõudluse põhjal
 
@@ -30,6 +30,8 @@ ms.locfileid: "1838795"
 
 See protseduur näitab, kuidas määrata saadetise varude omanikuks hankija asemel teie juriidiline isik, kui on olemas nõudlus tootmises olevate varude järele. See omandiõiguse muutmine toimub varude omandiõiguse muutmise töölehe sisestamisega. Omandiõiguse muutmise töölehe ridu saab luua käsitsi või (nagu selles salvestises näidatud) olemasoleva tootmise nõudluse põhjal. Tavaliselt teeb seda tööde järelevaataja. Saate seda protseduuri kasutada demoettevõttes USMF või oma andmeid kasutades. Kui kasutate oma andmeid, siis veenduge, et teil oleksid olemas järgmised eeltingimused: varude töölehe nimi, mis on seadistatud varude omandiõiguse muutmiseks, füüsiliselt registreeritud hankijale kuuluvad vabad kaubad ja vähemalt üks materjali tootmistellimuse rida. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
 
+> [!NOTE]
+> Väljaminevate saadetiste protsesse ei toetata valmiskujul ja automaatset omandiõiguse päeviku töötlemist ei toetata.
 
 ## <a name="create-an-inventory-ownership-journal"></a>Varude omanikuvahetuse töölehe loomine
 1. Minge jaotisse Varud > Töölehe sisestused > Kaubad > Varude omanikuvahetus.

@@ -1,9 +1,9 @@
 ---
 title: Piirangutega plaani koostamine
-description: Selles protseduuris näitlikustatakse, kuidas luua plaani, mis võtab arvesse nii materjali kui ka võimsuse piiranguid.
+description: Selles teemas selgitatakse, kuidas luua plaani, mis arvestab nii materiaalsete kui ka võimsuse piirangutega.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72cddd58b7068e08cddf24df83da8da2f7af7168
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6b5d37de41fe68845cec3f2285aed2484ac117aa
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845285"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867169"
 ---
 # <a name="generate-a-constrained-plan"></a>Piirangutega plaani koostamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Selles protseduuris näitlikustatakse, kuidas luua plaani, mis võtab arvesse nii materjali kui ka võimsuse piiranguid. Plaan tagab, et tootmine ei käivitu enne, kui materjalid on olemas ja ressursid pole üle broneeritud. 
+Selles teemas selgitatakse, kuidas luua plaani, mis arvestab nii materiaalsete kui ka võimsuse piirangutega. Plaan tagab, et tootmine ei käivitu enne, kui materjalid on olemas ja ressursid pole üle broneeritud. 
 
 Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protseduur on mõeldud tootmisplaanijale.
 
 
 ## <a name="set-up-a-constrained-plan"></a>Piirangutega plaani seadistamine
-1. Klõpsake valikul Koondplaneerimine.
-2. Klõpsake valikul Koondplaneerimise plaanid.
-3. Otsige loendist ja valige soovitud kirje.
-    * Näide: StaticPlan  
-4. Valige väljal Piiratud võimsus suvand Jah.
-5. Sisestage väärtus „30” väljale Piiratud võimsus.
-6. Laiendage jaotist Ajapiirid päevades.
-7. Valige väljal Võimsus suvand Jah.
-8. Sisestage arv väljale Võimsuse plaanimise ajapiir (päevades).
-    * Näide: 60  
-9. Valige väljal Arvutatud hilinemised suvand Jah.
-10. Sisestage arv väljale Hilinemiste ajapiiri arvutamine (päevades).
-    * Näide: 60  
-11. Laiendage jaotist Arvutatud hilinemised.
-12. Valige suvand Jah väljal Arvutatud hilinemise lisamine vajaduse kuupäevale.
-13. Valige suvand Jah väljal Arvutatud hilinemise lisamine vajaduse kuupäevale.
-14. Valige suvand Jah väljal Arvutatud hilinemise lisamine vajaduse kuupäevale.
-15. Sulgege leht.
+1. Avalehel valige tööruum **Koondplaneerimine**.
+2. Valige tööruumi kõige parempoolsemalt küljelt linkide loendist **Koondplaan**.
+3. Otsige loendist ja valige soovitud kirje. Näide: **StaticPlan**  
+4. Valige väärtus **Jah** väljal **Piiratud võimsus**.
+5. Väljale **Piiratud võimsuse ajapiir** sisestage `30`.
+6. Laiendage jaotist **Ajapiir päevades**.
+7. Valige väärtus **Jah** väljal **Võimsus**.
+8. Väljale **Võimsuse plaanimise ajapiir (päevad)** sisestage arv. Näide: `60`  
+9. Valige väärtus **Jah** väljal **Arvutatud hilinemised**.
+10. Väljale **Arvuta hilinemiste ajapiir (päevad)** sisestage arv. Näide: `60` 
+11. Laiendage jaotist **Arvutatud hilinemised**.
+12. Valige väärtus **Jah** kõigile suvandi **Lisa arvutatud hilinemine vajaduse kuupäevale** väljadele.
+13. Sulgege leht.
 
 ## <a name="create-a-constrained-plan"></a>Piirangutega plaani loomine
-1. Klõpsake nuppu Käivita.
-2. Sisestage või valige väärtus väljal Koondplaan.
-    * Valige plaan, millele olete piirangud seadistanud.  
-3. Klõpsake nuppu OK.
-    * See võib veidi aega võtta.  
-4. Klõpsake valikut Planeeritud tellimused.
+1. Valige käsk **Käitus**.
+2. Väljale **Koondplaan** sisestage või valige plaan, millele soovite seadistada piiranguid.  
+3. Valige nupp **OK**.
+4. Valige **Plaanitud tellimused**.
 

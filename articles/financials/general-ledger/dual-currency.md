@@ -3,7 +3,7 @@ title: Topeltvaluuta
 description: Selles teemas antakse teavet topeltvaluuta kohta, kui kasutatakse rakenduses Microsoft Dynamics 365 for Finance and Operations kasutatakse teise arvestusvaluutana aruandlusvaluutat.
 author: kweekley
 manager: AnnBe
-ms.date: 05/06/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,31 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dfd4c116552510ee42cd2f3e8a0f31100826b9d2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5128ea9daaf22ee962ca5fc70a05cba05c7edb
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839397"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867507"
 ---
 # <a name="dual-currency"></a>Topeltvaluuta
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 8.1 (oktoober 2018) kasutusele võetud funktsionaalsus võimaldab aruandlusvaluuta ümberkorraldamist ja teise arvestusvaluutana kasutamist. Sellele funktsioonile viidatakse ka kui *topeltvaluutale*. Topeltvaluuta muudatusi ei saa konfiguratsioonivõtme või parameetri kaudu välja lülitada. Kuna aruandlusvaluutat kasutatakse teise arvestusvaluutana, on aruandlusvaluuta arvestamise meetodi sisestusloogika muutunud.
 
-Lisaks on erinevad moodulid täiustatud aruandlusvaluutat erinevates protsessides jälgima, esitama ja kasutama. Moodulid, mida see mõjutab, on **Pearaamat**, **Finantsaruandlus**, **Ostureskontro**, **Müügireskontro**, **Sularaha- ja pangahaldus** ja **Põhivara**. Pärast uuendamist peate täitma teatud sularaha- ja pangahalduse ning põhivara etapid. Seetõttu lugege selle teema asjakohaseid jaotisi hoolikalt.
+Lisaks on täiustatud mitmeid mooduleid aruandlusvaluuta jälgimiseks, aruandluseks ja kasutamiseks erinevates protsessides. Mõjutatud moodulid on järgmised:
+
+- Pearaamat 
+- Finantsaruandlus 
+- Ostureskontro
+- Müügireskontro 
+- Sularaha- ja pangahaldus 
+- Põhivarad 
+- Konsolideerimised
+
+Pärast uuendamist peate täitma teatud sularaha- ja pangahalduse ning põhivara etapid. Seega lugege ja mõistke kindlasti selle teema asjakohaseid jaotisi.
 
 ## <a name="posting-process"></a>Sisestamise protsess
 
@@ -75,6 +86,7 @@ Järgmised moodulid kasutavad aruandlusvaluutat teise arvestusvaluutana.
 - [Müügireskontro](#accounts-payable-and-accounts-receivable)
 - [Sularaha- ja pangahaldus](#cash-and-bank-management)
 - [Põhivarad](#fixed-assets)
+- [Konsolideerimised](#consolidations)
 
 ### <a name="general-ledger"></a>Pearaamat
 
@@ -124,6 +136,8 @@ Eelnevalt ei jälginud moodul **Põhivara** iga põhivararaamatu kande aruandlus
 Lisaks tehti olulisi muudatusi kulumiarvestuse protsessis. Need muudatused nõuavad kasutajalt pärast uuendamist tegevusi. On oluline, et loete ja mõistate järgmiseid muudatusi, isegi kui te veel põhivara ei kasuta.
 
 - Muutunud on see, kuidas kulumiarvestuse protsess määrab kindlaks aruandlusvaluuta summa. Järgnev stsenaarium võrdleb kuidas kulumiarvestus eelnevalt aruandlusvaluuta summa kindlaks määras ning kuidas see aruandlusvaluuta summat nüüd määrab.
+
+
 
     **Kulumi stsenaarium**
 
@@ -186,3 +200,13 @@ Lisaks tehti olulisi muudatusi kulumiarvestuse protsessis. Need muudatused nõua
     - Kui kulumi kande tüüp on põhivara töölehele sisestatud, kuvatakse uutes veergudes aruandlusvaluuta summasid. Neid summasid saab muuta.
     - Kui arvestusvaluuta ja pearaamatu aruandlusvaluuta on sama, hoitakse summasid sünkroonituna. Kui muudate **Kreediti** summa **Kreedit aruandlusvaluutas** all, muudetakse summa automaatselt sellele vastavaks.
     - Kui põhivara töölehele sisestatakse mistahes muu kandetüüp, ei näidata kunagi summasid **Deebet aruandlusvaluutas** ja **Kreedit aruandlusvaluutas**, ei enne ega pärast sisestamist. Arvestusvaluuta ja aruandlusvaluuta summad on siiski saadaval kandes, mis sisestatakse pearaamatusse.
+    
+### <a name="consolidations"></a>Konsolideerimised
+    
+Microsoft Dynamics 365 for Finance and Operations versioonis 10.0.5 (2019. aasta oktoober) saab funktsioone hallata funktsioonide halduse kaudu, et konsolideerimine ja topeltvaluuta oleksid veelgi paindlikumad. Selle funktsiooni lubamiseks minge tööruumi **Funktsioonide haldus** ja valige **Luba topeltvaluuta pearaamatu konsolideerimisel**.
+
+Pearaamatu konsolideerimisel on nüüd võimalik konsolideerida lähteettevõtete arvestus- või aruandlusvaluuta summasid. Kui arvestus- või aruandlusvaluuta on sama, mis konsolideeritava ettevõte arvestus- või aruandlusvaluuta, siis summad kopeeritakse, selmet ümber arvutada.
+
+-  Nüüd saate valida, kas kasutada lähteettevõtte arvestus- või aruandlusvaluutat konsolideeritava ettevõtte tehingu valuutana.
+
+- Lähteettevõtte arvestus- või aruandlusvaluuta summad kopeeritakse ots konsolideeritava ettevõte arvestus- või aruandlusvaluuta summadele, kui üks neist on sama. Konsolideeritava ettevõte arvestus- ja aruandlusvaluuta summad arvutatakse vahetuskursi alusel, kui ükski neist valuutadest pole sama.

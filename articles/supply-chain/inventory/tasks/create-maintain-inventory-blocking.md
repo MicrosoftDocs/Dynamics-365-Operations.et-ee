@@ -3,7 +3,7 @@ title: Varude blokeerimise loomine ja haldamine
 description: See protseduur näitab, kuidas vältida füüsilise vaba kaubavaru reserveerimist teiste väljaminevate lähtedokumentidega, kasutades varude blokeerimist.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 845d517ad10245df3b208874df61e235c199c7fe
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b2485eaf31226b11106895074ae0ad95e561777b
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836393"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916595"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Varude blokeerimise loomine ja haldamine
 
@@ -32,28 +32,23 @@ See protseduur näitab, kuidas vältida füüsilise vaba kaubavaru reserveerimis
 
 
 ## <a name="create-an-inventory-blocking"></a>Varude blokeerimise loomine
-1. Avage Varude haldus > Perioodilised ülesanded > Varude blokeerimine.
-2. Klõpsake valikut Uus.
-3. Klõpsake väljal Kaubakood otsingu avamiseks ripploendi nuppu.
-4. Valige loendist kaup, mille soovite valida. 
-    * Valige kauba number koos füüsilise vaba kaubavaruga, mida soovite blokeerida. USMF-i kasutamisel saate valida kauba M9201.  
-5. Sisestage arv väljale Kogus.
-    * Kauba M9201 kasutamisel peate valima alla 200.  
-6. Laiendage jaotist Varude dimensioonid.
-7. Klõpsake väljal Ladu otsingu avamiseks ripploendi nuppu.
-8. Otsige loendist ja valige soovitud kirje.
-    * Kauba M9201 kasutamisel saate valida lao 51.  
-9. Klõpsake nuppu Salvesta.
+1. Paanil **Navigeerimispaan** avage **Moodulid > Varude haldus > Perioodilised ülesanded > Varude blokeerimine**.
+2. Klõpsake valikut **Uus**.
+3. Väljal **Kaubakood** klõpsake ripploendi nuppu, et avada otsing.
+4. Valige loendist kaup, mille soovite valida. Valige kauba number koos füüsilise vaba kaubavaruga, mida soovite blokeerida. USMF-i kasutamisel saate valida kauba M9201.  
+5. Sisestage arv väljale **Kogus**. Kauba M9201 kasutamisel peate valima alla 200.
+6. Laiendage vahekaart **Varude dimensioonid**.
+7. Väljal **Ladu** klõpsake ripploendi nuppu, et avada otsing.
+8. Otsige loendist ja valige soovitud kirje. Kauba M9201 kasutamisel saate valida lao 51.  
+9. Klõpsake valikut **Salvesta**.
 
 ## <a name="update-the-conditions-of-the-inventory-blocking"></a>Varude blokeerimise tingimuste värskendamine
-1. Sisestage arv väljale Kogus.
-    * Blokeeritava koguse kajastamiseks värskendage varude koguse välja.  
-2. Sisestage kuupäev väljale Eeldatav kuupäev.
-    * Võite soovida näidata, millal blokeeritud varud peaks reserveerimiseks saadaolevaks muutuma, määrates eeldatava kuupäeva. Kui suvand Prognoositud sissetulekud on varude blokeerimise puhul valitud, nagu blokeerimise käsitsi loomisel vaikimisi, kuvatakse see kuupäev prognoositud kandel.  
-3. Klõpsake nuppu Salvesta.
+1. Sisestage arv väljale **Kogus** kiirkaardil **Üldine**. Blokeeritava koguse kajastamiseks värskendage varude koguse välja.  
+2. Väljale **Eeldatav kuupäev** sisestage kuupäev. Võite soovida näidata, millal blokeeritud varud peaks reserveerimiseks saadaolevaks muutuma, määrates eeldatava kuupäeva. Kui suvand Prognoositud sissetulekud on varude blokeerimise puhul valitud, nagu blokeerimise käsitsi loomisel vaikimisi, kuvatakse see kuupäev prognoositud kandel.  
+3. Klõpsake valikut **Salvesta**.
 
 ## <a name="remove-the-inventory-blocking"></a>Varude blokeerimise eemaldamine
-1. Klõpsake  Kustuta.
-2. Klõpsake nuppu Jah.
+1. Klõpsake paanil **Toimingupaan** käsku **Kustuta**.
+2. Klõpsake nuppu **Jah**.
 3. Sulgege leht.
 
