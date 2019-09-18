@@ -17,35 +17,35 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7e00a6e4fc01f72e1ef2347e08754997135215ed
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8e7348a515b08523c15aa8f74d5616a3daf645b7
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517822"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741794"
 ---
-# <a name="reporting-options-in-talent"></a><span data-ttu-id="147cf-103">Talenti aruandlusvõimalused</span><span class="sxs-lookup"><span data-stu-id="147cf-103">Reporting options in Talent</span></span>
+# <a name="reporting-options-in-talent"></a><span data-ttu-id="a3a0e-103">Talenti aruandlusvõimalused</span><span class="sxs-lookup"><span data-stu-id="a3a0e-103">Reporting options in Talent</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="147cf-104">**Keskkonna üksikasjad**</span><span class="sxs-lookup"><span data-stu-id="147cf-104">**Environment details**</span></span>
+<span data-ttu-id="a3a0e-104">**Keskkonna üksikasjad**</span><span class="sxs-lookup"><span data-stu-id="a3a0e-104">**Environment details**</span></span>
 
-<span data-ttu-id="147cf-105">Probeem kehtib kõigile keskkondadele.</span><span class="sxs-lookup"><span data-stu-id="147cf-105">This issue applies to all environments.</span></span>
+<span data-ttu-id="a3a0e-105">Probeem kehtib kõigile keskkondadele.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-105">This issue applies to all environments.</span></span>
 
-<span data-ttu-id="147cf-106">**Sümptom**</span><span class="sxs-lookup"><span data-stu-id="147cf-106">**Symptom**</span></span>
+<span data-ttu-id="a3a0e-106">**Sümptom**</span><span class="sxs-lookup"><span data-stu-id="a3a0e-106">**Symptom**</span></span>
 
-<span data-ttu-id="147cf-107">Klient soovib kohandada rakenduse Microsoft Dynamics 365 for Talent aruandeid või luua uusi aruandeid.</span><span class="sxs-lookup"><span data-stu-id="147cf-107">The customer wants to customize Microsoft Dynamics 365 for Talent reports or create new reports.</span></span>
+<span data-ttu-id="a3a0e-107">Klient soovib kohandada rakenduse Microsoft Dynamics 365 for Talent aruandeid või luua uusi aruandeid.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-107">The customer wants to customize Microsoft Dynamics 365 for Talent reports or create new reports.</span></span>
 
-<span data-ttu-id="147cf-108">**Väljastamine**</span><span class="sxs-lookup"><span data-stu-id="147cf-108">**Issue**</span></span>
+<span data-ttu-id="a3a0e-108">**Väljastamine**</span><span class="sxs-lookup"><span data-stu-id="a3a0e-108">**Issue**</span></span>
 
-<span data-ttu-id="147cf-109">Kasutaja ei saa kohandada manustatud Microsoft Power BI aruandeid.</span><span class="sxs-lookup"><span data-stu-id="147cf-109">The user can't customize the embedded Microsoft Power BI reports.</span></span>
+<span data-ttu-id="a3a0e-109">Kasutaja ei saa kohandada manustatud Microsoft Power BI aruandeid.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-109">The user can't customize the embedded Microsoft Power BI reports.</span></span>
 
-<span data-ttu-id="147cf-110">**Lahendus**</span><span class="sxs-lookup"><span data-stu-id="147cf-110">**Solution**</span></span>
+<span data-ttu-id="a3a0e-110">**Lahendus**</span><span class="sxs-lookup"><span data-stu-id="a3a0e-110">**Solution**</span></span>
 
-- <span data-ttu-id="147cf-111">Core HR-i andmete voogu teenusesse Common Data Service saab esitada rakendusse PowerApps Common Data Service Power BI Desktop konnektori kaudu.</span><span class="sxs-lookup"><span data-stu-id="147cf-111">The Core HR data that flows to Common Data Service can be reported on via the PowerApps Common Data Service connector to Power BI Desktop.</span></span> <span data-ttu-id="147cf-112">Pange tähele, et teenus Common Data Service sisaldab Core HR-i andmete alamkogumit.</span><span class="sxs-lookup"><span data-stu-id="147cf-112">Note that Common Data Service contains a subset of Core HR data.</span></span> <span data-ttu-id="147cf-113">Lisateavet Power BI ja armatuurlaudade kohta vt teemast [Power BI aruannete ja armatuurlaudade loomine teenuse PowerApps Common Data Service abil](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi).</span><span class="sxs-lookup"><span data-stu-id="147cf-113">For more information about Power BI and dashboards, see [Create Power BI reports and dashboards with PowerApps Common Data Service](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi).</span></span>
-- <span data-ttu-id="147cf-114">Mõnedele aruannetele on Talentis saadaval elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="147cf-114">Electronic reporting (ER) is available for some reports in Talent.</span></span> <span data-ttu-id="147cf-115">Kliendi juhitud kohandamisi saab teha ER-i konfiguratsioonivalikute kaudu.</span><span class="sxs-lookup"><span data-stu-id="147cf-115">Customer-driven customizations can be done via the ER configuration options.</span></span>
-- <span data-ttu-id="147cf-116">Andmed saab eksportida Microsoft Excelisse või Microsoft Wordi, kasutades mitmesuguseid andmeüksuseid, mida rakendus Talent pakub Microsoft Office’i integratsiooni kaudu.</span><span class="sxs-lookup"><span data-stu-id="147cf-116">Data can be exported to Microsoft Excel or Microsoft Word by using the various data entities that Talent provides through the Microsoft Office integration.</span></span>
+- <span data-ttu-id="a3a0e-111">Core HR-i andmete voogu teenusesse Common Data Service saab esitada rakendusse PowerApps Common Data Service Power BI Desktop konnektori kaudu.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-111">The Core HR data that flows to Common Data Service can be reported on via the PowerApps Common Data Service connector to Power BI Desktop.</span></span> <span data-ttu-id="a3a0e-112">Pange tähele, et teenus Common Data Service sisaldab Core HR-i andmete alamkogumit.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-112">Note that Common Data Service contains a subset of Core HR data.</span></span> <span data-ttu-id="a3a0e-113">Lisateavet Power BI ja armatuurlaudade kohta vt teemast [Power BI aruannete ja armatuurlaudade loomine teenuse PowerApps Common Data Service abil](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).</span><span class="sxs-lookup"><span data-stu-id="a3a0e-113">For more information about Power BI and dashboards, see [Create Power BI reports and dashboards with PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).</span></span>
+- <span data-ttu-id="a3a0e-114">Mõnedele aruannetele on Talentis saadaval elektrooniline aruandlus.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-114">Electronic reporting (ER) is available for some reports in Talent.</span></span> <span data-ttu-id="a3a0e-115">Kliendi juhitud kohandamisi saab teha ER-i konfiguratsioonivalikute kaudu.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-115">Customer-driven customizations can be done via the ER configuration options.</span></span>
+- <span data-ttu-id="a3a0e-116">Andmed saab eksportida Microsoft Excelisse või Microsoft Wordi, kasutades mitmesuguseid andmeüksuseid, mida rakendus Talent pakub Microsoft Office’i integratsiooni kaudu.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-116">Data can be exported to Microsoft Excel or Microsoft Word by using the various data entities that Talent provides through the Microsoft Office integration.</span></span>
 
-<span data-ttu-id="147cf-117">**Pikaajaline lahendus**</span><span class="sxs-lookup"><span data-stu-id="147cf-117">**Long-term solution**</span></span>
+<span data-ttu-id="a3a0e-117">**Pikaajaline lahendus**</span><span class="sxs-lookup"><span data-stu-id="a3a0e-117">**Long-term solution**</span></span>
 
-<span data-ttu-id="147cf-118">Saadaval on Power BI lisasuvandid ning teenusesse Common Data Service kuulub rohkem andmeid ja üksuseid.</span><span class="sxs-lookup"><span data-stu-id="147cf-118">Additional Power BI options will be available, and more data and entities will be part of Common Data Service.</span></span>
+<span data-ttu-id="a3a0e-118">Saadaval on Power BI lisasuvandid ning teenusesse Common Data Service kuulub rohkem andmeid ja üksuseid.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-118">Additional Power BI options will be available, and more data and entities will be part of Common Data Service.</span></span>
