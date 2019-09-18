@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 25ef0d49c2600833aefa84d404e00c0c57cfbf52
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517779"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856420"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (9. aprill, 2019)?
 
@@ -37,10 +37,10 @@ Selles teemas kirjeldatakse Dynamics 365 for Talenti uusi või muutunud funktsio
 Attractis ja Onboardis loovad nüüd lõppkasutajate logitud probleemid, mis on saadetud probleemist teavitamise funktsiooniga, kliendi LCS-i projektis probleemi. Administraatorid saavad seejärel neid probleeme hinnata ja esitada vajadusel Microsoftile. See vastab sellele, kuidas Core HR lõppkasutaja probleeme käsitleb.
 
 ### <a name="relevance-search"></a>Asjakohasuse otsing
-Talendikaustades saate nüüd kogu kandidaatide andmebaasist otsida teatud oskusi, nimesid või hariduskäiku. Enam ei pea te määratlema, millist osa kandidaatide profiilist te soovite läbi otsida. Attract otsib kogu profiilist ja tõstab esile leitud vasted. Attract otsib ka kõigist kandidaadile saadaolevatest dokumentidest ja järjestab intelligentselt otsingutulemused. Lisaks sellele saate tulemusi filtreerida allika järgi, või selle järgi, kas nad on hõbemedalistid. Lisateabe saamiseks vt [Kandidaatide profiilide otsimine ja vaatamine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
+Talendikaustades saate nüüd kogu kandidaatide andmebaasist otsida teatud oskusi, nimesid või hariduskäiku. Enam ei pea te määratlema, millist osa kandidaatide profiilist te soovite läbi otsida. Attract otsib kogu profiilist ja tõstab esile leitud vasted. Attract otsib ka kõigist kandidaadile saadaolevatest dokumentidest ja järjestab intelligentselt otsingutulemused. Lisaks sellele saate tulemusi filtreerida allika järgi, või selle järgi, kas nad on hõbemedalistid. Lisateabe saamiseks vt [Kandidaatide profiilide otsimine ja vaatamine](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
 
 ### <a name="prospect-recommendations"></a>Potentsiaalselt sobiva kandidaadi soovitamine
-Attract võib and töötaja otsimisele kiire stardi kohe, kui selle käivitate, tehes intelligentseid kandidaatide soovitusi teie organisatsiooni kandidaatide andmebaasist. Soovitused sisaldavad vastavaid kandidaate otsides tuvastatud oskuste ja hariduse infot. Need soovitused kuvatakse vahekaardil **Potentsiaalselt sobivad kandidaadid**, kui olete selle töö värbamisprotsessis lubanud. Lisateavet vt teemast [Potentsiaalselt sobiva kandidaadi soovitamine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
+Attract võib and töötaja otsimisele kiire stardi kohe, kui selle käivitate, tehes intelligentseid kandidaatide soovitusi teie organisatsiooni kandidaatide andmebaasist. Soovitused sisaldavad vastavaid kandidaate otsides tuvastatud oskuste ja hariduse infot. Need soovitused kuvatakse vahekaardil **Potentsiaalselt sobivad kandidaadid**, kui olete selle töö värbamisprotsessis lubanud. Lisateavet vt teemast [Potentsiaalselt sobiva kandidaadi soovitamine](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
 
 ### <a name="interviewer-availability-statuses"></a>Vestluse saadavuse olekud
 Vestluse planeerijad saavad varsti näha intervjuueerijate olekut **Kontorist väljas, töötab mujal**, mis aitab planeerida intervjueerijatele paremini sobivaid aegu.

@@ -1,9 +1,9 @@
 ---
-title: Kaasahaarava sisseelamiskogemuse loomine
-description: Kui sisseelamine toimib hästi, aitab see uuel töötajal tunda, et ta kuulub oma uude organisatsiooni.
+title: Onboardi kasutamise alustamine
+description: See teema aitab teil alustada rakendusega Microsoft Dynamics 365 for Talent - Onboard. Onboard aitab uutel töötajatel paremini uue tööga alustada, andes neile juhendi, mis aitab neil sujuvalt sisseelamisprotsessist läbi saada.
 author: andreabichsel
 manager: ''
-ms.date: 11/14/2017
+ms.date: 06/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -16,77 +16,36 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 805f74a0cf618254b7d5fb9a1195dc75832dc0ca
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6526f320be7d18af92406149633b3e15d0be2291
+ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517769"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1731209"
 ---
-# <a name="create-an-engaging-onboarding-experience"></a>Kaasahaarava sisseelamiskogemuse loomine
+# <a name="get-started-with-onboard"></a>Onboardi kasutamise alustamine
 
 [!include [banner](includes/banner.md)]
 
-Tulemuslik sisseelamisprogramm aitab uutel töötajatel paremaid tulemusi saavutada ja tunda, et nad kuuluvad oma uude rolli. Sisseelamine võib aidata uutel töötajatel mõista oma uut rolli kiiremini ja täpsemalt kui muidu ja nad saavad hea edumaa, luues suhteid, mis aitavad neil edu saavutada. Samas kehv sisseelamiskogemus võib panna töötajad kahtlema oma otsuses teie organisatsiooniga liituda. 2014. aastal Gartneri korraldatud uuringus leiti, et ligi kolmandik 1005 vastajast, kes esimese kuue kuu jooksul ametist lahkusid, tegid seda sellepärast, et juhised, mida nende juhid neile andsid, polnud selged, koolitus ei andnud tulemusi või nad ei suutnud uues töökeskkonnas toimivaid suhteid luua.
+Kasutades Microsoft Dynamics 365 for Talent: Onboardi, saate aidata uutel töötajatel tõhusamalt tegutseda ja tunda, et nad kuuluvad oma uutesse rollidesse. Tõhus sisseelamisprotsess aitab uutel töötajatel oma uusi rolle mõista. See annab neile ka edumaa väärtuslike suhete loomisel, mis aitavad tagada nende edu.
 
-## <a name="have-an-onboarding-program-in-place"></a>Pange paika sisseelamisprogramm
-On tähtis mõista, kuidas ja kus saab sisseelamisprotsessi paremaks muuta. Järgmised küsimused võivad olla abiks sisseelamisprotsessi analüüsimisel ja parandamisel süsteemsel viisil.
+Onboardiga saate kiiresti luua sisseelamisjuhendi, mis tervitab uusi töötajaid ja teeb neile teie organisatsiooniga liitumise põnevaks.
 
-- Milline on teie vabatahtlike lahkujate määr?
-- Kas uued töötajad täidavad edukalt kõik vajalikud sisseelamisülesanded?
-- Kui kaua uuel töötajal sisseelamiseks aega kulub?
-- Kuidas uued töötajad oma rahulolu hindavad?
+[![Sisseelamisjuhend](./media/onboard-onboarding-guide.png)](./media/onboard-onboarding-guide.png)
 
-Ärge oodake sisseelamisega töötaja esimese tööpäevani. Sisseelamine peaks algama kohe, kui töötajal on alustamise kuupäev paika pandud. Seda nimetatakse sageli eel-sisseelamiseks. See on teie võimalus hoida äsja tööle võetud inimesed põnevil valiku üle teie ettevõttega liituda, tugevdada suhteid ja näidata oma ettevõtte kultuuri ning väärtusi.
+Onboardi rakenduse hankimise ja kasutamise kohta leiate teavet järgmistest teemadest.
 
-Üks olulisimaid ee-sisseelamise tegevusi on valmistada uued töötajad ette esimeseks tööpäevaks. See võib olla neile stressirohke aeg. Vähendage stressi, koostades nende esimese päeva jaoks kontroll-loendi ja päevakava.
+- [Rakenduse Onboard hankimine](./onboard-get-app.md)
+- [Sisseelamisjuhendi loomine](./onboard-create-guide.md)
+- [Sisseelamismalli loomine](./onboard-create-template.md)
+- [Sisseelamisjuhendite ja mallide redigeerimine](./onboard-edit-guides-templates.md)
+- [Sisu jagamine teiste kaasautoritega](./onboard-share-template.md)
+- [Vaadake tööülesannete ja töötajate töölevõtmise olekut](./onboard-view-status.md)
+- [Looge Onboardis värbamismeeskonnad](./onboard-create-team.md)
 
-### <a name="what-to-include-in-a-checklist"></a>Mida kontroll-loendisse lisada
+## <a name="see-also"></a>Vt ka
 
-- Mida kaasa võtta (nt fotoga dokument ja pangaandmed).
-- Riietumiseeskiri, kui teie ettevõttel see olemas on.
-- Juhised, kuidas kontorisse tulla.
-- Kontaktisiku (või parem värbamisega tegeleva sõbra) nimi.
-- Ettevõtte käsiraamatud või eeskirjad, mida lugema peaks.
-
-**Lisa**
-
-- Saatke neile mõni ettevõtte sümboolikaga ese, näiteks T-särk või tass.
-- Saatke töörühmalt videosõnumeid, tervitades uut töötajat ettevõttega liitumise puhul.
-- Lisage tegevjuhi või mõne muu juhi isiklik tervitus.
-- Muuta tema esimene päev eriliseks.
-
-Ärge pange uut töötajat kahtlema oma otsuses ettevõttega liituda, jättes esimesel päeval kehva esmamulje.
-
-## <a name="create-a-good-first-impression"></a>Looge hea esmamulje
-
-Koostage päevakava ja jagage seda oma uue töötajaga. Ärge keskenduge ainult tööalasele juhendamisele. Jälgige, et tal oleks ka tore olla, tutvustage teda inimestele ja näidake talle kontorit. Hoidke ka teised töötajad asja juures. Andke neile teada, et ettevõttesse tuleb uus inimene. Ärge jätke välja IT- või palgaarvestuse osakonna ega teiste haldusosakondade inimesi. Veenduge, et uutel töötajatel on alustamiseks kõik vajalik olemas. See hõlmab tööruumi, arvutit ja vajalikku identimisteavet, tarkvara ning töövahendeid. Keskenduge paberimajanduse asemel suhetele.
-
-Suhted on kõige olulisem asi, mis aitab uutel töötajatel täiskiiruse saavutada. Veelgi rohkem: suhted aitavad tekitada kogukonda ja ettevõttesse kuulumise tunde.
-
-- Otsige oma ettevõttest mõni asjatundja või entusiastlik tegelane ja tehke temast sisseelamisel abistaja.
-- Ühendage uued töötajad tööalaste kogukondade või huvirühmadega. See on suurepärane viis leida treenereid või mentoreid.
-- Jagage meeskonnaliikmete profiile (ideaaljuhul juba varem), et kiirendada suhtlust, teadmiste jagamist ja võrgundust.
-- Ärge unustage suhtluskogukondi ega sündmusi, mis ühtivad töötaja isiklike eesmärkidega.
-
-## <a name="provide-training"></a>Pakkuge koolitusi
-
-Andke oma uuele töötajale kindlustunne ja töövahendid, mida ta edu saavutamiseks vajab. Alustuseks on vaja selgelt määratleda töötaja vastutusalad ja seada paika ootused selle kohta, kuidas neid täidetakse. Seejärel koostage koolitusplaan, mis keskendub oskustele, mida neil teie ootuste täitmiseks vaja läheb. Ärge keskenduge ainult vastavuspõhisele koolitamisele.
-
-## <a name="set-clear-milestones"></a>Pange paika selged vahe-eesmärgid
-
-Määrake enda ja uue töötaja vahel selged kontrollpunktid ja tagasisidetsüklid. Sekkuge ja parandage kurssi võimalikult palju. Probleemidega tuleks tegeleda enne, kui neist probleemid saavad (või, mis veel hullem, kui töötaja nende tõttu lahkub).
-
-Leppige uue töötajaga kokku üks-ühele kohtumine enne tema esimese nädala lõppu. See on suurepärane aeg rääkida ootustest, tööstiilidest ja karjäärialasest arengust.
-
-Seadke oma uusimatele töörühmaliikmetele 30, 60 ja 90 päeva eesmärgid. Kui eesmärgid on paigas, siis kontrollige regulaarselt, kuidas nad eesmärkidega võrreldes edasi jõuavad.
-
-## <a name="measure-and-optimize"></a>Mõõtmine ja optimeerimine
-
-Kui võtate kasutusele uue sisseelamisprogrammi, siis pöörake tähelepanu järgmistele küsimustele. 
-
-- Kas vähendate lahkuvate töötajate arvu?
-- Kas uute töötajate seas suureneb rahulolu? 
-
-Mõõtke neid andmeid ja tehke iga uue töötaja puhul väikseid parandusi.
-
+- [Proovige või ostke Onboardi rakendus](https://dynamics.microsoft.com/talent/onboard/)
+- [Mis on uut?](./whats-new.md)
+- [Väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Toe hankimine](./talent-support.md)

@@ -1,6 +1,6 @@
 ---
-title: Analüüsiaruannete kasutamine värbamisprotsessi ülevaadete jaoks
-description: See teema kirjeldab Attracti analüütilisi aruandeid
+title: Analüüsiaruannete kasutamine rakenduses Microsoft Dynamics 365 for Talent - Attract
+description: Selles teemas kirjeldatakse analüüsiaruandeid värbamisprotsessi ülevaate saamiseks rakenduses Microsoft Dynamics 365 for Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516556"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742884"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>Analüüsiaruannete kasutamine värbamisprotsessi ülevaadete jaoks
+# <a name="use-analytic-reports"></a>Analüütiliste aruannete kasutamine
 
 Attracti analüütiliste aruannetega pakutakse valmislahendusi (OOTB) värbamisprotsessi ülevaadete jaoks. Saadaval funktsioonid on:
 
@@ -81,8 +81,8 @@ Töö analüüsi aruanded kuvavad andmeid valitud töö kohta. Analüüsi keskus
 
 ## <a name="cross-filter"></a>Ristifilter
 
-Üks Power BI suurepärastest funktsioonidest on see, kuidas kõik aruande lehe visuaalid on omavahel ühendatud. Kui valite andmepunkti ühe visuaali alusel, siis kõik teised lehel olevad visuaalid, mis sisaldavad samu andmeid, muutuvad tehtud valiku põhjal. Vaadake lisateavet ja näidet, [Kuidas visuaalid ristfiltreerivad üksteist Power BI aruandes](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions).
+Üks Power BI suurepärastest funktsioonidest on see, kuidas kõik aruande lehe visuaalid on omavahel ühendatud. Kui valite andmepunkti ühe visuaali alusel, siis kõik teised lehel olevad visuaalid, mis sisaldavad samu andmeid, muutuvad tehtud valiku põhjal. Vaadake lisateavet ja näidet, [Kuidas visuaalid ristfiltreerivad üksteist Power BI aruandes](https://docs.microsoft.com/power-bi/consumer/end-user-interactions).
 
 ## <a name="export-to-excel"></a>Excelisse eksportimine
 
-Aruande andmete Excelis vaatamiseks klõpsake menüüs Suvandid (kolm punkti) visuaalil ja valige **Alusandmete eksportimine.** Eksporditud andmed eksporditakse filtreeritud kujul, austades kasutaja õigusi Attractis. Lisateavet vt teemast [Andmete eksportimine visualiseeringutest](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data).
+Aruande andmete Excelis vaatamiseks klõpsake menüüs Suvandid (kolm punkti) visuaalil ja valige **Alusandmete eksportimine.** Eksporditud andmed eksporditakse filtreeritud kujul, austades kasutaja õigusi Attractis. Lisateavet vt teemast [Andmete eksportimine visualiseeringutest](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).

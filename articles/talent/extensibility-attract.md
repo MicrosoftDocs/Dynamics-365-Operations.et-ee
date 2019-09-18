@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichsew
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 52790fbe500d9f55bc9cc86fba5d54f30b11e559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505860"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795216"
 ---
 # <a name="extensibility-in-attract"></a>Rakenduse Attract laiendatavus
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 for Talent on rajatud lahenduse Common Data Service platv
 
 ## <a name="extending-option-sets-in-attract"></a>Suvandikomplektide laiendamine Attractis
 
-**Suvandikomplekt** (märkeloend) on välja tüüp, mille saab üksusesse kaasata. See määratleb suvandite komplekti. Kui suvandikomplekt kuvatakse vormil, kasutab see ripploendi juhtelementi.  Attractis on mitu välja, mis on suvandikomplektid.  Hakkame tutvustama võimalust suvandikomplektide laiendamiseks, alustades väljadega Tagasilükkamise põhjus, Töösuhte tüüp ja Staaži tüüp.   Samuti saate lisatavatele suvanditele lisada lokaliseeritud kuvasilte. Lisateavet vt jaotisest [Suvandikomplekti siltide kohandamine](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
+**Suvandikomplekt** (märkeloend) on välja tüüp, mille saab üksusesse kaasata. See määratleb suvandite komplekti. Kui suvandikomplekt kuvatakse vormil, kasutab see ripploendi juhtelementi.  Attractis on mitu välja, mis on suvandikomplektid.  Hakkame tutvustama võimalust suvandikomplektide laiendamiseks, alustades väljadega Tagasilükkamise põhjus, Töösuhte tüüp ja Staaži tüüp.   Samuti saate lisatavatele suvanditele lisada lokaliseeritud kuvasilte. Lisateavet vt jaotisest [Suvandikomplekti siltide kohandamine](https://docs.microsoft.com/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
 
 > [!NOTE]
 > Funktsioon Töö sisestamine LinkedIni nõuab lehel **Töö üksikasjad** väljade **Töösuhte tüüp** ja **Staaži tüüp** kasutamist. LinkedIn toetab nende väljade vaikeväärtuseid ja need kuvatakse pärast töö sisestamist. Seetõttu, kui sisestate töid LinkedIni ja muudate nende väljade olemasolevaid suvandikomplekti väärtusi, töö siiski sisestatakse, kuid LinkedIn ei kuva väljade **Töösuhte tüüp** ja **Staaži tüüp** kohandatud väärtusi.  
@@ -62,15 +62,15 @@ Kuna kõik Attracti andmed asuvad lahenduses Common Data Service, saate oma ainu
 
 PowerAppsi abil saate hõlpsasti luua rakendusi, mis loovad ühenduse teie Attracti andmetega ja kasutavad loogika lisamiseks Microsoft Exceli avaldisi. PowerAppsiga loodud rakendused töötavad nii veebis kui ka Apple iOS-i ja Google Androidi seadmetes.
 
-Näiteks saate ülikoolide karjäärimessid värbajate jaoks lihtsamaks muuta, luues kergema rakenduse, mis võimaldab värbajatel CV-sid skannida ja rakenduses Attract kandidaate ametipositsioonidele esitada. Teise võimalusena võite luua rakenduse, mis aitab rahuldada teie ettevõtte vastavause vajadusi. Lisateavet PowerAppsi ja selle abil rakenduste loomise kohta vt teemast [Andmete integreerimine lahendusse Common Data Service](https://docs.microsoft.com/en-us/powerapps).
+Näiteks saate ülikoolide karjäärimessid värbajate jaoks lihtsamaks muuta, luues kergema rakenduse, mis võimaldab värbajatel CV-sid skannida ja rakenduses Attract kandidaate ametipositsioonidele esitada. Teise võimalusena võite luua rakenduse, mis aitab rahuldada teie ettevõtte vastavause vajadusi. Lisateavet PowerAppsi ja selle abil rakenduste loomise kohta vt teemast [Andmete integreerimine lahendusse Common Data Service](https://docs.microsoft.com/powerapps).
 
 ### <a name="microsoft-flow"></a>Microsoft Flow 
 
-Saate kasutada Microsoft Flow’d automaatsete töövoogude loomiseks, mis töötavad Attracti andmetel. Saate hõlpsalt luua ühenduse sadade populaarsete rakenduste ja teenustega, ilma et peaksite koodi kirjutama. Luues lahenduses Common Data Service vooge, mis suhtlevad rakendustega Attract Job, Candidate ja Application, saate automatiseerida mitmesuguseid toiminguid. Näiteks kui kandidaat võtab pakkumise vastu, võib saata teatise värbamismeeskonnale, või võib uudisest teavitada ka Twitteris. Lisateavet voogude kohta vt [Microsoft Flow arendaja dokumentatsioonist](https://docs.microsoft.com/en-us/flow/).
+Saate kasutada Microsoft Flow’d automaatsete töövoogude loomiseks, mis töötavad Attracti andmetel. Saate hõlpsalt luua ühenduse sadade populaarsete rakenduste ja teenustega, ilma et peaksite koodi kirjutama. Luues lahenduses Common Data Service vooge, mis suhtlevad rakendustega Attract Job, Candidate ja Application, saate automatiseerida mitmesuguseid toiminguid. Näiteks kui kandidaat võtab pakkumise vastu, võib saata teatise värbamismeeskonnale, või võib uudisest teavitada ka Twitteris. Lisateavet voogude kohta vt [Microsoft Flow arendaja dokumentatsioonist](https://docs.microsoft.com/flow/).
 
 ### <a name="power-bi"></a>Power BI
 
-Power BI võimaldab teil koostada ja vaadata kohandatud aruandeid ning armatuurlaudu, mis annavad teile sügavama ülevaate teie Attracti andmetest. Lisateavet Power BI ja interaktiivsete aruannete ning armatuurlaudade loomise kohta vt [Power BI dokumentatsioonist](https://docs.microsoft.com/en-us/power-bi/).
+Power BI võimaldab teil koostada ja vaadata kohandatud aruandeid ning armatuurlaudu, mis annavad teile sügavama ülevaate teie Attracti andmetest. Lisateavet Power BI ja interaktiivsete aruannete ning armatuurlaudade loomise kohta vt [Power BI dokumentatsioonist](https://docs.microsoft.com/power-bi/).
 
 ### <a name="custom-activities"></a>Kohandatud tegevused 
 

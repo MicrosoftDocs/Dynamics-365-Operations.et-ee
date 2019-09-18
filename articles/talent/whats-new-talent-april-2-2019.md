@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: andreabichsel
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8f488b0bf844fc04f07fedfa447073cdeabacc15
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517777"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795240"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (2. aprill, 2019)?
 
@@ -57,13 +57,13 @@ Attractis ja Onboardis loovad nüüd lõppkasutajate logitud probleemid, mis on 
 Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2216.
 
 ### <a name="platform-update-25"></a>Platvormivärskendus update 25
-Lisainfo saamiseks platvormi värskenduse 25 kohta vt [Dynamics 365 for Finance and Operations platvormi värskenduse 25 (aprill, 2019) funktsioonide eelvaade](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+Lisainfo saamiseks platvormi värskenduse 25 kohta vt [Dynamics 365 for Finance and Operations platvormi värskenduse 25 (aprill, 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Täpsem hüvitusturve (fikseeritud ja muutuv)
 Paljudes ettevõtetes on hüvitise ja eeliste halduritel juurdepääs ainult teatud hüvituskirjetele. Need võivad sisaldada juhtkonna või piirkonna töövõtjate kirjeid. See muudatus võimaldab personaliosakonnal ettevõttesiseselt hüvitusplaane hallata ja säilitada erinevate töövõtjate gruppide jaoks. Saate fikseeritud ja muutuvatele plaanidele turberolle määrata. Need turberollid määravad kindlaks juurdepääsu plaanidele ja seotud töötajate andmetele, nagu näiteks palga või preemia kirjetele, nii et ainult need rollid saavad töötajate rühmade hüvitisi töödelda.
 
 ### <a name="upgrade-to-common-data-service"></a>Common Data Service'i värskendus
-Tähtajad Common Data Service'i värskendamiseks lähenevad kiiresti. Logige sisse PowerAppsi halduskeskusesse, et määrata, kas teie andmebaas vajab täiendamist. Lisateavet tähtaegade ja täiendamiseks nõutavate etappide kohta vt jaotisest [Täiendamine teenusele Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Tähtajad Common Data Service'i värskendamiseks lähenevad kiiresti. Logige sisse PowerAppsi halduskeskusesse, et määrata, kas teie andmebaas vajab täiendamist. Lisateavet tähtaegade ja täiendamiseks nõutavate etappide kohta vt jaotisest [Täiendamine teenusele Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Eelvaates
 

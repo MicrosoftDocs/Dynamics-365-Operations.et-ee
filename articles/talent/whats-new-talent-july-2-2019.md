@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 32eb177da53ffa4cf8ecdc73a93e88f30778f69c
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7c474b0ba40db238db33cfa45ddde55cd0724a9b
+ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729774"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1791972"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Talent (2. juuli 2019)
 
@@ -37,13 +37,18 @@ Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunu
 
 Saate nüüd konfigureerida e-posti sätteid nii, et e-kirjad kandidaatidele, intervjueerijatele, värbajatele ja personalijuhtidele saadetakse teie organisatsiooni e-posti teenusekontolt. Lisateavet vt [E-posti teenusekonto ühendamine](./attract-configure-email-settings.md#connect-an-email-service-account).
 
-#### <a name="offer-email-templates"></a>Pakkumise e-kirjade mallid 
+### <a name="offer-email-templates"></a>Pakkumise e-kirjade mallid 
 
 Saate nüüd konfigureerida oma ettevõtte e-kirja mallid kõigi etappide – pakkumise ettevalmistamise, kinnitamise ja aktsepteerimise jaoks. Kasutajad saavad kasutada ka vaikemalli või seda enne e-kirja saatmist kohandada. Lisateavet vt teemast [E-posti malli sätete konfigureerimine](./attract-configure-email-settings.md#configure-email-template-settings).
 
 ### <a name="candidate-consent-on-application"></a>Kandidaadi nõusoleku avaldus
 
 Nüüd saate lubada oma organisatsiooni Nõuete ja tingimuste lingi. Kui see säte on lubatud, peavad kandidaadid enne tööavalduste esitamist nõuete ja tingimustega nõustuma. 
+
+### <a name="coming-soon-in-attract"></a>Peagi tulekul rakenduses Attract
+#### <a name="job-approvals-appear-on-the-home-page"></a>Töökinnitused kuvatakse avalehel
+
+Kinnitused kuvatakse armatuurlaua jaotises **Kinnitused**. Kinnitajad saavad kinnitusi üle vaadata jaotises **Teile määratud**, kus kuvatakse töö ID, töö pealkiri, teised kinnitajad ja töö määramise kuupäev. Kasutajad, kes töö kinnitamiseks esitavad, saavad oma töid üle vaadata jaotises **Teie taotletud**, mis kuvab kinnitajaid, kes peavad edastatud tööd veel kinnitama.
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
 

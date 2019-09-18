@@ -3,7 +3,7 @@ title: Tööde loomine, kinnitamine ja sisestamine Attractis
 description: Selles teemas kirjeldatakse Attarcti töö elemente. Lisaks selgitatakse, kuidas tööd luua.
 author: hasrivas
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 07/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
+ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517790"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "1773248"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Tööde loomine, kinnitamine ja sisestamine Attractis
+# <a name="create-a-job"></a>Töö loomine
 
 [!include [banner](includes/banner.md)]
 
@@ -81,33 +81,6 @@ Töösisestuste kohta lisainfo saamiseks vt [Karjäärisaidi funktsionaalsus Att
 > [!NOTE]
 > Töösisestuste funktsionaalsus on saadaval ainult tervikliku värbamise lisandmooduliga Attractile.
 
-### <a name="posting-jobs-to-linkedin"></a>Töökohtade sisestamine LinkedIni 
-
-Enne rakenduse Attract kaudu LinkedIni töökoha sisestamist peab administraator menüüs **Administraatori sätted** lisama LinkedIni jaoks kasutatava ettevõtte ID ja ettevõtte nime. LinkedIni jaoks kasutatav ettevõtte ID on vajalik selleks, et tagada, et rakenduse Attract kaudu sisestatud töökohad vastendataks õigele ettevõtte lehele.
-
-LinkedIn jaoks kasutatav ettevõtte ID on kordumatu numbrijada, mis eristab teie ettevõtet LinkedIni piires. LinkedIni jaoks kasutatava ettevõtte ID leidmise kohta lisateabe saamiseks külastage [LinkedIni saiti](https://aka.ms/findID).
-
-LinkedIni jaoks kasutatava ettevõtte nime värskendamiseks valige menüüst **Sätted**  (hammasratta kujutis) suvand **Halduskeskus** ja valige vahekaart **LinkedIni integreerimine** . Sisestage jaotises **LinkedIniga ühendamine** LinkedIni jaoks kasutatav ettevõtte nimi ja ID ning seejärel salvestage sätted.
-
-> [!NOTE]
-> Töökoha sisestamisel LinkedIni peate meeles pidama nelja olulist asja.
-> 1. LinkedIni sisestatud tööd on sisestatud "Piiratud loendite" töödena. Piiratud loendite töid ei saa propageerida kogu LinkedIni saidil. Kui soovite propageerida Attractist LinkedIni sisestatud piiratud loendite töid, peaksite tegema koostööd LinkedIniga võimaluse "Töö pakkimine" lubamiseks. Lisateavet saate allolevatelt linkidelt ja LinkedIni tugiteenustelt.
->
->    [Piiratud loendid vs preemiatöö pesad töö pakkimiseks](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
->
->    [Töö pakkimine KKK](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
->
-> 1. Tööde LinkedIni sisestamisel edastab Attract Microsoft 365 organisatsiooni nime töö vastu. LinkedIn lingib töö ettevõttega LinkedIni poolt organisatsiooni nime põhjal, kui see on edukalt edastatud. Kui teie töö on loetletud vale ettevõtte LinkedIn, veenduge, et Microsoft 365 organisatsiooni nimi vastab LinkedIn ettevõtte nimi.  
->
->    [Muuda aadressi kontakti ja rohkem](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
->
->    Kui teil esineb pärast seda etappi probleeme, võtke ühendust LinkedIni toega. 
-> 
-> 1. LinkedIni sisestatud töökohad ilmuvad otse LinkedIni saidil. Katsekeskkond töökohtade sisestamiseks LinkedIni puudub. 
->
-> 1. Võib kuluda kuni 24 tundi LinkedIni sisestatud tööde LinkedInis olevatele kandidaatidele nähtavaks muutumiseks praeguse LinkedIni partiitöö sisestamise protsessi tõttu.
-
-
 ## <a name="activate"></a>Aktiveeri
 
 Pärast seda, kui töö on aktiveeritud, saab sellele potentsiaalselt sobivaid kandidaate ja kandidaate lisada. Tööle potentsiaalselt sobivate kandidaatide lisamise valik on määratud värbamisprotsessi potentsiaalselt sobiva kandidaadi tegevuses.
@@ -142,7 +115,7 @@ Kui kasutaja redigeerib tööd, kui see on kinnitatud, kuid mitte aktiveeritud, 
 Kinnitajatena loetletud inimesed saavad Attracti teatise ja meili, mis annab teada, et neil on üksus kinnitamiseks.  Meilis saavad kinnitajad klõpsata linki töö avamiseks, üksikasjade ülevaatamiseks ja kas kinnitamiseks või tagasilükkamiseks. Kui töö olekuks on seatud **Kinnitatud** või **Tagasi lükatud**, teavitatakse esitajat Attractis ja talle saadetakse meil. Samuti saavad kinnitajad meeldetuletusmeili, kui nad pole kinnitustaotlusele 24 tunni jooksul vastanud.
 
 > [!NOTE]
-> saate luua kinnitusmeilide jaoks kohandatud meilimalle. Lisateabe saamiseks vt teemat [Meilimallide loomine ja haldamine](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
+> saate luua kinnitusmeilide jaoks kohandatud meilimalle. Lisateabe saamiseks vt teemat [Meilimallide loomine ja haldamine](https://docs.microsoft.com/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Töö loomine
 

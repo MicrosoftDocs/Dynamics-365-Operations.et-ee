@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d5a2c61fc21578d1db4c1bf0c3dfaf0c7a93298c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517796"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742745"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>Azure Active Directory kasutajaid ei leitud inimeste valijast
 
@@ -36,9 +36,9 @@ Microsoft Azure Active Directorys (Azure AD) ei kuvata rentniku puhul teatud keh
 
 Rakendused Attract ja Onboard ei toeta praegu teatud kasutajatüüpe. Veenduge, et kasutaja ei oleks lahenduse Azure AD Business to Business (B2B) külaliskasutaja. Kasutaja tüübi teabe leiate Azure’i portaalis Azure Active Directory labal.
 
-Lisateavet Azure B2B kohta vt teemast [Mis on külaliskasutaja juurdepääs Azure Active Directory B2B-s](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b).
+Lisateavet Azure B2B kohta vt teemast [Mis on külaliskasutaja juurdepääs Azure Active Directory B2B-s](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).
 
-Mitte-B2B kasutajate puhul on olemas teatud kasutajad, kellel võib olla objektis **Kasutaja** puudulik atribuut Kasutaja tüüp. Seda saab kontrollida ja parandada Azure AD mooduliga Powershell. Lisateavet vt [Azure AD](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0).
+Mitte-B2B kasutajate puhul on olemas teatud kasutajad, kellel võib olla objektis **Kasutaja** puudulik atribuut Kasutaja tüüp. Seda saab kontrollida ja parandada Azure AD mooduliga Powershell. Lisateavet vt [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0).
 
 ## <a name="resolution"></a>Eraldusvõime
 

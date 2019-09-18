@@ -1,9 +1,9 @@
 ---
-title: Protsesside tegevused
-description: Selles teemas kirjeldatakse eri tüüpi tegevusi, mida saab kasutada värbamisprotsessis.
+title: Tegevused rakenduses Microsoft Dynamics 365 for Talent - Attract toimuvates protsessides
+description: Selles teemas kirjeldatakse eri tüüpi tegevusi, mida saab kasutada värbamisprotsessis rakenduses Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
-ms.date: 04/10/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517840"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739707"
 ---
-# <a name="activities-in-the-hiring-processes"></a>Värbamisprotsesside tegevused
+# <a name="activities-in-hiring-processes"></a>Tegevused värbamisprotsessides
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,6 +37,9 @@ Rakenduses Microsoft Dynamics 365 for Talent: Attract saab värbamisprotsessile 
 ## <a name="prospect-activity"></a>Tegevus Potentsiaalselt sobiv kandidaat
 
 Tegevus Potentsiaalselt sobiv kandidaat võimaldab tööle lisada potentsiaalselt sobivaid kandidaate. Vaikimisi saab tööle lisada potentsiaalselt sobivaid kandidaate. Tegevuse Potentsiaalselt sobiv kandidaat väljalülitamiseks määrake suvandi **Luba potentsiaalselt sobivad kandidaadid** olekuks **Väljas**. Kui tegevus Potentsiaalselt sobiv kandidaat on sisse lülitatud, saavad personalijuhid potentsiaalselt sobivaid kandidaate lisada ja vaadata ning töö juures kuvatakse vahekaart **Potentsiaalselt sobiv kandidaat**.
+
+> [!NOTE]
+> Et lubada kandidaatide lisamist tööle LinkedInist, peate seadistama suvandi **luba väljavaated** väärtuseks **sees**.
 
 ## <a name="application-activity"></a>Tegevus Avaldus
 

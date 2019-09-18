@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d69294b64c841c5486d694b129cf6c0f26fd93fd
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d316aff83bd9f60f054a970e223777db5e214adb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517816"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741621"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-20-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (20. märts 2019)
 
@@ -46,7 +46,7 @@ Kui kandidaat unustab talle salvestatud või e-postiga saadetud linki avades tö
 Parandati viga, kus välised kandidaadid said töö näha värbaja või personalijuhi nime. Nüüd saavad töö värbamismeeskonna liikmeid näha ainult sisemised kandidaadid. Samuti on sisekandidaatidel lihtsam näha ja kandideerida ainult ettevõttesisestele töödele. Kui kandidaat püüab saada juurdepääsu lingile, et näha või kandideerida ainult ettevõttesisesele tööle, tuleb neil end autentida Azure Active Directory mandaatidega. Sisekandidaatid saavad ka värbamismeeskonna liikmega ühendust võtta, et väljendada oma huvi töö vastu või selle kohta rohkem teada saada. See võimalus on kõigi tööde juures saadaval ainult sisekandidaatidele. Lisainfo saamiseks vt [Karjäärisaidi funktsionaalsus Attractis](./career-site.md).
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>Nimetage hõbemedalistid, et määrata tulevastele ametikohtadele suure väärtusega kandidaadid
-Värbajad ja personalijuhid peavad tihti jooksvat nimekirja kandidaatidest, kes olid ametikohale sobivad, kuid kellele ei saadud pakkumist teha, sest ametikoht oli juba täidetud. Sellised kandidaadid, keda nimetatakse hõbemedalistideks, on väärtuslikud, sest nad aitavad vähendada värbamisaega järgmisel korral, kui sarnane ametikoht vabaneb. Attract võimaldab nüüd värbajatel ja personalijuhtidel nimetada hõbemedaliste kandidaatide nimekirjas, kui kandidaat on läinud edasi pakkumise etappi. Hõbemedalistide tähis ilmub töö kandidaatide nimekirja, kuid ka talendikausta vaatesse, kui need kandidaadid kuuluvad mõne värbaja või personalijuhi talendikausta. Lisaks kuvatakse tähist töö ajaloos kandidaadi talendikausta profiili osana. Selle funktsiooni eelvaadet näete, kui administraator selle sisse lülitab, kasutades [halduskeskuse funktsioonide haldust](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature).
+Värbajad ja personalijuhid peavad tihti jooksvat nimekirja kandidaatidest, kes olid ametikohale sobivad, kuid kellele ei saadud pakkumist teha, sest ametikoht oli juba täidetud. Sellised kandidaadid, keda nimetatakse hõbemedalistideks, on väärtuslikud, sest nad aitavad vähendada värbamisaega järgmisel korral, kui sarnane ametikoht vabaneb. Attract võimaldab nüüd värbajatel ja personalijuhtidel nimetada hõbemedaliste kandidaatide nimekirjas, kui kandidaat on läinud edasi pakkumise etappi. Hõbemedalistide tähis ilmub töö kandidaatide nimekirja, kuid ka talendikausta vaatesse, kui need kandidaadid kuuluvad mõne värbaja või personalijuhi talendikausta. Lisaks kuvatakse tähist töö ajaloos kandidaadi talendikausta profiili osana. Selle funktsiooni eelvaadet näete, kui administraator selle sisse lülitab, kasutades [halduskeskuse funktsioonide haldust](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 ### <a name="add-applicants-to-talent-pools"></a>Kandidaatide lisamine talendikaustadesse
 Nüüd on kandidaate talendikausta lihtsam lisada, kasutades kandidaatide nimekirjas uus tegevust. Valides ikooni **Lisa talendikausta**, saab värbaja või personalijuht valida oma talendikaustade loendist ja lisada kerge vaevaga talendikaustadesse kandidaate otse töö kandidaatide nimekirjast.
@@ -58,7 +58,7 @@ Põhinedes klientide tagasisidele, on nüüd värbajatel võimalik määrata, ka
 Kandidaadid, kellel on juba LinkedIn portaalis oma kehtiv ja värskendatud profiil, saavad seda profiili kasutades töödele kandideerida vaid ühe klõpsuga.
 
 ### <a name="track-how-a-candidate-profile-originated-in-the-system-and-where-your-applicants-discover-the-jobs-they-applied-for"></a>Jälgige, kuidas kandidaadi profiil on süsteemist tulnud ja kust teie kandidaadid neid töid avastavad, millele nad kandideerivad
-Nüüd saate välja uurida, kuidas konkreetsete kandidaatide profiil Attracti jõudis, vaadates kandidaadi või talendikausta profiili **profiili** lehel kandidaadi üksikasjade all profiili allikat. Samuti saate välja uurida, kuidas mistahes kandidaat töö avastas, vaadates kandideerimistegevuse voos **Rakenduse tegevuse** all antud kandideerimise allikat. See info on saadaval ka talendikausta profiili töö ajaloo all. VKui värbajad või personalijuhid lisavad kandidaate käsitsi, palutakse ka neil määrata kandideerimise või kandidaadi profiili allikas. Kui kandidaat erimest korda kandideerib, on nende profiili allikas sama, kui nende kandideerimise päritolu. Selle funktsiooni eelvaadet näete, kui administraator selle sisse lülitab, kasutades [halduskeskuse funktsioonide haldust](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). Pange tähele, et olemasolevatel kandidaatidel ja kandideerijatel ei ole allika andmeid. Siiski saavad värbajad need andmed käsitsi lisada.
+Nüüd saate välja uurida, kuidas konkreetsete kandidaatide profiil Attracti jõudis, vaadates kandidaadi või talendikausta profiili **profiili** lehel kandidaadi üksikasjade all profiili allikat. Samuti saate välja uurida, kuidas mistahes kandidaat töö avastas, vaadates kandideerimistegevuse voos **Rakenduse tegevuse** all antud kandideerimise allikat. See info on saadaval ka talendikausta profiili töö ajaloo all. VKui värbajad või personalijuhid lisavad kandidaate käsitsi, palutakse ka neil määrata kandideerimise või kandidaadi profiili allikas. Kui kandidaat erimest korda kandideerib, on nende profiili allikas sama, kui nende kandideerimise päritolu. Selle funktsiooni eelvaadet näete, kui administraator selle sisse lülitab, kasutades [halduskeskuse funktsioonide haldust](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). Pange tähele, et olemasolevatel kandidaatidel ja kandideerijatel ei ole allika andmeid. Siiski saavad värbajad need andmed käsitsi lisada.
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
 

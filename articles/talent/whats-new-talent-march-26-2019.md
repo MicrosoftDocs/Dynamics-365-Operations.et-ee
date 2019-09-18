@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 568a16a17ed3269c7b72f27f0d4b7bbdbd56630e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517831"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741563"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (26. märts 2019)
 
@@ -75,7 +75,7 @@ Selles väljalaskes kuvatakse fikseeritud kompensatsiooniplaane, kui kasutajaid 
 Selles väljalaskes saate nüüd töö kirjeid eemaldada, kasutades valikut **Ava Excelis** rakenduses Dynamics 365 for Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Common Data Service'i värskendus
-Tähtajad Common Data Service'i värskendamiseks lähenevad kiiresti. Logige sisse PowerAppsi halduskeskusesse, et määrata, kas teie andmebaas vajab täiendamist. Lisateavet tähtaegade ja täiendamiseks nõutavate etappide kohta vt jaotisest [Täiendamine teenusele Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Tähtajad Common Data Service'i värskendamiseks lähenevad kiiresti. Logige sisse PowerAppsi halduskeskusesse, et määrata, kas teie andmebaas vajab täiendamist. Lisateavet tähtaegade ja täiendamiseks nõutavate etappide kohta vt jaotisest [Täiendamine teenusele Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Eelvaates
 
