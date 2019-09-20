@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38641d6a84340112ce15335533795ed7faf91123
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517829"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742489"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (14. märts 2019)
 
@@ -47,7 +47,7 @@ Selles väljaandes tehtud muudatused võimaldavad jõudlushalduse stsenaariume, 
 Selle muudatusega saate nüüd valida mitu töötajat ja määrata neile töötajatele ühe või mitu kontroll-loendit korraga. 
 
 ### <a name="platform-update-24"></a>Platvormivärskendus update 24
-Lisateavet platvormivärskenduse 24 kohta vt jaotisest [Mis on rakenduse Finance and Operations platvormivärskenduses 24 uut või mida on muudetud (märts 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Olulised muudatused platvormil 24 sisaldavad: 
+Lisateavet platvormivärskenduse 24 kohta vt jaotisest [Mis on rakenduse Finance and Operations platvormivärskenduses 24 uut või mida on muudetud (märts 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Olulised muudatused platvormil 24 sisaldavad: 
 
 - Talendis on lubatud teavitused.
 - Uuendatud navigeerimisriba joondub nüüd Office'i päisega.

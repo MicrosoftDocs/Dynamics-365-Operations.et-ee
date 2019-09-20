@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620616"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741748"
 ---
 # <a name="intelligent-recommendations"></a>Intelligentsed soovitused
 
@@ -32,7 +32,7 @@ ms.locfileid: "1620616"
 Masinõpe võib aidata värbajatel ja värbamisjuhtidel kiiresti tuvastada ametikoha parimad kandidaadid. Samuti võib see aidata potentsiaalsetel tööotsijatel leida ametikoha, mis sobib kõige paremini nende profiili ja huvidega. Nende funktsioonide kasutamisel ja tagasiside andmisel soovitused täiustuvad.
 
 > [!NOTE] 
-> - Intelligentse soovituse funktsioon on saadaval ainult [tervikliku värbamise lisandmooduli korral](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Intelligentse soovituse funktsioon on saadaval ainult [tervikliku värbamise lisandmooduli korral](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 > - Selles teemas märgitud funktsioonid on saadaval eelväljaandes. Sisu ja funktsioonid võivad muutuda. Selle funktsiooni kasutamiseks paluge administraatoril see lubada, kasutades Attractis jaotist **Halduskeskus**. Määrake suvandid **Kandidaadisoovitus**, **Töökohasoovitus** ja **Potentsiaalselt sobiva kandidaadi soovitus** valikule **Sees**. Lisateavet leiate teemast [Juurdepääs eelvaatefunktsioonidele rakenduses Talent](./access-preview-feature.md). 
 
 

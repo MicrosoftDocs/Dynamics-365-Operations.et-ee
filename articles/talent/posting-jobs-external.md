@@ -17,42 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590478"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739813"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>Töökuulutuste sisestamine Attractist välistele karjäärisaitidele
+# <a name="post-jobs-to-broadbean"></a>Töökuulutuste sisestamine Broadbeani
 
 [!include [banner](../includes/banner.md)]
 
-Soovite, et teave teie vabadest ametikohtadest jõuaks võimalikult paljude kvalifitseeritud kandidaatideni. Värbamissaidid nagu Broadbean aitavad teil seda eesmärki saavutada. Microsoft Dynamics 365 Talent: Attract võimaldab teil töökuulutusi Broadbeani sisestada ja Microsoft teeb selles vallas pidevalt uusi pakkumisi.
+Microsoft Dynamics 365 for Talent: Attract aitab leida vajalikku talenti, lastes teil sisestada tööpakkumised Atttractist otse Broadbeani. Pärast seda, kui [loote tööpakkumise](./creating-jobs-attract.md) Attractis, tuleb lihtsalt klõpsata nuppu, et panna tööpakkumine kõikide potentsiaalsete kandidaatide ette LinkedInis.
+
+Tööpakkumiste sisestamine Broadbeani nõuab asjakohast Broadbeani litsentsi. Broadbean pakub erinevaid tooteid ja plaane. Lisateavet Broadbeani litsentsimise ja hinnakujunduse kohta [võtke ühendust Bradbeaniga](https://www.broadbean.com/contact-us/).
+
+Kui olete administraator, kes vajab lisateavet selle kohta, kuidas konfigureerida Broadbeani integratsiooni, vaadake teemat [Väliste töölaudade sätete sisestamine](./attract-admin-job-board-settings.md).
 
 ## <a name="post-jobs-to-broadbean"></a>Töökuulutuste sisestamine Broadbeani
-
-Enne töökuulutuste sisestamist Broadbeani peate konfigureerima Broadbeani integreerimise.
-
-> [!NOTE]
-> - Töökuulutuste sisestamiseks välistele veebisaitidele peab teil olema [tervikliku värbamise lisandmoodul](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - Tööde sisestamiseks Broadbeani Attracti kaudu peab teil olema Broadbeani kordustellimus.
-> - See funktsioon on praegu eelvaateversioonis. Kui soovite seda proovida, peate [selle sisse lülitama Attracti administraatori sätetega](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
-
-### <a name="configure-broadbean-integration"></a>Broadbeani integreerimise konfigureerimine
-
-1. Attracti administraatorina sisse logimine.
-2. Valige lehe paremast ülanurgast nupp **Sätted** (hammasrattasümbol) ja seejärel valige **Administreerimiskeskus**.
-3. Lülitage integratsioon sisse vahekaardi **Tööportaalide sätted** jaotises **Luba Broadbeani integreerimine**.
-4. Looge Broadbeaniga ühendus ja sisestage oma andmed lahtritesse **Kasutajanimi, Kliendi ID, Krüptimise luba**.
-
-> [!WARNING]
-> Teie Broadbeani mandaadid on tundlikud ja konfidentsiaalsed. Seega talletage ja jagage neid vastutustundlikult. Mandaadid on nähtavad kõigile, kellel on Attractis administraatori roll.
-
-> [!NOTE]
-> Microsoft ja Attract ei ole nende väärtuste loomise ning haldamisega seotud. Mandaatide Attractis ajakohasena hoidmine ja nendega seotud võimalike probleemide lahendamine Broadbeanis on teie vastutus.
-
-### <a name="post-a-job-to-broadbean"></a>Töökuulutuse sisestamine Broadbeani
 
 Kui Broadbean on sisse lülitatud, saavad värbajad ja administraatorid sellesse töökuulutuse sisestada. Teil peab töökuulutuse jaoks olema kandideerimise URL.
 
@@ -80,7 +62,7 @@ Kui Broadbean on sisestamise edukalt lõpetanud, kuvatakse Attractis töökuulut
 Pärast töökuulutuse Broadbeani sisestamist saate seda kuvada Attracti kaudu.
 
 1. Avage Attractis töökuulutus, mida soovite Broadbeanis kuvada.
-2. Valige jaotises **Sisestamised** Broadbeanile vastav kolmikpunkti nupp (**...**) ja seejärel valige **Kuva**.
+2. Valige vahekaardil **Sisestamised** Broadbeanile vastav kolmikpunkti nupp (**...**) ja seejärel valige **Kuva**.
 
 Broadbeani töökuulutuse sisestus kuvatakse uues aknas.
 
@@ -107,10 +89,16 @@ Töökuulutuse sisestusi saate Broadbeanist vajaduse korral eemaldada.
 
 Kui Broadbean on töökuulutuse eemaldanud, on Attractis Broadbeani üksusel **Sisesta kohe** nupp. Selle nupu olemasolu näitab, et töökuulutus on eemaldatud ja seda on võimalik uuesti sisestada.
 
-### <a name="troubleshoot-the-broadbean-integration"></a>Broadbeani integreerimise tõrkeotsing
+### <a name="troubleshoot-job-posting-to-broadbean"></a>Broadbeani tööpakkumiste sisestamise tõrkeotsing
 
 Kui teil on Broadbeani töökuulutuse sisestamisega probleeme, proovige järgmist.
 
 1. Kontrollige, kas Attracti sisestatud Broadbeani mandaadid on kehtivad ja õiged.
 2. Kui mandaadid on kehtivad ja õiged, võtke ühendust [Broadbeani toega](https://www.broadbean.com/resources/support/).
 3. Kui probleem ei lahene, võtke ühendust [Microsofti toega](./talent-support.md).
+
+## <a name="see-also"></a>Vt ka
+
+[Tööpakkumiste loomine](./creating-jobs-attract.md)
+
+[Väliste töölaudade sätete sisestamine](./attract-admin-job-board-settings.md)

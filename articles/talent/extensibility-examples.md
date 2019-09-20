@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577791"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781438"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talenti laiendamine PowerAppsi ja Microsoft Flow’ga – näidisstsenaariumid
 
@@ -101,24 +101,15 @@ Seda malli saab laiendada kasutamiseks mis tahes stsenaariumi jaoks, mis hõlmab
 
 Malli **Flow – SharePointi integratsioon** alla laadimiseks minge Microsofti allalaadimiskeskuses lehele [Flow – SharePointi integratsioon](https://go.microsoft.com/fwlink/?linkid=2082109).
 
-## <a name="admin-console-to-manage-talent-pools"></a>Administraatori konsool talendikaustade haldamiseks
+## <a name="referral-app"></a>Soovitusrakendus
+Saate kasutada soovitusrakendust, et lisada kandidaate jagatud talendipanka. Soovitaja saab kandidaadi esitamisel sisestada **eesnime**, **perekonnanime**, **meliaadressi** ja **LinkedIni URLi**. Seejärel täidetakse kandidaatallika metaandmed koos soovitaja teabega.
 
-Kui lubate integratsiooni LinkedIniga, loob Attract automaatselt LinkedIni talentikausta. Kui värbaja saadab InMail kandidaadile LinkedIni kaudu, loob Attract kandidaadile profiili ja temast saab LinkedIni talendikausta liige. See PowerAppsi rakendus on otstarbekas kandidaatide järjestamiseks talendikaustades oskuste alusel.
+Saate selle rakenduse manustada soovituste esitamiseks töötajate iseteenindusse (ESS) või kasutada seda ettevõtteportaalis hüperlingina ja kasutada eraldiseisva rakendusena.
 
-Käivitage rakendus PowerApps administraatori konsoolina järgmiste ülesannete täitmiseks.
-
-- Kandidaatide järjestamine talendikaustas
-- Kandidaatide lisamine ja eemaldamine talendikausta
-- Kandidaatide teisaldamine ühest talendikaustast teise
-- Määratlemine, kas kandidaadid on enne teisaldamist juba talendikaustas
-- Kandidaatide oskuste kontrollimine enne nende teisaldamist teistesse talendikaustadesse
-
-See PowerAppsi rakendus kasutab mitu-mitmele-seoseid ning saate seda kasutada mallina muudel juhtudel, kui teil on vaja ekstraktida kirjeid, millel on mitu-mitmele seosed.
-
-Malli **Administraatori konsool talendikaustade haldamiseks** allalaadimiseks avage [Administraatori konsool talendikaustade haldamiseks](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) Microsofti allalaadimiskeskuses.
+**Sooitusrakenduse** allalaadimiseks minge Microsofti allalaadimiskeskuse lehele [Dynamics 365 for Talent laiendatavuse lahendus: soovitusrakendus](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d). Seda rakendust saab importida ja kohandada, et lisada täiendavaid funktsioone.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[Rakenduse ülekandmine rentnike ja keskkondade vahel](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[Rakenduse ülekandmine rentnike ja keskkondade vahel](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

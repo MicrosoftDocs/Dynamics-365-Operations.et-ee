@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617339"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742701"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Rakenduse Dynamics 365 for Talent rakendusse Dynamics 365 for Finance and Operations integreerimise KKK
 
@@ -38,7 +38,7 @@ Rakenduste Attract ja Onboard puhul on kõik andmed teenuse Common Data Service 
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Kas uue vastenduse saab luua malle kasutamata?
 
-Mallid on alguspunkt. Saate luua oma malli, kuid malli on integratsiooniprojekti loomisel alati vaja. Lisateavet andmeintegraatori (DI), mallide ja projektide kohta vaadake teemast [Andmete integreerimine teenusesse Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+Mallid on alguspunkt. Saate luua oma malli, kuid malli on integratsiooniprojekti loomisel alati vaja. Lisateavet andmeintegraatori (DI), mallide ja projektide kohta vaadake teemast [Andmete integreerimine teenusesse Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Kas ma saan vastendada finantsdimensioonide edastamise rakenduste Talent ja Finance and Operations vahel?
 
@@ -133,7 +133,7 @@ Integratsioon rakendusse Finance and Operations on kaheetapiline protsess. Esmal
 
 Kui andmeid ei kuvata teenuses Common Data Service oodatud viisil, siis kontrollige, kas integratsioon toetab üksust. Teenuse Common Data Service lisaandmete kaasamiseks on vajalik muudatus Microsofti poolel.
 
-Kui üksust toetatakse ja andmed on teenuses Common Data Service saadaval, siis kontrollige, kas vastendus on andmeintegraatoris õige. Kui integraatori vastendus tundub olevat korras, siis kontrollige edukalt käitatud andmehalduse töid. Tõrked võivad ilmneda pakett-tööde käivitamisel. Lisateavet andmehalduse kohta vt teemast [Andmehaldus](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Kui üksust toetatakse ja andmed on teenuses Common Data Service saadaval, siis kontrollige, kas vastendus on andmeintegraatoris õige. Kui integraatori vastendus tundub olevat korras, siis kontrollige edukalt käitatud andmehalduse töid. Tõrked võivad ilmneda pakett-tööde käivitamisel. Lisateavet andmehalduse kohta vt teemast [Andmehaldus](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>Pärast töövõtjate importimist rakendusse Finance and Operations on nende aadressid valed. Mida teha?
 
@@ -145,7 +145,7 @@ Talenti juurutamise ajal kontrollige, et numbriseeriad poleks Talentis ja Financ
 
 Veenduge, et valiksite ühenduste loomisel suvandid Dynamics 365 for Finance and Operations (praegu eelvaateversioonis) ja Common Data Service.
 
-## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Saan töösuhete sünkroonimisel tõrketeate „Atribuuti CompanyInfo_FK pole olemas” või „Väärtust 12/31/2154 23:59:59 väljal Töösuhte lõppkuupäev ei leitud seotud tabelist Töösuhe”. Mida teha?
+## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Saan töösuhete sünkroonimisel tõrketeate „Atribuuti CompanyInfo_FK pole olemas” või „Väärtust 12/31/2154 23:59:59 väljal Töösuhte lõppkuupäev ei leitud seotud tabelist Töösuhe”. Mida teha?
 
 Veendute, et vastendaksite õigete juriidiliste isikutega. Juriidilise isiku sünkroonimine pole vaikemalli osa, seega peaks iga Talentis ja teenuses Common Data Service olev juriidiline isik olemas olema ka Finance and Operationsis.
 Veenduge ka, et valiksite seostatud ühendusekogumi jaoks õiged juriidilised isikud.
@@ -160,12 +160,12 @@ Värskendage andmeüksuseid rakenduses Finance and Operations, minnes jaotisse *
 
 - Andmeintegraator (DI): 
 
-  - [Andmete integreerimine teenusesse Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+  - [Andmete integreerimine teenusesse Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
-  - [Andmeintegraatori tõrkehaldus ja tõrkeotsing](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
+  - [Andmeintegraatori tõrkehaldus ja tõrkeotsing](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [DSR-i taotlustele vastamine süsteemi loodud logide puhul teenustes PowerApps, Microsoft Flow ja Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [DSR-i taotlustele vastamine süsteemi loodud logide puhul teenustes PowerApps, Microsoft Flow ja Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Andmehaldus
 
-  - [Andmehaldus](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Andmehaldus](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)

@@ -1,6 +1,6 @@
 ---
-title: Kandidaatide otsimine talendikaustu kasutades
-description: Selles teemas kirjeldatakse kuidas Attractis talendikaustu luua ja seadistada.
+title: Kandidaatide hankimine talendipankadega rakenduses Microsoft Dynamics 365 for Talent - Attract
+description: Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 for Talent - Attract talendipanka luua ja seadistada.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711290"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741863"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>Kandidaatide otsimine talendikaustu kasutades
+# <a name="source-candidates-with-talent-pools"></a>Kandidaatide hankimine talendikaustadega
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ Talendikausta omanik ja kaasautorid saavad talendikaustale kandidaate lisada, se
 ## <a name="search-and-view-candidate-profiles"></a>Kandidaatide profiilide otsimine ja vaatamine
 
 > [!NOTE] 
-> See funktsioon on praegu eelvaateversioonis. Kui soovite seda proovida, peate [selle sisse lülitama Attracti administraatori sätetega](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> See funktsioon on praegu eelvaateversioonis. Kui soovite seda proovida, peate [selle sisse lülitama Attracti administraatori sätetega](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). 
 
 Talendikaustad võimaldavad vaadata kandidaadi profiili, LinkedIni andmeid, seotud dokumente ja kandideerimisajalugu. Te saate otsida mis tahes talendikausta lisatud kõikide kandidaatide andmebaasist, sealhulgas suletud ja aktiivseid kandideerijaid.
 
@@ -116,7 +116,7 @@ Kõigil kasutajatel on kandidaatide profiilide üldvaade. Vahekaardil **Profiil*
 
     Dokumendi vaatamiseks valige dokumentide loendist dokumendi nimi. Saate vaadata rakenduses Microsoft Wordi dokumente, kasutades Microsoft Office 365. Saate dokumendid ka oma arvutisse alla laadida, kasutades iga dokumendi juures valikut **Laadi alla**.
 
-- Vahekaart **LinkedIn** näitab kandidaadi LinkedIni andmeid. Selle vahekaardi kasutamiseks peate kasutaja sätete abil ühendama oma LinkedIni konto ja loodud peab olema teie keskkonna LinkedIn Recruiteri ühendus. Lisateavet leiate artiklist [Hankimine tööriistaga LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- Vahekaart **LinkedIn** näitab kandidaadi LinkedIni andmeid. Selle vahekaardi kasutamiseks peate kasutaja sätete abil ühendama oma LinkedIni konto ja loodud peab olema teie keskkonna LinkedIn Recruiteri ühendus. Lisateavet leiate artiklist [Hankimine tööriistaga LinkedIn Recruiter](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Ainult kandidaadid saavad värskendada oma oskusi, hariduslugu ja töökogemust.

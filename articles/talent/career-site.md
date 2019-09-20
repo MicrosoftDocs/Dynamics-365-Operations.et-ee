@@ -1,6 +1,6 @@
 ---
-title: Rakenduse Attract karjäärisaidi funktsionaalsus
-description: See teema annab ülevaate kandidaatidele suunatud karjäärisaidi funktsionaalsusest rakenduses Attract.
+title: Karjäärisaidi seadistamine rakenduses Microsoft Dynamics 365 for Talent - Attract
+description: See teema annab ülevaate kandidaatidele suunatud karjäärisaidi funktsionaalsusest rakenduses Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729699"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739767"
 ---
-# <a name="career-site-functionality-in-attract"></a>Rakenduse Attract karjäärisaidi funktsionaalsus
+# <a name="set-up-your-career-site"></a>Karjääri saidi seadistamine
 
 [!include[banner](../includes/banner.md)]
 
@@ -131,7 +131,7 @@ Te saate teha ametikohtadele kandideerimise kandidaatidele lihtsaks, kui konfigu
 1. Attracti administraatorina sisse logimine.
 2. Valige lehe paremast ülanurgast nupp **Sätted** (hammasrattasümbol) ja seejärel valige **Administreerimiskeskus**.
 3. Valige vahekaart **LinkedIni integreerimine** ja looge ühendus LinkedIn Recruiteri kontoga.
-4. Jaotises **LinkedIn Recruiter System Connect i integreerimine** valige sätte **Kandideeri LinkedIni kaudu** olekuks **Lubatud**.
+4. Jaotises **LinkedIn Recruiter System Connecti integreerimine** valige sätte **Kandideeri LinkedIni kaudu** olekuks **Lubatud**.
 
 Pärast selle sätte lubamist saavad kandidaadid kandideerida oma LinkedIni profiili andmeid kasutades. Kui kandidaadid kandideerivad nupu **Kandideeri LinkedIni kaudu** abil, palutakse neil LinkedIni kaudu autentida, kui nad pole veel sisse loginud. Pärast autentimist asendab nende LinkedIni profiil kandideerimise lehel juba olevad profiiliandmed. Kandidaadid saavad neid andmeid vajaduse järgi muuta ja seejärel kandideerida. Kui kandidaat lahkub lehelt ilma töökohale kandideerimata, ei värskendata rakenduses Attract tema profiili andmeid.
 

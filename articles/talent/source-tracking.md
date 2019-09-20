@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: ebc82ada31d2803800358cd9aecfe389ada8f0dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2cfa180f992a4f7a9b2e21e0fb3e0845c7546c94
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517834"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742710"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Kandidaadi profiilide ja avalduste allikate jälgimine 
+# <a name="track-candidate-sources"></a>Jälita kandidaadi allikaid
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE] 
-> Selles teemas märgitud funktsioonid on saadaval eelväljaandes. Sisu ja funktsioonid võivad muutuda. Selle funktsiooni kasutamiseks paluge administraatoril see lubada, kasutades Attractis **administraatori sätteid**. Tulevases väljaandes pakutakse allika jälgimise aruandeid. Lisateavet leiate teemast [Juurdepääs eelvaatefunktsioonidele rakenduses Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature).
+> Selles teemas märgitud funktsioonid on saadaval eelväljaandes. Sisu ja funktsioonid võivad muutuda. Selle funktsiooni kasutamiseks paluge administraatoril see lubada, kasutades Attractis **administraatori sätteid**. Tulevases väljaandes pakutakse allika jälgimise aruandeid. Lisateavet leiate teemast [Juurdepääs eelvaatefunktsioonidele rakenduses Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 Kui kandidaadid töökohale kandideerivad, jälgib rakendus Attract automaatselt nende avalduste allikat, pakkudes teile väärtuslikku abiteavet värbamisprotsessi jaoks. Värbajad ja personalijuhid võivad kandidaadi käsitsi tööle või talendikausta lisamisel valida ka avalduse allika.
 
 Saate vaadata avalduse allikat vahekaardil **Tegevus** avalduste tegevuse üksikasjade alt ja vahekaardi **Profiil** talendikaustades olevas avalduste ajaloos. Kandidaadi profiili võite leida vahekaardi **Profiil** avaldustes ja talendikaustades olevates kandidaatide üksikasjades.
 
 > [!NOTE] 
-> Protsessimallid leiate [tervikliku värbamise lisandmoodulist](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> Protsessimallid leiate [tervikliku värbamise lisandmoodulist](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 
 ## <a name="pre-configured-sources"></a>Eelkonfigureeritud allikad
 
@@ -93,7 +93,7 @@ Vaikallikate loend sisaldab tavapäraseid avalduste allikaid. Mõnel allika tü�
 
 ## <a name="customize-the-source-list"></a>Allikate loendi kohandamine 
 
-Saate allikate loendit täiendada, et kaasata täiendavaid avalduste allikaid. Loendi kohandamiseks järgige juhiseid teemas [Suvandikomplektide laiendamine Attractis](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). Redigeerige olemit **TalentSource**, et lisada täiendavaid allikaid. 
+Saate allikate loendit täiendada, et kaasata täiendavaid avalduste allikaid. Loendi kohandamiseks järgige juhiseid teemas [Suvandikomplektide laiendamine Attractis](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). Redigeerige olemit **TalentSource**, et lisada täiendavaid allikaid. 
 
 Kasutajaliidese kahjustamise vältimiseks ärge redigeerige ega muutke olemi **TalentCategory** loetelu (enum) väärtusi (mitte nimesid) järgmiste üksuste puhul.
 
