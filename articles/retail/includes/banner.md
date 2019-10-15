@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> See teema kehtib rakenduste Dynamics 365 for Retail ja Dynamics 365 for Finance and Operations kohta.
+> See teema kehtib rakenduse Dynamics 365 Retail ja Dynamics 365 Commerce (Eelvaade) kohta.

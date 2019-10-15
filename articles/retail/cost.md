@@ -1,6 +1,6 @@
 ---
 title: Hajutatud tellimuste haldamise (DOM) kulukonfiguratsioon
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Retaili hajutatud tellimuste haldamise (DOM) funktsiooni kulukonfiguratsiooni.
+description: Selles teemas kirjeldatakse Dynamics 365 Retaili hajutatud tellimuste haldamise (DOM) funktsiooni kulukonfiguratsiooni.
 author: josaw1
 manager: AnnBe
 ms.date: 12/05/2018
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80e7a033467c3d94d55f06daa05f99bd27e19a29
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: b5e3e1997f3d3b61b7b3c7486f5531e386293537
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606775"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019435"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>Hajutatud tellimuste haldamise (DOM) kulukonfiguratsioon
 
@@ -31,7 +31,7 @@ ms.locfileid: "1606775"
 
 Organisatsioonid kasutavad tellimuse täitmise alusena kasutatava optimaalse asukoha määratlemiseks mitut kulukomponenti. Mõned neist kulukomponentidest on lähetuskulu, käsitluskulu ja pakenduskulu. Täitmisasukoha määratlemiseks arvutatakse nende kulude kombinatsioon.
 
-Kui Microsoft Dynamics 365 for Retaili hajutatud tellimuste haldamise (DOM) esimene iteratsioon optimeeris tellimuste määramist täitmisasukohtadele, võttis see arvesse ainult vahemaad. Kuigi vahemaa saab olla kuluga vastastikuses seoses, pole see siiski sama mis kulu. Näiteks maksab öine saatmisviis rohkem kui sama vahemaaga kolmepäevane või seitsmepäevane tarne.
+Kui Dynamics 365 Retaili hajutatud tellimuste haldamise (DOM) esimene iteratsioon optimeeris tellimuste määramist täitmisasukohtadele, võttis see arvesse ainult vahemaad. Kuigi vahemaa saab olla kuluga vastastikuses seoses, pole see siiski sama mis kulu. Näiteks maksab öine saatmisviis rohkem kui sama vahemaaga kolmepäevane või seitsmepäevane tarne.
 
 Kulukonfiguratsiooni funktsioon võimaldab jaemüüjatel määratleda ja konfigureerida täiendavad kulukomponendid, mis arvutatakse ja mida võetakse arvesse selleks, et määratled tellimuseridade täitmiseks alusena kasutatav optimaalne asukoht.
 

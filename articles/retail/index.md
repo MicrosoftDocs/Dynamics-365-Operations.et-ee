@@ -1,6 +1,6 @@
 ---
-title: Tere tulemast teenusesse Dynamics 365 for Retail
-description: Teenuse Dynamics 365 for Retail avaleht
+title: Teenuse Dynamics 365 Retail spikriressursid
+description: Teenuse Dynamics 365 Retail avaleht
 author: josaw1
 manager: AnnBe
 ms.date: 08/14/2019
@@ -18,23 +18,26 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
-ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
+ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "1874923"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278102"
 ---
-# <a name="welcome-to-dynamics-365-for-retail"></a>Tere tulemast teenusesse Dynamics 365 for Retail
+# <a name="help-resources-for-dynamics-365-retail"></a>Teenuse Dynamics 365 Retail spikriressursid
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail on täielik jaemüügilahendus, mis pakub ühtlustatud kaubandust kõigi kanalite lõikes. See hõlmab müüki, mobiilsust, teavet ja tööviljakust ning aitab jaemüüjatel ja töötajatel pilvepõhise ja mobiilse tööga rohkem saavutada. Rakendus Retail pakub mitmesuguste äriprotsessidega töötamiseks mitmekülgset tuge, nt kaubanduse, varude ja kanalite haldamisvõimalusi. Samuti pakub see kõigi puutepunktide üleselt kõikehõlmavat kliendikogemust.
-
-> [!NOTE]
-> Dynamics 365 for Retail on tihedalt seotud teenustega Dynamics 365 for Finance and Operations ja Dynamics 365 for Talent. Kõigis kolmes tootes võivad esineda samad funktsioonid. Seetõttu on peamiselt jaemüügiga seotud teemades toote nimi Microsoft Dynamics 365 for Retail; põhitootega (Finance and Operations) seotud teemades on toote nimi Microsoft Dynamics 365 for Finance and Operations; peamiselt inimressurssidega seotud teemades on toote nimi Dynamics 365 for Talent.
+Microsoft Dynamics 365 Retail on täielik jaemüügilahendus, mis pakub ühtlustatud kaubandust kõigi kanalite lõikes. See hõlmab müüki, mobiilsust, teavet ja tööviljakust ning aitab jaemüüjatel ja töötajatel pilvepõhise ja mobiilse tööga rohkem saavutada. Rakendus Retail pakub mitmesuguste äriprotsessidega töötamiseks mitmekülgset tuge, nt kaubanduse, varude ja kanalite haldamisvõimalusi. Samuti pakub see kõigi puutepunktide üleselt kõikehõlmavat kliendikogemust.
 
 Selle kohta lisateabe saamiseks valige vasakul paanil funktsiooniala.
+
+## <a name="dynamics-365-commerce-preview"></a>Dynamics 365 Commerce (eelvaade)
+
+Teenuse Dynamics 365 Retail end tõestanud funktsioonidel põhinev Dynamics 365 Commerce pakub ulatuslikku mitmekanalilist lahendust, mis ühendab endas kontori-, poe-, kõnekeskuse ja digifunktsionaalsuse. Commerce on praegu saadaval eelvaateklientidele. Teenuse Dynamics 365 Retail olemasolevad kliendid saavad teha värksenduse teenusele Commerce siis, kui see muutub üldiselt kättesaadavaks.
+
+Lisateavet teenuse Dynamics 365 Commerce kohta leiate lehelt [Teenuse Dynamics 365 Commerce spikriressursid](../commerce/index.md).
 
 ## <a name="channel-management"></a>Kanalihaldus
 
@@ -78,8 +81,8 @@ Selleks, et määratleda seoseid kaupluse, kaupluses olevate kassaregistrite ja 
 
 Kui teil on palutud oma keskkonda kohandada või kui teie ülesandeks on oma süsteemi juurutamine ja haldamine, vaadake kindlasti rakendusele Retail omast arendaja ja süsteemiadministraatori sisu ning ka üldisemat sisu.
 
-- [Dynamics 365 for Retail IT-spetsialistidele ja arendajatele](dev-itpro/dev-retail-home-page.md)
-- [Teenuse Dynamics 365 for Finance and Operations arendamine ja haldus](../dev-itpro/dev-tools/developer-home-page.md)
+- [Dynamics 365 Retail IT-spetsialistidele ja arendajatele](dev-itpro/dev-retail-home-page.md)
+- [Teenuse Dynamics 365 Finance arendamine ja haldus](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
