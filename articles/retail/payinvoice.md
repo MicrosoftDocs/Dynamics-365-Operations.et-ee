@@ -1,6 +1,6 @@
 ---
 title: Arve tasumise stsenaariumide seadistamine
-description: Selles teemas kirjeldatakse, kuidas konfigureerida rakendust Dynamics 365 for Retail, et see toetaks arve maksetega seotud erinevaid stsenaariume.
+description: Selles teemas kirjeldatakse, kuidas konfigureerida rakendust Dynamics 365 Retail, et see toetaks arve maksetega seotud erinevaid stsenaariume.
 author: josaw1
 manager: AnnBe
 ms.date: 11/14/2018
@@ -18,31 +18,31 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb9101843396e489e4d7b63879e9df35e52fe64
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564966"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018009"
 ---
-# <a name="set-up-pay-invoice-scenarios"></a><span data-ttu-id="df233-103">Arve tasumise stsenaariumide seadistamine</span><span class="sxs-lookup"><span data-stu-id="df233-103">Set up pay invoice scenarios</span></span>
+# <a name="set-up-pay-invoice-scenarios"></a><span data-ttu-id="2cf97-103">Arve tasumise stsenaariumide seadistamine</span><span class="sxs-lookup"><span data-stu-id="2cf97-103">Set up pay invoice scenarios</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="df233-104">Arve maksmise funktsiooni rakenduses Dynamics 365 for Retail on laiendatud, et see toetaks järgmist.</span><span class="sxs-lookup"><span data-stu-id="df233-104">The Pay invoice functionality in Dynamics 365 for Retail has been expanded to support:</span></span>
+<span data-ttu-id="2cf97-104">Arve maksmise funktsiooni rakenduses Dynamics 365 Retail on laiendatud, et see toetaks järgmist.</span><span class="sxs-lookup"><span data-stu-id="2cf97-104">The Pay invoice functionality in Dynamics 365 Retail has been expanded to support:</span></span>
 
-- <span data-ttu-id="df233-105">Mitme müügitellimuse arve tasumine ühe kassakandega.</span><span class="sxs-lookup"><span data-stu-id="df233-105">Payoff of multiple sales order invoices in a single POS transaction.</span></span>
-- <span data-ttu-id="df233-106">Mitme kliendiarve tüübi makse, sh vabas vormis arved, projektipõhised arved ja kreeditarved.</span><span class="sxs-lookup"><span data-stu-id="df233-106">Payment of various customer invoice types including free text invoices, project-based invoices, and credit notes.</span></span>
+- <span data-ttu-id="2cf97-105">Mitme müügitellimuse arve tasumine ühe kassakandega.</span><span class="sxs-lookup"><span data-stu-id="2cf97-105">Payoff of multiple sales order invoices in a single POS transaction.</span></span>
+- <span data-ttu-id="2cf97-106">Mitme kliendiarve tüübi makse, sh vabas vormis arved, projektipõhised arved ja kreeditarved.</span><span class="sxs-lookup"><span data-stu-id="2cf97-106">Payment of various customer invoice types including free text invoices, project-based invoices, and credit notes.</span></span>
 
-<span data-ttu-id="df233-107">Nende stsenaariumide lubamiseks tuleb kaupluste funktsiooniprofiili konfigureerida allpool kirjeldatud viisil.</span><span class="sxs-lookup"><span data-stu-id="df233-107">To enable these scenarios, the functionality profile for stores must be configured as outlined in below.</span></span>
+<span data-ttu-id="2cf97-107">Nende stsenaariumide lubamiseks tuleb kaupluste funktsiooniprofiili konfigureerida allpool kirjeldatud viisil.</span><span class="sxs-lookup"><span data-stu-id="2cf97-107">To enable these scenarios, the functionality profile for stores must be configured as outlined in below.</span></span>
 
-1. <span data-ttu-id="df233-108">Valige suvandid **Jaemüük \> Kanali seadistus \> Kassa seadistus \> Kassa profiilid \> Funktsiooniprofiilid** ja valige profiil, mis on seotud kauplustega, mida soovite muuta.</span><span class="sxs-lookup"><span data-stu-id="df233-108">Go to **Retail \> Channel setup \> POS setup \> POS profiles \> Functionality profiles** and select a profile that's linked to the stores that you want to make the changes for.</span></span>
-2. <span data-ttu-id="df233-109">Konfigureerige vahekaardil **Funktsioonid** vajaduse järgi järgmisi parameetreid.</span><span class="sxs-lookup"><span data-stu-id="df233-109">On the **Functions** tab, configure the following parameters as needed.</span></span>
+1. <span data-ttu-id="2cf97-108">Valige suvandid **Jaemüük \> Kanali seadistus \> Kassa seadistus \> Kassa profiilid \> Funktsiooniprofiilid** ja valige profiil, mis on seotud kauplustega, mida soovite muuta.</span><span class="sxs-lookup"><span data-stu-id="2cf97-108">Go to **Retail \> Channel setup \> POS setup \> POS profiles \> Functionality profiles** and select a profile that's linked to the stores that you want to make the changes for.</span></span>
+2. <span data-ttu-id="2cf97-109">Konfigureerige vahekaardil **Funktsioonid** vajaduse järgi järgmisi parameetreid.</span><span class="sxs-lookup"><span data-stu-id="2cf97-109">On the **Functions** tab, configure the following parameters as needed.</span></span>
 
-    - <span data-ttu-id="df233-110">**Müügitellimuse arve** – valige väärtus **Jah**, et lasta kasutajatel maksta üks või mitu müügitellimisel põhinevat arvet ühes kassakandes.</span><span class="sxs-lookup"><span data-stu-id="df233-110">**Sales order invoice** – Select **Yes** to allow users to pay one or more sales order-based invoices in a single POS transaction.</span></span>
-    - <span data-ttu-id="df233-111">**Vabas vormis arve** – valige väärtus **Jah**, et lasta kasutajatel maksta üks või mitu vabas vormis arvet ühes kassakandes.</span><span class="sxs-lookup"><span data-stu-id="df233-111">**Free text invoice** – Select **Yes** to allow users to pay one or more free text-based invoices in a single POS transaction.</span></span>
-    - <span data-ttu-id="df233-112">**Projektiarve** – valige väärtus **Jah**, et lasta kasutajatel maksta üks või mitu projektiarvet ühes kassakandes.</span><span class="sxs-lookup"><span data-stu-id="df233-112">**Project invoice** – Select **Yes** to allow users to pay one or more project-based invoices in a single POS transaction.</span></span>
-    - <span data-ttu-id="df233-113">**Müügitellimuse kreeditarve** – valige väärtus **Jah**, et lasta kasutajatel tasakaalustada mitu müügitellimusel põhinevat kreeditarvet avatud arvete suhtes või töödelda tagasimakset kliendile avatud kreeditarve jaoks.</span><span class="sxs-lookup"><span data-stu-id="df233-113">**Sales order credit note** – Select **Yes** to allow users to settle multiple sales order-based credit notes against open invoices or process a refund to the customer for an open credit note.</span></span>
+    - <span data-ttu-id="2cf97-110">**Müügitellimuse arve** – valige väärtus **Jah**, et lasta kasutajatel maksta üks või mitu müügitellimisel põhinevat arvet ühes kassakandes.</span><span class="sxs-lookup"><span data-stu-id="2cf97-110">**Sales order invoice** – Select **Yes** to allow users to pay one or more sales order-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="2cf97-111">**Vabas vormis arve** – valige väärtus **Jah**, et lasta kasutajatel maksta üks või mitu vabas vormis arvet ühes kassakandes.</span><span class="sxs-lookup"><span data-stu-id="2cf97-111">**Free text invoice** – Select **Yes** to allow users to pay one or more free text-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="2cf97-112">**Projektiarve** – valige väärtus **Jah**, et lasta kasutajatel maksta üks või mitu projektiarvet ühes kassakandes.</span><span class="sxs-lookup"><span data-stu-id="2cf97-112">**Project invoice** – Select **Yes** to allow users to pay one or more project-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="2cf97-113">**Müügitellimuse kreeditarve** – valige väärtus **Jah**, et lasta kasutajatel tasakaalustada mitu müügitellimusel põhinevat kreeditarvet avatud arvete suhtes või töödelda tagasimakset kliendile avatud kreeditarve jaoks.</span><span class="sxs-lookup"><span data-stu-id="2cf97-113">**Sales order credit note** – Select **Yes** to allow users to settle multiple sales order-based credit notes against open invoices or process a refund to the customer for an open credit note.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="df233-114">Osaliste summade makset või tasakaalustamist veel ei toetata.</span><span class="sxs-lookup"><span data-stu-id="df233-114">Payment or settlement of partial amounts is not yet supported.</span></span>
+> <span data-ttu-id="2cf97-114">Osaliste summade makset või tasakaalustamist veel ei toetata.</span><span class="sxs-lookup"><span data-stu-id="2cf97-114">Payment or settlement of partial amounts is not yet supported.</span></span>
