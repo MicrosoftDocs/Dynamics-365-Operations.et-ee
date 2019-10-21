@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
-ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
+ms.openlocfilehash: a9a26450be97f655df8bc5983e4718341d40a2d6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755393"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009896"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Soodustusprogrammi määratlemine ja haldamine
 
@@ -51,7 +51,7 @@ Iga soodustuse tüübi, nt visiooni või hambaravi puhul saab organisatsioon pak
 [![soodustuse pilt](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Sobivus
-Töötaja soodustuse saamise õiguse tööandja pakutavatele eri tüüpi soodustustele määravad paljud tegurid. Soodustuse loomisel Microsoft Dynamics Talentis saate seadistada selle soodustuse puhul rakenduva soodustuse saamise õiguse tüübi. 
+Töötaja soodustuse saamise õiguse tööandja pakutavatele eri tüüpi soodustustele määravad paljud tegurid. Soodustuse loomisel Dynamics 365 Talentis saate seadistada selle soodustuse puhul rakenduva soodustuse saamise õiguse tüübi. 
 
 Saate muuta soodustuse saadavaks kõigile töötajatele. Mõned ettevõtted pakuvad näiteks parkimislube kõigile töötajatele erisoodustusena. Selle soodustuse loomisel seate soodustuse saamise õiguse suvandile **Kõigil töötajatel on soodustuse saamiseks õigus**. 
 

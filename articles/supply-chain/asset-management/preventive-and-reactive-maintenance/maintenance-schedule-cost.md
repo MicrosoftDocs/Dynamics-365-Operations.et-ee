@@ -3,7 +3,7 @@ title: Hooldusgraafiku kulu
 description: Selles teemas selgitatakse hooldusgraafiku kulu varahalduses.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71b958839a914d90a86a0dcd16a09285ca6dcfa4
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875599"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922064"
 ---
 # <a name="maintenance-schedule-cost"></a>Hooldusgraafiku kulu
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 Varahalduses saate arvutada hooldusgraafiku ridade eelarve kulusid. See on kasulik, kui soovite saada ülevaadet oodatavatest kuludest, näiteks kulud seoses planeeritavate järgmise aasta ennetavate hooldustöödega. Arvutused põhinevad olemasolevatel hooldusgraafiku ridadel, mille tüüp on "Hoolduskavad" ja "Hoolduskorrad" ja "Hooldusnõuded".
 
@@ -48,10 +46,11 @@ Varahalduses saate arvutada hooldusgraafiku ridade eelarve kulusid. See on kasul
 
 5. Kulu arvutuse alustamiseks klõpsake **OK**.
 
-6. Klõpsake vahekaardi **Hooldusgraafiku kulu** > toimingupaani rühmas **Rühmitusalus...** asjakohastele nuppudele, et kuvada kuluarvutuse soovitud üksikasjade taset. Valitud toimingupaani grupi nupud on sinise värviga esile tõstetud. Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.
+6. Klõpsake vahekaardi **Hooldusgraafiku kulu** > toimingupaani rühmas **Rühmitusalus...** asjakohastele nuppudele, et kuvada kuluarvutuse soovitud üksikasjade taset. Valitud toimingupaani grupi nupud on esile tõstetud. Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.
 
 7. Klõpsake nuppu **Arvuta kulu**, kui soovite teha uue kuluarvutuse.
 
+Alltoodud illustratsioonil kuvatakse näidet hooldusgraafiku kulu arvutuse tulemustest.
 
 ![Joonis 1](media/17-preventive-maintenance.png)
 

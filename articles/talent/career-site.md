@@ -1,6 +1,6 @@
 ---
-title: Karjäärisaidi seadistamine rakenduses Microsoft Dynamics 365 for Talent - Attract
-description: See teema annab ülevaate kandidaatidele suunatud karjäärisaidi funktsionaalsusest rakenduses Dynamics 365 for Talent - Attract.
+title: Karjäärisaidi seadistamine rakenduses Microsoft Dynamics 365 Talent – Attract
+description: See teema annab ülevaate kandidaatidele suunatud karjäärisaidi funktsionaalsusest rakenduses Microsoft Dynamics 365 Talent – Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739767"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026275"
 ---
 # <a name="set-up-your-career-site"></a>Karjääri saidi seadistamine
 
 [!include[banner](../includes/banner.md)]
 
-See teema annab ülevaate kandidaatidele suunatud karjäärisaidi funktsionaalsusest rakenduses Dynamics 365 for Talent: Attract. Samuti selgitatakse, kuidas seda funktsionaalsust seadistada.
+See teema annab ülevaate kandidaatidele suunatud karjäärisaidi funktsionaalsusest rakenduses Dynamics 365 Talent: Attract. Samuti selgitatakse, kuidas seda funktsionaalsust seadistada.
 
 Attract annab rentniku igale keskkonnale ühe karjäärisaidi. Näiteks kui organisatsioonil on arenduskeskkond ja katsekeskkond, eraldatakse üks karjäärisait arenduskeskkonnale ja teine karjäärisait katsekeskkonnale. Iga karjäärisait on täiesti isoleeritud ja oma autentimismehhanismiga. Ühiseid töid ja kandidaatide profiile karjäärisaitidel pole.
 
@@ -62,7 +62,7 @@ Alljärgnev loend sisaldab tavaliselt kasutatavaid karjäärisaitide URL-e ja te
 
 -   **Karjäärisaidi avalehe URL** – karjäärisaidi avalehe URL-i vaatamiseks logige rakendusse Attract sisse administraatorina, valige menüüst **Sätted** suvand **Halduskeskus** ja seejärel valige vahekaart **Karjäärisaidi haldus**.
 
--   **Üksiku töökuulutuse kandideerimise URL** – kui [sisestate välise töökoha](Creating-jobs-Attract.md#postings) esmakordselt, võite rakendusest Attract kopeerida lingi **Kandideeri**. Selle lingi URL on järgmises vormingus: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **Üksiku töökuulutuse kandideerimise URL** – kui [sisestate välise töökoha](Creating-jobs-Attract.md#postings) esmakordselt, võite Attractist kopeerida lingi **Kandideeri**. Selle lingi URL on järgmises vormingus: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **Üksiku töökuulutuse URL** – töökuulutusee URL on kandideerimise URL-i alamstring. See sisaldab kõike kuni töökoha numbrini. Seetõttu on eelneva kandideerimise URL-i töökuulutuse URL [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 

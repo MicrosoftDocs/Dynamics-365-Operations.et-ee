@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865372"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249490"
 ---
 # <a name="product-configuration-overview"></a>Toote konfiguratsiooni ülevaade
 
@@ -60,6 +60,9 @@ Toote konfiguratsioonimudel koosneb ühest või mitmest komponendist, mis on ala
 
 Igal komponendil on üks või mitu omadus(t), mille järgi tuvastada selle atribuute. Atribuute valivad kasutajad konfigureerimisprotsessi ajal. Atribuudid juhivad nii komponentidevahelisi kui ka komponendisiseseid suhteid piirangutesse või arvutustesse kaasamise teel. Koosluse ridadele rakendatud tingimuste kaudu saab atribuute kasutada, et määrata, millistest füüsilistest osadest konfigureeritud toode koosneb. Lisaks saab atribuut juhtida koosluse rea atribuuti vastendamismehhanismi kaudu. Sarnane funktsioon on olemas protsessi operatsioonide jaoks, puudutades nii kaasamist kui ka atribuudi sätteid.
 
+>[!NOTE]
+> Atribuuditüüpide loomisel vältige atribuudi tüübi domeenile suure hulga väärtuste loomist. See võib aeglustada toote konfigureerijat. 
+
 ### <a name="expression-constraints"></a>Avaldise piirangud
 
 Piirangupõhise toote konfiguratsioonimudeli kasutamine tähendab, et on mõned piirangud, kui kasutaja valib väärtused erinevatele atribuutidele. Selliseid piiranguid saab juurutada avaldise piirangutena, kasutades optimeerimise modelleerimiskeelt (OML). Teise võimalusena saab piirangut juurutada tabelipiirangu vormis.
@@ -70,7 +73,7 @@ Tabelipiirangud võivad olla kas kasutaja või süsteemi määratletud.
 
 Kasutaja määratletud tabeli piirang on kasutaja loodud. Kasutaja valib tabeli veergude esindamiseks atribuuditüüpide kombinatsiooni ja sisestab siis väärtused valitud atribuuditüüpide domeenidest, et moodustada tabeli piirangus ridu.  
 
-Süsteemi määratletud tabelipiirangu määratlemiseks valitakse, millist Microsoft Dynamics 365 for Finance and Operationsi tabelit viitena kasutada, ja seejärel valitakse sellest tabelist väljad, et moodustada piirangu veerud. Tabelipiirangu read on Finance and Operationsi tabeli read, mis on saadaval konfigureerimise ajal.  
+Süsteemi määratletud tabelipiirangu määratlemiseks valitakse, millist tabelit viitena kasutada, ja seejärel valitakse sellest tabelist väljad, et moodustada piirangu veerud. Tabelipiirangu read on Finance and Operationsi tabeli read, mis on saadaval konfigureerimise ajal.  
 
 Tabelipiirang on lisatud toote konfiguratsioonimudelile, viidates tabelipiirangu määratlusele ja vastendades asjakohased mudeli atribuudid tabelipiirangu veergudega.
 

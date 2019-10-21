@@ -1,6 +1,6 @@
 ---
 title: Aja ja kohaloleku haldus rakenduses Retail
-description: Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Retail aja ja kohaloleku halduse puhul toetatud stsenaariume.
+description: Selles teemas kirjeldatakse rakenduse Dynamics 365 Retail aja ja kohaloleku halduse puhul toetatud stsenaariume.
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d541de550df41b7d4616492960bd4f2aae46d45e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567949"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024979"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Aja ja kohaloleku haldus rakenduses Retail
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Retail aja ja kohaloleku halduse puhul toetatud stsenaariume.
+Selles teemas kirjeldatakse rakenduse Dynamics 365 Retail aja ja kohaloleku halduse puhul toetatud stsenaariume.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Töötaja seadistus ja tööaeg
 
@@ -125,7 +125,7 @@ Kassas:
 
 ## <a name="process-and-manage-time-registrations"></a>Aja registreerimiste töötlemine ja haldamine
 
-Dynamics 365 for Retaili kasutaja jälgib töövoogu ajaregistreerimiste arvutamiseks, kinnitamiseks ja palgaarvestusse ülekandmiseks.
+Retaili kasutaja jälgib töövoogu ajaregistreerimiste arvutamiseks, kinnitamiseks ja palgaarvestusse ülekandmiseks.
 
 ### <a name="primary-operations"></a>Esmased toimingud
 

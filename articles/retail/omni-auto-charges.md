@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 47829a6fcae37e03510929dc46b942455016df0b
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 829fa771003de7759b237d4499aa038040b46a3f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577865"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018034"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Omnikanali täpsemad automaatsed kulud
 
@@ -34,7 +34,7 @@ See teema sisaldab teavet rakenduse Dynamics 365 for Retail versioonis 10.0 saad
 
 Kui täpsemate automaatsete kulude funktsioonid on lubatud, saavad mis tahes toetatud jaemüügikanalis (kassa, kõnekeskus ja veebipood) loodud tellimused kasutada [automaatsete kulude](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfiguratsioone, mis on määratletud ERP rakenduses nii päise- kui ka reatasemega seotud kuludele.
 
-Varasemates väljaannetes kui rakenduse Dynamics 365 for Retail versioon 10.0 pääsevad [automaatsete kulude](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfiguratsioonidele juurde ainult e-kaubanduse ja kõnekeskuse kanalites loodud tellimused. Versioonis 10.0 ja uuemates saavad kassas loodud tellimused kasutada automaatsete kulude konfiguratsioone. Nii saab mitmesuguseid lisakulusid süstemaatiliselt müügikannetesse lisada.
+Varasemates väljaannetes kui rakenduse Retail versioon 10.0 pääsevad [automaatsete kulude](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfiguratsioonidele juurde ainult e-kaubanduse ja kõnekeskuse kanalites loodud tellimused. Versioonis 10.0 ja uuemates saavad kassas loodud tellimused kasutada automaatsete kulude konfiguratsioone. Nii saab mitmesuguseid lisakulusid süstemaatiliselt müügikannetesse lisada.
 
 Varasemate versioonide kui 10.0 kasutamisel palutakse kassa kasutajal sisestada saatekulu kassakande Saada kõik või Saada valitud loomise ajal käsitsi. Kui tellimusse kulude kirjutamiseks kasutatakse rakenduse lisakulude võimalusi, ei pakuta süstemaatilist arvutamist – kulude väärtuste arvutamisel toetutakse kasutaja sisendile. Kulusid saab lisada ainult ühe saadetisega seotud kulukoodina ja seda ei saa kassas pärast loomist hõlpsalt redigeerida ega muuta.
 

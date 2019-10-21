@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 253ba0bd991e8db17940d3d4b9ade599800bf924
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2c2ba1f23cc068daf20474f05519c3c6865fd183
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843861"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250252"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Hankija koostöö mobiilne tööruum
 
@@ -30,10 +30,10 @@ ms.locfileid: "1843861"
 
 See teema annab teavet **hankija koostöö** mobiilse tööruumi kohta. See tööruum võimaldab hankijatel olla kursis ostutellimustega, mis on neile kinnitamiseks saadetud. Nad saavad vaadata teavet ka uute ja muudetud ostutellimuste ning kontaktide kohta.
 
-See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Microsoft Dynamics 365 for Unified Operations.
+See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Finance and Operations.
 
 ## <a name="overview"></a>Ülevaade 
-**Hankija koostöö** mobiilne tööruum teavitab hankijaid uutest ostutellimustest, et nad saaks näha ostutellimusi ja neile vastata rakenduse Microsoft Dynamics 365 for Finance and Operations veebikliendis. 
+**Hankija koostöö** mobiilne tööruum teavitab hankijaid uutest ostutellimustest, et nad saaks näha ostutellimusi ja neile vastata rakenduse veebikliendis. 
 
 >[!NOTE]
 > Mobiilset tööruumi tuleb kasutada hankija koostöö veebiliidese lisana, kuid mitte selle asemel. 
@@ -59,8 +59,8 @@ Uute kontaktide loomiseks ja uute kasutajataotluste esitamiseks tuleb kasutada v
 ## <a name="prerequisites"></a>Eeltingimused
 Eeltingimused erinevad olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Eeltingimused, kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations 
-Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, peab süsteemiadministraator avaldama mobiilse tööruumi **Hankija koostöö**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Eeltingimused, kui kasutate Supply Chain Managementi
+Kui Supply Chain Management on teie organisatsioonis on juurutatud, peab süsteemiadministraator avaldama mobiilse tööruumi **Koostöö hankijaga**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused, kui kasutate rakenduse Microsoft Dynamics 365 for Operations versiooni 1611 platvormivärskendusega 3 või uuemat
 Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 
@@ -104,7 +104,7 @@ Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi v
 <li><a href="vendor-collaboration-work-external-vendors.md">Hankija koostöö kasutamine väliste hankijatega töötamiseks</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Hankija koostöö kasutajate haldamine</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">Hankija koostöö seadistamine ja haldamine</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Hankija koostöö kasutamine klientidega töötamiseks rakenduses Finance and Operations</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Hankija koostöö kasutamine klientidega töötamiseks rakenduses Supply Chain Management</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi v
 
 ## <a name="download-and-install-the-mobile-app"></a>Laadige alla ja installige mobiilirakendus
 
-Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
+Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 
 -   [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)

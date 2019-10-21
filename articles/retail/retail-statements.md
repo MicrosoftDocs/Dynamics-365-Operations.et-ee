@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 63cad6b2f7240bb14fe7a9237498c0140df77774
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567995"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025025"
 ---
 # <a name="retail-statements"></a>Jaemüügi väljavõtted
 
 [!include [banner](includes/banner.md)]
 
-Rakenduses Microsoft Dynamics 365 for Retail kasutatakse väljavõtte sisestamise protsessi pilvekassas ja Modern POS-is toimuvate kannete arvestamiseks. Väljavõtte sisestamise protsess kasutab jaotusgraafikut, et tõmmata kassa kannete komplekt peakontori klienti. Lehtedel **Jaemüügi parameetrid** ja **Kauplused** määratletud parameetreid kasutatakse üksikutesse väljavõtetesse tõmmatavate kannete valimiseks.
+Rakenduses Dynamics 365 Retail kasutatakse väljavõtte sisestamise protsessi pilvekassas ja Modern POS-is toimuvate kannete arvestamiseks. Väljavõtte sisestamise protsess kasutab jaotusgraafikut, et tõmmata kassa kannete komplekt peakontori klienti. Lehtedel **Jaemüügi parameetrid** ja **Kauplused** määratletud parameetreid kasutatakse üksikutesse väljavõtetesse tõmmatavate kannete valimiseks.
 
 Järgmine joonis illustreerib väljavõtte sisestamise protsessi. Selles protsessis edastatakse kassas salvestatud kanded kliendile Kaupluse andmeedastaja abil. Pärast seda, kui klient on kanded kätte saanud, saate luua, arvutada ja sisestada kaupluse kannete väljavõtte.
 
@@ -85,6 +85,6 @@ Kui sama kaupluse puhul on märkeruut **Sisesta tööpäevana** tühi, luuakse e
 Väljavõtte sisestamisel luuakse väljavõtte jaemüügi müügitellimused ja arved.
 
 - Sularahamüük koondatakse ühele müügitellimusele ja selle eest esitatakse arve kauplusele määratud vaikekliendile.
-- Jaemüük, mille puhul klient lisati kandele rakenduses Microsoft Dynamics 365 for Retail, loob eraldi müügitellimused ja arved, üks iga kordumatu kliendi jaoks.
+- Jaemüük, mille puhul klient lisati kandele rakenduses Retail, loob POS eraldi müügitellimused ja arved, üks iga kordumatu kliendi jaoks.
 
 Makse töölehed luuakse väljavõtte maksetele automaatselt ja kassa kaupluse varud uuendatakse.

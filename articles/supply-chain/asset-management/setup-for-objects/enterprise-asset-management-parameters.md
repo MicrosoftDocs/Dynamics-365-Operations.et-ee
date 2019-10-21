@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e6a2d428e433256339fff07f3805449a2604213
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 3336a3357578b25522e1ac457a48349f88b7318d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783201"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024564"
 ---
 # <a name="asset-management-parameters"></a>Rakenduse Asset Management parameetrid
 
@@ -33,13 +33,13 @@ ms.locfileid: "1783201"
 
 Rakenduses Asset Management tuleb seadistada varade, töökäskude ja töökäsu planeerimisega seotud parameetrid. Selles teemas kirjeldatakse nende seadistamist. Vormi avamiseks valige **asset management** > **Seadistus** > **Rakenduse Asset Management parameetrid**.
 
-Nuppu **Loo andmeviisard** saab kasutada ettevõtte test- või demoandmete eesmärgil seadistusandmete automaatseks loomiseks rakenduses Dynamics 365 for Finance and Operations. Viisardi kasutamise kohta teabe saamiseks lugege tehnilist ülevaadet „Testiandmete seadistamine rakenduses Asset Management”.
+Nuppu **Loo andmeviisard** saab kasutada ettevõtte test- või demoandmete eesmärgil seadistusandmete automaatseks loomiseks rakenduses Dynamics 365 Supply Chain Management. Viisardi kasutamise kohta teabe saamiseks lugege tehnilist ülevaadet „Testiandmete seadistamine rakenduses Asset Management”.
 
 Link **Varad**
 
 - **Töö vaikeasukoht** on standardne töö asukoht, mis uute varade loomisel valitakse varades automaatselt.  
 - Valige väljal **Standardne kalender** kalender, mida kasutatakse varade KPI-de arvutamiseks juhul, kui varas pole ressurssi valitud.  
-- Valige väljal **Vaade**standardne vaade, mis kuvatakse, kui avate vormi **Varade vaade** (**Asset management** > **Ühine** > **Varad** > **Varade vaade**).
+- Valige väljal **Vaade** standardne vaade, mis kuvatakse, kui avate vormi **Varade vaade** (**Varahaldus** > **Ühine** > **Varad** > **Varade vaade**).
 - **Taotluse vaiketüüp** on standardne hooldusnõude tüüp, mis valitakse automaatselt uue taotluse loomisel.  
 - Kui soovite luua varadega seotud projekte, luuakse valikus **Rakenduse Asset Management parameetrid** valikuid **Põhiprojekt**, **Projektihierarhia** ja suvandit **Projektide automaatne loomine** puudutavad projektiseosed.  
 - Väljal **Töökäsu projekti mask** saate määratleda töötellimuste ja alamvarade jaoks lubatud alamprojektide arvu. Töökäsu maski kasutatakse selleks, et määratleda, kui palju töötellimusi saab põhivarale luua ja seotud töökäskude töö projektis kasutada. Töökäsu mask seadistataks väljal **Seotud töökäsu mask** valikus **Rakenduse Asset Management parameetrid** (**Asset Management** > **Seadistus** > **Rakenduse Asset Management parameetrid** > **Töökäsud**).  
@@ -57,7 +57,7 @@ Link **Töökäsud**
 - Tehke tumblernupul **Kopeeri vead** valik „Jah”, kui soovite automaatselt kopeerida töökäskudes registreeritud vead seotud hooldusnõuetesse.  
 - Väljal **Tase** saate määratleda töö asukoha taseme, mis sisestatakse automaatselt töökäsku, kui kõik seotud töökäsu tööd viitavad samale töö asukohale. Kui kõik töökäsu tööd pole määratletud tasemel seotud sama töö asukohaga, jäetakse väli **Töö asukoht** töökäsul tühjaks. Näide: kui sisestate sellele väljale numbri „1”, on see töö asukoha struktuuris ülemine tase. Kui sisestate sellele väljale numbri „0”, ei ole te määratlenud kindlat töö asukoha taset, vaid töökäsu kõik töökäsu tööd peavad olema seotud töökäsule lisatava töö asukoha sama töö asukoht.  
 - Töökäsule tarbimise sisestamisel kasutatavaid töölehti saab valida kiirkaardi **Üldine** väljadel **Tund**, **Üksus** ja **Kulu**.  
-- Väljal **Tootekeele allikas** valige, millist keelt kasutada varahalduse aruannetes olevate toodete nimede puhul. Saate valida ettevõtte kontol seadistatud keele, või praegu rakendusse Dynamics 365 for Finance and Operations sisse logitud kasutaja jaoks seadistatud keele.  
+- Väljal **Tootekeele allikas** valige, millist keelt kasutada varahalduse aruannetes olevate toodete nimede puhul. Saate valida ettevõtte kontol seadistatud keele, või praegu rakendusse sisse logitud kasutaja jaoks seadistatud keele.  
 - Kui soovite automaatselt värskendada töö tüübi vaikeväärtuste, hoolduskavade ja hoolduskordade muudatusi, tehke tumblernupul **Reaalajas uuendus** valik „Jah”.
 > - Kui valite väärtuse „Ei”, ei uuendata töötüüpide vaikeväärtusi, hoolduskavu ja hoolduskordi moodulis Asset Management automaatselt.  
 > - Kui teil on sünkroonitud suur hulk andmeid, nt mitu vara või töö asukohta, mis on seadistatud hoolduskavades või hoolduskordades või suur hulk hoolduskavasid või -kordi, valige tumblernupul väärtus „Ei”.  
@@ -75,7 +75,7 @@ Link **Töökäsu planeerimine**
 - **Koondplaan** on seotud mooduli **Organisatsiooni haldus** ressurssidega. Kui valite sellel väljal koondplaani, saate vaadata töökäskudega seotud võimsuse reserveerimisi valikus **Võimsuse reserveerimised** (**Organisatsiooni haldus** > **Ressursid** > **Ressursid** > valige ressurss vahekaardil > **Ressurss** nupp > **Võimsuse reserveerimised**). Kui jätate selle välja tühjaks, saate vaadata töökäskude täiskoormusi valikus **Täiskoormus** (**Organisatsiooni haldus** \> **Ressursid** \> **Ressursid** \> valige ressursi vahekaart  \> **Ressurss** \> **Täiskoormus** nupp).  
 
 >[!NOTE]
->Valik, mis puudutab koondplaani kasutamist või mittekasutamist moodulis **Asset Management** ja seotud vorm, mida kasutatakse võimsuse reserveerimiste või täiskoormuse ülevaate saamiseks on rakenduse Dynamics 365 for Finance and Operations standardseadistus. Olenevalt seadistusest väljal **Koondplaan**, on teil võimalik pääseda võimsuse teabele juurde nii valikus **Võimsuse reserveerimine** kui ka **Täiskoormus** moodulis **Organisatsiooni haldus**. Seadistust ei saa luua, kui mõlemas vaates kuvatakse võimsuse reserveerimised.  
+>Valik, mis puudutab koondplaani kasutamist või mittekasutamist moodulis **Varade haldus** ja seotud vorm, mida kasutatakse võimsuse reserveerimiste või täiskoormuse ülevaate saamiseks, on standardseadistus. Olenevalt seadistusest väljal **Koondplaan**, on teil võimalik pääseda võimsuse teabele juurde nii valikus **Võimsuse reserveerimine** kui ka **Täiskoormus** moodulis **Organisatsiooni haldus**. Seadistust ei saa luua, kui mõlemas vaates kuvatakse võimsuse reserveerimised.  
 
 Allpool olevas täpploendis kirjeldatud väljad on seotud arvutatud reitinguskooridega, mida kasutatakse töökäsu prioriteedi arvutamiseks töökäsu planeerimisel.
 

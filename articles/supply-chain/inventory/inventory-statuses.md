@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be5e512dcb23ce525439f11b7674cc35d7306159
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cd86bf525ae33f78fb472e6c333083592ff8a012
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570499"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024380"
 ---
 # <a name="inventory-statuses"></a>Varude olekud
 
@@ -42,7 +42,7 @@ Siin on mõned näited viisidest, kuidas saate varude olekuid kasutada.
 
 Varude olek on üks laoala dimensioonigrupi dimensioonidest. Varude olekuid võib kategoriseerida saadaolevaks või kättesaamatuks ja saate kasutada parameetrit **Varude blokeerimine** kättesaamatu varude olekuga kaupade blokeerimiseks. Blokeeritud olekuga kaupasid loetakse füüsiliseks varuks ja neid ei saa kasutada tootmistellimuses, müügitellimuses, üleviimistellimuses või väljaminevas kandes.
 
-Saadaoleva ja kättesaamatu varude olekuga laokaupa saab kasutada sissetulevaks tööks. Näiteks loote saadaoleva oleku nimega **Valmis**, kättesaamatu oleku nimega **Kahjustatud** ja blokeeritud oleku nimega **Blokeeritud**. Kui loote ostutellimuse vastuvõetud või tagastatud kaupade puhul, kui mõni kaup on kahjustatud või katki, saate muuta nende kaupade varude olekuks ostutellimuse real **Kahjustatud**. Pärast nende kaupade vastuvõtmist seatakse olekuks automaatselt **Blokeeritud**. Mobiilse seadme abil kahjustatud kaupade skannimisel saab Microsoft Dynamics 365 for Finance and Operations kasutada asukohakorraldusi ja töömalle teabe kuvamiseks sobiva asukoha või erinevate asukohtade kohta, kuhu saate need kaubad kõrvale panna. Tagastatud kaupade puhul luuakse väljamineku tüüp **Reserveerimine** lehel **Varude kanded**.
+Saadaoleva ja kättesaamatu varude olekuga laokaupa saab kasutada sissetulevaks tööks. Näiteks loote saadaoleva oleku nimega **Valmis**, kättesaamatu oleku nimega **Kahjustatud** ja blokeeritud oleku nimega **Blokeeritud**. Kui loote ostutellimuse vastuvõetud või tagastatud kaupade puhul, kui mõni kaup on kahjustatud või katki, saate muuta nende kaupade varude olekuks ostutellimuse real **Kahjustatud**. Pärast nende kaupade vastuvõtmist seatakse olekuks automaatselt **Blokeeritud**. Mobiilse seadme abil kahjustatud kaupade skannimisel saab Finance and Operations kasutada asukohakorraldusi ja töömalle teabe kuvamiseks sobiva asukoha või erinevate asukohtade kohta, kuhu saate need kaubad kõrvale panna. Tagastatud kaupade puhul luuakse väljamineku tüüp **Reserveerimine** lehel **Varude kanded**.
 
 Väljamineva töö jaoks kasutage saadaoleva varude olekuga kaupu. Kui teil on kaupu olekuga **Katki** ja nendele kaupadele tehakse koondplaneerimine, loetakse need kaubad puuduvateks ja varusid täiendatakse automaatselt.
 

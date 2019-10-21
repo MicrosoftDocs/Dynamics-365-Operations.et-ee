@@ -1,6 +1,6 @@
 ---
 title: Onboardi kasutamise alustamine
-description: See teema aitab teil alustada rakendusega Microsoft Dynamics 365 for Talent - Onboard. Onboard aitab uutel töötajatel paremini uue tööga alustada, andes neile juhendi, mis aitab neil sujuvalt sisseelamisprotsessist läbi saada.
+description: See teema aitab teil alustada rakendusega Microsoft Dynamics 365 Talent – Onboard. Onboard aitab uutel töötajatel paremini uue tööga alustada, andes neile juhendi, mis aitab neil sujuvalt sisseelamisprotsessist läbi saada.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 6526f320be7d18af92406149633b3e15d0be2291
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731209"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008124"
 ---
 # <a name="get-started-with-onboard"></a>Onboardi kasutamise alustamine
 
 [!include [banner](includes/banner.md)]
 
-Kasutades Microsoft Dynamics 365 for Talent: Onboardi, saate aidata uutel töötajatel tõhusamalt tegutseda ja tunda, et nad kuuluvad oma uutesse rollidesse. Tõhus sisseelamisprotsess aitab uutel töötajatel oma uusi rolle mõista. See annab neile ka edumaa väärtuslike suhete loomisel, mis aitavad tagada nende edu.
+Kasutades Microsoft Dynamics 365 Talent: Onboard, saate aidata uutel töötajatel tõhusamalt tegutseda ja tunda, et nad kuuluvad oma uutesse rollidesse. Tõhus sisseelamisprotsess aitab uutel töötajatel oma uusi rolle mõista. See annab neile ka edumaa väärtuslike suhete loomisel, mis aitavad tagada nende edu.
 
 Onboardiga saate kiiresti luua sisseelamisjuhendi, mis tervitab uusi töötajaid ja teeb neile teie organisatsiooniga liitumise põnevaks.
 

@@ -1,6 +1,6 @@
 ---
 title: Jaemüügikanalite fiskaalüksuse integratsiooni ülevaade
-description: Selles teemas antakse ülevaade rakenduses Microsoft Dynamics 365 for Retail saadaolevatest fiskaalüksuse integratsioonivõimalustest.
+description: Selles teemas antakse ülevaade rakenduses Dynamics 365 Retail saadaolevatest fiskaalüksuse integratsioonivõimalustest.
 author: josaw
 manager: annbe
 ms.date: 02/01/2019
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516234"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025403"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Jaemüügikanalite fiskaalüksuse integratsiooni ülevaade
 
@@ -30,13 +30,13 @@ ms.locfileid: "1516234"
 
 ## <a name="introduction"></a>Sissejuhatus
 
-Selles teemas antakse ülevaade rakenduses Microsoft Dynamics 365 for Retail saadaolevatest fiskaalüksuse integratsioonivõimalustest. Fiskaalüksuse integratsioon hõlmab integratsiooni erinevate fiskaalseadmete ja -teenustega, mis võimaldavad jaemüügi fiskaalüksuse registreerimist kooskõlas kohalike rahandusseadustega, mille eesmärk on ennetada maksupettust jaemüügivaldkonnas. Tavalised stsenaariumid, mida fiskaalüksuse integratsioon hõlmab, on järgmised.
+Selles teemas antakse ülevaade rakenduses Dynamics 365 Retail saadaolevatest fiskaalüksuse integratsioonivõimalustest. Fiskaalüksuse integratsioon hõlmab integratsiooni erinevate fiskaalseadmete ja -teenustega, mis võimaldavad jaemüügi fiskaalüksuse registreerimist kooskõlas kohalike rahandusseadustega, mille eesmärk on ennetada maksupettust jaemüügivaldkonnas. Tavalised stsenaariumid, mida fiskaalüksuse integratsioon hõlmab, on järgmised.
 
 - Jaemüügi registreerimine fiskaalseadmes, mis on ühendatud Reatil POS-iga, nagu fiskaalprinter, ja kliendi jaoks fiskaalsissetuleku printimine.
 - Retail POS-is lõpule viidud müükide ja tagastustega seotud teabe turvaline edastamine välisesse veebiteenusesse, mida käitab maksuamet.
 - Müügi kandeandmete muutmatuse tagamine digitaalallkirjade abil.
 
-Fiskaalüksuse integratsiooni funktsioon Retailis on raamistik, mis pakub ühtset lahendust integratsiooni edasiarenduseks ja kohandamiseks Retail POS-i ning fiskaalseadmete ja -teenuste vahel. Funktsioon hõlmab ka fiskaalüksuse integratsiooni näidiseid, mis toetavad jaemüügi põhistsenaariume kindlate riikide või regioonide kohta ja töötavad kindlate fiskaalseadmete või -teenustega. Fiskaalüksuse integratsiooni näidis koosneb mitmest Retaili komponendi laiendusest ja sisaldub Retaili tarkvara arenduskomplektis (SDK). Lisateavet Retail SDK-s saadaolevate fiskaalüksuse integratsiooni näidiste kohta vt teemast [Fiskaalüksuse integratsiooni näidised Retail SDK-s](#fiscal-integration-samples-in-the-retail-sdk). Teavet Retail SDK installimise ja kasutamise kohta vt teemast [Retail SDK ülevaade](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Fiskaalüksuse integratsiooni funktsioon on raamistik, mis pakub ühtset lahendust integratsiooni edasiarenduseks ja kohandamiseks Retail POS-i ning fiskaalseadmete ja -teenuste vahel. Funktsioon hõlmab ka fiskaalüksuse integratsiooni näidiseid, mis toetavad jaemüügi põhistsenaariume kindlate riikide või regioonide kohta ja töötavad kindlate fiskaalseadmete või -teenustega. Fiskaalüksuse integratsiooni näidis koosneb mitmest Retaili komponendi laiendusest ja sisaldub tarkvara arenduskomplektis (SDK). Lisateavet fiskaalüksuse integratsiooni näidiste kohta vt teemast [Fiskaalüksuse integreerimise näidised Retail SDK-s](#fiscal-integration-samples-in-the-retail-sdk). Teavet Retail SDK installimise ja kasutamise kohta vt teemast [Retail SDK ülevaade](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Selleks et toetada muid stsenaariume, mida fiskaalüksuse integratsiooni näidis ei toeta, integreerida Retail POS muude fiskaalseadmete või -teenustega või täita muude riikide või regioonide nõudeid, peate kas laiendama olemasolevat fiskaalüksuse integratsiooni näidist või looma uue näidise, kasutades näitena olemasolevat näidist.
 
@@ -44,7 +44,7 @@ Selleks et toetada muid stsenaariume, mida fiskaalüksuse integratsiooni näidis
 
 Fiskaalüksuse registreerimisprotsess Retail POS-is võib hõlmata üht või mitut etappi. Iga etapp hõlmab kindlate jaemüügikannete või -sündmuste fiskaalüksuse registreerimist ühes fiskaalseadmes või -teenuses. Riistvarajaamaga ühendatud fiskaalseadmes toimuvas fiskaalüksuse registreerimises osalevad järgmised lahenduse komponendid.
 
-- **Commerce’i käitusaja (CRT) laiendus** – see komponent serialiseerib jaemüügikannete/-sündmuste andmed vormingus, mida kasutatakse ka fiskaalseadmega suhtlemiseks, sõelub vastused fiskaalseadmest ja talletab need kanali andmebaasi. Laiendus määratleb ka kindlad kanded ja sündmused, mis tuleb registreerida. Seda komponenti nimetatakse sageli *fiskaaldokumendi pakkujaks*.
+- **Commerce runtime'i (CRT) laiendus** – see komponent serialiseerib jaemüügikannete/-sündmuste andmed vormingus, mida kasutatakse ka fiskaalseadmega suhtlemiseks, sõelub vastused fiskaalseadmest ja talletab need kanali andmebaasi. Laiendus määratleb ka kindlad kanded ja sündmused, mis tuleb registreerida. Seda komponenti nimetatakse sageli *fiskaaldokumendi pakkujaks*.
 - **Riistavarajaama laiendus** – see komponent lähtestab suhtluse fiskaalseadmega, saadab fiskaalseadmele taotlused ja otsekäsud fiskaaldokumendist eraldatud jaemüügikande/-sündmuse andmete põhjal ning võtab vastused fiskaalseadmest vastu. Seda komponenti nimetatakse sageli *fiskaalkonnektoriks*.
 
 Fiskaalüksuse integratsiooni näidis fiskaalseadme puhul sisaldab CRT ja riistvarajaama laiendusi vastavalt fiskaaldokumendi pakkuja ja fiskaalkonnektori kohta. Samuti sisaldab see järgmisi komponendi konfiguratsioone.
@@ -132,7 +132,7 @@ Fiskaalüksuse integratsiooni funktsioon toetab integreeritud fiskaalseadme või
 
 ## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Fiskaalüksuse integratsiooni näidised Retail SDK-s
 
-Retailiga väljastatud Retail SDK-s on praegu saadaval järgmised fiskaalüksuse integratsiooni näidised.
+Retail SDK-s on praegu saadaval järgmised fiskaalüksuse integratsiooni näidised.
 
 - [Fiskaalprinteri integratsiooni näide Itaalia jaoks](emea-ita-fpi-sample.md)
 - [Fiskaalprinteri integratsiooni näide Poola jaoks](emea-pol-fpi-sample.md)

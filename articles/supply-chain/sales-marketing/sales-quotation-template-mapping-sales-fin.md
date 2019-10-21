@@ -1,6 +1,6 @@
 ---
-title: Rakenduse Sales müügipakkumise päiste ja ridade vahetu sünkroonimine rakendusega Finance and Operations
-description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse müügipakkumise päiste ja ridade sünkroonimiseks rakendusest Microsoft Dynamics 365 for Sales otse rakendusega Microsoft Dynamics 365 for Finance and Operations.
+title: Rakenduse Supply Chain Management müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
+description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse müügipakkumise päiste ja ridade sünkroonimiseks rakendusest Dynamics 365 Sales otse rakendusega Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 0894f4728d3f1df21db130cd9e87d9881726e7fa
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743367"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251243"
 ---
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Rakenduse Finance and Operations müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Rakenduse Supply Chain Management müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse müügipakkumise päiste ja ridade sünkroonimiseks rakendusest Microsoft Dynamics 365 for Sales otse rakendusega Microsoft Dynamics 365 for Finance and Operations.
+Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse müügipakkumise päiste ja ridade sünkroonimiseks rakendusest Dynamics 365 Sales otse rakendusega Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
 > Enne kui saate kasutada lahendust Potentsiaalne klient sularahaks, tutvuge [andmete integreerimisega teenusesse Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Andmevoog lahenduses Potentsiaalne klient sularahaks
 
-Lahendus Potentsiaalne klient sularahaks kasutab andmete integreerimise funktsiooni andmete sünkroonimiseks rakenduste Finance and Operations ja Sales vahel. Andmete integratsiooniga saadaolevad lahenduse Potentsiaalne klient sularahaks mallid võimaldavad kontode, kontaktide, toodete, müügipakkumiste, müügitellimuste ja müügiarvete andmete liikumist rakenduste Finance, Operations ja Sales vahel. Järgmine illustratsioon näitab, kuidas sünkroonitakse andmeid rakenduste Finance and Operations ja Sales vahel.
+Lahendus Potentsiaalne klient sularahaks kasutab andmete integreerimise funktsiooni andmete sünkroonimiseks rakenduste Supply Chain Management ja Sales vahel. Andmeintegratsiooni funktsiooniga saadaolevad Prospect to cash mallid võimaldavad andmevahetust kontode, kontaktide, toodete, müügihindade, müügitellimuste ja müügiarvete kohta Supply Chain Managementi ja Salesi vahel. Järgmine illustratsioon näitab, kuidas sünkroonitakse andmeid rakenduste Supply Chain Management ja Sales vahel.
 
 [![Andmevoog lahenduses Potentsiaalne klient sularahaks](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Mall ja ülesanded
 
-Müügipakkumise päiste ja ridade vahetuks sünkroonimiseks rakendusest Sales rakendusse Finance and Operations kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
+Müügipakkumise päiste ja ridade vahetuks sünkroonimiseks rakendusest Sales rakendusse Supply Chain Management kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
 
-- **Andmete integratsioon malli nimi:** Müügipakkumised (rakendusest Sales rakendusse Fin and Ops) – otse
+- **Andmete integratsioon malli nimi:** Müügipakkumised (rakendusest Sales rakendusse Supply Chain Management) – otse
 - **Ülesannete nimed andmete integratsiooni projektis.**
 
     - QuoteHeader
@@ -53,9 +53,9 @@ Müügipakkumise päiste ja ridade vahetuks sünkroonimiseks rakendusest Sales r
 
 Enne müügipakkumise päiste ja ridade sünkroonimist on nõutavad järgmised sünkroonimisülesanded.
 
-- Tooted (rakendusest Sales rakendusse Fin and Ops) – otse
-- Kontod (rakendusest Sales rakendusse Fin and Ops) – otse (kui on kasutusel)
-- Kontaktid klientideks (rakendusest Sales rakendusse Fin and Ops) – otse (kui see on kasutusel)
+- Tooted (rakendusest Supply Chain Management rakendusse Sales) - otse
+- Kontod (rakendusest Sales rakendusse Supply Chain Management) - otse (kui kasutatakse)
+- Kontaktid klientidesse (Salesist Supply Chain Managementi) - otse (kui kasutatakse)
 
 ## <a name="entity-set"></a>Üksuste komplekt
 
@@ -66,7 +66,7 @@ Enne müügipakkumise päiste ja ridade sünkroonimist on nõutavad järgmised s
 
 ## <a name="entity-flow"></a>Üksuse voog
 
-Müügipakkumised luuakse rakenduses Sales ja sünkroonitakse rakendusega Finance and Operations.
+Müügiarved luuakse rakenduses Sales ja sünkroonitakse rakendusega Supply Chain Management.
 
 Müügipakkumised rakendusest Sales sünkroonitakse ainult juhul, kui täidetud on järgmised tingimused.
 
@@ -75,13 +75,13 @@ Müügipakkumised rakendusest Sales sünkroonitakse ainult juhul, kui täidetud 
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Lahendus Potentsiaalne klient sularahaks rakendusele Sales
 
-Pakkumise üksusele on lisatud väli **Sisaldab ainult väliselt hallatavaid tooteid**, et jälgida järjepidevalt, kas üksus **Müügipakkumine** sisaldab täielikult või väliselt hallatavaid tooteid. Kui müügipakkumine sisaldab ainult väliselt hallatavaid tooteid, hallatakse neid rakenduses Finance and Operations. See käitumine aitab tagada, et te ei püüa sünkroonida müügipakkumise ridu, mis hõlmavad rakenduse Finance and Operations jaoks tundmatuid tooteid.
+Pakkumise üksusele on lisatud väli **Sisaldab ainult väliselt hallatavaid tooteid**, et jälgida järjepidevalt, kas üksus **Müügipakkumine** sisaldab täielikult või väliselt hallatavaid tooteid. Kui müügipakkumine sisaldab ainult väliselt hallatavaid tooteid, hallatakse neid rakenduses Supply Chain Management. See käitumine aitab tagada, et te ei püüa sünkroonida müügipakkumise ridu, mis hõlmavad rakenduse Supply Chain Management jaoks tundmatuid tooteid.
 
 Kõiki müügipakkumise tooteid ja ridu värskendatakse müügipakkumise päisest pärit teabega **Sisaldab ainult väliselt hallatavaid tooteid**. See teave on saadaval üksuse **QuoteDetails** väljal **Pakkumine sisaldab ainult väliselt hallatavaid tooteid**.
 
-Pakkumise tootele saab lisada allahindluse, mis sünkroonitakse rakendusega Finance ja Operations. Päise välju **Allahindlus**, **Tasud** ja **Maks** juhitakse seadistusega rakenduses Finance and Operations. See seadistus ei toeta praegu integratsiooni vastendamist. Praeguses kujunduses haldab ja reguleerib välju **Hind**, **Allahindlus**, **Tasu** ning **Maks** rakendus Finance and Operations.
+Pakkumise tootele saab lisada allahindluse, mis sünkroonitakse rakendusega Supply Chain Management. Päise välju **Allahindlus**, **Tasud** ja **Maks** juhitakse seadistusega rakenduses Supply Chain Management. See seadistus ei toeta praegu integratsiooni vastendamist. Praeguses kujunduses haldab ja reguleerib välju **Hind**, **Allahindlus**, **Tasu** ning **Maks** rakendus Supply Chain Management.
 
-Rakenduses Sales muudab lahendus järgmised väljad kirjutuskaitstuks, kuna väärtusi ei sünkroonita rakendusega Finance and Operations.
+Rakenduses Sales muudab lahendus järgmised väljad kirjutuskaitstuks, kuna väärtusi ei sünkroonita rakendusega Supply Chain Management.
 
 - Müügipakkumise päise kirjutuskaitstud väljad: **Allahindluse %**, **Allahindlus** ja **Veose kogus**
 - Pakkumise toodete kirjutuskaitstud väljad: **Maks**
@@ -111,20 +111,20 @@ Enne müügipakkumiste sünkroonimist on oluline värskendada järgmisi sätteid
 
 #### <a name="quoteline"></a>QuoteLine
 
-- Veenduge, et üksuse **SalesUnitSymbol** nõutav väärtuskaart oleks rakenduses Finance and Operations olemas.
+- Veenduge, et üksuse **SalesUnitSymbol** nõutav väärtuskaart oleks rakenduses Supply Chain Management olemas.
 - Veenduge, et rakenduses Sales oleks nõutud ühikud määratletud.
 
     Üksuste **oumid.name** ja **SalesUnitSymbol** jaoks on määratletud väärtuskaardiga malli väärtus.
 
-- Valikuline: saate lisada järgmised vastendused, et tagada pakkumise ridade importimine rakendusse Finance and Operations, kui kliendilt või tootelt vaiketeave puudub.
+- Valikuline: saate lisada järgmised vastendused, et tagada pakkumise ridade importimine rakendusse Supply Chain Management, kui kliendilt või tootelt vaiketeave puudub.
 
-    - **SiteId** – sait on vajalik pakkumiste ja müügitellimuse ridade loomiseks rakenduses Finance and Operations. Atribuudi **SiteId** jaoks malli vaikeväärtus puudub.
-    - **WarehouseId** – ladu on vajalik pakkumiste ja müügitellimuse ridade töötlemiseks rakenduses Finance and Operations. Atribuudi **WarehouseId** jaoks malli vaikeväärtus puudub.
+    - **SiteId** – sait on vajalik pakkumiste ja müügitellimuse ridade loomiseks rakenduses Supply Chain Management. Atribuudi **SiteId** jaoks malli vaikeväärtus puudub.
+    - **WarehouseId** – ladu on vajalik pakkumiste ja müügitellimuse ridade töötlemiseks rakenduses Supply Chain Management. Atribuudi **WarehouseId** jaoks malli vaikeväärtus puudub.
 
 ## <a name="template-mapping-in-data-integrator"></a>Malli vastendamine andmeintegraatoris
 
 > [!NOTE]
-> - Välju **Allahindlus**, **Tasud** ja **Maks** juhitakse keerulise seadistusega rakenduses Finance and Operations. See seadistus ei toeta praegu integratsiooni vastendamist. Praeguses kujunduses reguleerib välju **Hind**, **Allahindlus**, **Tasu** ning **Maks** rakendus Finance and Operations.
+> - Päise välju **Allahindlus**, **Tasud** ja **Maks** juhitakse keeruka seadistusega rakenduses Supply Chain Management. See seadistus ei toeta praegu integratsiooni vastendamist. Praeguses kujunduses reguleerib välju **Hind**, **Allahindlus**, **Tasu** ning **Maks** rakendus Supply Chain Management.
 > - Väljad **Maksetingimused**, **Veosetingimused**, **Tarnetingimused**, **Saatmisviis** ja **Tarneviis** ei ole vaikevastenduste osa. Nende väljade vastendamiseks peate seadistama väärtuskaardi, mis on kohane neis organisatsioonides olevatele andmetele, mille vahel üksust sünkroonitakse.
 
 Järgmisel joonisel on toodud näide malli vastendusest andmeintegraatoris.

@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a9e05fd2a08921d2718fc239afd56a957f80915
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 7476cf797685feb4c50e3cefef4c53ca37b82dff
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865108"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251404"
 ---
 # <a name="warehouse-work-policies-overview"></a>Lao tööpoliitikate ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Laotöö poliitikad rakenduses Microsoft Dynamics 365 for Finance and Operations juhivad seda, kas laotöö luuakse tootmises laoprotsessidega töötellimuse tüübi, varude asukoha ja toote põhjal.
+Laotöö poliitikad juhivad seda, kas laotöö luuakse tootmises laoprotsessidega töötellimuse tüübi, varude asukoha ja toote põhjal.
 
 See tööpoliitika kontrollib, kas laotöö luuakse tootmises laoprotsesside jaoks. Saate seadistada tööpoliitika, kasutades **töötellimuse tüüpide**, **lao asukoha** ja **toote** kombinatsiooni. Näiteks toode L0101 teatatakse väljundasukohas 001 lõpetatuks. Lõpetatud kaupa tarbitakse hiljem teises tootmistellimuses väljastuskohaga 001. Sellisel juhul saate seadistada tööpoliitika, et takistada lõpetatud kaupade kõrvalepaneku jaoks töö loomist, kui teatate toote L0101 väljastuskohas 001 lõpetatuks. Tööpoliitika on individuaalne üksus, mida saab kirjeldada järgmise teabe kaudu.
 

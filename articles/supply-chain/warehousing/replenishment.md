@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f740ab481b8663ecc29169eee1ead5ff23bb3f5
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866133"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251461"
 ---
 # <a name="replenishment-overview"></a>Täiendamise ülevaade
 
@@ -55,7 +55,7 @@ Nõudluse täiendamist toetatakse müügitellimuste, üleviimistellimuste, tootm
 ## <a name="minmax-replenishment"></a>Min/max täiendamine
 Min/max täiendamise puhul täiendatakse varusid nii, et need oleksid määratud miinimum- ja maksimumpiiri vahel. Tavaliselt toimub see protsess kord päevas, et tagada kõigi komplekteerimiskohtade maksimumtasemel täitmine enne komplekteerimise algust. 
 
-Miinimum- ja maksimumkogused määratakse täiendamismallis. Paljud muud malli sätted sarnanevad voo nõudluse tõttu täiendamises kasutatavate mallide sätetele. Mall peaks sisaldama ühte rida iga kauba ja asukoha kohta. Kui käivitate täiendamise pakett-töö abil, hindab Microsoft Dynamics 365 for Finance and Operations ridade korraldamise seeriat kasutades, kas täiendamine on nõutav. 
+Miinimum- ja maksimumkogused määratakse täiendamismallis. Paljud muud malli sätted sarnanevad voo nõudluse tõttu täiendamises kasutatavate mallide sätetele. Mall peaks sisaldama ühte rida iga kauba ja asukoha kohta. Kui käivitate täiendamise pakett-töö abil, hindab süsteem ridade korraldamise seeriat kasutades, kas täiendamine on nõutav. 
 
 Pange tähele, et min/max täiendamise strateegia ei saa täiendada tühja asukohta, kui asukoht pole määratud kauba puhul fikseeritud asukohaks. Kui asukoht, mida peab täiendama, pole fikseeritud asukoht, ei saa süsteem määratleda, millist kaupa tuleks täiendada. Seetõttu on enne täiendamist vaja vähemalt mingisugust vaba kaubavaru.
 

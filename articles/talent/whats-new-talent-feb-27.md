@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (27. veebruar 2019)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (27. veebruar 2019)
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517792"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023995"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (27. veebruar 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (27. veebruar 2019)
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="changes-in-attract"></a>Muutused Attractis
 
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Attract veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
 
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Onboard veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 
@@ -77,9 +77,9 @@ See versioon sisaldab ka muid väikesi veaparandusi.
 
 Paljudes ettevõtetes on hüvitise ja eeliste halduritel juurdepääs ainult teatud hüvituskirjetele. Need kirjed võivad olla juhtkonna või piirkonna töövõtjate omad. See muudatus võimaldab inimressurssidel (HR) hüvitusplaane hallata ja säilitada ettevõtte erinevate töövõtjate populatsioonide jaoks. Turberollid, mida saab määrata fikseeritud ja muutuvatele plaanidele, määravad nende plaanide juurdepääsu ja nendega seotud töövõtja andmed (näiteks palgateabe või lisakulumikirjed). Nende töövõtjate hüvitisi saavad töödelda ainult rollid, millele on antud juurdepääs.
 
-### <a name="platform-update-24"></a>Platvormivärskendus update 24
+### <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operationsi 24. platvormi värskendus
 
-Lisateavet rakenduse Microsoft Dynamics 365 for Finance and Operations platvormivärskenduse 24 kohta (märts 2019) vt jaotisest [Eelvaatefunktsioonid rakenduse Finance and Operations platvormivärskenduses 24 (märts 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Lisateavet rakenduse Microsoft Dynamics 365 Finance and Operations platvormivärskenduse 24 kohta (märts 2019) vt jaotisest [Eelvaatefunktsioonid rakenduse Finance and Operations platvormivärskenduses 24 (märts 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Töövõtja põhipalga lubamine tulevaste ametikoha määrangute jaoks
 
@@ -87,10 +87,10 @@ Tavaliselt on ettevõttega liituvate töövõtjate alguskuupäev tulevikus. See 
 
 ## <a name="known-issues"></a>Teadaolevad probleemid
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Core HR-i integratsioonimalli muudatused (rakendusest Talent Common Data Service rakendusse Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>Core HR-i integratsioonimalli muudatused (rakendusest Talent Common Data Service rakendusse Finance)
 Core HR mall on värskendatud „täpsemaks päringumalliks”. Seetõttu on täpsem päring vaikimisi saadaval projektidele, mis selle malli abil luuakse. Lisaks on mis tahes vastendamise vaikefunktsioonid nähtavad ainult täpsemas päringuredaktoris. (Vastendamise vaikefunktsioonid kuvatakse vastendamistes kui „FN”.)
 
-Lisateavet vastendamistõrgete kohta vt jaotisest [Mis on Dynamics 365 for Talent Core HR-is uut või mida on muudetud (14. detsember 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
+Lisateavet vastendamistõrgete kohta vt jaotisest [Mis on Dynamics 365 Talent: Core HR-is uut või mida on muudetud (14. detsember 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
 
 Uue malli kasutamiseks looge uus projekt ja valige uus Talenti integratsioonimall.
 

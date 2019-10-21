@@ -1,6 +1,6 @@
 ---
 title: Ühendusega ja ühenduseta kassatoimingud
-description: Selles teemas kirjeldatakse üksikasjalikult Microsoft Dynamics 365 for Retaili kassaoperatsioone. See kirjeldab, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka ühenduseta režiimis.
+description: Selles teemas kirjeldatakse üksikasjalikult Dynamics 365 Retaili kassaoperatsioone. See kirjeldab, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka ühenduseta režiimis.
 author: jblucher
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,22 +18,22 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: fcb933438ec30ebe6d3b499b53e64c58ecec3626
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625661"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025306"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
 [!include [banner](includes/banner.md)]
 
-Enamikku toiminguid, mida kasutaja kassas teeb, loetakse toiminguteks. Operatsioone konfigureeritakse ja hallatakse rakenduse Microsoft Dynamics 365 for Retail varukontoris. Paljud operatsioonid saab lisada kassa nupupaneeli nuppudele. Kasutajad saavad seejärel nuppude abil operatsioone käivitada ja nende funktsioone kasutada. Muud operatsioonid on osa kassa põhirakendusest ning need käivitatakse ekraanil kuvatavate nuppude abil või muude töövoogude või protsesside raames.
+Enamikku toiminguid, mida kasutaja kassas teeb, loetakse toiminguteks. Operatsioone konfigureeritakse ja hallatakse rakenduse Dynamics 365 Retail varukontoris. Paljud operatsioonid saab lisada kassa nupupaneeli nuppudele. Kasutajad saavad seejärel nuppude abil operatsioone käivitada ja nende funktsioone kasutada. Muud operatsioonid on osa kassa põhirakendusest ning need käivitatakse ekraanil kuvatavate nuppude abil või muude töövoogude või protsesside raames.
 
-Järgmisest tabelist leiate üksikasjalikku teavet operatsioonide kohta, mis on saadaval Dynamics 365 for Retailile mõeldud Retail Modern POS-is ja pilvekassas. Samuti on tabelis märgitud, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka siis, kui kassa on ühenduseta režiimis.
+Järgmisest tabelist leiate üksikasjalikku teavet operatsioonide kohta, mis on saadaval Retail Modern POS-is ja pilvekassas. Samuti on tabelis märgitud, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka siis, kui kassa on ühenduseta režiimis.
 
-Mõned operatsioonid pole praegu Dynamics 365 for Retailile mõeldud Retail Modern POS-is ega pilvekassas saadaval. Mõned neist operatsioonidest on lokaadipõhised ning nõuavad täiendavaid laiendeid ja konfigureerimist. Ülejäänud on Microsoft Dynamics AX 2012 funktsioonid, mida praegu ei toetata.
+Mõned operatsioonid pole praegu Retail Modern POS-is ega pilvekassas saadaval. Mõned neist operatsioonidest on lokaadipõhised ning nõuavad täiendavaid laiendeid ja konfigureerimist. Ülejäänud on Microsoft Dynamics AX 2012 funktsioonid, mida praegu ei toetata.
 
 Järgmised veerud näitavad, kus operatsioone käivitatakse.
 
@@ -42,7 +42,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 - **Tervitusekraan**: operatsiooni saab käivitada kassa tervitusekraanil konfigureeritud nupupaneeli nuppudega.
 
 > [!NOTE]
-> Allpool loetletud toimingud kehtivad rakenduse Dynamics 365 for Retail uusima versiooni puhul. Mõned toimingud võivad olla muutunud või ei pruugi varasemates versioonides saadaval olla.
+> Allpool loetletud toimingud kehtivad rakenduse Retail uusima versiooni puhul. Mõned toimingud võivad olla muutunud või ei pruugi varasemates versioonides saadaval olla.
 
 | ID | Toiming | Kirjeldus | Nupupaneel | Kandeekraan | Tervitusekraan | Ühenduseta saadaval | Lokaadipõhine |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|

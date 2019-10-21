@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 84b6d3c3caa09b9601701ca4ac1992b151c0b8d4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558996"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249746"
 ---
 [!include[banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ Selles teemas kirjeldatakse, kuidas võimaldada töötajatel kasutada oma mobiil
 
 Kui töötellimused on lattu vabastatud, saab töötaja määrata tellimused mobiilse seadme abil kogumisse. Kogum korraldab töötaja jaoks komplekteerimistöö. Kui töötellimus on määratud kogumisse, peab töötaja tellimuse komplekteerimistöö tegemiseks kasutama kogumi komplekteerimist. Töötaja ei saa kasutada muid komplekteerimisviise. Kui töötellimus on kogumisse ekslikult määratud, peab töötaja kogumi lõhkuma ja selle uuesti looma.
 
-Vajaduse korral saab töötaja edastada kogumi edasi teisele töötajale. Sel juhul muutub kogumi olekuks Edastatud. Kui töötaja kasutab komplekteerimis- ja mahapanekutöö lõpuleviimise näitamiseks mobiilset seadet, tuleb saadetis või koorem kinnitada Dynamics 365 for Finance and Operationsi kliendis.
+Vajaduse korral saab töötaja edastada kogumi edasi teisele töötajale. Sel juhul muutub kogumi olekuks Edastatud. Kui töötaja kasutab komplekteerimis- ja mahapanekutöö lõpuleviimise näitamiseks mobiilset seadet, tuleb saadetis või koorem kinnitada kliendis.
 
 ## <a name="set-up-cluster-picking"></a>Kogumi komplekteerimise seadistamine
 

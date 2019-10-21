@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27f574be865ca5f7474e11c7aae1a110f66298c8
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865468"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250779"
 ---
 # <a name="inventory-management-overview"></a>Varude haldamise ülevaade
 
@@ -53,10 +53,8 @@ Avage [Microsoft Dynamics 365 sisukaart](https://roadmap.dynamics.com/), et näh
 ### <a name="inventory-accounting"></a>Laoarvestus 
 Lisateabe saamiseks vt [Laoarvestus kulude halduses](../cost-management/inventory-close.md).
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a>Tootmise ja tarneahela juhtimise ajaveebid
+### <a name="manufacturing-and-supply-chain-management-blogs"></a>Tootmise ja Supply Chain Managementi ajaveebid
 [Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/axmfg) ning [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm) leiate arvamusi, uudiseid ning muud teavet varude halduse ja muude lahenduste kohta.
 
-### <a name="task-guides"></a>Tegevuse juhised
-Täiendav spikker on saadaval tegevuse juhistena rakenduses Finance and Operations. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu **Spikker**.
-
-
+### <a name="task-guides"></a>Tegevusjuhised
+Täiendav spikker on saadaval ülesandejuhistena. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu **Spikker**

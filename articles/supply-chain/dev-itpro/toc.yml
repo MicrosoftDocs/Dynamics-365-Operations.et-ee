@@ -1,0 +1,1620 @@
+- name: Rakenduse Finance and Operations arendamine ja haldus
+  href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Mis on uut või mida on muudetud?
+  items:
+    - name: Platform update 30 (november 2019) eelvaatefunktsioonid
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-30.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 29 (oktoober 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-29.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 28 (juuli 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-28.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 27 (juuni 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-27.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 26 (mai 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-26.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 25 (aprill 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-25.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 24 (märts 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-24.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 23 (jaanuar 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-23.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 22 (detsember 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-22.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 21 (november 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-21.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 20 (september 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-20.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Platform update 15 (märts 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-15.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Ärisündmused
+  items:
+    - name: Ärisündmuste ülevaade
+      href: ../../dev-itpro/business-events/home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Rakenduse ärisündmused
+      href: ../../dev-itpro/business-events/app-business-events.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Töövoo ärisündmused
+      href: ../../dev-itpro/business-events/business-events-workflow.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Teatised ärisündmustena
+      href: ../../dev-itpro/business-events/alerts-business-events.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Ärisündmused rakenduses Microsoft Flow
+      href: ../../dev-itpro/business-events/business-events-flow.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Ärisündmuste arendaja dokumentatsioon
+      href: ../../dev-itpro/business-events/business-events-dev-doc.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Ärisündmuste tõrkeotsing
+      href: ../../dev-itpro/business-events/troubleshooting.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Ärisündmuste kasutusjuhtumid
+      href: ../../dev-itpro/business-events/potential-use-cases.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Õppetükid
+      items:
+        - name: Ärisündmused ja Microsoft Flow
+          href: ../../dev-itpro/business-events/how-to/how-to-flow.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Ärisündmused ja Azure Event Grid
+          href: ../../dev-itpro/business-events/how-to/how-to-eventgrid.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Ärisündmused ja Azure Service Bus
+          href: ../../dev-itpro/business-events/how-to/how-to-servicebus.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Ärisündmuste ja töövoogude kinnitused
+          href: ../../dev-itpro/business-events/how-to/how-to-workflow.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Ärisündmused ja Microsoft Forms Pro
+          href: ../../dev-itpro/business-events/how-to/FormsPro.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Ärisündmused ja Azure'i sündmuse keskused
+          href: ../../dev-itpro/business-events/how-to/event-hub.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Pidev tarne
+  items:
+    - name: Pideva tarne kodulehekülg
+      href: ../../dev-itpro/dev-tools/continuous-delivery-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Arenduse ja pideva tarne KKK
+      href: ../../dev-itpro/dev-tools/continuous-delivery-faq.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Testpakettide väljaarvamine koosteväljundist
+      href: ../../dev-itpro/dev-tools/exclude-test-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Kolmanda osapoole mudelite ja käitusajapakettide haldus allikakontrolli abil
+      href: ../../dev-itpro/dev-tools/manage-runtime-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Mudeliversioonide värskendamine automatiseeritud koostes
+      href: ../../dev-itpro/dev-tools/version-models-build.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Andmete integratsioon
+  items:
+    - name: Andmete integratsioonistrateegia (import/eksport) valimine
+      href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Andmete integratsiooni API-d
+      items:
+        - name: Andmehalduse paketi REST API
+          href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Teenuse lõpp-punktid
+          items:
+            - name: Teenuse lõpp-punktide ülevaade
+              href: ../../dev-itpro/data-entities/services-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Teenuste autentimise tõrkeotsing
+              href: ../../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: OData
+          href: ../../dev-itpro/data-entities/odata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kohandatud teenuse arendamine
+          href: ../../dev-itpro/data-entities/custom-services.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Korduvad integreerimised
+          href: ../../dev-itpro/data-entities/recurring-integrations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Teenuste testimine kolmandate osapoolte utiliitide abil
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Finance and Operationsi konnektor
+      href: ../../dev-itpro/data-entities/fin-ops-connector.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Arendus integreerimiseks
+      items:
+        - name: Andmete integreerimine andmeüksuste abil
+          items:
+            - name: Andmete integreerimine andmeüksuste abil – ülevaade
+              href: ../../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Üksuse arendamine andmemigratsiooni jaoks
+              href: ../../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Liit-andmeüksuste arendamine
+              href: ../../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Kontsernisisese finantsandmete ühiskasutuse konfigureerimine
+              href: ../../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Andmesisestuse hõlbustamiseks kirje mallide loomine
+              href: ../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Kirjete loomine kirjemallide abil
+              href: ../../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Andmeintegratsioon Common Data Service’i abil
+          items:
+            - name: Andmeintegratsioon Common Data Service'i abil – ülevaade
+              href: ../../dev-itpro/data-entities/data-integration-cds.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: 'Sünkroonne, kahesuunaline integratsioon'
+              items:
+                - name: Reaalaja lähedane teabe integratsioon
+                  href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Common Data Service-i organisatsiooni hierarhia
+                  href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Ettevõtte kontseptsioon Common Data Service'is
+                  href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Integreeritud kliendi koondandmed
+                  href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Ühendatud toote kasutusfunktsionaalsus
+                  href: ../../dev-itpro/data-entities/dual-write-product.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Integreeritud hankija koondandmed
+                  href: ../../dev-itpro/data-entities/dual-write-vendor.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Integreeritu kohad ja laod
+                  href: ../../dev-itpro/data-entities/dual-write-sites-and-warehouses.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Esialgne sünkroonimine
+                  href: ../../dev-itpro/data-entities/dual-write-initial.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Andmete integratsiooni tõrkeotsing
+                  href: ../../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: 'Asünkroonne, ühesuunaline integratsioon'
+              items:
+                - name: Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine
+                  items:
+                    - name: Potentsiaalne klient sularahaks
+                      href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega
+                      href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega
+                      href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega
+                      href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Rakenduse Finance and Operations müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales
+                      href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel
+                      href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
+                      href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Integratsiooni konfigureerimine Field Service’iga
+                  items:
+                    - name: Integratsiooni konfigureerimine Field Service’i abil – ülevaade
+                      href: ../../supply-chain/sales-marketing/field-service.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Rakenduse Finance and Operations toodete sünkroonimine rakenduse Field Service toodetega
+                      href: ../../supply-chain/sales-marketing/field-service-product.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Rakenduse Field Service töötellimuste sünkroonimine rakenduse Finance and Operations müügitellimustega
+                      href: ../../supply-chain/sales-marketing/field-service-work-order.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Finance and Operations vabas vormis arvetega
+                      href: ../../supply-chain/sales-marketing/field-service-invoice.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Varude üleviimiste ja korrigeerimiste sünkroonimine rakendusest Field Service rakendusse Finance and Operations
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Varude taseme teabe sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Laoühikuga toodete sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Projektiloendi sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Ladude sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Projektiga töökäskude sünkroonimine rakendusest Field Service rakendusse Finance and Operations
+                      href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Project Service Automationi integreerimise konfigureerimine
+                  items:
+                    - name: Project Service Automationi ülevaade
+                      href: ../../financials/project-management/PSA-integration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Project Service Automationi integreerimisparameetrid
+                      href: ../../financials/project-management/PSA-parameters.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Projektilepingute ja projektide sünkroonimine
+                      href: ../../financials/project-management/project-contracts-templates.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Projektiülesannete sünkroonimine
+                      href: ../../financials/project-management/project-tasks-template.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Projekti kulukategooriate sünkroonimine
+                      href: ../../financials/project-management/project-categories-templates.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Projektihinnangute sünkroonimine projekti eelarvetega
+                      href: ../../financials/project-management/project-estimates-templates.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                    - name: Projekti tegelike väärtuste sünkroonimine projekti integratsiooni töölehega
+                      href: ../../financials/project-management/project-actuals-templates.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Väliste veebiteenuste tarbimine
+      href: ../../dev-itpro/data-entities/consume-external-web-service.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Elektronsõnumid
+      href: ../../financials/general-ledger/electronic-messaging.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Andmehaldus
+  items:
+    - name: Andmehalduse ülevaade
+      href: ../../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Andmeüksused
+      items:
+        - name: Andmeüksuste ülevaade
+          href: ../../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Konfigureerimisandmete projektid
+          href: ../../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Konfiguratsiooniandmete kopeerimine ettevõtete või juriidiliste isikute vahel
+          items:
+            - name: Konfiguratsiooniandmete kopeerimise ülevaade
+              href: ../../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Konfigureerimisandmete paketid
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Konfiguratsiooniandmete paketid (ainult 2017. a juuli väljaanne)
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Muuda üksusesalv Data Lake’i üksusena saadavaks
+              href: ../../dev-itpro/data-entities/entity-store-data-lake.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Konfigureerimisandmete mallid
+          href: ../../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Üksuse muudatuste jälgimine
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Teabe otsimine standardsete andmeüksuste kohta
+          href: ../../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mitme töölehe andmemallid
+          href: ../../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Üksuste muudatuste jälgimise lubamine
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Konfiguratsioonivõtmed ja andmeüksused
+          href: ../../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Konfigureerimisandmete paketid
+          href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Andmete importimis- ja eksportimistööd
+      items:
+        - name: Andmete importimis- ja eksportimistööde ülevaade
+          href: ../../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Üldise töölehe üksuse abil kannete importimise head tavad
+          href: ../../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Andmeüksuste arendamine
+      items:
+        - name: Andmeüksuste kujundamise põhimõtted ja parimad tavad
+          href: ../../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Uute andmeüksuste loomine
+          href: ../../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Andmeüksuse atribuudid
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Arvutusveergute ja virtuaalsete väljade loomine
+          href: ../../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kontsernisisene käitumine
+          href: ../../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Riigi-/regioonikoodide haldamine
+          href: ../../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Päriluse mustrid
+          href: ../../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Andmeüksuse viisardi reeglid
+          href: ../../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Metaandmete atribuudid
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Kinnitamised, vaikeväärtused ja vastendamata väljad'
+          href: ../../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Turve ja andmeüksused
+          href: ../../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kolmandate osapoolte teenusetestimise utiliitide kasutamine
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Finantsdimensioone esitavate kirjutuskaitstud olemite loomine
+          href: ../../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Oma andmebaasi toomine
+      href: ../../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Automatiseeritud üksuse kaupluse värskendamine
+      href: ../../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Andmeülesannete automatiseerimine
+      href: ../../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Andmete valideerimise kontroll-loendi tööruum
+      href: ../../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Andmehalduse tõrgete kirjeldused
+      href: ../../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Andmebaasi teisaldamistoimingud
+  items:
+    - name: Ülevaade
+      href: ../../dev-itpro/database/dbmovement-operations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Kiirjuhendid
+      items:
+        - name: Andmebaasi värskendamine
+          href: ../../dev-itpro/database/database-refresh.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Andmebaasi eksport
+          href: ../../dev-itpro/database/export-database.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Andmebaasi importimine
+          href: ../../dev-itpro/database/import-database.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Andmebaasi ajapunktipõhine taaste
+          href: ../../dev-itpro/database/database-point-in-time-restore.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Õppetükid
+      items:
+        - name: Värskendamine koolitusotstarbel
+          href: ../../dev-itpro/database/dbmovement-scenario-general-refresh.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tootmisandmebaasi koopia silumine
+          href: ../../dev-itpro/database/dbmovement-scenario-debugdiag.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Standardse kasutaja vastuvõtu testimise (UAT) andmebaasi koopia eksportimine
+          href: ../../dev-itpro/database/dbmovement-scenario-exportuat.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kuldse konfiguratsiooni kampaania
+          href: ../../dev-itpro/database/dbmovement-scenario-goldenconfig.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Purustav katse
+          href: ../../dev-itpro/database/dbmovement-scenario-destructivetests.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Demoandmed
+  items:
+    - name: Demoandmete ülevaade
+      href: ../../fin-and-ops/get-started/demo-data.md?toc=/dynamics365/unified-operations/supply-chain/toc.json?toc=/dev-itpro/toc.json
+    - name: Demoandmete loomine andmepakettide abil
+      href: ../../dev-itpro/data-entities/generate-demo-data-packages.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Juurutamine
+  items:
+    - name: Demokeskkondade juurutamine
+      href: ../../dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Pilvjuurutus
+      items:
+        - name: Pilvjuurutuse ülevaade
+          href: ../../dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Iseteeninduse juurutamine
+          items:
+            - name: Iseteeninduse juurutamise ülevaade
+              href: ../../dev-itpro/deployment/infrastructure-stack.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Uue keskkonna juurutamine
+              href: ../../dev-itpro/deployment/deployenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Juurutuse KKK
+              href: ../../dev-itpro/deployment/deploymentFAQ.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Iseteeninduse juurutamise teadaolevad probleemid
+              href: ../../dev-itpro/deployment/known-issues-new-deployment-experience.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Juurutuste hooldustoimingud
+              href: ../../dev-itpro/deployment/maintenanceoperationsguide-newinfrastructure.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Keskkonna värskendamine
+              href: ../../dev-itpro/deployment/updateenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Iseteeninduse juurutamise kaudu juurutatud keskkondade tõrkeotsing
+              href: ../../dev-itpro/deployment/troubleshoot-newinfrastructure.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Azure Resource Manageri kasutuselevõtu lõpule viimine
+          href: ../../dev-itpro/deployment/arm-onboarding.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Azure ExpressRoute ja Finance and Operations
+          href: ../../dev-itpro/deployment/expressroute.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Finance and Operationsi arhitektuur
+          href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Värskenduste rakendamine pilvekeskkondadele
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Värskenduste ja laiendite rakendamine pilves majutatavatele Retaili kanali komponentidele
+          href: ../../dev-itpro/deployment/Update-retail-channel.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Lähtesta Retail Cloud Scale Unit
+          href: ../../dev-itpro/deployment/Initialize-Retail-Channels.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Retaili andmete asukoht
+          href: ../../dev-itpro/deployment/retail-data-residency.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Asutusesisene juurutus
+      items:
+        - name: Asutusesisese juurutuse avaleht
+          href: ../../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Asutusesisese juurutuse ülevaade
+          href: ../../dev-itpro/deployment/on-premises-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Asutusesiseste juurutuste plaanimine ja ettevalmistamine
+          href: ../../dev-itpro/deployment/plan-onprem-deployment.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Riistvarakalkulaatori nõuded
+          href: ../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dynamics365/unified-operations/supply-chain/toc.json?toc=/dev-itpro/toc.json
+        - name: Asutusesiseste projektide häälestamine
+          href: ../../dev-itpro/lifecycle-services/lbd-create-lcs-on-prem-project.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Asutusesiseste keskkondade häälestamine ja juurutamine
+          items:
+            - name: Asutusesiseste keskkondade häälestamise ja juurutamise avaleht
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-environments.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Asutusesiseste keskkondade juurutamine (Platform update 12 ja uuemad)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu12.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Kohapealsete keskkondade juurutamine (Platform update 8 ja 11)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu8-pu11.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Etapid jaemüügikanali komponentide installimiseks kohapealses keskkonnas
+              href: ../../dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse
+          href: ../../dev-itpro/deployment/develop-deploy-custom-models-on-premises.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: PowerBI.com-i integratsioon kohapealsete keskkondadega
+          href: ../../dev-itpro/analytics/entity-store-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pöördpuhverserverite konfigureerimine kohapealsete keskkondade jaoks
+          href: ../../dev-itpro/deployment/onprem-reverseproxy.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Värskenduste rakendamine kohapealsesse juurutamisse
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kohapealsed diagnostikad
+          href: ../../dev-itpro/deployment/on-premises-diagnostics.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kohapealsete juurutamiste uuesti juurutamine
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kohalik esindaja
+          items:
+            - name: AD FS Office 365-ga ühilduvus
+              href: ../../dev-itpro/deployment/onprem-adfscompatibility.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Kohaliku esindaja eeljuurutuse ja järeljuurutuse skriptid
+              href: ../../dev-itpro/lifecycle-services/pre-post-scripts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Kohaliku esindaja värskendamine
+              href: ../../dev-itpro/lifecycle-services/update-local-agent.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Keskkondade ümberkonfigureerimine
+          href: ../../dev-itpro/lifecycle-services/reconfigure-environment.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kliendi Interneti-ühendus
+          href: ../../dev-itpro/user-interface/client-disconnected.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kohapealsete juurutamiste tõrkeotsing
+          href: ../../dev-itpro/deployment/troubleshoot-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Sertide roteerimine
+          href: ../../dev-itpro/deployment/certificate-rotation-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Kohandatud koodi juurutamine
+      items:
+        - name: Juurutatavate mudelipakettide loomine
+          href: ../../dev-itpro/deployment/create-apply-deployable-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Juurutatavate pakettide installimine käsurealt
+          href: ../../dev-itpro/deployment/install-deployable-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Paketi desinstallimine
+          href: ../../dev-itpro/deployment/uninstall-deployable-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Paketi rakendusprobleemide tõrkeotsing
+          href: ../../dev-itpro/deployment/deployable-package-troubleshooting.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Arendamine ja kohandamine
+  items:
+    - name: Arendamise ja kohandamise avaleht
+      href: ../../dev-itpro/dev-tools/developer-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Rakendusepinu ja serveri ülesehitus
+      href: ../../dev-itpro/dev-tools/application-stack-server-architecture.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tutvumiseksemplaride hankimine
+      href: ../../dev-itpro/dev-tools/get-evaluation-copy.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Eelvaatetellimuste saajaks registreerumine
+      href: ../../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Arenduskeskkondade juurutamine ja juurdepääs
+      items:
+        - name: Arenduskeskkonnad
+          href: ../../dev-itpro/dev-tools/access-instances.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Valmis arenduskeskkondade konfigureerimine
+          href: ../../dev-itpro/dev-tools/configure-developer-vm.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Uute kasutajate loomine arendusmasinatel
+          href: ../../dev-itpro/dev-tools/enable-development-machine.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Administraatori juurdepääsu keelavate VM-ide arendamise ja koostamise KKK
+          href: ../../dev-itpro/sysadmin/VMs-no-admin-access.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kohalike keskkondade ümbernimetamine Azure DevOps’ile juurdepääsuks
+          href: ../../dev-itpro/migration-upgrade/vso-machine-renaming.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Arendussüsteemi nõuded
+          href: ../../dev-itpro/dev-tools/development-system-requirements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: 'Versioonijuhtimine, metaandmete otsing ja navigeerimine'
+      href: ../../dev-itpro/dev-tools/version-control-metadata-navigation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Sõidukipargi halduse näidisrakendus
+      items:
+        - name: Sõidukipargi halduse näidisrakenduse täielik stsenaarium
+          href: ../../dev-itpro/dev-tools/fleet-management-sample.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Sõidukipargi halduse näidisrakendus
+          href: ../../dev-itpro/dev-tools/introduction-fleet-management-sample.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Visual Studio tööriistad
+      items:
+        - name: Arendustööriistad
+          href: ../../dev-itpro/dev-tools/development-tools-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Arendustööriistade õpik
+          href: ../../dev-itpro/dev-tools/introduction-visual-studio.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Rakendusekontroll
+          items:
+            - name: BaseX-i installimine rakendusekontrolli jaoks
+              href: ../../dev-itpro/dev-tools/install-basex.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Application Explorer
+          href: ../../dev-itpro/dev-tools/application-explorer.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Projektide koostamine ja silumine
+          href: ../../dev-itpro/dev-tools/build-debug-project.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Järgu toimingud
+          href: ../../dev-itpro/dev-tools/build-operations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Koodiredaktori funktsioonid
+          href: ../../dev-itpro/dev-tools/code-editor.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mudelite ja andmemudeli elementide loomine
+          items:
+            - name: Mudelite ja andmemudeli elementide ülevaade
+              href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendite nimejuhised
+              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Mudeli kohandamise ja aegumisfunktsiooni väljalülitamine
+              href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kliendi kohanduste analüüsi aruanne
+          href: ../../dev-itpro/dev-tools/customization-analysis-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Elementide koostajad
+          href: ../../dev-itpro/dev-tools/element-designers.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Elemendi kasutus kindlaksmääramise käsud
+          href: ../../dev-itpro/dev-tools/element-usage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mudelite eksportimine ja importimine
+          href: ../../dev-itpro/dev-tools/models-export-import.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Metaandmete otsing Visual Studios
+          href: ../../dev-itpro/dev-tools/metadata-search-visual-studio.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mudelid ja paketid
+          href: ../../dev-itpro/dev-tools/models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Finance and Operationsi projekti tüüp
+          href: ../../dev-itpro/dev-tools/projects.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tööriistade lisandmoodulid Visual Studio jaoks
+          href: ../../dev-itpro/dev-tools/developer-tools-add-ins.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Visual Studio arendustööriistade värskendamine
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: X++ programmeerimiskeel
+      items:
+        - name: X++ ja siluri funktsioonid
+          href: ../../dev-itpro/dev-tools/new-x-debugger-features.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: X++ koodi silumine
+          href: ../../dev-itpro/dev-tools/debug-xpp.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Atribuudi EventHandlerResult klassid taotluste või vastuste stsenaariumides
+          href: ../../dev-itpro/dev-tools/event-handler-result-class.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Äriloogika kirjutamine C# ja X++ lähtekoodi abil'
+          href: ../../dev-itpro/dev-tools/write-business-logic.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: X++ ja X++ kompilaatori muudatused
+          href: ../../dev-itpro/dev-tools/programming-language-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'LINQ pakkuja C# jaoks'
+          href: ../../dev-itpro/dev-tools/linq-provider-c.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Hea tava reeglite kirjutamine
+          href: ../../dev-itpro/dev-tools/author-best-practice-rules.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Application Exploreri atribuudid
+          href: ../../dev-itpro/dev-ref/application-explorer-aot-properties.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: X++ keeleviide
+          items:
+            - name: X++ keeleviite ülevaade
+              href: ../../dev-itpro/dev-ref/xpp-language-reference.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Muutujad ja andmetüübid
+              items:
+                - name: Muutujad
+                  href: ../../dev-itpro/dev-ref/xpp-variables-data-types.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Primitiivsed andmetüübid
+                  href: ../../dev-itpro/dev-ref/xpp-data-primitive.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Liitandmetüübid
+                  href: ../../dev-itpro/dev-ref/xpp-data-composite.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Kogumiklassid
+                  href: ../../dev-itpro/dev-ref/xpp-data-collection.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Laiendatud andmetüübid
+                  href: ../../dev-itpro/dev-ref/xpp-data-edt.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: 'Väljavõtete, tsüklite ja erandite töötlemine'
+              items:
+                - name: 'Kommentaarid, kasutamine ja printimine'
+                  href: ../../dev-itpro/dev-ref/xpp-statements-loops.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Tingimuslikud väljavõtted
+                  href: ../../dev-itpro/dev-ref/xpp-conditional.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Tsükli väljavõtted
+                  href: ../../dev-itpro/dev-ref/xpp-loops.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Erandite käsitlemine
+                  href: ../../dev-itpro/dev-ref/xpp-exceptions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: SQL-i ühenduse tõrke X++ erand
+              href: ../../dev-itpro/dev-ref/sql-connection-error.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ tehtemärgid
+              href: ../../dev-itpro/dev-ref/xpp-operators.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ tehtemärkide eelistamine
+              href: ../../dev-itpro/dev-ref/xpp-operator-precedence.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ klassid ja meetodid
+              items:
+                - name: Klassid ja meetodid
+                  href: ../../dev-itpro/dev-ref/xpp-classes-methods.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Pärilus
+                  href: ../../dev-itpro/dev-ref/xpp-inheritance.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Staatilise klassi liikmed
+                  href: ../../dev-itpro/dev-ref/xpp-static-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Liidesed
+                  href: ../../dev-itpro/dev-ref/xpp-interfaces.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Teegid
+                  href: ../../dev-itpro/dev-ref/xpp-library-objects.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+                - name: Sündmused
+                  href: ../../dev-itpro/dev-ref/xpp-events.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ andmete valimine ja manipuleerimine
+              href: ../../dev-itpro/dev-ref/xpp-data-query.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Juurdepääs andmetele SysDa API abil
+              href: ../../dev-itpro/dev-ref/sysda.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ makrod
+              href: ../../dev-itpro/dev-ref/xpp-macros.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ atribuudiklassid
+              href: ../../dev-itpro/dev-ref/xpp-attribute-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: 'X++ ja C# võrdlus'
+              href: ../../dev-itpro/dev-ref/xpp-cs-comparison.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ süntaks
+              href: ../../dev-itpro/dev-ref/xpp-syntax.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: 'API, klassi ja tabeli viide'
+      items:
+        - name: 'API, klassi ja tabeli ressursid'
+          href: ../../dev-itpro/dev-ref/api-reference.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: X++ kompileerimisaja funktsioonid
+          href: ../../dev-itpro/dev-ref/xpp-compile-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: X++ käitusaja funktsioonid
+          items:
+            - name: X++ käitusajafunktsiooni ressursid
+              href: ../../dev-itpro/dev-ref/xpp-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ ärilahenduse käitusaja funktsioonid
+              href: ../../dev-itpro/dev-ref/xpp-business-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ konteineri käitusaja funktsioonid
+              href: ../../dev-itpro/dev-ref/xpp-container-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ teisendamise käitusaja funktsioonid
+              href: ../../dev-itpro/dev-ref/xpp-conversion-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ kuupäeva käitusaja funktsioonid
+              href: ../../dev-itpro/dev-ref/xpp-date-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ valemi käitusaja funktsioonid
+              href: ../../dev-itpro/dev-ref/xpp-math-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ peegeldamise käitusaja funktsioonid
+              href: ../../dev-itpro/dev-ref/xpp-reflection-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ seansi käitusaja funktsioonid
+              href: ../../dev-itpro/dev-ref/xpp-session-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X++ stringi käitusaja funktsioonid
+              href: ../../dev-itpro/dev-ref/xpp-string-run-time-functions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Süsteemitabelid
+          href: ../../dev-itpro/dev-ref/system-tables.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Süsteemiklassid
+          items:
+            - name: A klassid
+              href: ../../dev-itpro/dev-ref/a-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: B klassid
+              href: ../../dev-itpro/dev-ref/b-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: C klassid
+              href: ../../dev-itpro/dev-ref/c-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: D klassid
+              href: ../../dev-itpro/dev-ref/d-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: E klassid
+              href: ../../dev-itpro/dev-ref/e-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: F klassid (FieldBinding kuni FormBuildAnimateControl)
+              href: ../../dev-itpro/dev-ref/fieldbinding-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: F klassid (FormBuildButtonControl kuni FormBuildFastTabSummarySeparator)
+              href: ../../dev-itpro/dev-ref/formbuildbuttoncontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: F klassid (FormBuildFilterPaneControl kuni FormBuildRealControl)
+              href: ../../dev-itpro/dev-ref/formbuildfilterpanecontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: F klassid (FormBuildReferenceControl kuni FormButtonSeparatorControl)
+              href: ../../dev-itpro/dev-ref/formbuildreferencecontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: F klassid (FormChangeTracker kuni FormControlEventArgs)
+              href: ../../dev-itpro/dev-ref/formchangetracker-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: F klassid (FormDataObject kuni FormFastTabHeaderControl)
+              href: ../../dev-itpro/dev-ref/formdataobject-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: F klassid (FormFastTabSummarySeparator kuni FormGridControl)
+              href: ../../dev-itpro/dev-ref/formfasttabsummaryseparator-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: F klassid (FormGroupControl kuni FormIntControl)
+              href: ../../dev-itpro/dev-ref/formgroupcontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: F klassid (FormListBoxControl kuni FormNotifyEventArgs)
+              href: ../../dev-itpro/dev-ref/formlistboxcontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: F klassid (FormObject kuni FormRealControl)
+              href: ../../dev-itpro/dev-ref/formobject-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: F klassid (FormReferenceControl kuni FormStringControl)
+              href: ../../dev-itpro/dev-ref/formreferencecontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: F klassid (FormTabControl kuni FormWindowControl)
+              href: ../../dev-itpro/dev-ref/formtabcontrol-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: G klassid
+              href: ../../dev-itpro/dev-ref/g-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: H klassid
+              href: ../../dev-itpro/dev-ref/h-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: I klassid
+              href: ../../dev-itpro/dev-ref/i-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: J klassid
+              href: ../../dev-itpro/dev-ref/j-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: K klassid
+              href: ../../dev-itpro/dev-ref/k-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: L klassid
+              href: ../../dev-itpro/dev-ref/l-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: M klassid
+              href: ../../dev-itpro/dev-ref/m-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: N klassid
+              href: ../../dev-itpro/dev-ref/n-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: O klassid
+              href: ../../dev-itpro/dev-ref/o-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: P klassid
+              href: ../../dev-itpro/dev-ref/p-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Q klassid
+              href: ../../dev-itpro/dev-ref/q-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: R klassid
+              href: ../../dev-itpro/dev-ref/r-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: S klassid
+              href: ../../dev-itpro/dev-ref/s-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: T klassid
+              href: ../../dev-itpro/dev-ref/t-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: U klassid
+              href: ../../dev-itpro/dev-ref/u-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: V klassid
+              href: ../../dev-itpro/dev-ref/v-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: W klassid
+              href: ../../dev-itpro/dev-ref/w-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: X klassid
+              href: ../../dev-itpro/dev-ref/x-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Laiendatavus
+      items:
+        - name: Laiendatavuse avaleht
+          href: ../../dev-itpro/extensibility/extensibility-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Sissejuhatus ja alustamine
+          items:
+            - name: Rakenduse laiendatavuse plaan
+              href: ../../dev-itpro/extensibility/extensibility-roadmap.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse taotlused
+              href: ../../dev-itpro/extensibility/extensibility-requests.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse KKK
+              href: ../../dev-itpro/extensibility/app-sealing-faq.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Ülekatmisest laiendustesse migreerimine
+              href: ../../dev-itpro/extensibility/migrate-overlayer-extension.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Mudeli elementide kohandamine laiendi abil (õppetükk)
+              href: ../../dev-itpro/extensibility/customize-model-elements-extensions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Kohandamine laiendi ja ülekatmise abil
+              href: ../../dev-itpro/extensibility/customization-overlayering-extensions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mis on uut?
+          items:
+            - name: Mis on uut või mida on muudetud laiendatavuse puhul?
+              href: ../../dev-itpro/extensibility/extensibility-new.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – versioon 10.0.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-3.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – versioon 10.0.2
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-2.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – versioon 10.0.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-1.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – versioon 10.0
+              href: ../../dev-itpro/extensibility/extensibility-changes-10.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – versioon 8.1.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-813.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – versioon 8.1.2
+              href: ../../dev-itpro/extensibility/extensibility-changes-812.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – versioon 8.1.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-811.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – versioon 8.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-81.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – versioon 8.0.4
+              href: ../../dev-itpro/extensibility/extensibility-changes-804.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – versioon 8.0.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-803.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – versioon 8.0.2
+              href: ../../dev-itpro/extensibility/extensibility-changes-802.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – versioon 8.0.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-801.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused versioonis 8.0
+              href: ../../dev-itpro/extensibility/changes-80.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused versioonis 7.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-73.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavuse muudatused – juuli 2017
+              href: ../../dev-itpro/extensibility/changes-july-2017.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Põhisätted
+          items:
+            - name: Pealetükkivad kohandused
+              href: ../../dev-itpro/extensibility/intrusive-customizations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Klassilaiendi mudel
+              href: ../../dev-itpro/extensibility/class-extensions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Klassi laiend meetodi mähkimise ja käsuliini kaudu
+              href: ../../dev-itpro/extensibility/method-wrapping-coc.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendite nimejuhised
+              href: ../../dev-itpro/extensibility/naming-guidelines-extensions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendite ülekatmise refaktooringu jaoks mudelipiirangute lõdvendamine
+              href: ../../dev-itpro/extensibility/refactoring-over-layering.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Laiendite loomine
+          items:
+            - name: Väärtuste lisamine üksustele enums
+              href: ../../dev-itpro/extensibility/add-enum-value.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatud andmetüüpide muutmine
+              href: ../../dev-itpro/extensibility/modify-edt.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tehasemeetodite jaoks alamklasside registreerimine
+              href: ../../dev-itpro/extensibility/register-subclass-factory-methods.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Vastamine atribuudi EventHandlerResult abil
+              href: ../../dev-itpro/extensibility/respond-event-handler-result.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: RunBase’i klassi laiendamine
+              href: ../../dev-itpro/extensibility/extend-runbase-class.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Rakenduse käivitumise kohandamine delegaatide abil
+              href: ../../dev-itpro/extensibility/startup-customizations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tabelis olevate väljade muutmine
+              href: ../../dev-itpro/extensibility/modify-existing-field.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Väljade lisamine tabelitesse
+              href: ../../dev-itpro/extensibility/add-field-extension.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Indeksite lisamine tabelitesse
+              href: ../../dev-itpro/extensibility/add-index.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Seoste lisamine tabelitesse
+              href: ../../dev-itpro/extensibility/add-relation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tabeliatribuutide muutmine
+              href: ../../dev-itpro/extensibility/modify-properties.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Meetodite lisamine tabelitesse
+              href: ../../dev-itpro/extensibility/add-method-table.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Äritoimingute tegemine tabelikirjete elutsükli jooksul
+              href: ../../dev-itpro/extensibility/subscribe-table-events.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Andmeallikate lisamine vormidele
+              href: ../../dev-itpro/extensibility/add-datasource.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Vormi pealdiste muutmine
+              href: ../../dev-itpro/extensibility/change-caption-form.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Vormi juhtelemendi atribuutide muutmine
+              href: ../../dev-itpro/extensibility/modify-control-properties.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Numbriseeriate ulatuse laiendamine
+              href: ../../dev-itpro/extensibility/extend-number-sequence-scope.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Uute varude dimensioonide lisamine
+              href: ../../dev-itpro/extensibility/inventory-dimensions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Hinna ja allahindluse laiendatavus
+              href: ../../dev-itpro/extensibility/pricing-app73.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tabeli kaardi laiend
+              href: ../../dev-itpro/extensibility/map-extensions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Liidestena kasutatavate tabeli kaartide laiendamine
+              href: ../../dev-itpro/extensibility/maps-as-interfaces.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Versioonimiseks kasutatavate tabeli kaartide laiendamine
+              href: ../../dev-itpro/extensibility/maps-with-versioning.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Valitud andmetüüpide kümnendkoha täpsuse laiendamine
+              href: ../../dev-itpro/extensibility/decimal-point-precision.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Laiendatavate lahenduste loomine
+          items:
+            - name: Laiendatava koodi kirjutamine
+              href: ../../dev-itpro/extensibility/writing-extensible-code.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Klassid
+              href: ../../dev-itpro/extensibility/extensible-classes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Meetodid
+              href: ../../dev-itpro/extensibility/extensible-methods.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Vormid
+              href: ../../dev-itpro/extensibility/extensible-forms.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatud andmetüübid
+              href: ../../dev-itpro/extensibility/extensible-edts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Laiendatavad loetelud
+              href: ../../dev-itpro/extensibility/extensible-enums.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Delegaadid
+              href: ../../dev-itpro/extensibility/extensible-code-delegates.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Tabelid
+              href: ../../dev-itpro/extensibility/extensible-tables.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Meetodite laiendatavuse atribuudid
+              href: ../../dev-itpro/extensibility/extensibility-attributes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Murrangulised muudatused
+              href: ../../dev-itpro/extensibility/breaking-changes.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Jõudlus
+      items:
+        - name: Jälitamised Trace Parseri abil
+          href: ../../dev-itpro/perf-test/trace-trace-tutorial.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Ühe kasutajaga testimine tegevuse salvestaja ja jõudluse SDK abil
+          href: ../../dev-itpro/perf-test/single-user-test-perf-sdk.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mitme kasutajaga testimine jõudluse SDK ja kohaliku testimiskontrolleri abil
+          href: ../../dev-itpro/perf-test/multi-user-testing-local-test-controller.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mitme kasutajaga testimine jõudluse SDK ja Azure DevOpsi kaudu
+          href: ../../dev-itpro/perf-test/multi-user-testing-perfsdk-azuredevops.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Ühe või mitme kasutajaga testimine jõudluse SDK abil – tõrkeotsingujuhend
+          href: ../../dev-itpro/perf-test/troubleshoot-perf-sdk-user-testing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Jõudluse SDK ja mitme kasutajaga testimine kohapealsetes keskkondades
+          href: ../../dev-itpro/perf-test/perfsdk-tutorial-lbd.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Probleemide diagnoosimine ja jõudluse analüüsimine Trace Parseri abil
+          href: ../../dev-itpro/perf-test/trace-parser.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Jõudluse ajasti
+          href: ../../dev-itpro/perf-test/performance-timer.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Toe testimine Visual Studios
+      items:
+        - name: Testimine ja kinnitamine
+          href: ../../dev-itpro/perf-test/testing-validation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Testprojektid Visual Studios
+          href: ../../dev-itpro/perf-test/testing-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pideva koostamise ja testimise automaatikat toetavate keskkondade juurutamine
+          href: ../../dev-itpro/perf-test/continuous-build-test-automation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: SysTesti filtreerimine klassi- ja meetodiatribuutidega
+          href: ../../dev-itpro/perf-test/systest-filtering.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Vastuvõtutesti teek
+          items:
+            - name: Vastuvõtutesti teegi ressursid
+              href: ../../dev-itpro/perf-test/acceptance-test-library.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Navigeerimispaani põhimõtted
+              href: ../../dev-itpro/perf-test/concepts-navigation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Andmemeetodite test
+              href: ../../dev-itpro/perf-test/test-data-methods.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Üksused vastuvõtutestimise teegis
+              href: ../../dev-itpro/perf-test/concepts-entities.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Vastuvõtutesti teegi käsud
+              href: ../../dev-itpro/perf-test/concepts-commands.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Loojad vastuvõtutesti teegis
+              href: ../../dev-itpro/perf-test/concepts-creators.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Päringud vastuvõtutesti teegis
+              href: ../../dev-itpro/perf-test/concepts-queries.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Täpsustuse klassid
+              href: ../../dev-itpro/perf-test/concepts-specifications.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Vastuvõtutesti teegi koodiloomise viisard
+              href: ../../dev-itpro/perf-test/code-generation-wizard.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Vastuvõtutesti teegi parimad tavad
+              href: ../../dev-itpro/perf-test/atl-best-practices.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Korduma kippuvad küsimused
+              href: ../../dev-itpro/perf-test/atl-faq.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Kuupäeva jõustumine
+      href: ../../dev-itpro/dev-tools/date-effectivity.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: ISV litsentsimine
+      href: ../../dev-itpro/dev-tools/isv-licensing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: ISV asutusesisene litsentsimine
+      href: ../../dev-itpro/dev-tools/isv-licensing-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Isikuandmete kaitse üldmäärus (GDPR)
+  items:
+    - name: Isikuandmete kaitse üldmääruse ülevaade
+      href: ../../dev-itpro/gdpr/gdpr-guide.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: GDPR-i andmetaotlustele vastamine
+      items:
+        - name: GDPR-i andmetaotlustele vastamise ressursid
+          href: ../../dev-itpro/gdpr/gdpr-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Varade klassifikatsioonid
+          href: ../../dev-itpro/gdpr/gdpr-asset-classification-values.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Isikuotsingu aruanne
+          href: ../../dev-itpro/gdpr/gdpr-person-search-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Isikuotsingu aruande laiendamine
+          href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tundlike andmete juurdepääsu haldamine
+          href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Isikuandmete taotlustele vastamine Talenti abil
+          href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Isikuandmete taotlustele vastamine AX 2012-s
+          href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: GDPR-i andmetaotlused LCS-i jaoks
+          href: ../../dev-itpro/gdpr/gdpr-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Lifecycle Services
+  items:
+    - name: Teenuse Lifecycle Services ressursid
+      items:
+        - name: Teenuse Lifecycle Services ressursid
+          href: ../../dev-itpro/lifecycle-services/lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: LCS klientidele
+          href: ../../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: LCS partneritele
+          href: ../../dev-itpro/lifecycle-services/getting-started-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mis on uut?
+          href: ../../dev-itpro/lifecycle-services/whats-new-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Teadaolevad probleemid
+          href: ../../dev-itpro/lifecycle-services/known-issues.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Teenuse Lifecycle Services kasutusjuhend
+      href: ../../dev-itpro/lifecycle-services/lcs-user-guide.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tellimuskalkulaator
+      href: ../../dev-itpro/lifecycle-services/subscription-estimator.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Turbe konfigureerimine
+      href: ../../dev-itpro/lifecycle-services/configure-lcs-security.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Teema otsing
+      href: ../../dev-itpro/lifecycle-services/issue-search-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Konfiguratsioonihaldur
+      items:
+        - name: Konfiguratsioonihalduri ülevaade
+          href: ../../dev-itpro/lifecycle-services/configuration-manager-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Konfiguratsioonihalduri häälestamine
+          href: ../../dev-itpro/lifecycle-services/set-up-configuration-manager-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Koodiuuenduse teenuse konfigureerimine
+      href: ../../dev-itpro/lifecycle-services/configure-execute-code-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Metoodikate loomine või värskendamine
+      href: ../../dev-itpro/lifecycle-services/create-methodology.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Äriprotsesside modelleerija
+      href: ../../dev-itpro/lifecycle-services/bpm-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Äriprotsesside teegid äriprotsesside modelleerijas
+      href: ../../dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: 'Äriprotsesside modelleerija teekide loomine, redigeerimine ja sirvimine'
+      href: ../../dev-itpro/lifecycle-services/creating-editing-browsing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Ülesannete lõpuleviimine äriprotsesside modelleerijas
+      href: ../../dev-itpro/lifecycle-services/complete-tasks-bpm.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Aktiivsuse diagrammidega töötamine BPM-i teekides
+      href: ../../dev-itpro/lifecycle-services/using-activity-diagrams.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: BPM-i teekide sünkroonimine Azure DevOps’iga
+      href: ../../dev-itpro/lifecycle-services/synchronize-bpm-vsts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: 'Kasutaja vastuvõtu testimise teekide loomine, kasutades tegevuse juhiseid ja BPM-i'
+      href: ../../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Vooskeemid äriprotsesside modelleerijas
+      href: ../../dev-itpro/lifecycle-services/flowcharts-business-process-modeler.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Kohandatud äriprotsesside üleslaadimine äriprotsesside modelleerijasse
+      href: ../../dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Jälgimine ja diagnostika
+      href: ../../dev-itpro/lifecycle-services/monitoring-diagnostics.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Keskkonnateenuste taaskäivitamine
+      href: ../../dev-itpro/lifecycle-services/restart-environment-services.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tootmiskatkestusest teatamine
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Kasutaja sisselogimiste jälgimine
+      href: ../../dev-itpro/lifecycle-services/user-logins.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Varateek
+      href: ../../dev-itpro/lifecycle-services/asset-library.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: LCS-i tööriistade abil jõudluse tõrkeotsingu tegemine
+      href: ../../dev-itpro/lifecycle-services/performancetroubleshooting.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Päringu kokaraamat
+      href: ../../dev-itpro/lifecycle-services/querycookbook.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Microsoft Dynamics 365 Translation Service
+      items:
+        - name: Dynamics 365 Translation Service'i ülevaade
+          href: ../../dev-itpro/lifecycle-services/translation-service-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kasutajaliidese failide tõlkimine
+          href: ../../dev-itpro/lifecycle-services/use-translation-service.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Dokumentatsioonifailide tõlkimine
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-ua.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tõlkemälu failid
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-tm.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Mobiiliplatvorm
+  items:
+    - name: Mobiiliplatvormi ressursid
+      href: ../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Alustamine
+      items:
+        - name: Mobiiliplatvormi kasutamise alustamine
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-getting-started.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Arhitektuuri ja disainipõhimõtted
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-architecture.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Äriloogika sündmused
+          href: ../../dev-itpro/mobile-apps/platform/business-logic-events-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Lehekujunduse suunised
+          href: ../../dev-itpro/mobile-apps/platform/page-design-guidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tegevuse kujunduse suunised
+          href: ../../dev-itpro/mobile-apps/platform/action-design-guidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Vormi kujunduse nõuded
+          href: ../../dev-itpro/mobile-apps/platform/form-design-requirements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Üldised ülesanded
+      items:
+        - name: Tööruumide konfigureerimine SysAppWorkspace'i klassi abil
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/mobile-workspace-configuration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mobiilirakenduse lehtedel olevate väljade klõpsatavaks muutmine
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-workspace-field-clickable.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Arvude kuvamine väljadel
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/display-count-workspace.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mobiilsete tööruumide turbe abistamine
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/secure-mobile-workspace.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mobiilsete tööruumide lokaliseerimine
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/localize-workspaces-on-server.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Väljade muutmine kohustuslikuks tööruumi klasside abil
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-field-mandatory.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Serveripoolne arenduse viide
+      items:
+        - name: Serveripoolne arenduse viide (tööruumX++ API-d)
+          href: ../../dev-itpro/mobile-apps/platform/mobile-workspace-server-apis.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Kliendipoolne arenduse viide
+      items:
+        - name: Kliendipoolsed kujunduse API-d
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/client-api-design-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kliendi API-d
+          items:
+            - name: Kliendi API-de avaleht
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/client-apis-reference.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: PageState’i loetelu
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Rakendusemoodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-application.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Edasilükkamise moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/defer.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Sündmuse moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Juhtimise moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Konteineri moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Välja moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Faili üleslaadimisriista moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Grupi moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Hüperlingi moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Pildi moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Sisestusmoodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Loendi moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Otsingu moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Mitme valikuga otsingu moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Lehe moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-ipage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Pagelinki moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Osa moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Teenuste moodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-business-logic-services.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Väärtusmoodul
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Rakenduse tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ApplicationMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: AsyncService’i tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: CacheService’i tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: CompleteEventArgsi tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ContainerControli tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ContainerControlDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ContainerControlMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ControlMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: DataService’i tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Deferredi tüüp<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/defer-ideferred.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Designi tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: EventHooki tüüp<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Välja tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: FieldDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: FieldMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: FileUploaderi tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: FileUploaderDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: FileUploaderMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: GenericValue tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: getDataSource’i type
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Grupi tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: GroupDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: GroupMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: HyperLinki tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: HyperLinkDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: HyperLinkMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Pildi tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ImageDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ImageMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: InputControli tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: InputControlDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: InputControlMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Loendi tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ListDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ListMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Otsingu tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: LookupDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: LookupMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: MetadataService’i tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: MultiLookupi tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: MultiLookupDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: MultiLookupMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: NavigationArgsi tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: NumberSequenceConfigi tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Lehe tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: PageData tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: PageLinki tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: PageLinkDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: PageLinkMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: PageMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: PageOptionsi tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: PageSubmitArgsi tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: PageTargeti tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Parti tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: PartDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: PartMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Rea tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Väärtuse tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ValueDesigni tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: ValueMetadata tüüp
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Regression Suite Automation Tool
+  items:
+    - name: Regression Suite Automation Tooli ülevaade
+      href: ../../dev-itpro/perf-test/rsat/rsat-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Installimine ja konfigureerimine
+      href: ../../dev-itpro/perf-test/rsat/rsat-install-configure.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Andmete sõltumatu testimine tööriistaga Regression Suite Automation Tool
+      href: ../../fin-and-ops/get-started/recommendation-data-agnostic-testing-rsat.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Käitustestide juhtumid
+      href: ../../dev-itpro/perf-test/rsat/rsat-run.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Eeldatavate väärtuste valideerimine
+      href: ../../dev-itpro/perf-test/rsat/rsat-validate-expected.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Aheltestjuhtumid
+      href: ../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tuletatud testjuhtumid
+      href: ../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tööriista Regression Suite Automation Tool õppetüki kasutamine
+      href: ../../fin-and-ops/get-started/hol-use-regression-suite-automation-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Head tavad
+      href: ../../dev-itpro/perf-test/rsat/rsat-best-practices.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tõrkeotsing
+      href: ../../dev-itpro/perf-test/rsat/rsat-troubleshooting.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Lahenduste väljaandmine teenuse Lifecycle Services abil
+  items:
+    - name: Arendamine ja väljastamine
+      href: ../../dev-itpro/lcs-solutions/lcs-solutions-app-source.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Ajastamine ja avaldamine
+      href: ../../dev-itpro/lcs-solutions/marketing-content-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Metoodikate lisamine
+      href: ../../dev-itpro/lcs-solutions/methodologies-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Äriprotsesside modelleerija teekide seadistamine
+      href: ../../dev-itpro/lcs-solutions/business-process-modeler-libraries-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Koodi migreerimine
+      href: ../../dev-itpro/lcs-solutions/code-migration-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Avalduste kinnitamine
+      href: ../../dev-itpro/lcs-solutions/app-validation-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Andmepakettide töötlemine ja kasutamine
+      href: ../../dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Lahenduseandmebaaside varundamine
+      href: ../../dev-itpro/lcs-solutions/database-backup-lcs-solutions.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Lokaliseerimine ja regulatiivsed funktsioonid
+      items:
+        - name: Globaliseerimisressursid
+          href: ../../dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Lokaliseerimisfunktsioonide klassifikatsioon
+          href: ../../dev-itpro/lcs-solutions/classify-localization-features.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Riigi/regiooni konteksti rakendamine
+          href: ../../dev-itpro/lcs-solutions/apply-country-context.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Regulatiivne sertifikaadi teave funktsioonide pealkirjades
+          href: ../../dev-itpro/lcs-solutions/regulatory-certifications.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Regulatiivsed värskendused
+          href: ../../dev-itpro/lcs-solutions/regulatory-watch-communication.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Lokaliseerimismudelite eraldamine
+          href: ../../dev-itpro/lcs-solutions/separate-localization-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Regulatiivsete teatiste edastamine
+          href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Tugi
+  items:
+    - name: Rakenduste Finance and Operations ja Lifecycle Services tugi
+      href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Dynamics 365 toe ülevaade
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+    - name: 'Toe hankimine rakenduse Finance and Operations jaoks, mida käitab 21Vianet Hiinas'
+      href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Premier-tugiteenusepileti logimine
+      href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Taotluste esitamine Dynamicsi tehnikaosakonna meeskonnale
+      href: ../../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tehnilise toe seadistamine rakenduse Finance and Operations jaoks
+      href: ../../dev-itpro/lifecycle-services/support-experience.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Plaanitud hooldustöö aja KKK
+      href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Pilve toimingud ja hooldus
+      href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Finance and Operationsi tugikogemuste haldamine
+      href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Süsteemihaldus
+  items:
+    - name: Süsteemihalduse koduleht
+      href: ../../dev-itpro/sysadmin/system-administration-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Juriidilistele tingimuste ja privaatsusavalduse linkide lisamine
+      href: ../../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Litsentsikoodide ja konfiguratsioonivõtmete aruanne
+      href: ../../dev-itpro/sysadmin/license-codes-configuration-keys-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Kontsernisisene andmete ühiskasutus
+      href: ../../dev-itpro/sysadmin/cross-company-data-sharing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Hooldusrežiim
+      href: ../../dev-itpro/sysadmin/maintenance-mode.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Eelkonfigureeritud süsteemikontod
+      href: ../../dev-itpro/sysadmin/pre-configured-system-accounts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: B2B kasutajate eksportimine Azure AD-sse
+      href: ../../dev-itpro/sysadmin/implement-b2b.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Turve
+      items:
+        - name: Rollipõhine turve
+          href: ../../dev-itpro/sysadmin/role-based-security.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Turbearhitektuur
+          href: ../../dev-itpro/sysadmin/security-architecture.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Seansi jõudeoleku ajalõpu määramine
+          href: ../../dev-itpro/sysadmin/session-idle-timeout.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Valmisturbearuanded
+          href: ../../dev-itpro/sysadmin/security-reports.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Uute kasutajate loomine
+          href: ../../dev-itpro/sysadmin/tasks/create-new-users.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kasutajate hulgiimport
+          href: ../../dev-itpro/sysadmin/tasks/import-bulk-users.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kohustuste jagamise seadistamine
+          href: ../../dev-itpro/sysadmin/tasks/set-up-segregation-duties.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kohustuste jagamise konfliktide tuvastamine ja lahendamine
+          href: ../../dev-itpro/sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kasutajate määramine turberollidesse
+          href: ../../dev-itpro/sysadmin/tasks/assign-users-security-roles.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Pakktöötlus
+      items:
+        - name: Pakktöötluse ülevaade
+          href: ../../dev-itpro/sysadmin/batch-processing-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pakktöötlus ja partiiserverid
+          href: ../../dev-itpro/sysadmin/batch-server-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pakett-tööde loomine
+          href: ../../dev-itpro/sysadmin/tasks/create-batch-job.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pakett-töö kopeerimine
+          href: ../../dev-itpro/sysadmin/copy-batch-job.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Aktiivsed partiiperioodid
+          href: ../../dev-itpro/sysadmin/activeperiod.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Partii halduri turberoll
+          href: ../../dev-itpro/sysadmin/runby.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pakett-töö SQL-indeksi defragmentimise käsitsemiseks
+          href: ../../dev-itpro/sysadmin/batch-job-SQL-defragmentation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Partiiteatiste konfigureerimine
+          href: ../../dev-itpro/sysadmin/alerts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Täiustatud partiivormid
+          href: ../../dev-itpro/sysadmin/enhanced-forms.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Partii ajaloo puhastamine
+          href: ../../dev-itpro/sysadmin/batch-history-cleanup.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pakett-töö täitmise katkestamine
+          href: ../../dev-itpro/sysadmin/batch-abort.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Optimeerimisnõustaja
+      items:
+        - name: Nõustaja ülevaate optimeerimine
+          href: ../../dev-itpro/sysadmin/optimization-advisor-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Optimeerimisnõustaja reeglite loomine
+          href: ../../dev-itpro/sysadmin/create-rules-optimization-advisor.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tootmiskatkestusest teatamine
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: 'Täiendused, värskendused ja kiirparandused'
+  items:
+    - name: 'Täienduste, värskenduste ja kiirparanduste ressursid'
+      href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Üleminek versioonilt AX 2012
+      items:
+        - name: Versiooni AX 2012 täiendamine versioonile Finance and Operations
+          href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2012 täiendus – täienduse analüüsija tööriista kasutamine plaanimiseks
+          href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2012 täiendus – kooditäienduse teenuse kasutamine panuse hindamiseks
+          href: ../../dev-itpro/migration-upgrade/analyze-code-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2012 täiendus – demokeskkonna juurutamine analüüsimiseks
+          href: ../../dev-itpro/migration-upgrade/analysis-sandbox.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2012 täiendus – arenduskeskkondade andmete täiendamine
+          href: ../../dev-itpro/migration-upgrade/data-upgrade-2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2012 täiendus – täienduseelne kontroll-loend andmete täiendamiseks
+          href: ../../dev-itpro/migration-upgrade/prepare-data-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2012 täiendus – liivakastikeskkondade andmete täiendamine
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-sandbox.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2012 täiendus – ülemineku testimine
+          href: ../../dev-itpro/migration-upgrade/upgrade-cutover-testing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2012 täiendus – täiendamisjärgsed ülesanded
+          href: ../../dev-itpro/migration-upgrade/app-validation-process.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2012 täiendus – funktsionaaltestide sooritamised
+          href: ../../dev-itpro/migration-upgrade/upgrade-functional-validation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2012 täiendus – kasutuselevõtuks ettevalmistamine
+          href: ../../dev-itpro/migration-upgrade/upgrade-go-live-prep.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2012 täiendus – kasutuselevõtt
+          href: ../../dev-itpro/migration-upgrade/2012-upgrade-cutover.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Muudatused, mis mõjutavad täiendamist versioonilt AX 2012'
+          items:
+            - name: Kontoplaani eraldaja kordumatuks muutmine
+              href: ../../dev-itpro/migration-upgrade/chart-accounts-delimiter-unique.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Üksiku kande töölehtede ja valuuta ümberarvutamise täiendus
+              href: ../../dev-itpro/migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Projekti ressursi plaanimise andmemudel
+              href: ../../dev-itpro/migration-upgrade/data-model-changes-resource-management.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Töövoo alamsüsteemi muudatused
+              href: ../../dev-itpro/migration-upgrade/workflow-subsystem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Kuupide asemel liitmudelite kasutamine analüüsimiseks
+              href: ../../dev-itpro/migration-upgrade/in-memory-real-time-aggregate-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Täiendatud müügikuupide migreerimine üksusesalve
+              href: ../../dev-itpro/migration-upgrade/migrate-upgraded-cube-entity-store.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Eelarve plaanimise täiendamine
+              href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Andmete migreerimine versioonist AX 2009
+      items:
+        - name: Andmete migreerimine AX 2009-st rakendusse Finance and Operations
+          href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2009 migratsioon – andmemigratsiooni tööriista installimine
+          href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2009 migratsioon – kaartide koostamine
+          href: ../../dev-itpro/migration-upgrade/generate-maps.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2009 migratsioon – mallide loomine
+          href: ../../dev-itpro/migration-upgrade/create-package-templates-dmt.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2009 migratsioon – migratsioonigruppide loomine
+          href: ../../dev-itpro/migration-upgrade/create-definition.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2009 migratsioon – pakettide eksportimine
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-export-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: AX 2009 migratsioon – pakettide importimine
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-import-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Koodi migreerimine ja täiendamine
+      items:
+        - name: Koodi migreerimise ja täiendamise avaleht
+          href: ../../dev-itpro/migration-upgrade/code-migration-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Koodi migreerimise ettevalmistamine
+          href: ../../dev-itpro/migration-upgrade/prepare-migration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Azure DevOpsi vastenduse konfigureerimine
+          href: ../../dev-itpro/migration-upgrade/configure-vso-solution.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Mudeli tükeldamine
+          href: ../../dev-itpro/dev-tools/model-split.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Delegaatide abil mudelitevaheliste sõltuvuste lahendamine
+          href: ../../dev-itpro/migration-upgrade/delegates-migration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Uusimale värskendusele üleminek (pilv)
+      items:
+        - name: Uusima värskenduse kasutuselevõtmise protsess
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-update.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: One Versioni teed
+          items:
+            - name: Iseteeninduslik üleminek uusimale versioonile
+              href: ../../dev-itpro/migration-upgrade/self-service-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+            - name: Uuesti koostamine ja uusimale versioonile üleminek
+              href: ../../dev-itpro/migration-upgrade/appupdate-80-81.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tarkvara elutsükli poliitika ja pilveväljalasked
+          href: ../../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Uusima platvormivärskenduse rakendamine keskkondadele
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-platform-update.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Andmete täiendamine arendus- või demokeskkondades
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-to-latest-update.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Arendustööriistade värskendamine
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Plaanimine ja ettevalmistamine koodi kompileerimiseks uusima värskenduse järgi
+          href: ../../dev-itpro/migration-upgrade/compile-considerations.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Uusimale värskendusele täiendamine (asutusesisene)
+      items:
+        - name: Värskenduste rakendamine kohapealsetesse juurutamistesse
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Asutusesisese juurutuse uuesti juurutamine
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Asutusesisese versiooni 7.x täiendamine versioonile 8.1
+          href: ../../dev-itpro/migration-upgrade/on-prem-upgrade.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Kiirparandused
+      items:
+        - name: Värskendused teenusest Lifecycle Services
+          href: ../../dev-itpro/migration-upgrade/download-hotfix-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Värskenduste rakendamine pilvekeskkondadele
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Metaandmete kiirparanduste installimine arenduskeskkondades
+          href: ../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Aruandlusteenuse paikamine valmiskeskkondades
+          href: ../../dev-itpro/migration-upgrade/patch-reporting-service-environment.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Visual Studio arendustööriistade värskendamine
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Kulum
+      items:
+        - name: Eemaldatud või aegunud funktsioonid
+          href: ../../dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Meetodite ja metaandmeelementide aegumine
+          href: ../../dev-itpro/migration-upgrade/deprecation-deletion-apis.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Aegunud API-d
+          href: ../../dev-itpro/migration-upgrade/deprecated-apis.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+- name: Kasutajaliidese arendus
+  items:
+    - name: Kasutajaliidese arenduse avaleht
+      href: ../../dev-itpro/user-interface/user-interface-development-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Õppetükid
+      items:
+        - name: Renditasu tüübi vormi koostamine
+          href: ../../dev-itpro/user-interface/build-rental-charge-type-form.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kliendivormi koostamine
+          href: ../../dev-itpro/user-interface/build-customer-form.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Navigeerimise koostamine
+          href: ../../dev-itpro/user-interface/build-navigation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tööruumide koostamine
+          href: ../../dev-itpro/user-interface/build-workspace.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Vormid
+      items:
+        - name: Navigeerimispaani põhimõtted
+          href: ../../dev-itpro/user-interface/page-navigation.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Lehekülje paigutus veebikliendis
+          href: ../../dev-itpro/user-interface/page-layout.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Dynamicsi sümboli font
+          href: ../../dev-itpro/user-interface/symbol-font.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Salvestatud vaated
+          href: ../../fin-and-ops/get-started/saved-views.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Koostage vorme, mis täielikult kasutavad salvestatud vaateid'
+          href: ../../dev-itpro/user-interface/understanding-saved-views.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kohandatud mustreid kasutavate vormide testimine
+          href: ../../dev-itpro/user-interface/testing-forms-custom-patterns.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Jagatavate kaitstud URL-ide loomine (süvalingid)
+          href: ../../dev-itpro/user-interface/create-deep-links.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Vormide, toodete ja juhtelementide hõlbustatus'
+          href: ../../dev-itpro/user-interface/enable-accessibility.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Välja kirjelduste kohandamine
+          href: ../../dev-itpro/user-interface/customize-field-help.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Juhtelemendid
+      items:
+        - name: Tegevuste juhtelemendid
+          href: ../../dev-itpro/user-interface/action-controls.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Sisestuse juhtelemendid ja ruudustiku veerusuurused
+          href: ../../dev-itpro/user-interface/sizing-input-controls-grid-columns.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Puu juhtelementide märkeruudu tugi.
+          href: ../../dev-itpro/user-interface/check-box-tree-controls.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Filtreerimissuvandid
+          href: ../../dev-itpro/user-interface/filtering.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: PowerAppsi hosti juhtelement
+          href: ../../dev-itpro/user-interface/powerapps-host-control.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Akna haldus
+      items:
+        - name: Kontekstimenüü koodi migreerimine
+          href: ../../dev-itpro/migration-upgrade/code-migration-context-menus.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Topeltklõpsu loogika migreerimine
+          href: ../../dev-itpro/migration-upgrade/code-migration-double-click.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kontekstuaalne andmesisestus otsingute jaoks
+          href: ../../dev-itpro/user-interface/contextual-data-entry-lookups.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Hierarhia vaaturi juhtelement
+          href: ../../dev-itpro/user-interface/hierarchy-viewer-control.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Otsingu juhtelemendid
+          href: ../../dev-itpro/user-interface/lookups-controls.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Faili üleslaadimise juhtelement
+          href: ../../dev-itpro/user-interface/file-upload-control.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Süsteemi määratud nupud
+          href: ../../dev-itpro/user-interface/system-defined-buttons.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pildid leheküljel või ruudustikus
+          href: ../../dev-itpro/user-interface/images-form-grid.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Sisendi, tabeli ja ruudustiku juhtelementide fondi- ja taustavärvid'
+          href: ../../dev-itpro/user-interface/specify-color-font-background-controls.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Paremalt vasakule keeletugi ja kahesuunaline tekst
+          href: ../../dev-itpro/user-interface/bidirectional-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Ikoonide loomine tööruumi paanide jaoks
+          href: ../../dev-itpro/user-interface/create-icons-workspace-tiles.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: JavaScripti avalikud API-d laiendatavate juhtelementide jaoks
+          href: ../../dev-itpro/user-interface/public-javascript-apis.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kontroll-loendi kontrollimine
+          href: ../../dev-itpro/user-interface/control-checklist.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Sõnumid
+      items:
+        - name: Funktsioonide viiktekstid
+          href: ../../dev-itpro/user-interface/feature-callouts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Liugur ja teateakna dialoogid
+          href: ../../dev-itpro/user-interface/slider-messagebox.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Sõnumikeskuse, sõnumiriba ja sõnumi üksikasjade API'
+          href: ../../dev-itpro/user-interface/messaging-api-center-bar-details.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: 'Sõnumikeskuse, sõnumiriba ja sõnumi üksikasjade KKK'
+          href: ../../dev-itpro/user-interface/messaging-user.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Vormi mustrite juhised
+      items:
+        - name: Migreeritud vormide vormimustrid
+          href: ../../dev-itpro/user-interface/select-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Vormide laadid ja mustrid
+          href: ../../dev-itpro/user-interface/form-styles-patterns.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Vormimustreid toetavad Visual Studio lisandmoodulid
+          href: ../../dev-itpro/user-interface/form-pattern-add-ins.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Vormi mustrid
+      items:
+        - name: Vormi üldised juhised
+          href: ../../dev-itpro/user-interface/general-form-guidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Üksikasjade koondi vormi muster
+          href: ../../dev-itpro/user-interface/details-master-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Üksikasjade kande vormi muster
+          href: ../../dev-itpro/user-interface/details-transaction-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Vormiosa valikuloendi vormi mustrid
+          href: ../../dev-itpro/user-interface/section-list-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Loendilehe vormi muster
+          href: ../../dev-itpro/user-interface/list-page-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Lihtüksikasjade vormi muster
+          href: ../../dev-itpro/user-interface/simple-details-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Lihtloendi ja - üksikasjade vormi muster
+          href: ../../dev-itpro/user-interface/simple-list-details-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Lihtloendi vormi muster
+          href: ../../dev-itpro/user-interface/simple-list-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Sisukorra vormi muster
+          href: ../../dev-itpro/user-interface/table-of-contents-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kahekordse toimingu vormi muster
+          href: ../../dev-itpro/user-interface/task-double-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Ühekordse toimingu vormi muster
+          href: ../../dev-itpro/user-interface/task-single-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Viisardi vormi muster
+          href: ../../dev-itpro/user-interface/wizard-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tööruumi vormi muster
+          href: ../../dev-itpro/user-interface/workspace-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Teisesed vormi mustrid
+      items:
+        - name: Täpsema valiku vormi muster
+          href: ../../dev-itpro/user-interface/advanced-selection-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Dialoogi vormi muster
+          href: ../../dev-itpro/user-interface/dialog-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Dialoogi kustutamise vormi muster
+          href: ../../dev-itpro/user-interface/drop-dialog-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Otsingu vormi muster
+          href: ../../dev-itpro/user-interface/lookup-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kiirinfo vormi mustrid
+          href: ../../dev-itpro/user-interface/factbox-form-patterns.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Alammustrid
+      items:
+        - name: Kohandatud filtrigrupi alammuster
+          href: ../../dev-itpro/user-interface/custom-filter-group-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Dimensiooni kirje juhtelemendi alammuster
+          href: ../../dev-itpro/financial/dimension-entry-control-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Dimensiooni avaldiste koostaja juhtelemendi alammuster
+          href: ../../dev-itpro/financial/dimension-expression-builder-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Väljade ja väljagruppide alammuster
+          href: ../../dev-itpro/user-interface/fields-field-groups-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Filtrite ja tööristariba alammustrid
+          href: ../../dev-itpro/user-interface/filters-toolbar-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Täite teksti alammuster
+          href: ../../dev-itpro/user-interface/fill-text-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Horisontaalsete väljade ja nuppude grupi alammuster
+          href: ../../dev-itpro/user-interface/horizontal-fields-buttons-group-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pildi eelvaate alammuster
+          href: ../../dev-itpro/user-interface/image-preview-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Loendipaneeli alammuster
+          href: ../../dev-itpro/user-interface/list-panel-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Pesastatud lihtloendi ja üksikasjade alammuster
+          href: ../../dev-itpro/user-interface/nested-simple-list-details-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Jaotise Diagramm vormi muster
+          href: ../../dev-itpro/user-interface/section-chart-form-pattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Jaotise Power BI alammuster
+          href: ../../dev-itpro/user-interface/section-powerbi-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Jaotise Seotud lingid alammuster
+          href: ../../dev-itpro/user-interface/section-related-links-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Jaotise Virnastatud diagramm alammuster
+          href: ../../dev-itpro/user-interface/section-stacked-chart-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Jaotise Vahekaartidega loend alammuster
+          href: ../../dev-itpro/user-interface/section-tabbed-list-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Jaotise Paanid alammuster
+          href: ../../dev-itpro/user-interface/section-tiles-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tabelina esitatud väljade alammuster
+          href: ../../dev-itpro/user-interface/tabular-fields-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tööristariba ja väljade alammuster
+          href: ../../dev-itpro/user-interface/toolbar-fields-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tööristariba ja loendi alammuster
+          href: ../../dev-itpro/user-interface/toolbar-list-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tööruumi lehe filtrigrupi alammuster
+          href: ../../dev-itpro/user-interface/workspace-filter-group-subpattern.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Juhtelemendi laiendatavus
+      items:
+        - name: Laiendatavate juhtelementide loomine
+          href: ../../dev-itpro/user-interface/build-extensible-control.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Kiirklahvid laiendatud juhtelementide jaoks
+          href: ../../dev-itpro/user-interface/keyboard-shortcuts-controls.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Laiendatava juhtelemendi programmeerimisviide
+          href: ../../dev-itpro/user-interface/extensible-control-programming-reference.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Juhtelemendi laiendatavus
+          href: ../../dev-itpro/user-interface/control-extensibility.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Lokaliseeritavate siltide loomine
+          href: ../../dev-itpro/user-interface/create-localizable-labels-client.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Laiendatava juhtelemendi paigutuse juhised
+          href: ../../dev-itpro/user-interface/extensible-controls-layout.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tegevuse salvestaja poolt juhtelemendile loodud teksti juhtimine
+          href: ../../dev-itpro/user-interface/task-recorder-control-text.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tööruumide koostamine
+      items:
+        - name: Töötavate tööruumide koostamine
+          href: ../../dev-itpro/user-interface/build-workspaces.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Paani ja loendi vahemällu salvestamine tööruumide jaoks
+          href: ../../dev-itpro/user-interface/tile-list-caching-workspaces.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+    - name: Tegevuse salvestaja
+      items:
+        - name: Tegevuse salvestaja ressursid
+          href: ../../dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Tegevuse salvestaja kiirviide
+          href: ../../dev-itpro/user-interface/task-recorder-quick-reference.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
+        - name: Dokumentide või koolituse loomine tegevuse salvestiste abil
+          href: ../../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2276f5296a77d620e0084c0247b1e25071fe029
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: bb5255236fc48132d4d68dc6f515f32e7ec71dae
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865276"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248838"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Pakkumiskutsete ülevaade
 
@@ -48,16 +48,13 @@ Saate luua pakkumiskutse juhtumie plaanitud tellimustelt, ostutaotluselt või k�
 
 Kui olete pakkumiskutse ette valmistanud ja hankijad lisanud, valige pakkumiskutses **Saada** (**Saada ja avalda** avaliku sektori korral). Iga hankija kohta, kellele pakkumiskutse saadate, luuakse pakkumiskutse tööleht. Saate konfigureerida saatmistegevuse prindisuvandeid kas printima iga hankija kohta aruande arhiivi või saatma aruande iga hankija meiliaadressile. Peale selle saate iga hankija pakkumiskutse töölehe abil luua aruande, mille saate hankijale saata kohe või hiljem uuesti. Samuti saate konfigureerida saatmistegevuse nii, et see loob vastuselehe, mille hankija saab täita.
 
-Selles teemas käsitletakse pakkumiskutsete käsitlemise protsessi, kui hankija koostööd ei kasutata. Kui teie süsteem on seadistatud hankija koostöö kasutamiseks, saavad hankijad sisestada pakkumised otse rakenduses Microsoft Dynamics 365 for Finance and Operations. Lisateavet vt teemast [Hankija koostöö klientidega](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ja [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
+Selles teemas käsitletakse pakkumiskutsete käsitlemise protsessi, kui hankija koostööd ei kasutata. Kui teie süsteem on seadistatud hankija koostöö kasutamiseks, saavad hankijad sisestada pakkumised otse rakenduses Supply Chain Management. Lisateavet vt teemast [Hankija koostöö klientidega](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ja [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
 
 Kui peate pakkumiskutset pärast selle saatmist täiendama, saate valmis pakkumiskutse hankijatele uuesti saata, kasutades kaht täiendamistegevust: loomine ja lõpetamine.+
 
 Pakkumiste vastuvõtmisel meili teel saate neid pakkumisi käsitleda lehel **Pakkumiskutsed**.
 
 Kui nõutav on hankija vastuse teine iteratsioon, valige lehel **Pakkumiskutse** käsk **Tagasta**. Tagastustegevus loob uue töölehe ja aruande, mis prinditakse, arhiivitakse ja saadetakse teie prindisätete järgi.
-
-> [!NOTE]
-> Lehe **Pakkumiskutse** nimi on muutunud. Rakendus Dynamics 365 for Finance and Operations varasemates versioonides on selle lehe nimi **Pakkumiskutsete vastus**.
 
 Kui olete lisanud pakkumiskutse juhtumile hindamiskriteeriumid, on pakkumiskutsel hindamispaneel, kuhu saate punktisummad sisestada. Punktide kogusumma kuvatakse pakkumiskutsel, kui võrdlete vastuseid lehel **Vastuste võrdlemine**. Lehel **Võrdle vastuseid** saate ka võrrelda vastuse andmeid, nagu rea hind, tarnekuupäev ja koguhind.
 

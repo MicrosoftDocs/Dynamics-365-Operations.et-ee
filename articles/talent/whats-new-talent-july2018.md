@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (juuli 2018)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talent Core HR-i uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent - Core HR (juuli 2018)
+description: Selles teemas kirjeldatakse funktsioone, mis on kas uued või muutunud rakenduses Microsoft Dynamics 365 Talent - Core HR.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/31/2018
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: c0867fcf6203c303a700723d8c190378f495dac0
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: ba06183f32e9a788432bae640d1997f2ffb127f1
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856253"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010218"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (juuli 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-july-2018"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent: Core HR (juuli 2018)
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talent Core HR-i uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Microsoft Dynamics 365 Talent: Core HRi uusi või muutunud funktsioone.
 
 ## <a name="powerapps-personalization"></a>PowerAppsi isikupärastamine
 
-Microsoft Dynamics 365 for Talent toetab integratsiooni teenusega Microsoft PowerApps. PowerApps võimaldab nii arendajatel kui ka mittetehnilistel kasutajatel luua kohandatud ärirakendusi mobiiliseadmete, tahvelarvutite ja veebi jaoks ilma koodi kirjutamata. Rakendusi, mida teie, teie organisatsioon või laiem ettevõtete „ökosüsteem” PowerAppsi abil arendab, saab lisada rakenduse Talent klienti, et võimendada toote funktsionaalsust. Näiteks võite luua rakenduse, mis täiendab Talenti teisest süsteemist toodud teabega.
+Talent toetab integratsiooni teenusega Microsoft PowerApps. PowerApps võimaldab nii arendajatel kui ka mittetehnilistel kasutajatel luua kohandatud ärirakendusi mobiiliseadmete, tahvelarvutite ja veebi jaoks ilma koodi kirjutamata. Rakendusi, mida teie, teie organisatsioon või laiem ettevõtete „ökosüsteem” PowerAppsi abil arendab, saab lisada rakenduse Talent klienti, et võimendada toote funktsionaalsust. Näiteks võite luua rakenduse, mis täiendab Talenti teisest süsteemist toodud teabega.
 
 Lisateabe saamiseks vt [PowerAppsi rakenduste manustamine](../fin-and-ops/get-started/embed-power-apps.md).
 

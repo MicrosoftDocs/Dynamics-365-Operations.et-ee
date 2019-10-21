@@ -1,6 +1,6 @@
 ---
-title: Milline Microsoft Dynamics 365 for Talent - Attracti versioon?
-description: Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Talent - Attract eri versioonide võimalusi.
+title: Milline Microsoft Dynamics 365 Talent – Attracti versioon
+description: Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 Talent – Attract eri versioonide võimalusi.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739702"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009942"
 ---
 # <a name="which-version-of-attract"></a>Milline Attracti versioon?
 
 [!include[banner](../includes/banner.md)]
 
-See, milline rakenduse Microsoft Dynamics 365 for Talent: Attract versioon teile sobib, oleneb teie organisatsiooni suurusest ja vajadustest. Rakenduse Attract põhiversioonis on valik funktsioone, mis on mõeldud väiksematele töörühmadele või organisatsioonidele, kus peamine kasutaja on värbamisjuht. Rakenduse Attract põhiversiooni kasutamist saate alustada ühe või enama litsentsiga.
+See, milline rakenduse Microsoft Dynamics 365 Talent: Attract versioon teile sobib, oleneb teie organisatsiooni suurusest ja vajadustest. Rakenduse Attract põhiversioonis on valik funktsioone, mis on mõeldud väiksematele töörühmadele või organisatsioonidele, kus peamine kasutaja on värbamisjuht. Rakenduse Attract põhiversiooni kasutamist saate alustada ühe või enama litsentsiga.
 
 Tervikliku värbamise lisandmooduliga Attract on mõeldud keskmise suurusega või suurtele töörühmadele või organisatsioonidele, kus peamine kasutaja on värbaja või talendispetsialist. Tervikliku värbamise lisandmooduli jaoks peab ostma litsentsid [Microsoft Dynamics 365 partneri kaudu](https://dynamics.microsoft.com/partners/find-a-partner/).
 

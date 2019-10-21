@@ -1,6 +1,6 @@
 ---
 title: Kassa ekraanipaigutused
-description: Selles teemas käsitletakse Microsoft Dynamics 365 for Retaili kassa ekraanipaigutusi.
+description: Selles teemas käsitletakse Dynamics 365 Retaili kassa ekraanipaigutusi.
 author: jblucher
 manager: AnnBe
 ms.date: 05/20/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1607030"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025264"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Kassa ekraanipaigutused
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas käsitletakse Microsoft Dynamics 365 for Retaili kassa ekraanipaigutusi.
+Selles teemas käsitletakse Dynamics 365 Retaili kassa ekraanipaigutusi.
 
 Jaemüügikassa kasutajaliidest (UI) saab konfigureerida kauplustele, registritele ja/või kasutajatele määratud visuaalsete profiilide ja ekraanipaigutuste kombinatsiooni abil.
 
@@ -50,7 +50,7 @@ Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vah
 - **Kirjeldus** – saate määrata kirjeldava nime, mis aitab tuvastada teie olukorra jaoks sobiva profiili.
 - **Kujundus** – saate valida heleda või tumeda rakenduse kujunduse. Kujundus mõjutab kogu rakenduse fonti ja taustavärve.
 - **Rõhuvärv** – rõhuvärvi kasutatakse kogu kassas teatud visuaalsete elementide (nt paanide, käsunuppude ja hüperlinkide) eristamiseks või esiletõstmiseks. Tavaliselt eeldavad need elemendid kasutajatoimingut.
-- **Päise värv** – saate konfigureerida lehekülje päise värvi, et vastata jaemüüja kaubamärgi nõuetele. See funktsioon on saadaval ainult rakenduse Microsoft Dynamics 365 for Retail versioonis 1611.
+- **Päise värv** – saate konfigureerida lehekülje päise värvi, et vastata jaemüüja kaubamärgi nõuetele. See funktsioon on saadaval ainult rakenduse Retail versioonis 1611.
 - **Kuva kuupäev/kellaaeg** – kui see on lubatud, kuvatakse kassa päises praegune kuupäev ja kellaaeg.
 - **Sisselogimise taustad** – saate määrata sisselogimisekraani taustapildi. Taustapiltide failid peaksid olema võimalikult väikesed, sest suurte failide talletamine ja laadimine võib mõjutada rakenduse toimimist ja jõudlust.
 - **Rakenduse taust** – saate määrata taustpildi, mida kasutatakse kogu rakenduses ühevärvilise kujunduse asemel. Sisselogimise taustade failid peaksid olema võimalikult väikesed.

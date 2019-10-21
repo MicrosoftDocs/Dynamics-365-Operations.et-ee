@@ -1,2 +1,2 @@
 > [!NOTE]
-> See teema kehtib nii rakenduse Dynamics 365 for Finance and Operations kui ka Dynamics 365 for Retail kohta. 
+> See teema kehtib rakenduse Finance, teenuse Supply Chain Management ja rakenduse Retail kohta. 

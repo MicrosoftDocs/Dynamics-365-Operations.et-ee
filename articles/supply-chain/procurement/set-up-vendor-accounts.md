@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547671"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249384"
 ---
 # <a name="set-up-vendor-accounts"></a>Hankijakontode seadistamine
 
@@ -60,13 +60,13 @@ Saate talletada hankija kontaktid. Neid kontakte saab seejärel kasutada dokumen
 
 Hankija kontaktide lisamiseks klõpsake lehe **Kõik hankijad** vahekaardi **Grupis** grupis **Seadistus** klõpsake valikuid **Kontaktid** &gt; **Lisa kontaktid**.  
 
-Hankija kontaktid saate luua nullist. Teise võimalusena saate kopeerida üksikasjad teiselt isikult, kes juba on registreeritud Microsoft Dynamics 365 for Finance and Operationsis, ja redigeerida teavet vajadust mööda.  
+Hankija kontaktid saate luua nullist. Teise võimalusena saate kopeerida üksikasjad teiselt isikult, kes juba on registreeritud Supply Chain Managementis, ja redigeerida teavet vastavalt vajadusele.  
 
 **Märkus.** Hankija kontakti lisamine pole sama mis sellele hankijale kontaktiteabe lisamine. Kuigi võite lisada hankijale üldise kontaktiteabe, võib teil olla ka mitu teatud inimest, kes on selles ettevõttes kontaktid ja kellel kõigil on oma kontaktiteave.  
 
 Te ei saa kustutada kontaktiisiku kirjet, kui kontaktidel on dokumendis viidatud. Selle asemel saate kontakti inaktiveerida.  
 
-Rakenduses Microsoft Office 365 saate lisada isiklikele kontaktidele hankija kontakte. Siiski peate esmalt Microsoft Exchange Serveri sünkroonimise ja Microsoft Outlooki seadistusviisardis seadistama sünkroonimise rakenduste Finance and Operations ja Office 365 vahel.
+Rakenduses Microsoft Office 365 saate lisada isiklikele kontaktidele hankija kontakte. Siiski peate esmalt seadistama sünkroonimise rakenduste Supply Chain Management ja Office 365 vahel nii Microsoft Exchange Serveri sünrkoonimises kui ka Microsoft Outlooki seadistusviisardis.
 
 ## <a name="vendors-in-different-legal-entities"></a>Hankijad erinevates juriidilistes isikutes
 Kui hankija on registreeritud teie organisatsioonis ainult ühele juriidilisele isikule ja teised juriidilised isikud peavad registreerima sama hankija, saate kasutada lehte **Lisa hankija teise juriidilisse isikusse**, et konfigureerida hankija tegema äri teise juriidilise isikuga. Peate valima hankija grupi, valuuta ja hoidma hankija olekut valitud juriidilises isikus.  

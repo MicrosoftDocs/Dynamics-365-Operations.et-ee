@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570384"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248922"
 ---
 # <a name="purchase-agreements"></a>Ostulepingud
 
@@ -78,7 +78,7 @@ Kui kinnitate ostulepingu, salvestatakse ostulepingu praegune versioon ajalootab
 Ostutellimuse koostamisel saate sellele ostulepingu rakendada. Lepingu tingimustest pärinev teave (nt maksetingimused, tarnetingimused ja tarneaadress) kopeeritakse siis ostutellimuse päisesse. Kui ostutellimus sisaldab vähemalt ühte rida ostulepingus määratud toodete ja kategooriate kohta, kasutatakse nende ridade puhul ostulepingu hindu ja allahindlusi. Tellimuse real olev summa või kogus panustab ostulepingu kohustuse täitmisse. Sama ostutellimus võib sisaldada mõlemat rida, mis ei ole seotud ostulepinguga ja ridadega, millel on ostulepingu kohustus.  
 
 Saate valida ostulepingu ainult ostutellimuse loomisel. Pärast ostutellimuse loomist ei saa ostulepingut valida.  
-Mõnes olukorras, kus ostutellimused luuakse kaudselt, saate määrata, kas Finance and Operations otsib kehtivaid ostulepinguid automaatselt. Näiteks võiksite seda teha, kui kinnitate automaatselt plaanitud ostutellimusi või loote ostutellimusi, mis põhinevad müügitellimustel.
+Mõnes olukorras, kus ostutellimused luuakse kaudselt, saate määrata, kas Supply Chain Management otsib kehtivaid ostulepinguid automaatselt. Näiteks võiksite seda teha, kui kinnitate automaatselt plaanitud ostutellimusi või loote ostutellimusi, mis põhinevad müügitellimustel.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Ostulepingud ja kontsernisisene kaubandus
 Kontsernisiseseid kaubandussuhteid saab luua erinevates juriidilistes isikutes olevate hankija kontode ja kliendi kontode vahel. Kui ühele osapoolele luuakse müügi- või ostutellimus, luuakse kontsernisisene tellimusahel. Tellimusahelas luuakse müügi- ja ostutellimus sobivates juriidilistes isikutes.  

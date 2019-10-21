@@ -1,6 +1,6 @@
 ---
-title: Rakenduse Field Service lepingu arvete sünkroonimine vabas vormis arvetega rakenduses Finance and Operations
-description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse lepinguarvete sünkroonimiseks rakendusest Microsoft Dynamics 365 for Field Service vabas vormis arvetega rakenduses Microsoft Dynamics 365 for Finance and Operations.
+title: Sünkroonige leppe arved rakenduses Field Service vabas vormis arveteks rakenduses Supply Chain Management
+description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse lepinguarvete sünkroonimiseks rakendusest Dynamics 365 Field Service vabas vormis arveteks rakenduses Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
@@ -19,46 +19,46 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ca0014dc8bc1c70670a3cf85527eee0ef44865f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560159"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249861"
 ---
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Rakenduse Field Service lepinguarvete sünkroonimine rakenduse Finance and Operations vabas vormis arvetega
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sünkroonige leppe arved rakenduses Field Service vabas vormis arveteks rakenduses Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse lepinguarvete sünkroonimiseks rakendusest Microsoft Dynamics 365 for Field Service vabas vormis arvetega rakenduses Microsoft Dynamics 365 for Finance and Operations.
+Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse lepinguarvete sünkroonimiseks rakendusest Dynamics 365 Field Service vabas vormis arvetega rakenduses Dynamics 365 Supply Chain Management.
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 
-Rakenduse Field Service lepingu arvete sünkroonimiseks vabas vormis arvetega rakenduses Finance and Operations kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
+Rakenduse Field Service lepingu arvete sünkroonimiseks vabas vormis arvetega rakenduses Supply Chain Management kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
 
 **Malli nimi andmete integratsioonis:**
 
-- Lepingu arved (Field Service’ist Fin and Opsi)
+- Leppe arved (rakendus Field Service rakendusele Supply Chain Management)
 
-**Ülesannete nimed andmete integratsiooni projektis.**
+**Ülesannete nimed andmete integratsiooni projektis**
 
 - Arve päised
 - Arve read
 
 Enne lepingu arvete sünkroonimist on nõutav järgmine sünkroonimine.
 
-- Kontod (Salesist Fin and Opsi) – otse
+- Kontod (Salesist Supply Chain Managementi) – otsene
 
 ## <a name="entity-set"></a>Üksuste komplekt
 
-| Field Service  | Finance and Operations                 |
+| Field Service  | Supply Chain Management                 |
 |----------------|----------------------------------------|
 | arved       | CDS-i kliendi vabas vormis arve päised |
 | invoicedetails | CDS-i kliendi vabas vormis arve read   |
 
 ## <a name="entity-flow"></a>Üksuse voog
 
-Field Service’i lepingu arveid saab teenuse Common Data Service (CDS) andmeintegratsiooni projekti kaudu sünkroonida rakendusega Finance and Operations. Nende arvete värskendused sünkroonitakse rakenduses Finance and Operations vabas vormis arvetega, kui vabas vormis arvete raamatupidamisolek on **Pooleli**. Pärast vabas vormis arvete sisestamist rakenduses Finance and Operations värskendatakse raamatupidamisolekuks **Lõpetatud**, mis tähendab, et enam ei saa sünkroonida värskendusi rakendusest Field Service.
+Field Service’i leppe arveid saab teenuse Common Data Service andmeintegratsiooni projekti kaudu sünkroonida rakendusega Supply Chain Management. Nende arvete värskendused sünkroonitakse rakenduses Supply Chain Management vabas vormis arvetega, kui vabas vormis arvete raamatupidamisolek on **Pooleli**. Pärast vabas vormis arvete sisestamist rakenduses Supply Chain Management värskendatakse raamatupidamisolekuks **Lõpetatud**, mis tähendab, et enam ei saa sünkroonida värskendusi rakendusest Field Service.
 
 ## <a name="field-service-crm-solution"></a>Rakenduse Field Service CRM lahendus
 
@@ -66,18 +66,18 @@ Olemile **Arve** on lisatud väli **Lepingust pärinevate ridadega**. See väli 
 
 Olemile **Arve rida** on lisatud väli **Lepingust pärinevate ridadega**. See väli aitab tagada, et sünkroonitakse ainult lepingust loodud arve read. Väärtus on **tõene**, kui arve rida pärineb lepingust.
 
-**Arve kuupäev** on kohustuslik väli rakenduses Finance and Operations. Seetõttu peab väljal rakenduses Field Service enne sünkroonimist olema väärtus. Selle nõudega kooskõlla viimiseks lisatakse järgmine loogika.
+**Arve kuupäev** on kohustuslik väli rakenduses Supply Chain Management. Seetõttu peab väljal rakenduses Field Service enne sünkroonimist olema väärtus. Selle nõudega kooskõlla viimiseks lisatakse järgmine loogika.
 
 - Kui väli **Arve kuupäev** on olemil **Arve** tühi (st kui sel puudub väärtus), seatakse selleks tänane kuupäev, kui lisatakse lepingust pärinev arve rida.
 - Kasutaja saab välja **Arve kuupäev** muuta. Ent kui kasutaja üritab lepingu arvet salvestada, saab ta äriprotsessi tõrke, kui arvel on väli **Arve kuupäev** tühi.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
 
-### <a name="in-finance-and-operations"></a>Rakenduses Finance and Operations
+### <a name="in-supply-chain-management"></a>Rakenduses Supply Chain Management
 
-Integreerimiseks tuleb seadistada arve päritolu, et eristada vabas vormis arveid rakenduses Finance and Operations, mis on loodud lepingu arvetest rakenduses Field Service. Kui arve päritolutüüp on **Lepingu arve integratsioon**, kuvatakse **müügiarve** päises väli **Välise arve number** .
+Integreerimiseks tuleb seadistada arve päritolu, et eristada vabas vormis arveid rakenduses Supply Chain Management, mis on loodud lepingu arvetest rakenduses Field Service. Kui arve päritolutüüp on **Lepingu arve integratsioon**, kuvatakse **müügiarve** päises väli **Välise arve number** .
 
-Lisaks arve päises kuvamisele, saab **välise arve numbri** teavet kasutada, aitamaks tagada, et rakenduse Field Service lepingu arvete põhjal loodud arved filtreeritakse rakenduse Finance and Operations sünkroonimisel rakendusega Field Service välja.
+Lisaks arve päises kuvamisele, saab **Välise arve numbri** teavet kasutada, aitamaks tagada, et rakenduse Field Service lepingu arvete põhjal loodud arved filtreeritakse rakenduse Supply Chain Management sünkroonimisel rakendusega Field Service välja.
 
 1. Avage **Müügireskontro** \> **Seadistus** \> **Arve päritolukoodid**.
 2. Uue arve päritolu loomiseks valige **Uus**.
@@ -91,7 +91,7 @@ Lisaks arve päises kuvamisele, saab **välise arve numbri** teavet kasutada, ai
 
 Ülesanne: **Arve read**  
 
-Veenduge, et välja **Põhikonto kuvatav väärtus** vaikeväärtus rakenduses Finance and Operations värskendatakse soovitud väärtusega sobivaks.
+Veenduge, et välja **Põhikonto kuvatav väärtus** vaikeväärtus rakenduses Supply Chain Management värskendatakse soovitud väärtusega sobivaks.
 
 Malli vaikeväärtus on **401100**.
 
@@ -99,10 +99,10 @@ Malli vaikeväärtus on **401100**.
 
 Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 
-### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-headers"></a>Lepingu arved (Field Service’ist Fin and Opsi): arve päised
+### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>Leppe arved (rakendus Field Service rakendusele Supply Chain Management): arve päised
 
 [![Malli vastendamine andmete integratsioonis](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
-### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Lepingu arved (Field Service’ist Fin and Opsi): arve read
+### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Leppe arved (rakendus Field Service rakendusele Supply Chain Management): arve read
 
 [![Malli vastendamine andmete integratsioonis](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)

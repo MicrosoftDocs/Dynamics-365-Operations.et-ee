@@ -1,6 +1,6 @@
 ---
 title: Arve tasumise stsenaariumide seadistamine
-description: Selles teemas kirjeldatakse, kuidas konfigureerida rakendust Dynamics 365 for Retail, et see toetaks arve maksetega seotud erinevaid stsenaariume.
+description: Selles teemas kirjeldatakse, kuidas konfigureerida rakendust Dynamics 365 Retail, et see toetaks arve maksetega seotud erinevaid stsenaariume.
 author: josaw1
 manager: AnnBe
 ms.date: 11/14/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb9101843396e489e4d7b63879e9df35e52fe64
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564966"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018009"
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>Arve tasumise stsenaariumide seadistamine
 
 [!include [banner](includes/banner.md)]
 
-Arve maksmise funktsiooni rakenduses Dynamics 365 for Retail on laiendatud, et see toetaks järgmist.
+Arve maksmise funktsiooni rakenduses Dynamics 365 Retail on laiendatud, et see toetaks järgmist.
 
 - Mitme müügitellimuse arve tasumine ühe kassakandega.
 - Mitme kliendiarve tüübi makse, sh vabas vormis arved, projektipõhised arved ja kreeditarved.

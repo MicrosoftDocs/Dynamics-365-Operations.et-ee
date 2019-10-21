@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (17. september 2018)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talent Core HR-i uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent Core HR (17. september 2018)
+description: Selles teemas kirjeldatakse funktsioone, mis on kas uued või muutunud rakenduses Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 558c2cdb4addce54af937ff862535d65f1ebd602
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517828"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026022"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (17. september 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-17-2018"></a>Mis on Dynamics 365 Talent: Core HR-is uut või mida on muudetud (17. september 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -37,13 +37,13 @@ Teema kirjeldab funktsioone, mis on Core HR-is kas uued või muudetud.
 
 Puhkuseplaanidele on lisatud uus arvestustüüp. Nüüd saab arvestuse planeerimisel aluseks võtta töötatud kuud või töötunnid. Lisateavet vt teemast [Töötundidel põhinev kumulatiivne puhkuseaeg](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18"></a>Platvormivärskendus update 18
+## <a name="platform-update-18-for-finance-and-operations"></a>Finance and Operationsi 18. platvormi värskendus
 
-Platvormivärskendus 18 on nüüd Talenti väljaande osa. 
+Finance and Operationsi platvormivärskendus 18 on nüüd Talenti väljaande osa. 
 
 -   Kohustuslikud ja muud väljad saab peita isikupärastamise kaudu. See võimaldab kasutajal hõlbustada viisi, kus äriloogikaga vaikimisi täidetud kohustuslikke välju ei kuvata. Peidetud kohustuslikud väljad saab ka ajutiselt nähtavaks teha, kui need on salvestamisel tühjad.
 
--   Platvormivärskenduses 18 on Talenti veebikliendi visuaalsed elemendid nüüd kooskõlas Microsofti ühtse kujundusega.
+-   Finance and Operationsi platvormivärskenduses 18 on Talenti veebikliendi visuaalsed elemendid nüüd kooskõlas Microsofti ühtse kujundusega.
 
     -   Kui väljad on kirjutuskaitstud režiimis, saate lihtsalt valida väljade redigeerimissuvandi, et lülituda redigeerimisvormile.
 

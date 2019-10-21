@@ -1,6 +1,6 @@
 ---
 title: Allhanketöö haldamine tootmises
-description: Selles teemas selgitatakse, kuidas hallatakse Microsoft Dynamics 365 for Finance and Operationsis allhanketööd. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
+description: Selles teemas selgitatakse, kuidas hallatakse Dynamics 365 Supply Chain Managementis allhanketööd. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ea2feccf9f74c0f035b8a46dc87eb41bdf85900a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569749"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023537"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Allhanketöö haldamine tootmises
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas hallatakse Microsoft Dynamics 365 for Finance and Operationsis allhanketööd. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
+Selles teemas selgitatakse, kuidas hallatakse Dynamics 365 Supply Chain Managementis allhanketööd. Teisisõnu selgitab see, kuidas hankija haldab ressursile määratud tootmisoperatsioone.
 
 [Tootmisprotsessides](production-process-overview.md) võivad tööd teha ressursid, mille omanikud on või mida haldavad hankijad. Tavaliselt kasutatakse hankija ressursse perioodilise liigse nõudluse tasakaalustamiseks, kui see ületab ettevõtte oma ressursside mahtu. Võib-olla saab hankija pakkuda ka konkreetseid [ressursivõimalusi](resource-capabilities.md)või ressursse madalama hinnaga.  
 
@@ -40,7 +40,7 @@ Kui kasutatakse allhankeoperatsioone või -tegevusi, siis mõjutavad need kõiki
 
 Sisemiste ressursside puhul eraldatakse teatud perioodiks tavaliselt kindel kulumäär. Seevastu allhankeressursside maksumus põhineb seotud teenuse ostuhinnal. Teenus määratletakse teise tootena ja seda kasutatakse antud allhangitud operatsiooni hanke- ning ostuprotsesside juhtimiseks.  
 
-Praegu ei ole Microsoft Dynamics 365 for Finance and Operationsis sõnaselget pooltoodete mõistet. Tootmistellimuse puhul, mis nõuab tooraine valmiskaubaks muutmiseks mitut operatsiooni, sisestatakse valmistoode varudesse tagasi alles viimases toimingus. Varasemate operatsioonide käigus saadud pooltooted registreeritakse poolelioleva tööna (WIP), kuid neid ei sisestata ega jälgita varudes. Kuigi võite protsessid ja kooslused mitmeks väiksemaks üksuseks jagada, suurendab see lähenemine hallatavate toodete, koosluste ja protsesside arvu.  
+Praegu ei ole Supply Chain Managementis sõnaselget pooltoodete mõistet. Tootmistellimuse puhul, mis nõuab tooraine valmiskaubaks muutmiseks mitut operatsiooni, sisestatakse valmistoode varudesse tagasi alles viimases toimingus. Varasemate operatsioonide käigus saadud pooltooted registreeritakse poolelioleva tööna (WIP), kuid neid ei sisestata ega jälgita varudes. Kuigi võite protsessid ja kooslused mitmeks väiksemaks üksuseks jagada, suurendab see lähenemine hallatavate toodete, koosluste ja protsesside arvu.  
 
 Allhanketöö modelleerimiseks tootmisoperatsioonide jaoks on kaks meetodit. Need meetodid erinevad selle poolest, kuidas allhankeprotsessi saab modelleerida, kuidas pooltooteid protsessis kajastatakse ja kuidas toimub kuluhaldus.
 

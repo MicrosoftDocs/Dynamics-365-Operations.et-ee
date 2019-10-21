@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (23. jaanuar 2019)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talent Core HR-i uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent Core HR (23. jaanuar 2019)
+description: Selles teemas kirjeldatakse funktsioone, mis on kas uued või muutunud rakenduses Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 01/23/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4e492095d5269ec81c0c22145b7af356937c256b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: f1983d5a58fb2e6b1984727e1d7b44803b94cdce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742512"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023972"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-23-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (23. jaanuar 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-january-23-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent: Core HR (23. jaanuar 2019)
 
 [!include [banner](includes/banner.md)]
 
@@ -53,5 +53,5 @@ Ametikoha töö muutmisel on töö väljad ametikoha vaikeväärtused. Kuvatakse
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>Katseaega ja kalendrit ei kuvata tulevikus palgatavate töövõtjate puhul.
 Selle muudatusega on väljad **Katseaeg** ja **Kalender** lisatud lehele **Muudatuste haldamine**, et võimaldada andmete sisestamist tulevaste ja olemasolevate töövõtjate puhul.
 
-### <a name="platform-update-23"></a>Platvormivärskendus update 23
-Platvormivärskenduse 23 osana on tehtud väiksemaid veaparandusi. Lisateavet vt teemast [Mis on uut või mida on muudetud rakenduse Dynamics 365 for Finance and Operations platvormivärskenduses 23 (jaanuar 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+### <a name="platform-update-23-for-finance-and-operations"></a>Finance and Operationsi 23. platvormi värskendus
+Finance and Operationsi platvormivärskenduse 23 osana on tehtud väiksemaid veaparandusi. Lisateavet vt teemast [Mis on uut või mida on muudetud rakenduse Dynamics 365 Finance and Operations platvormivärskenduses 23 (jaanuar 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 449a1f574cd32860cbdc2e43f21be1d3d692768f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553549"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025098"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Kupongide seadistamine jaemüügi jaoks
 
@@ -37,10 +37,10 @@ Iga kupong on seotud ühe jaeallahindlusega. Allahindlusega seotud hinnagrupid m
 
 Põhimõtteliselt on kupongid jaeallahindlustele lisanduv kinnitus. Kupongil on vajalikud kupongi koodid ja vöötkoodid, millel on nende koodide kuupäevavahemikud. Kupongil on ka valikulised kasutuspiirid ja kliendile vajalikud atribuudid. Allahindlus annab toodete kogumi, millele kupong kehtib. Allahindluse hinnagrupid annavad klientide kogumi, kanalid või kataloogid, millele kupong kehtib.
 
-Kupongi loomiseks tuleb luua allahindlus ja kupong eraldi. Seejärel tuleb need siduda, valides rakenduses Microsoft Dynamics 365 for Retail kupongi lehel allahindluse.
+Kupongi loomiseks tuleb luua allahindlus ja kupong eraldi. Seejärel tuleb need siduda, valides rakenduses Retail kupongi lehel allahindluse.
 
 > [!NOTE]
-> Kui kupong on allahindlusega lingitud, muutub rakenduses Microsoft Dynamics 365 for Retail mitu allahindluse välja kirjutuskaitstuks, kuna neid hallatakse kupongi sätetega. Nende väljade hulka kuuluvad oleku ja standardsete kuupäevavahemike väljad.
+> Kui kupong on allahindlusega lingitud, muutub rakenduses Retail mitu allahindluse välja kirjutuskaitstuks, kuna neid hallatakse kupongi sätetega. Nende väljade hulka kuuluvad oleku ja standardsete kuupäevavahemike väljad.
 
 ### <a name="limited-use-coupons"></a>Piiratud kasutusega kupongid
 
@@ -75,7 +75,7 @@ Enne kupongi seadistamist tuleb seadistada kupongi vöötkood ja kaks kupongi nu
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Kupongide osalise uuendamise mõju
 
-Kupongi funktsioon hõlmab Dynamics 365 for Retailis mitut eraldi funktsiooni. Microsoft Dynamics 365 for Retail Headquartersit (HQ) ja kanalit saab komponentide lõikes osaliselt värskendada. Seetõttu on oluline mõista, kuidas osalised uuendused kupongi funktsiooni tervikuna mõjutavad.
+Kupongi funktsioon hõlmab mitut eraldi funktsiooni. Dynamics 365 Retail Headquartersit (HQ) ja kanalit saab komponentide lõikes osaliselt värskendada. Seetõttu on oluline mõista, kuidas osalised uuendused kupongi funktsiooni tervikuna mõjutavad.
 
 - **HQ-d uuendatakse osaliselt, kuid Retaili serverit ja kassat ei uuendata.** HQ uuendamisel uuendatakse kupongi ja allahindluse lehti ning jaemüügi hinnamootorit uuendatakse samuti. Kui uuendada ainult ühte neist kahest komponendist, ei vasta mõned Retaili lehed hinna arvutamise andmetele. Seetõttu võib allahindluse arvutamisel ilmneda ootamatuid allahindluse arvutusi või tõrkeid.
 - **HQ-d uuendatakse, kuid Retaili serverit ja kassat ei uuendata (N-1).** Kuna kõiki jaekauplusi ei saa korraga uuendada, siis soovitame enne jaekaupluste uuendamist HQ-d uuendada. Stsenaariumi N-1 puhul ei ole kupongidega seotud uued funktsioonid saadaval kauplustes, mida pole veel uuendatud. Näiteks pakub kupongi funktsioon ridade „väljajätmist”. Kui kasutate allahindlusel ridade väljajätmist, siis ei rakendata neid varasemat versiooni kasutavas jaekaupluses.

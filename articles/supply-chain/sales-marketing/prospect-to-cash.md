@@ -1,6 +1,6 @@
 ---
 title: Potentsiaalne klient sularahaks
-description: Selles teemas antakse ülevaade lahendusest Potentsiaalne klient sularahaks rakenduste Microsoft Dynamics 365 for Finance and Operations, ja Microsoft Dynamics 365 for Sales vahel.
+description: Selles teemas antakse ülevaade lahendusest Prospect to cash rakenduste Dynamics 365 Supply Chain Management ja Dynamics 365 Sales vahel.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/25/2018
@@ -19,31 +19,31 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: e31994ea3cd73dcc749a02ce2cd0815be191a567
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742397"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251349"
 ---
 # <a name="prospect-to-cash"></a>Potentsiaalne klient sularahaks
 
 [!include [banner](../includes/banner.md)]
 
-Lahendus Potentsiaalne klient sularahaks võimaldab otsest sünkroonimist rakenduste Dynamics 365 for Finance and Operations ja Dynamics 365 for Sales vahel. Andmete integratsiooniga saadaolevad lahenduse Potentsiaalne klient sularahaks mallid võimaldavad kontode, kontaktide, toodete, müügipakkumiste, müügitellimuste ja müügiarvete andmete liikumist rakenduste Finance, Operations ja Sales vahel. Andmete edastamise ajal rakenduste Finance and Operations ja Sales vahel saate teha Salesis müügi- ja turundustegevusi ning täita Finance and Operationsis varude halduse abil tellimusi. 
+Lahendus Prospect to cash võimaldab otsest sünkroonimist rakenduste Dynamics 365 Supply Chain Management ja Dynamics 365 Sales vahel. Andmete integratsiooniga saadaolevad lahenduse Prospect to cash mallid võimaldavad kontode, kontaktide, toodete, müügipakkumiste, müügitellimuste ja müügiarvete andmete liikumist. Andmete edastamise ajal saate teha Salesis müügi- ja turundustegevusi ning täita Supply Chain Managementis varude halduse abil tellimusi. 
 
 Lisateabe saamiseks lahenduse Potentsiaalne klient sularahaks kohta vaadake YouTube’i lühivideot: [Lahenduse Potentsiaalne klient sularahaks integreerimine](https://www.youtube.com/watch?v=AVV9x5x-XCg).
 
 Lahenduse Potentsiaalne klient sularahaks praegune versioon pakub vahetu sünkroonimise järgmisi tüüpe.
 
-- [Kontode haldamine rakenduses Sales ja nende sünkroonimine rakendusest Sales rakendusega Finance and Operations.](accounts-template-mapping-direct.md)
-- [Toodete haldamine rakenduses Finance and Operations ja nende vahetu sünkroonimine rakendusega Sales](products-template-mapping-direct.md)
-- [Kontaktide haldamine rakenduses Sales ja nende vahetu sünkroonimine rakenduse Finance and Operations kontaktide või klientidega](contacts-template-mapping-direct.md)
-- [Rakenduse Sales müügipakkumise vahetu sünkroonimine rakendusega Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
-- [Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel](sales-order-template-mapping-direct-two-ways.md)
-- [Müügiarve vahetu sünkroonimine rakendusest Finance and Operations rakendusega Sales](sales-invoice-template-mapping-direct.md)
+- [Kontode haldamine rakenduses Sales ja nende sünkroonimine rakendusest Sales rakendusega Supply Chain Management.](accounts-template-mapping-direct.md)
+- [Toodete haldamine rakenduses Supply Chain Management ja nende sünkroonimine otse rakendusega Sales](products-template-mapping-direct.md)
+- [Kontaktide haldamine rakenduses Sales ja nende vahetu sünkroonimine rakenduse Supply Chain Managements kontaktide või klientidega](contacts-template-mapping-direct.md)
+- [Pakkumiste vahetu sünkroonimine rakendusest Sales Supply Chain Managementiga](sales-quotation-template-mapping-sales-fin.md)
+- [Müügitellimuste vahetu sünkroonimine Sales ja Supply Chain Managementi vahel](sales-order-template-mapping-direct-two-ways.md)
+- [Müügiarve vahetu sünkroonimine rakendusest Supply Chain Management rakendusega Sales](sales-invoice-template-mapping-direct.md)
 
-## <a name="system-requirements-for-finance-and-operations"></a>Rakenduse Finance and Operations süsteeminõuded
+## <a name="system-requirements-for-supply-chain-management"></a>Süsteemi nõuded rakendusele Supply Chain Management
 Lahendust Potentsiaalne klient sularahaks toetatakse järgmistel versioonidel.
 
 ### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (detsember 2017)
@@ -55,9 +55,9 @@ Lahendust Potentsiaalne klient sularahaks toetatakse järgmistel versioonidel.
 - Dynamics 365 for Finance and Operations, Enterprise Edition (juuli 2017) – platvormivärskendusega 8 (rakenduse järk 7.2.11792.56024 platvormijärguga 7.0.4565.16212).
 - Nõutavad on järgmised kiirparandused.
 
-  - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – see kiirparandus võimaldab müügitellimuse sünkroonimist rakendusest Sales rakendusse Finance and Operations andmete integratsiooni funktsiooni kaudu. See pakub ka mitmesuguseid muid täiustusi.
-  - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – see kiirparandus võimaldab müügitellimuse rea sünkroonimist rakendusest Finance and Operations rakendusse Sales andmete integratsiooni funktsiooni kaudu.
-  - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – see kiirparandus võimaldab müügitellimuse sünkroonimist rakendusest Finance and Operations rakendusse Sales andmete integratsiooni funktsiooni kaudu.
+  - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – see kiirparandus võimaldab müügitellimuse sünkroonimist rakendusest Sales rakendusse Supply Chain Management andmete integratsiooni funktsiooni kaudu. See pakub ka mitmesuguseid muid täiustusi.
+  - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – see kiirparandus võimaldab müügitellimuse sünkroonimist rakendusest Supply Chain Management rakendusse Sales andmete integratsiooni funktsiooni kaudu.
+  - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – see kiirparandus võimaldab müügitellimuse sünkroonimist rakendusest Supply Chain Management rakendusse Sales andmete integratsiooni funktsiooni kaudu.
 
     > [!NOTE]
     > KB4045570 tuleb installida ainult sellepärast, et installifail sisaldab muudatusi muudest kiirparandustest. 
@@ -68,8 +68,8 @@ Lahendust Potentsiaalne klient sularahaks toetatakse järgmistel versioonidel.
 
 - Nõutavad on järgmised kiirparandused.
 
-  - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** – müügitellimuse sünkroonimine andmete integraatori abil rakendusest Finance and Operations rakendusse Sales. 
-  - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** – müügitellimuse päise ja ridade sünkroonimine andmete integraatori abil rakendusest Finance and Operations rakendusse Sales.
+  - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** – müügitellimuse sünkroonimine andmete integraatori abil rakendusest Supply Chain Management rakendusse Sales. 
+  - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** – müügitellimuse sünkroonimine andmete integraatori abil rakendusest Supply Chain Management rakendusse Sales.
   - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** – vajalik on tugi lahenduse Potentsiaalne klient sularahaks integreerimiseks andmeüksuste kaudu.
     
     > [!NOTE]
@@ -80,5 +80,5 @@ Lahendust Potentsiaalne klient sularahaks toetatakse järgmistel versioonidel.
 
 Lahenduse Potentsiaalne klient sularahaks kasutamiseks tuleb installida järgmised komponendid.
 
-- Rakenduse Dynamics 365 for Sales versioon 1612 (8.2.1.207) (DB 8.2.1.207) veebiversioon või uuem versioon
-- Lahendus Potentsiaalne klient sularahaks rakenduse Dynamics 365 for Sales versioonile 1.15.0.0 või uuemale. Lahendus on allalaadimiseks saadaval AppSource’is. [Lahenduse Dynamics 365, Potentsiaalne klient sularahaks allalaadimine](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+- Rakenduse Dynamics 365 Sales versiooni 1612 (8.2.1.207) (DB 8.2.1.207) veebiversioon või hilisem versioon
+- Lahendus Prospect to cash (P2C) rakendusele Dynamics 365, versioon 1.15.0.0 või hilisem versioon. Lahendus on allalaadimiseks saadaval AppSource’is. [Lahenduse Dynamics 365, Potentsiaalne klient sularahaks allalaadimine](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).

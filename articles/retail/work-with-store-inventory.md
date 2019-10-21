@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 551a8408aa730bc1916f1c57b7cfd773966ce8bf
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c5da94e02b2381bbd058221567172cd428931c45
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606799"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024679"
 ---
 # <a name="store-inventory-management"></a>Kaupluse varude haldamine
 
 [!include [banner](includes/banner.md)]
 
-Töötades varudega rakenduses Dynamics 365 for Retail ja kasutades kassarakendust, on oluline märkida, et kassa pakub piiratud tuge varude dimensioonidele ja teatud laokaubatüüpidele.
+Töötades varudega rakenduses Dynamics 365 Retail ja kasutades kassarakendust, on oluline märkida, et kassa pakub piiratud tuge varude dimensioonidele ja teatud laokaubatüüpidele.
 
 Kassalahendus ei toeta järgmiste kaupade konfiguratsioone.
 
@@ -56,7 +56,7 @@ Kassalahendus pakub piiratud tuge järgmistele dimensioonidele. Piiratud tugi t�
 
 ## <a name="purchase-orders"></a>Ostutellimused
 
-Ostutellimused koostatakse peakontoris. Kui ostutellimuse päisesse on kaasatud jaemüügiladu, saab tellimust vastu võtta kaupluses, kasutades rakenduses Modern POS-i (MPOS) või pilvekassat rakenduses Microsoft Dynamics 365 for Retail toimingu **Komplekteerimine ja vastuvõtmine** kaudu. Pärast seda, kui laos vastuvõetud kogused sisestatakse ostutellimuse dokumendi jaoks kassas väljale **Saa kohe**, saab neid salvestada kohalikult või kooskõlastatult. Selle teabe salvestamisel kohalikult eil ole mõju laovarule. Salvestamine peaks toimuma ainult juhul, kui kasutaja ei ole valmis sissetulekut sisestama HQ-sse ja vajab lihtsalt võimalust eelnevalt sisestatud andmed **Saa kohe** ajutiselt talletada. See salvestab nüüd andmed kohalikult kasutaja kanali andmebaasi. Pärast dokumendi töötlemist, kasutades suvandit **Kinnita**,saadetakse andmed **Saa kohe** HQ-sse ja ostutellimuse sissetulek sisestatakse. 
+Ostutellimused koostatakse peakontoris. Kui ostutellimuse päisesse on kaasatud jaemüügiladu, saab tellimust vastu võtta kaupluses, kasutades rakenduses Modern POS-i (MPOS) või pilvekassat toimingu **Komplekteerimine ja vastuvõtmine** kaudu. Pärast seda, kui laos vastuvõetud kogused sisestatakse ostutellimuse dokumendi jaoks kassas väljale **Saa kohe**, saab neid salvestada kohalikult või kooskõlastatult. Selle teabe salvestamisel kohalikult eil ole mõju laovarule. Salvestamine peaks toimuma ainult juhul, kui kasutaja ei ole valmis sissetulekut sisestama HQ-sse ja vajab lihtsalt võimalust eelnevalt sisestatud andmed **Saa kohe** ajutiselt talletada. See salvestab nüüd andmed kohalikult kasutaja kanali andmebaasi. Pärast dokumendi töötlemist, kasutades suvandit **Kinnita**,saadetakse andmed **Saa kohe** HQ-sse ja ostutellimuse sissetulek sisestatakse. 
 
 ## <a name="transfer-orders"></a>Üleviimistellimused
 

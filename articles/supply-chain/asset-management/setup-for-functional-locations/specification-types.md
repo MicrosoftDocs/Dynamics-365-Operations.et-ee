@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b3247f693f5934b3fbf83b7b831c7ed221514cb
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 067d1085d9afa04cb76b78393a8a8b9834ce4d8c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783202"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250940"
 ---
 # <a name="maintenance-attribute-types"></a>Hoolduse atribuudi tüübid
 
@@ -42,10 +42,10 @@ Seadistatavad atribuudid erinevad vastavalt elemendile. Näiteks saate funktsion
 
 ## <a name="create-attribute-types"></a>Atribuudi tüüpide loomine
 
-Saate luua oma atribuudi tüüpe. Lisaks saate edastada tootedimensioone rakendusest Microsoft Dynamics 365 for Finance and Operations lehele **Atribuudi tüübid**.
+Saate luua oma atribuudi tüüpe. Lisaks saate edastada tootedimensioone rakendusest lehele **Atribuudi tüübid**.
 
 1. Valige **Varahaldus**\>**Häälestus**\>**Atribuudi tüübid**.
-2. Esimesel korral kui atribuudi tüüpe seadistate, valige **Tootedimensioonide loomine**, et edastada automaatselt standardsed rakenduse Finance and Operations tootedimensioonid.
+2. Esimesel korral kui atribuudi tüüpe seadistate, valige **Tootedimensioonide loomine**, et edastada automaatselt standardsed tootedimensioonid.
 3. Valige uue atribuudi tüübi loomiseks **Uus**.
 4. Väljale **Atribuudi tüüp** sisestage atribuudi tüübi nimi.
 5. Väljale **Kirjeldus** sisestage kirjeldus.

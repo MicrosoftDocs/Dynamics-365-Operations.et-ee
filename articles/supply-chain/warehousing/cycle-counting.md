@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560653"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251519"
 ---
 # <a name="cycle-counting"></a>Tsükliline inventuur
 
@@ -34,7 +34,7 @@ See artikkel kirjeldab, kuidas kasutada tsüklilist inventuuri laohalduse moodul
 Tsükliline inventuur on laoprotsess, mida saate kaupade laovaru kontrollimiseks kasutada. Tsüklilise inventuuri protsessi saab kirjeldada kolme etapina.
 
 1.  **Tsüklilise inventuuri töö loomine** – tsüklilise inventuuri töö saab luua automaatselt, tuginedes kaupade läveparameetritele või kasutades tsüklilise inventuuri plaani. Teine võimalus on luua tsüklilise inventuuri töö käsitsi, kasutades lehel **Tsüklilise inventuuri töö kauba alusel** või lehel **Tsüklilise inventuuri töö asukoha alusel** olevaid kauba või lao parameetrid.
-2.  **Tsüklilise inventuuri töötlemine** – pärast tsüklilise inventuuri töö loomist saab teha tsüklilise inventuuri töö, loendades lao asukohas olevad kaubad ja sisestades tulemuse mobiilse seadme abil Microsoft Dynamics 365 for Finance and Operationsisse. Teise võimalusena saate lugeda kaupu lao asukohas, tsüklilise inventuuri tööd loomata. Seda protsessi nimetatakse *punkttsükliliseks inventuuriks*.
+2.  **Tsüklilise inventuuri töötlemine** – pärast tsüklilise inventuuri töö loomist saab teha tsüklilise inventuuri töö, loendades lao asukohas olevad kaubad ja sisestades tulemuse mobiilse seadme abil Dynamics 365 Supply Chain Managementisse. Teise võimalusena saate lugeda kaupu lao asukohas, tsüklilise inventuuri tööd loomata. Seda protsessi nimetatakse *punkttsükliliseks inventuuriks*.
 3.  **Tsüklilise inventuuri väärtuse erinevuse lahendamine** – pärast tsüklilist inventuuri on vormil **Kogu töö** kaupadel, mille inventuuri käigus saadud väärtuses on erinevusi, tööolek **Ülevaatuse ootel**. Need erinevused saab lahendada lehel **Ülevaatuse ootel tsüklilise inventuuri töö**.
 
 Järgmine illustratsioon näitab tsüklilise inventuuri protsessi. ![Tsüklilise inventuuri protsessivoog](./media/performcyclecountinginawarehouselocation.jpg)
@@ -113,10 +113,10 @@ Saate ajastada tsüklilise inventuuri plaane tsüklilise inventuuri töö loomis
 Tsüklilise inventuuri töö loomiseks käsitsi võite kasutada lehte **Tsükliline inventuur kauba alusel** või **Tsükliline inventuur asukoha alusel**. Saate määrata loodavate tsükliliste inventuuride maksimumarvu. Näiteks kui laojuhataja määrab väärtuse **5**, luuakse tsüklilise inventuuri töö viiele asukohale, isegi kui kaup on 10-s asukohas olemas. Saate valida ka töökausta ID, kuhu loodavate tsüklilise inventuuri tööde ID-d määratakse. Töökausta ID töötlemisel tsüklilise inventuuri jaoks töödeldakse sellesse töökausta määratud tsüklilise inventuuri tööde ID-d grupina.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Tsüklilise inventuuri läbiviimine mobiilse seadmega
-Tsüklilise inventuuri töö tegemiseks mobiilses seadmes on Finance and Operationsis mitu võimalust.
+Tsüklilise inventuuri töö tegemiseks mobiilses seadmes on Supply Chain Managementis mitu võimalust.
 
 -   **Kasutaja juhitud** – töötaja saab määrata tsüklilise inventuuri töö ID, mille olek on **Avatud**.
--   **Süsteemi juhitud** – Finance and Operations määrab töötajale tsüklilise inventuuri töö ID.
+-   **Süsteemi juhitud** – Supply Chain Management määrab töötajale tsüklilise inventuuri töö ID.
 -   **Tsüklilise inventuuri rühmitamine** – töötaja saab rühmitada teatud asukoha, tsooni või töökausta tsüklilise inventuuri töö ID-d.
 -   **Punkttsükliline inventuur** – valikuline: töötaja saab loendada kaupu lao asukohas igal ajal, tsüklilise inventuuri tööd loomata, sisestades asukoha ID. Punkttsüklilise inventuuri läbiviimiseks asukohas sisestab töötaja asukoha ID.
 

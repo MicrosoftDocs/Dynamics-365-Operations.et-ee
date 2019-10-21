@@ -1,6 +1,6 @@
 ---
 title: Püsikliendi ülevaade
-description: Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Retail püsikliendi võimalusi ja vastavaid seadistusetappe, mis aitavad jaemüüjal hõlpsasti oma püsikliendiprogrammiga algust teha.
+description: Selles teemas kirjeldatakse rakenduse Dynamics 365 Retail püsikliendi võimalusi ja vastavaid seadistusetappe, mis aitavad jaemüüjal hõlpsasti oma püsikliendiprogrammiga algust teha.
 author: scott-tucker
 manager: AnnBe
 ms.date: 03/08/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c2a2347abddf03ed884dcfe68f645fde84c092a
-ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
+ms.openlocfilehash: 9fbb5d6db16e2e145c4970b5dd6417d9e99f78b2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1863768"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250963"
 ---
 # <a name="loyalty-overview"></a>Püsikliendi ülevaade
 
 [!include [banner](includes/banner.md)]
 
-Püsikliendiprogrammid aitavad suurendada klientide lojaalsust, premeerides kliente teie Retaileri kaubamärgiga suhtlemise eest. Rakenduses Microsoft Dynamics 365 for Retail saate seadistada lihtsaid või keerulisi püsikliendiprogramme, mis kehtivad kõikide teie juriidiliste isikute kõikides jaemüügikanalites. Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 for Retail püsikliendi võimalusi ja vastavaid seadistusetappe, mis aitavad jaemüüjal hõlpsasti oma püsikliendiprogrammiga algust teha.
+Püsikliendiprogrammid aitavad suurendada klientide lojaalsust, premeerides kliente teie Retaileri kaubamärgiga suhtlemise eest. Rakenduses Dynamics 365 Retail saate seadistada lihtsaid või keerulisi püsikliendiprogramme, mis kehtivad kõikide teie juriidiliste isikute kõikides jaemüügikanalites. Selles teemas kirjeldatakse rakenduse Retail püsikliendi võimalusi ja vastavaid seadistusetappe, mis aitavad jaemüüjal hõlpsasti oma püsikliendiprogrammiga algust teha.
 
 Saate seadistada püsikliendiprogrammi nii, et see hõlmaks järgmisi valikuid.
 
@@ -42,7 +42,7 @@ Saate seadistada püsikliendiprogrammi nii, et see hõlmaks järgmisi valikuid.
 
 ## <a name="setting-up-loyalty-programs"></a>Püsikliendiprogrammide seadistamine
 
-Püsikliendifunktsiooni võimaldamiseks rakenduses Dynamics 365 for Retail peate seadistama mitu komponenti. Järgmisel joonisel on kujutatud püsikliendiprogrammi komponendid ja nende omavahelised seosed.
+Püsikliendifunktsiooni võimaldamiseks rakenduses Retail peate seadistama mitu komponenti. Järgmisel joonisel on kujutatud püsikliendiprogrammi komponendid ja nende omavahelised seosed.
 
 ![Püsikliendiprogrammi seadistuse protsessivoog](./media/loyaltyprocess.gif "Püsikliendiprogrammi komponendid ja nende omavahelised seosed")
 
@@ -69,9 +69,9 @@ Järgmises tabelis kirjeldatakse protsesse, mida tuleb käitada, et saata püsik
 
 | Protsessi nimi                         | Kirjeldus | Lehe nimi |
 |--------------------------------------|-------------|-----------|
-| 1050 (püsikliendi teave)           | Käitage seda protsessi, et saata püsikliendiprogrammi konfigureerimise andmed rakendusest Dynamics 365 for Retail jaekauplustesse. Soovitatav on ajastada see protsess sageli käivituma, et püsikliendiandmed edastataks kõigisse kauplustesse. | Jaotusgraafik |
+| 1050 (püsikliendi teave)           | Käitage seda protsessi, et saata püsikliendiprogrammi konfigureerimise andmed rakendusest Retail jaekauplustesse. Soovitatav on ajastada see protsess sageli käivituma, et püsikliendiandmed edastataks kõigisse kauplustesse. | Jaotusgraafik |
 | Boonusskeemide töötlemine              | Käitage seda protsessi, et seostada püsikliendiskeemid jaemüügikanalitega, millele püsikliendiskeem määratud on. Seda protsessi saab käitada pakktöötlusena. Peate seda protsessi käitama, kui muudate püsikliendi konfiguratsiooniandmeid, nagu püsikliendiskeemid, püsikliendiprogrammid või püsikliendi preemiapunktid. | Boonusskeemide töötlemine |
-| Töötle võrguühenduseta boonuskandeid | Käitage seda protsessi, et värskendada kliendikaarte kaasamaks neisse võrguühenduseta töödeldud kandeid. See protsess rakendub ainult siis, kui lehel **Jaemüügi ühisparameetrid** on märgitud ruut **Teeni võrguühenduseta**, et preemiaid saaks teenida ka võrguühenduseta. | Töötle võrguühenduseta boonuskandeid |
+| Sisesta teenitud püsikliendiprogrammi punktid partiidena | Käitage seda protsessi, et värskendada kliendikaarte kaasamaks neisse võrguühenduseta töödeldud kandeid. See protsess rakendub ainult siis, kui lehel **Jaemüügi ühisparameetrid** on märgitud ruut **Sisesta teenitud punktid partiidena**, et preemiaid saaks teenida ka võrguühenduseta. | Sisesta teenitud püsikliendiprogrammi punktid partiidena |
 | Uuenda kliendikaartide järke            | Käitage seda protsessi, et hinnata kliendi teenimisaktiivsust püsikliendiprogrammi järgureeglite suhtes ja värskendada kliendi järgu olekut. See protsess on nõutav ainult siis, kui muudate püsikliendiprogrammide järgureegleid ja soovite, et värskendatud reeglid kehtiksid tagasiulatuvalt juba väljastatud kliendikaartide puhul. Seda protsessi saab käitada pakktöötlusena või üksikute kaartide puhul. | Uuenda kliendikaartide järke |
 
 ## <a name="loyalty-enhancements"></a>Püsikliendiprogrammi täiustused
@@ -89,7 +89,7 @@ Rakendusel Retail on osana 2018. aasta oktoobri väljaandest uus püsikliendipro
 
     ![Välistatud alluvused](./media/Excluded-affiliations.png "Välistab alluvusi boonuspunkte teenimast")
     
-- Jaemüüjad saavad luua kanalites kliendikaardi numbreid. Enne 2018. aasta oktoobri värskendust said jaemüüjad kliendikaartide loomiseks kasutada füüsilisi kliendikaarte ja kordumatut klienditeavet nt telefoninumbrit. Kliendikaartide automaatseks loomiseks kauplusteks lülitage kauplusega seotud funktsiooniprofiilil sisse **Kliendikaardi numbri loomine**. Võrgukanalites saavad jaemüüjad kasutada IssueLoyaltyCard API-t, et klientidele kliendikaarte väljastada. Jaemüüjad saavad sellele API-le anda kliendikaardi numbri, mida kasutatakse kliendikaardi loomiseks, või kasutab süsteem kliendikaardi numbriseeriat rakenduses Dynamics 365 for Retail. Kuid kui numbriseeriat ei ole ja jaemüüja ei sisesta API-t kutsudes kliendikaardi numbrit, kuvatakse tõrge.
+- Jaemüüjad saavad luua kanalites kliendikaardi numbreid. Enne 2018. aasta oktoobri värskendust said jaemüüjad kliendikaartide loomiseks kasutada füüsilisi kliendikaarte ja kordumatut klienditeavet nt telefoninumbrit. Kliendikaartide automaatseks loomiseks kauplusteks lülitage kauplusega seotud funktsiooniprofiilil sisse **Kliendikaardi numbri loomine**. Võrgukanalites saavad jaemüüjad kasutada IssueLoyaltyCard API-t, et klientidele kliendikaarte väljastada. Jaemüüjad saavad sellele API-le anda kliendikaardi numbri, mida kasutatakse kliendikaardi loomiseks, või kasutab süsteem kliendikaardi numbriseeriat rakenduses Retail. Kuid kui numbriseeriat ei ole ja jaemüüja ei sisesta API-t kutsudes kliendikaardi numbrit, kuvatakse tõrge.
 
     ![Loo kliendikaarti](./media/Generate-loyalty-card.png "Looge automaatselt kliendikaardi number")
 
@@ -137,7 +137,7 @@ Rakendusel Retail on osana 2018. aasta oktoobri väljaandest uus püsikliendipro
     - Arusaamine, et on toimunud tegevus, mille eest tuleb määrata preemiapunktid.
     - Asjakohaste punktide andmine.
 
-    Esimene etapp toimub rakendusest Microsoft Dynamics 365 for Retail väljaspool, näiteks kaubamärgist säutsumine või kaubamärgi Facebookis meeldivaks märkimine. Kui tegevus on tuvastatud, saavad jaemüüjad kutsuda ülalnimetatud jaemüügiserveri API ja määrata boonuspunktid reaalajas. Sellistel juhtudel pole ülevaatusetapp vajalik, kuna tegevus on toimunud ja vastavad punktid tuleb määrata. Esineb aga ka stsenaariume, mille puhul jaemüüja soovib kirjed enne punktide määramist üle vaadata. Näiteks on jaemüüja korraldanud kaupluses töötoa, mille puhul kliendid registreeruvad e-poe veebisaidil või muu sündmuste registreerimise rakenduse kaudu. Boonuspunkte teenivad aga ainult osalevad kliendid. Selliste stsenaariumide puhul võtsime versioonis 10.0 kasutusele andmeüksuse nimega **Jaemüügi püsikliendi tegevusetüübi read**. See andmeüksus võimaldab jaemüüjatel kasutada kas andmete impordi/ekspordi raamistikku (DIXF) või OData API-t registreerimaks tegevusi, mille puhul määratakse klientidele boonuspunkte. Andmeüksus talletab tegevused töölehele **Püsikliendi muude tegevuste read**, mida saab kasutada ülevaatamiseks ja muutmiseks. Kui andmed on üle vaadatud, saab IT-kasutaja tegevuseread kas käsitsi sisestada või käivitada töö nimega **Muu tegevusetüübi töötlemine püsikliendi ridade puhul**, mis sisestab kõik sisestamata tegevuseread ja määrab klientidele teenimisreeglite põhjal punktid. Ülaltoodud stsenaariumi puhul kutsub sündmuse registreerimise rakendus OData API, et saata kliendi teave rakendusse Dynamics 365 for Retail. IT-kasutaja saab siiski sisestada tegevuseread ainult nende klientide kohta, kes osalesid töötoas, ja kustutada tegevuseread teiste klientide puhul. 
+    Esimene etapp toimub rakendusest Retial väljaspool, näiteks kaubamärgist säutsumine või kaubamärgi Facebookis meeldivaks märkimine. Kui tegevus on tuvastatud, saavad jaemüüjad kutsuda ülalnimetatud jaemüügiserveri API ja määrata boonuspunktid reaalajas. Sellistel juhtudel pole ülevaatusetapp vajalik, kuna tegevus on toimunud ja vastavad punktid tuleb määrata. Esineb aga ka stsenaariume, mille puhul jaemüüja soovib kirjed enne punktide määramist üle vaadata. Näiteks on jaemüüja korraldanud kaupluses töötoa, mille puhul kliendid registreeruvad e-poe veebisaidil või muu sündmuste registreerimise rakenduse kaudu. Boonuspunkte teenivad aga ainult osalevad kliendid. Selliste stsenaariumide puhul võtsime versioonis 10.0 kasutusele andmeüksuse nimega **Jaemüügi püsikliendi tegevusetüübi read**. See andmeüksus võimaldab jaemüüjatel kasutada kas andmete impordi/ekspordi raamistikku (DIXF) või OData API-t registreerimaks tegevusi, mille puhul määratakse klientidele boonuspunkte. Andmeüksus talletab tegevused töölehele **Püsikliendi muude tegevuste read**, mida saab kasutada ülevaatamiseks ja muutmiseks. Kui andmed on üle vaadatud, saab IT-kasutaja tegevuseread kas käsitsi sisestada või käivitada töö nimega **Muu tegevusetüübi töötlemine püsikliendi ridade puhul**, mis sisestab kõik sisestamata tegevuseread ja määrab klientidele teenimisreeglite põhjal punktid. Ülaltoodud stsenaariumi puhul kutsub sündmuse registreerimise rakendus OData API, et saata kliendi teave rakendusse Dynamics 365 Retail. IT-kasutaja saab siiski sisestada tegevuseread ainult nende klientide kohta, kes osalesid töötoas, ja kustutada tegevuseread teiste klientide puhul. 
 
     > [!NOTE]
     > Praegu sunnib süsteem kasutajaid seadistama muude tegevusetüüpide kohta numbriseeria, kuid see pole tulevastes väljaannetes vajalik etapp. Numbriseeria seadistamiseks minge jaotisse **Jaemüügi ühisparameetrid** \> **Numbriseeriad** ja valige numbriseeria suvandile **Püsikliendi muu tegevusetüübi ID**.

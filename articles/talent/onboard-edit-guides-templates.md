@@ -1,6 +1,6 @@
 ---
-title: Sisseelamisjuhendite ja mallide redigeerimine rakenduses Dynamics 365 for Talent - Onboard
-description: See teema selgitab, kuidas lisada Microsoftis sisseelamisjuhendite ja mallide jaoks tegevusi ja muud teavet rakenduses Dynamics 365 for Talent - Onboard.
+title: 'Sisseelamisjuhendite ja mallide redigeerimine rakenduses Dynamics 365 Talent: Onboard'
+description: 'See teema selgitab, kuidas lisada Microsoftis sisseelamisjuhendite ja mallide jaoks tegevusi ja muud teavet rakenduses Dynamics 365 Talent: Onboard.'
 author: andreabichsel
 manager: ''
 ms.date: 06/19/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68afc5d789d1f4af67cd2ec73eb0e073efad0761
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 7803c7cd2c58b8544d2c8dd711c295d6882f9fca
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864389"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010794"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-for-talent-onboard"></a>Sisseelamisjuhendite ja mallide redigeerimine rakenduses Dynamics 365 for Talent: Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>Sisseelamisjuhendite ja mallide redigeerimine
 
 [!include [banner](includes/banner.md)]
 
-Pärast seda, kui olete Microsoftis Dynamics 365 for Talent: Onboard käivitanud juhendi või malli, tuleb teil lisada sissejuhatus, tegevused, kontaktid ja ressursid. Onboard võimaldab teil lisada rikkalikku sisu sisseelamisjuhenditesse, sealhulgas:
+Pärast seda, kui olete Microsoftis Dynamics 365 Talent: Onboard käivitanud juhendi või malli, tuleb teil lisada sissejuhatus, tegevused, kontaktid ja ressursid. Onboard võimaldab teil lisada rikkalikku sisu sisseelamisjuhenditesse, sealhulgas:
 
 - YouTube'i videod
 - Microsoft Sway esitlusi
@@ -124,7 +124,7 @@ Muudatustele vajutamine:
 
     - YouTube'i video lisamiseks lohistage **YouTube**'i üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning sisestage YouTube'i video URL.
     - Sway esitluse või infolehe lisamiseks lohistage **Sway** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning sisestage Sway esitluse või infolehe varjatud URL.
-    - PowerApps rakenduse lisamiseks lohistage **PowerApps** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning valige kas PowerApps rakendus või sisestage PowerApps rakenduse ID.
+    - PowerAppsi rakenduse lisamiseks lohistage **PowerAppsi** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning valige kas PowerAppsi rakendus või sisestage PowerAppsi rakenduse ID.
     - Microsoft Streami video lisamiseks lohistage **Microsoft Stream**i üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning sisestage Microsoft Streami video URL.
     - Microsofti vormide vormi lisamiseks lohistage **Microsoft Forms** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus, sisestage vormi Microsoft Forms URL ja määrake ekraani ala suurus.
     - Veebisisu sisaldava iframe'i lisamiseks lohistage **Veebisisu (iframe)** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus, sisestage veebisisu URL ja määrake ekraani ala suurus.

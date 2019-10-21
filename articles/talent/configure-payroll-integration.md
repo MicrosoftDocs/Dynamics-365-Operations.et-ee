@@ -1,6 +1,6 @@
 ---
 title: Rakenduste Talent ja Dayforce vahelise palgaarvestuse integratsiooni konfigureerimine
-description: Selles teemas selgitatakse, kuidas konfigureerida rakenduste Microsoft Dynamics 365 for Talent ja Ceridian Dayforce vahelist integratsiooni nii, et saaksite teha palgatöötlust.
+description: Selles teemas selgitatakse, kuidas konfigureerida rakenduste Microsoft Dynamics 365 Talent ja Ceridian Dayforce vahelist integratsiooni nii, et saaksite teha palgatöötlust.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/24/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c26dfed9909b0dbd05fc18c206e5adc947feaef5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742907"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251035"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Palgaarvestuse integratsiooni konfigureerimine Talenti ja Dayforce’i vahel
 
 [!include [banner](includes/banner.md)]
 
-Rakenduste Microsoft Dynamics 365 for Talent ja Ceridian Dayforce vaheline integratsioon sõltub mitmest konfiguratsioonietapist, mida kirjeldatakse selles teemas. Enne palgatöötluse tegemist peate konfigureerima integratsiooni nii rakenduses Talent kui ka Dayforce.
+Rakenduste Microsoft Dynamics 365 Talent ja Ceridian Dayforce vaheline integratsioon sõltub mitmest konfiguratsioonietapist, mida kirjeldatakse selles teemas. Enne palgatöötluse tegemist peate konfigureerima integratsiooni nii rakenduses Talent kui ka Dayforce.
 
 Kui te kasutate palgatöötluste tegemiseks teenust nagu Dayforce, siis peate rakenduses Talent integratsiooni lubama. Integratsiooni jaoks on rakendusest Talent vaja teatud andmeid. Seega peate kinnitama, et Dayforce’iga vastendatud andmed on rakenduses Talent konfigureeritud viisil, mis lubab integratsiooni. Integratsioon kasutab järgmisi üldisi andmekategooriaid.
 
@@ -39,7 +39,7 @@ Teemas kirjeldatakse etappe, mida peate integratsiooni lubamiseks läbima. Samut
 
 ## <a name="enable-the-integration"></a>Integratsiooni lubamine
 
-Dayforce’iga ühendamiseks peate rakenduses Talent sisse lülitama integratsiooni ja sisestama konfigureerimisteabe. Kui soovite, et loodav pearaamatu kanne imporditaks rakendusse Microsoft Dynamics 365 for Finance and Operations, siis peate seadistama Microsoft Azure’i salvestuskonto ja sisestama Azure’i salvestusruumi ühendusstringi rakendusse Finance and Operations.
+Dayforce’iga ühendamiseks peate rakenduses Talent sisse lülitama integratsiooni ja sisestama konfigureerimisteabe. Kui soovite, et loodav pearaamatu kanne imporditaks rakendusse Microsoft Dynamics 365 Finance, siis peate seadistama Microsoft Azure’i salvestuskonto ja sisestama Azure’i salvestusruumi ühendusstringi rakendusse Finance.
 
 Rakenduses Talent integratsiooni sisselülitamiseks järgige järgmisi juhiseid.
 

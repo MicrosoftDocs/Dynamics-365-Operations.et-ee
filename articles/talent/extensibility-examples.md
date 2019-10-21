@@ -1,13 +1,13 @@
 ---
-title: Talenti laiendamine PowerAppsi ja Microsoft Flow’ga – näidisstsenaariumid
-description: Selles teemas kirjeldatakse laiendatavuse stsenaariume rakenduses Microsoft Dynamics 365 for Talent, mis kasutab Microsoft PowerAppsi ja Microsoft Flow’d.
+title: Talenti laiendamine rakendustega PowerApps ja Microsoft Flow – näidisstsenaariumid
+description: Selles teemas kirjeldatakse laiendatavuse stsenaariume rakenduses Microsoft Dynamics 365 Talent, mis kasutab Microsoft PowerAppsi ja Microsoft Flow’d.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
+ms.technology: Dynamics 365 Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
-ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
+ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1781438"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008055"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talenti laiendamine PowerAppsi ja Microsoft Flow’ga – näidisstsenaariumid
+# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talenti laiendamine rakendustega PowerApps ja Microsoft Flow – näidisstsenaariumid
 
-Selles teemas kirjeldatakse laiendatavuse stsenaariume rakenduses Microsoft Dynamics 365 for Talent, mis kasutab Microsoft PowerAppsi ja Microsoft Flow’d. Saate PowerAppsi keskkonda importida iga näitega seotud lahendusepaketi. Seejärel saate pakette kasutada juhisena või lähtekohana teie organisatsioonile sobivate stsenaariumide rakendamiseks.
+Selles teemas kirjeldatakse laiendatavuse stsenaariume rakenduses Microsoft Dynamics 365 Talent, mis kasutab Microsoft PowerAppsi ja Microsoft Flow’d. Saate rakenduse PowerApps keskkonda importida iga näitega seotud lahendusepaketi. Seejärel saate pakette kasutada juhisena või lähtekohana teie organisatsioonile sobivate stsenaariumide rakendamiseks.
 
 > [!IMPORTANT]
 > Kui soovite kasutada selles teemas kirjeldatud malle ja rakendust muutmata kujul, katsetage neid kindlasti veendumaks, et need hõlmavad kõiki teie juurutusele kehtivaid stsenaariume.
@@ -57,7 +57,7 @@ Malli **Flow ja Formi ühendamine** ja kohandatud üksuse struktuuri alla laadim
 
 ## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>Powerappsi edastatud parameetrite käivitamine ja ekstraktimine
 
-Malli **Powerappsi edastatud parameetrite käivitamine ja ekstraktimine** saab kasutada lähtekohana mis tahes PowerAppsi stsenaariumi jaoks, mis on omane Attractile. See sisaldab kõiki vaikeparameetreid, mille Attract edastab, nt **Tööavaldus**, **Kandidaadi ID** ja **Töö ID**.
+Malli **Powerappsi edastatud parameetrite käivitamine ja ekstraktimine** saab kasutada lähtekohana mis tahes rakenduse PowerApps stsenaariumi jaoks, mis on omane Attractile. See sisaldab kõiki vaikeparameetreid, mille Attract edastab, nt **Tööavaldus**, **Kandidaadi ID** ja **Töö ID**.
 
 Seda malli saab kasutada kandidaadi hinnanguvormi leidmiseks, et personalijuht saaks kandidaadi täidetud hinnangut vaadata.
 
@@ -79,7 +79,7 @@ Malli **Flow – meiliteatis** saab kasutada meiliteatise stsenaariumide jaoks. 
 
 Seda malli saab laiendada, et see jälgiks muudatusi kandidaadi etapis kogu värbamisprotsessi jooksul ning saadaks teatisi värbamistöörühmale ja kandidaadile.
 
-Üldiselt saab lahenduses Common Data Service salvestatud üksuste jaoks voogusid seadistada nii, et need saadavad teatisi rakenduse Core HR, Attract või Dynamics 365 Talent: Onboard sündmuste kohta.
+Üldiselt saab lahenduses Common Data Service salvestatud üksuste jaoks voogusid seadistada nii, et need saadavad teatisi rakenduse Core HR, Attract või Onboard sündmuste kohta.
 
 Malli **Flow – meiliteatis** alla laadimiseks minge Microsofti allalaadimiskeskuses lehele [Flow – meiliteatis](https://go.microsoft.com/fwlink/?linkid=2082103).
 
@@ -106,7 +106,7 @@ Saate kasutada soovitusrakendust, et lisada kandidaate jagatud talendipanka. Soo
 
 Saate selle rakenduse manustada soovituste esitamiseks töötajate iseteenindusse (ESS) või kasutada seda ettevõtteportaalis hüperlingina ja kasutada eraldiseisva rakendusena.
 
-**Sooitusrakenduse** allalaadimiseks minge Microsofti allalaadimiskeskuse lehele [Dynamics 365 for Talent laiendatavuse lahendus: soovitusrakendus](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d). Seda rakendust saab importida ja kohandada, et lisada täiendavaid funktsioone.
+**Sooitusrakenduse** allalaadimiseks minge Microsofti allalaadimiskeskuse lehele [Dynamics 365 Talent laiendatavuse lahendus: soovitusrakendus](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d). Seda rakendust saab importida ja kohandada, et lisada täiendavaid funktsioone.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

@@ -1,6 +1,6 @@
 ---
 title: Laotöötajate haldamine
-description: Selles artiklis kirjeldatakse, kuidas saate kasutada Dynamics 365 for Finance and Operationsit nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
+description: Selles artiklis kirjeldatakse, kuidas saate kasutada rakendust Dynamics 365 Supply Chain Management – Ladustamine nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5a35d0a52d6f5bf995ce54f10eab92147b0e76a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f0de87e10f9213838dd5e5436b8b5699b19547bf
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572554"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018617"
 ---
 # <a name="manage-warehouse-workers"></a>Laotöötajate haldamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse, kuidas saate kasutada Microsoft Dynamics 365 for Finance and Operationsit nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
+Selles artiklis kirjeldatakse, kuidas saate kasutada rakendust Dynamics 365 Supply Chain Management – Ladustamine nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
 
 Kui kasutate funktsiooni jaotises Laohaldus, viidatakse kõikidele laotöötaja toimingutele sõnaga *töö*. Töö, nagu komplekteerimine, teisaldamine ja vabade laovarude inventuur, salvestatakse mobiilse seadmega. Enne kui laotöötaja saab tööd teha, peab ta olema jaotises Inimressursid töötajaga seostatud. Iga kontoga **Töötaja** võib olla seostatud mitu laotöö kasutajat. Need töökasutajad võivad töötada erinevates ladudes ja neil võib olla erinevatele mobiilse seadme menüüdele erinev juurdepääsutase. Laotöö kasutajatest võib mõelda kui valitud töötaja mitmest logimisnimest. Igal töö kasutajal on vaikeladu ja selle töö kasutajale saadaolevate menüü-üksused kasutavad konkreetseid töövooge. 
 

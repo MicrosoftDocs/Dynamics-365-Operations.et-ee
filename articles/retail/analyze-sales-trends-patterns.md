@@ -1,6 +1,6 @@
 ---
 title: Müügitrendide ja -mustrite analüüsimine
-description: Saate uurida müügitrende ja -mustreid Microsoft Dynamics 365 for Retailis reaalajas.
+description: Saate uurida müügitrende ja -mustreid Dynamics 365 Retailis reaalajas.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c54e707d312d7ac3bbcad71a914e528859038a13
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557896"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025813"
 ---
 # <a name="analyze-sales-trends-and-patterns"></a>Müügitrendide ja -mustrite analüüsimine
 
 [!include [banner](includes/banner.md)]
 
-Saate uurida müügitrende ja -mustreid Microsoft Dynamics 365 for Retailis reaalajas.
+Saate uurida müügitrende ja -mustreid Dynamics 365 Retailis reaalajas.
 
-Kasutajad saavad Dynamics 365 for Retaili osana uurida müügitrende ja -mustreid reaalajas organisatsiooni hierarhia erinevatel tasanditel aastate perioodil, kasutades valmisaruannet **Kanali müük aastate alusel**. Selle aruande saab avada järgmistest asukohtadest.
+Kasutajad saavad Retaili osana uurida müügitrende ja -mustreid reaalajas organisatsiooni hierarhia erinevatel tasanditel aastate perioodil, kasutades valmisaruannet **Kanali müükaastate alusel**. Selle aruande saab avada järgmistest asukohtadest.
 
 - Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali müügiaruanne aastate alusel**
 - Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali müügiaruanne aastate alusel**

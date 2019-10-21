@@ -1,6 +1,6 @@
 ---
-title: Ettevõtte teabe konfigureerimine rakenduses Microsoft Dynamics 365 for Talent - Attract
-description: Selles teemas selgitatakse, kuidas konfigureerida ettevõtte teavet ja brändingut rakenduse Microsoft Dynamics 365 for Talent - Attract jaoks.
+title: Ettevõtte teabe konfigureerimine rakenduses Microsoft Dynamics 365 Talent – Attract
+description: Selles teemas selgitatakse, kuidas konfigureerida ettevõtte teavet ja brändingut rakenduse Microsoft Dynamics 365 Talent – Attract jaoks.
 author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c5b051497777a01ab304736f1d454391b5d98e63
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 801b90db8d70352693515b442f7a9316b447d041
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739560"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008727"
 ---
 # <a name="configure-company-information"></a>Ettevõtte teabe konfigureerimine
 [!include[banner](../includes/banner.md)]
 
-Rakenduse Microsoft Dynamics 365 for Talent: Attract halduskeskuses on konfiguratsioonisätted, integratsiooni- ja häälestussuvandid rakenduse Attract jaoks.
+Rakenduse Microsoft Dynamics 365 Talent: Attract halduskeskuses on konfiguratsioonisätted, integratsiooni- ja häälestussuvandid rakenduse Attract jaoks.
 
 ## <a name="company-information"></a>Ettevõtte andmed
 

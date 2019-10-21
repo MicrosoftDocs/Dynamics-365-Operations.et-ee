@@ -1,6 +1,6 @@
 ---
 title: Demoandmete ekraanipaigutused Retail Modern POS-is (MPOS) ja pilvekassas
-description: See teema sisaldab teavet ekraanipaigutuste kohta, mis on kaasas Microsoft Dynamics 365 for Retaili kassa demoandmetega.
+description: See teema sisaldab teavet ekraanipaigutuste kohta, mis on kaasas Dynamics 365 Retaili kassa demoandmetega.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c8d2fac82541b768f8e0a31049177bdc1262d44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570638"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019320"
 ---
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Demoandmete ekraanipaigutused Retail Modern POS-is (MPOS) ja pilvekassas
 
 [!include [banner](includes/banner.md)]
 
-See teema sisaldab teavet ekraanipaigutuste kohta, mis on kaasas Microsoft Dynamics 365 for Retaili kassa demoandmetega.
+See teema sisaldab teavet ekraanipaigutuste kohta, mis on kaasas Dynamics 365 Retaili kassa demoandmetega.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -40,7 +40,7 @@ Retaili demoandmetega kaasas olevad ekraanipaigutuste näidised hõlmavad sisu, 
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Ekraanipaigutuse ID anatoomia
 
-Jaemüügi ekraanipaigutuste leidmiseks avage jaotis **Jaemüük** \> **Kanali seadistus** \> **Kassa seadistus** \> **Kassa** \> **Ekraanipaigutused**.
+Retaili ekraanipaigutuste leidmiseks avage jaotis **Retail** \> **Kanali seadistus** \> **Kassa seadistus** \> **Kassa** \> **Ekraanipaigutused**.
 
 ![Retaili ekraanipaigutuste leht](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,7 +107,7 @@ Järgmine tabel näitab paigutuste suurusi, mis on saadaval ekraani tüüpiliste
 \*Need täiendavad suurused on saadaval ainult Adventure Worksi ja Fabrikami paigutustes.
 
 > [!TIP]
-> POS valib paigutuste suurused automaatselt olenevalt sellest, milline suurus on lähim rakenduse praeguse akna eraldusvõimele. Praegu kasutatava ekraanipaigutuse ID ja paigutuse eraldusvõime leidmiseks avage rakenduses Retail Modern POS (MPOS) või Retail Cloud POS (CPOS) leht **Sätted** ja vaadake jaotist **Seansi teave**. Samuti näete praeguse rakenduse või brauseripaneeli akna tegelikku eraldusvõimet. Pärast selle teabe hankimist võite jaotises Jaemüük paigutuse sisu allika leidmiseks avada jaotise **Kanali seadistus** \> **Kassa seadistus** \> **Kassa** \> **Ekraanipaigutused**.
+> POS valib paigutuste suurused automaatselt olenevalt sellest, milline suurus on lähim rakenduse praeguse akna eraldusvõimele. Praegu kasutatava ekraanipaigutuse ID ja paigutuse eraldusvõime leidmiseks avage rakenduses Retail Modern POS (MPOS) või Retail Cloud POS (CPOS) leht **Sätted** ja vaadake jaotist **Seansi teave**. Samuti näete praeguse rakenduse või brauseripaneeli akna tegelikku eraldusvõimet. Pärast selle teabe hankimist võite jaotises Retaili paigutuse sisu allika leidmiseks avada jaotise **Kanali seadistus** \> **Kassa seadistus** \> **Kassa** \> **Ekraanipaigutused**.
 
 ![Ekraanipaigutused ja paigutuste eraldusvõimed/suurused Retailis ja kassas](../retail/media/demo-screen-layouts-fig-3-1.png)
 

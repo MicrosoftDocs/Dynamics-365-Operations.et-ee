@@ -1,6 +1,6 @@
 ---
-title: Meilisätete konfigureerimine rakenduses Microsoft Dynamics 365 for Talent - Attract
-description: Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 for Talent - Attract saadetud e-posti sätteid.
+title: Meilisätete konfigureerimine rakenduses Microsoft Dynamics 365 Talent – Attract
+description: Selles teemas selgitatakse, kuidas konfigureerida rakenduse Microsoft Dynamics 365 Talent - Attract saadetud e-posti sätteid.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739491"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008658"
 ---
 # <a name="configure-email-settings"></a>Meilisätete konfigureerimine
 
 [!include[banner](../includes/banner.md)]
 
-Teie kaubamärk loob usalduse ja aitab teil luua suhteid kandidaatidega, enne kui nad isegi teie vabadele töökohtadele kandideerivad. Positiivne kaubamärgi taju meelitab parimaid talente ja suurendab olemasolevate töötajate lojaalsust. Microsoft Dynamics 365 for Talent: Attract võimaldab teil konfigureerida e-kirju nii, et need peegeldavad teie ettevõtte kaubamärki. Seetõttu saate pakkuda töökoha kandidaatidele järjepideva kogemuse, kui nad läbi kandideerimisprotsessi edenevad.
+Teie kaubamärk loob usalduse ja aitab teil luua suhteid kandidaatidega, enne kui nad isegi teie vabadele töökohtadele kandideerivad. Positiivne kaubamärgi taju meelitab parimaid talente ja suurendab olemasolevate töötajate lojaalsust. Microsoft Dynamics 365 Talent: Attract võimaldab teil konfigureerida e-kirju nii, et need peegeldavad teie ettevõtte kaubamärki. Seetõttu saate pakkuda töökoha kandidaatidele järjepideva kogemuse, kui nad läbi kandideerimisprotsessi edenevad.
 
 Attract võimaldab teil teha järgmisi toiminguid.
 

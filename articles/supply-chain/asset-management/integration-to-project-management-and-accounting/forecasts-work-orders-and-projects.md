@@ -3,7 +3,7 @@ title: Ennustused, töökäsud ja projektid
 description: Selles teemas kirjeldatakse ennustuste ja töökäsu integratsiooni projekti halduse ja varahalduse raamatupidamismooduliga.
 author: josaw1
 manager: AnnBe
-ms.date: 08/16/2019
+ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,72 +18,76 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e986d139ac9d0a7729bb9787f05332bcc09f59b
-ms.sourcegitcommit: 109a6ef2d20758dc4a25c51b11e22dd2214a1cc4
+ms.openlocfilehash: cc1992326c448ee8dc30a9ad8f8f538ebea83e54
+ms.sourcegitcommit: f853c8d46ffc8e578387bac4cd48a948916983ef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1886812"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "2002380"
 ---
-# <a name="forecasts-work-orders-and-projects"></a>Ennustused, töökäsud ja projektid
+# <a name="forecasts-work-orders-and-projects"></a>Prognoosid, töökäsud ja projektid
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
 
-Varahalduses integreeritakse mooduliga **Projekti haldus ja raamatupidamine**, et optimeerida kulu, võimaldades kasutajatel jälgida hooldustöö tüübi ennustuste ja töökäsu tööde kulusid.
+Varade halduses aitab integreerimine mooduliga **Projekti haldus ja raamatupidamine** optimeerida kulu, et kasutajad saaksid jälgida hooldustöö tüübi ennustuste ja töökäsu tööde kulusid.
 
 Hooldustöö tüübi ennustuste jälgimiseks peab seadistama kahte seadet:
 
-1. valige projekt kohas **Varahaldus** > **Seadistus** > **Varahalduse näitajad** > **Varad** link > **Projekt** FastTab > asuvas väljas **Hoolduse ennustamisprojekt**;
+1. Valige projekt **Varade haldus** > **Seadistus** > **Varade halduse parameetrid** ja seejärel vahekaardil **Varad** > **Projekti** vahelehel, väljal **Hooldusprognoosi projekt** valige projekt.
 
-2. hooldustöö tüübi tavarea loomisel luuakse valikus **Hooldustöö tavatüübid** rea tegevuse number automaatselt (**Varahaldus** > **Seadistus** > **Tööd** > **Hooldustöö tavatüübid**).
+2. Hooldustöö tüübi tavarea loomisel luuakse automaatselt **Hooldustöö tavatüübid** lehel olevale reale tegevuse number (**Varahaldus** > **Seadistus** > **Tööd** > **Hooldustöö tavatüübid**).
 
-Hooldustöö tüübi ennustamisel on kaks eesmärki: saate jälgida hooldustöö tüübi ennustuste kulusid moodulis **Projekti haldus ja raamatupidamine**. Lisaks edastatakse ennustused automaatselt töökäsu töö projekti, kui valite töökäsu töö hooldustöö tüübi.
+Hooldustöö tüübi prognoosidel on kaks eesmärki: 
 
-Töökäsu tööde kulud jälgimiseks peate esmalt seadistama töökäsu projektid. Tegevuse kirjeldust vt jaotisest [Töökäsu projekti seadistamine](../setup-for-work-orders/work-order-project-setup.md).
+- Hooldustöö tüübi prognooside kulusid saate jälgida moodulis **Projektihaldus ja -arvestus**. 
+- Prognoosid edastatakse automaatselt töökäsu töö projekti, kui valite töökäsu töö hooldustöö tüübi.
+
+Töökäsu tööde kulud jälgimiseks peate esmalt seadistama töökäsu projektid. Lisateavet leiate jaotisest [Töökäsu projekti seadistamine](../setup-for-work-orders/work-order-project-setup.md).
 
 ## <a name="work-order-job-projects"></a>Töökäsu töö projektid
 
-Kui loote töökäsu töö, määratakse töökäsu projekt töökäskude ülemprojekti seadistamisega kohas **Varahaldus** > **Seadistamine** > **Töökäsud** > **Projekti seadistamine**.
+Kui loote töökäsu töö, määratakse töökäsu projekt töökäskude ülemprojekti seadistamisega lehel **Töökäsu projekti seadistamine** (**Varade haldus** > **Seadistamine** > **Töökäsud** > **Projekti seadistamine**).
 
 Töökäsu töö projekte luuakse järgmise töökäsu teabe kombinatsiooni alusel:
 
-- töökäsus valitud tüüp; 
+- Töökäsus valitud tüüp 
 - töökäsu varaga seotud töö asukoht;
-- töökäsu varaga seotud vara tüüp;  
-- töökäsu eeldatav algus- ja lõpuaeg.  
+- Vara tüüp, mis on seotud töökäsu varaga  
+- Töökäsule seatud eeldatavad algus- ja lõpuajad  
 
-Võimalik, et töökäsus pole kogu allpool nimetatud teavet. Seega otsitakse töökäsu ülemprojekti saadaval andmete kombinatsiooni alusel ja valides projekti ID, mis vastab töökäsu andmetele.
+Osa sellest teabest ei pruugi töökäsul leida. Seega otsitakse töökäsu ülemprojekti saadaval andmete kombinatsiooni alusel ja valides projekti ID, mis vastab töökäsu andmetele.
 
-Näide: alumises joonises tähendab vara tüübi „Sõiduki mootor“ seadistus seda, et iga selle vara tüübiga loodud töökäsu töö on projekti ID „000186“ alamprojekt.
+Näiteks järgmisel joonisel on varatüübi **Veoki mootor** seadistamise viisi tõttu iga töökäsu töö, mis luuakse varatüübiga **Veoki mootor** projekti ID 000186 alamprojekt.
 
 ![Joonis 1](media/01-integration-to-pma.png)
 
-Töökäsu töö projekti ID ja asjakohase tegevuse numbri (**Vara haldus** > **Ühine** > **Töökäsud** > **Kõik töökäsud** > valige loendist töökäsk > **Rea andmed** FastTab > väli **Projekti ID** ja väli **Tegevuse number**) eesmärk on jälgida moodul **Projekti haldus ja raamatupidamine** töökäsu tööga seotud kulutusi ja töökäsu töös valitud vara. 
+Projekti ID eesmärk töökäsu tööl ja sellega seotud tegevuse numbri eesmärk on jälgida töökäsu tööga seotud kulusid ja sellel valitud vara moodulis **Projektihaldus ja -arvestus**. (Projekti ID ja tegevuse numbri vaatamiseks **Varade haldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** ja valige töökäsk. Vahekaardil **Rea üksikasjad** kuvatakse väljal **Projekti ID** projekti ID ja väljal **Tegevuse number** kuvatakse tegevuse number.) Lisateavet varade haldamise kulukontrolli kohta vt [Kulude ja kuupäeva kontroll](../controlling-and-reporting/cost-and-date-control.md).
 
-Alumisel joonisel näete töökäsu projektide ja asjakohaste projektide toimingute graafilist ülevaadet.
+Järgmisel joonisel on kujutatud graafiline ülevaade töökäsu projektidest ja sellega seotud projektitegevustest.
 
 ![Joonis 2](media/02-integration-to-pma.png)
 
-Kui töökäsus luuakse uus töö, luuakse selle jaoks automaatselt projekt. Töökäsu tööga seotud vara finantsdimensioonid edastatakse automaatselt töökäsu projekti. Töökäsu töö jaoks loodud projekti aktiivsuses on manustatud asjakohane teave hooldustöö tüübi, selle variandi ja müügi kohta. Nendest andmetest on kasu näiteks töökäsu ostutellimuse loomisel (vt [Hankimine](../work-orders/procurement.md)) või mooduli **Projekti haldus ja raamatupidamine** kasutamisel aja registreerimiseks.  
+Kui töökäsus luuakse uus töö, luuakse selle jaoks automaatselt projekt. Töökäsu tööga seotud vara finantsdimensioonid edastatakse automaatselt töökäsu projekti.
 
-Kui vara paigaldati töö asukohta ja see vara paigaldatakse hiljem teise töö asukohta, värskendatakse automaatselt uue töö asukohaga seotud vara finantsilisi dimensioone Hiljem, kui loote vara töökäsu töö, saab töökäsu töö projekt automaatselt nüüd varaga seotud finantsilised dimensioonid. See tähendab seda, et kui kasutate töö asukohti, saab alati jälgida töö asukohtade, kuhu vara paigaldati mistahes ajal, kulusid. Finantsiliste dimensioonide automaatne värskendamine tagab kulude põhjaliku jälgitavuse projekti haldamise ja aruandluse jaoks.  
+Töökäsu töö jaoks loodud projektitegevusel on sellega seotud teave. See teave on hooldustöö tüübi, hooldustöö tüübi variandi ja kaubanduse kohta. Sellest on kasu näiteks töökäsu ostutellimuse loomisel (vt [Hankimine](../work-orders/procurement.md)) või mooduli **Projekti haldus ja raamatupidamine** kasutamisel aja registreerimiseks.
 
+Kui vara paigaldati funktsionaalsesse asukohta, kuid hiljem paigaldati teisele funktsionaalsele asukohale, värskendatakse selle varaga automaatselt uue funktsionaalse asukohaga seotud finantsilisi dimensioone. Seejärel, kui loote vara töökäsu töö, saab töökäsu töö projekt automaatselt nüüd varaga seotud finantsilised dimensioonid. Seega kui kasutate töö asukohti, saab alati jälgida töö asukohtade, kuhu vara paigaldati mistahes ajal, kulusid. Finantsiliste dimensioonide automaatne värskendamine aitab tagada projekti kontrolli ja aruandluse kulude täieliku jälgitavuse.
 
 ## <a name="work-order-projects-work-order-lifecycle-states-project-stages-and-project-types"></a>Töökäsu projektid, töökäsu tsükli olekud, projekti etapid ja projekti tüübid
 
-Töökäsu tsükli olekute ja töökäskude asjakohase projekti etappide õige kasutamise tagamiseks pidage silmas sõltuvusi vastavalt moodulile **Projekti haldus ja raamatupidamine**:
+Et tagada töökäsu tsükli olekute ja nendega seotud projekti etappide õiget kasutamist, kaaluge mooduliga **Projektihaldus ja -arvestus** seotud sõltuvusi:
 
-- Mooduli **Projekti haldus ja raamatupidamine** projekti etapid on seadistatud valiku **Projekti haldus ja raamatupidamise näitajad** projekti tüüpidega.  
-- Pidage meeles, et valite moodulis **Projekti haldus ja raamatupidamine** kõikide kasutatavate projekti tüüpide asjakohase projekti etapi märkeruudud. Alumises joonises on valitud projekti tüüpide „Aeg ja materjal“ ja „Sisemine“ viis etappi: **Loodud** - **Hinnatud** - **Ajastatud** - **Pooleli** - **Valmis**. Need viis etappi on vajalikud nii sisemise hoolduse kui ka teenuse hoolduse töödele.  
-- Valikus **Varahaldus** määratletakse projekti tüüpe projekti rühmade seadistate neid ankeedi **Töökäsu projekti seadistus** > lingi **Projekti rühm** järgi.  
-- Valiku **Töökäsu projekti seadistus** projekti rühmade seadistust kasutatakse, uute töökäskude loomisel. Kui luuakse töökäsk, koostatakse selle jaoks automaatselt projekt.  
-- Töökäsu tsükli kõikidel olekutel peab olema asjakohane projekti etapp.  
-- Töötsükli olekuga seotud projekti etapp peab olema rühma aktiivne etapp. Töökäsu projekt koostatakse automaatselt.  
-- Kui loote uute töökäsu, põhineb töökäsu projekti automaatne eraldus valiku **Töökäsu projekti seadistamine** (**Varahaldus** > **Seadistamine** > **Töökäsud** > **Projekti seadistamine**).  
+- Mooduli **Projekti haldus ja -arvestus** projekti etapid on seadistatud projekti tüüpidega lehel **Projektihalduse ja -arvestuse parameetrid**.  
+- Valige lehel **Projektihalduse ja -arvestuse parameetrid** märkeruudud, et valida kõigi kasutatavate projektitüüpide jaoks asjakohased projektietapid. Järgmistel joonistel on valitud viis etappi projektitüüpide **Aeg ja materjal** ja **Sisemine** jaoks (**Loodud**, **Hinnatud**, **Ajastatud**, **Pooleli** ja **Valmis**) . Need viis etappi on vajalikud nii sisemiste hooldustööde kui ka teenuse hoolduse töödele.
+- Moodulis **Varade haldus** määratletakse projektitüübid projektigruppidega, mille seadistate **Töökäsu projekti seadistuse** lehel > vahekaardil **Projektigrupp** (**Varade haldus** > **Seadistus** > **Töökäsud** > **Projekti seadistus**).  
+- Valiku **Töökäsu projekti seadistus** lehel olevat projekti rühmade seadistust kasutatakse uute töökäskude loomisel. Kui luuakse töökäsk, koostatakse selle jaoks automaatselt projekt.  
+- Iga töökäsu tsükli olek peab olema seotud projekti etapiga.  
+- Projekti etapp, mis on seotud töökäsu elutsükli olekuga, tuleb määratleda töökäsu projektis määratletud projektigrupi aktiivse etapina. Töökäsu projekt koostatakse automaatselt.
+- Uue töökäsu loomisel põhineb töökäsu projekti automaatne eraldamine lehel **Töökäsu projekti seadistamine** oleval seadistusel.  
 
-Töökäsu projekti rühmade, asjakohaste projekti tüüpide, projekti etappide ja töökäsu tsükli olekute omavahelised seosed on kujutatud alumistes joonistes.  
+Järgmised joonised näitavad seoseid töökäsu projekti gruppide, seotud projektitüüpide, projekti etappide ja töökäsu tsükli olekute vahel.
 
 ![Joonis 3](media/03-integration-to-pma.png)
 
@@ -91,9 +95,9 @@ Töökäsu projekti rühmade, asjakohaste projekti tüüpide, projekti etappide 
 
 ![Joonis 5](media/05-integration-to-pma.png)
 
-Töökäsu projektide seadistamiseks vt [Töökäsu projekti seadistamine](../setup-for-work-orders/work-order-project-setup.md) ja töökäsu tsükli olekuid vt [Töökäsu tsükli olekud](../setup-for-work-orders/work-order-lifecycle-states.md).
+Lisateavet töökäsu projektide seadistamise kohta vt [Töökäsu projektide seadistus](../setup-for-work-orders/work-order-project-setup.md). Lisateavet töökäsu elutsükli olekute loomise kohta vt [Töökäsu elutsükli olekud](../setup-for-work-orders/work-order-lifecycle-states.md).
 
-Alumine joonis näitab moodulis **Varahaldus** loodud (et võimaldada integratsiooni mooduliga **Projekti haldus ja raamatupidamine**) erinevate projektid graafilist ülevaadet ja ka projektidega seotud töö toiminguid.
+Järgmisel joonisel on kujutatud erinevate projektide graafiline ülevaade, mis on loodud moodulis **Varade haldus**, et võimaldada integreerimist mooduliga **Projektihaldus ja -arvestus**. See näitab ka tööprotsesse, millega projektid on seotud.
 
 ![Joonis 6](media/06-integration-to-pma.png)
 

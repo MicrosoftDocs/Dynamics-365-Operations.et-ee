@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 523e51c705d76b6e8624887292395f8f239bcb65
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 14c6f3bae224540968d37de9effa4c430307975c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570459"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250852"
 ---
 # <a name="quarantine-orders"></a>Vahelaoorderid
 
@@ -34,7 +34,7 @@ See teema kirjeldab vahelaoorderite kasutamist varude blokeerimiseks.
 Vahelaoordereid saab kasutada varude blokeerimiseks. Näiteks võib olla vaja kvaliteedikontrolliks kaubad vahelattu paigutada. Karantiinis olevad kaubad edastatakse vahelattu. **Märkus:** täpsema laohalduse protsesside kasutamisel (laohalduse moodulis) kasutatakse vahelao tellimuse töötlemist ainult müügi tagastustellimuste puhul.
 
 ## <a name="quarantine-on-hand-inventory-items"></a>Vabade laokaupade paigutamine vahelattu
-Kui saadate kaubad vahelattu, saate luua vahelaoorderid käsitsi või seadistada süsteemi looma sissetuleva töötluse ajal vahelaoordereid automaatselt. Vahelaoorderite automaatseks loomiseks tehke valik **Vahelao haldus** vahekaardil **Varude poliitikad** lehel **Kauba mudeligrupid**. Peate määrama vastuvõtvatele ladudele ka vaikevahelao väljal **Vaheladu**. Kaubad pannakse Microsoft Dynamics 365 for Finance and Operationsis automaatselt vahelattu, kui füüsiliselt vaba kaubavaru tootmistellimusel või ostutellimusel salvestatakse. Selline liikumine toimub, kuna vahelaoorderi olekuks määratakse **Alustatud**. Kui loote vahelaoorderid käsitsi, ei pea kaupa seotud kauba mudeligrupis vahelao halduseks seadistama. Selle protsessi jaoks peate määrama vaba kaubavaru, mis tuleks vahelattu paigutada, ja kasutatava vahelao. Protsessi plaanimisel saate kasutada abivahendina vahelaoorderi olekuid.
+Kui saadate kaubad vahelattu, saate luua vahelaoorderid käsitsi või seadistada süsteemi looma sissetuleva töötluse ajal vahelaoordereid automaatselt. Vahelaoorderite automaatseks loomiseks tehke valik **Vahelao haldus** vahekaardil **Varude poliitikad** lehel **Kauba mudeligrupid**. Peate määrama vastuvõtvatele ladudele ka vaikevahelao väljal **Vaheladu**. Kaubad pannakse Supply Chain Managementis automaatselt vahelattu, kui füüsiliselt vaba kaubavaru tootmistellimusel või ostutellimusel salvestatakse. Selline liikumine toimub, kuna vahelaoorderi olekuks määratakse **Alustatud**. Kui loote vahelaoorderid käsitsi, ei pea kaupa seotud kauba mudeligrupis vahelao halduseks seadistama. Selle protsessi jaoks peate määrama vaba kaubavaru, mis tuleks vahelattu paigutada, ja kasutatava vahelao. Protsessi plaanimisel saate kasutada abivahendina vahelaoorderi olekuid.
 
 ## <a name="quarantine-order-statuses"></a>Vahelaoorderi olekud
 Vahelaoorderite olek võib olla järgmine:

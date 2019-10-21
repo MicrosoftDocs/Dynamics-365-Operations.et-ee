@@ -1,6 +1,6 @@
 ---
 title: Varude blokeerimine
-description: See artikkel annab ülevaate varude blokeerimisest, mis kuulub Microsoft Dynamics 365 for Finance and Operationsi kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks.
+description: Selles teemas antakse ülevaade varude blokeerimisest, mis kuulub Supply Chain Managementi kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb6291e2f012f148b247b747f84155b96cf09677
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fc8200380ac3aeb9e3b73f43212458660a15ade6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557472"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250802"
 ---
 # <a name="inventory-blocking"></a>Varude blokeerimine
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel annab ülevaate varude blokeerimisest, mis kuulub Microsoft Dynamics 365 for Finance and Operationsi kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks.
+Selles artiklis antakse ülevaade varude blokeerimisest, mis kuulub Supply Chain Managementi kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks.
 
 Laokaupade blokeerimiseks on järgmised võimalused.
 -   Käsitsi

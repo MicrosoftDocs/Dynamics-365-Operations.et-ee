@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.md
+  href: index.yml
   items:
     - name: Alustamine
       items:
@@ -8,6 +8,14 @@
         - name: Mis on uut või mida on muudetud rakenduses Talent?
           href: whats-new.md
           items:
+            - name: 1. oktoober 2019
+              href: whats-new-talent-october-1-2019.md
+            - name: 17. september 2019
+              href: whats-new-talent-september-17-2019.md
+            - name: 10. september 2019
+              href: whats-new-talent-september-12-2019.md
+            - name: 27. august 2019
+              href: whats-new-talent-august-28-2019.md
             - name: 22. august 2019
               href: whats-new-talent-august-21-2019.md
             - name: 13. august 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: 2. juuli 2019
               href: whats-new-talent-july-2-2019.md
-            - name: 25. juuni 2019
-              href: whats-new-talent-june-25-2019.md
-            - name: 18. juuni 2019
-              href: whats-new-talent-june-18-2019.md
-            - name: 11. juuni 2019
-              href: whats-new-talent-june-11-2019.md
-            - name: 4. juuni 2019
-              href: whats-new-talent-june-4-2019.md
             - name: Mis on uut arhiivides 2019?
               items:
+                - name: 25. juuni 2019
+                  href: whats-new-talent-june-25-2019.md
+                - name: 18. juuni 2019
+                  href: whats-new-talent-june-18-2019.md
+                - name: 11. juuni 2019
+                  href: whats-new-talent-june-11-2019.md
+                - name: 4. juuni 2019
+                  href: whats-new-talent-june-4-2019.md
                 - name: 28. mai 2019
                   href: whats-new-talent-may-28-2019.md
                 - name: 21. mai 2019
@@ -112,7 +120,7 @@
           href: remove-talent-environment.md
         - name: Rakenduse Onboard jaoks ettevalmistuste tegemine
           href: modular-app-tech-faq.md
-        - name: PowerAppsi rakenduste manustamine
+        - name: Rakenduste PowerApps manustamine
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR ja Common Data Service
           href: CoreHREntities.md
@@ -407,7 +415,7 @@
       items:
         - name: Manustatud Power BI tööruumides
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Talenti laiendamine PowerAppsi ja Microsoft Flow’ga – näidisstsenaariumid
+        - name: Talenti laiendamine PowerAppsi ja Microsoft Flow'ga – näidisstsenaariumid
           href: extensibility-examples.md
         - name: Mobiilirakendus
           items:
@@ -427,6 +435,8 @@
           href: corehr-custom-fields.md
     - name: Talenti tõrkeotsing
       items:
+        - name: Jõudluse optimeerimine automaatsete puhastamisülesannetega
+          href: talent-batch-history-cleanup.md
         - name: LinkedIn-i tööde sisestamine tõrkeotsing
           href: attract-troubleshoot-linkedin.md
         - name: Analüütilisi aruandeid ei värskendata

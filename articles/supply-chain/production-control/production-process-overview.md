@@ -3,7 +3,7 @@ title: Tootmisprotsessi ülevaade
 description: See teema annab ülevaate tootmisprotsessidest. Selles kirjeldatakse mitmesuguseid tootmistellimuste, partiitellimuste ja kanbanide etappe, alates tellimuse loomisest kuni rahandusperioodi sulgemiseni.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd529afa5d8117e01784ed267709e1ac8c43290d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b586a02d79fbbee698f32ab2ace3f86e7262fa7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546659"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250010"
 ---
 # <a name="production-process-overview"></a>Tootmisprotsessi ülevaade
 
@@ -36,12 +36,12 @@ Toodete tootmine, protsess, mida nimetatakse ka tootmise töötsükliks, järgib
 
 Moodul **Tootmise juhtimine** on seotud teiste moodulitega, nagu **Tooteteabe haldus**, **Varude haldus**, **Pearaamat**, **Laohaldus**, **Projekti raamatupidamine** ja **Organisatsiooni administreerimine**. Selline integreeritus toetab teabevoogu, mida on vaja valmis kauba tootmiseks.  
 
-Tavaliselt mõjutavad tootmisprotsessi kindla tootmisprotsessi jaoks valitud kuluarvestuse ja varude hindamise meetodid. Finance and Operations toetab nii tegeliku kulu (esimesena sisse, esimesena välja \[FIFO\], viimasena sisse, esimesena välja \[LIFO\], liikuv keskmine ja perioodiline kaalutud keskmine) kui ka standardkulu meetodit. Lean manufacturingit rakendatakse omahinna tagasiarvestuse põhimõtte alusel.  
+Tavaliselt mõjutavad tootmisprotsessi kindla tootmisprotsessi jaoks valitud kuluarvestuse ja varude hindamise meetodid. Supply Chain Management toetab nii tegeliku kulu (esimesena sisse, esimesena välja \[FIFO\], viimasena sisse, esimesena välja \[LIFO\], liikuv keskmine ja perioodiline kaalutud keskmine) kui ka standardkulu meetodit. Lean manufacturingit rakendatakse omahinna tagasiarvestuse põhimõtte alusel.  
 
 Kulumõõtmismeetodite valik määratleb ka tootmisprotsessi materjalide ja ressursside tarbimise aruandluse nõuded. Tavaliselt nõuavad tegeliku kulu meetodid täpset aruandlust töö tasemel, samas kui perioodilise kuluarvestuse meetodid võimaldavad esitada materjalide ja ressursside tarbimise kohta üldisema aruande.
 
 ## <a name="mixed-mode-manufacturing"></a>Tootmise segarežiim
-Erinevad toodete ja tootmise topoloogiad nõuavad erinevate tellimustüüpide rakendamist. Finance and Operations saab rakendada erinevaid tellimusetüüpe segarežiimis. Teisisõnu võib kogu tootmisprotsessi käigus kuni valmistooteni esineda kõiki tellimusetüüpe.
+Erinevad toodete ja tootmise topoloogiad nõuavad erinevate tellimustüüpide rakendamist. Supply Chain Managementi saab rakendada erinevaid tellimusetüüpe segarežiimis. Teisisõnu võib kogu tootmisprotsessi käigus kuni valmistooteni esineda kõiki tellimusetüüpe.
 
 -   **Tootmistellimus** – see on klassikaline tellimus kindla toote või tootevariandi antud koguse tootmiseks kindlal kuupäeval. Tootmistellimused põhinevate kooslustel ja protsessidel.
 -   **Partii tellimus** – seda tüüpi tellimust kasutatakse protsessi harude ja diskreetsete protsesside puhul, kus tootmise teisendus põhineb valemil või kus kaastooted ja kõrvalsaadused võivad olla lõpptooted kas põhitootele lisaks või selle asemel. Partii tellimused kasutavad **valemi** tüüpi kooslusi ja protsesse.

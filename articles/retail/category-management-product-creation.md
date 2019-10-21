@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bcc5989edd9913fce414c0c24068f111d8c1aeb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 27870fe6172479b891b885d9e84ca10b250e3399
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553622"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019502"
 ---
 # <a name="manage-retail-product-categories-and-products"></a>Retaili tootekategooriate ja toodete haldamine
 
 [!include [banner](./includes/banner.md)]
 
-Selles teemas kirjeldatakse täiustatud viisi jaemüügi tootekategooriate ja toodete haldamiseks rakendusesMicrosoft Dynamics 365 for Retail. Täiustused võimaldavad tootejuhtidel vaadata tooteatribuutide üldist struktuuri Retaili tootehierarhia ja väljastatud toote üksikasjade vahel.
+Selles teemas kirjeldatakse täiustatud viisi tootekategooriate ja toodete haldamiseks rakenduses Dynamics 365 Retail. Täiustused võimaldavad tootejuhtidel vaadata tooteatribuutide üldist struktuuri tootehierarhia ja väljastatud toote üksikasjade vahel.
 
-Lisateavet Retaili tootekategooriate haldamise kohta vaadake tööruumi **Kategooria ja toote haldus** tööruumi paanilt **Retaili tootehierarhia**.
+Lisateavet tootekategooriate haldamise kohta vaadake tööruumi **Kategooria ja toote haldus** tööruumi paanilt **Retaili tootehierarhia**.
 
-Pange tähele kuvatava lehe **Retaili tootehierarhia** täiustatud struktuuri. Retaili varasemates versioonides olid toote atribuudid jagatud kohaldatava ulatuse alusel *toote põhiatribuutideks* ja *Retaili tooteatribuutideks*. Retaili tooteatribuudid on kohaldatava ulatuse järgi *globaalsed*. Teisisõnu: antud Retaili tooteatribuudi puhul jagatakse sama väärtust kõigi juriidiliste isikute lõikes. See-eest toote põhiatribuudid on *juriidilise isiku põhised*. Teisisõnu: antud toote põhiatribuudi korral võib väärtus juriidiliste isikute lõikes erineda, olenevalt iga juriidilise isiku ärivajadustest.
+Pange tähele kuvatava lehe **Retaili tootehierarhia** täiustatud struktuuri. Retaili varasemates versioonides olid toote atribuudid jagatud kohaldatava ulatuse alusel *toote põhiatribuutideks* ja *Retaili tooteatribuutideks*. Retaili tooteatribuudid on kohaldatava ulatuse järgi *globaalsed*. Teisisõnu: antud tooteatribuudi puhul jagatakse sama väärtust kõigi juriidiliste isikute lõikes. See-eest toote põhiatribuudid on *juriidilise isiku põhised*. Teisisõnu: antud toote põhiatribuudi korral võib väärtus juriidiliste isikute lõikes erineda, olenevalt iga juriidilise isiku ärivajadustest.
 
-Retaili tootekategooria täiustatud struktuuris on tooteatribuudid loogiliselt eraldatud nende kohalduvuse alusel grupis, peegeldades väljastatud toote üksikasjade vormi struktuuri.
+Tootekategooria täiustatud struktuuris on tooteatribuudid loogiliselt eraldatud nende kohalduvuse alusel grupis, peegeldades väljastatud toote üksikasjade vormi struktuuri.
 
 ![Väljade grupeerimine atribuutide kohaldatavuse ulatuse põhjal](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
@@ -50,7 +50,7 @@ Konkreetse juriidilise isiku atribuutide haldamiseks valige **Kuva konkreetse ju
 
 ![Kuvamine/redigeerimine konkreetse juriidilise isiku puhul](media/ToggleToEditForAllLegalEntities.PNG)
 
-Lisaks saab tootejuht täiustatud Retaili tootekategooria struktuuris määrata nüüd vaikeväärtusi täiendavale tooteatribuutide kogumile eraldi kategooria tasandil. Seejärel pärivad tooted loomise ajal need tooteatribuudi vaikeväärtused, põhinedes nende atribuutide seosel individuaalse kategooriaga Retaili tootehierarhiast. Neid päritud tooteatribuute saab ka iga toote puhul muuta, et need oleksid konkreetse äri vajadustega kooskõlas.
+Lisaks saab tootejuht täiustatud Retaili tootekategooria struktuuris määrata nüüd vaikeväärtusi täiendavale tooteatribuutide kogumile eraldi kategooria tasandil. Seejärel pärivad tooted loomise ajal need tooteatribuudi vaikeväärtused, põhinedes nende atribuutide seosel individuaalse kategooriaga tootehierarhiast. Neid päritud tooteatribuute saab ka iga toote puhul muuta, et need oleksid konkreetse äri vajadustega kooskõlas.
 
 ## <a name="selecting-properties-to-update-products-on-the-retail-product-hierarchy-page"></a>Atribuutide valimine toodete värskendamiseks Retaili hierarhia lehelt
 

@@ -1,6 +1,6 @@
 ---
 title: Tooteotsing ja kliendiotsing kassas
-description: Selles teemas antakse ülevaade toote ja kliendi otsingufunktsiooni täiustustest rakenduses Microsoft Dynamics 365 for Retail.
+description: Selles teemas antakse ülevaade toote ja kliendi otsingufunktsiooni täiustustest rakenduses Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: 60db9e9936f7728d76f5c7a0d0c31b33477c7c61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625638"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023678"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Tooteotsing ja kliendiotsing kassas
 
@@ -99,7 +99,10 @@ Tavaline kliendiotsing võib olla aeganõudev, sest selle käigus otsitakse mitm
 
 ![Kliendiotsingu kiirklahvid](./media/SearchShortcutsPOS.png "Kliendiotsingu kiirklahvid")
 
-Otsingukriteeriumide määramiseks kiirklahvidena peab administraator rakenduses Microsoft Dynamics 365 for Finance and Operations avama lehe **Jaemüügi parameetrid** ja seejärel vahekaardil **Kassa otsingukriteeriumid** valima kriteeriumid, mis tuleks kuvada kiirklahvidena.
+
+
+Otsingukriteeriumide määramiseks kiirklahvidena peab administraator rakenduses Microsoft Dynamics 365 Retail avama lehe **Jaemüügi parameetrid** ja seejärel vahekaardil **Kassa otsingukriteeriumid** valima kriteeriumid, mis tuleks kuvada kiirklahvidena.
+
 
 ![Otsingu kiirklahvide konfigureerimine](./media/ConfigureShortcutsAX.png "Otsingu kiirklahvide konfigureerimine")
 
@@ -111,6 +114,6 @@ Väli **Kuvamisjärjestus** määratleb, millises järjekorras kiirklahve kassas
 > [!NOTE]
 > Loetellu lisatud kohandatud atribuut ei mõjuta standardset kliendiotsingu algoritmi. Teisisõnu, kliendiotsingu algoritm ei otsi kohandatud atribuudist. Kasutajad saavad kohandatud atribuuti otsingute jaoks kasutada ainult siis, kui kohandatud atribuut on lisatud kiirklahvina või otsingu vaikealgoritm on alistatud.
 
-Tarkvara Microsoft Dynamics 365 for Retail tulevases väljalaskes saavad jaemüüjad määrata kassas kliendiotsingu režiimi vaiketüübiks **Otsing kõigist kauplustest**. See konfiguratsioon võib olla kasulik olukordades, kus väljaspool kassat loodud kliente tuleb otsida kohe (nt enne levitamise töö käitamist). Uus suvand **Kliendiotsingu režiimi vaiketüüp** on saadaval kassa funktsiooniprofiilil. Määrake see olekusse **Sees**, et seada vaikimisi otsingurežiim suvandile **Otsing kõigist kauplustest**. Iga kliendi otsingu katse saadab seejärel peakontorisse reaalajas taotluse.
+Retaili tulevases väljalaskes saavad jaemüüjad määrata kassas kliendiotsingu režiimi vaiketüübiks **Otsing kõigist kauplustest**. See konfiguratsioon võib olla kasulik olukordades, kus väljaspool kassat loodud kliente tuleb otsida kohe (nt enne levitamise töö käitamist). Uus suvand **Kliendiotsingu režiimi vaiketüüp** on saadaval kassa funktsiooniprofiilil. Määrake see olekusse **Sees**, et seada vaikimisi otsingurežiim suvandile **Otsing kõigist kauplustest**. Iga kliendi otsingu katse saadab seejärel peakontorisse reaalajas taotluse.
 
 Ootamatute jõudlusprobleemide vältimiseks on see konfiguratsioon peidetud eelväljaande lipu taha, mille nimi on **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Seega kasutajaliidese seadistuse **Kliendiotsingu režiimi vaiketüüp** kuvamiseks peaks jaemüüja looma kasutaja vastuvõtu testimise (UAT) ja tootmiskeskkonnas tugiteenusepileti. Pärast pileti kättesaamist teeb inseneride töörühm jaemüüjaga koostööd, et kindlustada, et jaemüüja testiks oma mitte-tootmiskeskkondades, et hinnata jõudlust ja rakendada vajalikud optimeerimised.

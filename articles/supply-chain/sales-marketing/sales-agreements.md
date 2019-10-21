@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14801f3aa486da3af252695a3e2ccd58c0e9059
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 37378b85b90f91c74da717f0a25c1847ac0b1598
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865965"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251289"
 ---
 # <a name="sales-agreements-overview"></a>Müügilepingute ülevaade
 
@@ -99,14 +99,14 @@ Kui olete loonud (väljastanud) müügilepinguga seotud müügitellimuse, saate 
 | Kogus                                                          | Kui määrate koguse, mis ületab kogust müügilepingu real, kus märgitud on ruut **Maksimaalne on jõustatud**, kuvatakse sõnumiviip, milles palutakse teil muudetud kogus salvestada. Klõpsake valikut **Jah**, et eemaldada link müügilepingu reaga ja hind ümber arvutada. Klõpsake valikut **Ei**, et eemaldada link müügilepingu reaga ilma hinda ümber arvutamata.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Müügilepingu alusel tellitud kauba tagastamine
-Kui klient tagastab toote, mis oli tellitud müügilepingust, saab Microsoft Dynamics 365 for Finance and Operations leida ja automaatselt värskendada seotud müügilepingu kohustust, et näidata koguse või summa muutust. Algse müügilepinguga lingitud müügitellimuse põhjal tagastustellimust luues loote lingi müügilepingu kohustuse, müügitellimuse rea ja tagastustellimuse arve vahel.  
+Kui klient tagastab toote, mis on tellitud müügilepingu alusel, saab Supply Chain Management seotud müügilepingu kohustuse leida ja seda automaatselt värskendada, et kajastada koguse või summa muutust. Algse müügilepinguga lingitud müügitellimuse põhjal tagastustellimust luues loote lingi müügilepingu kohustuse, müügitellimuse rea ja tagastustellimuse arve vahel.  
 
 Kui te ei soovi tagastatud kauba kogust müügilepingu kohustusest lahutada, saate kasutada lehel **Tagastustellimus** juhtnuppu **Eemalda link**, et eemaldada tagastustellimuse ja müügilepingu kohustuse vaheline link. Kui peate lingi hiljem uuesti looma, klõpsake nuppu **Loo link**.  
 
 **Märkus.** Tagastustellimust saab linkida ainult ühe müügilepinguga. Kui klient tagastab mitu toodet, mis on tellitud rohkem kui ühe müügilepingu alusel, peate looma igale tootele uue tagastustellimuse ja lingi vastava müügilepinguga.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Müügilepingute automaatne otsimine
-Mõnes olukorras, kui müügitellimus luuakse kaudselt, nt kreeditarve või kontsernisiseste müügitellimuste loomisel, saate määrata, kas Microsoft Dynamics 365 for Finance and Operations otsib rakendatavaid müügilepinguid automaatselt.
+Mõnes olukorras, kui müügitellimus luuakse kaudselt, nt kreeditarve või kontsernisiseste müügitellimuste loomisel, saate määrata, kas süsteem otsib rakendatavaid müügilepinguid automaatselt.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Müügilepingute finantsdimensioonid
 Saate kopeerida finantsdimensioonid kas dokumendipäistesse või müügilepingu üksikutele ridadele. Saate mis tahes lepingupäises või lepingureal olevaid dimensioone igal ajal muuta. Sellisel juhul kopeeritakse dimensioonid automaatselt väljastuspäisesse või väljalaskeorderite väljastusreale.

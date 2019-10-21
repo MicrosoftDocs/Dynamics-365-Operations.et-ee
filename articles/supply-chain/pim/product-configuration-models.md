@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 883337979201b3059b301b7aebf9952a70016989
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563593"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250617"
 ---
 # <a name="product-configuration-models-overview"></a>Toote konfiguratsioonimudelite ülevaade
 
@@ -118,10 +118,10 @@ Kui atribuudi tüüp on <strong>Kahendmuutuja</strong>, vahemikuga <strong>Täis
 </tr>
 </tbody>
 </table>
-Süsteemi määratletud tabeli piirang tähistab tarkvara Finance and Operationsi tabeli atribuudi tüübi ja välja vahelist vastendust. Süsteemi määratud tabeli piirang seob atribuudi tüübi dünaamiliselt väljaga. Link lubab atribuudi toote konfiguratsioonimudelis, et kajastada välja andmeid Finance and Operationsi tabelis.</td>
+Süsteemi määratletud tabeli piirang tähistab tarkvara Finance and Operationsi tabeli atribuudi tüübi ja välja vahelist vastendust. Süsteemi määratud tabeli piirang seob atribuudi tüübi dünaamiliselt väljaga. Link lubab atribuudi toote konfiguratsioonimudelis, et kajastada välja andmeid Tarneahela haldamise tabelis.</td>
 </tr>
 <tr class="odd">
-<td>Arvestused</td>
+<td>Arvutamised</td>
 <td>Arvutused kujutavad endast piirangute täiendust. Saate kasutada arvutust aritmeetilistes tehetes tüübiga <strong>Kümnendarv</strong> ja <strong>Täisarv</strong> või loogikatehete puhul, mis hõlmavad fikseeritud loendiga <strong>teksti</strong> ja <strong>kahendmuutuja</strong> tüüpi atribuute. Arvutusel on sihtatribuut, milles on arvutusavaldise tulemus. Arvutusavaldis koostatakse avaldiseredaktori abil.</td>
 </tr>
 <tr class="even">

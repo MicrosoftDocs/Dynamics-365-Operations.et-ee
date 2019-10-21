@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f15c6c5ccdcddebe7aa428cff48ca6e3b120d7f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: bd963caed7f49db5dd7550dd30c3f831318d2b7a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783209"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250894"
 ---
 # <a name="create-an-asset"></a>Vara loomine
 
@@ -63,12 +63,12 @@ Väljad **Teenuse tase** ja **Kriitilisus** on seotud vara jaoks loodud töökä
 
 ## <a name="asset"></a>Vara
 
-Varale saate teha valiku **Ressurss**. Ressursi valik määratleb, millist kalendrit kasutatakse töökäsu planeerimisel. Ressursi valikut kasutatakse sageli põhivarade puhul. Rakenduses Dynamics 365 for Finance and Operations seadistatakse ressursid ja ressursigrupid valikus **Organisatsiooni haldus** > **Ressurssid** > **Ressursigrupid** või **Ressurssid**.
+Varale saate teha valiku **Ressurss**. Ressursi valik määratleb, millist kalendrit kasutatakse töökäsu planeerimisel. Ressursi valikut kasutatakse sageli põhivarade puhul. Ressursid ja ressursigrupid seadistatakse valikus **Organisatsiooni haldus** > **Ressursid** > **Ressursigrupid** või **Ressursid**.
 
 Väljal **Põhivara number** saate valida põhivaraga seotava vara. See on oluline, kui teie vara on seotud investeerimisprojektiga.
 
 - Kui vara on seotud põhivaraga, saate luua töökäsu tüübi, mida kasutatakse investeerimisprojektiga seotud töökäskude puhul. 
-- Vara põhivarade teave on seotud rakenduse Dynamics 365 for Finance and Operations mooduliga **Põhivarad**. See tähendab, et valikust **Põhivarad** > **Põhivarad** > **Põhivarad** saate ülevaate mooduli Asset Management projektidest, mis võivad olla seotud põhivaraga, kui valite loendist vara ja vaatate sisu paani **Seotud teave**  > jaotisest **Seotud projektid**.
+- Vara põhivarade teave on seotud rakenduse Dynamics 365 Supply Chain Management mooduliga **Põhivarad**. See tähendab, et valikust **Põhivarad** > **Põhivarad** > **Põhivarad** saate ülevaate mooduli Asset Management projektidest, mis võivad olla seotud põhivaraga, kui valite loendist vara ja vaatate sisu paani **Seotud teave**  > jaotisest **Seotud projektid**.
 
 
 ## <a name="details"></a>Üksikasjad

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83d969fcc59af87da3921225974ebc2ae41d9fa1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572830"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250986"
 ---
 # <a name="merge-inventory-batches"></a>Varupartiide ühendamine
 
@@ -89,7 +89,7 @@ Ei, saate ühendada ainult neid partiisid, millel on samad laoala ja lao dimensi
 Ei, saate ühendada ainult partiide tervikkoguseid. Partii ühendamise funktsioon on mõeldud varude funktsioonina, mitte tootmisfunktsioonina.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>Mis juhtub, kui partiidel on erinevad partiiatribuudi väärtused?
-Ühendatud partii loomiseks lähtepartiide valimisel kontrollib Finance and Operations, kas kõigil partiidel on omadused või atribuudiväärtused. Kui atribuudi väärtus on sama, soovitatakse ühendatud partiile väärtust. Seda väärtust saate muuta. Mittekattuvad atribuudiväärtused jäetakse ühendatud partii puhul tühjaks ja saate need väärtused käsitsi sisestada. Kui atribuudiväärtuse partiiatribuudi tüüp on täisarv või murdarv ning väärtused pole kõigi lähtepartiide puhul samad, arvutatakse väärtus kaalutud keskmise alusel. Arvutatud väärtus ümardatakse üles või alla lähima täisarvuni. Kui lähtepartii puhul väärtus puudub, siis partiid ja selle kogust arvutusse ei kaasata. **Näide** Järgmine näide kujutab ühendatud partii kaalutud keskmise arvutamist. Kahe lähtepartii partiiatribuudi tüübil, mis on täisarv, on tühi väärtus. Lähtepartiidele määratakse järgmine atribuut.
+Ühendatud partii loomiseks lähtepartiide valimisel kontrollib Supply Chain Management, kas kõigil partiidel on omadused või atribuudiväärtused. Kui atribuudi väärtus on sama, soovitatakse ühendatud partiile väärtust. Seda väärtust saate muuta. Mittekattuvad atribuudiväärtused jäetakse ühendatud partii puhul tühjaks ja saate need väärtused käsitsi sisestada. Kui atribuudiväärtuse partiiatribuudi tüüp on täisarv või murdarv ning väärtused pole kõigi lähtepartiide puhul samad, arvutatakse väärtus kaalutud keskmise alusel. Arvutatud väärtus ümardatakse üles või alla lähima täisarvuni. Kui lähtepartii puhul väärtus puudub, siis partiid ja selle kogust arvutusse ei kaasata. **Näide** Järgmine näide kujutab ühendatud partii kaalutud keskmise arvutamist. Kahe lähtepartii partiiatribuudi tüübil, mis on täisarv, on tühi väärtus. Lähtepartiidele määratakse järgmine atribuut.
 
 | Atribuut | Miinimum | Suurenemine | Maksimum |
 |-----------|---------|-----------|---------|

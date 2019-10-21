@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 72f4d248f3ac49bbfd8e5a7a12352d92b89bb0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb02bdeca2d71d84ebdddfd16d471a532823e42
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564943"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025191"
 ---
 # <a name="retail-price-reports"></a>Jaemüügihinna aruanded
 
 [!include [banner](includes/banner.md)]
 
 
-Klientidele konkurentsivõimeliste hindade pakkumiseks muudavad jaemüüjad sageli toodete hinda. Kauplusejuhatajad soovivad hõlpsat juurdepääsu hiljutistele või tulevastele hinnamuutustele, et saaksid plaanida poeriiulitel olevate hinnasiltide värskendamiseks vajalikke ressursse. Rakenduse Dynamics 365 for Retail versioonis 10.0 saab kaupluse juhataja aruande **Hind**, navigeerides jaotisse **Kõik jaekauplused \> Kauplus \> Hinnaaruanne** ja vaadates kauplusega seotud toodete värskendatud hindu. 
+Klientidele konkurentsivõimeliste hindade pakkumiseks muudavad jaemüüjad sageli toodete hinda. Kauplusejuhatajad soovivad hõlpsat juurdepääsu hiljutistele või tulevastele hinnamuutustele, et saaksid plaanida poeriiulitel olevate hinnasiltide värskendamiseks vajalikke ressursse. Rakenduse Retail versioonis 10.0 saab kaupluse juhataja aruande **Hind**, navigeerides jaotisse **Kõik jaekauplused \> Kauplus \> Hinnaaruanne** ja vaadates kauplusega seotud toodete värskendatud hindu. 
 
 Hinnaaruande lubamiseks peab parameeter **Luba jaekaupluse puhul hinnaaruanne** olema sisse lülitatud. See parameeter asub vahekaardil **Jaemüügi parameetrid \> Allahindlused \> Mitmesugust**. Lehe **Hinnaaruanne** avamisel kuvatakse dialoogiboks mitmesuguste konfiguratsioonidega. Allpool on loetletud saadaolevad konfiguratsioonid.
 

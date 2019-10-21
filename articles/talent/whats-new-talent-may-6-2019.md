@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (6. mai 2019)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (6. mai 2019)
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/06/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c541bac532e878c8493a60d95c05c9104d4b96e1
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 6a4571abdb0e104af0a0657c75bf5a6b5764345a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741540"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023857"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-6-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (6. mai 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (6. mai 2019)
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="changes-in-attract"></a>Muutused Attractis
 
@@ -39,15 +39,15 @@ Kui valite pakkumise paketimalli, viipab Attract teid nüüd valima sobivaid, li
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
 
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Onboard veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 
 Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2282. Sulgudes olevad numbrid mõnedes pealkirjades viitavad toenumbritele teenuses Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-26"></a>Platvormivärskendus update 26
+### <a name="platform-update-26-for-finance-and-operations"></a>Finance and Operationsi 26. platvormi värskendus
 
-Lisainfo saamiseks platvormi värskenduse 26 kohta vt [Dynamics 365 for Finance and Operations platvormi värskenduse 26 (mai, 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+Finance and Operationsi platvormivärskenduse 26 kohta lisainfo saamiseks vt [Dynamics 365 Finance and Operations platvormivärskenduse 26 (mai 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Common Data Service'i üksuse tugi kohandatud väljadele
 
@@ -67,7 +67,7 @@ Selle väljalaskega saate nüüd värskendada finantsdimensiooni, kasutades funk
 
 ### <a name="worker-address-created-in-common-data-service-isnt-synced-to-talent-317555"></a>Common Data Service'is loodud töötaja aadress pole Talentiga sünkroonitud (317555)
 
-Selle muudatusega värskendatakse aadressi, mis on loodud Common Data Service'is rakendusega Talent Core HR.
+Selle muudatusega värskendatakse aadressi, mis on loodud Common Data Service’is rakendusega Talent: Core HR.
 
 
 ## <a name="in-preview"></a>Eelvaates

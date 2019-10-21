@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00d7457b13e6633c9285a1fc43b8f6dd60dae9ae
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 555098a7d11cb0b4c0f90357ff260598e80108f5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836528"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017916"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Kattuvate allahindluste optimaalse kombinatsiooni määratlemine
 
@@ -32,7 +32,7 @@ ms.locfileid: "1836528"
 
 Kui allahindlused kattuvad, siis peate määrama kattuvate allahindluste kombinatsiooni, mis annab kõige suurema koondallahindluse kõige väiksema kande koondsumma. Kui allahindluse summa ostetavate toodete hinna alusel erineb, nt tavapärase „ostke 1, saate X protsenti allahindlust” (BOGO) jaeallahindluse korral, saab sellest protsessist kombinatoorse optimeerimise küsimus.
 
-See artikkel kehtib Microsoft Dynamics AX 2012 R3 KB-ga 3105973 (välja antud 2. novembril 2015) või uuema ja Microsoft Dynamics 365 for Retaili puhul. Kattuvate allahindluste kombinatsiooni õigeaegse rakendamise määramiseks oleme võtnud kasutusele kattuvate allahindluste rakendamise meetodi. Nimetame seda uut meetodit **marginaali väärtuse hindamiseks**. Marginaali väärtuse hindamist kasutatakse, kui aeg, mis on vajalik kattuvate allahindluste võimalike kombinatsioonide hindamiseks, ületab lehel **Jaemüügi parameetrid** konfigureeritava läve. Marginaali väärtuse hindamise meetodis arvutatakse iga kattuva allahindluse väärtus, kasutades jagatud toodete allahindluse väärtust. Seejärel rakendatakse kattuvad allahindlused kõrgeimast suhtelisest väärtusest madalaima suhtelise väärtuseni. Uue meetodi üksikasjad leiate selle artikli edasisest jaotisest „Marginaali väärtus”. Marginaali väärtuse hindamist ei kasutata, kui toote allahindluse summasid ei mõjuta kande teine toode. Näiteks ei kasutata seda meetodit kahe lihtsa allahindluse või lihtsa allahindluse ja üksiku toote koguse allahindluse puhul.
+See artikkel kehtib Microsoft Dynamics AX 2012 R3 KB-ga 3105973 (välja antud 2. novembril 2015) või uuema ja Dynamics 365 Retaili puhul. Kattuvate allahindluste kombinatsiooni õigeaegse rakendamise määramiseks oleme võtnud kasutusele kattuvate allahindluste rakendamise meetodi. Nimetame seda uut meetodit **marginaali väärtuse hindamiseks**. Marginaali väärtuse hindamist kasutatakse, kui aeg, mis on vajalik kattuvate allahindluste võimalike kombinatsioonide hindamiseks, ületab lehel **Jaemüügi parameetrid** konfigureeritava läve. Marginaali väärtuse hindamise meetodis arvutatakse iga kattuva allahindluse väärtus, kasutades jagatud toodete allahindluse väärtust. Seejärel rakendatakse kattuvad allahindlused kõrgeimast suhtelisest väärtusest madalaima suhtelise väärtuseni. Uue meetodi üksikasjad leiate selle artikli edasisest jaotisest „Marginaali väärtus”. Marginaali väärtuse hindamist ei kasutata, kui toote allahindluse summasid ei mõjuta kande teine toode. Näiteks ei kasutata seda meetodit kahe lihtsa allahindluse või lihtsa allahindluse ja üksiku toote koguse allahindluse puhul.
 
 ## <a name="discount-examples"></a>Allahindluse näited
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 03e090633276cd264ad03f561ddb425a9816357e
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847501"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024633"
 ---
 # <a name="create-maintenance-requests"></a>Hooldustaotluste loomine
 
@@ -41,7 +41,7 @@ Jaotis **Aktiivsed hoolduse taotlused** paanil **Seotud teave** lehe **Kõik var
 2. Valige suvand **Uus**.
 3. Dialoogiboksis **Loo taotlus** väljal **Hoolduse taotluse tüüp** valige hooldustaotluse tüüp. Soovitatakse vaiketüüpi.
 4. Väljale **Kirjeldus** sisestage nimi või pealkiri, mis kirjeldab lühidalt hooldustaotlust.
-5. Väljadel **Funktsionaalne asukoht** ja **Vara** valige funktsionaalne asukoht või vara või funktsionaalse asukoha ja vara kombinatsioon, nii nagu soovite. Hooldustaotlust saate luua ilma vara valimata ja vara saab hooldustaotlusele hiljem lisada. Kui hooldustöötaja, kes on sisse logitud rakendusse Microsoft Dynamics 365 for Finance and Operations on seotud varaga seotud ressursiga, sätestatakse väli **Vara** automaatselt.
+5. Väljadel **Funktsionaalne asukoht** ja **Vara** valige funktsionaalne asukoht või vara või funktsionaalse asukoha ja vara kombinatsioon, nii nagu soovite. Hooldustaotlust saate luua ilma vara valimata ja vara saab hooldustaotlusele hiljem lisada. Kui hooldustöötaja, kes on sisse logitud, on seotud varaga seotud ressursiga, sätestatakse väli **Vara** automaatselt.
 
     Kui hoolduspäring on valitud varale juba manustatud, kuvatakse dialoogiboksi **Loo taotlus** ülaosas teateriba, mis teavitab teid olemasoleva hooldustaotluse ID-st. Sõnumiriba teavitab teid ka sellest, kas varal on garantiileping.
 

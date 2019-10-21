@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 98784c11c7393bb4c3e022d5bff4cca2daa1636e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572076"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025441"
 ---
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Jaemüügikassa paigutuse kujundaja installimine
 
@@ -36,11 +36,11 @@ Uudse jaemüügikassa (MPOS) või pilve kassa graafilist kujundust juhib kassasa
 
 ## <a name="install-the-one-click-designer"></a>Ühe klõpsuga kujundaja installimine
 
-1. Rakenduses Microsoft Dynamics 365 for Retail kasutage vasakut ülamenüüd, et navigeerida asukohta **Jaemüük** **ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa** &gt; **Ekraanipaigutused**.
+1. Rakenduses Retail kasutage vasakut ülamenüüd, et navigeerida asukohta **Jaemüük** **ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa** &gt; **Ekraanipaigutused**.
 2. Valige mis tahes paigutus, millel on rakenduse tüüp **Modern POS Windowsi jaoks** või **Pilve POS** ja klõpsake seejärel valikut **Paigutusekujundaja**.
 3. Ühe klõpsuga kujundaja installi käivitamiseks klõpsake Internet Exploreri akna alumisse ossa ilmuval teavitusribal käsku **Ava**. (Teistes brauserites võib teavitusriba ilmuda kusagile mujale.)
 4. Ilmuvas teateaknas **Rakenduse käivitamine - turbehoiatus** klõpsake valikut **Käivita**, et installida jaemüügikujundaja host. Installi edenemist näitab edenemisnäidik.
-5. Pärast installi lõpulejõudmist sisestage kujundaja käivitamiseks lehel **Sisselogimine** oma Microsoft Dynamics 365 for Retaili kasutajanimi ja parool ning klõpsake valikut **Sisselogimine**.
+5. Pärast installi lõpulejõudmist sisestage kujundaja käivitamiseks lehel **Sisselogimine** oma Retaili kasutajanimi ja parool ning klõpsake valikut **Sisselogimine**.
 6. Pärast mandaatide kinnitamist ja kujundaja käivitamist saate kujundada oma enda paigutuse või muuta olemasolevat paigutust.
 
     [![Paigutus ühe klõpsuga kujundajas](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
@@ -52,11 +52,11 @@ Uudse jaemüügikassa (MPOS) või pilve kassa graafilist kujundust juhib kassasa
     **Lahendused**
 
     - Internet Exploreris veenduge, et hüpikakna blokeerija oleks selle saidi puhul keelatud. Klõpsake suvandeid **Sätted** &gt; **Suvandid** &gt; **Privaatsus** &gt; **Hüpikakna blokeerija leidmine** ja muutke sätet, kui muutmine on vajalik.
-    - Lisage Internet Exploreris Dynamics 365 for Retaili URL usaldusväärsete saitide loendisse. Klõpsake suvandeid **Sätted** &gt; **Suvandid** &gt; **Turve** &gt; **Usaldusväärsed saidid** &gt; **Saidid** &gt; **Lisa**.
+    - Lisage Internet Exploreris Retaili URL usaldusväärsete saitide loendisse. Klõpsake suvandeid **Sätted** &gt; **Suvandid** &gt; **Turve** &gt; **Usaldusväärsed saidid** &gt; **Saidid** &gt; **Lisa**.
 
 - Programm ei käivitu ja teil palutakse hankijaga ühendust võtta.
 
-    **Lahendus.** Lisage Internet Exploreris Dynamics 365 for Retaili URL usaldusväärsete saitide loendisse. Klõpsake valikuid **Säte** &gt; **Suvandid** &gt; **Turve** &gt; **Usaldusväärsed saidid** &gt; **Saidid** &gt; **Lisa**.
+    **Lahendus.** Lisage Internet Exploreris Retaili URL usaldusväärsete saitide loendisse. Klõpsake valikuid **Säte** &gt; **Suvandid** &gt; **Turve** &gt; **Usaldusväärsed saidid** &gt; **Saidid** &gt; **Lisa**.
 
 **Teadaolev probleem:** kujundaja ei tööta õigesti brauserites Google Chrome ja Mozilla Firefox. Töötame selle probleemi lahendamiseks.
 

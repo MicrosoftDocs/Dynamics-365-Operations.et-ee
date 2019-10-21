@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e600e1d2bb4bc1a49d55fb58b3e74fa7e13fc2af
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556433"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017893"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Vahetuse ja sularahasahtli haldamine
 
@@ -32,7 +32,7 @@ ms.locfileid: "1556433"
 
 Selles teemas selgitatakse, kuidas häälestada ja kasutada vahetusi jaemüügikassas (POS).
 
-Rakenduses Microsoft Dynamics 365 for Retail kirjeldab termin *vahetus* kogumit kassa kandeandmetest ja tegevustest kahe ajahetke vahel. Iga vahetuse korral võrreldakse eeldatud rahasummat loendatud ja deklareeritud summaga.
+Rakenduses Dynamics 365 Retail kirjeldab termin *vahetus* kogumit kassa kandeandmetest ja tegevustest kahe ajahetke vahel. Iga vahetuse korral võrreldakse eeldatud rahasummat loendatud ja deklareeritud summaga.
 
 Tavaliselt avatakse vahetused tööpäeva alguses. Sel hetkel deklareerib kasutaja algsumma, mis on sularahasahtlis. Seejärel tehakse kogu päeva jooksul müügikandeid. Päeva lõpus loetakse sahtel üle ja deklareeritakse sulgemissummad. Vahetus suletakse ja luuakse Z-aruanne. Z-aruanne näitab, kas esineb ülejääki või puudujääki.
 
@@ -69,7 +69,7 @@ Et kaupluses saaks kasutada ühiseid vahetusi, peab sularahasahtel olema konfigu
 
 ## <a name="shift-and-drawer-operations"></a>Vahetuse ja sahtli toimingud
 
-Vahetuse oleku muutmiseks või sularahasahtlis oleva rahasumma suurendamiseks või vähendamiseks saab teha erinevaid toiminguid. Selles jaotises kirjeldatakse neid vahetusetoiminguid rakenduse Microsoft Dynamics 365 for Retail Modern POS-i ja pilvekassa puhul.
+Vahetuse oleku muutmiseks või sularahasahtlis oleva rahasumma suurendamiseks või vähendamiseks saab teha erinevaid toiminguid. Selles jaotises kirjeldatakse neid vahetusetoiminguid rakenduse Retail Modern POS ja pilvekassa puhul.
 
 ### <a name="open-shift"></a>Avatud vahetus
 

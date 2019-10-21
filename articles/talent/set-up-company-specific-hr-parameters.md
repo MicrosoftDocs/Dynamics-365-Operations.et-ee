@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 00facce5913fb82f67c5844d74d29032735db707
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d95429dde38a7a528b1c1d9036194a3bf8e6f986
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506099"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009441"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Ettevõttekohaste inimressursside (HR) parameetrite seadistamine
 
@@ -34,7 +34,7 @@ Mõne inimressursside (HR) parameetri sätteid jagatakse ettevõtete vahel, sama
 Inimressursside (HR) parameetrite määramiseks kasutatakse kahte lehte. Ettevõtetes ühiskasutatavate parameetrite puhul kasutate lehte **Inimressursside ühiskasutusega parameetrid**. Ettevõttekohaste parameetrite (teisisõnu sätted, mis rakenduvad ühele ettevõttele) puhul kasutate lehte **Inimressursside parameetrid**. Lehel **Inimressursside parameetrid** jaotatakse sätted kuue vahekaardi vahel.
 
 -   Üldine
--   Värbamine – see ei sisaldu rakenduses Dynamics 365 for Talent
+-   Värbamine – see ei sisaldu rakenduses Dynamics 365 Talent
 -   Kompensatsioon
 -   Numbriseeriad
 -   Perekondlikel ja meditsiinilistel põhjustel puudumine (FMLA)
@@ -49,7 +49,7 @@ Vahekaardil **Hüvitus** olevad sätted määratlevad, kas kasutajad peavad kinn
 ### <a name="previously-released-functionality"></a>Varem välja antud funktsioonid
 Vahekaardi **Numbriseeria** sätted määravad järjestuse, mida kasutatakse jaotises Inimressursid automaatselt ID-de määramiseks kaupadele, nagu rakendused, puudumise registreerimine, hüvitusprotsessi tulemused, juhtumite numbrid, kursused ja kursuste päevakorrad. Numbriseeria viidete ja koodide säilitamiseks kasutage loendi lehte **Numbriseeriad** (klõpsake valikuid **Organisatsiooni haldus** &gt; **Numbriseeriad** &gt; **Numbriseeriad**).
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Rakenduse Dynamics 365 for Talent kasutamisel
+### <a name="if-youre-using-dynamics-365-talent"></a>Rakenduse Dynamics 365 Talent kasutamisel
 Vahekaardi **Numbriseeria** sätted määravad järjestuse, mida kasutatakse jaotises Inimressursid automaatselt ID-de määramiseks kaupadele, nagu rakendused, puudumise registreerimine, hüvitusprotsessi tulemused, juhtumite numbrid, kursused ja kursuste päevakorrad. Numbriseeria viidete ja koodide säilitamiseks kasutage loendilehte **Numbriseeriad** (klõpsake valikuid **Süsteemihaldus** &gt; **Linkide vahekaart** &gt; **Numbriseeriad** &gt; **Numbriseeriad**). 
 
 Vahekaardi **FMLA** sätted määratlevad, mitu tundi peab töötaja töötama, et saada FMLA eeliseid, sobivuseks nõutava tööaja pikkuse ja töösuhte alguskuupäeva, mida kasutatakse tööaja pikkuse määramiseks. Sätted määratlevad ka FMLA tundide arvu, millele töötajatel õigus on, ja FMLA puhkuste kalendri, mida kasutatakse selleks, et arvutada, mitu FMLA tundi töötajad kasutanud on. Vahekaart **FMLA** on saadaval ainult USA ettevõtetele. 

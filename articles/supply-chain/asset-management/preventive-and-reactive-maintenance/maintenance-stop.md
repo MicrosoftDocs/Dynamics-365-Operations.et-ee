@@ -3,7 +3,7 @@ title: Hoolduskatkestus
 description: Selles selgitab hoolduskatkestusi varahalduses.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,16 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a831d56116c57b640993162473e74e5ce181f09c
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875600"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922179"
 ---
 # <a name="maintenance-downtime"></a>Hoolduskatkestus
-
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,12 +43,12 @@ Kui hoolduskatkestuse registreeringule on varad valitud, sisaldab hoolduskatkest
 
 ## <a name="maintenance-downtime-activities"></a>Hoolduskatkestuse tegevused
 
-Klõpsake **Varahaldus** > **Üldine** > **Hoolduskatkestuse tegevused** > **Kõik hoolduskatkestuse tegevused**, et avada loend kõigist hoolduskatkestuste tegevustest ja näha mõningaid tegevustega seotud andmeid. Üksikasjade vaate avamiseks klõpsake lingil veerus **Hoolduskatkestuse tegevused**.
+Klõpsake **Varahaldus** > **Üldine** > **Hoolduskatkestuse tegevused** > **Kõik hoolduskatkestuse tegevused**, et avada loend kõigist hoolduskatkestuste tegevustest ja näha mõningaid tegevustega seotud andmeid. Üksikasjade vaate avamiseks klõpsake lingil veerus **Hoolduskatkestuse tegevused**. Järgneval illustratsioonil kuvatakse näidet loendist **Hoolduskatkestuse tegevused**.
 
 ![Joonis 1](media/19-preventive-maintenance.png)
 
 
-## <a name="create-a-maintenance-downtime-registration"></a>Looge hoolduskatkestuse registreering
+## <a name="create-a-maintenance-downtime-activity"></a>Looge hoolduskatkestuse tegevus
 
 1. Klõpsake **Varahaldus** > **Üldine** > **Hoolduskatkestuse tegevused** > **Kõik hoolduskatkestuse tegevused** või **Aktiivsed hoolduskatkestuse tegevused**.
 
@@ -61,9 +60,11 @@ Klõpsake **Varahaldus** > **Üldine** > **Hoolduskatkestuse tegevused** > **Kõ
 
 5. Klõpsake kiirkaardil **Hoolduskatkestuse tegevuste varad** > suvandit **Lisa rida**, et lisada hoolduskatkestuse tegevusele ükshaaval varasid.
 
-6. Kui kõik varad on lisatud, klõpsake suvandit **Salvesta**.
+6. Kui kõik varad on lisatud, klõpsake suvandit **Salvesta**. Alloleval joonisel on näide hoolduskatkestuse tegevusest ning seotud varadest ja hooldustöödest.
 
 7. Valitud varadega seotud töökäsu hooldustööde ja avatud hooldusgraafiku read on näidatud kiirkaartidel **Tuleneva töökäsu hooldustööd** ja **Hooldusgraafiku read**. Kiirkaardi **Üldine** > rühma **Töökäsud** > väljal **Hooldusprognoosi tunnid** ja kiirkaardi **Üldine** > rühma **Hooldusgraafik** > väljal **Hooldusprognoosi tunnid** näete töökäsu hooldustööle ja hooldusgraafiku ridadele prognoositud tundide koguarvu.
+
+Järgneval illustratsioonil kuvatakse näidet üksikasjade vaatest **Hoolduskatkestuse tegevuste**.
 
 ![Joonis 2](media/20-preventive-maintenance.png)
 
@@ -74,7 +75,7 @@ Klõpsake **Varahaldus** > **Üldine** > **Hoolduskatkestuse tegevused** > **Kõ
 
 9. Redigeerige vajadusel algus- ja lõpuaegu dialoogis **Täiskoormuse arvutamine** ja valige kas soovite kaasata arvutusse töökäsud ja hooldusgraafikud. Saate kasutada välja **Tase**, et näidata kui üksikasjalikke töö asukohtade täiskoormuse arvutusi te soovite. Kui sisestate väljale näiteks arvu "1" ja teil on mitmetasandiline töö asukoha struktuur, kuvatakse ülemisel tasemel kõik töö asukoha varad, mis on valitud hoolduskatkestuse tegevuse all ning seetõttu võivad tunnid real olla alumisel tasemel asuvatest töö asukohtadest kokku liidetud. Kui sisestate väljale **Tase** arvu "0", näete üksikasjalikku tulemust, mis näitab kõiki täiskoormuse ridu kõigi töö asukoha tasemete kohta, millega nad on seotud.
 
-10. Arvutuse alustamiseks klõpsake **OK**. Tundide koguarvu näidatakse **Täiskoormuse** ülevaates. Klõpsake vahekaardi **Täiskoormus** > toimingupaani rühmades **Rühmitamise alus** asjakohaseid nuppe, et saada prognoositud tundide määramise kohta üksikasjalikum ülevaade.
+10. Arvutuse alustamiseks klõpsake **OK**. Tundide koguarvu näidatakse **Täiskoormuse** ülevaates. Klõpsake vahekaardi **Täiskoormus** > toimingupaani rühmades **Rühmitamise alus** asjakohaseid nuppe, et saada prognoositud tundide määramise kohta üksikasjalikum ülevaade. Alltoodud illustratsioonil kuvatakse näidet arvutuse **Täiskoormus** tulemustest.
 
 ![Joonis 3](media/21-preventive-maintenance.png)
 
@@ -91,7 +92,7 @@ Klõpsake **Varahaldus** > **Üldine** > **Hoolduskatkestuse tegevused** > **Kõ
 
 15. Redigeerige vajadusel algus- ja lõpuaegu dialoogis **Kauba prognoosi arvutamine** ja valige kas soovite kaasata arvutusse töökäsud ja hooldusgraafikud. Saate kasutada välja **Tase**, et näidata kui üksikasjalikke töö asukohtade täiskoormuse arvutusi te soovite. Kui sisestate väljale näiteks arvu "1" ja teil on mitmetasandiline töö asukoha struktuur, kuvatakse ülemisel tasemel kõik töö asukoha varad, mis on valitud hoolduskatkestuse tegevuse all ning seetõttu võivad tunnid real olla alumisel tasemel asuvatest töö asukohtadest kokku liidetud. Kui sisestate väljale **Tase** arvu "0", näete üksikasjalikku tulemust, mis näitab kõiki täiskoormuse ridu kõigi töö asukoha tasemete kohta, millega nad on seotud.
 
-16. Arvutuse alustamiseks klõpsake **OK**. Kauba prognooside koguarvu näidatakse ülevaates  **Kauba prognoos**. Klõpsake vahekaardi **Kauba prognoos** > toimingupaani rühmades **Rühmitamise alus** asjakohaseid nuppe, et saada prognoositud üksuste määramise kohta üksikasjalikum ülevaade.
+16. Arvutuse alustamiseks klõpsake **OK**. Kauba prognooside koguarvu näidatakse ülevaates  **Kauba prognoos**. Klõpsake vahekaardi **Kauba prognoos** > toimingupaani rühmades **Rühmitamise alus** asjakohaseid nuppe, et saada prognoositud üksuste määramise kohta üksikasjalikum ülevaade. Alltoodud illustratsioonil kuvatakse näidet arvutuse **Kauba prognoos** tulemustest.
 
 ![Joonis 4](media/22-preventive-maintenance.png)
 

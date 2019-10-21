@@ -19,18 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606891"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023632"
 ---
 # <a name="attributes-and-attribute-groups"></a>Atribuudid ja atribuudigrupid
 
 [!include [banner](includes/banner.md)]
 
-*Atribuudid* võimaldavad täpsemalt kirjeldada toodet ja selle omadusi kasutaja määratud väljade kaudu (nagu **mälu suurus**, **kõvaketta maht**, **vastavus energiatähisele** jne). Rakenduses Microsoft Dynamics 365 for Finance and Operations saab atribuute seostada erinevate jaemüügiüksustega, nagu tootekategooriad ja jaemüügikanalid, ning määrata neile vaikeväärtused. Tooted pärivad seejärel atribuudid ja atribuutide vaikeväärtused, kui need seostatakse tootekategooriate või jaemüügikanalitega. Vaikeväärtusi saab alistada üksiku toote tasemel, jaemüügikanali tasemel või jaemüügikataloogis.
+*Atribuudid* võimaldavad täpsemalt kirjeldada toodet ja selle omadusi kasutaja määratud väljade kaudu (nagu **mälu suurus**, **kõvaketta maht**, **vastavus energiatähisele** jne). Atribuute saab seostada erinevate Retaili üksustega, nagu tootekategooriad ja jaemüügikanalid, ning neile saab määrata vaikeväärtused. Tooted pärivad seejärel atribuudid ja atribuutide vaikeväärtused, kui need seostatakse tootekategooriate või jaemüügikanalitega. Vaikeväärtusi saab alistada üksiku toote tasemel, jaemüügikanali tasemel või jaemüügikataloogis.
+
 
 Näiteks võivad tavapärasel teleril olla järgmised atribuudid.
 
@@ -53,7 +54,7 @@ Näiteks võivad tavapärasel teleril olla järgmised atribuudid.
 
 ## <a name="attributes-and-attribute-types"></a>Atribuudid ja atribuuditüübid
 
-Atribuudid põhinevad *atribuuditüüpidel*. Atribuudi tüüp tuvastab andmete tüübi, mida saab konkreetse atribuudi jaoks sisestada. Finance and Operations toetab praegu järgmisi atribuuditüüpe.
+Atribuudid põhinevad *atribuuditüüpidel*. Atribuudi tüüp tuvastab andmete tüübi, mida saab konkreetse atribuudi jaoks sisestada. Kasutatakse järgmisi toetatud atribuudi tüüpe.
 
 - **Valuuta** – see tüüp toetab valuuta väärtust. Seda saab piirata (see tähendab, et see toetab väärtuste vahemikku) või jätta lahtiseks.
 - **Kuupäev ja kellaaeg** – see tüüp toetab kuupäeva ja kellaaja väärtust. Seda saab piirata või jätta avatuks.
@@ -63,9 +64,9 @@ Atribuudid põhinevad *atribuuditüüpidel*. Atribuudi tüüp tuvastab andmete t
 - **Kahendmuutuja** – see tüüp toetab binaarset väärtust (**tõene** või **väär**).
 - **Viide** – see tüüp viitab teistele atribuutidele.
 
-### <a name="set-up-attribute-types-in-finance-and-operations"></a>Atribuuditüüpide hääletamine rakenduses Finance and Operations
+### <a name="set-up-attribute-types"></a>Saate häälestada atribuuditüüpe.
 
-1. Logige sisse rakenduse Finance and Operations varukontori klienti jaemüügi tootejuhina.
+1. Logige sisse varukontori klienti jaemüügi tootejuhina.
 2. Minge jaotisse **Tooteteabe haldus** &gt; **Seadistus** &gt; **Kategooriad ja atribuudid** &gt; **Atribuuditüübid**.
 3. Looge kaks atribuuditüüpi, mille tüüp on **tekst**, määrake suvand **Fikseeritud loend** väärtusele **Jah** ja lisage väärtuste loend.
 
@@ -74,7 +75,7 @@ Atribuudid põhinevad *atribuuditüüpidel*. Atribuudi tüüp tuvastab andmete t
 
 ![Atribuuditüübid](media/AttributeType.png)
 
-### <a name="set-up-an-attribute-in-finance-and-operations"></a>Atribuudi hääletamine rakenduses Finance and Operations
+### <a name="set-up-an-attribute"></a>Saate häälestada atribuudi.
 
 1. Logige sisse varukontori klienti jaemüügi tootejuhina.
 2. Minge jaotisse **Tooteteabe haldus** &gt; **Seadistus** &gt; **Kategooriad ja atribuudid** &gt; **Atribuudid**.
@@ -101,13 +102,13 @@ Siin on ülejäänud atribuudi metaandmete suvandid lehel **Atribuudid**:
 - Suurtähtede ja vormingu eiramine
 - Täielik vaste
 
-Need suvandid olid algselt ette nähtud veebipoe fassaadi otsingufunktsiooni täiustamiseks. Kuigi rakendus Finance and Operations ei sisalda valmiskujul veebipoe fassaadi, sisaldab see lahendust eCommerce Publishing Software Development Kit (SDK). Kliendid saavad seda SDK-d kasutada toodete panemiseks enda valitud otsinguindeksisse. Kuigi tooteandmed imporditakse, peaksid kliendid siiski saama eristada otsitavaid andmeid, andmeid, mille kohta saab esitada päringuid jne. Sel viisil saavad nad luua optimaalse indeksi veendumaks, et nad indekseerivad ainult atribuute, mida *nende hinnangul* tuleb indekseerida.
+Need suvandid olid algselt ette nähtud veebipoe fassaadi otsingufunktsiooni täiustamiseks. Kuigi Retail ei sisalda valmiskujul veebipoe fassaadi, sisaldab see lahendust eCommerce Publishing Software Development Kit (SDK). Kliendid saavad seda SDK-d kasutada toodete panemiseks enda valitud otsinguindeksisse. Kuigi tooteandmed imporditakse, peaksid kliendid siiski saama eristada otsitavaid andmeid, andmeid, mille kohta saab esitada päringuid jne. Sel viisil saavad nad luua optimaalse indeksi veendumaks, et nad indekseerivad ainult atribuute, mida *nende hinnangul* tuleb indekseerida.
 
 Teavet ülejäänud suvandite otstarbe kohta vt teemast [SharePoint Server 2013 otsinguskeemi ülevaade](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Atribuutide filtrisätted
 
-Atribuutide filtrisätted võimaldavad teil määratleda, kuidas kuvatakse jaemüügikassas atribuutide filtreid. Atribuudi filtrisätetele juurdepääsemiseks valige rakenduse Finance and Operations lehel **Atribuudid** atribuut ja seejärel valige toimingupaanil suvand **Filtrisätted**.
+Atribuutide filtrisätted võimaldavad teil määratleda, kuidas kuvatakse jaemüügikassas atribuutide filtreid. Atribuudi filtrisätetele juurdepääsemiseks valige lehel **Atribuudid** atribuut ja seejärel valige toimingupaanil suvand **Filtrisätted**.
 
 Leht **Filtri kuvamise eelistused** sisaldab järgmisi välju.
 
@@ -233,7 +234,7 @@ Atribuutide vaikeväärtused saab toote tasemel individuaalsete toodete puhul al
     - Kanali toote atribuudid
 
     > [!NOTE]
-    > Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.
+    > Kui luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.
 
 ![Kataloogi toote atribuudigrupid](media/CatalogProdAttrValues.png)
 
@@ -255,4 +256,4 @@ Atribuutide vaikeväärtused saab toote tasemel individuaalsete toodete puhul al
     - Kanali toote atribuudid
 
     > [!NOTE]
-    > Kui rakenduses Finance and Operations luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.
+    > Kui luuakse ühiskasutuses tootemeedium ja ühised toote atribuudid, kehtivad need kõigile jaetoodetele.

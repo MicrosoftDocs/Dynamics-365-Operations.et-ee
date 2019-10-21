@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1c90788da7ad536fb9978db18160ccf6c158033
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: c5b791fd3e060c4f4ecdb1ca599a6041d421db74
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783197"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024520"
 ---
 # <a name="asset-documents"></a>Vara dokumendid
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783197"
 
 Selles teemas selgitatakse vara dokumente varahalduses.
 
-Varahalduses saate seadistada dokumente nii, et need oleksid automaatselt seotud näiteks töö tüüpide, vara tootjate, vara tüüpide või varadega. See funktsioon on kasulik, kui antakse välja värskendatud dokumendiversioonid. Sel juhul peate lihtsalt värskendatud dokumendi lisama standardasukohta, mida kasutate oma Microsoft Dynamics 365 for Finance and Operationsi dokumentide jaoks, ja kinnitama dokumendi loodud vara dokumendikirjega. Seejärel saab värskendatud dokumendile juurde pääseda menüü-üksustest **Kõik varad**, **Aktiivsed varad**, **Minu aktiivsed varad**, **Kõik töökäsud** ja **Aktiivsed töökäsu tööd**. Dokumentide dokumendikirjele kinnitamise protsess kasutab Finance and Operationsis standardset dokumenditöötluse süsteemi.
+Varahalduses saate seadistada dokumente nii, et need oleksid automaatselt seotud näiteks töö tüüpide, vara tootjate, vara tüüpide või varadega. See funktsioon on kasulik, kui antakse välja värskendatud dokumendiversioonid. Sel juhul peate lihtsalt värskendatud dokumendi lisama standardasukohta, mida kasutate oma Finance and Operationsi dokumentide jaoks, ja kinnitama dokumendi loodud vara dokumendikirjega. Seejärel saab värskendatud dokumendile juurde pääseda menüü-üksustest **Kõik varad**, **Aktiivsed varad**, **Minu aktiivsed varad**, **Kõik töökäsud** ja **Aktiivsed töökäsu tööd**. Dokumentide dokumendikirjele kinnitamise protsess kasutab standardset dokumenditöötluse süsteemi.
 
 **Näide 1:** töö tüübiga seotud dokument võib kirjeldada selle töö tüübi protseduuri.
 
@@ -48,5 +48,5 @@ Varahalduses saate seadistada dokumente nii, et need oleksid automaatselt seotud
     > [!NOTE]
     > Kui süsteem otsib dokumente, mis peaksid olema seotud vara või töökäsuga, vaatab varahaldus läbi kõik vara dokumendikirjed, et kontrollida võimalikku vastet. Varahaldus kontrollib alati kõige spetsiifilisemat kombinatsiooni esimesena. Teisisõnu kontrollib varahaldus esmalt **Töö nõuet** väli. Kui vastet ei leita, otsib see vastet väljale **Töö tüübi varianti**. Kui vastet ei leita, kontrollib see vastet väljale **Töö tüüp**. Nagu näete lehe **Vara dokumendid** paigutuses, tähendab see käitumine, et kõige spetsiifilisema kombinatsiooni leidmiseks kontrollib varahaldus vaste leidmiseks iga kirjet paremalt vasakule. Vara või töökäsuga võib seotud olla mitu dokumenti. Vajaduse korral saate hooldustaset muuta hooldustaotluse või töökäsu puhul.
 
-4. Valige suvand **Manused**. Kuvatakse standardne leht **Dokumendi töötlus** rakenduses Finance and Operations.
+4. Valige suvand **Manused**. Kuvatakse standardse **dokumenditöötluse** leht.
 5. Seadistage dokumendid või märkmed, mis tuleks varadokumendi kirjega siduda. Pärast dokumentide sidumist kuvatakse väljal **Manused** kirjega seotud dokumentide arv.

@@ -1,6 +1,6 @@
 ---
 title: Kviitungivormingute häälestamine ja kujundamine
-description: See artikkel kirjeldab, kuidas vormikavandeid luua ja muuta, et kontrollida kviitungite, arvete ja muude dokumentide printimise viisi. Microsoft Dynamics 365 for Retailis on vormi kavandi kujundaja funktsioon, millega saab hõlpsalt ja graafiliselt luua ning muuta mitmesuguseid vormi kavandeid.
+description: See artikkel kirjeldab, kuidas vormikavandeid luua ja muuta, et kontrollida kviitungite, arvete ja muude dokumentide printimise viisi. Dynamics 365 Retailis on vormi kavandi kujundaja funktsioon, millega saab hõlpsalt ja graafiliselt luua ning muuta mitmesuguseid vormi kavandeid.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb85752b53d0d48f07bfed9423637cb6c646ab61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553064"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025121"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Kviitungivormingute häälestamine ja kujundamine
 
 [!include [banner](includes/banner.md)]
 
-See artikkel kirjeldab, kuidas vormikavandeid luua ja muuta, et kontrollida kviitungite, arvete ja muude dokumentide printimise viisi. Microsoft Dynamics 365 for Retailis on vormi kavandi kujundaja funktsioon, millega saab hõlpsalt ja graafiliselt luua ning muuta mitmesuguseid vormi kavandeid.
+See artikkel kirjeldab, kuidas vormikavandeid luua ja muuta, et kontrollida kviitungite, arvete ja muude dokumentide printimise viisi. Dynamics 365 moodulis Retail on vormi kavandi kujundaja funktsioon, millega saab hõlpsalt ja graafiliselt luua ja muuta mitmesuguseid vormi kavandeid.
 
 > [!IMPORTANT]
 > Peate seadistama vormipaigutused ja kviitungiprofiilid, et printida Retail Modern POS-ist ja pilvekassast kviitungeid ja muid dokumente. Kviitungiprofiilile saab lisada mitu vormipaigutust. Seejärel saate riistvara profiili muutes kviitungi profiilile printeri määrata.
@@ -55,7 +55,7 @@ Kasutage vormi paigutust, et luua graafiliselt vormidokumendi paigutus. Lehel **
 2. Valige leheküljel **Kviitungi vorming** vormikavand ja klõpsake seejärel valikut **Kujundaja**.
 3. Retaili kujundaja hosti installimiseks klõpsake käsku **Käita**.
 4. Ühe klõpsuga kujundaja installi käivitamiseks klõpsake Internet Exploreri akna alaossa ilmuval teavitusribal käsku **Ava**. (Teistes brauserites võib teavitusriba ilmuda kusagile mujale.) Installi edenemist näitab edenemisnäidik.
-5. Pärast installi lõpulejõudmist sisestage kujundaja käivitamiseks oma Dynamics 365 for Retaili kasutajanimi ja parool ning klõpsake valikut **Sisselogimine**.
+5. Pärast installi lõpulejõudmist sisestage kujundaja käivitamiseks oma Retaili kasutajanimi ja parool ning klõpsake valikut **Sisselogimine**.
 6. Kui teie identimisteave on kinnitatud ja kujundaja käivitunud, saate hakata kviitungi vorminguid looma või olemasolevaid muutma.
 7. Vormi elementide loomiseks valige jaotis **Päis**, **Read** või **Jalus** ja seejärel lohistage see element jaotisest tööruumi. Enamik elemente sisaldavad muutujaid, mis täidetakse automaatselt andmebaasist pärit andmetega. Muud elemendid, nagu **Tekst**, võimaldavad printida kohandatud teksti.
 

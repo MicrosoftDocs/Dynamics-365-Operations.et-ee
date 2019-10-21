@@ -1,6 +1,6 @@
 ---
 title: Algandmete lähtestamine uutes Retaili keskkondades
-description: See artikkel kirjeldab andmeid, mis luuakse Microsoft Dynamics 365 for Retaili jaemüügimooduli lähtestamisprotsessi käigus.
+description: See artikkel kirjeldab andmeid, mis luuakse Dynamics 365 Retaili jaemüügimooduli lähtestamisprotsessi käigus.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556894"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025512"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Algandmete lähtestamine uutes Retaili keskkondades
 
 [!include [banner](includes/banner.md)]
 
-See artikkel kirjeldab andmeid, mis luuakse Microsoft Dynamics 365 for Retaili jaemüügimooduli lähtestamisprotsessi käigus.
+See artikkel kirjeldab andmeid, mis luuakse Dynamics 365 Retaili jaemüügimooduli lähtestamisprotsessi käigus.
 
 Pärast teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu lahenduse Jaemüük juurutamist peate lähtestama jaemüügi konfiguratsiooni, et luua põhilised konfigureerimise andmed.
 
@@ -39,7 +39,7 @@ Pärast teenuse Microsoft Dynamics Lifecycle Services (LCS) kaudu lahenduse Jaem
 
 Jaemüügikonfiguratsiooni lähtestamiseks toimige järgmiselt.
 
-1. Käivitage rakenduse Dynamics 365 for Retail klient.
+1. Käivitage rakenduse Retail klient.
 2. Klõpsake valikuid **Jaemüük** &gt; **Peakontori seadistamine** &gt; **Parameetrid** &gt; **Jaemüügi parameetrid**.
 3. Klõpsake suvandit **Lähtesta**.
 
@@ -57,7 +57,7 @@ Lähtestamine loob järgmised konfiguratsiooni vaikeandmed.
 - Üksuse kinnitamise mallid
 - Pakett-töö rakenduse Commerce Data Exchange seansiajaloo kustutamiseks
 
-Peale selle lubatakse Dynamics 365 for Retaili andmebaasi jaoks logimine, mis on seotud maksekaardi tööstusharuga (PCI).
+Peale selle lubatakse Retaili andmebaasi jaoks logimine, mis on seotud maksekaardi tööstusharuga (PCI).
 
 > [!NOTE]
 > On võimalus suvandi Kaupluse andmeedastaja eraldi konfigureerimiseks. See võimalus võimaldab teil suvandi Kaupluse andmeedastaja konfiguratsiooni vaikesätetele lähtestada.

@@ -1,6 +1,6 @@
 ---
 title: Kindlatele hankekategooriatele hankijate kinnitamine
-description: Selles teemas selgitatakse, kuidas kinnitada hankijaid konkreetsetele hanke kategooriatele Dynamics 365 for Finance and Operations.
+description: Selles teemas selgitatakse, kuidas kinnitada hankijaid konkreetsetele hanke kategooriatele Dynamics 365 Supply Chain Management.
 author: mkirknel
 manager: AnnBe
 ms.date: 07/30/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1583a2eedc535f81b84e3094fee1574451f6f209
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: e47124e22dd6c0e756bf42429327254f966b48a2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867145"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018085"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Kindlatele hankekategooriatele hankijate kinnitamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Selles teemas selgitatakse, kuidas kinnitada hankijaid konkreetsetele hanke kategooriatele Dynamics 365 for Finance and Operations. Ostutaotluse loomisel võib olla nõue valida heakskiidetud või eelistatud hankija, olenevalt sellest, kuidas ostupoliitikad on seadistatud. See protseduur näitab teile, kuidas määrata konkreetse hankekategooria puhul, et hankija on kinnitatud või eelistatud. Seda ülesannet täidab tavaliselt hankespetsialist. Saate seda protseduuri kasutada demoandmete ettevõttes USMF.
+Selles teemas selgitatakse, kuidas kinnitada hankijaid konkreetsetele hanke kategooriatele Dynamics 365 Supply Chain Management. Ostutaotluse loomisel võib olla nõue valida heakskiidetud või eelistatud hankija, olenevalt sellest, kuidas ostupoliitikad on seadistatud. See protseduur näitab teile, kuidas määrata konkreetse hankekategooria puhul, et hankija on kinnitatud või eelistatud. Seda ülesannet täidab tavaliselt hankespetsialist. Saate seda protseduuri kasutada demoandmete ettevõttes USMF.
 
 1. Navigeerimispaanil avage **Moodulid > Hanked > Hankijad > Kõik hankijad**.
 2. Valige hankija, keda soovite kategooria puhul kinnitatud või eelistatud hankijaks määrata.

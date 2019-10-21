@@ -1,6 +1,6 @@
 ---
 title: Lean manufacturingi ülevaade
-description: See artikkel annab ülevaate ja kirjeldab lean manufacturingi funktsioone rakenduses Dynamics 365 for Finance and Operations.
+description: See artikkel annab ülevaate ja kirjeldab lean manufacturingi funktsioone rakenduses Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,29 +19,29 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d338318d3f7a1b56fe98e5c093ccbe795bd8de44
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562388"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250068"
 ---
 # <a name="lean-manufacturing-overview"></a>Lean manufacturingi ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel annab ülevaate ja kirjeldab lean manufacturingi funktsioone rakenduses Microsoft Dynamics 365 for Finance and Operations.
+See artikkel annab ülevaate ja kirjeldab lean manufacturingi funktsioone rakenduses Dynamics 365 Supply Chain Management.
 
 Lean manufacturing pakub tööriistu, mida saate säästlike operatsioonide modelleerimiseks kasutada. Nende tööriistad toetavad ja soodustavad järgmisi mõisteid ning äritegevusi.
 -   Lean manufacturingi aluse loomine, modelleerides tootmis- ja logistikaprotsesse tootmisvoogudena.
 -   Säästliku tõmbesüsteemi rakendamine, kasutades kanbane nõudluse nõuete tähistamiseks.
 -   Kanban-tööde jälgimine ja haldamine.
 
-Lean manufacturingi arhitektuur rakenduses Finance and Operations koosneb tootmisvoogudest, tegevustest ja kanban-reeglitest. Need struktuurid on Finance and Operationsi protsessidega täielikult integreeritud. Saate kasutada lean manufacturingi kombineeritud tootmiskeskkonnas, mis ühendab mitmesugused tarne-, tootmis- ja hankestrateegiad. Need strateegiad hõlmavad tootmistellimusi, protsessi haru partiitellimusi, ostutellimusi ja üleviimistellimusi.
+Lean manufacturingi arhitektuur koosneb tootmisvoogudest, tegevustest ja kanban-reeglitest. Need struktuurid on Supply Chain Managementi protsessidega täielikult integreeritud. Saate kasutada lean manufacturingi kombineeritud tootmiskeskkonnas, mis ühendab mitmesugused tarne-, tootmis- ja hankestrateegiad. Need strateegiad hõlmavad tootmistellimusi, protsessi haru partiitellimusi, ostutellimusi ja üleviimistellimusi.
 
 | **Oluline**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Finance and Operationsi abil saate toetada lean manufacturingi rakendamist kanbanidega. Kuid kulusäästlike põhimõtete edukas rakendamine sõltub siiski sisemistest äriprotsessidest, mida kasutatakse, ning tegelikest tootmistingimustest ja -keskkonnast. |
+| Supply Chain Managementi abil saate toetada lean manufacturingi rakendamist kanbanidega. Kuid kulusäästlike põhimõtete edukas rakendamine sõltub siiski sisemistest äriprotsessidest, mida kasutatakse, ning tegelikest tootmistingimustest ja -keskkonnast. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a> Tootmis- ja logistikaprotsesside modelleerimine tootmisvoogudena
 Lean manufacturingi aluse loomiseks modelleerige tootmis- ja logistikaprotsessid tootmisvoogudena. Selle tegevus koosneb järgmistest ülesannetest.
@@ -69,8 +69,8 @@ Järgmises loendis kirjeldatakse spetsiaalseid kanban-tahvleid.
 -   Kanban-tahvel ülekandetööde jaoks – see tahvel annab ülevaate jooksvatest ülekandetöödest. Saate komplekteerimislehti uuendada ja registreerida, ülekandetöid käivitada ja lõpetada ning teha muid toiminguid.
 -   Kanban-tahvel protsessitööde jaoks – see tahvel on mõeldud tavalise tootmisvoo toetamiseks ja ülevaate andmiseks jooksvast olukorrast ühes või mitmes töörakus. Sellelt tahvlilt saab Kanbane prioritiseerida, komplekteerida või toota. Tahvel on mõeldud ka vöötkoodi skannimise toetamiseks Kanbanide aruande koostamisel.
 
-## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Kanban-tööd ja integreerimine Finance and Operationsi protsessidega
-Kanban-tööd on täielikult integreeritud praeguste laokannete protsessidega Finance and Operationsis.
+## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Kanban-tööd ja integreerimine Supply Chain Managementi protsessidega
+Kanban-tööd on täielikult integreeritud praeguste laokannete protsessidega Supply Chain Managementis.
 -   Saate teha komplekteerimistegevusi kanban-tööde nõuete täitmiseks kasutatud materjali täiendamiseks.
 -   Saate printida kanban-kaarte, ringlevaid kanban-kaarte ja komplekteerimislehti kanbanide kasutamise toetamiseks. Neid dokumente kasutatakse kanban-tööde kajastamiseks, jälgimiseks ja registreerimiseks laos ja tootmisosakonnas.
 -   Laos toimuvaid komplekteerimis- ja ülekandetegevusi saab registreerida vöötkoode skannides.

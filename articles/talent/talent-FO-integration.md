@@ -1,9 +1,9 @@
 ---
-title: Rakenduse Dynamics 365 for Talent rakendusse Dynamics 365 for Finance and Operations integreerimise KKK
-description: Selles teemas selgitatakse, millised andmed sünkroonitakse rakenduste Talent ja Finance and Operations integratsioonis.
+title: Rakenduse Dynamics 365 Talent rakendusse Dynamics 365 Finance integreerimise KKK
+description: Selles teemas selgitatakse, millised andmed sünkroonitakse rakenduste Talent ja Finance integratsioonis.
 author: andreabichsel
 manager: AnnBe
-ms.date: 01/09/2019
+ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742701"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251010"
 ---
-# <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Rakenduse Dynamics 365 for Talent rakendusse Dynamics 365 for Finance and Operations integreerimise KKK
+# <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Rakenduse Dynamics 365 Talent rakendusse Dynamics 365 Finance integreerimise KKK
 
 [!include [banner](includes/banner.md)]
 
-Teemas on toodud vastused peamistele küsimustele selle kohta, milliseid andmeid sünkroonitakse, kui Dynamics 365 for Talent integreeritakse rakendusega Dynamics 365 for Finance and Operations.
+Teemas on toodud vastused peamistele küsimustele selle kohta, milliseid andmeid sünkroonitakse, kui Dynamics 365 Talent integreeritakse rakendusega Dynamics 365 Finance.
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Kas sünkroonitakse kõik andmed või ainult mõned andmeüksused?
 
-Rakenduse Core Human Resources (HR) puhul sünkroonitakse andmete alamkogum. Kõigi üksuste loendi leiate teemast [Integratsioon rakendusest Dynamics 365 for Talent rakendusse Dynamics 365 for Finance and Operations](talent-financeandoperations-integration.md).
+Rakenduse Core HR puhul sünkroonitakse andmete alamkogum. Kõigi üksuste loendi leiate teemast [Integratsioon rakendusest Dynamics 365 Talent rakendusse Dynamics 365 Finance](talent-financeandoperations-integration.md).
 
 Rakenduste Attract ja Onboard puhul on kõik andmed teenuse Common Data Service omaandmed.
 
@@ -40,15 +40,15 @@ Rakenduste Attract ja Onboard puhul on kõik andmed teenuse Common Data Service 
 
 Mallid on alguspunkt. Saate luua oma malli, kuid malli on integratsiooniprojekti loomisel alati vaja. Lisateavet andmeintegraatori (DI), mallide ja projektide kohta vaadake teemast [Andmete integreerimine teenusesse Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Kas ma saan vastendada finantsdimensioonide edastamise rakenduste Talent ja Finance and Operations vahel?
+## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance"></a>Kas ma saan vastendada finantsdimensioonide edastamise rakenduste Talent ja Finance vahel?
 
 Finantsdimensioonid puuduvad praegu teenusest Common Data Service ja seetõttu ei ole need ka vaikemalli osa. See üksus on kavas, kuid praegu pole väljastamise ajakava saadaval.
 
-Andmete puhul, mis on olemas rakenduses Finance and Operations, kuid puuduvad rakendusest Talent, linkige kaks süsteemi kokku, kasutades Talenti funktsiooni **Linkide konfigureerimine**. Lisateavet linkide konfigureerimise kohta rakenduste Talent ja Finance and Operations vahel vt teemast [Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (31. oktoober 2018)](whats-new-talent-october-31.md).
+Andmete puhul, mis on olemas rakenduses Finance, kuid puuduvad rakendusest Talent, linkige kaks süsteemi kokku, kasutades Talenti funktsiooni **Linkide konfigureerimine**. Lisateavet linkide konfigureerimise kohta rakenduste Talent ja Finance vahel vt teemast [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent: Core HR (31. oktoober 2018)](whats-new-talent-october-31.md).
 
 ![Finantsdimensioonide vastendamine](media/MapFinancialDimensions.png)
 
-## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>Töövõtjate importimisel liiguvad need mõnikord rakenduses Finance and Operations passiivsete töötajate loendisse. Miks?
+## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Töövõtjate importimisel liiguvad need mõnikord rakenduses Finance passiivsete töötajate loendisse. Miks?
 
 See tõrge võib ilmneda, kui töövõtjal pole Talentis aktiivse töösuhte üksikasjade kirjet. Probleemi lahendamiseks minge jaotisse **Personalihaldus \> Töövõtjad \> Töösuhte ajalugu \> Kuupäevahaldur** ja kontrollige, kas seal on aktiivse töösuhte üksikasjade kirje olemas.
 
@@ -62,7 +62,7 @@ Kasutades täpsemat päringut, saate lähteandmeid filtreerida ja ümber kujunda
 
 ![Aktiivsete töötajate täpsem päring](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
-## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Kas saan määrata, millised väljad saadetakse rakendusse Finance and Operations kindla üksuse puhul?
+## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Kas saan määrata, millised väljad saadetakse rakendusse Finance kindla üksuse puhul?
 
 Integratsiooniülesandele saab välju lisada või neid eemaldada. Kõiki andmevälju, mis on teenuse Common Data Service üksuses olemas, ei asustata rakendusest Core HR.
 Lisaandmeid saab asustada PowerAppsi kaudu.
@@ -75,7 +75,7 @@ Erandite töötlemiseks pole eriseadistus vajalik. Andmeintegraator jäädvustab
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Kas saan seadistada kahesuunalise integratsiooni?
 
-Ei, integratsioon on praegu ainult ühesuunaline (Talentist Finance and Operationsisse). Siiski on saadaval vaikemall andmete saatmiseks Talentist Finance and Operationsisse.
+Ei, integratsioon on praegu ainult ühesuunaline (Talentist Finance and Operationsisse). Siiski on saadaval vaikemall andmete saatmiseks Talentist Finance’i.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Kas saan integratsiooni osana lubada kirjete kustutamise?
 
@@ -93,13 +93,13 @@ Vaikemalli kasutamisel imporditakse integratsioonivõtmed automaatselt. See prob
 
 ## <a name="if-i-have-n-number-of-legal-entities-where-workers-have-employments-do-i-need-to-create-a-mapping-for-each-of-them"></a>Kui mul on N juriidilist isikut, mille töötajatel on töösuhe, siis kas pean looma neist igaühe jaoks vastenduse?
 
-Jah, rakenduses Finance and Operations peab iga juriidilise isiku kohta olema andmeintegratsioonis eraldi integratsiooniprojekt.
+Jah, rakenduses Finance peab iga juriidilise isiku kohta olema andmeintegratsioonis eraldi integratsiooniprojekt.
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Pean edastama andmeid, mis ei ole Microsofti vaikemalli osa. Kas saan seda teha?
 
 Jah, olemasolevale mallile saab välju lisada või neid eemaldada. Malli saab muuta, kaasates lisaandmeid teistest teenuse Common Data Service üksustest. Malli kaasamiseks peab üksus olema teenuses Common Data Service. 
 
-## <a name="i-just-created-new-finance-and-operations-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Lõin äsja uued Finance and Operationsi ja Talenti keskkonnad ning saan tõrketeate „Andmete väärtus rikub tervikluse piiranguid”. Miks?
+## <a name="i-just-created-new-finance-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Lõin äsja uued Finance’i ja Talenti keskkonnad ning saan tõrketeate „Andmete väärtus rikub tervikluse piiranguid”. Miks?
 
 Tõrke põhjused võivad olla järgmised.
 
@@ -109,9 +109,9 @@ Tõrke põhjused võivad olla järgmised.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Kui esineb käivitustõrkeid ja töövõtja ID-d ei sünkroonita, siis kuidas leida ajalooline töö, milles on nurjunud töövõtja kirje?
 
-Andmeintegraator loob rakenduses Finance and Operations mitu projekti. Seos andmeintegraatori ülesande ja rakenduse Finance and Operations projekti vahel on üksühene.
+Andmeintegraator loob rakenduses Finance mitu projekti. Seos andmeintegraatori ülesande ja rakenduse Finance projekti vahel on üksühene.
 
-Jälgige aega andmeintegraatori käivitusajaloost ja leidke rakenduses Finance and Operations projekti indeks – 1. Kui ülesande number on andmeintegraatoris 9, siis indeks Finance and Operationsis on 8.
+Jälgige aega andmeintegraatori käivitusajaloost ja leidke rakenduses Finance projekti indeks – 1. Kui ülesande number on andmeintegraatoris 9, siis indeks Finance’is on 8.
 
 1. Märkige üles ülesande indeks andmeintegraatorist (selles näites 9).
 
@@ -121,13 +121,13 @@ Jälgige aega andmeintegraatori käivitusajaloost ja leidke rakenduses Finance a
 
 ![Projekti käivitusaja jälgimine](media/CaptureTimeOfExecution.png)
 
-3. Rakenduses Finance and Operations leidke indeks – 1. Selles näites vastab projekt järelliitega 8 ja projekti indeksiga 0 käivitusaeg etapis 2 näidatud käivitusajale.
+3. Finantsis määratlege indeks -1. Selles näites vastab projekt järelliitega 8 ja projekti indeksiga 0 käivitusaeg etapis 2 näidatud käivitusajale.
 
 ![Indeksi tuvastamine](media/IdentifyIndex.png)
 
-## <a name="after-integrating-talent-and-finance-and-operations-i-dont-see-my-talent-data-in-finance-and-operations-what-do-i-do"></a>Pärast Talenti ja Finance and Operationsi integreerimist ei näe ma enam oma Talenti andmeid rakenduses Finance and Operations. Mida teha?
+## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>Pärast Talenti ja Finance’i integreerimist ei näe ma enam oma Talenti andmeid rakenduses Finance. Mida teha?
 
-Integratsioon rakendusse Finance and Operations on kaheetapiline protsess. Esmalt kontrollige, kas Talenti andmed on värskendatud ja teenuses Common Data Service saadaval. See on peaaegu reaalajas sünkroonimine ja seda saab kontrollida PowerAppsis, vaadates andmeüksustes olevaid andmeid.
+Integratsioon rakendusse Finance on kaheetapiline protsess. Esmalt kontrollige, kas Talenti andmed on värskendatud ja teenuses Common Data Service saadaval. See on peaaegu reaalajas sünkroonimine ja seda saab kontrollida PowerAppsis, vaadates andmeüksustes olevaid andmeid.
 
 ![Andmed teenuses Common Data Service](media/DataInCDS.png)
 
@@ -135,24 +135,24 @@ Kui andmeid ei kuvata teenuses Common Data Service oodatud viisil, siis kontroll
 
 Kui üksust toetatakse ja andmed on teenuses Common Data Service saadaval, siis kontrollige, kas vastendus on andmeintegraatoris õige. Kui integraatori vastendus tundub olevat korras, siis kontrollige edukalt käitatud andmehalduse töid. Tõrked võivad ilmneda pakett-tööde käivitamisel. Lisateavet andmehalduse kohta vt teemast [Andmehaldus](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
-## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>Pärast töövõtjate importimist rakendusse Finance and Operations on nende aadressid valed. Mida teha?
+## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Pärast töövõtjate importimist rakendusse Finance, on nende aadressid valed. Mida teha?
 
-**Asukoha ID** numbriseeria kasutab rakendustes Talent ja Finance and Operations sama mustrit. Numbriseeria peab olema mõlemal poolel kordumatu, et andmete integreerimisel teenusest Common Data Service rakendusse Finance and Operations ei tekiks aadressivastuolusid.
+**Asukoha ID** numbriseeria kasutab rakendustes Talent ja Finance sama mustrit. Numbriseeria peab olema mõlemal poolel kordumatu, et andmete integreerimisel teenusest Common Data Service rakendusse Finance and Operations ei tekiks aadressivastuolusid.
 
-Talenti juurutamise ajal kontrollige, et numbriseeriad poleks Talentis ja Finance and Operationsis samad. Veenduge, et ükski numbriseeria poleks identne, kui andmeid võidakse hallata mõlemas süsteemis.
+Talenti juurutamise ajal kontrollige, et numbriseeriad poleks Talentis ja Finance’is samad. Veenduge, et ükski numbriseeria poleks identne, kui andmeid võidakse hallata mõlemas süsteemis.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Ühendusekogumi loomisel ei näe ma ühendust ripploendis Ühendus. Mida teha?
 
-Veenduge, et valiksite ühenduste loomisel suvandid Dynamics 365 for Finance and Operations (praegu eelvaateversioonis) ja Common Data Service.
+Veenduge, et valiksite ühenduste loomisel suvandid Dynamics 365 Finance ja Common Data Service.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Saan töösuhete sünkroonimisel tõrketeate „Atribuuti CompanyInfo_FK pole olemas” või „Väärtust 12/31/2154 23:59:59 väljal Töösuhte lõppkuupäev ei leitud seotud tabelist Töösuhe”. Mida teha?
 
-Veendute, et vastendaksite õigete juriidiliste isikutega. Juriidilise isiku sünkroonimine pole vaikemalli osa, seega peaks iga Talentis ja teenuses Common Data Service olev juriidiline isik olemas olema ka Finance and Operationsis.
+Veendute, et vastendaksite õigete juriidiliste isikutega. Juriidilise isiku sünkroonimine pole vaikemalli osa, seega peaks iga Talentis ja teenuses Common Data Service olev juriidiline isik olemas olema ka Finance’is.
 Veenduge ka, et valiksite seostatud ühendusekogumi jaoks õiged juriidilised isikud.
 
-## <a name="after-setting-up-my-project-the-field-mapping-for-finance-and-operations-appears-to-be-empty-what-should-i-do"></a>Pärast projekti seadistamist kuvatakse väljavastendus Finance and Operationsi puhul tühjana. Mida teha?
+## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Pärast projekti seadistamist kuvatakse väljavastendus Finance’i puhul tühjana. Mida teha?
 
-Värskendage andmeüksuseid rakenduses Finance and Operations, minnes jaotisse **Andmehaldus \> Raamistiku parameetrid \> Üksuse sätted \> Värskenda üksuste loendit.** Selle lõpuleviimiseks kulub mõni minut, seejärel peaksite neid vastendusi nägema. See probleem ilmneb uute projektide loomisel.
+Värskendage andmeüksuseid rakenduses Finance, minnes jaotisse **Andmehaldus \> Raamistiku parameetrid \> Üksuse sätted \> Värskenda üksuste loendit.** Selle lõpuleviimiseks kulub mõni minut, seejärel peaksite neid vastendusi nägema. See probleem ilmneb uute projektide loomisel.
 
 ![Puuduv väljavastendus](media/MissingFieldMapping.png)
 
@@ -164,7 +164,7 @@ Värskendage andmeüksuseid rakenduses Finance and Operations, minnes jaotisse *
 
   - [Andmeintegraatori tõrkehaldus ja tõrkeotsing](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [DSR-i taotlustele vastamine süsteemi loodud logide puhul teenustes PowerApps, Microsoft Flow ja Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [DSR-i taotlustele vastamine süsteemi loodud logide puhul teenustes PowerApps, Microsoft Flow jaCommon Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Andmehaldus
 

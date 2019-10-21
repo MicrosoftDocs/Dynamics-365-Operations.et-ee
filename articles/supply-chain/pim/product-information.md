@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f4e378bc0a72e05f940ae352ad0f1c0709d9d3a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563524"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249467"
 ---
 # <a name="product-information-overview"></a>Tooteteabe ülevaade
 
@@ -57,17 +57,17 @@ Toodet defineeritakse peamiselt toote numbri, nime ja kirjeldusega. Kuid toote v
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Toote andmete jaotus, eksport ja import
 
-Tootedefinitsiooni saab luua rakenduses Microsoft Dynamics 365 for Finance and Operations. Selle saab importida ka toote töötsükli halduse (PLM), toote andmehalduse (PDM) või toote teabehalduse (PIM) süsteemidest. Kui kasutatakse mitut Finance and Operationsi eksemplari, siis kasutatakse ühte eksemplari tavaliselt kõigi teiste eksemplaride tooteandmete etalonina. Seda lähenemist toetab suur kogum andmeüksusi, mis võimaldavad tootedefinitsiooni andmete eksportimist ja importimist ühest eksemplarist teise.
+Tootedefinitsiooni saab luua rakenduses Supply Chain Management. Selle saab importida ka toote töötsükli halduse (PLM), toote andmehalduse (PDM) või toote teabehalduse (PIM) süsteemidest. Kui kasutatakse mitut Supply Chain Managementi eksemplari, siis kasutatakse ühte eksemplari tavaliselt kõigi teiste eksemplaride tooteandmete etalonina. Seda lähenemist toetab suur kogum andmeüksusi, mis võimaldavad tootedefinitsiooni andmete eksportimist ja importimist ühest eksemplarist teise.
 
-Tooteandmete jaotuse toetamiseks paljudesse eksemplaridesse võimaldab Finance and Operations kasutada teenust Common Data Service. Tootedefinitsioonid saab eksportida Finance and Operationsi eksemplarist teenusesse Common Data Service. Seejärel saab tootedefinitsioone kasutada teiste ärirakenduste (nt Microsoft Dynamics 365 for Sales) varustamiseks tooteandmetega.
+Tooteandmete jaotuse toetamiseks paljudesse eksemplaridesse võimaldab Supply Chain Management kasutada teenust Common Data Service. Tootedefinitsioonid saab eksportida Supply Chain Managementi eksemplarist teenusesse Common Data Service. Seejärel saab tootedefinitsioone kasutada teiste ärirakenduste (nt Dynamics 365 Sales) varustamiseks tooteandmetega.
 
 Pange tähele, et dünaamilistes ja kiirelt arenevates organisatsioonides muutuvad tooteteabe andmed iga päev. Seega on täpsete ja aktuaalsete tooteandmete säilitamine iseenesest väga oluline äriprotsess.
 
 ## <a name="product-masters-and-product-variants"></a>Tooteetalonid ja tootevariandid
 
-Kiiresti muutuvas maailmas, kus tooteid tuleb kiiresti klientide nõuete järgi kohandada, määravad tootedefinitsioonid eristatavate toodete asemel tootekogumid. Rakenduses Microsoft Dynamics 365 for Finance and Operationsnimetatakse selliseid üldisi tooteid *tooteetalonideks*. Tooteetalonidel on definitsioon ja reeglid, mis määravad, kuidas eristatavaid tooteid äriprotsessis kirjeldatakse ja kuidas nad seal käituvad. Nende definitsioonide põhjal saab luua eristatavaid tooteid. Neid eristatavaid tooteid nimetatakse *tootevariantideks*.
+Kiiresti muutuvas maailmas, kus tooteid tuleb kiiresti klientide nõuete järgi kohandada, määravad tootedefinitsioonid eristatavate toodete asemel tootekogumid. Rakenduses nimetatakse selliseid üldisi tooteid *tooteetalonideks*. Tooteetalonidel on definitsioon ja reeglid, mis määravad, kuidas eristatavaid tooteid äriprotsessis kirjeldatakse ja kuidas nad seal käituvad. Nende definitsioonide põhjal saab luua eristatavaid tooteid. Neid eristatavaid tooteid nimetatakse *tootevariantideks*.
 
-Finance and Operationsis on tooteetalon seostatud ärireeglite määramiseks tootedimensiooni grupi ja konfiguratsioonitehnoloogiaga. Tootedimensioonid (värv, suurus, stiil ja konfiguratsioon) on konkreetne atribuutide kogum, mida saab kasutada kogu rakenduses seotud toodete konkreetsete käitumiste määratlemiseks ja jälgimiseks. Need dimensioonid aitavad kasutajatel ka tooteid otsida ja tuvastada.
+Tooteetalon seostatud ärireeglite määramiseks tootedimensiooni grupi ja konfiguratsioonitehnoloogiaga. Tootedimensioonid (värv, suurus, stiil ja konfiguratsioon) on konkreetne atribuutide kogum, mida saab kasutada kogu rakenduses seotud toodete konkreetsete käitumiste määratlemiseks ja jälgimiseks. Need dimensioonid aitavad kasutajatel ka tooteid otsida ja tuvastada.
 
 ## <a name="configuration-technologies"></a>Konfiguratsioonitehnoloogiad
 
@@ -77,7 +77,7 @@ Valida saab kolme konfiguratsioonitehnoloogia vahel.
 - Dimensioonipõhist konfiguratsiooni kasutatakse tavaliselt tootmisstsenaariumides ja see võimaldab kasutada koosluste definitsioonis konfiguratsiooni dimensiooni. Pärast konkreetse konfiguratsiooni valimist kasutab süsteem selle konfiguratsiooni puhul kehtivat koosluseridade alamkogumit plaanimiseks ja tootmiseks. Seda mõistet nimetatakse ka *üldiseks koosluseks*, kuna kõigi toote konfiguratsioonide puhul kasutatakse ühte ühist kooslust.
 - Piirangupõhine konfiguratsioon kasutab toote konfiguratsioonimudelit kõigi võimalike atribuutide ja komponentide kirjeldamiseks, mis on vajalikud kõigi toote võimalike variantide kirjeldamiseks ühes mudelis. Atribuutide kombinatsioonide piiranguid saab kirjeldada regulaaravaldiste või tabelipõhiste piirangute kaudu. Konfiguratsioonimudelid ja konfiguraatorid muutuvad tooteteabe haldamisel järjest olulisemaks ja neid kasutatakse kõigi valdkondade lõikes.
 
-Kui plaanite Finance and Operationsi juurutamist, on väga tähtis, et valiksite äriprotsessile õige konfiguratsioonitehnoloogia. Toodet ei saa pärast juurutamist ühest mudelist teiseks teisendada.
+Kui plaanite Supply Chain Managementi juurutamist, on väga tähtis, et valiksite äriprotsessile õige konfiguratsioonitehnoloogia. Toodet ei saa pärast juurutamist ühest mudelist teiseks teisendada.
 
 ## <a name="product-variant-model-definition-workspace"></a>Tootevariandi mudeli definitsiooni tööruum
 

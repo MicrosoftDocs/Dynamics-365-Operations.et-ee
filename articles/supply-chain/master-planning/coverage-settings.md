@@ -3,7 +3,7 @@ title: Laovarude sätted
 description: Selles teemas on teave laovarude sätete kohta, mida Koondplaneerimises kasutatakse kaubavajaduse arvutamiseks.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99e094a7131b6d3a299fc72abd0141529908ddd2
-ms.sourcegitcommit: 9e50bee6a67f0fe2fa6f86e02c7e8de16d0e2482
+ms.openlocfilehash: 3a63184852751bb65fb7e80d721f8c48fd847609
+ms.sourcegitcommit: edfd805356894710488ce07cb1c89313f448b222
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538890"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "1998967"
 ---
 # <a name="coverage-settings"></a>Laovarude sätted
 
@@ -49,6 +49,19 @@ saate määratleda laovarude sätteid mitmel viisil:
 - Määrake dimensioonigrupi kaubavarude sätted.
 
     Avage **Tooteteabe haldus &gt; Tooted &gt; Väljastatud tooted**. Klõpsake lehe **Väljastatud toote üksikasjad** kiirkaardil **Üldine**, jaotises **Administreerimine** valige link **Laoala dimensioonigrupp**. Valige lehel **Laoala dimensioonigrupid** märkeruut **Laovarude planeerimine dimensiooni järgi**, et luua laovarude sätted laoala dimensioonigrupi dimensiooni jaoks. Kõigi tootedimensioonide, nagu konfiguratsioon, värv, suurus, stiil, puhul peab olema väli **Laovarude planeerimine dimensiooni järgi** valitud.
+
+
+## <a name="coverage-codes"></a>Planeerimise koodid
+
+Koondplaneerimise konfigureerimise abil saab kasutada erinevaid täiendamise meetodeid. Täiendamise meetodid või saatepartii mõõtmise meetodid on need tehnikad, mille abil süsteem määratleb ostetud või toodetud kaupade partii suuruse. 
+
+Igale täiendamise meetodile määratakse üks allolevatest laovarude koodidest.
+
+- **Käsitsi** – saatepartii mõõtmise meetod, mille puhul süsteem ei soovita kaubale ostu-, edastamis- või tootmistellimusi. Kauba plaanija vastutab kauba täiendamiseks nõutavate tellimuste loomise eest.
+- **Vastavalt nõudele** – saatepartii mõõtmise meetod, mille puhul süsteem loob kaubale vajaduse korral plaanitud ostu-, edastamis- või tootmistellimuse. Seda kasutatakse tavaliselt hootise nõudlusega kulukate kaupade puhul.  
+- **Vastavalt perioodile** – saatepartii mõõtmise meetod, mis koondab kauba nõudluse teatud perioodi jooksul ühte tellimusse. Tellimus planeeritakse perioodi esimesele päevale ja selle kogus vastab netosummale määratud perioodi jooksul. Periood algab kauba esimese nõudega ja katab määratud pikkusega aja jooksul. Järgmine periood algab kauba järgmiste nõuetega.
+- **Min/maks** – saatepartii mõõtmise meetod, mis hõlmab varude täiendamist teatud tasemeni, kui ennustatud laoseis on väiksem kui seatud lävi. Varude täiendamise kogus on maksimaalse taseme ja prognoositava vaba taseme vaheline erinevus.
+
 
 ## <a name="additional-resources"></a>Lisaressursid
 

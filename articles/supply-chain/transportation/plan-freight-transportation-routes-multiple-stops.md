@@ -1,6 +1,6 @@
 ---
 title: Mitme peatusega veose transpordimarsruutide plaanimine
-description: Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordiprotsesside plaanimisel Dynamics 365 for Finance and Operationsis.
+description: Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordiprotsesside plaanimisel Dynamics 365 Supply Chain Managementis.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 033dde410519b061b0ff3fb42e8f7790af9449ec
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553972"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017546"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Mitme peatusega veose transpordimarsruutide plaanimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordiprotsesside plaanimisel Microsoft Dynamics 365 for Finance and Operationsis.
+Selles artiklis kirjeldatakse mitmesuguseid elemente, mida kasutatakse transpordiprotsesside plaanimisel Dynamics 365 Supply Chain Managementis.
 
 Keerukate transpordimarsruutide puhul, mis sisaldavad mitut peatust, saate kasutada marsruudiplaane ja marsruudi juhendeid. Kui sama marsruuti kasutatakse regulaarselt, saate seadistada plaanitud marsruudi.
 
