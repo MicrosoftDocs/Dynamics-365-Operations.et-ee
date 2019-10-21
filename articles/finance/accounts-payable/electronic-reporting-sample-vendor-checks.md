@@ -1,0 +1,46 @@
+---
+title: Elektroonilise aruandluse hankija näidistšekid
+description: Selles teemas antakse üldist teavet selle kohta, kuidas kasutada elektroonilise aruandluse tšekkide näidisvorminguid.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/14/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.assetid: ''
+ms.search.region: Global
+ms.author: shylaw
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 61d558ab0337e124065d194f42e0a81465d96a45
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2177423"
+---
+[!include [banner](../includes/banner.md)]
+
+# <a name="electronic-reporting-sample-check-formats"></a><span data-ttu-id="dfe23-103">Elektroonilise aruandluse tšekkide näidisvormingud</span><span class="sxs-lookup"><span data-stu-id="dfe23-103">Electronic reporting sample check formats</span></span>
+
+<span data-ttu-id="dfe23-104">Elektroonilise aruandluse (ER) abil saab hankija tšekke vormindada.</span><span class="sxs-lookup"><span data-stu-id="dfe23-104">You can use Electronic reporting (ER) to format vendor checks.</span></span> <span data-ttu-id="dfe23-105">Turul on saadaval palju pangapõhiseid ja tšeki pakkuja põhiseid tšekivorminguid.</span><span class="sxs-lookup"><span data-stu-id="dfe23-105">Many bank-specific and check provider–specific check formats are available on the market.</span></span> <span data-ttu-id="dfe23-106">Tšeki näidisvormingud on lisatud ER-i tööriistahoidla tšekimudelisse Makse.</span><span class="sxs-lookup"><span data-stu-id="dfe23-106">Sample check formats have been included in the Payment check model in the ER tool repository.</span></span> <span data-ttu-id="dfe23-107">Need näidistšekid on märgistatud valikutega **Tšekk keskel (USA)** ja **Tšekk üleval, konts all (USA)**.</span><span class="sxs-lookup"><span data-stu-id="dfe23-107">These sample checks are labeled **Check in the middle (US)** and **Check on top stub below (US)**.</span></span>
+
+## <a name="what-check-formats-are-currently-supported"></a><span data-ttu-id="dfe23-108">Milliseid tšekivorminguid praegu toetatakse?</span><span class="sxs-lookup"><span data-stu-id="dfe23-108">What check formats are currently supported?</span></span>
+
+<span data-ttu-id="dfe23-109">Saate alati minna teenuses Microsoft Dynamics Lifecycle Services (LCS) olevasse ühiste varade teeki ja vaadata ajakohast loendit saadaolevatest failidest, mille vara tüüp on **GER-i konfiguratsioon**.</span><span class="sxs-lookup"><span data-stu-id="dfe23-109">You should always go to the Shared asset library in Microsoft Dynamics Lifecycle Services (LCS) and view the current list of available files that have an asset type of **GER configuration**.</span></span> <span data-ttu-id="dfe23-110">Järgmine jaotis „Mida pean seadistamiseks tegema?” sisaldab linki teema juurde, mis selgitab, kuidas luua LCS-hoidlat, et saadaolevaid konfiguratsioone üle vaadata ja valitud konfiguratsioone importida.</span><span class="sxs-lookup"><span data-stu-id="dfe23-110">The next section, “What do I have to set up?,” includes a link to a topic that explains how to create an LCS repository so that you can review available configurations and import selected configurations.</span></span>
+
+<span data-ttu-id="dfe23-111">Microsoft Dynamics 365 Finance sisaldab ka näidisvormingut, kus tšekk on ülal ja sellele järgneb kaks ülekande jaotist.</span><span class="sxs-lookup"><span data-stu-id="dfe23-111">Microsoft Dynamics 365 Finance includes a sample format where the check is on top, followed by two remittance sections.</span></span> <span data-ttu-id="dfe23-112">See sisaldab ka näidisvormingut, kus tšekk on keskel, kahe ülekande jaotise vahel.</span><span class="sxs-lookup"><span data-stu-id="dfe23-112">It also includes a sample format where the check is in the middle, between two remittance sections.</span></span> <span data-ttu-id="dfe23-113">Need näidisvormingud vastavad Deluxe-tšekivormingutele.</span><span class="sxs-lookup"><span data-stu-id="dfe23-113">These sample formats correspond to Deluxe business checks formats.</span></span>
+
+## <a name="what-do-i-have-to-set-up"></a><span data-ttu-id="dfe23-114">Mida pean seadistamiseks tegema?</span><span class="sxs-lookup"><span data-stu-id="dfe23-114">What do I have to set up?</span></span>
+
+- <span data-ttu-id="dfe23-115">Enne, kui saate ER-i abil tšekke printida, tuleb ER-i aruandluse konfiguratsioonidesse importida vähemalt üks aktiivne tšeki konfiguratsioon.</span><span class="sxs-lookup"><span data-stu-id="dfe23-115">Before you can print checks by using ER, at least one active check configuration must be imported into your ER configurations.</span></span> <span data-ttu-id="dfe23-116">Juhiste saamiseks vaadake teemat [Elektroonilise aruandluse konfiguratsioonide allalaadimine teenusest Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).</span><span class="sxs-lookup"><span data-stu-id="dfe23-116">For instructions, see [Download Electronic reporting configurations from Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).</span></span>
+- <span data-ttu-id="dfe23-117">Kui konfigureerite pangakontole sularaha ja pangahalduse tšekke, siis märkige ruut **Üldine elektrooniline ekspordivorming** ja valige siis ekspordivormingu konfiguratsiooniks sobiv tšekivorming.</span><span class="sxs-lookup"><span data-stu-id="dfe23-117">When you configure Cash and bank management checks for the bank account, select the **Generic electronic Export format** check box, and then select the appropriate check format as an export format configuration.</span></span>
+- <span data-ttu-id="dfe23-118">Määrata tuleb ka ülekandele prinditavate kviitungiridade arv.</span><span class="sxs-lookup"><span data-stu-id="dfe23-118">You must also specify the number of slip lines that will be printed on the remittance.</span></span> <span data-ttu-id="dfe23-119">Lisage selle numbri arvutamisel kindlasti päiseread.</span><span class="sxs-lookup"><span data-stu-id="dfe23-119">Be sure to include the header rows when you calculate this number.</span></span> <span data-ttu-id="dfe23-120">Kahe tšeki näidisvormingu puhul on soovitatav kviitungiridade arv 17.</span><span class="sxs-lookup"><span data-stu-id="dfe23-120">For the two sample check formats, the recommended number of slip lines is 17.</span></span> <span data-ttu-id="dfe23-121">Kuid see arv erineb, olenevalt teie tšekivarudest ja printeridraiveritest.</span><span class="sxs-lookup"><span data-stu-id="dfe23-121">However, this number will vary, depending on your check stock and your printer drivers.</span></span>
+- <span data-ttu-id="dfe23-122">Soovitame printida tšeki paigutuse kontrollimiseks proovitšeki.</span><span class="sxs-lookup"><span data-stu-id="dfe23-122">We recommend that you print a test check to validate the check layout.</span></span> <span data-ttu-id="dfe23-123">Proovitšeki printimiseks valige suvand **Prindi proov**.</span><span class="sxs-lookup"><span data-stu-id="dfe23-123">To print a test check, select the **Print test** option.</span></span> <span data-ttu-id="dfe23-124">Tšeki näidisvormingud toimivad kõige paremini, kui Microsoft Exceli täpsemates printeriatribuutides on suvandi **Veerised** sätteks on valitud **Puudub**.</span><span class="sxs-lookup"><span data-stu-id="dfe23-124">The sample check formats work best when **Margins** is set to **None** in the advanced printer properties for Microsoft Excel.</span></span> <span data-ttu-id="dfe23-125">Kui tšekk on loodud, lubage Exceli väljundi redigeerimine ja konfigureerige lehe paigutus, nii et kõik veerised oleksid määratud väärtuseks **0** (null).</span><span class="sxs-lookup"><span data-stu-id="dfe23-125">After the test check has been generated, enable editing of the Excel output, and configure the page layout so that all margins are set to **0** (zero).</span></span> <span data-ttu-id="dfe23-126">Võrrelge tšekkide proovieksemplari oma tšekivarudega ja reguleerige sätteid, kuni olete joondusega rahul.</span><span class="sxs-lookup"><span data-stu-id="dfe23-126">Compare the test copy of the checks to your check stock, and adjust the settings until you're satisfied with the alignment.</span></span>
+- <span data-ttu-id="dfe23-127">Maksetöölehel konfigureeritud pangakontole maksete loomisel prinditakse tšekid, kasutades määratud vormingut.</span><span class="sxs-lookup"><span data-stu-id="dfe23-127">When you generate payments for the configured bank account in the payment journal, the checks will be printed by using the specified format.</span></span>
+
+<span data-ttu-id="dfe23-128">Lisateavet leiate jaotisest [Elektroonilise aruandluse vormingu muutmine](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).</span><span class="sxs-lookup"><span data-stu-id="dfe23-128">For more information, see [Modify an Electronic reporting format](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).</span></span>

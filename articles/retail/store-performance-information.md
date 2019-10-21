@@ -1,6 +1,6 @@
 ---
 title: Kaupluse jõudluse analüüsimine
-description: See artikkel selgitab, kuidas kasutada mälusisest ja reaalajas analüüsi kaupluse tulemuste vaatamiseks, uurimiseks ja nende kohta ülevaate saamiseks Microsoft Dynamics 365 for Retaili andmete põhjal.
+description: See artikkel selgitab, kuidas kasutada mälusisest ja reaalajas analüüsi kaupluse tulemuste vaatamiseks, uurimiseks ja nende kohta ülevaate saamiseks Dynamics 365 Retaili andmete põhjal.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,29 +19,29 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c975c021b6db49d1e25fd036f4955c7223e438ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b2ea6ad2e3d9589face06cd5f950973209c17d41
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569259"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017778"
 ---
-# <a name="analyze-store-performance"></a><span data-ttu-id="6414e-103">Kaupluse jõudluse analüüsimine</span><span class="sxs-lookup"><span data-stu-id="6414e-103">Analyze store performance</span></span>
+# <a name="analyze-store-performance"></a><span data-ttu-id="78756-103">Kaupluse jõudluse analüüsimine</span><span class="sxs-lookup"><span data-stu-id="78756-103">Analyze store performance</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="6414e-104">See artikkel selgitab, kuidas kasutada mälusisest ja reaalajas analüüsi kaupluse tulemuste vaatamiseks, uurimiseks ja nende kohta ülevaate saamiseks Microsoft Dynamics 365 for Retaili andmete põhjal.</span><span class="sxs-lookup"><span data-stu-id="6414e-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span>
+<span data-ttu-id="78756-104">See artikkel selgitab, kuidas kasutada mälusisest ja reaalajas analüüsi kaupluse tulemuste vaatamiseks, uurimiseks ja nende kohta ülevaate saamiseks Dynamics 365 Retaili andmete põhjal.</span><span class="sxs-lookup"><span data-stu-id="78756-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Dynamics 365 Retail data.</span></span>
 
-<span data-ttu-id="6414e-105">**Kasutajad saavad**i osana uurida kaupluse jõudlust reaalajas organisatsiooni hierarhia erinevatel tasanditel valitud perioodil, avades valmisaruande Dynamics 365 for RetailKanali kokkuvõte ühest järgmistest asukohtadest.</span><span class="sxs-lookup"><span data-stu-id="6414e-105">As part of Dynamics 365 for Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
+<span data-ttu-id="78756-105">Kasutajad saavadi osana uurida kaupluse jõudlust reaalajas organisatsiooni hierarhia erinevatel tasanditel valitud perioodil, avades valmisaruande **Kanali kokkuvõte** ühest järgmistest asukohtadest.</span><span class="sxs-lookup"><span data-stu-id="78756-105">As part of Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
 
-- <span data-ttu-id="6414e-106">Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali koondaruanne**</span><span class="sxs-lookup"><span data-stu-id="6414e-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
-- <span data-ttu-id="6414e-107">Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali koondaruanne**</span><span class="sxs-lookup"><span data-stu-id="6414e-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
-- <span data-ttu-id="6414e-108">Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali koondaruanne**</span><span class="sxs-lookup"><span data-stu-id="6414e-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
+- <span data-ttu-id="78756-106">Tööruum **Jaekaupluse haldus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse haldus** &gt; **Aruanded** &gt; **Kanali koondaruanne**</span><span class="sxs-lookup"><span data-stu-id="78756-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
+- <span data-ttu-id="78756-107">Tööruum **Jaekaupluse rahandus** &gt; **Jaemüük** &gt; **Kanalid** &gt; **Jaekaupluse rahandus** &gt; **Aruanded** &gt; **Kanali koondaruanne**</span><span class="sxs-lookup"><span data-stu-id="78756-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
+- <span data-ttu-id="78756-108">Jaotis **Päringud ja aruanded** &gt; **Jaemüük** &gt; **Päringud ja aruanded** &gt; **Müügiaruanded** &gt; **Kanali koondaruanne**</span><span class="sxs-lookup"><span data-stu-id="78756-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
 
-<span data-ttu-id="6414e-109">See aruanne pakub kaupluse jõudluse osana järgmiste kokkuvõtete hetketõmmiseid:</span><span class="sxs-lookup"><span data-stu-id="6414e-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
+<span data-ttu-id="78756-109">See aruanne pakub kaupluse jõudluse osana järgmiste kokkuvõtete hetketõmmiseid:</span><span class="sxs-lookup"><span data-stu-id="78756-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
 
-- <span data-ttu-id="6414e-110">Müügi brutokokkuvõte</span><span class="sxs-lookup"><span data-stu-id="6414e-110">Gross sales summary</span></span>
-- <span data-ttu-id="6414e-111">Maksevahendi tüübi kokkuvõte</span><span class="sxs-lookup"><span data-stu-id="6414e-111">Tender type summary</span></span>
-- <span data-ttu-id="6414e-112">Maksu kokkuvõte</span><span class="sxs-lookup"><span data-stu-id="6414e-112">Tax summary</span></span>
-- <span data-ttu-id="6414e-113">hinna tühistamiste kokkuvõte,</span><span class="sxs-lookup"><span data-stu-id="6414e-113">Price overrides summary</span></span>
-- <span data-ttu-id="6414e-114">allahindluste kokkuvõte.</span><span class="sxs-lookup"><span data-stu-id="6414e-114">Discounts summary</span></span>
+- <span data-ttu-id="78756-110">Müügi brutokokkuvõte</span><span class="sxs-lookup"><span data-stu-id="78756-110">Gross sales summary</span></span>
+- <span data-ttu-id="78756-111">Maksevahendi tüübi kokkuvõte</span><span class="sxs-lookup"><span data-stu-id="78756-111">Tender type summary</span></span>
+- <span data-ttu-id="78756-112">Maksu kokkuvõte</span><span class="sxs-lookup"><span data-stu-id="78756-112">Tax summary</span></span>
+- <span data-ttu-id="78756-113">hinna tühistamiste kokkuvõte,</span><span class="sxs-lookup"><span data-stu-id="78756-113">Price overrides summary</span></span>
+- <span data-ttu-id="78756-114">allahindluste kokkuvõte.</span><span class="sxs-lookup"><span data-stu-id="78756-114">Discounts summary</span></span>
