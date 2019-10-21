@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1f5658de1da8a0b6c36d99e4bb9cf401c09ad0b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559143"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249792"
 ---
 # <a name="sales-returns"></a>Müügitagastused
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559143"
 
 See teema annab teavet tagastustellimuste protsessi kohta. See hõlmab teavet klienditagastuste ning nende mõju kohta kuluarvestusele ja vaba kaubavaru kogustele.
 
-Kliendid saavad tagastada kaupu erinevatel põhjustel. Näiteks võib kaup olla defektne või see ei pruugi vastata kliendi ootustele. Tagastusprotsess käivitub, kui klient väljastab kauba tagastamiseks taotluse. Pärast kliendi taotluse vastuvõtmist luuakse rakenduses Microsoft Dynamics 365 for Finance and Operations tagastustellimus.
+Kliendid saavad tagastada kaupu erinevatel põhjustel. Näiteks võib kaup olla defektne või see ei pruugi vastata kliendi ootustele. Tagastusprotsess käivitub, kui klient väljastab kauba tagastamiseks taotluse. Pärast kliendi taotluse vastuvõtmist luuakse tagastustellimus.
 
 ## <a name="return-order-process"></a>Tagastustellimuse protsess
 Järgmine näide annab ülevaate tagastustellimuse protsessist.  
@@ -281,7 +281,7 @@ See stsenaarium hõlmab samas organisatsioonis kaht ettevõtet, nagu on näidatu
 
 ![Lihtne kontsernisisene tagastus](./media/SalesReturn07.png)
 
-Tellimusahela saab luua, kui ostuettevõttes luuakse hankija tagastustellimus või müügiettevõttes luuakse kliendi tagastustellimus. Finance and Operations loob teises ettevõttes vastava tellimuse ja tagab, et hankija tagastustellimuse päise ja rea teave kajastaks kliendi tagastusreal olevaid sätteid. Loodav tagastustellimus võib olemasolevale kliendiarvele viidet lisada või seda välistada (**Otsi müügitellimust**). Kahe tellimuse saatelehti ja arveid saab individuaalselt töödelda. Näiteks ei pea te looma saatelehte hankija tagastustellimuse jaoks enne kliendi tagastustellimuse jaoks saatelehe loomist.
+Tellimusahela saab luua, kui ostuettevõttes luuakse hankija tagastustellimus või müügiettevõttes luuakse kliendi tagastustellimus. Teises ettevõttes luuakse vastav tellimus ja tagatakse, et hankija tagastustellimuse päise ja rea teave kajastaks kliendi tagastusreal olevaid sätteid. Loodav tagastustellimus võib olemasolevale kliendiarvele viidet lisada või seda välistada (**Otsi müügitellimust**). Kahe tellimuse saatelehti ja arveid saab individuaalselt töödelda. Näiteks ei pea te looma saatelehte hankija tagastustellimuse jaoks enne kliendi tagastustellimuse jaoks saatelehe loomist.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Otsetarne saadetise tagastused kolme osapoole hulgas
 

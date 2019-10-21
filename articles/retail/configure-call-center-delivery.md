@@ -1,6 +1,6 @@
 ---
 title: Kõnekeskuse tarneviiside ja -tasude konfigureerimine
-description: Selles teemas kirjeldatakse, kuidas seadistada kõnekeskuse jaoks tarneviise ja -tasusid rakenduses Microsoft Dynamics 365 for Retail.
+description: Selles teemas kirjeldatakse, kuidas seadistada kõnekeskuse jaoks tarneviise ja -tasusid rakenduses Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b67a1d91e41e1a4c21e0e877c06812dededbe731
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553595"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019481"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Kõnekeskuse tarneviiside ja -tasude konfigureerimine
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Kui rakenduses Microsoft Dynamics 365 for Retail tehakse müügitellimus ja müügitellimuse sisestanud isik on kõnekeskuse kanaliga seotud, siis kasutatakse tarneviisi kinnitamiseks ning tellimuse tasude arvutamiseks loogikaid ja reegleid.
+Kui rakenduses Dynamics 365 Retail tehakse müügitellimus ja müügitellimuse sisestanud isik on kõnekeskuse kanaliga seotud, siis kasutatakse tarneviisi kinnitamiseks ning tellimuse tasude arvutamiseks loogikaid ja reegleid.
 
 Müügitellimuse loomisel saate valida tarneviisi müügitellimuse päisest ja müügitellimuse ridadest. Vaikimisi kasutatakse päisest valitud tarneviisi kõikidel müügitellimuse ridadel. Siiski saate vajaduse korral muuta vaike-tarneviisi igal müügireal eraldi. Saate määratleda tarneviisi ka kliendikirjel. Seejärel kasutatakse seda tarneviisi selle kliendi tellimuste loomisel müügitellimuse päises vaikimisi.
 

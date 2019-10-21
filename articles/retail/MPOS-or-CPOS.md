@@ -1,6 +1,6 @@
 ---
 title: Valimine Retail Modern POS-i (MPOS) ja pilvekassa vahel
-description: Selles teemas selgitatakse, mis on põhierinevused Retail Modern POS-i ja pilvekassa vahel. Selles kirjeldatakse ka erinevaid tegureid, mida rakendust Microsoft Dynamics 365 for Retail kasutusele võtvad jaemüüjad peaksid arvesse võtma, et teha oma nõuetele vastav parim valik.
+description: Selles teemas selgitatakse, mis on põhierinevused Retail Modern POS-i ja pilvekassa vahel. Selles kirjeldatakse ka erinevaid tegureid, mida rakendust Dynamics 365 Retail kasutusele võtvad jaemüüjad peaksid arvesse võtma, et teha oma nõuetele vastav parim valik.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69cf6d2b7a9bb09a848f2a0c870f5e7e59c61e91
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557010"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025905"
 ---
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Valimine Retail Modern POS-i (MPOS) ja pilvekassa vahel
 
 [!include [banner](includes/banner.md)]
 
-See teema annab juurutajatele täiendava tausta, näpunäited ja juhiseid tegurite kohta, mida nad peaksid arvesse võtma, kui juurutavad rakendust Microsoft Dynamics 365 for Retail. Kui juurutajad vaatavad üle ja järgivad juurutusprotsessi osana neid juhiseid, saavad nad vältida probleeme, mis võivad mõjutada kasutaja rahulolu või jõudlust.
+See teema annab juurutajatele täiendava tausta, näpunäited ja juhiseid tegurite kohta, mida nad peaksid arvesse võtma, kui juurutavad rakendust Dynamics 365 Retail. Kui juurutajad vaatavad üle ja järgivad juurutusprotsessi osana neid juhiseid, saavad nad vältida probleeme, mis võivad mõjutada kasutaja rahulolu või jõudlust.
 
 ## <a name="insights"></a>Ülevaated
 
@@ -59,7 +59,7 @@ Kuigi MPOS ja CPOS on suures osas samad, on ka olulisi erinevusi, mida peate mõ
 
 Windowsi, iOS-i või Androidi seadmes on MPOS rakendus, mida pakitakse, installitakse ja hooldatakse selles seadmes.
 
-- **Windows** – MPOS Windowsi rakenduse jaoks sisaldab kogu rakenduse koodi ja manustatud kaubanduse käitusaega (CRT). 
+- **Windows** – MPOS Windowsi rakenduse jaoks sisaldab kogu rakenduse koodi ja manustatud Commerce Runtime’i (CRT). 
 - **iOS/Android** – nendel platvormidel toimib rakendus CPOS-i rakendusekoodi hostina. Teisisõnu tuleb rakendusekood CPOS-i serverist Microsoft Azure’is või Retail Store Scale Unitis (RSSU). Lisateavet vt teemast [Retail Store Scale Uniti ülevaade ](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS

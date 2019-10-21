@@ -1,6 +1,6 @@
 ---
-title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Talent (13. august 2019)?
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (13. august 2019)?
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 8/13/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1c10d5d7639c1606b00f95e0bd2b3b3fec326787
-ms.sourcegitcommit: db84eeef6f0bd531ba45b5e66bdacfd0398472e6
+ms.openlocfilehash: b813f3e4707724c262a32aca1227b3d91d1a229f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887479"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025975"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-13-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Talent (13. august 2019)?
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-13-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (13. august 2019)?
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="changes-in-attract"></a>Muutused Attractis
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Attract veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Onboard veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2421.0
@@ -54,9 +54,9 @@ Uus suvand võimaldab juhtidel vaadata nii oma otseste kui ka kaudsete alluvate 
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
-### <a name="platform-update-29"></a>Platvormivärskendus update 29
+### <a name="platform-update-29-for-finance-and-operations"></a>Finance and Operationsi 29. platvormi värskendus
 
-Platvormivärskenduse 29 kohta lisainfo saamiseks vt [Dynamics 365 for Finance and Operations platvormivärskenduse 29 (oktoober 2019) funktsioonide eelvaade](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Lisainfo saamiseks Finance and Operationsi platvormi värskenduse 29 kohta vt  [Dynamics 365 Finance and Operationsi platvormi värskenduse 29 (aprill, 2019) funktsioonide eelvaade](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>Sujuvam töötajate sisestamine ja navigeerimine
 

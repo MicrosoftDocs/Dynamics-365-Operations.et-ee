@@ -1,6 +1,6 @@
 ---
 title: Pakkumiste halduse seadistamine
-description: Selles teemas kirjeldatakse, kuidas rakenduses Talent pakkumisi seadistada.
+description: Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Talent pakkumisi seadistada.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517795"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010840"
 ---
 # <a name="set-up-offer-management"></a>Pakkumiste halduse seadistamine 
 
 [!include [banner](includes/banner.md)]
 
-Kui kandidaat viiakse rakenduses Dynamics 365 for Talent: Attract pakkumise etappi, peate tagama, et pakkumisi saab kandidaadi jaoks kiiresti luua, vajadusel kinnitada ja kandidaadile saata. Kuna enamik pakkumisi on standardsed, saab neid luua korduvkasutatavate mallidega. Rakenduses Attract on kõik pakkumised koos pakkumise paketis, mis on ühest või enama pakkumisdokumendiga kogum. 
+Kui kandidaat viiakse rakenduses Dynamics 365 Talent: Attract pakkumise etappi, peate tagama, et pakkumisi saab kandidaadi jaoks kiiresti luua, vajadusel kinnitada ja kandidaadile saata. Kuna enamik pakkumisi on standardsed, saab neid luua korduvkasutatavate mallidega. Rakenduses Attract on kõik pakkumised koos pakkumise paketis, mis on ühest või enama pakkumisdokumendiga kogum. 
 
 Selles teemas loetletakse kõik etapid, mida Attracti administraator peab järgima, et seadistada erinevad pakkumise paketi mallid osana Attracti pakkumiste haldamise võimalusest. Administraatori rollita kasutajatel puudub juurdepääs nendele võimalustele.
 

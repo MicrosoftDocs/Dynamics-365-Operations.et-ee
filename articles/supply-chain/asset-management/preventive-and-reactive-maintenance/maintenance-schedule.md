@@ -3,7 +3,7 @@ title: Hooldusgraafik
 description: Selles teemas selgitatakse hooldusgraafikut varahalduses.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 780b633af04c38705f8321d19924f3802b2d5c67
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: af2152b334b51db48b60aa966ab49bf480c29bbc
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875609"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922133"
 ---
 # <a name="maintenance-schedule"></a>Hooldusgraafik
 
@@ -64,7 +64,7 @@ Hooldusgraafiku avamiseks toimige järgmiselt.
 - Kui hooldusgraafiku rida on seotud töökäsuga, kuvatakse töökäsu IDd väljal **Töökäsk**.  
 - Varale saate hoolduskavasid valida jaotise **Kõik varad** üksikasjade vaate > kiirkaardil **Vara hoolduskavad**. Hiljem, kui kustutate jaotise **Kõik varad** varaga seotud hoolduskava rea, kustutate automaatselt kõik hooldusgraafiku read olekuga "Loodud", mis on loodud selle hoolduskava põhjal. Vaadake ka jaotist [Vara loomine](../objects/create-an-object.md).
 
-Allolev joonis näitab jaotise **Kõik hooldusgraafikud** loendi lehte.
+Alloleval joonisel on kujutatud jaotise **Kõik hooldusgraafikud** loendi lehte.
 
 ![Joonis 1](media/16-preventive-maintenance.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Kõnekeskuse kataloogid
-description: Selles teemas kirjeldatakse kõnekeskusepõhiseid funktsioone rakenduse Microsoft Dynamics 365 for Retail kataloogidele.
+description: Selles teemas kirjeldatakse kõnekeskusepõhiseid funktsioone rakenduse Dynamics 365 Retail kataloogidele.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ad50be1394daf5bffa6391d2f56340aad14120b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562737"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023655"
 ---
 # <a name="call-center-catalogs"></a>Kõnekeskuse kataloogid
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse kõnekeskusepõhiseid funktsioone, mis on seotud Microsoft Dynamics 365 for Retaili kataloogide võimalustega.
+Selles teemas kirjeldatakse kõnekeskusepõhiseid funktsioone, mis on seotud Dynamics 365 Retaili kataloogide võimalustega.
 
-Dynamics 365 for Retaili kataloogide funktsioone saab kasutada mitmel eesmärgil. Kataloogide funktsioonid loodi algselt kolmanda isiku e-kaubanduse integratsioonide toetamiseks. Kataloogide seadistus võimaldas ettevõtetel luua toodete ja atribuutide rühmi, mida on võimalik avaldada väliselt kolmanda isiku e-kaubanduse lahendusele kasutuseks.
+Retaili kataloogide funktsioone saab kasutada mitmel eesmärgil. Kataloogide funktsioonid loodi algselt kolmanda isiku e-kaubanduse integratsioonide toetamiseks. Kataloogide seadistus võimaldas ettevõtetel luua toodete ja atribuutide rühmi, mida on võimalik avaldada väliselt kolmanda isiku e-kaubanduse lahendusele kasutuseks.
 
-Kui Dynamics 365 for Retailile lisati kõnekeskuse kanali tugi, siis laiendati kataloogi mõistet – lisati rohkem võimalusi traditsiooniliste „vahetult tarbijale “ turunduskataloogide funktsioonide toetamiseks ja haldamiseks. „Vahetult tarbijale“ ettevõtted trükivad sageli kataloogid välja ja saadavad need seejärel ühele või mitmele kliendirühmale. Need kataloogid sisaldavad tavaliselt kindlaid kampaaniad või pakkumisi, mille kasutamiseks peab klient esitama tellimuse tegemise ajal kataloogi ID-koodi.
+Kui Retailile lisati kõnekeskuse kanali tugi, siis laiendati kataloogi mõistet – lisati rohkem võimalusi traditsiooniliste „vahetult tarbijale “ turunduskataloogide funktsioonide toetamiseks ja haldamiseks. „Vahetult tarbijale“ ettevõtted trükivad sageli kataloogid välja ja saadavad need seejärel ühele või mitmele kliendirühmale. Need kataloogid sisaldavad tavaliselt kindlaid kampaaniad või pakkumisi, mille kasutamiseks peab klient esitama tellimuse tegemise ajal kataloogi ID-koodi.
 
-„Vahetult tarbijale“ turundusettevõtted on huvitatud nende kataloogide kasutamise teabest, et tagada, et kataloogide tootmise ja saatmise kulud oleks õigustatud. Kataloogide kasutamise jälgimiseks trükitakse tavaliselt kataloogi tagaküljele kood, mille kataloogi kasutaja peab esitama, kui ta telefoni teel tellimuse esitab (või tänapäeval tavapärasemalt sisestab koodi Interneti kaudu tellides). Kuigi kataloogi jälgimiskoodi jaoks on kasutusel eri termineid (sh võtmekood, kampaaniakood, kataloogikood, lähtekood), kasutame Dynamics 365 for Retailis selleks mõistet **lähtekoodi ID**.
+„Vahetult tarbijale“ turundusettevõtted on huvitatud nende kataloogide kasutamise teabest, et tagada, et kataloogide tootmise ja saatmise kulud oleks õigustatud. Kataloogide kasutamise jälgimiseks trükitakse tavaliselt kataloogi tagaküljele kood, mille kataloogi kasutaja peab esitama, kui ta telefoni teel tellimuse esitab (või tänapäeval tavapärasemalt sisestab koodi Interneti kaudu tellides). Kuigi kataloogi jälgimiskoodi jaoks on kasutusel eri termineid (sh võtmekood, kampaaniakood, kataloogikood, lähtekood), kasutame Retailis selleks mõistet **lähtekoodi ID**.
 
 ## <a name="basic-catalog-setup"></a>Kataloogi põhiseadistus
 
@@ -92,7 +92,7 @@ Kataloogi toodete konfigureerimisel kasutage tegevust **Toote lehe paigutus**, e
 
 ## <a name="catalog-requests"></a>Kataloogi taotlused
 
-Dynamics 365 for Retailis konfigureeritud ja avaldatud kataloogide puhul saab kasutada funktsiooni **Saada kataloog**. See funktsioon on saadaval lehtedel **Kliendiotsing** ja **Klienditeenindus**. Pärast **Kliendiotsingu** kaudu kliendikirje valimist või lehe **Klienditeenindus** kaudu valitud kliendi konto vaatamisel saavad kasutajad valida suvandi **Saada kataloog**, mis avab dialoogiboksi, mis võimaldab kasutajal valida avaldatud ja aktiivsete kataloogide loendist. Kasutaja saab saatmiseks valida kataloogi, koguse ja konkreetse lähtekoodi ID. Kui ta klõpsab nuppu **Saada**, siis talletatakse taotlus, mida saab seejärel hallata, kui trükkida **Kataloogi taotluste** aruanne. Selle aruande leiate, kui valite **Jaemüük** \> **Kõnekeskuse aruanded** \> **Kataloogi taotluste aruanne**. Selles loetletakse kõik kataloogi taotlused, sh kataloogi taotlenud kliendi nimi ja aadress. Seda aruannet saate kasutada ettevõttesiseselt või saate edastada aruande andmed kolmandale isikule, täiendades väliseid toiminguid kliendile füüsiliselt kataloogi saatmise puhul.
+Retailis konfigureeritud ja avaldatud kataloogide puhul saab kasutada funktsioon **Saada kataloog**. See funktsioon on saadaval lehtedel **Kliendiotsing** ja **Klienditeenindus**. Pärast **Kliendiotsingu** kaudu kliendikirje valimist või lehe **Klienditeenindus** kaudu valitud kliendi konto vaatamisel saavad kasutajad valida suvandi **Saada kataloog**, mis avab dialoogiboksi, mis võimaldab kasutajal valida avaldatud ja aktiivsete kataloogide loendist. Kasutaja saab saatmiseks valida kataloogi, koguse ja konkreetse lähtekoodi ID. Kui ta klõpsab nuppu **Saada**, siis talletatakse taotlus, mida saab seejärel hallata, kui trükkida **Kataloogi taotluste** aruanne. Selle aruande leiate, kui valite **Jaemüük** \> **Kõnekeskuse aruanded** \> **Kataloogi taotluste aruanne**. Selles loetletakse kõik kataloogi taotlused, sh kataloogi taotlenud kliendi nimi ja aadress. Seda aruannet saate kasutada ettevõttesiseselt või saate edastada aruande andmed kolmandale isikule, täiendades väliseid toiminguid kliendile füüsiliselt kataloogi saatmise puhul.
 
 ## <a name="additional-features"></a>Lisafunktsioonid
 

@@ -1,6 +1,6 @@
 ---
-title: Toe hankimine rakendusele Dynamics 365 for Retail
-description: See artikkel selgitab, kuidas saada abi rakenduse Microsoft Dynamics 365 for Retail kasutamisel.
+title: Toe hankimine rakendusele Dynamics 365 Retail
+description: Selles teemas selgitatakse, kuidas saada abi Microsoft Dynamics 365 Retail kasutamisel.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 225b39bb03fa3bbd0b3c3a24e4eb09a114d01904
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577840"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025002"
 ---
-# <a name="get-support-for-dynamics-365-for-retail"></a>Toe hankimine rakendusele Dynamics 365 for Retail
+# <a name="get-support-for-dynamics-365-retail"></a>Toe hankimine rakendusele Dynamics 365 Retail
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel selgitab, kuidas saada abi rakenduse Dynamics 365 for Retail kasutamisel.
+See artikkel selgitab, kuidas saada abi rakenduse Dynamics 365 Retail kasutamisel.
 
 ## <a name="contact-support"></a>Toega ühendustvõtmine
 
@@ -48,7 +48,7 @@ Retaili toe hankimiseks kasutage järgmises tabelis olevaid ressursse. Ressursid
 <tbody>
 <tr>
 <td>Küsige kogukonnalt.</td>
-<td>Oma küsimusele Dynamicsi kogukonnalt vastuse saamiseks minge <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> kogukonna lehele.</td>
+<td>Oma küsimusele Dynamicsi kogukonnalt vastuse saamiseks minge <a href="https://community.dynamics.com/365/retail">Dynamics 365 Retail</a> kogukonna lehele.</td>
 </tr>
 <tr>
 <td>Kasutage tööriista Teema otsing.</td>
@@ -74,7 +74,7 @@ Retaili toe hankimiseks kasutage järgmises tabelis olevaid ressursse. Ressursid
 Kui teil on probleeme sisselogimisega ja teenuste (nt CustomerSource, e-õpe, otsing, teabebaas, failide allalaadimine ning lehtede ja süsteemi tõrked) toimimisega, vaadake teemat <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">Veebisaidi tugi</a>.</td>
 </tr>
 <tr>
-<td>Rakenduse Retail või Finance and Operations litsentsimisega seotud küsimuste spikker.</td>
+<td>Abi saamine küsimuste korral litsentsimise kohta.</td>
 <td>Võtke ühendust partneri, hulgi edasimüüja (LAR) või Microsofti müügiesindajaga.</td>
 </tr>
 <tr>

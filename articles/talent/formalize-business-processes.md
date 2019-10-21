@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 85950a1413cfd8745bb78a52eb9f7c81b8976605
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517791"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008362"
 ---
 # <a name="formalize-business-processes"></a>Äriprotsesside formaliseerimine
 
@@ -43,7 +43,7 @@ Igale äriprotsessile saate määrata protsessi omaniku. Protsessi omanik näeb 
 Protsessi omanik ei saa luua uusi äriprotsesse või äriprotsessi malle ega kustutada aktiivseid äriprotsesse või äriprotsessi malle.
 
 ## <a name="tasks"></a>Ülesanded
-Äriprotsess koosneb sageli mitmest ülesandest. Mõnd ülesannet, näiteks ettevõttesiseste kursuste pakkumiste ülevaatamist, saab lõpule viia rakenduses Dynamics 365 for Talent[?]. Sel juhul valitakse väljal **Ülesande link** suvand. Muud ülesanded võivad hõlmata veebisaidi lehtede ülevaatamist ja täitmist. Sel juhul valitakse väljal **Ülesande link** **URL**, misjärel saab sisestada veebiaadressi. Saate sisestada nii välis- kui ka sisesaitide URL-e. Samuti saate luua ülesandeid tegevustele, mida teete käsitsi, näiteks struktuuride juurdepääsetavuse ülevaatamine. Sel juhul pole ülesande link vajalik. Sedasi on võimalik jälgida mitmesuguseid ülesandeid ulatusliku protsessi abil.
+Äriprotsess koosneb sageli mitmest ülesandest. Mõnd ülesannet, näiteks ettevõttesiseste kursuste pakkumiste ülevaatamist, saab lõpule viia rakenduses Microsoft Dynamics 365 Talent. Sel juhul valitakse väljal **Ülesande link** suvand. Muud ülesanded võivad hõlmata veebisaidi lehtede ülevaatamist ja täitmist. Sel juhul valitakse väljal **Ülesande link** **URL**, misjärel saab sisestada veebiaadressi. Saate sisestada nii välis- kui ka sisesaitide URL-e. Samuti saate luua ülesandeid tegevustele, mida teete käsitsi, näiteks struktuuride juurdepääsetavuse ülevaatamine. Sel juhul pole ülesande link vajalik. Sedasi on võimalik jälgida mitmesuguseid ülesandeid ulatusliku protsessi abil.
 
 Ülesandeid on võimalik määrata kas kindlale töötajale või ametikohale. Näiteks on hüvitise ja eeliste haldur alati see inimene, kes vaatab üle kindlustusmaksed. Seetõttu valige selle ülesande loomisel **Ametikoht** väljal **Määramise tüüp** ja seejärel valige **Hüvitise ja eeliste haldur** loendis **Ametikoht**. Äriprotsessi käivitamisel määratakse ülesanne töötajale, kelle ametikohaks on **Hüvitise ja eeliste haldur**. Ülesande määramiseks konkreetsele töötajale valige väljal **Määramise tüüp** suvand **Töötaja** ja seejärel valige sobiv inimene.
 

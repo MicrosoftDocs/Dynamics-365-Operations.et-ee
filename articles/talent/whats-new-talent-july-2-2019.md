@@ -1,6 +1,6 @@
 ---
-title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Talent (25. juuni 2019)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (25. juuni 2019)
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c474b0ba40db238db33cfa45ddde55cd0724a9b
-ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
+ms.openlocfilehash: a5de33a3a4f22f2a5be672c492fc59a6429b49e1
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "1791972"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010287"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Talent (2. juuli 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-02-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (02. juuli 2019)
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="changes-in-attract"></a>Muutused Attractis
 
@@ -52,8 +52,8 @@ Kinnitused kuvatakse armatuurlaua jaotises **Kinnitused**. Kinnitajad saavad kin
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
 
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Onboard veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Core HR veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Core HR.

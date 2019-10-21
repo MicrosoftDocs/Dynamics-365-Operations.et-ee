@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (13. mai 2019)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (13. mai 2019)
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/13/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ffeeb3e2f5279a84c4c060b04fe46836b778f6c5
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 42feeb044d0a4cd25faf2d74863aa4e948c200fd
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856444"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008810"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-13-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (13. mai 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-13-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (13. mai 2019)
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="coming-soon-in-attract"></a>Peagi tulekul rakenduses Attract
 
@@ -39,7 +39,7 @@ Kinnitused kuvatakse armatuurlaua jaotises **Kinnitused**. Kinnitajad saavad kin
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
 
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Onboard veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 

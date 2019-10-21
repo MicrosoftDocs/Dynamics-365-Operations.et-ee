@@ -1,6 +1,6 @@
 ---
-title: Rakenduse Finance and Operations toodete vahetu sünkroonimine rakenduse Sales toodetega
-description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse toodete sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Sales.
+title: Rakenduse Supply Chain Management toodete sünkroonimine otse rakenduse Sales toodetega
+description: Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse toodete sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management otse rakendusse Dynamics 365 Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/10/2019
@@ -19,25 +19,25 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b4a6fab3a4831bc3d18313b351e453c615788843
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 38f0db7db0cc4f65d46cd241f75a7274f19f62cf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742420"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251381"
 ---
-# <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega
+# <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Rakenduse Supply Chain Management toodete sünkroonimine otse rakenduse Sales toodetega
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Enne kui saate kasutada lahendust Potentsiaalne klient sularahaks, tutvuge [andmete integreerimisega teenusesse Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse toodete sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations otse rakendusse Microsoft Dynamics 365 for Sales.
+Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse toodete sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management otse rakendusse Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Andmevoog lahenduses Potentsiaalne klient sularahaks
 
-Lahendus Potentsiaalne klient sularahaks kasutab andmete integreerimise funktsiooni andmete sünkroonimiseks rakenduste Finance and Operations ja Sales vahel. Andmete integratsiooniga saadaolevad lahenduse Potentsiaalne klient sularahaks mallid võimaldavad kontode, kontaktide, toodete, müügipakkumiste, müügitellimuste ja müügiarvete andmete liikumist rakenduste Finance, Operations ja Sales. Järgmine illustratsioon näitab, kuidas sünkroonitakse andmeid rakenduste Finance and Operations ja Sales vahel.
+Lahendus Potentsiaalne klient sularahaks kasutab andmete integreerimise funktsiooni andmete sünkroonimiseks rakenduste Supply Chain Management ja Sales vahel. Andmete integratsiooniga saadaolevad lahenduse Potentsiaalne klient sularahaks mallid võimaldavad kontode, kontaktide, toodete, müügipakkumiste, müügitellimuste ja müügiarvete andmete liikumist rakenduste Supply Chain Management ja Sales. Järgmine illustratsioon näitab, kuidas sünkroonitakse andmeid rakenduste Supply Chain Management ja Sales vahel.
 
 [![Andmevoog lahenduses Potentsiaalne klient sularahaks](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -45,7 +45,7 @@ Lahendus Potentsiaalne klient sularahaks kasutab andmete integreerimise funktsio
 
 Saadaolevatele mallidele juurdepääsemiseks avage [PowerApps administreerimiskeskus](https://admin.powerapps.com/dataintegration). Valige **Projektid** ja seejärel paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
 
-Toodete sünkroonimiseks rakendusest Sales rakendusse Finance and Operations kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
+Toodete sünkroonimiseks rakendusest Supply Chain Management rakendusse Sales kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
 
 - **Andmete integratsioon malli nimi:** Tooted (rakendusest Fin and Ops rakendusse Sales) – otse
 - **Ülesande nimi andmete integratsiooni projektis:** Tooted
@@ -54,13 +54,13 @@ Enne toodete sünkroonimist ei ole vaja teha ühtki sünkroonimisülesannet.
 
 ## <a name="entity-set"></a>Üksuste komplekt
 
-| Finance and Operations     | Müük    |
+| Supply Chain Management    | Müük    |
 |----------------------------|----------|
 | Müüdavad väljastatud tooted | Tooted |
 
 ## <a name="entity-flow"></a>Üksuse voog
 
-Tooteid hallatakse rakenduses Finance and Operations ja need sünkroonitakse rakendusega Sales. Andmeüksus **Müüdavad väljastatud tooted** rakenduses Finaces and Operations ekspordib ainult tooted, mille olek on *Müüdav*. Müüdavad tooted hõlmavad müügitellimuses kasutamiseks vajalikku teavet. Samad reeglid kehtivad, kui toode valideeritakse funktsiooniga **Valideeri** lehel **Vabastatud toode**.
+Tooteid hallatakse rakenduses Supply Chain Management ja need sünkroonitakse rakendusega Sales. Andmeüksus **Müüdavad väljastatud tooted** rakenduses Supply Chain Management ekspordib ainult tooted, mille olek on *Müüdav*. Müüdavad tooted hõlmavad müügitellimuses kasutamiseks vajalikku teavet. Samad reeglid kehtivad, kui toode valideeritakse funktsiooniga **Valideeri** lehel **Vabastatud toode**.
 
 Tootenumbrit kasutatakse võtmena. Kui tootevariandid sünkroonitakse rakendusega Sales, on igal tootevariandil seega individuaalne toote ID.
 
@@ -68,13 +68,13 @@ Tootenumbrit kasutatakse võtmena. Kui tootevariandid sünkroonitakse rakenduseg
 
 Rakenduses Sales lisatakse toodetele uus väli **On väliselt hallatav**, mis näitab, et kõnealust toodet hallatakse väliselt. Vaikimisi seatakse rakendusse Sales importimise ajal selle väärtuseks **Jah**. Saadaval on järgmised väärtused:
 
-- **Jah**: toode pärineb rakendusest Finance and Operations ja seda ei saa rakenduses Sales muuta.
+- **Jah**: toode pärineb rakendusest Supply Chain Management ja seda ei saa rakenduses Sales muuta.
 - **Ei**: toode sisestati otse rakendusse Sales.
 - **(Tühi)**: toode oli rakenduses Sales olemas enne lahenduse Potentsiaalne klient sularahaks lubamist.
 
-Väli **On väliselt hallatav** aitab tagada, et ainult väliselt hallatavate toodetega pakkumised ja müügitellimused sünkroonitakse rakendusega Finance and Operations.
+Väli **On väliselt hallatav** aitab tagada, et ainult väliselt hallatavate toodetega pakkumised ja müügitellimused sünkroonitakse rakendusega upply Chain Management.
 
-Väliselt hallatavad tooted lisatakse automaatselt esimesse kehtivasse hinnakirja, millel on sama valuuta. Hinnakirjad on korraldatud tähestikulises järjekorras nime alusel. Toote müügihinda rakendusest Finance and Operations kasutatakse hinnakirja hinnana. Seega peab rakenduses Sales olema hinnakiri iga toote müügivaluuta kohta rakenduses Finance and Operations. Vabastatud müüdavate toodete valuutaks on määratud selle juriidilise isiku arvestusvaluuta, millest toode eksporditakse.
+Väliselt hallatavad tooted lisatakse automaatselt esimesse kehtivasse hinnakirja, millel on sama valuuta. Hinnakirjad on korraldatud tähestikulises järjekorras nime alusel. Toote müügihinda rakendusest Supply Chain Management kasutatakse hinnakirja hinnana. Seega peab rakenduses Sales olema hinnakiri iga toote müügivaluuta kohta rakenduses Supply Chain Management. Vabastatud müüdavate toodete valuutaks on määratud selle juriidilise isiku arvestusvaluuta, millest toode eksporditakse.
 
 > [!NOTE]
 > - Toote sünkroonimine ei õnnestu, kui vastava valuutaga hinnakiri puudub.
@@ -82,18 +82,18 @@ Väliselt hallatavad tooted lisatakse automaatselt esimesse kehtivasse hinnakirj
 
 ## <a name="preconditions-and-mapping-setup"></a>Eeltingimused ja vastendamise seadistamine
 
-- Enne kui saate esimese sünkroonimise käivitada, peate olemasolevate toodete puhul rakenduses Finance and Operations täitma tabeli Eristatav toode. Olemasolevaid tooteid ei sünkroonita, enne kui see töö on lõpule viidud.
+- Enne kui saate esimese sünkroonimise käivitada, peate olemasolevate toodete puhul rakenduses Supply Chain Management täitma tabeli Eristatav toode. Olemasolevaid tooteid ei sünkroonita, enne kui see töö on lõpule viidud.
 
-    1. Kasutage rakenduses Finance and Operations otsingufunktsiooni, et otsida suvandit **Asusta eristuva toote tabel**.
+    1. Kasutage rakenduses Supply Chain Management otsingufunktsiooni, et otsida suvandit **Asusta eristuva toote tabel**.
     2. Valige töö käivitamiseks nupp **Asusta eristuva toote tabel**. Seda tööd tohib käitada ainult üks kord.
 
-- Veenduge, et müügi mõõtühiku (UOM) puhul nõutav väärtuskaart rakenduse Finance and Operations ja rakenduse Sales vahel oleks üksuste **SalesUnitSymbol** ja **DefaultUnit (nimi)** vastenduses olemas.
+- Veenduge, et müügi mõõtühiku (UOM) puhul nõutav väärtuskaart rakenduse Supply Chain Management ja rakenduse Sales vahel oleks üksuste **SalesUnitSymbol** ja **DefaultUnit (nimi)** vastenduses olemas.
 - Värskendage suvandi **Ühikugrupp** väärtuskaarti (**defaultuomscheduleid.name**), nii et see kattuks rakenduse Sales suvandiga **Ühikugrupid**.
 
     Malli vaikeväärtus on **Vaikeühik**.
 
-- Veenduge, et kõigi toodete müügi mõõtühikud rakendusest Finance and Operations oleksid rakenduses Sales olemas.
-- Veenduge, et hinnakirjad oleksid rakenduses Sales olemas iga toote müügivaluuta kohta rakenduses Finance and Operations.
+- Veenduge, et kõigi toodete müügi mõõtühikud rakendusest Supply Chain Management oleksid rakenduses Sales olemas.
+- Veenduge, et hinnakirjad oleksid rakenduses Sales olemas iga toote müügivaluuta kohta rakenduses Supply Chain Management.
 - Rakenduses Sales tooteid luues võib nende olek olla **Mustand** või **Aktiivne**. Käitumist saab juhtida rakenduse Sales jaotises **Sätted** > **Administreerimine** > **Süsteemisätted** > **Sales**.
 
     Olekuga **Mustand** loodud tooted tuleb esmalt aktiveerida, enne kui neid saab pakkumistesse või müügitellimustesse lisada.
@@ -103,7 +103,7 @@ Väliselt hallatavad tooted lisatakse automaatselt esimesse kehtivasse hinnakirj
 Järgmistel joonistel on toodud näide malli vastendusest andmete integreerimises. 
 
 > [!NOTE]
-> Vastendamine näitab, millise välja teave sünkroonitakse rakendusest Sales rakendusse Finance and Operations.
+> Vastendamine näitab, millise välja teave sünkroonitakse rakendusest Sales rakendusse Supply Chain Management.
 
 ![Malli vastendamine andmeintegraatoris](./media/products-direct-template-mapping-data-integrator-1.png)
 
@@ -112,13 +112,13 @@ Järgmistel joonistel on toodud näide malli vastendusest andmete integreerimise
 
 [Potentsiaalne klient sularahaks](prospect-to-cash.md)
 
-[Rakenduse Sales kontode vahetu sünkroonimine rakenduse Finance and Operations klientidega](accounts-template-mapping-direct.md)
+[Rakenduse Sales kontode sünkroonimine otse rakenduse Supply Chain Management klientidega](accounts-template-mapping-direct.md)
 
-[Rakenduse Sales kontaktide vahetu sünkroonimine rakenduse Finance and Operations kontaktide või klientidega](contacts-template-mapping-direct.md)
+[Rakenduse Sales kontaktide sünkroonimine otse rakenduse Supply Chain Management kontaktide või klientidega](contacts-template-mapping-direct.md)
 
-[Rakenduse Finance and Operations müügitellimuse päiste ja ridade sünkroonimine otse rakendusega Sales](sales-order-template-mapping-direct-two-ways.md)
+[Rakenduse Supply Chain Management müügitellimuse päiste ja ridade sünkroonimine otse rakendusega Sales](sales-order-template-mapping-direct-two-ways.md)
 
-[Rakenduse Finance and Operations müügiarve päiste ja ridade vahetu sünkroonimine rakendusega Sales](sales-invoice-template-mapping-direct.md)
+[Rakenduse Supply Chain Management müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales](sales-invoice-template-mapping-direct.md)
 
 
 

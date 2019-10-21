@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4f91faa03718830474e8e2a79015955bcad1d02e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522193"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249955"
 ---
 # <a name="routes-and-operations"></a>Protsessid ja operatsioonid
 
@@ -35,7 +35,7 @@ See teema annab teavet protsesside ja operatsioonide kohta. Protsess määratleb
 <a name="overview"></a>Ülevaade
 --------
 
-Protsess kirjeldab operatsioonide järjekorda, mis on toote või tootevariandi tootmiseks vajalik. Iga operatsiooni puhul määratleb protsess ka vajalikud operatsiooniressursid, operatsiooni seadistamiseks ja sooritamiseks vajaliku aja ja kulu arvutamise viisi. Sama protsessi saab kasutada mitme toote tootmiseks või määratleda iga toote või tootevariandi jaoks kordumatu protsessi. Ka sama toote jaoks võib olla mitu protsessi. Sellisel juhul on kasutatav protsess erinev, olenevalt teguritest nagu toodetav kogus. Rakenduse Microsoft Dynamics 365 for Finance and Operations protsessi määratlus koosneb neljast eraldi elemendist, mis kirjeldavad üheskoos tootmisprotsessi.
+Protsess kirjeldab operatsioonide järjekorda, mis on toote või tootevariandi tootmiseks vajalik. Iga operatsiooni puhul määratleb protsess ka vajalikud operatsiooniressursid, operatsiooni seadistamiseks ja sooritamiseks vajaliku aja ja kulu arvutamise viisi. Sama protsessi saab kasutada mitme toote tootmiseks või määratleda iga toote või tootevariandi jaoks kordumatu protsessi. Ka sama toote jaoks võib olla mitu protsessi. Sellisel juhul on kasutatav protsess erinev, olenevalt teguritest nagu toodetav kogus. Rakenduse Finance protsessi määratlus koosneb neljast eraldi elemendist, mis kirjeldavad üheskoos tootmisprotsessi.
 
 -   **Protsess** – protsess määratleb tootmisprotsessi struktuuri. Teisisõnu määratleb see operatsioonide järjekorra.
 -   **Operatsioon** – operatsioon tähistab protsessi nimelist etappi, nt **Koostamine**. Sama operatsioon võib toimuda mitmes protsessis ja sellel võivad olla erinevad operatsiooni numbrid.
@@ -43,7 +43,7 @@ Protsess kirjeldab operatsioonide järjekorda, mis on toote või tootevariandi t
 -   **Protsessi versioon** – protsessi versioon määratleb protsessi, mida toote või tootevariandi valmistamiseks kasutatakse. Protsessiversioonid võimaldavad protsesside uuesti kasutamist toodete lõikes või nende muutmist aja jooksul. Samuti võimaldavad need erinevate protsesside kasutamist sama toote valmistamiseks. Sellisel juhul oleneb kasutatav protsess teguritest nagu asukoht või toodetav kogus.
 
 ## <a name="routes"></a>Protsessid
-Protsess kirjeldab operatsioonide järjekorda, mida toote või tootevariandi tootmiseks kasutatakse. Igale operatsioonile määratakse operatsiooni number ja järgnev operatsioon. Operatsioonide järjekord moodustab protsessivõrgu, mida saab kujutada juhitud diagrammiga, millel on vähemalt üks alguspunkt ja üks lõpp-punkt. Finance and Operationsis eristatakse protsesse struktuuri tüübi põhjal. Kaks protsessitüüpi on lihtsad protsessid ja protsessivõrgud. Tootmise juhtimise parameetrites saate määrata, kas kasutada saab ainult lihtsaid protsesse või keerukamais protsessivõrke.
+Protsess kirjeldab operatsioonide järjekorda, mida toote või tootevariandi tootmiseks kasutatakse. Igale operatsioonile määratakse operatsiooni number ja järgnev operatsioon. Operatsioonide järjekord moodustab protsessivõrgu, mida saab kujutada juhitud diagrammiga, millel on vähemalt üks alguspunkt ja üks lõpp-punkt. Supply Chain Management eristatakse protsesse struktuuri tüübi põhjal. Kaks protsessitüüpi on lihtsad protsessid ja protsessivõrgud. Tootmise juhtimise parameetrites saate määrata, kas kasutada saab ainult lihtsaid protsesse või keerukamais protsessivõrke.
 
 ### <a name="simple-routes"></a>Lihtsad protsessid
 
@@ -51,7 +51,7 @@ Lihtne protsess on järjestikune ja protsessil on ainult üks alguspunkt.
 
 [![Lihtne protsess](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Kui aktiveerite tootmise juhtimise parameetrites ainult lihtsad protsessid, loob Finance and Operations automaatselt operatsioonide numbrid (10, 20, 30 jne), kui protsessi määratlete.
+Kui aktiveerite tootmise juhtimise parameetrites ainult lihtsad protsessid, loob Supply Chain Management automaatselt operatsioonide numbrid (10, 20, 30 jne), kui protsessi määratlete.
 
 ### <a name="route-networks"></a>Protsessivõrgud
 
@@ -85,7 +85,7 @@ Iga protsessi saab eraldi kinnitada või sellelt kinnituse eemaldada. Kuid kui p
 Kui teil on vaja säilitada logi, milles salvestatakse iga protsessi kinnitaja, võite nõuda protsessi kinnitamiseks digitaalallkirja. Siis peavad kasutajad kinnitama oma isiku, kasutades [digitaalallkirja](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
-Operatsioon on tootmisprotsessi etapp. Finance and Operationsis on igal operatsioonil ID ja lihtne kirjeldus. Järgmistes tabelites on toodud tüüpilised töökojaoperatsioonide näited.
+Operatsioon on tootmisprotsessi etapp. Igal operatsioonil on ID ja lihtne kirjeldus. Järgmistes tabelites on toodud tüüpilised töökojaoperatsioonide näited.
 
 | Operatsioon  | Kirjeldus        |
 |------------|--------------------|
@@ -126,7 +126,7 @@ Operatsiooni seosed annavad protsesside määratlemisel palju paindlikkust. Lisa
 
 ### <a name="modifying-product-specific-routes"></a>Tootepõhiste protsesside muutmine
 
-Kui avate lehe **Protsess** lehelt **Väljastatud toote üksikasjad**, siis kuvatakse valitud väljastatud tootega seotud protsessiversioonid. Selles kontekstis näitab Finance and Operations iga operatsiooni puhul atribuute sellest operatsiooni seosest, mis protsessi versiooniga kõige paremini sobib. Märkate, et operatsioonide loendis on atribuudid **Kaubakood** ja **Protsessi kood** operatsiooni seosest. Seega saate määrata, millist operatsiooni seost näidatakse.  
+Kui avate lehe **Protsess** lehelt **Väljastatud toote üksikasjad**, siis kuvatakse valitud väljastatud tootega seotud protsessiversioonid. Selles kontekstis näitab Supply Chain Management iga operatsiooni puhul atribuute sellest operatsiooni seosest, mis protsessi versiooniga kõige paremini sobib. Märkate, et operatsioonide loendis on atribuudid **Kaubakood** ja **Protsessi kood** operatsiooni seosest. Seega saate määrata, millist operatsiooni seost näidatakse.  
 
 Lehel **Protsess** saate muuta operatsiooni tööatribuute, nt käitusaega või kulukategooriaid. Teie muudatused salvestatakse operatsiooni seosesse, mis põhinevad protsessil ja väljastatud tootel, millele selles protsessiversioonis viidatakse. Kui kuvatud operatsiooni seos ei põhine protsessil ja väljastatud tootel, siis teeb süsteem enne muudatuste salvestamist operatsiooni seosest koopia. See koopia *on* protsessi ja väljastatud toote põhine. Seega ei mõjuta teie muudatused teisi protsesse või väljastatud tooteid. Kontrollimiseks, millist operatsiooni seost lehel **Protsess** muudetakse, vaadake välju **Kaubakood** ja **Protsessi kood**.  
 
@@ -149,9 +149,9 @@ Kui teie ettevõte kasutab standardoperatsioone ning kui tööparameetrid on kõ
 
 ### <a name="applying-operation-relations"></a>Operatsiooni seoste rakendamine
 
-Mõnikord peab Finance and Operations operatsiooni jaoks tööatribuudid leidma. Näiteks ostutellimuse loomisel tuleb iga operatsiooni atribuudid kopeerida operatsiooni seostest tootmisprotsessiga. Nendes olukordades otsib Finance and Operations vastavaid operatsiooni seoseid kõige konkreetsemast kombinatsioonist kõige vähem konkreetse kombinatsiooni suunas.  
+Mõnikord peab Supply Chain Management operatsiooni jaoks tööatribuudid leidma. Näiteks ostutellimuse loomisel tuleb iga operatsiooni atribuudid kopeerida operatsiooni seostest tootmisprotsessiga. Nendes olukordades otsib Supply Chain Management vastavaid operatsiooni seoseid kõige konkreetsemast kombinatsioonist kõige vähem konkreetse kombinatsiooni suunas.  
 
-Kui Finance and Operations otsib väljastatud toote jaoks kõige asjakohasemat operatsiooni seost, eelistatakse operatsiooni seost, mis sobitab väljastatud toote kauba ID, operatsiooni seosele, mis sobitab kaubagrupi ID. Operatsiooni seost, mis vastab kaubagrupi ID-le, eelistatakse omakorda operatsiooni vaikeseosele. Otsimine toimub järgmises järjekorras.
+Kui Supply Chain Management otsib väljastatud toote jaoks kõige asjakohasemat operatsiooni seost, eelistatakse operatsiooni seost, mis sobitab väljastatud toote kauba ID, operatsiooni seosele, mis sobitab kaubagrupi ID. Operatsiooni seost, mis vastab kaubagrupi ID-le, eelistatakse omakorda operatsiooni vaikeseosele. Otsimine toimub järgmises järjekorras.
 
 1.  **Kaubakood**=**Tabel** ja **Kauba seos**=&lt;kauba ID&gt;
 2.  **Kaubakood**=**Grupp** ja **Kauba seos**=&lt;kaubagrupi ID&gt;
@@ -198,7 +198,7 @@ Olenevalt ettevõtte vajadustest võib teil olla võimalik protsessidefinitsioon
 
 ### <a name="making-routes-independent-of-resources"></a>Protsesside sõltumatuks muutmine ressurssidest
 
-Paljudes süsteemides tuleb protsessis määrata operatsiooniressurss või ressursigrupp, mis operatsiooni peaks läbi viima. Finance and Operationsis saate siiski määrata nõuete kogumi, millele operatsiooniressurss peab vastama, et seda saaks operatsioonis kasutada. Seetõttu ei tule konkreetset operatsiooniressurssi või ressursigruppi, mida peaks kasutama, määrata enne operatsiooni tegelikku plaanimist. See funktsioon on eriti kasulik, kui teil on palju töötajaid või masinaid, kes/mis saavad sama operatsiooni teha.  
+Paljudes süsteemides tuleb protsessis määrata operatsiooniressurss või ressursigrupp, mis operatsiooni peaks läbi viima. Supply Chain Managementis saate siiski määrata nõuete kogumi, millele operatsiooniressurss peab vastama, et seda saaks operatsioonis kasutada. Seetõttu ei tule konkreetset operatsiooniressurssi või ressursigruppi, mida peaks kasutama, määrata enne operatsiooni tegelikku plaanimist. See funktsioon on eriti kasulik, kui teil on palju töötajaid või masinaid, kes/mis saavad sama operatsiooni teha.  
 
 Näiteks võite määrata, et operatsioon nõuab operatsiooniressurssi tüübiga **Masin**, mille võime **Stantsimine** on 20 tonni. Siis lahendab plaanimismootor need nõuded konkreetse operatsiooniressursi või ressursigrupi abil operatsiooni plaanimisel. Kuna teil on võimalus määrata ainult need nõuded, selle asemel et siduda operatsioon konkreetse masinaga, on teil palju rohkem paindlikkust. Lisaks on haldamine lihtsam, kui ressursse teisaldatakse või lisandub uusi ressursse.  
 

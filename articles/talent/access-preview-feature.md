@@ -1,6 +1,6 @@
 ---
-title: Juurdepääs eelvaatefunktsioonidele rakenduses Microsoft Dynamics 365 for Talent
-description: Selles teemas kirjeldatakse, kuidas administraator saab lubada eelvaatefunktsioone rakenduses Microsoft Dynamics 365 for Talent, ja loetletakse funktsioone, mis on praegu eelvaate jaoks lubatud.
+title: Juurdepääs eelvaatefunktsioonidele rakenduses Microsoft Dynamics 365 Talent
+description: Selles teemas kirjeldatakse, kuidas administraator saab lubada eelvaatefunktsioone rakenduses Microsoft Dynamics 365 Talent, ja loetletakse funktsioone, mis on praegu eelvaate jaoks lubatud.
 author: tracykeya
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 6a5aa8d6ea72ec3d3910edea291c4340ab607326
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739583"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008698"
 ---
 # <a name="manage-preview-features"></a>Eelvaate funktsioonide haldamine
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent pidevate inimkapitali juhtimisvõimaluste (HCM) levitamise osana tahame, et kliendid saaksid proovida uusi funktsioone niipea kui võimalik. Administraatorid saavad näha ja kasutada eelvaatefunktsioone oma keskkondades. Need funktsioonid on peaaegu valmis üldiseks kasutamiseks ja on läbinud põhjalikud kontrollid. Eelvaatefunktsioonide puhul soovime saada täiendavat kasutajate tagasidet ja kinnitust, enne kui funktsioonid üldiselt kättesaadavaks teeme.
+Microsoft Dynamics 365 Talent pidevate inimkapitali juhtimisvõimaluste (HCM) levitamise osana tahame, et kliendid saaksid proovida uusi funktsioone niipea kui võimalik. Administraatorid saavad näha ja kasutada eelvaatefunktsioone oma keskkondades. Need funktsioonid on peaaegu valmis üldiseks kasutamiseks ja on läbinud põhjalikud kontrollid. Eelvaatefunktsioonide puhul soovime saada täiendavat kasutajate tagasidet ja kinnitust, enne kui funktsioonid üldiselt kättesaadavaks teeme.
 
-Selles teemas kirjeldatakse, kuidas saate lubada eelvaatefunktsioone, ja loetletakse funktsioone, mis on praegu eelvaatena saadaval. Loendit värskendatakse, kui funktsioonid tehakse üldiselt kättesaadavaks ja/või lisatakse uusi eelvaatefunktsioone. Uute eelvaatefunktsioonide kohta ei saadeta teatisi. Kasutajad märkavad lihtsalt uusi funktsioone. Lisateavet Talenti uute funktsioonide kohta vt teemast [Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent](./whats-new.md) ja [Dynamics 365 ja Power Platformi väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes).
+Selles teemas kirjeldatakse, kuidas saate lubada eelvaatefunktsioone, ja loetletakse funktsioone, mis on praegu eelvaatena saadaval. Loendit värskendatakse, kui funktsioonid tehakse üldiselt kättesaadavaks ja/või lisatakse uusi eelvaatefunktsioone. Uute eelvaatefunktsioonide kohta ei saadeta teatisi. Kasutajad märkavad lihtsalt uusi funktsioone. Lisateavet Talenti uute funktsioonide kohta vt teemast [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent](./whats-new.md) ja [Dynamics 365 ja Power Platformi väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Eelvaatefunktsioonide lubamine või keelamine
 
@@ -40,9 +40,9 @@ Eelvaatefunktsioonidele ligipääsemiseks peate kõigepealt need oma keskkonnas 
 > [!IMPORTANT]
 > Kui lülitate sisse sätte **Eelvaatefunktsioonid**, siis lubate eelvaatefunktsioonid kõikidele teie organisatsiooni kasutajatele, kes on selles keskkonnas. Kui lülitate sätte välja, siis keelate eelvaatefunktsioonid ja teie kasutajatel pole nendele juurdepääsu. Rakenduses Talent on eelvaatefunktsioonidel piiratud tugi. Need võivad kasutada vähem privaatsus- ja turbemeetmeid ning pole hõlmatud rakenduse Talent teenindustaseme lepingus (SLA). Eelvaatefunktsioone ei tohi kasutada isikuandmete (st igasugused andmed, mis võimaldavad isikut tuvastada) ega muude andmete töötlemiseks, millele kehtivad seaduste või regulatsioonide järgmise nõuded.
 
-### <a name="attract"></a>Tähelepanu köitmine
+### <a name="attract"></a>Attract
 
-1. Rakenduse Microsoft Dynamics 365 for Talent: Attract sisselogimine.
+1. Rakenduse Microsoft Dynamics 365 Talent: Attract sisselogimine.
 2. Valige ülemises parempoolses nurgas olevast menüüst **Seadistus** (hammasratta sümbol) suvand **Halduskeskus**.
 3. Valige vahekaardi **Funktsioonide haldus** suvandi **Eelvaatefunktsioonid** kõrval olev suvand nii, et see muutuks siniseks ja sellel oleks tähis **Sees**.
 
@@ -69,11 +69,11 @@ Eelvaatefunktsioonidele ligipääsemiseks peate kõigepealt need oma keskkonnas 
 
 ### <a name="onboard"></a>Sisseelamine
 
-Rakenduse Microsoft Dynamics 365 for Talent: Onboard jaoks pole praegu saadaval ühtegi eelvaatefunktsiooni.
+Rakenduse Microsoft Dynamics 365 Talent: Onboard jaoks pole praegu saadaval ühtegi eelvaatefunktsiooni.
 
 ## <a name="features-that-are-currently-in-preview"></a>Praegused eelvaatefunktsioonid
 
-### <a name="attract"></a>Tähelepanu köitmine
+### <a name="attract"></a>Attract
 
 - [Kandidaadisoovitus](./intelligent-recommendations.md#candidate-recommendations) – kui rohkem kui kümnel kandidaadil on elulookirjeldused või täidetud profiilid, ilmuvad kandidaadid, kes vastavad kõige paremini töö nõutele, jaotisesse **Kandidaadid, keda kaaluda** selle töö lehel.
 - [Töösoovitus](./intelligent-recommendations.md#job-recommendations) – kui teie karjäärisaidile sisestatakse rohkem kui kümme tööd, pakub Attract töövõtjatele töösoovitusi.

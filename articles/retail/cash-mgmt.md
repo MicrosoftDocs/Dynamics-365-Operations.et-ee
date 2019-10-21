@@ -1,6 +1,6 @@
 ---
 title: Sularahahalduse parandused
-description: Selles teemas kirjeldatakse sularahahalduse parandusi kassas rakenduses Dynamics 365 for Retail.
+description: Selles teemas kirjeldatakse sularahahalduse parandusi kassas rakenduses Dynamics 365 Retail.
 author: anpurush
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 845cba3b536b0f800b7c7c4eecee46a068ca8cff
-ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
+ms.openlocfilehash: 49d70a8d983bf3475e01f8fcb80d569b13568485
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1630049"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019527"
 ---
 # <a name="cash-management-improvements"></a>Sularahahalduse parandused
 
@@ -32,9 +32,11 @@ ms.locfileid: "1630049"
 
 Sularahahaldus on füüsiliste poodide jaemüüjate põhifunktsioone. Jaemüüjad tahavad, et nende poodidel oleksid süsteemid, mis aitavad neil tagada täieliku jälgitavuse ja aruandekohustuse sularaha ning selle liikumise poe kõikides kassades ja kassapidajate juures. Nad peavad suutma vastavusse viia kõik erinevused ja määrama aruandekohustuse.
 
-Rakendusel Microsoft Dynamics 365 for Retail on kassa (POS) rakenduses sularahahalduse võimalused. Kuid Retaili varasemates versioonides kui 10.0.3 ei ole sularahahalduse funktsioon piisavalt töökindel, et tagada sularaha liikumise täielikku jälgitavust poodides. Kuigi jaemüüjad saavad sularaha poes vastavusse viia, ei saa nad sularaha lahknevuse korral täpselt määrata aruandekohustust.
 
-Rakenduses Microsoft Dynamics 365 for Retail 10.0.3 või uuemas versioonis saavad jaemüüjad jälgida sularaha käsitsemist. Osana sellest jälgitavusest saavad jaemüüjad määrata seife, teha kahepoolseid sularahakandeid ja viia vastavusse sularahahalduse kandeid.
+Rakendusel Microsoft Dynamics 365 Retail on kassa (POS) rakenduses sularahahalduse võimalused. Kuid Retaili varasemates versioonides kui 10.0.3 ei ole sularahahalduse funktsioon piisavalt töökindel, et tagada sularaha liikumise täielikku jälgitavust poodides. Kuigi jaemüüjad saavad sularaha poes vastavusse viia, ei saa nad sularaha lahknevuse korral täpselt määrata aruandekohustust.
+
+
+Retaili 10.0.3 või uuemas versioonis saavad jaemüüjad jälgida sularaha käsitsemist. Osana sellest jälgitavusest saavad jaemüüjad määrata seife, teha kahepoolseid sularahakandeid ja viia vastavusse sularahahalduse kandeid.
 
 ## <a name="set-up-traceability-and-define-safes"></a>Jälgitavuse seadistamine ja seifide määramine
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40664936382f5edcb3c1680aa4af245bdef539a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560136"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250198"
 ---
 # <a name="modeling-a-lean-organization"></a>Efektiivse organisatsiooni modelleerimine
 
@@ -39,7 +39,7 @@ Tootmistellimustel põhinevate tootmisstsenaariumide puhul väljastatakse materj
 
 Partii tootmise põhjustatud tarne täitmisaegade lühendamiseks ja laotasemete ülejääkide vähendamiseks töökeskuste vahel tutvustab lean manufacturing kanbani täiendamist ning lõppladusid tootmise ja lao täiendamisel. Tavaliselt häirivad need funktsioonid osaliselt sõltumatute kanban-tsüklite tootmist. Kanbani täiendamist pooltootele ei käivita enam lõpptoote tellimus. 
 
-Microsoft Dynamics 365 for Finance and Operationsi soovitatud erinevatele kanbani stsenaariumidele tootmise ja kulude konteksti taastamiseks võetakse tegevuspõhised tootmisvood kasutusse lean manufacturingi selgroona. Kõik kanban-reeglid viitavad sellele eelmääratletud struktuurile. Tegevuspõhine mudel toetab suure valiku stsenaariumide seadistamist. Kuid see mudel ei lisa keerukust tegevtöötajatele, sest kõik stsenaariumid kasutavad sama tegevuspõhist kasutajaliidest.
+Soovitatud erinevatele kanbani stsenaariumidele tootmise ja kulude konteksti taastamiseks võetakse tegevuspõhised tootmisvood kasutusse lean manufacturingi selgroona. Kõik kanban-reeglid viitavad sellele eelmääratletud struktuurile. Tegevuspõhine mudel toetab suure valiku stsenaariumide seadistamist. Kuid see mudel ei lisa keerukust tegevtöötajatele, sest kõik stsenaariumid kasutavad sama tegevuspõhist kasutajaliidest.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Pooltooted (mitte kooslusetasemed)
 Lean manufacturing integreerib kanbanid ühes raamistikus laotoodeteks ja pooltoodeteks ja pakub seega igal juhul ühendatud kasutajakogemust. Selle ülesehituse tõttu ei pea enam kasutama täiendavaid kooslusetasemeid, et lubada pooltoodete puhul kasutatavaid kanbane. See ülesehitus aitab ka vähendada laokandeid miinimumini.
@@ -50,7 +50,7 @@ Partii suuruse vähendamine lean manufactoringi ühe tüki voo ideaalsesse oleku
 ## <a name="value-streams-and-value-stream-mapping"></a>Väärtuse vood ja väärtuste voo vastendamine
 Lean manufacturingi arhitektuur on inspireeritud 5 Leani põhimõttest, mille on sõnastanud Womack ja Jones: kliendi väärtus, väärtuse voog, voog, tõmbamine ja täiuslikkus. Üks kinnitatud meetod lean manufacturingi lahenduste juurutamiseks reaalses tootmismaailmas on väärtuse voo vastendamine (VSM). Seda meetodit tutvustasid Rother ja Shook oma väljaandes „Learning to See” Lean Manufacturingi instituudis. 
 
-Finance and Operationsis saab tulevase oleku väärtuse voogu mudeldada tootmisvoo versioonina. Kõik väärtuse oo protsessid mudeldatakse protsessi tegevustena. Liikumisi või kandeid saab mudeldada ülekandetegevustena, kui ülekande olek peab olema registreeritud või kui nõutav on integreerimine varude komplekteerimiseks või konsolideeritud saadetisteks. 
+Tulevase oleku väärtuse voogu saab mudeldada tootmisvoo versioonina. Kõik väärtuse oo protsessid mudeldatakse protsessi tegevustena. Liikumisi või kandeid saab mudeldada ülekandetegevustena, kui ülekande olek peab olema registreeritud või kui nõutav on integreerimine varude komplekteerimiseks või konsolideeritud saadetisteks. 
 
 Väärtuse voog ise on mudeldatud tootmisüksusena. Seetõttu saab väärtuse voogu kasutada finantsdimensioonina.
 

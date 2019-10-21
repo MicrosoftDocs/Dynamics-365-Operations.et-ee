@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec1edb861619bae2ae3c211720b55e170b83ec9
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ec51c1a500b5c9ff2c363cfb69cc1d404e939df9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916618"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250641"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Nõudluse prognoosi käsitsi muutmine
 
@@ -41,5 +41,5 @@ See protseduur näitab, kuidas kauba prognoosi muuta. Selle protseduuri loomisek
 
 ## <a name="modify-the-forecast-in-excel"></a>Prognoosi muutmine Excelis
 1. Klõpsake **Ava** lahenduses Microsoft Office.
-2. Klõpsake Excelis **Nõudluse prognoosi redigeerimine**. Excelis saate nõudluse prognoosi ridu lisada, kustutada ja muuta. Kui te andmeid Excelis ei näe, peate sisse logima rakendusse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, nii et suvand Hoia mind sisselogituna on lubatud ja peate andmeühenduse rakendust usaldama.  
+2. Klõpsake Excelis **Nõudluse prognoosi redigeerimine**. Excelis saate nõudluse prognoosi ridu lisada, kustutada ja muuta. Kui te andmeid Excelis ei näe, peate sisse logima, nii et suvand Hoia mind sisselogituna on lubatud ja peate andmeühenduse rakendust usaldama.  
 

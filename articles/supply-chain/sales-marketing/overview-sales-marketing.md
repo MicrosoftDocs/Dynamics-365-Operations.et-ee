@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10c8b548f2e295bf344459370ab6eecd577a0efb
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 5d55dfe26cd298372701aeb98a6aafc49977f381
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865989"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248627"
 ---
 # <a name="sales-and-marketing-overview"></a>Müügi ja turunduse ülevaade
 
@@ -41,7 +41,7 @@ Müügis ja turunduses võib algne suhtlus potentsiaalsete klientidega leida ase
 
 ### <a name="campaigns"></a>Kampaaniad
 
-Kampaania on suunatud potentsiaalsete klientide, müügivihjete, müügivõimaluste ja klientide kontaktidele, mis on valitud kampaanias osalema. Microsoft Dynamics 365 for Finance and Operationsis saate luua mitut tüüpi kampaaniaid (nt telemarketingi-, posti- ja meilikampaaniaid), et maksimeerida kliendipotentsiaali. Kui saate kampaania käigus positiivseid vastuseid, saate alustada müügiprotsessi nende saajatega, kes on kampaaniale positiivselt vastanud.
+Kampaania on suunatud potentsiaalsete klientide, müügivihjete, müügivõimaluste ja klientide kontaktidele, mis on valitud kampaanias osalema. Supply Chain Managementis saate luua mitut tüüpi kampaaniaid (nt telemarketingi-, posti- ja meilikampaaniaid), et maksimeerida kliendipotentsiaali. Kui saate kampaania käigus positiivseid vastuseid, saate alustada müügiprotsessi nende saajatega, kes on kampaaniale positiivselt vastanud.
 
 ## <a name="sales"></a>Müük
 Müügifunktsiooni abil saab koostada hinnapakkumisi, teha ülesmüüki ja ristmüüki uutele ja olemasolevatele klientidele, koostada müügitellimusi ja koostada klientidele müügiarveid. Järgmine protsessivoog näitab müügi äriprotsessi. [![Müügi äriprotsess](./media/sales01.jpg)](./media/sales01.jpg)

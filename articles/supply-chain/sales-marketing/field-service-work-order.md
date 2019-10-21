@@ -1,6 +1,6 @@
 ---
-title: Rakenduse Field Service töökäskude sünkroonimine rakenduse Finance and Operations müügitellimustega
-description: See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse rakenduse Field Service töökäskude sünkroonimiseks rakenduse Finance and Operations müügitellimustega.
+title: Sünkroonige rakenduse Field Service töötellimused rakenduse Supply Chain Management müügitellimustega
+description: See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse rakenduse Field Service töökäskude sünkroonimiseks rakenduse Supply Chain Management müügitellimustega.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
@@ -19,30 +19,29 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 49cb5942532e4feab64aa271ebfecf5cb60b1c61
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2aa37ada18120e3b2a6e6b309c7d7b7ca9d9158f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562714"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249816"
 ---
-# <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-finance-and-operations"></a>Rakenduse Field Service töökäskude sünkroonimine rakenduse Finance and Operations müügitellimustega
+# <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sünkroonige rakenduse Field Service töötellimused rakenduse Supply Chain Management müügitellimustega
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse projekti numbriga töökäskude sünkroonimiseks rakendusest Microsoft Dynamics 365 for Field Service müügitellimusse rakenduses Microsoft Dynamics 365 for Finance and Operations.
+Selles teemas käsitletakse malle ja aluseks olevaid ülesandeid, mida kasutatakse projekti numbriga töökäskude sünkroonimiseks rakendusest Dynamics 365 Field Service müügitellimusse rakenduses Dynamics 365 Supply Chain Management.
 
-[![Äriprotsesside sünkroonimine rakenduste Finance and Operations ja Field Service vahel](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Äriprotsesside sünkroniseerimine rakenduste Supply Chain Management ja Field Service vahel](./media/field-service-integration.png)](./media/field-service-integration.png)
 
-See teema käsitleb malle ja aluseks olevaid ülesandeid, mida kasutatakse rakenduse Field Service töökäskude sünkroonimiseks rakenduse Finance and Operations müügitellimustega.
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 
-Järgmisi malle ja aluseks olevaid ülesandeid kasutatakse rakenduse Field Service töökäskude rakenduse Finance and Operations müügitellimustega sünkroonimise käivitamiseks.
+Järgmisi malle ja aluseks olevaid ülesandeid kasutatakse rakenduse Field Service töökäskude rakenduse Supply Chain Management müügitellimustega sünkroonimise käivitamiseks.
 
 ### <a name="names-of-the-templates-in-data-integration"></a>Mallide nimed andmeintegratsioonis
 
-Malli **Töökäsud müügitellimusteks (Field Service'ist Fin and Opsi)** kasutatakse sünkroonimise käivitamiseks.
+Malli **Töökäsud müügitellimusteks (Field Service rakendusele Supply Chain Management)** kasutatakse sünkroonimise käivitamiseks.
 
 ### <a name="names-of-the-tasks-in-the-data-integration-project"></a>Ülesannete nimed andmete integratsiooni projektis
 
@@ -54,12 +53,12 @@ Malli **Töökäsud müügitellimusteks (Field Service'ist Fin and Opsi)** kasut
 
 Enne müügitellimuse päiste ja ridade sünkroonimist on nõutavad järgmised sünkroonimisülesanded.
 
-- Field Service’i tooted (Fin and Opsist Field Service’isse)
-- Kontod (Salesist Fin and Opsi) – otse
+- Rakenduse Field Service tooted (Supply Chain Managementist Field Service'isse)
+- Kontod (Salesist Supply Chain Managementi) – otsene
 
 ## <a name="entity-set"></a>Üksuste komplekt
 
-| **Field Service** | **Finance and Operations** |
+| **Field Service** | **Supply Chain Management** |
 |-------------------------|-------------------------|
 | msdyn_workorders        | CDS-i müügitellimuse päised |
 | msdyn_workorderservices | CDS-i müügitellimuse read   |
@@ -67,13 +66,13 @@ Enne müügitellimuse päiste ja ridade sünkroonimist on nõutavad järgmised s
 
 ## <a name="entity-flow"></a>Üksuse voog
 
-Töökäsud luuakse rakenduses Field Service. Kui töökäsud sisaldavad ainult väliselt hallatavaid tooteid ja kui välja **Töökäsu olek** väärtuseks ei ole **Avatud – ajastamata** või **Suletud – tühistatud**, saab töökäsud CDS-i andmeintegratsiooni projekti kaudu rakendusega Finance and Operations sünkroonida. Töökäskude värskendused sünkroonitakse rakendusse Finance and Operations müügitellimustena. Need värskendused sisaldavad päritolu tüübi ja oleku teavet.
+Töökäsud luuakse rakenduses Field Service. Kui töökäsud sisaldavad ainult väliselt hallatavaid tooteid ja kui välja **Töökäsu olek** väärtuseks ei ole **Avatud – ajastamata** ja **Suletud – tühistatud**, saab töökäsud rakenduse Common Data Service andmeintegratsiooni projekti kaudu rakendusega Supply Chain Management sünkroonida. Töökäskude värskendused sünkroonitakse rakendusse Supply Chain Management müügitellimustena. Need värskendused sisaldavad päritolu tüübi ja oleku teavet.
 
 ## <a name="estimated-versus-used"></a>Eeldatav vs kasutatud
 
-Rakenduses Field Service on toodete ja teenuste töökäskudel koguste ja summade jaoks mõlemad väärtused, nii väärtus **Eeldatav** kui ka **Kasutatud**. Siiski ei ole rakenduse Finance and Operations müügitellimustel samasuguseid väärtusi **Eeldatav** ja **Kasutatud**. Toetamaks toote eraldamist, mille puhul kasutatakse rakenduse Finance and Operations müügitellimusel eeldatud kogust, kuid hoidmaks kasutatud kogust, mida tuleks tarbida ja arveldada, sünkroonivad töökäskude tooteid ja teenuseid kaks ülesannete komplekti. Üks komplekt ülesandeid on väärtuste **Eeldatav** ja teine ülesannete komplekt on väärtuste **Kasutatud** jaoks.
+Rakenduses Field Service on toodete ja teenuste töökäskudel koguste ja summade jaoks mõlemad väärtused, nii väärtus **Eeldatav** kui ka **Kasutatud**. Siiski ei ole rakenduse Supply Chain Management müügitellimustel samasuguseid väärtusi **Eeldatav** ja **Kasutatud**. Toetamaks toote eraldamist, mille puhul kasutatakse rakenduse Supply Chain Management müügitellimusel eeldatud kogust, kuid hoidmaks kasutatud kogust, mida tuleks tarbida ja arveldada, sünkroonivad töökäskude tooteid ja teenuseid kaks ülesannete komplekti. Üks komplekt ülesandeid on väärtuste **Eeldatav** ja teine ülesannete komplekt on väärtuste **Kasutatud** jaoks.
 
-See käitumine võimaldab kasutada stsenaariume, kus eeldatavaid väärtusi kasutatakse rakenduses Finance and Operations eraldamiseks või reserveerimiseks, samas kui kasutatud väärtusi kasutatakse tarbimiseks ja arveldamiseks.
+See käitumine võimaldab kasutada stsenaariume, kus eeldatavaid väärtusi kasutatakse rakenduses Supply Chain Management eraldamiseks või reserveerimiseks, samas kui kasutatud väärtusi kasutatakse tarbimiseks ja arveldamiseks.
 
 ### <a name="estimated"></a>Hinnanguline
 
@@ -87,7 +86,7 @@ Väärtusi **Kasutatud** kasutatakse tarbimiseks ja arveldamiseks. Sellistel juh
 
 Järgmine tabel annab ülevaate mitmesugustest tooteridade kombinatsioonidest.
 
-| Süsteemi olek <br>(Field Service) | Rea olek <br>(Field Service) | Eraldatud <br>(Field Service) |Sünkroonitud väärtus <br>(Finance and Operations) |
+| Süsteemi olek <br>(Field Service) | Rea olek <br>(Field Service) | Eraldatud <br>(Field Service) |Sünkroonitud väärtus <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|---------------------------------|
 | Avatud – ajastatud   | Hinnanguline   | Jah       | Hinnanguline                       |
 | Avatud – ajastatud   | Hinnanguline   | Ei        | Kasutatud                            |
@@ -108,7 +107,7 @@ Järgmine tabel annab ülevaate mitmesugustest tooteridade kombinatsioonidest.
 
 Järgmine tabel annab ülevaate mitmesugustest teenusridade kombinatsioonidest.
 
-| Süsteemi olek <br>(Field Service) | Rea olek <br>(Field Service) | Sünkroonitud väärtus <br>(Finance and Operations) |
+| Süsteemi olek <br>(Field Service) | Rea olek <br>(Field Service) | Sünkroonitud väärtus <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|
 | Avatud – ajastatud   | Hinnanguline   | Hinnanguline |
 | Avatud – ajastatud   | Kasutatud        | Kasutatud      |
@@ -130,7 +129,7 @@ Väärtuste **Eeldatav** vs **Kasutatud** sünkroonimist hallatakse kahe toote- 
     - **Tooterida:** Eeldatav kogus = 5ühikut, Kasutatud kogus = 0ühikut, Rea olek = Eeldatav, Eraldatud = Ei
     - **Teenusrida:** Eeldatav kogus = 2h, Kasutatud kogus = 0h, Rea olek = Eeldatav
 
-    Selle näite puhul sünkroonitakse rakendusse Finance and Operations toote välja **Kasutatud kogus** väärtus **0** (null) ja teenuse välja **Eeldatav kogus** väärtus **2h**.
+    Selle näite puhul sünkroonitakse rakendusse Supply Chain Management toote välja **Kasutatud kogus** väärtus **0** (null) ja teenuse välja **Eeldatav kogus** väärtus **2h**.
 
 2. Tooted eraldatakse rakenduses Field Service.
 
@@ -139,7 +138,7 @@ Väärtuste **Eeldatav** vs **Kasutatud** sünkroonimist hallatakse kahe toote- 
     - **Tooterida:** Eeldatav kogus = 5ühikut, Kasutatud kogus = 0ühikut, Rea olek = Eeldatav, Eraldatud = Jah
     - **Teenusrida:** Eeldatav kogus = 2h, Kasutatud kogus = 0h, Rea olek = Eeldatav
 
-    Selle näite puhul sünkroonitakse rakendusse Finance and Operations toote välja **Eeldatav kogus** väärtus **5ühikut** ja teenuse välja **Eeldatav kogus** väärtus **2h**.
+    Selle näite puhul sünkroonitakse rakendusse Supply Chain Management toote välja **Eeldatav kogus** väärtus **5ea** ja teenuse välja **Eeldatav kogus** väärtus **2h**.
 
 3. Hooldustehnik alustab töökäsuga tööd ja registreerib 6 materjali kasutamise.
 
@@ -148,7 +147,7 @@ Väärtuste **Eeldatav** vs **Kasutatud** sünkroonimist hallatakse kahe toote- 
     - **Tooterida:** Eeldatav kogus = 5ühikut, Kasutatud kogus = 6ühikut, Rea olek = Kasutatud, Eraldatud = Jah
     - **Teenusrida:** Eeldatav kogus = 2h, Kasutatud kogus = 0h, Rea olek = Eeldatav
 
-    Selle näite puhul sünkroonitakse rakendusse Finance and Operations toote välja **Kasutatud kogus** väärtus **6** ja teenuse välja **Eeldatav kogus** väärtus **2h**.
+    Selle näite puhul sünkroonitakse rakendusse Supply Chain Management toote välja **Kasutatud kogus** väärtus **6** ja teenuse välja **Eeldatav kogus** väärtus **2h**.
 
 4. Hooldustehnik lõpetab töökäsu ja registreerib kasutatud ajaks 1,5 tundi.
 
@@ -157,21 +156,21 @@ Väärtuste **Eeldatav** vs **Kasutatud** sünkroonimist hallatakse kahe toote- 
     - **Tooterida:** Eeldatav kogus = 5ühikut, Kasutatud kogus = 6ühikut, Rea olek = Kasutatud, Eraldatud = Jah
     - **Teenusrida:** Eeldatav kogus = 2h, Kasutatud kogus = 1,5h, Rea olek = Kasutatud
 
-    Selle näite puhul sünkroonitakse rakendusse Finance and Operations toote välja **Kasutatud kogus** väärtus **6** ja teenuse välja **Kasutatud kogus** väärtus **1,5 h**.
+    Selle näite puhul sünkroonitakse rakendusse Supply Chain Management toote välja **Kasutatud kogus** väärtus **6** ja teenuse välja **Kasutatud kogus** väärtus **1,5 h**.
 
 ## <a name="sales-order-origin-and-status"></a>Müügitellimuse päritolu ja olek
 
 ### <a name="sales-origin"></a>Müügi allikas
 
-Töökäskudest pärinevate müügitellimuste jälgimiseks rakenduses Finance and Operations saate luua müügiallika, kus suvandi **Päritolu tüübi määramine** väärtuseks on määratud **Jah** ja väljaks **Müügi päritolu tüüp** on seatud **Töökäsu integratsioon**.
+Töökäskudest pärinevate müügitellimuste jälgimiseks saate luua müügiallika, kus suvandi **Päritolu tüübi määramine** väärtuseks on määratud **Jah** ja väljaks **Müügi päritolu tüüp** on seatud **Töökäsu integratsioon**.
 
-Vaikimisi valib vastendamine müügiallika jaoks kõigi töökäskudest loodud müügitellimuste puhul müügi päritolu tüübiks **Töökäsu integratsioon**. See käitumine võib olla kasulik, kui töötate müügitellimusega rakenduses Finance and Operations. Peaksite veenduma, et töökäskudest pärinevaid müügitellimusi ei sünkroonita rakendusse Field Service tagasi töökäskudena.
+Vaikimisi valib vastendamine müügiallika jaoks kõigi töökäskudest loodud müügitellimuste puhul müügi päritolu tüübiks **Töökäsu integratsioon**. See käitumine võib olla kasulik, kui töötate müügitellimusega rakenduses Supply Chain Management. Peaksite veenduma, et töökäskudest pärinevaid müügitellimusi ei sünkroonita rakendusse Field Service tagasi töökäskudena.
 
-Üksikasju õige müügi päritolu seadistamiseks rakenduses Finance and Operations vaadake selle teema jaotisest Eeltingimused ja vastendamise seadistamine.
+Üksikasju õige müügi päritolu seadistamiseks rakenduses Supply Chain Management vaadake selle teema jaotisest Eeltingimused ja vastendamise seadistamine.
 
 ### <a name="status"></a>Olek
 
-Kui müügitellimus pärineb töökäsust, kuvatakse müügitellimuse päises vahekaardil **Seadistus** väli **Välise töö tellimuse olek**. Sellel väljal kuvatakse süsteemi olek töökäsust rakenduses Field Service, et aidata jälgida sünkroonitud müügitellimuste töökäsu olekut rakenduses Finance and Operations. See väli aitab ka rakenduse Finance and Operations kasutajal määrata, millal müügitellimus tuleks lähetada või arveldada.
+Kui müügitellimus pärineb töökäsust, kuvatakse müügitellimuse päises vahekaardil **Seadistus** väli **Välise töö tellimuse olek**. Sellel väljal kuvatakse süsteemi olek töökäsust rakenduses Field Service, et aidata jälgida sünkroonitud müügitellimuste töökäsu olekut rakenduses Supply Chain Management. See väli aitab ka kasutajal määrata, millal müügitellimus tuleks lähetada või arveldada.
 
 Väljal **Välise töö tellimuse olek** võivad olla järgmised väärtused.
 
@@ -182,16 +181,16 @@ Väljal **Välise töö tellimuse olek** võivad olla järgmised väärtused.
 
 ## <a name="field-service-crm-solution"></a>Rakenduse Field Service CRM lahendus
 
-Rakenduste Field Service ja Finance and Operations vahelise integratsiooni toetamiseks on vajalikud rakenduse Field Service CRM lahenduse lisafunktsioonid. Lahendus sisaldab järgmisi muudatusi.
+Rakenduste Field Service ja Supply Chain Management vahelise integratsiooni toetamiseks on vajalikud rakenduse Field Service CRM lahenduse lisafunktsioonid. Lahendus sisaldab järgmisi muudatusi.
 
 ### <a name="work-order-entity"></a>Töökäsu olem
 
-**Töökäsu** olemile on lisatud väli **Sisaldab ainult väliselt hallatavaid tooteid**, mis ilmub lehel. Seda kasutatakse, et jälgida pidevalt, kas töökäsk sisaldab ainult väliselt hallatavaid tooteid. Töökäsk sisaldab ainult väliselt hallatavaid tooteid, kui kõiki seotud tooteid hallatakse rakenduses Finance and Operations. See väli aitab tagada, et kasutaja ei püüaks sünkroonida töökäske, mis hõlmavad rakenduse Finance and Operations jaoks tundmatuid tooteid.
+**Töökäsu** olemile on lisatud väli **Sisaldab ainult väliselt hallatavaid tooteid**, mis ilmub lehel. Seda kasutatakse, et jälgida pidevalt, kas töökäsk sisaldab ainult väliselt hallatavaid tooteid. Töökäsk sisaldab ainult väliselt hallatavaid tooteid, kui kõiki seotud tooteid hallatakse rakenduses Supply Chain Management. See väli aitab tagada, et kasutaja ei püüaks sünkroonida töökäske, mis hõlmavad tundmatuid tooteid.
 
 ### <a name="work-order-product-entity"></a>Töökäsu tooteüksus
 
-- **Töökäsu tooteüksusele** on lisatud väli **Tellimus sisaldab ainult väliselt hallatavaid tooteid**, mis ilmub lehel. Seda kasutatakse, et jälgida pidevalt, kas töökäsu toodet hallatakse rakenduses Finance and Operations. See väli aitab tagada, et kasutaja ei püüaks sünkroonida töökäsu tooteid, mis hõlmavad rakenduse Finance and Operations jaoks tundmatuid tooteid.
-- **Töökäsu tooteüksusele** on lisatud väli **Päise süsteemi olek**, mis ilmub lehel. Seda kasutatakse, et jälgida pidevalt töökäsu süsteemi olekut ja see aitab tagada, et töökäsu toodete sünkroonimisel rakendusse Finance and Operations kasutatakse õiget filtreerimist. Kui filtrid on integratsiooni ülesannete jaoks määratud, kasutatakse eeldatavate või kasutatud väärtuste sünkroonimisvajaduse määramiseks välja **Päise süsteemi olek** teave.
+- **Töökäsu tooteüksusele** on lisatud väli **Tellimus sisaldab ainult väliselt hallatavaid tooteid**, mis ilmub lehel. Seda kasutatakse, et jälgida pidevalt, kas töökäsu toodet hallatakse rakenduses Supply Chain Management. See väli aitab tagada, et kasutaja ei püüaks sünkroonida töökäsu tooteid, mis hõlmavad rakenduse Supply Chain Management jaoks tundmatuid tooteid.
+- **Töökäsu tooteüksusele** on lisatud väli **Päise süsteemi olek**, mis ilmub lehel. Seda kasutatakse, et jälgida pidevalt töökäsu süsteemi olekut ja see aitab tagada, et töökäsu toodete sünkroonimisel rakendusse Supply Chain Management kasutatakse õiget filtreerimist. Kui filtrid on integratsiooni ülesannete jaoks määratud, kasutatakse eeldatavate või kasutatud väärtuste sünkroonimisvajaduse määramiseks välja **Päise süsteemi olek** teave.
 - Väljal **Arveldatud ühikusumma** kuvatakse tegeliku kasutatud ühiku arveldatud summa. Väärtus arvutatakse selliselt, et välja **Kogusumma** väärtus jagatakse välja **Tegelik kogus** väärtusega. Välja kasutatakse integratsiooniks süsteemidega, mis ei toeta eri väärtusi kasutatud koguse ja arveldatud koguse jaoks. Seda välja ei kuvata kasutajaliideses (UI). 
 - Välja **Arveldatud allahindluse summa** arvutatakse selliselt, et välja **Allahindluse summa** väärtusele liidetakse välja **Arveldatud ühikusumma** arvutuse ümardatud väärtus. Seda välja kasutatakse integratsiooniks ja ei kuvata kasutajaliideses.
 - Väljal **Kümnendkogus** säilitatakse välja **Kogus** väärtus kümnendarvuna. Seda välja kasutatakse integratsiooniks ja ei kuvata kasutajaliideses. 
@@ -199,8 +198,8 @@ Rakenduste Field Service ja Finance and Operations vahelise integratsiooni toeta
 
 ### <a name="work-order-service-entity"></a>Töökäsu teenusüksus
 
-- **Töökäsu teenusüksusele** on lisatud väli **Tellimus sisaldab ainult väliselt hallatavaid tooteid**, mis ilmub lehel. Seda kasutatakse, et jälgida pidevalt, kas töökäsu teenust hallatakse rakenduses Finance and Operations. See väli aitab tagada, et kasutaja ei püüaks sünkroonida töökäsu teenuseid, mis hõlmavad rakenduse Finance and Operations jaoks tundmatuid teenuseid.
-- **Töökäsu teenusüksusele** on lisatud väli **Päise süsteemi olek**, mis ilmub lehel. Seda kasutatakse, et jälgida pidevalt töökäsu süsteemi olekut, ja see aitab tagada, et töökäsu teenuste sünkroonimisel rakendusse Finance and Operations kasutatakse õiget filtreerimist. Kui filtrid on integratsiooni ülesannete jaoks määratud, kasutatakse eeldatavate või kasutatud väärtuste sünkroonimisvajaduse määramiseks välja **Päise süsteemi olek** teave.
+- **Töökäsu teenusüksusele** on lisatud väli **Tellimus sisaldab ainult väliselt hallatavaid tooteid**, mis ilmub lehel. Seda kasutatakse, et jälgida pidevalt, kas töökäsu teenust hallatakse rakenduses Supply Chain Management. See väli aitab tagada, et kasutaja ei püüaks sünkroonida töökäsu teenuseid, mis hõlmavad rakenduse Supply Chain Management jaoks tundmatuid tooteid.
+- **Töökäsu teenusüksusele** on lisatud väli **Päise süsteemi olek**, mis ilmub lehel. Seda kasutatakse, et jälgida pidevalt töökäsu süsteemi olekut ja see aitab tagada, et töökäsu teenuste sünkroonimisel rakendusse Supply Chain Management kasutatakse õiget filtreerimist. Kui filtrid on integratsiooni ülesannete jaoks määratud, kasutatakse eeldatavate või kasutatud väärtuste sünkroonimisvajaduse määramiseks välja **Päise süsteemi olek** teave.
 - Väljal **Kestus tundides** säilitatakse välja **Kestus** väärtus pärast minutitest tundideks teisendamist. Seda välja kasutatakse integratsiooniks ja ei kuvata kasutajaliideses.
 - Väljal **Eeldatav kestus tundides** säilitatakse välja **Eeldatav kestus** väärtus pärast minutitest tundideks teisendamist. Seda välja kasutatakse integratsiooniks ja ei kuvata kasutajaliideses.
 - Väljal **Arveldatud ühikusumma** säilitatakse tegeliku kasutatud ühiku arveldatud summa. Väärtus arvutatakse selliselt, et välja **Kogusumma** väärtus jagatakse välja **Tegelik kogus** väärtusega. Seda välja kasutatakse integratsiooniks süsteemidega, mis ei toeta eri väärtusi kasutatud koguse ja arveldatud koguse jaoks. Välja ei kuvata kasutajaliideses.
@@ -214,12 +213,12 @@ Enne töökäskude sünkroonimist on oluline värskendada süsteemides järgmisi
 
 ### <a name="setup-in-field-service"></a>Rakenduse Field Service seadistus
 
-- Veenduge, et numbriseeria, mida kasutatakse rakenduses Field Service töökäskude jaoks, ei kattuks numbriseeriaga, mida kasutatakse müügitellimuste jaoks rakenduses Finance and Operations. Muidu võidakse olemasolevaid müügitellimusi rakenduses Field Service või Finance and Operations valesti värskendada.
-- Väli **Töökäsu arve loomine** väärtuseks peab olema seatud **Mitte kunagi**, sest arveldamiseks kasutatakse rakendust Finance and Operations. Avage **Field Service** \> **Sätted** \> **Haldus** \> **Field Service’i sätted** ja veenduge, et välja **Töökäsu arve loomine** väärtuseks oleks seatud **Mitte kunagi**.
+- Veenduge, et numbriseeria, mida kasutatakse rakenduses Field Service töökäskude jaoks, ei kattuks numbriseeriaga, mida kasutatakse müügitellimuste jaoks rakenduses Supply Chain Management. Muidu võidakse olemasolevaid müügitellimusi rakenduses Field Service või Supply Chain Management valesti värskendada.
+- Väli **Töökäsu arve loomine** väärtuseks peab olema seatud **Mitte kunagi**, sest arveldamiseks kasutatakse rakendust Supply Chain Management. Avage **Field Service** \> **Sätted** \> **Haldus** \> **Field Service’i sätted** ja veenduge, et välja **Töökäsu arve loomine** väärtuseks oleks seatud **Mitte kunagi**.
 
-### <a name="setup-in-finance-and-operations"></a>Seadistus rakenduses Finance and Operations
+### <a name="setup-in-supply-chain-management"></a>Seadistamine rakenduses Supply Chain Management
 
-Töökäsu integratsiooni puhul on vajalik seadistada müügiallikas. Müügiallikat kasutatakse, et eristada müügitellimusi rakendusest Finance and Operations, mis on loodud rakenduse Field Service töökäskudest. Kui müügitellimuse müügiallika tüübiks on **Töökäsu integratsioon**, kuvatakse müügitellimuse päises väli **Välise töö tellimuse olek**. Lisaks aitab müügiallikas tagada, et rakenduse Field Service töökäskudest loodud müügitellimused filtreeritakse välja müügitellimuse sünkroonimisel rakendusest Finance and Operations rakendusse Field Service.
+Töökäsu integratsiooni puhul on vajalik seadistada müügiallikas. Müügiallikat kasutatakse, et eristada müügitellimusi rakendusest Supply Chain Management, mis on loodud rakenduse Field Service töökäskudest. Kui müügitellimuse müügiallika tüübiks on **Töökäsu integratsioon**, kuvatakse müügitellimuse päises väli **Välise töö tellimuse olek**. Lisaks aitab müügiallikas tagada, et rakenduse Field Service töökäskudest loodud müügitellimused filtreeritakse välja müügitellimuse sünkroonimisel rakendusest Supply Chain Management rakendusse Field Service.
 
 1. Avage **Müük ja turundus** \> **Seadistus** \> **Müügitellimused** \> **Müügiallikas**.
 2. Uue müügiallika loomiseks valige **Uus**.
@@ -243,31 +242,31 @@ Veenduge, et üksuse **msdyn_workorders** jaoks oleks olemas **integreerimisvõt
 
 Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>Töökäsud müügitellimusteks (Field Service'ist Fin and Opsi): WorkOrderHeader
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderheader"></a>Töötellimused müügitellimuste juurde (Field Service rakendusele Supply Chain Management): WorkOrderHeader
 
 Filter: (msdyn_systemstatus ne 690970005) ja (msdyn_systemstatus ne 690970000) ja (msdynce_hasexternallymaintainedproductsonly eq true)
 
 [![Malli vastendamine andmete integratsioonis](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>Töökäsud müügitellimusteks (Field Service'ist Fin and Opsi): WorkOrderServiceLineEstimate
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Töötellimused müügitellimuste juurde (Field Service rakendusele Supply Chain Management): WorkOrderServiceLineEstimate
 
 Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus ne 690970000) ja (msdynce_orderhasexternalmaintainedproductsonly eq true) ja (msdyn_linestatus eq 690970000) ja (msdynce_headersystemstatus ne 690970004)
 
 [![Malli vastendamine andmete integratsioonis](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>Töökäsud müügitellimusteks (Field Service'ist Fin and Opsi): WorkOrderServiceLineUsed
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Töötellimused müügitellimuste juurde (Field Service rakendusele Supply Chain Management): WorkOrderServiceLineUsed
 
 Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus ne 690970000) ja (msdynce_orderhasexternalmaintainedproductsonly eq true) ja ((msdyn_linestatus eq 690970001) või (msdynce_headersystemstatus eq 690970004))
 
 [![Malli vastendamine andmete integratsioonis](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>Töökäsud müügitellimusteks (Field Service'ist Fin and Opsi): WorkOrderProductLineEstimate
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Töötellimused müügitellimuste juurde (Field Service rakendusele Supply Chain Management): WorkOrderProductLineEstimate
 
 Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus ne 690970000) ja (msdynce_orderhasexternalmaintainedproductsonly eq true) ja (msdyn_linestatus eq 690970000) ja (msdynce_headersystemstatus ne 690970004) ja (msdyn_allocated eq true)
 
 [![Malli vastendamine andmete integratsioonis](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>Töökäsud müügitellimusteks (Field Service'ist Fin and Opsi): WorkOrderProductLineUsed
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Töötellimused müügitellimuste juurde (Field Service rakendusele Supply Chain Management): WorkOrderProductLineUsed
 
 Filter: (msdynce_headersystemstatus ne 690970005) ja (msdynce_headersystemstatus ne 690970000) ja (msdynce_orderhasexternalmaintainedproductsonly eq true) ja ((msdyn_linestatus eq 690970001) või (msdynce_headersystemstatus eq 690970004) või (msdyn_allocated ne true))
 

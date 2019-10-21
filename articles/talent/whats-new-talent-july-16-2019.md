@@ -1,6 +1,6 @@
 ---
-title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Talent (16. juuli 2019)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (16. juuli 2019)
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/16/2019
@@ -18,21 +18,21 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ac0990a72224395cf109c7eb42cbb48ece2a0b4f
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: fd70b29089a4bf05c8fa9e3591fdb22383ea0cdc
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795192"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009712"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-16-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Talent (16. juuli 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-16-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (16. juuli 2019)
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="changes-in-attract"></a>Muutused Attractis
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Attract veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Attract.
 
 ### <a name="coming-soon-in-attract"></a>Peagi tulekul rakenduses Attract
 #### <a name="job-approvals-appear-on-the-home-page"></a>Töökinnitused kuvatakse avalehel
@@ -40,7 +40,7 @@ Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Attract veaparandu
 Kinnitused kuvatakse armatuurlaua jaotises **Kinnitused**. Kinnitajad saavad kinnitusi üle vaadata jaotises **Teile määratud**, kus kuvatakse töö ID, töö pealkiri, teised kinnitajad ja töö määramise kuupäev. Kasutajad, kes töö kinnitamiseks esitavad, saavad oma töid üle vaadata jaotises **Teie taotletud**, mis kuvab kinnitajaid, kes peavad edastatud tööd veel kinnitama.
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Onboard veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2390.

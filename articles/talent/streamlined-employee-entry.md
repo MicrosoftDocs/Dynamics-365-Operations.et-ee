@@ -1,6 +1,6 @@
 ---
 title: Sujuvam töötajate sisestamine ja navigeerimine
-description: Dynamics 365 for Talent töötajate andmesisestust on täiustatud, et võimaldada kiiret sisenemist kõigile töötajatele, varasematele, aktiivsetele või tulevastele töötajatele. Lihtsustatud/konsolideeritud navigeerimise mudelit on värskendatud, et leida seotud teave ning vaadata ja teha vajalikke uuendusi.
+description: Dynamics 365 Talent töötajate andmesisestust on täiustatud, et võimaldada kiiret sisenemist kõigile töötajatele, varasematele, aktiivsetele või tulevastele töötajatele. Lihtsustatud/konsolideeritud navigeerimise mudelit on värskendatud, et leida seotud teave ning vaadata ja teha vajalikke uuendusi.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: be0253ffc4396f36050ef02c51a20d378e44473d
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918195"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009418"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Sujuvam töötajate sisestamine ja navigeerimine
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 for Talent võimaldab töötaja ja töötamise andmete tõhusat sisestamist. Saate kiiresti värskendada töötamise ajaloo teavet varasemate, aktiivsete ja tulevaste töötajate ja töövõtjate kohta.
+Dynamics 365 Talent võimaldab töötaja ja töötamise andmete tõhusat sisestamist. Saate kiiresti värskendada töötamise ajaloo teavet varasemate, aktiivsete ja tulevaste töötajate ja töövõtjate kohta.
 
 Samuti saate lubada lihtsustatud navigeerimise, et leida kiiresti seostuvat teavet ja teha vajalikke muudatusi. See funktsioon on nüüd saadaval liivakasti keskkondades. Selle funktsiooni sisselülitamiseks liikuge valikule **Süsteemi administreerimine > Lingid > Häälestus > Süsteemiparameetrid > Eelvaate funktsioonid**. Valige **Täiustatud töötajate vorm ja navigeerimine**. See võimaldab neid muudatusi kõigile kasutajatele. Võite selle suvandi igal ajal välja lülitada.
 

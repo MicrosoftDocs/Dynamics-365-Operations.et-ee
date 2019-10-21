@@ -1,6 +1,6 @@
 ---
-title: Kandidaatide hankimine talendipankadega rakenduses Microsoft Dynamics 365 for Talent - Attract
-description: Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 for Talent - Attract talendipanka luua ja seadistada.
+title: Kandidaatide hankimine talendipankadega rakenduses Microsoft Dynamics 365 Talent – Attract
+description: Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Talent – Attract talendipanka luua ja seadistada.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 61c5dc48bbe3a325853012317cc75e905964d6b1
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741863"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008543"
 ---
 # <a name="source-candidates-with-talent-pools"></a>Kandidaatide hankimine talendikaustadega
 

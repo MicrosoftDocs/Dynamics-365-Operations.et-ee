@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (9. aprill, 2019)?
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (9. aprill, 2019)?
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/09/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 08f3f8150a120817618ee4d31197f3088c7483ab
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856420"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024087"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (9. aprill, 2019)?
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-9-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (9. aprill, 2019)?
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="changes-in-attract"></a>Muutused Attractis
 
@@ -91,4 +91,4 @@ Töötajate puhkuseaja jälgimine ja mõistmine, kuidas puhkus on arvestatud, mi
 Selle muudatusega tuvastatakse nimeväljade sisestamisel duplikaadid ja olek näitab leitud duplikaatide arvu. Võite uue lehe avamiseks valida antud lingi, et hinnata, kas kasutada tuvastatud vastet. Andmesisestuse katkestamise vältimiseks ei avane duplikaatide vorm automaatselt.
 
 ###  <a name="email-support-for-alerts"></a>E-posti tugi teatistele
-Platvormi värskendusega 25 saavad kasutajad luua teavituse reegleid, mis saadavad kontaktidele automaatselt sündmuse käivitatud meiliteateid. 
+Finance and Operationsi platvormi 25. uuendusega saavad kasutajad luua alarmide reegleid, mis saadavad sündmuse poolt käivitades automaatselt kontaktidele meiliteavitusi. 

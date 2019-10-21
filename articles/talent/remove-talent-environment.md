@@ -1,6 +1,6 @@
 ---
 title: Talenti keskkondade eemaldamine
-description: See teema selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 for Talent puhul.
+description: See teema selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 Talent puhul.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/20/2017
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 904c8eb1254a65e1627c33f14488a1a8e12f7c2b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517807"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010611"
 ---
 # <a name="remove-talent-environments"></a>Talenti keskkondade eemaldamine
 
 [!include [banner](includes/banner.md)]
 
-See teema selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 for Talent puhul.
+See teema selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 Talent puhul.
 
 ## <a name="removing-a-test-drive-environment"></a>Proovikeskkonna eemaldamine
 
 Talenti proovikeskkonnad on ette valmistatud 60-päevase aegumispoliitikaga. Kuid proovikeskkondade omanikel on võimalus lõpetada prooviversioon varakult, tehes järgmist. 
 
-1. Avage [PowerAppsi administreerimiskeskus](https://admin.businessplatform.microsoft.com/).
+1. Avage [PowerApps Halduskeskus](https://admin.businessplatform.microsoft.com/)
 2. Valige **Keskkonnad**.
 3. Valige proovikeskkond, millel on vormingult sarnane nimi järgmisega: TestDrive – alias@domain
 4. Valige **Kustuta** ja kinnitage otsus. 
@@ -52,7 +52,7 @@ Kuna üks Talenti keskkond asub ühes PowerAppsi keskkonnas, on kaks suvandit. E
 
 Kogu PowerAppsi keskkonna eemaldamiseks koos Talenti ning seotud rakenduste ja voogudega tehke järgmist.
 
-1. Avage [PowerAppsi administreerimiskeskus](https://admin.businessplatform.microsoft.com/).
+1. Avage [PowerApps Halduskeskus](https://admin.businessplatform.microsoft.com/)
 2. Valige **Keskkonnad**.
 3. Valige eemaldatav keskkond.
 4. Valige **Kustuta** ja kinnitage otsus. 

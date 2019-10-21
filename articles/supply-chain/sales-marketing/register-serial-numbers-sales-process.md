@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46aa4378a5b106d5717e0c841f2f7c9d6629489e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555034"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251312"
 ---
 # <a name="register-serial-numbers-in-the-sales-process"></a>Seerianumbrite registreerimine müügiprotsessis
 
@@ -34,9 +34,9 @@ ms.locfileid: "1555034"
 
 See teema selgitab, kui registreerida müügiprotsessi ajal seerianumbreid saatelehtedel või arvetel. See funktsioon on abiks, kui ettevõte soovib hõivata seerianumbreid teenindus‑ ja garantiieesmärkidel, kuid ei pea seerianumbreid varude sissetulekust väljaminekuni alles hoidma.
 
-Paljud ettevõtted soovivad seerianumbreid hõivata teenindus‑ ja garantiieesmärkidel ega pea seerianumbreid varude sissetulekust väljaminekuni alles hoidma. Selliste stsenaariumide puhul laseb Microsoft Dynamics 365 for Finance and Operations seerianumbrid toodete müümisel saatelehtedele või arvetele registreerida. Kui tooted hiljem tagastatakse, saate iga toote arvega siduda, et näha, kas toode on müüdud, ja kas teenindus- või garantiikohustused on kehtivad.
+Paljud ettevõtted soovivad seerianumbreid hõivata teenindus‑ ja garantiieesmärkidel ega pea seerianumbreid varude sissetulekust väljaminekuni alles hoidma. Selliste stsenaariumide puhul saate seerianumbrid toodete müümisel saatelehtedele või arvetele registreerida. Kui tooted hiljem tagastatakse, saate iga toote arvega siduda, et näha, kas toode on müüdud, ja kas teenindus- või garantiikohustused on kehtivad.
 
-Müügiprotsessi seerianumbrite lubamiseks valige leheküljel **Jälgimisdimensiooni grupid** suvand **Aktiivne müügiprotsessis**. Microsoft Dynamics 365 for Finance and Operationsis toimub järgmine.
+Müügiprotsessi seerianumbrite lubamiseks valige leheküljel **Jälgimisdimensiooni grupid** suvand **Aktiivne müügiprotsessis**. Järgmised sündmused toimuvad Supply Chain Managementis:
 -   Kiirkaardil **Seerianumbrid** valitakse suvand **Seerianumbri juhtimine**. Kui see suvand on valitud, tuleb saatelehel või arvel iga kauba kohta üks seerianumber registreerida.
 -   Kõik seerianumbri jälgimisdimensiooni grupi valikud eemaldatakse, välja arvatud suvand **Määramata väljaminekud lubatud**. Saate valida suvandi **Määramata väljaminekud lubatud** seerianumbri kontrollimise tühistamiseks ning toodete pakkimise ja arvete esitamise lubamiseks seerianumbreid registreerimata.
 

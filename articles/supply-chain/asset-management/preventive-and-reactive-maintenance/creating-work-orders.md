@@ -3,7 +3,7 @@ title: Töökäskude loomine
 description: Selles teemas tutvustatakse, kuidas luua töökäske varahalduses.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b23ed3251b2f6cf4f34b423ce2f85301d6ab31a1
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 0a348bc9b7f5a24c5a3ac57113d430a92020b893
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875604"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922110"
 ---
 # <a name="creating-work-orders"></a>Töökäskude loomine
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 Kui olete plaaninud ennetavaid hooldustöid, on järgmine etapp luua tööde jaoks töökäsud. Seda saab teha ühes hooldusgraafikus. Plaanitud töödel võib hooldusgraafikus olla eri viitetüüp.
 
@@ -44,13 +42,13 @@ Kui olete plaaninud ennetavaid hooldustöid, on järgmine etapp luua tööde jao
 
 1. Klõpsake **Varahaldus** > **Üldine** > **Kõik hooldusgraafikud** või **Avatud hooldusgraafiku read** või **Avatud hooldusgraafiku kaustad**.
 
-2. Valige plaanitud hooldustööd, mille jaoks soovite luua töökäsu ja klõpsake **Töökäsk**. Eelarve tundide koguarvu valitud ridade kohta kuvatakse väljale **Hoolduse eelarve tunnid**.
+2. Valige plaanitud hooldustööd, mille jaoks soovite luua töökäsu ja klõpsake **Töökäsk**. Dialoogis **Töökäskude loomine** kuvatakse eelarve tundide koguarvu valitud ridade kohta väljal **Hoolduse eelarve tunnid**.
 
 3. Jaotises **Parameetrid** valige mitu töökäsku soovite luua. Saate ühe hooldusgraafiku rea kohta luua ühe töökäsu või mitu töökäsku, sõltuvalt teie valikutest jaotises **Üks töökäsk**.
 
-4. Valige **Töökäsu tüüp**, mida kasutatakse kõigi teie loodavate töökäskude puhul.
-
-5. Klõpsake valikut **OK**. Luuakse üks või mitu töökäsku.
+4. Valige **Töökäsu tüüp**, mida kasutatakse kõigi teie loodavate töökäskude puhul. Allolevalt jooniselt näete näidet dialoogist **Töökäskude loomine**.
 
 ![Joonis 1](media/18-preventive-maintenance.png)
+
+5. Klõpsake valikut **OK**. Luuakse üks või mitu töökäsku.
 

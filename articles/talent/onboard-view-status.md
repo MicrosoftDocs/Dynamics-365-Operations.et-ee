@@ -1,6 +1,6 @@
 ---
 title: Saate vaadata sisseelavate töötajate olekut ja oma tööülesandeid
-description: Selles teemas selgitatakse, kuidas kasutada Microsoft Dynamics 365 for Talent - Onboard rakendust, et jälgida, kus uued töötajad oma sisseelamisprotsessiga on.
+description: 'Selles teemas selgitatakse, kuidas kasutada rakendust Microsoft Dynamics 365 Talent: Onboard, et jälgida, kus uued töötajad oma sisseelamisprotsessiga on.'
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0e17c572b4d3b5cee3687b25fb340ad9f98247ed
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731434"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009827"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>Saate vaadata sisseelavate töötajate olekut ja oma tööülesandeid
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard võimaldab vaadata edusamme, mida uued töötajad oma sisseelamisprotsessis teevad. Samuti saate vaadata kõiki ülesandeid, mis on teile sisseelamisjuhenditest määratud.
+Microsoft Dynamics 365 Talent: Onboard võimaldab vaadata edusamme, mida uued töötajad oma sisseelamisprotsessis teevad. Samuti saate vaadata kõiki ülesandeid, mis on teile sisseelamisjuhenditest määratud.
 
 ## <a name="view-the-status-of-onboarding-employees"></a>Vaadake töötajate töölevõtmise olekut
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f86fc243312d18654b1a048f9dffb29afd187
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afd4509bc9bdff345e48a590a12cc84ae25aebb8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550066"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018426"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Kastiaruannete loomine ja nende lõppemine
 
@@ -43,7 +43,7 @@ Selle salvestise loomisel kasutati demoettevõtte USRT-i andmeid. See salvestis 
 5. Sisestage kuupäev väljale Lõpukuupäev.
 6. Klõpsake väljal Kanal otsingu avamiseks ripploendi nuppu.
 7. Valige puul suvand Contoso Retail\Contoso Retail USA\Central\Houston.
-    * See näitab jaemüügi organisatsiooni vaikehierarhiat jaemüügi aruandluseks.   Minge jaotisse Organisatsioonihaldus >Organisatsioonid > Organisatsioonihierarhia eesmärgid, valige suvand Jaemüügi aruandlus ja kontrollige jaotises Määratud hierarhiad hierarhia nime, mille puhul on veerg Vaikimisi märgitud.      Selle ülesandesalvestise jaoks kasutatud demoandmete osana märkate, et jaemüügi aruandluse jaoks on organisatsiooni vaikehierarhiaks valitud Jaekauplused piirkonniti.     
+    * See näitab jaemüügi organisatsiooni vaikehierarhiat jaemüügi aruandluseks.   Minge jaotisse Organisatsioonihaldus > Organisatsioonid > Organisatsioonihierarhia eesmärgid, valige suvand Jaemüügi aruandlus ja kontrollige jaotises Määratud hierarhiad hierarhia nime, mille puhul on veerg Vaikimisi märgitud. Selle ülesandesalvestise jaoks kasutatud demoandmete osana märkate, et jaemüügi aruandluse jaoks on organisatsiooni vaikehierarhiaks valitud Jaekauplused piirkonniti.     
 8. Klõpsake nuppu OK.
 9. Valige suvand väljal Kuva.
 10. Valige suvand väljal Alus.
@@ -55,7 +55,7 @@ Selle salvestise loomisel kasutati demoettevõtte USRT-i andmeid. See salvestis 
 3. Sisestage kuupäev väljale Lõpukuupäev.
 4. Klõpsake väljal Kanal otsingu avamiseks ripploendi nuppu.
 5. Valige puul suvand Contoso Retail\Contoso Retail USA\West\Seattle.
-    * See näitab jaemüügi organisatsiooni vaikehierarhiat jaemüügi aruandluseks.   Minge jaotisse Organisatsioonihaldus >Organisatsioonid > Organisatsioonihierarhia eesmärgid, valige suvand Jaemüügi aruandlus ja kontrollige jaotises Määratud hierarhiad hierarhia nime, mille puhul on veerg Vaikimisi märgitud.      Selle ülesandesalvestise jaoks kasutatud demoandmete osana märkate, et jaemüügi aruandluse jaoks on organisatsiooni vaikehierarhiaks valitud Jaekauplused piirkonniti.     
+    * See näitab jaemüügi organisatsiooni vaikehierarhiat jaemüügi aruandluseks.   Minge jaotisse Organisatsioonihaldus > Organisatsioonid > Organisatsioonihierarhia eesmärgid, valige suvand Jaemüügi aruandlus ja kontrollige jaotises Määratud hierarhiad hierarhia nime, mille puhul on veerg Vaikimisi märgitud. Selle ülesandesalvestise jaoks kasutatud demoandmete osana märkate, et jaemüügi aruandluse jaoks on organisatsiooni vaikehierarhiaks valitud Jaekauplused piirkonniti.     
 6. Klõpsake nuppu OK.
 7. Klõpsake nuppu OK.
 

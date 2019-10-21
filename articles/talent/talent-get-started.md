@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 0993119de785d5e3826075778c018bdfa50071e2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517833"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024240"
 ---
 # <a name="get-started-with-talent"></a>Rakendusega Talent alustamine
 
 [!include [banner](includes/banner.md)]
 
-Rakenduses Microsoft Dynamics 365 for Talent saab kasutajaliidest hõlpsasti kohandada ja määrata suvandeid, mis muudavad tarkvara teie vajaduste jaoks intuitiivsemaks. Teema hõlmab muude teemade linke, kust saate teavet selle kohta, kuidas kohandada kasutajaliidest oma eelistuste kohaselt. Teema sisaldab ka linke teabe juurde, mis aitab teil süsteemis tõhusalt ja täpselt teavet leida. 
+Rakenduses Microsoft Dynamics 365 Talent saab kasutajaliidest hõlpsasti kohandada ja määrata suvandeid, mis muudavad tarkvara teie vajaduste jaoks intuitiivsemaks. Teema hõlmab muude teemade linke, kust saate teavet selle kohta, kuidas kohandada kasutajaliidest oma eelistuste kohaselt. Teema sisaldab ka linke teabe juurde, mis aitab teil süsteemis tõhusalt ja täpselt teavet leida. 
 
 > [!NOTE] 
-> Järgmised kolm toodet on omavahel tihedalt seotud: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ja Dynamics 365 for Talent. Kõigis 3 tootes võivad ilmneda samad funktsioonid. Seetõttu on peamiselt jaemüügiga seotud teemades toote nimi Dynamics 365 for Retail, Talentiga seotud teemades on toote nimi Dynamics 365 for Talent ja põhitootega seotud teemades on toote nimi Dynamics 365 for Finance and Operations. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
+> Järgmised kolm toodet on omavahel tihedalt seotud: Dynamics 365 Finance, Dynamics 365 Retail ja Dynamics 365 Talent. Kõigis kolmes tootes võivad esineda samad funktsioonid. Seetõttu on peamiselt jaemüügiga seotud teemades toote nimi Dynamics 365 Retail, Talentiga seotud teemades on toote nimi Dynamics 365 Talent ja põhitootega seotud teemades on toote nimi Dynamics 365 Finance. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
 
 ## <a name="personalizing-talent"></a>Talenti isikupärastamine 
-Järgmistes teemades selgitatakse, kuidas häälestada Dynamics 365 for Talenti mitmesuguseid funktsioone, mis aitavad teil töö õigeks ajaks tehtud saada. 
+Järgmistes teemades selgitatakse, kuidas häälestada Talenti mitmesuguseid funktsioone, mis aitavad teil töö õigeks ajaks tehtud saada. 
 
 -   [Kasutuskogemuse isikupärastamine](../fin-and-ops/get-started/personalize-user-experience.md): selles teemas selgitatakse eri mooduseid Talenti isikupärastamiseks ja toote osade kohandamiseks, et see sobiks paremini teie eelistustega.
 
@@ -61,7 +61,7 @@ Järgmistes teemades selgitatakse, kuidas otsingute ja filtreerimisfunktsioonide
 Avage [Microsoft Dynamics 365 sisukaart](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80), et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel.
 
 ### <a name="blogs"></a>Ajaveebid
-Ostureskontro ja muude lahendustega seotud arvamused, uudised ning muu teabe leiate rakendusest [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
+Ostureskontro ja muude lahendustega seotud arvamused, uudised ning muu teabe leiate rakendusest [Dynamics 365 Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
 
 ### <a name="videos"></a>Videod
 Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).

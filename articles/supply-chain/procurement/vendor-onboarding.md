@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548994"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250136"
 ---
 # <a name="onboard-vendors"></a>Hankijate vastuvõtmine
 [!include [banner](../includes/banner.md)]
 
 ---
 
-Uusi hankijaid saate rakenduses Microsoft Dynamics 365 for Finance and Operations vastu võtta ja neid hankijateks registreerida hankija esindajalt saadud teabe põhjal.
+Uusi hankijaid saate rakenduses Microsoft Dynamics 365 Supply Chain Management vastu võtta ja neid hankijateks registreerida hankija esindajalt saadud teabe põhjal.
 
 Protsess sisaldab järgmisi etappe, kus mitmesugused rollid süsteemis tegevusi teevad.
 
 1. **OData andmehaldus** – üksuse importimine – esmane taotlus on potentsiaalse hankija registreerimistaotlus. Tavaliselt tuleb selline taotlus näiteks kliendi hostitud veebisaidilt, mis lubab anonüümset juurdepääsu. Hankijad saavad registreerida end, andes põhiteavet, nagu hankija nimi, põhjendus, organisatsiooni kood ja kontaktisiku nimi ning meiliaadress. Taotlused imporditakse andmehalduse kasutajaliidese kaudu.
-2. **Potentsiaalse hankija registreerimistaotluse loendileht** – hankespetsialist otsustab potentsiaalse hankija registreerimistaotluses esitatud teabe põhjal, kas hankija tuleks organisatsiooni hankijate hulka arvata. Hankespetsialist saab sissetulevaid taotlusi vaadata rakenduse Finance and Operations loendilehel **Potentsiaalse hankija registreerimistaotlused**.
+2. **Potentsiaalse hankija registreerimistaotluse loendileht** – hankespetsialist otsustab potentsiaalse hankija registreerimistaotluses esitatud teabe põhjal, kas hankija tuleks organisatsiooni hankijate hulka arvata. Hankespetsialist saab sissetulevaid taotlusi vaadata loendilehel **Potentsiaalse hankija registreerimistaotlused**.
 3. **Kasutajate ettevalmistuse töövoog** – kui hankespetsialist on sissetulevas taotluses oleva teabe kontrollinud ja otsustanud hankija vastu võtta, valmistab kasutajataotluse töövoog ette uue kasutaja ning saadab meiliga kutse kontaktisiku Microsoft Dynamics 365 autenditud kasutajana vastuvõtmiseks.
-4. **Hankija registreerimisviisard** – hankija kontaktisik logib rakendusse Finance and Operations uue kasutajakontoga sisse. Ta viib hankija registreerimisviisardis teabe täitmise lõpule, andes sellist teavet nagu aadressid, äriteave, hankekategooriad, ja vastab küsimustikule.
+4. **Hankija registreerimisviisard** – hankija kontaktisik logib uue kasutajakontoga sisse. Ta viib hankija registreerimisviisardis teabe täitmise lõpule, andes sellist teavet nagu aadressid, äriteave, hankekategooriad, ja vastab küsimustikule.
 5. **Kinnitamise töövoog** – luuakse registreerimisteavet sisaldav hankija taotlus. Hankija taotlus saadetakse töövoogu ja suunatakse ülevaatamiseks ning kinnitamiseks.
 6. **Hankija koondandmete loomine ja kasutaja rolli muutmine** – hankija nõude kinnitamisel luuakse hankija kirje. Hankija kontaktisiku kasutajakontole antakse kas õigus hankija koostööks või see inaktiveeritakse.
 
@@ -45,14 +45,14 @@ Järgmises tabelis on toodud protsessiga seotud etapid ja rollid.
 |--------------------------|---|---|---|---|---|---|
 | System                   | Uue hankija taotlus on imporditud. | | | | | Hankija nõude kinnitamisel luuakse hankija kirje. |
 | Hankespetsialist | | Alustab vastuvõtuprotsessi. | | | Vaatab hankija taotluse üle ja aktseptib või lükkab selle tagasi. | |
-| Administraator            | | | Loob kasutaja rakenduses Finance and Operations ja teenuses Microsoft Azure. | | | |
+| Administraator            | | | Looge kasutaja Supply Chain Managementis ja Microsoft Azures. | | | |
 | Hankija kontaktisik    | | | Saadab kontaktisikule meili. | Registreerib hankija teabe. | | |
 
-Kiiret demonstratsiooni uute hankijate vastuvõtmise protsessist saate vaadata järgmisest lühikesest YouTube’i videost: [Uue hankija vastuvõtmine rakenduses Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Kiiret demonstratsiooni uute hankijate vastuvõtmise protsessi kohta saate vaadata järgmisest lühikesest YouTube’i videost [Kuidas kaasata rakendusse Finance and Operations uus hankija](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Potentsiaalse hankija registreerimistaotluste importimine
 
-Potentsiaalse hankija registreerimistaotlus on rakenduse Finance and Operations üksus. Saate seadistada süsteemi selle üksuse kaudu andmeid importima. 
+Potentsiaalse hankija registreerimistaotlus on rakenduse Supply Chain Management üksus. Saate seadistada süsteemi selle üksuse kaudu andmeid importima. 
 
 Alljärgnevas tabelis on toodud teave, mida see üksus sisaldab ja mida saab importida.
 
@@ -65,18 +65,18 @@ Alljärgnevas tabelis on toodud teave, mida see üksus sisaldab ja mida saab imp
 | Kontaktisiku eesnimi  | Selle isiku eesnimi, keda kutsutakse hankija teavet registreerima. |
 | Kontaktisiku teine eesnimi | Selle isiku teine eesnimi, keda kutsutakse hankija teavet registreerima. |
 | Kontaktisiku perekonnanimi   | Selle isiku perekonnanimi, keda kutsutakse hankija teavet registreerima. |
-| Kontaktisiku meiliaadress       | Meiliaadress, mida kasutatakse rakenduses Finance and Operations uue kasutaja loomiseks ja mis registreeritakse rentniku Azure Active Directory (Azure AD) kontol. |
+| Kontaktisiku meiliaadress       | Meiliaadress, mida kasutatakse rakenduses Supply Chain Management uue kasutaja loomiseks ja mis registreeritakse rentniku Azure Active Directory (Azure AD) kontol. |
 | Edastamiskuupäev               | Kuupäev, mil taotlus välises süsteemis loodi. |
-| Juriidiline isik                 | Juriidiline isik, mille hankijaks hankija soovib saada. See väärtus peab olema rakenduses Finance and Operations registreeritud juriidilise isiku kood. Kui importimisprotsessi kaudu ei saada ühtki väärtust, rakendatakse mõnda väärtust hanke parameetritest. |
+| Juriidiline isik                 | Juriidiline isik, mille hankijaks hankija soovib saada. See väärtus peab olema rakenduses Supply Chain Management registreeritud juriidilise isiku kood. Kui importimisprotsessi kaudu ei saada ühtki väärtust, rakendatakse mõnda väärtust hanke parameetritest. |
 | Hankija tüüp                  | Hankija võib olla kas organisatsioon või isik. Hankija lõpliku loomise määrab hankija tüüp. |
 
 Potentsiaalse hankija registreerimistaotluse importimise järel kuvatakse see loendilehel **Potentsiaalse hankija registreerimistaotlus**. Sellel loendilehel saab hankespetsialist kasutajale kutse saata. Kasutaja ettevalmistustaotlus saadetakse töövoogu.
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>Potentsiaalse hankija-kasutaja taotluse esitamine
 
-Potentsiaalse hankija-kasutaja taotluse eesmärk on valmistada ette kasutaja esialgse taotluse esitanud isikule, et ta saaks rakendusse Finance and Operations sisse logida, kasutades potentsiaalse hankija registreerimistaotlusel esitatud meilikontot.
+Potentsiaalse hankija-kasutaja taotluse eesmärk on valmistada ette kasutaja esialgse taotluse esitanud isikule, et ta saaks rakendusse Supply Chain Management sisse logida, kasutades potentsiaalse hankija registreerimistaotlusel esitatud meilikontot.
 
-Potentsiaalse hankija-kasutaja taotlust töödeldakse kasutajataotluse töövoos. See töövoog suhtleb Azure AD B2B koostöö kaudu. See loob rakenduses Finance and Operations asjakohaste turvesätetega kasutaja.
+Potentsiaalse hankija-kasutaja taotlust töödeldakse kasutajataotluse töövoos. See töövoog suhtleb Azure AD B2B koostöö kaudu. See loob rakenduses Supply Chain Management asjakohaste turvesätetega kasutaja.
 
 Uutel seadistatud kasutajatel on järgmised turberollid.
 
@@ -89,7 +89,7 @@ Teavet meili konfigureerimise ja töövoo kohta üldiselt vaadake kasutajataotlu
 
 ## <a name="vendor-registration"></a>Hankija registreerimine
 
-Kui potentsiaalne hankija logib sisse rakendusse Finance and Operations, näeb ta esimese lehena hankija registreerimisviisardit, kus ta saab hankija kohta teabe sisestada.
+Kui potentsiaalne hankija logib sisse rakendusse Supply Chain Management, näeb ta esimese lehena hankija registreerimisviisardit, kus ta saab hankija kohta teabe sisestada.
 
 Viisard kajastab hankija taotluse konfiguratsiooni. Viisardis küsitav teave, samuti milline osa sellest on kohustuslik sisestada, oleneb sellest, millises riigis või regioonis hankija tegutseb.
 
@@ -119,7 +119,7 @@ Hankija taotlused on saadaval lehel **Hankija koostöö kasutajataotlused**.
 
 Hankija taotlus sisaldab potentsiaalse hankija-kasutaja hankija registreerimisviisardis sisestatud teavet.
 
-Taotlus annab võimaluse vaadata üle hankija teave ja otsustada, kas registreerida hankija rakenduses Finance and Operations.
+Taotlus annab võimaluse vaadata üle hankija teave ja otsustada, kas registreerida hankija.
 
 Hankija taotlus tuleks saata töövoogu ja suunata asjakohastele ülevaatajatele ja kinnitajatele. Põhiteavet töövoogude seadistamise kohta hangetes vaadake teemast [„Hangete töövood”](procurement-sourcing-workflows.md).
 
@@ -141,7 +141,7 @@ Hankija taotluse kinnitamisel luuakse hankija konto ja nii esialgse potentsiaals
 
 Enne kui saate hankija taotluse kinnitada, peate määrama hankijagrupi, avades lehe **Uus hankija** kiirkaardi **Üldine** ja valides **Hankijagrupp**.
 
-Kui hankija esindajal peaks potentsiaalse hankija-kasutajana olema hankija koostöö kasutajana juurdepääs rakendusele Finance and Operations, siis määrake hankija koostöö juurdepääsu loaks **Jah**. Potentsiaalse hankija registreerimisel kasutatud kasutajakonto inaktiveerimiseks määrake see luba väärtusele **Ei**.
+Kui hankija esindajal peaks potentsiaalse hankija-kasutajana olema hankija koostöö kasutajana juurdepääs rakendusele Supply Chain Management, siis määrake hankija koostöö juurdepääsu loaks **Jah**. Potentsiaalse hankija registreerimisel kasutatud kasutajakonto inaktiveerimiseks määrake see luba väärtusele **Ei**.
 
 Kui hankija koostöö juurdepääsuloaks on määratud **Jah**, siis esitatakse hankija taotluse kinnitamisel taotlus kasutaja rolli muutmiseks **välistes rollides** määratud **hankija** tüübiks. Kui selle loa väärtuseks on seatud **Ei**, esitatakse hankija taotluse kinnitamisel taotlus kasutaja inaktiveerimiseks. Sel juhul peab olema seadistatud kasutaja taotluse inaktiveerimise töövoog.
 

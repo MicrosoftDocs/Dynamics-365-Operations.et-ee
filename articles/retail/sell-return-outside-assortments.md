@@ -1,6 +1,6 @@
 ---
 title: Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine
-description: Rakendusega Dynamics 365 for Retail saate müüa ja tagastada tooteid väljaspool sortimenti.
+description: Rakendusega Dynamics 365 Retail saate müüa ja tagastada tooteid väljaspool sortimenti.
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ae6bac983ddb4d4a217fe83c8f68c5a87ccd6a47
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567903"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024933"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine
 
@@ -37,7 +37,7 @@ Tüüpilised stsenaariumid on näiteks järgmised.
 + Jaemüüjal ei ole kindlaid tooteid kaupluses või tal pole neid varudes kaupluses, mida klient külastas, kuid tooted on saadaval teistes kauplustes. Kaupluse töötaja saab aidata klienti, otsides või sirvides teises kaupluses olevaid tooteid, lisada neid ostukorvi ja teha maksmise, valides tarneviisi.
 + Jaemüüjal on konkreetses linnas või sihtnumbril ja nende ümbruses palju kauplusi ning ta ei soovi sundida kliente tagastama tooteid samasse kauplusse, kust need osteti. Selle asemel võivad kliendid tagastada tooteid ükskõik millisesse kauplusse.
 
-Need üldised stsenaariumid on saadaval jaemüüjate puhul, kes kasutavad rakendust Dynamics 365 for Retail. Retailiga saab teha järgmist.
+Need üldised stsenaariumid on saadaval jaemüüjate puhul, kes kasutavad rakendust Retail. Retailiga saab teha järgmist.
 
 + Otsida või sirvida tooteid teistes kauplustes.
 + Otsida või sirvida kõiki väljastatud tooteid.

@@ -1,6 +1,6 @@
 ---
-title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Talent (4. juuni 2019)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (4. juuni 2019)
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/04/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e19e5d3f1cb2305e5a4153de3e4d0e8f4c7d31ac
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 32b168eca210b1371db129c05f7035237eb35c38
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856325"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008980"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-4-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Talent (4. juuni 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-4-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (4. juuni 2019)
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="changes-in-attract"></a>Muutused Attractis
 
-Selles versioonis on väikesed rakenduse Dynamics 365 for Talent: Attract veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Attract.
 
 ## <a name="coming-soon-in-attract"></a>Peagi tulekul rakenduses Attract
 
@@ -43,7 +43,7 @@ Kinnitused kuvatakse armatuurlaua jaotises **Kinnitused**. Kinnitajad saavad oma
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
 
-Selles versioonis on väikesed rakenduse Dynamics 365 for Talent: Onboard veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 
@@ -67,7 +67,7 @@ Võimalus jägida töötaja puhkuseaega ja mõista, kuidas puhkus on arvestatud,
 
 ### <a name="deleting-a-record-from-talent-doesnt-remove-the-record-from-common-data-service"></a>Kirje kustutamine Talentist ei eemalda kirjet teenusest Common Data Service
 
-Kirjed, mis eemaldatakse Talent Core HR-ist eemaldatakse nüüd ka Common Data Service'ist.
+Kirjed, mis eemaldatakse Talent: Core HR-ist eemaldatakse nüüd ka Common Data Service’ist.
 
 ### <a name="variable-compensation-plan-valid-fromto-dates-arent-being-honored"></a>Ergutussüsteemi plaan kehtib alates/kuni kuupäevi ei austata
 

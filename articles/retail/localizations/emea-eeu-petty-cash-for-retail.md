@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5b91d8589fa4226a2c28e6935b32109e702afc1a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5722099f8f146b9c5cc1fd427ccc57e040d2ff8a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571534"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025424"
 ---
 # <a name="petty-cash-management-for-retail-for-eastern-europe"></a>Retaili pisikulude kassa haldus Ida-Euroopa puhul
 
@@ -50,7 +50,7 @@ Tegumirea **Sisestatud väljavõtete** lehel saate teha järgmist.
 
 Enne sularahahalduse kasutamist jaemüügis peate lõpule viima järgmise seadistusprotseduuri.
 
-- Seadistage **Makseviiside** lehel igale jaemüüja aktsepteeritavale maksetüübile makseviis. Saate Retail POS-i kannete sisestamiseks kasutada erinevaid makseviise. Jaemüügi makseviiside kohta lisateabe saamiseks vt [Makseviise](https://docs.microsoft.com/dynamics365/unified-operations/retail/payment-methods).
+- Seadistage **Makseviiside** lehel igale jaemüüja aktsepteeritavale maksetüübile makseviis. Saate Retail POS-i kannete sisestamiseks kasutada erinevaid makseviise. Makseviiside kohta lisateabe saamiseks vt [Makseviise](https://docs.microsoft.com/dynamics365/unified-operations/retail/payment-methods).
 - Jaemüügi parameetrite seadistamine kassatoimingute jaoks.
 - Kaupluse sularahamaksete maksemeetodi seadistamine.
 

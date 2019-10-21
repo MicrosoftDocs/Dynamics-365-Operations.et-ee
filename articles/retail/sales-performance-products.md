@@ -1,6 +1,6 @@
 ---
 title: Müügitulemuste hindamine toote alusel
-description: Saate uurida Microsoft Dynamics 365 for Retaili abil 10 peamise toote kasumlikkust.
+description: Saate uurida Dynamics 365 Retaili abil 10 peamise toote kasumlikkust.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 059474a780f849d6e1920703c1f717a9adaa2617
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7796aa830c99bd0fd5784ff95e509767a3b55b44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546382"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024952"
 ---
 # <a name="assess-sales-performance-by-product"></a>Müügitulemuste hindamine toote alusel
 
 [!include [banner](includes/banner.md)]
 
-Saate uurida Microsoft Dynamics 365 for Retaili abil 10 peamise toote kasumlikkust.
+Saate uurida Dynamics 365 Retaili abil 10 peamise toote kasumlikkust.
 
-Dynamics 365 for Retaili osana saavad kasutajad analüüsida ka parimate toodete (10–100) tulusust organisatsiooni hierarhia erinevatel tasemetel ühe alljärgneva kriteeriumi põhjal.
+Retaili osana saavad kasutajad analüüsida ka parimate toodete (10–100) tulusust organisatsiooni hierarhia erinevatel tasemetel ühe alljärgneva kriteeriumi põhjal.
 
 - Müügisumma
 - Kogus

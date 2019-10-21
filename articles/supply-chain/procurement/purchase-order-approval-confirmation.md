@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e274f52484d3fe1884152f155b6b7f0714f8842e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 58ff596314d348a465ba6ee23369f09e74d580eb
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572692"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248864"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Ostutellimuste kinnitamine
 
@@ -39,7 +39,7 @@ Pärast ostutellimuse koostamist võib olla vaja läbida heakskiitmise protsess.
 ## <a name="approval-of-purchase-orders"></a>Ostutellimuste heakskiitmine
 Ostutellimustel, mille puhul muudatuste haldust ei kasutata, on olek **Heaks kiidetud** kohe nende loomisel, samas kui ostutellimustel, mis kasutavad muudatuste haldust, on loomisel olek **Mustand**. Ostutellimusele, mis on loodud koondplaneerimise plaanitud tellimuse kinnitamisega, määratakse alati olek **Heaks kiidetud**, olenemata muudatuste halduse sätetest. Ostutellimus tekitab laokandeid ainult siis, kui see saavutab oleku **Heaks kiidetud**. Seetõttu ei kuvata neid varusid reserveerimiseks või märkimiseks kättesaadavana enne tellimuse vastuvõtmist.  
 
-Ostutellimuste muudatuste juhtimine lubatakse valiku **Muudatusehalduse aktiveerimine** seadistamisega lehel **Hankeparameetrid**. Kui muudatuste haldus on lubatud, peab ostutellimus läbima pärast lõpetamist heakskiitmise töövoo. Microsoft Dynamics 365 for Finance and Operationsil on töövooprotsessi redaktor, kus saab määratleda heakskiitmise protsessi kajastamiseks töövoo. See töövoog võib sisaldada reegleid automaatseks heakskiitmiseks, reegleid, mis määravad, kes määratakse konkreetseid ostutellimusi heaks kiitma, ja reegleid pikka aega heakskiitmist oodanud töövoo eskaleerimiseks. Saate lubada muudatuste halduse protsessi kõigile hankijatele või konkreetsetele hankijatele. Samuti saate seadistada protsessi nii, et selle saab eraldi ostutellimuste puhul alistada.  
+Ostutellimuste muudatuste juhtimine lubatakse valiku **Muudatusehalduse aktiveerimine** seadistamisega lehel **Hankeparameetrid**. Kui muudatuste haldus on lubatud, peab ostutellimus läbima pärast lõpetamist heakskiitmise töövoo. Supply Chain Managementil on töövooprotsessi redaktor, kus saab määratleda heakskiitmise protsessi kajastamiseks töövoo. See töövoog võib sisaldada reegleid automaatseks heakskiitmiseks, reegleid, mis määravad, kes määratakse konkreetseid ostutellimusi heaks kiitma, ja reegleid pikka aega heakskiitmist oodanud töövoo eskaleerimiseks. Saate lubada muudatuste halduse protsessi kõigile hankijatele või konkreetsetele hankijatele. Samuti saate seadistada protsessi nii, et selle saab eraldi ostutellimuste puhul alistada.  
 
 Kui muudatuste haldus on lubatud, läbivad ostutellimused kuus heakskiitmise olekut, alates olekust **Mustand** kuni olekuni **Lõpetatud**. Pärast tellimuse heakskiitmist peavad kasutajad, kes soovivad seda muuta, kasutama toimingut **Taotle muudatust**.
 
@@ -55,7 +55,7 @@ Kui muudatuste haldus on lubatud, läbivad ostutellimused kuus heakskiitmise ole
 ## <a name="confirming-purchase-orders"></a>Ostutellimuste kinnitamine
 Ostutellimused, mille heakskiitmise olek on **Heaks kiidetud**, võivad läbida enne kinnitamist lisatoimingud. Näiteks võib olla vaja saata hankijale ostupäring, et küsida hindade, allahindluste või tarnekuupäevade kohta. Sel juhul saate määrata ostutellimuse olekuks **Välisel ülevaatamisel**, kasutades toimingut **Ostupäring**.  
 
-Hankijad, kes on seadistatud kasutama hankijaportaali, saavad vaadata portaalis tellimusi üle ja neid heaks kiita või tagasi lükata. Selle ülevaatamisprotsessi käigus on ostutellimuse olek **Välisel ülevaatamisel**. Hankijaportaali on võimalik konfigureerida nii, et hankija kinnitus kinnitab tellimuse Finance and Operationsis automaatselt. Teise võimalusena saate ostutellimuse käsitsi kinnitada, kui olete hankijalt kinnituse saanud. Kui hankija lükkab ostutellimuse tagasi, saadakse tagasilükkamine koos tagasilükkamise põhjuse ja muudatuste soovitustega. Sel juhul jääb ostutellimuse olekuks **Välisel ülevaatamisel**.  
+Hankijad, kes on seadistatud kasutama hankijaportaali, saavad vaadata portaalis tellimusi üle ja neid heaks kiita või tagasi lükata. Selle ülevaatamisprotsessi käigus on ostutellimuse olek **Välisel ülevaatamisel**. Hankijaportaali on võimalik konfigureerida nii, et hankija kinnitus kinnitab tellimuse Supply Chain Managementis automaatselt. Teise võimalusena saate ostutellimuse käsitsi kinnitada, kui olete hankijalt kinnituse saanud. Kui hankija lükkab ostutellimuse tagasi, saadakse tagasilükkamine koos tagasilükkamise põhjuse ja muudatuste soovitustega. Sel juhul jääb ostutellimuse olekuks **Välisel ülevaatamisel**.  
 
 Võimalik on luua ka tellimuse pro-forma kinnitus enne tegeliku kinnituse töötlemist. See valik loob lihtsalt aruande, mida saate hankijaga jagada. See ei loo mingit töölehe teavet.  
 

@@ -1,6 +1,6 @@
 ---
-title: Töökuulutuste sisestamine Attractist välistele karjäärisaitidele
-description: Selles teemas selgitatakse, kuidas kasutada rakendust Dynamics 365 for Talent - Attract töökuulutuste sisestamiseks välistele värbamissaitidele
+title: Tööde sisestamine Attracti-välistele karjäärisaitidele
+description: Selles teemas selgitatakse, kuidas kasutada rakendust Dynamics 365 Talent - Attract töökuulutuste sisestamiseks välistele värbamissaitidele
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739813"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008078"
 ---
 # <a name="post-jobs-to-broadbean"></a>Töökuulutuste sisestamine Broadbeani
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract aitab leida vajalikku talenti, lastes teil sisestada tööpakkumised Atttractist otse Broadbeani. Pärast seda, kui [loote tööpakkumise](./creating-jobs-attract.md) Attractis, tuleb lihtsalt klõpsata nuppu, et panna tööpakkumine kõikide potentsiaalsete kandidaatide ette LinkedInis.
+Microsoft Dynamics 365 Talent: Attract: aitab leida vajalikku talenti, lastes teil sisestada tööpakkumised Attractist otse Broadbeani. Pärast seda, kui [loote tööpakkumise](./creating-jobs-attract.md) Attractis, tuleb lihtsalt klõpsata nuppu, et panna tööpakkumine kõikide potentsiaalsete kandidaatide ette LinkedInis.
 
 Tööpakkumiste sisestamine Broadbeani nõuab asjakohast Broadbeani litsentsi. Broadbean pakub erinevaid tooteid ja plaane. Lisateavet Broadbeani litsentsimise ja hinnakujunduse kohta [võtke ühendust Bradbeaniga](https://www.broadbean.com/contact-us/).
 

@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (14. detsember 2018)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talent Core HR-i uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent Core HR (14. detsember 2018)
+description: Selles teemas kirjeldatakse funktsioone, mis on kas uued või muutunud rakenduses Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 36eb5722a7bd98c404fb6c8f5bde407ab38ec28d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517783"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024018"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (14. detsember 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-14-2018"></a>Mis on Dynamics 365 Talent: Core HR-is uut või mida on muudetud (14. detsember 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -94,9 +94,9 @@ Kui ennustamise suutlikus on väljastatud, muutub kuvatav saldo puhkusepäevade 
 
 ## <a name="known-issue"></a>Teadaolev probleem
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Vastendamise tõrked integreerimisel rakendusega Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Vastendusvead Finance’iga integreerimisel
 
-Praegusel mallil on tuvastatud rakendustega Dynamics 365 for Finance and Operations integreerimisel järgmised probleemid. Uus mall avaldatakse varsti ja see rakendatakse kõigile uutele loodavatele integreerimisprojektidele. Olemasolevate integreerimisprojektide puhul saab ülesande vastendamist uuendada. Vaadake uuendatud vastendusi järgmisest tabelist. 
+Praegusel mallil on tuvastatud rakendustega Dynamics 365 Finance integreerimisel järgmised probleemid. Uus mall avaldatakse varsti ja see rakendatakse kõigile uutele loodavatele integreerimisprojektidele. Olemasolevate integreerimisprojektide puhul saab ülesande vastendamist uuendada. Vaadake uuendatud vastendusi järgmisest tabelist. 
 
 >[!NOTE]
 > Andmete integreerimine Ametikohtast Ametikoha peamisele tööülesandele ei toimi. Seda probleemi praegu uuritakse. Praegusele vastendusele lahendust ei ole. 

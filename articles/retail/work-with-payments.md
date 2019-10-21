@@ -1,6 +1,6 @@
 ---
 title: Makseviisid kõnekeskustes
-description: Selles teemas kirjeldatakse erinevaid makseviise, mida saate Microsoft Dynamics 365 for Retaili kõnekeskuses kasutada.
+description: Selles teemas kirjeldatakse erinevaid makseviise, mida saate Dynamics 365 Retaili kõnekeskuses kasutada.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 551a3cc9c0def1c67ab930dbff7cd1c0d296bd21
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571515"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018224"
 ---
 # <a name="payment-methods-in-call-centers"></a>Makseviisid kõnekeskustes
 
 [!include [banner](includes/banner.md)]
 
-Rakenduses Microsoft Dynamics 365 for Retail sisaldab kõnekeskuse kanali konfiguratsioon sätet nimega **Tellimuse lõpetamise lubamine**. See säte aitab tagada, et kõik tellimused, mille kanali kasutajad loovad, väljastatakse tellimuse töötlemisse ainult juhul, kui neil on ettemakstud või eelautoriseerida makse, mis on kinnitatud piirides. Kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud, saavad kõnekeskuse kasutajad sisestada klientide müügitellimuste makseid, kasutades kõnekeskuse makse töötlemise funktsioone. Kui säte on välja lülitatud, ei saa kõnekeskuse kasutajad kõnekeskuse makse töötlemise funktsioone kasutada, kuid nad saavad siiski müügitellimustele ettemakseid rakendada, kasutades standardset müügireskontro funktsiooni.
+Rakenduses Dynamics 365 Retail sisaldab kõnekeskuse kanali konfiguratsioon sätet nimega **Tellimuse lõpetamise lubamine**. See säte aitab tagada, et kõik tellimused, mille kanali kasutajad loovad, väljastatakse tellimuse töötlemisse ainult juhul, kui neil on ettemakstud või eelautoriseerida makse, mis on kinnitatud piirides. Kui säte **Tellimuse lõpetamise lubamine** on sisse lülitatud, saavad kõnekeskuse kasutajad sisestada klientide müügitellimuste makseid, kasutades kõnekeskuse makse töötlemise funktsioone. Kui säte on välja lülitatud, ei saa kõnekeskuse kasutajad kõnekeskuse makse töötlemise funktsioone kasutada, kuid nad saavad siiski müügitellimustele ettemakseid rakendada, kasutades standardset müügireskontro funktsiooni.
 
 Kanali konfiguratsiooni osana saab ettevõte määratleda makseviisid, mis on kõnekeskuse kanalil lubatud. Kõnekeskuse kanal kasutab samu makseviise, mis on määratletud jaemüügikanalite jaoks.
 

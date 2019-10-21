@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e6a896b2a073e189b956ef189f63908f08606ed
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9186d69e86798a5bd6541432518e407eff5700cc
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543418"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250045"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Segarežiimis plaanimine: diskreetse, protsessi- ja säästliku hanke kombineerimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse teavet segarežiimis plaanimise kohta. Segarežiimis plaanimisel saate tarneahelat materjali voo alusel mudeldada. Microsoft Dynamics 365 for Finance and Operations tagab, et materjali voog järgib teie mudeleid olenemata valitud tarnepoliitikast (kanbanid, tootmistellimused, ostutellimused, partiitellimused või üleviimistellimused). 
+Selles teemas antakse teavet segarežiimis plaanimise kohta. Segarežiimis plaanimisel saate tarneahelat materjali voo alusel mudeldada. Dynamics 365 Supply Chain Management tagab, et materjali voog järgib teie mudeleid olenemata valitud tarnepoliitikast (kanbanid, tootmistellimused, ostutellimused, partiitellimused või üleviimistellimused). 
 
 Saate valuda üleüldise toote tarnimise strateegia olenemata toote struktuurist.  
 
@@ -39,7 +39,7 @@ Näiteks võib kanbani juhtelement olla komplektis, kus materjale tootmistellimu
 Koondplaneerimises kasutatavate tarnepoliitikate granulaarsus oleneb laoala dimensioonidest, mis on lubatud kattedimensioonidena. Selleks, et koondplaneerimine juhiks eri tüüpi asukohtade täiendamist ja tarnet (nt eraldades tootmisosakonna erinevateks tootmisüksusteks või eraldades eri tüüpi materjalide ja lõpetatud kaupade laod), soovitame teil lubada suvandid Laoala ja Ladu kattedimensioonidena. Teise võimalusena saab suvandi Ladu kattedimensioonina välja jätta. Sellisel juhul, kui kasutate täiustatud laohaldust, juhib kõiki liikumisi laos laotöö, samas kui kõiki ladudevahelisi liikumisi saab juhtida tagastamise kanbanidega.
 
 ## <a name="supply-policies"></a>Tarnepoliitikad
-Finance and Operations segarežiimis plaanimine juhib, kuidas toodet tarnitakse ja kuidas väljastatakse tarne alusel tuletatud nõudeid (kaupade tarbimine kooslusest \[BOM\]). Tellimuse tüübi alusel hangib süsteem automaatselt materjale, et nõuetele vastata.  
+Segarežiimis plaanimine juhib, kuidas toodet tarnitakse ja kuidas väljastatakse tarne alusel tuletatud nõudeid (kaupade tarbimine kooslusest \[BOM\]). Tellimuse tüübi alusel hangib süsteem automaatselt materjale, et nõuetele vastata.  
 
 Tarnepoliitikaid saab määratleda toote tasemel või mis tahes granulaarsusega, mis teie nõudeid toetab. Määratlete tarnepoliitikate granulaarsuse lehel **Tellimuse vaikesätted**.  
 
@@ -47,9 +47,9 @@ Tarnepoliitikaid saab juhtida toote, kauba dimensioonide (konfiguratsioon, värv
 
 Tellimuse vaiketüüo juhib, mida tellimuse koondplaneerimine loob.  
 
-Olenemata sellest, kuidas tarneahel modelleeritud on, toetab Finance and Operations teie tarnepoliitikate kombinatsiooni. Saate kasutada tootmistellimusi, mis on hangitud kanbanidest. Teise võimalusena saate kasutada partiitellimust, mis nõuab toodet, mida tarnitakse kannete või kanbanidega.  
+Olenemata sellest, kuidas tarneahel modelleeritud on, toetab Supply Chain Management teie tarnepoliitikate kombinatsiooni. Saate kasutada tootmistellimusi, mis on hangitud kanbanidest. Teise võimalusena saate kasutada partiitellimust, mis nõuab toodet, mida tarnitakse kannete või kanbanidega.  
 
-Finance and Operations teeb kindlaks, et materjali voog järgib mudelit.  
+Supply Chain Management teeb kindlaks, et materjali voog järgib mudelit.  
 
 Ladu materjali komplekteerimiseks määratakse dünaamiliselt käitamise ajal pärast tarnepoliitika määratlemist.  
 
@@ -62,7 +62,7 @@ Ressursi tarbimine on oluline funktsioon. Ressursi tarbimine võimaldab laol kom
 
 Ressursi tarbimine nõuab, et laod, kust materjalid komplekteeritakse, määratakse selle alusel, kuidas toodet tarnitakse. Teisisõnu otsib süsteem käitamisel ressursid, mida tuleks tootmiseks kasutada. Nende ressursside alusel otsib süsteem komplekteerimislao.  
 
-Tarnepoliitikast sõltumatu töö puhul ei pea te muutma koosluse teavet, kui tarnet muudetakse. Erakorraliste muudatuste puhul teeb Finance and Operations kindlaks, et materjalid on hangitud õigest laost.
+Tarnepoliitikast sõltumatu töö puhul ei pea te muutma koosluse teavet, kui tarnet muudetakse. Erakorraliste muudatuste puhul teeb Supply Chain Management kindlaks, et materjalid on hangitud õigest laost.
 
 ## <a name="process-manufacturing--the-production-type"></a>Protsessi tootmine – toote tüüp
 Segarežiimis täieliku paindlikkuse tagamiseks soovitame kasutada kõikide toodete puhul tootmistüübi kooslusi. Siis saate toote tarnimiseks kasutada tootmistellimusi, kanbane, üleviimistellimusi ja ostutellimusi. Protsesstootmiseks peate kasutama tootmise tüüpi **Valem**, **Kaastoode**, **Kõrvalsaadus** või **Plaanimisüksus**. Kanbane ja tootmistellimusi ei saa nende tootmistüüpide puhul kasutada.

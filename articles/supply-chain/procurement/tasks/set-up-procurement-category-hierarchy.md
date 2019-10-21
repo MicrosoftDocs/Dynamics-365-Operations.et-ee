@@ -3,7 +3,7 @@ title: Hankekategooria hierarhia seadistamine
 description: See protseduur näitab, kuidas luua hankekategooria hierarhias uusi sõlmi ja konfigureerida hankeprotsessis kasutatavat hankekategooriat.
 author: mkirknel
 manager: AnnBe
-ms.date: 11/06/2017
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01809a8a3256342682d8a9cfb296a355310fe4ed
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d7010a1c612b9b3884c675f578657d951da06c38
+ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569887"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "1995278"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Hankekategooria hierarhia seadistamine
 
@@ -30,48 +30,18 @@ See protseduur näitab, kuidas luua hankekategooria hierarhias uusi sõlmi ja ko
 
 
 ## <a name="add-a-new-procurement-category"></a>Uue hankekategooria lisamine
-1. Tehke valik Hanked > Hankekategooriad.
-2. Klõpsake suvandit Kategooriahierarhia redigeerimine.
-    * Lehe vasakus servas kuvatakse praegune hankekategooria hierarhia. Hakkate seda hierarhiat muutma.  
-3. Klõpsake suvandit Uus kategooriasõlm.
-    * Süsteem valib vaikimisi ülemise sõlme. Kui käitate seda protseduuri ülesandejuhendina, saate klõpsata nuppu Ava ja valida teise ülataseme sõlme, millesse oma uus sõlm lisada. Kui see on tehtud, lukustage uuesti ülesandejuhend ja klõpsake sõlme Uus kategooria.  
-4. Sisestage väärtus väljale Nimi.
-5. Sisestage väljale Kirjeldus soovitud väärtus.
-6. Sisestage väärtus väljale Hüüdnimi.
-    * Hüüdnimi on valikuline. See kuvatakse kategooriaotsingutes koos kategooria nimega.  
-7. Klõpsake nuppu Salvesta.
+1. Avage **Navigeerimispaan > Moodulid > Hanked > Partii > Hanke kategooriad**.
+2. Valige toimingupaanil **Kategooriahierarhia muutmine**. Lehe vasakus servas kuvatakse praegune hankekategooria hierarhia. Hakkate seda hierarhiat muutma.  
+3. Valige toimingupaanil nupp **Uus kategooria sõlm**. Süsteem valib vaikimisi ülemise sõlme. Kui käitate seda protseduuri ülesandejuhendina, saate klõpsata nuppu Ava ja valida teise ülataseme sõlme, millesse oma uus sõlm lisada. Kui see on tehtud, lukustage uuesti ülesandejuhend ja klõpsake sõlme Uus kategooria.  
+4. Sisestage väärtus väljale **Nimi**.
+5. Sisestage väärtus väljale **Kirjeldus**.
+6. Sisestage väärtus väljale **Hüüdnimi**. Hüüdnimi on valikuline. See kuvatakse kategooriaotsingutes koos kategooria nimega.  
+7. Valige käsk **Salvesta**.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Toodete lisamine uude hankekategooriasse
-1. Tehke valik Hanked > Hankekategooriad.
-    * Valige äsjalisatud sõlm. Kui käitate seda protseduuri ülesandejuhendina, peate sõlme valimiseks võib-olla ülesandejuhendi avama.  
-2. Laiendage jaotist Tooted.
-3. Klõpsake suvandit Lisa, et seostada tooted hankekategooriaga.
-4. Valige toode, mille soovite lisada hankekategooriasse.
-5. Klõpsake toote valimiseks noolt.
-6. Valige teine toode, mille soovite lisada hankekategooriasse.
-7. Klõpsake toote valimiseks noolt.
-8. Klõpsake nuppu OK.
-
-## <a name="add-approved-and-preferred-vendors"></a>Kinnitatud ja eelistatud hankijate lisamine
-1. Lülitage jaotise Hankijad laiendamist.
-2. Klõpsake vahekaarti Lisa.
-    * Saate lisada hankekategooriasse hankija ja määrata, kas hankija on eelistatud või kategooria jaoks lihtsalt kinnitatud. Kui kustutate hankija kategooriast, ei kustutata kategooriast hankija ajaloolisi kandeid.   
-3. Leidke hankija, kelle soovite lisada hankekategooriasse.
-4. Klõpsake hankija valimiseks noolt.
-5. Klõpsake nuppu OK.
-6. Valige selle hankija rida, keda soovite muuta.
-7. Valige suvand väljal Hankija olek.
-    * Hankija valimise säte suvandis Kategooria poliitika reegel määrab, kas ostutaotlusel on saadaval eelistatud hankija, kinnitatud hankija või kõik hankijad.   
-
-## <a name="add-additional-information-to-the-category"></a>Kategooriale lisateabe lisamine
-1. Laiendage jaotist Hankija hindamiskriteeriumigrupid.
-    * Sellel vahekaardil saate määratleda, millise kriteeriumi järgi tuleks hankekategoorias olevaid hankijaid hinnata. Selleks klõpsake suvandit Lisa ja seejärel valige soovitud kriteeriumit sisaldav hankija hindamise grupp.  
-2. Laiendage jaotist Küsimustikud.
-    * Sellel vahekaardil saate lisada küsimustikke, mis kuvatakse tellimusel, kui määrate suvandi Tegevuse tüüp sätteks Tellimus. Sel juhul peab tellija enne hankekategooriasse kuuluva kindla toote või toodete tellimuse esitamist täitma küsimustiku.  
-3. Laiendage jaotist Kauba käibemaksugrupid.
-4. Klõpsake väljal Kauba käibemaksugrupp otsingu avamiseks ripploendi nuppu.
-5. Saate valida käibemaksugrupi.
-6. Laiendage jaotist Kategooria leht.
-    * Kategooria lehed luuakse lehel Kategooria hierarhia. Need sisaldavad teavet hankekategooria kohta, näiteks kategoorias olevate toodete tüüp, kategoorias olevate toodete pildid või teated, näiteks kategoorias saadaolevad allahindlused. Kategooria lehel olev teave kuvatakse ostutaotlustel.  
-7. Sulgege leht.
-
+1. Avage **Hanked > Partii > Hanke kategooriad**. Valige äsjalisatud sõlm. Kui käitate seda protseduuri ülesandejuhendina, peate sõlme valimiseks võib-olla ülesandejuhendi avama.  
+2. Lülitage jaotist **Tooted** sisse välja.
+3. Valige suvand **Lisa**, et seostada tooted hankekategooriaga.
+4. Valige tooted, mille soovite lisada hankekategooriasse.
+5. Toodete lisamiseks tabelisse **Valitud** valige nool.
+6. Valige nupp **OK**.

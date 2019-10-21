@@ -3,7 +3,7 @@ title: Hoolduskavade plaanimine
 description: Selles teemas selgitatakse hoolduskavade plaanimist varahalduses.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b6e5bde83474fe8971e482af518f7cee23a2220
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875605"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922041"
 ---
 # <a name="schedule-maintenance-plans"></a>Hoolduskavade plaanimine
 
@@ -49,11 +49,11 @@ Ennetav hoolduskavade plaanimine loob kalendri varade kohta seadistatud hooldusp
 
 - Töö asukohtade põhjal hoolduskavade plaanimisest: kui värskendate vara tüüpide, tootjate ja mudelite seadistust hoolduskavadel kiirkaardil **Kõik töö asukohad** > **Hoolduskavad**, pärast seda, kui olete plaaninud hoolduskavad, kustutatakse automaatselt selle töö asukohaga seotud olemasolevad hooldusgraafiku kanded. Selleks, et luua uusi kalendri kandeid, mis on vastavuses värskendatud hoolduskava seadistusega töö asukoha jaoks, peate selle töö asukoha jaoks käivitama uue hoolduskava plaanimise. Vara tüüpida, tootjate ja mudelite seadistuse kohta lugege täpsemalt teemast [Töö asukohtade loomine](../functional-locations/create-functional-locations.md).
 
->*Näide*: soovite luua hoolduskava konkreetse töö asukoha jaoks, mis tähendab, et kui plaanite hoolduskava, kaasatakse kõik mis tahes ajal selle töö asukoha jaoks seadistatud varad. Sellisel juhul loote hoolduskava ja valite konkreetse töö asukoha, kuid te EI lisa hoolduskavasse ühtegi objekti. Tulemuseks on see, et kui te plaanite seda hoolduskava, luuakse hooldusgraafiku read kõigi töö asukohaga seotud varade kohta mis tahes ajal.
+>*Näide*: soovite luua hoolduskava konkreetse töö asukoha jaoks, mis tähendab, et kui plaanite hoolduskava, kaasatakse kõik mis tahes ajal selle töö asukoha jaoks seadistatud varad. Sellisel juhul loote hoolduskava ja valite konkreetse funktsionaalse asukoha, kuid te EI lisa hoolduskavasse ühtegi vara. Tulemuseks on see, et kui te plaanite seda hoolduskava, luuakse hooldusgraafiku read kõigi töö asukohaga seotud varade kohta mis tahes ajal.
 
 - Kui teete muudatusi vara tüüpide, tootjate ja mudelite kohta vormil **Vara tüübid**, mõjutavad need muudatused ainult uusi varasid, mis kasutavad värskendatud vara tüüpi. Vara tüüpide seadistuse kohta lugege täpsemalt teemast [Vara tüübid](../setup-for-objects/object-types.md).  
 
-5. Klõpsake **OK**, et alustada hooldusgraafiku kannete loomist varade kohta. Loodud kandeid näidatakse loendilehel **Kõik hooldusgraafikud**.
+5. Klõpsake **OK**, et alustada hooldusgraafiku kannete loomist varade kohta. Loodud kandeid näidatakse loendilehel **Kõik hooldusgraafikud**. Järgnev illustratsioon näitab dialoogi **Plaani hoolduskavad** näidet.
 
 ![Joonis 1](media/09-preventive-maintenance.png)
 
@@ -75,3 +75,4 @@ Siin kirjeldatud näidete põhjal on näha, et kõik vara kohta tehtud loenduri 
 ![Joonis 3](media/11-preventive-maintenance.png)
 
 ![Joonis 4](media/12-preventive-maintenance.png)
+

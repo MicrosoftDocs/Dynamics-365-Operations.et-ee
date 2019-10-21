@@ -1,6 +1,6 @@
 ---
 title: Kõnekeskuse müügifunktsioonid
-description: Selles teemas antakse ülevaade kõnekeskuse müügifunktsioonist rakenduses Microsoft Dynamics 365 for Retail.
+description: Selles teemas antakse ülevaade kõnekeskuse müügifunktsioonist rakenduses Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
@@ -19,26 +19,28 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549476"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025767"
 ---
 # <a name="call-center-sales-functionality"></a>Kõnekeskuse müügifunktsioonid
 
 [!include [banner](includes/banner.md)]
 
-Rakenduse Dynamics 365 for Retail kõnekeskus on sellist tüüpi jaemüügikanal, mille saab määratleda rakenduses. Kõnekeskuse üksustele kindla kanali määramine võimaldab süsteemil kindlate andmete ja tellimuse töötlemise vaikesätted kõnekeskuse kanali kasutaja loodud müügitellimustega siduda.
+
+Rakenduse Dynamics 365 Retail kõnekeskus on sellist tüüpi jaemüügikanal, mille saab määratleda rakenduses. Kõnekeskuse üksustele kindla kanali määramine võimaldab süsteemil kindlate andmete ja tellimuse töötlemise vaikesätted kõnekeskuse kanali kasutaja loodud müügitellimustega siduda.
 
 Kõnekeskus sisaldab selliseid funktsioone nagu täpsem jaemüügihind ja kampaaniad, kataloogid, kinkekaardid, püsikliendi programmid ja kupongid. Kõnekeskuse tellimusi kasutatakse ka kassarakenduses, et toetada kanalite vahelisi tellimuse täitmise stsenaariume.
 
-Siinkohal on oluline märkida, et kuigi kõnekeskuse moodulit saab kasutada teistes valdkondades väljaspool Retaili, pole Dynamics 365 for Retaili praeguse versiooni kõnekeskuse rakendus optimeeritud kasutamiseks ettevõtete vaheliste (B2B) tellimuste töötlemise stsenaariumide jaoks ega selliste stsenaariumide jaoks, kus tellimustel on palju müügiridu. Kasutajatel, kes soovivad kasutada kõnekeskuse tellimuste töötlemise funktsioone väljapool tavapärast vahetult tarbijaga seotud kannete töötlemist, on soovitatav võtta piisavalt aega, et testida ja veenduda, et kõnekeskuse funktsionaalsuse lubamine vastaks funktsionaalsuse ja jõudluse vajadustele.
+Siinkohal on oluline märkida, et kuigi kõnekeskuse moodulit saab kasutada teistes valdkondades väljaspool Retaili, pole Retaili praeguse versiooni kõnekeskuse rakendus optimeeritud kasutamiseks ettevõtete vaheliste (B2B) tellimuste töötlemise stsenaariumide jaoks ega selliste stsenaariumide jaoks, kus tellimustel on palju müügiridu. Kasutajatel, kes soovivad kasutada kõnekeskuse tellimuste töötlemise funktsioone väljapool tavapärast vahetult tarbijaga seotud kannete töötlemist, on soovitatav võtta piisavalt aega, et testida ja veenduda, et kõnekeskuse funktsionaalsuse lubamine vastaks funktsionaalsuse ja jõudluse vajadustele.
 
 Lisaks tellimuste loomise toele pakub kõnekeskuse moodul kasutajasõbralikku klienditeenindusrakendust, mis hõlbustab kasutajatel kliendikontode leidmist ja kõigi seonduvate klienditellimuste andmete ja atribuutide ülevaatamist. Klienditeeninduse ekraan on mõeldud pakkuma kasutajale kiiret juurdepääsu tellimusega seotud andmetele, mis võimaldab klientide kõige levinumatele tellimusega seotud küsimustele kiiresti vastata.
 
-Sellelt leheküljelt leiate lingid asjakohasele Dynamics 365 for Retaili kõnekeskuse seadistuse, konfiguratsiooni ja kasutamise dokumentatsioonile.
+Sellelt leheküljelt leiate lingid asjakohasele Retaili kõnekeskuse seadistuse, konfiguratsiooni ja kasutamise dokumentatsioonile.
+
 
 ## <a name="configure-the-call-center"></a>Kõnekeskuse konfigureerimine
 

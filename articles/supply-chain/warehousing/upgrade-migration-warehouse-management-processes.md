@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics AX 2012 laohalduse täiendamine rakendusele Finance and Operations
+title: Laohalduse uuendamine rakendusest Microsoft Dynamics AX2012 rakendusse Supply Chain Management
 description: Selles teemas antakse ülevaade toodete ja laohalduse migreerimise võimalustest.
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554042"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251427"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Microsoft Dynamics AX 2012 laohalduse täiendamine rakendusele Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Laohalduse uuendamine rakendusest Microsoft Dynamics AX2012 rakendusse Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade täiendamisest rakenduselt Microsoft Dynamics AX 2012 R3, mis käitab moodulit WMSII, rakendusele Microsoft Dynamics 365 for Finance and Operations.
+Selles teemas antakse ülevaade täiendamisest rakenduselt Microsoft Dynamics AX 2012 R3, mis käitab moodulit WMSII, rakendusele Supply Chain Management.
 
-Finance and Operations ei toeta enam pärandmoodulit **WMSII** rakendusest Microsoft Dynamics AX 2012. Selle asemel saab kasutada moodulit **Laohaldus**. WMSII moodulis saab finantsilisteks varudeks valida varude dimensioonid Asukoht ja Aluse ID, kuid varude dimensiooni Aluse ID ei saa kasutada finantsilisteks varudeks rakenduses Finance and Operations.
+Supply Chain Management ei toeta enam pärandmoodulit **WMSII** rakendusest Microsoft Dynamics AX 2012. Selle asemel saab kasutada moodulit **Laohaldus**. WMSII moodulis saab finantsilisteks varudeks valida varude dimensioonid Asukoht ja Aluse ID, kuid varude dimensiooni Aluse ID ei saa kasutada finantsilisteks varudeks rakenduses Supply Chain Management.
 
 Versioonitäienduse käigus tuvastatakse ja märgitakse blokeerituks kõik tooted, mis on seotud laoala dimensioonigrupiga, mis kasutab varude dimensiooni Aluse ID, ja neid ei töödelda versioonitäienduse jaoks.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Versioonitäiendus Finance and Operationsile, kui kasutatakse AX 2012 R3 moodulit WMSII
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>Supply Chain Managementile värskendamine, kui kasutatakse AX 2012 R3 WMSII
 Pärast versioonitäiendust võite kasutada valikute komplekti vormis **Kaupade laoala dimensioonigrupi muutmine**, et versioonitäienduse ajal blokeeritud toodetelt blokeering eemaldada ja seejärel nende toodete kandeid töödelda.
 
-### <a name="enabling-items-in-finance-and-operations"></a>Kaupade aktiveerimine Finance and Operationsis
-See muudatus on vajalik, kuna rakenduses Finance and Operations kuulub kauba jälgimine laohalduse protsesside hulka. Nende protsesside puhul tuleb kõik laod ja nende asukohad seostada asukohaprofiiliga. Kui soovite kasutada laohalduse protsesse, tuleb teha järgmine konfiguratsioon.
+### <a name="enabling-items-in-supply-chain-management"></a>Kaupade lubamine Supply Chain Managementis 
+See muudatus on vajalik, kuna rakenduses Supply Chain Management kuulub kauba jälgimine laohalduse protsesside hulka. Nende protsesside puhul tuleb kõik laod ja nende asukohad seostada asukohaprofiiliga. Kui soovite kasutada laohalduse protsesse, tuleb teha järgmine konfiguratsioon.
 -   Olemasolevatel ladudel peab olema lubatud kasutada laohaldusprotsesse 
 -   Olemasolevad väljastatud tooted peavad olema seostatud laoala dimensioonigrupiga, mis kasutab laohalduse protsesse 
 

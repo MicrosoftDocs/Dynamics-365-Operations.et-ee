@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 21cfc2699fdcd6024286ee16bb60c3cd6dda5b67
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0ea5c240063bf8f98f07f2149d67730b30e5c0e4
+ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844702"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "1924466"
 ---
 # <a name="create-a-product-master"></a>Tooteetaloni loomine
 
@@ -31,39 +31,33 @@ Tooteetaloni loomine eelmääratletud variantide puhul. Selle protseduuri loomis
 
 
 ## <a name="create-a-new-product-master"></a>Uue tooteetaloni loomine
-1. Avage Tooteteabe haldus > Tooted > Tooteetalonid.
-2. Klõpsake valikut Uus.
-3. Sisestage väärtus väljale Toote number.
-    * Number peab olema kordumatu. Numbrijada saab seadistada välja Tootenumber puhul. Sellisel juhul ei pea kasutaja väärtust sisestama.  
-4. Sisestage väärtus väljale Toote nimi.
-    * Sisestage kirjeldav toote nimi. Väärtus on vaikimisi otsingunimi, kuid kasutaja saab seda muuta.  
-5. Klõpsake väljal Tootedimensiooni grupp otsingu avamiseks ripploendi nuppu.
-    * Tootedimensiooni grupp määrab, millist 4 tootedimensiooni saab kasutada tootevariantide loomiseks. Selles näites kasutatakse gruppi värvi ja suurusega.  
+1. Avage **Navigeerimispaan > Moodulid > Tooteteabe haldus > Tooted > Tootetalongid**.
+2. Klõpsake valikut **Uus**.
+3. Sisestage väärtus väljale **Toote number**. Number peab olema kordumatu. Numbrijada saab seadistada välja **Tootenumber** puhul. Sellisel juhul ei pea kasutaja väärtust sisestama.
+4. Sisestage väärtus väljale **Toote nimi**. Sisestage kirjeldav toote nimi. Väärtus on vaikimisi otsingunimi, kuid kasutaja saab seda muuta.
+5. Klõpsake väljal **Tootedimensiooni grupp** otsingu avamiseks ripploendi nuppu. Tootedimensiooni grupp määrab, millist 4 tootedimensiooni saab kasutada tootevariantide loomiseks. Selles näites kasutatakse gruppi värvi ja suurusega.
 6. Otsige loendist ja valige soovitud kirje.
-7. Klõpsake loendis valitud real olevat linki.
-    * Vaikimisi konfiguratsioonitehnoloogiaks on Eelmääratletud variant. Seda kasutatakse selle näite puhul.  
-8. Klõpsake nuppu OK.
+7. Klõpsake loendis valitud real olevat linki. Vaikimisi **Konfiguratsioonitehnoloogiaks** on „Eelmääratletud variant”. Seda kasutatakse selle näite puhul.
+8. Klõpsake valikut **OK**.
 
 ## <a name="select-product-dimension-groups"></a>Tootedimensiooni gruppide valimine
-1. Klõpsake väljal Värvigrupp otsingu avamiseks ripploendi nuppu.
+1. Klõpsake väljal **Värvigrupp** otsingu avamiseks ripploendi nuppu.
 2. Otsige loendist ja valige soovitud kirje.
 3. Klõpsake loendis valitud real olevat linki.
-4. Klõpsake väljal Suuruse grupp otsingu avamiseks ripploendi nuppu.
+4. Klõpsake väljal **Suuruse grupp** otsingu avamiseks ripploendi nuppu.
 5. Otsige loendist ja valige soovitud kirje.
 6. Klõpsake loendis valitud real olevat linki.
 
 ## <a name="add-dimension-groups"></a>Dimensioonigruppide lisamine
-1. Klõpsake toimingupaanil suvandit Toode.
-2. Klõpsake rippdialoogi avamiseks suvandit Dimensioonigrupid.
-3. Klõpsake väljal Laoala dimensiooni grupp otsingu avamiseks ripploendi nuppu.
-    * Laoala dimensioonid aitavad reguleerida kaupade ladustamist ja laost väljastamist. Näiteks saab laoala dimensioon hõlmata tegevuskohta ja ladu.  
+1. Klõpsake **toimingupaanil** suvandit **Toode**.
+2. Klõpsake rippdialoogi avamiseks suvandit **Dimensioonigrupid**.
+3. Klõpsake väljal **Laoala dimensiooni grupp** otsingu avamiseks ripploendi nuppu. Laoala dimensioonid aitavad reguleerida kaupade ladustamist ja laost väljastamist. Näiteks saab laoala dimensioon hõlmata tegevuskohta ja ladu.
 4. Otsige loendist ja valige soovitud kirje.
 5. Klõpsake loendis valitud real olevat linki.
-6. Klõpsake väljal Jälgimisdimensiooni grupp otsingu avamiseks ripploendi nuppu.
-    * Jälgimisdimensioonigrupp määratleb, milliseid jälgimisdimensioone saate tootele lisada. Näiteks kasutatakse laokaupade jälgimiseks partiinumbrit ja seerianumbrit.  
+6. Klõpsake väljal **Jälgimisdimensiooni grupp** otsingu avamiseks ripploendi nuppu. Jälgimisdimensioonigrupp määratleb, milliseid jälgimisdimensioone saate tootele lisada. Näiteks kasutatakse laokaupade jälgimiseks partiinumbrit ja seerianumbrit.
 7. Otsige loendist ja valige soovitud kirje.
 8. Klõpsake loendis valitud real olevat linki.
-9. Klõpsake nuppu OK.
-10. Klõpsake nuppu Salvesta.
+9. Klõpsake valikut **OK**.
+10. Klõpsake valikut **Salvesta**.
 11. Sulgege leht.
 

@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (16. aprill, 2019)?
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (16. aprill, 2019)?
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517781"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024133"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (16. aprill, 2019)?
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (16. aprill, 2019)?
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="changes-in-attract"></a>Muutused Attractis
 
@@ -39,7 +39,7 @@ Saate nüüd jälgida kandidaatide, vabadele töökohtadele ja tööavaldustele 
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
 
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Onboard veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 
@@ -47,11 +47,11 @@ Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2239. Sulgudes ole
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Hüvituspiirkond ja -tase, soodustussuvand ja oskustüübi üksused on Common Data Service'is värskendatud, et kaasata kliendiväljatugi
 
-Selle väljaandes on need Common Data Service'i üksused värskendatud, et võimadada kohaldatud välja kaasamist Talenti (Core HR) kaudu.
+Selle väljaandes on need Common Data Service’i üksused värskendatud, et võimadada kohaldatud välja kaasamist Talenti: Core HR kaudu.
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Uus Common Data Service'i üksuse tugi: hüvitise pensionireeglid, kompensatsiooni tulemusplaan, egutussüsteem
 
-Selles väljaandes on lisatud hüvitise pensionireeglite, kompensatsiooni tulemusplaani ja ergutussüsteemi üksused Common Data Service'ile. Need üksused toetavad ka kohandatud välju, mis on lisatud Talenti (Core HR) kaudu.
+Selles väljaandes on lisatud hüvitise pensionireeglite, kompensatsiooni tulemusplaani ja ergutussüsteemi üksused Common Data Service'ile. Need üksused toetavad ka kohandatud välju, mis on lisatud Talenti: HR kaudu.
 
 ### <a name="powerbi-refresh-issues-314342"></a>PowerBI värskendamise probleemid (314342)
 
@@ -95,6 +95,6 @@ Selle muudatusega tuvastatakse nimeväljade sisestamisel duplikaadid ja olek nä
 
 ### <a name="email-support-for-alerts"></a>E-posti tugi teatistele
 
-Platvormi värskendusega 25 saavad kasutajad luua teavituse reegleid, mis saadavad kontaktidele automaatselt sündmuse käivitatud meiliteateid.
+Finance and Operationsi platvormi 25. uuendusega saavad kasutajad luua alarmide reegleid, mis saadavad sündmuse poolt käivitades automaatselt kontaktidele meiliteavitusi.
 
 

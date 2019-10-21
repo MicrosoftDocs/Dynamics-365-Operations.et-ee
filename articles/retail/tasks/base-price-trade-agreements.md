@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8138b6144cc6ba09834f2bfb61cc7334767307d6
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 45d3d962958d0487c9e65910a2dce24097a83773
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916549"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017754"
 ---
 # <a name="base-price-and-trade-agreements"></a> Alushind ja kaubanduslepped
 
@@ -56,7 +56,7 @@ See protseduur juhendab kanalispetsiifiliste müügihinna kaubanduslepete loomis
 24. Klõpsake **Loo kaubanduslepe**.
 25. Klõpsake valikut **Uus**.
 26. Klõpsake väljal **Nimi** otsingu avamiseks ripploendi nuppu.
-27. Valige loendist Retail (Jaemüük). Demoandmetes on Jaemüügi töölehe nimi vaikimisi seotud müügihinnaga. See tähendab, et kõik uued loodud read lülituvad vaikimisi kaubanduslepete kohastele müügihindadele.  
+27. Valige loendist **Retail**. Demoandmetes on **Jaemüügi** töölehe nimi vaikimisi seotud **Müügihinnaga**. See tähendab, et kõik uued loodud read lülituvad vaikimisi kaubanduslepete kohastele müügihindadele.  
 28. Klõpsake paanil **Tegevuspaan** valikut **Read**.
 29. Väljal **Konto kood** valige 'Grupeeri'.
 30. Klõpsake väljal **Konto valik** otsingu avamiseks ripploendi nuppu.

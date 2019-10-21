@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85afddb34f29e13e17f2b93bb2633183a78e31f7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 462d35ebf1015ace032c523a4efe92bc7594ba3c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559804"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026917"
 ---
 # <a name="mobile-bar-code-support"></a>Mobiilse vöötkoodi tugi
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559804"
 Kuna Android on avatud lähtekoodiga projekt, võib mis tahes lao vöötkoodiskannerite tootja luua seadme, mis käitab Android operatsioonisüsteemi. Seade ühildub Androidiga ainult juhul, kui see võimaldab käitada Androidi täitmiskeskkonna jaoks kirjutatud rakendusi.
 Siiski võib riistvarahankija muuta ja luua ülekatteid Androidi versiooni jaoks, mis töötab tema riistvaras. Microsoft ei saa tagada, et Android-seadmele mõeldud vöötkoodide skannimise rakendus ühildub tootja vöötkoodide skannimise riistvara ja selles töötava Androidi versiooniga. 
 
-Microsoft Dynamics 365 for Finance and Operationsi rakendust Ladustamine on katsetatud valiku Androidi-põhiste seadmetega vöötkoodi skannimiseks. Need testid hõlmavad ainult mõningaid turul olevaid seadmeid.
+Rakendust Dynamics 365 Supply Chain Management – Ladustamine on katsetatud valiku Android-seadmetega vöötkoodi skannimiseks. Need testid hõlmavad ainult mõningaid turul olevaid seadmeid.
 
 Enne kui otsustate, millist riistvara osta, soovitame teil testida lao skannimisrakendust valitud riistvaraga testida.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595607"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249380"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
 
@@ -37,12 +37,12 @@ Suhtluse seadistamiseks peab teie hankija andma teabeühikud, mida saate kasutad
 
 ## <a name="setting-up-an-external-catalog"></a>Välise kataloogi seadistamine
 
-Väline kataloog peaks võimaldama suunata ostutaotlusse siseneva töötaja toodete valimiseks ümber välisele saidile. Tooted, mille töötaja välisest kataloogist valib, tagastatakse Dynamics 365 for Finance and Operationsisse ajakohase hinnateabega ja sealt lisatakse need ostutaotlusele. Eesmärk on see, et kasutajad ei saaks väliselt saidilt tellimust esitada. Välise kataloogi seadistamisel peate veenduma, et välise kataloogi kaudu kasutatava saidi eesmärk oleks koguda hinnapakkumise andmeid ja mitte esitada tegelikku tellimust.
+Väline kataloog peaks võimaldama suunata ostutaotlusse siseneva töötaja toodete valimiseks ümber välisele saidile. Tooted, mille töötaja välisest kataloogist valib, tagastatakse ajakohase hinnateabega ja sealt lisatakse need ostutaotlusele. Eesmärk on see, et kasutajad ei saaks väliselt saidilt tellimust esitada. Välise kataloogi seadistamisel peate veenduma, et välise kataloogi kaudu kasutatava saidi eesmärk oleks koguda hinnapakkumise andmeid ja mitte esitada tegelikku tellimust.
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Välise hankija kataloogi seadistamiseks täitke järgmised ülesanded.
 
 1. Hankekategooria hierarhia seadistamine. Lisateavet leiate jaotisest [Hankekategooria hierarhiate poliitikate seadistamine](tasks/set-up-policies-procurement-category-hierarchies.md).
-2. Registreerige hankija Finance and Operationsis. Enne kui saate seadistada konfiguratsioone välisesse hankija kataloogi pääsemiseks, peate seadistama Microsoft Dynamics 365-s hankija ja hankija kontakti. Välise kataloogi hankija tuleb lisada ka valitud hankekategooriasse. Lisateavet hankijate registreerimise kohta Microsoft Dynamics 365-s vt teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md). Teavet hankijate määramise kohta hankekategooriasse leiate jaotisest [Konkreetsetele hankekategooriatele hankijate kinnitamine](tasks/approve-vendors-specific-procurement-categories.md).
+2. Registreerige tarnija rakenduses Supply Chain Management. Enne kui saate seadistada konfiguratsioone välisesse hankija kataloogi pääsemiseks, peate seadistama Microsoft Dynamics 365-s hankija ja hankija kontakti. Välise kataloogi hankija tuleb lisada ka valitud hankekategooriasse. Lisateavet hankijate registreerimise kohta vt teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md). Teavet hankijate määramise kohta hankekategooriasse leiate jaotisest [Konkreetsetele hankekategooriatele hankijate kinnitamine](tasks/approve-vendors-specific-procurement-categories.md).
 3. Veenduge, et oleks seadistatud mõõtühikud ja valuuta, mida hankija kasutab. Teavet mõõtühiku loomise kohta vaadake jaotisest [Mõõtühikute haldamine](../pim/tasks/manage-unit-measure.md).
 4. Konfigureerige väline hankija kataloog, kasutades oma hankija välise kataloogisaidi nõudeid. Lisateavet selle ülesande kohta vt teemast [Välise hankija kataloogi konfigureerimine](#configure-the-external-vendor-catalog).
 5. Testige hankija välise kataloogi konfiguratsioone kontrollimiseks, et sätted oleksid kehtivad ja et pääseksite hankija välisesse kataloogi. Kasutage toimingut **Sätete valideerimine** määratletud taotluse seadistussõnumi valideerimiseks. See sõnum peab põhjustama hankija välise kataloogisaidi avamise brauseriaknas. Kinnitamise ajal ei saa sellelt hankijalt kaupu ja teenuseid tellida. Kaupade ja teenuste tellimiseks peate minema ostutaotlusest hankija kataloogi.
@@ -90,9 +90,9 @@ Teie hankijal võib olla nõue välise elemendi vastuvõtmise kohta seadistustao
 Lisateavet cXML-protokolli kohta leiate [veebisaidilt cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Tagasisisestamise teade
-Tagasisisestamise teade on teade, mis saadakse hankijalt, kui kasutaja logib väliselt saidilt välja ja naaseb rakendusse Finance and Operations. Tagasisisestamise teateid ei saa konfigureerida. Need teated põhinevad cXML-protokolli definitsioonil. Siin on teave, mis võib kuuluda ostutaotluse real saadud tagasisisestuse teatesse.
+Tagasisisestamise teade on teade, mis saadakse hankijalt, kui kasutaja logib väliselt saidilt välja ja naaseb rakendusse Supply Chain Management. Tagasisisestamise teateid ei saa konfigureerida. Need teated põhinevad cXML-protokolli definitsioonil.Siin on teave, mis võib kuuluda ostutaotluse real saadud tagasisisestuse teatesse.
 
-| Hankijalt saadud teade | Kopeeritud ostutaotluse reale rakenduses Finance and Operations|
+| Hankijalt saadud teade | Kopeeritud taotluse reale|
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity=”” > |Kogus|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|Välise kauba ID|

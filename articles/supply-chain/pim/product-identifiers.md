@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546221"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250595"
 ---
 # <a name="product-identifiers"></a>Toote identifikaatorid 
 
@@ -36,13 +36,13 @@ Kui töötate rakenduses Microsoft Dynamics ERP või Microsoft Dynamics CRM kaup
 
 ## <a name="unique-product-numberproduct-id"></a>Kordumatu tootenumber / toote ID
 
-Rakenduses Microsoft Dynamics 365 for Finance and Operations on toote peamine identifikaator tootenumber (ehk toote kordumatu ID). Selle numbri saab lasta numbriseerial automaatselt luua või selle saab tootega käsitsi siduda. Tootevariantide jaoks saab numbrid määratleda tootenomenklatuuri malli kaudu.
+Rakenduses Dynamics 365 Supply Chain Management on toote peamine identifikaator tootenumber (ehk toote kordumatu ID). Selle numbri saab lasta numbriseerial automaatselt luua või selle saab tootega käsitsi siduda. Tootevariantide jaoks saab numbrid määratleda tootenomenklatuuri malli kaudu.
 
-Paljudel juhtudel pole tootenumber algselt loodud rakenduses Finance and Operations. Selle asemel on see seotud tootega toote elutsükli halduse (PLM) süsteemis või toote teabehalduse (PDM) süsteemis. Sel juhul saate toodete ja tootevariantide importimiseks kasutada andmeüksuseid. Finance and Operations kasutab seejärel numbreid kõigis toimingutes.
+Paljudel juhtudel pole tootenumber algselt loodud rakenduses Dynamics 365 Supply Chain Management. Selle asemel on see seotud tootega toote elutsükli halduse (PLM) süsteemis või toote teabehalduse (PDM) süsteemis. Sel juhul saate toodete ja tootevariantide importimiseks kasutada andmeüksuseid. Tarneahela haldus kasutab seejärel kõigi operatsioonide numbreid.
 
-Kui juurutate rakendust Finance and Operations, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Hea toote identifikaator sisaldab kuni 15 tähemärki. Ideaaljuhul sisaldab see vähem kui 10 tähemärki ja kuni viis liigitavat tähemärki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
+Kui juurutate rakendust Tarneahela haldus, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Hea toote identifikaator sisaldab kuni 15 tähemärki. Ideaaljuhul sisaldab see vähem kui 10 tähemärki ja kuni viis liigitavat tähemärki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
 
-Kui kasutate teenust Common Data Service (CDS), on rakenduses Finance and Operations olev tootenumber ka CDS-is olev tootenumber. Tootevariandid sünkroonitakse CDS-iga eristatavate toodetena.
+Kui kasutate Common Data Service, siis on ka toote number Tarneahela halduses ka toote number Common Data Service-is. Tootevariandid sünkroonitakse Common Data Service-iga eristatavate toodetena.
 
 ## <a name="item-number-and-product-dimensions"></a>Kaubakood ja tootedimensioonid
 
@@ -56,19 +56,19 @@ Peale selle saate otsida ja filtreerida tootenumbrit, toote nime ja kirjeldust n
 
 ## <a name="product-name-and-description"></a>Toote nimi ja kirjeldus
 
-Toote nimi ja kirjeldus on toote identifikaatorid, mida näevad inimesed ja mida saab esitada mitmes keeles. Vaikimisi kuvab rakenduse Finance and Operations klient kogu tooteteabe ettevõtte vaikekeeles, mitte kasutaja keeles. Kuid suhtluses klientide ja hankijatega kasutatakse tõlgitud tootenimesid ja kirjeldusi. Tõlked põhinevad kliendi ja hankija kontode keelekoodil.
+Toote nimi ja kirjeldus on toote identifikaatorid, mida näevad inimesed ja mida saab esitada mitmes keeles. Vaikimisi kuvab rakenduse Tarneahela haldus klient kogu tooteteabe ettevõtte vaikekeeles, mitte kasutaja keeles. Kuid suhtluses klientide ja hankijatega kasutatakse tõlgitud tootenimesid ja kirjeldusi. Tõlked põhinevad kliendi ja hankija kontode keelekoodil.
 
 Tootevariantide jaoks saab tootenimesid luua tootenomenklatuuri malli kaudu. Kuna tootenimed ei pea olema kordumatud, võite leida mitu sama nimega toodet.
 
 ## <a name="product-and-item-search-names"></a>Toote ja kauba otsingunimed
 
-Finance and Operations pakub toodete ja kaupade (väljastatud tooted) jaoks teisest otsingunime. See otsingunimi ei pea olema kordumatu ja seda saab pärast toote või tootevariandi loomist muuta. Soovitame kasutada otsingunime toodete otsimiseks kategooriate kaupa. Otsingunimed võimaldavad kasutada kiirotsinguid, eriti müügi ja ostu protsessides.
+Tarneahela haldus pakub toodete ja kaupade (väljastatud tooted) jaoks teisest otsingunime. See otsingunimi ei pea olema kordumatu ja seda saab pärast toote või tootevariandi loomist muuta. Soovitame kasutada otsingunime toodete otsimiseks kategooriate kaupa. Otsingunimed võimaldavad kasutada kiirotsinguid, eriti müügi ja ostu protsessides.
 
 Otsingunimi võib sisaldada ka kliendi või hankija toote ID-d või mõnda muud välist toote ID-d, kui see väline ID on toote peamine otsingukriteerium.
 
 ## <a name="external-product-identifiers-customer-and-vendor-identifiers"></a>Välised tooteidentifikaatorid (kliendi ja hankija identifikaatorid)
 
-Väljastatud toodete jaoks saate hallata kaubakoode, kauba nimesid ja kauba kirjeldusi, mida klient või hankija kasutab. Viited kuvatakse välistel dokumentidel, nagu müügitellimused, ostutellimused, saatelehed ja arved. Rakenduse Finance and Operations praeguses versioonis ei kuvata väliseid viiteid põhitoimingute lehtedel. Ainsaks erandiks on hankija kaubakood. See number kuvatakse dialoogiboksis **Tooteteave**, kui väljastatud toote jaoks on määratud vaikehankija.
+Väljastatud toodete jaoks saate hallata kaubakoode, kauba nimesid ja kauba kirjeldusi, mida klient või hankija kasutab. Viited kuvatakse välistel dokumentidel, nagu müügitellimused, ostutellimused, saatelehed ja arved. Rakenduse Tarneahela haldus praeguses versioonis ei kuvata väliseid viiteid põhitoimingute lehtedel. Ainsaks erandiks on hankija kaubakood. See number kuvatakse dialoogiboksis **Tooteteave**, kui väljastatud toote jaoks on määratud vaikehankija.
 
 Saate hallata väliseid toote identifikaatoreid väljastatud toote, väljastatud tootevariandi, kliendi või kliendigrupi või hankija või hankijagrupi kaupa.
 
@@ -77,7 +77,7 @@ Lehel **Väljastatud tooted** tehke üht järgmistest.
 - Klientide jaoks valige vahekaardil **Müük** grupis **Seostuv teave** suvand **Väline kaubakirjeldus**.
 - Hankijate jaoks valige vahekaardil **Ost** grupis **Seostuv teave** suvand **Väline kaubakirjeldus**.
 
-Lehel **Välised kaubakirjeldused** saate seostada kliendi või hankija kaubakoodi väljastatud tootega. See seos tuleb luua iga juriidilise isiku jaoks. Järgmist teavet saab salvestada. Kahjuks on sildid rakenduse Finance and Operations praeguses versioonis veidi eksitavad. Kuid neid silte võidakse tulevases versioonis muuta.
+Lehel **Välised kaubakirjeldused** saate seostada kliendi või hankija kaubakoodi väljastatud tootega. See seos tuleb luua iga juriidilise isiku jaoks. Järgmist teavet saab salvestada. Kahjuks on sildid rakenduse Tarneahela haldus praeguses versioonis veidi eksitavad. Kuid neid silte võidakse tulevases versioonis muuta.
 
 | Väli | Vastav klienditeave | Vastav hankijateave |
 |-------|------------------------------------|----------------------------------|
@@ -104,15 +104,15 @@ Vöötkoodide haldamiseks valige lehel **Väljastatud tooted** vahekaardil **Hal
 
 e-Commerce’is on oluline, et kõik osapooled räägiksid ühist keelt ja viitaksid toodetele ühist identifikaatorite kogumit kasutades. Seetõttu tuginevad mõned tööstusharud süsteemile [GTIN](https://www.gs1.org/id-keys/gtin), mis on globaalne kaubakoodide süsteem, mida pakub GS1.
 
-Rakenduses Finance and Operations soovitame hallata GTIN-i vöötkoodina. Kuid saate seda hallata ka lehel **Kaup – GTIN**. Selle lehe avamiseks valige lehel **Väljastatud tooted** vahekaardil **Halda varusid** grupis **Ladu** suvand **GTIN-koodid**. Pange tähele, et GTIN-i ei hallata globaalse numbrina. Selle asemel haldab seda juriidiline isik.
+Soovitame GTIN säilitada kui vöötkood. Kuid saate seda hallata ka lehel **Kaup – GTIN**. Selle lehe avamiseks valige lehel **Väljastatud tooted** vahekaardil **Halda varusid** grupis **Ladu** suvand **GTIN-koodid**. Pange tähele, et GTIN-i ei hallata globaalse numbrina. Selle asemel haldab seda juriidiline isik.
 
-Rakenduses Finance and Operations saate laotoimingutes määratleda pakendamisvariandid, määrates kindlad mõõtühikud. Näiteks võib kaup olla ladustatud tükkidena, kuueste komplektidena, 18 kaupa sisaldavate alustena või täis kaubaalustena. Iga pakendamisvariandi jaoks määratletakse kindel mõõtühik. Kuna GTIN on tavaliselt seotud toote pakendamisüksusega, saate lehel **Kaup – GTIN** hallata erinevaid GTIN-koode toote ja mõõtühiku kohta. Siiski ei saa te sama GTIN-koodi kasutada juriidilise isiku erinevate kaupade või tootevariantide jaoks rohkem kui üks kord.
+Rakenduses Tarneahela haldus saate laotoimingutes määratleda pakendamisvariandid, määrates kindlad mõõtühikud. Näiteks võib kaup olla ladustatud tükkidena, kuueste komplektidena, 18 kaupa sisaldavate alustena või täis kaubaalustena. Iga pakendamisvariandi jaoks määratletakse kindel mõõtühik. Kuna GTIN on tavaliselt seotud toote pakendamisüksusega, saate lehel **Kaup – GTIN** hallata erinevaid GTIN-koode toote ja mõõtühiku kohta. Siiski ei saa te sama GTIN-koodi kasutada juriidilise isiku erinevate kaupade või tootevariantide jaoks rohkem kui üks kord.
 
 **GTIN-koodide** haldamiseks valige lehel **Väljastatud tooted** vahekaardil **Halda varusid** grupis **Ladu** suvand **GTIN**.
 
 ## <a name="external-codes"></a>Välised koodid
 
-Väliseid koode saab rakenduses Finance and Operations määratleda mitme üksuse jaoks. Näiteks saate määratleda väliseid koode toodete ja väljastatud toodete tuvastamiseks. Neid väliseid koode saab kasutada statistiliste koodide või maksukoodide seostamiseks väljastatud toodete ja väljastatud tootevariantidega. Väliseid koode määratletakse juriidilise isiku ja koodi tüübi järgi. Neil peab olema kordumatu juriidiline isik, koodi tüüp ja tabeli viide.
+Mitmele üksusele saab määrata väliskoode. Näiteks saate määratleda väliseid koode toodete ja väljastatud toodete tuvastamiseks. Neid väliseid koode saab kasutada statistiliste koodide või maksukoodide seostamiseks väljastatud toodete ja väljastatud tootevariantidega. Väliseid koode määratletakse juriidilise isiku ja koodi tüübi järgi. Neil peab olema kordumatu juriidiline isik, koodi tüüp ja tabeli viide.
 
 Kahjuks pole standardfunktsiooni, mis võimaldaks tooteid otsida väliste koodide järgi.
 
@@ -136,13 +136,13 @@ Kahjuks pole standardfunktsiooni, mis võimaldaks tooteid otsida väliste koodid
 
 ### <a name="product-and-item-number-sequences"></a>Toote ja kauba numbriseeriad
 
-Rakenduses Finance and Operations saate määratleda kaks erinevat numbriseeriat.
+Saate määratleda kaks erinevat numbriseeriat:
 
 - Numbriseeria **Tootenumber** globaalse tootenumbri jaoks.
 - Numbriseeria **Kaubakood** juriidilise isiku kohta kehtiva kaubakoodi jaoks.
 
 > [!NOTE]
-> Kasutage kaubakoodi eraldi identifikaatorina ainult siis, kui migreerite erinevaid juriidilisi isikuid erinevatest allikatest, millel olid erinevad nummerdamissüsteemid. Proovige alati kasutada toote identifikaatorit, mis on kõigis juriidilistes isikutes kordumatu. Seetõttu peaksite numbriseeria **Kaubakood** jaoks suvandi **Käsitsi** väärtuseks määrama **Jah**. Sel viisil järgib kaubakood loomisel tootenumbrit. Kui Finance and Operations ei ole uute tootenumbrite jaoks juhtiv süsteem, peaksite suvandi **Käsitsi** väärtuseks määrama **Jah** nii numbriseeria **Kaubakood** kui ka **Tootenumber** korral.
+> Kasutage kaubakoodi eraldi identifikaatorina ainult siis, kui migreerite erinevaid juriidilisi isikuid erinevatest allikatest, millel olid erinevad nummerdamissüsteemid. Proovige alati kasutada toote identifikaatorit, mis on kõigis juriidilistes isikutes kordumatu. Seetõttu peaksite numbriseeria **Kaubakood** jaoks suvandi **Käsitsi** väärtuseks määrama **Jah**. Sel viisil järgib kaubakood loomisel tootenumbrit. Kui Supply Chain Management ei ole uute tootenumbrite jaoks juhtiv süsteem, peaksite suvandi **Käsitsi** väärtuseks määrama **Jah** nii numbriseeria **Kaubakood** kui ka **Tootenumber** korral.
 
 Kui kasutate toodete loomiseks üksust **Väljastatud toode V2**, võivad mitu sätet mõjutada seda, kuidas numbriseeriaid kasutatakse tootenumbri ja kaubakoodi loomiseks:
 

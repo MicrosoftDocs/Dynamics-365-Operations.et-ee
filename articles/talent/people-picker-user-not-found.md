@@ -1,6 +1,6 @@
 ---
 title: Kasutajat ei leitud Attractis või Onboardis inimeste valijast
-description: Selles teemas selgitatakse, mida teha, kui ettevõtte rentnikus olevaid kasutajaid ei kuvata rakendustes Dynamics 365 for Talent Attract või Onboard inimeste valijas.
+description: 'Selles teemas selgitatakse, mida teha, kui ettevõtte rentnikus olevaid kasutajaid ei kuvata rakendustes Dynamics 365 Talent: Attract või Onboard inimeste valijas.'
 author: andreabichsel
 manager: AnnBe
 ms.date: 01/22/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 2a3c83fcc3f48aa235ffb2db2dc492b34a306c4c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742745"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024183"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>Azure Active Directory kasutajaid ei leitud inimeste valijast
 
@@ -30,7 +30,7 @@ ms.locfileid: "1742745"
 
 ## <a name="issue"></a>Väljastamine
 
-Microsoft Azure Active Directorys (Azure AD) ei kuvata rentniku puhul teatud kehtivaid kasutajaid, kui rakenduses Dynamics 365 for Talent Attract või Onboard otsitakse inimeste valijas kasutajaid nime järgi.
+Microsoft Azure Active Directorys (Azure AD) ei kuvata rentniku puhul teatud kehtivaid kasutajaid, kui rakenduses Dynamics 365 Talent: Attract või Dynamics 365 Talent: Onboard otsitakse inimeste valijas kasutajaid nime järgi.
 
 ## <a name="cause"></a>Põhjus
 

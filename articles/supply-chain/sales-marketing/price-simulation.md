@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fe8c4bc8f2efb06de4cb6fd727df93ba1a5d14bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554640"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251336"
 ---
 # <a name="price-simulation"></a>Hinnasimulatsioon
 
@@ -51,7 +51,7 @@ Et tagada allahindluste ja hindade õige arvestamine, olge allahindlusega pakkum
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Allahindluste tüübid kaubanduslepetes
 
-Kaubanduslepped Microsoft Dynamics 365 for Finance and Operations hõlmavad nelja allahindluse tüüpi. Neid allahindlusi saab kasutada erinevate kaupade, klientide või hinnagruppide puhul ning neid saab piirata kuupäevaga. Valearvestuste vältimiseks peab hinnasimulatsioonide tegemisel kaubandusleppeid arvestama. Siin on nelja tüüpi allahindlused kaubanduslepetes.
+Kaubanduslepped Tarneahela haldamises hõlmavad nelja allahindluse tüüpi. Neid allahindlusi saab kasutada erinevate kaupade, klientide või hinnagruppide puhul ning neid saab piirata kuupäevaga. Valearvestuste vältimiseks peab hinnasimulatsioonide tegemisel kaubandusleppeid arvestama. Siin on nelja tüüpi allahindlused kaubanduslepetes.
 
 -   **Müügihind** – kaupadele saab määrata eraldi müügihinnad. Pakkumise ridade loomisel otsib programm õiget kauba müügihinda ja kannab selle pakkumise ridadele. Seetõttu ei mõjuta sellise allahindlusega kaubanduslepe hinnasimulatsiooni. Pakkumise real kasutatav müügihind kajastab kaubanduslepet.
 -   **Rea allahindlus** – kaupadele määratakse spetsiaalsed allahindlused, olenevalt tellitud kogusest. Rea summasid vähendatakse harilikult rea allahindluse võrra enne hinnasimulatsiooni tegemist. Seetõttu mõjutab sellise allahindlusega kaubanduslepe hinnasimulatsiooni.

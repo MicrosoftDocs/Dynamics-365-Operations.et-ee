@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b6555086d6c86c17b501af9d4d8155e9c08a447
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 14b0661c4c1fa8f2bc197a8a3983b71d73199b2a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536545"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251542"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete seadistamine laotöö jaoks
 
@@ -163,7 +163,7 @@ Saate seadistada menüüelemendi, mis loob töö teisele töötajale pärast sed
 </tr>
 <tr>
 <td>Teisaldus malli alusel</td>
-<td>Teisaldage kaubad poolautomaatselt ühest asukohast teise. Töötaja valib asukoha, kust kaupu teisaldada, ja Finance and Operations kasutab asukohakorraldust, et määrata, kuhu need teisaldada.</td>
+<td>Teisaldage kaubad poolautomaatselt ühest asukohast teise. Töötaja valib asukoha, kust kaupu teisaldada, ja süsteem kasutab asukohakorraldust, et määrata, kuhu need teisaldada.</td>
 </tr>
 <tr>
 <td>Edastus laos</td>
@@ -207,12 +207,12 @@ Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada men
 </thead>
 <tbody>
 <tr class="odd">
-<td>Pole</td>
+<td>Puudub</td>
 <td>See vaikeväärtus e&#39;i töötle tööd.</td>
 </tr>
 <tr class="even">
 <td>Süsteemi suunatud</td>
-<td>Microsoft Dynamics 365 for Finance and Operations juhib töötajale määratud töö tüüpi ja järjekorda. Selle suvandi valimisel saate klõpsata toimingupaanil valikut <strong>Süsteemi suunatud töö</strong>, et avada leht <strong>Süsteemi suunatud sortimisjärjestus</strong>, kus saate seadistada töö sortimiskriteeriumid. Sortimiskriteeriumid määravad järjestuse, milles töötaja teeb tööd. Saate lisada nii palju kriteeriume kui vaja.</td>
+<td>Supply Chain Management juhib töötajale määratud töö tüüpi ja järjekorda. Selle suvandi valimisel saate klõpsata toimingupaanil valikut <strong>Süsteemi suunatud töö</strong>, et avada leht <strong>Süsteemi suunatud sortimisjärjestus</strong>, kus saate seadistada töö sortimiskriteeriumid. Sortimiskriteeriumid määravad järjestuse, milles töötaja teeb tööd. Saate lisada nii palju kriteeriume kui vaja.</td>
 </tr>
 <tr class="odd">
 <td>Kasutaja suunatud</td>
@@ -224,7 +224,7 @@ Peale laotöö loomise jaoks menüüelementide seadistamise saate seadistada men
 </tr>
 <tr class="odd">
 <td>Süsteemi rühmitamine</td>
-<td>Microsoft Dynamics 365 for Finance and Operations rühmitab töötaja jaoks töö määratud välja järgi. Näiteks rühmitatakse tööd, kui töötaja skannib saadetise ID, koorma ID või mis tahes väärtuse, millega saab tööüksusi seostada. Selle valiku valimisel on kohustuslikud järgmised väljad.
+<td>Supply Chain Management rühmitab töötaja jaoks töö määratud välja järgi. Näiteks rühmitatakse tööd, kui töötaja skannib saadetise ID, koorma ID või mis tahes väärtuse, millega saab tööüksusi seostada. Selle valiku valimisel on kohustuslikud järgmised väljad.
 <ul>
 <li><strong>Süsteemi rühmitusväli</strong> – valige väli, mida töötaja skannib töö rühmitamiseks.</li>
 <li><strong>Süsteemi rühmitussilt</strong> – sisestage tekst töötaja juhendamiseks, mida on töö rühmitamiseks vaja skannida.</li>
@@ -245,7 +245,7 @@ See suvand on kasulik näiteks siis, kui koorma jaoks kasutatakse mitut kaubaalu
 </tr>
 <tr class="even">
 <td>Tsüklilise inventuuri rühmitamine</td>
-<td>Töötaja valib tsooni, töökausta või asukoha ja Microsoft Dynamics 365 for Finance and Operations määrab töö valiku järgi. Kui valite selle valiku, võite klõpsata ka toimingupaanil suvandit <strong>Tsükliline inventuur</strong>, et määrata kuvatav lisateave ja samuti see, mitu korda peab töötaja erinevuse leidmisel inventuuri kordama.</td>
+<td>Töötaja valib tsooni, töökausta või asukoha ja Supply Chain Management määrab töö valiku järgi. Kui valite selle valiku, võite klõpsata ka toimingupaanil suvandit <strong>Tsükliline inventuur</strong>, et määrata kuvatav lisateave ja samuti see, mitu korda peab töötaja erinevuse leidmisel inventuuri kordama.</td>
 </tr>
  <tr class="odd">
 <td>Transpordi laadimine</td>
@@ -333,7 +333,7 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="odd">
 <td>Grupi kõrvalepanek</td>
-<td>Valige see suvand paigutustöö rühmitamiseks. See valik on saadaval, kui töö rühmitas töötaja või Microsoft Dynamics 365 for Finance and Operations. Kui töötaja on lõpetanud kõik grupis olevad komplekteerimistööd, luuakse sama grupi jaoks paigutamistöö.</td>
+<td>Valige see suvand paigutustöö rühmitamiseks. See suvand on saadaval, kui töö rühmitas töötaja või Supply Chain Management. Kui töötaja on lõpetanud kõik rühma komplekteerimistööd, luuakse paigutamistöö sama rühma jaoks.</td>
 </tr>
 <tr class="even">
 <td>Varude korrigeerimistüübid</td>
@@ -366,11 +366,11 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="even">
 <td>Süsteemi rühmitusväli</td>
-<td>Valige väli, mis määrab, kuidas Microsoft Dynamics 365 for Finance and Operations komplekteerimistööd töötajate jaoks rühmitab. Kui valite näiteks välja <strong>ShipmentId</strong>, skannib töötaja komplekteerimistöö rühmitamiseks saadetise ID. Seejärel määratakse kogu saadetisega seotud töö töötajale. Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd. Peate ka sisestama teksti väljale <strong>Süsteemi rühmitussilt</strong> töötaja juhendamiseks, mida on töö rühmitamiseks vaja skannida.</td>
+<td>Valige väli, mis määratleb, kuidas Supply Chain Management rühmitab töötajate jaoks komplekteerimistöö. Kui valite näiteks välja <strong>ShipmentId</strong>, skannib töötaja komplekteerimistöö rühmitamiseks saadetise ID. Seejärel määratakse kogu saadetisega seotud töö töötajale. Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd. Peate ka sisestama teksti väljale <strong>Süsteemi rühmitussilt</strong> töötaja juhendamiseks, mida on töö rühmitamiseks vaja skannida.</td>
 </tr>
 <tr class="odd">
 <td>Süsteemi rühmitussilt</td>
-<td>Sisestage tekst töötaja juhendamiseks, mida skannida, kui Microsoft Dynamics 365 for Finance and Operations rühmitab komplekteerimistöö. Kui kasutat&#39;e näiteks komplekteerimistöö rühmitamiseks saadetise järgi välja <strong>ShipmentId</strong>, võib vajalik olla väljale <strong>Saadetise ID</strong> sisestamine. Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd. Peale selle peate valima väljal <strong>Süsteemi rühmitamisväli</strong> rühmitamise aluseks oleva välja.</td>
+<td>Sisestage tekst töötaja juhendamiseks, mida skannida, kui Supply Chain Management rühmitab komplekteerimistöö. Kui kasutat&#39;e näiteks komplekteerimistöö rühmitamiseks saadetise järgi välja <strong>ShipmentId</strong>, võib vajalik olla väljale <strong>Saadetise ID</strong> sisestamine. Selleks peate looma menüüelemendi, et kasutada süsteemi rühmitatud olemasolevat tööd. Peale selle peate valima väljal <strong>Süsteemi rühmitamisväli</strong> rühmitamise aluseks oleva välja.</td>
 </tr>
 <tr class="even">
 <td>Kasuta vaikeandmeid</td>
@@ -386,13 +386,13 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="odd">
 <td>Töömalli kood</td>
-<td>Valige töömall, mis loob protsessi jaoks töö. Näiteks kui võtate ostutellimuse jaoks kauba vastu, luuakse töömalli alusel paigutamistöö. Kui te töömalli e&#39;i vali, määrab Microsoft Dynamics 365 for Finance and Operations malli päringukriteeriumide alusel. Töömallide kohta lisateabe saamiseks vaadake jaotist <a href="control-warehouse-location-directives.md">Laotöö juhtimine töömallide ja asukohadirektiividega</a>.</td>
+<td>Valige töömall, mis loob protsessi jaoks töö. Näiteks kui võtate ostutellimuse jaoks kauba vastu, luuakse töömalli alusel paigutamistöö. Kui te töömalli &#39;ei vali, määrab Supply Chain Management malli päringukriteeriumide alusel. Töömallide kohta lisateabe saamiseks vaadake jaotist <a href="control-warehouse-location-directives.md">Laotöö juhtimine töömallide ja asukohadirektiividega</a>.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Nõue, et töötajad kinnitaksid kaupade komplekteerimisel toote, asukoha või koguse
-Saate seadistada töökinnitused, mis nõuavad, et töötaja kasutaks laos tööd tehes asukoha või koguse registreerimiseks mobiilset seadet. Töökinnitused aitavad tagada, et töötaja on õiges asukohas või tegeleb õige kaubakogusega. Peale selle saate lubada, et Microsoft Dynamics 365 for Finance and Operations kinnitab töötaja registreeringu automaatselt. Kui lubate automaatse kinnitamise, ei saa te nõuda asukoha või koguse kinnitamist. Töökinnitused sisaldavad ka tooteid ja tootevariante. Peale selle saate kinnitusi vöötkoodi skannides registreerida. Toodete ja tootevariantide kinnitamiseks peate sisestama toote või tootevariandi ID. See võib olla toote ID, tooteotsingu ID, väline ID, GTIN või vöötkood. Kui olete ID sisestanud või vöötkoodi skanninud, kuvatakse mobiilses seadmes tootevariandi dimensioonid. 
+Saate seadistada töökinnitused, mis nõuavad, et töötaja kasutaks laos tööd tehes asukoha või koguse registreerimiseks mobiilset seadet. Töökinnitused aitavad tagada, et töötaja on õiges asukohas või tegeleb õige kaubakogusega. Peale selle saate lubada, et Supply Chain Management kinnitab töötaja registreeringu automaatselt. Kui lubate automaatse kinnitamise, ei saa te nõuda asukoha või koguse kinnitamist. Töökinnitused sisaldavad ka tooteid ja tootevariante. Peale selle saate kinnitusi vöötkoodi skannides registreerida. Toodete ja tootevariantide kinnitamiseks peate sisestama toote või tootevariandi ID. See võib olla toote ID, tooteotsingu ID, väline ID, GTIN või vöötkood. Kui olete ID sisestanud või vöötkoodi skanninud, kuvatakse mobiilses seadmes tootevariandi dimensioonid. 
 
 Järgmises tabelis kirjeldatakse erinevaid töötüüpe, millega saate töökinnitusi kasutada.
 

@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (16. oktoober 2018)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talent Core HR-i uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent Core HR (16. oktoober 2018)
+description: Selles teemas kirjeldatakse funktsioone, mis on kas uued või muutunud rakenduses Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/22/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 51cfe8a92d1ac611e946934fe8ebbc99053788f1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 13e89faa3f8470125010ccdb40a6f01c0a9c4fe7
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517825"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008773"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-19-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (19. oktoober 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-19-2018"></a>Mis on Dynamics 365 Talent: Core HR-is uut või mida on muudetud (19. oktoober 2018)
 
 [!include[banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Turbekohustus, mis kontrollib selle funktsionaalsuse ligipääsu on järgmine.
 Selles väljaandes on tehtud järgmised uuendused.
 - Muutused töötaja palkamise toimingutes, et nad ei ole enam "kinni" **Töövoog on lõpetatud** olekus.
 - Töösuhte kirje saab nüüd luua ilma töösuhte alguskuupäevata.
-- Dynamics 365 Talent registreerimiskuupäev Töövõtja iseteeninduses kuvatud kursusele rakendab nüüd ajavööndi nihke kuupäeva.
+- Dynamics 365 Talenti registreerimiskuupäev Töövõtja iseteeninduses kuvatud kursusele rakendab nüüd ajavööndi nihke kuupäeva.
 - Exceli faile saab importida mitu korda ilma vigadeta, kasutades **Töötaja üksust**.
 
 ## <a name="known-issue"></a>Teadaolev probleem

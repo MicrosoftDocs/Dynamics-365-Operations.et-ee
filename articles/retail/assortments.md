@@ -1,6 +1,6 @@
 ---
 title: Sortimendi haldus
-description: Selles teemas selgitatakse sortimendi halduse põhikontseptsioone rakenduses Microsoft Dynamics 365 for Retail ja esitatakse juurutamise kaalutlusi teie projekti jaoks.
+description: Selles teemas selgitatakse sortimendi halduse põhikontseptsioone rakenduses Dynamics 365 Retail ja esitatakse juurutamise kaalutlusi teie projekti jaoks.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4652641be0a1edaac919d36c7f127cd62c355a57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558824"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025836"
 ---
 # <a name="assortment-management"></a>Sortimendi haldus
 
@@ -28,7 +28,7 @@ ms.locfileid: "1558824"
 
 ## <a name="overview"></a>Ülevaade
 
-Microsoft Dynamics 365 for Retail pakub *sortimente*, mis võimaldavad teil hallata toote saadavust kanalite lõikes. Sortimendid määratlevad, millised tooted on konkreetsetes kauplustes ja millise perioodi jooksul saadaval.
+Dynamics 365 Retail pakub *sortimente*, mis võimaldavad teil hallata toote saadavust kanalite lõikes. Sortimendid määratlevad, millised tooted on konkreetsetes kauplustes ja millise perioodi jooksul saadaval.
 
 Retailis on sortiment ühe või mitme kanali (või kanaligruppide, kui kasutatakse organisatsiooni hierarhiaid) vastendamine ühe või mitme tootega (või tootegruppidega, kui kasutatakse kategooria hierarhiaid).
 

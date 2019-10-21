@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (6. detsember 2018)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talent Core HR-i uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent Core HR (6. detsember 2018)
+description: Selles teemas kirjeldatakse funktsioone, mis on kas uued või muutunud rakenduses Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 73e0875c3e072bc29050a096888459c6e4bb1b7b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742582"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025952"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent Core HR (6. detsember 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-6-2018"></a>Mis on Dynamics 365 Talent: Core HR-is uut või mida on muudetud (6. detsember 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1742582"
 Teema kirjeldab funktsioone, mis on Core HR-is kas uued või muudetud.
 
 
-## <a name="platform-update-22"></a>Platvormivärskendus update 22
+## <a name="platform-update-22-for-finance-and-operations"></a>Finance and Operationsi 22. platvormi värskendus
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Kuin 1 miljoni rea eksportimine Excelisse
 
@@ -42,7 +42,7 @@ Excelisse eksportimise funktsiooni saab nüüd konfigureerida nii, et see võima
 
 ### <a name="restyled-personalization-toolbar"></a>Ümberkujundatud isikupärastamise tööriistariba
 
-Isikupärastamise tööriistariba Platvormi värskendusega nr 22 ümber kujundatud, et aidata kasutajatel oma rakenduse Talent kogemust lihtsamini kohandada. Tehti järgmised muudatused. 
+Isikupärastamise tööriistariba on Finance and Operationsi platvormi värskendusega nr 22 ümber kujundatud, et aidata kasutajatel oma rakenduse Talent kogemust lihtsamini kohandada. Tehti järgmised muudatused. 
 
 -  Nüüd näidatakse iga isikupärastamistööriista nime ikooni juures, mis aitab kasutajatel kiiresti ära tunda selle tööriista, mida nad kasutada soovivad.
 -  Käesoleva tööriista kasutamise kirjeldust näidatakse nüüd samuti, see aitab kasutajal mõista, kuidas teha vajalikke isikupärastamisi.  
@@ -50,19 +50,19 @@ Isikupärastamise tööriistariba Platvormi värskendusega nr 22 ümber kujundat
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>Optimeeris filtri „üks (mitmest)“ kasutuse
 
-"Üks (mitmest)" filtreerimise operaator on enamike väljade jaoks saadaval kasutades filtripaani ja ruudustiku päise rippmenüüsid. See operaator võimaldab kasutajal välja filtreerida põhinedes mitmele väärtusele. Uus ja täiustatud kogemus "üks (mitmest)" operaatorile on saadaval platvormi värskendusega nr 22. Lisainfo saamiseks vt [Optimeeritud "üks (mitmest)" filtreerimiskogemus](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+"Üks (mitmest)" filtreerimise operaator on enamike väljade jaoks saadaval kasutades filtripaani ja ruudustiku päise rippmenüüsid. See operaator võimaldab kasutajal välja filtreerida põhinedes mitmele väärtusele. Uus ja täiustatud kogemus "üks (mitmest)" operaatorile on saadaval Finance and Operationsi platvormi värskendusega nr 22. Lisainfo saamiseks vt [Optimeeritud "üks (mitmest)" filtreerimiskogemus](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>KKleepige "üks (mitmest) operaatoriga Execlist pärinevaid loendeid filtri väljadele
 
 Mõnede ülesannete juures võib kasutajatel olla Excelis väärtuste loendud, mida nad sooviksid kasutada andmete filtreerimiseks rakenduses Talent. Näiteks või olla Inimressursside kasutaja määranud aruandest teatud töötajad, kes vajavad süsteemis lisanduvat uurimist, ja oleks ideaalne, kui see kasutaja saaks kopeerida selle nimekirja otse Excelist rakenduse Talent filtri väljale.
 
-Alates platvormi värskendusest nr 22, tunneb nüüd "üks (mitmest) operaator Filtripaani ja ruudustiku veeru filtreerimisel ära Excelist kopeeritud nimekirjad, nii et neid saab otse filtri väljale kleepida. See sisaldab erinevatest Exceli ridadest ja veergudest kopeeritud väärtuste kogu. Selle funktsiooni kohta lisateabe saamiseks vt [Excelist loendite kleepimine filtri väljadele "üks (mitmest)" operaatoriga](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+Alates Finance and Operationsi platvormi värskendusest nr 22, tunneb nüüd "üks (mitmest) operaator Filtripaani ja ruudustiku veeru filtreerimisel ära Excelist kopeeritud nimekirjad, nii et neid saab otse filtri väljale kleepida. See sisaldab erinevatest Exceli ridadest ja veergudest kopeeritud väärtuste kogu. Selle funktsiooni kohta lisateabe saamiseks vt [Excelist loendite kleepimine filtri väljadele "üks (mitmest)" operaatoriga](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>Eelvaates
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>UK palgaarvestuse integratsiooni konfigureerimine Talenti ja Dayforce’i vahel
 
-Integratsioon rakenduste Microsoft Dynamics 365 for Talent ja Ceridian Dayforce on UK eelvaatena saadaval. Lisainfo saamiseks vaadake järgmist teemat, [Palgaarvestuse integreerimine rakenduste Talent ja Dayforce vahel](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
+Integratsioon rakenduste Talent ja Ceridian Dayforce vahel on UK-s eelvaatena saadaval. Lisainfo saamiseks vaadake järgmist teemat, [Palgaarvestuse integreerimine rakenduste Talent ja Dayforce vahel](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
@@ -90,9 +90,9 @@ Lisateavet kuvatakse siis, kui numbriseeriad on kasutuses, selleks, et mõista p
 
 ## <a name="known-issues"></a>Teadaolevad probleemid
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Vastendamise tõrked integreerimisel rakendusega Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Vastendusvead Finance’iga integreerimisel
 
-Praegusel mallil on tuvastatud rakendustega Talent ja Finance and Operations integreerimisel järgmised probleemid. Uus mall avaldatakse varsti ja see rakendatakse kõigile uutele loodavatele integreerimisprojektidele. Olemasolevate integreerimisprojektide puhul saab ülesande vastendamist uuendada. Vaadake uuendatud vastendusi järgmisest tabelist. 
+Praegusel mallil on tuvastatud rakenduse Talent integreerimisel rakendusega Finance järgmised probleemid. Uus mall avaldatakse varsti ja see rakendatakse kõigile uutele loodavatele integreerimisprojektidele. Olemasolevate integreerimisprojektide puhul saab ülesande vastendamist uuendada. Vaadake uuendatud vastendusi järgmisest tabelist. 
 
 >[!NOTE]
 > Andmete integreerimine Ametikohtast Ametikoha peamisele tööülesandele ei toimi. Seda probleemi praegu uuritakse. Praegusele vastendusele lahendust ei ole. 

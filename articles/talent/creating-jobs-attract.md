@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
-ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
+ms.openlocfilehash: 64871eb5f7175701cfe1c9fefcc04b9da488748b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773248"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008451"
 ---
 # <a name="create-a-job"></a>Töö loomine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse töö elemente rakenduses Microsoft Dynamics 365 for Talent: Attract. Lisaks selgitatakse, kuidas tööd luua.
+Selles teemas kirjeldatakse töö elemente rakenduses Microsoft Dynamics 365 Talent: Attract. Lisaks selgitatakse, kuidas tööd luua.
 
 ## <a name="job-creation"></a>Töö loomine
 
@@ -74,7 +74,7 @@ Lisainfot tegevuste kohta, mida värbamisprotsessile lisada saab, leiate artikli
 
 ## <a name="postings"></a>Sisestamised
 
-Pärast töö aktiveerimist saab selle sisestada. Ainult värbajad ja administraatorid saavad töid sisestada. Töö saab sisestada kas rakendusse Talent Careers (Microsoft Dynamics 365 for Talent karjäärisait) või LinkedIni. Attracti meeskond töötab pidevalt töökuulutuste vahendajatega koostöös. See loend laieneb aja jooksul. Töö sisestamisel ainult sisesena vajavad kandidaadid töö vaatamiseks ja sellele kandideerimiseks AAD kontot. Kui töö on loetletud avalikuna, saavad kandidaadid töid vaadata ja neile kandideerida kõiki autentimissuvandeid kasutades. 
+Pärast töö aktiveerimist saab selle sisestada. Ainult värbajad ja administraatorid saavad töid sisestada. Töö saab sisestada kas rakendusse Talent Careers (Dynamics 365 Talent karjäärisait) või LinkedIni. Attracti meeskond töötab pidevalt töökuulutuste vahendajatega koostöös. See loend laieneb aja jooksul. Töö sisestamisel ainult sisesena vajavad kandidaadid töö vaatamiseks ja sellele kandideerimiseks AAD kontot. Kui töö on loetletud avalikuna, saavad kandidaadid töid vaadata ja neile kandideerida kõiki autentimissuvandeid kasutades. 
 
 Töösisestuste kohta lisainfo saamiseks vt [Karjäärisaidi funktsionaalsus Attractis](career-site.md).
 

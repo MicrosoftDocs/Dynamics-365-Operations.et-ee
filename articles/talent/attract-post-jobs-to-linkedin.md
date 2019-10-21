@@ -1,6 +1,6 @@
 ---
-title: Tööpakkumiste sisestamine rakendusest Dynamics 365 for Talent - Attract LinkedIni.
-description: Selles teemas selgitatakse, kuidas kasutada rakendust Dynamics 365 for Talent - Attract töökuulutuste sisestamiseks LinkedIni.
+title: Tööde sisestamine Microsoft Dynamics 365 Talent – Attractist LinkedIni
+description: Selles teemas selgitatakse, kuidas kasutada rakendust Dynamics 365 Talent – Attract töökuulutuste sisestamiseks LinkedIni.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756172"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008239"
 ---
 # <a name="post-jobs-to-linkedin"></a>Postita tööd LinkedIni
 
 [!include [banner](../includes/banner.md)]
 
-LinkedIn on suurim tööalane veebivõrgustik, mis annab ligipääsu maailma tipptalentidele. Microsoft Dynamics 365 for Talent: Attract aitab leida vajalikku talenti, lastes teil sisestada tööpakkumised Atttractist otse LinkedIni.
+LinkedIn on suurim tööalane veebivõrgustik, mis annab ligipääsu maailma tipptalentidele. Microsoft Dynamics 365 Talent: Attract aitab leida vajalikku talenti, lastes teil sisestada tööpakkumised Atttractist otse LinkedIni.
 
 Attract võimaldab teil piiratud loendeid LinkedIni ilma lisakuludeta sisestada. Need loendid on saadaval ainult LinkedIni tarkvarapartnerite, nt Attracti kaudu. Neid ei kuvata teie ettevõtte LinkedIni lehel paneelil **Karjäär**, kuna seal kuvatakse ainult tasulisi loendeid. Neid näidatakse aga siis, kui potentsiaalsed kandidaadid vaatavad kõiki saadaolevaid töökohti. Piiratud loendeid kuvatakse ka LinkedIni tööotsingutes.
 

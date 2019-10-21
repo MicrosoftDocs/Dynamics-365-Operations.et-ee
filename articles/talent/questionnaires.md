@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 2762179a13ff9bbcb4001f3a9aba443c4aa00f9f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517806"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024225"
 ---
 # <a name="questionnaires"></a>Küsimustikud
 
@@ -31,7 +31,7 @@ ms.locfileid: "1517806"
 
 Selles teemas on üldine teave küsimustike kohta ja lingid täpsema teabe juurde. Küsimustik on küsimuste kogum, mida kasutatakse teabe kogumiseks erinevatel eesmärkidel. Saate küsimusi kavandada, luua, jaotada ja täita ning seejärel tulemusi analüüsida. 
 
-Saate kohandada küsimustikku nii, et see vastaks teie konkreetsetele nõudmistele, kasutades mitmesuguseid Microsoft Dynamics 365 for Finance and Operationsi funktsioone. Siin on mõned näited küsimustike kasutamise kohta.
+Saate kohandada küsimustikku nii, et see vastaks teie konkreetsetele nõudmistele, kasutades mitmesuguseid Microsoft Dynamics 365 Financei funktsioone. Siin on mõned näited küsimustike kasutamise kohta.
 
 -   töötajate ja kandidaatide ametialaste oskuste kontrollimine,
 -   Saate hinnata, kas kursusel osalejad on kursuse materjali omandanud.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742466"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248953"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Hankija koostöö kasutajate haldamine
 
@@ -31,7 +31,7 @@ ms.locfileid: "1742466"
 
 See teema kirjeldab, kuidas saate taotleda uue hankija koostöö kasutajate ettevalmistamist ja kuidas lisada uue hankija koostöö kontakte. 
 
-Hankija koostöö liides rakenduses Microsoft Dynamics 365 for Finance and Operations avaldab teavet ostutellimuste, arvete ja veosevarude kohta välistele hankijatele. Saate luua uued hankija koostöö kontaktid ja nõuda, et uued kasutajad valmistatakse ette, kui töötate välise hankijana turberolliga **Hankija administraator (väline)** või sarnaste lubadega. Samuti saate teha need ülesanded, kui töötate hankeprofessionaalina. Selles teemas viitab see roll hankeprofessionaalile, kes töötab selle ettevõtte siseselt, millele kuulub rakenduse Finance and Operations eksemplar. Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Klientidega hankija](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Hankija koostöö liides rakenduses Dynamics 365 Supply Chain Management avaldab teavet ostutellimuste, arvete ja veosevarude kohta välistele hankijatele. Saate luua uued hankija koostöö kontaktid ja nõuda, et uued kasutajad valmistatakse ette, kui töötate välise hankijana turberolliga **Hankija administraator (väline)** või sarnaste lubadega. Samuti saate teha need ülesanded, kui töötate hankeprofessionaalina. Selles teemas viitab see roll hankeprofessionaalile, kes töötab selle ettevõtte siseselt, millele kuulub Supply Chain Managementi eksemplar. Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Klientidega hankija](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
 
@@ -60,12 +60,12 @@ Taotluse edastamisel lisatakse see mooduli **Hankija koostöö** loendisse **Han
 Enne kui saate taotleda uue kasutaja ettevalmistamist, tuleb see isik seadistada kontaktina ühe või mitme hankijakonto jaoks. Uue hankija koostöö kasutaja jaoks taotluse loomiseks:
 
 1. Lehel **Kõik kontaktid** klõpsake valikut **Valmista ette hankija-kasutaja**.
-2. Sisestage kasutaja meiliaadress. Seda aadressi kasutab kasutaja, et logida sisse rakendusse Finance and Operations. Kui meiliaadress kuulub domeenile, mis on registreeritud Microsoft Azure’is üürnikuna, siis peab meiliaadress olema olemasolev Azure Active Directory (AAD) konto, et ettevalmistamise protsessi saaks edukalt lõpule viia. Kui meiliaadress ei kuulu Microsoft Azure’is registreeritud domeenile, luuakse AAD konto osana ettevalmistamise protsessist ja uus kasutaja saab kutsemeili. Laiatarbemeiliaadresse, mis on selliste domeenidega nagu @hotmail.com, @gmail.com või @comcast.net, ei saa kasutada rakenduse Finance and Operations kasutaja registreerimiseks.
+2. Sisestage kasutaja meiliaadress. Kasutaja kasutab seda aadressi Supply Chain Managementi sisselogimiseks. Kui meiliaadress kuulub domeenile, mis on registreeritud Microsoft Azure’is üürnikuna, siis peab meiliaadress olema olemasolev Azure Active Directory (AAD) konto, et ettevalmistamise protsessi saaks edukalt lõpule viia. Kui meiliaadress ei kuulu Microsoft Azure’is registreeritud domeenile, luuakse AAD konto osana ettevalmistamise protsessist ja uus kasutaja saab kutsemeili. Laiatarbemeiliaadresse, mis on selliste domeenidega nagu @hotmail.com, @gmail.com või @comcast.net, ei saa kasutada kasutaja registreerimiseks.
 3. Seadke suvand **Hankija koostöö juurdepääs on lubatud** valikule **Jah** kõikide juriidiliste isikute puhul, millele kasutaja vajab juurdepääsu.
 4. Jaotises **Kasutaja rollide määramine** valige märkeruut **Määra** turberollidele, mis uuel kasutajal peaks olema.
 5. Klõpsake **Edasta**.
 
-Hankija-kasutaja taotluse edastamisel seatakse valitud hankija konto väli **Hankija koostöö juurdepääs on lubatud** olekusse **Jah** ja käivitatakse kasutajataotluse töövoog. Osana töövoost luuakse rakenduses Finance and Operations uus kasutaja ja määratakse turberollid. Lisaks aktiveeritakse Azure B2B teenus, mis käivitab suhtluse Azure'i portaaliga ja seostab uut või olemasolevat AAD kontot rakenduse Finance and Operations kasutajakontoga. Lisateavet vt teemast [Mis on Azure AD B2B koostöö?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Hankija-kasutaja taotluse edastamisel seatakse valitud hankija konto väli **Hankija koostöö juurdepääs on lubatud** olekusse **Jah** ja käivitatakse kasutajataotluse töövoog. Osana töövoost luuakse uus kasutaja ja määratakse turberollid. Lisaks aktiveeritakse Azure B2B teenus, mis käivitab suhtluse Azure'i portaaliga ja seostab uut või olemasolevat AAD kontot Supply Chain Managementi kasutajakontoga. Lisateavet vt teemast [Mis on Azure AD B2B koostöö?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Kasutaja inaktiveerimine
 

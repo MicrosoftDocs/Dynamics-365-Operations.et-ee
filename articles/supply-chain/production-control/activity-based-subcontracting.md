@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 35ec47a13d9119c755702e019d09c76e1281b4a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549309"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250203"
 ---
 # <a name="activity-based-subcontracting"></a>Tegevustepõhised allhanked
 
@@ -32,7 +32,7 @@ ms.locfileid: "1549309"
 
 Selles teemas kirjeldatakse üksikasjalikult, kuidas kasutada allhanketegevusi kulusäästlikus tootmisvoos.
 
-Microsoft Dynamics 365 for Finance and Operations pakub allhangeteks kaht lähenemisviisi: tootmistellimused ja lean manufacturing (kulusäästlik tootmine). Kulusäästlikus tootmises on allhanketöö kujundatud teenusena, mis on seotud tootmisvoo tegevusega. Kasutusele on võetud kulugrupi eritüüp **Otse väljasttellimine** ja allhanketeenused ei ole enam koosluse osa. Allhanketöö kuluarvestus on täielikult integreeritud kulusäästliku tootmise kululahendusse.
+Microsoft Dynamics 365 Supply Chain Management pakub allhangeteks kaht lähenemisviisi: tootmistellimused ja lean manufacturing (kulusäästlik tootmine). Kulusäästlikus tootmises on allhanketöö kujundatud teenusena, mis on seotud tootmisvoo tegevusega. Kasutusele on võetud kulugrupi eritüüp **Otse väljasttellimine** ja allhanketeenused ei ole enam koosluse osa. Allhanketöö kuluarvestus on täielikult integreeritud kulusäästliku tootmise kululahendusse.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Tootmisvood, mis hõlmavad allhankijaid
 Tootmisvoo üldpõhimõte tegevuste allhankimisel ei muutu. Materjal liigub endiselt asukohtade vahel, protsessitegevused teisendavad materjali toodeteks ja ülekandetegevused liigutavad materjali või tooteid ühest asukohast teise. Saate kujundada asukohad ja töörakud hankija hallatavatena, määrates laole või ressursigruppi kuuluvale ressursile hankija konto.  
@@ -102,7 +102,7 @@ Transporti peetakse sageli mittetootlikuks ja arvatakse, et see ei lisa mingit v
 
 Tegevustepõhine allhange kulusäästlikus tootmises võimaldab integreerida vedajaid ja transpordihankijaid, kes liigutavad materjali ja tooteid tootmisvoo asukohtade vahel. Ülekandetegevuse kujundamisega saate määrata vedaja või hankija. Ülekandetegevused/-töö põhinevad teenusel ja ostulepingul ning te saate luua ostutellimusi ja sissetulekunõuandeid tegelike ülekandetööde põhjal. See funktsioon on sama mis allhanke protsessitegevuste funktsioon.  
 
-Seetõttu toetab Finance and Operations nüüd koosluse arvutamist, mis hõlmab transporditeenuseid, seotud ostutellimuste loomist, integreeritud sissetuleku registreerimist ja transporditeenuse kulude integreerimist tootmisvoo kuludesse.
+Supply Chain Management toetab nüüd koosluse arvutamist, mis hõlmab transporditeenuseid, seotud ostutellimuste loomist, integreeritud sissetuleku registreerimist ja transporditeenuse kulude integreerimist tootmisvoo kuludesse.
 
 
 

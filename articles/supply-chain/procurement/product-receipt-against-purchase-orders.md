@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c1aaae7a276d098587b5b9c73e433694e3a6f9bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554334"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248907"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Toote sissetulek ostutellimuste suhtes
 
@@ -52,7 +52,7 @@ Saate luua ostutellimuse ridu, millel on lubatud valik **Uus põhivara**. See va
 
 Võite valida mitu tellimust ja töödelda kõigi nende tellimuste sissetulekut korraga. Sellist lähenemist ei kasutata kuigi sageli, kuid seda võib olla vaja kasutada, kui hankijal on teile ühes koormas konsolideeritud saadetised. Ostu toote sissetuleku käigus saab kasutada koondvärskenduste tegemise funktsiooni. Koondvärskendused võimaldavad sisestada ühe hankija saatelehe mitme ostutellimuse jaoks.  
 
-Valiku **Otsetarne** korral võidakse koostada ostutellimusi müügitellimusest. Otsetarne kasutamisel ei saabu tooted kunagi teie lattu, vaid hankija viib need otse kliendile. Sellisel juhul kajastatakse sissetulek tavaliselt otse ostutellimusel. Sissetuleku saab vormistada automaatselt, nt elektroonilise andmevahetuse (EDI) integreerimise kaudu hankijaga. Kui tegemist on kontsernisisese ostutellimusega, siis on olemas ka võimalus, et Microsoft Dynamics 365 for Finance and Operations automatiseerib kontsernisisese müügitellimuse sissetuleku, kui tarne toimub. Otsetarne kasutamisel käsitletakse tooteid endiselt varudena, kuigi need ei saabu füüsiliselt lattu. Seetõttu, kui toote sissetulek ostutellimusel registreeritakse, värskendatakse müügitellimust automaatselt saatelehe andmetega, nii et üldine varude muutus on 0 (null). Otsetarne stsenaariumide puhul ei tohiks eelregistreerimine vajalik olla. Kui kasutate ladusid, milles on lubatud laohaldus, võite litsentsiplaadi registreerimise nõudest mööda minna, määrates selle asemel virtuaalse lao. Selle lao saab määrata toote väljal **Otsetarne ladu**. 
+Valiku **Otsetarne** korral võidakse koostada ostutellimusi müügitellimusest. Otsetarne kasutamisel ei saabu tooted kunagi teie lattu, vaid hankija viib need otse kliendile. Sellisel juhul kajastatakse sissetulek tavaliselt otse ostutellimusel. Sissetuleku saab vormistada automaatselt, nt elektroonilise andmevahetuse (EDI) integreerimise kaudu hankijaga. Kui tegemist on kontsernisisese ostutellimusega, siis on olemas ka võimalus, et Supply Chain Management automatiseerib kontsernisisese müügitellimuse sissetuleku, kui tarne toimub. Otsetarne kasutamisel käsitletakse tooteid endiselt varudena, kuigi need ei saabu füüsiliselt lattu. Seetõttu, kui toote sissetulek ostutellimusel registreeritakse, värskendatakse müügitellimust automaatselt saatelehe andmetega, nii et üldine varude muutus on 0 (null). Otsetarne stsenaariumide puhul ei tohiks eelregistreerimine vajalik olla. Kui kasutate ladusid, milles on lubatud laohaldus, võite litsentsiplaadi registreerimise nõudest mööda minna, määrates selle asemel virtuaalse lao. Selle lao saab määrata toote väljal **Otsetarne ladu**. 
 
 Pärast toote sissetuleku töötlemist ostutellimusel määratakse ostutellimuse olekuks **Saadud** näitamaks, et tellimuse arvet võib töödelda. Juba saadud toodete üksikasju saab vaadata lehelt **Toote sissetuleku töölehed**.  
 

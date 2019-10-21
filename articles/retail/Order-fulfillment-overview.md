@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b66369e57e006c9e2fe0a43e4b781c619a65c4a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556940"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025859"
 ---
 # <a name="store-order-fulfillment"></a>Kaupluse tellimuse täitmine
 
@@ -96,7 +96,7 @@ Kui tellimus on aktsepteeritud, saab ridu valida ja nende olekuks märkida **Kom
 
 Komplekteerimislehti saab printida kassas, et aidata töötajaid komplekteerimisprotsessi juures. Prinditud komplekteerimislehte saab komplekteeriv töötaja kaasas kanda ja kui tooted on komplekteeritud, märgib töötaja need komplekteerimislehel käsitsi komplekteerituks.
 
-Komplekteerimislehe vorming konfigureeritakse rakenduses Dynamics 365 for Retail ja lisatakse kviitungiprofiilile. Lisateavet kviitungiprofiilide seadistamise kohta vt teemast [Kviitungite mallid ja printimine](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Komplekteerimislehe vorming konfigureeritakse rakenduses Retail ja lisatakse kviitungiprofiilile. Lisateavet kviitungiprofiilide seadistamise kohta vt teemast [Kviitungite mallid ja printimine](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Kui read on valitud ja nende ridade kohta komplekteerimisleht prinditud, värskendatakse nende olekuks automaatselt **Komplekteerimine**.
 
@@ -105,7 +105,7 @@ Kui read on valitud ja nende ridade kohta komplekteerimisleht prinditud, värske
 - **Tulemolek:** komplekteeritud või osaliselt komplekteeritud
 - **Varukontori tulemolek:** komplekteeritud või osaliselt komplekteeritud
 
-Kui füüsiline komplekteerimisprotsess on tehtud, saab ridade olekuks märkida **Komplekteeritud**. Rea valimine ja selle olekuks **Komplekteeritud** märkimine teeb reaalajas taotluse värskendada tellimuserida rakenduses Dynamics 365 for Retail. Kui rea olekuks on kassas märgitud **Komplekteeritud**, värskendatakse ka varukontoris selle olekuks **Komplekteeritud** ja laokanded kajastavad, et määratud kogust on vähendatud.
+Kui füüsiline komplekteerimisprotsess on tehtud, saab ridade olekuks märkida **Komplekteeritud**. Rea valimine ja selle olekuks **Komplekteeritud** märkimine teeb reaalajas taotluse värskendada tellimuserida. Kui rea olekuks on kassas märgitud **Komplekteeritud**, värskendatakse ka varukontoris selle olekuks **Komplekteeritud** ja laokanded kajastavad, et määratud kogust on vähendatud.
 
 Tellimuste töötlemisel aja jooksul saab kindla rea puhul töödelda osalisi koguseid. Kui rida on valitud ja tegevus **Komplekteerituks märkimine** tehtud ning kogus on suurem kui üks, küsitakse kasutajalt kogust. Järelejäänud komplekteeritav kogus sisestatakse automaatselt. Kui määratud kogus on järelejäänud kogusest väiksem, muutub rea olekuks **Osaliselt komplekteeritud**. Tellimuserea värskendamisel varukontoris kajastab see ka osaliselt komplekteeritud olekut ja varude värskendamiseks kasutatakse kasutaja sisestatud kogust.
 
@@ -122,7 +122,7 @@ Tellimuseridu saab pakkida igal ajal pärast seda, kui tellimuserida on aktsepte
 - **Tulemolek:** pakitud või osaliselt pakitud
 - **Varukontori tulemolek:** tarnitud või osaliselt tarnitud
 
-See tegevus märgib read pakituks või osaliselt pakituks ja prindib saatelehe. Saatelehe saab välja printida, et kontrollida kokku pakitud tooteid. Saatelehe vorming konfigureeritakse rakenduses Dynamics 365 for Retail ja lisatakse kviitungiprofiilile. Lisateavet kviitungiprofiilide seadistamise kohta vt teemast [Kviitungite mallid ja printimine](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+See tegevus märgib read pakituks või osaliselt pakituks ja prindib saatelehe. Saatelehe saab välja printida, et kontrollida kokku pakitud tooteid. Saatelehe vorming konfigureeritakse rakenduses Retail ja lisatakse kviitungiprofiilile. Lisateavet kviitungiprofiilide seadistamise kohta vt teemast [Kviitungite mallid ja printimine](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Tegevus: pakituks märkimine**
 

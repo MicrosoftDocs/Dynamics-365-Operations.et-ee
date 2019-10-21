@@ -1,6 +1,6 @@
 ---
-title: Laoühikuga toodete sünkroonimine rakendusest Finance and Operations rakendusse Field Service
-description: Selles teemas käsitletakse malle ja aluseks olevat ülesannet, mida kasutatakse laoühikuga toodete sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service.
+title: Toodete sünkroonimine varude üksusega rakendusest Supply Chain Management rakendusse Field Service
+description: Selles teemas käsitletakse malle ja aluseks olevat ülesannet, mida kasutatakse laoühikuga toodete sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management rakendusse Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,38 +19,38 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 78e8d8fa609b015cf2fceaf498279fe091325dbb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8b65e9640106c5d351270074e39c121e70917228
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835690"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251220"
 ---
-# <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>Laoühikuga toodete sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Toodete sünkroonimine varude üksusega rakendusest Supply Chain Management rakendusse Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Selles teemas käsitletakse malle ja aluseks olevat ülesannet, mida kasutatakse laoühikuga toodete sünkroonimiseks rakendusest Microsoft Dynamics 365 for Finance and Operations rakendusse Microsoft Dynamics 365 for Field Service.
+Selles teemas käsitletakse malle ja aluseks olevat ülesannet, mida kasutatakse laoühikuga toodete sünkroonimiseks rakendusest Dynamics 365 Supply Chain Management rakendusse Dynamics 365 Field Service.
 
-[![Äriprotsesside sünkroonimine rakenduste Finance and Operations ja Field Service vahel](./media/FSProductsOW.png)](./media/FSProductsOW.png)
+[![Äriprotsesside sünkroonimine rakenduste Supply Chain Management ja Field Service vahel](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-Kasutatud mall **Field Service'i laoühikuga tooted (rakendusest Fin and Ops rakendusse Field Service)** põhineb mallil **Field Service’i tooted (rakendusest Fin and Ops rakendusse Field Service)**. Lisateabe saamiseks vt [Field Service’i tooted (Finance and Operationsist Field Service’isse)](field-service-product.md).
+Kasutatud mall **Field Service’i laoühikuga tooted (rakendusest Supply Chain Management rakendusse Field Service)** põhineb mallil **Field Service’i tooted (rakendusest Supply Chain Management rakendusse Field Service)**. Lisateabe saamiseks vt [Field Service’i tooted (Supply Chain Managementist Field Service’isse)](field-service-product.md).
 
 Selles teemas kirjeldatakse ainult kahe malli vahelisi erinevusi: 
-- **Field Service’i laoühikuga tooted (rakendusest Fin and Ops rakendusse Sales)**
-- **Field Service’i tooted (Fin and Opsist Field Service’isse)** 
+- **Field Service’i tooted laoühikuga (rakendusest Supply Chain Management rakendusse Müük)**
+- **Field Service’i tooted (rakendusest Supply Chain Management rakendusse Field Service)** 
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 
 **Malli nimi andmete integratsioonis:**
 
-- Field Service’i laoühikuga tooted (rakendusest Fin and Ops rakendusse Sales)
+- Field Service’i tooted laoühikuga (rakendusest Supply Chain Management rakendusse Müük)
 
 **Ülesande nimi andmete integratsiooni projektis:**
 
 - Tooted
 
-Mall **Field Service'i laoühikuga tooted (rakendusest Fin and Ops rakendusse Field Service)** sisaldab ühte vastendamist, mis ei sisaldu mallis **Field Service'i tooted (rakendusest Fin and Ops rakendusse Field Service)**. See vastendus tagab, et kaasatud on varude taseme sünkroonimiseks vajalik laoühik.
+Kasutatud mall **Field Service’i laoühikuga tooted (rakendusest Supply Chain Management rakendusse Field Service)** põhineb mallil **Field Service’i tooted (rakendusest Supply Chain Management rakendusse Field Service)**. See vastendus tagab, et kaasatud on varude taseme sünkroonimiseks vajalik laoühik.
 
 ```
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
@@ -60,6 +60,6 @@ INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryuni
 
 Järgmistel joonistel on näidatud malli vastendamine andmete integratsioonis.
 
-### <a name="field-service-products-with-inventory-unit-fin-and-ops-to-field-service-products"></a>Field Service'i laoühikuga tooted (rakendusest Fin and Ops rakendusse Field Service): tooted
+### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>Field Service’i laoühikuga tooted (Supply Chain Managementist Field Service’isse): tooted
 
 [![Malli vastendamine andmete integratsioonis](./media/FSProduct1.png)](./media/FSProduct1.png)

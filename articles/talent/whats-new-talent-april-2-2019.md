@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (2. aprill, 2019)?
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (2. aprill, 2019)?
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795240"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026068"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (2. aprill, 2019)?
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (2. aprill, 2019)?
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="changes-in-attract"></a>Muutused Attractis
 
@@ -46,7 +46,7 @@ Saate kinnitusmeilide sisu uute mallidega kohandada.
 Täiustused kandidaatide ja talendikausta profiilide vahekaardil **Dokumendid** kuvavad nüüd nii dokumendi nime, kui selle tüüpi.
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Onboard veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Onboard.
 
 ## <a name="coming-soon-attract-and-onboard"></a>Varsti tulemas (Attract ja Onboard)
 
@@ -56,14 +56,14 @@ Attractis ja Onboardis loovad nüüd lõppkasutajate logitud probleemid, mis on 
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2216.
 
-### <a name="platform-update-25"></a>Platvormivärskendus update 25
-Lisainfo saamiseks platvormi värskenduse 25 kohta vt [Dynamics 365 for Finance and Operations platvormi värskenduse 25 (aprill, 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>Finance and Operationsi 25. platvormi värskendus
+Lisainfo saamiseks Finance and Operationsi platvormi värskenduse 25 kohta vt [Dynamics 365 for Finance and Operationsi platvormi värskenduse 25 (aprill, 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Täpsem hüvitusturve (fikseeritud ja muutuv)
 Paljudes ettevõtetes on hüvitise ja eeliste halduritel juurdepääs ainult teatud hüvituskirjetele. Need võivad sisaldada juhtkonna või piirkonna töövõtjate kirjeid. See muudatus võimaldab personaliosakonnal ettevõttesiseselt hüvitusplaane hallata ja säilitada erinevate töövõtjate gruppide jaoks. Saate fikseeritud ja muutuvatele plaanidele turberolle määrata. Need turberollid määravad kindlaks juurdepääsu plaanidele ja seotud töötajate andmetele, nagu näiteks palga või preemia kirjetele, nii et ainult need rollid saavad töötajate rühmade hüvitisi töödelda.
 
 ### <a name="upgrade-to-common-data-service"></a>Common Data Service'i värskendus
-Tähtajad Common Data Service'i värskendamiseks lähenevad kiiresti. Logige sisse PowerAppsi halduskeskusesse, et määrata, kas teie andmebaas vajab täiendamist. Lisateavet tähtaegade ja täiendamiseks nõutavate etappide kohta vt jaotisest [Täiendamine teenusele Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Tähtajad Common Data Service'i värskendamiseks lähenevad kiiresti. Logige sisse PowerAppsi halduskeskusesse, et teha kindlaks, kas teie andmebaas vajab värskendamist. Lisateavet tähtaegade ja täiendamiseks nõutavate etappide kohta vt jaotisest [Täiendamine teenusele Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Eelvaates
 
@@ -79,4 +79,4 @@ Organisatsioonid võivad nõuda teatud puhkusetüüpide korral töötajate esita
 Selle muudatusega tuvastatakse nimeväljade sisestamisel duplikaadid ja olek näitab leitud duplikaatide arvu. Võite uue lehe avamiseks valida antud lingi, et hinnata, kas kasutada tuvastatud vastet. Andmesisestuse katkestamise vältimiseks ei avane duplikaatide vorm automaatselt.
 
 ###  <a name="email-support-for-alerts"></a>E-posti tugi teatistele
-Platvormi värskendusega 25 saavad kasutajad luua teavituse reegleid, mis saadavad kontaktidele automaatselt sündmuse käivitatud meiliteateid. 
+Finance and Operationsi platvormi 25. uuendusega saavad kasutajad luua alarmide reegleid, mis saadavad sündmuse poolt käivitades automaatselt kontaktidele meiliteavitusi. 

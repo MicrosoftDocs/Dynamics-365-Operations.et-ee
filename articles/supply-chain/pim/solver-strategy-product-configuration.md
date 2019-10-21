@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a548d3536bbc0056ee22c07c464af062029da81
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560297"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250572"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Lahendaja strateegia toote konfiguratsiooni jaoks
 
@@ -45,7 +45,7 @@ Lahendaja strateegia mõiste hõlmab nüüd järgmisi strateegiaid.
 
 Toote konfiguratsioonimudeli on [piirangu rahulolu probleem](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). Microsoft Solver Foundation (MSF) pakub toote konfiguratsioonimudelite kaudu kasutatavate piirangu rahuldamise probleemide lahendamiseks kahte tüüpi lahendaja strateegiaid. Need lahendaja strateegiad sõltuvad [heuristikast](https://techterms.com/definition/heuristic), mida kasutatakse probleemi lahendamisel piirandu rahuldamise probleemide muutujate järjekorra kindlaks määramiseks. Heuristika võib oluliselt mõjutada probleemi või probleemide klassi lahendamise jõudlust.
 
-Rakenduses Finance and Operations määrab toote konfiguratsioonimudelite lahendaja strateegia selle, millist lahendajat heuristikas kasutatakse. Strateegiad **Vaikimisi**, **Minimaalsed domeenid kõigepealt** ja **Ülevalt alla** kasutavad kahte MSF-i lahendajat, kusjuures strateegia **Z3** kasutab lahendajat Z3. 
+Toote konfiguratsioonimudelite lahendaja määrab selle, millist lahendajat heuristikas kasutatakse. Strateegiad **Vaikimisi**, **Minimaalsed domeenid kõigepealt** ja **Ülevalt alla** kasutavad kahte MSF-i lahendajat, kusjuures strateegia **Z3** kasutab lahendajat Z3. 
 
 Tõelised kliendijuurutamisuuringud on näidanud, et toote konfiguratsioonimudeli lahendaja strateegiate muutmine võib vähendada reageerimisaega minutitelt millisekunditele. Seetõttu on tasub toote konfiguratsioonimudeli tõhusaimi strateegia leidmiseks proovida eri lahendaja strateegiaid.
 

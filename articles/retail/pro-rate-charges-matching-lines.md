@@ -19,29 +19,29 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 07eea8fd7af4da611b4bd0c9340923f8894fab2c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d9f36da025528272b1a95456acf597dd5d923819
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1526011"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025168"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele
 
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse päisetasemel automaatsete kulude rühmitamise ja nende jaemüügi müügiridadele proportsionaalselt jaotamise funktsionaalsust. See funktsioon on saadaval kannetele, mis on loodud kassas (POS) rakenduse Microsoft Dynamics 365 for Retail versioonis 10.0.1 ja müükides, mis on loodud rakenduse Microsoft Dynamics 365 for Retail 10.0.2 versiooni kõnekeskuses.
+Selles teemas kirjeldatakse päisetasemel automaatsete kulude rühmitamise ja nende jaemüügi müügiridadele proportsionaalselt jaotamise funktsionaalsust. See funktsioon on saadaval kannetele, mis on loodud kassas (POS) rakenduse Retail versioonis 10.0.1 ja müükides, mis on loodud rakenduse Retail 10.0.2 versiooni kõnekeskuses.
 
 See funktsioon on saadaval ainult siis, kui funktsioon [täpsemad automaatsed kulud](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) on lehel **Jaemüügi parameetrid** oleva suvandiga sisse lülitatud. Samuti saab automaatsete kulude täiustatud arvutusviisi rakendada ainult jaemüügi müügitellimustele, mis on loodud jaemüügi kanalite kaudu (kassa, kõnekeskus ja Dynamicsi e-Commerce’i platvorm).
 
 See uus funktsioon pakub organisatsioonidele päisetasemel automaatsete kulude arvutamisel ja nende jaemüügi kannetele rakendamisel suuremat paindlikkust.
 
-Rakenduse Microsoft Dynamics 365 for Retail versioonides, mis on varasemad kui 10.0.1, arvutatakse päisetasemel automaatsed kulud, millel on kindel tarneviisi seos, ainult siis, kui tarneviisis esineb vastavus, mis on määratletud müügitellimuse päises.
+Rakenduse Retail versioonides, mis on varasemad kui 10.0.1, arvutatakse päisetasemel automaatsed kulud, millel on kindel tarneviisi seos, ainult siis, kui tarneviisis esineb vastavus, mis on määratletud müügitellimuse päises.
 
 Näiteks on päisetasemel automaatsed kulud määratletud tarneviisi **99** ja **11** puhul. Luuakse müügitellimus ja tarneviis **99** määratletakse tellimuse päises. Siiski on osa müügiridu seadistatud viisil, et nad saadetakse tarneviisiga **11**. Sellisel juhul arvestatakse ja rakendatakse müügitellimusele ainult päisetasemel kulud, mis on seotud tarneviisiga **99**.
 
-Rakenduses Dynamics 365 for Retail on päisetasemel kuludel täiendav funktsioon, mis võimaldab teil määratleda [mitmetasandilise tasu konfiguratsiooni](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery), mis põhineb tellimuse väärtusel. Näiteks kui tellimuse väärtus on vahemikus $50,00 ja $200,00, võib ettevõte võtta veokulude eest tasu $5,00. Kui tellimuse väärtus jääb vahemikku $200,01 ja $500,00, võiks veokulu olla $4,00.
+Rakenduses Retail on päisetasemel kuludel täiendav funktsioon, mis võimaldab teil määratleda [mitmetasandilise tasu konfiguratsiooni](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery), mis põhineb tellimuse väärtusel. Näiteks kui tellimuse väärtus on vahemikus $50,00 ja $200,00, võib ettevõte võtta veokulude eest tasu $5,00. Kui tellimuse väärtus jääb vahemikku $200,01 ja $500,00, võiks veokulu olla $4,00.
 
 Mõned ettevõtted soovivad mitmetasandilise tasu arvutamisega kaasnevaid eeliseid, mida pakuvad päisetasemel kulud. Siiski, stsenaariumites, kus on lubatud segatarneviisid, soovivad ettevõtted veenduda, et arvutatud kulud põhinevad tarneviisi vastavusel, mis on määratletud igal müügitellimuse real.
 

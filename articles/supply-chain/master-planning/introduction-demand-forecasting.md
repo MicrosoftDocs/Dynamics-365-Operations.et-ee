@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b71fde2d1b56b237dec2a08d3bd27e8ba6c35fef
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: 42631e8a5ac03eda65bf0f6ede03fa40a5ed2c4e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595542"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250756"
 ---
 # <a name="demand-forecasting-overview"></a>Nõudluse prognoosimise ülevaade
 
@@ -32,7 +32,7 @@ ms.locfileid: "1595542"
 
 Nõudluse prognoosimist kasutatakse müügitellimuste sõltumatu nõudluse ja klienditellimuste mistahes lahtisidestuspunktist sõltuva nõudluse ennustamiseks. Täiustatud nõudluse prognoosi vähendamise reeglid pakuvad ideaalset lahendusust masskohandamisele.
 
-Alusprognoosi loomiseks edastatakse kannete ajaloo kokkuvõte Azure’is hostitud Microsoft Azure’i masinõppe teenusele. Teenust ei jagata kasutajate vahel, mistõttu saab seda hõlpsalt tööstuspõhistele nõuetele kohandada. Finance and Operationsi abil saate prognoosi visualiseerida, korrigeerida ning vaadata prognoosi täpsuse jõudlusnäidikuid.
+Alusprognoosi loomiseks edastatakse kannete ajaloo kokkuvõte Azure’is hostitud Microsoft Azure’i masinõppe teenusele. Teenust ei jagata kasutajate vahel, mistõttu saab seda hõlpsalt tööstuspõhistele nõuetele kohandada. Supply Chain Managementi abil saate prognoosi visualiseerida, korrigeerida ning vaadata prognoosi täpsuse jõudlusnäidikuid.
 
 ## <a name="key-features-of-demand-forecasting"></a>Nõudluse prognoosimise võtmefunktsioonid
 Järgnevalt on toodud mõned nõudluse prognoosimise peamised funktsioonid:
@@ -49,8 +49,8 @@ Nõudluse prognoosimisse on rakendatud kolm põhiteemat.
 
 -   **Modulaarsus** – nõudluse prognoos on modulaarne ja hõlpsalt konfigureeritav. Konfiguratsioonivõtit muutes saate funktsiooni sisse ja välja lülitada, valides **Kaubandus** &gt; **Varude prognoos** &gt; **Nõudluse prognoos**.
 -   **Microsofti virna korduskasutus** – Microsoft käivitas masinõppe platvormi 2015. aasta veebruaris. Praeguseks Microsoft Cortana Analytics Suite’i kuuluva masinõppe abil saate kiiresti ja hõlpsalt luua ennetavaid analüüsikatseid, nagu nõudluse hinnangu katsed, kasutades programmeerimiskeelte R või Python algoritme ja lihtsat lohistamisega liidest.
-    -   Finance and Operationsi nõudluse prognoosimise katsed saate alla laadida, muuta neid vastavalt oma äritegevusele ning avaldada need Azure’is veebiteenusena, et kasutada neid nõudluse prognooside loomisel. Katsed on allalaadimiseks saadaval, kui olete ostnud Finance and Operationsi ettevõtte tasemel kasutaja tootmisplaneerija tellimuse.
-    -   Mistahes saadaolevaid nõudluse ennustuse katseid saate alla laadida [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/). Kui Finance and Operationsi nõudluse prognoosimise katsed integreeritakse Finance and Operationsis automaatselt, siis [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/) allalaaditud katseid tuleb klientidel ja partneritel iga integreerimiseks töödelda. Seetõttu pole [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/) allalaaditud katseid nii lihtne kasutada kui Finance and Operationsi nõudluse prognoosimise katseid. Katsete koodi tuleb muuta nii, et nende puhul kasutataks Finance and Operationsi rakenduse programmeerimisliidest (API).
+    -   Nõudluse prognoosimise katsed saate alla laadida, muuta neid vastavalt oma äritegevusele ning avaldada need Azure'is veebiteenusena, et kasutada neid nõudluse prognooside loomisel. Katsed on allalaadimiseks saadaval, kui olete ostnud Finance and Operationsi ettevõtte tasemel kasutaja tootmisplaneerija tellimuse.
+    -   Mistahes saadaolevaid nõudluse ennustuse katseid saate alla laadida [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/). Kui nõudluse prognoosimise katsed integreeritakse Finance and Operationsis automaatselt, siis [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/) allalaaditud katseid tuleb klientidel ja partneritel iga integreerimiseks töödelda. Seetõttu pole [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/) allalaaditud katseid nii lihtne kasutada kui Finance and Operationsi nõudluse prognoosimise katseid. Katsete koodi tuleb muuta nii, et nende puhul kasutataks Finance and Operationsi rakenduse programmeerimisliidest (API).
     -   Looge oma katsed Microsoft Azure Machine Learning Studios, avaldage need Azure’is teenustena ja kasutage neid nõudluse prognooside loomisel.
     -   Kui te ei vaja suurt jõudlust või suure hulga andmete töötlust, saate kasutada masinõppe tasuta kihti. Soovitame alati sellest kihist alustada, eriti juurutamise ja testimise faasis. Kui vajate suuremat jõudlust ja täiendavat salvestusruumi, saate kasutada masinõppe standardset kihti. See kiht nõuab Azure'i tellimust ja sellega kaasnevad lisakulud. Masinõppe hindade kohta vt lisateavet aadressil [Machine Learning Studio hinnad](https://aka.ms/machine-learning-price-info).
 -   **Prognoosi vähendamine mistahes lahtisidestuspunktis** – nõudluse prognoosimine Finance and Operationsis tugineb sellel funktsioonil, mis võimaldab prognoosida nii sõltuvat kui ka sõltumatut nõudlust mistahes lahtisidestuspunktis.
@@ -60,16 +60,16 @@ Järgmine diagramm näitab nõudluse prognoosimise põhivoogu.
 
 [![nõudluse prognoosimise sissejuhatav diagramm](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
-Nõudluse prognoosi loomine algab Finance and Operationsis. Finance and Operationsi kannete andmebaasist kogutakse ajaloolisi kandeandmeid ja täidetakse koondamistabelit. Hiljem söödetakse koondamistabel masinõppe teenusesse. Minimaalse kohandamisega saate koondamistabelisse ühendada mitmed andmeallikad. Andmeallikad võivad sisalda Microsoft Exceli faile, komaeraldusega (CSV) faile ning andmeid rakendustest Microsoft Dynamics AX 2009 ja Microsoft Dynamics AX 2012. Seega saate luua nõudluse prognoose, mis arvestavad mitmesuguste süsteemide vahel pillutatud ajaloolisi andmeid. Siiski peavad koondandmed, nagu nimed ja mõõtühikud, mitmesugustes andmeallikas samad olema.
+Nõudluse prognoosi loomine algab Supply Chain Managementist. Supply Chain Managementi kannete andmebaasist kogutakse ajaloolisi kandeandmeid ja täidetakse koondamistabelit. Hiljem söödetakse koondamistabel masinõppe teenusesse. Minimaalse kohandamisega saate koondamistabelisse ühendada mitmed andmeallikad. Andmeallikad võivad sisalda Microsoft Exceli faile, komaeraldusega (CSV) faile ning andmeid rakendustest Microsoft Dynamics AX 2009 ja Microsoft Dynamics AX 2012. Seega saate luua nõudluse prognoose, mis arvestavad mitmesuguste süsteemide vahel pillutatud ajaloolisi andmeid. Siiski peavad koondandmed, nagu nimed ja mõõtühikud, mitmesugustes andmeallikas samad olema.
 
-Finance and Operationsi nõudluse prognoosimise masinõppe katsete kasutamisel otsitakse alusprognoosi arvutamiseks kõige paremini sobivat viie ajaseeria prognoosimise meetodit. Nende prognoosimismeetodite parameetreid saate hallata Finance and Operationsis. 
+Nõudluse prognoosimise masinõppe katsete kasutamisel otsitakse alusprognoosi arvutamiseks kõige paremini sobivat viie ajaseeria prognoosimise meetodit. Nende prognoosimismeetodite parameetreid saate hallata Supply Chain Managementis. 
 
 Eelmistes iteratsioonides nõudluse prognoosides tehtud prognoosid, ajaloolised andmed ja mistahes muudatused on seejärel saadaval Finance and Operationsis. 
 
-Finance and Operationsi abil saate alusprognoose visualiseerida ja muuta. Enne prognooside planeerimises kasutamist tuleb käsitsi tehtud korrigeerimised autoriseerida.
+Supply Chain Managementi abil saate alusprognoose visualiseerida ja muuta. Enne prognooside planeerimises kasutamist tuleb käsitsi tehtud korrigeerimised autoriseerida.
 
 ## <a name="limitations"></a>Kitsendused
-Nõudluse prognoosimine Finance and Operationsis on tööriist, mis aitab tööstusvaldkonna klientidel prognoosimise protsesse luua. See pakub nõudluse prognoosimise põhifunktsioone ning on disainitud hõlpsalt laiendatavaks. Nõudluse prognoosimine ei pruugi olla parim lahendus sellistes valdkondades nagu jaemüük, hulgimüük, ladustamine, transport või muud professionaalsed teenused, tegutsevate klientide jaoks.
+Nõudluse prognoosimine on tööriist, mis aitab tööstusvaldkonna klientidel prognoosimise protsesse luua. See pakub nõudluse prognoosimise põhifunktsioone ning on disainitud hõlpsalt laiendatavaks. Nõudluse prognoosimine ei pruugi olla parim lahendus sellistes valdkondades nagu jaemüük, hulgimüük, ladustamine, transport või muud professionaalsed teenused, tegutsevate klientide jaoks.
 
 <a name="additional-resources"></a>Lisaressursid
 --------

@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (30. aprill, 2019)?
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (30. aprill, 2019)?
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/30/2019
@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 112146ac46193e37b33bf429dc5a359f8cfaca94
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 38158948dbcf8966edf49bcce5b1e5da7eddb8dc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505366"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026030"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-30-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (30. aprill, 2019)?
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-30-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (30. aprill, 2019)?
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="changes-in-attract"></a>Muutused Attractis
 
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Attract veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
 
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Onboard veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 
@@ -100,4 +100,4 @@ Võimalus jägida töötaja puhkuseaega ja mõista, kuidas puhkus on arvestatud,
 
 ### <a name="email-support-for-alerts"></a>E-posti tugi teatistele
 
-Platvormi värskendusega 26 saavad kasutajad luua teavituse reegleid, mis saadavad kontaktidele automaatselt sündmuse käivitatud meiliteateid.
+Finance and Operationsi platvormi värskenduses 26 saavad kasutajad luua teavituse reegleid, mis saadavad kontaktidele automaatselt sündmuse käivitatud meiliteateid.

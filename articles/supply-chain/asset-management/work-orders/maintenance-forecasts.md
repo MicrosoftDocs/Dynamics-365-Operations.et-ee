@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a416bbb79be3f25998d3c0da8d231d0df808685
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875612"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024495"
 ---
 # <a name="maintenance-forecasts"></a>Hooldusprognoosid
 
@@ -104,7 +104,7 @@ Saate töökäsule prognoosi ridu lisada või neid kustutada. Töökäsu tööts
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Töökäsu prognooside automaatne värskendamine
 
-Varahalduses saate mistahes tunnikulude, üksuse kulude ja teistes rakenduse Dynamics 365 for Finance and Operations moodulites värskendatud kuludega seotud töökäsu prognooside muudatusi automaatselt värskendada. Seda tehakse selleks, et kindlustada töökäsu prognoosides alati uusimate omahindade kasutamine. Sarnaseid värskendusi on võimalik teha ka [hooldustöö tüübi prognoosidele](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Varahalduses saate mistahes tunnikulude, üksuse kulude ja teistes moodulites värskendatud kuludega seotud töökäsu prognooside muudatusi automaatselt värskendada. Seda tehakse selleks, et kindlustada töökäsu prognoosides alati uusimate omahindade kasutamine. Sarnaseid värskendusi on võimalik teha ka [hooldustöö tüübi prognoosidele](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 1. Klõpsake **Varahaldus** > **Perioodiline** > **Prognoos** > **Värskenda töökäsu prognoosi**.
 

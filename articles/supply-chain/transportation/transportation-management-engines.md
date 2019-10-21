@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dff811723e25952b4c5af20262010ff4b910be7f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40539d649d3ee43fea8dc71f608dd6281d1c0e39
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553995"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251680"
 ---
 # <a name="transportation-management-engines"></a>Transpordihalduse mootorid
 
@@ -31,15 +31,15 @@ ms.locfileid: "1553995"
 
 Transpordihalduse mootorid määratlevad loogika, mida kasutatakse transpordihindade loomiseks ja töötlemiseks moodulis Transpordihaldus. 
 
-Transpordihalduse mootor arvutab toimingud nagu vedaja transpordihind. Mootori süsteem võimaldab muuta käitusajal arvutamise strateegiaid, tuginedes rakenduse Microsoft Dynamics 365 for Finance and Operations andmetele. Transpordihalduse mootor sarnaneb konkreetse vedaja lepinguga seotud lisandmoodulile.
+Transpordihalduse mootor arvutab toimingud nagu vedaja transpordihind. Mootorisüsteem võimaldab muuta käitusajal arvutusstrateegiaid, tuginedes Supply Chain Managementi andmetele. Transpordihalduse mootor sarnaneb konkreetse vedaja lepinguga seotud lisandmoodulile.
 
 ## <a name="what-engines-are-available"></a>Millised mootorid on olemas?
-Järgmises tabelis on rakenduses Microsoft Dynamics 365 for Finance and Operations saadaolevad transpordihalduse mootorid.
+Järgmises tabelis on näha saadaolevad transpordihalduse mootorid.
 
 | Transpordihalduse mootor | Kirjeldus                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Määramootor**                  | Arvutab hinnad.                                                                                                                                                                                                                                                                                                           |
-| **Üldine mootor**               | Lihtsad lisamootorid, mida kasutavad teised mootorid ja mis ei nõua rakenduse Microsoft Dynamics 365 for Finance and Operations andmeid, näiteks jaotamise mootor. Jaotamise mootoreid kasutatakse transpordi lõplike kulude vähendamiseks konkreetsete tellimuste ja ridade põhjal, mis põhinevad dimensioonidel (nt maht ja kaal). |
+| **Üldine mootor**               | Lihtsad lisamootorid, mida kasutavad teised mootorid ja mis ei nõua Supply Chain Managementi andmeid, näiteks jaotamise mootor. Jaotamise mootoreid kasutatakse transpordi lõplike kulude vähendamiseks konkreetsete tellimuste ja ridade põhjal, mis põhinevad dimensioonidel (nt maht ja kaal). |
 | **Läbisõidu mootor**               | Arvutab transpordi kauguse.                                                                                                                                                                                                                                                                                     |
 | **Transiitaja mootor**          | Arvutab lähtepunktist sihtpunkti liikumiseks vajaliku aja.                                                                                                                                                                                                                                       |
 | **Tsooni mootor**                  | Arvutab tsooni praeguse aadressi põhjal ja tsoonide arvu, mis tuleb aadressilt A aadressile B liikumiseks läbida.                                                                                                                                                                    |
@@ -62,23 +62,23 @@ Enamasti võite lähtestamise andmete konfigureerimiseks klõpsata nuppu **Param
 |          Parameeter           |                                                                                  Kirjeldus                                                                                  |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  <em>RateBaseAssigner</em>   | .NET-tüüp, mis tõlgendab hinna aluse määrangu andmeid konkreetse skeemi puhul. Parameetri väärtuse süntaks koosneb kahest segmendist, mis on piiritletud vertikaalribaga ( |
-|  <em>MileageEngineCode</em>  |                       Läbisõidumootori kood, mis tähistab läbisõidumootori kirjet rakenduse Microsoft Dynamics 365 for Finance and Operations andmebaasis.                        |
-| <em>ApportionmentEngine</em> |                        Üldise mootori kood, mis tähistab jaotamise mootorit rakenduse Microsoft Dynamics 365 for Finance and Operations andmebaasis.                        |
+|  <em>MileageEngineCode</em>  |                       Läbisõidumootori kood, mis tähistab läbisõidumootori kirjet andmebaasis.                        |
+| <em>ApportionmentEngine</em> |                        Üldise mootori kood, mis tähistab jaotamise mootorit andmebaasis.                        |
 
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Kuidas kasutatakse transpordihalduse mootorites metaandmeid?
 ----------------------------------------------------------
 
-Rakenduses Dynamics 365 for Finance and Operations määratletud andmetele tuginevad transpordihalduse mootorid võivad kasutada teistsuguseid andmeskeeme. Transpordihalduse süsteem võimaldab erinevatel transpordihalduse mootoritel kasutada samu üldise füüsilise andmebaasi tabeleid. Veendumaks, et mootori andmete käitusaja tõlgendus on õige, saate määratleda andmebaasitabelite metaandmed. See vähendab uute transpordihalduse mootorite loomise kulu, kuna Operationsis pole vaja täiendavaid tabeli- ja vormistruktuure.
+Supply Chain Managementis määratletud andmetele tuginevad transpordihalduse mootorid võivad kasutada teistsuguseid andmeskeeme. Transpordihalduse süsteem võimaldab erinevatel transpordihalduse mootoritel kasutada samu üldise füüsilise andmebaasi tabeleid. Veendumaks, et mootori andmete käitusaja tõlgendus on õige, saate määratleda andmebaasitabelite metaandmed. See vähendab uute transpordihalduse mootorite loomise kulu, kuna Operationsis pole vaja täiendavaid tabeli- ja vormistruktuure.
 
 ## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>Mida saab hinnaarvutustes otsinguandmetena kasutada?
-Andmeid, mida rakenduses Microsoft Dynamics 365 for Finance and Operations hindade arvutamiseks kasutate, kontrollitakse metaandmete konfiguratsiooniga. Näiteks kui soovite otsida hindu sihtnumbrite põhjal, peate seadistama metaandmed sihtnumbri otsingutüübi alusel.
+Andmeid, mida hindade arvutamiseks kasutate, kontrollitakse metaandmete konfiguratsiooniga. Näiteks kui soovite otsida hindu sihtnumbrite põhjal, peate seadistama metaandmed sihtnumbri otsingutüübi alusel.
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Kas kõik mootorikonfiguratsioonid nõuavad metaandmeid?
 Ei, hinnaarvutuseks välistest süsteemidest andmete toomiseks kasutatavad transpordihalduse mootorid ei vaja metaandmeid. Nende mootorite jaoks saab hinnaandmed tuua välistest vedaja süsteemidest, tavaliselt veebiteenuse kaudu. Näiteks saate kasutada läbisõidumootorit, mis toob andmed otse Bingi kaartidest, seega pole selle mootori jaoks metaandmeid vaja.
 
 | **Märkus.**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Transpordihalduse mootorid, mis on Finance and Operationsiga kaasas, tuginevad rakendusest toodud andmetele. Väliste süsteemidega ühenduvaid mootoreid pole Operationsiga kaasas. Kuid mootoripõhise laiendatavusega mudel võimaldab luua laiendusi, kasutades rakenduse Microsoft Dynamics 365 for Finance and Operations Visual Studio tööriistu. |
+| Transpordihalduse mootorid, mis on Supply Chain Managementiga kaasas, tuginevad rakendusest toodud andmetele. Väliste süsteemidega ühenduvaid mootoreid pole Operationsiga kaasas. Kuid mootoripõhise laiendatavusega mudel võimaldab luua laiendusi, kasutades rakenduse Visual Studio tööriistu. |
 
 ## <a name="how-do-i-configure-metadata-for-a-transportation-management-engine"></a>Kuidas konfigureerida transpordihalduse mootori metaandmeid?
 Transpordihalduse mootorite metaandmed konfigureeritakse erinevate mootori tüüpide puhul erinevalt.
@@ -99,8 +99,3 @@ Transpordihalduse mootorite metaandmed konfigureeritakse erinevate mootori tüü
 | 3        | Sihtkoha alguse sihtnumber | Määramine | String    | Sihtnumber    | Valitud  |
 | 4        | Sihtkoha lõpu sihtnumber   | Määramine | String    | Sihtnumber    | Valitud  |
 | 5        | Sihtriik           | Määramine | String    | Riik/regioon |           |
-
-
-
-
-

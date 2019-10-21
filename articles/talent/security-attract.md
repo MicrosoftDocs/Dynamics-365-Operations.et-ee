@@ -1,6 +1,6 @@
 ---
 title: Turvalisus ja rollihaldus Attractis
-description: Teema sisaldab teavet rolliturbe kohta rakenduses Microsoft Dynamics 365 for Talent - Attract.
+description: Teema sisaldab teavet rolliturbe kohta rakenduses Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3f804b5f79b813cf504c3deb4a95e678c6fcbf87
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ad94a7511afef0c68fb8f2a70402babb80b0f9ad
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739836"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024189"
 ---
 # <a name="set-user-permissions"></a>Kasutajaõiguste seadistamine
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract kasutab rollipõhist turvet. Teisisõnu ei anta juurdepääsu üksikkasutajatele vaid kasutajatele määratud turberollidele. Kasutajal, kellele on määratud turberoll, on ligipääs selle rolliga seotud määratud privileegidele.
+Microsoft Dynamics 365 Talent: Attract kasutab rollipõhist turvet. Teisisõnu ei anta juurdepääsu üksikkasutajatele vaid kasutajatele määratud turberollidele. Kasutajal, kellele on määratud turberoll, on ligipääs selle rolliga seotud määratud privileegidele.
 
 Attractis on viis põhilist kasutaja rolli.
 

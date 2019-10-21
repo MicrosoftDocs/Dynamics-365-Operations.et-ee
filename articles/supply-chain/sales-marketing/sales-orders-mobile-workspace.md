@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 00ea121385d74b3f8992d34fb485a8232325ea3f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835738"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251617"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Müügitellimuste mobiilne tööruum
 
@@ -31,7 +31,7 @@ ms.locfileid: "1835738"
 
 Teema annab teavet **müügitellimuste** mobiilse tööruumi kohta. See tööruum aitab teil olla oma müügitellimustega alati kõikjal kursis. 
 
-See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Microsoft Dynamics 365 for Unified Operations.
+See mobiilne tööruum on mõeldud kasutamiseks mobiilirakendusega Finance and Operations.
 
 ## <a name="overview"></a>Ülevaade
 **Müügitellimuste** mobiilne tööruum võimaldab vaadata üksikasjalikku teavet iga müügitellimuse kohta. See teave hõlmab tellimuse olekut, kliendi kontaktteavet ja tellimuse vastuvõtja kontaktteavet. Mobiilne tööruum **Müügitellimused** annab müügitellimustest kiirülevaate. Saate vaadata kõiki müügitellimusi, müügitellimusi klientide kaupa või konkreetse müügitellimuse andmeid. 
@@ -83,8 +83,8 @@ Selles vaates on loetletud müügitellimused kliendi järgi.
 ## <a name="prerequisites"></a>Eeltingimused
 Eeltingimused erinevad olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Eeltingimused, kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations 
-Kui teie organisatsioonis on juurutatud Dynamics 365 for Finance and Operations, peab süsteemiadministraator avaldama mobiilse tööruumi **Müügitellimused**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Eeltingimused, kui kasutate Supply Chain Managementi 
+Kui teie organisatsioonis on juurutatud Supply Chain Management, peab süsteemiadministraator avaldama mobiilse tööruumi **Müügitellimused**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused, kui kasutate rakenduse Dynamics 365 for Operations versiooni 1611 platvormivärskendusega 3 või uuemat
 Kui teie organisatsioonis on juurutatud Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 
@@ -120,7 +120,7 @@ Kui teie organisatsioonis on juurutatud Dynamics 365 for Operationsi versioon 16
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Laadige alla ja installige mobiilirakendus
-Laadige alla ja installige Dynamics 365 for Unified Operationsi mobiilirakendus.
+Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 
 -   [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)

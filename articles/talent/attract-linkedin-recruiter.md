@@ -1,6 +1,6 @@
 ---
-title: Kandidaatide otsimine teenusega LinkedIn Recruiter rakenduses Microsoft Dynamics 365 for Talent - Attract
-description: Kasutage programmi Microsoft Dynamics 365 for Talent - Attract pakutavat LinkedIni integratsiooni, et otsida kandidaate LinkedIn Recruiter kaudu.
+title: Kandidaatide otsimine teenusega LinkedIn Recruiter rakenduses Microsoft Dynamics 365 Talent – Attract
+description: Kasutage programmi Microsoft Dynamics 365 Talent – Attract pakutavat LinkedIni integratsiooni, et otsida kandidaate LinkedIn Recruiter kaudu.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -19,17 +19,17 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 14aba16fa81a8f25d0f88247319254407d428b2a
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739445"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008566"
 ---
 # <a name="source-candidates-with-linkedin-recruiter"></a>Kandidaatide hankimine teenuse LinkedIn Recruiter abil
 [!include[banner](../includes/banner.md)]
 
-LinkedIn on maailma suurim tööalane veebivõrgustik, mis annab ligipääsu maailma tipptalentidele. Microsoft Dynamics 365 for Talent: Attract võimaldab otsida kandidaate otse LinkedInist. Seetõttu on väga lihtne leida talente, keda vajate vabade ametikohtade täitmisel. Pärast LinkedIniga ühenduse seadistamist Attracti kaudu saate vaadata potentsiaalseid LinkedIni kandidaate oma ametikohtadele ja eksportida need ainult ühe hiireklõpsuga rakendusse Attract.
+LinkedIn on maailma suurim tööalane veebivõrgustik, mis annab ligipääsu maailma tipptalentidele. Microsoft Dynamics 365 Talent: Attract võimaldab otsida kandidaate otse LinkedInist. Seetõttu on väga lihtne leida talente, keda vajate vabade ametikohtade täitmisel. Pärast LinkedIniga ühenduse seadistamist Attracti kaudu saate vaadata potentsiaalseid LinkedIni kandidaate oma ametikohtadele ja eksportida need ainult ühe hiireklõpsuga rakendusse Attract.
 
 Kui teil seda võimalust ei ole, pöörduge administraatori poole. Enne kui saate ära kasutada teenuse LinkedIn Recruiter Attracti võimalused, peab teie administraator [seadistama integratsiooni LinkedIniga.](./attract-admin-linkedin.md) Seejärel saate häälestada ühenduse teenusega LinkedIn Recruiter ja alustada kandidaatide leidmisega.
 

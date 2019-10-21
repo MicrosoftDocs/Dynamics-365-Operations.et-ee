@@ -1,6 +1,6 @@
 ---
-title: Sisseelamisjuhendite uuendamine rakenduses Dynamics 365 for Talent - Onboard
-description: Selles teemas selgitatakse, kuidas värskendada Microsoft Dynamics 365 for Talent - Onboard sisseelamisjuhendeid ja kuidas muuta olemasolevaid juhendeid.
+title: 'Sisseelamisjuhendite uuendamine rakenduses Dynamics 365 Talent: Onboard'
+description: 'Selles teemas selgitatakse, kuidas värskendada Microsoft Dynamics 365 Talent: Onboard sisseelamisjuhendeid ja kuidas muuta olemasolevaid juhendeid.'
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2be450685724510db2f0fd2af8545f8f40278e7
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731439"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010725"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-for-talent-onboard"></a>Sisseelamisjuhendite uuendamine rakenduses Dynamics 365 for Talent: Onboard
+# <a name="update-onboarding-guides"></a>Sisseelamisjuhendite uuendamine
 
 [!include [banner](includes/banner.md)]
 
-Kui peate muutma Microsofti Dynamics 365 for Talent: Onboardi sisseelamisjuhendeid, saate neid värskendada ja muuta isegi siis, kui olete juba saatnud juhendid. Teil on kaks võimalust sisseelamisjuhendite uuendamiseks.
+Kui peate muutma Microsofti Dynamics 365 Talent: Onboard sisseelamisjuhendeid, saate neid värskendada ja muuta isegi siis, kui olete juba saatnud juhendid. Teil on kaks võimalust sisseelamisjuhendite uuendamiseks.
 
 - Redigeerige otse sisseelamisjuhendit ja salvestage muudatused.
 - Redigeerige sisseelamismalli ja seejärel lisage muudatused kõik selle kohta loodud sisseelamisjuhenditesse.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7acf4e5397ee7276b0f881f4859267371266de0
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553434"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249536"
 ---
 # <a name="inventory-journals"></a>Laotöölehed
 
@@ -33,7 +33,7 @@ ms.locfileid: "1553434"
 
 Selles teemas kirjeldatakse, kuidas kasutada laotöölehti eri tüüpi füüsiliste laokannete sisestamiseks.
 
-Laotöölehti kasutatakse rakenduses Microsoft Dynamics 365 for Finance and Operations mitmesuguste füüsiliste laokannete sisestamiseks, nt väljaminekute ja sissetulekute, varude liikumiste, koosluste loomise ning füüsiliste varude vastavusseviimise sisestamiseks. Kõiki neid laotöölehti kasutatakse sarnasel viisil, kuid need on jagatud erinevateks tüüpideks.
+Laotöölehti kasutatakse Supply Chain Managementis mitmesuguste füüsiliste laokannete sisestamiseks, nt väljaminekute ja sissetulekuste, varude liikumiste, koosluste loomise ja füüsiliste varude vastavusseviimise sisestamiseks. Kõiki neid laotöölehti kasutatakse sarnasel viisil, kuid need on jagatud erinevateks tüüpideks.
 
 ## <a name="types-of-inventory-journals"></a>Laotöölehtede tüübid
 Saadaval on järgmist tüüpi laotöölehti.
@@ -68,7 +68,7 @@ Kui kinnitate koosluse lõpetatuks, saate luua koosluse töölehe. Koosluse tö�
 
 ### <a name="item-arrival"></a>Kauba saabumine
 
-Saate kasutada kauba saabumistöölehte kaupade sissetuleku registreerimiseks (nt ostutellimustelt). Kauba saabumistöölehe saab luua saabumise haldamise käigus lehelt **Saabumisülevaade** või töölehe sisestuse saab luua käsitsi lehelt **Kauba saabumine**. Kui lubate kauba saabumise töölehe nime puhul komplekteerimiskohtade otsimise, otsib Finance and Operations saadud kaupade asukohta ja kui ruumi on, loob sissetulevatele kaupadele sihtkohad.
+Saate kasutada kauba saabumistöölehte kaupade sissetuleku registreerimiseks (nt ostutellimustelt). Kauba saabumistöölehe saab luua saabumise haldamise käigus lehelt **Saabumisülevaade** või töölehe sisestuse saab luua käsitsi lehelt **Kauba saabumine**. Kui lubate kauba saabumise töölehe nime puhul komplekteerimiskohtade otsimise, otsib Supply Chain Management saadud kaupade asukohta ja kui ruumi on, loob sissetulevatele kaupadele sihtkohad.
 
 ### <a name="production-input"></a>Materjalid tootmisse
 
@@ -103,7 +103,7 @@ Andmeüksused toetavad järgmist tüüpi integratsioonistsenaariume:
 Lisateavet vt jaotisest [Andmeüksused](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> Kõigis laotöölehtedes pole OData lubatud, seetõttu ei saa te andmete avaldamiseks, värskendamiseks ja rakendusse Dynamics 365 for Finance and Operations tagasi importimiseks kasutada Exceli andmekonnektorit. 
+> Kõigis laotöölehtedes pole OData lubatud, seetõttu ei saa te andmete avaldamiseks, värskendamiseks ja Supply Chain Managementi tagasi importimiseks kasutada Exceli andmekonnektorit. 
 
 Veel üks töölehe andmeüksuste erinevus on võimalus kasutada liitüksuseid, mis sisaldavad nii päist kui ka rea andmeid. Praegu saate liitüksuseid kasutada järgneva jaoks.
 -   Varude korrigeerimistööleht

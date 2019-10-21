@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742629"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025049"
 ---
 # <a name="retail-peripherals"></a>Jaemüügi välisseadmed
 
@@ -116,9 +116,9 @@ Makseseadme tugi juurutatakse makseliidese kaudu. Makseseadmed võivad täita ü
 
 ### <a name="opos"></a>OPOS
 
-Selleks et Microsoft Dynamics 365 for Retailiga saaks kasutada suurimat seadmevalikut, on valdkonna standard Objektilinkimine ja -manustamine müügikohas peamine jaemüügi välisseadmete platvorm, mida Microsoft Dynamics 365 for Retail toetab. Standardi Objektilinkimine ja -manustamine müügikohas looja on organisatsioon National Retail Federation (NRF), mis kehtestab jaemüügi välisseadmetele standardsed sideprotokollid. OPOS on standardi Objektilinkimine ja -manustamine müügikohas laialdaselt kasutatav juurutus. See töötati välja 1990. aastate keskel ja seda on sestsaadik mitu korda uuendatud. OPOS pakub seadmedraiveri arhitektuuri, mis võimaldab kassa riistvara hõlpsat integreerimist Windowsi-põhiste kassasüsteemidega. OPOS-i juhtelemendid tegelevad ühilduva riistvara ja kassatarkvara vahelise sidega. OPOS-i juhtelement koosneb kahest osast.
+Selleks et Retailiga saaks kasutada suurimat seadmevalikut, on valdkonna standard Objektilinkimine ja -manustamine müügikohas peamine toetatud jaemüügi välisseadmete platvorm. Standardi Objektilinkimine ja -manustamine müügikohas looja on organisatsioon National Retail Federation (NRF), mis kehtestab jaemüügi välisseadmetele standardsed sideprotokollid. OPOS on standardi Objektilinkimine ja -manustamine müügikohas laialdaselt kasutatav juurutus. See töötati välja 1990. aastate keskel ja seda on sestsaadik mitu korda uuendatud. OPOS pakub seadmedraiveri arhitektuuri, mis võimaldab kassa riistvara hõlpsat integreerimist Windowsi-põhiste kassasüsteemidega. OPOS-i juhtelemendid tegelevad ühilduva riistvara ja kassatarkvara vahelise sidega. OPOS-i juhtelement koosneb kahest osast.
 
-- **Juhtimisobjekt** – seadmeklassi (nt ridade kuvarite) juhtimisobjekt pakub tarkvaraprogrammi liidest. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) pakub standardset OPOS-i juhtimisobjektide kogumit, mida tuntakse kui üldisi juhtimisobjekte (CCO-sid). CCO-sid kasutatakse Microsoft Dynamics 365 for Retaili kassakomponendi katsetamiseks. Seega aitab katsetamine tagada, et kui Microsoft Dynamics 365 for Retail toetab OPOS-i kaudu seadmeklassi, siis saab toetada paljusid seadmetüüpe eeldusel, et tootja pakub OPOS-i jaoks loodud hooldusobjekti. Iga seadmetüüpi pole vaja otseselt testida.
+- **Juhtimisobjekt** – seadmeklassi (nt ridade kuvarite) juhtimisobjekt pakub tarkvaraprogrammi liidest. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) pakub standardset OPOS-i juhtimisobjektide kogumit, mida tuntakse kui üldisi juhtimisobjekte (CCO-sid). CCO-sid kasutatakse Retaili kassakomponendi katsetamiseks. Seega aitab katsetamine tagada, et kui Retail toetab OPOS-i kaudu seadmeklassi, siis saab toetada paljusid seadmetüüpe eeldusel, et tootja pakub OPOS-i jaoks loodud hooldusobjekti. Iga seadmetüüpi pole vaja otseselt testida.
 - **Hooldusobjekt** – hooldusobjekt tagab juhtimisobjekti (CCO) ja seadme vahelise side. Tavaliselt annab seadme hooldusobjekti seadme tootja. Kuid mõnel juhul võib teil olla vaja hooldusobjekt tootja veebisaidilt alla laadida. Näiteks võib olla saadaval uuem hooldusobjekt. Tootja veebisaidi aadressi leiate oma riistvara dokumentidest.
 
 [![Kontrolli objekti ja teenuse objekti](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -126,7 +126,7 @@ Selleks et Microsoft Dynamics 365 for Retailiga saaks kasutada suurimat seadmeva
 Juhtimisobjekt ja hooldusobjekt kassa OLE OPOS-i juurutuse tugi aitab tagada, et kui seadme tootjad ja kassa avaldajad juurutavad standardi õigesti, siis töötavad kassasüsteemid ja toetatud seadmed koos, isegi, kui neid eelnevalt koos ei testitud.
 
 > [!NOTE]
-> OPOS-i tugi ei garanteeri kõigi OPOS-i draiveritega seadmete tuge. Microsoft Dynamics 365 for Retail peab seda seadmetüüpi või -klassi esmalt OPOS-i kaudu toetama. Lisaks ei pruugi hooldusobjektid CCO-de viimase versiooni suhtes alati ajakohased olla. Peaksite arvestama ka seda, et üldjuhul on hooldusobjektide kvaliteet erinev.
+> OPOS-i tugi ei garanteeri kõigi OPOS-i draiveritega seadmete tuge. Retail peab seda seadmetüüpi või -klassi esmalt OPOS-i kaudu toetama. Lisaks ei pruugi hooldusobjektid CCO-de viimase versiooni suhtes alati ajakohased olla. Peaksite arvestama ka seda, et üldjuhul on hooldusobjektide kvaliteet erinev.
 
 ### <a name="windows"></a>&Aknad...
 
@@ -136,7 +136,7 @@ Kassas kviitungite printimine on OPOS-i jaoks optimeeritud. OPOS on tavaliselt p
 - Printeri kaudu ühendatud (pärgühendusega) seadmed ei pruugi Windowsi draiverite kasutamisel õigesti töötada. Näiteks sularahasahtel ei pruugi avaneda või kviitungiprinter ei pruugi oodatud viisil töötada.
 - OPOS toetab alati ulatuslikumat jaemüügi kviitungiprinterite põhiste muutujate kogumit, nt paberi lõikamist või kviitungi printimist.
 
-Kui OPOS-i juhtelemendid on kasutatava Windowsi printeri puhul saadaval, peaks printer ikkagi Microsoft Dynamics 365 for Retailiga õigesti töötama.
+Kui OPOS-i juhtelemendid on kasutatava Windowsi printeri puhul saadaval, peaks printer ikkagi Retailiga õigesti töötama.
 
 ### <a name="universal-windows-platform"></a>Universaalne Windowsi platvorm
 
@@ -192,7 +192,7 @@ Võrgu välisseadmetele saab määrata IP-aadresse kahest kohast. Kui Modern POS
 
 #### <a name="modern-pos-for-android"></a>Modern POS Androidile
 
-Alates Dynamics 365 for Retail versioonist 8.1.3, sisaldab rakendus Modern POS Androidile sisse-ehitatud IPC riistvarajaama. See riistvarajaam toetab suhtlemist võrguprinterite ja maksekonnektoritega. Lisateabe saamiseks külastage artiklit [Hübriidrakendus Androidi dokkidele](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+Alates Retaili versioonist 8.1.3, sisaldab rakendus Modern POS Androidile sisse-ehitatud IPC riistvarajaama. See riistvarajaam toetab suhtlemist võrguprinterite ja maksekonnektoritega. Lisateabe saamiseks külastage artiklit [Hübriidrakendus Androidi dokkidele](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>Pilvekassa ja tänapäevane kassa iOS-ile
 
@@ -526,7 +526,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 Lisateavet riistvaraprofiilide loomise kohta leiate jaotisest [Kanaliklientide (sh registrite ja riistvarajaamade) määratlemine ja haldamine](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
-> Microsoft Dynamics 365 for Retaili versiooni 1611 puhul riistvarajaama profiili enam ei kasutata. Atribuudid, mille varem riistvarajaama profiilis seadistasite, kuuluvad nüüd riistvarajaama juurde.
+> Retaili versiooni 1611 puhul riistvarajaama profiili enam ei kasutata. Atribuudid, mille varem riistvarajaama profiilis seadistasite, kuuluvad nüüd riistvarajaama juurde.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>IPC (integreeritud) riistvarajaamaga Modern POS Windowsile
 

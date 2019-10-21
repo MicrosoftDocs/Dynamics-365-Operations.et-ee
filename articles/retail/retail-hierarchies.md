@@ -1,6 +1,6 @@
 ---
 title: Jaemüügihierarhiad
-description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Retaili jaemüügihierarhiaid.
+description: Selles artiklis kirjeldatakse Dynamics 365 Retaili jaemüügihierarhiaid.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb383c5bc5ad5d641db6f30e915ea43ba5980005
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568018"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025073"
 ---
 # <a name="retail-hierarchies"></a>Jaemüügihierarhiad
 
 [!include [banner](includes/banner.md)]
 
-Selles artiklis kirjeldatakse Microsoft Dynamics 365 for Retaili jaemüügihierarhiaid.
+Selles artiklis kirjeldatakse Dynamics 365 Retaili jaemüügihierarhiaid.
 
 Saate luua jaemüügi kategooriahierarhia, et korraldada jaemüügikanalite kaudu müüdavaid tooteid. Jaemüügi tootehierarhiate abil saate tooteid kategoriseerida või grupeerida. Seejärel saate neid tooteid kasutada tootesortimentide ja püsikliendiprogrammide loomiseks. Saate ka määrata toote atribuute ja omadusi, määrata hinnakujunduse struktuuri, kaasata tooteid tootekampaaniatesse ja kasutada tooteid aruandluseks. Saate luua ühe jaemüügi kategooriahierarhia esindama kõiki organisatsiooni tooteid ja kategooriaid ning seejärel kasutada seda kategooriahierarhiat mitmel eesmärgil. Samuti on teil võimalik luua mitu jaemüügi kategooriahierarhiat eriotstarbeks, näiteks tootekampaaniate jaoks. Jaemüügi tootehierarhia loomisel tuleb määrata kategooria hierarhia tüüp, et tuvastada kategooriahierarhia eesmärk. Näiteks viidatakse toote sirvimisel võrgus või kassas ainult tootehierarhiaid, millele on määratud tüüp **Jaemüügi navigeerimishierarhia**.
 

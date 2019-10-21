@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561258"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249421"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Ostutellimuse kinnitamise mobiilne tööruum
 
@@ -35,13 +35,13 @@ See teema annab teavet **ostutellimuse kinnitamise** mobiilse tööruumi kohta. 
 ## <a name="overview"></a>Ülevaade 
 Kinnitamist nõudvad ostutellimused läbivad kinnitamise töövoo. See töövoog võib sisaldada mitmesuguseid samme, mis nõuavad vähemalt ühe inimese tegevusi. Näiteks võib inimesel olla vaja mõni ülesanne täita või ostutellimus kinnitada. 
 
-**Ostutellimuse kinnitamise** mobiilne tööruum võimaldab ostutellimusi mobiilselt seadmelt hõlpsasti vaadata ja neile reageerida. See tööruum võimaldab teha ka samu töövootegevusi, mida saate teha rakenduse Microsoft Dynamics 365 for Finance and Operations veebikliendist.
+**Ostutellimuse kinnitamise** mobiilne tööruum võimaldab ostutellimusi mobiilselt seadmelt hõlpsasti vaadata ja neile reageerida. See tööruum võimaldab teha ka samu töövootegevusi, mida saate teha rakenduse veebikliendist.
 
 ## <a name="prerequisites"></a>Eeltingimused
-Eeltingimused erinevad, olenevalt teie organisatsioonis juurutatud Finance and Operationsi versioonist.
+Eeltingimused erinevad, olenevalt teie organisatsioonis juurutatud Supply Chain Managementi versioonist.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Eeltingimused, kui kasutate rakendust Microsoft Dynamics 365 for Finance and Operations 
-Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Finance and Operations, peab süsteemiadministraator avaldama mobiilse tööruumi **Ostutellimuse heakskiitmine**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Eeltingimused, kui kasutate Supply Chain Managementi 
+Kui teie organisatsioonis on juurutatud Finance and Operations, peab süsteemiadministraator avaldama mobiilse tööruumi **Ostutellimuse heakskiitmine**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Eeltingimused, kui kasutate rakenduse Microsoft Dynamics 365 for Operations versiooni 1611 platvormivärskendusega 3 või uuemat
 Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi versioon 1611 platvormivärskendusega 3 või uuem, peab süsteemiadministraator täitma järgmised eeltingimused. 
@@ -75,7 +75,7 @@ Kui teie organisatsioonis on juurutatud Microsoft Dynamics 365 for Operationsi v
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Laadige alla ja installige mobiilirakendus
-Laadige alla ja installige Microsoft Dynamics 365 for Unified Operationsi mobiilirakendus.
+Laadige alla ja installige Finance and Operationsi mobiilirakendus.
 
 - [Androidi telefonide puhul](https://go.microsoft.com/fwlink/?linkid=850662)
 - [iPhone’idele](https://go.microsoft.com/fwlink/?linkid=850663)

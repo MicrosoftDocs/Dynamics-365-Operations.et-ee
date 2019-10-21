@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0a31ea7d1df33d3f42e95d5e1152f00687954b04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3a6e7556705249296d4f5e5fb56f25b444f8f71a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517764"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008147"
 ---
 # <a name="create-fixed-compensation-plans"></a>Põhipalgaplaanide loomine
 
@@ -31,7 +31,7 @@ ms.locfileid: "1517764"
 
 Põhipalk on töötaja regulaarne brutopalk või tasu. See teema kirjeldab komponente, mis peavad olema seadistatud, enne kui saate luua põhipalga plaani ja töötajaid registreerida.
 
-Põhipalga summad saab töötajatele arvutada tegurite põhjal nagu jõudlus, regioon ja eelarve suurenemine. Microsoft Talent toetab etapi, klassi ja astmiku palgatüüpe.
+Põhipalga summad saab töötajatele arvutada tegurite põhjal nagu jõudlus, regioon ja eelarve suurenemine. Dynamics 365 Talent toetab etapi, klassi ja astmiku palgatüüpe.
 
 ## <a name="fixed-compensation-components"></a>Põhipalga osad
 ### <a name="compensation-levels"></a>Palgatasemed

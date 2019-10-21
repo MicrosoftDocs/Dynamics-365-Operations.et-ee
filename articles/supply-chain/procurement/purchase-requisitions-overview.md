@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0e571f5c83affa56c230e1f597e219eb60973225
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572021"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248871"
 ---
 # <a name="purchase-requisition-overview"></a>Ostutaotluse ülevaade
 
@@ -38,7 +38,7 @@ Pärast ostutaotluse kinnitamist saab seda kasutada ostutellimuse loomiseks. Ost
 ## <a name="creating-purchase-requisitions"></a>Ostutaotluste loomine
 Ostutaotluse saate luua leheküljel **Minu ostutaotlused** ja valida kaubad ja teenused, mida vajate. Saate valida kaupu organisatsiooni loodud hankekataloogist või taotleda kataloogist puuduvaid tooteid, valides hankekategooria ja sisestades toote üksikasjad.  
 
-Enne ostutaotluse ülevaatuseks edastamist tuleb töövood rakenduses Microsoft Dynamics 365 for Finance and Operations konfigureerida. Töövoogu kasutades saate ostutaotlust ülevaatuse protsessis algsest olekust **Mustand** lõplikku olekusse **Kinnitatud** liigutada.
+Enne ostutaotluse ülevaatuseks edastamist tuleb töövood konfigureerida. Töövoogu kasutades saate ostutaotlust ülevaatuse protsessis algsest olekust **Mustand** lõplikku olekusse **Kinnitatud** liigutada.
 
 ### <a name="purchase-requisition-statuses"></a>Ostutellimuse olekud
 
@@ -141,7 +141,7 @@ Organisatsiooni jaoks loodava taotluse jaoks saadaolevaid eesmärke saate juhtid
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Taotlused, mille eesmärk on tarbimine
 
-Tarbimise eesmärgil loodav taotlus tähistab nõudlust kaupade või teenuste järele, mida kasutatakse organisatsioonisiseselt. Seda tüüpi taotluse loodud nõudluse täidab alati ostutellimus. Kui Microsoft Dynamics 365 for Finance and Operations on seadistatud automaatselt ostutellimusi looma, luuakse ostutellimused pärast ostutaotluse kinnitamist.
+Tarbimise eesmärgil loodav taotlus tähistab nõudlust kaupade või teenuste järele, mida kasutatakse organisatsioonisiseselt. Seda tüüpi taotluse loodud nõudluse täidab alati ostutellimus. Kui Supply Chain Management on seadistatud automaatselt ostutellimusi looma, luuakse ostutellimused pärast ostutaotluse kinnitamist.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Taotlused, mille eesmärk on täiendamine
 

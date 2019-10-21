@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d238bb31537a21f46c252fbee400fe61901e650
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790483"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250917"
 ---
 # <a name="maintenance-requests"></a>Puudumistaotluste loomine
 
@@ -31,7 +31,7 @@ ms.locfileid: "1790483"
 
 [!include [banner](../../includes/preview-banner.md)]
 
-Saate seadistada teie eri tüüpi taotlusi oma ettevõttes kasutamiseks. Hooldustaotlused on üks tüüp. Hooldustaotlusi kasutatakse selleks, et taotleda kindla töö jaoks töökäsu esitamist. Hooldustaotluse saab luua iga kasutaja, kellel on juurdepääs varahalduse funktsioonile rakenduses Microsoft Dynamics 365 for Finance and Operations. Planeerija või haldur saab seejärel otsustada, kas hooldustaotlus tuleks teisendada töökäsuks või kas see peaks täitma oma elutsükli.
+Saate seadistada teie eri tüüpi taotlusi oma ettevõttes kasutamiseks. Hooldustaotlused on üks tüüp. Hooldustaotlusi kasutatakse selleks, et taotleda kindla töö jaoks töökäsu esitamist. Hooldustaotluse saab luua iga kasutaja, kellel on juurdepääs varahalduse funktsioonile rakenduses Asset Management. Planeerija või haldur saab seejärel otsustada, kas hooldustaotlus tuleks teisendada töökäsuks või kas see peaks täitma oma elutsükli.
 
 ## <a name="view-maintenance-requests"></a>Puudumistaotluste loomine
 

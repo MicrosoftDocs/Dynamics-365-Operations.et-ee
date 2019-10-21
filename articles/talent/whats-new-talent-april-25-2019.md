@@ -1,6 +1,6 @@
 ---
-title: Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (23. aprill, 2019)?
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (23. aprill, 2019)?
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/23/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 1a70be88e3ab65bb0bdd844347e8ba69e4ba61a5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624577"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024110"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 for Talent (23. aprill, 2019)?
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (23. aprill, 2019)?
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="changes-in-attract"></a>Muutused Attractis
-Selles versioonis on väikesed rakenduse Dynamics 365 for Talent: Attract veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
-Selles versioonis on väikesed rakenduse Dynamics 365 for Talent: Onboard veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2253. Sulgudes olevad numbrid viitavad toenumbritele teenuses Lifecycle Services (LCS).
@@ -79,4 +79,4 @@ Selle muudatusega tuvastatakse nimeväljade sisestamisel duplikaadid ja olek nä
 ## <a name="known-issues"></a>Teadaolevad probleemid
 
 ### <a name="email-support-for-alerts"></a>E-posti tugi teatistele
-Platvormi värskendusega 26 saavad kasutajad luua teavituse reegleid, mis saadavad kontaktidele automaatselt sündmuse käivitatud meiliteateid.
+Finance and Operationsi platvormi 26. uuendusega saavad kasutajad luua alarmide reegleid, mis saadavad sündmuse poolt käivitades automaatselt kontaktidele meiliteavitusi.

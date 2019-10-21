@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9efbd9651f6a2fa57e761238c6acfe6111e986e6
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874758"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249605"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Hooldustöö tüübi kategooriad ja hooldustöö tüübid, hooldustöö tüübi variandid, hooldustööde vahetused ja hoolduse kontrollnimekirjad
 
@@ -225,7 +225,7 @@ Hoolduse kontrollnimekirja malle saab kasutada tavalise tööülesandekogumina, 
 26. Manuste seadistamiseks valitud hooldustöö tüübi vaikereal valige **Manusta dokumendid**. Manused, mis on seadistatud hooldustöö tüübi vaikereale, lisatakse automaatselt töökorralduse ridadele, mis kasutavad seda hooldustöö tüübi vaikerida.
 27. Valige **Uus** ja valige siis dokumenditüüp.
 28. Laadige dokument või fail üles.
-29. Seadistage väljad lehel **Manused**. Manuse seadistus kasutab standardseid dokumendi seadistamise funktsioone rakenduses Microsoft Dynamics 365 for Finance and Operations.
+29. Seadistage väljad lehel **Manused**. Manuse seadistus kasutab standardseid dokumendi seadistamise funktsioone.
 30. Manuse salvestamiseks valige **Salvesta**.
 
     > [!NOTE]
@@ -261,7 +261,7 @@ Pärast vajalike hooldustöötüüpide vaikekombinatsioonide loomist saate lehel
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Hooldustööde tüübi prognooside automaatne värskendamine
 
-Varahalduses saate automaatselt värskendada hooldustöö tüübi prognoosides tehtud muudatusi tunni-, üksuse- ja muude kulude osas, mida on ajakohastatud teistes moodulites jaotises Rahastamine ja toimingud. Sel viisil saate aidata tagada, et teie hooldustööde tüübi prognoosides kasutatakse alati uusimaid kulusid.
+Varahalduses saate automaatselt värskendada hooldustöö tüübi prognoosides tehtud muudatusi tunni-, üksuse- ja muude kulude osas, mida on ajakohastatud teistes moodulites. Sel viisil saate aidata tagada, et teie hooldustööde tüübi prognoosides kasutatakse alati uusimaid kulusid.
 
 1. Valige **Varahaldus** \> **Perioodiline** \> **Prognoos** \> **Hooldustöö tüübi prognoosi värskendamine**.
 2. Dialoogiboksis **Hooldustöö tüübi prognoosi värskendamine** vahekaardil **Kaasatavad kirjed** saate vastavalt vajadusele lisada konkreetsete hooldustööde tüüpide valikuid. Valige **Filter** ja siis valige valikute tegemiseks **Vali**.

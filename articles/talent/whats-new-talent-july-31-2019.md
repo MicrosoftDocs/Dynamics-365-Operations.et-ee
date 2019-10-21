@@ -1,6 +1,6 @@
 ---
-title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Talent (31. juuli 2019)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 for Talenti uusi või muutunud funktsioone.
+title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (31. juuli 2019)
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 7/30/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1fffe1bd8739723294c027c174d5e959c1c6010a
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 83f3339e6cea1448f5b257acf602fe5ca3449555
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864575"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010241"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-30-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 for Talent (30. juuli 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (30. juuli 2019)
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse Dynamics 365 for Talenti uusi või muutunud funktsioone.
+Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ## <a name="changes-in-attract"></a>Muutused Attractis
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Attract veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Muutused Onboardis
-Selles versioonis on väikesed rakenduse Dynamics 365 Talent: Onboard veaparandused.
+See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Core HR-i muudatused
 Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2409.
@@ -43,7 +43,7 @@ Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2409.
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Piirkonna tugi Kanadas ja Kagu-Aasias
 
-Meil on hea meel teatada, et Kanada ja Kagu-Aasia piirkonnad on saadaval teenuse Microsoft Dynamics 365 for Talent jaoks 1. augustil 2019. Selle muudatusega saate luua keskkondasid Kanada ja Aasia regioonides ning kõik Talenti andmed säilitatakse ainult nende asukohtade piires. Saate luua keskkonna nendes uutes piirkondades, valides uue keskkonna dialoogis asukoha ja kasutada seda keskkonda, et valmistada ette Talenti LCS-is, nagu on kirjeldatud siin [Provision Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Meil on hea meel teatada, et Kanada ja Kagu-Aasia piirkonnad on saadaval teenuse Talent jaoks 1. augustil 2019. Selle muudatusega saate luua keskkondasid Kanada ja Aasia regioonides ning kõik Talenti andmed säilitatakse ainult nende asukohtade piires. Saate luua keskkonna nendes uutes piirkondades, valides uue keskkonna dialoogis asukoha ja kasutada seda keskkonda, et valmistada ette Talenti LCS-is, nagu on kirjeldatud siin [Provision Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
 Teiste piirkondade ning Kanada ja Aasia piirkondade olemasolevate projektide andmeid ei toetata. Uutele toetatud piirkondadele saab ette valmistada ainult uusi projekte.
 

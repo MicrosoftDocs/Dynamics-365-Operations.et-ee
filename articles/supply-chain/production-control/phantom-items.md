@@ -1,6 +1,6 @@
 ---
 title: Fiktiivsed kaubad
-description: Selles teemas kirjeldatakse üksikasjalikult, kuidas saab fiktiivset reatüüpi kasutada koosluse- ja valemiridade puhul rakenduses Microsoft Dynamics 365 for Finance and Operations.
+description: Selles teemas kirjeldatakse üksikasjalikult, kuidas saab fiktiivset reatüüpi kasutada koosluse- ja valemiridade puhul rakenduses Dynamics 365 Supply Chain Management.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f01a0321740365c23cbc117be42c0a5137960af7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7c39b0ac2eb8a2293c828fee23ed6a78cb5fe2c9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843885"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250001"
 ---
 # <a name="phantom-items"></a>Fiktiivsed kaubad
 
@@ -51,7 +51,7 @@ Sellises struktuuris näete, et osasid F ja G ei ole näidatud ning materjalid, 
 
 Vastupidiselt tehnilisele kooslusele, millel oli kaks toimingulehte, on tootmise kooslusel ainult üks toiminguleht. Osaga G seotud pakkimistoiming on samuti tõstetud ja on nüüd osa toote H toimingulehest. Elektriseadme kokkupanek on esimene toiming. See järjekord on mõistlik, kuna seda seadet kasutatakse järgmises toimingus, milleks on masina kokkupanek. Viimane toiming on pakkimistoiming, mis tarbib kaht pakkematerjali (C ja D).
 
-Rakenduses Microsoft Dynamics 365 for Finance and Operations on üleminek tehnilise koosluse ja tootmise koosluse vahel lubatud fiktiivse koosluse reatüübi kaudu. Mõiste „fiktiivne” näitab, et F ja G on kahe koosluse tüübi vahelisel üleminekul kadunud. Selles näites on fiktiivne reatüüp rakendatud tehnilises koosluses osade F ja G koosluseridadele. Tootmis- või partiitellimuse loomisel kopeeritakse tehniline kooslus tootmis- või partiitellimusele. Kui tellimus on hinnatud, toimub üleminek tehniliselt koosluselt tootmise kooslusele, nagu on näidatud eeltoodud joonistel. Teisel joonisel näidatud toimingulehelt sisestatakse toimingu jaoks pakkematerjalid C ja D. 
+Üleminek tehnilise koosluse ja tootmise koosluse vahel on lubatud fiktiivse koosluse reatüübi kaudu. Mõiste „fiktiivne” näitab, et F ja G on kahe koosluse tüübi vahelisel üleminekul kadunud. Selles näites on fiktiivne reatüüp rakendatud tehnilises koosluses osade F ja G koosluseridadele. Tootmis- või partiitellimuse loomisel kopeeritakse tehniline kooslus tootmis- või partiitellimusele. Kui tellimus on hinnatud, toimub üleminek tehniliselt koosluselt tootmise kooslusele, nagu on näidatud eeltoodud joonistel. Teisel joonisel näidatud toimingulehelt sisestatakse toimingu jaoks pakkematerjalid C ja D. 
 
 ## <a name="multilevel-phantom-bom-structures"></a>Mitmetasandilised fiktiivse koosluse struktuurid
 Fiktiivset reatüüpi saab kasutada mitmetasandilistes kooslusestruktuurides, nagu on näidatud järgmisel joonisel. Sellel joonisel tähistab (a) toote G kooslust ning (b) osade E ja F ning toote G protsessilehte. 
