@@ -44,14 +44,18 @@
               items:
                 - name: Juurutamissuvandid
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/commerce/toc.json
+                - name: Pilvepõhiste ja kohapealsete funktsioonide võrdlus
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/finance/toc.json
                 - name: Pilvjuurutus
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Pilvjuurutuste süsteeminõuded
-                  href: ../fin-ops-core/fin-ops/get-started/system-requirements.md?toc=/dynamics365/commerce/toc.json
+                  href: ../retail/get-started/system-requirements.md?toc=/dynamics365/commerce/toc.json
                 - name: Asutusesisene juurutus
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Asutusesiseste juurutuste süsteeminõuded
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
+                - name: Etapid jaemüügikanali komponentide installimiseks kohapealses keskkonnas
+                  href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Rakenduse Finance + Operations (on-premises) ostmine
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Finance and Operationsi rakendused, mida käitab 21Vianet Hiinas'
@@ -60,18 +64,16 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Mis on uut või mida on muudetud?
               items:
-                - name: Mis on uut või mida on muudetud Retaili avalehel?
-                  href: ../retail/get-started/whats-new.md
-                - name: Retail 10.0.6 eelvaatefunktsioonid
-                  href: ../retail/get-started/whats-new-10-0-6.md
-                - name: Retail 10.0.5
-                  href: ../retail/get-started/whats-new-10-0-5.md
-                - name: Mis on uut või mida on muudetud Finance and Operationsis?
+                - name: Retaili versiooni 10.0.7 eelvaatefunktsioonid
+                  href: ../retail/get-started/whats-new-10-0-7.md?toc=/dynamics365/commerce/toc.json
+                - name: Retaili versioon 10.0.6
+                  href: ../retail/get-started/whats-new-10-0-6.md?toc=/dynamics365/commerce/toc.json
+                - name: Retaili versioon 10.0.5
+                  href: ../retail/get-started/whats-new-10-0-5.md?toc=/dynamics365/commerce/toc.json
+                - name: Mis on uut või mida on muudetud eelmistes versioonides?
                   items:
                     - name: Mis on uut või mida on muudetud Finance and Operationsi avalehel?
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                    - name: Finance and Operationsi rakenduste 10.0.6 (november 2019) eelvaatefunktsioonid
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/commerce/toc.json
                     - name: Finance and Operationsi rakendused 10.0.5 (oktoober 2019)
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/commerce/toc.json
                     - name: Finance and Operations 10.0.4 (juuli 2019)
@@ -195,35 +197,33 @@
                 - name: Mitu LCS-i projekti ja tootmiskeskkonda ühes Azure AD rentnikus
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operationsi jaemüügiprojektide juurutamine
-                  href: ../retail/dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                  href: ../retail/dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Uute keskkondade, Azure DevOps’i ja Retaili projektide harude seadistamine'
-                  href: ../retail/dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                  href: ../retail/dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügiprojektide koodi ja keskkondade värskendamine
-                  href: ../retail/dev-itpro/updating-environments.md
+                  href: ../retail/dev-itpro/updating-environments.md?toc=/dynamics365/commerce/toc.json
                 - name: Testimine ja jõudlusprobleemid
                   href: ../retail/dev-itpro/retail-implementation-testing-performance.md
         - name: Kanali seadistus ja haldamine
           items:
             - name: Kanaliteülene tuumseadistus
               items:
-                - name: Algandmete lähtestamine uutes jaemüügikeskkondades
-                  href: ../retail/enable-configure-retail-functionality.md
-                - name: Retail Hardware Stationi konfigureerimine ja installimine
-                  href: ../retail/retail-hardware-station-configuration-installation.md
+                - name: Algandmete lähtestamine uutes Retaili keskkondades
+                  href: ../retail/enable-configure-retail-functionality.md?toc=/dynamics365/commerce/toc.json
                 - name: Teabekoodid ja teabekoodide grupid
                   href: ../retail/info-codes-retail.md
             - name: Kaupluse kanali haldus
               items:
                 - name: Jaemüügikanalite seadistamine
-                  href: ../retail/define-maintain-retail-channels.md
+                  href: ../retail/define-maintain-retail-channels.md?toc=/dynamics365/commerce/toc.json
                 - name: Kaupluse lahtiolekuaegade loomine ja muutmine
-                  href: ../retail/dev-itpro/store-hours.md
+                  href: ../retail/dev-itpro/store-hours.md?toc=/dynamics365/commerce/toc.json
                 - name: Retail Hardware Stationi konfigureerimine ja installimine
-                  href: ../retail/retail-hardware-station-configuration-installation.md
+                  href: ../retail/retail-hardware-station-configuration-installation.md?toc=/dynamics365/commerce/toc.json
             - name: Võrgukanali haldus
               items:
                 - name: Võrgupoodide seadistamine
-                  href: ../retail/online-stores.md
+                  href: ../retail/online-stores.md?toc=/dynamics365/commerce/toc.json
                 - name: Avalehe lühiülevaade
                   href: quick-tour-home-page.md
                 - name: Toote üksikasjade lehe lühiülevaade
@@ -234,7 +234,7 @@
                   href: quick-tour-account-management.md
                 - name: E-kaubanduse saidi loomine
                   items:
-                    - name: Võrgupoe ülevaade
+                    - name: E-poe ülevaade
                       href: online-store-overview.md
                     - name: E-kaubanduse saidi loomine
                       href: create-ecommerce-site.md
@@ -242,19 +242,29 @@
                       href: deploy-ecommerce-site.md
                     - name: Veebisaidi seostamine kanaliga
                       href: associate-site-online-store.md
-                    - name: Domeeni nime konfigureerimine
+                    - name: Domeeninime konfigureerimine
                       href: configure-your-domain-name.md
-                    - name: Asukohapõhise poe tuvastamise lubamine
+                    - name: Sisuedastusvõrgu (CDN) toe lisamine
+                      href: add-cdn-support.md
+                    - name: Asukohapõhise poetuvastuse lubamine
                       href: enable-store-detection.md
+                    - name: Kohandatud lehtede seadistamine kasutajate sisselogimise jaoks
+                      href: custom-pages-user-logins.md
+                - name: Autorlustööriistad
+                  items:
+                    - name: Autorluse avalehe ülevaade
+                      href: authoring-home-overview.md
                 - name: Saidi haldamine
                   items:
                     - name: Kasutajate ja rollide haldamine
                       href: manage-ecommerce-users-roles.md
-                    - name: Telemeetria toetamiseks saidile skripti koodi lisamine
+                    - name: Telemeetria toetamiseks saidile skriptikoodi lisamine
                       href: add-telemetry.md
                     - name: Saidi jaoks otsingumootori optimeerimise (SEO) kaalutlused
                       href: search-engine-optimization-considerations.md
-                - name: Saidil sisu lisamine ja haldamine
+                    - name: Sisu turbepoliitika (CSP) haldamine
+                      href: manage-csp.md
+                - name: Saidi sisu lisamine ja haldamine
                   items:
                     - name: Sisu lisamise viisid
                       href: add-manage-content.md
@@ -278,12 +288,20 @@
                       href: add-languages-to-site.md
                 - name: Lehed
                   items:
+                    - name: Olemasoleva saidilehe muutmine
+                      href: modify-existing-page.md
+                    - name: Uue saidilehe lisamine
+                      href: add-new-page.md
                     - name: Lehepaigutuste valimine
                       href: select-page-layouts.md
                     - name: SEO metaandmete haldamine
                       href: manage-seo-metadata.md
+                    - name: 'Lehe salvestamine, eelvaade ja avaldamine'
+                      href: save-preview-publish-page.md
                     - name: Tootelehe rikastamine
                       href: enrich-product-page.md
+                    - name: Kategooria sihtlehe rikastamine
+                      href: enrich-category-page.md
                 - name: Moodulid
                   items:
                     - name: Moodulitega töötamine
@@ -342,8 +360,18 @@
                       href: add-hero-module.md
                     - name: Tellimuse kinnitusmooduli loomine
                       href: order-confirmation-module.md
+                    - name: Tootekogumi mooduli ülevaade
+                      href: product-collection-module-overview.md
+                    - name: Tootekogumi mooduli lisamine
+                      href: add-product-collection-modules.md
                     - name: Videopleierimooduli lisamine
                       href: add-video-player.md
+                - name: Otsing
+                  items:
+                    - name: Kategooria vaikesihtleht ja otsingutulemuste leht
+                      href: category-search-page-overview.md
+                    - name: Pilvepõhise otsingu ülevaade
+                      href: cloud-powered-search-overview.md
                 - name: Aruandlus
                   items:
                     - name: Võrgukanali aruannete loomine
@@ -355,19 +383,19 @@
             - name: Kõnekeskuse kanalihaldus
               items:
                 - name: Kõnekeskuse müügifunktsioonid
-                  href: ../retail/call-center-functionality.md
+                  href: ../retail/call-center-functionality.md?toc=/dynamics365/commerce/toc.json
                 - name: Kõnekeskuse kanalite seadistamine
-                  href: ../retail/set-up-order-processing-options.md
+                  href: ../retail/set-up-order-processing-options.md?toc=/dynamics365/commerce/toc.json
                 - name: Kõnekeskuse kataloogid
-                  href: ../retail/call-center-catalogs.md
+                  href: ../retail/call-center-catalogs.md?toc=/dynamics365/commerce/toc.json
                 - name: Tarneviiside ja -tasude konfigureerimine
-                  href: ../retail/configure-call-center-delivery.md
+                  href: ../retail/configure-call-center-delivery.md?toc=/dynamics365/commerce/toc.json
                 - name: Pettuseteatiste seadistamine ja nendega töötamine
-                  href: ../retail/set-up-fraud-alerts.md
+                  href: ../retail/set-up-fraud-alerts.md?toc=/dynamics365/commerce/toc.json
                 - name: Kõnekeskuste järjepidevusprogrammide seadistamine
-                  href: ../retail/set-up-continuity-program.md
+                  href: ../retail/set-up-continuity-program.md?toc=/dynamics365/commerce/toc.json
                 - name: Kõnekeskuse tellimuse ootelolekute konfigureerimine ja nendega töötamine
-                  href: ../retail/work-with-order-holds.md
+                  href: ../retail/work-with-order-holds.md?toc=/dynamics365/commerce/toc.json
         - name: Omnikanali konfigureerimine
           items:
             - name: Tooted ja turustus
@@ -375,83 +403,85 @@
                 - name: Tooteteabe ülevaade
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügi hierarhiad
-                  href: ../retail/retail-hierarchies.md
+                  href: ../retail/retail-hierarchies.md?toc=/dynamics365/commerce/toc.json
                 - name: Atribuudid ja atribuudigrupid
-                  href: ../retail/attribute-attributegroups-lifecycle.md
+                  href: ../retail/attribute-attributegroups-lifecycle.md?toc=/dynamics365/commerce/toc.json
                 - name: Atribuutide loomine ja haldamine
-                  href: ../retail/create-manage-attributes.md
+                  href: ../retail/create-manage-attributes.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügitoodete häälestamine
-                  href: ../retail/set-up-retail-products.md
+                  href: ../retail/set-up-retail-products.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügitoote kategooriate ja toodete haldamine
-                  href: ../retail/category-management-product-creation.md
+                  href: ../retail/category-management-product-creation.md?toc=/dynamics365/commerce/toc.json
                 - name: Tootedimensioonid
                   href: ../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json
                 - name: Sortimendi haldus
-                  href: ../retail/assortments.md
+                  href: ../retail/assortments.md?toc=/dynamics365/commerce/toc.json
                 - name: Sortimentide häälestamine
-                  href: ../retail/set-up-assortments.md
+                  href: ../retail/set-up-assortments.md?toc=/dynamics365/commerce/toc.json
                 - name: Vöötkoodide häälestamine
-                  href: ../retail/set-up-bar-codes.md
+                  href: ../retail/set-up-bar-codes.md?toc=/dynamics365/commerce/toc.json
                 - name: Vöötkoodi maskide häälestamine
-                  href: ../retail/set-up-bar-code-masks.md
+                  href: ../retail/set-up-bar-code-masks.md?toc=/dynamics365/commerce/toc.json
                 - name: Kaubastatavate üksuste sortimisjärjestuse muutmine
-                  href: ../retail/custom-order-categories-nav-retail-prod-hierarchy.md
+                  href: ../retail/custom-order-categories-nav-retail-prod-hierarchy.md?toc=/dynamics365/commerce/toc.json
             - name: Hinnad ja allahindlused
               items:
                 - name: Jaemüügi allahindlused
-                  href: ../retail/retail-discounts-overview.md
+                  href: ../retail/retail-discounts-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügihinna haldamine
-                  href: ../retail/price-management.md
+                  href: ../retail/price-management.md?toc=/dynamics365/commerce/toc.json
                 - name: Hinnakorrigeerimised ja allahindlused
-                  href: ../retail/price-adjustments-discounts.md
+                  href: ../retail/price-adjustments-discounts.md?toc=/dynamics365/commerce/toc.json
                 - name: Mitme allahindluse kohaldamine tootele
-                  href: ../retail/Apply-multiple-retail-discounts.md
+                  href: ../retail/Apply-multiple-retail-discounts.md?toc=/dynamics365/commerce/toc.json
                 - name: Kattuvate allahindluste optimaalse kombinatsiooni määratlemine
-                  href: ../retail/optimal-combination-overlapping-discounts.md
+                  href: ../retail/optimal-combination-overlapping-discounts.md?toc=/dynamics365/commerce/toc.json
                 - name: Kanalipõhiste allahindluste määratlemine
-                  href: ../retail/define-channel-specific-discounts.md
+                  href: ../retail/define-channel-specific-discounts.md?toc=/dynamics365/commerce/toc.json
                 - name: Valikud jaetoodete allahindluse takistamiseks
-                  href: ../retail/prevent-discounts.md
+                  href: ../retail/prevent-discounts.md?toc=/dynamics365/commerce/toc.json
+                - name: Maksevahendil põhinevad allahindlused
+                  href: ../retail/tender_based_discounts.md?toc=/dynamics365/commerce/toc.json
                 - name: Saatmise allahindluse ülevaade
-                  href: ../retail/retail-shipping-discount.md
+                  href: ../retail/retail-shipping-discount.md?toc=/dynamics365/commerce/toc.json
                 - name: Kupongide seadistamine jaemüügi jaoks
-                  href: ../retail/retail-coupons.md
+                  href: ../retail/retail-coupons.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügihinna aruanded
-                  href: ../retail/price-report.md
+                  href: ../retail/price-report.md?toc=/dynamics365/commerce/toc.json
             - name: Püsiklient
               items:
                 - name: Püsikliendi ülevaade
-                  href: ../retail/set-up-customer-loyalty-program.md
+                  href: ../retail/set-up-customer-loyalty-program.md?toc=/dynamics365/commerce/toc.json
             - name: Maksed
               items:
                 - name: Makseviisid
-                  href: ../retail/payment-methods.md
+                  href: ../retail/payment-methods.md?toc=/dynamics365/commerce/toc.json
                 - name: Makseviisid kõnekeskustes
-                  href: ../retail/work-with-payments.md
+                  href: ../retail/work-with-payments.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Krediitkaardi seadistamine, autoriseerimine ja hõivamine'
                   href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
                 - name: Sularaha nimiväärtuste konfigureerimine kassa jaoks
-                  href: ../retail/cash-denominations.md
+                  href: ../retail/cash-denominations.md?toc=/dynamics365/commerce/toc.json
                 - name: Krediitkaardi töötlemise konfigureerimine
-                  href: ../retail/tasks/configure-credit-card-processing.md
+                  href: ../retail/tasks/configure-credit-card-processing.md?toc=/dynamics365/commerce/toc.json
                 - name: Dynamics 365 maksekonnektor Adyeni jaoks
-                  href: ../retail/dev-itpro/adyen-connector.md
+                  href: ../retail/dev-itpro/adyen-connector.md?toc=/dynamics365/commerce/toc.json
                 - name: Veebimaksevahendite salvestamine Adyeni konnektori abil
-                  href: ../retail/dev-itpro/adyen-connector-listPI.md
+                  href: ../retail/dev-itpro/adyen-connector-listPI.md?toc=/dynamics365/commerce/toc.json
                 - name: Arve tasumise stsenaariumide seadistamine
-                  href: ../retail/payinvoice.md
+                  href: ../retail/payinvoice.md?toc=/dynamics365/commerce/toc.json
                 - name: Duplikaatmaksete vältimine
-                  href: ../retail/duplicate-payment-protection.md
+                  href: ../retail/duplicate-payment-protection.md?toc=/dynamics365/commerce/toc.json
                 - name: Omnikanali maksete ülevaade
-                  href: ../retail/omni-channel-payments.md
+                  href: ../retail/omni-channel-payments.md?toc=/dynamics365/commerce/toc.json
                 - name: Maksete KKK
-                  href: ../retail/dev-itpro/payments-retail.md
+                  href: ../retail/dev-itpro/payments-retail.md?toc=/dynamics365/commerce/toc.json
             - name: Täpsemad automaatsed tasud
               items:
                 - name: Täpsemate automaatsete tasude konfigureerimine ja kasutamine
-                  href: ../retail/omni-auto-charges.md
+                  href: ../retail/omni-auto-charges.md?toc=/dynamics365/commerce/toc.json
                 - name: Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele
-                  href: ../retail/pro-rate-charges-matching-lines.md
+                  href: ../retail/pro-rate-charges-matching-lines.md?toc=/dynamics365/commerce/toc.json
             - name: Käibemaks
               items:
                 - name: Käibemaksu ülevaade
@@ -477,7 +507,7 @@
             - name: Varud
               items:
                 - name: Kaupluse varude haldamine
-                  href: ../retail/work-with-store-inventory.md
+                  href: ../retail/work-with-store-inventory.md?toc=/dynamics365/commerce/toc.json
                 - name: Seerianumbrite registreerimine müügiprotsessis
                   href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
                 - name: Laotöölehed
@@ -503,129 +533,141 @@
             - name: Väljavõtted
               items:
                 - name: Jaemüügi väljavõtted
-                  href: ../retail/retail-statements.md
+                  href: ../retail/retail-statements.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügikande süsteemsuskontroll
-                  href: ../retail/valid-checker.md
+                  href: ../retail/valid-checker.md?toc=/dynamics365/commerce/toc.json
+                - name: Jaemüügikande süsteemsuskontrolli reeglite keelamine
+                  href: ../retail/disable-consistency-check-rule.md?toc=/dynamics365/commerce/toc.json
+                - name: Kaupluse kannete redigeerimine ja auditeerimine
+                  href: ../retail/edit-audit-retail-transactions.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Jaekaupluse jaoks väljavõtete loomine, arvutamine ja sisestamine'
-                  href: ../retail/tasks/create-calculate-post-statement-retail-store.md
+                  href: ../retail/tasks/create-calculate-post-statement-retail-store.md?toc=/dynamics365/commerce/toc.json
                 - name: Väljavõtte sisestamisfunktsiooni täiustused
-                  href: ../retail/statement-posting-EOD.md
+                  href: ../retail/statement-posting-EOD.md?toc=/dynamics365/commerce/toc.json
+                - name: Vähehaaval toimuv tellimuse loomine kaupluse kannete jaoks
+                  href: ../retail/trickle-feed.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Jaekaupluse jaoks väljavõtete loomine, arvutamine ja sisestamine'
+                  href: ../retail/tasks/create-calculate-post-statement-retail-store.md?toc=/dynamics365/commerce/toc.json
+                - name: Väljavõtte sisestamisfunktsiooni täiustused
+                  href: ../retail/statement-posting-EOD.md?toc=/dynamics365/commerce/toc.json
                 - name: Partii jälgimisega kaupade täiustatud käsitlemine
-                  href: ../retail/batch.md
+                  href: ../retail/batch.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügi väljavõtteid mõjutavate Jaemüügi parameetrite konfigureerimine
-                  href: ../retail/tasks/parameter-configurations-retail-statements.md
+                  href: ../retail/tasks/parameter-configurations-retail-statements.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügi väljavõtteid mõjutavate makseviisi sätete konfigureerimine
-                  href: ../retail/tasks/payment-configurations-retail-statements.md
+                  href: ../retail/tasks/payment-configurations-retail-statements.md?toc=/dynamics365/commerce/toc.json
                 - name: Väljavõtete arvutamiseks töö konfigureerimine ja käivitamine
-                  href: ../retail/tasks/run-job-calculate-statements.md
+                  href: ../retail/tasks/run-job-calculate-statements.md?toc=/dynamics365/commerce/toc.json
                 - name: Väljavõtete sisestamiseks töö konfigureerimine ja käivitamine
-                  href: ../retail/tasks/run-job-post-statements.md
+                  href: ../retail/tasks/run-job-post-statements.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügi väljavõtteid mõjutavate kaupluse sätete konfigureerimine
-                  href: ../retail/tasks/store-configurations-retail-statements.md
+                  href: ../retail/tasks/store-configurations-retail-statements.md?toc=/dynamics365/commerce/toc.json
             - name: Hajutatud tellimuste haldamine (DOM)
               items:
                 - name: DOM-i ülevaade
-                  href: ../retail/dom.md
+                  href: ../retail/dom.md?toc=/dynamics365/commerce/toc.json
                 - name: Kulu konfigureerimine
-                  href: ../retail/cost.md
+                  href: ../retail/cost.md?toc=/dynamics365/commerce/toc.json
             - name: Tellimuse täitmine ja töötlemine
               items:
                 - name: Kaupluse tellimuse täitmine
-                  href: ../retail/Order-fulfillment-overview.md
+                  href: ../retail/Order-fulfillment-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Kaupluse tellimuse täitmise seadistamine
-                  href: ../retail/Order-fulfillment-POS-setup.md
+                  href: ../retail/Order-fulfillment-POS-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: Tellimuse teatiste kuvamine kassas
-                  href: ../retail/Notifications-POS.md
+                  href: ../retail/Notifications-POS.md?toc=/dynamics365/commerce/toc.json
             - name: Tagastused
               items:
                 - name: Lingitud tagasimaksed
-                  href: ../retail/dev-itpro/linked-refunds.md
+                  href: ../retail/dev-itpro/linked-refunds.md?toc=/dynamics365/commerce/toc.json
                 - name: Kaupluse sortimenti mittekuuluvate toodete müümine ja tagastamine
-                  href: ../retail/sell-return-outside-assortments.md
+                  href: ../retail/sell-return-outside-assortments.md?toc=/dynamics365/commerce/toc.json
                 - name: Vahetuse konfigureerimine ja töötlemine tagastustellimusel
-                  href: ../retail/orderexchanges.md
+                  href: ../retail/orderexchanges.md?toc=/dynamics365/commerce/toc.json
                 - name: Kviitungita tagastuste makseviiside piiramine
-                  href: ../retail/payment-methods-restrictions.md
+                  href: ../retail/payment-methods-restrictions.md?toc=/dynamics365/commerce/toc.json
                 - name: Kaupade tagastamine mitme klienditellimuse ja -arve alusel
-                  href: ../retail/multireturn.md
+                  href: ../retail/multireturn.md?toc=/dynamics365/commerce/toc.json
         - name: Modern Point of Sale (MPOS) ja Cloud POS
           items:
             - name: Valimine MPOS-i ja Cloud POS-i vahel
-              href: ../retail/MPOS-or-CPOS.md
+              href: ../retail/MPOS-or-CPOS.md?toc=/dynamics365/commerce/toc.json
             - name: Ühendusega ja ühenduseta kassatoimingud
-              href: ../retail/pos-operations.md
+              href: ../retail/pos-operations.md?toc=/dynamics365/commerce/toc.json
             - name: Kohandatud Retail MPOS-i seadme aktiveerimine
-              href: ../retail/dev-itpro/retail-POS-activation-changes.md
+              href: ../retail/dev-itpro/retail-POS-activation-changes.md?toc=/dynamics365/commerce/toc.json
             - name: Demoandmete ekraanipaigutused MPOS-is ja Cloud POS-is
-              href: ../retail/demo-data.md
+              href: ../retail/demo-data.md?toc=/dynamics365/commerce/toc.json
             - name: Toote ja kliendi otsing kassas
-              href: ../retail/POS-search-improvements.md
+              href: ../retail/POS-search-improvements.md?toc=/dynamics365/commerce/toc.json
             - name: Toodete ja tootevariantide otsimine tellimuse sisestamise käigus
               href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
             - name: Sularahahalduse täiustused
               href: ../retail/cash-mgmt.md
             - name: Otsing varudest kassas
-              href: ../retail/product-variants-POS.md
+              href: ../retail/product-variants-POS.md?toc=/dynamics365/commerce/toc.json
             - name: Kannete katkestamine ja jätkamine kassas
-              href: ../retail/pos-suspend-recall-transactions.md
+              href: ../retail/pos-suspend-recall-transactions.md?toc=/dynamics365/commerce/toc.json
             - name: Võrguühenduseta kassa funktsioonid
-              href: ../retail/pos-offline-functionality.md
+              href: ../retail/pos-offline-functionality.md?toc=/dynamics365/commerce/toc.json
             - name: Vahetuse ja sularahasahtli haldamine
-              href: ../retail/shift-drawer-management.md
+              href: ../retail/shift-drawer-management.md?toc=/dynamics365/commerce/toc.json
             - name: Kinkekaardi saldo sularahas väljavõtmine
-              href: ../retail/dev-itpro/gift-card-cash-out.md
+              href: ../retail/dev-itpro/gift-card-cash-out.md?toc=/dynamics365/commerce/toc.json
             - name: Tellimuste lähetamine teisest kauplusest
-              href: ../retail/charge-send.md
+              href: ../retail/charge-send.md?toc=/dynamics365/commerce/toc.json
+            - name: Vedajata tarneviiside peitmine kassa saadetisedialoogis
+              href: ../retail/hide-non-carrier-modes.md?toc=/dynamics365/commerce/toc.json
             - name: Tegevuse salvestaja ning spikker MPOS-i ja Cloud POS-i jaoks
-              href: ../retail/task-recorder-retail-pos.md
+              href: ../retail/task-recorder-retail-pos.md?toc=/dynamics365/commerce/toc.json
             - name: Riistvara välisseadmed
               items:
                 - name: Jaemüügi välisseadmed
-                  href: ../retail/retail-peripherals-overview.md
+                  href: ../retail/retail-peripherals-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügi välisseadme simulaator
-                  href: ../retail/dev-itpro/retail-peripheral-simulator.md
+                  href: ../retail/dev-itpro/retail-peripheral-simulator.md?toc=/dynamics365/commerce/toc.json
                 - name: Välisseadmete ühendamine kassaga
-                  href: ../retail/define-maintain-channel-clients-registers-hw-stations.md
+                  href: ../retail/define-maintain-channel-clients-registers-hw-stations.md?toc=/dynamics365/commerce/toc.json
             - name: Ekraani paigutused
               items:
                 - name: Demoandmete ekraanipaigutused MPOS-is/CPOS-is
-                  href: ../retail/demo-data.md
+                  href: ../retail/demo-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Kassa ekraanipaigutused
-                  href: ../retail/pos-screen-layouts.md
+                  href: ../retail/pos-screen-layouts.md?toc=/dynamics365/commerce/toc.json
                 - name: Retail POS-i paigutuse kujundaja installimine
-                  href: ../retail/install-pos-layout-designer.md
+                  href: ../retail/install-pos-layout-designer.md?toc=/dynamics365/commerce/toc.json
                 - name: Valige teavitamise sätted
-                  href: ../retail/Notifications-POS.md
+                  href: ../retail/Notifications-POS.md?toc=/dynamics365/commerce/toc.json
                 - name: Kassarakenduse ja kasutaja keelesätted
-                  href: ../retail/pos-application-user-language-settings.md
+                  href: ../retail/pos-application-user-language-settings.md?toc=/dynamics365/commerce/toc.json
                 - name: Piltide seadistamine ja haldamine MPOS-i jaoks
-                  href: ../retail/set-up-manage-images-retail-mpos.md
+                  href: ../retail/set-up-manage-images-retail-mpos.md?toc=/dynamics365/commerce/toc.json
                 - name: Kliendi pildid kassas
-                  href: ../retail/pos-image.md
+                  href: ../retail/pos-image.md?toc=/dynamics365/commerce/toc.json
             - name: Kliendi tellimused
               items:
                 - name: Kliendi tellimused MPOS-is
-                  href: ../retail/customer-orders-overview.md
+                  href: ../retail/customer-orders-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Hübriidkliendi tellimused
-                  href: ../retail/hybrid-customer-orders.md
+                  href: ../retail/hybrid-customer-orders.md?toc=/dynamics365/commerce/toc.json
             - name: Müügi koostööpartnerid
               items:
                 - name: Komisjonitasude jälgimine kassas müügigruppide abil
-                  href: ../retail/pos-sales-groups-track-commissions.md
+                  href: ../retail/pos-sales-groups-track-commissions.md?toc=/dynamics365/commerce/toc.json
             - name: Seadme aktiveerimine
               items:
                 - name: 'MPOS-i konfigureerimine, installimine ja aktiveerimine'
-                  href: ../retail/retail-modern-pos-device-activation.md
+                  href: ../retail/retail-modern-pos-device-activation.md?toc=/dynamics365/commerce/toc.json
                 - name: MPOS-i ja pilve kassa laiendatud sisselogimisfunktsiooni seadistamine
-                  href: ../retail/extended-logon.md
+                  href: ../retail/extended-logon.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügi aktiveerimiskontode haldamine ja seadmete kinnitamine
-                  href: ../retail/set-up-activation-accounts-validate-devices-hq.md
+                  href: ../retail/set-up-activation-accounts-validate-devices-hq.md?toc=/dynamics365/commerce/toc.json
             - name: Kviitungid
               items:
                 - name: Kviitungi vormingute seadistamine ja kujundamine
-                  href: ../retail/receipt-templates-printing.md
+                  href: ../retail/receipt-templates-printing.md?toc=/dynamics365/commerce/toc.json
                 - name: Meilikviitungite saatmine MPOS-ist
-                  href: ../retail/email-receipts.md
+                  href: ../retail/email-receipts.md?toc=/dynamics365/commerce/toc.json
         - name: Hinnangud ja arvustused
           items:
             - name: Hinnangute ja arvustuste ülevaade
@@ -657,65 +699,65 @@
             - name: Kassa kasutusfunktsionaalsused
               items:
                 - name: Tootesoovitused kassas
-                  href: ../retail/product.md
+                  href: ../retail/product.md?toc=/dynamics365/commerce/toc.json
                 - name: Soovituste juhtelemendi lisamine kassaseadmetes
-                  href: ../retail/add-recommendations-control-pos-screen.md
+                  href: ../retail/add-recommendations-control-pos-screen.md?toc=/dynamics365/commerce/toc.json
         - name: Jälgimine ja analüüs
           items:
             - name: Müügi ja marginaali jõudluse jälgimine
-              href: ../retail/monitor-sales-margin-performance.md
+              href: ../retail/monitor-sales-margin-performance.md?toc=/dynamics365/commerce/toc.json
             - name: Müügitrendide ja -mustrite analüüsimine
-              href: ../retail/analyze-sales-trends-patterns.md
+              href: ../retail/analyze-sales-trends-patterns.md?toc=/dynamics365/commerce/toc.json
             - name: Müügitulemuste hindamine toote alusel
-              href: ../retail/sales-performance-products.md
+              href: ../retail/sales-performance-products.md?toc=/dynamics365/commerce/toc.json
             - name: Kliendi ja toote tulususe hindamine
-              href: ../retail/assess-customer-product-profitability.md
+              href: ../retail/assess-customer-product-profitability.md?toc=/dynamics365/commerce/toc.json
             - name: Kaupluse jõudluse analüüsimine
-              href: ../retail/store-performance-information.md
+              href: ../retail/store-performance-information.md?toc=/dynamics365/commerce/toc.json
             - name: 'Hiljutisuse, sageduse ja rahasumma (RFM) analüüsi seadistamine'
-              href: ../retail/set-up-rfm-analysis.md
+              href: ../retail/set-up-rfm-analysis.md?toc=/dynamics365/commerce/toc.json
         - name: Lokaliseerimine ja regulatiivsed funktsioonid
           items:
             - name: Jaemüügikanali fiskaalüksuse integreerimise ülevaade
-              href: ../retail/localizations/fiscal-integration-for-retail-channel.md
+              href: ../retail/localizations/fiscal-integration-for-retail-channel.md?toc=/dynamics365/commerce/toc.json
             - name: Jaemüügikanali fiskaalüksuse integreerimise seadistamine
-              href: ../retail/localizations/setting-up-fiscal-integration-for-retail-channel.md
+              href: ../retail/localizations/setting-up-fiscal-integration-for-retail-channel.md?toc=/dynamics365/commerce/toc.json
             - name: Austria
               items:
                 - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Austria jaoks
-                  href: ../retail/localizations/emea-aut-fi-sample.md
+                  href: ../retail/localizations/emea-aut-fi-sample.md?toc=/dynamics365/commerce/toc.json
             - name: Ida-Euroopa
               items:
                 - name: Retaili ettemaksuarved Ida-Euroopa puhul
-                  href: ../retail/localizations/emea-eeu-advance-invoices-for-retail.md
+                  href: ../retail/localizations/emea-eeu-advance-invoices-for-retail.md?toc=/dynamics365/commerce/toc.json
                 - name: Retaili pisikulude kassa haldus Ida-Euroopa puhul
-                  href: ../retail/localizations/emea-eeu-petty-cash-for-retail.md
+                  href: ../retail/localizations/emea-eeu-petty-cash-for-retail.md?toc=/dynamics365/commerce/toc.json
                 - name: Retaili kliendiarved ja tagastuse müügitellimused Ida-Euroopa riikides
-                  href: ../retail/localizations/emea-eeu-retail-invoices.md
+                  href: ../retail/localizations/emea-eeu-retail-invoices.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Kassaaparaatide juurutamise juhised Tšehhi Vabariigile, Ungarile ja Poolale'
-                  href: ../retail/localizations/emea-eeu-deployment.md
+                  href: ../retail/localizations/emea-eeu-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Fiskaalprinteri integratsiooni näide Poola jaoks
-                  href: ../retail/localizations/emea-pol-fpi-sample.md
+                  href: ../retail/localizations/emea-pol-fpi-sample.md?toc=/dynamics365/commerce/toc.json
                 - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Tšehhi Vabariigi jaoks
-                  href: ../retail/localizations/emea-cze-fi-sample.md
+                  href: ../retail/localizations/emea-cze-fi-sample.md?toc=/dynamics365/commerce/toc.json
             - name: Prantsusmaa
               items:
                 - name: Kassaaparaadi funktsioonid
-                  href: ../retail/localizations/emea-fra-cash-registers.md
+                  href: ../retail/localizations/emea-fra-cash-registers.md?toc=/dynamics365/commerce/toc.json
                 - name: Kassaaparaatide juurutamise juhised
-                  href: ../retail/localizations/emea-fra-deployment.md
+                  href: ../retail/localizations/emea-fra-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: India
               items:
                 - name: Kassaaparaatide kaupade ja teenuste maksu (GST) integreerimine
-                  href: ../retail/localizations/apac-ind-cash-registers.md
+                  href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/commerce/toc.json
                 - name: Kassaaparaatide juurutamise juhised
-                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md
+                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/dynamics365/commerce/toc.json
                 - name: Täiendamise tugi ja N-1 India jaoks
-                  href: ../retail/localizations/apac-ind-n-1-for-india.md
+                  href: ../retail/localizations/apac-ind-n-1-for-india.md?toc=/dynamics365/commerce/toc.json
             - name: Itaalia
               items:
                 - name: Fiskaalprinteri integratsiooni näide Itaalia jaoks
-                  href: ../retail/localizations/emea-ita-fpi-sample.md
+                  href: ../retail/localizations/emea-ita-fpi-sample.md?toc=/dynamics365/commerce/toc.json
             - name: Mehhiko
               items:
                 - name: Globaalsed CFDI e-arved Mehhiko jaoks
@@ -723,71 +765,63 @@
             - name: Norra
               items:
                 - name: Kassaaparaadi funktsioonid
-                  href: ../retail/localizations/emea-nor-cash-registers.md
+                  href: ../retail/localizations/emea-nor-cash-registers.md?toc=/dynamics365/commerce/toc.json
                 - name: Kassaaparaatide juurutamise juhised
-                  href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md
+                  href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/dynamics365/commerce/toc.json
             - name: Rootsi
               items:
                 - name: Kassaaparaadi funktsioonid
-                  href: ../retail/localizations/emea-swe-cash-registers.md
+                  href: ../retail/localizations/emea-swe-cash-registers.md?toc=/dynamics365/commerce/toc.json
                 - name: Retail POS-i juhtseadmetega integreerimise näide
-                  href: ../retail/localizations/retail-sdk-control-unit-sample.md
+                  href: ../retail/localizations/retail-sdk-control-unit-sample.md?toc=/dynamics365/commerce/toc.json
         - name: Retaili ülesanded
           items:
             - name: Kanalipõhiste kaubanduslepete loomine
-              href: ../retail/tasks/base-price-trade-agreements.md
+              href: ../retail/tasks/base-price-trade-agreements.md?toc=/dynamics365/commerce/toc.json
             - name: Kaubanduslepete loomine kategooria hinnakujunduse reeglitega
-              href: ../retail/tasks/category-pricing-rules-trade-agreements.md
+              href: ../retail/tasks/category-pricing-rules-trade-agreements.md?toc=/dynamics365/commerce/toc.json
             - name: Müügiesindajate funktsiooniprofiilide konfigureerimine
-              href: ../retail/tasks/configure-functionality-profile-sales-representative.md
-            - name: Seadmete loomine ja nende seostamine registritega
-              href: ../retail/tasks/create-associate-device.md
-            - name: Riistvarajaamade loomine
-              href: ../retail/tasks/create-associate-hardware-station.md
-            - name: Kassaregistrite loomine
-              href: ../retail/tasks/create-associate-registers.md
+              href: ../retail/tasks/configure-functionality-profile-sales-representative.md?toc=/dynamics365/commerce/toc.json
             - name: Kõnekeskuse tellimuste loomine
-              href: ../retail/tasks/create-call-center-orders.md
+              href: ../retail/tasks/create-call-center-orders.md?toc=/dynamics365/commerce/toc.json
             - name: Kassaregistrite jaoks finantsdimensioonide loomine ja registrites dimensiooniväärtuste konfigureerimine
-              href: ../retail/tasks/create-financial-dimensions-pos.md
+              href: ../retail/tasks/create-financial-dimensions-pos.md?toc=/dynamics365/commerce/toc.json
             - name: Jaemüügikanalite jaoks finantsdimensioonide loomine ja kauplustes dimensiooniväärtuste konfigureerimine
-              href: ../retail/tasks/create-financial-dimensions-retail-channels.md
+              href: ../retail/tasks/create-financial-dimensions-retail-channels.md?toc=/dynamics365/commerce/toc.json
             - name: Kassa loagruppide loomine
-              href: ../retail/tasks/create-pos-permission-groups.md
+              href: ../retail/tasks/create-pos-permission-groups.md?toc=/dynamics365/commerce/toc.json
             - name: Kassa visuaalprofiilide loomine
-              href: ../retail/tasks/create-pos-visual-profile-2016-02.md
+              href: ../retail/tasks/create-pos-visual-profile-2016-02.md?toc=/dynamics365/commerce/toc.json
             - name: Tootepakendite loomine ostutellimuste jaoks
-              href: ../retail/tasks/create-product-packages-purchase-orders.md
+              href: ../retail/tasks/create-product-packages-purchase-orders.md?toc=/dynamics365/commerce/toc.json
             - name: Kõnekeskuse kanalite loomine ja kanali atribuutide määratlemine
-              href: ../retail/tasks/define-call-center-channel-channel-attributes.md
+              href: ../retail/tasks/define-call-center-channel-channel-attributes.md?toc=/dynamics365/commerce/toc.json
             - name: Kanali atribuutide määratlemine
-              href: ../retail/tasks/define-channel-attributes.md
+              href: ../retail/tasks/define-channel-attributes.md?toc=/dynamics365/commerce/toc.json
             - name: Järjepidevuse graafikute määratlemine
-              href: ../retail/tasks/define-continuity-schedules.md
+              href: ../retail/tasks/define-continuity-schedules.md?toc=/dynamics365/commerce/toc.json
             - name: Püsikliendiprogrammide määratlemine
-              href: ../retail/tasks/define-loyalty-programs.md
+              href: ../retail/tasks/define-loyalty-programs.md?toc=/dynamics365/commerce/toc.json
             - name: Püsikliendi preemiapunktide määratlemine
-              href: ../retail/tasks/define-loyalty-reward-points.md
+              href: ../retail/tasks/define-loyalty-reward-points.md?toc=/dynamics365/commerce/toc.json
             - name: Püsikliendiskeemide määratlemine
-              href: ../retail/tasks/define-loyalty-schemes.md
+              href: ../retail/tasks/define-loyalty-schemes.md?toc=/dynamics365/commerce/toc.json
             - name: Organisatsiooniüksuste vaheliste seoste kujundamine
-              href: ../retail/tasks/design-relationships-between-organizational-units.md
+              href: ../retail/tasks/design-relationships-between-organizational-units.md?toc=/dynamics365/commerce/toc.json
             - name: Sortimentide haldamine
-              href: ../retail/tasks/manage-assortments-2016-11.md
-            - name: Iseteeninduses riistvarajaamade allalaadimine
-              href: ../retail/tasks/perform-self-service-download-hardware-station.md
-            - name: Veebimüügi ja - maksete sisestamine
-              href: ../retail/tasks/posting-online-sales-payments.md
+              href: ../retail/tasks/manage-assortments-2016-11.md?toc=/dynamics365/commerce/toc.json
+            - name: Veebimüügi ja -maksete sisestamine
+              href: ../retail/tasks/posting-online-sales-payments.md?toc=/dynamics365/commerce/toc.json
             - name: Püsikliendi preemiapunktide korrigeerimiste töötlemine
-              href: ../retail/tasks/process-loyalty-reward-point-adjustments.md
+              href: ../retail/tasks/process-loyalty-reward-point-adjustments.md?toc=/dynamics365/commerce/toc.json
             - name: Toodete jaotamine jaotuskeskustest kauplustesse kesklaost jaotuse abil
-              href: ../retail/tasks/push-products-distribution-center-store-buyers-push.md
+              href: ../retail/tasks/push-products-distribution-center-store-buyers-push.md?toc=/dynamics365/commerce/toc.json
             - name: Reeglite ja parameetrite seadistamine ristlaadimise ja kesklaost jaotuse jaoks
-              href: ../retail/tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+              href: ../retail/tasks/set-up-rules-parameters-cross-docking-buyers-push.md?toc=/dynamics365/commerce/toc.json
             - name: Järjepidevusprogrammide müümine ja müügitellimuste töötlemine
-              href: ../retail/tasks/use-continuity-program.md
+              href: ../retail/tasks/use-continuity-program.md?toc=/dynamics365/commerce/toc.json
             - name: Jaemüügitöötajate konfigureerimine
-              href: ../retail/tasks/worker.md
+              href: ../retail/tasks/worker.md?toc=/dynamics365/commerce/toc.json
         - name: Teave
           items:
             - name: Teabe avaleht
@@ -1337,6 +1371,8 @@
                       href: e-commerce-extensibility/system-requirements.md
                     - name: Arenduskeskkonna seadistamine
                       href: e-commerce-extensibility/setup-dev-environment.md
+                    - name: Arenduskeskkonna (.env) faili konfigureerimine
+                      href: e-commerce-extensibility/configure-env-file.md
                 - name: Platvormi ülevaade
                   items:
                     - name: Arhitektuuriline ülevaade
@@ -1358,7 +1394,7 @@
                     - name: Mooduli testfail
                       href: e-commerce-extensibility/module-test-file.md
                     - name: Mooduli props.autogenerated.ts fail
-                      href: e-commerce-extensibility/module-autogenerated.file.md
+                      href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
                 - name: Moodulite arendamine
                   items:
                     - name: Uue mooduli loomine
@@ -1381,32 +1417,34 @@
                       href: e-commerce-extensibility/create-layout-container.md
                     - name: Lehe konteineri mooduli loomine
                       href: e-commerce-extensibility/create-page-containers.md
+                    - name: Mooduli lokaliseerimine
+                      href: e-commerce-extensibility/localize-module.md
                 - name: Täpsemad mooduliteemad
                   items:
-                    - name: Mooduli globaliseerimine
-                      href: e-commerce-extensibility/globalize-modules.md
                     - name: Atribuutide objekti taotlemine
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: Rakenduse sätted
                       href: e-commerce-extensibility/app-settings.md
                     - name: Mooduli definitsiooni laiendamine
                       href: e-commerce-extensibility/extend-module-definition.md
-                    - name: Küpsistega töötamine
+                    - name: Küpsise API ülevaade
                       href: e-commerce-extensibility/cookie-api-overview.md
-                    - name: Mooduli lokaliseerimine
-                      href: e-commerce-extensibility/localize-module.md
+                    - name: Moodulite globaliseerimine klassi CultureInfoFormatter abil
+                      href: e-commerce-extensibility/globalize-modules.md
                 - name: Andmetegevuste haldamine
                   items:
                     - name: Andmetegevuste ülevaade
                       href: e-commerce-extensibility/data-actions.md
                     - name: Andmetegevuste testimine mudelitega
                       href: e-commerce-extensibility/test-data-action-mocks.md
-                    - name: Lehe koormuse andmetegevused
+                    - name: Lehe laadimise andmetegevused
                       href: e-commerce-extensibility/page-load-data-action.md
                     - name: Sündmusepõhised andmetegevused
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Tuumandmetegevused
                       href: e-commerce-extensibility/core-data-actions.md
+                    - name: Retail Serveri helistamise APId
+                      href: e-commerce-extensibility/call-retail-server-apis.md
                 - name: Täpsemad andmetegevuste teemad
                   items:
                     - name: Ahelandmetegevused
@@ -1442,220 +1480,224 @@
             - name: Retaili arendamine
               items:
                 - name: Retaili arendamise ja haldamise ülevaade
-                  href: ../retail/dev-itpro/dev-retail-home-page.md
+                  href: ../retail/dev-itpro/dev-retail-home-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Arhitektuur
                   items:
                     - name: Retaili komponendid
-                      href: ../retail/retail-components.md
+                      href: ../retail/retail-components.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Serveri arhitektuur
-                      href: ../retail/dev-itpro/retail-server-architecture.md
+                      href: ../retail/dev-itpro/retail-server-architecture.md?toc=/dynamics365/commerce/toc.json
                     - name: Kauplusesisese topoloogia valimine
-                      href: ../retail/dev-itpro/retail-in-store-topology.md
+                      href: ../retail/dev-itpro/retail-in-store-topology.md?toc=/dynamics365/commerce/toc.json
                     - name: Commerce Data Exchange’i ja jaemüügikanali side
-                      href: ../retail/dev-itpro/define-retail-channel-communications-cdx.md
+                      href: ../retail/dev-itpro/define-retail-channel-communications-cdx.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Modern POS-i ülesehitus
-                      href: ../retail/dev-itpro/retail-modern-pos-architecture.md
+                      href: ../retail/dev-itpro/retail-modern-pos-architecture.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail-võrgupoe avaldamise ülesehitus
-                      href: ../retail/dev-itpro/retail-online-store-publishing-architecture.md
+                      href: ../retail/dev-itpro/retail-online-store-publishing-architecture.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Channel Performance’i Power BI sisu
                       href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                     - name: Makse rakendusandmete turbestandardite (PA-DSS) sertifikaat
-                      href: ../retail/dev-itpro/PA-DSS-Certification.md
+                      href: ../retail/dev-itpro/PA-DSS-Certification.md?toc=/dynamics365/commerce/toc.json
                     - name: Asutusesiseste juurutuste jaemüügi võimalused
-                      href: ../retail/retail-onprem.md
+                      href: ../retail/retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Juurutamine ja kiirparandused
                   items:
                     - name: Retail Store Scale Unit
-                      href: ../retail/dev-itpro/retail-store-system-begin.md
+                      href: ../retail/dev-itpro/retail-store-system-begin.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Store Scale Uniti konfigureerimine ja installimine
-                      href: ../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md
+                      href: ../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Modern POS-i installimine ja konfigureerimine
-                      href: ../retail/retail-modern-pos-device-activation.md
+                      href: ../retail/retail-modern-pos-device-activation.md?toc=/dynamics365/commerce/toc.json
                     - name: Jaemüügikontode ja - seadmete haldamine peakontorist
-                      href: ../retail/set-up-activation-accounts-validate-devices-hq.md
+                      href: ../retail/set-up-activation-accounts-validate-devices-hq.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail POS-i seadme aktiveerimine
-                      href: ../retail/dev-itpro/retail-device-activation.md
+                      href: ../retail/dev-itpro/retail-device-activation.md?toc=/dynamics365/commerce/toc.json
                     - name: Cloud POS-i turbe abistamine ühiskasutatavates keskkondades
-                      href: ../retail/dev-itpro/secure-retail-cloud-pos.md
+                      href: ../retail/dev-itpro/secure-retail-cloud-pos.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Hardware Stationi konfigureerimine ja installimine
-                      href: ../retail/retail-hardware-station-configuration-installation.md
+                      href: ../retail/retail-hardware-station-configuration-installation.md?toc=/dynamics365/commerce/toc.json
                     - name: Retaili iseteeninduse komponentide hulgijuurutus
-                      href: ../retail/dev-itpro/retail-mass-deployment.md
+                      href: ../retail/dev-itpro/retail-mass-deployment.md?toc=/dynamics365/commerce/toc.json
                     - name: Retaili komponentide sündmused diagnostika ja tõrkeotsingu jaoks
-                      href: ../retail/dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+                      href: ../retail/dev-itpro/retail-component-events-diagnostics-troubleshooting.md?toc=/dynamics365/commerce/toc.json
                     - name: Juurutatava paketi rakendamine
                       href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Täiendus ja N-1 tugi
                   items:
                     - name: Retaili täiendus ja N-1 tugi
-                      href: ../retail/dev-itpro/overview-upgrade-n-minus1.md
+                      href: ../retail/dev-itpro/overview-upgrade-n-minus1.md?toc=/dynamics365/commerce/toc.json
                     - name: 'Etapiviisilise levitamise (N-1) installimine, konfigureerimine ja üleminek'
-                      href: ../retail/dev-itpro/n-1-installation-configuration.md
+                      href: ../retail/dev-itpro/n-1-installation-configuration.md?toc=/dynamics365/commerce/toc.json
                     - name: Täiendage kanali Retail laiend uusimale Retail SDK-le
-                      href: ../retail/dev-itpro/retailSDK-update.md
+                      href: ../retail/dev-itpro/retailSDK-update.md?toc=/dynamics365/commerce/toc.json
                 - name: Juurutamise juhised
                   items:
                     - name: Seadmehalduse juurutamise juhised
-                      href: ../retail/implementation-considerations-devices.md
+                      href: ../retail/implementation-considerations-devices.md?toc=/dynamics365/commerce/toc.json
                 - name: Keskkonna konfiguratsioon
                   items:
                     - name: Saate oma organisatsiooni juriidilistele tingimustele ja privaatsusavaldusele linke lisada
                       href: ../fin-ops-core/dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/commerce/toc.json
                     - name: Bingi kaartide haldamine
-                      href: ../retail/dev-itpro/manage-bing-maps.md
+                      href: ../retail/dev-itpro/manage-bing-maps.md?toc=/dynamics365/commerce/toc.json
                 - name: Retaili laiendiressursside ja sildifailide lokaliseerimine
-                  href: ../retail/dev-itpro/extension-resource-localization.md
+                  href: ../retail/dev-itpro/extension-resource-localization.md?toc=/dynamics365/commerce/toc.json
                 - name: Kassa laiendatavus
                   items:
                     - name: Retail POS-i ekraani paigutused
-                      href: ../retail/pos-screen-layouts.md
+                      href: ../retail/pos-screen-layouts.md?toc=/dynamics365/commerce/toc.json
                     - name: URL-i avamine kassas
-                      href: ../retail/Open-URL-in-POS.md
+                      href: ../retail/Open-URL-in-POS.md?toc=/dynamics365/commerce/toc.json
                     - name: Kassa paigutuse kujundaja installimine
-                      href: ../retail/install-pos-layout-designer.md
+                      href: ../retail/install-pos-layout-designer.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Modern POS ühenduseta režiimis
-                      href: ../retail/dev-itpro/retail-modern-pos-offline.md
+                      href: ../retail/dev-itpro/retail-modern-pos-offline.md?toc=/dynamics365/commerce/toc.json
                     - name: Kassa topeltkuva laiendamine
-                      href: ../retail/dev-itpro/pos-dual-display-extension.md
+                      href: ../retail/dev-itpro/pos-dual-display-extension.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Modern POS-i ja pilve kassa käivitaja laiendatavus
-                      href: ../retail/dev-itpro/modern-pos-trigger-extensibility.md
+                      href: ../retail/dev-itpro/modern-pos-trigger-extensibility.md?toc=/dynamics365/commerce/toc.json
                     - name: Kohandatud juhtelementide lisamine POS-i vaadetele
-                      href: ../retail/dev-itpro/pos-custom-control.md
+                      href: ../retail/dev-itpro/pos-custom-control.md?toc=/dynamics365/commerce/toc.json
                     - name: Kassatoimingute lisamine kassa paigutustele nupupaneeli koostaja abil
                       href: ../retail/dev-itpro/add-POS-operations.md
                     - name: Retail POS-i API-d
-                      href: ../retail/dev-itpro/POS-APIs.md
+                      href: ../retail/dev-itpro/POS-APIs.md?toc=/dynamics365/commerce/toc.json
                     - name: Kassa makselaiend
-                      href: ../retail/dev-itpro/pos-payment-extension.md
+                      href: ../retail/dev-itpro/pos-payment-extension.md?toc=/dynamics365/commerce/toc.json
                     - name: Väliste kinkekaartide tugi
-                      href: ../retail/dev-itpro/gift-card.md
+                      href: ../retail/dev-itpro/gift-card.md?toc=/dynamics365/commerce/toc.json
                     - name: Tootjakohanduse loomine ja rakendamine rakendusele Retail Experience
-                      href: ../retail/dev-itpro/create-retail-experience-app.md
+                      href: ../retail/dev-itpro/create-retail-experience-app.md?toc=/dynamics365/commerce/toc.json
                     - name: Rakenduse POS Hybrid seadistamine Androidis ja iOS-is
-                      href: ../retail/dev-itpro/hybridApp.md
+                      href: ../retail/dev-itpro/hybridApp.md?toc=/dynamics365/commerce/toc.json
                     - name: Kassa taotluseohjuri tühistamine
-                      href: ../retail/dev-itpro/pos-handler.md
+                      href: ../retail/dev-itpro/pos-handler.md?toc=/dynamics365/commerce/toc.json
                     - name: Kassa laienduspaketi teabe kuvamine
-                      href: ../retail/dev-itpro/view-pos-extension-package-details.md
+                      href: ../retail/dev-itpro/view-pos-extension-package-details.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Cloud POS-i testi salvestaja ja Regression suite automation tool
-                      href: ../retail/dev-itpro/pos-rsat.md
+                      href: ../retail/dev-itpro/pos-rsat.md?toc=/dynamics365/commerce/toc.json
                 - name: Hardware Station ja laiendatavus
-                  href: ../retail/dev-itpro/hardware-station-extensibility.md
+                  href: ../retail/dev-itpro/hardware-station-extensibility.md?toc=/dynamics365/commerce/toc.json
                 - name: Kassa integreerimine uue riistvaraseadmega
-                  href: ../retail/dev-itpro/hardware-device-extension.md
+                  href: ../retail/dev-itpro/hardware-device-extension.md?toc=/dynamics365/commerce/toc.json
                 - name: Retail Serveri laiendatavus
                   items:
                     - name: Retail Server OData kontrolleri laiendamine
-                      href: ../retail/dev-itpro/extend-retail-server-odata-controller.md
+                      href: ../retail/dev-itpro/extend-retail-server-odata-controller.md?toc=/dynamics365/commerce/toc.json
                     - name: Web API kontrolleri loomine Retail Serveri jaoks
-                      href: ../retail/dev-itpro/odata-controllers-api.md
+                      href: ../retail/dev-itpro/odata-controllers-api.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Serveri kliendi ja tarbija API-d
-                      href: ../retail/dev-itpro/retail-server-customer-consumer-api.md
+                      href: ../retail/dev-itpro/retail-server-customer-consumer-api.md?toc=/dynamics365/commerce/toc.json
                     - name: Vaikimisi Retail Serveri metaandmete kontrolleri laiendamine
-                      href: ../retail/dev-itpro/extend-metadata.md
+                      href: ../retail/dev-itpro/extend-metadata.md?toc=/dynamics365/commerce/toc.json
                     - name: CRT teenusele helistamine ühenduseta režiimis
-                      href: ../retail/dev-itpro/call-crt-service-offline.md
+                      href: ../retail/dev-itpro/call-crt-service-offline.md?toc=/dynamics365/commerce/toc.json
                     - name: Uue Retail Serveri laienduse loomine
-                      href: ../retail/dev-itpro/retail-server-extension.md
+                      href: ../retail/dev-itpro/retail-server-extension.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Runtime’i (CRT) laiendatavus
                   items:
                     - name: CRT arhitektuur ja konfigureerimine
-                      href: ../retail/dev-itpro/commerce-runtime-overview.md
+                      href: ../retail/dev-itpro/commerce-runtime-overview.md?toc=/dynamics365/commerce/toc.json
                     - name: CRT-teenused
-                      href: ../retail/dev-itpro/crt-services.md
+                      href: ../retail/dev-itpro/crt-services.md?toc=/dynamics365/commerce/toc.json
                     - name: CRT ja Retail Serveri laiendatavus
-                      href: ../retail/dev-itpro/commerce-runtime-extensibility.md
+                      href: ../retail/dev-itpro/commerce-runtime-extensibility.md?toc=/dynamics365/commerce/toc.json
                     - name: Kliendi eelistuse andmete lisamine kanali andmebaasidesse
-                      href: ../retail/dev-itpro/add-customer-preference-channel.md
+                      href: ../retail/dev-itpro/add-customer-preference-channel.md?toc=/dynamics365/commerce/toc.json
                     - name: Retaili kanalite saladuste haldamine
-                      href: ../retail/dev-itpro/manage-secrets.md
+                      href: ../retail/dev-itpro/manage-secrets.md?toc=/dynamics365/commerce/toc.json
                     - name: Müügitellimustele atribuutide lisamine
-                      href: ../retail/dev-itpro/add-properties-sales-order.md
+                      href: ../retail/dev-itpro/add-properties-sales-order.md?toc=/dynamics365/commerce/toc.json
                     - name: CRT laiendatavus ja päästikud
-                      href: ../retail/dev-itpro/commerce-runtime-extensibility-trigger.md
+                      href: ../retail/dev-itpro/commerce-runtime-extensibility-trigger.md?toc=/dynamics365/commerce/toc.json
                     - name: Kannete blokeerimine päästikute abil
-                      href: ../retail/dev-itpro/trigger-example-blocking-transaction.md
+                      href: ../retail/dev-itpro/trigger-example-blocking-transaction.md?toc=/dynamics365/commerce/toc.json
                     - name: Tagastuspoliitika juurutamine päästikute abil
-                      href: ../retail/dev-itpro/trigger-example-return-policy.md
-                - name: e-Commerce’i laiendatavus
+                      href: ../retail/dev-itpro/trigger-example-return-policy.md?toc=/dynamics365/commerce/toc.json
+                - name: E-kaubanduse laiendatavus
                   items:
                     - name: Konfigureeri e-poode
-                      href: ../retail/dev-itpro/configure-online-store.md
+                      href: ../retail/dev-itpro/configure-online-store.md?toc=/dynamics365/commerce/toc.json
                     - name: Autentimise pakkujate konfigureerimine
-                      href: ../retail/dev-itpro/configure-authentication-providers.md
-                    - name: e-Commerce’i platvorm
-                      href: ../retail/dev-itpro/ecommerce-platform.md
-                    - name: e-Commerce’i platvormi SDK
-                      href: ../retail/dev-itpro/ecommerce-platform-sdk.md
+                      href: ../retail/dev-itpro/configure-authentication-providers.md?toc=/dynamics365/commerce/toc.json
+                    - name: E-kaubanduse platvorm
+                      href: ../retail/dev-itpro/ecommerce-platform.md?toc=/dynamics365/commerce/toc.json
+                    - name: E-kaubanduse platvormi SDK
+                      href: ../retail/dev-itpro/ecommerce-platform-sdk.md?toc=/dynamics365/commerce/toc.json
                 - name: Makseühenduse laiendatavus
                   items:
                     - name: Makse integreerimise loomine makseterminali jaoks
-                      href: ../retail/dev-itpro/end-to-end-payment-extension.md
+                      href: ../retail/dev-itpro/end-to-end-payment-extension.md?toc=/dynamics365/commerce/toc.json
                     - name: Makseühenduse ja -seadme juurutamine (tehniline ülevaade)
                       href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                     - name: Maksekonnektorite juurutamine
-                      href: ../retail/dev-itpro/deploy-payment-connector.md
+                      href: ../retail/dev-itpro/deploy-payment-connector.md?toc=/dynamics365/commerce/toc.json
                     - name: Kohandatud lokaliseeritud tõrketeadete loomine makseterminali laienduste jaoks
-                      href: ../retail/dev-itpro/payment-custom-error-messages.md
+                      href: ../retail/dev-itpro/payment-custom-error-messages.md?toc=/dynamics365/commerce/toc.json
                     - name: Windowsi installerite loomine maksekonnektorite jaoks
-                      href: ../retail/dev-itpro/create-windows-installer-payment-connector.md
+                      href: ../retail/dev-itpro/create-windows-installer-payment-connector.md?toc=/dynamics365/commerce/toc.json
                     - name: Makse andmete kasutamine
-                      href: ../retail/payment-connector-data-fields.md
+                      href: ../retail/payment-connector-data-fields.md?toc=/dynamics365/commerce/toc.json
                     - name: Maksekonnektori duplikaatmaksete kaitse lubamine
-                      href: ../retail/dev-itpro/duplicate-payment-protection.md
+                      href: ../retail/dev-itpro/duplicate-payment-protection.md?toc=/dynamics365/commerce/toc.json
                 - name: Retail SDK
                   items:
                     - name: Retail SDK arhitektuur
-                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-overview.md
+                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-overview.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail SDK tulevased muudatused
-                      href: ../retail/dev-itpro/UpcomingSDKChanges.md
+                      href: ../retail/dev-itpro/UpcomingSDKChanges.md?toc=/dynamics365/commerce/toc.json
                     - name: Järgusüsteemide ühendamine Retaili ja Finance and Operationsi jaoks
-                      href: ../retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+                      href: ../retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail SDK laiendatavuse näited
-                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md?toc=/dynamics365/commerce/toc.json
                     - name: Juurutatavate jaemüügipakettide loomine
-                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-packaging.md
+                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-packaging.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail SDK näidised
-                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-samples.md
+                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-samples.md?toc=/dynamics365/commerce/toc.json
                     - name: Saatelehtede laienduspunktid
-                      href: ../retail/dev-itpro/extensions-shipping-carrier-integration.md
+                      href: ../retail/dev-itpro/extensions-shipping-carrier-integration.md?toc=/dynamics365/commerce/toc.json
                     - name: Kanali andmebaasi laiendid
-                      href: ../retail/dev-itpro/channel-db-extensions.md
+                      href: ../retail/dev-itpro/channel-db-extensions.md?toc=/dynamics365/commerce/toc.json
                     - name: Laiendi kaudu kohandatud CDX-i sünkroonimise lubamine
-                      href: ../retail/dev-itpro/cdx-extensibility.md
+                      href: ../retail/dev-itpro/cdx-extensibility.md?toc=/dynamics365/commerce/toc.json
                     - name: Kohandatud väljade lisamine kassa kogusummade paneeli
-                      href: ../retail/dev-itpro/custom-field-pos-totals.md
+                      href: ../retail/dev-itpro/custom-field-pos-totals.md?toc=/dynamics365/commerce/toc.json
                     - name: Tellimuse atribuutide määratlemine ja seadistamine
-                      href: ../retail/dev-itpro/order-attributes.md
+                      href: ../retail/dev-itpro/order-attributes.md?toc=/dynamics365/commerce/toc.json
                     - name: Kliendi atribuudid
-                      href: ../retail/dev-itpro/customer-attributes.md
+                      href: ../retail/dev-itpro/customer-attributes.md?toc=/dynamics365/commerce/toc.json
                     - name: 'Retail Typescript ja C# puhvrid'
-                      href: ../retail/dev-itpro/typescript-proxy-retail-pos.md
+                      href: ../retail/dev-itpro/typescript-proxy-retail-pos.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail POS-i näidete käitamine
-                      href: ../retail/dev-itpro/pos-run-samples.md
+                      href: ../retail/dev-itpro/pos-run-samples.md?toc=/dynamics365/commerce/toc.json
                     - name: POS-i vaadete laiendamine kohandatud veergude ja rakendusriba nuppude lisamiseks
-                      href: ../retail/dev-itpro/pos-view-extension.md
+                      href: ../retail/dev-itpro/pos-view-extension.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Modern POS-i kandelehtedele kohandatud juhtelementide lisamine
-                      href: ../retail/dev-itpro/pos-custom-transaction.md
+                      href: ../retail/dev-itpro/pos-custom-transaction.md?toc=/dynamics365/commerce/toc.json
                     - name: Kohandatud veergude lisamine POS-i kanderuudustikule
-                      href: ../retail/dev-itpro/pos-custom-transaction-column.md
+                      href: ../retail/dev-itpro/pos-custom-transaction-column.md?toc=/dynamics365/commerce/toc.json
                     - name: POS-i APIde või toimingute kutsumine POS-i laienditest
-                      href: ../retail/dev-itpro/pos-api-extension.md
+                      href: ../retail/dev-itpro/pos-api-extension.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Modern POS-i käivitajad ja printimine
-                      href: ../retail/dev-itpro/pos-trigger-printing.md
+                      href: ../retail/dev-itpro/pos-trigger-printing.md?toc=/dynamics365/commerce/toc.json
                     - name: Kohandatud juhtelementide lisamine ekraanivälistele koostajapõhistele POS-i vaadetele
-                      href: ../retail/dev-itpro/pos-control-non-screen.md
+                      href: ../retail/dev-itpro/pos-control-non-screen.md?toc=/dynamics365/commerce/toc.json
                     - name: Arendus pilves majutatavates arenduskeskkondades ilma administraatori juurdepääsuta
-                      href: ../retail/dev-itpro/cloud-dev-box.md
+                      href: ../retail/dev-itpro/cloud-dev-box.md?toc=/dynamics365/commerce/toc.json
                     - name: Kassas kohandatud teatiste kuvamine
-                      href: ../retail/dev-itpro/extend-pos-notification.md
+                      href: ../retail/dev-itpro/extend-pos-notification.md?toc=/dynamics365/commerce/toc.json
                     - name: MPOS-i allkirjastamine koodi allkirjastamise serdiga
-                      href: ../retail/dev-itpro/pos-app-signing-certificate.md
+                      href: ../retail/dev-itpro/pos-app-signing-certificate.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Runtime
                   items:
                     - name: Püsikliendi laiendus
-                      href: ../retail/dev-itpro/retail-sdk/loyalty-extension-sample.md
+                      href: ../retail/dev-itpro/retail-sdk/loyalty-extension-sample.md?toc=/dynamics365/commerce/toc.json
     - name: Finance and Operationsi rakenduste juurutamine ja haldamine
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Retail
       href: ../retail/index.md
+    - name: Dynamics 365 Finance
+      href: ../finance/index.md
+    - name: Dynamics 365 Supply Chain Management
+      href: ../supply-chain/index.md

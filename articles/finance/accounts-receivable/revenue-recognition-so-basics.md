@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f0a5e4c01b34b2adb8e7e0af967af2c2562b4d87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7d2cfb8e58221004ae5662aae3850adc577dc88
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175902"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570306"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Müügitellimuste tulu tuvastamine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Tulu tuvastamise funktsiooni ei saa veel funktsioonihalduse kaudu sisse lülitada. Praegu peate selle sisselülitamiseks kasutama konfiguratsioonivõtmeid.
+> Tulu tuvastamise funktsiooni ei saa funktsioonihalduse kaudu sisse lülitada. Praegu peate selle sisselülitamiseks kasutama konfiguratsioonivõtmeid.
 
 Selles teemas kirjeldatakse müügitellimuste ja arvete tulu tuvastamise põhifunktsioone. Tulu tuvastamine on saadaval müügitellimuse ja selle müügitellimuse alusel loodud arve jaoks. Müügitellimuse saab luua ka aja- ja materjalikulu projekti kaudu.
 

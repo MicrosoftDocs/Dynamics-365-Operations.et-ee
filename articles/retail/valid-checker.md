@@ -3,7 +3,7 @@ title: Jaemüügikande süsteemsuskontroll
 description: Selles teemas kirjeldatakse jaemüügikande süsteemsuskontrolli funktsiooni teenuses Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 05/30/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b956565ac15b3d7b638cedaadc20923ee87b9c61
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018409"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622593"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Jaemüügikande süsteemsuskontroll
 
@@ -59,7 +59,10 @@ Pakktöötluse funktsioon **Kinnita kaupluse kanded** kontrollib jaemüügi kand
 - **Kinkekaardi kaup** – Retail ei toeta kinkekaardikaupade tagastamist. Kinkekaardil oleva saldo saab aga sularahaks teisendada. Väljavõtte sisestamise protsess nurjub iga kinkekaardikauba puhul, mida töödeldakse sularahaks teisendamise rea asemel tagastusreana. Kinkekaardikaupade valideerimisprotsess aitab tagada, et ainsad tagastatavad kinkekaardi reakaubad jaemüügi kandetabelites oleksid kinkekaardi sularahaks teisendamise read.
 - **Negatiivne hind** – kontrollib, ega kuskil pole negatiivse hinna kanderidu.
 - **Kaup ja variant** – kontrollib, kas kanderidadel olevad kaubad ja variandid on olemas ka kauba ja variandi põhifailis.
-- **Maksusumma** – kontrollib, kas maksekirjed vastavad ridadel olevatele maksusummadele. 
+- **Maksusumma** – kontrollib, kas maksukirjed vastavad ridadel olevatele maksusummadele.
+- **Seerianumber** – kontrollib, kas seerianumber on seerianumbriga kontrollitavate ridade puhul kanderidadel olemas.
+- **Märk** – kontrollib, kas koguse ja netosumma märk on kõigil kanderidadel sama.
+- **Ärikuupäev** – kontrollib, kas kõigi jaemüügikannete ärikuupäevade finantsperioodid on avatud.
 
 ## <a name="set-up-the-consistency-checker"></a>Süsteemsuskontrolli seadistamine
 

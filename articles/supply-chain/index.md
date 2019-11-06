@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278320"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653690"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Teenuse Supply Chain Management spikriressursid
 
@@ -39,7 +39,7 @@ Valige <a href="https://roadmap.dynamics.com/">Dynamics 365 sisukaart</a>, et n�
 Valige funktsiooniala, et selle kohta rohkem teavet saada.
 
 - [Varahaldus](asset-management/index.md)
-- [Kuluarvestus](../financials/cost-accounting/cost-accounting-home-page.md)
+- [Kuluarvestus](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Kuluhaldus](cost-management/cost-management-home-page.md)  
 - [Varude haldus](inventory/inventory-home-page.md)
 - [Koondplaneerimine](master-planning/master-planning-home-page.md)
@@ -109,7 +109,7 @@ Need tehnoloogiakonverentsi salvestised räägivad toote funktsionaalsusest rake
 -  [Transpordihaldus (TMS) uues teenuses Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Ajaveebid
-<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist</a> ja <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX-i tarneahela haldamise uurimis- ja arendustöörühma ajaveebist</a> leiate palju teemasid tootmise ja tarneahela juhtimise kohta. Enamik neist on kirjutatud rakenduse Finance and Operationsi eelmise versiooni jaoks, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased. 
+<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist</a> ja <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist</a> leiate palju teemasid tootmise ja tarneahela juhtimise kohta. Enamik neist on kirjutatud eelmise versiooni jaoks, kuid samad mõisted kehtivad sellegipoolest ja protseduurid on praeguses versioonis sarnased. 
 
 ## <a name="white-papers"></a>Tehniline ülevaade
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Kuluarvestuse praktilised laborid</a> 

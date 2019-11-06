@@ -3,7 +3,7 @@ title: Hajutatud tellimuste haldamine (DOM)
 description: Selles teemas kirjeldatakse hajutatud tellimuste haldamise (DOM) funktsiooni rakenduses Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 11/15/2018
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fee0d9257af86a734a60b469db3a006435f1d3d2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
+ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023415"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578480"
 ---
 # <a name="distributed-order-management-dom"></a>Hajutatud tellimuste haldamine (DOM)
 
@@ -94,6 +94,7 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
         - **Kas täita osalised read?** – kui see valik on seatud väärtusele **Jah**, saab DOM täita ainult tellimuse ridade osalise koguse. See osaline täitmine saavutatakse tellimuse rea tükeldamisega.
         - **Kas täita tellimus ainult ühest asukohast?** – kui see valik on seatud väärtusele **Jah**, tagab DOM selle, et kõik tellimuse read täidetakse ühest asukohast.
 
+
         Järgmises tabelis kirjeldatakse käitumist, kui nende parameetrite kombinatsioon on määratud.
 
         |      | Osaliste tellimuste täitmine | Osaliste ridade täitmine | Tellimuse täitmine ainult ühest asukohast | Kirjeldus |
@@ -110,19 +111,22 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
 
         \* Kui valik **Osaliste tellimuste täitmine** on seatud väärtusele **Ei**, arvestatakse alati, et valik **Osaliste ridade täitmine** on seatud väärtusele **Ei**, olenemata sellest, kuidas see tegelikult seatud on.
 
-    - **Ühenduseta täitmise asukoha reegel** – see reegel laseb organisatsioonidel määratleda DOM-is asukoha või asukohtade grupi ühenduseta või mitte saadaval asukohana, nii et tellimusi ei saa sinna täitmiseks määrata.
+> [!NOTE]
+> Retaili versioonis 10.0.5 on parameeter **Tellimuse täitmine ainult ühest asukohast** asendatud parameetriga **Täitmise asukohtade maksimumarv**. Selle asemel et võimaldada kasutajal konfigureerida, kas tellimused tuleb täita ainult ühest asukohast või nii paljudest asukohtadest, kui võimalik, saavad kasutajad nüüd määrata, kas täitmine toimub määratud hulgast asukohtadest (kuni 5) või nii paljudest asukohtadest, kui võimalik. See annab suurema paindlikkuse selle kohta, mitmest asukohast tellimusi saab täita.
+
+   - **Ühenduseta täitmise asukoha reegel** – see reegel laseb organisatsioonidel määratleda DOM-is asukoha või asukohtade grupi ühenduseta või mittesaadaval asukoha või grupina, nii et tellimusi ei saa nendele asukohtadele täitmiseks määrata.
     - **Maksimaalse tagasilükkamiste arvu reegel** – see reegel laseb organisatsioonidel määratleda tagasilükkamiste läve. Kui lävi saavutatakse, märgib DOM-i protsessor tellimuse või tellimuse rea erandina ja arvab selle edaspidisest töötlusest välja.
 
         Kui tellimuse read on asukohta määratud, saab asukoht määratud tellimuse rea tagasi lükata, kuna see ei pruugi suuta seda rida teatud põhjustel täita. Tagasilükatud read on märgitud eranditena ja need pannakse tagasi töötlemiskausta järgmisel käitusel. Järgmisel käitusel üritab DOM määrata tagasilükatud rea teise asukohta. Uus asukoht saab samuti määratud tellimuse rida tagasi lükata. See määramiste ja tagasilükkamiste tsükkel võib tekkida mitu korda. Kui tagasilükkamiste arv jõuab määratud läveni, märgib DOM tellimuse rea püsivaks erandiks ega vali seda rida uuesti määramiseks. DOM kaalub tellimuse rida ümbermääramiseks uuesti alles siis, kui kasutaja lähtestab käsitsi tellimuse rea oleku.
 
-    - **Maksimaalse kauguse reegel** – see reegel laseb organisatsioonidel määrata maksimaalse kauguse, kus asukoht või asukohtade grupp võib tellimuse täitmiseks olla. Kui asukohale on määratud kattuvad maksimaalse kauguse reeglid, kohaldub DOM väiksemaile maksimaalsele kaugusele, mis selle asukoha jaoks on määratud.
+   - **Maksimaalse kauguse reegel** – see reegel laseb organisatsioonidel määrata maksimaalse kauguse, kus asukoht või asukohtade grupp võib tellimuse täitmiseks olla. Kui asukohale on määratud kattuvad maksimaalse kauguse reeglid, kohaldub DOM väiksemaile maksimaalsele kaugusele, mis selle asukoha jaoks on määratud.
     - **Maksimaalse tellimuste arvu reegel** – see reegel laseb organisatsioonidel määrata tellimuste maksimaalse arvu, mida asukoht või asukohtade grupp saab kalendripäeva jooksul töödelda. Kui tellimuste maksimaalne arv ühe päeva jooksul on asukohale määratud, ei määra DOM sellele asukohale selle kalendripäeva jooksul rohkem tellimusi.
 
-    Siin on mõned üldised atribuudid, mida saab määrata kõikidele eelnevatele reegli tüüpidele.
+   Siin on mõned üldised atribuudid, mida saab määrata kõikidele eelnevatele reegli tüüpidele.
 
-    - **Alguskuupäev** ja **Lõppkuupäev** – igale reeglile saab määrata kehtivuskuupäevad, kasutades neid välju.
-    - **Keelatud** – DOM-i käituses arvestatakse ainult neid reegleid, mille väärtus selle välja jaoks on **Ei**.
-    - **Range piirang** – reegli saab määrata range piiranguna või mitte range piiranguna. Iga DOM-i käitus läbi kaks iteratsiooni. Esimeses iteratsioonis koheldakse iga reeglit range piiranguna, olenemata selle välja väärtusest. See tähendab, et iga reegel kohaldatakse. Ainus erand on reegel **Asukoha prioriteet**. Teises iteratsioonis eemaldatakse reeglid, mis pole määratletud rangete piirangutena, ja asukohtadele määratakse tellimus või tellimuse read, mis ei olnud kõikide reeglite kohaldamisel asukohtadele määratud.
+   - **Alguskuupäev** ja **Lõppkuupäev** – igale reeglile saab määrata kehtivuskuupäevad, kasutades neid välju.
+   - **Keelatud** – DOM-i käituses arvestatakse ainult neid reegleid, mille väärtus selle välja jaoks on **Ei**.
+   - **Range piirang** – reegli saab määrata range piiranguna või mitte range piiranguna. Iga DOM-i käitus läbi kaks iteratsiooni. Esimeses iteratsioonis koheldakse iga reeglit range piiranguna, olenemata selle välja väärtusest. See tähendab, et iga reegel kohaldatakse. Ainus erand on reegel **Asukoha prioriteet**. Teises iteratsioonis eemaldatakse reeglid, mis pole määratletud rangete piirangutena, ja asukohtadele määratakse tellimus või tellimuse read, mis ei olnud kõikide reeglite kohaldamisel asukohtadele määratud.
 
 10. Täitmisprofiile kasutatakse reeglikogumi, juriidiliste isikute, müügitellimuste päritolude ja tarneviiside rühmitamiseks. Iga DOM-i käitus on konkreetse täitmisplaani jaoks. Nii saavad organisatsioonid määrata ja käitada reeglite kogumit juriidiliste isikute kogumite jaoks tellimustel, millel on konkreetsed müügitellimuste päritolud ja tarneviisid. Seega, kui eri müügitellimuste päritolude või tarneviiside kogumite jaoks tuleb käitada erinevat reeglite kogumit, saab täitmisprofiile määrata sellele vastavalt. Täitmisprofiilide seadistamiseks läbige need etapid.  
 
