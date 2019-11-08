@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181515"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564933"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>SharePointist andmete importimise konfigureerimine
 
@@ -62,9 +62,9 @@ Vaadake tegevusjuhiseid **Elektrooniline aruandlus: andmete importimine Microsof
 > Hankija kannete importimise vorming on valitud vaike-mudelivastendusena. Seega kui käivitate **1099 maksete mudeli** mudelivastenduse ja mudelivastenduse tüüp on **Sihtkohta**, käitab mudelivastendus seda vormingut andmete importimiseks välistest failidest. Seejärel kasutab see neid andmeid rakenduse tabelite värskendamiseks.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>SharePointile juurdepääsu konfigureerimine failitalletuseks
-Elektroonilise aruande failide talletamiseks SharePointi asukohas tuleb konfigureerida juurdepääs praeguses ettevõttes kasutatavale SharePointi Serveri eksemplarile. Selles näites on ettevõte USMF. Juhiseid vt teemast [SharePointi salvestusruumi konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+Elektroonilise aruande failide talletamiseks SharePointi asukohas tuleb konfigureerida juurdepääs praeguses ettevõttes kasutatavale SharePointi Serveri eksemplarile. Selles näites on ettevõte USMF. Juhiseid vt teemast [SharePointi salvestusruumi konfigureerimine](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. Järgige juhiseid jaotises teemas [SharePointi salvestusruumi konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+1. Järgige juhiseid jaotises teemas [SharePointi salvestusruumi konfigureerimine](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 2. Avage konfigureeritud SharePointi sait.
 3. Looge sissetulevate elektrooniliste aruandluse failide talletamiseks järgmised kaustad:
 
@@ -80,7 +80,7 @@ Elektroonilise aruande failide talletamiseks SharePointi asukohas tuleb konfigur
     - Failide veakaust – See kaust oleks failide jaoks, mida ei saanud importida.
 
 4. Avage **Organisatsiooni haldus > Dokumendihaldus > Dokumenditüübid**.
-5. Looge dokumenditüübid, mida kasutatakse äsjaloodud SharePointi kaustadele juurdepääsuks. Lisateabe saamiseks vaadake [Dokumenditüüpide konfigureerimine](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. Looge dokumenditüübid, mida kasutatakse äsjaloodud SharePointi kaustadele juurdepääsuks. Lisateabe saamiseks vaadake [Dokumenditüüpide konfigureerimine](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Dokumendi tüüp        | Grupeeri              | Koht      | SharePointi kaust      |
 |--------------------|--------------------|---------------|------------------------|

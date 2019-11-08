@@ -3,7 +3,7 @@ title: Hange
 description: Selles teemas selgitatakse hanget varahalduses.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,85 +16,87 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1678dbe2432e4be46aebb40a12e73dfd695c3e77
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: ec14f645af5dfdb3e840624e4cec95c46cfbbc25
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875607"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626427"
 ---
 # <a name="procurement"></a>Hange
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+Varahalduses saate ülevaate ostutaotlustega ja ostutellimustega seotud töökäskude kohta. Samuti on võimalik luua ostutellimus või ostutaotlus töökäsust.
 
-Varahalduses saate ülevaate ostutaotluste ja ostutellimustega seotud töötellimuste kohta. Samuti on võimalik luua ostutellimus või ostutaotlus töötellimusest.
+Loendis **Töökäsu ostutaotlus** (**Varahaldus** > **Tavaline** > **Hange** > **Töökäsu ostutaotlus**) on kuvatud töökäskudega seotud ostutaotlused. Kui valite sellelt lehelt töökäsu töö, saate kasutada toimingupaani vahekaardi **Töökäsu ostutaotlus** grupi **Kuva** nuppe, et sooritada mitmesuguseid toiminguid:
 
-Loendis **Töökäsu ostutaotlus** (**Varahaldus** > **Tavaline** > **Hange** > **Töökäsu ostutaotlus**) näete töökäskudega seotud ostutaotlusi.
+- Seotud ostutaotluse avamiseks valige **Ostutaotlus**. 
+- Seotud töökäsu avamiseks valige **Töökäsk**.
+- Et saada ülevaadet sellest, kus varahalduses valitud real olevat kaupa kasutatakse, valige varade, hooldustöö tüübi vaikesätete, varuosade ja töökäskude puhul väärtus **Üksus, kus kasutatud**. Lisateavet selle ülevaate kohta vt teemast [Üksus, kus kasutatud](../controlling-and-reporting/item-where-used.md).
 
-- Valige töökäsu töö **Töökäsu ostutaotlus** ja klõpsake **Ostutaotlus**, et avada seotud ostutaotlusi.  
-- Valige töökäsu töö loendist **Töökäsu ostutaotlus** ja klõpsake **Töökäsk**, et avada seotud töökäske.  
-- Valige töötellimuse töö loendist **Töökäsu ostutaotlus** ja klõpsake **Kaup, kus kasutatakse** nuppu, kui soovite saada ülevaate, kus valitud real olevat kaupa kasutatakse varahalduses seoses varade, hooldustöö tüübi vaikeväärtuste, varuosade ja töökorraldustega. 
+Alloleval joonisel kuvatakse loendilehe **Töökäsu ostutaotlus** näide.
 
 ![Joonis 1](media/08-work-orders.png)
 
 
-Loendis **Töökäsu ostmine** (**Ettevõtte varahaldus** > **Tavaline** > **Hange** > **Töökäsu ostmine**) näete töökäskudega seotud ostutellimusi.
+Loendis **Töökäsu ost** (**Varahaldus** > **Tavaline** > **Hange** > **Töökäsu ost**) on kuvatud töökäskudega seotud ostutellimused. Kui valite sellelt lehelt töökäsu töö, saate kasutada toimingupaani vahekaardi **Töökäsu ost** grupi **Kuva** nuppe, et sooritada mitmesuguseid toiminguid:
 
-- Valige töökäsu töö loendist **Töökäsu ostutaotlus** ja klõpsake **Ostutellimus**, et avada seotud ostutellimusi.  
-- Valige töökäsu töö loendist **Töökäsu ostutaotlus** ja klõpsake **Töökäsk**, et avada seotud töökäske.  
-- Valige töötellimuse töö ostmise loendist **Töökäsu ostutaotlus** ja klõpsake **Kaup, kus kasutatakse** nuppu, kui soovite saada ülevaate, kus valitud real olevat kaupa kasutatakse varahalduses seoses varade, hooldustöö tüübi vaikeväärtuste, varuosade ja töökorraldustega. 
+- Seotud ostutellimuse avamiseks valige **Ostutellimus**. 
+- Seotud töökäsu avamiseks valige **Töökäsk**.
+- Et saada ülevaadet sellest, kus varahalduses valitud real olevat kaupa kasutatakse, valige varade, hooldustöö tüübi vaikesätete, varuosade ja töökäskude puhul väärtus **Üksus, kus kasutatud**. Lisateavet selle ülevaate kohta vt teemast [Üksus, kus kasutatud](../controlling-and-reporting/item-where-used.md).
+
+Alloleval joonisel kuvatakse loendilehe **Töökäsu ost** näide.
 
 ![Joonis 2](media/09-work-orders.png)
 
 
-Ülaltoodud loendites paigutatakse tarnekuupäeva kontrolliga seotud ikoon igale reale paremale. Kui ikoon kuvab punases ringis hüüumärgi, tähendab see, et seotud ostutaotluse või ostutellimuse tarne võib edasi lükata.
+Nii loendilehel **Töötellimuse ost** kui ka loendilehel **Töötellimuse ostutaotlus** kuvatakse iga rea paremal küljel tarnekuupäeva kontrolliga seotud sümbol. Kui sümbolina on kuvatud punases ringis hüüumärk, tähendab see, et seotud ostutellimuse või ostutaotluse tarne võib hilineda.
 
-Ostutellimuse puhul leitakse võimaliku viivituse arvutamiseks kasutatav kuupäev vormil **Ostutaotlused** > **Ostutellimuse päis** FastTab > **Nõutud kuupäeva** väljal. Seda kuupäeva võrreldakse töökäsu või töökäsu töö vaba kuupäevaga samal viisil nagu ostutellimuse kuupäeva.
+Ostutellimuse puhul kasutatakse võimaliku viivituse arvutamiseks ostutellimuse reaga seotud kuupäeva. Selle kuupäeva vaatamiseks valige lehel **Ostutellimus** ostutellimuse rida. Kuupäev kuvatakse kiirkaardi **Rea üksikasjad** vahekaardi **Seadistus** väljal **Kinnitatud tarnekuupäev**. Kui välja **Kinnitatud tarnekuupäev** ei ole määratud, kasutatakse arvutamiseks kiirkaardi **Ostutellimuse päis** välja **Tarnekuupäev**. Ühte neist kuupäevadest võrreldakse töökäsu või töökäsu töö vaba kuupäevaga järgnevas järjestuses:
 
-Ostutellimuse puhul on võimaliku viivituse arvutamiseks kasutatav kuupäev ostutellimuse reaga seotud kuupäev, mis on näidatud vormil **Ostutellimus** > valige ostutellimuse rida > **Rea üksikasjad** FastTab > vahekaart **Seadistus** > **KInnitatud tarnekuupäev** väljal. Kui see väli ei ole täidetud, kasutatakse kuupäeva väljal **Tarnekuupäev** **Ostutellimuse** päises FastTab. Ühte neist kuupäevadest võrreldakse töökäsu või töökäsu töö vaba kuupäevaga järgneval viisil:
+1. Töökäsu tegelik alguskuupäev  
 
-- Töötellimuse tegelik alguskuupäev või  
+2. Seotud töökäsu töö planeeritud alguskuupäev 
 
-- Seotud töötellimuse töö planeeritud alguskuupäev või  
+3. Töökäsu planeeritud alguskuupäev 
 
-- Töötellimuse planeeritud alguskuupäev või  
+4. Töötellimuse eeldatav alguskuupäev või 
 
-- Töötellimuse eeldatav alguskuupäev või  
+Ostutaotluse puhul kasutatakse võimaliku viivituse arvutamiseks lehe **Ostutaotlused** kiirkaardi **Ostutaotluse päis** väljal **Nõutav kuupäev** toodud kuupäeva. Sellel väljal toodud kuupäeva võrreldakse töökäsu või töökäsu töö vaba kuupäevaga samas järjestuses, mida kasutatakse ostutellimuse puhul.
 
 
-## <a name="create-purchase-order-from-a-work-order"></a>Ostutellimuse loomine töökäsu põhjal
+## <a name="create-a-purchase-order-from-a-work-order"></a>Ostutellimuse loomine töökäsu põhjal
 
-**Kõigi töötellimuste**puhul saate valida töökäsu töö ja luua seotud ostutellimuse või ostutaotluse. Seda tehakse selleks, et tagada ostutellimuse või ostutaotluse ja töökäsu vaheline projekti seos.
+Loendilehel **Kõik töökäsud** saate valida töökäsu töö ja seejärel luua seotud ostutellimuse või seotud ostutaotluse. Nii aitate tagada ostutellimuse või ostutaotluse ja töökäsu vahelise projektiseose olemasolu.
 
-1. Klõpsake **Varahaldus** > **Tavaline** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
+1. Valige **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
 
-2. Valige loendis **Kõik töökäsud** või **Aktiivsed töökäsud** töötellimus, mille jaoks soovite ostutellimuse luua, ja klõpsake nuppu **Redigeeri.**
+2. Valige töökäsk, mille jaoks ostutellimus luua, ja seejärel valige **Redigeeri**.
 
-3. **Töökäsu** vormil > **Töökäsu hooldustööd** FastTab valige töökäsu töö, mille jaoks soovite ostutellimuse luua.
+3. Kiirkaardil **Töökäsu hooldustööd** valige töökäsu töö, mille jaoks soovite ostutellimuse luua.
 
-4. Klõpsake **Kauba ülesanded** > **Ostutellimus töökäsu tööst**.
+4. Valige **Kaubatoimingud** > **Ostutellimus töökäsu tööst**.
 
-5. Klõpsake loendi **Projekti ostutellimused** lehel käsku **Uus.**
+5. Klõpsake loendi **Projekti ostutellimused** lehel käsku **Uus**.
 
 6. Loo ostutellimus.
 
 >[!NOTE]
->Ostutaotluse loomine on ostutellimuse loomisega peaaegu identne. Ainus erinevus on, et ülaltoodud protseduuri puhul klõpsate käsku **Kauba ülesanded** > **Ostutaotlus töökäskude tööst** sammul 2.
+>Seostuva ostutellimuse loomiseks järgige samu juhiseid. Kuid etapis 4 valige **Kaubatoimingud** > **Ostutaotlus töökäsu tööst**.
+
 
 ## <a name="project-relation-between-work-order-and-purchase-order-or-purchase-requisition"></a>Töökäsku ja ostutellimuse või ostutaotluse vaheline projekti seos
 
-Ostutellimuse rida või ostutaotluse rida on seotud töökäsu tööga töökäsu projekti ja seotud projekti tegevuse numbri kaudu. Kui loote ostutellimuse või ostutaotluse töökäsu tööst, on seotud projekti tegevuse number kohustuslik. Projekti tegevuse number sisestatakse ostutellimusele või ostutaotlusele automaatselt, kui sellega seotud töökäsk sisaldab töökäsu töid, mis kõik kasutavad sama hooldustööde tüüpi. Kui töökäsu tööd sisaldavad erinevaid hooldustööde tüüpe, tuleb projekti tegevuse number käsitsi sisestada.
+Ostutellimuse rida või ostutaotluse rida on seotud töökäsu tööga töökäsu projekti ja seotud projekti tegevuse numbri kaudu. Kui loote ostutellimuse või ostutaotluse töökäsu tööst, on seotud projekti tegevuse number kohustuslik. Projekti tegevuse number sisestatakse ostutellimusele või ostutaotlusele automaatselt, kui seotud töökäsu kõik töökäsu tööd on sama hooldustöötüübiga. Projekti tegevuse number tuleb ostutellimusele või ostutaotlusele sisestada käsitsi, kui töökäsu töödel on erinevad hooldustöötüübid.
 
-Ostutellimuse reaga seotud tegevuse numbri vaatamiseks või sisestamiseks avage **töökäsu ostmine** > valige ostutellimuse kirje > klõpsake ostutellimusele veerus **Ostutellimus** > **Rea üksikasjad** FastTab > vahekaardi **Projekt** > väljal **Tegevuse number**.
+Ostutellimuse reaga seotud tegevuse numbri vaatamiseks või sisestamiseks valige loendilehel **Töökäsu ost** ostutellimuse kirje ja seejärel valige veerus **Ostutellimus** ostutellimuse link. Välja **Tegevuse number** leiate kiirkaardi **Rea üksikasjad** vahekaardilt **Projekt**.
 
+Alltoodud illustratsioon kujutab lehe **Ostutellimus** näidet, millel on fookuses **Tegevuse number**.
 
 ![Joonis 3](media/10-work-orders.png)
 
-
-Samal viisil avage töökäsu ostutaotluse reaga seotud tegevuse numbri vaatamiseks või sisestamiseks **Töökäsu ostutaotlus** > valige ostutaotluse kirje > klõpsake ostutaotlusele veerus **Ostutaotlus** > **Rea üksikasjad** FastTab > vahekaardi **Projekt** > väljal **Tegevuse number**.
+Töökäsu ostutaotluse reaga seotud tegevuse numbri vaatamiseks või sisestamiseks toimiga sarnaselt ning valige loendilehel **Töökäsu ostutaotlus** ostutaotluse kirje ja seejärel valige veerus **Ostutaotlus** ostutaotluse link. Välja **Tegevuse number** leiate kiirkaardi **Rea üksikasjad** vahekaardilt **Projekt**.
 

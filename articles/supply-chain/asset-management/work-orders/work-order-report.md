@@ -3,7 +3,7 @@ title: Töökäsu aruanne
 description: Selles teemas kirjeldatakse töökäskude aruandeid varahalduses.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,41 +16,38 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d2843a57aad7cc8525a689d4643875970849e31
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 6eb5c5156898fc826376ae35745ff4a7451d00c6
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875602"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626381"
 ---
 # <a name="work-order-report"></a>Töökäsu aruanne
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
+Saate luua töökäsu aruande, mis näitab üksikasjalikku teavet ühe või enama valitud töökäsu kohta.
 
-Saate luua töökäsu aruande, mis näitab üksikasjalikku teavet töökäsu kohta. Võimalik on valida üks või mitu töökäsku, mida aruandes kuvada.
+1. Valige **Varahaldus** > **Aruanded** > **Töökäsud** > **Töökäsu aruanne**.
 
-1. Klõpsake käske **Varahaldus** > **Aruanded-** > **Töökäsud** > **Töökäsu aruanne**.
-
-2. Valige nuppudel Jah/Ei ja täitke väljad vastavalt vajadusele, et määratleda aruandesse kaasatavad üksikasjad.  
-  a. Jaotises **Prindisätted** saate valida, kas soovite printimisel kaasata manuseid seotud hooldustöö tüübi seadistusest.
+2. Valige nuppudel vastavalt vajadusele „Jah“/„Ei“, et määratleda aruandesse kaasatavad üksikasjad.  
+    - Jaotises **Printimise sätted** saate valida, kas kaasata seotud hooldustöö tüübi seadistusest pärinevad manused.
 
 3. Kiirkaardil **Kaasatavad kirjed** saate aruande sisu filtreerida **Töökäsu** alusel.
 
-4. Vajadusel saate seadistada töökäsu aruande loomise pakett-tööna, täites väljad kiirkaardil **Tööta taustal**.
+4. Kiirkaardil **Käivita taustal** saate vajaduse korral seadistada töökäsu aruande koostamise pakett-tööna.
 
-5. Aruande loomiseks klõpsake nuppu **OK**.
+5. Aruande loomiseks valige **OK**.
 
-Allpool näete näidet, kuidas parameetreid saab seadistada. Lisaks näete seotud töökäsu aruannet.
+Järgmine joonis kujutab aruande parameetrite võimalikku näidusseadistust.
 
 ![Joonis 1](media/20-work-orders.png)
 
+Järgmisel joonisel on kujutatud selle seadistuse põhjal koostatud töökäsu aruande näidis.
 
 ![Joonis 2](media/21-work-orders.png)
-
 

@@ -1,6 +1,6 @@
 ---
-title: Töölehel hilinenud maksu arvutamise lubamine
-description: See teema selgitab, kuidas kasutada funktsiooni **Töölehel hilinenud maksu arvutamise lubamine**, et parandada maksude arvutamise jõudlust töölehe ridade suure mahu korral.
+title: Luba töölehtedel viivitusega maksuarvutus
+description: See teema selgitab, kuidas lülitada sisse funktsioon Hilinenud maksu arvutamine, et parandada maksuarvutuste jõudlust, kui töölehe ridade arv on väga suur.
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177310"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623517"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a>Töölehel hilinenud maksu arvutamise lubamine
+# <a name="enable-delayed-tax-calculation-on-journals"></a>Luba töölehtedel viivitusega maksuarvutus
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-See teema selgitab, kuidas kasutada funktsiooni **Töölehel hilinenud maksu arvutamise lubamine**, et parandada maksude arvutamise jõudlust töölehe ridade suure mahu korral.
+Selles teemas selgitatakse, kuidas viivitada käibemaksu arvutamist töölehtedel. See võimalus aitab parandada maksuarvutuste jõudlust, kui töölehe ridu on palju.
 
-Praeguse käibemaksu arvutamise käitumine käivitatakse töölehel reaalajas, kui kasutaja uuendab maksuga seotud välju, nt käibemaksugrupp/kauba käibemaksugrupp. Iga töölehe uuendamine rea tasemel, arvutab maksusumma uuesti kõigil töölehe ridadel. See aitab kasutajal näha reaalajas arvutatud maksusummat, kuid see võib tekitada ka jõudluse probleemi töölehe ridade suure mahu korral.
+Vaikimisi arvutatakse töölehe ridadel käibemaksu summad iga kord, kui maksudega seotud välju uuendatakse. Need väljad hõlmavad käibemaksugruppide ja kauba käibemaksugruppide välju. Iga tööleherea uuendamine põhjustab maksusummade ümberarvutamist kõigi tööleheridade puhul. Kuigi selline käitumine aitab kasutajal näha reaalajas arvutatud maksusummasid, võib see mõjutada ka jõudlust, kui tööleheridade arv on väga suur.
 
-See funktsioon annab võimaluse jõudluse probleemi lahendamiseks viivitada maksude arvutamisega. Kui see funktsioon on sisse lülitatud, arvutatakse maksusumma ainult siis, kui kasutaja klõpsab käsku "Käibemaks" või sisestab töölehe.
+Viivitusega maksuarvutuse funktsioon võimaldab teil viivitada maksude arvutamisega töölehtedel ja aitab seega parandada jõudlusprobleeme. Kui see funktsioon on sisse lülitatud, arvutatakse maksusummad ainult siis, kui kasutaja valib käsu **Käibemaks** või sisestab töölehe.
 
-Kasutaja saab parameetri sisse/välja lülitada kolmel tasandil.
-- Juriidilise isiku järgi
-- Töölehe nime järgi
-- Töölehe päise järgi
+Käibemaksu arvutamisega saate viivitada kolmel tasandil:
 
-Süsteem käsitleb töölehe päise parameetrit lõplikuna. Töölehe päise parameetri väärtus tuletatakse vaikimisi töölehe nimest. Töölehe nime parameetri väärtus tuletatakse töölehe nime loomisel vaikimisi pearaamatu parameetrist.
+- Juriidiline isik
+- Töölehe nimi
+- Töölehe päis
 
-Töölehe väljad „Tegelik käibemaksusumma” ja „Arvutatud käibemaksu summa" peidetakse, kui see parameeter on sisse lülitatud. Eesmärk on kasutajat mitte eksitada, kuna nende kahe välja väärtus näitab alati 0, enne kui kasutaja käivitab maksu arvutamise.
+Süsteem annab prioriteedi töölehe päise sättele. Vaikimisi võetakse see säte töölehe nimest. Töölehe nime säte võetakse vaikimisi töölehe nime loomisel lehe **Pearaamatu parameetrid** sättest. Järgmistes jaotistes selgitatakse, kuidas lülitada sisse viivitusega maksuarvutust juriidiliste isikute, töölehe nimede ja töölehe päiste jaoks.
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a>Hilinenud maksu arvutamise lubamine juriidilise isiku järgi
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a>Viivitusega maksuarvutuse sisselülitamine juriidilise isiku tasandil
 
-1. Avage **Pearaamat > Pearaamatu seadistamine > Pearaamatu parameetrid**
-2. Klõpsake suvandit **Käibemaks**.
-3. Leidke kiirkaardilt **Üldine** parameeter **Hilinenud maksu arvutamine**, lülitage see sisse/välja
+1. Avage **Pearaamat \> Pearaamatu seadistamine \> Pearaamatu parameetrid**.
+2. Määrake vahekaardi **Käibemaks** kiirkaardi **Üldine** valiku **Viivitusega maksuarvutus** väärtuseks **Jah**.
 
-![](media/delayed-tax-calculation-gl.png)
+![Pearaamatu parameetrite kujutis](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Viivitusega maksuarvutuse sisselülitamine töölehe nime tasandil
 
+1. Avage **Pearaamat \> Töölehe seadistamine \> Töölehtede nimed**.
+2. Määrake kiirkaardi **Üldine** jaotises **Käibemaks** valiku **Viivitusega maksuarvutus** väärtuseks **Jah**.
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a>Hilinenud maksu arvutamise lubamine töölehe nime järgi
+![Töölehe nimede kujutis](media/delayed-tax-calculation-journal-name.png)
 
-1. Avage **Pearaamat > Töölehe seadistamine > Töölehtede nimed**
-2. Leidke kiirkaardilt **Üldine** parameeter **Hilinenud maksu arvutamine**, lülitage see sisse/välja
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Viivitusega maksuarvutuse sisselülitamine töölehe päise tasandil
 
-![](media/delayed-tax-calculation-journal-name.png)
-
-## <a name="enable-delayed-tax-calculation-by-journal"></a>Hilinenud maksu arvutamise lubamine töölehe järgi
-
-1. Avage **Pearaamat > Töölehe kanded > Päevaraamatud**
-2. Klõpsake valikut **Uus**
+1. Avage **Pearaamat \> Töölehekirjed \> Päevaraamatud**.
+2. Valige suvand **Uus**.
 3. Valige töölehe nimi.
-4. Klõpsake **Häälestus**
-5. Leidke parameeter **Hilinenud maksu arvutamine**, lülitage see sisse/välja
+4. Seadke vahekaardil **Seadistus** valiku **Viivitusega maksuarvutus** väärtuseks **Jah**.
 
-![](media/delayed-tax-calculation-journal-header.png)
+![Päevaraamatu lehe kujutis](media/delayed-tax-calculation-journal-header.png)

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdfc5eda1ebf78abe823908324ed9c35215e562e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249560"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653507"
 ---
 # <a name="demand-forecasting-setup"></a>Nõudluse prognoosi seadistus
 
@@ -72,7 +72,7 @@ Prognoosi loomiseks kasutab Supply Chain Management masinõppe veebiteenust. Tee
 
 **Märkus.** Azure'i salvestuskonto nime ja võtit on vaja ainult juhul, kui kasutate kohandatud salvestuskontot. Kui juurutate asutusesisest versiooni, peab teil olema Azure'is kohandatud salvestuskonto, et masinõppe teenus pääseks ajaloolistele andmetele juurde. 
 
-Nõudluse prognooside loomiseks saate juurutada oma teenuse, kasutades masinõppe stuudio või Supply Chain Managementi nõudluse prognoosimise katseid. Nõudluse prognoosimise katsete veebiteenusena juurutamise juhised on saadaval Finance and Operationsis. Klõpsake lehel **Nõudluse prognoosimise parameetrid** vahekaarti **Azure'i masinõpe**.
+Nõudluse prognooside loomiseks saate juurutada oma teenuse, kasutades masinõppe stuudio või Supply Chain Managementi nõudluse prognoosimise katseid. Nõudluse prognoosimise katsete veebiteenusena juurutamise juhised on saadaval Supply Chain Managementis. Klõpsake lehel **Nõudluse prognoosimise parameetrid** vahekaarti **Azure'i masinõpe**.
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Nõudluse prognoosi masinõppe teenuse sätted
 Nõudluse prognoosimise teenuse jaoks konfigureeritavate parameetrite vaatamiseks minge jaotisse **Koondplaneerimine** &gt; **Seadistus** &gt; **Nõudluse prognoos** &gt; **Prognoosi algoritmi parameetrid**. Lehel **Prognoosi algoritmi parameetrid** kuvatakse parameetrite vaikeväärtused. Saate need parameetrid üle kirjutada lehel **Nõudluse prognoosimise parameetrid**. Parameetrite globaalseks ülekirjutamiseks kasutage vahekaarti **Üldine**, kauba eraldamisvõtmeti ülekirjutamiseks kasutage vahekaarti **Kauba eraldamisvõtmed**. Kauba eraldamisvõtme parameetrite ülekirjutamine mõjutab ainult selle kauba eraldamisvõtmega seostatud kaupade prognoosi.

@@ -3,7 +3,7 @@ title: Töökäsule vea lisamine
 description: See teema kirjeldab, kuidas lisada vea registreerimisi töökäskudele Varahalduses.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,41 +16,42 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-31
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c86973ca44d9113d14e180e27cc51343da5d2c0
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 2b58cc31578d7bb102c6b5aa8b4ce2d6cfe8c893
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875614"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626197"
 ---
 # <a name="add-fault-to-work-order"></a>Töökäsule vea lisamine
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Vea kujundajas seadistatud vigu saate lisada töökäskudele. Töökäsus valitud vara peab sisaldama varade tüüpe, millega on seotud üks või rohkem veakirjet. Lisateavet häälestuse kohta leiate jaotisest [Veahaldus](../setup-for-work-orders/fault-management.md).
+Saate lisada töökäsule vea kujundajas seadistatud vigu. Vähemalt üks veakirje peab olema seotud varatüüpidega, mida kasutatakse töökäsus valitud vara korral. Häälestuse kohta leiate lisateavet jaotisest [Veahaldus](../setup-for-work-orders/fault-management.md).
 
-1. Klõpsake **Varahaldus** > **Tavaline** > **Töökäsud** > **Kõik Töökäsud** või **Aktiivsed töökäsud**.
+1. Valie **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
 
-2. Valige loendist töökäsk, milles soovite vea registreerimist teha, ja klõpsake nuppu **Vara viga**.
+2. Valige töökäsk, mille kohta registreerida viga ja seejärel valige toimingupaani vahekaardil **Töökäsk** rühma **Vara** alt valik **Vara viga**.
 
-3. Kiirkaardil **Sümptomid** klõpsake valikut **Lisa rida**. Järjestikune vea number sisestatakse automaatselt **Viga** väljale.
+3. Valige kiirkaardil **Sümptomid** valik **Lisa rida**. Järjestikune vea number sisestatakse automaatselt väljale **Viga**.
 
-4. Valige sobiv sümptom väljal **Vea sümptom**.
+4. Valige väljal **Vea sümptom** asjakohane sümptom.
 
-5. Valige **Vea ala** ja **Vea tüüp**.
+5. Valige väljadel **Vea ala** ja **Vea tüüp** asjakohased väärtused.
 
-6. Väljale **Vea kuupäev** lisatakse automaatselt praegune kuupäev. Vajadusel saate valida teise kuupäeva.
+6. Väljale **Vea kuupäev** lisatakse automaatselt praegune kuupäev. Vajadisel saate valida mõne muu kuupäeva.
 
-7. **Valitud sümptomi põhjused** kiirkaardil lisage probleemi põhjust kirjeldav rida.
+7. Lisage kiirkaardil **Valitud sümptomi põhjused** probleemi põhjust kirjeldav rida.
 
-8. **Valitud sümptomi parandusmeetmed** kiirkaardil lisage võimalikku probleemi lahendust kirjeldav rida.
+8. Lisage kiirkaardil **Valitud sümptomi parandusmeetmed** probleemi võimalikku lahendust kirjeldav rida.
 
-9. Klõpsake valikut **Salvesta**.
+9. Valige käsk **Salvesta**.
+
+Alljärgneval joonisel on esitatud vea registreerimise näide.
 
 ![Joonis 1](media/19-work-orders.png)
 
@@ -59,23 +60,23 @@ Vea kujundajas seadistatud vigu saate lisada töökäskudele. Töökäsus valitu
 
 **Vara vead** loendis saate ülevaate kõigist vigadest, mis on registreeritud varadesse.
 
-Nimekirja avamiseks klõpsake **Varahaldus** > **Päringud** > **Vara viga** > **Vara vead**.
+Loendilehel **Vara vead** saate ülevaate kõigist vigadest, mis on varade kohta registreeritud. Lehe avamiseks valige **Varahaldus** > **Päringud** > **Vara viga** > **Vara vead**.
 
 
 ## <a name="print-asset-fault-report"></a>Prindi vara vea aruanne
 
-Loendilehelt **Kõik varad** saate printida vara vea aruande, kus kuvatakse kõik vea registreerimised, samuti vea statistika graafiline ülevaade.
+Loendilehelt **Kõik varad** saate printida vara vea aruande, kus kuvatakse kõik vea registreerimised ja veastatistika graafiline ülevaade.
 
-1. Klõpsake **Varahaldus** > **Üldine** > **Varad** > **Kõik varad**.
+1. Valige **Varahaldus** > **Ühised** > **Varad** > **Kõik varad**.
 
-2. Valige **Varad** loendist vara, mille kohta soovite vea aurannet printida.
+2. Valige vara, mille kohta printida aruanne.
 
-3. Vahekaardil **Üldine** > **Aruannete osa** klõpsake **Vara viga**.
+3. Valige toimingupaani vahekaardil **Üldine** grupis **Aruanded** valikut **Vara viga**.
 
-4. Sisestage kindel periood või valige vea tüüp.
+4. Sisestage konkreetne periood või valige vea tüüp.
 
-5. Aruande printimiseks klõpsake **OK**.
+5. Aruande printimiseks valige **OK**.
 
 >[!NOTE]
->Saate printida ka vea aruande mitme vara või vara tüüpide jaoks, kui klõpsate **Varahaldus** > **Aruanded** > **Varad** > **Vara viga**.
+>Veaaruande printimiseks mitme vara või varatüübi kohta valige **Varahaldus** > **Aruanded** > **Varad** > **Vara viga**.
 

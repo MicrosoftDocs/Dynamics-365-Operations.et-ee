@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026712"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653414"
 ---
 # <a name="warehouse-configuration-overview"></a>Lao konfiguratsiooni ülevaade
 
@@ -34,7 +34,7 @@ Selles artiklis selgitatakse, kuidas konfigureerida ladu. See sisaldab teavet se
 **Märkus.** See artikkel kehtib mooduli **Laohaldus** funktsioonidele (täpsem ladustamine). See ei kehti ladustamisfunktsioonidele moodulis **Laohaldus**.
 
 ## <a name="warehouse-layout"></a>Lao paigutus
-Laohalduse süsteem Finance and Operationsis pakub paindlikke võimalusi lao paigutuse määratlemiseks, et rahuldada muutuvaid vajadusi, nii et saavutaksite optimaalse lao tõhususe.
+Laohalduse süsteem rakenduses Supply Chain Management pakub paindlikke võimalusi lao paigutuse määratlemiseks, et rahuldada muutuvaid vajadusi, nii et saavutaksite optimaalse lao tõhususe.
 
 -   Saate luua ja kõrge prioriteediga ja madal prioriteediga hoiustamisalasid kaupade optimaalseks paigutamiseks.
 -   Saate jagada oma lao tsoonideks, et rahuldada mitmesuguseid ladustamisvajadusi, näiteks temperatuurinõudeid või mitmesuguseid kaubakäibe kiirusi.
@@ -42,7 +42,7 @@ Laohalduse süsteem Finance and Operationsis pakub paindlikke võimalusi lao pai
 -   Saate rühmitada asukohti, kasutades füüsilise mahu piirangu sätteid.
 -   Saate kaupade ladustamise ja komplekteerimise viisi juhtida, tuginedes päringuga määratud reeglitele.
 
-Finance and Operationsi laohalduse kasutamiseks peate looma lao ja lubama selle täpsema või spetsiaalse laohalduse tegevuste jaoks. Tehke lehel **Laod** valik **Kasuta laohaldusprotsesse**.
+Rakenduses Supply Chain Management laohalduse kasutamiseks peate looma lao ja lubama selle täpsema või spetsiaalse laohalduse tegevuste jaoks. Tehke lehel **Laod** valik **Kasuta laohaldusprotsesse**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Tsoonigrupid, tsoonid, asukohatüübid ja asukohad
 
@@ -54,7 +54,7 @@ Laopaigutuse lubamise protsessi raames tuleb määratleda laotsoonide grupid ja 
 -   **Asukohatüübid** – laoasukohtade füüsiline või loogiline grupeering. Näiteks saate luua asukohatüüp ajastamise kõigi asukohtade jaoks. Lehe **Laohalduse parameetrid** kohustuslikud sätted juhivad vaheasukoha tüüpide ja lõppsihtkoha määratlemise protsessi.
 -   **Asukohad** – asukohateabe madalaim tase. Asukohti kasutatakse jälgimiseks, kus vaba kaubavaru laos ladustatakse ja komplekteeritakse.
 
-Laopaigutuse määratlemiseks loodavaid üksusi kasutatakse töömallidel seadistatavates päringutes lao töötellimuste juhtimiseks. Seetõttu arvestage tsoonide, asukohatüüpide jne määratlemisel, kuidas lao erinevaid alasid erinevate protsesside jaoks kasutatakse. Lisaks arvestage selliseid tegureid nagu konkreetse ala füüsilised omadused. Näiteks võib olla alasid, kus saate kasutada ainult teatud tüüpi kahveltõstukit. Või kui teie ettevõttel on samas rajatises nii tootmis- kui ka lõpetatud tooted, võite soovi korral luua rakenduses Finance and Operations ühe lao, kuid seejärel eraldada need kaks toimingut, luues kaks tsoonigruppi. Andke oma üksustele kirjeldavad nimed, et neid oleks lihtne tuvastada, kui kasutate neid mallpäringutes.
+Laopaigutuse määratlemiseks loodavaid üksusi kasutatakse töömallidel seadistatavates päringutes lao töötellimuste juhtimiseks. Seetõttu arvestage tsoonide, asukohatüüpide jne määratlemisel, kuidas lao erinevaid alasid erinevate protsesside jaoks kasutatakse. Lisaks arvestage selliseid tegureid nagu konkreetse ala füüsilised omadused. Näiteks võib olla alasid, kus saate kasutada ainult teatud tüüpi kahveltõstukit. Või kui teie ettevõttel on samas rajatises nii tootmis- kui ka lõpetatud tooted, võite soovi korral luua rakenduses Supply Chain Management ühe lao, kuid seejärel eraldada need kaks toimingut, luues kaks tsoonigruppi. Andke oma üksustele kirjeldavad nimed, et neid oleks lihtne tuvastada, kui kasutate neid mallpäringutes.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Asukoha ladustamispiirangud, asukohaprofiilid ja fikseeritud komplekteerimiskohad
 

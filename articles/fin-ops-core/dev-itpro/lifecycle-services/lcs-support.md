@@ -3,7 +3,7 @@ title: Toetuse saamine rakenduse Finance and Operations või Lifecycle Services 
 description: Selles teemas selgitatakse, kuidas saada abi rakenduse Finance and Operations või teenuse Microsoft Dynamics Lifecycle Services (LCS) kasutamisel.
 author: kfend
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af4cbbd0f594b07e791d6ab7a5ac4dc58b97e1de
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: c36adc1f754c918a9fdf8410572f3199cdb63766
+ms.sourcegitcommit: e16b8c248fc2c2a60dc7b803320f942a35b443c5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537046"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577492"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Toetuse saamine rakenduse Finance and Operations või Lifecycle Services (LCS) jaoks
 
@@ -91,5 +91,5 @@ Kui teil on probleeme sisselogimisega ja teenuste (nt CustomerSource, e-õpe, ot
 ## <a name="additional-resources"></a>Lisaressursid
 - [Toe hankimine rakendusele Dynamics 365 Retail](../../../retail/retail-support.md)
 - [Toe hankimine rakendusele Dynamics 365 Talent](../../../talent/talent-support.md)
-- Lisateavet Microsoft Dynamicsi toepakkumiste kohta vt teemast [Microsoft Dynamicsi võrgutugi](https://www.microsoft.com/dynamics/dynamics-online-support.aspx).
+- Lisateavet Microsoft Dynamicsi toepakkumiste kohta vt teemast [Finance and Operationsi rakenduste tugikogemuste haldamine](cloud-powered-support-lcs.md).
 

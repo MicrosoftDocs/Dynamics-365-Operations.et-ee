@@ -3,7 +3,7 @@ title: Rakenduse Dynamics 365 Talent rakendusse Dynamics 365 Finance integreerim
 description: Selles teemas selgitatakse, millised andmed sünkroonitakse rakenduste Talent ja Finance integratsioonis.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
+ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251010"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622764"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Rakenduse Dynamics 365 Talent rakendusse Dynamics 365 Finance integreerimise KKK
 
@@ -35,6 +35,10 @@ Teemas on toodud vastused peamistele küsimustele selle kohta, milliseid andmeid
 Rakenduse Core HR puhul sünkroonitakse andmete alamkogum. Kõigi üksuste loendi leiate teemast [Integratsioon rakendusest Dynamics 365 Talent rakendusse Dynamics 365 Finance](talent-financeandoperations-integration.md).
 
 Rakenduste Attract ja Onboard puhul on kõik andmed teenuse Common Data Service omaandmed.
+
+## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Miks ei kuvata andmeid, mis on sünkroonitud teenusega Common Data Service?
+
+Vaikimisi lülitatakse teenuse Common Data Service integratsioon välja uutes keskkondades, mis ei sisalda esitatud demoandmeid. Vaikimisi on see sisse lülitatud uutes keskkondades, mis sisaldavad demoandmeid, ja andmete sünkroonimine algab siis, kui keskkond on ette valmistatud. Pärast seda, kui teie keskkond on andmete sünkroonimiseks valmis, saate integratsiooni sisse lülitada. Lisateavet vt [Teenuse Common Data Service integratsiooni konfigureerimine](hr-common-data-service-integration.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Kas uue vastenduse saab luua malle kasutamata?
 

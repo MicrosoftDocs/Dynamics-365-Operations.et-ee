@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62998da7f541379296d5ac325ae29f24a42f9b7c
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: bb318c24424c291f08ba7527b2258c0da4cba9a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847547"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571664"
 ---
 # <a name="inbound-and-outbound-assets"></a>Sissetulevad ja väljaminevad varad
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Kui teie ettevõte teeb parandustöid või hooldustöid teistest asukohtadest või klientidelt saadud varadele, saab varahaldus jälgida nii sissetulevaid varasid, mis on teel teie ettevõttesse kui ka tagastatavaid väljaminevaid varasid.
 
@@ -45,7 +45,7 @@ Kui teie ettevõte teeb parandustöid või hooldustöid teistest asukohtadest v�
 3. Valige **Uuenda hooldustaotluse olekut**.
 4. Valige **Sissetulev** (või mõni muu elutsükli olek, mille olete sissetulevate varade jaoks loonud) ja seejärel valige **OK**.
 
-![Joonis 1](media/07-manage-maintenance-requests.png)
+![Registreeri varad sissetulevatena](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Registreeri varad vastuvõetuna
 
@@ -54,7 +54,7 @@ Kui teie ettevõte teeb parandustöid või hooldustöid teistest asukohtadest v�
 3. Valige **Varade vastuvõtmine**.
 4. Väljale **Vastuvõetud** sisestage kuupäev ja kellaaeg. Seejärel valige **OK**. Kirje eemaldatakse loendilehelt **Sissetulevad varad**.
 
-![Joonis 2](media/08-manage-maintenance-requests.png)
+![Registreeri varad vastuvõetuna](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Registreeri varad sissetulekuna
 

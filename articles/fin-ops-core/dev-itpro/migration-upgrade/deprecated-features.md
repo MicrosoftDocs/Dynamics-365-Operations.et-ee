@@ -3,7 +3,7 @@ title: Rakenduse Finance and Operations eemaldatud või aegunud funktsioonid.
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70bb8404c5b0e2422948d0b89311c384e3686710
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181078"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658686"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Rakenduse Finance and Operations eemaldatud või aegunud funktsioonid.
 
@@ -38,13 +38,42 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 > [!NOTE]
 > Alates rakenduse Finance and Operations 2017. aasta juulikuu väljaandest platvormivärskendusega 8 on iga eemaldatud või aegunud funktsiooni puhul märgitud juurutuste tüüp. Kõik selles teemas mainitud varasemad versioonid toetasid ainult pilvejuurutusi.
 
-> Üksikasjalikku teavet rakenduse Finance and Operations objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas rakenduse Finance and Operations versioonis muudetud või eemaldatud.
+Üksikasjalikku teavet rakenduse Finance and Operations objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas rakenduse Finance and Operations versioonis muudetud või eemaldatud.
 
+## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 koos platvormivärskendusega 31
+
+### <a name="chinese-voucher-types-without-account-groups-selection"></a>Hiina kandetüübid ilma konto gruppide valikuta
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Muudetud funktsiooniks, mis sisaldab konto gruppide valikut. |
+| **Asendatud teise funktsiooniga?**   | Jah |
+| **Mõjutatud tootealad**         | Avaldus |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegub: 1. detsembril 2020. Me ei plaani enam toetada Hiina kandetüüpide seadistust ilma konto gruppide valikuta. Lisateavet uue funktsiooni kohta leiate teemast Mis on uut versioonis 10.0.7 |
 
 ## <a name="finance-and-operations-1006-with-platform-update-30"></a>Rakenduse Finance and Operations 10.0.6 platvormivärskendus 30
 
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.6 platvormivärskendusega 30 on saadaval suunatud kasutajatele eelväljaande osana. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Windows tühistab SHA1 kasutamise, nagu on dokumenteeritud artiklis [Windows Enforcement of SHA1 Certificates](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx) (SHA1 sertide jõustamine Windowsis).  |
+| **Asendatud teise funktsiooniga?**   | Jah |
+| **Mõjutatud tootealad**         | Avaldus |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegub: 1. aprillil 2020, arendajad peavad kasutama uut API-d. |
+
+### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(string message)
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Windows tühistab SHA1 kasutamise, nagu on dokumenteeritud artiklis [Windows Enforcement of SHA1 Certificates](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx) (SHA1 sertide jõustamine Windowsis).  |
+| **Asendatud teise funktsiooniga?**   | Jah |
+| **Mõjutatud tootealad**         | Platvorm |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegub: 1. aprillil 2020, arendajad peavad kasutama uut API-d. |
+
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
 
@@ -308,7 +337,7 @@ Selles versioonis pole ühtki funktsiooni eemaldatud ega ükski pole aegunud. Pl
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Eemaldatud alates rakenduse Finance and Operations väljaandest Enterprise edition 7.3 platvormivärskendusega 12.
 
 ### <a name="personalized-product-recommendations"></a>Isikupärastatud tootesoovitused 
-Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isikupärastatud tootesoovitusi kuvada. Lisateavet vt teemast [Isikupärastatud tootesoovitused](../../retail/personalized-product-recommendations.md).  
+Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isikupärastatud tootesoovitusi kuvada. Lisateavet vt teemast [Tootesoovituste ülevaade](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -413,7 +442,7 @@ Kasutajad saavad selle alla laadida valitsuse portaalist.
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Isikupärastatud tootesoovitused 
-Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isikupärastatud tootesoovitusi kuvada. Lisateavet vt teemast [Isikupärastatud tootesoovitused](../../retail/personalized-product-recommendations.md).  
+Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isikupärastatud tootesoovitusi kuvada. Lisateavet vt teemast [Tootesoovituste ülevaade](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -445,7 +474,7 @@ Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõel
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Topeltfunktsioon.       |
-| **Asendatud teise funktsiooniga?**   | Jah. See funktsioon on asendatud Finance and Operationsi ladustamise mooduliga. Lisateavet seadistuse ja eeltingimuste kohta vt teemast [Rakenduse Microsoft Dynamics 365 for Finance and Operations mooduli Ladustamine installimine ja konfigureerimine](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Asendatud teise funktsiooniga?**   | Jah. See funktsioon on asendatud Finance and Operationsi ladustamise mooduliga. Lisateavet seadistuse ja eeltingimuste kohta vt teemast [Rakenduse Microsoft Dynamics 365 for Finance and Operations mooduli Ladustamine installimine ja konfigureerimine](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Mõjutatud tootealad**         | Laohaldus, transpordihaldus     |
 | **Juurutamissuvand**              | Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõeldud ise toimivaks asutusesiseseks juurutamiseks.               |
 | **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on 2019. aasta 4. kvartal.   |
@@ -1215,7 +1244,7 @@ Tootekonstruktorit kasutati müügitellimuse, ostutellimuse, tootmistellimuse, m
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Tootekonstruktor avaldas X++ koodi lõppkasutajatele ja Dynamics AX-i praeguses versioonis seda ei toetata. See on eemaldatud kattuvate suurte koodibaaside haldamisel dubleerimise vältimiseks.  |
-| **Asendatud teise funktsiooniga?**   | Jah. Rakenduses Dynamics AX 2012, kus tootekonstruktori tulevaste versioonide aegumine oli juba välja kuulutatud, võeti kasutusele piirangupõhine konfiguratsioon. Konfiguratsiooni lubamiseks valitakse tooteetalonides piirangupõhise konfiguratsiooni tehnoloogia. Lisateabe saamiseks vt teemat [Toote konfiguratsioonimudeli koostamine](../../supply-chain/pim/build-product-configuration-model.md). |
+| **Asendatud teise funktsiooniga?**   | Jah. Rakenduses Dynamics AX 2012, kus tootekonstruktori tulevaste versioonide aegumine oli juba välja kuulutatud, võeti kasutusele piirangupõhine konfiguratsioon. Konfiguratsiooni lubamiseks valitakse tooteetalonides piirangupõhise konfiguratsiooni tehnoloogia. Lisateabe saamiseks vt teemat [Toote konfiguratsioonimudeli koostamine](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Mõjutatud tootealad**         | Tooteteabe haldus, Müük ja turundus  |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.      |
 

@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5b791fd3e060c4f4ecdb1ca599a6041d421db74
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 5b830d835d99122a8c0572481f4c229c37d97d0c
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024520"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653247"
 ---
 # <a name="asset-documents"></a>Vara dokumendid
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Selles teemas selgitatakse vara dokumente varahalduses.
 
-Varahalduses saate seadistada dokumente nii, et need oleksid automaatselt seotud näiteks töö tüüpide, vara tootjate, vara tüüpide või varadega. See funktsioon on kasulik, kui antakse välja värskendatud dokumendiversioonid. Sel juhul peate lihtsalt värskendatud dokumendi lisama standardasukohta, mida kasutate oma Finance and Operationsi dokumentide jaoks, ja kinnitama dokumendi loodud vara dokumendikirjega. Seejärel saab värskendatud dokumendile juurde pääseda menüü-üksustest **Kõik varad**, **Aktiivsed varad**, **Minu aktiivsed varad**, **Kõik töökäsud** ja **Aktiivsed töökäsu tööd**. Dokumentide dokumendikirjele kinnitamise protsess kasutab standardset dokumenditöötluse süsteemi.
+Varahalduses saate seadistada dokumente nii, et need oleksid automaatselt seotud näiteks töö tüüpide, vara tootjate, vara tüüpide või varadega. See funktsioon on kasulik, kui antakse välja värskendatud dokumendiversioonid. Sel juhul peate lihtsalt värskendatud dokumendi lisama standardasukohta, mida kasutate oma Supply Chain Managementi dokumentide jaoks, ja kinnitama dokumendi loodud vara dokumendikirjega. Seejärel saab värskendatud dokumendile juurde pääseda menüü-üksustest **Kõik varad**, **Aktiivsed varad**, **Minu aktiivsed varad**, **Kõik töökäsud** ja **Aktiivsed töökäsu tööd**. Dokumentide dokumendikirjele kinnitamise protsess kasutab standardset dokumenditöötluse süsteemi.
 
 **Näide 1:** töö tüübiga seotud dokument võib kirjeldada selle töö tüübi protseduuri.
 

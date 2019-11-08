@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
+ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249513"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2574795"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Vaba kaubavaru mobiilne tööruum
 
@@ -56,9 +56,9 @@ Konkreetsemalt pakub mobiilne tööruum järgmisi funktsioone.
     -   Vabade füüsiliste varude järgi (see vaade kajastab vaba kogust, millel puuduvad reserveeringud).
 
 ## <a name="prerequisites"></a>Eeltingimused
-Eeltingimused erinevad olenevalt teie organisatsioonis juurutatud Microsoft Dynamics 365 versioonist.
+Eeltingimused erinevad teie organisatsioonis juurutatud Supply Chain Managementi versiooni põhjal.
 
-### <a name="prerequisites-if-you-use-finance-and-operations"></a>Eeltingimused, kui kasutate Finance and Operationsit 
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Eeltingimused, kui kasutate Supply Chain Managementi
 Kui teie organisatsioonis on juurutatud Supply Chain Management, peab süsteemiadministraator avaldama mobiilse tööruumi **Vaba kaubavaru**. Juhised leiate jaotisest [Mobiilse tööruumi avaldamine](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Eeltingimused, kui kasutate platvormivärskendust 3 või uuemat 

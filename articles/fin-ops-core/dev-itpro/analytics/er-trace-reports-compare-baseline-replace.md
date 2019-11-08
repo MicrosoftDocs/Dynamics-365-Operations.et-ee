@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a260be0f8659106907b26bf69bee3b33b09d0c24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181331"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578214"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Täiustused loodud elektroonilise aruandluse aruannete tulemuste jälgimises ja nende võrdlemises alusväärtustega
 
@@ -71,9 +71,6 @@ Alus on lisatud valitud vormingu **Vorming elektroonilise aruandluse aluste õpp
 5. Sisestage väljale **Sisestage ID** väärtus **1**.
 6. Määrake suvand **Alusfailide tegemine** valikule **Jah**.
 7. Valige nupp **OK**.
-
-    ![Elektroonilise aruande parameetrite dialoogiaken](media/GER-BaselineSample-FormatRunToMakeBaselineFile3.PNG "Elektroonilise aruande parameetrite dialoogiakna kuvatõmmis")
-
 8. Valige suvand **Alused**.
 
     ![Elektroonilise aruandluse vormingu aluste leht](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
@@ -140,9 +137,6 @@ Selle näite etappide läbimiseks peate kõigepealt läbima etapid näites teema
 
 1. Valige lehel **Konfiguratsioonid** kiirkaardil **Asendused** suvand **Komponentide valimine**.
 2. Laiendage Vormingu komponentide puul suvandit **Väljund**, laiendage suvandeid **Väljund\\Dokument** ja seejärel valige suvandi **Väljund\\Dokument\\ProcessingDateTime** märkeruut.
-
-    ![Komponentide dialoogiakna valimine](media/GER-BaselineSample-SelectComponentForBindingReplacement.PNG "Komponentide dialoogiakna valimise kuvatõmmis")
-
 3. Valige nupp **OK**.
 
 ![Elektroonilise aruandluse vormingu aluste leht](media/GER-BaselineSample-AddBaseline4.PNG "Elektroonilise aruandluse vormingu aluste lehe kuvatõmmis")
@@ -162,19 +156,14 @@ Konkreetsete elektroonilise aruandluse parameetrite seadistamisega saate peita t
 1. Valige lehe **Konfiguratsioonid** toimingupaani vahekaardilt **Konfiguratsioonid** suvand **Kasutaja parameetrid**.
 2. Seadistage suvand **Aluse hoiatuste peitmine** valikule **Jah** ja klõpsake nuppu **OK**.
 
-![Kasutaja parameetrite dialoogiaken](media/GER-BaselineSample-ERUserParameters1.png "Kasutaja parameetrite dialoogiakna kuvatõmmis")
-
 ### <a name="review-the-generated-baseline-file"></a>Vaadake genereeritud alusfail üle.
 
 1. Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**.
 2. Valige suvand **Alused**.
 3. Valige suvand **Manused**.
-
-    ![Manuste leht](media/GER-BaselineSample-AttachedBaselineFile.PNG "Manuste lehe kuvatõmmis")
-
     > [!NOTE]
     > Loodud fail sisaldab töötlemise kuupäeva ja kellaaja teksti (**"#"**) sidumisest, mis konfigureeriti lisatud alusreeglis, mitte vormingu sidumisest.
-
+    
 4. Sulgege leht **Manused**.
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Kujundatud elektroonilise aruandluse vormingu käitamine ja logi ülevaatamine tulemuste analüüsimiseks

@@ -3,7 +3,7 @@ title: Kvaliteedijuhtimise ülevaade
 description: Selles teemas kirjeldatakse, kuidas kasutada rakenduses Dynamics 365 Supply Chain Management kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti.
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ba38f9c43fed81768155a27dda88a4bfb4a7828e
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249572"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653552"
 ---
 # <a name="quality-management-overview"></a>Kvaliteedijuhtimise ülevaade
 
@@ -32,7 +32,7 @@ ms.locfileid: "2249572"
 
 Selles teemas kirjeldatakse, kuidas kasutada rakenduses Dynamics 365 Supply Chain Management kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti.
 
-Kvaliteedijuhtimise abil saate hallata ümberpööramise aegu, kui käsitsete mittevastavaid tooteid, olenemata nende päritolukohast. Kuna diagnostikatüübid on seotud parandustest teatamisega, saab Finance and Operations plaanida ülesandeid probleemide kõrvaldamiseks ja nende kordumise vältimiseks.
+Kvaliteedijuhtimise abil saate hallata ümberpööramise aegu, kui käsitsete mittevastavaid tooteid, olenemata nende päritolukohast. Kuna diagnostikatüübid on seotud parandustest teatamisega, saab Supply Chain Management plaanida ülesandeid probleemide kõrvaldamiseks ja nende kordumise vältimiseks.
 
 Lisaks mittevastavuste haldamiseks mõeldud funktsioonidele hõlmab kvaliteedijuhtimine funktsioone probleemide jälgimiseks probleemi tüübi alusel (isegi sisemiste probleemide puhul) ja lühiajaliste või pikaajaliste lahenduste tuvastamiseks. Tulemuslikkuse võtmenäitajate (KPI) statistika annab ülevaate varasematest mittevastavuse probleemidest ja nende kõrvaldamiseks kasutatud lahendustest. Saate kasutada varasemaid andmeid eelmiste kvaliteedimeetmete tulemuslikkuse ülevaatamiseks ja sobivate tulevikus kasutatavate meetmete määramiseks.
 
@@ -294,6 +294,256 @@ Järgmises tabelis on veel teavet kvaliteettellimuste loomise kohta konkreetset 
 </tbody>
 </table>
 
+## <a name="quality-order-auto-generation-examples"></a>Kvaliteettellimuse automaatse loomise näited
+
+### <a name="purchasing"></a>Ostmine
+
+Kui määrate ostmisel välja **Sündmuse tüüp** väärtuseks **Toote sissetulek** ja välja **Käivitamine** väärtuseks **Pärast** lehel **Kvaliteediseosed**, saate järgmised tulemused: 
+
+- Kui valiku **Värskendatud koguse kohta** väärtuseks on seatud **Jah**, luuakse iga sissetuleku kohta kvaliteettellimus ostutellimuse suhtes, võttes aluseks sissetulnud koguse ja kauba valimi sätted. Iga kord, kui ostutellimuse vastu on saadud kogus, luuakse äsja vastuvõetud koguse põhjal uued kvaliteettellimused.
+- Kui valiku **Värskendatud koguse kohta** väärtuseks on seatud **Ei**, luuakse sissetulnud koguse põhjal esimese sissetuleku kohta kvaliteettellimus ostutellimuse suhtes. Lisaks luuakse üks või mitu kvaliteettellimust järelejäänud koguse põhjal, sõltuvalt jälgimisdimensioonidest. Kvaliteettellimusi ei looda järgnevate sissetulekute kohta ostutellimuse suhtes.
+
+<table>
+<tbody>
+<tr>
+<th>Kvaliteedi spetsifikatsioon</th>
+<th>Värskendatud koguse kohta</th>
+<th>Jälgimisdimensiooni kohta</th>
+<th>Tulemus</th>
+</tr>
+<tr>
+<td>Protsent: 10%</td>
+<td>Jah</td>
+<td>
+<p>Partii number: ei</p>
+<p>Seerianumber: ei</p>
+</td>
+<td>
+<p>Tellimuse kogus: 100</p>
+<ol>
+<li>Teata 30 lõpetatuks
+<ul>
+<li>Kvaliteettellimus #1 3 kohta (10% 30-st)</li>
+</ul>
+</li>
+<li>Teata 70 lõpetatuks
+<ul>
+<li>Kvaliteettellimus #2 7 kohta (10% järelejäänud tellimuse kogusest, mis võrdub sel juhul 70-ga)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Fikseeritud kogus: 1</td>
+<td>Ei</td>
+<td>
+<p>Partii number: ei</p>
+<p>Seerianumber: ei</p>
+</td>
+<td>Tellimuse kogus: 100
+<ol>
+<li>Teata 30 lõpetatuks
+<ul>
+<li>Kavaliteettellimus #1 luuakse 1 kohta (esimese lõpetatuna kinnitatud koguse jaoks, millel on fikseeritud väärtus 1).</li>
+<li>Järelejäänud koguse kohta ei looda enam ühtegi kvaliteettellimust.</li>
+</ul>
+</li>
+<li>Teata 10 lõpetatuks
+<ul>
+<li>Ühtegi kvaliteettellimust ei looda.</li>
+</ul>
+</li>
+<li>Teata 60 lõpetatuks
+<ul>
+<li>Ühtegi kvaliteettellimust ei looda.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Fikseeritud kogus: 1</td>
+<td>Jah</td>
+<td>
+<p>Partii number: jah</p>
+<p>Seerianumber: jah</p>
+</td>
+<td>
+<p>Tellimuse kogus: 10</p>
+<ol>
+<li>Teata 3 lõpetatuks
+<ul>
+<li>Kvaliteettellimus #1 1 kohta partiist #b1, seerianumber #s1</li>
+<li>Kvaliteettellimus #2 1 kohta partiist #b2, seerianumber #s2</li>
+<li>Kvaliteettellimus #3 1 kohta partiist #b3, seerianumber #s3</li>
+</ul>
+</li>
+<li>Teata 2 lõpetatuks
+<ul>
+<li>Kvaliteettellimus #4 1 kohta partiist #b4, seerianumber #s4</li>
+<li>Kvaliteettellimus #5 1 kohta partiist #b5, seerianumber #s5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Märkus.</strong> Partiid saab uuesti kasutada.</p>
+</td>
+</tr>
+<tr>
+<td>Fikseeritud kogus: 2</td>
+<td>Ei</td>
+<td>
+<p>Partii number: jah</p>
+<p>Seerianumber: jah</p>
+</td>
+<td>
+<p>Tellimuse kogus: 10</p>
+<ol>
+<li>Teata 4 lõpetatuks
+<ul>
+<li>Kvaliteettellimus #1 1 kohta partiist #b1, seerianumber #s1.</li>
+<li>Kvaliteettellimus #2 1 kohta partiist #b2, seerianumber #s2.</li>
+<li>Kvaliteettellimus #3 1 kohta partiist #b3, seerianumber #s3.</li>
+<li>Kvaliteettellimus #4 1 kohta partiist #b4, seerianumber #s4.</li>
+<li>Järelejäänud koguse kohta ei looda enam ühtegi kvaliteettellimust.</li>
+</ul>
+</li>
+<li>Teata 6 lõpetatuks
+<ul>
+<li>Ühtegi kvaliteettellimust ei looda.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="production"></a>Tootmine
+
+Kui määrate tootmisel välja **Sündmuse tüüp** väärtuseks **Lõpetamise kinnitamine** ja välja **Käivitamine** väärtuseks **Pärast** lehel **Kvaliteediseosed**, saate järgmised tulemused:
+
+- Kui valiku **Värskendatud koguse kohta** väärtuseks on seatud **Jah**, luuakse kvaliteettellimus iga lõpetatud koguse ja kauba valimi sätete alusel. Iga kord, kui kogus märgitakse tootmistellimuse suhtes lõpetatuks, luuakse äsja lõpetatud koguse põhjal uued kvaliteettellimused. See loomisloogika on kooskõlas ostuga.
+- Kui valiku **Värskendatud koguse kohta** väärtuseks on seatud **Ei**, luuakse lõpetatud koguse põhjal kvaliteettellimus esimesel korral, kui kogus kinnitatakse lõpetatuks. Lisaks luuakse üks või mitu kvaliteettellimust järelejäänud koguse põhjal, sõltuvalt kauba valimi jälgimisdimensioonidest. Hilisemate lõpetatud koguste kohta ei looda kvaliteettellimusi.
+
+<table>
+<tbody>
+<tr>
+<th>Kvaliteedi spetsifikatsioon</th>
+<th>Värskendatud koguse kohta</th>
+<th>Jälgimisdimensiooni kohta</th>
+<th>Tulemus</th>
+</tr>
+<tr>
+<td>Protsent: 10%</td>
+<td>Jah</td>
+<td>
+<p>Partii number: ei</p>
+<p>Seerianumber: ei</p>
+</td>
+<td>
+<p>Tellimuse kogus: 100</p>
+<ol>
+<li>Teata 30 lõpetatuks
+<ul>
+<li>Kvaliteettellimus #1 3 kohta (10% 30-st)</li>
+</ul>
+</li>
+<li>Teata 70 lõpetatuks
+<ul>
+<li>Kvaliteettellimus #2 7 kohta (10% järelejäänud tellimuse kogusest, mis võrdub sel juhul 70-ga)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Fikseeritud kogus: 1</td>
+<td>Ei</td>
+<td>
+<p>Partii number: ei</p>
+<p>Seerianumber: ei</p>
+</td>
+<td>Tellimuse kogus: 100
+<ol>
+<li>Teata 30 lõpetatuks
+<ul>
+<li>Kavaliteettellimus #1 luuakse 1 kohta (esimese lõpetatuna kinnitatud koguse jaoks, millel on fikseeritud väärtus 1)</li>
+<li>Kavaliteettellimus #2 luuakse 1 kohta (järelejäänud koguse jaoks, millel on ikka fikseeritud väärtus 1)</li>
+</ul>
+</li>
+<li>Teata 10 lõpetatuks
+<ul>
+<li>Ühtegi kvaliteettellimust ei looda.</li>
+</ul>
+</li>
+<li>Teata 60 lõpetatuks
+<ul>
+<li>Ühtegi kvaliteettellimust ei looda.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Fikseeritud kogus: 1</td>
+<td>Jah</td>
+<td>
+<p>Partii number: jah</p>
+<p>Seerianumber: jah</p>
+</td>
+<td>
+<p>Tellimuse kogus: 10</p>
+<ol>
+<li>Kinnita lõpetatuks 3 kohta: 1 #b1, #s1 kohta; 1 #b2, #s2 kohta ja 1 #b3, #s3 kohta
+<ul>
+<li>Kvaliteettellimus #1 1 kohta partiist #b1, seerianumber #s1</li>
+<li>Kvaliteettellimus #2 1 kohta partiist #b2, seerianumber #s2</li>
+<li>Kvaliteettellimus #3 1 kohta partiist #b3, seerianumber #s3</li>
+</ul>
+</li>
+<li>Kinnita lõpetatuks 2 kohta: 1 #b4, #s4 kohta ja 1 #b5, #s5 kohta
+<ul>
+<li>Kvaliteettellimus #4 1 kohta partiist #b4, seerianumber #s4</li>
+<li>Kvaliteettellimus #5 1 kohta partiist #b5, seerianumber #s5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Märkus.</strong> Partiid saab uuesti kasutada.</p>
+</td>
+</tr>
+<tr>
+<td>Fikseeritud kogus: 2</td>
+<td>Ei</td>
+<td>
+<p>Partii number: jah</p>
+<p>Seerianumber: jah</p>
+</td>
+<td>
+<p>Tellimuse kogus: 10</p>
+<ol>
+<li>Kinnita lõpetatuks 4 kohta: 1 #b1, #s1 kohta; 1 #b2, #s2 kohta; 1 #b3, #s3 kohta ja 1 #b4, #s4 kohta
+<ul>
+<li>Kvaliteettellimus #1 1 kohta partiist #b1, seerianumber #s1</li>
+<li>Kvaliteettellimus #2 1 kohta partiist #b2, seerianumber #s2</li>
+<li>Kvaliteettellimus #3 1 kohta partiist #b3, seerianumber #s3</li>
+<li>Kvaliteettellimus #4 1 kohta partiist #b4, seerianumber #s4</li>
+</ul>
+<ul>
+<li>Kvaliteettellimus #5 2 kohta,ilma viiteta partiile ja seerianumbrile</li>
+</ul>
+</li>
+<li>Kinnita lõpetatuks 6 kohta: 1 #b5, #s5 kohta; 1 #b6, #s6 kohta; 1 #b7, #s7 kohta; 1 #b8, #s8 kohta; 1 #b9, #s9 kohta ja 1 #b10, #s10 kohta
+<ul>
+<li>Ühtegi kvaliteettellimust ei looda.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## <a name="quality-management-pages"></a>Kvaliteedijuhtimise lehed
 <table>
 <colgroup>
@@ -303,7 +553,7 @@ Järgmises tabelis on veel teavet kvaliteettellimuste loomise kohta konkreetset 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lehekülg</th>
+<th>Leht</th>
 <th>Kirjeldus</th>
 <th>Näide</th>
 </tr>

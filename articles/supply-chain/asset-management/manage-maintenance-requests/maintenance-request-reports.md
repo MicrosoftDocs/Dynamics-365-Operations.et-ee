@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5f1860907e3cc3c4830cc385771d5924c609ea6
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: 0734416eccf149330b390cce897d2c254f6c698b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847524"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571618"
 ---
 # <a name="maintenance-request-reports"></a>Kataloogihoolduse nõude üksikasjad
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Varahalduses saate luua kaks aruannet, mis on seotud hooldustaotlustega. Ühes aruandes kuvatakse üksikasjad ja teine aruanne sisaldab loendit, mida saab kasutada planeerimise ja järelkontrolli jaoks.
 
@@ -44,7 +44,7 @@ Aruandes **Hooldustaotluse üksikasjad** kuvatakse mitmesugused hooldustaotluste
 
 Järgnev illustratsioon näitab aruande **Hooldustaotluse üksikasjade** näidet.
 
-![Joonis 1](media/09-manage-maintenance-requests.png)
+![Hooldusnõuete üksikasjade aruanne](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Looge hooldusnõuete loendi aruanne
 
@@ -57,4 +57,4 @@ Aruanne **Hooldustaotluse loend** kuvatakse kõigi sama taotlusetüübi hooldust
 
 Järgnev illustratsioon näitab kõigi hooldustaotluste aruande **Hooldustaotluse loend** näidet.
 
-![Joonis 2](media/10-manage-maintenance-requests.png)
+![Hooldusnõuete loendi aruanne](media/10-manage-maintenance-requests.png)

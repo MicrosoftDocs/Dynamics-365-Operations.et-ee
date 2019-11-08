@@ -18,37 +18,45 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c9330cc7b3a8839d94c8945418548033254786b
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 43772903f6845409cb33c7f2a13a049a3e9aa208
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918437"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652398"
 ---
 # <a name="asset-fault-analysis"></a>Vara vea analüüs
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Varade Halduses saate analüüsida vara vea registreerimisi, et saada ülevaade kindla perioodi jooksul registreeritud vigade koguarvust. Vea registreerimisi saab analüüsida erinevatest vaatenurkadest, näiteks keskendudes varadele, vara tüüpidele, töö asukohtadele, vigade sümptomitele või vigade tüübile.
 
 1. Klõpsake **Varahaldus** > **Päringud** > **Vara viga** > **Vara vea analüüs**.
 
-2. Dialoogiaknas **Vara vea analüüsi arvutamine** saate kasutada välja **Tase**, et näidata, kui üksikasjalikult soovite, et vara vea read oleksid seotud töö asukohtadega. Näiteks kui sisestate väljale numbri "1" ja teil on mitmetasandiline töö asukoha struktuur, kuvatakse ülemisel tasemel kõik vara vea read töö asukoha kohta ja seetõttu võib rea tunnid kokku liita töö asukohtadest, mis asuvad madalamal tasemel. Kui sisestate numbri "0" väljale **Tase**, näete üksikasjalikku tulemust, kus kuvatakse kõik vara vea read kõigil töö asukoha tasemetel, millega need on seotud.
+2. Dialoogiaknas **Vara vea analüüsi arvutamine** saate kasutada välja **Tase**, et näidata, kui üksikasjalikult soovite, et vara vea read oleksid seotud töö asukohtadega. 
+
+    Näiteks kui sisestate väljale numbri "1" ja teil on mitmetasandiline töö asukoha struktuur, kuvatakse ülemisel tasemel kõik vara vea read töö asukoha kohta ja seetõttu võib rea tunnid kokku liita töö asukohtadest, mis asuvad madalamal tasemel. 
+        
+    Kui sisestate numbri "0" väljale **Tase**, näete üksikasjalikku tulemust, kus kuvatakse kõik vara vea read kõigil töö asukoha tasemetel, millega need on seotud.
 
 3. Kui soovite otsingut piirata, saate valida kindlad varad, vea kuupäevad, vea põhjused ja vea parandusmeetmed **Lisamiskirjed** kiirkaardi valikus.
 
 4. Arvutuse alustamiseks klõpsake **OK**.
 
-5. Vahekaardil **Vara vea analüüs** klõpsake ühte või mitut nuppu **Rühmitage...** toimingupaanide grupis, detailide taseme kuvamiseks, mida soovite näha. Aktiveeritud nupud on esile tõstetud. Nuppude aktiveerimiseks või inaktiveerimiseks klõpsake neil.
+5. Klõpsake vahekaardil **Vara vea analüüs** ühte või mitut nuppu **Grupeerimisalus**, et kuvada detailide tase, mida soovite näha. Aktiveeritud nupud on esile tõstetud. Nuppude aktiveerimiseks või inaktiveerimiseks klõpsake neil.
 
 6. Klõpsake **Värskenda arvutusi**, et näidata oma valikuid ekraanil. 
 
 >[!NOTE]
->Iga kord, kui aktiveerite või inaktiveerite nuppe **Rühmita...** toimingupaanide grupis, ärge unustage pärast valikute muutmist klõpsata **Värskenda arvutusi** nuppu. See on nõutav, kuna suur hulk andmeid töödeldakse, kui arvutate vea tõenäosuse ümber.
+>Iga kord, kui aktiveerite või desaktiveerite nupu **Grupeerimisalus**, ärge unustage klõpsata nuppu **Värskenda arvutusi**. See on nõutav, kuna suur hulk andmeid töödeldakse, kui arvutate vea tõenäosuse ümber.
 
-Vigade registreerimiste analüüsimiseks on mitu võimalust. Allpool näete viiest ekraanipildist näiteid sellest, kuidas erinevad andmevalikud pakuvad erinevat teavet. Näete, kuidas erinevad valikud pakuvad rohkem teavet ja üksikasju, analüüsides vara vea registreerimisi.
+## <a name="examples"></a>Näited
+
+Vigade registreerimiste analüüsimiseks on mitu võimalust. Selles jaotises kirjeldatakse viit näidet, kuidas erinevad andmevalikud saavad pakkuda rohkem teavet ja üksikasju, analüüsides vara vea registreerimisi.
+
+### <a name="group-by-symptoms"></a>Grupeerimine sümptomite alusel
 
 Alltoodud ekraanipildil on valitud ainult **Sümptomi** nupp.
 
@@ -57,6 +65,7 @@ Alltoodud ekraanipildil on valitud ainult **Sümptomi** nupp.
 
 ![Joonis 1](media/06-controlling-and-reporting.png)
 
+### <a name="group-by-symptoms-and-time-period"></a>Grupeerimine sümptomite ja ajaperioodi alusel
 
 Alloleval ekraanipildil lisatakse **Aasta** ja **Kuu**, et näidata, kuidas saate vaadata vigade registreerimisi valitud perioodi jooksul.
 
@@ -65,9 +74,13 @@ Alloleval ekraanipildil lisatakse **Aasta** ja **Kuu**, et näidata, kuidas saat
 
 ![Joonis 2](media/07-controlling-and-reporting.png)
 
+### <a name="group-by-multiple-symptoms-and-assets"></a>Grupeerimine mitme sümptomi ja vara alusel
 
-- Varade ja varade tüübi kombinatsiooni kasutatakse kolmes allpool olevas ekraanipildis näidatud arvutuste alusena, mis suurenevad detailsuse tasemel.  
-- Üldiselt, nupud **Rühmita kuupäeva järgi**, **Rühmita vara järgi**, **Rühmita töö asukoha järgi** toimingupaanide gruppides, nagu ka **Viga** nupp (Vea ID), sisaldavad perioode või vara suhted. Nupud **Sümptom**, **Ala**, **Tüüp**, **Põhjus** ja **Parandusmeede** on veahalduses kasutatavad kategooriad, et analüüsida vara vigade registreerimisi ja probleemseid alasi täpselt ära näidata.  
+Varade ja varade tüübi kombinatsiooni kasutatakse kolmes allpool olevas ekraanipildis näidatud arvutuste alusena, mis suurenevad detailsuse tasemel.  
+
+Üldiselt, nupud **Rühmita kuupäeva järgi**, **Rühmita vara järgi**, **Rühmita töö asukoha järgi** toimingupaanide gruppides, nagu ka **Viga** nupp (Vea ID), sisaldavad perioode või vara suhted. Nupud **Sümptom**, **Ala**, **Tüüp**, **Põhjus** ja **Parandusmeede** on veahalduses kasutatavad kategooriad, et analüüsida vara vigade registreerimisi ja probleemseid alasi täpselt ära näidata.  
+
+**Grupeerimine sümptomi, vara ja varatüübi alusel**
 
 Alloleval ekraanipildil lisati **Vara** ja **Vara tüüp**, et anda üksikasjalikumat teavet vigade registreerimiste kohta.
 
@@ -76,6 +89,7 @@ Alloleval ekraanipildil lisati **Vara** ja **Vara tüüp**, et anda üksikasjali
 
 ![Joonis 3](media/08-controlling-and-reporting.png)
 
+**Grupeerimine kahe sümptomi, vara ja varatüübi alusel**
 
 Alloleval ekraanipildil lisati **Ala** suvand **Sümptom**, **Vara**, ja **Vara tüüp** suvanditele, et anda üksikasjalikumat teavet vigade registreerimiste kohta.
 
@@ -83,6 +97,7 @@ Alloleval ekraanipildil lisati **Ala** suvand **Sümptom**, **Vara**, ja **Vara 
 
 ![Joonis 4](media/09-controlling-and-reporting.png)
 
+**Grupeerimine kolme sümptomi, vara ja varatüübi alusel**
 
 Alltoodud ekraanipildil lisati **Tüüp** ja on näidatud kõige üksikasjalikum arvutus selles näites.
  

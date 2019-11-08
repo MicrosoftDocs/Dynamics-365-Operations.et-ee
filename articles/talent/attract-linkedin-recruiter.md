@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8f2e95e74bbc8d78ed5d970f29b61150a45c6740
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008566"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551560"
 ---
-# <a name="source-candidates-with-linkedin-recruiter"></a>Kandidaatide hankimine teenuse LinkedIn Recruiter abil
+# <a name="source-candidates-with-linkedin-recruiter-in-microsoft-dynamics-365-talent---attract"></a>Kandidaatide otsimine teenusega LinkedIn Recruiter rakenduses Microsoft Dynamics 365 Talent – Attract
 [!include[banner](../includes/banner.md)]
 
 LinkedIn on maailma suurim tööalane veebivõrgustik, mis annab ligipääsu maailma tipptalentidele. Microsoft Dynamics 365 Talent: Attract võimaldab otsida kandidaate otse LinkedInist. Seetõttu on väga lihtne leida talente, keda vajate vabade ametikohtade täitmisel. Pärast LinkedIniga ühenduse seadistamist Attracti kaudu saate vaadata potentsiaalseid LinkedIni kandidaate oma ametikohtadele ja eksportida need ainult ühe hiireklõpsuga rakendusse Attract.

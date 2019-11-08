@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 69d06ff649f4453df22d55062b43bcc8d4ecd763
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: f531f51d7f42f88e4da2d046e61313e9ada2b259
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874712"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569796"
 ---
 # <a name="work-order-lifecycle-states"></a>Töökäsu elutsükli olekud
 
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Töökäsu töötsüklis määratletakse olekud, mida töökäsk saab läbida. Näideteks **on**Loodud **,** Planeeritud **, Käimas**ja **Lõpetatud**. Töökäsu töötsükli olekuid saab töökäsul käsitsi uuendad või neid saab automaatselt uuendada (nt töökäsu planeerimisel).
 
@@ -38,7 +38,7 @@ Töökäsu töötsüklite olekud, mis on vajalikud teie tööolekute jaoks, tule
 
 Järgmises tabelis on kirjeldatud valikud jaotistes **Töökäsk** ja **Graafik** kiirkaardil **Üldine** lehel **Töökäsu töötsükliolek** lehel (**Varahaldus** \> **Seadistus** \> **Töökäsud** \> **Töötsükli olekud**).
 
-![Joonis 1](media/09-setup-for-work-orders.png)
+![Töökäsu töötsükli oleku leht](media/09-setup-for-work-orders.png)
 
 | Valiku nimi                   | Kirjeldus |
 |-------------------------------|-------------|
@@ -96,7 +96,7 @@ Järgmises tabelis on kirjeldatud valikud jaotistes **Töökäsk** ja **Graafik*
     - Kui suvandi **Hoolduse seisakud** väärtuseks on **Jah** töötsükli olekus, millesse töötkäsk on uuendatud, tehakse hoolduse seisakute kinnitamine töökäsuga seotud vara puhul. Kui hoolduse seisakute registreerimine on tehtud, kuid pole **Lõpetatud** registreerimist, kuvatakse teade, kui töökäsku värskendatakse selle elutsükli olekusse.
     - Kui standardse projekti seadistamine ei sisalda kõiki teie varahalduse seadistuse jaoks nõutud etappe, saate seadistada kasutaja määratletud projektietapid vahekaardil **Projektietapp** lehel **Projektijuhtimise ja raamatupidamise parameetrid**. Järgmisel illustratsioonil kuvatakse vahekaart **Projektietapp** lehel **Projektijuhtimise ja raamatupidamise parameetrid**.
 
-    ![Joonis 2](media/10-setup-for-work-orders.png)
+    ![Leht projektietappide häälestamiseks eri projektitüüpide puhul](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Kui töötsükli olek, mille värskendate töökäsuks on passiivne, kustutatakse töökäskudega seotud töölehed, kuid see pole veel sisestatud. Selline käitumine aitab tagada kasutamata teabe automaatse puhastamise. (Töötsükli olek on passiivne, kui selle suvand **Aktiivne** on seatud väärtusele **Ei** kiirkaardil **Üldine** lehel **Töökäsu töötsükli olek**.)
@@ -114,7 +114,7 @@ Tüüpide kasutamise põhjus on, et kui tüüp on määratletud näiteks töök�
 
 Järgmine illustratsioon näitab seost töökäskude tüüpide, töötsükli mudelite ja töötsükliolekute vahel.
 
-![Joonis 3](media/11-setup-for-work-orders.png)
+![Töökäsu tüübi lehe ja töökäsu töötsükli mudelite lehe võrdlus](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Töökäsu töötsükli mudelid
 
@@ -138,4 +138,4 @@ Pärast seda, kui olete loonud oma töökäskude jaoks nõutavad tääkäsu tö�
 8. Valige väljal **Plaanimata töötsükli olek** töötsükli olek, mis tuleks töökäsule alati valida, kui töökäsu graafik on kustutatud.
 9. Salvestage töökäsu töötsükli mudel.
 
-![Joonis 4](media/15-setup-for-work-orders.png)
+![Töökäsu töötsükli mudelite leht](media/15-setup-for-work-orders.png)

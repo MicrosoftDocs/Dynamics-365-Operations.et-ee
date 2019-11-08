@@ -3,7 +3,7 @@ title: Min-max täiendamisprotsessi seadistamine
 description: Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, mis kasutab minimaalse/maksimaalse täiendamise strateegiat.
 author: perlynne
 manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 10/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef3c33125850662cfb0dfba6e6349ce32ceda0af
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
+ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924443"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "2559185"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min-max täiendamisprotsessi seadistamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, mis kasutab minimaalse/maksimaalse täiendamise strateegiat. Kui varud jäävad allapoole minimaalset taset, luuakse töö asukoha täiendamiseks. Protseduur näitab ka seda, kuidas kasutada fikseeritud komplekteerimise asukohti, et lubada uuesti täiendamist isegi siis, kui varud jäävad allapoole minimaalset taset, ja, kuidas lubada täiendamisprotsessi regulaarset käitamist, kasutades pakett-tööd. Neid ülesandeid täidab üldjuhul laohaldur. Saate seda protseduuri käitada demoandmete ettevõttes USMF, kasutades märkustes olevaid näiteväärtusi, või käitada seda oma andmetega. Kui kasutate oma andmeid, veenduge, et teil on ladu, mis on laohaldusprotsessideks lubatud.
+Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, mis kasutab minimaalse/maksimaalse täiendamise strateegiat. Kui varud jäävad allapoole minimaalset taset, luuakse töö asukoha täiendamiseks. Protseduur näitab ka seda, kuidas kasutada fikseeritud komplekteerimise asukohti, et lubada uuesti täiendamist isegi siis, kui varud jäävad allapoole minimaalset taset, ja, kuidas lubada täiendamisprotsessi regulaarset käitamist, kasutades pakett-tööd. Neid ülesandeid täidab üldjuhul laohaldur. Saate seda protseduuri käitada USMF-i demoandmete ettevõttes, kasutades allpool olevaid näidisväärtusi, või käitada seda oma andmetega. Kui kasutate oma andmeid, veenduge, et teil on ladu, mis on laohaldusprotsessideks lubatud.
 
 
 ## <a name="create-a-fixed-picking-location"></a>Fikseeritud komplekteerimise asukoha loomine

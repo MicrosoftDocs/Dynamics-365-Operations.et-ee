@@ -3,7 +3,7 @@ title: Regulatiivsed värskendused
 description: Selles teemas on toodud loend rakenduse Microsoft Dynamics 365 Finance plaanitud ja väljastatud regulatiivsetest värskendustest.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/30/2019
+ms.date: 10/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dc5a9669a9c6c298a4f9df52346b8a075ba177e0
-ms.sourcegitcommit: a4e1a28b4733f3356e5a2237c8ba5d93f9799391
+ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2517307"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653200"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
@@ -28,9 +28,7 @@ ms.locfileid: "2517307"
 
 Selles teemas on toodud loend regulatiivsetest värskendustest, mis on plaanitud rakenduse Dynamics 365 Finance toetatud lokaliseeringute väljalaskesse. Väljaandmise tähtajad võivad muutuda ja kavandatud funktsioonid võivad olla erinevad või ei pruugita neid väljastada. Lisateavet vt jaotisest [Microsofti poliitika](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Regulatiivsed värskendused on funktsioonid, mida juurutatakse, et toetada uusi või muudetud riigikohaseid õigusakte. Teavet muude plaanitud ja välja antud riigikohaste funktsioonide kohta vaadake järgmistest ressurssidest.
-- [Dynamics 365 ja Power Platformi väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Mis on uut rakenduses Microsoft Dynamics 365 for Finance and Operations?](../../fin-and-ops/get-started/whats-new-changed.md)
+Regulatiivsed värskendused on funktsioonid, mida juurutatakse, et toetada uusi või muudetud riigikohaseid õigusakte. Teavet muude plaanitud ja välja antud riigikohaste funktsioonide kohta vaadake lehelt [Dynamics 365 ja Power Platformi väljalaskeplaanid](https://docs.microsoft.com/business-applications-release-notes/index).
 
 Microsoft püüab juurutada uusi regulatiivseid nõudeid võimalikult kiiresti. Tegelik väljalaskekuupäev sõltub seaduse väljakuulutamise päevast, nõuete üksikasjaliku teabe kättesaadavusest kohalike omavalitsuste käest, valideerimisvahendite kättesaadavusest ning muutuste ulatusest ja keerukusest.
 
@@ -44,13 +42,19 @@ Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist t
 
 |Plaanitud väljaandmiskuupäev|Vabasta versioon|Riik|Regulatiivne värskendus|
 |--------------------|---------------|-------|-------|
-|      August 2019          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brasiilia      |   Tehniliste märkmete uus versioon NF-e jaoks: NT 2019.001 versioon 1,10    |
-|      August 2019          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brasiilia      |   Tehniliste märkmete uus versioon NF-e jaoks: NT 2019.001 versioon 1,20    |
-|      August 2019          |   10.0.6 (PEAP)      | Brasiilia      |   DRCST deklaratsioon SC   |
-|      August 2019          |   10.0.6(PEAP), 10.0.5HF      | Brasiilia     |   Uut seadusandlust rakendab RJ-riik, mis on seotud EFD-ICMS/IPI-ga. Rio de Janeiro (RJ) rakendamise resolutsioon 13/19 on ette nähtud erimenetluse puhul, mida kohaldatakse vabastuse suhtes     |
-|      August 2019          |   10.0.6 (PEAP)      | Brasiilia      |   Maksudeklaratsioon CAT 42/18    |
-|      August 2019          |   10.0.6 (PEAP)      | Itaalia      |   Muudatused km-halduses D.L. järgi 119, 23 okt 2018 – Dynamics 365 for Finance and Operationsv. 10.0.6  |
-|      August 2019          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Jaapan      |   Tarbimise maksu määra muutmine ja vähendatud maksumäär on kehtestatud    |
+|      November 2019          |   10.0.7 (PEAP)      | Itaalia      |   Muudatused km-halduses D.L. järgi 119, 23. oktoober 2019: kvartali KM-i teatis („Lipe 2018“)    |
+|      November 2019          |   10.0.7 (PEAP)      | Itaalia      |   Retail – klienditeabe haldamine kassas |
+|      November 2019          |   10.0.7 (PEAP)      | Itaalia      |   Retail – klienditeabe printimine fiskaalsissetulekul | 
+|      November 2019          |   10.0.7 (PEAP)      | Jaapan      |   Tarbimismäära muutmine ja vähendatud maksumäär on kasutusele võetud (arve paigutused) | 
+|      November 2019          |   10.0.7 (PEAP)      | Mehhiko      |   Reegli 2.7.2.9 värskendamine – CFDI dokumendi väljastanud asutuse sihtnumbri ajavööndi kasutamine | 
+|      November 2019          |   10.0.7 (PEAP)      | Ühendkuningriik     |   Maksu muutmine digitaalseks – KM-i tagastuse aruande loomine selliste ettevõtete puhul, kelle aruandlus toimub käibemaksugrupina sama süsteemi andmebaasis v.10 | 
+|      November–august 2019          |   10.0.7(PEAP), 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brasiilia      |   Tehniliste märkmete uus versioon NF-e jaoks: NT 2019.001 versioon 1,20    |
+|      November–august 2019          |   10.0.7(PEAP), 10.0.6      | Brasiilia      |   DRCST deklaratsioon SC   |
+|      November–august 2019          |   10.0.7(PEAP), 10.0.6      | Itaalia      |   Muudatused km-halduses D.L. järgi 119, 23. oktoober 2018 – Dynamics 365 for Finance and Operations  |
+|      August 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brasiilia      |   Tehniliste märkmete uus versioon NF-e jaoks: NT 2019.001 versioon 1,10    |
+|      August 2019          |   10.0.6, 10.0.5HF      | Brasiilia     |   Uut seadusandlust rakendab RJ-riik, mis on seotud EFD-ICMS/IPI-ga. Rio de Janeiro (RJ) rakendamise resolutsioon 13/19 on ette nähtud erimenetluse puhul, mida kohaldatakse vabastuse suhtes     |
+|      August 2019          |   10.0.6      | Brasiilia      |   Maksudeklaratsioon CAT 42/18    |
+|      August 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Jaapan      |   Tarbimise maksu määra muutmine ja vähendatud maksumäär on kehtestatud    |
 |      August – juuli 2019          |   10.0.5, 10.0.4HF, 10.0.3HF      | Hispaania      |   Hispaania: SII: Valideerimisreeglid muutuvad 1. oktoobril 2019    |
 |      Juuli 2019          |   10.0.5, 10.0.4HF, 10.0.2HF      | Brasiilia      |   Tehniliste märkmete uus versioon NF-e jaoks: NT 2019.001 versioon 1,00  |
 |      Juuli 2019          |   10.0.5      | Brasiilia      |   SPED panuse praktiline juhend 1,31. Uued suunised    |
@@ -66,7 +70,7 @@ Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist t
 |      2019. aprill          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brasiilia     |   SPED ECD kavand 7    |
 |      2019. aprill          |   10.0.3      | Brasiilia      |   SPED ECF – paigutus 5 2019 jaoks    |
 |      2019. aprill          |   10.0.3      | India      |   Maksu korrigeerimine tolli valuutas BOE-s kandevaluuta tegemise asemel    |
-|      2019. aprill          |   10.0.3      | India      |   Maksu korrigeerimine tolli valuutas BOE-s kandevaluuta tegemise asemel    |
+|      2019. aprill          |   10.0.3      | India      |   BOE-s maksu arvutamine tolli valuutas kandevaluuta tegemise asemel   |
 |      2019. aprill          |   10.0.3, 10.02HF, 10.0.1HF      | India      |   IEC numbrite vormingu muutmine    |
 |      2019. aprill          |   10.0.3      | Leedu      |   Leedu i. SAF-aruanne võimaldab kasutajal määratleda süsteemi käibemaksukoode koos juriidiliste maksukoodidega    |
 |      2019. aprill          |   10.0.3      | Poola      |   SAF arved (JPK_FA) v .2 alates 1. juulist 2019    |

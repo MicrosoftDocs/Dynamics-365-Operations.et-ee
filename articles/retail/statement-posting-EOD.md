@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c22137ad29bf947bc7a9e4c9a4d1332e03b1298
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 1e3fc0e8cb5c9a6cc7729dfbddd5d918a1d6bdb5
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606960"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653367"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Väljavõtte sisestamise funktsiooni täiustused
 
@@ -37,7 +37,7 @@ Vaikimisi on juurutamisel rakendus Finance and Operations 7.3.2 seadistatud kasu
 
 Kui sisse on lülitatud uus konfiguratsioonivõti **Jaemüügi väljavõtted**, on saadaval uus menüükäsk nimega **Jaemüügi väljavõtted**. Selle menüükäsuga saab väljavõtteid käsitsi luua, arvutada ja sisestada. Selle menüükäsu kaudu on saadaval ka kõik väljavõtted, mis põhjustavad pakettsisestuse protsessi kasutamisel tõrke. (Kui sisse on lülitatud konfiguratsioonivõti **Jaemüügi väljavõtted (pärand)**, on saadaval menüükäsk nimega **Avatud väljavõtted**.)
 
-Rakenduses Finance and Operations on järgmised nende konfiguratsioonivõtmetega seotud kontrolltoimingud.
+Rakenduses Retail on järgmised nende konfiguratsioonivõtmetega seotud kontrolltoimingud.
 
 - Mõlemat konfiguratsioonivõtit ei saa korraga sisse lülitada.
 - Konkreetse väljavõtte elutsükli jooksul (loomine, arvutamine, sisestamine jne) tehtavate kõikide toimingute jaoks tuleb kasutada sama konfiguratsioonivõtit. Näiteks ei saa luua ja arvutada väljavõtet, kui konfiguratsioonivõti **Jaemüügi väljavõte (pärand)** on sisse lülitatud, ja üritada sama väljavõtet sisestada konfiguratsioonivõtmega **Jaemüügi väljavõte**.

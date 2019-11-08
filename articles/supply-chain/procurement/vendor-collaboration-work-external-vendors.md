@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250186"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653598"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Hankija koostöö väliste hankijatega
 
@@ -190,7 +190,7 @@ Järgmises tabelis on näide oleku ja versiooni muudatuste kohta, mida ostutelli
 Hankijad ei pea OT-d hankija koostööliidese kaudu kinnitama. Nad võivad saata ka meili või teatada ostutellimuse vastuvõtmisest muude kanalite kaudu. Seejärel saate tellimuse käsitsi kinnitada. Sellisel juhul saate hoiatuse, et tellimus on kinnitatud, kuigi hankijalt puudub vastus. Seejärel kuvatakse ostutellimus kinnitusajaloos avatud kinnitatud tellimusena, millel puuduvad vastused. Nüüd pole hankijal enam võimalik ostutellimust kinnitada ega tagasi lükata.
 
 > [!NOTE]
-> Ostutellimuse versioon, mis on saadaval teistele protsessidele rakenduses Finance and Operations, on alati värskeim versioon isegi juhul, kui seda versiooni pole veel registreeritud hankija koostööliideses.
+> Ostutellimuse versioon, mis on saadaval teistele protsessidele rakenduses Supply Chain Management, on alati värskeim versioon isegi juhul, kui seda versiooni pole veel registreeritud hankija koostööliideses.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Versioonid ja olekud, kui kasutate muudatusehaldust
 

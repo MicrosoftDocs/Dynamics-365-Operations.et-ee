@@ -19,27 +19,25 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58ff596314d348a465ba6ee23369f09e74d580eb
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 265e4dd4be63f70a29e46b6acf7db514feb599a4
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248864"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652168"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Ostutellimuste kinnitamine
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Selles teemas kirjeldatakse olekuid, mille ostutellimus pärast loomist läbib, ja muudatuste halduse lubamise mõju ostutellimustele.
 
 Pärast ostutellimuse koostamist võib olla vaja läbida heakskiitmise protsess. Kui hankija on tellimusega nõustunud, määratakse ostutellimuse olekuks **Kinnitatud**.
 
 ## <a name="approval-of-purchase-orders"></a>Ostutellimuste heakskiitmine
-Ostutellimustel, mille puhul muudatuste haldust ei kasutata, on olek **Heaks kiidetud** kohe nende loomisel, samas kui ostutellimustel, mis kasutavad muudatuste haldust, on loomisel olek **Mustand**. Ostutellimusele, mis on loodud koondplaneerimise plaanitud tellimuse kinnitamisega, määratakse alati olek **Heaks kiidetud**, olenemata muudatuste halduse sätetest. Ostutellimus tekitab laokandeid ainult siis, kui see saavutab oleku **Heaks kiidetud**. Seetõttu ei kuvata neid varusid reserveerimiseks või märkimiseks kättesaadavana enne tellimuse vastuvõtmist.  
+Ostutellimustel, mille puhul muudatuste haldust ei kasutata, on olek **Heaks kiidetud** kohe nende loomisel, samas kui ostutellimustel, mis kasutavad muudatuste haldust, on loomisel olek **Mustand**. Ostutellimusele, mis on loodud koondplaneerimise plaanitud tellimuse kinnitamisega, määratakse alati olek **Heaks kiidetud**, olenemata muudatuste halduse sätetest. Ostutellimus tekitab laokandeid ainult siis, kui see saavutab oleku **Heaks kiidetud**. Seetõttu ei kuvata neid varusid reserveerimiseks või märkimiseks kättesaadavana enne tellimuse vastuvõtmist.
 
-Ostutellimuste muudatuste juhtimine lubatakse valiku **Muudatusehalduse aktiveerimine** seadistamisega lehel **Hankeparameetrid**. Kui muudatuste haldus on lubatud, peab ostutellimus läbima pärast lõpetamist heakskiitmise töövoo. Supply Chain Managementil on töövooprotsessi redaktor, kus saab määratleda heakskiitmise protsessi kajastamiseks töövoo. See töövoog võib sisaldada reegleid automaatseks heakskiitmiseks, reegleid, mis määravad, kes määratakse konkreetseid ostutellimusi heaks kiitma, ja reegleid pikka aega heakskiitmist oodanud töövoo eskaleerimiseks. Saate lubada muudatuste halduse protsessi kõigile hankijatele või konkreetsetele hankijatele. Samuti saate seadistada protsessi nii, et selle saab eraldi ostutellimuste puhul alistada.  
+Ostutellimuste muudatuste juhtimine lubatakse valiku **Muudatusehalduse aktiveerimine** seadistamisega lehel **Hankeparameetrid**. Kui muudatuste haldus on lubatud, peab ostutellimus läbima pärast lõpetamist heakskiitmise töövoo. Supply Chain Managementil on töövooprotsessi redaktor, kus saab määratleda heakskiitmise protsessi kajastamiseks töövoo. See töövoog võib sisaldada reegleid automaatseks heakskiitmiseks, reegleid, mis määravad, kes määratakse konkreetseid ostutellimusi heaks kiitma, ja reegleid pikka aega heakskiitmist oodanud töövoo eskaleerimiseks. Saate lubada muudatuste halduse protsessi kõigile hankijatele või konkreetsetele hankijatele. Samuti saate seadistada protsessi nii, et selle saab eraldi ostutellimuste puhul alistada.
 
 Kui muudatuste haldus on lubatud, läbivad ostutellimused kuus heakskiitmise olekut, alates olekust **Mustand** kuni olekuni **Lõpetatud**. Pärast tellimuse heakskiitmist peavad kasutajad, kes soovivad seda muuta, kasutama toimingut **Taotle muudatust**.
 
@@ -53,11 +51,11 @@ Kui muudatuste haldus on lubatud, läbivad ostutellimused kuus heakskiitmise ole
 | Lõpetatud       | Ostutellimus muudeti lõplikuks. See on nüüd rahaliselt suletud ja seda ei saa enam muuta. | Ei                        |
 
 ## <a name="confirming-purchase-orders"></a>Ostutellimuste kinnitamine
-Ostutellimused, mille heakskiitmise olek on **Heaks kiidetud**, võivad läbida enne kinnitamist lisatoimingud. Näiteks võib olla vaja saata hankijale ostupäring, et küsida hindade, allahindluste või tarnekuupäevade kohta. Sel juhul saate määrata ostutellimuse olekuks **Välisel ülevaatamisel**, kasutades toimingut **Ostupäring**.  
+Ostutellimused, mille heakskiitmise olek on **Heaks kiidetud**, võivad läbida enne kinnitamist lisatoimingud. Näiteks võib olla vaja saata hankijale ostupäring, et küsida hindade, allahindluste või tarnekuupäevade kohta. Sel juhul saate määrata ostutellimuse olekuks **Välisel ülevaatamisel**, kasutades toimingut **Ostupäring**.
 
-Hankijad, kes on seadistatud kasutama hankijaportaali, saavad vaadata portaalis tellimusi üle ja neid heaks kiita või tagasi lükata. Selle ülevaatamisprotsessi käigus on ostutellimuse olek **Välisel ülevaatamisel**. Hankijaportaali on võimalik konfigureerida nii, et hankija kinnitus kinnitab tellimuse Supply Chain Managementis automaatselt. Teise võimalusena saate ostutellimuse käsitsi kinnitada, kui olete hankijalt kinnituse saanud. Kui hankija lükkab ostutellimuse tagasi, saadakse tagasilükkamine koos tagasilükkamise põhjuse ja muudatuste soovitustega. Sel juhul jääb ostutellimuse olekuks **Välisel ülevaatamisel**.  
+Hankijad, kes on seadistatud kasutama hankijaportaali, saavad vaadata portaalis tellimusi üle ja neid heaks kiita või tagasi lükata. Selle ülevaatamisprotsessi käigus on ostutellimuse olek **Välisel ülevaatamisel**. Hankijaportaali on võimalik konfigureerida nii, et hankija kinnitus kinnitab tellimuse Supply Chain Managementis automaatselt. Teise võimalusena saate ostutellimuse käsitsi kinnitada, kui olete hankijalt kinnituse saanud. Kui hankija lükkab ostutellimuse tagasi, saadakse tagasilükkamine koos tagasilükkamise põhjuse ja muudatuste soovitustega. Sel juhul jääb ostutellimuse olekuks **Välisel ülevaatamisel**.
 
-Võimalik on luua ka tellimuse pro-forma kinnitus enne tegeliku kinnituse töötlemist. See valik loob lihtsalt aruande, mida saate hankijaga jagada. See ei loo mingit töölehe teavet.  
+Võimalik on luua ka tellimuse pro-forma kinnitus enne tegeliku kinnituse töötlemist. See valik loob lihtsalt aruande, mida saate hankijaga jagada. See ei loo mingit töölehe teavet.
 
 Pärast seda, kui hankija on tellimusega nõustunud, on järgmine etapp ostutellimuse salvestamine kooskõlastatuna. Selle etapi saab läbida, kasutades toimingut **Kinnitus** või toimingut **Kinnita**. Mõlemad toimingud määravad tellimuse heakskiitmise olekuks **Kinnitatud**. Tellimuse kinnitamine käivitab kaks lisaprotsessi.
 
@@ -67,13 +65,25 @@ Pärast seda, kui hankija on tellimusega nõustunud, on järgmine etapp ostutell
 Hankija võib nõuda mingisugust kinnitust, et ostu eest tasutakse. Selle garantii andmiseks on ostureskontro protsessides mitmesuguseid võimalusi. Näiteks toiming **Ettemaks** reserveerib ostutellimuse jaoks vahendid ja see ettemaks kajastatakse ostutellimusel.
 
 ## <a name="changing-purchase-orders"></a>Ostutellimuste muutmine
-Mõnikord võib olla vaja ostutellimust muuta pärast seda, kui see on saavutanud kinnitusoleku **Heaks kiidetud** või **Kinnitatud**.  
+Mõnikord võib olla vaja ostutellimust muuta pärast seda, kui see on saavutanud kinnitusoleku **Heaks kiidetud** või **Kinnitatud**.
 
-Kui ostutellimus loodi muudatuste halduse protsessi kasutades, saate teha muudatusi, kutsudes tellimuse tagasi või, kui tellimus on juba kinnitatud, siis kasutades toimingut **Taotle muudatust**. Sel juhul määratakse heakskiitmise olekuks uuesti **Mustand** ja saate siis tellimust muuta. Kui olete muudatuste tegemise lõpetanud, võib olla vaja ostutellimus uuesti heakskiitmiseks esitada. Saate konfigureerida muudatuste tüüpe, mis nõuavad uut heakskiitmist, kasutades poliitikareeglit **Ostutellimuste eelkinnituse reegel** lehel **Ostupoliitikad**.  
+Kui ostutellimus loodi muudatuste halduse protsessi kasutades, saate teha muudatusi, kutsudes tellimuse tagasi või, kui tellimus on juba kinnitatud, siis kasutades toimingut **Taotle muudatust**. Sel juhul määratakse heakskiitmise olekuks uuesti **Mustand** ja saate siis tellimust muuta. Kui olete muudatuste tegemise lõpetanud, võib olla vaja ostutellimus uuesti heakskiitmiseks esitada. Saate konfigureerida muudatuste tüüpe, mis nõuavad uut heakskiitmist, kasutades poliitikareeglit **Ostutellimuste eelkinnituse reegel** lehel **Ostupoliitikad**.
 
 Kui osa ostutellimuse rea tellitud kogusest on tarnitud, ei saa tellitud kogust muuta. Kuid muuta saab rea kogust **Tarne jääk**. Seejärel saate kasutada toimingut **Lõpeta** ridade tühistamiseks ja edasise töötlemise vältimiseks. 
 
 Pärast seda, kui tellimus on kinnitatud, ei saa seda enam kustutada. Kuid tühistada saab kogu tellimuse koguse või järelejäänud koguse, eeldusel, et see kogus pole kätte saadud või arveldatud.
+
+## <a name="canceling-purchase-orders"></a>Ostutellimuste tühistamine
+
+Ostutellimust saab tühistada, kasutades päises toodud tegevust **Tühista**.
+
+Kui kogus on osaliselt registreeritud, vastu võetud või arveldatud, saate tühistada ainult järelejäänud koguse, mis ei ole registreeritud, saadud või arveldatud. Tellimuse kogust vähendatakse vastavalt. Kui rea kogust uuendatakse, uuendatakse ka rea olek. Näiteks oletagem, et rea algne kogus on 5, millest vastuvõetud kogus 3. Sel juhul saab tühistada ainult kaks. Seejärel uuendatakse rida olekusse **Vastuvõetud**.
+
+Kui tellimuse reale on lisatud tarnejääk ja see ületab tellimuse real oleva koguse, ei tühista tegevus **Tühista** üleliigset kogust. Selle asemel jääb rida olekusse **Avatud tellimus**, kuna sellel on järelejäänud kogus. Näiteks oletagem, et rea algne kogus on 5 ja tarnejääk on 7. Kui tellimus tühistatakse, tühistatakse viis ja jääb kogus 2, nagu näete varude kannete alt.
+
+Ostutellimuse rea kogu koguse tühistamiseks peate real tühistama tarnejäägi järelejäänud koguse. Seejärel uuendatakse rida olekusse **Tühistatud**.
+
+Kui ostutellimus on muudatuste haldamise all, tuleb kõik muudatused, nt tellimuse tühistamine või tarnejääk, esitada töövoo süsteemile ja kinnitada enne protsessi lõpuleviimist ja varude kannete uuendamist vastavalt tühistamisele.
 
 <a name="additional-resources"></a>Lisaressursid
 --------
@@ -84,7 +94,7 @@ Pärast seda, kui tellimus on kinnitatud, ei saa seda enam kustutada. Kuid tühi
 
 [Toote sissetulek ostutellimuste suhtes](product-receipt-against-purchase-orders.md)
 
-[Hankija arvete ülevaade](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Hankija arvete ülevaade](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Vöötkoodide skannimine kaamera abil rakenduses Dynamics 365 Supply Chain Management – Ladustamine
-description: Selles teemas selgitatakse, kuidas seadistada Dynamics 365 Supply Chain Managementi rakendust Ladustamine nii, et see võimaldaks mobiilse seadme kaameraga vöötkoode skannida.
+title: Vöötkoodide skannimine kaamera abil rakenduses Dynamics 365 for Finance and Operations – Warehousing
+description: Selles teemas selgitatakse, kuidas seadistada rakendust Dynamics 365 for Finance and Operations – Warehousing nii, et see võimaldaks mobiilse seadme kaameraga vöötkoode skannida.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58cf27a250778d68bdffa1eefa5e939276e467fc
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251452"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578145"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Vöötkoodide skannimine kaamera abil rakenduses Dynamics 365 Supply Chain Management – Ladustamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada Dynamics 365 Supply Chain Managementi rakendust Ladustamine nii, et see võimaldaks mobiilse seadme kaameraga vöötkoode skannida. 
+Selles teemas selgitatakse, kuidas seadistada rakendust Dynamics 365 for Finance and Operations – Warehousing nii, et see võimaldaks mobiilse seadme kaameraga vöötkoode skannida. 
 
 ## <a name="prerequisites"></a>Eeltingimused
 Selle funktsiooni kasutamiseks peab teil olema installitud rakenduse Ladustamine versioon 1.2.0.0 ja teie seadmel peab olema kaamera. Pärast värskendamist rakenduse avamisel palutakse teilt lubada rakendusel kaamerat kasutada. Kui seadmel ei ole kaamerat, siis viibet ei kuvata ja te ei saa kaamerat skannerina kasutada. 
@@ -49,7 +49,7 @@ Kaameraleht käivitub igal lehel, kus sisestusvälja eelistatud sisestusrežiim 
 
 | Ülesande ja üksikasjade leht | Kaameraleht | 
 | :---------------------: | :--------------------: |
-| ![camera-scanning-example-task-detail-page](./media/camera-scanning-example-task-detail-page50.png)          | ![camera-scanning-example-camera-page-smaller](./media/camera-scanning-example-camera-page50.png)          |
+| ![Kaameraga skannimise näidisülesande üksikasjade leht](./media/camera-scanning-example-task-detail-page50.png)          | ![Kaameraga skannimise näidise väiksem kaameraleht](./media/camera-scanning-example-camera-page50.png)          |
 
 Kui klõpsate kaameralehel kaamera nuppu, kuvatakse see vöötkoodi tuvastamise ajal tuhmina. Kui vöötkoodi 5 sekundi jooksul ei tuvastata, aegub protsess ja kaameranupp muutub uuesti kättesaadavaks. Seejärel saate proovida vöötkoodi uuesti skannida.
 

@@ -3,7 +3,7 @@ title: Varaloendurite käsitsi värskendamine
 description: Selles teemas kirjeldatakse varaloendurite käsitsi värskendust varahalduses.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,51 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7c5ec288404c18b00f9dcd0e66f50744d0aa2f
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 3072ab204b53b16988d2973b28a697041cb84c27
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875611"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626128"
 ---
 # <a name="manual-update-of-asset-counters"></a>Varaloendurite käsitsi värskendamine
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Loendureid kasutatakse vara registreeringute loomiseks näiteks seoses töös olnud tundide või toodetud koguste arvuga.
+Loendureid kasutatakse vara registreeringute loomiseks, nt registreeringud tundide arvu kohta, mille jooksul vara oli töös või toodetud koguse kohta.
 
-Kui loendurile valitud loenduri tüüp on määratud loenduri väärtusi pärima (**Varahaldus** > **Seadistus** > **Vara tüübid** > **Loendurid** > **Üldine** kiirkaart > tumblernupp **Päri vara loenduri väärtused** määratud väärtusele "Jah"), siis värskendatakse automaatselt iga sama loenduri tüüpi kasutav alamvara, kui loote uue sama tüüpi loenduri rea.
+Loenduri jaoks valitud loenduri tüüp võib olla seatud loenduri väärtusi pärima. Teiste sõnadega on valiku **Päri vara loenduri väärtused** seatud väärtusele **Jah** lehe **Loendurid** (**Varahaldus** > **Seadistus** > **Varatüübid** > **Loendurid**) kiirkaardil **Üldine**. Sel juhul, kui loote uue seda tüüpi loenduri, uuendatakse iga alamvara, mis kasutab sama loenduri tüüpi, automaatselt.
 
-Jaotises **Kõik varad** loote varale tundide või koguse loenduri registreeringud vara näitude põhjal.
+Lehel **Kõik varad** saate luua varale tundide või koguse loenduri registreeringud vara näitude põhjal.
 
-1. Klõpsake **Varahaldus** > **Üldine** > **Varad** > **Kõik varad**.
+1. Valige **Varahaldus** > **Ühised** > **Varad** > **Kõik varad**.
 
-2. Valige loendist vara ja klõpsake valikul **Loendurid**. Vormil **Vara loendurid** näete loendit kõigist valitud vara eelmistest loenduri registreeringust.
+2. Valige vara ja seejärel tehke vahekaardi **Vara** jaotise **Ennetav** tegumiribal valik **Loendurid**. Lehel **Vara loendurid** kuvatakse loend kõigist valitud vara eelmistest loenduri registreeringust.
 
-3. Uue registreeringu loomiseks klõpsake **Uus**. Vara ID sisestatakse automaatselt.
+3. Valige uue registreeringu loomiseks **Uus**. Vara ID sisestatakse automaatselt väljale **Vara**.
 
-4. Valige asjakohane loendur väljal **Loendur**. Saadaval on ainult varale valitud vara tüübiga seotud loendurid. Seotud ühik sisestatakse automaatselt väljale **Ühik**.
+4. Valige asjakohane loendur väljal **Loendur**. Valimiseks on saadaval ainult varale valitud vara tüübiga seotud loendurid. Seotud ühik sisestatakse automaatselt väljale **Ühik**.
 
-5. Valige loenduri registreeringuks kuupäev ja kellaaeg.
+5. Valige väljal **Registreeritud** loenduri registreeringu kuupäev ja kellaaeg.
 
-6. Sisestage väljale **Väärtus** arv alates viimasest loenduri registreeringust või sisestage loenduri koguarv väljale **Koondväärtus**.
+6. Sisestage väljale **Väärtus** arv eelmisest loenduri registreeringust. Teise võimalusena sisestage väljale **Koondväärtus** loenduri koguarv.
 
-- Kui paigaldate füüsiliselt varale uue loenduri, peate registreerima vara muudatuse jaotises **Vara loendurid**. Järgmisena peate looma kaks registreeringu rida identsete ajatemplitega ja uue loenduriga seotud reale valite märkeruudu **Loenduri lähtestamine**. Kahe registreeringurea loomisel peab esimene rida olema asendatavale loendurile. Väljal **Kogusummad** on loenduri koguarvuks kõigi selle loenduritüübi registreeritud väärtuste loenduri kogusumma.  
-- Kui varale on valitud märkeruut **Loenduri lähtestamine** kasutades hoolduskava invervallitüübiga "Üks kord alates..." või "Üks kord ületades...", on loendur uuel loenduri real ikka aktiivne, sest loote eraldi loenduri rea ja alustate uue loenduriga algusest peale.
+Pidage meeles järgmiseid punkte.
+
+- Kui paigaldate füüsiliselt varale uue loenduri, peate registreerima vara muudatuse lehel **Vara loendurid**. Järgmisena peate looma kaks identsete ajatemplitega registreeringurida. Esimene rida peab olema loenduri jaoks, mille asendate. Uue loenduriga seotud real märkige ruut **Loenduri lähtestamine**. Väljal **Kogusummad** on loenduri koguarvuks kõigi selle loenduritüübi registreeritud väärtuste loenduri kogusumma.
+
+- Kui varale on valitud märkeruut **Loenduri lähtestamine** kasutades hoolduskava intervallitüübiga "Üks kord alates..." või "Üks kord ületades...", on loendur uuel loenduri real ikka aktiivne, sest loote eraldi loenduri rea ja alustate uue loenduriga algusest peale.
+
+Alloleval joonisel on esitatud lehe **Varaloendurid** näide.
 
 ![Joonis 1](media/11-work-orders.png)
 
-
-Kui peate tegema loenduri registreeringuid mitmele varale, saab seda teha jaotises **Varahaldus** > **Päringud** > **Varad** > **Vara loendurid**.
+Lehel **Varaloendurid** (**Varahaldus** > **Päringud** > **Varad** > **Varaloendurid**), saate vajadusel korraga teha mitme vara loenduri registreeringuid.
 
 >[!NOTE]
->Võite seadistada vahemiku kõrvalekallete määraltemiseks käsitsi loenduri registreeringutele ja selle, millist sõnumit kuvatakse, kui registreering on määratud vahemikust väljaspool. Loendurite seadistamise kohta vaadake teemat [Loendurid](../setup-for-objects/counters.md).
+>Saate seadistada vahemiku, et määratleda hälbed käsitsi loenduri registreeringutes. Samuti saate määrata teate tüübi, mis kuvatakse, kui registreeringud jäävad väljapoole määratletud vahemikku. Teavet loendurite häälestamise kohta leiate jaotisest [Loendurid](../setup-for-objects/counters.md).
+

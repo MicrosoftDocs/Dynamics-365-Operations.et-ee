@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 29f9975d8270b3f79d0aac0c62609b4a9c71ae89
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 322e3ac6f7c37fffdd4d59ed86bccec10559f4b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874620"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569773"
 ---
 # <a name="work-order-project-setup"></a>Töökäsu projekti seadistus
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 **Varahalduse** moodulis on projekti seos nõutav iga töökäsu töö puhul. Töökäsu tööga seotud projekt võimaldab teil jälgida kulusid erinevate varahaldusega seotud projektidele, nagu näiteks sisemiste hooldustööde projektid, teenusehalduse projektid ja investeerimisprojektid. 
 
@@ -72,7 +72,7 @@ Seadistus võimaldab täielikku integreerumist mooduliga **Projektihaldus ja raa
 
     Vaikimisi on alguskuupäevaks seadistatud kuupäev, mil lisate lehele töökäsu projekti. Seda kontrollib väli **Kehtiv alates**, mis on vaikimisi peidetud. Välja **Kehtiv alates** kuvamiseks valige **Kuva** \> **Kõik**. Seejärel saate välja **Kehtiv alates** kasutada koos väljaga **Lõppkuupäev**, et seadistada töökäsu projektile piiratud kehtivusaeg.
 
-    ![Joonis 1](media/17-setup-for-work-orders.png)
+    ![Töökäskude projekti seadistuse leht](media/17-setup-for-work-orders.png)
 
 6. Valige lehel **Põhiprojekt** valik **Lisa**.
 7. Väljal **Töökäsu tüüp** valige töökäsu tüüp.
@@ -80,7 +80,7 @@ Seadistus võimaldab täielikku integreerumist mooduliga **Projektihaldus ja raa
 9. Valige väljal **Projektigrupp** projektigrupp, mis peaks olema seotud töökäsu tüübiga. Näiteks töökäsu tüüp, mille nimi on **Ennetav hooldus**, võib olla seotud projektigrupiga nimega **Eelmine hooldus** või **Sisemine**. Teise võimalusena võidakse töökäsu tüüpi **Investeering**, mida kasutatakse investeeringute ja põhivaraga seotud töökäskude puhul, seostada projektigrupi nimega **Invest** või **Investeering**.
 10. Valige käsk **Salvesta**.
 
-![Joonis 2](media/18-setup-for-work-orders.png)
+![Töökäskude projekti seadistuse leht, töökäsu lisamine](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Iga kord, kui luuakse töökäsu rida, otsib varahaldus projektigrupi, mis peaks olema seotud töökäsu tööprojektiga. Otsing põhineb selles teemas kirjeldatud seadistusel. Igal projektigrupil on seotud projektitüüp. Projektigrupid, millel on projektitüüp **Aja- ja materjalikulu** või **Fikseeritud hind**, kehtivad ainult kliendi kontoga seotud varade puhul.

@@ -3,7 +3,7 @@ title: Käsitsi loodud töökäsud
 description: Selles teemas tutvustatakse, kuidas luua varahalduses käsitsi töökäske.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,131 +16,153 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 261448a134a7c1aacfbb4ea6f954ce03a63c23e2
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875608"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626243"
 ---
 # <a name="manually-created-work-orders"></a>Käsitsi loodud töökäsud
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
-
 
 Töökäskude käsitsi loomiseks on kaks võimalust:
 
-- jaotistes **Kõik töökäsud** või **Aktiivsed töökäsud**  
-- jaotises **Kõik hooldusnõuded** või **Aktiivsed hooldusnõuded** või **Minu töö asukoha hooldusnõuded**  
+- Lehel **Kõik töökäsud** või **Aktiivsed töökäsud** 
+- Lehel **Kõik hooldusnõuded** või **Aktiivsed hooldusnõuded** või **Minu töö asukoha hooldusnõuded** 
 
 ## <a name="create-work-order"></a>Töökäsu loomine
 
-1. Klõpsake **Varahaldus** > **Tavaline** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
+1. Valige **Varahaldus** > **Ühine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
 
-2. Klõpsake nuppu **Uus**.
+2. Valige suvand **Uus**.
 
-3. Valige ripploendist **Töökäsu loomine** töökäsu tüüp.
+3. Valige töökäsu tüüp dialoogi **Töökäsu loomine** väljal **Töökäsu tüüp**.
 
-4. Vajadusel valige kirjeldus.
+4. Vajadusel valige **Kirjeldus**.
 
-5. Valige töökäsule vara ja ka hooldustöö tüüp.
+5. Valige vara väljal **Vara**.
 
 >[!NOTE]
->Kuil valite vara, võib saadaval olla kolm vahekaarti. Vahekaart **Minu varad** sisaldab töö asukohtaga seotud varasid, millele teie (süsteemi sisseloginud töötaja) võite olla määratud (seadistatud jaotises [Hooldustöötajad ja töötajate rühmad](../setup-for-objects/workers-and-worker-groups.md)). Kui töötajale ei ole jaotises [Hooldustöötajad ja töötajate rühmad](../setup-for-objects/workers-and-worker-groups.md) töö asukohti seadistatud, siis vahekaarti **Minu varad** ei kuvata. Vahekaart **Aktiivsed varad** sisaldab kõigi varade loendit, mille vara töötsükli olek on „Aktiivne”. Vahekaardil **Varade vaade** kuvatakse töö asukohtade puuvaade ja nendesse asukohtadesse paigaldatud varad.
+>Kui valite vara, võivad rippmenüüs **Vara** saadaval olla kolm vahekaarti. 
 
-6. Vajadusel valige **Hooldustöö  tüübi variant** ja **Vaheta**.
+- **Aktiivsed varad** – see vahekaart sisaldab kõigi varade loendit, mille vara töötsükli olek on „Aktiivne”. 
+- **Varade vaade** – sellel vahekaardil kuvatakse töö asukohtade puuvaade ja neisse paigaldatud varad.
+- **Minu varad** – see vahekaart sisaldab varasid, mis on seotud töö asukohtadega, mida teile (töötajale, kes on süsteemi sisse loginud) võidakse eraldada. (Lisateavet seadistuse kohta vt teemast [Hooldustöötajad ja töötajate grupid](../setup-for-objects/workers-and-worker-groups.md).) Kui töötajale pole töö asukohti seadistatud valikus [Hooldustöötajad ja töötajate grupid](../setup-for-objects/workers-and-worker-groups.md), pole vahekart **Minu varad** saadaval. 
 
-7. Vajadusel saate väljal **Teenindustase** töökäsu teenindustaset muuta.
+6. Valige väljal **Hooldustöö tüüp** töökäsu jaoks hooldustöö töö tüüp.
 
-8. Valige vastavatele väljadele oodatavad algus- ja lõppkuupäevad.
+7. Vajadusel valige **Hooldustöö  tüübi variant** ja **Vaheta**.
 
-9. Uue töökäsu loomiseks klõpsake **OK**.
+8. Vajadusel saate väljal **Teenindustase** töökäsu teenindustaset muuta.
 
-10. Vajadusel redigeerige töökäsku jaotises **Kõik töökäsud**.
+9. Valige seotud väljadel **Eeldatud alguskuupäev** ja **Eeldatav lõppkuupäev**.
 
-- Jaotises **Kõik töökäsud** saate töökäsule üksikasjade vaates lisada mitmeid varasid, lisades ridu kiirkaardile **Töökäsu hooldustööd**. Vara juures saate valida ainult neid hooldustööde tüüpe, mis on määratletud varale valitud vara tüübi juures.  
-- Kui olete muutnud vara teenindustaset või vara pärast nende töökäsu juures kasutamist kriitiliselt (vt [Vara teenindustasemed](../setup-for-objects/object-priorities.md) ja [Vara kriitilisused](../setup-for-objects/object-criticalities.md)), ei värskendata vastavalt teenindustaset ega töökäsu kriitilisust.
-- Töökäsu kriitilisust arvutatakse uuesti iga kord, kui töökäsule lisatakse või sealt kustutatakse töökäsu rida.
-- Jaotise **Kõik töökäsud** üksikasjade vaates > vaates **Päis** > kiirkaardil **Ajakava** saate valida vastutava hooldustöötajate rühma või vastutava hooldustöötaja väljadel **Vastutav rühm** või **Vastutav**. Neid sätteid saab muuta seni, kuni töökäsk on aktiivne, näiteks siis kui töökäsu töötsükli olek muutub. Töökäsu loomisel tehtud automaatne valik põhineb jaotise **Vastutavad hooldustöötajad** seadistusel. Kui lisate või eemaldate töökäsu töid pärast töökäsu loomist ja väljad **Vastutav rühm** ja **Vastutav** on töökäsu värskendamise ajal tühjad, otsib varahaldus seadistuse vormil võimalikku vastet vastutavale hooldustöötajate rühmale või vastutavale hooldustöötajale. Kui väli **Vastutav rühm** või väli **Vastutav** on töökäsu värskendamisel juba täidetud, siis muudatusi ei tehta. 
+10. Töökäsu loomiseks klõpsake **OK**.
 
-- Jaotises **Hoolduse olek** saate teha arvutusi, et saada ülevaade sissetulevate ja lõpetatud töökäskude töökoormusest.  
+11. Loendilehel **Kõik töökäsud** saate vajadusel töökäsku redigeerida.
 
-- Kasutage kiirkaardil **Rea üksikasjad** välju **Laiuskraad** ja **Pikkuskraad**, et lisada töökäsu tööl valitud varale geograafilised koordinaadid.  
+Pidage meeles järgmiseid punkte.
+
+- Loendilehe **Kõik töökäsud** üksikasjalikus vaates saatetöökäsule lisada mitu vara, kui lisate read kiirkaardile **Töökäsu hooldustööd**. Vara juures saate valida ainult neid hooldustööde tüüpe, mis on määratletud varale valitud vara tüübi juures.  
+
+- Kui muudate pärast töökäsu vara kasutamist vara teenusetaset või vara kriitilisust, ei värskendata selle töökäsu teenusetaset või kriitilisust vastavalt. Lisateavet teenusetasemete ja kriitilisuse kohta vt teemast [Vara teenusetasemed](../setup-for-objects/object-priorities.md) ja [Vara kriitilisus](../setup-for-objects/object-criticalities.md).
+
+- Töökäsu kriitilisus arvutatakse ümber iga kord, kui töökäsu rida lisatakse või kustutatakse töökäsult.
+
+- Üksikasjalik vaate **Kõik töökäsud** > vahekaardi **Päis** > kiirkaardi **Graafik** jaotises **Vastutav rühm** või väljal **Vastutav**, saate valida vastutava hooldustöötajate rühma või vastutava hooldustöötaja. Neid sätteid saab muuta, kui töökäsk on aktiivne. Näiteks saab neid muuta, kui töökäsu töötsükli olek muutub. Töökäsu loomisel tehtud automaatne valik põhineb lehe **Vastutavad hooldustöötajad** seadistusel. Kui lisate või eemaldate töökäsu töid pärast töökäsu loomist ja väljad **Vastutav rühm** ja **Vastutav** on töökäsu värskendamise ajal tühjad, proovib varahaldus otsida vastutava hooldustöötajate rühma või vastutavat töötaja võimalikku vastet seadistuse lehel. Kui väli **Vastutav rühm** või **Vastutav** on töökäsu värskendamisel juba seadistatud, siis muudatusi ei tehta. Lisateavet vastutavate hooldustöötajate ja töötajate rühma kohta vt teemast [Vastutavad hooldustöötajad](../setup-for-maintenance-requests/responsible-workers.md).
+
+- Lehel [Hoolduse olek](../controlling-and-reporting/maintenance-status.md) saate teha arvutusi, et saada ülevaade sissetulevate ja lõpetatud töökäskude töökoormusest.  
+
+- Lehe **Kõik töökäsud** üksikasjaliku vaate kiirkaardil **Rea üksikasjad** saate töökäsu töös valitud vara geograafiliste koordinaatide lisamiseks kasutada välju **Laiuskraad** ja **Pikkuskraad**.  
+
 
 ## <a name="create-related-work-order"></a>Loo seotud töökäsk
 
-Võite luua seotud töökäsu olemasolevale töökäsule, kui näiteks soovite töötada peamise ja sekundaarsete töökäskudega. Uus töökäsk põhineb olemasolevast töökäsust pärit töökäsu tööl.
+Saate luua töökäsu, mis on seotud olemasoleva töökäsuga. Funktsioon on kasulik näiteks esmaste ja teisejärguliste töökäskudega töötamise puhul. Uus töökäsk põhineb olemasolevast töökäsust pärit töökäsu tööl.
 
-1. Klõpsake **Varahaldus** > **Tavaline** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
+1. Valige **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
 
-2. Valige töökäsk, millele soovite teha seotud töökäsku.
+2. Looge töökäsk, millel luua seotud töökäsk.
 
-3. Klõpsake suvandil **Seotud töökäsk**.
+3. Tehke tegumiriba vahekaardi **Töökäsk** jaotises **Uus** valik **Seotud töökäsk**.
 
-4. Valige rippdialoogis **Loo seotud töökäsk** see töökäsu töö väljal **Töökäsu töö**, millele soovite seotud töökäsku luua.
+4. Valige dialoogi **Seotud töökäsu loomine** väljal **Töökäsu töö** töökäsu töö, millele luua seotud töökäsk.
 
-5. Valige hooldustöö tüüp väljal **Hooldustöö tüüp** ja vajadusel seotud hooldustöö  tüübi variant ning vahetage väljadel **Hooldustöö  tüübi variant** ja **Vaheta**.
+5. Väljal **Hooldustöö tüüp** valige hooldustöö tüüp.
 
-6. Kui see on esimene seotud töökäsk, mille teete, klõpsake raadionuppu **Uus töökäsk**.
+6. Vajadusel valige seotud hooldustöö tüübi variant ja vahetus väljadel **Hooldustöö tüübi variant** ja **Vahetus**.
 
-7. Valige vastavatel väljadel **Töökäsu tüüp** ja **Kirjeldus**.
+7. Kui see töökäsk on esimene seotud töökäsk, mis on valitud töökäsu jaoks loodud, toimige järgmiselt.
+    1. Tehke valik **Uus töökäsk**.
+    2. Valige töökäsu tüüpväljal **Töökäsu tüüp**.
+    3. Sisestage kirjeldus väljale **Kirjeldus**.
+    4. Vajadusel muutke töökäsu teenusetaset väljal **Teenusetase**.
+    5. Valige algus-ja lõppkuupäevad väljal **Eeldatav algus** ja **Eeldatav lõpp** .
+    6. Valige nupp **OK**. Uus seotud töökäsk kuvatakse loendilehel **Kõik töökäsud**.  
 
-8. Vajadusel muutke väljal **Teenindustase** töökäsu teenindustaset.
+8. Kui töökäsul, millele loote seotud töökäsu, on seotud töökäsud juba olemas, järgige uue töökäsu töö lisamiseks olemasolevale seotud töökäsule järgmisi juhiseid.
+    1. Valige **Lisa seotud töökäsule**.
+    2. Valige väljal **Töökäsk** seotud töökäsk, millel lisada uus töökäsk.
+    3. Vajadusel muutke töökäsu teenusetaset väljal **Teenusetase**.
+    4. Vajadusel muutke eeldatavad algus- ja lõppkuupäevad väljadel **Eeldatav algus** ja **Eeldatav lõpp**.
+    5. Valige nupp **OK**. Töökäsu töö lisatakse olemasolevale seotud töökäsule.
 
-9. Sisestage vastavatele väljadele oodatavad algus- ja lõppkuupäevad.
-
-10. Klõpsake valikut **OK**. Uut seotud töökäsku kuvatakse loendis **Kõik töökäsud**.
-
-11. Kui loote seotud töökäsu töökäsule, millel juba on seotud töökäske, võite lisada töökäsu töö juba soetud töökäsule. Selleks klõpsake etapis 6 raadionuppu **Lisa seotud töökäsk**. Seejärel valite seotud töökäsu, millele soovite lisada uut töökäsu tööd. Redigeerige vajadusel välju **Teenindustase**, **Oodatav algus** ja **Oodatav lõpp** ning klõpsake **OK**. Töökäsu töö lisatakse olemasolevale seotud töökäsule.
-
+Alloleval joonisel kuvatakse dialoogi **Seotud töökäsu loomine** näide.
 
 ![Joonis 1](media/03-work-orders.png)
 
-**Märkus:** kui olete seadistanud seotud töökäsu maski jaotise **Varahalduse parameetrid** > **Töökäsud** lingi > väljal **Seotud töökäsu mask**, luuakse töökäsu ID-d vastavalt maski seadistusele. Kui seotud töökäsu maski ei ole seadistatud, kasutatakse seotud töökäskudele järgmist saadaolevat töökäsu ID-d.
+>[!NOTE]
+>Kui olete seadistanud seotud töökäsu maski vahekaardi **Varahalduse parameetrid** > **Töökäsud** > väljal **Seotud töökäsu mask**, luuakse töökäsu ID-d vastavalt maski seadistusele. Kui seotud töökäsu maski ei ole seadistatud, kasutatakse seotud töökäskudele järgmist saadaolevat töökäsu ID-d.
 
-## <a name="copy-work-order"></a>Töökäsu kopeerimine
+## <a name="copy-a-work-order"></a>Töökäsu kopeerimine
 
-Võimalik on luua olemasolevast töökäsust kiiresti uus töökäsk. Selline töökäskudega töötamine erineb hoolduskavade põhjal töökäskude loomisest. See on kasulik näiteks siis, kui teil on töökäsk, mis sisaldab palju töökäsu töid mitmete erinevate varade töödega, mis tuleksid teostada regulaarsete intervallidega.
+Saate olemasolevast töökäsust kiiresti luua uue töökäsu. Sel viisil töökäskudega töötamine erineb töökäskude loomisest [hooldusgraafikute](../preventive-and-reactive-maintenance/maintenance-plans.md) põhjal. See on kasulik näiteks siis, kui töökäsk sisaldab mitut töökäsu tööd ja erinevate varade mitmed tööd tuleb lõpule viia regulaarsete intervallidega.
 
-1. Klõpsake **Varahaldus** > **Tavaline** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
+1. Valige **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
 
 2. Valige töökäsk, mille sisu soovite kopeerida.
 
-3. Klõpsake suvandil **Kopeeri töökäsk**. Kuvatakse valitud töökäsu seadistust valitud töökäsust. Vajadusel saate mõnda nendest väljadest redigeerida.
+3. Tehke tegumiribal > vahekaardi **Töökäsk** > jaotises **Uus** valik **Kopeeri töökäsk**.
 
-4. Uue töökäsu loomiseks klõpsake **OK**.
+4. Kuvatakse valitud töökäsu seadistust valitud töökäsust. Vajadusel saate mõnda nendest väljadest redigeerida.
 
-5. Vajadusel redigeerige töökäsku jaotises **Kõik töökäsud**.
+5. Uue töökäsu loomiseks valige **OK**.
+
+6. Loendilehel **Kõik töökäsud** saate vajadusel töökäsku redigeerida.
 
 >[!NOTE]
->Kui töökäsk on loodud, kopeeritakse osad andmed otse olemasolevast töökäsust. Prognooside, tööriistade, hoolduse kontrollnimekirjade, töö asukohtade, aadresside ja ajastamise infot ei kopeerita, vaid lähtestatakse kehtivast varahalduse seadistusest. See tähendab, et kui ajavahemikult esimese töökäsu loomisest kuni töökäsu koopia tegemiseni tehti aeg-ajalt nendes andmetes muudatusi, sisalduvad need muudatused uues loodud töökäsus. Näited prognoosi muudatustest või värskendatud hoolduse kontrollnimekirjast.
+>Kui töökäsk on loodud, kopeeritakse osad andmed otse olemasolevast töökäsust. Teavet prognooside, tööriistade, hoolduse kontrollnimekirjade, töö asukoha, aadresside ja ajastamise kohta ei kopeerita. Selle asemel lähtestatakse see varahalduse praegusest seadistusest. Seega, kui seda teavet muudeti esimese töökäsu loomise ja töökäsu koopia tegemise aja vahel, kaasatakse muudatused uude töökäsku. Näitena võib tuua prognooside muudatused ja hoolduse kontrollnimekirjade värskendused.
 
+Alloleval joonisel kuvatakse dialoogi **Töökäsu kopeerimine** näide.
 
 ![Joonis 2](media/04-work-orders.png)
 
 
-## <a name="create-work-order-based-on-a-maintenance-request"></a>Töökäsu loomine hooldusnõude põhjal
+## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Töökäsu loomine hooldusnõude põhjal
 
-1. Klõpsake **Varahaldus** > **Üldine** > **Hooldusnõuded** > **Kõik hooldusnõuded** või **Aktiivsed hooldusnõuded**.
+1. Valige **Varahaldus** > **Ühine** > **Hooldusnõuded** > **Kõik hooldusnõuded** või **Aktiivsed hooldusnõuded**.
 
 2. Valige hooldusnõuded, millele soovite luua töökäsu, ning klõpsake **Redigeeri**.
 
-3. Klõpsake jaotises **Kõik nõuded** valikut **Töökäsk**.
+3. Tehke tegumiriba > vahekaardi **Hooldusnõue** > jaotises **Uus** valik **Töökäsk**.
 
-4. Täitke ripploend **Töökäsk**. Kui hooldusnõudes on valitud hooldustöö tüüp, saate valida vajadusel teise hooldustöö tüübi, kui loote töökäsu.
+4. Seadistage väljad dialoogis **Töökäsk**. Kui hooldusnõudes on valitud hooldustöö tüüp, saate valida vajadusel teise hooldustöö tüübi, kui loote töökäsu.
 
-5. Klõpsake valikut **OK**. Näete teadet, mis teavitab teid, et töökäsk on loodud.
+5. Valige nupp **OK**. Teates teavitatakse teid töökäsu loomisest.
 
-6. Kui soovite näha millised töökäsud on hooldusnõudega ühendatud, valige hooldusnõue loendist **Kõik hooldustaotlused** või **Aktiivsed hooldustaotlused** ning klõpsake nupul **Töökäsud**.
+6. Et vaadata, millised töökäsud on hooldusnõudega ühendatud, valige hooldusnõue loendilehel **Kõik hooldusnõuded** või **Aktiivsed hooldusnõuded**. Seejärel tehke vahekaardi **Hooldusnõue** jaotise **Kuva** tegumiribal valik **Töökäsud**.
 
+
+Allolevalt joonisel kuvatakse dialoogis **Töökäsu loomine** näide.
 
 ![Joonis 3](media/05-work-orders.png)
 
 
 >[!NOTE]
->Töökäske saab ka automaatselt luua ajastades hoolduskava töid või seadistades varale "Automaatselt loodavaid" hoolduskavasid või hoolduskordi. Hooldusnõuetest loodud töökäsud jaotises **Hooldusgraafik** luuakse nii, et hooldusnõuetest on valitud hooldustöö tüübid.
+>Kui soovite, et töökäsud loodaks automaatselt, saate vara hoolduskava töid ajastada või seadistada [hoolduskavade](../preventive-and-reactive-maintenance/maintenance-plans.md) või [hoolduskordade](../preventive-and-reactive-maintenance/maintenance-rounds.md) automaatse loomise. Hooldusnõuetest loodud töökäskudel on loendilehel **Kogu hooldusgraafik** hooldustööde tüübid, mis on hooldusnõuetes valitud.
 
