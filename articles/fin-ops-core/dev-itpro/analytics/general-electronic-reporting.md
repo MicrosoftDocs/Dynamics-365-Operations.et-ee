@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ce7b5418ab9e1a9abd6c3206c74c5a1cf739a3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181883"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578237"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroonilise aruandluse (ER) ülevaade
 
@@ -71,9 +71,8 @@ Väljaminevaid elektroonilisi dokumente toetaval mudelivastendusel on järgmised
 
 - See võib kasutada andmemudeli andmeallikatena erinevaid andmetüüpe. Näiteks võib see kasutada tabeleid, andmeüksus, meetodeid või loetelusid.
 - See toetab kasutaja sisendparameetreid, mida saab määratleda andmemudeli andmeallikatena, kui mõningad andmed on vaja määratleda käitusajal.
-- See toetab andmete teisendamist vajalikesse gruppidesse. Samuti võimaldab see filtreerida, sortida ja summeerida andmeid ning lisada loogilisi arvutatud välju, mis on kavandatud Microsoft Exceli valemitele sarnanevate valemite kaudu, nagu on näidatud järgmisel illustratsioonil. Lisateavet leiate jaotisest [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)).
+- See toetab andmete teisendamist vajalikesse gruppidesse. Samuti võimaldab see filtreerida, sortida ja summeerida andmeid ning lisada loogilisi arvutatud välju, mis on kavandatud Microsoft Exceli valemitele sarnanevate valemite kaudu. Lisateavet leiate jaotisest [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)).
 
-[![Valemikoostaja](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 Sissetulevaid elektroonilisi dokumente toetaval mudelivastendusel on järgmised võimalused.
 
@@ -196,9 +195,7 @@ Vajalikke hoidlaid **LCS-i projekt**, **Failisüsteem** ja **Regulatiivsed konfi
 ## <a name="supported-scenarios"></a>Toetatud stsenaariumid
 ### <a name="building-a-data-model"></a>Andmemudeli loomine
 
-ER pakub mudelikoosturit, mida saab kasutada konkreetsele äridomeenile andmemudeli koostamiseks. Kõiki domeenipõhiseid äriüksusi ja nendevahelisi suhteid saab esitleda andmemudelis hierarhilise struktuurina. Järgmisel joonisel on näide seda tüüpi andmemudeli (maksedomeeni andmemudeli) kohta.
-
-[![Maksedomeeni andmemudel](./media/ER-overview-04.png)](./media/ER-overview-04.png)
+ER pakub mudelikoosturit, mida saab kasutada konkreetsele äridomeenile andmemudeli koostamiseks. Kõiki domeenipõhiseid äriüksusi ja nendevahelisi suhteid saab esitleda andmemudelis hierarhilise struktuurina. 
 
 Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruandluse domeenipõhise andmemudeli kujundamine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
@@ -209,24 +206,14 @@ Andmemudeli sisu (sildid ja kirjeldused) saab tõlkida teistesse keeltesse, mida
 - selleks, et muuta see koostamisel arusaadavamaks teisi keeli rääkivatele vormingu koostajatele, kes kasutavad vormingukomponentide andmevastenduseks andmemudelit;
 - et muuta sisu käitusajal kasutajasõbralikumaks, esitades viibad ja käitamisparameetrite spikri ning konfigureeritud kinnitusteated (tõrked ja hoiatused) sisselogitud kasutaja eelistatud keeles.
 
-Järgmisel joonisel on näide, milles andmemudeli sisu on tõlgitud inglise keelest jaapani keelde.
-
-[![Andmemudeli sisu inglise keeles](./media/ER-overview-05.png)](./media/ER-overview-05.png)
-
-[![Jaapani keelde tõlgitud andmemudeli sisu](./media/ER-overview-06.png)](./media/ER-overview-06.png)
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Andmemudeli vastenduste konfigureerimine väljaminevate dokumentide puhul
 
-ER pakub mudelivastenduse koosturit, mis võimaldab kasutajatel vastendada koostatud andmemudeleid konkreetsete rakenduse andmeallikatega. Vastenduse põhjal imporditakse andmed käitusajal valitud andmeallikatest andmemudelisse. Seejärel kasutatakse andmemudelit väljaminevaid elektroonilisi dokumente loovate ER-vormingute abstraktse andmeallikana. Järgmisel illustratsioonil on sellise andmemudeli vastendamise näidis (**SEPA kreeditiülekande** mudeli vastendus maksedomeeni andmemudeliga).
-
-[![Andmemudeli vastenduse näide](./media/ER-overview-07.png)](./media/ER-overview-07.png)
+ER pakub mudelivastenduse koosturit, mis võimaldab kasutajatel vastendada koostatud andmemudeleid konkreetsete rakenduse andmeallikatega. Vastenduse põhjal imporditakse andmed käitusajal valitud andmeallikatest andmemudelisse. Seejärel kasutatakse andmemudelit väljaminevaid elektroonilisi dokumente loovate ER-vormingute abstraktse andmeallikana. 
 
 Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhised **Elektroonilise aruandluse mudeli vastenduse määratlemine ja andmeallikate valimine** ja **Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatega** (osa äriprotsessist **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)**).
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Andmemudeli vastenduste konfigureerimine sissetulevate dokumentide puhul
-ER pakub mudelivastenduse koosturit, mis võimaldab kasutajatel vastendada koostatud andmemudeleid konkreetsete sihtüksustega. Näiteks saab andmemudeleid vastendada värskendatavate andmekomponentidega (tabelid, andmeüksused ja vaated). Vastenduse põhjal värskendatakse käitusajal andmeid, kasutades andmemudeli andmeid. ER-i vormingu abstraktse salvestusruumina on andmemudel täidetud sissetulevast elektroonilisest dokumendist imporditud andmetega. Järgmisel joonisel on näide seda tüüpi andmemudeli vastenduse kohta. Selles näites kasutatakse maksedomeeni andmemudeli mudelivastendust **NETS-i impordivastendus** Norra NETS-i vormingus pangaväljavõtete importimise toetamiseks.
-
-[![Impordivastendus NETS-i andmemudeli näite puhul](./media/ER-overview-08.png)](./media/ER-overview-08.png)
+ER pakub mudelivastenduse koosturit, mis võimaldab kasutajatel vastendada koostatud andmemudeleid konkreetsete sihtüksustega. Näiteks saab andmemudeleid vastendada värskendatavate andmekomponentidega (tabelid, andmeüksused ja vaated). Vastenduse põhjal värskendatakse käitusajal andmeid, kasutades andmemudeli andmeid. ER-i vormingu abstraktse salvestusruumina on andmemudel täidetud sissetulevast elektroonilisest dokumendist imporditud andmetega. 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Koostatud mudelikomponendi salvestamine mudelikonfiguratsioonina
 
@@ -236,24 +223,18 @@ Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroo
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Andmemudelit alusena kasutava vormingu koostamine
 
-ER toetab vormingukoosturit, mida võite kasutada valitud äridomeenile elektroonilise dokumendi vormingu koostamiseks, valides aluseks mudelikomponendi. Sama ER-i vormingukoostur võimaldab teil vastendada vormingu, mille loote, valitud domeeni andmemudeli vastendusega andmeallikana. Järgmisel illustratsioonil on seda tüüpi vormingu näide (vormingukonfiguratsioon, mis toetab Ühendkuningriigi maksevormingut **BACS**).
-
-[![Vormingu näide, mille alus on andmemudel](./media/ER-overview-09.png)](./media/ER-overview-09.png)
+ER toetab vormingukoosturit, mida võite kasutada valitud äridomeenile elektroonilise dokumendi vormingu koostamiseks, valides aluseks mudelikomponendi. Sama ER-i vormingukoostur võimaldab teil vastendada vormingu, mille loote, valitud domeeni andmemudeli vastendusega andmeallikana. 
 
 Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilise aruandluse domeenipõhise vormingu kujundamine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>Konfiguratsiooni koostamine elektrooniliste dokumentide loomiseks töölehevormingus OPENXML
 
-Elektroonilise dokumendi koostamiseks töölehevormingus OPENXML saab kasutada ER-i vormingukoosturit. Järgmisel illustratsioonil on sellist tüüpi vormingu näide (vormingukonfiguratsioon OPENXML-töölehe loomiseks valitud maksetöölehe andmetega).
-
-[![Pic-ER-format-Excel](./media/ER-overview-10.png)](./media/ER-overview-10.png)
+Elektroonilise dokumendi koostamiseks töölehevormingus OPENXML saab kasutada ER-i vormingukoosturit. 
 
 Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **ER-i konfiguratsiooni loomine aruannete loomiseks vormingus OPENXML** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa). Malli importimise tegevusjuhise toimingu käigus kasutage mallina Exceli faili [Maksearuande mall (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202).
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Konfiguratsiooni koostamine elektrooniliste dokumentide loomiseks Wordi dokumendi vormingus
 Elektroonilise dokumendi koostamiseks Wordi dokumendi vormingus saab kasutada ER-i vormingukoosturit. Järgmisel joonisel on näide seda tüüpi vormingu vastenduse kohta. Pange tähele, et see vorming taaskasutab olemasolevat elektroonilise aruandluse konfiguratsiooni, mis oli algselt mõeldud aruande väljundi loomiseks OPENXML-vormingus.
-
-[![Pic-ER-format-Word](./media/ER-overview-11.png)](./media/ER-overview-11.png)
 
 Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis Elektrooniline aruandlus. Microsoft WORD-i vormingus aruannete loomiseks konfiguratsiooni koostamine (äriprotsessi 7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677) osa). Tegevusjuhise malli importimise toimingu käigus kasutage ER-vormingu mallidena järgmisi Wordi faile.
 
@@ -261,11 +242,7 @@ Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis Elektrooni
 - [Maksearuande piiratud mall (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Konfiguratsiooni koostamine andmete importimiseks sissetulevatest elektroonilistest dokumentidest
-ER-i vormingukoosturi abil saab kirjeldada elektroonilist dokumenti, mis on mõeldud andmete importimiseks XML- või tekstivormingus. Kavandatud vormingut kasutatakse sissetuleva dokumendi sõelumiseks. ER-i vormingu vastendamise koosturi abil saab määratleda kavandatud vormingu elementide sideme andmemudeliga. Järgmistel joonistel on näide seda tüüpi vormingu ja vorminguvastenduse kohta. Selles näites imporditakse NETS-i pangaväljavõtted, mis sisaldavad hankija makseandmeid teksti kujul.
-
-[![ER-format-designer](./media/ER-overview-12.png)](./media/ER-overview-12.png)
-
-[![ER-model-mapping-designer](./media/ER-overview-13.png)](./media/ER-overview-13.png)
+ER-i vormingukoosturi abil saab kirjeldada elektroonilist dokumenti, mis on mõeldud andmete importimiseks XML- või tekstivormingus. Kavandatud vormingut kasutatakse sissetuleva dokumendi sõelumiseks. ER-i vormingu vastendamise koosturi abil saab määratleda kavandatud vormingu elementide sideme andmemudeliga. 
 
 Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist (äriprotsessi 7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677) osa). Kasutage selle juhise esitamiseks järgmisi faile.
 
@@ -280,11 +257,7 @@ ER suudab talletada koostatud vormingu koos konfigureeritud andmete vastendamist
 
 ### <a name="configuring-finance-to-start-to-use-a-created-format-internally"></a>Rahanduse konfigureerimine loodud vormingu ettevõttesiseseks kasutamiseks
 
-Rakendust saab konfigureerida kasutama loodud vormingut elektrooniliste aruanne loomiseks. Viide loodud vormingu konfiguratsioonile tuleb määratleda konkreetse domeeni sätetes. Näiteks selleks, et hakata kasutama ER-i vormingukonfiguratsiooni elektrooniliste hankija maksete jaoks vormingus BACS, tuleb vormingukonfiguratsioonile viidata konkreetsetes makseviisides, nagu on näidatud järgmistel illustratsioonidel.
-
-[![BACS (UK) vormingukonfiguratsioon](./media/ER-overview-14.png)](./media/ER-overview-14.png)
-
-[![Vormingule BACS (UK) viitamine makseviisis](./media/ER-overview-15.png)](./media/ER-overview-15.png)
+Rakendust saab konfigureerida kasutama loodud vormingut elektrooniliste aruanne loomiseks. Viide loodud vormingu konfiguratsioonile tuleb määratleda konkreetse domeeni sätetes. Näiteks selleks, et hakata kasutama ER-i vormingukonfiguratsiooni elektrooniliste hankija maksete jaoks vormingus BACS, tuleb vormingukonfiguratsioonile viidata konkreetsetes makseviisides.
 
 Selle stsenaariumi üksikasjadega tutvumiseks käivitage tegevusjuhis **Elektroonilises aruandluses maksmiseks elektroonilise dokumendi loomiseks vormingu kasutamine** (osa äriprotsessist **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)**).
 

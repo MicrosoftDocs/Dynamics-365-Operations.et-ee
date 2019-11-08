@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 956c866a6b39e2a81f085910e00d2bfe8683829c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177422"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658640"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobiilsed arvete heakskiidud
 
@@ -138,13 +138,19 @@ Arvete kinnitamise mobiiliversioon on erinev, olenevalt nende küsimuste vastust
 
 Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks määratud arvete loend. Selle mobiilse lehe kujundamiseks kasutage lehte **VendMobileInvoiceAssignedToMeListPage**. Enne selle protseduuri läbimist veenduge, et teile oleks ülevaatamiseks määratud vähemalt üks hankija arve ja et arve real oleks kaks jaotust. See seadistus vastab selle stsenaariumi nõuetele.
 
-1.  Asendage URL-is menüüelemendi nimi stringiga **VendMobileInvoiceAssignedToMeListPage**, et avada loendilehe **Mulle määratud ootel hankija arved** mobiiliversioon moodulis **Ostureskontro**. Olenevalt sellest, kui palju arveid on teile teie süsteemis määratud, kuvatakse sellel lehel need arved. Konkreetse arve otsimiseks võib kasutada vasakul olevat filtrit. Kuid selle näite puhul pole meil konkreetset arvet vaja. Meil on lihtsalt vaja, et teile oleks määratud mõni arve, mis võimaldaks teil mobiilset lehte kujundada. Uued saadaolevad lehed on kujundatud spetsiaalselt hankija arve mobiilistsenaariumide väljatöötamiseks. Seega tuleb kasutada neid lehti. URL peab sarnanema järgmisele URL-ile ja kui olete selle sisestanud, peab avanema joonisel näidatud leht: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Mulle määratud ootel hankija arvete leht](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  Asendage URL-is menüüelemendi nimi stringiga **VendMobileInvoiceAssignedToMeListPage**, et avada loendilehe **Mulle määratud ootel hankija arved** mobiiliversioon moodulis **Ostureskontro**. Olenevalt sellest, kui palju arveid on teile teie süsteemis määratud, kuvatakse sellel lehel need arved. Konkreetse arve otsimiseks võib kasutada vasakul olevat filtrit. Kuid selle näite puhul pole meil konkreetset arvet vaja. Meil on lihtsalt vaja, et teile oleks määratud mõni arve, mis võimaldaks teil mobiilset lehte kujundada. Uued saadaolevad lehed on kujundatud spetsiaalselt hankija arve mobiilistsenaariumide väljatöötamiseks. Seega tuleb kasutada neid lehti. URL peab sarnanema järgmisele URL-ile ja kui olete selle sisestanud, peab avanema joonisel näidatud leht: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
+
+    Leht [![Mulle määratud hankija ootel arved](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    
 2.  Klõpsake nuppu **Sätted** (hammasratas) lehe ülemises paremas osas ja seejärel valikut **Mobiilirakendus**
 3.  Valige oma tööruum ja klõpsake nuppu **Redigeeri**
 4.  Klõpsake esimese mobiilse lehe loomiseks nuppu **Lisa leht**.
 5.  Sisestage nimi nagu **Minu hankija arved** ja kirjeldus nagu **Mulle ülevaatamiseks määratud hankija arved**.
 6.  Klõpsake nuppu **Valmis**.
-7.  Klõpsake mobiilse kujundaja vahekaardil **Väljad** nuppu **Vali väljad**. Loendilehe veerud peavad sarnanema järgmisele illustratsioonile. [![Veerud lehel Mulle määratud ootel hankija arved](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+7.  Klõpsake mobiilse kujundaja vahekaardil **Väljad** nuppu **Vali väljad**. Loendilehe veerud peavad sarnanema järgmisele illustratsioonile. 
+
+    [![Veerud lehel Mulle määratud ootel hankija arved](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    
 8.  Lisage vajalikud veerud loendilehelt, mis tuleb mobiililehel kasutajatele kuvada. Väljad kuvatakse lõppkasutajatele lisamise järjekorras. Ainus võimalus väljade järjestust muuta on kõik väljad uuesti valida. Selle stsenaariumi nõuete põhjal on vaja järgmist kaheksat välja. Kuid mõned kasutajad võivad leida, et kaheksa välja on mobiilsel seadmel liiga palju teavet. Seega näitame mobiili loendivaates ainult kõige olulisemaid välju. Ülejäänud väljad kuvatakse üksikasjavaates, mille kujundame hiljem. Praegu lisame järgmised väljad. Klõpsake plussmärki (**+**) nende veergude mobiililehele lisamiseks.
     - Hankija nimi
     - Arve summa
@@ -152,8 +158,10 @@ Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks mä�
     - Arve number
     - Arve kuupäev
 
-    Pärast väljade lisamist peab mobiilileht sarnanema järgmisele illustratsioonile. 
-    [![Leht pärast väljade lisamist](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+  Pärast väljade lisamist peab mobiilileht sarnanema järgmisele illustratsioonile. 
+    
+   [![Leht pärast väljade lisamist](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+
 9.  Nüüd tuleb lisada ka järgmised väljad, et hiljem saaks töövootoimingud lubada.
     - Kuva lõpetamise ülesanne
     - Kuva delegeerimise ülesanne
@@ -169,16 +177,26 @@ Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks mä�
 
 ### <a name="vendor-invoice-details"></a>Hankija arve andmed
 
-Arve üksikasjade lehe kujundamiseks mobiiliversioonile kasutage lehte **VendMobileInvoiceHeaderDetails**. Pange tähele, et olenevalt sellest, kui palju arveid on teile teie süsteemis määratud, kuvatakse sellel lehel vanim arve (esimesena koostatud arve). Konkreetse arve otsimiseks võib kasutada vasakul olevat filtrit. Kuid selle näite puhul pole meil konkreetset arvet vaja. Meil on lihtsalt vaja mõningaid arveandmeid, et saaksime mobiilset lehte kujundada. [![Töövoo leht](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+Arve üksikasjade lehe kujundamiseks mobiiliversioonile kasutage lehte **VendMobileInvoiceHeaderDetails**. Pange tähele, et olenevalt sellest, kui palju arveid on teile teie süsteemis määratud, kuvatakse sellel lehel vanim arve (esimesena koostatud arve). Konkreetse arve otsimiseks võib kasutada vasakul olevat filtrit. Kuid selle näite puhul pole meil konkreetset arvet vaja. Meil on lihtsalt vaja mõningaid arveandmeid, et saaksime mobiilset lehte kujundada. 
+
+[![Töövoo leht](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. Asendage URL-is menüüelemendi nimi stringiga **VendMobileInvoiceHeaderDetails** vormi avamiseks
+
 2. Avage mobiilne kujundaja nupult **Sätted** (hammasratas).
+
 3. Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**.
+
 4. Valige eelnevalt loodud leht **Minu hankija arved** ja klõpsake siis nuppu **Redigeeri**.
+
 5. Klõpsake vahekaardil **Väljad** veerupäist **Ruudustik**.
+
 6. Klõpsake valikuid **Atribuudid &gt; Lisa leht**. **Märkus.** Kui klõpsate pealkirja **Ruudustik** ja lisate lehe, luuakse automaatselt seos üksikasjade lehega.
+
 7. Sisestage lehe pealkiri, nt **Arve üksikasjad** ja kirjeldus, nt **Kuva arve päis ja rea üksikasjad**.
+
 8. Klõpsake nuppu **Vali väljad**. Pange tähele, et väljad kuvatakse lõppkasutajatele lisamise järjekorras. Ainus võimalus väljade järjestust muuta on kõik väljad uuesti valida. 
+
 9. Lisage selle stsenaariumi nõuete põhjal päisest järgmised väljad.
    - Hankija nimi
    - Arve summa
@@ -197,9 +215,13 @@ Arve üksikasjade lehe kujundamiseks mobiiliversioonile kasutage lehte **VendMob
     - 1099-summa
 
 11. Kui kõik väljad eelmisest kahest toimingust on lisatud, klõpsake nuppu **Valmis**. Leht peab sarnanema järgmisele illustratsioonile.
+    
     [![Leht pärast väljade lisamist](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+
 12. Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
+
 13. Klõpsake nuppu **Tagasi** ja seejärel nuppu **Valmis** tööruumist väljumiseks
+
 14. Töö salvestamiseks klõpsake nuppu **Avalda tööruum**
 
 ### <a name="workflow-actions"></a>Töövoo tegevused
@@ -295,12 +317,19 @@ Töövootoimingute lisamiseks kasutage lehte **VendMobileInvoiceHeaderDetails**.
 ### <a name="vendor-invoice-attachments"></a>Hankija arve manused
 
 1. Klõpsake nuppu **Sätted** (hammasratas) lehe ülemises paremas osas ja seejärel valikut **Mobiilirakendus**
+
 2. Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**.
+
 3. Valige eelnevalt loodud leht <strong>Arve üksikasjad **ja klõpsake siis nuppu **Redigeeri</strong>.
+
 4. Määrake valiku **Dokumendihaldus** sätteks **Jah**, nagu allpool näidatud. **Märkus.** Kui puuduvad nõuded mobiilsel seadmel manuste näitamiseks, võite jätta selle valiku sätteks **Ei**, mis on vaikesäte.
+   
    ![Dokumendihaldus](./media/docmanagement-216x300.png)
+
 5. Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
+
 6. Klõpsake nuppu **Tagasi** ja seejärel nuppu **Valmis** tööruumist väljumiseks
+
 7. Töö salvestamiseks klõpsake nuppu **Avalda tööruum**
 
 ### <a name="vendor-invoice-line-distributions"></a>Hankija arve rea jaotused
@@ -311,12 +340,19 @@ Selle stsenaariumi nõudmised kinnitavad, et olemas on ainult rea tasemel jaotus
 > Nõuetega kursis olemine aitab meil stsenaariumi kujundamisel otsustada, millist konkreetset lehte kasutada ja kuidas täpselt kasutaja mobiilikogemust optimeerida. Teises stsenaariumis kasutame teist lehte jaotuste näitamiseks, kuna selle stsenaariumi nõuded on erinevad.
 
 1.  Asendage menüüelemendi nimi URL-is nii, nagu enne tegite. Kuvatav leht peab sarnanema järgmisele illustratsioonile.
+
 [![Kõigi jaotuste leht](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+
 2.  Avage mobiilne kujundaja nupult **Sätted** (hammasratas).
+
 3.  Klõpsake tööruumis redigeerimisrežiimi käivitamiseks nuppu **Redigeeri**. **Märkus.** Näete, et automaatselt loodi kaks uut lehte. Süsteem loob need lehed, kuna lülitasite eelmises jaotises sisse dokumendihalduse. Võite neid uusi lehti eirata.
+
 4.  Klõpsake nuppu **Lisa leht**.
+
 5.  Sisestage lehe pealkiri, nt **Arvestuse kuvamine** ja kirjeldus, nt **Arve arvestuse kuvamine**.
+
 6.  Klõpsake nuppu **Valmis**.
+
 7.  Klõpsake vahekaardil **Väljad** valikut **Vali väljad**, valige jaotuste lehelt järgmised väljad ja klõpsake seejärel nuppu **Valmis**:
     1.  Summa
     2.  Valuuta
@@ -324,8 +360,11 @@ Selle stsenaariumi nõudmised kinnitavad, et olemas on ainult rea tasemel jaotus
 
     > [!NOTE] 
     > Me ei valinud jaotuste ruudustikust veergu **Kirjeldus**, kuna selle stsenaariumi nõuded kinnitasid, et laiendatud hind on ainus summa, mille jaoks jaotused olemas on. Seega ei vaja kasutaja teist välja summa tüübi määramiseks, mille jaoks jaotus on mõeldud. Kuid järgmises stsenaariumis **kasutame** seda teavet, kuna selle stsenaariumi nõuded määravad, et teistel summatüüpidel on jaotused (nt käibemaks).
+
 8.  Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
+
 9.  Klõpsake nuppu **Tagasi** ja seejärel nuppu **Valmis** tööruumist väljumiseks
+
 10. Töö salvestamiseks klõpsake nuppu **Avalda tööruum**
 
 > [!NOTE] 

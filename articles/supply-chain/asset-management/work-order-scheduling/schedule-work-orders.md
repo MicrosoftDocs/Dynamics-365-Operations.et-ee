@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6fad4d57b8e08c839ac0ffac2324c02304335ef
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 953c4bb17329205c5d8d14b6570a6bac152e9320
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887224"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652145"
 ---
 # <a name="schedule-work-orders"></a>Töökäskude plaanimine
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Selles teemas tutvustatakse, kuidas ajastada töökäske varahalduses. Töökäsu vajalikku tundide arvu määramiseks lahutatakse töökäsu prognoositud tundide arvust sisestatud tunnid. Kui vaja on rohkem aega, tuleb töökäsu prognoosi vastavalt kohandada. Jaotises **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud** saate vaadata või redigeerida töökäsu prognoose, valides selleks töökäsu ja klõpsates nuppu **Prognoos** vahekaardil **Töökäsk**. Kui töökäsud on loodud ja prognoositud, on järgmiseks sammuks töökäsu täitmiseks vajalike hooldustöötajate ja tööriistade määramine.
+Selles teemas tutvustatakse, kuidas ajastada töökäske varahalduses. 
+
+Töökäsu vajalikku tundide arvu määramiseks lahutatakse prognoositud tundide arvust sisestatud tunnid. Kui vaja on rohkem aega, tuleb prognoosi vastavalt kohandada. Jaotises **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud** saate vaadata või redigeerida töökäsu prognoose, valides selleks töökäsu ja klõpsates nuppu **Prognoos** vahekaardil **Töökäsk**. Kui töökäsud on loodud ja prognoositud, on järgmiseks sammuks töökäsu täitmisel vajalike hooldustöötajate ja tööriistade määramine.
 
 Ajastada saab ainult sellise töökäsu töötsükli olekuga töökäske, mis lubavad ajastamist. Ajastamise lubamist seadistatakse jaotises **Varahaldus** > **Seadistus** > **Töökäsud** > **Töötsükli olekud** > **Üldine** kiirkaart > tumblernupp **Luba ajastamine**.
 
@@ -43,8 +45,8 @@ Ajastada saab ainult sellise töökäsu töötsükli olekuga töökäske, mis lu
 
 4. Dialoogis **Töökäskude ajastamine** saate vajadusel lisada valikuid vastavalt oodatavale alguskuupäevale ja teenindustasemele. Kui kavandamisprotsess peaks jälgima teistele töödele juba kavandatud ressursside võimsuse piiranguid, veenduge et tumblernuppude **Vara**, **Tööriist** ja **Töötaja** väärtus on „Jah“.
 
->[!NOTE]
->Kui seate tumblernuppude **Vara**, **Tööriist** ja **Töötaja** väärtuseks "Ei", ignoreeritakse olemasolevaid reserveeringuid. Infologis kuvatakse kattuvate töökäsu graafikute loendit ja te saate vajadusel klõpsata teatistel, et avada töökäsk ja muuta selle ajastust.
+    [!NOTE]
+    Kui seate tumblernuppude **Vara**, **Tööriist** ja **Töötaja** väärtuseks "Ei", ignoreeritakse olemasolevaid reserveeringuid. Infologis kuvatakse kattuvate töökäsu graafikute loendit ja te saate vajadusel klõpsata teatistel, et avada töökäsk ja muuta selle ajastust.
 
 5. Et näha üksikasjalikumat teavet ajastamisprotsessi kohta, valige tumblernupu **Paljusõnaline** väärtuseks „Jah“. See tähendab, et töökäskude ja hooldustöötajate arvutatud skooride üksikasjalikku teavet näidatakse Infologis.
 
@@ -110,9 +112,11 @@ Hinnangu skoorid seoses arvutamisega, millised hooldustöötajad peaksid tööta
 | Töötaja töösuhte alguskuupäev               | Iga kuupäeva kohta, millal ajastatud alguskuupäev on oodatavast alguskuupäevast hilisem, skoor lahutatakse.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 >[!NOTE]
->Kui skooriks on määratud "0", seda skoori ei arvestata. See on kasulik kui te näiteks ei soovi vastutavat töötajat oma kavandamisse kaasata.
+>Kui skooriks on määratud "0", seda skoori ei arvestata. See on kasulik, kui te näiteks ei soovi vastutavat töötajat oma plaani kaasata.
 
 ## <a name="competencies-used-in-work-order-scheduling"></a>Töökäsu ajastamises kasutatavad pädevused
 
-Oskuste ja sertifikaadi nõudeid saab seadistada hooldustöö tüüpidele (**Varahaldus** > **Seadistus** > **Tööd** > **Hooldustöö tüübid**) ja hooldustöö vahetustele (**Varahaldus** > **Seadistus** > **Tööd** > **Hooldustööde vahetus**). Hooldustöö tüübid ja hooldustöö vahetused valitakse töökäsu töödele. Kui hooldustöö tüübile või hooldustöö vahetusele on valitud oskused või sertifikaadid ja seda hooldustöö tüüpi või hooldustöö vahetust kasutatakse töökäsu tööl, ajastatakse töökäsuga töötamiseks ainult sobivate oskuste ja sertifikaatidega hooldustöötajad.
+Oskuste ja sertifikaadi nõudeid saab seadistada hooldustöö tüüpidele (**Varahaldus** > **Seadistus** > **Tööd** > **Hooldustöö tüübid**) ja hooldustöö vahetustele (**Varahaldus** > **Seadistus** > **Tööd** > **Hooldustööde vahetus**). 
+
+Hooldustöö tüübid ja hooldustöö vahetused valitakse töökäsu töödele. Kui hooldustöö tüübile või hooldustöö vahetusele on valitud oskused või sertifikaadid ja seda hooldustöö tüüpi või hooldustöö vahetust kasutatakse töökäsu tööl, ajastatakse töökäsuga töötamiseks ainult sobivate oskuste ja sertifikaatidega hooldustöötajad.
 

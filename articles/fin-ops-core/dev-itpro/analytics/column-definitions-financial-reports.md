@@ -3,7 +3,7 @@ title: Veerudefinitsioonid finantsaruannetes
 description: See artikkel käsitleb veerudefinitsioone. Veerudefinitsioon on aruande komponent (koosteüksus), mis määrab aruande veergude sisu. Nagu readefinitsioone, saab ka peamisi veerudefinitsioone kasutada mitmes aruandes.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 76de08290058d43fbd1b4c0670db55ebcfbb8494
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 54e7d517e704b7162f3e091330a246386f0203ea
+ms.sourcegitcommit: d800613020d5548d100c8f240fb81bb6258a3646
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174301"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2572637"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Veerudefinitsioonid finantsaruannetes
 
@@ -170,7 +170,7 @@ Saate kasutada dialoogiboksi **Veerupäis** aruande veergude ülaosas olevate p�
 
 ### <a name="create-an-automatically-generated-header"></a>Automaatselt loodava päise loomine
 
-Aruandekoostur saab veerupäiseid automaatteksti koodide alusel automaatselt luua. Automaatteksti koodid on muutujad, mida värskendatakse iga kord, kui aruanne luuakse. Veerupäis võib sisaldada neid koode varieeruva aruandeteabe, nagu kuupäevade või perioodinumbrite määramiseks. Seetõttu saate kasutada ühte veeru definitsiooni mitme aruande definitsiooni, ajaperioodi ja aruandluspuu puhul. Kuna automaatteksti koodid sõltuvad veeru definitsiooni üksikasjaridade kalendriteabest, toetavad neid ainult veerud **CALC** ja **FD**. Automaatteksti koodi veerupäise lahtris kuvamise viis mõjutab selle teabe ilmet aruandes. Dialoogiboksis **Veerupäis** kuvatakse automaatteksti koodid erinevate tõstudega. Seega kuvatakse tekst aruandes erinevate tõstudega. Näiteks standardses kalendriaastas teisendab **@CalMonthLong** kuu **7** suvandile **Juuli**. Kui kuu nimi tuleks aruandes suurte tähtedega (näiteks **JUULI**) kuvada, sisestage automaatteksti kood väljale **Veeru päise tekst** suurte tähtedega. Sisestage näiteks **@CALMONTHLONG**. Võite koode ja teksti kombineerida. Näiteks saate sisestada järgmise päiseteksti: **Periood @FiscalPeriod-@FiscalYear alates @StartDate kuni @EndDate**. Loodav aruande pealkiri sarnaneb järgmisega: **Periood 1-02 alates 01/01/02 kuni 01/31/02**.
+Aruandekoostur saab veerupäiseid automaatteksti koodide alusel automaatselt luua. Automaatteksti koodid on muutujad, mida värskendatakse iga kord, kui aruanne luuakse. Veerupäis võib sisaldada neid koode varieeruva aruandeteabe, nagu kuupäevade või perioodinumbrite määramiseks. Seetõttu saate kasutada ühte veeru definitsiooni mitme aruande definitsiooni, ajaperioodi ja aruandluspuu puhul. Kuna automaatteksti koodid sõltuvad veeru definitsiooni üksikasjaridade kalendriteabest, toetavad neid ainult veerud **CALC** ja **FD**. Automaatteksti koodi veerupäise lahtris kuvamise viis mõjutab selle teabe ilmet aruandes. Dialoogiboksis **Veerupäis** kuvatakse automaatteksti koodid erinevate tõstudega. Seega kuvatakse tekst aruandes erinevate tõstudega. Näiteks standardses kalendriaastas on koodi **\@CalMonthLong** järgi **7**. kuu vasteks **juuli**. Kui kuu nimi tuleks aruandes suurte tähtedega (näiteks **JUULI**) kuvada, sisestage automaatteksti kood väljale **Veeru päise tekst** suurte tähtedega. Sisestage näiteks **\@CALMONTHLONG**. Võite koode ja teksti kombineerida. Näiteks saate sisestada järgmise päiseteksti: **Periood \@FiscalPeriod-\@FiscalYear alates \@StartDate kuni \@EndDate**. Loodav aruande pealkiri sarnaneb järgmisega: **Periood 1-02 alates 01/01/02 kuni 01/31/02**.
 
 > [!NOTE]
 > Osa teksti, nt pika kuupäeva vorming oleneb teie regioonisätetest serveris. Nende sätete muutmiseks klõpsake nuppu **Start**, klõpsake suvandit **Juhtpaneel** ja seejärel klõpsake suvandit **Regioon ja keel**. Järgmises tabelis loetletakse veerupäiste puhul saadaolevad automaatteksti suvandid.
