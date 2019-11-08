@@ -3,7 +3,7 @@ title: Töökäsule vea lisamine
 description: See teema kirjeldab, kuidas lisada vea registreerimisi töökäskudele Varahalduses.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,66 +16,67 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-31
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c86973ca44d9113d14e180e27cc51343da5d2c0
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 2b58cc31578d7bb102c6b5aa8b4ce2d6cfe8c893
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875614"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626197"
 ---
-# <a name="add-fault-to-work-order"></a><span data-ttu-id="78832-103">Töökäsule vea lisamine</span><span class="sxs-lookup"><span data-stu-id="78832-103">Add fault to work order</span></span>
+# <a name="add-fault-to-work-order"></a><span data-ttu-id="8cb69-103">Töökäsule vea lisamine</span><span class="sxs-lookup"><span data-stu-id="8cb69-103">Add fault to work order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-<span data-ttu-id="78832-104">Vea kujundajas seadistatud vigu saate lisada töökäskudele.</span><span class="sxs-lookup"><span data-stu-id="78832-104">You can add faults set up in the fault designer to a work order.</span></span> <span data-ttu-id="78832-105">Töökäsus valitud vara peab sisaldama varade tüüpe, millega on seotud üks või rohkem veakirjet.</span><span class="sxs-lookup"><span data-stu-id="78832-105">The asset selected in the work order must contain asset types that have one or more fault records connected to it.</span></span> <span data-ttu-id="78832-106">Lisateavet häälestuse kohta leiate jaotisest [Veahaldus](../setup-for-work-orders/fault-management.md).</span><span class="sxs-lookup"><span data-stu-id="78832-106">Read more about setup in the [Fault management](../setup-for-work-orders/fault-management.md) section.</span></span>
+<span data-ttu-id="8cb69-104">Saate lisada töökäsule vea kujundajas seadistatud vigu.</span><span class="sxs-lookup"><span data-stu-id="8cb69-104">You can add faults that were set up in the fault designer to a work order.</span></span> <span data-ttu-id="8cb69-105">Vähemalt üks veakirje peab olema seotud varatüüpidega, mida kasutatakse töökäsus valitud vara korral.</span><span class="sxs-lookup"><span data-stu-id="8cb69-105">One or more fault records must be connected to the asset types that are used for the asset that is selected in the work order.</span></span> <span data-ttu-id="8cb69-106">Häälestuse kohta leiate lisateavet jaotisest [Veahaldus](../setup-for-work-orders/fault-management.md).</span><span class="sxs-lookup"><span data-stu-id="8cb69-106">For more information about the setup, see [Fault management](../setup-for-work-orders/fault-management.md).</span></span>
 
-1. <span data-ttu-id="78832-107">Klõpsake **Varahaldus** > **Tavaline** > **Töökäsud** > **Kõik Töökäsud** või **Aktiivsed töökäsud**.</span><span class="sxs-lookup"><span data-stu-id="78832-107">Click **Asset management** > **Common** > **Work orders** > **All Work orders** or **Active work orders**.</span></span>
+1. <span data-ttu-id="8cb69-107">Valie **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.</span><span class="sxs-lookup"><span data-stu-id="8cb69-107">Select **Asset management** > **Common** > **Work orders** > **All Work orders** or **Active work orders**.</span></span>
 
-2. <span data-ttu-id="78832-108">Valige loendist töökäsk, milles soovite vea registreerimist teha, ja klõpsake nuppu **Vara viga**.</span><span class="sxs-lookup"><span data-stu-id="78832-108">In the list, select the work order on which you want to make a fault registration and click **Asset fault**.</span></span>
+2. <span data-ttu-id="8cb69-108">Valige töökäsk, mille kohta registreerida viga ja seejärel valige toimingupaani vahekaardil **Töökäsk** rühma **Vara** alt valik **Vara viga**.</span><span class="sxs-lookup"><span data-stu-id="8cb69-108">Select the work order to make a fault registration on, and then, on the Action Pane, on the **Work order** tab, in the **Asset** group, select **Asset fault**.</span></span>
 
-3. <span data-ttu-id="78832-109">Kiirkaardil **Sümptomid** klõpsake valikut **Lisa rida**.</span><span class="sxs-lookup"><span data-stu-id="78832-109">On the **Symptoms** FastTab, click **Add line**.</span></span> <span data-ttu-id="78832-110">Järjestikune vea number sisestatakse automaatselt **Viga** väljale.</span><span class="sxs-lookup"><span data-stu-id="78832-110">A sequential fault number is automatically inserted in the **Fault** field.</span></span>
+3. <span data-ttu-id="8cb69-109">Valige kiirkaardil **Sümptomid** valik **Lisa rida**.</span><span class="sxs-lookup"><span data-stu-id="8cb69-109">On the **Symptoms** FastTab, select **Add line**.</span></span> <span data-ttu-id="8cb69-110">Järjestikune vea number sisestatakse automaatselt väljale **Viga**.</span><span class="sxs-lookup"><span data-stu-id="8cb69-110">A sequential fault number is automatically entered in the **Fault** field.</span></span>
 
-4. <span data-ttu-id="78832-111">Valige sobiv sümptom väljal **Vea sümptom**.</span><span class="sxs-lookup"><span data-stu-id="78832-111">Select the relevant symptom in the **Fault symptom** field.</span></span>
+4. <span data-ttu-id="8cb69-111">Valige väljal **Vea sümptom** asjakohane sümptom.</span><span class="sxs-lookup"><span data-stu-id="8cb69-111">In the **Fault symptom** field, select the relevant symptom.</span></span>
 
-5. <span data-ttu-id="78832-112">Valige **Vea ala** ja **Vea tüüp**.</span><span class="sxs-lookup"><span data-stu-id="78832-112">Select **Fault area** and **Fault type**.</span></span>
+5. <span data-ttu-id="8cb69-112">Valige väljadel **Vea ala** ja **Vea tüüp** asjakohased väärtused.</span><span class="sxs-lookup"><span data-stu-id="8cb69-112">In the **Fault area** and **Fault type** fields, select the appropriate values.</span></span>
 
-6. <span data-ttu-id="78832-113">Väljale **Vea kuupäev** lisatakse automaatselt praegune kuupäev.</span><span class="sxs-lookup"><span data-stu-id="78832-113">In the **Fault date** field, the current date is automatically inserted.</span></span> <span data-ttu-id="78832-114">Vajadusel saate valida teise kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="78832-114">You can select another date, if necessary.</span></span>
+6. <span data-ttu-id="8cb69-113">Väljale **Vea kuupäev** lisatakse automaatselt praegune kuupäev.</span><span class="sxs-lookup"><span data-stu-id="8cb69-113">In the **Fault date** field, the current date is automatically inserted.</span></span> <span data-ttu-id="8cb69-114">Vajadisel saate valida mõne muu kuupäeva.</span><span class="sxs-lookup"><span data-stu-id="8cb69-114">You can select a different date as you require.</span></span>
 
-7. <span data-ttu-id="78832-115">**Valitud sümptomi põhjused** kiirkaardil lisage probleemi põhjust kirjeldav rida.</span><span class="sxs-lookup"><span data-stu-id="78832-115">On the **Causes for selected symptom** FastTab, add a line describing the cause of the problem.</span></span>
+7. <span data-ttu-id="8cb69-115">Lisage kiirkaardil **Valitud sümptomi põhjused** probleemi põhjust kirjeldav rida.</span><span class="sxs-lookup"><span data-stu-id="8cb69-115">On the **Causes for selected symptom** FastTab, add a line to describe the cause of the issue.</span></span>
 
-8. <span data-ttu-id="78832-116">**Valitud sümptomi parandusmeetmed** kiirkaardil lisage võimalikku probleemi lahendust kirjeldav rida.</span><span class="sxs-lookup"><span data-stu-id="78832-116">On the **Remedies for selected symptom** FastTab, add a line describing a possible solution to the problem.</span></span>
+8. <span data-ttu-id="8cb69-116">Lisage kiirkaardil **Valitud sümptomi parandusmeetmed** probleemi võimalikku lahendust kirjeldav rida.</span><span class="sxs-lookup"><span data-stu-id="8cb69-116">On the **Remedies for selected symptom** FastTab, add a line to describe a possible solution to the issue.</span></span>
 
-9. <span data-ttu-id="78832-117">Klõpsake valikut **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="78832-117">Click **Save**.</span></span>
+9. <span data-ttu-id="8cb69-117">Valige käsk **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="8cb69-117">Select **Save**.</span></span>
+
+<span data-ttu-id="8cb69-118">Alljärgneval joonisel on esitatud vea registreerimise näide.</span><span class="sxs-lookup"><span data-stu-id="8cb69-118">The illustration below shows an example of a fault registration.</span></span>
 
 ![Joonis 1](media/19-work-orders.png)
 
 
-## <a name="view-asset-faults"></a><span data-ttu-id="78832-119">Kuva vara vead</span><span class="sxs-lookup"><span data-stu-id="78832-119">View asset faults</span></span>
+## <a name="view-asset-faults"></a><span data-ttu-id="8cb69-120">Kuva vara vead</span><span class="sxs-lookup"><span data-stu-id="8cb69-120">View asset faults</span></span>
 
-<span data-ttu-id="78832-120">**Vara vead** loendis saate ülevaate kõigist vigadest, mis on registreeritud varadesse.</span><span class="sxs-lookup"><span data-stu-id="78832-120">In the **Asset faults** list, you can get an overview of all faults registered on assets.</span></span>
+<span data-ttu-id="8cb69-121">**Vara vead** loendis saate ülevaate kõigist vigadest, mis on registreeritud varadesse.</span><span class="sxs-lookup"><span data-stu-id="8cb69-121">In the **Asset faults** list, you can get an overview of all faults registered on assets.</span></span>
 
-<span data-ttu-id="78832-121">Nimekirja avamiseks klõpsake **Varahaldus** > **Päringud** > **Vara viga** > **Vara vead**.</span><span class="sxs-lookup"><span data-stu-id="78832-121">Click **Asset management** > **Inquiries** > **Asset fault** > **Asset faults** to open the list.</span></span>
+<span data-ttu-id="8cb69-122">Loendilehel **Vara vead** saate ülevaate kõigist vigadest, mis on varade kohta registreeritud.</span><span class="sxs-lookup"><span data-stu-id="8cb69-122">On the **Asset faults** list page, you can get an overview of all faults that have been registered on assets.</span></span> <span data-ttu-id="8cb69-123">Lehe avamiseks valige **Varahaldus** > **Päringud** > **Vara viga** > **Vara vead**.</span><span class="sxs-lookup"><span data-stu-id="8cb69-123">To open the page, select **Asset management** > **Inquiries** > **Asset fault** > **Asset faults**.</span></span>
 
 
-## <a name="print-asset-fault-report"></a><span data-ttu-id="78832-122">Prindi vara vea aruanne</span><span class="sxs-lookup"><span data-stu-id="78832-122">Print asset fault report</span></span>
+## <a name="print-asset-fault-report"></a><span data-ttu-id="8cb69-124">Prindi vara vea aruanne</span><span class="sxs-lookup"><span data-stu-id="8cb69-124">Print asset fault report</span></span>
 
-<span data-ttu-id="78832-123">Loendilehelt **Kõik varad** saate printida vara vea aruande, kus kuvatakse kõik vea registreerimised, samuti vea statistika graafiline ülevaade.</span><span class="sxs-lookup"><span data-stu-id="78832-123">From the **All assets** list page, you can print an asset fault report displaying all fault registrations as well as a graphic overview of fault statistics.</span></span>
+<span data-ttu-id="8cb69-125">Loendilehelt **Kõik varad** saate printida vara vea aruande, kus kuvatakse kõik vea registreerimised ja veastatistika graafiline ülevaade.</span><span class="sxs-lookup"><span data-stu-id="8cb69-125">From the **All assets** list page, you can print an asset fault report that shows all fault registrations and a graphical overview of fault statistics.</span></span>
 
-1. <span data-ttu-id="78832-124">Klõpsake **Varahaldus** > **Üldine** > **Varad** > **Kõik varad**.</span><span class="sxs-lookup"><span data-stu-id="78832-124">Click **Asset management** > **Common** > **Assets** > **All assets**.</span></span>
+1. <span data-ttu-id="8cb69-126">Valige **Varahaldus** > **Ühised** > **Varad** > **Kõik varad**.</span><span class="sxs-lookup"><span data-stu-id="8cb69-126">Select **Asset management** > **Common** > **Assets** > **All assets**.</span></span>
 
-2. <span data-ttu-id="78832-125">Valige **Varad** loendist vara, mille kohta soovite vea aurannet printida.</span><span class="sxs-lookup"><span data-stu-id="78832-125">In the **Assets** list, select the asset for which you want to print a fault report.</span></span>
+2. <span data-ttu-id="8cb69-127">Valige vara, mille kohta printida aruanne.</span><span class="sxs-lookup"><span data-stu-id="8cb69-127">Select the asset to print a fault report for.</span></span>
 
-3. <span data-ttu-id="78832-126">Vahekaardil **Üldine** > **Aruannete osa** klõpsake **Vara viga**.</span><span class="sxs-lookup"><span data-stu-id="78832-126">On the **General** tab > **Reports section**, click **Asset fault**.</span></span>
+3. <span data-ttu-id="8cb69-128">Valige toimingupaani vahekaardil **Üldine** grupis **Aruanded** valikut **Vara viga**.</span><span class="sxs-lookup"><span data-stu-id="8cb69-128">On the Action Pane, on the **General** tab, in the **Reports** group, select **Asset fault**.</span></span>
 
-4. <span data-ttu-id="78832-127">Sisestage kindel periood või valige vea tüüp.</span><span class="sxs-lookup"><span data-stu-id="78832-127">Insert a specific period, or select a fault type.</span></span>
+4. <span data-ttu-id="8cb69-129">Sisestage konkreetne periood või valige vea tüüp.</span><span class="sxs-lookup"><span data-stu-id="8cb69-129">Enter a specific period, or select a fault type.</span></span>
 
-5. <span data-ttu-id="78832-128">Aruande printimiseks klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="78832-128">Click **OK** to print the report.</span></span>
+5. <span data-ttu-id="8cb69-130">Aruande printimiseks valige **OK**.</span><span class="sxs-lookup"><span data-stu-id="8cb69-130">Select **OK** to print the report.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="78832-129">Saate printida ka vea aruande mitme vara või vara tüüpide jaoks, kui klõpsate **Varahaldus** > **Aruanded** > **Varad** > **Vara viga**.</span><span class="sxs-lookup"><span data-stu-id="78832-129">You can also print a fault report for several assets or asset types by clicking **Asset management** > **Reports** > **Assets** > **Asset fault**.</span></span>
+><span data-ttu-id="8cb69-131">Veaaruande printimiseks mitme vara või varatüübi kohta valige **Varahaldus** > **Aruanded** > **Varad** > **Vara viga**.</span><span class="sxs-lookup"><span data-stu-id="8cb69-131">To print a fault report for several assets or asset types, select **Asset management** > **Reports** > **Assets** > **Asset fault**.</span></span>
 

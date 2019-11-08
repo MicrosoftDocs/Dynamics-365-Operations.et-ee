@@ -18,27 +18,27 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 609146ebc5a31e5b28ca9ed6e04ed82b6bb1b03e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250917"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571112"
 ---
-# <a name="maintenance-requests"></a><span data-ttu-id="813c2-103">Puudumistaotluste loomine</span><span class="sxs-lookup"><span data-stu-id="813c2-103">Maintenance requests</span></span>
+# <a name="maintenance-requests"></a><span data-ttu-id="65431-103">Puudumistaotluste loomine</span><span class="sxs-lookup"><span data-stu-id="65431-103">Maintenance requests</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-<span data-ttu-id="813c2-104">Saate seadistada teie eri tüüpi taotlusi oma ettevõttes kasutamiseks.</span><span class="sxs-lookup"><span data-stu-id="813c2-104">You can set up various types of requests to use in your company.</span></span> <span data-ttu-id="813c2-105">Hooldustaotlused on üks tüüp.</span><span class="sxs-lookup"><span data-stu-id="813c2-105">Maintenance requests are one type.</span></span> <span data-ttu-id="813c2-106">Hooldustaotlusi kasutatakse selleks, et taotleda kindla töö jaoks töökäsu esitamist.</span><span class="sxs-lookup"><span data-stu-id="813c2-106">Maintenance requests are used to request that a work order be required for a specific job.</span></span> <span data-ttu-id="813c2-107">Hooldustaotluse saab luua iga kasutaja, kellel on juurdepääs varahalduse funktsioonile rakenduses Asset Management.</span><span class="sxs-lookup"><span data-stu-id="813c2-107">A maintenance request can be created by any user who has access to Asset Management functionality.</span></span> <span data-ttu-id="813c2-108">Planeerija või haldur saab seejärel otsustada, kas hooldustaotlus tuleks teisendada töökäsuks või kas see peaks täitma oma elutsükli.</span><span class="sxs-lookup"><span data-stu-id="813c2-108">A planner or manager can then decide whether a maintenance request should be converted to a work order, or whether it should complete its own lifecycle.</span></span>
+<span data-ttu-id="65431-104">Saate seadistada teie eri tüüpi taotlusi oma ettevõttes kasutamiseks.</span><span class="sxs-lookup"><span data-stu-id="65431-104">You can set up various types of requests to use in your company.</span></span> <span data-ttu-id="65431-105">Hooldustaotlused on üks tüüp.</span><span class="sxs-lookup"><span data-stu-id="65431-105">Maintenance requests are one type.</span></span> <span data-ttu-id="65431-106">Hooldustaotlusi kasutatakse selleks, et taotleda kindla töö jaoks töökäsu esitamist.</span><span class="sxs-lookup"><span data-stu-id="65431-106">Maintenance requests are used to request that a work order be required for a specific job.</span></span> <span data-ttu-id="65431-107">Hooldustaotluse saab luua iga kasutaja, kellel on juurdepääs varahalduse funktsioonile rakenduses Asset Management.</span><span class="sxs-lookup"><span data-stu-id="65431-107">A maintenance request can be created by any user who has access to Asset Management functionality.</span></span> <span data-ttu-id="65431-108">Planeerija või haldur saab seejärel otsustada, kas hooldustaotlus tuleks teisendada töökäsuks või kas see peaks täitma oma elutsükli.</span><span class="sxs-lookup"><span data-stu-id="65431-108">A planner or manager can then decide whether a maintenance request should be converted to a work order, or whether it should complete its own lifecycle.</span></span>
 
-## <a name="view-maintenance-requests"></a><span data-ttu-id="813c2-109">Puudumistaotluste loomine</span><span class="sxs-lookup"><span data-stu-id="813c2-109">View maintenance requests</span></span>
+## <a name="view-maintenance-requests"></a><span data-ttu-id="65431-109">Puudumistaotluste loomine</span><span class="sxs-lookup"><span data-stu-id="65431-109">View maintenance requests</span></span>
 
-- <span data-ttu-id="813c2-110">Valige **Varahaldus**\>**Ühised**\>**Hooldustaotlused**\>**Kõik hooldustaotlused** või **Aktiivsed hooldustaotlused**.</span><span class="sxs-lookup"><span data-stu-id="813c2-110">Select **Asset management** \> **Common** \> **Maintenance requests** \> **All maintenance requests** or **Active maintenance requests**.</span></span>
+- <span data-ttu-id="65431-110">Valige **Varahaldus**\>**Ühised**\>**Hooldustaotlused**\>**Kõik hooldustaotlused** või **Aktiivsed hooldustaotlused**.</span><span class="sxs-lookup"><span data-stu-id="65431-110">Select **Asset management** \> **Common** \> **Maintenance requests** \> **All maintenance requests** or **Active maintenance requests**.</span></span>
 
-    <span data-ttu-id="813c2-111">Loendileht **Kõik hooldustaotlused** näitab kõiki hooldustaotlusi, olenemata nende elutsükli olekust.</span><span class="sxs-lookup"><span data-stu-id="813c2-111">The **All maintenance requests** list page shows all maintenance requests, regardless of their lifecycle state.</span></span> <span data-ttu-id="813c2-112">Loendileht **Aktiivsed hooldustaotlused** näitab ainult hooldustaotlusi, mis on aktiivses olekus.</span><span class="sxs-lookup"><span data-stu-id="813c2-112">The **Active maintenance requests** lists page shows only maintenance requests that are in an active state.</span></span>
+    <span data-ttu-id="65431-111">Loendileht **Kõik hooldustaotlused** näitab kõiki hooldustaotlusi, olenemata nende elutsükli olekust.</span><span class="sxs-lookup"><span data-stu-id="65431-111">The **All maintenance requests** list page shows all maintenance requests, regardless of their lifecycle state.</span></span> <span data-ttu-id="65431-112">Loendileht **Aktiivsed hooldustaotlused** näitab ainult hooldustaotlusi, mis on aktiivses olekus.</span><span class="sxs-lookup"><span data-stu-id="65431-112">The **Active maintenance requests** lists page shows only maintenance requests that are in an active state.</span></span>
 
-<span data-ttu-id="813c2-113">Järgneval illustratsioonil kuvatakse näidet loendilehest **Kõik hooldustaotlused**.</span><span class="sxs-lookup"><span data-stu-id="813c2-113">The following illustration shows an example of the **All maintenance requests** list page.</span></span>
+<span data-ttu-id="65431-113">Järgneval illustratsioonil kuvatakse näidet loendilehest **Kõik hooldustaotlused**.</span><span class="sxs-lookup"><span data-stu-id="65431-113">The following illustration shows an example of the **All maintenance requests** list page.</span></span>
 
-![Joonis 1](media/01-setup-for-requests.png)
+![Kõigi hooldusnõuete loendileht](media/01-setup-for-requests.png)

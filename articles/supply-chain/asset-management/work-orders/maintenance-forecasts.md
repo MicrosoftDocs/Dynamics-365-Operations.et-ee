@@ -3,7 +3,7 @@ title: Hooldusprognoosid
 description: Selles teemas tutvustatakse hooldusprognoose varahalduses.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,111 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a1596b283c3eaffca25ff7f03c722a2bcce109fb
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024495"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626289"
 ---
-# <a name="maintenance-forecasts"></a><span data-ttu-id="e3a13-103">Hooldusprognoosid</span><span class="sxs-lookup"><span data-stu-id="e3a13-103">Maintenance forecasts</span></span>
+# <a name="maintenance-forecasts"></a><span data-ttu-id="6c1fe-103">Hooldusprognoosid</span><span class="sxs-lookup"><span data-stu-id="6c1fe-103">Maintenance forecasts</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-<span data-ttu-id="e3a13-104">Kui loote töökäsu, loote töökäsu tööd koos asjakohaste varade ja hooldustööde tüüpidega.</span><span class="sxs-lookup"><span data-stu-id="e3a13-104">When you create a work order, you create work order jobs with related assets and maintenance job types.</span></span> <span data-ttu-id="e3a13-105">Kui valite hooldusprognoosi sisaldava hooldustöö tüübi, kopeeritakse prognoosid automaatselt töökäsku.</span><span class="sxs-lookup"><span data-stu-id="e3a13-105">When you select a maintenance job type containing maintenance forecasts, the forecasts are automatically copied to the work order.</span></span>
+<span data-ttu-id="6c1fe-104">Kui loote töökäsu, loote töökäsu tööd, millel on seotud varad ja hooldustööde tüübid.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-104">When you create a work order, you create work order jobs that have related assets and maintenance job types.</span></span> <span data-ttu-id="6c1fe-105">Kui valite hooldusprognoosi sisaldava hooldustöö tüübi, kopeeritakse prognoosid automaatselt töökäsku.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-105">When you select a maintenance job type that contains maintenance forecasts, the forecasts are automatically copied to the work order.</span></span>
 
-<span data-ttu-id="e3a13-106">Saate töökäsule prognoosi ridu lisada või neid kustutada.</span><span class="sxs-lookup"><span data-stu-id="e3a13-106">You may be able to add or delete forecast lines on a work order.</span></span> <span data-ttu-id="e3a13-107">Töökäsu töötsükli oleku, asjakohase projekti tüübi ja projekti tüübiga seotud etapi reeglite seadistus määrab selle, kas saate prognoosi ridu lisada või redigeerida.</span><span class="sxs-lookup"><span data-stu-id="e3a13-107">The setup of a work order lifecycle state, the related project type, and the stage rules related to the project type determines if you are able to add or edit forecast lines.</span></span> 
+<span data-ttu-id="6c1fe-106">Võimalik, et saate töökäsule lisada prognoosiread või need töökäsust kustutada.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-106">You might be able to add forecast lines to a work order or delete them from a work order.</span></span> <span data-ttu-id="6c1fe-107">Töökäsu töötsükli oleku seadistus, seotud projektitüüp ja seotud projektitüübi oleku reeglid määravad ära, kas saate prognoosi ridu lisada või redigeerida.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-107">The setup of the work order lifecycle state, the related project type, and the stage rules that are related to the project type determine whether you can add or edit forecast lines.</span></span> <span data-ttu-id="6c1fe-108">Lisateavet töökäsu elutsükli olekute ja seotud projekti etappide kohta vt teemast [Prognoosid, töökäsud ja projektid](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).</span><span class="sxs-lookup"><span data-stu-id="6c1fe-108">For more information about work order lifecycle states and related project stages, see [Forecasts, work orders, and projects](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).</span></span>
 
-1. <span data-ttu-id="e3a13-108">Klõpsake **Varahaldus** > **Tavaline** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-108">Click **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
+1. <span data-ttu-id="6c1fe-109">Valige **Varahaldus** > **Üldine** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-109">Select **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
 
-2. <span data-ttu-id="e3a13-109">Valige loendist töökäsk ja klõpsake **Prognoos**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-109">Select the work order in the list, and click **Forecast**.</span></span> <span data-ttu-id="e3a13-110">Jaotises **Töökäsu hooldusprognoos** kuvatakse töökäsu tööl valitud hooldustöö tüüpi prognoosi ridu.</span><span class="sxs-lookup"><span data-stu-id="e3a13-110">In **Work order maintenance forecast**, forecast lines from the maintenance job type selected on the work order job are displayed.</span></span>
-
-
-## <a name="add-hours-forecast-to-a-work-order"></a><span data-ttu-id="e3a13-111">Tundide prognoosi lisamine töökäsule</span><span class="sxs-lookup"><span data-stu-id="e3a13-111">Add hours forecast to a work order</span></span>
-
-1. <span data-ttu-id="e3a13-112">Valige töökäsu töö, millele soovite prognoosi lisada.</span><span class="sxs-lookup"><span data-stu-id="e3a13-112">Select the work order job to which you want to add a forecast.</span></span>
-
-2. <span data-ttu-id="e3a13-113">Klõpsake uue rea loomiseks kiirkaardil **Tunnid** suvandit **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-113">On the **Hours** FastTab, click **Add** to create a new line.</span></span>
-
-3. <span data-ttu-id="e3a13-114">Valige kategooria väljal **Kategooria**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-114">Select a category in the **Category** field.</span></span>
-
-4. <span data-ttu-id="e3a13-115">Sisestage väljale **Tunnid** prognoositud tundide arv.</span><span class="sxs-lookup"><span data-stu-id="e3a13-115">Insert number of forecasted hours in the **Hours** field.</span></span>
-
-5. <span data-ttu-id="e3a13-116">Valige real kasutatav kulu tüüp väljal **Rea atribuut**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-116">In the **Line property** field, select the charge type to be used on the line.</span></span>
+2. <span data-ttu-id="6c1fe-110">Valige loendist töökäsk ja seejärel tehke tegumiriba vahekaardi > **Töökäsk** jaotises **Projekt** valik **Prognoos**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-110">Select the work order in the list, and then, on the Action Pane > **Work order** tab > the **Project** group, select **Forecast**.</span></span> <span data-ttu-id="6c1fe-111">Lehel **Töökäsu hooldusprognoos** kuvatakse töökäsu tööl valitud hooldustöö tüüpi prognoosi ridu.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-111">The **Work order maintenance forecast** page shows forecast lines from the maintenance job type that is selected on the work order job.</span></span>
 
 
-## <a name="add-items-forecast-to-a-work-order"></a><span data-ttu-id="e3a13-117">Üksuste prognoosi lisamine töökäsule</span><span class="sxs-lookup"><span data-stu-id="e3a13-117">Add items forecast to a work order</span></span>
+## <a name="add-an-hours-forecast-to-a-work-order"></a><span data-ttu-id="6c1fe-112">Tundide prognoosi lisamine töökäsule</span><span class="sxs-lookup"><span data-stu-id="6c1fe-112">Add an hours forecast to a work order</span></span>
 
-<span data-ttu-id="e3a13-118">Üksuste lisamiseks töökäsu hooldusprognoosile on kolm võimalust: võite luua read üksustele (varuosadele), mis ei sisaldu varuosade loendis või vara koosluses, võite valida varuosi kinnitatud varuosade loendist ja võite valida üksuseid vara kooslusest.</span><span class="sxs-lookup"><span data-stu-id="e3a13-118">There are three ways to add items to a work order maintenance forecast: You can create lines for items (spare parts) that are not included in the spare parts list or asset BOM, you can select spare parts from the approved spare parts list, and you can select items from the asset BOM.</span></span>
+1. <span data-ttu-id="6c1fe-113">Valige lehel **Töökäsu hooldusprognoos** töökäsu töö. millel prognoos lisada.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-113">On the **Work order maintenance forecast** page, select the work order job to add a forecast to.</span></span>
 
-1. <span data-ttu-id="e3a13-119">Valige töökäsu töö, millele soovite prognoosi lisada.</span><span class="sxs-lookup"><span data-stu-id="e3a13-119">Select the work order job to which you want to add a forecast.</span></span>
+2. <span data-ttu-id="6c1fe-114">Tehke uue rea loomiseks kiirkaardil **Tunnid** valik **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-114">On the **Hours** FastTab, select **Add** to create a new line.</span></span>
 
-2. <span data-ttu-id="e3a13-120">Valige kiirkaart **Üksused**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-120">Select the **Items** FastTab.</span></span>
+3. <span data-ttu-id="6c1fe-115">Valige kategooria väljal **Kategooria**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-115">In the **Category** field, select a category.</span></span>
 
-3. <span data-ttu-id="e3a13-121">Klõpsake varuosade loendis või vara koosluses mittesisalduva varuosa jaoks uue rea loomiseks suvandil **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-121">Click **Add** to create a new line for a spare part that is not on the spare parts list or the asset BOM list.</span></span>
+4. <span data-ttu-id="6c1fe-116">Sisestage väljale **Tunnid** prognoositud tundide arv.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-116">In the **Hours** field, enter the number of forecasted hours.</span></span>
 
-4. <span data-ttu-id="e3a13-122">Valige kaup väljal **Kaubakood**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-122">Select the item in the **Item number** field.</span></span>
-
-5. <span data-ttu-id="e3a13-123">Sisestage kogus väljale **Müügi kogus** ja valige koguse üksus väljal **Üksus**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-123">Insert quantity in the **Sales quantity** field, and select a quantity unit in the **Unit** field.</span></span>
-
-6. <span data-ttu-id="e3a13-124">Sisestage omahind ja valuuta vastavatele väljadele ja valige **Rea atribuut**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-124">Insert cost price and currency in the relevant fields, and select a **Line property**.</span></span>
-
-7. <span data-ttu-id="e3a13-125">Kui soovite muuta üksuse ridadel kuvatavate mõõtude loendit, klõpsake **Varud** > **Kuva mõõdud**, valige mõõdud ja valige tumblernupul **Salvesta seadistus** suvand "Jah".</span><span class="sxs-lookup"><span data-stu-id="e3a13-125">If you want to change the list of dimensions displayed on the item lines, click **Inventory** > **Display dimensions**, select the dimensions, and select "Yes" on the **Save setup** toggle button.</span></span>
-
-8. <span data-ttu-id="e3a13-126">Kui soovite hooldusprognoosile lisada kinnitatud varuosa, klõpsake suvandit **Lisa varuosad**, valige varuosa, redigeerige vajadusel sellega setud andmeid ja klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-126">If you want to add an approved spare part to the maintenance forecast, click **Add spare parts**, select the spare part, edit related information if required, and click **OK**.</span></span>
-
-9. <span data-ttu-id="e3a13-127">Kui soovite hooldusprognoosile lisada vara koosluse üksusi, klõpsake suvandit **Lisa koosluse üksusi**, valige üksus, redigeerige vajadusel sellega setud andmeid ja klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-127">If you want to add asset BOM items to the forecast, click **Add BOM items**, select the item, edit related information if required, and click **OK**.</span></span>
-
-10. <span data-ttu-id="e3a13-128">Kui soovite saada ülevaadet, kus valitud rea üksust varahalduses seoses varade, vaikimisi hooldustöö tüüpide, varuosade ja töökäskudega kasutatakse, klõpsake suvandit **Üksus kus kasutatud**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-128">Click **Item where used** if you want to get an overview of where the item on the selected line is used in Asset Management in relation to assets, maintenance job type defaults, spare parts, and work orders.</span></span> 
+5. <span data-ttu-id="6c1fe-117">Valige real kasutatav kulu tüüp väljal **Rea atribuut**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-117">In the **Line property** field, select the type of charge that should be used on the line.</span></span>
 
 
+## <a name="add-an-items-forecast-to-a-work-order"></a><span data-ttu-id="6c1fe-118">Üksuste prognoosi lisamine töökäsule</span><span class="sxs-lookup"><span data-stu-id="6c1fe-118">Add an items forecast to a work order</span></span>
 
-## <a name="add-expense-forecast-to-a-work-order"></a><span data-ttu-id="e3a13-129">Kuluprognoosi lisamine töökäsule</span><span class="sxs-lookup"><span data-stu-id="e3a13-129">Add expense forecast to a work order</span></span>
+<span data-ttu-id="6c1fe-119">Üksuste lisamiseks töötellimuse hooldusprognoosine on kolm võimalust.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-119">There are three ways to add items to a work order maintenance forecast.</span></span> <span data-ttu-id="6c1fe-120">Võite luua read üksustele (varuosadele), mis ei sisaldu varuosade loendis või vara koosluses (BOM), võite valida varuosi kinnitatud varuosade loendist ja võite valida üksuseid vara kooslusest.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-120">You can create lines for items (spare parts) that aren't included on the spare parts list or the asset bill of materials (BOM), you can select spare parts from the approved spare parts list, or you can select items from the asset BOM.</span></span>
 
-1. <span data-ttu-id="e3a13-130">Selles teemas kirjeldatakse töökäsule kuluprognoosi lisamist.</span><span class="sxs-lookup"><span data-stu-id="e3a13-130">This topic explains how to add an expense forecast to a work order.</span></span> <span data-ttu-id="e3a13-131">Valige vormi vasakult poolelt töökäsu töö, millele soovite prognoosi lisada.</span><span class="sxs-lookup"><span data-stu-id="e3a13-131">In the left-hand side of the form, select the work order job to which you want to add a forecast.</span></span>
+- <span data-ttu-id="6c1fe-121">Valige lehel **Töökäsu hooldusprognoos** töökäsu töö. millel prognoos lisada.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-121">On the **Work order maintenance forecast** page, select the work order job to to add a forecast to.</span></span>
 
-2. <span data-ttu-id="e3a13-132">Valige kiirkaart **Kulu**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-132">Select the **Expense** FastTab.</span></span>
+- <span data-ttu-id="6c1fe-122">Lisage kiirkaardil **Üksused** üksused hooldusprognoosi sobiva meetodi abil.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-122">On the **Items** FastTab, add items to the maintenance forecast by using the appropriate method.</span></span>
 
-3. <span data-ttu-id="e3a13-133">Uue rea loomiseks klõpsake **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-133">Click **Add** to create a new line.</span></span>
+<span data-ttu-id="6c1fe-123">Varuosade loendis või vara koosluses mittesisalduva varuosa jaoks uue rea loomiseks järgige järgmisi juhendeid.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-123">To create a line for a spare part that isn't on the spare parts list or the asset BOM, follow these steps:</span></span>
 
-4. <span data-ttu-id="e3a13-134">Valige kategooria väljal **Kategooria**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-134">Select a category in the **Category** field.</span></span>
+1. <span data-ttu-id="6c1fe-124">Valige **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-124">Select **Add**.</span></span>
+2. <span data-ttu-id="6c1fe-125">Valige kaup väljalt **Kaubakood**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-125">In the **Item number** field, select the item.</span></span>
+3. <span data-ttu-id="6c1fe-126">Sisestage kogus väljale **Müügikogus**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-126">In the **Sales quantity** field, enter the quantity.</span></span>
+4. <span data-ttu-id="6c1fe-127">Valige väljal **Ühik** koguse mõõtühik.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-127">In the **Unit** field, select the unit of measure for the quantity.</span></span>
+5. <span data-ttu-id="6c1fe-128">Sisestage sobivad väärtused väljadele **Omahind** ja **Valuuta**</span><span class="sxs-lookup"><span data-stu-id="6c1fe-128">In the **Cost price** and **Currency** fields, enter appropriate values.</span></span>
+6. <span data-ttu-id="6c1fe-129">Valige rea atribuut väljal **Rea atribuut**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-129">In the **Line property** field, select a line property.</span></span>
+7. <span data-ttu-id="6c1fe-130">Üksuse ridadel kuvatavate mõõtude loendi muutmiseks valige **Varud** > **Kuva mõõdud**, valige mõõdud ja seejärel määrake valiku**Salvesta seadistus** väärtuseks **Jah**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-130">To change the list of dimensions that is shown on the item lines, select **Inventory** > **Display dimensions**, select the dimensions, and then set the **Save setup** option to **Yes**.</span></span>
 
-5. <span data-ttu-id="e3a13-135">Sisestage kogus väljale **Kogus**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-135">Insert quantity in the **Quantity** field.</span></span>
+<span data-ttu-id="6c1fe-131">Varuosa lisamiseks heakskiidetud varuosade loendist tehke järgmist.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-131">To add a spare part from an approved spare parts list, follow these steps:</span></span>
 
-6. <span data-ttu-id="e3a13-136">Sisestage omahind ja müügi valuuta ja müügihind vastavatele väljadele.</span><span class="sxs-lookup"><span data-stu-id="e3a13-136">Insert cost price, sales currency, and sales price in the relevant fields.</span></span>
+1. <span data-ttu-id="6c1fe-132">Valige **Lisa varuosad**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-132">Select **Add spare parts**.</span></span>
+2. <span data-ttu-id="6c1fe-133">Valige varuosa ja redigeerige vajadusel seotud teavet.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-133">Select the spare part, and edit the related information as you require.</span></span>
+3. <span data-ttu-id="6c1fe-134">Valige nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-134">Select **OK**.</span></span>
 
-7. <span data-ttu-id="e3a13-137">Valige real kasutatav kulu tüüp väljal **Rea atribuut**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-137">In the **Line property** field, select the charge type to be used on the line.</span></span>
+<span data-ttu-id="6c1fe-135">Üksuse lisamiseks põhivara kooslusest toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-135">To add an item from the asset BOM, follow these steps:</span></span>
+
+1. <span data-ttu-id="6c1fe-136">Valige **Lisa koosluse üksused**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-136">Select **Add BOM items**.</span></span>
+2. <span data-ttu-id="6c1fe-137">Valige üksus ja redigeerige vajadusel seotud teavet.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-137">Select the item, and edit the related information as you require.</span></span>
+3. <span data-ttu-id="6c1fe-138">Valige nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-138">Select **OK**.</span></span>
+
+<span data-ttu-id="6c1fe-139">Et saada ülevaadet sellest, kus varahalduses valitud real olevat kaupa kasutatakse, valige varade, hooldustöö tüübi vaikesätete, varuosade ja töökäskude puhul väärtus **Üksus, kus kasutatud**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-139">To get an overview that shows where the item on the selected line is used in relation to assets, maintenance job type defaults, spare parts, and work orders in Asset Management, select **Item where used**.</span></span> <span data-ttu-id="6c1fe-140">Lisateavet selle ülevaate kohta vt teemast [Üksus, kus kasutatud](../controlling-and-reporting/item-where-used.md).</span><span class="sxs-lookup"><span data-stu-id="6c1fe-140">For more information about this overview, see [Item where used](../controlling-and-reporting/item-where-used.md).</span></span>
+
+
+## <a name="add-an-expense-forecast-to-a-work-order"></a><span data-ttu-id="6c1fe-141">Kuluprognoosi lisamine töökäsule</span><span class="sxs-lookup"><span data-stu-id="6c1fe-141">Add an expense forecast to a work order</span></span>
+
+1. <span data-ttu-id="6c1fe-142">Valige lehel **Töökäsu hooldusprognoos** töökäsu töö. millel prognoos lisada.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-142">On the **Work order maintenance forecast** page, select the work order job to add a forecast to.</span></span>
+
+2. <span data-ttu-id="6c1fe-143">Tehke uue rea loomiseks kiirkaardil **Kulud** valik **Lisa**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-143">On the **Expense** FastTab, select **Add** to create a line.</span></span>
+
+3. <span data-ttu-id="6c1fe-144">Valige kategooria väljal **Kategooria**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-144">In the **Category** field, select a category.</span></span>
+
+4. <span data-ttu-id="6c1fe-145">Sisestage kogus väljale **Kogus**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-145">In the **Quantity** field, enter the quantity.</span></span>
+
+5. <span data-ttu-id="6c1fe-146">Sisestage sobivad väärtused väljadele **Omahind**, **Müügivaluuta** ja **Müügihind**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-146">In the **Cost price**, **Sales currency**, and **Sales price** fields, enter appropriate values.</span></span>
+
+6. <span data-ttu-id="6c1fe-147">Valige real kasutatav kulu tüüp väljal **Rea atribuut**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-147">In the **Line property** field, select the type of charge that should be used on the line.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="e3a13-138">Kiirkaardil **Hooldusprognoosi kogusummad** võite näha valitud töökäsu töö ja töökäsu igale vahekaardile loodud ridade arvu ülevaadet.</span><span class="sxs-lookup"><span data-stu-id="e3a13-138">On the **Maintenance forecast totals** FastTab, you can see an overview of the number of lines created on each tab, for the selected work order job and for the work order.</span></span> <span data-ttu-id="e3a13-139">Samuti näete töökäsu töö ja töökäsu prognoositud töötundide summat.</span><span class="sxs-lookup"><span data-stu-id="e3a13-139">Also, you can see a sum of forecasted work hours for the work order job and for the work order.</span></span>
+><span data-ttu-id="6c1fe-148">Kiirkaardil **Hooldusprognoosi kogusummad** kuvatakse ülevaade igale kiirkaardile loodud ridade arvust valitud töökäsu töö ja töökäsu jaoks.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-148">The **Maintenance forecast totals** FastTab shows an overview of the number of lines that have been created, for the selected work order job and for the work order, on each FastTab.</span></span> <span data-ttu-id="6c1fe-149">Samuti kuvatakse töökäsu töö ja töökäsu prognoositud töötundide summat.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-149">It also shows the total forecasted work hours for the work order job and the work order.</span></span>
+
+<span data-ttu-id="6c1fe-150">Alloleval joonisel kuvatakse lehe **Töökäsu hooldusprognoos** näide.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-150">The illustration below shows an example of the **Work order maintenance forecast** page.</span></span>
 
 ![Joonis 1](media/06-work-orders.png)
 
 
-## <a name="automatic-update-of-work-order-forecasts"></a><span data-ttu-id="e3a13-141">Töökäsu prognooside automaatne värskendamine</span><span class="sxs-lookup"><span data-stu-id="e3a13-141">Automatic update of work order forecasts</span></span>
+## <a name="automatic-update-of-work-order-forecasts"></a><span data-ttu-id="6c1fe-152">Töökäsu prognooside automaatne värskendamine</span><span class="sxs-lookup"><span data-stu-id="6c1fe-152">Automatic update of work order forecasts</span></span>
 
-<span data-ttu-id="e3a13-142">Varahalduses saate mistahes tunnikulude, üksuse kulude ja teistes moodulites värskendatud kuludega seotud töökäsu prognooside muudatusi automaatselt värskendada.</span><span class="sxs-lookup"><span data-stu-id="e3a13-142">In Asset Management, you can automatically update any changes in work order forecasts regarding hour costs, item costs, and expenses, which have been updated in other modules.</span></span> <span data-ttu-id="e3a13-143">Seda tehakse selleks, et kindlustada töökäsu prognoosides alati uusimate omahindade kasutamine.</span><span class="sxs-lookup"><span data-stu-id="e3a13-143">This is done to ensure that the latest cost prices are always used in your work order forecasts.</span></span> <span data-ttu-id="e3a13-144">Sarnaseid värskendusi on võimalik teha ka [hooldustöö tüübi prognoosidele](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span><span class="sxs-lookup"><span data-stu-id="e3a13-144">It is also possible to make similar updates for [maintenance job type forecasts](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span></span>
+<span data-ttu-id="6c1fe-153">Kui tunnikulud, üksuse kulud ja kulud värskendatakse Microsoft Dynamics 365 for Finance and Operationsi muudes moodulites, võidakse varahalduse töökäskude prognoosid automaatselt värskendada nende muudatuste peegeldamiseks.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-153">If hour costs, item costs, and expenses are updated in other modules in Microsoft Dynamics 365 for Finance and Operations, work order forecasts in Asset Management can automatically be updated to reflect those changes.</span></span> <span data-ttu-id="6c1fe-154">See funktsioon aitab tagada, et töökäsu prognoosides kasutatakse alati uusimaid omahindu.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-154">This capability helps guarantee that the latest cost prices are always used in your work order forecasts.</span></span> <span data-ttu-id="6c1fe-155">Sarnaseid värskendusi saate teha ka [hooldustöö tüübi prognoosidele](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span><span class="sxs-lookup"><span data-stu-id="6c1fe-155">You can also do similar updates for [maintenance job type forecasts](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span></span>
 
-1. <span data-ttu-id="e3a13-145">Klõpsake **Varahaldus** > **Perioodiline** > **Prognoos** > **Värskenda töökäsu prognoosi**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-145">Click **Asset management** > **Periodic** > **Forecast** > **Update work order forecast**.</span></span>
+1. <span data-ttu-id="6c1fe-156">Valige **Varahaldus** > **Perioodiline** > **Prognoos** > **Värskenda töökäsu prognoosi**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-156">Select **Asset management** > **Periodic** > **Forecast** > **Update work order forecast**.</span></span>
 
-2. <span data-ttu-id="e3a13-146">Rippdialoogis **Töökäsu prognoosi värskendamine** saate vajadusel lisada valikuid seoses konkreetsete töökäskude või töökäsu töödega.</span><span class="sxs-lookup"><span data-stu-id="e3a13-146">In the **Update work order forecast** drop-down dialog, you can add selections regarding specific work orders or work order jobs, if required.</span></span> <span data-ttu-id="e3a13-147">Nende valikute tegemiseks klõpsake **Filter**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-147">Click **Filter** to make those selections.</span></span>
+2. <span data-ttu-id="6c1fe-157">Dialoogi **Töökäsu prognoosi värskendamine** kiirkaardil **Kaasatavad kirjed** saate vajadusel lisada kindlate töökäskude ja töökäsu tööde valikud.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-157">In the **Update work order forecast** dialog, on the **Records to include** FastTab, you can add selections regarding specific work orders or work order jobs, as you require.</span></span> <span data-ttu-id="6c1fe-158">Asjakohaste valikute tegemiseks valige **Filtreeri**.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-158">Click **Filter** to make the relevant selections.</span></span>
 
-3. <span data-ttu-id="e3a13-148">Vajadusel saate seadistada automaatse värskenduse pakett-tööna kiirkaardil **Taustal käitamine**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-148">If required, you can set up the automatic update as a batch job on the **Run in the background** FastTab.</span></span>
+3. <span data-ttu-id="6c1fe-159">Vahekaardil **Taustal käitamine** saate vastavalt vajadusele seadistada automaatse värskenduse pakett-tööna.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-159">On the **Run in the background** FastTab, you can set up the automatic update as a batch job, as you require.</span></span>
 
-4. <span data-ttu-id="e3a13-149">Prognoosi värskendamise käivitamiseks klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="e3a13-149">Click **OK** to start the forecast update.</span></span>
+4. <span data-ttu-id="6c1fe-160">Valige **OK**, et alustada prognoosi värskendamist.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-160">Select **OK** to start the forecast update.</span></span>
 
+
+<span data-ttu-id="6c1fe-161">Alloleval joonisel kuvatakse dialoogi **Töökäsu prognooside värskendamine** näide.</span><span class="sxs-lookup"><span data-stu-id="6c1fe-161">The illustration below shows an example of the **Update work order forecast** dialog.</span></span>
 
 ![Joonis 2](media/07-work-orders.png)
-
