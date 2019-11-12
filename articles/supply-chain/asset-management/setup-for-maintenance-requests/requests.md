@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 609146ebc5a31e5b28ca9ed6e04ed82b6bb1b03e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250917"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571112"
 ---
 # <a name="maintenance-requests"></a>Puudumistaotluste loomine
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Saate seadistada teie eri tüüpi taotlusi oma ettevõttes kasutamiseks. Hooldustaotlused on üks tüüp. Hooldustaotlusi kasutatakse selleks, et taotleda kindla töö jaoks töökäsu esitamist. Hooldustaotluse saab luua iga kasutaja, kellel on juurdepääs varahalduse funktsioonile rakenduses Asset Management. Planeerija või haldur saab seejärel otsustada, kas hooldustaotlus tuleks teisendada töökäsuks või kas see peaks täitma oma elutsükli.
 
@@ -41,4 +41,4 @@ Saate seadistada teie eri tüüpi taotlusi oma ettevõttes kasutamiseks. Hooldus
 
 Järgneval illustratsioonil kuvatakse näidet loendilehest **Kõik hooldustaotlused**.
 
-![Joonis 1](media/01-setup-for-requests.png)
+![Kõigi hooldusnõuete loendileht](media/01-setup-for-requests.png)

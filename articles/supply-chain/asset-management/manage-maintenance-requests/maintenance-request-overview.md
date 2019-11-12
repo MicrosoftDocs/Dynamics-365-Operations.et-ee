@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 56d4abee451e6e22b9b9cc2fd36a13648202e7df
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: b19a92924d73847d9d2c09cd0ed111a9cbfdccbf
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847432"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571641"
 ---
 # <a name="maintenance-requests"></a>Puudumistaotluste loomine
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Hooldustaotlused on märkmed või avaldused, mis on loodud teavitama haldurit või plaanijat, et vara võib vajada hooldust või parandustööd, kuid ilma töötellimust loomata. Kui hooldustaotluse sisu loetakse kehtivaks, saab töötellimuse seejärel hooldustaotluse põhjal luua.
 
@@ -45,7 +45,7 @@ Hooldustaotlusi saab luua iga vara kohta varahalduses. Sõltuvalt sellest, kuida
 
 Hoolduspäringute vaatamiseks valige **Varahaldus**\>**Ühised**\>**Hooldustaotlused**\>**Kõik hooldustaotlused**, **Aktiivsed hooldustaotlused**või **Minu funktsionaalse asukoha hooldustaotlused**. Iga loendileht kuvab osa hooldustaotlusega seotud teabest.
 
-![Joonis 1](media/01-manage-maintenance-requests.png)
+![Hooldusnõuete vaatamine](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Kasutage loendilehte **Minu funktsionaalse asukoha hooldustaotlused**, et vaadata hooldustaotluste loendit, mis sisaldab kas funktsionaalseid asukohti, millega olete töötajana seotud või varasid, mis on installitud funktsionaalsetele asukohtadele, millega olete töötajana seotud. (Lisateavet hooldustöötajate funktsionaalsete asukohtade häälestamise kohta vt teemast [Hooldustöötajad ja töörühmad](../setup-for-objects/workers-and-worker-groups.md).)
@@ -54,7 +54,7 @@ Hoolduspäringute vaatamiseks valige **Varahaldus**\>**Ühised**\>**Hooldustaotl
 
 Kirje üksikasjade vaate avamiseks loendilehel **Kõik hooldustaotlused** ruudustiku vaates, valige link veerus **Hooldustaotlused**.
 
-![Joonis 2](media/02-manage-maintenance-requests.png)
+![Kuva hooldusnõude üksikasjad](media/02-manage-maintenance-requests.png)
 
 Tegumiriba nupud on korraldatud vahekaartidel. Järgmises tabelis kirjeldatakse lühidalt mooduli Asse Management nuppe.
 

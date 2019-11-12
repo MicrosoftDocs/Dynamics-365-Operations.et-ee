@@ -1,6 +1,6 @@
 ---
-title: Laomajanduse rakenduse installimise ja konfigureerimise ülevaade
-description: Selles teemas kirjeldatakse rakenduse Dynamics 365 Supply Chain Management – Ladustamine installimist ja konfigureerimist.
+title: Ladustamisrakenduse installimise ja konfigureerimise ülevaade
+description: Selles teemas kirjeldatakse rakenduse Dynamics 365 for Finance and Operations – Ladustamine installimist ja konfigureerimist.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251496"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548964"
 ---
-# <a name="install-and-configure-the-warehousing-app-overview"></a>Laomajanduse rakenduse installimise ja konfigureerimise ülevaade
+# <a name="install-and-configure-the-warehousing-app-overview"></a>Ladustamisrakenduse installimise ja konfigureerimise ülevaade
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251496"
 > Selles teemas kirjeldatakse, kuidas pilvejuurutuse korral konfigureerida ladustamist. Asutusesiseste juurutamiste korral ladustamise konfigureerimise kohta lugege teemat [Kohapealsete juurutuste ladustamine](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-Selles teemas kirjeldatakse rakenduse Dynamics 365 Supply Chain Management – Ladustamine installimist ja konfigureerimist.
+Selles teemas kirjeldatakse rakenduse Dynamics 365 for Finance and Operations – Ladustamine installimist ja konfigureerimist.
 
 Rakendus Ladustamine on saadaval Google Play poes ja Windowsi poes. Praeguse Dynamics 365 Supply Chain Managementi puhul pakutakse seda rakendust autonoomse komponendina, mis tähendab isejuurutamist laotoimingute jaoks kasutatavatel seadmetel. Rakenduse kasutamiseks tuleb rakendus igasse seadmesse alla laadida ja konfigureerida see oma Supply Chain Managementi keskkonnaga ühendust looma. See teema kirjeldab, kuidas rakendust oma seadmetesse installida. Samuti kirjeldatakse, kuidas konfigureerida rakendust Supply Chain Managementi keskkonnaga ühendust looma.
 

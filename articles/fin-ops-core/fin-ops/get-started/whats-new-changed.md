@@ -1,9 +1,9 @@
 ---
-title: Mis on uut või mida on muudetud? – avaleht
+title: Mis on uut või mida on muudetud Finance and Operationsi avalehel?
 description: See lehekülg suunab teid teemadele, mis võivad aidata teil saada lisateavet värskeima Finance and Operationsi versiooni uusimate funktsioonide kohta.
 author: josaw1
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c2dd8093102f92391cd782cda77afb17a3560010
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7559ef3aa3ce816d375f263ff4a4e0cf3d632249
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249293"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658709"
 ---
-# <a name="whats-new-or-changed-home-page"></a>Mis on uut või mida on muudetud? – avaleht
+# <a name="whats-new-or-changed-in-finance-and-operations-home-page"></a>Mis on uut või mida on muudetud Finance and Operationsi avalehel?
 [!include [banner](../includes/banner.md)]
 
-See lehekülg suunab teid teemadele, mis võivad aidata teil saada lisateavet värskeima Finance and Operationsi versiooni uusimate funktsioonide kohta.
+Selle lehe haldamine on lõpetatud alates 2019. aasta oktoobrist. Selles teemas sisalduv teave näitab, kust leida funktsiooniteavet lahenduse Finance and Operations rakenduste kohta, mis anti välja enne 2019. aasta oktoobrit.
 
 Teavet uusimale versioonile täiendamiseks vaadake jaotisest [Viimasele uuendusele täiendamise protsess](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
@@ -49,13 +49,6 @@ Selles tabelis on loetletud rakenduse põhiversioonid. Igakuiseid pilvevärskend
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0.6</td>
-<td>10.0.234</td>
-<td>November 2019</td>
-<td><a href="whats-new-changed-10-0-6.md">Funktsioonide eelvade rakenduse Dynamics 365 for Finance and Operations versioonile 10.0.6 (November 2019)</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.5</td>
@@ -183,13 +176,6 @@ Selles tabelis on loetletud rakenduse põhiversioonid. Igakuiseid pilvevärskend
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platvormivärskendus update 30</td>
-<td>7.0.5407</td>
-<td>November 2019</td>
-<td><a href="whats-new-platform-update-30.md">Funktsioonide eelvade rakenduse Dynamics 365 for Finance and Operations platvormivärskendusele 30 (November 2019)</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Platvormivärskendus update 29</td>

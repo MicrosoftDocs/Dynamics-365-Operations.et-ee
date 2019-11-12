@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660038060826ade9301e50143e49b53ba3fcd3ab
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f96fcc7ebb8928c6d6b17b30465ad1625d9b5be4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783213"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571066"
 ---
-# <a name="asset-criticalities"></a>Varade kriitilisuse
+# <a name="asset-criticality-types"></a>Varade kriitilisuse tüübid
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Teemas selgitatakse varade kriitilisuse tüüpe varahalduses. Varade kriitilisus on seotud varaga ja kantakse töötellimustele üle. Töötellimuse puhul ei saa seda muuta. Varade kriitilisust kasutatakse töökäsu kriitilisuse arvutamiseks töötellimuse planeerimisel. Teisisõnu kasutatakse seda arvutamiseks, millises ulatuses mõjutab vara hooldustöö tootmisgraafikut ja tootlikkust teie ettevõttes. Lisateabe saamiseks häälestuse kohta, mis on seotud töötellimuse planeerimisel reitingusummade arvutamisega, vt teemat [Varahalduse parameetrid](../setup-for-objects/enterprise-asset-management-parameters.md).
 
@@ -43,7 +43,7 @@ Kriitilisuse seadistamiseks looge esmalt kriitilisuse tüübid, mida tuleks kasu
 4. Väljale **Nimi** sisestage kriitilisuse tüübi nimi.
 5. Väljale **Tegur** sisestage tegur. Seda tegurit kasutatakse töökäsu plaanimise arvutamisel, et määrata kriitilisuse kirje, mida tuleks kasutada. (Suurima teguriga kirjet kasutatakse alati.) See säte on asjakohane, juhul kui nagu on näidatud järgmisel joonisel, luuakse kriitilisuse read, millel on sama kriitilisuse väärtus.
 
-    ![Joonis 1](media/23-setup-for-objects.png)
+    ![Kriitilisuse tüüpide leht](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Vara kriitilisuse häälestus
 

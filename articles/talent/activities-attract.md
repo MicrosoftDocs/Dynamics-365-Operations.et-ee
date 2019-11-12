@@ -1,5 +1,5 @@
 ---
-title: Tegevused rakenduses Microsoft Dynamics 365 Talent – Attract toimuvates protsessides
+title: Tegevused värbamisprotsessides
 description: Selles teemas kirjeldatakse eri tüüpi tegevusi, mida saab kasutada värbamisprotsessis rakenduses Microsoft Dynamics 365 Talent – Attract.
 author: hasrivas
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2e40250bb801f6222d16400b2698e5b0df47a404
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 09ac8f5431de0809b9a3a23e1175d5027153e96c
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008681"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552159"
 ---
 # <a name="activities-in-hiring-processes"></a>Tegevused värbamisprotsessides
 

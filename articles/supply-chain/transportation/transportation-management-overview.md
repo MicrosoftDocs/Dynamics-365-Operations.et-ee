@@ -1,6 +1,6 @@
 ---
 title: Transpordihalduse ülevaade
-description: Selles teemas antakse ülevaade transpordihalduse funktsionaalsusest rakenduses Finance and Operations.
+description: Selles teemas antakse ülevaade transpordihalduse funktsionaalsusest rakenduses Supply Chain Management.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: fa59a8e6e4744c776ec0e1dc84b1f004dbd796f6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2027057"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653575"
 ---
 # <a name="transportation-management-overview"></a>Transpordihalduse ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas antakse ülevaade transpordihalduse funktsionaalsusest rakenduses Finance and Operations.
+Selles teemas antakse ülevaade transpordihalduse funktsionaalsusest rakenduses Supply Chain Management.
 
 Moodul Transpordihaldus võimaldab kasutada ettevõtte transporti ning tuvastada ka hankijat ja marsruudilahendusi nii sissetulevate kui ka väljaminevate tellimuste puhul. Näiteks saate tuvastada kiireima marsruudi või soodsaima transpordihinna. Järgmine tabel kirjeldab peamisi stsenaariume transpordihalduse kasutamiseks.
 
@@ -67,23 +67,23 @@ Moodul Transpordihaldus võimaldab kasutada ettevõtte transporti ning tuvastada
 </tbody>
 </table>
 
-## <a name="planning-transportation-in-finance-and-operations"></a>Transpordi plaanimine rakenduses Finance and Operations
+## <a name="planning-transportation-in-supply-chain-management"></a>Transpordi plaanimine rakenduses Supply Chain Management
 Transpordihalduse moodulis võib transpordi plaanimine põhineda tellimustel või saadetistel, mis nende tellimuste põhjal luuakse. Saadetised on alati mingil ajahetkel olemas, kuid neid pole transpordi plaanimiseks vaja. Üleviimistellimused kuuluvad väljamineva transpordi stsenaariumi ja neid saab plaanida koos müügitellimustega. 
 
 ![Koorma joonis](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Sissetulev transport
-Kui tellite hankijalt tellimuse kaubad ja kaubad tuleb lattu tarnida, peate soovi korral ise kaupade transpordi korraldama. Rakendust Finance and Operations saab kasutada transpordi ja sissetuleva koorma vastuvõtmise plaanimiseks. Järgmisel joonisel on näidatud äriprotsessi voog sissetuleva koorma transpordi planeerimiseks. 
+Kui tellite hankijalt tellimuse kaubad ja kaubad tuleb lattu tarnida, peate soovi korral ise kaupade transpordi korraldama. Rakendust Supply Chain Management saab kasutada transpordi ja sissetuleva koorma vastuvõtmise plaanimiseks. Järgmisel joonisel on näidatud äriprotsessi voog sissetuleva koorma transpordi planeerimiseks. 
 
 ![Äriprotsessi voog sissetulevate koormate transportimiseks](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Väljaminev transport
-Saate planeerida ja töödelda väljaminevat koormat konkreetsete kaupade saatmiseks ettevõtte laost kliendile. Rakendust Finance and Operations saab kasutada transpordi ja väljamineva koorma lähetamise plaanimiseks. Järgmisel joonisel on näidatud äriprotsessi voog väljaminevate koormate planeerimiseks ja töötlemiseks. 
+Saate planeerida ja töödelda väljaminevat koormat konkreetsete kaupade saatmiseks ettevõtte laost kliendile. Saate kasutada rakendust Supply Chain Management väljamineva koorma transportimise ja vedamise plaanimiseks. Järgmisel joonisel on näidatud äriprotsessi voog väljaminevate koormate planeerimiseks ja töötlemiseks. 
 
 ![Väljaminevate koormate plaanimine ja töötlemine](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Koorma koostamine
-Finance and Operations pakub koorma koostamise strateegiat, mille nimi on Mahupõhine koorma koostamise strateegia. See strateegia võimaldab kasutada koorma mallil kõrguse ja kaalu kohta määratud maksimumväärtusi või alistada sätted, sisestades uusi väärtusi. Selle strateegia kasutamiseks valige see väljalt **Koorma koostamise strateegia** kiirkaardil **Seadistus** lehel **Koorma koostamise töölaud**. Lisaks saate lisada oma koorma koostamise strateegiaid, luues rakendusobjektide puul (AOT) uue klassi.
+Supply Chain Management pakub koorma koostamise strateegiat, mille nimi on Mahupõhine koorma koostamise strateegia. See strateegia võimaldab kasutada koorma mallil kõrguse ja kaalu kohta määratud maksimumväärtusi või alistada sätted, sisestades uusi väärtusi. Selle strateegia kasutamiseks valige see väljalt **Koorma koostamise strateegia** kiirkaardil **Seadistus** lehel **Koorma koostamise töölaud**. Lisaks saate lisada oma koorma koostamise strateegiaid, luues rakendusobjektide puul (AOT) uue klassi.
 
 
 

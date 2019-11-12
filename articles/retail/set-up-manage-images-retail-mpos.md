@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 1776220766984339c7c289f7b55252fb0c0bb2a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024840"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570652"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Piltide seadistamine ja haldamine Retail Modern POS-i (MPOS) puhul
 
@@ -83,9 +83,7 @@ Järgmistes protseduurides seadistatakse näitena pildid kataloogiüksuse jaoks.
     [![Piltide dialoogiboks](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
-> Saate kasutada sama protseduuri kõigi viie üksuse puhul, mida toetatakse: Töötaja, Klient, Kataloog, Kategooria ja Tooted. Kataloogi tooted (kataloogi tasemel määratud tooted) ja Kanali tooted (kanali tasemel määratud tooted) kasutavad meediamalli, mis on määratud üksusele Tooted. Meediamalli Tooted puhul saate valida toote kohta kuvatavate toote piltide arvu. Samuti saate määrata antud tootele vaikepildi. Sel moel saate vätida MPOS-is tühje pilte ja aitate juhtida, milliseid pilte kasutatakse toote puhul vaikepildina. Järgmises näites on igal tootel viis pilti ja esimene pilt on määratud vaikepildiks. Tootevariante koheldakse põhitoodetega samamoodi. Pildifaili failinimi peab põhinema tootekoodil. Mõned tähemärgid varjestatakse failinime loomisel. Seetõttu tasub failinimi kinnitada, kasutades jaotist **Pildi URL-ide loomine Exceli jaoks**.
->
-> [![Meediamalli määratlemise dialoogiboks](./media/prods.png)](./media/prods.png)
+> Saate kasutada sama protseduuri kõigi viie üksuse puhul, mida toetatakse: Töötaja, Klient, Kataloog, Kategooria ja Tooted. Kataloogi tooted (kataloogi tasemel määratud tooted) ja Kanali tooted (kanali tasemel määratud tooted) kasutavad meediamalli, mis on määratud üksusele Tooted. Meediamalli Tooted puhul saate valida toote kohta kuvatavate toote piltide arvu. Samuti saate määrata antud tootele vaikepildi. Sel moel saate vätida MPOS-is tühje pilte ja aitate juhtida, milliseid pilte kasutatakse toote puhul vaikepildina. Järgmises näites on igal tootel viis pilti ja esimene pilt on määratud vaikepildiks. Tootevariante koheldakse põhitoodetega samamoodi. Pildifaili failinimi peab põhinema tootekoodil. Mõned tähemärgid varjestatakse failinime loomisel. Seetõttu tasub failinimi kinnitada, kasutades jaotist **Pildi URL-ide loomine Exceli jaoks**. Vt selle artikli jaotist [Ülekirjutamine funktsiooniga Excelis redigeerimine](#overwrite-by-using-edit-in-excel).
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>Sünkroonimistööd meediamalli saatmiseks kanali poolele
 
@@ -110,8 +108,6 @@ Nagu te eelmises jaotises teada saite, toetab antud üksuse meediamall ainult ü
 
     > [!IMPORTANT]
     > Alati kui meediamalli muudetakse, peate klõpsama suvandit **Generate**, enne kui saate kasutada funktsiooni Excelis redigeerimine.
-
-    [![Pildi URL-ide loomine Exceli kiirkaardi jaoks](./media/excel1.jpg)](./media/excel1.jpg)
 
     Näete nüüd eelvaadet pildi URL-idest, mis loodi viimase salvestatud meediamalli alusel.
 

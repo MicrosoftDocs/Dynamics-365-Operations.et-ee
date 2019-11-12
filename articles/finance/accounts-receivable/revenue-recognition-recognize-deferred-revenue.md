@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 244321e1eb246c46260326a8892924d9d9da75d3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175901"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570352"
 ---
 # <a name="recognize-deferred-revenue"></a>Edasilükkunud tulu tuvastamine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Tulu tuvastamise funktsiooni ei saa veel funktsioonihalduse kaudu sisse lülitada. Praegu peate selle sisselülitamiseks kasutama konfiguratsioonivõtmeid.
+> Tulu tuvastamise funktsiooni ei saa funktsioonihalduse kaudu sisse lülitada. Praegu peate selle sisselülitamiseks kasutama konfiguratsioonivõtmeid.
 
 Selles teemas kirjeldatakse tulu tuvastamise protsessi tulu tuvastamise graafikuga. Pärast müügitellimuse arve sisestamist luuakse iga tulugraafikuga müügitellimuse rea jaoks tulu tuvastamise graafik. Real olevat tulu graafikut kasutatakse selleks, et määrata, kas rea tulu tuleks edasi lükata.
 

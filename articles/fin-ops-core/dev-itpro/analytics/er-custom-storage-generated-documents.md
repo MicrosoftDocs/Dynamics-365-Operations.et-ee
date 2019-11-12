@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a1c41cd4440eaf70f720bfd64884e6ef4662f87a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f65118b6a7393ced9d80c30fad7540a7b27da6c7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181469"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569080"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Loodud dokumentidele kohandatud talletuskoha määramine
 
@@ -56,7 +56,7 @@ Dokumentide loomiseks, mille jaoks plaanite lisada kohandatud talletuskoha, loog
 
 Määramaks, kuidas elektroonilise aruandluse vormingu loodavaid dokumente suunatakse, peate konfigureerima [ER-i sihtkohad](electronic-reporting-destinations.md). Peate igas ER-i sihtkohas, mis on konfigureeritud talletama loodud dokumente failidena, määrama dokumendihalduse raamistiku dokumenditüübi. Erinevate ER-i vormingute loodavate dokumentide suunamiseks saab kasutada erinevaid dokumenditüüpe.
 
-1. Lisage varem loodud või imporditud ER-i vormingule uus [dokumenditüüp](../../fin-and-ops/organization-administration/configure-document-management.md). Järgneval joonisel on dokumenditüübiks **FileX**.
+1. Lisage varem loodud või imporditud ER-i vormingule uus [dokumenditüüp](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Järgneval joonisel on dokumenditüübiks **FileX**.
 2. Selle dokumenditüübi teistest dokumenditüüpidest eristamiseks lisage selle nimesse konkreetne märksõna. Järgneval joonisel on nimeks näiteks **(KOHALIK) kaust**.
 3. Määrake väljal **Klass** suvand **Lisa fail**.
 4. Määrake väljal **Grupp** suvand **Fail**.

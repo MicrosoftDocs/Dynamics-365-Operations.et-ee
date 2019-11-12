@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc8e4b942c3c5307d90bfd08a33a8b27c4352d2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249723"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658806"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentide või koolituse loomine tegevuse salvestaja abil
 
@@ -68,21 +68,21 @@ Kui loote uut tegevuse salvestust või tuginete oma salvestise puhul Microsofti 
 
 See on redigeerimispaan, mida marginaali lisamisel näete, kui oma salvestist teete. Sisestage marginaali pealkiri väljale **Pealkiri**. 
 
-[![kuva1](./media/screen1.png)](./media/screen1.png) 
+[![Pealkirja marginaaliga redigeerimispaan](./media/screen1.png)](./media/screen1.png) 
 
 Selline näeb välja marginaali pealkiri tegevusjuhises mullina. 
 
-[![kuva2](./media/screen2.png)](./media/screen2.png)
+[![Pealkirja marginaali ilme tegevuse juhises](./media/screen2.png)](./media/screen2.png)
 
 -   **Märkmed.** Märkmete marginaal kuvatakse pärast toimingu teksti, mille tegevuse salvestaja automaatselt loob. Tegevuse juhises on see nähtav ainult juhul, kui kasutaja klõpsab linki **Kuva rohkem** ülesande juhise mullis. Kasutage seda tüüpi marginaali millegi kirjeldamiseks, mida kasutajal on toimingu tegemiseks vaja teada.
 
 See on redigeerimispaan, mida marginaali lisamisel näete, kui oma salvestist teete. Sisestage marginaali märkused väljale **Märkused**. 
 
-[![kuva3](./media/screen3.png)](./media/screen3.png) 
+[![Redigeerimispaan marginaaliga väljal Märkused](./media/screen3.png)](./media/screen3.png) 
 
 Selline näeb välja märkuste marginaal tegevusjuhises mullina.
 
-[![kuva4](./media/screen4.png)](./media/screen4.png)
+[![Märkuste marginaali ilme tegevuse juhises](./media/screen4.png)](./media/screen4.png)
 
 -   **Teabeetapp**: need marginaalid luuakse paremklõpsuga juhtelemendil või suvalises kohas vormil &lt; **Tegevuse salvestaja** &lt; **Lisa teabeetapp.** Teabeetapid kuvatakse nummerdatud etapina igas punktis, kuhu selle sisestate, isegi kui kasutajaliideses ei salvestatud ühtki tegevust. Saate lisada vormi-taseme teabeetapi või juhtelemendiga seotud teabeetapi. Kui teabeetapp on vormiga seotud, ilmub vormile tegevuse juhise esitamisel tegevuse juhise „mull” ilma kursorita. Kui teabeetapp on seotud juhtelemendiga, osutab tegevuse juhise „mull” tegevuse juhise esitamisel juhtelemendina. Spikripaanil kuvatakse teabeetapi mis tahes sisestatud tekstiga marginaal nummerdatud etapina. Kasutage teabeetappe kasutaja ettevalmistamiseks järgmisteks toiminguteks, väljaspool rakendust tehtavate toimingute kirjeldamiseks või teistele salvestistele viitamiseks (kuigi marginaalides ei saa hüperlinke luua).
 

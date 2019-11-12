@@ -3,7 +3,7 @@ title: Töökäsu kaustad
 description: Selles teemas kirjeldatakse, kuidas töötada varahalduses töökäsu kaustadega.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,95 +16,96 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 069fa02073808fd7bbaac9bc1603e49ce4d450eb
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 161244cb4451ddc7b13b579fd02e828a61adeea4
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875610"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626358"
 ---
 # <a name="work-order-pools"></a>Töökäsu kaustad
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
+Töökäsu kaustu saate kasutada töökäskude grupeerimiseks, millel on midagi ühist. Siin on mõned näited asjadest, mille jaoks saate luua töökäskude kaustu.
+
+- Töömeeskonnad, näiteks hooldustööde meeskond A või hooldustööde meeskond B  
+
+- Kutseoskused, nagu elektrikud või torumehed  
+
+- Füüsilised asukohad  
+
+- Ajagraafikud, nagu nädalad või muud perioodid  
+
+Kui vaja, saate panna ühe töökäsu mitmesse töökäsukausta.
 
 
-Töökäsu kaustu saate kasutada töökäskude grupeerimiseks, millel on midagi ühist. Näiteks saate luua töökäsu kaustu
+## <a name="create-a-work-order-pool"></a>Töökäsukaustade loomine
 
-- töömeeskondadele, näiteks hooldustööde meeskond A, hooldustööde meeskond B  
+Loendilehel **Kõik töökäskude kaustad** või **Aktiivsed töökäskude kaustad** saate ülevaate oma töökäskude kaustadest ja luua uusi kaustu.
 
-- Kutseoskustele, näiteks elektrikud või torumehed  
+1. Valige **Varahaldus** > **Üldine** > **Töökäskude kaustad** > **Kõik töökäskude kaustad** või **Aktiivsed töökäskude kaustad**.
 
-- füüsilisele asukohale  
+2. Valige suvand **Uus**.
 
-- ajagraafikutele, nt nädalad või muud perioodid  
+3. Väljale **Kaust** sisestage töökäsukausta ID.
 
+4. Väljale **Nimi** sisestage nimi.
 
-Vajadusel saab ühe töökäsu paigutada mitmesse töökäsukausta.
+5. Seadke suvandi **Aktiive** väärtuseks **Jah**, et näidata, et töökäsukaust on aktiivne.
 
+6. Seadke suvandi **Kustuta töökäsu seosed** väärtuseks **Jah**, kui töökäsud tuleb töökäskude kaustast automaatselt eemaldada.
 
-## <a name="create-work-order-pool"></a>Töökäskude kaustade loomine
+7. Valige väljal **Kustuta töötsükli olek** tööoleku töötsükli olek. Näiteks saab töökäsu töötsükli olekuks määrata, et automaatselt kustutatakse seosed töökäskude kaustades.
 
-Kõigis **Töökäskude kaustades** või **Aktiivsete töökäskude** kaustades saate ülevaate oma töökäskude kaustadest ja luua uusi kaustu.
+    Saate alustada töökäskude lisamist oma töökäskude kausta kohe.
 
-1. Klõpsake **Varahaldus** > **Ühised** > **Töökäskude kaustad** > **Kõik töökäskude kaustad** või **Aktiivsed töökäskude kaustad**.
+8. Tehke kiirkaardil **Töökäsud** valik **Lisa rida**.
 
-2. Klõpsake valikut **Uus**.
+9. Väljal **Töökäsk** valige töökäsk. Seotud väljad värskendatakse automaatselt.
 
-3. Sisestage töökäsu ID väljale **Kaust** ja nimi väljale **Nimi**.
+10. Täiendavate töökäskude lisamiseks korrake samme 8 kuni 9.
 
-4. Valige Jah nupul **Aktiivne**, et näidata, et töökäsu kaust on aktiivne.
+11. Kui lisatud töökäsud tuleb teha kindlas järjekorras, saate käsu täpsustamiseks sisestada väljal **Sortimisjärjestus** numbrid **1**, **2**, **3** jne.
 
-5. Kui soovite, et töökäsud töökäskude kaustast automaatselt eemaldatakse, märkige ruut **Kustuta töökäskude seosed**.
+12. Töökäsukausta kõigi töökäskude loendi vaatamiseks tehke toimingupaanil vahekaardi **Töökäskude kaust** grupis **Töökäskude kaustade kuvamisega seotud** valik **Töökäsud**, et avada loendileht **Kõik töökäsud**.
 
-6. Valige väljal **Kustuta töötsükli olek** tööoleku töötsükli olek. Näiteks saab töökäsu töötsükli olekuks määrata, et automaatselt kustutatakse seosed töökäskude kaustades.
+13. Hooldusgraafiku, planeerimata töökäskude ja plaanitud töökäskude täiskoormuse arvutamiseks ja vaatamiseks tehke toimingupaanil vahekaardi **Töökäskude kaust** grupis **Töökäskude kaustade kuvamisega seotud** valik **Täiskoormus**, et avada dialoogiboks **Täiskoormuse arvutamine**.
 
-7. Saate alustada töökäskude lisamist oma töökäskude kausta kohe. Klõpsake kiirkaardil **Töökäsud** valikut **Lisa rida**.
+14. Hooldusgraafikuga, planeerimata töökäskudega ja plaanitud töökäskudega seotud kaupade (varuosad ja muud nõutavad kaubad) prognooside arvutamiseks ja vaatamiseks tehke toimingupaanil vahekaardi **Töökäskude kaust** grupis **Töökäskude kaustade kuvamisega seotud** valik **Kauba prognoos**, et avada dialoogiboks **Kauba prognoosi arvutamine**.
 
-8. Väljal **Töökäsu tüüp** valige töökäsu tüüp. Seotud väljad värskendatakse automaatselt.
+15. Töökäsukausta töökäskudega seotud ostutaotluste loendi vaatamiseks tehke toimingupaanil vahekaardi **Töökäskude kaust** grupis **Hange** valik **Töökäsu ostutaotlus**, et avada loendileht **Töökäsu ostutaotlus**.
 
-9. Kui soovite lisada rohkem töökäske, korrake samme 7-8.
-
-10. Väljal **Sorteerimisjärjestus**saate näidata, kas töökäsud tuleb täita kindlas järjekorras. Sisestage numbrid 1, 2, 3 jne, et näidata valitud töökäskude kindlat järjestust.
-
-11. Klõpsake nuppu **Töökäsklused**, et näha loendit kõikidest töökäskude kausta kaasatud töökäskudest.
-
-12. Klõpsake nuppu **Võimsuse koormus** avamaks **Võimsuse koormus**, et arvutada ja vaadata võimsuse koormust hooldusgraafiku, planeerimata töökäskude ja plaanitud töökäskude jaoks.
-
-13. Klõpsake nuppu **kauba ennustus** avamaks **kauba ennustus**, et arvutada ja vaadata kaupade (varuosad ja muud vajalikud kaubad), mis on seotud hooldusgraafiku, planeerimata töökäskude ja plaanitud töökäskudega.
-
-14. Klõpsake nuppu **Töökäsu ostutaotlus**, et avada loend **Töökäsu ostutaotlus** ja näha töökäsukaustas töökäskudega seotud ostutaotlusi.
-
-15. Klõpsake nuppu **Töökäsu ostutaotlus**, et avada loend **Töökäsu ostutaotlus** ja näha töökäsukaustas töökäskudega seotud ostutellimusi.
+16. Töökäsukausta töökäskudega seotud ostutellimuste loendi vaatamiseks tehke toimingupaanil vahekaardi **Töökäskude kaust** grupis **Hange** valik **Töökäsu ost**, et avada loendileht **Töökäsu ost**.
 
 >[!NOTE]
->Kui töökäsukaust ei ole enam teie tööplaani jaoks oluline, määrake selle kausta märkekast **Aktiivne** loendi **Töökäsukaust** vaates kui Ei.
+>Kui töökäsukaust ei ole enam teie tööplaanis oluline, määrake lehe **Töökäskude kaust** loendivaates selle kausta suvandi **Aktiivne** väärtuseks **Ei**.
 
-Valige märkeruut **Kustuta töökäsu seosed**, kui soovite kustutada kõik töökäsu read, näiteks tühja kausta loomiseks, mida saate hiljem kasutada teiste töökäskude puhul. Pidage meeles tühjendada märkeruut **Kustuta töökäsu seosed**, kui soovite kasutada töökäsu kausta hiljem uute töökäskude seoste loomiseks.
+Kõigi töötaja tellimuseridade kustutamiseks seadke suvandi **Kustuta töökäsu seosed** väärtuseks **Jah**. See suvand on kasulik näiteks juhul, kui soovite luua tühja kausta, mida saate hiljem kasutada teiste töökäskude jaoks. Kui olete hiljem valmis kasutama töökäsukausta uute töökäsusuhete loomiseks, pidage meeles, et suvandi **Kustuta töökäsu seosed** väärtuseks tuleb määrata **Ei**.
 
+Alloleval joonisel on kujutatud loendilehe **Töökäskude kaust** näide.
 
 ![Joonis 1](media/22-work-orders.png)
 
 
-## <a name="add-work-order-to-a-work-order-pool"></a>Töökäsukaustale töökäsu lisamine
+## <a name="add-a-work-order-to-a-work-order-pool"></a>Töökäsukaustale töökäsu lisamine
 
-Nagu on kirjeldatud ülemises jaotises, saate töökäsu kaustale lisada töökäsu, kui loote kausta. Töökäsu saate lisada ka töökäsukausta, mis pärineb ühest **Kõik töökäsud**.
+Nagu on kirjeldatud eelmises jaotises, saate töökäsu kaustale lisada töökäsu, kui loote selle kausta. Töökäsukausta saate töökäske lisada ka loendilehel **Kõik töökäsud** või **Aktiivsed töökäsud**.
 
-1. Klõpsake **Varahaldus** > **Tavaline** > **Töökäsud** > **Kõik töökäsud** või **Aktiivsed töökäsud**.
+1. Valige töökäsk ja seejärel tehke toimingupaani vahekaardi **Töökäsk** grupis **Hooldamine** valik **Töökäskude kaust**.
 
 2. Valige loendist töökäsk ja klõpsake käsku **Töökäsukaust.**
 
-3. Valige Lisa väljal **Lisa/eemalda**.
+3. Dialoogiaknas **Töökäskude kausta hooldamine** tehke väljal **Lisa/eemalda** valik **Lisa**.
 
-4. Valige töökäsukaust väljal **Kaust**.
+4. Väljal **Kaust** valige töökäsukaust.
 
-5. Klõpsake valikut **OK**.
+5. Valige nupp **OK**.
 
-6. Pärast töökäsu lisamist töökäsukausta, kui soovite töökäsukausta lisada kindlasse seeriasse, avage üks töökäsukausta loendi lehtedest, valige kaust ja klõpsake käsku **Redigeeri** ning korrigeerige töökäskude sortimisjärjestust kaustas vormingul **Töökäsukaust** > kiirkaart **Töökäsud** > väli **Sortimisjärjestus**.
+6. Selleks, et seada lisatud töökäsud töökäsukaustas kindlasse järjekorda, valige kaust loendilehel **Kõik töökäskude kaustad** või **Aktiivsed töökäskude kaustad** ja seejärel valige **Redigeeri**. Seejärel kasutage lehe **Töökäskude kaust** kiirkaardil **Töökäsud** välja **Sortimisjärjestus**, et kohandada kausta kuuluvate töökäskude sortimisjärjestust.
 
-Kui soovite valitud töökäsu eemaldada töökäsukaustast, valige 3. etapis käsk Eemalda.
+Töökäsukaustast mõne töökäsu eemaldamiseks korrake neid etappe, kuid valige 3. etapis **Eemalda**.
 

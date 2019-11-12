@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aba85b63abc11c9f32023e8499a02728dfc86bd1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188253"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578191"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Täpsema panga vastavusseviimise importimisprotsessi seadistamine
 
@@ -36,7 +36,7 @@ Pangaväljavõtte importimise seadistus erineb, olenevalt teie elektroonilise pa
 ## <a name="set-time-zone-preference"></a>Ajavööndi eelistuse seadistamine
 Pangaväljavõtte importimise sätete konfigureerimisel võib olla oluline arvestada imporditavate pangaväljavõtte failide kuupäeva-kellaaja ajavööndi andmeid. Vaikimisi eeldatakse, et kõik kuupäeva ja kellaaja väärtused on juba kooskõlastatud maailmaajaga (UTC) ja seetõttu ei rakendata andmeid importimisel ajavööndite konverteerimist. 
 
-Saadaval on suvand andmete importimisel kasutatava ajavööndi määramiseks. See suvan on saadaval väljal **Ajavööndi eelistus** igal **Algandmete vorminduse üksikasjade** lehel (kiirkaart **Andmehalduse tööruum > Lähteandmete konfigureerimine > Andmete vormingu määramine > Piirkondlikud sätted**). Teie sisestatud ajavööndi eelistus rakendub kõigile importimistele, mis kasutab seda lähteandmete vormingut. Saate luua nii palju andmeallika vorminguid kui vaja, et importida andmeid mitmest ajavööndist. Ajavööndi eelistus peaks olema impordifaili kohaliku kuupäeva ja kellaaja andmete ajavöönd. Ajavööndi eelistus peaks olema impordifaili kohaliku kuupäeva-kellaaja andmete ajavöönd. 
+Saadaval on suvand andmete importimisel kasutatava ajavööndi määramiseks. See suvan on saadaval väljal **Ajavööndi eelistus** igal **Algandmete vorminduse üksikasjade** lehel (kiirkaart **Andmehalduse tööruum > Lähteandmete konfigureerimine > Andmete vormingu määramine > Piirkondlikud sätted**). Teie sisestatud ajavööndi eelistus rakendub kõigile importimistele, mis kasutab seda lähteandmete vormingut. Saate luua nii palju andmeallika vorminguid kui vaja, et importida andmeid mitmest ajavööndist.  
 
 See ajavöönd ei pruugi olla sama kui kasutaja või ettevõtte ajavöönd, seega selgitage välja, millist ajavööndit kuupäeva ja kellaaja andmed kasutavad. Ajavööndi eelistuse määramisel soovitame arvestada järgmiste punktidega. 
 

@@ -1,12 +1,14 @@
-- name: Rakenduse Finance and Operations arendamine ja haldus
+- name: Finance and Operationsi rakenduste juurutamine ja haldamine
   items:
-    - name: Rakenduse Finance and Operations arendamine ja haldus
+    - name: Finance and Operationsi rakenduste juurutamine ja haldamine
       items:
-        - name: Rakenduse Finance and Operations arendamine ja haldus
+        - name: Finance and Operationsi rakenduste juurutamine ja haldamine
           href: index.md
         - name: Mis on uut või mida on muudetud?
           items:
-            - name: Platform update 30 (november 2019) eelvaatefunktsioonid
+            - name: Platform update 31 (jaanuar 2020) eelvaatefunktsioonid
+              href: get-started/whats-new-platform-update-31.md
+            - name: Platform update 30 (november 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
             - name: Platform update 29 (oktoober 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-29.md
@@ -60,11 +62,13 @@
                   href: business-events/how-to/how-to-workflow.md
                 - name: Ärisündmused ja Microsoft Forms Pro
                   href: business-events/how-to/FormsPro.md
-                - name: Ärisündmused ja Azure'i sündmuse keskused
+                - name: Ärisündmused ja Azure'i sündmuste keskused
                   href: business-events/how-to/event-hub.md
+                - name: Ärisündmused finantsperioodi sulgemisel
+                  href: business-events/how-to/period-close.md
         - name: Pidev tarne
           items:
-            - name: Pideva tarne kodulehekülg
+            - name: Pideva tarne koduleht
               href: dev-tools/continuous-delivery-home-page.md
             - name: Arenduse ja pideva tarne KKK
               href: dev-tools/continuous-delivery-faq.md
@@ -80,7 +84,7 @@
               href: data-entities/integration-overview.md
             - name: Andmete integratsiooni API-d
               items:
-                - name: Andmehalduse paketi REST API
+                - name: Andmehalduspaketi REST API
                   href: data-entities/data-management-api.md
                 - name: Teenuse lõpp-punktid
                   items:
@@ -302,6 +306,26 @@
                   href: database/dbmovement-scenario-goldenconfig.md
                 - name: Purustav katse
                   href: database/dbmovement-scenario-destructivetests.md
+            - name: RESTful API
+              items:
+                - name: Ülevaade
+                  href: database/api/dbmovement-api-overview.md
+                - name: Versioonimine ja tugi
+                  href: database/api/dbmovement-api-versioning-support.md
+                - name: Autentimine
+                  href: database/api/dbmovement-api-authentication.md
+                - name: Ahendamine
+                  href: database/api/dbmovement-api-throttling.md
+                - name: Viide
+                  items:
+                    - name: API v1 viide
+                      href: database/api/v1/dbmovement-api-v1-overview.md
+                    - name: Andmebaasivarunduste loetlemine
+                      href: database/api/v1/reference-list-backups.md
+                    - name: Andmebaasivärskenduse loomine
+                      href: database/api/v1/reference-create-refresh.md
+                    - name: Toimingu/tegevuse oleku toomine
+                      href: database/api/v1/reference-get-status.md
         - name: Demoandmed
           items:
             - name: Demoandmete ülevaade
@@ -1213,7 +1237,7 @@
             - name: Rakenduste Finance and Operations ja Lifecycle Services tugi
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 toe ülevaade
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/dev-itpro/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: 'Toe hankimine rakenduse Finance and Operations jaoks, mida käitab 21Vianet Hiinas'
               href: lifecycle-services/21vianet-support.md
             - name: Taotluste esitamine Dynamicsi tehnikaosakonna meeskonnale

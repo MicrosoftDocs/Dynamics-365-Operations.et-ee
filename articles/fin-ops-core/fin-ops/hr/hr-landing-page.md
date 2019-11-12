@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 828de71da3f16db9024b08c724eb784127b080dc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d9db36b528de097aae613a5fbf5ee94f4cc79a0f
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177466"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553159"
 ---
 # <a name="human-resources-overview"></a>Inimressursside ülevaade
 
@@ -45,9 +45,9 @@ Saate inimressursse kasutada, et teha järgmist.
 
 Inimressurssidega töötamisel saate otsustada kuidas struktureerida oma organisatsiooni, kasutades elemente, nagu osakonnad, tööd ja ametikohad. Need kuuluvad põhielementide hulka, mida saate inimressurssides konfigureerida. Üksikud töötajad määratakse ametikohtadele, mis on seotud töödega.
 
-- [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](../../talent/departments-jobs-positions.md)
-- [Ettevõttekohaste inimressursside parameetrite seadistamine](../../talent/set-up-company-specific-hr-parameters.md)
-- [Juriidilistele isikutele inimressursside parameetrite seadistamine](../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](../../../talent/departments-jobs-positions.md)
+- [Ettevõttekohaste inimressursside parameetrite seadistamine](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Juriidilistele isikutele inimressursside parameetrite seadistamine](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Töötajate värbamine, palkamine ja motiveerimine
 
@@ -58,25 +58,25 @@ Värbamisprojektid haldavad sisu, mida kasutatakse vabade töökohtade reklaamid
 
 Kui olete töötajad palganud, saate koostada plaane tasu tulemuslikuks ja õiglaseks haldamiseks ning selleks, et hallata üksusi nagu arvutid või telefonid, mida teie organisatsioon oma töötajatele laenab. Saate luua põhipalga ja ergutussüsteemi plaane ning määratleda reegleid, mis kehtivad tasuplaanile selle plaani kriteeriumide täitmiseks.
 
-- [Hüvitusplaanid](../../talent/compensation-plans.md)
-- [Fikseeritud hüvitusplaanide loomine](../../talent/create-fixed-compensation-plans.md)
-- [Ergutussüsteemi plaanide loomine](../../talent/create-variable-compensation-plans.md)
+- [Hüvitusplaanid](../../../talent/compensation-plans.md)
+- [Fikseeritud hüvitusplaanide loomine](../../../talent/create-fixed-compensation-plans.md)
+- [Ergutussüsteemi plaanide loomine](../../../talent/create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Töötajate arendamine ja koolitamine
 
 Saate seadistada eesmärke, luua tulemuste ülevaatusi ja jälgida tagasisidet, et aidata töövõtjatel saavutada karjäärieesmärke, täites samas äriliselt kriitilisi ülesandeid. Selleks et aidata töövõtjatel vajalikke oskusi arendada, saate ka seadistada juhendajad, kursusetüübid, kursused, kursusekirjeldused, päevakorrad, teed ja sessioonid enne kursusele juhendaja määramist või kellegi registreerimist kursusele. Juhendajad peavad juba töötajate, kandidaatide või kontaktidena olemas olema.
 
-- [Jõudlushaldus](../../talent/performance-management-overview.md)
-- [Töötajate oskuste ja ärivajaduste joondamine](../../talent/skills.md)
-- [Koolituste läbiviimine kursuste kaudu](../../talent/courses.md)
+- [Jõudlushaldus](../../../talent/performance-management-overview.md)
+- [Töötajate oskuste ja ärivajaduste joondamine](../../../talent/skills.md)
+- [Koolituste läbiviimine kursuste kaudu](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Soodustuste loomine ja haldamine
 
 Peale töötajatele töötasu ja preemiate maksmise saate töötada välja soodustuste programme, nt tervisekindlustuse ja pensioni plaane. Samuti saate hallata soodustusi, nt laenuprogrammid, mille puhul ettevõte laenab oma töötajatele artikleid, nt arvutid või telefonid.
 
-- [Soodustusprogrammi haldamine](../../talent/manage-benefit-program.md)
-- [Soodustuse saamise õiguse eeskirjad](../../talent/benefit-eligibility-policies.md)
-- [Töötajatele laenatud artiklite haldamine](../../talent/loan-items.md)
+- [Soodustusprogrammi haldamine](../../../talent/manage-benefit-program.md)
+- [Soodustuse saamise õiguse eeskirjad](../../../talent/benefit-eligibility-policies.md)
+- [Töötajatele laenatud artiklite haldamine](../../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Töökoha ohutuse ja nõuetele vastavuse haldamine
 
@@ -90,7 +90,7 @@ Microsoft Dynamics AX aitab teil säilitada ohutut töökeskkonda, mis järgib k
 
 Saate koostada ja hallata küsimustikke andmete kogumiseks mitmesugustel eesmärkidel. Küsimustiku funktsiooni abil saate koostada ja luua küsimustikke. Kui küsimustik on valmis, võite edastada selle täitmiseks laiemalt või konkreetsele vastajate kogumile. Pärast seda, kui vastajad on oma vastused andnud, saate vaadata ja analüüsida tulemusi.
 
-- [Küsimustikud](../../talent/questionnaires.md)
-- [Küsimustiku kujundamine](../../talent/design-questionnaires.md)
-- [Küsimustiku laialisaatmine ja täitmine](../../talent/distribute-questionnaires.md)
-- [Küsimustiku tulemuste vaatamine ja hindamine](../../talent/evaluate-questionnaire-results.md)
+- [Küsimustikud](../../../talent/questionnaires.md)
+- [Küsimustiku kujundamine](../../../talent/design-questionnaires.md)
+- [Küsimustiku laialisaatmine ja täitmine](../../../talent/distribute-questionnaires.md)
+- [Küsimustiku tulemuste vaatamine ja hindamine](../../../talent/evaluate-questionnaire-results.md)

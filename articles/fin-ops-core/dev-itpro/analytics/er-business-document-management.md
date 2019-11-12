@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c84b08ec45dfa7aa9c7b913087a2518bfeedf87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 05dee1efc4e817795824e3fa1c41093d48a97d78
+ms.sourcegitcommit: 219a73371638a9a4c6076d4c88b95fb2ebe95b00
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181561"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2652613"
 ---
 # <a name="business-document-management-overview"></a>Äridokumentide halduse ülevaade
 
@@ -120,7 +120,7 @@ Kõikide juriidiliste isikute äridokumentide haldamise lubamiseks toimige järg
 
 ![Funktsioonihalduse tööruum](./media/BDM-Overview-FMEnabling.png)
 
-Lisateavet uute funktsioonide lubamise kohta vt [Funktsioonihalduse ülevaade](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+Lisateavet uute funktsioonide lubamise kohta vt [Funktsioonihalduse ülevaade](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 ## <a name="configure-parameters"></a>Seadistage parameetrid
 
@@ -137,7 +137,7 @@ Selle dokumenditüübi puhul peavad olema valitud järgmised atribuudi väärtus
 | Grupeeri               | Fail                  |
 | Koht            | SharePoint            |
 
-Lisateavet nõutavate dokumendihalduse näitajate ja dokumenditüüpide seadistamise kohta vt [Dokumendihalduse seadistamine](../../fin-and-ops/organization-administration/configure-document-management.md).
+Lisateavet nõutavate dokumendihalduse näitajate ja dokumenditüüpide seadistamise kohta vt [Dokumendihalduse seadistamine](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management).
 
 ![Seadistage dokumendihalduse dokumendi tüüp](./media/BDM-Overview-DMSetting.png)
 

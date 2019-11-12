@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b13f8aba7e1d2448495f97a4772eb573e08c025
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6e69b471af0853159ba807af5f39db64dbbb04f8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874597"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569704"
 ---
-# <a name="warranty-on-assets-and-asset-types"></a>Varade ja varatüüpide garantii
+# <a name="warranties-on-assets-and-asset-types"></a>Varade ja varatüüpide garantiid
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Selles teemas selgitatakse, kuidas varahalduses seadistada varade ja varatüüpide garantiisid.
@@ -50,7 +50,7 @@ Selles teemas selgitatakse, kuidas varahalduses seadistada varade ja varatüüpi
     > [!IMPORTANT]
     > Kui töökäsu väljal **Garantii algus** on valitud kuupäev, muutub garantii sellel kuupäeval töökäsule kehtivaks. Töökäsu loomisel seatakse väli **Garantii alguskuupäev** automaatselt loomise kuupäevale. Samas saate kuupäeva muuta nii, et see vastaks näiteks garantiilepingu alguskuupäevale.
     >
-    > ![Joonis 1](media/02-warranty.png)
+    > ![Töökäsu leht](media/02-warranty.png)
 
 > [!NOTE]
 > Hankija garantiiga kaetud varale töökäsu loomisel, kui töökäsul on garantiiaja jooksul eeldatav alguskuupäev, saate garantiilepingu kohta teatise. Seejärel saate töökäsu vastavalt vajadusele tühistada.

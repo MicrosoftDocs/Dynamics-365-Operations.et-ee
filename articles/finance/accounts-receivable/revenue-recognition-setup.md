@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ff513d2e2d2968e531e4515c45abdc470b384123
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184090"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570329"
 ---
 # <a name="revenue-recognition-setup"></a>Tulu tuvastamise seadistus
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Lisatud on moodul **Tulu tuvastamine**, mis sisaldab kõiki seadistamiseks vajalikke menüü-üksusi. Selles teemas kirjeldatakse seadistamise suvandeid ja nende mõjusid.
 
-Moodulil **Tulu tuvastamise** on järgmised seadistussuvandid.
+> [!NOTE]
+> Tulu tuvastamise funktsiooni ei saa funktsioonihalduse kaudu sisse lülitada. Praegu peate selle sisselülitamiseks kasutama konfiguratsioonivõtmeid.
+
+Moodulil **Tulu tuvastamine** on järgmised seadistussuvandid.
 
 - Tulu tuvastamise töölehed
 - Tulu tuvastamise parameetrid

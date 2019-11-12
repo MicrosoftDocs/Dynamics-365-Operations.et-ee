@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 792ff4d7b72ce092fe1ad92e53172cf40f0ecf26
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565692"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569267"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO füüsilise väärtuse ja märkimisega
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Viimasena sisse, esimesena välja (LIFO) on kaubavarude meetod, milles viimased (uusimad) sissetulekud väljastatakse esimesena. Laost väljastamine tasakaalustatakse viimaste sissetulekutega lattu, laokande kuupäeva alusel. 
 
@@ -56,7 +54,9 @@ Selles näites pole kauba mudeligrupil füüsilise väärtuse kaasamine märgitu
 -   5b. Lao finantsiline väljaminek kogusele 1 omahinnaga 20,00 USA dollarit tükk (finantsiliselt värskendatud kannete jooksev keskmine).
 -   6. Teostatakse lao sulgemine. LIFO-meetodi alusel tasakaalustatakse viimane rahaliselt värskendatud väljaminek viimase rahaliselt värskendatud sissetuleku suhtes. Väljaminekukandele tehakse 10,00 USA dollarit ulatuses korrigeerimine.
 
-Uus jooksev keskmine omahind kajastab finantsiliselt värskendatud kannete keskmist 15.00 USD juures Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale, kui valikut **Füüsilise väärtuse kaasamine** ei kasutata. ![LIFO valikuta Kaasa füüsiline väärtus](./media/lifowithoutincludephysicalvalue.gif) 
+Uus jooksev keskmine omahind kajastab finantsiliselt värskendatud kannete keskmist 15.00 USD juures Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale, kui valikut **Füüsilise väärtuse kaasamine** ei kasutata. 
+
+![LIFO valikuta Kaasa füüsiline väärtus](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 
@@ -90,7 +90,9 @@ Alloleval joonisel on kuvatud järgmised kanded.
 
 Kanne 6a korrigeeritakse sissetulekukandeks 4b. Süsteem ei tasakaalusta neid kandeid, kuna sissetulek on värskendatud ainult füüsiliselt ja mitte rahaliselt. Selle asemel sisestatakse üksnes 8,75 USA dollarit suurune korrigeering füüsilise väljamineku kandele. Kanne 5b korrigeeritakse füüsilise sissetuleku kandeks 3a. Süsteem ei tasakaalusta neid kandeid, kuna need mõlemad pole rahaliselt värskendatud. Selle asemel korrigeeritakse seda väljaminekukannet ainult USD –3.75 ulatuses. Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 20,00 USA dollarit. 
 
-Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale, kui valikut **Füüsilise väärtuse kaasamine** kasutatakse. ![LIFO valikuga Kaasa füüsiline väärtus](./media/lifowithincludephysicalvalue.gif) 
+Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale, kui valikut **Füüsilise väärtuse kaasamine** kasutatakse. 
+
+![LIFO valikuga Kaasa füüsiline väärtus](./media/lifowithincludephysicalvalue.gif) 
 
 **Diagrammi võti**
 
@@ -132,7 +134,9 @@ Alloleval joonisel on kuvatud järgmised kanded.
 
 Uus jooksev keskmine omahind kajastab finantsiliselt ja füüsiliselt värskendatud kannete keskmist: 27,50 USA dollarit. 
 
-Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale väljaminekute ja sissetulekute vahelise märkimise kasutamisel. ![LIFO valikuga Märkus](./media/lifowithmarking.gif) 
+Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale väljaminekute ja sissetulekute vahelise märkimise kasutamisel. 
+
+![LIFO valikuga Märkus](./media/lifowithmarking.gif) 
 
 **Diagrammi võti**
 
@@ -146,7 +150,4 @@ Järgmine illustratsioon näitab LIFO laomudeli mõju sellele kannete seeriale v
 - Iga vertikaalne nool on sildistatud jadaidentifikaatoriga, nt *1a*. Identifikaatorid näitavad laokannete sisestuste järjestust ajajoonel.
 - Lao sulgemisi tähistab punane vertikaalne kriipsjoon ja silt *Lao sulgemine*.
 - Tasakaalustusi, mida teeb lao sulgemine, tähistatakse punaste diagonaalsete katkendnooltega, mis suunduvad sissetulekust väljaminekuni.
-
-
-
 

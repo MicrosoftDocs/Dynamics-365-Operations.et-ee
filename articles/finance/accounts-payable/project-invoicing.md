@@ -3,7 +3,7 @@ title: Projekti eest arve esitamine
 description: Selles artiklis antakse ülevaade aja- ja materjalikulu ning fikseeritud hinnaga projektide arveldamise kohta. See sisaldab teavet arvesoovituste (esialgsed arved), arvekontrolli, ettemaksuarvelduse, hankija arvete ja kreeditarvete kohta.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d91f6b1ccc3254e2c04d24c5f9bf2014c64e50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177421"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658616"
 ---
 # <a name="project-invoicing"></a>Projekti eest arve esitamine
 
@@ -55,6 +55,9 @@ Arvesoovitusi saab luua järgmistele kannetele.
 -   Summad, mille kliendid on kinni pidanud varasematel projektiarvetel
 -   Kreeditarved
 -   Summad, mille klient tasub teile enne projekti alustamist
+
+> [!NOTE]
+> Funktsioon **Luba projekti arve soovituse loomisel ressursi alusel sortimine** võimaldab projekti raamatupidajal uue projektiarve soovituse loomisel sortida arveldamiseks saadaolevad projektikanded ressursi alusel. Saadaolevate projektikannete kuvamisel on ruudustikus ressursi ID ja ressursi kohta eraldi väli, mis võimaldab kasutajal ressursi nime filtreerida ja sortida. See funktsioon on vaikimisi keelatud ja seda saab lubada jaotises **Tööruumid > Funktsioonihaldus**. Selle funktsiooni lubamiseks abi saamiseks võtke ühendust oma süsteemiadministraatoriga.
 
 Saate luua arvesoovituses tasukandeid. Samuti saate muuta müügihinda tunni-, kulu-, kauba- ja tasukannetes. Arvesoovituse sisestamisel lisatakse värskendatud hinnad ja kanded projekti aruannetesse ja kannete ajalukku. 
 

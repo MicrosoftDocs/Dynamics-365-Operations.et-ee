@@ -3,7 +3,7 @@ title: Töökäskude tutvustus
 description: Selles teemas käsitletakse varahalduse töökäske.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,61 +16,66 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9483c50a15fca566b1f5e089297795bbbe09c042
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b8340d3f4fd98e02e372fd5ac68f1ae107819304
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875617"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626404"
 ---
 # <a name="introduction-to-work-orders"></a>Töökäskude tutvustus
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-Töökäskudega hallatakse hooldustööde mahtu, esitatakse selle jaoks nõutavat teavet ja registreeritakse see. Töökäsk võib sisaldada vähemalt üht tööd ja sellega saab ühendada vähemalt üht vara. Iga töökäsu rida määratleb varas ajastatud hooldustööd.
 
-Töökäske saab luua käsitsi või automaatselt:
+Töökäske kasutatakse hooldustööde haldamiseks, nende jaoks nõutava teabe esitamiseks ja nende tarbimise registreerimiseks. Iga töökäsk võib sisaldada vähemalt üht tööd ja iga töökäsuga saab ühendada vähemalt üht vara. Iga töökäsu töö määratleb varas ajastatud hooldustöö.
 
-- Määrake kalendripõhised hoolduskavad automaatselt ankeediga **Ajasta hoolduskava** valikule „Automaatne loomine“.  
+Töökäske saab luua järgmistel viisidel.
 
-- Määrake hoolduskorrad automaatselt ankeediga **Ajasta hoolduskord** valikule „Automaatne loomine“.  
+- Kalendripõhistele hoolduskavadele, mille säte „Automaatne loomine“ on sisse lülitatud automaatselt valikuga [Hoolduskavade ajastamine](../preventive-and-reactive-maintenance/schedule-maintenance-plans.md).
 
-- Loo hooldusgraafiku alusel, milleks võivad olla ennetavad hooldustööd või hooldusnõuded.  
+- Hoolduskordadele, mille säte „Automaatne loomine“ on sisse lülitatud automaatselt valikuga [Hoolduskordade ajastamine](../preventive-and-reactive-maintenance/maintenance-rounds.md).
 
-- Looge töökäsk käsitsi.  
+- Ennetavate hooldustööde või hooldusnõuete jaoks jaotisest [Hooldusgraafik](../preventive-and-reactive-maintenance/maintenance-schedule.md).
 
-- Looge töökäsk järgmiste valikute seast: **Kõik hooldusnõuded** või **Aktiivsed hooldusnõuded** või **Minu töö asukoha hooldusnõuded**.
+- Käsitsi
+
+- Lehelt **Kõik hooldusnõuded**, **Aktiivsed hooldusnõuded** või **Minu töö asukoha hooldusnõuded**.
 
 >[!NOTE]
 >Sama varaga seotud töökäsu tööd seostuvad sama projekti ID-ga.
 
 ## <a name="all-work-orders"></a>Kõik töökäsud
 
-Loendi avamiseks klõpsake **Varahaldus** > **Ühine** > **Töökäsud** > **Kõik töökäsud**. **Kõik töökäsud** sisaldab loendit kõikidest töökäskudest ja näitab nende kohta veidi teavet.
+Loendilehe **Kõik töökäsud** avamiseks valige **Varahaldus** > **Ühine** > **Töökäsud** > **Kõik töökäsud**. Sellel lehel kuvatakse kõik töökäsud ja osa iga töökäsuga seotud teabest.
+
+Alloleval joonisel kuvatakse loendilehe **Kõik töökäsud** näide.
 
 ![Joonis 1](media/01-work-orders.png)
 
-- Aktiivsete töökäskude loendi nägemiseks klõpsake **Varahaldus** > **Ühine** > **Töökäsud** > **Aktiivsed töökäsud**.
+Ainult aktiivsete töökäskude loendi nägemiseks valige **Varahaldus** > **Ühine** > **Töökäsud** > **Aktiivsed töökäsud**. 
 
-- Töö asukohtadesse paigaldatud varasid sisaldava töökäsu tööde loendi nägemiseks klõpsake **Varahaldus** > **Ühine** > **Töökäsud** > **Minu töö asukoha töökäsu hooldustööd**. Teisse suhtutakse kui töölisesse (seadistatud jaotises [Hooldustöötajad ja töörühmad](../setup-for-objects/workers-and-worker-groups.md)).
+Teie, kui töötjaga seotud töö asukohtadesse paigaldatud varasid sisaldava töökäsu tööde loendi vaatamiseks valige **Varahaldus** > **Ühine** > **Töökäsud** > **Minu töö asukoha töökäsu hooldustööd**. (Töötajate ja töö asukoha vaheline seos on seadistatud lehel **Töötajad**. Lisateavet lugege teemast [Hooldustöötajad ja töötajate grupid](../setup-for-objects/workers-and-worker-groups.md).)
 
-- Valitud kande andmete nägemiseks klõpsake loendi **Kõik töökäsud** (andmeruudustiku vaates) veerus **Töökäsk** linki. Muutmiseks klõpsake nuppu **Redigeeri**.  
+Siin on mõned viisid, kuidas kasutada lehte **Kõik töökäsud**.
 
-- Andmete vaates näete töökäsuga seotud üksikasjalikku teavet.  
+- Valige tabelivaates link veerus **Work order**, et vaadata valitud kirje üksikasjade vaadet. Seejärel saate kirje redigeerimiseks avada valiku **Redigeeri**.
 
-- Töökäsu töö andmete nägemiseks valige andmete vaates linki **Read** või töökäsu andmete nägemiseks valige link **Päis**.  
+- Üksikasjade vaates näete töökäsuga seotud üksikasjalikku teavet.  
 
-- Ekraani paremal pool asuv vertikaalne paan **Seotud teave** sisaldab täiendavat töökäsu alast teavet. Valitud töökäsu asjakohase teabe nägemiseks laiendage paan.  
+- Töökäsu töö üksikasjade vaatamiseks valige üksikasjade vaates vahekaart **Read** või töökäsu üksikasjade vaatamiseks valige vahekaart **Päis**.  
 
+- Laiendage lehe paremal pool paani **Seostuv teave**, et vaadata valitud töökäsuga seotud lisateavet.
+
+Alloleval joonisel kuvatakse üksikasjade vaate **Kõik töökäsud** näide.
 
 ![Joonis 2](media/02-work-orders.png)
 
 
-Toimingupaani nupud on paigutatud vahekaartidesse. Siin on Enterprise Asset Managementiga seotud nuppude lühikirjeldus:
+Tegumiriba nupud on korraldatud vahekaartidel. Järgmises tabelis kirjeldatakse lühidalt mooduli Asse Management nuppe.
 
 
 
@@ -78,29 +83,29 @@ Toimingupaani nupud on paigutatud vahekaartidesse. Siin on Enterprise Asset Mana
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Redigeerimine                            | Muuda valitud töökäsku.                                                                                                                                                                                                                                           |
 | Uus                             | Loo uus töökäsk.                                                                                                                                                                                                                                                  |
-| Kustutusklahv DELETE                          | Kustuta valitud töökäsk.                                                                                                                                                                                                                                         |
-| Töökäsu kaust                 | Lisa valitud töökäsk kausta või eemalda see sealt.                                                                                                                                                                                           |
+| Kustutusklahv Delete                          | Kustuta valitud töökäsk.                                                                                                                                                                                                                                         |
+| Töökäsu kaust                 | Lisage valitud töökäsk töökäskude kausta või eemaldage see sealt.                                                                                                                                                                                           |
 | Korrigeeri                          | Muuda valitud töökäskude järgmist teavet: eeldatav algus ja lõpp, teenuse tase, vastutav hooldustöötaja või vastutava hooldustöötaja rühm.                                                                                                                                     |
 | Seotud töökäsk              | Loo valitud töökäsu tööga seotud uus töökäsk. See on kasulik esmaste ja teisejärguliste töökäskude registreerimise puhul.                                                                                                                              |
-| Töökäsu kopeerimine                 | Loo uus töökäsk vastavalt olemasolevale töökäsule.                                                                                                                                                                                                                |
-| Sündmuse ajalugu                   | Vt töökäsu registreerimisajalugu.                                                                                                                                                                                                                |
-| Töökäsu hooldustöö märkmed                           | Kirjeldage töökäsku või sisestage sellele märkmeid või märkusi. Märkmele ajatempli ja kasutajanime lisamiseks klõpsake nuppu **Lisa ajatempel**. Märkmed asuvad ankeedi **Töökäsud** > FastTabi **Rea andmed** > vahekaardil **Kirjeldus**. |
-| Tööriistad                           | Looge töökäsu jaoks vajalike tööriistade loend. Tööriistad on seadistatud ressurssidena kohas **Organisatsiooni haldus** > **Ühine** > **Ressursid** > **Ressursid**.                                                                                                      |
+| Töökäsu kopeerimine                 | Looge olemasoleva töökäsu põhjal uus töökäsk.                                                                                                                                                                                                               |
+| Sündmuse ajalugu                   | Vaadake töökäsu registreerimisajalugu.                                                                                                                                                                                                                |
+| Töökäsu hooldustöö märkmed                           | Looge töökäsu kirjeldus või sisestage selle kohta märkmeid või märkusi. Märkmele kasutajanime ja ajatempli lisamiseks valige esmalt **Lisa ajatempel**. Märkused kuvatakse vahekaardi **Kirjeldus** lehe **Töökäsk** kiirkaardil **Rea üksikasjad**.         |
+| Tööriistad                           | Looge töökäsu jaoks vajalike tööriistade loend. Tööriistad on seadistatud ressurssidena kohas **Organisatsiooni haldus** > **Ressursid** > **Ressursid**.                                                                                                      |
 | Hoolduse kontrollnimekiri           | Vaadake töökäsuga ühendatud vara kontroll-loendit.                                                                                                                                                                                                              |
-| Vara tõrge                     | Vaadake või registreerige tõrke haldamisel kasutatav vara tõrke teave.                                                                                                                                                                                        |
+| Vara tõrge                     | Vaadake või registreerige vara tõrke teave. Teavet kasutatakse tõrgete halduseks.                                                                                                                                                                                      |
 | Hoolduskatkestus            | Täpsustage töökäsu hoolduskatkestus.                                                                                                                                                                                                                               |
 | Tingimuse hindamine            | Registreerige töökäsu tingimuse hinnangu nõuded.                                                                                                                                                                                                             |
 | Varaloendurid                 | Looge vara loenduri registreeringud või vaadake neid.                                                                                                                                                                                                                     |
 | Eelarve                        | Vaadake või looge töökäsu ennustusi.                                                                                                                                                                                                                               |
 | Töölehed                        | Vaadake või looge töökäsu päevikuid. Päeviku ridu saab kopeerida ennustustest.                                                                                                                                                                                         |
 | Projekti kanded            | Vaadake kõiki vara jaoks loodud töökäskudega seotud postitatud tehinguid.                                                                                                                                                                                             |
-| Töökäsu oleku värskendamine                | Töökäsu tsükli oleku värskendamine.                                                                                                                                                                                                                                                |
-| Töötsükli oleku logi                       | Valitud töökäsu tsükli olekuid näitav logi.                                                                                                                                                                                                                   |
-| Vara dokumendid                | Vaata töökäsuga seotud varadele manustatud dokumentide loendit. Need dokumendid asuvad kohas **Varahaldus** > **Seadistus** > **Vara dokumendid**.                                                                                                 |
+| Töökäsu oleku värskendamine           | Töökäsu tsükli oleku värskendamine.                                                                                                                                                                                                                                                |
+| Töötsükli oleku logi                      | Vaadake logi, mis näitab valitud töökäsu töötsüklite olekuid.                                                                                                                                                                                                                   |
+| Vara dokumendid                | Vaadake töökäsuga seotud varadele manustatud dokumentide loendit. Need dokumendid asuvad kohas **Varahaldus** > **Seadistus** > **Vara dokumendid**.                                                                                                 |
 | Planeeri                        | Ajasta valitud töökäsud.                                                                                                                                                                                                                                      |
 | Lähetus            | Ajasta ühe töötaja valitud töökäsud.                                                                                                                                                                                                                        |
-| Graafiku kustutamine                 | Kustuta valitud töökäsu graafik.                                                                                                                                                                                                                          |
-| Ajastatud töökäsu hooldustööd             | Avage leht **Ajastatud töökäsu hooldustööde** nimekiri.                                                                                                                                                                                                                             |
+| Graafiku kustutamine                 | Kustutage valitud töökäsu graafik.                                                                                                                                                                                                                          |
+| Planeeritud töökäsu hooldustööd             | Avage leht **Ajastatud töökäsu hooldustööde** nimekiri.                                                                                                                                                                                                                             |
 | Töökäsu ostutaotlus | Avage lehel loend **Töökäsu ostu tingimus**.                                                                                                                                                                                                                 |
 | Töökäsu ost             | Avage lehel loend **Töökäsu ost**.                                                                                                                                                                                                                             |
 | Kulude jälitamine                    | Võrrelge töökäsu eelarve kulusid ja tegelikke kulusid.                                                                                                                                                                                                                |
@@ -109,8 +114,8 @@ Toimingupaani nupud on paigutatud vahekaartidesse. Siin on Enterprise Asset Mana
 | Töökäsu tarbimine          | Printige kasutuse aruanne.                                                                                                                                                                                                                                               |
 
 
-Vahekaardi **Töökäsk** > rühma **Projekt** nupud viitavad ennustamise, päevikute ja arveldamise mooduli **Projekti haldus ja raamatupidamine** funktsioonidele.
+Jaotise **Projekt** nupud tegumiriba vahekaardil **Töökäsk** tab on seotud prognooside, päevikute ja arveldamise funktsioonidega moodulis **Projektihaldus- ja arvestus**.
 
 >[!NOTE]
->Töökäsus loodud ennustusi saab kaasata, kui käivitatakse põhiajastamine. Selleks kasutage ankeedis **Varahalduse näitajad** valitud ennustusmudelit.
+>Töökäsus loodud ennustuste kaasamiseks, kui käivitatakse põhiajastamine kasutage ankeedis **Varahalduse näitajad** valitud ennustusmudelit.
 

@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 349f720ee4cfb612ca4f4f50a9e081f3343f756d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
+ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188690"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2667456"
 ---
 # <a name="budgeting-overview"></a>Eelarve koostamise ülevaade 
 
@@ -69,6 +69,12 @@ Looge *eelarvekoodid*, mis tuvastavad kirje ja seotud töövoo eelarvekannete t�
 Eelarvetüübid võimaldavad teil kasutada kinnitatud eelarvemuudatuste kontrolljälge kogu eelarvetsükli jooksul. Kui töövoog on seostatud eelarvekoodiga, lubatakse töövoog kõigi eelarveregistri kirjete puhul, mis seda eelarvekoodi kasutavad, ja töövoo etapid tuleb lõpule viia, enne kui eelarveregistri kirje jõuab olekusse **Lõpule viidud**.  
 
 Soovi korral saate seadistada ka *eelarve ülekandereegleid*. Eelarve ülekandereeglite kasutamiseks valige lehel **Eelarve parameetrid** suvand **Kasuta eelarveülekannete reegleid**. Eelarve ülekandereeglite kasutamisel, kui kasutaja loob dokumendi, kasutades eelarvekoodi tüüpi **Ülekanne**, ei värskendata eelarvesaldosid, kui eelarve ülekandereegleid on rikutud. Näiteks saate lubada eelarve ülekandedokumendid, kui kulueelarve kantakse üle põhikontode müügi- ja turundusosakondade vahel, kuid saate keelata eelarve ülekandmise sellest osakonnast või sellesse osakonda, kui seda tüüpi eelarvekonto kirjele ei ole antud töövoo kinnitust.
+
+Funktsioon, mis võeti kasutusele tarkvara Microsoft Dynamics 365 Finance versioonis 10.0.7 (jaanuar 2020), suurendas eelarve registrikirjete võimalusi ja paindlikkust. Nende täiustuste lubamiseks avage tööruum **Funktsioonihaldus** ning valige **Eelarve registrikirjed ainult koguse kohta** ja/või **Eelarve registrikirjed vaikesummatüübiga**.
+
+Funktsioon **Eelarve registrikirjed ainult koguse kohta** võimaldab teil sisestada eelarve registrikirje ainult kogustega. Näiteks saate sisestada eelarvekirje kogusega 32 ja nullihinnaga, mille tulemuseks on nullsumma. Seejärel saate seda kogust kasutada finantsaruande kontekstis, et määrata hind koguse kohta. Pidage meeles, et selle funktsiooni osana ei värskendatud ühtegi päringut ega aruannet. See funktsioon lihtsalt võimaldab teil sisestada nullsumma.
+
+Funktsioon **Eelarve registrikirjed vaikesummatüübiga** võimaldab sisestada eelarve registrikirjena vaikimesummatüübi, mis ei ole kulu. Kui põhikonto tüüp on kulu, siis on eelarve registrikirje rea vaikeväärtus kulu; kui põhikonto tüüp on kulu, siis on vaikeväärtus tulu; ja kõigi muude kontotüüpide korral on vaikeväärtus kulu.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Tööruumide ja päringulehtede kasutamine eelarve vs tegelike kulude jälgimiseks
 Eelarvehaldur saab praguse eelarve oleku üle vaadata tööruumis **Pearaamatu eelarved ja prognoosid**. Vahekaardid **Kulu ületab eelarve** ja **Tulu on eelarvest väiksem** annavad kiire ülevaate finantsdimensiooni kombinatsioonidest, kui eelarve eesmärke ei täideta või kui need lähenevad lävile. Saate isikupärastada eelarvelävi protsenti ja finantsdimenesioonide komplekte, mida nende vahekaartidega kasutatakse, klõpsates suvandit **Minu tööruumi konfigureerimine**. Saate klõpsata suvandit **Üksuse juhid**, et näha töötajaid, kes vastutavad kindla finantsdimensioonide kombinatsioonide eest, mis valitakse nendel vahekaartidel. Näiteks kui näete, et operatsiooniosakonna kulueelarve ületab eelarvelävi, leiate hõlpsasti operatsiooniosakonna juhi, võtate temaga ühendust ja arutate probleemi. 

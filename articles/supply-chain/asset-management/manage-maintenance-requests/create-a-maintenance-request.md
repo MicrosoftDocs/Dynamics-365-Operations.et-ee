@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 7fc9ec2f6a9a8a11d824e4b5c13d5aa173541454
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024633"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571917"
 ---
 # <a name="create-maintenance-requests"></a>Hooldustaotluste loomine
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Hooldustaotlusi saab kasutada juhul, kui hooldustöötajad või tootmistöötajad avastavad, et seadmed vajavad parandamist, kuid parandustööd ei saa kohe ära teha.
 
@@ -55,7 +55,7 @@ Jaotis **Aktiivsed hoolduse taotlused** paanil **Seotud teave** lehe **Kõik var
 11. Sisestage väljale **Märkmed** kõik nõutavad täiendavad märkused.
 12. Valige nupp **OK**.
 
-![Joonis 1](media/03-manage-maintenance-requests.png)
+![Hooldusnõude loomine](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Hoolduse taotluste hilisem töötlemine
 
@@ -70,7 +70,7 @@ Kui hooldustaotlus on loodud, kuid see on enne teisendatud töötellimuseks, tul
 - Valige hooldustöö tüüp ja kui see teave on asjakohane, seotud hooldustöö variant ja töökaubandus.
 - Väljadele **Laius** ja **Pikkus** sisestage geograafilised koordinaadid. Kõik hooldustaotlusele lisatud koordinaadid kantakse automaatselt üle seotud töötellimusele. 
 
-![Joonis 2](media/04-manage-maintenance-requests.png)
+![Hooldustaotluse uuendamine](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Kui valite hooldustaotluse loomisel vara, saate sellele varale lisada ühe vea. Pärast hooldustaotluse loomist saate lisada rohkem vigu, kui vajate. Vigade lisamiseks valige **Vara viga** lehel **Kõik hoolduspäringud**.

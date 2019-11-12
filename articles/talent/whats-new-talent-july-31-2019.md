@@ -1,9 +1,9 @@
 ---
-title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (31. juuli 2019)
+title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (30. juuli 2019)
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Talenti uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
-ms.date: 7/30/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 83f3339e6cea1448f5b257acf602fe5ca3449555
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3676a0a1fa77285d0203e8e49725cb1c1b742d39
+ms.sourcegitcommit: 029c1882bef558b6a45843548e94ab8369ed9870
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010241"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2651707"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (30. juuli 2019)
 
@@ -45,7 +45,7 @@ Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2409.
 
 Meil on hea meel teatada, et Kanada ja Kagu-Aasia piirkonnad on saadaval teenuse Talent jaoks 1. augustil 2019. Selle muudatusega saate luua keskkondasid Kanada ja Aasia regioonides ning kõik Talenti andmed säilitatakse ainult nende asukohtade piires. Saate luua keskkonna nendes uutes piirkondades, valides uue keskkonna dialoogis asukoha ja kasutada seda keskkonda, et valmistada ette Talenti LCS-is, nagu on kirjeldatud siin [Provision Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
-Teiste piirkondade ning Kanada ja Aasia piirkondade olemasolevate projektide andmeid ei toetata. Uutele toetatud piirkondadele saab ette valmistada ainult uusi projekte.
+Teiste piirkondade ning Kanada ja Aasia piirkondade olemasolevate projektide andmeid ei toetata. Nendele uutele toetatud piirkondadele saab ette valmistada ainult uusi projekte.
 
 ### <a name="new-active-positions-list-page"></a>Uute aktiivsete ametikohtade loendi leht
 
@@ -57,7 +57,7 @@ Selle nädala muudatused parandavad probleemi, kus avatud kursustele saab regist
 
 ### <a name="fte-analysis-displaying-incorrect-fte-number"></a>Täistööajale taandatud töötajate analüüs kuvab valet täistööajale taandatud töötajate arvu
 
-**Täistööajaga töötajate analüüsi** on parandatud **Analüüsi** vahekaardil **Personalijuhtimine**.
+**Täistööajaga töötajate analüüsi** on parandatud jaotise **Personalijuhtimine** vahekaardil **Analüütika**.
 
 ### <a name="final-comments-label-translation"></a>Lõplike kommentaaride sildi tõlge
 

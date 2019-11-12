@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f68e11a1cd14bc35282b957a4262cbecdd627b3b
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 151db9ca8a121759e39b690ec296b36a18dc1729
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790486"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571158"
 ---
-# <a name="maintenance-request-states"></a>Hooldustaotluse olekud
+# <a name="maintenance-request-lifecycle-states"></a>Hooldusnõuete töötsükli olek
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Hooldustaotluse elutsükli olekud määratlevad etapid, mida taotlus võib läbida. Näiteks **Loodud**, **Aktiivne** ja **Lõpetatud**. Kui hooldustaotlus teisendatakse töökäsuks, tuleks hooldustaotluse elutsükli olekut värskendada olekusse **Lõpetatud** või **Suletud**, et see ei oleks enam aktiivne. Loendileht **Kõik hooldustaotlused** näitab kõiki hooldustaotlusi, olenemata nende elutsükli olekust.
@@ -51,7 +51,7 @@ Hooldustaotluse elutsükli olekud määratlevad etapid, mida taotlus võib läbi
 
 Järgnev illustratsioonil kuvatakse lehe **Hooldustaotluse elutsükli olekud** näide.
 
-![Joonis 1](media/02-setup-for-requests.png)
+![Hooldusnõuete töötsükli olekute leht](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Hooldustaotluse elutsükli olekud, elutsükli oleku rühmad ja tüübid on seotud ja neid kasutatakse samal viisil nagu töökäsu elutsükli olekud, elutsükli oleku rühmad ja tüübid. 
@@ -80,4 +80,4 @@ Pärast seda, kui olete loonud oma hooldustaotluste jaoks nõutavad elutsükli o
 
 Järgnev illustratsioon näitab lehe **Hooldustaotluse elutsükli mudelid** näidet.
 
-![Joonis 2](media/06-setup-for-requests.png)
+![Hooldusnõuete töötsükli mudelite leht](media/06-setup-for-requests.png)

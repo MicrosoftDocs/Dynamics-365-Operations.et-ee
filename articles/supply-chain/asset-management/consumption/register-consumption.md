@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 174c816c7a6442b07e4722c03045293b94c59153
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024656"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653319"
 ---
 # <a name="register-consumption"></a>Tarbimise registreerimine
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Kui hooldustöö on töökäsus lõpetatud, on järgmine etapp tarbimiste registreeringute tegemine ja töölehtedele sisestamine. Saate registreeringuid teha järgmiste tarbimise tüüpide kohta: tunnid, kaubad ja kulud. Eri tarbimise tüübid on registreeritud ja sisestatud lehele **Töökäsu töölehed**. Töölehe seadistust funktsioonis **Varahaldus** kasutatakse eraldi töölehtede loomiseks ja sisestamiseks tundide, kaupade ja kulude jaoks moodulis **Projektihaldus ja raamatupidamine**.
 
-Saate töökäsule prognoosi ridu lisada või neid kustutada. Töökäsu töötsükli oleku seadistus, seotud projektitüüp ja seotud projektitüübi oleku reeglid määravad ära, kas saate töölehele ridu lisada või redigeerida. Lisateavet töökäsu töötsükli olekute ja seotud projekti etappide kohta lugege teemast [Projektihalduse ja raamatupidamisega integreerimine](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+Mõnel juhul saate töökäsule prognoosi ridu lisada või neid kustutada. Töökäsu töötsükli oleku seadistus, seotud projektitüüp ja seotud projektitüübi oleku reeglid määravad ära, kas saate töölehele ridu lisada või redigeerida. Lisateavet töökäsu töötsükli olekute ja seotud projekti etappide kohta lugege teemast [Projektihalduse ja raamatupidamisega integreerimine](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >Töökäsu töötsükli olekule on võimalik seadistada automaatne töölehtede sisestamine. Lisateabe saamiseks vaadake teemat [Töökäsu töötsükli olekud](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 1. Klõpsake **Varahaldus** > **Tavaline** > **Töökäsud** > **Kõik Töökäsud** või **Aktiivsed töökäsud**.
 
-2. Valige töökäsk ja klõpsake **Töölehed**.
+2. Valige töökäsk ja klõpsake valikut **Töölehed**.
 
 3. Klõpsake **Kopeeri prognoosist**, et edastada mis tahes prognoosi read, mis võivad olla seotud töökäsuga. Saate valida milliseid tarbimise ridu soovite edastada.
 
@@ -50,10 +50,10 @@ Saate töökäsule prognoosi ridu lisada või neid kustutada. Töökäsu tööts
 
 6. Töölehe ridade sisestamiseks klõpsake **Sisestage töölehed**.
 
-7. Pärast tarbimise töölehtede sisestamist, saate värskendada töökäsu töötsükli olekut, näiteks olekule "Lõpetatud", mis näitab, et töökäsk on lõpetatud.
+7. Pärast tarbimise töölehtede sisestamist saate värskendada töökäsu töötsükli olekut. Näiteks selleks, et näidata, et töökäsk on lõpule viidud, saate määrata töötsükli olekuks „Lõpetatud“.
 
-- Lehe **Töökäsu töölehed** ülaosas asuval väljal **Kuva** valige milliseid töölehe ridu soovite näha: kõik, sisestamata või sisestatud. Sisestatud töölehtedel on märgitud märkeruut **Sisestatud**.  
-- Kui kaubaread on loodud töökäsu töölehel, edastatakse kaubaga seotud tootedimensioonid ja jälgimisdimensioonid automaatselt töölehe reale.  
+    - Lehe **Töökäsu töölehed** ülaosa väljal **Kuva** valige milliseid töölehe ridu soovite näha: **Kõik**, **Sisestamata** või **Sisestatud**. Sisestatud töölehtedel on märgitud märkeruut **Sisestatud**.  
+    - Kui kaubaread on loodud töökäsu töölehel, edastatakse kaubaga seotud tootedimensioonid ja jälgimisdimensioonid automaatselt töölehe reale.  
 
 Alloleval kuvatõmmisel kuvatakse näidet tunni ja kauba registreeringutest töökäsul suvandis **Töökäsu töölehed**.
 
@@ -76,7 +76,7 @@ Kui töökäsk sisaldab mitut töökäsu tööd, saate registreerida töötunnid
 
 6. Sisestage väljale **Tunnid** eraldatavad töötunnid.
 
-![Joonis 2](media/02-consumption.png)
+    ![Joonis 2](media/02-consumption.png)
 
 7. Klõpsake valikut **OK**.
 
@@ -88,10 +88,10 @@ Kui töökäsk sisaldab mitut töökäsu tööd, saate registreerida töötunnid
 
 Kui teete tarbimise registreeringuid, lisatakse eri registreerimise tüüpidega seotud finantsdimensioonid registreeringutele kindlas järjekorras. 
 
-*Töö ja kulu registreeringud*: esimesena lisatakse finantsdimensioonid töölehe päisest, kui neid on. Järgmisena lisatakse seotud töökäsu projekti finantsdimensioonid. Viimasena lisatakse ressursi (töötaja) finantsdimensioonid.
+- *Töö ja kulu registreeringud*: esimesena lisatakse finantsdimensioonid töölehe päisest, kui neid on. Järgmisena lisatakse seotud töökäsu projekti finantsdimensioonid. Viimasena lisatakse ressursi (töötaja) finantsdimensioonid.
 
-*Kauba registreeringud*: esimesena lisatakse finantsdimensioonid töölehe päisest, kui neid on. Seejärel lisatakse seotud töökäsu projekti finantsdimensioonid. Järgmisena lisatakse koha finantsdimensioonid. Viimasena lisatakse kauba finantsdimensioonid.
+- *Kauba registreeringud*: esimesena lisatakse finantsdimensioonid töölehe päisest, kui neid on. Seejärel lisatakse seotud töökäsu projekti finantsdimensioonid. Järgmisena lisatakse koha finantsdimensioonid. Viimasena lisatakse kauba finantsdimensioonid.
 
 >[!NOTE]
->Kõigi kolme registreerimise tüübi puhul on finantsdimensioonide kombinatsioon valideeritud ja kehtetud kombinatsioonid jäetakse tühjaks. See on standardne seadistus Finance and Operationsis.
+>Kõigi kolme registreerimise tüübi puhul on finantsdimensioonide kombinatsioon valideeritud ja kehtetud kombinatsioonid jäetakse tühjaks. See on standardne seadistus koos teiste lahenduse Finance and Operations rakendustega.
 

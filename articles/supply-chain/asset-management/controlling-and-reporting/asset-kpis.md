@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4fc32d337be1f71932555fcb062a8d05c9ca9bda
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1aee14c869d84bef38a738bfe78fd09ee7f82d94
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918414"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652375"
 ---
 # <a name="asset-kpis"></a>Vara KPI-d
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Varahalduses saate arvutada mitmesuguseid juhtimismõõdikuid (KPI-sid) varade ja vara tüüpide kohta. KPI-sid saate kasutada selleks, et saada ülevaade varade jõudlusest, mis on seotud näiteks tööaja, seisakuaja, parandamisaja ja keskmise rikkevahelise ajaga (MTBF).
 
@@ -85,8 +85,8 @@ Allolevast tabelist leiate lehel **Vara KPI-d** olevate väljade kirjelduse.
 
 Allolev joonisel on näha kuvatõmmis nelja vara KPI-de arvutusest.
 
-![Joonis 1](media/11-controlling-and-reporting.png)
+![KPI arvutuse kuvatõmmis nelja vara kohta](media/11-controlling-and-reporting.png)
 
-- Saate mitmikvaliku abil valida mitu vara suvandis **Kõik varad** ja klõpsates nupule **Vara KPI-d** vahekaardil **Üldine**. Seejärel klõpsake **OK** dialoogiboksis **Arvuta vara KPI-d**, et arvutada valitud varade KPI-d.  
+- Saate mitmikvaliku abil valida mitu vara suvandis **Kõik varad** ja klõpsata nuppu **Vara KPI-d** vahekaardil **Üldine**. Seejärel klõpsake **OK** dialoogiboksis **Arvuta vara KPI-d**, et arvutada valitud varade KPI-d.  
 - KPI arvutuse tulemuste hulgas võib sisalduda või mitte sisalduda [hoolduskatkestuste registreeringud](../work-orders/maintenance-downtime.md), sõltuvalt hoolduskatkestuse põhjuse koodide seadistusest ja kasutusest. 
 
