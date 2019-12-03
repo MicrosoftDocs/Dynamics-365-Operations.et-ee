@@ -4,12 +4,14 @@
       items:
         - name: Dynamics 365 Finance'i avaleht
           href: index.md
-        - name: Alustamine
+        - name: Alusta
           items:
             - name: Enne ostmist
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Eelvaatetellimuste saajaks registreerumine
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
+            - name: Kliendimaksete ülevaated (eelvaade)
+              href: accounts-receivable/payment-insights-overview.md
             - name: Ühe versiooni teenusevärskendused
               items:
                 - name: Ühe versiooni teenusevärskenduste ülevaade
@@ -2239,6 +2241,8 @@
                       href: localizations/rus-currency-sale-purchase.md
                     - name: Pisikulude kassa
                       href: localizations/emea-petty-cash.md
+                    - name: Sularaha – kohalikud esmased vormid ja ühtlustatud aruanded
+                      href: localizations/rus-local-primary-forms-and-unified-reports.md
                 - name: KM
                   items:
                     - name: Arvestatud käibemaksu kohalik spetsiifiline sisestamine
@@ -2255,6 +2259,8 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: Ettemaksete haldus
                       href: localizations/rus-prepayments-management.md
+                    - name: Laekuva käibemaksu taastamine
+                      href: localizations/rus-incoming-VAT-restoring.md
                 - name: Põhivarad
                   items:
                     - name: Põhivarade haldamine
@@ -2313,6 +2319,14 @@
                       href: localizations/rus-cash-flow.md
                     - name: Muude kulude eraldamine võrdeliselt kaalu ja mahuga
                       href: localizations/rus-miscellaneous-charges.md
+                    - name: Kolmanda osapoole muud kulud
+                      href: localizations/rus-third-party-misc-charges.md
+                - name: Varud
+                  items:
+                    - name: Hankija transiidis olevad kaubad
+                      href: localizations/rus-goods-transit-vendor.md
+                    - name: Tollideklaratsiooni numbrid
+                      href: localizations/rus-custom-declaration-number.md
                 - name: Aruandlus
                   items:
                     - name: Finantsaruandlus
@@ -2329,12 +2343,14 @@
                       href: localizations/rus-land-tax-declaration.md
                 - name: Organisatsiooni haldus
                   items:
-                    - name: 'Maksu registreerimise teave, mis on seotud aadressiga'
+                    - name: Aadressiga seotud maksu registreerimise teave
                       href: localizations/emea-registration-ids.md
                     - name: Ametiisikute seadistamine
                       href: localizations/rus-officials.md
                     - name: Ettevõtte jaotused
                       href: localizations/rus-company-divisions.md
+                    - name: Vene aadressivormingud ja import FIAS-ist
+                      href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: Viitvõlad
                   items:
                     - name: Viitvõlgade häälestamine
@@ -2869,6 +2885,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Konfiguratsioonide importimine RCS-ist
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Õppetükid
+                  items:
+                    - name: Andmeallikate JOIN kasutamine andmete saamiseks mitmest rakendusetabelist elektroonilise aruandluse (ER) mudeli vastendustes
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                    - name: Riigi kontekstist sõltuva ER-mudeli vastenduste konfigureerimine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
                 - name: Elektrooniliste aruandluse lahenduste Finance and Operationsis
                   items:
                     - name: Raamistiku konfigureerimine
@@ -2903,6 +2925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Äridokumentide halduse ülevaade
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                    - name: Uute väljade lisamine Microsoft Exceli äridokumendi mallile
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: ER-raamistiku API
                   items:
                     - name: Elektroonilise aruandluse funktsioonide loendi laiendamine
