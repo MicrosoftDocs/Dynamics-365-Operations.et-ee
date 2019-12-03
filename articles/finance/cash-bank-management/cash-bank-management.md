@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51a27f5ecdb4d4903ac0b76c5682ea7f9ab0d8c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1d074b9450a4dfc72f60f97ccaf03610ce54315d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175900"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772578"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Sularaha- ja pangahalduse avaleht
 
@@ -49,36 +49,36 @@ Need vahendid hõlmavad deposiitkviitungeid, tšekke, käskveksleid ja võlatäh
 ### <a name="bank-reconciliation"></a>Pangakonto vastavusseviimine
 
 -   [Pangakonto täpsema vastavusseviimise ülevaade](advanced-bank-reconciliation-overview.md)
--   [Pangakonto täpsema vastavusseviimise konfigureerimine](configure-advanced-bank-reconciliation.md)
--   [Täpsema panga vastavusseviimise importimise seadistamine](set-up-advanced-bank-reconciliation-import-process.md)
+-   [Pangakonto täpsema vastavusseviimise protsess](configure-advanced-bank-reconciliation.md)
+-   [Täpsema panga vastavusseviimise importimise protsessi seadistamine](set-up-advanced-bank-reconciliation-import-process.md)
 -   [Pangaväljavõtete vastavusseviimine täpsema panga vastavusseviimise abil](reconcile-bank-statements-advanced-bank-reconciliation.md)
 -   [Pangakonto vastavusseviimise reeglite seadistamine](set-up-bank-reconciliation-matching-rules.md)
 
 
 ## <a name="accounts-payable-payments-and-settlements"></a>Ostureskontro maksed ja tasakaalustused
 -   [Ostureskontro tsentraliseeritud maksed](../accounts-payable/centralized-payments-accounts-payable.md)
--   [Hankija arvete loomine maksesoovituse abil](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [Hankija maksete loomine maksesoovituse abil](../accounts-payable/create-vendor-payments-payment-proposal.md)
 -   [Hankija makse storneerimine](../accounts-payable/reverse-vendor-payment.md)
 -   [Hankija osalises summas maksed](../accounts-payable/vendor-payments-partial-amount.md)
--   [Ettemaksuarvete ja ettemaksete ülevaade](../accounts-payable/prepayments-invoices-vs-prepayments.md)
--   [Stsenaarium: hankija osalise makse tasakaalustamine ja lõpliku makse tasakaalustamine enne allahindluse kuupäeva](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Stsenaarium: hankija osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
--   [Stsenaarium: hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tasakaalustamine](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
--   [Stsenaarium: mitme allahindlusperioodiga osalise hankijamakse tasakaalustamine](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [Stsenaarium: hankija makse arvutatud skontost suurema skonto võtmine](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
--   [Stsenaarium: skonto võtmine väljaspool skonto perioodi](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+-   [Ettemaksuarved vs. ettemaksed](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [Hankija osalise makse tasakaalustamine ja lõplik tasakaalustamine enne allahindluse kuupäeva](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [Hankija osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [Hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tasakaalustamine](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [Mitme allahindlusperioodiga osalise hankijamakse tasakaalustamine](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [Hankija makse arvutatud skontost suurema skonto võtmine](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [Skonto võtmine väljaspool skonto perioodi](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
 ## <a name="accounts-receivable-payments-and-settlements"></a>Müügireskontro maksed ja tasakaalustused
 -   [Müügireskontro tsentraliseeritud maksed](../accounts-receivable/centralized-payments-accounts-receivable.md)
 -   [Kliendi osalises summas maksed](../accounts-receivable/customer-payments-partial-amount.md)
 -   [Klientide kulude korvamine](../accounts-receivable/reimburse-customers.md)
--   [Stsenaarium: automaatne tasakaalustus ja prioritiseerimine](../accounts-receivable/automatic-settlement-prioritization.md)
--   [Stsenaarium: skonto käsitlemine ülemaksete korral](../cash-bank-management/cash-discount-handling-overpayments.md)
--   [Stsenaarium: kliendi osalise makse tasakaalustamine ja lõplik tasakaalustamine enne allahindluse kuupäeva](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
--   [Stsenaarium: kliendi osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
--   [Stsenaarium: kliendi osalise makse, millel on kliendi kreeditarvetel allahindlusi, tasakaalustamine](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
--   [Stsenaarium: mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [Stsenaarium: ühe kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+-   [Automaatne tasakaalustus ja prioritiseerimine](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [Skonto käsitlemine ülemaksete korral](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [Kliendi osalise makse tasakaalustamine ja lõplik tasakaalustamine enne allahindluse kuupäeva](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [Kliendi osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [Kliendi osalise makse, millel on kliendi kreeditarvetel allahindlusi, tasakaalustamine](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [Ühe kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
 
 
 
@@ -86,7 +86,7 @@ Need vahendid hõlmavad deposiitkviitungeid, tšekke, käskveksleid ja võlatäh
 
 #### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 
-Avage [Microsoft Dynamics 365 väljalaskemärkmed](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone on kavandatud. 
+Avage [Microsoft Dynamics 365 väljalaskeplaanid](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone on kavandatud. 
 
 #### <a name="blogs"></a>Ajaveebid
 

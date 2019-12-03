@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c6a9e4dd3f3182c98a9f5491b07f8687c21e5c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184067"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772647"
 ---
 # <a name="budgeting-home-page"></a>Eelarvestamise avaleht
 
@@ -42,12 +42,12 @@ Pikaajalist strateegilist plaanimist ja aastase eelarve plaanimist toetatakse ee
 
 Lõpetuseks võivad väga küpsed organisatsioonid kehtestada organisatsiooni kultuuri, kus töötajaid koolitatakse organisatsiooni eesmärkide teemal, ja nad järgivad neid eesmärke poliitikate kaudu, nagu „Kaaluge reisimise asemel veebikoosolekut”. Rakendus sisaldab eelarve juhtimise raamistikku, mis võimaldab ettevõtte juhtkonnal valida ranged juhtimismeetodid (mis takistavad sisestamisi, mis ületataks eelarvet) või leebed juhtimismeetodid (kus kasutajatele edastatakse hoiatus, et nad ületavad olemasolevaid eelarvevahendeid, kuid nad saavad ise otsustada, kuidas jätkata). Lõpuks saab kasutada jooksvaid prognoose. Jooksev prognoos on eelarve regulaarne võrdlemine tegelike näitajatega ja seda kasutatakse määratlemiseks, kui hästi ettevõttel eelarvega võrreldes läheb. Jooksvat prognoosi kasutatakse ka suundumuste tuvastamiseks. Rakenduses Finance and Operations toetatakse jooksvaid prognoose eelarveplaani dokumendi kaudu algse plaanimise tegevustena. Jooksvaid prognoose saab teha paralleelselt tulevase eelarvetsükli plaanimisega.
 
--   [Põhiline eelarvestamine: ülevaade ja konfigureerimine](basic-budgeting-overview-configuration.md)
--   [Eelarve juhtimine: ülevaade ja konfigureerimine](budget-control-overview-configuration.md)
--   [Eelarve planeerimine: ülevaade ja konfigureerimine](budget-planning-overview-configuration.md)
+-   [Eelarve koostamise ülevaade](basic-budgeting-overview-configuration.md)
+-   [Eelarve juhtimise ülevaade](budget-control-overview-configuration.md)
+-   [Eelarve plaanimise ülevaade](budget-planning-overview-configuration.md)
 -   [Ametikoha prognoosimine](position-forecasting.md)
 -   [Eelarve planeerimise põhjendusdokumendid](budget-planning-justification-docs.md)
--   [Microsoft Exceli eelarve planeerimise mallid](budget-planning-excel-templates.md)
+-   [Eelarve planeerimise mallid Exceli jaoks](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Eelarvestamise tööriistad
 [![Eelarvestamise tööriistad](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 

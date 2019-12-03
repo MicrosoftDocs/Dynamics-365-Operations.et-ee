@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: edc2f59752a32b9cd20902d0b7a1edfe3ba4d15b
-ms.sourcegitcommit: ff160a9f9879f3ec015ffef11fbc8b7c1b84a59d
+ms.openlocfilehash: 841ef8f2b7c319e0a6b3a9ce9a9e4959e70aa8cd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552946"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812760"
 ---
 # <a name="welcome-to-dynamics-365-talent"></a>Tere tulemast Dynamics 365 Talentisse
 
@@ -53,10 +53,10 @@ Vaadake Dynamics 365 Talentiga tutvumiseks videot [Kuidas alustada Dynamics 365 
 Rakendusega Talent töötamisel saate otsustada, kuidas struktureerida oma organisatsiooni, kasutades elemente, nagu osakonnad, tööd ja ametikohad. Need kuuluvad põhielementide hulka, mida saate konfigureerida. Üksikud töötajad määratakse ametikohtadele, mis on seotud töödega.
 
 -   [Tööjõu korraldamine osakondade, tööde ja ametikohtade abil](departments-jobs-positions.md)
--   [Ettevõttekohaste inimressursside parameetrite seadistamine](set-up-company-specific-hr-parameters.md)
--   [Juriidilistele isikutele inimressursside parameetrite seadistamine](set-up-hr-parameters-across-legal-entities.md) 
+-   [Ettevõttekohaste inimressursside (HR) parameetrite seadistamine](set-up-company-specific-hr-parameters.md)
+-   [Juriidilistele isikutele inimressursside (HR) parameetrite seadistamine](set-up-hr-parameters-across-legal-entities.md) 
 -   [Personalitegevuste KKK](personnel-actions-faq.md)
--   [Puhkuste ja puudumiste ülevaade](leave-absence-overview.md)
+-   [Puhkuste ja puudumiste haldus](leave-absence-overview.md)
 -   [Teenuse Dynamics 365 Talent kasutamine: puhkused ja puudumised (video)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
 -   [Töötajate haldamine teenuses Dynamics 365 Talent (video)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
@@ -64,8 +64,8 @@ Rakendusega Talent töötamisel saate otsustada, kuidas struktureerida oma organ
 
 Talent hõlmab rakendust Attract, mis aitab teil tuvastada, intervjueerida ja tööle võtta kandidaate, kelle oskusi teie organisatsioon vajab. Pärast värbamise kaudu palkamist saate rakenduse Onboard abil uue töötaja oma organisatsiooni tuua. Rakendus võimaldab määrata täpsed ootused ja jagada teavet, mida töötajal alustamiseks vaja on, ühendada ta kolleegidega ja luua talle tingimused uues rollis edu saavutamiseks.  
 
-- [Attracti ülevaade](attract-overview.md)
-- [Onboardi ülevaade](create-onboarding-experience.md)
+- [Microsoft Dynamics 365 Talent - Attracti funktsioonid ja võimalused](attract-overview.md)
+- [Onboardi kasutamise alustamine](create-onboarding-experience.md)
 
 ## <a name="retain-and-motivate-employees"></a>Töötajate hoidmine ja motiveerimine
 
@@ -82,17 +82,17 @@ Saate koostada plaane tasu tulemuslikuks ja õiglaseks haldamiseks ning selleks,
 Saate seadistada eesmärke, luua tulemuste ülevaatusi ja jälgida tagasisidet, et aidata töövõtjatel saavutada karjäärieesmärke, täites samas äriliselt kriitilisi ülesandeid. Selleks et aidata töövõtjatel vajalikke oskusi arendada, saate ka seadistada juhendajad, kursusetüübid, kursused, kursusekirjeldused, päevakorrad, teed ja sessioonid enne kursusele juhendaja määramist või kellegi registreerimist kursusele. Juhendajad peavad juba töötajate, kandidaatide või kontaktidena olemas olema.
 
 -   [Jõudlushaldus](performance-management-overview.md)
--   [Töötajate oskuste ja ärivajaduste joondamine](skills.md)
--   [Koolituste läbiviimine kursuste kaudu](courses.md)
+-   [Töötajate oskuste joondamine ärivajadustega](skills.md)
+-   [Koolituskursuste seadistamine](courses.md)
 -   [Töövõtjate juurutuse haldamine teenuses Dynamics 365 Talent (video)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Soodustuste loomine ja haldamine
 
 Peale töötajatele töötasu ja preemiate maksmise saate töötada välja soodustuste programme, nt tervisekindlustuse ja pensioni plaane. Samuti saate hallata soodustusi, nt laenuprogrammid, mille puhul ettevõte laenab oma töötajatele artikleid, nt arvutid või telefonid.
 
--   [Soodustusprogrammi haldamine](manage-benefit-program.md)
+-   [Soodustusprogrammi määratlemine ja haldamine](manage-benefit-program.md)
 -   [Soodustuse saamise õiguse eeskirjad](benefit-eligibility-policies.md)
--   [Töötajatele laenatud artiklite haldamine](loan-items.md)
+-   [Töötajatele laenatud kaupade haldamine](loan-items.md)
 -   [Töövõtjate soodustuste haldamine teenuses Dynamics 365 Talent (video)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Töökoha ohutuse ja nõuetele vastavuse haldamine
@@ -108,5 +108,5 @@ Saate koostada ja hallata küsimustikke andmete kogumiseks mitmesugustel eesmär
 
 -   [Küsimustikud](questionnaires.md)
 -   [Küsimustiku kujundamine](design-questionnaires.md)
--   [Küsimustiku laialisaatmine ja täitmine](distribute-questionnaires.md)
--   [Küsimustiku tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
+-   [Küsimustike jaotamine ja kavandamine](distribute-questionnaires.md)
+-   [Küsimustike tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)

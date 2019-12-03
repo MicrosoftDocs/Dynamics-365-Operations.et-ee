@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658732"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772233"
 ---
 # <a name="accounts-payable-home-page"></a>Ostureskontro koduleht
 
@@ -41,7 +41,7 @@ Saate sisestada hankija arveid käsitsi või võtta neid vastu elektrooniliselt 
 
 Seadistage hankijagruppe, hankijaid, sisestusreegleid, mitmesuguseid maksevalikuid ning hankijate, tasude, tarnete ja sihtkohtade parameetreid, võlatähti ja muud tüüpi ostureskontro teavet. 
 
-[Ostureskontro konfigureerimine](accounts-payable-overview.md)
+[Ostureskontro konfigureerimise ülevaade](accounts-payable-overview.md)
 
 [Arvestuse jaotused ja alammooduli töölehe kirjed hankija arvete puhul](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -51,7 +51,7 @@ Seadistage hankijagruppe, hankijaid, sisestusreegleid, mitmesuguseid maksevaliku
 
 Kasutage ostureskontrot, et jälgida arveid ja hankijatele tehtud väljaminevaid kulusid.
 
-[Ostureskontro arvete võrdlemine](accounts-payable-invoice-matching.md)
+[Ostureskontro arvete võrdlemise ülevaade](accounts-payable-invoice-matching.md)
 
 [Hankija sisestusreeglid](vendor-posting-profiles.md)
 
@@ -61,7 +61,7 @@ Kasutage ostureskontrot, et jälgida arveid ja hankijatele tehtud väljaminevaid
 
 [Arve võrdlemine ja kontsernisisesed ostutellimused](invoice-matching-intercompany-purchase-orders.md)
 
-[Lahknevuste lahendamine arve kogusummade võrdlemisel](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[Lahknevuste lahendamine arve kogusummade võrdlemisel – ülevaade](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [Hankija arve töölehtede ja arve kinnitustöölehtede vaikevastaskontod](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,11 +93,11 @@ Määrake igale kasutaja määratud makseviisile süsteemi määratud maksetüü
 
 [Skonto võtmine väljaspool skonto perioodi](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[Hankija arvete elektrooniline aruandlus](electronic-reporting-sample-vendor-checks.md)
+[Hankija arvete elektroonilise aruandluse hankija näidistšekid](electronic-reporting-sample-vendor-checks.md)
 
 [Hankija makse storneerimine](reverse-vendor-payment.md)
 
-[Ettemaksuarvete ja ettemaksete ülevaade](prepayments-invoices-vs-prepayments.md)
+[Ettemaksuarved vs. ettemaksed](prepayments-invoices-vs-prepayments.md)
 
 [Ostureskontro tsentraliseeritud maksed](centralized-payments-accounts-payable.md)
 
@@ -107,13 +107,13 @@ Järgmised teemad annavad teavet tasakaalustuste kohta. Tasakaalustamine tähend
 
 [Tasakaalustuse konfigureerimine](../cash-bank-management/configure-settlement.md)
 
-[Osalise hankijamakse tasakaalustamine enne allahindluse kuupäeva](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[Hankija osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [Hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tasakaalustamine](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [Mitme allahindlusperioodiga osalise hankijamakse tasakaalustamine](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[Osalise hankijamakse või lõpliku makse tasakaalustamine enne allahindlust](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[Hankija osalise makse tasakaalustamine ja lõplik tasakaalustamine enne allahindluse kuupäeva](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [Üksik mitme kliendi- või hankijakirjega kanne](single-voucher-multiple-customer-vendor-records.md)
 
@@ -123,7 +123,7 @@ Järgmised teemad annavad teavet tasakaalustuste kohta. Tasakaalustamine tähend
 
 #### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 
-Avage [Microsoft Dynamics 365 väljalaskemärkmed](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone kavandatakse. 
+Avage [Microsoft Dynamics 365 väljalaskeplaanid](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone kavandatakse. 
 
 #### <a name="blogs"></a>Ajaveebid
 
