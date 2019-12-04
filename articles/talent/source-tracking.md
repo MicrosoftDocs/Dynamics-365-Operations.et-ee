@@ -1,5 +1,5 @@
 ---
-title: Kandidaadi profiilide ja avalduste allikate jälgimine
+title: Kandidaadi allikate jälgimine Attractis
 description: Selles teemas antakse teavet kandidaatide profiilide ja avalduste allikate jälgimise kohta.
 author: hachandr
 manager: AnnBe
@@ -18,87 +18,87 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551883"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832646"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a><span data-ttu-id="2d004-103">Kandidaadi profiilide ja avalduste allikate jälgimine</span><span class="sxs-lookup"><span data-stu-id="2d004-103">Track sources for candidate profiles and applications</span></span>
+# <a name="track-candidate-sources-in-attract"></a><span data-ttu-id="85eb1-103">Kandidaadi allikate jälgimine Attractis</span><span class="sxs-lookup"><span data-stu-id="85eb1-103">Track candidate sources in Attract</span></span>
 
-[!include[banner](../includes/banner.md)]
-
-> [!NOTE] 
-> <span data-ttu-id="2d004-104">Selles teemas märgitud funktsioonid on saadaval eelväljaandes.</span><span class="sxs-lookup"><span data-stu-id="2d004-104">Functionality noted in this topic is available as part of a preview review release.</span></span> <span data-ttu-id="2d004-105">Sisu ja funktsioonid võivad muutuda.</span><span class="sxs-lookup"><span data-stu-id="2d004-105">The content and the functionality are subject to change.</span></span> <span data-ttu-id="2d004-106">Selle funktsiooni kasutamiseks paluge administraatoril see lubada, kasutades Attractis **administraatori sätteid**.</span><span class="sxs-lookup"><span data-stu-id="2d004-106">To use this feature, ask an administrator to enable it using the **Admin settings** in Attract.</span></span> <span data-ttu-id="2d004-107">Tulevases väljaandes pakutakse allika jälgimise aruandeid.</span><span class="sxs-lookup"><span data-stu-id="2d004-107">A future release will provide source tracking reports.</span></span> <span data-ttu-id="2d004-108">Lisateavet leiate teemast [Juurdepääs eelvaatefunktsioonidele rakenduses Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).</span><span class="sxs-lookup"><span data-stu-id="2d004-108">For more information, see [Access preview features in Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).</span></span>
-
-<span data-ttu-id="2d004-109">Kui kandidaadid töökohale kandideerivad, jälgib rakendus Attract automaatselt nende avalduste allikat, pakkudes teile väärtuslikku abiteavet värbamisprotsessi jaoks.</span><span class="sxs-lookup"><span data-stu-id="2d004-109">When candidates apply for a job, Attract automatically tracks the source of their applications, providing you with valuable information to help you target your recruiting efforts.</span></span> <span data-ttu-id="2d004-110">Värbajad ja personalijuhid võivad kandidaadi käsitsi tööle või talendikausta lisamisel valida ka avalduse allika.</span><span class="sxs-lookup"><span data-stu-id="2d004-110">Recruiters and hiring managers can also select an application source while manually adding a candidate to a job or talent pool.</span></span>
-
-<span data-ttu-id="2d004-111">Saate vaadata avalduse allikat vahekaardil **Tegevus** avalduste tegevuse üksikasjade alt ja vahekaardi **Profiil** talendikaustades olevas avalduste ajaloos.</span><span class="sxs-lookup"><span data-stu-id="2d004-111">You can view the application source in the application activity details under the **Activity** tab, as well as in the application history available under **Profile** in talent pools.</span></span> <span data-ttu-id="2d004-112">Kandidaadi profiili võite leida vahekaardi **Profiil** avaldustes ja talendikaustades olevates kandidaatide üksikasjades.</span><span class="sxs-lookup"><span data-stu-id="2d004-112">You can find a candidate's profile source in the candidate details under the **Profile** tab in both applications and talent pools.</span></span>
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
-> <span data-ttu-id="2d004-113">Protsessimallid leiate [tervikliku värbamise lisandmoodulist](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).</span><span class="sxs-lookup"><span data-stu-id="2d004-113">You can find process templates in the [Comprehensive hiring add-on](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).</span></span>
+> <span data-ttu-id="85eb1-104">Selles teemas märgitud funktsioonid on saadaval eelväljaandes.</span><span class="sxs-lookup"><span data-stu-id="85eb1-104">Functionality noted in this topic is available as part of a preview review release.</span></span> <span data-ttu-id="85eb1-105">Sisu ja funktsioonid võivad muutuda.</span><span class="sxs-lookup"><span data-stu-id="85eb1-105">The content and the functionality are subject to change.</span></span> <span data-ttu-id="85eb1-106">Selle funktsiooni kasutamiseks paluge administraatoril see lubada, kasutades Attractis **administraatori sätteid**.</span><span class="sxs-lookup"><span data-stu-id="85eb1-106">To use this feature, ask an administrator to enable it using the **Admin settings** in Attract.</span></span> <span data-ttu-id="85eb1-107">Tulevases väljaandes pakutakse allika jälgimise aruandeid.</span><span class="sxs-lookup"><span data-stu-id="85eb1-107">A future release will provide source tracking reports.</span></span> <span data-ttu-id="85eb1-108">Lisateavet leiate teemast [Juurdepääs eelvaatefunktsioonidele rakenduses Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).</span><span class="sxs-lookup"><span data-stu-id="85eb1-108">For more information, see [Access preview features in Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).</span></span>
 
-## <a name="pre-configured-sources"></a><span data-ttu-id="2d004-114">Eelkonfigureeritud allikad</span><span class="sxs-lookup"><span data-stu-id="2d004-114">Pre-configured sources</span></span>
+<span data-ttu-id="85eb1-109">Kui kandidaadid töökohale kandideerivad, jälgib rakendus Attract automaatselt nende avalduste allikat, pakkudes teile väärtuslikku abiteavet värbamisprotsessi jaoks.</span><span class="sxs-lookup"><span data-stu-id="85eb1-109">When candidates apply for a job, Attract automatically tracks the source of their applications, providing you with valuable information to help you target your recruiting efforts.</span></span> <span data-ttu-id="85eb1-110">Värbajad ja personalijuhid võivad kandidaadi käsitsi tööle või talendikausta lisamisel valida ka avalduse allika.</span><span class="sxs-lookup"><span data-stu-id="85eb1-110">Recruiters and hiring managers can also select an application source while manually adding a candidate to a job or talent pool.</span></span>
 
-<span data-ttu-id="2d004-115">Vaikallikate loend sisaldab tavapäraseid avalduste allikaid.</span><span class="sxs-lookup"><span data-stu-id="2d004-115">The default source list contains common application sources.</span></span> <span data-ttu-id="2d004-116">Mõnel allika tüübil, näiteks **Tööportaal** ja **Suhtlusvõrk**, on täiendavad allika üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="2d004-116">Some source types, like **Job board** and **Social Network**, have additional source details.</span></span> <span data-ttu-id="2d004-117">Näiteks kuuluvad allika tüübi **Suhtlusvõrk** alla Facebook ja Twitter.</span><span class="sxs-lookup"><span data-stu-id="2d004-117">For example, **Social Network** includes Facebook and Twitter.</span></span> <span data-ttu-id="2d004-118">Allika tüüp **Viitamine** võimaldab teil viitajaks määrata ettevõttesisese töötaja.</span><span class="sxs-lookup"><span data-stu-id="2d004-118">The **Referral** source type allows you to specify an internal employee as the referrer.</span></span> <span data-ttu-id="2d004-119">Vaikeallikate loendisse kuuluvad järgmised eelkonfigureeritud allikad.</span><span class="sxs-lookup"><span data-stu-id="2d004-119">The default source list includes the following pre-configured sources:</span></span>
+<span data-ttu-id="85eb1-111">Saate vaadata avalduse allikat vahekaardil **Tegevus** avalduste tegevuse üksikasjade alt ja vahekaardi **Profiil** talendikaustades olevas avalduste ajaloos.</span><span class="sxs-lookup"><span data-stu-id="85eb1-111">You can view the application source in the application activity details under the **Activity** tab, as well as in the application history available under **Profile** in talent pools.</span></span> <span data-ttu-id="85eb1-112">Kandidaadi profiili võite leida vahekaardi **Profiil** avaldustes ja talendikaustades olevates kandidaatide üksikasjades.</span><span class="sxs-lookup"><span data-stu-id="85eb1-112">You can find a candidate's profile source in the candidate details under the **Profile** tab in both applications and talent pools.</span></span>
 
--   <span data-ttu-id="2d004-120">Attracti karjäärisait</span><span class="sxs-lookup"><span data-stu-id="2d004-120">Attract career site</span></span>
+> [!NOTE] 
+> <span data-ttu-id="85eb1-113">Protsessimallid leiate [tervikliku värbamise lisandmoodulist](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).</span><span class="sxs-lookup"><span data-stu-id="85eb1-113">You can find process templates in the [Comprehensive hiring add-on](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).</span></span>
 
--   <span data-ttu-id="2d004-121">Tööbüroo</span><span class="sxs-lookup"><span data-stu-id="2d004-121">Agency</span></span>
+## <a name="pre-configured-sources"></a><span data-ttu-id="85eb1-114">Eelkonfigureeritud allikad</span><span class="sxs-lookup"><span data-stu-id="85eb1-114">Pre-configured sources</span></span>
 
--   <span data-ttu-id="2d004-122">Karjäärimess</span><span class="sxs-lookup"><span data-stu-id="2d004-122">Career Fair</span></span>
+<span data-ttu-id="85eb1-115">Vaikallikate loend sisaldab tavapäraseid avalduste allikaid.</span><span class="sxs-lookup"><span data-stu-id="85eb1-115">The default source list contains common application sources.</span></span> <span data-ttu-id="85eb1-116">Mõnel allika tüübil, näiteks **Tööportaal** ja **Suhtlusvõrk**, on täiendavad allika üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="85eb1-116">Some source types, like **Job board** and **Social Network**, have additional source details.</span></span> <span data-ttu-id="85eb1-117">Näiteks kuuluvad allika tüübi **Suhtlusvõrk** alla Facebook ja Twitter.</span><span class="sxs-lookup"><span data-stu-id="85eb1-117">For example, **Social Network** includes Facebook and Twitter.</span></span> <span data-ttu-id="85eb1-118">Allika tüüp **Viitamine** võimaldab teil viitajaks määrata ettevõttesisese töötaja.</span><span class="sxs-lookup"><span data-stu-id="85eb1-118">The **Referral** source type allows you to specify an internal employee as the referrer.</span></span> <span data-ttu-id="85eb1-119">Vaikeallikate loendisse kuuluvad järgmised eelkonfigureeritud allikad.</span><span class="sxs-lookup"><span data-stu-id="85eb1-119">The default source list includes the following pre-configured sources:</span></span>
 
--   <span data-ttu-id="2d004-123">Ettevõtte turundus</span><span class="sxs-lookup"><span data-stu-id="2d004-123">Company Marketing</span></span>
+-   <span data-ttu-id="85eb1-120">Attracti karjäärisait</span><span class="sxs-lookup"><span data-stu-id="85eb1-120">Attract career site</span></span>
 
--   <span data-ttu-id="2d004-124">Konverentsid ja ärimessid</span><span class="sxs-lookup"><span data-stu-id="2d004-124">Conferences & Trade shows</span></span>
+-   <span data-ttu-id="85eb1-121">Tööbüroo</span><span class="sxs-lookup"><span data-stu-id="85eb1-121">Agency</span></span>
 
--   <span data-ttu-id="2d004-125">Kutseliit</span><span class="sxs-lookup"><span data-stu-id="2d004-125">Professional Association</span></span>
+-   <span data-ttu-id="85eb1-122">Karjäärimess</span><span class="sxs-lookup"><span data-stu-id="85eb1-122">Career Fair</span></span>
 
--   <span data-ttu-id="2d004-126">Tööportaal</span><span class="sxs-lookup"><span data-stu-id="2d004-126">Job board</span></span>
+-   <span data-ttu-id="85eb1-123">Ettevõtte turundus</span><span class="sxs-lookup"><span data-stu-id="85eb1-123">Company Marketing</span></span>
 
-    -   <span data-ttu-id="2d004-127">Indeed</span><span class="sxs-lookup"><span data-stu-id="2d004-127">Indeed</span></span>
+-   <span data-ttu-id="85eb1-124">Konverentsid ja ärimessid</span><span class="sxs-lookup"><span data-stu-id="85eb1-124">Conferences & Trade shows</span></span>
 
-    -   <span data-ttu-id="2d004-128">Seek</span><span class="sxs-lookup"><span data-stu-id="2d004-128">Seek</span></span>
+-   <span data-ttu-id="85eb1-125">Kutseliit</span><span class="sxs-lookup"><span data-stu-id="85eb1-125">Professional Association</span></span>
 
-    -   <span data-ttu-id="2d004-129">CareerBuilder</span><span class="sxs-lookup"><span data-stu-id="2d004-129">CareerBuilder</span></span>
+-   <span data-ttu-id="85eb1-126">Tööportaal</span><span class="sxs-lookup"><span data-stu-id="85eb1-126">Job board</span></span>
 
-    -   <span data-ttu-id="2d004-130">Google Jobs</span><span class="sxs-lookup"><span data-stu-id="2d004-130">Google Jobs</span></span>
+    -   <span data-ttu-id="85eb1-127">Indeed</span><span class="sxs-lookup"><span data-stu-id="85eb1-127">Indeed</span></span>
 
-    -   <span data-ttu-id="2d004-131">Xing</span><span class="sxs-lookup"><span data-stu-id="2d004-131">Xing</span></span>
+    -   <span data-ttu-id="85eb1-128">Seek</span><span class="sxs-lookup"><span data-stu-id="85eb1-128">Seek</span></span>
 
-    -   <span data-ttu-id="2d004-132">Glassdoor</span><span class="sxs-lookup"><span data-stu-id="2d004-132">Glassdoor</span></span>
+    -   <span data-ttu-id="85eb1-129">CareerBuilder</span><span class="sxs-lookup"><span data-stu-id="85eb1-129">CareerBuilder</span></span>
 
-    -   <span data-ttu-id="2d004-133">Monster Jobs</span><span class="sxs-lookup"><span data-stu-id="2d004-133">Monster Jobs</span></span>
+    -   <span data-ttu-id="85eb1-130">Google Jobs</span><span class="sxs-lookup"><span data-stu-id="85eb1-130">Google Jobs</span></span>
 
--   <span data-ttu-id="2d004-134">Ajakirjad ja trükised</span><span class="sxs-lookup"><span data-stu-id="2d004-134">Magazines & Publications</span></span>
+    -   <span data-ttu-id="85eb1-131">Xing</span><span class="sxs-lookup"><span data-stu-id="85eb1-131">Xing</span></span>
 
--   <span data-ttu-id="2d004-135">Suhtlusvõrk</span><span class="sxs-lookup"><span data-stu-id="2d004-135">Social Network</span></span>
+    -   <span data-ttu-id="85eb1-132">Glassdoor</span><span class="sxs-lookup"><span data-stu-id="85eb1-132">Glassdoor</span></span>
 
-    -   <span data-ttu-id="2d004-136">Facebook</span><span class="sxs-lookup"><span data-stu-id="2d004-136">Facebook</span></span>
+    -   <span data-ttu-id="85eb1-133">Monster Jobs</span><span class="sxs-lookup"><span data-stu-id="85eb1-133">Monster Jobs</span></span>
 
-    -   <span data-ttu-id="2d004-137">Twitter</span><span class="sxs-lookup"><span data-stu-id="2d004-137">Twitter</span></span>
+-   <span data-ttu-id="85eb1-134">Ajakirjad ja trükised</span><span class="sxs-lookup"><span data-stu-id="85eb1-134">Magazines & Publications</span></span>
 
--   <span data-ttu-id="2d004-138">Ülikoolis värbamine</span><span class="sxs-lookup"><span data-stu-id="2d004-138">University Recruiting</span></span>
+-   <span data-ttu-id="85eb1-135">Suhtlusvõrk</span><span class="sxs-lookup"><span data-stu-id="85eb1-135">Social Network</span></span>
 
--   <span data-ttu-id="2d004-139">LinkedIn</span><span class="sxs-lookup"><span data-stu-id="2d004-139">LinkedIn</span></span>
+    -   <span data-ttu-id="85eb1-136">Facebook</span><span class="sxs-lookup"><span data-stu-id="85eb1-136">Facebook</span></span>
 
--   <span data-ttu-id="2d004-140">Töökuulutus ajalehes</span><span class="sxs-lookup"><span data-stu-id="2d004-140">Classifieds</span></span>
+    -   <span data-ttu-id="85eb1-137">Twitter</span><span class="sxs-lookup"><span data-stu-id="85eb1-137">Twitter</span></span>
 
--   <span data-ttu-id="2d004-141">Viitamine</span><span class="sxs-lookup"><span data-stu-id="2d004-141">Referral</span></span>
+-   <span data-ttu-id="85eb1-138">Ülikoolis värbamine</span><span class="sxs-lookup"><span data-stu-id="85eb1-138">University Recruiting</span></span>
 
--   <span data-ttu-id="2d004-142">Värbaja lisatud</span><span class="sxs-lookup"><span data-stu-id="2d004-142">Added by Recruiter</span></span>
+-   <span data-ttu-id="85eb1-139">LinkedIn</span><span class="sxs-lookup"><span data-stu-id="85eb1-139">LinkedIn</span></span>
 
--   <span data-ttu-id="2d004-143">Muud</span><span class="sxs-lookup"><span data-stu-id="2d004-143">Other</span></span>
+-   <span data-ttu-id="85eb1-140">Töökuulutus ajalehes</span><span class="sxs-lookup"><span data-stu-id="85eb1-140">Classifieds</span></span>
 
-## <a name="customize-the-source-list"></a><span data-ttu-id="2d004-144">Allikate loendi kohandamine</span><span class="sxs-lookup"><span data-stu-id="2d004-144">Customize the source list</span></span> 
+-   <span data-ttu-id="85eb1-141">Viitamine</span><span class="sxs-lookup"><span data-stu-id="85eb1-141">Referral</span></span>
 
-<span data-ttu-id="2d004-145">Saate allikate loendit täiendada, et kaasata täiendavaid avalduste allikaid.</span><span class="sxs-lookup"><span data-stu-id="2d004-145">You can extend the source list to include additional application sources.</span></span> <span data-ttu-id="2d004-146">Loendi kohandamiseks järgige juhiseid teemas [Suvandikomplektide laiendamine Attractis](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract).</span><span class="sxs-lookup"><span data-stu-id="2d004-146">To customize this list, follow the instructions in [Extending Option Sets in Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract).</span></span> <span data-ttu-id="2d004-147">Redigeerige olemit **TalentSource**, et lisada täiendavaid allikaid.</span><span class="sxs-lookup"><span data-stu-id="2d004-147">Edit the **TalentSource** entity to include additional sources.</span></span> 
+-   <span data-ttu-id="85eb1-142">Värbaja lisatud</span><span class="sxs-lookup"><span data-stu-id="85eb1-142">Added by Recruiter</span></span>
 
-<span data-ttu-id="2d004-148">Kasutajaliidese kahjustamise vältimiseks ärge redigeerige ega muutke olemi **TalentCategory** loetelu (enum) väärtusi (mitte nimesid) järgmiste üksuste puhul.</span><span class="sxs-lookup"><span data-stu-id="2d004-148">To avoid negatively impacting the user interface (UI), don't edit or delete the **TalentCategory** enum values (not names) for the following:</span></span>
+-   <span data-ttu-id="85eb1-143">Muud</span><span class="sxs-lookup"><span data-stu-id="85eb1-143">Other</span></span>
 
-- <span data-ttu-id="2d004-149">**Viitamine**</span><span class="sxs-lookup"><span data-stu-id="2d004-149">**Referral**</span></span>
-- <span data-ttu-id="2d004-150">**LinkedIn**</span><span class="sxs-lookup"><span data-stu-id="2d004-150">**LinkedIn**</span></span>
-- <span data-ttu-id="2d004-151">**Muud**</span><span class="sxs-lookup"><span data-stu-id="2d004-151">**Other**</span></span>
+## <a name="customize-the-source-list"></a><span data-ttu-id="85eb1-144">Allikate loendi kohandamine</span><span class="sxs-lookup"><span data-stu-id="85eb1-144">Customize the source list</span></span> 
 
-<span data-ttu-id="2d004-152">Selle asemel saate laiendada olemi **TalentSource** loetelu (enum), et lisada muid allika tüüpe.</span><span class="sxs-lookup"><span data-stu-id="2d004-152">Instead, you can extend the **TalentSource** enum to add other types of sources.</span></span>
+<span data-ttu-id="85eb1-145">Saate allikate loendit täiendada, et kaasata täiendavaid avalduste allikaid.</span><span class="sxs-lookup"><span data-stu-id="85eb1-145">You can extend the source list to include additional application sources.</span></span> <span data-ttu-id="85eb1-146">Loendi kohandamiseks järgige juhiseid teemas [Suvandikomplektide laiendamine Attractis](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract).</span><span class="sxs-lookup"><span data-stu-id="85eb1-146">To customize this list, follow the instructions in [Extending Option Sets in Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract).</span></span> <span data-ttu-id="85eb1-147">Redigeerige olemit **TalentSource**, et lisada täiendavaid allikaid.</span><span class="sxs-lookup"><span data-stu-id="85eb1-147">Edit the **TalentSource** entity to include additional sources.</span></span> 
+
+<span data-ttu-id="85eb1-148">Kasutajaliidese kahjustamise vältimiseks ärge redigeerige ega muutke olemi **TalentCategory** loetelu (enum) väärtusi (mitte nimesid) järgmiste üksuste puhul.</span><span class="sxs-lookup"><span data-stu-id="85eb1-148">To avoid negatively impacting the user interface (UI), don't edit or delete the **TalentCategory** enum values (not names) for the following:</span></span>
+
+- <span data-ttu-id="85eb1-149">**Viitamine**</span><span class="sxs-lookup"><span data-stu-id="85eb1-149">**Referral**</span></span>
+- <span data-ttu-id="85eb1-150">**LinkedIn**</span><span class="sxs-lookup"><span data-stu-id="85eb1-150">**LinkedIn**</span></span>
+- <span data-ttu-id="85eb1-151">**Muud**</span><span class="sxs-lookup"><span data-stu-id="85eb1-151">**Other**</span></span>
+
+<span data-ttu-id="85eb1-152">Selle asemel saate laiendada olemi **TalentSource** loetelu (enum), et lisada muid allika tüüpe.</span><span class="sxs-lookup"><span data-stu-id="85eb1-152">Instead, you can extend the **TalentSource** enum to add other types of sources.</span></span>
