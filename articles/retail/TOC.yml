@@ -850,6 +850,8 @@
           items:
             - name: Püsikliendi ülevaade
               href: set-up-customer-loyalty-program.md
+            - name: Kliendisuhtluse ülevaade
+              href: clienteling-overview.md
         - name: Maksed
           items:
             - name: Makseviisid
@@ -1268,11 +1270,9 @@
                   href: Open-URL-in-POS.md
                 - name: Kassa paigutuse kujundaja installimine
                   href: install-pos-layout-designer.md
-                - name: Retail Modern POS ühenduseta režiimis
-                  href: dev-itpro/retail-modern-pos-offline.md
                 - name: Kassa topeltkuva laiendamine
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: Retail Modern POS-i ja pilve kassa käivitaja laiendatavus
+                - name: Retail Modern POS-i ja Cloud POS-i käivitaja laiendatavus
                   href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Kohandatud juhtelementide lisamine POS-i vaadetele
                   href: dev-itpro/pos-custom-control.md
@@ -1332,9 +1332,11 @@
                   href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: Tagastuspoliitika juurutamine päästikute abil
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: Laiendussündmuste logimine rakendusse Application Insights
+                  href: dev-itpro/commerce-application-insights.md
             - name: E-kaubanduse laiendatavus
               items:
-                - name: Konfigureeri e-poode
+                - name: Võrgupoodide konfigureerimine
                   href: dev-itpro/configure-online-store.md
                 - name: Autentimise pakkujate konfigureerimine
                   href: dev-itpro/configure-authentication-providers.md

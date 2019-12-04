@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17774053badb00cc464c34c7c90194a26839cc7d
-ms.sourcegitcommit: 807dec193cd163c9f5d949e744cfde40f2eb24b4
+ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2468998"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770915"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Rakenduse Finance and Operations dokumentatsioon
 
@@ -68,7 +68,7 @@ Suur osa sellest sisust kehtib ka seotud toodetele Dynamics 365 Retail ja Talent
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Integratsioonid</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">Ärisündmused</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Andmeüksused</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integratsioon Microsoft Flow' abil</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integreerimine Microsoft Power Automate</a>'i abil</p>
 
 <h3><a href="../../finance/index.md">Finantshaldus</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">Ostureskontro</a></p>

@@ -2,6 +2,8 @@
   items:
     - name: Finance and Operationsi rakenduste juurutamine ja haldamine
       items:
+        - name: Rakenduse Finance and Operations dokumentatsioon
+          href: ../fin-ops/index.md
         - name: Finance and Operationsi rakenduste juurutamine ja haldamine
           href: index.md
         - name: Mis on uut või mida on muudetud?
@@ -126,18 +128,30 @@
                       items:
                         - name: Reaalaja lähedane teabe integratsioon
                           href: data-entities/dual-write-overview.md
-                        - name: Common Data Service-i organisatsiooni hierarhia
+                        - name: Common Data Service'i organisatsiooni hierarhia
                           href: data-entities/dual-write-organization.md
-                        - name: Ettevõtte kontseptsioon Common Data Service'is
-                          href: data-entities/dual-write-company.md
+                        - name: Ettevõtte integratsioon
+                          items:
+                            - name: Ettevõtte kontseptsioon Common Data Service'is
+                              href: data-entities/dual-write-company.md
+                            - name: Alglaadimine ettevõtte andmetega
+                              href: data-entities/dual-write-bootstrap.md
                         - name: Integreeritud kliendi koondandmed
                           href: data-entities/dual-write-customer.md
+                        - name: Integreeritud pearaamat
+                          href: data-entities/dual-write-ledger.md
                         - name: Ühendatud toote kasutusfunktsionaalsus
                           href: data-entities/dual-write-product.md
-                        - name: Integreeritud hankija koondandmed
-                          href: data-entities/dual-write-vendor.md
-                        - name: Integreeritu kohad ja laod
+                        - name: Hankija integreerimine
+                          items:
+                            - name: Integreeritud hankija koondandmed
+                              href: data-entities/dual-write-vendor.md
+                            - name: Hankija kujunduste vaheldumisi aktiveerimine
+                              href: data-entities/dual-write-vendor-switch.md
+                        - name: Integreeritud kohad ja laod
                           href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: Integreeritud maksu koondandmed
+                          href: data-entities/dual-write-tax.md
                         - name: Esialgne sünkroonimine
                           href: data-entities/dual-write-initial.md
                         - name: Andmete integratsiooni tõrkeotsing
@@ -418,6 +432,8 @@
                   href: user-interface/client-disconnected.md
                 - name: Kohapealsete juurutamiste tõrkeotsing
                   href: deployment/troubleshoot-on-prem.md
+                - name: Asutusesiseses keskkonnas probleemide lahendamise skriptid
+                  href: deployment/onprem-tsg-implementations.md
                 - name: Sertide roteerimine
                   href: deployment/certificate-rotation-on-prem.md
             - name: Kohandatud koodi juurutamine

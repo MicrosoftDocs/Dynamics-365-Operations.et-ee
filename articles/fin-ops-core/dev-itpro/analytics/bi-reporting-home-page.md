@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92fec444834be8ca4943932730b94beb8a1902e7
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536843"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771560"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Ärianalüüsi (BI) ja aruandluse avaleht
 
@@ -48,7 +48,7 @@ Lisateabe saamiseks vaadake järgmisi teemasid.
 - [Teenuse Power BI Embedded integratsioon](power-bi-embedded-integration.md)
 - [Analüütika lisamine tööruumidele teenuse Power BI Embedded abil](add-analytics-tab-workspaces.md)
 - [Analüütiliste tööruumide ja aruannete kaitsmine teenuse Power BI Embedded abil](secure-analytical-workspaces.md)
-- [Power BI sisu rakendusele Finance and Operations](power-bi-home-page.md)
+- [Power BI sisu avaleht](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Äridokumendid ja printimine
 Aruandluslahendusi kasutatakse sageli äritehingute üksikasjade jäädvustamiseks ja edastamiseks. Seetõttu peab aruandluslahendus suutma luua äriandmetest füüsilisi koopiaid olemasolevate seadmetega, näiteks võrguprinteritega. Äridokumendid on näiteks müügiarved, kliendi koondväljavõtted ja tšekid.
@@ -57,9 +57,9 @@ Aruandluslahendusi kasutatakse sageli äritehingute üksikasjade jäädvustamise
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 
-- [Dokumentide aruandlusteenuste ülevaade](document-reporting-services.md)
-- [Finance and Operationsi rakendustes printimine](print-documents.md)
-- [Dokumendi marsruudivaliku agendi installimine võrguprinterite lubamiseks](install-document-routing-agent.md)
+- [Dokumendi aruandlusteenused](document-reporting-services.md)
+- [Dokumentide printimise ülevaade](print-documents.md)
+- [Dokumendi marsruudivaliku agendi installimine võrguprintimise lubamiseks](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Elektrooniline aruandlus
 Elektroonilise aruandluse (ER) tööriist võimaldab teil konfigureerida elektrooniliste dokumentide vorminguid erinevate riikide või regioonide õigusnõuete järgi. Elektroonilise aruandluse rakenduste hulgas on saadaval finantsauditite loomine, maksuaruandlus ja elektrooniline arveldus.
@@ -68,9 +68,9 @@ Elektroonilise aruandluse (ER) tööriist võimaldab teil konfigureerida elektro
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 
-- [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
-- [Elektroonilise aruandluse konfiguratsiooni elutsükli haldamine](general-electronic-reporting-manage-configuration-lifecycle.md)
-- [Elektroonilise aruandluse konfiguratsiooni loomine](electronic-reporting-configuration.md)
+- [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
+- [Elektroonilise aruandluse (ER) konfiguratsiooni elutsükli haldamine](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Elektroonilise aruandluse (ER) konfiguratsioonide loomine](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>Finantsaruandlus
 Esitatavad standardsed finantsaruanded põhinevad põhikonto vaikekategooriatel. Aruandekoosturiga saate luua või muuta traditsioonilisi finantsaruandeid, näiteks kasumiaruandeid ja bilansse. Seejärel saate jagada tulemusi organisatsiooni teiste liikmetega. Finantsaruandlus hõlmab näiteks bilansse, rahavoogu ja proovibilansi aastapõhist kokkuvõtet.
@@ -79,14 +79,14 @@ Esitatavad standardsed finantsaruanded põhinevad põhikonto vaikekategooriatel.
 
 Lisateabe saamiseks vaadake järgmisi teemasid.
 
-- [Rakenduse Finance and Operations finantsaruandlus](financial-reporting-intro.md)
-- [Finantsaruande loomine](generate-financial-report.md)
+- [Finantsaruandlus](financial-reporting-intro.md)
+- [Finantsaruannete loomine](generate-financial-report.md)
 - [Finantsaruande komponendid](financial-report-components.md)
 
 ## <a name="technical-reference-reports"></a>Tehnilise teabe aruanded
 Järgmised aruanded sisaldavad nende objektide kohta viiteteavet.
 
-- [Andmeüksuste aruanne](../data-entities/data-entities-report.md)
+- [Teabe otsimine standardsete andmeüksuste kohta](../data-entities/data-entities-report.md)
 - [Litsentsi koodide ja konfiguratsioonivõtmete aruanne](../sysadmin/license-codes-configuration-keys-report.md)
-- [SQL Server Reporting Services’i aruannete aruanne](SSRS-report.md)
+- [Saadaolevad SQL Serveri aruandlusteenuste (SSRS) aruanded](SSRS-report.md)
 - [Töövoo tüüpide aruanne](../../fin-ops/organization-administration/workflow-types-report.md)

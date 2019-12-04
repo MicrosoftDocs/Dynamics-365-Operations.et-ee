@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b0201d31cd83b4360f96a7d8e2113caf9d913715
-ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
+ms.openlocfilehash: f53573b8afb2003f6796930f5877185e533a4715
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622523"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693062"
 ---
 # <a name="edit-and-audit-retail-store-transactions"></a>Kaupluse kannete redigeerimine ja auditeerimine
 
@@ -95,6 +95,6 @@ Retaili versioonis 10.0.6 ja uuemates toetatakse jaemüügikannete hulgiredigeer
        - **Seifi maksevahendi kanded**: sellel töölehel on kõik seifi hoiustamise kande üksikasjad.
        - **Päevakassa**: sellel töölehel on kõik päevakassa kande üksikasjad.
        - **Tulu/kulu kanne**: sellel töölehel on kõik tulu/-kulu kande rea üksikasjad.
-       - **Maksekanded**: sellel töölehel on kogu toimingu **Arve tasumine** ja tulu/kulu kande maksega seotud teave.
+       - **Maksekanded**: sellel töölehel on kogu toimingu **Arve tasumine** ja samuti tulu/kulu kande maksega seotud teave.
 
 3.  Kui avaldate hulgiredigeeritud kandeid, siis kinnitamisi ei tehta. Peate veenduma, et kõik teie muudatused on täpsed ja andmete kvaliteet on kõigil töölehtedel tagatud. Kui soovite näiteks muuta kande kuupäeva, et hallata stsenaariume, kus avatud jaemüügikannete rahandus- või laovarude periood suletakse, peate muutma kuupäeva kõigil Exceli töölehtedel, millel on veerg **Ärikuupäev**. Kannete kinnitamiseks pärast nende redigeerimist saate lehel **Jaemüügi väljavõtted** kasutada valikut **Kinnita kanded uuesti**.
