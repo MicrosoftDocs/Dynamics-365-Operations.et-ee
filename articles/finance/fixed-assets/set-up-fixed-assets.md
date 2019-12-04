@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eef9d8c58d19b05901035f4c679ee7d9902819
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177326"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771915"
 ---
 # <a name="set-up-fixed-assets"></a>Põhivarade seadistamine
 
@@ -43,7 +43,7 @@ Põhivarad määratakse loomisel gruppi. Vaikimisi määratakse põhivaragrupile
 
 ## <a name="depreciation-profiles"></a>Kulumireeglid
 
-Esmalt peaksite seadistama kulumireeglid. Kulumireeglites saate konfigureerida, kuidas vara väärtus aja jooksul amortiseerub. Peate määratlema kulumimeetodi, kulumiaasta (kalendriaasta või rahandusaasta) ja kulumi sageduse. Lisateavet vt teemast [Kulumiprofiilide seadistamine ja loomine](tasks/set-up-depreciation-profiles.md).
+Esmalt peaksite seadistama kulumireeglid. Kulumireeglites saate konfigureerida, kuidas vara väärtus aja jooksul amortiseerub. Peate määratlema kulumimeetodi, kulumiaasta (kalendriaasta või rahandusaasta) ja kulumi sageduse. Lisateavet vt teemast [Kulumireeglite seadistamine ja loomine](tasks/set-up-depreciation-profiles.md).
 
 ## <a name="books"></a>Raamatud
 
@@ -51,7 +51,7 @@ Pärast kulumireeglite seadistamist peate looma oma varade jaoks nõutavad raama
 
 Igale raamatule määratakse esmane kulumireegel. Raamatutel on ka alternatiivsed või ülemineku kulumireeglid, kui seda tüüpi reeglid on kohaldatavad. Põhivara raamatu automaatseks kaasamiseks kulumi käitustesse peate lubama suvandi **Arvuta kulum**. Kui see suvand pole mõne vara puhul lubatud, jätab kulumisoovitus vara vahele.
 
-Saate seadistada ka tuletatud raamatuid. Määratud tuletatud kanded sisestatakse tuletatud raamatute suhtes esmase kande täpse koopiana. Seetõttu seadistatakse tuletatud kanded tavaliselt soetuste ja likvideerimiste, mitte kulumikannete jaoks. Lisateabe saamiseks vt [Raamatute seadistamine](tasks/set-up-value-models.md).
+Saate seadistada ka tuletatud raamatuid. Määratud tuletatud kanded sisestatakse tuletatud raamatute suhtes esmase kande täpse koopiana. Seetõttu seadistatakse tuletatud kanded tavaliselt soetuste ja likvideerimiste, mitte kulumikannete jaoks. Lisateavet leiate teemast [Väärtusmudelite seadistamine](tasks/set-up-value-models.md).
 
 ## <a name="fixed-asset-posting-profiles"></a>Põhivarade sisestusreeglid
 

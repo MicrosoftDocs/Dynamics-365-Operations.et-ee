@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3110cb809558d168e9d97f640701b249caf73f6c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cf444ef1192fed3a6a49282da37374dd8c443356
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184504"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769633"
 ---
 # <a name="execution-order-for-initial-synchronization-of-finance-and-operations-apps-and-common-data-service"></a>Finance and Operationsi rakenduste ning Common Data Service’i esialgse sünkroonimise täitmise järjekord
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Enne andmete integratsiooni peate looma klientide, tarnijate ja kontaktide puhul kohustuslikud esialgsed andmed. Näiteks tahate luua uut üksust **Tarnija rühm** ja määrata selle **Maksetingimused** väärtuseks **Net30**. Sel juhul peate enne **Tarnija rühma** üksuse loomise üritust veenduma, et **Net30** on olemas nii rakenduses kui ka Common Data Service’is. (Tulevikus väljastab Microsoft topeltkirjutamise platvormi „Algne sünkroonimine“. See funktsioon sünkroniseerib rakenduse ning Common Data Service’i andmeid omavahel ühe korra topeltkirjutamise seadistuse osana.)
 

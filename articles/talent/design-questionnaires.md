@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 8d94cf24040e5f653bc053f2df0a45e1afa23adc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6405b6a680f31c62e16f3bb707ec0a4ccdad3d23
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517824"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813910"
 ---
 # <a name="design-questionnaires"></a>Küsimustike kavandamine
 
@@ -110,7 +110,8 @@ Vastusegrupid ja vastused on komponendid, mis moodustavad küsimuste aluseks ole
 
 Vastusegruppi saab kasutada samas küsimustikus rohkem kui ühe küsimuse puhul ja ka rohkem kui ühes küsimustikus. 
 
-**Märkus.** Kui muudate vastuse teksti vastusegruppides, mida on juba täidetud küsimustikes kasutatud, võib andmeid olla raske hinnata ja küsimustiku tulemused ei pruugi enam kehtida. Kui teil on vaja vastusegruppi muuta, kaaluge olemasoleva grupi muutmise asemel uue vastusegrupi loomist. Küsimuse või vastusega seotud või vastatud vastusegruppe ei saa kustutada.
+> [!NOTE]
+> Kui muudate vastuste rühmas vastuse teksti, mida on juba kasutatud täidetud küsimustikes, võib andmete hindamine osutuda raskeks ja küsimustiku tulemused ei pruugi enam kehtida. Kui teil on vaja vastusegruppi muuta, kaaluge olemasoleva grupi muutmise asemel uue vastusegrupi loomist. Küsimuse või vastusega seotud või vastatud vastusegruppe ei saa kustutada.
 
 ### <a name="questions"></a>Küsimused
 
@@ -118,12 +119,16 @@ Küsimustik peab sisaldama küsimusi. Küsimused võivad olla avatud või suletu
 
 -   Avatud küsimuste vastuseid ei kontrollita ja vastajad saavad oma vastused tippida.
 -   Suletud küsimused nõuavad eelnevalt määratud vastusevalikute loendit ja küsimusi saab ehitada üles nii, et vastaja võib valida mitu vastust. Küsimused tuleks kavandada nii, et nende abil saaks vastajalt konkreetset teavet, ja need tuleb siduda vastusegrupiga, mis annab igale suletud küsimusele vastusevariandid. 
-     -  **Märkus.** enne suletud küsimuste seadistamist tuleb luua vastusegrupid ja vastused.
+
+    > [!NOTE]
+    > Enne suletud küsimuste seadistamist peate looma vastuserühmad ja vastused.
 
 Küsimused saab paigutada tingimuslikku küsimuste hierarhiasse, nii et sekundaarsed küsimused sõltuvad vastusest, mille vastaja eelmisele küsimusele valib. Saate kõigepealt küsimused kirjutada ja siis need hiljem hierarhiasse paigutada.
 
 ## <a name="setting-up-questionnaires"></a>Küsimustike seadistamine
-**Märkus.** Enne küsimustiku seadistamist peate seadistama vastused, küsimused ja eeltingimused. 
+
+> [!NOTE]
+> Enne küsimustiku seadistamist peate üles seadma vastused, küsimused ja eeltingimused. 
 
 Iga küsimustiku jaoks saate määrata järgmised andmed.
 
@@ -159,7 +164,8 @@ Lehel **Küsimustikud** saab teha järgmisi toiminguid.
 -   Kustutada ja lisada küsimusi.
 -   muuta tulemustegruppe ja järjekorranumbreid. 
 
-**Ettevaatust!** Olge ettevaatlikud vastatud küsimustike muutmisel. Muudatused võivad vähendada statistika täpsust ja seetõttu muuta selle hindamiseks ebapiisavaks. Vastatud küsimuse muutmise asemel võiksite luua uue küsimuse.
+> [!CAUTION]
+> Olge ettevaatlik, kui muudate küsimustikke, millele on juba vastatud. Muudatused võivad vähendada statistika täpsust ja seetõttu muuta selle hindamiseks ebapiisavaks. Vastatud küsimuse muutmise asemel võiksite luua uue küsimuse.
 
 Küsimustikus ei saa kustutada järgmist tüüpi küsimusi.
 
@@ -177,7 +183,8 @@ Tulemusegruppi kasutatakse punktide arvestamiseks ja küsimustiku tulemuste kate
 -   Tulemuste analüüsimise hõlbustamiseks tehke iga tulemustegruppi kohta statistikat.
 -   Printida aruande, milles kuvatakse iga tulemusegrupi tulemused ja ka valikulised punktid/tekstid, mis põhinevad igas tulemusegrupis teenitud punktidel.
 
-**Märkus.** Enne tulemusegruppide seadistamist tuleb teha järgmine seadistus.
+> [!NOTE]
+> Enne tulemusrühmade seadistamist peate täitma järgmised ülesanded.
 
 -   Seadistage suletud küsimused. Suletud küsimuste puhul peab sisendi tüüp lehel **Küsimused** olema **Märkeruut**, **Alternatiivne nupp** või **Liitboks**.
 -   Määrake vastusegrupis iga küsimuse juurde vastuse punktide arv.
@@ -187,7 +194,8 @@ Küsimuste sidumiseks küsimustikega tulemusegruppide abil seadistage kõigepeal
 
 Saate seadistada mitu tulemusegruppi, et hinnata punkte, mida vastaja igas kategoorias teenib. Pärast küsimustiku täitmist saate vaadata igas tulemusegrupis saadud punkte. 
 
-**Näpunäide.** Küsimustiku hindamiseks punktide, kuid mitte eraldi kategooriate abil võite lisada kõik küsimused ühte tulemusegruppi. 
+> [!TIP]
+> Küsimustiku hindamiseks punktide abil, kuid mitte eraldi kategooriaid kasutades, saate kõik küsimused lisada ühte tulemusrühma. 
 
 Iga tulemusegrupi kohta saab seadistada ka vähemalt ühe punktidel põhineva teate, mille vastajad pärast küsimustiku täitmist saavad. Kuvatav tekst võib varieeruda, olenevalt punktisummast, mille vastaja tulemusegrupis saavutas. Punktidel põhinevate teadete kasutamiseks tuleb määratleda punktide intervallid ja iga intervalli kirjeldus. Kui vastaja saavutab punktisumma konkreetses intervallis, lisatakse tulemuste aruandesse selle intervalli tekst. 
 
@@ -213,13 +221,15 @@ Järgmises tabelis on toodud punktipõhised sõnumid, mille määratlete tulemus
 
 Saate seadistada punktivahemikud ja tekstid igale tulemusegrupile küsimustikus. Iga vastaja skooril põhinevad tekstid kuvatakse iga tulemusegrupi puhul. 
 
-**Märkus.** Saate intervalle ja tekste muuta. Kuid kui küsimustik on täidetud, võivad muudatused põhjustada eelmiste ja uute tulemusearuannete vahel erinevusi.
+> [!NOTE]
+> Saate intervalle ja tekste muuta. Kuid kui küsimustik on täidetud, võivad muudatused põhjustada eelmiste ja uute tulemusearuannete vahel erinevusi.
 
 ### <a name="conditional-question-hierarchies"></a>Tingimuslike küsimuste hierarhiad
 
 Tingimuslike küsimuste hierarhiad on küsimustiku seadistamisel valikulised. 
 
-**Märkus.** Enne tingimuslike küsimuste hierarhia seadistamist tuleb siduda küsimustikuga küsimused, millele on määratud vastusegrupid. 
+> [!NOTE]
+> Enne tingimusliku küsimuste hierarhia seadistamist peate lisama küsimustikule küsimused, millel on määratud vastusrühmad. 
 
 Tingimuslike küsimuste kasutamiseks küsimustikus küsimuste hierarhia loomiseks võite luua küsimuste esitamise järjekorra sõltuvalt vastusest, mille vastaja iga küsimuse puhul valib. Võttes küsimuste järjestuse aluseks vastajate vastusevaliku, saate küsimustikku kohandada sel ajal, kui vastaja seda täidab.
 
@@ -232,9 +242,9 @@ Teine võimalus on seadistada küsimustik nii, et kui vastaja valib küsimusele 
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Küsimustike kasutamine](questionnaires.md)
+[Küsimustikud](questionnaires.md)
 
-[Küsimustike laialisaatmine ja täitmine](distribute-questionnaires.md)
+[Küsimustike jaotamine ja kavandamine](distribute-questionnaires.md)
 
 [Küsimustike tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
 

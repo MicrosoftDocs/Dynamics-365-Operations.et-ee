@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658686"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811989"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Rakenduse Finance and Operations eemaldatud või aegunud funktsioonid.
 
@@ -270,7 +270,7 @@ Arendaja saab manustatud juhtimismõõdikuid (KPI-d) Visual Studio kaudu modelle
 | **Olek**                         | Aegunud: hoiatus muutub tulevikus kompileerimisaegseks tõrkeks. Oleme sihiks võtnud 30. platvormivärskenduse. |
 
 #### <a name="complete-list"></a>Täielik loend
-Aegunuks kuulutatud API-de täieliku loendi nägemiseks vt teemat [Meetodite ja metaandmete elementide aegunuks kuulutamine](deprecation-deletion-apis.md).
+Aegunud API-de täielikule loendile juurdepääsuks vaadake jaotist [Meetodite ja metaandmeelementide aegumine](deprecation-deletion-apis.md).
 
 ## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 platvormivärskendusega 20
 
@@ -348,7 +348,7 @@ Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isi
 | **Olek**                         |Eemaldatud alates 15. veebruarist 2018. See mõjutab kliente, kes kasutavad Dynamics 365 for Operations 1611 või uuemat versiooni.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektroonilise aruandluse (ER) funktsioonide loendi pikendus
-Võimalust võtta kasutusele ER avaldisekoosturis kasutatavaid funktsioone (lisateavet vt teemast [Elektroonilise aruandluse funktsioonide loendi pikendus](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) enam ei toetata. ER-i API-de muudatuste tõttu muutuvad kutsutava API sisseehitatud funktsioonid ER-i avaldisekoosturist sisemiseks ja neid ei saa enam laiendada.
+Võimalust tutvustada ER-i avaldisekoosturis kasutatavaid kohandatud funktsioone (lisateabe vaatamiseks vaadake jaotist [Elektroonilise aruandluse (ER) funktsioonide loendi laiendamine](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) ei toetata enam. ER-i API-de muudatuste tõttu muutuvad kutsutava API sisseehitatud funktsioonid ER-i avaldisekoosturist sisemiseks ja neid ei saa enam laiendada.
 
 |   |  |
 |------------|--------------------|
@@ -474,7 +474,7 @@ Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõel
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Topeltfunktsioon.       |
-| **Asendatud teise funktsiooniga?**   | Jah. See funktsioon on asendatud Finance and Operationsi ladustamise mooduliga. Lisateavet seadistuse ja eeltingimuste kohta vt teemast [Rakenduse Microsoft Dynamics 365 for Finance and Operations mooduli Ladustamine installimine ja konfigureerimine](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Asendatud teise funktsiooniga?**   | Jah. See funktsioon on asendatud Finance and Operationsi ladustamise mooduliga. Lisateavet seadistamise ja eeltingimuste kohta vaadake jaotisest [Laorakenduse installimise ja konfigureerimise ülevaade](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Mõjutatud tootealad**         | Laohaldus, transpordihaldus     |
 | **Juurutamissuvand**              | Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõeldud ise toimivaks asutusesiseseks juurutamiseks.               |
 | **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on 2019. aasta 4. kvartal.   |
@@ -1244,7 +1244,7 @@ Tootekonstruktorit kasutati müügitellimuse, ostutellimuse, tootmistellimuse, m
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Tootekonstruktor avaldas X++ koodi lõppkasutajatele ja Dynamics AX-i praeguses versioonis seda ei toetata. See on eemaldatud kattuvate suurte koodibaaside haldamisel dubleerimise vältimiseks.  |
-| **Asendatud teise funktsiooniga?**   | Jah. Rakenduses Dynamics AX 2012, kus tootekonstruktori tulevaste versioonide aegumine oli juba välja kuulutatud, võeti kasutusele piirangupõhine konfiguratsioon. Konfiguratsiooni lubamiseks valitakse tooteetalonides piirangupõhise konfiguratsiooni tehnoloogia. Lisateabe saamiseks vt teemat [Toote konfiguratsioonimudeli koostamine](../../../supply-chain/pim/build-product-configuration-model.md). |
+| **Asendatud teise funktsiooniga?**   | Jah. Rakenduses Dynamics AX 2012, kus tootekonstruktori tulevaste versioonide aegumine oli juba välja kuulutatud, võeti kasutusele piirangupõhine konfiguratsioon. Konfiguratsiooni lubamiseks valitakse tooteetalonides piirangupõhise konfiguratsiooni tehnoloogia. Lisateavet leiate jaotisest [Toote konfigureerimise ülevaade](../../../supply-chain/pim/build-product-configuration-model.md) |
 | **Mõjutatud tootealad**         | Tooteteabe haldus, Müük ja turundus  |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.      |
 

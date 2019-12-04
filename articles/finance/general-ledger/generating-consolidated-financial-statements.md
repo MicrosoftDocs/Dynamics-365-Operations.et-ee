@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177304"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770685"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolideeritud finantsaruannete loomine
 
@@ -49,11 +49,11 @@ Nagu konsolideeritud aruandes järgmisel joonisel on näha, saate aruandluspuu k
 
 Saate ka luua mitmetasemelise aruandluspuu, mis hõlmab nii palju tasemeid, kui teil on vaja. Järgmisel joonisel on näha mitmetasemeline aruandluspuu definitsioon, millel on kokkuvõtted üleilmse piirkonna järgi.
 
-![Mitmetasemeline aruandluspuu definitsoon kokkuvõtetega piirkonna järgi](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Mitmetasemeline aruandluspuu definitsoon kokkuvõtetega piirkonna järgi")
+![Mitmetasemeline aruandluspuu definitsioon kokkuvõtetega piirkonna järgi](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Mitmetasemeline aruandluspuu definitsioon kokkuvõtetega piirkonna järgi")
 
 Järgmisel joonisel on näha mitmetasemeline aruandluspuu definitsioon, millel on kokkuvõtted funktsiooni järgi.
 
-![Mitmetasemeline aruandluspuu definitsoon kokkuvõtetega funktsiooni järgi](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Mitmetasemeline aruandluspuu definitsoon kokkuvõtetega funktsiooni järgi")
+![Mitmetasemeline aruandluspuu definitsioon kokkuvõtetega funktsiooni järgi](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Mitmetasemeline aruandluspuu definitsioon kokkuvõtetega funktsiooni järgi")
 
 ### <a name="viewing-companies-side-by-side"></a>Ettevõtete vaatamine kõrvuti
 Paljud kliendid eelistavad aruandeid, kus ettevõtted kuvatakse kõrvuti ja kus veerus on näha konsolideeritud kogusumma. Seda vormingut on lihtne saavutada pärast aruandluspuu loomist. Siin on kõrgetasemelised etapid ettevõtete kõrvuti vaatamiseks konsolideeritud finantsaruannetel.
@@ -64,7 +64,7 @@ Paljud kliendid eelistavad aruandeid, kus ettevõtted kuvatakse kõrvuti ja kus 
 
 Järgmisel joonisel on näha veerudefinitsioon kõrvuti vormingus.
 
-![Veerudefinitsioon kõrvuti vormingus](./media/column-definition-side-by-side-format.png "Veerudefinitsioon kõrvuti vormingus")
+![Veeru definitsioon kõrvuti vormingus](./media/column-definition-side-by-side-format.png "Veeru definitsioon kõrvuti vormingus")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Konsolideerimised, mis kasutavad juriidilistest isikutest loodud organisatsiooni struktuure
 Organisatsiooni hierarhiad, mis sisaldavad dimensioone või juriidilisi isikuid, loovad dünaamiliselt aruandluspuu definitsioonid finantsaruandluses. Lihtne moodus konsolideerimiste sujuvamaks muutmiseks on lisada finantsaruandluses aruandele organisatsiooni hierarhia. Finantsaruandlus valib aruande kuupäeva järgi organisatsiooni hierarhia jõustumiskuupäeval või enne seda, nagu on näha järgmisel joonisel.
@@ -221,6 +221,6 @@ Valuutade kasutamisel õigesti teisendatud summade saamiseks kasutab finantsarua
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-Lisateavet konsolideerimise ja valuuta teisendamise kohta vaadake selle teema ülemteemast [Finantskonsolideerimised ja valuuta teisendamine](./financial-consolidations-currency-translation.md).
+Lisateavet konsolideerimise ja valuuta teisendamise kohta vaadake selle teema ülemteemast [Finantskonsolideerimiste ja valuutateisenduse ülevaade](./financial-consolidations-currency-translation.md).
 
-Lisateavet konsolideerimise üksikasjade sisestamise kohta võrgus vt teemast [Võrguühendusega konsolideerimine](./consolidate-online.md).
+Lisateavet konsolideerimise üksikasjade sisestamise kohta võrgus vt teemast [Finantskonsolideerimised võrgus](./consolidate-online.md).

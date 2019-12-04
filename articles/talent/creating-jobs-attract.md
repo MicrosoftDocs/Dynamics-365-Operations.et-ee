@@ -1,5 +1,5 @@
 ---
-title: Tööde loomine, kinnitamine ja sisestamine Attractis
+title: Attractis töö loomine
 description: Selles teemas kirjeldatakse Attarcti töö elemente. Lisaks selgitatakse, kuidas tööd luua.
 author: hasrivas
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: db725c230de5e3dfe971098249b280d9da47ae20
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551068"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832927"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Tööde loomine, kinnitamine ja sisestamine Attractis
+# <a name="create-a-job-in-attract"></a>Attractis töö loomine
 
 [!include [banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Kui halduskeskuses on ametikoha haldamine sisse lülitatud, on saadaval otsing *
 > [!NOTE]
 > Ametikoha haldus on saadaval tervikliku värbamise lisandmooduli korral.
 
-Olenevalt värbamisprotsessi pakkumise tegevuse sätetest, saab ametikoha numbrit pakkumises kasutada kaks korda. Lisateavet vt teemast [Värbamisprotsess](./activities-attract.md).
+Olenevalt värbamisprotsessi pakkumise tegevuse sätetest, saab ametikoha numbrit pakkumises kasutada kaks korda. Lisateavet vaadake jaotisest [Värbamisprotsessi toimingud](./activities-attract.md).
 
 Attract sisaldav vaikimisi **Oskuste** komplekti. Need oskused kuvatakse trükkimisel soovitustena. Saate oskusi juurde lisada, sisestades uue oskuse teksti väljale ja vajutades sisestusklahvi.
 
@@ -67,7 +67,7 @@ Värbamistöörühma saab pärast töö aktiveerimist värskendada.
 
 Värbamisprotsessi vaiketeave põhineb töö loomisel valitud protsessimallil. Kui sel ajal kindlat malli ei valitud, kasutatakse vaikemalli. Kui määratlete värbamisprotsessi, saate lisada või eemaldada erinevaid etappe, välja arvatud potentsiaalselt sobiva kandidaadi, avalduse ja pakkumise etappe. Kuigi potentsiaalselt sobiva kandidaadi etappi ei saa eemaldada, võib selle välja lülitada. Igas etapis saate lisada või eemaldada ühe või mitu eelmääratletud tegevust.
 
-Lisainfot tegevuste kohta, mida värbamisprotsessile lisada saab, leiate artiklist [Värbamisprotsessi tegevused Attractis](./activities-attract.md).
+Lisateavet toimingute kohta, mida saab värbamisprotsessis lisada, vaadake jaotisest [Värbamisprotsessi toimingud](./activities-attract.md).
 
 > [!NOTE]
 > Värbamisprotsessi saab pärast töö aktiveerimist värskendada.
@@ -76,7 +76,7 @@ Lisainfot tegevuste kohta, mida värbamisprotsessile lisada saab, leiate artikli
 
 Pärast töö aktiveerimist saab selle sisestada. Ainult värbajad ja administraatorid saavad töid sisestada. Töö saab sisestada kas rakendusse Talent Careers (Dynamics 365 Talent karjäärisait) või LinkedIni. Attracti meeskond töötab pidevalt töökuulutuste vahendajatega koostöös. See loend laieneb aja jooksul. Töö sisestamisel ainult sisesena vajavad kandidaadid töö vaatamiseks ja sellele kandideerimiseks AAD kontot. Kui töö on loetletud avalikuna, saavad kandidaadid töid vaadata ja neile kandideerida kõiki autentimissuvandeid kasutades. 
 
-Töösisestuste kohta lisainfo saamiseks vt [Karjäärisaidi funktsionaalsus Attractis](career-site.md).
+Töökuulutuste kohta lisateabe saamiseks vaadake jaotist [Karjäärisaidi seadistamine rakenduses Microsoft Dynamics 365 Talent – Attract](career-site.md).
 
 > [!NOTE]
 > Töösisestuste funktsionaalsus on saadaval ainult tervikliku värbamise lisandmooduliga Attractile.
@@ -90,7 +90,7 @@ Pärast seda, kui töö on aktiveeritud, saab sellele potentsiaalselt sobivaid k
 
 ## <a name="prospects-and-applicants"></a>Potentsiaalselt sobivad kandidaadid ja kandidaadid
 
-Tööle potentsiaalselt sobivate kandidaatide lisamise valik on määratud värbamisprotsessis [Potentsiaalselt sobiva kandidaadi tegevus](./activities-attract.md#prospect-activity) all. See valik peaks olema enne töö aktiveerimist määratud.. Pärast seda, kui töö on aktiveeritud, saab sellele potentsiaalselt sobivaid kandidaate ja kandidaate lisada.
+Võimalus lisada tööle värbamisprotsessis väljavaateid on seatud jaotises [Värbamisprotsessi toimingud](./activities-attract.md#prospect-activity). See valik peaks olema enne töö aktiveerimist määratud.. Pärast seda, kui töö on aktiveeritud, saab sellele potentsiaalselt sobivaid kandidaate ja kandidaate lisada.
 
 ## <a name="approvals"></a>Kinnitused
 

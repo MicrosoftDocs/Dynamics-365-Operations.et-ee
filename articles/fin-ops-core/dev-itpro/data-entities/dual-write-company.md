@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184527"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772433"
 ---
 ## <a name="company-concept-in-common-data-service"></a>Ettevõtte mõiste teenuses Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Rakenduses Finance and Operations on mõiste *ettevõte* nii juriidiline kui ka ka ärikonstruktsioon. See on ka andmete turvalisuse ja nähtavuse piir. Kasutajad töötavad alati ühe ettevõtte kontekstis ning ettevõte segmendib enamiku andmetest.
 
@@ -60,12 +58,14 @@ Vastavalt eespool toodud joonisele, on see 1:1 vastendamine äriüksuse, ettevõ
 
 Viimaseks aruteluteemaks on, kuidas kahesugune kirjutamine määrab, millisele omanikust töörühmale tuleks kirjed määrata. Seda käitumist juhib väli **Omanikust vaiketöörühm** kirjes CDM\_Company. Kui cdm\_Company kirje on kahesuguseks kirjutamiseks lubatud, loob lisandmoodul automaatselt seostatud äriüksuse ja omaniktöörühma (kui seda veel pole) ja seadistab välja **Omanikust vaiketöörühm**. Administraator saab seda välja muuta muuks väärtuseks. Kuid administraator ei saa tühjendada välja seni, kuni olem on lubatud kahesuguseks kirjutamiseks.
 
+> [!div class="mx-imgBorder"]
 ![Omanikust vaiketöörühma väli](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Ettevõtte segmentimine ja eellaadimine
 
 Teenuse Common Data Service integreerimine toob kaasa ettevõtte paarsuse, kasutades ettevõtte identifikaatorit andmete segmentimiseks. Järgmine illustratsioon näitab, et kõik ettevõttekohased olemid laiendatakse nii, et neil on mitu-ühele (N:1) seos olemiga CDM\_Company.
 
+> [!div class="mx-imgBorder"]
 ![N:1 seos ettevõttekohase olemi ja olemi cdm_Company vahel](media/dual-write-bootstrapping.png)
 
 + Kirjete puhul muutub väärtus pärast ettevõtte lisamist ja salvestamist kirjutuskaitstuks. Seetõttu peaksid kasutajad veenduma, et nad valivad õige ettevõtte.

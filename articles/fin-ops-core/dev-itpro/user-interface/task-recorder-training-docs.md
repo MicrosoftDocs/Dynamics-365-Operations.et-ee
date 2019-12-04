@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658806"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812645"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentide või koolituse loomine tegevuse salvestaja abil
 
@@ -84,7 +84,7 @@ Selline näeb välja märkuste marginaal tegevusjuhises mullina.
 
 [![Märkuste marginaali ilme tegevuse juhises](./media/screen4.png)](./media/screen4.png)
 
--   **Teabeetapp**: need marginaalid luuakse paremklõpsuga juhtelemendil või suvalises kohas vormil &lt; **Tegevuse salvestaja** &lt; **Lisa teabeetapp.** Teabeetapid kuvatakse nummerdatud etapina igas punktis, kuhu selle sisestate, isegi kui kasutajaliideses ei salvestatud ühtki tegevust. Saate lisada vormi-taseme teabeetapi või juhtelemendiga seotud teabeetapi. Kui teabeetapp on vormiga seotud, ilmub vormile tegevuse juhise esitamisel tegevuse juhise „mull” ilma kursorita. Kui teabeetapp on seotud juhtelemendiga, osutab tegevuse juhise „mull” tegevuse juhise esitamisel juhtelemendina. Spikripaanil kuvatakse teabeetapi mis tahes sisestatud tekstiga marginaal nummerdatud etapina. Kasutage teabeetappe kasutaja ettevalmistamiseks järgmisteks toiminguteks, väljaspool rakendust tehtavate toimingute kirjeldamiseks või teistele salvestistele viitamiseks (kuigi marginaalides ei saa hüperlinke luua).
+-   **Teabeetapp**: nende marginaalide loomiseks paremklõpsake juhtelemendil või kõikjal vormis &lt; **Tegevuse salvestaja** &lt; **Lisa teabeetapp**. Teabeetapid kuvatakse nummerdatud etapina igas punktis, kuhu selle sisestate, isegi kui kasutajaliideses ei salvestatud ühtki tegevust. Saate lisada vormi-taseme teabeetapi või juhtelemendiga seotud teabeetapi. Kui teabeetapp on vormiga seotud, ilmub vormile tegevuse juhise esitamisel tegevuse juhise „mull” ilma kursorita. Kui teabeetapp on seotud juhtelemendiga, osutab tegevuse juhise „mull” tegevuse juhise esitamisel juhtelemendina. Spikripaanil kuvatakse teabeetapi mis tahes sisestatud tekstiga marginaal nummerdatud etapina. Kasutage teabeetappe kasutaja ettevalmistamiseks järgmisteks toiminguteks, väljaspool rakendust tehtavate toimingute kirjeldamiseks või teistele salvestistele viitamiseks (kuigi marginaalides ei saa hüperlinke luua).
 
 **Määrake, kui pika salvestise teete**
 
@@ -97,7 +97,7 @@ Selline näeb välja märkuste marginaal tegevusjuhises mullina.
 **Otsustage, kust kasutajaliideses salvestamist alustada** Lehekülg, millel tegevuse salvestise salvestamise käivitamisel asute, mõjutab seda, millisel lehekülje jaoks tegevuse juhis kuvatakse. Näiteks kui soovite, et teie tegevuse salvestis oleks loetletud spikripaanil, kui kasutaja klõpsab lehel Pearaamatu parameetrid spikrit, tuleb alustada salvestamist lehelt Pearaamatu parameetrid. **Salvestiste salvestamine axtr-failidena** Kui olete tegevuse salvestise loomise või redigeerimise lõpetanud, kuvatakse teile mitu valikut salvestise allalaadimiseks või salvestamiseks. Saate laadida failid alla tegevuse salvestise paketina (.axtr), laadida need alla töötlemata salvestise failina (.xml), Wordi dokumendina või salvestada faili LCS-i teeki. On soovitatav salvestada tegevuse salvestis alati tegevuse salvestise paketifailina (.axtr). See aitab faili hõlpsamini hallata, kui hiljem peaks olema vaja protseduure või marginaale muuta. Kui soovite laadida faili alla Wordi dokumendina, salvestage see samuti tegevuse salvestise paketifailina.
 
 ## <a name="create-your-task-recording"></a>Tegevuse salvestise loomine
-Üksikasjalikud protsessijuhised leiate jaotisest [Kuidas luua tegevuse salvestisi](task-recorder.md).
+Üksikasjalikud protsessijuhised leiate jaotisest [Tegevuse salvestaja ressursid](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Microsofti tegevuse salvestiste kopeerimine ja kohandamine
 Saate Microsofti tegevuse salvestised alla laadida ja neid redigeerida, et kasutada neid oma spikridokumentides või koolitusmaterjalides. Microsofti tegevuse salvestise allalaadimiseks tehke järgmist.
@@ -120,9 +120,9 @@ Oma kohandatud tegevuse salvestiste kuvamiseks spikripaanil, et neid saaks tegev
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Spikri ülevaade](../../fin-ops/get-started/help-overview.md)
+[Spikrisüsteem](../../fin-ops/get-started/help-overview.md)
 
-[Ühendamise spikker](../../fin-ops/get-started/help-connect.md)
+[Spikrisüsteemi ühendamine](../../fin-ops/get-started/help-connect.md)
 
 [Tegevuse salvestaja](task-recorder.md)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5b52e1765d3afbe1730e96f58b601aebccd12787
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181262"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771465"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
@@ -122,7 +122,7 @@ Kui määrate valiku **Lubatud** väärtuseks **Jah**, luuakse väljundi eelvaad
 
 ### <a name="power-bi-destination"></a>Power BI sihtkoht
 
-Kui valite suvandi **Lubatud** sätteks **Jah**, saate oma elektroonilise aruandluse konfiguratsiooni abil korraldada andmete üleviimise teie eksemplarist Microsoft Power BI teenustesse. Edastatud failid talletatakse Microsoft SharePoint Serveri eksemplari, mis on selleks otstarbeks konfigureeritud. Lisateavet vt teemast [Elektroonilise aruandluse konfiguratsiooni kasutamine Power BI-le andmete esitamiseks rakendusest Finance](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Kui valite suvandi **Lubatud** sätteks **Jah**, saate oma elektroonilise aruandluse konfiguratsiooni abil korraldada andmete üleviimise teie eksemplarist Microsoft Power BI teenustesse. Edastatud failid talletatakse Microsoft SharePoint Serveri eksemplari, mis on selleks otstarbeks konfigureeritud. Lisateavet vaadake teemast [Elektroonilise aruandluse (ER) konfigureerimine andmete tõmbamiseks Power BI-sse](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Vaikekäitumise (st konfigureerimise dialoogiboksi) alistamiseks võite luua peamisele väljundkomponendile sihtkoha viite ja faili sihtkoha ning keelata siis kõik sihtkohad.
@@ -163,4 +163,4 @@ Eeltingimus on, et teie vorming peab olema elektroonilise aruandluse konfigurats
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
+[Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2922b00dffe8e99f8331d7aaa7e2f1b7dc4f9ea6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 405af4e3e122953bbfa74e7e91d2feef8f068708
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177377"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772624"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Pangakonto täpsema vastavusseviimise seadistusprotsess
 
@@ -31,7 +31,7 @@ ms.locfileid: "2177377"
 
 Täpsem panga vastavusseviimise funktsioon võimaldab elektroonilisi pangaväljavõtteid importida ja neid Microsoft Dynamics 365 Finance'is automaatselt pangakannetega vastavusse viia. See artikkel selgitab vastavusseviimise seadistusprotsesse.  
 
-Enne pangakonto täpsema vastavusseviimise funktsiooni kasutamist tuleb seadistada mitmed parameetrid. Lisateavet pangaväljavõtte importimise seadistamise kohta vt teemast [Pangaväljavõtte impordiprotsessi seadistamine](set-up-advanced-bank-reconciliation-import-process.md).  Vastavusseviimise protsessi seadistamise nõudeid on üksikasjalikult kirjeldatud allpool.
+Enne pangakonto täpsema vastavusseviimise funktsiooni kasutamist tuleb seadistada mitmed parameetrid. Lisateavet pangaväljavõtete impordi seadistamise kohta leiate jaotisest [Täpsema panga vastavusseviimise impordiprotsessi seadistamine](set-up-advanced-bank-reconciliation-import-process.md).  Vastavusseviimise protsessi seadistamise nõudeid on üksikasjalikult kirjeldatud allpool.
 
 ## <a name="transaction-codes"></a>Kandekoodid
 Kandekoode saab kasutada osana pangakonto vastavusseviimise vastendusreeglitest. Kandekoodid aitavad vastendada Finance'i ja teie pangaväljavõtte vahel sama tüüpi kanded. Seda tüüpi vastendamiseks peate esmalt määratlema Finance'ist tehtavate pangakannete jaoks kasutatavad kandetüübid ja seejärel vastendama need tüübid teie panga kasutatavate väljavõtte kandekoodidega. Pangakannete kandekoodid määratletakse lehel **Pankakande tüüp**. See on ka koht, kus saate määratleda kõnealuse kandetüübiga seostatud sisestuste jaoks kasutatava meilikonto. 

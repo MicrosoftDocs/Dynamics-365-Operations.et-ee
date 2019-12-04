@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 521fdc98c8af51f6f244f9aa606ce047d014edf1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3cb3b25503b559f21c45c0232a8c0abd3e415eb3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250434"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773618"
 ---
 # <a name="project-mobile-applications-overview"></a>Projecti mobiilirakenduste ülevaade
 
@@ -45,4 +45,7 @@ Minu ajatabelid (optimeeritud mobiilile) ja Minu ülevaatamise ajatabelid (optim
 
 ## <a name="for-more-information"></a>Lisateave
 
-Lisateavet leiate teemadest [Microsoft Dynamics 365 Project Timesheeti mobiilirakendus](project-timesheet.md), [Projekti ajakirje]( project-time-entry-mobile-workspace.md), [Projekti ajatabelid mobiilses seadmes](Mobile-timesheets.md) ja [Kohandatud väljade juurutamine mobiilirakenduses Project Timesheet](custom-fields-mobile.md).
+- [Mobiilirakendus Project Timesheet](project-timesheet.md)
+- [Projekti ajakirje]( project-time-entry-mobile-workspace.md)
+- [Projekti ajatabelid mobiilses seadmes](Mobile-timesheets.md)
+- [Kohandatud väljade juurutamine mobiilirakenduses Microsoft Dynamics 365 Project Timesheet iOS-is ja Androidis](custom-fields-mobile.md)

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009827"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814716"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>Saate vaadata sisseelavate töötajate olekut ja oma tööülesandeid
 
@@ -54,6 +54,6 @@ Microsoft Dynamics 365 Talent: Onboard võimaldab vaadata edusamme, mida uued t�
 ### <a name="see-also"></a>Vt ka
 
 - [Proovige või ostke Onboardi rakendus](https://dynamics.microsoft.com/talent/onboard/)
-- [Mis on uut?](./whats-new.md)
-- [Väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Toe hankimine](./talent-support.md)
+- [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent?](./whats-new.md)
+- [Väljaandmisplaanid](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Toe hankimine rakendusele Microsoft Dynamics 365 Talent](./talent-support.md)

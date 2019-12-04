@@ -1,5 +1,5 @@
 ---
-title: Kandidaatide hankimine talendipankadega rakenduses Microsoft Dynamics 365 Talent – Attract
+title: Talendipangaga allikakandidaadid iga rakenduses Attract
 description: Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Talent – Attract talendipanka luua ja seadistada.
 author: andreabichsel
 manager: AnnBe
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551114"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833016"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>Kandidaatide hankimine talendipankadega rakenduses Microsoft Dynamics 365 Talent – Attract
+# <a name="source-candidates-with-talent-pools-in-attract"></a>Talendipangaga allikakandidaadid iga rakenduses Attract
 
-[!include[banner](../includes/banner.md)]
-
+[!include [banner](includes/banner.md)]
 
 Värbajad ja personalijuhid saavad oma kandidaate Attracti talendikaustade funktsionaalsusega korraldada. Talendikaustad aitavad teil jälgida ja suhelda kõigi kandidaatidega, kes kandideerivad teie ettevõtte töökohtadele.
 
@@ -116,7 +115,7 @@ Kõigil kasutajatel on kandidaatide profiilide üldvaade. Vahekaardil **Profiil*
 
     Dokumendi vaatamiseks valige dokumentide loendist dokumendi nimi. Saate vaadata rakenduses Microsoft Wordi dokumente, kasutades Microsoft Office 365. Saate dokumendid ka oma arvutisse alla laadida, kasutades iga dokumendi juures valikut **Laadi alla**.
 
-- Vahekaart **LinkedIn** näitab kandidaadi LinkedIni andmeid. Selle vahekaardi kasutamiseks peate kasutaja sätete abil ühendama oma LinkedIni konto ja loodud peab olema teie keskkonna LinkedIn Recruiteri ühendus. Lisateavet leiate artiklist [Hankimine tööriistaga LinkedIn Recruiter](./attract-linkedin-recruiter.md).
+- Vahekaart **LinkedIn** näitab kandidaadi LinkedIni andmeid. Selle vahekaardi kasutamiseks peate kasutaja sätete abil ühendama oma LinkedIni konto ja loodud peab olema teie keskkonna LinkedIn Recruiteri ühendus. Lisateabe saamiseks vaadake jaotist [LinkedIn Recruiteriga allikakandidaadid rakenduses Microsoft Dynamics 365 Talent – Attract](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Ainult kandidaadid saavad värskendada oma oskusi, hariduslugu ja töökogemust.

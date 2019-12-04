@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef630ca56888eb61ab0519a29c89c3ccb2f24a87
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537828"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811668"
 ---
 # <a name="help-system"></a>Spikrisüsteem
 
@@ -82,7 +82,7 @@ Lisateabe saamiseks vaadake meie [kaasautori juhendit](https://docs.microsoft.co
 
 Tegevuse juhis on juhendatud, interaktiivne kogemus, mis juhib teid läbi tegevuse või äriprotsessi toimingute. Tegevuse juhise saab avada (esitada) paanilt Spikker. Tegevuse juhise esmakordsel klõpsamisel kuvatakse paanil Spikker tegevuse etapiviisilised juhised. Lokaliseeritud tegevuse juhised on saadaval.
 
-Microsoft avaldas Dynamics 365 for Finance and Operationsi tegevuse juhise teegid 2017. aasta detsembris. Jaotis [Ligipääs tegevuse juhistele Spikripaanilt](help-overview.md#accessing-task-guides-from-the-help-pane) kirjeldab, kuidas leida oma toote jaoks sobivaid tegevuse juhiseid.
+Microsoft avaldas Dynamics 365 for Finance and Operationsi tegevuse juhise teegid 2017. aasta detsembris. Jaotis [Spikrisüsteem](help-overview.md#accessing-task-guides-from-the-help-pane) kirjeldab, kuidas leida oma toote jaoks sobivaid tegevuse juhiseid.
 
 ![Tegevuse juhise lugemisvaade](./media/task-guide-ops.png)
 
@@ -93,7 +93,7 @@ Juhitud interaktiivse kogemusega alustamiseks klõpsake valikut **Käivita tegev
 > [!IMPORTANT]
 > Tegevuse juhise käitamisel sisestatavad andmed on tõelised. Kui olete tootmiskeskkonnas, sisestatakse andmed hetkel kasutatavasse ettevõttesse.
 
-Tegevuse salvestajat saate kasutada kohandatud tegevuse juhiste loomiseks. Lisateavet vt jaotisest [Dokumentide või koolituse loomine tegevuse salvestiste abil](../../dev-itpro/user-interface/task-recorder-training-docs.md).
+Tegevuse salvestajat saate kasutada kohandatud tegevuse juhiste loomiseks. Lisateavet vt jaotisest [Dokumentide või koolituse loomine tegevuse salvestaja abil](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Toote sisespikker
 
@@ -144,13 +144,12 @@ Tõlgitud tegevuse juhised on väljastatud teekidesse, mille pealkirjas on „K�
 
 Kasutajatele saab spikreid luua kohandatud tegevusjuhiseid luues või enda veebisaiti spikripaaniga ühendades. Lisateavet vt jaotisest
 
-- [Kuidas luua tegevuse salvestist dokumentide või koolitusena kasutamiseks](../../dev-itpro/user-interface/task-recorder.md).
+- [Tegevuse salvestaja ressursid](../../dev-itpro/user-interface/task-recorder.md).
 - [Kohandatud spikri loomine (tehniline ülevaade)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Tegevuse salvestaja](../../dev-itpro/user-interface/task-recorder.md)
-- [Dokumentide või koolituse loomine tegevuse salvestiste abil](../../dev-itpro/user-interface/task-recorder.md)
+- [Tegevuse salvestaja ressursid](../../dev-itpro/user-interface/task-recorder.md)
 
 Järgmises tabelis esitatakse meie veebilehed. Saitidel, millel on nime kõrval tärn (\*), nõuavad, et logiksite sisse, kasutades teenusepaketiga seotud kontot.
 

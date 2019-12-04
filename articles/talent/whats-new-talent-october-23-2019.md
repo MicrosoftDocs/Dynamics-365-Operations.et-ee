@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94243f83121a1306d8f9ae9be23d24e5c9b63a2d
-ms.sourcegitcommit: 07e109dec176a93eff0df8a37ba5d875f212e9f1
+ms.openlocfilehash: 66419d9093cff68aa6109b22ab57bcb46ac6c718
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "2662661"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772892"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Mis on Dynamics 365 Talent-is uut või mida on muudetud (23. oktoober 2019)
 
@@ -47,7 +47,7 @@ Lisateavet leiate teemast [Lahenduse Finance and Operations rakenduste platvormi
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Soodustuste avatud registreerimise eelvaatefunktsiooni eemaldamine
 
-Kooskõlas meie teadaandega ajaveebipostituses „Core HR-i strateegilised investeeringud parandavad tegevuse tõhusust“ eemaldab Microsoft 18. oktoobril 2019 avalikust eelversioonist soodustuste avatud registreerimise funktsiooni. Selle asemel antakse tulevikus välja uued funktsioonid. Praegu avaliku eelversioonina saadaoleva soodustuste avatud registreerimise funktsiooni tootmiskeskkonnas kasutamist ei toetata.
+Kooskõlas meie teadaandega ajaveebipostituses [Core HR-i strateegilised investeeringud parandavad tegevuse tõhusust](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/10/02/strategic-investments-in-core-hr-drive-operational-excellence) eemaldab Microsoft 18. oktoobril 2019 avalikust eelversioonist soodustuste avatud registreerimise funktsiooni. Selle asemel antakse tulevikus välja uued funktsioonid. Praegu avaliku eelversioonina saadaoleva soodustuste avatud registreerimise funktsiooni tootmiskeskkonnas kasutamist ei toetata.
 
 ### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>Tõrge töötaja riigi/regiooni teistkordsel valimisel (350294)
 
@@ -69,7 +69,7 @@ Selle nädala väljalaskes teenusega Common Data Service juba sünkroonitud olem
 
 Selle väljalaskega avatakse Excelis ainult valitud töötajate tööhõivetingimused. Samuti võetakse arvesse kogu ettevõtte turvet.
 
-### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service---324178"></a>Töökalendri puhkuseüksuse ja töökalendri üksuse vaheline seos puudub teenuses Common Data Service – (324178)
+### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service-324178"></a>Töökalendri puhkuseüksuse ja töökalendri üksuse vaheline seos puudub teenuses Common Data Service (324178)
 
 See seos on lisatud selle väljalaskega. See muudatus võimaldab töövõtja tööpäevade kuvamist PowerAppsis. 
 

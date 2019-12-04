@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249829"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815268"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integreerimine lahendusega Microsoft Dynamics 365 Field Service – ülevaade
 
@@ -41,9 +41,9 @@ Rakenduste Field Service ja Supply Chain Management integreerimise esimeses faas
 
 Rakenduste Field Service ja Supply Chain Management integratsiooni esimeses faasis võimaldatakse sünkroonida järgmisi kaupu.
 
-- [Rakenduse Supply Chain Management tooted rakenduse Field Service toote tüübi teavet sisaldavate toodetega](field-service-product.md)
-- [Rakenduse Field Service töötellimused rakenduse Supply Chain Management müügitellimustega](field-service-work-order.md)
-- [Rakenduse Field Service arved vabas vormis arveteks rakenduses Supply Chain Management](field-service-invoice.md)
+- [Rakenduses Supply Chain Management toodete sünkroonimine rakenduse Field Service toodetega](field-service-product.md)
+- [Sünkroonige rakenduse Field Service töötellimused rakenduse Supply Chain Management müügitellimustega](field-service-work-order.md)
+- [Sünkroonige leppe arved rakenduses Field Service vabas vormis arveteks rakenduses Supply Chain Management](field-service-invoice.md)
 
 Näite saamiseks, kuidas sünkroonida töökäsk Field Service’i ja Supply Chain Managementi vahel, vaadake YouTube’i lühivideot [Töökäsu sünkroonimine rakenduse Microsoft Dynamics 365 integratsiooniga](https://www.youtube.com/watch?v=46ylO7raZAo).
 

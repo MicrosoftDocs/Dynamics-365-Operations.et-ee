@@ -1,5 +1,5 @@
 ---
-title: Kandidaadi profiilide ja avalduste allikate jälgimine
+title: Kandidaadi allikate jälgimine Attractis
 description: Selles teemas antakse teavet kandidaatide profiilide ja avalduste allikate jälgimise kohta.
 author: hachandr
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551883"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832646"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Kandidaadi profiilide ja avalduste allikate jälgimine
+# <a name="track-candidate-sources-in-attract"></a>Kandidaadi allikate jälgimine Attractis
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
 > Selles teemas märgitud funktsioonid on saadaval eelväljaandes. Sisu ja funktsioonid võivad muutuda. Selle funktsiooni kasutamiseks paluge administraatoril see lubada, kasutades Attractis **administraatori sätteid**. Tulevases väljaandes pakutakse allika jälgimise aruandeid. Lisateavet leiate teemast [Juurdepääs eelvaatefunktsioonidele rakenduses Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

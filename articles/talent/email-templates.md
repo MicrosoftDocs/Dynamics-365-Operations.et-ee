@@ -1,5 +1,5 @@
 ---
-title: E-kirjade mallid
+title: Meilimallide loomine Attractis
 description: Selles teemas kirjeldatakse meilimalle, mida saate rakenduses Microsoft Dynamics 365 Talent – Attract luua ja kasutada.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 55c12010cfd055ee6977f50e566b70f76a2e1682
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008032"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832880"
 ---
-# <a name="email-templates"></a>E-kirjade mallid
-[!include[banner](../includes/banner.md)]
+# <a name="create-email-templates-in-attract"></a>Meilimallide loomine Attractis
+
+[!include [banner](includes/banner.md)]
 
 Meilimallide teeki kasutades saavad administraatorid luua ühtse teema ja kaubamärgi kõigile rakenduse Microsoft Dynamics 365 Talent: Attract and Offer kaudu saadetavatele meilidele. Administraatorid saavad ka teiste kasutajate kasutatavat meilisisu mallide kogu kureerida. Värbamistöörühm saab neid malle oma töövoos kasutada meilide tõhusamaks saatmiseks. Mõned meilid on konfigureeritud automaatseks saatmiseks ja administraator saab kasutada meilimallide teeki nende meilide sisu kohandamiseks.
 

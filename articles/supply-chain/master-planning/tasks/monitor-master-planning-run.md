@@ -1,9 +1,9 @@
 ---
 title: Koondplaneerimise käitamise jälgimine
-description: Tootmise plaanija soovib näha, kui koondplaneerimise käitamine on pooleli.
-author: ShylaThompson
+description: Selles teemas selgitatakse, kuidas tootmise plaanija saab näha, kas koondplaneerimise käitamine on pooleli.
+author: josaw1
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,42 +16,115 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b923b215528ecceaed9b5057ddb736ec959f1d65
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d6e7fdd51670ea63efc04e883703f1763955115b
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845109"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781915"
 ---
 # <a name="monitor-a-master-planning-run"></a>Koondplaneerimise käitamise jälgimine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
-Tootmise plaanija soovib näha, kui koondplaneerimise käitamine on pooleli. Kasutage protseduuri lõpuleviimiseks demoandmete ettevõtet USMF.
+## <a name="use-a-gantt-chart-to-visualize-master-planning-progress"></a>Gantti diagrammi kasutamine koondplaneerimise edenemise visualiseerimiseks
 
+Lehel **Koondplaneerimise edenemise kuva** saate vaadata ajalooliste koondplaneerimiste käitamiste üksikasju Gantti diagrammina. See funktsioon aitab teil mõista koondplaneerimise erinevatele etappidele kulutatavat aega. Praeguse aktiivse planeerimistöö jaoks saab lehte **Koondplaneerimise edenemise kuva** kasutada edenemise jälgimiseks ja hinnangulise allesjäänud aja vaatamiseks.
 
-## <a name="run-master-planning"></a>Koondplaneerimise käivitamine
-1. Klõpsake valikul Koondplaneerimine.
-    * Leiate selle vaikimisi armatuurlaualt.  
-2. Valige või sisestage väärtus väljal Plaan.
-    * Näide: StaticPlan  
-3. Klõpsake nuppu Käivita.
-4. Tehke väljal Töötlemisaja jälgimine valik Jah.
-    * Kui väli on juba valitud, jätke see etapp vahele.  
-5. Sisestage number väljale Lõimede arv.
-6. Jaotise kaasamiseks laiendage kirjeid.
-7. Klõpsake käsku Filtreeri.
-8. Märkige loendis valitud rida.
-    * Märkige rida, kus väli = kauba kood.  
-9. Sisestage või valige väärtus väljal Kriteeriumid.
-    * Näide: T0001.  
-10. Klõpsake nuppu OK.
-11. Klõpsake nuppu OK.
+### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>Koondplaneerimise edenemise visualiseerimise funktsiooni sisselülitamine ja kasutamine
 
-## <a name="monitor-the-master-planning-run"></a>Koondplaneerimise käitamise jälgimine
-1. Klõpsake nuppu Ajalugu.
-2. Klõpsake suvandit Päringud.
-3. Klõpsake suvandit Protsessiülesande kestus.
-4. Otsige loendist ja valige soovitud kirje.
-    * Iga kauba puhul saate ülevaate, kui kaua võttis aega iga planeerimise etapi lõpule viimine.  
+Sulle funktsiooni kasutamiseks tehke järgmist.
 
+1. Valige tööruumis **Funktsiooni haldus** vahekaardil**Uus** loendist suvand **Koondplaneerimise edenemise visualiseerimine**. Kui funktsioon vahekaardile **Uus** ei ilmu, vaadake vahekaartidelt **Pole lubatud** ja **Kõik**.
+1. Valige **Luba kohe**. Teise võimalusena valige **Graafik**ja seejärel valige kellaaeg, millal soovite funktsiooni sisse lülitada.
+
+Leht **Koondplaneerimise edenemise kuva** võib kuvada nii ajaloolised planeerimistööd kui ka aktiivsed planeerimistööd. 
+
+Ajalooliste planeerimistööde vaatamiseks on kaks valikut. 
+
+1. Avage **Koondplaneerimine \> Seadistus \> Plaanid \> Koondplaanid** ja seejärel valige tegumiribal suvand **Ajalugu**. Kui soovitud töö on valitud, valige **Päringud** ja valige seejärel **Kuva edenemine**
+1. Avage **Koondplaneerimine \> Tööruumid \> Koondplaneerimine** ja paanil Koondplaneerimine klõpsake suvandit **Ajalugu**. Kui soovitud töö on valitud, valige **Päringud** ja valige seejärel **Kuva edenemine**
+
+Aktiivsete planeerimistööde vaatamiseks on kaks valikut. 
+1. Avage **Koondplaneerimine \> Tööruumid \> Koondplaneerimine** ja paanil Tegevus valige suvand **Lõpetamata planeerimisprotsess**. Kui soovitud töö on valitud, valige **Päringud** ja valige seejärel **Kuva edenemine**.
+1. Avage **Koondplaneerimine \> Tööruumid \> Koondplaneerimine** ja paanil Koondplaneerimine klõpsake suvandit **Kuva edenemine**. Kui soovitud töö on valitud, valige **Päringud** ja valige seejärel **Kuva edenemine**
+
+Pange tähele, et saate aktiivseid töösid vaadata ainult siis kui planeerimistöö on töötlemisel.
+
+### <a name="analyze-a-master-planning-job"></a>Koondplaneerimise töö analüüsimine
+
+Gantti diagrammis saate iga järgmist planeerimisprotsessi laiendada, et vaadata kulutatud aja kohta lisateavet.
+
+- Käivitamine
+- Andmete kustutamine ja lisamine
+- Laovarude plaanimine
+- Hilinemised
+- Tegevusteated
+- Lõpuleviimine
+- Automaatkinnitamine
+
+Gantti diagramm on kasulik tööriist, kui soovite vaadata tegevuseteadete kasutamise mõju.
+
+#### <a name="navigation-in-the-gantt-chart"></a>Gantti diagrammis navigeerimine
+
+- Valitud grupi laiendamiseks ja üksikasjade kuvamiseks valige puuvaates plussmärk (**+**).
+- Valitud grupi ahendamiseks valige puuvaates miinusmärk (**–**).
+- Saate kasutada navigeerimiseks oma klaviatuuri. Kasutage ridade vahel liikumiseks klahve **Ülesnool** ja **Allanool**. Gruppide laiendamiseks ja ahendamiseks kasutage klahve **Paremnool** ja **Vasaknool**.
+- Gantti diagrammis kõikide tasemete avamiseks või sulgemiseks valige suvand **Laienda kõik** või **Ahenda kõik**.
+- Seotud töötlemisaja vaatamiseks liikuge kursoriga üle ülesande. (Ülesanded on Gantti diagrammi madalaim tase.)
+
+#### <a name="view-an-additional-master-planning-run-to-compare-jobs"></a>Tööde võrdlemiseks täiendava koondplaneerimise käivitamise kuvamine
+
+Kui valite väljal **Täiendava koondplaneerimise käivitamise kuvamine** koondplaneerimise töö, saate vaadata Gantti diagrammis täiendavat koondplaneerimise käitamist ja võrrelda kahte tööd.
+
+#### <a name="bom-level-display"></a>Koosluse taseme kuva
+
+Koosluse tasemed kuvatakse laovarude planeerimise, viivituste, tegevuste ja kinnitamiste jaoks erinevalt.
+
+- **Laovarude planeerimine** – koosluse tasemed on näidatud nagu oodatud. Need arvutatakse ülevalt alla.
+
+    **Näide:** koosluse tase 0, 1, 2
+
+- **Viivitused** – koosluse tasemed kuvatakse laovarude planeerimise koosluse tasemetena korrutatud –1-ga. (Teisisõnu on neil negatiivne märk.)
+
+    **Näide:** koosluse tase –2, –1, 0
+
+- **Tegevussoovitus** – koosluse tasemed on näidatud nagu oodatud. Need arvutatakse ülevalt alla.
+
+    **Näide:** koosluse tase 0, 1, 2
+
+- **Automaatkinnitamine** – koosluse tasemed kuvatakse 999 miinus laovarude planeerimise koosluse tase.
+
+    **Näide:** koosluse tase 999, 998, 997
+
+Järgmine tabel võtab käitumise kokku.
+
+| Kuvatav koosluse tase | Lõppkaup | Alamkomponent | Toormaterjal |
+|---|---|---|---|
+| Laovarude plaanimine | 0 | 1 | 2 |
+| Hilinemised | 0 | –1 | –2 |
+| Tegevussoovitus | 0 | 1 | 2 |
+| Automaatkinnitamine | 999 | 998 | 997 |
+
+#### <a name="visualize-progress"></a>Edenemise visualiseerimine
+
+Kui vaatate praegu käitatavat koondplaneerimise tööd, kuvatakse edenemine Gantti diagrammi värvide kaudu. Järgmised värvid kehtivad sinisele teemale. Teistes värvikujundustes on värvid erinevad.
+
+- **Tumesinine** – lõpuleviidud planeerimisülesanded.
+- **Oranž** – hetkel pooleli olev ülesanne.
+- **Helesinine** – järelejäänud ülesannete hinnang.
+
+Värv kuvatakse ainult Gantti diagrammi madalaimal tasemel. Koondplaneerimise tööd kõikide ülesannete vaatamiseks valige **Laienda kõik**. Järelejäänud ülesannete hinnang põhineb ajaloolistel koondplaneerimise töödel.
+
+## <a name="run-master-planning-and-track-processing-time"></a>Koondplaneerimise käitamine ja töötlemisaja jälgimine
+
+1. Valige vaikimisi armatuurlaual **Koondplaneerimine**.
+1. Sisestage või valige väärtus väljal **Plaan**.
+1. Valige käsk **Käitus**.
+1. Määrake suvandi **Töötlemisaja jälgimine** väärtuseks **Jah**.
+1. Väljale **Lõimede arv** sisestage arv.
+1. Valige kiirkaardil **Kaasatavad kirjed** suvand **Filter**.
+1. Valige ruudustikus rida, kus väli **Väli** on määratud üksusele **Kaubakood**.
+1. Sisestage väljal **Kriteeriumid** väärtus.
+1. Valige nupp **OK**.

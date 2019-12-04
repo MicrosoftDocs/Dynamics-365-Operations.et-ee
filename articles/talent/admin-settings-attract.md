@@ -1,5 +1,5 @@
 ---
-title: Ettevõtte teabe konfigureerimine rakenduses Microsoft Dynamics 365 Talent – Attract
+title: Ettevõtte teabe konfigureerimine rakenduses Attract
 description: Selles teemas selgitatakse, kuidas konfigureerida ettevõtte teavet ja brändingut rakenduse Microsoft Dynamics 365 Talent – Attract jaoks.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7013065a9494cb407020de2ebcad4058dd57c6c4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551589"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833250"
 ---
-# <a name="configure-company-information-in-microsoft-dynamics-365-talent---attract"></a>Ettevõtte teabe konfigureerimine rakenduses Microsoft Dynamics 365 Talent – Attract
-[!include[banner](../includes/banner.md)]
+# <a name="configure-company-information-in-attract"></a>Ettevõtte teabe konfigureerimine rakenduses Attract
+
+[!include [banner](includes/banner.md)]
 
 Rakenduse Microsoft Dynamics 365 Talent: Attract halduskeskuses on konfiguratsioonisätted, integratsiooni- ja häälestussuvandid rakenduse Attract jaoks.
 
@@ -48,11 +49,11 @@ Uute funktsioonide lisamisel võidakse need avaldada avalikus eelversioonis. Ava
 
 ## <a name="template-management"></a>Mallihaldus
 
-Protsessimall sisaldab kõiki tegevusi, mis peaksid olema tööle värbamise protsessi osad. Teie organisatsioon võib lubada värbamisprotsessi malle luua kõigil töörühma liikmetel või ainult administraatoritel. Töörühma liikmetele värbamisprotsessi mallide loomise lubamiseks lülitage sisse mallihalduse funktsioon. Protsessimallide kohta leiate lisateavet artiklist [Protsessimallid Attractis](./process-templates-attract.md).
+Protsessimall sisaldab kõiki tegevusi, mis peaksid olema tööle värbamise protsessi osad. Teie organisatsioon võib lubada värbamisprotsessi malle luua kõigil töörühma liikmetel või ainult administraatoritel. Töörühma liikmetele värbamisprotsessi mallide loomise lubamiseks lülitage sisse mallihalduse funktsioon. Protsessimallide kohta leiate lisateavet artiklist [Protsessimalli loomine Attractis](./process-templates-attract.md).
 
 ## <a name="email-template-settings"></a>E-kirja malli sätted.
 
-Organisatsioonid saavad luua meilimalle mitmesuguste olukordade jaoks. Võimalik on valida meilimallidele lisatav päisepilt. Valitud päis lisatakse seejärel kõigile meilimallidele. Malli jalusesse saate lisada oma organisatsiooni privaatsusavalduse ja teadetega seotud kasutustingimuste lingi. Lisateavet leiate artiklist [Meilimallid Attractis](./email-templates.md).
+Organisatsioonid saavad luua meilimalle mitmesuguste olukordade jaoks. Võimalik on valida meilimallidele lisatav päisepilt. Valitud päis lisatakse seejärel kõigile meilimallidele. Malli jalusesse saate lisada oma organisatsiooni privaatsusavalduse ja teadetega seotud kasutustingimuste lingi. Lisateabe saamiseks vaadake jaotist [Meilimallid](./email-templates.md).
 
 ## <a name="offer-process"></a>Pakkumise protsess
 

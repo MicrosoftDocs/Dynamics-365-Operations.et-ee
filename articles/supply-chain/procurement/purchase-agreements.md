@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248922"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813358"
 ---
 # <a name="purchase-agreements"></a>Ostulepingud
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Selles artiklis antakse teavet ostulepingute kohta. Ostuleping on leping, mis kohustab organisatsiooni ostma konkreetset kogust või kindlat summat, kasutades aja jooksul mitut ostutellimust. Selle kohustuse täitmise eest saab ostja erihindu ja allahindlusi. 
 
@@ -80,6 +81,9 @@ Ostutellimuse koostamisel saate sellele ostulepingu rakendada. Lepingu tingimust
 Saate valida ostulepingu ainult ostutellimuse loomisel. Pärast ostutellimuse loomist ei saa ostulepingut valida.  
 Mõnes olukorras, kus ostutellimused luuakse kaudselt, saate määrata, kas Supply Chain Management otsib kehtivaid ostulepinguid automaatselt. Näiteks võiksite seda teha, kui kinnitate automaatselt plaanitud ostutellimusi või loote ostutellimusi, mis põhinevad müügitellimustel.
 
+## <a name="matching-policy-on-purchase-agreements"></a>Ostulepingute vastavusse viimise poliitika
+Saate määratleda ostulepingu päises rea vastavusse viimise poliitika. See rea vastavusse viimise poliitika arvestab ostureskonto parameetrite rea vastavusse viimise poliitikaga, kui väli **Luba vastavusse viimise poliitika alistamine** lehel **Ostureskontro parameetrid** (kiirkaardil **Hinna ja koguse sobitamine**) on määratud valikule **Kõrgem kui ettevõttepoliitika**. Ostulepingule viitavad dokumendid kasutavad rea vastavusse viimise poliitikat, mis on määratletud ostulepingu päises, kui just vastava kauba, kauba ja hankija või kategooria ostupoliitika jaoks pole teisiti määratletud.
+
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Ostulepingud ja kontsernisisene kaubandus
 Kontsernisiseseid kaubandussuhteid saab luua erinevates juriidilistes isikutes olevate hankija kontode ja kliendi kontode vahel. Kui ühele osapoolele luuakse müügi- või ostutellimus, luuakse kontsernisisene tellimusahel. Tellimusahelas luuakse müügi- ja ostutellimus sobivates juriidilistes isikutes.  
 
@@ -93,9 +97,9 @@ Saate kopeerida finantsdimensioonid dokumentide päistesse või ostutellimuse ü
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Ostulepingu loomine (tegevuse juhis)](tasks/create-purchase-agreement.md)
+[Ostulepingu loomine](tasks/create-purchase-agreement.md)
 
-[Ostu väljalaskeorderi loomine ostulepingust (tegevuse juhis)](tasks/create-purchase-release-order-purchase-agreement.md)
+[Ostu väljalaskeorderi loomine ostulepingu põhjal](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

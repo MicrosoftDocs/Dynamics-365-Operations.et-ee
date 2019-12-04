@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8619c6cde484c41ec01e96eb4626366f1955b5d4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571802"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811817"
 ---
 # <a name="install-assets-on-functional-locations"></a>Varade installimine töö asukohtades
 
@@ -31,7 +31,7 @@ ms.locfileid: "2571802"
 
  
 
-Pärast töö asukoha struktuuride loomist on järgmiseks sammuks varade installimine vastavatele töö asukohtadele. Selles teemas kirjeldatakse, kuidas varasid mooduli Asset Managementi nendesse töö asukohtadesse installida. Lisateabe saamiseks varade loomise kohta lugege teemat [Varad](../objects/introduction-to-objects.md).
+Pärast töö asukoha struktuuride loomist on järgmiseks sammuks varade installimine vastavatele töö asukohtadele. Selles teemas kirjeldatakse, kuidas varasid mooduli Asset Managementi nendesse töö asukohtadesse installida. Lisateabe saamiseks varade loomise kohta lugege teemat [Varade sissejuhatus](../objects/introduction-to-objects.md).
 
 Kui olete loonud varade struktuuri, peab kogu vara struktuur olema installitud töö asukohta. Seetõttu saab töö asukohas valida ainult emavarasid (ülataseme varad, mille puudub emavara). Töö asukohta installitakse ka kõik seotud tütarvarad (alamvarad). Kui installite varad töö asukohta, võidakse töö asukohas olevad finantsdimensioonid neile automaatselt üle kanda olenevalt töö asukohas valitud töö asukoha tüübi seadistusest. Lisateavet töö asukohtade tüüpide seadistamise kohta lugege teemast [Töö asukoha tüübid](../setup-for-functional-locations/functional-location-types.md).
 

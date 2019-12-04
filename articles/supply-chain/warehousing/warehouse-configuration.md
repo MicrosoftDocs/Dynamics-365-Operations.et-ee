@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: aa503f2ce3ae8ff6b221ea1d26a1c62d0ba37646
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653414"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814900"
 ---
 # <a name="warehouse-configuration-overview"></a>Lao konfiguratsiooni ülevaade
 
@@ -31,7 +31,8 @@ ms.locfileid: "2653414"
 
 Selles artiklis selgitatakse, kuidas konfigureerida ladu. See sisaldab teavet selle kohta, kuidas lubada lao paigutust ja laoprotsesse.
 
-**Märkus.** See artikkel kehtib mooduli **Laohaldus** funktsioonidele (täpsem ladustamine). See ei kehti ladustamisfunktsioonidele moodulis **Laohaldus**.
+> [!NOTE]
+> See artikkel kehtib mooduli **Laohaldus** funktsioonidele (täpsem ladustamine). See ei kehti ladustamisfunktsioonidele moodulis **Laohaldus**.
 
 ## <a name="warehouse-layout"></a>Lao paigutus
 Laohalduse süsteem rakenduses Supply Chain Management pakub paindlikke võimalusi lao paigutuse määratlemiseks, et rahuldada muutuvaid vajadusi, nii et saavutaksite optimaalse lao tõhususe.
@@ -114,7 +115,7 @@ Iga asukohakorralduse reaga seotud toimingute hõlpsamaks ja kiriemaks määratl
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Asukohtade konfigureerimine WMS-loaga laos (tegevuse juhis)](tasks/configure-locations-wms-enabled-warehouse.md)
+[Asukohtade konfigureerimine WMS-loaga laos](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 

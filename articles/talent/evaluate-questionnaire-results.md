@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 38b694b6dd4b1b9a198452e409bd64d7934b4685
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6be2f79d4f0c234028c0cc98b81cfa8ff4fcc992
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517838"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813979"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Küsimustike tulemuste vaatamine ja hindamine
 
@@ -57,7 +57,8 @@ Lehelt **Vastused** saate vaadata vastuste üksikasju, teenitud punkte, vastaja 
 -   **Vastuste aruanne** – see aruanne kuvab vastused, mille vastaja iga küsimuse puhul küsimustikust valis.
 -   **Valed vastused** – see aruanne kuvab vastaja valitud valede vastustega seotud teabe.
 
-**Märkus.** Aruanne **Tulemused** on saadaval ainult juhul, kui kasutate küsimustikus tulemusegruppe ja tegite valiku lehel **Küsimustikud** valiku **Tulemuste leht**. Aruanne **Vastus** ja aruanne **Valed vastused** on saadaval ainult juhul, kui tegite valiku **Vastuste aruanne** lehel **Küsimustikud**.
+> [!NOTE]
+> Aruanne **Tulemused** on saadaval ainult juhul, kui kasutate küsimustikus tulemusegruppe ja tegite valiku lehel **Küsimustikud** valiku **Tulemuste leht**. Aruanne **Vastus** ja aruanne **Valed vastused** on saadaval ainult juhul, kui tegite valiku **Vastuste aruanne** lehel **Küsimustikud**.
 
 ## <a name="questionnaire-statistics"></a>Küsimustiku statistika
 Saate kasutada küsimustiku statistikat täidetud küsimustiku tulemuste analüüsimiseks, tuginedes teie määratletud arvutustele. Arvutuste määratlemiseks peate täitma järgmised ülesanded.
@@ -75,9 +76,9 @@ Teie määratud seaded salvestatakse ja saate neid tulemuste ümberarvutamiseks 
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Küsimustike kavandamine](design-questionnaires.md)
+[Küsimustike kujundamine](design-questionnaires.md)
 
-[Küsimustike kasutamine](questionnaires.md)
+[Küsimustikud](questionnaires.md)
 
-[Küsimustike laialisaatmine ja täitmine](distribute-questionnaires.md)
+[Küsimustike jaotamine ja kavandamine](distribute-questionnaires.md)
 

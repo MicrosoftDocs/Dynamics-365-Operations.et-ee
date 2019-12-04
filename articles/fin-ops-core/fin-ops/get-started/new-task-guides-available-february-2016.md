@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190944"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811622"
 ---
 # <a name="new-task-guides-february-2016"></a>Uued tegevusjuhised (veebruar 2016)
 
@@ -32,7 +32,7 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Tegevusjuhised rakenduse Microsoft Dynamics AX APQC ühendatud teegis (veebruar 2016)
 
-(2016. aasta veebruari) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks väljaandega Dynamics AX 7.0.0. Kui vajate neist tegevusjuhistest lokaliseeritud versioone, siis need on saadaval Microsoft Dynamics AX-i (mai 2016) APQC ühendatud teegist. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
+(2016. aasta veebruari) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks väljaandega Dynamics AX 7.0.0. Kui vajate neist tegevusjuhistest lokaliseeritud versioone, siis need on saadaval Microsoft Dynamics AX-i (mai 2016) APQC ühendatud teegist. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevuse juhiste teegi vahel, leiate jaotisest [Spikrisüsteem](help-overview.md).
 
 ### <a name="accounts-payable"></a>Ostureskontro
 
@@ -637,11 +637,11 @@ Selles teemas on loetletud tegevusjuhised, mis väljastati Microsofti BPM-i teek
 | Hindade ja kampaaniate haldamine                      | Globaalne         |
 | Juhi iseteenindus                               | Globaalne         |
 | Projektide ülevaade                                  | Üldine         |
-| Kanalite häälestamine ja konfigureerimine                      | Üldine         |
+| Kanalite häälestamine ja konfigureerimine                      | Globaalne         |
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Uued või värskendatud tegevusjuhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
+[Uued või värskendatud ülesande juhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Uued või värskendatud tegevusjuhised (august 2016)](new-updated-task-guides-available-august-2016.md)
 

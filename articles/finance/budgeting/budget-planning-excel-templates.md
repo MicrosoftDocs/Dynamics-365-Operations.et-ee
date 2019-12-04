@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4deba271912d3495ac08cd6a65c2b2f9c6a04850
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188575"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772095"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Eelarve planeerimise mallid Exceli jaoks
 
@@ -31,7 +31,7 @@ ms.locfileid: "2188575"
 
 See teema kirjeldab, kuidas luua Microsoft Exceli malle, mida saab kasutada eelarveplaanidega.
 
-Teema näitab, kuidas luua Exceli malle, mida kasutatakse eelarveplaanidega, kasutades standardset demoandmekogumit ja administraatori identimisteavet. Lisateavet eelarve plaanimise kohta vt teemast [Eelarve plaanimise ülevaade.](budget-planning-overview-configuration.md) Saate vaadata ka õppetükki [Eelarve plaanimine 101](budget-plan.md), et tutvuda baasmooduli konfigureerimise ja kasutuspõhimõtetega.
+Teema näitab, kuidas luua Exceli malle, mida kasutatakse eelarveplaanidega, kasutades standardset demoandmekogumit ja administraatori identimisteavet. Lisateavet eelarve plaanimise kohta vt teemast [Eelarve plaanimise ülevaade](budget-planning-overview-configuration.md). Võite järgida ka [eelarve plaanimise](budget-plan.md) õpetust, et õppida mooduli konfiguratsiooni ja kasutamise põhimõtteid.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Töölehe loomine eelarveplaani dokumendi paigutusega
 
@@ -57,23 +57,17 @@ Saate paigutuse konfiguratsiooni üle vaadata ja seda vajaduse korral korrigeeri
 
 Exceli mall sisaldab kõiki eelarveplaani dokumendi paigutuse elemente, kui veeru **Saadaval töölehel** sätteks on valitud Tõene. Exceli mallis pole elementide kattumine lubatud. Näiteks kui paigutus sisaldab veerge Taotlus Q1, Taotlus Q2, Taotlus Q3 ja Taotlus Q4 ning taotluste koondveergu, mis kujutab kõigi neljandikveergude summat, saab Exceli mallis kasutada ainult neljandikveerge või koondveergu. Exceli fail ei saa kattuvaid veerge värskendamise ajal värskendada, kuna tabelis olevad andmed muutuvad ajakohatuks ja ebatäpseks.
 
-[![Näide](./media/bpt4-1024x615.png)](./media/bpt4.png)
-
 > [!NOTE] 
 > Exceliga eelarveplaani andmete vaatamisel ja redigeerimisel võimalike probleemide vältimiseks peab sama kasutaja olema sisse loginud nii Microsoft Dynamics 365 Finance'isse kui ka Microsoft Dynamics Office’i lisandmoodulisse Andmekonnektor.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Eelarveplaani dokumendimallile päise lisamine
 Päiseteabe lisamiseks valige Exceli failis ülemine rida ja sisestage tühjad read. Exceli failile päiseväljade lisamiseks klõpsake rakenduses **Andmekonnektor** valikut **Kujundus**.
 
-[![bpt5](./media/bpt5-1024x615.png)](./media/bpt5.png) 
-
 Klõpsake vahekaardil **Kujundus** välju **Lisa** ja valige üksuse andmeallikaks **BudgetPlanHeader**.
-
-[![bpt6](./media/bpt6-1024x615.png)](./media/bpt6.png)
 
 Viige kursor Exceli failis soovitud kohta. Valitud asukohta väljasildi lisamiseks klõpsake valikut **Lisa silt**. Valitud kohta väärtusevälja lisamiseks klõpsake valikut **Lisa väärtus**. Kujundaja sulgemiseks klõpsake valikut **Valmis**.
 
-## <a name="bpt7mediabpt7pngmediabpt7png"></a>[![bpt7](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7pngmediabpt7png"></a>[![Valige Lisa väärtus](./media/bpt7.png)](./media/bpt7.png)
 
 <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Eelarveplaani dokumendimalli tabelisse arvutatud veeru lisamine
 --------------------------------------------------------------
@@ -82,11 +76,11 @@ Seejärel lisatakse arvutatud veerud loodud eelarveplaani dokumendimallile. Veer
 
 Tabelile veergude lisamiseks klõpsake rakenduses **Andmekonnektor** valikut **Kujundus**. Veergude lisamise alustamiseks klõpsake andmeallika **BudgetPlanWorksheet** kõrval olevat valikut **Redigeeri**.
 
-[![bpt8](./media/bpt8-1024x301.png)](./media/bpt8.png) 
+[![Alustage veergude lisamist](./media/bpt8-1024x301.png)](./media/bpt8.png) 
 
 Valitud väljagrupis kuvatakse mallis saadaolevad veerud. Uue veeru lisamiseks klõpsake valikut **Valem**. Andke uuele veerule nimi ja kleepige valem väljale **Valem**. Veeru sisestamiseks klõpsake valikut **Värskenda**.
 
-[![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
+[![Lisa ja sisesta veerg](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
 > Valemi määratlemiseks looge valem arvutustabelis ja kopeerige see aknasse **Kujundus**. Finance and Operationsiga seotud tabelile antakse tavaliselt nimi AXTable1. Näiteks veergude Taotlus Q1 : Taotlus Q4 columns summeerimiseks arvutustabelis saate kasutada valemit AxTable1\[Taotlus Q1\]+AxTable1\[Taotlus Q2\]+AxTable1\[Taotlus Q3\]+AxTable1\[Taotlus Q4\].
@@ -95,11 +89,11 @@ Korrake neid etappe veeru **Korrigeerimine** lisamiseks. Kasutage selle veeru pu
 
 Salvestage ja sulgege Exceli fail. Klõpsake aknas **Paigutused** valikuid **Mall &gt; Üleslaadimine**, et laadida eelarveplaani jaoks kasutatav salvestatud Exceli mall üles. 
 
-[![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
+[![Laadi üles Exceli mall](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
 Sulgege liugaken **Paigutused**. Dokumendi kuvamiseks ja redigeerimiseks Excelis klõpsake **Eelarveplaani** dokumendis valikut **Tööleht**. Pange tähele, et selle eelarveplaani töölehe loomiseks kasutati korrigeeritud Exceli malli ja arvutatud veerge värskendatakse valemitega, mille määratlesite eelmistes etappides. 
 
-[![bpt11](./media/bpt111-1024x431.png)](./media/bpt111.png)
+[![Andmete vaatamine ja redigeerimine Excelis](./media/bpt111-1024x431.png)](./media/bpt111.png)
 
 ## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Näpunäited ja vihjed eelarveplaani mallide loomiseks
 ### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>Kas eelarveplaani mallile saab lisada ka täiendavaid andmeallikaid ja neid kasutada?
@@ -112,29 +106,27 @@ Täiendavatele andmeallikatele saate lisada soovitud filtreid, kasutades rakendu
 
 Jah, valiku **Kujundus** peitmiseks avage **Andmekonnektori** suvandid.
 
-[![bpt13](./media/bpt13-1024x565.png)](./media/bpt13.png)
+[![Ava andmeühenduse suvandid](./media/bpt13-1024x565.png)](./media/bpt13.png)
 
 Laiendage jaotist **Andmekonnektori suvandid** ja tühjendage ruut **Luba kujundus**. See peidab valiku **Kujundus** rakendusest **Andmekonnektor**.
 
-[![bpt14](./media/bpt14-1024x592.png)](./media/bpt14.png)
+[![Peida kujundussuvand andmeühendusest](./media/bpt14-1024x592.png)](./media/bpt14.png)
 
 ### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>Kas Andmekonnektori kogemata sulgemist andmetega töötamise ajal saab takistada?
 
 Soovitame malli lukustada, et kasutajad ei saaks seda sulgeda. Lukustamiseks klõpsake valikut **Andmekonnektor**. Paremas ülanurgas kuvatakse ikoon. 
 
-[![bpt15](./media/bpt15-1024x285.png)](./media/bpt15.png) 
+[![Luku sisselülitamine](./media/bpt15-1024x285.png)](./media/bpt15.png) 
 
 Klõpsake lisamenüü avamiseks noolt. Valige **Lukusta**.
 
-### <a name="bpt16mediabpt16-1024x614pngmediabpt16png"></a>[![bpt16](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16-1024x614pngmediabpt16png"></a>[![Luku valimine](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Kas eelarveplaani mallidega saab kasutada ka muid Exceli funktsioone, nagu lahtrite vormindamine, värvid, tingimusvorming ja diagrammid?
 
 Jah, eelarveplaani mallidega töötab enamik Exceli standardvõimalusi. Soovitame kasutada värvitähistusi, et kasutajad saaksid eristada kirjutuskaitstud ja redigeeritavaid veerge. Tingimusvormingut kasutades saab esile tõsta eelarve probleemsed osad. Veergude kogusummasid saab hõlpsasti esitada Exceli standardsete valemitega, mille leiate tabeli kohalt.
 
 Samuti saate eelarveandmete täiendavaks grupeerimiseks ja visualiseerimiseks luua ning kasutada ka liigendtabeleid ja diagramme. Klõpsake vahekaardil **Andmed** grupis **Ühendused** valikut **Värskenda kõik** ja seejärel valikut **Ühenduse atribuudid**. Klõpsake vahekaarti **Kasutus**. Märkige jaotises **Värskendamine** ruut **Värskenda andmeid faili avamisel**. 
-
-[![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
 
 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14aa9b56da005e8e3ca121589d0e22c60f34343b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189771"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772693"
 ---
 # <a name="workflow-faq"></a>Töövoo KKK
 
@@ -50,4 +50,4 @@ Siin on mõned asjad, millele teatsite edastamiseks töövoogudele märguandeid 
     - Tegevuskeskuse teateid saab luua kindlatele kasutajatele, nt töövoost X++ loodud sõnum.
     - [Töövoogudel on ärisündmused](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), mida klient saab kasutada Flowsi käivitamiseks, et saada nende otsitavad teatised.   
 
-Kokkuvõttes, kui kasutaja ei saa töövoo tööüksuse määramisel tegevuskeskusest nõuetekohast teatist, kasutage ära [Töövoo ärisündmuseid](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) koos Microsoft Flow'ga, et pakkuda täiendavad või muid teatiseid.
+Kokkuvõttes, kui kasutaja ei saa töövoo tööüksuse määramisel tegevuskeskusest nõuetekohast teatist, kasutage ära [Töövoo ärisündmuseid](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) koos rakendusega Microsoft Power Automate, et pakkuda täiendavaid või muid teatiseid.

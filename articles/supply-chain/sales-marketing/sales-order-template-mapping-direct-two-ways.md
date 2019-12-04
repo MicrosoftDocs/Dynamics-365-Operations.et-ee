@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7c8831203ae30991ff8acf1926aafc2d1839aeb2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c91a3b7e28bc55046ff6eeb37a5fddc8637aa230
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251266"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773307"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Müügitellimuste vahetu sünkroonimine rakenduse Sales ja rakenduse Supply Chain Management vahel
 
@@ -40,7 +40,7 @@ Lahendus Potentsiaalne klient sularahaks kasutab andmete integreerimise funktsio
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 
-Saadaolevatele mallidele juurdepääsemiseks avage [PowerAppsi administreerimiskeskus](https://preview.admin.powerapps.com/dataintegration). Valige **Projektid** ja seejärel paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
+Saadaolevatele mallidele juurdepääsemiseks avage [Power Apps administreerimiskeskus](https://preview.admin.powerapps.com/dataintegration). Valige **Projektid** ja seejärel paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
 
 Müügitellimuste sünkroonimiseks rakenduste Sales ja Supply Chain Management vahel kasutatakse järgmisi malle ja aluseks olevaid ülesandeid.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558215"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813382"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Hangete avaleht
 
@@ -36,17 +36,17 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 -   [Ostutaotluse ülevaade](purchase-requisitions-overview.md)
 -   [Tarbimistaotluse loomine](tasks/create-requisition-consumption.md)
 -   [Pakkumiskutset kasutava tellimuse loomine](tasks/create-requisition-uses-rfq.md)
--   [Toodete tellimise õiguste seadistamine kellegi teise nimele](tasks/set-up-permissions-ordering-products.md)
+-   [Teise isiku nimel toodete tellimise õiguste seadistamine](tasks/set-up-permissions-ordering-products.md)
 
 ## <a name="requests-for-quotation"></a>Pakkumiskutsed
--   [Pakkumiskutsed](request-quotations.md)
+-   [Pakkumiskutsete ülevaade](request-quotations.md)
 -   [Pakkumiskutse loomine](tasks/create-request-quotation.md)
 -   [Pakkumiskutse pakkumiste sisestamine ja võrdlemine ning lepingute määramine](tasks/enter-compare-rfq-bids-award-contracts.md)
 -   [Pakkumiskutsetele hindamismeetodi loomine](tasks/create-scoring-method-rfqs.md)
--   [Kutse tüüpide ja hindamiskriteeriumide loomine pakkumiskutsetele](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
+-   [Pakkumiskutsete jaoks kutsetüüpide ja hindamiskriteeriumide loomine](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
 
 ## <a name="vendor-management-and-collaboration"></a>Hankija haldus ja koostöö
--   [Hankijakontode seadistamine](set-up-vendor-accounts.md)
+-   [Hankija kontode seadistamine](set-up-vendor-accounts.md)
 -   [Hankija konto loomine](tasks/create-vendor-account.md)
 -   [Hankija pangakonto loomine](tasks/create-vendor-bank-account.md)
 -   [Hankijate otsimine](tasks/search-vendors.md)
@@ -57,13 +57,13 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 -   [Hankija koostöö seadistamine ja haldamine](set-up-maintain-vendor-collaboration.md)
 -   [Sissetulevate veoste varude demoskript rakendusele Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tehniline ülevaade)
 -   [Veose varude jälgimine hankija koostöö abil](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Koostöötamine hankijatega, kasutades hankijaportaali](collaborate-vendors-vendor-portal.md) (ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonid)
--   [Turbe konfiguratsioon hankijaportaali kasutajatele](configure-security-vendor-portal-users.md) (ainult Finance and Operationsi 2016. aasta veebruari ja 2016. aasta mai versioonid)
--   [Hankija koostöö mobiilne tööruum rakendusele Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
+-   [Hankijatega koostöö tegemine Hankija portaali kasutade](collaborate-vendors-vendor-portal.md) (ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonid)
+-   [Hankija portaali kasutaja turvalisus](configure-security-vendor-portal-users.md) (ainult Finance and Operationsi 2016. aasta veebruari ja 2016. aasta mai versioonid)
+-   [Hankija koostöö mobiilne tööruum](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Hanke tootehaldus
--   [Hankekataloogid](procurement-catalogs.md)
--   [Hankekataloogi loomine](tasks/create-procurement-catalog.md)
+-   [Hankekataloogide ülevaade](procurement-catalogs.md)
+-   [Ostutellimuste loomine](tasks/create-procurement-catalog.md)
 -   [Hankija kataloogide importimine](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (ajaveebipostitus)
 -   [Hankekategooria hierarhia seadistamine](tasks/set-up-procurement-category-hierarchy.md)
 -   [Hankekategooria hierarhiate poliitikate seadistamine](tasks/set-up-policies-procurement-category-hierarchies.md)
@@ -72,7 +72,7 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 ## <a name="procurement"></a>Hange
 -   [Ostutellimuse ülevaade](purchase-order-overview.md)
 -   [Ostutellimuse loomine](purchase-order-creation.md)
--   [Ostutellimuse heakskiitmine ja kinnitamine](purchase-order-approval-confirmation.md)
+-   [Ostutellimuste kinnitamine](purchase-order-approval-confirmation.md)
 -   [Ostutellimuse loomine](tasks/create-purchase-order.md)
 -   [Korduva ostutellimuse loomine](tasks/create-repeat-purchase-order.md)
 -   [Ostutellimuse loomine müügitellimuse põhjal](../sales-marketing/tasks/create-purchase-order-sales-order.md)
@@ -99,11 +99,8 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 -   [Kaupade vastuvõtu registreerimine ostutellimusel](tasks/record-receipt-goods-purchase-order.md)
 -   [Ostutaotluse töövoog](purchase-requisitions-workflow.md)
 -   [Äriprotsessi töövoogude määratlemine ostutaotluste jaoks](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (valge raamat)
--   [Ostupoliitikad](purchase-policies.md)
+-   [Ostupoliitikate ülevaade](purchase-policies.md)
 -   [Ostupoliitikate loomine](tasks/create-purchasing-policies.md)
-
-
-
 
 
 

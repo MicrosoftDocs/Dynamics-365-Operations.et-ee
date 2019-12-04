@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 747922294eaf971795177beeb73839d453f6475a
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622764"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830182"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Rakenduse Dynamics 365 Talent rakendusse Dynamics 365 Finance integreerimise KKK
 
@@ -48,7 +48,7 @@ Mallid on alguspunkt. Saate luua oma malli, kuid malli on integratsiooniprojekti
 
 Finantsdimensioonid puuduvad praegu teenusest Common Data Service ja seetõttu ei ole need ka vaikemalli osa. See üksus on kavas, kuid praegu pole väljastamise ajakava saadaval.
 
-Andmete puhul, mis on olemas rakenduses Finance, kuid puuduvad rakendusest Talent, linkige kaks süsteemi kokku, kasutades Talenti funktsiooni **Linkide konfigureerimine**. Lisateavet linkide konfigureerimise kohta rakenduste Talent ja Finance vahel vt teemast [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent: Core HR (31. oktoober 2018)](whats-new-talent-october-31.md).
+Andmete puhul, mis on olemas rakenduses Finance, kuid puuduvad rakendusest Talent, linkige kaks süsteemi kokku, kasutades Talenti funktsiooni **Linkide konfigureerimine**. Lisateavet linkide konfigureerimise kohta rakenduste Talent ja Finance vahel vt teemast [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent – Core HR (31. oktoober 2018)](whats-new-talent-october-31.md).
 
 ![Finantsdimensioonide vastendamine](media/MapFinancialDimensions.png)
 
@@ -69,7 +69,7 @@ Kasutades täpsemat päringut, saate lähteandmeid filtreerida ja ümber kujunda
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Kas saan määrata, millised väljad saadetakse rakendusse Finance kindla üksuse puhul?
 
 Integratsiooniülesandele saab välju lisada või neid eemaldada. Kõiki andmevälju, mis on teenuse Common Data Service üksuses olemas, ei asustata rakendusest Core HR.
-Lisaandmeid saab asustada PowerAppsi kaudu.
+Lisaandmeid saab asustada Power Appsi kaudu.
 
 ![Integratsiooniülesandele väljade lisamine ja nende eemaldamine](media/SpecifyFieldsIncludedInIntegration.png)
 
@@ -119,19 +119,19 @@ Jälgige aega andmeintegraatori käivitusajaloost ja leidke rakenduses Finance p
 
 1. Märkige üles ülesande indeks andmeintegraatorist (selles näites 9).
 
-![Andmeintegraatorist ülesande indeksi ülesmärkimine](media/CaptureTaskIndex.png)
+    ![Andmeintegraatorist ülesande indeksi ülesmärkimine](media/CaptureTaskIndex.png)
 
 2. Jälgige projekti käivitusaega.
 
-![Projekti käivitusaja jälgimine](media/CaptureTimeOfExecution.png)
+    ![Projekti käivitusaja jälgimine](media/CaptureTimeOfExecution.png)
 
 3. Finantsis määratlege indeks -1. Selles näites vastab projekt järelliitega 8 ja projekti indeksiga 0 käivitusaeg etapis 2 näidatud käivitusajale.
 
-![Indeksi tuvastamine](media/IdentifyIndex.png)
+    ![Indeksi tuvastamine](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>Pärast Talenti ja Finance’i integreerimist ei näe ma enam oma Talenti andmeid rakenduses Finance. Mida teha?
 
-Integratsioon rakendusse Finance on kaheetapiline protsess. Esmalt kontrollige, kas Talenti andmed on värskendatud ja teenuses Common Data Service saadaval. See on peaaegu reaalajas sünkroonimine ja seda saab kontrollida PowerAppsis, vaadates andmeüksustes olevaid andmeid.
+Integratsioon rakendusse Finance on kaheetapiline protsess. Esmalt kontrollige, kas Talenti andmed on värskendatud ja teenuses Common Data Service saadaval. See on peaaegu reaalajas sünkroonimine ja seda saab kontrollida Power Appsis, vaadates andmeüksustes olevaid andmeid.
 
 ![Andmed teenuses Common Data Service](media/DataInCDS.png)
 
@@ -168,7 +168,7 @@ Värskendage andmeüksuseid rakenduses Finance, minnes jaotisse **Andmehaldus \>
 
   - [Andmeintegraatori tõrkehaldus ja tõrkeotsing](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [DSR-i taotlustele vastamine süsteemi loodud logide puhul teenustes PowerApps, Microsoft Flow jaCommon Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [DSR-i taotlustele vastamine süsteemi loodud logide puhul teenustes Power Apps, Microsoft Power Automate ja Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Andmehaldus
 

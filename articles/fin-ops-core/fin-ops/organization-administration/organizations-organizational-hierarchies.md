@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a13223fb1034e5902061788cd9ea9cec55d69dc7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8c28c9e8c2573bcd82434f88daa8f9cadc946209
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190047"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812382"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Organisatsioonide ja organisatsiooniliste hierarhiate ülevaade
 
@@ -67,4 +67,4 @@ Organisatsiooni hierarhiate seadistamine võimaldab teil oma äri vaadata ja sel
 
 Igale hierarhiale määratakse eesmärk. Hierarhia eesmärk määratleb organisatsioonide tüübid, mille saab hierarhiasse kaasata. Eesmärk määrab ka rakenduse stsenaariumid, milles hierarhiat saab kasutada.
 
-Hierarhiasse kuuluvad organisatsioonid saavad jagada parameetrid, poliitikaid ja kanded. Organisatsioon võib pärida või alistada oma emaorganisatsiooni parameetrid. Kogu organisatsioonile kehtivad siiski ühised koondandmed, nagu tooted ja aadressiraamatud, ja neid ei saa üksikute organisatsioonide puhul alistada. Organisatsioonide ja hierarhiate loomine nõuab hoolikat planeerimist. Lisateavet kohta vt teemast [Organisatsiooni hierarhia planeerimine](plan-organizational-hierarchy.md).
+Hierarhiasse kuuluvad organisatsioonid saavad jagada parameetrid, poliitikaid ja kanded. Organisatsioon võib pärida või alistada oma emaorganisatsiooni parameetrid. Kogu organisatsioonile kehtivad siiski ühised koondandmed, nagu tooted ja aadressiraamatud, ja neid ei saa üksikute organisatsioonide puhul alistada. Organisatsioonide ja hierarhiate loomine nõuab hoolikat planeerimist. Lisateavet kohta vt teemast [Oma organisatsiooni hierarhia planeerimine](plan-organizational-hierarchy.md).

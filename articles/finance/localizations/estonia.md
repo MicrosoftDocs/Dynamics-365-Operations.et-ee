@@ -15,12 +15,12 @@ ms.search.region: Estonia
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cf6d01b1ef608f271af5d5336d0a103944e85e20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d53b6f9973d81e1520fcfb7139b760e6aec52f16
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183600"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773399"
 ---
 # <a name="estonia-overview"></a>Eesti ülevaade
 
@@ -28,8 +28,8 @@ ms.locfileid: "2183600"
 
 See teema sisaldab teavet ja linke ressurssidele, mida tuleb arvesse võtta juriidiliste isikute puhul, kelle peamine aadress on Eesti.
 
--   [KM aruande üksikasjad Eestis](emea-est-vat-statement-details.md)
--   [Põhivarade likvideerimine](emea-credit-note-reverse-fixed-asset-sale.md)
+-   [KM-aruande üksikasjad Eesti puhul](emea-est-vat-statement-details.md)
+-   [Põhivarade likvideerimine Eesti ja Leedu puhul](emea-credit-note-reverse-fixed-asset-sale.md)
 
 ## <a name="additional-resources"></a>Lisaressursid
 - [Microsoft Dynamics Lokaliseerimisportaal: Eesti aruanne](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/Estonia.html)

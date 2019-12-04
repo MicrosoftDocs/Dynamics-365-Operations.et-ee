@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
-ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
+ms.openlocfilehash: 16a67ef625fdde0755e96c959be1fb2989ca53b6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2666826"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770662"
 ---
 # <a name="sales-tax-overview"></a>Käibemaksu ülevaade
 
@@ -38,7 +38,7 @@ Käibemaksuraamistik toetab mitmeid kaudsete maksude tüüpe, nt müügimaksu, k
 
 Järgmisel diagrammil on näidatud maksuseadistuse üksused ja nendevahelised seosed.
 
-[![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Maksuseadistuste üksuste ülevaadet näitav diagramm](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Iga käibemaksu puhul, mille kohta ettevõte peab aru andma, tuleb määratleda käibemaksukood. Käibemaksukood talletab maksumäärad ja käibemaksu arvutamise reeglid. 
 

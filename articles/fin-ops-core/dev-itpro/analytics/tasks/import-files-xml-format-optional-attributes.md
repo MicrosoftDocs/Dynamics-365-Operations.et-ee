@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1290598d8dbd5b72d679ccf3e642e75b6dc3215
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f34302a32b2e06f281dc93d6df160b88ffac7123
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182182"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769781"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>(RCS) Failide importimine XML-vormingus koos valikuliste atribuutidega
 
@@ -30,7 +30,7 @@ ms.locfileid: "2182182"
 Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad kujundada elektroonilise aruandluse (ER) vormingu konfiguratsiooni failide importimiseks XML-vormingus koos valikuliste atribuutidega. Etappide lõpuleviimiseks, peate esmalt läbima protseduuri Pakkuja konfiguratsiooni loomine ning aktiivseks märkimine etapid. Enne alustamist laadige alla ja salvestage lokaalselt fail IncomingDocumentToLearnHowToHandleOptionalAttributes.xml file [Microsofti allalaadimiskeskusest](https://go.microsoft.com/fwlink/?linkid=874684).
 
 1.  Avage **Kõik tööruumid** > **Elektrooniline aruandlus**.
-2.  Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja märgitud kui **Aktiivne**. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris [Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks](er-configuration-provider-mark-it-active-2016-11.md) toodud etapid.
+2.  Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja märgitud kui **Aktiivne**. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](er-configuration-provider-mark-it-active-2016-11.md) toodud juhised.
 3.  Klõpsake valikut **Aruandluse konfiguratsioonid**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Uue andmemudeli konfiguratsiooni loomine

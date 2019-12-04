@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 50ce332673e130dace38f596020973d37c34b566
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248953"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813496"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Hankija koostöö kasutajate haldamine
 
@@ -31,9 +31,9 @@ ms.locfileid: "2248953"
 
 See teema kirjeldab, kuidas saate taotleda uue hankija koostöö kasutajate ettevalmistamist ja kuidas lisada uue hankija koostöö kontakte. 
 
-Hankija koostöö liides rakenduses Dynamics 365 Supply Chain Management avaldab teavet ostutellimuste, arvete ja veosevarude kohta välistele hankijatele. Saate luua uued hankija koostöö kontaktid ja nõuda, et uued kasutajad valmistatakse ette, kui töötate välise hankijana turberolliga **Hankija administraator (väline)** või sarnaste lubadega. Samuti saate teha need ülesanded, kui töötate hankeprofessionaalina. Selles teemas viitab see roll hankeprofessionaalile, kes töötab selle ettevõtte siseselt, millele kuulub Supply Chain Managementi eksemplar. Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Klientidega hankija](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Hankija koostöö liides rakenduses Dynamics 365 Supply Chain Management avaldab teavet ostutellimuste, arvete ja veosevarude kohta välistele hankijatele. Saate luua uued hankija koostöö kontaktid ja nõuda, et uued kasutajad valmistatakse ette, kui töötate välise hankijana turberolliga **Hankija administraator (väline)** või sarnaste lubadega. Samuti saate teha need ülesanded, kui töötate hankeprofessionaalina. Selles teemas viitab see roll hankeprofessionaalile, kes töötab selle ettevõtte siseselt, millele kuulub Supply Chain Managementi eksemplar. Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Hankija koostöö klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake jaotisest [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
+Lisateavet selle kohta, kuidas kasutada hankija koostööd, kui olete väline hankija, vaadake teemast [Hankija koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="add-new-vendor-collaboration-contacts"></a>Uue hankija koostöö kontaktide lisamine
 Kui soovite, et kellelgi oleks juurdepääs hankija koostööle, tuleb nad esmalt lisada hankija koostöö kontaktina. Võite soovi korral lisada kontakte oma ettevõtte töötajatele, kes ei kasuta hankija koostööd. Näiteks võivad nad olla kontaktpunktiks teist tüüpi hanketeabele. Uued kontaktid lisatakse lehel **Kõik kontaktid** millele on juurdepääs menüüst **Hankija koostöö** &gt; **Kontaktid**. Uue kontakti lisamiseks:

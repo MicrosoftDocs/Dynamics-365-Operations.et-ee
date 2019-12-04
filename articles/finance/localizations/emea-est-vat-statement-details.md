@@ -17,12 +17,12 @@ ms.search.region: Estonia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c63f8d19652bb4974758e763d4c1f5d81897f2fb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ef3db7c8a73c697bc69839d21afb2ca2c7ab4a21
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175737"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773471"
 ---
 # <a name="vat-statement-details-for-estonia"></a>KM-aruande üksikasjad Eesti puhul
 
@@ -30,9 +30,9 @@ ms.locfileid: "2175737"
 
 See teema selgitab, kuidas seadistada käibemaksuaruannet Eestis asuvate juriidiliste isikute puhul.
 
-See teema sisaldab riigi-/piirkonnakohast teavet käibemaksu (KM) aruande seadistamise kohta ainult Eestis asuvate juriidiliste isikute puhul. Lisateavet käibemaksuaruannete seadistamise kohta vt teemast [Käibemaksuaruanne](emea-vat-reporting.md).
+See teema sisaldab riigi-/piirkonnakohast teavet käibemaksu (KM) aruande seadistamise kohta ainult Eestis asuvate juriidiliste isikute puhul. Lisateavet käibemaksuaruannete seadistamise kohta vt teemast [Käibemaksuaruandlus Euroopas](emea-vat-reporting.md).
 
-## <a name="set-up-sales-tax-authorities"></a>Maksuhaldurite seadistamine
+## <a name="set-up-sales-tax-authorities"></a>Käibemaksuhaldurite seadistamine
 Käibemaksuaruande loomist asjakohase maksuasutuse jaoks sobivas vormingus peate seadistama käibemaksuasutuste jaoks aruande paigutuse. Tehke lehel **Käibemaksuasutused** väljal **Aruande paigutus** valik **Eesti aruande paigutus**. Valige käibemaksu tasakaalustamisperioodi kohta sama käibemaksuasutus, mida kasutatakse käibemaksukoodide puhul.
 
 ## <a name="set-up-sales-tax-reporting-codes"></a>Saate häälestada käibemaksuaruandluse koode.

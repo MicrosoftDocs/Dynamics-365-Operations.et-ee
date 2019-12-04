@@ -3,7 +3,7 @@ title: Maksevahendil põhinevad allahindlused
 description: See teema annab ülevaate funktsioonidest, mille abil jaemüüjad konfigureerivad allahindlusi kindlate maksevahenditüüpide jaoks.
 author: bebeale
 manager: AnnBe
-ms.date: 10/25/19
+ms.date: 10/30/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 245ee647a3b86303df046fda5bba406c7a2485b5
-ms.sourcegitcommit: b0c176d5d24939307c6d0a6dbe7656007ca53710
+ms.openlocfilehash: ed17b43ac16ebcd310716271b84bbbd904a3253a
+ms.sourcegitcommit: dc31a0f0d9216aa05be76046ac7410702b20706f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "2673561"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692219"
 ---
 # <a name="tender-based-discounts"></a>Maksevahendil põhinevad allahindlused
 
@@ -40,6 +40,7 @@ Rakenduses Microsoft Dynamics 365 Retail saavad jaemüüjad konfigureerida allah
 Maksevahendil põhinevad allahindlused ei konkureeri kaubal põhinevate allahindlustega, nt perioodiliste või käsitsi tehtavate allahindlustega. Need lisatakse alati kaubal põhinevatele allahindlustele. Seega, isegi kui kaubale rakendatakse eksklusiivset perioodilist allahindlust, rakendatakse maksevahendil põhinevat allahindlust siiski eksklusiivsele perioodilisele allahindlusele lisaks. Samuti, kui kandele rakendatakse läve allahindlust ja maksevahendil põhinev allahindlus vähendab kogusumma lävest allapoole, rakendatakse kandele endiselt läve allahindlust.
 
 Kuigi maksevahendil põhinevad allahindlused vähendavad kande vahesummat, ei mõjuta see kandele rakendatud automaatseid tasusid. Näiteks kui tarne tasu arvutatakse 5 €, kuna vahesumma oli suurem kui 100 €, ja maksevahendil põhinev allahindlus vähendab summat nii, et see on väiksem kui 100 €, on tellimuse tarnetasud endiselt 5 €.
+
 
 > [!NOTE]
 > Maksevahendil põhinevad allahindlused jaotatakse proportsionaalselt kvalifitseeruvate müügiridade peale ja need vähendavad üksikute ridade maksueelset summat. Kui maksevahendi tüübi (nt sularaha) jaoks on konfigureeritud mitu maksevahendil põhinevat allahindlust, rakendatakse ainult parimat maksevahendil põhinevat allahindlust.
@@ -57,6 +58,7 @@ Kaardimaksete puhul saavad jaemüüjad seadistada maksevahendil põhineva allahi
 
 Selle olukorra vältimiseks näeb kassapidaja kliendi kaardimakse korral dialoogiboksi, kus on loetletud krediitkaardid, mis võimaldavad kliendil rohkem säästa. Seejärel saab kassapidaja küsida, kas klient soovib kasutada ühte eelistatud kaartidest, et saada lisaallahindlust. Kui kassapidaja kasutab eelistatud kaarti, rakendatakse kandele maksevahendil põhinevat allahindlust ja maksekuval näidatakse vähendatud summat. Autoriseerimine tehakse vähendatud summa jaoks. Kui klient sisestab kaardi, mis erineb kassapidaja valitud kaardist, kuvatakse veateade ja autoriseerimine tühistatakse.
 
+
 ## <a name="call-center-user-experience"></a>Kõnekeskuse kasutamine
 
 Kui kasutaja teeb kõnekeskuse tellimuse jooksul valiku **Vii lõpule**, kuvatakse **Kogusummad**. Alguses ei sisalda selle kuva kogusummad maksevahendil põhinevaid allahindlusi, kuna makseviisi pole veel valitud. Kui kasutaja valib kuval **Lisa makse** makseviisi, mille puhul maksevahendil põhinev allahindlus on konfigureeritud, korrigeeritakse maksesummat automaatselt nii, et see kajastab allahindlusega summat. Nagu kassas olev klientki, saab kõnekeskuse klient otsustada, kas tasuda täielik makse või osaline makse. Makstud summa põhjal rakendatakse maksevahendil põhinev allahindlus müügitellimusele.
@@ -66,7 +68,7 @@ Kui kasutaja teeb kõnekeskuse tellimuse jooksul valiku **Vii lõpule**, kuvatak
 
 ## <a name="exclude-items-from-discounts"></a>Kaupade välistamine allahindlustest
 
-Jaemüüjad jätavad tihti mõned tooted, nagu uued kaubad või nõutud kaubad, allahindlustest välja. Siiski võivad nad soovida rakendada maksevahendil põhinevaid allahindlusi. Näiteks saab jaemüüja rakenduse Retail konfigureerida nii, et see ei luba kaubal põhinevaid allahindlusi ega käsitsi tehtavaid allahindlusi. Kuid juhul, kui klient maksab eelistatud maksevahendi abil, rakendab Retail siiski maksevahendil põhineva allahindluse. Rakenduse Retail sel viisil seadistamiseks peavad jaemüüjad lülitama välja suvandid **Kõigi allahindluste ennetamine** ja **Maksevahendil põhinevate allahindluste ennetamine** ning lülitama sisse suvandid **Jaemüügi allahindluste ennetamine** ja **Käsitsi määratud allahindluste ennetamine**. Need valikud asuvad lehe **Väljastatud tooted** vahekaardil **Jaemüük**.
+Jaemüüjad jätavad tihti mõned tooted, nagu uued kaubad või nõutud kaubad, allahindlustest välja. Siiski võivad nad soovida rakendada maksevahendil põhinevaid allahindlusi. Näiteks saab jaemüüja rakenduse Retail konfigureerida nii, et see ei luba kaubal põhinevaid allahindlusi ega käsitsi tehtavaid allahindlusi. Kuid juhul, kui klient maksab eelistatud maksevahendi abil, rakendab Retail siiski maksevahendil põhineva allahindluse. Retaili sellisel viisil seadistamiseks peavad jaemüüjad avama **Tooteteabe haldus > Tooted > Väljastatud tooted**, valima kauba ja seejärel kiirkaardil **Jaemüük** määrama suvandid **Kõigi allahindluste ennetamine** ja **Maksevahendil põhinevate allahindluste ennetamine** valikule **Ei** ning suvandid **Jaemüügi allahindluste ennetamine** ja **Käsitsi määratud allahindluste ennetamine** valikule **Jah**.
 
 > [!NOTE]
-> Kui konfiguratsioon **Kõigi allahindluste ennetamine** on sisse lülitatud, ei rakendata tootele ühtki allahindlust. Ei rakendata isegi maksevahendil põhinevaid allahindlusi.
+> Kui konfiguratsioon **Kõigi allahindluste ennetamine** on seatud valikule **Jah**, ei rakendata tootele ühtki allahindlust. Ei rakendata isegi maksevahendil põhinevaid allahindlusi.

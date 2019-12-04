@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 98c84e987c40adf136d0240117f7b0f119bf2f59
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278372"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811113"
 ---
 # <a name="product-recommendations-on-pos"></a>Tootesoovitused müügikohas
 
@@ -40,13 +40,13 @@ Tootesoovitused on aktiivsed järgmiste kassastsenaariumide puhul. Need on saada
 
 1. Lehel **Toote üksikasjad** toimub järgmine.
 
-    - • Kui poemüüja läheb varasemate kannete vaatamise käigus erinevate kanalite lõikes lehele **Toote üksikasjad**, soovitab soovituste mootor täiendavaid kaupu, mida tõenäoliselt koos ostetakse.
+    - Kui poemüüja läheb varasemate kannete vaatamise käigus erinevate kanalite lõikes lehele **Toote üksikasjad**, soovitab soovituste mootor täiendavaid kaupu, mida tõenäoliselt koos ostetakse.
 
     [![Soovitused lehel Toote üksikasjad](./media/proddetails.png)](./media/proddetails.png)
 
 2. Lehel **Kanne** toimub järgmine.
 
-    - • Soovituse mootor pakub kaupu kogu ostukorvis olevate kaupade loendi alusel, mis on sageli koos ostetud.
+    - Soovituse mootor pakub kaupu kogu ostukorvis olevate kaupade loendi alusel, mis on sageli koos ostetud.
 
     > [!NOTE]
     > Soovituste kuvamiseks lehel **Kanne** peab jaemüüja muutma Dynamics 365 for Retailis ekraanipaigutust. Juhtelement **Soovitused** tuleb paigutada lehele **Kanne**.
@@ -69,10 +69,12 @@ Tootesoovituste seadistamiseks läbige need etapid.
 
 - Liikuge kohta **Jaemüügi parameetrid** \> **Soovituste loendid** \> **Keela tootesoovitused** ja käivitage **Globaalne konfigureerimistöö \[9999\]**. 
 - Kui olete oma kandekuvale lisanud **soovituste juhtelemendi**, kasutades **ekraanipaigutuse kujundajat**, eemaldage ka see.
-- Kui teil on lisaküsimusi, vaadake lisateavet [Soovituste KKK](../commerce/faq-recommendations.md)-st.
+- Kui teil on lisaküsimusi, vaadake teemat [Tootesoovituste KKK](../commerce/faq-recommendations.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Soovituste juhtelemendi lisamine POS seadmel](add-recommendations-control-pos-screen.md)
+[Soovituste juhtelemendi lisamine kassaseadmete kandekuvale](add-recommendations-control-pos-screen.md)
+
 [Tootesoovituste ülevaade](../commerce/product-recommendations.md)
-[Luba tootesoovitused](../commerce/enable-product-recommendations.md) 
+
+[Tootesoovituste lubamine](../commerce/enable-product-recommendations.md) 

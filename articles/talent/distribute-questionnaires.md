@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026252"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814739"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Küsimustike jaotamine ja ajastamine
 
@@ -54,7 +54,8 @@ Küsimustikule küsimustikugrupi määramiseks klõpsake lehel **Küsimustikud**
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Plaanitud vastamisseansid küsimustiku kohta
 Plaanitud vastamisseansid on küsimustikud, mille olete kavandanud ja millele vastajad valinud. 
 
-> **Märkus.** Enne plaanitud vastamisseansside seadistamist tuleb kavandada küsimustik. 
+> [!NOTE]
+>   Enne plaanitud vastamisseansside seadistamist peate koostama küsimustiku. 
 
 Lehel **Plaanitud vastamisseanss** saate luua üksiku töötaja jaoks plaanitud vastamisseansi. Lehe loendis kuvatakse kõik kavandatud küsimustikud. 
 
@@ -108,12 +109,14 @@ Kui kasutate plaanitud vastamisseanssi, peate teavitama inimest otse (nt telefon
 
 Lehel **Küsimustikugraafikud** saate ette valmistada ja saata meilid kõigile vastajatele, kellele küsimustik on määratud. Sisestage meili tekst vahekaardile **Meil töötaja iseteeninduse jaoks**. Pärast graafiku käivitamist klõpsake valikuid **Funktsioonid** &gt; **Saada meilisõnum** meilisõnumi koostamiseks ja vastajatele saatmiseks. Vastajad saavad siis veebisaidile sisse logida ja küsimustiku täita. 
 
-> **Märkus.** Enne, kui saate meilifunktsiooni kasutada, peab teie IT-administraator sisestama meilisätted lehele **Meiliparameetrid**.
+> [!NOTE]
+>   Enne meilifunktsiooni kasutamist peab teie IT-administraator sisestama lehel **Meiliparameetrid** meilisätted.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Plaanitud küsimustiku lõpetamine
 Plaanitud küsimustiku saate lõpetada pärast seda, kui kõik vastajad on neile määratud vastuseseansid sooritanud. Pärast plaanitud küsimustiku lõpetamist ei saa selle sätteid uude graafikusse kopeerida. 
 
-> **Märkus.** Kui vähemalt üks vastaja pole küsimustikku täitnud, kuid soovite siiski plaanimise lõpetada, peate esmalt kustutama need vastajad loendist lehel **Plaanitud vastamissessioon**. Seejärel saate graafiku lõpetada.
+> [!NOTE]
+>   Kui üks või mitu vastajat pole küsimustikku täitnud, kuid soovite siiski ajakava lõpetada, peate esmalt need vastajad loendist lehel **Plaanitud vastamisseanss** kustutama. Seejärel saate graafiku lõpetada.
 
 ## <a name="completing-questionnaires"></a>Küsimustike täitmine
 Pärast küsimustiku kavandamist ja laiali saatmist saavad valitud vastajad selle täita. Saate täita küsimustikud, mis on saadaval kahes kohas:
@@ -126,9 +129,9 @@ Küsimustikud saab teha kättesaadavaks kindlatele kasutajatele või kasutajagru
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Küsimustike kavandamine](design-questionnaires.md)
+[Küsimustike kujundamine](design-questionnaires.md)
 
-[Küsimustike kasutamine](questionnaires.md)
+[Küsimustikud](questionnaires.md)
 
 [Küsimustike tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
 

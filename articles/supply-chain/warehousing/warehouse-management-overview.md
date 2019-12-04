@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251058"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813013"
 ---
 # <a name="warehouse-management-overview"></a>Laohalduse ülevaade
 
@@ -36,7 +36,7 @@ Laohaldusega töö alustamiseks tuleb viia lõpule üldiste laoparameetrite sead
 
 Peate konfigureerima sissetulevate ja väljaminevate laoprotsesside töövoogude komponendid vastavalt ärivajadustele. Kõige olulisemad komponendid, mis tuleb seadistada, on voomallid, töömallid, töökaustad ja asukohakorraldused.
 
-- [Lao konfiguratsioon](warehouse-configuration.md)
+- [Lao konfiguratsiooni ülevaade](warehouse-configuration.md)
 - [Laotöö juhtimine töömallide ja asukohadirektiividega](control-warehouse-location-directives.md)
 - [Mobiilsete seadmete seadistamine laotöö jaoks](configure-mobile-devices-warehouse.md)
 - [Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku jaoks](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)

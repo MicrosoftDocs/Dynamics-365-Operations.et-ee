@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1bddb65fd5fd73e879d8a95decc9f3e4f7f37e4
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: abf574293dac634bb4b4f6adc95b4598a66ed264
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653437"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813289"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
 
@@ -43,7 +43,7 @@ Väline kataloog peaks võimaldama suunata ostutaotlusse siseneva töötaja tood
 
 1. Hankekategooria hierarhia seadistamine. Lisateavet leiate jaotisest [Hankekategooria hierarhiate poliitikate seadistamine](tasks/set-up-policies-procurement-category-hierarchies.md).
 2. Registreerige tarnija rakenduses Supply Chain Management. Enne kui saate seadistada konfiguratsioone välisesse hankija kataloogi pääsemiseks, peate seadistama Microsoft Dynamics 365-s hankija ja hankija kontakti. Välise kataloogi hankija tuleb lisada ka valitud hankekategooriasse. Lisateavet hankijate registreerimise kohta vt teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md). Teavet hankijate määramise kohta hankekategooriasse leiate jaotisest [Konkreetsetele hankekategooriatele hankijate kinnitamine](tasks/approve-vendors-specific-procurement-categories.md).
-3. Veenduge, et oleks seadistatud mõõtühikud ja valuuta, mida hankija kasutab. Teavet mõõtühiku loomise kohta vaadake jaotisest [Mõõtühikute haldamine](../pim/tasks/manage-unit-measure.md).
+3. Veenduge, et oleks seadistatud mõõtühikud ja valuuta, mida hankija kasutab. Teavet mõõtühiku loomise kohta vaadake jaotisest [Mõõtühiku haldamine](../pim/tasks/manage-unit-measure.md).
 4. Konfigureerige väline hankija kataloog, kasutades oma hankija välise kataloogisaidi nõudeid. Lisateavet selle ülesande kohta vt teemast [Välise hankija kataloogi konfigureerimine](#configure-the-external-vendor-catalog).
 5. Testige hankija välise kataloogi konfiguratsioone kontrollimiseks, et sätted oleksid kehtivad ja et pääseksite hankija välisesse kataloogi. Kasutage toimingut **Sätete valideerimine** määratletud taotluse seadistussõnumi valideerimiseks. See sõnum peab põhjustama hankija välise kataloogisaidi avamise brauseriaknas. Kinnitamise ajal ei saa sellelt hankijalt kaupu ja teenuseid tellida. Kaupade ja teenuste tellimiseks peate minema ostutaotlusest hankija kataloogi.
 6. Aktiveerige väline kataloog, kasutades nuppu **Aktiveeri kataloog** lehel **Välised kataloogid**. Väline kataloog tuleb aktiveerida, enne kui töövõtjad saavad seda kasutada. Välise kataloogi saab alati inaktiveerida.

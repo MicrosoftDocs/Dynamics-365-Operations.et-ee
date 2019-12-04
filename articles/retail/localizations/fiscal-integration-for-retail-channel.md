@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025403"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812303"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Jaemüügikanalite fiskaalüksuse integratsiooni ülevaade
 
@@ -36,7 +36,7 @@ Selles teemas antakse ülevaade rakenduses Dynamics 365 Retail saadaolevatest fi
 - Retail POS-is lõpule viidud müükide ja tagastustega seotud teabe turvaline edastamine välisesse veebiteenusesse, mida käitab maksuamet.
 - Müügi kandeandmete muutmatuse tagamine digitaalallkirjade abil.
 
-Fiskaalüksuse integratsiooni funktsioon on raamistik, mis pakub ühtset lahendust integratsiooni edasiarenduseks ja kohandamiseks Retail POS-i ning fiskaalseadmete ja -teenuste vahel. Funktsioon hõlmab ka fiskaalüksuse integratsiooni näidiseid, mis toetavad jaemüügi põhistsenaariume kindlate riikide või regioonide kohta ja töötavad kindlate fiskaalseadmete või -teenustega. Fiskaalüksuse integratsiooni näidis koosneb mitmest Retaili komponendi laiendusest ja sisaldub tarkvara arenduskomplektis (SDK). Lisateavet fiskaalüksuse integratsiooni näidiste kohta vt teemast [Fiskaalüksuse integreerimise näidised Retail SDK-s](#fiscal-integration-samples-in-the-retail-sdk). Teavet Retail SDK installimise ja kasutamise kohta vt teemast [Retail SDK ülevaade](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Fiskaalüksuse integratsiooni funktsioon on raamistik, mis pakub ühtset lahendust integratsiooni edasiarenduseks ja kohandamiseks Retail POS-i ning fiskaalseadmete ja -teenuste vahel. Funktsioon hõlmab ka fiskaalüksuse integratsiooni näidiseid, mis toetavad jaemüügi põhistsenaariume kindlate riikide või regioonide kohta ja töötavad kindlate fiskaalseadmete või -teenustega. Fiskaalüksuse integratsiooni näidis koosneb mitmest Retaili komponendi laiendusest ja sisaldub tarkvara arenduskomplektis (SDK). Lisateavet fiskaalüksuse integratsiooni näidiste kohta vt teemast [Fiskaalüksuse integreerimise näidised Retail SDK-s](#fiscal-integration-samples-in-the-retail-sdk). Teavet Retail SDK installimise ja kasutamise kohta vt teemast [Retaili tarkvara arenduskomplekti (SDK) arhitektuur](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Selleks et toetada muid stsenaariume, mida fiskaalüksuse integratsiooni näidis ei toeta, integreerida Retail POS muude fiskaalseadmete või -teenustega või täita muude riikide või regioonide nõudeid, peate kas laiendama olemasolevat fiskaalüksuse integratsiooni näidist või looma uue näidise, kasutades näitena olemasolevat näidist.
 
@@ -65,7 +65,7 @@ Järgmises näites on toodud tüüpiline fiskaalüksuse registreerimise käivita
 7. Kassa analüüsib fiskaalseadmest või -teenusest saadud vastust, et teha kindlaks, kas fiskaalüksuse registreerimine õnnestus.
 8. CRT salvestab vastuse kanali andmebaasi.
 
-![Lahenduse skeemi](media/emea-fiscal-integration-solution.png "Lahenduse skeemi")
+![Lahenduse skeem](media/emea-fiscal-integration-solution.png "Lahenduse skeem")
 
 ## <a name="error-handling"></a>Tõrketöötlus
 
@@ -141,6 +141,6 @@ Retail SDK-s on praegu saadaval järgmised fiskaalüksuse integratsiooni näidis
 
 Retail SDK-s on saadaval ka järgmised fiskaalüksuse integratsiooni funktsioonid, mis aga praegu ei kasuta fiskaalüksuse integratsiooni raamistikku. Nende funktsioonide migreerimine fiskaalüksuse integratsiooni raamistikku on kavandatud tulevastesse värskendustesse.
 
-- [Digitaalallkiri Prantsusmaa jaoks](emea-fra-cash-registers.md)
-- [Digitaalallkiri Norra jaoks](emea-nor-cash-registers.md)
-- [Juhtseadme integratsiooni näidis Rootsi jaoks](./retail-sdk-control-unit-sample.md)
+- [Kassaaparaadi funktsioonid Prantsusmaa jaoks](emea-fra-cash-registers.md)
+- [Kassaaparaadi funktsioonid Norra jaoks](emea-nor-cash-registers.md)
+- [Retail POS-i juhtseadmetega integreerimise näide Rootsi jaoks](./retail-sdk-control-unit-sample.md)

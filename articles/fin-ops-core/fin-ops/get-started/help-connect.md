@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 491024c9c3d6c7d20ef212e167ceab6abac8dac7
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537851"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812576"
 ---
 # <a name="connect-the-help-system"></a>Spikrisüsteemi ühendamine
 
@@ -54,7 +54,7 @@ Tehke lehel **Süsteemi parameetrid** järgmist.
 > [!IMPORTANT]
 > Vahekaardi **Spikker** esmakordsel avamisel peate looma ühenduse elutsükli teenustega. Klõpsake kindlasti vormi keskel olevat linki, oodake, kuni ühendus on loodud, sulgege dialoogiboks ja seejärel klõpsake **OK**, et avada **Parameetrite vormid**.
 >
-> [![LCS loomiseks](./media/connect-to-lcs-crop-1024x365.png "LCS loomiseks")](./media/connect-to-lcs-crop.png)
+> [![Ühenda LCS-iga](./media/connect-to-lcs-crop-1024x365.png "Ühenda LCS-iga")](./media/connect-to-lcs-crop.png)
 
 1. Valige elutsükli teenuste projekt, millega ühendus luua.
 2. Valige BPM-i teegid (valitud projektis), kust tegevuse salvestised tuua.
@@ -80,7 +80,7 @@ Tõlgitud tegevusjuhised edastati esmakordselt 2016. aasta mai APQC ühendatud t
 
 Saate luua oma Finance and Operationsi, Supply Chain Managementi ja Retaili eksemplarile kohandatud spikri, luues tegevuste salvestised, mis kajastavad teie eksemplari, ja salvestades need LCS-i äriprotsesside teeki. Kohandatud tegevusjuhiseid ei saa luua Talenti puhul.
 
-Partneritele: kui teete olemasoleva teegi ettevõtte teegiks ja lisate selle lahendusse, on see teie klientidele kättesaadav. Võite teha koopia ka APQC teegist Unified global library ja avada siis oma eksemplari, avada selle tegevuste salvestised, muuta neid ja salvestada salvestised oma muudatustega. Lisateavet leiate teemast [Kuidas luua tegevuste salvestisi koolitusel dokumentatsioonina kasutamiseks](../../dev-itpro/user-interface/task-recorder.md).
+Partneritele: kui teete olemasoleva teegi ettevõtte teegiks ja lisate selle lahendusse, on see teie klientidele kättesaadav. Võite teha koopia ka APQC teegist Unified global library ja avada siis oma eksemplari, avada selle tegevuste salvestised, muuta neid ja salvestada salvestised oma muudatustega. Lisateavet vt [Tegevuse salvestaja ressursid](../../dev-itpro/user-interface/task-recorder.md).
 
 ### <a name="connect-a-custom-site"></a>Kohandatud saidi ühendamine
 
@@ -91,8 +91,8 @@ Microsoft pakub tehnilist ülevaadet ja näidiskoodi, mis kirjeldavad kohandatud
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Spikri ülevaade](help-overview.md)
+[Spikrisüsteem](help-overview.md)
 
-[Tegevuse salvestaja ülevaade](../../dev-itpro/user-interface/task-recorder.md)
+[Tegevuse salvestaja ressursid](../../dev-itpro/user-interface/task-recorder.md)
 
-[Kuidas luua tegevuse salvestist dokumentide või koolitusena kasutamiseks](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[Dokumentide või koolituse loomine tegevuse salvestaja abil](../../dev-itpro/user-interface/task-recorder-training-docs.md)

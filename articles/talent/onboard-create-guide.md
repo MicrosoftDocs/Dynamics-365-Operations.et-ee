@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 3c465c667cbb8a66f301637ca620429b0ddc11c6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550339"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814624"
 ---
 # <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>Sisseelamisjuhendi loomine ja saatmine, kasutades Dynamics 365 Talent: Onboard
 
@@ -119,6 +119,6 @@ Saate salvestada sisseeleamisjuhendi mallina. Sel viisil saate säästa aega, ku
 ### <a name="see-also"></a>Vt ka
 
 - [Proovige või ostke Onboardi rakendus](https://dynamics.microsoft.com/talent/onboard/)
-- [Mis on uut?](./whats-new.md)
-- [Väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Toe hankimine](./talent-support.md)
+- [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent?](./whats-new.md)
+- [Väljaandmisplaanid](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Toe hankimine rakendusele Microsoft Dynamics 365 Talent](./talent-support.md)

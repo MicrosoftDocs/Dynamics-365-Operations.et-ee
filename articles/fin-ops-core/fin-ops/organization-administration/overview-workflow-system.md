@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190001"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812359"
 ---
 # <a name="workflow-system-overview"></a>Töövoosüsteemi ülevaade
 
@@ -57,18 +57,18 @@ Töövoo süsteemi kasutamine teie organisatsioonis on mitmeti kasulik.
 
 ## <a name="workflow-content"></a>Töövoo sisu
 
-+ [Töövoo arhitektuur](workflow-system-architecture.md)
-+ [Töövoo elemendid](workflow-elements.md)
-+ [Töövoo tegevused](workflow-actions.md)
-+ [Töövoo loomine](create-workflow.md)
-+ [Töövoo atribuutide konfigureerimine](configure-workflow-properties.md)
-+ [Töövoos käsitsi ülesande konfigureerimine](configure-manual-task-workflow.md)
-+ [Töövoos automaatse ülesande konfigureerimine](configure-automated-task-workflow.md)
-+ [Töövoo kinnitusprotsessi konfigureerimine](configure-approval-process-workflow.md)
-+ [Töövoo kinnitusetapi konfigureerimine](configure-approval-step-workflow.md)
-+ [Töövoos käsitsi otsuse konfigureerimine](configure-manual-decision-workflow.md)
-+ [Töövoos tingimusliku otsuse konfigureerimine](configure-conditional-decision-workflow.md)
-+ [Töövoos paralleeltegevuse konfigureerimine](configure-parallel-activity-workflow.md)
-+ [Töövoos paralleelharu konfigureerimine](configure-parallel-branch-workflow.md)
-+ [Rea kauba töövoo konfigureerimine](configure-line-item-workflow.md)
++ [Töövoo süsteemi arhitektuur](workflow-system-architecture.md)
++ [Töövooelemendid](workflow-elements.md)
++ [Tegevused töövoo kinnitusprotsessis](workflow-actions.md)
++ [Töövoogude loomise ülevaade](create-workflow.md)
++ [Töövooatribuutide konfigureerimine](configure-workflow-properties.md)
++ [Töövoos käsitsi ülesannete konfigureerimine](configure-manual-task-workflow.md)
++ [Töövoos automaatsete ülesannete konfigureerimine](configure-automated-task-workflow.md)
++ [Töövoo kinnitusprotsesside konfigureerimine](configure-approval-process-workflow.md)
++ [Töövoo kinnitusetappide konfigureerimine](configure-approval-step-workflow.md)
++ [Töövoos käsitsi otsuste konfigureerimine](configure-manual-decision-workflow.md)
++ [Töövoos tingimuslike otsuste konfigureerimine](configure-conditional-decision-workflow.md)
++ [Paralleeltegevuste konfigureerimine töövoos](configure-parallel-activity-workflow.md)
++ [Paralleelharude konfigureerimine töövoos](configure-parallel-branch-workflow.md)
++ [Reakauba töövoogude konfigureerimine](configure-line-item-workflow.md)
 + [Töövoo KKK](workflow-FAQ.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43700d68587cebfb4f897c8a5b619dd4771cc439
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e55ab83302cc75b1a9d9d3e4f06d2258697b31fc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181308"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771210"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Valemikoostaja elektroonilises aruandluses (ER)
 
@@ -773,9 +773,9 @@ Kui need andmeallikad on määratletud, saate kasutada avaldist, nt <strong>FILT
 
 ### <a name="functions-list-extension"></a>Funktsioonide loendi laiend
 
-ER laseb laiendada nende funktsioonide loendit, mida kasutatakse ER-i avaldistes. Nõutav on mõni projekteerimise panus. Üksikasjalikuma teabe saamiseks vt jaotist [Elektroonilise aruandluse funktsioonide loendi laiendamine](general-electronic-reporting-formulas-list-extension.md).
+ER laseb laiendada nende funktsioonide loendit, mida kasutatakse ER-i avaldistes. Nõutav on mõni projekteerimise panus. Lisateabe saamiseks vt [Elektroonilise aruandluse (ER) funktsioonide loendi laiendamine](general-electronic-reporting-formulas-list-extension.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
+- [Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 - [Elektroonilise aruandluse (ER) funktsioonide loendi laiendamine](general-electronic-reporting-formulas-list-extension.md)

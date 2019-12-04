@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 28ed12bd8cf2df7c25e14a25465cad1229676cfd
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5849de38962967f0614ff7afd40296c0f12ff476
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551975"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812852"
 ---
 # <a name="get-the-dynamics-365-talent---onboard-app"></a>Rakenduse Dynamics 365 Talent: Onboard hankimine
 
@@ -39,9 +39,9 @@ Prooviversiooni või ostu protsessi käigus seadistate oma Microsoft 365 meiliaa
 > [!WARNING]
 > Te ei saa oma prooviversiooni andmeid tasulisse tellimiskeskkonda üle viia. <!--Reviewers: please verify.-->
 
-Teavet Talenti uute funktsioonide kohta vt teemast [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent](./whats-new.md) ja [Dynamics 365 ja Power Platformi väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/index). Kui soovite eelvaates näha uusi funktsioone, vaadake [Juurdepääs rakenduse Talent eelvaate funktsioonidele.](./access-preview-feature.md)
+Teavet Talenti uute funktsioonide kohta vt teemast [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent](./whats-new.md) ja [Dynamics 365 ja Power Platformi väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/index). Kui soovite näha Onboardi uute funktsioonide eelvaadet, vt [Juurdepääs rakenduse Microsoft Dynamics 365 Talent eelvaatefunktsioonidele](./access-preview-feature.md).
 
-Kui olete IT-spetsialist ja soovite lisateavet rakenduse Onboard kahe versiooni ettevalmistamise kohta, lugege teemat [Rakenduse Onboard ettevalmistamine](./modular-app-tech-faq.md).
+Kui olete IT-spetsialist ja soovite lisateavet rakenduse Onboard kahe versiooni ettevalmistamise kohta, lugege teemat [Dynamics 365 Talent – rakenduse Onboard ettevalmistamine](./modular-app-tech-faq.md).
 
 ## <a name="get-started-with-onboard"></a>Onboardi kasutamise alustamine
 
@@ -89,6 +89,6 @@ Kui te aktsepteerite vaikimisi domeeninime, kui Onboardiga sisse logisite, saate
 ### <a name="see-also"></a>Vt ka
 
 - [Proovige või ostke Onboardi rakendus](https://dynamics.microsoft.com/talent/onboard/)
-- [Mis on uut?](./whats-new.md)
-- [Väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Toe hankimine](./talent-support.md)
+- [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent?](./whats-new.md)
+- [Väljaandmisplaanid](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Toe hankimine rakendusele Microsoft Dynamics 365 Talent](./talent-support.md)

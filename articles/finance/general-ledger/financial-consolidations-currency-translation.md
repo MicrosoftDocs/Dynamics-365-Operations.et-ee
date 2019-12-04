@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7b6b3cced92920ef5a253ca15793f26f244475fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186597"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771841"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finantskonsolideerimiste ja valuutateisenduse ülevaade
 
@@ -91,7 +91,7 @@ Kolmas võimalus on kasutada konsolideerimiskonto gruppe. Saate määrata nii pa
 ![Vastendamine täiendavate konsolideerimiskontode lehel](./media/additional-consolidation-accounts.png "Vastendamine täiendavate konsolideerimiskontode lehel")
 
 ## <a name="consolidating-online"></a>Võrguühendusega konsolideerimine
-Lisateavet konsolideerimise üksikasjade sisestamise kohta võrgus vt teemast [Võrguühendusega konsolideerimine](./consolidate-online.md).
+Lisateavet konsolideerimise üksikasjade sisestamise kohta võrgus vt teemast [Finantskonsolideerimised võrgus](./consolidate-online.md).
 
 ## <a name="managing-consolidation-transactions"></a>Konsolideerimiskannete haldamine
 Konsolideerimise tulemuste vaatamiseks on teil mitu võimalust.

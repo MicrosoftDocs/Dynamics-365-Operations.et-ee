@@ -1,5 +1,5 @@
 ---
-title: Vestluse plaanimine ja tagasiside
+title: Intervjuude kavandamine rakenduses Attract
 description: Selles teemas antakse teavet vestluse plaanimise ja tagasiside tegevuste kohta rakenduses Attract.
 author: hasrivas
 manager: AnnBe
@@ -14,18 +14,18 @@ ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
-ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517793"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832741"
 ---
-# <a name="interview-scheduling-and-feedback"></a>Vestluse plaanimine ja tagasiside
+# <a name="schedule-interviews-in-attract"></a>Intervjuude kavandamine rakenduses Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-## <a name="scheduler-activity"></a>Tegevus Plaanur
+## <a name="scheduler-activity"></a>Andmeedastaja tegevus
 
 Andmeedastaja tegevus on valikuline ja koosneb kahest osast: kandidaadi saadavuspäring ning graafik. Kandidaadi kättesaadavuse komponent võimaldab kasutada kandidaadi kättesaadavuse küsimiseks meili. Graafiku komponent võimaldab planeerida töövestlusi kandidaadi ja värbamistöörühma vahel.
 

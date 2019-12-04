@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1643e7fb3128faf6ad638d4cdad313b3667463b1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6cdfbbd7d4f41503e97620b8738679ad572b2a4a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181676"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771233"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega
 
@@ -44,10 +44,10 @@ Selle funktsiooni kohta lisateabe saamiseks vaadake tegevusejuhiseid **Elektroon
 
 See protseduur selgitab, kuidas konfigureerida elektroonilise aruandluse raamistikku teabe kogumiseks elektroonilise aruandluse vormingu käivitamiste kohta ja seejärel hinnata nende käivitamiste tulemusi. Osana sellest hindamisest võrreldakse loodud dokumente nende alusfailidega. Selles näites loote näidisettevõtte Litware, Inc jaoks vajalikud elektroonilise aruandluse konfiguratsioonid. Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Need etapid saab lõpule viia ükskõik millise andmekomplekti abil.
 
-Selle näite etappide lõpuleviimiseks peate esmalt läbima etapid teemas [Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Selle näite etappide lõpuleviimiseks peate esmalt läbima etapid teemas [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 1. Avage **Organisatsiooni haldamine** \> **Tööruumid** \> **Elektrooniline aruandlus**.
-2. Lehel **Lokalisatsiooni konfiguratsioonis** jaotises **Konfiguratsiooni pakkujad** veenduge, et näidisettevõtte Litware, Inc. konfiguratsiooni pakkuja oleks loendis ja tähistatud märkega **Aktiivne**. Kui te ei näe seda konfiguratsioonipakkujat, järgige etappe teemas [Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud juhised](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Lehel **Lokalisatsiooni konfiguratsioonis** jaotises **Konfiguratsiooni pakkujad** veenduge, et näidisettevõtte Litware, Inc. konfiguratsiooni pakkuja oleks loendis ja tähistatud märkega **Aktiivne**. Kui te ei näe seda konfiguratsioonipakkujat, järgige etappe teemas [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ### <a name="configure-document-management-parameters"></a>Dokumendihalduse parameetrite konfigureerimine
 
@@ -68,7 +68,7 @@ Selle näite etappide lõpuleviimiseks peate esmalt läbima etapid teemas [Konfi
 
 2. Vahekaardil **Manused** väljas **Alus** sisestage või valige äsja loodud dokumenditüüp.
 
-    ![Elektroonilise aruandluse parameetrite lehe manuste vahekaart](media/GER-BaselineSample-ERParameters.PNG "Elektroonilise aruandluse parameetrite kuvatõmmis")
+    ![Elektroonilise aruandluse parameetrite lehe vahekaart Manused](media/GER-BaselineSample-ERParameters.PNG "Elektroonilise aruandluse parameetrite kuvatõmmis")
 
 3. Valige käsk **Salvesta** ja seejärel sulgege leht **Elektroonilise aruandluse parameetrid**.
 
@@ -79,7 +79,7 @@ Selle näite etappide lõpuleviimiseks peate esmalt läbima etapid teemas [Konfi
 3. Dialoogiakna ripploendis sisestage välja **Nimi** suvand **Elektroonilise aruandluse aluste õppimise mudel**.
 4. Valige suvand **Loo konfiguratsioon** uue elektroonilise aruandluse andmemudeli kirje loomise kinnitamiseks.
 
-![Konfiguratsiooni loomise dialoogiakna ripploend](media/GER-BaselineSample-ModelAdd.PNG "Konfiguratsiooni loomise dialoogiakna ripploendi kuvatõmmis")
+![Konfiguratsiooni loomise rippmenüü dialoogiaken](media/GER-BaselineSample-ModelAdd.PNG "Konfiguratsiooni loomise rippmenüü dialoogiakna kuvatõmmis")
 
 ### <a name="design-a-data-model"></a>Andmemudeli kujundamine
 
@@ -102,7 +102,7 @@ Selle näite etappide lõpuleviimiseks peate esmalt läbima etapid teemas [Konfi
 3. Sisestage välja **Nimi** suvand **Vorming elektroonilise aruandluse aluste õppimiseks**.
 4. Valige suvand **Loo konfiguratsioon** uue elektroonilise aruandluse vormingu kirje loomise kinnitamiseks.
 
-![Konfiguratsiooni loomise dialoogiakna ripploend](media/GER-BaselineSample-FormatAdd.PNG "Konfiguratsiooni loomise dialoogiakna ripploendi kuvatõmmis")
+![Konfiguratsiooni loomise rippmenüü dialoogiaken](media/GER-BaselineSample-FormatAdd.PNG "Konfiguratsiooni loomise rippmenüü dialoogiakna kuvatõmmis")
 
 ### <a name="design-a-format"></a>Vormingu kujundamine
 
@@ -173,7 +173,7 @@ Kujundatud struktuuri põhjal loob konfigureeritud vorming XML-faili. See XML si
 1. Minge jaotisse **Organisatsiooni haldamine** \> **Elektrooniline aruandlus** \> **Konfiguratsioonid**.
 2. Toimingupaanil valige nupp **Alused**.
 
-    ![Nupp Alused konfiguratsioonide lehel](media/GER-BaselineSample-OpenBaselinePage.PNG "Kuvatõmmis nupust Alused konfiguratsioonide lehel")
+    ![Nupp Algväärtused konfiguratsioonide lehel](media/GER-BaselineSample-OpenBaselinePage.PNG "Kuvatõmmis nupust Algväärtused konfiguratsioonide lehel")
 
 3. Valige toimingupaanil nupp **Uus**.
 4. Valige varem loodud elektroonilise aruandluse vorming **Vorming elektroonilise aruandluse aluste õppimiseks**.
@@ -243,4 +243,4 @@ Alus lisatakse vormingule **Vorming elektroonilise aruandluse aluste õppimiseks
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Elektroonilise aruandluse raamistiku konfigureerimine](electronic-reporting-er-configure-parameters.md)
+- [Elektroonilise aruandluse (ER) raamistiku konfigureerimine](electronic-reporting-er-configure-parameters.md)

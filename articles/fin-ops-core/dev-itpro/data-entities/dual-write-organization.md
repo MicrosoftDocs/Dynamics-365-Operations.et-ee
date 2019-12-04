@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a12ab249129dce24cdca5e29d737fa9f68c0eac
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: 9efc63c385c31a6d8848d016c1a8689460908dcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572445"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769656"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Organisatsiooni hierarhia teenusesCommon Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Kuna Dynamics 365 Finance on finantssüsteem, on *organisatsioon* keskne mõiste ja süsteemi seadistus algab organisatsiooni hierarhia konfiguratsioonist. Ettevõtte rahandusasju saab seejärel jälgida organisatsiooni tasemel ja mis tahes tasemel organisatsiooni hierarhias.
 
@@ -46,85 +44,35 @@ Ettevõtte ökosüsteemil, mis koosneb Finance and Operationsi rakendustest ja C
 
 Organisatsiooni hierarhia olemi kaardid on saadaval andmete ühesuunalisel sünkroonimiselt Finance and Operationsi rakendustest teenusesse Common Data Service.
 
+## <a name="templates"></a>Mallid
+
+Toote teave sisaldab kogu teavet, mis on seotud tootega ja selle määratlusega, nagu tootedimensioonid või jälgimis- ja laoala dimensioonid. Nagu järgmine tabel näitab, luuakse olemikaartide kogum, et sünkroonida tooteid ja seotud teavet.
+
+Finance and Operations | Muud Dynamics 365 rakendused | Kirjeldus
+-----------------------|--------------------------------|---
+Organisatsiooni hierarhia eesmärgid | msdyn_internalorganizationhierarchypurposes | See mall tagab organisatsiooni hierarhia eesmärgi üksuse ühesuunalise sünkroonimise.
+Organisatsiooni hierarhia tüüp | msdyn_internalorganizationhierarchytypes | See mall tagab organisatsiooni hierarhia tüübi üksuse ühesuunalise sünkroonimise.
+Organisatsiooni hierarhia – avaldatud | msdyn_internalorganizationhierarchies | See mall tagab avaldatud organisatsiooni hierarhia üksuse ühesuunalise sünkroonimise.
+Tootmisüksus | msdyn_internalorganizations | 
+Juriidilised isikud | msdyn_internalorganizations | 
+Juriidilised isikud | cdm_companies | Tagab juriidilise isiku (ettevõtte) teabe kahesuunalise sünkroonimise.
+
+
 [!include [banner](../includes/dual-write-symbols.md)]
 
-## <a name="internal-organization-hierarchy-purpose"></a>Organisatsiooni hierarhia eesmärkide haldamine
+[!include [Organization hierarchy purposes](dual-write/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
 
-See mall pakub organisatsiooni hierarhia eesmärgi olemi ühesuunalise sünkroonimist Finance and Operationsist teistesse Dynamics 365 rakendustesse.
+[!include [Organization hierarchy type](dual-write/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
 
-<!-- ![architecture image](media/dual-write-purpose.png) -->
-
-Lähteväli | Kaardi tüüp | Sihtväli
----|---|---
-Hierarhia tüüp | \> | msdyn\_hierarchypurposetypename
-Hierarhia tüüp | \> | msdyn\_hierarchytype.msdyn\_name
-Hierarhia eesmärk | \>\> | msdyn\_hierarchypurpose
-Muudetamatu | \>\> | msdyn\_immutable
-Sea vaikeväärtused | \>\> | msdyn\_setasdefault
-
-## <a name="internal-organization-hierarchy-type"></a>Organisatsiooni hierarhia tüüp
-
-See mall pakub organisatsiooni hierarhia tüübii olemi ühesuunalise sünkroonimist Finance and Operationsist teistesse Dynamics 365 rakendustesse.
-
-<!-- ![architecture image](media/dual-write-type.png) -->
-
-Lähteväli | Kaardi tüüp | Sihtväli
----|---|---
-NIMI | \> | msdyn\_nimi
-
-## <a name="internal-organization-hierarchy"></a>Organisatsiooni hierarhia
-
-See mall pakub organisatsiooni hierarhia avaldatud olemi ühesuunalist sünkroonimist Finance and Operationsist teistesse Dynamics 365 rakendustesse.
-
-<!-- ![architecture image](media/dual-write-organization.png) -->
-
-Lähteväli | Kaardi tüüp | Sihtväli
----|---|---
-Kehtib | \> | msdyn\_validto
-Kehtivuse algus | \> | msdyn\_validfrom
-Hierarhia tüüp | \> | msdyn\_hierarchytypename
-Peaorganisatsiooni partii number | \> | msdyn\_parentpartyid
-Alamorganisatsiooni partii number | \> | msdyn\_childpartyid
-Hierarhia tüüp | \> | msdyn\_hierarchytypeid.msdyn\_name
-Alamorganisatsiooni partii number | \> | msdyn\_childid.msdyn\_partynumber
-Peaorganisatsiooni partii number | \> | msdyn\_parentid.msdyn\_partynumber
+[!include [Organization hierarchy - published](dual-write/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
 
 ## <a name="internal-organization"></a>Sisemine korraldus
 
 Sisemine organisatsiooniteave Common Data Service’is pärineb kahest üksusest: **tootmisüksus** ja **juriidilised isikud**.
 
-<!-- ![architecture image](media/dual-write-operating-unit.png) -->
+[!include [Operating unit](dual-write/OperatingUnit-msdyn-internalorganizations.md)]
 
-<!-- ![architecture image](media/dual-write-legal-entities.png) -->
+[!include [Legal entities](dual-write/LegalEntities-msdyn-internalorganizations.md)]
 
-### <a name="operating-unit"></a>Tootmisüksus
+[!include [Legal entities](dual-write/LegalEntities-Companies.md)]
 
-Lähteväli | Kaardi tüüp | Sihtväli
----|---|---
-keel | \> | msdyn\_languageid
-Nime pseudonüüm | \> | msdyn\_namealias
-NIMI | \> | msdyn\_nimi
-Osapoole number | \> | msdyn\_partynumber
-Tootmisüksuse tüüp | \>\> | msdyn\_tüüp
-
-### <a name="legal-entity"></a>Juriidiline isik
-
-Lähteväli | Kaardi tüüp | Sihtväli
----|---|---
-Nime pseudonüüm | \> | msdyn\_namealias
-keel | \> | msdyn\_languageid
-NIMI | \> | msdyn\_nimi
-Osapoole number | \> | msdyn\_partynumber
-Pole | \>\> | msdyn\_tüüp
-Juriidilise isiku ID | \> | msdyn\_companycode
-
-## <a name="company"></a>Ettevõte
-
-Pakub juriidilise isiku (ettevõtte) teabe kahesuunalist sünkroonimist Finance and Operationsi ja teiste Dynamics 365 rakenduste vahel.
-
-<!-- ![architecture image](media/dual-write-company.png) -->
-
-Lähteväli | Kaardi tüüp | Sihtväli
----|---|---
-NIMI | = | cdm\_name
-Juriidilise isiku ID | = | CDM\_companycode

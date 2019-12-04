@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13744df950040056ba03a3847d84f93e266ea6c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181446"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771302"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER-i konfiguratsioonide koostamine PDF-mallide täitmiseks
 
@@ -46,7 +46,7 @@ Enne alustamist peab teil olema üks järgmistest juurdepääsu tüüpidest, sõ
     - Elektroonilise aruandluse funktsionaalne konsultant
     - Süsteemiadministraator
 
-Samuti peate lõpetama protseduuri [Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Samuti peate lõpetama protseduuri teemas [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 Lõpuks peate alla laadima järgmised failid asukohast [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111).
 
@@ -300,5 +300,5 @@ Järgnev illustratsioon näitab aruande teistest lehekügedest loodud näidet.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Elektrooniline aruandlus OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine](tasks/er-design-reports-openxml-2016-11.md)
-- [ER-i konfiguratsioonide kujundamine Microsoft WORDi vormingus aruannete loomiseks](tasks/er-design-configuration-word-2016-11.md)
+- [Elektrooniline aruandlus. OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine (november 2016)](tasks/er-design-reports-openxml-2016-11.md)
+- [Elektroonilise aruandluse konfiguratsioonide kujundamine Wordi vormingus aruannete loomiseks](tasks/er-design-configuration-word-2016-11.md)

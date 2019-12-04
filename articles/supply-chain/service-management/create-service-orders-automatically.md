@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee68190b117b974ff4131f5d2237d138cac1fda3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7d91ccc6a3ebaff220c8a876944b90d910399660
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552272"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814025"
 ---
 # <a name="create-service-orders-automatically"></a>Hooldustellimuste loomine automaatselt    
 
@@ -60,11 +60,11 @@ Kui loote hooldustellimused hooldusleppe realt käsitsi või automaatselt, peab 
 
 2.  Hooldustellimuste loomisel kasutatavate kriteeriumite lisamiseks või kustutamiseks saate valikuid teha, klõpsates käsku **Vali**.
 
-3.  Klõpsake nupul **OK**.
+3.  Klõpsake valikut **OK**.
 
 ## <a name="see-also"></a>Vt ka
 
-[Teenusetellimused](service-orders.md)
+[Teenuse tellimused](service-orders.md)
 
 [Hooldustellimuste loomine automaatselt](auto-create-service-orders.md)
 

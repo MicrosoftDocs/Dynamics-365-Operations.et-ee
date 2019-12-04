@@ -1,5 +1,5 @@
 ---
-title: Juurdepääs eelvaatefunktsioonidele rakenduses Microsoft Dynamics 365 Talent
+title: Funktsioonide haldamine
 description: Selles teemas kirjeldatakse, kuidas administraator saab lubada eelvaatefunktsioone rakenduses Microsoft Dynamics 365 Talent, ja loetletakse funktsioone, mis on praegu eelvaate jaoks lubatud.
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551590"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833296"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>Juurdepääs eelvaatefunktsioonidele rakenduses Microsoft Dynamics 365 Talent
+# <a name="manage-features"></a>Funktsioonide haldamine
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent pidevate inimkapitali juhtimisvõimaluste (HCM) levitamise osana tahame, et kliendid saaksid proovida uusi funktsioone niipea kui võimalik. Administraatorid saavad näha ja kasutada eelvaatefunktsioone oma keskkondades. Need funktsioonid on peaaegu valmis üldiseks kasutamiseks ja on läbinud põhjalikud kontrollid. Eelvaatefunktsioonide puhul soovime saada täiendavat kasutajate tagasidet ja kinnitust, enne kui funktsioonid üldiselt kättesaadavaks teeme.
 
@@ -117,6 +117,6 @@ Ootame teie tagasisidet teie kogemuse kohta nende eelvaatefunktsioonidega. Soovi
 ## <a name="see-also"></a>Vt ka
 
 - [Talenti rakenduste proovimine või ostmine](https://dynamics.microsoft.com/talent/overview/)
-- [Mis on uut?](./whats-new.md)
-- [Väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Talenti toe hankimine](./talent-support.md)
+- [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent?](./whats-new.md)
+- [Väljalaskeplaanid](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Toe hankimine rakendusele Microsoft Dynamics 365 Talent](./talent-support.md)

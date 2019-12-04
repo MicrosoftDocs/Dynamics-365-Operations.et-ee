@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 124609041163bbcaf1b86a6964fa3f56fcd8f755
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: d3cf2b82470887ee617704b72e47a53d299911e3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658756"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811527"
 ---
 # <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
 
@@ -112,15 +112,12 @@ Tööriistaribal **Isikupärastamine** on saadaval järgmised tööriistad.
 
 - Tööriistaga **Vali** saate valida ja muuta elemendi atribuute. Selle tööriista kasutamiseks valige tööriistaribal nupp **Vali** ja seejärel valige soovitud element. Kuvatakse elemendi atribuudiaken ja te saate muuta selle elemendi mistahes atribuute. Saate protsessi selle lehe muude isikupärastatavate elementide puhul korrata. Võtke arvesse, et mõned isikupärastamise atribuudid ei pruugi mõne stsenaariumi puhul saadaval olla. Näiteks ei saa te nõutavat välja lukustada.
 - Tööriistaga **Peida** saate elemendi lehel peita. Selle tööriista kasutamiseks valige tööriistaribal nupp **Peida** ja seejärel valige peidetav element. Tööriista **Peida** kasutamisel muudetakse kõik parasjagu peidetud elemendid nähtavaks, kuid need kuvatakse varjutatud konteineris. Elemendi saate nähtavaks muuta, kui valite selle. Selleks, et vaadata, milline leht välja näeb, kui elemendid on peidetud, aktiveerige muu isikupärastamistööriist.
-
-    Saate vajalikud väljad ja vajalikke välju sisaldavad jaotised peita. Nii saate hõlbustada kasutusviisi, kus äriloogikaga vaikimisi täidetud välju ei kuvata. Peidetud kohustuslikud väljad muutuvad ajutiselt nähtavaks, kui need on tühjad, kui kasutaja proovib lehte salvestada.
-
-- Välja lisamiseks lehele kasutage tööriista **Välja lisamine**. Selle tööriista kasutamisel saate lisada ainult välju, mis on osa lehekülje määratlusest. Teavet selle kohta, kuidas luua uusi välju, mis ei ole osa praeguse lehe määratlusest, vt jaotisest [Kohandatud väljad](user-defined-fields.md). Nupu **Lisa väli** valimisel tööriistaribal, peate esmalt valima rühma või ala, kuhu soovite välja lisada. Dialoogiboksis kuvatakse valitud rühma või alaga seotud väljade loend. Valige dialoogiboksis lisamiseks üks või mitu välja ja seejärel valige käsk **Sisesta**. Varem lisatud välja eemaldamiseks korrake protsessi, kuid tühjendage dialoogiboksis välja valik.
+- Välja lisamiseks lehele kasutage tööriista **Välja lisamine**. Selle tööriista kasutamisel saate lisada ainult välju, mis on osa lehekülje määratlusest. Teavet selle kohta, kuidas luua uusi välju, mis ei ole osa praeguse lehe määratlusest, vt jaotisest [Kohandatud väljade loomine ja nendega töötamine](user-defined-fields.md). Nupu **Lisa väli** valimisel tööriistaribal, peate esmalt valima rühma või ala, kuhu soovite välja lisada. Dialoogiboksis kuvatakse valitud rühma või alaga seotud väljade loend. Valige dialoogiboksis lisamiseks üks või mitu välja ja seejärel valige käsk **Sisesta**. Varem lisatud välja eemaldamiseks korrake protsessi, kuid tühjendage dialoogiboksis välja valik.
 - Tööriistaga **Teisalda** saate nihutada elemendi praeguses elemendirühmas teise asukohta. Võtke arvesse, et elementi ei saa teisaldada emagrupist väljapoole. Selle tööriista kasutamiseks valige tööriistaribal nupp **Teisalda** ja seejärel valige teisaldatav element. Elemendi valimisel määratleb rakendus asukohad, kuhu elementi saab teisaldada. Neid asukohti tuntakse *pukseerimistsoonidena*. Elemendi lohistamisel praeguses rühmas kuvatakse iga pukseerimistsoon värvilisena ja paksu joonega selle ala kõrval, kuhu elemendi saab pukseerida.
 - Tööriistaga **Jäta vahele** saate eemaldada elemendi lehe klaviatuuri vahekaardijärjestusest. Nupu **Jäta vahele** valimisel tööriistaribal kuvatakse kõik parasjagu vahelejäetud elemendid varjutatud konteineris. Välju saate interaktiivselt vahekaardi järjestusest eemaldada või neid sinna lisada.
 - Tööriistaga **Kuva päis** saate kuvada välja kiirkaardi kokkuvõttejaotises. Tööriistariba nupu **Kuva päises** valimisel kuvatakse kõik kokkuvõtteväljadena valitud väljad varjutatud konteineris. Saate välju interaktiivselt kiirkaardi kokkuvõttesse lisada ja neid sealt eemaldada, valides soovitud väljad.
 - Tööriistaga **Lukusta** saate märkida elemendi redigeeritavaks või mitteredigeeritavaks. Nupu **Lukusta** valimisel tööriistaribal kuvatakse kõik parasjagu mitteredigeeritavad elemendid varjutatud konteineris. Seejärel saate need uuesti redigeeritavaks muuta. Arvestage sellega, et mõned väljad on nõutavad ja neid ei saa mitteredigeeritavaks muuta. Nende väljade kõrval kuvatakse tabalukuikoon.
-- Kasutage nuppu **Lisa PowerApp** iga loodud rakenduse manustamiseks lehele rakendusega Microsoft PowerApps. Üksikasjalikku teavet lehele PowerAppsi rakenduse manustamise kohta vt jaotisest [PowerAppsi manustamine](embed-power-apps.md).
+- Kasutage nuppu **Lisa PowerApp** iga loodud rakenduse manustamiseks lehele rakendusega Microsoft PowerApps. Üksikasjalikku teavet lehele PowerAppsi rakenduse manustamise kohta vt jaotisest [PowerAppsi rakenduste manustamine](embed-power-apps.md).
 - Kasutage tööriista **Eemaldamine** lehe lähtestamiseks vaikesätetele, installitud olekusse. Kõik praeguse lehe isikupärastamised kustutatakse. Tagasivõtmine ei ole võimalik. Seetõttu kasutage seda tööriista ainult siis, kui soovite lehe lähtestada.
 - Tööriistaga **Importimine** saate laadida isikupärastamise failist, mille teie või keegi teine on lehe jaoks varem loonud. Kui impordite lehele isikupärastamised, saate valida, kas need tuleks lisada lehele või asendada kõik teie olemasolevad isikupärastamised. Tagasivõtmine ei ole võimalik. Seetõttu peate pärast isikupärastamise importimist käsitsi eemaldama või tühistama kõik soovitud muudatused.
 - Tööriistaga **Eksportimine** saate oma lehe isikupärastamised failina salvestada. Saate seejärel oma isikupärastamisi teiste kasutajatega jagada. Need kasutajad peavad lihtsalt importima teie lehe isikupärastamisi sisaldava faili.

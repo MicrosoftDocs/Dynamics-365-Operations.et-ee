@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 96cd2fc988df11c616faf06cf0905acd6b3d6dcc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248976"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813519"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Hankijatega koostöö tegemine Hankija portaali kasutades
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248976"
 
 See teema kirjeldab, kuidas ostuagendid saavad kasutada hankija portaali ostutellimuse kinnitamise protsessi käigus väliste hankijatega koostöö tegemiseks. See teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul.
 
-Selles teemas sisalduv teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul. Lisateavet hankija koostöö turvalisuse seadistamise kohta vt teemast [Hankija koostöö kasutamine väliste hankijatega koostöö tegemiseks](vendor-collaboration-work-external-vendors.md).  
+Selles teemas sisalduv teave kehtib ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonide puhul. Lisateavet uue hankijate koostöö funktsiooni kohta leiate jaotisest [Hankijate koostöö väliste hankijatega](vendor-collaboration-work-external-vendors.md).  
 
 Hankija portaal on mõeldud hankijatele, kellel puudub ostutellimuse (PO) teabe vahetamiseks Microsoft Dynamics AX-iga elektrooniliste andmevahetus (EDI). Portaal võimaldab ostuagentidel saata hankijale ostutellimuse ja saada siis kinnitava või tagasilükkava vastuse otse Dynamics AX-is.  
 
@@ -98,7 +98,7 @@ Järgmises tabelis on näide oleku ja versiooni muudatustest, mida ostutellimuss
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Hankija koostöö kasutajate turbe konfigureerimine](configure-security-vendor-portal-users.md)
+[Hankija portaali kasutajate turvalisus](configure-security-vendor-portal-users.md)
 
 [Hankija koostöö arve tööruum](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 

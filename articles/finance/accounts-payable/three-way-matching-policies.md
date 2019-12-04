@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9c177f7a7b713e7b8490b718650daafeca0e937
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189380"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772739"
 ---
 # <a name="three-way-matching-policies"></a>Kolmesuunalised vastavusse viimise poliitikad
 
@@ -141,7 +141,7 @@ Pange tähele järgmisi kaupu.
 Kui vastendamise lahknevustega arvete sisestamisel on nõutud kinnitus, tuleb enne, kui hinna ja koguse vastendamise vigadega arvet saab sisestada, määrata lehel Arve võrdlemise üksikasjad valik Kinnita ühtivate lahknevustega sisestamine. Kui kinnitamine ei ole kohustuslik, saab arve töötlemist muude sisestusvigade puudumisel jätkata.
 
 
-Lisateabe saamiseks vaadake teemat [Ostureskonto arvete võrdlemine](accounts-payable-invoice-matching.md).
+Lisateabe saamiseks vaadake teemat [Ostureskontro arvete võrdlemise ülevaade](accounts-payable-invoice-matching.md).
 
 
 

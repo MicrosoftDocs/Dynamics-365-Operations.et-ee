@@ -3,7 +3,7 @@ title: Kaasa füüsiline väärtus
 description: Märkeruutu Kaasa füüsiline väärtus kiirkaardil Laomudel või lehel Kauba mudeligrupid kasutatakse määramiseks, kas füüsiliselt värskendatud kandeid arvestatakse kauba jooksva keskmise omahinna arvutuses.
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96d5e2a658a027d66663868329cf4eedcb1d46f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 834438f8389e295bbb992f0b8397ff45559690c3
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551969"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692993"
 ---
 # <a name="include-physical-value"></a>Kaasa füüsiline väärtus
 
@@ -47,10 +47,16 @@ Märkeruudul on veidi erinevad mõjud, olenevalt kasutatavast laomudelist.
 
 **Näide 1** Olete märkinud ruudu**Kaasa füüsiline väärtus** ja saate järgmised ostutellimused.
 
--   Ostutellimus kogusele 2 omahinnaga 10.00 USA dollarit, mis on saatelehega sisestatud
--   Ostutellimus kogusele 3 omahinnaga 12.00 USA dollarit, mis on arvega sisestatud
+-   Ostutellimus kogusele 2 omahinnaga 10,00 USA dollarit, mis on saatelehega sisestatud.
+-   Ostutellimus kogusele 3 omahinnaga 12,00 USA dollarit, mis on arvega sisestatud.
 
-Sellisel juhul on jooksev keskmine omahind 11.20 USD, sest omahinna arvutamiseks kasutatakse nii füüsiliselt kui ka rahaliselt värskendatud kandeid. **Näide 2** Te pole märkinud ruutu **Kaasa füüsiline väärtus** ja kauba seadistuse omahind on 10.00 USD. Saate ostutellimuse kogusele 20 omahinnaga 12.00 USA dollarit, mis on saatelehega sisestatud Müügitellimuse sisestamisel sisestatakse kulusumma 10.00 USD kulusumma, sest jooksev keskmine omahind ei hõlma füüsiliselt sisestatud kandeid. **Märkus:** võrdluseks, kui märgite selle kauba puhul müügitellimuse sisestamisel ruudu **Kaasa füüsiline väärtus**, on sisestatav kulusumma 12.00 USD.
+Sellisel juhul on jooksev keskmine omahind 11,20 USA dollarit = (2x10+3x12)/(2+3), sest omahinna arvutamiseks kasutatakse nii füüsiliselt kui ka rahaliselt värskendatud kandeid. 
 
+**Näide 2** Te pole märkinud ruutu **Kaasa füüsiline väärtus** ja kauba seadistuse omahind on 10.00 USD. 
 
+-   Saate ostutellimuse kogusele 20 omahinnaga 12.00 USA dollarit, mis on saatelehega sisestatud
 
+Müügitellimuse sisestamisel sisestatakse kulusumma 10.00 USD kulusumma, sest jooksev keskmine omahind ei hõlma füüsiliselt sisestatud kandeid. 
+
+> [!NOTE]
+> Võrdluseks, kui märgite selle kauba puhul müügitellimuse sisestamisel ruudu **Kaasa füüsiline väärtus**, on sisestatav kulusumma 12,00 USA dollarit.

@@ -3,7 +3,7 @@ title: Tegeliku kaalu toote protsess laohalduse abil
 description: Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldusi määramaks, kuidas ja kus laos tööd tehakse.
 author: perlynne
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 5800f95de0ec773f40c506662a031887810b8c92
+ms.sourcegitcommit: db222a1719d4756d9ccb73fc71e7eaf4521c23a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887131"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2696635"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Tegeliku kaalu toote protsess laohalduse abil
 
@@ -181,7 +181,7 @@ Praegu toetatakse tegeliku kaalu siltide funktsiooni ainult järgmiste stsenaari
 - Laorakenduse abil muudetud varude oleku töötlemisel.
 - Laohaldusrakenduse abil lao üleviimise toimingul.
 - Laorakenduse kaudu sisse ja välja korrigeerimise töötlemisel.
-- Müügi- ja üleviimistellimuste puhul komplekteerimistöö töötlemisel. (Pange tähele, et tegeliku kaalu silte ei saa salvestada tootmiskomponendi komplekteerimiseks.)
+- Valimisel töödeldakse tööd müügi-, üleandmis- ja tootmisliinide jaoks.
 - Komplekteeritud koguste vähendamisel koorma ridadelt olenemata sellest, kas konteinereid kasutatakse või mitte.
 - Toodete pakkimisel konteineritesse pakkimisjaamas.
 - Konteinerite uuesti avamisel.

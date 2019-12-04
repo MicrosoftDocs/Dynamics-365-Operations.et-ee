@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2aa0e5200ff2a6822e631c72124335e2dc556c14
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ed0800c4a650233190c6a33b1690790f0e2bf051
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552111"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814094"
 ---
 # <a name="create-service-task-relations"></a>teenustoimingute seoste loomine    
 
@@ -69,7 +69,7 @@ Teenustellimusel loodavad teenustoimingute seosed on kättesaadavad konkreetse t
 
 ## <a name="see-also"></a>Vt ka
 
-[Teenustoimingud](service-tasks.md)
+[Hooldustoimingute ülevaade](service-tasks.md)
 
 
   

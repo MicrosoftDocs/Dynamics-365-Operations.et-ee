@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74750397dc344d74c018c27114357d3d05b95b7e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550103"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771256"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Rakendusekohaste metaandmete ettevalmistamine RCS-i ja ER-i jaoks
 
@@ -43,7 +43,7 @@ Selles näites soovite kasutada RCS-i sellise elektroonilise aruandluse lahendus
 > Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. Neid etappe saab teha mis tahes ettevõttes.
 
 1. Avage **Organisatsiooni haldamine \> Tööruumid \> Elektrooniline aruandlus**.
-2. Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja märgitud kui **Aktiivne**. Kui te ei näe seda konfiguratsioonipakkujat, viige lõpuni toiming [Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
+2. Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja märgitud kui **Aktiivne**. Kui te ei näe seda konfiguratsioonipakkujat, viige lõpuni toiming [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Valige **Metaandmete konfiguratsioonid**.
 4. Valige **Konfiguratsiooni loomine**.
 5. Dialoogiakna ripploendis sisestage nimi väljale **Nimi**. Selle näite puhul sisestage **Väliskaubanduse metaandmed**.
@@ -54,14 +54,14 @@ Selles näites soovite kasutada RCS-i sellise elektroonilise aruandluse lahendus
     > [!NOTE]
     > Saate valida kas kogu rakenduse või valitud mudelite või moodulite metaandmed. Mõlemal juhul arvestage, et lisatakse automaatselt järgmised metaandmed: kirjete tabelid, loetelud ja laiendatud andmetüübid (EDT-d). Kui on vaja täiendavaid metaandmete tüüpe, tuleb need lisada käsitsi.
 
-Peate lisama metaandmeid, mis on seotud välikaubanduse kannetega ja valima käsitsi metaandmete üksused.
+    Peate lisama metaandmeid, mis on seotud välikaubanduse kannetega ja valima käsitsi metaandmete üksused.
 
 9. Valige **Andmeallika lisamine \> Tabeli kirjed**.
 10. Filter väärtusel **Intrastat** väljal **Nimi**.
 11. Valige tabeli kirje **Intrastat**.
 12. Valige nupp **OK**.
 
-Peate lisama Intrastati kirjetabeli metaandmete teabe.
+    Peate lisama Intrastati kirjetabeli metaandmete teabe.
 
 13. Tehke puul valik **Tabeli kirjete intrastat \> \>Seosed \> Intrastati kaubaartikkel (Tabeli kirjete EcoResCategory)**.
 14. Valige **Lisa metaandmed**.
@@ -95,11 +95,11 @@ Järgmine protseduur näitab, kuidas RCS-i kasutaja, kelle roll on kas **Süstee
 
 Enne selle protseduuri lõpule viimist peate esmalt viima lõpuni järgmised protseduurid.
 
-- [Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md)
+- [Konfiguratsiooni pakkujate loomine ja nende märkimine aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md)
 - [RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine](#prepare-application-metadata-that-can-be-used-in-rcs)
 
 1. Avage **Kõik tööruumid \> Elektrooniline aruandlus**.
-2. Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja märgitud kui **Aktiivne**. Kui te ei näe seda konfiguratsioonipakkujat, viige lõpuni toiming [Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
+2. Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja märgitud kui **Aktiivne**. Kui te ei näe seda konfiguratsioonipakkujat, viige lõpuni toiming [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Importige ER metaandmete konfiguratsioon, mis sisaldab metaandmeid rakendusele ja mis on konfigureeritud looma elektroonilisi dokumente väliskaubanduse äritegevuse domeenile. Lõite selle elektroonilise aruandluse metaandmete konfiguratsiooni ja eksportisite selle XML-failina varem siin teemas olnud protseduuris [RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine](#prepare-application-metadata-that-can-be-used-in-rcs).
 
     1. Valige **Metaandmete konfiguratsioonid**.
@@ -201,7 +201,7 @@ Vajadusel saate laiendada rakenduses olemas olevat metaandmete komplekti. Seejä
 
 Järgmine protseduur näitab, kuidas RCS-i kasutaja, kelle roll on kas **Süsteemiadministraator** või **Elektroonilise aruandluse arendaja**, saab kavandada uue elektroonilise aruandluse mudeli vastenduse, kasutades rakenduse metaandmeid. Rakenduse metaandmete saab online-juurdepääsu RCS-ga ühendatud rakenduse abil. Väliskaubanduse kannetele juurdepääsuks konfigureeritakse elektroonilise aruandluse mudeli vastenduse näidis.
 
-Selle protseduuri lõpuleviimiseks peate esmalt läbima RCS-is protseduuri [Konfiguratsioonipakkuja loomine ja selle märkimine aktiivseks](tasks/er-configuration-provider-mark-it-active-2016-11.md). Kui te ei ole protseduuri [Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil](#access-application-metadata-by-using-an-er-configuration) selles teemas varem lõpule viinud, avage leht [Elektroonilise aruandluse tegevusjuhised rakendusele Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739), et laadida eelnevalt alla järgmised elektroonilise aruandluse konfiguratsioonifailid ja salvestada need kohapeal: **Väliskaubanduse metaandmed.xml**, **Väliskaubanduse mudel.xml** ja **Väliskaubanduse vastendamine.xml**.
+Selle protseduuri lõpuleviimiseks peate esmalt läbima RCS-is protseduuri [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md). Kui te ei ole protseduuri [Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil](#access-application-metadata-by-using-an-er-configuration) selles teemas varem lõpule viinud, avage leht [Elektroonilise aruandluse tegevusjuhised rakendusele Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739), et laadida eelnevalt alla järgmised elektroonilise aruandluse konfiguratsioonifailid ja salvestada need kohapeal: **Väliskaubanduse metaandmed.xml**, **Väliskaubanduse mudel.xml** ja **Väliskaubanduse vastendamine.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>Vajalike elektroonilise aruandluse konfiguratsioonide hankimine

@@ -1,9 +1,9 @@
 ---
-title: Rakenduse Talent süsteeminõuded ja värskenduspoliitika
-description: Selles teemas on loetletud rakenduse Dynamics 365 Talent nõuded. Samuti on välja toodud värskenduspoliitika.
+title: Rakenduse Talent süsteeminõuded
+description: Selles teemas on loetletud rakenduse Dynamics 365 Talent nõuded.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/02/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0bd7d7051dd01834f306e165af55d740192b99e0
+ms.sourcegitcommit: caeb24027831efccbc316ff8e7f9e62b42010d65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024156"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2818475"
 ---
-# <a name="talent-system-requirements-and-update-policy"></a>Rakenduse Talent süsteeminõuded ja värskenduspoliitika
+# <a name="talent-system-requirements"></a>Rakenduse Talent süsteeminõuded
 
 [!include [banner](includes/banner.md)]
 
@@ -54,7 +54,7 @@ Iga veebibrauseri uusima versiooni leidmiseks minge tarkvaratootja veebisaidile.
 
 ## <a name="supported-microsoft-office-applications"></a>Toetatud Microsoft Office’i rakendused
 
-* Microsoft Exceli ja Wordi lisandmoodulite käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing](../dev-itpro/office-integration/office-integration-troubleshooting.md "Office’i integratsiooni tõrkeotsing").
+* Microsoft Exceli ja Wordi lisandmoodulite käivitamiseks peab teil olema installitud Windowsile või Macile mõeldud Microsoft Office 2016. Versiooninõuete kohta lisateabe saamiseks vaadake teemat [Office’i integratsiooni tõrkeotsing](../dev-itpro/office-integration/office-integration-troubleshooting.md "Office’i integreerimise tõrkeotsing").
 * Funktsiooniga Ekspordi Excelisse või Ekspordi Wordi loodud dokumentide vaatamiseks peab teil olema installitud Microsoft Office 2007 või uuem versioon.
 
 ## <a name="regional-availability-languages-and-localization"></a>Piirkondlik saadavus, keeled ja lokaliseerimine
@@ -66,8 +66,3 @@ Saate alla laadida PDF-faili riikide, piirkondade ja keelte kohta, mida Talent t
 
 Kui olete arendaja, kes on huvitatud riigi- või piirkonnapõhiste kohanduste loomisest või luua lahendus mõnele riigile või piirkonnale, mida Microsoft praegu ei toeta, vt [Globaliseerumine](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
-## <a name="update-policy"></a>Värskenduspoliitika
-
-Talenti pakutakse pilveteenusena. Microsoft värskendab rakendust Talent pidevalt ja automaatselt.
-
-Värskendusi antakse välja regulaarselt ja need tehakse kättesaadavaks kõikides keskkondades. Talenti tugi põhineb [Microsoft Support Lifecycle’i poliitikal](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle"), kust leiate terviklikud ja ennustatavad juhised tootetoe saadavuse kohta.

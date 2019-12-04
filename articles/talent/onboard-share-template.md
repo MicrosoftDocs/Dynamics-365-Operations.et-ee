@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 010d68b79300d15292dbcd4754eed8aac115cdce
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551445"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812829"
 ---
 # <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Sisu jagamine teiste Dynamics 365 Talent: Onboard kaasautoritega
 
@@ -53,7 +53,7 @@ Microsoft Dynamics 365 Talent: Onboard võimaldab jagada sisseelamisjuhendeid ja
 
 3. Kui adressaadid peaksid saama malli üle vaadata, seadke jaotises **Adressaat** suvandi **Kas need inimesed saavad muudatusi teha?** väärtuseks **Sees**. Kui adressaatidele tuleks meili teel teatada, et olete malli neile ühiskasutusse andnud, määrake suvandi **Saada meiliteatis adressaatidele** väärtuseks **Sees**.
 
-    [!Juurdepääsu ja meilieelistuste seadmine mallile](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
+    [![Mallile juurdepääsu ja meilieelistuste seadmine](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. Sisestage nimi või meiliaadress ja valige ripploendist soovitud adressaat.
 5. Vahekaardil **Halda juurdepääsu** saate vaadata või muuta, mida adressaadid malliga teha saavad. Adressaadi juurdepääsu muutmiseks valige adressaadi nime kõrval olevas ripploendis vastavalt vajadusele **Saab vaadata**, **Saab muuta**või **Eemalda**.
@@ -68,6 +68,6 @@ Microsoft Dynamics 365 Talent: Onboard võimaldab jagada sisseelamisjuhendeid ja
 ### <a name="see-also"></a>Vt ka
 
 - [Proovige või ostke Onboardi rakendus](https://dynamics.microsoft.com/talent/onboard/)
-- [Mis on uut?](./whats-new.md)
-- [Väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Toe hankimine](./talent-support.md)
+- [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent?](./whats-new.md)
+- [Väljaandmisplaanid](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Toe hankimine rakendusele Microsoft Dynamics 365 Talent](./talent-support.md)

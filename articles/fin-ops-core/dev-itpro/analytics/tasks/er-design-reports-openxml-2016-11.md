@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1229c89f43f9ded955dadf2f4d87825c9ab4e71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182573"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769851"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>Elektrooniline aruandlus. OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine (november 2016)
 
@@ -36,7 +36,7 @@ Etappide lõpuleviimiseks, peate esmalt läbima protseduuri Pakkuja konfiguratsi
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Makse andmemudeli konfiguratsiooni üleslaadimine
 1. Navigeerimispaanil avage **Moodulid > Organisatsiooni haldus > Tööruumid > Elektrooniline aruandlus**.
-2. Märkige loendis näidisettevõtte seadistuse pakkujaks Litware, Inc. Kui seda seadistuse pakkujat pole näha, peate esmalt lõpetama etapid teemas [Looge seadistus pakkuja ja märkige see aktiivseks](er-configuration-provider-mark-it-active-2016-11.md).
+2. Märkige loendis näidisettevõtte seadistuse pakkujaks Litware, Inc. Kui seda seadistuse pakkujat pole näha, peate esmalt lõpetama etapid teemas [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](er-configuration-provider-mark-it-active-2016-11.md).
 3. Valige **Määra aktiivseks**.
 4. Valige **Osad**. Valige võimaluse korral tüübi Operationsi ressursid jaoks hoidla. Kui see on saadaval, jätke uue hoidla loomise järgmised etapid vahele.  
 5. Klõpsake valikut **Lisa** rippdialoogi avamiseks.

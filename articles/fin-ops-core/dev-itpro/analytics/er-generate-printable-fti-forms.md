@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 731b6a61bd78388f3db0a7007478e3a5e9629a49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181423"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771279"
 ---
 # <a name="generate-printable-fti-forms"></a>Prinditavate FTI-vormide loomine
 
@@ -41,7 +41,7 @@ Peale olemasoleva võimaluse luua teenusega Microsoft SQL Server Reporting Servi
 Prinditavate FTI-vormide kohandatud lahenduse osana peate looma ER-i konfiguratsioonide kogumi.
 
 ### <a name="configure-the-er-data-model"></a>Elektroonilise aruandluse andmemudeli konfigureerimine
-Teie rakenduses peab olema ER-i andmemudeli konfiguratsioon, mis sisaldab andmemudelit, mis kirjeldab kliendi arveldamise ettevõttedomeeni. Selle andmemudeli nimi peab olema **CustomersInvoicing**. Teavet ER-i andmemudelite kujundamise kohta leiate teemast [Elektroonilise aruandluse (ER) domeenikohase andmemudeli koostamine](tasks/er-design-domain-specific-data-model-2016-11.md)
+Teie rakenduses peab olema ER-i andmemudeli konfiguratsioon, mis sisaldab andmemudelit, mis kirjeldab kliendi arveldamise ettevõttedomeeni. Selle andmemudeli nimi peab olema **CustomersInvoicing**. Teavet ER-i andmemudelite kujundamise kohta leiate teemast [Elektroonilise aruandluse domeenispetsiifilise andmemudeli kujundamine](tasks/er-design-domain-specific-data-model-2016-11.md).
 
 ### <a name="configure-the-er-model-mapping"></a>Elektroonilise aruandluse mudelivastenduse konfigureerimine
 Teie rakenduses peab olema andmemudeli CustomersInvoicing jaoks ER-i mudelivastendus. Mudelivastendus võib olla kas ER-i andmemudeli konfiguratsioonis või ER-i mudelivastenduse konfiguratsioonis. Mudelivastenduse juurdeskriptori nimi peab aga olema **FreeTextInvoice**.
@@ -62,7 +62,7 @@ Vastendamine peab sisaldama järgmisi andmeallikaid.
 
 Rakenduse ER-i raamistikuga integreerimise üksikasjad leiate rakenduse lähtekoodi klassis **ERPrintMgmtReportFormatSubscriber** (ER-i rakenduste komplekti integreerimismudel).
 
-Lisateavet ER-i mudelivastenduse kujunduse kohta leiate teemast [Elektroonilise aruandluse (ER) mudelivastenduse määratlemine ja andmeallikate valimine](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
+Lisateavet ER-i mudelivastenduste kujunduse kohta leiate teemast [Elektroonilise aruandluse mudelivastenduste määratlemine ja andmeallikate valimine](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
 
 ### <a name="configure-the-er-format"></a>ER-i vormingu konfigureerimine
 Teie rakenduse eksemplaris peab olema FTI-vormide loomiseks kasutatav ER-i vormingu konfiguratsioon. 
@@ -70,7 +70,7 @@ Teie rakenduse eksemplaris peab olema FTI-vormide loomiseks kasutatav ER-i vormi
 > [!NOTE]
 > See vormingu konfiguratsioon tuleb luua andmemudeli CustomersInvoicing jaoks ja see vorming peab kasutama mudelivastendust, millel on juurdeskriptor **FreeTextInvoice**.
 
-Teavet ER-i vormingute konfigureerimise kohta leiate teemast [Elektroonilise aruandluse (ER) vormingukonfiguratsiooni loomine](tasks/er-format-configuration-2016-11.md). Teavet OpenXML-i vormingus aruannete loomiseks ER-i vormingute kujundamise kohta leiate teemast [Elektroonilise aruandluse (ER) konfiguratsiooni loomine OpenXML-i vormingus aruannete genereerimiseks](tasks/er-design-reports-openxml-2016-11.md).
+Teavet ER-vormingute konfigureerimise kohta leiate teemast [Elektrooniline aruandlus. Vormingu konfiguratsiooni loomine (november 2016)](tasks/er-format-configuration-2016-11.md). Teavet OpenXML-i vormingus aruannete loomiseks ER-vormingute kujundamise kohta leiate teemast [Elektrooniline aruandlus. OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine (november 2016)](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="configure-print-management"></a>Prindihalduse konfigureerimine
 ER-raamistiku kaudu FTI-vormingute loomiseks saate määrata ER-i vorminguid samamoodi, nagu määrate SSRS-aruandeid. Selleks, et seostada ER-i vorming kõikide müügireskontro FTI-dega, valige **Müügireskontro** \> **Seadistus** \> **Vormid** \> **Vormi seadistus** \> **Üldine** \> **Prindihaldus** \> **Vabas vormis arve** \> **Originaal**. ER-i vormingu seostamiseks kindla kliendi või arvega järgige järgmisi juhiseid.
@@ -94,7 +94,7 @@ FTI-vormide loomiseks saate valida arveid kas vahemiku järgi või valiku alusel
 
 ![Arve eelvaade](media/FTIbyGER-InvoiceExcelPreview.png)
 
-Kui kasutate ER-i vorminguid, et sellel teel FTI-vorme printida, siis kasutatakse ER-i failide vaikesihtkohti. Seda sihtkohta ei saa muuta. Lisateavet ER-i vormingute sihtkohtade konfigureerimise kohta leiate teemast [Elektroonilise aruandluse sihtkohad](electronic-reporting-destinations.md).
+Kui kasutate ER-i vorminguid, et sellel teel FTI-vorme printida, siis kasutatakse ER-i failide vaikesihtkohti. Seda sihtkohta ei saa muuta. Lisateavet ER-vormingute sihtkohtade konfigureerimise kohta leiate teemast [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md).
 
 FTI postitamisel saate ka luua FTI-vorme, kui lülitate sisse suvandi **Prindi arve** ja välja suvandi **Kasuta prindihalduse sihtkohti**.
 
@@ -221,7 +221,7 @@ ER-i näidisvormingu ER-avaldis **Emailing.TxtToUse.Body** on konfigureeritud ko
 - „%5” asendatakse ettevõtte kontaktisiku ametinimetusega.
 - „%6” asendatakse ettevõtte kontaktisiku meiliaadressiga.
 
-![Meil](media/FTIbyGER-Email.PNG)
+![Meilisõnum](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Lisaressursid
-[Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
+[Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)

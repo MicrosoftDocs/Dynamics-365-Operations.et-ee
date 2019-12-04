@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 76564c440d52f7eae4faa704cf9010c7754c3751
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 4e466e6b1bbec0915b6fdb9b86d3b5cbb45364ad
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536866"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771606"
 ---
 # <a name="analytical-workspaces"></a>Analüütikatööruumid
 [!include[banner](../includes/banner.md)]
@@ -34,15 +34,15 @@ ms.locfileid: "2536866"
 - [Kuluhalduse Power BI sisu](cost-management-content-pack.md)
 - [Krediidi ja võlanõuete halduse Power BI sisu](../../../finance/accounts-receivable/credit-collections-power-bi.md)
 - [Töötajate arengu Power BI sisu](employee-development-PBI.md) 
-- [Finantsülevaadete Power BI sisu](financial-insights.md)
-- [Finantstulemuste Power BI sisu](financial-performance-power-bi-content-pack.md)
-- [Põhivara halduse Power BI sisu](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
+- [Finantsülevaated](financial-insights.md)
+- [Finantstulemuste PowerBI.com’i lahendus](financial-performance-power-bi-content-pack.md)
+- [Põhivara halduse tööruum](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
 - [Õppimise Power BI sisu](learning-power-bi.md)
 - [Harjutushalduri Power BI sisu](practice-manager-power-bi.md)
 - [Tootmisjõudluse Power BI sisu](production-performance-power-bi.md)
 - [Ostukulutuste analüüsi Power BI sisu](purchase-content-pack-for-power-bi.md) 
 - [Värbamise Power BI sisu](recruiting-analysis-power-bi-content-pack.md) 
 - [Müügi ja tulususe jõudluse Power BI sisu](sales-profitability-performance-content-pack.md)
-- [Hankija maksete Power BI sisu](../../../finance/accounts-payable/Vendor-payments-workspace.md)
+- [Hankija maksete tööruum](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Laojõudluse Power BI sisu](warehouse-power-bi-content.md)
 - [Tööjõu mõõdikute Power BI sisu](workforce-analysis-power-bi-content-pack.md)

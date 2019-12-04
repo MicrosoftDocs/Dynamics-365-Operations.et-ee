@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 5dad101ffe56c9266c0d81ede8be1f72b684a8fb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553087"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771417"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER-mallide varukoopia salvestamine
 
 [!include [banner](../includes/banner.md)]
 
-[Elektroonilise aruandluse (ER) raamistik](general-electronic-reporting.md) võimaldab ärikasutajatel konfigureerida väljuvate dokumentide vorminguid erinevate riikide ja regioonide õigusnõuete järgi. Konfigureeritud ER-vormingud saavad kasutada eelmääratletud malle, et luua väljaminevaid dokumente erinevates vormingutes, näiteks Microsoft Exceli töövihikud, Microsoft Wordi dokumendid või PDF-dokumendid. Mallid on täidetud andmetega, mida genereeritud dokumentide konfigureeritud andmevoog nõuab.
+[Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md) võimaldab ärikasutajatel konfigureerida väljuvate dokumentide vorminguid erinevate riikide ja regioonide õigusnõuete järgi. Konfigureeritud ER-vormingud saavad kasutada eelmääratletud malle, et luua väljaminevaid dokumente erinevates vormingutes, näiteks Microsoft Exceli töövihikud, Microsoft Wordi dokumendid või PDF-dokumendid. Mallid on täidetud andmetega, mida genereeritud dokumentide konfigureeritud andmevoog nõuab.
 
 Kõiki vorminguid saab avaldada ER-lahenduse osana. Iga ER lahendust saab eksportida ühest Finance and Operations eksemplarist ning importida teise eksemplari.
 
-ER raamistik kasutab [Dokumendihalduse raamistikku](../../fin-ops/organization-administration/configure-document-management.md), et säilitada praeguse Finance and Operations eksemplari jaoks nõutavad mallid. Sõltuvalt ER-raamistiku sätetest saab valida Microsoft Azure Bloobi salvestamise või Microsoft SharePoint kausta, mis on mallide füüsilise esmase salvestamise vaikeasukoht. (Lisateabe saamiseks vt teemat [ER-raamistiku konfigureerimine](electronic-reporting-er-configure-parameters.md).) DocuValue tabel sisaldab iga malli kohta eraldi kirjet. Igas kirjes talletab väli **AccessInformation** konfigureeritud salvestuskohas asuva mallifaili tee.
+ER raamistik kasutab [Dokumendihalduse konfigureerimist](../../fin-ops/organization-administration/configure-document-management.md), et säilitada praeguse Finance and Operations eksemplari jaoks nõutavad mallid. Sõltuvalt ER-raamistiku sätetest saab valida Microsoft Azure Bloobi salvestamise või Microsoft SharePoint kausta, mis on mallide füüsilise esmase salvestamise vaikeasukoht. (Lisateabe saamiseks vt teemat [Elektroonilise aruandluse (ER) raamistiku konfigureerimine](electronic-reporting-er-configure-parameters.md).) DocuValue tabel sisaldab iga malli kohta eraldi kirjet. Igas kirjes talletab väli **AccessInformation** konfigureeritud salvestuskohas asuva mallifaili tee.
 
 Kui haldate oma Finance and Operations eksemplare, võite valida praeguse eksemplari siirdamise teise asukohta. Näiteks võite oma tootmiseksemplari migreerida uude liivakastikeskkonda. Kui konfigureerisite ER-raamistiku talletama malle Bloobi salvestamises, viitab DocuValue tabel uues liivakastikeskkonnas Bloobi salvestamise eksemplarile tootmiskeskkonnas. Sellele eksemplarile ei pääse aga juurde liivakastikeskkonnast, sest migreerimisprotsess ei toeta artefaktide migreerimist Bloobi salvestamises. Seetõttu, kui proovite käitada ER-vormingut, mis kasutab malli äridokumentide loomiseks, ilmneb erand ja teid teavitatakse puuduvast mallist. Juhendate ka ER-puhastustööriista kasutamist malli sisaldava ER-vormingu konfiguratsiooni kustutamiseks ja uuesti importimiseks. Kuna teil võib olla mitu ER-vormingu konfiguratsiooni, võib see protsess olla aeganõudev.
 
@@ -94,6 +94,6 @@ Finance and Operations versioonis 10.0.5 on ER-mallide varundusmälu funktsioon 
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
+[Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)
 
-[Elektroonilise aruandluse raamistiku konfigureerimine](electronic-reporting-er-configure-parameters.md)
+[Elektroonilise aruandluse (ER) raamistiku konfigureerimine](electronic-reporting-er-configure-parameters.md)

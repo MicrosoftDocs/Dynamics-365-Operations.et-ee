@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c8475e26d9a2234d4c429ef1b5e482ac06fde08
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182895"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772554"
 ---
 # <a name="document-printing-overview"></a>Dokumentide printimise ülevaade
 
@@ -58,7 +58,7 @@ Kuna lahendused on erinevad olenevalt stsenaariumist, pakuvad rakendused sisseeh
 Lisaks platvormile, mida juurutatakse Azure’i tellimusse, pakuvad Finance and Operationsi rakendused klientidele integreeritud, esimese osapoole Azure’i rakendust, mis aitab neil printimiseks hõlpsamalt kasutada domeenis hostitud seadmeid.
 
 ## <a name="service-overview"></a>Hoolduse ülevaade
-Ajal, mil hostitud rakenduste loodud dokmendid ootavad printimist võrku ühendatud seadmes, talletatakse neid Azure’i bloobimälus. [Dokumendi marsruudivaliku agent](install-document-routing-agent.md) kasutab Azure’i autentimist, et luua turvaline kanal Azure’i teenustega.
+Ajal, mil hostitud rakenduste loodud dokmendid ootavad printimist võrku ühendatud seadmes, talletatakse neid Azure’i bloobimälus. [Dokumendi marsruudivaliku agendi installimine võrguprintimise lubamiseks](install-document-routing-agent.md) kasutab Azure’i autentimist, et luua turvaline kanal Azure’i teenustega.
 
 **Käivitamisjärjekord**
 

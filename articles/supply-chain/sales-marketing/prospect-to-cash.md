@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fb5abb983811ce736e3494bc85e8d9b23a2e373c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251349"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814071"
 ---
 # <a name="prospect-to-cash"></a>Potentsiaalne klient sularahaks
 
@@ -36,12 +36,12 @@ Lisateabe saamiseks lahenduse Potentsiaalne klient sularahaks kohta vaadake YouT
 
 Lahenduse Potentsiaalne klient sularahaks praegune versioon pakub vahetu sünkroonimise järgmisi tüüpe.
 
-- [Kontode haldamine rakenduses Sales ja nende sünkroonimine rakendusest Sales rakendusega Supply Chain Management.](accounts-template-mapping-direct.md)
-- [Toodete haldamine rakenduses Supply Chain Management ja nende sünkroonimine otse rakendusega Sales](products-template-mapping-direct.md)
-- [Kontaktide haldamine rakenduses Sales ja nende vahetu sünkroonimine rakenduse Supply Chain Managements kontaktide või klientidega](contacts-template-mapping-direct.md)
-- [Pakkumiste vahetu sünkroonimine rakendusest Sales Supply Chain Managementiga](sales-quotation-template-mapping-sales-fin.md)
-- [Müügitellimuste vahetu sünkroonimine Sales ja Supply Chain Managementi vahel](sales-order-template-mapping-direct-two-ways.md)
-- [Müügiarve vahetu sünkroonimine rakendusest Supply Chain Management rakendusega Sales](sales-invoice-template-mapping-direct.md)
+- [Rakenduse Sales kontode sünkroonimine otse rakenduse Supply Chain Management klientidega](accounts-template-mapping-direct.md)
+- [Rakenduse Supply Chain Management toodete sünkroonimine otse rakenduse Sales toodetega](products-template-mapping-direct.md)
+- [Rakenduse Sales kontaktide sünkroonimine otse rakenduse Supply Chain Management kontaktide või klientidega](contacts-template-mapping-direct.md)
+- [Rakenduse Supply Chain Management müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales](sales-quotation-template-mapping-sales-fin.md)
+- [Müügitellimuste vahetu sünkroonimine rakenduse Sales ja rakenduse Supply Chain Management vahel](sales-order-template-mapping-direct-two-ways.md)
+- [Rakenduse Supply Chain Management arve päiste ja ridade sünkroonimine otse rakendusega Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-supply-chain-management"></a>Süsteemi nõuded rakendusele Supply Chain Management
 Lahendust Potentsiaalne klient sularahaks toetatakse järgmistel versioonidel.

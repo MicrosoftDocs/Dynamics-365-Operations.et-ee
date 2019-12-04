@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4e47aea3a9d1ce62a85aac9a4acce398b5847f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191404"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811966"
 ---
 # <a name="optimization-advisor-overview"></a>Nõustaja ülevaate optimeerimine
 
@@ -38,7 +38,7 @@ Mooduli vale konfiguratsioon ja seadistus võivad ebasoodsalt mõjutada rakendus
 
 Tööruum **Optimeerimise nõustaja** on vahend, mis aitab lauskasutajatel, analüütikutel, funktsionaalsetel konsultantidel ja IT-toe funktsioonidel tuvastada probleeme mooduli konfiguratisoonis ja äriandmetes. Optimeerimise nõustaja soovitab mooduli konfiguratsiooni häid tavasid ja tuvastab aegunud või valed äriandmed.
 
-Optimeerimise nõustaja käitab korrapäraselt hea tava reeglite kogumi. Reeglite vaikekogum on saadaval, kuid kasutajad saavad luua ka nende kohandustele, sõltumatute tarkvaramüüjate (ISVs) lahendustele ja äriandmetele omaseid reegleid. Lisateavet reeglite loomise kohta vt jaotisest [Uute reeglite loomine](./create-rules-optimization-advisor.md).
+Optimeerimise nõustaja käitab korrapäraselt hea tava reeglite kogumi. Reeglite vaikekogum on saadaval, kuid kasutajad saavad luua ka nende kohandustele, sõltumatute tarkvaramüüjate (ISVs) lahendustele ja äriandmetele omaseid reegleid. Lisateavet reeglite loomise kohta vt jaotisest [Optimeerimisnõustaja reeglite loomine](./create-rules-optimization-advisor.md).
 
 Kui tuvastatakse reegli rikkumine, luuakse optimeerimisvõimalus, mis ilmub tööruumis **Optimeerimise nõustaja**. Kasutaja saab kasutusele võtta sobiva parandustoimingu otse tööruumis **Optimeerimise nõustaja**.
 
@@ -92,6 +92,6 @@ Konkreetsete reeglite hindamise inaktiveerimiseks valige võimalus, mis reegliga
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Uute reeglite loomine](./create-rules-optimization-advisor.md)
+[Optimeerimisnõustaja reeglite loomine](./create-rules-optimization-advisor.md)
 
 [Optimeerimise nõustaja rakenduses Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

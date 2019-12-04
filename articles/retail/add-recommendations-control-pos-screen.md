@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e6f0b75c8d81a5ac6ec90020375aec39120d4406
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278125"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811212"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Soovituste juhtelemendi lisamine kassaseadmete kandekuvale
 
 [!include [banner](includes/banner.md)]
 
 
-See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 Retaili ekraanipaigutuse kujundajat. Lisateavet tootesoovituste kohta lugege teemast [tootesoovitused kassa dokumentatsiooni kohta.](product.md)
+See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 Retaili ekraanipaigutuse kujundajat. Lisateavet tootesoovituste kohta lugege teemast [Tootesoovitused kassa dokumentatsioonis](product.md).
 
 
 Saate Microsoft Dynamics 365 Retaili kasutamisel kuvada kassaseadmes tootesoovitusi. Tootesoovituste kuvamiseks peate lisama kannetekuvale juhtelemendi, kasutades kuvapaigutuse kujundajat. 
@@ -98,6 +98,6 @@ Saadaval on kaks konfigureerimisvalikut. Tehke oma poe jaoks sobivam valik ja j�
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Tootesoovitused kassa kohta](product.md)
+[Tootesoovitused kassas](product.md)
 
-[ülevaade tootesoovitustest](../commerce/product-recommendations.md)
+[Tootesoovituste ülevaade](../commerce/product-recommendations.md)

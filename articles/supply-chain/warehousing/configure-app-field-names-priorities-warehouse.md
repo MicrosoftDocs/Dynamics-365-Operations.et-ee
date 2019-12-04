@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 11f6c96cc07c63d2c0c6a94385916b3396a77ed5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251081"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814969"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Rakenduse väljanimede konfigureerimine rakenduses Ladustamine
 
@@ -32,7 +32,8 @@ ms.locfileid: "2251081"
 
 See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Dynamics 365 Supply Chain Managementis. 
 
-**Märkus.** See teema kehtib mooduli Laohaldus funktsioonide puhul. See ei kehti funktsioonidele moodulis Varude haldus. Ladustamine on rakendus, mille abil saate täita laos vajalikke ülesandeid. Saate määratleda ja konfigureerida rakenduses kasutatavaid väljanimetusi, samuti konfigureerida prioriteeti, millele väljanimed tuleb määrata. See teema selgitab, kuidas neid ladustamisrakenduse väljade nimesid ja prioriteete määratleda ning konfigureerida ja kuidas neid moodulis Ladustamine kasutada. Üksikasjalikku teavet mooduli Ladustamine ühenduse konfigureerimise kohta vaadake õppetükist [mooduli Ladustamine installimine ja konfigureerimine](install-configure-warehousing-app.md).
+> [!NOTE]
+> See teema kehtib laohalduse funktsioonidele. See ei kehti funktsioonidele moodulis Varude haldus. Ladustamine on rakendus, mille abil saate täita laos vajalikke ülesandeid. Saate määratleda ja konfigureerida rakenduses kasutatavaid väljanimetusi, samuti konfigureerida prioriteeti, millele väljanimed tuleb määrata. See teema selgitab, kuidas neid ladustamisrakenduse väljade nimesid ja prioriteete määratleda ning konfigureerida ja kuidas neid moodulis Ladustamine kasutada. Üksikasjalikku teavet selle kohta, kuidas konfigureerida lao ühendamist, leiate juhendist [Laorakenduse installimise ja konfigureerimise ülevaade](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Laorakenduse väljade nimede konfigureerimine
 
@@ -142,4 +143,4 @@ Näiteks kui laotöötaja täidab ülesannet mobiilses seadmes, sisaldavad raken
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Rakenduse Microsoft Dynamics 365 for Finance and Operations mooduli Ladustamine installimine ja konfigureerimine](install-configure-warehousing-app.md)
+[Ladustamisrakenduse installimise ja konfigureerimise ülevaade](install-configure-warehousing-app.md)

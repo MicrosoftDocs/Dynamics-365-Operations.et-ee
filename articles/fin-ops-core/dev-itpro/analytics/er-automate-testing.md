@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6da9447386e8e56e20507d985ebcdbfce934debd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181607"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771440"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testimise automatiseerimine elektroonilise aruandluse abil
 
@@ -44,8 +44,8 @@ Lisateavet konfiguratsiooni pakkujalt saadud vormingul põhineva kohandatud vorm
 Funktsionaalsed lauskasutajad saavad algatada kasutajate aktsepteerimise ja integreerimise testimist ilma, et peaksid lähtekoodi kirjutama.
 
 - Kasutage ER-alusfunktsiooni loodud dokumentide ja põhieksemplaride võrdlemiseks. Lisainfo saamiseks vt [oodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega](er-trace-reports-compare-baseline.md).
-- Kasutage tegevuse salvestajat testjuhtumite kirjendamiseks ja kaasake lähteolukorra hinnang. Lisainfo saamiseks vt [Tegevuse salvestaja](../user-interface/task-recorder.md).
-- Grupeerige testjuhtumid vajalike teststsenaariumite jaoks. Lisainfo saamiseks vt [Kasutaja vastuvõtu testimise teekide loomine, kasutades tegevuse salvestisi ja BPM-i](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
+- Kasutage tegevuse salvestajat testjuhtumite kirjendamiseks ja kaasake lähteolukorra hinnang. Lisateavet vt [Tegevuse salvestaja ressursid](../user-interface/task-recorder.md).
+- Grupeerige testjuhtumid vajalike teststsenaariumite jaoks. Lisateavet vt [Kasutaja vastuvõtu testide loomine ja automatiseerimine](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
 
     - Kasutage LCS-s äriprotsesside modelleerijat (BPM) kasutaja vastuvõtu testimise teekide tegemiseks.
     - Kasutage BPM-i testimise teeke katseplaani ja testkomplektide loomiseks lahenduses Microsoft Azure DevOps Services (Azure DevOps).
@@ -59,10 +59,10 @@ Funktsionaalsed lauskasutajad saavad teostada kasutajate vastuvõtu ja integreer
 
 Enne selles teemas kirjeldatud ülesannete lõpetamist peate täitma järgmised eeltingimused.
 
-- Rakendage topoloogiat, mis toetab testimise automatiseerimist. **Süsteemi administraatori** rolli jaoks peab teil olema juurdepääs selle topoloogia eksemplarile. See topoloogia peab sisaldama demo andmeid, mida selles näites kasutatakse. Lisainfo saamiseks vt [Pideva järgu ja testimise automaatikat toetavate topoloogiate juurutamine](../perf-test/continuous-build-test-automation.md).
+- Rakendage topoloogiat, mis toetab testimise automatiseerimist. **Süsteemi administraatori** rolli jaoks peab teil olema juurdepääs selle topoloogia eksemplarile. See topoloogia peab sisaldama demo andmeid, mida selles näites kasutatakse. Lisateavet vt [Pideva koostamise ja testimise automaatikat toetavate keskkondade juurutamine ja kasutamine](../perf-test/continuous-build-test-automation.md).
 - Kasutaja vastuvõtu ja integreerimise testide automaatseks teostamiseks peate paigaldama RSATi topoloogiasse, mida kasutate, ja selle sobivalt konfigureerima. Lisainfot RSATi installimise ja konfigureerimise ning Finance and Operations rakenduste ja Azure DevOps'iga toimimise konfigureerimise kohta vt [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Pöörake tähelepanu tööriista kasutamise eeltingimustele. Järgmisel joonisel on näide RSATi seadistuste kohta. Sinine ristkülik ümbritseb parameetrid, mis määravad juurdepääsu Azure DevOps-ile. Roheline ristkülik ümbritseb parameetrid, mis määravad juurdepääsu eksemplarile.
 
-    ![RSATi sätted](media/GER-Configure.png "RSATi sätete dialoogiboksi kuvatõmmis")
+    ![RSAT sätted](media/GER-Configure.png "RSAT-i sätete dialoogiboksi kuvatõmmis")
 
 - Testjuhtumite õige käivitusjärjestuse tagamiseks komplektidesse sorteerimiseks, et saaksite koguda testkäivituste logisid edasiseks aruandluseks ja uurimiseks, peab teil olema rakendatud topoloogiast juurdepääs Azure DevOps-ile.
 - Selle teema näite lõpetuseks soovitame teil alla laadida [ER-i kasutamine RSAT-testideks](https://go.microsoft.com/fwlink/?linkid=874684). See zip-fail sisaldab järgmisi tegevusjuhiseid.
@@ -116,7 +116,7 @@ Enne selles teemas kirjeldatud ülesannete lõpetamist peate täitma järgmised 
         | Vastaskonto      | GBSI OPER       |
         | Makseviis   | Elektrooniline      |
 
-    ![Hankija maksete lehet](media/GER-APJournalLines.png "Hankija maksete lehe kuvatõmmis")
+    ![Hankija maksete leht](media/GER-APJournalLines.png "Hankija maksete lehe kuvatõmmis")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>Valmistage ER-raamistik hankija maksete töötlemise testimiseks ette
 
@@ -262,11 +262,11 @@ Selle tegevuse salvestamine sooritab järgmised tegevused.
 
     Elektroonilise aruandluse silumislogis kuvatakse võrdlustulemusi väljal **Loodud tekst**. Väljad **Vormingu komponent** ja **Logikande põhjustanud vormingutee** viitavad faili komponendile, millele loodud väljundit on võrreldud algväärtusega.
 
-    ![Elektroonilise aruandluse käitamise logide lehte kirjed](media/GER-ERDebugLog.png "Elektroonilise aruandluse käitamise logide lehe kirjete kuvatõmmis")
+    ![Elektroonilise aruandluse käitamise logide lehe kirjed](media/GER-ERDebugLog.png "Elektroonilise aruandluse käitamise logide lehe kirjete kuvatõmmis")
 
 4. Praeguse väljundi võrdlemine algväärtusega on kirjendatud kasutades tegevuse salvestaja suvandit **Kinnita** ja valides suvandi **Praegune väärtus**.
 
-    ![Kinnitamise suvandi kasutamine praeguse väärtusega võrdlemiseks](media/GER-TRRecordValidation.png "Ekraanitõmmis kinnitamise suvandi kasutamisest praeguse väärtusega võrdlemiseks")
+    ![Kinnitamise suvandi kasutamine praeguse väärtusega võrdlemiseks](media/GER-TRRecordValidation.png "Kuvatõmmis kinnitamise suvandi kasutamisest praeguse väärtusega võrdlemiseks")
 
     Järgmisel joonisel on näha, millised salvestatud kinnitamise etapid tegevuse salvestises välja näevad.
 
@@ -287,7 +287,7 @@ Selle tegevuse salvestamine sooritab järgmised tegevused.
     1. Pane testjuhtumi nimeks **Hankija maksete testtöötlemine kasutades ER-vormingut BACS (UK)**.
     2. Manustage fail **Recording.xml** kaustast **Töötlemine**, mille varem alla laadisite.
 
-    ![Uuet testjuhtumid valitud katseplaani jaoks](media/GER-RSAT-DevOps-Tests-Passed.png "Kuvatõmmis uutest testjuhtumitest valitud katseplaani jaoks")
+    ![Uued testjuhtumid valitud katseplaani jaoks](media/GER-RSAT-DevOps-Tests-Passed.png "Kuvatõmmis uutest testjuhtumitest valitud katseplaani jaoks")
 
 > [!NOTE]
 > Pöörake tähelepanu lisatud testide õigele käivitamisjärjekorrale.
@@ -306,7 +306,7 @@ Selle tegevuse salvestamine sooritab järgmised tegevused.
 1. Valige RSAT-is testid, mida soovite Azure DevOps-ist laadida.
 2. Valige RSAT-i automatiseerimise ja parameetrite failide loomiseks **Uus**.
 
-    ![RSATis loodud RSATi automatiseerimise ja parameetrite failid](media/GER-RSAT-RSAT-Tests-Initiated.png "Kuvatõmmis RSATis loodud RSATi automatiseerimise ja parameetrite failidest")
+    ![RSAT-is loodud RSAT-i automatiseerimise ja parameetrite failid](media/GER-RSAT-RSAT-Tests-Initiated.png "Kuvatõmmis RSAT-is loodud RSAT-i automatiseerimise ja parameetrite failidest")
 
 ### <a name="modify-the-parameters-files"></a>Parameetrite failide muutmine
 
@@ -333,11 +333,11 @@ Pange tähele, et testjutumid käivitatakse rakenduses automaatselt veebibrauser
 
 Testitulemused salvestatakse RSATis. Pange tähele, et mõlemad testid on läbitud.
 
-![Testid, mis RSATi läbisid](media/GER-RSAT-RSAT-Tests-Passed.png "Kuvatõmmis RSATi läbinud testidest")
+![RSAT-i läbinud testid](media/GER-RSAT-RSAT-Tests-Passed.png "Kuvatõmmis RSAT-i läbinud testidest")
 
 Pange tähele, et testitulemused saadetakse ka rakendusse Azure DevOps et saaksite teha edasisi analüüse.
 
-![Testitulemused rakenduses Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Kuvatõmmis tesitutlemustest rakenduses Azure DevOps")
+![Testitulemused rakenduses Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Kuvatõmmis testitulemustest rakenduses Azure DevOps")
 
 ### <a name="simulate-a-situation-where-tests-fail"></a>Testide ebaõnnestumise simuleerimine
 
@@ -360,7 +360,7 @@ Pange tähele, et testjutumid käivitatakse rakenduses automaatselt veebibrauser
 
 Testitulemused salvestatakse RSATis. Pange tähele, et teine katse nurjus teise käivitamise ajal.
 
-![Nurjunud testi tulemused RSATis](media/GER-RSAT-RSAT-Tests-Failed.png "Kuvatõmmis nurjunud testi tulemustest RSATis")
+![Nurjunud testi tulemused RSAT-is](media/GER-RSAT-RSAT-Tests-Failed.png "Kuvatõmmis nurjunud testi tulemustest RSAT-is")
 
 Pange tähele, et testitulemused saadetakse ka rakendusse Azure DevOps et saaksite teha edasisi analüüse.
 
@@ -368,16 +368,16 @@ Pange tähele, et testitulemused saadetakse ka rakendusse Azure DevOps et saaksi
 
 Saade juurdepääsu iga testi olekule. Saate juurdepääsu ka käivitamise logile, et saaksite analüüsida mistahes nurjumise põhjuseid. Järgmisel joonisel näitab käivitamis elogi, et tõrge tekkis seetõttu, et loodud makse faili ja selle algväärtuse sisu oli erinev.
 
-![Käivituse logi rakenduses Azure DevOps nurjumise analüüsimiseks](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Kuvatõmmis käivituse logist rakenduses Azure DevOps nurjumise analüüsimiseks")
+![Käivitumise logi rakenduses Azure DevOps nurjumise analüüsimiseks](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Kuvatõmmis käivituse logist rakenduses Azure DevOps nurjumise analüüsimiseks")
 
 Seetõttu, nagu olete näinud, saab mis tahes ER-vormingu toimimist hinnata automaatselt, kasutades RSAT testimise platvormina ja kasutades tegevuse salvestajal põhinevaid testjuhtumeid, mis kasutavad ER-i algväärtuse funktsiooni.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Ülesande salvestaja](../user-interface/task-recorder.md)
+- [Tegevuse salvestaja ressursid](../user-interface/task-recorder.md)
 - [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)
-- [Kasutaja vastuvõtu testimise teekide loomine, kasutades tegevuse salvestisi ja BPM-i](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
-- [Pideva järgu ja testimise automaatikat toetavate topoloogiate juurutamine](../perf-test/continuous-build-test-automation.md)
-- [Loodud aruandetulemite jälgimine ja nende võrdlemine ER-i alusväärtustega](er-trace-reports-compare-baseline.md)
-- [Elektroonilise aruandluse vormingu täiendamine uue alusversiooni kasutuselevõtuga](tasks/er-upgrade-format.md)
-- [ER-i konfiguratsiooni importimine teenusest Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+- [Kasutaja vastuvõtu testide loomine ja automatiseerimine](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
+- [Pideva koostamise ja testimise automaatikat toetavate keskkondade juurutamine ja kasutamine](../perf-test/continuous-build-test-automation.md)
+- [Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega](er-trace-reports-compare-baseline.md)
+- [Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga](tasks/er-upgrade-format.md)
+- [Elektroonilise aruande konfiguratsiooni importimine teenusest Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
