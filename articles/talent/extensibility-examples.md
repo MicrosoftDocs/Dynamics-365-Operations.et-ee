@@ -1,6 +1,6 @@
 ---
-title: Talenti laiendamine rakendustega PowerApps ja Microsoft Flow – näidisstsenaariumid
-description: Selles teemas kirjeldatakse laiendatavuse stsenaariume rakenduses Microsoft Dynamics 365 Talent, mis kasutab Microsoft PowerAppsi ja Microsoft Flow’d.
+title: Talenti laiendamine Power Appsi ja Power Automate’iga
+description: Selles teemas kirjeldatakse laiendatavuse stsenaariume rakenduses Microsoft Dynamics 365 Talent, mis kasutab Microsoft Power Appsi ja Microsoft Power Automate’i.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008055"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832834"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Talenti laiendamine rakendustega PowerApps ja Microsoft Flow – näidisstsenaariumid
+# <a name="extend-talent-with-power-apps-and-power-automate"></a>Talenti laiendamine Power Appsi ja Power Automate’iga
 
-Selles teemas kirjeldatakse laiendatavuse stsenaariume rakenduses Microsoft Dynamics 365 Talent, mis kasutab Microsoft PowerAppsi ja Microsoft Flow’d. Saate rakenduse PowerApps keskkonda importida iga näitega seotud lahendusepaketi. Seejärel saate pakette kasutada juhisena või lähtekohana teie organisatsioonile sobivate stsenaariumide rakendamiseks.
+[!include [banner](includes/banner.md)]
+
+Selles teemas kirjeldatakse laiendatavuse stsenaariume rakenduses Microsoft Dynamics 365 Talent, mis kasutab Microsoft Power Appsi ja Microsoft Power Automate’i. Saate rakenduse Power Apps keskkonda importida iga näitega seotud lahendusepaketi. Seejärel saate pakette kasutada juhisena või lähtekohana teie organisatsioonile sobivate stsenaariumide rakendamiseks.
 
 > [!IMPORTANT]
 > Kui soovite kasutada selles teemas kirjeldatud malle ja rakendust muutmata kujul, katsetage neid kindlasti veendumaks, et need hõlmavad kõiki teie juurutusele kehtivaid stsenaariume.
@@ -36,11 +38,11 @@ Selles teemas kirjeldatakse laiendatavuse stsenaariume rakenduses Microsoft Dyna
 ## <a name="prerequisites"></a>Eeltingimused
 
 - Pakettide importimiseks peab kasutajatel olema **keskkonna looja** luba.
-- Rakenduste eksportimiseks või importimiseks peab kasutajatel olema PowerAppsi plaani 2 litsents või PowerAppsi plaani 2 proovilitsents.
+- Rakenduste eksportimiseks või importimiseks peab kasutajatel olema Power Appsi plaani 2 litsents või Power Appsi plaani 2 proovilitsents.
 
-## <a name="flow--form-connect"></a>Flow ja Formi ühendamine
+## <a name="power-automate--form-connect"></a>Power Automate’i ja Formi ühendamine
 
-Malli **Flow ja Formi ühendamine** saab kasutada andmete lugemiseks Microsoft Formsist ja nende salvestamiseks teenuse Common Data Service üksusesse.
+Malli **Power Automate’i ja Formi ühendamine** saab kasutada andmete lugemiseks Microsoft Formsist ja nende salvestamiseks teenuse Common Data Service üksusesse.
 
 Seda malli saab laiendada, et seda saaks kasutada ka teistes stsenaariumites. Järgmisena on toodud mõned näited.
 
@@ -51,19 +53,19 @@ Seda malli saab laiendada, et seda saaks kasutada ka teistes stsenaariumites. J�
 
 Microsoft Dynamics 365: Attractis saab vorme kuvada kandidaadi portaalis ja kandidaadid saavad täita üksikasju. Vorme saab ka tegevustena töömalli manustada.
 
-Kui kandidaat vormi esitab, jäädvustab Microsoft Flow vormi esitamise, loeb andmeid ja salvestab need teenuse Common Data Service üksusesse.
+Kui kandidaat vormi esitab, jäädvustab Microsoft Power Automate vormi esitamise, loeb andmeid ja salvestab need teenuse Common Data Service üksusesse.
 
-Malli **Flow ja Formi ühendamine** ja kohandatud üksuse struktuuri alla laadimiseks minge Microsofti allalaadimiskeskuses lehele [Flow ja Formi ühendamine](https://go.microsoft.com/fwlink/?linkid=2081988).
+Malli **Power Automate’i ja Formi ühendamine** ja kohandatud üksuse struktuuri alla laadimiseks avage Microsofti allalaadimiskeskuses [Power Automate’i ja Formi ühendamine](https://go.microsoft.com/fwlink/?linkid=2081988).
 
-## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>Powerappsi edastatud parameetrite käivitamine ja ekstraktimine
+## <a name="initiate-and-extract-parameters-passed-to-power-apps"></a>Power Appsi edastatud parameetrite käivitamine ja ekstraktimine
 
-Malli **Powerappsi edastatud parameetrite käivitamine ja ekstraktimine** saab kasutada lähtekohana mis tahes rakenduse PowerApps stsenaariumi jaoks, mis on omane Attractile. See sisaldab kõiki vaikeparameetreid, mille Attract edastab, nt **Tööavaldus**, **Kandidaadi ID** ja **Töö ID**.
+Malli **Power Appsi edastatud parameetrite käivitamine ja ekstraktimine** saab kasutada lähtekohana mis tahes rakenduse Power Apps stsenaariumi jaoks, mis on omane Attractile. See sisaldab kõiki vaikeparameetreid, mille Attract edastab, nt **Tööavaldus**, **Kandidaadi ID** ja **Töö ID**.
 
 Seda malli saab kasutada kandidaadi hinnanguvormi leidmiseks, et personalijuht saaks kandidaadi täidetud hinnangut vaadata.
 
-PowerAppsiga loodud rakendusi saab manustada Attractis töömalli.
+Power Appsiga loodud rakendusi saab manustada Attractis töömalli.
 
-Malli **Powerappsi edastatud parameetrite käivitamine ja ekstraktimine** ja kohandatud üksuse struktuuri alla laadimiseks minge Microsofti allalaadimiskeskuses lehele [Powerappsi edastatud parameetrite käivitamine ja ekstraktimine](https://go.microsoft.com/fwlink/?linkid=2081991).
+Malli **Power Appsi edastatud parameetrite käivitamine ja ekstraktimine** ja kohandatud üksuse struktuuri allalaadimiseks avage Microsofti allalaadimiskeskuses [Power Appsi edastatud parameetrite käivitamine ja ekstraktimine](https://go.microsoft.com/fwlink/?linkid=2081991).
 
 ## <a name="integration-with-office-365"></a>Office 365-iga integreerimine
 
@@ -73,33 +75,33 @@ Seda rakendust saab laiendada, et seda saaks kasutada ka teistes stsenaariumites
 
 Rakenduse **Office 365-ga integreerimine** ja kohandatud üksuse struktuuri alla laadimiseks minge Microsofti allalaadimiskeskuses lehele [Office 365-ga integreerimine](https://go.microsoft.com/fwlink/?linkid=2081787).
 
-## <a name="flow--email-notification"></a>Flow – meiliteatis
+## <a name="power-automate--email-notification"></a>Power Automate – meiliteatis
 
-Malli **Flow – meiliteatis** saab kasutada meiliteatise stsenaariumide jaoks. Seda saab kasutada teavitusmeilide saatmiseks kandidaatidele, kelle värbamistöörühm värbamisprotsessi mis tahes etapis tagasi lükkab.
+Malli **Power Automate – meiliteatis** saab kasutada meiliteatise stsenaariumide jaoks. Seda saab kasutada teavitusmeilide saatmiseks kandidaatidele, kelle värbamistöörühm värbamisprotsessi mis tahes etapis tagasi lükkab.
 
 Seda malli saab laiendada, et see jälgiks muudatusi kandidaadi etapis kogu värbamisprotsessi jooksul ning saadaks teatisi värbamistöörühmale ja kandidaadile.
 
 Üldiselt saab lahenduses Common Data Service salvestatud üksuste jaoks voogusid seadistada nii, et need saadavad teatisi rakenduse Core HR, Attract või Onboard sündmuste kohta.
 
-Malli **Flow – meiliteatis** alla laadimiseks minge Microsofti allalaadimiskeskuses lehele [Flow – meiliteatis](https://go.microsoft.com/fwlink/?linkid=2082103).
+Malli **Power Automate – meiliteatis** allalaadimiseks avage Microsofti allalaadimiskeskuses [Power Automate – meiliteatis](https://go.microsoft.com/fwlink/?linkid=2082103).
 
-## <a name="flow--sql-connect-and-execute"></a>Flow – SQL-i ühendamine ja käivitamine
+## <a name="power-automate--sql-connect-and-execute"></a>Power Automate – SQL-i ühendamine ja käivitamine
 
-Mall **Flow – SQL-i ühendamine ja käivitamine** loob ühenduse Microsoft SQL Serveriga ja lubab käivitada SQL-i päringuid.
+Mall **Power Automate – SQL-i ühendamine ja käivitamine** loob ühenduse Microsoft SQL Serveriga ja lubab käivitada SQL-i päringuid.
 
 Kuigi see mall on mõeldud lugema ja värskendama SQL-i tabeleid, saab seda laiendada kasutamiseks teistes stsenaariumites. Näiteks saab seda kasutada vahetabeli täitmiseks teenuses Common Data Service kirjetega SQL Serverist ja vahetabeli aeg-ajalt sünkroonimiseks, kasutades SQL Serveri astmelist jaotust.
 
-Malli **Flow – SQL-i ühendamine ja käivitamine** alla laadimiseks minge Microsofti allalaadimiskeskuses lehele [Flow – SQL-i ühendamine ja käivitamine](https://go.microsoft.com/fwlink/?linkid=2081789).
+Malli **Power Automate – SQL-i ühendamine ja käivitamine** allalaadimiseks avage Microsofti allalaadimiskeskuses [Power Automate – SQL-i ühendamine ja käivitamine](https://go.microsoft.com/fwlink/?linkid=2081789).
 
-## <a name="flow--sharepoint-integration"></a>Flow – SharePointi integreerimine
+## <a name="power-automate--sharepoint-integration"></a>Power Automate – SharePointiga integreerimine
 
-Malli **Flow – SharePointi integreerimine** saab kasutada andmete lugemiseks Microsoft SharePointi loendist, loendi võrdlemiseks teenuse Common Data Service mis tahes üksuse väljaväärtustega ja võrdluse tulemuste saatmiseks teavitusmeilina. 
+Malli **Power Automate – SharePointiga integreerimine** saab kasutada andmete lugemiseks Microsoft SharePointi loendist, loendi võrdlemiseks olemi Common Data Service mis tahes üksuse väljaväärtustega ja võrdluse tulemuste saatmiseks teavitusmeilina. 
 
 Organisatsioonil võivad olla oskused, mida tal on tingimata vaja. Neid oskusi saab hoiustada SharePointis SharePointi loendina. Kui kandidaat kandideerib mis tahes tööle, mille kohta on olemas vajalike oskuste loend, ning kandidaadi oskuse ja SharePointi salvestatud oskuste vahel on oluline kokkulangevus, saadetakse selle kohta teavitusmeil. Nii täidetakse kiiresti vajaminevad ametikohad kiiremini, kuna teatised aitavad värbajatel jõuda kõigi organisatsiooni kandidaatideni ja neid värvata.
 
 Seda malli saab laiendada kasutamiseks mis tahes stsenaariumi jaoks, mis hõlmab SharePointi integratsiooni.
 
-Malli **Flow – SharePointi integratsioon** alla laadimiseks minge Microsofti allalaadimiskeskuses lehele [Flow – SharePointi integratsioon](https://go.microsoft.com/fwlink/?linkid=2082109).
+Malli **Power Automate – SharePointiga integreerimine** allalaadimiseks avage Microsofti allalaadimiskeskuses [Power Automate – SharePointiga integreerimine](https://go.microsoft.com/fwlink/?linkid=2082109).
 
 ## <a name="referral-app"></a>Soovitusrakendus
 Saate kasutada soovitusrakendust, et lisada kandidaate jagatud talendipanka. Soovitaja saab kandidaadi esitamisel sisestada **eesnime**, **perekonnanime**, **meliaadressi** ja **LinkedIni URLi**. Seejärel täidetakse kandidaatallika metaandmed koos soovitaja teabega.

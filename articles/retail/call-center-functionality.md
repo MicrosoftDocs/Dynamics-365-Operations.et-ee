@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 2e44770af4a30f539e56d38b21c897cacd2707e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025767"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812335"
 ---
 # <a name="call-center-sales-functionality"></a>Kõnekeskuse müügifunktsioonid
 
@@ -44,17 +44,17 @@ Sellelt leheküljelt leiate lingid asjakohasele Retaili kõnekeskuse seadistuse,
 
 ## <a name="configure-the-call-center"></a>Kõnekeskuse konfigureerimine
 
-[Tellimuse töötlemise suvandite seadistamine](set-up-order-processing-options.md)
+[Kõnekeskuse kanalite seadistamine](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Tellimuse töötlemise konfigureerimine
 
-[Pettuseteatiste seadistamine](set-up-fraud-alerts.md)
+[Kõnekeskuse pettuseteatiste seadistamine ja kasutamine](set-up-fraud-alerts.md)
 
-[Tellimuste ooteloleku haldamine](work-with-order-holds.md)
+[Kõnekeskuse tellimuse ootelolekute konfigureerimine ja nendega töötamine](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Makse töötlemise konfigureerimine
 
-[Makseviisid kõnekeskuses](work-with-payments.md)
+[Makseviisid kõnekeskustes](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Tarneviiside konfigureerimine
 
@@ -64,8 +64,8 @@ Sellelt leheküljelt leiate lingid asjakohasele Retaili kõnekeskuse seadistuse,
 
 [Kõnekeskuse kataloogid](call-center-catalogs.md)
 
-[RFM-analüüsi seadistamine](set-up-rfm-analysis.md)
+[Hiljutisuse, sageduse ja rahasumma (RFM) analüüsi seadistamine](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Järjepidevusprogrammide konfigureerimine
 
-[Kõnekeskuse järjepidevusprogrammi seadistamine](set-up-continuity-program.md)
+[Kõnekeskuste järjepidevusprogrammide seadistamine](set-up-continuity-program.md)

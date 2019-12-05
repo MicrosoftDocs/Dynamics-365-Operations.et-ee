@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7be41e724cb715e4b7c9077bb30d26b2bd4899dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5401f310138d19f78412dff318959414c31a191
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181906"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770019"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektroonilise aruandluse (ER) konfigureerimine andmete tõmbamiseks Power BI-sse
 
@@ -184,7 +184,7 @@ Klõpsake uue sihtkoha kirje jaoks nuppu **Sätted**. Seejärel järgige dialoog
     [![Värskendatud kaart](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance"></a>Juurdepääs Power BI aruandele rakenduses Finance
-Seadistage integreerimine lahendusega Power BI. Lisateavet vt teemast [Power BI integratsiooni konfigureerimine tööruumide puhul](configure-power-bi-integration.md).
+Seadistage integreerimine lahendusega Power BI. Lisateavet vt [Power BI integreerimise konfigureerimine tööruumidele](configure-power-bi-integration.md).
 
 1. Tööruumi lehel **Elektrooniline aruandlus**, mis toetab Power BI integratsiooni (**Organisatsiooni haldus** &gt; **Tööruumid** &gt; **Elektroonilise aruandluse tööruum**), klõpsake valikuid **Suvandid** &gt; **Aruande kataloogi avamine**.
 2. Valige loodud Power BI aruanne **Impordi ja ekspordi üksikasjad**, et kuvada see aruanne valitud lehel tegevusüksusena.
@@ -194,6 +194,6 @@ Seadistage integreerimine lahendusega Power BI. Lisateavet vt teemast [Power BI 
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Elektroonilise aruandluse sihtkohad](electronic-reporting-destinations.md)
+[Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md)
 
-[Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
+[Elektroonilise aruandluse (ER) ülevaade](general-electronic-reporting.md)

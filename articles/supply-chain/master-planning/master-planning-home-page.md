@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 0588ad24cb28a32557361e1a2e5391502a8b46d7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250687"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814257"
 ---
 # <a name="master-planning-home-page"></a>Koondplaneerimise kodulehekülg
 
@@ -39,9 +39,9 @@ Koondplaneerimine kasutab saadud teavet, et arvutada vajadused ja luua plaanitud
 
 Kolme peamist plaanimisprotsessi on järgmised.
 
--  **Koondplaneerimine** – koondplaan arvutab netovajadused. See põhineb praegustel tegelikel tellimustel ja võimaldab ettevõtetel juhtida varude täiendamist lühiajaliselt, igapäevaselt. Teine mõiste selle kirjeldamiseks on *netovajaduste plaan*. Lisateavet vt teemast [Koondplaneerimine](master-plans.md). 
+-  **Koondplaneerimine** – koondplaan arvutab netovajadused. See põhineb praegustel tegelikel tellimustel ja võimaldab ettevõtetel juhtida varude täiendamist lühiajaliselt, igapäevaselt. Teine mõiste selle kirjeldamiseks on *netovajaduste plaan*. Lisateavet vt teemast [Koondplaanide ülevaade](master-plans.md). 
 
--  **Eelarveplaanimine** – eelarve graafik arvutab brutonõuded. See põhineb tulevikku suunatud hinnangutel (või prognoosidel) ning võimaldab ettevõtetel teostada materjalide ja võimsuse pikaajalist planeerimist. Lisateavet vt teemast [Eelarveplaanimine](introduction-demand-forecasting.md). 
+-  **Eelarveplaanimine** – eelarve graafik arvutab brutonõuded. See põhineb tulevikku suunatud hinnangutel (või prognoosidel) ning võimaldab ettevõtetel teostada materjalide ja võimsuse pikaajalist planeerimist. Lisateavet vt teemast [Nõudluse prognoosi ülevaade](introduction-demand-forecasting.md). 
 
 -  **Kontsernisisene koondplaneerimine** – kontsernisisene koondplaan arvutab juriidiliste isikute netonõuded. See ühendab nii ettevõtetevahelise lühiajalise, kindla nõudluse ja pakkumise, kui ka pikaajalise, plaanitud (veel kinnitamata) nõudluse ja pakkumise. Lisateavet vt teemast [Kontsernisisene koondplaneerimine](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (e-õpe) (vajab CustomerSource’i kontot). 
 
@@ -57,13 +57,13 @@ Järgmisel õppekaardil on näidatud peamised põhimõtted ja ülesanded, milles
 
 ## <a name="quick-links"></a>Kiirlingid
 
-- [Koondplaanid](master-plans.md)  
+- [Koondplaanide ülevaade](master-plans.md)  
 - [Piirangutega plaani koostamine](./tasks/constrained-plan.md)
 - [Kaastoodete jaoks materjaliplaani loomine](./tasks/create-material-plan-co-products.md)
-- [Koondplaneerimine ja mitme laoala režiim](master-plan-multisite-functionality.md)
+- [Koondplaneerimine ja mitme tegevuskoha funktsiooni ülevaade](master-plan-multisite-functionality.md)
 - [Kontsernisisese plaani loomine](./tasks/create-intercompany-plan.md)
 - [Nõudluse prognoosimise ülevaade](introduction-demand-forecasting.md)
-- [Planeerimise koefitsiendid](reduction-keys.md)
+- [Eelarve planeerimise koefitsiendid](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Lisaressursid
 

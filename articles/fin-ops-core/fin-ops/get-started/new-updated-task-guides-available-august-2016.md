@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c7675ca0ef2f2477d510c956e63d824a5e6b0980
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177475"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812528"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Uued või värskendatud tegevusjuhised (august 2016)
 
@@ -32,13 +32,13 @@ Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastat
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Tegevusjuhised (august 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegis
 
-(August 2016 – kõik keeled) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics AX-i platvormivärskenduse 2 (august 2016), Dynamics AX -i 2016. aasta maivärskenduse ja Microsoft Dynamics AX-i 2016. aasta veebruariväljaandega. Nende väljalasete kohta lisateabe saamiseks vaadake jaotist [Mida on uut või muudetud](whats-new-changed.md). Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
+(August 2016 – kõik keeled) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics AX-i platvormivärskenduse 2 (august 2016), Dynamics AX -i 2016. aasta maivärskenduse ja Microsoft Dynamics AX-i 2016. aasta veebruariväljaandega. Lisateavet nende väljaannete kohta leiate teemast [Mis on uut või mida on muudetud Finance and Operationsi avalehel?](whats-new-changed.md) Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevuse juhiste teegi vahel, leiate jaotisest [Spikrisüsteem](help-overview.md).
 
 ### <a name="data-access"></a>Juurdepääs andmetele
 
 | BPM-rida           | Riik/regioon |
 |--------------------|----------------|
-| Pakktöö loomine | Üldine         |
+| Pakktöö loomine | Globaalne         |
 
 ### <a name="inventory"></a>Varud
 
@@ -91,12 +91,12 @@ Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastat
 
 | BPM-rida                                                                    | Riik/regioon |
 |-----------------------------------------------------------------------------|----------------|
-| Mobiilse seadme menüüelemendi seadistamine ostutellimuse lõpetamiseks | Üldine         |
+| Mobiilse seadme menüüelemendi seadistamine ostutellimuse lõpetamiseks | Globaalne         |
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)
 
-[Uued või värskendatud tegevusjuhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
+[Uued või värskendatud ülesande juhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Uued või värskendatud tegevusjuhised (november 2016)](new-task-guides-november-2016.md)

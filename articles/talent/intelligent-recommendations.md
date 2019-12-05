@@ -1,6 +1,6 @@
 ---
-title: Intelligentsed soovitused
-description: Selles teemas kirjeldatakse, kuidas masinõppe abil töökohtadele ja töökoha kandidaatidele soovitusi anda.
+title: Intelligentsed soovitused rakenduses Attract
+description: Selles artiklis kirjeldatakse, kuidas masinõppe abil töökohtadele ja töökoha kandidaatidele rakenduses Microsoft Dynamics 365 Talent – Attract soovitusi anda.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/16/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: fa06821c98e42dcd8590a764db9beb4a5c33fca2
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741748"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832787"
 ---
-# <a name="intelligent-recommendations"></a>Intelligentsed soovitused
+# <a name="intelligent-recommendations-in-attract"></a>Intelligentsed soovitused rakenduses Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Masinõpe võib aidata värbajatel ja värbamisjuhtidel kiiresti tuvastada ametikoha parimad kandidaadid. Samuti võib see aidata potentsiaalsetel tööotsijatel leida ametikoha, mis sobib kõige paremini nende profiili ja huvidega. Nende funktsioonide kasutamisel ja tagasiside andmisel soovitused täiustuvad.
 
 > [!NOTE] 
 > - Intelligentse soovituse funktsioon on saadaval ainult [tervikliku värbamise lisandmooduli korral](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - Selles teemas märgitud funktsioonid on saadaval eelväljaandes. Sisu ja funktsioonid võivad muutuda. Selle funktsiooni kasutamiseks paluge administraatoril see lubada, kasutades Attractis jaotist **Halduskeskus**. Määrake suvandid **Kandidaadisoovitus**, **Töökohasoovitus** ja **Potentsiaalselt sobiva kandidaadi soovitus** valikule **Sees**. Lisateavet leiate teemast [Juurdepääs eelvaatefunktsioonidele rakenduses Talent](./access-preview-feature.md). 
+> - Selles teemas märgitud funktsioonid on saadaval eelväljaandes. Sisu ja funktsioonid võivad muutuda. Selle funktsiooni kasutamiseks paluge administraatoril see lubada, kasutades Attractis jaotist **Halduskeskus**. Määrake suvandid **Kandidaadisoovitus**, **Töökohasoovitus** ja **Potentsiaalselt sobiva kandidaadi soovitus** valikule **Sees**. Lisateavet leiate teemast [Juurdepääs eelvaatefunktsioonidele rakenduses Microsoft Dynamics 365 Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Kandidaadisoovitused

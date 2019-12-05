@@ -1,5 +1,5 @@
 ---
-title: Turvalisus ja rollihaldus Attractis
+title: Kasutajaõiguste seadistamine Attractis
 description: Teema sisaldab teavet rolliturbe kohta rakenduses Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7db2ac241db121f07eb3524c7c5c9a8f64e78537
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: efac512cfa07bb2183f06b8be45f74bef9af0767
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551422"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832694"
 ---
-# <a name="security-and-role-management-in-attract"></a>Turvalisus ja rollihaldus Attractis
+# <a name="set-user-permissions-in-attract"></a>Kasutajaõiguste seadistamine Attractis
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract kasutab rollipõhist turvet. Teisisõnu ei anta juurdepääsu üksikkasutajatele vaid kasutajatele määratud turberollidele. Kasutajal, kellele on määratud turberoll, on ligipääs selle rolliga seotud määratud privileegidele.
 
@@ -52,7 +52,7 @@ Järgmistes jaotistes esitatakse iga rolli üksikasjalik kirjeldus. Allolevad ta
 
 ## <a name="administrator"></a>Administraator
 
-Kasutajad, kellele määratakse Administraatori roll, pääsevad ligi ja saavad muuta kõiki Attracti andmeid. Administraatorid saavad luua, lugeda, värskendada ja kustutada andmeid. Neil on ka juurdepääs Halduskeskusele, kus nad saavad konfigureerida Attracti rakendust ja seadistada kasutajateavet. Soovitame administraatori rolli määrata vähemalt ühe inimese. Vaikimisi seatakse Microsoft PowerAppsis keskkonna administraator Attracti administraatoriks. Kui te registreerute Attracti prooviversiooni jaoks, määratakse administraatori roll automaatselt teile. Praegu peab administraatori rolliga kasutajal tööde loomiseks olema ka värbaja või personalijuhi roll.
+Kasutajad, kellele määratakse Administraatori roll, pääsevad ligi ja saavad muuta kõiki Attracti andmeid. Administraatorid saavad luua, lugeda, värskendada ja kustutada andmeid. Neil on ka juurdepääs Halduskeskusele, kus nad saavad konfigureerida Attracti rakendust ja seadistada kasutajateavet. Soovitame administraatori rolli määrata vähemalt ühe inimese. Vaikimisi seatakse Microsoft Power Appsis keskkonna administraator Attracti administraatoriks. Kui te registreerute Attracti prooviversiooni jaoks, määratakse administraatori roll automaatselt teile. Praegu peab administraatori rolliga kasutajal tööde loomiseks olema ka värbaja või personalijuhi roll.
 
 ## <a name="hiring-manager"></a>Personalijuht
 

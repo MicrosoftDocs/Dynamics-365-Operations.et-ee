@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: 7134dc49c0e767d3bc4dc32e4feeb0e83a168e86
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 930c744ff2a28451d4267f060867b4b6474d45e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190921"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811574"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Uued või värskendatud tegevusjuhised (mai 2016)
 
@@ -32,7 +32,7 @@ Selles artiklis on esitatud uued või värskendatud tegevusjuhised, mis väljast
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Tegevusjuhised (mai 2016 – kõik keeled) Microsoft Dynamics AX-i APQC ühendatud teegis
 
-(Mai 2016) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks spikrina Microsoft Dynamics AX 2016. aasta maivärskenduse ja Microsoft Dynamics AX 2016. veebruariväljalaske puhul. Tegevusjuhiste lokaliseeritud versioonid, mis väljastati (2016. a. veebruari) APQC ühendatud teegis, on selles teegis saadaval. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
+(Mai 2016) APQC ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks spikrina Microsoft Dynamics AX 2016. aasta maivärskenduse ja Microsoft Dynamics AX 2016. veebruariväljalaske puhul. Tegevusjuhiste lokaliseeritud versioonid, mis väljastati (2016. a. veebruari) APQC ühendatud teegis, on selles teegis saadaval. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevuse juhiste teegi vahel, leiate jaotisest [Spikrisüsteem](help-overview.md).
 
 > [!NOTE]
 > Tärn (\*) äriprotsesside modelleerija (BPM) kõrval näitab, et selle äriprotsessi tegevusjuhis loodi Dynamics AX-i 2016. aasta maivärskenduse jaoks ja seda ei toetata Microsoft Dynamics AX-i varasemates versioonides.
@@ -185,7 +185,7 @@ Selles artiklis on esitatud uued või värskendatud tegevusjuhised, mis väljast
 | Konteineritesse määramise häälestamine                                         | Globaalne         |
 | Käsitsi pakkimise seadistamine                                           | Üldine         |
 | Kauba transpordipiirangute seadistamine                   | Globaalne         |
-| \*Lao tööpoliitikate seadistamine                                 | Globaalne         |
+| \*Lao tööpoliitikate seadistamine                                | Globaalne         |
 
 ## <a name="additional-resources"></a>Lisaressursid
 

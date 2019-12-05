@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: fa2772db63332319c399999bd5f747b2ac729d9e
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: fb5073fe8db0b51c4ea378cac57097e15e88bf83
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653271"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814048"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
 
@@ -40,7 +40,7 @@ Lahendus Potentsiaalne klient sularahaks kasutab andmete integreerimise funktsio
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 
-Saadaolevatele mallidele juurdepääsemiseks avage [PowerAppsi administreerimiskeskus](https://preview.admin.powerapps.com/dataintegration). Valige **Projektid** ja seejärel paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
+Saadaolevatele mallidele juurdepääsemiseks avage [Power Apps administreerimiskeskus](https://preview.admin.powerapps.com/dataintegration). Valige **Projektid** ja seejärel paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
 
 Müügiarve päiste ja ridade sünkroonimiseks rakendusest Supply Chain Management rakendusse Sales kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
 
@@ -137,4 +137,4 @@ Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 
 [Rakenduse Sales kontaktide sünkroonimine otse rakenduse Supply Chain Management kontaktide või klientidega](contacts-template-mapping-direct.md)
 
-[Rakenduse Supply Chain Management müügitellimuse päiste ja ridade sünkroonimine otse rakendusega Sales](sales-order-template-mapping-direct-two-ways.md)
+[Müügitellimuste vahetu sünkroonimine rakenduse Sales ja rakenduse Supply Chain Management vahel](sales-order-template-mapping-direct-two-ways.md)

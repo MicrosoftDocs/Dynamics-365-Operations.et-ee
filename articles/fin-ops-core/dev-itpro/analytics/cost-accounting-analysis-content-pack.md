@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 21ff82df71e352ca176aa1635a5ffb478bbcaf0e
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 0fc9877fdca2d2f85f4f9609616d8d21ab7b5174
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536820"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771583"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Kuluarvestuse analüüsi Power BI sisu
 
@@ -40,7 +40,7 @@ Kuna **kuluarvestuse analüüsi** sisu tõstab esile hälbed tegelike ja eelarve
 
 Lisateavet kuluarvestuse kohta vt teemast [Kuluarvestuse koduleht](../../../finance/cost-accounting/cost-accounting-home-page.md).
 
-Määratledes juurdepääsutasemel turvalisuse kuluarvestuses ja kombineerides selle reatasemel turvalisusega Power BI-s, saate anda kõigile kuluobjektide omanikele juurdepääsu **kuluarvestuse analüüsi** Power BI sisule. Kõik andmed visualisatsioonis filtreeritakse seejärel kuluarvestuses juhitava juurdepääsutaseme alusel. Lisateavet juurdepääsutasemel turvalisuse ja reatasemel turvalisuse kohta vt teemast [Turbe seadistamine kuluarvestuse sisu jaoks Power BI puhul](setup-security-cost-accounting-content-pack.md).
+Määratledes juurdepääsutasemel turvalisuse kuluarvestuses ja kombineerides selle reatasemel turvalisusega Power BI-s, saate anda kõigile kuluobjektide omanikele juurdepääsu **kuluarvestuse analüüsi** Power BI sisule. Kõik andmed visualisatsioonis filtreeritakse seejärel kuluarvestuses juhitava juurdepääsutaseme alusel. Juurdepääsutaseme turvalisuse ja rea tasemel turvalisuse kohta lisateabe saamiseks vaadake jaotist [Seadistage kuluarvestuse analüüsi Power BI sisu turvalisus](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 **Kuluarvestuse analüüsi** Power BI sisu leiate teenuste Microsoft Dynamics Lifecycle Services (LCS) ühiste vahendite teegist. Lisateavet sisu allalaadimise ja selle rakendamise kohta organisatsioonis vt jaotisest [Power BI sisu Microsoftilt ja teie partneritelt LCS-is](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
@@ -74,7 +74,7 @@ Sisu hõlmab aruandelehtede komplekti. Iga leht koosneb mõõdikute komplektist,
 |                                  | Tegelik kulu kuluobjekti dimensiooniliikme nime ja kuluelemendi dimensiooniliikme nime alusel                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
-Aruandelehtede täitmiseks **kuluarvestuse analüüsi** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md).
+Aruandelehtede täitmiseks **kuluarvestuse analüüsi** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Power BI integratsioon üksuse kauplusega](power-bi-integration-entity-store.md).
 
 Sisu alusena kasutatakse järgmisi peamisi koondmõõtmisi.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: bbc65a77b7c3df6545dfd7aa2109aba5c4e1b57b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010611"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773030"
 ---
 # <a name="remove-talent-environments"></a>Talenti keskkondade eemaldamine
 
@@ -34,7 +34,7 @@ See teema selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse
 
 Talenti proovikeskkonnad on ette valmistatud 60-päevase aegumispoliitikaga. Kuid proovikeskkondade omanikel on võimalus lõpetada prooviversioon varakult, tehes järgmist. 
 
-1. Avage [PowerApps Halduskeskus](https://admin.businessplatform.microsoft.com/)
+1. Avage [Power Apps Halduskeskus](https://admin.businessplatform.microsoft.com/)
 2. Valige **Keskkonnad**.
 3. Valige proovikeskkond, millel on vormingult sarnane nimi järgmisega: TestDrive – alias@domain
 4. Valige **Kustuta** ja kinnitage otsus. 
@@ -45,14 +45,14 @@ Olemasolev proovikeskkond eemaldatakse. Kui see on eemaldatud, saate registreeri
 
 See teema eeldab, et olete ostnud rakenduse Talent pilvelahenduse pakkuja (CSP) või ettevõtte arhitektuuri (AE) lepingu kaudu. 
 
-Kuna üks Talenti keskkond asub ühes PowerAppsi keskkonnas, on kaks suvandit. Esimene valik hõlmab kogu PowerAppsi keskkonna eemaldamist; teine hõlmab ainult Talenti eemaldamist. Esimene suvand on soovitatav, kui lõite PowerAppsi keskkonna spetsiaalselt Talenti ettevalmistamiseks ja olete just juurutamisega alustanud või te pole loonud integratsioone. Teine suvand on sobiv, kui teil on PowerAppsi keskkond, mis on täidetud rikasandmetega, mida kasutatakse PowerAppsis ja voogudes.
+Kuna üks Talenti keskkond asub ühes Power Appsi keskkonnas, on kaks suvandit. Esimene valik hõlmab kogu Power Appsi keskkonna eemaldamist; teine hõlmab ainult Talenti eemaldamist. Esimene suvand on soovitatav, kui lõite Power Appsi keskkonna spetsiaalselt Talenti ettevalmistamiseks ja olete just juurutamisega alustanud või te pole loonud integratsioone. Teine suvand on sobiv, kui teil on loodud Power Appsi keskkond, mis on täidetud rikasandmetega, mida kasutatakse Power Appsis ja Power Automate’is.
 
 > [!Important]
-> Enne PowerAppsi keskkonna eemaldamist veenduge, et seda ei kasutata rikasandmete integreerimiseks väljaspool Talenti ulatust. Pange tähele, et PowerAppsi vaikekeskkondasid ei saa eemaldada. 
+> Enne Power Appsi keskkonna eemaldamist veenduge, et seda ei kasutata rikasandmete integreerimiseks väljaspool Talenti ulatust. Pange tähele, et Power Appsi vaikekeskkondasid ei saa eemaldada. 
 
-Kogu PowerAppsi keskkonna eemaldamiseks koos Talenti ning seotud rakenduste ja voogudega tehke järgmist.
+Kogu Power Appsi keskkonna eemaldamiseks koos Talenti ning seotud rakenduste ja voogudega tehke järgmist.
 
-1. Avage [PowerApps Halduskeskus](https://admin.businessplatform.microsoft.com/)
+1. Avage [Power Apps Halduskeskus](https://admin.businessplatform.microsoft.com/)
 2. Valige **Keskkonnad**.
 3. Valige eemaldatav keskkond.
 4. Valige **Kustuta** ja kinnitage otsus. 
@@ -63,7 +63,7 @@ Kogu PowerAppsi keskkonna eemaldamiseks koos Talenti ning seotud rakenduste ja v
 9. Valige eemaldatav eksemplar. 
 10. Valige **Eemalda eksemplar** ja kinnitage otsus.  
 
-Talenti eemaldamiseks olemasolevast PowerAppsi keskkonnast tehke järgmist. Pange tähele, et tugimeeskonna kaasamine ja Talenti DevOpsi töörühmaga ühenduse võtmine on ajutine, kuni see funktsioon on lubatud otse LCS-is.
+Talenti eemaldamiseks olemasolevast Power Appsi keskkonnast tehke järgmist. Pange tähele, et tugimeeskonna kaasamine ja Talenti DevOpsi töörühmaga ühenduse võtmine on ajutine, kuni see funktsioon on lubatud otse LCS-is.
 
 1. Eemaldamistaotluse käivitamiseks võtke ühendust toega.
 2. Tugimeeskond edastab eemaldamise taotluse Talenti DevOpsi töörühmale. 

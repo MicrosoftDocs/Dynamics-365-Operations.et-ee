@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 20d48795b23628bbba2896bf48940936a25e0435
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550080"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771325"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Arvutatud väljatüübi ER-andmeallikate parameetritega kõned
 
@@ -55,7 +55,7 @@ Laadige [Microsofti allalaadimiskeskusest](https://go.microsoft.com/fwlink/?link
 | ER-vormingu konfiguratsiooni näide        | Vorming parameetritega calls.version.1.xml õppimiseks  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Logige sisse oma RCS-eksemplari.
-Selles näites loote konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Esmalt peate RCS-is täitma teemas [Konfiguratsioonipakkuja loomine ja selle aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md) toodud juhised.
+Selles näites loote konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Esmalt peate RCS-is täitma teemas [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md) toodud juhised.
 
 1. Valige vaikimisi armatuurlaual **Elektrooniline aruandlus**.
 2. Valige **Aruandluse konfiguratsioonid**.
@@ -75,21 +75,21 @@ Selles näites loote konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Esm
 3. Valige **Kujundaja**.
 4. Valige **Kujundaja**.  
    
-See ER-mudeli vastendus on ette nähtud selleks, et teha järgmist:
+    See ER-mudeli vastendus on ette nähtud selleks, et teha järgmist:
 
-- Tuua sisse maksukoodide loetelu (**Maksu** andmeallikas), mis asub tabelis   **TaxTable**.
-- Tuua esile kannete loetelu (**Kannete** andmeallikas), mis asub tabelis **TaxTranse**.
+    - Tooge sisse maksukoodide loetelu (**Maksu** andmeallikas), mis asub tabelis **TaxTable**.
+    - Tooge esile maksukannete loetelu (**Kannete** andmeallikas), mis asub tabelis **TaxTranse**.
     
-    - Grupeerida sissetoodud kannete loend (**GR** andmeallikas) maksukoodi alusel.
-    - Arvutada grupeeritud kandeid summeeritud väärtuste järgi maksukoodi kohta:
+        - Grupeerida sissetoodud kannete loend (**GR** andmeallikas) maksukoodi alusel.
+        - Arvutage grupeeritud kanded koondväärtuste järgi maksukoodi kohta järgnevalt.
 
-        - Maksubaasi väärtuste summa.
-        - Maksuväärtuste summa.
-        - Kohaldatava maksumäära miinimumväärtus.
+            - Maksubaasi väärtuste summa.
+            - Maksuväärtuste summa.
+            - Kohaldatava maksumäära miinimumväärtus.
 
-Selle konfiguratsiooni mudeli vastendamine rakendab põhiandmete mudelit selle mudeli jaoks loodud ning rakenduse Finance and Operations puhul. Selle tulemusena on **Maksu-** ja **Gr-** andmeallikate sisu avatud ER-vormingute, näiteks abstraktsete andmeallikate puhul.
+    Selle konfiguratsiooni mudeli vastendamine rakendab põhiandmete mudelit selle mudeli jaoks loodud ning rakenduse Finance and Operations puhul. Selle tulemusena on **Maksu-** ja **Gr-** andmeallikate sisu avatud ER-vormingute, näiteks abstraktsete andmeallikate puhul.
 
-  ![Mudeli vastendamise kujundaja lehekülg, kus kuvatakse maksu-ja Gr-andmeallikad](media/er-calculated-field-type-01.png)
+    ![Mudeli vastendamise kujundaja lehekülg, kus kuvatakse maksu-ja Gr-andmeallikad](media/er-calculated-field-type-01.png)
 
 5.  Sulgege leht **Mudelivastenduse koostaja**.
 6.  Sulgege leht **Mudelivastendus**.
@@ -100,25 +100,25 @@ Selle konfiguratsiooni mudeli vastendamine rakendab põhiandmete mudelit selle m
 2. Valige **Vorming parameetritega kõnede õppimiseks**.
 3. Valige **Kujundaja**. See ER-vormingu vastendus on ette nähtud selleks, et teha järgmist.
 
-  - Vastavusseviimiseks väljavõtte loomine.
-  - Esitada maksuaruandes järgmised maksustamistasemed: regulaarne, vähendatud ja pole.
-  - Esitada igal maksustamistasandil mitu üksikasja, millel on igal tasandil erinev arv üksikasju.
+    - Vastavusseviimiseks väljavõtte loomine.
+    - Esitada maksuaruandes järgmised maksustamistasemed: regulaarne, vähendatud ja pole.
+    - Esitada igal maksustamistasandil mitu üksikasja, millel on igal tasandil erinev arv üksikasju.
 
-  ![Vormingu koostaja leht](media/er-calculated-field-type-02.png)
+    ![Vormingu koostaja leht](media/er-calculated-field-type-02.png)
 
 4. Valige **Vastendamine**.
 5. Laiendage üksusi **Mudel**, **Andmed** ja **Kokkuvõte**. 
 
-   Arvutatud väli **Model.Data.Summary.Level** sisaldab avaldist, mis tagastab maksutaseme koodi (**Regulaarne**, **Vähendatud**, **Pole** või **Muu**) tekstiväärtusena mis tahes maksukoodi jaoks, mida saab **Model.Data.Summary** mudelist tuua andmeallika käitusajal.
+    Arvutatud väli **Model.Data.Summary.Level** sisaldab avaldist, mis tagastab maksutaseme koodi (**Regulaarne**, **Vähendatud**, **Pole** või **Muu**) tekstiväärtusena mis tahes maksukoodi jaoks, mida saab **Model.Data.Summary** mudelist tuua andmeallika käitusajal.
 
-  ![Vormingu kujundaja leht, kus kuvatakse andmemudeli Mudeli üksikasjad parameetriliste kõnede õppimiseks](media/er-calculated-field-type-03.png)
+    ![Vormingu kujundaja leht, kus kuvatakse andmemudeli Mudeli üksikasjad parameetriliste kõnede õppimiseks](media/er-calculated-field-type-03.png)
 
 6. Laiendage üksust **Model**.**Data2**.
 7. Laiendage üksust **Model**.**Data2.Summary2**.
    
-   **Model**.**Data2. Summary2** andmeallikas on konfigureeritud grupeerima **Model.Data.Summary** andmeallika kande üksikasjad maksustamise taseme alusel (tagastab **Model.Data.Summary.Level** arvutatud väli) ja arvutama kokkuvõtted.
+    **Model**.**Data2. Summary2** andmeallikas on konfigureeritud grupeerima **Model.Data.Summary** andmeallika kande üksikasjad maksustamise taseme alusel (tagastab **Model.Data.Summary.Level** arvutatud väli) ja arvutama kokkuvõtted.
 
-  ![Vormingu kujundaja leht, kus kuvatakse andmeallika Model.Data2.Summary üksikasjad](media/er-calculated-field-type-04.png)
+    ![Vormingu kujundaja leht, kus kuvatakse andmeallika Model.Data2.Summary üksikasjad](media/er-calculated-field-type-04.png)
 
 8. Vaadake üle arvutatud väljad **Model**.**Data2. Level1**, **Model**.**Data2. Level2** ja **Model**.**Data2. level3.** Neid arvutatud välju kasutatakse **Model**.**Data2. Summary2** kirjeteloendi filtreerimiseks ja ainult konkreetse maksustamistaset kajastavate kirjete tagastamiseks.
 9. Sulgege **Vormingu koostaja** leht.
@@ -309,7 +309,7 @@ Kui parameetritega arvutatud väli tagastab kirje, peate elementide vormindamise
 Saate käivitada algsed ja täiustatud ER-vormingud veendumaks, et konfigureeritud parameetritega arvutatud väljad töötavad õigesti.
 
 ### <a name="import-er-configurations"></a>Elektroonilise aruandluse konfiguratsioonide importimine
-Läbivaadatud konfiguratsioone saate RCS-ist importida tüübi **RCS** ER-hoidla abil. Kui te juba läbisite teemas toodud juhised [Impordi elektroonilise aruandluse konfiguratsioonid teenusest Regulatory Configuration Services](rcs-download-configurations.md), kasutage konfigureeritud ER-hoidlat, et importida selles teemas varem arutatud konfiguratsioonid oma keskkonda. Muul juhul toimige järgmiselt.
+Läbivaadatud konfiguratsioone saate RCS-ist importida tüübi **RCS** ER-hoidla abil. Kui te juba läbisite teemas toodud juhised [Elektroonilise aruandluse (ER) konfiguratsioonide importimine teenusest Regulatory Configuration Services (RCS)](rcs-download-configurations.md), kasutage konfigureeritud ER-hoidlat, et importida selles teemas varem arutatud konfiguratsioonid oma keskkonda. Muul juhul toimige järgmiselt.
 
 1. Valige ettevõte **DEMF** ja valige vaikearmatuurlaual **Elektrooniline aruandlus**.
 2. Valige **Aruandluse konfiguratsioonid**.
@@ -339,4 +339,4 @@ Läbivaadatud konfiguratsioone saate RCS-ist importida tüübi **RCS** ER-hoidla
 8. Võrrelge loodud väljundite sisu.
 
 ## <a name="additional-resources"></a>Lisaressursid
-[Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)
+[Valemikoostaja elektroonilises aruandluses (ER)](general-electronic-reporting-formula-designer.md)

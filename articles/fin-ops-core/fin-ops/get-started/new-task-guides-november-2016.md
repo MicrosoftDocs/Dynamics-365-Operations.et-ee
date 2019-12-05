@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 15a645c98fe38e8ddaa34c0c21581eac6636502f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 40317cdef777ca6524feb66caf66ddec3d855d32
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190967"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811597"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Uued või värskendatud tegevusjuhised (november 2016)
 
@@ -30,7 +30,7 @@ ms.locfileid: "2190967"
 
 Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastati Microsoftile (november 2016 – kõik keeled) Microsoft Dynamics 365 for Operationsi APQC ühendatud teegis. Ühtegi uut teeki Alustamine ei antud välja.
 
-(November 2016 – kõik keeled) APQC  ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics 365 for Operationsi, Microsoft Dynamics 365 for Operationsi platvormivärskenduse 3, Microsoft Dynamics AX-i platvormivärskenduse 2, Dynamics AX-i 2016. aasta maivärskenduse ja Microsoft Dynamics AX-i 2016. aasta veebruarivärskendusega. Nende väljalasete kohta lisateabe saamiseks vaadake jaotist [Mida on uut või muudetud](whats-new-changed.md). Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevusjuhiste teegi vahel, leiate jaotisest [Spikriga alustamine](help-overview.md).
+(November 2016 – kõik keeled) APQC  ühendatud teegis on tegevusjuhised, mis on mõeldud kasutamiseks Microsoft Dynamics 365 for Operationsi, Microsoft Dynamics 365 for Operationsi platvormivärskenduse 3, Microsoft Dynamics AX-i platvormivärskenduse 2, Dynamics AX-i 2016. aasta maivärskenduse ja Microsoft Dynamics AX-i 2016. aasta veebruarivärskendusega. Lisateavet nende väljaannete kohta leiate teemast [Mis on uut või mida on muudetud Finance and Operationsi avalehel?](whats-new-changed.md) Tegevusejuhiste lokaliseeritud versioonid on saadaval selles teegis. Lisateavet selle kohta, kuidas luua ühendus spikrisüsteemi ja tegevuse juhiste teegi vahel, leiate jaotisest [Spikrisüsteem](help-overview.md).
 
 > [!NOTE]
 > Tärn (\*) äriprotsesside modelleerija (BPM) kõrval näitab, et selle äriprotsessi tegevusjuhis loodi Dynamics 365 for Operationsi 2016. aasta novembrivärskenduse jaoks ja seda ei toetata Microsoft Dynamics AX-i varasemates versioonides.
@@ -543,8 +543,8 @@ Selles teemas on esitatud uued või värskendatud tegevusjuhised, mis väljastat
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Saadava on uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)
+[Uued tegevusjuhised (veebruar 2016)](new-task-guides-available-february-2016.md)
 
-[Uued või värskendatud tegevusjuhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
+[Uued või värskendatud ülesande juhised (mai 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Uued või värskendatud tegevusjuhised (august 2016)](new-updated-task-guides-available-august-2016.md)

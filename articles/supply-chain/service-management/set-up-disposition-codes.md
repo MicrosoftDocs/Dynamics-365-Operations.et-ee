@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e21854825019a73dc8d7bf5a3ee18d508123f72
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: a85f804344abec37d85e1ce15f064c8a0b901546
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743183"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813105"
 ---
 # <a name="set-up-disposition-codes"></a>Saate häälestada likvideerimiskoode. 
 
@@ -32,7 +32,7 @@ ms.locfileid: "1743183"
 
 Saate seadistada likvideerimiskoodid, et määrata, kuidas töödeldakse kliendi tagastatavat kaupa. Näiteks looge likvideerimiskood nimega **Parandamine ja tagastus** näitamaks, et tagastatud kaup parandatakse ja tagastatakse seejärel kliendile. Rohkem näiteid likvideerimiskoodidest, mida kasutatakse tavaliselt klientide tagastatavate kaupade puhul, vt teemast [Tagastatud kaupade likvideerimise viisi määratlemine](specify-how-to-dispose-of-returned-items.md).
 
-Saate seadistada ka põhjuse koodi, et aidata selgitada, miks kaup tagastati. Lisateavet põhjusekoodide kohta vt teemast [Tagastamise põhjuste koodigruppide seadistamine](set-up-return-reason-code.md).
+Saate seadistada ka põhjuse koodi, et aidata selgitada, miks kaup tagastati. Lisateavet põhjusekoodide kohta vt teemast [Tagastuspõhjuste koodide seadistamine](set-up-return-reason-code.md).
 
 1.  Klõpsake valikuid **Müük ja turundus** \> **Häälestamine** \> **Müügitellimused** \> **Tagastused** \> **Likvideerimiskoodid**.
 
@@ -46,7 +46,7 @@ Saate seadistada ka põhjuse koodi, et aidata selgitada, miks kaup tagastati. Li
 
 ## <a name="see-also"></a>Vt ka
 
-[Likvideerimiskoodid ja tagastuspõhjuste koodid](disposition-and-return-reason-codes.md)
+[Klienditagastuste ülevaade](disposition-and-return-reason-codes.md)
 
 [Likvideerimiskoodid (vorm)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 

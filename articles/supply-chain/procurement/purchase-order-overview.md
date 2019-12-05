@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e5fd05f3114eb99b7e8b4390827d5ccd52832a
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c527735ea65dad84c5d3d405eac2ead35d3c792d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572194"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815361"
 ---
 # <a name="purchase-order-overview"></a>Ostutellimuse ülevaade
 
@@ -41,8 +41,8 @@ Tööruumides **Ostutellimuse ettevalmistamine** ja **Ostutellimuse vastuvõtt j
 
 Järgmistes artiklites antakse ülevaade mitmesuguste etappide kohta, mille ostutellimus läbib.
 
--   [Ostutellimuse loomine](purchase-order-creation.md)
--   [Ostutellimuse heakskiitmine ja kinnitamine](purchase-order-approval-confirmation.md)
+-   [Ostutellimuste loomine](purchase-order-creation.md)
+-   [Ostutellimuste kinnitamine](purchase-order-approval-confirmation.md)
 -   [Toote sissetulek ostutellimuste suhtes](product-receipt-against-purchase-orders.md)
 -   [Hankija arvete ülevaade](../../financials/accounts-payable/vendor-invoices-overview.md)
 
@@ -82,9 +82,9 @@ Välja **Kinnitamise olek** kasutatakse, kui ostutellimus läbib töövoo üleva
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Ostutellimuse loomine](purchase-order-creation.md)
+[Ostutellimuste loomine](purchase-order-creation.md)
 
-[Ostutellimuse heakskiitmine ja kinnitamine](purchase-order-approval-confirmation.md)
+[Ostutellimuste kinnitamine](purchase-order-approval-confirmation.md)
 
 [Toote sissetulek ostutellimuste suhtes](product-receipt-against-purchase-orders.md)
 

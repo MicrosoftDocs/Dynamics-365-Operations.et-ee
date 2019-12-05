@@ -3,7 +3,7 @@ title: Laotöö töötlemise edasilükkamine
 description: Selles teemas kirjeldatakse funktsioone, mis muudavad edasilükatud lao tööüksuse toimingute töötlemise saadavaks rakenduses  Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
-ms.date: 06/17/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
+ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026913"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2815784"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Laotöö töötlemise edasilükkamine
 
@@ -30,7 +30,6 @@ ms.locfileid: "2026913"
 [!include [banner](../includes/pivate-preview-banner.md)]
 
 Selles teemas kirjeldatakse funktsioone, mis muudavad edasilükatud lao tööüksuse asetamistoimingute töötlemise saadavaks rakenduses Dynamics 365 Supply Chain Management.
-
 
 Edasilükatud töötlemise funktsioon võimaldab laotöötajatel jätkata muude töödega, kui asetamistoiminguid taustal töödeldakse. Edasilükatud töötlemine on kasulik, kui palju tööridu tuleb töödelda ja töötaja saab lasta selle töö töödelda asünkroonselt. See on kasulik ka siis, kui serveris võib olla töötlusaja ad-hoc plaaniväline suurenemine ja suurenenud töötlusaeg võib mõjutada kasutaja tootlikkust.
 
@@ -50,6 +49,8 @@ Poliitikad on konfigureeritud lehel **Töö töötlemise poliitikad**. Järgmise
 | Töö töötlemise meetod          | Meetod, mida kasutatakse töörea töötlemiseks. Kui meetodiks on määratud **Viivitamatu**, meenutab käitumine käitumist, kui töö töötlemise poliitikaid kasutatakse rea töötlemiseks. Kui meetodiks on määratud **Edasilükatud**, kasutatakse edasilükatud töötlemist, siis kasutatakse pakett-töö raamistikku. |
 | Edasilükatud töötlemise lävi   | Väärtus **0** (null) näitab, et läve pole. Sel juhul kasutatakse edasilükatud töötlemist, kui seda saab kasutada. Kui konkreetne lävearvutus jääb allapoole läve, kasutatakse meetodit Viivitamatu. Muul juhul kasutatakse meetodit edasilükatud, kui seda saab kasutada. Müügi ja ülekandega seotud töö puhul arvutatakse lävi seotud allika koormusridade arvuga, mida töö jaoks töödeldakse. Täiendustöö puhul arvutatakse lävi tööridade arvuga, mida töö abil täiendatakse. Kui määrate müügi läveks näiteks **5**, ei kasuta vähemate kui viie allika koormusreaga väiksemad tööd edasilükatud töötlemist, kuid suuremad tööd kasutavad seda. Lävi toimib ainult siis, kui töö töötlemise meetodiks on määratud **Edasilükatud.** |
 | Edasilükatud töötlemise partii grupp |Pakktööde grupp, mida kasutatakse töötlemiseks. |
+
+Edasilükatud put-töötlemise jaoks toetatakse järgmisi töökäsutüüpe: müügitellimus, ülekandetellimuse väljastamine ja täiendamine.
 
 ## <a name="assigning-the-work-creation-policy"></a>Töö loomise poliitika määramine
 
@@ -99,7 +100,7 @@ On mitu stsenaarium, mille korral edasilükatud asetamise töötlemist ei rakend
 - Kasutatakse käsitsi töötamise lõpuleviimist.
 - Töö viiakse lõpule automaatset lõpuleviimisega.
 - Kasutatakse auditimalle.
-- Töö kasutab konteinereid.
+
 
 ## <a name="monitoring-the-deferred-processing-tasks-from-the-outbound-work-monitoring-workspace"></a>Edasilükatud töötlemisülesannet jälgimine väljamineva töö jälgimise tööruumist
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9b7cd06d820522d8db83b5b1480b95db1400e9cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191243"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812622"
 ---
 # <a name="before-you-buy"></a>Enne ostmist
 
@@ -41,8 +41,8 @@ Asutusesisese juurutamisvaliku valimisel tuleb kaaluda järgmisi aspekte.
 
 - Regulatiivsed ja nõuetelevastavuse nõuded, mis ei ole saadaval pilvesertides
 - Ühenduseta äriprotsess ajutise Interneti-ühendusega, mida on vaja teenusesse Microsoft Dynamics Lifecycle Services (LCS) juurdepääsuks rakenduste elutsükli haldamiseks
-- [Funktsioonid, mida pole praegu kohapealsetes juurutustes rakendatud](features-not-implemented-on-prem.md)
-- [Minimaalsed taristunõuded](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- [Asutusesisestes juurutustes rakendamata funktsioonid](features-not-implemented-on-prem.md)
+- [Asutusesiseste juurutuste süsteeminõuded](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
 > Rakenduse Microsoft Dynamics 365 for Finance and Operations asutusesiseseid juurutusi ei toetata avaliku pilve taristutes, sh Azure.
@@ -78,7 +78,7 @@ Microsofti pilvelahenduse pakkuja saab teiega tihedat koostööd teha, et mõist
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Ostmine Dynamicsi partneri kaudu (kohapealselt)
 
-Rakenduse Finance and Operations kohapealseks ostmiseks peate tegema partneriga koostööd. Lisateavet vt teemast [Rakenduse Dynamics 365 for Finance and Operations (asutusesisene) ostmine](purchase-on-premises.md)
+Rakenduse Finance and Operations kohapealseks ostmiseks peate tegema partneriga koostööd. Lisateavet leiate teemast [Finance + Operationsi ostmine (asutusesisene)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Valige oma toe võimalus
 
@@ -91,7 +91,7 @@ Lisateave
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Neljas etapp: FastTrackiga tutvumine ja juurutuse plaanimine
 
-Microsoft FastTrack for Dynamics 365 on meie klientide eduteenus, mis on mõeldud selleks, et aidata teil rakendusele Dynamics 365 sujuvalt ja kindlalt üle minna, et saaksite ettevõtte väärtust kiiremini realiseerida. Kui osalete FastTracki programmis, saate juhtnöörid parimate tavade ja edukate väljastuste plaanimise kohta. Samuti tutvute viisidega uute kasutajate lisamiseks ja võimaluste laiendamiseks teie oma tempos. Lisaks saate juurdepääsu Microsofti analüüsiressurssidele, mille eesmärk on tagada teie edu Dynamics 365-ga. Lisateave: [Microsoft FastTrack for Dynamics 365 ülevaade](fasttrack-dynamics-365-overview.md)
+Microsoft FastTrack for Dynamics 365 on meie klientide eduteenus, mis on mõeldud selleks, et aidata teil rakendusele Dynamics 365 sujuvalt ja kindlalt üle minna, et saaksite ettevõtte väärtust kiiremini realiseerida. Kui osalete FastTracki programmis, saate juhtnöörid parimate tavade ja edukate väljastuste plaanimise kohta. Samuti tutvute viisidega uute kasutajate lisamiseks ja võimaluste laiendamiseks teie oma tempos. Lisaks saate juurdepääsu Microsofti analüüsiressurssidele, mille eesmärk on tagada teie edu Dynamics 365-ga. Lisateave: [Microsoft FastTrack](fasttrack-dynamics-365-overview.md)
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Kui täiendate rakenduselt Dynamics AX 2012 või migreerite rakenduselt AX 2009
 

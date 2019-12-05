@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 733ecc7cfb4fee325560f5a6fe11612bb8ba57ef
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653598"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815291"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Hankija koostöö väliste hankijatega
 
@@ -218,7 +218,7 @@ Kui kasutate veose varusid, saavad hankijad kasutada hankija koostööliidest, e
 
 ## <a name="working-with-rfqs-when-you-use-vendor-collaboration"></a>Pakkumiskutsetega töötamine hankija koostööd kasutades
 
-See jaotis kirjeldab klientide ja hankijate omavahelist suhtlust pakkumiskutse protsessi käigus. See selgitab ka, kuidas hankijatele teavet edastatakse. Pakkumiskutse protsessi toest põhiülevaate saamiseks vaadake jaotist [„Pakkumiskutsed (RFQ-d)”](request-quotations.md).
+See jaotis kirjeldab klientide ja hankijate omavahelist suhtlust pakkumiskutse protsessi käigus. See selgitab ka, kuidas hankijatele teavet edastatakse. Pakkumiskutse protsessi toest põhiülevaate saamiseks vaadake jaotist [Pakkumiskutsete ülevaade](request-quotations.md).
 
 ### <a name="alternates-attachments-amendments-and-returns"></a>Alternatiivid, manused, parandused ja tagastused
 

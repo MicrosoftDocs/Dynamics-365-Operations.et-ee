@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7d3a4602a3d8462666dfcb26b97a4f652891f7bc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 141464f2ce7cb4ccfd2a8fb7a266e657e8f52015
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249964"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814117"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Rakenduse Sales kontaktide sünkroonimine otse rakenduse Supply Chain Management kontaktide või klientidega
 
@@ -135,7 +135,7 @@ Järgmisel joonisel on toodud näide malli vastendusest andmete integratsioonis.
 
 [Rakenduse Supply Chain Management toodete sünkroonimine otse rakenduse Sales toodetega](products-template-mapping-direct.md)
 
-[Rakenduse Supply Chain Management müügitellimuse päiste ja ridade sünkroonimine otse rakendusega Sales](sales-order-template-mapping-direct-two-ways.md)
+[Müügitellimuste vahetu sünkroonimine rakenduse Sales ja rakenduse Supply Chain Management vahel](sales-order-template-mapping-direct-two-ways.md)
 
 [Rakenduse Supply Chain Management arve päiste ja ridade sünkroonimine otse rakendusega Sales](sales-invoice-template-mapping-direct.md)
 

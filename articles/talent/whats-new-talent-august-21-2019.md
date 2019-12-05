@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a3e2178dbc60582d6167898c4c3446feac49dd04
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024064"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814486"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (20. august 2019)?
 
@@ -35,7 +35,7 @@ Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
 ### <a name="simplified-apply-experience-for-candidates"></a>Kandidaatide lihtsustatud kandideerimiskogemus 
 
-Kandidaatide lihtsustatud kandideerimiskogemus on nüüd avalikus eelvaates saadaval. Kui see on lubatud, saavad kandidaadid oma CV-ga kandideerida ametikohale, kasutades käsku **Kandideeri LinkedIniga** (kui see on lubatud) või olemasoleva kandideerimisvormi abil. Nende muudatustega saavad kandidaadid kiiresti esitada oma kandideerimisavalduse minimaalsete väljadega, mis vajavad käsitsi sisestamist. Lisateavet selle funktsiooni lubamise kohta leiate jaotisest [Eelvaate funktsioonide lubamine või keelamine](./access-preview-feature.md#enable-or-disable-preview-features).
+Kandidaatide lihtsustatud kandideerimiskogemus on nüüd avalikus eelvaates saadaval. Kui see on lubatud, saavad kandidaadid oma CV-ga kandideerida ametikohale, kasutades käsku **Kandideeri LinkedIniga** (kui see on lubatud) või olemasoleva kandideerimisvormi abil. Nende muudatustega saavad kandidaadid kiiresti esitada oma kandideerimisavalduse minimaalsete väljadega, mis vajavad käsitsi sisestamist. Lisateavet selle funktsiooni lubamise kohta leiate jaotisest [Juurdepääs eelvaatefunktsioonidele rakenduses Microsoft Dynamics 365 Talent](./access-preview-feature.md#enable-or-disable-preview-features).
 
 ### <a name="view-rejection-comments-as-part-of-application-activity"></a>Tagasilükkamise kommentaaride vaatamine kandideerimistegevuse osana
 

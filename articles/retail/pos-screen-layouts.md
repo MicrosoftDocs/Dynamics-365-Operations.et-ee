@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025264"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811776"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Kassa ekraanipaigutused
 
@@ -171,7 +171,7 @@ Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatak
 
     - **Tegevus** – valige kohaldatavate kassatoimingute loendist toiming, mis käivitatakse nupu klõpsamisel kassas.
 
-        Toetatud kassategevuste loendi leiate jaotisest [Kassatoimingud, ühendusega ja ühenduseta](pos-operations.md).
+        Toetatud kassatoimingute loendi leiate jaotisest [Ühendusega ja ühenduseta kassatoimingud](pos-operations.md).
 
     - **Toimingu parameetrid** – mõned kassatoimingud kasutavad nende käivitamisel täiendavaid parameetreid. Näiteks saavad kasutajad toimingu Lisa toode jaoks määrata lisatava toote.
     - **Nupu tekst** – saate määrata teksti, mis kuvatakse kassas nupul.
@@ -193,4 +193,4 @@ Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatak
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Retail POS-i paigutuse kujundaja installimine](install-pos-layout-designer.md)
+[Jaemüügikassa paigutuse kujundaja installimine](install-pos-layout-designer.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570997"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812233"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Hooldustöö tüübi kategooriad ja hooldustöö tüübid, hooldustöö tüübi variandid, hooldustööde vahetused ja hoolduse kontrollnimekirjad
 
@@ -33,7 +33,7 @@ ms.locfileid: "2570997"
 
 Igale varale on lisatud vara tüüp. Varatüübid määratlevad hooldustööde tüübid (ja seetõttu ka hooldustööd), mida saab varadega teostada. Kui loote töökäsu, peate valima hooldustöö tüübi. Saate valida ainult need hooldustöö tüübid, mis on seotud vara jaoks kasutatava vara tüübi seadistamisega.
 
-Varade graafilise ülevaate ja hooldustööde tüüpide ning nende seotuse kohta töökäskudega vt [Varad ja töökäsud](../overview/functional-locations-and-objects.md).
+Varade graafilise ülevaate ja hooldustööde tüüpide ning nende seotuse kohta töökäskudega vt [Töö asukohad ja varad](../overview/functional-locations-and-objects.md).
 
 Hooldustöö  tüübi variante saab seadistada hooldustöö tüübi järgi. Hooldustöö tüübi variandid määratlevad töö  tüübi variatsioonid, nt suurus (väike, keskmine või suur), perioodid (nädal, kaks nädalat, üks kuu või kolm kuud) ja konfiguratsioonid (madal standard, paindlik või suur jõudlus).
 

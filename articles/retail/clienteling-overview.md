@@ -1,0 +1,126 @@
+---
+title: Klientuuri ülevaade
+description: Selles teemas antakse ülevaade jaekaupluse rakenduses saadaolevast uuest klientuurist.
+author: bebeale
+manager: AnnBe
+ms.date: 11/01/19
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: 260624
+ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: shajain
+ms.search.validFrom: 2018-10-01
+ms.dyn365.ops.version: Version 10.0.7
+ms.openlocfilehash: fb58022f61f9944d6e385874db1f2342bc111866
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773945"
+---
+# <a name="clienteling-overview"></a>Klientuuri ülevaade
+
+[!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
+
+Paljud jaemüüjad, eriti tipptasemel erialased jaemüüjad, soovivad, et nende müügi kaastöötajad moodustavad pikaajalisi suhteid oma põhiklientidega. Kaastöötajad peaksid teadma, mis nende klientidele meeldib ja ei meeldi, ostuajalugu, toote-eelistusi ja olulisi kuupäevi, nagu tähtpäevad ja sünnipäevad. Kaastöötajad vajavad kohta, kus nad saavad seda teavet jäädvustada ja seda vajaduse korral lihtsalt leida. Kui see teave on saadaval ühes vaates, saavad kaastöötajad kergesti suunata kliente, kes vastavad kindlatele kriteeriumitele. Näiteks võivad nad leida kõik kliendid, kes eelistavad osta käekotte, või kliendid, kellel on oluline sündmus lähenemas, nagu sünnipäev või aastapäev.
+
+## <a name="client-book"></a>Kliendiraamat
+
+Microsoftis Dynamics 365 Retailis saavad jaemüüjad kasutada kliendi raamatu funktsioone, et aidata talletada partneritele pikaajalisi suhteid peamiste klientidega.
+
+Kliendi raamat sisaldab kliendi kaarte, mis näitavad iga kliendi kontaktandmeid koos kolme täiendava atribuudiga, mis on määratud jaemüüja poolt ja mis on konfigureeritud rakenduses Retail headquarters. Jaemüüjad saavad otsustada kolm kõige olulisemat asja, mida müügi kaastöötajad peaksid klientide kohta teadma. Näiteks ehete jaemüüja võib soovida kaasata olulisi kuupäevi, nagu tähtpäevad või sünnipäevad, sest need kuupäevad on juhud, kui inimesed võivad osta rohkem ehteid. Samuti võib moe-jaemüüja soovida kaasata kliendi eelistatud kaubanduskeskuste huvid ja kaubamärgid.
+
+Kliendiraamat laseb ka müüdavatel sidusettevõtetel loendit filtreerida, nii et see näitab ainult kliente, kes vastavad kindlatele kriteeriumidele. Näiteks on poodi jõudnud uus kingade kollektsioon ning partner soovib teavitada kliente, kellele meeldib kingi osta. Sel juhul võib sidusettevõte kliendi raamatut filtreerida, et leida vastavaid kliente ja seejärel võtta täiendavaid meetmeid.
+
+Kui mis tahes kliente ei peeta enam põhiklientideks mingil põhjusel ja seetõttu ei tohiks neid tähelepanelikult hallata, saavad müügipartnerid need oma kliendi raamatust eemaldada.
+
+Mõned jaemüüjad ei soovi kliente hallata müügi sidusettevõtte tasemel. Selle asemel soovivad nad hallata kaupluse tasemel peamiste klientide loendit. Need jaemüüjad saavad vaadata kliente kaupluse kliendi raamatutest. Seda valikut kasutades saavad jaemüüjad vaadata kliendi raamatuid kõigi nende müügiesindajate kohta, mille aadressiraamat vastab praeguse kaupluse aadressiraamatule. Sel viisil, kui sidusettevõte töötab mitme juriidilise isiku kaupluses, näitab kliendi raamat kliente kõigist nende kauplustest. See funktsioon toetab lisafunktsioone. Näiteks saab kliente ühelt sidusettevõttelt teisele seostada. See võimalus on kasulik, kui kaastöötajad on üle kantud või ettevõttest lahkunud.
+
+Igal müügiesindajal võib olla üks kliendi raamat juriidilise isiku kohta ja sidusettevõtted saavad lisada ühe või mitu klienti oma kliendi raamatusse. Jaemüügis saab iga klienti praegu lisada ainult ühte kliendi raamatusse. Microsoft plaanib siiski lisada funktsioone, mis võimaldab ühe kliendi lisamist mitmesse kliendi raamatusse.
+
+> [!NOTE]
+> Erinevalt kliendi otsingust ei filtreeri kliendi raamat poe aadressiraamatute alusel kliendi kirjeid.
+
+## <a name="activities-and-notes"></a>Tegevused ja märkused
+
+Võrgus olevad kanalid annavad jaemüüjatele võimaluse saada teavet kliendi eelistuste kohta, nõudmata klientide selgesõnaliselt selle teabe esitamist. Seevastu, kui kliendid suhtlevad kaupluse sidusettevõtetega, jagavad nad selgesõnaliselt teavet oma eelistuste kohta. Kahjuks võib see teave kaotsi minna pärast müügi lõppu. Kuid kui see teave on salvestatud, võib see aidata jaemüüjatel paremini mõista kliente ja seeläbi aidata neil pakkuda paremaid soovitusi ja paremat üldist ostude kogemust.
+
+Selleks et jäädvustada kriitilist teavet, mida kliendid jagavad, saavad müügiesindajad kasutada mitte ainult kliendi raamatu atribuute, vaid ka funktsiooni tegevusi ja märkmeid. Jaemüüjad saavad konfigureerida tegevuste tüüpe, nt teavet kaupluse külastuse, meiliaadressi, telefoninumbri ja kohtumiste kohta. Tegevusi, mida seostatakse loomisega, saab vaadata kassas (POS) ajaskaala vormingus. Neid saab vaadata ka vahekaardil **Tegevused** lehel **Kõik kliendid \> Üldine** rakenduses Retail headquarters.
+
+Müügiesindajad saavad kasutada ka märkmeid, et jäädvustada üldise kliendi teavet, millele saab enne iga suhtlust viidata. Need märkmed salvestatakse rakendusse Retail headquarters ja neid saab vaadata kliendi profiilis või kõnekeskuse kliendi üksikasjade lehel.
+
+> [!NOTE]
+> Praegu saab kõiki märkmeid ja tegevusi vaadata mis tahes selle juriidilise isiku jaoks töötav müügiesindaja, kes saab vaadata kliendi üksikasjade lehti. Märkmed ja tegevused ei piirdu sidusettevõttega, kes lisas kliendi raamatusse.
+
+## <a name="integration-with-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights-iga integreerimine
+
+Rakenduse Dynamics 365 Customer Insights abil saavad jaemüüjad koondada andmeid erinevatest süsteemidest, mida kliendid kasutavad jaemüüja kaubamärgiga suhtlemiseks. Seejärel saavad nad neid andmeid kasutada kliendi ühe vaate loomiseks ja nendest arusaamise tuletamiseks. Customer Insightsi integreerimine jaemüügiga laseb jaemüüjatel valida ühe või mitu meedet, mis tuleks kliendi kaardil kuvada kliendi raamatus. Näiteks saavad jaemüüjad kasutada Customer Insightsi andmeid, et arvutada kliendile „kloppimise tõenäosus” ja määratleda „järgmine parim tegevus”. Kui need väärtused on määratletud kui meetmed, saab neid kuvada kliendi kaardil ja see võib pakkuda olulist teavet müügiesindajate jaoks. Lisateavet Customer Insightsi kohta vt rakenduse [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview) dokumentatsioonist. Lisateavet meetmete kohta vt [Meetmed](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+
+## <a name="set-up-clienteling"></a>Seadista klientuur
+
+Klientuuri funktsioonide sisselülitamiseks oma keskkonnas toimige järgmiselt.
+
+1. **Funktsioonide halduse** tööruumis filtreerige funktsioone rakenduse **Retail and Commerce** moodulis.
+
+    ![Klientuur Retail and Commerce'i mooduli funktsioonide loendis](./media/Enable_clienteling.png "Klientuur Retail and Commerce'i mooduli funktsioonide loendis")
+
+2. Lülitage sisse **Klientuuri** funktsioon, valides **Luba kohe.**
+3. Lehe **Jaemüügi parameetrid** vahekaardil **Numbriseeria** valige rida **Kliendi raamatu ID**. Seejärel sisestage numbriseeria kood väljale **Numbriseeria kood**. Süsteem kasutab seda numbriseeriat, et määrata kliendi raamatutele ID.
+4. Valige käsk **Salvesta**.
+5. Looge uus atribuudirühm, mis sisaldab atribuute, mida soovite hõivata klientide jaoks, keda hallatakse kliendi raamatutes. Vaadake juhiseid jaotises [Atribuudid ja atribuudirühmad](https://docs.microsoft.com/dynamics365/retail/attribute-attributegroups-lifecycle).
+
+    - Määratlege nõutavad atribuudid, **mida saab täpsustada**. Seejärel saavad müügiesindajad kasutada neid atribuute oma kliendi raamatu filtreerimiseks.
+    - Seadistage nende atribuutide jaoks kuvatav tellimus. See kuvatav tellimus määratleb, millised atribuudid tuleb kliendi kaardil kuvada kliendi raamatus. 1. kuvatav tellimus on suurem kui 2. kuvatav tellimus. Seetõttu kuvatakse atribuut, millel on kuvatav tellimus 1, enne atribuuti, millel on kuvatud tellimus 2.
+
+    > [!NOTE]
+    > Saate teha Customer Insightsi kättesaadavaks samalt lehelt. Siiski tuleb luua Azure'i rakenduse ID ja saladus autentimise eesmärgil. (Lisateavet nõuete kohta leiate teema [Customer Insightsi integreerimine jaemüüki](#turn-on-the-integration-of-customer-insights-with-retail) hilisemast jaotisest.) Kui Customer Insights on sisse lülitatud ja te valite ühe või mitu meedet, mis tuleks kuvada kliendi kaardil, kuvatakse need meetmed esimesena. Seejärel kuvatakse kliendi raamatu atribuudi grupid, mis põhineb kuvatud tellimusel. Näiteks, kui valite Customer Insightsist kaks meedet, kuvatakse kliendi kaardil need kaks meedet ja üks kliendi raamatu atribuut. (Näidatud on kliendi raamatu atribuut, millel on kõrgeim kuvatav tellimus.)
+
+6. Valige lehe **Jaemüügi parameetrid** vahekaardi **Klientuur** väljal **Kliendi raamatu atribuudirühm** äsjaloodud atribuudirühm.
+
+    ![Valitud kliendi raamatu atribuudirühm](./media/Client%20book%20attributes.png "Valitud kliendi raamatu atribuudirühm")
+
+7. POS-is toimuvate tegevuste hõivamiseks määratlege tegevuse tüübid lehel **Tegevuse tüübid** (**Jaemüük \> Kliendid \> Tegevuse tüübid**).
+
+    > [!NOTE]
+    > Tegevuste tüübid tõmmatakse jaemüügi serveri poolt, kui see teeb esimest korda reaalajas kõne. Pärast tegevuste tõmbamist salvestatakse need mõneks tunniks vahemällu. Kui muudate tegevuse tüüpe, oodake, kuni vahemälu enam ei kehti. Teise võimalusena, mitte-tootmiste keskkondades, taaskäivitage jaemüügi serveri teenus.
+
+8. Lisage kaks nuppu vastavale POS-i ekraani paigutusele, et müügiesindajad saaksid vaadata oma kliendi raamatut ja kaupluse kliendi raamatut. (Kaupluse kliendi raamatute hulka kuuluvad kliendid kõigist kliendi raamatutest kõigi partneritega, kes jagavad aadressiraamatut kauplusega.) Vastavatele toimingutele on pandud nimeks **Klientide kuvamine kliendi raamatus** ja **Klientide kuvamine kaupluse kliendi raamatutest**. Saadaval on kolm lisatoimingut, mis on seotud kliendi raamatutega. Need toimingud määravad, millised kaastöötajad saavad kliendi raamatust kliente lisada, eemaldada ja uuesti määrata. Need on vastavalt nimega **Lisa klient kliendi raamatusse**, **Eemalda klient kliendi raamatust** ja **Määra kliendid teise kliendi raamatusse.**
+9. Käivitage järgmised jaotuse graafiku tööd: 1040, 1150, 1110 ja 1090.
+
+Kui olete selle protseduuri lõpetanud, saavad sidusettevõtted avada kliendi üksikasjade lehe kassas ja lisada kliendid oma kliendi raamatusse, vaadata ja jäädvustada klientide tegevusi ja märkmeid ning suunata kliente, kasutades kliendi ja kliendiraamatu atribuute, et filtreerida kliendiraamatut. Järgmisel joonisel on toodud kliendi raamatu näide.
+
+![Kliendi raamatu näide](./media/client_book.png "Kliendi raamatu näide")
+
+## <a name="turn-on-the-integration-of-customer-insights-with-retail"></a>Customer Insightsi integreerimise sisselülitamine jaemüügiga
+
+Customer Insightsi jaemüügiga integreerimise sisselülitamiseks peate veenduma, et teil on aktiivne Customer Insightsi eksemplar rentnikult, kus jaemüük on ette valmistatud. Teil peab olema ka Azure Active Directory (Azure AD) kasutajakonto, millel on Azure'i tellimus.
+
+Integratsiooni seadistamiseks läbige need etapid.
+
+1. Azure'i portaalis registreerige rakendus. Seda rakendust kasutatakse Customer Insightsi autentimiseks. Juhised leiate teemast [Lühijuhend: rakenduse registreerimine Microsofti identiteedi platvormiga](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+2. Rakenduse jaoks uue kirje genereerimine. Tehke märge saladusest ja hoidke seda kuskil turvalises kohas, sest teil on seda hiljem vaja. Valige ka saladuse aegumise kestus.
+
+    > [!IMPORTANT]
+    > Tehke nii, et mäletaksite saladuse muutmist enne selle aegumist. Vastasel juhul peatub integratsioon ootamatult.
+
+3. Looge Azure'i võtmehoidla ja salvestage rakenduse saladus. Juhised leiate teemast [Lühijuhend: saate seada ja tuua saladuse Azure'i võtmehoidlast Azure'i portaali abil](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
+4. Lülita juurdepääs Azure'i võtmehoidlale sisse jaemüügist. Selle sammu lõpetamiseks peab teil olema rakenduse ID ja saladus. Rakendus võib olla sama rakendus, mille lõite juhises 1 või see võib olla uus rakendus. (Teisisõnu, saate kasutada rakendust, mille lõite sammus 1 nii võtmehoidlale juurdepääsuks ja Customer Insightsi teenusele juurdepääsuks, või saate luua kordumatu rakenduse iga juurdepääsutüübi kohta.) Juhiste saamiseks vaadake teemat [Salvestage teenuse peamised mandaadid Azure Stacki võtmehoidlasse](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
+5. Avage rakenduses Retail headquarters **Süsteemi haldus \> Seadistus \> Võtmehoidla parameetrid**ja sisestage võtmehoidlale vajalik teave. Seejärel sisestage väljal **Võtmehoidla klient** rakenduse ID, mida kasutasite sammus 4, nii et Retail pääseks ligi saladustele võtmehoidlas.
+6. Sammus 1 loodud rakenduse lisamiseks turvaliste rakenduste loendisse (nimetatakse mõnikord ka valgeks loendiks), avage Customer Insights ja **vaadake** juurdepääsu rakendusele. Vaadake juhiseid jaotisest [Load](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+7. Järgige jaemüügis lehel **Jaemüügi parameetrid** vahekaardi **Klientuur** kiirkaardil **Dynamics 365 Customer Insights** toodud etappe.
+
+    1. Väljale **Rakenduse ID** sisestage rakenduse ID, mida kasutasite sammus 1.
+    2. Väljale **Salajane nimi** sisestage võtmehoidla saladuse nimi, mille lõite juhises 5.
+    3. Määrake suvand **Luba Customer Insights** valikule **Jah**. Kui installiprogramm ei õnnestu mingil põhjusel, kuvatakse tõrketeade ja selle valiku väärtuseks määratakse **Ei**.
+    4. Customer Insightsis võib olla mitu keskkonda, nagu katse- ja tootmisprotsess. Väljale **Keskkonna eksemplari ID** sisestage sobiv keskkond.
+    5. Väljale **Alternatiivne kliendi ID** sisestage atribuut Customer Insightsis, mis on vastendatud kliendi konto numbriga. (Jaemüügis on kliendi konto number kliendi ID.)
+    6. Ülejäänud kolm atribuuti on meetmed, mis kuvatakse kliendi kaardil kliendi raamatus. Kliendikaardi kuvamiseks saate valida kuni kolm meedet. (Kuid te ei pea ühtegi meedet valima.) Nagu varem mainitud, kuvab süsteem need väärtused esmalt ja seejärel kuvab kliendi raamatu atribuudirühma väärtused.

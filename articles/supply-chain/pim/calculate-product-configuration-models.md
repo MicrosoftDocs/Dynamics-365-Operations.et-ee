@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd57b702220374ef5ac48e1af7c42827a21e7517
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547097"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813589"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Toote konfiguratsioonimudelite arvutuste KKK
 
@@ -37,7 +37,7 @@ Arvutusi saab kasutada aritmeetiliste või loogiliste operatsioonide puhul. Need
 ## <a name="what-is-a-calculation"></a>Mis on arvutus?
 Arvutus on toote konfiguratsioonimudelis kasutatav element. Arvutused täiendavad piiranguid, võimaldades teil kasutada kümnendarve väärtuste arvutamiseks toote konfigureerimisel. Lisaks on arvutuste puhul võimalik kasutada suuremat arvu tehtemärke kui piirangute puhul.  
 
-Sarnaselt piirangule on arvutus seotud kindla komponendiga toote konfiguratsioonimudelis ja seda ei saa uuesti kasutada või teise komponendiga jagada. Üks oluline erinevus arvutuste ja piirangute vahel on see, et arvutused on imperatiivsed (ühesuunalised) ja piirangud on deklaratiivsed (kahesuunalised). Lisateavet piirangute kohta saate jaotisest [Avaldise piirangud ja tabeli piirangud](expression-constraints-table-constraints-product-configuration-models.md).  
+Sarnaselt piirangule on arvutus seotud kindla komponendiga toote konfiguratsioonimudelis ja seda ei saa uuesti kasutada või teise komponendiga jagada. Üks oluline erinevus arvutuste ja piirangute vahel on see, et arvutused on imperatiivsed (ühesuunalised) ja piirangud on deklaratiivsed (kahesuunalised). Lisateavet piirangute kohta vaadake jaotisest [Avaldiste piirangud ja tabelipiirangud tootekonfiguratsioonimudelites](expression-constraints-table-constraints-product-configuration-models.md).  
 
 Arvutus koosneb on sihtatribuudist ja arvutusavaldisest.
 
@@ -88,7 +88,7 @@ Nr Kasutatakse toote konfigureerimisel määratud väärtusi. Arvutus, mis toimu
 Sisendväärtuse eemaldamisel arvutusest eemaldatakse ka sihtatribuudi väärtus.
 
 ## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a>Miks saan tõrketeate, mis ütleb, et minu mudelis on vastuolu?
-See teade kuvatakse, kui arvutuses on viga või kui ühes või mitmes piirangus on vastuolu. Lisateavet piirangutes olevate vastuolude kohta saate jaotisest [Avaldise piirangud ja tabeli piirangud](expression-constraints-table-constraints-product-configuration-models.md). Siin on mõned olukorrad, kus arvutustes võib ilmneda vigu.
+See teade kuvatakse, kui arvutuses on viga või kui ühes või mitmes piirangus on vastuolu. Lisateavet piirangute vastuolu kohta vaadake jaotisest [Avaldiste piirangud ja tabelipiirangud tootekonfiguratsioonimudelites](expression-constraints-table-constraints-product-configuration-models.md). Siin on mõned olukorrad, kus arvutustes võib ilmneda vigu.
 
 -   Väärtus on jagatud nulliga (0).
 -   Kahe järgmise elemendi vahel on konflikt:

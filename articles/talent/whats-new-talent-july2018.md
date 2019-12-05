@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 6ed1e4afcaeee03474d4c0ce20ac7864fb11ce78
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5538aef6599eeffee6d9b075f1b9630d55cf982a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551768"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812714"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-july-2018"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent - Core HR (juuli 2018)
 
@@ -31,11 +31,11 @@ ms.locfileid: "2551768"
 
 Selles teemas kirjeldatakse Microsoft Dynamics 365 Talent: Core HRi uusi või muutunud funktsioone.
 
-## <a name="powerapps-personalization"></a>PowerAppsi isikupärastamine
+## <a name="power-apps-personalization"></a>Power Appsi isikupärastamine
 
-Talent toetab integratsiooni teenusega Microsoft PowerApps. PowerApps võimaldab nii arendajatel kui ka mittetehnilistel kasutajatel luua kohandatud ärirakendusi mobiiliseadmete, tahvelarvutite ja veebi jaoks ilma koodi kirjutamata. Rakendusi, mida teie, teie organisatsioon või laiem ettevõtete „ökosüsteem” PowerAppsi abil arendab, saab lisada rakenduse Talent klienti, et võimendada toote funktsionaalsust. Näiteks võite luua rakenduse, mis täiendab Talenti teisest süsteemist toodud teabega.
+Talent toetab integratsiooni teenusega Microsoft Power Apps. Power Apps võimaldab nii arendajatel kui ka mittetehnilistel kasutajatel luua kohandatud ärirakendusi mobiiliseadmete, tahvelarvutite ja veebi jaoks ilma koodi kirjutamata. Rakendusi, mida teie, teie organisatsioon või laiem ettevõtete „ökosüsteem” Power Appsi abil arendab, saab lisada rakenduse Talent klienti, et võimendada toote funktsionaalsust. Näiteks võite luua rakenduse, mis täiendab Talenti teisest süsteemist toodud teabega.
 
-Lisateabe saamiseks vt [PowerAppsi rakenduste manustamine](../fin-and-ops/get-started/embed-power-apps.md).
+Lisateabe saamiseks vt [Power Appsi rakenduste manustamine](../fin-and-ops/get-started/embed-power-apps.md).
 
 ## <a name="ceridian-payroll-integration"></a>Ceridiani palgaarvestuse integreerimine
 
@@ -46,7 +46,7 @@ Integratsioon Talenti ja Ceridian Dayforce’i vahel on nüüd saadaval USAs, Ka
 - Palgaandmed, näiteks palgatsüklid, makseperioodid ja tulukoodid
 - Töötaja andmed
 
-Lisateabe saamiseks vt [Palgaarvestuse integratsiooni toetamine](configure-payroll-integration.md).
+Lisateavet vt [Palgaarvestuse integratsiooni konfigureerimine Talenti ja Dayforce’i vahel](configure-payroll-integration.md).
 
 ## <a name="worker-tax-regions-have-been-expanded-beyond-the-us"></a>Töötaja maksuregioone on laiendatud USAst kaugemale
 

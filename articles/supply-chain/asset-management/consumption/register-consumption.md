@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653319"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812256"
 ---
 # <a name="register-consumption"></a>Tarbimise registreerimine
 
@@ -33,7 +33,7 @@ ms.locfileid: "2653319"
 
 Kui hooldustöö on töökäsus lõpetatud, on järgmine etapp tarbimiste registreeringute tegemine ja töölehtedele sisestamine. Saate registreeringuid teha järgmiste tarbimise tüüpide kohta: tunnid, kaubad ja kulud. Eri tarbimise tüübid on registreeritud ja sisestatud lehele **Töökäsu töölehed**. Töölehe seadistust funktsioonis **Varahaldus** kasutatakse eraldi töölehtede loomiseks ja sisestamiseks tundide, kaupade ja kulude jaoks moodulis **Projektihaldus ja raamatupidamine**.
 
-Mõnel juhul saate töökäsule prognoosi ridu lisada või neid kustutada. Töökäsu töötsükli oleku seadistus, seotud projektitüüp ja seotud projektitüübi oleku reeglid määravad ära, kas saate töölehele ridu lisada või redigeerida. Lisateavet töökäsu töötsükli olekute ja seotud projekti etappide kohta lugege teemast [Projektihalduse ja raamatupidamisega integreerimine](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+Mõnel juhul saate töökäsule prognoosi ridu lisada või neid kustutada. Töökäsu töötsükli oleku seadistus, seotud projektitüüp ja seotud projektitüübi oleku reeglid määravad ära, kas saate töölehele ridu lisada või redigeerida. Lisateavet töökäsu elutsükli olekute ja seotud projekti etappide kohta vt teemast [Prognoosid, töökäsud ja projektid](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >Töökäsu töötsükli olekule on võimalik seadistada automaatne töölehtede sisestamine. Lisateabe saamiseks vaadake teemat [Töökäsu töötsükli olekud](../setup-for-work-orders/work-order-lifecycle-states.md).

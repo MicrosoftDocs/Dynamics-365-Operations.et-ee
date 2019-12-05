@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: dd88537506521fd37aa170c7e8f43bcf5a106836
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174347"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771629"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analüütika lisamine tööruumidele teenuse Power BI Embedded abil
 
@@ -102,7 +102,7 @@ Nüüd, kui olete tööruumi aruande kaasamiseks kasutatavad vormi juhtelemendid
 > [!NOTE]
 > Kaasatud tööruumide puhul soovitame kasutada ühtluse nimel laiendusi nii lehe **Filtripaan** kui ka **Vahekaart** peitmiseks.
 
-Nüüd olete rakenduse vormimääratluse laiendamise ülesande täitnud. Lisateavet kohandamiste tegemiseks laienduste kasutamise kohta vaadake jaotisest [Kohandamine: ülekate ja laiendused](../extensibility/customization-overlayering-extensions.md).
+Nüüd olete rakenduse vormimääratluse laiendamise ülesande täitnud. Lisateavet laienduste kasutamise ja kohanduste tegemise kohta vaadake jaotisest [Kohandamine laienduste ja ülekatte kaudu](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X++ äriloogika lisamine vaaturi juhtelemendi kaasamiseks
 Tööruumi **Reserveerimise haldus** kaasatud aruandevaaturi juhtelementi lähtestava äriloogika lisamiseks toimige järgmiselt.

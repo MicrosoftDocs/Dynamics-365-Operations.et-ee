@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c40877bc6557a81adc5c1b8d10afbbd26322b200
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3677db634366ecfe6a26f2f5e01532ce5a087593
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249925"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815245"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Koosluse- ja valemiridade lattu väljastamine
 
@@ -31,7 +31,7 @@ ms.locfileid: "2249925"
 Selles teemas kirjeldatakse koosluseridade ja valemiridade toormaterjali lattu väljastamise protsessi. Koosluse- või valemirea väljastamisel lattu tuvastab süsteem kõigepealt selle, kas materjal on juba saadaval tootmise sisendasukohas tööde juhtimise moodulis, kus materjali tarbitakse tootmisprotsessi jaoks.
 
 - Kui materjal on tootmise sisendasukohas saadaval, komplekteeritakse see sellest asukohast kohe, kui antakse signaal materjali väljastamiseks lattu.
-- Kui materjal pole tootmise sisendasukohas saadaval, näitab materjali väljastamine, et materjal tuleb liigutada lao asukohtadest tootmise sisendasukohta. Materjal liigutatakse laotöö kaudu toormaterjali komplekteerimiseks. Seetõttu peavad olema konfigureeritud laoprotsessid toormaterjali komplekteerimiseks. Lisateavet vaadake teemadest [Täiendamine](../warehousing/replenishment.md) ja [Laotöö juhtimine, kasutades töömalle ja asukohadirektiive](../warehousing/control-warehouse-location-directives.md).
+- Kui materjal pole tootmise sisendasukohas saadaval, näitab materjali väljastamine, et materjal tuleb liigutada lao asukohtadest tootmise sisendasukohta. Materjal liigutatakse laotöö kaudu toormaterjali komplekteerimiseks. Seetõttu peavad olema konfigureeritud laoprotsessid toormaterjali komplekteerimiseks. Lisateavet vaadake teemadest [Täiendamise ülevaade](../warehousing/replenishment.md) ja [Laotöö juhtimine töömallide ja asukohadirektiividega](../warehousing/control-warehouse-location-directives.md).
 
 ## <a name="methods-for-releasing-bom-and-formula-lines"></a>Koosluse- ja valemiridade väljastamise meetodid
 

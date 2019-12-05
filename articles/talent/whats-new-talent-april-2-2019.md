@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 86d81d60fcbc77375f3b8c525e8c084e3a3d8a99
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026068"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773689"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (2. aprill, 2019)?
 
@@ -63,7 +63,7 @@ Lisainfo saamiseks Finance and Operationsi platvormi värskenduse 25 kohta vt [D
 Paljudes ettevõtetes on hüvitise ja eeliste halduritel juurdepääs ainult teatud hüvituskirjetele. Need võivad sisaldada juhtkonna või piirkonna töövõtjate kirjeid. See muudatus võimaldab personaliosakonnal ettevõttesiseselt hüvitusplaane hallata ja säilitada erinevate töövõtjate gruppide jaoks. Saate fikseeritud ja muutuvatele plaanidele turberolle määrata. Need turberollid määravad kindlaks juurdepääsu plaanidele ja seotud töötajate andmetele, nagu näiteks palga või preemia kirjetele, nii et ainult need rollid saavad töötajate rühmade hüvitisi töödelda.
 
 ### <a name="upgrade-to-common-data-service"></a>Common Data Service'i värskendus
-Tähtajad Common Data Service'i värskendamiseks lähenevad kiiresti. Logige sisse PowerAppsi halduskeskusesse, et teha kindlaks, kas teie andmebaas vajab värskendamist. Lisateavet tähtaegade ja täiendamiseks nõutavate etappide kohta vt jaotisest [Täiendamine teenusele Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Tähtajad Common Data Service'i värskendamiseks lähenevad kiiresti. Logige sisse Microsoft Power Appsi halduskeskusesse, et teha kindlaks, kas teie andmebaas vajab värskendamist. Lisateavet tähtaegade ja täiendamiseks nõutavate etappide kohta vt jaotisest [Täiendamine teenusele Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Eelvaates
 

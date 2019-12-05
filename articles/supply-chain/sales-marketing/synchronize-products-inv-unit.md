@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 8b65e9640106c5d351270074e39c121e70917228
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 18bedcc99d7d70875ec363a97e4e6eccbace3a9c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251220"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814172"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Toodete sünkroonimine varude üksusega rakendusest Supply Chain Management rakendusse Field Service
 
@@ -34,7 +34,7 @@ Selles teemas käsitletakse malle ja aluseks olevat ülesannet, mida kasutatakse
 
 [![Äriprotsesside sünkroonimine rakenduste Supply Chain Management ja Field Service vahel](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-Kasutatud mall **Field Service’i laoühikuga tooted (rakendusest Supply Chain Management rakendusse Field Service)** põhineb mallil **Field Service’i tooted (rakendusest Supply Chain Management rakendusse Field Service)**. Lisateabe saamiseks vt [Field Service’i tooted (Supply Chain Managementist Field Service’isse)](field-service-product.md).
+Kasutatud mall **Field Service’i laoühikuga tooted (rakendusest Supply Chain Management rakendusse Field Service)** põhineb mallil **Field Service’i tooted (rakendusest Supply Chain Management rakendusse Field Service)**. Lisateavet vt jaotisest [Rakenduses Supply Chain Management toodete sünkroonimine rakenduse Field Service toodetega](field-service-product.md).
 
 Selles teemas kirjeldatakse ainult kahe malli vahelisi erinevusi: 
 - **Field Service’i tooted laoühikuga (rakendusest Supply Chain Management rakendusse Müük)**

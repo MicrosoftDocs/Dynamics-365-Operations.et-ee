@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8f1f8ed86af5b9fcb6ede91621b9227115bd2b59
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9d307ceae85773feb58d11e575df27e74b065cd3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175733"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773445"
 ---
 # <a name="vat-reporting-for-europe"></a>Euroopa käibemaksuaruandlus
 
@@ -263,11 +263,11 @@ Iga riigi KM-aruanne peab vastama selle riigi seaduste nõuetele. Järgmises tab
 |----------------|---------------------------------------------------------------------------------|
 | Austria        |  [KM-aruande üksikasjad Austria puhul](emea-aut-vat-statement-details.md)         |
 | Belgia        |                                                                                 |
-| Tšehhi Vabariik |  [KM-aruande üksikasjad Tšehhi Vabariigi puhul](emea-cze-vat-statement-details.md)   |
+| Tšehhi Vabariik |  [KM-aruanne Tšehhi Vabariigis](emea-cze-vat-statement-details.md)   |
 | Eesti        |  [KM-aruande üksikasjad Eesti puhul](emea-est-vat-statement-details.md) |
 | Soome        |                                                                                 |
 | Saksamaa        |                                                                                 |
-| Itaalia          | [KM-aruande üksikasjad Itaalia puhul](emea-ita-vat-statements-details.md)            |
+| Itaalia          | [KM-aruannete üksikasjad Itaalias](emea-ita-vat-statements-details.md)            |
 | Läti         | [KM-aruande üksikasjad Läti puhul](emea-lva-vat-statement-details.md)           |
 | Leedu      | [KM-aruande üksikasjad Leedu puhul](emea-ltu-vat-statement-details.md)         |
 | Holland    |                                                                                 |

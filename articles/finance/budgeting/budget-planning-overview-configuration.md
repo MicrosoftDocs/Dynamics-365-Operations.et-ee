@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce94f3bbb988640bc53ca2170c7ed54c6c01c18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5a33ced073394f0f3aa1b0b2e177e4608ca5bcf6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177386"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772026"
 ---
 # <a name="budget-planning-overview"></a>Eelarve plaanimise ülevaade
 
@@ -155,7 +155,8 @@ Näidisskeemi puhul võite soovida luua veerge PY müügi, lepingute ja prognoos
 
 Saate ka määrata iga paigutuselemendi (veeru) redigeeritavuse ja selle, kas veerg on saadaval igas selle paigutuse puhul loodud töölehe mallis. Näidisskeemi puhul on hinnangu etapi puhul kasutatud paigutuses eelarve veerud redigeeritavad, samas kui PY müügi ja lepingute veerud on kirjutuskaitstud.
 
-[!Note] Vaikimisi on teie veergude arv piiratud 36-le, välja arvatud kui suurendate eelarve plaanimist etappidega kohas [Laienda eelarve plaanimise paigutust](./extending-budget-planning-layout.md).
+> [!NOTE] 
+> Vaikimisi piirdutakse 36 veeruga, kui te ei pikenda eelarve planeerimist etappidega, mis on toodud jaotises [Eelarve planeerimise paigutuse pikendamine](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>Mallid
 

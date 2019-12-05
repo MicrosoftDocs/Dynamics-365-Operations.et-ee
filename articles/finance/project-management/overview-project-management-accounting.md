@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185631"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770355"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektijuhtimise ja raamatupidamise ülevaade
 
@@ -72,7 +72,7 @@ Lisateavet projektilepingute kohta vt jaotisest [Projektilepingud](project-contr
 
 WBS-i üksikasjalikkuse tase sõltub prognoosides vajalikust täpsuse tasemest ja nende prognooside suhtes vajaliku jälgimise tasemest.. Projektid, mille puhul on lubatud väga väike graafikust või maksumusest kõrvalekalle, nõuavad tavaliselt üksikasjalikumat WBS-i ja hoolikat töö edenemise ning samuti maksumuse jälgimist WBS-i suhtes. 
 
-Lisateavet leiate jaotisest [Tööjaotuse struktuurid](work-breakdown-structures.md).
+Lisateavet leiate jaotisest [Tööjaotuse struktuuride ülevaade](work-breakdown-structures.md).
 
 ### <a name="create-project-forecasts-and-budgets"></a>Projekti prognooside ja eelarvete loomine
 
@@ -134,7 +134,7 @@ Projekti elluviimise ajal kajastavad töörühma liikmed või juhid töö ja kul
 
 WBS on projekti puhul tehtava töö kirjeldus. WBS on ülesannete hierarhia. See kajastab iga ülesande puhul tööle ka ülesande ulatust, kulu ja kestust. 
 
-Lisateavet leiate jaotisest [Tööjaotuse struktuurid](work-breakdown-structures.md).
+Lisateavet leiate jaotisest [Tööjaotuse struktuuride ülevaade](work-breakdown-structures.md).
 
 ### <a name="manage-project-forecasts-and-budgets"></a>Projekti prognooside ja eelarvete haldamine
 

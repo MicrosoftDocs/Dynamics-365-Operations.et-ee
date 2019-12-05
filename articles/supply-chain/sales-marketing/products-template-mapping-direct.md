@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 38f0db7db0cc4f65d46cd241f75a7274f19f62cf
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 1a96fda4e7f7b6407c51ee4056088d05027462cf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251381"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813243"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Rakenduse Supply Chain Management toodete sünkroonimine otse rakenduse Sales toodetega
 
@@ -43,7 +43,7 @@ Lahendus Potentsiaalne klient sularahaks kasutab andmete integreerimise funktsio
 
 ## <a name="templates-and-tasks"></a>Mallid ja ülesanded
 
-Saadaolevatele mallidele juurdepääsemiseks avage [PowerApps administreerimiskeskus](https://admin.powerapps.com/dataintegration). Valige **Projektid** ja seejärel paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
+Saadaolevatele mallidele juurdepääsemiseks avage [Power Apps administreerimiskeskus](https://admin.powerapps.com/dataintegration). Valige **Projektid** ja seejärel paremas ülanurgas **Uus projekt**, et valida avalikud mallid.
 
 Toodete sünkroonimiseks rakendusest Supply Chain Management rakendusse Sales kasutatakse järgmist malli ja aluseks olevaid ülesandeid.
 
@@ -116,9 +116,9 @@ Järgmistel joonistel on toodud näide malli vastendusest andmete integreerimise
 
 [Rakenduse Sales kontaktide sünkroonimine otse rakenduse Supply Chain Management kontaktide või klientidega](contacts-template-mapping-direct.md)
 
-[Rakenduse Supply Chain Management müügitellimuse päiste ja ridade sünkroonimine otse rakendusega Sales](sales-order-template-mapping-direct-two-ways.md)
+[Müügitellimuste vahetu sünkroonimine rakenduse Sales ja rakenduse Supply Chain Management vahel](sales-order-template-mapping-direct-two-ways.md)
 
-[Rakenduse Supply Chain Management müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales](sales-invoice-template-mapping-direct.md)
+[Rakenduse Supply Chain Management arve päiste ja ridade sünkroonimine otse rakendusega Sales](sales-invoice-template-mapping-direct.md)
 
 
 

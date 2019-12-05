@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2339c6f901a3ef39ad4f9586b2f391b966a3df98
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2058eaac77282946559cae11fcec8152658fc96b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190139"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811353"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>Paralleelharude konfigureerimine töövoos
 
@@ -46,8 +46,8 @@ Sisestage paralleelharule nimi järgmisi juhiseid järgides.
 Järgige neid juhiseid, et kujundada ja konfigureerida paralleelharu elemendid.
 
 1. Topeltklõpsake paralleelharu.
-2. Lohistage töövoo elemendid lõuendile ja konfigureerige seejärel elemendid, nii nagu teeksite seda mis tahes muu töövoo loomiseks. Lisateavet vt teemast [Töövoo loomine](create-workflow.md) .
+2. Lohistage töövoo elemendid lõuendile ja konfigureerige seejärel elemendid, nii nagu teeksite seda mis tahes muu töövoo loomiseks. Lisateavet leiate teemast [Töövoogude loomise ülevaade](create-workflow.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Töövoo loomine](create-workflow.md)
+[Töövoogude loomise ülevaade](create-workflow.md)

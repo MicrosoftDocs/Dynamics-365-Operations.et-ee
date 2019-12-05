@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025999"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812691"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (20. märts 2019)
 
@@ -43,7 +43,7 @@ See funktsioon võimaldab otsingumootori robotitel jõuda Attracti karjäärisai
 Kui kandidaat unustab talle salvestatud või e-postiga saadetud linki avades tööle kandideerimisel kasutatud sotsiaalvõrgustike mandaadid, näevad nad nüüd vihjet pakkuja nime ja kasutajanimega (varjatuna). See aitab neil oma töö kandideerimisele juurdepääsu saamiseks õigeid mandaate kasutada.
 
 ### <a name="help-internal-candidates-explore-internal-jobs"></a>Aita sisekandidaatidel avastada ettevõttesiseseid töid
-Parandati viga, kus välised kandidaadid said töö näha värbaja või personalijuhi nime. Nüüd saavad töö värbamismeeskonna liikmeid näha ainult sisemised kandidaadid. Samuti on sisekandidaatidel lihtsam näha ja kandideerida ainult ettevõttesisestele töödele. Kui kandidaat püüab saada juurdepääsu lingile, et näha või kandideerida ainult ettevõttesisesele tööle, tuleb neil end autentida Azure Active Directory mandaatidega. Sisekandidaatid saavad ka värbamismeeskonna liikmega ühendust võtta, et väljendada oma huvi töö vastu või selle kohta rohkem teada saada. See võimalus on kõigi tööde juures saadaval ainult sisekandidaatidele. Lisainfo saamiseks vt [Karjäärisaidi funktsionaalsus Attractis](./career-site.md).
+Parandati viga, kus välised kandidaadid said töö näha värbaja või personalijuhi nime. Nüüd saavad töö värbamismeeskonna liikmeid näha ainult sisemised kandidaadid. Samuti on sisekandidaatidel lihtsam näha ja kandideerida ainult ettevõttesisestele töödele. Kui kandidaat püüab saada juurdepääsu lingile, et näha või kandideerida ainult ettevõttesisesele tööle, tuleb neil end autentida Azure Active Directory mandaatidega. Sisekandidaatid saavad ka värbamismeeskonna liikmega ühendust võtta, et väljendada oma huvi töö vastu või selle kohta rohkem teada saada. See võimalus on kõigi tööde juures saadaval ainult sisekandidaatidele. Lisateabe saamiseks vaadake jaotist [Karjäärisaidi seadistamine rakenduses Microsoft Dynamics 365 Talent – Attract](./career-site.md).
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>Nimetage hõbemedalistid, et määrata tulevastele ametikohtadele suure väärtusega kandidaadid
 Värbajad ja personalijuhid peavad tihti jooksvat nimekirja kandidaatidest, kes olid ametikohale sobivad, kuid kellele ei saadud pakkumist teha, sest ametikoht oli juba täidetud. Sellised kandidaadid, keda nimetatakse hõbemedalistideks, on väärtuslikud, sest nad aitavad vähendada värbamisaega järgmisel korral, kui sarnane ametikoht vabaneb. Attract võimaldab nüüd värbajatel ja personalijuhtidel nimetada hõbemedaliste kandidaatide nimekirjas, kui kandidaat on läinud edasi pakkumise etappi. Hõbemedalistide tähis ilmub töö kandidaatide nimekirja, kuid ka talendikausta vaatesse, kui need kandidaadid kuuluvad mõne värbaja või personalijuhi talendikausta. Lisaks kuvatakse tähist töö ajaloos kandidaadi talendikausta profiili osana. Selle funktsiooni eelvaadet näete, kui administraator selle sisse lülitab, kasutades [halduskeskuse funktsioonide haldust](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

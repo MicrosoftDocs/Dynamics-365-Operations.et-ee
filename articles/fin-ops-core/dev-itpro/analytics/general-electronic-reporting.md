@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578237"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771069"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroonilise aruandluse (ER) ülevaade
 
@@ -71,7 +71,7 @@ Väljaminevaid elektroonilisi dokumente toetaval mudelivastendusel on järgmised
 
 - See võib kasutada andmemudeli andmeallikatena erinevaid andmetüüpe. Näiteks võib see kasutada tabeleid, andmeüksus, meetodeid või loetelusid.
 - See toetab kasutaja sisendparameetreid, mida saab määratleda andmemudeli andmeallikatena, kui mõningad andmed on vaja määratleda käitusajal.
-- See toetab andmete teisendamist vajalikesse gruppidesse. Samuti võimaldab see filtreerida, sortida ja summeerida andmeid ning lisada loogilisi arvutatud välju, mis on kavandatud Microsoft Exceli valemitele sarnanevate valemite kaudu. Lisateavet leiate jaotisest [Valemikoostaja elektroonilises aruandluses](general-electronic-reporting-formula-designer.md)).
+- See toetab andmete teisendamist vajalikesse gruppidesse. Samuti võimaldab see filtreerida, sortida ja summeerida andmeid ning lisada loogilisi arvutatud välju, mis on kavandatud Microsoft Exceli valemitele sarnanevate valemite kaudu. Lisateavet vt [Valemikoostaja elektroonilises aruandluses (ER)](general-electronic-reporting-formula-designer.md)).
 
 
 Sissetulevaid elektroonilisi dokumente toetaval mudelivastendusel on järgmised võimalused.
@@ -362,5 +362,5 @@ ER võimaldab võtta automaatselt kasutusele aluskomponendi uusima versiooni muu
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Lokaliseerimisnõuded – Elektroonilise aruandluse konfiguratsiooni loomine](electronic-reporting-configuration.md)
-- [Elektroonilise aruandluse konfiguratsiooni elutsükli haldamine](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Elektroonilise aruandluse (ER) konfiguratsioonide loomine](electronic-reporting-configuration.md)
+- [Elektroonilise aruandluse (ER) konfiguratsiooni elutsükli haldamine](general-electronic-reporting-manage-configuration-lifecycle.md)

@@ -3,7 +3,7 @@ title: Kasutajate määramine turberollidesse
 description: Finance and Operationsi rakendustele juurde pääsemiseks tuleb määrata kasutajatele turberoll.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4daecc1acd589cd1656402244e5325382a407e7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
+ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180963"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2807992"
 ---
 # <a name="assign-users-to-security-roles"></a>Kasutajate määramine turberollidesse
 
@@ -37,6 +37,9 @@ Tavalistest võimalustest enama kasutamiseks tuleb määrata kasutajatele turber
 5. Klõpsake loendis **Liikmesuse reegli nimi** valitud rea linki.
 6. Klõpsake **Redigeeri päringut**. Redigeerige vajaduse korral päringut.  
 7. Klõpsake valikut **OK**.
+8. Klõpsake valikut **Käivita automaatne rollide määramine**.
+9. Avage **Navigeerimispaan > Moodulid > Süsteemihaldus > Kasutajad > Kasutajad** (ideaalis eraldi brauseri vahekaardil).
+10. Vaadake üle erinevatele kasutajatele määratud rollid ja veenduge, et rollide määramise päring oleks õige. Kohandage ja käivitage vajaduse korral uuesti.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Kasutajate välistamine automaatsest rollimäärangust
 1. Sulgege leht.

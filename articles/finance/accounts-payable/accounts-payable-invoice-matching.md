@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b45c6f20bf5b6fb02379f71b5806c6c147789e73
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a8e283038a0cc1c9834a827c453f2951e9e87bcf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189748"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772279"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Ostureskontro arvete võrdlemise ülevaade
 
@@ -189,7 +189,7 @@ Hankijaarved põhinevad ostutellimuste asemel tihti tegelikke saadetisi kajastav
 -   Sisestage arve summad, mida ei kaasatud algsesse ostutellimusse, nii et arve teave kattuks arvega, mille hankijalt saite. Saate võrrelda ostutellimuste tasusid arvete tasudega. Vajaduse korral saate tasud arvetele lisada ja määrata need arve ridadele.
 -   Vaadake ja kinnitage hinna võrdluslahknevusi arve ühiku netohinna ja ostutellimuse ühiku netohinna vahel. Võite seadistada hinnakõikumisprotsendid juriidilistele isikutele, hankijatele ja kaupadele. Kui hankija arve rea hind pole vastuvõetava hinnakõikumise piires, võite arve salvestada, kuni see on sisestamiseks kinnitatud või kuni saate hankijalt paranduse.
 
-Lisateabe saamiseks vt [Kolmesuunaline vastavusse viimise poliitika](three-way-matching-policies.md) ja [Ostureskontro arvete võrdlemise kinnitamise häälestamine](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
+Lisateabe saamiseks vaadake jaotiseid [Kolmepoolsed vastavusse viimise poliitikad](three-way-matching-policies.md) ja [Ostureskontro arve vastavuse valideerimise seadistamine](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 2bb5dd5e29559807e40b66ad7f9c061bf510ed67
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba0d11efe868d57c74f6ae4b069d1cb8351f7213
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026137"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773053"
 ---
 # <a name="provision-talent"></a>Talenti ettevalmistamine
 
@@ -49,12 +49,12 @@ Pärast LCS-i projekti loomist saate Talenti ette valmistada keskkonnas.
 1. Valige oma LCS-i projektis paan **Talenti rakendusehaldus**.
 2. Näidake, kas see on Talenti liivakasti- või tootmiseksemplar. Liivakastieksemplaride puhul võivad varase tagasiside ja testimise jaoks saadaval olla eelvaatefunktsioonid. 
     > [!NOTE]
-    > Talenti eksemplari tüüp on eraldi PowerApps keskkonnas eksemplari tüübist, mida seate PowerApps halduskeskuses.
+    > Talenti eksemplari tüüp on eraldi Microsoft Power Apps keskkonnas eksemplari tüübist, mida seate Power Apps halduskeskuses.
 3. Kui soovite, et keskkonnas kasutataks samu demoandmete kogumit, mida kasutati Talenti proovikeskkonnas, siis valige suvand **Kaasa demoandmed**. See on kasulik pikaajalistes demo- või koolituskeskkondades, kuid seda ei tohiks kunagi tootmiskeskkondade jaoks kasutada.  Pange tähele, et see suvand tuleb valida algsel juurutusel. Hiljem ei saa olemasolevat juurutust värskendada.
-4. Talent on alati ette valmistatud Microsoft PowerAppsi keskkonnana, et lubada PowerAppsi integreerimine ja laiendatavus. Enne jätkamist lugege selle teema jaotist PowerAppsi keskkonna valimine. Kui teil ei ole veel PowerAppsi keskkonda, valige LCS-is Keskkondade haldamine või navigeerige PowerAppsi halduskeskusesse. Seejärel järgige juhseid jaotises [PowerAppsi keskkonna loomine](https://docs.microsoft.com/powerapps/administrator/create-environment).
+4. Talent on alati ette valmistatud Microsoft Power Appsi keskkonnana, et lubada Power Appsi integreerimine ja laiendatavus. Enne jätkamist lugege selle teema jaotist Power Appsi keskkonna valimine. Kui teil ei ole veel Power Appsi keskkonda, valige LCS-is Keskkondade haldamine või navigeerige Power Appsi halduskeskusesse. Seejärel järgige juhseid jaotises [Power Appsi keskkonna loomine](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
     > [!NOTE]
-    > Olemasolevate keskkondade vaatamiseks või uute keskkondade loomiseks peab Talenti ettevalmistavale rentnikuadministraatorile olema määratud PowerApps P2 litsents. Kui teie organisatsioonil ei ole PowerApps P2 litsentsi, saate selle oma CSP-lt või [PowerAppsi hinnakujunduse lehelt](https://powerapps.microsoft.com/pricing/).
+    > Olemasolevate keskkondade vaatamiseks või uute keskkondade loomiseks peab Talenti ettevalmistavale rentnikuadministraatorile olema määratud Power Apps P2 litsents. Kui teie organisatsioonil ei ole Power Apps P2 litsentsi, saate selle oma CSP-lt või [Power Appsi hinnakujunduse lehelt](https://powerapps.microsoft.com/pricing/).
 
 5. Valige keskkond, kus Talenti ette valmistada.
 6. Valige **Jah**, et nõustuda tingimustega ja alustada juurutamist.
@@ -68,19 +68,19 @@ Pärast LCS-i projekti loomist saate Talenti ette valmistada keskkonnas.
 
     > Kuna Talendi kordustellimuse puhul on lubatud ainult kaks LCS-i keskkonda, võite kaaluda tasuta 60-päevase [Talenti proovikeskkonna](https://dynamics.microsoft.com/talent/overview/) kasutamist. Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi Core HR-i süsteemiadministratsiooni kogemuse. Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda. Need pole mõeldud kasutamiseks tootmiskeskkonnana. Pange tähele, et proovikeskkonna aegumisel 60 päeva möödudes kustutatakse kõik selles sisalduvad andmed ning neid ei saa taastada. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
 
-## <a name="select-a-powerapps-environment"></a>Valige PowerAppsi keskkond
+## <a name="select-a-power-apps-environment"></a>Valige Power Appsi keskkond
 
-Talenti ja PowerAppsi keskkondade integratsioon võimaldab teil Talenti andmeid integreerida ja nende kasutust laiendada, kasutades PowerAppsi tööriistu. PowerAppsi keskkondade eesmärkide mõistmine aitab teil luua rakendusi Talenti laiendamiseks ja lihtsustab ka Talenti ettevalmistamisel õige keskkonna valimist. Teavet PowerAppsi keskkondade, sh keskkonna ulatuse, keskkonnale juurdepääsu ning keskkonna loomise ja valimise kohta vaadake teemat [Tutvustame PowerAppsi keskkondi](https://powerapps.microsoft.com/blog/powerapps-environments/). 
+Talenti ja Power Appsi keskkondade integratsioon võimaldab teil Talenti andmeid integreerida ja nende kasutust laiendada, kasutades Power Appsi tööriistu. Power Appsi keskkondade eesmärkide mõistmine aitab teil luua rakendusi Talenti laiendamiseks ja lihtsustab ka Talenti ettevalmistamisel õige keskkonna valimist. Teavet Power Appsi keskkondade, sh keskkonna ulatuse, keskkonnale juurdepääsu ning keskkonna loomise ja valimise kohta vaadake teemat [Tutvustame Power Appsi keskkondi](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
-Kasutage järgmisi juhiseid, kui otsustate, millisesse PowerAppsi keskkonda Talenti juurutada. 
+Kasutage järgmisi juhiseid, kui otsustate, millisesse Power Appsi keskkonda Talenti juurutada. 
 
-1. LCS-is valige suvand **Keskkondade haldamine** või minge otse PowerAppsi administreerimiskeskusse, kus saate vaadata olemasolevaid keskkondi ja luua uusi keskkondi.
-2. Üks Talenti keskkond on vastendatud ühe PowerAppsi keskkonnaga.
-3. PowerAppsi keskkond sisaldab Talenti rakendust koos vastavate PowerAppsi, Flow ja Common Data Servicei rakendustega. Kui PowerAppsi keskkond kustutatakse, kustutatakse ka selles olevad rakendused. Talenti keskkonna ettevalmistamisel saab ette valmistada kas **Prooviversiooni** või **Tootmise keskkonna**. Valige keskkonna tüüp keskkonna kasutamisel põhjal. 
-4. Arvestada tuleks andmete integreerimis- ja testimisstrateegiatega, nagu liivakast, UAT või tootmine. Soovitame kaaluda juurutamise erinevaid mõjusid, kuna hiljem ei ole lihtne muuta, milline Talenti keskkond PowerAppsi keskkonnaga vastendatakse.
-5. Järgmisi PowerAppsi keskkondasid ei saa Talenti jaoks kasutada ja need filtreeritakse LCS-is valikuloendist välja.
+1. LCS-is valige suvand **Keskkondade haldamine** või minge otse Power Appsi administreerimiskeskusse, kus saate vaadata olemasolevaid keskkondi ja luua uusi keskkondi.
+2. Üks Talenti keskkond on vastendatud ühe Power Appsi keskkonnaga.
+3. Power Appsi keskkond sisaldab Talenti rakendust koos vastavate Power Appsi, Power Automate’i ja Common Data Service’i rakendustega. Kui Power Appsi keskkond kustutatakse, kustutatakse ka selles olevad rakendused. Talenti keskkonna ettevalmistamisel saab ette valmistada kas **Prooviversiooni** või **Tootmise keskkonna**. Valige keskkonna tüüp keskkonna kasutamisel põhjal. 
+4. Arvestada tuleks andmete integreerimis- ja testimisstrateegiatega, nagu liivakast, UAT või tootmine. Soovitame kaaluda juurutamise erinevaid mõjusid, kuna hiljem ei ole lihtne muuta, milline Talenti keskkond Power Appsi keskkonnaga vastendatakse.
+5. Järgmisi Power Appsi keskkondasid ei saa Talenti jaoks kasutada ja need filtreeritakse LCS-is valikuloendist välja.
  
-    - **PowerAppsi vaikekeskkonnad** – kuigi iga rentniku jaoks on automaatselt ette valmistatud PowerAppsi vaikekeskkond, ei soovita me neid keskkondi Talentis kasutada, sest kõigil rentniku kasutajatel on juurdepääs PowerAppsi keskkonnale ja nad võivad tahtmatult tootmisandmeid rikkuda, kui nad katsetavad ja tutvuvad PowerAppsi või Flow integratsioonidega.
+    - **Power Appsi vaikekeskkonnad** – kuigi iga rentniku jaoks on automaatselt ette valmistatud Power Appsi vaikekeskkond, ei soovita me neid keskkondi Talentis kasutada, sest kõigil rentniku kasutajatel on juurdepääs Power Appsi keskkonnale ja nad võivad tahtmatult tootmisandmeid rikkuda, kui nad katsetavad ja tutvuvad Power Appsi või Power Automate’i integratsioonidega.
    
     - **Proovikeskkonnad** – need keskkonnad luuakse aegumisperioodiga, pärast mida need aeguvad, misjärel teie keskkond ja selles sisalduvad Talenti eksemplarid eemaldatakse automaatselt.
    

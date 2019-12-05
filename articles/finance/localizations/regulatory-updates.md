@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 480253d1401c567e27f636f8a2b19fa3937e89e5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653200"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770380"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
@@ -82,11 +82,11 @@ Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist t
 |      2019. aprill          |   10.0.1      | Ungari      |  Ungari: veebipõhine arveldussüsteem v.1.1 2019  |
 |      2019. aprill          |   10.0.1      | Jaapan      |  Jaapani kalendriajastu vahetamine 2019. aastal  |
 |      2019. aprill          |   10.0.1      |    Venemaa     |Maamaksu deklaratsiooni muudatused alates 2018. aastast |
-|      2019. aprill          |   10.0.1      |    Venemaa     |[Omandimaksu deklaratsiooni muudatused alates 2019. aastast](rus-assessed-tax-declaration.md)|
+|      2019. aprill          |   10.0.1      |    Venemaa     |[Otsese maksu deklaratsioon](rus-assessed-tax-declaration.md)|
 |      2019. aprill          |   10.0.1      |    Venemaa     |Transpordimaksu deklaratsiooni muudatused alates 2019. aastast  |
-|      2019. aprill          |   10.0.1      |    Venemaa     |[KM-i deklaratsiooni vorming muutub alates 2019. aastast](rus-VAT-declaration.md) |
+|      2019. aprill          |   10.0.1      |    Venemaa     |[Käibemaksudeklaratsioon](rus-VAT-declaration.md) |
 |      2019. aprill          |   10.0.1      |    Venemaa     |KM-i deklaratsiooni vorming muutub alates 2019. aastast (müügi- ja osturaamatud) |
-|      2019. aprill          |   10.0.1      |    Ühendkuningriik     |[KM-aruande esitamismuudatused (maksude digitaalseks muutmine)](emea-gbr-mtd-vat-integration.md)    |    
+|      2019. aprill          |   10.0.1      |    Ühendkuningriik     |[Rakenduse Finance and Operations ettevalmistamine KM-i jaoks MTD-ga integreerimiseks](emea-gbr-mtd-vat-integration.md)    |    
 |      2019. märts          |   10.0.0      |    Austria   |   Muudatused Kammerumlages 2019 (ostukohustus)    |
 |      2019. märts          |   10,0,0      |    Brasiilia    |     SPED EFD panused – paigutused 004 ja 005  |
 |      2019. märts          |   10,0,0      |    Malaisia     |Malaisia asendab GST SST müügi- ja teenusemaksuga        |

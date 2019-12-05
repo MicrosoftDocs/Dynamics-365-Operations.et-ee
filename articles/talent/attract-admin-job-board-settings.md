@@ -1,5 +1,5 @@
 ---
-title: Luba Broadbeani integreerimine rakenduses Microsoft Dynamics 365 Talent – Attract
+title: Luba Attractis Broadbeani integreerimine
 description: Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Talent – Attract postitama töid välistele töölaudadele (nt Broadbean).
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0ca655655f79ddf88b6f6c7377a1b596477c35a7
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 10b612711e81b2b368ed23fdd95ab6a66451f0ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552136"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833204"
 ---
-# <a name="enable-broadbean-integration-in-microsoft-dynamics-365-talent---attract"></a>Luba Broadbeani integreerimine rakenduses Microsoft Dynamics 365 Talent – Attract
+# <a name="enable-broadbean-integration-in-attract"></a>Luba Attractis Broadbeani integreerimine
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Soovite, et teave teie vabadest ametikohtadest jõuaks võimalikult paljude kvalifitseeritud kandidaatideni. Värbamissaidid nagu Broadbean aitavad teil seda eesmärki saavutada. Microsoft Dynamics 365 Talent: Attract võimaldab teil töökuulutusi Broadbeani sisestada ja Microsoft teeb selles vallas pidevalt uusi pakkumisi.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b09d09464eae932bf9caf4f2ea38cbbb3b4f0162
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190208"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811377"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Töövoo kinnitusprotsesside konfigureerimine
 
@@ -182,4 +182,4 @@ Kinnitusprotsess koosneb kinnitusetappidest. Kinnitusprotsessi etappide lisamise
 
 1. Topeltklõpsake töövooredaktoris kinnitusprotsessi. Töövooredaktoris kuvatakse kinnitusprotsessi etapid.
 2. Kinnitusetapi lisamiseks lohistage etapp alalt **Töövoo elemendid** lõuendile.
-3. Kinnitusetapi konfigureerimiseks vt teemat [Kinnitusetapi konfigureerimine](configure-approval-step-workflow.md).
+3. Kinnitusetapi konfigureerimiseks vaadake jaotist [Töövoos kinnitusetappide konfigureerimine](configure-approval-step-workflow.md).

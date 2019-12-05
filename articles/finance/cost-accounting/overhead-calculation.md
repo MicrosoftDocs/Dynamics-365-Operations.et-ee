@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6c045f82f3288dba193721dd80c90e68750af9a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 954e0669c3d24bcc20fe667c22b7dcc367aba1e7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177362"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770800"
 ---
 # <a name="overhead-calculation"></a>Üldkulude arvutus
 
@@ -1411,7 +1411,7 @@ Finantsaruandluses sisestatakse elektrikulu 10 000,00 fiktiivse kulukeskuse ID-l
 </table>
 
 > [!NOTE]
-> Selles teemas selgitatakse, kuidas esmane kuluelement, 10001 Eleter, liigub läbi kuluobjektide. Seega eraldatakse see üldkulu organisatsiooni madalaimale tasemele. Teisisõnu kannavad kulu madalaimal tasemel olevad kuluobjektid. Kui soovite saada kuluobjektide vahelisest kuluvoost visuaalset ülevaadet, saate kuluvoo visualiseerimiseks kasutada kulude kokkuvõtte poliitika reegleid. Täpsemat teavet vt teemast [Kulude kokkuvõte](cost-rollup.md).
+> Selles teemas selgitatakse, kuidas esmane kuluelement, 10001 Eleter, liigub läbi kuluobjektide. Seega eraldatakse see üldkulu organisatsiooni madalaimale tasemele. Teisisõnu kannavad kulu madalaimal tasemel olevad kuluobjektid. Kui soovite saada kuluobjektide vahelisest kuluvoost visuaalset ülevaadet, saate kuluvoo visualiseerimiseks kasutada kulude kokkuvõtte poliitika reegleid. Lisateavet vt teemast [Kulukomplekti poliitika ja üldkulude arvutus](cost-rollup.md).
 
 
 

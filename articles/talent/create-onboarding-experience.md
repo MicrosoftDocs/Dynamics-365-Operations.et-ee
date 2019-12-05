@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8c11186ff3f95a7f1e00f9e42d7b78f5a68957b0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008124"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813933"
 ---
 # <a name="get-started-with-onboard"></a>Onboardi kasutamise alustamine
 
@@ -35,17 +35,17 @@ Onboardiga saate kiiresti luua sisseelamisjuhendi, mis tervitab uusi töötajaid
 
 Onboardi rakenduse hankimise ja kasutamise kohta leiate teavet järgmistest teemadest.
 
-- [Rakenduse Onboard hankimine](./onboard-get-app.md)
-- [Sisseelamisjuhendi loomine](./onboard-create-guide.md)
-- [Sisseelamismalli loomine](./onboard-create-template.md)
-- [Sisseelamisjuhendite ja mallide redigeerimine](./onboard-edit-guides-templates.md)
-- [Sisu jagamine teiste kaasautoritega](./onboard-share-template.md)
-- [Vaadake tööülesannete ja töötajate töölevõtmise olekut](./onboard-view-status.md)
-- [Looge Onboardis värbamismeeskonnad](./onboard-create-team.md)
+- [Hankige rakendus Dynamics 365 Talent – Onboard](./onboard-get-app.md)
+- [Kasutage sisestusjuhendi loomiseks ja saatmiseks rakendust Dynamics 365 Talent – Onboard](./onboard-create-guide.md)
+- [Kasutage sisestusmalli loomiseks ja saatmiseks rakendust Dynamics 365 Talent – Onboard](./onboard-create-template.md)
+- [Redigeerige sisestusjuhendeid ja -malle rakenduses Dynamics 365 Talent – Onboard](./onboard-edit-guides-templates.md)
+- [Jagage sisu teiste kaastöötajatega rakenduses Dynamics 365 Talent – Onboard](./onboard-share-template.md)
+- [Vaadake sissetulevate töötajate olekut ja tööülesandeid](./onboard-view-status.md)
+- [Kasutage värbamismeeskonna loomiseks rakendust Dynamics 365 Talent – Onboard](./onboard-create-team.md)
 
 ## <a name="see-also"></a>Vt ka
 
 - [Proovige või ostke Onboardi rakendus](https://dynamics.microsoft.com/talent/onboard/)
-- [Mis on uut?](./whats-new.md)
-- [Väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Toe hankimine](./talent-support.md)
+- [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent?](./whats-new.md)
+- [Väljalaskeplaanid](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Toe hankimine rakendusele Microsoft Dynamics 365 Talent](./talent-support.md)

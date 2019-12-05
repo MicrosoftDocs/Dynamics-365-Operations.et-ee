@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: 45c0e3b569ca733ae3b70187633d2e84db5ecd87
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578214"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771162"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Täiustused loodud elektroonilise aruandluse aruannete tulemuste jälgimises ja nende võrdlemises alusväärtustega
 
@@ -147,7 +147,7 @@ Valitud elektroonilise aruandluse vormingu komponent on lisatud komponentide loe
 
 Järgige etappe selle teema jaotises „Näide. Alusreeglite seadistamise automatiseerimine”. Teatis hoiatab teid, et väljaminev fail on loodud, kasutades alussätteid, ja et tekkinud on vormingu sidumiste sundasendamine.
 
-![Teatis konfiguratsioonide lehel](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Kuvatõmmis teatisest konfiguratsioonide lehel")
+![Teatis lehel Konfiguratsioonid](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Kuvatõmmis teatisest lehel Konfiguratsioonid")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Vormingu sidumiste asendamise hoiatuste peitmine
 
@@ -195,11 +195,11 @@ Eksporditud alussätteid saab importida teise keskkonda. Keskkond tuleb kõigepe
 
 Alussätete importimiseks lokaalselt salvestatud XML-failist valige lehel **Elektroonilise aruandluse vormingu alused** käsk **Impordi** ja seejärel käsk **Sirvi**, et valida XML-fail.
 
-![Alussätete importimise dialoogiaken](media/GER-BaselineSample-ImportBaseline1.PNG "Alussätete importimise dialoogiakna kuvatõmmis")
+![Alussätete importimise dialoogiaken](media/GER-BaselineSample-ImportBaseline1.PNG "Kuvatõmmis dialoogiaknast Alussätete importimine")
 
 Alussätete importimiseks Microsoft SharePoint Serverisse salvestatud XML-failist praeguste dokumendihalduse sätete ja valitud dokumendi tüübi põhjal valige lehel **Elektroonilise aruandluse vormingu alused** käsk **Impordi allikast**. Seejärel valige dokumendi tüüp ja XML-fail. SharePointi kaustale ligipääsemiseks vajalik dokumendi tüüp peab olema varem konfigureeritud.
 
-![Allikast importimise dialoogiaken](media/GER-BaselineSample-ImportBaseline2.PNG "Allikast importimise dialoogiakna kuvatõmmis")
+![Allikast importimise dialoogiaken](media/GER-BaselineSample-ImportBaseline2.PNG "Kuvatõmmis dialoogiaknast Allikast importimine")
 
 > [!NOTE]
 > Dialoogiaknast **Allikast importimine** vajaliku dokumendi tüübi ja faili nime valimise etappide salvestamiseks saate kasutada tegevuse salvestajat. Nii saate säilitada vajalikke alussätteid SharePointi serveris ja seejärel need automaatselt importida, esitades tegevuse salvestist automaatsete katsete käivitamisel tööriistaga Regression Suite Automation Tool.
@@ -207,4 +207,4 @@ Alussätete importimiseks Microsoft SharePoint Serverisse salvestatud XML-failis
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Loodud aruandetulemite jälgimine ja nende võrdlemine alusväärtustega](er-trace-reports-compare-baseline.md)
-- [Ülesande salvestaja](../user-interface/task-recorder.md)
+- [Tegevuse salvestaja ressursid](../user-interface/task-recorder.md)

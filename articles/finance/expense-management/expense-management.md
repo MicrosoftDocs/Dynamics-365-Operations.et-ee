@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03d62e3475b4336e86e203bbd347d110704eba07
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7066a021390e3403c4312a7cfe8488a989b9aaa3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177349"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771934"
 ---
 # <a name="expense-management-overview"></a>Kuluhaldamise ülevaade
 
@@ -37,7 +37,7 @@ Lisateavet vt jaotisest [Kuluhalduse konfigureerimine](plan-expense-management.m
 
 ### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 
-Avage [Microsoft Dynamics 365 väljalaskemärkmed](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone kavandatakse.
+Avage [Microsoft Dynamics 365 väljalaskeplaanid](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone kavandatakse.
 
 #### <a name="expense-report-entry"></a>Kuluaruande sisestamine
 
@@ -51,7 +51,7 @@ Arvamusi, uudiseid ja muud teavet leiate [Microsoft Dynamics 365 ajaveebist](htt
 
 [Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamics partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses MBS Operations.
 
-### <a name="task-guides"></a>Tegevusjuhised
+### <a name="task-guides"></a>Tegevuse juhised
 
 Täiendav spikker on saadaval ülesandejuhistena. Tegevuse juhistele juurdepääsemiseks valige ükskõik millisel lehel nupp **Spikker**.
 

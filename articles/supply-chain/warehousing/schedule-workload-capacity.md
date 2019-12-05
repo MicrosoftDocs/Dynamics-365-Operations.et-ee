@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d5d878b0fe4e6b65aa2439d7ef7312eda1895823
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559024"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814923"
 ---
 # <a name="schedule-workload-capacity"></a>Töökoormuse võimsuse plaanimine
 
@@ -30,7 +30,7 @@ ms.locfileid: "1559024"
 
 Saate plaanida töökoormuse võimsuse ladudele ning kavandada praegused ja tulevased töökoormused üksikutes ladudes olevatele töötajatele. Saate kavandada kogu lao töökoormuse või saate sissetulevate ja väljaminevate töökoormuste jaoks töökoormuse eraldi kavandada.
 
-Valitud ladudele töökoormuse väljundi kavandamiseks peavad koondplaneerimise andmed nende ladude kohta saadaval olema. Lisateavet vt teemast [Koondplaanid](../master-planning/master-plans.md).
+Valitud ladudele töökoormuse väljundi kavandamiseks peavad koondplaneerimise andmed nende ladude kohta saadaval olema. Lisateavet vt teemast [Koondplaanide ülevaade](../master-planning/master-plans.md).
 
 ## <a name="schedule-and-view-workloads-for-a-warehouse"></a>Lao töökoormuste plaanimine ja vaatamine
 

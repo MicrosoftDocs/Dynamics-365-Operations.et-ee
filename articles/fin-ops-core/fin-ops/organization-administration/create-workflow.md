@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190093"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811285"
 ---
 # <a name="create-workflows-overview"></a>Töövoogude ülevaate loomine
 
@@ -54,21 +54,21 @@ Järgige neid juhiseid töövoo atribuutide konfigureerimiseks.
 
 1. Klõpsake lõuend veendumaks, et töövoo element pole valitud.
 2. Klõpsake valikut **Atribuudid**, et avada töövoo leht **Atribuudid**.
-3. Järgige teemas [Töövoo atribuutide konfigureerimine](configure-workflow-properties.md) kirjeldatud protseduure.
+3. Järgige protseduure teemas [Töövooatribuutide konfigureerimine](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Töövoo elementide konfigureerimine
 
 Konfigureerige iga elemendi läbite lõuendile. Iga töövooelemendi konfigureerimise kohta lisateabe saamiseks vaadake järgmisi teemasid.
 
-- [Käsitsi ülesande konfigureerimine](configure-manual-task-workflow.md)
-- [Automatiseeritud ülesande konfigureerimine](configure-automated-task-workflow.md)
-- [Kinnitusprotsessi konfigureerimine](configure-approval-process-workflow.md)
-- [Kinnitussammu konfigureerimine](configure-approval-step-workflow.md)
-- [Käsitsi otsuse konfigureerimine](configure-manual-decision-workflow.md)
-- [Tingimusliku otsuse konfigureerimine](configure-conditional-decision-workflow.md)
-- [Paralleeltegevuse konfigureerimine](configure-parallel-activity-workflow.md)
+- [Töövoos käsitsi ülesannete konfigureerimine](configure-manual-task-workflow.md)
+- [Töövoos automaatsete ülesannete konfigureerimine](configure-automated-task-workflow.md)
+- [Töövoo kinnitusprotsesside konfigureerimine](configure-approval-process-workflow.md)
+- [Töövoo kinnitusetappide konfigureerimine](configure-approval-step-workflow.md)
+- [Töövoos käsitsi otsuste konfigureerimine](configure-manual-decision-workflow.md)
+- [Töövoos tingimuslike otsuste konfigureerimine](configure-conditional-decision-workflow.md)
+- [Paralleelharude konfigureerimine töövoos](configure-parallel-activity-workflow.md)
 - [Paralleelharu konfigureerimine](configure-parallel-branch-workflow.md)
-- [Reakauba töövoo konfigureerimine](configure-line-item-workflow.md)
+- [Reakauba töövoogude konfigureerimine](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>Lahenda tõrkeid ja hoiatusi
 

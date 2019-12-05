@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2e5144517a880c41cf04998ed53a826a75ecefb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3d1d8952324bb16bcfa6a8b42fc4f157edb75cf1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177439"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811300"
 ---
 # <a name="electronic-signatures-overview"></a>Digitaalallkirjade ülevaade
 
@@ -44,7 +44,7 @@ Elektronallkirjad on määrustele vastavuse nõue mitmes reguleeritud tööstush
 
 Saate kasutada elektronallkirju tähtsateks äriprotsessideks. Mõnedel protsessidel on sisseehitatud elektronallkirja võimalused. Igale andmebaasi tabelile või väljale saate luua ka allkirjanõuded.
 
-Elektronallkirjadel on sisseehitatud digitaalallkirja funktsioon. Iga dokumenti allkirjastav kasutaja peab hankima kehtiva krüptograafilise serdi. Dokumendi allkirjastamisel kinnitatakse sertifikaadiga seostuv privaatvõti. Elektronallkirja teave salvestatakse kontrolljälje pakkumiseks logisse. Teavet elektrooniliste allkirjade seadistamise kohta vt teemast [Elektrooniliste allkirjade seadistamine (tegevuse juhis)](tasks/set-up-electronic-signatures.md).
+Elektronallkirjadel on sisseehitatud digitaalallkirja funktsioon. Iga dokumenti allkirjastav kasutaja peab hankima kehtiva krüptograafilise serdi. Dokumendi allkirjastamisel kinnitatakse sertifikaadiga seostuv privaatvõti. Elektronallkirja teave salvestatakse kontrolljälje pakkumiseks logisse. Elektrooniliste allkirjade seadistamise kohta vt jaotist [Elektrooniliste allkirjade seadistamine](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Kasutajad, kes vajavad juurdepääsu elektronallkirjadele
 

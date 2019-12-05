@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 974f99632738cfc6eec5ff85965f4e9f9608a8b5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3e110c7fe6881825fe2b075c1795bc4f7e938da4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177470"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811503"
 ---
 # <a name="view-and-export-field-descriptions"></a>Väljade kirjelduste vaatamine ja eksportimine
 
@@ -35,7 +35,7 @@ Mõnedel keerukamatel väljadel on välja kirjeldused. Need kirjeldused kuvataks
 
 Kõigil lehekülgedel ei ole väljade kirjeldusi. Soovime pakkuda kirjeldusi ainult keerukamate väljade jaoks, mitte nende väljade jaoks, mille kasutamine on ilmselge. Seetõttu pole mõnel lehel väljade kirjeldusi, mõnel lehel on mõned kirjeldused ja mõnel keerukamal lehel (nt paljudel parameetrilehtedel) on palju kirjeldusi.
 
-Kui teil on juurdepääs arenduskeskkonnale, saate lisada uusi väljade kirjeldusi ja kohandada olemasolevaid kirjeldusi. Näiteks saate lisada välja kirjeldusele ettevõttepõhist teavet. Lisateavet leiate jaotisest [Välja spikri kohandamine](../../dev-itpro/user-interface/customize-field-help.md).
+Kui teil on juurdepääs arenduskeskkonnale, saate lisada uusi väljade kirjeldusi ja kohandada olemasolevaid kirjeldusi. Näiteks saate lisada välja kirjeldusele ettevõttepõhist teavet. Lisateavet leiate jaotisest [Välja kirjelduste kohandamine](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Väljakirjelduste vaatamine kasutajaliideses
 
@@ -107,4 +107,4 @@ Teavet mitmesuguste võimaluste kohta lehtede otsimiseks leiate selle artikli va
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Väljaspikri kohandamine](../../dev-itpro/user-interface/customize-field-help.md)
+[Välja kirjelduste kohandamine](../../dev-itpro/user-interface/customize-field-help.md)

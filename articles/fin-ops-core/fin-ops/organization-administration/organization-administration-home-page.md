@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36784311294f80f56f680cd6d14cc989b629ba12
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9b1b519d116a55c255cf90d9478ee1714de90264
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177438"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811314"
 ---
 # <a name="organization-administration-home-page"></a>Organisatsioonihalduse avaleht
 
@@ -37,7 +37,7 @@ Suur osa siin nimetatud sisust kohaldub mooduli **Organisatsiooni haldus** funkt
 Numbriseeriaid kasutatakse loetavate ainuidentifikaatorite loomiseks koondandmete ja kannete kirjete jaoks, mis nõuavad identifikaatoreid. Koondandmete kirjet või kandekirjet, mis nõuab ID-d, nimetatakse *viiteks*. Enne kui saate viite jaoks uusi kirjeid luua, peate seadistama numbriseeria ja selle viitega siduma.
 
 - [Numbriseeriate ülevaade](number-sequence-overview.md)
-- [Numbriseeriate seadistamine viisardit kasutades](tasks/set-up-number-sequences-wizard.md) (tegevusjuhis)
+- [Numbriseeriate seadistamine viisardit kasutades](tasks/set-up-number-sequences-wizard.md) (tegevuse juhis)
 - [Eraldi numbriseeriate seadistamine](tasks/set-up-number-sequences-individual-basis.md) (tegevusjuhis)
 
 ## <a name="organizations"></a>Organisatsioonid
@@ -46,8 +46,8 @@ Organisatsiooni on grupp inimesi, kes töötavad koos äriprotsessi või eesmär
 
 Organisatsioonide ja organisatsiooni hierarhiate seadistamiseks plaanige kindlasti oma ettevõtte mudel. Organisatsioonimudelil on juurutamisele ja äriprotsessidele oluline mõju.
 
-- [Organisatsioonid ja organisatsiooni hierarhiad](organizations-organizational-hierarchies.md)
-- [Organisatsiooni hierarhia kavandamine](plan-organizational-hierarchy.md)
+- [Organisatsioonide ja organisatsioonihierarhiate ülevaade](organizations-organizational-hierarchies.md)
+- [Organisatsioonihierarhia kavandamine](plan-organizational-hierarchy.md)
 - [Organisatsiooni hierarhia loomine](tasks/create-organization-hierarchy.md) (tegevusjuhis)
 - [Juriidilise isiku loomine](tasks/create-legal-entity.md) (tegevusjuhis)
 - [Tootmisüksuse loomine](tasks/create-operating-unit.md) (tegevusjuhis)
@@ -58,8 +58,8 @@ Globaalne aadressiraamat on tsentraalne hoidla, kus hoitakse koondandmeid, mida 
 
 Pärast globaalse aadressiraamatu loomist, saate luua vajaduse järgi täiendavaid aadressiraamatuid, näiteks eraldi aadressiraamatu iga ettevõtte jaoks oma organisatsioonis või iga tegevusala jaoks.
 
-- [Globaalne aadressiraamat](overview-global-address-book.md)
-- [Globaalse aadressiraamatu ja täiendavate aadressiraamatute konfigureerimise plaan](plan-configuration-global-address-book-additional-address-books.md)
+- [Globaalse aadressiraamatu ülevaade](overview-global-address-book.md)
+- [Plaan globaalse aadressiraamatu ja muude aadressiraamatute jaoks](plan-configuration-global-address-book-additional-address-books.md)
 - [Globaalse aadressiraamatu konfigureerimine](tasks/configure-global-address-book.md)
 - [Aadressiraamatute KKK](qa-address-books.md)
 
@@ -67,10 +67,10 @@ Pärast globaalse aadressiraamatu loomist, saate luua vajaduse järgi täiendava
 
 Töövoog on süsteem, millega saate luua eraldi töövooge või äriprotsesse. Töövoo loomisel määratlete dokumendi liikumise või teekonna läbi süsteemi, näidates, kes peab ülesande täitma, otsuse tegema või dokumendi kinnitama.
 
-- [Töövoo ülevaade](overview-workflow-system.md)
-- [Töövoo elemendid](workflow-elements.md)
-- [Töövoo tegevused](workflow-actions.md)
-- [Töövoo loomine](create-workflow.md)
+- [Töövoosüsteemi ülevaade](overview-workflow-system.md)
+- [Töövooelemendid](workflow-elements.md)
+- [Tegevused töövoo kinnitusprotsessis](workflow-actions.md)
+- [Töövoogude loomise ülevaade](create-workflow.md)
 
 ## <a name="electronic-signatures"></a>Digitaalallkirjad
 
@@ -78,7 +78,7 @@ Elektronallkiri kinnitab isiku, kes käivitab või kinnitab protsessi. Mõnes t�
 
 Saate kasutada elektronallkirju tähtsateks äriprotsessideks. Mõnedel protsessidel on sisseehitatud elektronallkirja võimalused. Igale andmebaasi tabelile või väljale saate luua ka allkirjanõuded.
 
-- [Digitaalallkirja ülevaade](electronic-signature-overview.md)
+- [Digitaalallkirjade ülevaade](electronic-signature-overview.md)
 - [Digitaalallkirjade seadistamine](tasks/set-up-electronic-signatures.md) (tegevusjuhis)
 
 ## <a name="case-management"></a>Juhtumihaldus
@@ -86,13 +86,13 @@ Saate kasutada elektronallkirju tähtsateks äriprotsessideks. Mõnedel protsess
 Juhtumite plaanimise, jälgimise ja analüüsimisega saate arendada tõhusaid lahendusi, mida sarnaste probleemide puhul kasutada. Näiteks kui klienditeeninduse esindajad või inimressursside spetsialistid loovad juhtumeid, leiavad nad teadmusartiklitest teavet, mis aitab neil juhtumitega tõhusamalt töötada või neid lahendada.
 
 - [Juhtumihalduse ülevaade](cases.md)
-- [Juhtumi turbe, protsesside ja kategooriate konfigureerimine](plan-case-management.md)
+- [Juhtumi kategooria turbe, juhtumi protsesside ja juhtumi kategooriate plaanimine](plan-case-management.md)
 
 ## <a name="record-templates"></a>Kirjemallid
 
 Kirjemallid võivad aidata kiiremini kirjeid luua. Saate luua kirje malli nii, et sageli kasutatavaid välja väärtuseid ei pea iga uue kirje jaoks sõnaselgelt sisestama.
 
-- [Kirjemallid](record-templates.md)
+- [Kirjemallide ülevaade](record-templates.md)
 - [Andmesisestuse hõlbustamiseks kirje malli loomine](../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md) (tegevuse juhis)
 - [Kirje malli abil uue kirje loomine](../../dev-itpro/data-entities/tasks/use-record-template-new-record.md) (tegevuse juhis)
 

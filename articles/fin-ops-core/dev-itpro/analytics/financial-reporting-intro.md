@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e9fe8f78121428770e6516159f5eceb6976c4c9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdfa9ed24d0456d9beaec03ebac89098131d0675
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181791"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771138"
 ---
 # <a name="financial-reporting"></a>Finantsaruandlus
 
@@ -47,7 +47,7 @@ Järgmised finantsaruandluse komponendid lihtsustavad aruennete loomist, kuvamis
 | Komponent        | Funktsioonid | Lisateave |
 |------------------|-----------|------------------------|
 | Aruande kujundaja  | Saate luua aruande määratlemiseks ja koostamiseks ühendatavaid aruande koosteüksusi. Aruande viisard juhendab vähem kogenud kasutajaid kujunduse protsessis. Edasijõudnud kasutajad saavad luua uued aruande koosteüksused või muuta olemasolevaid koosteüksusi oma vajaduste järgi. | |
-| Aruandegraafikud | Saate plaanida regulaarseks koostamiseks üksiku aruande või aruanderühma. | [Finantsaruande loomine](generate-financial-report.md) |
+| Aruandegraafikud | Saate plaanida regulaarseks koostamiseks üksiku aruande või aruanderühma. | [Finantsaruannete loomine](generate-financial-report.md) |
 
 ## <a name="features"></a>Funktsioonid
 <table>
@@ -96,4 +96,4 @@ Järgmised finantsaruandluse komponendid lihtsustavad aruennete loomist, kuvamis
 </table>
 
 ## <a name="additional-resources"></a>Lisaressursid
-[Finantsaruande loomine](generate-financial-report.md)
+[Finantsaruannete loomine](generate-financial-report.md)

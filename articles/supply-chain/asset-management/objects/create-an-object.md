@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4759f55eceba923b47d906a764edcad34bf2f2
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 80236da5220aa9c70d5c488c09b457a470f0225a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571595"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811845"
 ---
 # <a name="create-an-asset"></a>Vara loomine
 
@@ -39,12 +39,12 @@ Selles teemas kirjeldatakse, kuidas varasid varahalduses luua.
 4. Väljal **vara tüüp** valige vara jaoks vara tüüp (kohustuslik väli). Vajadusel valige vara jaoks **Vara tootja** ja **Vara mudel**. Kui on seadistatud ainult üks toode, valitakse see toode automaatselt väljal **Vara tootja**. Väljadel **Vara tootja** ja **Varamudel** saadaolevad valikud olenevad seadistusest jaotises [Vara tootja ja mudel](../setup-for-objects/product-and-model.md).
 5. Grupi **Emaettevõtte vara** väli **Vara** tühi vaikimisi. Vajadusel saate valida emaettevõtte vara ja seejärel täidetakse kõik **Emaettevõtte vara** grupi väljad automaatselt.
 >[!NOTE]  
->Kui valite emaettevõtte vara, siis on saadaval kaks või kolm vahekaarti: vahekaart **Minu varad** sisaldab varasid, mis on seotud töö asukohtadega, kuhu teid (hooldustöötaja, kes on süsteemi logitud) on määratud. Kui töö asukohti pole seadistatud hooldustöötajale vormil [Hooldustöötajad](../setup-for-objects/workers-and-worker-groups.md), pole vahekaart **Minu varad** nähtav. Vahekaart **Aktiivsed varad** sisaldab kõigi varade loendit, mille vara töötsükli olek on „Aktiivne”. Vahekaardil **Varade vaade** kuvatakse töö asukohtade puuvaade ja nendesse asukohtadesse paigaldatud varad.
+>Kui valite emaettevõtte vara, siis on saadaval kaks või kolm vahekaarti: vahekaart **Minu varad** sisaldab varasid, mis on seotud töö asukohtadega, kuhu teid (hooldustöötaja, kes on süsteemi logitud) on määratud. Kui töö asukohti pole seadistatud hooldustöötajale vormil [Hooldustöötajad ja töötajarühmad](../setup-for-objects/workers-and-worker-groups.md), pole vahekaart **Minu varad** nähtav. Vahekaart **Aktiivsed varad** sisaldab kõigi varade loendit, mille vara töötsükli olek on „Aktiivne”. Vahekaardil **Varade vaade** kuvatakse töö asukohtade puuvaade ja nendesse asukohtadesse paigaldatud varad.
 
 6. Teie seadistatud töö vaikeasukohaks soovitatakse vara jaoks väljal **Vara** grupp > **Töö asukoht**. Valige vajadusel mõni muu töö asukoht.
 
 >[!NOTE]
->Kui olete vara loonud, saate selle vajadusel paigaldada muule töö asukohale. Töö asukohta saab paigutada ainult ülataseme varasid (praeguse emaettevõtte varata varad). See tähendab, et installite nii ülataseme kui ka kõik valitud töö asukohas olevad tütarvarad. Lisateavet töö asukohtades olevate varade kohta lugege teemast [Töö asukohad](../functional-locations/introduction-to-functional-locations.md).
+>Kui olete vara loonud, saate selle vajadusel paigaldada muule töö asukohale. Töö asukohta saab paigutada ainult ülataseme varasid (praeguse emaettevõtte varata varad). See tähendab, et installite nii ülataseme kui ka kõik valitud töö asukohas olevad tütarvarad. Lisateavet töö asukohtades olevate varade kohta lugege teemast [Töö asukohtade sissejuhatus](../functional-locations/introduction-to-functional-locations.md).
 
 7. Klõpsake valikut **OK**.
 8. Lisateabe lisamiseks varale valige vara loendis **Kõik varad** ja klõpsake nuppu **Muuda**.
@@ -53,13 +53,13 @@ Selles teemas kirjeldatakse, kuidas varasid varahalduses luua.
 
 Töö asukoht, millega vara on seotud, kuvatakse väljal **Töö asukoht**. Kui vara on emaettevõtte vara, kuvatakse varaga seotud tütarüksuste arv väljal **Tütarükused**. Kui vara on olemasoleva vara alamvara, kuvatakse emaettevõtte vara ID väljal **Emaettevõtte vara**.
 
-Saate redigeerida **vara tootja** ja **vara mudeli** teavet vara kohta, mida kasutatakse varuosade, alternatiivsete varuosade ja töö tüüpi vaikeväärtuste haldamiseks. Lisateabe saamiseks lugege teemat [Vara tootja ja mudel](../setup-for-objects/product-and-model.md). Vajadusel saate lisada teabe **Mudeli aasta** ja **Seerianumbri** kohta.
+Saate redigeerida **vara tootja** ja **vara mudeli** teavet vara kohta, mida kasutatakse varuosade, alternatiivsete varuosade ja töö tüüpi vaikeväärtuste haldamiseks. Lisateabe saamiseks vaadake teemat [Vara tootjad ja mudelid](../setup-for-objects/product-and-model.md). Vajadusel saate lisada teabe **Mudeli aasta** ja **Seerianumbri** kohta.
 
 Valikut **Praegune töötsükli olek** kasutatakse selleks, et määrata, kas vara on aktiivne või passiivne. Vara loomisel seatakse etapp alati varaetapi grupi esimesele etapile. Kui olete valmis aktiveerima vara, klõpsake nuppu **Uuenda vara olekut** ja valige töötsükli olek, mille olete määratlenud kui „aktiivne vara” ja klõpsake nuppu **OK.**
 
 **Märkus.** Kui vara väärtuseks on seatud „passiivne”, pole enam võimalik vara töökäske luua. Samuti ei saa planeerida passiivse vara ennetava hoolduse töid.
 
-Väljad **Teenuse tase** ja **Kriitilisus** on seotud vara jaoks loodud töökäskudega. Väljadel kuvatakse vara praeguse seadistuse jaoks arvutatud valikute **Teenusetase** ja **Kriitilisus** arvud. Nende väärtuste seadistamise kohta lugege teemasid [Varade teenusetasemed](../setup-for-objects/object-priorities.md) ja [Vara kriitilisus](../setup-for-objects/object-criticalities.md).
+Väljad **Teenuse tase** ja **Kriitilisus** on seotud vara jaoks loodud töökäskudega. Väljadel kuvatakse vara praeguse seadistuse jaoks arvutatud valikute **Teenusetase** ja **Kriitilisus** arvud. Nende väärtuste seadistamise kohta lugege teemasid [Varade teenusetasemed](../setup-for-objects/object-priorities.md) ja [Vara kriitilisustüübid](../setup-for-objects/object-criticalities.md).
 
 ## <a name="asset"></a>Vara
 

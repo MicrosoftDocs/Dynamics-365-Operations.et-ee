@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626243"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811736"
 ---
 # <a name="manually-created-work-orders"></a>Käsitsi loodud töökäsud
 
@@ -70,7 +70,7 @@ Pidage meeles järgmiseid punkte.
 
 - Loendilehe **Kõik töökäsud** üksikasjalikus vaates saatetöökäsule lisada mitu vara, kui lisate read kiirkaardile **Töökäsu hooldustööd**. Vara juures saate valida ainult neid hooldustööde tüüpe, mis on määratletud varale valitud vara tüübi juures.  
 
-- Kui muudate pärast töökäsu vara kasutamist vara teenusetaset või vara kriitilisust, ei värskendata selle töökäsu teenusetaset või kriitilisust vastavalt. Lisateavet teenusetasemete ja kriitilisuse kohta vt teemast [Vara teenusetasemed](../setup-for-objects/object-priorities.md) ja [Vara kriitilisus](../setup-for-objects/object-criticalities.md).
+- Kui muudate pärast töökäsu vara kasutamist vara teenusetaset või vara kriitilisust, ei värskendata selle töökäsu teenusetaset või kriitilisust vastavalt. Lisateavet teenusetasemete ja kriitilisuse kohta vt teemast [Vara teenusetasemed](../setup-for-objects/object-priorities.md) ning [Varade kriitilisuse tüübid](../setup-for-objects/object-criticalities.md).
 
 - Töökäsu kriitilisus arvutatakse ümber iga kord, kui töökäsu rida lisatakse või kustutatakse töökäsult.
 

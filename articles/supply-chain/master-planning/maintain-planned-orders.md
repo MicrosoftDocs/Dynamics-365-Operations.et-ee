@@ -3,7 +3,7 @@ title: Plaanitud tellimuste haldamine
 description: See teema pakub teavet plaanitud tellimuste haldamise kohta. See kirjeldab, kuidas plaanitud tellimuste olekut värskendada, neid kinnitada ja filtreerida plaanitud tellimusi, millel on sama olek, nagu valitud plaanitud tellimusel.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 11/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ddf2c7b4c67bec6c29387c78d1fdb021d85d702
-ms.sourcegitcommit: 620e15555d176eec3905b48d5001af1c50107ce6
+ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "1993436"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813772"
 ---
 # <a name="maintain-planned-orders"></a>Plaanitud tellimuste haldamine
 
@@ -39,7 +39,7 @@ Saate edenemist jälgida välja **Olek** abil. Kasutatakse järgmisi väärtusi.
 
 -   Kui koondplaneerimine loob plaanitud tellimused, on nende olek **Töötlemata**.
 -   Kui otsustate plaanitud tellimust mitte kinnitada, saate sellele määrata oleku **Lõpule viidud**.
--   Kui soovite kinnitada plaanitud tellimuse, saate määrata selle olekuks **Kinnitatud**. Olekuga **Kinnitatud** plaanitud tellimusi arvestatakse koondplaneerimisel, nii et neid ei muudeta ega kustutata. 
+-   Kui soovite kinnitada plaanitud tellimuse, saate määrata selle olekuks **Kinnitatud**. Olekuga **Kinnitatud** plaanitud tellimusi arvestatakse koondplaneerimisel, nii et neid ei muudeta ega kustutata hilisema koondplaneerimise käivitamise ajal. 
 
 ## <a name="firming-planned-orders"></a>Plaanitud tellimuste kinnitamine 
 Plaanitud tellimuste kinnitamisega luuakse tegelikud tellimused. Neid nimetatakse ka *väljastatud* või *avatud tellimusteks*. Kui plaanitud tellimus on kinnitatud, teisaldatakse see asjakohase mooduli tellimuste jaotisse.
@@ -62,7 +62,7 @@ Kui plaanite kinnitada korraga mitu tellimust, võib käituse paralleelimine par
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Koondplaanid](master-plans.md)
+[Koondplaanide ülevaade](master-plans.md)
 
 
 

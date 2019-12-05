@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a4945f47c86d490f40a6b00cb823e6a6005e0ee4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550505"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770892"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Asukoha ja osapoole seosetüüpide lisamine 
 
@@ -41,7 +41,7 @@ Aadressile ja kontaktteabele uute asukoharollide lisamiseks on kaks võimalust.
 
     1.  Looge loetelule **LogisticsLocationRoleType** laiend ja lisage laiendis uus roll. 
   
-        ![LogisticsLocationRoleType](media/Logistics.PNG)
+        ![Loetelu LogisticsLocationRoleType laiend](media/Logistics.PNG)
 
     2. Saate luua uuele rollile uue ressursifaili ja seejärel määrata selle atribuutidele väärtuse.
      
@@ -69,7 +69,7 @@ Uue seosetüübi lisamiseks on kaks võimalust.
 
     2. Looge uuele tüübile lähtestaja. Mitu näidet leiate põhikoodist, üks neist on **DirRelationshipTypeChildInitialize**. See on osapoole seosetüübi Tütar lähtestajaklass. Saate alustada oma lähtestajaga, kopeerides ja kleepides selle koodi ning seejärel värskendades esiletõstetud alasid.
     
-    ![DirRelationshipChild](media/DirRelationship.PNG)
+    ![DirRelationshipChild lähtestaja](media/DirRelationship.PNG)
 
     3.  Uue seosetüübi katseasustamiseks saate luua käitatava klassi ja kutsuda atribuudi DirDataPopulation::insertDirRelationshipTypes() asukohas Main(). Peaksite uut seosetüüpi nägema tabelis **DirRelationshipTypeTable** ja uus seosetüüp on saadaval lehel **Seosetüübid**.
 

@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551468"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832973"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>LinkedIni ja rakenduse Microsoft Dynamics 365 Talent – Attract integreerimise tõrkeotsing
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Järgmise teabe abil saate tõrkeotsingut teha probleemide korral, mis võivad tekkida, kui proovite sisestada tööpakkumisi rakendusest Microsoft Dynamics 365 Talent: Attract LinkedIni.
 
@@ -42,18 +42,18 @@ Kui teil on probleeme Attractist LinkedIni sisselogimisega, proovige järgmist.
 
 Kui teie tööpakkumine pole pärast 24 tunni möödumist LinkedInis ilmunud, proovige järgmist.
 
-1. Veenduge, et teie LinkedIni ettevõtte ID viiks teie LinkedIni ettevõtte lehele ja oleks õigesti sisestatud Attract Admin centerisse. Lisateavet LinkedIni seadete muutmise kohta administreerimiskeskuses leiate teemast [Integreerimise häälestamine LinkedIniga](attract-admin-linkedin.md). Lisateavet LinkedIni ettevõtte ID kohta leiate teemast [LinkedIni ettevõtte ID sidumine LinkedIni töölauaga – korduma kippuvad küsimused](https://www.linkedin.com/help/linkedin/answer/98972).
+1. Veenduge, et teie LinkedIni ettevõtte ID viiks teie LinkedIni ettevõtte lehele ja oleks õigesti sisestatud Attract Admin centerisse. Lisateavet Admin Centeris LinkedIni sätete muutmise kohta leiate teemast [Rakendusega LinkedIn for Microsoft Dynamics 365 Talent – Attract integreerimise seadistamine](attract-admin-linkedin.md). Lisateavet LinkedIni ettevõtte ID kohta leiate teemast [LinkedIni ettevõtte ID sidumine LinkedIni töölauaga – korduma kippuvad küsimused](https://www.linkedin.com/help/linkedin/answer/98972).
 2. Kontrollige LinkedIni tööpakkumise üksikasju ja veenduge, et aadress oleks täielik. Tööpakkumise edukaks sisestamiseks vajab LinkedIn vähemalt tööpakkumise linna ja riiki või regiooni.
 3. Veenduge, et tööpakkumine ei dubleeriks teist tööpakkumist, mis on LinkedIni sisestatud. LinkedIn ei postita töid, mis on kas LinkedIn Premium tööpakkumise või mõne muu allika piiratud loendite duplikaadid. Kontrollige, kas mõni teine isik teie ettevõttest ei ole juba tööpakkumist käsitsi sisestanud.
 
 ## <a name="see-also"></a>Vt ka
 
-[LinkedIn-i KKK](./attract-linkedin-faq.md)
+[Attracti integreerimine LinkedIni KKK-ga](./attract-linkedin-faq.md)
 
-[Tööde sisestamine Attractist LinkedIn-i](./attract-post-jobs-to-linkedin.md)
+[Rakendusest Microsoft Dynamics 365 Talent – Attract LinkedIni postitamine](./attract-post-jobs-to-linkedin.md)
 
-[Kandidaatide hankimine teenuse LinkedIn Recruiter abil](./attract-linkedin-recruiter.md)
+[LinkedIn Recruiteriga allikakandidaadid rakenduses Microsoft Dynamics 365 Talent – Attract](./attract-linkedin-recruiter.md).
 
-[Tööpakkumiste loomine](./creating-jobs-attract.md)
+[Tööde loomine, kinnitamine ja sisestamine Attractis](./creating-jobs-attract.md)
 
-[LinkedIniga integreerimise tõrkeotsing](./attract-troubleshoot-linkedin.md)
+[Rakendusega Microsoft Dynamics 365 Talent – Attract ja LinkedIniga integreerimise tõrkeotsing](./attract-troubleshoot-linkedin.md).

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 4343c875da05641c57b7784bf52f1c814dd26d20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174827"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773641"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Kohandatud väljade juurutamine mobiilirakenduses Microsoft Dynamics 365 Project Timesheet iOS-is ja Androidis
 
@@ -321,13 +321,9 @@ All on mobiilirakenduse kuvatõmmis ajatabelit vaatavast kasutajast. Ülevalt pa
 
 ![Käsk Kuva rohkem üksikasju](media/show-more.png)
 
-
-
 All on mobiilirakenduse kuvatõmmis ajatabeli jaotisest Rohkem. Ajatabeli päise jaotisesse on lisatud kohandatud väli nimega Selle ajatabeli tulususmäär (arvutatud kohandatud väli). Kohandatud väljale on määratud kirjutuskaitstud väärtus 0,667.
 
 ![Jaotis Rohkem](media/more-section.jpg)
-
-
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Tabeli TSTimesheetTable laiendamine, nii et sellel on kohandatud väli
 

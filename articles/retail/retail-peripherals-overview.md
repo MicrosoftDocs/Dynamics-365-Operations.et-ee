@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba01f0d16341eb9b0ec0918798e458626b5ef90e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025049"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811189"
 ---
 # <a name="retail-peripherals"></a>Jaemüügi välisseadmed
 
@@ -35,11 +35,17 @@ Selles teemas selgitatakse mõisteid, mis on seotud jaemüügi välisseadmetega.
 
 ### <a name="pos-registers"></a>Kassaregistrid
 
-Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**. Kassaregister on üksus, mida kasutatakse kassa konkreetse eksemplari omaduste määratlemiseks. Nende omaduste hulka kuuluvad riistvaraprofiil või jaemüügi välisseadmed, mida registris kasutatakse, kauplus, millega register on vastendatud, ja sellesse registrisse sisse logiva kasutaja visuaalne kogemus.
+Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Registrid**. 
+
+Kassaregister on üksus, mida kasutatakse kassa konkreetse eksemplari omaduste määratlemiseks. Nende omaduste hulka kuuluvad riistvaraprofiil või jaemüügi välisseadmed, mida registris kasutatakse, kauplus, millega register on vastendatud, ja sellesse registrisse sisse logiva kasutaja visuaalne kogemus.
 
 ### <a name="devices"></a>Seadmed
 
-Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Seadmed**. Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. Seadmed saab vastendada järgmiste rakendusetüüpidega: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android ja Retail Modern POS – iOS.
+Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Seadmed**. 
+
+Seade on üksus, mis kajastab kassaregistriga vastendatud seadme füüsilist eksemplari. Seadme loomisel vastendatakse see kassaregistriga. Seadmeüksus jälgib teavet selle kohta, millal kassaregister aktiveeritakse, kasutatava kliendi tüübi kohta ja rakenduse paketi kohta, mis on konkreetse seadme puhul juurutatud. 
+
+Seadmed saab vastendada järgmiste rakendusetüüpidega: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android ja Retail Modern POS – iOS.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -63,11 +69,15 @@ Kassa välisseadmed on seadmed, millel selgelt kassafunktsioone toetatakse. Need
 
 ### <a name="hardware-station"></a>Riistvarajaam
 
-Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanalid** &gt; **Jaemüügikanalid** &gt; **Kõik jaekauplused**. Valige kauplus ja klõpsake siis kiirkaarti **Riistvarajaamad**. **Riistvarajaama** säte on kanali tasandi säte, mida kasutatakse eksemplaride määratlemiseks, kui kasutatakse jaemüügi välisseadme loogikat. Seda sätet kasutatakse kanali tasandil riistvarajaama omaduste määramiseks. Samuti kasutatakse seda antud kaupluses Modern POS-i puhul saadaolevate riistvarajaamade loetlemiseks. Riistvarajaam on integreeritud Modern POS-i programmi Windowsile. Riistvarajaama saab juurutada ka iseseisvalt autonoomse teenuse Microsoft Internet Information Services (IIS) programmina. Sellisel juhul pääseb sellele juurde võrgu kaudu.
+Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanalid** &gt; **Jaemüügikanalid** &gt; **Kõik jaekauplused**. 
+
+Valige kauplus ja klõpsake siis kiirkaarti **Riistvarajaamad**. **Riistvarajaama** säte on kanali tasandi säte, mida kasutatakse eksemplaride määratlemiseks, kui kasutatakse jaemüügi välisseadme loogikat. Seda sätet kasutatakse kanali tasandil riistvarajaama omaduste määramiseks. Samuti kasutatakse seda antud kaupluses Modern POS-i puhul saadaolevate riistvarajaamade loetlemiseks. Riistvarajaam on integreeritud Modern POS-i programmi Windowsile. Riistvarajaama saab juurutada ka iseseisvalt autonoomse teenuse Microsoft Internet Information Services (IIS) programmina. Sellisel juhul pääseb sellele juurde võrgu kaudu.
 
 ### <a name="hardware-profile"></a>Riistvaraprofiil
 
-Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**. Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
+Navigeerimine: klõpsake valikuid **Jaemüük** &gt; **Kanali häälestus** &gt; **Kassa häälestus** &gt; **Kassaprofiilid** &gt; **Riistvaraprofiilid**. 
+
+Riistvaraprofiil on kassaregistri või riistvarajaama jaoks konfigureeritud seadmete loend. Riistvaraprofiili saab vastendada otse kassaregistri või riistvarajaamaga.
 
 ## <a name="devices-classes"></a>Seadmete klassid
 Kassa välisseadmed on tavaliselt jagatud klassidesse. Selles jaotises kirjeldatakse seadmeid, mida Modern POS toetab, ja antakse neist ülevaade.
@@ -206,7 +216,7 @@ Lisateavet leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja insta
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Rakenduse Modern POS Windowsile seadistamine ja konfigureerimine
 
-Lisateavet vt teemast [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).
+Lisateavet vt [Retail Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS-i seadme seadistamine ja konfigureerimine
 
@@ -523,7 +533,7 @@ Võrgu välisseadmeid saab toetada otse rakendusse Modern POS Windowsile integre
 
 ## <a name="configuration-for-supported-scenarios"></a>Toetatud stsenaariumide konfigureerimine
 
-Lisateavet riistvaraprofiilide loomise kohta leiate jaotisest [Kanaliklientide (sh registrite ja riistvarajaamade) määratlemine ja haldamine](define-maintain-channel-clients-registers-hw-stations.md).
+Lisateavet riistvaraprofiilide loomise kohta leiate teemast [Välisseadmete ühendamine kassaga (POS)](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
 > Retaili versiooni 1611 puhul riistvarajaama profiili enam ei kasutata. Atribuudid, mille varem riistvarajaama profiilis seadistasite, kuuluvad nüüd riistvarajaama juurde.
@@ -567,7 +577,7 @@ Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, millel 
 5. Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 6. Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 7. Riistvarajaama paigaldamine. Lisateavet riistvarajaama paigaldamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).
-8. Installige ja aktiveerige Modern POS. Lisateavet Modern POS-i installimise kohta vt teemast [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).
+8. Installige ja aktiveerige Modern POS. Lisateavet Modern POS-i installimise kohta vt teemast [Retail Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](retail-modern-pos-device-activation.md).
 9. Logige Modern POS-i sisse ja valige **Kassaväliste toimingute tegemine**.
 10. Käivitage toiming **Riistvarajaamade haldamine**.
 11. Klõpsake käsku **Halda**.
@@ -596,7 +606,7 @@ Seda konfiguratsiooni saab kasutada kõigi Modern POS-i klientide puhul, mis kas
 6. Valige jaotusgraafik **1090** uue riistvaraprofiili sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 7. Valige jaotusgraafik **1040** uue riistvarajaama sünkroonimiseks kauplusega. Kassa muudatuste sünkroonimiseks klõpsake valikut **Käivita kohe**.
 8. Installige riistvarajaam igasse hostarvutisse, mille toimingutes 2 ja 3 seadistasite. Lisateavet riistvarajaama paigaldamise kohta leiate jaotisest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md).
-9. Installige ja aktiveerige Modern POS. Lisateavet Modern POS-i installimise kohta vt teemast [Retail Modern POS-i konfigureerimine ja installimine](retail-modern-pos-device-activation.md).
+9. Installige ja aktiveerige Modern POS. Lisateavet Modern POS-i installimise kohta vt teemast [Retail Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](retail-modern-pos-device-activation.md).
 10. Logige Modern POS-i sisse ja valige **Kassaväliste toimingute tegemine**.
 11. Käivitage toiming **Riistvarajaamade haldamine**.
 12. Klõpsake käsku **Halda**.
@@ -655,7 +665,7 @@ Praeguste turvastandardite kohaselt tuleks kasutada tootmiskeskkonnas järgmisi 
 
 ## <a name="peripheral-simulator"></a>Välisseadme simulaator
 
-Teavet leiate jaotisest [Jaemüügi välisseadme stimulaator](dev-itpro/retail-peripheral-simulator.md).
+Teavet leiate jaotisest [Jaemüügi välisseadme simulaator](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Microsofti testitud välisseadmed
 

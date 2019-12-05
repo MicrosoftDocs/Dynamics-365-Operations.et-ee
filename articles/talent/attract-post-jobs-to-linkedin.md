@@ -1,5 +1,5 @@
 ---
-title: Tööde sisestamine Microsoft Dynamics 365 Talent – Attractist LinkedIni
+title: Tööde sisestamine Attractist LinkedIn-i
 description: Selles teemas selgitatakse, kuidas kasutada rakendust Dynamics 365 Talent – Attract töökuulutuste sisestamiseks LinkedIni.
 author: andreabichsel
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551491"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832996"
 ---
-# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>Tööde sisestamine Microsoft Dynamics 365 Talent – Attractist LinkedIni
+# <a name="post-jobs-to-linkedin-from-attract"></a>Tööde sisestamine Attractist LinkedIn-i
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 LinkedIn on suurim tööalane veebivõrgustik, mis annab ligipääsu maailma tipptalentidele. Microsoft Dynamics 365 Talent: Attract aitab leida vajalikku talenti, lastes teil sisestada tööpakkumised Atttractist otse LinkedIni.
 
@@ -46,7 +46,7 @@ Järgmine tabel näitab tegevusi, mida saate teha LinkedInis, sõltuvalt teie ka
 
 Lisateavet kasutajarollide kohta Attractis leiate artiklist [Turvalisus ja rollihaldus Attractis](./security-attract.md).
 
-Kui olete administraator ja vajate lisateavet LinkedIni integreerimise konfigureerimise kohta rakendusega Attract, lugege teemat [LinkedIniga integreerimise häälestamine](./attract-admin-linkedin.md).
+Kui olete administraator, leiate lisateavet LinkedIni Attractiga integreerimise konfigureerimise kohta teemast [Rakendusega LinkedIn for Microsoft Dynamics 365 Talent – Attract integreerimise seadistamine](./attract-admin-linkedin.md).
 
 LinkedIni sisestatud töökohad ilmuvad otse LinkedIni saidil. LinkedInil puudub katsekeskkond töökohtade sisestamiseks. Seetõttu veenduge, et te ei sisesta kogemata ühtegi testtööpakkumist.
 
@@ -67,15 +67,15 @@ Kui huvitatud kandidaadid valivad teie loendi kõrval **Kuva**, näevad nad kõi
 
 Kõik tööpakkumised, mida tehakse Attracti kaudu, on piiratud loendid. Lisateavet piiratud loendite kohta LinkedInis vaadake jaotisest [Piiratud loendid vs Premium tööpakkumised tööpakkumiste kokkupakkimiseks](https://www.linkedin.com/help/recruiter/answer/79049).
 
-Kui teil on probleeme LinkedIni tööde postitamisega, lugege teemat [LinkedIni tööpakumiste sisestamise tõrkeotsing](./attract-troubleshoot-linkedin.md).
+Kui teil on probleeme LinkedIni töökohtade postitamisega, vaadake jaotist [LinkedIni ja rakendusega Microsoft Dynamics 365 Talent – Attract integreerimise tõrkeotsing](./attract-troubleshoot-linkedin.md).
 
 ## <a name="see-also"></a>Vt ka
 
-[LinkedIn-i KKK](./attract-linkedin-faq.md)
+[Attracti integreerimine LinkedIni KKK-ga](./attract-linkedin-faq.md)
 
-[LinkedIn-iga integreerimise seadistamine](./attract-admin-linkedin.md)
+[Rakendusega LinkedIn for Microsoft Dynamics 365 Talent – Attract integreerimise seadistamine](./attract-admin-linkedin.md)
 
-[Tööpakkumiste loomine](./creating-jobs-attract.md)
+[Tööde loomine, kinnitamine ja sisestamine Attractis](./creating-jobs-attract.md)
 
 [Kandidaatide hankimine teenuse LinkedIn Recruiter abil](./attract-linkedin-recruiter.md)
 

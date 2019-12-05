@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019389"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811236"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Välisseadmete ühendamine kassaga (POS)
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019389"
 See teema käsitleb välisseadmete ühendamist Retail POS-iga.
 
 > [!NOTE]
-> Konkreetsed paigaldusjuhised leiate jaotistest [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md) ning [Retail Modern POS-i iseteeninduse allalaadimine/installimine ja Modern POS-i ning pilvekassa seadme aktiveerimine](retail-modern-pos-device-activation.md).
+> Täpsemate installimisjuhiste saamiseks vaadake jaotiseid [Jaemüügi riistvarajaama konfigureerimine ja installimine](retail-hardware-station-configuration-installation.md) ja [Retail Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Põhikomponendid
 
@@ -139,7 +139,7 @@ Funktsiooni profiil määratakse kaupluse tasandil. Seda kasutatakse kaupluseül
 
 - Kiirkaart **Teabekoodid**.
 
-    - Kõik teabekoodide haldamise aspektid kassas. Üksikasjad leiate jaotisest [Teabekoodid](info-codes-retail.md).
+    - Kõik teabekoodide haldamise aspektid kassas. Üksikasju vaadake jaotisest [Teabekoodid ja teabekoodide rühmad](info-codes-retail.md).
 
 - Kiirkaart **Kviitungi nummerdamine**.
 

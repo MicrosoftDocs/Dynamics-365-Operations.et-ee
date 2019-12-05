@@ -1,5 +1,5 @@
 ---
-title: Kandidaatide otsimine teenusega LinkedIn Recruiter rakenduses Microsoft Dynamics 365 Talent – Attract
+title: LinkedIn Recruiteriga allikakandidaadid Attractis
 description: Kasutage programmi Microsoft Dynamics 365 Talent – Attract pakutavat LinkedIni integratsiooni, et otsida kandidaate LinkedIn Recruiter kaudu.
 author: andreabichsel
 manager: AnnBe
@@ -19,15 +19,16 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8f2e95e74bbc8d78ed5d970f29b61150a45c6740
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551560"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833042"
 ---
-# <a name="source-candidates-with-linkedin-recruiter-in-microsoft-dynamics-365-talent---attract"></a>Kandidaatide otsimine teenusega LinkedIn Recruiter rakenduses Microsoft Dynamics 365 Talent – Attract
-[!include[banner](../includes/banner.md)]
+# <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>LinkedIn Recruiteriga allikakandidaadid Attractis
+
+[!include [banner](includes/banner.md)]
 
 LinkedIn on maailma suurim tööalane veebivõrgustik, mis annab ligipääsu maailma tipptalentidele. Microsoft Dynamics 365 Talent: Attract võimaldab otsida kandidaate otse LinkedInist. Seetõttu on väga lihtne leida talente, keda vajate vabade ametikohtade täitmisel. Pärast LinkedIniga ühenduse seadistamist Attracti kaudu saate vaadata potentsiaalseid LinkedIni kandidaate oma ametikohtadele ja eksportida need ainult ühe hiireklõpsuga rakendusse Attract.
 
@@ -100,12 +101,12 @@ Kui kandidaadid nõustuvad oma LinkedIni profiile teie ettevõtte mis tahes kasu
 
 ## <a name="see-also"></a>Vt ka
 
-[LinkedIn-i KKK](./attract-linkedin-faq.md)
+[Attracti integreerimine LinkedIni KKK-ga](./attract-linkedin-faq.md)
 
-[LinkedIn-iga integreerimise seadistamine](./attract-admin-linkedin.md)
+[Rakendusega LinkedIn for Microsoft Dynamics 365 Talent – Attract integreerimise seadistamine](./attract-admin-linkedin.md)
 
-[Tööpakkumiste loomine](./creating-jobs-attract.md)
+[Tööde loomine, kinnitamine ja sisestamine Attractis](./creating-jobs-attract.md)
 
-[Tööde sisestamine Attractist LinkedIn-i](./attract-post-jobs-to-linkedin.md)
+[Rakendusest Microsoft Dynamics 365 Talent – Attract LinkedIni postitamine](./attract-post-jobs-to-linkedin.md)
 
-[LinkedIniga integreerimise tõrkeotsing](./attract-troubleshoot-linkedin.md)
+[Rakendusega Microsoft Dynamics 365 Talent – Attract ja LinkedIniga integreerimise tõrkeotsing](./attract-troubleshoot-linkedin.md).

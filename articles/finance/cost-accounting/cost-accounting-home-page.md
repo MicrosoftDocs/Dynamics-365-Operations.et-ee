@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177357"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771957"
 ---
 # <a name="cost-accounting-home-page"></a>Kuluarvestuse kodulehekülg
 
@@ -39,17 +39,17 @@ Järgmisel õppekaardil on näidatud peamised põhimõtted ja ülesanded, milles
 
 |      |   |
 |------|---|
-|  [Alusüksuste konfigureerimine (eLearning)](https://mbspartner.microsoft.com/Home) (nõuab CustomerSource’i kontot)  |[Loo dimensioone](cost-elements.md)  |
-|  [Dimensioonihierarhia loomine](dimension-hierarchy.md)  |[Põhihäälestuse loomine](./tasks/define-cost-control-units.md)| 
-| [Eraldamisaluse määratlemine](allocation-bases.md)|[Poliitikate määratlemine](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [Andmeallikas ja andmepakkuja](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Andmeallikas ja andmepakkuja](./tasks/process-trace-source-data.md)     | 
-|[Üldkulude arvutus](overhead-calculation.md)  | [Analüüs ja aruandlus](cost-control-workspace.md)   |
+|  [Alusüksuste konfigureerimine (eLearning)](https://mbspartner.microsoft.com/Home) (nõuab CustomerSource’i kontot)  |[Kuluelemendi dimensioonid](cost-elements.md)  |
+|  [Dimensioonihierarhia](dimension-hierarchy.md)  |[Kulujuhtimisüksuste määratlemine](./tasks/define-cost-control-units.md)| 
+| [Eraldamise alused](allocation-bases.md)|[Kulueraldamispoliitika loomine ja määramine kulujuhtimisüksusele](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Kuluarvestuse pearaamatu andmeallika haldamine](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Lähteandmete töötlemine ja jälgimine](./tasks/process-trace-source-data.md)     | 
+|[Üldkulude arvutus](overhead-calculation.md)  | [Kulujuhtimise tööruum](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>Alustamisvideod<br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [Kuluarvestuse kasutamise alustamine](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Kuluarvestuse mobiilne tööruum](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Exceli kasutamine kuluarvestuse analüüsi jaoks](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+
 
 

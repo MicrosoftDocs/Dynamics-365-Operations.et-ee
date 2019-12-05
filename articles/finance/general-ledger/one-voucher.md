@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
+ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553183"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "2810695"
 ---
 # <a name="one-voucher"></a>Üks kanne
 
@@ -83,6 +83,9 @@ Klientidega peetud vestluste põhjal on Microsoft koostanud järgmise loendi sts
 
 Järgmiseid stsenaariume on võimalik täita ainult ühe kande funktsiooni kasutades. Kui teie organisatsioonil on mõni neist stsenaariumitest, peate lubama mitme kande sisestamist ühte kandesse, muutes parameetrit **Luba ühe kande raames mitu kannet** lehel **Pearaamatu parameetrid**. Need funktsionaalsed vahemikud täidetakse teiste funktsioonidega hilisemates väljaannetes.
 
+> [!Note]
+> [Iga järgneva stsenaariumi jaoks peab väli **Luba ühe kande raames mitu kannet** olema määratud väärtusele „Jah” kiirkaardil **Üldine** lehel **Üldised pearaamatu parameetrid**.]
+
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Hankija või kliendi maksete sisestamine pangakonto kokkuvõttevormi
 
 **Stsenaarium** Organisatsioon edastab loendi hankijate ja summadega pangale ning pank kasutab seda loendit hankijatele organisatsiooni nimel maksmiseks. Pank sisestab maksete summa pangakontole üksiku tagastusena.
@@ -120,6 +123,9 @@ Järgmised põhivara kanded loovad samuti ühes kandes mitu kannet.
 - Vara tükeldatakse.
 - Likvideerimise kulumi arvutamiseks kasutatav parameeter on sisse lülitatud ja vara likvideeritakse.
 - Vara teenuse kuupäev on enne soetamiskuupäeva. Seega sisestatakse kulumi korrigeerimine.
+
+> [!Note]
+> Kannete sisestamisel veenduge, et kõik kanded oleksid seotud sama põhivaraga. Kannet ei sisestata, kui see hõlmab rohkem kui ühte põhivara, isegi kui väli**Uus kanne** on määratud pearaamatu lehel **Töölehe nimed** valikule Ainult üks kande number. Kui kaasate kandesse rohkem kui ühe põhivara, kuvatakse teade **Kandel võib olla ainult üks põhivarakanne** ja te ei saa kannet sisestada.  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Käskveksel ja võlatähed
 Käskvekslid ja võlatähed nõuavad Ühe kande kasutamist, sest kanded viivad kliendi või hankija saldo ühelt Müügireskontro/ostureskontro pearaamatukontolt teisele, olenevalt makse olekust.

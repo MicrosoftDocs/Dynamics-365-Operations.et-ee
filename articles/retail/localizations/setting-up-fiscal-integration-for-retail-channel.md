@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: a987e75834ddde486421a425a621e66f0b6e063f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577896"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811161"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Jaemüügikanalite fiskaalüksuse integreerimise seadistamine
 
@@ -210,7 +210,7 @@ Fiskaalüksuse integratsioonis saadaolevad tõrketöötluse sätted määratakse
 
 Fiskaalüksuse x-/z-aruannete käitamise lubamiseks kassast peate lisama kassa ekraanipaigutusse uued nupud.
 
-- Järgige lehel **Nupupaneelid** teemas [Kohandatud toimingunupu lisamine kassa ekraanipaigutusse kaupluse halduses](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) toodud juhiseid kujundaja installimiseks ja kassa ekraanipaigutuse värskendamiseks.
+- Järgige lehel **Nupupaneelid** teemas [Kassatoimingute lisamine kassa paigutustele nupupaneeli koostaja abil](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) toodud juhiseid kujundaja installimiseks ja kassa ekraanipaigutuse värskendamiseks.
 
     1. Valige värskendatav paigutus. 
     2. Lisage uus nupp ja määrake nupu **Prindi fiskaalüksuse x** atribuut.
@@ -221,7 +221,7 @@ Fiskaalüksuse x-/z-aruannete käitamise lubamiseks kassast peate lisama kassa e
 
 Edasi lükatud fiskaalüksuse registreerimise käsitsi käivitamise lubamiseks peaksite kassa paigutusse lisama uue nupu.
 
-- Järgige lehel **Nupupaneelid** teemas [Kohandatud toimingunupu lisamine kassa ekraanipaigutusse kaupluse halduses](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) toodud juhiseid kujundaja installimiseks ja kassa ekraanipaigutuse värskendamiseks.
+- Järgige lehel **Nupupaneelid** teemas [Kassatoimingute lisamine kassa paigutustele nupupaneeli koostaja abil](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) toodud juhiseid kujundaja installimiseks ja kassa ekraanipaigutuse värskendamiseks.
 
     1. Valige värskendatav paigutus.
     2. Lisage uus nupp ja määrake nupu atribuut **Lõpeta fiskaalüksuse registreerimise protsess**.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c4a2696b015611f4430ad5dfa1c61c1c4f913a9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c6774a41887e74bfdb1fa6a9221264b0c8454c70
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570790"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814348"
 ---
 # <a name="inventory-journals"></a>Laotöölehed
 
@@ -74,7 +74,7 @@ Tootmise sisendtöölehed toimivad kauba saabumistöölehtede sarnaselt, kuid ne
 
 ### <a name="counting"></a>Inventuur
 
-Inventuuritöölehtede abil saate korrigeerida praegust vaba kaubavaru, mis on kaupade või kaubagruppide puhul registreeritud, ja seejärel sisestada tegeliku füüsilise inventuuri nii, et saate teha vajalikke korrigeerimisi erinevuste tasakaalustamiseks. Saate seostada inventuuripoliitikad inventuurigruppidega, et aidata rühmitada erinevate omadustega kaupu, nii et need kaubad saaks lisada inventuuri töölehele. Näiteks saate seadistada inventuurigrupid nii, et need loeksid kaupu, millel on konkreetne sagedus, või loeksid kaupu siis, kui varud langevad teatud tasemele. Teavet inventuurigruppide määratlemise kohta leiate jaotisest [Laoinventuuri protsesside määratlemine (tegevuse juhis)](tasks/define-inventory-counting-processes.md).
+Inventuuritöölehtede abil saate korrigeerida praegust vaba kaubavaru, mis on kaupade või kaubagruppide puhul registreeritud, ja seejärel sisestada tegeliku füüsilise inventuuri nii, et saate teha vajalikke korrigeerimisi erinevuste tasakaalustamiseks. Saate seostada inventuuripoliitikad inventuurigruppidega, et aidata rühmitada erinevate omadustega kaupu, nii et need kaubad saaks lisada inventuuri töölehele. Näiteks saate seadistada inventuurigrupid nii, et need loeksid kaupu, millel on konkreetne sagedus, või loeksid kaupu siis, kui varud langevad teatud tasemele. Teavet inventuurigruppide määratlemise kohta leiate jaotisest [Laoinventuuri protsesside määratlemine](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Märgistusega inventuur
 

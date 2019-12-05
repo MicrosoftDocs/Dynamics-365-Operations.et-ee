@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c8655af567ef56c535ce0e43cb76c28c58dc1eb3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024225"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814601"
 ---
 # <a name="questionnaires"></a>Küsimustikud
 
@@ -44,17 +44,17 @@ Järgmises tabelis on lingid küsimustike põhitoimingute teabe juurde. Lisateab
 | Teema| Kirjeldus|
 |------|------------|
 | [Küsimustiku kujundamine](design-questionnaires.md)  | See artikkel annab teavet küsimustiku kavandamise kohta. Kavandamisprotsess hõlmab eeltingimuste, vastuste ja küsimuste seadistamist ning seejärel nende küsimustikku paigutamist. |
-| [Küsimustiku laialisaatmine ja täitmine](distribute-questionnaires.md)  | Selles artiklis on teave selle kohta, kuidas küsimustikku vastajatele saata ja kuidas küsimustikke täita.                                                                       |
-| [Saate küsimustiku tulemusi vaadata ja hinnata](evaluate-questionnaire-results.md) | Selles artiklis on teave selle kohta, kuidas täidetud küsimustike tulemusi vaadata ja hinnata.                                                                                        |
+| [Küsimustike jaotamine ja kavandamine](distribute-questionnaires.md)  | Selles artiklis on teave selle kohta, kuidas küsimustikku vastajatele saata ja kuidas küsimustikke täita.                                                                       |
+| [Küsimustiku tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md) | Selles artiklis on teave selle kohta, kuidas täidetud küsimustike tulemusi vaadata ja hinnata.                                                                                        |
 
 
 
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Küsimustike kavandamine](design-questionnaires.md)
+[Küsimustike kujundamine](design-questionnaires.md)
 
-[Küsimustike laialisaatmine ja täitmine](distribute-questionnaires.md)
+[Küsimustike jaotamine ja kavandamine](distribute-questionnaires.md)
 
 [Küsimustike tulemuste vaatamine ja hindamine](evaluate-questionnaire-results.md)
 

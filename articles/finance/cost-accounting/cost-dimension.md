@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187908"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770846"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Dimensioonide loomine ja dimensiooniliikmete importimine
 
@@ -44,11 +44,10 @@ Järgnev diagramm illustreerib kuluarvestuses kasutatavaid dimensioone.
 Kui andmed on kuluarvestusse imporditud, saab neid kasutada mitmesuguste vaatenurkade koostamiseks, mis annavad ülevaateid kõigi organisatsiooni tasandite juhtidele. Järgmistes teemades antakse teavet dimensioonide loomise ja dimensiooniliikmete importimise kohta. 
 
 -  [Kuluelemendi dimensioonid](cost-elements.md)
--  [Kuluelementide loomine (tegevuse juhis)](./tasks/create-cost-elements.md)
+-  [Kuluelementide loomine](./tasks/create-cost-elements.md)
 -  [Kuluobjekti dimensioonid](cost-objects.md)
--  [Kuluelementide loomine (tegevuse juhis)](./tasks/create-cost-objects.md)
 -  [Kuluelemendi dimensiooniliikmete vastendamine dimensiooniliikmete ühtse mudeliga](map-cost-elements-dimension-members.md)
--  [Kuluelemendi dimensiooni vastendamine (tegevuse juhis)](./tasks/map-cost-element-dimension.md)
+-  [Kuluelemendi dimensiooni vastendamine](./tasks/map-cost-element-dimension.md)
 -  [Statistilise dimensiooni liikmed ja statistiliste mõõtude pakkuja mallid](statistical-measure-provider-template.md)
 
 

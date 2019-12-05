@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 037d4971fe0a5a9d08f0ed20d2482b8feb9aa4f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 44d404aaafd124a5d5a9d92cac8add51f1ee846a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177359"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771980"
 ---
 # <a name="cost-element-dimensions"></a>Kuluelemendi dimensioonid
 
@@ -66,7 +66,7 @@ On kahte tüüpi kuluelemente: esmased kuluelemendid ja teisesed kuluelemendid. 
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Kuluelemendi dimensioonid ja kuluelemendi dimensiooni liikmed
 Kuluelemente nimetatakse *kuluelemendi dimensioonideks* . Individuaalseid dimensiooniväärtuseid nimetatakse *kuluelemendi dimensiooni liikmeteks*. Näiteks on teil USA kontoplaani struktuur (COA), mis on teie seadusliku aruandluse alus. Seda COA-d kasutatakse kuluelemendi dimensioonina. Kontosid, mis on esmased kuluelemendid, tähistatakse kuluarvestuses kuluelemendi dimensiooniliikmetena. Järgmine kuvatõmmis näitab näidet põhikontodest kuluelemendi dimensioonina, kus selle tegelikud põhikontod on kuluelemendi dimensiooni liikmed. 
 
-[![kuluelemendi-dimensioonid](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Kuvatõmmis põhikontodest kui kuluelemendi dimensioonist](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Kuluelemendi dimensiooni liikmete importimine andmekonnektorite kaudu
 Kuluelemendi dimensiooni liikmete seadistamise lihtsustamiseks kuluarvestuses saate kasutada andmekonnektoreid, mis on eelnevalt ehitatud või teie järgi kohandatud, et tuua esmased kuluelemendid ühest või mitmest lähtesüsteemist.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6e6b8d6243c1f7c5831baaee91baf38d51e0c26
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185240"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769993"
 ---
 # <a name="practice-manager-power-bi-content"></a>Harjutushalduri Power BI sisu
 
@@ -58,7 +58,7 @@ Kõikidel nendel aruannetel olevaid diagramme ja paane saab filtreerida ja kinni
 
 ## <a name="understanding-the-data-model-and-entities"></a>Andmemudelid ja üksused
 
-Aruandelehtede täitmiseks **harjutushalduri** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Ülevaade Power BI integratsioonist üksuse kauplusega](power-bi-integration-entity-store.md).
+Aruandelehtede täitmiseks **harjutushalduri** Power BI sisus kasutatakse järgmisi andmeid. Need andmed on esitatud koondmõõtmistena, mis on üksuse kaupluses etapiviisilised. Üksuse kauplus on analüüsile optimeeritud Microsoft SQL Serveri andmebaas. Lisateavet vt teemast [Power BI integratsioon üksuse kauplusega](power-bi-integration-entity-store.md).
 
 Järgmistes jaotistes kirjeldatakse igas üksuses kasutatavaid koondmõõtmisi.
 

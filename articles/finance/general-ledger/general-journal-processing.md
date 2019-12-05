@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570236"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771818"
 ---
 # <a name="general-journal-processing"></a>Üldtöölehe töötlemine
 
@@ -85,7 +85,7 @@ Põhikonto seadistus pakub päevaraamatu töötlemiseks mitmeid järgmisi suvand
 Arvestusstruktuurid ja täpsemate reeglite struktuurid on äärmiselt olulised tagamaks, et finantsaruandluseks ja jõudluse jälgimiseks vajalikud andmed hõivatakse pearaamatu töötlemisel ja mis tahes dokumentatsioonis. Arvestusstruktuurid ja täpsemate reeglite struktuurid võimaldavad teil andmete sisestamise kogemust kohandada. Saate lubada andmesisestuse ainult igas olukorras asjakohaste finantsdimensioonide puhul ning rakendada alati kohustuslike ja õigete andmete hõivamise nõuet.
 
 Lisateavet vt järgmistest teemadest:
-- [Plaanimine: kontoplaan](plan-chart-of-accounts.md). 
+- [Kontoplaanide plaanimine](plan-chart-of-accounts.md) 
 - [Täpsemate reeglite loomine töölehtede jaoks](tasks/create-advanced-rules-journals.md)
 - [Töölehe sisestuse loomine malli abil](tasks/create-journal-entry-template.md)
 - [Töölehtede loomine ja kinnitamine](tasks/create-validate-journals.md)

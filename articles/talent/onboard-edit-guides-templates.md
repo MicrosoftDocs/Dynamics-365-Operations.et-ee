@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0f4c68acfe021e736c259e91a40ce7d43d401246
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551998"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812875"
 ---
 # <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Sisseelamisjuhendite ja mallide redigeerimine rakenduses Dynamics 365 Talent: Onboard
 
@@ -124,7 +124,7 @@ Muudatustele vajutamine:
 
     - YouTube'i video lisamiseks lohistage **YouTube**'i üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning sisestage YouTube'i video URL.
     - Sway esitluse või infolehe lisamiseks lohistage **Sway** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning sisestage Sway esitluse või infolehe varjatud URL.
-    - PowerAppsi rakenduse lisamiseks lohistage **PowerAppsi** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning valige kas PowerAppsi rakendus või sisestage PowerAppsi rakenduse ID.
+    - Microsoft Power Appsi rakenduse lisamiseks lohistage **Power Appsi** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning valige kas Power Appsi rakendus või sisestage Power Appsi rakenduse ID.
     - Microsoft Streami video lisamiseks lohistage **Microsoft Stream**i üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus ning sisestage Microsoft Streami video URL.
     - Microsofti vormide vormi lisamiseks lohistage **Microsoft Forms** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus, sisestage vormi Microsoft Forms URL ja määrake ekraani ala suurus.
     - Veebisisu sisaldava iframe'i lisamiseks lohistage **Veebisisu (iframe)** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus, sisestage veebisisu URL ja määrake ekraani ala suurus.
@@ -186,6 +186,6 @@ Ressursikirje redigeerimiseks valige nupp **Redigeeri** (pliiatsi sümbol), mis 
 ### <a name="see-also"></a>Vt ka
 
 - [Proovige või ostke Onboardi rakendus](https://dynamics.microsoft.com/talent/onboard/)
-- [Mis on uut?](./whats-new.md)
-- [Väljalaskemärkmed](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Toe hankimine](./talent-support.md)
+- [Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent?](./whats-new.md)
+- [Väljaandmisplaanid](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Toe hankimine rakendusele Microsoft Dynamics 365 Talent](./talent-support.md)

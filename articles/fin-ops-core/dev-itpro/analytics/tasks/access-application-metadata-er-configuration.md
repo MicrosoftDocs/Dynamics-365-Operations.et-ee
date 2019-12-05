@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bfe007995c894d6cc86d07ef2b52da65e32e950
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182734"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772459"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonilise aruandluse arendaja rolliga lahenduse Regulatory Configuration Service (RCS) kasutaja saab kavandada uue elektroonilise aruandluse (ER) mudelivastenduse kasutades rakenduse metaandmeid. Rakenduse metaandmetele pääseb juurde elektroonilise aruandluse metaandmete konfiguratsiooni abil, mis sisaldab metaandmete nädiskomplekti juurdepääsuks väliskaubanduse kannetele. Etappide lõpuleviimiseks, peate esmalt läbima ECS-is etapid teemas [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](er-configuration-provider-mark-it-active-2016-11.md). Seejärel viige lõpuni etapid teemas [(ER) RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine](prepare-application-metadata-rcs.md).
+Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonilise aruandluse arendaja rolliga lahenduse Regulatory Configuration Service (RCS) kasutaja saab kavandada uue elektroonilise aruandluse (ER) mudelivastenduse kasutades rakenduse metaandmeid. Rakenduse metaandmetele pääseb juurde elektroonilise aruandluse metaandmete konfiguratsiooni abil, mis sisaldab metaandmete nädiskomplekti juurdepääsuks väliskaubanduse kannetele. Etappide lõpuleviimiseks, peate esmalt läbima ECS-is etapid teemas [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](er-configuration-provider-mark-it-active-2016-11.md). Seejärel viige lõpule etapid teemas [Rakenduse metaandmete ettevalmistamine RCS-is kasutamiseks](prepare-application-metadata-rcs.md).
 
 ## <a name="prerequisites"></a>Eeltingimused
 1. Avage **Kõik tööruumid** > **Elektrooniline aruandlus**. 
@@ -35,7 +35,7 @@ Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonili
 
 ## <a name="import-metadata-configuration"></a>Importige metaandmete konfiguratsioon 
 1. Klõpsake valikut **Metaandmete konfiguratsioonid**. 
-2. Importige ER metaandmete konfiguratsioon, mis sisaldab metaandmeid, mis on konfigureeritud looma elektroonilisi dokumente väliskaubanduse äritegevuse jaoks. See ER metaandmete konfiguratsioon on eksporditud XML-failina, samal ajal kui viiakse läbi protseduurion [(ER) RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine](prepare-application-metadata-rcs.md) etappe. 
+2. Importige ER metaandmete konfiguratsioon, mis sisaldab metaandmeid, mis on konfigureeritud looma elektroonilisi dokumente väliskaubanduse äritegevuse jaoks. See ER-i metaandmete konfiguratsioon on eksporditud XML-failina, samal ajal kui etapid protseduuris [Rakenduse metaandmete ettevalmistamine RCS-is kasutamiseks](prepare-application-metadata-rcs.md) on lõpule viidud. 
 3. Klõpsake valikut **Vahetus**. 
 4. Klõpsake valikut **Laadi XML-failist**. 
 5. Klõpsake **Sirvi** ja valige fail "Väliskaubanduse metaandmed.xml". 

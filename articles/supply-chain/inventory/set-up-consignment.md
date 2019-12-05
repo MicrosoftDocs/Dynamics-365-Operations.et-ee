@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 24500ff46cc77ca8fa59c0c16427d9f05f33a87e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 04b3fb3038a1373e203ec240a0163cf67de655cc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549986"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813835"
 ---
 # <a name="set-up-consignment"></a>Veose seadistamine
 
@@ -31,7 +31,7 @@ ms.locfileid: "1549986"
 
 Selles teemas selgitatakse, kuidas konfigureerida sissetuleva veose laotoiminguid.
 
-Veose varud on varud, mis kuuluvad hankijale, kuid mida hoitakse teie tegevuskohas. Kui olete valmis tarbima või kasutama varusid, võtate varude omandiõiguse üle. See teema kirjeldab veose protsesside lubamiseks vajalikku seadistust. Veoseprotsesside kohta lisateabe saamiseks vaadake [Saadetis](consignment.md).
+Veose varud on varud, mis kuuluvad hankijale, kuid mida hoitakse teie tegevuskohas. Kui olete valmis tarbima või kasutama varusid, võtate varude omandiõiguse üle. See teema kirjeldab veose protsesside lubamiseks vajalikku seadistust. Veoseprotsesside kohta lisateabe saamiseks vaadake teemat [Saadetise seadistamine](consignment.md).
 
 ## <a name="inventory-owners"></a>Varude omanikud
 Füüsiliste sissetulevate veose varude kirjendamiseks peate määratlema hankijast omaniku. Seda tehakse lehel **Varude omanik**. Kui teete valiku **Hankija konto**, loob see väljade **Nimi** ja **Omanik** jaoks vaikeväärtused. Väärtus väljal **Omanik** on hankijale nähtav, seega võite soovi korral seda muuta, kui hankijakonto nimesid pole välistel inimestel lihtne tuvastada. On võimalik redigeerida välja **Omanik**, kuid ainult kirje **Varude omanik** salvestamiseni. Väli **Nimi** täidetakse selle osapoole nimega, millega hankija konto on seostatud ja seda ei saa muuta.
@@ -49,4 +49,4 @@ Töölehte **Varude omandiõiguse muutmine**kasutatakse, et kirjendada veose var
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Hankija koostöö veoseprotsessides
-Kui hankijad kasutavad hankija koostööliidest, saavad nad seda kasutada varude tarbimise jälgimiseks teie tegevuskohas. Hankija koostöö kasutamiseks hankijate seadistamise kohta lisateabe saamiseks vaadake [Hankija koostöö kasutajate turbe konfigureerimine](../procurement/configure-security-vendor-portal-users.md).
+Kui hankijad kasutavad hankija koostööliidest, saavad nad seda kasutada varude tarbimise jälgimiseks teie tegevuskohas. Lisateavet hankijate koostööks tarnijate seadistamise kohta leiate jaotisest [Hankijaportaali kasutaja turvalisus](../procurement/configure-security-vendor-portal-users.md).

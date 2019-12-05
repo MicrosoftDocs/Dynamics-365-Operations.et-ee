@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865324"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813542"
 ---
 # <a name="product-lifecycle-state-overview"></a>Toote töötsükli olekute ülevaade
 
@@ -107,9 +107,9 @@ Väljastatud toodete ja tootevariantide valimiseks ja värskendamiseks saate kas
 
 ## <a name="related-topics"></a>Seotud dokumendid
 
--  [Uue toote elutsükli oleku loomine (tegevuse juhis)](tasks/new-product-lifecycle-state.md)
--  [Toote elutsükli oleku vaikeväärtuse loomine (tegevuse juhis)](tasks/default-product-lifecycle-state.md)
--  [Toote elutsükli oleku määramine väljastatud tooteetalonile (tegevuse juhis)](tasks/product-lifecycle-state-released-product-master.md)
--  [Toote elutsükli oleku määramine väljastatud tootele (tegevuse juhis)](tasks/product-lifecycle-state-released-product.md)
--  [Aegunud tootevariantide leidmine ja neile toote elutsükli oleku määramine (tegevuse juhis)](tasks/obsolete-product-variants.md)
--  [Toote elutsükli oleku loomine toodete välistamiseks koondplaneerimisest (tegevuse juhis)](tasks/exclude-products-master-planning.md)
+-  [Toote töötsükli uue oleku loomine](tasks/new-product-lifecycle-state.md)
+-  [Toote töötsükli vaikeoleku loomine](tasks/default-product-lifecycle-state.md)
+-  [Toote elutsükli oleku määramine väljastatud tooteetalonile](tasks/product-lifecycle-state-released-product-master.md)
+-  [Toote elutsükli oleku määramine väljastatud tootele](tasks/product-lifecycle-state-released-product.md)
+-  [Aegunud tootevariantide leidmine ja neile toote elutsükli oleku määramine](tasks/obsolete-product-variants.md)
+-  [Toote elutsükli oleku loomine toodete välistamiseks koondplaneerimisest](tasks/exclude-products-master-planning.md)

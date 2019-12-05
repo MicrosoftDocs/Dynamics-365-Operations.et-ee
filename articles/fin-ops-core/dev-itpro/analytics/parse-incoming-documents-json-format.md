@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 92ef83bc1783b00a4d7d9739ca1c17e863c7ff44
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8be4e225507a18a92d642ff0f3a6ca3d0ff68564
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185263"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772531"
 ---
 # <a name="parse-incoming-documents-in-json-format"></a>Sissetulevate dokumentide sõelumine JSON-vormingus
 
@@ -46,7 +46,7 @@ Enne elektroonilise aruandluse vormingu konfiguratsiooni loomise importimiseks v
 - JSON-massiivid võivad olla ainult objekti atribuudi elementide pesastatud elemendid.
 - JSON-massiivid võivad sisaldada ainult JSON-objekte. Need ei saa sisaldada otseseid stringi/numbrilisi väärtusi ega pesastatud massiive. Nende massiivide elemente sõelutakse järjekorras, nagu need on vormingus määratud. Iga JSON-objekti puhul kaalutakse kordsuse sätteid.
 
-Lisaks peate läbima tegevuse juhise [Vajalike konfiguratsioonide loomine välisest failist andmete importimiseks elektroonilise aruandluse jaoks](tasks/er-required-configurations-import-data.md), kui te pole seda veel läbinud.. Tegevuse juhise lõpuleviimiseks laadige alla järgmine fail.
+Lisaks peate läbima tegevuse juhise [Elektrooniline aruandlus. Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist](tasks/er-required-configurations-import-data.md), kui te pole seda veel läbinud. Tegevuse juhise lõpuleviimiseks laadige alla järgmine fail.
 
 | Tiitel                  | Faili nimi |
 |------------------------|-----------|

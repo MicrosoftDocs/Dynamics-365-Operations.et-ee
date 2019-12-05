@@ -19,22 +19,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d33625b94e7611a256c389a6de4692ae8f4ff2a7
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: da451c63c23444da564307505d38699faf9df19a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572468"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770977"
 ---
 # <a name="integrated-vendor-master"></a>Hankija koondandmete haldamine
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview](../includes/preview-banner.md)]
-
 Termin *hankija* viitab tarnijariigi organisatsioonile või ainuomanikule, kes on tarneahela protsessi osa ja tarnib ettevõttele kaupu. Kuigi *hankija* on loodud mõiste rakenduses Finance and Operations, pole rakenduses Dynamics 365 hankija mõistet olemas. Selle asemel on mõned ettevõtted olemi Konto üle koormanud nii kliendi- kui ka hankijateabega. Teised ettevõtted kasutavad kohandatud hankija mõistet. Common Data Service'i integratsioon toetab mõlemat lahendust. Seetõttu saate olenevalt oma äristsenaariumist lubada ühe neist lahendustest.
 
-Hankija andmete integreerimine rakenduste Finance and Operationsi rakenduste ja ja teiste Dynamics 365 rakenduste vahel võimaldab teil mitmeid koondandmeid hankida. Olenemata sellest, kust hankijaandmed pärinevad, on need integreeritud kulisside taga üle rakenduste piiride ja taristute erinevuste. 
+Hankija andmete integreerimine Finance and Operationsi rakenduste ja teiste Dynamics 365 rakenduste vahel võimaldab teil mitmeid koondandmeid hankida. Olenemata sellest, kust hankijaandmed pärinevad, on need integreeritud kulisside taga üle rakenduste piiride ja taristute erinevuste. 
 
 ### <a name="vendor-data-flow"></a>Hankijaandmete voog
 
@@ -46,172 +44,30 @@ Kui soovite kasutada hankija koondandmete jaoks teisi Dynamics 365 rakendusi ja 
 
 ![Hankijaandmete laiendatud voog](media/dual-write-vendor-detail.jpg)
 
-Hankija kontaktteave meenutab kliendi kontaktteavet. Kulisside taga talletatakse kontaktisiku teave ja tuuakse need samadest olemitest.
+Hankija kontaktteave meenutab kliendi kontaktteavet. Kulisside taga talletatakse kontaktisiku teave ja tuuakse need samadest üksustest.
 
 ## <a name="templates"></a>Mallid
 
 Hankijaandmed sisaldavad kogu teavet hankija kohta (nt hankijagrupp, aadressid, kontaktandmed, makseprofiil, arveprofiil). Olemikaartide kogum toimib koos hankijaandmete suhtluse ajal, nagu on näidatud järgmises tabelis.
 
-Finance and Operationsi rakendused  | Muud Dynamics 365 rakendused
-------------------------|---------------------------------
-Hankija V2               | Konto
-Hankija V2               | Msdyn\_vendors
-CDS-i kontaktid V2         | Kontakt
-Hankijagrupid           | Msdyn\_vendorgroups
-Hankija makseviis   | Msdyn\_vendorpaymentmethods
-Maksegraafik        | Msdyn\_paymentschedules
-Maksegraafik        | Msdyn\_paymentschedulelines
-CDS-i maksepäev         | Msdyn\_paymentdays
-CDS-i maksepäeva read   | Msdyn\_paymentdaylines
-Maksetingimused        | Msdyn\_paymentterms
-Nimeliited            | Msdyn\_nameaffixes
+Finance and Operationsi rakendused | Muud Dynamics 365 rakendused         | Kirjeldus
+----------------------------|---------------------------------|------------
+Hankija V2               | Konto | Ettevõtted, mis kasutavad hankija teabe talletamiseks olemit Konto, saavad jätkata selle kasutamist samal viisil. Nad saavad kasutada ka konkreetseid hankijafunktsioone Finance and Operationsi rakenduste integratsiooni tõttu.
+Hankija V2               | Msdyn\_vendors | Ettevõtted, mis kasutavad hankijatele, saavad ära kasutada valmislahendusena hankija eeliseid, mis on Finance and Operationsi rakenduste integratsiooni kaudu juurutatud teenuses Common Data Service. 
+Hankijagrupid | msdyn_vendorgroups | See mall sünkroonib hankijagrupi teabe.
+Tarnija makseviis | msdyn_vendorpaymentmethods | See mall sünkroonib hankija makseviisi teabe.
+CDS-i kontaktid V2             | kontaktid                        | [Kontaktide](dual-write-customer.md#cds-contacts-v2-to-contacts) mall sünkroonib nii klientide kui hankijate kõik esmased, sekundaarsed ja tertsiaarsed kontaktandmed.
+Maksegraafiku read      | msdyn_paymentschedulelines      | [Maksegraafiku ridade](dual-write-customer.md#payment-schedule-lines-to-msdyn_paymentschedulelines) mall sünkroonib klientide ja hankijate viiteandmed.
+Maksegraafik            | msdyn_paymentschedules          | [Maksegraafikute](dual-write-customer.md#payment-schedule-to-msdyn_paymentschedules) mall sünkroonib nii klientide kui ka hankijate maksegraafiku viiteandmed.
+CDS V2 maksepäeva read    | msdyn_paymentdaylines           | [Maksepäeva ridade](dual-write-customer.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) mall sünkroonib klientide ja hankijate maksepäeva ridade viiteandmed.
+CDS-i maksepäevad            | msdyn_paymentdays               | [Maksepäevade](dual-write-customer.md#payment-days-cds-to-msdyn_paymentdays) mall sünkroonib nii klientide kui ka hankijate maksepäevade viiteandmed.
+Maksetingimused            | msdyn_paymentterms              | [Maksetingimuse](dual-write-customer.md#terms-of-payment-to-msdyn_paymentterms) mall sünkroonib nii klientide kui ka hankijate maksetingimuste viiteandmed.
+Nime liited                | msdyn_nameaffixes               | [Nimeliidete](dual-write-customer.md#name-affixes-to-msdyn_nameaffixes) mall sünkroonib nii klientide kui ka hankijate nimeliidete viiteandmed.
 
-[!include [banner](../includes/dual-write-symbols.md)]
+[!include [symbols](../includes/dual-write-symbols.md)]
 
-## <a name="vendor-v2-and-account"></a>Hankija V2 ja konto 
+[!include [Vendors](dual-write/VendorsV2-msdyn-vendors.md)]
 
-Ettevõtted, mis kasutavad hankija teabe talletamiseks olemit Konto, saavad jätkata selle kasutamist samal viisil. Nad saavad kasutada ka konkreetseid hankijafunktsioone Finance and Operationsi rakenduste integratsiooni tõttu.
+[!include [Vendor groups](dual-write/VendVendorGroup-msdyn-vendorgroups.md)]
 
-## <a name="vendor-v2-and-msdyn_vendors"></a>Hankija V2 and Msdyn\_vendors
-
-Ettevõtted, mis kasutavad hankijatele, saavad ära kasutada valmislahendusena hankija eeliseid, mis on Finance and Operationsi rakenduste integratsiooni kaudu juurutatud teenuses Common Data Service. 
-
-<!-- ![vendor mappings](media/dual-write-vendors-1.png) -->
-
-<!-- ![vendor mappings](media/dual-write-vendors-2.png) -->
-
-<!-- ![vendor mappings](media/dual-write-vendors-3.png) -->
-
-Lähteväli | Kaardi tüüp | Sihtväli
----|---|---
-VENDORACCOUNTNUMBER | = | msdyn\_vendoraccountnumber
-VENDORGROUPID | = | msdyn\_vendorgroupid.msdyn\_vendorgroup
-VENDORORGANIZATIONNAME | = | msdyn\_name
-VENDORPARTYTYPE | \>\< | msdyn\_isperson
-PERSONFIRSTNAME | = | msdyn\_firstname
-PERSONLASTNAME | = | msdyn\_lastname
-CREDITLIMIT | = | msdyn\_vendorcreditlimit
-ISFOREIGNENTITY | \>\< | msdyn\_isforeignentity
-ISONETIMEVENDOR | \>\< | msdyn\_isonetimevendor
-ADDRESSBUILDINGCOMPLIMENT | = | msdyn\_addressbuildingcompliment
-PERSONCHILDRENNAMES | = | msdyn\_childrennames
-ADDRESSCITY | = | msdyn\_addresscity
-ADDRESSCOUNTRYREGIONID | = | msdyn\_addresscountryregionid
-ADDRESSCOUNTRYREGIONISOCODE | = | msdyn\_addresscountryregionisocode
-ADDRESSCOUNTYID | = | msdyn\_addresscountyid
-CREDITRATING | = | msdyn\_creditrating
-ADDRESSDESCRIPTION | = | msdyn\_addressdescription
-ADDRESSDISTRICTNAME | = | msdyn\_addressdistrictname
-DUNSNUMBER | = | msdyn\_dunsnumber
-ETHNICORIGINID | = | msdyn\_ethnicorigin
-FORMATTEDPRIMARYADDRESS | = | msdyn\_formattedprimaryaddress
-PERSONHOBBIES | = | msdyn\_hobbies
-PERSONINITIALS | = | msdyn\_initials
-LANGUAGEID | = | msdyn\_languageid
-PERSONLASTNAMEPREFIX | = | msdyn\_lastnameprefix
-PERSONMIDDLENAME | = | msdyn\_middlename
-ORGANIZATIONNUMBER | = | msdyn\_organizationnumber
-OURACCOUNTNUMBER | = | msdyn\_ourvendoraccountnumber
-PAYMENTID | = | msdyn\_paymentid
-PERSONPHONETICFIRSTNAME | = | msdyn\_phoneticfirstname
-PERSONPHONETICMIDDLENAME | = | msdyn\_phoneticmiddlename
-PERSONPHONETICLASTNAME | = | msdyn\_phoneticlastname
-ORGANIZATIONPHONETICNAME | = | msdyn\_organizationphoneticname
-ADDRESSPOSTBOX | = | msdyn\_addresspostbox
-PRIMARYURL | = | msdyn\_primarycontacturl
-PRIMARYEMAILADDRESS | = | msdyn\_primaryemailaddress
-PRIMARYEMAILADDRESSDESCRIPTION | = | msdyn\_primaryemailaddressdescription
-PRIMARYFACEBOOK | = | msdyn\_primaryfacebook
-PRIMARYFACEBOOKDESCRIPTION | = | msdyn\_primaryfacebookdescription
-PRIMARYFAXNUMBER | = | msdyn\_primaryfaxnumber
-PRIMARYFAXNUMBERDESCRIPTION | = | msdyn\_primaryfaxnumberdescription
-PRIMARYFAXNUMBEREXTENSION | = | msdyn\_primaryfaxnumberextension
-PRIMARYLINKEDIN | = | msdyn\_primarylinkedin
-PRIMARYLINKEDINDESCRIPTION | = | msdyn\_primarylinkedindescription
-PRIMARYPHONENUMBER | = | msdyn\_pimaryphonenumber
-PRIMARYPHONENUMBERDESCRIPTION | = | msdyn\_primaryphonenumberdescription
-PRIMARYPHONENUMBEREXTENSION | = | msdyn\_primaryphonenumberextension
-PRIMARYTELEX | = | msdyn\_primarytelex
-PRIMARYTELEXDESCRIPTION | = | msdyn\_primarytelexdescription
-PRIMARYTWITTER | = | msdyn\_primarytwitter
-PRIMARYTWITTERDESCRIPTION | = | msdyn\_primarytwitterdescription
-PRIMARYURLDESCRIPTION | = | msdyn\_primaryurldescription
-PERSONPROFESSIONALSUFFIX | = | msdyn\_professionalsuffix
-PERSONPROFESSIONALTITLE | = | msdyn\_professionatitle
-ADDRESSSTATEID | = | msdyn\_addressstateid
-ADDRESSSTREET | = | msdyn\_addressstreet
-AADRESSSTREETINUMBER | = | msdyn\_addressstreetnumber
-VENDORKNOWNASNAME | = | msdyn\_vendorknownasname
-ADDRESSZIPCODE | = | msdyn\_addresszipcode
-DEFAULTPAYMENTDAYNAME | = | msdyn\_defaultpaymentdayname.msdyn\_name
-DEFAULTPAYMENTSCHEDULENAME | = | msdyn\_paymentschedule.msdyn\_name
-DEFAULTPAYMENTTERMSNAME | = | msdyn\_paymentterms.msdyn\_name
-HASONLYTAKENBIDS | \>\< | msdyn\_hasonlytakenbids
-ISMINORITYOWNED | \>\< | msdyn\_isminorityowned
-ISVENDORLOCALLYOWNED | \>\< | msdyn\_isvendorlocallyowned
-ISSERVICEVETERANOWNED | \>\< | msdyn\_isserviceveteranowned
-ISOWNERDISABLED | \>\< | msdyn\_ownerisdisabled
-ISWOMANOWNER | \>\< | msdyn\_womanowner
-PERSONANNIVERSARYDAY | = | msdyn\_personanniversaryday
-PERSONANNIVERSARYYEAR | = | msdyn\_anniversaryyear
-PERSONBIRTHDAY | = | msdyn\_birthday
-PERSONBIRTHYEAR | = | msdyn\_birthyear
-ORGANIZATIONEMPLOYEEAMOUNT | = | msdyn\_numberofemployees
-VENDORHOLDRELEASEDATE | = | msdyn\_vendoronholdreleasedate
-VENDORPARTYNUMBER | = | msdyn\_vendorpartynumber
-ADDRESSLOCATIONID | = | msdyn\_addresslocationid
-PERSONANNIVERSARYMONTH | = | msdyn\_vendorpersonanniversarymonth
-PERSONBIRTHMONTH | = | msdyn\_vendorpersonbirthmonth
-PERSONMARITALSTATUS | \>\< | msdyn\_maritalstatus
-ADDRESSLATITUDE | \>\> | msdyn\_addresslatitude
-ADDRESSLONGITUDE | \>\> | msdyn\_addresslongitude
-ONHOLDSTATUS | \>\< | msdyn\_onholdstatus
-CURRENCYCODE | = | msdyn\_currencycode.isocurrencycode
-ISVENDORLOCATEDINHUBZONE | \>\< | msdyn\_isvendorlocatedinhubzone
-DEFAULTVENDORPAYMENTMETHODNAME | = | msdyn\_vendorpaymentmethod.msdyn\_name
-INVOICEVENDORACCOUNTNUMBER | = | msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber
-PERSONGENDER | \>\< | msdyn\_gender
-AREPRICESINCLUDINGSALESTAX | \>\< | msdyn\_priceincludessalestax
-SALESTAXGROUPCODE | = | msdyn\_taxgroup.msdyn\_name
-VENDORPRICETOLERANCEGROUPID | = | msdyn\_pricetolerancegroup.msdyn\_groupid
-
-## <a name="contacts"></a>Kontaktid
-
-See mall sünkroonib nii klientide kui ka hankijate maksetingimuste esmased, sekundaarsed ja tertsiaarsed kontaktandmed Finance and Operationsi rakenduste ja teiste Dynamics 365 rakenduste vahel. Olemi kaardi üksikasjade kohta lugege teemat [Kliendi integreeritud koondandmed](dual-write-customer.md#contacts).
-
-## <a name="vendor-groups"></a>Hankijagrupid
-
-See mall sünkroonib hankijagrupi teabe Finance and Operationsi rakenduste ja teiste Dynamics 365 rakenduste vahel.
-
-<!-- ![vendor groups mappings](media/dual-write-vendor-groups.png) -->
-
-Lähteväli | Kaardi tüüp | Sihtväli
----|---|---
-DEFAULTPAYMENTTERMNAME | = | msdyn\_paymentterms.msdyn\_name
-KIRJELDUS | = | msdyn\_description
-VENDORGROUPID | = | msdyn\_vendorgroup
-CLEARINGPERIODPAYMENTTERMNAME | = | msdyn\_clearingperiodpaymentpermname.msdyn\_name
-
-### <a name="vendor-payment-method"></a>Hankija makseviis
-
-See mall sünkroonib hankija makseviisi teabe rakenduste Finance and Operations ja teiste Dynamics 365 rakenduste vahel.
-
-<!-- ![vendor payment method mappings](media/dual-write-vendor-payment-method.png) -->
-
-Lähteväli | Kaardi tüüp | Sihtväli
----|---|---
-NIMI | = | msdyn\_nimi
-KIRJELDUS | = | msdyn\_description
-SUMBYPERIOD | \>\< | msdyn\_sumbyperiod
-DISCOUNTGRACEPERIODDAYS | = | msdyn\_discountgraceperioddays
-PAYMENTSTATUS | \>\< | msdyn\_paymentstatus
-ALLOWPAYMENTCOPIES | \>\< | msdyn\_allowpaymentcopies
-PAYMENTTYPE | \>\< | msdyn\_paymenttype
-LASTFILENUMBER | = | msdyn\_lastfilenumber
-LASTFILENUMBERTODAY | = | msdyn\_lastfilenumbertoday
-ACCOUNTTYPE | \>\< | msdyn\_accounttype
-BRIDGINGPOSTINGENABLED | \>\< | msdyn\_bridgingposting
-ENABLEPOSTDATEDCHECKCLEARINGPOSTING | \>\< | msdyn\_postdatedcheckclearingposting
-PROMISSORYNOTEDRAFTTYPE | \>\< | msdyn\_promissorynotedrafttype
-DIRECTDEBIT | \>\< | msdyn\_directdebit
-
+[!include [Vendor payment methods](dual-write/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]

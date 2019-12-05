@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4ef97d30ca2d8a9c27ce656c82d2a415682ce075
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b809ba8d92772d8f3f416d4854d4af322e6f954a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551219"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773427"
 ---
 # <a name="import-iso20022-files"></a>ISO20022-failide importimine
 
@@ -49,7 +49,7 @@ Pangateatiste importimiseks vormingus camt.054.001.002 kliendi maksetöölehele 
 
     - Sisestage väljal **Kliendi maksed, konto pikkus** ISR-i viidetes või kliendi automaatseks tuvastamiseks kasutatava kliendikoodi pikkus.
     - Veenduge, et kliendi number ja arve number (numbrijadad) koosneksid ainult numbritest. Need ei tohi sisaldada muid märke. Arve number ei tohi alata nulliga.
-    - Sisestage juriidilise isiku pangakonto ESR, BESR ja protsessikood. Lisateabe saamiseks vaadake [ESR-i pärandfunktsiooni](emea-che-esr-customer-payments-import.md), kuna nõutavad on sarnased sätted.
+    - Sisestage juriidilise isiku pangakonto ESR, BESR ja protsessikood. Lisateavet vt teemast [ESR-i kliendimaksete importimine](emea-che-esr-customer-payments-import.md), kuna nõutavad on sarnased sätted.
     
 ## <a name="import-the-camt054-credit-advice-file-into-the-customer-payment-journal"></a>Camt.054 kreeditaviisi faili importimine kliendi maksetöölehele
 1. Klõpsake lehel **Kliendi maksetöölehe read** suvandeid **Funktsioonid** > **Maksete importimine**.
@@ -127,5 +127,5 @@ Elektroonilise aruandluse kohta lisateabe saamiseks vaadake teemat [Elektroonili
 - [Ettevõtte pangakontode seadistamine ISO20022 otsekorralduste jaoks](./tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
 - [Klientide ja kliendi pangakontode seadistamine ISO20022 otsekorralduste jaoks](./tasks/set-up-bank-accounts-iso20022-direct-debits.md)
 - [Makseviisi seadistamine ISO20022 kreeditkorralduse jaoks](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
-- [Makseviisi seadistamine ISO20022 otsekorralduse jaoks](./tasks/setup-method-payment-iso20022-direct-debit.md)
+- [Makseviisi seadistamine ISO20022 otsekorralduse puhul](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Hankijate ja hankija pangakontode seadistamine ISO20022 kreeditkorralduste jaoks](./tasks/set-up-vendor-iso20022-credit-transfers.md)
