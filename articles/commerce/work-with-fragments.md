@@ -1,0 +1,128 @@
+---
+title: Fragmentidega töötamine
+description: Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
+author: v-chgri
+manager: annbe
+ms.date: 10/01/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.search.region: Global
+ms.search.industry: retail
+ms.author: phinneyridge
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: d92b9077f8584bfa0710bbaacbc7caa3220baa4a
+ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2698092"
+---
+# <a name="work-with-fragments"></a>Fragmentidega töötamine 
+
+[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
+
+Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Ülevaade
+
+Fragmendid tagavad tsentraliseeritud loomiskogemuse mooduli konfiguratsioonidele, mida tuleb kogu saidil uuesti kasutada. Näiteks päiseid, jaluseid ja ribareklaame konfigureeritakse sageli fragmentidena, kuna neid jagatakse paljude lehtede vahel. Mõelge fragmentidest kui miniatuursetest veebisaitidest, mida saab sisestada teie saidi teistele lehtedele. Fragmentidel on oma elutsükkel. Teisisõnu need luuakse, neile viidatakse, neid värskendatakse ja need kustutatakse loomistööriistade sõltumatute üksustena.
+
+Pärast fragmentide konfigureerimist saab neid kasutada kõikjal teie saidi struktuuris, kus saab kasutada mooduleid. Fragmentidele saab lehtedel, paigutustes, mallide ja teistes fragmentides viidata.
+
+> [!NOTE]
+> Fragmendid võivad olla kuni seitsme taseme sügavusel teistes fragmentides.
+
+Näiteks kui soovite reklaamida hooajalist sündmust saidi paljudel lehtedel, võite selleks kasutada fragmenti. Uue fragmendi loomise esimene samm on valida mooduli tüüp, millest soovite alustada. Selles näites saate luua fragmendi pannoomoodulist.
+
+> [!NOTE]
+> Fragmente saab luua igast mooduli tüübist.
+
+Seejärel saate konfigureerida pannoofragmendi konkreetse kampaaniasisuga. Saate seda ka vajaduse järgi lokaliseerida. Uut eraldiseisevat pannoofragmenti saab seejärel kasutada eelkonfigureeritud moodulina kogu saidil. Saate seda hõlpsasti lisada mallidele, konkreetsetele lehtedele või teistele fragmentidele, mis sisaldavad pannoomooduleid.
+
+Kõik kohad, kuhu fragment lisatakse, on viited loodud kesksele pannoofragmendile. Kui avaldate fragmendi muudatused, kajastuvad need muudatused kohe kõikides kohtades üle saidi, kus fragmendile viidatakse. Seega pakuvad fragmendid võimsat ja tõhusat moodust mooduli konfiguratsioonide uuesti kasutamiseks ja tsentraalselt haldamiseks saidil. Neid tõhusalt kasutades saate muuta töö oluliselt kiiremaks ja vähendada saidi haldamisega seotud kulusid.
+
+Järgmisel joonisel on näha, kuidas saab fragmente kasutada jagatud mooduli konfiguratsioonide loomise tsentraliseerimiseks üle e-kaubanduse saidi.
+
+![Näide sellest, kuidas saab fragmente kasutada jagatud mooduli konfiguratsioonide loomise tsentraliseerimiseks üle e-kaubanduse saidi.](./media/fragment-figure1.png)
+
+## <a name="create-a-fragment"></a>Fragmendi loomine
+
+Saate kas luua uue fragmendi või salvestada olemasoleva mooduli konfiguratsiooni fragmendina.
+
+### <a name="create-a-new-fragment"></a>Uue fragmendi loomine
+
+Uue fragmendi loomiseks tehke järgmist.
+
+1. Valige navigeerimispaanilt vasakult suvand **Fragmendid**.
+1. Valige suvand **Uus lehe fragment**. Kuvatakse dialoogiboks, kus on näha kõik saadaolevad mooduli tüübid. Nagu varem mainitud, fragmente saab luua igast mooduli tüübist.
+1. Valige fragmendi jaoks mooduli tüüp ja seejärel klõpsake nuppu **OK**.
+
+    > [!TIP]
+    > Valides üldkonteineri mooduli tüübi, on teil hiljem fragmendi värskendamisel ja konfigureerimisel kõige rohkem vabadust.
+
+### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Olemasoleva mooduli konfiguratsiooni salvestamine fragmendina
+
+Varem konfigureeritud mooduli teisendamiseks korduskasutatavaks fragmendiks tehke järgmist.
+
+1. Avage leht või mall, mis sisaldab moodulit, mida soovite teisendada fragmendiks.
+1. Vasakult liigenduspaanilt valige mooduli kõrvalt kolmikpunkti nupp (**...**) ja seejärel valige suvand **Salvesta fragmendina**. Kuvatakse dialoogiboks.
+1. Sisestage fragmendi nimi ja metaandmed.
+1. Valige nupp **OK**, et salvestada mooduli konfiguratsioon fragmendina, mida saab lisada teistele lehtedele.
+
+## <a name="add-remove-or-edit-fragments-on-a-page"></a>Fragmentide lisamine, eemaldamine või redigeerimine lehel
+
+Järgmistes protseduurides kirjeldatakse, kuidas fragmente lisada, eemaldada ja redigeerida.
+
+### <a name="add-a-fragment"></a>Fragmendi lisamine
+
+Lehele fragmendi lisamiseks tehke järgmist.
+
+1. Valige vasakult liigenduspaanilt konteiner või pesa, kuhu võib lisada alammooduleid.
+1. Valige konteineri või pesa nime kõrvalt kolmikpunkti nupp ja seejärel käsk **Lisa fragment**. Kuvatakse dialoogiboks.
+
+    > [!NOTE]
+    > Kui konteiner või pesa ei toeta uusi alammooduleid, ei ole käsk **Lisa fragment** saadaval.
+
+1. Otsige ja valige lisamiseks dialoogiboksist fragment. Kui ühtegi saadaolevat fragmenti loendis pole, peate kõigepealt looma fragmendi mooduli tüübist, mida valitud konteiner või pesa toetab.
+1. Valige nupp **OK**, et lisada valitud fragment valitud konteinerile või pesale oma lehel.
+
+> [!NOTE]
+> Konteineris või pesas lubatud moodulid on määratletud lehe malli või moodulite enda määratlustega.
+
+### <a name="remove-a-fragment"></a>Fragmendi eemaldamine
+
+Fragmendi eemaldamiseks pesast või konteinerist lehel tehke järgmist.
+
+1. Vasakult liigenduspaanilt valige eemaldatava fragmendi kõrvalt kolmikpunkti nupp ja seejärel valige prügikasti nupp.
+1. Kui teil palutakse kinnitada, et soovite fragmenti eemaldada, valige nupp **OK**.
+
+> [!NOTE]
+> Kui fragmendi lehelt eemaldate, eemaldate lehelt vaid viite sellele. Te **ei** kustuta fragmenti saidilt. Fragmentide kustutamiseks saidilt peate kasutama fragmendi kontrollija kasutajaliidest (UI). Fragmente saate saidilt kustutada ainult siis, kui neile ei viita parasjagu ükski leht, mall või teine fragment.
+
+### <a name="edit-a-fragment"></a>Fragmendi redigeerimine
+
+Fragmentide redigeerimiseks peate kasutama fragmendi redaktori kasutajaliidest. See piirang on kavandatud. See aitab tagada, et autorid ei ajaks segi konkreetse lehe moodulite redigeerimise protsessi paljude lehtede vahel jagatavate fragmentide redigeerimise protsessiga.
+
+Fragmendi redigeerimiseks tehke järgmist.
+
+1. Valige navigeerimispaanilt vasakult suvand **Fragmendid**.
+1. Valige jaotisest **Fragmendid** redigeerimiseks fragment.
+1. Redigeerige fragmendi mooduli atribuute ja struktuuri vajaduse järgi. Protsess meenutab moodulite redigeerimise protsessi, mis toimub lehe redaktori vaates.
+
+Saate fragmenti redigeerida ka nii, et valite selle lehelt, mallist või ülemfragmendist ja seejärel valite paremalt atribuutide paanilt suvandi **Fragmendi redigeerimine**.
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Mallide ja paigutuste ülevaade](templates-layouts-overview.md)
+
+[Mallidega töötamine](work-with-templates.md)
+
+[Eelmääratud paigutustega töötamine](work-with-layouts.md)

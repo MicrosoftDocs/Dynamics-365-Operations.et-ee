@@ -1,0 +1,134 @@
+---
+title: Konteinermoodul
+description: See teema hõlmab konteinermooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+author: anupamar-ms
+manager: annbe
+ms.date: 10/31/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.search.region: Global
+ms.search.industry: ''
+ms.author: anupamar
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: 22a09b61fbe3bd1cca96011d3fb81a12ef1bc844
+ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2697056"
+---
+# <a name="container-module"></a>Konteinermoodul
+
+[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
+
+See teema hõlmab konteinermooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+
+## <a name="overview"></a>Ülevaade
+
+Konteinermoodul on moodul, mis majutab endas teisi mooduleid. See on kõige üldisem konteiner, mida rakenduses Dynamics 365 Commerce kasutatakse. Konteinermooduli esmane eesmärk on määratleda selle jaoks määratud atribuutide kaudu selle sees olevate moodulite paigutus. Näiteks võivad need moodulid esineda kõrvuti kahe veeruga, kolme veeruga, nelja veeruga või kuue veeruga paigutuses. Need võivad olla ka piiratud konteineri laiusega või täita ekraani. Igale konteinermoodulile võib lisada ka pealkirja.
+
+Konteinermoodulid on kolme standardtüüpi: konteiner, kahe pesaga konteiner ja kolme pesaga konteiner. Nendesse konteineritesse saab lisada mis tahes moodulitüübi mooduleid. Konteinermooduleid on ka spetsiaalset tüüpi, nagu karusell, sisurikas plokk, sisupaigutus, ostukorv, maksmine, ostukast, päis ja jalus. Nendel konteineritel on konkreetsed eesmärgid ja nendesse saab lisada ainult spetsiifilisi toetatud moodulitüüpe.
+
+Soovitame panna moodulid konteinerisse, et neid saaks piirata konteineri laiusega.
+
+## <a name="examples-of-container-modules-in-e-commerce"></a>E-kaubanduse konteinermoodulite näited
+
+- Saidi autor soovib kolme veeruga paigutust, kus kolm moodulit kuvatakse kõrvuti. Seega kasutab saidi autor kolme pesaga konteineri tüüpi konteinermoodulit.
+- Saidi autor soovib kuue veeruga paigutust, kus kuus moodulit kuvatakse kõrvuti. Seega kasutab saidi autor mahutamistüübi konteinerit, mille sees on kuus veergu.
+- Saidi autor soovib lisada lehele mooduli, kuid ei taha, et see täidaks ekraani. Seega lisab saidi autor mooduli konteinermoodulisse ja määrab konteineri atribuudi **Laius** väärtusele **Mahuta konteiner**.
+
+## <a name="container-module-properties"></a>Konteinermooduli atribuudid
+
+| Atribuudi nimi     | Väärtused | Kirjeldus |
+|-------------------|--------|-------------|
+| Pealkiri           | Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**) | Konteinerile saab lisada valikulise pealkirja. Vaikimisi kasutatakse pealkirja jaks pealkirja silti **H2**. Samas saab silti muuta, et see vastaks juurdepääsetavuse nõuetele. |
+| Laius             | **Mahuta konteinerisse** või **Täida ekraan** | Kui väärtuseks on seatud **Mahuta konteinerisse** (vaikeväärtus), on konteineris olevad moodulid piiratud konteineri laiusega. Kui väärtuseks on seatud **Täida ekraan**, ei ole moodulid konteineri laiusega piiratud, vaid võivad täita ekraani. |
+| Veergude arv | **1**, **2**, **3**, **4**, **6** või  **12** | See atribuut määratleb konteineri veergude arvu. Konteineril võib olla kuni 12 veergu. |
+
+## <a name="container-with-2-slots"></a>Konteiner 2 pesaga
+
+Kahe pesaga tüüpi konteiner on optimeeritud kahe veeruga paigutuseks. Seda tüüpi konteineril on kaks pesa, mis võimaldavad sisalduvate moodulite kõrvuti kuvamist.
+
+Erinevate vaateportide (mobiilsed seadmed, tahvelarvutid, arvutid jne) jaoks paigutuse optimeerimiseks saab kasutada täiendavaid atribuute. Iga vaatepordi jaoks on võimalik määratleda iga veeru laius. Saadaval on järgmised veeru laiuse sätted.
+
+- **75%/25%** – esimesel moodulil on veeru laius 75 protsenti ja teisel moodulil on veeru laius 25 protsenti. Samuti on saadaval valik **25%/75%**.
+- **50%/50%** – mõlemal moodulil on võrdne veeru laius.
+- **67%/33%** – esimesel moodulil on veeru laius 67 protsenti ja teisel moodulil on veeru laius 33 protsenti. Samuti on saadaval valik **33%/67%**.
+- **100%** – mõlemal moodulil on veeru täielik laius. Seega on moodulid virnastatud vertikaalselt ühes veerus. Kuigi see ühe veeruga paigutus läheb vastuollu kahe pesaga tüüpi konteineri eesmärgiga, võib see mõne vaatepordi jaoks olla eelistatav (nt eriti väikesed vaatepordid, nagu mobiili seadmed).
+
+### <a name="container-with-2-slots-properties"></a>Kahe pesaga atribuutidega konteiner
+
+| Atribuudi nimi                   | Väärtused | Kirjeldus |
+|---------------------------------|--------|-------------|
+| Pealkiri                         | Pealkirja tekst ja pealkirja silt | Konteinerile saab lisada valiku. |
+| Eriti väikese vaatepordi konfigureerimine | **25%/75%**, **75%/25%**, **50%/50%**, **67%/33%**, **33%/67%** või **100%** | See atribuut määratleb eriti väikeste vaateportide paigutuse. |
+| Väikese vaatepordi konfigureerimine   | **25%/75%**, **75%/25%**, **50%/50%**, **67%/33%**, **33%/67%** või **100%** | See atribuut määratleb väikeste vaateportide paigutuse, nagu mobiili seadmed. |
+| Keskmise vaatepordi konfigureerimine  | **25%/75%**, **75%/25%**, **50%/50%**, **67%/33%**, **33%/67%** või **100%** | See atribuut määratleb keskmiste vaateportide paigutuse, nagu tahvelarvutid. |
+| Suure vaatepordi konfigureerimine   | **25%/75%**, **75%/25%**, **50%/50%**, **67%/33%**, **33%/67%** või **100%** | See atribuut määratleb suurte vaateportide paigutuse, nagu arvutid. |
+
+## <a name="container-with-3-slots"></a>Konteiner 3 pesaga
+
+Kolme pesaga moodulite tüüpi konteiner on optimeeritud kolme veeruga paigutuseks.
+
+Erinevate portide paigutuse optimeerimiseks saab kasutada täiendavaid atribuute. Iga vaatepordi jaoks on võimalik määratleda iga veeru laius. Saadaval on järgmised veeru laiuse sätted.
+
+- **33%/33%/33%** – kõigil kolmel moodulil on võrdne veeru laius.
+- **50%/25%/25%** – esimesel moodulil on veeru laius 50 protsenti ja kahel ülejäänud moodulil on veeru laius 25 protsenti. Valikud **25%/50%/25%** ja **25%/25%/50%** on samuti saadaval.
+- **16%/16%/67%** – esimesel kahel moodulil on veeru laius 16 protsenti ja kolmandal moodulil on veeru laius 67 protsenti. Valikud **16%/67%/16%** ja **67%/16%/16%** on samuti saadaval.
+
+### <a name="container-with-3-slots-properties"></a>Kolm pesaga atribuutidega konteiner
+
+| Atribuudi nimi                   | Väärtused | Kirjeldus |
+|---------------------------------|--------|-------------|
+| Pealkiri                         | Pealkirja tekst ja pealkirja silt | Konteinerile saab lisada valikulise pealkirja. |
+| Eriti väikese vaatepordi konfigureerimine | **33%/33%/33%**, **50%/25%/25%**, **25%/50%/25%**, **25%/25%/50%**, **16%/16%/67%**, **16%/67%/16%** või **67%/16%/16%** | See atribuut määratleb eriti väikeste vaateportide paigutuse. |
+| Väikese vaatepordi konfigureerimine   | **33%/33%/33%**, **50%/25%/25%**, **25%/50%/25%**, **25%/25%/50%**, **16%/16%/67%**, **16%/67%/16%** või **67%/16%/16%** | See atribuut määratleb väikeste vaateportide paigutuse, nagu mobiili seadmed. |
+| Keskmise vaatepordi konfigureerimine  | **33%/33%/33%**, **50%/25%/25%**, **25%/50%/25%**, **25%/25%/50%**, **16%/16%/67%**, **16%/67%/16%** või **67%/16%/16%** | See atribuut määratleb keskmiste vaateportide paigutuse, nagu tahvelarvutid. |
+| Suure vaatepordi konfigureerimine   | **33%/33%/33%**, **50%/25%/25%**, **25%/50%/25%**, **25%/25%/50%**, **16%/16%/67%**, **16%/67%/16%** või **67%/16%/16%** | See atribuut määratleb suurte vaateportide paigutuse, nagu arvutid. |
+
+## <a name="add-a-container-module-to-a-page"></a>Konteineri mooduli lisamine lehele
+
+Uuele lehele konteineri esitamise mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
+
+1. Looge lehe mall nimega **konteineri mall**.
+1. Lisage vaikelehe pessa **Peamine** konteinermoodul.
+1. Lisage konteinermoodulile funktsioonimoodul.
+1. Registreerige mall ja avaldage see.
+1. Kasutage äsja loodud konteineri malli, et luua leht, mille nimi on **konteineri leht**.
+1. Lisage uue lehe pessa **Peamine** konteinermoodul.
+1. Konteinermooduli atribuudipaanil määrake atribuut **Veergude arv** väärtusele **1** ja atribuut **Laius** väärtusele **Mahuta konteinerisse**.
+1. Lisage konteinermoodulile funktsioonimoodul.
+1. Konfigureerige funktsioonimooduli atribuudipaanil pealkiri.
+1. Salvestage ja kuvage lehe eelvaade. Peaksite nägema ühte funktsioonimoodulit, mis mahub konteinermooduli laiusse.
+1. Konteinermooduli atribuudipaanil muutke atribuudi **Veergude arv** väärtuseks **3**.
+1. Lisage konteinermoodulile veel kaks funktsioonimoodulit.
+1. Salvestage ja kuvage lehe eelvaade. Nüüd peaksite nägema kolme funktsioonimoodulit, mis ilmuvad kõrvuti.
+1. Pärast soovitud paigutuse saavutamist registreerige see leht ja avaldage see.
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Alustuskomplekti ülevaade](starter-kit-overview.md)
+
+[Karusellmoodul](add-carousel.md)
+
+[Sisurikas plokimoodul](add-content-rich-block.md)
+
+[Sisupaigutuse moodul](add-content-placement-modules.md)
+
+[Ostukasti moodul](add-buy-box.md)
+
+[Ostukorvi moodul](add-cart-module.md)
+
+[Maksmise moodul](add-checkout-module.md)
+
+[Päise moodul](author-header-module.md)
+
+[Jaluse moodul](author-footer-module.md)
