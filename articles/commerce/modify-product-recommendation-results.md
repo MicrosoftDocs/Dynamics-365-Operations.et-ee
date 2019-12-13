@@ -1,0 +1,98 @@
+---
+title: AI-ML-põhiste tootesoovituse tulemuste haldamine
+description: Selles teemas selgitatakse, kuidas kohandada tehisintellekti masinõppel (AI-ML) põhinevaid tootesoovituse tulemusi teie ettevõttele.
+author: bebeale
+manager: AnnBe
+ms.date: 10/1/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: bebeale
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: 669b056c38614c8ac9be2d7b244a0ab0c73bc9f8
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770066"
+---
+# <a name="manage-ai-ml-based-product-recommendation-results"></a>AI-ML-põhiste tootesoovituse tulemuste haldamine
+
+[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
+
+Selles teemas selgitatakse, kuidas kohandada tehisintellekti masinõppel (AI-ML) põhinevaid tootesoovituse tulemusi teie ettevõttele. 
+
+Pärast tootesoovituste lubamist hakkavad kehtima vaikesätted; need parameetrid töötavad, võivad töötada paljude vajaduste jaoks. Parim on planeerida kulutada aega hindamisele, kas tulemused vastavad toodete müügiliikumisele. Soovitame hinnata tulemusi paar päeva, enne kui muudate parameetreid vastavalt vajadusele enne uuesti testimist. 
+
+## <a name="understanding-recommendation-list-parameters"></a>Soovituste loendi parameetrite mõistmine
+
+Enne parameetrite muutmist vaadake, kuidas need mõjutavad tulemusi allpool.
+
+### <a name="trending-product-list"></a>Populaarne tooteloend
+
+Tooteloendil **Populaarne** on kaks parameetrit, mida saab muuta: ![Populaarsete loendi vaikeparameetrite näide](./media/exampletrendingparameters.png)
+1. **Kaasa viimase X päeva uued tooted** – tooteid, mis on lisatud konkreetne arv päevi enne praegust kuupäeva, saab kasutada tootekanditaatide valimiseks. Vaikeväärtus pildil näitab, et populaarsete toodete loendis saab kasutada tooteid, mis on vähemalt 180 päeva vabad.
+1. **Kaasa viimase X päeva müügid** – müügitehinguid, mis on toimunud konkreetne arv päevi enne praegust kuupäeva, saab kasutada toodete tellimiseks. Ülaltoodud vaikeväärtus näitab, et kõiki viimase 30 päeva jooksul sooritatud toote ostusid kasutatakse toote asukoha määratlemiseks populaarsete toodete loendis. 
+
+### <a name="best-selling-product-list"></a>Enim müüdud toodete loend
+
+Sõltuvalt teie ettevõttest, võib suvand Enim müüdud anda populaarsete toodetega võrreldes erineva tulemuse, olgugi need mõlemad kasutavad toodete tellimiseks kandeandmeid. Kuna suvandil enim müüdud puudub sortimise kuupäeva põhjal tähtaeg, võib suvand enim müüdud tõsta esile endiselt väga populaarsed vanemad tooted, mis võisid populaarsete loendist välja langeda. 
+
+**Enim müüdud** toodete loendis on võimalik muuta ühte parameetrit.
+
+![Enim müüdud loendi vaikeparameetri näide](./media/examplebestsellingparameters.PNG)
+1. **Kaasa viimase X päeva müügid** – müügitehinguid, mis on toimunud konkreetne arv päevi enne praegust kuupäeva, saab kasutada toodete tellimiseks. Ülaltoodud vaikeväärtus näitab, et kõiki viimase 30 päeva jooksul sooritatud toote ostusid kasutatakse toote asukoha määratlemiseks enim müüdud toodete loendis. 
+
+## <a name="manually-add-or-remove-products-from-recommendation-lists"></a>Toodete käsitsi soovituse loenditesse lisamine või nendest eemaldamine
+
+### <a name="for-new-trending-or-best-selling"></a>Suvandite Uus, Populaarne ja Enim müüdud jaoks
+
+1.  Avage **Jaemüük** > **Tootesoovitused** > **Soovituste parameetrid**.
+1.  Jaemüügi jagatud parameetrite loendis valige suvand **Soovituste loendid**.
+1.  Valige toodete loendisse lisamine või sellest eemaldamine.
+1.  Toodete tabelisse lisamiseks valige suvand **Lisa rida.** 
+1.  Veerus Toode otsige toodet suvandite **Nimi** või **Tootenumber** alusel.
+![Näide toote otsimisest tooteloendis Uus](./media/examplenewlistconfiguration1.png)
+1.  Valige veerus Rea tüüp üks kahest suvandist.
+    -   **Kaasa** – sunnib toote loendi ette
+    -   **Välista** – tühistab toote loendis ilmumise ![Näide toote loendisse Uus toode kaasamisest või sellest eemaldamisest](./media/examplenewlistconfiguration2.png)
+1.  Suvandi **Kuvamise järjekord** muutmine muudab järjestust, kuidas suvandiga **kaasa** tähistatud tooted loendisse ilmuvad.
+    - Kui kahel tootel on sama **kuvamise järjestuse** väärtus, siis võib nende kahe tulemuse lõplik tellimus kontorist erineda.
+1.  Toodete tabelist eemaldamiseks: valige eemaldatav rida ja klõpsake käsku **Eemalda**.
+
+
+### <a name="for-people-also-like-or-frequently-bought-together-lists"></a>Loendite Inimestele meeldib ka ja Sageli koos ostetud jaoks
+
+Loendite **Sageli koos ostetud** või **Inimestele meeldib ka** kontekstis kasutatakse masinõpet tarbija ostumustrite analüüsimiseks, et soovitada sageli koos ostetavaid seotud tooteid ainulaadseks lähteväärtuse tooteks. 
+ 
+**Lähteväärtuse toode** on toode, mille jaoks soovite tulemusi luua. Soovituse loendite käsitsi reguleerimise kontekstis te lisate või eemaldate selle toote tulemusi. 
+
+Lähteväärtus toote tulemuste käsitsi lisamiseks või eemaldamiseks tehke järgmist.
+1.  Valige suvand **Lähteväärtuse toode**. 
+1.  Veerus **Toode** otsige toodet suvandite **Nimi** või **Tootenumber** alusel.
+![Näide toote otsimisest loendist Sageli koos ostetud](./media/exampleFBTlistconfiguration1.png)
+1. Valige veerus **Rea tüüp** üks kahest suvandist.
+    - **Kaasa** – sunnib toote loendi ette
+    - **Välista** – tühistab toote loendis ilmumise     
+![Näide toote loendisse Sageli koos ostetud kaasamisest või sellest eemaldamisest](./media/exampleFBTlistconfiguration2.png)
+1.  Toodete tabelist eemaldamiseks: valige eemaldatav rida ja klõpsake käsku Eemalda.
+
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Tootesoovituste ülevaade](product-recommendations.md)
+
+[Tootesoovituste lubamine](enable-product-recommendations.md)
+
+[Tootesoovituste loendite lisamine lehtedele](add-reco-list-to-page.md)

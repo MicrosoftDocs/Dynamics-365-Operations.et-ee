@@ -1,0 +1,99 @@
+---
+title: SEO metaandmete haldamine
+description: See teema kirjeldab, kuidas hallata rakenduses Microsoft Dynamics 365 Commerce otsingumootori optimeerimise (SEO) metaandmeid.
+author: psimolin
+manager: annbe
+ms.date: 10/01/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application user
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: psimolin
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: b69d9d2769023967e2b94fef1b8fcf6b5b3357c5
+ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2698345"
+---
+# <a name="manage-seo-metadata"></a>SEO metaandmete haldamine
+
+[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
+
+See teema kirjeldab, kuidas hallata rakenduses Microsoft Dynamics 365 Commerce otsingumootori optimeerimise (SEO) metaandmeid.
+
+## <a name="overview"></a>Ülevaade
+
+Saidi SEO metaandmeid saab hallata saidikaarte ja lehe metaandmeid kasutades.
+    
+## <a name="site-maps"></a>Saidikaardid
+
+Saidikaart vastendus on teie veebisaidi lehtede (XML-vormingus) masinloetav loend. See on mõeldud otsingumootorite poolt kasutamiseks, et need saaksid teie saidilt paremaid otsingutulemusi pakkuda. Saidikaarte saab otsingumootoritesse käsitsi sisse tuua või avaldada robotite TXT-failis.
+
+Dynamics 365 Commerce toetab saidikaartide automaatset loomist. Saidikaarte uuendatakse lehtede avaldamisel ja avaldamise tühistamisel automaatselt.
+
+### <a name="turn-on-site-map-generation"></a>Saidikaardi loomise sisselülitamine
+
+1. Logige autorluse tööriista sisse.
+1. Jaotises **Saidid** valige suvand **Fabrikam** (või oma saidi nimi).
+1. Valige navigeerimispaanilt vasakult suvand **Saidi haldus**.
+1. Veenduge, et suvand **Saidikaardid lubatud** on sisse lülitatud.
+
+## <a name="page-metadata"></a>Lehe metaandmed
+
+Dynamics 365 Commerce võimaldab teil hallata individuaalsete lehtede SEO metaandmeid. Saate seda teavet vaadata ja muuta lehe konteineri jaotises **SEO atribuudid**. Praegu toetatakse järgmisi SEO metaandmete atribuute.
+
+- Tiitel
+- Kirjeldus
+- SEO märksõnad
+- ARIA-sildid
+- noindex
+- nofollow
+- noarchive
+- nocache
+- noOpenDirectoryProject
+- nosnippet
+- noImageIndex
+- unavailableAfter
+
+### <a name="modify-page-metadata"></a>Lehe metaandmete muutmine
+
+Lehe metaandmete muutmiseks toimige järgmiselt.
+
+1. Jaotises **Saidid** valige suvand **Fabrikam** (või oma saidi nimi).
+1. Valige navigeerimispaanilt vasakult suvand **Lehed**.
+1. Valige avaleht, et avada see lehe redaktoris.
+1. Toimingupaanil valige **Registreeri välja**.
+1. Parempoolsel atribuutide paanil laiendage suvandit **Vaikimisi metasildid**.
+1. Uue metasildi lisamiseks valige suvand **Lisa**ja sisestage seejärel silt väljale.
+
+    Olemasoleva metasildi eemaldamiseks valige selle kõrval paremal prügikasti sümbol.
+
+1. Valige nupp **Salvesta** ja seejärel suvand **Registreeri**.
+1. Sisestage väljale **Kommentaarid** suvand **Uuendatud metasildid** ja valige seejärel **OK**.
+1. Lehe eelvaate kuvamiseks valige suvand **Eelvaade**. Kui olete lõpetanud, sulgege eelvaate vahekaart, et naasta autorluse tööriista.
+1. Valige **Avalda**.
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Olemasoleva saidilehe muutmine](modify-existing-page.md)
+
+[Uue saidilehe lisamine](add-new-page.md)
+
+[Lehepaigutuste valimine](select-page-layouts.md)
+
+[Lehe salvestamine, eelvaade ja avaldamine](save-preview-publish-page.md)
+
+[Tootelehe rikastamine](enrich-product-page.md)
+
+[Kategooria sihtlehe rikastamine](enrich-category-page.md)
+

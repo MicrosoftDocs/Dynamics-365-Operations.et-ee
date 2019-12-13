@@ -1,0 +1,133 @@
+---
+title: Hinnangute ja arvustuste haldus
+description: Selles teemas selgitatakse, kuidas rakenduse Microsoft Dynamics 365 Commerce hinnangute ja arvustuste modereerimise tööriista kasutades hallata hinnanguid ja arvustusi.
+author: gvrmohanreddy
+manager: annbe
+ms.date: 10/01/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application User
+ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: ''
+ms.author: gmohanv
+ms.search.validFrom: 2019-10-01
+ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: e9becdce5ae36ac637043b9d0febfbbff2392aa9
+ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2698022"
+---
+# <a name="manage-ratings-and-reviews"></a>Hinnangute ja arvustuste haldus
+
+[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
+
+Selles teemas selgitatakse, kuidas rakenduse Microsoft Dynamics 365 Commerce hinnangute ja arvustuste modereerimise tööriista kasutades hallata hinnanguid ja arvustusi.
+
+## <a name="overview"></a>Ülevaade
+
+Dynamics 365 Commerce kasutab Microsoft Azure’i kognitiivset teenust, et automaatselt ebasündsaid sõnu redigeerides arvustuse teksti modereerida. Lisaks saavad moderaatorid kasutada hinnangute ja arvustuste modereerimise tööriista järgmiste käsitsi ülesannete jaoks.
+
+- Arvustuste modereerimine neile vastates või need eemaldades.
+- Kliendi arvustuste eemaldamine kliendi taotlusel.
+- Kõikide toodete hinnangute ja arvustuste andmete hulgi importimine Microsoft Power BI malli, et analüüsida hinnangute ja arvustuste suundumusi.
+
+## <a name="read-a-review"></a>Arvustuse lugemine 
+
+1. Avage **Avaleht \> Arvustused \> Modereerimine**.
+1. Kasutage lehe üleval paremal otsinguvälja, et filtreerida kuvatavaid arvustusi toote ID, toote nime või arvustuse teksti alusel.
+
+Täiendavad filtrid võimaldavad teil piirata arvustusi perioodi, hinnangu, kanali või mure oleku järgi (eemaldatud, vastatud või teatatud).
+
+![Modereerimise avaleht](media/rnr-moderation-home.png) 
+
+## <a name="respond-to-a-review"></a>Arvustusele vastamine 
+
+Mõnikord väljendavad toote ostnud kliendid rahulolu või rahulolematust või ei oska toodet kasutada. Moderaatorina saate sisestada arvustusele vastuse. See vastus kuvatakse saidil koos arvustusega. 
+
+Arvustusele vastamiseks toimige järgmiselt.
+
+1. Avage **Avaleht \> Arvustused \> Modereerimine**.
+1. Otsige ja valige arvustus, mis vajab vastamist.
+1. Parempoolsel atribuutide paanil valige suvand **Lisa vastus**.
+1. Sisestage vastuse tekst ja nimi, mis tuleks vastajale näidata. Vastaja vaikenimi on **Moderaator.**
+1. Kui olete lõpetanud, valige **Sisesta vastus**.
+
+![Arvustusele vastamine](media/rnr-moderation-response.png) 
+
+## <a name="take-down-a-review"></a>Arvustuse eemaldamine 
+
+Vahel on moderaatoritel äriliselt põhjendatud kliendi arvustused eemaldada. 
+
+Arvustusele eemaldamiseks toimige järgmiselt.
+
+1. Avage **Avaleht \> Arvustused \> Modereerimine**.
+1. Leidke ja valige arvustus, mis tuleb eemaldada.
+1. Valige paremal atribuutide paanil eemaldamise põhjus ja seejärel valige suvand **Eemalda**.
+    
+## <a name="delete-a-customers-reviews-at-the-customers-request"></a>Kliendi arvustuste eemaldamine kliendi taotlusel 
+
+Mõnikord soovivad kliendid oma hinnangud ja arvustuste andmed e-kaubanduse veebisaitidelt jäädavalt kustutada. Moderaator, kes saab kliendilt eemaldamise taotluse, saab kliendi andmed eemaldada, kasutades läbivaatuse kustutamise funktsiooni. Kliendiandmete otsimiseks ja kustutamiseks vajab moderaator meiliaadressi, mida klient sisselogimiseks ja arvustuste esitamiseks kasutas. 
+
+Kliendiandmete otsimiseks ja kustutamiseks toimige järgmiselt.
+
+1. Avage **Avaleht \> Arvustused \> Kustuta**.
+1. Sisestage väljale **Kasutajate otsing meiliaadressi järgi** kliendi meiliaadress ja valige seejärel käsk **Otsi**.
+1. Kui kliendil on mis tahes arvustuste tegevusi (nt esitatud arvustused, hääletused teiste klientide arvustuste kasulikkuse kohta või kommentaarid teiste klientide arvustuste kohta), kuvatakse tulemused. Iga üksuse jaoks on nupp **Kustuta**.
+1. Valige iga üksuse jaoks, mis tuleb kustutada, käsk **Kustuta**. Kui teilt küsitakse kinnitust, valige **Jah**. 
+    
+![Kliendiandmete kustutamine](media/rnr-moderation-delete-reviews.png) 
+
+> [!NOTE]
+> - Andmete süsteemist täielikuks eemaldamiseks võib kuluda kuni seitse päeva. Moderaatorid peaksid kliente sellest viivitusest teavitama.
+> - Kui kliendid on muutnud konto sätetes oma nime, võidakse otsingutulemustes kuvada mitu üksust. Sel juhul peab moderaator kliendiandmete täielikuks kustutamiseks valima iga üksuse jaoks käsu **Kustuta.** 
+
+## <a name="download-ratings-and-reviews-data"></a>Hinnangute ja arvustuste andmete allalaadimine
+
+Hinnangute ja arvustuste modereerimise tööriist võimaldab moderaatoritel importida hinnangute ja arvustuste andmeid hulgi, et analüüsida nende suundumusi. Saadaval on Power BI mall, mis sisaldab põhilisi mõõdikuid. Moderaatorid saavad kasutada seda malli, et ühendada hulgi imporditud andmed ja kuvada armatuurlaud. Nad ei pea looma kohandatud armatuurlauda. Samuti saavad moderaatorid kohandada Power BI malli, et see vastaks nende konkreetsetele vajadustele. 
+
+Hinnangute ja arvustuste andmete allalaadimiseks toimige järgmiselt.
+
+1. Avage **Avaleht \> Arvustused \> Aruandlus**.
+1. Valige suvand **Aruandluse andmete allalaadimine**, et laadida hinnangute ja kommentaaride andmed hulgi alla komaeraldusega väärtuste (CSV) vormingus.
+
+## <a name="view-ratings-and-reviews-trends"></a>Hinnangute ja arvustuste suundumuste vaatamine
+
+Moderaatorid saavad laadida alla Power BI malli, et nad saaksid vaadata armatuurlaual suundumusi.
+
+Hinnangute ja arvustuste suundumuste vaatamiseks toimige järgmiselt.
+
+1. Avage **Avaleht \> Arvustused \> Aruandlus**.
+1. Malli allalaadimiseks valige suvand **PowerBI mall**.
+
+    ![Power BI malli allalaadimine](media/rnr-moderation-reports.png) 
+
+1. Avage allalaaditud mall Power BI rakendust kasutades. Sulgege ilmuv dialoogiaken **Juurdepääs veebisisule** ja seejärel sulgege kuvatav tõrketeade „Värskenda”.
+1. Avage suvand **Avaleht**, valige **Päringute redigeerimine** ja valige seejärel **Andmeallika sätted**.
+1. Valige dialoogiaknas **Andmeallika sätted** suvand **Muuda allikat**.
+1. Sisestage väljale **URL** eelmises protseduuris allalaaditud arvustuste andmete tee (nt **c:\\arvustused\\ArvustusteAndmed.CSV**).
+
+    ![URL-i väli komaeraldusega väärtuste dialoogiaknas](media/rnr-powerbi-datasource-settings.png) 
+
+1. Valige **OK** ja seejärel valige käsk **Rakenda muutused**. Andmeallikale muudatuste rakendamiseks kulub üks kuni kaks minutit.
+1. Hinnangute ja arvustuste suundumuste vaatamiseks valige suvand **Suundumuste leht**.
+
+    ![Hinnangute ja arvustuste suundumused](media/rnr-powerbi-dashboard-template.png) 
+    
+## <a name="additional-resources"></a>Lisaressursid
+
+[Hinnangute ja arvustuste ülevaade](ratings-reviews-overview.md)
+
+[Hinnangute ja arvustuste kasutamise valimine](opt-in-ratings-reviews.md)
+
+[Hinnangute ja arvustuste konfigureerimine](configure-ratings-reviews.md)
+
+[Toote hinnangute sünkroonimine rakenduses Dynamics 365 Retail](sync-product-ratings.md)
