@@ -8,7 +8,9 @@
           href: index.md
         - name: Mis on uut või mida on muudetud?
           items:
-            - name: Platform update 31 (jaanuar 2020) eelvaatefunktsioonid
+            - name: Platform update 32 (veebruar 2020) eelvaatefunktsioonid
+              href: get-started/whats-new-platform-update-32.md
+            - name: Platform update 31 (jaanuar 2020)
               href: get-started/whats-new-platform-update-31.md
             - name: Platform update 30 (november 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
@@ -34,6 +36,10 @@
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
             - name: Platform update 15 (märts 2018)
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Mis on uut või mida on muudetud eelmistes versioonides?
+              items:
+                - name: Mis on uut või mida on muudetud Finance and Operationsi avalehel?
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: Ärisündmused
           items:
             - name: Ärisündmuste ülevaade
@@ -410,7 +416,7 @@
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: PowerBI.com-i integratsioon kohapealsete keskkondadega
                   href: analytics/entity-store-on-prem.md
-                - name: Pöördpuhverserverite konfigureerimine kohapealsete keskkondade jaoks
+                - name: Puhverserverite konfigureerimine kohapealsete keskkondade jaoks
                   href: deployment/onprem-reverseproxy.md
                 - name: Värskenduste rakendamine kohapealsesse juurutamisse
                   href: deployment/apply-updates-on-premises.md
@@ -926,6 +932,8 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Teadaolevad probleemid
                   href: lifecycle-services/known-issues.md
+                - name: Eemaldatud või aegunud funktsioonid teenuses Lifecycle Services (LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: Teenuse Lifecycle Services kasutusjuhend
               href: lifecycle-services/lcs-user-guide.md
             - name: Tellimuskalkulaator

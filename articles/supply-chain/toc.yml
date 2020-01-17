@@ -62,7 +62,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mis on uut või mida on muudetud?
               items:
-                - name: Eelvaatefunktsioonid Supply Chain Managementi versioonis 10.0.7 (detsember 2019)
+                - name: Supply Chain Managementi versioon 10.0.7 (detsember 2019)
                   href: get-started/whats-new-scm-10-0-7.md
                 - name: Supply Chain Management 10.0.6 (november 2019)
                   href: get-started/whats-new-scm-10-0-6.md
@@ -70,10 +70,6 @@
                   items:
                     - name: Mis on uut või mida on muudetud Finance and Operationsi avalehel?
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operationsi rakendused 10.0.5 (oktoober 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations 10.0.4 (juuli 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Finance and Operations, Enterprise Edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Eemaldatud või aegunud funktsioonid
@@ -152,7 +148,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kohandatud väljade loomine ja nendega töötamine
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Rakenduste PowerApps manustamine
+                - name: PowerAppsi rakenduste manustamine
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Teabe leidmiseks otsingute abil
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -264,7 +260,7 @@
                 - name: Varade loomine ostutellimuste põhjal
                   href: asset-management/objects/create-objects-based-on-purchase-orders.md
                 - name: Vara kooslus
-                  href: /asset-management/objects/object-bom.md
+                  href: asset-management/objects/object-bom.md
                 - name: Vara sündmuste ajalugu
                   href: asset-management/objects/object-timeline.md
                 - name: Vara vaade
@@ -592,7 +588,7 @@
                 - name: Tootmistellimuse kulu analüüs
                   href: cost-management/production-order-cost-analysis.md
                 - name: Tootmistellimuse kulu hindamine
-                  href: /cost-management/production-order-cost-estimation.md
+                  href: cost-management/production-order-cost-estimation.md
                 - name: Tootmistellimuse WIP praeguse oleku kuvamine
                   href: cost-management/tasks/view-current-wip-status-production-order.md
                 - name: 'Tootmistellimuse aktiivsete, hinnanguliste ja realiseeritud kulude võrdlemine'
@@ -1081,7 +1077,7 @@
               items:
                 - name: Koondplaanide ülevaade
                   href: master-planning/master-plans.md
-                - name: Koondplaanide häälestus
+                - name: Koondplaanide seadistamine
                   href: master-planning/master-planning-setup.md
                 - name: Koondplaneerimise häälestusviisard
                   href: master-planning/master-planning-setup-wizard.md
@@ -1099,9 +1095,11 @@
                   href: master-planning/safety-stock-replenishment.md
                 - name: Hilinemised
                   href: master-planning/delays.md
-                - name: Koosnevuse jaoks jälgimise kasutamine
+                - name: Koondplaneerimise töö tühistamine
+                  href: master-planning/cancel-master-planning-job.md
+                - name: Koosnevusarvutuse jaoks jälgimise kasutamine
                   href: master-planning/trace-explosion.md
-                - name: Tegevussõnumid
+                - name: Tegevusteated
                   href: master-planning/action-messages.md
                 - name: Koondplaneerimise käitamise jälgimine
                   href: master-planning/tasks/monitor-master-planning-run.md
@@ -1465,7 +1463,7 @@
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
                 - name: Hankija kataloogide importimine
                   href: procurement/vendor-catalogs-import.md
-                - name: Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
+                - name: Väliskataloogi seadistamine e-hanke väljaregistreerimiseks
                   href: procurement/set-up-external-catalog-for-punchout.md
                 - name: Väliskataloogide kasutamine e-hanke väljaregistreerimiseks
                   href: procurement/use-external-catalogs-for-punchout.md
@@ -1515,6 +1513,8 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Väljastatud toote loomine ühe ettevõtte jaoks
                   href: pim/tasks/create-released-product-single-company.md
+                - name: Andmeüksuste kasutamine
+                  href: pim/data-entities.md
                 - name: Toote töötsükli olek
                   items:
                     - name: Toote elutsükliolekute ülevaade
@@ -2349,6 +2349,10 @@
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                 - name: Laotöö tühistamine erandi käsitlemiseks
                   href: warehousing/cancel-warehouse-work.md
+                - name: Süsteemi suunatud kogumi komplekteerimine
+                  href: warehousing/system-directed-cluster-pick.md
+                - name: Komplekteerimisridade grupeerimine
+                  href: warehousing/pick-line-grouping.md
             - name: Varude arvestamine
               items:
                 - name: Varude inventuuri põhjusekoodid
