@@ -46,7 +46,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: Pilvjuurutus
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
-                - name: Pilvjuurutuste süsteeminõuded
+                - name: Retaili kliendi komponentide süsteeminõuded
                   href: get-started/system-requirements.md
                 - name: Asutusesisene juurutus
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
@@ -62,20 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: Mis on uut või mida on muudetud?
               items:
-                - name: Retaili versiooni 10.0.7 eelvaatefunktsioonid
+                - name: Retaili versioon 10.0.7
                   href: get-started/whats-new-10-0-7.md
                 - name: Retaili versioon 10.0.6
                   href: get-started/whats-new-10-0-6.md
-                - name: Retaili versioon 10.0.5
-                  href: get-started/whats-new-10-0-5.md
                 - name: Mis on uut või mida on muudetud eelmistes versioonides?
                   items:
                     - name: Mis on uut või mida on muudetud Finance and Operationsi avalehel?
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operationsi rakendused 10.0.5 (oktoober 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations 10.0.4 (juuli 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
                     - name: 'Finance and Operations, Enterprise Edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: Eemaldatud või aegunud funktsioonid
@@ -156,7 +150,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/retail/toc.json
                 - name: Kohandatud väljade loomine ja nendega töötamine
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/retail/toc.json
-                - name: Rakenduste PowerApps manustamine
+                - name: PowerAppsi rakenduste manustamine
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/retail/toc.json
                 - name: Teabe leidmiseks otsingute abil
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/retail/toc.json
@@ -786,12 +780,10 @@
           items:
             - name: Tooteteabe ülevaade
               href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
-            - name: Jaemüügi hierarhiad
+            - name: Jaemüügihierarhiad
               href: retail-hierarchies.md
-            - name: Atribuudid ja atribuudigrupid
+            - name: Atribuutide ja atribuudigruppide haldamine
               href: attribute-attributegroups-lifecycle.md
-            - name: Atribuutide loomine ja haldamine
-              href: create-manage-attributes.md
             - name: Jaemüügitoodete häälestamine
               href: set-up-retail-products.md
             - name: Toote loomine
@@ -1146,7 +1138,9 @@
               items:
                 - name: Kassaaparaadi funktsioonid
                   href: localizations/emea-swe-cash-registers.md
-                - name: Retail POS-i juhtseadmetega integreerimise näide
+                - name: Juhtseadme integratsiooni näidis Rootsi jaoks
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Retail POS-i juhtseadmetega integreerimise näide (pärandandmed)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Retaili ülesanded
           items:
