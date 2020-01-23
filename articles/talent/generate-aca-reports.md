@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: f03e414683465e7275d6c48a843306abefbacaf0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3490378ff2c4a05b490bf268aada6e8be17b77f9
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505837"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898662"
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Taskukohase ravikindlustuse eelnõu (ACA) aruannete koostamine
-
-[!include [banner](includes/banner.md)]
 
 See funktsioon on mõeldud nende tööandjate abistamiseks, kellel on vaja jälgida vormidel 1095-B ja 1095-C esitatud teavet taskukohase ravikindlustuse eelnõu osa **Tööandja kohustus** toetamiseks. Pange tähele, et see funktsioon on lubatud ainult Ameerika Ühendriikide juriidiliste isikute puhul.
 

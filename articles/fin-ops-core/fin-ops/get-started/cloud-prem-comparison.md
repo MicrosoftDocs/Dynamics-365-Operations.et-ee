@@ -3,7 +3,7 @@ title: Pilvepõhiste ja asutusesiseste funktsioonide võrdlus
 description: Selles teemas näidatakse, milliseid funktsioone pilves ja asutusesiseses versioonis toetatakse.
 author: sericks007
 manager: AnnBe
-ms.date: 10/11/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 8fa5ff0de4e97d5dc178581f721f3a6ea72fc974
-ms.sourcegitcommit: 70c6257bd6833de3e8de34d9a7561088194e59cc
+ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
+ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2573926"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935383"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Pilvepõhiste ja kohapealsete funktsioonide võrdlus
 
@@ -48,7 +48,7 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 | Andmete haldus ja integreerimine      |                                                                                           | Jah       | Jah             |
 |                                      | Konfiguratsioonipõhine laiendus                                                            | Jah       | Ei              |
 |                                      | Andmete eksportimine oma andmelattu                                                    | Jah       | Jah             |
-|                                      | Astmeliste värskenduste eksportimise lubamine andmeüksusse                                 | Jah       | Ei              |
+|                                      | Astmeliste värskenduste eksportimise lubamine andmeüksusse                                 | Jah       | Jah              |
 |                                      | Andmeintegratsioon                                                                         | Jah       | Jah             |
 | Dokumendihaldus                  |                                                                                           | Jah       | Jah             |
 | Finantshaldus                 |                                                                                           | Jah       | Jah             |
@@ -148,7 +148,7 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 
 ## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
 
-KKohapeal saadaolevate juurutuste jaemüügi võimaluste loendi nägemiseks vt [Kohapeal saadaolevate juurutuste jaemüügi võimalused](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/PeterRFriis-patch-1/articles/retail/retail-onprem.md).
+KKohapeal saadaolevate juurutuste jaemüügi võimaluste loendi nägemiseks vt [Kohapeal saadaolevate juurutuste jaemüügi võimalused](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
 

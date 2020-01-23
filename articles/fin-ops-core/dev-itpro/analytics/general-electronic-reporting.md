@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771069"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933928"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroonilise aruandluse (ER) ülevaade
 
@@ -51,12 +51,12 @@ ER-i mootoril on järgmised võimalused.
 
 ER toetab kahte tüüpi komponente: **Andmemudel** ja **Vorming**.
 
-#### <a name="data-model-components"></a>Andmemudeli komponendid
+#### <a name="data-model-and-model-mapping-components"></a>Andmemudeli ja mudeli vastendamise komponendid
 
 Andmemudeli komponent on andmestruktuuri abstraktne kujutis. Seda kasutatakse konkreetse äridomeeni piirkonna kirjeldamiseks piisavalt üksikasjalikult, et rahuldada selle domeeni aruandlusvajadusi. Andmemudeli komponent koosneb järgmistest osadest:
 
-- andmemudel domeenipõhiste äriüksuste kogumina ja nende üksuste vaheline hierarhiliselt struktureeritud suhtemääratlus;
-- Mudeli vastendus, mis seob valitud rakenduse andmeallikad andmemudeli eraldi elementidega, mis määrab käitusajal andmemudelikomponendile andmevoo ja äriandmete populatsiooni reeglid.
+- <a name="DataModelComponent"></a>andmemudel domeenipõhiste äriüksuste kogumina ja nende üksuste vaheline hierarhiliselt struktureeritud suhtemääratlus;
+- <a name="ModelMappingComponent"></a>Mudeli vastendus, mis seob valitud rakenduse andmeallikad andmemudeli eraldi elementidega, mis määrab käitusajal andmemudelikomponendile andmevoo ja äriandmete populatsiooni reeglid.
 
 Andmemudeli äriüksus on esindatud konteinerina (kirje). Äriüksuse atribuudid on esindatud andmeüksustena (väljad). Igal andmeüksusel on kordumatu nimi, silt, kirjeldus ja väärtus. Iga andmeüksuse väärtus võib olla sellise ülesehitusega, et see tuvastatakse stringi, täisarvu, reaalarvu, kuupäeva, loetelu, kahendväärtusena jne. See võib olla ka teine kirje või kirjete loend.
 
@@ -81,7 +81,7 @@ Sissetulevaid elektroonilisi dokumente toetaval mudelivastendusel on järgmised 
 
 Andmemudeli komponent on kavandatud igale äridomeenile, mida tuleks kasutada ühtlustatud andmeallikana aruandluse jaoks, mis eraldab aruandluse andmeallikate füüsilisest juurutusest. See kajastab domeenipõhiseid ärikontseptsioone ja funktsioone sellisel kujul, mis teeb aruandlusvormingu algse koostamise ja edasise haldamise tõhusamaks.
 
-#### <a name="format-components-for-outgoing-electronic-documents"></a>Väljaminevate elektrooniliste dokumentide vormingukomponendid
+#### <a name="FormatComponentOutbound"></a>Väljaminevate elektrooniliste dokumentide vormingukomponendid
 
 Vormingu komponent on käitusajal loodava aruandlusväljundi skeem. Skeem koosneb järgmistest osadest:
 
@@ -107,7 +107,7 @@ Järgmine illustratsioon näitab, kuidas andmed nende vormingute puhul liiguvad.
 
 Ühe ER-vormingukonfiguratsiooni käitamiseks ja väljamineva elektroonilise dokumendi koostamiseks tuleb tuvastada vormingukonfiguratsiooni vastendus.
 
-#### <a name="format-components-for-incoming-electronic-documents"></a>Sissetulevate elektrooniliste dokumentide vormingukomponendid
+#### <a name="FormatComponentInbound"></a>Sissetulevate elektrooniliste dokumentide vormingukomponendid
 Vormingukomponent on käitusajal imporditava sissetuleva dokumendi skeem. Skeem koosneb järgmistest osadest:
 
 - vorming, mis määratleb käitusajal imporditud andmeid sisaldava sissetuleva elektroonilise dokumendi struktuuri ja sisu. Vormingukomponenti kasutatakse sissetuleva dokumendi sõelumiseks mitmesugustes vormingutes, nt tekst ja XML.
@@ -144,7 +144,7 @@ Juurdepääs ER-i vormingu komponentidele sõltub ISO riigi/regiooni koodi seadi
 
 Andmevormingu komponendi erinevatel versioonidel võivad olla erinevad ISO riigi/regiooni koodide sätted.
 
-#### <a name="configuration"></a>Konfiguratsioon
+#### <a name="Configuration"></a>Konfiguratsioon
 
 ER-i konfiguratsioon on konkreetse ER-i komponendi ümbris. See komponent võib olla andmemudeli komponent või vormingukomponent. Konfiguratsioon võib sisaldada ER-i komponendi erinevaid versioone. Iga konfiguratsiooni omanikuks on märgitud kindel konfiguratsiooni pakkuja. Konfiguratsiooni komponendi versiooni **Mustand** saab redigeerida, kui konfiguratsiooni omanik on valitud ER-i sätetes aktiivseks teenusepakkujaks.
 
@@ -154,13 +154,13 @@ Loodud vormingukonfiguratsioon sisaldab vormingukomponenti. Algse mudelikonfigur
 
 Rakenduse ettevõtted jagavad ER-i konfiguratsiooni.
 
-#### <a name="provider"></a>Pakkuja
+#### <a name="Provider"></a>Pakkuja
 
 ER-i pakkuja on osapoole ID, mida kasutatakse iga ER-i konfiguratsiooni autori (omaniku) tähistamiseks. ER võimaldab hallata konfiguratsioonipakkujate loendit. Elektroonilistele dokumentidele Finance and Operationsi lahenduse osana väljastatud vormingukonfiguratsioonide omanikuks märgitakse konfiguratsioonipakkuja **Microsoft**.
 
 Uue ER-i pakkuja registreerimise kohta saate juhised, kui esitate tegevusjuhise **Elektrooniline aruandlus. Konfiguratsioonipakkuja loomine ja aktiivseks märkimine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
-#### <a name="repository"></a>Hoidla
+#### <a name="Repository"></a>Hoidla
 
 ER-i hoidla talletab ER-i konfiguratsioone. Praegu toetatakse järgmisi elektroonilise aruandluse hoidlate tüüpe. 
 

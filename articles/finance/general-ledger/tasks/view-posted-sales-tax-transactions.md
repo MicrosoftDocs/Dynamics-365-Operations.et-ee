@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f72f12e8afdf190865a77fc6153c0c0a111e5a7
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175378"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888605"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Sisestatud käibemaksukannete kuvamine
 
@@ -29,13 +29,13 @@ ms.locfileid: "2175378"
 
 See teema kirjeldab mõningaid sisestatud käibemaksu kannete vaatamise viise. Saate sisestatud käibemaksukandeid vaadata eri lehtedelt, olenevalt sellest, mida teil on vaja vaadata. See ülesanne kasutab demoettevõtte USMF andmeid.
 
-# <a name="posted-sales-tax-page"></a>Sisestatud käibemaksu leht
+## <a name="posted-sales-tax-page"></a>Sisestatud käibemaksu leht
 
 1. Minge navigeerimispaneelis **Moodulid > Maks > Päringud ja aruanded > Käibemaksu päringud > Sisestatud käibemaks**.
 2. Valige **Kuva filtrid**, et kitsendada vaadet kindlatele kannetele.
 3. Sulgege leht.
 
-# <a name="sales-tax-settlement-periods-page"></a>Käibemaksu tasakaalustusperioodide leht
+## <a name="sales-tax-settlement-periods-page"></a>Käibemaksu tasakaalustusperioodide leht
 
 1. Minge navigeerimispaneelis **Moodulid > Maks > Kaudsed maksud > Käibemaks > Käibemaksu tasakaalustusperioodid**.
 2. Laiendage jaotist **Perioodivahemikud**.
@@ -43,7 +43,7 @@ See teema kirjeldab mõningaid sisestatud käibemaksu kannete vaatamise viise. S
 4. Saate sisestatud käibemaksukannete loendit täiendavalt filtrida.
 5. Sulgege leht.
 
-# <a name="sales-tax-codes-page"></a>Käibemaksukoodide leht
+## <a name="sales-tax-codes-page"></a>Käibemaksukoodide leht
 
 1. Avage navigeerimispaneelil **Moodulid > Maks > Kaudsed maksud > Käibemaks > Käibemaksukoodid**.
 2. Klõpsake toimingupaneelil suvandit **Käibemaksukood**.

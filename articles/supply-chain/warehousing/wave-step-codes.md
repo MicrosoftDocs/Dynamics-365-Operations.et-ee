@@ -18,28 +18,26 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0f89c6098db9e2e3a9aa4ee3666e4b9ae608f054
-ms.sourcegitcommit: d8f1135cdbc2deca70bc4b2805a0519253c9a31f
+ms.openlocfilehash: 1a1a32495b63a5a67a49bf3b02710aba63c1e2f0
+ms.sourcegitcommit: bfd6142569196a060e3f37893c78f00c40a2a18c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1992353"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2946186"
 ---
 # <a name="wave-step-codes"></a>Vooetapi koodid
 
 [!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
-## <a name="about-wave-step-codes"></a>Vooetapi koodid
-
 Vooetapi koodid on koodid, mida kasutajad saavad seadistada ja kasutada vastavale mallile konkreetsete juhtumite linkimiseks. Mallid sisaldavad malle täiendamiseks, konteineritesse panemiseks, siltide printimiseks, koormuste loomiseks ja sortimiseks.
 
-Kui voo etapi koode ei kasutata, peavad kasutajad sisestama vaba teksti, et viidata kindlale mallile laine meetodi eksemplarist. Vabal tekstil on kalduvus vigadeks, kuna kasutajad peavad veenduma, et voo-etapi tekst, mida nad lisavad konkreetse vooetapi meetodi jaoks voo malli puhul, vastab täpselt sihtmalli tekstile.
+Kui voo etapi koode ei kasutata, peavad kasutajad sisestama vaba teksti, et viidata kindlale mallile laine meetodi eksemplarist. Vabal tekstil on kalduvus vigadeks, kuna kasutajad peavad veenduma, et vooetapi tekst, mida nad lisavad konkreetse vooetapi meetodi jaoks voo malli puhul, vastab täpselt sihtmalli tekstile.
 
 Konkreetse vooetapi tüübi vooetapi koodid seadistatakse eraldi lehel. Voomalli iga vooetabi meetodi eksemplari korral, mis vajab vooetapi koodi, tuleb vooetapi kood valida ripploendist. Ripploendi valik asendab vaba tekstisisestuse ja aitab vähendada inimlike vigade riski ja mõju. Seadistuse koode kasutatakse vooetapi meetodi sidumiseks voomallis meetodi sihtmalliga.
 
 > [!NOTE]
-> Vooetabi koodide funktsiooni kasutamine on valikuline ja kasutamine käib iga juriidilise isiku kohta eraldi. Seetõttu, kui konkreetne juriidiline isik kasutab funktsiooni, uuendatakse kõik selle juriidilise isiku olemasolevad voo etapikoodid uude struktuuri.
+> Vooetapi koodide funktsiooni kasutamine on valikuline. See on organisatsiooniüleselt kõigi juriidiliste isikute jaoks lubatud.
 
 ## <a name="setup-demo"></a>Häälestuse demo 
 
@@ -49,20 +47,20 @@ Selle demo jaoks peavad olema installitud demo andmed ja peate kasutama testandm
 
 Järgige neid samme, et lülitada sisse voo etapi koodide funktsioon.
 
-1. Avage **Laohaldus \> Seadistus \> Laohalduse parameetrid**.
-2. Määrake vahekaardil **Üldine** kiirkaardil **Vootöötlus** suvand **Luba voo etapikoodid** olekusse **Jah**.
+1. Avage suvand **Funktsioonihaldus**.
+2. Valige, et lubada funktsioon nimega **Organisatsiooniülene vooetapi kood**.
 
-Kõik olemasolevad vooetappide vabad tekstid värskendatakse uuele struktuurile. Pärast seda, kui see värskendus on juriidilise isiku jaoks lõppenud, ei ole suvand **Luba voo etapikoodid** lehel **Laohalduse parameetrid** enam saadaval.
+Kõik olemasolevad vooetappide vabad tekstid kõikide juriidiliste isikute puhul värskendatakse uuele struktuurile. Pärast seda, kui see värskendus on kõikide juriidiliste isikute jaoks lõpetatud, on see funktsioon lubatud. Kui funktsiooni ei saa ühe või mitme juriidilise isiku puhul lubada, siis pole funktsioon üheski juriidilises isikus lubatud.
 
-Kinnitused tehakse värskendamise ajal ja kui värskendus nurjub, kuvatakse tõrketeade. Värskendamine võib nurjuda järgmiste konfliktide tõttu.
+Lubamise ajal teostatakse andmete uuendamise ajal kinnitamised. Kui uuendamine ebaõnnestub, kuvatakse tõrketeade. Värskendamine võib nurjuda järgmiste konfliktide tõttu.
 
 - Olemas on topelt vooetapi vabad tekstid.
 - Olemas on kohandused.
 - Vooetapi vaba tekst, mis on seotud vooetapi meetodi eksemplariga ei vasta oodatud mallitüübile.
 
-Pärast võimalike valideerimise ajal tuvastatud konfliktide lahendamist saate värskendusprotsessi uuesti käivitada.
+Pärast võimalike kinnitamise ajal tuvastatud konfliktide lahendamist saate proovida funktsiooni uuesti lubada.
 
-Kui värskendus on edukas, siis on saadaval leht **Voo etapikoodid** (**Laohaldus \> Seadistus \> Vood \> Voo etapikoodid**). Sellel lehel loetletakse voo etapikoodid, mida värskendati siis, kui voo etapikoodide funktsioon sisse lülitati.
+Kui funktsioon on lubatud, siis muutub leht **Voo etapikoodid** (**Laohaldus \> Seadistus \> Vood \> Voo etapikoodid**) kättesaadavaks. Sellel lehel loetletakse voo etapikoodid, mida värskendati siis, kui organisatsiooniülene voo etapikoodide funktsioon lubati.
 
 ### <a name="create-new-wave-step-codes"></a>Uute voo etapikoodid loomine
 
@@ -94,3 +92,5 @@ Järgmine protseduur aitab tagada, et loodud täiendamise mall rakendub voo mall
 4. Avage **Laohaldus \> Seadistus \> Vood \> Voo mallid** ja valige see voo mall, mida soovite kasutada.
 5. Valige mallis kiirkaardil **Meetodid** meetod **Täiendamine**.
 6. Valige väljal **Voo etapikood** see voo etapikood, mille valisite täiendamise mallis.
+
+Sooritate need sammud iga juriidilise isiku puhul.

@@ -3,7 +3,7 @@ title: Ühtne tootekogemus
 description: Selles teemas kirjeldatakse tooteandmete integreerimist Finance and Operationsi ja teenuse Common Data Service vahel.
 author: t-benebo
 manager: AnnBe
-ms.date: 09/3/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7df9097feeb9566705f50f8a62809aa79dc10cd7
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769725"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914767"
 ---
 # <a name="unified-product-experience"></a>Ühtne tootekogemus
 
@@ -52,7 +52,7 @@ Toote teave sisaldab kogu teavet, mis on seotud tootega ja selle määratlusega,
 
 Finance and Operations | Muud Dynamics 365 rakendused | Kirjeldus
 -----------------------|--------------------------------|---
-Väljastatud tooted V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** üksus sisaldab välju Finance and Operations rakendustest, mis määratlevad toote ja mis sisaldavad toote finants-ja halduse teavet. Järgmises tabelis on vastendused.
+Väljastatud tooted V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** üksus sisaldab välju Finance and Operations rakendustest, mis määratlevad toote ja mis sisaldavad toote finants-ja halduse teavet. 
 Common Data Service’is väljastatud eristatavad tooted | Toode | **Toote** üksus sisaldab välju, mis määratlevad toote. See hõlmab üksikuid tooteid (alamtüübiga tooted) ja tootevariante. Järgmises tabelis on vastendused.
 Tootenumbriga tuvastatud vöötkood | msdyn\_productbarcodes | Toote vöötkoode kasutatakse toodete unikaalseks identifitseerimiseks.
 Tellimuse vaikesätted | msdyn\_productdefaultordersettings
@@ -74,7 +74,7 @@ Kõik tooted | msdyn_globalproducts | Kõikide toodete eüksus sisaldab kõiki F
 Tootepõhise mõõtühiku teisendamine | msdyn_productspecificunitofmeasureconversion
 Tootekategooriad | msdyn_productcategories | Iga tootekategooria ning teave selle struktuuri ja omaduste kohta sisaldub tootekategooria üksuses. 
 Tootekategooria hierarhiad | msdyn_productcategoryhierarhies | Kasutage kategooriahierarhiaid toodete liigitamiseks või rühmitamiseks. Kategooriahierarhiad on saadaval Common Data Service’is, kasutades tootekategooria hierarhia üksust. 
-Tootekategooria hierarhia rollid | msdyn_productcategoryhierarchies | Tootehierarhiaid saab kasutada mitmesuguste rollide jaoks rakenduses D365 Finance and Operations. Selleks et määrata, millist kategooriat igas rollis kasutatakse, kasutatakse järgmiste vastendustega tootekategooria rolli üksust. 
+Tootekategooria hierarhia rollid | msdyn_productcategoryhierarchies | Tootehierarhiaid saab kasutada mitmesuguste rollide jaoks rakenduses D365 Finance and Operations. Selleks et määrata, millist kategooriat igas rollis kasutatakse, kasutatakse tootekategooria rolli üksust. 
 Tootekategooria määramised | msdyn_productcategoryassignments | Toote määramiseks kategooriasse võib kasutada tootekategooria määramiste üksust.
 
 ## <a name="integration-of-products"></a>Toodete integreerimine

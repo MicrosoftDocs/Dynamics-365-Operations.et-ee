@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: abe921b8658322bcf77aeea8fa05843e539f97f8
+ms.sourcegitcommit: 523d22f31010339b4ff5b4fbe0a75aa909843ba6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813358"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902428"
 ---
 # <a name="purchase-agreements"></a>Ostulepingud
 
@@ -36,7 +36,14 @@ Ostutellimused võivad kehtida konkreetsele tootekogusele, konkreetsele toote va
 
 Lehel **Ostulepingud** saate luua, rakendada ja jälgida ostulepinguid, mis on sõlmitud teie organisatsiooni ja hankijate vahel. Näiteks pärast ostulepingu loomist saate otse sellest tellida. Igal ostulepingul on kehtivusperiood, mille on määranud ostulepingu loonud isik. Ostu tarnekuupäev peab jääma selle kehtivusperioodi jõustumiskuupäevade vahemikku.  
 
-Pärast ostulepingu koostamist tuleb see aktiveerida, enne kui see jõustub. Ostulepingu aktiveerimiseks määrake valiku **Märgi lepe kehtivaks** olekuks **Jah**.
+Pärast ostulepingu koostamist tuleb see aktiveerida, enne kui see jõustub. Ostulepingu aktiveerimiseks määrake valiku **Märgi lepe kehtivaks** olekuks **Jah**. 
+
+Ostulepingu kasutamise ja kinnitamise vältimiseks märkige lepingu olekuks **Suletud**. Saate alati uuendada olekule **Kehtiv** mis tahes ajal pärast selle muudatuse tegemist.
+
+## <a name="responsible-workers-on-purchase-agreements"></a>Vastutavad töötajad ostulepingutel
+
+Saate tuvastada ostulepingu klassifikatsioonis peamise vastutava töötaja ja teisese vastutava töötaja. Need väärtused rakendatakse tulemiks saadud ostulepingus. Te ei pea vastutavaid töötajaid ostulepingusse lisama ja neid on võimalik ostulepingus endas juhtumipõhiselt muuta. Te ei saa määrata teisest vastutavat töötajat ilma esmase vastutava töötaja määramiseta, ehkki teil ei pea olema teisest vastutavat töötajat. Te ei saa määrata sama töötajat nii esmaseks kui ka teiseseks vastutavaks töötajaks. 
+
 
 ## <a name="commitment-types"></a>Kohustuse tüübid
 Iga ostulepingu rida on kohustus midagi osta. Kohustuse täitmiseks saate kasutada mitme ostutellimuse (PO) ridu. On nelja tüüpi kohustusi.

@@ -3,7 +3,7 @@ title: Hõlbustusfunktsioonid
 description: Selles teemas kirjeldatakse funktsioone, mille eesmärk on aidata erinevate erivajadustega kasutajaid.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/10/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 7cc63320a3ba055a0c18ab59447f34a86bc0dc87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8ec4ee4654bdf306e179dcac5bf246df7f2b8cf7
+ms.sourcegitcommit: c3bc5dd007d9f063631232497bd4cda9214e2e5b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180848"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2872438"
 ---
 # <a name="accessibility-features"></a>Hõlbustusfunktsioonid
 
@@ -40,7 +40,7 @@ Enamiku kasutajate korral hõlmab süsteemi igapäevane kasutamine rohkelt andme
 
 Kõik lehed, millele pääseb juurde navigeerimispaani menüü kaudu (kõige vasakpoolsem paan), on saadaval ka välja **Otsing** kaudu. Vajutage klahvikombinatsiooni Alt + G, et nihutada fookus väljale **Otsing**. ja seejärel sisestage lehe nimi või kirjeldus.
 
-![Otsinguväljale on sisestatud „pangakontod”](media/6d08b0be32808221023e2aa92d69fd70.png "otsinguväljale on sisestatud „pangakontod”")
+![Otsinguväljale sisestati „pangakonto”](media/6d08b0be32808221023e2aa92d69fd70.png "Otsinguväljale sisestati „pangakonto”")
 
 Lisateavet vt teemast [Navigeerimisotsing](navigation-search.md).
 
@@ -55,7 +55,7 @@ Igale lehel esitatud tegevusele saab juurdepääsu klaviatuurilt, kasutades tabe
 
 Soovite käivitada tegevuse **Meiliteatise logi**, mis asub toimingupaani vahekaardil **Müügitellimus** grupis **Meiliteatis**.
 
-![Meiliteatise logi tegevus toimingupaanil](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Tegevus Meiliteatise logi toimingupaanil")
+![Meiliteatise logitegevus toimingupaanil](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "„Meiliteatise logitegevus" toimingupaanil")
 
 Üks võimalus on kasutada klaviatuuri. Vajutage klahvikombinatsiooni Ctrl + F6, et nihutada fookus tegevuspaanile ja vajutage seejärel korduvalt tabeldusklahvi (TAB), et liikuda läbi kõigi vahekaartide ja tegevuste, kuni fookus on tegevusel **Meiliteatise logi**.
 
@@ -65,11 +65,11 @@ Kuid saate tegevuse käivitada ka otsesemalt. Vajutage lehel mistahes kohas klah
 
 Sisestage otsinguväljale sõnad, mis kirjeldavad tegevust. Tegevus on tehtud teile kättesaadavaks ja te saate seda otse käitada. Näiteks, kui sisestate sõnad **meil**, **teatis** või **logi**, saate kohe hüpata meiliteatise logi funktsiooni juurde.
 
-![Otsinguväljale on sisestatud „meil”](media/image4.png "otsinguväljale on sisestatud „meil”")
+![Otsinguväljale sisestati „meil”](media/image4.png "Otsinguväljale sisestati „meil”")
 
-![Otsinguväljale on sisestatud „teatis”](media/image5.png "otsinguväljale on sisestatud „teatis”")
+![Otsinguväljale sisestati „teatis”](media/image5.png "Otsinguväljale sisestati „teatis”")
 
-![Otsinguväljale on sisestatud „logi”](media/image6.png "otsinguväljale on sisestatud „logi”")
+![Otsinguväljale sisestati „logi”](media/image6.png "Otsinguväljale sisestati „logi”")
 
 Kui olete lõpetanud, võite uuesti vajutada klahvikombinatsiooni Ctrl + ülakoma, et naasta fookus väljale, millega töötasite enne tegevuse otsingu käivitamist.
 
@@ -81,7 +81,7 @@ Süsteemi tavapärasel igapäeval kasutamisel ei ole tavapäraste ülesannete t�
 
 Siiski võib juhtuda, et mõned väljad, mida kasutate tihti teatud ülesannete täitmiseks, ei ole vaikimisi tabeldusjärjestusse lisatud. Sellisel juhul, kui kasutate Windowsi jutustajat, saate nendele väljadele juurdepääsu saamiseks ja nende sisu kontrollimiseks kasutada Windowsi jutustaja klaviatuuri tegevusi. Teise võimalusena saate lehel **Suvandid** lülitada sisse suvandi **Täiustatud tabeldusjärjestus**. See suvand lisab kõik redigeeritavad ja kirjutuskaitstud väljad tabeldusjärjestusse. Seejärel saate kasutada lehe isikupärastamist, et luua kohandatud tabeldusjärjestus ja jätta välja väljad, mida ei ole tabeldusjärjestusse vaja. Lisateavet isikupärastamise kohta vt teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md).
 
-![Suvand Täiustatud tabeldusjärjestus](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Suvand Täiustatud tabeldusjärjestus")
+![Suvand "Täiustatud tabeldusjärjestus"](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Suvand „Täiustatud tabeldusjärjestus"")
 
 ## <a name="form-patterns"></a>Vormi mustrid
 
@@ -92,6 +92,8 @@ Lisateave vormimustrite kohta vt teemast [Vormi laadid ja mustrid](../../dev-itp
 ## <a name="responsive-layout"></a>Reageeriv paigutus
 
 Toode on loodud töötama erinevates seadmetes ja vormiteguritel, alates väikestest ekraanidest ja lõpetades kõige suurema eraldusvõimega suurte ekraanidega. Meie reageeriva paigutuse mootor võimaldab kasutajatel suurendada kuni 200 protsendini (või mõnel juhul rohkem kui 200 protsenti).
+
+Nutitelefonid ja muud väikesed ekraanid, juhtelemendid ja vormi kavandid kohanduvad, et tagada põhiliste andmete soosimine. Need tundlikud käitumised võivad hõlmata ka veergude arvu vähendamist gruppides ja vahekaartides ühte veergu, elementide peitmist ja tegevuse paani ahendamist.
 
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Juhendid, mis aitavad arendajatel ja klientidel oma kohandamistesse kaasata hõlbustavat mõtteviisi
 

@@ -3,12 +3,12 @@ title: Toote identifikaatorid
 description: Selles teemas kirjeldatakse erinevaid toote identifikaatoreid ja kirjeldatakse, kuidas lisada toote identifikaatoreid toote andmetesse.
 author: cvocph
 manager: AnnBe
-ms.date: 03/23/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductEntityIdentifierCode
+ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250595"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934882"
 ---
 # <a name="product-identifiers"></a>Toote identifikaatorid 
 
@@ -43,6 +43,9 @@ Paljudel juhtudel pole tootenumber algselt loodud rakenduses Dynamics 365 Supply
 Kui juurutate rakendust Tarneahela haldus, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Hea toote identifikaator sisaldab kuni 15 tähemärki. Ideaaljuhul sisaldab see vähem kui 10 tähemärki ja kuni viis liigitavat tähemärki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
 
 Kui kasutate Common Data Service, siis on ka toote number Tarneahela halduses ka toote number Common Data Service-is. Tootevariandid sünkroonitakse Common Data Service-iga eristatavate toodetena.
+
+> [!NOTE]
+> Tootenumber ei saa alata märgiga %.
 
 ## <a name="item-number-and-product-dimensions"></a>Kaubakood ja tootedimensioonid
 

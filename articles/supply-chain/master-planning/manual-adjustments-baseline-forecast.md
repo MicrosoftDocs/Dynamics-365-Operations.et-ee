@@ -3,7 +3,7 @@ title: Alusprognoosis käsitsi korrigeerimiste tegemine
 description: Selles teemas selgitatakse, kuidas alusprognoosi käsitsi korrigeerida ning prognoosi üksikasju kuvada.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1c9963a54a052549a6bfeabcb3d91b7b0f3cf68e
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815130"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935412"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Alusprognoosis käsitsi korrigeerimiste tegemine
 
@@ -70,8 +70,9 @@ Lehel **Nõudluse prognoosi üksikasjad** kuvatakse graafilises vormingus ja tab
 
 **Märkused.**
 
+-   Kui lubate funktsioonide halduses suvandi **Prognoosi mudeli valik nõudluse prognoosi üksikasjades**, saate valida ajaloolisesse prognoosi kaasatavad prognoosimudelid lehel **Nõudluse prognoosi üksikasjad**.
 -   Jaotises **Prognoos** kuvatud usaldusvahemik tähistab usaldusvahemiku ülem- ja alampiiri erinevust. Ülem- ja alampiiri väärtuste vaatamiseks liikuge üle diagrammi jaotises **Varasem nõudlus ja prognoos graafiliselt**.
--   Kui kasutate nõudluse prognoosimise Microsoft Azure’i masinõppe teenust, saate määrata loodava prognoosi usaldusväärsuse taseme protsendi. Usaldusvahemik koosneb väärtuste vahemikust, mille järgi on nõudluse prognoosi hea hinnata. Usaldusväärsuse tase 95% näitab, et on olemas 5% tõenäosus, et nõudluse prognoos jääb usaldusväärsusintervalli vahemikust välja.
+-   Kui kasutate nõudluse prognoosimise Microsoft Azure’i masinõpet, saate määrata loodava prognoosi usaldusväärsuse taseme protsendi. Usaldusvahemik koosneb väärtuste vahemikust, mille järgi on nõudluse prognoosi hea hinnata. Usaldusväärsuse tase 95% näitab, et on olemas 5% tõenäosus, et nõudluse prognoos jääb usaldusväärsusintervalli vahemikust välja.
 
 Leheküljel **Nõudluse prognoosi üksikasjad** saate prognoosis käsitsi korrigeerimis teha, muutes väärtusi reas **Prognoos** jaotises **Prognoos**.
 

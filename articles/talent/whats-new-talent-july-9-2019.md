@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 99a7e6130d45229011a185087d4872fe34b8224a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023949"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897622"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (9. juuli 2019)
-
-[!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 
@@ -36,6 +34,7 @@ Selles teemas kirjeldatakse Dynamics 365 Talenti uusi või muutunud funktsioone.
 See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Talent: Attract.
 
 ### <a name="coming-soon-in-attract"></a>Peagi tulekul rakenduses Attract
+
 #### <a name="job-approvals-appear-on-the-home-page"></a>Töökinnitused kuvatakse avalehel
 
 Kinnitused kuvatakse armatuurlaua jaotises **Kinnitused**. Kinnitajad saavad kinnitusi üle vaadata jaotises **Teile määratud**, kus kuvatakse töö ID, töö pealkiri, teised kinnitajad ja töö määramise kuupäev. Kasutajad, kes töö kinnitamiseks esitavad, saavad oma töid üle vaadata jaotises **Teie taotletud**, mis kuvab kinnitajaid, kes peavad edastatud tööd veel kinnitama.
@@ -50,7 +49,7 @@ Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2374.
 
 ### <a name="platform-update-28-for-finance-and-operations"></a>Finance and Operationsi 28. platvormi värskendus
 
-Finance and Operationsi platvormivärskenduse 28 kohta lisainfo saamiseks vt [Dynamics 365 Finance and Operations platvormivärskenduse 28 (juuli 2019) funktsioonide eelvaade](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Finance and Operationsi platvormivärskenduse 28 kohta lisainfo saamiseks vt [Dynamics 365 Finance and Operations platvormivärskenduse 28 (juuli 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Üksuse tugi ühise andmeteenuse Common Data Service kohandatud väljadele 
 

@@ -3,7 +3,7 @@ title: Tootekogumi moodulid
 description: See teema annab ülevaate tootekogumi moodulitest rakenduses Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 44f78b55b8e67b7358be75aa63c40a0147507e26
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 31307035014f2fae6146f33bc23e3e06103f82eb
+ms.sourcegitcommit: c237123ad94d9418994ac095fbd8634c05a927b1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785463"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943259"
 ---
-# <a name="product-collection-modules"></a>Tootekogumi moodulid  
+# <a name="product-collection-modules"></a>Tootekogumi moodulid
 
 [!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
@@ -37,18 +37,19 @@ Toote tuvastus on esmane tööriist, mida jaemüüjad kasutavad oma klientidega 
 
 Tootekogumi moodulid esindavad füüsilisi tooteid ja teenuseid veebisaidil. Tootekogumi moodul on tavaliselt seotud üksikasjade lehega, kus kliendid saavad osta toodet või teenust või selle kohta lisateavet lugeda. 
 
-Tootekogumite allikad võivad olla järgmised kolme tüüpi loendid.
+Tootekogumite allikad võivad olla järgmised nelja tüüpi loendid.
 
 - Toodete toimetusloendid, mis on toote või toote loendite puhul rakenduses Dynamics 365 Retail käsitsi määratletud seotud toodetena.
 - Algoritmilised loendid, nt uute, enim müüdud või populaarsete toodete loendid
 - Soovituste loendid, mis põhinevad arvuti õppimisel
+- Isikupärastamise loendid, mis toetavad kliendi isikupärastatud tulemusi. Isikupärastatud tulemuste nägemiseks peavad kliendid olema e-kaubanduse saidile sisse logitud. Külaliskasutajad ei näe isikupärastatud tulemusi. Kliendid saavad isikupärastamisest loobuda [kontohalduse lehel](account-management.md).
 
 Järgmisel joonisel on kujutatud e-kaubanduse saidil kasutatavat erinevat tüüpi tootekogumeid.
 
 ![Näide e-kaubanduse saidi erinevatest tootekogumitest](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
-> Kasutage alati tootekogumi mooduleid, et näidata sarnast tüüpi või kujundusega toodete gruppi.
+> Kasutage alati tootekogumi mooduleid, et näidata sarnast tüüpi toodete gruppi.
 
 ## <a name="product-collection-modules-and-types"></a>Tootekogumi moodulid ja tüübid
 
@@ -56,15 +57,15 @@ Järgmises tabelis kirjeldatakse erinevate tootekogumi moodulite tüüpe rakendu
 
 | Tootekogumi moodul  | Tüüp | Kirjeldus |
 |----------------------------|------|-------------|
-| Kategooria sirvimine            | Kureeritud | Seda tüüpi tootekogumi moodul kasutab navigeerimise kategooria hierarhiat, mille jaemüüja lõi jaemüügi kanali jaoks, et näidata kindlas saidi kategoorias pakutavate toodete sirvimise voogu. |
-| Otsingutulemused             | Otsingupäring | Seda tüüpi tootekogumi moodul näitab toodete loendit, mis kõige paremini ühtib kliendi sisestatud otsingupäringuga. |
-| Seotud tooted           | Kureeritud | Seda tüüpi tootekogumi moodul näitab toodete loendit, mida kauba haldur on konfigureerinud seotud toodetena jaemüügis autori valitud seose tüübiga. |
-| Kureeritud toodete loend      | Kureeritud | Seda tüüpi tootekogumi moodul näitab kohandatud loendeid, mille kaupmehed ja toimetajad on jaemüügis loonud. |
-| Uus                        | Algoritmiline | Seda tüüpi tootekogumi moodul kuvab uusimate toodete loendi, mis on valitud kanalitele ja kataloogidele. |
-| Enim müüdud               | Algoritmiline | Seda tüüpi tootekogumi moodul näitab toodete loendit, mis on järjestatud kõige suurema hulga müügitehingute alusel. |
-| Populaarsed                   | Algoritmiline | Seda tüüpi tootekogumi moodul näitab kõige kõrgema jõudlusega toodete loendit valitud perioodil. |
-| Kliendid ostavad sageli koos | Tehisintellekt/masina õppimine | Seda tüüpi tootekogumi moodul kasutab masina õppimist, et analüüsida tarbija ostumustreid ja soovitada seotud kaupu, mida sageli ostetakse koos valitud tootega. |
-| Inimestele meeldib ka           | Tehisintellekt/masina õppimine | Seda tüüpi tootekogumi moodul kasutab masina õppimist, et analüüsida tarbija ostumustreid ja soovitada seotud kaupu, mis on seotud valitud tootega. |
+| Kategooria                   | Kategooria | Selles moodulis kuvatakse kategooria toodete loend, mis on määratletud navigeerimiskategooria hierarhia poolt, mille jaemüüja on jaemüügi kanali jaoks loonud. |
+| Seotud tooted           | Kureeritud | See moodul näitab toodete loendit, mida kauba haldur on konfigureerinud seotud toodetena jaemüügis autori valitud seose tüübi jaoks. |
+| Kureeritud toodete loend      | Kureeritud | See moodul kuvab kohandatud loendi, mille kaupmehed ja toimetajad on jaemüügis loonud. |
+| Uus                        | Algoritmiline | See moodul kuvab uusimate toodete loendi, mis on kanalitele ja kataloogidele valitud. See loend võib kuvada sisselogitud kasutajale isikupärastatud tulemusi, kui saidi autor valib selle suvandi. |
+| Enim müüdud               | Algoritmiline | See moodul kuvab toodete loendi, mis on järjestatud kõige suurema müügi arvu alusel. See loend võib kuvada sisselogitud kasutajale isikupärastatud tulemusi, kui saidi autor valib selle suvandi. |
+| Populaarsed                   | Algoritmiline | See moodul kuvab antud perioodi kõrgeima jõudlusega toodete loendi. See loend võib kuvada sisselogitud kasutajale isikupärastatud tulemusi, kui saidi autor valib selle suvandi. |
+| Kliendid ostavad sageli koos | Tehisintellekt/masina õppimine | See moodul kasutab masinõpet, et analüüsida tarbija ostumustreid ja soovitada seotud kaupu, mida sageli ostetakse koos valitud tootega. See loend võib kuvada sisselogitud kasutajale isikupärastatud tulemusi, kui saidi autor valib selle suvandi. |
+| Inimestele meeldib ka           | Tehisintellekt/masina õppimine | See moodul kasutab masinõpet, et analüüsida tarbija ostumustreid ja soovitada seotud kaupu, mis on seotud valitud tootega. See loend võib kuvada sisselogitud kasutajale isikupärastatud tulemusi, kui saidi autor valib selle suvandi. |
+| Valib teile              | Tehisintellekt/masina õppimine | See moodul kasutab masinõpet, et analüüsida sisselogitud kasutaja ostumustreid ja pakkuda isikupärastatud soovitusi, mis põhinevad nendel ostumustritel. Külalisekasutaja jaoks on see loend ahendatud. |
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Tootekogumi mooduli lisamine kategooria lehele
 
@@ -74,7 +75,8 @@ Tootekogumi mooduli lisamiseks kategooria lehele järgige neid juhiseid.
 1. Lehe liigenduses valige pesa **Alamjalus**, valige kolmikpunkt nupp (**...**) ja seejärel valige suvand **Lisa moodul**.
 1. Dialoogiaknas **Lisa moodul** valige suvand **Konteiner** ja seejärel valige nupp **OK**.
 1. Valige konteineri moodulis kolmikpunkt nupp ja seejärel valige käsk **Lisa moodul**.
-1. Dialoogiaknas **Lisa moodul** valige suvand **Tootekogum** ja seejärel valige nupp **OK**.
+1. Dialoogiaknas **Lisa moodul** valige suvand **Tootekogum** ja seejärel valige nupp **OK**.  
+![Näidistoote kogumi mooduli viisardi voog](./media/productCollectionModule.png)
 1. Konfigureerige sätted, valides tootekogumi jaoks sobiv andmeallikas ja sisend.
 1. Tootekogumi mooduli atribuutide paanil valige käsk **Lisa tooteloend**.
 1. Dialoogiaknas **Vali tooteloendi konfigureerimine** valige loendi tüüp, sisestage kaupade arv ja valige muud loendi tüübi jaoks saadaolevad suvandid. Lisateavet loendi tüüpide kohta leiate järgnevast tabelist. 
@@ -82,15 +84,16 @@ Tootekogumi mooduli lisamiseks kategooria lehele järgige neid juhiseid.
 1. Salvestage leht ja registreerige see.
 
 Järgmine tabel näitab loendi tüüpe, mis on saadaval dialoogiaknas **Vali toote loendi konfigureerimine**.
-   
-| Tüüp                       | Kirjeldus | Üldine tava | Kontekst, mida saab tuletada lehekülje kontekstist | Kontekst, mille autor saab lehekülje kontekstile alistada |
-|----------------------------|-------------|------------------|-------------------------------------|-----------------------------------------------|
-| Tooted kategooriate alusel       | Kindlasse kategooriasse kuuluvate toodete loend. See kategooria määratakse kas lehekülje kontekstist või autori pakutavast kontekstist. | Rikastage kategooria lehte, kodulehte, kassa ja ostukorvi lehte ja tootelehti. | Kategooria | Autori määratud kategooria |
-| Seotud tooted           | Toodete loend, mida kauba haldaja on konfigureerinud seotud toodetena jaemüügis seoses seose tüübiga. | Tootelehed, kassa ja ostukorvi leht, soovide leht ja kliendikonto leht | Toode, seose tüüp (kohustuslik)  | Toode, seose tüüp |
-| Kureeritud                    | Kohandatud loend, mille kaupmehed ja toimetajad on jaemüügis loonud. | Rikastage kategooria lehte, kodulehte, kassa ja ostukorvi lehte ja tootelehti. | Pole kohaldatav | Loendi valija |
-| Algoritmiline                | <ul><li>**Uus** – uusimate toodete loend, mis on valitud kanalitele ja kataloogidele.</li><li>**Enim müüdud** – toodete loend, mis on järjestatud kõige suurema müügi arvu alusel.</li><li>**Populaarsed** – antud perioodi kõrgeima jõudlusega toodete loend.</li></ul> | Koduleht, rikastage kategooria lehte, kassa ja ostukorvi lehti | Kategooria | Autori määratud kategooria |
-| Kliendid ostavad sageli koos | Loend, mis kasutab masina õppimist, et analüüsida tarbija ostumustreid ja soovitada seotud kaupu, mida sageli ostetakse koos valitud tootega. | Toote leheküljed, kassa ja ostukorvi lehed | Toode, ostukorv | Kaasa ostukorvi |
-| Inimestele meeldib ka           | Loend, mis kasutab masina õppimist, et analüüsida tarbija ostumustreid ja soovitada seotud kaupu, mis on seotud valitud tootega. | Toote leheküljed, kassa ja ostukorvi lehed | Toode, ostukorv | Pole kohaldatav |
+
+| Tüüp                       | Kirjeldus | Kasutus | Lehe kontekst | Spetsiifiline kontekst | Isikupärastamine |
+|----------------------------|-------------|-------|--------------|------------------|-----------------|
+| Tooted kategooriate alusel       | Kindlasse kategooriasse kuuluvate toodete loend. See kategooria määratakse kas lehekülje kontekstist või autori pakutavast kontekstist. | Seda tüüpi loendit saab kasutada mis tahes lehel (nt avaleht, kategooria leht, turunduse leht või toote üksikasjade leht \[PDP\]), et edendada kindlat tootekategooriat. | Lehe konteksti kategooria, kui see on saadaval (nt kategooria leht) | Autor võib anda loendi konteksti jaoks kindla kategooria. | Pole kohaldatav |
+| Seotud tooted           | Toodete loend, mille kauba haldaja on konfigureerinud seotud toodetena seoses seose tüübiga jaemüügis. | Seda tüüpi loendit kasutatakse peamiselt PDP-del, kuid seda saab kasutada mis tahes lehel, kui on esitatud ülemtoode. | Toode lehelt, seose tüüp (kohustuslik) | Toote saab valida valijas ja seose tüüp on kasutusel. | Pole kohaldatav |
+| Kureeritud                    | Kohandatud loend, mille kaupmehed ja toimetajad on jaemüügis loonud. | Rikastage kategooria lehte, kodulehte, kassa ja ostukorvi lehte ja tootelehti. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav |
+| Algoritmiline                | <ul><li>**Uus** – uusimate toodete loend, mis on valitud kanalitele ja kataloogidele.</li><li>**Enim müüdud** – toodete loend, mis on järjestatud kõige suurema müügi arvu alusel.</li><li>**Populaarsed** – antud perioodi kõrgeima jõudlusega toodete loend.</li></ul> | Koduleht, rikastage kategooria lehte, kassa ja ostukorvi lehti | Lehe konteksti kategooria (nt kategooria leht) | Saidi autori määratud kategooria | Toetatud |
+| Kliendid ostavad sageli koos | Loend, mis kasutab masinõpet, et analüüsida tarbija ostumustreid ja soovitada seotud kaupu, mida sageli ostetakse koos valitud tootega. | See loendi tüüp on kohaldatav ainult ostukorvi lehele. | Ostukorv | Pole kohaldatav | Toetatud |
+| Inimestele meeldib ka           | Loend, mis kasutab masina õppimist, et analüüsida tarbija ostumustreid ja soovitada seotud kaupu, mis on seotud valitud tootega. | Seda loendi tüüpi kasutatakse PDP-del, et kuvada tooted, mida teised kliendid on ostnud. | Toote kontekst lehelt | Saidi autori sisestatud toode | Toetatud |
+| Valib teile              | Loend, mis kasutab kliendi eelistuste määramiseks masinõpet. | Seda tüüpi loendit saab kasutada mis tahes lehel. | Pole kohaldatav| Pole kohaldatav | Toetatud | 
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -98,7 +101,7 @@ Järgmine tabel näitab loendi tüüpe, mis on saadaval dialoogiaknas **Vali too
 
 [Karusellmoodul](add-carousel.md)
 
-[Sisurikas plokimoodul](add-content-rich-block.md)
+[Sisu rikasplokimoodul](add-content-rich-block.md)
 
 [Sisupaigutusmoodul](add-content-placement-modules.md)
 
@@ -106,3 +109,4 @@ Järgmine tabel näitab loendi tüüpe, mis on saadaval dialoogiaknas **Vali too
 
 [Ostukasti moodul](add-buy-box.md)
 
+[Tootesoovituste ülevaade](product-recommendations.md)

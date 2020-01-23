@@ -3,7 +3,7 @@ title: Pakkumiste halduse seadistamine rakenduses Attract
 description: Selles teemas kirjeldatakse, kuidas rakenduses Microsoft Dynamics 365 Talent pakkumisi seadistada.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/04/2019
+ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
+ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832718"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890551"
 ---
 # <a name="set-up-offer-management-in-attract"></a>Pakkumiste halduse seadistamine rakenduses Attract
 
@@ -45,9 +45,11 @@ Pakkumisandmed on pakkumise paketi malli väikseim üksus. Tavaline pakkumine ko
 
     >[!NOTE]
     > **Pakkumisandmete** lehel on **Kandidaadi andmete** ja **Töö üksikasjade** jaotised. Attract pakub ka mõned nö. kastist väljaspool pakkumisandmete kohatäited.
-    
+    > 
     > Lehel on jaotised erinevate pakkumisandmete kohatäidete korraldamiseks loogilistesse gruppidesse. Need jaotised aitavad pakkumise loomise protsessis säilitada pakkumisandmeid ja andmeid asustada.
-
+    > 
+    > Kohatäitele väärtuste loendi loomiseks laadige üles Exceli arvutustabel, kus on üks veerg kohatäitega veeru pealkirjana ja valikute loendiga all olevatel ridadel. Kui samale kohatäitele viidatakse teises andmete reeglistikus, veenduge, et neil oleks ühine väärtuste kogum.
+    
 1.  Uue pakkumisandmete jaotise loomiseks klõpsake **Jaotise lisamine** ja sisestage jaotisele kordumatu nimi.
 
 1.  Mis tahes jaotisele pakkumisandmete kohatäite lisamiseks klõpsake **Pakkumisandmete lisamine** ja sisestage kohatäitele kordumatu nimi.

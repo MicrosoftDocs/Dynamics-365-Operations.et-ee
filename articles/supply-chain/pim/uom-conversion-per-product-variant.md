@@ -3,12 +3,12 @@ title: Mõõteühiku teisendus tootevariandi kohta
 description: See teema kirjeldab, kuidas saab seadistada tootevariantide mõõtühikute teisendusi.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 12/18/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: josaw
@@ -17,34 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c8181f0bda9b781a6c2b0feb0aba1beb51bfea65
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249444"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935095"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mõõteühiku teisendus tootevariandi kohta
 
 [!include [banner](../includes/banner.md)]
 
-[!include [pivate-preview](../includes/pivate-preview-banner.md)]
-
 See teema kirjeldab, kuidas saab seadistada tootevariantide mõõtühikute teisendusi. See sisaldab seadistuse näidet.
 
 Funktsioon võimaldab ettevõtetel määratleda erinevaid ühikuteisendusi sama kauba variantide vahel. Selles teemas kasutatakse järgmist näidet. Ettevõte müüb t-särke suuruses S, M, L ja XL. T-särgi määratletakse tootena ja erinevad suurused määratletakse toote variantidena. T-särgid on pakendatud kastidesse ja ühes kastis võib olla viis t-särki, välja arvatud XL suurus, kus on ruumi ainult neljale t-särgile. Ettevõte soovib jälgida t-särkide erinevaid variante üksuses **Tükid**, aga müüb T-särke üksuses **Kastid**. Teisendused laoüksuse ja müügiüksuse vahel on 1 kast = 5 tükki, välja arvatud variant XL, kus teisendus on 1 kast = 4 tükki.
-
-## <a name="setup"></a>Seadistus
-
-Saate konfigureerida parameetrid funktsiooni kasutamiseks kas toodetele, mille puhul on lubatud **Kõik protsessid** või ainult tootele, mille puhul on lubatud **Lao protsessid**, kasutades suvandit **Luba mõõtühiku teisaldamine** lehel **Tooteteabe parameetrid**.
 
 ### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Seadistage toode ühiku teisaldamiseks varjandi kohta
 
 Tootevariantide saab luua ainult toodetele **Toote alamtüüp**: **Tooteetalon**. Lisateavet vt jaotisest [Tooteetaloni loomine](tasks/create-product-master.md).
 
 Funktsioon ei ole lubatud toodete puhul, mis on seadistatud tegeliku kaalu protsesside jaoks. 
-
-Tooteetaloni loomise ajal lubage mõõtühiku teisendamine, kasutades suvandit **Luba mõõtühiku teisendused** lehel **Toote üksikasjad**.
 
 Kui tooteetalon koos väljastatud toodete variantidega on loodud, saab seadistada ühikuteisendused variantide kohta. Toote või tootevariandi kontekstis toimuvate ühikuteisenduste avamise menüüelemendi leiate järgmistel lehekülgedelt.
 

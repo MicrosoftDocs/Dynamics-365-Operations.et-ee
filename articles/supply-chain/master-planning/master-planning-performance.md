@@ -1,9 +1,9 @@
 ---
 title: Koondplaneerimise jõudluse parandamine
-description: Selles teemas kirjeldatakse mitmesuguseid võimalusi, mis võivad aidata parandada koondplaneerimise ja probleemide tõrkeotsingu jõudlust.
+description: Selles teemas kirjeldatakse mitmesuguseid võimalusi, mis võivad aidata parandada koondplaneerimise või probleemide tõrkeotsingu jõudlust.
 author: t-benebo
 manager: AnnBe
-ms.date: 05/31/2019
+ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,50 +19,50 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: f0d075bbcc8a6671054f227a13c75ca7fb1e954f
-ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
+ms.openlocfilehash: 7e8c1d7ee51eb6e335554a01fd050bd80f2a070d
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1631539"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915220"
 ---
 # <a name="improve-master-planning-performance"></a>Koondplaneerimise jõudluse parandamine
 
 [!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse mitmesuguseid võimalusi, mis võivad aidata parandada koondplaneerimise ja probleemide tõrkeotsingu jõudlust. See sisaldab teavet parameetrite ja sätete kohta ning soovituslikke konfiguratsioone ja tegevusi. See sisaldab ka kokkuvõtet kõikidest olulistest parameetritest, mida peaksite kaaluma pikaajaliste koondplaneerimise tööde korral.
+Selles teemas kirjeldatakse mitmesuguseid võimalusi, mis võivad aidata parandada koondplaneerimise või probleemide tõrkeotsingu jõudlust. See sisaldab teavet nii parameetrite ja sätete kohta kui ka soovituslikke konfiguratsioone ja tegevusi. Kaasatud on ka kokkuvõte kõikidest olulistest parameetritest, mida peaksite kaaluma pikaajaliste koondplaneerimise tööde korral.
 
 See teema on mõeldud süsteemiadministraatoritele või IT-kasutajatele, kes saavad teha tõrkeotsingut. See on mõeldud ka tootmise või tarnimise plaanijatele, kuna see sisaldab teavet parameetrite kohta, mis on seotud ettevõtte plaanimise nõuetega. 
 
-## <a name="parameters-that-are-related-to-master-planning-performance"></a>Koondplaneerimise jõudlusega seotud parameetrid
+## <a name="parameters-related-to-master-planning-performance"></a>Koondplaneerimise jõudlusega seotud parameetrid
 
 Mitmesugused parameetrid mõjutavad koondplaneerimise töötamise aega ja neid tuleb arvesse võtta.
 
 ### <a name="number-of-threads"></a>Lõimede arv
 
-Parameetriga **Lõimede arv** saate kohandada koondplaneerimise protsessi, et see toimiks konkreetsel andmekogumil paremini. See määrab lõimede koguarvu, mida kasutatakse koondplaneerimise käivitamiseks. See põhjustab koondplaneerimise käivitamise paralleelimise, mis aitab vähendada töötamise aega. 
+Parameeter **Lõimede arv** võimaldab kohandada koondplaneerimise protsessi, et aidata parandada konkreetse andmekogumi jõudlust. See parameeter määrab lõimede koguarvu, mida kasutatakse koondplaneerimise käivitamiseks. See põhjustab koondplaneerimise käivitamise paralleelimise, mis aitab vähendada töötamise aega. 
 
 Saate seadistada parameetri **Lõimede arv** dialoogiaknas **Koondplaneerimise käitus**. Selle dialoogiakna avamiseks valige suvandid **Koondplaneerimine \> Koondplaneerimine \> Käivita \> Koondplaneerimine** või valige käsk **Käivita** tööruumis **Koondplaneerimine**. Selle parameetri parima väärtuse leidmiseks peate kasutama katse ja eksituse meetodit. Kuid algse väärtuse arvutamiseks võite kasutada järgmiseid valemeid.
 
-- **Kui teie ettevõte on tootja:** lõimede arv = plaanitud tellimuste arv ÷ 1000
-- **Muu:** lõimede arv = kaupade arv ÷ 1000
+- **Kui teie ettevõte on tootja:** (lõimede arv) = (plaanitud tellimuste arv ÷ 1000)
+- **Muu:** (lõimede arv) = (kaupade arv ÷ 1000)
 
-Abiliste arv, mida koondplaneerimisel kasutatakse, peab olema vähem kui või võrdne lõimede maksimaalse arvuga, mis on lubatud pakktöötlusserveris. Kui abiliste arv ületab lõimede arvu pakktöötlusserveris, siis täiendavad lõimed ei tööta.
+Koondplaneerimisel kasutatavate abiliste arv peab olema vähem kui või võrdne lõimede maksimaalse arvuga, mis on pakktöötlusserveris lubatud. Kui abiliste arv ületab lõimede arvu pakktöötlusserveris, siis täiendavad lõimed ei tööta.
 
 > [!NOTE]
-> Parameetri **Lõimede arv** säte **0** (null) pikendab koondplaneerimise töötamise aega. Seetõttu soovitame alati määrata väärtuse, mis on suurem kui 0.
+> Parameetri **Lõimede arv** seadmine väärtusele **0** (null) pikendab koondplaneerimise töötamise aega. Seetõttu soovitame alati määrata väärtuse, mis on suurem kui 0.
 
 ### <a name="number-of-tasks-in-helper-task-bundle"></a>Ülesannete arv abilise ülesannete kogumis
 
-Muutes sätet **Ülesannete arv ülesannete kogumis** (ehk kogumi suurus), võib olla võimalik töötamise aega pikendada. See säte reguleerib kaupade arvu, mis on plaanitud koos ühe abilisega.
+Muutes sätet **Ülesannete arv ülesannete kogumis** (ehk kogumi suurus), võib olla võimalik töötamise aega lühendada. See säte reguleerib kaupade arvu, mis on plaanitud koos ühe abilisega.
 
 Parameetri **Ülesannete arv ülesannete kogumis** saate määrata jaotises **Jõudlus** vahekaardil **Üldine** lehel **Koondplaneerimise parameetrid** (**Koondplaneerimine \> Seadistamine \> Koondplaneerimise parameetrid**). Selle parameetri parim väärtus oleneb teie andmetest. Seetõttu soovitame alustada väärtusest **1** ning kasutada katse ja eksituse meetodit teie seadistuse jaoks parima väärtuse määramiseks.
 
-Üldiselt soovitame suurendada ülesannete arvu, kui kaupade arv on väga suur (sadades tuhandetes). Muidu peaksite ülesannete arvu vähendama. Järgmiste konkreetsete majandusharude jaoks võtke arvesse järgmisi punkte.
+Üldiselt soovitame suurendada ülesannete arvu, kui kaupade arv on väga suur (sadades tuhandetes). Muidu peaksite ülesannete arvu vähendama. Järgmiste konkreetsete majandusharude jaoks kaaluge järgmisi soovitusi.
 
 - Jaemüügis ja levitamises, kus on palju sõltumatuid kaupasid, kasutage palju abilisi, kuna kaupade vahel puudub sõltuvus. 
-- Tootmises, kus on palju kooslusi ja jagatud alamkomponente, kasutage vähem abilisi, kuna sõltuvused kaupade vahel võivad tekitada ooteaegu.
+- Tootmises, kus on palju kooslusi ja jagatud alamkomponente, kasutage vähem abilisi, kuna sõltuvused kaupade vahel võivad põhjustada ooteaegu.
 
 > [!TIP]
 > Kui teil on probleeme jõudlusega, soovitame vähendada sätte **Abiliste arv ülesannete kogumis** väärtusele **1**. Saate alustada katse ja eksituse meetodiga, et leida oma seadistusele parim väärtus. Üldiselt tekivad jõudlusprobleemid, kui ühe kauba töötlemine võtab rohkem aega kui ülejäänud kaupade töötlemine. Sellisel juhul näete, et kahe järgneva ülesande, mille olek koondplaneerimises on **Laovarud**, käitamisele kulub hoopis erinev hulk aega. Äärmuslikel juhtudel võib see erinevus olla isegi 30 minutit. Ülesannete käitamisele kuluvat aega saab tuletada, vaadates iga ülesande kestust.
@@ -85,9 +85,9 @@ Parameetri **Vahemälu kasutamine** saate määrata jaotises **Jõudlus** vaheka
 
 Parameeter **Kinnituskogumi tellimuste arv** määrab tellimuste koguarvu, mida töödeldakse korraga igas lõimes/partiis. See põhjustab automaatkinnitamise protsessi paralleelimise.
 
-Parameetri **Kinnituskogumi tellimuste arv** saate määrata jaotises **Jõudlus** vahekaardil **Üldine** lehel **Koondplaneerimise parameetrid** (**Koondplaneerimine \> Seadistamine \> Koondplaneerimise parameetrid**). Automaatkinnitamise paralleelimine põhineb tellimustel, mida tuleb koos töödelda. Nii et kui see parameeter on seatud näiteks väärtusele **50**, võtab iga lõim või pakktöötlus korraga 50 tellimust ja töötleb neid koos. Parima väärtuse leidmiseks soovitame kasutada katse ja eksituse meetodit. Kuid algse väärtuse arvutamiseks võite kasutada järgmist valemit.
+Parameetri **Kinnituskogumi tellimuste arv** saate määrata jaotises **Jõudlus** vahekaardil **Üldine** lehel **Koondplaneerimise parameetrid** (**Koondplaneerimine \> Seadistamine \> Koondplaneerimise parameetrid**). Automaatkinnitamise paralleelimine põhineb tellimustel, mida tuleb koos töödelda. Näiteks kui see parameeter on seatud väärtusele **50**, võtab iga lõim või pakktöötlus korraga 50 tellimust ja töötleb neid koos. Parima väärtuse leidmiseks soovitame kasutada katse ja eksituse meetodit. Kuid algse väärtuse arvutamiseks võite kasutada järgmist valemit.
 
-Tellimuste arv kogumi kohta = nõutud kaupade arv ÷ lõimede arv
+(Tellimuste arv kogumi kohta) = (nõutud kaupade arv ÷ lõimede arv)
 
 > [!NOTE]
 > Kui seate parameetri **Kinnituskogumi tellimuste arv** väärtusele **0** (null), ei toimu automaatkinnitamise protsessi paralleelimist. Kogu protsess töötab ühes pakktöötluses ja selle töötamise aeg on kumulatiivne. Seetõttu pikeneb koondplaneerimise töötamise aeg. Sel põhjusel soovitame seada parameetri väärtusele, mis on suurem kui **0** (null).
@@ -98,7 +98,7 @@ Ajapiirid määravad, kui kaugele tulevikus tuleb koondplaneerimisega kalkulatsi
 
 ### <a name="actions"></a>Tegevused
 
-Ajapiiride hulgast leiate ka parameetri **Tegevussoovitus**. Tegevussoovituste arvutamine põhjustab koondplaneerimise töötamise aja pikenemise. Kui tegevussoovitusi ei analüüsita ja rakendata korrapäraselt (iga päev, nädal jne), kaaluge arvutuse väljalülitamist koondplaneerimise töötamise ajaks. Arvutuse väljalülitamiseks seadke lehel **Koondplaanid** (**Koondplaneerimine \> Seadistamine \> Plaanid \> Koondplaanid**) suvandi **Tegevussoovitus** ajapiir väärtusele **0** (null) selle koondplaani jaoks, mida käitate. Veenduge ka, et suvand **Tegevussoovitus** oleks välja lülitatud kõikide laovarude gruppide jaoks.
+Ajapiiride hulgast leiate ka parameetri **Tegevussoovitus**. Tegevussoovituste arvutamine põhjustab koondplaneerimise töötamise aja pikenemise. Kui tegevussoovitusi ei analüüsita ja rakendata korrapäraselt (iga päev, nädal jne), kaaluge arvutuse väljalülitamist koondplaneerimise töötamise ajaks. Arvutuse väljalülitamiseks seadke lehel **Koondplaanid** (**Koondplaneerimine \> Seadistus \> Plaanid \> Koondplaanid**) suvandi **Tegevussoovitus** ajapiir väärtusele **0** (null). Veenduge ka, et suvand **Tegevussoovitus** oleks välja lülitatud kõikide laovarude gruppide jaoks.
 
 ### <a name="futures"></a>Tulevased
 
@@ -110,16 +110,16 @@ Kui plaanite koondplaneerimist, ärge plaanige samale ajale muid pakett-töid. E
 
 ## <a name="review-the-session-log"></a>Seansilogi läbivaatus
 
-Süsteem võib koguda rohkem teavet ülesannete kohta, mis töötavad koondplaneerimise ajal. Selleks et süsteem seda teavet koguks, lülitage sisse säte **Töötlemisaja jälgimine** dialoogiaknas **Koondplaneerimise käitus**. Kogutav teave võib aidata leida käituses kitsaskohti. Näiteks kui parameeter **Ülesannete arv abilise ülesannete kogumis** on seatud väärtusele **1**, saate tuvastada üksuse, millel on kõige pikem töötamise aeg. Saate ka võrrelda töötamise aegu eri lõimedel, mille olek on **Laovarud**, ja võrrelda iga ülesande kestust.
+Süsteem võib koguda täiendavat teavet ülesannete kohta, mis töötavad koondplaneerimise ajal. Selleks et süsteem seda teavet koguks, lülitage sisse säte **Töötlemisaja jälgimine** dialoogiaknas **Koondplaneerimise käitus**. Kogutav teave võib aidata leida käituses kitsaskohti. Näiteks kui parameeter **Ülesannete arv abilise ülesannete kogumis** on seatud väärtusele **1**, saate tuvastada üksuse, millel on kõige pikem töötamise aeg. Saate ka võrrelda töötamise aegu eri lõimedel, mille olek on **Laovarud**, ja võrrelda iga ülesande kestust.
 
-Süsteemi koondplaneerimise käituste läbi vaatamiseks järgige üht alltoodud etappidest.
+Süsteemi koondplaneerimise käituste läbi vaatamiseks järgige üht järgmistest etappidest.
 
 - Valige tööruumis **Koondplaneerimine** ripploendist koondplaan ja seejärel paanilt **Koondplaneerimine** valige suvand **Ajalugu**. Valige töö, valige kiirkaardilt suvand **Päringud** ja seejärel suvand **Protsessiülesande kestus**.
 - Lehel **Koondplaanid** valige vasakult paanilt plaan ja seejärel kiirkaardilt suvand **Ajalugu**. Valige töö, valige kiirkaardilt suvand **Päringud** ja seejärel suvand **Protsessiülesande kestus**.
 
-Seansilogi ülevaatamisel võtke arvesse järgmist.
+Seansilogi ülevaatamisel arvestage järgnevaga.
 
-- **Värskendamine** ei tohi kesta kaua (üldiselt peaks see kestma kuni 30 minutit). See on aga ühe lõimega.
+- **Värskendamine** ei tohi kesta kaua (üldiselt peaks see kestma kuni 30 minutit), see on aga ühe lõimega
 - **Plaani kopeerimine** ei tohi kesta kaua (see peaks kestma umbes minuti).
 - **Automaatkinnitamine** kestab tavaliselt umbes 30 minutit. Kuid see võib kesta mitu tundi, olenevalt tellimuste arvust ja kaupade keerukusest.
 - **Automaatkinnitamine** ei tohi kesta vähem kui **Laovarud**.
@@ -129,6 +129,28 @@ Seansilogi ülevaatamisel võtke arvesse järgmist.
 ## <a name="filtering-of-items"></a>Kaupade filtreerimine
 
 Filtrid, mida rakendatakse dialoogiaknas **Koondplaneerimise käitus**, mõjutavad koondplaneerimise käituse kestust. Valige suvandid **Koondplaneerimine \> Koondplaneerimine \> Käivita \> Koondplaneerimine** või valige käsk **Käivita** tööruumis **Koondplaneerimine**. Kaupade välja jätmiseks käitusest soovitame filtreerida kauba töötsükli oleku järgi (mitte kaubakoodi järgi). Kui filtreerite töötsükli oleku järgi, kestab värskendamise protsess vähem aega kui kaubakoodide järgi filtreerides.
+
+## <a name="automatically-filter-by-items-with-direct-demand"></a>Automaatselt otsenõudlusega kaupade alusel filtreerimine
+
+Koondplaneerimise käitusaja parandamiseks saate valida ainult otsese nõudlusega kaupade kaasamise. Seda filtrit saab kasutada ainult täieliku koondplaneerimise käitamiseks, millel ei ole ühtegi muud filtrit väljal **Kaasatavad kirjed** rakendatud. Koondplaneerimise filtritega käivitamine ignoreerib seadistust **Automaatselt otsenõudlusega kaupade alusel filtreerimine**.
+
+Väli **Automaatselt otsenõudlusega kaupade alusel filtreerimine** asub lehel **Koondplaneerimise parameetrid** ja seda saab kasutada nii eeltöötluse kui ka järeltöötluse seadistustega.
+
+### <a name="pre-processing"></a>Eeltöötlemine
+Parameeter **Eeltöötlus: automaatselt otsenõudlusega kaupade alusel filtreerimine** tagab, et koondplaneerimise eeltöötluse etapp hõlmab ainult kaupu, mis vastavad vähemalt ühele järgmistest tingimustest.
+  - Kaubal on eeldatav sissetulek või väljaminek, nagu ostutellimus, müügitellimus, hinnapakkumine, üleviimistellimus või tootmistellimus. 
+  - Kaubal on laovarud koos puhvervaruga (minimaalne kauba laoseis).
+  - Kaubal on nõudluse prognoos pärast tänast.
+  - Kaubal on pakkumise prognoos pärast tänast.
+  - Kaup sisaldab kõiki järjepidevuse ridu kõnekeskuse moodulist, mis pole veel loodud.
+
+> [!NOTE]
+> Füüsiliselt saadaval laovaruga kaup ei kuva, ei nõudetehingut, kuna kaubale pole nõudlust.
+
+### <a name="post-processing"></a>Järeltöötlus
+Suvand **Järeltöötlus: automaatselt otsenõudlusega kaupade alusel filtreerimine** on asjakohane ainult siis, kui määrate oma laovarude gruppides suvandi **Koosluse versiooni vajadus**. Vastasel juhul ei pea te parameetrit lubama. 
+
+Enne laovarude etapi käivitamist on laovarude eelne etapp, mille ajal töödeldakse kaubad, millel on laovarude säte **Koosluse versiooni vajadus** lubatud, uuesti. Seda tehakse tagamaks, et nõutava koosluse versiooni kaubad oleksid planeeritud. Kaubad, mille puhul arvatakse, et nendele pole töötlemise eel nõudlust, ei ole enam nõutud ja seetõttu tuleks need planeerimisest välja jätta.
 
 ## <a name="performance-checklist-summary"></a>Jõudluse kontroll-loendi kokkuvõte
 

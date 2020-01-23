@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: abd215243cbda68ba3f57b5fa41054a10745d11f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5f5bb3432ba3e57a4ef08dfa3c25cb61705efc33
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551022"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898754"
 ---
 # <a name="work-with-date-and-time-in-microsoft-dynamics-365-talent"></a>Kuupäeva ja kellaajaga töötamine rakenduses Microsoft Dynamics 365 Talent
-
-[!include [banner](includes/banner.md)]
 
 **Kuupäeva ja kellaaja** väljad on põhimõiste rakenduses Dynamics 365 Talent. Oluline on mõista, kuidas töötada **kuupäeva ja kellaaja** andmetega rakenduse Dynamics 365 vormil, ühistes andmeteenustes Common Data Service ja välistes allikates.
 

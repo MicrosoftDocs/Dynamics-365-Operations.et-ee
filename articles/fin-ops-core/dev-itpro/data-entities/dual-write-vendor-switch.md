@@ -1,6 +1,6 @@
 ---
-title: Hankijalahenduse vahetamine
-description: ''
+title: Hankija kujunduste vaheldumisi aktiveerimine
+description: Selles teemas kirjeldatakse, kuidas lülitada hankija andmete integreerimise vahel Finance and Operationsi rakenduste ja teenuse Common Data Service vahel.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 4e97ff0b0e6195b5e3703e15a0bb0de7644ef8d1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 204d788e72e79e7acf744d24cbeacb0f9b47da7d
+ms.sourcegitcommit: 3306e451f04df01c51d8d332306b135d8ae1e254
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772360"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902721"
 ---
-# <a name="switch-between-vendor-designs"></a>Hankijalahenduse vahetamine
+# <a name="switch-between-vendor-designs"></a>Hankija kujunduste vaheldumisi aktiveerimine
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,11 +34,11 @@ ms.locfileid: "2772360"
 
 Kui kasutate hankija koondandmete jaoks teisi Dynamics 365 rakendusi ja soovite isoleerida hankijateabe klientidest, kasutage seda üldist hankijalahendust.  
 
-![Hankija üldine voog](media/dual-write-switch-1.png)
+![Hankija üldine voog](media/dual-write-vendor-data-flow.png)
  
 Kui kasutate hankija koondandmete jaoks teisi Dynamics 365 rakendusi ja soovite hankijaandmete salvestamiseks jätkata olemi **Konto** kasutamist, kasutage seda laiendatud hankijalahendust. Selles lahenduses salvestatakse laiendatud hankijateave, nagu hankija ootelolek ja hankijaprofiil, üksusesse **hankijad** Common Data Service’is. 
 
-![Hankija laiendatud voog](media/dual-write-switch-2.png)
+![Hankija laiendatud voog](media/dual-write-vendor-detail.jpg)
  
 Hankija laiendatud voo kasutamiseks tehke järgmist. 
  
@@ -60,5 +60,5 @@ Hankija laiendatud voo kasutamiseks tehke järgmist.
     4. Saate konfigureerida töövoogusid reaalajas või taustatöövoogudena, olenevalt teie nõuetest. 
         > [!div class="mx-imgBorder"]
         > ![Teisendamine taustatöövooks](media/dual-write-switch-8.png)
-    5. Aktiveerige töövood, mille lõite üksustes **Konto** ja **Hankija**, et hakata kasutama Customer Engagementi üksust **Konto** hankijateabe salvestamiseks. 
+    5. Aktiveerige töövood, mille lõite üksustes **Konto** ja **Hankija**, et hakata kasutama hankijateabe salvestamiseks üksust **Konto**. 
  

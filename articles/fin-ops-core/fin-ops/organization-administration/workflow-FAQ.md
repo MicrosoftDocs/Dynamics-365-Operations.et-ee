@@ -3,7 +3,7 @@ title: Töövoo KKK
 description: Teemas on toodud vastused korduma kippuvatele küsimustele töövoo süsteemi kohta.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/19/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772693"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934905"
 ---
 # <a name="workflow-faq"></a>Töövoo KKK
 
@@ -37,7 +37,7 @@ Iga teatis on erineva tööüksuse jaoks, kuid nende sarnasus võib põhjustada 
 Praegu on töövoo ekspordi funktsioonil piirang, milles töövoo nimede pikkus ei tohi ületada 48 märki. Kasutades nime, mis on pikem kui 48 märki võib põhjustada tõrke "Server ei saanud taotlust autentida" ja/või takistada faili eksportimist failitüübita. Järgmine ajaveebipostitus sisaldab üksikasju [Töövoo ekspordi tõrkeotsingu](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting) kohta.
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>Kas töövoo edastaja saab töövoo ka kinnitada?
-Jah, töövoo eedastaja saab töövoo ka kinnitada, kui see on nii konfigureeritud. Selle käitumise vältimiseks seadistage **Töövoo parameetrid > Üldine > Kinnitaja > Keela edastaja tehtud kinnitamine** olekule **Jah**.
+Jah, töövoo eedastaja saab töövoo ka kinnitada, kui see on nii konfigureeritud. Selle käitumise vältimiseks seadistage **Süsteemihaldus > Töövoog > Töövoo parameetrid > Üldine > Kinnitaja > Keela edastaja tehtud kinnitamine** olekule **Jah**.
 
 ## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a>Kas ma saan töövoogudele märguandeid lisada, et kasutajatele teatiseid edastada?
 Siin on mõned asjad, millele teatsite edastamiseks töövoogudele märguandeid lisades tähelepanu pöörata.
@@ -51,3 +51,6 @@ Siin on mõned asjad, millele teatsite edastamiseks töövoogudele märguandeid 
     - [Töövoogudel on ärisündmused](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), mida klient saab kasutada Flowsi käivitamiseks, et saada nende otsitavad teatised.   
 
 Kokkuvõttes, kui kasutaja ei saa töövoo tööüksuse määramisel tegevuskeskusest nõuetekohast teatist, kasutage ära [Töövoo ärisündmuseid](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) koos rakendusega Microsoft Power Automate, et pakkuda täiendavaid või muid teatiseid.
+
+## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>Töövoo redaktoril on probleeme alustamisega ADFS-i all 
+Täiendatud keskkonnas teenuse Active Directory Federation Services (AD FS) all töötamisel võib töövoo redaktoril olla probleeme alustamisega. Kui jah, veenduge, et URL https://dynamicsaxworkfloweditor/ oleks ADFS-i sätetes lisatud atribuudile **Microsoft Dynamics 365 for Operations kohapeal – Töövoog – Omarakendus**.

@@ -1,0 +1,82 @@
+---
+title: ER-i funktsioon DATEVALUE
+description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni DATEVALUE.
+author: NickSelin
+manager: kfend
+ms.date: 12/04/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+audience: Application User, IT Pro
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 700a48d2c5a77398267e6daaaea3ecb6c95e7f6e
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2916357"
+---
+# <a name="DATEVALUE">ER-i funktsioon DATEVALUE</a>
+
+[!include [banner](../includes/banner.md)]
+
+Funktsioon `DATEVALUE` tagastab *kuupäeva* väärtuse, mis on antud teksti väärtusest konverteeritud väärtus määratud vormingus tekstina ja valikuliselt määratletud kuupäeva väärtuse [kultuuris](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Toetatud vormingute kohta lisateabe saamiseks vt jaotisi [standardne](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ja [kohandatud](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).
+
+## <a name="syntax-1"></a>Süntaks 1
+
+```
+DATEVALUE (text, format)
+```
+
+## <a name="syntax-2"></a>Süntaks 2
+
+```
+DATEVALUE (text, format, culture)
+```
+
+## <a name="arguments"></a>Argumendid
+
+`text`: *string*
+
+Tekst, mis tähistab vormindatavat väärtust.
+
+`format`: *string*
+
+Antud teksti vorming.
+
+`culture`: *string*
+
+Kultuur, mida kasutatakse antud teksti vormindamiseks.
+
+## <a name="return-values"></a>Tagastusväärtused
+
+*Kuupäev*
+
+Tulemiks saadud kuupäeva väärtus.
+
+## <a name="usage-notes"></a>Kasutamise märkused
+
+Kui kultuur pole määratletud kutsutud funktsiooni argumendina, määratleb olemi `culture` väärtuse kutse kontekst. Näiteks kui funktsioon `DATEVALUE` on kutsutud kasutades süntaksit 1 elektroonilise aruandluse (ER) vormingus elemendile **FILE**, mis on konfigureeritud kasutama saksa kultuuri, toimub teisendamine saksa kultuuri kasutades. Olemi `culture` vaikeväärtus on **EN-US**.
+
+## <a name="example-1"></a>Näide 1
+
+`DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")` tagastab kuupäeva väärtuse **21. detsember 2016**, mis põhineb määratletud kohandatud vormingul ja vaikerakenduse **EN-US** kultuuril.
+
+## <a name="example-2"></a>Näide 2
+
+`DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")` tagastab kuupäeva väärtuse **21. jaanuar 2016**, mis põhineb määratletud kohandatud vormingul ja kultuuril.
+
+Stringiga `DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` ilmneb aga erand, mis teavitab kasutajat sellest, et seda stringi ei tuvastata määratletud kultuuri kehtiva kuupäeva väärtusena.
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Kuupäeva ja kellaaja funktsioonid](er-functions-category-datetime.md)

@@ -3,7 +3,7 @@ title: Kontohalduse lehed ja moodulid
 description: See teema käsitleb kontohalduse lehti ja mooduleid rakenduses Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3986505a7e0e8d33d5b8ff2c06f493335731a8d9
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: f9fc3731cd9d21294b0161e1d419f255096d7790
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785373"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885805"
 ---
 # <a name="account-management-pages-and-modules"></a>Kontohalduse lehed ja moodulid
 
@@ -58,7 +58,7 @@ Tellimuste üksikasjade leht pakub iga tellimuse üksikasjalikku teavet ja selle
 
 ### <a name="user-profile-page"></a>Kasutajaprofiili leht
 
-Kasutajaprofiili leht näitab kasutajakonto üksikasju, nagu kasutajanimi ja meiliaadress. See kasutab kasutajaprofiili moodulit. Kuigi meiliaadressi ei saa eemaldada, saab seda redigeerida.
+Kasutajaprofiili leht näitab kasutajakonto üksikasju, nagu kasutajanimi ja meiliaadress. See kasutab kasutajaprofiili moodulit. Kuigi meiliaadressi ei saa eemaldada, saab seda redigeerida. Kasutajaprofiili lehel kuvatakse ka kasutaja eelistused, mis võimaldavad kasutajal valida või loobuda teatud funktsioonidest, nt soovituste loendite isikupärastamine. 
 
 ### <a name="user-address-page"></a>Kasutaja aadressi leht
 

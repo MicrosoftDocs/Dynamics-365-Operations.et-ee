@@ -3,7 +3,7 @@ title: Videopleieri moodul
 description: See teema hõlmab videopleieri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32504351f712c83ba8f593c17d2e51c532374311
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1c78583f39dbacdc7b38e89c33e67ae23731bf8a
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785325"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885897"
 ---
 # <a name="video-player-module"></a>Videopleieri moodul
 
@@ -57,6 +57,8 @@ Videopleieri mooduleid kasutatakse video taasesituse toetamiseks. Kaupluse alust
 ## <a name="video-player-module"></a>Videopleieri moodul
 
 Videopleieri moodulit saab kasutada videote esitamiseks e-kaubanduse saidil. See toetab kõiki taasesituse võimalusi, nagu esitamine, peatamine, täissuuruses režiim ja suletud pealdised. Videopleieri moodul toetab ka suletud pealdiste kohandamist, et see vastaks Microsofti juurdepääsu standarditele. Näiteks saate kohandada fondi suurust ja taustavärvi.
+
+Video mängija moodul toetab ka sekundaarseid audio palasid. Kui video on üles laaditud, saab ka teisese heliriba üles laadida. Kui kasutaja valib selle, saab video pleieri moodul esitada teise heliriba.
 
 ### <a name="examples-of-video-player-modules-in-e-commerce"></a>E-kaubanduse videopleieri moodulite näited
 

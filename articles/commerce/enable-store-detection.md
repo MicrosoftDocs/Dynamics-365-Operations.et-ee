@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a542d6987280451910b4ff3bcfb3a109a0e028c6
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: c5fb59a9798e2cddfb75b71235ee7754e54b0e28
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697608"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945763"
 ---
 # <a name="enable-location-based-store-detection"></a>Asukohapõhise poetuvastuse lubamine
 
@@ -50,16 +50,16 @@ Asukohapõhise poetuvastuse sisselülitamiseks Commerce’is toimige järgmiselt
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[E-poe ülevaade](online-store-overview.md)
-
-[E-kaubanduse saidi loomine](create-ecommerce-site.md)
+[Domeeninime konfigureerimine](configure-your-domain-name.md)
 
 [Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
 
+[E-kaubanduse saidi loomine](create-ecommerce-site.md)
+
 [Veebisaidi seostamine kanaliga](associate-site-online-store.md)
 
-[Domeeninime konfigureerimine](configure-your-domain-name.md)
-
-[Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
+[Robots.txt-failide haldamine](manage-robots-txt-files.md)
 
 [Kasutaja sisselogimiseks kohandatud lehtede seadistamine](custom-pages-user-logins.md)
+
+[Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
