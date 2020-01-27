@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8090fafc891d874c3f4fb646fe22a2b783ce37aa
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7057c5b24ee3ae03574ec106a0c7d268dfffb98e
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814831"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897185"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a>Värbamistöörühma loomine, kasutades rakendust Dynamics 365 Talent: Onboard
+# <a name="create-a-hiring-team"></a>Värbamistöörühma loomine
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +35,7 @@ Microsoft Dynamics 365 Talent: Onboardis saate luua värbamismeeskonnad. Seejär
 2. Valige jaotises **Meeskonnad** **Lisa** (plussmärk \[**+**\]) paan.
 3. Sisestage dialoogiboksis **Uue meeskonna loomine** **Meeskonna nime** alla värbamismeeskonna nimi.
 
-    ![[Uue meeskonna loomine Onboardis](./media/onboard-create-team.png)](./media/onboard-create-team.png)
+    ![[Onboardis uue meeskonna loomine](./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
 4. Sisestage jaotises **Valige meeskonna liikmed** iga meeskonnaliikme nimi või meiliaadress.
 
@@ -51,11 +51,11 @@ Microsoft Dynamics 365 Talent: Onboardis saate luua värbamismeeskonnad. Seejär
 2. Valige meeskond.
 3. Valige vahekaardil **Juhendid** valik **Lisa juhendid**.
 
-    ![[Sisseelamisjuhendite lisamine meeskonnale](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
+    ![[Meeskonnale sisseelamisjuhendite lisamine](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
 
 4. Märkige ruut iga sisseelamisjuhendi kohta, mida soovite meeskonnale määrata, ja seejärel valige käsk **Lisa**.
 
-    ![[Sisseelamisjuhendite valimine meeskonnale lisamiseks](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
+    ![[Meeskonnale lisamiseks sisseelamisjuhiste valimine](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
 
 ## <a name="assign-onboarding-templates-to-a-hiring-team"></a>Värbamismeeskonnale sisseelamismallide määramine
 
@@ -63,11 +63,11 @@ Microsoft Dynamics 365 Talent: Onboardis saate luua värbamismeeskonnad. Seejär
 2. Valige meeskond.
 3. Valige vahekaardil **Mallid** valik **Lisa mallid**.
 
-    ![[Mallide lisamine meeskonnale](./media/onboard-add-templates-to-team.png)](./media/onboard-add-templates-to-team.png)
+    ![[Meeskonnale mallide lisamine](./media/onboard-add-templates-to-team.png)](./media/onboard-add-templates-to-team.png)
 
 4. Märkige ruut iga malli kohta, mida soovite meeskonnale määrata, ja seejärel valige käsk **Lisa**.
 
-    ![[Mallide valimine meeskonnale lisamiseks](./media/onboard-select-templates.png)](./media/onboard-select-templates.png)
+    ![[Meeskonnale lisamiseks mallide valimine](./media/onboard-select-templates.png)](./media/onboard-select-templates.png)
 
 ### <a name="see-also"></a>Vt ka
 

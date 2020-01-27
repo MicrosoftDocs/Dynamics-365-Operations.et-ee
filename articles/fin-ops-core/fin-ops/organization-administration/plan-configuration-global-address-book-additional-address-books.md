@@ -3,7 +3,7 @@ title: Globaalse aadressiraamatu ja muude aadressiraamatute plaanimine
 description: Selles teemas kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaanimise käigus tegema, enne kui globaalse aadressiraamatu ning mis tahes täiendava aadressiraamatu seadistate ja konfigureerite.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25a99284b2773e7c9d473357356c69a39f23c92d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 89c6e71e5f537f0f9309eca1025c8e74cdce6716
+ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190024"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883407"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Plaan globaalse aadressiraamatu ja muude aadressiraamatute jaoks
 
@@ -35,7 +35,7 @@ Selles teemas kirjeldatakse kaalutlusi ja otsuseid, mille peate protsessi plaani
 
 Enne kui alustate tööd globaalse aadressiraamatuga, peate määratlema selle jaoks vaikeväärtused. Neid vaikeväärtusi kasutatakse siis kõigi täiendavate aadressiraamatute puhul, mille loote.
 
-**Otsused.**
+**Otsused**
 
 - Millises järjekorras tuleks nimed kuvada osapoolekirjete puhul tüübiga **Isik**? Näiteks üks järjekord oleks perekonnanimi, teine eesnimi ja eesnimi.
 - Kas osapoolekirjed tuleks aadressiraamatust kustutada, kui rolli kirje kustutatakse? Näiteks kui kliendi kirje kustutatakse, kas osapoole kirje tuleks samuti kustutada?
@@ -58,11 +58,3 @@ Pärast globaalse aadressiraamatu loomist, saate luua vajaduse järgi täiendava
 **Otsus.**
 
 - Mitu täiendavat aadressiraamatut loote?
-
-### <a name="address-book-security"></a>Aadressiraamatu turve
-
-Saate luua aadressiraamatuid igal ajal ja määrata igal ajal aadressiraamatutele ka turbeparameetreid. Teilt ei nõuta, et määraksite aadressiraamatule turbeprivileegid, kuid kui te seda ei tee, saavad kõik teie organisatsiooni töötajad vaadata kõiki osapoole kirjeid selles aadressiraamatus. Osapoole kirjete turbeprivileege saab määrata aadressiraamatute kaudu. Turbeprivileegid põhinevad töörühmadel. See lähenemine tagab, et aadressiraamatus olevaid osapoole kirjeid saavad vaadata ainult need töötajad, kes on määratud töörühma, millel on aadressiraamatule juurdepääs. Peate valima töörühmad, millel on juurdepääs igale aadressiraamatule. Saate määrata igale aadressiraamatule turbeprivileegid, mis annavad või keelavad juurdepääsu konkreetsete töörühmade jaoks. Kui annate töörühmale aadressiraamatu privileegid, saavad kõik selle töörühma liikmed vaadata selle aadressiraamatu kirjeid. Kui te ei anna töörühmale aadressiraamatu privileege, ei saa selle töörühma liikmed seda aadressiraamatut ega selle sisu vaadata.
-
-**Otsus.**
-
-- Millistel töörühmadel peaks olema juurdepääs igale teie loodavale uuele aadressiraamatule?

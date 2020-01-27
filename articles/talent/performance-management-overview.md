@@ -3,7 +3,7 @@ title: Jõudlushaldus
 description: Jõudlushalduse protsess võimaldab töövõtjatel dokumenteerida ja arutada oma jõudlust juhatajaga. Juhatajad saavad seejärel anda tagasisidet ja juhendada töövõtjaid.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 18e9606e62bc2739da99b75ab56161bd7cc7eafe
+ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590501"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921146"
 ---
 # <a name="performance-management"></a>Jõudlushaldus
-
-[!include [banner](includes/banner.md)]
 
 Jõudlushalduse protsess võimaldab töövõtjatel dokumenteerida ja arutada oma jõudlust juhatajaga. Juhatajad saavad seejärel anda tagasisidet ja juhendada töövõtjaid.  
 
@@ -91,6 +89,8 @@ Jõudluse ülevaated on ametlikult tuntud kui arutelud. Need on nüüd piisavalt
 Saate kasutada ka jaotist **Pädevused**, et arutleda, vaadata üle ja hinnata töövõtja pädevusi. Saate lisada nii palju pädevusi kui vaja ja saate valida, kas pädevusi tuleb hinnata. 
 
 Saate luua uusi ülevaateid, mis põhinevad teie loodud mallidel. Näiteks saab teil olla mall üks-ühele kohtumiste, arenguplaandie või korrapäraste ülevaadete jaoks. Saate malli valida uue ülevaate loomisel.
+
+Ülevaadete printimiseks valige nupp **Prindi ülevaade**. Kui te ei näe nuppu lehel **Ülevaade**, veenduge, et oleksite funktsiooni tööruumis **Funktsioonihaldus** lubanud. Lisateavet funktsioonihalduse kohta vt [Funktsioonihalduse ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Pädevused, mida saate kaasata jõudluse ülevaadetesse
 Jõudluse ülevaadetesse saate kaasata mitut tüüpi teavet. Need hõlmavad ülevaate üksikasju, mõõtmisi, tegevusi, hinnanguid, nõusolekuid ja manuseid.

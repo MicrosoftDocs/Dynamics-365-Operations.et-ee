@@ -3,7 +3,7 @@ title: Kohandatud lehtede seadistamine kasutajate sisselogimise jaoks
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce kohandatud lehti, mis käsitsevad Azure Active Directory (Azure AD) ettevõtte ja tarbija (B2C) rentnike kohandatud sisselogimisi.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 644d937ddd3c219ae869f22d977d2846dffc20e1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 20bfacbc2374003814e12e7737644d118d404cc0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697562"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945555"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Kasutaja sisselogimiseks kohandatud lehtede seadistamine
 
@@ -136,11 +136,11 @@ Poliitika „Registreerimine ja sisselogimine” kohandatud lehe teabega värske
 1. Valige varasemalt konfigureeritud poliitikas **Registreerimine ja sisselogimine** navigeerimispaanil suvand **Lehe paigutused**.
 1. Valige paigutus **Ühendatud registreerimine või sisselogimise leht**.
 1. Seadistage suvand **Kohandatud lehe sisu kasutamine** valikule **Jah**.
-1. Sisestage väljal **Kohandatud lehe URL** täispikk sisselogimise URL. Lisage järelliide **?preloadscripts=true**. Näiteks sisestage **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Sisestage väljal **Kohandatud lehe URL** täispikk sisselogimise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/sign-in?preloadscripts=true``.
 1. Valige väljal **Lehe paigutuse versioon (eelvaade)** suvand **1.2.0**.
 1. Valige paigutus **Kohaliku konto registreerimise leht**.
 1. Seadistage suvand **Kohandatud lehe sisu kasutamine** valikule **Jah**.
-1. Sisestage väljal **Kohandatud lehe URL** täispikk sisselogimise URL. Lisage järelliide **?preloadscripts=true**. Näiteks sisestage **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Sisestage väljal **Kohandatud lehe URL** täispikk registreerimise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/sign-up?preloadscripts=true``.
 1. Valige väljal **Lehe paigutuse versioon (eelvaade)** suvand **1.2.0**.
 1. Järgige jaotises **Kasutaja atribuudid** järgmisi samme.
 
@@ -156,7 +156,7 @@ Poliitika „Profiili redigeerimine” kohandatud lehe teabega värskendamiseks 
 1. Valige varasemalt konfigureeritud poliitikas **Profiili redigeerimine** navigeerimispaanil suvand **Lehe paigutused**.
 1. Valige paigutus**Profiili redigeerimise leht**.
 1. Seadistage suvand **Kohandatud lehe sisu kasutamine** valikule **Jah**.
-1. Sisestage väljal **Kohandatud lehe URL** täispikk sisselogimise URL. Lisage järelliide **?preloadscripts=true**. Näiteks sisestage **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Sisestage väljal **Kohandatud lehe URL** täispikk profiili redigeerimise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/profile-edit?preloadscripts=true``.
 1. Valige väljal **Lehe paigutuse versioon (eelvaade)** suvand **1.2.0**.
 1. Järgige jaotises **Kasutaja atribuudid** järgmisi samme.
 
@@ -170,12 +170,14 @@ Poliitika „Parooli lähtestamine” kohandatud lehe teabega värskendamiseks t
 1. Valige varasemalt konfigureeritud poliitikas **Parooli lähtestamine** navigeerimispaanil suvand **Lehe paigutused**.
 1. Valige paigutus **Uue parooli leht**.
 1. Seadistage suvand **Kohandatud lehe sisu kasutamine** valikule **Jah**.
-1. Sisestage väljal **Kohandatud lehe URL** täispikk sisselogimise URL. Lisage järelliide **?preloadscripts=true**. Näiteks sisestage **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Sisestage väljal **Kohandatud lehe URL** täispikk parooli lähtestamise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/passwordreset?preloadscripts=true``.
 1. Valige väljal **Lehe paigutuse versioon (eelvaade)** suvand **1.2.0**.
 1. Valige paigutus **Konto kinnitamise leht**.
 1. Seadistage suvand **Kohandatud lehe sisu kasutamine** valikule **Jah**.
-1. Sisestage väljal **Kohandatud lehe URL** täispikk sisselogimise URL. Lisage järelliide **?preloadscripts=true**. Näiteks sisestage **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Sisestage väljal **Kohandatud lehe URL** täispikk parooli lähtestamise kinnitamise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/passwordreset-verification?preloadscripts=true``.
 1. Valige väljal **Lehe paigutuse versioon (eelvaade)** suvand **1.2.0**.
+
+
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Siltide ja kirjelduste vaikimisi tekstistringide kohandamine
 
@@ -193,15 +195,15 @@ Pärast faili global.json uuendamist ja muudatuste avaldamist ilmub sisselogimis
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[E-poe ülevaade](online-store-overview.md)
-
-[E-kaubanduse saidi loomine](create-ecommerce-site.md)
+[Domeeninime konfigureerimine](configure-your-domain-name.md)
 
 [Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
 
+[E-kaubanduse saidi loomine](create-ecommerce-site.md)
+
 [Veebisaidi seostamine kanaliga](associate-site-online-store.md)
 
-[Domeeninime konfigureerimine](configure-your-domain-name.md)
+[Robots.txt-failide haldamine](manage-robots-txt-files.md)
 
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 

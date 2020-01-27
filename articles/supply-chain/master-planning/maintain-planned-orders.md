@@ -3,7 +3,7 @@ title: Plaanitud tellimuste haldamine
 description: See teema pakub teavet plaanitud tellimuste haldamise kohta. See kirjeldab, kuidas plaanitud tellimuste olekut värskendada, neid kinnitada ja filtreerida plaanitud tellimusi, millel on sama olek, nagu valitud plaanitud tellimusel.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/07/2019
+ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: ec67caf596b0efc256c957eca17a04509fe86855
+ms.sourcegitcommit: 274ff2bb6872ff714781b348b29fd9f1affff9d0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813772"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "2904032"
 ---
 # <a name="maintain-planned-orders"></a>Plaanitud tellimuste haldamine
 
@@ -39,10 +39,10 @@ Saate edenemist jälgida välja **Olek** abil. Kasutatakse järgmisi väärtusi.
 
 -   Kui koondplaneerimine loob plaanitud tellimused, on nende olek **Töötlemata**.
 -   Kui otsustate plaanitud tellimust mitte kinnitada, saate sellele määrata oleku **Lõpule viidud**.
--   Kui soovite kinnitada plaanitud tellimuse, saate määrata selle olekuks **Kinnitatud**. Olekuga **Kinnitatud** plaanitud tellimusi arvestatakse koondplaneerimisel, nii et neid ei muudeta ega kustutata hilisema koondplaneerimise käivitamise ajal. 
+-   Kui soovite kinnitada plaanitud tellimuse, saate määrata selle olekuks **Kinnitatud**. Olekuga **Kinnitatud** plaanitud tellimusi arvestatakse koondplaneerimisel, nii et neid ei muudeta ega kustutata hilisema koondplaneerimise käivitamise ajal. Selle saavutamiseks kopeerib planeerimisloogika koondplaneerimise ajal **kinnitatud** plaanitud tellimused vana plaani versioonist uude plaani versiooni.
 
 ## <a name="firming-planned-orders"></a>Plaanitud tellimuste kinnitamine 
-Plaanitud tellimuste kinnitamisega luuakse tegelikud tellimused. Neid nimetatakse ka *väljastatud* või *avatud tellimusteks*. Kui plaanitud tellimus on kinnitatud, teisaldatakse see asjakohase mooduli tellimuste jaotisse.
+Plaanitud tellimuste kinnitamisega luuakse tegelikud tellimused. Need on tuntud ka kui *väljastatud* või *avatud tellimused*. Kui plaanitud tellimus on kinnitatud, teisaldatakse see asjakohase mooduli tellimuste jaotisse.
 
 Lehel **Plaanitud tellimused** saate valida kaks kinnitamissuvandit.
 
@@ -58,6 +58,8 @@ Kui plaanite kinnitada korraga mitu tellimust, võib käituse paralleelimine par
 -   **Kinnitamise paralleelimine** – kui **Jah**, siis paralleelitakse kinnitamisprotsessi lõimede arvuga, mis on määratletud väärtusega **Lõimede arv**.
 -   **Lõimede arv** – reguleerib kinnitamise paralleelimiseks kasutatavate lõimede arvu. Parameeter kuvatakse ainult siis, kui valiku **Kinnitamise paralleelimine** väärtuseks on seatud **Jah**.
 
+> [!NOTE]
+> Suvandi **Kinnitamise paralleelimine** valikut näidatakse ainult siis, kui teil on kinnitamiseks valitud rohkem kui üks plaanitud tellimus.
 
 <a name="additional-resources"></a>Lisaressursid
 --------

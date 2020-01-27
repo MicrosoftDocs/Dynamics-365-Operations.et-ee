@@ -1,13 +1,19 @@
 - name: Dynamics 365 for Talent
   href: talent-welcome.md
   items:
-    - name: Alusta
+    - name: Alustamine
       items:
         - name: Talenti kasutamise alustamine
           href: talent-get-started.md
         - name: Mis on uut või mida on muudetud rakenduses Talent?
           href: whats-new.md
           items:
+            - name: 17. detsember 2019
+              href: whats-new-talent-december-17-2019.md
+            - name: 12. detsember 2019
+              href: whats-new-talent-december-12-2019.md
+            - name: 3. detsember 2019
+              href: whats-new-talent-december-3-2019.md
             - name: 19. november 2019
               href: whats-new-talent-november-19-2019.md
             - name: 12. november 2019
@@ -26,16 +32,16 @@
               href: whats-new-talent-september-17-2019.md
             - name: 10. september 2019
               href: whats-new-talent-september-12-2019.md
-            - name: 27. august 2019
-              href: whats-new-talent-august-28-2019.md
-            - name: 22. august 2019
-              href: whats-new-talent-august-21-2019.md
-            - name: 13. august 2019
-              href: whats-new-talent-august-15-2019.md
-            - name: 6. august 2019
-              href: whats-new-talent-august-7-2019.md
             - name: Mis on uut arhiivides 2019?
               items:
+                - name: 27. august 2019
+                  href: whats-new-talent-august-28-2019.md
+                - name: 22. august 2019
+                  href: whats-new-talent-august-21-2019.md
+                - name: 13. august 2019
+                  href: whats-new-talent-august-15-2019.md
+                - name: 6. august 2019
+                  href: whats-new-talent-august-7-2019.md
                 - name: 30. juuli 2019
                   href: whats-new-talent-july-31-2019.md
                 - name: 23. juuli 2019
@@ -130,51 +136,49 @@
           href: talent-updates.md
         - name: Talenti ettevalmistamine
           href: provisioning-talent.md
-        - name: Core HR-i kopeerimine
+        - name: Core HR-i eksemplari kopeerimine
           href: hr-copy-instance.md
         - name: Talenti keskkondade eemaldamine
           href: remove-talent-environment.md
-        - name: Rakenduse Onboard jaoks ettevalmistuste tegemine
+        - name: Funktsioonide haldamine
+          href: access-preview-feature.md
+        - name: Onboardi ettevalmistamine
           href: modular-app-tech-faq.md
-        - name: Rakenduste PowerApps manustamine
+        - name: Power Appsi rakenduste manustamine
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR ja Common Data Service
+        - name: Core HR-i olemid teenuses Common Data Service
           href: CoreHREntities.md
         - name: Talenti toe hankimine
           href: talent-support.md
     - name: Organisatsiooni personali palkamine Attracti abil
       items:
-        - name: Milline Attracti versioon?
+        - name: Attracti versiooni valimine
           href: attract-comprehensive-hiring.md
         - name: Attracti funktsioonid ja võimalused
           href: attract-overview.md
-        - name: Korduma kippuvad küsimused
-          items:
-            - name: LinkedIni integreerimise KKK
-              href: attract-linkedin-faq.md
         - name: Süsteemisätete konfigureerimine
           items:
             - name: Ettevõtte teabe konfigureerimine
               href: admin-settings-attract.md
             - name: Kasutajaõiguste seadistamine
               href: security-attract.md
-            - name: Funktsioonide haldamine
-              href: access-preview-feature.md
-            - name: Karjääri saidi seadistamine
+            - name: Karjäärisaidi seadistamine
               href: career-site.md
-            - name: Luba Broadbeani integreerimine
+            - name: Broadbeani integreerimise lubamine
               href: attract-admin-job-board-settings.md
             - name: Meilisätete konfigureerimine
               href: attract-configure-email-settings.md
             - name: LinkedIn-iga integreerimise seadistamine
               href: attract-admin-linkedin.md
+            - name: LinkedIni integreerimise KKK
+              href: attract-linkedin-faq.md
         - name: Värbamisprotsessi loomine
           items:
-            - name: Protsessimalli loomine
+            - name: Värbamisprotsessi malli loomine
               href: process-templates-attract.md
-            - name: Tegevused värbamisprotsessides
+            - name: Tegevuste lisamine värbamisprotsessi
               href: activities-attract.md
-            - name: E-kirjade mallid
+            - name: Meilimallide loomine
               href: email-templates.md
             - name: Analüütiliste aruannete kasutamine
               href: analytic-reports.md
@@ -194,13 +198,13 @@
               href: attract-talent-pools.md
             - name: Kandidaatide hankimine teenuse LinkedIn Recruiter abil
               href: attract-linkedin-recruiter.md
-            - name: Jälita kandidaadi allikaid
+            - name: Kandidaadi allikate jälitamine
               href: source-tracking.md
             - name: Intelligentsed soovitused
-              href: Intelligent-Recommendations.md
+              href: intelligent-recommendations.md
         - name: Vestluste häälestamine
           items:
-            - name: Vestluse plaanimine ja tagasiside
+            - name: Intervjuude ajastamine
               href: interview-scheduling-feedback.md
         - name: Pakkumise tegemine
           items:
@@ -433,7 +437,7 @@
       items:
         - name: Manustatud Power BI tööruumides
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Talenti laiendamine PowerAppsi ja Microsoft Flow'ga – näidisstsenaariumid
+        - name: Talenti laiendamine Power Appsi ja Power Automate’iga
           href: extensibility-examples.md
         - name: Mobiilirakendus
           items:
@@ -443,8 +447,6 @@
                   href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Minu töörühma mobiilne tööruum
                   href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Mobiilsete tööruumide avaldamine
-              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Värbamisandmete muudatuste jälgimine
           href: process-auditing.md
         - name: Rakenduse Attract laiendatavus

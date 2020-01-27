@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 6c8a583a93c2ceb70d8c3b0e0047e2bf2047b56d
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832834"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898313"
 ---
 # <a name="extend-talent-with-power-apps-and-power-automate"></a>Talenti laiendamine Power Appsi ja Power Automate’iga
-
-[!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse laiendatavuse stsenaariume rakenduses Microsoft Dynamics 365 Talent, mis kasutab Microsoft Power Appsi ja Microsoft Power Automate’i. Saate rakenduse Power Apps keskkonda importida iga näitega seotud lahendusepaketi. Seejärel saate pakette kasutada juhisena või lähtekohana teie organisatsioonile sobivate stsenaariumide rakendamiseks.
 
@@ -108,7 +106,7 @@ Saate kasutada soovitusrakendust, et lisada kandidaate jagatud talendipanka. Soo
 
 Saate selle rakenduse manustada soovituste esitamiseks töötajate iseteenindusse (ESS) või kasutada seda ettevõtteportaalis hüperlingina ja kasutada eraldiseisva rakendusena.
 
-**Sooitusrakenduse** allalaadimiseks minge Microsofti allalaadimiskeskuse lehele [Dynamics 365 Talent laiendatavuse lahendus: soovitusrakendus](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d). Seda rakendust saab importida ja kohandada, et lisada täiendavaid funktsioone.
+**Sooitusrakenduse** allalaadimiseks minge Microsofti allalaadimiskeskuse lehele [Dynamics 365 Talent laiendatavuse lahendus: soovitusrakendus](https://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d). Seda rakendust saab importida ja kohandada, et lisada täiendavaid funktsioone.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

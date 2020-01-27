@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009418"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915197"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Sujuvam töötajate sisestamine ja navigeerimine
 
-[!include [banner](includes/banner.md)]
-
 Dynamics 365 Talent võimaldab töötaja ja töötamise andmete tõhusat sisestamist. Saate kiiresti värskendada töötamise ajaloo teavet varasemate, aktiivsete ja tulevaste töötajate ja töövõtjate kohta.
 
-Samuti saate lubada lihtsustatud navigeerimise, et leida kiiresti seostuvat teavet ja teha vajalikke muudatusi. See funktsioon on nüüd saadaval liivakasti keskkondades. Selle funktsiooni sisselülitamiseks liikuge valikule **Süsteemi administreerimine > Lingid > Häälestus > Süsteemiparameetrid > Eelvaate funktsioonid**. Valige **Täiustatud töötajate vorm ja navigeerimine**. See võimaldab neid muudatusi kõigile kasutajatele. Võite selle suvandi igal ajal välja lülitada.
+Samuti saate lubada lihtsustatud navigeerimise, et leida kiiresti seostuvat teavet ja teha vajalikke muudatusi. See funktsioon on nüüd saadaval kõikides keskkondades. Selle funktsiooni sisselülitamiseks navigeerige **Süsteemihaldus > Funktsioonihaldus > Uus > Sujuv töötajate sisestamine > Luba**. See võimaldab neid muudatusi kõigile kasutajatele. Võite selle suvandi igal ajal välja lülitada.
 
 ## <a name="view-options"></a>Suvandite kuvamine
 

@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 474c7cc82aaccf6b3bcfb3bbe879725497961c43
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812829"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897139"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Sisu jagamine teiste Dynamics 365 Talent: Onboard kaasautoritega
+# <a name="share-content-with-other-contributors"></a>Sisu jagamine teiste kaasautoritega
 
 [!include [banner](includes/banner.md)]
 
@@ -34,11 +34,11 @@ Microsoft Dynamics 365 Talent: Onboard võimaldab jagada sisseelamisjuhendeid ja
 1. Valige vasakpoolses menüüs **Juhendid** ja seejärel valige juhend, mida soovite ühiskasutusse anda.
 2. Valige lehe paremast ülanurgast nupp **Veel** (kolm vertikaalset punkti) ja seejärel valige **Jaga**.
 
-    ![[Sisseelamisjuhendi jagamine teiste kaasautoritega](./media/onboard-share-guide.png)](./media/onboard-share-guide.png)
+    ![[Sisseelamisjuhendite teiste kaasautoritega ühiskasutusse andmine](./media/onboard-share-guide.png)](./media/onboard-share-guide.png)
 
 3. Kui adressaadid peaksid saama juhendit üle vaadata, seadke jaotises **Anna ühiskasutusse** suvandi **Kas need inimesed saavad muudatusi teha?** väärtuseks **Sees**. Kui adressaatidele tuleks meili teel teatada, et olete juhendi neile ühiskasutusse andnud, määrake suvandi **Saada meiliteatis adressaatidele** väärtuseks **Sees**.
 
-    ![[Juurdepääsu ja meilieelistuste seadmine sisseelamisjuhendile] (./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
+    ![[Sisseelamisjuhisele juurdepääsu ja meilieelistuste seadmine](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
 
 4. Sisestage nimi või meiliaadress ja valige ripploendist soovitud adressaat.
 5. Vahekaardil **Halda juurdepääsu** saate vaadata või muuta, mida adressaadid juhendiga teha saavad. Adressaadi juurdepääsu muutmiseks valige adressaadi nime kõrval olevas ripploendis vastavalt vajadusele **Saab vaadata**, **Saab muuta**või **Eemalda**.

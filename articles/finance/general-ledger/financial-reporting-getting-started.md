@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: caa449feba22c5804799b5317a8e29c139cc440e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f67296797d9a671ae071a13b1bbda73cf3fc6e7f
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177307"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915173"
 ---
 # <a name="financial-reporting-overview"></a>Finantsaruandluse ülevaade
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Selles teemas kirjeldatakse, kus pääseda juurde finantsaruandlusele ja kasutada finantsaruandluse võimalusi. See sisaldab ka pakutavate vaike-finantsaruannete kirjeldust.
 
@@ -79,6 +81,18 @@ Rahalise aruandluse funktsioonid on saadaval kasutajatele, kellele on turberolli
 | Finantsaruannete vaatamine                | Finantstulemuste ülevaatamine          | Ühtegi pole määratud                                                                   |
 
 Pärast kasutaja lisamist või rolli muutmist peaks kasutaja mõne minuti jooksul finantsaruandlusele juurde pääsema. **Märkus:** süsteemiadministraatori roll lisatakse finantsaruandluses kõigile rollidele.
+
+## <a name="report-deletions-and-expirations"></a>Aruande kustutamised ja aegumised
+Aruande loonud kasutajad saavad oma aruandeid kustutada. Kohustusega **Finantsaruandluse turbe haldamine** kasutajad saavad kustutada teiste aruandeid. 
+
+Alates väljaandest 10.0.7 on lisatud aegumiskuupäevade kontseptsioon. Uus kohustuslik funktsioon lubatakse funktsioonihalduse tööruumis. See funktsioon sisaldab järgmisi muudatusi.
+* Uued loodud aruanded märgitakse automaatselt, et neil on loomise ajast 90 päeva pärast aegumiskuupäev
+* Kõikidele aruannetele, mis olid olemas enne funktsiooni installimist, antakse 90-päevane aegumisperiood. Kuupäev võidakse lühikest aega kuvada tühjana, kuni finantsaruandluse teenus töötab, luuakse aruanne ja teenus värskendab olemasolevaid tühjade aegumiskuupäevadega aruandeid. 
+* Kohustusega **Finantsaruandluse turbe haldamine** kasutajatel on juurdepääs sellele funktsioonile. Kõik kohustusega **Finantsaruannete haldamine** kasutad, kellele on antud privileeg **Finantsaruannete aegumise haldamine**, omavad võimalust aegumiskuupäeva muuta. Hetkel on saadaval kaks kinnipidamise võimalust. 
+  * Aegumine 90 päeva möödudes
+  * Võimalus seada aruane mitte kunagi aeguma
+
+Kui valitud on aegumine (nt 90 päeva), annab see 90 päeva alates tänasest, mis on erinev käitumine kui 90 päeva alates algsest loomise kuupäevast, mis on määratud aruande koostamise ajal. 
 
 ## <a name="default-reports"></a>Vaikearuanded
 Finantsaruandlus pakub 22 vaike-finantsaruannet. Iga aruanne kasutab põhikonto vaikekategooriaid. Saate kasutada neid aruandeid olemasoleval kujul või finantsaruandluse vajaduste lähtepunktina. Lisaks tavalistele finantsaruannetele nagu kasumiaruanne ja bilanss sisaldavad need vaikearuanded aruandeid, millel on näidatud erinevat tüüpi finantsaruanded, mida saate koostada. 

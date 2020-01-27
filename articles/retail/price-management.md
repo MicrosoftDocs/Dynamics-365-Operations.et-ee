@@ -3,7 +3,7 @@ title: Jaemüügi hinna haldamine
 description: Selles teemas kirjeldatakse müügihindade loomise ja haldamise põhimõtteid rakenduses Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: d8c6f8d7d368be8ffa192f8dee6b46a753b04cad
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025214"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934767"
 ---
 # <a name="retail-sales-price-management"></a>Retaili müügihinna haldamine
 
@@ -221,11 +221,11 @@ Jaemüügihindade arvutamiseks kõikides kanalites (kõnekeskus, kauplus ja e-po
 
 Jaemüügi hinnakujundus on loodud toimima jaemüügiüksustega, mitte jaemüügiga mitteseotud üksustega. Eeskätt on see loodud määrama hindu kaupluse, mitte lao järgi.
 
-Jaemüügi hinnakujunduse mootor ei toeta järgmisi hinnakujunduse funktsioone.
+Jaemüügi hinnakujunduse mootor **ei toeta** järgmisi hinnakujunduse funktsioone.
 
-- Hinna määramine tegevuskoha ja laoala dimensioone kasutades
-- Atribuudipõhine hinnakujundus
-- Hankija allahindluse läbimine
+- Hinna määramine tegevuskoha või tegevuskoha ja laoala dimensioone kasutades pole toetatud. Kui täpsustate kaubandusleppes ainult tegevuskoha dimensioonid, siis jaemüügi hinnakujundus ignoreerib tegevuskohta ja rakendab kaubandusleppe kõigile saitidele. Kui määrate nii tegevuskoha kui ka lao, siis on käitumine määratlemata/testimata, kuna eeldatakse, et jaemüüjad kasutavad poe hinnagruppe, kontrollida iga kaupluse/lao hindu.
+- Atribuudipõhist hinnakujundust ei toetata.
+- Hankija allahindluse läbimist ei toetata.
 
 Peale selle toetab järgmisi hinnakujunduse funktsioone **ainult** jaemüügi hinnakujunduse mootor.
 

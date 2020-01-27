@@ -3,7 +3,7 @@ title: Power Appsi manustamine
 description: Selles teemas kirjeldatakse, kuidas manustada Power Appsi klienti, et tõsta toote funktsionaalsust.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824489"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870237"
 ---
 # <a name="embed-microsoft-power-apps"></a>Microsoft Power Appsi manustamine
 
@@ -55,7 +55,7 @@ Järgmised juhised näitavad, kuidas manustada Power Appi veebiklienti.
 
     - Väljal **Nimi** on näidatud tekst, mis kuvatakse manustatud Power Appi sisaldava nupu või vahekaardi jaoks. Sageli korratakse sellel väljal Power Appi nime.
     - **Rakenduse ID** on manustatava Power Appi GUID. Selle väärtuse toomiseks leidke Power App aadressilt [web.powerapps.com](https://web.powerapps.com) ja seejärel väli **Rakenduse ID** jaotisest **Üksikasjad**.
-    - Välja **Power Appi sisendandmed** jaoks võite valida ka välja, mis sisaldab andmeid, mida soovite Power Appi sisendina edastada. Üksikasju, kuidas Power App Finance and Operationsi rakendustest saadetud andmetele juurde pääseb, saate vaadata selle jaotise allpool olevast teemast pealkirjaga [Finance and Operationsi rakendustest andmeid kasutava Power Appi loomine](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps).
+    - Välja **Power Appi sisendandmed** jaoks võite valida ka välja, mis sisaldab andmeid, mida soovite Power Appi sisendina edastada. Üksikasju, kuidas Power App Finance and Operationsi rakendustest saadetud andmetele juurde pääseb, saate vaadata selle jaotise allpool olevast teemast pealkirjaga [Finance and Operationsi rakendustest andmeid kasutava Power Appi loomine](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps).
     - Valige **Rakenduse suurus**, mis on kooskõlas manustatava Power Appi tüübiga. Valige **Peenike** mobiilsetele seadmetele loodud Power Appsi jaoks ja **Lai** tahvelarvutitele loodud Power Appsi jaoks. See tagab, et manustatud Power Appi jaoks eraldatakse piisavalt ruumi.
     - Kiirkaardil **Juriidilised isikud** saate määrata, milliste juriidiliste isikute jaoks see Power App saadaval on. Vaikimisi kuvatakse Power App kõigis juriidilistes isikutes.
 
@@ -101,7 +101,7 @@ Manustatud Power Appi konfiguratsiooni redigeerimiseks tehke järgmist.
 
 Kui lehele on manustatud Power App, on vajaduse korral võimalik seda eemaldada kahel viisil.
 
-- Avage paan **Redigeeri Power Appi**, selleks leiate juhtnöörid selle teema varasemast jaotisest [Manustatud Power Appi redigeerimine](#editing-an-embedded-powerapp). Veenduge, et see paan kuvaks teavet eemaldada soovitud Power Appi kohta, ja seejärel klõpsake nuppu **Kustuta**.
+- Avage paan **Redigeeri Power Appi**, selleks leiate juhtnöörid selle teema varasemast jaotisest [Manustatud Power Appi redigeerimine](#editing-an-embedded-power-app). Veenduge, et see paan kuvaks teavet eemaldada soovitud Power Appi kohta, ja seejärel klõpsake nuppu **Kustuta**.
 - Kuna manustatud Power App salvestatakse isikupärastamisandmetena, eemaldatakse lehe isikupärastamiste kustutamisel ka lehele manustatud Power Apps. Pange tähele, et lehe isikupärastamised kustutatakse jäädavalt ja seda ei saa tagasi võtta. Lehe isikupärastamiste eemaldamiseks valige **Suvandid** ja seejärel klõpsake **Vormi isikupärastamine**. Valige menüüst **Halda** nupp **Tühjenda**. Pärast brauseri värskendamist on kõik lehe varasemad isikupärastamised eemaldatud. Isikupärastamist kasutavate lehtede optimeerimise kohta vaadake lisateavet teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md).
 
 ## <a name="appendix"></a>Lisa

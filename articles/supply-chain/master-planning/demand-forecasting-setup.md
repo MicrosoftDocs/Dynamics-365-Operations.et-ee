@@ -3,7 +3,7 @@ title: Nõudluse prognoosi seadistus
 description: Selles teemas kirjeldatakse seadistustoiminguid, mida tuleb nõudluse prognoosimiseks valmistumiseks teha.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/16/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f56157be8cc61486801fc4c01bb191432dd9a541
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813795"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935487"
 ---
 # <a name="demand-forecasting-setup"></a>Nõudluse prognoosi seadistus
 
@@ -63,7 +63,7 @@ Nõudluse prognoosimiseks kasutatavasse dimensioonide loendisse saate igal ajal 
 
 Kõik kaubad ei käitu nõudluse prognoosimise perspektiivist samal viisil. Sarnased kaubad saab koondada ühe kauba eraldamisvõtme alla ning seada kauba eraldamisvõtmeti parameetreid, nagu kande tüübid ja prognoosi meetodi seadistus. Klõpsake lehekülje **Nõudluse prognoosimise parameetrid** vasakul paanil valikut **Kauba eraldamisvõtmed**. 
 
-Prognoosi loomiseks kasutab Supply Chain Management masinõppe veebiteenust. Teenusega ühenduse loomiseks peate Microsoft Azure Machine Learning Studiosse sisselogimiseks esitama järgmise teabe:
+Prognoosi loomiseks kasutab Supply Chain Management masinõppe veebiteenust. Teenusega ühenduse loomiseks peate Microsoft Azure Machine Learning Studiosse sisselogimiseks esitama järgmise teabe (klassikaline):
 
 -   veebiteenuse rakenduse programmeerimisliidese (API) võti;
 -   veebiteenuse lõpp-punkti URL;
@@ -71,7 +71,7 @@ Prognoosi loomiseks kasutab Supply Chain Management masinõppe veebiteenust. Tee
 -   Azure'i salvestuskonto võti.
 
 > [!NOTE]
-> Azure’i salvestuskonto nimi ja võti on vajalikud ainult siis, kui kasutate kohandatud salvestuskontot. Kui juurutate asutusesisest versiooni, peab teil olema Azure'is kohandatud salvestuskonto, et masinõppe teenus pääseks ajaloolistele andmetele juurde. 
+> Azure’i salvestuskonto nimi ja võti on vajalikud ainult siis, kui kasutate kohandatud salvestuskontot. Kui juurutate asutusesisest versiooni, peab teil olema Azure’is kohandatud salvestuskonto, et masinõpe pääseks ajaloolistele andmetele ligi. 
 
 Nõudluse prognooside loomiseks saate juurutada oma teenuse, kasutades masinõppe stuudio või Supply Chain Managementi nõudluse prognoosimise katseid. Nõudluse prognoosimise katsete veebiteenusena juurutamise juhised on saadaval Supply Chain Managementis. Klõpsake lehel **Nõudluse prognoosimise parameetrid** vahekaarti **Azure'i masinõpe**.
 

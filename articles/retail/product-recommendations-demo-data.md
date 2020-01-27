@@ -3,7 +3,7 @@ title: Omnikanali tootesoovituste demoandmed
 description: Selle dokumendi eesmärk on anda juhiseid, kuidas võimendada omnikanali tootesoovitusi Tier-1 ühe kasti keskkondades, kasutades eeltäidetud, kohandatavaid demoandmeid.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 12/1/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81af4c1bb7828c9b346a3ef514d8657e853dcefb
-ms.sourcegitcommit: c526cfd1f823df1ff33ded95e599a72f0a15cc5a
+ms.openlocfilehash: 31aa5dbd2fa814fd572024a4ae36b9d9b46a2fb0
+ms.sourcegitcommit: 398c0652acde12c953de007d06055456d6e0a516
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2225817"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2872322"
 ---
 # <a name="omni-channel-product-recommendations-demo-data"></a>Omnikanali tootesoovituste demoandmed
 
 Selle dokumendi eesmärk on anda juhiseid, kuidas võimendada omnikanali tootesoovitusi Tier-1 ühe kasti keskkondades, kasutades eeltäidetud, kohandatavaid demoandmeid.
 
-Omnikanali tootesoovitused pakuvad keeleliselt või programmiliselt loodud tellitud toodete loendit. Neid loendeid saab kasutada mitmes stsenaariumis, sõltuvalt ettevõtte vajadusest. Lisateavet toote soovituste funktsioonide kohta leiate [Tootesoovituste](product-recommendaitons-overview.md) ülevaatest.
+Omnikanali tootesoovitused pakuvad keeleliselt või programmiliselt loodud tellitud toodete loendit. Neid loendeid saab kasutada mitmes stsenaariumis, sõltuvalt ettevõtte vajadusest. Lisateavet toote soovituste funktsioonide kohta leiate [Tootesoovituste](../commerce/product-recommendations.md) ülevaatest.
 
 Tier-2 ja kõrgema Dynamics Environmentsi tootesoovitused arvutatakse automaatselt kliendi andmetele tuginedes.
 Tootesoovituste demoandmte kasutamine ei keela ühtegi tootesoovituste lahendust, mis on juba ette valmistatud keskkonnas ja mis tahes selle kasutusega seotud kulusid.
@@ -68,6 +68,6 @@ Laiend sisaldab andmefaili, mida nimetatakse RecoMockDataset.csv, mis võimaldab
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Tootesoovituste ülevaade](product-recommendations-overview.md)
+[Tootesoovituste ülevaade](../commerce/product-recommendations.md)
 
-[Keskkonna planeerimine](environment-planning.md)
+[Keskkonna planeerimine](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)

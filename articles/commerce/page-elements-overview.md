@@ -3,7 +3,7 @@ title: Lehekülje mudeli sõnastik
 description: See teema kirjeldab erinevaid elemente, mida kasutatakse rakenduse Microsoft Dynamics 365 Commerce saidi lehtedel.
 author: phinneyridge
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c7b79e8b3bd68ba6246fe24916c60f476a26605
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 0285af2f73a25db3199b3cb089bc0b253a3b3f00
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697953"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914860"
 ---
 # <a name="page-model-glossary"></a>Lehekülje mudeli sõnastik
 
@@ -52,6 +52,8 @@ Järgmine tabel näitab kokkuvõtet tingimustest, mida peaksite tundma, kui muud
 [Sisu lisamise viisid](add-manage-content.md)
 
 [Dokumendi olekud ja töötsükkel](document-states-overview.md)
+
+[Avaldamisrühmadega töötamine](publish-groups.md)
 
 [Moodulitega töötamine](work-with-modules.md)
 

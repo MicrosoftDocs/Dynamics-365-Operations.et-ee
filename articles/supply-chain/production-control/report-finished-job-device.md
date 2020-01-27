@@ -3,7 +3,7 @@ title: Lõpetatuna kinnitamine mitte-litsentsiplaadiga juhitavasse asukohta tö�
 description: See teema määrab tootmisprotsessi lõpetatud toodete lõpetamise protsessi varudesse, kui numbrimärk kontrollib asukohta.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 09/06/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: cb809e596fd6bf3030bcee460838798435512b95
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 63073035941cd2ef343c65364536fe76a9b71430
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572125"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935118"
 ---
 [!include [banner](../includes/banner.md)]
 
@@ -32,4 +32,10 @@ ms.locfileid: "2572125"
 
 Protsess nimega Lõpetatuna kinnitamine viib valmistoodangu tootmistellimusel varudesse. Kui lõpetatud toode on lubatud täpsemate ladude protsesside jaoks, esitatakse toode lõpetatuks, mida nimetatakse tootmise väljundi asukohaks. Lisateavet tootmise väljundi asukoha seadistamise kohta vt [Tootmise väljundi asukoht](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location).
 
-Selle ülesande lõpetamiseks peate valima olemasoleva numbrimärgi numbri. Kui tootmise väljundi asukoht on seadistatud jälgima numbrimärgi järgi, tuleb tootmise väljundi asukoha lõpetatuna kinnitamisel kaasata numbrimärgi number. Välja **Numbrimärk** on kuvatud viibal **Aruande edenemine** lehel **Töökaardi seade**. See väli on nähtav ainult viibal **Aruande edenemine** tootmistellimuse viimasel operatsioonil. Välja kuvatakse ainult siis, kui tootmistellimuse kaup on laohalduse protsesside jaoks lubatud. 
+Kui toodangu väljastuskoht on litsentsiplaadipõhine, tuleb lõpetatuna kinnitamisel esitada litsentsiplaat. Välja **Numbrimärk** on kuvatud viibal **Aruande edenemine** lehel **Töökaardi seade**. See väli on nähtav ainult viibal **Edenemistest teatamine** tootmistellimuse viimasest toimingust teatamisel ja tootmistellimuse viimane üksus lubatakse laohaldusprotsesside jaoks. 
+
+Litsentsiplaadi esitamiseks on kaks võimalust
+- Kasutaja valib litsentsiplaadi väljal olemasoleva litsentsiplaadi.
+- Litsentsiplaat luuakse automaatselt numbriseeriast ja sisestatakse vaikimisi litsentsiplaadi väljale.
+
+Litsentsiplaadi automaatselt loomise valik konfigureeritakse valides suvandi **Loo litsentsiplaat** lehel **Seadmete töökaardi konfigureerimine**.

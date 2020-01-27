@@ -3,7 +3,7 @@ title: Autoriõiguste teatise lisamine
 description: Selles teemas kirjeldatakse kuidas oma e-kaubanduse veebisaidile autoriõiguse teatist lisada.
 author: psimolin
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39135a2eca25336097ee9eddf06dc6709c102571
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696941"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914563"
 ---
 # <a name="add-a-copyright-notice"></a>Autoriõiguste teatise lisamine
 
@@ -65,6 +65,8 @@ Autoriõiguse teatist sisaldav jalus kuvatakse automaatselt kõigi valitud malli
 [Logo lisamine](add-logo.md)
 
 [Saidi kujunduse valimine](select-site-theme.md)
+
+[CSS-i alistusfailidega töötamine](css-override-files.md)
 
 [Leheikooni lisamine](add-favicon.md)
 

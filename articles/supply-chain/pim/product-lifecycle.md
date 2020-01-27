@@ -3,7 +3,7 @@ title: Toote töötsükli olekute ülevaade
 description: Toote elutsükli olek dokumenteerib väljastatud toote või tootevariandi elutsükli oleku.
 author: cvocph
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b5b0ceb1926de6efda239fdbc69fb36a9d4b28e0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813542"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934836"
 ---
 # <a name="product-lifecycle-state-overview"></a>Toote töötsükli olekute ülevaade
 
@@ -74,11 +74,7 @@ Täpsema teabe saamiseks selle kohta, kuidas kasutada toote elutsükli olekut to
 
 ## <a name="default-migration-import-and-export"></a>Migratsiooni, impordi ja ekspordi vaikesätted 
 
-Andmeüksused ei toeta toote elutsükli olekuid ja elutsükli olekut ei saa määrata väljastatud toote andmeüksuste kaudu muutuvaks.
-
--  Varasematest väljalasetest migreerimisel on kõigi toodete ja tootevariantide elutsükli olek tühi.  
--  Väljastatud toodete importimisel andmeüksuse kaudu rakendatakse loomisel elutsükli vaikeolek.  
--  Väljastatud tootevariantide importimisel andmeüksuse kaudu imporditakse väljastatud tooteetaloni toote elutsükli olek.   
+Andmeüksused toetavad toote elutsükli olekuid ja elutsükli oleku saab määrata kas väljastatud toote andmeüksuste või väljastatud variandi andmeüksuse kaudu muutuvaks.
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Aegunud toodete ja tootevariantide leidmine 
 

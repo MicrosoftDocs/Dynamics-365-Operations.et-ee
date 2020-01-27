@@ -3,7 +3,7 @@ title: Täpsem filtreerimis- ja päringusüntaks
 description: See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui kasutate filtripaanil või ruudustiku veerupäisefiltrites dialoogi Täpsem filter / sortimine või tehtemärki vastab.
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9e57cac740a26c6c5b451c92d856e533c6db33e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
+ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180825"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "2931284"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Täpsema filtreerimise ja päringu süntaks
 
@@ -114,6 +114,12 @@ See artikkel kirjeldab filtreerimis- ja päringuvalikuid, mis on saadaval, kui k
 <td>Vastendab sobivad väärtused komadega eraldatult</td>
 <td>Tippige kõik kriteeriumid, eraldades need komadega.</td>
 <td><strong>A, D, F, G</strong> leiab täpselt &quot;A&quot;, &quot;D&quot;, &quot;F&quot; ja &quot;G&quot;. <strong>10, 20, 30, 100</strong> leiab täpselt &quot;10, 20, 30, 100&quot;.</td>
+</tr>
+<tr>
+<td>"" (kaks kahekordset jutumärki)</td>
+<td>Tühja väärtuse sobitamine</td>
+<td>Tippige kaks järjestikust kahekordset jutumärki, et filtreerida selle välja tühjad väärtused.</td>
+<td>Kaks järjestikust kahekordset jutumärki (<strong>"</strong>") leiab ilma väärtuseta ridu käesoleva veeru jaoks.</td>
 </tr>
 <tr>
 <td>(<span class="code">SQL-lause</span>) (sulgudes SQL-lause)</td>

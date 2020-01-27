@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3e1281171a656a73a35d4990fd8a34b35c1c6db8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fdfc65d02d4468aee094a92e6760400c5e25af8f
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188276"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888651"
 ---
 # <a name="reconcile-a-bank-account"></a>Pangakonto vastavusseviimine
 
@@ -64,7 +64,7 @@ Te ei saa viia pangakonto väljavõtet vastavusse pangakontoga, kui väljavõtte
 
 8.  Veel vastavusse viimata pangakannete vaatamiseks kasutage aruannet **Vastavusse viimata kanded**. Pangakonto pangaväljavõtte vaatamiseks kasutage aruannet **Pangaväljavõte**.
 
-# <a name="cancel-bank-statement-reconciliation"></a>Tühista pangaväljavõtte vastavusseviimine 
+## <a name="cancel-bank-statement-reconciliation"></a>Tühista pangaväljavõtte vastavusseviimine 
 
 Pangaväljavõtte vastavusse viimise tühistamise funktsioon võimaldab tühistada pangaväljavõtte vastavusse viimise. Selle funktsiooni kasutamiseks lubage funktsioon **Loobu pangaväljavõtte vastavusseviimisest** tööruumist **Funktsiooni haldamine**. Samuti peate lubama parameetri **Luba pangaväljavõtte redigeerimine**. Selleks minge jaotisse **Sularaha- ja pangahaldus > Häälestus > Sularaha- ja pangahalduse parameetrid > Panga vastavusseviimine**.
  

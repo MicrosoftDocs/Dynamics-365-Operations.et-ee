@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 072564446b74318ffc8e8e6ad4fd16f4421e7854
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772383"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853902"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Reaalaja lähedane teabe integratsioon teenusega Common Data Service
 
@@ -59,7 +59,7 @@ Sünkroonne, kahesuunaline, reaalaja lähedased andmevood nõuavad järgmisi ver
 Seadistage rakenduste Finance and Operationsi rakenduste ja Common Data Service vaheline integratsioon.
     
 1. Topeltkirjutamise süsteemi sätestamiseks vaadake [üksikasjalikku juhendit](https://aka.ms/dualwrite-docs) topelkirjutamise eelvaate kohta.
-2. Laadige alla ja installige lahendus rakenduste [Finance and Operations, Common Data Service ja Customer Engagementi integreerimise](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096)Yammer rühmast. Pakett sisaldab viit lahendust:
+2. Laadige alla ja installige lahendus [topeltkirjutuse kaudu Fin Opsi ja CDS/CE integratsioonist](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammeri grupis. Pakett sisaldab viit lahendust:
 
     + Dynamics365Company
     + Valuuta vahetuskursi määrad

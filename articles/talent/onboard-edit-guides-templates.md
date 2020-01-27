@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 291f7aefac61c26dfab81cfff28c1c6580d46de5
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812875"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897116"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Sisseelamisjuhendite ja mallide redigeerimine rakenduses Dynamics 365 Talent: Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>Sisseelamisjuhendite ja mallide redigeerimine
 
 [!include [banner](includes/banner.md)]
 
@@ -114,11 +114,11 @@ Muudatustele vajutamine:
 1. Vahekaardil **Tegevused** lohistage üksused paremalt redigeerimise alale.
 2. Juhendite sektsioonideks korraldamiseks lohistage üksus **Uus sektsioon** redigeerimise alale ja sisestage jaotise nimi ja valikuline kirjeldus.
 
-    ![[Uue jaotise lisamine sisseelamisjuhendisse või -mallile] (./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
+    ![[Sisseelamisjuhendile või -mallile uue jaotise lisamine](./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
 
 3. Uue töötaja tegevuste lõpuleviimisel tegevuste lisamiseks lohistage üksus **Uus tegevus** redigeerimise alale ja sisestage tegevuse nimi ja kirjeldus.
 
-    ![[Uue tegevuse lisamine sisseelamisjuhendisse või -mallile](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
+    ![[Sisseelamisjuhendile või -mallile uue tegevuse lisamine](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
 
 4. Lisage sisseelamisjuhendisse rikkalik sisu:
 
@@ -129,7 +129,7 @@ Muudatustele vajutamine:
     - Microsofti vormide vormi lisamiseks lohistage **Microsoft Forms** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus, sisestage vormi Microsoft Forms URL ja määrake ekraani ala suurus.
     - Veebisisu sisaldava iframe'i lisamiseks lohistage **Veebisisu (iframe)** üksus redigeerimise alale, sisestage tegevuse nimi ja kirjeldus, sisestage veebisisu URL ja määrake ekraani ala suurus.
 
-    ![[Rikkaliku sisu lisamine sisseelamisjuhendile või -mallile](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
+    ![[Sisseelamisjuhendile või -mallile rikkaliku sisu lisamine](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
 
 2. Valikuline: määrake iga tegevuse paremal alal tegevus kindlale isikule või rollile, lisage tähtaeg ja kontaktisik ning määrake kategooria värv. Kui määrate tegevuse isikule või rollile, luuakse ülesanne igale üksikisikule. See ülesanne kuvatakse Onboardi menüüs **Ülesanded**.
 
@@ -148,7 +148,7 @@ Saate lisada kontaktisikuid, kes saavad aidata teie uuel töötajal algusest pea
 1. Vahekaardil **Kontaktid** valige **Uus kontakt**.
 2. Sisestage dialoogiboksi **Lisa meeskonnaliige** kontaktisiku nimi või meiliaadress, sisestage lühikirjeldus, mis selgitab, kuidas kontaktisik saab uut töötajat aidata ja seejärel valige **Lisa**. 
 
-    ![[Kontaktide lisamine sisseelamisjuhendile või -mallile](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
+    ![[Sisseelamisjuhendile või -mallile kontaktide lisamine](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
 
     Teise võimalusena saate valida ühe või mitu kontakti jaotises **Soovitused**.
 
@@ -169,7 +169,7 @@ Saate lisada kasulikke faile, kaarte ja linke sisseelamisjuhendis olevasse jaoti
     - Lingi lisamiseks valige vahekaart **Link**, sisestage lingile nimi ja aadress ning seejärel valige **Lisa**.
     - Kaardi lisamiseks valige vahekaart **Kaart**, sisestage kaardile nimi ja aadress ning seejärel valige **Lisa**. Onboard sisaldab teie määratud aadressi kaarti.
 
-    ![[Ressursi lisamine sisseelamisjuhendisse või -mallile](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
+    ![[Sisseelamisjuhendile või -mallile ressursi lisamine](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
 
 3. Oma töö salvestamiseks valige **Salvesta**.
 

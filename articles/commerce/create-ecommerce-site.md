@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fd87a51b73deae64867b0420c00db9fce7c79336
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697125"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945831"
 ---
 # <a name="create-an-e-commerce-site"></a>E-kaubanduse saidi loomine
 
@@ -59,20 +59,16 @@ Pärast saidi loomist saate kontrollida, kas see on teie võrgupoega seotud, val
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[E-poe ülevaade](online-store-overview.md)
+[Domeeninime konfigureerimine](configure-your-domain-name.md)
 
 [Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
 
 [Veebisaidi seostamine kanaliga](associate-site-online-store.md)
 
-[Domeeninime konfigureerimine](configure-your-domain-name.md)
+[robots.txt-failide haldamine](manage-robots-txt-files.md)
+
+[Kasutaja sisselogimiseks kohandatud lehtede seadistamine](custom-pages-user-logins.md)
 
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
-
-[Kasutaja sisselogimiseks kohandatud lehtede seadistamine](custom-pages-user-logins.md)
-
-[Autorluse avalehe ülevaade](authoring-home-overview.md)
-
-[Uue saidilehe lisamine](add-new-page.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5b56f56f5307c292ced30ec94d178244268c5e68
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772647"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935438"
 ---
 # <a name="budgeting-home-page"></a>Eelarvestamise avaleht
 
@@ -56,8 +56,8 @@ Saadaval on täiendavad plaanimis- ja eelarve koostamise võimalused ning need o
 
 -   **Tööjõu eelarved** – tööjõu eelarvestamine hõlmab üksikasjaliku eelarvekulu komponendi plaanimist ametikohtadele, tasugruppidele jne.
 -   **Põhivara eelarved** – tuginedes põhivara teabele, saate arvutada plaanitud kulumit ja kajastada muid põhivaraga seotud plaanitud kandeid.
--   **Projekti eelarved** – projektimoodulis saate luua üksikasjalikke projekti prognoose. Projekti eelarved sisaldavad üksikasju plaanitud tundide, kulude, tasude ja kaupade kohta.
--   **Nõudluse prognoos** – saate hinnata tulevast varude nõudlust ja koostada varasemate kandeandmete põhjal nõudluse prognoose.
+-   **Projekti eelarved** – projektimoodulis saate luua üksikasjalikke projekti prognoose. Projekti prognoosid sisaldavad üksikasju plaanitud tundide, kulude, tasude ja kaupade kohta.
+-   **Nõudluse prognoos** – saate hinnata tulevast varude nõudlust ja koostada varasemate kandeandmete põhjal nõudluse prognoose.
 
 Teavet selle kohta, kuidas tuua plaanimisandmeid muudest moodulitest eelarveplaanidesse vt jaotisest [Eelarve plaanimise integreerimine muude moodulitega](budget-planning-integration-other-modules.md).
 

@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0fad51fcb092c95103356f17618a647dd166b95
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 62d3c168967bd680b3ded56e627730324f2a5ec6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697359"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945578"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>E-kaubanduse saidi seostamine võrgukanaliga
 
@@ -40,16 +40,16 @@ Pärast saidi loomist saate kontrollida, kas see on teie võrgupoega seotud, val
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[E-poe ülevaade](online-store-overview.md)
-
-[E-kaubanduse saidi loomine](create-ecommerce-site.md)
+[Domeeninime konfigureerimine](configure-your-domain-name.md)
 
 [Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
 
-[Domeeninime konfigureerimine](configure-your-domain-name.md)
+[E-kaubanduse saidi loomine](create-ecommerce-site.md)
+
+[robots.txt-failide haldamine](manage-robots-txt-files.md)
+
+[Kasutaja sisselogimiseks kohandatud lehtede seadistamine](custom-pages-user-logins.md)
 
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
 [Asukohapõhise poetuvastuse lubamine](enable-store-detection.md)
-
-[Kasutaja sisselogimiseks kohandatud lehtede seadistamine](custom-pages-user-logins.md)
