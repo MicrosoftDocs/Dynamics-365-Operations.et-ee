@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Selles artiklis kirjeldatud funktsioon on saadaval avaliku eelversioonina kõigis liivakasti- ja proovikeskkondades. See ei ole saadaval tootmiskeskkondades. Sisu ja funktsioonid võivad muutuda. Lisateavet eelvaatefunktsioonide kohta vt [Funktsioonide haldus](../hr-admin-manage-features.md).

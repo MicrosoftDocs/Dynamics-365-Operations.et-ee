@@ -1,4 +1,4 @@
-- name: Rakenduse Finance and Operations arendamine ja haldus
+- name: Finance and Operations arendamine ja haldamine
   href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: Mis on uut või mida on muudetud?
   items:
@@ -76,7 +76,7 @@
       href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Andmete integratsiooni API-d
       items:
-        - name: Andmehalduse paketi REST API
+        - name: Andmehalduspaketi REST API
           href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Teenuse lõpp-punktid
           items:
@@ -118,9 +118,9 @@
               items:
                 - name: Reaalaja lähedane teabe integratsioon
                   href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
-                - name: Common Data Service-i organisatsiooni hierarhia
+                - name: Common Data Service'i organisatsiooni hierarhia
                   href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/financials/toc.json
-                - name: Ettevõtte kontseptsioon Common Data Service'is
+                - name: Ettevõtte kontseptsioon Common Data Services'is
                   href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Integreeritud kliendi koondandmed
                   href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -142,15 +142,15 @@
                       href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Rakenduse Sales kontode sünkroonimine otse rakenduse Finance and Operations klientidega
                       href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Rakenduse Finance and Operations toodete sünkroonimine otse rakenduse Sales toodetega
+                    - name: Toodete sünkroonimine otse rakendusest Finance and Operations toodetega rakenduses Sales
                       href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Rakenduse Sales kontaktide sünkroonimine otse rakenduse Finance and Operations kontaktide või klientidega
                       href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Rakenduse Finance and Operations müügipakkumiste päiste ja ridade sünkroonimine otse rakendusega Sales
+                    - name: Rakenduse Finance and Operations müügipakkumiste päiste ja ridade sünkroonimine otse Salesist rakendusse Finance and Operations
                       href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Müügitellimuste vahetu sünkroonimine rakenduse Finance and Operations ja rakenduse Sales vahel
+                    - name: Müügitellimuste vahetu sünkroonimine rakenduse Sales ja rakenduse Finance and Operations vahel
                       href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Rakenduse Finance and Operations müügiarvete päiste ja ridade sünkroonimine otse rakendusega Sales
+                    - name: Müügiarvete päiste ja ridade sünkroonimine otse rakendusest Finance and Operations rakendusse Sales
                       href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Integratsiooni konfigureerimine Field Service’iga
                   items:
@@ -166,7 +166,7 @@
                       href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Varude taseme teabe sünkroonimine rakendusest Finance and Operations rakendusse Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Laoühikuga toodete sünkroonimine rakendusest Finance and Operations rakendusse Field Service
+                    - name: Varudeühikuga toodete sünkroonimine rakendusest Finance and Operations rakendusse Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Projektiloendi sünkroonimine rakendusest Finance and Operations rakendusse Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -332,7 +332,7 @@
           href: ../../dev-itpro/deployment/arm-onboarding.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Azure ExpressRoute ja Finance and Operations
           href: ../../dev-itpro/deployment/expressroute.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Finance and Operationsi arhitektuur
+        - name: Finance and Operationsi ülesehitus
           href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Värskenduste rakendamine pilvekeskkondadele
           href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -862,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Tundlike andmete juurdepääsu haldamine
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Isikuandmete taotlustele vastamine Talenti abil
+        - name: Isikuandmete taotlustele vastamine Human Resourcesi abil
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Isikuandmete taotlustele vastamine AX 2012-s
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1206,11 +1206,11 @@
           href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: Tugi
   items:
-    - name: Rakenduste Finance and Operations ja Lifecycle Services tugi
+    - name: Rakenduste Finance and Operations ja Lifecycle Services toe hankimine
       href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Dynamics 365 toe ülevaade
       href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
-    - name: 'Toe hankimine rakenduse Finance and Operations jaoks, mida käitab 21Vianet Hiinas'
+    - name: 'Rakenduse Finance and Operations toe hankimine, mida käitab 21Vianet Hiinas'
       href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Premier-tugiteenusepileti logimine
       href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1222,7 +1222,7 @@
       href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Pilve toimingud ja hooldus
       href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Finance and Operationsi tugikogemuste haldamine
+    - name: Rakenduse Finance and Operations tugiteenuse kogemuste haldamine
       href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: Süsteemihaldus
   items:
@@ -1298,7 +1298,7 @@
       href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Üleminek versioonilt AX 2012
       items:
-        - name: Versiooni AX 2012 täiendamine versioonile Finance and Operations
+        - name: Üleminek versioonilt AX 2012 Finance and Operationsile
           href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: AX 2012 täiendus – täienduse analüüsija tööriista kasutamine plaanimiseks
           href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1340,7 +1340,7 @@
               href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Andmete migreerimine versioonist AX 2009
       items:
-        - name: Andmete migreerimine AX 2009-st rakendusse Finance and Operations
+        - name: Andmete migreerimine versioonist AX 2009 Finance and Operationsisse
           href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: AX 2009 migratsioon – andmemigratsiooni tööriista installimine
           href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/financials/toc.json
