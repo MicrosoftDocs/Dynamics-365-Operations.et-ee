@@ -1,0 +1,8 @@
+## <a name="withholding-tax-groups-to-msdyn_withholdingtaxgroups"></a><span data-ttu-id="50484-101">Kinnipeetava maksu grupid üksusele msdyn_withholdingtaxgroups</span><span class="sxs-lookup"><span data-stu-id="50484-101">Withholding tax groups to msdyn_withholdingtaxgroups</span></span>
+
+<span data-ttu-id="50484-102">See mall sünkroonib andmeid rakenduste Finance and Operations ja Common Data Service'i vahel.</span><span class="sxs-lookup"><span data-stu-id="50484-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="50484-103">Finance and Operationsi väli</span><span class="sxs-lookup"><span data-stu-id="50484-103">Finance and Operations field</span></span> | <span data-ttu-id="50484-104">Kaardi tüüp</span><span class="sxs-lookup"><span data-stu-id="50484-104">Map type</span></span> | <span data-ttu-id="50484-105">Muu Dynamics 365 väli</span><span class="sxs-lookup"><span data-stu-id="50484-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="50484-106">Vaikeväärtus</span><span class="sxs-lookup"><span data-stu-id="50484-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="50484-107">WITHHOLDINGTAXGROUPCODE</span><span class="sxs-lookup"><span data-stu-id="50484-107">WITHHOLDINGTAXGROUPCODE</span></span> | = | <span data-ttu-id="50484-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="50484-108">msdyn_name</span></span> | 
+<span data-ttu-id="50484-109">KIRJELDUS</span><span class="sxs-lookup"><span data-stu-id="50484-109">DESCRIPTION</span></span> | = | <span data-ttu-id="50484-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="50484-110">msdyn_description</span></span> | 

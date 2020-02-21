@@ -1,0 +1,12 @@
+## <a name="currencies-to-transactioncurrencies"></a><span data-ttu-id="80f1e-101">Valuutad üksusele transactioncurrencies</span><span class="sxs-lookup"><span data-stu-id="80f1e-101">Currencies to transactioncurrencies</span></span>
+
+<span data-ttu-id="80f1e-102">See mall sünkroonib andmeid rakenduste Finance and Operations ja Common Data Service'i vahel.</span><span class="sxs-lookup"><span data-stu-id="80f1e-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="80f1e-103">Allika filter: ((CURRENCYCODE! = "999"))</span><span class="sxs-lookup"><span data-stu-id="80f1e-103">Source filter: ((CURRENCYCODE != "999"))</span></span>
+
+<span data-ttu-id="80f1e-104">Finance and Operationsi väli</span><span class="sxs-lookup"><span data-stu-id="80f1e-104">Finance and Operations field</span></span> | <span data-ttu-id="80f1e-105">Kaardi tüüp</span><span class="sxs-lookup"><span data-stu-id="80f1e-105">Map type</span></span> | <span data-ttu-id="80f1e-106">Muu Dynamics 365 väli</span><span class="sxs-lookup"><span data-stu-id="80f1e-106">Other Dynamics 365 field</span></span> | <span data-ttu-id="80f1e-107">Vaikeväärtus</span><span class="sxs-lookup"><span data-stu-id="80f1e-107">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="80f1e-108">CURRENCYCODE</span><span class="sxs-lookup"><span data-stu-id="80f1e-108">CURRENCYCODE</span></span> | = | <span data-ttu-id="80f1e-109">isocurrencycode</span><span class="sxs-lookup"><span data-stu-id="80f1e-109">isocurrencycode</span></span> | 
+<span data-ttu-id="80f1e-110">NIMI</span><span class="sxs-lookup"><span data-stu-id="80f1e-110">NAME</span></span> | = | <span data-ttu-id="80f1e-111">currencyname</span><span class="sxs-lookup"><span data-stu-id="80f1e-111">currencyname</span></span> | 
+<span data-ttu-id="80f1e-112">SÜMBOL</span><span class="sxs-lookup"><span data-stu-id="80f1e-112">SYMBOL</span></span> | = | <span data-ttu-id="80f1e-113">valuuta sümbol</span><span class="sxs-lookup"><span data-stu-id="80f1e-113">currencysymbol</span></span> | 
+<span data-ttu-id="80f1e-114">puudub</span><span class="sxs-lookup"><span data-stu-id="80f1e-114">none</span></span> | >> | <span data-ttu-id="80f1e-115">exchangerate</span><span class="sxs-lookup"><span data-stu-id="80f1e-115">exchangerate</span></span> | <span data-ttu-id="80f1e-116">1</span><span class="sxs-lookup"><span data-stu-id="80f1e-116">1</span></span>

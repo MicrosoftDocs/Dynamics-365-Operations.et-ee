@@ -1,0 +1,8 @@
+## <a name="all-products-to-msdyn_globalproducts"></a><span data-ttu-id="19cf4-101">Kõik tooted üksusele msdyn_globalproducts</span><span class="sxs-lookup"><span data-stu-id="19cf4-101">All products to msdyn_globalproducts</span></span>
+
+<span data-ttu-id="19cf4-102">See mall sünkroonib andmeid rakenduste Finance and Operations ja Common Data Service'i vahel.</span><span class="sxs-lookup"><span data-stu-id="19cf4-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="19cf4-103">Finance and Operationsi väli</span><span class="sxs-lookup"><span data-stu-id="19cf4-103">Finance and Operations field</span></span> | <span data-ttu-id="19cf4-104">Kaardi tüüp</span><span class="sxs-lookup"><span data-stu-id="19cf4-104">Map type</span></span> | <span data-ttu-id="19cf4-105">Muu Dynamics 365 väli</span><span class="sxs-lookup"><span data-stu-id="19cf4-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="19cf4-106">Vaikeväärtus</span><span class="sxs-lookup"><span data-stu-id="19cf4-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="19cf4-107">PRODUCTNAME</span><span class="sxs-lookup"><span data-stu-id="19cf4-107">PRODUCTNAME</span></span> | >> | <span data-ttu-id="19cf4-108">msdyn_productname</span><span class="sxs-lookup"><span data-stu-id="19cf4-108">msdyn_productname</span></span> | 
+<span data-ttu-id="19cf4-109">PRODUCTNUMBER</span><span class="sxs-lookup"><span data-stu-id="19cf4-109">PRODUCTNUMBER</span></span> | >> | <span data-ttu-id="19cf4-110">msdyn_productnumber</span><span class="sxs-lookup"><span data-stu-id="19cf4-110">msdyn_productnumber</span></span> | 

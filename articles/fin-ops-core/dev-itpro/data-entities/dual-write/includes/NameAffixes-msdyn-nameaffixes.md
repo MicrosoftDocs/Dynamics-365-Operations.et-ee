@@ -1,0 +1,9 @@
+## <a name="name-affixes-to-msdyn_nameaffixes"></a><span data-ttu-id="7d51a-101">Nime liited üksusele msdyn_nameaffixes</span><span class="sxs-lookup"><span data-stu-id="7d51a-101">Name affixes to msdyn_nameaffixes</span></span>
+
+<span data-ttu-id="7d51a-102">See mall sünkroonib andmeid rakenduste Finance and Operations ja Common Data Service'i vahel.</span><span class="sxs-lookup"><span data-stu-id="7d51a-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="7d51a-103">Finance and Operationsi väli</span><span class="sxs-lookup"><span data-stu-id="7d51a-103">Finance and Operations field</span></span> | <span data-ttu-id="7d51a-104">Kaardi tüüp</span><span class="sxs-lookup"><span data-stu-id="7d51a-104">Map type</span></span> | <span data-ttu-id="7d51a-105">Muu Dynamics 365 väli</span><span class="sxs-lookup"><span data-stu-id="7d51a-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="7d51a-106">Vaikeväärtus</span><span class="sxs-lookup"><span data-stu-id="7d51a-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="7d51a-107">LIIDE</span><span class="sxs-lookup"><span data-stu-id="7d51a-107">AFFIX</span></span> | = | <span data-ttu-id="7d51a-108">msdyn_affix</span><span class="sxs-lookup"><span data-stu-id="7d51a-108">msdyn_affix</span></span> | 
+<span data-ttu-id="7d51a-109">TÜÜP</span><span class="sxs-lookup"><span data-stu-id="7d51a-109">TYPE</span></span> | >< | <span data-ttu-id="7d51a-110">msdyn_affixtype</span><span class="sxs-lookup"><span data-stu-id="7d51a-110">msdyn_affixtype</span></span> | 
+<span data-ttu-id="7d51a-111">KIRJELDUS</span><span class="sxs-lookup"><span data-stu-id="7d51a-111">DESCRIPTION</span></span> | = | <span data-ttu-id="7d51a-112">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="7d51a-112">msdyn_description</span></span> | 

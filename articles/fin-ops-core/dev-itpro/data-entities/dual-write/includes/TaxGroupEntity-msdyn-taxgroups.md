@@ -1,0 +1,8 @@
+## <a name="sales-tax-groups-to-msdyn_taxgroups"></a><span data-ttu-id="d34b8-101">Käibemaksugrupid üksusele msdyn_taxgroups</span><span class="sxs-lookup"><span data-stu-id="d34b8-101">Sales tax groups to msdyn_taxgroups</span></span>
+
+<span data-ttu-id="d34b8-102">See mall sünkroonib andmeid rakenduste Finance and Operations ja Common Data Service'i vahel.</span><span class="sxs-lookup"><span data-stu-id="d34b8-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="d34b8-103">Finance and Operationsi väli</span><span class="sxs-lookup"><span data-stu-id="d34b8-103">Finance and Operations field</span></span> | <span data-ttu-id="d34b8-104">Kaardi tüüp</span><span class="sxs-lookup"><span data-stu-id="d34b8-104">Map type</span></span> | <span data-ttu-id="d34b8-105">Muu Dynamics 365 väli</span><span class="sxs-lookup"><span data-stu-id="d34b8-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="d34b8-106">Vaikeväärtus</span><span class="sxs-lookup"><span data-stu-id="d34b8-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="d34b8-107">TAXGROUPCODE</span><span class="sxs-lookup"><span data-stu-id="d34b8-107">TAXGROUPCODE</span></span> | = | <span data-ttu-id="d34b8-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="d34b8-108">msdyn_name</span></span> | 
+<span data-ttu-id="d34b8-109">KIRJELDUS</span><span class="sxs-lookup"><span data-stu-id="d34b8-109">DESCRIPTION</span></span> | = | <span data-ttu-id="d34b8-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="d34b8-110">msdyn_description</span></span> | 
