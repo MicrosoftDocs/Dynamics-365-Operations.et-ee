@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 45a2335d7a661ddc1d8907c56ae8193387f44e26
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771394"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030862"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Loodud dokumentidele kohandatud talletuskoha määramine
 
@@ -56,7 +56,7 @@ Dokumentide loomiseks, mille jaoks plaanite lisada kohandatud talletuskoha, loog
 
 Määramaks, kuidas ER-vormingu loodavaid dokumente suunatakse, peate konfigureerima [Elektroonilise aruandluse (ER) sihtkohad](electronic-reporting-destinations.md). Peate igas ER-i sihtkohas, mis on konfigureeritud talletama loodud dokumente failidena, määrama dokumendihalduse raamistiku dokumenditüübi. Erinevate ER-i vormingute loodavate dokumentide suunamiseks saab kasutada erinevaid dokumenditüüpe.
 
-1. Lisage varem loodud või imporditud ER-i vormingule uus [dokumenditüüp](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Järgneval joonisel on dokumenditüübiks **FileX**.
+1. Lisage varem loodud või imporditud ER-i vormingule uus [dokumenditüüp](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Järgneval joonisel on dokumenditüübiks **FileX**.
 2. Selle dokumenditüübi teistest dokumenditüüpidest eristamiseks lisage selle nimesse konkreetne märksõna. Järgneval joonisel on nimeks näiteks **(KOHALIK) kaust**.
 3. Määrake väljal **Klass** suvand **Lisa fail**.
 4. Määrake väljal **Grupp** suvand **Fail**.
@@ -70,7 +70,7 @@ Määramaks, kuidas ER-vormingu loodavaid dokumente suunatakse, peate konfiguree
 
 Vaadake üle klassi **ERDocuManagement** meetodi **insertFile()** kood. Pange tähele, et sündmus **AttachingFile()** tõstatatakse, kui loodud fail manustatakse kirjele.
 
-```
+```xpp
 /// <summary>
 /// Inserts file as attachment in Document Management.
 /// </summary>
@@ -131,7 +131,7 @@ Sündmus **AttachingFile()** tõstatatakse järgmiste ER-i sihtkohtade töötlem
     1. Talletage loodud failid selle serveri kohaliku failisüsteemi kaustas, kus töötab teenus rakendusobjekti server (AOS).
     2. Talletage need loodud failid ainult juhul, kui faili manustamisel ER-i käitamise töölogi kirjele kasutatakse uut dokumendi tüüpi (nt tüüp **FileX** mille nimes on märksõna „(KOHALIK)”)).
 
-    ```
+    ```xpp
     class ERDocuSubscriptionSample
     {
         void new()

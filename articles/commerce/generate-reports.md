@@ -1,6 +1,6 @@
 ---
 title: Võrgukanali aruannete loomine
-description: See teema kirjeldab, kuidas luua oma võrgukanali jaoks aruandeid rakenduses Microsoft Dynamics 365 Retail.
+description: See teema kirjeldab, kuidas luua oma võrgukanali jaoks aruandeid rakenduses Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 10/01/2019
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77737c134df8f3ba598fe9026fa7c01ca9976733
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: fd40aabdf40e0f2bb257b914326df5595a0e6945
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698046"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003000"
 ---
 # <a name="generate-online-channel-reports"></a>Võrgukanali aruannete loomine
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab, kuidas luua oma võrgukanali jaoks aruandeid rakenduses Microsoft Dynamics 365 Retail.
+See teema kirjeldab, kuidas luua oma võrgukanali jaoks aruandeid rakenduses Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Ülevaade
 
-Saate luua ja vaadata Retailis mitu aruannet, et näha, kuidas võrgukanal toimib.
+Rakenduses Commerce saadete luua ja vaadata mitut aruannet, et näha, kuidas võrgukanal toimib.
 
 ## <a name="channel-summary-report"></a>Kanali koondaruanne
 
@@ -46,7 +46,7 @@ Aruanne **Kanali kokkuvõte** kuvab valitud kanali järgmiste kannete kokkuvõte
 
 Aruande **Kanali kokkuvõte** loomiseks toimige järgmiselt.
 
-1. Avage **Jaemüük \> Päringud ja aruanded \> Müügiaruanded \> Kanali koondaruanne**.
+1. Avage **Jaemüük ja kaubandus \> Päringud ja aruanded \> Müügiaruanded \> Kanali koondaruanne**.
 1. Sisestage kuupäev väljale **Alates kuupäevast**.
 1. Sisestage kuupäev väljale **Lõppkuupäev**.
 1. Valige väljal **Kanal** võrgukanal.
@@ -58,7 +58,7 @@ Aruanne **Kanali müük aastate alusel** näitab kindla poe müügi võrdlust aa
 
 Aruande **Kanali müük aastate alusel** loomiseks toimige järgmiselt.
 
-1. Avage **Jaemüük \> Päringud ja aruanded \> Müügiaruanded \> Kanali müügiaruanne aastate alusel**.
+1. Avage **Jaemüük ja kaubandus \> Päringud ja aruanded \> Müügiaruanded \> Kanali aastapõhine müügiaruanne**.
 1. Sisestage väljale **Kalendriaastast** aasta.
 1. Sisestage väljale **Kalendriaastani** aasta.
 1. Valige väljal **Kanal** võrgukanal.
@@ -70,7 +70,7 @@ Aruanne **Kanali müük tundide alusel** näitab valitud kanali või tootmisüks
 
 Aruande **Kanali müük tundide alusel** loomiseks toimige järgmiselt.
 
-1. Avage **Jaemüük \> Päringud ja aruanded \> Müügiaruanded \> Kanali müügiaruanne tundide alusel**.
+1. Avage **Jaemüük ja kaubandus \> Päringud ja aruanded \> Müügiaruanded \> Kanali tunnipõhine müügiaruanne**.
 1. Sisestage kuupäev väljale **Alates kuupäevast**.
 1. Sisestage kuupäev väljale **Lõppkuupäev**.
 1. Valige väljal **Kanal** võrgukanal.
@@ -82,7 +82,7 @@ Aruanne **Parimad kliendid** näitab valitud kanali või tootmisüksuse parima *
 
 Aruande **Parimad kliendid** loomiseks toimige järgmiselt.
 
-1. Avage **Jaemüük \> Päringud ja aruanded \> Müügiaruanded \> Parimate klientide aruanne**.
+1. Avage **Jaemüük ja kaubandus \> Päringud ja aruanded \> Müügiaruanded \> Peamiste klientide aruanne**.
 1. Sisestage kuupäev väljale **Alates kuupäevast**.
 1. Sisestage kuupäev väljale **Lõppkuupäev**.
 1. Valige väljal **Kanal** võrgukanal.
@@ -94,7 +94,7 @@ Aruanne **Peamised allahindlused** näitab valitud kanali või tootmisüksuse pe
 
 Aruande **Peamised allahindlused** loomiseks toimige järgmiselt.
 
-1. Avage **Jaemüük \> Päringud ja aruanded \> Müügiaruanded \> Peamiste allahindluste aruanne**.
+1. Avage **Jaemüük ja kaubandus \> Päringud ja aruanded \> Müügiaruanded \> Peamiste allahindluste aruanne**.
 1. Sisestage kuupäev väljale **Alates kuupäevast**.
 1. Sisestage kuupäev väljale **Lõppkuupäev**.
 1. Valige väljal **Kanal** võrgukanal.
@@ -106,7 +106,7 @@ Aruanne **Peamised tooted** näitab valitud kanali või tootmisüksuse peamise *
 
 Aruande **Peamised tooted** loomiseks toimige järgmiselt.
 
-1. Avage **Jaemüük \> Päringud ja aruanded \> Müügiaruanded \> Peamiste toodete aruanne**.
+1. Avage **Jaemüük ja kaubandus \> Päringud ja aruanded \> Müügiaruanded \> Peamiste toodete aruanne**.
 1. Sisestage kuupäev väljale **Alates kuupäevast**.
 1. Sisestage kuupäev väljale **Lõppkuupäev**.
 1. Valige väljal **Kanal** võrgukanal.
@@ -118,7 +118,7 @@ Aruanne **Kategooria müük** näitab valitud kanali või tootmisüksuse kategoo
 
 Aruande **Kategooria müük** loomiseks toimige järgmiselt.
 
-1. Avage **Jaemüük \> Päringud ja aruanded \> Müügiaruanded \> Kategooria müügiaruanded**.
+1. Minge jaotisse **Jaemüük ja kaubandus \> Päringud ja aruanded \> Müügiaruanded \> Kategooria müügiaruanded**.
 1. Sisestage kuupäev väljale **Alates kuupäevast**.
 1. Sisestage kuupäev väljale **Lõppkuupäev**.
 1. Valige väljal **Kanal** võrgukanal.
@@ -126,11 +126,11 @@ Aruande **Kategooria müük** loomiseks toimige järgmiselt.
 
 ## <a name="organization-sales-report"></a>Organisatsiooni müügiaruanne
 
-Aruanne **Organisatsiooni müük** näitab teie jaekaupluste jõudlust organisatsiooni üksuse järgi. See aruanne sisaldab müügikogust ja -summat poe kaupa ning iga poe kasumimarginaali. Organisatsiooni üksus põhineb vaikearuandluse hierarhial.
+Aruanne **Organisatsiooni müük** näitab teie kaupluste jõudlust organisatsiooni üksuse järgi. See aruanne sisaldab müügikogust ja -summat poe kaupa ning iga poe kasumimarginaali. Organisatsiooni üksus põhineb vaikearuandluse hierarhial.
 
 Aruande **Organisatsiooni müük** loomiseks toimige järgmiselt.
 
-1. Avage **Jaemüük \> Päringud ja aruanded \> Müügiaruanded \> Organisatsiooni müügiaruanded**.
+1. Minge jaotisse **Jaemüük ja kaubandus \> Päringud ja aruanded \> Müügiaruanded \> Organisatsiooni müügiaruanded**.
 1. Sisestage kuupäev väljale **Alates kuupäevast**.
 1. Sisestage kuupäev väljale **Lõppkuupäev**.
 1. Valige nupp **OK**.

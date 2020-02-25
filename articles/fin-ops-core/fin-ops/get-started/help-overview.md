@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811668"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005699"
 ---
 # <a name="help-system"></a>Spikrisüsteem
 
@@ -32,9 +32,9 @@ ms.locfileid: "2811668"
 Selles teemas antakse ülevaate spikrisüsteemi komponentidest. Spikrisüsteemi jagatakse kõigi järgmiste toodete puhul:
 
 - Dynamics 365 Finance 
-- Dynamics 365 Retail
+- Dynamics 365 Commerce
 - Dynamics 365 Supply Chain Management
-- Dynamics 365 Talent
+- Dynamics 365 Human Resources
 
 Pääsete spikrile ligi mis tahes toote Spikripaanilt. 
 
@@ -73,7 +73,7 @@ Saate anda oma panuse dokumentidesse ja neid redigeerida. Alustamiseks klõpsake
 
 Video [Kuidas panustada Microsoft Dynamics 365 dokumenti](https://youtu.be/m5djioozRbg) (vt eespool) on vaadatav Microsoft Dynamics 365 kanalist YouTube'is.
 
-Lisateabe saamiseks vaadake meie [kaasautori juhendit](https://docs.microsoft.com/en-us/contribute).
+Lisateabe saamiseks vaadake meie [kaasautori juhendit](https://docs.microsoft.com/contribute).
 
 > [!NOTE]
 > Praegu aktsepteerime panuseid ainult ingliskeelsesse sisusse.
@@ -106,12 +106,12 @@ Spikri sisule juurdepääsuks klõpsake ikooni **Spikker** (**?**) ja valige Spi
 Paanilt Spikker pääsete juurde klientidele mõeldud artiklitele. Kui avate esimest korda Spikripaani ja klõpsate vahekaarti **Spikker**, näete artikleid, mis kohalduvad lehele, millel parajasti olete. Kui ühtegi artiklit ei leita, saate sisestada märksõnu otsingu kitsendamiseks. Kui klõpsate artiklit paanil Spikker, avaneb teie brauseris uus vahekaart ja kuvatakse artikkel.
 
 > [!IMPORTANT]
-> See jaotis ei kehti Dynamics 365 Talenti puhul. Talenti spikrisüsteem on ühendatud automaatselt toote tegevusjuhistega. Samuti ei saa Talenti puhul kohandatud tegevusjuhiseid luua.
+> See jaotis ei kehti Dynamics 365 Human Resourcesi puhul. Rakenduse Human Resources spikrisüsteem on ühendatud automaatselt toote tegevusjuhistega. Rakenduse Human Resources jaoks ei saa te kohandatud tegevusjuhiseid luua.
 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Spikri paanilt tegevuse juhistele juurdepääsemine
 
-Enne, kui pääsete paanilt Spikker tegevuse juhistele juurde, peab süsteemiadministraator minema Finance'is, hankeahela haldamises ja Retailis lehele **Süsteemi parameetrid** ja konfigureerima mõned sätted.
+Enne, kui pääsete paanilt Spikker tegevusjuhistele juurde, peab süsteemiadministraator minema rakendustes Finance, Supply Chain Managment ja Commerce  lehele **Süsteemi parameetrid** ja konfigureerima mõned sätted.
 
 > [!NOTE]
 > - Spikri konfigureerimiseks peate olema loginud sisse kontoga samas rentnikus, kus rakendus on juurutatud.

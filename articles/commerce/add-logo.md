@@ -3,7 +3,7 @@ title: Logo lisamine
 description: Selles teemas kirjeldatakse, kuidas lisada logo rakenduses Microsoft Dynamics 365 Commerce oma saidile.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23bac9aae6beb59912bbc9e1f2c6958c007550b0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914614"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025686"
 ---
 # <a name="add-a-logo"></a>Logo lisamine
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas lisada logo rakenduses Microsoft Dynamics 365 Commerce oma saidile.
@@ -43,7 +43,7 @@ Logo saate lisada otse mallile, paigutusele või lehele. Sel viisil saate hõlps
 
 Enne kui saate lisada logo kõigile oma saidi lehtedele, peate need ülesanded lõpetama.
 
-1. Laadige oma logo üles digitaalsete varade haldurile, millele pääsete juurde lehelt **varad**.
+1. Laadige oma logo meediateeki üles.
 1. Loo päise fragment Lisateavet fragmentide loomise ja kasutamise kohta leiate teemast [töö fragmentidega](work-with-fragments.md)
 1. Kaasake päise fragment malli, mida teie saidi leheküljed kasutavad paigutuse ja mooduli suvandite jaoks. Vaadake lisateavet mallidega töötamise kohta jaotisest [Töö mallidega](work-with-templates.md).
 
@@ -51,13 +51,11 @@ Enne kui saate lisada logo kõigile oma saidi lehtedele, peate need ülesanded l
 
 Oma saidi päise fragmenti logo lisamiseks toimige järgmiselt.
 
-1. Vasakpoolses navigeerimispaanil valige **fragmendid**ja seejärel valige loodud päise fragment.
-2. Valige suvand **Registreeri välja**.
-3. Laiendage **päise** pesa ja **logo** pesa.
-4. Valige **logo** pesa jaoks kolmikpunkti nupp (**…**) ja seejärel valige käsk **Lisa moodul**.
-5. Valige logo moodul.
-6. Konfigureerige paremal atribuutide paanil logo moodulit nii, et teie logo oleks näha.
-7. Salvestage pease fragment, kontrollige seda ja avaldage see.
+1. Valige navigeerimispaanilt vasakult suvand **Lehe fragmendid**.
+1. Valige varem loodud päise fragment ja seejärel valige käsk **Redigeeri**.
+1. Laiendage päise moodulit.
+1. Sisestage päise mooduli atribuudi paanile logo jaoks pilt ja link. 
+1. Salvestage päise fragment, lõpetage selle redigeerimine ja seejärel avaldage see.
 
 Pärast värskendatud päise fragmenti avaldamist kuvatakse kõik saidi lehed, mis kasutavad päise fragmenti sisaldavat malli, mis näitavad teie logo.
 

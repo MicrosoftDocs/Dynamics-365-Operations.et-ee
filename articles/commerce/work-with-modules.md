@@ -3,7 +3,7 @@ title: Moodulitega töötamine
 description: Selles teemas kirjeldatakse, kuidas ja millal kasutada mooduleid rakenduses Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914790"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025875"
 ---
 # <a name="work-with-modules"></a>Moodulitega töötamine
 
 Selles teemas kirjeldatakse, kuidas ja millal kasutada mooduleid rakenduses Microsoft Dynamics 365 Commerce.
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Ülevaade
@@ -99,12 +99,10 @@ Järgmistes protseduurides kirjeldatakse, kuidas sisu ja konteineri mooduleid ko
 
 Sisu mooduli konfigureerimiseks lehel tehke järgmist.
 
-1. Valige vasakult liigenduspaanilt sisu mooduli tüüp (nt **Funktsioon**, **Pannoo** või **Ribareklaam**).
-1. Laiendage paremal atribuutide paanil pesastatud juhtelemente, valides päised, ja määrake juhtelementidele vajalikud väärtused.
-1. Kui atribuutide paanil on jaotis **Andmete konfigureerimine**, valige see, et seda laiendada. Vastasel korral jätkake 5. etapiga.
-1. Kui olemas on nupp **Lisa andmeallikas**, valige see ja seejärel valige lisamiseks sisuüksused.
-1. Sisestage vajalike või sobivate mooduli juhtelementide sätted.
-1. Valige käsk **Salvesta**.
+1. Vasakul liigenduspaanil laiendage puud ja valige mis tahes sisu moodul (nt **Funktsioon**, **Pannoo** või **Ribareklaam**).
+1. Parempoolsel atribuutide paanil leidke mooduli sisu ja sätete juhtelemendid.
+1. Sisestage mis tahes soovitud mooduli juhtelementide atribuudid.
+1. Valige käsuribal suvand **Salvesta**. See värskendab ka eelvaate lõuendit.
 
 ### <a name="configure-a-container-module"></a>Konteineri mooduli konfigureerimine
 
@@ -112,7 +110,7 @@ Konteineri mooduli konfigureerimiseks lehel tehke järgmist.
 
 1. Valige lehel konteineri moodul (nt karussell- või sujuva konteineri moodul).
 1. Laiendage paremal atribuutide paanil pesastatud juhtelemente, valides päised, ja määrake juhtelementidele vajalikud väärtused.
-1. Vasakult liigenduspaanilt valige konteineri või konteineri sees oleva pesa nime kõrvalt kolmikpunkti nupp ja seejärel valige käsk **Lisa moodul**. Seejärel lisage alammoodulid valitud konteinerile. Lisateavet vaadake protseduuri [Mooduli lisamine](#add-a-module) selles teemas üleval.
+1. Vasakult liigenduspaanilt valige konteineri või konteineri sees oleva pesa nime kõrvalt kolmikpunkti nupp ja seejärel valige käsk **Lisa moodul**. Seejärel lisage alammoodulid valitud konteinerile. Lisateavet vaadake jaotisest [Moodulitega töötamine](#add-a-module) selles teemas üleval.
 1. Kui ülemmoodulis on mitu õdeüksusena eksisteerivat alammoodulit, saate muuta nende kuvamisjärjekorda ülemkonteineris. Valige mooduli kolmikpunkti nupp ja seejärel kasutage üles- ja allanoole nuppe.
 
 ## <a name="additional-resources"></a>Lisaressursid
@@ -126,8 +124,6 @@ Konteineri mooduli konfigureerimiseks lehel tehke järgmist.
 [Fragmentidega töötamine](work-with-fragments.md)
 
 [Konteineri mooduli lisamine lehele](add-container-module.md)
-
-[Sisupaigutusmoodulite lisamine lehele](add-content-placement-modules.md)
 
 [Avaldamisrühmadega töötamine](publish-groups.md)
 

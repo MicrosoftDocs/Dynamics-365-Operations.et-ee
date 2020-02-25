@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bfec4660d9e6b0898cf81e1f1fdd2e4c1fdcaef
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0a51d443e40dbf948a06657293dcca77dc177896
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815338"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003649"
 ---
 # <a name="purchase-requisition-overview"></a>Ostutaotluse ülevaade
 
@@ -81,7 +81,7 @@ Ostutaotluse üldise oleku määrab ostutaotluse ridade olek. Seepärast tuleb k
 <li><strong>Ülevaatusel</strong> – ostutaotluse read on esitatud ülevaatuseks. Kuni kõik ostutaotluse read ei ole üle vaadatud, jääb rea, mille töövooprotsess on lõpule viidud, olekuks endiselt <strong>Ülevaatusel</strong>.</li>
 <li><strong>Tagasi lükatud</strong> – ostutaotluse rida on tagasi lükatud. Tagasilükatud ostutaotluse ridu saab muuta ja uuesti esitada.</li>
 </ul>
-Tagasilükatud ostutaotluse rea uuesti esitamisel algab kõigi ülevaatusel olevate ostutaotluse ridade ülevaatuse protsess algusest. <strong>Märkus.</strong> Tühistada on võimalik ka juba esitatud ostutaotlust. Ostutaotluse tühistamisel tühistatakse ka kõik teised ostutaotluse read. Tühistatud ostutaotluse ridu saab kustutada.</td>
+Tagasilükatud ostutaotluse rea uuesti esitamisel algab kõigi ülevaatusel olevate ostutaotluse ridade ülevaatuse protsess algusest. </br><strong>Märkus.</strong> Tühistada on võimalik ka juba esitatud ostutaotlust. Ostutaotluse tühistamisel tühistatakse ka kõik teised ostutaotluse read. Tühistatud ostutaotluse ridu saab kustutada.</td>
 </tr>
 <tr class="odd">
 <td>Tagasi lükatud</td>
@@ -109,7 +109,7 @@ Tagasilükatud ostutaotluse rea uuesti esitamisel algab kõigi ülevaatusel olev
 <tr class="odd">
 <td>Tühistatud</td>
 <td>Tühistatud</td>
-<td>Ostutaotlus ja kõik ostutaotluse read on tühistatud. <strong>Märkus.</strong> Kui te ei vaja enam ostutaotluse real olnud kaupa, kuid ostutaotluse rida on juba kinnitatud, peate selle ostutaotluse rea tühistama. Tühistada saab ainult kinnitatud ostutaotluse ridu. Kui mõni ostutaotluse rida on ülevaatusel, on ostutaotluse olek <strong>Ülevaatusel</strong>. Sellisel juhul saate ostutaotluse tühistada ja vastava ostutaotluse rea kustutada.</td>
+<td>Ostutaotlus ja kõik ostutaotluse read on tühistatud.</br> <strong>Märkus.</strong> Kui te ei vaja enam ostutaotluse real olnud kaupa, kuid ostutaotluse rida on juba kinnitatud, peate selle ostutaotluse rea tühistama. Tühistada saab ainult kinnitatud ostutaotluse ridu. Kui mõni ostutaotluse rida on ülevaatusel, on ostutaotluse olek <strong>Ülevaatusel</strong>. Sellisel juhul saate ostutaotluse tühistada ja vastava ostutaotluse rea kustutada.</td>
 </tr>
 <tr class="even">
 <td>Suletud</td>
@@ -156,7 +156,8 @@ Mõnel juhul tuleb ostutaotluses nõutud toodete hankija ja hinna tuvastamiseks 
 
 Ostutaotluse saate ootele panna, valides leheküljel **Ostutaotluse üksikasjad** ruudu **Ootel**. Ostutaotluse töötlemist jätkatakse ainult siis, kui tühjendate ruudu märgistuse.  
 
-**Märkus.** E-hankes ostutaotlusele loodud pakkumiskutse võib lubada hankijatel alternatiivseid ridu lisada. Sellisel juhul kajastab ostutaotlus kinnitatud alternatiive.
+> [!NOTE]
+> E-hankes ostutaotlusele loodud pakkumiskutse võib lubada hankijatel alternatiivseid ridu lisada. Sellisel juhul kajastab ostutaotlus kinnitatud alternatiive.
 
 ## <a name="demand-consolidation"></a>Nõudluse konsolideerimine
 Mitme ostutaotluse rea konsolideerimisega saate parandada oma positsiooni hankijatega läbirääkimiste pidamisel, et saada soodsamaid hindu, vähendada tarne- ja käsitlemiskulusid ning ka üldkulusid.  
@@ -172,7 +173,8 @@ Konsolideerimisvõimalus on grupeeritud ostutaotluse ridade kogum, mis võimalda
 
 Pärast konsolideerimisvõimalusse taotluse ridade lisamist ja vajalike muudatuste tegemist saate luua ostutellimuse konsolideeritud ostutaotluse ridade alusel.  
 
-**Märkus.** Ostutaotluse reale leheküljel **Ostutaotluse konsolideerimine** tehtud muudatused kajastuvad loodavas ostutellimuses. Ostutaotluses olev rida siiski ei muutu, et selle ajalugu säiliks.  
+> [!NOTE]
+> Ostutaotluse reale leheküljel **Ostutaotluse konsolideerimine** tehtud muudatused kajastuvad loodavas ostutellimuses. Ostutaotluses olev rida siiski ei muutu, et selle ajalugu säiliks.  
 
 Ostutaotluse ridu, mis ei ole konsolideerimise jaoks sobilikud või mida ei valita konsolideerimisvõimaluse jaoks, tuleb ostutellimuse loomiseks käsitsi töödelda.
 

@@ -1,5 +1,5 @@
 ---
-title: Power Apps rakenduste manustamine Dynamics 365 – Core HR-is
+title: Power Apps rakenduste manustamine Dynamics 365 Human Resources'i
 description: Selles teemas selgitatakse, kuidas lahendada probleemi, mille käigus Microsoft Power Appsi menüükäsk on süsteemihalduse moodulist kadunud.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b1dd1756be349d85af8e6d7159623a2a95e75526
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8275a8a7c68fa13d6b9880c4c411deaa2dcbb998
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898708"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017869"
 ---
-# <a name="embed-power-apps-apps-in-dynamics-365---core-hr"></a>Power Apps rakenduste manustamine Dynamics 365 – Core HR-is
+# <a name="embed-power-apps-apps-in-dynamics-365-human-resources"></a>Power Apps rakenduste manustamine Dynamics 365 Human Resources'i
 
 **Väljastamine**
 
@@ -38,31 +38,31 @@ Kasutajaliidese (UI) kujundust muudeti ja Microsoft Power Apps on nüüd kaasatu
 
 Muudeti Power Appsi manustamise viisi. Power Apps lisatakse nüüd isikupärastamismudeli kaudu. Rakenduses Microsoft Dynamics 365 Talent saab Power Appsi lisada peaaegu kõigile lehtedele.
 
-Üksikasjalikku teavet Power Appsi rakenduste manustamise kohta Talentis vt jaotisest [Microsoft Power Appsi manustamine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Üksikasjalikku teavet Power Appsi rakenduste manustamise kohta Talentis vt jaotisest [Power Appsi manustamine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
 Enne muutust rakendused manustanud Power Appsi kliendid tuleb viia vastavusse uue mudeliga.
 
-Nupp **Power Apps** asub peaaegu igas Talenti lehe ülemises parempoolses nurgas. Seda nuppu saab kasutada Power Appsi sisestamiseks.
+Nupp **Power Apps** asub peaaegu igas Talenti lehe ülemises parempoolses nurgas. Seda nuppu saab kasutada rakenduse sisestamiseks.
 
 Siin on näide.
 
 1. Minge jaotisse **Personalihaldus \> Lingid \> Töötajad \> Töövõtjad**.
-2. Valige nupp **Power Apps** ja seejärel valige **Lisa PowerApp**.
+2. Valige nupp **Power Apps** ja seejärel valige **Rakenduse lisamine Power Appsist**.
 
     ![Power Appsi nupp](media/png.png)
 
-3. Täitke väljad dialoogiboksis **Lisa PowerApp**.
+3. Täitke väljad dialoogiaknas**Rakenduse lisamine Power Appsist**.
 
-    ![Dialoogiboks Lisa PowerApp](media/insert-powerapp.png)
+    ![Lisage rakendus Power Appsi dialoogiboksist](media/insert-powerapp.png)
 
 Teise võimalusena tehke järgmist.
 
-1. Tehke lehe toimingupaani vahekaardi **Suvandid** grupis **Isikupärasta** valik **Vormi isikupärastamine**.
+1. Tehke lehe toimingupaani vahekaardi **Suvandid** grupis **Isikupärasta** valik **Lehe isikupärastamine**.
 
     ![Grupp Isikupärasta vahekaardil Suvandid](media/options.png)
 
     Ilmub isikupärastamise tööriistariba.
 
-2. Valige tööriistaribal **Lisa \> PowerApp**.
+2. Valige tööriistaribalt valik **Rakenduse lisamine Power Appsist**.
 
-    ![Power Appsi rakenduse lisamine isikupärastamise tööriistariba kasutades](media/powerapp-bar.png)
+    ![Lisage isikupärastamise tööriistariba abil rakendus Power Appsist](media/powerapp-bar.png)

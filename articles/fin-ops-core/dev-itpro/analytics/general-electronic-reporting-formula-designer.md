@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0028d1f64aced1bbff91b18456c81adbb95bce30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914814"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002516"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Valemikoostaja elektroonilises aruandluses (ER)
 
@@ -51,7 +51,7 @@ ER toetab valemikoostajat. Seega saate koostamise ajal konfigureerida avaldisi, 
 - Protsessi juhtimise kinnituste tingimuste määratlemine.
 - Protsessi juhtimise kinnituste teate tekstide määratlemine.
 
-## <a name="Binding">Andmete sidumine</a>
+## <a name="Binding"></a>Andmete sidumine
 
 ER-i valemikoostajat saab kasutada määratlemaks avaldist, mis teisendab andmeid, mis saadakse andmeallikatest, nii et käitamisel saab sisestada andmeid andmete tarbijas järgmiselt.
 
@@ -69,7 +69,7 @@ Järgmine joonis näitab, kuidas seda tüüpi avaldist saab kasutada. Selles nä
 
 Käitusajal ümardab koostatud valem `ROUND (Intrastat.AmountMST, 2)` välja **AmountMST** väärtuse tabeli Intrastat iga kirje puhul kahe kümnendkohani. Seejärel sisestab see ümardatud väärtuse andmemudeli **Maksu aruandlus** komponenti **Transaction.InvoicedAmount**.
 
-## <a name="Transformation">Andmete vormindamine</a>
+## <a name="Transformation"></a>Andmete vormindamine
 
 ER-i valemikoostajat saab kasutada määratlemaks avaldist, mis vormindab andmeid, mis saadakse andmeallikatest, nii et andmeid saab saata elektroonilise dokumendi loomise osana. Teil võib olla vorming, mida tuleb rakendada tüüpilise reeglina, mida tuleb vormingu puhul taaskasutada. Sel juhul saate seda vormingut kasutada ühe korra vormingu konfiguratsioonis nimega teisendusena, millel on vormindamisavaldis. Selle nimelise teisenduse saab siduda paljude vormingu komponentidega, mille väljund peab olema vormindatud loodud vormindamisavaldise järgi.
 
@@ -87,7 +87,7 @@ Kui teil on vorming, mida tuleb rakendada eraldi, saab selle kasutusele võtta k
 
 [![Vorminduse rakendamine üksikule komponendile](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation">Protsessi voo juhtimine</a>
+## <a name="Validation"></a>Protsessi voo juhtimine
 
 ER-i valemikoostajat saab kasutada elektrooniliste dokumentide loomise protsessivoo juhtimiseks kasutatavate avaldiste määratlemiseks. Saate teha järgmisi toiminguid.
 
@@ -112,7 +112,7 @@ ER-i valemikoostajat saab kasutada ka faili nime loomiseks loodavale elektroonil
 
 [![Protsessi voo juhtimine](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled">Dokumendi sisu juhtelement</a>
+## <a name="Enabled"></a>Dokumendi sisu juhtelement
 
 ER-valemi koostajaga saab seadistada väljendeid, millega valitakse, mis andmeid pannakse käitusajal loodud elektroonilistesse dokumentidesse. Väljendid võivad lubada või keelata vormingu teatud elementide väljundit vastavalt töödeldavatele andmetele ja seadistatud loogikale. Neid väljendeid saab sisestada ühes vormingus elemendi jaoks lehe **Tegevuste kujundaja** vahekaardi **Vastendamine** väljal **Lubatud**. Saate sisestada avaldisi loogika tingimusena, mis tagastab väärtuse *Kahendmuutuja*.
 
@@ -139,7 +139,7 @@ Järgmisel joonisel on näidatud seda tüüpi avaldised. (Näitena on kasutatud 
 > 
 > Vastavalt sellele seadistusele sisaldab iga deeboitori makse (XML-elemendi **Ustrd**) jaoks loodud sõnum kas maksemärkmete teksti või sellise teksti puudumisel komaga eraldatud arve numbreid, mida kasutatakse makse arveldamiseks.
 
-## <a name="TestFormula">Konfigureeritud valemite valideerimine</a>
+## <a name="TestFormula"></a>Konfigureeritud valemite valideerimine
 
 Lehel **Valemi kujundaja** valige suvand **Katse**, et valideerida konfigureeritud valemi töötamisviis.
 

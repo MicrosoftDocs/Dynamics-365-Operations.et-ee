@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: adfb8ffce3f91c0e8e8b996c284414f5ddc1baf1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562526"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004061"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Kauba ja toormaterjali jälgimine varude, tootmise ja müügi puhul
 
@@ -44,7 +44,7 @@ Kauba jälgimine on ärianalüüsi (BI) tööriist, mis annab ülevaate kaupade 
 -   Uurige, kus kaupa või toormaterjali muu kauba tootmisel tarbiti.
 
 ## <a name="what-can-i-trace-and-are-there-any-limitations"></a>Mida saan jälgida ja kas kehtib mõni piirang?
-Saate jälgida kaupade ja toormaterjalide ajaloolisi laokandeid, mis põhinevad kaubakoodil ja jälgimisdimensioonil, nagu seerianumber, partiinumber või hankija partiinumber. Kaupa või toormaterjali saab jälgida ainult juhul, kui sellele on määratud jälgimisdimensioon. Kuna jälgimine põhineb laokandel, on kaupade jälgimisel mõned piirangud. Näiteks on olemas projektide kannete, põhivarade ja jaemüügiga seotud piirangud. Lisaks kuvatakse jälgimise üksikasjades kaastooted, kuid kõrvalsaadusi ei kaasata. Jälgimine hõlmab kõiki laokandeid ühest asukohast teiseni. Seetõttu võivad kasutajad leida, et teavet on liiga palju. Korraga kuvatakse ühe juriidilise isiku jälgimisandmed. Kontsernisiseses kontekstis puuduvad ettevõteteülesed võimalused. Kui kaup vastu võetakse või väljastatakse, tuleb alustada iga ettevõtte puhul uut jälgimist.
+Saate jälgida kaupade ja toormaterjalide ajaloolisi laokandeid, mis põhinevad kaubakoodil ja jälgimisdimensioonil, nagu seerianumber, partiinumber või hankija partiinumber. Kaupa või toormaterjali saab jälgida ainult juhul, kui sellele on määratud jälgimisdimensioon. Kuna jälgimine põhineb laokandel, on kaupade jälgimisel mõned piirangud. Näiteks on olemas projektide kannete, põhivarade ja kaubandusega seotud piirangud. Lisaks kuvatakse jälgimise üksikasjades kaastooted, kuid kõrvalsaadusi ei kaasata. Jälgimine hõlmab kõiki laokandeid ühest asukohast teiseni. Seetõttu võivad kasutajad leida, et teavet on liiga palju. Korraga kuvatakse ühe juriidilise isiku jälgimisandmed. Kontsernisiseses kontekstis puuduvad ettevõteteülesed võimalused. Kui kaup vastu võetakse või väljastatakse, tuleb alustada iga ettevõtte puhul uut jälgimist.
 
 ## <a name="what-criteria-can-i-specify-for-an-item-trace"></a>Millised kriteeriumid saab kauba jälgimisele määrata?
 Kauba jälgimisel on nõutavad kriteeriumid kaubakood, jälgimisdimensioon (nt partiinumber või seerianumber) ja suund. Järgmises tabelis kirjeldatakse kriteeriume, mida saate kauba jälgimisel kasutada.

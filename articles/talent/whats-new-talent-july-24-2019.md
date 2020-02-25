@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ffbb29fb89ed6a3fd6db11f2c8d656ab565c43f3
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8d89b1251429281521f32338f642cc7034420e0b
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897645"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005982"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (23. juuli 2019)
 
@@ -73,6 +73,6 @@ Uus suvand võimaldab juhtidel vaadata nii oma otseste kui ka kaudsete alluvate 
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Piirkonna tugi Kanadas ja Kagu-Aasias
 
-Meil on hea meel teatada, et Kanada ja Kagu-Aasia piirkonnad on saadaval teenuse Talent jaoks 1. augustil 2019. Selle muudatusega saate luua keskkondasid Kanada ja Aasia regioonides ning kõik Talenti andmed säilitatakse ainult nende asukohtade piires. Saate luua keskkonna nendes uutes piirkondades, valides uue keskkonna dialoogis asukoha ja kasutada seda keskkonda, et valmistada ette Talenti LCS-is, nagu on kirjeldatud siin [Provision Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Meil on hea meel teatada, et Kanada ja Kagu-Aasia piirkonnad on saadaval teenuse Talent jaoks 1. augustil 2019. Selle muudatusega saate luua keskkondasid Kanada ja Aasia regioonides ning kõik Talenti andmed säilitatakse ainult nende asukohtade piires. Saate luua keskkonna nendes uutes piirkondades, valides uue keskkonna dialoogis asukoha ja kasutada seda keskkonda, et valmistada ette Talenti LCS-is, nagu on kirjeldatud siin [Provision Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Teiste piirkondade ning Kanada ja Aasia piirkondade olemasolevate projektide andmeid ei toetata. Uutele toetatud piirkondadele saab ette valmistada ainult uusi projekte.

@@ -1,5 +1,5 @@
 ---
-title: Krediidi ja võlanõuete seadistamine
+title: häälestage kogumid
 description: See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,18 +18,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ed075484f79d7ef7d0d4e6d62d037bb3e9cc96f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58d3e7f66ab5816849d393098d073ea7629e6b7c
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177395"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013159"
 ---
-# <a name="set-up-credit-and-collections"></a>Krediidi ja võlanõuete seadistamine
+# <a name="set-up-collections"></a>häälestage kogumid
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada.
+See artikkel selgitab, kuidas sissenõuete funktsiooni seadistada. Sissenõudmise võimaluse kasutamisel peate täitma mõned seadistuse etapid. Samuti on olemas mõned valikulised võimalused, sh kliendikaustad ja sissenõudmise meeskonnad. 
+
+- Aegumisperioodi määratlused
+- Aegumise hetktõmmised
+- Töölehe nimed
+- Kannete mahakandmise põhjuse kood
+- Inkassaatorid
+- Mahakandmise konto
+- NSF-i (ebapiisavad vahendid) teave
+- Outlooki seadistused neile, kes kasutavad lehte **Sissenõuded**
+- Meiliaadressid
+
+Neid punkte arutatakse täpsemalt selle teema ülejäänud osas. 
 
 <a name="set-up-aging-period-definitions"></a>Aegumisperioodide definitsioonide häälestamine
 -------------------------------
@@ -46,7 +58,7 @@ Saate seadistada kliendikaustad kliendigruppide esindamiseks. Saate kasutada kli
 Kui mitu inimest teie organisatsioonis töötab sissenõuetega, saate seadistada sissenõuete töörühma. Saate valida töörühma lehelt **Müügireskontro parameetrid**. Kui te ei loo sissenõuete töörühma, luuakse töörühm automaatselt, kui seadistate inkassaatoreid lehel **Inkassaator**.
 
 ## <a name="set-up-a-collections-case-category"></a>Saate seadistada sissenõuete juhtumikategooria
-Kui korraldate oma sissenõuete töö juhtumeid kasutades, seadistage juhtumikategooria kategooriatüübiga **Sissenõuded**. Seda seadistust on vaja ainult siis, kui soovite kasutada juhtumi funktsiooni lehel **Sissenõuded**.
+Juhtumite kasutamiseks oma sissenõuete töö korraldamiseks, seadistage juhtumikategooria kategooriatüübiga **Sissenõuded**. See on vajalik ainult siis, kui soovite kasutada juhtumi funktsiooni lehel **Sissenõuded**.
 
 ## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Töölehe nimede seadistamine (tasakaalustus, mahakandmine ja NSF)
 Saate seadistada töölehenimed, mida kasutatakse kannete töötlemisel lehel **Sissenõuded**. See töötlemine hõlmab kande tasakaalustamist, kande mahakandmist ja ebapiisavate vahenditega (NSF) makse töötlemist.
@@ -78,16 +90,19 @@ Uuendage pangakontosid nii, et neil on õige tööleht, kui lehel **Sissenõuded
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Seadistage Outlooki seaded lehe Sissenõuded kasutajate jaoks
 Enne kui töötajad saavad lehe **Sissenõuded** abil tegevusi luua või meilisõnumeid saata, tuleb veenduda, et oleks valitud konfiguratsioonivõti **Microsoft Outlooki sünkroonimine** ja nende töötajate puhul oleks seadistatud Outlooki sünkroonimine.
 
-## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Sissenõuete kliendikontaktide e-posti ja aadressi seadete häälestamine
-Seadistage kliendikontaktide e-posti aadressid, kui soovite saata meile neile kontaktidele lehelt **Sissenõuded**. Sissenõuete kontakti kasutatakse vaikimisi kontaktina lehel **Sissenõuded**. Saate seadistada kliendi väljavõtte aadressi, kui väljavõtete aadress peab erinema peamisest aadressist. 
+## <a name="set-up-email-and-addresses"></a>E-posti ja aadresside seadistamine
+Saate kasutada e-posti, et suhelda nii klientide kui müüjatega sissenõudmise probleemise kohta, saates meilisõnumeid lehelt **Sissenõuded**. 
+
+### <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Sissenõuete kliendikontaktide e-posti ja aadressi seadete häälestamine
+Seadistage kliendikontaktide meiliaadressid, et saata neile kontaktidele meilisõnumeid lehelt **Sissenõuded**. Sissenõuete kontakti kasutatakse vaikimisi kontaktina lehel **Sissenõuded**. Saate seadistada kliendi väljavõtte aadressi, kui väljavõtete aadress peab erinema peamisest aadressist. 
 
 Valige kliendi kiirkaardil **Krediit ja sissenõuded** väljal **Sissenõuete kontakt** kliendi organisatsioonis töötav inimene, kes teie inkassaatoriga koostööd teeb. Seda inimest kasutatakse vaikekontaktina lehel **Sissenõuded** ja meilisõnumid saadetakse talle. 
 
 > [!NOTE] 
 > Kui sissenõuete kontaktisik pole kliendi puhul määratud, kasutatakse kliendi peamist kontaktisikut. Kui peamist kontaktisikut pole määratud, saadetakse meilisõnumid esimesele lehel **Kontaktid** loetletud aadressile.
 
-## <a name="set-up-email-settings-for-salespeople"></a>Saate seadistada müügitöötajate e-posti seaded
-Seadistage müügitöötajate meiliaadressid, kui soovite saata meile müügitöötajatele lehelt **Sissenõuded**. Seadistage iga komisjonimüügi grupi iga müügiesindaja meiliaadress. Müügiesindaja, kelle puhul on ruut **Kontakt** valitud, on vaikimisi müügiesindaja, kellele meile saadetakse. 
+### <a name="set-up-email-settings-for-salespeople"></a>Saate seadistada müügitöötajate e-posti seaded
+Seadistage müügitöötajate meiliaadressid, et saata müügitöötajatele meilisõnumeid lehelt **Sissenõuded**. Seadistage iga komisjonimüügi grupi iga müügiesindaja meiliaadress. Müügiesindaja, kelle puhul on ruut **Kontakt** valitud, on vaikimisi müügiesindaja, kellele meile saadetakse. 
 
 Kui müügiesindaja on määramata, kasutatakse kliendi organisatsiooni peamist müügiesindajat. Kui peamist müügiesindajat pole määratud, saadetakse meilisõnumid esimesele lehel nimetatud müügiesindajale.
 

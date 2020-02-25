@@ -1,6 +1,6 @@
 ---
 title: Käibemaksu määramine ja tühistamised
-description: See protseduur näitab, kuidas jaemüügikanalitele käibemaksugruppe määrata.
+description: See protseduur näitab, kuidas kaubanduse kanalitele käibemaksugruppe määrata.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fbaa467c22656aa8d1e39d26a8233250e2bb66f8
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 40723d35c1914f6cec6aa361a6c38100d1667cb6
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026597"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003623"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>Käibemaksu määramine ja tühistamised
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-See protseduur näitab, kuidas jaemüügikanalitele käibemaksugruppe määrata. Samuti näitab see uue käibemaksu tühistamise loomise protsessi ja selle määramist olemasolevale käibemaksu tühistamise grupile. Protseduur kasutab demoettevõtte USRT andmeid.
+See protseduur näitab, kuidas kaubanduse kanalitele käibemaksugruppe määrata. Samuti näitab see uue käibemaksu tühistamise loomise protsessi ja selle määramist olemasolevale käibemaksu tühistamise grupile. Protseduur kasutab demoettevõtte USRT andmeid.
 
-1. Avage Jaemüük ja kaubandus > Kanalid > Jaemüügikauplused > Kõik jaemüügikauplused.
-2. Klõpsake loendis jaemüügikanali ID linki Houston.
+1. Minge jaotisse Jaemüük ja kaubandus > Kanalid > Kauplused > Kõik kauplused.
+2. Klõpsake loendis kanali ID linki „Houston”.
 3. Klõpsake nuppu Redigeeri.
     * Väljal Käibemaksugrupp on praeguse ettevõtte käibemaksugruppide loend. Praegu määratud grupp on üldine käibemaksugrupp Texas. On ka käibemaksugrupid "Washington" ja "Washington, Kingi maakond." Käibemaksugruppidesse saate kaasata mitme omavalitsuse asjakohased maksud.  
     * Väljal Käibemaksu tühistamine saab käibemaksu tühistamise gruppe kanaliga vastendada. Käibemaksu tühistamise gruppe saab kasutada mitme kaupluse puhul toimivate käibemaksu tühistamiste grupeerimiseks. Selle asemel, et määrata käibemaksu tühistamisi ükshaaval, saab luua grupi ja määrata selle aja säästmiseks otse kanalitele.  
@@ -43,8 +43,8 @@ See protseduur näitab, kuidas jaemüügikanalitele käibemaksugruppe määrata.
 10. Määrake olekuks Luba.
 11. Laiendage või ahendage jaotist Tühistamine.
 12. Valige suvand väljalt Tüüp.
-    * Kauba käibemaksugruppe saab kasutada konkreetsete gruppi kuuluvate kaupade maksude alistamiseks. Näiteks toidukaupu maksustatakse tavaliselt tarbekaupadest erinevalt ja neil on tõenäoliselt oma käibemaksugrupp.     Käibemaksugrupid on konkreetsele kanalile rakendatavad maksude grupid. Näiteks kui kanal teeb nii jaemüüki kui ka ettevõtetevahelist müüki, võidakse kasutada erinevaid kaupade käibemaksugruppe. Kõik kohaldatavad maksud vastendatakse käibemaksugrupiga.  
-    * Nüüd saate teha käibemaksu tühistamise loomiseks maksude kohta valikuid Algväärtus ja Sihtväärtus või Maksugrupist ja Maksugrupiks.    Väli Algväärtus tähistab tühistatavat maksu või maksugruppi. Kauba käibemaksugrupi järgi tühistamine annab teistsuguseid valikuid kui käibemaksugrupi järgi tühistamine.    Käibemaksu tühistamised saab seadistada nii, et maksud tühistatakse kõigil kannetel või konkreetsetel kande ridadel.  
+    * Kauba käibemaksugruppe saab kasutada konkreetsete gruppi kuuluvate kaupade maksude alistamiseks. Näiteks toidukaupu maksustatakse tavaliselt tarbekaupadest erinevalt ja neil on tõenäoliselt oma käibemaksugrupp. Käibemaksugrupid on konkreetsele kanalile rakendatavad maksude grupid. Näiteks kui kanal teeb nii jaemüüki kui ka ettevõtetevahelist müüki, võidakse kasutada erinevaid kaupade käibemaksugruppe. Kõik kohaldatavad maksud vastendatakse käibemaksugrupiga.  
+    * Nüüd saate teha käibemaksu tühistamise loomiseks maksude kohta valikuid Algväärtus ja Sihtväärtus või Maksugrupist ja Maksugrupiks. Väli Algväärtus tähistab tühistatavat maksu või maksugruppi. Kauba käibemaksugrupi järgi tühistamine annab teistsuguseid valikuid kui käibemaksugrupi järgi tühistamine. Käibemaksu tühistamised saab seadistada nii, et maksud tühistatakse kõigil kannetel või konkreetsetel kande ridadel.  
 13. Klõpsake nuppu Salvesta.
 14. Sulgege leht.
 15. Avage Jaemüük ja kaubandus > Kanali seadistus > Käibemaksud > Käibemaksu tühistamise grupid.

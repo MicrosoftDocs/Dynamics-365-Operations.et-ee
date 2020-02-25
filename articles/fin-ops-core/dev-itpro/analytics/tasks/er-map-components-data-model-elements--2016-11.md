@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a033853be17d6013daa5550ca9c061198bb0330
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184734"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026236"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>Elektrooniline aruandlus. Loodud vormingu komponentide vastendamine andmemudeli elementidega (november 2016)
 
@@ -98,7 +98,7 @@ Järgmine protseduur näitab, kuidas süsteemiadministraatori või elektroonilis
 2. Sulgege leht.
 
 ## <a name="change-status-of-the-current-version-of-format-configuration"></a>Vormingu konfiguratsiooni praeguse versiooni oleku muutmine
-    * Järgmistes etappides muudate vormingu konfiguratsiooni oleku suvandilt Mustand suvandile Lõpule viidud, et muuta see maksedokumendi loomiseks kättesaadavaks.  
+Järgmistes etappides muudate vormingu konfiguratsiooni oleku suvandilt Mustand suvandile Lõpule viidud, et muuta see maksedokumendi loomiseks kättesaadavaks.  
 1. Klõpsake valikut Muuda olekut.
 2. Klõpsake valikut Valmis.
 3. Sisestage väljale Kirjeldus soovitud väärtus.
@@ -108,7 +108,7 @@ Järgmine protseduur näitab, kuidas süsteemiadministraatori või elektroonilis
     * Pange tähele, et konfiguratsioon salvestatakse kui lõpetatud versioon 1.1: andmemudeli versioonil 1 põhineva vormingu versioon 1.  
 
 ## <a name="define-effective-date-for-completed-version-of-format"></a>Vormingu lõpetatud versiooni jõustumiskuupäeva määratlemine
-    * Iga vormingu versiooni saab konfigureerida kasutamiseks kättesaadavaks teatud kuupäevast alates. Kui kindlal kuupäeval on aktiivne rohkem kui ühe vormingu versioon, valitakse kasutamiseks uusim vorming (versiooninumbri põhjal). Õige versiooni valimiseks kasutatakse seansi kuupäeva väärtust.  
+Iga vormingu versiooni saab konfigureerida kasutamiseks kättesaadavaks teatud kuupäevast alates. Kui kindlal kuupäeval on aktiivne rohkem kui ühe vormingu versioon, valitakse kasutamiseks uusim vorming (versiooninumbri põhjal). Õige versiooni valimiseks kasutatakse seansi kuupäeva väärtust.  
 
 ## <a name="restrict-access-to-created-format-from-companies"></a>Juurdepääsu piiramine loodud vormingult ettevõtetelt
 1. Laiendage jaotist ISO-riigi-/regioonikoodid.

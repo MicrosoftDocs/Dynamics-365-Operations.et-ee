@@ -1,9 +1,9 @@
 ---
-title: Commerce’i eelvaatekeskkonna ettevalmistamine
+title: Dynamics 365 Commerce’i eelvaatekeskkonna ettevalmistamine
 description: Selles teemas selgitatakse, kuidas valmistada ette Microsoft Dynamics 365 Commerce’i eelvaatekeskkond.
 author: psimolin
 manager: annbe
-ms.date: 01/06/2020
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,28 +18,28 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b77d2cbbc100aeae5dcd53ddbe69ff2e4435da13
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: cbd4c118de2e91c8849461b20a01403049a07e66
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934744"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024632"
 ---
-# <a name="provision-a-commerce-preview-environment"></a>Commerce’i eelvaatekeskkonna ettevalmistamine
+# <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce’i eelvaatekeskkonna ettevalmistamine
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas valmistada ette Microsoft Dynamics 365 Commerce’i eelvaatekeskkond.
+Selles teemas selgitatakse, kuidas valmistada ette Dynamics 365 Commerce’i eelvaatekeskkond.
 
-Enne alustamist soovitame teil kogu see teema vähemalt läbi sirvida, et saada aimu, mida protsess hõlmab ja mida see teema sisaldab.
+Enne alustamist soovitame teil see teema kiiresti läbi vaadata, et saada protsessi nõudmistest aimu.
 
 > [!NOTE]
-> Kui te pole veel andnud juurdepääsu rakenduse Dynamics 365 Commerce eelvaatele, saate taotleda eelvaate juurdepääsu [Commerce’i veebisaidilt](https://aka.ms/Dynamics365CommerceWebsite).
+> Kui te pole veel andnud juurdepääsu rakenduse Dynamics 365 Commerce eelvaatele, saate taotleda eelvaate juurdepääsu [Dynamics 365 Commerce’i veebisaidilt](https://aka.ms/Dynamics365CommerceWebsite).
 
 ## <a name="overview"></a>Ülevaade
 
-Oma Commerce’i eelvaatekeskkonna edukaks ettevalmistamiseks peate looma projekti, millel on kindel toote nimi ja tüüp. Keskkonnal ja teenusel Retail Cloud Scale Unit (RCSU) on samuti mõned konkreetsed parameetrid, mida peate kasutama, kui hiljem e-kaubandust ette valmistate. Selle teema juhised kirjeldavad kõiki vajalikke etappe, mida peate täitma ja millised parameetreid peate kasutada.
+Oma Commerce’i eelvaatekeskkonna edukaks ettevalmistamiseks peate looma projekti, millel on kindel toote nimi ja tüüp. Keskkonnal ja kaubanduse skaala üksusel (CSU) on samuti mõned konkreetsed parameetrid, mida peate kasutama, kui hiljem e-kaubandust ette valmistate. Selle teema juhised kirjeldavad kõiki vajalikke etappe, mida peate ettevalmistamiseks täitma, ja milliseid parameetreid peate kasutada.
 
 Pärast seda, kui olete oma Commerce’i eelvaatekeskkonna edukat ette valmistanud, peate läbima ettevalmistamiseks mõned hilisemad etapid. Mõned etapid on valikulised, olenevalt sellest, milliseid süsteemi aspekte soovite hinnata. Võite valikulised etapid alati hiljem läbida.
 
@@ -52,69 +52,21 @@ Kui teil on küsimusi ettevalmistamise etappide kohta või esineb probleeme, and
 Enne Commerce’i eelvaatekeskkonna ettevalmistamist peavad olema kehtestatud järgmised eeltingimused.
 
 - Teil on juurdepääs Microsoft Dynamicsi portaalile Lifecycle Services (LCS).
+- Olete olemasolev Microsoft Dynamics 365 partner või klient ja olete võimeline looma Dynamics 365 Commerce’i projekti.
 - Teid on rakenduse Dynamics 365 Commerce eelvaate programmi vastu võetud.
-- Teil on vajalikud õigused, et luua projekt suvandile **Potentsiaalsed eelmüügid** või **Migreerimine, lahenduste loomine ja teave**.
+- Teil on vajalikud õigused, et luua projekt suvandile **Migreerimine, lahenduste loomine ja teave**.
 - Olete rolli **Keskkonnahaldur** või **Projekti omanik** liige projektis, kus te keskkonna ette valmistate.
 - Teil on administraatori juurdepääs oma Microsoft Azure’i tellimusele või olete ühenduses tellimise administraatoriga, kes saab teie nimel lõpetada kaks etappi, mis nõuavad administraatori õigusi.
 - Teie Azure Active Directory (Azure AD) rentniku ID on saadaval.
 - Olete loonud Azure AD turberühma, mida saab kasutada e-kaubanduse süsteemiadministraatorite grupina ja mille ID on saadaval.
 - Olete loonud Azure AD turberühma, mida saab kasutada hinnangute ja arvustuste moderaatori grupina ja mille ID on saadaval. (See turberühm võib olla sama, mis e-kaubanduse süsteemiadministraatorite grupp.)
 
-### <a name="find-your-azure-ad-tenant-id"></a>Oma Azure AD rentniku ID leidmine
-
-Teie Azure AD rentniku ID on globaalne ainuidentifikaator (GUID), mis meenutab järgmist näidet **72f988bf-86f1-41af-91ab-2d7cd011db47**.
-
-#### <a name="find-your-azure-ad-tenant-id-by-using-the-azure-portal"></a>Oma Azure AD rentniku ID leidmine Azure’i portaali kasutades
-
-1. Logige sisse [Azure’i portaali](https://portal.azure.com/).
-1. Veenduge, et valitud oleks õige kataloog.
-1. Valige vasakpoolses menüüs **Azure Active Directory**.
-1. Jaotises **Haldus** valige **Atribuudid**. Teie Azure AD rentniku ID kuvatakse jaotises **Kausta ID**.
-
-#### <a name="find-your-azure-ad-tenant-id-by-using-openid-connect-metadata"></a>Oma Azure AD rentniku ID leidmine OpenID ühenduse metaandmeid kasutades
-
-Looge OpenID URL, asendades **\{YOUR\_DOMAIN\}** oma domeeniga, nagu `microsoft.com`. Näiteks `https://login.microsoftonline.com/{YOUR_DOMAIN}/.well-known/openid-configuration` saab olema `https://login.microsoftonline.com/microsoft.com/.well-known/openid-configuration`.
-
-1. Avage OpenID URL, mis sisaldab teie domeeni.
-
-    Võite oma Azure AD rentniku ID leida mitme atribuudi väärtuses.
-
-1. Leidke **authorization\_endpoint** ja ekstraktige ilmuv GUID otse pärast `login.microsoftonline.com/`.
-
-### <a name="find-your-azure-ad-security-group-id"></a>Oma Azure AD turberühma ID leidmine
-
-Teie Azure AD turberühma ID on GUID, mis meenutab järgmist näidet **436ea7f5-ee6c-40c1-9f08-825c5811066a**.
-
-See protseduur eeldab, et olete grupi liige, mille jaoks soovite ID-d leida.
-
-1. Avage [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer#).
-1. Valige suvand **Logi sisse Microsoftiga** ja logige oma identimisteavet kasutades sisse.
-1. Vasakul valige suvand **Kuva rohkem näiteid**.
-1. Lubage parempoolsel paanil valik **Grupid**.
-1. Sulgege õige paan.
-1. Valige suvand **Kõik grupid, kuhu kuulun**.
-1. Leidke väljal **Vastuse eelvaade** oma grupp. Atribuudi ID all kuvatakse turberühma **id**.
-
 ## <a name="provision-your-commerce-preview-environment"></a>Oma Commerce’i eelvaatekeskkonna ettevalmistamine
 
 Need protseduurid selgitavad, kuidas valmistada ette Commerce’i eelvaatekeskkonda. Pärast nende edukat lõpetamist on Commerce’i eelvaatekeskkond konfigureerimiseks valmis. Kõik siin kirjeldatud tegevused esinevad LCS portaalis.
 
 > [!IMPORTANT]
-> Eelvaate juurdepääs on seotud LCS konto ja organisatsiooniga, mille määrasite oma eelvaate rakenduses. Peate kasutama Commerce’i eelvaatekeskkonna ettevalmistamiseks sama kontot. Kui peate kasutama Commerce’i eelvaatekeskkonna jaoks erinevat LCS kontot või rentnikku, peate teavitama Microsofti nendest üksikasjadest. Kontaktandmete jaoks vaadake selles teema jaotist [Commerce’i eelvaatekeskkonna tugi](#commerce-preview-environment-support).
-
-### <a name="grant-access-to-e-commerce-applications"></a>Juurdepääsu andmine e-kaubanduse rakendustele
-
-> [!IMPORTANT]
-> Isik, kes logib sisse, peab olema Azure AD rentniku administraator, kellel on Azure AD rentniku ID. Kui seda etappi edukalt lõpule ei viida, siis ülejäänud ettevalmistamise etapid ei õnnestu.
-
-E-kaubanduse rakenduste autoriseerimiseks Azure’i tellimusele juurdepääsuks toimige järgmiselt.
-
-1. Koostage URL järgmises vormingus.
-
-    `https://login.windows.net/{AAD_TENANT_ID}/oauth2/authorize?client_id=fbcbf727-cd18-4422-a723-f8274075331a&response_type=code&redirect_uri=https://sb.manage.commerce.dynamics.com/_commerce/Consent&response_mode=query&prompt=admin_consent&state=12345`
-
-1. Kopeerige ja kleepige URL brauserisse või tekstiredaktorisse ning asendage **\{AAD\_TENANT\_ID\}** oma Azure AD rentniku ID-ga. Seejärel avage URL.
-1. Logige Azure AD sisselogimise dialoogiboksis sisse ja kinnitage, et soovite anda teenusele **Dynamics 365 Commerce (eelvaade)** juurdepääsu oma tellimusele. Teid suunatakse lehele, mis näitab, kas toiming õnnestus.
+> Eelvaate juurdepääs on seotud LCS-i konto ja organisatsiooniga, mille määrasite oma Commerce’i eelvaate rakenduses. Peate kasutama Commerce’i eelvaatekeskkonna ettevalmistamiseks sama kontot. Kui peate kasutama Commerce’i eelvaatekeskkonna jaoks erinevat LCS-i kontot või rentnikku, peate teavitama Microsofti nendest üksikasjadest. Kontaktandmete jaoks vaadake selles teema jaotist [Commerce’i eelvaatekeskkonna tugi](#commerce-preview-environment-support).
 
 ### <a name="confirm-that-preview-features-are-available-and-turned-on-in-lcs"></a>Kinnitamine, et eelvaate funktsioonid on saadaval ja LCS-is sisse lülitatud
 
@@ -210,12 +162,12 @@ Järgmisel joonisel on näha tegevused, mis tuleb teha LCS-i lehel **Varateek**.
 Keskkonna juurutamiseks tehke järgmist.
 
 > [!NOTE]
-> Võimalik, et te ei pea samme 6, 7 ja/või 8 läbima, kuna ühe suvandi ekraanid jäetakse vahele. Kui olete vaates **Keskkonna parameetrid** kinnitage, et teil on tekst **Dynamics 365 Commerce (eelvaade) – demo (10.0.6 platvormi värskendus 30)** otse välja **Keskkonna nimi** kohal. Vt joonist, mis kuvatakse pärast sammu 8.
+> Võimalik, et te ei pea samme 6, 7 ja/või 8 läbima, kuna ühe suvandi ekraanid jäetakse vahele. Kui olete vaates **Keskkonna parameetrid**, kinnitage, et tekst **Dynamics 365 Commerce (eelvaade) – demo (10.0.* x* platvormi värskendus *xx*)** kuvatakse otse välja **Keskkonna nimi** kohal. Üksikasju vt jooniselt, mis kuvatakse pärast sammu 8.
 
 1. Ülemises menüüs valige suvand **Pilve majutatud keskkonnad**.
 1. Valige suvand **Lisa** keskkonna lisamiseks.
-1. Valige väljal **Rakenduse versioon** suvand **10.0.6**.
-1. Väljal **Platvormi versioon** valige **Platvormi värskendus 30**.
+1. Väljal **Rakenduse versioon** valige uusim versioon. Kui teil on konkreetne vajadus valida rakenduse versioon, mis ei ole kõige uuem versioon, ärge valige varasemat versiooni kui **10.0.8**.
+1. Kasutage väljal **Platvormi versioon** platvormi versiooni, mis valitakse automaatselt valitud rakenduse versiooni jaoks. 
 
     ![Rakenduse ja platvormi versioonide valimine](./media/project1.png)
 
@@ -224,7 +176,7 @@ Keskkonna juurutamiseks tehke järgmist.
 
     ![Keskkonna topoloogia valimine 1](./media/project2.png)
 
-1. Valige keskkonna topoloogiaks **Dynamics 365 Commerce (eelvaade) – demo**. Kui olete varem konfigureerinud ühe Azure’i konnektori, kasutatakse seda selles keskkonnas. Mitme Azure’i konnektori konfigureerimisel saate valida, millist konnektorit kasutada: **Ida-USA**, **Ida-USA**2 **, Lääne-USA** või **Lääne-USA 2**. (Parima lõppeesmärgini jõudluse saavutamiseks soovitame valida **Lääne-USA 2**.)
+1. Valige keskkonna topoloogiaks **Dynamics 365 Commerce – Demo**. Kui olete varem konfigureerinud ühe Azure’i konnektori, kasutatakse seda selles keskkonnas. Mitme Azure’i konnektori konfigureerimisel saate valida, millist konnektorit kasutada: **Ida-USA**, **Ida-USA**2 **, Lääne-USA** või **Lääne-USA 2**. (Parima lõppeesmärgini jõudluse saavutamiseks soovitame valida **Lääne-USA 2**.)
 
     ![Keskkonna topoloogia valimine 2](./media/project3.png)
 
@@ -241,39 +193,38 @@ Keskkonna juurutamiseks tehke järgmist.
 
 1. Enne jätkamist veenduge, et teie keskkonna olek oleks **Juurutatud**.
 
-### <a name="initialize-rcsu"></a>RCSU lähtestamine
+### <a name="initialize-the-commerce-scale-unit-csu"></a>Kaubanduse skaala üksuse (Commerce Scale Unit, CSU) lähtestamine
 
-RCSU-i lähtestamiseks tehke järgmist.
+CSU-i lähtestamiseks tehke järgmist.
 
 1. Vaates **Pilve majutatud keskkonnad** valige loendist oma keskkond.
 1. Valige paremal olevast keskkonna vaatest **Täielik teave**. Ilmub keskkonna üksikasjade vaade.
 1. Jaotises **Keskkonna funktsioonid** valige käsk **Halda**.
-1. Vahekaardil **Jaemüük** valige **Lähtesta**. Ilmub RCSU lähtestamise parameetrite vaade.
+1. Vahekaardil **Kaubandus** valige käsk **Lähtesta**. Ilmub CSU lähtestamise parameetrite vaade.
 1. Väljal **Regioon** valige **Ida-USA**, **Ida-USA 2**, **Lääne-USA** või **Lääne-USA 2**.
-1. Väljal **Versioon** valige loendist suvand **Määra versioon** ja määrake seejärel kuvataval väljal **9.16.19262.5**. Määrake kindlasti siin näidatud täpne versioon. Vastasel juhul peate uuendama RCSU hiljem õigele versioonile.
+1. Väljal **Versioon** valige loendist suvand **Määra versioon** ja määrake seejärel kuvataval väljal **9.18.20014.4**. Määrake kindlasti siin näidatud täpne versioon. Vastasel juhul peate uuendama RCSU hiljem õigele versioonile.
 1. Lülitage suvand **Rakenda laiend** sisse.
 1. Laiendite loendist valige suvand **Kaubanduse eelvaate demobaasi laiend**.
 1. Valige **Lähtesta**.
-1. Juurutamise kinnituse lehel kinnitage, et üksikasjad oleksid õiged ja valige seejärel nupp **Jah**. Olete naasnud vaatesse **Jaemüügi haldus**, kus vahekaart **Jaemüük** on valitud. Teie RCSU on ettevalmistamiseks ootele pandud.
-1. Enne jätkamist veenduge, et teie RCSU olek oleks **Õnnestus**. Lähtestamiseks kulub umbes kaks kuni viis tundi.
+1. Juurutamise kinnituse lehel kinnitage, et üksikasjad oleksid õiged ja valige seejärel nupp **Jah**. Vaade **Kaubanduse haldus** kuvatakse uuesti, kus vahekaart **Kaubandus** on valitud. Teie CSU on ettevalmistamiseks ootele pandud.
+1. Enne jätkamist veenduge, et teie CSU olek oleks **Õnnestus**. Lähtestamiseks kulub umbes kaks kuni viis tundi.
 
 ### <a name="initialize-e-commerce"></a>E-kaubanduse lähtestamine
 
 E-kaubanduse lähtestamiseks tehke järgmist.
 
-1. Vahekaardil **E-kaubandus (eelvaade)** vaadake üle eelvaate nõusolek ja seejärel valige **Häälestus**.
+1. Vahekaardil **E-kaubandus** vaadake üle eelvaate nõusolek ja seejärel valige suvand **Seadistus**.
 1. Väljale **E-kaubanduse rentniku nimi** sisestage nimi. Võtke siiski arvesse, et see nimi on nähtav mõnes URL-is, mis viitavad teie e-kaubanduse eksemplarile.
-1. Väljal **Komponendi Retail Cloud Scale Unit nimi** valige loendist oma RCSU. (Loendis peaks olema ainult üks valik.)
+1. Väljal **Kaubanduse skaala üksuse nimi** valige loendist oma CSU. (Loendis peaks olema ainult üks valik.)
 
     Väli **E-kaubanduse geograafia** väli määratakse automaatselt ja väärtust ei saa muuta.
 
 1. Jätkamiseks valige nupp **Edasi**.
 1. Väljale **Toetatud hostinimed** mis tahes kehtiv domeen, nt `www.fabrikam.com`.
-1.  Väljale **AAD süsteemi administraatori turberühm** sisestage selle turberühma nime esimesed tähed, mida soovite kasutada. Otsingutulemuste kuvamiseks valige suurendusklaasi ikoon. Valige loendist turberühm.
-2.  Väljale **AAD hinnangute ja arvustuse moderaatori turberühm** sisestage selle turberühma nime esimesed tähed, mida soovite kasutada. Otsingutulemuste kuvamiseks valige suurendusklaasi ikoon. Valige loendist turberühm.
+1.  Väljale **AAD süsteemi administraatori turberühm** sisestage selle turberühma nime esimesed tähed, mida soovite kasutada. Otsingutulemuste kuvamiseks valige suurendusklaasi ikoon. Valige loendist õige turberühm.
+2.  Väljale **AAD hinnangute ja arvustuse moderaatori turberühm** sisestage selle turberühma nime esimesed tähed, mida soovite kasutada. Otsingutulemuste kuvamiseks valige suurendusklaasi ikoon. Valige loendist õige turberühm.
 1. Jätke suvand **Hinnangute ja arvustuste teenuse häälestuse lubamine** sisselülitatuks.
-1. Kui olete juba Microsoft Azure Active Directory (Azure AD) nõusoleku etapi lõpetanud, nagu on kirjeldatud jaotises „Juurdepääsu andmine e-kaubanduse rakendustele”, märkige oma nõusoleku kinnitamiseks ruut. Kui te pole seda etappi veel lõpetanud, peate seda tegema enne lähtestamise jätkamist. Valige märkeruudu kõrval tekstis link, et avada nõusoleku dialoogiboks ja lõpetada samm.
-1. Valige **Lähtesta**. Olete naasnud vaatesse **Jaemüügi haldus**, kus vahekaart **E-kaubandus (eelvaade)** on valitud. E-kaubanduse lähtestamine on käivitatud.
+1. Valige **Lähtesta**. Vaade **Kaubanduse haldus** kuvatakse uuesti, kus vahekaart **e-kaubandus** on valitud. E-kaubanduse lähtestamine on käivitatud.
 1. Enne jätkamist oodake, kuni teie e-kaubanduse lähtestamise olek on **Lähtestamine edukas**.
 1. All paremal jaotises **Lingid** märkige järgmiste linkide URL-id:
 
@@ -292,13 +243,13 @@ Oma Commerce’i eelvaatekeskkonna ettevalmistamise ja konfigueerimise protsessi
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Commerce'i eelvaatekeskkonna ülevaade](cpe-overview.md)
+[Dynamics 365 Commerce’i eelvaatekeskkonna ülevaade](cpe-overview.md)
 
-[Commerce'i eelvaatekeskkonna konfigureerimine](cpe-post-provisioning.md)
+[Dynamics 365 Commerce’i eelvaatekeskkonna konfigureerimine](cpe-post-provisioning.md)
 
-[Commerce'i eelvaatekeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
+[Dynamics 365 Commerce’i eelvaatekeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
 
-[Commerce'i eelvaatekeskkonna KKK](cpe-faq.md)
+[Dynamics 365 Commerce’i eelvaatekeskkonna KKK](cpe-faq.md)
 
 [Microsofti elutsükli teenused (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -308,4 +259,3 @@ Oma Commerce’i eelvaatekeskkonna ettevalmistamise ja konfigueerimise protsessi
 
 [Dynamics 365 Commerce veebisait](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Abiressursid rakenduse Dynamics 365 Retail jaoks](../retail/index.md)

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af8a30e69d9ed143e045950efdcece207f6da14c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697930"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003230"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>Tootesoovituste hankimine demoandmeid kasutades
 Selle dokumendi eesmärk on anda juhiseid, kuidas võimendada omnikanali tootesoovitusi esimese järgu ühe kasti keskkondades, kasutades eeltäidetud, kohandatavaid demoandmeid.
@@ -39,7 +39,7 @@ Esimese järgu keskkonna tootesoovitused põhinevad ainult CSV-failis talletatud
 Tootesoovituste demoandmete lubamiseks peate juurutama rakenduse Dynamics 365 Commerce demolaienduse eelvaate vastavate keskkondadega. See lubab automaatselt tootesoovituste demoandmed.
 
 ## <a name="default-demo-data"></a>Vaikedemoandmed
-Igas Onebox tüüpi keskkonnas on eellaaditud tootesoovituste komplekti demoandmed, mis on salvestatud komaeraldatud reco_demo_data.csv faili, mis asub jaemüügiserveris.
+Igas Oneboxi tüüpi keskkonnas on eellaaditud tootesoovituste komplekti demoandmed, mis on salvestatud komaeraldatud reco_demo_data.csv faili, mis asub Commerce’i skaala üksuses.
 
 Need andmed on liigendatud järgmiste veergude alusel.
 

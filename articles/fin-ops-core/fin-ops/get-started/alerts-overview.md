@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: a42e836c0b72798de3375c169e45b121debd55ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 12fadd8387054db3e19d4136555724c23548e05c
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191266"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031015"
 ---
 # <a name="alerts-overview"></a>Teatiste ülevaade
 
@@ -82,14 +82,14 @@ Teadete meiliteatised pole veel lubatud. See lubatakse tulevases värskenduses.
 
 ### <a name="how-to-use-alerts-to-monitor-filtered-data"></a>Kuidas kasutada teatisi filtreeritud andmete jälgimiseks
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3DWZ3]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-Video [Kuidas kasutada teatisi filtreeritud andmete jälgimiseks](https://youtu.be/ZYKMcv6kl9s) (eespool näidatud) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadavalYouTube'is.
+Video [Kuidas kasutada teatisi filtreeritud andmete jälgimiseks](https://youtu.be/ZYKMcv6kl9s) (eespool näidatud) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube'is.
 
 ### <a name="alert-rule-options"></a>Teatise reegli valikud
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E4PV]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-Video [Teatise reegli valikud](https://youtu.be/cpzimwOjicM) (eespool näidatud) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube'is.
+Video [Teatise reegli valikud](https://youtu.be/cpzimwOjicM) (eespool näidatud) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTubeis.
 
 

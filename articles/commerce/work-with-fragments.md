@@ -3,7 +3,7 @@ title: Fragmentidega töötamine
 description: Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32482538b2913e6585257bcf7a1cbe780d3cdd30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914696"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026036"
 ---
 # <a name="work-with-fragments"></a>Fragmentidega töötamine 
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
@@ -57,25 +57,34 @@ Järgmisel joonisel on näha, kuidas saab fragmente kasutada jagatud mooduli kon
 
 Saate kas luua uue fragmendi või salvestada olemasoleva mooduli konfiguratsiooni fragmendina.
 
+### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Olemasoleva mooduli konfiguratsiooni salvestamine fragmendina
+
+Varem konfigureeritud mooduli teisendamiseks korduskasutatavaks fragmendiks tehke järgmist.
+
+1. Avage leht või mall, mis sisaldab moodulit, mida soovite teisendada fragmendiks.
+1. Valige vasakul liigenduspaanil mooduli nime kõrval kolmikpunkti nupp (**...**). 
+1. Valige suvand **Jaga fragmendina**. 
+1. Kuvatakse dialoogiboks. Sisestage fragmendi nimi ja metaandmed.
+1. Valige nupp **OK**, et salvestada mooduli konfiguratsioon fragmendina, mida saab lisada teistele lehtedele.
+
+Järgmine pilt näitab, kuidas salvestada mooduli konfiguratsiooni fragmendina.
+
+![Mooduli konfiguratsiooni fragmendina salvestamise kuvahõive](./media/save-as-fragment.png)
+
 ### <a name="create-a-new-fragment"></a>Uue fragmendi loomine
 
 Uue fragmendi loomiseks tehke järgmist.
 
 1. Valige navigeerimispaanilt vasakult suvand **Fragmendid**.
 1. Valige suvand **Uus lehe fragment**. Kuvatakse dialoogiboks, kus on näha kõik saadaolevad mooduli tüübid. Nagu varem mainitud, fragmente saab luua igast mooduli tüübist.
-1. Valige fragmendi jaoks mooduli tüüp ja seejärel klõpsake nuppu **OK**.
+1. Valige oma fragmendi jaoks mooduli tüüp.
 
-    > [!TIP]
-    > Valides üldkonteineri mooduli tüübi, on teil hiljem fragmendi värskendamisel ja konfigureerimisel kõige rohkem vabadust.
+Järgmine pilt näitab, kus uus fragment luua.
 
-### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Olemasoleva mooduli konfiguratsiooni salvestamine fragmendina
+![Uue fragmendi loomiskoha kuvahõive](./media/fragment-nav-menu.png)
 
-Varem konfigureeritud mooduli teisendamiseks korduskasutatavaks fragmendiks tehke järgmist.
-
-1. Avage leht või mall, mis sisaldab moodulit, mida soovite teisendada fragmendiks.
-1. Vasakult liigenduspaanilt valige mooduli kõrvalt kolmikpunkti nupp (**...**) ja seejärel valige suvand **Salvesta fragmendina**. Kuvatakse dialoogiboks.
-1. Sisestage fragmendi nimi ja metaandmed.
-1. Valige nupp **OK**, et salvestada mooduli konfiguratsioon fragmendina, mida saab lisada teistele lehtedele.
+> [!TIP]
+> Valides üldkonteineri mooduli tüübi, on teil hiljem fragmendi värskendamise ja konfigureerimise vajadusel kõige rohkem vabadust.
 
 ## <a name="add-remove-or-edit-fragments-on-a-page"></a>Fragmentide lisamine, eemaldamine või redigeerimine lehel
 
@@ -88,11 +97,15 @@ Lehele fragmendi lisamiseks tehke järgmist.
 1. Valige vasakult liigenduspaanilt konteiner või pesa, kuhu võib lisada alammooduleid.
 1. Valige konteineri või pesa nime kõrvalt kolmikpunkti nupp ja seejärel käsk **Lisa fragment**. Kuvatakse dialoogiboks.
 
+    ![Olemasoleva fragmendi pessa või konteinerisse lisamise kuvahõive](./media/add-fragment.png)
+ 
     > [!NOTE]
     > Kui konteiner või pesa ei toeta uusi alammooduleid, ei ole käsk **Lisa fragment** saadaval.
-
+    
 1. Otsige ja valige lisamiseks dialoogiboksist fragment. Kui ühtegi saadaolevat fragmenti loendis pole, peate kõigepealt looma fragmendi mooduli tüübist, mida valitud konteiner või pesa toetab.
-1. Valige nupp **OK**, et lisada valitud fragment valitud konteinerile või pesale oma lehel.
+1. Valige soovitud fragment, et lisada see oma lehel konteinerile või pesale.
+
+    ![Fragmendi valija modaalakna ekraanihõive](./media/fragment-picker.png)
 
 > [!NOTE]
 > Konteineris või pesas lubatud moodulid on määratletud lehe malli või moodulite enda määratlustega.

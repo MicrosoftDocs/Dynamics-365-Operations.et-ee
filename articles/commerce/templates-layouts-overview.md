@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914837"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002678"
 ---
 # <a name="templates-and-layouts-overview"></a>Mallide ja paigutuste ülevaade
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Mallid on rakenduse Microsoft Dynamics 365 Commerce lehemudeli põhielemendid. Kui teie eesmärk on muuta saidi loomise töövood võimalikult tõhusaks ja järjepidevaks, on oluline, et teaksite, kuidas malle oma veebisaidil ära kasutada. Varased otsused malli struktuuri kohta on olulised ning võivad oluliselt mõjutada igapäevaste, hooajaliste ja saidiüleste kaubamärgi värskenduste kulu ja kiirust. Hea struktuuriga mallidel on teisigi eeliseid. Näiteks aitavad need parandada saidiülese otsingumootori optimeerimise (SEO) skoore ja minimeerivad vigade esinemissagedust.

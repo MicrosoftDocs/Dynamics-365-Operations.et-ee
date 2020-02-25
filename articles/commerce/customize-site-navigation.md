@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 642cb5c145dec68631eb9ab27d926ba8ab75c59b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914906"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001825"
 ---
 # <a name="customize-site-navigation"></a>Saidil navigeerimise kohandamine
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas luua kohandatud veebipõhist navigeerimishierarhiat, et korrastada tooted rakenduse Microsoft Dynamics 365 Commerce saidil sirvimiseks.
@@ -35,11 +35,11 @@ Selles teemas kirjeldatakse, kuidas luua kohandatud veebipõhist navigeerimishie
 
 Veebipoe fassaadid võimaldavad tavaliselt klientidel tooteid avastada ja sirvida, navigeerides tootekategooriate kaudu. Seda võimalust pakuvad tavaliselt lehe ülaosas olevad vahekaardid või vasakul olev navigeerimisriba. Rakenduses Dynamics 365 Commerce saate luua ja hallata kategooria navigeerimise hierarhilist struktuuri ja erinevates kategooriates sisalduvaid tooteid.
 
-## <a name="create-a-retail-channel-navigation-hierarchy"></a>Jaemüügikanali navigeerimishierarhia loomine
+## <a name="create-a-channel-navigation-hierarchy"></a>Kanali navigeerimishierarhia loomine
 
-Jaemüügikanali navigeerimishierarhia loomiseks toimige järgmiselt.
+Kanali navigeerimishierarhia loomiseks toimige järgmiselt.
 
-1. Avage **Jaemüük \> Tooted ja kategooriad \> Kategooria- ja tootehaldus**.
+1. Avage **Jaemüük ja kaubandus \> Tooted ja kategooriad \> Kategooria- ja tootehaldus**.
 1. Valige suvand **Kategooria hierarhiad** ja valige seejärel **Uus**.
 1. Andke hierarhiale nimi.
 
@@ -57,28 +57,28 @@ Vaikimisi ilmuvad määratletud kategooriad teie saidi tähestikulises järjestu
 
 ## <a name="assign-a-category-hierarchy-type"></a>Kategooriahierarhia tüübi määramine
 
-1. Avage **Jaemüük \> Tooted ja kategooriad \> Kategooria- ja tootehaldus**.
+1. Avage **Jaemüük ja kaubandus \> Tooted ja kategooriad \> Kategooria- ja tootehaldus**.
 1. Valige suvand **Kategooriahierarhiad**.
 1. Valige tegumiriba vahekaardil **Kategooriahierarhia** grupis **Häälesta** suvand **Hierarhiatüübi seostamine**.
 1. Valige suvand **Uus**.
-1. Valige väljal **Kategooriahierarhia tüüp** suvand **Jaemüügikanali navigeerimishierarhia**.
+1. Valige väljal **Kategooria hierarhia tüüp** suvand **Kanali navigeerimishierarhia**.
 1. Valige väljal **Kategooriahierarhia** varem loodud kanali navigeerimishierarhia.
 
 ## <a name="publish-new-or-updated-navigation-hierarchies"></a>Uute või värskendatud navigeerimishierarhiate avaldamine
 
 Oma navigeerimishierarhia veebipoe fassaadis kättesaadavaks tegemiseks toimige järgmiselt.
 
-1. Avage **Jaemüük \> Kanali häälestus \> Kanali kategooriad ja toote atribuudid**.
+1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kanali kategooriad ja toote atribuudid**.
 1. Valige vasakpoolsel puul oma veebipood.
 1. Valige suvand **Kanalivärskenduste avaldamine**.
-1. Avage **Jaemüük \> Jaemüügi IT \> Jaotusgraafik**.
+1. Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Jaotusgraafik**.
 1. Otsige ja valige loendist **Töö 1040**.
 1. Valige käsk **Käita kohe**.
 1. Korrake samme 5 ja 6 tööde 1070 ja 1150 jaoks.
 
 ## <a name="show-categories-on-your-site"></a>Kategooriate kuvamine saidil
 
-Kategooriahierarhia kuvamiseks veebipoe fassaadil peate lisama mallis või fragmendis sobivasse asukohta navigeerimismenüü mooduli. Seejärel kuvab navigeerimismenüü moodul teie navigeerimishierarhia, kui olete oma jaemüügi navigeerimishierarhia avaldanud kanalis, millega teie sait on seotud.
+Kategooriahierarhia kuvamiseks veebipoe fassaadil peate lisama mallis või fragmendis sobivasse asukohta navigeerimismenüü mooduli. Seejärel kuvab navigeerimismenüü moodul teie navigeerimishierarhia, kui olete oma navigeerimishierarhia avaldanud kanalis, millega teie sait on seotud.
 
 > [!NOTE]
 > Kaupluse alustuskomplektis sisalduv navigeerimismenüü moodul võimaldab kasutajatel navigeerida ainult kategooriatesse, millel puuduvad alamkategooriad. Kui teie kliendid peaksid saama navigeerida kategooriatesse, millel on alamkategooriad, peate navigeerimispaani moodulit kohandama.

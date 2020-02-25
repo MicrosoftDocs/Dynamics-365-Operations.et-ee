@@ -1,9 +1,9 @@
 ---
-title: Teatise moodul
-description: See teema hõlmab teatise mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+title: Reklaambänneri moodul
+description: See teema hõlmab reklaambänneri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,55 +18,66 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 82138dd7f0934f732215f67a3726638eb87075d4
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: da5e220e4578d1064eb7b627b441d3f585b3c095
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785348"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025616"
 ---
-# <a name="alert-module"></a>Teatise moodul
+# <a name="promo-banner-module"></a>Reklaambänneri moodul
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-See teema hõlmab teatise mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
+See teema hõlmab reklaambänneri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
 ## <a name="overview"></a>Ülevaade
 
-Teatise moodulit kasutatakse lehel olevate sisemiste teabesõnumite kuvamiseks. Teatise moodulid toetavad tekstsõnumit ja linki. Neid saab kasutada kõikidel e-kaubanduse saidi lehtedel ilmuvate saidiüleste kampaaniate kuvamiseks. 
+Reklaambänneri mooduleid kasutatakse lehel sisemiste teabesõnumite kuvamiseks. Neid saab kasutada kõikidel e-kaubanduse saidi lehtedel ilmuvate saidiüleste kampaaniate kuvamiseks. 
 
-Teatise moodulid põhinevad sisuhaldussüsteemi (CMS) andmetel ja neid saab panna igale lehele.
+Reklaambännerid toetavad tekstsõnumit ja linki. Kui reklaambänneri moodulile on lisatud mitu teadet, muutub see pöörlevaks karussell-bänneriks, mis võimaldab klientidel vaadata läbi kõik sõnumid. 
 
-## <a name="examples-of-alert-modules-in-e-commerce"></a>E-kaubanduse teatise moodulite näited
+Reklaambänneri moodulid põhinevad sisuhaldussüsteemi (CMS) andmetel ja neid saab panna igale lehele.
 
-Teatise mooduleid saab kasutada saidi päises, et näidata saidiüleseid kampaaniaid või sõnumeid. Järgmisena on toodud mõned näited.
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Reklaambännerite kasutamise näited e-kaubanduses
+
+Reklaambännereid saab kasutada saidi päises, et näidata kogu saiti hõlmavaid kampaaniaid või teateid, nagu näiteks järgmistes näidetes.
 
 „Iga-aastane allahindlus lõppeb 10 päeva pärast”
 
 „Suured allahindlused tagasi kooli kampaania ajal. Ostke kohe.”
 
-## <a name="alert-module-properties"></a>Teatise mooduli atribuudid
+## <a name="promo-banner-module-properties"></a>Reklaambänneri mooduli atribuudid
 
-| Atribuudi nimi  | Väärtus                              | Kirjeldus |
-|----------------|------------------------------------|-------------|
-| Tekst           | Tekst                               | Teatise moodulis ilmuv tekstsõnum. |
-| Teksti joondus | **Paremal**, **Vasakul** või **Keskel** | Väärtus, mis määratleb, kuidas tekst on teatise moodulis joondatud. |
-| Unusta teatis  | **Tõene** või **Väär**              | Kui väärtuseks on seatud **Tõene**, Saab klient teatise lõpetada. |
-| Seos           | URL                                | Valikulise lingi URL. |
+| Atribuudi nimi             | Value                              | Kirjeldus |
+|---------------------------|------------------------------------|-------------|
+| Bänneri teated           | Tekst ja lingid                     | Valik tekste ja linke. |
+| Automaatesitus                  | **Tõene** või **Väär**              | Väärtus, mis näitab, kas juhul kui konfigureeritud on mitu sõnumit, keritakse sõnumid automaatselt läbi. |
+| Slaidi ülemineku intervall | Millisekundite arv (ms)      | Sõnumite läbimiseks kasutatav intervall. |
+| Luba sulgemine             | **Tõene** või **Väär**              | Kui väärtuseks on seatud olekusse **Tõene**, saavad kliendid teatise hüljata. |
+| Näita karusselli keerajat     | **Tõene** või **Väär**              | Väärtus, mis näitab, kas karusselli keerajaid tuleb kuvada, et kliendid saaksid käsitsi liikuda mitme bänneri vahel. |
+| Teksti joondus            | **Paremal**, **Vasakul** või **Keskel** | Teksti joondamine reklaambänneri moodulis. |
+| Seos                      | URL                              | Valikulise lingi URL. |
 
-## <a name="add-an-alert-module-to-a-page"></a>Lehele teatise mooduli lisamine 
+## <a name="add-a-promo-banner-module-to-a-page"></a>Reklaambänneri mooduli lehele lisamine 
 
-Lehele teatise mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
+Lehele reklaambänneri mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
-1. Looge lehe mall nimega **teatise mall**.
-1. Lisage vaikelehe pessa **Peamine** teatise moodul.
+1. Looge lehe mall nimega **Reklaambänneri mall**.
+1. Lisage jaotisse **Lehe liigendus** moodul **Vaikeleht** pesasse **Kehatekst**. 
 1. Registreerige mall ja avaldage see. 
-1. Kasutage äsja loodud teatise malli, et luua leht, mille nimi on **teatise leht**. 
-1. Lisage uue lehe pessa **Peamine** teatise moodul.
-1. Sisestage teatise mooduli sätetes teatise tekst. Kui soovite teatise moodulit veelgi kohandada, võite redigeerida teisi atribuute.
+1. Kasutage äsja loodud teatise malli, et luua leht, mille nimi on **Reklaambänneri leht**. 
+1. Lisage uue lehe pessa **Peamine** konteinermoodul. 
+1. Seadistage paremal paanil väärtus **Laius** olekusse **Täida konteiner**.
+1. Lisage jaotises **Lehe liigendus** konteineri moodulile reklaambänneri moodul.
+1. Lisage bänneri mooduli sätetes üks või mitu bänneri sõnumit. Igas sõnumis võib olla tekst koos lingiga. Et moodulit veelgi kohandada, võite redigeerida teisi atribuute.
 1. Salvestage ja kuvage lehe eelvaade. Lehe ülaosas peaksite nägema teatist teie lisatud tekstiga.
-1. Registreerige leht ja avaldage see. 
+1. Viige lõpuni lehe redigeerimine ja avaldage see. 
+
+> [!NOTE]
+> Reklaambännerit kasutatakse tavaliselt lehekülje päise pesas või alapealkirja pesas.
+
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -74,12 +85,8 @@ Lehele teatise mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige
 
 [Karusellmoodul](add-carousel.md)
 
-[Sisurikas plokimoodul](add-content-rich-block.md)
+[Tekstiploki moodul](add-content-rich-block.md)
 
-[Sisupaigutuse moodul](add-content-placement-modules.md)
+[Sisuploki moodul](add-hero-module.md)
 
-[Funktsioonimoodul](add-feature-module.md)
-
-[Pannoomoodul](add-hero-module.md)
-
-[Videopleieri moodul](add-video-player.md)
+[Videopleierimoodul](add-video-player.md)

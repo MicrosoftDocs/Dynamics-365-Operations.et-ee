@@ -19,16 +19,15 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d075635b7b986cc854550d15f7e941a9ea9cf72
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770409"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024929"
 ---
 # <a name="create-curated-product-recommendation-lists"></a>Kureeritud tootesoovituste loendite loomine
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas turustajad saavad luua ja hallata rakenduse Microsoft Dynamics 365 Commerce klientide jaoks käsitsi toodete loendeid.
@@ -39,7 +38,7 @@ Kuraatorite loendid on inimeste poolt loodud ja kureeritud individuaalse sisu ko
 
 Kureeritud toote soovituste loendi loomiseks tehke järgmist.
 
-1. Avage **Jaemüük** &gt; **Toote soovitused** &gt; **Soovituste loendid**.
+1. Avage **Jaemüük ja kaubandus &gt; Tootesoovitused &gt; Soovituste loendid**.
 1. Valige suvand **Uus**.
 1. Sisestage väljal **Loendi ID** väärtus.
 1. Sisestage väljal **Loendi nimi** väärtus.
@@ -60,3 +59,5 @@ Kureeritud toote soovituste loendi loomiseks tehke järgmist.
 [Tootesoovituste lubamine](enable-product-recommendations.md)
 
 [Tootesoovituste loendite lisamine lehtedele](add-reco-list-to-page.md)
+
+[Tootekogumi mooduli ülevaade](product-collection-module-overview.md)

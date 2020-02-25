@@ -3,7 +3,7 @@ title: Hinnangute ja arvustuste haldus
 description: Selles teemas selgitatakse, kuidas rakenduse Microsoft Dynamics 365 Commerce hinnangute ja arvustuste modereerimise tööriista kasutades hallata hinnanguid ja arvustusi.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9becdce5ae36ac637043b9d0febfbbff2392aa9
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698022"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027238"
 ---
 # <a name="manage-ratings-and-reviews"></a>Hinnangute ja arvustuste haldus
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas rakenduse Microsoft Dynamics 365 Commerce hinnangute ja arvustuste modereerimise tööriista kasutades hallata hinnanguid ja arvustusi.
@@ -39,6 +38,16 @@ Dynamics 365 Commerce kasutab Microsoft Azure’i kognitiivset teenust, et autom
 - Arvustuste modereerimine neile vastates või need eemaldades.
 - Kliendi arvustuste eemaldamine kliendi taotlusel.
 - Kõikide toodete hinnangute ja arvustuste andmete hulgi importimine Microsoft Power BI malli, et analüüsida hinnangute ja arvustuste suundumusi.
+
+## <a name="access-ratings-and-reviews-moderation-features"></a>Juurdepääs hinnangute ja arvustuste modereerimisfunktsioonidele
+
+E-kaubanduse saidi haldustööriistas hinnangute ja arvustuste modereerimisfunktsioonidele juurdepääsuks toimige järgmiselt.
+
+1. Logige sisse [teenusesse Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com).
+1. Avage projekt, mis sisaldab keskkonda, kus soovite e-kaubandust lähtestada.
+1. Jaotises **Keskkond** valige keskkond.
+1. Jaotises **Keskkonna funktsioonid** valige käsk **Jaemüügi haldus**.
+1. Vahekaardil **e-Commerce** jaotises **Lingid** valige suvand ***E-kaubanduse saidi haldustööriist**.
 
 ## <a name="read-a-review"></a>Arvustuse lugemine 
 

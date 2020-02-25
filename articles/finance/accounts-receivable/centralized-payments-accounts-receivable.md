@@ -3,7 +3,7 @@ title: Müügireskontro tsentraliseeritud maksed
 description: Organisatsioonid, mis sisaldavad mitut juriidilist isikut, saavad luua ja hallata makseid, kasutades ühte kõigi maksetega tegelevat juriidilist isikut. Seetõttu pole vaja sisestada sama kannet mitmesse juriidilisse isikusse. Selles artiklis tuuakse näiteid, mis näitavad, kuidas tsentraliseeritud maksete sisestamist erinevates stsenaariumides käsitletakse.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 02/13/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59942fadb0fb702c59c95f75359f1a3036e4668f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78c72bb9632d3501638d528822a3c30b05686796
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177404"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000089"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Müügireskontro tsentraliseeritud maksed
 
@@ -88,8 +88,8 @@ Fabrikam võtab Fabrikami kliendi kontole 4000, Northwind Tradersile vastu makse
 
 | Konto                             | Deebetsumma | Kreeditsumma |
 |-------------------------------------|--------------|---------------|
-| Müügireskontro (Ida Fabrikam) | 600,00       |               |
-| Müük (Ida Fabrikam)               |              | 600,00        |
+| Müügireskontro (Ida Fabrikam) | 580.00       |               |
+| Müük (Ida Fabrikam)               |              | 580.00        |
 
 ### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>Makse saadakse ja sisestatakse Fabrikami all Fabrikami kliendile 4000
 

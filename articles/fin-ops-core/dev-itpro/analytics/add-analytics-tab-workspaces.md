@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771629"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025850"
 ---
-# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analüütika lisamine tööruumidele teenuse Power BI Embedded abil
+# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analüüsi lisamine tööruumidele teenuse Power BI Embedded abil
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Seda funktsiooni toetatakse rakenduses Finance and Operations (versioon 7.2 ja uuemad).
+> Seda funktsiooni toetatakse rakenduses Finance and Operations (versioon 7.2 ja uuem).
 
 ## <a name="introduction"></a>Sissejuhatus
 See teema kirjeldab, kuidas kaasata Microsoft Power BI aruanne tööruumi vahekaardile **Analüüs**. Siin toodud näite puhul laiendame sõidukipargi halduse rakenduse tööruumi **Reserveerimise haldus**, et kaasata analüütiline tööruum vahekaardile **Analüütika**.
@@ -111,7 +111,7 @@ Tööruumi **Reserveerimise haldus** kaasatud aruandevaaturi juhtelementi lähte
 2. Vajutage klahvi F7, et pääseda juurde koodimääratluse taga olevale koodile.
 3. Lisage järgmine X++ kood.
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ Nüüd olete kaasatud aruandevaaturi juhtelementi lähtestava äriloogika lisami
 See jaotis annab teavet abilise klassi kohta, mida kasutatakse Power BI aruande kaasamiseks (pbix-ressurss) vormirühma juhtelementi.
 
 #### <a name="syntax"></a>Süntaks
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,

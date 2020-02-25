@@ -3,7 +3,7 @@ title: Tootesoovituste loendite lisamine lehtedele
 description: See teema selgitab, kuidas lisada e-kaubanduse lehele tootesoovituste loendit.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 01/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,26 +19,26 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4f2b1e9768b34d341adb3c11e475daa7a1d1882f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5c71c1cf91b1913f44546f40620aff358cf256b2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770501"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001296"
 ---
-# <a name="add-product-recommendation-lists-to-e-commerce-pages"></a>Tootesoovituse loendite lisamine e-kaubanduse lehtedele
+# <a name="add-recommendation-lists-to-a-site"></a>Soovituste loendite lisamine saidile
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 See teema selgitab, kuidas lisada e-kaubanduse lehele tootesoovituste loendit.
 
-1. Valige olemasolevalt e-kaubanduse autorluse lehelt suvand **Lisa moodul**.
+1. Valige olemasolevalt e-kaubanduse saidiehitaja lehelt suvand **Lisa moodul**.
 2. Otsige **tootekogumi** moodulit.
 3. Mooduli viisardis valige lehele lisamiseks loend.
 4. Salvestage muudatused.
 
-Lisateabe saamiseks loendite tüüpide kohta, mida saate lehele lisada, vaadake teemat [Tootesoovituste ülevaade](product-recommendations.md).
+Lisateabe saamiseks loendite tüüpide kohta, mida saate lehele lisada, vaadake teemat [Tootekogumi mooduli ülevaade](product-collection-module-overview.md).
 
 
 ## <a name="additional-resources"></a>Lisaressursid
@@ -50,3 +50,5 @@ Lisateabe saamiseks loendite tüüpide kohta, mida saate lehele lisada, vaadake 
 [Kureeritud tootesoovituste loendite loomine](create-editorial-recommendation-lists.md)
 
 [AI-ML-põhiste tootesoovituse tulemuste haldamine](modify-product-recommendation-results.md)
+
+[Tootekogumi mooduli ülevaade](product-collection-module-overview.md)

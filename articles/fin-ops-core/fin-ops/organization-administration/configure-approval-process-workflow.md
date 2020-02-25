@@ -3,7 +3,7 @@ title: Töövoo kinnitusprotsesside konfigureerimine
 description: Kinnitusprotsessi atribuutide konfigureerimiseks tehke järgmist.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1f58e227542b1e5ca1235748d14e71bddac826ee
+ms.sourcegitcommit: 759325234a763e14071348a6f5399999a92f8264
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811377"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "2983760"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Töövoo kinnitusprotsesside konfigureerimine
 
@@ -138,11 +138,12 @@ Saate saata inimestele teatisi dokumendi kinnitamisel, tagasilükkamisel, delege
 
 ## <a name="specify-a-final-approver"></a> Lõpliku kinnitaja määramine
 
-Teil võib olla vajalik määrata lõplik kinnitaja olukordades, kus kinnitaja on isik, kes esitas dokumendi kinnitamiseks. Lõpliku kinnitaja määramiseks tehke järgmist.
+Saate määrata lõpliku kinnitaja stsenaariumite jaoks, kus kinnitaja on dokumendi kinnitamiseks esitanud isik ja kasutatakse nõuet "keela esitaja kinnitus". Lõpliku kinnitaja määramiseks tehke järgmist.
 
-1. Klõpsake vasakpoolsel paanil suvandit **Täpsemad sätted**.
-2. Märkige ruut **Kasuta lõplikku kinnitajat**.
-3. Valige loendist lõplikuks kinnitajaks määratav kasutaja.
+1. Paremklõpsake töövooredaktoris kinnitamise elementi ja valige seejärel **Atribuudid**, et avada vorm **Atribuudid**.
+2. Klõpsake vasakpoolsel paanil suvandit **Täpsemad sätted**.
+3. Märkige ruut **Kasuta lõplikku kinnitajat**.
+4. Valige loendist lõplikuks kinnitajaks määratav kasutaja.
 
 ## <a name="set-a-time-limit"></a>Ajalimiidi seadmine
 

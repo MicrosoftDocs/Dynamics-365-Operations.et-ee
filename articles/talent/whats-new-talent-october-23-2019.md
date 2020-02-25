@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7506953c797f5a55a93f1169bf48af8b06eb440e
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 68e3f428215bdc4f9a4ce0dd69cfd4482c72fbf3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896792"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006260"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Mis on Dynamics 365 Talent-is uut või mida on muudetud (23. oktoober 2019)
 
@@ -39,9 +39,9 @@ See väljaanne sisaldab väiksemaid vigadeparandusi rakendusele Dynamics 365 Tal
 
 Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2569. Sulgudes olevad numbrid mõnedes pealkirjades viitavad toenumbritele teenuses Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-30-for-finance-and-operations-apps"></a>Lahenduse Finance and Operations rakenduste platvormivärskendus 30
+### <a name="platform-update-30-for-finance-and-operations-apps"></a>Teenuse Finance and Operations rakenduste platvormivärskendus 30
 
-Lisateavet leiate teemast [Lahenduse Finance and Operations rakenduste platvormivärskenduse 30 uued või muudetud funktsioonid (november 2019)](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
+Lisateavet leiate teemast [Teenuse Finance and Operations rakenduste platvormivärskenduse 30 uued või muudetud funktsioonid (november 2019)](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Soodustuste avatud registreerimise eelvaatefunktsiooni eemaldamine
 
@@ -89,4 +89,4 @@ Vt [Jõudluse ülevaadete printimine](https://docs.microsoft.com/dynamics365-rel
 
 Igale väljalaskele lisatakse funktsioone ja nende uuendusi. Funktsioonihalduskeskkond pakub tööruumi, kus saate vaadata igale väljalaskele lisatud funktsioonide loendit. Vaikimisi on uued funktsioonid välja lülitatud. Saate kasutada tööruumi funktsioonide sisselülitamiseks ja nende dokumentatsiooni vaatamiseks.
 
-Lisateavet tulevaste funktsioonihaldusega seotud muudatuste kohta vt teemast [Funktsioonihalduse ülevaade](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Lisateavet tulevaste funktsioonihaldusega seotud muudatuste kohta vt teemast [Funktsioonihalduse ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).

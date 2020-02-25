@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 9d7da31f2df31c7e5cbac73b3232233090ac369e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635122"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031063"
 ---
 # <a name="master-planning-setup-wizard"></a>Koondplaneerimise installiviisard
 
@@ -32,9 +32,9 @@ ms.locfileid: "2635122"
 
 Selles teemas antakse **Koondplaneerimise installiviisardi** juhiseid. Selles selgitatakse, kuidas parameetrisoovitusi arvutatakse ja esitatakse ka näiteid selle kohta, kuidas erinevad ettevõtted seadistavad koondplaneerimist vastavalt oma ärivajadustele.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-[Koondplaneerimise häälestusviisard rakenduses Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (näha allpool) on lisatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube’is.
+Video [Koondplaneerimise häälestusviisard rakenduses Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (näha eespool) on lisatud [Finance and Operationsui esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube’is.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Teie ettevõtte erinõuded
@@ -184,7 +184,7 @@ Viisardis sisestatakse Contoso tootja jaoks järgmised väärtused.
 Contoso Retailer on moetööstuse turustusettevõte. See kasutab koondplaneerimist, et arvutada, millal tuleks ostutellimused esitada, tuginedes oma prognoositavale müügile. Siin on mõned selle omadused.
 
 - Contoso Retailer kasutab müügi prognoosimiseks nõudluse prognoosi. Ostutellimused planeeritakse vastavalt prognoosidele.
-- Jaekauplused kasutavad täiendamise jaoks ostutaotlusi.
+- Kauplused kasutavad täiendamise jaoks ostutaotlusi.
 - Täitmisaeg põhilaost igasse poodi on kõigi kaupade puhul ligikaudu kaks nädalat.
 
 Viisardis sisestatakse Contoso Retaileri jaoks järgmised väärtused.
@@ -208,4 +208,4 @@ Viisardis sisestatakse Contoso Retaileri jaoks järgmised väärtused.
     - **Küsimus:** „Kas soovite kaasata jaekaupluste täiendamiseks kinnitatud taotlusi?"
     - **Vastus:** „Jah, nagu on määratletud selles koondplaanis.” Sisestatakse **1 päev**.
 
-    Contoso kasutab oma jaemüügikauplustes kinnitatud ostutaotlusi, et luua nende poodide täiendamiseks plaanitud ostutellimused. Kuna koondplaneerimist kasutatakse iga päev, kaasatakse planeerimisse viimase päeva ostutaotlused.
+    Contoso kasutab oma kauplustes kinnitatud ostutaotlusi, et luua nende poodide täiendamiseks plaanitud ostutellimused. Kuna koondplaneerimist kasutatakse iga päev, kaasatakse planeerimisse viimase päeva ostutaotlused.

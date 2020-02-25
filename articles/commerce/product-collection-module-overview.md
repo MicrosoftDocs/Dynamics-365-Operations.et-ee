@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 31307035014f2fae6146f33bc23e3e06103f82eb
-ms.sourcegitcommit: c237123ad94d9418994ac095fbd8634c05a927b1
+ms.openlocfilehash: 069fa1cb6acad4b8d6618cebb754cbc0892ca9cf
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943259"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025944"
 ---
 # <a name="product-collection-modules"></a>Tootekogumi moodulid
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 See teema annab ülevaate tootekogumi moodulitest rakenduses Microsoft Dynamics 365 Commerce.
@@ -39,7 +39,7 @@ Tootekogumi moodulid esindavad füüsilisi tooteid ja teenuseid veebisaidil. Too
 
 Tootekogumite allikad võivad olla järgmised nelja tüüpi loendid.
 
-- Toodete toimetusloendid, mis on toote või toote loendite puhul rakenduses Dynamics 365 Retail käsitsi määratletud seotud toodetena.
+- Toodete toimetusloendid, mis on toote või toote loendite puhul rakenduses Dynamics 365 Commerce käsitsi määratletud seotud toodetena.
 - Algoritmilised loendid, nt uute, enim müüdud või populaarsete toodete loendid
 - Soovituste loendid, mis põhinevad arvuti õppimisel
 - Isikupärastamise loendid, mis toetavad kliendi isikupärastatud tulemusi. Isikupärastatud tulemuste nägemiseks peavad kliendid olema e-kaubanduse saidile sisse logitud. Külaliskasutajad ei näe isikupärastatud tulemusi. Kliendid saavad isikupärastamisest loobuda [kontohalduse lehel](account-management.md).
@@ -57,9 +57,10 @@ Järgmises tabelis kirjeldatakse erinevate tootekogumi moodulite tüüpe rakendu
 
 | Tootekogumi moodul  | Tüüp | Kirjeldus |
 |----------------------------|------|-------------|
-| Kategooria                   | Kategooria | Selles moodulis kuvatakse kategooria toodete loend, mis on määratletud navigeerimiskategooria hierarhia poolt, mille jaemüüja on jaemüügi kanali jaoks loonud. |
-| Seotud tooted           | Kureeritud | See moodul näitab toodete loendit, mida kauba haldur on konfigureerinud seotud toodetena jaemüügis autori valitud seose tüübi jaoks. |
-| Kureeritud toodete loend      | Kureeritud | See moodul kuvab kohandatud loendi, mille kaupmehed ja toimetajad on jaemüügis loonud. |
+| Kategooria                   | Kategooria | Selles moodulis kuvatakse kategooria toodete loend, mis on määratletud navigeerimiskategooria hierarhia poolt, mille jaemüüja on kanali jaoks loonud. |
+| Seotud tooted           | Kureeritud | See moodul näitab toodete loendit, mida kauba haldur on konfigureerinud seotud toodetena rakenduses Commerce autori valitud seose tüübi jaoks. |
+| Otsingutulemused             | Otsingupäring | Seda tüüpi tootekogumi moodul näitab toodete loendit, mis kõige paremini ühtib kliendi sisestatud otsingupäringuga. |
+| Kureeritud toodete loend      | Kureeritud | See moodul kuvab kohandatud loendi, mille kaupmehed ja toimetajad on rakenduses Commerce loonud. |
 | Uus                        | Algoritmiline | See moodul kuvab uusimate toodete loendi, mis on kanalitele ja kataloogidele valitud. See loend võib kuvada sisselogitud kasutajale isikupärastatud tulemusi, kui saidi autor valib selle suvandi. |
 | Enim müüdud               | Algoritmiline | See moodul kuvab toodete loendi, mis on järjestatud kõige suurema müügi arvu alusel. See loend võib kuvada sisselogitud kasutajale isikupärastatud tulemusi, kui saidi autor valib selle suvandi. |
 | Populaarsed                   | Algoritmiline | See moodul kuvab antud perioodi kõrgeima jõudlusega toodete loendi. See loend võib kuvada sisselogitud kasutajale isikupärastatud tulemusi, kui saidi autor valib selle suvandi. |
@@ -76,7 +77,6 @@ Tootekogumi mooduli lisamiseks kategooria lehele järgige neid juhiseid.
 1. Dialoogiaknas **Lisa moodul** valige suvand **Konteiner** ja seejärel valige nupp **OK**.
 1. Valige konteineri moodulis kolmikpunkt nupp ja seejärel valige käsk **Lisa moodul**.
 1. Dialoogiaknas **Lisa moodul** valige suvand **Tootekogum** ja seejärel valige nupp **OK**.  
-![Näidistoote kogumi mooduli viisardi voog](./media/productCollectionModule.png)
 1. Konfigureerige sätted, valides tootekogumi jaoks sobiv andmeallikas ja sisend.
 1. Tootekogumi mooduli atribuutide paanil valige käsk **Lisa tooteloend**.
 1. Dialoogiaknas **Vali tooteloendi konfigureerimine** valige loendi tüüp, sisestage kaupade arv ja valige muud loendi tüübi jaoks saadaolevad suvandid. Lisateavet loendi tüüpide kohta leiate järgnevast tabelist. 
@@ -88,8 +88,8 @@ Järgmine tabel näitab loendi tüüpe, mis on saadaval dialoogiaknas **Vali too
 | Tüüp                       | Kirjeldus | Kasutus | Lehe kontekst | Spetsiifiline kontekst | Isikupärastamine |
 |----------------------------|-------------|-------|--------------|------------------|-----------------|
 | Tooted kategooriate alusel       | Kindlasse kategooriasse kuuluvate toodete loend. See kategooria määratakse kas lehekülje kontekstist või autori pakutavast kontekstist. | Seda tüüpi loendit saab kasutada mis tahes lehel (nt avaleht, kategooria leht, turunduse leht või toote üksikasjade leht \[PDP\]), et edendada kindlat tootekategooriat. | Lehe konteksti kategooria, kui see on saadaval (nt kategooria leht) | Autor võib anda loendi konteksti jaoks kindla kategooria. | Pole kohaldatav |
-| Seotud tooted           | Toodete loend, mille kauba haldaja on konfigureerinud seotud toodetena seoses seose tüübiga jaemüügis. | Seda tüüpi loendit kasutatakse peamiselt PDP-del, kuid seda saab kasutada mis tahes lehel, kui on esitatud ülemtoode. | Toode lehelt, seose tüüp (kohustuslik) | Toote saab valida valijas ja seose tüüp on kasutusel. | Pole kohaldatav |
-| Kureeritud                    | Kohandatud loend, mille kaupmehed ja toimetajad on jaemüügis loonud. | Rikastage kategooria lehte, kodulehte, kassa ja ostukorvi lehte ja tootelehti. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav |
+| Seotud tooted           | Toodete loend, mille kauba haldaja on konfigureerinud seotud toodetena seoses seose tüübiga rakenduses Commerce. | Seda tüüpi loendit kasutatakse peamiselt PDP-del, kuid seda saab kasutada mis tahes lehel, kui on esitatud ülemtoode. | Toode lehelt, seose tüüp (kohustuslik) | Toote saab valida valijas ja seose tüüp on kasutusel. | Pole kohaldatav |
+| Kureeritud                    | Kohandatud loend, mille kaupmehed ja toimetajad on rakenduses Commerce loonud. | Rikastage kategooria lehte, kodulehte, kassa ja ostukorvi lehte ja tootelehti. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav |
 | Algoritmiline                | <ul><li>**Uus** – uusimate toodete loend, mis on valitud kanalitele ja kataloogidele.</li><li>**Enim müüdud** – toodete loend, mis on järjestatud kõige suurema müügi arvu alusel.</li><li>**Populaarsed** – antud perioodi kõrgeima jõudlusega toodete loend.</li></ul> | Koduleht, rikastage kategooria lehte, kassa ja ostukorvi lehti | Lehe konteksti kategooria (nt kategooria leht) | Saidi autori määratud kategooria | Toetatud |
 | Kliendid ostavad sageli koos | Loend, mis kasutab masinõpet, et analüüsida tarbija ostumustreid ja soovitada seotud kaupu, mida sageli ostetakse koos valitud tootega. | See loendi tüüp on kohaldatav ainult ostukorvi lehele. | Ostukorv | Pole kohaldatav | Toetatud |
 | Inimestele meeldib ka           | Loend, mis kasutab masina õppimist, et analüüsida tarbija ostumustreid ja soovitada seotud kaupu, mis on seotud valitud tootega. | Seda loendi tüüpi kasutatakse PDP-del, et kuvada tooted, mida teised kliendid on ostnud. | Toote kontekst lehelt | Saidi autori sisestatud toode | Toetatud |
@@ -102,8 +102,6 @@ Järgmine tabel näitab loendi tüüpe, mis on saadaval dialoogiaknas **Vali too
 [Karusellmoodul](add-carousel.md)
 
 [Sisu rikasplokimoodul](add-content-rich-block.md)
-
-[Sisupaigutusmoodul](add-content-placement-modules.md)
 
 [Konteineri moodul](add-container-module.md)
 

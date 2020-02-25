@@ -1,5 +1,5 @@
 ---
-title: Commerce'i eelvaatekeskkonna KKK
+title: Dynamics 365 Commerce'i eelvaatekeskkonna KKK
 description: Selles jaotises antakse vastuseid korduma kippuvatele küsimustele Microsoft Dynamics 365 Commerce eelvaatekeskkonna kohta.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,15 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 53e593931850d6b8b22bb756d5828f742416aa4d
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906089"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024748"
 ---
-# <a name="commerce-preview-environment-faq"></a>Commerce'i eelvaatekeskkonna KKK
+# <a name="dynamics-365-commerce-preview-environment-faq"></a>Dynamics 365 Commerce'i eelvaatekeskkonna KKK
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Selles jaotises antakse vastuseid korduma kippuvatele küsimustele Microsoft Dynamics 365 Commerce eelvaatekeskkonna kohta.
@@ -83,10 +82,10 @@ Kui teil tekib probleeme Yammer-grupile juurdepääsu loomisel, saate Microsofti
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Commerce'i eelvaatekeskkonna ülevaade](cpe-overview.md)
+[Dynamics 365 Commerce eelvaatekeskkonna ülevaade](cpe-overview.md)
 
-[Commerce'i eelvaatekeskkonna ettevalmistamine](provisioning-guide.md)
+[Dynamics 365 Commerce'i eelvaatekeskkonna ettevalmistamine](provisioning-guide.md)
 
-[Commerce'i eelvaatekeskkonna konfigureerimine](cpe-post-provisioning.md)
+[Dynamics 365 Commerce’i eelvaatekeskkonna konfigureerimine](cpe-post-provisioning.md)
 
-[Commerce'i eelvaatekeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
+[Dynamics 365 Commerce’i eelvaatekeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)

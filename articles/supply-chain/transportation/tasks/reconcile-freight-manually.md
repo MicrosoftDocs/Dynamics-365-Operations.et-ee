@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb9c850aa045b72137b8a1d3c8cdae51cf2fd7b6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843237"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026310"
 ---
 # <a name="reconcile-freight-manually"></a>Veose käsitsi vastavusseviimine
 
@@ -37,7 +37,7 @@ See protseduur näitab, kuidas veost käsitsi tasakaalustada. Seda teeb üldjuhu
 3. Valige loendist koorem, mille koorma ID on 00006.
 
 ## <a name="create-a-carrier-invoice"></a>Vedaja arve loomine
-    * Kui viite veose käsitsi vastavusse ega saa automaatselt vedaja arveid, võite luua arve veoarve põhjal.  
+Kui viite veose käsitsi vastavusse ega saa automaatselt vedaja arveid, võite luua arve veoarve põhjal.  
 1. Klõpsake valikut Seostuv teave.
 2. Klõpsake valikut Veoarve üksikasjad.
 3. Klõpsake valikut Veoarve loomine.
@@ -45,7 +45,7 @@ See protseduur näitab, kuidas veost käsitsi tasakaalustada. Seda teeb üldjuhu
 5. Klõpsake nuppu OK.
 
 ## <a name="reconcile-the-invoice"></a>Arve vastavusseviimine
-    * Vedaja arve ja veoarve tasakaalustamisel tehakse seda reakaupa.  
+Vedaja arve ja veoarve tasakaalustamisel tehakse seda reakaupa.  
 1. Klõpsake valikut Vastenda veoarved ja arved.
 2. Laiendage jaotist Arve üksikasjad.
 3. Laiendage jaotist Vastendamata veoarve üksikasjad.

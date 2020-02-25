@@ -1,13 +1,13 @@
 ---
-title: Toote hinnangute sünkroonimine Dynamics 365 Retailis
-description: Selles teemas kirjeldatakse, kuidas sünkroonida tootehinnanguid rakenduses Microsoft Dynamics 365 Retail.
+title: Toote hinnangute sünkroonimine Dynamics 365 Commerceis
+description: Selles teemas kirjeldatakse, kuidas sünkroonida tootehinnanguid rakenduses Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
-ms.technology: ''
+ms.technology: '---'
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
@@ -18,57 +18,56 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: db5a4e1f78797d20ded2274cc99bef422fd50acc
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6757a5a13d16c490dced7118c1da8aa0ea6d8994
+ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698161"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029482"
 ---
-# <a name="sync-product-ratings-in-dynamics-365-retail"></a>Toote hinnangute sünkroonimine Dynamics 365 Retailis
+# <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Toote hinnangute sünkroonimine Dynamics 365 Commerceis
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas sünkroonida tootehinnanguid rakenduses Microsoft Dynamics 365 Retail.
+Selles teemas kirjeldatakse, kuidas sünkroonida tootehinnanguid rakenduses Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Ülevaade
 
-Tootehinnangute kasutamiseks omnikanalis, nt kassas (POS) ja kõnekeskustes, tuleb tootehinnangud hinnangute ja arvustuste teenusest importida jaemüügikanali andmebaasi. Kui tootehinnangud omnikanalites saadavaks tehakse, aitavad need kliente kaudselt suhtluses müüjatega.
+Tootehinnangute kasutamiseks omnikanalis, nt kassas (POS) ja kõnekeskustes, tuleb tootehinnangud hinnangute ja arvustuste teenusest importida Commerce’i kanali andmebaasi. Kui tootehinnangud omnikanalites saadavaks tehakse, aitavad need kliente kaudselt suhtluses müüjatega.
 
 Selles teemas kirjeldatakse järgmisi toiminguid.
 
-1. Jaemüügi pakett-töö konfigureerimine tootehinnangute importimiseks.
+1. Konfigureerige suvand **Tootehinnangute sünkroonimise töö** pakett-tööna, et sünkroonida tootehinnangud suvandist **Hinnangute ja arvustuste teenus**.
 1. Kontrollimine, kas tootehinnangute sünkroonimise pakett-töö õnnestus.
 1. Tootehinnangute muutmine kassas kättesaadavaks.
 
-## <a name="configure-a-retail-batch-job-to-import-product-ratings"></a>Retaili pakett-töö konfigureerimine tootehinnangute importimiseks
+## <a name="configure-a-batch-job-to-synchronize-product-ratings"></a>Pakett-töö konfigureerimine tootehinnangute sünkroonimiseks
 
 > [!IMPORTANT]
-> Enne alustamist veenduge, et installitud oleks Retaili versioon 10.0.6 või uuem.
+> Enne alustamist veenduge, et installitud oleks rakenduse Dynamics 365 Commerce versioon 10.0.6 või uuem.
 
-### <a name="initialize-the-retail-scheduler"></a>Kaupluse andmeedastaja lähtestamine
+### <a name="initialize-the-commerce-scheduler"></a>Kaubanduse ajasti lähtestamine
 
-Kaupluse andmeedastaja lähtestamiseks toimige järgmiselt.
+Kaubanduse ajasti lähtestamiseks toimige järgmiselt.
 
-1. Valige suvandid **Retail \> Kaupluse haldus \> Kaupluse andmeedastaja \> Kaupluse andmeedastaja lähtestamine**. Võite ka sisestada otsingu „Kaupluse andmeedastaja”.
-1. Dialoogiboksis **Kaupluse andmeedastaja** veenduge, et suvand **Kustuta olemasolev konfiguratsioon** oleks määratud valikule **Ei** ja seejärel valige nupp **OK**.
+1. Avage **Jaemüük ja kaubandus \> Peakontori seadistamine \> Kaubanduse ajasti \> Kaubanduse ajasti lähtestamine**. Võite ka sisestada otsingu „Kaubanduse ajasti lähtestamine”.
+1. Dialoogiboksis **Kaubanduse ajasti lähtestamine** veenduge, et suvand **Kustuta olemasolev konfiguratsioon** oleks määratud valikule **Ei** ja seejärel valige nupp **OK**.
 
 ### <a name="verify-the-retailproductrating-subjob"></a>Alamtöö RetailProductRating kontrollimine
 
 Selleks et kontrollida, kas alamtöö **RetailProductRating** on olemas, tehke järgmist.
 
-1. Valige suvandid **Retail \> Kaupluse haldus \> Kaupluse andmeedastaja \> Andmeedastaja alamtööd**. Võite ka sisestada otsingu „Andmeedastaja alamtööd”.
+1. Avage **Jaemüük ja kaubandus \> Peakontori seadistamine \> Kaubanduse ajasti \> Ajasti alamtööd**. Võite ka sisestada otsingu „Andmeedastaja alamtööd”.
 1. Alamtööde loendist otsige alamtööd **RetailProductRating**.
 
-Järgmisel joonisel on näha alamtöö üksikasjade näide Retailis.
+Järgmisel joonisel on näha alamtöö üksikasjade näide rakenduses Commerce.
 
 ![Alamtöö RetailProductRating üksikasjad](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
-> Kui te ei leia alamtööd **RetailProductRating**, on võimalik, et olete enne kaupluse andmeedastaja lähtestamist juba käitanud töö **Tootehinnangute sünkroonimine** ja töö **1040 CDX**. Sellisel juhul tehke töö **Andmete täielik sünkroonimine** käitamiseks järgmist.
->
-> 1. Valige suvandid **Retail \> Kaupluse haldus \> Kaupluse andmeedastaja \> Kanali andmebaas**. Võite ka sisestada otsingu „Kanali andmebaas”.
+> Kui te ei leia alamtööd **RetailProductRating**, on võimalik, et olete enne kaubanduse ajasi lähtestamist juba käitanud töö **Tootehinnangute sünkroonimine** ja töö **1040 CDX**. Sellisel juhul tehke töö **Andmete täielik sünkroonimine** käitamiseks järgmist.
+
+> 1. Avage **Jaemüük ja kaubandus \> Peakontori seadistamine \> Kaubanduse ajasti \> Kanali andmebaas**. Võite ka sisestada otsingu „Kanali andmebaas”.
 > 1. Valige sünkroonimiseks kanali andmebaas.
 > 1. Valige tegumiribal suvand **Andmete täielik sünkroonimine**.
 > 1. Valige rippmenüü dialoogiboksis **Jaotusgraafiku valimine** suvand **1040 – tooted** ja seejärel valige nupp **OK**.
@@ -76,16 +75,16 @@ Järgmisel joonisel on näha alamtöö üksikasjade näide Retailis.
 
 ### <a name="import-product-ratings"></a>Tootehinnangute importimine
 
-Tootehinnangute importimiseks Retaili hinnangute ja arvustuste teenusest tehke järgmist.
+Tootehinnangute importimiseks Commerce’i hinnangute ja arvustuste teenusest tehke järgmist.
 
-1. Valige suvandid **Retail \> Kaupluse haldus \> Kaupluse andmeedastaja \> Tootehinnangute töö sünkroonimine**. Võite ka sisestada otsingu „Tootehinnangute töö sünkroonimine”.
+1. Valige suvandid **Jaemüük ja kaubandus \> Kaupluse haldus \> Kaubanduse ajasti \> Tootehinnangute töö sünkroonimine**. Võite ka sisestada otsingu „Tootehinnangute töö sünkroonimine”.
 1. Dialoogiboksist **Tootehinnangute tõmbamine** kiirkaardil **Käivita taustal** valige suvand **Kordumine**.
 1. Seadistage dialoogiboksis **Kordumise määratlemine** kordumismuster. (Soovitatud väärtus on kaks tundi.) Ärge määrake kordumist, mis on vähem kui kaks tundi.
 1. Valige nupp **OK**.
 1. Määrake suvandi **Pakktöötlus** väärtuseks **Jah**. See seadistus aitab tagada, et saate logisid auditeerida ja kontrollida pakett-töö käituste olekut.
 1. Pakett-töö plaanimiseks valige nupp **OK**.
 
-Järgmisel joonisel on näha pakett-töö konfiguratsiooni näide Retailis.
+Järgmisel joonisel on näha pakett-töö konfiguratsiooni näide Commerce’is.
 
 ![Tootehinnangute pakett-töö sünkroonimise konfiguratsioon](media/rnr-hq-batchjob-recurrence.png)
 
@@ -93,11 +92,11 @@ Järgmisel joonisel on näha pakett-töö konfiguratsiooni näide Retailis.
 
 Selleks et kontrollida, kas pakett-töö **Tootehinnangute sünkroonimine** õnnestus, tehke järgmist.
 
-1. Valige suvandid **Retail \> Süsteemiadministraator \> Päringud \> Pakett-tööd**, või kui kasutate ainult Retaili jaoks mõeldud varude arvestusühikut (SKU) valige suvandid **Retail \> Päringud ja aruanded \> Pakett-tööd**. Võite sisestada otsingu „Pakett-tööd”.
+1. Valige suvandid **Jaemüük ja kaubandus \> Süsteemiadministraator \> Päringud \> Pakett-tööd**, või kui kasutate ainult Commerce’i jaoks mõeldud varude arvestusühikut (SKU) valige suvandid **Jaemüük ja kaubandus \> Päringud ja aruanded \> Pakett-tööd**. Võite sisestada otsingu „Pakett-tööd”.
 1. Pakett-töö üksikasjade vaatamiseks otsige pakett-töö loendist veerust **Töö kirjeldus** kirjeldust, mis sisaldab fraasi „Tootehinnangute tõmbamine”.
 1. Valige töö ID, et vaadata pakett-töö üksikasju, nagu plaanitud alguskuupäev/-kellaaeg ja kordumise tekst.
 
-Järgmisel joonisel on näha näide pakett-töö üksikasjadest Retailis, kui pakett-töö on plaanitud käivituma kahetunnise intervalliga.
+Järgmisel joonisel on näha näide pakett-töö üksikasjadest Commerce’is, kui pakett-töö on plaanitud käivituma kahetunnise intervalliga.
 
 ![Tootehinnangute pakett-töö sünkroonimise üksikasjad](media/rnr-hq-batchjob-status-checking.png)
 
@@ -107,17 +106,17 @@ Hinnangute ja arvustuste lahendus rakenduses Dynamics 365 Commerce on omnikanali
 
 Tootehinnangute kassas sisselülitamiseks tehke järgmist.
 
-1. Valige suvandid **Retail \> Retaili seadistamine \> Parameetrid \> Retaili parameetrid**. Võite ka sisestada otsingu „Retaili parameetrid”.
+1. Minge jaotisse **Jaemüük ja kaubandus \> Kaubanduse seadistamine \> Parameetrid \> Kaubanduse parameetrid**. Võite ka sisestada otsingu „Kaubanduse parameetrid”.
 1. Valige vahekaardilt **Konfiguratsiooni parameetrid** suvand **Uus**.
 1. Sisestage nimi, nt **RatingsAndReviews.EnableProductRatingsForRetailStores**, ja määrake väärtuseks **tõene**.
 1. Valige käsk **Salvesta**.
-1. Avage **Jaemüük \> Jaemüügi IT \> Jaotusgraafik**. Võite ka sisestada otsingu „Jaotusgraafik”.
+1. Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Jaotusgraafik**. Võite ka sisestada otsingu „Jaotusgraafik”.
 1. Valige tööde loendist suvand **1110** (**Globaalne konfiguratsioon**) ja seejärel valige käsk **Käivita kohe**.
 1. Kui töö on edukalt käivitatud, kontrollige, kas tootehinnangud kuvatakse nüüd kassas.
 
-Järgmisel on joonisel on näha näide Retaili parameetrite konfiguratsioonist tootehinnangute sisselülitamiseks kassas.
+Järgmisel on joonisel on näha näide Kaubanduse parameetrite konfiguratsioonist tootehinnangute sisselülitamiseks kassas.
 
-![Retaili parameetrite konfiguratsioon tootehinnangute jaoks kassas](media/rnr-hq-enable-ratings-in-pos.png)
+![Kaubanduse parameetrite konfiguratsioon tootehinnangute jaoks kassas](media/rnr-hq-enable-ratings-in-pos.png)
 
 Järgmisel joonisel on näha näide tootehinnangutest kassas.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-09-10
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 14e3482f366319851bed84b6cdd6135f0bcd1e80
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 0aadecd5b37759492f7895ccfda1a777793a08b3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897326"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006237"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-september-10-2019"></a>Mis on Dynamics 365 for Talent-is uut või mida on muudetud (10. september 2019)
 
@@ -55,7 +55,7 @@ Lisateavet muudatuste avaldamise kohta vt teemast [Talenti ettevalmistamine](./p
 
 ### <a name="platform-update-29"></a>Platvormivärskendus update 29
 
-Platvormivärskenduse 29 kohta lisainfo saamiseks vt [Dynamics 365 for Finance and Operations platvormivärskenduse 29 (oktoober 2019) funktsioonide eelvaade](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Platvormivärskenduse 29 kohta lisainfo saamiseks vt [Dynamics 365 for Finance and Operations platvormivärskenduse 29 (oktoober 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
 
 ### <a name="new-job-base-entity-available-in-data-management-framework-347202"></a>Uus töö põhiüksus on saadaval andmete halduse raamistikus (347202)
 

@@ -1,5 +1,5 @@
 ---
-title: Commerce'i eelvaatekeskkonna konfigureerimine
+title: Dynamics 365 Commerce eelvaatekeskkonna konfigureerimine
 description: Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i eelvaatekeskkond, kui see on ette valmistatud.
 author: psimolin
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f19d03f3f2f5a9f6f7ba08b682277e4e3b764d10
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906135"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024702"
 ---
-# <a name="configure-a-commerce-preview-environment"></a>Commerce'i eelvaatekeskkonna konfigureerimine
+# <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce eelvaatekeskkonna konfigureerimine
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i eelvaatekeskkond, kui see on ette valmistatud.
@@ -142,13 +142,13 @@ Teavet selle kohta, kuidas Commerce’i eelvaatekeskkonna valikulisi funktsioone
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Commerce'i eelvaatekeskkonna ülevaade](cpe-overview.md)
+[Dynamics 365 Commerce eelvaatekeskkonna ülevaade](cpe-overview.md)
 
-[Commerce'i eelvaatekeskkonna ettevalmistamine](provisioning-guide.md)
+[Dynamics 365 Commerce'i eelvaatekeskkonna ettevalmistamine](provisioning-guide.md)
 
-[Commerce'i eelvaatekeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
+[Dynamics 365 Commerce’i eelvaatekeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
 
-[Commerce'i eelvaatekeskkonna KKK](cpe-faq.md)
+[Dynamics 365 Commerce eelvaatekeskkonna KKK](cpe-faq.md)
 
 [Microsofti elutsükli teenused (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -157,5 +157,3 @@ Teavet selle kohta, kuidas Commerce’i eelvaatekeskkonna valikulisi funktsioone
 [Microsoft Azure'i portaal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce veebisait](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Abiressursid rakenduse Dynamics 365 Retail jaoks](../retail/index.md)

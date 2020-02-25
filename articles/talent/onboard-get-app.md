@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 8739bb1afdbea40c7f1c77064ee6b052516903d1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 1b59fdbdd9ed46f42afd3e7310d2cd3f076edd95
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898198"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006375"
 ---
 # <a name="get-the-onboard-app"></a>Rakenduse Onboard hankimine
 
@@ -32,7 +32,7 @@ Saate vaadata demo ja proovida rakendust Microsoft Dynamics 365 Talent: Onboard 
 > [!NOTE]
 > Tasuta prooviversioon nõuab ettevõtte meilikontot.
 
-Saate osta Onboardi tellimuse, mis on kas eraldiseisev rakendus või osa rakendusest Dynamics 365 Talent. Talent on terviklik personalijuhtimise süsteem, mis sisaldab rakendust Dynamics 365 Talent: Attract, Onboard ja Core HR. Lisateavet selle kohta, kuidas Onboardi osta, leiate lehelt [Onboardi tooteleht](https://dynamics.microsoft.com/talent/onboard/).
+Saate osta Onboardi tellimuse, mis on kas eraldiseisev rakendus või osa rakendusest Dynamics 365 Talent. Lisateavet selle kohta, kuidas Onboardi osta, leiate lehelt [Onboardi tooteleht](https://dynamics.microsoft.com/talent/onboard/).
 
 Prooviversiooni või ostu protsessi käigus seadistate oma Microsoft 365 meiliaadressi ja parooli. Märkige kindlasti need väärtused.
 
