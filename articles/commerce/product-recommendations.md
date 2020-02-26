@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb369e6d1356ba13a2310d523b671ac57b9642bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e249c7d450510a3a9a33158e9e1c33f832a1f91c
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770042"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024975"
 ---
 # <a name="product-recommendations-overview"></a>Tootesoovituste ülevaade
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Rakendust Microsoft Dynamics 365 Commerce saab kasutada tootesoovituste kuvamiseks e-kaubanduse veebisaidil ja kassa (POS) seadmes. Tootesoovitused on kaubad, millest klient võib huvitatud olla. Soovitused põhinevad teiste klientide ostude suundumustel võrgus ja kliendiga näost-näkku suhtlevates kauplustes.
@@ -45,6 +44,7 @@ Tootesoovitused on saadaval järgmiste stsenaariumide puhul.
 - **E-kaubanduse lehe sirvimise või sihtlehe mis tahes kaupluse lehel:** kui kliendid või kaupluse kaastöötajad külastavad kaupluse lehte, võib soovituse mootor soovitada tooteid loendites **Uus**, **Enim müüdud** ja **Populaarsed**.
 - **Lehel toote üksikasjad:** kui kliendid või kaupluse kaastöötajad külastavad lehte **Toote üksikasjad**, soovitab soovituse mootor lisakaupu, mida tõenäoliselt ka ostetakse. Need kaubad kuvatakse loendis **Inimestele meeldib ka**.
 - **Kande või kassa lehel:** soovituse mootor pakub kaupu, mis põhinevad kogu ostukorvis olevate kaupade loendil. Need kaubad kuvatakse loendis **Sageli koos ostetud**.
+- **Isikupärastatud soovitused** : turustajad võivad pakkuda sisselogitud klientidele isikupärastatud loendeid **Teile valitud** koos uue funktsiooniga, mis võimaldab olemasolevaid loendi stsenaariumeid vastavalt sellele kliendile isikupärastada. Lisateavet vaadake funktsiooni dokumentidest: [Isikupärastatud soovituste lubamine.](personalized-recommendations.md)
 
 ## <a name="recommendation-service"></a>Soovitamise teenus
 
@@ -56,6 +56,10 @@ Tootesoovitused kasutavad soovituste masinõppe tehnoloogiaid järgmisel viisil.
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Tootesoovituste lubamine](enable-product-recommendations.md)
+
+[Isikupärastatud soovituste lubamine](personalized-recommendations.md)
+
+[Tootekogumi mooduli ülevaade](product-collection-module-overview.md)
 
 [Kureeritud tootesoovituste loendite loomine](create-editorial-recommendation-lists.md)
 

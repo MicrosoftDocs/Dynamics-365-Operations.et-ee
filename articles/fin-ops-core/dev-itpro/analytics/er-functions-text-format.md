@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df158e80bd1c11832376678a631a9e0e162534ad
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b09efeb6b5d8bd2ea452dbf7a9ddaeec2ab75c92
+ms.sourcegitcommit: 0455a024185f79ecb82df61e6d994bd71dee5c10
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915713"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "2974288"
 ---
 # <a name="FORMAT">ER-i funktsioon FORMAT</a>
 
@@ -96,7 +96,7 @@ Kui sama aruannet töödeldakse kliendi **Litware Retail** jaoks 17. detsembril 
 >[!NOTE]
 > Siltidele mõeldud ER-i valemites rakendatakse järgmist süntaksit.
 >
-> - **Rakenduse Microsoft Dynamics 365 Finance ressursside siltide puhul:** **@X**, kus **X** on sildi ID rakendusobjektide puus (AOT)
+> - **Rakenduse Microsoft Dynamics 365 Finance ressursside siltide puhul:** **\@X**, kus **X** on sildi ID rakendusobjektide puus (Application Object Tree (AOT))
 > - **ER-i konfiguratsioonides asuvate siltide puhul:** **@„GER_LABEL:X”**, kus **X** on sildi ID ER-i konfiguratsioonis
 
 ## <a name="additional-resources"></a>Lisaressursid

@@ -1,9 +1,9 @@
 ---
 title: Mobiilirakenduse avaleht
-description: Selles teemas kirjeldatakse mobiilirakendust Finance and Operations ja antakse linke ressurssidele, mis aitavad teil seda oma organisatsioonis juurutada.
+description: Selles teemas kirjeldatakse mobiilirakendust Finance and Operations (Dynamics 365) ja antakse linke ressurssidele, mis aitavad teil seda oma organisatsioonis juurutada.
 author: sericks007
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: aaff4e3b3bfb079e183a12a5a85e452eed6df51d
-ms.sourcegitcommit: e30ced8f136ef23017d2d8215a756236e42eec25
+ms.openlocfilehash: 012b51b66c831a66a54c7c868735e310f05eb8c1
+ms.sourcegitcommit: f939bc6292840e29bc0f498efc8f4641dfe8f994
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "2853928"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "2975193"
 ---
 # <a name="mobile-app-home-page"></a>Mobiilirakenduse avaleht
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse mobiilirakendust Finance and Operations ja antakse linke ressurssidele, mis aitavad teil seda oma organisatsioonis juurutada.
+Selles teemas kirjeldatakse mobiilirakendust **Finance and Operations (Dynamics 365)** ja antakse linke ressurssidele, mis aitavad teil seda oma organisatsioonis juurutada.
 
 <a name="overview"></a>Ülevaade
 --------
@@ -80,7 +80,7 @@ Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Micro
 <tr class="odd">
 <td>1</td>
 <td>Süsteemiadministraator</td>
-<td>Juurutage oma organisatsioonis rakendust Finance and Operations.</td>
+<td>Juurutage rakendus Finance and Operations oma organisatsioonis.</td>
 <td><ul><li>Kui te e&#39;i ole veel ühtegi Microsoft Dynamics 365 versiooni juurutanud, vt jaotist <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>.</li><li>Kasutatavate mobiilsete tööruumide loendi leiate jaotisest <a href="mobile-workspaces-released.md">Hiljuti välja antud mobiilsed tööruumid</a>.</li></ul></td>
 </tr>
 <tr class="even">
@@ -135,8 +135,8 @@ Järgmises tabelis on lingid ressursside juurde, mis aitavad juurutada nii Micro
 <td>Kasutaja</td>
 <td>Laadige alla ja installige mobiilirakendus.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Rakendus Finance and Operations Androidi jaoks</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Rakendus Finance and Operations iOS-i jaoks</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Rakendus Finance and Operations Androidile</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Rakendus Finance and Operations iOS-ile</a><BR/>
 (Windows Phone’i ei toetata)
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-title: Commerce'i eelvaatekeskkonna ülevaade
+title: Dynamics 365 Commerce'i eelvaatekeskkonna ülevaade
 description: See teema annab ülevaate rakenduse Microsoft Dynamics 365 Commerce eelvaatekeskkonnast.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 901583afde4739be5313fa129ff0e52f11326881
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906066"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024679"
 ---
-# <a name="commerce-preview-environment-overview"></a>Commerce'i eelvaatekeskkonna ülevaade
+# <a name="dynamics-365-commerce-preview-environment-overview"></a>Dynamics 365 Commerce'i eelvaatekeskkonna ülevaade
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 See teema annab ülevaate rakenduse Microsoft Dynamics 365 Commerce eelvaatekeskkonnast.
@@ -52,10 +52,10 @@ Commerce eelvaatekeskkonna ettevalmistamiseks vaadake teemat [Commerce eelvaatek
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Commerce'i eelvaatekeskkonna ettevalmistamine](provisioning-guide.md)
+[Dynamics 365 Commerce'i eelvaatekeskkonna ettevalmistamine](provisioning-guide.md)
 
-[Commerce'i eelvaatekeskkonna konfigureerimine](cpe-post-provisioning.md)
+[Dynamics 365 Commerce’i eelvaatekeskkonna konfigureerimine](cpe-post-provisioning.md)
 
-[Commerce'i eelvaatekeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
+[Dynamics 365 Commerce’i eelvaatekeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
 
-[Commerce'i eelvaatekeskkonna KKK](cpe-faq.md)
+[Dynamics 365 Commerce eelvaatekeskkonna KKK](cpe-faq.md)

@@ -3,7 +3,7 @@ title: Planeerimise optimiseerimise kasutamise alustamine
 description: Selles teemas selgitatakse, kuidas hakata kasutama planeerimise optimeerimise funktsiooni.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/29/2019
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 37c2acb2397b2a0ad69272c0645bd200a8d7910d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773939"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971460"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
@@ -47,15 +47,17 @@ Planeerimise optimeerimise kasutamiseks installige Dynamics 365 Supply Chain Man
 
 1. Logige LCS-i sisse ja avage soovitud keskkond.
 1. Avage **Kõik üksikasjad**.
-1. Valige **Hooldamine** või kerige alla kiirkaardile **Keskkonna lisandmoodulid**.
+1. Kerige alla kiirkaardini **Keskkonna lisandmoodulid**.
 1. Valige **Installi uus lisandmoodul**.
 1. Valige **Planeerimise optimeerimine**.
 1. Täitke paigaldusjuhendit ja nõustuge nõuete ja tingimustega.
 1. Valige **Installi**.
+1. Kiirkaardil **Keskkonna lisandmoodulid** peaksite nägema, et planeerimise optimeerimine on installitud.
+1. Mõne minuti pärast peaks olek **Installimine** muutuma olekuks **Installitud** (võimalik, et peate lehte värskendama). Kui installimine on lõpetatud, olete valmis aktiveerima optimeerimise plaanimise rakenduses Dynamics 365 Supply Chain Management.
 
 ### <a name="planning-optimization-integration"></a>Planeerimise optimeerimise integreerimine
 
-Konfigureerimaks, kas planeerimise optimeerimise lisandmoodulit peaks koondplaneerimise jaoks kasutama, avage **Koondplaneerimine** \> **Seadistamine** \> **Planeerimise optimeerimise integreerimine** \> **Integreerimise parameetrid**.
+Konfigureerimaks, kas planeerimise optimeerimise lisandmoodulit peaks koondplaneerimise jaoks kasutama, avage **Koondplaneerimine** \> **Seadistamine** \> **Optimeerimise parameetrite plaanimine**.
 
 #### <a name="connection-status"></a>Ühenduse olek
 

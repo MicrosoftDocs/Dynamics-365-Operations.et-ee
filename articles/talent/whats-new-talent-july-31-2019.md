@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 96937d48e0d1003adbc5f7fedc89b2686ace01cd
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899024"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006283"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (30. juuli 2019)
 
@@ -41,7 +41,7 @@ Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2409.
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Piirkonna tugi Kanadas ja Kagu-Aasias
 
-Meil on hea meel teatada, et Kanada ja Kagu-Aasia piirkonnad on saadaval teenuse Talent jaoks 1. augustil 2019. Selle muudatusega saate luua keskkondasid Kanada ja Aasia regioonides ning kõik Talenti andmed säilitatakse ainult nende asukohtade piires. Saate luua keskkonna nendes uutes piirkondades, valides uue keskkonna dialoogis asukoha ja kasutada seda keskkonda, et valmistada ette Talenti LCS-is, nagu on kirjeldatud siin [Provision Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Meil on hea meel teatada, et Kanada ja Kagu-Aasia piirkonnad on saadaval teenuse Talent jaoks 1. augustil 2019. Selle muudatusega saate luua keskkondasid Kanada ja Aasia regioonides ning kõik Talenti andmed säilitatakse ainult nende asukohtade piires. Saate luua keskkonna nendes uutes piirkondades, valides uue keskkonna dialoogis asukoha ja kasutada seda keskkonda, et valmistada ette Talenti LCS-is, nagu on kirjeldatud siin [Provision Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Teiste piirkondade ning Kanada ja Aasia piirkondade olemasolevate projektide andmeid ei toetata. Nendele uutele toetatud piirkondadele saab ette valmistada ainult uusi projekte.
 

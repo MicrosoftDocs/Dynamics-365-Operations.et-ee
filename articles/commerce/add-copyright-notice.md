@@ -3,7 +3,7 @@ title: Autoriõiguste teatise lisamine
 description: Selles teemas kirjeldatakse kuidas oma e-kaubanduse veebisaidile autoriõiguse teatist lisada.
 author: psimolin
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914563"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025478"
 ---
 # <a name="add-a-copyright-notice"></a>Autoriõiguste teatise lisamine
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse kuidas oma e-kaubanduse veebisaidile autoriõiguse teatist lisada.
@@ -48,8 +48,8 @@ Iga konkreetset malli kasutava lehe allossa autoriõiguse teatise lisamiseks toi
 1. Navigeerimispaanil valige kolmikpunkti nupp (**...**) suvandi **Jalus** kõrval ja valige seejärel **Lisa moodul**.
 1. Dialoogiaknas valige suvand **Jaluse kategooria** ja seejärel valige nupp **OK**.
 1. Navigeerimispaanil valige kolmikpunkti nupp suvandi **Jaluse kategooria** kõrval ja valige seejärel **Lisa moodul**.
-1. Dialoogiaknas valige suvand **Sisurikka ploki üksus** ja seejärel valige nupp **OK**.
-1. Valige navigeerimispaanil suvand **Sisurikka ploki üksus**.
+1. Dialoogiaknas valige suvand **Tekstiplokk** ja seejärel valige nupp **OK**.
+1. Valige navigeerimispaanil **Tekstiplokk**.
 1. Lisage paremal atribuutide paanil väljale **Lõik** oma autoriõiguse sõnum. Sisestage näiteks **(C) Fabrikam 2019**.
 1. Valige **Salvesta**, valige **Registreeri**ja valige seejärel **Avalda**.
 1. Valige suvand **Mallid**, valige mall ja seejärel käsk **Registreeri välja**.

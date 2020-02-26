@@ -1,9 +1,9 @@
 ---
 title: Eemaldatud või aegunud funktsioonid teenuses Lifecycle Services (LCS)
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Microsoft Dynamicsi teenusest Lifecycle Services (LCS).
-author: sericks007
+author: AngelMarshall
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,15 +12,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c792d06e9b0aa42919de924bdcc9118358779b72
-ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
+ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885451"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027976"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Eemaldatud või aegunud funktsioonid teenuses Lifecycle Services (LCS)
 
@@ -53,7 +53,7 @@ See loend on esitatud nii, et saaksite oma plaanide tegemisel võtta neid eemald
 </tr>
 <tr>
 <td><strong>Olek</strong></td>
-<td>Aegunud: vooskeemi diagrammide komponent eemaldatakse äriprotsesside modelleerijast 2020. aasta veebruari alguses. Eemaldatakse järgmised funktsioonid.
+<td>Aegunud: vooskeemi diagrammide komponent eemaldatakse äriprotsesside modelleerijast 2020. aastal. Eemaldatakse järgmised funktsioonid.
 <ul>
 <li>Olemasolevad vooskeemid ei ole vaatamiseks ega redigeerimiseks saadaval. Vooskeemi tegevusega seotud kuju atribuudid ei ole samuti saadaval, kuna kogu vahekaart <strong>Vooskeem</strong> eemaldatakse. Need skeemid hõlmavad nii vaikimisi vooskeeme, mis on automaatselt loodud, kui ka kohandatud vooskeeme, mida on nende vaikimisi vooskeemide alusel muudetud.</li>
 <li>Pärandi sobivuse / erinevuste analüüsi funktsioon ei ole saadaval. Seetõttu erinevuste loendit automaatselt ei looda ja see pole eksportimiseks saadaval.

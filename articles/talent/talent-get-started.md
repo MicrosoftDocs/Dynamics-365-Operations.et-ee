@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c3a2881ede53e4adfba775b9bb23071468c8f602
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024240"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006513"
 ---
 # <a name="get-started-with-talent"></a>Rakendusega Talent alustamine
 
@@ -31,7 +31,7 @@ ms.locfileid: "2024240"
 Rakenduses Microsoft Dynamics 365 Talent saab kasutajaliidest hõlpsasti kohandada ja määrata suvandeid, mis muudavad tarkvara teie vajaduste jaoks intuitiivsemaks. Teema hõlmab muude teemade linke, kust saate teavet selle kohta, kuidas kohandada kasutajaliidest oma eelistuste kohaselt. Teema sisaldab ka linke teabe juurde, mis aitab teil süsteemis tõhusalt ja täpselt teavet leida. 
 
 > [!NOTE] 
-> Järgmised kolm toodet on omavahel tihedalt seotud: Dynamics 365 Finance, Dynamics 365 Retail ja Dynamics 365 Talent. Kõigis kolmes tootes võivad esineda samad funktsioonid. Seetõttu on peamiselt jaemüügiga seotud teemades toote nimi Dynamics 365 Retail, Talentiga seotud teemades on toote nimi Dynamics 365 Talent ja põhitootega seotud teemades on toote nimi Dynamics 365 Finance. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
+> Järgmised kolm toodet on omavahel tihedalt seotud: Dynamics 365 Finance, Dynamics 365 Commerce ja Dynamics 365 Talent. Kõigis kolmes tootes võivad esineda samad funktsioonid. Seetõttu on peamiselt kaubandusega seotud teemades toote nimi Dynamics 365 Commerce, Talentiga seotud teemades on toote nimi Dynamics 365 Talent ja põhitootega seotud teemades on toote nimi Dynamics 365 Finance. Teemad, mis on kirja pandud ühe toote jaoks, võivad kohalduda ka seotud toote samale funktsioonile.
 
 ## <a name="personalizing-talent"></a>Talenti isikupärastamine 
 Järgmistes teemades selgitatakse, kuidas häälestada Talenti mitmesuguseid funktsioone, mis aitavad teil töö õigeks ajaks tehtud saada. 

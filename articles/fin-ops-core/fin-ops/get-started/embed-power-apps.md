@@ -16,104 +16,104 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
-ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
+ms.openlocfilehash: 9585d5a399ebf45b0ad7640f3c4e48d8afc46cd8
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "2870237"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017724"
 ---
 # <a name="embed-microsoft-power-apps"></a>Microsoft Power Appsi manustamine
 
 [!include [banner](../includes/banner.md)]
 
-Platvormivärskendus 14 toetab integratsiooni Microsoft Power Appsiga, mis on mõeldud arendajatele ja mittetehnilistele kasutajatele kohandatud ärirakenduste ehitamiseks mobiilsideseadmete, tahvelarvutite ning veebi jaoks ilma koodi kirjutamata. Power Apps Teie, teie organisatsiooni või laiema ettevõtete „ökosüsteemi” arendatud PowerAppsi saab lisada Finance and Operationsi rakendustesse, et võimendada toote funktsionaalsust. Näiteks võib luua Power Appi, mis täiendab Finance and Operationsi rakenduste teisest süsteemist toodud teabega.
+Finance and Operations toetab integratsiooni Microsoft Power Appsiga, mis on mõeldud arendajatele ja mittetehnilistele kasutajatele kohandatud ärirakenduste ehitamiseks mobiilsideseadmete, tahvelarvutite ning veebi jaoks ilma koodi kirjutamata.  Teie, teie organisatsiooni või laiema ettevõtete „ökosüsteemi” arendatud Power Appsi saab lisada Finance and Operationsi rakendustesse, et võimendada toote funktsionaalsust. Näiteks võite luua rakenduse Power Appsist, mis täiendab rakendust Finance and Operations teisest süsteemist toodud teabega.
 
 Lisateavet Power Appsi manustamise kohta vaadake lühivideost [Kuidas manustada Power Appsi rakendusse](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
-## <a name="adding-an-embedded-power-app-to-a-page"></a>Manustatud Power Appi lisamine lehele
+## <a name="adding-an-embedded-app-from-power-apps-to-a-page"></a>Manustatud rakenduse lisamine Power Appsist lehele
 
 ### <a name="overview"></a>Ülevaade
 
-Enne Power Appi klienti manustamist peate esmalt leidma või looma soovitud visuaalide ja/või funktsionaalsusega Power Appi. Siin ei kirjeldata Power Appi üksikasjalikku loomisprotsessi. Kui olete alles uus Power Appsi kasutaja, siis teema  [Power Appsi sissejuhatus](https://docs.microsoft.com/powerapps/getting-started) on heaks algukspunktiks.
+Enne Power Appsist rakenduse klienti manustamist peate esmalt leidma või looma soovitud visuaalide ja/või funktsionaalsusega rakenduse. Siin ei kirjeldata rakenduste üksikasjalikku loomisprotsessi. Kui olete alles uus Power Appsi kasutaja, siis teema  [Power Appsi sissejuhatus](https://docs.microsoft.com/powerapps/getting-started) on heaks algukspunktiks.
 
-Kui olete valmis konkreetset Power Appi manustama, on teil valida kahe võimaluse vahel, kuidas Power Appi lehel avada, olenevalt sellest, milline viis teile paremini sobib. Esimene võimalus on kasutada standardselt toimingupaanile lisatud nuppu Power Apps. Sedasi lisatud Power Apps kuvatakse menüünupu Power Apps menüü üksusena. Valimisel avab iga menüü-üksus külgpaani, mis sisaldab manustatud Power Appi. Teise võimalusena saate Power Appi kuvada otse lehel uue vahekaardina, kiirkaardina, labana või uue jaotisena tööruumis.
+Kui olete valmis konkreetset rakendust manustama, on teil valida kahe võimaluse vahel, kuidas rakendust lehel avada, olenevalt sellest, milline viis teile paremini sobib. Esimene võimalus on kasutada standardselt toimingupaanile lisatud nuppu Power Apps. Sedasi lisatud rakendused  kuvatakse Power Appsi menüünupus menüü üksusena. Valimisel avab iga menüü-üksus külgpaani, mis sisaldab manustatud rakendust. Teise võimalusena saate rakenduse manustada otse lehel uue vahekaardina, kiirkaardina, labana või uue jaotisena tööruumis.
 
-Manustatud Power Appi konfigureerimisel saate valida ühe välja, mida Power Appi sisendina saata. See võimaldab Power Appil reageerida praegu vaadatavate andmete põhjal.
+Manustatud rakenduse konfigureerimisel saate valida ühe välja, mida kontekstina rakendusse saata. See võimaldab rakendusel reageerida praegu vaadatavate andmete põhjal.
 
 ### <a name="details"></a>Üksikasjad
 
-Järgmised juhised näitavad, kuidas manustada Power Appi veebiklienti.
+Järgmised juhised näitavad, kuidas manustada rakendust Power Appsist veebiklienti.
 
-1. Minge lehele, kuhu soovite Power Appi manustada. See on sama leht, mis sisaldab mis tahes andmeid, mis tuleb Power Appi sisendina edastada.
-2. Paani **Lisa Power App** avamiseks tehke järgmist.
+1. Minge lehele, kuhu soovite rakendust manustada. See on sama leht, mis sisaldab mis tahes andmeid, mis tuleb rakendusse sisendina edastada.
+2. Avage paan **Lisa rakendus Power Appsist**.
 
-    - Klõpsake valikut **Suvandid** ja seejärel valige **Vormi isikupärastamine**. Valige menüüst **Lisa** suvand **Power App**. Lõpuks valige piirkond, kuhu soovite Power Appi lisada. Kui soovite Power Appi menüünupu Power Apps alt manustada, valige toimingupaan. Kui soovite Power Appi otse lehele manustada, valige asjakohane vahekaart, kiirkaart, laba või jaotis (kui kasutate tööruumi).
-    - Kui Power Appi avamiseks kasutatakse menüünuppu Power Apps, võite teise võimalusena klõpsata standardse toimingupaani menüünuppu **Power Apps** ja valida seejärel suvandi  **Lisa Power App**.
+    - Klõpsake valikut **Suvandid** ja seejärel valige **Isikupärasta see leht**. Valige menüüst **Lisa** suvand **Power Apps**. Lõpuks valige piirkond, kuhu soovite rakendust lisada. Kui soovite rakendust menüünupu Power Apps alt manustada, valige toimingupaan. Kui soovite rakendust otse lehele manustada, valige asjakohane vahekaart, kiirkaart, laba või jaotis (kui kasutate tööruumi).
+    - Kui rakenduse avamiseks kasutatakse menüünuppu Power Apps, võite teise võimalusena klõpsata standardse toimingupaani menüünuppu **Power Apps** ja valida seejärel suvandi  **Lisa rakendus**.
 
-3. Manustatud Power Appi konfigureerimiseks tehke järgmist.
+3. Manustatud rakenduse konfigureerimine.
 
-    - Väljal **Nimi** on näidatud tekst, mis kuvatakse manustatud Power Appi sisaldava nupu või vahekaardi jaoks. Sageli korratakse sellel väljal Power Appi nime.
-    - **Rakenduse ID** on manustatava Power Appi GUID. Selle väärtuse toomiseks leidke Power App aadressilt [web.powerapps.com](https://web.powerapps.com) ja seejärel väli **Rakenduse ID** jaotisest **Üksikasjad**.
-    - Välja **Power Appi sisendandmed** jaoks võite valida ka välja, mis sisaldab andmeid, mida soovite Power Appi sisendina edastada. Üksikasju, kuidas Power App Finance and Operationsi rakendustest saadetud andmetele juurde pääseb, saate vaadata selle jaotise allpool olevast teemast pealkirjaga [Finance and Operationsi rakendustest andmeid kasutava Power Appi loomine](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps).
-    - Valige **Rakenduse suurus**, mis on kooskõlas manustatava Power Appi tüübiga. Valige **Peenike** mobiilsetele seadmetele loodud Power Appsi jaoks ja **Lai** tahvelarvutitele loodud Power Appsi jaoks. See tagab, et manustatud Power Appi jaoks eraldatakse piisavalt ruumi.
-    - Kiirkaardil **Juriidilised isikud** saate määrata, milliste juriidiliste isikute jaoks see Power App saadaval on. Vaikimisi kuvatakse Power App kõigis juriidilistes isikutes.
+    - Väljal **Nimi** on näidatud tekst, mis kuvatakse manustatud rakendust sisaldava nupu või vahekaardi jaoks. Sageli korratakse sellel väljal rakenduse nime.
+    - **Rakenduse ID** on manustatava rakenduse GUID. Selle väärtuse toomiseks leidke rakendus aadressilt [web.powerapps.com](https://web.powerapps.com) ja seejärel väli **Rakenduse ID** jaotisest **Üksikasjad**.
+    - Välja **Rakenduse sisendkontekst** jaoks võite valida ka välja, mis sisaldab andmeid, mida soovite rakenduse sisendina edastada. Üksikasju, kuidas rakendus saab juurdepääsu  Finance and Operationsist saadetud andmetele vaadake selle jaotise allpool olevast teemast [Finance and Operationsi rakendustest andmeid kasutava rakenduse loomine](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps).
+    - Valige **Rakenduse suurus**, mis on kooskõlas manustatava rakenduse tüübiga. Valige **Peenike** mobiilsetele seadmetele loodud rakenduste jaoks ja **Lai** tahvelarvutitele loodud rakenduste jaoks. See tagab, et manustatud rakenduse jaoks eraldatakse piisavalt ruumi.
+    - Kiirkaardil **Juriidilised isikud** saate määrata, milliste juriidiliste isikute jaoks see rakendus saadaval on. Vaikimisi tehakse rakendus juurdepääsetavaks kõigile juriidilistele isikutele. See suvand on saadaval ainult siis, funktsioon [Salvestatud vaated](saved-views.md) on keelatud. 
 
-4. Kui olete veendunud, et Power Appi konfiguratsioon on õige, klõpsake Power Appi lehele manustamiseks suvandit **Lisa**. Manustatud Power Appi nägemiseks palutakse teil brauserit värskendada.
+4. Kui olete veendunud, et Power Appi konfiguratsioon on õige, klõpsake Power Appi lehele manustamiseks suvandit **Lisa**. Manustatud rakenduse nägemiseks palutakse teil brauserit värskendada.
 
-## <a name="sharing-an-embedded-power-app"></a>Manustatud Power Appi ühiskasutusse andmine
+## <a name="sharing-an-embedded-app"></a>Manustatud rakenduse ühiskasutusse andmine
 
-Kui olete Power Appi lehele manustanud ja veendunud, et see töötab korrektselt mis tahes lehelt edastatud andmete konteksti puhul, võite seda manustatud Power Appi teistele süsteemis olevatele kasutajatele ühiskasutusse anda. Seda saab toote isikupärastamisvõimalusi kasutades teha kahel viisil.
+Kui olete rakenduse lehele manustanud ja veendunud, et see töötab korrektselt mis tahes lehelt edastatud andmete konteksti puhul, võite seda manustatud PowerAppi teistele süsteemis olevatele kasutajatele ühiskasutusse anda. Seda saab toote isikupärastamisvõimalusi kasutades teha kahel viisil.
 
 - Soovitatav on seda teha süsteemi administraatori kaudu, kes saab isikupärastamise avaldada kõigile kasutajatele või kasutajate alamkogumile.
-- Teise võimalusena saate lehe isikupärastamised eksportida, saata need ühele või mitmele kasutajale ja igaüks neist saab muudatused importida. Isikupärastamise tööriistariba suvand Halda võimaldab teil isikupärastamisi eksportida ja importida.
+- Teise võimalusena saate lehe isikupärastamised eksportida, saata need ühele või mitmele kasutajale ja igaüks neist saab muudatused importida. Isikupärastamise tööriistaribal on toiminguid, mis võimaldavad teil isikupärastamisi eksportida ja importida.
 
 Toote isikupärastamise võimaluste ja nende kasutamise kohta vaadake lisateavet teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md).
 
-## <a name="building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps"></a>Finance and Operationsi rakenduste andmeid kasutava Power Appi loomine
+## <a name="building-an-app-that-leverages-data-sent-from-finance-and-operations-apps"></a>Rakenduse ehitamine, mis võimendab rakendustekomplektist Finance and Operations saadetud andmeid
 
-Finance and Operationsi rakenduste manustamiseks loodava Power Appi puhul on oluline kasutada sisendandmeid Finance and Operationsi rakendustest. Power Appis pääseb neile sisendandmetele ligi muutujat Param("EntityId") kasutades.
+Oluline osa Power Appsist rakenduse loomisest, mis manustatakse rakendusse Finance and Operations on selle rakenduse sisendandmete kasutamine. Power Appsi arenduse kogemuse põhjal pääseb Finance and Operationsi rakendusest edastatavate andmed juurde, kasutades muutujat Param("EntityId").
 
-Näiteks saate Finance and Operationsi rakenduste sisendandmed Power Appi funktsioonis OnStart seadistada järgmiseks muutujaks:
+Näiteks saate Finance and Operationsi rakenduste sisendandmed rakenduse funktsioonis OnStart seadistada järgmiseks muutujaks.
 
 ```
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
-## <a name="viewing-an-embedded-power-app"></a>Manustatud Power Appi kuvamine
+## <a name="viewing-an-app"></a>Rakenduse kuvamine
 
-Manustatud Power Appi kuvamiseks Finance and Operationsi rakenduste lehel avage lihtsalt manustatud Power Appiga leht. Meenutuseks, et Power Appsi saab avada standardse toimingupaani nupuga Power Apps või see võib olla kuvatud otse lehel vahekaardina, kiirkaardina, labana või tööruumi puhul uue jaotisena. Kui kasutaja püüab esimest korda Power Appi lehele laadida, palutakse tal Power Appsi sisse logida, tagamaks, et kasutajal on olemas vajalikud load Power Appi kasutamiseks.
+Manustatud rakenduse kuvamiseks Finance and Operationsi rakenduste lehel avage lihtsalt manustatud rakendusega leht. Meenutuseks, et rakendusi saab avada standardse toimingupaani nupuga Power Apps või see võib olla kuvatud otse lehel vahekaardina, kiirkaardina, labana või tööruumi puhul uue jaotisena. Kui kasutaja püüab esimest korda rakendust lehele laadida, palutakse tal i sisse logida, tagamaks, et kasutajal on olemas vajalikud load rakenduse kasutamiseks.
 
-## <a name="editing-an-embedded-power-app"></a>Manustatud Power Appi redigeerimine
+## <a name="editing-an-embedded-app"></a>Manustatud rakenduse redigeerimine
 
-Kui Power App on lehele manustatud, võib tekkida vajadus muuta Power Appi konfiguratsiooni. Näiteks võite soovida muuta manustatud Power Appiga seotud silti või on loodud Power Appi uus versioon ja teil on vaja värskendada rakenduse ID-d, et viidata uusimale Power Appile.
+Kui rakendus on lehele manustatud, võib tekkida vajadus muuta rakenduse konfiguratsiooni. Näiteks võite soovida muuta manustatud rakendusega seotud silti või on loodud rakenduse uus versioon ja teil on vaja värskendada rakenduse ID-d, et viidata uusimale PowerAppile.
 
-Manustatud Power Appi konfiguratsiooni redigeerimiseks tehke järgmist.
+Manustatud rakenduse konfiguratsiooni redigeerimiseks tehke järgmist.
 
-1. Avage paan **Redigeeri Power Appi**.
+1. Avage paan **Redigeeri rakendust**.
 
-    - Kui kasutate manustatud Power Appi avamiseks menüünuppu Power Apps, paremklõpsake menüünuppu Power Apps ja valige suvand **Isikupärasta**. Valige rippmenüüst **Valige Power App** Power App, mida soovite konfigureerida.
-    - Kui manustatud Power App kuvatakse otse lehel, valige **Suvandid** ja seejärel **Vormi isikupärastamine**. Klõpsake **valimistööriista** kasutades manustatud Power Appi.
+    - Kui kasutate manustatud rakenduse avamiseks menüünuppu Power Apps, paremklõpsake menüünuppu Power Apps ja valige suvand **Isikupärasta**. Valige rippmenüüst **Valige rakendus** see rakendus, mida soovite konfigureerida.
+    - Kui manustatud rakendus kuvatakse otse lehel, valige **Suvandid** ja seejärel **Isikupärasta see leht**. Klõpsake **valimistööriista** kasutades manustatud rakendust.
 
-2. Tehke vajalikud muudatused Power Appsi konfiguratsioonis ja klõpsake **Salvesta**.
+2. Tehke vajalikud muudatused rakenduse konfiguratsioonis ja klõpsake **Salvesta**.
 
-## <a name="removing-an-embedded-power-app"></a>Manustatud Power Appi eemaldamine
+## <a name="removing-an-app"></a>Rakenduse eemaldamine
 
-Kui lehele on manustatud Power App, on vajaduse korral võimalik seda eemaldada kahel viisil.
+Kui lehele on manustatud rakendus, on vajaduse korral võimalik seda eemaldada kahel viisil.
 
-- Avage paan **Redigeeri Power Appi**, selleks leiate juhtnöörid selle teema varasemast jaotisest [Manustatud Power Appi redigeerimine](#editing-an-embedded-power-app). Veenduge, et see paan kuvaks teavet eemaldada soovitud Power Appi kohta, ja seejärel klõpsake nuppu **Kustuta**.
-- Kuna manustatud Power App salvestatakse isikupärastamisandmetena, eemaldatakse lehe isikupärastamiste kustutamisel ka lehele manustatud Power Apps. Pange tähele, et lehe isikupärastamised kustutatakse jäädavalt ja seda ei saa tagasi võtta. Lehe isikupärastamiste eemaldamiseks valige **Suvandid** ja seejärel klõpsake **Vormi isikupärastamine**. Valige menüüst **Halda** nupp **Tühjenda**. Pärast brauseri värskendamist on kõik lehe varasemad isikupärastamised eemaldatud. Isikupärastamist kasutavate lehtede optimeerimise kohta vaadake lisateavet teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md).
+- Avage paan **Redigeeri rakendust**, selleks leiate juhtnöörid selle teema varasemast jaotisest [Manustatud rakenduse redigeerimine](#editing-an-embedded-power-app). Veenduge, et see paan kuvab teavet eemaldada soovitud rakenduse kohta, ja seejärel klõpsake nuppu **Kustuta**.
+- Kuna manustatud rakendus salvestatakse isikupärastamisandmetena, eemaldatakse lehe isikupärastamiste kustutamisel ka lehele manustatud rakendused. Pange tähele, et lehe isikupärastamised kustutatakse jäädavalt ja seda ei saa tagasi võtta. Lehe isikupärastamiste eemaldamiseks valige **Suvandid** ja seejärel klõpsake **Isikupärasta see leht** ja lõpuks nuppu **Tühjenda**. Pärast brauseri värskendamist on kõik lehe varasemad isikupärastamised eemaldatud. Isikupärastamist kasutavate lehtede optimeerimise kohta vaadake lisateavet teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md).
 
 ## <a name="appendix"></a>Lisa
 
-### <a name="developer-control-over-where-a-power-app-can-be-embedded"></a>Arendaja kontroll Power Appi manustamise asukohtade üle
+### <a name="developer-control-over-where-an-app-can-be-embedded"></a>Arendaja kontroll rakenduse manustamise asukohtade üle
 
-Vaikimisi saavad kasutajad Power Appsi manustada mis tahes lehele kas menüünuppu Power Apps kasutades või otse lehele vahekaardina, kiirkaardina, labana või tööruumi puhul jaotisena lisades. Ent kui see on vajalik, saavad arendajad järgmiste meetodite abil seda funktsiooni konfigureerida selliselt, et Power Appsi saab manustada ainult teatud lehtedele.
+Vaikimisi saavad kasutajad rakendusi manustada mis tahes lehele kas Power Appsi menüünuppu kasutades või otse lehele vahekaardina, kiirkaardina, labana või tööruumi puhul jaotisena lisades. Ent kui see on vajalik, saavad arendajad järgmiste meetodite abil seda funktsiooni konfigureerida selliselt, et rakendusi saab manustada ainult teatud lehtedele.
 
-- **isPowerAppPersonalizationEnabled** – kui see meetod annab teatud lehe puhul väärtuseks vale, ei kuvata menüünuppu Power Apps ja kasutajad ei saa Power Appsi kusagile lehele manustada, sh vahekaardina.
-- **isPowerAppTabPersonalizationEnabled** – kui see meetod annab teatud lehe puhul väärtuseks vale, ei saa kasutajad Power Appsi otse vahekaardina, kiirkaardina või panoraamjaotisena lehele manustada. Kasutajatel on siiski võimalus manustada Power Appsi menüünupu Power Appsi abil, kui lehel on manustamine lubatud.
+- **isPowerAppPersonalizationEnabled** – kui see meetod annab teatud lehe puhul väärtuseks vale, ei kuvata Power Appsi menüünuppu ja kasutajad ei saa rakendusi kusagile lehele manustada, sh vahekaardina.
+- **isPowerAppTabPersonalizationEnabled** – kui see meetod annab teatud lehe puhul väärtuseks vale, ei saa kasutajad rakendusi otse vahekaardina, kiirkaardina või panoraamjaotisena lehele manustada. Kasutajatel on siiski võimalus manustada rakendusi Power Appsi menüünupu abil, kui lehel on manustamine lubatud.
 
-Järgmises näites on toodud uus klass kahe konfigureerimist vajava meetodiga, kuhu Power Appsi saab manustada.
+Järgmises näites on toodud uus klass kahe konfigureerimist vajava meetodiga, kuhu rakendusi saab manustada.
 
 ```
 [ExtensionOf(classStr(FormRunConfigurationPowerAppsConfiguration))]

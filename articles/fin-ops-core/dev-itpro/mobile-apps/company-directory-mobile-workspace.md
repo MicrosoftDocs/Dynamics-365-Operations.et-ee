@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Talent
+ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5a96955b72fcc5b0e2975f4bb1e619062be33e20
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 445a2872dcd0e4d3aca9a50c7539fdabb0ed7818
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248753"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005582"
 ---
 # <a name="company-directory-mobile-workspace"></a>Ettevõtte kataloogi mobiilne tööruum
 
@@ -52,12 +52,12 @@ Enne selle mobiilse tööruumi kasutamist peavad olema täidetud järgmised eelt
 <tbody>
 <tr class="odd">
 <td>Teie organisatsioonis peab olema juurutatud üks järgmistest toodetest.
-<ul><li>Finance and Operationsi rakendus</li>
-<li>Microsoft Dynamics 365 Talent</li>
+<ul><li>Rakendus Finance and Operations</li>
+<li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Süsteemiadministraator</td>
-<td>Kui teie organisatsioonis pol&#39;e veel rakendust Finance and Operations juurutatud, siis vt teemat <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>. Kui teie organisatsioonis pol&#39;e veel Talentit juurutatud, pääseb süsteemiadministraator juurde prooviversioonile <a href="https://www.microsoft.com/dynamics365/talent">Talenti veebilehel</a>.
+<td>Kui teie&#39; organisatsioonis veel Finance and Operationsi rakendust ei kasutata, vaadake jaotist <a href="../deployment/deploy-demo-environment.md">Demokeskkonna juurutamine</a>. Kui teie&#39; organisatsioonis veel inimressursse ei kasutata, saab süsteemiadministraator prooviversioonile juurdepääsu <a href="https://dynamics.microsoft.com/human-resources/overview/">Inimressursside veebilehelt</a>.
 </td>
 </tr>
 <tr class="even">

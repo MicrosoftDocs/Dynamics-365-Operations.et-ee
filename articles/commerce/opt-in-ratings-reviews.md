@@ -3,7 +3,7 @@ title: Hinnangute ja arvustuste kasutamise valimine
 description: Selles teemas selgitatakse, kuidas nõustuda rakenduses Microsoft Dynamics 365 Commerce saidi hinnangute ja arvustuste kasutamisega.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10e3c33af232fa46df09a103b2e73eae09a909eb
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: eda7fbaeea8d3c1a07f7b43cafe44886d149a211
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697976"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027261"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Hinnangute ja arvustuste kasutamise valimine
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas nõustuda rakenduses Microsoft Dynamics 365 Commerce saidi hinnangute ja arvustuste kasutamisega.
@@ -36,7 +35,7 @@ Selles teemas selgitatakse, kuidas nõustuda rakenduses Microsoft Dynamics 365 C
 
 Hinnangute ja arvustuste lahendus on omnikanali lahendus, mille saate rakenduses Dynamics 365 Commerce teha kättesaadavaks, kasutades Microsoft Dynamicsi teenust Lifecycle Services (LCS). LCS on haldusportaal, mida jaemüüjad kasutavad oma keskkondade juhtimiseks alates ettevalmistusest kuni kasutusest eemaldamiseni.
 
-Kui soovite oma Commerce’i veebisaidil kasutada hinnanguid ja arvustusi, peate nendega esmalt nõustuma.
+Kui soovite oma Commerce’i veebisaidil kasutada hinnangute ja arvustuste lahendust, peate rakenduses Dynamics 365 Commerce e-kaubanduse saidi juurutamisel nõustuma hinnangute ja arvustustega.
 
 ## <a name="opt-in-to-use-ratings-and-reviews"></a>Hinnangute ja arvustuste kasutamise valimine
 
@@ -51,6 +50,9 @@ Oma saidil hinnangute ja arvustuste kasutamisega nõustumiseks järgige neid sam
 
 1. Viige e-kaubanduse lähtestamise protsess lõpule.
 
+> [!NOTE] 
+> Kui olete olemasolev rakenduse Dynamics 365 Commerce klient, kes on juba võtnud e-kaubanduse saidi kasutusele, ilma et oleks valinud hinnanguid ja arvustusi, ning nüüd soovite kasutada Dynamics 365 Commerce’i paketist hinnanguid ja arvustusi, esitage teenusetaotlus. Teavet teenusetaotluse kasutamise kohta vt teemast [Teenusetaotluse esitamise protsess](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json). 
+
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Hinnangute ja arvustuste ülevaade](ratings-reviews-overview.md)
@@ -60,3 +62,5 @@ Oma saidil hinnangute ja arvustuste kasutamisega nõustumiseks järgige neid sam
 [Hinnangute ja arvustuste konfigureerimine](configure-ratings-reviews.md)
 
 [Toote hinnangute sünkroonimine rakenduses Dynamics 365 Retail](sync-product-ratings.md)
+
+

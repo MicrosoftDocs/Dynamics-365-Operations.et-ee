@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 745a772ec12dff4e40639dbd7df0a713f5869516
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a01201ae4934f6650f85634a230469c6272b36b9
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897783"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006490"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-6-2019"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Talent (6. august 2019)?
 
@@ -57,6 +57,6 @@ Uus suvand võimaldab juhtidel vaadata nii oma otseste kui ka kaudsete alluvate 
 
 ## <a name="coming-soon"></a>Peagi tulekul
 
-### <a name="platform-update-29-for-finance-and-operations"></a>Finance and Operationsi 29. platvormi värskendus
+### <a name="platform-update-29-for-finance-and-operations"></a>Teenuse Finance and Operations platvormivärskendus 29
 
-Lisainfo saamiseks Finance and Operationsi platvormi värskenduse 29 kohta vt [Dynamics 365 Finance and Operationsi platvormi värskenduse 29 (aprill, 2019) funktsioonide eelvaade](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Teenuse Finance and Operations platvormivärskenduse 29 kohta lisateave saamiseks vt [Dynamics 365 Finance and Operations platvormivärskenduse 29 (oktoober 2019) funktsioonide eelvaade](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

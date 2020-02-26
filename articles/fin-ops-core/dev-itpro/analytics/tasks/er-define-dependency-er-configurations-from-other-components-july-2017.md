@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d949be57d9e9fe744860f5c4045bef2923b7f284
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 97aedf17bb6fa67fd08497ec6e15a7c92866fa4d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249177"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026106"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER-i konfiguratsioonide teistest komponentidest sõltuvuse määramine
 
@@ -28,7 +28,7 @@ ms.locfileid: "2249177"
 
 Toimingute teostamiseks peate esmalt läbima tegevusjuhises toodud ja ER-i mudelihalduse vastendamise konfiguratsioonide etapid ning teil peab olema juurdepääs teenusele Microsoft Dynamics Lifecycle Services (LCS).
 
-Järgmises protseduuris kirjeldatakse elektroonilise aruandluse (ER) konfiguratsiooni kavandamist ja selle teistest tarkvarakomponentidest sõltuvuse määramist tagamaks, et konfiguratsioon laaditaks õigesti alla rakenduse Finance and Operations kindlale versioonile. Selles näites loote näidisettevõtte Litware, Inc jaoks vajalikud elektroonilise aruandluse konfiguratsioonid. 
+Järgmises protseduuris kirjeldatakse elektroonilise aruandluse (ER) konfiguratsiooni kavandamist ja selle teistest tarkvarakomponentidest sõltuvuse määramist tagamaks, et konfiguratsioon laaditaks õigesti alla rakenduse Finance and Operations, Enterprise Edition kindlale versioonile. Selles näites loote näidisettevõtte Litware, Inc jaoks vajalikud elektroonilise aruandluse konfiguratsioonid. 
 
 Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Neid etappe võib teha igas ettevõttes, kuna ER-i konfiguratsioonid on kõigi ettevõtete vahel ühiskasutuses. 
 
@@ -47,9 +47,9 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 5. Klõpsake valikut Uus.
 6. Valige toote eeltingimuse komponent.
 7. Valige Microsoft Dynamics 365 for Operations (1611).
-8. Sisestage versiooniväljale väärtus „[7.1.1541.3036,8)”.
+8. Sisestage versiooniväljale väärtus '[7.1.1541.3036,8)'.
     * [7.1.1541.3036,8)  
-    * Sisestatud sõltuvusi hinnatakse, kui see konfiguratsioon on ER-i hoidlast alla laaditud. See konfiguratsiooni versioon laaditakse ER-i hoidlast alla, kui konfiguratsiooni „Näidisandmemudel” 1. versioon on juba olemas või eelnevalt alla laaditud. Kui see on eelnevalt alla laaditud, tuleb see lõpule viia rakenduse Finance and Operations versioonis 7.1.1541.3036 või uuem versioon, kuid see ei tohi ületada põhiversiooni 8.   
+    * Sisestatud sõltuvusi hinnatakse, kui see konfiguratsioon on ER-i hoidlast alla laaditud. See konfiguratsiooni versioon laaditakse ER-i hoidlast alla, kui konfiguratsiooni „Näidisandmemudel” 1. versioon on juba olemas või eelnevalt alla laaditud. Kui see on eelnevalt alla laaditud, tuleb see lõpule viia rakenduse Finance and Operations versioonis 7.1.1541.3036 või uuemas, kuid see ei tohi ületada põhiversiooni 8.   
 9. Klõpsake nuppu Salvesta.
 10. Sulgege leht.
 11. Klõpsake valikut Muuda olekut.
@@ -60,7 +60,7 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 16. Klõpsake valikut Uus.
 17. Valige toote eeltingimuse komponent.
 18. Valige Microsoft Dynamics AX 7.0 RTW.
-19. Sisestage versiooniväljale väärtus „[7.0.1265.3015,7.1)”.
+19. Sisestage versiooniväljale väärtus '[7.0.1265.3015,7.1)'.
     * [7.0.1265.3015,7.1)  
     * Sõltuvusi hinnatakse, kui see konfiguratsioon on ER-i hoidlast alla laaditud. See konfiguratsiooni versioon laaditakse ER-i hoidlast alla, kui konfiguratsiooni „Näidisandmemudel” 1. versioon on juba olemas või eelnevalt alla laaditud. Kui see on eelnevalt alla laaditud, tuleb see lõpule viia rakenduses Microsoft Dynamics 365 for Finance and Operationsi ettevõtteversioonis, mis peab olema 7.0.1265.3015 või uuem versioon, kuid mis ei tohi ületada lühiversiooni 1.   
 20. Klõpsake nuppu Salvesta.
@@ -109,7 +109,7 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
     * Selle mudelivastenduskonfiguratsiooni 1.1. versioon on LCS-i üles laaditud eelnevalt konfigureeritud ER-i hoidla LCS-projekti jaoks.   
 
 ## <a name="evaluate-er-configuration-dependencies"></a>ER-i konfiguratsioonide sõltuvuste hindamine
-    * Kustutame süsteemist loodud konfiguratsioonid ja laadime need uuesti alla LCS-i hoidlast.  
+Kustutame süsteemist loodud konfiguratsioonid ja laadime need uuesti alla LCS-i hoidlast.  
 1. Tehke puul valik "Näidisandmemudel\Näidisvastendus".
 2. Klõpsake  Kustuta.
 3. Klõpsake nuppu Jah.
@@ -139,5 +139,5 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 25. Avage Organisatsiooni haldamine > Elektrooniline aruandlus > Konfiguratsioonid.
 26. Laiendage puul valikut „Sample data model".
     * Pange tähele, et mudeli „Näidisvastendamine" vastenduskonfiguratsioon on alla laaditud koos valitud andmemudeli konfiguratsiooniga. Kaks faili laaditi koos alla, kuna „Näidisvastendus" on määratletud valitud andmemudeli juurutamisena ja kuna see kehtib rakenduse kohta. Konfiguratsiooni „Näidisvastendus (alternatiivne)” pole alla laaditud, kuna nõutava avalduse versiooni tingimust pole täidetud.   
-    * Kui logite sisse rakendusse Finance and Operations, registreerige sama pakkuja, avage sama LCS-projekt ja laadige alla sama andmemudeli konfiguratsioon. Konfiguratsioon „Näidisvastendus (alternatiivne)” laaditakse alla, aga konfiguratsioon „Näidisvastendus” jäetakse vahele.  
+    * Kui logite sisse Finance and Operationsi, registreerige sama pakkuja, avage sama LCS-projekt ja laadige alla sama andmemudeli konfiguratsioon. Konfiguratsioon „Näidisvastendus (alternatiivne)” laaditakse alla, aga konfiguratsioon „Näidisvastendus” jäetakse vahele.  
 

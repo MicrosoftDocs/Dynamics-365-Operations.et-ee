@@ -3,7 +3,7 @@ title: Uue e-kaubanduse rentniku juurutamine
 description: Selles teemas kirjeldatakse, kuidas juurutada uut e-kaubanduse rentnikku, kasutades Microsoft Dynamicsi teenust Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945509"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001779"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Uue e-kaubanduse rentniku juurutamine
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas juurutada uut e-kaubanduse saiti, kasutades Microsoft Dynamicsi teenust Lifecycle Services (LCS).
 
 ## <a name="overview"></a>Ülevaade
-    
+
 Microsoft Dynamicsi teenus Lifecycle Services (LCS) on pilvepõhine koostöö tööruum, mida partnerid ja kliendid saavad kasutada oma projektide ja keskkondade haldamiseks, Microsoft Dynamicsi toodete ja funktsioonide kohta uusima teabe vaatamiseks ning teenindusjuhtumite loomiseks, jälgimiseks ja sirvimiseks. E-kaubanduse haldusefunktsioonid on LCS-i integreeritud.
 
 Lisateavet LCS-i kohta vaadake teemast [Teenuse Lifecycle Services kasutusjuhend](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
@@ -80,11 +80,16 @@ Pärast nõutava teabe kogumist tehke e-kaubanduse lähtestamiseks järgmist.
 1. Järgmisel lehel täitke nõutud teave ja seejärel esitage vorm. Olete naasnud vahekaardile **E-kaubandus**, kus peaksite nägema, et lähtestamine on alanud.
 1. Lähtestamise oleku vaatamiseks kas vajutage **Lähtesta** või naaske hiljem vahekaardile **E-kaubandus**.
     
-Kui e-kaubandus on LCS-ist lähtestatud, valmistab süsteem ette mitu komponenti, mis on e-kaubanduse vahekaardile vajalikud ja seostab need keskkonnaga. Pärast ettevalmistuse lõpuleviimist uuendatakse vahekaarti **E-kaubandus** lehel **Jaemüügi haldus**, et kajastada ettevalmistamist. Lehel kuvatakse uusimad kohanduste juurutused ja kõikide teiste käimasolevate juurutuste olekud. See sisaldab ka linke e-kaubanduse saidile ja e-kaubanduse saidi halduse tööriistale (autorluse tööriist).
+Kui e-kaubandus on LCS-ist lähtestatud, valmistab süsteem ette mitu komponenti, mis on e-kaubanduse vahekaardile vajalikud ja seostab need keskkonnaga. Pärast ettevalmistuse lõpuleviimist uuendatakse vahekaarti **E-kaubandus** lehel **Jaemüügi haldus**, et kajastada ettevalmistamist. Lehel kuvatakse uusimad kohanduste juurutused ja kõikide teiste käimasolevate juurutuste olekud. See sisaldab ka linke e-kaubanduse saidile ja e-kaubanduse saidi ehitajat, kus saidid on tehtud.
 
-## <a name="access-the-authoring-environment"></a>Juurdepääs autorluse keskkonnale
+## <a name="access-site-builder"></a>Juurdepääs saidiehitajale
 
-Autorlusele keskkonnale juurdepääsuks avage vahekaart **E-kaubandus** lehel **Jaemüügi haldus**. Sealt leiate oma e-kaubanduse saidi ja saidi halduse tööriista lingid.
+Saidiehitajale juurdepääsuks avage vahekaart **e-Commerce** LCS lehel **Jaemüügi haldur** ja valige link **e-Commerce'i saidihalduse tööriist**. Saidiehitaja sihtleht kuvab rentniku tasemel vaadet. Sellelt lehelt saate teha järgmist.
+
+- Rentniku taseme sätete muutmine.
+- Navigeerige mistahes loodud saidile ja omage vaatamiseks õigusi. 
+- Juurdepääs ülevaadete funktsioonidele, nagu modereerimine ja aruandlus.
+- Uue saidi loomine. Lisateavet uue saidi loomise kohta vt jaotisest [Uue e-kaubanduse saidi loomine](create-ecommerce-site.md). 
 
 ## <a name="additional-resources"></a>Lisaressursid
 

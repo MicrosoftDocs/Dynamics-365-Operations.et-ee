@@ -3,7 +3,7 @@ title: Regulatiivsed värskendused
 description: Selles teemas on toodud loend rakenduse Microsoft Dynamics 365 Finance plaanitud ja väljastatud regulatiivsetest värskendustest.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 01/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dc919d232f0e4f0cfbab372b9fdded2657906a1d
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: d596a543ca8aacc2c6530672111001a9dd161aa7
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934673"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999997"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
@@ -40,44 +40,41 @@ Regulatiivsed uuendused, mis väljastatakse osana igakuisest uuendusest, tähist
 
 Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist tabelit.   
 
-|Plaanitud väljaandmiskuupäev|Vabasta versioon|Riik|Regulatiivne värskendus|
+|Riik|Plaanitud väljaandmiskuupäev|Vabasta versioon|Regulatiivne värskendus|
 |--------------------|---------------|-------|-------|
-|      Brasiilia        |   2019. detsember       | 10.0.8      |   SPED finantsdokumendi paigutus 014 |
-|      Brasiilia         |   November–august 2019       | 10.0.7, 10.0.6HF, 10.0.5HF, 10.0.4HF      |   Tehniliste märkmete uus versioon NF-e jaoks: NT 2019.001 versioon 1,20    |
-|      Brasiilia          |   November–august 2019       | 10.0.7, 10.0.6      |   DRCST deklaratsioon SC   |
-|      Brasiilia         |   August 2019       | 10.0.6HF, 10.0.5HF, 10.0.4HF      |   Tehniliste märkmete uus versioon NF-e jaoks: NT 2019.001 versioon 1,10    |
-|      Brasiilia          |   August 2019      | 10.0.6HF, 10.0.5HF, 10.0.4HF     |   Tehniliste märkmete uus versioon NF-e jaoks: NT 2019.001 versioon 1,10    |
-|      Brasiilia          |   August 2019      | 10.0.6, 10.0.5HF     |   Uut seadusandlust rakendab RJ-riik, mis on seotud EFD-ICMS/IPI-ga. Rio de Janeiro (RJ) rakendamise resolutsioon 13/19 on ette nähtud erimenetluse puhul, mida kohaldatakse vabastuse suhtes     |
-|      Brasiilia          |   August 2019      | 10.0.6        |   Maksudeklaratsioon CAT 42/18    |
-|      Brasiilia          |   Juuli 2019     | 10.0.5, 10.0.4HF, 10.0.2HF      |   Tehniliste märkmete uus versioon NF-e jaoks: NT 2019.001 versioon 1,00  |
-|      Brasiilia          |   Juuli 2019     | 10.0.5      |   SPED panuse praktiline juhend 1,31. Uued suunised    |
-|      Brasiilia          |   20191. mai     | 10.0.4      |   Sissetulev finantsdokument 66    |
-|      Brasiilia          |   2019. mai      | 10.0.4      |   NF-e dekreet 54.308/18 (RS)    |
-|      Brasiilia          |   2019. mai      | 10.0.4      |   NF-e ja NFC-e – otsus 13/2019 ja määrus SUCIEF 55/2019- RJ – uued tingimused maksuvabastusega siltide väljastamiseks NF-es    |
-|      India          |   August 2019     | 10.0.6       |   Jaemüük: kassas kliendi registreerimisnumbrite haldamine India jaoks    |
-|      India          |   2019. mai     | 10.0.4      |   "Tarnekoha" ja "oleku" kuvamine GST-i maksuarves    |
-|      Itaalia          |   2019. detsember       | 10.0.8      |   Muudatused km-halduses D.L. järgi 119, 23. oktoober 2018: aastane maksusuhtlus |
-|      Itaalia         |   November 2019       | 10.0.7      |   Muudatused km-halduses D.L. järgi 119, 23. oktoober 2019: kvartali KM-i teatis („Lipe 2018“)    |
-|      Itaalia         |   November 2019     | 10.0.7      |   Retail – klienditeabe haldamine kassas |
-|      Itaalia         |   November 2019      | 10.0.7      |   Retail – klienditeabe printimine fiskaalsissetulekul |
-|      Itaalia         |   November–august 2019     | 10.0.7, 10.0.6      |   Muudatused km-halduses D.L. järgi 119, 23. oktoober 2018 – Dynamics 365 for Finance and Operations  |
-|      Itaalia          |   August 2019      | 10.0.6      |   KM-registri kuupäev    |
-|      Itaalia          |   August 2019     | 10.0.6      |   KM-i haldamine KM-registri kuupäeva alusel    |
-|      Jaapan          |   Detsember–november 2019     | 10.0.8, 10.0.7HF       |   Tarbimise maksu määra muutmine ja vähendatud maksumäär on kehtestatud (tarbimismaksu aruanne) |
-|      Jaapan         |   November 2019      | 10.0.7       |   Tarbimismäära muutmine ja vähendatud maksumäär on kasutusele võetud (arve paigutused) |
-|      Jaapan          |   November 2019     | 10.0.6HF     |   Tarbimise maksu määra muutmine ja vähendatud maksumäär on kehtestatud (tarbimismaksu aruanne)  |
-|      Jaapan          |   August 2019      | 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      |   Tarbimise maksu määra muutmine ja vähendatud maksumäär on kehtestatud    |
-|      Mehhiko          |   Detsember–oktoober 2019    | 10.0.8, 10.0.7HF, 10.0.6HF        |   Jaemüük – globaalne CFDI: mitmesugused lahendused 2019 – c_CodigoPostal ja ajavöönd |
-|     Mehhiko          |   November–september 2019       | 10.0.7, 10.0.6HF      |   Reegli 2.7.2.9 värskendamine – CFDI dokumendi väljastanud asutuse sihtnumbri ajavööndi kasutamine |
-|      Mehhiko           |   Detsember–oktoober 2019      | 10.0.8, 10.0.7HF, 10.0.6HF     |   Toodete ja teenuste kataloogi koodi kinnitamine |
-|      Mehhiko         |   Juuli 2019     | 10.0.5      |   MX - CFDI 3.3 - XML-vormingus IEPS-i maksukannete üksikasjad peaksid olema valikulised, sõltuvalt kliendi profiilist    |
-|      Mehhiko          |   2019. mai     | 10.0.4      |   DIOT kolmanda osapoole deklaratsioon – muudatused paigutuse 2019    |
-|      Poola          |   November–oktoober 2019     | 10.0.7, 10.0.6HF Poola     |   Kohustuslik tükeldatud makse – 10.0.7 |
-|      Singapur           |   2019. detsember     | 10.0.7      |    GST tagastuse aruanne |
-|      Hispaania          |   August – juuli 2019      | 10.0.5, 10.0.4HF      |   Hispaania: SII: Valideerimisreeglid muutuvad 1. oktoobril 2019    |
-|      Ühendkuningriik          |   2019. detsember       | 10.0.8      |   Maksu muutmine digitaalseks (MTD) – süsteemiadministraatori nõusolek teabe edastamiseks D365-st väljapoole, kasutades HMRC-ga integreerimist |
-|      Ühendkuningriik          |   November 2019     | 10.0.7     |   Maksu muutmine digitaalseks – KM-i tagastuse aruande loomine selliste ettevõtete puhul, kelle aruandlus toimub käibemaksugrupina sama süsteemi andmebaasis v.10 |
-|      Ühendkuningriik          |   Juuni-juuli 2019      | 10.0.5     |   Maksude digitaliseerimine – pettuste ennetamises parameetrid päritoluseadmest – 10.0.5    |
+|      Brasiilia         |   2020. märts       | 10.0.9      |   Sped-finants – muutused kirje D100 väljal COD_MUN_ORI    |
+|      Brasiilia         |   Märts 2020 – detsember 2019       | 10.0.9, 10.0.8, 10.0.7HF      |   DRCST SC – määrus SEF Nº 254/19    |
+|      Brasiilia         |   Jaanuar 2020 – detsember 2019       | 10.0.8, 10.0.7HF      |   ICMS-ST täiendav teave    |
+|      Brasiilia        |   Märts 2020 – detsember 2019       | 10.0.9, 10.0.8HF, 10.0.7HF      |   SPED finantsdokumendi paigutus 014 |
+|      Brasiilia         |   2019. detsember       | 10.0.7      |   Tehniliste märkmete uus versioon NF-e jaoks: NT 2019.001 versioon 1,20    |
+|      Brasiilia         |   2019. detsember       | 10.0.7      |   DRCST deklaratsioon SC    |
+|      Brasiilia          |   Märts 2020 – jaanuar 2020       | 10.0.9, 10.0.8HF, 10.0.7HF      |   DRCST SC – määrus SEF Nº 343DR   |
+|      Prantsusmaa          |   2020. märts       | 10.0.9      |   Prantsuse lokaliseerimine: ISO 20022 vorming rahvusvahelise makse ja riigikassa ülekande jaoks   |
+|      India          |   2020. märts       | 10.0.9      |   Uus GSTR (ANX-1 ja ANX-2) ühenduseta olekusse naasmise tööriist   |
+|      Itaalia          |   2020. jaanuar       | 10.0.8      |   Muudatused km-halduses D.L. järgi 119, 23. oktoober 2018: aastane maksusuhtlus |
+|      Itaalia         |   2019. detsember       | 10.0.7      |   Muudatused km-halduses D.L. järgi 119, 23. oktoober 2019: kvartali KM-i teatis („Lipe 2018“)    |
+|      Itaalia         |   Märts 2020 – detsember 2019     | 10.0.9, 10.0.8HF, 10.0.7HF      |   Retail – klienditeabe haldamine kassas |
+|      Itaalia         |   Märts 2020 – detsember 2019      | 10.0.9, 10.0.8HF, 10.0.7HF      |   Retail – klienditeabe printimine fiskaalsissetulekul |
+|      Itaalia         |   2019. detsember     | 10.0.7      |   Muudatused km-halduses D.L. järgi 119, 23. okt 2018: arvete suhtlus  |
+|      Jaapan          |   Märts 2020 – detsember 2019     | 10.0.9, 10.0.8HF, 10.0.7HF     |   Jaapani pankurite ühendus Japan Bankers Association asendab JBA fikseeritud pikkusega maksevormingud ISO20022-ga |
+|      Jaapan          |   Jaanuar 2020 – detsember 2019     | 10.0.8, 10.0.7HF       |   Tarbimise maksu määra muutmine ja vähendatud maksumäär on kehtestatud (tarbimismaksu aruanne) |
+|      Jaapan         |   2019. detsember      | 10.0.7       |   Tarbimismäära muutmine ja vähendatud maksumäär on kasutusele võetud (arve paigutused) |
+|      Mehhiko          |   Jaanuar 2020 – detsember 2019    | 10.0.8, 10.0.7HF        |   Jaemüük – globaalne CFDI: mitmesugused lahendused 2019 – c_CodigoPostal ja ajavöönd |
+|     Mehhiko          |   2019. detsember       | 10.0.7      |   Reegli 2.7.2.9 värskendamine – CFDI dokumendi väljastanud asutuse sihtnumbri ajavööndi kasutamine |
+|      Mehhiko           |   Jaanuar 2020 – detsember 2019      | 10.0.8, 10.0.7HF     |   Toodete ja teenuste kataloogi koodi kinnitamine |
+|      Norra          |   Märts 2020 – detsember 2019   | 10.0.9, 10.0.8HF, 10.7.7HF     |   SAF-T XSD uuendus versioonile 1.1 rakenduse Dynamics 365 for Finance and Operations jaoks |
+|      Poola          |   2020. märts    | 10.0.9     |   Ostude KM-register ja SAF-i KM-register: SAD-dokumentide kohandatud asutus tuleb asendada kolmanda osa nime ja maksukohuslase koodiga |
+|      Poola          |   Märts 2020 – jaanuar 2020   | 10.0.9, 10.0.8HF     |   Retail – klienditeabe haldamine kassas |
+|      Poola          |   Märts 2020 – jaanuar 2020     | 10.0.9, 10.0.8HF     |   Retail – klienditeabe printimine fiskaalsissetulekul |
+|      Poola          |   Märts 2020 – detsember 2019     | 10.0.9, 10.0.8, 10.0.7     |   SAF-i arved (JPK_FA) v.3 alates 2. dets 2019 |
+|      Poola          |   Märts 2020 – jaanuar 2019     | 10.0.9, 10.0.8     |   JPK_VDEK asendab JPK_VAT (SAF VAT) |
+|      Poola          |   2019. detsember     | 10.0.7     |   Kohustuslik tükeldatud makse |
+|      Venemaa          |   2020. märts     | 10.0.9     |   Omandimaksu deklaratsiooni vorming 2019. a aruandluse jaoks |
+|      Venemaa          |   2020. märts     | 10.0.9     |   Kasumimaksu deklaratsiooni vormingu värskendused |
+|      Singapur           |   Jaanuar 2020 – detsember 2019     | 10.0.8, 10.0.7HF      |    GST tagastuse aruanne |
+|      Šveits           |   2020. märts     | 10.0.9      |   Šveitsi maksekviitung ISR saab uue vormingu (QR-kood) |
+|      Ühendkuningriik          |   2020. jaanuar       | 10.0.8      |   Maksu muutmine digitaalseks (MTD) – süsteemiadministraatori nõusolek teabe edastamiseks D365-st väljapoole, kasutades HMRC-ga integreerimist |
+|      Ühendkuningriik          |   2019. detsember     | 10.0.7     |   Maksu muutmine digitaalseks – KM-i tagastuse aruande loomine selliste ettevõtete puhul, kelle aruandlus toimub käibemaksugrupina sama süsteemi andmebaasis v.10 |
 
 
 

@@ -3,7 +3,7 @@ title: Avalehe ülevaade
 description: Selles teemas antakse ülevaade avalehest rakenduses Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fb42c9aa2e2ef1d620b310e9d30dbae5f84c788
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6f337af0b598322e9542a3c9462402e61dc11a88
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698276"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025967"
 ---
 # <a name="overview-of-the-home-page"></a>Avalehe ülevaade
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Selles teemas antakse ülevaade avalehest rakenduses Microsoft Dynamics 365 Commerce.
@@ -45,20 +45,20 @@ Avalehe põhijaotises võib esile tuua tooteid, kategooriaid või kampaaniaid, k
 
 - **Pannoo** – tavaliselt on põhijaotise esimeseks elemendiks üks või mitu "pannoo" kujutist, mis toovad esile uued tooted ja kampaaniad kaupluses. Kui on mitu pannoo kujutist, siis on need majutatud karusselli moodulis, et kasutajad saaksid neid sirvida.
 
-    Järgmisel joonisel on kujutatud avalehe näide, kus põhijaotises olev esimene üksus on pannoo moodul, mille nimi on **Uus tulija**.
+    Järgmisel joonisel on kujutatud avalehe näide, kus põhijaotises olev esimene üksus on sisuploki pannoopaigutuse moodul, mille nimi on „Uus tulija”.
 
     ![Pannoo mooduli näide](./media/Hero.PNG)
 
-- **Funktsioon** – funktsiooni moodulit kasutatakse toodete või kampaaniate turustamiseks, kasutades piltide ja teksti kombinatsiooni. Funktsiooni mooduleid saab kasutada iseseisvalt või neid saab majutada karusselli moodulis.
+- **Funktsioon** – sisuploki funktsiooni paigutuse moodulit kasutatakse toodete või kampaaniate turustamiseks, kasutades piltide ja teksti kombinatsiooni. Funktsioonide paigutusi saab kasutada iseseisvalt või neid saab majutada karusselli moodulis.
 
-    Järgmisel joonisel on näidatud funktsiooni moodulid avalehel.
+    Järgmisel joonisel on toodud näide sisuploki funktsiooni paigutuse moodulist avalehel.
 
     ![Funktsiooni moodulite näited](./media/Feature.PNG)
 
-- **Sisu paigutus** – sisu paigutuse moodulit kasutatakse mitme toote või kategooria toodete esitlemiseks, kasutades mitme veerulise paigutusega piltide ja teksti kombinatsiooni. Selles teemas varem kuvatava avalehe illustratsioonil kasutatakse kolme veerulist paigutust üksustest **Naistele**, **Meestele**ja **Aksessuaarid**.
+- **Paan** – sisuploki paani paigutuse moodulit kasutatakse mitme toote või kategooria toodete esitlemiseks, kasutades mitmeveerulise paigutusega piltide ja teksti kombinatsiooni. Selles teemas varem kuvatava avalehe illustratsioonil kasutatakse paani paigutust kolme veeruga renderduseks üksustele**Naistele**, **Meestele**ja **Aksessuaarid**.
 - **Videomängija** – videomängija moodulit saab kasutada kodulehe video sisu esitlemiseks. Selles teemas varem kuvatava avalehe illustratsioon sisaldab videomängija moodulit.
-- **Sisurikas plokk** – sisurikka ploki moodulit saab kasutada avalehel oleva teksti sisu esitamiseks ühe- või mitmeveerulises paigutuses.
-- **Tootesoovitused** – tootesoovituste mooduleid kasutatakse avalehel selliste loendite kuvamiseks nagu **Uus**, **Populaarne** ja **Enim müüdud**. Need loendid tutvustavad tooteid, mis põhinevad ostutrendidel ja neid saab algoritmiliselt luua või käsitsi kureerida. Need aitavad klientidel kiiresti leida parimaid tooteid ja seejärel ostlemist jätkata.
+- **Tekstiplokk** – sisurikka ploki moodulit saab kasutada avalehel oleva teksti sisu esitamiseks ühe- või mitmeveerulises paigutuses.
+- **Tootesoovitused** – tootesoovituste mooduleid kasutatakse avalehel selliste loendite kuvamiseks, nagu **Uus**, **Populaarne** ja **Enim müüdud**. Need loendid tutvustavad tooteid, mis põhinevad ostutrendidel ja neid saab algoritmiliselt luua või käsitsi kureerida. Need aitavad klientidel kiiresti leida parimaid tooteid ja seejärel ostlemist jätkata.
 
     Järgmisel joonisel on näidatud tootesoovituste moodulid avalehel.
 

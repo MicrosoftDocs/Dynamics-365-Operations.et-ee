@@ -1,7 +1,7 @@
-Kui kopeerite andmebaasi ühest keskkonnast teise, peate enne kopeeritud andmebaasi täielikku töölehakkamist käivitama keskkonna uuesti ettevalmistamise tööriista, et kõik Retaili komponendid oleks ajakohased.
+Kui kopeerite andmebaasi ühest keskkonnast teise, peate enne kopeeritud andmebaasi täielikku töölehakkamist käivitama keskkonna uuesti ettevalmistamise tööriista, et kõik kaubanduse komponendid oleks ajakohased.
 
 > [!IMPORTANT]
-> Soovitame teil käivitada see protseduur, ükskõik kas kasutate Retaili komponente või mitte, kuna Retail on olemas kõigis keskkondades. 
+> Soovitame teil käivitada see protseduur, ükskõik kas kasutate kaubanduse komponente või mitte, kuna kaubandus on olemas kõigis keskkondades. 
 
 Enne jätkamist peate veenduma, et järgmised tingimused on täidetud.
 1. Kui lähete üle 2017. aasta versioonile (teise nimega 7.2) 7.2.11792.56024, rakendage sihtkeskkonnas järgmised rakenduse X++ kiirparandused, enne kui käivitate selles keskkonnas andmete versioonitäienduse. Need hoiavad andmete versioonitäienduse ajal ära mitmesuguste tõrgete tekkimise.

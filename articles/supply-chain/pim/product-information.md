@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21ee0b835cbe6cc3a238247be29f8a8d3de42a8d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: bdbff802ca85f7cc568efb8a1aacaf6f8fb2874a
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570744"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003992"
 ---
 # <a name="product-information-overview"></a>Tooteteabe ülevaade
 
@@ -32,7 +32,7 @@ ms.locfileid: "2570744"
 
 Teema annab teavet tooteteabe halduse kohta. Tooteteabe haldus toimib ühiskasutuses toote definitsiooni, kategoriseerimise ja identifikaatoritega kõigi juriidiliste isikute lõikes ja samuti toote konkreetsete konfiguratsioonidega, et sobida äriprotsessidesse. 
 
-Tooteteave on tarneahela ja jaemüügirakenduste alus kõigi valdkondade lõikes. See viitab protsessidele ja tehnoloogiatele, mis keskenduvad tooteid puudutava teabe tsentraalsele haldamisele (nt tarneahelate lõikes). On väga tähtis, et kasutataks ühiseid tootedefinitsioone, dokumentatsiooni, atribuute ja identifikaatoreid. Mitmesugustes ärilahenduse moodulites on vajalik tootepõhine teave ja konfiguratsioon, et hallata konkreetsete toodete, tooteperede või tootekategooriatega seotud äriprotsesse.
+Tooteteave on tarneahela ja kaubandusrakenduste alus kõigi valdkondade lõikes. See viitab protsessidele ja tehnoloogiatele, mis keskenduvad tooteid puudutava teabe tsentraalsele haldamisele (nt tarneahelate lõikes). On väga tähtis, et kasutataks ühiseid tootedefinitsioone, dokumentatsiooni, atribuute ja identifikaatoreid. Mitmesugustes ärilahenduse moodulites on vajalik tootepõhine teave ja konfiguratsioon, et hallata konkreetsete toodete, tooteperede või tootekategooriatega seotud äriprotsesse.
 
 ## <a name="product-definition"></a>Tootedefinitsioon
 

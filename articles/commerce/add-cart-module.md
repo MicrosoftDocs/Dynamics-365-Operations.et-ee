@@ -3,7 +3,7 @@ title: Ostukorvi moodul
 description: See teema hõlmab ostukorvi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,76 +17,63 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1c910f08e5999ec586b5cb656d5769e9d4abd069
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: f6dd8fb56f7342eb9c877eda503a92f4a31e5863
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696757"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025432"
 ---
 # <a name="cart-module"></a>Ostukorvi moodul
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 See teema hõlmab ostukorvi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
 ## <a name="overview"></a>Ülevaade
 
-Ostukorvi moodul on konteiner, mida kasutatakse kõikide moodulite majutamiseks, mis on vajalikud ostukorvis olevate kaupade esitlemiseks. Näiteks sisaldab see kõiki ostukorvi lisatud kaupu, tellimuse kokkuvõtet ja sooduskoode.
+Ostukorvi moodulit kasutatakse ostukorvi lisatud kaupade näitamiseks enne, kui klient on kassasse läinud. Näiteks sisaldab see kõiki ostukorvi lisatud kaupu ja tellimuse kokkuvõtet. See võimaldab kliendil ka kampaaniakoode rakendada või eemaldada.
+
+Ostukorvi moodul toetab sisselogitud ostu ja külalisostu. Samuti toetab see linki **Tagasi ostlema**. Saate konfigureerida selle lingi marsruudi jaotises **Saidi sätted \> Laiendused \> Marsruudid**.
 
 Ostukorvi moodul renderdab andmeid ostukorvi ID põhjal. Ostukorvi ID on brauseri küpsis, mis on kogu saidil saadaval.
 
 ## <a name="cart-module-properties-and-slots"></a>Ostukorvi mooduli atribuudid ja pesad
 
-Konteinerina kontrollib ostukorvi moodul osasid põhiatribuute, nagu pealkiri ja laius. Pealkiri on tavaliselt tekst, näiteks **Ostukorv**, **Teie ostukorv** või **Ostukorvis olevad kaubad**. Laiuse säte määratleb, kas konteineri sees olevad moodulid peavad mahtuma sellesse konteinerisse või kas need saavad täita ekraani.
-
-Ostukorvi leht on jagatud mitmeks piirkonnaks: ostukorvi reakaubad, tellimuse kokkuvõte ja maksmine, ning poes otsimise funktsiooniks. Iga piirkond on vastendatud ostukorvi mooduli pesaga ja iga pesa võtab vastu eelmääratletud moodulite kogumi.
+Ostukorvi moodulis on atribuut **Pealkiri**, mida saab seadistada sellistele väärtustele nagu **Ostukorv** ja **Ostukorvis olevad kaubad**. 
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Moodulid, mida saab ostukorvi moodulis kasutada
 
-- **Ostukorvi reakaubad** – see moodul kuvab iga ostukorvi lisatud kauba kokkuvõtte. Teave hõlmab toote pealkirja, valitud mõõtmeid, hinda, kogust ja allahindlusi. See moodul toetab ka selliseid toiminguid nagu „Eemalda ostukorvist” ja „Lisa soovinimekirja”. Iga rea kauba jaoks on olemas võimalus kauba saata või sellele poodi järele minna. See valik tuleb poes kättesaamise moodulus eraldi konfigureerida.
-- **Tellimuse Kokkuvõte** – see moodul näitab tellimuse kokkuvõtet. Teave hõlmab vahesummat, saatmist, makse ja allahindlust. Selle mooduli pealkirja saab konfigureerida.
-- **Sooduskood** – see moodul võimaldab kliendil sooduskoode lunastada. Sooduskoodi saab rakendada või eemaldada.
-- **Maksmine** – see moodul algatab maksmise tegevuse ja suunab kasutaja maksmise lehele. Selle mooduli jaoks tuleb konfigureerida kolm linki:
-
-    - **Maksmine** – see link sunnib kliente sisse logima, kui nad pole veel sisse logitud.
-    - **Külalisena maksmine** – see link võimaldab klientidel esitada tellimusi anonüümselt. See kuvatakse ainult siis, kui kliendid ei ole sisse logitud.
-    - **Tagasi ostlema** – see link võimaldab klientidel naasta kodulehele või mis tahes teisele lehele, et ostlemisega jätkata.
-
-- **Sisurikas plokk** – see moodul toetab ostukorvi mooduli kohandatud sõnumeid. Sõnumeid juhib sisuhaldussüsteem (CMS). Lisada on võimalik mis tahes sõnum, näiteks „Tellimusega esinevate probleemide osas võtke ühendust numbril 1-800-Fabrikam”.
-- **Kättesaamine poest** – see moodul kuvab lähedalasuvate poodide loendi, kus kaup on kohapeal olemas. Vaikimisi kuvab see moodul poed, mis jäävad kliendi asukohast 50 miili raadiusse. Samas saab otsingu raadiust selles moodulis kohandada. Iga poe jaoks teostatakse varude kontroll, kui varude kontrolli funktsioon on sisse lülitatud, ja kuvatakse vastav laos olemas või laost otsas teade.
-- **Poodide otsing Bingi kaartidel** – seda moodulit saab kasutada poes kättesaamise mooduli sees. See võimaldab klientidel otsida poode sisestades asukoha. Bingi kaartide geokodeerimise rakenduse programmeerimisliidest (API) kasutatakse kliendi sisestatud asukoha teisendamiseks laius- ja pikkuskraadideks. Kui seda moodulit ei kasutata, kuvatakse ainult kliendi praeguse asukoha lähedal asuvad poed ja klient ei saa teist asukohta otsida.
+- **Tekstiplokk** – see moodul toetab ostukorvi mooduli kohandatud sõnumeid. Sõnumeid juhib sisuhaldussüsteem (CMS). Lisada on võimalik mis tahes sõnum, näiteks „Tellimusega esinevate probleemide osas võtke ühendust numbril 1-800-Fabrikam”.
+- **Kaupluse valija** – see moodul kuvab lähedalasuvate poodide loendi, kus kaup on kohapeal olemas. See võimaldab kasutajatel sisestada asukoha, et leida läheduses asuvad kauplused. Kaupluse valija moodul on integreeritud Bingi kaartide geokodeerimise rakenduse programmeerimisliidesega (API) asukoha laius- ja pikkuskraadideks teisendamiseks. Vajalik on Bingi kaartide API võti ja see tuleb lisada jaemüügi jagatud parameetrite lehele rakenduses Dynamics 365 Retail. See moodul toetab kaht atribuuti, **Otsinguraadius** ja **Teenusetingimuste link**. Atribuut **Otsinguraadius** määratleb kaupluste otsinguraadiuse miilides. Kui väärtust pole määratud, kasutatakse vaikimisi otsingu raadiust, 50 miili. Kui kasutatakse Bingi kaarte või mis tahes välist teenust, saab kasutada atribuuti **Teenuse tingimuste link** teenuse tingimuste linki edastamiseks. Bing kaartide teenuse korral on teenuse tingimuste link nõutav. 
 
 ## <a name="cart-module-settings"></a>Ostukorvi mooduli sätted
 
-Ostukorvi moodulitel saab konfigureerida kolme sätet.
+Ostukorvi moodulitel on järgmised seadistused, mida saab konfigureerida jaotises **Saidi sätted \> Laiendused**.
 
-- **Maksimaalne kogus** – iga kauba maksimaalne arv, mida saab ostukorvi lisada. Näiteks võib jaemüüja otsustada, et ühe tehinguga saab müüa iga toodet ainult 10 tükki.
+- **Maksimaalne kogus** – seda tribuuti kasutatakse iga kauba maksimaalselt ostukorvi lisatava arvu määratlemiseks. Näiteks võib jaemüüja otsustada, et ühe tehinguga saab müüa iga toodet ainult 10 tükki.
 - **Varude kontroll** – kui väärtus on satud suvandile **Tõene**, saab kauba lisada ostukorvi ainult pärast seda, kui ostukasti moodul on veendunud, et see oleks laos olemas. See varude kontroll tehakse nii stsenaariumide jaoks, kus kaup saadetakse, kui ka stsenaariumide jaoks, kus sellele tullakse poodi järele. Kui väärtuseks on seatud suvand **Väär**, siis enne kauba ostukorvi lisamist ja tellimuse esitamist varude kontrolli ei tehta.
-- **Varude puhver** – varusid hallatakse reaalajas ja kui paljud kliendid esitavad tellimusi, võib täpse varude arvu säilitamine olla keeruline. Seega saab varude jaoks määrata puhvri. Kui varude kontroll on tehtud, siis kui varusid on vähem kui puhvri kogus, käsitletakse toodet kui laost otsas. Seega kui müük toimub kiiresti läbi mitme kanali, nii et varade arv pole täielikult sünkroonitud, on vähem ohtu, et müüakse kaup, mis on laost otsas.
+- **Varude puhver** – seda atribuuti kasutatakse varude puhvri arvu määramiseks. Varusid hallatakse reaalajas ja kui paljud kliendid esitavad tellimusi, võib täpse varude arvu säilitamine olla keeruline. Kui varude kontroll on tehtud, siis kui varusid on vähem kui puhvri kogus, käsitletakse toodet kui laost otsas. Seega kui müük toimub kiiresti läbi mitme kanali, nii et varade arv pole täielikult sünkroonitud, on vähem ohtu, et müüakse kaup, mis on laost otsas.
+- **Tagasi ostukorvi** – seda atribuuti kasutatakse ostukorvi lingi **Tagasi ostlema** marsruudi määramiseks. Seda marsruuti saab konfigureerida saidi tasemel. See konfiguratsioon laseb jaemüüjal viia kliendi tagasi avalehele või mis tahes teisele leheküljele saidil.
 
-## <a name="retail-server-interaction"></a>Jaemüügiserveri suhtlus
+## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unitiga suhtlemine
 
-Ostukorvi moodul toob toote teabe jaemüügiserveri API-de abil. Brauseriküpsise ostukorvi ID-d kasutatakse jaemüügiserverist kogu tooteteabe toomiseks.
+Ostukorvi moodul toob toote teabe välja Commerce Scale Uniti API-de abil. Brauseriküpsise ostukorvi ID-d kasutatakse Commerce Sale Unitist kogu tooteteabe toomiseks.
 
 ## <a name="add-a-cart-module-to-a-page"></a>Lehele ostukorvi mooduli lisamine
 
 Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
-1. Looge fragment nimega **ostukorvi fragment** ja lisage sellele ostukorvi moodul.
-1. Ostukorvi mooduli pesas **Ostukorvi reakaubad** lisage ostukorvi reakaupade moodul.
-1. Lisage pesas **Tellimuse kokkuvõte** tellimuse kokkuvõtte moodul.
-1. Lisage pesas **Sooduskood** sooduskoodi moodul.
-1. Lisage pesas **Maksmine** maksmise moodul.
-1. Lisage pesas **Otsing poes** poest kättesaamise moodul.
-1. Poes kättesaamise moodulis valige pesa **Otsing poes** ja lisage poe Bingi kaartidelt otsimise moodul.
-1. Kontrollige fragmenti ja avaldage see.
-1. Looge mall nimega **ostukorvi mall**ja lisage sellele ostukorvi fragment, mille just lõite.
-1. Salvestage mall, kontrollige seda ja avaldage see.
+1. Looge fragment nimega **Ostukorvi fragment** ja lisage sellele ostukorvi moodul.
+1. Lisage ostukorvi moodulile päis.
+1. Lisage kaupluse valija moodul ostukorvi moodulile.
+1. Salvestage fragment, lõpetage selle redigeerimine ja seejärel avaldage see.
+1. Looge mall nimega **Ostukorvi mall**ja lisage sellele ostukorvi fragment, mille just lõite.
+1. Salvestage mall, lõpetage selle redigeerimine ja seejärel avaldage see.
 1. Looge leht, mis kasutab uut malli.
 1. Salvestage ja kuvage lehe eelvaade.
-1. Registreerige leht ja avaldage see.
+1. Viige lõpuni lehe redigeerimine ja avaldage see.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

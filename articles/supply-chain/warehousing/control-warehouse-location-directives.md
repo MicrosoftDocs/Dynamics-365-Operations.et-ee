@@ -3,7 +3,7 @@ title: Laotöö juhtimine töömallide ja asukohadirektiividega
 description: Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldust määramaks, kuidas ja kus laos tööd tehakse.
 author: perlynne
 manager: AnnBe
-ms.date: 09/21/2018
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4645cf36201aa1b87c22ba4dbfb1b8d8117f425a
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026908"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3028024"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Laotöö juhtimine töömallide ja asukohadirektiividega
 
@@ -152,7 +152,7 @@ Selle suvandi valimisel kasutatakse partiiloaga kaupade puhul partiistrateegiaid
 ### <a name="strategy"></a>Strateegia
 
 -   **Konsolideeri** – seda strateegiat kasutatakse kaupade konsolideerimiseks kindlas asukohas, kui sarnased kaubad on juba saadaval. See toimib ainult mahapanekutüüpi asukohakorraldusega. Mahapaneku üldine seadistus määrab konsolideerimise esimesel toimingureal ja seejärel püütakse teisel maha panna ilma konsolideerimata. Kaupade konsolideerimine muudab hilisema komplekteerimise tõhusamaks.
--   **Vastenda pakkimiskogus** – selle strateegia abil kontrollitakse, kas komplekteerimisasukohas on määratud pakkimiskogus olemas. See toimib ainult komplekteerimistüüpi asukohakorraldusega. 
+-   **Vastenda pakkimiskogus** – see strateegia leiab asukoha, mis sisaldab litsentsiplaati, millel on täpselt nõutav kogus. Seda ei saa kasutada asukohtadega, mille litsentsiplaati pole kontrollitud. See strateegia toimib ainult komplekteerimistüüpi asukohakorraldusega.
 -   **FEFO partii reserveerimine** – seda strateegiat kasutatakse siis, kui varud leitakse partii aegumiskuupäeva abil ja eraldatakse partii reserveerimiseks. Seda strateegiat saate kasutada ainult partiiloaga kaupade puhul. See toimib ainult komplekteerimistüüpi asukohakorraldusega. 
 -   **Täieliku LP-ni ümardamine** – seda strateegiat kasutatakse varude koguse ümardamiseks, et see vastaks litsentsiplaadi (LP) kogusele, mis on määratud komplekteeritavatele kaupadele. Saate seda strateegiat kasutada ainult komplekteerimistüüpi asukohakorralduse täiendamistüübi puhul. 
 -   **Tühi asukoht ilma sissetuleva tööta** – seda strateegiat kasutatakse tühjade asukohtade leidmiseks. Asukoht loetakse tühjaks, kui sel ei ole füüsilist laoseisu ja eeldatavat sissetulevat tööd. Seda strateegiat kasutatakse ainult mahapanekutüüpi asukohakorralduse puhul. 

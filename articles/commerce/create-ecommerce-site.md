@@ -1,9 +1,9 @@
 ---
 title: E-kaubanduse saidi loomine
-description: Selles teemas kirjeldatakse ülesandeid, mis on seotud uue e-kaubanduse saidi loomisega rakenduses Dynamics 365 Commerce.
+description: See teema kirjeldab vajalikke etappe ja teavet uue e-kaubanduse saidi loomiseks Dynamics 365 Commerce'i saidiehitajas.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,29 +19,31 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945831"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002009"
 ---
 # <a name="create-an-e-commerce-site"></a>E-kaubanduse saidi loomine
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Selles teemas kirjeldatakse ülesandeid, mis on seotud uue e-kaubanduse saidi loomisega rakenduses Dynamics 365 Commerce.
+See teema kirjeldab vajalikke etappe ja teavet uue e-kaubanduse saidi loomiseks Dynamics 365 Commerce'i saidiehitajas.
 
-## <a name="overview"></a>Ülevaade
+Enne oma e-kaubanduse saidi arendamise alustamiseks peate kõigepealt looma saidiehitajas uue saidi. 
 
-Oma e-kaubanduse saidi arendamise alustamiseks peate kõigepealt looma saidi autorluse keskkonnas uue saidi. Enne uue saidi loomist peab olema rakenduses Dynamics 365 Retail loodud vähemalt üks veebipood. 
+
+Oma e-kaubanduse saidi arendamise alustamiseks peate kõigepealt looma saidi autorluse keskkonnas uue saidi. Enne uue saidi loomist peab olema rakenduses Commerce loodud vähemalt üks veebipood. 
+
 
 ## <a name="set-up-your-site"></a>Saidi seadistamine
 
 Oma saidi seadistamiseks tehke järgmist.
 
-1. Valige Microsofti teenuse Lifecycle Services (LCS) saidi autorluse keskkonna link. 
+1. Avage saidiehitaja keskkond. Saidiehitaja lingi leiate Commerce'i keskkonna funktsioonide lehel Microsoft Lifecycle Services (LCS) alt.
 1. Valige saidi autorluse keskkonna avalehel suvand **Uus sait**.
 1. Sisestage dialoogiboksi **Uus sait** järgmine teave.
 

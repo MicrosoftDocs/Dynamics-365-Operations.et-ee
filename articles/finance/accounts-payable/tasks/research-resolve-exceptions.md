@@ -1,5 +1,5 @@
 ---
-title: Erandite uurimine/lahendamine
+title: Erandite uurimine või lahendamine
 description: Hankija arvepoliitikad käivitatakse, kui sisestate hankija arve leheküljel Hankija arve ja avate lehekülje Hankija arve poliitika rikkumised.
 author: abruer
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2f2e7d401e97aeab9dbc74f65e1a0c03eb0c880
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 68694e08550083c38feb4389f82d83c535e978c3
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189334"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000215"
 ---
-# <a name="researchresolve-exceptions"></a>Erandite uurimine/lahendamine
+# <a name="research-or-resolve-exceptions"></a>Erandite uurimine või lahendamine
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

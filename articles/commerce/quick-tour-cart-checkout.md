@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 347db3af36521e11dc70d5188dcc54b07efa1fbe
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697838"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002931"
 ---
 # <a name="overview-of-cart-and-checkout-pages"></a>Ostukorvi ja kassa lehtede ülevaade
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 See teema annab ülevaate ostukorvi ja kassa lehtedest rakenduses Microsoft Dynamics 365 Commerce.
@@ -65,11 +65,11 @@ Kassa lehe põhiosa on see, kus kogutakse kogu tellimuse teave. See teave sisald
 
 ### <a name="shipping-address"></a>Tarneaadress
 
-Tarneaadress on nõutav, kui kaubad tuleb saata. Iga asukoha saatmise aadresside vormingut saab konfigureerida rakenduses Dynamics 365 Retail. Näiteks kui kaubad saadetakse Ameerika Ühendriikidesse, peab tarneaadress sisaldama tänava aadressi, osariiki ja postiindeksit. Mõned põhilised sisestuse kinnitamised tehakse saatmise aadressi väljade jaoks, nt tähe- ja numbrimärkide, maksimumpikkuse ja numbrite kinnitamine. Kuigi aadressi enda kehtivust ei kontrollita, saab seda kontrollida kohandatud kolmandate osapoolte teenuste abil.
+Tarneaadress on nõutav, kui kaubad tuleb saata. Iga asukoha saatmise aadresside vormingut saab konfigureerida rakenduses Dynamics 365 Commerce. Näiteks kui kaubad saadetakse Ameerika Ühendriikidesse, peab tarneaadress sisaldama tänava aadressi, osariiki ja postiindeksit. Mõned põhilised sisestuse kinnitamised tehakse saatmise aadressi väljade jaoks, nt tähe- ja numbrimärkide, maksimumpikkuse ja numbrite kinnitamine. Kuigi aadressi enda kehtivust ei kontrollita, saab seda kontrollida kohandatud kolmandate osapoolte teenuste abil.
 
 Tarneaadress rakendatakse kõigile ostukorvi kaupadele, mille jaoks on valitud suvand "tarni". Kui kasutate kassa voogu, mille on taganud veebistardikomplekt, ei saa üksikuid ostukorvi tooteid saata erinevatele aadressidele. Kui vajate seda võimalust, saab seda rakendada kassa moodulite kohandamise kaudu.
 
-Kui kättetoimetamise aadress on olemas, kuvatakse rakenduse Dynamics 365 Commerce võrgupoes saadaolevad tarneviisid. Kohaletoimetamise meetodeid ja neid toetavaid aadresse saab konfigureerida jaemüügis.
+Kui kättetoimetamise aadress on olemas, kuvatakse rakenduse Dynamics 365 Commerce võrgupoes saadaolevad tarneviisid. Kohaletoimetamise meetodeid ja neid toetavaid aadresse saab konfigureerida rakenduses Commerce.
 
 ### <a name="payment"></a>Makse
 

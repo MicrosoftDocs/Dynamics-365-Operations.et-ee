@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d074b9450a4dfc72f60f97ccaf03610ce54315d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: c27811fc900cb497f62780a5185b20d4efbbbdba
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772578"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026287"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Sularaha- ja pangahalduse avaleht
 
@@ -65,7 +65,7 @@ Need vahendid hõlmavad deposiitkviitungeid, tšekke, käskveksleid ja võlatäh
 -   [Hankija osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 -   [Hankija osalise makse, millel on hankija kreeditarvetel allahindlusi, tasakaalustamine](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 -   [Mitme allahindlusperioodiga osalise hankijamakse tasakaalustamine](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [Hankija makse arvutatud skontost suurema skonto võtmine](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [Hankija makse arvutatud allahindlusest suurema allahindluse võtmine](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
 -   [Skonto võtmine väljaspool skonto perioodi](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
 ## <a name="accounts-receivable-payments-and-settlements"></a>Müügireskontro maksed ja tasakaalustused
@@ -78,7 +78,7 @@ Need vahendid hõlmavad deposiitkviitungeid, tšekke, käskveksleid ja võlatäh
 -   [Kliendi osalise makse tasakaalustamine enne allahindluse kuupäeva koos lõpliku maksega pärast allahindluse kuupäeva](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
 -   [Kliendi osalise makse, millel on kliendi kreeditarvetel allahindlusi, tasakaalustamine](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Mitme allahindlusperioodiga osalise kliendimakse tasakaalustamine](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [Ühe kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+-   [Kliendimakse kasutamine mitme arve tasakaalustamiseks, mis ulatuvad üle mitme allahindlusperioodi](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
 
 
 
@@ -99,4 +99,4 @@ Lisaspikker on saadaval rakenduse Finance siseste tegevuse juhistena. Tegevuse j
 
 #### <a name="videos"></a>Videod
 
-Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Vaadake õppevideoid, mis on saadaval [Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).

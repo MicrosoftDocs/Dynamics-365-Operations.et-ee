@@ -3,7 +3,7 @@ title: Varude blokeerimine
 description: Selles teemas antakse ülevaade varude blokeerimisest, mis kuulub Supply Chain Managementi kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e1a870936619d07db01d5a8fe83b3fab73693187
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814371"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971483"
 ---
 # <a name="inventory-blocking"></a>Varude blokeerimine
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis antakse ülevaade varude blokeerimisest, mis kuulub Supply Chain Managementi kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks.
+Selles teemas antakse ülevaade varude blokeerimisest, mis kuulub Supply Chain Managementi kvaliteedikontrolli protsessi hulka. Varude blokeerimist saab kasutada kaupade töötlemise või tarbimise vältimiseks.
 
 Laokaupade blokeerimiseks on järgmised võimalused.
 -   Käsitsi
@@ -43,6 +43,9 @@ Saate blokeerida kaubakoguse, luues lehel **Varude blokeerimine** kande. Käsits
 
 ## <a name="blocking-items-by-creating-a-quality-order"></a>Kaupade blokeerimine kvaliteettellimust luues
 Saate määrata kaubad, mida tuleb kontrollida, luues kvaliteettellimuse lehel **Kvaliteettellimused**. Kvaliteettellimuse loomisel blokeeritakse kogus, mille kauba kohta määrate. Kvaliteettellimusega seostatud valimiplaan juhib ainult nende kaupade kogust, mida tuleb kontrollida, mitte blokeeritud kaupade kogust. Kvaliteettellimusele sisestatud kogus on blokeeritud kogus olenemata kogusest, mille valimiplaan määrab kontrolli saamiseks. kogus blokeeritud kogus.
+
+> [!NOTE]
+> Nii partii aegumiskuupäeva kui ka varude oleku blokeerimise funktsioonide kasutamine pole koondplaneerimises toetatud. See võib põhjustada kaubavaru topeltvälistust, mis võib tekkida koondplaneerimise käigus. Soovitame teil aegunud partiide blokeerimisel toetuda varude oleku asemel partii likvideerimise koodidele.
 
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Kaupade blokeerimine protsessiga, mis loob kvaliteettellimuse
 Kui kvaliteediprotsess määrab, et kaupa tuleb kontrollida, blokeeritakse kauba kogus automaatselt. Seega kui kvaliteettellimus luuakse automaatselt, juhib kvaliteettellimusega seostatud kauba valimiplaan nii blokeeritud kaupade kogust kui ka kontrollitavate kaupade kogust. Kui lehel **Kauba valim** on valitud suvand **Täielik blokeerimine**, blokeeritakse kontrollimisel näiteks kogu ostutellimuse täielik kogus olenemata kaubavalimi kogusest.

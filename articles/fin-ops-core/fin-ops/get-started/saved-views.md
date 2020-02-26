@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 2f76c4e50649d3eda951940a2186348c29474dc6
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658663"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017700"
 ---
 # <a name="saved-views"></a>Salvestatud vaated
 
@@ -37,7 +37,7 @@ Tavapärase isikupärastamise puhul said kasutajad ühe vormi jaoks ainult ühte
 
 -    Kindlat tüüpi lehtede jaoks loodud vaated võivad sisaldada ka kasutaja lisatud filtreid või sortimisi, mis võimaldab kasutajatel kiiresti naasta tavaliselt filtreeritud andmekomplektide juurde. Lisateabe saamiseks vaadake jaotist [Millised lehed toetavad vaateid?](saved-views.md#what-pages-support-views). 
 
--    Vaateid saab kasutajatele avaldada kindlates turberollides ja konkreetsetes juriidilistes isikutes. Seetõttu saab iga kasutaja, kel on määratletud juriidiline isik, juurdepääsu ja seda vaadet kasutada, kuigi see kasutaja ei pruugi saada seda isikupärastada. Selline avaldamise lahendus laseb organisatsioonidel määratleda ettevõtte standardvaateid, mis on nende äritegevuse jaoks optimeeritud. Lisateavet vt jaotisest [Isikupärastamise haldamine organisatsiooni tasemel vaadete kaudu](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
+-    Vaateid saab kasutajatele avaldada kindlates turberollides ja konkreetsetes juriidilistes isikutes. Seetõttu saab iga kasutaja, kel on määratletud roll ja juurdepääs konkreetsele juriidilisele isikule, juurdepääsu ja seda vaadet kasutada, kuigi see kasutaja ei pruugi saada seda isikupärastada. Selline avaldamise lahendus laseb organisatsioonidel määratleda ettevõtte standardvaateid, mis on nende äritegevuse jaoks optimeeritud. Lisateavet vt jaotisest [Isikupärastamise haldamine organisatsiooni tasemel vaadete kaudu](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
 
 -    Erinevalt tavapärasest isikupärastamisest ei salvestata vaateid automaatselt, kui kasutaja sõneselgelt isikupärastab või loendit filtreerib. Käsitsi salvestamine on vajalik, et tagada paindlikkus vaate loomisel enne või pärast vaatega seotud muudatuste tegemist ja et tagada, et vaate määratlust ei muudeta kogemata filtrite või isikupärastamistega, mis pole pikaajaliseks kasutuseks mõeldud.  
 
@@ -71,7 +71,7 @@ Kui soovite neid muudatusi salvestada, toimige järgmiselt.
 2.  Olemasoleva vaate muutmiseks tehke järgmist.
      1. Valige käsk **Salvesta**. Pange tähele, et see tegevus pole lukustatud vaadete puhul lubatud. 
 3.  Uue vaate loomiseks tehke järgmist.
-     1.    Valige **Salvesta nimega**. 
+     1.    Valige **Salvesta nimega…**. 
      2.    Sisestage vaate nimi ja (valikuliselt) kirjeldus.
      3.    Valige käsk **Salvesta**.
 
@@ -83,7 +83,7 @@ Lehe vaikevaate muutmiseks tehke järgmist.
 2.  Valige vaate nimi, et avada vaate valija. 
 3.  Klõpsake valikut **Veel** ja seejärel **Kinnita vaikevariandina**.  
 
-Teine võimalus on muuta uue vaate loomisel (kasutades tegevust **Salvesta nimega**) uus vaade vaikevaateks, kasutades enne vaate salvestamist suvandit **Kinnita vaikeväärtusena**.
+Teine võimalus on muuta uue vaate loomisel (kasutades tegevust **Salvesta nimega…**) uus vaade vaikevaateks, kasutades enne vaate salvestamist suvandit **Kinnita vaikeväärtusena**.
 
 Pange tähele, et mõnel juhul ei käivitu lehele esimest korda liikumisel vaikevaatega seostatud päring. Näiteks kui liigute läbi paani lehele, käivitatakse paani päring hoolimata vaikevaatega seostatud päringust. Samuti, kui liigute lehele, mille klassikalisel vaatel on juba määratletud päring, käivitub algne päring esimesena vaikevaate päringu asemel. Kui see juhtub, kuvatakse teile vaate laadimise ajal asjakohane teade. Vaate vahetamine pärast seda, kui leht on lõpetanud laadimise, peaks võimaldama vaate päringu ootuspärase käivitumise.
 
@@ -99,11 +99,11 @@ Selle lehe jaoks saadaolevate vaadete loendi jaoks on olemas järgmised tegevuse
 Kõik selles dialoogiboksis tehtud muudatused jõustuvad pärast nupu **Salvesta** vajutamist.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Isikupärastamise haldamine organisatsiooni tasemel vaadete kaudu
-Et aidata teil mõista, kuidas salvestatud vaated aitavad parandada isikupärastamise haldamist organisatsiooni tasemel, kirjeldatakse selles jaotises, kuidas isikupärastamise haldus töötas enne vaadete kättesaadavust.
+Et aidata teil mõista, kuidas salvestatud vaated aitavad parandada isikupärastamise haldamist organisatsiooni tasemel, kirjeldatakse selles jaotises erinevusi isikupärastamise halduses koos ja ilma salvestatud vaadete funktsioonita.
 
 Ilma vaadeteta, rakendaksid administraatorid isikupärastamise sätteid lehe jaoks kasutajale või kasutajate rühmale Isikupärastamise lehe abil. Kui nendel kasutajatel olid olemas isikupärastamise õigused, rakendati need isikupärastamised sellele lehele. Siiski polnud võimalik takistada kasutajatel lehe edasist isikupärastamist, mis tähendas, et organisatsioon ei saanud kasutajatele kooskõlastatud kasutajaliidest tagada. Kui mõnel kasutajal ei olnud isikupärastamise õigusi, ei laaditud nende jaoks administraatori antud isikupärastamisi. Veelgi enam, kui organisatsiooni palgati uued kasutajad, pidid administraatorid isikupärastamiste kogumid kasutaja jaoks käsitsi laadima. Polnud automaatseid mehhanisme, mis täpsustaksid, et konkreetne isikupärastamise hulk peaks olema saadaval kasutajatele selles rollis.
 
-Salvestatud vaadete funktsiooniga on isikupärastamise organisatsiooniline haldamine märkimisväärselt lihtsam peamiselt seetõttu, et vaateid saab avaldada kasutajate gruppidele. Pärast vaate avaldamist saavad kõik kasutajad, kellel on üks määratletud turberollidest ja kes on määratud juriidilistes isikutes, pääseda juurde ja kasutada vaadet, kuigi see kasutaja ei pruugi saada seda isikupärastada. Kuigi igal kasutajal on avaldatud vaate koopia, milles on automaatselt rakendatud lehe kasutus (varjatud isikupärastamine), ei saa ükski kasutaja salvestada avaldatud vaatesse otsest isikupärastamist ega päringuvärskendusi. (Teisisõnu, avaldatud vaated on lukus.) Lisaks, kui uutele kasutajatele antakse rollid juriidilistes isikutes, kellele avaldati vaateid, näevad nad automaatselt oma rollidega ja juriidiliste isikutega seostatud vaateid. Administraatorilt ei nõuta täiendavat tegevust. Samuti, kui kasutajad muudavad organisatsioonis rolle või kui neile antakse juurdepääs teistele juriidilistele isikutele, ei pruugi nad enam neile varem avaldatud vaadetele juurde pääseda. Jällegi ei nõuta administraatorilt täiendavat tegevust.
+Salvestatud vaadete funktsiooniga on isikupärastamise organisatsiooniline haldamine märkimisväärselt lihtsam peamiselt seetõttu, et vaateid saab avaldada kasutajate gruppidele. Pärast vaate avaldamist saavad kõik kasutajad, kellel on üks määratletud turberollidest ja juurdepääs ühele määratud juriidilistes isikutes, näha ja kasutada vaadet, kuigi see kasutaja ei pruugi saada seda isikupärastada. Kuigi igal kasutajal on avaldatud vaate koopia, milles on automaatselt rakendatud lehe kasutus (varjatud isikupärastamine), ei saa ükski kasutaja salvestada avaldatud vaatesse otsest isikupärastamist ega päringuvärskendusi. Teisisõnu on avaldatud vaated lukus. Lisaks, kui uutele kasutajatele antakse rollid juriidilistes isikutes, kellele avaldati vaateid, näevad nad automaatselt oma rollidega ja juriidiliste isikutega seostatud vaateid. Administraatorilt täiendavat tegevust ei nõuta. Samuti, kui kasutajad muudavad organisatsioonis rolle või kui neile antakse juurdepääs teistele juriidilistele isikutele, ei pruugi nad enam neile varem avaldatud vaadetele juurde pääseda. Jällegi ei nõuta administraatorilt täiendavat tegevust.
 
 Avaldatud vaate värskendusi saab kasutajatele hõlpsalt levitada, avaldades vaate vastavatele turberollidele ja juriidilistele isikutele uuesti.
 
@@ -119,7 +119,8 @@ Vaate avaldamiseks tehke järgmist.
 4.  Sisestage vaate nimi ja (valikuliselt) kirjeldus. Sisestatud nimi on nimi, mida selle vaate saanud kasutajad näevad oma vaate valijates. Lehekülje avaldatud vaadete nimed peavad olema kordumatud. Korduvad nimed lubatud isegi juhul, kui rollide või juriidiliste isikute loendid, millele vaated on rakendatud, on erinevad.
 5.  Lisage turberollid, mis kehtivad kasutajatele, kellele see vaade mõeldud on.
 6. Lisage juriidilised isikud, kellele see vaade peaks kättesaadav olema. 
-7.  Valige **Avalda**.
+7. [10.0.9 / platvormivärskendus 33 või uuem] Määratlege, kas vaade tuleks valitud kasutajatele vaikevaatena avaldada. Vaate vaikimisi kuvamine tähendab, et kasutajad näevad seda vaadet järgmine kord, kui nad sihtlehe avavad. See muudab nende kasutajate vaikevaadet. Kasutajad saavad siiski pärast avaldamise toimumist oma vaikevaadet muuta.    
+8.  Valige **Avalda**.
 
 Arvestage sellega, et teatud keskkondades võib aega kuluda (kuni tund), enne kui kasutajad avaldatud vaadet näevad.
 
@@ -132,7 +133,8 @@ Kui muudatused, mida soovite avaldatud vaates teha, hõlmavad ainult avaldamise 
 3.  Valige nupp **Jah**, kui soovite olemasolevat vaadet värskendada (või **Ei**, kui soovite seda avaldada teise nimega).
 4.  Värskendage vaate nime, kirjeldust ja/või turberolle. 
 5.  Valige **Avalda**. 
-6.  Kui olete avaldatud vaate nime värskendanud, peate veel kustutama vana nimega avaldatud vaate (lisateabe saamiseks vaadake teemat **Avaldatud vaadete haldamine**). 
+6.  [10.0.8 / platvormivärskendus 32 või varasem] Kui olete avaldatud vaate nime värskendanud, peate veel kustutama vana nimega avaldatud vaate (lisateabe saamiseks vaadake teemat **Avaldatud vaadete haldamine**). 
+7. [10.0.9/platvormivärskendus 33 või uuem] Kui algselt valisite selle avaldatud vaate vaikevaateks, on see taas nende kasutajate vaikevaade pärast uuesti avaldamist.  
 
 Kui avaldatud vaate muudatused hõlmavad vaatega seostatud isikupärastamiste või filtrite muutmist, toimige järgmiselt. 
 1.  Avage avaldatud vaade, mida soovite muuta. 
@@ -148,13 +150,15 @@ Kuigi kõik kasutajad näevad vahekaarti **Minu vaated**, mis näitab nende isik
 Lehe kõikide avaldatud vaadete loendi jaoks on olemas järgmised tegevused. 
 
 -    **Avalda**: kasutage tegevust **Avalda**, et avaldada vaade uuesti pärast avaldamise parameetrite (nimi, kirjeldus, turberollid või juriidilised isikud) muutmist.
--    **Eemalda**: kasutage tegevust **Eemalda**, et avaldatud vaade jäädavalt kustutada. See tegevus eemaldab vaate kõikidelt süsteemis olevatelt kasutajatelt.  
- 
-Kõik selles dialoogiboksis tehtud muudatused jõustuvad pärast nupu **Salvesta** valimist.
+-    **Eemalda**: kasutage tegevust **Eemalda**, et avaldatud vaade jäädavalt kustutada. See tegevus eemaldab vaate kõikidelt süsteemis olevatelt kasutajatelt. Avaldatud vaadete eemaldamine jõustub pärast nupu **Salvesta** valimist.
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kuidas lubada salvestatud vaateid minu keskkonnas? 
-Salvestatud vaadete lubamiseks funktsiooni eelvaates järgige järgmiseid juhiseid. 
+Märkus. Funktsioon **Salvestatud vaated** nõuab, et rakenduses Finance and Operations oleks isikustamise süsteem lubatud. Kui kogu keskkonnale on isikupärastamine välja lülitatud, keelatakse vaated isegi siis, kui järgite alltoodud juhiseid. 
+
+**10.0.9 / platvormivärskendus 33 ja hilisem** Funktsioon **Salvestatud vaated** on kõikides keskkondades saadaval otse funktsioonihalduses. Sarnaselt teistele avaliku eelvaate funktsioonidele kehtib selle funktsiooni tootmisse lubamisele [täiendav kasutustingimuste leping](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8 / platvormiuuendus 32 ja varasem** Funktsiooni **Salvestatud vaated** saab lubada 1. taseme (arendamine/testimine) ja 2. taseme (liivakast) keskkondades, et pakkuda täiendavat testimist ja kujundusmuudatusi, järgides alltoodud juhiseid.
 
 1.  **Luba lend**: Käivitage järgmine SQL-lause: 
 
@@ -168,15 +172,12 @@ Salvestatud vaadete lubamiseks funktsiooni eelvaates järgige järgmiseid juhise
 
 Kõik järgmised kasutajaseansid algavad lubatud salvestatud vaadetega.
 
-Salvestatud vaated on mõeldud kasutamiseks ainult 1. järgu (arendamine/testimine) ja 2. järgu (liivakast) keskkondades, et pakkuda täiendavay testimisy ja kujundusmuudatusi. Salvestatud vaadete eelversioon on saadaval tulevase väljalaske tootmiskeskkondades.
-
-Pange tähele, et kui keskkonnale on isikupärastamine välja lülitatud, keelatakse vaated isegi siis, kui järgita ülaltoodud juhiseid. Seda seetõttu, et vaadete funktsioon on rajatud isikupärastamise alamsüsteemi peale.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Mis juhtub olemasolevate isikupärastamistega, kui vaated on lubatud? 
 Kui vaated on lubatud, salvestatakse kõik kasutaja ja vormi olemasolevad isikupärastamised uude vaatesse nimega **Minu vaade**, mis määratakse automaatselt vaikevaateks. See aitab tagada, et kasutuskogemus oleks järjepidev enne ja pärast vaadete lubamist, välja arvatud vormidel kuvata vaate valija juhtelemendi puhul.  
 
 ### <a name="what-pages-support-views"></a>Millised lehed toetavad vaateid? 
-Vaated on saadaval enamiku, kuid mitte kõigi lehtede jaoks. Täpsemalt, vaated on praegu saadaval kõigi täisekraanlehtede jaoks, välja arvatud armatuurlaudade ja tööruumide jaoks. Lehed, mis pole täisekraanlehed, sh dialoogiboksid, rippmenüü dialoogid, otsingud, täiustatud eelvaated, ei toeta samuti praegu vaateid. Vaadete toetust täiendavate lehetüüpide jaoks, näiteks tööruumide ja dialoogibokside jaoks, võidakse kaaluda tulevase värskenduse puhul.   
+Vaated on saadaval enamiku, kuid mitte kõigi lehtede jaoks. Täpsemalt, vaated on praegu saadaval kõigi täisekraanlehtede jaoks, välja arvatud armatuurlaudade ja tööruumide jaoks. Lehed, mis pole täisekraanlehed, sh dialoogiboksid, rippmenüü dialoogid, otsingud, täiustatud eelvaated, ei toeta praegu vaateid. Vaadete toetust täiendavate lehetüüpide jaoks, näiteks tööruumide ja dialoogibokside jaoks, võidakse kaaluda tulevase värskenduse puhul.   
 
 ### <a name="who-is-allowed-to-publish-views"></a>Kellel on lubatud vaateid avaldada?
 Vaadete avaldamise õigus on ainult süsteemiadministraatoritel ja kasutajatel, kes on määratud rolli **Salvestatud vaadete administraator**. 
@@ -184,12 +185,14 @@ Vaadete avaldamise õigus on ainult süsteemiadministraatoritel ja kasutajatel, 
 ### <a name="why-am-i-not-able-to-save-filters-with-this-view"></a>Miks ma ei saa selle vaatega filtreid salvestada? 
 On paar põhjust, miks tundub, et filtrit ei salvestata vaatega. 
 
-- Leht ei pruugi toetada filtrite salvestamist vaate määratluse osana. Pange tähele, et ainult suurte vaate valijatega lehed lubavad isikupärastamiste ja päringu muudatuste salvestamist vaatena. Lisateavet vaadake jaotisest Vaadete vahetamine. 
-
-- Kui vaade on vaikevaade ja lehele navigeerimise tee sisaldab päringut, ei pruugita vaate päringut esialgu rakendada. Kaks peamist stsenaariumi on järgmised. 
-     - Kui liigute paanilt lehele, käivitub paani päring hoolimata vaikevaatega seotud päringust. 
-     - Kui liigute lehele ja sisenemiskoht hõlmab päringut, käivitub algne päring esimesena vaikevaate päringu asemel. 
-     
-  Kui selline olukord esineb, kuvatakse teile tavaliselt vaate laadimise ajal asjakohane teade. Samuti saate kinnitada, kui lülitate sellele vaatele pärast lehe laadimist, kuna see peaks sellegipoolest võimaldama vaate päringu käivitumise.  
+- Leht ei pruugi toetada filtrite salvestamist vaate määratluse osana. Pange tähele, et ainult suurte vaate valijatega lehed lubavad isikupärastamiste ja päringu muudatuste salvestamist vaatena. Lisateavet vaadake jaotisest **Vaadete vahetamine**. 
 
 - Kõnealune leht ei pruugi vaateid õigesti toetada, sest see võib ignoreerida vaata päringuid täielikult või toimida ajutises tabelis, mille andmed ei ole kinnistatud. 
+
+### <a name="what-data-will-i-see-when-i-visit-a-page"></a>Millised andmed lehe külastamisel kuvatakse? 
+Väikeste vaate valijatega lehtedel (vaatamiseks saab salvestada ainult isikupärastamised) näete samu andmeid, mis on lehe külastamisel alati näha olnud. 
+
+Suurte vaate valijatega lehtedel (vaatamiseks saab salvestada isikupärastamisi ja päringuid) näete peamiselt andmeid, mis on ühendatud teie vaikevaatega seostatud päringuga. Sellele kehtib kaks peamist erandit. - Kui liigute paanilt lehele, käivitub paani päring hoolimata vaikevaatega seotud päringust. Kui lõite selle paani pärast vaadete lubamist, paani valimine avab lehe koos selle paaniga seostatud vaatega.   
+     - Kui liigute lehele ja sisenemiskoht hõlmab päringut, käivitub algne päring esimesena vaikevaate päringu asemel. Kui selline olukord esineb, kuvatakse teile tavaliselt vaate laadimise ajal asjakohane teade. Samuti saate kinnitada, kui lülitate sellele vaatele pärast lehe laadimist, kuna see peaks sellegipoolest võimaldama vaate päringu käivitumise.  
+
+

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934882"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004015"
 ---
 # <a name="product-identifiers"></a>Toote identifikaatorid 
 
@@ -88,7 +88,7 @@ Lehel **Välised kaubakirjeldused** saate seostada kliendi või hankija kaubakoo
 | Kirjeldus | Nimi, mille klient seostab kaubaga | Nimi, mille hankija seostab kaubaga |
 | Väline kaubatekst | Kliendi kauba kirjeldus | Hankija kauba kirjeldus |
 
-Kui paljud kliendid või hankijad kasutavad samu kaubakoode (näiteks ostuseose või jaemüügigrupi korral), saate luua kliendi- või hankijagruppe, et lihtsustada välise tooteteabe haldamist.
+Kui paljud kliendid või hankijad kasutavad samu kaubakoode (näiteks ostuseose või kaubandusgrupi korral), saate luua kliendi- või hankijagruppe, et lihtsustada välise tooteteabe haldamist.
 
 - Kliendigruppide jaoks avage **Müük** &gt; **Häälestus** &gt; **Kaubad** &gt; **Väline kaubakirjeldus**, et luua ja hallata gruppe ning seotud kaubakoode. Klientide seostamiseks grupiga avage **Müügireskontro** &gt; **Kliendid** &gt; **Kõik kliendid** ja seejärel määrake väärtus kiirkaardi **Müügitellimuse vaikeandmed** väljal **Kaup – kliendigrupp**.
 - Hankijagruppide jaoks avage **Hanked** &gt; **Häälestus** &gt; **Väline kaubakirjelduse grupp**, et luua ja hallata gruppe ning seotud kaubakoode. Hankijate seostamiseks grupiga avage **Ostureskontro** &gt; **Hankijad** &gt; **Kõik hankijad** ja seejärel määrake väärtus kiirkaardi **Ostutellimuse vaikeandmed** väljal **Kaup – hankijagrupp**.

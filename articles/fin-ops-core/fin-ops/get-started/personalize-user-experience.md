@@ -3,7 +3,7 @@ title: Kasutuskogemuse isikupärastamine
 description: Selles teemas selgitatakse, kuidas isikupärastada rakendust.
 author: jasongre
 manager: AnnBe
-ms.date: 01/07/2020
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac8f154fdf892553f69d135727589bf13efd6076
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
+ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935461"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029358"
 ---
 # <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
 
@@ -59,7 +59,8 @@ Rakenduse kasutamisel salvestatakse paljud teie valikud, et muuta süsteemi kasu
 
 Varjatud isikupärastamised on need isikupärastamised, mida teete teatud juhtnuppe reguleerides, mis salvestavad praeguse nähtava oleku.
 
-- **Ruudustiku veerud** – saate korrigeerida veeru laiust ruudustikus, valides veerupäisest vasakul või paremal oleva suuruse muutise riba ja libistades seda vasakule või paremale, kuni veerg on soovitud laiusega. Rakendus salvestab veeru jaoks valitud laiuse. Seejärel muudab see veeru laiuse valitud sättele järgmine kord, kui avate lehe, mis seda tabelit sisaldab.
+- **Ruudustiku veergude laiused** – saate korrigeerida veeru laiust ruudustikus, valides veerupäisest vasakul või paremal oleva suuruse muutmise riba ja libistades seda vasakule või paremale, kuni veerg on soovitud laiusega. Rakendus salvestab veeru jaoks valitud laiuse. Seejärel muudab see veeru laiuse valitud sättele järgmine kord, kui avate lehe, mis seda tabelit sisaldab.
+- **Ruudustiku veergude summad** – (saadaval ainult uue ruudustiku juhtelemendiga lubatud) saate otsustada, kas summa tuleks kuvada ruudustiku mis tahes numbritega veeru allosas või mitte ning kas ruudustiku jalus on nähtav. Rakendus talletab need andmed, et neid eelistusi mäletatakse järgmisel korral, kui avate lehe. Lisateavet vt temast [Ruudustiku võimalused](grid-capabilities.md). 
 - **Kiirkaardid** – mõnel lehel on laiendatavad jaotised, mida nimetatakse *kiirkaartideks*. Rakendus salvestab kiirkaartide laiendamise ja ahendamise teabe. Seejärel laiendatakse või ahendatakse samad kiirkaardid iga kord, kui lehe avate, võttes aluseks teie viimase tegevuse lehel. Mõnel juhul saate kiirkaardi ahendamisega aidata süsteemi jõudlust parandada, sest rakendus ei pea kiirkaartide teavet tooma, kuni neid ei laiendata. Nagu hiljem selles teemas on selgitatud, saate muuta ka kiirkaartide järjestust lehel.
 - **Kiirinfo** – mõnedel lehtedel on paan **Seotud teave**, millel kuvatakse lehe praeguse teemaga seotud kirjutuskaitstud teave. Igat paani **Seotud teave** jaotist nimetatakse *Kiirinfoks*. Saate kogu paani **Seotud teave** peita või kuvada, samuti laiendada või ahendada üksikuid kiirinfosid. Rakendus salvestab need eelistused. Teie viimast tegevust lehel arvesse võttes laiendatakse või ahendatakse paani **Seotud teave** ja üksikuid kiirinfosid järgmine kord, kui lehe avate. Mõnel juhul saate kiirinfo ahendamisega aidata süsteemi jõudlust parandada, sest rakendus ei pea kiirinfo teavet tooma, kuni neid ei laiendata.
 - **Toimingupaanid** – *toimingupaan* kuvatakse enamiku lehtede ülaserva lähedal. Toimingupaan sisaldab nuppe paljudeks tegevusteks, mida praegusel lehel saate teha. Need nupud on sageli korraldatud vahekaartidele. Saate kogu tegumiriba kinnitada avatuna või hoida selle vaikimisi ahendatuna. Seejärel avatakse või ahendatakse tegumiriba iga kord, kui lehe avate, võttes aluseks teie viimase tegevuse lehel. Kui olete tegumiriba kinnitanud, kuvatakse viimati kasutatud vahekaart.
@@ -95,7 +96,7 @@ Atribuudiaken võib sisaldada ka muid isikupärastamisvõimalusi olenevalt eleme
 
 Kui soovite teha lehele mitu muudatust või teete muudatusi, mis pole muude mehhanismide (nt elementide ümberjärjestamine) kaudu saadaval, saate kasutada tööriistariba **Isikupärastamine**. Tööriistariba **Isikupärastamine** avamiseks toimige järgmiselt.
 
-- Avage elemendi atribuutide aknas **Isikupärasta seda vormi**.
+- Avage elemendi atribuutide aknas **Isikupärasta seda lehte**.
 - Valige mistahes lehe vahekaardi **Suvandid** jaotise **Isikupärastamine** tegumiribal **Isikupärasta seda lehte**.
 - Valige navigeerimisribal nupp **Sätted** (hammasrattasümbol) ja valige **Isikupärasta**.
 
@@ -116,7 +117,8 @@ Tööriistaribal **Isikupärastamine** on saadaval järgmised tööriistad.
 - Tööriistaga **Jäta vahele** saate eemaldada elemendi lehe klaviatuuri vahekaardijärjestusest. Nupu **Jäta vahele** valimisel tööriistaribal kuvatakse kõik parasjagu vahelejäetud elemendid varjutatud konteineris. Välju saate interaktiivselt vahekaardi järjestusest eemaldada või neid sinna lisada.
 - Tööriistaga **Kuva päis** saate kuvada välja kiirkaardi kokkuvõttejaotises. Tööriistariba nupu **Kuva päises** valimisel kuvatakse kõik kokkuvõtteväljadena valitud väljad varjutatud konteineris. Saate välju interaktiivselt kiirkaardi kokkuvõttesse lisada ja neid sealt eemaldada, valides soovitud väljad.
 - Tööriistaga **Lukusta** saate märkida elemendi redigeeritavaks või mitteredigeeritavaks. Nupu **Lukusta** valimisel tööriistaribal kuvatakse kõik parasjagu mitteredigeeritavad elemendid varjutatud konteineris. Seejärel saate need uuesti redigeeritavaks muuta. Arvestage sellega, et mõned väljad on nõutavad ja neid ei saa mitteredigeeritavaks muuta. Nende väljade kõrval kuvatakse tabalukuikoon.
-- Kasutage nuppu **Lisa PowerApp** iga loodud rakenduse manustamiseks lehele rakendusega Microsoft PowerApps. Üksikasjalikku teavet lehele PowerAppsi rakenduse manustamise kohta vt jaotisest [PowerAppsi rakenduste manustamine](embed-power-apps.md).
+- Kasutage nuppu **Lisa rakendus Power Appsist**, et manustada rakendus, mis loodi lehele Microsoft Power Appsi kasutades. Üksikasjalikku teavet rakenduse Power Appsist lehele manustamise kohta vt teemast [Rakenduste manustamine Power Appsist](embed-power-apps.md). See suvand on saadaval ainult siis, funktsioon [Salvestatud vaated](saved-views.md) on keelatud.  
+- Kasutage nuppu **Lisa rakendus**, et manustada lehele rakendus, mis loodi Microsoft Power Appsis või kolmanda poole poolt. See suvand on saadaval ainult siis, funktsioon [Salvestatud vaated](saved-views.md) on lubatud. 
 - Kasutage tööriista **Eemaldamine** lehe lähtestamiseks vaikesätetele, installitud olekusse. Kõik praeguse lehe isikupärastamised kustutatakse. Tagasivõtmine ei ole võimalik. Seetõttu kasutage seda tööriista ainult siis, kui soovite lehe lähtestada.
 - Tööriistaga **Importimine** saate laadida isikupärastamise failist, mille teie või keegi teine on lehe jaoks varem loonud. Kui impordite lehele isikupärastamised, saate valida, kas need tuleks lisada lehele või asendada kõik teie olemasolevad isikupärastamised. Tagasivõtmine ei ole võimalik. Seetõttu peate pärast isikupärastamise importimist käsitsi eemaldama või tühistama kõik soovitud muudatused.
 - Tööriistaga **Eksportimine** saate oma lehe isikupärastamised failina salvestada. Saate seejärel oma isikupärastamisi teiste kasutajatega jagada. Need kasutajad peavad lihtsalt importima teie lehe isikupärastamisi sisaldava faili.
@@ -152,7 +154,7 @@ Armatuurlaud on tihti esimene leht, mida näete rakenduse avamisel. Saate armatu
 Armatuurlaua isikupärastamiseks lihtsalt paremklõpsake mis tahes paanil ja valige suvand **Isikupärastamine**, et avada paani atribuudiaken.
 
 - Kui soovite valitud paani peita või ümber nimetada, saate muudatuse teha otse atribuudiaknas.
-- Tööruumi paanide ümberjärjestamiseks valige atribuudiaknas suvand **Selle vormi isikupärastamine**, et avada tööriistariba **Isikupärastamine**. Seejärel saate kasutada paanide soovitud viisil ümberkorraldamiseks tööriista **Teisalda**.
+- Tööruumi paanide ümberjärjestamiseks valige atribuudiaknas suvand **Selle lehe isikupärastamine**, et avada tööriistariba **Isikupärastamine**. Seejärel saate kasutada paanide soovitud viisil ümberkorraldamiseks tööriista **Teisalda**.
 - Uue tööruumipaani lisamiseks valige atribuudiaknas käsk **Lisa tööruum**. Uus tööruumipaan luuakse armatuurlaua alaserva. Saate selle uue tööruumipaani soovitud viisil ümber nimetada. Samuti lisada tööruumi loendeid, paane ja linke, nagu on kirjeldatud selle teema jaotises [Tööruumidesse loendite, paanide või linkide lisamine](#adding-a-tile-list-or-link-to-a-workspace).
 
 ## <a name="administration-of-personalizations"></a>Isikupärastamiste haldamine

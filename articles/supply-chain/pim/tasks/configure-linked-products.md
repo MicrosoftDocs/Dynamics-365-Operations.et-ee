@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3ef8314c3b6122627de0a730e912c7ebcd99be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec7a2c5a2b2b7ef22fd3dcf7f7d3859e8e07ea5e
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568646"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003946"
 ---
 # <a name="configure-linked-products"></a>Lingitud toodete konfigureerimine
 
@@ -30,7 +30,7 @@ See protseduur selgitab lingitud toodete konfigureerimist. Protseduur kasutab US
 
 1. Avage Tooteteabe haldus > Tooted > Väljastatud tooted.
 2. Otsige loendist ja valige soovitud kirje.
-3. Klõpsake tegevuspaneelil valikut Retail (Jaemüük).
+3. Klõpsake toimingupaanil suvandit Jaemüük ja Kaubandus.
 4. Klõpsake suvandit Lingitud tooted.
 5. Klõpsake nuppu Redigeeri.
 6. Klõpsake väljal Lingitud toote number otsingu avamiseks ripploendi nuppu.

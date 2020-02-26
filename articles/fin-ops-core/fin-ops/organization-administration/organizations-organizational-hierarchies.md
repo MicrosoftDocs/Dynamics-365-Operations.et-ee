@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c28c9e8c2573bcd82434f88daa8f9cadc946209
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fc9064f0386fe7c0f4093fc30587be4baa259eb0
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812382"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003675"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Organisatsioonide ja organisatsiooniliste hierarhiate ülevaade
 
@@ -47,7 +47,7 @@ Ettevõte on juriidiline isik. Ettevõtted on praegu ainsad juriidilised isikud,
 
 Tootmisüksus on organisatsioon, mida kasutatakse äri majandusressursside ja tööprotsesside juhtimise jagamiseks. Inimestel tootmisüksuses on kohustus maksimeerida nappide ressursside kasutamist, täiustada protsesse ja vastutada nende toimivuse eest.
 
-Tootmisüksuste tüübid hõlmavad kulukeskuseid, äriüksuseid, väärtusevoogusid, osakondi ja jaemüügikanaleid. Järgmine tabel annab lisateavet iga tüüpi tootmisüksuse kohta.
+Tootmisüksuste tüübid hõlmavad kulukeskuseid, äriüksuseid, väärtuse voogusid, osakondi ja kaubanduse kanaleid. Järgmine tabel annab lisateavet iga tüüpi tootmisüksuse kohta.
 
 | Tootmisüksuse tüüp | Kirjeldus | Eesmärk |
 |---------------------|-------------|---------|
@@ -55,7 +55,7 @@ Tootmisüksuste tüübid hõlmavad kulukeskuseid, äriüksuseid, väärtusevoogu
 | Äriüksus       | Poolautonoomne tootmisüksus, mis on loodud strateegilise ärieesmärkide saavutamiseks. | Kasutatakse finantsaruandluseks, mis põhineb tööstusvaldkondadel või tootmissuundadel, mida organisatsioon juriidilistest isikutest sõltumatult pakub. |
 | Väärtuse voog        | Tootmisüksus, mis kontrollib ühte või mitut tootmisvoogu. | Tavaliselt kasutatakse kulusäästlikus tootmises toote või teenuse tarbijani viimiseks vajalike tegevuste ja voogude juhtimiseks. |
 | Osakond          | Tootmisüksus, mis kujutab kindlat ülesannet (nt müük või raamatupidamine) täitva organisatsiooni kategooriat või funktsionaalset osa. | Kasutatakse funktsioonivaldkondade aruandluseks. Osakond võib vastutada kasumi ja kahjumi eest ning koosneda kulukeskuste grupist. |
-| Jaemüügikanal      | Tootmisüksus, mis kujutab traditsioonilist kauplust, võrgupoodi või võrguturuplatsi. | Kasutatakse ühe või mitme kaupluse haldamiseks ja tegevusjuhtimiseks juriidiliste isikute piires või vahel. |
+| Kaubanduse kanal      | Tootmisüksus, mis kujutab traditsioonilist kauplust, võrgupoodi või võrguturuplatsi. | Kasutatakse ühe või mitme kaupluse haldamiseks ja tegevusjuhtimiseks juriidiliste isikute piires või vahel. |
 
 ### <a name="teams"></a>Meeskonnad
 

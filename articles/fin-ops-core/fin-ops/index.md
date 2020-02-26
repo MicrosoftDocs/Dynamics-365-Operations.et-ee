@@ -1,6 +1,6 @@
 ---
 title: Rakenduse Finance and Operations dokumentatsioon
-description: Finance and Operations rakenduste dokumentatsioon.
+description: Rakenduste Finance and Operations dokumentatsioon.
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770915"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005536"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Rakenduse Finance and Operations dokumentatsioon
 
@@ -30,7 +30,7 @@ ms.locfileid: "2770915"
 
 Vaadake, kuidas rakendused Finance and Operations oma ettevõtte heaks tööle panna, kasutades selle teema ressursse lõppkasutajate, arendajate ja IT-professionaalide jaoks suurepärase sisu leidmiseks. 
 
-Suur osa sellest sisust kehtib ka seotud toodetele Dynamics 365 Retail ja Talent. 
+Suur osa sellest sisust kehtib ka seotud toodete – Dynamics 365 Commerce'i ja Dynamics 365 Human Resourcesi puhul. 
 
 <table>
 <colgroup>
@@ -44,7 +44,7 @@ Suur osa sellest sisust kehtib ka seotud toodetele Dynamics 365 Retail ja Talent
 <h3><a href="get-started/before-you-buy.md">Enne ostmist</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Eelvaatetellimuse saamiseks registreerumine</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Juurutamissuvandi valimine</a></p>
- <p><a href="get-started/purchase-on-premises.md">Rakenduse Finance and Operations (on-premises) ostmine</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Osta Finance and Operations (asutusesisene)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Juurutamise elutsükkel</a></h3>
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
@@ -84,9 +84,9 @@ Suur osa sellest sisust kehtib ka seotud toodetele Dynamics 365 Retail ja Talent
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Regionaalsed regulatiivsed funktsioonid</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Inimressursid</a></h3>
-<p><a href="../../talent/manage-benefit-program.md">Soodustused</a></p>
-<p><a href="../../talent/performance-management-overview.md">Töövõtja areng ja koolitused</a></p>
-<p><a href="../../talent/questionnaires.md">Küsimustik</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">Soodustused</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Töövõtja areng ja koolitused</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">Küsimustikud</a></p>
 <p><a href="hr/manage-recruiting-process.md">Värbamine</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">USA palk</a></p>
 
@@ -129,16 +129,17 @@ Suur osa sellest sisust kehtib ka seotud toodetele Dynamics 365 Retail ja Talent
 </td>
 <td>
 <h3>Seotud tooted</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Retail</a></h4>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
 <p><a href="../../retail/call-center-functionality.md">Kõnekeskus</p>
 <p><a href="../../retail/define-maintain-retail-channels.md">Kanali seadistus ja haldamine</p>
 <p><a href="../../retail/retail-peripherals-overview.md">MPOS ja Cloud POS</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Retaili arendaja ja haldus</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Kaubanduse arendaja ja haldus</p>
 
-<h4><a href="../../talent/index.yml">Dynamics 365 Talent</a></h4>
-<p><a href="../../talent/manage-benefit-program.md">Soodustused</a></p>
-<p><a href="../../talent/performance-management-overview.md">Töövõtja areng ja koolitused</a></p>
-<p><a href="../../talent/questionnaires.md">Küsimustik</a></p>
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">Administraatori juhend</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">Arendaja juhend</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Kasutusjuhend</a></p>
+
 
 </td>
 </tr>

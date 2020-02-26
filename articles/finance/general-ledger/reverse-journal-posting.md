@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d18b71c1fc7f3f0c39172bd9edf19b4e60a2bf8
-ms.sourcegitcommit: cfaad79bcb1460ee0e7ad5a2c596f9199e14c53a
+ms.openlocfilehash: 08aec836ce4b7b6a59c445f138365f101a78c68e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2944424"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030918"
 ---
 # <a name="reverse-journal-posting"></a>Tühistatud sisestustööleht
 
@@ -68,5 +68,5 @@ Kui kandes on üle 100 rea, käivitatakse tühistamise protsess pakktöötluse a
 
 Kui kanderidade arv on kuni 100, käivitub tühistamise protsess kohe. Tulemused kuvatakse dialoogiboksis, kus kuvatakse mis tahes kannet, mida ei saanud tühistada, koos põhjusega. Valige dialoogiboksi sulgemiseks suvand **OK**.
 
-Kandeid saab tühistada ainult juhul, kui need vastavad nende tühistamise ärireeglitele. Hankija makseid ei saa muuta, kasutades selles teemas kirjeldatud võimalusi. Hankija maksed tuleb tagasi võtta, järgides juhiseid, mis on toodud teemas [Hankija makse storneerimine](https://docs.microsoft.com/en-us/dynamics365/finance/accounts-payable/reverse-vendor-payment).
+Kandeid saab tühistada ainult juhul, kui need vastavad nende tühistamise ärireeglitele. Hankija makseid ei saa muuta, kasutades selles teemas kirjeldatud võimalusi. Hankija maksed tuleb tagasi võtta, järgides juhiseid, mis on toodud teemas [Hankija makse storneerimine](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment).
 

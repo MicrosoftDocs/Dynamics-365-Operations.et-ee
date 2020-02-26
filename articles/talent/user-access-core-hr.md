@@ -1,6 +1,6 @@
 ---
-title: Kasutaja pääseb ligi Core HR-ile, aga mitte rakendusele Onboard või Attract
-description: Selles teemas selgitatakse, kuidas lahendada probleemi, mille käigus kasutajal on juurdepääs rakenduse Microsoft Dynamics 365 Talent Core HR-ile, aga mitte rakendusele Attract või Onboard.
+title: Kasutaja pääseb ligi rakendusele Human Resources, aga mitte rakendusele Onboard või Attract
+description: Selles teemas selgitatakse, kuidas lahendada probleemi, mille käigus kasutajal on juurdepääs Microsoft Dynamics 365 Talenti rakendusele Human Resources, aga mitte rakendusele Attract või Onboard.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1a86936d756d8375761ce50c9d9bf33dc638dfad
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 6c384d9a7100982eabd201d910e1bea14355dc1f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772915"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006306"
 ---
-# <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>Kasutaja pääseb ligi Core HR-ile, aga mitte rakendusele Onboard või Attract
+# <a name="user-can-access-human-resources-but-not-onboard-or-attract"></a>Kasutaja pääseb ligi rakendusele Human Resources, aga mitte rakendusele Onboard või Attract
 
 [!include [banner](includes/banner.md)]
 
 **Keskkonna üksikasjad**
 
 - Teenuse Microsoft Dynamics Lifecycle Services (LCS) juurutamise viis läbi kasutaja A.
-- Kasutaja A lisas kasutaja B kasutajana rakenduse Microsoft Dynamics 365 Talent: Core HR-i.
+- Kasutaja A lisas kasutaja B kasutajana rakenduse Microsoft Dynamics 365 Human Resources-i.
 
 **Väljastamine**
 
-Kasutaja B-l on juurdepääs Core HR-ile, aga mitte rakendusele Talent: Attract või Talent: Onboard. Valiku **Kogemuse rakendused** tegemisel suunatakse kasutaja selle asemel proovikeskkonda.
+Kasutaja B-l on juurdepääs rakendusele Human Resources, aga mitte rakendusele Talent: Attract või Talent: Onboard. Valiku **Kogemuse rakendused** tegemisel suunatakse kasutaja selle asemel proovikeskkonda.
 
 **Lahendus**
 
@@ -45,4 +45,4 @@ Lisateavet vt jaotisest Keskkonnale juurdepääsu andmine lehel [Talenti etteval
 
 **Pikaajaline lahendus**
 
-Kui Core HR-i lisatakse kasutaja, kaalub Microsoft rakendustele Onboard ja Attract asjakohaste õiguste automaatset määramist.
+Kui rakendusse Human Resources lisatakse kasutaja, kaalub Microsoft rakendustele Onboard ja Attract asjakohaste õiguste automaatset määramist.

@@ -3,7 +3,7 @@ title: Hankijakontode seadistamine
 description: See teema kirjeldab teabetüüpe, mida peate määrama, kui loote uue hankijakonto.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 63843381207fbe6cb72ac1b5533eda754b1ba55b
+ms.sourcegitcommit: 5457cbec3399d8ed9f87c3a9dc586173b5616c11
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249384"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3012441"
 ---
 # <a name="set-up-vendor-accounts"></a>Hankijakontode seadistamine
 
@@ -88,7 +88,7 @@ Saate panna hankija ootele erinevate kandetüüpide puhul. Valikud on järgmised
 -   **Arve** – hankijale ei saa ühtki arvet sisestada.
 -   **Kõik** – hankija on ootel kõikide kandetüüpide puhul. Need kandetüübid hõlmavad ostutaotlusi, arveid ja makseid.
 -   **Makse** – hankijale ei saa ühtki makset luua.
--   **Taotlus** – luua saab ainult ostutaotlusi. Ühtki muud kannet ei saa luua.
+-   **Taotlus** – ostutaotlusi ei saa hankija jaoks luua ja taotluse ridu, mis on loodud enne hankija ootele panemist, ei saa ostutellimuseks teisendada. Hankija taotluste read tühistatakse, kui teie poliitika seatakse ostutellimusi automaatselt looma.
 -   **Mitte kunagi** – hankijat ei panda passiivsuse tõttu ootele.
 
 Kui panete hankija ootele, saate määrata ka põhjuse ja kuupäeva, millal ootelolek lõppeb Kui te ei sisestada lõppkuupäeva, siis kestab hankija ootelolek määramata ajani.

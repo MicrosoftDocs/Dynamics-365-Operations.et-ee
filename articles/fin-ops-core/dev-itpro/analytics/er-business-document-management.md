@@ -3,7 +3,7 @@ title: Äridokumentide halduse ülevaade
 description: Siin teemas on ER-raamistiku äridokumendi halduri kasutamisõpetus.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/09/2019
+ms.date: 01/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
+ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933904"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "2957363"
 ---
 # <a name="business-document-management-overview"></a>Äridokumentide halduse ülevaade
 
@@ -122,7 +122,7 @@ Kõikide juriidiliste isikute äridokumentide haldamise lubamiseks toimige järg
 4. Uue funktsiooni kasutamiseks värskenda lehte.
 
 >[!NOTE]
-> Samuti peate lubama suvandi **Äridokumentide halduse Office’ile sarnanev kasutajaliides**, et kasutada uut äridokumendi halduse kasutajaliidest
+> Lisateavet uue dokumendi kasutajaliidese kasutamise kohta äridokumentide halduses vt teemast [Uus dokumendi kasutajaliides äridokumentide halduses](er-business-document-management-new-template-ui.md).
 
 ![Funktsioonihalduse tööruum](./media/BDM-Overview-FMEnabling.png)
 
@@ -147,7 +147,7 @@ Lisateavet nõutavate dokumendihalduse näitajate ja dokumenditüüpide seadista
 
 ![Seadistage dokumendihalduse dokumendi tüüp](./media/BDM-Overview-DMSetting.png)
 
-### <a name="set-up-parameters"></a>Seadistage näitajad
+### <a name="SetupBdmParameters">Seadistage näitajad</a>
 
 Põhilisi äridokumendi halduse näitajaid saate seadistada lehel **Äridokumendi näitajad**. Lehele pääsevad ligi vaid kindlad kasutajad. See hõlmab:
 
@@ -166,6 +166,9 @@ Kõigi juriidiliste isikute põhinäitajate seadistamiseks toimige järgnevalt.
 ![Äridokumendi halduse näitajate seadistamine](./media/BDM-Overview-BDMSetting.png)
 
 Valitud dokumendi tüüp on ettevõttepõhine ja seda kasutatakse siis, kui kasutaja töötab äridokumendi haldamisega ettevõttes, mille jaoks valitud dokumendi tüüp on seadistatud. Muus ettevõttes äridokumendi haldamisega tegeleva kasutaja puhul kasutatakse sama valitud dokumendi tüüpi, kui ta pole seadistatud selle ettevõtte jaoks. Kui dokumendi tüüp on seadistatud, kasutatakse seda **SharePoint dokumendi tüübi** väljas valitu asemel.
+
+> [!NOTE]
+> **SharePointi dokumenditüübi** parameeter määratleb SharePointi kausta, kus talletatakse ajutuselt malle, mis on redigeeritavad kas Microsoft Exceli või Wordi abil. Peate seadistama selle parameetri, kui kavatsete kasutada neid Office'i töölaua rakendusi mallide redigeerimiseks. Lisateavet leiate teemast [Malli redigeerimine Office'i töölauarakenduses](#EditInOfficeDesktopApp). Kui plaanite malli muuta ainult Office 365 abi, võite selle parameetri jätta tühjaks. Lisateabe saamiseks vt jaotist [Malli redigeerimine teenuses Office 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Seadista juurdepääsuõigused
 
@@ -258,23 +261,18 @@ Valitud mallile on saadaval valik **Muuda malli**. See valik on alati saadaval a
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Alustage teist pakkujate mallide muutmist
 
-1. Valige äridokumentide halduse tööruumis suvand **Uus dokument**.
+1. Valige äridokumendi halduse tööruumis dokument, mida soovite mallina kasutada.
 
-![Äridokumentide halduse tööruumi leht](./media/BDM_overview_new_template1.png)
+![Äridokumentide halduse tööruumi leht](./media/BDM-Overview-EditingTemplate3.png)
 
-2. Valige dokument, mida soovite mallina kasutada.
+3. Valige **Uus dokument** ja väljal **Pealkiri** muutke vajadusel redigeeritava malli pealkirja. Tekstiga nimetatakse ise tekkivat ER-vormingu seadistust. Pange tähele, et selle muudetavat malli sisaldava seadistuse (**Kliendi FTI aruande (GER) koopia**) mustand märgitakse automaatselt, et kasutada seda ER-vormingut praeguse kasutaja puhul. Samal ajal kasutatakse ER-vormingu põhiseadistuse muutmata algset malli selle ER-vormingu käivitamiseks kõikide kasutajate puhul.
+4. Muutke väljas **Nimi** ise tekkiva muudetava malli esimese redaktsiooni nime.
+5. Muutke väljal **Kommentaar** redigeeritava malli isetekkiva redaktsiooni märkust.
+6. Muutmisprotsessi alustamise kinnitamiseks valige **OK**
 
-![Äridokumentide halduse tööruumi leht](./media/BDM_overview_new_template2.png)
+![Äridokumentide halduse tööruumi leht](./media/BDM-Overview-EditingTemplate4.png)
 
-3. Klõpsake suvandit **Loo dokument**
-4. Väljal **Pealkiri** muutke vajadusel muudetava malli pealkirja. Tekstiga nimetatakse ise tekkivat ER-vormingu seadistust. Pange tähele, et selle muudetavat malli sisaldava seadistuse (**Kliendi FTI aruande (GER) koopia**) mustand märgitakse automaatselt, et kasutada seda ER-vormingut praeguse kasutaja puhul. Samal ajal kasutatakse ER-vormingu põhiseadistuse muutmata algset malli selle ER-vormingu käivitamiseks kõikide kasutajate puhul.
-5. Muutke väljas **Nimi** ise tekkiva muudetava malli esimese redaktsiooni nime.
-6. Muutke väljas **Kommentaar** ise tekkiva muudetava malli redaktsiooni märkust.
-7. Muutmisprotsessi alustamise kinnitamiseks valige **OK**
-
-![Äridokumentide halduse tööruumi leht](./media/BDM_overview_new_template3.png)
-
-Suvand **Uus dokument** on alati saadaval teise pakkuja (näiteks Microsoft) ER-vormingu seadistusega mallil. Kui klõpsate suvandit **Uus dokument**, näete kõiki praeguse ja teiste pakkujate omanduses olevaid malle. Pärast malli valimist avatakse see redigeerimiseks. Muudetud malli saab seejärel muuta uues ise loodavas ER-vormingus seadistusega.
+Suvand **Uus dokument** on alati saadaval praeguse ja teise pakkuja (selles näites Microsofti) ER-vormingu seadistusega mallil, millel pole redaktsiooni. Muudetud malli saab seejärel muuta uues ise loodavas ER-vormingus seadistusega.
 
 ### <a name="start-editing-a-template"></a>Alustage malli muutmisest
 
@@ -282,7 +280,7 @@ Suvand **Uus dokument** on alati saadaval teise pakkuja (näiteks Microsoft) ER-
 2. Muutke väljas **Nimi** ise tekkiva muudetava malli esimese redaktsiooni nime.
 3. Muutke väljas **Kommentaar** ise tekkiva muudetava malli redaktsiooni märkust.
 
-    ![Äridokumentide halduse tööruumi leht](./media/BDM_overview_new_template4.png)
+    ![Äridokumentide halduse tööruumi leht](./media/BDM-Overview-EditingTemplate5.png)
 
 5. Muutmis alustamise kinnitamiseks valige **OK**.
 
@@ -290,13 +288,16 @@ Avaneb leht **BDM malli muutja**. Valitud malli saab muuta internetis Office 365
 
 ![Äridokumentide halduse tööruumi leht](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-office-365"></a>Muuda malli Office 365-s
+### <a name="EditInOffice365">Malli muutmine teenuses Office 365</a>
 
-Muuda malli Office 365 funktsioonidega. Näiteks muuda veebilehitsejast kasutatavas Office’is malli päise välja küsimuste font **Tavaline** fondiks **Paks**. Need muudatused salvestatakse automaatselt ER-raamistikuga ühtivas malli peamises salvestusruumis (tavaliselt Azure bloobi salvestusruum) hoitava muudetava malli jaoks.
+Te ei saa Office 365 abil malli muuta. Näiteks muuda veebilehitsejast kasutatavas Office’is malli päise välja küsimuste font **Tavaline** fondiks **Paks**. Need muudatused salvestatakse automaatselt malli peamises salvestusruumis (tavaliselt Azure bloobi salvestusruum) hoitava muudetava malli jaoks. See on konfigureeritud ER raamistiku jaoks.
 
 ![Äridokumentide halduse malli muutmisleht](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="edit-a-template-in-the-office-desktop-application"></a>Muuda malli Office’i töölauarakenduses
+### <a name="EditInOfficeDesktopApp">Muuda malli Office’i töölauarakenduses</a>
+
+> [!NOTE]
+> See funktsioon on saadaval ainult siis, kui **SharePointi dokumenditüübi** parameeter on õigesti konfigureeritud. Lisateavet vt teemast [Parameetrite konfigureerimine](#SetupBdmParameters).
 
 1. Malli muutmiseks Office’i töölauarakenduse funktsioonidega (selles näites Exceliga) valige **Ava töölauarakenduses**. Muudetav mall kopeeritakse alalisest salvestusruumist ajutisse salvestusruumi, mis on äridokumentide halduse näitajatega määratletud kui SharePoint kaust.
 2. Kinnitage, et tahate avada malli Office’i töölaua Exceli rakendusega ajutisest faili salvestusruumist.
@@ -386,7 +387,7 @@ Kui muudate praegu aktiivse pakkuja ER-vormingu malli, pakutakse võimalust tüh
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Valisin **Dokumendi redigeerimine**, kuid Finance and Operationsi lehe **BDM malli muutja** avamise asemel suunati mind Office 365 veebilehele.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Valisin **Dokumendi redigeerimine**, kuid lehel **BDM malliredaktor** avamise asemel Finance and Operations-is suunati mind Office 365 veebilehele.
 See on Office 365 ümbersuunamisega teadaolev probleem. See juhtub, kui logite sisse Office 365-te esimest korda. Selle probleemi lahendamiseks peate naasma veebilehitseja nupuga **Tagasi**.
 
 #### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Mõistan, kuidas muuta malli Office 365-ga esimesel rakenduse seansil ja, kuidas kasutada malli teises rakenduse seansis, kus tuleb muuta malli selleks, et näha, kuidas minu muudatused mõjutavad loodud äridokumenti. Kas saan seda teha Office’i töölauarakendusega?
@@ -411,3 +412,4 @@ Tõenäoliselt logisite sisse Azure AD domeeni praegusesse rakenduse eksemplari,
 [Manustatud pildid ja kujutised ER-iga loodud dokumentides](electronic-reporting-embed-images-shapes.md)
 
 [Elektroonilise aruandluse (ER) konfigureerimine andmete tõmbamiseks Power BI-sse](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+

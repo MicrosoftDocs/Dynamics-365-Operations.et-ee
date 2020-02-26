@@ -3,7 +3,7 @@ title: Kontohalduse lehed ja moodulid
 description: See teema käsitleb kontohalduse lehti ja mooduleid rakenduses Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/02/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f9fc3731cd9d21294b0161e1d419f255096d7790
-ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
+ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2885805"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025674"
 ---
 # <a name="account-management-pages-and-modules"></a>Kontohalduse lehed ja moodulid
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 See teema käsitleb kontohalduse lehti ja mooduleid rakenduses Microsoft Dynamics 365 Commerce.
@@ -40,13 +40,12 @@ Kontohaldus viitab lehtede grupile, mida kasutatakse kasutajakontoga seotud teab
 
 Kontohalduse sihtleht kasutab järgmisi mooduleid.
 
-- **Sisupaigutus** – see moodul on konteinermoodul, mis sisaldab kõiki kontohalduse sihtlehe mooduleid.
-- **Konto tervituse üksus** – seda moodulit kasutatakse kontohalduse lehe tervitussõnumi esitamiseks. See hõlmab pealkirja ja paani suuruse atribuute. Atribuut **Paani suurus** määrab mooduli laiuse sisupaigutuse moodulis. Väärtused on vahemikus **1** kuni **12**, kus **12** tähistab sisupaigutuse konteineri täielikku laiust.
-- **Konto tellimuse esitamise üksus** – seda moodulit kasutatakse kasutajakonto esitatud tellimuste koguarvu näitamiseks. See hõlmab pealkirja, paani suuruse ja üksikasjade kuvamise lingi atribuute. Link „Kuva üksikasjad” peaks olema konfigureeritud suunama ümber tellimuste ajaloo lehele.
-- **Kontoprofiili paigutuse üksus** – seda moodulit kasutatakse kasutajaprofiili kokkuvõtte esitamiseks. See hõlmab pealkirja, paani suuruse ja üksikasjade kuvamise lingi atribuute. Link „Kuva üksikasjad” peaks olema konfigureeritud suunama ümber kasutajaprofiili lehele.
-- **Konto soovinimekirja üksus** – seda moodulit kasutatakse kliendi soovinimekirjas olevate kaupade kokkuvõtte esitamiseks. Näiteks võib see märkida „Teil on soovinimekirjas 10 eset”. See hõlmab pealkirja, paani suuruse ja üksikasjade kuvamise lingi atribuute. Link „Kuva üksikasjad” peaks olema konfigureeritud suunama ümber soovinimekirja lehele.
-- **Konto aadressi üksus** – seda moodulit kasutatakse kasutaja aadressi kokkuvõtte esitamiseks. Näiteks võib see märkida „Teil on kontole lisatud 2 aadressi”. See hõlmab pealkirja, paani suuruse ja üksikasjade kuvamise lingi atribuute. Link „Kuva üksikasjad” peaks olema konfigureeritud suunama ümber kasutaja aadressi lehele.
-- **Konto püsikliendi üksus** – seda moodulit kasutatakse püsikliendiprogrammi teabe kuvamiseks ja linkimiseks. See hõlmab pealkirja, paani suuruse, üksikasjade kuvamise lingi ja liikmeks hakkamise lingi atribuute. Link „Kuva üksikasjad” peaks olema konfigureeritud suunama ümber püsikliendi lehele. Link „Hakka liikmeks” peaks olema konfigureeritud suunama ümber lehele, kus kasutajad saavad püsikliendiprogrammiga liituda.
+- **Konteiner** – kõik kontohalduse sihtlehe moodulid tuleb asetada konteinerisse. 
+- **Konto tervituse paan** – seda moodulit kasutatakse kontohalduse lehe tervitussõnumi esitamiseks. See sisaldab pealkirja atribuute.
+- **Konto üldpaan** – seda moodulit saab kasutada kontohalduse lehtede pealkirjade ja linkide esitamiseks, nt lehed "Tellimuste ajalugu" või "Minu profiil". Üldpaani moodulit saab kasutada mistahes lehe paani konfigureerimiseks. Fabrikamis kasutatakse seda moodulit "Tellimuse ajaloo" ja "Minu profiili" lehtede linkideks kontohalduse sihtlehel.
+- **Konto soovinimekirja paan** – seda moodulit kasutatakse kliendi soovinimekirjas olevate kaupade kokkuvõtte esitamiseks. Näiteks võib see märkida „Teil on soovinimekirjas 10 eset”. See hõlmab pealkirja ja lingi "Kuva üksikasjad" atribuute. Link „Kuva üksikasjad” peaks olema konfigureeritud suunama ümber soovinimekirja lehele. 
+- **Konto aadressi paan** – seda moodulit kasutatakse kasutaja aadressi kokkuvõtte esitamiseks. Näiteks võib see märkida „Teil on kontole lisatud 2 aadressi”. See hõlmab pealkirja ja lingi "Kuva üksikasjad" atribuute. Link „Kuva üksikasjad” peaks olema konfigureeritud suunama ümber kasutaja aadressi lehele.
+- **Konto püsikliendi paan** – seda moodulit kasutatakse püsikliendiprogrammi teabe kuvamiseks ja linkimiseks. Sellel paanil on kaks olekut: ühes olekus kuvatakse lingid püsikliendiprogrammiga liitumiseks, kui kasutaja pole juba liige. Teises olekus kuvatakse lingid, et vaadata püsikliendi üksikasjade lehte, kui kasutaja on juba liige. Atribuudid sisaldavad pealkirja, linki "Registreeru" ja linki "Kuva püsikliendi infot". Link „Kuva püsikliendi infot” peaks olema konfigureeritud suunama ümber püsikliendi lehele. Link „Registreeru” peaks olema konfigureeritud suunama ümber lehele, kus kasutajad saavad püsikliendiprogrammiga liituda. 
 
 ### <a name="order-history-page"></a>Tellimuste ajaloo leht
 
@@ -58,7 +57,7 @@ Tellimuste üksikasjade leht pakub iga tellimuse üksikasjalikku teavet ja selle
 
 ### <a name="user-profile-page"></a>Kasutajaprofiili leht
 
-Kasutajaprofiili leht näitab kasutajakonto üksikasju, nagu kasutajanimi ja meiliaadress. See kasutab kasutajaprofiili moodulit. Kuigi meiliaadressi ei saa eemaldada, saab seda redigeerida. Kasutajaprofiili lehel kuvatakse ka kasutaja eelistused, mis võimaldavad kasutajal valida või loobuda teatud funktsioonidest, nt soovituste loendite isikupärastamine. 
+Kasutajaprofiili leht näitab kasutajakonto üksikasju, nagu kasutajanimi ja meiliaadress. See kasutab kasutajaprofiili üksikasju ja kasutajaprofiili redigeerimise mooduleid. Kuigi meiliaadressi ei saa eemaldada, saab seda redigeerida. Kasutajaprofiili lehel kuvatakse ka kasutaja eelistused, mis võimaldavad kasutajal valida või loobuda teatud funktsioonidest, nt soovituste loendite isikupärastamine. 
 
 ### <a name="user-address-page"></a>Kasutaja aadressi leht
 
@@ -70,13 +69,15 @@ Soovinimekirja leht näitab kliendi soovinimekirja lisatud esemeid. See kasutab 
 
 ### <a name="loyalty-page"></a>Püsikliendi leht
 
-Püsikliendi leht võimaldab klientidel liituda püsikliendi programmiga või kui nad on juba püsikliendi programmi liikmed, vaadata oma programmi üksikasju. Nad saavad vaadata ka punkte, mille nad on viimaste tehingutega teeninud ja lunastanud.
+Püsikliendi leht võimaldab klientidel vaadata oma püsikliendi infot, kui nad on juba püsikliendi programmi liikmed. Nad saavad vaadata ka punkte, mille nad on viimaste tehingutega teeninud ja lunastanud. Leht kasutab püsikliendi üksikasjade moodulit püsikliendi üksikasjade näitamiseks. 
+
+Püsikliendiprogrammiga liitumiseks saab luua püsikliendiprogrammi registreerumise ja püsikliendi tingimuste mooduliga turunduslehe. Kui kasutaja ei ole püsikliendiprogrammi liige, siis võimaldavad need moodulid kasutajal registreeruda.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Alustuskomplekti ülevaade](starter-kit-overview.md)
 
-[Konteinermoodul](add-container-module.md)
+[Konteineri moodul](add-container-module.md)
 
 [Ostukasti moodul](add-buy-box.md)
 
