@@ -5,6 +5,10 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 18. veebruar 2020
+          href: hr-whats-new-2020-02-18.md
+        - name: 12. veebruar 2020
+          href: hr-whats-new-2020-02-12.md
         - name: 7. veebruar 2020
           href: hr-whats-new-2020-02-07.md
         - name: 3. veebruar 2020
@@ -455,7 +459,7 @@
               href: hr-benefits-manage-program.md
             - name: Soodustuse saamise õiguse poliitika
               href: hr-benefits-eligibility-policies.md
-            - name: Soodustuse sobivuse protsess
+            - name: Soodustuse sobivuse töötlemine
               href: hr-benefits-eligibility-process.md
             - name: Soodustuskõlblikkuse reeglite ja poliitikate määratlemine
               href: hr-benefits-define-eligibility-rules.md
