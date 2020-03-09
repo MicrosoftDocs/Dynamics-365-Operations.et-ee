@@ -68,6 +68,8 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Managementi versioon 10.0.9 (aprill 2020)
+                      href: get-started/whats-new-scm-10-0-9.md
                     - name: Supply Chain Managementi versioon 10.0.8 (veebruar 2020)
                       href: get-started/whats-new-scm-10-0-8.md
                     - name: Supply Chain Managementi versioon 10.0.7 (jaanuar 2020)
@@ -146,6 +148,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Salvestatud vaated
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Ruudustiku võimalused
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kohandatud väljade loomine ja nendega töötamine
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
                 - name: PowerAppsi rakenduste manustamine
@@ -527,6 +531,8 @@
                   href: cost-management/costing-sheets.md
                 - name: Kulumuudatuste simuleerimine planeeritud kulude kuluarvutusversiooni kasutades
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
+                - name: Võrrelge ladustamisarundes toodete hindu
+                  href: cost-management/compare-item-price.md
             - name: Laoarvestus
               items:
                 - name: Kuluobjektid
@@ -673,6 +679,8 @@
               items:
                 - name: Dokumentide aruandlusteenuste ülevaade
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Toetatud fondid
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/supply-chain/toc.json
                 - name: SSRS-i konfigureerimine kohapealseteks juurutamisteks
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Printimine
@@ -1061,6 +1069,8 @@
               items:
                 - name: Planeerimise optimeerimise ülevaade
                   href: master-planning/planning-optimization/planning-optimization-overview.md
+                - name: Negatiivset laoseisu käsitletakse tühja laoseisuna
+                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Planeerimise optimeerimisega alustamine
                   href: master-planning/planning-optimization/get-started.md
                 - name: Planeerimise optimeerimise sobivuse analüüs
@@ -2417,7 +2427,7 @@
                   href: warehousing/process-guide-framework.md
             - name: Täiendamine ja migreerimine
               items:
-                - name: Laohaldusprotsesside uuendamine rakendusest Microsoft DynamicsAX 2012 rakendusse Finance and Operations
+                - name: Laohaldusprotsesside uuendamine rakendusest Microsoft Dynamics AX 2012 rakendusse Finance and Operations
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: Sissetulekute registreerimiseks ja ladustamine
               items:
@@ -2441,6 +2451,4 @@
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Commerce
-      href: ../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../commerce/index.md
