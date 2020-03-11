@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2673b0167f7602a6d6eaa79be639905028e99822
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c95663f1aacaf93c1c4bfc8d36d9515f495bf61e
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915529"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040821"
 ---
-# <span data-ttu-id="85cd4-103"><a name="TRIM">ER-i funktsioon TRIM</a></span><span class="sxs-lookup"><span data-stu-id="85cd4-103"><a name="TRIM">TRIM ER function</a></span></span>
+# <span data-ttu-id="ade9b-103"><a name="TRIM">ER-i funktsioon TRIM</a></span><span class="sxs-lookup"><span data-stu-id="ade9b-103"><a name="TRIM">TRIM ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="85cd4-104">Funktsioon `TRIM` tagastab määratud tekstistringi *stringi* väärtusena pärast algus- ja lõputühikute kärpimist ning sõnade vahel olevate mitmekordsete tühikute eemaldamist.</span><span class="sxs-lookup"><span data-stu-id="85cd4-104">The `TRIM` function returns the specified text string as a *String* value after leading and trailing spaces have been truncated, and after multiple spaces between words have been removed.</span></span>
+<span data-ttu-id="ade9b-104">Funktsioon `TRIM` tagastab määratud tekstistringi *stringi* väärtusena pärast algus- ja lõputühikute kärpimist ning sõnade vahel olevate mitmekordsete tühikute eemaldamist.</span><span class="sxs-lookup"><span data-stu-id="ade9b-104">The `TRIM` function returns the specified text string as a *String* value after leading and trailing spaces have been truncated, and after multiple spaces between words have been removed.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="85cd4-105">Süntaks</span><span class="sxs-lookup"><span data-stu-id="85cd4-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ade9b-105">Süntaks</span><span class="sxs-lookup"><span data-stu-id="ade9b-105">Syntax</span></span>
 
-```
+```vb
 TRIM (text )
 ```
 
-## <a name="arguments"></a><span data-ttu-id="85cd4-106">Argumendid</span><span class="sxs-lookup"><span data-stu-id="85cd4-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="ade9b-106">Argumendid</span><span class="sxs-lookup"><span data-stu-id="ade9b-106">Arguments</span></span>
 
-<span data-ttu-id="85cd4-107">`text`: *string*</span><span class="sxs-lookup"><span data-stu-id="85cd4-107">`text`: *String*</span></span>
+<span data-ttu-id="ade9b-107">`text`: *string*</span><span class="sxs-lookup"><span data-stu-id="ade9b-107">`text`: *String*</span></span>
 
-<span data-ttu-id="85cd4-108">Tüübi *String* andmeallika kehtiv tee.</span><span class="sxs-lookup"><span data-stu-id="85cd4-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="ade9b-108">Tüübi *String* andmeallika kehtiv tee.</span><span class="sxs-lookup"><span data-stu-id="ade9b-108">The valid path of a data source of the *String* type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="85cd4-109">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="85cd4-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="ade9b-109">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="ade9b-109">Return values</span></span>
 
-<span data-ttu-id="85cd4-110">*String*</span><span class="sxs-lookup"><span data-stu-id="85cd4-110">*String*</span></span>
+<span data-ttu-id="ade9b-110">*String*</span><span class="sxs-lookup"><span data-stu-id="ade9b-110">*String*</span></span>
 
-<span data-ttu-id="85cd4-111">Tulemiks saadud teksti väärtus.</span><span class="sxs-lookup"><span data-stu-id="85cd4-111">The resulting text value.</span></span>
+<span data-ttu-id="ade9b-111">Tulemiks saadud teksti väärtus.</span><span class="sxs-lookup"><span data-stu-id="ade9b-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="85cd4-112">Näide</span><span class="sxs-lookup"><span data-stu-id="85cd4-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ade9b-112">Näide</span><span class="sxs-lookup"><span data-stu-id="ade9b-112">Example</span></span>
 
-<span data-ttu-id="85cd4-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` tagastab tulemuse **„Näidistekst”**.</span><span class="sxs-lookup"><span data-stu-id="85cd4-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` returns **"Sample text"**.</span></span>
+<span data-ttu-id="ade9b-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` tagastab tulemuse **„Näidistekst”**.</span><span class="sxs-lookup"><span data-stu-id="ade9b-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` returns **"Sample text"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="85cd4-114">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="85cd4-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="ade9b-114">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="ade9b-114">Additional resources</span></span>
 
-[<span data-ttu-id="85cd4-115">Tekstifunktsioonid</span><span class="sxs-lookup"><span data-stu-id="85cd4-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="ade9b-115">Tekstifunktsioonid</span><span class="sxs-lookup"><span data-stu-id="ade9b-115">Text functions</span></span>](er-functions-category-text.md)

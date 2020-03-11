@@ -18,25 +18,36 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9ae80dd92fdb0ec4b33c2e42d4b6ec264aaf62de
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: f36aba8a68ea8cc261423f79db00e175df1cf349
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008821"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075944"
 ---
-# <a name="whats-new-or-changed-in-human-resources"></a><span data-ttu-id="68841-102">Mis on uut või mida on muudetud rakenduses Human Resources?</span><span class="sxs-lookup"><span data-stu-id="68841-102">What's new or changed in Human Resources</span></span>
+# <a name="whats-new-or-changed-in-human-resources"></a><span data-ttu-id="92833-102">Mis on uut või mida on muudetud rakenduses Human Resources?</span><span class="sxs-lookup"><span data-stu-id="92833-102">What's new or changed in Human Resources</span></span>
 
-<span data-ttu-id="68841-103">Iga nädal pakume rakenduse Microsoft Dynamics Human Resources jaoks uut väljaannet.</span><span class="sxs-lookup"><span data-stu-id="68841-103">Each week, we provide a new release for Microsoft Dynamics Human Resources.</span></span> <span data-ttu-id="68841-104">Selle jaotise artiklid kirjeldavad iga nädal tehtud muudatusi.</span><span class="sxs-lookup"><span data-stu-id="68841-104">The articles in this section detail the changes made each week.</span></span>
+<span data-ttu-id="92833-103">Iga nädal esitame rakenduse Microsoft Dynamics 365 Human Resources jaoks uue väljaande.</span><span class="sxs-lookup"><span data-stu-id="92833-103">Each week, we provide a new release for Microsoft Dynamics 365 Human Resources.</span></span> <span data-ttu-id="92833-104">Selle jaotise artiklid kirjeldavad iga nädal tehtud muudatusi.</span><span class="sxs-lookup"><span data-stu-id="92833-104">The articles in this section detail the changes made each week.</span></span>
 
-<span data-ttu-id="68841-105">Lisateavet rakenduse Human Resources tulevaste funktsioonide või värskendamisprotsessi kohta leiate järgmistest teemadest.</span><span class="sxs-lookup"><span data-stu-id="68841-105">For more information about upcoming features or the update process for Human Resources, see the following:</span></span>
+<span data-ttu-id="92833-105">Lisateavet rakenduse Human Resources tulevaste funktsioonide või värskendamisprotsessi kohta leiate järgmistest artiklitest.</span><span class="sxs-lookup"><span data-stu-id="92833-105">For more information about upcoming features or the update process for Human Resources, see the following articles:</span></span>
 
-- [<span data-ttu-id="68841-106">Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade</span><span class="sxs-lookup"><span data-stu-id="68841-106">Overview of Dynamics 365 Human Resources 2019 release wave 2</span></span>](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
+- [<span data-ttu-id="92833-106">Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade</span><span class="sxs-lookup"><span data-stu-id="92833-106">Overview of Dynamics 365 Human Resources 2019 release wave 2</span></span>](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
-- [<span data-ttu-id="68841-107">Protsessi värskendamine</span><span class="sxs-lookup"><span data-stu-id="68841-107">Update process</span></span>](hr-admin-setup-update-process.md)
+- [<span data-ttu-id="92833-107">Värskendamisprotsess</span><span class="sxs-lookup"><span data-stu-id="92833-107">Update process</span></span>](hr-admin-setup-update-process.md)
 
-- [<span data-ttu-id="68841-108">Funktsioonide haldamine</span><span class="sxs-lookup"><span data-stu-id="68841-108">Manage features</span></span>](hr-admin-manage-features.md)
+- [<span data-ttu-id="92833-108">Funktsioonide haldamine</span><span class="sxs-lookup"><span data-stu-id="92833-108">Manage features</span></span>](hr-admin-manage-features.md)
 
-## <a name="whats-new-weekly-releases"></a><span data-ttu-id="68841-109">Mis on iganädalastes väljaannetes uut?</span><span class="sxs-lookup"><span data-stu-id="68841-109">What's new weekly releases</span></span>
+## <a name="human-resources-weekly-releases"></a><span data-ttu-id="92833-109">Human Resourcesi iganädalased väljalasked</span><span class="sxs-lookup"><span data-stu-id="92833-109">Human Resources weekly releases</span></span>
 
-[<span data-ttu-id="68841-110">3. veebruar 2020</span><span class="sxs-lookup"><span data-stu-id="68841-110">February 3, 2020</span></span>](hr-whats-new-2020-02-03.md)
+<span data-ttu-id="92833-110">Et näha, mis on Human Resourcesi igas väljalaskes uut või muudetud, vaadake järgmisi artikleid.</span><span class="sxs-lookup"><span data-stu-id="92833-110">To see what's new or changed in each weekly release of Human Resources, see the following articles:</span></span>
+
+[<span data-ttu-id="92833-111">18. veebruar 2020</span><span class="sxs-lookup"><span data-stu-id="92833-111">February 18, 2020</span></span>](hr-whats-new-2020-02-18.md)</br>
+[<span data-ttu-id="92833-112">12. veebruar 2020</span><span class="sxs-lookup"><span data-stu-id="92833-112">February 12, 2020</span></span>](hr-whats-new-2020-02-12.md)</br>
+[<span data-ttu-id="92833-113">7. veebruar 2020</span><span class="sxs-lookup"><span data-stu-id="92833-113">February 7, 2020</span></span>](hr-whats-new-2020-02-07.md)</br>
+[<span data-ttu-id="92833-114">3. veebruar 2020</span><span class="sxs-lookup"><span data-stu-id="92833-114">February 3, 2020</span></span>](hr-whats-new-2020-02-03.md)
+
+## <a name="see-also"></a><span data-ttu-id="92833-115">Vt ka</span><span class="sxs-lookup"><span data-stu-id="92833-115">See also</span></span>
+
+[<span data-ttu-id="92833-116">Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade</span><span class="sxs-lookup"><span data-stu-id="92833-116">Overview of Dynamics 365 Human Resources 2019 release wave 2</span></span>](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[<span data-ttu-id="92833-117">Värskendamisprotsess</span><span class="sxs-lookup"><span data-stu-id="92833-117">Update process</span></span>](hr-admin-setup-update-process.md)</br>
+[<span data-ttu-id="92833-118">Funktsioonide haldamine</span><span class="sxs-lookup"><span data-stu-id="92833-118">Manage features</span></span>](hr-admin-manage-features.md)
