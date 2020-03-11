@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b32c5e8a413be3583177f565e2d4909330ad1e0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 214fb2808f024487795f27de45de1d4de8cead2d
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917093"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041649"
 ---
 # <a name="ABS">ER-i funktsioon ABS</a>
 
@@ -33,7 +33,7 @@ Funktsioon `ABS` annab määratud numbri absoluutväärtuse *tegeliku* väärtus
 
 ## <a name="syntax"></a>Süntaks
 
-```
+```vb
 ABS (number)
 ```
 

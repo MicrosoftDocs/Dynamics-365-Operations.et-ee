@@ -3,7 +3,7 @@ title: Pilvepõhiste ja asutusesiseste funktsioonide võrdlus
 description: Selles teemas näidatakse, milliseid funktsioone pilves ja asutusesiseses versioonis toetatakse.
 author: sericks007
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005722"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081966"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Pilvepõhiste ja kohapealsete funktsioonide võrdlus
 
@@ -81,6 +81,7 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 |                                      | Tegevuse salvestaja – tegevuse salvestiste salvestamine või laadimine BPM-i teegist                         | Jah       | Ei              |
 | Tugi                              |                                                                                           | Jah       | Jah             |
 |                                      | Juurdepääs toele spikri ja toe menüü kaudu                                             | Jah       | Ei              |
+|                                      | Ärisündmused                                                                           | Jah       | Jah (ärisündmuste sisevõrgus saatmiseks / vastu võtmiseks on vajalik kas internetiühendus või kohandatud lõpp-punktid peavad olema rakendatud)              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
@@ -147,7 +148,7 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Kohapeal saadaolevate juurutuste võimaluste loendi nägemiseks vt [Kohapeal saadaolevate juurutuste jaemüügi võimalused](../../../retail/retail-onprem.md).
+Kohapeal saadaolevate juurutuste võimaluste loendi nägemiseks vt [Kohapealseks juurutamiseks saadaolevad Commerce’i võimalused](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

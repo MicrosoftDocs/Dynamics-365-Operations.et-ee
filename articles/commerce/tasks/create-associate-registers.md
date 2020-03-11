@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ac5135d0606ffc9816c841637aa032826f87e28
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0ac75d390b8bbb94c6e039b374b51462d348e355
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022263"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057150"
 ---
 # <a name="create-and-associate-registers"></a> Registrite loomine ja seostamine
 
@@ -31,13 +31,13 @@ ms.locfileid: "3022263"
 See protseduur näitab, kuidas luua kassaregistrit. Protseduur kasutab demoettevõtte USRT andmeid.
 
 1. Avage Jaemüük ja kaubandus > Kanali häälestus > Kassa Seadistus > Registrid.
-2. Klõpsake valikut Uus.
+2. Klõpsake Uus.
 3. Sisestage väljale Registri number uue registri ID.
     * Registri ID sisaldab tavaliselt koode, mis aitavad vastendada registrit kauplusega, mille juurde see kuulub, ja asukohaga kaupluses.  
 4. Tippige väljale Nimi registri kirjeldav nimi.
 5. Sisestage või valige väärtus väljal Kaupluse kood.
 6. Sisestage või valige väärtus väljal Riistvaraprofiil.
-    * Riistvaraprofiile kasutatakse jaemüügi välisseadmete määramiseks, mis registriga ühendatakse, nt sularahasahtel ja kviitungiprinter.  
+    * Riistvaraprofiile kasutatakse registriga ühendatavate välisseadmete määramiseks, nt sularahasahtel ja kviitungiprinter.  
 7. Sisestage või valige väärtus väljal Visuaalne profiil.
     * Visuaalseid profiile kasutatakse kassa taustal ja sisselogimislehel kasutatavate piltide ning kassa kujunduste määramiseks.  
 8. Sisestage väärtus väljale EFT kassaregistri number.

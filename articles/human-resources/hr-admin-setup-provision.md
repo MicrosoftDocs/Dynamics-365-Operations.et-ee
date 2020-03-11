@@ -3,7 +3,7 @@ title: Rakenduse Human Resources ettevalmistamine
 description: ''
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f3a7987a9b385fb6ba0294dc46b0d66be8228f06
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026263"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071610"
 ---
 # <a name="provision-human-resources"></a>Rakenduse Human Resources ettevalmistamine
 
@@ -62,9 +62,6 @@ Pärast LCS-i projekti loomist saate Human Resourcesi ette valmistada keskkonnas
 3. Kui soovite, et keskkonnas kasutataks sama demoandmete kogumit, mida kasutati Human Resourcesi proovikeskkonnas, siis valige suvand **Kaasa demoandmed**. See on kasulik pikaajalistes demo- või koolituskeskkondades, kuid seda ei tohiks kunagi tootmiskeskkondade jaoks kasutada.  Pange tähele, et see suvand tuleb valida algsel juurutusel. Hiljem ei saa olemasolevat juurutust värskendada.
 
 4. Human Resources on alati ette valmistatud Microsoft Power Appsi keskkonnana, et lubada Power Appsi integreerimine ja laiendatavus. Enne jätkamist lugege selle artikli jaotist Power Appsi keskkonna valimine. Kui teil ei ole veel Power Appsi keskkonda, valige LCS-is Keskkondade haldamine või navigeerige Power Appsi halduskeskusesse. Seejärel järgige juhseid jaotises [Power Appsi keskkonna loomine](https://docs.microsoft.com/powerapps/administrator/create-environment).
-
-    > [!NOTE]
-    > Olemasolevate keskkondade vaatamiseks või uute keskkondade loomiseks peab Human Resourcesi ettevalmistavale rentnikuadministraatorile olema määratud Power Apps P2 litsents. Kui teie organisatsioonil ei ole Power Apps P2 litsentsi, saate selle oma CSP-lt või [Power Appsi hinnakujunduse lehelt](https://powerapps.microsoft.com/pricing/).
 
 5. Valige keskkond, kus Human Resources ette valmistada.
 

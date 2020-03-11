@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 73cecb0c6aacebf5c6fcf8a0edbc7513b3ce175d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 724ec2e5af7837d574298d662911cd9c6ee9e9f2
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001894"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070417"
 ---
 # <a name="create-a-new-product-hierarchy"></a>Uue tootehierarhia loomine
 
@@ -75,7 +75,7 @@ Kategooria atribuudigruppe saab vajadusel määrata ka igale grupile.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Jaemüügihierarhiad](retail-hierarchies.md)
+[Commerce’i hierarhiad](retail-hierarchies.md)
 
 [Tootekategooriate ja toodete haldamine](category-management-product-creation.md)
 

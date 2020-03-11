@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: feb28b9c801786f63282c4189d3eeb6d53ed07e1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003138"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057610"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Meiliteatiste profiili seadistamine
 
@@ -41,7 +41,7 @@ Lisateavet meili konfigureerimise kohta vt teemast [Meili konfigureerimine ja sa
 
 Meiliteatiste profiili loomiseks toimige järgmiselt.
 
-1. Avage navigeerimispaanil **Moodulid \> Jaemüük ja kaubandus \> Headquartersi seadistus \> Jaemüügi meiliteavituste profiil**.
+1. Avage navigeerimispaanil **Moodulid \> Jaemüük ja kaubandus \> Headquartersi seadistus \> Commerce’i meiliteavituse profiil**.
 1. Klõpsake toimingupaanil valikut **Uus**.
 1. Sisestage väljale **Meiliteatiste profiil** profiili tuvastamiseks nimi.
 1. Väljale **Kirjeldus** sisestage asjakohane kirjeldus.
@@ -71,16 +71,16 @@ Järgmine pilt näitab mõningaid näiteid meilimalli sätetest.
 
 Meilisündmuse loomiseks tehke järgmist.
 
-1. Avage navigeerimispaanil **Moodulid \> Jaemüük ja kaubandus \> Headquartersi seadistus \> Jaemüügi meiliteavituste profiil**.
+1. Avage navigeerimispaanil **Moodulid \> Jaemüük ja kaubandus \> Headquartersi seadistus \> Commerce’i meiliteavituse profiil**.
 1. Otsige loendist ja valige soovitud kirje. 
 1. Valige ripploendist **Meili ID** meilimall.
 1. Valige ripploendist sobiv **Meiliteatise tüüp**.
 1. Märkige ruut **Aktiivne**.
 1. Valige toimingupaanil nupp **Salvesta**.
 
-Järgmine pilt näitab mõningaid näiteid müügisündmuse teavituse sätetest.
+Järgmine pilt näitab mõningaid näiteid sündmusest teavitamise sätetest.
 
-![Jaemüügi sündmusest teavitamise sätted](media/email-notification-profile.png)
+![Sündmusest teavitamise sätted](media/email-notification-profile.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

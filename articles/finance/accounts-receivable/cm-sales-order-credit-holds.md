@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f819139e74d81d24810c63bae1de19358983b9
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015195"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057666"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Müügitellimuste krediidi ootelolekud
 [!include [banner](../includes/banner.md)]
@@ -264,7 +264,7 @@ Ootel sunnitud müügitellimusi ei saa töövooga töödelda.
 #### <a name="releasing-orders-that-were-added-to-the-credit-management-hold-list-with-a-forced-credit-hold"></a>Krediidihalduse ootelepaneku loendisse sunnitud tellimuste vabastamine
 Müügitellimusi, millel on sunnitud ootelepaneku põhjus, ei saa automaatselt vabastada. Kui müügitellimus on ootele sunnitud ja te olete kasutanud protsessi, mis vabastab müügitellimused automaatselt, kuvatakse müügitellimuse olekuks **Vabastamiseks valmis** ja see jääb ootele. Tellimuse vabastamiseks peate kasutama menüüd **Vabastamine**.
  
-## <a name="free-text-invoices-retail-orders-and-project-invoice-support-in-credit-management"></a>Vabas vormis arvete, jaemüügi tellimuste ja projekti arvete tugi krediidihalduses 
-Krediidihaldust saab praegu kasutada ainult müügitellimuste puhul. Vabas vormis arved, kassa tellimused ja kõnekeskuse tellimused kasutavad ajutisi krediidilimiite ja kindlustusi/garantiisid, mille krediidilimiidi kohandamiseks lisate. Need ei kasuta blokeerimise reegleid ja neid ei panda ootele, kui krediidilimiidiga probleeme on.
+## <a name="free-text-invoices-orders-and-project-invoice-support-in-credit-management"></a>Vabas vormis arved, tellimused ja projekti arvete tugi krediidihalduses 
+Krediidihaldust saab praegu kasutada ainult müügitellimuste puhul. Vabas vormis arved, kassapõhised tellimused ja kõnekeskuse tellimused kasutavad ajutisi krediidilimiite ja kindlustusi/garantiisid, mille krediidilimiidi kohandamiseks lisate. Need ei kasuta blokeerimise reegleid ja neid ei panda ootele, kui krediidilimiidiga probleeme on.
 
 Krediidihaldus ei toeta projektiarveid.

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 27066cd860d78743d5ae7c851876eb62fe019245
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e14949b871534868c42d2b26a116e10ff9f05179
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180986"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081992"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Optimeerimisnõustaja reeglite loomine
 
@@ -36,7 +36,7 @@ Selles teemas selgitatakse, kuidas **optimeerimisnõustaja** jaoks uusi reegleid
 
 **Optimeerimisnõustaja** jaoks uue reegli loomiseks lisage uus klass, mis laiendab abstraktset klassi **SelfHealingRule** abstraktse klassi, rakendab liidest **IDiagnosticsRule** ja mida kujundab atribuut **DiagnosticRule**. Klassil peab olema ka atribuudiga **DiagnosticsRuleSubscription** kujundatud meetod. Tava kohaselt tehakse seda meetodiga **opportunityTitle**, mida selgitatakse hiljem. Selle uue klassi saab lisada kohandatud mudelile sõltuvusega mudelist **SelfHealingRules**. Järgmises näites rakendatakse reeglit **RFQTitleSelfHealingRule**.
 
-```
+```xpp
 [DiagnosticsRule] 
 public final class RFQTitleSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule 
 { 
@@ -46,7 +46,7 @@ public final class RFQTitleSelfHealingRule extends SelfHealingRule implements ID
 
 Abstraktsel klassil **SelfHealingRule** on abstraktsed meetodid, mis tuleb juurutada pärinevates klassides. Tuumaks on meetod **hinnang** meetod, mis annab vastuseks reegli tuvastatud võimaluste loendi. Võimalused saavad olla juriidilise isiku kohta või kehtida tervele süsteemile.
 
-```
+```xpp
 protected List evaluate() 
 { 
     List results = new List(Types::Record); 
@@ -82,7 +82,7 @@ Võmalused saavad olla ka ettevõtteülesed. Sel juhul ei ole ettevõtete ülest
 
 Järgmine kood näitab meetodit **findRFQCasesWithEmptyTitle**, mis annab vastuseks tühjade pealkirjadega pakkumiskutsete juhtumite ID-d.
 
-```
+```xpp
 private container findRFQCasesWithEmptyTitle() 
 { 
     container result; 
@@ -115,7 +115,7 @@ Kaks meetodit, mida tuleb veel juurutada, on **opportunityTitle** ja **opportuni
 
 Järgnev näide on juurutamise kohta. Lihtsuse nimel kasutatakse toorstringe, kuigi õigeks juurutamiseks on vaja silte. 
 
-```
+```xpp
 [DiagnosticsRuleSubscription(DiagnosticsArea::SCM, 
                              'Assign titles to Request for Quotation cases', 
                              DiagnosticsRunFrequency::Daily,  
@@ -128,7 +128,7 @@ public str opportunityTitle()
 
 Üksuse **opportunityDetails** poolt vastuseks antud kirjeldus kuvatakse võimaluse kohta rohkem teavet näitaval külgpaanil. See võtab argumendi **SelfHealingOpportunity**, mis on väli **Andmed**, mida saab kasutada võimaluse kohta üksikasjalikuma teabe pakkumiseks. Näites annab meetod vastuseks tühja pealkirjaga pakkumiskutse juhtumite ID-d. 
 
-```
+```xpp
 public str opportunityDetails(SelfHealingOpportunity _opportunity) 
 { 
     str details = ''; 
@@ -153,7 +153,7 @@ Kaks ülejäänud juurutatavat abstraktset meetodit on **provideHealingAction** 
 
 **provideHealingAction** annab vastuseks väärtuse tõene, kui parandustoiming on olemas, vastasel korral annab vastuseks väärtuse vale. Kui vastuseks on antud väärtus tõene, tuleb juurutada meetodit **performAction**, vastasel juhul ilmneb tõrge. Meetod **performAction** võtab argumendi **SelfHealingOpportunity**, kus saab andmeid kasutada tegevuseks. Näites avab tegevus üksuse **PurchRFQCaseTableListPage** käsitsi parandamiseks. 
 
-```
+```xpp
 public boolean providesHealingAction() 
 { 
     return true; 
@@ -172,7 +172,7 @@ Reegli üksikasjadest sõltuvalt võib võimaluse andmeid kasutades olla võimal
 > [!NOTE]
 > Menüükäsk peab olema tegevuse menüükäsk, et turve õigesti töötaks. Muud tüüpi menüükäsud, näiteks **Kuvamenüü käsud** ei tööta õigesti.
 
-```
+```xpp
 public MenuName securityMenuItem() 
 { 
     return menuItemActionStr(PurchRFQCaseTitleAction); 
@@ -181,7 +181,7 @@ public MenuName securityMenuItem()
 
 Pärast seda, kui reegel on kompileerimise lõpetanud, käivitage järgmine töö, et see kuvataks kasutajaliidesel.
 
-```
+```xpp
 class ScanNewRulesJob 
 {         
     public static void main(Args _args) 
@@ -197,7 +197,7 @@ Reegel kuvatakse vormil **Diagnostikareeglite kinnitamise reegel**, mis on saada
 
 Järgmine näide on koodilõik reegli raamistikuga, mis sisaldab kõiki vajalikke meetodeid ja atribuute. See aitab teid uute reeglite loomisega alustamisel. Näites sisalduvaid silte ja tegevuse menüükäskusid on kasutatud ainult demoeesmärgil.
 
-```
+```xpp
 [DiagnosticsRuleAttribute]
 public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
 {

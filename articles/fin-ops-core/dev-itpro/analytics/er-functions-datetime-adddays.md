@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd1290538c506cd0db6eb21a304ff9812c808f17
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 08b9727fb34210fecff31826cc1f2b8da022156b
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916449"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042454"
 ---
 # <a name="ADDDAYS">ER-i funktsioon ADDDAYS</a>
 
@@ -33,7 +33,7 @@ Funktsioon `ADDDAYS` arvutab *kuupäeva ja kellaaja* väärtuse, mis on määrat
 
 ## <a name="syntax"></a>Süntaks
 
-```
+```vb
 ADDDAYS (datetime, days)
 ```
 

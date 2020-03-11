@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024725"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057736"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commercei eelvaatekeskkonna valikuliste funktsioonide konfigureerimine
 
@@ -63,8 +63,8 @@ Kui soovite hinnata digitaalse varahalduse funktsioone uusi omni-kanali pilte li
 
 ### <a name="update-the-media-base-url"></a>Meedia baas-URL-i värskendamine
 
-1. Logige sisse rakendusse Dynamics 365 Retail.
-1. Vasakul asuva menüü abil avage **Moodulid \> Jaemüük \> Kanali häälestus \> Kanali profiilid**.
+1. Logige sisse rakendusse Dynamics 365 Commerce.
+1. Vasakul asuva menüü abil avage **Moodulid \> Jaemüük ja kaubandus \> Kanali häälestus \> Kanali profiilid**.
 1. Valige suvand **Redigeeri**.
 1. Suvandis **Profiili atribuudid** asendage atribuudi väärtus **Meedia serveri baas-URL** väärtusega Meedia baas-URL, mille enne lõite.
 1. Valige vasakult loendist teine kanal, mis on kanali **Vaikimisi** all.
@@ -77,7 +77,7 @@ Kui soovite hinnata digitaalse varahalduse funktsioone uusi omni-kanali pilte li
 > [!NOTE]
 > Sisestatud SMTP-serveri või meiliteenus peab olema juurdepääsetav Azure'i kordustellimusest, mida keskkonna jaoks kasutate.
 
-1. Jaemüüki sisselogimine
+1. Logige Commerce’i sisse.
 1. Vasakul asuva menüü abil avage **Moodulid \> Süsteemi haldus \> Häälestus \> Meil \> Meili parameetrid**.
 1. Sisestage vahekaardi **SMTP-** sätted väljale **Väljamineva meili server** oma SMTP-serveri või e-posti teenuse FQDN või IP-aadress.
 1. Sisestage väljale **SMTP pordi number** SMTP pordi number. (Kui te ei kasuta rakendust Secure Sockets Layer \[SSL\]-i, on vaikimisi pordi number **25**.)
@@ -92,7 +92,7 @@ Kui soovite hinnata digitaalse varahalduse funktsioone uusi omni-kanali pilte li
 
 Iga kandelise sündmuse jaoks, mille jaoks soovite meile saata, tuleb uuendada meilimalli kehtiva saatja meiliaadressiga.
 
-1. Jaemüüki sisselogimine
+1. Logige Commerce’i sisse.
 1. Vasakul asuva menüü abil avage **Moodulid \> Organisatsiooni haldus \> Häälestus \> Organisatsiooni meilimallid**.
 1. Valige **Näita loendit**.
 1. Iga loetletud malli puhul toimige järgmiselt:
@@ -115,7 +115,7 @@ Võite soovida kohandada meilimalle, et nad kasutaksid erinevaid pilte. Võite k
     - Tellimuse malli valimine
 
 1. Kohandage malle teksti või HTML-redaktori abil. Vaadake selles teemas hiljem [toetatud märkide](#supported-tokens-in-the-email-template) loendit.
-1. Jaemüüki sisselogimine
+1. Logige Commerce’i sisse.
 1. Vasakul asuva menüü abil avage **Moodulid \> Organisatsiooni haldus \> Häälestus \> Organisatsiooni meilimallid**.
 1. Kõigi mallide nägemiseks laiendage loendit vasakul.
 1. Iga malli puhul, mida soovite kohandada, tehke järgmist:

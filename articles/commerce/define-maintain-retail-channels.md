@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 63639d69af90c6aa37bbf7af7868bca71942063f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022216"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057910"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Jaemüügikanalite määratlemine ja haldamine
 
@@ -47,9 +47,9 @@ Enne kui saate kaupluse seadistada, peate tegema järgmised toimingud.
 3. Kaupluste, kaupluse väljavõtete ja väljavõttekannete numbriseeriate seadistamine.
 4. Commerce'i parameetrite konfigureerimine.
 5. Kaupluses aktsepteeritavate makseviiside seadistamine.
-6. Jaemüügi kassaregistrites krediitkaardikannete töötlemiseks saate seadistada ka makseteenused.
+6. Kassaregistrites krediitkaardikannete töötlemiseks saate seadistada ka makseteenused.
 7. Käibemaksugruppide seadistamine.
-8. Jaemüügitoodete seadistamine. Selle toimingu raames seadistate ka tootehierarhiad, tootevariandid ja tootesortimendid.
+8. Seadistage tooted. Selle toimingu raames seadistate ka tootehierarhiad, tootevariandid ja tootesortimendid.
 9. Toote hinnagruppide seadistamine.
 10. Toote hinnakujunduse seadistamine. Selle toimingu raames seadistate ka hinnakorrektsioonid, allahindlused ja allahindluse perioodid.
 11. Töötajate seadistamine.
@@ -87,5 +87,5 @@ Kui kaupluse üksikasjad on sisestatud, täitke uue kaupluse andmete kassasse sa
 Commerce kasutab organisatsiooni hierarhiaid kanalite struktureerimiseks. Organisatsiooni hierarhia kajastab ettevõttesse kuuluvate organisatsioonide vahelisi seoseid. Kaupluste seadistamisel saate need lisada organisatsiooni hierarhiasse. Seejärel on sortimentide, täiendamise ja aruandluse jaoks kasutatavad andmed kaupluste vahel ühiskasutuses.
 
 > [!NOTE]
-> Jaemüügi funktsiooni kasutamiseks peab suvandi **Mitu saajat** konfiguratsioonivõti olema lubatud. Selle konfiguratsioonivõtme leiate **Kaubanduse konfiguratsiooni** võtmetest asukohas **Süsteemihaldus**\> **Seadistus** \> **Litsentsi konfiguratsioon**. See on nõutav jaemüügi funktsiooni tõttu, mis sooritab müügitellimuse rea tasemel konfigureeritud tarneaadressi alusel erinevaid valideerimisi.
+> Commerce’i müügifunktsiooni kasutamiseks peab suvandi **Mitu saajat** konfiguratsioonivõti olema lubatud. Selle konfiguratsioonivõtme leiate **Kaubanduse konfiguratsiooni** võtmetest asukohas **Süsteemihaldus**\> **Seadistus** \> **Litsentsi konfiguratsioon**. See on nõutav erinevate valideerimiste tõttu, mis põhinevad müügitellimuse rea tasemel konfigureeritud tarneaadressil.
 

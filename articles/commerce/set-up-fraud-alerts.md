@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b4ee6b128e473d0999885f1cb1b4dbb015026c4e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022277"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057205"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Kõnekeskuse pettuseteatiste seadistamine ja kasutamine
 
@@ -54,6 +54,7 @@ Lõpetuseks kasutage välja **Pettuse kommentaar**, et määrada dokumendi tüü
 Süsteem järgib kaht tüüpi pettuse kriteeriume, et määratleda, kas tellimus tuleks pettuse tõttu ülevaatamise ootele panna.
 
 - **Staatilised pettuse andmed** kasutab kindlat väärtust, nt telefoninumber, mis on pandud blokeeritud numbrite loendisse, või e-posti aadress, mis on märgitud lipuga, sest seda on teadaolevalt varem kasutatud petturlike kannete tegemiseks. Staatiliste pettuseandmete seadistamiseks avage **Jaemüük ja kaubandus** \> **Kanali häälestus** \> **Kõnekeskuse seadistamine** \> **Pettus** \> **Staatilised pettuse andmed**. Lehel **Staatilised pettuse andmed** saate lisada pettuse kriteeriume käsitsi või andmeimpordi kaudu. Petturlikule teabele lisatakse skoorid. Kui pettuse kontrolli funktsioon on sisse lülitatud, võrreldakse iga sisestatud müügitellimust staatiliste andmetega. Kui andmed leitakse kas kliendi arveldusaadressist või tarneaadressist, mis on seotud tellimuse päisega, või kui andmed leitakse tarneaadressidest, mis on seotud selle müügitellimuse ridadega, liidetakse kõigi kordumatute vastete skoorid kokku ja võrreldakse väärtusega **Miinimumskoor**, et määrata kindlaks, kas tellimus tuleks ootele panna.
+
 - **Pettuse reeglid** koosnevad kasutaja määratletud muutujatest ja tingimustest, mis on nende muutujate jaoks määratletud. Reeglite loomiseks avage **Jaemüük ja kaubandus** \> **Kanali häälestus** \> **Kõnekeskuse seadistamine** \> **Pettus** \> **Reeglid**. Pettuse reeglid võimaldavad ettevõttel konfigureerida keerukama reeglikomplekti, mis sisaldab avaldisi **AND** või **OR** mitme tingimuse hindamiseks. Näiteks, kasutaja soovib pettuse tõttu ülevaatamiseks panna kõik tellimused, mis on seotud klientidega, kes kuuluvad kindlasse kliendigruppi ja kes tellisid kindla toote. Sel juhul määratakse tingimused kliendi ja toodete kontrollimiseks lehel **Reeglid** ja kasutatakse tingimust AND. Tellimus pannakse sellisel juhul ootele ainult siis, kui mõlemad tingimused on täidetud ja kui reeglile määratud skoori väärtus, pluss teiste reeglite skoori väärtus, millele tellimus vastab, tõstab tellimuse pettuse koguskoori üle väärtuse **Minimaalne skoor**, mis on määratletud lehel **Kõnekeskuse parameetrid**.
 
 > [!NOTE]

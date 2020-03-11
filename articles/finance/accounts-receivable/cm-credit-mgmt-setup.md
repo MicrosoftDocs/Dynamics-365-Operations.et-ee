@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02d7e2238e58098428397121de848a1947a991ad
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015192"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071656"
 ---
 # <a name="credit-management-parameters-setup"></a>Krediidihalduse parameetrite seadistus
 
@@ -38,8 +38,8 @@ On neli kiirkaarti, kus saate muuta parameetreid, mis kontrollivad krediidihaldu
 - Seadistage suvand **Müügitellimuste väärtuse redigeerimise lubamine pärast tellimuse ooteloleku vabastamist** väärtusele **Jah**, et nõuda sisestamise reeglite uuesti kontrollimist, kui müügitellimuse väärtus (laiendatud hind) on pärast müügitellimuse ootelolekust vabastamist muutunud. .
 - Valige väljal **Tühistatud tellimuste põhjused** vabastamise põhjus, mida kasutatakse vaikimisi siis, kui tühistatakse müügitellimus, mis oli krediidihaldusega seotud ooteloendis.
 - Seadistage suvand **Kontrolli kliendi krediidigruppide krediidilimiiti** väärtuseks **Jah**, et kontrollida kliendi kreeditigrupi krediidilimiiti, kui müügitellimuse klient kuulub kliendi krediidigruppi. Grupi krediidilimiiti kontrollitakse ja kui see on piisav, kontrollitakse kliendi krediidilimiiti.
-- Määrake suvand **Kontrolli krediidilimiiti, kui maksetingimused on suurenenud** väärtusele **Jah**, et kontrollida maksetingimuste reitingut, et teha kindlaks, kas müügitellimuse maksetingimused erinevad müügitellimuse maksetingimustest. Kui uutel maksetingimustel on kõrgem reiting kui algsetel maksetingimustel, pannakse tellimus krediidihaldusega seotult ootele.
-- Määrake suvand **Kontrolli krediidilimiiti, kui tasakaalustuse allahindlus on suurenenud** väärtusele **Jah**, et kontrollida tasakaalustuse allahindluse reitingut, et teha kindlaks, kas müügitellimuse skonto erineb müügitellimuse skontost. Kui uuel skontol on kõrgem reiting kui algsel skontol, pannakse tellimus krediidihaldusega seotult ootele.
+- Määrake suvand **Kontrolli krediidilimiiti, kui maksetingimused on suurenenud** väärtusele **Jah**, et kontrollida maksetingimuste reitingut, et teha kindlaks, kas müügitellimuse maksetingimused erinevad kliendi vaikimisi maksetingimustest. Kui uutel maksetingimustel on kõrgem reiting kui algsetel maksetingimustel, pannakse tellimus krediidihaldusega seotult ootele.
+- Määrake suvand **Kontrolli krediidilimiiti, kui tasakaalustuse allahindlus on suurenenud** väärtusele **Jah**, et kontrollida tasakaalustuse allahindluse reitingut, et teha kindlaks, kas müügitellimuse skonto erineb kliendi vaikimisi skontost. Kui uuel skontol on kõrgem reiting kui algsel skontol, pannakse tellimus krediidihaldusega seotult ootele.
 - Valige väljale **Muudetud tellimuste vabastamise põhjus** vabastamise põhjus, mida kasutatakse vaikimisis siis, kui muudetud tellimused vabastatakse automaatselt krediidihaldusega seotud ootelolekust.
 - Seadistage suvand **Ignoreeri krediidiliimid aegunud blokeerimisreeglit, kui aegumiskuupäev on tühi** väärtusele **Jah**, et kontrollida reegli **Krediidilimiit aegunud** käitumist. Kui aegumiskuupäev on tühi, seadistage suvand tellimuse blokeerimiseks väärtusele **Ei**.
 - Laohalduse puhul saab koormaid luua müügitellimuse sisestamise ajal. Seadistage suvand **Eemalda blokeeritud koorma read** väärtusele **Ei**, et jääta müügitellimuse read koormale, kui müügitellimus on krediidiga seotult ootel. Koormat ei saa töödelda, kui müügitellimus on ootel. Seadistage suvand väärtusele **Jah**, et eemaldada müügitellimuse read koormalt, kui müügitellimus on krediidiga seotult ootel. Koormat saab seejärel töödelda.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771537"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070756"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Veerudefinitsioonid finantsaruannetes
 
@@ -120,11 +120,11 @@ Järgmises tabelis kirjeldatakse veeru piirangu koode.
 | ADJ                     | Veeru summade piiramine perioodi korrigeerimissummadega nende summade olemasolul. |
 | XAD                     | Veeru summade piiramine nii, et perioodi korrigeerimissummad välistatakse. |
 | Plaanitud üleviimine                      | Veeru summade piiramine nii, et kaasatakse ainult sisestatud kanded, kui need kanded on olemas. |
-| UPT                     | Veeru summade piiramine nii, et kaasatakse ainult sisestamata kanded, kui need kanded on olemas.<p><strong>Märkus.</strong> Kõik andmepakkujad ei toeta sisestamata kandeid. Vaadake lisateavet oma Microsoft Dynamicsi ERP-süsteemi <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>andmeintegratsiooni juhendist</a>.</p> |
+| UPT                     | Veeru summade piiramine nii, et kaasatakse ainult sisestamata kanded, kui need kanded on olemas.<p><strong>Märkus.</strong> Kõik andmepakkujad ei toeta sisestamata kandeid. </p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Veeru piiramine aruandlusüksusega
 
-1. Avage aruandekoosturis muudetav veerudefinitsioon.
+1. Avage aruande kujundajas muudetav veeru definitsioon.
 2. Topeltklõpsake piiratava veeru puhul lahtrit **Aruandlusüksus**.
 3. Valige aruandluspuu dialoogiboksi **Aruandlusüksuse valimine** loendist **Aruandluspuu**.
 4. Laiendage või ahendage üksuste loendit, valige aruandlusüksus ja seejärel klõpsake nuppu **OK**.

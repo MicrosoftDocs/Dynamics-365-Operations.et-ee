@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9f043d66fbd417633de71b5fa12b13b3f04e3452
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022221"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057806"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Kõnekeskuse tarneviiside ja -tasude konfigureerimine
 
@@ -66,7 +66,7 @@ Tasusid saab konfigureerida nii, et neid rakendatakse kindla tarneviisi, tarnevi
 
 Jaotises **Read** saate vajaduse järgi määratleda ühe või mitu tasu valuuta järgi. Tasud peavad olema seotud tasude koodiga, mis määratleb tasule finantssisestusreeglid. Välja **Kategooria** kasutatakse tasude arvutamisviisi määratlemiseks. Näiteks kasutage kategooriat **Fikseeritud**, kui klientidelt tuleks tellimuse kindla tarneviisiga tarnimise eest küsida alati ühe suurusega tasu 9,95 dollarit. Kasutage kategooriat **Protsent**, kui ettevõte eelistab tarnetasude katmiseks klientidelt tellimuse koguväärtuselt teatud protsendimääraga tasu küsida. Tegelik kliendilt küsitav tasu määratletakse väljal **Tasude väärtus**.
 
-Jaemüügiettevõtted kasutavad sageli mitmetasandilisi tasusid. Sellisel juhul sõltub summa, mille klient tarne eest maksab, tellimuse väärtusest. Mitmetasandiliste tasude konfigureerimiseks sisestage väärtused väljadele **Alates summast** ja **Summani** ning määratlege tasu ise väljal **Tasude väärtus**. Näiteks tellimuste puhul, mille väärtus on vähem kui 50 dollarit, küsib jaemüüja maatranspordi eest tasu 5,95 dollarit. Tellimuste puhul, mille väärtus on võrdne 50 dollariga või sellest suurem, kuid väiksem kui 100 dollarit, küsib jaemüüja tasu 7,95 dollarit. Tellimuste puhul, mille väärtus on võrdne 100 dollariga või sellest suurem, pakub jaemüüja tasuta tarnet. Järgmisel pildil on näidatud nende tasude konfiguratsioonid.
+Ettevõtted konfigureerivad sageli mitmetasandilisi tasusid. Sellisel juhul sõltub summa, mille klient tarne eest maksab, tellimuse väärtusest. Mitmetasandiliste tasude konfigureerimiseks sisestage väärtused väljadele **Alates summast** ja **Summani** ning määratlege tasu ise väljal **Tasude väärtus**. Näiteks tellimuste puhul, mille väärtus on vähem kui 50 dollarit, küsib jaemüüja maatranspordi eest tasu 5,95 dollarit. Tellimuste puhul, mille väärtus on võrdne 50 dollariga või sellest suurem, kuid väiksem kui 100 dollarit, küsib jaemüüja tasu 7,95 dollarit. Tellimuste puhul, mille väärtus on võrdne 100 dollariga või sellest suurem, pakub jaemüüja tasuta tarnet. Järgmisel pildil on näidatud nende tasude konfiguratsioonid.
 
 ![Näide fikseeritud mitmetasandilistest tasudest](media/fixedtieredcharges.png)
 

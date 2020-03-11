@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658640"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059424"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobiilsed arvete heakskiidud
 
@@ -54,8 +54,8 @@ Iga organisatsioon korraldab ja määratleb hankija arvete äriprotsessi erineva
     -   Kui palju arvestuse jaotusi (laiendatud hind, käibemaks, tasud, jagamised jne) arve real on? Rakendage jällegi 80-20 reeglit.
     -   Kas arvete päises on ka arvestuse jaotused? Kui nii, siis kas need arvestuse jaotused peaksid seadmel kättesaadavad olema?
 
-> [!NOTE]
-> Selles teemas ei selgitata, kuidas arvestuse jaotusi redigeerida, kuna seda funktsiooni ei toetata praegu mobiilistsenaariumide puhul.
+    > [!NOTE]
+    > Selles teemas ei selgitata, kuidas arvestuse jaotusi redigeerida, kuna seda funktsiooni ei toetata praegu mobiilistsenaariumide puhul.
 
 -   Kas kasutajad soovivad seadmel arve manuseid näha?
 
@@ -158,9 +158,9 @@ Esimene mobiilne leht, mis vajab kujundamist, on kasutajale ülevaatamiseks mä�
     - Arve number
     - Arve kuupäev
 
-  Pärast väljade lisamist peab mobiilileht sarnanema järgmisele illustratsioonile. 
+    Pärast väljade lisamist peab mobiilileht sarnanema järgmisele illustratsioonile. 
     
-   [![Leht pärast väljade lisamist](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Leht pärast väljade lisamist](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  Nüüd tuleb lisada ka järgmised väljad, et hiljem saaks töövootoimingud lubada.
     - Kuva lõpetamise ülesanne
@@ -247,9 +247,10 @@ Töövootoimingute lisamiseks kasutage lehte **VendMobileInvoiceHeaderDetails**.
     - See peidab töövooga seotud lisaveerud, mille varem mobiili loendilehel lisasime. Lisasime need veerud selleks, et rakendusel oleks see teave kontekstis olemas ja see saaks teha järgmise toimingu.
     - Aktiivse töövooetapi põhjal rakendab see loogikat ainult nende tegevuste näitamiseks.
 
-> [!NOTE]
-> Lehtede ja muude juhtelementide nimed JS-koodis peavad olema samad, mis tööruumis.
+    > [!NOTE]
+    > Lehtede ja muude juhtelementide nimed JS-koodis peavad olema samad, mis tööruumis.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -308,6 +309,7 @@ Töövootoimingute lisamiseks kasutage lehte **VendMobileInvoiceHeaderDetails**.
                  },
            };
         }
+    ```
 
 2.  Laadige koodifail tööruumi üles, valides vahekaardi **Loogika**
 3.  Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
@@ -341,7 +343,7 @@ Selle stsenaariumi nõudmised kinnitavad, et olemas on ainult rea tasemel jaotus
 
 1.  Asendage menüüelemendi nimi URL-is nii, nagu enne tegite. Kuvatav leht peab sarnanema järgmisele illustratsioonile.
 
-[![Kõigi jaotuste leht](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Kõigi jaotuste leht](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Avage mobiilne kujundaja nupult **Sätted** (hammasratas).
 
@@ -367,16 +369,18 @@ Selle stsenaariumi nõudmised kinnitavad, et olemas on ainult rea tasemel jaotus
 
 10. Töö salvestamiseks klõpsake nuppu **Avalda tööruum**
 
-> [!NOTE] 
-> Mobiilileht **Arvestuse kuvamine** pole praegu seotud ühegi mobiililehega, mille seni kujundanud oleme. Kuna kasutaja peab saama liikuda lehele **Arvestuse kuvamine** mobiilse seadme lehelt **Arve üksikasjad**, peame pakkuma võimalust liikuda lehelt **Arve üksikasjad** lehele **Arvestuse kuvamine**. Tekitame selle liikumisvõimaluse, kasutades JavaScripti kaudu lisaloogikat.
+#### <a name="adding-navigation-to-view-accounting-page"></a>Lehele „Raamatupidamise kuvamine” navigeerimise lisamine
+
+Mobiilileht **Arvestuse kuvamine** pole praegu seotud ühegi mobiililehega, mille seni kujundanud oleme. Kuna kasutaja peab saama liikuda lehele **Arvestuse kuvamine** mobiilse seadme lehelt **Arve üksikasjad**, peame pakkuma võimalust liikuda lehelt **Arve üksikasjad** lehele **Arvestuse kuvamine**. Tekitame selle liikumisvõimaluse, kasutades JavaScripti kaudu lisaloogikat.
 
 1.  Avage varem loodud JS-fail ja lisage read, mis tõstetakse esile järgmises koodis. See kood teeb kahte asja.
     1.  See aitab garanteerida, et kasutajad ei saa liikuda otse tööruumist lehele **Arvestuse kuvamine**.
     2.  See tekitab navigeerimisnupu lehelt **Arve üksikasjad** lehele **Arvestuse kuvamine**.
 
-> [!NOTE] 
-> Lehtede ja muude juhtelementide nimed JS-koodis peavad olema samad, mis tööruumis.
+    > [!NOTE] 
+    > Lehtede ja muude juhtelementide nimed JS-koodis peavad olema samad, mis tööruumis.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -439,7 +443,8 @@ Selle stsenaariumi nõudmised kinnitavad, et olemas on ainult rea tasemel jaotus
                  },
            };
         }
-
+    ```
+    
 2.  Eelmise koodi ülekirjutamiseks laadige koodifail tööruumi üles, valides vahekaardi **Loogika**
 3.  Redigeerimisrežiimist väljumiseks klõpsake nuppu **Valmis**.
 4.  Klõpsake nuppu **Tagasi** ja seejärel nuppu **Valmis** tööruumist väljumiseks

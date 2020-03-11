@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea72d824d3a98d7685a965e981d057991f012a0e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: dd692720872314d533274f392f84e5ac7d36c7c1
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916955"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041373"
 ---
 # <a name="ISOCREDREF">ER-i funktsioon ISOCREDREF</a>
 
@@ -33,7 +33,7 @@ Funktsioon `ISOCREDREF` tagastab *stringi* väärtuse, mis tähistab Rahvusvahel
 
 ## <a name="syntax"></a>Süntaks
 
-```
+```vb
 ISOCREDREF (invoice number digits)
 ```
 

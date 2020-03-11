@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de0981d3200c2b1d62cab7600d2382bd11dd4b20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002239"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057829"
 ---
 # <a name="cloud-powered-search-overview"></a>Pilvepõhise otsingu ülevaade
 
@@ -33,7 +33,7 @@ See teema annab rakenduse Microsoft Dynamics 365 Commerce pilvepõhise otsingu �
 
 ## <a name="overview"></a>Ülevaade
 
-Toote tuvastatavus aitab tagada, et kliendid saavad kategooriaid sirvides, otsides ja filtreerides tooteid kiiresti ja hõlpsalt leida. Jaemüüjad peavad toodete avastamist esmaseks vahendiks klientidega suhtlemisel kõigis jaemüügikanalites.
+Toote tuvastatavus aitab tagada, et kliendid saavad kategooriaid sirvides, otsides ja filtreerides tooteid kiiresti ja hõlpsalt leida. Jaemüüjad peavad toodete avastamist esmaseks vahendiks klientidega suhtlemisel kõigis kanalites.
 
 Kliendid on harjunud veebiotsingu mootorite peaaegu hetkelise reaktsiooniajaga, keeruliste e-kaubanduse veebisaitidega, sotsiaalsete rakendustega, otsingusõna tippimisel automaatselt ilmuvate soovitustega, mitmetahulise navigeerimisega ja esiletõstmisega. Kui kliendid ei leia ühest e-kaubanduse poest otsitavat toodet piisavalt kiiresti, siis nad ei kõhkle, et minna erinevasse e-kaupluse poodi.
 

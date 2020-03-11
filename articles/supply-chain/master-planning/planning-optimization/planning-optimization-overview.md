@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: aae9ea56fc2174df56274776993c68b11c0521d0
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 9ccf00b6fcd1e3a6002086360b1a4c5c464ba054
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773940"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076151"
 ---
+# <a name="planning-optimization-overview"></a>Planeerimise optimeerimise ülevaade
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
-
-# <a name="planning-optimization-overview"></a>Planeerimise optimeerimise ülevaade
 
 Rakenduse Microsoft Dynamics 365 Supply Chain Management planeerimise optimeerimise lisandmoodul võimaldab koondplaneerimise arvutuste tegemist väljaspool Dynamics 365 Supply Chain Managementi ja seotud SQL-andmebaasi. Planeerimise optimeerimise funktsiooniga seotud eelised hõlmavad paremat jõudlust ja minimaalset mõju SQL-andmebaasile koondplaneerimise käivitamiste ajal. Kiireid planeerimise käivitamisi saab teha isegi kontoris viibimise ajal, seega saavad planeerijad nõudlusele või parameetri muutustele kohe reageerida.
 
