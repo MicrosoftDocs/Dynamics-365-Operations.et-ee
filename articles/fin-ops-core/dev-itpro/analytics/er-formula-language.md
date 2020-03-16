@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b1c6a3f3fd5b55012d89a6c9f0bf2ed5dddd13c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916656"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042707"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektroonilise aruandluse valemi keel
 
@@ -154,7 +154,7 @@ ER laseb laiendada nende funktsioonide loendit, mida kasutatakse ER-i avaldistes
 
 Saate luua liitavaldisi, mis kasutavad erinevate kategooriate funktsioone, kui andmetüübid ühtivad. Kui kasutate funktsioone koos, vastendage väljundi andmetüüp ühest funktsioonist teise funktsiooni nõutud sisendi andmetüübi jaoks. Näiteks võimaliku „Loend on tühi” tõrke vältimiseks ER-i vormingu elemendile välja sidumisel, kombineerige funktsioone kategooriast [Loend](er-functions-category-list.md) koos kategooria [Loogiline](er-functions-category-logical.md) funktsioonidega, nagu järgmises näites on toodud. Siin kasutab valem funktsiooni [IF](er-functions-logical-if.md), et katsetada, kas loend **IntrastatTotals** on tühi, enne kui see tagastab sellest loendist nõutava kogumi väärtuse. Kui loend **IntrastatTotals** on tühi, tagastab valem väärtuse **0** (null).
 
-```
+```vb
 IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 
@@ -162,7 +162,7 @@ IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded'
 
 Sageli saate sama teabe teisenduse tulemuse mitmel viisil, kasutades erinevate kategooriate funktsioone või sama kategooria erinevaid funktsioone. Näiteks eelneva avaldise saab konfigureerida ka funktsiooniga [COUNT](er-functions-list-count.md) kategooriast [Loend](er-functions-category-list.md).
 
-```
+```vb
 IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 

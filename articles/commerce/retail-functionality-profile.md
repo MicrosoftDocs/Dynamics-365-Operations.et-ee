@@ -1,6 +1,6 @@
 ---
 title: Jaemüügi funktsiooniprofiili loomine
-description: See teema kirjeldab, kuidas luua rakenduses Microsoft Dynamics 365 Commerce jaemüügi funktsiooniprofiil.
+description: See teema kirjeldab, kuidas luua rakenduses Microsoft Dynamics 365 Commerce funktsiooniprofiil.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9fb0fd63b11e55f2b153fc9c135f148a6e343057
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002839"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057344"
 ---
 # <a name="create-a-retail-functionality-profile"></a>Jaemüügi funktsiooniprofiili loomine
 
 
 [!include [banner](includes/banner.md)]
 
-See teema kirjeldab, kuidas luua rakenduses Microsoft Dynamics 365 Commerce jaemüügi funktsiooniprofiil.
+See teema kirjeldab, kuidas luua rakenduses Microsoft Dynamics 365 Commerce funktsiooniprofiil.
 
 ## <a name="overview"></a>Ülevaade
 
-Jaemüügi funktsiooniprofiil võimaldab erinevaid võrgukanalites kasutatavaid seadistusi. Iga jaemüügikanal peab määrama jaemüügi funktsiooniprofiili.
+Kaubanduse funktsiooniprofiil võimaldab erinevaid võrgukanalites kasutatavaid seadistusi. Iga kanal peab määrama funktsiooniprofiili.
 
-## <a name="create-a-retail-functionality-profile"></a>Jaemüügi funktsiooniprofiili loomine
+## <a name="create-a-functionality-profile"></a>Funktsiooniprofiili loomine
 
-Jaemüügi funktsiooniprofiili loomiseks tehke järgmist.
+Funktsiooniprofiili loomiseks tehke järgmist.
 
 1. Avage navigeerimispaanil **Moodulid \> Kanali seadistus \> Kassa profiilid \> Funktsiooniprofiilid**.
 1. Valige toimingupaanil nupp **Uus**.
@@ -51,9 +51,9 @@ Jaemüügi funktsiooniprofiili loomiseks tehke järgmist.
 1. Muutke jaotises **Teabekoodid** vastavalt vajadusele seadistusi.
 1. Muutke jaotises **Kviitungi nummerdamine** vastavalt vajadusele seadistusi. 
   
-Järgmisel pildil on näidatud jaemüügi funktsiooniprofiili näide.
+Järgmisel pildil on näidatud funktsiooniprofiili näide.
   
-![Jaemüügi funktsiooniprofiili näide](media/retail-functionality-profile.png)
+![Funktsiooniprofiili näide](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>Lisaressursid
 

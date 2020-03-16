@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026059"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042846"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Avalduse andmetega dokumentide loomine
 
@@ -40,10 +40,14 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 ## <a name="set-up-foreign-trade-parameters"></a>Väliskaubanduse parameetrite häälestamine
 1. Minge jaotisse Maks > Seadistus > Väliskaubandus > Väliskaubanduse parameetrid.
 2. Klõpsake vahekaarti Numbriseeriad.
-    * Intrastat-aruandlusprotsessi üksikasjade arhiivimiseks tuleb tuvastada iga loodud arhiivi kirjed. Selleks peab olema konfigureeritud spetsiaalne numbriseeria.  
+
+    Intrastat-aruandlusprotsessi üksikasjade arhiivimiseks tuleb tuvastada iga loodud arhiivi kirjed. Selleks peab olema konfigureeritud spetsiaalne numbriseeria.  
+
 3. Valige viide "Intrastat archive ID”.
 4. Tippige väärtus väljale Numbriseeria kood.
-    * Sisestage või valige väärtus Fore_2’ väljal Numbriseeria kood.  
+
+    Sisestage või valige väärtus Fore_2’ väljal Numbriseeria kood.  
+
 5. Numbriseeria koodi ResolveChanges.
 6. Klõpsake nuppu Salvesta.
 7. Sulgege leht.
@@ -52,20 +56,25 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 1. Avage Organisatsiooni haldamine > Elektrooniline aruandlus > Konfiguratsioonid.
 2. Laiendage puul valikut „Intrastat (model)".
 3. Tehke puul valik „Intrastat (model)\Intrastat (format)".
-4. Klõpsake nuppu Käivita.
+4. Klõpsake käsku Käita.
 5. Sisestage valiku Sisesta fail nimeväljale „intrastat2.xml".
-    * intrastat2.xml  
 6. Klõpsake nuppu OK.
 
 ## <a name="review-er-format-executions-results"></a>Vaadake üle ER-vormingu käivitamise tulemused
 Vaadake genereeritud XML-fail üle.  
 1. Sulgege leht.
 2. Avage Maks > Deklaratsioonid > Väliskaubandus > Intrastat.
-    * Avage vorm, mis sisaldab Intrastati kandeid, mis on kaasatud genereeritud elektroonilisse dokumenti.  
+
+    Avage vorm, mis sisaldab Intrastati kandeid, mis on kaasatud genereeritud elektroonilisse dokumenti.  
+
 3. Klõpsake valikut „Intrastat archive".
-    * Kuna käivitatud elektroonilise aruandluse vorming sisaldab nüüd avalduse andmete värskenduse sätet, on lõpule viidud Intrastat-aruande üksikasjad arhiivitud. Sellel vormil saate vaadata loodud arhiivi päisekirjet.  
+
+    Kuna käivitatud elektroonilise aruandluse vorming sisaldab nüüd avalduse andmete värskenduse sätet, on lõpule viidud Intrastat-aruande üksikasjad arhiivitud. Sellel vormil saate vaadata loodud arhiivi päisekirjet.  
+
 4. Klõpsake käsku Details (Üksikasjad).
-    * Sellel vormil saate vaadata loodud arhiivi üksikasju.  
+
+    Sellel vormil saate vaadata loodud arhiivi üksikasju.  
+
 5. Sulgege leht.
 6. Sulgege leht.
 7. Sulgege leht.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 08fb278a3de0c06715dcd9c252ee6c21b2172cff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
+ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008791"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "3087296"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Puhkuse ja puudumise plaani loomine
 
@@ -61,8 +61,8 @@ Saate luua ka ametikohal põhinevaid puhkuse soodustusi, nt ainult juhtivtööta
 
       | Puhkuseperioodi alus | Kirjeldus |
       | --- | --- |
-      | Plaanitav alguskuupäev | Lisandumisperioodi alguskuupäev on kuupäev, mil plaan on saadaval. |
-      | Kindel töövõtja kuupäev | Lisandumisperioodi alguskuupäev sõltub töövõtja sündmusest.</br><ul><li>Kohandatud (peate määrama iga registreerimise jaoks lisandumiskuupäeva aluse)</li><li>Tähtpäeva kuupäev</li><li>Värbamise algne kuupäev</li><li>Staaž kuupäeval</li><li>Töötaja töösuhte korrigeeritud alguskuupäev</li><li>Töötaja töösuhte alguskuupäev</li></ul> |
+      | **Plaanitav alguskuupäev** | Lisandumisperioodi alguskuupäev on kuupäev, mil plaan on saadaval. |
+      | **Kindel töövõtja kuupäev** | Lisandumisperioodi alguskuupäev sõltub töövõtja sündmusest.</br><ul><li>Kohandatud (peate määrama iga registreerimise jaoks lisandumiskuupäeva aluse)</li><li>Tähtpäeva kuupäev</li><li>Värbamise algne kuupäev</li><li>Staaž kuupäeval</li><li>Töötaja töösuhte korrigeeritud alguskuupäev</li><li>Töötaja töösuhte alguskuupäev</li></ul> |
 
    3. Valige ripploendist suvand **Lisandumise andmise kuupäev**.
 

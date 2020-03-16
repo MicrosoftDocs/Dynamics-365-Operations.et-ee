@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 026d1d743b5150f152ef70aa642dcf6841a4e398
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025800"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070816"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Tööriista Regression suite automation tool kasutamise õppetükk
 
@@ -217,15 +217,15 @@ Järgmisel joonisel on näha selle stsenaariumi äriprotsessid RSAT-s.
 
 ## <a name="advanced-scripting"></a>Täpsem skriptimine
 
-### <a name="command-line"></a>Käsurida
+### <a name="cli"></a>CLI
 
-RSAT-d saab käivitada aknast **Käsuviip**.
+RSAT saab käivitada aknast **Käsuviip** või **PowerShell**.
 
 > [!NOTE]
 > Veenduge, et keskkonnamuutuja **TestRoot** oleks seatud RSAT installiteele. (Avage Microsoft Windowsis suvand **Juhtpaneel**, valige **Süsteem ja turvalisus \> Süsteem \> Täpsemad süsteemisätted** ja seejärel valige suvand **Keskkonnamuutujad**.)
 
-1. Avage administraatorina aken **Käsuviip**.
-2. Käivitage tööriist installikaustast.
+1. Avage administraatorina aken **Käsuviip** või **PowerShell**.
+2. Navigeerige RSAT-i installikausta.
 
     ```Console
     cd "c:\Program Files (x86)\Regression Suite Automation Tool\"
@@ -242,22 +242,273 @@ RSAT-d saab käivitada aknast **Käsuviip**.
         Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe /settings "C:\Path to\file.settings" command
 
     Available commands:
-        list
-        listtestsuite suite_name
-        download test_case_id output_dir
-        generate test_case_id output_dir
-        generatederived parent_test_case_id test_plan_id test_suite_id
-        generatetestonly test_case_id output_dir
-        edit excel_file
-        playback excel_file
-        playbackmany excel_file1 [excel_file2 [.. excel_fileN]]
-        playbackbyid test_case_id1 [test_case_id2 [.. test_case_idN]]
-        playbacksuite suite_name
-        clear
-        help
+        ?
         about
+        cls
+        download
+        edit
+        generate
+        generatederived
+        generatetestonly
+        generatetestsuite
+        help
+        list
+        listtestplans
+        listtestsuite
+        listtestsuitenames
+        playback
+        playbackbyid
+        playbackmany
+        playbacksuite
         quit
+        upload
+        uploadrecording
+        usage
     ```
+
+#### <a name=""></a>? 
+Kuvab kõigi saadaolevate käskude ja nende parameetrite spikri.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
+
+##### <a name="optional-parameters"></a>Valikulised parameetrid
+
+**``command``**
+
+
+Kus ``[command]`` on üks allpool määratud käskudest.
+
+
+#### <a name="about"></a>about
+Kuvab praeguse versiooni.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
+
+#### <a name="cls"></a>cls
+Tühjendab ekraani.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``cls``**
+
+
+#### <a name="download"></a>laadi alla
+Laadib alla määratud testjuhtumi manused väljundkausta. Saate kasutada käsku ``list``, et hankida kõik saadaolevad testjuhtumid. Kasutage esimese veeru mis tahes väärtust parameetrina **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Nõutud parameetrid
+**``test_case_id``** Tähistab testjuhtumi ID-d.  
+**``output_dir``** Tähistab väljundkausta. Kaust peab olemas olema.
+
+##### <a name="examples"></a>Näited
+
+``download 123 c:\temp\rsat``   
+``download 765 c:\rsat\last``
+
+
+#### <a name="edit"></a>redigeeri
+Võimaldab teil avada parameetrite faili Exceli programmis ja seda redigeerida.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``edit``**``[excel_file]``
+
+##### <a name="required-parameters"></a>Nõutud parameetrid
+**``excel_file``** Peab sisaldama olemasoleva Exceli faili täielikku teed.
+
+##### <a name="examples"></a>Näited
+``edit c:\RSAT\TestCase_123_Base.xlsx``  
+``edit e:\temp\TestCase_456_Base.xlsx``
+
+
+#### <a name="generate"></a>generate
+Loob testkäivitamise ja parameetrifailid väljundkataloogi määratud testjuhtumi jaoks.
+Saate kasutada käsku ``list``, et hankida kõik saadaolevad testjuhtumid. Kasutage esimese veeru mis tahes väärtust parameetrina **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Nõutud parameetrid
+**``test_case_id``** Tähistab testjuhtumi ID-d.  
+**``output_dir``** Tähistab väljundkausta. Kaust peab olemas olema.
+
+##### <a name="examples"></a>Näited
+``generate 123 c:\temp\rsat``  
+``generate 765 c:\rsat\last``
+
+
+#### <a name="generatederived"></a>generatederived
+Loob uue testjuhtumi, mis tulenevad esitatud testjuhtumist. Saate kasutada käsku ``list``, et hankida kõik saadaolevad testjuhtumid. Kasutage esimese veeru mis tahes väärtust parameetrina **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="required-parameters"></a>Nõutud parameetrid
+**``parent_test_case_id``** Tähistab ülemtestjuhtumi ID-d.  
+**``test_plan_id``** Tähistab katseplaani ID-d.  
+**``test_suite_id``** Tähistab testkomplekti ID-d.
+
+##### <a name="examples"></a>Näited
+``generatederived 123 8901 678``
+
+
+#### <a name="generatetestonly"></a>generatetestonly
+Loob väljundkataloogi määratud testjuhtumi jaoks ainult testkäivitamise faili. Saate kasutada käsku ``list``, et hankida kõik saadaolevad testjuhtumid. Kasutage esimese veeru mis tahes väärtust parameetrina **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Nõutud parameetrid
+**``test_case_id``** Tähistab testjuhtumi ID-d.  
+**``output_dir``** Tähistab väljundkausta. Kaust peab olemas olema.
+
+##### <a name="examples"></a>Näited
+``generatetestonly 123 c:\temp\rsat``  
+``generatetestonly 765 c:\rsat\last``
+
+
+#### <a name="generatetestsuite"></a>generatetestsuite
+Loob kõik väljundkataloogi määratud komplekti testjuhtumid.
+Saate kasutada käsku ``listtestsuitenames``, et hankida kõik saadaolevad testkomplektid. Kasutage veeru mis tahes väärtust parameetrina **test_suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+
+##### <a name="required-parameters"></a>Nõutud parameetrid
+**``test_suite_name``** Tähistab testkomplekti nime.  
+**``output_dir``** Tähistab väljundkausta. Kaust peab olemas olema.
+
+##### <a name="examples"></a>Näited
+``generatetestsuite Tests c:\temp\rsat``   
+``generatetestsuite Purchase c:\rsat\last``
+
+
+#### <a name="help"></a>spikker
+Identne [?](####?) käsuga
+
+
+#### <a name="list"></a>loend
+Loetleb kõik saadaolevad testjuhtumid.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
+
+
+#### <a name="listtestplans"></a>listtestplans
+Loetleb kõik saadaolevad katseplaanid.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestplans``**
+
+
+#### <a name="listtestsuite"></a>listtestsuite
+Loetleb määratud testkomplekti testjuhtumid. Saate kasutada käsku ``listtestsuitenames``, et hankida kõik saadaolevad testkomplektid. Kasutage esimese veeru mis tahes väärtust parameetrina **suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>Nõutud parameetrid
+**``suite_name``** Soovitud komplekti nimi.
+
+##### <a name="examples"></a>Näited
+``listtestsuite "sample suite name"``  
+``listtestsuite NameOfTheSuite``
+
+
+#### <a name="listtestsuitenames"></a>listtestsuitenames
+Loetleb kõik saadaolevad testkomplektid.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
+
+
+#### <a name="playback"></a>playback
+Taasesitab Exceli faili abil testjuhtumi.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+
+##### <a name="required-parameters"></a>Nõutud parameetrid
+**``excel_file``** Exceli faili täielik tee. Fail peab olemas olema. 
+
+##### <a name="examples"></a>Näited
+``
+playback c:\RSAT\TestCaseParameters\sample1.xlsx
+playback e:\temp\test.xlsx
+``
+
+
+#### <a name="playbackbyid"></a>playbackbyid
+Taasesitab korraga mitu testjuhtumit.
+Saate kasutada käsku ``list``, et hankida kõik saadaolevad testjuhtumid. Kasutage esimese veeru mis tahes väärtust parameetrina **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="required-parameters"></a>Nõutud parameetrid
+**``test_case_id1``** Olemasoleva testjuhtumi ID.  
+**``test_case_id2``** Olemasoleva testjuhtumi ID.  
+**``test_case_idN``** Olemasoleva testjuhtumi ID.  
+
+##### <a name="examples"></a>Näited
+``playbackbyid 878``  
+``playbackbyid 2345 667 135``
+
+
+#### <a name="playbackmany"></a>playbackmany
+Taasesitab korraga mitu testjuhtumit, kasutades Exceli faile.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+
+##### <a name="required-parameters"></a>Nõutud parameetrid
+**``excel_file1``** Exceli faili täielik tee. Fail peab olemas olema.  
+**``excel_file2``** Exceli faili täielik tee. Fail peab olemas olema.  
+**``excel_fileN``** Exceli faili täielik tee. Fail peab olemas olema.  
+
+##### <a name="examples"></a>Näited
+``playbackmany c:\RSAT\TestCaseParameters\param1.xlsx``  
+``playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx``
+
+
+#### <a name="playbacksuite"></a>playbacksuite
+Taasesitab konkreetse testkomplekti kõik testjuhtumid. Saate kasutada käsku ``listtestsuitenames``, et hankida kõik saadaolevad testkomplektid. Kasutage esimese veeru mis tahes väärtust parameetrina **suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>Nõutud parameetrid
+**``suite_name``** Soovitud komplekti nimi.
+
+##### <a name="examples"></a>Näited
+``playbacksuite suiteName``  
+``playbacksuite sample_suite``
+
+
+#### <a name="quit"></a>quit
+Sulgeb rakenduse.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
+
+
+#### <a name="upload"></a>upload
+Laadib üles kõik määratud testkomplekti või testjuhtumitesse kuuluvad failid.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+
+#### <a name="required-parameters"></a>Nõutud parameetrid
+**``suite_name``** Kõik määratud testkomplekti kuuluvad failid laaditakse üles.
+**``testcase_id``** Kõik määratud testjuhtumi(te)sse kuuluvad failid laaditakse üles.
+
+##### <a name="examples"></a>Näited
+``upload sample_suite``  
+``upload 123``  
+``upload 123 456``
+
+
+#### <a name="uploadrecording"></a>uploadrecording
+Laadib üles ainult määratud testjuhtumitesse kuuluva salvestamisfaili.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+
+##### <a name="required-parameters"></a>Nõutud parameetrid
+**``testcase_id``** Määratud testjuhtumitesse kuuluv salvestamisfail laaditakse üles.
+
+##### <a name="examples"></a>Näited
+``uploadrecording 123``  
+``uploadrecording 123 456``
+
+
+#### <a name="usage"></a>usage
+Näitab selle rakenduse kahte käivitamisviisi: üks kasutab vaikimisi seadistusfaili, teine esitab seadistusfaili.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShelli näited
 

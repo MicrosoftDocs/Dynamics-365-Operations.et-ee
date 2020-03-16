@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: fe785e3bfd503193a588958ae5df0d1c0fdb9e52
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002308"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057852"
 ---
 # <a name="warehouse-set-up"></a>Lao seadistamine
 
@@ -59,7 +59,7 @@ Lao seadistamiseks toimige järgmiselt.
 
 1. Avage navigeerimispaanilt **Moodulid \> Jaemüük ja kaubandus \> Kanali seadistus \> Laod**.
 1. Valige toimingupaanil nupp **Uus**.
-1. Sisestage väärtus väljale **Ladu**.  Kui see on 1:1 vastendamine jaekauplusega, kaaluge kaupluse nime või piirkondliku jaotuskeskuse nime kasutamist.
+1. Sisestage väärtus väljale **Ladu**.  Kui see on 1:1 vastendamine poega, kaaluge poe nime või piirkondliku jaotuskeskuse nime kasutamist.
 1. Sisestage väärtus väljale **Nimi**.
 1. Valige ripploendist **Sait** eelnevalt loodud laoala.
 1. Valige väljal **Tüüp** väärtus **Vaikimisi**.

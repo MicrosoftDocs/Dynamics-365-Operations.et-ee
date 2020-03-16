@@ -1,9 +1,9 @@
 ---
 title: Asutusesisese juurutamise avaleht
 description: See teema pakub teavet ja linke sisule kohapealsete juurutuste kohta.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770942"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090585"
 ---
 # <a name="on-premises-deployment-home-page"></a>Asutusesisese juurutuse avaleht
 
@@ -51,16 +51,16 @@ Saab juurutada rakendusele Dynamics 365 Finance  + Operations (on-premises). Asu
 - [Elektroonilise aruandluse (ER) konfiguratsioonide importimine](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Dokumentide loomine, avaldamine ja printimine kohapealsetes keskkondades](../analytics/printing-capabilities-on-premises.md)
 - [Puhverserverite konfigureerimine kohapealsete keskkondade jaoks](onprem-reverseproxy.md)
-- [Tehnilise toe seadistamine Finance and Operationsi rakenduste jaoks](../lifecycle-services/support-experience.md)
+- [Tehnilise toe seadistamine rakenduste Finance and Operations jaoks](../lifecycle-services/support-experience.md)
 - [Kliendi Interneti-ühendus](../user-interface/client-disconnected.md)
 - [Värskenduste rakendamine kohapealsetesse juurutamistesse](apply-updates-on-premises.md)
 - [Kohapealsete keskkondade taasjuurutamine](redeploy-on-prem.md)
 
-## <a name="retail"></a>Retail
-- [Kohapeal saadaolevate juurutuste jaemüügi võimalused](../../../retail/retail-onprem.md)
+## <a name="commerce"></a>Commerce
+- [Kohapealseks juurutamiseks saadaolevad Commerce’i võimalused](../../../retail/retail-onprem.md)
 - [Etapid jaemüügikanali komponentide installimiseks kohapealses keskkonnas](deploy-retail-onprem.md)
-- [Retail Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](../../../retail/retail-modern-pos-device-activation.md)
-- [Retail Store Scale Uniti konfigureerimine ja installimine](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](../../../retail/retail-modern-pos-device-activation.md)
+- [Commerce Scale Uniti konfigureerimine ja installimine](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Täiendamine
 - [Kohapealne täiendusprotsess asutusesisese keskkonna puhul](../migration-upgrade/on-prem-upgrade.md)
@@ -71,6 +71,6 @@ Saab juurutada rakendusele Dynamics 365 Finance  + Operations (on-premises). Asu
 - [Sertide roteerimine](certificate-rotation-on-prem.md)
 - [Kohapealsed diagnostikad](on-premises-diagnostics.md)
 - [Asutusesisestes juurutustes rakendamata funktsioonid](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [Rakenduse Finance and Operations eemaldatud või aegunud funktsioonid](../migration-upgrade/deprecated-features.md)
+- [Eemaldatud või aegunud funktsioonid rakenduses Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Tarkvara elutsükli poliitika ja asutusesisesed väljalasked](../migration-upgrade/on-prem-version-update-policy.md)
  

@@ -150,6 +150,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/finance/toc.json
                 - name: Salvestatud vaated
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/finance/toc.json
+                - name: Ruudustiku võimalused
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Kohandatud väljade loomine ja nendega töötamine
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: PowerAppsi rakenduste manustamine
@@ -940,6 +942,8 @@
                   href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
                 - name: Käibemaksuaruandluse koodide seadistamine
                   href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Käibemaksu topeltvaluuta tugi
+                  href: general-ledger/dual-currency-for-tax.md
                 - name: Käibemaksu täpsustus pearaamatukannete aruande järgi
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Käibemaksu tasakaalustusperioodide seadistamine
@@ -1102,6 +1106,8 @@
                   href: public-sector/interest-distribution.md
             - name: Hanked avalikus sektoris
               href: public-sector/procurement-sourcing-public-sector.md
+            - name: 'Arvutage rea tarnekuupäev, võttes aluseks täitmisaja'
+              href: public-sector/po-delivery-date.md
             - name: Turberollid avalikus sektoris
               href: public-sector/security-roles-public-sector.md
             - name: Vahendid avalikus sektoris
@@ -1298,6 +1304,8 @@
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: SPED finantsaasta – paigutus 014
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
+                - name: Määrake SPED EFD maksusummad
+                  href: localizations/latam-bra-sped-contributions.md
                 - name: Parameetrid juriidiliste isikute jaoks
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Juriidilise isiku parameetrite seadistamine
@@ -2807,6 +2815,8 @@
               items:
                 - name: Dokumentide aruandlusteenuste ülevaade
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/finance/toc.json
+                - name: Toetatud fondid
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
                 - name: SSRS-i konfigureerimine kohapealseteks juurutamisteks
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Printimine
@@ -3686,6 +3696,4 @@
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
-      href: ../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../commerce/index.md

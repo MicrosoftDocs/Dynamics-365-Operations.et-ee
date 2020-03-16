@@ -456,8 +456,6 @@
           items:
             - name: Mudelite ja andmemudeli elementide ülevaade
               href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: Laiendite nimejuhised
-              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Mudeli kohandamise ja aegumisfunktsiooni väljalülitamine
               href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Kliendi kohanduste analüüsi aruanne
@@ -1148,9 +1146,9 @@
               href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: ValueMetadata tüüp
               href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-- name: Regression Suite Automation Tool
+- name: Regression suite automation tool
   items:
-    - name: Regression Suite Automation Tooli ülevaade
+    - name: Regression suite automation tooli ülevaade
       href: ../../dev-itpro/perf-test/rsat/rsat-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Installimine ja konfigureerimine
       href: ../../dev-itpro/perf-test/rsat/rsat-install-configure.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1164,7 +1162,7 @@
       href: ../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Tuletatud testjuhtumid
       href: ../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: Tööriista Regression Suite Automation Tool õppetüki kasutamine
+    - name: Tööriista Regression suite automation tool õppetüki kasutamine
       href: ../../fin-and-ops/get-started/hol-use-regression-suite-automation-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Head tavad
       href: ../../dev-itpro/perf-test/rsat/rsat-best-practices.md?toc=/dynamics365/unified-operations/supply-chain/toc.json

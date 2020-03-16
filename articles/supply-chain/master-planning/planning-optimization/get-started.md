@@ -3,7 +3,7 @@ title: Planeerimise optimiseerimise kasutamise alustamine
 description: Selles teemas selgitatakse, kuidas hakata kasutama planeerimise optimeerimise funktsiooni.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/17/2020
+ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
-ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
+ms.openlocfilehash: 3e64699005387adcc92e2e7c9fefad68a9de85c0
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "2971460"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076128"
 ---
+# <a name="get-started-with-planning-optimization"></a>Planeerimise optimiseerimise kasutamise alustamine
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="get-started-with-planning-optimization"></a>Planeerimise optimiseerimise kasutamise alustamine
 
 Planeerimise optimeerimise funktsioon ei toeta hetkel kõiki funktsioone, mis on Microsoft Dynamics 365 Supply Chain Managementi ehitatud planeerimismootoris saadaval. Seega on oluline, et hindaksite, kas hetkel planeerimise optimeerimises saadaolev funktsioonide komplekt vastab teie nõuetele. Vaikimisi ei ole planeerimise optimeerimise funktsioon portaalis Dynamics Lifecycle Services (LCS) sisse lülitatud. Seetõttu on teil võimalus teha oma hindamine enne selle sisselülitamist.
 
@@ -44,6 +44,9 @@ Kui saate käivitada koondplaneerimise oma praegust litsentsi kasutades, ei pea 
 ### <a name="install-the-add-in"></a>Lisandmooduli installimine
 
 Planeerimise optimeerimise kasutamiseks installige Dynamics 365 Supply Chain Managementi planeerimise optimeerimise lisandmoodul. Saate kasutada lisandmoodulit oma LCS projektist ja lülitada planeerimise optimeerimise funktsiooni sisse tarneahela halduse kasutajaliidesest.
+
+> [!NOTE]
+> Planeerimise optimeerimise nõue on LCS-i loaga suure kättesaadavusega keskkond (mitte OneBoxi keskkond) koos Dynamics 365 Supply Chain Managementi versiooniga 10.0.7 või hilisem.
 
 1. Logige LCS-i sisse ja avage soovitud keskkond.
 1. Avage **Kõik üksikasjad**.

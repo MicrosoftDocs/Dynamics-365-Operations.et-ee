@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97aedf17bb6fa67fd08497ec6e15a7c92866fa4d
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026106"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042915"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER-i konfiguratsioonide teistest komponentidest sõltuvuse määramine
 
@@ -47,7 +47,7 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 5. Klõpsake valikut Uus.
 6. Valige toote eeltingimuse komponent.
 7. Valige Microsoft Dynamics 365 for Operations (1611).
-8. Sisestage versiooniväljale väärtus '[7.1.1541.3036,8)'.
+8. Sisestage versiooniväljale väärtus „[7.1.1541.3036,8)”.
     * [7.1.1541.3036,8)  
     * Sisestatud sõltuvusi hinnatakse, kui see konfiguratsioon on ER-i hoidlast alla laaditud. See konfiguratsiooni versioon laaditakse ER-i hoidlast alla, kui konfiguratsiooni „Näidisandmemudel” 1. versioon on juba olemas või eelnevalt alla laaditud. Kui see on eelnevalt alla laaditud, tuleb see lõpule viia rakenduse Finance and Operations versioonis 7.1.1541.3036 või uuemas, kuid see ei tohi ületada põhiversiooni 8.   
 9. Klõpsake nuppu Salvesta.
@@ -60,7 +60,7 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 16. Klõpsake valikut Uus.
 17. Valige toote eeltingimuse komponent.
 18. Valige Microsoft Dynamics AX 7.0 RTW.
-19. Sisestage versiooniväljale väärtus '[7.0.1265.3015,7.1)'.
+19. Sisestage versiooniväljale väärtus „[7.0.1265.3015,7.1)”.
     * [7.0.1265.3015,7.1)  
     * Sõltuvusi hinnatakse, kui see konfiguratsioon on ER-i hoidlast alla laaditud. See konfiguratsiooni versioon laaditakse ER-i hoidlast alla, kui konfiguratsiooni „Näidisandmemudel” 1. versioon on juba olemas või eelnevalt alla laaditud. Kui see on eelnevalt alla laaditud, tuleb see lõpule viia rakenduses Microsoft Dynamics 365 for Finance and Operationsi ettevõtteversioonis, mis peab olema 7.0.1265.3015 või uuem versioon, kuid mis ei tohi ületada lühiversiooni 1.   
 20. Klõpsake nuppu Salvesta.
@@ -140,4 +140,3 @@ Kustutame süsteemist loodud konfiguratsioonid ja laadime need uuesti alla LCS-i
 26. Laiendage puul valikut „Sample data model".
     * Pange tähele, et mudeli „Näidisvastendamine" vastenduskonfiguratsioon on alla laaditud koos valitud andmemudeli konfiguratsiooniga. Kaks faili laaditi koos alla, kuna „Näidisvastendus" on määratletud valitud andmemudeli juurutamisena ja kuna see kehtib rakenduse kohta. Konfiguratsiooni „Näidisvastendus (alternatiivne)” pole alla laaditud, kuna nõutava avalduse versiooni tingimust pole täidetud.   
     * Kui logite sisse Finance and Operationsi, registreerige sama pakkuja, avage sama LCS-projekt ja laadige alla sama andmemudeli konfiguratsioon. Konfiguratsioon „Näidisvastendus (alternatiivne)” laaditakse alla, aga konfiguratsioon „Näidisvastendus” jäetakse vahele.  
-

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
-ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
+ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "2810695"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058013"
 ---
 # <a name="one-voucher"></a>Üks kanne
 
@@ -156,7 +156,7 @@ Organisatsioonid soovivad sageli pearaamatusse sisestada koondvormis, et vähend
 
 ### <a name="settle-multiple-unposted-payments-to-the-same-invoice"></a>Mitme sisestamata makse tasakaalustamine samale arvele
 
-Seda stsenaariumit leidub enamasti jaemüügi organisatsioonides, kus kliendid saavad ostude eest maksmiseks kasutada mitut makseviisi. Selles stsenaariumis peab organisatsioon suutma salvestada mitut sisestamata makset ja tasakaalustama neid kliendiarve suhtes.
+See stsenaarium esineb enamasti organisatsioonides, kus kliendid saavad ostude eest maksmiseks kasutada mitut makseviisi. Selles stsenaariumis peab organisatsioon suutma salvestada mitut sisestamata makset ja tasakaalustama neid kliendiarve suhtes.
 
 Uue funktsiooniga, mis lisati rakenduse Microsoft Dynamics 365 for Operations versioonile 1611 (november 2016), saab mitut sisestamata makset tasakaalustada ühe arve suhtes. Mitut kliendimakset pole enam vaja sisestada ühte kandesse.
 

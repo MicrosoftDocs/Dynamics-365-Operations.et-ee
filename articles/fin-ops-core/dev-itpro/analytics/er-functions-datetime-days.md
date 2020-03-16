@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f8c12a22f7654285d5598064473bf86689ed207
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 62e34628712066d92a244676123ce928a468ea9e
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916288"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042385"
 ---
 # <a name="DAYS">ER-i funktsioon DAYS</a>
 
@@ -33,7 +33,7 @@ Funktsioon `DAYS` tagastab *täisarvu* väärtuse, mis tähistab ühe määratud
 
 ## <a name="syntax"></a>Süntaks
 
-```
+```vb
 DAYS (date 1, date 2) as Integer
 ```
 

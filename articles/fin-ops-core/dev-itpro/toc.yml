@@ -45,7 +45,11 @@
                 - name: Platform update 15 (märts 2018)
                   href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Eemaldatud või aegunud funktsioonid
-              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+              items:
+                - name: Eemaldatud või aegunud Platformi funktsioonid
+                  href: get-started/removed-deprecated-features-platform-updates.md
+                - name: Varasematest versioonidest eemaldatud või aegunud funktsioonid
+                  href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: AX 2012 edasilükatud funktsioonid
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Asutusesisestes juurutustes rakendamata funktsioonid
@@ -144,7 +148,9 @@
                       href: data-entities/data-integration-cds.md
                     - name: 'Sünkroonne, kahesuunaline integratsioon'
                       items:
-                        - name: Reaalaja lähedane teabe integratsioon
+                        - name: Topeltkirjutusega koduleht
+                          href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Topeltkirjutusega ülevaade
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Common Data Service'i organisatsiooni hierarhia
                           href: data-entities/dual-write/organization-mapping.md
@@ -940,7 +946,7 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS partneritele
                   href: lifecycle-services/getting-started-lcs.md
-                - name: Mis on uut?
+                - name: Mis on uut või mida on muudetud Lifecycle Servicesis?
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Teadaolevad probleemid
                   href: lifecycle-services/known-issues.md
@@ -1212,9 +1218,9 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: ValueMetadata tüüp
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-        - name: Regression Suite Automation Tool
+        - name: Regression suite automation tool
           items:
-            - name: Regression Suite Automation Tooli ülevaade
+            - name: Regression suite automation tooli ülevaade
               href: perf-test/rsat/rsat-overview.md
             - name: Installimine ja konfigureerimine
               href: perf-test/rsat/rsat-install-configure.md
@@ -1228,7 +1234,7 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Tuletatud testjuhtumid
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Tööriista Regression Suite Automation Tool õppetüki kasutamine
+            - name: Tööriista Regression suite automation tool õppetüki kasutamine
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Head tavad
               href: perf-test/rsat/rsat-best-practices.md
@@ -1685,6 +1691,4 @@
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
-      href: ../../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../../commerce/index.md

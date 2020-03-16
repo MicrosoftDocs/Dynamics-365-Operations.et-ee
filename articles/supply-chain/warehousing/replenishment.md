@@ -3,7 +3,7 @@ title: Täiendamise ülevaade
 description: Selles teemas kirjeldatakse täiendamisstrateegiaid, mis on saadaval ladude puhul, milles seda laohalduse moodulis saadaolevat funktsiooni kasutatakse.
 author: Mirzaab
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7aa17df3c3632c89f35a69022084bbd9f4171f36
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251461"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076344"
 ---
 # <a name="replenishment-overview"></a>Täiendamise ülevaade
 
@@ -49,6 +49,8 @@ Määramiseks, millist asukohta tuleks täiendada, kasutatakse asukohakorraldusi
 Lisaks malli loomisele tuleb voomallis määrata mõned täiendamise sätted. Voomallid peaksid sisaldama täiendamise vooetappi, mis käivitatakse ainult juhul, kui kauba eraldamine ei õnnestunud. See täiendamise vooetapp kasutab vooetapi koodi määramiseks, millist täiendamismalli tuleks kasutada. Lisaks vooetapi olemasolule täiendamiseks peate veenduma, et on tehtud valik **Täienda** voomalli jaotises **Meetodid**. 
 
 Lehel **Täiendamise mall** on märkeruut **Luba voo nõudel kasutada reserveerimata koguseid**. Märkige see ruut, kui nõudluse tõttu täiendamine peaks võimaldama reserveerimata koguste mahaarvamist valitud täiendamise malli põhjal loodud tööst. Selleks, et lubada nõudluse tõttu täiendamise mallidel seda loogikat kasutada, märkige see ruut iga olemasoleva täiendamismalli jaoks. Kui laos käivitatakse nõudluse tõttu täiendamine, arvestatakse maha nõudlus reserveerimata kogustega olemasolevatest täiendamistöödest, kui töö pärineb täiendamismallidest, millel on märgitud ruut **Luba voo nõudel kasutada reserveerimata koguseid**.
+
+**Täiendamise ühik** on minimaalne ühik täiendamiseks. See peab olema täisarv, mis on seadme kordaja. Süsteem ümardab töö loomisel suurima võimaliku ühikuni.
 
 Nõudluse täiendamist toetatakse müügitellimuste, üleviimistellimuste, tootmistellimuste ja kanbanide puhul. 
 

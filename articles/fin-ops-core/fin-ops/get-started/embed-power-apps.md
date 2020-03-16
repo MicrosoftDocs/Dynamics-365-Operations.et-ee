@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 9585d5a399ebf45b0ad7640f3c4e48d8afc46cd8
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 90422a34499dab7302ad7722cf84d40e1815991c
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017724"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042938"
 ---
 # <a name="embed-microsoft-power-apps"></a>Microsoft Power Appsi manustamine
 
@@ -55,7 +55,7 @@ Järgmised juhised näitavad, kuidas manustada rakendust Power Appsist veebiklie
 
     - Väljal **Nimi** on näidatud tekst, mis kuvatakse manustatud rakendust sisaldava nupu või vahekaardi jaoks. Sageli korratakse sellel väljal rakenduse nime.
     - **Rakenduse ID** on manustatava rakenduse GUID. Selle väärtuse toomiseks leidke rakendus aadressilt [web.powerapps.com](https://web.powerapps.com) ja seejärel väli **Rakenduse ID** jaotisest **Üksikasjad**.
-    - Välja **Rakenduse sisendkontekst** jaoks võite valida ka välja, mis sisaldab andmeid, mida soovite rakenduse sisendina edastada. Üksikasju, kuidas rakendus saab juurdepääsu  Finance and Operationsist saadetud andmetele vaadake selle jaotise allpool olevast teemast [Finance and Operationsi rakendustest andmeid kasutava rakenduse loomine](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps).
+    - Välja **Rakenduse sisendkontekst** jaoks võite valida ka välja, mis sisaldab andmeid, mida soovite rakenduse sisendina edastada. Üksikasju, kuidas rakendus saab juurdepääsu rakendusekomplektist Finance and Operations saadetud andmetele, vaadake selle jaotise allpool olevast teemast [Finance and Operationsi rakendustest saadetud andmeid kasutava rakenduse loomine](#building-an-app-that-leverages-data-sent-from-finance-and-operations-apps).
     - Valige **Rakenduse suurus**, mis on kooskõlas manustatava rakenduse tüübiga. Valige **Peenike** mobiilsetele seadmetele loodud rakenduste jaoks ja **Lai** tahvelarvutitele loodud rakenduste jaoks. See tagab, et manustatud rakenduse jaoks eraldatakse piisavalt ruumi.
     - Kiirkaardil **Juriidilised isikud** saate määrata, milliste juriidiliste isikute jaoks see rakendus saadaval on. Vaikimisi tehakse rakendus juurdepääsetavaks kõigile juriidilistele isikutele. See suvand on saadaval ainult siis, funktsioon [Salvestatud vaated](saved-views.md) on keelatud. 
 
@@ -76,7 +76,7 @@ Oluline osa Power Appsist rakenduse loomisest, mis manustatakse rakendusse Finan
 
 Näiteks saate Finance and Operationsi rakenduste sisendandmed rakenduse funktsioonis OnStart seadistada järgmiseks muutujaks.
 
-```
+```powerapps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
@@ -101,7 +101,7 @@ Manustatud rakenduse konfiguratsiooni redigeerimiseks tehke järgmist.
 
 Kui lehele on manustatud rakendus, on vajaduse korral võimalik seda eemaldada kahel viisil.
 
-- Avage paan **Redigeeri rakendust**, selleks leiate juhtnöörid selle teema varasemast jaotisest [Manustatud rakenduse redigeerimine](#editing-an-embedded-power-app). Veenduge, et see paan kuvab teavet eemaldada soovitud rakenduse kohta, ja seejärel klõpsake nuppu **Kustuta**.
+- Avage paan **Redigeeri rakendust**, selleks leiate juhtnöörid selle teema varasemast jaotisest [Manustatud rakenduse redigeerimine](#editing-an-embedded-app). Veenduge, et see paan kuvab teavet eemaldada soovitud rakenduse kohta, ja seejärel klõpsake nuppu **Kustuta**.
 - Kuna manustatud rakendus salvestatakse isikupärastamisandmetena, eemaldatakse lehe isikupärastamiste kustutamisel ka lehele manustatud rakendused. Pange tähele, et lehe isikupärastamised kustutatakse jäädavalt ja seda ei saa tagasi võtta. Lehe isikupärastamiste eemaldamiseks valige **Suvandid** ja seejärel klõpsake **Isikupärasta see leht** ja lõpuks nuppu **Tühjenda**. Pärast brauseri värskendamist on kõik lehe varasemad isikupärastamised eemaldatud. Isikupärastamist kasutavate lehtede optimeerimise kohta vaadake lisateavet teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md).
 
 ## <a name="appendix"></a>Lisa
@@ -115,7 +115,7 @@ Vaikimisi saavad kasutajad rakendusi manustada mis tahes lehele kas Power Appsi 
 
 Järgmises näites on toodud uus klass kahe konfigureerimist vajava meetodiga, kuhu rakendusi saab manustada.
 
-```
+```powerapps
 [ExtensionOf(classStr(FormRunConfigurationPowerAppsConfiguration))]
 
 public final class ClassTest_Extension

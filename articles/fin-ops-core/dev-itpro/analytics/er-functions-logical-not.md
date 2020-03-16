@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b15277dba26dc7864193b11a127944daca6b989f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: a518f255a4488c5ed6e007b1787e678fd88aff36
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916035"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041718"
 ---
 # <a name="NOT">ER-i funktsioon NOT</a>
 
@@ -33,7 +33,7 @@ Funktsioon `NOT` annab määratud tingimuse pööratud loogilise väärtuse *kah
 
 ## <a name="syntax"></a>Süntaks
 
-```
+```vb
 NOT (condition)
 ```
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 822bd39bca3a95f073bacea90a8ee58eada50ae2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6a683ffce487dc4388711ad160c2e8dc55a690dd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022309"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057460"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Jaetoodete allahindluste vältimise suvandid
 
@@ -32,7 +32,7 @@ ms.locfileid: "3022309"
 
 On erinevaid põhjuseid, miks jaemüüjad soovivad vältida mõne toote allahindlust kampaania ajal või kassas.
 
-Avaldatud toodete vahekaardil **Commerce** leitavaid suvandeid saab kasutada toote konfigureerimiseks, et välistada kõiki või käsitsi lisatud allahindluseid. Sätteid saab määrata ka kategooria kaupa jaemüügi kategooriahierarhiast.
+Avaldatud toodete vahekaardil **Commerce** leitavaid suvandeid saab kasutada toote konfigureerimiseks, et välistada kõiki või käsitsi lisatud allahindluseid. Sätteid saab määrata ka kategooria kaupa kategooriahierarhiast.
 
 - **Kõikide allahindluste vältimine**: valige see suvand, et vältida tootele ükskõik mis tüüpi allahindluse rakendamist. Siia kuuluvad erinevad pakkumised (nt toodete kombineerimine, koguse- ja läveallahindlused) ja käsitsi lisatud toote- või tehinguallahindlused, mis lisatakse kassas müügihetkel.
 - **Käsitsi lisatud allahindluste vältimine**: valige see suvand, et vältida käsitsi tootele või kogu tehingule rakendatavaid allahindlusi kassas müügihetkel. Selle suvandiga märgitud toodetele võib rakendada kampaaniaid (nt toodete kombineerimine, koguse- ja läveallahindlused).

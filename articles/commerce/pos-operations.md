@@ -3,7 +3,7 @@ title: Ühendusega ja ühenduseta kassatoimingud
 description: Selles teemas kirjeldatakse üksikasjalikult Dynamics 365 Commercei kassaoperatsioone. See kirjeldab, millises rakenduse osas saab operatsioone käivitada ning kas need on saadaval ka ühenduseta režiimis.
 author: jblucher
 manager: AnnBe
-ms.date: 05/21/2019
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bf67c53ffd5bd530f484b60da604fd9338c964fd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022313"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081335"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Ühendusega ja ühenduseta kassatoimingud
 
@@ -52,6 +52,8 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 137 | Kliendile alluvuse lisamine | Lisage kliendile alluvus lehel **Kliendi üksikasjad**. | Ei | Ei | Ei | Jah | Ei |
 | 138 | Alluvuse eemaldamine kliendilt | Eemaldage alluvus lehelt **Kliendi üksikasjad**. | Ei | Ei | Ei | Jah | Ei |
 | 643 | Lisa kupongikood | Lisage kupong, sisestades kassasse selle koodi. | Jah | Jah | Ei | Jah | Ei |
+| 141 | Lisa päisetasud | Lisage tellimuse päisesse lisakulud. | Jah | Jah | Ei | Ei| Ei |
+| 141 | Lisa reatasud | Lisage valitud müügireale lisakulud. | Jah | Jah | Ei | Ei| Ei |
 | 117 | Kliendikaardi lisamine | Paluge kasutajal sisestada kliendikaardi number, mis lisatakse praegusesse kandesse. | Jah | Jah | Ei | Jah | Ei |
 | 136 | Seerianumbri lisamine | See operatsioon võimaldab kasutajal määrata praegu valitud toote seerianumbri. | Jah | Jah | Ei | Jah | Ei |
 | 1214 | Lisa tarneaadress | Seda operatsiooni ei toetata. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Ei |
@@ -64,6 +66,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 310 | Kogusumma arvutamine | Kui allahindluse arvutamine hilineb, käivitab see operatsioon praeguse kande arvutuse. | Jah | Jah | Ei | Jah | Ei |
 | 642 | Tarni kõik tooted | Määrake kõigi ridade tarneviisiks **Järeletulemine**. | Jah | Jah | Ei | Jah\* | Ei |
 | 641 | Tarni valitud tooted | Määrake valitud ridade tarneviisiks **Järeletulemine**. | Jah | Jah | Ei | Jah\* | Ei |
+| 647 | Tarnerežiimi muutmine | Muutke tarneviisi eelkonfigureeritud tarne müügiridade jaoks. | Jah | Jah | Ei | Ei| Ei |
 | 1215 | Muuda parooli | Operatsioon võimaldab kassa kasutajal oma parooli muuta. | Jah | Jah | Jah | Ei | Ei |
 | 123 | Muuda mõõtühikut | Muutke valitud rea kauba mõõtühikut. | Jah | Jah | Ei | Jah | Ei |
 | 639 | Tühjenda kandest vaikemüügiesindaja | Eemaldage komisjonitasu müügigrupp (müügiesindaja) kandest. | Jah | Jah | Ei | Jah | Ei |
@@ -100,6 +103,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 1218 | Ava perifeerseade sunniviisiliselt | Operatsiooni kasutatakse süsteemisiseselt kassa välisseadmete avamiseks. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Ei |
 | 520 | Kinkekaardi saldo | Näitab kinkekaardi saldot. | Jah | Jah | Ei | Ei | Ei |
 | 708 | Seadme inaktiveerimine | Inaktiveerige praegune seade, et seda ei saaks kasutada kassaaparaadina. | Ei | Ei | Ei | Ei | Ei |
+| 804 | Sissetuleku toiming | Pääsege sissetuleku poe varude halduse funktsioonidele ligi. | Jah | Ei | Jah | Ei| Ei |
 | 517 | Tulukontod | Sularahasahtlisse muudel põhjustel (mitte müük) pandud raha kirjendamine. | Jah | Jah | Jah | Jah | Ei |
 | 801 | Otsing varudest | Vaadake saadaolevat, tellimusse lisatud ja lubamiseks saadaval (ATP) olevaid koguseid praeguses kaupluses ja muudes saadaolevates asukohtades. | Jah | Jah | Jah | Ei | Ei |
 | 122 | Arve kommentaar | See operatsioon võimaldab kasutajal sisestada praeguse kande kohta kommentaari. | Jah | Jah | Ei | Jah | Ei |
@@ -111,10 +115,12 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 703 | Lukusta register | Lukustage praegune kassaaparaat, et seda ei saaks kasutada, ent praegune kasutaja jääb sisselogituks. | Ei | Ei | Ei | Jah | Ei |
 | 701 | Logi välja | Logige praegune kasutaja kassaaparaadist välja. | Jah | Jah | Jah | Jah | Ei |
 | 521 | Kliendikaardi punktisaldo | Kuvab määratud kliendikaardi punktisaldo. | Jah | Jah | Ei | Ei | Ei |
+| 142 | Halda tasusid | Vaadake ja hallake kandele rakendatud lisakulusid. | Jah | Jah | Ei | Ei| Ei |
 | 918 | Vahetuste haldamine | Saate kuvada aktiivsete, peatatud ja pimedalt suletud vahetused. | Jah | Jah | Jah | Ei | Ei |
 | 914 | Minimeeri kassa aken | Seda operatsiooni ei toetata. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Ei |
 | 1000 | Ava sahtel | Tehke ilma müügita toiming ja avage praegu valitud sularahasahtel. | Jah | Jah | Jah | Jah | Ei |
 | 928 | Tellimuse täitmine | See toiming võimaldab kasutajatel tellimusi komplekteerida, pakkida, lähetada või tagasi kutsuda kauplusest kättesaamiseks. | Jah | Jah | Jah | Ei | Ei |
+| 805 | Väljamineku toiming | Pääsege väljaminevate üleviimistellimuse saadetiste haldamiseks funktsioonidele ligi. | Jah | Ei | Jah | Ei| Ei |
 | 129 | Tühista rea toote maks | Tühistage valitud rea kauba maks ja valige muu määratud maks. | Jah | Jah | Ei | Jah | Ei |
 | 130 | Tühista rea kauba maks loendist | Tühistage valitud rea kauba maks ja kasutage maksu, mille kasutaja loendist valib. | Jah | Jah | Ei | Jah | Ei |
 | 127 | Kande maksu tühistamine | Tühistage kandel olev maks ja kasutage muud määratud maksu. | Jah | Jah | Ei | Jah | Ei |
@@ -147,6 +153,7 @@ Järgmised veerud näitavad, kus operatsioone käivitatakse.
 | 108 | Toote otsing | See operatsioon võimaldab kasutajal otsida toodet, navigeerides kassas tooteotsingu lehele. | Jah | Jah | Jah | Jah | Ei |
 | 633 | Pakkumise aegumiskuupäev | See operatsioon võimaldab kasutajal vaadata või muuta müügipakkumise aegumiskuupäeva. | Jah | Jah | Ei | Jah\* | Ei |
 | 627 | Uuestiarvutamine | Arvutage kõik klienditellimuse read ja maksud ümber praeguse konfiguratsiooni alusel. | Jah | Jah | Ei | Jah\* | Ei |
+| 143 | Arvuta tasud ümber | Arvutage ümber tellimusele automaatselt rakendatud kulud. | Jah | Jah | Ei | Ei| Ei |
 | 515 | Tellimuse tagasikutsumine | See operatsioon võimaldab kasutajal klienditellimusi ja müügipakkumisi otsida ja tagasi kutsuda. | Jah | Jah | Jah | Ei | Ei |
 | 504 | Kutsu kanne tagasi | See operatsioon võimaldab kasutajal praeguses kaupluses tagasi kutsuda varem peatatud kande. | Jah | Jah | Ei | Jah‡ | Ei |
 | 305 | Püsikliendi punktide lunastamine | Seda operatsiooni ei toetata. | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Pole kohaldatav | Jah |

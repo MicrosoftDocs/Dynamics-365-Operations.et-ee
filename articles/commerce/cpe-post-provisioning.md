@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024702"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057713"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce eelvaatekeskkonna konfigureerimine
 
@@ -35,7 +35,7 @@ Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerc
 
 Lõpetage selle teema protseduurid alles pärast seda, kui rakenduse Commerce eelvaatekeskkond on ette valmistatud. Teavet selle kohta, kuidas Commerce’i eelvaatekeskkonda ette valmistada, vaadake teemast [Commerce’i eelvaatekeskkonna ettevalmistamine](provisioning-guide.md).
 
-Pärast seda, kui teie Commerce eelvaatekeskkond on eelnevalt lõpetatud, tuleb lõpule viia täiendavad konteeringu konfigureerimise etapid, enne kui saate hakata keskkonda hindama. Nende sammude lõpetamiseks peate kasutama Microsoft Dynamics elutsükli teenuseid (LCS), Dynamics 365 Commerceja Dynamics 365 Retail.
+Pärast seda, kui teie Commerce eelvaatekeskkond on eelnevalt lõpetatud, tuleb lõpule viia täiendavad konteeringu konfigureerimise etapid, enne kui saate hakata keskkonda hindama. Nende sammude lõpetamiseks peate kasutama teenust Microsoft Dynamics Lifecycle Services (LCS) ja rakendust Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Enne alustamist
 
@@ -53,7 +53,7 @@ Pärast seda, kui teie Commerce eelvaatekeskkond on eelnevalt lõpetatud, tuleb 
 
 Töötaja seostamiseks LCS-is oma identiteediga toimige järgmiselt.
 
-1. Vasakul asuva menüü abil avage **Moodulid \> Jaemüük \> Töövõtjad \> Töötajad**.
+1. Kasutage vasakul asuvat menüüd, et avada **Moodulid \> Jaemüük ja kaubandus \> Töövõtjad \> Töötajad**.
 1. Otsige loendist ja valige kirje **000713 – Andrew Collette**.
 1. Toimingupaanil valige käsk **Jaemüük**.
 1. Valige **Seosta olemasolev identiteet**.
@@ -91,12 +91,12 @@ Et alustada oma eelvaate saidi seadistamist Commerce'is, toimige järgmiselt.
 1. Jätke välja **tee** väärtus nii, nagu see on.
 1. Valige nupp **OK**. Kuvatakse saidi lehtede loend.
 
-## <a name="enable-jobs-in-retail"></a>Luba tööd jaemüügis
+## <a name="enable-jobs"></a>Tööde lubamine
 
-Jaemüügi tööde lubamiseks tehke järgmist.
+Commerce’is tööde lubamiseks tehke järgmist.
 
 1. Logige sisse keskkonda (HQ).
-1. Kasutades menüüd vasakul, avage **Jaemüük \> Päringud ja aruanded \> Pakett-tööd**.
+1. Kasutades menüüd vasakul, avage **Jaemüük ja kaubandus \> Päringud ja aruanded \> Pakett-tööd**.
 
     Selle protseduuri ülejäänud sammud peavad olema täidetud iga järgmise töö puhul:
 
@@ -112,11 +112,11 @@ Jaemüügi tööde lubamiseks tehke järgmist.
     1. Tegumiribal valikus **Pakett-töö**, klõpsake **Muuda olekut**.
     1. Valige suvand **Ootel** ja seejärel nupp **OK**.
 
-### <a name="run-full-data-synchronization-in-retail"></a>Kogu teabe sünkroonimise käivitamine jaemüügis
+### <a name="run-full-data-synchronization"></a>Kõikide andmete sünkroonimise käitamine
 
-Täieliku andmeedastuse sünkroonimise käivitamiseks jaemüügis toimige järgmiselt.
+Commerce’is kõikide andmete sünkroonimise käitamiseks tehke järgmist.
 
-1. Vasakual asuva menüü abil avage **Moodulid \> Jaemüük \> Peakontori häälestus \> Jaemüügi planeerija \> Kanali andmebaas**.
+1. Kasutage vasakul asuvat menüüd, et avada **Moodulid \> Jaemüük ja kaubandus \> Peakontori häälestus \> Jaemüügi planeerija \> Kanali andmebaas**.
 1. Kanal **Vaikimisi** valitakse vasakul olevast loendist. Valige muu saadaolev kanal. Selle kanali nimi on **scXXXXXXXXX**.
 1. Valige tegumiribal suvand **Andmete täielik sünkroonimine**.
 1. Sisestage jaotugraafikuna väärtus **9999**.

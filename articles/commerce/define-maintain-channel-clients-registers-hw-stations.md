@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 51d344d7b7a792d0cdf3eeb7f5c6e1a9b2b8bf19
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022217"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057933"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Välisseadmete ühendamine kassaga (POS)
 
@@ -43,7 +43,7 @@ Mitut komponenti kasutatakse seoste määratlemiseks kaupluse, kassaregistri võ
 
 Navigeerimine: klõpsake **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Registrid**.
 
-Kassaregister on olem, mida kasutatakse kassa konkreetse eksemplari omaduste määratlemiseks. Nende omaduste hulka kuuluvad riistvaraprofiil või jaemüügi välisseadmed, mida registris kasutatakse, kauplus, millega register on vastendatud, ja sellesse registrisse sisse logiva kasutaja visuaalne kogemus.
+Kassaregister on olem, mida kasutatakse kassa konkreetse eksemplari omaduste määratlemiseks. Nende omaduste hulka kuuluvad registris kasutatav riistvaraprofiil või välisseadmed, registriga vastendatud pood ja sellesse registrisse sisse logiva kasutaja visuaalne kogemus.
 
 ### <a name="devices"></a>Seadmed
 
@@ -67,7 +67,7 @@ Riistvaraprofiil tähistab riistvara, mis on ühendatud kassaregistri või riist
 
 ### <a name="hardware-station"></a>Hardware station
 
-Navigeerimine: klõpsake **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Jaekauplused** &gt; **Kõik jaekauplused**. Valige kauplus ja klõpsake siis kiirkaarti **Riistvarajaamad**.
+Navigeerimine: klõpsake **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Poed** &gt; **Kõik poed**. Valige kauplus ja klõpsake siis kiirkaarti **Riistvarajaamad**.
 
 Riistvarajaam on äriloogika eksemplar, mis juhib kassa välisseadmeid. Riistvarajaam paigaldatakse automaatselt koos MPOS-iga. Teine võimalus on paigaldada riistvarajaam eraldi komponendina ja kasutada seda siis MPOS-i või Cloud POS-i jaoks veebiteenuse kaudu. Riistvarajaam tuleb määratleda kanali tasemel.
 
@@ -87,7 +87,7 @@ MPOS-i ühendamiseks POS-i välisseadmetega tavapärases, fikseeritud kassa stse
 
 Kui olete riistvaraprofiili määranud, sünkroonige muudatused kanali andmebaasis, kasutades jaotusgraafikut **Registrid**. Jaotusgraafikud leiate, valides **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik**. 
 
-Järgmisena seadistage kanalil „kohalik” riistvarajaam. Klõpsake **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Jaekauplused** &gt; **Kõik jaekauplused** ja valige kauplus. 
+Järgmisena seadistage kanalil „kohalik” riistvarajaam. Klõpsake **Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Poed** &gt; **Kõik poed** ja valige pood. 
 
 Seejärel klõpsake kiirkaardil **Riistvarajaamad** käsku **Lisa** riistvarajaama lisamiseks. Sisestage kirjeldus, sisestage hosti nimeks **localhost** ja sünkroonige siis kanali muudatused, kasutades jaotusgraafikut **Kanali konfigureerimine**. Jaotusgraafikud leiate, valides **Jaemüük ja kaubandus** &gt; **Jaemüügi ja kaubanduse IT** &gt; **Jaotusgraafik**. 
 
@@ -104,7 +104,7 @@ Lõpuks kasutage MPOS-is toimingut **Riistvarajaama valimine** riistvarajaama **
 
 Selles stsenaariumis jagavad MPOS-i ja Cloud POS-i kliendid eraldiseisvat riistvarajaama. See stsenaarium nõuab riistvarajaama profiili loomist allalaadimispaketi, pordi ja riistvaraprofiili määramiseks, mida riistvarajaam kasutab. Riistvarajaama profiili leiate asukohast **Jaemüük ja kaubandus** &gt; **Kanali seadistus** &gt; **Kassa seadistus** &gt; **Kassa profiilid** &gt; **Riistvarajaama profiilid**. 
 
-Pärast riistvarajaama profiili loomist minge konkreetse jaemüügikanali juurde (**Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Kauplused** &gt; **Kõik jaekauplused**) ja lisage uus riistvarajaam. Vastendage see uus riistvarajaam varem loodud riistvarajaama profiiliga. 
+Pärast riistvarajaama profiili loomist minge konkreetse jaemüügikanali juurde (**Jaemüük ja kaubandus** &gt; **Kanalid** &gt; **Poed** &gt; **Kõik poed**) ja lisage uus riistvarajaam. Vastendage see uus riistvarajaam varem loodud riistvarajaama profiiliga. 
 
 Järgmiseks sisestage kirjeldus, mis aitab kassiiril riistvarajaama tuvastada. Sisestage väljale **Hosti nimi** hostseadme URL järgmises vormingus: `https://<MachineName:Port>/HardwareStation`. (Asendage **&lt;MachineName:Port&gt;** riistvarajaama tegeliku seadmenime ja pordiga, mis on määratud riistvarajaama profiilis.) Eraldi riistvarajaama puhul tuleks täpsustada ka elektroonilise rahaülekande (EFT) terminali ID-d. See väärtus tähistab EFT terminali, mis on riistvarajaamaga ühendatud, kui makseühendus maksepakkujaga suhtleb. 
 

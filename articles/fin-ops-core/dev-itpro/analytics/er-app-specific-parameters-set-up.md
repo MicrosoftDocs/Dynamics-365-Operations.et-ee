@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9c5884bba494d2dd44f9204667144402a88ddec8
-ms.sourcegitcommit: d6196d83c7b9166ddb4fe43a91e6bd0ad9da2099
+ms.openlocfilehash: ca837026f18034cddb34d7a2d5a62002ed69106a
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2694334"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042753"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ER-vormingu parameetrite seadistamine juriidilise isiku kohta
 
@@ -240,7 +240,7 @@ Eelnevas näites pääsesite ER-vormingu rakendusekohastele parameetritele ligi 
     
         Seda lähenemist kasutades saate määrata kordumatu lahenduse ID (määratakse väärtuse **GUID** kaudu), et anda ligipääs ainult konkreetse ER-vormingu rakendusekohastele parameetritele ja sellest tuletatud koopiatele.
         
-        ```
+        ```xpp
         public void clicked()
             {
                 super();

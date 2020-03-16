@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 7d68f65c27ec8704ef588cf98bbe30fc70cd5b47
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4185d4762b65b6b1ce7531c3995f8bbe084a9c5f
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022287"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057297"
 ---
 # <a name="get-support-for-dynamics-365-retail"></a>Toe hankimine rakendusele Dynamics 365 Retail
 
@@ -48,7 +48,7 @@ Commerce’i toe hankimiseks kasutage järgmises tabelis olevaid ressursse. Ress
 <tbody>
 <tr>
 <td>Küsige kogukonnalt.</td>
-<td>Oma küsimusele Dynamics 365 kogukonnalt vastuse saamiseks minge <a href="https://community.dynamics.com/365/retail">Dynamics 365 Retaili</a> kogukonna lehele.</td>
+<td>Oma küsimusele Dynamics 365 kogukonnalt vastuse saamiseks minge <a href="https://community.dynamics.com/365/retail">Dynamics 365 kogukonna</a> lehele.</td>
 </tr>
 <tr>
 <td>Kasutage tööriista Teema otsing.</td>

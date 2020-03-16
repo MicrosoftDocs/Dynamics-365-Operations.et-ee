@@ -166,6 +166,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
                 - name: Salvestatud vaated
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: Ruudustiku võimalused
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Kohandatud väljade loomine ja nendega töötamine
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: PowerAppsi rakenduste manustamine
@@ -438,8 +440,6 @@
                   href: configure-call-center-delivery.md
                 - name: Pettuseteatiste seadistamine ja nendega töötamine
                   href: set-up-fraud-alerts.md
-                - name: Kõnekeskuste järjepidevusprogrammide seadistamine
-                  href: set-up-continuity-program.md
             - name: Täiendava kanali konfiguratsioon
               items:
                 - name: Kanali lisamine organisatsiooni hierarhiasse
@@ -450,7 +450,13 @@
                       href: omni-auto-charges.md
                     - name: Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele
                       href: pro-rate-charges-matching-lines.md
-                - name: Jaekaupluse haldus
+                - name: Hallake järjepidevusprogramme
+                  items:
+                    - name: Kõnekeskuste järjepidevusprogrammide seadistamine
+                      href: set-up-continuity-program.md
+                    - name: Järjepidevuse graafikute määratlemine
+                      href: tasks/define-continuity-schedules.md
+                - name: Kaupluse haldus
                   items:
                     - name: Kaupluse lahtiolekuaegade loomine ja muutmine
                       href: dev-itpro/store-hours.md
@@ -460,8 +466,6 @@
                   items:
                     - name: Kõnekeskuse tellimuse ootelolekute konfigureerimine ja nendega töötamine
                       href: work-with-order-holds.md
-                    - name: Järjepidevuse graafikute määratlemine
-                      href: tasks/define-continuity-schedules.md
                 - name: Maksed
                   items:
                     - name: Makseviisid
@@ -478,6 +482,8 @@
                       href: dev-itpro/adyen-connector.md
                     - name: Veebimaksevahendite salvestamine Adyeni konnektori abil
                       href: dev-itpro/adyen-connector-listpi.md
+                    - name: Kinkekaardi ja kreediteatise toimingute sujuv võrguühenduseta lüliti
+                      href: dev-itpro/seamless-offline-improvements.md
                     - name: Arve tasumise stsenaariumide seadistamine
                       href: payinvoice.md
                     - name: Duplikaatmaksete vältimine
@@ -494,9 +500,9 @@
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Jaemüügitoodete häälestamine
                   href: set-up-retail-products.md
-                - name: Jaemüügi tootehierarhia
+                - name: Tootehierarhia
                   items:
-                    - name: Jaemüügihierarhiad
+                    - name: Commerce'i hierarhiad
                       href: retail-hierarchies.md
                     - name: Loo uus tootehierarhia
                       href: create-product-hierarchy.md
@@ -624,6 +630,12 @@
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Reeglite ja parameetrite seadistamine ristlaadimise ja kesklaost jaotuse jaoks
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: Sissetulev laooperatsioon kassas
+                      href: pos-inbound-inventory-operation.md
+                    - name: Väljaminev laooperatsioon kassas
+                      href: pos-outbound-inventory-operation.md
+                    - name: Varude saadavuse arvutamine jaemüügikanalite jaoks
+                      href: calculated-inventory-retail-channels.md
                 - name: Ostutellimused
                   items:
                     - name: Ostutellimuse ülevaade
@@ -726,11 +738,23 @@
               href: tasks/store-configurations-retail-statements.md
             - name: Veebimüügi ja -maksete sisestamine
               href: tasks/posting-online-sales-payments.md
-        - name: E-kaubanduse saidi haldamine
+        - name: Töötaja ülesannete haldamine
+          items:
+            - name: Ülesandehalduse ülevaade
+              href: task-mgmt-overview.md
+            - name: Ülesandehalduse konfigureerimine
+              href: task-mgmt-configure.md
+            - name: Tööülesannete loendite loomine ja ülesannete lisamine
+              href: task-mgmt-create-lists.md
+            - name: Tööülesannete loendite määramine kauplustele või töötajatele
+              href: task-mgmt-assign-lists.md
+            - name: Ülesandehaldus kassas
+              href: task-mgmt-pos.md
+        - name: e-Commerce'i saidi haldamine
           items:
             - name: E-poe ülevaade
               href: online-store-overview.md
-            - name: E-kaubanduse saidi loomine
+            - name: e-Commerce saidi loomine
               items:
                 - name: Domeeninime konfigureerimine
                   href: configure-your-domain-name.md
@@ -880,6 +904,8 @@
                   items:
                     - name: Ostukasti moodul
                       href: add-buy-box.md
+                    - name: Hinnangute ja arvustuste moodulid
+                      href: ratings-reviews-modules.md
                 - name: Ostumoodulid
                   items:
                     - name: Ostukorvimoodul
@@ -1056,6 +1082,8 @@
               items:
                 - name: Dokumentide aruandlusteenuste ülevaade
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Toetatud fondid
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
                 - name: SSRS-i konfigureerimine kohapealseteks juurutamisteks
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Printimine
@@ -1834,8 +1862,6 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Moodulite eelvaade ja silumine
                       href: e-commerce-extensibility/test-module.md
-                    - name: Moodulite silumine
-                      href: e-commerce-extensibility/debug-modules.md
                     - name: Moodulite testimine mudelitega
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Moodulite testimine lehemudelitega
@@ -1976,6 +2002,8 @@
                   href: dev-itpro/pos-run-samples.md
                 - name: Seadmehalduse juurutamise juhised
                   href: implementation-considerations-devices.md
+                - name: Kassa ostukorvi vaate sündmused ja käitlejad
+                  href: dev-itpro/cart-view-handlers.md
             - name: Hardware Stationi laiendatavus
               items:
                 - name: Hardware Station ja laiendatavus
@@ -2032,6 +2060,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: Laiendussündmuste logimine rakendusse Application Insights
                   href: dev-itpro/commerce-application-insights.md
+                - name: Saate luua oma äriloogika asünkroonse Commerce'i (CRT) API-d
+                  href: dev-itpro/async-commerce-extension.md
             - name: Makseühenduse laiendatavus
               items:
                 - name: Makse integreerimise loomine makseterminali jaoks
@@ -2048,7 +2078,9 @@
                   href: payment-connector-data-fields.md
                 - name: Maksekonnektori duplikaatmaksete kaitse lubamine
                   href: dev-itpro/duplicate-payment-protection.md
-            - name: Kolmanda osapoole e-kaubanduse laiendatavus
+                - name: Looge maksepakett Application Exploreri jaoks Service Fabricu juurutustes
+                  href: dev-itpro/payment-connector-package.md
+            - name: Kolmanda osapoole e-Commerce laiendatavus
               items:
                 - name: Võrgupoodide konfigureerimine
                   href: dev-itpro/configure-online-store.md
@@ -2060,8 +2092,6 @@
               href: dev-itpro/extension-resource-localization.md
     - name: Rakenduste Finance and Operations arendamine ja haldus
       href: ../fin-ops-core/dev-itpro/index.md
-    - name: Dynamics 365 Retail
-      href: index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Supply Chain Management

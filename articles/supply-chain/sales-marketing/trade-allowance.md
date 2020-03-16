@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 623c25490964ccdf6abc37acaffee7ac0844cf39
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 35aad9bf89ba8c1ed6451304d8fc4fc6ffa575b5
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251151"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057775"
 ---
 # <a name="trade-allowance-management"></a>Kaubandushüvitise haldus
 
 [!include [banner](../includes/banner.md)]
 
-Kaubandushüvitise haldus aitab ettevõtetel hallata müügi kampaaniaprogramme, mis pakuvad jaekaubanduses rahalisi tulemuspreemiaid klientidele, kes saavutavad mahulisi ja käitumuslikke eesmärke. Funktsiooni võimalused on loodud ettevõtetele, kes keskenduvad ulatuslikele kasumi nimel premeerimise protsessidele, alates kampaaniafondi eelarve koostamisest ja eraldamisest kuni hüvitise lepingu seadistamise, nõuete loomise ja töötlemise, maksete töötlemise ning kampaania tõhususe analüüsimiseni.
+Kaubandushüvitise haldus aitab ettevõtetel hallata müügi kampaaniaprogramme, mis pakuvad rahalisi tulemuspreemiaid klientidele, kes saavutavad mahulisi ja käitumuslikke eesmärke. Funktsiooni võimalused on loodud ettevõtetele, kes keskenduvad ulatuslikele kasumi nimel premeerimise protsessidele, alates kampaaniafondi eelarve koostamisest ja eraldamisest kuni hüvitise lepingu seadistamise, nõuete loomise ja töötlemise, maksete töötlemise ning kampaania tõhususe analüüsimiseni.
 
 
 Selles artiklis antakse põhjalik ülevaade kaubandushüvitise halduse funktsioonist ja tutvustatakse teile tüüpilisi ülesannete komplekte, mis on seotud müügi kampaaniaprogrammide haldamisega. Seda funktsiooni peaksid oma vastavate eesmärkide saavutamiseks kasutama mitut tüüpi kasutajad, kellel on funktsionaalsed ja otsustamisrollid.
@@ -77,7 +77,7 @@ Kui fondidefinitsioon on paigas, on kampaania plaanimise järgmine samm registre
 
 Kaubandushüvitise lepingud salvestatakse lehele **Kaubandushüvitise lepingud**. Lehe **Kaubandushüvitise lepingud** avamiseks valige suvandid **Müük ja turundus** \> **Kaubandushüvitised** \> **Kaubandushüvitise lepingud**.
 
-![Kaubandushüvitise lepingute leht](./media/trade-allowance-management-agreements-page.png "Kaubandushüvitise lepingute leht")
+![Kaubandushüvitise lepete leht](./media/trade-allowance-management-agreements-page.png "Kaubandushüvitise lepete leht")
 
 #### <a name="header"></a>Päis
 

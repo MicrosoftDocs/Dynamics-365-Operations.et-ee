@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3f2616fd98b37576625d9586a1cda29ce1b89f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022307"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057483"
 ---
 # <a name="retail-sales-price-management"></a>Retaili müügihinna haldamine
 
@@ -43,23 +43,23 @@ Selles teemas on kasutatud järgmisi mõisteid.
 
 ## <a name="price-groups"></a>Hinnagrupid
 
-Hinnagrupid on rakenduses Commerce hinna ja allahindluste haldamise keskmes. Hinnagruppe kasutatakse hindade ja allahindluste määramiseks jaemüügiüksustele (nt kanalitele, kataloogidele, ühendustele ja püsikliendiprogrammidele). Kuna hinnagruppe kasutatakse igasuguse hinnakujunduse ja allahindluste jaoks, on väga oluline, et plaaniksite, kuidas neid enne alustamist kasutate.
+Hinnagrupid on rakenduses Commerce hinna ja allahindluste haldamise keskmes. Hinnagruppe kasutatakse hindade ja allahindluste määramiseks kaubanduse üksustele (nt kanalitele, kataloogidele, ühendustele ja püsikliendiprogrammidele). Kuna hinnagruppe kasutatakse igasuguse hinnakujunduse ja allahindluste jaoks, on väga oluline, et plaaniksite, kuidas neid enne alustamist kasutate.
 
-Eraldi on hinnagrupp lihtsalt nimi, kirjeldus ja valikuliselt hinnakujunduse prioriteet. Hinnagruppide juures on peamine meeles pidada, et neid kasutatakse mitu-mitmele-seoste haldamiseks, mis on allahindlustel ja hindadel jaemüügiüksustes.
+Eraldi on hinnagrupp lihtsalt nimi, kirjeldus ja valikuliselt hinnakujunduse prioriteet. Hinnagruppide juures on peamine meeles pidada, et neid kasutatakse mitu-mitmele-seoste haldamiseks, mis on allahindlustel ja hindadel kaubanduse üksustes olemas.
 
-Alloleval joonisel on näidatud, kuidas hinnagruppe kasutatakse. Pange tähele, et sellel joonisel on hinnagrupp täpselt hinnakujunduse ja allahindluse haldamise keskel. Jaemüügiüksused, mida kasutate eristavate hindade ja allahindluste haldamiseks, on vasakul, ning tegelik hind ja allahindluse kirjed on paremal.
+Alloleval joonisel on näidatud, kuidas hinnagruppe kasutatakse. Pange tähele, et sellel joonisel on hinnagrupp täpselt hinnakujunduse ja allahindluse haldamise keskel. Kaubanduse üksused, mida kasutate eristavate hindade ja allahindluste haldamiseks, on vasakul, ning tegelik hind ja allahindluse kirjed on paremal.
 
 ![Hinnagrupid](./media/PriceGroups.png "Hinnagrupid")
 
-Hinnagruppe luues ei tohiks kasutada üht hinnagrupi mitut tüüpi jaemüügiüksuste jaoks. Muidu võib olla keeruline määrata, miks konkreetset hinda või allahindlust kandele rakendatakse.
+Hinnagruppe luues ei tohiks kasutada üht hinnagrupi mitut tüüpi kaubanduse üksuste jaoks. Muidu võib olla keeruline määrata, miks konkreetset hinda või allahindlust kandele rakendatakse.
 
 Nagu punane katkendjoon joonisel näitab, toetab Commerce Microsoft Dynamics 365 otse kliendile määratud hinnagrupi põhifunktsioone. Kuid sellisel juhul saate ainult müügihinna kaubanduslepingud. Kui soovite rakendada kliendipõhiseid hindu, soovitame otse kliendile hinnagruppe mitte määrata. Selle asemel kasutage alluvusi.
 
-Järgmistes jaotistes on rohkem teavet jaemüügiüksuste kohta, mida saate hinnagruppide kasutamisel kasutada eraldi hindade määramiseks. Kõikide nende üksuste hindade ja allahindluste konfiguratsioon on kahesammuline protsess. Neid samme võib läbida mis tahes järjekorras. Kuid loogiline järjekord on kõigepealt määrata üksustele hinnagrupid, kuna see samm on tõenäoliselt ühekordne seadistamissamm, mida tehakse juurutamise ajal. Kui hinnad ja allahindlused on loodud, saate neile eraldi määrata hinnagrupid.
+Järgmistes jaotistes on rohkem teavet kaubanduse üksuste kohta, mida saate hinnagruppide kasutamisel kasutada eraldi hindade määramiseks. Kõikide nende üksuste hindade ja allahindluste konfiguratsioon on kahesammuline protsess. Neid samme võib läbida mis tahes järjekorras. Kuid loogiline järjekord on kõigepealt määrata üksustele hinnagrupid, kuna see samm on tõenäoliselt ühekordne seadistamissamm, mida tehakse juurutamise ajal. Kui hinnad ja allahindlused on loodud, saate neile eraldi määrata hinnagrupid.
 
 ### <a name="channels"></a>Kanalid
 
-Jaemüügitööstuses on väga tavaline, et eri kanalites on eri hinnad. Kaks peamist tegurit, mis kanalipõhiseid hindu mõjutavad, on hinnad ja kohalikud turutingimused.
+Kaubanduse tööstuses on väga tavaline, et eri kanalites on eri hinnad. Kaks peamist tegurit, mis kanalipõhiseid hindu mõjutavad, on hinnad ja kohalikud turutingimused.
 
 - **Kulud** – mida kaugemal on kanal toote lähtekohast, seda kallim on toote laos hoidmine. Näiteks värskel tootel on piiratud kõlblikkusaeg ja konkreetne tootmisplaan (nt kasvuaeg). Talvel maksab värske lehtsalat tõenäoliselt rohkem põhjapoolsetes kui lõunapoolsetes kohtades. Kui määrata hindu kanalitele suurel geograafilisel alal, tahate ilmselt määrata eri kanalitele erinevad hinnad.
 - **Kohalikud turutingimused** – kauplus, millest üle tee on otsene konkurent, on palju hinnatundlikum kui kauplus, mille läheduses otseseid konkurente pole.
@@ -84,7 +84,7 @@ Mõni jaemüüja kasutab füüsilisi või virtuaalseid katalooge toodete turusta
 
 ### <a name="best-practices-for-price-groups"></a>Hinnagruppide head tavad
 
-Ärge kasutage hinnagruppi mitme jaemüügiüksuse tüübi jaoks. Selle asemel kasutage üht hinnagruppide kogumit kanalite, teist hinnagruppide kogumit alluvuste või püsikliendiprogrammide jaoks jne. Võite hinnagrupi nimes kasutada ees- või järelliidet, et visuaalselt rühmitada eri hinnagruppide tüüpe, mida kasutate.
+Ärge kasutage hinnagruppi mitme kaubanduse üksuse tüübi jaoks. Selle asemel kasutage üht hinnagruppide kogumit kanalite, teist hinnagruppide kogumit alluvuste või püsikliendiprogrammide jaoks jne. Võite hinnagrupi nimes kasutada ees- või järelliidet, et visuaalselt rühmitada eri hinnagruppide tüüpe, mida kasutate.
 
 Vältige hinnagruppide määramist otse kliendile. Selle asemel kasutage alluvust. Sedasi saate määrata kõik hindade ja allahindluste tüübid klientidele, mitte ainult müügihinna kaubanduslepingutele.
 
@@ -98,7 +98,7 @@ Hindade hinnakujunduse prioriteedi kasutamiseks peate määrama hinnagrupile hin
 
 Hinnakujunduse prioriteedi funktsioon võeti kasutusele, et toetada stsenaariumi, kus jaemüüja soovib konkreetsele kaupluste kogumile rakendada kõrgemaid hindu. Näiteks on jaemüüja määranud piirkondlikud hinnad Ameerika Ühendriikide idarannikule, aga soovib kõrgemaid hindu mõnele tootele New York City kauplustes, kuna linnas maksab mõne toote müümine rohkem ja/või kohalikul turul kehtib kõrgem hind.
 
-Nagu kirjeldasime selle teema jaotises „Parim hind”, valib jaemüügi hinnakujunduse mootor tavaliselt kahest hinnast madalama. Seetõttu ei saa jaemüüja enamasti kasutada kahest kõrgemat hinda kaupluses, millel on nii idaranniku kui ka New Yorgi hinnagrupid. Selle probleemi lahendamiseks enne hinnakujunduse prioriteedi funktsiooni kasutusele võtmist pidi jaemüüja määrama hinnad iga tootele kaks korda ja mitte määrama mõlemat hinnagruppi. Teine võimalus oli luua täiendavad hinnagrupid, et eraldada kõrgema hinnaga tooteid tavalise, madalama hinnaga toodetest.
+Nagu kirjeldasime selle teema jaotises „Parim hind”, valib hinnakujunduse mootor tavaliselt kahest hinnast madalama. Seetõttu ei saa jaemüüja enamasti kasutada kahest kõrgemat hinda kaupluses, millel on nii idaranniku kui ka New Yorgi hinnagrupid. Selle probleemi lahendamiseks enne hinnakujunduse prioriteedi funktsiooni kasutusele võtmist pidi jaemüüja määrama hinnad iga tootele kaks korda ja mitte määrama mõlemat hinnagruppi. Teine võimalus oli luua täiendavad hinnagrupid, et eraldada kõrgema hinnaga tooteid tavalise, madalama hinnaga toodetest.
 
 Kuid hinnakujunduse prioriteedi funktsioon laseb jaemüüjal luua kaupluse hindade hinnakujunduse prioriteedi, mis on kõrgem kui piirkondlike hindade hinnakujunduse prioriteet. Teine võimalus on luua hinnakujunduse prioriteet ainult kaupluse hindadele ja jätta piirkondlikud hinnad vaikimisi hinnakujunduse prioriteedi väärtusele, mis on 0 (null). Mõlemad seadistused aitavad tagada selle, et kaupluse hindu kasutatakse alati enne piirkondlikke hindu.
 
@@ -142,7 +142,7 @@ Lihtsaim koht tootele hinna määramiseks on otse tootel. Otse tootel määratud
 
 Kui tootel on kõigi jaoks üks hind, pakub baashind kõige tõhusamat viisi selle toote hinna haldamiseks. Isegi kui kasutate hindade määramiseks kaubanduslepinguid, võite tootele määrata ka baashinna. Kui te siis ei kasuta kaubanduslepingut **Kõik**, on teil olemas varuhind, mida kasutatakse, kui kaubanduslepingut ei rakendu.
 
-Kui jaemüügikanali valuuta erineb ettevõtte valuutast, määratakse selle kanali baashind, kasutades tootele määratud hinnal valuutateisendust.
+Kui kanali valuuta erineb ettevõtte valuutast, määratakse selle kanali baashind, kasutades tootele määratud hinnal valuutateisendust.
 
 Kuigi hinnaühik ei ole tavastsenaarium, toetab hinnakujunduse mootor seda. Kui hinnaühik on määratud muule väärtusele kui **0** (null), on hind ühiku kohta võrdne võrrandiga hind ÷ hinnaühik. Näiteks kui kauba hind on 10 dollarit ja hinnaühik on 50, on koguse 1 hind 0,20 dollarit (= 10 ÷ 50).
 
@@ -150,9 +150,9 @@ Kuigi hinnaühik ei ole tavastsenaarium, toetab hinnakujunduse mootor seda. Kui 
 
 Kaubanduslepingu töölehte kasutades saate luua igale tootele müügihinna kaubanduslepinguid. Rakenduses Microsoft Dynamics 365 on kolm müügihinna kaubanduslepingutele kolm kliendiulatust: **Tabel**, **Grupp** ja **Kõik**. Kliendiulatus määrab kliendid, kellele konkreetne müügihinna kaubandusleping kehtib.
 
-Müügihinna kaubandusleping **Tabel** on ühele kliendile, kes on määratud otse kaubanduslepingus. See stsenaarium ei ole tavaline jaemüügi ettevõtte ja tarbija vaheline (B2C) stsenaarium. Samas kui see tekib, kasutab hinnakujunduse mootor kaubanduslepinguid **Tabel**, kui see määrab hinna.
+Müügihinna kaubandusleping **Tabel** on ühele kliendile, kes on määratud otse kaubanduslepingus. See stsenaarium ei ole tavaline ettevõtte ja tarbija vaheline (B2C) stsenaarium. Samas kui see tekib, kasutab hinnakujunduse mootor kaubanduslepinguid **Tabel**, kui see määrab hinna.
 
-Müügihinna kaubandusleping **Grupp** on tüüp, mida kasutatakse jaemüügi funktsiooniga kõige sagedamini. Väljaspool Commerce’i on müügihinna kaubanduslepingud **Grupp** mõeldud lihtsatele kliendigruppidele. Kuid Commerce’is on kliendigrupi mõistet laiendatud, nii et see on üldisem hinnagrupp. Hinnagrupp võib olla seotud kanali, alluvuse, püsikliendi programmi või kataloogiga. Üksikasjalikku teavet hinnagruppide kohta leiate selle teema jaotisest „Hinnagrupid”.
+Müügihinna kaubandusleping **Grupp** on tüüp, mida kasutatakse kõige sagedamini. Väljaspool Commerce’i on müügihinna kaubanduslepingud **Grupp** mõeldud lihtsatele kliendigruppidele. Kuid Commerce’is on kliendigrupi mõistet laiendatud, nii et see on üldisem hinnagrupp. Hinnagrupp võib olla seotud kanali, alluvuse, püsikliendi programmi või kataloogiga. Üksikasjalikku teavet hinnagruppide kohta leiate selle teema jaotisest „Hinnagrupid”.
 
 > [!NOTE]
 > Kaubanduslepingu hinda kasutatakse alati enne baashinda.
@@ -211,7 +211,7 @@ Microsoft SQL Server Expressi kasutatakse kanali andmebaasides sageli hinna tõt
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Maksu sisaldavad ja maksu mitte sisaldavad hinnad
 
-Kui määrate Dynamics 365-s müügihinnad, siis te ei määra, kas määratav hinnaväärtus sisaldab maksu või mitte. Väärtus väljal lihtsalt hind. Samas jaemüügikanalite säte **Hind sisaldab käibemaksu** laseb konfigureerida kanaleid nii, et need kas lisavad hinnale maksu või mitte. See säte on määratud kanalis ja seda saab muuta isegi ühes ettevõttes.
+Kui määrate Dynamics 365-s müügihinnad, siis te ei määra, kas määratav hinnaväärtus sisaldab maksu või mitte. Väärtus väljal lihtsalt hind. Samas kanalite säte **Hind sisaldab käibemaksu** laseb konfigureerida kanaleid nii, et need kas lisavad hinnale maksu või mitte. See säte on määratud kanalis ja seda saab muuta isegi ühes ettevõttes.
 
 Kui töötate nii hõlmavate kui ka välistavate maksutüüpidega, on väga oluline määrata hinnad õigesti, kuna kogusumma, mille klient maksab, muutub, kui kanali sätet **Hind sisaldab käibemaksu** muudetakse.
 
@@ -219,15 +219,15 @@ Kui töötate nii hõlmavate kui ka välistavate maksutüüpidega, on väga olul
 
 Hindade arvutamiseks kõikides kanalites (kõnekeskus, kauplus ja e-poed) kasutatakse üht hinnakujunduse mootorit. See aitab lubada ühtlustatud kaubanduse stsenaariume.
 
-Jaemüügi hinnakujundus on loodud toimima jaemüügiüksustega, mitte jaemüügiga mitteseotud üksustega. Eeskätt on see loodud määrama hindu kaupluse, mitte lao järgi.
+Hinnakujundus on loodud toimima jaemüügiüksustega, mitte jaemüügiga mitteseotud üksustega. Eeskätt on see loodud määrama hindu kaupluse, mitte lao järgi.
 
-Jaemüügi hinnakujunduse mootor **ei toeta** järgmisi hinnakujunduse funktsioone.
+Hinnakujunduse mootor **ei toeta** järgmisi hinnakujunduse funktsioone.
 
-- Hinna määramine tegevuskoha või tegevuskoha ja laoala dimensioone kasutades pole toetatud. Kui täpsustate kaubandusleppes ainult tegevuskoha dimensioonid, siis jaemüügi hinnakujundus ignoreerib tegevuskohta ja rakendab kaubandusleppe kõigile saitidele. Kui määrate nii tegevuskoha kui ka lao, siis on käitumine määratlemata/testimata, kuna eeldatakse, et jaemüüjad kasutavad poe hinnagruppe, kontrollida iga kaupluse/lao hindu.
+- Hinna määramine tegevuskoha või tegevuskoha ja laoala dimensioone kasutades pole toetatud. Kui täpsustate kaubandusleppes ainult tegevuskoha dimensioonid, siis hinnakujunduse mootor ignoreerib tegevuskohta ja rakendab kaubandusleppe kõigile saitidele. Kui määrate nii tegevuskoha kui ka lao, siis on käitumine määratlemata/testimata, kuna eeldatakse, et jaemüüjad kasutavad poe hinnagruppe, kontrollida iga kaupluse/lao hindu.
 - Atribuudipõhist hinnakujundust ei toetata.
 - Hankija allahindluse läbimist ei toetata.
 
-Peale selle toetab järgmisi hinnakujunduse funktsioone **ainult** jaemüügi hinnakujunduse mootor.
+Peale selle toetab järgmisi hinnakujunduse funktsioone **ainult** hinnakujunduse mootor.
 
 - Hind põhineb tootedimensioonil kõige konkreetsemast variandi hinnast kõige vähem konkreetse variandi hinnani tooteetaloni hinnani. Hinda, mis on määratud kaht tootedimensiooni kasutades (nt värv ja suurus), kasutatakse enne hinda, mis on määratud ainult üht tootedimensiooni kasutades (nt suurus).
 - Hinnakujunduse ja allahindluste juhtimiseks saab kasutada sama hinnagruppi.

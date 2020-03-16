@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a52e8f65e7e2a8d90ddf5efa47c07d6995ef645d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
+ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019737"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3081147"
 ---
 # <a name="unified-product-experience"></a>Ühendatud toote kasutusfunktsionaalsus
 
@@ -109,7 +109,7 @@ Pange tähele, et toodete sünkroonimine toimub Finance and Operationsi rakendus
 
 Tootedimensioonid on tootevarianti identifitseerivad omadused. Tootevariantide määratlemiseks vastendatakse Common Data Service ka nelja tootedimensiooniga (värv, suurus, stiil ja konfiguratsioon). Järgmisel joonisel on näidatud tootedimensiooni värvi andmetabelit. Sama mudelit rakendatakse suurustele, stiilidele ja konfiguratsioonidele. 
 
-![Toodete andmemudel](media/dual-write-product-2.PNG)
+![Toodete andmemudel](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +145,7 @@ Tellimuse vaikesätted määratlevad tegevuskoha ja lao, kust kaupu hangitakse v
 
 Mõõtühikud ja selle vastavad teisendused on saadaval Common Data Service’is, mis järgib diagrammil kuvatavat andmudelit.
 
-![Toodete andmemudel](media/dual-write-product-3.PNG)
+![Toodete andmemudel](media/dual-write-product-three.png)
 
 Mõõtühiku kontseptsioon on integreeritud Finance and Operationsi rakenduste ja muude Dynamics 365 rakenduste vahel. Iga ühiku klassi kohta Finance and Operationsi rakenduses luuakse ühiku grupp Dynamics 365 rakenduses, mis sisaldab ühiku klassi kuuluvaid ühikuid. Iga ühikurühma jaoks luuakse ka vaikimisi baasühik. 
 
@@ -176,7 +176,7 @@ Osana topeltkirjutamisest luuakse ja sünkroonitakse ühikute grupid Finance and
 
 Ühikute jaoks teistes Dynamics 365 rakendustes, mida pole Finance and Operationsi rakendustes, tehke järgmist.
 
-Väli msdyn_symbol tuleb täita kõikide ühikute kohta. Ühikuid saab alati luua Finance and Operationsi rakendustes vastavas ühiku klassis (kui see on olemas). Kui ühiku klassi pole, tuleb kõigepealt luua ühiku klass (pange tähele, et ühiku klassi ei saa luua Finance and Operationsi rakendustes muud moodi kui läbi laienduse, kui laiendate loetelu), mis vastab teiste Dynamics 365 rakenduste ühiku grupile. Seejärel saate luua ühiku. Pange tähele, et ühiku sümbol Finance and Operationsi rakendustes peab olema varem teistes Dynamics 365 rakendustes ühikuks määratud msdyn_symbol.
+Väli msdyn_symbol tuleb täita kõikide ühikute kohta. Ühikuid saab alati luua Finance and Operationsi rakendustes vastavas ühiku klassis (kui see on olemas). Kui ühiku klassi pole olemas, tuleb kõigepealt luua ühiku klass (pange tähele, et ühiku klassi ei saa luua Finance and Operationsi rakendustes muud moodi kui läbi laienduse, kui laiendate loetelu), mis vastab teiste Dynamics 365 rakenduste ühiku grupile. Seejärel saate luua ühiku. Pange tähele, et ühiku sümbol Finance and Operationsi rakendustes peab olema varem teistes Dynamics 365 rakendustes ühikuks määratud msdyn_symbol.
 
 ## <a name="product-policies-dimension-tracking-and-storage-groups"></a>Tootepoliitika: dimensioon, jälgimise ja laoala grupid
 
@@ -205,13 +205,13 @@ Toodete kordumatuks tuvastamiseks Dynamics 365 for Finance and Operationsi ja Co
 
 Teiste Dynamics 365 rakenduste kasutaja jaoks tuvastatakse toode kasutajaliideses üksusega **msdyn_productnumber** (pange tähele, et välja silt on **Tootenumber**). Toote vormil kuvatakse nii ettevõte kui ka msydn_productnumber. Kuid välja (productnumber), toote kordumatut võtit, ei kuvata. 
 
-Pange tähele, et kui rakendused ehitatakse Common Data Service’i peale, tuleb eraldi tähelepanu pöörata välja (productnumber) kasutamisele, mis on toote kordumatu ID, nagu integreerimisvõti, mitte msdyn_productnumber, kuna viimane ei ole kordumatu. 
+Kui koostate rakendusi teenuses Common Data Service, peaksite olema tähelepanelik, et kasutaksite integratsiooni võtmena suvandit **productnumber** (kordumatu toote ID). Ärge kasutage varianti **msdyn_productnumber**, kuna see pole kordumatu. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Toodete esialgne sünkroonimine ja andmete migreerimine Common Data Service’ist rakendusse Finance and Operations
 
 ### <a name="initial-synchronization-of-products"></a>Toodete esialgne sünkroonimine 
 
-Kui topeltkirjutamine on lubatud, sünkroonitakse Dynamics 365 Finance and Operationsi tooteid Common Data Service’i ja teiste Dynamics 365 rakendustega. Pange tähele, et Common Data Service’is ja teistes Dynamics 365 rakendustes enne topeltkirjutamist loodud tooteid ei värskendata ega viida vastavusse toote andmetega rakendusest Finance and Operations.
+Kui topeltkirjutamine on lubatud, sünkroonitakse Finance and Operationsi rakenduste tooteid teenusega Common Data Service ja teiste Dynamics 365 mudelipõhiste rakendustega. Common Data Service’is ja teistes Dynamics 365 rakendustes enne topeltkirjutamise väljaandmist loodud tooteid ei värskendata ega viida vastavusse toote andmetega Finance and Operationsi rakendustest.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Toote andmete vastavusse viimine Finance and Operationsi ja teiste Dynamics 365 rakendustega
 

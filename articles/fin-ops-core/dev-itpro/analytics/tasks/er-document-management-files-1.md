@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c6085f2f06fb374887d504c332a34705f0fd9e99
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026130"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042823"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>Elektrooniline aruandlus. Dokumendihalduse failide kasutamine vormingu väljundites (1. osa – andmemudeli ettevalmistamine)
 
@@ -36,10 +36,14 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Juurdepääsu saamine Microsofti pakutavale konfiguratsioonide loendile
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-    * Veenduge, et „Litware, Inc.“ pakkuja on saadaval ja märgitud aktiivseks.  
+
+    Veenduge, et „Litware, Inc.“ pakkuja on saadaval ja märgitud aktiivseks.  
+
 2. Valige ettevõtte Litware, Inc. pakkuja.
 3. Klõpsake valikut Hoidlad.
-    * Kui on juba olemas hoidla tüübiga Operatsiooniressursid, siis jätke praeguse alamtoimingu ülejäänud etapid vahele.  
+
+    Kui on juba olemas hoidla tüübiga Operatsiooniressursid, siis jätke praeguse alamtoimingu ülejäänud etapid vahele.  
+
 4. Klõpsake valikut Lisa rippdialoogi avamiseks.
 5. Sisestage väljale Konfiguratsiooni hoidla tüüp tekst Operatsiooniressursid.
 6. Klõpsake käsku Loo hoidla.
@@ -51,9 +55,13 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 3. Klõpsake suvandit Näita filtreid.
 4. Klõpsake valikut Ava.
 5. Valige puult Kliendiarve mudel.
-    * Valige selle importimiseks mudeli konfiguratsioon Kliendiarve mudel.  
+
+    Valige selle importimiseks mudeli konfiguratsioon Kliendiarve mudel.  
+
 6. Klõpsake Import.
-    * Klõpsake valikut Impordi valitud konfiguratsiooni versioonile 1.  
+
+    Klõpsake valikut Impordi valitud konfiguratsiooni versioonile 1.  
+
 7. Klõpsake nuppu Jah.
 8. Sulgege leht.
 9. Sulgege leht.
@@ -65,6 +73,5 @@ Loote oma konfiguratsiooni kliendiarve mudelist, tuletades selle Microsofti antu
 1. Klõpsake valikut Loo konfiguratsioon, et avada rippdialoog.
 2. Sisestage väljale Uus tekst Tuleta väärtusest Nimi: kliendiarve mudel, Microsoft.
 3. Tippige väljale Nimi tekst Kliendiarve mudel (kohandatud).
-    * Kliendiarve mudel (kohandatud)  
 4. Klõpsake Loo konfiguratsioon.
 

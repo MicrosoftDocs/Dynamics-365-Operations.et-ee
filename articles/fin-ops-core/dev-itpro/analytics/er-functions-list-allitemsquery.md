@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 647019a103006c8b74bc26885c51f5372dcf0c42
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 99f2aa9863e36a2f2eb1db5d0569d2a82402969a
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917507"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070640"
 ---
 # <a name="ALLITEMSQUERY">ER-i funktsioon ALLITEMSQUERY</a>
 
@@ -33,7 +33,7 @@ Funktsioon `ALLITEMSQUERY` töötab liidetud SQL-päringuna. See tagastab uue ta
 
 ## <a name="syntax"></a>Süntaks
 
-```
+```vb
 ALLITEMSQUERY (path)
 ```
 
@@ -65,7 +65,7 @@ Määratlege oma mudelivastenduses järgmised andmeallikad.
 
 Kui käitate mudelivastenduse andmeallika **JourLines** poole pöördumiseks, käivitatakse järgmine SQL-avaldis.
 
-```
+```sql
 SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN
 CUSTINVOICETRANS T3 WHERE...
 ```

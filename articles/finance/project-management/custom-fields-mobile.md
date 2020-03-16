@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773641"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080768"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Kohandatud väljade juurutamine mobiilirakenduses Microsoft Dynamics 365 Project Timesheet iOS-is ja Androidis
 
@@ -183,7 +183,7 @@ Järgmises näites on näha stringiväli ajakirjetel. Sellel väljal on kaks suv
 
 Pange tähele, et kasutatud on meetodit **TSTimesheetCustomField::newFromMetatdata()** kohandatud välja atribuutide lähtestamise lihtsustamiseks: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** ja **numberOfDecimals**. Saate neid parameetreid ka eelistuste järgi käsitsi seadistada.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 Meetodit **buildCustomFieldListForEntry** kasutatakse väärtuste sisestamiseks salvestatud ajatabeli ridadele mobiilirakenduses. See kasutab kirjet TSTimesheetTrans parameetrina. Välju sellest kirjest saab kasutada kohandatud välja väärtuse täitmiseks rakenduses.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ Kohandatud välja salvestamiseks tagasi andmebaasi tavakasutuse korral peate lai
 > [!NOTE]
 > Järgmises näites salvestatakse kasutaja valitud väärtus **firstOption** või **secondOption** andmebaasi toorstringi väärtusena. Kui andmebaasi väli on tüüp **Loetelu**, saan neid väärtusi käsitsi vastendada loetelu väärtusega ja seejärel salvestada need loetelu välja andmebaasi tabelis.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ See kood reguleerib välja kuvasätteid rakenduses. Näiteks reguleerib see väl
 
 Järgmises näites on näha arvutatud väärtus rakenduse päise jaotises.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 Meetodit **buildCustomFieldListForHeader** kasutatakse ajatabeli päise üksikasjade sisestamiseks salvestatud ajatabeli ridadele mobiilirakenduses. See kasutab kirjet TSTimesheetTable parameetrina. Välju sellest kirjest saab kasutada kohandatud välja väärtuse täitmiseks rakenduses. Järgmises näites ei loeta andmebaasist ühtki väärtust. Selle asemel kasutab see X++ loogikat arvutatud väärtuse loomiseks, mis kuvatakse seejärel rakenduses.
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension

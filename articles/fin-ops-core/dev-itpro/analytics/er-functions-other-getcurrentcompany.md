@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0b4c93a4705cd0e382b9b6c7af1d199beeceabe
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d91caff1a1b89e060a16833e53f3647208ed3826
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915989"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041419"
 ---
 # <a name="GETCURRENTCOMPANY">ER-i funktsioon GETCURRENTCOMPANY</a>
 
@@ -33,7 +33,7 @@ Funktsioon `GETCURRENTCOMPANY` tagastab *stringi* väärtuse, mis tähistab juri
 
 ## <a name="syntax"></a>Süntaks
 
-```
+```vb
 GETCURRENTCOMPANY ()
 ```
 
