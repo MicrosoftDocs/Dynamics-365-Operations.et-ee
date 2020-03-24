@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
-ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
+ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957363"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117333"
 ---
 # <a name="business-document-management-overview"></a>Äridokumentide halduse ülevaade
+
+[!include [banner](../includes/banner.md)]
 
 Äriüksuse kasutajad kasutavad raamistikku [Elektrooniline aruandlus (ER)](general-electronic-reporting.md), et konfigureerida väljuvate dokumentide vorminguid erinevate riikide/regioonide õigusnõuete järgi. Kasutajad saavad määratleda ka andmevoo, et täpsustada, mis avalduse andmeid loodud dokumendid sisaldavad. ER raamistik loob eelmääratletud mallide abil väljuvaid dokumente Microsoft Office’i vormingutes (Exceli töövihikud või Wordi dokumendid). Mallid täidetakse nõutud dokumentide loomise ajal kohustuslike andmetega vastavalt seadistatud andmevoole. Kindlate väljuvate dokumentide loomiseks saab kõiki vorminguid avaldada ER-lahenduse osana. Seda tähistab ER-vormingu seadistus, mis sisaldab erinevate väljuvate dokumentide loomiseks kasutatavaid malle. Äriüksuse kasutajad saavad selle raamistikuga hallata vajalikke äridokumente.
 
@@ -147,7 +149,7 @@ Lisateavet nõutavate dokumendihalduse näitajate ja dokumenditüüpide seadista
 
 ![Seadistage dokumendihalduse dokumendi tüüp](./media/BDM-Overview-DMSetting.png)
 
-### <a name="SetupBdmParameters">Seadistage näitajad</a>
+### <a name=""></a><a name="SetupBdmParameters">Seadistage näitajad</a>
 
 Põhilisi äridokumendi halduse näitajaid saate seadistada lehel **Äridokumendi näitajad**. Lehele pääsevad ligi vaid kindlad kasutajad. See hõlmab:
 
@@ -158,7 +160,7 @@ Kõigi juriidiliste isikute põhinäitajate seadistamiseks toimige järgnevalt.
 
 1. Logige sisse kasutajana, kes pääseb ligi lehele **Äridokumendi näitajad**.
 2. Minge **Organisatsioon haldus** \> **Digiaruandlus** \> **Äridokumendi haldus** \> **Äridokumendi näitajad**.
-3.  Lehe **Äridokumendi näitajad** vahekaardi **Manused** väljal **SharePointi dokumendi tüüp** määratlege dokumendi tüüp, millega võidaks ajutiselt talletada malle Office’i vormingutes, kui neid muudetakse Office’i töölauarakendustega. 
+3.    Lehe **Äridokumendi näitajad** vahekaardi **Manused** väljal **SharePointi dokumendi tüüp** määratlege dokumendi tüüp, millega võidaks ajutiselt talletada malle Office’i vormingutes, kui neid muudetakse Office’i töölauarakendustega. 
 
 > [!NOTE]
 > Selle näitaja puhul on saadaval vaid SharePointi asukohaga seadistatud dokumendi tüübid.
@@ -288,13 +290,13 @@ Avaneb leht **BDM malli muutja**. Valitud malli saab muuta internetis Office 365
 
 ![Äridokumentide halduse tööruumi leht](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="EditInOffice365">Malli muutmine teenuses Office 365</a>
+### <a name=""></a><a name="EditInOffice365">Malli muutmine teenuses Office 365</a>
 
 Te ei saa Office 365 abil malli muuta. Näiteks muuda veebilehitsejast kasutatavas Office’is malli päise välja küsimuste font **Tavaline** fondiks **Paks**. Need muudatused salvestatakse automaatselt malli peamises salvestusruumis (tavaliselt Azure bloobi salvestusruum) hoitava muudetava malli jaoks. See on konfigureeritud ER raamistiku jaoks.
 
 ![Äridokumentide halduse malli muutmisleht](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="EditInOfficeDesktopApp">Muuda malli Office’i töölauarakenduses</a>
+### <a name=""></a><a name="EditInOfficeDesktopApp">Muuda malli Office’i töölauarakenduses</a>
 
 > [!NOTE]
 > See funktsioon on saadaval ainult siis, kui **SharePointi dokumenditüübi** parameeter on õigesti konfigureeritud. Lisateavet vt teemast [Parameetrite konfigureerimine](#SetupBdmParameters).

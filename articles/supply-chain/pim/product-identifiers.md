@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
+ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004015"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095613"
 ---
 # <a name="product-identifiers"></a>Toote identifikaatorid 
 
@@ -43,9 +43,6 @@ Paljudel juhtudel pole tootenumber algselt loodud rakenduses Dynamics 365 Supply
 Kui juurutate rakendust Tarneahela haldus, peaksite pöörama erilist tähelepanu oma tootenumbrite strateegiale. Hea nummerdamissüsteem parandab logistikavoogusid ja aitab vältida vigu. Hea toote identifikaator sisaldab kuni 15 tähemärki. Ideaaljuhul sisaldab see vähem kui 10 tähemärki ja kuni viis liigitavat tähemärki. Samuti saate kiirotsingute lubamiseks kasutada otsingunimesid. Otsingunimi on täiendav nimi, mis tähistab toote klassifikatsioone.
 
 Kui kasutate Common Data Service, siis on ka toote number Tarneahela halduses ka toote number Common Data Service-is. Tootevariandid sünkroonitakse Common Data Service-iga eristatavate toodetena.
-
-> [!NOTE]
-> Tootenumber ei saa alata märgiga %.
 
 ## <a name="item-number-and-product-dimensions"></a>Kaubakood ja tootedimensioonid
 

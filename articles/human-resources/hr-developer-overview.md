@@ -1,6 +1,6 @@
 ---
 title: Ülevaade
-description: ''
+description: See arendaja juhend pakub API ja kohandatud väljade viiteid. Lisaks antakse teavet teiste rakendustega integreerimise kohta.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 995de90aa7c83b5aad35d935fe021706cf48ec4c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e67882c47ad37805c6f6ce8051fb58363c4bcdcf
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008746"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091987"
 ---
 # <a name="overview"></a>Ülevaade
 
@@ -40,11 +40,11 @@ See arendaja juhend pakub API ja kohandatud väljade viiteid. Lisaks antakse tea
 - Andmete integreerimise häälestamine
   - [Andmete integreerimise tehnoloogia valimine](hr-admin-integration-choose-technology.md)
   - [Common Data Service’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)
-  - [Finance’iga integreerimise konfigureerimine](hr-admin-integration-finance.md)
-  - [Dayforce’iga integreerimise konfigureerimine](hr-admin-integration-dayforce.md)
+  - [Integratsiooni konfigureerimine Finance’iga](hr-admin-integration-finance.md)
+  - [Integratsiooni konfigureerimine Dayforce’iga](hr-admin-integration-dayforce.md)
   - [Korduvate andmete ekspordi rakenduse loomine](hr-admin-integration-recurring-data-export.md)
-  - Office’iga integreerimine
-    - [Office’i integreerimise õpik](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+  - Office'iga integreerimine
+    - [Office’i integreerimise õppetükk](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Üksuseandmete värskendamine Excelis](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Excelis avamise kogemuste loomine](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Office’i integreerimise tõrkeotsing](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)

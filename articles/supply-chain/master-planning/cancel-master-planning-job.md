@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 66d5b10e1471b98274d4049df18a2e53873f789a
-ms.sourcegitcommit: 92cd55028be556a0bd41b6972c9c6d14b695dfa0
+ms.openlocfilehash: c04e2b2c0e5d7f28ea688578b3e1d7a1e1d9f6d3
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "2947476"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117444"
 ---
 # <a name="cancel-a-master-planning-job"></a>Koondplaneerimise töö tühistamine
+
+[!include [banner](../includes/banner.md)]
 
 Rakenduses Microsoft Dynamics 365 Supply Chain Managementon koondplaneerimise töö tühistamiseks mitu võimalust. Näiteks võite soovida tühistada koondplaneerimise töö, kui see käivitati kogemata või kui see töötab oodatust kauem ja soovite selle lõpetada. Parim viis planeerimise töö tühistamiseks on alates **lõpetamata planeerimise protsesside** leheküljest. **Pakett-tööde** ja **pakett-tööde täiustatud** lehti tuleks kasutada ainult juhul, kui koondplaneerimise töö tühistamine lehel **lõpetamata planeerimise protsessid** ei ole lõppenud mõne minuti jooksul.
 
@@ -37,7 +39,7 @@ Rakenduses Microsoft Dynamics 365 Supply Chain Managementon koondplaneerimise t�
 3. Klõpsake **Tühista**.
 
 ## <a name="additional-cancel-options"></a>Tühistamise lisavalikud
-Neid tohib kasutada ainult juhul, kui **lõpetamata planeerimise protsesside** lehelt tühistatud planeerimistöid ei lõpetatud mõne minuti jooksul.
+Neid tohib kasutada ainult juhul, kui lehel **Lõpetamata planeerimisprotsessid** tühistatud planeerimistööd ei lõpetatud mõne minuti jooksul.
 
 ### <a name="delete-master-planning-job-from-the-batch-jobs-page"></a>Koondplaneerimise töö kustutamine **pakett-tööde** lehelt
 1. Avage **Süsteemihaldus > Päringud > Pakett-tööd**.

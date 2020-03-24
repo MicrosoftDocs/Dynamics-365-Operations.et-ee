@@ -3,7 +3,7 @@ title: Eelarve plaanimise andmete eraldamine
 description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Finance'is saadaolevaid eraldamismeetodeid ja nende kasutamist.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,23 +18,26 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772072"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106878"
 ---
 # <a name="budget-planning-data-allocation"></a>Eelarve plaanimise andmete eraldamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse Microsoft Dynamics 365 Finance'is saadaolevaid eraldamismeetodeid ja nende kasutamist.  
+Selles teemas kirjeldatakse Microsoft Dynamics 365 Finance'is saadaolevaid eraldamismeetodeid ja nende kasutamist.  
 
 Saate prognoositud summade täpseks kujutamiseks eelarveplaani andmeid jaotada mitmel viisil.
 
 ## <a name="allocation-methods"></a>Eraldamismeetodid
 Kolm eraldamismeetodit (Eralda perioodide lõikes, Eralda dimensioonidele ja Kasuta pearaamatu eraldamisreegleid) saavad luua eelarveplaani read, mis põhinevad sama eelarveplaani ridadel. Kolm teist meetodit (Koonda, Jaota ja Kopeeri eelarveplaanist) saavad luua eelarveplaani read muudest eelarveplaanidest. Kõigi kuue eraldamismeetodi puhul määrate teie sihtstsenaariumi. Sihtstsenaarium võib olla lähtestsenaariumiga sama või sellest erineda. Lisaks saate määrata, kas uued read lisatakse eelarveplaani või asendavad eelarveplaani praegused read.
+
+> [!NOTE] 
+> Kordumatut stsenaariumi tuleb kasutada summeerimiseks, mis erineb stsenaariumist, mida kasutati jaotuse või muude muudatuste puhul, mis tehti varem emaplaanis.  
 
 [![Eraldusmeetod Eralda perioodide lõikes](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Eralda perioodide lõikes** – perioodi eralduskategooria abil eraldatakse eelarveplaani read lähtealuse eelarveplaani stsenaariumist perioodi vahel sihtstsenaariumis. Algsumma määratakse sihtstsenaariumis mitmele reale perioodi eraldamiskategoorias määratletud protsendi ja kuupäeva põhjal.         

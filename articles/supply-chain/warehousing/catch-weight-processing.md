@@ -3,7 +3,7 @@ title: Tegeliku kaalu toote protsess laohalduse abil
 description: Selles teemas kirjeldatakse, kuidas kasutada töömalle ja asukohakorraldusi määramaks, kuidas ja kus laos tööd tehakse.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2020
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8bc3e3e7bea15127062edfcd362476de97bff07d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3014a7b22c47f99b5c57fd6acd9be8d89c6fb8ab
+ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004107"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095793"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Tegeliku kaalu toote protsess laohalduse abil
 
@@ -30,10 +30,10 @@ ms.locfileid: "3004107"
 
 ## <a name="feature-exposure"></a>Funktsiooni esiletõstmine
 
-Laohalduse abil tegeliku kaaluga toodete haldamiseks peate selle funktsiooni litsentsi konfiguratsioonivõtme abil sisse lülitama. (Valige suvandid **Süsteemihaldus \> Seadistamine \> Litsentsi konfiguratsioon**. Seejärel laiendage vahekaardil **Konfiguratsioonivõtmed** jaotist **Kaubandus \> Lao- ja transpordihaldus** ja märkige ruut **Tegelik kaal lao jaoks**).
+Laohalduse abil tegeliku kaaluga toodete haldamiseks peate selle funktsiooni litsentsi konfiguratsioonivõtme abil sisse lülitama. Valige suvandid **Süsteemihaldus \> Seadistamine \> Litsentsi konfiguratsioon**. Seejärel laiendage vahekaardil **Konfiguratsioonivõtmed** jaotist **Kaubandus \> Lao- ja transpordihaldus** ja märkige ruut **Tegelik laokaal**.
 
 > [!NOTE]
-> Sisse peab lülitama ka litsentsi konfiguratsioonivõtmed **Lao- ja transpordihaldus** ning **Protsessi jaotus \> Tegelik kaal**. Tegeliku kaalu konfiguratsioonivõtmete määramiseks peate funktsiooni ka sisse lülitama, kasutades selleks tööruumi **Funktsioonihaldus**. Peamine funktsioon, mis peab olema sisse lülitatud, on **Tegeliku kaalu toote töötlemine laohaldusega**. Teine seotud, kuid valikuline funktsioon, mida võite soovida sisse lülitada, on **Tegeliku kaalu toodete varude oleku muudatused**. See funktsioon lisab toe nende toodete varude oleku muudatustele, millel on tegelik kaal lubatud.
+> Sisse peab lülitama ka litsentsi konfiguratsioonivõtmed **Lao- ja transpordihaldus** ning **Protsessi jaotus \> Tegelik kaal**. Tegeliku kaalu konfiguratsioonivõtmete määramiseks peate funktsiooni ka sisse lülitama, kasutades selleks tööruumi **Funktsioonihaldus**. Peamine funktsioon, mis peab olema sisse lülitatud, on **Tegeliku kaalu toote töötlemine laohaldusega**. Kaks seotud, kuid valikulised funktsioonid, mida te võite soovida sisse lülitada on **Varude oleku muudatused tegeliku kaaluga toodetel** ja **Kasutada olemasolevaid tegeliku kaalu silte tootmistellimuste kinnitamisel lõpetatuna**.
 
 Kui litsentsi konfiguratsioonivõti on sisse lülitatud ja loote väljastatud toote, saate valida suvandi **Tegelik kaal**. Samuti saate seostada väljastatud toote laoala dimensiooni rühmaga, mille puhul on valitud parameeter **Kasuta laohalduse protsesse**.
 
@@ -107,6 +107,7 @@ Lisaks, kui kaup on sildiga jälgitav, on olemas parameeter **Väljamineva sildi
 **Tegeliku kaalu jälgimise kasutamisel** tuleb silt alati luua iga sissetuleva tegeliku kaalu ühiku jaoks ja iga silt tuleb alati seostada kaaluga.
 
 Näiteks on tegeliku kaalu ühik **kast** ja te saate ühe kaubaaluse kaheksa kastiga. Sel juhul tuleb luua kaheksa kordumatut tegeliku kaalu silti ja kaal tuleb seostada iga sildiga. Olenevalt sissetuleva tegeliku kaalu sildist saab registreerida kas kõigi kaheksa kasti kaalu ja jaotada igale kastile keskmise kaalu või registreerida iga kasti jaoks kordumatu kaalu.
+Kui kasutate funktsiooni **Kasuta olemasolevaid tegeliku kaalu silte tootmistellimuste kinnitamisel lõpetatuna** , kui protsess on lubatud mobiilseadme menüükäsuga, uuendatakse varud olemasoleva tegeliku kaalu sildi teabe alusel. Selle tulemusena ei viipa ladustamisrakendus hõivata tegeliku kaalu sildi andmeid tootmisaruande osa lõpetatud toiminguna.
 
 **Kui tegeliku kaalu sildi jälgimist ei kasutata**, saab kaalu registreerida iga dimensioonikogumi kohta (nt iga litsentsiplaadi ja jälgimisdimensiooni kohta). Samuti on võimalik kaal registreerida koondtaseme, näiteks viie litsentsiplaadi (kaubaaluse), põhjal.
 

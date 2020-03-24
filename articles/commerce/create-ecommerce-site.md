@@ -3,7 +3,7 @@ title: E-kaubanduse saidi loomine
 description: See teema kirjeldab vajalikke etappe ja teavet uue e-kaubanduse saidi loomiseks Dynamics 365 Commerce'i saidiehitajas.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7177bae911dfa91a645b40581bf23b3ed76562a3
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002009"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096770"
 ---
 # <a name="create-an-e-commerce-site"></a>E-kaubanduse saidi loomine
 
@@ -65,11 +65,19 @@ Pärast saidi loomist saate kontrollida, kas see on teie võrgupoega seotud, val
 
 [Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
 
+[Võrgupoe kanali häälestamine](online-stores.md)
+
 [Veebisaidi seostamine kanaliga](associate-site-online-store.md)
 
 [robots.txt-failide haldamine](manage-robots-txt-files.md)
 
+[URL-i hulgiümbersuunamiste üleslaadimine](upload-bulk-redirects.md)
+
+[B2C rentniku seadistus Kaubanduses](set-up-B2C-tenant.md)
+
 [Kasutaja sisselogimiseks kohandatud lehtede seadistamine](custom-pages-user-logins.md)
+
+[Mitme B2C rentniku konfigureerimine Kaubanduskeskkonnas](configure-multi-B2C-tenants.md)
 
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 

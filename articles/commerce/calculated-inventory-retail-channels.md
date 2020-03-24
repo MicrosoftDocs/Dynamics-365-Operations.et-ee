@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8bef8edb46a1942d3efc325e2c437a138ad44839
-ms.sourcegitcommit: e1a55b4dc43abedf523c33ba9a8abe7b073f2ec6
+ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3083014"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113916"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Jaemüügikanalite varude saadavuse arvutamine
 
@@ -41,7 +41,7 @@ Selles teemas selgitatakse andmete sünkroonimise protsesse, mida saab sageli k�
 Klientide e-Commerce’i saidil ostlemisel toote varu saadavuse kuvamiseks saate kasutada järgmisi API-sid.
 
 - **GetEstimatedAvailability** – kasutage seda API-d, et hankida üksuse varude saadavus e-kaubanduse kanali laos või kõikides ladudes, mis on seotud e-kaubanduse kanali täitmisgrupi konfiguratsiooniga. Seda API-d saab kasutada kindlal otsingualal või raadiuses ka ladude jaoks, mis põhineb pikkuskraadi ja laiuskraadi andmetel.
-- **ProductWarehouseInventoryAvailabilities** – kasutage seda API-d konkreetses laos kauba varu taotlemiseks. Näiteks saate seda kasutada varu saadavuse kuvamiseks tellimuse pealevõtmist sisaldavates stsenaariumides.
+- **GetEstimatedProductWarehouseAvailability** – Kasutage seda API-d konkreetses laos toote kaubavaru küsimiseks. Näiteks saate seda kasutada varu saadavuse kuvamiseks tellimuse pealevõtmist sisaldavates stsenaariumides.
 
 > [!NOTE]
 > Need API-d asendavad API-d **GetProductAvailabilities** ja **GetAvailableInventoryNearby** rakenduse Dynamics 365 Retail versioonides 10.0.7 ja varasemad.

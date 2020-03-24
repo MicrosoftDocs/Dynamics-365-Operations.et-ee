@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
-ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
+ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
+ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2890323"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3133892"
 ---
 # <a name="vendor-invoices-overview"></a>Hankija arvete ülevaade
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas antakse üldteavet hankija arvete kohta. Hankija arved on maksetaotlused saadud toodete ja teenuste eest. Hankija arved võivad esindada kehtivate teenuste arvet või need võivad põhineda kindlate kaupade ja teenuste ostutellimustel.
 
@@ -66,6 +67,16 @@ Saate hankija arvele lisada ostutellimuses puuduva rea. Peate valima kaubakoodi 
 
 Teie organisatsioon võib kasutada töövoogusid, et hallata hankijaarvete läbivaatamise protsessi. Töövoo läbivaatamine võib olla vajalik ostuarve päise, arverea või mõlema jaoks. Töövoo juhtelemendid rakenduvad päisele või reale olenevalt sellest, mis on juhtelemendi valimise ajal aktiivne. Nupu **Sisesta** asemel näete nuppu **Edasta**, mida saate kasutada hankija arve läbivaatamisprotsessi saatmiseks.
 
+### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Arve töövoogu edastamise takistamine 
+
+Järgnevalt on loetletud miteid viise, kuidas saate takistada arve esitamist töövoogu.
+
+- **Arve kogusumma ja registreeritud kogusumma ei ole võrdsed.** Arve esitanud isik saab teate, et kogusummad ei ole võrdsed, võimaldades tal saldosid enne arve töövoogu uuesti esitamist parandada. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui arve kogusumma ja arve registreeritud kogusumma ei ole võrdsed** sisse lülitatud. 
+
+- **Arve sisaldab eraldamata kulusid.** Arve esitanud isik saab teate, et arve sisaldab eraldamata kuludes, võimaldades tal arvet enne töövoogu uuesti esitamist parandada. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui hankija arvel on eraldamata kulusid** sisse lülitatud.
+
+- **Arvel on sama arvenumber teise sisestatud arvega.** Arve esitanud isik saab teate, et leiti topeltnumbriga arve, võimaldades tal arvet enne töövoogu uuesti esitamist parandada. See teatis kuvatakse siis, kui ostureskontro parameetriks **Kontrolli kasutatavat arvenumbrit** on määratud **Lükka duplikaat tagasi**. See funktsioon on saadaval, kui lehel **Funktsioonihaldus** on parameeter **Keela töövoogu esitamine, kui sisestatud arvel on selline number juba olemas ja süsteemis ei ole lubatud topeltnumbriga arvete vastuvõtmine** on sisse lülitatud.  
+
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Hankijaarvete vastavusseviimine toote sissetulekutega
 
 Saate sisestada ja salvestada hankijaarvete teavet ning vastendada arveread tootesissetuleku ridadega. Saate ka rea osalisi koguseid vastavusse viia.
@@ -78,9 +89,19 @@ See valik eeldab, et ostutellimuse kohta on sisestatud vähemalt üks toote siss
 
 Lisainfot vt teemast [Hankija arve kirjendamine ja sissetulnud kogusega vastendamine](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md)
 
+## <a name="configure-an-automated-task-for-vendor-invoice-workflow-to-post-the-vendor-invoice-using-a-batch-job"></a>Hankija arve töövoole automatiseeritud ülesande konfigureerimine pakett-töö abil hankija arve sisestamiseks
+
+Saate hankija arve töövoogu lisada automaatse sisestamise ülesande, nii et arveid töödeldakse partiis. Arvete sisestamine partiis võimaldab töövoo protsessi jätkata ilma, et peaksite ootama sisestuse lõpetamist, mis parandab kõigi ülesannete töövoogu esitamise üldist jõudlust.
+
+Hankija arve sisestamiseks partiis lülitage lehel **Funktsioonihaldus** sisse parameeter **Hankija arvesisestamine partiis**. Hankija arve töövoogusid saate konfigureerida jaotises **Ostureskontro > Häälestus > Ostureskontro töövood**.
+
+Saate vaadata ülesannet **Sisesta hankija arve partiis** töövoo redaktoris, sõltumata sellest, kas funktsiooni parameeter **Hankija arve sisestamine partiis** on lubatud. Kui funktsiooni parameeter pole lubatud, siis arvet, mis sisaldab parameetrit **Sisesta hankija arve partiiülesande abil**, ei töödelda töövoos enne, kuni parameeter on lubatud. Ülesannet **Sisesta hankija arve partii abil** ei tohi kasutada samas töövoos automatiseeritud ülesandega **Hankija arvete sisestamine**. Samuti peaks ülesanne **Sisesta hankija arve partii abil** olema töövoo konfiguratsiooni viimane element.
+
+Saate määratleda partiisse kaasatavate arvete arvu ja partii ümberplaneerimise ooteaja tundides, kui avate jaotise **Ostureskontro > Häälestus > Ostureskontro parameetrid > Arve > Arve töövoogu**. 
+
 ## <a name="working-with-multiple-invoices"></a>Mitme arvega töötamine
 
-Saate töötada mitme arvega samal ajal ja pärast need kõik korraga sisestada. Kui teil on vaja luua mitu arvet, kasutage lehte **Ootel hankija arved**. Kui peate sisestama ja printima mitu hankija arvet, kasutage arve kinnitamise töölehte. Kui kasutate arve kinnitamise töölehte, tuleb ostutellimusele sisestada vähemalt üks toote sissetulek ja ostutellimuse arve tuleb sisestada arveregistrisse. Arve finantsiline teave tuleb arvelt, mis sisestati registrisse.
+Saate töötada mitme arvega samal ajal ja pärast need kõik korraga sisestada. Kui soovite luua mitu arvet, kasutage lehte **Ootel hankija arved**. Kui peate sisestama ja printima mitu hankija arvet, kasutage arve kinnitamise töölehte. Kui kasutate arve kinnitamise töölehte, tuleb ostutellimusele sisestada vähemalt üks toote sissetulek ja ostutellimuse arve tuleb sisestada arveregistrisse. Arve finantsiline teave tuleb arvelt, mis sisestati registrisse.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Kasutuses olevate hankija arvete taastamine
 

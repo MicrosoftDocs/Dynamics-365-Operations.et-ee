@@ -1,9 +1,9 @@
 ---
-title: Rakenduse Finance and Operations eemaldatud või aegunud funktsioonid.
-description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada.
+title: Varasematest versioonidest eemaldatud või aegunud funktsioonid
+description: Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid planeeritud eemaldamiseks tootest Dynamics 365 for Finance and Operations ja selle varasemast väljalaskest.
 author: sericks007
 manager: AnnBe
-ms.date: 10/08/2019
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,28 +17,28 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811989"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124562"
 ---
-# <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Rakenduse Finance and Operations eemaldatud või aegunud funktsioonid.
+# <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasematest versioonidest eemaldatud või aegunud funktsioonid
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab funktsioone, mis on rakendusest Finance and Operations eemaldatud või aegunud.
+> [!IMPORTANT]
+> Seda teemat enam ei uuendata. Et näha praegust funktsioonide loendit, mis on Finance and Operations rakendustest eemaldatud või aegunud, otsige rakenduse **"Eemaldatud või aegunud funktsioonid"** sisu, mis on seotud teie kasutatava rakendusega.
+
+Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid planeeritud eemaldamiseks tootest Dynamics 365 for Finance and Operations ja selle varasematest väljalasetest.
 
 - *Eemaldatud* funktsioon pole tootes enam saadaval.
 - *Aegunud* funktsioon ei ole aktiivses arenduses ja vee võidakse tulevases värskenduses eemaldada.
 
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
-> [!NOTE]
-> Alates rakenduse Finance and Operations 2017. aasta juulikuu väljaandest platvormivärskendusega 8 on iga eemaldatud või aegunud funktsiooni puhul märgitud juurutuste tüüp. Kõik selles teemas mainitud varasemad versioonid toetasid ainult pilvejuurutusi.
-
-Üksikasjalikku teavet rakenduse Finance and Operations objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas rakenduse Finance and Operations versioonis muudetud või eemaldatud.
+Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 koos platvormivärskendusega 31
 
@@ -51,7 +51,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegub: 1. detsembril 2020. Me ei plaani enam toetada Hiina kandetüüpide seadistust ilma konto gruppide valikuta. Lisateavet uue funktsiooni kohta leiate teemast Mis on uut versioonis 10.0.7 |
 
-## <a name="finance-and-operations-1006-with-platform-update-30"></a>Rakenduse Finance and Operations 10.0.6 platvormivärskendus 30
+## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 platvormivärskendusega 30
 
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
@@ -106,7 +106,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Olek**                         | Aegunud: 1. oktoobrist 2020 me ei plaani enam toetada **siseriiklikku maksuaruannet (IT) – funktsiooni viide IT-00003.** |
 
 
-## <a name="finance-and-operations-1005-with-platform-update-29"></a>Rakenduse Finance and Operations 10.0.5 platvormivärskendus 29
+## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 platvormivärskendusega 29
 
 ### <a name="us-payroll-tax-updates"></a>USA palgaarvestuse maksu uuendused
 
@@ -128,7 +128,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Juurutamissuvand**              | Kõik  |
 | **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on aprill 2020. |
 
-## <a name="finance-and-operations-1004-with-platform-update-28"></a>Rakenduse Finance and Operations 10.0.4 platvormivärskendus 28
+## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 platvormivärskendusega 28
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Prantsusmaa: FEC raamatupidamisandmete eksport XML-vormingus
 
@@ -152,7 +152,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Olek**                         | Aegunud. Alates 2020. aasta aprillist pole pärandnavigeerimisriba enam saadaval. Selle ajani saavad kliendid ennistada pärandnavigeerimisriba lehe **Kliendi jõudlussuvandid** kaudu. |
 
 
-## <a name="finance-and-operations-1002-with-platform-update-26"></a>Rakenduse Finance and Operations 10.0.2 platvormivärskendus 26
+## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 platvormivärskendusega 26
 
 
 ### <a name="legacy-default-action-behavior"></a>Vaiketegevuse pärandkäitumine
@@ -196,7 +196,7 @@ Projektipõhiste müügitellimuste loomise toe, kui projektilepingul on mitu rah
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on aprill 2020. |
 
-## <a name="finance-and-operations-1001-with-platform-update-25"></a>Rakenduse Finance and Operations 10.0.1 platvormivärskendus 25
+## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 platvormivärskendusega 25
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Aegunud API-d ja võimalikud murrangulised muudatused
 
@@ -221,7 +221,7 @@ Projektipõhiste müügitellimuste loomise toe, kui projektilepingul on mitu rah
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegunud: hoiatus muutub platvormivärskenduses 26 kompileerimistõrkeks. |
 
-## <a name="finance-and-operations-1000-with-platform-update-24"></a>Rakenduse Finance and Operations 10.0.0 platvormivärskendus 24
+## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 platvormivärskendusega 24
 
 ### <a name="renaming-released-products"></a>Väljastatud toodete ümbernimetamine 
 |   |  |
@@ -230,18 +230,18 @@ Projektipõhiste müügitellimuste loomise toe, kui projektilepingul on mitu rah
 | **Asendatud teise funktsiooniga?**   | Nr |
 | **Mõjutatud tootealad**         | Tooteteabe haldus |
 | **Juurutamissuvand**              | Kõik  |
-| **Olek**                         | Eemaldatud Finance and Operationsi versioonist 10.0.0 platvormi värskendusega 24. Erandjuhtudel, näiteks väljastatud toote esmase võtme varasema ümbernimetamise taastamine, on Microsoftilt võimalik taotleda väljastatud toodete esmase võtme ümbernimetamise piirangu ajutist eemaldamist. |
+| **Olek**                         | Eemaldatud alates versioonist Finance and Operations 10.0.0 platvormivärskendusega 24. (Kui ja ainult siis, kui peate parandama rikutud andmeid, mille põhjustas väljastatud toote esmasvõtme ümbernimetamine, võtke ühendust Microsofti tugiteenusega selle piirangu ajutise eemaldamise taotlemiseks.) |
 
 
-## <a name="finance-and-operations-813-with-platform-update-23"></a>Rakenduse Finance and Operations 8.1.3 platvormivärskendus 23
+## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 platvormivärskendusega 23
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>Teenuse SQL Server Reporting Services juhtelement ReportViewer
-Kliendid saavad platvormi Finance and Operations rakenduste loodud dokumentide allalaadimiseks kasutada teenuse SQL Server Reporting Services (SSRS) manustatud juhtelemendi ReportViewer tegevust **Ekspordi**. See HTML-il põhinev aruande kuvamine võimaldab kasutajatel näha dokumendi lehekülgjaotuseta eelvaadet.
+Kliendid saavad kasutada toimingut **Eksport** kaasatud SQL Serveri aruandeteenuste (SSRS) juhtelementi ReportViewer rakendustega Finance and Operations moodustatud dokumentide allaladimiseks. See HTML-il põhinev aruande kuvamine võimaldab kasutajatel näha dokumendi lehekülgjaotuseta eelvaadet.
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | HTML-il põhineva eelvaate lehekülgjaotuseta vormi tõttu **ei** ole platvormiga Finance and Operations lõplikult loodavad füüsilised dokumendid täpselt samasugused. Kasutades äridokumentide standardvorminguna PDF-i, saavad kasutajad rakenduse aruannete loomisel kasutada ära parandatud jõudlusega tänapäevaseid kuvamisvõimalusi. |
-| **Asendatud teise funktsiooniga?**   | Lähitulevikus saab PDF-dokumentidest platvormi Finance and Operations renderdatud aruannete vaikevorming.   |
+| **Aegumise/eemaldamise põhjus** | HTML-il põhineva eelvaate lehekülgjaotuseta vormi tõttu **ei ole** rakendusega Finance and Operations lõplikult loodud füüsilised dokumendid täpselt samasugused. Kasutades äridokumentide standardvorminguna PDF-i, saavad kasutajad rakenduse aruannete loomisel kasutada ära parandatud jõudlusega tänapäevaseid kuvamisvõimalusi. |
+| **Asendatud teise funktsiooniga?**   | Lähitulevikus saab PDF-dokumentidest rakendusega Finance and Operations renderdatud aruannete vaikevorming.   |
 | **Mõjutatud tootealad**         | See muudatus **ei** mõjuta selliseid kliendistsenaariume, mille korral aruandeid levitatakse elektrooniliselt või saadetakse otse printeritesse.    |
 | **Juurutamissuvand**              | Kõik  |
 | **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata. Rakenduse aruannete automaatse eelvaatamise funktsioon manustatud PDF-vaaturiga on kavandatud 2019. aasta mai platvormivärskendusse. |
@@ -294,7 +294,7 @@ Funktsioon deklaratsioonide TXT- ja XML-failivormingute konfigureerimiseks.
 | **Asendatud teise funktsiooniga?**   | Jah. |
 | **Mõjutatud tootealad**         | Pearaamat |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Eemaldatud alates rakenduse Finance and Operations 8.1 platvormivärskendusest 20. |
+| **Olek**                         | Eemaldatud alates versioonist Finance and Operations 8.1 platvormivärskendusega 20. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Finantsaruannete generaator Venemaa jaoks
 Tööriist andmete kogumise seadistamiseks raamatupidamise ja maksuaruannete jaoks ning andmete eksportimiseks XLS- ja DOC-aruandemallidesse. Funktsionaalsed osad: andmete eksportimine XLS- ja DOC-aruandemallidesse, päringud, fikseeritud rekvisiidid on eemaldatud. 
@@ -305,7 +305,7 @@ Tööriist andmete kogumise seadistamiseks raamatupidamise ja maksuaruannete jao
 | **Asendatud teise funktsiooniga?**   | Jah. GL-i kontode või maksuregistritega andmekogumisreeglite seadistamiseks tuleb kasutada finantsaruannete seadistuse kasutajaliidest. Andmete eksportimine erinevatesse failitüüpidesse, fikseeritud rekvisiidid ja päringulaadsete andmete kogumisreeglid tuleb konfigureerida elektroonilises aruandluses. |
 | **Mõjutatud tootealad**         | Pearaamat. |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Eemaldatud alates rakenduse Finance and Operations 8.1 platvormivärskendusest 20. |
+| **Olek**                         | Eemaldatud alates versioonist Finance and Operations 8.1 platvormivärskendusega 20. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integratsioon väliste pakkujatega elektroonilise aruandluse saatmiseks kommunikatsioonikanalite kaudu Venemaa puhul
 Funktsioon loodud deklaratsioonide elektrooniliste failide saatmiseks kausta edasisaatmiseks elektroonilise aruandluse ametlikele pakkujatele ning oleku tagasi importimiseks.
@@ -316,7 +316,7 @@ Funktsioon loodud deklaratsioonide elektrooniliste failide saatmiseks kausta eda
 | **Asendatud teise funktsiooniga?**   | Jah.  |
 | **Mõjutatud tootealad**         | Pearaamat, maks |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Eemaldatud alates rakenduse Finance and Operations 8.1 platvormivärskendusest 20. |
+| **Olek**                         | Eemaldatud alates versioonist Finance and Operations 8.1 platvormivärskendusega 20. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Kasumimaksu registreerimise viisard
@@ -324,17 +324,17 @@ Funktsioon uute kasumimaksuregistrite jaoks mallide loomiseks. See funktsioon lo
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Funktsioon ei ühildu rakenduse Finance and Operations laiendatavuse mudeliga. |
+| **Aegumise/eemaldamise põhjus** | Funktsioon ei ühildu rakenduse Finance and Operations laiendatavusmudeliga. |
 | **Asendatud teise funktsiooniga?**   | Ei |
 | **Mõjutatud tootealad**         | Maks |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Eemaldatud alates rakenduse Finance and Operations 8.1 platvormivärskendusest 20. |
+| **Olek**                         | Eemaldatud alates versioonist Finance and Operations 8.1 platvormivärskendusega 20. |
 
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 platvormivärskendusega 15
 Selles versioonis pole ühtki funktsiooni eemaldatud ega ükski pole aegunud. Platvormivärskendus 15 on kumulatiivne ja sisaldab uusi või muudetud funktsioone platvormivärskendusest 13, platvormivärskendusest 14 ja platvormivärskendusest 15.
 
-## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Eemaldatud alates rakenduse Finance and Operations väljaandest Enterprise edition 7.3 platvormivärskendusega 12.
+## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise Edition 7.3 platvormivärskendusega 12
 
 ### <a name="personalized-product-recommendations"></a>Isikupärastatud tootesoovitused 
 Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isikupärastatud tootesoovitusi kuvada. Lisateavet vt teemast [Tootesoovituste ülevaade](../../../commerce/product-recommendations.md).  
@@ -356,7 +356,7 @@ Võimalust tutvustada ER-i avaldisekoosturis kasutatavaid kohandatud funktsioone
 | **Asendatud teise funktsiooniga?**   | Puudub. Kui mõni uus sisseehitatud funktsioon on vajalik, tuleb uus laiendustaotlus esitada ER-i raamistiku meeskonnale.<br><br>Seni kui nõutud funktsioon on ER-i meeskonnas arendusel, saab nõutud loogika ajutiselt programmeerida kohandatud rakendusklassi meetodina. Seda meetodit saab kasutada ER-i avaldises sellele kohandatud rakendusklassile viitava **rakenduse/klassi** tüübi lisatud ER-i andmeallika atribuudina.  |
 | **Mõjutatud tootealad**         | Elektroonilise aruandluse raamistik                                                      |
 | **Juurutamissuvand**              | Kõik                                                                                      |
-| **Olek**                         | Eemaldatud alates rakenduse Finance and Operations väljaandest Enterprise edition 7.3.    |
+| **Olek**                         | Eemaldatud alates rakendusest Finance and Operations, Enterprise edition 7.3.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Varud kaubagrupi järgi ja varud varudedimensiooni ajalise jaotuse aruannete järgi
 
@@ -371,7 +371,7 @@ Neid kaht aruannet rakenduses Finance and Operations enam ei toetata. Selle asem
 | **Olek**                       | Aegunud: nende kahe aruande menüü-üksused on versioonis 7.3 eemaldatud. Aruannete kood jääb siiski tootesse. Plaan on kood tulevases väljaandes eemaldada. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI sisupaketid on saadaval AppSource’is
-Sisupaketid **Kuluhaldus**, **Finantstulemused** ja **Jaemüügikanali jõudlus**, mis on saadaval saidil [Microsoft AppSource](https://appsource.microsoft.com), on Microsoft Power BI tootevärskenduste tagajärjel aegunud. Nende sisupakettide juurutamiseks saidile PowerBI.com kasutatavad süsteemiadministreerimise v vormid on rakenduses Finance and Operations samuti aegunud.
+Sisupaketid **Kuluhaldus**, **Finantstulemused** ja **Jaemüügikanali jõudlus**, mis on saadaval saidil [Microsoft AppSource](https://appsource.microsoft.com), on Microsoft Power BI tootevärskenduste tagajärjel aegunud. Nende sisupakettide juurutamiseks saidil PowerBI.com kasutatavad süsteemiadministreerimise vormid on aegunud samuti rakenduses Finance and Operations.
 
 |   |  |
 |------------|--------------------|
@@ -453,7 +453,7 @@ Alates 15. veebruarist 2018 ei ole jaemüüjatel enam võimalik kassaseadmes isi
 | **Olek**                         |Eemaldatud alates 15. veebruarist 2018. See mõjutab kliente, kes kasutavad Dynamics 365 for Retail 7.2 või uuemat. |
 
 
-## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Finance and Operations, Enterprise edition juuli 2017 platvormivärskendus 8
+## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Finance and Operations, Enterprise Edition juulist 2017 platvormivärskendusega 8
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Valuutateisendus arvestus- ja aruandlusvaluutade jaoks
 
@@ -469,12 +469,12 @@ Valuutateisenduse funktsioon arvestus- ja aruandlusvaluutade jaoks võeti kasutu
 
 ### <a name="warehouse-mobile-devices-portal"></a>Lao mobiilsete seadmete portaal
 
-Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõeldud ise toimivaks asutusesiseseks juurutamiseks. Seda komponenti rakenduses Finance and Operations enam ei toetata. WMDP funktsiooni on asendanud kasutajakogemust parandav omarakendus.
+Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõeldud ise toimivaks asutusesiseseks juurutamiseks. Seda komponenti enam ei toetata Finance and Operations. WMDP funktsiooni on asendanud kasutajakogemust parandav omarakendus.
 
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Topeltfunktsioon.       |
-| **Asendatud teise funktsiooniga?**   | Jah. See funktsioon on asendatud Finance and Operationsi ladustamise mooduliga. Lisateavet seadistamise ja eeltingimuste kohta vaadake jaotisest [Laorakenduse installimise ja konfigureerimise ülevaade](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Asendatud teise funktsiooniga?**   | Jah. See funktsioon on asendatud funktsiooniga Finance and Operations-Laotöö. Lisateavet seadistamise ja eeltingimuste kohta vaadake jaotisest [Laorakenduse installimise ja konfigureerimise ülevaade](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Mõjutatud tootealad**         | Laohaldus, transpordihaldus     |
 | **Juurutamissuvand**              | Lao mobiilsete seadmete portaal (WMDP) oli eraldiseisev komponent, mis oli mõeldud ise toimivaks asutusesiseseks juurutamiseks.               |
 | **Olek**                         | Aegunud: funktsiooni eemaldamise sihtperiood on 2019. aasta 4. kvartal.   |
@@ -1012,7 +1012,7 @@ Andmesektsioonid tagavad andmete loogilise eraldamise Dynamicsi AX andmebaasis.
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Dynamics AX 2012 R2-s võeti andmete eraldamise võimaldamiseks kasutusele andmesektsioonid. Tavastsenaariumi puhul on ettevõttel tütarettevõtted ja ühe tütarettevõtte andmed ei tohiks olla teisele tütarettevõttele näha, kuigi mõlemaid tütarettevõtteid haldab sama IT-osakond. Kuid uute sektsioonide loomiseks ja nende täitmiseks andmetega ning sektsiooni andmete varundamiseks oli vaja kogu programmis lisaskripte ja halduse üldkulusid. Pilves, kus meil on juurdepääs platvormi teenusena (PaaS) andmebaasiteenustele (Microsoft Azure SQL-i andmebaas) on palju tõhusam kasutada andmebaasi eralduskonteinerina, kui teha eraldamine programmis. Olenemata sellest, kas andmete eraldamine on vajalik tütarettevõtetele, mitmele rentnikule või lihtsalt skaalale, usume, et neid stsenaariume saab käsitleda paremini rakenduse Finance and Operations mitme eksemplari kaudu. |
+| **Aegumise/eemaldamise põhjus** | Dynamics AX 2012 R2-s võeti andmete eraldamise võimaldamiseks kasutusele andmesektsioonid. Tavastsenaariumi puhul on ettevõttel tütarettevõtted ja ühe tütarettevõtte andmed ei tohiks olla teisele tütarettevõttele näha, kuigi mõlemaid tütarettevõtteid haldab sama IT-osakond. Kuid uute sektsioonide loomiseks ja nende täitmiseks andmetega ning sektsiooni andmete varundamiseks oli vaja kogu programmis lisaskripte ja halduse üldkulusid. Pilves, kus meil on juurdepääs platvormi teenusena (PaaS) andmebaasiteenustele (Microsoft Azure SQL-i andmebaas) on palju tõhusam kasutada andmebaasi eralduskonteinerina, kui teha eraldamine programmis. Olenemata sellest, kas andmete eraldamine on vajalik tütarettevõtetele, mitmele rentnikule või lihtsalt skaleerimiseks, usume, et neid stsenaariume saab käsitleda paremini rakenduse Finance and Operations mitme eksemplari kaudu. |
 | **Asendatud teise funktsiooniga?**   | Andmesektsioone kasutavad kliendid peavad kasutama rakenduse Finance and Operations mitut eksemplari, kui andmebaasi taseme eraldamine on kriitiline probleem.    |
 | **Mõjutatud tootealad**         | Kõik moodulid  |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.  |
@@ -1053,7 +1053,7 @@ Dynamics AX 2012 R3-s sai Retail Modern POS luua kanali andmebaasiga otse ühend
 
 |   |  |
 |------------|--------------------|
-| **Aegumise/eemaldamise põhjus** | Andmebaasi otseühenduvus nõudis madalamaid turbeprotokolle ja seda kasutati peamiselt kõrgeima jõudluse saavutamiseks. Finance and Operationsi jõudlus- ja turbetäiustuste tõttu põhjustab see funktsioon nüüd rohkem probleeme kui lahendab. |
+| **Aegumise/eemaldamise põhjus** | Andmebaasi otseühenduvus nõudis madalamaid turbeprotokolle ja seda kasutati peamiselt kõrgeima jõudluse saavutamiseks. Rakenduse Finance and Operations jõudlus- ja turbetäiustuste tõttu põhjustab see funktsioon nüüd rohkem probleeme kui lahendab. |
 | **Asendatud teise funktsiooniga?**   | Nr Nüüd toetatakse ainult standardset jaemüügiserveri sidet.  |
 | **Mõjutatud tootealad**         | Kanali andmebaas / Retail Modern POS   |
 | **Olek**                         | Eemaldatud alates rakendusest Dynamics AX 7.0.  |

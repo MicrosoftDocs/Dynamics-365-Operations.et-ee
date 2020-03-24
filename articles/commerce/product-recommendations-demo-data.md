@@ -1,9 +1,9 @@
 ---
-title: Tootesoovituste hankimine demoandmeid kasutades
+title: Soovituste loomine demoandmetega
 description: Selle dokumendi eesmärk on anda juhiseid, kuidas võimendada omnikanali tootesoovitusi esimese järgu ühe kasti keskkondades, kasutades eeltäidetud, kohandatavaid demoandmeid.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,17 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042776"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127832"
 ---
-# <a name="get-product-recommendations-using-demo-data"></a>Tootesoovituste hankimine demoandmeid kasutades
+# <a name="create-recommendations-with-demo-data"></a>Soovituste loomine demoandmetega
+
+[!include [banner](includes/banner.md)]
+
 Selle dokumendi eesmärk on anda juhiseid, kuidas võimendada omnikanali tootesoovitusi esimese järgu ühe kasti keskkondades, kasutades eeltäidetud, kohandatavaid demoandmeid.
 
 Omnikanali tootesoovitused pakuvad komplekti toimetuslikult kureeritud või programmiliselt loodud toodete loendit. Neid loendeid saab kasutada mitmes stsenaariumis, sõltuvalt ettevõtte vajadusest. Lisateavet tootesoovituste funktsioonide kohta leiate jaotisest [Ülevaade tootesoovitustest](product-recommendations.md).
@@ -39,7 +42,7 @@ Esimese järgu keskkonna tootesoovitused põhinevad ainult CSV-failis talletatud
 Tootesoovituste demoandmete lubamiseks peate juurutama rakenduse Dynamics 365 Commerce demolaienduse eelvaate vastavate keskkondadega. See lubab automaatselt tootesoovituste demoandmed.
 
 ## <a name="default-demo-data"></a>Vaikedemoandmed
-Igas Oneboxi tüüpi keskkonnas on eellaaditud tootesoovituste komplekti demoandmed, mis on salvestatud komaeraldatud reco_demo_data.csv faili, mis asub Commerce’i skaala üksuses.
+Igas Oneboxi tüüpi keskkonnas on eellaaditud tootesoovituste komplekti demoandmed, mis on salvestatud komaeraldatud „reco_demo_data.csv” faili, mis asub Commerce Scale Unitis.
 
 Need andmed on liigendatud järgmiste veergude alusel.
 
@@ -67,4 +70,22 @@ Laiend sisaldab andmefaili, mida nimetatakse RecoMockDataset.csv, mis võimaldab
 
 [Tootesoovituste ülevaade](product-recommendations.md)
 
-[Keskkonna planeerimine](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+[ADLS-i lubamine Dynamics 365 Commerce keskkonnas](enable-adls-environment.md)
+
+[Luba tootesoovitused](enable-product-recommendations.md)
+
+[Isikupärastatud soovituste lubamine](personalized-recommendations.md)
+
+[Isikupärastatud tootesoovitustest loobumine](personalization-gdpr.md)
+
+[Soovitusloendite lisamine e-Kaubanduse saidile](add-reco-list-to-page.md)
+
+[Tootesoovituste lisamine kassas](product.md)
+
+[Soovituste lisamine kandeekraanile](add-recommendations-control-pos-screen.md)
+
+[AI-ML-i soovituste tulemuste kohandamine](modify-product-recommendation-results.md)
+
+[Loo kuraatorite soovitused käsitsi](create-editorial-recommendation-lists.md)
+
+[Tootesoovituste KKK](faq-recommendations.md)

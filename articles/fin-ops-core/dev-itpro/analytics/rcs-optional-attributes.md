@@ -16,14 +16,16 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2989906c5aa3ead9e46b8ed5333e880e5cf1c6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 10795c90cb90961c17a4326b71ed43dc72039f2b
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769943"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117421"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Failide importimine XML-vormingus koos valikuliste atribuutidega
+
+[!include [banner](../includes/banner.md)]
 
 Saate kujundada elektroonilise aruandluse (ER) vormingud sõeluma sissetulevaid dokumente XML-vormingus. XML-elementide teatud atribuute saab loodud ER-vormingus määratleda valikuliselt. See võimaldab teil selliste XML-atribuutidega ja ilma nendeta sissetulevaid faile õigesti käsistseda. Seejärel saate neist failidest pärit sisu kasutada rakenduse andmete värskendamiseks.
 
@@ -52,17 +54,17 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 7. Klõpsake käsku **Lisa**.
 8. Rippdialoogi avamiseks klõpsake valikut **Uus**.
 9. Sisestage väljale **Nimi** "Loend".
-10. Valige väljalt **Üksuse tüüp** suvand **Kirjete loend**.
-11. Klõpsake käsku **Lisa**.
-12. Rippdialoogi avamiseks klõpsake valikut **Uus**.
-13. Sisestage väljale **Nimi** "Kood".
-14. Valige väljalt **Üksuse tüüp** suvand **String**.
-15. Klõpsake käsku **Lisa**.
-16. Klõpsake valikut **Salvesta**.
-17. Sulgege leht.
-18. Klõpsake valikut **Muuda olekut**.
-19. Klõpsake valikut **Vii lõpule**.
-20. Klõpsake valikut **OK**.
+10.    Valige väljalt **Üksuse tüüp** suvand **Kirjete loend**.
+11.    Klõpsake käsku **Lisa**.
+12.    Rippdialoogi avamiseks klõpsake valikut **Uus**.
+13.    Sisestage väljale **Nimi** "Kood".
+14.    Valige väljalt **Üksuse tüüp** suvand **String**.
+15.    Klõpsake käsku **Lisa**.
+16.    Klõpsake valikut **Salvesta**.
+17.    Sulgege leht.
+18.    Klõpsake valikut **Muuda olekut**.
+19.    Klõpsake valikut **Vii lõpule**.
+20.    Klõpsake valikut **OK**.
 
 ## <a name="create-a-format-for-data-import"></a>Vormingu loomine andmete impordiks
 1. Klõpsake valikut **Loo konfiguratsioon**, et avada rippdialoog.
@@ -81,32 +83,32 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 7. Valige puul suvand **XML\Element**.
 8. Sisestage väljale **Nimi** "Dokument".
 9. Valige väljal **Mitmekordsus** suvand **One many**.
-10. Klõpsake valikut **OK**.
-11. Tehke puul valik **root\document**.
-12. Klõpsake valikut **Lisa** rippdialoogi avamiseks.
-13. Valige puul suvand **XML\Atribuut**.
-14. Sisestage väljale **Nimi** "ID".
-15. Klõpsake valikut **OK**.
-16. Klõpsake valikut **Salvesta**.
+10.    Klõpsake valikut **OK**.
+11.    Tehke puul valik **root\document**.
+12.    Klõpsake valikut **Lisa** rippdialoogi avamiseks.
+13.    Valige puul suvand **XML\Atribuut**.
+14.    Sisestage väljale **Nimi** "ID".
+15.    Klõpsake valikut **OK**.
+16.    Klõpsake valikut **Salvesta**.
 
 ## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a>Vormingu vastenduse kujundamine sõelutud teabe andmemudelile salvestamiseks
-1.  Klõpsake valikut **Vormingu vastendamine mudeliga**.
-2.  Klõpsake valikut **Uus**.
-3.  Sisestage või valige väärtus väljal **Määratlused**.
-4.  Sisestage väljale **Nimi** "Vastendamine".
-5.  Klõpsake valikut **Salvesta**.
-6.  Klõpsake valikut **Kujundaja**.
-7.  Laiendage puul valikut **format**.
-8.  Laiendage puul valikut **formatoot: XML Element(root)**.
-9.  Valige puul **formatoot: XML Element(root)\document: XML Element 1..* (dokument)**.
-10. Klõpsake valikult **Seo**.
-11. Laiendage puul valikut **formatoot: XML Element(root)\document: XML Element 1..* (dokument)**.
-12. Valige puul **formatoot: XML Element(root)\document: XML Element 1..* (dokument)\id**.
-13. Laiendage puul valikut **List = format.root.document**.
-14. Valige puul **List = format.root.document\Code**.
-15. Klõpsake valikult **Seo**.
-16. Klõpsake valikut **Salvesta**.
-17. Sulgege leht.
+1.    Klõpsake valikut **Vormingu vastendamine mudeliga**.
+2.    Klõpsake valikut **Uus**.
+3.    Sisestage või valige väärtus väljal **Määratlused**.
+4.    Sisestage väljale **Nimi** "Vastendamine".
+5.    Klõpsake valikut **Salvesta**.
+6.    Klõpsake valikut **Kujundaja**.
+7.    Laiendage puul valikut **format**.
+8.    Laiendage puul valikut **formatoot: XML Element(root)**.
+9.    Valige puul **formatoot: XML Element(root)\document: XML Element 1..* (dokument)**.
+10.    Klõpsake valikult **Seo**.
+11.    Laiendage puul valikut **formatoot: XML Element(root)\document: XML Element 1..* (dokument)**.
+12.    Valige puul **formatoot: XML Element(root)\document: XML Element 1..* (dokument)\id**.
+13.    Laiendage puul valikut **List = format.root.document**.
+14.    Valige puul **List = format.root.document\Code**.
+15.    Klõpsake valikult **Seo**.
+16.    Klõpsake valikut **Salvesta**.
+17.    Sulgege leht.
 
 ## <a name="run-format-mapping"></a>Vormingu vastendamise käivitamine
 1. Klõpsake nuppu **Käivita**.
@@ -114,7 +116,7 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 3. Klõpsake valikut **OK**.
 
 > [!NOTE]
-> Valitud faili ei ole imporditud, kuna vormingu kujundus eeldab atribuudi "ID" olemasolu "dokumendi" elemendi jaoks, kuid imporditud fail ei sisalda sellist atribuuti.
+> Valitud faili ei ole imporditud, kuna vormingu kujundus eeldab atribuudi „ID” olemasolu „dokumendi” elemendi jaoks, kuid imporditud fail ei sisalda sellist atribuuti.
 
 ## <a name="modify-format-structure-to-handle-xml-attribute-as-optional"></a>Vormingu struktuuri muutmine, et käsitseda XML-atribuuti valikulisena
 1. Sulgege leht.
@@ -128,4 +130,4 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 2. Klõpsake nuppu **Käivita**.
 3. Klõpsake nuppu **Sirvi** ja valige fail **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. Klõpsake valikut **OK**.
-5. Vaadake genereeritud fail üle. Pange tähele, et sama fail on imporditud, kuna vormingu kujundus arvestab nüüd "dokumendi" elemendi "ID" atribuuti valikulisena.
+5. Vaadake genereeritud fail üle. Pange tähele, et sama fail on imporditud, kuna vormingu kujundus arvestab nüüd „dokumendi” elemendi „ID” atribuuti valikulisena.

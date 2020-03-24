@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015185"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3120874"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Lükka edasi XML-elementide käivitamine ER-vormingus
 
@@ -47,7 +47,7 @@ Lisateabe saamiseks selle funktsiooni kohta läbige siinse teema näide.
 
 **Edasilükatud käivitamise** suvandit ei toetata XML-elementide puhul, mis asuvad **Ühises\\failivormingu** elemendis, kui **Tükeldatud faili** suvand on seatud väärtusele **Jah**. Rohkem teavet selle kohta, kuidas tükeldada XML-faile, vt teemast [Loodud XML-failide tükeldamine failimahu ja sisuüksuste koguse alusel](er-split-files.md).
 
-## <a name="Example"></a>Näide: XML-elemendi käivitamise edasilükkamine ER-vormingus
+## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>Näide: XML-elemendi käivitamise edasilükkamine ER-vormingus
 
 Järgmised sammud selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse funktsionaalse nõustaja kasutaja [roll](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) saab konfigureerida ER-vormingut, mis sisaldab XML-elementi, kus täitmise järjekord erineb järjekorrast vormingu hierarhias.
 

@@ -3,7 +3,7 @@ title: Kohandatud lehtede seadistamine kasutajate sisselogimise jaoks
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce kohandatud lehti, mis käsitsevad Azure Active Directory (Azure AD) ettevõtte ja tarbija (B2C) rentnike kohandatud sisselogimisi.
 author: brianshook
 manager: annbe
-ms.date: 12/05/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fe2a716d370c350c0c7e034835ff755f1ec9c6a1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 210a7d1c2b0a9a9606723b48681cca3a50fcc05b
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001940"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096793"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Kasutaja sisselogimiseks kohandatud lehtede seadistamine
 
@@ -199,11 +199,19 @@ Pärast faili global.json uuendamist ja muudatuste avaldamist ilmub sisselogimis
 
 [Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
 
-[E-kaubanduse saidi loomine](create-ecommerce-site.md)
+[Võrgupoe kanali häälestamine](online-stores.md)
+
+[e-Commerce saidi loomine](create-ecommerce-site.md)
 
 [Veebisaidi seostamine kanaliga](associate-site-online-store.md)
 
-[Robots.txt-failide haldamine](manage-robots-txt-files.md)
+[robots.txt-failide haldamine](manage-robots-txt-files.md)
+
+[URL-i hulgiümbersuunamiste üleslaadimine](upload-bulk-redirects.md)
+
+[B2C rentniku seadistus Kaubanduses](set-up-B2C-tenant.md)
+
+[Mitme B2C rentniku konfigureerimine Kaubanduskeskkonnas](configure-multi-B2C-tenants.md)
 
 [Sisuedastusvõrgu (CDN) toe lisamine](add-cdn-support.md)
 
