@@ -162,24 +162,52 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Topeltkirjutuse häälestus teenustest Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
+                            - name: Esialgne sünkroonimine
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
+                              items:
+                                - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: Süsteeminõuded ja eeltingimused
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: Kuidas kasutada topeltkirjutamise viisardit oma keskkondade linkimiseks?
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: Olemikaardi lubamine topeltkirjutamise jaoks
+                                  href: data-entities/dual-write/enable-entity-map.md
+                        - name: Topeltkirjutamise haldamine
+                          items:
+                            - name: Olemi ja välja vastenduste kohandamine
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: Tõrkehaldus ja teatiste teatamine
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: Rakenduse elutsüklihaldus
+                              href: data-entities/dual-write/app-lifecycle-management.md
                         - name: Vastendamise määratlused rakenduste vahel
                           items:
-                            - name: Common Data Service'i organisatsiooni hierarhia
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Ettevõtte integratsioon
-                              items:
-                                - name: Ettevõtte kontseptsioon Common Data Service'is
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Alglaadimine ettevõtte andmetega
-                                  href: data-entities/dual-write/bootstrap-company-data.md
                             - name: Integreeritud kliendi koondandmed
                               href: data-entities/dual-write/customer-mapping.md
+                            - name: Hankija integreerimine
+                              items:
+                                - name: Integreeritud hankija koondandmed
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Hankija kujunduste vaheldumisi aktiveerimine
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Kliendikaardid ja preemiapunkte
+                              href: data-entities/dual-write/loyalty-mapping.md
                             - name: Toote integratsioon
                               items:
                                 - name: Ühendatud toote kasutusfunktsionaalsus
                                   href: data-entities/dual-write/product-mapping.md
                                 - name: Integreeritud kohad ja laod
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Ettevõtte integratsioon
+                              items:
+                                - name: Ettevõtte kontseptsioon Common Data Service'is
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Alglaadimine ettevõtte andmetega
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Common Data Service'i organisatsiooni hierarhia
+                              href: data-entities/dual-write/organization-mapping.md
                             - name: Finants-ja maksuandmed
                               items:
                                 - name: Juurdepääs finantsilistele ja maksude viiteandmetele
@@ -188,12 +216,8 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Integreeritud maksu koondandmed
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Hankija integreerimine
-                              items:
-                                - name: Integreeritud hankija koondandmed
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Hankija kujunduste vaheldumisi aktiveerimine
-                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Sünkroonimine Dynamics 365 Supply Chain Management hinnakujunduse mootoriga vajaduse korral
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: Potentsiaalne klient sularahaks topeltkirjutus
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: Majasisesed varad teenindamiseks
@@ -204,11 +228,25 @@
                           items:
                             - name: Field Service'i lahenduste tugi ja Project Service Automationi lahendused
                               href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Esialgne sünkroonimine
-                              href: data-entities/dual-write/initial-sync.md
-                            - name: Andmete integratsiooni tõrkeotsing
-                              href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Integratsioon Power Platformi andmete integraatoriga
+                            - name: Tõrkeotsing
+                              items:
+                                - name: 'Kontrollige, et topeltkirjutamine on konfigureeritud Finance and Operationsi rakendustes ja Common Data Service''is'
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: Tõrkeotsingu probleemid algse seadistamise ajal
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: Tõrkeotsingu probleemid algse sünkroonimine ajal
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: Topeltkirjutamise mooduli tõrkeotsingu probleemid Finance and Operationsi rakendustes
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: Reaalajas sünkroonimise probleemide tõrkeotsing
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: Lahenduse teadlikkusega seotud probleemide tõrkeotsing
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: Finance and Operationsi rakenduste värskendustega seotud probleemide tõrkeotsing
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: Üldine tõrkeotsing
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Integreerimine Power Platformiga
                       items:
                         - name: Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine
                           items:
@@ -392,6 +430,8 @@
                       href: database/api/v1/reference-list-backups.md
                     - name: Andmebaasivärskenduse loomine
                       href: database/api/v1/reference-create-refresh.md
+                    - name: Andmebaasi ekspordi loomine
+                      href: database/api/v1/reference-create-export.md
                     - name: Toimingu/tegevuse oleku toomine
                       href: database/api/v1/reference-get-status.md
         - name: Demoandmed
@@ -1032,6 +1072,8 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Jälgimine ja diagnostika
               href: lifecycle-services/monitoring-diagnostics.md
+            - name: Mõju analüüsi aruanne
+              href: lifecycle-services/impact-analysis-report.md
             - name: Keskkonnateenuste taaskäivitamine
               href: lifecycle-services/restart-environment-services.md
             - name: Tootmiskatkestusest teatamine
@@ -1392,10 +1434,14 @@
               items:
                 - name: Nõustaja ülevaate optimeerimine
                   href: sysadmin/optimization-advisor-overview.md
-                - name: Optimeerimisnõustaja reeglite loomine
+                - name: Reeglite loomine optimeerimisnõustaja jaoks
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: Tootmiskatkestusest teatamine
               href: lifecycle-services/report-production-outage.md
+            - name: Andmebaasi logimise konfigureerimine ja haldamine
+              href: sysadmin/configure-manage-database-log.md
+            - name: OData metaandmete vahemälu loomine AOS-i käivitamisel
+              href: sysadmin/odata-warmup.md
         - name: 'Täiendused, värskendused ja kiirparandused'
           items:
             - name: 'Täienduste, värskenduste ja kiirparanduste ressursid'
