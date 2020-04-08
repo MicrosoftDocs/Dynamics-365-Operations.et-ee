@@ -454,6 +454,8 @@
                   items:
                     - name: Täpsemate automaatsete tasude konfigureerimine ja kasutamine
                       href: omni-auto-charges.md
+                    - name: Automaatsete tasude lubamine ja konfigureerimine kanali kaupa
+                      href: auto-charges-by-channel.md
                     - name: Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele
                       href: pro-rate-charges-matching-lines.md
                 - name: Hallake järjepidevusprogramme
@@ -525,7 +527,7 @@
                 - name: Uue toote loomine
                   items:
                     - name: Uue toote loomine Commerce'is
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: Tootekategooriate ja toodete haldamine
                       href: category-management-product-creation.md
                 - name: Toote atribuudid
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: Isikupärastatud tootesoovitustest loobumine
                       href: personalization-gdpr.md
-                - name: Tootesoovituse loendite lisamine e-kaubanduse lehele
-                  href: add-reco-list-to-page.md
                 - name: Kassa kasutusfunktsionaalsused
                   items:
                     - name: Tootesoovituste lisamine kassas
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: Tellimuse kinnituse moodul
                       href: order-confirmation-module.md
+                    - name: Kaupluse valimise moodul
+                      href: store-selector.md
                 - name: Kontohaldusmoodulid
                   items:
                     - name: Kontohalduse lehed ja moodulid
@@ -2115,7 +2117,7 @@
                 - name: Makse andmete kasutamine
                   href: payment-connector-data-fields.md
                 - name: Maksekonnektori duplikaatmaksete kaitse lubamine
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: Looge maksepakett Application Exploreri jaoks Service Fabricu juurutustes
                   href: dev-itpro/payment-connector-package.md
             - name: Kolmanda osapoole e-Commerce laiendatavus

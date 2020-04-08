@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 19. märts 2020
+          href: hr-whats-new-2020-03-19.md
         - name: 10. märts 2020
           href: hr-whats-new-2020-03-10.md
         - name: 3. märts 2020
@@ -539,3 +541,9 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Loo sõltuv küsimus
               href: hr-learning-depending-question.md
+        - name: Töövõtja ja juhataja iseteeninduskeskuse seadistamine
+          items:
+            - name: Töövõtja ja juhataja iseteeninduskeskuse ülevaade
+              href: hr-employee-manager-self-service-overview.md
+            - name: Isiklike andmete muutmine
+              href: hr-employee-manager-self-service-edit-personal-information.md
