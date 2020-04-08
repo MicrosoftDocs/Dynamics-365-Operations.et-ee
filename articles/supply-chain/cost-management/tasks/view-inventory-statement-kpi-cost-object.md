@@ -17,25 +17,25 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9df4424ff7e53d17b9ec8777e1c016630f921a89
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4cda3dd424538b3b759e82c9710a057ceace2dc5
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838843"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150374"
 ---
-# <a name="view-inventory-statement-and-kpi-by-cost-object"></a><span data-ttu-id="0936b-103">Varude aruande ja KPI kuvamine kuluobjekti järgi</span><span class="sxs-lookup"><span data-stu-id="0936b-103">View inventory statement and KPI by cost object</span></span>
+# <a name="view-inventory-statement-and-kpi-by-cost-object"></a><span data-ttu-id="a6b35-103">Varude aruande ja KPI kuvamine kuluobjekti järgi</span><span class="sxs-lookup"><span data-stu-id="a6b35-103">View inventory statement and KPI by cost object</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="0936b-104">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="0936b-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="0936b-105">See protseduur on mõeldud kulukontrollerile.</span><span class="sxs-lookup"><span data-stu-id="0936b-105">This procedure is intended for the cost controller.</span></span>
+<span data-ttu-id="a6b35-104">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="a6b35-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="a6b35-105">See protseduur on mõeldud kulukontrollerile.</span><span class="sxs-lookup"><span data-stu-id="a6b35-105">This procedure is intended for the cost controller.</span></span>
 
-1. <span data-ttu-id="0936b-106">Klõpsake valikut Kuluhaldus.</span><span class="sxs-lookup"><span data-stu-id="0936b-106">Click Cost administration.</span></span>
-2. <span data-ttu-id="0936b-107">Klõpsake valikut Väljastatud tooted.</span><span class="sxs-lookup"><span data-stu-id="0936b-107">Click Released products.</span></span>
-3. <span data-ttu-id="0936b-108">Saate kirjete leidmiseks kasutada valikut Kiirfilter.</span><span class="sxs-lookup"><span data-stu-id="0936b-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="0936b-109">Näiteks saate filtrida välja Kaubakood väärtuse d0005 järgi.</span><span class="sxs-lookup"><span data-stu-id="0936b-109">For example, filter on the Item number field with a value of 'd0005'.</span></span>
-4. <span data-ttu-id="0936b-110">Klõpsake toimingupaanil valikut Kulude haldamine.</span><span class="sxs-lookup"><span data-stu-id="0936b-110">On the Action Pane, click Manage costs.</span></span>
-5. <span data-ttu-id="0936b-111">Klõpsake valikut Kuluobjektid.</span><span class="sxs-lookup"><span data-stu-id="0936b-111">Click Cost objects.</span></span>
-6. <span data-ttu-id="0936b-112">Klõpsake valikut Inventuuriaruanne ja KPI-d.</span><span class="sxs-lookup"><span data-stu-id="0936b-112">Click Inventory statement and KPIs.</span></span>
-7. <span data-ttu-id="0936b-113">Sisestage kuupäev väljale Alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="0936b-113">In the From date field, enter a date.</span></span>
-8. <span data-ttu-id="0936b-114">Sisestage kuupäev väljale Lõpukuupäev.</span><span class="sxs-lookup"><span data-stu-id="0936b-114">In the To date field, enter a date.</span></span>
+1. <span data-ttu-id="a6b35-106">Klõpsake valikut Kuluhaldus.</span><span class="sxs-lookup"><span data-stu-id="a6b35-106">Click Cost administration.</span></span>
+2. <span data-ttu-id="a6b35-107">Klõpsake valikut Väljastatud tooted.</span><span class="sxs-lookup"><span data-stu-id="a6b35-107">Click Released products.</span></span>
+3. <span data-ttu-id="a6b35-108">Saate kirjete leidmiseks kasutada valikut Kiirfilter.</span><span class="sxs-lookup"><span data-stu-id="a6b35-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="a6b35-109">Näiteks saate filtrida välja Kaubakood väärtuse d0005 järgi.</span><span class="sxs-lookup"><span data-stu-id="a6b35-109">For example, filter on the Item number field with a value of 'd0005'.</span></span>
+4. <span data-ttu-id="a6b35-110">Klõpsake toimingupaanil valikut Kulude haldamine.</span><span class="sxs-lookup"><span data-stu-id="a6b35-110">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="a6b35-111">Klõpsake valikut Kuluobjektid.</span><span class="sxs-lookup"><span data-stu-id="a6b35-111">Click Cost objects.</span></span>
+6. <span data-ttu-id="a6b35-112">Klõpsake valikut Inventuuriaruanne ja KPI-d.</span><span class="sxs-lookup"><span data-stu-id="a6b35-112">Click Inventory statement and KPIs.</span></span>
+7. <span data-ttu-id="a6b35-113">Sisestage kuupäev väljale Alguskuupäev.</span><span class="sxs-lookup"><span data-stu-id="a6b35-113">In the From date field, enter a date.</span></span>
+8. <span data-ttu-id="a6b35-114">Sisestage kuupäev väljale Lõpukuupäev.</span><span class="sxs-lookup"><span data-stu-id="a6b35-114">In the To date field, enter a date.</span></span>
 

@@ -16,73 +16,73 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68694e08550083c38feb4389f82d83c535e978c3
-ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
+ms.openlocfilehash: 995d68f6224b6dfbb1928c907ad991b86fc47668
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "3000215"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140348"
 ---
-# <a name="research-or-resolve-exceptions"></a><span data-ttu-id="44fbe-103">Erandite uurimine või lahendamine</span><span class="sxs-lookup"><span data-stu-id="44fbe-103">Research or resolve exceptions</span></span>
+# <a name="research-or-resolve-exceptions"></a><span data-ttu-id="ab7e6-103">Erandite uurimine või lahendamine</span><span class="sxs-lookup"><span data-stu-id="ab7e6-103">Research or resolve exceptions</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="44fbe-104">Hankija arvepoliitikad käivitatakse, kui sisestate hankija arve leheküljel Hankija arve ja avate lehekülje Hankija arve poliitika rikkumised.</span><span class="sxs-lookup"><span data-stu-id="44fbe-104">Vendor invoice policies are run when you post a vendor invoice by using the Vendor invoice page and when you open the vendor invoice Policy violations page.</span></span> <span data-ttu-id="44fbe-105">Hankija arve töövoogu saate konfigureerida ka selliselt, et hankija arve poliitikad käivitatakse iga kord, kui sisestate arve töövoogu.</span><span class="sxs-lookup"><span data-stu-id="44fbe-105">You can also configure the vendor invoice workflow to run vendor invoice policies every time that you submit an invoice to workflow.</span></span> 
+<span data-ttu-id="ab7e6-104">Hankija arvepoliitikad käivitatakse, kui sisestate hankija arve leheküljel Hankija arve ja avate lehekülje Hankija arve poliitika rikkumised.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-104">Vendor invoice policies are run when you post a vendor invoice by using the Vendor invoice page and when you open the vendor invoice Policy violations page.</span></span> <span data-ttu-id="ab7e6-105">Hankija arve töövoogu saate konfigureerida ka selliselt, et hankija arve poliitikad käivitatakse iga kord, kui sisestate arve töövoogu.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-105">You can also configure the vendor invoice workflow to run vendor invoice policies every time that you submit an invoice to workflow.</span></span> 
 
-<span data-ttu-id="44fbe-106">Hankija arvepoliitikad ei kehti arvetele, mis on loodud arveregistris või arve töölehel.</span><span class="sxs-lookup"><span data-stu-id="44fbe-106">Vendor invoice policies do not apply to invoices that were created in the invoice register or invoice journal.</span></span> 
+<span data-ttu-id="ab7e6-106">Hankija arvepoliitikad ei kehti arvetele, mis on loodud arveregistris või arve töölehel.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-106">Vendor invoice policies do not apply to invoices that were created in the invoice register or invoice journal.</span></span> 
 
-<span data-ttu-id="44fbe-107">Arvete võrdlemise kinnitamisel ei kasutata hankija arvepoliitikaid, vaid selle sätted määratakse leheküljel Ostureskontro parameetrid.</span><span class="sxs-lookup"><span data-stu-id="44fbe-107">Invoice matching validation does not use vendor invoice policies, but is instead set up in the Accounts payable parameters page.</span></span>
+<span data-ttu-id="ab7e6-107">Arvete võrdlemise kinnitamisel ei kasutata hankija arvepoliitikaid, vaid selle sätted määratakse leheküljel Ostureskontro parameetrid.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-107">Invoice matching validation does not use vendor invoice policies, but is instead set up in the Accounts payable parameters page.</span></span>
 
-<span data-ttu-id="44fbe-108">Salvestamisel kasutatakse demoettevõtte USMF-i.</span><span class="sxs-lookup"><span data-stu-id="44fbe-108">This recording uses the USMF demo company.</span></span> <span data-ttu-id="44fbe-109">Järgmiste sammude tegemiseks on vaja ostureskontro juhi või pearaamatupidaja rolli.</span><span class="sxs-lookup"><span data-stu-id="44fbe-109">The accounts payable manager or accounting manager role would perform these steps.</span></span> <span data-ttu-id="44fbe-110">Enne alustamist veenduge, et valitud on konfiguratsioonivõti Arvete vastendamine.</span><span class="sxs-lookup"><span data-stu-id="44fbe-110">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span>
+<span data-ttu-id="ab7e6-108">Salvestamisel kasutatakse demoettevõtte USMF-i.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-108">This recording uses the USMF demo company.</span></span> <span data-ttu-id="ab7e6-109">Järgmiste sammude tegemiseks on vaja ostureskontro juhi või pearaamatupidaja rolli.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-109">The accounts payable manager or accounting manager role would perform these steps.</span></span> <span data-ttu-id="ab7e6-110">Enne alustamist veenduge, et valitud on konfiguratsioonivõti Arvete vastendamine.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-110">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span>
 
 
-## <a name="prepare-to-create-vendor-invoice-policies"></a><span data-ttu-id="44fbe-111">Hankija arve poliitikate loomise ettevalmistus</span><span class="sxs-lookup"><span data-stu-id="44fbe-111">Prepare to create vendor invoice policies</span></span>
-1. <span data-ttu-id="44fbe-112">Avage Ostureskontro > Seadistus > Ostureskontro parameetrid.</span><span class="sxs-lookup"><span data-stu-id="44fbe-112">Go to Accounts payable > Setup > Accounts payable parameters.</span></span>
-2. <span data-ttu-id="44fbe-113">Klõpsake vahekaarti Arve kinnitamine.</span><span class="sxs-lookup"><span data-stu-id="44fbe-113">Click the Invoice validation tab.</span></span>
-3. <span data-ttu-id="44fbe-114">Märkige või tühjendage ruut Arve päise oleku automaatne värskendus.</span><span class="sxs-lookup"><span data-stu-id="44fbe-114">Select or clear the Automatically update invoice header status check box.</span></span>
-4. <span data-ttu-id="44fbe-115">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="44fbe-115">Click OK.</span></span>
-5. <span data-ttu-id="44fbe-116">Valige suvand väljal Lahknevustega arvete sisestamine.</span><span class="sxs-lookup"><span data-stu-id="44fbe-116">In the Post invoice with discrepancies field, select an option.</span></span>
-6. <span data-ttu-id="44fbe-117">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="44fbe-117">Close the page.</span></span>
-7. <span data-ttu-id="44fbe-118">Avage Ostureskontro > Poliitika seadistus > Hankija arvepoliitikad.</span><span class="sxs-lookup"><span data-stu-id="44fbe-118">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
-8. <span data-ttu-id="44fbe-119">Klõpsake valikut Parameetrid.</span><span class="sxs-lookup"><span data-stu-id="44fbe-119">Click Parameters.</span></span>
-9. <span data-ttu-id="44fbe-120">Klõpsake btnAdd.</span><span class="sxs-lookup"><span data-stu-id="44fbe-120">Click btnAdd.</span></span>
-10. <span data-ttu-id="44fbe-121">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="44fbe-121">Close the page.</span></span>
+## <a name="prepare-to-create-vendor-invoice-policies"></a><span data-ttu-id="ab7e6-111">Hankija arve poliitikate loomise ettevalmistus</span><span class="sxs-lookup"><span data-stu-id="ab7e6-111">Prepare to create vendor invoice policies</span></span>
+1. <span data-ttu-id="ab7e6-112">Avage Ostureskontro > Seadistus > Ostureskontro parameetrid.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-112">Go to Accounts payable > Setup > Accounts payable parameters.</span></span>
+2. <span data-ttu-id="ab7e6-113">Klõpsake vahekaarti Arve kinnitamine.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-113">Click the Invoice validation tab.</span></span>
+3. <span data-ttu-id="ab7e6-114">Märkige või tühjendage ruut Arve päise oleku automaatne värskendus.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-114">Select or clear the Automatically update invoice header status check box.</span></span>
+4. <span data-ttu-id="ab7e6-115">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-115">Click OK.</span></span>
+5. <span data-ttu-id="ab7e6-116">Valige suvand väljal Lahknevustega arvete sisestamine.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-116">In the Post invoice with discrepancies field, select an option.</span></span>
+6. <span data-ttu-id="ab7e6-117">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-117">Close the page.</span></span>
+7. <span data-ttu-id="ab7e6-118">Avage Ostureskontro > Poliitika seadistus > Hankija arvepoliitikad.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-118">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
+8. <span data-ttu-id="ab7e6-119">Klõpsake valikut Parameetrid.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-119">Click Parameters.</span></span>
+9. <span data-ttu-id="ab7e6-120">Klõpsake btnAdd.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-120">Click btnAdd.</span></span>
+10. <span data-ttu-id="ab7e6-121">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-121">Close the page.</span></span>
 
-## <a name="create-policy-rule-types-for-vendor-invoices"></a><span data-ttu-id="44fbe-122">Hankija arvete poliitika reegli tüüpide loomine</span><span class="sxs-lookup"><span data-stu-id="44fbe-122">Create policy rule types for vendor invoices</span></span>
-1. <span data-ttu-id="44fbe-123">Avage Ostureskontro > Poliitika seadistus > Hankija arve poliitikareegli tüübid.</span><span class="sxs-lookup"><span data-stu-id="44fbe-123">Go to Accounts payable > Policy setup > Vendor invoice policy rule types.</span></span>
-2. <span data-ttu-id="44fbe-124">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="44fbe-124">Click New.</span></span>
-3. <span data-ttu-id="44fbe-125">Sisestage väärtus väljale Reegli nimi.</span><span class="sxs-lookup"><span data-stu-id="44fbe-125">In the Rule name field, type a value.</span></span>
-4. <span data-ttu-id="44fbe-126">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="44fbe-126">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="44fbe-127">Klõpsake väljal Päringu nimi otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="44fbe-127">In the Query name field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="44fbe-128">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="44fbe-128">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="44fbe-129">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="44fbe-129">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="44fbe-130">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="44fbe-130">Click Save.</span></span>
-9. <span data-ttu-id="44fbe-131">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="44fbe-131">Close the page.</span></span>
+## <a name="create-policy-rule-types-for-vendor-invoices"></a><span data-ttu-id="ab7e6-122">Hankija arvete poliitika reegli tüüpide loomine</span><span class="sxs-lookup"><span data-stu-id="ab7e6-122">Create policy rule types for vendor invoices</span></span>
+1. <span data-ttu-id="ab7e6-123">Avage Ostureskontro > Poliitika seadistus > Hankija arve poliitikareegli tüübid.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-123">Go to Accounts payable > Policy setup > Vendor invoice policy rule types.</span></span>
+2. <span data-ttu-id="ab7e6-124">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-124">Click New.</span></span>
+3. <span data-ttu-id="ab7e6-125">Sisestage väärtus väljale Reegli nimi.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-125">In the Rule name field, type a value.</span></span>
+4. <span data-ttu-id="ab7e6-126">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-126">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="ab7e6-127">Klõpsake väljal Päringu nimi otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-127">In the Query name field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="ab7e6-128">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-128">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="ab7e6-129">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-129">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="ab7e6-130">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-130">Click Save.</span></span>
+9. <span data-ttu-id="ab7e6-131">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-131">Close the page.</span></span>
 
-## <a name="define-a-vendor-invoice-policy"></a><span data-ttu-id="44fbe-132">Hankija arvepoliitika määratlemine</span><span class="sxs-lookup"><span data-stu-id="44fbe-132">Define a vendor invoice policy</span></span>
-1. <span data-ttu-id="44fbe-133">Avage Ostureskontro > Poliitika seadistus > Hankija arvepoliitikad.</span><span class="sxs-lookup"><span data-stu-id="44fbe-133">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
-2. <span data-ttu-id="44fbe-134">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="44fbe-134">Click New.</span></span>
-3. <span data-ttu-id="44fbe-135">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="44fbe-135">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="44fbe-136">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="44fbe-136">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="44fbe-137">Laiendage või ahendage jaotist Poliitika organisatsioonid.</span><span class="sxs-lookup"><span data-stu-id="44fbe-137">Expand or collapse the Policy organizations section.</span></span>
-6. <span data-ttu-id="44fbe-138">Valige puul Contoso Entertainment System USA.</span><span class="sxs-lookup"><span data-stu-id="44fbe-138">In the tree, select 'Contoso Entertainment System USA'.</span></span>
-7. <span data-ttu-id="44fbe-139">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="44fbe-139">Click Add.</span></span>
-8. <span data-ttu-id="44fbe-140">Laiendage või ahendage jaotist Poliitika reeglid.</span><span class="sxs-lookup"><span data-stu-id="44fbe-140">Expand or collapse the Policy rules section.</span></span>
-9. <span data-ttu-id="44fbe-141">Klõpsake valikut Loo poliitika reegel.</span><span class="sxs-lookup"><span data-stu-id="44fbe-141">Click Create policy rule.</span></span>
-10. <span data-ttu-id="44fbe-142">Sisestage väärtus väljale Poliitika reegel.</span><span class="sxs-lookup"><span data-stu-id="44fbe-142">In the Policy rule description field, type a value.</span></span>
-11. <span data-ttu-id="44fbe-143">Klõpsake käsku Filtreeri.</span><span class="sxs-lookup"><span data-stu-id="44fbe-143">Click Filter.</span></span>
-12. <span data-ttu-id="44fbe-144">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="44fbe-144">Click Add.</span></span>
-13. <span data-ttu-id="44fbe-145">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="44fbe-145">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="44fbe-146">Klõpsake väljal Tabel otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="44fbe-146">In the Table field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="44fbe-147">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="44fbe-147">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="44fbe-148">Klõpsake väljal Tuletatud tabel otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="44fbe-148">In the Derived table field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="44fbe-149">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="44fbe-149">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="44fbe-150">Klõpsake väljal Väli otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="44fbe-150">In the Field field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="44fbe-151">Sisestage väärtus väljale Väli.</span><span class="sxs-lookup"><span data-stu-id="44fbe-151">In the Field field, type a value.</span></span>
-20. <span data-ttu-id="44fbe-152">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="44fbe-152">Close the page.</span></span>
-21. <span data-ttu-id="44fbe-153">Sisestage väärtus väljale Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="44fbe-153">In the Criteria field, type a value.</span></span>
-22. <span data-ttu-id="44fbe-154">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="44fbe-154">Click OK.</span></span>
-23. <span data-ttu-id="44fbe-155">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="44fbe-155">Click OK.</span></span>
-24. <span data-ttu-id="44fbe-156">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="44fbe-156">Close the page.</span></span>
-25. <span data-ttu-id="44fbe-157">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="44fbe-157">Close the page.</span></span>
+## <a name="define-a-vendor-invoice-policy"></a><span data-ttu-id="ab7e6-132">Hankija arvepoliitika määratlemine</span><span class="sxs-lookup"><span data-stu-id="ab7e6-132">Define a vendor invoice policy</span></span>
+1. <span data-ttu-id="ab7e6-133">Avage Ostureskontro > Poliitika seadistus > Hankija arvepoliitikad.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-133">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
+2. <span data-ttu-id="ab7e6-134">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-134">Click New.</span></span>
+3. <span data-ttu-id="ab7e6-135">Sisestage väärtus väljale Nimi.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-135">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="ab7e6-136">Sisestage väljale Kirjeldus soovitud väärtus.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-136">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="ab7e6-137">Laiendage või ahendage jaotist Poliitika organisatsioonid.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-137">Expand or collapse the Policy organizations section.</span></span>
+6. <span data-ttu-id="ab7e6-138">Valige puul Contoso Entertainment System USA.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-138">In the tree, select 'Contoso Entertainment System USA'.</span></span>
+7. <span data-ttu-id="ab7e6-139">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-139">Click Add.</span></span>
+8. <span data-ttu-id="ab7e6-140">Laiendage või ahendage jaotist Poliitika reeglid.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-140">Expand or collapse the Policy rules section.</span></span>
+9. <span data-ttu-id="ab7e6-141">Klõpsake valikut Loo poliitika reegel.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-141">Click Create policy rule.</span></span>
+10. <span data-ttu-id="ab7e6-142">Sisestage väärtus väljale Poliitika reegel.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-142">In the Policy rule description field, type a value.</span></span>
+11. <span data-ttu-id="ab7e6-143">Klõpsake käsku Filtreeri.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-143">Click Filter.</span></span>
+12. <span data-ttu-id="ab7e6-144">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-144">Click Add.</span></span>
+13. <span data-ttu-id="ab7e6-145">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-145">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="ab7e6-146">Klõpsake väljal Tabel otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-146">In the Table field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="ab7e6-147">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-147">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="ab7e6-148">Klõpsake väljal Tuletatud tabel otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-148">In the Derived table field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="ab7e6-149">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-149">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="ab7e6-150">Klõpsake väljal Väli otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-150">In the Field field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="ab7e6-151">Sisestage väärtus väljale Väli.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-151">In the Field field, type a value.</span></span>
+20. <span data-ttu-id="ab7e6-152">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-152">Close the page.</span></span>
+21. <span data-ttu-id="ab7e6-153">Sisestage väärtus väljale Kriteeriumid.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-153">In the Criteria field, type a value.</span></span>
+22. <span data-ttu-id="ab7e6-154">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-154">Click OK.</span></span>
+23. <span data-ttu-id="ab7e6-155">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-155">Click OK.</span></span>
+24. <span data-ttu-id="ab7e6-156">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-156">Close the page.</span></span>
+25. <span data-ttu-id="ab7e6-157">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="ab7e6-157">Close the page.</span></span>
 
