@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf27590d80bbaf7749a0b6e69adc63ddcf4f9380
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c8511b83a5d327f6a1d5c9ace091eae9e546307b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185148"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142232"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine andmete importimiseks välistest CSV-failidest
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Kasutage seda protseduuri, et kujundada elektroonilise aruandluse (ER) konfiguratsioone andmete importimiseks CSV-vormingus välisest failist. Protseduuri järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Ülesannete lõpetamiseks peab esmalt täitma protseduuris "ER konfiguratsioonipakkuja loomine ja selle aktiivseks märkimine" toodud toimingud. 
+Kasutage seda protseduuri, et kujundada elektroonilise aruandluse (ER) konfiguratsioone andmete importimiseks CSV-vormingus välisest failist. Protseduuri järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Ülesannete lõpetamiseks peab esmalt täitma protseduuris „ER konfiguratsioonipakkuja loomine ja selle aktiivseks märkimine” toodud toimingud. 
 
 Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Need toimingud saab lõpule viia USMF-i andmekomplekti abil. 
 
@@ -63,7 +63,7 @@ Samuti peate alla laadima ja kohalikult salvestama järgmised failid: (https://g
 ## <a name="review-format-settings"></a>Vormingu sätete ülevaatamine
 1. Klõpsake valikut Kujundaja.
 2. Klõpsake nuppu Laienda/ahenda.
-3. Lülitage nupp „Kuva üksikasjad” sisse.
+3. Lülitage nupp Kuva üksikasjad sisse.
     * Kujundatud vorming tähistab CSV-vormingus välise faili eeldatavat struktuuri.  
 4. Valige puul „Sissetulev: fail\Juur: seeria”.
     * Tüübiga SEQUENCE juurelemendi jaoks on väljal „Erimärgid” valitud suvand „Uus rida – Windows (CR LF)”. Selle sätte alusel tuleb sõelumisfaili iga rida arvestada eraldi kirjena.   

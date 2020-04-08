@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64fade6578e9cd4f8a51c524e4f6ebbf63b93f20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184757"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143095"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Manuspiltidega aruannete loomine Office’i vormingus
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad luua elektroonilise aruandluse (ER) konfiguratsioone manuspilte sisaldavate elektrooniliste dokumentide loomiseks MS Office'i vormingutes (Excel ja Word).
 
-Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonilise aruandluse konfiguratsioone.  Toimingute teostamiseks peab esmalt täitma juhendis "ER MS Office'i vormingutes manuspiltidega aruannete koostamine (2. osa: konfiguratsioonide ülevaatamine)" toodud toimingud. Neid toiminguid saab teha ettevõttes USMF
+Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonilise aruandluse konfiguratsioone.  Toimingute teostamiseks peab esmalt täitma juhendis „ER MS Office'i vormingutes manuspiltidega aruannete koostamine (2. osa: konfiguratsioonide ülevaatamine)” toodud toimingud. Neid toiminguid saab teha ettevõttes USMF.
 
 
 ## <a name="run-format-with-initial-model-mapping"></a>Vormingu käivitamine algse mudelivastendusega
@@ -40,7 +40,7 @@ Selles näites kasutate näidisettevõtte Litware, Inc. jaoks loodud elektroonil
     * Käivitage testimiseks vorming.  
 6. Valige väljal Käibiv tšekivorming väärtus Jah.
 7. Klõpsake nuppu OK.
-    * Vaadake loodud väljund üle. Võtke arvesse, et aruandes on esitatud nii ettevõtte logo kui ka volitatud isiku allkiri. Allkirja pilt võetakse valitud pangakontoga seotud tšeki paigutusekirje andmetüübi Konteiner väljalt.  
+    * Vaadake loodud väljund üle. Võtke arvesse, et aruandes on esitatud nii ettevõtte logo kui ka volitatud isiku allkiri. Allkirja pilt võetakse valitud pangakontoga seotud tšeki paigutusekirje andmetüübi väljalt „Konteiner”.  
 8. Laiendage jaotis Eksemplare.
 9. Klõpsake nuppu Redigeeri.
 10. Sisestage väljale Vesimärk tekst Prindi vesimärk kui Tühista.

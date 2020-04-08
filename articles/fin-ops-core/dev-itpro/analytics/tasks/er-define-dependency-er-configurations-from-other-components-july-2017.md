@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042915"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142234"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER-i konfiguratsioonide teistest komponentidest sõltuvuse määramine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Toimingute teostamiseks peate esmalt läbima tegevusjuhises toodud ja ER-i mudelihalduse vastendamise konfiguratsioonide etapid ning teil peab olema juurdepääs teenusele Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -38,12 +38,12 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 ## <a name="define-the-dependency-of-er-configurations-from-other-components"></a>ERi konfiguratsioonide teistest komponentidest sõltuvuse määramine
 1. Laiendage puul valikut „Sample data model".
 2. Tehke puul valik "Näidisandmemudel\Näidisvastendus".
-    * Valisime mudelivastenduskonfiguratsiooni „Näidisvastendus" mustandiversiooni. Nüüd määratleme selle sõltuvuse muudest tarkvarakomponentidest. Seda toimingut peetakse eeltingimuseks konfiguratsiooni versiooni allalaadimise kontrollimiseks ER-i hoidlast ja selle versiooni edasiseks kasutamiseks.   
+    * Valisime mudelivastenduse konfiguratsiooni „Näidisvastendus" mustandiversiooni. Nüüd määratleme selle sõltuvuse muudest tarkvarakomponentidest. Seda toimingut peetakse eeltingimuseks konfiguratsiooni versiooni allalaadimise kontrollimiseks ER-i hoidlast ja selle versiooni edasiseks kasutamiseks.   
 3. Laiendage jaotist Eeltingimused.
-    * Pange tähele, et juurutuste eeltingimuste grupp on sellesse etappi lisatud automaatselt. See grupp sisaldab eeltingimuse komponenti, mis viitab andmemudeli konfiguratsioonile ning selle juurutuse lipp on sisse lülitatud. See lipp näitab, et näidisvastendusmudeli vastenduskonfiguratsiooni peetakse andmemudeli „Näidisandmemudel" juurutamiseks. Seetõttu sunnib see komponent elektroonilist aruandlust alla laadima vastenduse konfiguratsiooni „Näidisvastendus” elektroonilise aruandluse hoidlast, kui mudeli konfiguratsioon „Näidisandmemudel" on alla laaditud.   
+    * Pange tähele, et „Juurutuste” eeltingimuste grupp on sellesse etappi lisatud automaatselt. See grupp sisaldab eeltingimuse komponenti, mis viitab andmemudeli konfiguratsioonile ning selle juurutuse lipp on sisse lülitatud. See lipp näitab, et „Näidisvastendamise” vastenduskonfiguratsiooni peetakse andmemudeli „Näidisandmemudel" juurutamiseks. See komponent sunnib elektroonilist aruandlust alla laadima vastenduse konfiguratsiooni „Näidisvastendus” elektroonilise aruandluse hoidlast, kui mudeli konfiguratsioon „Näidisandmemudel" on alla laaditud.   
 4. Klõpsake nuppu Redigeeri.
     * Konfiguratsiooni praeguse versiooni ühekordne sõltuvust tarkvarakomponendist saab määratleda, kui kasutada komponendi tüübi definitsiooni ja kas komponendi versiooni või komponentide versioonide vahemikku.  
-    * Soovitud sõltuvusi saab kokku grupeerida. Kui valida grupeerimistüüp „Kõik”, peetakse selle grupi sõltuvustingimust täidetuks, kui iga selle grupi ja alamgrupi sõltuvustingimus on täidetud. Kui valida grupeerimistüüp „Üks valitutest”, peetakse selle grupi sõltuvustingimust täidetuks, kui vähemalt üks selle grupi ja alamgrupi sõltuvustingimus on täidetud.   
+    * Soovitud sõltuvusi saab kokku grupeerida. Kui valida grupeerimistüüp „Kõik”, peetakse selle grupi sõltuvustingimust täidetuks, kui iga selle grupi ja alamgrupi sõltuvustingimus on täidetud. Kui valida grupeerimistüüp „Üks valitutest”, peetakse selle grupi sõltuvustingimus täidetuks, kui vähemalt üks selle grupi ja alamgrupi sõltuvustingimus on täidetud.   
 5. Klõpsake valikut Uus.
 6. Valige toote eeltingimuse komponent.
 7. Valige Microsoft Dynamics 365 for Operations (1611).
@@ -62,7 +62,7 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 18. Valige Microsoft Dynamics AX 7.0 RTW.
 19. Sisestage versiooniväljale väärtus „[7.0.1265.3015,7.1)”.
     * [7.0.1265.3015,7.1)  
-    * Sõltuvusi hinnatakse, kui see konfiguratsioon on ER-i hoidlast alla laaditud. See konfiguratsiooni versioon laaditakse ER-i hoidlast alla, kui konfiguratsiooni „Näidisandmemudel” 1. versioon on juba olemas või eelnevalt alla laaditud. Kui see on eelnevalt alla laaditud, tuleb see lõpule viia rakenduses Microsoft Dynamics 365 for Finance and Operationsi ettevõtteversioonis, mis peab olema 7.0.1265.3015 või uuem versioon, kuid mis ei tohi ületada lühiversiooni 1.   
+    * Sõltuvusi hinnatakse, kui see konfiguratsioon on ER-i hoidlast alla laaditud. See konfiguratsiooni versioon laaditakse ER-i hoidlast alla, kui konfiguratsiooni „Näidisandmemudel” 1. versioon on juba olemas või eelnevalt alla laaditud. Kui see on eelnevalt alla laaditud, tuleb see lõpule viia rakenduses Microsoft Dynamics 365 for Finance and Operations Enterprise Editionis, mis peab olema 7.0.1265.3015 või uuem versioon, kuid mis ei tohi ületada lühiversiooni 1.   
 20. Klõpsake nuppu Salvesta.
 21. Sulgege leht.
 22. Klõpsake valikut Muuda olekut.
@@ -82,7 +82,7 @@ Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraator
 8. Sisestage väljale Konfiguratsioonihoidla tüüp valik LCS.
 9. Klõpsake käsku Loo hoidla.
 10. Valige või sisestage väärtus väljal Projekt.
-    * Valige projektivälja otsingust soovitud LCS-projekt.  
+    * Valige välja „Projekt” otsingust soovitud LCS-projekt.  
 11. Klõpsake nuppu OK.
 12. Sulgege leht.
 

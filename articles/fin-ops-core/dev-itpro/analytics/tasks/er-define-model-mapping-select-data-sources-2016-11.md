@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46dc13416aa094f33879c017c1a1815fc791409d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6287fa95b7ce7341e99d1b1a6b972db68a30398
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185102"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142160"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Elektroonilise aruandluse mudeli vastendamiste määratlemine ja andmeallikate valimine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab valida andmeallikaid elektroonilise aruandluse (ER) andmemudeli jaoks. Andmeallikad seotakse valitud andmemudeli üksikute komponentidega kujundamise ajal ja täidetakse selle andmemudeli äriandmetega töö ajal. Selles näites valite andmeallikad olemasoleva andmemudeli jaoks, mis on loodud näidisettevõtte Litware, Inc. jaoks. Nende etappide lõpuleviimiseks peate kõigepealt läbima etapid protseduuris Uue andmemudeli loomine.
+Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab valida andmeallikaid elektroonilise aruandluse (ER) andmemudeli jaoks. Andmeallikad seotakse valitud andmemudeli üksikute komponentidega kujundamise ajal ja täidetakse selle andmemudeli äriandmetega töö ajal. Selles näites valite andmeallikad olemasoleva andmemudeli jaoks, mis on loodud näidisettevõtte Litware, Inc. jaoks. Nende etappide lõpule viimiseks peate kõigepealt läbima etapid protseduuris „Uue andmemudeli loomine”.
 
 
 ## <a name="open-the-electronic-reporting-configurations-tree"></a>Elektroonilise aruandluse konfiguratsioonipuu avamine
@@ -78,7 +78,7 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 17. Valige puul suvand Kanded\kanne.
 18. Klõpsake suvandit Andmeallika lisamine.
 19. Väljale Valem sisestage „CONCATENATE(Transactions.Voucher, "-", ”.
-    * Sisestage valemi lõppu [ , “-“, ].  
+    * Sisestage valemi lõppu [ , "-", ].  
 20. Valige puul suvand String\TEKST.
 21. Klõpsake suvandit Funktsiooni lisamine.
 22. Valige puul suvand Transactions\Record-ID(RecId).

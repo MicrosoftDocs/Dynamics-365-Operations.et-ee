@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40723d35c1914f6cec6aa361a6c38100d1667cb6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e8d7025db9dae57d04ee8b0f827cc13d659ad699
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003623"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161773"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>Käibemaksu määramine ja tühistamised
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See protseduur näitab, kuidas kaubanduse kanalitele käibemaksugruppe määrata. Samuti näitab see uue käibemaksu tühistamise loomise protsessi ja selle määramist olemasolevale käibemaksu tühistamise grupile. Protseduur kasutab demoettevõtte USRT andmeid.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e46d905145ba42fc2e74149736054125c36ff558
-ms.sourcegitcommit: fbaccf72df82e6b6927f0c9f0d35af0ca3ecbc2d
+ms.openlocfilehash: b43ec2aecd470c3993021f30cb4f2129ec34e567
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1855706"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149753"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Tarnegraafikuga ostutellimuse loomine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selles teemas näidatakse, kuidas luua ostutellimusele tarnegraafikut. Tarnegraafikut kasutatakse siis, kui tellimuse või töölehe koguse puhul on nõutav mitme saadetisega tarne. Selles juhendis toodud näidet saab kasutada demoandmete ettevõtte USMF puhul. Selle protseduuri viib tavaliselt läbi ostuagent.
 
@@ -43,7 +43,7 @@ Selles teemas näidatakse, kuidas luua ostutellimusele tarnegraafikut. Tarnegraa
 9. Väljal **Kogus** muutke koguse väärtuseks `4`.
 10. Valige suvand **Uus**.
 11. Väljale **Kogus** sisestage `6` järelejäänud koguseks.
-- Valige väljalt Tarnekuupäev kuupäev, mis on üks nädal pärast esimesel tarne real olevat kuupäeva.  
+- Valige väljalt Tarnekuupäev kuupäev, mis on üks nädal pärast esimesel tarnereal olevat kuupäeva.  
 - Väljade **Kokku** ja **Järelejäänud** abil saate jälgida lõplikku kogust, mis tarnegraafiku ridadele eraldati. Kui järelejäänud kogus on null, eraldati graafikusse algse rea täielik kogus.  
 12. Laiendage jaotist **Tasude teisendamine**.
 - Siin olevad valikud võimaldavad teil juhtida, kuidas soovite tasusid tarnegraafiku ridade vahel jagada. Kui valite **Kopeeri brutosummad**, kopeeritakse igale tarnereale algsel tellimuse real olev tasu summa. Valik **Eralda tarneridadele** jagab algse rea tasu koguse järgi igale tarnereale.  

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 4f2fd2b7bf9f09a61d07e1bc35ad48fe2c5d7383
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092242"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138355"
 ---
 # <a name="provision-human-resources"></a>Human Resources ettevalmistus
 
@@ -56,7 +56,7 @@ Pärast LCS-i projekti loomist saate Human Resourcesi ette valmistada keskkonnas
 2. Näidake, kas see on rakenduse Human Resources liivakasti- või toomiseksemplar. Liivakastieksemplaride puhul võivad varase tagasiside ja testimise jaoks saadaval olla eelvaatefunktsioonid.
    
     > [!NOTE]
-    > Talenti eksemplari tüüpi ei saa pärast määramist muuta. Enne jätkamist kontrollige, kas valitud on õige eksemplari tüüp.</br></br>
+    > Rakenduse Human Resources eksemplari tüüpi ei saa pärast määramist muuta. Enne jätkamist kontrollige, kas valitud on õige eksemplari tüüp.</br></br>
     > Rakenduse Human Resources eksemplari tüüp eraldi on Microsoft Power Appsi keskkonna eksemplari tüübist, mida seadistate Power Appsi halduskeskuses.
     
 3. Kui soovite, et keskkonnas kasutataks sama demoandmete kogumit, mida kasutati Human Resourcesi proovikeskkonnas, siis valige suvand **Kaasa demoandmed**. See on kasulik pikaajalistes demo- või koolituskeskkondades, kuid seda ei tohiks kunagi tootmiskeskkondade jaoks kasutada.  Pange tähele, et see suvand tuleb valida algsel juurutusel. Hiljem ei saa olemasolevat juurutust värskendada.
@@ -74,7 +74,7 @@ Pärast LCS-i projekti loomist saate Human Resourcesi ette valmistada keskkonnas
     > [!NOTE]
     > Kui te pole veel lõplikke nõudeid kinnitanud, saate projektis juurutada Human Resourcesi testeksemplari. Seejärel saate oma lahenduse testimiseks kuni kinnitamiseni kasutada seda testeksemplari. Kui kasutate oma uut keskkonda testimiseks, peate tootmiskeskkonna loomiseks seda protseduuri kordama.
 
-    > Kuna Human Resourcesi kordustellimuse puhul on lubatud ainult kaks LCS-i keskkonda, võite kaaluda tasuta 60-päevase [Human Resourcesi proovikeskkonna](https://dynamics.microsoft.com/talent/overview/) kasutamist. Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi rakenduse Human Resources süsteemiadministratsiooni kogemuse. Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda. Need pole mõeldud kasutamiseks tootmiskeskkonnana. Pange tähele, et proovikeskkonna aegumisel 60 päeva möödudes kustutatakse kõik selles sisalduvad andmed ning neid ei saa taastada. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
+    > Võite kaaluda tasuta 60-päevase [Human Resourcesi prooviversiooni keskkonna](https://dynamics.microsoft.com/talent/overview/) kasutamist. Kuigi proovikeskkonna omanikuks on kasutaja, kes seda taotles, saab sinna kutsuda teisi kasutajaid läbi rakenduse Human Resources süsteemiadministratsiooni kogemuse. Proovikeskkonnad sisaldavad fiktiivseid andmeid, mis võimaldavad programmiga turvaliselt tutvuda. Need pole mõeldud kasutamiseks tootmiskeskkonnana. Pange tähele, et proovikeskkonna aegumisel 60 päeva möödudes kustutatakse kõik selles sisalduvad andmed ning neid ei saa taastada. Pärast olemasoleva keskkonna aegumist saate registreerida uue proovikeskkonna kasutamisele.
 
 ## <a name="select-a-power-apps-environment"></a>Valige Power Appsi keskkond
 
@@ -97,7 +97,10 @@ Kasutage järgmisi juhiseid, kui otsustate, millisesse Power Appsi keskkonda rak
     - **Proovikeskkonnad** – need keskkonnad luuakse aegumisperioodiga, pärast mida need aeguvad, misjärel teie keskkond ja selles sisalduvad Human Resourcesi eksemplarid eemaldatakse automaatselt.
    
     - **Toetamata piirkonnad** – praegu toetatakse rakendust Human Resources ainult järgmistes piirkondades: Ameerika Ühendriigid, Euroopa, Ühendkuningriik, Austraalia, Kanada ja Aasia.
-  
+
+    > [!NOTE]
+    > Human Resourcesi keskkond valmistatakse ette Power Appsi keskkonnaga samas piirkonnas. Human Resourcesi keskkonna migreerimist mõnda muusse piirkonda ei toetata.
+
 6. Kui olete määratlenud kasutatava keskkonna, saate ettevalmistamise protsessiga jätkata. 
  
 ## <a name="grant-access-to-the-environment"></a>Keskkonnale juurdepääsu andmine

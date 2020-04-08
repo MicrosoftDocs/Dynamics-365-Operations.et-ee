@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbef5410d0e6f15fbb5025f3831486d55cd06216
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e0fabf5c9475b5acd7cbd77a51c2912c96681894
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185056"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142635"
 ---
 # <a name="er-configure-destinations"></a>ER Sihtkohade konfigureerimine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Selles protseduuris näidatakse, kuidas seadistada ja kasutada erinevaid sihtkohti elektroonilise aruandluse (ER) väljundi komponentide (nagu kaust või fail) jaoks. Selle protseduuri loomiseks kasutatav demoandmete ettevõte on DEMF. Saksamaa on juriidilise isiku emase aadressi riike\piirkond, kuid saate selles protseduuris kasutada mis tahes juriidilist isikut. 
+Selles protseduuris näidatakse, kuidas seadistada ja kasutada erinevaid sihtkohti elektroonilise aruandluse (ER) väljundi komponentide (nagu kaust või fail) jaoks. Selle protseduuri loomiseks kasutatav demoandmete ettevõte on DEMF. Saksamaa on juriidilise isiku emase aadressi riik\piirkond, kuid saate selles protseduuris kasutada mis tahes juriidilist isikut. 
 
 Selles näites kasutatav vorming on ISO20022 kreeditiülekanne, kuid saate kasutada mis tahes vormingut, mis on juba imporditud. Arvestage sellega, et see protseduur on näide ühe faili ja ühe sihtkoha seadistusest. Lisateavet elektroonilise aruandluse sihtkoha halduse kohta leiate rakenduse Dynamics 365 Finance spikrist.
 

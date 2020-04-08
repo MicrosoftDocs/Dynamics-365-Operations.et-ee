@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cf45e838afcb55e15175811f4d38be07d7a484d
-ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
+ms.openlocfilehash: 8200e0235fa78cbef4fdadd1d1c124446b89e72a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "1874873"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145871"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Kaubavaru omandiõiguse muutmine tootmise nõudluse põhjal
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See protseduur näitab, kuidas määrata saadetise varude omanikuks hankija asemel teie juriidiline isik, kui on olemas nõudlus tootmises olevate varude järele. See omandiõiguse muutmine toimub varude omandiõiguse muutmise töölehe sisestamisega. Omandiõiguse muutmise töölehe ridu saab luua käsitsi või (nagu selles salvestises näidatud) olemasoleva tootmise nõudluse põhjal. Tavaliselt teeb seda tööde järelevaataja. Saate seda protseduuri kasutada demoettevõttes USMF või oma andmeid kasutades. Kui kasutate oma andmeid, siis veenduge, et teil oleksid olemas järgmised eeltingimused: varude töölehe nimi, mis on seadistatud varude omandiõiguse muutmiseks, füüsiliselt registreeritud hankijale kuuluvad vabad kaubad ja vähemalt üks materjali tootmistellimuse rida. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
 

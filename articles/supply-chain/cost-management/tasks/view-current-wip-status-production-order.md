@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 026a847ce63c96865dcb8c094fec205396f810ba
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: be5d3c19cc0542c0bf11674e70706e3c5c624d60
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836429"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150448"
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>Tootmistellimuse WIP praeguse oleku kuvamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See protseduur näitab, kuidas vaadata tootmistellimuse lõpetamata toodangu (WIP) aruannet. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid. See protseduur on mõeldud kulukontrollerile.
 

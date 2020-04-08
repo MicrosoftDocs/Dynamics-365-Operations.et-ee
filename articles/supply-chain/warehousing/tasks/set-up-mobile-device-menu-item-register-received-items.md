@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 599a533c90b0346637221fecc78ddd688410fb3c
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 5783742b382c333c9ba7b60701c043c74c87c458
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914741"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148304"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Mobiilse seadme menüükäsu seadistamine saabunud kaupade registreerimiseks
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See teema keskendub mobiilse seadme menüü-üksuse seadistamisele. Seda menüü-üksust kasutatakse ostutellimuste kaudu tellitud kaupade vastuvõtu registreerimiseks. 
 
@@ -42,7 +42,7 @@ Saate seda juhendit kasutada demoettevõtte USMF andmetega. See protseduur on m�
 6. Valige jaotise **Üldine** väljal **Töö loomise protsess**, **Ostutellimuse objekt saab**.
     - Ostutellimuse rida peab olema üheselt identifitseeritud, enne kui vaba kaubavaru saab laos registreerida. Selles stsenaariumis registreerib mobiilne seade ostutellimuse numbri ja kaubakoodi ning see võimaldab süsteemil tuvastada ostutellimuse rea. Luuakse paigutamistöö ja selle saab võtta teine töötaja. Teie valitud töö loomise meetod määrab, millised väljad muutuvad **Üldist** FastTabis kättesaadavaks.  
     - Kui valite suvandi **Kasuta vaikemisi andmeid**, on nupp **Vaikeandmed** sisse lülitatud. siin saate valida väljad nende andmete kuvamiseks, mida töötajal enamasti igapäevases töös vaja läheb, nii et need väärtused kuvatakse mobiilses seadmes.  
-    - Parameeter **Numbrimärkide rühmitus** töötab koos ühikute jadarühmaga, mis on määratud vastuvõetavale üksusele. Saate määrata, kas vähema või rohkema kui ühe kaubaaluse sissetulekud rühmitatakse ühele litsentsiplaadile või luuakse iga ühiku kohta eraldi litsentsiplaat.  
+    - Parameeter **Numbrimärkide rühmitus** töötab koos ühikute seeriagrupiga, mis on määratud vastuvõetavale üksusele. Saate määrata, kas vähema või rohkema kui ühe kaubaaluse sissetulekud rühmitatakse ühele litsentsiplaadile või luuakse iga ühiku kohta eraldi litsentsiplaat.  
     - Kui valite valiku **Genereeri numbrimärk**, genereerib see numbrijadade valiku põhjal kordumatu numbrimärgi numbri.  
     - Saate valida malli, mida kasutatakse töö loomisel. Näiteks kui registreerite ostutellimuse jaoks kauba, luuakse töömalli alusel paigutamistöö. Kui te siin töömalli ei vali, määrab süsteem malli mallidega seostatud päringukriteeriumite alusel.  
     - Kui mobiilses seadmes kuvatakse likvideerimiskoodid, saavad töötajad hinnata kaupade olekut või kvaliteeti ja valida sobiva koodi. Likvideerimiskoodi reeglid määratlevad, kas kaup on saadaval teiste laoprotsesside jaoks. Reeglid määratlevad ka selle, millist asukohakorraldust loodud töö jaoks kasutatakse.   

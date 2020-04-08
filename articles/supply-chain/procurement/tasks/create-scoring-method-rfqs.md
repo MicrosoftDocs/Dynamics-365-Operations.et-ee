@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cbbc941b810cd8e5db5ba15a23dc6bd72a29506
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e0e1fe2a27998c01012e40d80eacf13aa11f5689
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838066"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147338"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Pakkumiskutsetele hindamismeetodi loomine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selles protseduuris näidatakse, kuidas hindamismeetodit luua. Hindamismeetod on kriteeriumide kogum, mida saab kasutada pakkumiskutsele vastuseks saadetud pakkumiste võrdlemiseks. Näiteks võib olla vaja hinnata hankijat varasema soorituse põhjal või hinnata, kas ettevõte on keskkonnasõbralik või hea koostööpartner, või võrrelda pakkumisi hinna alusel. Hindamismeetodi saab seostada kutse tüübiga seda tüüpi pakkumiskutsete vaike-hindamismeetodina. Neid ülesandeid täidab üldjuhul ostujuht. Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades.
 

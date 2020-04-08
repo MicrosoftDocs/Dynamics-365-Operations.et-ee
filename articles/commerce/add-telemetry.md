@@ -3,7 +3,7 @@ title: Telemeetria toetamiseks saidile skriptikoodi lisamine
 description: Selles teemas kirjeldatakse saidi lehtedele kliendipoolse skriptikoodi lisamist, et toetada kliendipoolset telemeetriat.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 03/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 674d00faf1b30f87a0b0062129e1b9fbff955dd4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001273"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154082"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Telemeetria toetamiseks saidile skriptikoodi lisamine
-
 
 [!include [banner](includes/banner.md)]
 
@@ -38,25 +37,72 @@ Veebianalüüs on oluline tööriist, kui soovite mõista, kuidas kliendid teie 
 > [!NOTE]
 > Selle teema juhised rakenduvad ka teistele kohandatud kliendipoolsetele funktsioonidele, mida Microsoft Dynamics 365 Commerce ei paku.
 
-## <a name="create-a-reusable-fragment-for-your-script-code"></a>Skriptikoodi jaoks taaskasutatava fragmendi loomine
+## <a name="create-a-reusable-page-fragment-for-your-script-code"></a>Skriptikoodi jaoks taaskasutatava lehe loomine
 
-Pärast seda, kui loote oma skriptikoodi jaoks fragmenti, saate seda oma saidil kõikidel lehtedel uuesti kasutada.
+Lehe fragment võimaldab teil taaskasutada tekstisisest või välist skripti koodi saidi kõigil lehtedel, olenemata kasutatavast mallist.
 
-1. Avage **Fragmendid \> Uus lehe fragment**.
-2. Valige suvand **Väline skript**, sisestage fragmendi nimi ja valige seejärel **OK**.
-3. Valige fragmendi hierarhias äsja loodud fragmenti jaoks **skripti sisestaja** mooduli alam.
-4. Lisage parempoolsel atribuudipaanil oma kliendipoolne skript ja määrake vastavalt vajadusele teised konfiguratsiooni suvandid.
+### <a name="create-a-reusable-page-fragment-for-your-inline-script-code"></a>Tekstisisese skriptikoodi jaoks taaskasutatava lehe loomine
 
-## <a name="add-the-fragment-to-templates"></a>Mallile fragmendi lisamine
+Saidiehitajas taaskasutatava lehe fragmendi loomiseks tekstisisese skriptikoodi jaoks järgige neid juhiseid.
+
+1. Avage suvand **Lehe fragmendid** ja valige seejärel **Uus**.
+1. Dialoogiboksis **Uus lehe fragment** valige **Tekstisisene skript**.
+1. Jaotises **Lehe fragmendi nimi**sisestage fragmendi nimi ja seejärel valige **OK**.
+1. Valige loodud lehe fragmendi jaotises moodul **Tekstisisene vaikeskript**.
+1. Sisestage parempoolsel atribuudi paanil jaotises **Tekstisisene skript** oma kliendipoolne skript. Seejärel konfigureerige teised suvandid vastavalt vajadusele.
+1. Valige nupp **Salvesta** ja seejärel suvand **Lõpeta redigeerimine**.
+1. Valige **Avalda**.
+
+### <a name="create-a-reusable-page-fragment-for-your-external-script-code"></a>Tekstivälise skriptikoodi jaoks taaskasutatava lehe loomine
+
+Saidiehitajas taaskasutatava lehe fragmendi loomiseks tekstivälise skriptikoodi jaoks järgige neid juhiseid.
+
+1. Avage suvand **Lehe fragmendid** ja valige seejärel **Uus**.
+1. Dialoogiboksis **Uus lehe fragment** valige **Tekstiväline skript**.
+1. Jaotises **Lehe fragmendi nimi**sisestage fragmendi nimi ja seejärel valige **OK**.
+1. Valige loodud lehe fragmendi jaotises moodul **Tekstiväline vaikeskript**.
+1. Lisage parempoolsel atribuudipaani jaotises **Skripti allikas** välise skripti allika väline või suhteline URL. Seejärel konfigureerige teised suvandid vastavalt vajadusele.
+1. Valige nupp **Salvesta** ja seejärel suvand **Lõpeta redigeerimine**.
+1. Valige **Avalda**.
+
+## <a name="add-a-page-fragment-that-includes-script-code-to-a-template"></a>Lisage lehe fragment, mis sisaldab malli skriptikoodi
+
+Saidiehitajas malli skriptikoodi sisaldava lehe fragmendi lisamiseks järgige neid juhiseid.
 
 1. Avage **Mallid** ja avage lehtede mall, millele soovite oma skriptikoodi lisada.
-2. Laiendage vasakpoolsel paanil malli hierarhiat, et kuvada pesa **HTML-i pea**.
-3. Valige pesa **HTML-i päis** jaoks kolmikpunkti nupp (**…**) ja seejärel valige käsk **Lisa fragment**.
-4. Valige fragment, mille lõite oma skriptikoodi jaoks.
-5. Salvestage mall ja registreerige see.
+1. Laiendage vasakpoolsel paanil malli hierarhiat, et kuvada pesa **HTML-i pea**.
+1. Valige pesa **HTML-i päis** jaoks kolmikpunkti nupp (**…**) ja seejärel valige käsk **Lisa lehe fragment**.
+1. Valige fragment, mille lõite oma skriptikoodi jaoks.
+1. Valige nupp **Salvesta** ja seejärel suvand **Lõpeta redigeerimine**.
+1. Valige **Avalda**.
 
-> [!NOTE]
-> Pärast lõpetamist peate fragmendi ja põhimalli avaldama. 
+## <a name="add-an-external-script-or-inline-script-directly-to-a-template"></a>Tekstivälise või -sisese skripti lisamine otse malli
+
+Kui soovite sisestada tekstisisese või -välise skripti otse ühe malli juhitavasse lehtede komplekti, ei pea te esmalt lehe fragmenti looma.
+
+### <a name="add-an-inline-script-directly-to-a-template"></a>Tekstisisese skripti lisamine otse malli
+
+Saidiehitajas tekstisisese skripti otse malli lisamiseks järgige neid juhiseid.
+
+1. Avage **Mallid** ja avage lehtede mall, millele soovite oma skriptikoodi lisada.
+1. Laiendage vasakpoolsel paanil malli hierarhiat, et kuvada pesa **HTML-i pea**.
+1. Valige pesa **HTML-i päis** jaoks kolmikpunkti nupp (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Dialoogiboksis **Lisa moodul** valige **Tekstisisene skript**.
+1. Sisestage parempoolsel atribuudi paanil jaotises **Tekstisisene skript** oma kliendipoolne skript. Seejärel konfigureerige teised suvandid vastavalt vajadusele.
+1. Valige nupp **Salvesta** ja seejärel suvand **Lõpeta redigeerimine**.
+1. Valige **Avalda**.
+
+### <a name="add-an-external-script-directly-to-a-template"></a>Tekstvälise skripti lisamine otse malli
+
+Saidiehitajas tekstivälise skripti otse malli lisamiseks järgige neid juhiseid.
+
+1. Avage **Mallid** ja avage lehtede mall, millele soovite oma skriptikoodi lisada.
+1. Laiendage vasakpoolsel paanil malli hierarhiat, et kuvada pesa **HTML-i pea**.
+1. Valige pesa **HTML-i päis** jaoks kolmikpunkti nupp (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Dialoogiboksis **Lisa moodul** valige **Tekstiväline skript**.
+1. Lisage parempoolsel atribuudipaani jaotises **Skripti allikas** välise skripti allika väline või suhteline URL. Seejärel konfigureerige teised suvandid vastavalt vajadusele.
+1. Valige nupp **Salvesta** ja seejärel suvand **Lõpeta redigeerimine**.
+1. Valige **Avalda**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
@@ -73,4 +119,3 @@ Pärast seda, kui loote oma skriptikoodi jaoks fragmenti, saate seda oma saidil 
 [Autoriõiguste teatise lisamine](add-copyright-notice.md)
 
 [Saidile keelte lisamine](add-languages-to-site.md)
-

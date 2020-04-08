@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b4ad9fb7a3d768acb0af73dcbe3d87b323de727
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 52bc276a4a88971a7214fa09087cb1323b91aaf5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042800"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143266"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>Elektrooniline aruandlus. Vormingu täiendamine uue alusversiooni kasutuselevõtuga
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad hallata elektroonilise aruandluse (ER) vormingu konfiguratsiooni. Selles protseduuris selgitatakse, kuidas saab luua vormingu kohandatud versiooni konfiguratsiooni pakkujalt (CP) saadud vormingu alusel. Selgitatakse ka seda, kuidas võtta kasutusele selle vormingu uus alusversioon.
 
-Nende etappide lõpuleviimiseks peate kõigepealt lõpetama etapid protseduurides „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” ja „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”. Neid toiminguid saab teha GBSI ettevõttes.
+Nende etappide lõpule viimiseks peate kõigepealt lõpetama etapid protseduurides „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” ja „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”. Neid toiminguid saab teha GBSI ettevõttes.
 
 ## <a name="select-format-configuration-for-customization"></a>Vormingu konfiguratsiooni valimine kohandamiseks
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
@@ -242,5 +242,5 @@ Selleks peab Proseware, Inc. muutma kohandatud konfiguratsiooni BACS-i (UK fikti
     Pange tähele, et loodud konfiguratsioon salvestatakse lõpetatud versioonina 1.2.2: alus-BACS-i (UK fiktiivne kohandatud) vormingu versioon 2, mis põhineb alust-BACS-i (UK fiktiivne) vormingu versioonil 2, mis põhineb andmemudeli Maksed (lihtsustatud mudel) versioonil 1.  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Kohandatud vormingu testimine maksefailide loomiseks
-Viige rakenduse Finance and Operations paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”. Valige loodud vorming ‘BACS (UK fiktiivne kohandatud)’ elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab ettevõttes Proseware, Inc. hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele. Fail peab sisaldama ka hiljuti ettevõtte Litware, Inc. poolt loodud XML-sõlme SWIFT-pangakoodiga vastavalt riigi nõuetele.  
+Viige rakenduse Finance and Operations paralleelseansis lõpule protseduur „Loodud vormingu kasutamine maksete jaoks elektrooniliste dokumentide loomiseks”. Valige loodud vorming „BACS (UK fiktiivne kohandatud)” elektroonilise makseviisi parameetrites. Veenduge, et loodud maksefail sisaldab ettevõttes Proseware, Inc. hiljuti kasutusele võetud XML-sõlme IBAN-koodiga vastavalt piirkondlikele nõuetele. Fail peab sisaldama ka hiljuti ettevõtte Litware, Inc. poolt loodud XML-sõlme SWIFT-pangakoodiga vastavalt riigi nõuetele.  
 

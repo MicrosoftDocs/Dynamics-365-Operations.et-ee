@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3a6678b09ce4011b7f80d40979209cc2f588df8
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 73bc22949d0b19fa04bf27e6fd7df7b27832795b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994930"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148580"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Kliendi tagasimaksete genereerimine ja töötlemine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See protseduur näitab, kuidas töödelda kliendi tagasimakseid nõude loomisest kuni nende edastamiseni viitvõlgadena müügireskontrole. Teile selgitatakse konkreetse näite abil, kuidas mõjutavad erinevad tingimused tagasimakseridadel kliendile krediteeritavaid lõppsummasid. Peate kasutama demoettevõtte USMF andmeid ja täitma enne juhendi käivitamist järgmised ülesanded. 1) Minge lehele Müügireskontro parameetrid ning laiendage vahekaarti Hinnad ja siis vahekaarti Hinna üksikasjad, seejärel kontrollige, kas suvandi Hinna üksikasjade lubamine sätteks on valitud Jah. 2) Minge lehele Tagasimakselepped ja valige kliendi tagasimakselepe USMF-000001. Kui välja Töövoo kinnitamise olek sätteks pole valitud Kinnitatud, peate selle kinnitamiseks klõpsama tegevuspaanil suvandit Kinnitamine.
 
@@ -36,7 +36,7 @@ See protseduur näitab, kuidas töödelda kliendi tagasimakseid nõude loomisest
     - Lepe on kehtib üksiku kliendi puhul, selles näiteks on selleks klient US-009.  
     - Tagasimakse tehakse kliendile, kui ta ostab teatud toodet. Praegusel juhul on toote kaubakood T0020.   
     - Kliendi müügitulemus, mille alusel määratakse hinnangulised tagasimaksesummad, arvestatakse kokku kord nädalas.  
-    - Suvandi Hinna alus säte on Bruto, mis tähendab, et rea müügisummat, mille põhjal nõuet hinnatakse, ei vähendata rea allahindluse võrra.  
+    - Suvandi „Hinna alus” säte on Bruto, mis tähendab, et rea müügisummat, mille põhjal nõuet hinnatakse, ei vähendata rea allahindluse võrra.  
     - Väli Tagasimakserea katkestuse tüüp näitab tagasimaksete arvutamise viis. Selles näites on tagasimaksete hindamise aluseks oleva müügiplaani sätteks Kogus.   
     - Lepingu read määravad tagasmaksesumma tüübi, tegeliku tagasimakseväärtuse ja läviväärtused. Selles näites kvalifitseerub klient tagasimaksele 20 USA dollarit iga müüdud ühiku kohta, kui tema nädalane tooteost jääb 1 kuni 50 ühiku piiresse, ja 40 USA dollarit ühiku kohta, kui ta ostab üle 50 ühiku.  
 2. Sulgege leht.
@@ -68,7 +68,7 @@ See protseduur näitab, kuidas töödelda kliendi tagasimakseid nõude loomisest
     - Leht Tagasimaksed toimib töölauana, kus saate tagasimaksenõudeid üle vaadata, kinnitada ja töödelda. Nüüd töötlete te nõudeid, mis loodi kliendi US-009, kes on tagasimakseleppe USMF-000001 subjekt, müügitellimuse arveldamise tulemusena.   
     - Esimene rida näitab tagasimaksenõuet 800 USA dollarile, mis põhineb toote T0020 40 ühiku müügil ja mille arvutamise aluseks on 20 USA dollarit ühiku kohta. See vastab tagasimakseleppe esimese kogusekatkestuse tingimustele.  
     - Teine nõue on 2400 USA dollarit, mis põhineb toote T0020 60 ühiku müügil ja mille arvutamise aluseks on leppe teise kogusekatkestuse järgi 40 USA dollarit ühiku kohta.  
-    - Mõlema nõude olek on Arvutamisele kuuluv väärtus. See tähendab, et need on seostatud lepega, mis jälgib kliendi müügitulemusi perioodiliselt, ja et need tuleb ümber arvutada kogu müügimahu arvestamiseks vastaval perioodil.   
+    - Mõlema nõude olek on „Arvutamisele kuuluv”. See tähendab, et need on seostatud lepega, mis jälgib kliendi müügitulemusi perioodiliselt, ja et need tuleb ümber arvutada kogu müügimahu arvestamiseks vastaval perioodil.   
 2. Klõpsake suvandit **Kumuleeri**.
 3. Sisestage või valige väärtus väljal **Klient**.
 4. Valige tänane kuupäev **Alguskuupäev**.

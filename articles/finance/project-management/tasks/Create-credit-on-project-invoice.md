@@ -16,16 +16,16 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19ec4499ba37628e037f862da28e271d5313c6ad
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3a0158c4ed17179b8b15d13fdc20e369da12de54
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174462"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139097"
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Projektiarvete jaoks kreeditarve loomine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 1. Avage Projektihaldus ja -arvestus > Projektid > Kõik projektid. 
 2. Otsige loendist ja valige soovitud kirje. 

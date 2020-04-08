@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72940f719baca5e8042c2f2caa8abbacb7d8264e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ed8c60b188b7c7090546e8367455e0f58ce9359b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844485"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147683"
 ---
 # <a name="create-sales-price-selection-criteria"></a>Müügihinna valikukriteeriumide loomine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See protseduur näitab, kuidas luua atribuudipõhistele hinnamudelitele müügihinna valikukriteeriumi. See protseduur nõuab, et saadaval oleks vähemalt üks müügihinna mudel. Selles näites kasutatakse hinnamudelina demoettevõtte USMF müügihinnamudelit Kõlarilahendus. Tavaliselt kasutab seda protseduuri tootejuht.
 
@@ -36,8 +36,8 @@ See protseduur näitab, kuidas luua atribuudipõhistele hinnamudelitele müügih
 3. Valige loendist tootemudeli Kõlarilahendus rida, kuid ärge klõpsake mudeli nime linki.
 4. Klõpsake tegumiribal valikut Mudel.
 5. Klõpsake valikut Hinnamudeli kriteeriumid.
-6. Klõpsake valikut Uus.
-7. Tippige väljale Nimi tekst Kliendigrupp 10.
+6. Klõpsake Uus.
+7. Tippige väljale Nimi tekst „Kliendigrupp 10”.
     * Hinnamudeli kriteeriumi nime abil saab tuvastada aluseks olevad valikukriteeriumid.  
 8. Valige või sisestage väärtus väljal Hinnamudel.
 9. Tehke väljal Tellimuse tüüp valik Müügitellimus.

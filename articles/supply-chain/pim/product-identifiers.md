@@ -3,7 +3,7 @@ title: Toote identifikaatorid
 description: Selles teemas kirjeldatakse erinevaid toote identifikaatoreid ja kirjeldatakse, kuidas lisada toote identifikaatoreid toote andmetesse.
 author: cvocph
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
-ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
+ms.openlocfilehash: 0aa8baf5802ccdd9a502e2a7d291a76fc4afe932
+ms.sourcegitcommit: d91d96c98b31ae59bc82ec91efbb7da86ffb25fa
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095613"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172021"
 ---
-# <a name="product-identifiers"></a>Toote identifikaatorid 
+# <a name="product-identifiers"></a>Toote identifikaatorid
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ Kui töötate rakenduses Microsoft Dynamics ERP või Microsoft Dynamics CRM kaup
 
 ## <a name="unique-product-numberproduct-id"></a>Kordumatu tootenumber / toote ID
 
-Rakenduses Dynamics 365 Supply Chain Management on toote peamine identifikaator tootenumber (ehk toote kordumatu ID). Selle numbri saab lasta numbriseerial automaatselt luua või selle saab tootega käsitsi siduda. Tootevariantide jaoks saab numbrid määratleda tootenomenklatuuri malli kaudu.
+Rakenduses Dynamics 365 Supply Chain Management on toote peamine identifikaator tootenumber (ehk toote kordumatu ID). Selle numbri saab lasta numbriseerial automaatselt luua või tootega käsitsi siduda. Tootevariantide jaoks saab numbrid määratleda tootenomenklatuuri malli kaudu.
 
 Paljudel juhtudel pole tootenumber algselt loodud rakenduses Dynamics 365 Supply Chain Management. Selle asemel on see seotud tootega toote elutsükli halduse (PLM) süsteemis või toote teabehalduse (PDM) süsteemis. Sel juhul saate toodete ja tootevariantide importimiseks kasutada andmeüksuseid. Tarneahela haldus kasutab seejärel kõigi operatsioonide numbreid.
 
@@ -53,6 +53,9 @@ Peale selle ei saa tootevarianti kaubakoodi järgi kordumatult tuvastada. See n�
 Paljudel lehtedel on endiselt peamiste identifikaatoritena märgitud tootekood ja tootedimensioonid. Kuid tootenumbreid saab kasutada otsinguteks. Jaotises **Müük ja turundus** &gt; **Häälestus** &gt; **Otsing** &gt; **Otsinguparameetrid** saate muuta otsingut nii, et see kasutaks peamise otsingustrateegiana kaubakoodide asemel tootenumbreid. Kui seate suvandi **Tooteotsingu lubamine** väärtuseks **Jah**, kuvab otsing lisaks tooteetalonidele ka tootevariandid. Lisateavet vt teemast [Toodete ja tootevariantide otsimine tellimuse sisestamise käigus](search-products-product-variants.md).
 
 Peale selle saate otsida ja filtreerida tootenumbrit, toote nime ja kirjeldust ning tootevariandi tootedimensiooni ID-sid. Kui valite variandi, valitakse ka seotud tootekood ja kõik tootedimensiooni ID-d. Nii on õige variandi leidmine ja valimine lihtsam. Selle sätte kasutamine on soovitatav, kui kasutate toodete peamiste identifikaatoritena tootevariante ja kordumatuid tootenumbreid. Ainsaks erandiks võib olla moetööstus, kus äriprotsesside korral on tihti vaja, et peate esmalt valima etaloni ja siis variandi. Enne nummerdamissüsteemi juurutamist hinnake hoolikalt seda suvandit.
+
+> [!NOTE]
+> Selle toote kaubakoodi ei saa muuta, kui selle toote puhul on olemas üks või rohkem kandeid.
 
 ## <a name="product-name-and-description"></a>Toote nimi ja kirjeldus
 
@@ -123,7 +126,7 @@ Kahjuks pole standardfunktsiooni, mis võimaldaks tooteid otsida väliste koodid
 | Tooted V2 | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus | Olenevalt üksuse sätetest ja tootenumbri numbriseeriast saab tootenumbri luua automaatselt importimise ajal. |
 | Tootevariandid | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus | Olenevalt tootenomenklatuuri mallist saab toote numbri luua automaatselt importimise ajal. Kuid saate importida mis tahes kordumatu tootenumbri ja see tootenumber ei pea järgima tootenomenklatuuri mallide struktuuri. |
 | Toote tõlked | Toote nimi, toote kirjeldus | Toote nimi, toote kirjeldus | See üksus alistab iga keele. Pange tähele, et kui juriidilise isiku esmase keele nimi või kirjeldus alistatakse, muutub toote nimi ja kirjeldus. |
-| Väljastatud tooted V2 | Kaubakood, tootenumber, kauba otsingunimi| Kaubakood, tootenumber, kauba otsingunimi, toote otsingunimi, toote nimi | See üksus võib olla väljakutse, kui uute väljastatud toodete loomise ajal kasutatakse numbriseeriaid. Seda mõjutavad nii **kaubakoodi** numbriseeria kui ka **tootenumbri** numbriseeria. Kuid **kaubakoodi** numbriseeria kehtib juriidilise isiku kohta, samal ajal kui **tootenumbri** numbriseeria on globaalne. Seetõttu pole soovitatav uute väljastatud toodete juurutamisel kasutada **kaubakoodi** numbriseeriat. Kui üksust kasutatakse olemasoleva toote väljastamiseks, tuleb üksuses esitada tootenumber. Lisateavet vaadake selle teema jaotisest „Toote ja kauba numbriseeriad”. |
+| Väljastatud toote loomine V2 | Kaubakood, tootenumber, kauba otsingunimi| Kaubakood, tootenumber, kauba otsingunimi, toote otsingunimi, toote nimi | See üksus võib olla väljakutse, kui uute väljastatud toodete loomise ajal kasutatakse numbriseeriaid. Seda mõjutavad nii **kaubakoodi** numbriseeria kui ka **tootenumbri** numbriseeria. Kuid **kaubakoodi** numbriseeria kehtib juriidilise isiku kohta, samal ajal kui **tootenumbri** numbriseeria on globaalne. Seetõttu pole soovitatav uute väljastatud toodete juurutamisel kasutada **kaubakoodi** numbriseeriat. Kui üksust kasutatakse olemasoleva toote väljastamiseks, tuleb üksuses esitada tootenumber. Lisateavet vaadake selle teema jaotisest „Toote ja kauba numbriseeriad”. |
 | Väljastatud tootevariandid | Kaubakood, tootedimensioonid, tootenumber | Tootenumber, toote otsingunimi, toote nimi, toote kirjeldus, tootedimensioonid | Sarnaselt **tootevariantide** üksusele saab ka seda üksust kasutada uute toodete loomiseks, mis järgivad variandi jaoks tootenomenklatuuri malli või kasutavad enda tootenumbreid. |
 | Klientide väline kaubakirjeldus | Kliendi kaubakood, kliendi kauba nimi, kliendi kirjeldus, kliendi konto | Kliendi kaubakood, kliendi kauba nimi, kliendi kirjeldus, kliendi konto | Klientide gruppi (näiteks ostjaseos) saab koondada ühte gruppi, kasutades üksust **Välise kaubakirjelduse kliendigrupid**. |
 | Hankijate väline kaubakirjeldus | Hankija kaubakood, hankija kauba nimi, hankija kirjeldus, hankija konto | Hankija kaubakood, hankija kauba nimi, hankija kirjeldus, hankija konto | Hankijate gruppi (näiteks müügiseos või tööstusorganisatsioon) saab koondada ühte gruppi, kasutades üksust **Välise kaubakirjelduse hankijagrupid**. |
@@ -144,7 +147,7 @@ Saate määratleda kaks erinevat numbriseeriat:
 > [!NOTE]
 > Kasutage kaubakoodi eraldi identifikaatorina ainult siis, kui migreerite erinevaid juriidilisi isikuid erinevatest allikatest, millel olid erinevad nummerdamissüsteemid. Proovige alati kasutada toote identifikaatorit, mis on kõigis juriidilistes isikutes kordumatu. Seetõttu peaksite numbriseeria **Kaubakood** jaoks suvandi **Käsitsi** väärtuseks määrama **Jah**. Sel viisil järgib kaubakood loomisel tootenumbrit. Kui Supply Chain Management ei ole uute tootenumbrite jaoks juhtiv süsteem, peaksite suvandi **Käsitsi** väärtuseks määrama **Jah** nii numbriseeria **Kaubakood** kui ka **Tootenumber** korral.
 
-Kui kasutate toodete loomiseks üksust **Väljastatud toode V2**, võivad mitu sätet mõjutada seda, kuidas numbriseeriaid kasutatakse tootenumbri ja kaubakoodi loomiseks:
+Kui kasutate toodete loomiseks üksust **Väljastatud toote loomine V2**, võivad mitu sätet mõjutada seda, kuidas numbriseeriaid kasutatakse tootenumbri ja kaubakoodi loomiseks:
 
 - numbriseeria **Tootenumber** sätted;
 - numbriseeria **Kaubakood** sätted;
@@ -155,9 +158,9 @@ Järgmine tabel annab ülevaate importimise ja käsitsi loomise tulemustest, kui
 
 | Tootenumbri numbriseeria | Kaubakoodi numbriseeria | Kaubakoodi vastendamine | Tootenumbri vastendamine | Üksuse importimise tulemus | Käsitsi loomise tulemus | Lõppsõna |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
-| Käsitsi = ei | Käsitsi = ei | Vastendamist pole. | Vastendamist pole. | Tootenumbrid kasutavad numbriseeriat **Tootenumber**. Kaubakoodid kasutavad numbriseeriat **Kaubakood**. | Tootenumbrid kasutavad numbriseeriat **Tootenumber**. Kaubakoodid kasutavad numbriseeriat **Kaubakood**. | Neid sätteid saab kasutada siis, kui vajate toodete ja kaupade jaoks erinevat numbrit. Siiski ei soovita me kaupade ja toodete jaoks erinevaid numbreid kasutada. |
-| Käsitsi = ei | Käsitsi = jah | Automaatne loomine | Vastendamist pole. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Kaubakood**. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Tootenumber**. | Need sätted ei ole soovitatavad. Importimine ja käsitsi loomine toimivad erinevalt. |
-| Käsitsi = ei | Käsitsi = jah | Vastendamist pole. | Vastendamist pole. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Tootenumber**. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Tootenumber**. | Need sätted on soovitatavad, kui toodetel peaks olema järjepidev automaatne nummerdus, olenemata sellest, kas kasutatakse importimist või käsitsi loomist. |
+| Käsitsi = ei | Käsitsi = ei | Vastendamist pole. | Vastendamist pole. | Tootenumbrid kasutavad numbriseeriat **Tootenumber**. Kaubakoodid kasutavad numbriseeriat **Kaubakood**. | Tootenumbrid kasutavad numbriseeriat **Tootenumber**. Kaubakoodid kasutavad numbriseeriat **Kaubakood**. | Selle konfiguratsiooniga järgivad tootenumbrid tootenumbri seeriat ja kaubakoodid järgivad kaubakoodi seeriat. Kuid see konfiguratsioon ei tööta siis, kui imporditakse rohkem kui üks üksus (rida). |
+| Käsitsi = ei | Käsitsi = jah | Automaatne loomine | Vastendamist pole. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Kaubakood**. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Tootenumber**. | Nii tootenumbrid kui ka kaubakoodid järgivad tootenumbri seeriat. See on soovitatav viis hulgitoodete importimiseks väljastatud toote loomise V2 andmeüksusega. |
+| Käsitsi = ei | Käsitsi = jah | Vastendamist pole. | Vastendamist pole. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Tootenumber**. | Nii tootenumbrid kui ka kaubakoodid kasutavad numbriseeriat **Tootenumber**. | Nii tootenumbrid kui ka kaubakoodid kasutavad tootenumbri seeriat. Kuid see konfiguratsioon ei tööta siis, kui imporditakse rohkem kui üks üksus (rida). |
 | Käsitsi = jah | Pole kohaldatav | Pole kohaldatav | Automaatne loomine | Saate järgmise tõrketeate: „Numbriseeriat ei saa tuvastada.” | Numbriseeria **Kaubakood** kohaselt | Seda sätet ei saa importida. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Tooteüksuse identifikaator (kõigi tooteidentifikaatorite eksportimine)

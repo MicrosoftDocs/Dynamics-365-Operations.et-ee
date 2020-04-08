@@ -3,7 +3,7 @@ title: Mobiilsete seadmete seadistamine laotöö jaoks
 description: Teemas kirjeldatakse, kuidas konfigureerida menüü üksusi, mida laotöötajad kasutavad töö tegemiseks mobiilses seadmes.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 04/18/2019
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df3968c01006d773300593b966a69b5283a889a2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4c4b131c14101722593f685cbe1133b1aa1319b0
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813036"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161824"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete seadistamine laotöö jaoks
 
@@ -95,11 +95,11 @@ Saate seadistada menüüelemendi, mis loob töö teisele töötajale pärast sed
 </tr>
 <tr>
 <td>Vastuvõttev litsentsiplaat</td>
-<td>Võtke vastu sissetulev koorem, kasutades litsentsiplaadi ID-d.</td>
+<td>Saate võtta vastu sissetuleva saadetise eelteatise (ASN), kasutades litsentsiplaadi ID-d.</td>
 </tr>
 <tr>
 <td>Litsentsiplaadi vastuvõtt ja kõrvaleseadmine</td>
-<td>Võtke sissetulev koorem vastu ja paigutage, kasutades litsentsiplaadi ID-d.</td>
+<td>Saate võtta vastu ja kõrvale panna sissetuleva saadetise eelteatise (ASN), kasutades litsentsiplaadi ID-d.</td>
 </tr>
 <tr>
 <td>Vastuvõetav koormas olev kaup</td>
@@ -119,7 +119,7 @@ Saate seadistada menüüelemendi, mis loob töö teisele töötajale pärast sed
 <td>Registreerige kauba koguse laekumine, registreerides tagastatud kauba kood, ja pange kaup kõrvale. Sama töötaja teeb mõlemat.</td>
 </tr>
 <tr>
-<td rowspan="4">Edastustellimus</td>
+<td rowspan="6">Edastustellimus</td>
 <td>Edastustellimuse kauba vastuvõtmine</td>
 <td>Registreerige kauba koguse sissetulek ja looge teisele töötajale paigutustöö.
 
@@ -138,6 +138,14 @@ Saate seadistada menüüelemendi, mis loob töö teisele töötajale pärast sed
 <tr>
 <td>Vastuvõetava ja kõrvaleseatava tellimuserea ülekanne</td>
 <td>Registreerige kauba koguse laekumine ja pange kaup kõrvale. Sama töötaja teeb mõlemat.</td>
+</tr>
+<tr>
+<td>Vastuvõttev litsentsiplaat</td>
+<td>Saate võtta vastu sissetuleva saadetise eelteatise (ASN), kasutades litsentsiplaadi ID-d.</td>
+</tr>
+<tr>
+<td>Litsentsiplaadi vastuvõtt ja kõrvaleseadmine</td>
+<td>Saate võtta vastu ja kõrvale panna sissetuleva saadetise eelteatise (ASN), kasutades litsentsiplaadi ID-d.</td>
 </tr>
 <tr>
 <td rowspan="4">Tootmine</td>

@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48c8564694b22a5110341d853a79096fbe805c91
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dde06f758be57fb646696c861218565476abcadc
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177433"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140555"
 ---
 # <a name="create-an-organization-hierarchy"></a>Organisatsiooni hierarhia loomine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Kasutage järgmist protseduuri, et luua organisatsiooni hierarhia. Saate kasutada organisatsiooni hierarhiaid oma äri vaatamiseks ja selle aruandluse tegemiseks erinevatest aspektidest. Näiteks saate seadistada ühe hierarhia maksu-, õigus- või seadusliku aruandluse jaoks. Seejärel saate seadistada teise hierarhia finantsteabe aruandluseks, mis ei ole õiguslikult vajalik, kuid mida kasutatakse sisemises aruandluses. 
 
-Enne organisatsiooni hierarhia loomist tuleb luua organisatsioonid. Lisateabe saamiseks vaadake ülesandeid Juriidilise isiku loomine või Tootmisüksuse loomine. Saate luua ka osakondi ja meeskondi. 
+Enne organisatsiooni hierarhia loomist tuleb luua organisatsioonid. Lisateabe saamiseks vaadake ülesandeid „Juriidilise isiku loomine” või „Tootmisüksuse loomine”. Saate luua ka osakondi ja meeskondi. 
 
 Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

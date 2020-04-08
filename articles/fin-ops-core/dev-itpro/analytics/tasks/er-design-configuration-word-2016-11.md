@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 327f03435ab55551953fd998dd89c831c76c4c26
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 208b1be20a8833afbf4929a7ceda706aeb5bda3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182596"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142082"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine Wordi vormingus aruannete loomiseks
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Järgmine etapp selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab konfigureerida elektroonilise aruandluse (ER) vorminguid, et luua aruandeid Microsoft Wordi failidena. Neid toiminguid saab teha GBSI ettevõttes.
 
-Nende etappide lõpuleviimiseks peate esmalt läbima tegevusejuhises „ER-i konfiguratsiooni loomine aruannete loomiseks vormingus OPENXML” esitatud etapid. Eelnevalt peate näidisaruande jaoks alla laadima ja kohalikult salvestama ka järgmised mallid:
+Nende etappide lõpule viimiseks peate esmalt läbima tegevuse juhises „ER-i konfiguratsiooni loomine aruannete loomiseks vormingus OPENXML” esitatud etapid. Eelnevalt peate näidisaruande jaoks alla laadima ja kohalikult salvestama ka järgmised mallid:
 
 - [Maksearuande mall](https://go.microsoft.com/fwlink/?linkid=862266)
 - [Maksearuande piiratud mall](https://go.microsoft.com/fwlink/?linkid=862266)
@@ -39,7 +39,7 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Microsoft Dynamics 365
 
 
 ## <a name="select-the-existing-er-report-configuration"></a>Olemasoleva elektroonilise aruandluse aruande konfiguratsiooni valimine
-1. **Navigeerimispaanil avage Moodulid > Organisatsiooni haldus > Tööruumid > Elektrooniline aruandlus**. Veenduge, et konfiguratsiooni pakkuja Litware, Inc. on valitud aktiivsena.  
+1. **Navigeerimispaanil avage Moodulid > Organisatsiooni haldus > Tööruumid > Elektrooniline aruandlus**. Veenduge, et konfiguratsiooni pakkuja „Litware, Inc.” on valitud aktiivsena.  
 2. Klõpsake valikut **Aruandluse konfiguratsioonid**. Taaskasutame olemasolevat elektroonilise aruandluse konfiguratsiooni, mis on algselt mõeldud aruande väljundi loomiseks OPENXML-vormingus.  
 3. Laiendage puus sõlme „Payment model”.
 4. Tehke puul valik Maksemudel \ töölehe aruande näide.

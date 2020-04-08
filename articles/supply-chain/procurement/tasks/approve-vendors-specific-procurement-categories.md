@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e47124e22dd6c0e756bf42429327254f966b48a2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 135b3a6bea2c0a8940550299504139551c9c3559
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018085"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147499"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Kindlatele hankekategooriatele hankijate kinnitamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas kinnitada hankijaid konkreetsetele hanke kategooriatele Dynamics 365 Supply Chain Management. Ostutaotluse loomisel võib olla nõue valida heakskiidetud või eelistatud hankija, olenevalt sellest, kuidas ostupoliitikad on seadistatud. See protseduur näitab teile, kuidas määrata konkreetse hankekategooria puhul, et hankija on kinnitatud või eelistatud. Seda ülesannet täidab tavaliselt hankespetsialist. Saate seda protseduuri kasutada demoandmete ettevõttes USMF.
 

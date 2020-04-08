@@ -19,20 +19,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
-ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
+ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "3081147"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173196"
 ---
 # <a name="unified-product-experience"></a>Ühendatud toote kasutusfunktsionaalsus
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-Kui ettevõtte ökosüsteem koosneb Dynamics 365 rakendustest (nt Finance, Supply Chain Management ja Sales), kasutavad ettevõtted sageli neid rakendusi tooteandmete hankimiseks. Selle põhjuseks on asjaolu, et need rakendused pakuvad vastupidavat tooteinfrastruktuuri, mida täiendavad keerukad hinnakujunduskontseptsioonid ja täpsed käepärased laoandmed. Ettevõtted, mis kasutavad tooteandmete hankimiseks välist toote elutsükli halduse (PLM) süsteemi, saavad suunata tooteid Finance and Operationsi rakendustest teistele Dynamics 365 rakendustele. Ühtne tootekogemus viib integreeritud tooteandmete mudeli ühisesse andmeteenusesse Common Data Service, nii et kõik rakenduste kasutajad, sealhulgas Power Platformi kasutajad, saavad kasutada rikkalikke tooteandmeid, mis pärinevad Finance and Operationsi rakendustest.
+
+Kui ettevõtte ökosüsteem koosneb Dynamics 365 rakendustest (nt Finance, Supply Chain Management ja Sales), kasutavad ettevõtted sageli neid rakendusi tooteandmete hankimiseks. Selle põhjuseks on asjaolu, et need rakendused pakuvad vastupidavat tooteinfrastruktuuri, mida täiendavad keerukad hinnakujunduskontseptsioonid ja täpsed vaba kaubavaru andmed. Ettevõtted, mis kasutavad tooteandmete hankimiseks välist toote elutsükli halduse (PLM) süsteemi, saavad suunata tooteid Finance and Operationsi rakendustest teistele Dynamics 365 rakendustele. Ühtne tootekogemus viib integreeritud tooteandmete mudeli ühisesse andmeteenusesse Common Data Service, nii et kõik rakenduste kasutajad, sealhulgas Power Platformi kasutajad, saavad kasutada rikkalikke tooteandmeid, mis pärinevad Finance and Operationsi rakendustest.
 
 Siin on toote andmemudel müügist.
 
@@ -52,7 +52,7 @@ Toodete topeltkirjutamise olemikaardid on loodud andmete voogesitamiseks ainult 
 
 Toote teave sisaldab kogu teavet, mis on seotud tootega ja selle määratlusega, nagu tootedimensioonid või jälgimis- ja laoala dimensioonid. Nagu järgmine tabel näitab, luuakse olemikaartide kogum, et sünkroonida tooteid ja seotud teavet.
 
-Finance and Operations | Muud Dynamics 365 rakendused | Kirjeldus
+Finance and Operations rakendused | Muud Dynamics 365 rakendused | Kirjeldus
 -----------------------|--------------------------------|---
 Väljastatud tooted V2 | msdyn\_sharedproductdetails | Üksus **msdyn\_sharedproductdetails** sisaldab välju Finance and Operationsi rakendustest, mis määratlevad toote ja mis sisaldavad toote finants- ja haldusteavet. 
 Common Data Service’is väljastatud eristatavad tooted | Toode | **Toote** üksus sisaldab välju, mis määratlevad toote. See hõlmab üksikuid tooteid (alamtüübiga tooted) ja tootevariante. Järgmises tabelis on vastendused.
@@ -75,8 +75,8 @@ Kõik tooted | msdyn_globalproducts | Kõikide toodete üksus sisaldab kõiki Fi
 Ühiku teisendused | msdyn_ unitofmeasureconversions
 Tootepõhise mõõtühiku teisendamine | msdyn_productspecificunitofmeasureconversion
 Tootekategooriad | msdyn_productcategories | Iga tootekategooria ning teave selle struktuuri ja omaduste kohta sisaldub tootekategooria üksuses. 
-Tootekategooria hierarhiad | msdyn_productcategoryhierarhies | Kasutage kategooriahierarhiaid toodete liigitamiseks või rühmitamiseks. Kategooriahierarhiad on saadaval Common Data Service’is, kasutades tootekategooria hierarhia üksust. 
-Tootekategooria hierarhia rollid | msdyn_productcategoryhierarchies | Tootehierarhiaid saab kasutada mitmesuguste rollide jaoks rakenduses D365 Finance and Operations. Selleks et määrata, millist kategooriat igas rollis kasutatakse, kasutatakse tootekategooria rolli üksust. 
+Tootekategooria hierarhiad | msdyn_productcategoryhierarhies | Tootehierarhiate abil saate tooteid kategoriseerida või grupeerida. Kategooriahierarhiad on saadaval Common Data Service'is toote kategooriahierarhia üksuse kasutamisel. 
+Tootekategooria hierarhia rollid | msdyn_productcategoryhierarchies | Tootehierarhiaid saab kasutada mitmesuguste rollide jaoks rakenduses D365 Finance and Operations. Need määravad, millist kategooriat igas rollis kasutatakse, kus kasutatakse tootekategooria rolli üksust. 
 Tootekategooria määramised | msdyn_productcategoryassignments | Toote määramiseks kategooriasse võib kasutada tootekategooria määramiste üksust.
 
 ## <a name="integration-of-products"></a>Toodete integreerimine
@@ -143,7 +143,7 @@ Tellimuse vaikesätted määratlevad tegevuskoha ja lao, kust kaupu hangitakse v
 
 ## <a name="unit-of-measure-and-unit-of-measure-conversions"></a>Mõõtühik ja mõõtühiku teisendused
 
-Mõõtühikud ja selle vastavad teisendused on saadaval Common Data Service’is, mis järgib diagrammil kuvatavat andmudelit.
+Mõõtühikud ja selle vastav teisendus on saadaval Common Data Service’is, mis järgib diagrammil kuvatavat andmemudelit.
 
 ![Toodete andmemudel](media/dual-write-product-three.png)
 
@@ -153,7 +153,7 @@ Mõõtühiku kontseptsioon on integreeritud Finance and Operationsi rakenduste j
 
 [!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-[!include [product specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Ühikute andmete vastavusse viimise esialgne sünkroonimine Finance and Operationsi ja Common Data Service’i vahel
 
@@ -203,7 +203,7 @@ Tootepoliitikad on poliitikakogumid, mida kasutatakse toodete ja selle omaduste 
 
 Toodete kordumatuks tuvastamiseks Dynamics 365 for Finance and Operationsi ja Common Data Service’i toodete vahel kasutatakse integreerimisvõtmeid. Toodete integreerimisvõti on **(productnumber)**, millega tuvastatakse toode Common Data Service’is. Selles on liidetud järgmised üksused: **(ettevõte, msdyn_productnumber)**. Üksus **ettevõte** tähistab juriidilist isikut rakenduses Finance and Operations ja **msdyn_productnumber** tähistab määratud toote tootenumbrit rakenduses Finance and Operations. 
 
-Teiste Dynamics 365 rakenduste kasutaja jaoks tuvastatakse toode kasutajaliideses üksusega **msdyn_productnumber** (pange tähele, et välja silt on **Tootenumber**). Toote vormil kuvatakse nii ettevõte kui ka msydn_productnumber. Kuid välja (productnumber), toote kordumatut võtit, ei kuvata. 
+Teiste Dynamics 365 rakenduste kasutajate jaoks tuvastatakse toode kasutajaliideses üksusega **msdyn_productnumber** (pange tähele, et välja silt on **Tootenumber**). Toote vormil kuvatakse nii ettevõte kui ka msydn_productnumber. Kuid välja (productnumber), toote kordumatut võtit, ei kuvata. 
 
 Kui koostate rakendusi teenuses Common Data Service, peaksite olema tähelepanelik, et kasutaksite integratsiooni võtmena suvandit **productnumber** (kordumatu toote ID). Ärge kasutage varianti **msdyn_productnumber**, kuna see pole kordumatu. 
 

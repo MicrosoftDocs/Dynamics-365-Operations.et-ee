@@ -1,6 +1,6 @@
 ---
 title: Juurdepääs rakenduse metaandmetele ühendatud rakenduste abil
-description: Selle teema sammud selgitavad, kuidas Regulatory configuration service (RCS) kasutaja saab kujundada uut elektroonilise aruandluse (ER) mudeli kaardistamise, kasutades metaandmeid Finance and Operations.
+description: Selle teema sammud selgitavad, kuidas Regulatory configuration service (RCS) kasutaja saab kujundada uut elektroonilise aruandluse (ER) mudeli kaardistamise, kasutades Finance and Operationsi metaandmeid.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/29/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769874"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142197"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Juurdepääs rakenduse metaandmetele ühendatud rakenduste abil
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonilise aruandluse arendaja rolliga lahenduse Regulatory Configuration Service (RCS) kasutaja saab kavandada uue elektroonilise aruandluse (ER) mudelivastenduse kasutades Finance and Operationsi metaandmeid. Rakenduse metaandmete saab online-juurdepääsu RCS-ga ühendatud rakenduse abil. Väliskaubanduse kannetele juurdepääsuks konfigureeritakse elektroonilise aruandluse mudeli vastenduse näidis. Nende etappide lõpuleviimiseks peate esmalt RCSis viima lõpule etapid teemas [Konfiguratsiooniteenuse pakkujate loomine ja nende aktiivseks märkimine](er-configuration-provider-mark-it-active-2016-11.md). Kui te ei ole viinude lõpule etappe teemas [Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil](access-application-metadata-er-configuration.md), avage [Elektroonilise aruandluse näidiste leht](https://go.microsoft.com/fwlink/?linkid=862266), et laadida alla ja salvestada järgmised elektroonilise aruandluse konfiguratsioonid: Väliskaubanduse metaandmed.xml; Väliskaubanduse mudel.xml; Väliskaubanduse vastendamine.xml, ja seejärel viige protseduuri etapid lõpuni.
+Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonilise aruandluse arendaja rolliga lahenduse Regulatory Configuration Service (RCS) kasutaja saab kavandada uue elektroonilise aruandluse (ER) mudelivastenduse kasutades rakenduse Finance and Operations metaandmeid. Rakenduse metaandmete saab online-juurdepääsu RCS-ga ühendatud rakenduse abil. Väliskaubanduse kannetele juurdepääsuks konfigureeritakse elektroonilise aruandluse mudeli vastenduse näidis. Nende etappide lõpuleviimiseks peate esmalt RCSis viima lõpule etapid teemas [Konfiguratsiooniteenuse pakkujate loomine ja nende aktiivseks märkimine](er-configuration-provider-mark-it-active-2016-11.md). Kui te ei ole viinude lõpule etappe teemas [Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil](access-application-metadata-er-configuration.md), avage [Elektroonilise aruandluse näidiste leht](https://go.microsoft.com/fwlink/?linkid=862266), et laadida alla ja salvestada järgmised elektroonilise aruandluse konfiguratsioonid: Väliskaubanduse metaandmed.xml; Väliskaubanduse mudel.xml; Väliskaubanduse vastendamine.xml, ja seejärel viige protseduuri etapid lõpuni.
 
 ## <a name="prerequisites"></a>Eeltingimused
 1. Avage **Kõik tööruumid** > **Elektrooniline aruandlus**. 
@@ -54,11 +54,11 @@ Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonili
 2. Sulgege leht. 
 3. Avage **Kõik tööruumid** > **Elektrooniline aruandlus**. 
 4. Klõpsake **Ühendatud rakendused**. 
-5. Veenduge, et konfigureeritud rakendus on Azura põhine ja et see on praegusele RCS-i kasutajatele juurdepääsetav. Samuti on vajalik, et praegusel RCS-i kasutajal on juurdepääs valitud rakendusele ja ta on registreeritud selle rakenduse kasutajaks, kellel on roll, mis annab talle õigused rakenduse metaandmetele juurdepääsuks. 
+5. Veenduge, et konfigureeritud rakendus on Azure'i põhine ja et see on praegusele RCS-i kasutajatele juurdepääsetav. Samuti on vajalik, et praegusel RCS-i kasutajal on juurdepääs valitud rakendusele ja ta on registreeritud selle rakenduse kasutajaks, kellel on roll, mis annab talle õigused rakenduse metaandmetele juurdepääsuks. 
 6. Klõpsake valikut **Uus**. 
 7. Trükkige "MyConnectedApp" väljale **Nimi**. 
 8. Trükkige väljale **Rakendus** suvand "https:// mycompany.operations.dynamics.com". 
-9. Trükkige väljale **Rentnik** suvand "mycompany.onmicrosoft.com". 
+9. Trükkige väljale **Rentnik** suvand „mycompany.onmicrosoft.com”. 
 10. Klõpsake valikut **Salvesta**. 
 11. Kui kontrollite konfigureeritud rakenduse ühendust, valige lehel **Ühenda kaugrakendusega** link **Klõpsake siin valitud kaugrakendusega ühendamiseks**. 
 12. Klõpsake nupul **Kontrolli ühendust**. 

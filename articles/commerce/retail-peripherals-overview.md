@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124401"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154176"
 ---
 # <a name="peripherals"></a>Välisseadmed
 
@@ -158,7 +158,7 @@ Võrguaadressiga sularahasahtleid, kviitungiprintereid ja makseterminale saab ka
 
 ### <a name="dedicated"></a>Sihtotstarbeline
 
-Modern POS-i kliendid Windowsi ja Androidi jaoks hõlmavad **sihtotstarbelisi** või sisseehitatud riistvarajaamu. Need kliendid saavad suhelda välisseadmetega otse, kasutades äriloogikat, mis on rakendustesse sisse ehitatud. Androidi rakendus toetab ainult võrguseadmeid. Lisateabe saamiseks Androidi välisseadmete toe kohta külastage artiklit [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Modern POS-i kliendid Windowsi ja Androidi jaoks hõlmavad **sihtotstarbelisi** või sisseehitatud riistvarajaamu. Need kliendid saavad suhelda välisseadmetega otse, kasutades äriloogikat, mis on rakendustesse sisse ehitatud. Androidi rakendus toetab ainult võrguseadmeid. Lisateabe saamiseks Androidi välisseadmete toe kohta külastage artiklit [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 Sihtotstarbelise riistvarajaama kasutamiseks määrake riistvaraprofiil registrile, mis kasutab Windowsi või Androidi avalduste jaoks Modern POS-i. Seejärel looge kauplusele, kus registrit kasutatakse, riistvarajaam tüübiga **Sihtotstarbeline**. Käivitage Modern POS kassavälises režiimis ja kasutage toimingut **Halda riistvarajaamasid**, et lülitada sisse riistvarajaama võimalused. Sihtotstarbeline riistvarajaam on vaikimisi aktiivne. Järgmisena logige Modern POS-ist välja, seejärel logige tagasi sisse ja avage vahetus ning riistvara profiilis konfigureeritud välisseadmed on kasutatavad. 
 
@@ -199,7 +199,7 @@ Teavet vt [Modern POS-i (MPOS) konfigureerimine, installimine ja aktiveerimine](
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Modern POS Androidile ja iOS-ile seadistamine ja konfigureerimine
 
-Teavet vt [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Teavet vt [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS-i seadme seadistamine ja konfigureerimine
 
@@ -494,7 +494,7 @@ See konfiguratsioon on tavapäraste fikseeritud kassaregistrite puhul kõige lev
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>IPC (integreeritud) riistvarajaamaga Modern POS Androidile
 
-**10.0.8 jaoks uus** – Epsoni võrguprinterid ja nende printeritega DK-pordi kaudu ühendatud sularahasahtlid on nüüd Androidi rakenduse Modern POS jaoks toetatud. Üksikasjade jaoks külastage teemat [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+**10.0.8 jaoks uus** – Epsoni võrguprinterid ja nende printeritega DK-pordi kaudu ühendatud sularahasahtlid on nüüd Androidi rakenduse Modern POS jaoks toetatud. Üksikasjade jaoks külastage teemat [Rakenduse POS Hybrid seadistamine Androidis ja iOS-is](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Kõik Modern POS-i kliendid, millel on kooskõlastatud ühine IIS-i riistvarajaam
 

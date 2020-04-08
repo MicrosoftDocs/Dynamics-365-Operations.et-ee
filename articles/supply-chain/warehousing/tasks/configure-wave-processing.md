@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc28149aa56302e09eb0e7be581a582f58a76416
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9c813a429d7837493663625bde341638eecfc5ee
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847347"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148492"
 ---
 # <a name="configure-wave-processing"></a>Vootöötluse konfigureerimine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selles juhendis kirjeldatakse, kuidas seadistada kriteeriumid, mis määravad, milline töö luuakse lao jaoks voo töötlemisel ja kas vooge töödeldakse käsitsi või automaatselt. Kriteeriumite määramiseks seadistage voomallid ja päringud, mis vastavad müügitellimuste, tootmistellimuste ja kanban-tellimuste väljastatud ridadega voole. Voo töötlemist kasutatakse ladudes, mis kasutavad funktsioone laohalduse moodulis, ja mitte nendes, mis kasutavad funktsioone varude halduse moodulis. Võite seda protseduuri käitada demoettevõtte USMF-i andmetega.
 
@@ -34,7 +34,7 @@ Selles juhendis kirjeldatakse, kuidas seadistada kriteeriumid, mis määravad, m
 2. Klõpsake valikut **Uus**.
 3. Sisestage väärtus väljale **Voomalli nimi**. Kui seadistate voomalli, määrate järjekorra, milles malle vastendatakse väljastatud ridadega müügitellimuste, tootmistellimuste või kanbanide puhul. Kui rida väljastatakse lattu või tootmisse, kasutab see esimese voo malli, mille kriteeriumidele see vastab. Soovitame loendi algusesse panna kõige konkreetsemate kriteeriumidega malli. Mida laiemad on kriteeriumid, seda suurema tõenäosusega täidab rida kriteeriume ja see võib põhjustada ridade määramist valele voole.  
 4. Sisestage väärtus väljale **Voomalli kirjeldus**.
-5. Sisestage või valige väärtus väljale **Sait**. Kui te kasutate USMF-i, saate valida tegevuskoha 2.  
+5. Sisestage või valige väärtus väljale **Sait**. Kui te kasutate USMF-i, saate valida saidi 2.  
 6. Sisestage või valige väärtus väljale **Ladu**. Kui kasutate USMF-i, saate valida lao 24.  
 7. Määrake välja **Automatiseeri voo loomine** väärtuseks **Jah**. Selle suvandi valimisel luuakse voog automaatselt, kui ostutellimus, tootmistellimus või kanban väljastatakse lattu.  
 8. Määrake suvandi **Töötle voogu lattu vabastamisel** väärtuseks **Jah**. Valige see suvand voo automaatseks töötlemiseks ja töö loomiseks, kui rida väljastatakse lattu.  

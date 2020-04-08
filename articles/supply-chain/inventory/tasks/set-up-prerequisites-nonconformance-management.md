@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 78d38b00d8039612aa236b3aa9593693983407dc
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: dfd0bc7edb3236d016e64bd08b1858fd7b12417f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914718"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145728"
 ---
 # <a name="set-up-prerequisites-for-nonconformance-management"></a>Eeltingimuste seadistamine mittevastavuse halduseks
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Kasutage seda teemat, et lubada mittevastavuse haldamise protsessid. Mittevastavus kirjeldab protseduuri või kaupa, millel on kvaliteediprobleem, kus kirjeldav teave sisaldab probleemi allikat ja tüüpi. Protseduur kasutab demoettevõtte USMF andmeid. Tavaliselt teostab selle protseduuri kvaliteedijuht.
 
@@ -40,7 +40,7 @@ Kasutage seda teemat, et lubada mittevastavuse haldamise protsessid. Mittevastav
 
 ## <a name="enable-user-for-nonconformance-processing"></a>Mittevastavuse töötlemise lubamine kasutaja jaoks
 1. Avage navigeerimispaneel, seejärel **Moodulid > Süsteemiadministraator > Kasutajad > Kasutajad**. 
-2. Kasutage kiirfiltrit, et otsida kasutajat, kes mittevastavuse kirjeid kinnitab või tagasi lükkab. Näiteks saate filtrida välja **Nimi** väärtuse `Ricardo` järgi. Mittevastavuse kinnitamise töötlemiseks peab mittevastavusi kinnitavale või tagasilükkavale kasutajale olema lehel **Kasutajad** määratud väärtus Nimi. Dokumendi märkuste kasutamiseks peab kasutajal olema kasutajasuvandites aktiveeritud ka suvand Dokumenditöötlus.  
+2. Kasutage kiirfiltrit, et otsida kasutajat, kes mittevastavuse kirjeid kinnitab või tagasi lükkab. Näiteks saate filtrida välja **Nimi** väärtuse `Ricardo` järgi. Mittevastavuse kinnitamise töötlemiseks peab mittevastavusi kinnitavale või tagasilükkavale kasutajale olema lehel **Kasutajad** määratud väärtus „Nimi”. Dokumendi märkuste kasutamiseks peab kasutajal olema kasutajasuvandites aktiveeritud ka suvand Dokumenditöötlus.  
 3. Märkige soovitud kirje rida.
 4. Valige **Kasutaja valikud**.
 5. Valige vahekaart **Eelistused**.

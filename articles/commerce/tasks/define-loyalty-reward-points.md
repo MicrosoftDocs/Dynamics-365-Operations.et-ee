@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9557b25af0fba6429d34564e1a3e158b6258698a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4e40ebcbf3ab1befc641ae34571a8b974bd0425a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022249"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140872"
 ---
 # <a name="define-loyalty-reward-points"></a> Püsikliendi preemiapunktide määratlemine
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See protseduur juhendab püsikliendi preemiapunktide määratlemisel. Püsikliendi preemiapunktid tuleks seadistada enne püsikliendi programmi alustamist. Protseduur kasutab demoettevõtte USRT andmeid.
 
@@ -42,7 +42,7 @@ See protseduur juhendab püsikliendi preemiapunktide määratlemisel. Püsiklien
 8. Sisestage number väljale Redeem ranking (Lunastusjärk).
     * Lunastusjärke kasutatakse, kui toodete eest maksmiseks saab kasutada kahte või enamat sobivat preemiapunkti. Kui kahel preemiapunktil on sama lunastusjärk, siis kasutatakse seda, mille punktide arv vajab langetamist.  
 9. Sisestage väljale Expiration time value (Realiseerimisaja väärtus) number.
-    * Preemiapunktid aeguvad nende väljastamise järel teatud arvu päevade, kuude või aastate pärast. Väärtus "0" tähendab, et püsikliendi preemiapunktid ei aegu kunagi.  
+    * Preemiapunktid aeguvad nende väljastamise järel teatud arvu päevade, kuude või aastate pärast. Väärtus „0” tähendab, et püsikliendi preemiapunktid ei aegu kunagi.  
 10. Valige suvand väljal Expiration time unit (Realiseerimisaja ühik).
 11. Klõpsake nuppu Salvesta.
 

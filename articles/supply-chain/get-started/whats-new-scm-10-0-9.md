@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2a2b56d387cfe90cbfac0bca3c11e699573c1d05
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: 502b2e08c6c1f4190031d171f037a05d591e5cd8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097452"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164764"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.9 (aprill, 2020)?
 
@@ -41,30 +41,32 @@ See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingit
 
 - [Täiustatud koormuse koostamine voo ajal](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)
 - [Saadetise automaatvabastus ristlaadimiseks](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/auto-release-shipment-cross-dock) – lisateabe saamiseks vt [Saadetise automaatvabastus ristlaadimiseks](../warehousing/auto-release-shipment-for-cross-docking.md).
+- [Arvutage ostutellimuse tarnekuupäev täitmisaegade ja tööpäevade põhjal (avalik sektor)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/calculate-po-delivery-date-based-lead-times-working-days-public-sector)
+- [Tegeliku kaalu toote töötlemine laohaldusega](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/catch-weight-product-processing-warehouse-management) – lisateavet vaadake teemast [Tegeliku kaalu toote töötlemine laohaldusega](../warehousing/catch-weight-processing.md) ja ka videot [Tegeliku kaalu toote täiustused](https://www.microsoft.com/videoplayer/embed/RE4jzx8).
 - [Kaubahinna võrdluse talletus](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/compare-item-price-storage) – lisateabe saamiseks vt [Kaubahinna võrdluse talletus](../cost-management/compare-item-price.md)võrdlemine.
 - [Saadetise täienduse konsolideerimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/consolidate-shipment-enhancements)
-- [Ristlaadimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking)
+- [Ristlaadimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking) – lisateavet vaadake videost [Planeeritud ristlaadimine](https://www.microsoft.com/videoplayer/embed/RE4f7LF).
 - Edasine tegeliku kaalu integreerimine [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1), [10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2), [10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3), [10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4), [10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5), [10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6), [10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7) – lisateabe saamiseks vt [Toote tegeliku kaalu töötlemine laohalduses](../warehousing/catch-weight-processing.md) ja ka videot [Toote tegeliku kaalu parandused](https://www.microsoft.com/videoplayer/embed/RE4jzx8).
 - [Paindlik dimensiooni reserveerimine laotasemel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation) – lisateabe saamiseks vt [Paindlik dimensiooni reserveerimise poliitika laotasemel](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+- [Täiustatud töökaardi seade](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) – lisateavet vaadake teemast [Mobiilse töö seadmega edenemisest teatamine](../production-control/tasks/report-progress-mobile-job-device.md) ja [Töökaardi seadmega litsentsiplaadi kontrollitud asukoha lõpetatuna teatamine](../production-control/report-finished-job-device.md)
 - [Sissetulev kvaliteedikontroll](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
 - [Varude ajalise jaotuse aruande talletamine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-aging-report-storage)
 - [Laoväärtuse aruannete talletamine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-value-report-storage)
 - [Koondplaneerimise edenemise Gantti diagramm](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/master-planning-progress-gantt-chart) – lisateabe saamiseks vt [Koondplaneerimise käitamise jälgimine](../master-planning/tasks/monitor-master-planning-run.md) ja ka videot [MRP jõudluse ja kasutatavuse täiustused](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
+- [Tootmisala uued andmeüksused](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [Väljastuste sortimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/outbound-sorting)
 - [Pakkimise vs laoala dimensioonid](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 - [Kinnitamise paralleelimine ja plaanitud tellimused](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders) – lisateabe saamiseks vt [Kinnitamise paralleelimine](../master-planning/maintain-planned-orders.md#parallelize-firming) ja ka videot [MRP jõudluse ja kasutatavuse parandamine](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 - [Plaanimise optimeerimise jaotus](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution) – lisateabe saamiseks vt [Plaanimise optimeerimise ülevaade](../master-planning/planning-optimization/planning-optimization-overview.md).
 - [Ostulepingu täiustused](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements) – lisateabe saamiseks vt [Ostulepingud](../procurement/purchase-agreements.md).
-- [Klastrite ladustamine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters)
+- [Klastrite ladustamine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters) – lisateavet vaadake videost [Klasterdamise ladustamine](https://www.microsoft.com/videoplayer/embed/RE4f5aB).
 - [Pane seinale / pane kauplusesse](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-wallput-store)
 - [Sortimise vastuvõtmine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
+- [Väikepaki saatmine (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
 - [Hankija pakkumine – kokkuvõetud vastused hankijate küsimustele](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
 - [Lao ruumi leidmine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
 - [Voo sildi printimise täiustused](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 - [Vooetapi kood](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)
-
-<!-- - [Self-billing invoice control for procurement](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/self-billing-invoice-control-procurement)
-- [Self-billing invoice control for sales](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/self-billing-invoice-control-sales) -->
 
 ## <a name="additional-resources"></a>Lisaressursid
 

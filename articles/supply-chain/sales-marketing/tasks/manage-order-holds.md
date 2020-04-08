@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7168d13ef0b24d06aa28fbbc22bbb4e6093df24
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 16e11be633cdffbc8ee3e206eb42e7e1a2f72b9c
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994906"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146441"
 ---
 # <a name="manage-order-holds"></a>Tellimuste ooteloleku haldamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See protseduur näitab, kuidas seada kliendi müügitellimusi ootele, kuidas töötada ootel tellimuse väljaregistreerimisega ja kuidas tellimuse ootelolekut eemaldada. Tellimus võidakse ootele panna mitmel põhjusel. Näiteks võidakse tellimus ootele panna seni, kuni kliendi aadressi või makseviisi saab kinnitada või kuni haldur saab kliendi krediidilimiidi üle vaadata. Kui tellimus on ootel, ei saa ladu seda lähetamiseks töödelda. 
 

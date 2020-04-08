@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b616998738d6b6986f157d136fc56e061900ef41
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 501936734b6ec970062d0d2cbcc8a3cdc11b934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550528"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142359"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>Elektrooniline aruandlus. Horisontaalselt laiendatavate vahemike kasutamine veergude dünaamiliseks lisamiseks Exceli aruannetes (1. osa – vormingu koostamine)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Järgmistes etappides selgitatakse, kuidas kasutaja, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll, saab konfigureerida elektroonilise aruandluse vormingut, et luua aruandeid OPENXML-i töölehtede (Exceli) failidena, milles saab luua dünaamiliselt vajalikke veerge horisontaalselt laiendatavate vahemikena. Neid toiminguid saab teha igas ettevõttes.
 
 Toimingute teostamiseks tuleb esmalt läbida järgmised kolm tööjuhist. 
 
-„ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks“
+„ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks”
 
-„ER Finantsdimensioonide kasutamine andmeallikana (1. osa: andmemudeli koostamine)“
+„Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (1. osa – andmemudeli koostamine)”
 
-„ER Finantsdimensioonide kasutamine andmeallikana (2. osa: mudeli vastendamine)“
+„Elektrooniline aruandlus. Finantsdimensioonide kasutamine andmeallikana (2. osa – mudeli vastendamine)”
 
 Samuti peate alla laadima ja salvestama malli kohaliku koopia näidisaruandega, mis on saadaval siin: [Finantsdimensioonide veebiteenuse näidisaruanne](https://go.microsoft.com/fwlink/?linkid=862266).
 
@@ -57,12 +57,12 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 
 ## <a name="design-the-report-format"></a>Aruande vormingu kujundamine
 1. Klõpsake valikut Kujundaja.
-2. Lülitage sisse nupp Näita üksikasju.
+2. Lülitage sisse nupp „Kuva üksikasjad”.
 3. Klõpsake toimingupaanil nuppu Impordi.
 4. Klõpsake käsku Impordi Excelist.
 5. Klõpsake suvandit Manused.
     * Aruandemalli importimine. Kasutage selleks alla laaditud Exceli faili.  
-6. Klõpsake valikut Uus.
+6. Klõpsake Uus.
 7. Klõpsake suvandit Fail.
 8. Sulgege leht.
 9. Sisestage või valige väärtus väljal Mall.

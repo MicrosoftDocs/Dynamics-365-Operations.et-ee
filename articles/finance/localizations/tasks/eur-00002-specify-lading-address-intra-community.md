@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6eea2a905a59842b6f39c5b1e1c78ae6801b28e0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e555d6791f596850ba1ed718aa5593ee3f88bed9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175119"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144512"
 ---
 # <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a>EUR-00002 Laadimisaadressi määramine ühendusesisesele kandele
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See protseduur näitab, kuidas määrata ühendusesisese kaubanduskande puhul laadimisaadressi. Näiteks Saksamaa ettevõte tellib kaupu Saksamaa aadressiga hankijalt. Sellel hankijal on ladu Itaalias ja ta lähetab kaubad sealt. Tarne peab kajastuma intrastati aruandes. Sama kehtib klienditagastuste puhul.
 See protseduur kohaldub kõigile Euroopa riikidele/piirkondadele. Ülesande loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Saksamaa, andmeid. Enne selle protseduuri läbimist tuleb konfigureerida intrastati aruandlus. See protseduur on mõeldud raamatupidajatele. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.

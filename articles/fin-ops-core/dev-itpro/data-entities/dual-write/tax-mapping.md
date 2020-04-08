@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 0d32a5f7859f0200da823a73d94b9a6b2a9c8e7d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: a4da37d45698290b40f6c72148f1500bef72127a
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019736"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173081"
 ---
 # <a name="integrated-tax"></a>Integreeritud maks
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 Maksu seadistusandmed määravad nii kaudsete maksude (KM, GST, käibemaks) kui ka kinnipeetava maksu seadistuse. Need kirjeldavad maksu arvutamise reeglit, maksumäära, maksuarvestust, tasakaalustust ja muid mõisteid.
 
@@ -38,16 +38,16 @@ Maksu seadistusandmed määravad nii kaudsete maksude (KM, GST, käibemaks) kui 
 
 Maksuandmed sisaldavad olemikaartide kogumit, mis töötavad andmete suhtluse ajal koos, nagu on näha järgmises tabelis.
 
-Finance and Operations   | Muud Dynamics 365 rakendused
+| Finance and Operations rakendused | Mudeljuhitud Dynamics 365 rakendused | Kirjeldus |
 -------------------------|---------------------------------
-Maksukoodid                  | msdyn\_taxcodes.md
-Maksugrupid               | msdyn\_taxgroups.md
-Maksu kaubagrupid          | msdyn\_taxitemgroups.md
-Maksuvabastused           | msdyn\_taxexemptcodes.md
-Maksuhaldurid          | msdyn\_taxauthorities.md
-Kinnipeetava maksu koodid      | msdyn\_withholdingtaxcodes.md
-Kinnipeetava maksugrupid   | msdyn\_withholdingtaxgroups.md
-Maksu pearaamatukonto grupp | msdyn\_taxpostinggroups  
+Maksukoodid                   | msdyn\_taxcodes.md | 
+Maksugrupid                 | msdyn\_taxgroups.md | 
+Maksu kaubagrupid             | msdyn\_taxitemgroups.md | 
+Maksuvabastused             | msdyn\_taxexemptcodes.md | 
+Maksuhaldurid             | msdyn\_taxauthorities.md | 
+Kinnipeetava maksu koodid       | msdyn\_withholdingtaxcodes.md | 
+Kinnipeetava maksugrupid     | msdyn\_withholdingtaxgroups.md | 
+Maksu pearaamatukonto grupp | msdyn\_taxpostinggroups     | 
 
 [!include [banner](../../includes/dual-write-symbols.md)]
 

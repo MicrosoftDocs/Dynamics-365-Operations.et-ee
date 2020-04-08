@@ -3,7 +3,7 @@ title: Tootesoovituste lubamine
 description: Selles teemas selgitatakse, kuidas teha tehisintellekti masinõppel (AI-ML) põhinevad tootesoovitused rakenduses Microsoft Dynamics 365 Commerce klientidele kättesaadavaks.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 879fccb063ca0b74e0f022a9edf6a15f7d1311ae
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: d8a579be5df3c5e7718a6fb4720341f3bd01a64c
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127878"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154409"
 ---
 # <a name="enable-product-recommendations"></a>Tootesoovituste lubamine
 
@@ -75,8 +75,6 @@ Lisateavet isikupärastatud soovituste saamise kohta vaadake jaotisest [Isikupä
 [Isikupärastatud soovituste lubamine](personalized-recommendations.md)
 
 [Isikupärastatud tootesoovitustest loobumine](personalization-gdpr.md)
-
-[Soovitusloendite lisamine e-Kaubanduse saidile](add-reco-list-to-page.md)
 
 [Tootesoovituste lisamine kassas](product.md)
 

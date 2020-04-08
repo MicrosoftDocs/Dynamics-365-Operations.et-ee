@@ -3,7 +3,7 @@ title: Finance’iga integreerimise konfigureerimine
 description: Selles artiklis kirjeldatakse funktsioone, mis on saadaval integratsiooniks rakendustest Dynamics 365 Human Resources ja Dynamics 365 Finance.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,73 +18,75 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e7070f627654c9eb889f3e0ee27e37681db0502
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 1558d050627c8dc64727884901ed0d0716df0c50
+ms.sourcegitcommit: f481dfd6bf93bb3e03a7bd9a765e2cfd14305d02
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008723"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3169273"
 ---
-# <a name="configure-integration-with-finance"></a>Finance’iga integreerimise konfigureerimine
+# <a name="configure-integration-with-finance"></a>Integratsiooni konfigureerimine Finance’iga
 
-Selles artiklis kirjeldatakse funktsioone, mis on saadaval integratsiooniks rakendustest Dynamics 365 Human Resources ja Dynamics 365 Finance. [Andmeintegraatoris](https://docs.microsoft.com/powerapps/administrator/data-integrator) saadaolevad rakendusest Human Resources rakendusse Finance mallid võimaldavad tööde, ametikohtade ja töötajate andmevooge. Andmevood rakendusest Human Resources rakendusse Finance. Mall ei võimalda andmevooge Finance’ist tagasi rakendusse Human Resources. 
+Dynamics 365 Human Resourcesi integreerimisel Dynamics 365 Finance'iga saate kasutada rakendusest Human Resources rakendusse Finance malli [Andmeintegraator](https://docs.microsoft.com/powerapps/administrator/data-integrator). Rakendusest Human Resources rakendusse Finance mall lubab tööde, ametikohtade ja töötajate andmevoo. Mall lubab andmevoo rakendusest Human Resources rakendusse Finance, kuid ei luba andmevoogu Finance'ist Human Resourcesisse.
 
-![Integratsioonivoog rakendusest Human Resources rakendusse Finance](./media/TalentFinOpsFlow.png)
+![Integratsioonivoog rakendusest Human Resources rakendusse Finance](./media/hr-admin-integration-finance-flow.png)
 
-Rakendusest Human Resources rakendusse Finance lahendus pakub järgmist tüüpi andmete sünkroonimist. 
+Rakendusest Human Resources rakendusse Finance lahendus pakub järgmist tüüpi andmete sünkroonimist.
 
-- Hallake inimressursse ja sünkroonige neid rakendusest Human Resources rakendusse Finance.
-- Hallake rakenduse Human Resources ametikohti ja nende määramisi ning sünkroonige neid rakendusest Human Resources rakendusse Finance.
-- Hallake tööhõivet rakenduses Human Resources ja sünkroonige neid rakendusest Human Resources rakendusse Finance.
-- Hallake rakenduse Human Resources töötajaid ja töötajate aadresse ning sünkroonige neid rakendusest Human Resources rakendusse Finance.
+- Hallake inimressursse ja sünkroonige neid rakendusest Human Resources rakendusse Finance
+- Hallake rakenduse Human Resources ametikohti ja nende määramisi ning sünkroonige neid rakendusest Human Resources rakendusse Finance
+- Hallake tööhõivet rakenduses Human Resources ja sünkroonige neid rakendusest Human Resources rakendusse Finance
+- Hallake rakenduse Human Resources töötajaid ja töötajate aadresse ning sünkroonige neid rakendusest Human Resources rakendusse Finance
 
 ## <a name="system-requirements-for-human-resources"></a>Rakenduse Human Resources süsteeminõuded
+
 Integratsioonilahenduse jaoks on vaja rakenduste Human Resources ja Finance järgmisi versioone. 
-- Dynamics 365 Human Resources teenuses Common Data Service.
-- Dynamics 365 Finance’i versioon 7.2 või uuem.
+
+- Dynamics 365 Human Resources kuupäeval Common Data Service
+- Dynamics 365 Finance’i versioon 7.2 või uuem
 
 ## <a name="template-and-tasks"></a>Mall ja ülesanded
 
-Mallile juurdepääsemist tehke järgmist.
+Rakendusest Human Resources rakendusse Finance malli juurde pääsemine.
+
 1. Avage [Power Appsi halduskeskus](https://admin.powerapps.com/). 
-1. Valige **Projektid** ja seejärel paremas ülanurgas **Uus projekt**, et valida avalikud mallid. Iga juriidilise isiku jaoks tuleb luua uus projekt, mida soovite Finance’i integreerida.
 
-Järgmist malli kasutatakse kirjete sünkroonimiseks rakendusest Human Resources rakendusse Finance.
+2. Valige **Projektid**ja seejärel valige paremas ülanurgas **Uus projekt**. Looge iga juriidilise isiku jaoks uus projekt, mida soovite Finance’i integreerida.
 
-- **Andmete integratsiooni malli nimi:** Human Resources (Human Resources Common Data Service’ist rakendusse Finance)
+3. Rakendusest Human Resources rakendusse Finance andmete sünkroonimiseks valige **Human Resources (Human Resources Common Data Service rakendusse Finance)**.
 
-  > [!NOTE]
-  > Ülesande nimi sisaldab igas rakenduses kasutatavaid üksusi. Allikas (Human Resources) on vasakul ja sihtkoht (Finance and Operations) on paremal.
+Mall kasutab järgmisi ülesandeid kirjete sünkroonimiseks rakendusest Human Resources rakendusse Finance.
 
-Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human Resources rakendusse Finance.
-- Tööfunktsioonidest tööfunktsioonide kompensatsioonile
-- Osakondadest tootmisüksusele
-- Töötüüpidest töötüübi kompensatsioonile
-- Töödest töökohtadele
-- Töödest töö üksikasjadele
-- Positsiooni tüüpidest positsiooni tüübile
-- Ametikohtadest peamise ametikoha jaoks
-- Ametikohast ametikoha üksikasjadele
-- Ametikohast ametikoha kestustele
-- Ametikohast ametikoha hierarhiatele
-- Töötajatelt töötajale
-- Tööhõivetest tööhõivele
-- Tööhõivetest tööhõive üksikasjadele
-- Töötaja ametikoha määramisest töötaja ametikoha määrangutele
-- Töötaja aadressitest töötaja postiaadressi v2-le
+- **Tööfunktsioonidest tööfunktsioonide kompensatsioonile**
+- **Osakondadest tootmisüksusele**
+- **Töötüüpidest töötüübi kompensatsioonile**
+- **Töödest töökohtadele**
+- **Töödest töö üksikasjadele**
+- **Positsiooni tüüpidest positsiooni tüübile**
+- **Ametikohtadest peamise ametikoha jaoks**
+- **Ametikohast ametikoha üksikasjadele**
+- **Ametikohast ametikoha kestustele**
+- **Ametikohast ametikoha hierarhiatele**
+- **Töötajatelt töötajale**
+- **Tööhõivetest tööhõivele**
+- **Tööhõivetest tööhõive üksikasjadele**
+- **Töötaja ametikoha määramisest töötaja ametikoha määrangutele**
+- **Töötaja aadressitest töötaja postiaadressi v2-le**
 
 ## <a name="template-mappings"></a>Malli vastendamised
 
+Järgmistes mallivastenduste tabelites sisaldab ülesande nimi igas rakenduses kasutatavaid üksuseid. Allikas (Human Resources) on vasakul ja sihtkoht (Finance) on paremal.
+
 ### <a name="job-functions-to-compensation-job-function"></a>Tööfunktsioonidest tööfunktsioonide kompensatsioonile
 
-| Common Data Service’i üksus (allikas)                 | Finance and Operationsi üksus (sihtkoht) |
+| Common Data Service’i üksus (allikas) | Finance'i üksus (sihtkoht) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   Funktsiooni nimi)  | TÖÖ FUNKTSIOONI ID   (TÖÖ FUNKTSIOONI ID)            |
 | cdm_description   (cdm_description) | KIRJELDUS   (KIRJELDUS)                 |
 
 ### <a name="departments-to-operating-unit"></a>Osakondadest tootmisüksusele
 
-| Common Data Service’i üksus (allikas)                           | Finance and Operationsi üksus (sihtkoht) |
+| Common Data Service’i üksus (allikas)           | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NIMI (NIMI)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | TÖÖÜKSUSE NUMBER   (TÖÖÜKSUSE NUMBER) |
@@ -93,7 +95,7 @@ Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human R
 
 ### <a name="job-types-to-compensation-job-type"></a>Töötüüpidest töötüübi kompensatsioonile
 
-| Common Data Service’i üksus (allikas)                   | Finance and Operationsi üksus (sihtkoht) |
+| Common Data Service’i üksus (allikas)   | Finance'i üksus (sihtkoht) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | TÖÖTÜÜBI ID   (TÖÖTÜÜBI ID)                     |
 | cdm_description   (cdm_description)   | KIRJELDUS   (KIRJELDUS)                 |
@@ -101,7 +103,7 @@ Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human R
 
 ### <a name="jobs-to-jobs"></a>Töödest töökohtadele
 
-| Common Data Service’i üksus (allikas)                                           | Finance and Operationsi üksus (sihtkoht)           |
+| Common Data Service’i üksus (allikas)                           | Finance'i üksus (sihtkoht)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | TÖÖ ID (TÖÖ ID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | AMETIKOHTADE MAX ARV   (AMETIKOHTADE MAX ARV) |
@@ -111,7 +113,7 @@ Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human R
 
 ### <a name="jobs-to-job-detail"></a>Töödest töö üksikasjadele
 
-| Common Data Service’i üksus (allikas)                                             | Finance and Operationsi üksus (sihtkoht) |
+| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | TÖÖ ID (TÖÖ ID)                               |
 | cdm_jobtypeid.cdm_name   (Töö tüüp (töö tüübi nimi))             | TÖÖTÜÜBI ID   (TÖÖTÜÜBI ID)                     |
@@ -122,7 +124,7 @@ Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human R
 
 ### <a name="position-types-to-position-type"></a>Positsiooni tüüpidest positsiooni tüübile
 
-| Common Data Service’i üksus (allikas)                       | Finance and Operationsi üksus (sihtkoht) |
+| Common Data Service’i üksus (allikas)       | Finance'i üksus (sihtkoht) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | AMETIKOHA TÜÜBI ID   (AMETIKOHA TÜÜBI ID)           |
 | cdm_description   (cdm_description)       | KIRJELDUS   (KIRJELDUS)                 |
@@ -130,13 +132,13 @@ Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human R
 
 ### <a name="job-positions-to-base-position"></a>Ametikohtadest peamise ametikoha jaoks
 
-| Common Data Service’i üksus (allikas)                           | Finance and Operationsi üksus (sihtkoht) |
+| Common Data Service’i üksus (allikas)           | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Ametikoha number) | AMETIKOHA ID (AMETIKOHA ID)                      |
 
 ### <a name="job-positions-to-position-details"></a>Ametikohast ametikoha üksikasjadele
 
-| Common Data Service’i üksus (allikas)                                                      | Finance and Operationsi üksus (sihtkoht)       |
+| Common Data Service’i üksus (allikas)              | Finance'i üksus (sihtkoht)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber  (Ametikoha number)                            | AMETIKOHA ID (AMETIKOHA ID)                             |
 | cdm_jobid.cdm_name   (Töö (nimi))                                        | TÖÖ ID (TÖÖ ID)                                    |
@@ -146,19 +148,19 @@ Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human R
 | cdm_avaialableforassignment   (Määramise jaoks saadaval)                 | MÄÄRAMISEKS SAADAVAL   (MÄÄRAMISEKS SAADAVAL) |
 | cdm_validfrom   (Kehtiv alates)                                            | KEHTIV ALATES   (KEHTIV ALATES)                           |
 | cdm_validto (Kehtib kuni)                                                 | KEHTIB KUNI (KEHTIB KUNI)                               |
-| cdm_fulltimeequivalent   (Täisaja ekvivalent)                           | TÄISAJA EKVIVALENT   (TÄISAJA EKVIVALENT)         |
+| cdm_fulltimeequivalent   (Täisaja ekvivalent)                           | TÄISAJA VAIKEEKVIVALENT   (TÄISAJA VAIKEEKVIVALENT)         |
 
 ### <a name="job-positions-to-position-durations"></a>Ametikohast ametikoha kestustele
 
-| Common Data Service’i üksus (allikas)                             | Finance and Operationsi üksus (sihtkoht) |
+| Common Data Service’i üksus (allikas)             | Finance'i üksus (sihtkoht) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Ametikoha number)   | AMETIKOHA ID (AMETIKOHA ID)                      |
 | Arvutatud aktiveerimine (arvutatud aktiveerimine) | KEHTIV ALATES (KEHTIV ALATES)                        |
 | Arvutatud pensionile jäämine (arvutatud pensionile jäämine) | KEHTIB KUNI (KEHTIB KUNI)                         |
 
-### <a name="job-positions-to-position-hiearchies"></a>Ametikohast ametikoha hierarhiatele
+### <a name="job-positions-to-position-hierarchies"></a>Ametikohast ametikoha hierarhiatele
 
-| Common Data Service’i üksus (allikas)                                                                           | Finance and Operationsi üksus (sihtkoht) |
+| Common Data Service’i üksus (allikas)        | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Ametikoha number)                                                 | AMETIKOHA ID (AMETIKOHA ID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | ÜLEMAMETIKOHA ID (ÜLEMAMETIKOHA ID)         |
@@ -168,7 +170,7 @@ Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human R
 
 
 ### <a name="workers-to-worker"></a>Töötajatelt töötajale
-| Common Data Service’i üksus (allikas)                           | Finance and Operationsi üksus (sihtkoht)       |
+| Common Data Service’i üksus (allikas)           | Finance'i üksus (sihtkoht)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | SÜNNIKUUPÄEV   (SÜNNIKUUPÄEV)                           |
 | cdm_gender   (cdm_gender)                     | SUGU (SUGU)                                   |
@@ -187,7 +189,7 @@ Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human R
 
 ### <a name="employments-to-employment"></a>Tööhõivetest tööhõivele
 
-| Common Data Service’i üksus (allikas)                                             | Finance and Operationsi üksus (sihtkoht) |
+| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | TÖÖHÕIVE ALGUSKUUPÄEV   (TÖÖHÕIVE ALGUSKUUPÄEV) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | TÖÖHÕIVE LÕPPKUUPÄEV   (TÖÖHÕIVE LÕPPKUUPÄEV)     |
@@ -197,7 +199,7 @@ Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human R
 
 ### <a name="employments-to-employment-detail"></a>Tööhõivetest tööhõive üksikasjadele
 
-| Common Data Service’i üksus (allikas)                                             | Finance and Operationsi üksus (sihtkoht)   |
+| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | TÖÖHÕIVE ALGUSKUUPÄEV   (TÖÖHÕIVE ALGUSKUUPÄEV)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | TÖÖHÕIVE LÕPPKUUPÄEV   (TÖÖHÕIVE LÕPPKUUPÄEV)       |
@@ -215,7 +217,7 @@ Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human R
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Töötaja ametikoha määramisest töötaja ametikoha määrangutele
 
-| Common Data Service’i üksus (allikas)                                             | Finance and Operationsi üksus (sihtkoht)   |
+| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONALI NUMBER   (PERSONALI NUMBER)           |
 | cdm_jobpositionnumber   (Ametikoha number)                   | AMETIKOHA ID (AMETIKOHA ID)                        |
@@ -224,7 +226,7 @@ Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human R
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Töötaja aadressitest töötaja postiaadressi v2-le
 
-| Common Data Service’i üksus (allikas)                                             | Finance and Operationsi üksus (sihtkoht)   |
+| Common Data Service’i üksus (allikas)                             | Finance'i üksus (sihtkoht)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONALI NUMBER   (PERSONALI NUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | AADRESSI ASUKOHA ROLLID   (AADRESSI ASUKOHA ROLLID) |
@@ -239,9 +241,10 @@ Järgmiseid ülesandeid kasutatakse kirjete sünkroonimiseks rakendusest Human R
 | cdm_addresstype   (cdm_addresstype)                             | AADRESSI KIRJELDUS (AADRESSI KIRJELDUS)        |
 
 ## <a name="integration-considerations"></a>Integratsiooni kaalutlused
-Andmete integreerimisel rakendusest Human Resources rakendusse Finance püüab integratsioon kirjeid ID põhjal vastendada. Kui leitakse vaste, kirjutatakse rakenduse Finance andmed üle rakenduse Human Resources väärtustele. Kuid probleem võib ilmneda juhul, kui loogiliselt on need erinevad kirjed ja sama ID on loodud kas rakenduses Human Resources või Finance põhjal vastava numbriseeria alusel.
 
-See võib esineda töötaja alas, kus kasutatakse sobitamiseks personali numbrit ja ametikohti. Tööd ei kasuta numbriseeriaid. Seega, kui sama töö ID on olemas nii rakenduses Human Resources kui ka Finance, kirjutab rakenduse Human Resources Dynamics 365 Finance’i teabe üle. 
+Integreerimine rakendusest Human Resources rakendusse Finance püüab kirjeid ID põhjal vastendada. Kui kirjed vastavad, kirjutab andmeintegraator rakenduse Finance andmed üle rakenduse Human Resources väärtustele. Kuid probleem võib ilmneda juhul, kui loogiliselt on need erinevad kirjed ja sama ID on loodud kas rakenduses Human Resources või Finance põhjal vastava numbriseeria alusel.
+
+See probleem võib esineda üksusega **Töötaja**, kus kasutatakse sobitamiseks **Personali numbrit** ja **Ametikohti**. Tööd ei kasuta numbriseeriaid. Seega, kui sama töö ID on olemas nii rakenduses Human Resources kui ka Finance, kirjutab rakenduse Human Resources Dynamics 365 Finance’i teabe üle. 
 
 Dubleeritud ID-dega seotud probleemide vältimiseks saate lisada [numbriseeriale](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) eesliite või määrata numbrijärjestuse algusnumbri, mis ületab teise süsteemi vahemikku. 
 
@@ -250,5 +253,3 @@ Töötaja aadressi jaoks kasutatav asukoha ID ei ole numbriseeria osa. Töötaja
 Järgmisel joonisel on toodud andmete integreerimise malli vastenduste näide. 
 
 ![Malli vastendamine](./media/IntegrationMapping.png)
-
-

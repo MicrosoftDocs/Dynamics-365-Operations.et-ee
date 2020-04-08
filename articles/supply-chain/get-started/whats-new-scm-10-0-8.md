@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fb34ecc0ff5966ae09fdb00e80134a11eceb30a2
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: d62cf8be089eb8bccaf323041bf446b7f120b93f
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097451"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164531"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.8. (veebruar 2020)
 
@@ -32,13 +32,14 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Management 10.0.8 
 
 - **Eelvaateversiooni välja andmine:** detsember 2019
 - **Üldine saadavus (enesevärskendus):** jaanuar 2020
-- **Automaatvärskendus:** veebruar 2020 
+- **Automaatvärskendus:** veebruar 2020
 
 ## <a name="features-included-in-this-release"></a>Selles väljalaskes sisalduvad funktsioonid
 
 See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingitud saidiga [Väljalaske plaanid](https://docs.microsoft.com/dynamics365/release-plans/) lisateabe andmiseks. Täiendavad lingid viitavad täiendavatele dokumentidele või videotele, mis on selle funktsiooni jaoks praegu saadaval. Mõni neist funktsioonidest võisid olla lisatud ka eelmisele järkjärgulisele väljalaskele, kuid seda ei kuulutatud välja eelmises teemas *Mis on uut*, seega lisasime need siia. Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 
 - [Täiendav asukohatsoon](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+- [Varahaldus](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management) – lisateavet vaadake teemast [Varahalduse ülevaade](../asset-management/index.md).
 - [Tää tühistamine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work) – vaadake lisateavet teemast [Lao töö tühistamine erandi käsitlemiseks](../warehousing/cancel-warehouse-work.md).
 - [Muuda töö töökausta](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
 - [Kogumi positsioon on täis](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)
