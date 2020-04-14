@@ -19,20 +19,19 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 269346d38eeb3812c352d16f9d50fbcd09307c12
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 977b74b10b4549d09a8816264f9ff603fa86e91c
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019743"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172827"
 ---
 # <a name="integrated-customer-master"></a>Integreeritud kliendi koondandmed
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-Kliendikirjete loomine mitmes rakenduses on tavaline. Näiteks võib müügitegevus tuua ärikliendi kirjeid rakenduse Sales kaudu ja e-kaubandus või jaemüük võivad tuua kliendikirjeid rakenduse Finance and Operations kaudu. Olenemata sellest, kust kliendikirje pärineb, on see integreeritud kulisside taga üle rakenduste piiride ja taristute erinevuste. Integreeritud klientide loomine aitab käsitleda mitut loodud stsenaariumi ja annab põhjaliku kliendivaate Dynamics 365 rakenduse komplektile.
+Kliendiandmeid saab luua rohkem kui ühes Dynamics 365 rakenduses. Näiteks kliendikirje võib pärineda Dynamics 365 Salesi müügitegevusest (mudeljuhitud Dynamics 365 rakendus) või Dynamics 365 Commerce'i jaemüügi tegevusest (Finance and Operationsi rakendus). Olenemata sellest, kust kliendiandmed pärinevad, on see integreeritud kulisside taga. Integreeritud kliendi koondandmed annavad teile paindlikkuse luua kliendiandmeid kõigis Dynamics 365 rakendustes ja põhjaliku ülevaate kliendi kohta Dynamics 365 rakenduse komplektis.
 
 ## <a name="customer-data-flow"></a>Kliendiandmete voog
 
@@ -59,7 +58,6 @@ Kliendigrupid             | msdyn_customergroups            | See mall sünkroon
 Kliendi makseviis     | msdyn_customerpaymentmethods    | See mall sünkroonib kliendi makseviisi teabe.
 Kliendid V3                | kontod                        | See mall sünkroonib äri-ja organisatsiooniklientide kliendi koondteabe.
 Kliendid V3                | kontaktid                        | See mall sünkroonib tarbijate ja lõppkasutajate kliendi koondandmed.
-Kliendikaart                | msdyn_loyaltycards              | See mall sünkroonib kliendikaardi teabe.
 Nime liited                | msdyn_nameaffixes               | See mall sünkroonib nii klientide kui ka hankijate nimeliidete viiteandmed.
 CDS V2 maksepäeva read    | msdyn_paymentdaylines           | See mall sünkroonib nii klientide kui ka hankijate maksepäeva ridade viiteandmed.
 CDS-i maksepäevad            | msdyn_paymentdays               | See mall sünkroonib nii klientide kui ka hankijate maksepäevade viiteandmed.
@@ -78,8 +76,6 @@ Maksetingimused            | msdyn_paymentterms              | See mall sünkroo
 [!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
 
 [!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
 

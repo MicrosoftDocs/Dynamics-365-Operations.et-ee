@@ -3,7 +3,7 @@ title: Ostukasti moodul
 description: See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13d044a150651dd18c3a09c4db6a783fe8f42287
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025455"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154059"
 ---
 # <a name="buy-box-module"></a>Ostukasti moodul
 
@@ -58,7 +58,7 @@ Kujundusi saab kasutada ostukasti tooteatribuutide ja tegevuste juhtelementide e
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moodulid, mida saab ostukasti moodulis kasutada
 
 - **Meediumigalerii** – seda moodulit kasutatakse toote üksikasjade lehel toote piltide näitamiseks. See võib toetada ühte kuni mitu pilti. See toetab ka pisipilte. Pisipildid saab paigutada kas horisontaalselt (reana pildi all) või vertikaalselt (veeruna pildi kõrval). Meediumigalerii mooduli saab lisada ostukasti mooduli pesale **Meedia**. Hetkel toetab see ainult pilte. 
-- **Kaupluse valija** – see moodul kuvab lähedalasuvate poodide loendi, kus kaup on kohapeal olemas. See võimaldab kasutajatel sisestada asukoha, et leida läheduses asuvad kauplused. Kaupluse valija moodul on integreeritud Bingi kaartide geokodeerimise rakenduse programmeerimisliidesega (API) asukoha laius- ja pikkuskraadideks teisendamiseks. Vajalik on Bingi kaartide API võti ja see tuleb lisada jaemüügi jagatud parameetrite lehele rakenduses Dynamics 365 Retail. See moodul toetab kaht atribuuti, **Otsinguraadius** ja **Teenusetingimuste link**. Atribuut **Otsinguraadius** määratleb kaupluste otsinguraadiuse miilides. Kui väärtust pole määratud, kasutatakse vaikimisi otsingu raadiust, 50 miili. Kui kasutatakse Bingi kaarte või mis tahes välist teenust, saab kasutada atribuuti **Teenuse tingimuste link** teenuse tingimuste linki edastamiseks. Bing kaartide teenuse korral on teenuse tingimuste link nõutav. 
+- **Kaupluse valija** – see moodul kuvab lähedalasuvate poodide loendi, kus kaup on kohapeal olemas. See võimaldab kasutajatel sisestada asukoha, et leida läheduses asuvad kauplused. Selle mooduli kohta lisateabe saamiseks vaadake teemat [Poe valija moodul](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Ostukasti mooduli sätted
 
@@ -93,11 +93,13 @@ Uuele lehele ostukasti mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 
 [Alustuskomplekti ülevaade](starter-kit-overview.md)
 
-[Konteinermoodul](add-container-module.md)
+[Kaupluse valija moodul](store-selector.md)
 
-[Ostukorvi moodul](add-cart-module.md)
+[Konteineri moodul](add-container-module.md)
 
-[Maksmise moodul](add-checkout-module.md)
+[Ostukorvimoodul](add-cart-module.md)
+
+[Väljaregistreerimismoodul](add-checkout-module.md)
 
 [Tellimuse kinnituse moodul](order-confirmation-module.md)
 

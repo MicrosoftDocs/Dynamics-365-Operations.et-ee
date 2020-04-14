@@ -3,7 +3,7 @@ title: Project Service Automationi integratsiooniparameetrid
 description: Selles teemas selgitatakse, kuidas konfigureerida vaikeandmete sisestamise viisi, kui integreerite Microsoft Dynamics 365 for Project Service Automationi Microsoft Dynamics 365 Financeiga.
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: f7cef5384812e0dcb7d5e084ddd7668a7687a259
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cd09dad15112fd71bfd386e0072a77a4121c96e0
+ms.sourcegitcommit: 236672932ffd0a758012ebb7b2df9bc51249c126
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174828"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096247"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automationi integreerimisparameetrid
 
 [!include[banner](../includes/banner.md)]
 
 Lehel **Project Service Automationi integratsiooniparameetrid** saate konfigureerida vaikeandmete sisestamise viisi, kui integreerite Dynamics 365 Project Service Automationi Dynamics 365 Financeiga. Projektide edukaks sünkroonimiseks Project Service Automationist Finance’i peate seadistama järgmised väljad.
+
+Lehe **Project Service Automationi integreerimise parameetrid** avamiseks minge jaotisesse **Projektihaldus ja -arvestus** \> **Seadistamine** \> **Dynamics 365 for Project Service Automationi integreerimise parameetrid**. 
 
 > [!NOTE]
 > - Versioonis 8.0 on saadaval projektiülesannete integreerimine, kulukannete kategooriad, tunnihinnangud, kuluhinnangud ja funktsioonide lukustamine.

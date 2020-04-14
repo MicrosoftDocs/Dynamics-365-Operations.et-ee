@@ -1,0 +1,72 @@
+---
+title: Näita allahindlusi kassas
+description: Selle teema all selgitatakse, kuidas Microsoft Dynamics 365 Commerce aitab müügipartneritel õppida tundma kampaaniaid ja seda, kuidas neid saab kasutada ristmüümis- ja edasimüümisiikumisteks.
+author: ShalabhjainMSFT
+manager: AnnBe
+ms.date: 03/06/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-Commerce
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail, Commerce
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: Retail, Commerce
+ms.author: asharchw
+ms.search.validFrom: 2020-02-28
+ms.dyn365.ops.version: Application update 10.0.10
+ms.openlocfilehash: 54201de6b242f8100c19a78468476a6308b1b18a
+ms.sourcegitcommit: 5554b3abb4365666992efad692ae28e943faebd4
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3116552"
+---
+# <a name="show-discounts-in-pos"></a>Näita allahindlusi kassas
+
+[!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
+
+Kampaaniad mängivad olulist rolli nende klientide motiveerimisel, kes teevad ostuotsuseid. Näiteks võivad pühad anda jaemüüjatele suurima müükide arvu, sest kogu jaemüügiturg on üle ujutatud ahvatlevate kampaaniate ja allahindlustega. Kui kaupluse kaastöötajad teavad ja mõistavad olemasolevaid kampaaniaid, saavad nad neid kampaaniaid kasutades teha hõlpsalt kaupade rist- ja edasimüüki. Selle teema all selgitatakse, kuidas Microsoft Dynamics 365 Commerce aitab müügipartneritel õppida tundma kampaaniaid ja seda, kuidas neid saab kasutada ristmüümis- ja edasimüümisiikumisteks.
+
+## <a name="learn-about-store-discounts"></a>Lisateave kaupluse allahindluste kohta
+
+Kaubandus sisaldab operatsiooni, mida nimetatakse "Kuva kõik allahindlused". Selle operatsiooniga kuvatakse kõik kaupluses praegu kehtivad allahindlused. Operatsiooni "Kuva kõik allahindlused" saab vastendada nupuga kassas (POS) ja selle nupu saab lisada lehele **Tervitus** või lehele **Kanne** . Järgneval pildil kuvatakse näidet avatud lehest **Kõik allahindlused** .
+
+![Leht Kõik allahindlused](./media/View_all_discounts.png "Leht Kõik allahindlused")
+
+Allahindluste kuvamiseks otsib süsteem kõiki allahindlusi, mis vastavad ühele või mitmele järgmistest tingimustest:
+
+- Allahindluse rühm ühtib kaupluse hinnarühmaga.
+- Allahindlusrühm on vastendatud kuuluvuse- või püsikliendiprogrammiga.
+- Allahindlusrühm on vastendatud kauplusega seotud kataloogiga.
+
+Lehel **Kõik allahindlused** kuvatakse ainult mõned kupongil põhinevad allahindlused, sest jaemüüjad loovad tavaliselt tuhandeid kuponge ja vastavaid allahindlusi kordumatutele klientidele ning see lehekülg ei ole ette nähtud kliendiomaste allahindluste näitamiseks. Kupongil põhinevad allahindlused kuvatakse ainult siis, kui suvand **Rakenda ilma kupongikoodita** on iga kupongi päises sisse lülitatud. Sel juhul saab kassiir kupongi rakendada kupongikoodi või vöötkoodi sisestamata või skannimata.
+
+Kui suvand **Rakenda ilma kupongikoodita** on sisse lülitatud, muutuvad võimalikuks erinevad stsenaariumid. Näiteks võivad kassiirid pakkuda klientidele lisaallahindlusi kliendi rahuloluks või toote defektide tõttu. Prinditud kupongikoode või vöötkoode ei tule kassiiridele jagada. Selle asemel saavad kassiirid valida nupu **Rakenda kupong** . Kupong rakendatakse seejärel kandele automaatselt. Kui kupongi päisele on olemas mitu kupongi, valib süsteem kandel automaatselt esimese aktiivse kupongi.
+
+Lehel **Kõik allahindlused** saavad müügiesindajad otsida allahindlusi ka märksõnade alusel. Märksõnaotsing otsib väljadelt, kus on allahindluse nimi ja allahindluse kirjeldus. Müügiesindajad saavad allahindlusi ka filtreerida, lähtudes sellest, kas allahindlus nõuab kupongikoodi.
+
+## <a name="cross-sell-and-upsell-by-using-discounts"></a>Ristmüük ja edasimüük kasutades allahindlusi
+
+Multiallahindlus, nt koguseallahindlused, segu- ja sobitusallahindlused ning läveallahindlused, on suurepärane viis klientide motiveerimiseks ostma rohkem tooteid, et saada suuremaid allahindlusi. Seetõttu aitavad need suurendada ka kliendi ostukorvi ja jaemüüja tulu. Neid allahindlusi saab avaldada e-kaubanduse veebisaitidel, sotsiaalmeediumis ja kauplusebänneritel.
+
+Kuid isegi kui kasutatakse kõiki neid avalikustamismeetodeid, võivad kliendid jääda kampaaniate kasutamise võimalustest ilma. Kui soovite, et müügiesindajad teaksid, milliseid kampaaniaid on võimalik rakendada valitud real või isegi kogu ostukorvi ulatuses, võivad jaemüüjad lisada toimingunupu "Kuva kõik allahindlused" kassa mis tahes nupuruudustikule. Soovitame see nupp lisada lehe **Kanne** nupuruudustikule. Sel viisil saab müügiesindaja valida kanderea ja seejärel valida see nupp, et kuvada kõik valitud reale vastavad allahindlused. Müügiesindaja saab valida ka muu vahekaardi, et näidata allahindlusi, mis kehtivad kogu kandele.
+
+Varem mainitud lehel **Kõik allahindlused** kuvatakse ainult need allahindlused, mis ei konkureeri ühegi rakendatud allahindlusega. Selline käitumine aitab tagada, et kui müügiesindaja teavitab klienti allahindlusest ja klient võtab vajalikud meetmed (nt klient ostab veel ühe üksuse, et saada 10 protsenti allahindlust), rakendatakse allahindlus kandele. Nagu varem mainitud, kuvatakse kupongil põhinevad allahindlused ainult siis, kui suvand **Rakenda ilma kupongikoodita** on sisse lülitatud.
+
+Lihtsa stsenaariumi korral, kus kõik allahindlused on sama prioriteediga, on koosallahindluse režiim **Seotud** ja koosallahindluse korrigeerimise juhtelement on seatud **Parim hind ja seotus prioriteedi piires, mitte kunagi prioriteetide seotus**, lehel **Kõik allahindlused** kuvatakse toote kõik olemasolevad allahindlused, sest kõik allahindlused on seotud ja omavahel ei konkureeri.
+
+Järgmised pildid näitavad loogikat, mis määrab, millised allahindlused kuvatakse täpsemates stsenaariumites, nagu stsenaariumis, mille puhul allahindluse kaasrežiim on **Parim hind** või **Eksklusiivne**, ja kasutatakse kahte või enamat prioriteeti. Sellistes stsenaariumites on näidatud allahindlused lisaks mõjutatud lähtudes sellest, kas allahindluse kaastoime kontroll on seatud **Parimale hinnale ja seosele prioriteedi piires, mitte kunagi prioriteetide seosele** või **Parimale hinnale ainult prioriteedi piires, alati prioriteedi seosele**.
+
+Järgmisel pildil on kujutatud loogikat, mida kasutatakse juhul, kui allahindluse konkureerimiskontroll on seatud **Parimale hinnale ja seosele prioriteedi piires, mitte kunagi seosele üle prioriteetide**.
+
+![Loogika Parima hinna ja seose prioriteedi piires, mitte kunagi seos üle prioriteetide](./media/Model_1.png "Loogika Parim hind ja seos prioriteedi piires, mitte kunagi seos üle prioriteetide").
+
+Järgmisel pildil on kujutatud loogikat, mida kasutatakse juhul, kui allahindluse konkureerimiskontroll on seatud **Parimale hinnale ainult prioriteedi piires, alati seos üle prioriteedi**.
+
+![Loogika Parim hind ainult prioriteedi piires, alati seos üle prioriteedi](./media/Model_2.png "Loogika Parim hind ainult prioriteedi piires, alati seos üle prioriteedi").

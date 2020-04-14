@@ -5,6 +5,14 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 19. märts 2020
+          href: hr-whats-new-2020-03-19.md
+        - name: 10. märts 2020
+          href: hr-whats-new-2020-03-10.md
+        - name: 3. märts 2020
+          href: hr-whats-new-2020-03-03.md
+        - name: 25. veebruar 2020
+          href: hr-whats-new-2020-02-25.md
         - name: 18. veebruar 2020
           href: hr-whats-new-2020-02-18.md
         - name: 12. veebruar 2020
@@ -85,7 +93,7 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: Kohandatud väljade loomine ja nendega töötamine
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: PowerAppsi rakenduste manustamine
+            - name: Rakenduste PowerApps manustamine
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: Teabe leidmiseks otsingute abil
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
@@ -533,3 +541,9 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Loo sõltuv küsimus
               href: hr-learning-depending-question.md
+        - name: Töövõtja ja juhataja iseteeninduskeskuse seadistamine
+          items:
+            - name: Töövõtja ja juhataja iseteeninduskeskuse ülevaade
+              href: hr-employee-manager-self-service-overview.md
+            - name: Isiklike andmete muutmine
+              href: hr-employee-manager-self-service-edit-personal-information.md

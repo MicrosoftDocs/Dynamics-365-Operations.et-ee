@@ -17,14 +17,16 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eb89f50a3d227cad80226ce30f71c4f210129245
-ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
+ms.openlocfilehash: f5fc73f636a5cac25c259ce2cbae5c5407dca9b7
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622685"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117357"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Saate seadistada vaikekirjeldused automaatseks sisestamiseks
+
+[!include [banner](../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas seadistada vaiketeksti, mida kasutatakse automaatselt pearaamatusse sisestatavate raamatupidamiskirjete kirjeldamiseks kasutatavat vaiketeksti. Saate seadistada vaikimisi kirjeldusteksti, kasutades vabateksti või valides fikseeritud muutujad.
 

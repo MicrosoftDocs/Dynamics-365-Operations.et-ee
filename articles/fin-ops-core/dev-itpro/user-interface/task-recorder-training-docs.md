@@ -3,7 +3,7 @@ title: Dokumentide või koolituse loomine tegevuse salvestaja abil
 description: See teema selgitab, mis asjad on tegevuse salvestaja ja tegevuse juhised, kuidas luua tegevuse salvestisi ja kuidas kohandada Microsoft tegevuse juhiseid ja kaasata neid oma spikrisse.
 author: josaw1
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 927f6475e60b5b93aac0e0c2840cb0b4fc7f0ac8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006191"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164554"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentide või koolituse loomine tegevuse salvestaja abil
 
@@ -40,8 +40,6 @@ See teema selgitab, mis asjad on tegevuse salvestaja ja tegevuse juhised, kuidas
 Tegevuse salvestaja on tööriist, mille abil saab salvestada toote kasutajaliideses tehtavaid toiminguid. Tegevuse salvestaja kasutamisel jäädvustatakse kõik sündmused, mida kasutajaliideses teete ja mis serveri suhtes käivitatakse, sh väärtuste lisamine, sätete muutmine ja andmete eemaldamine. Salvestatud toiminguid nimetatakse ühiselt *tegevuse salvestiseks*. Tegevuse salvestisi saab kasutada mitmesugusel moel.
 
 -   **Tegevuse salvestisi saab esitada tegevuse juhistena.** Tegevusjuhised on spikri kasutuskogemuse lahutamatu osa. Tegevuse juhis on kontrollitud, juhendatud, interaktiivne kogemus, mis juhib teid äriprotsessi etappides. Kasutajal palutakse läbida iga etapp hüpikviiba (ehk mulli) abil, mis liigub läbi kasutajaliidese ja osutab kasutajaliidese elemendile, millega kasutaja peaks suhtlema. „Mull” annab ka teavet selle kohta, kuidas suhelda elemendiga, nagu „Klõpsake siin” või „Sisestage sellele väljale väärtus”. Tegevuse juhis käitatakse kasutaja praeguse andmekogumi suhtes ja sisestatud andmed salvestatakse kasutaja keskkonda.
--   **Tegevuse salvestisi saab kuvada spikri paanil protseduuri juhistena.** Saate kasutada spikri paani tegevuse salvestiste otsimiseks ja kuvamiseks. Saate juurdepääsu spikripaanile, klõpsates ülemisel navigatsiooniribal ikooni **?** või saate kasutada kiirklahvikombinatsiooni  **Ctrl+Shift+?**. Saate lugeda spikripaanilt tegevuse salvestise juhiseid või otsustada esitada salvestise tegevuse juhisena, nii et see juhib teid läbi kasutajaliidese.
--   **Tegevuse salvestised saab BPM-i salvestada.** Saate oma tegevuse salvestise salvestada hierarhia reale BPM-i teegis teenuses Lifecycle Services (LCS). Salvestisest luuakse toimingute loend ja äriprotsessi voodiagramm. BPM-i teeki salvestatud tegevuse salvestised võib kuvada spikrina.
 -   **Tegevuse salvestised saab salvestada Wordi dokumentidena.** See võimaldab hõlpsasti prinditavaid koolitusjuhendeid koostada.
 
 Saate luua oma tegevuse salvestisi, esitada Microsofti pakutavaid tegevuse salvestisi või muuta Microsofti pakutavaid tegevuse salvestisi teie konfiguratsiooni kajastamiseks. Lisateavet tegevuse salvestaja kohta vt teemast [Tegevuse salvestaja](task-recorder.md).
@@ -114,8 +112,7 @@ Saate Microsofti tegevuse salvestised alla laadida ja neid redigeerida, et kasut
 10. Kui salvestis on lõpuni mänginud, klõpsake ekraani ülaosas tegevuse salvestaja ribal nuppu **Peata**.
 11. Valige, kuidas tegevuse salvestist salvestada soovite.
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>Tegevuse salvestiste lisamine spikripaanis
-Oma kohandatud tegevuse salvestiste kuvamiseks spikripaanil, et neid saaks tegevuse juhistena taasesitada või tekstina kuvada, tuleb salvestada tegevuse salvestised oma BPM-i teeki ja seejärel uuendada oma spikrisüsteemi parameetreid nii, et need osutaksid teie BPM-i teegile. Lisateabe saamiseks vaadake teemat [Spikrisüsteemi ühendamine](../../fin-ops/get-started/help-connect.md).
+
 
 <a name="additional-resources"></a>Lisaressursid
 --------

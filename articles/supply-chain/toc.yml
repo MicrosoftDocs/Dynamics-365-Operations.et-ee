@@ -24,6 +24,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Värskenduste rakendamine pilvekeskkondadele
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Värskenduste rakendamine kohapealsetesse juurutamistesse
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Teenusevärskenduste konfigureerimine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Teenusevärskenduste peatamine
@@ -68,14 +70,18 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Managementi versioon 10.0.10 (mai 2020)
+                      href: get-started/whats-new-scm-10-0-10.md
                     - name: Supply Chain Managementi versioon 10.0.9 (aprill 2020)
                       href: get-started/whats-new-scm-10-0-9.md
                     - name: Supply Chain Managementi versioon 10.0.8 (veebruar 2020)
                       href: get-started/whats-new-scm-10-0-8.md
-                    - name: Supply Chain Managementi versioon 10.0.7 (jaanuar 2020)
-                      href: get-started/whats-new-scm-10-0-7.md
                 - name: Eemaldatud või aegunud funktsioonid
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+                  items:
+                    - name: Dynamics 365 Supply Chain Managementi eemaldatud või aegunud funktsioonid
+                      href: get-started/removed-deprecated-features-scm-updates.md
+                    - name: Varasematest versioonidest eemaldatud või aegunud funktsioonid
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: AX 2012 edasilükatud funktsioonid
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Asutusesisestes juurutustes rakendamata funktsioonid
@@ -166,7 +172,7 @@
               items:
                 - name: Juurutamise elutsüklihalduse avaleht
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Rakenduste Finance and Operations ülesehitus
+                - name: Finance and Operationsi rakenduste arhitektuur
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack for Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/supply-chain/toc.json
@@ -174,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Keskkonna planeerimine
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Ettevalmistamine süsteemi kasutuselevõtu jaoks
+                - name: Ettevalmistamine süsteemi Go-Live jaoks
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Süsteemi Go-live KKK
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/supply-chain/toc.json
@@ -495,7 +501,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Sisupaketi kasutamine Microsoft Power BI aruandluse jaoks
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Kulujuhtimise tööruumi kasutamine mobiilirakenduses Finance and Operations
+            - name: Kulujuhtimise tööruumi kasutamine Finance and Operationsi mobiilirakenduses
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
         - name: Kuluhaldus
           items:
@@ -629,7 +635,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kompensatsioon
                   href: ../fin-ops-core/dev-itpro/analytics/compensation-power-bi.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Kompensatsioon ja soodustused
+                - name: Hüvitused ja soodustused
                   href: ../fin-ops-core/dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kuluarvestuse analüüs
                   items:
@@ -1475,7 +1481,7 @@
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
                 - name: Hankija kataloogide importimine
                   href: procurement/vendor-catalogs-import.md
-                - name: Väliskataloogi seadistamine e-hanke väljaregistreerimiseks
+                - name: Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
                   href: procurement/set-up-external-catalog-for-punchout.md
                 - name: Väliskataloogide kasutamine e-hanke väljaregistreerimiseks
                   href: procurement/use-external-catalogs-for-punchout.md
@@ -2427,7 +2433,7 @@
                   href: warehousing/process-guide-framework.md
             - name: Täiendamine ja migreerimine
               items:
-                - name: Laohaldusprotsesside uuendamine rakendusest Microsoft Dynamics AX 2012 rakendusse Finance and Operations
+                - name: Microsoft Dynamics AX 2012 laohalduse protsesside täiendamine versioonile Finance and Operations
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: Sissetulekute registreerimiseks ja ladustamine
               items:
@@ -2446,7 +2452,7 @@
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json
             - name: Uue transpordihalduse mootori loomine
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
-    - name: Rakenduste Finance and Operations arendamine ja haldus
+    - name: Finance and Operationsi rakenduste juurutamine ja haldamine
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

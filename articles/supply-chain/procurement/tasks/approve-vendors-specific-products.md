@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 815d968b37cf285544799735fdd3f00f0c7ebffb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d09a7388377899b7cfb11ba744232d06aa2c4db6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838162"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149790"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Kindlatele toodetele hankijate kinnitamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selles protseduuris selgitatakse, kuidas kinnitada hankijaid kindlate toodete puhul. See võimaldab teil juhtida, milliseid hankijaid saab kasutada, kui toode ostutellimusse lisatakse. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. Seda ülesannet täidab tavaliselt Ostujuht.
 

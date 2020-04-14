@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: df8552aab5f1566dccf0b905c2d5db372671ec09
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249628"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144107"
 ---
 # <a name="cost-management-home-page"></a>Kuluhalduse koduleht
 
@@ -32,12 +32,13 @@ ms.locfileid: "2249628"
 
 [Kuluhaldus (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) võimaldab teil tegeleda toormaterjalide, poolvalmiskaupade, valmiskaupade ja lõpetamata toodangu hindamise ja raamatupidamisega. Selle puhul on tegu [laoarvestuse](cost-object.md) ja [tootmise raamatupidamise](bom-calculations.md) määramise, haldamise ja aruandlusega.
 
-Saate määrata järgmiste alade kulupoliitikat. 
--  [Eelmääratud kulu](costing-versions.md)
--  [Laoarvestus](cost-object.md)
--  [Tootmise raamatupidamine](bom-calculations.md)
--  [Kaudsete kulude arvestus](costing-sheets.md)
--  [Seotus pearaamatuga](production-order-cost-analysis.md)
+Saate määrata järgmiste alade kulupoliitikat.
+
+- [Eelmääratud kulu](costing-versions.md)
+- [Laoarvestus](cost-object.md)
+- [Tootmise raamatupidamine](bom-calculations.md)
+- [Kaudsete kulude arvestus](costing-sheets.md)
+- [Seotus pearaamatuga](production-order-cost-analysis.md)
 
 Näiteks saate määrata milliseid varude hinna määramise meetodeid soovite laoarvestuses [kaubamudeli grupi](../inventory/reserve-inventory-quantities.md) toodete suhtes rakendada, näiteks [FIFO-t](fifo-physical-value-marking.md), [kaalutud keskmist](weighted-average-physical-value-marking.md), [standardomahinda](prerequisites-standard-costs.md) või [liikuvat keskmist](moving-average.md).
 
@@ -51,23 +52,16 @@ Tootmise raamatupidamine võimaldab teil tootmis- ja partiitellimuste puhul [tö
 
 #### <a name="whats-new-and-in-development"></a>Mis on uut ja mis on arendamisel?
 
-Avage [Microsoft Dynamics 365 sisukaart](https://roadmap.dynamics.com/), et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel. 
+Avage [Microsoft Dynamics 365 sisukaart](https://roadmap.dynamics.com/), et näha, millised uued funktsioonid on välja antud ja millised uued funktsioonid on arendamisel.
 
 #### <a name="white-paper"></a>Tehniline ülevaade
-Tehniline ülevaade [Koosluse arvutamine kuluarvutustabeli abil](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) kirjeldab, kuidas seadistada kuluarvutustabelit, mis sisaldab materjali ja tootmist ning kuidas seadistamine mõjutab koosluse arvutamise tulemusi. Teema paremini selgitamiseks sisaldab see konkreetseid stsenaariumeid ja andmeid, mis näitavad eri sätete ja konfiguratsioonide mõju. Me ei eelda, et te kõiki neid stsenaariumeid järgite, kuna dokumendis pole piisavalt teavet nende seadistamiseks. Sellegipoolest, kui teil on vajalikud algteadmised, võite proovida esitada alltoodud tegevuste juhiseid nende kuvamise järjekorras. Kasutage selle dokumendi lugemisel saadud teadmisi koosluse arvutamise analüüside tegemiseks. 
 
--  [Valmistoote loomine](tasks/create-finished-product-2016-02.md)
--  [Pooltoote loomine](tasks/create-semi-finished-product-2016-02.md)
--  [Toormaterjalide loomine](tasks/create-raw-materials-2016-02.md)
--  [Koosluste loomine](tasks/create-boms-2016-02.md)
--  [Protsesside loomine](tasks/create-routes-2016-02.md)
--  [Koosluse arvutamine ühetasemelise struktuuri abil](tasks/calculate-bom-single-level-structure-2016-02.md)
--  [Koosluse arvutamine mitmetasandilise struktuuri abil](tasks/calculate-bom-multilevel-structure-2016-02.md)
-
+Tehniline ülevaade [Koosluse arvutamine kuluarvutustabeli abil](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) kirjeldab, kuidas seadistada kuluarvutustabelit, mis sisaldab materjali ja tootmist ning kuidas seadistamine mõjutab koosluse arvutamise tulemusi. Teema paremini selgitamiseks sisaldab see konkreetseid stsenaariumeid ja andmeid, mis näitavad eri sätete ja konfiguratsioonide mõju.
 
 #### <a name="blogs"></a>Ajaveebid
+
 [Dynamics AX-i tootmise uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/axmfg) ning [Dynamics AX-i Supply Chain Managementi uurimis- ja arendustöörühma ajaveebist](https://blogs.msdn.microsoft.com/dynamicsaxscm) leiate arvamusi, uudiseid ja muud teavet kuluhalduse kohta. Kuigi mõni neist sisestustest on kirjutatud kuluhalduse eelmise versiooni jaoks, kehtivad samad mõisted sellegipoolest ja protseduurid on praeguses versioonis sarnased.
 
 #### <a name="task-guides"></a>Tegevusjuhised
-Täiendav spikker on saadaval ülesandejuhistena. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.
 
+Täiendav spikker on saadaval ülesandejuhistena. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.

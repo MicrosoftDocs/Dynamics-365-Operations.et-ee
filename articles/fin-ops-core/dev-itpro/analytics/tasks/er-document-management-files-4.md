@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f715be8c151f62a4bbb4cc295d3158fe5a17e084
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: f5639a46c105e735d028e903513b4fcfb1f0d968
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550805"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142612"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>Elektrooniline aruandlus Dokumendihalduse failide kasutamine vormingu väljundites (4. osa – vormingu käivitamine)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutaja saab konfigureerida elektroonilise aruandluse (ER) vormingu dokumendihalduse failide (manuste) kasutamiseks elektroonilise aruandluse väljundis. Neid toiminguid saab teha DEMF ettevõttes.
 
-Nende etappide lõpetamiseks peate esmalt lõpetama etapid protseduuris Elektrooniline aruandlus Dokumendihalduse failide kasutamine vormingu väljundites (3. osa: vormingu loomine).
+Nende etappide lõpule viimiseks peate esmalt viima lõule etapid protseduuris „Elektrooniline aruandlus Dokumendihalduse failide kasutamine vormingu väljundites (3. osa: vormingu loomine)”.
 
 See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
 
@@ -65,7 +65,7 @@ See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Opera
 7. Klõpsake käsku Filtreeri.
 8. Valige töölehe Kliendiarve ja välja Müügitellimus rida.
 9. Tippige väärtus 000148 väljale Kriteeriumid.
-    * Tippige kriteeriumiväljale Müügitellimus tellimuse number 000148.  
+    * Tippige kriteeriumiväljale „Müügitellimus” tellimuse number 000148.  
 10. Klõpsake nuppu OK.
 11. Klõpsake nuppu OK.
     * Vaadake loodud väljundit. Pange tähele, et igale manusele on loodud üks XML-sõlm. Manuse sisu lisatakse XML-väljundile tekstivormingus MIME (base64).  

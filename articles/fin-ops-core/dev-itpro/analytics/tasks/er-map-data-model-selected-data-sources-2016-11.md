@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44f6ac3263f115e76d054e68c99d58dc11e6f1a0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cf19d69c498da32594e17e16fb83ed25e6747982
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182228"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142982"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>Elektroonilise aruandluse andmemudeli vastendamine valitud andmeallikatele
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis kasutaja saab elektroonilise aruandluse (ER) andmemudeli vastendada valitud andmeallikatega. Seda mudeli vastendamist kasutatakse hiljem andmeallikana vormingu konfiguratsioonis, mida kasutatakse elektrooniliste maksedokumentide haldamiseks. Selles näites vastendate näidisettevõtte Litware, Inc andmemudelit andmeallikatega. Nende etappide lõpetamiseks peate esmalt lõpetama etapid protseduuris Andmeallikate valimine mudeli vastendamiseks.
+Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis kasutaja saab elektroonilise aruandluse (ER) andmemudeli vastendada valitud andmeallikatega. Seda mudeli vastendamist kasutatakse hiljem andmeallikana vormingu konfiguratsioonis, mida kasutatakse elektrooniliste maksedokumentide haldamiseks. Selles näites vastendate näidisettevõtte Litware, Inc andmemudelit andmeallikatega. Nende etappide lõpule viimiseks peate esmalt lõpetama etapid protseduuris „Andmeallikate valimine mudeli vastendamiseks”.
 
 
 ## <a name="open-er-configurations-tree"></a>Avatud elektroonilise aruandluse konfiguratsioonide puu
@@ -36,7 +36,7 @@ Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektro
 
 ## <a name="select-created-model-mapping"></a>Loodud mudeli vastendamise valimine
 1. Valige puul suvand Maksed (lihtsustatud mudel).
-    * Veenduge, et mudeli konfiguratsioon Maksed (lihtsustatud mudel) oleks eelnevalt loodud. Vastasel juhul lõpetage kohe ja naaske pärast tegevusejuhise „Uue konfiguratsiooni loomine valitud domeeni andmemudeliga” lõpuleviimist.  
+    * Veenduge, et mudeli konfiguratsioon „Maksed (lihtsustatud mudel)” oleks eelnevalt loodud. Vastasel juhul lõpetage kohe ja naaske pärast tegevusejuhise „Uue konfiguratsiooni loomine valitud domeeni andmemudeliga” lõpule viimist.  
 2. Klõpsake suvandit Mudeli koostaja.
 3. Klõpsake suvandit Mudeli vastendamine andmeallikaga.
 4. Valige kirje Kreeditiülekande vastendamine.

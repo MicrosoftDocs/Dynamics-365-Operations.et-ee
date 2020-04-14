@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 35c85e6e3bbdc913e9cd7aefdf6b143f3f03496f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 21b1986aa36aab23f50a5af434435f9e93318e45
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022268"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141079"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Kategooria hinnakujunduse reeglid, et luua kaubanduslepped
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Protseduur näitab, kuidas luua müügihinna kaubandusleppeid kategooria hinnakujunduse reegli abiga. Selle tegevuse loomisel kasutati demoettevõtte USRT-i andmeid. See ülesanne on mõeldud kaubanduse tootejuhi rolli jaoks.
 

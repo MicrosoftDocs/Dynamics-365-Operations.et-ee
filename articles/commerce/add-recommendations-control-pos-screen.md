@@ -1,9 +1,9 @@
 ---
-title: Soovituste juhtelemendi lisamine kassaseadmete kandekuvale
+title: Soovituste lisamine kandeekraanile
 description: See teema kirjeldab, kuidas lisada soovituste juhtelement kassaaparaadi kannetekuvale, kasutades Microsoft Dynamics 365 Commercei ekraanipaigutuse kujundajat.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/19/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d6f48197a36f633e3cd63cbad4518f53946fc7f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a39389da0908953cbbc161f07d067ce3fc569a1b
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022213"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154128"
 ---
-# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Soovituste juhtelemendi lisamine kassaseadmete kandekuvale
+# <a name="add-recommendations-to-the-transaction-screen"></a>Soovituste lisamine kandeekraanile
 
 [!include [banner](includes/banner.md)]
 
@@ -98,6 +98,22 @@ Saadaval on kaks konfigureerimisvalikut. Tehke oma poe jaoks sobivam valik ja j�
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Tootesoovitused kassas](product.md)
+[Tootesoovituste 체levaade](product-recommendations.md)
 
-[Tootesoovituste 체levaade](../commerce/product-recommendations.md)
+[ADLS-i lubamine Dynamics 365 Commerce keskkonnas](enable-adls-environment.md)
+
+[Luba tootesoovitused](enable-product-recommendations.md)
+
+[Isikup채rastatud soovituste lubamine](personalized-recommendations.md)
+
+[Isikup채rastatud tootesoovitustest loobumine](personalization-gdpr.md)
+
+[Tootesoovituste lisamine kassas](product.md)
+
+[AI-ML-i soovituste tulemuste kohandamine](modify-product-recommendation-results.md)
+
+[Loo kuraatorite soovitused k채sitsi](create-editorial-recommendation-lists.md)
+
+[Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
+
+[Tootesoovituste KKK](faq-recommendations.md)

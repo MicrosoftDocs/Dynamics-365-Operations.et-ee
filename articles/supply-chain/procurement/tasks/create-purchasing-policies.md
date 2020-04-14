@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e29df3b42479a215b66354f8dfceea002a146e74
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: c8416f9a869b9144a63a6fb08c667cc32dec9854
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856468"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149707"
 ---
 # <a name="create-purchasing-policies"></a>Ostupoliitikate loomine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See protseduur näitab, kuidas luua ostupoliitikaid, mis sobiksid teie ostu äriprotsessidega. Enne ostupoliitikate loomist peate seadistama ostupoliitika parameetrid. Ostupoliitikat on võimalik luua, muuta ja aegunuks määrata, kuid ostupoliitikat ei saa kustutada. Seda protseduuri viib tavaliselt läbi ostujuht. Saate selle protseduuriga tutvuda demoettevõtte USMF või oma andmeid kasutades.
 
@@ -37,14 +37,14 @@ See protseduur näitab, kuidas luua ostupoliitikaid, mis sobiksid teie ostu äri
 3. **Klõpsake vahekaarti Poliitika reegli tüübi parameetrid.**
 4. **Valige puult Ostupoliitika \ Ostutaotluse juhtimisreegel.**
 - Teie määrate poliitika tasandil poliitika otsuste tähtsuse järjekorra. Kuid mõne poliitika tüübi puhul saate alistada üksiku poliitikareegli tüüpide tähtsuse järjekorra. Näiteks võite määratleda ostupoliitikate tähtsuse järjekorraks: kulukeskus, osakond, ettevõte. Kataloogipoliitika reegli puhul võib tähtsuse järjekord olla: osakond, kulukeskus, ettevõte. Tähtsuse järjekorda saab muuta ainult kataloogipoliitika reeglite puhul. Kui töötaja taotluse loob, määratakse kuvatav kataloog töötaja osakonna, seejärel tema kulukeskuse ja seejärel tema ettevõttega seotud poliitikate alusel.  
-- Kui loetelus on mitu organisatsiooni tasandit, võite kasutada üles-/allanoolt ostutaotluse juhtimisreeglis tähtsusjärjestuse määramiseks.  
+- Kui loetelus on mitu organisatsioonitasandit, võite kasutada üles-/allanoolt ostutaotluse juhtimisreeglis tähtsusjärjestuse määramiseks.  
 5. Sulgege leht.
 
 ## <a name="create-a-new-policy"></a>Looge uus poliitika.
 1. Valige suvand **Uus**.
 2. Sisestage väärtus väljale **Nimi**.
 3. Sisestage väärtus väljale **Kirjeldus**.
-- Ühe ostupoliitika saab rakendada ainult ühele organisatsiooni hierarhiale. Näiteks võib teil olla üks hierarhia nimega Geograafiline ja üks nimega Osakond ja kummalgi võib olla erinev ostupoliitika.  
+- Ühe ostupoliitika saab rakendada ainult ühele organisatsiooni hierarhiale. Näiteks võib teil olla üks hierarhia nimega „Geograafiline” ja üks nimega „Osakond” ja kummalgi võib olla erinev ostupoliitika.  
 - Valige organisatsioon, millele poliitika peaks kehtima.  
 4. Klõpsake noolt valitud organisatsiooni lisamiseks.
 - Seda protsessi saab korrata, lisades veel organisatsioone.  

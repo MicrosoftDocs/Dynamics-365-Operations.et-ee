@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4429bda6efddbb4f1fa7da06e91e51d885919c05
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: abe6745682030766eabcd4411121866c9d890be0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914950"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149617"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Pakkumiskutset kasutava taotluse loomine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas lisada hinda ja hankija teavet pakkumiskutselt ostutaotlusele. Selles juhendis olevat näidet saab kasutada demoandmete ettevõttes USMF ja kõigi etappide läbimiseks peate olema administraatorina sisse loginud. Selle juhendi ülesandeid täidavad tavaliselt hankespetsialistid.
 
@@ -56,7 +56,7 @@ Järgmine ülesanne on luua pakkumiskutse hankijatelt tootele pakkumiste saamise
 2. Valige **Kuva ajalugu**.
 3. Värskendage lehte.
 4. Laiendage jaotist **Jälgimise üksikasjad**.
-5. Puust valige rida, mis algab "Rea töövoog aktiveeritud".
+5. Valige puust rida, mille alguseks on „Rea töövoog aktiveeritud”.
 6. Valige **Kuva töövoo üksikasjad**.
 7. Laiendage jaotist **Tööüksused**.
 8. Valige käsk **Määra ümber**.

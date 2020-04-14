@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db27255c74c55b10680594ad23424253e4c3f79e
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 8f9cb895f733442e95cd7008c63942463bbd2cba
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867049"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148501"
 ---
 # <a name="register-sales-commissions"></a>Müügi komisjonitasude registreerimine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selles teemas selgitatakse, kuidas arvutatakse ja registreeritakse müügi komisjonitasusid. Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega. Enne selle juhendi avamist käivitage juhend „Müügi komisjonitasu reeglite seadistamine” veendumaks, et teil on kõik vajalikud komisjonitasu arvutused seadistatud.
 
@@ -59,7 +59,7 @@ Märkige üles komisjonitasu töötlemiseks valitud kliendi ja kauba koodid ning
 17. Laiendage jaotist **Parameetrid**.
 18. Valige väljal **Kogus** suvand **Kõik**.
 19. Valige väärtus **Jah** väljal **Sisestamine**.
-20. Valige **OK** seejärel valige järgmisel paanil **OK**. Kande sisestamiseks võib kuluda ligikaudu minut. Oodake, kuni töötlemine on lõpule jõudnud, ja ärge lehte sulgege.  
+20. Valige **OK** seejärel valige järgmisel paanil **OK**. Kande sisestamiseks võib kuluda ligikaudu minut. Oodake, kuni töötlemine on lõpule viidud, ja ärge lehte sulgege.  
 
 ## <a name="review-the-registered-sales-commissions"></a>Registreeritud müügi komisjonitasude ülevaatamine
 1. Toimingupaanil valige **Arve** seejärel valige uuesti **Arve**.

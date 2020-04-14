@@ -1,9 +1,9 @@
 ---
 title: Kohandatud väljade loomine ja nendega töötamine
-description: Selles teemas selgitatakse, kuidas luua kohandatud välju, et rakendus sobiks nende ettevõttega.
+description: Selles teemas selgitatakse teile, kuidas kasutajaliidese luua kohandatud välju, et rakendus sobiks teie ettevõttega.
 author: jasongre
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f689bb3ec844459d1dd6e199804a30f3e0cb38bc
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812501"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112332"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Kohandatud väljade loomine ja nendega töötamine
 
 [!include [banner](../includes/banner.md)]
 
-Kuigi mitmete äriprotsesside haldamiseks on olemas lai valik valmisvälju, on ettevõttel mõnikord vaja süsteemis jälgida lisateavet. Selle vajaduse rahuldamiseks saate luua kohandatud välju, et rakendus sobiks nende ettevõttega, kui teil selle funktsiooni kasutamise load.
+Kuigi mitmete äriprotsesside haldamiseks on olemas lai valik valmisvälju, on ettevõttel mõnikord vaja süsteemis jälgida lisateavet. Kuigi nende väljade lisamiseks arendustööriistas laiendustena saab kasutada programmeerijate abi, võimaldab kohandatud väljade funktsioon lisada väljasid otse kasutajaliidese kaudu, võimaldades teil kohandada rakendust oma ettevõttte vajadustele vastavaks veebibrauseri abil.
 
-Kohandatud väljade lisamise võimalus on saadaval platvormivärskenduses 13 ja uuemates.
+Kohandatud väljade lisamise võimalus on saadaval platvormivärskenduses 13 ja uuemates. Ainult eriõigustega kasutajatel on juurdepääs sellele funktsioonile.
 
 See video näitab, kui lihtne on lisada lehele kohandatud välja: [Kohandatud väljade lisamine](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -159,3 +159,7 @@ Jõudluse tõttu ja tehnilistel põhjustel võimaldavad praegu kohandatud välja
 - Tabel ei saa teist tabelit laiendada.
 - Tabel ei saa olla märgistatud süsteemitabelina.
 - Tabel ei saa olla ajutine tabel.
+
+### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Kas ma saan arendustööriistades viidata kohandatud väljadele?  
+
+Kohandatud välju saab hallata ainult kasutajaliidese kaudu ja neile ei saa koodi alusel viidata. 

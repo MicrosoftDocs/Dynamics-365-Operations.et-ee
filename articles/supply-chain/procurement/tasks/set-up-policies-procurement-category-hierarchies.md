@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8d8c259ad081d02395c6ae3c3b7cf66b89933fdf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844168"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149500"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Hankekategooria hierarhiate poliitikate seadistamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Kasutage seda protseduuri, et seadistada reeglid kategooria toodete tellimiseks. Reeglid määratletakse konkreetsele ostupoliitikale. Kategooria juurdepääsureegel juhib seda, millistele hankekategooriatele on töötajatel juurdepääs, kui nad taotluse loovad. Taotluse loomise ajal määratakse rakendatav ostupoliitika ja kategooria juurdepääsureegel juriidilise isiku ja tootmisüksuse põhjal, kuhu töötaja kuulub. Saate seda protseduuri kasutada demoandmete ettevõttes USMF. Seda ülesannet täidab tavaliselt ostujuht.
 
@@ -36,7 +36,7 @@ Kasutage seda protseduuri, et seadistada reeglid kategooria toodete tellimiseks.
 
 ## <a name="create-a-category-access-rule"></a>Kategooria juurdepääsureegli loomine
 1. Laiendage kiirkaarti **Poliitika reeglid**.
-2. Valige loendist **Poliitika reegli tüüp** suvand **Kategooria juurdepääsupoliitika reegel**. Kui nupp **Poliitika reegli loomine** on tuhm, tähendab see seda, et aktiivne poliitika reegel on katekoogira juurdepääsuks juba olemas. Kontrollige välju **Tõhus** ja **Aegumine**, et tuvastada, kumb see on, ning seejärel valige see ja klõpsake **Poliitika reegli kustutamine**. Kui nupp **Poliitika reegli loomine** on saadaval, ei pea te midagi tegema.  
+2. Valige loendist **Poliitika reegli tüüp** suvand **Kategooria juurdepääsupoliitika reegel**. Kui nupp **Poliitika reegli loomine** on tuhm, tähendab see seda, et aktiivne poliitika reegel on kategooria juurdepääsuks juba olemas. Kontrollige välju **Tõhus** ja **Aegumine**, et tuvastada, kumb see on, ning seejärel valige see ja klõpsake **Poliitika reegli kustutamine**. Kui nupp **Poliitika reegli loomine** on saadaval, ei pea te midagi tegema.  
 3. Klõpsake nuppu **Poliitika reegli loomine**.
 4. Sisestage kuupäev ja kellaaeg väljale **Jõustumiskuupäev**. Aeg ei tohi kattuda teise juba aktiivse reegliga.  
 5. Valige kategooria, millele reegel rakendub. Märkige üles, milline kategooria see on – seda on hiljem vaja. Kategooria valimisel lisatakse loendisse Valitud kategooriad selle põhikategooria või -kategooriad. Kui soovite, et reegel rakenduks kõigile valitud kategooria alamkategooriatele, valige märkeruut **Kaasa alamkategooriad**.
@@ -50,5 +50,5 @@ Kasutage seda protseduuri, et seadistada reeglid kategooria toodete tellimiseks.
 4. Klõpsake käsku **Lisa**.
 5. Valige väljal **Kategooria** sama kategooria, mida kasutasite **Kategooria juurdepääsu reegli** korral.
 6. Valige suvand väljal **Hankia valik**. Valige reegel, et juhtida, milliseid hankijaid võib taotluste loomisel kategooriale valida.  
-7. Klõpsake valikut **Sule**. Teie määratletud poliitikareeglid on olnud taotlustele tüübiga Tarbimine. Kui soovite määratleda poliitikad taotlustele tüübiga Täiendamine, tuleb luua reegel poliitikareegli tüübile nimega Täiendamise kategooria juurdepääsupoliitika reegel.  
+7. Klõpsake valikut **Sule**. Teie määratletud poliitikareeglid on olnud taotlustele tüübiga Tarbimine. Kui soovite määratleda poliitikad taotlustele tüübiga Täiendamine, tuleb luua reegel poliitikareegli tüübile nimega „Täiendamise kategooria juurdepääsupoliitika reegel”.  
 

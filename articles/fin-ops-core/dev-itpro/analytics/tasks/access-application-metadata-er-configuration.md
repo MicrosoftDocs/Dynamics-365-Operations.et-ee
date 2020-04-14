@@ -1,6 +1,6 @@
 ---
 title: Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil
-description: Selle teema sammud selgitavad, kuidas Regulatory configuration service (RCS) kasutaja saab kujundada uut elektroonilise aruandluse (ER) mudeli kaardistamise, kasutades metaandmeid Finance and Operations.
+description: Selle teema sammud selgitavad, kuidas Regulatory configuration service (RCS) kasutaja saab kujundada uut elektroonilise aruandluse (ER) mudeli kaardistamise, kasutades Finance and Operationsi metaandmeid.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/28/2019
@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a4c7341941df3ba7bf0a0dfeef8cb3009726838e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772459"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142704"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonilise aruandluse arendaja rolliga lahenduse Regulatory Configuration Service (RCS) kasutaja saab kavandada uue elektroonilise aruandluse (ER) mudelivastenduse kasutades rakenduse metaandmeid. Rakenduse metaandmetele pääseb juurde elektroonilise aruandluse metaandmete konfiguratsiooni abil, mis sisaldab metaandmete nädiskomplekti juurdepääsuks väliskaubanduse kannetele. Etappide lõpuleviimiseks, peate esmalt läbima ECS-is etapid teemas [Konfiguratsioonipakkujate loomine ja nende aktiivseks märkimine](er-configuration-provider-mark-it-active-2016-11.md). Seejärel viige lõpule etapid teemas [Rakenduse metaandmete ettevalmistamine RCS-is kasutamiseks](prepare-application-metadata-rcs.md).
 
@@ -38,7 +38,7 @@ Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonili
 2. Importige ER metaandmete konfiguratsioon, mis sisaldab metaandmeid, mis on konfigureeritud looma elektroonilisi dokumente väliskaubanduse äritegevuse jaoks. See ER-i metaandmete konfiguratsioon on eksporditud XML-failina, samal ajal kui etapid protseduuris [Rakenduse metaandmete ettevalmistamine RCS-is kasutamiseks](prepare-application-metadata-rcs.md) on lõpule viidud. 
 3. Klõpsake valikut **Vahetus**. 
 4. Klõpsake valikut **Laadi XML-failist**. 
-5. Klõpsake **Sirvi** ja valige fail "Väliskaubanduse metaandmed.xml". 
+5. Klõpsake **Sirvi** ja valige fail „Väliskaubanduse metaandmed.xml”. 
 6. Klõpsake valikut **OK**. 
 7. Sulgege leht. 
 
@@ -52,28 +52,28 @@ Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonili
 7. Sisestage väljale **Nimi** "Juur". 
 8. Klõpsake käsku **Lisa**. 
 9. Rippdialoogi avamiseks klõpsake valikut **Uus**. 
-10. Trükkive "Kanne" väljale **Nimi**. 
-11. Valige väljalt **Üksuse tüüp** suvand **Kirjete loend**. 
-12. Klõpsake käsku **Lisa**. 
-13. Rippdialoogi avamiseks klõpsake valikut **Uus**. 
-14. Trükkige "Kaubakood" väljale **Nimi**. 
-15. Valige väljalt **Üksuse tüüp** suvand **String**. 
-16. Klõpsake käsku **Lisa**. 
-17. Rippdialoogi avamiseks klõpsake valikut **Uus**. 
-18. Trükkige "Arveldatud summa" väljale **Nimi**. 
-19. Väljal **Üksuse tüüp** valige **Tegelik**. 
-20. Klõpsake käsku **Lisa**. 
-21. Rippdialoogi avamiseks klõpsake valikut **Uus**. 
-22. Trükkige "Kuupäev" väljale **Nimi**. 
-23. Väljalt **Üksuse tüüp** valige **Kuupäev**. 
-24. Klõpsake käsku **Lisa**. 
-25. Klõpsake nupul **Juure viide**. 
-26. Klõpsake valikut **OK**. 
-27. Klõpsake valikut **Salvesta**. 
-28. Sulgege leht. 
-29. Klõpsake valikut **Muuda olekut**. 
-30. Klõpsake valikut **Vii lõpule**. 
-31. Klõpsake valikut **OK**. 
+10.    Trükkive "Kanne" väljale **Nimi**. 
+11.    Valige väljalt **Üksuse tüüp** suvand **Kirjete loend**. 
+12.    Klõpsake käsku **Lisa**. 
+13.    Rippdialoogi avamiseks klõpsake valikut **Uus**. 
+14.    Trükkige "Kaubakood" väljale **Nimi**. 
+15.    Valige väljalt **Üksuse tüüp** suvand **String**. 
+16.    Klõpsake käsku **Lisa**. 
+17.    Rippdialoogi avamiseks klõpsake valikut **Uus**. 
+18.    Trükkige "Arveldatud summa" väljale **Nimi**. 
+19.    Väljal **Üksuse tüüp** valige **Tegelik**. 
+20.    Klõpsake käsku **Lisa**. 
+21.    Rippdialoogi avamiseks klõpsake valikut **Uus**. 
+22.    Trükkige "Kuupäev" väljale **Nimi**. 
+23.    Väljalt **Üksuse tüüp** valige **Kuupäev**. 
+24.    Klõpsake käsku **Lisa**. 
+25.    Klõpsake nupul **Juure viide**. 
+26.    Klõpsake valikut **OK**. 
+27.    Klõpsake valikut **Salvesta**. 
+28.    Sulgege leht. 
+29.    Klõpsake valikut **Muuda olekut**. 
+30.    Klõpsake valikut **Vii lõpule**. 
+31.    Klõpsake valikut **OK**. 
 
 ## <a name="create-model-mapping-configuration"></a>Looge mudelivastenduse konfiguratsioon 
 1. Klõpsake valikut **Loo konfiguratsioon**, et avada rippdialoog. 
@@ -85,43 +85,43 @@ Järgmised etapid selgitavad, kuidas süsteemi administraatori või elektroonili
 7. Klõpsake valikut **Uus**. 
 8. Märkige loendis valitud rida. 
 9. Valige väljalt **Eeltingimuse komponendi tüüp** suvand **Konfiguratsioon**. 
-10. Valige konfiguratsioon **Väliskaubanduse metaandmed**. 
-11. Klõpsake valikut **Salvesta**. 
-12. Lisasime viite konfiguratsiooni "Väliskaubanduse metaandmed" versioonile 1. Selle konfiguratsiooni rakenduse metaandmeid pakutakse selle mudeli vastendamise kavandamise ajal. 
-13. Sulgege leht. 
-14. Klõpsake valikut **Kujundaja**. 
-15. Klõpsake valikut **Kujundaja**. 
-16. Valige puul väärtus **Dynamics 365 for Operations\Tabeli kirjed**. 
-17. Klõpsake suvandil **Juure lisamine**. 
-18. Trükkige "Intrastat" väljale **Nimi**. 
-19. Valige tabeli kirjed **Intrastat**. 
-20. Klõpsake valikut **OK**. 
+10.    Valige konfiguratsioon **Väliskaubanduse metaandmed**. 
+11.    Klõpsake valikut **Salvesta**. 
+12.    Lisasime viite konfiguratsiooni „Väliskaubanduse metaandmed” versioonile 1. Selle konfiguratsiooni rakenduse metaandmeid pakutakse selle mudeli vastendamise kavandamise ajal. 
+13.    Sulgege leht. 
+14.    Klõpsake valikut **Kujundaja**. 
+15.    Klõpsake valikut **Kujundaja**. 
+16.    Valige puul väärtus **Dynamics 365 for Operations\Tabeli kirjed**. 
+17.    Klõpsake suvandil **Juure lisamine**. 
+18.    Trükkige "Intrastat" väljale **Nimi**. 
+19.    Valige tabeli kirjed **Intrastat**. 
+20.    Klõpsake valikut **OK**. 
 
 > [!NOTE]
 > Pakutakse ainult kahte tabelit, sest praegu kasutatavale metaandmete komplektile lisati ainult kaks tabelit. 
 
-21. Klõpsake valikult **Seo**. 
-22. Laiendage puul valikut **Intrastat** . 
-23. Tehke puul valik **Intrastat\AmountMST**. 
-24. Laiendage puul valikut **Kanne = Intrastat** . 
-25. Tehke puul valik **Kanne = Intrastat\Arveldatud summa**. 
-26. Klõpsake valikult **Seo**. 
-27. Tehke puul valik **Intrastat\TransDate**. 
-28. Tehke puul valik **Kanne = Intrastat\Kuupäev**. 
-29. Klõpsake valikult **Seo**. 
-30. Laiendage puul valikut **Intrastat\>Seosed**. 
-31. Laiendage puul valikut **Intrastat\>Seosed\IntrastatCommodity**. 
-32. Tehke puul valik **Intrastat\>Seosed\IntrastatCommodity\Kood**. 
-33. Tehke puul valik **Kanne = Intrastat\Kaubakood**. 
-34. Klõpsake valikult **Seo**. 
-35. Klõpsake valikut **Kinnita**. 
+21.    Klõpsake valikult **Seo**. 
+22.    Laiendage puul valikut **Intrastat** . 
+23.    Tehke puul valik **Intrastat\AmountMST**. 
+24.    Laiendage puul valikut **Kanne = Intrastat** . 
+25.    Tehke puul valik **Kanne = Intrastat\Arveldatud summa**. 
+26.    Klõpsake valikult **Seo**. 
+27.    Tehke puul valik **Intrastat\TransDate**. 
+28.    Tehke puul valik **Kanne = Intrastat\Kuupäev**. 
+29.    Klõpsake valikult **Seo**. 
+30.    Laiendage puul valikut **Intrastat\>Seosed**. 
+31.    Laiendage puul valikut **Intrastat\>Seosed\IntrastatCommodity**. 
+32.    Tehke puul valik **Intrastat\>Seosed\IntrastatCommodity\Kood**. 
+33.    Tehke puul valik **Kanne = Intrastat\Kaubakood**. 
+34.    Klõpsake valikult **Seo**. 
+35.    Klõpsake valikut **Kinnita**. 
 
 > [!NOTE]
 > Oleme andmemudeli elemendid edukalt sidunud nende andmeallikate üksustega, mida on viidatud elektroonilise aruandluse metaandmete konfiguratsiooni rakenduse metaandmetega kirjeldatud. 
-36. Klõpsake valikut **Salvesta**. 
-37. Sulgege leht. 
-38. Sulgege leht. 
-39. Vajadusel saate olemasolevat metaandmete kogumit laiendada ja seejärel eksportida ER metaandmete konfiguratsiooni uue lõpule viidud versiooni. Seejärel saate importida selle RCS-i ja värskendada konfigureeritud mudeli vastendamise konfiguratsiooni eeltingimused, mis viitavad imporditud metaandmete konfiguratsiooni uuele versioonile. 
+36.    Klõpsake valikut **Salvesta**. 
+37.    Sulgege leht. 
+38.    Sulgege leht. 
+39.    Vajadusel saate olemasolevat metaandmete kogumit laiendada ja seejärel eksportida ER metaandmete konfiguratsiooni uue lõpule viidud versiooni. Seejärel saate importida selle RCS-i ja värskendada konfigureeritud mudeli vastendamise konfiguratsiooni eeltingimused, mis viitavad imporditud metaandmete konfiguratsiooni uuele versioonile. 
 
 > [!NOTE]
 > Selline rakenduste metaandmete info hankimine on ainuke saadaolev meetod kohapeal juurutatud rakendustele (kui kasutatakse kohalikke äriandmeid (LBD) või asutusesisese juurutuse mudelit).

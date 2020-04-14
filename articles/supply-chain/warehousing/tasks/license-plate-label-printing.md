@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed4fa28039c9320998f6524c9c9edb0a0301b7b0
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 545f1c15888bcd0b46e1028f58cbe3a274846c92
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866822"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146026"
 ---
 # <a name="enable-license-plate-label-printing"></a>Registreerimismärgi sildi printimise lubamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selles teemas näidatakse, kuidas lubada SSCC (serial shipping conteiner code) sildi automaatne printimine pärast seda, kui viimane üksus on müügivalimise tööprotsessis laost valitud. Võite seda protseduuri käitada demoettevõtte USMF-i andmetega. Kui käitate seda omaenda andmeid kasutades, peaksite määrama litsentsiplaatide numbriseeria. Enne ülesande juurde asumist peaksite määrama sildiprinteri. Avage Organisatsiooni haldus > Seadistus > Võrguprinterid. Klõpsake toimingupaanil Suvandid, seejärel klõpsake nuppu Laadi dokumendi marsruudivaliku agendi installer alla. Käitage installer ja veenduge enne protseduuriga jätkamist, et töötav võrguprinter on seatud olekusse Aktiivne.
 

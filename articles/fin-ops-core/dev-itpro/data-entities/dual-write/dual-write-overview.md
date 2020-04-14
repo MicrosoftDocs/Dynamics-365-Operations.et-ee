@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 12c6a39700a260c138fab67ed370f94b3aa04213
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 64626ebdd7fbad3d47a4b4c6bbc45bf3bc0c8277
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075980"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172780"
 ---
 # <a name="dual-write-overview"></a>Topeltkirjutuse ülevaade
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
 
 ## <a name="what-is-dual-write"></a>Mis on topeltkirjutus?
 
@@ -105,4 +105,4 @@ Esimeses väljalaskes käsitsevad enamikku automatiseerimisest topeltkirjutuse l
     - Valuuta ja vahetuskursside jaoks on rohkem tuge ning rakenduse programmeerimisliides (API) **Vahetuskurss** vaadatakse üle.
     - Toetatakse ühiku teisendusi.
 
-Lisateavet eelseisvate muudatuste kohta vt teemast [Teenuse Common Data Service andmed – 1. ja 2. faas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/extensibility/extensibility-roadmap).
+Lisateavet eelseisvate muudatuste kohta vt teemast [Teenuse Common Data Service andmed – 1. ja 2. faas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/finance-operations-crossapp-capabilities/data-common-data-service-phase-1).

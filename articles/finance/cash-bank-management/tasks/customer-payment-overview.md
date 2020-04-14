@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7777ba38e4bf41b17fae698200017b933fc9e876
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188161"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141668"
 ---
 # <a name="customer-payment-overview"></a>Kliendimaksete ülevaade
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Sellest tegevusejuhisest leiate ülevaate klindimaksete sisestamiseks kasutatavate eri meetodite kohta. See ülesanne kasutab demoettevõtte USMF andmeid.
 
@@ -45,7 +45,7 @@ Sellest tegevusejuhisest leiate ülevaate klindimaksete sisestamiseks kasutatava
 14. Klõpsake paanil **Toimingupaan**suvandit Read. Ridade avamisel näete kõiki lehele **Kliendimaksete sisestamine** ja töölehele salvestatud makseid. Saate seda lehte kasutada ka uute kliendimaksete sisestamiseks või enne sisestamist olemasoleva kliendimakse redigeerimiseks.
 15. Teise makse loomiseks klõpsake nuppu **Uus**. 
 16. Valige klient, kellelt makse saite. Kui te klienti ei tea, kuid teate maksega tasutud arvet, kasutage arve käsitsi sisestamiseks või valimiseks välja Arve. Klient tuuakse vaikimisi pärast arve valimist.  
-17. Klõpsake tasutud arvete märkimiseks valikut **Kannete tasakaalustamine**. Te ei pea makset mis tahes arvetel tasakaalustama. Kui tegemist on ettemaksuga või kui te ei tea, milline arve on tasutud, saate makse sisestada. Makse saab arvel tasakaalustada hiljem.  
+17. Klõpsake tasutud arvete märkimiseks **Kannete tasakaalustamine**. Te ei pea makset mis tahes arvetel tasakaalustama. Kui tegemist on ettemaksuga või kui te ei tea, milline arve on tasutud, saate makse sisestada. Makse saab arvel tasakaalustada hiljem.  
 18. Märkige maksega tasutud arved. 
 19. Väljale **Summa** sisestage maksesumma, mis arvel tasakaalustatakse.
 20. Klõpsake valikut **OK**.

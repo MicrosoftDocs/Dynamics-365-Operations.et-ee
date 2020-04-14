@@ -3,7 +3,7 @@ title: ADLS lubamine Dynamics 365 Commerce keskkonnas
 description: Selles teemas selgitatakse, kuidas lubada Azure Data Lake Storage (ADLS) ja katsetada Dynamics 365 Commerce keskkonda, mis on toote soovituste lubamise eeltingimus.
 author: bebeale
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 068eb522bd44e02dd31d3337a051691a956637fc
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025239"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154432"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>ADLS lubamine Dynamics 365 Commerce keskkonnas
 
@@ -93,10 +93,22 @@ Kui see ei ole juba lõpule viidud, järgige juhiseid keskkonna [tootesoovituste
 
 [Tootesoovituste ülevaade](product-recommendations.md)
 
-[Tootesoovituste lubamine](enable-product-recommendations.md)
+[Luba tootesoovitused](enable-product-recommendations.md)
 
-[Tootesoovituste loendite lisamine lehtedele](add-reco-list-to-page.md)
+[Isikupärastatud soovituste lubamine](personalized-recommendations.md)
 
-[Soovituste juhtelemendi lisamine kassaseadmete kandekuvale](../retail/add-recommendations-control-pos-screen.md?toc=/dynamics365/commerce/toc.json)
+[Isikupärastatud tootesoovitustest loobumine](personalization-gdpr.md)
+
+[Tootesoovituste lisamine kassas](product.md)
+
+[Soovituste lisamine kandeekraanile](add-recommendations-control-pos-screen.md)
+
+[AI-ML-i soovituste tulemuste kohandamine](modify-product-recommendation-results.md)
+
+[Loo kuraatorite soovitused käsitsi](create-editorial-recommendation-lists.md)
+
+[Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
+
+[Tootesoovituste KKK](faq-recommendations.md)
 
 

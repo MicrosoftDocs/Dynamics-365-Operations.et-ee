@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 980ce00ae702ea0a3394efa15419e0f7b7dc2530
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182205"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143278"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>Elektroonilise aruande konfiguratsiooni üleslaadimine teenusesse Lifecycle Services
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Järgmistes etappides selgitatakse, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rolli määratud kasutajad saavad luua uue elektroonilise aruandluse (ER) konfiguratsiooni ja laadida selle teenusesse Microsoft Lifecycle Services (LCS).
 
-Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. ja laadite selle üles LCS-i. Neid etappe saab teha mis tahes ettevõttes, kuna ER-konfiguratsioonid on ettevõtetel ühised. Etappide lõpuleviimiseks, peate esmalt läbima protseduuri Pakkuja konfiguratsiooni loomine ning aktiivseks märkimine etapid. Juurdepääs LCS-i on nõutav ka nende toimingute lõpetamiseks.
+Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. ja laadite selle üles LCS-i. Neid etappe saab teha mis tahes ettevõttes, kuna ER-konfiguratsioonid on ettevõtetel ühised. Etappide lõpuleviimiseks, peate esmalt läbima teemas „Pakkuja konfiguratsiooni loomine ning aktiivseks märkimine” kirjeldatudetapid. Juurdepääs LCS-i on nõutav ka nende toimingute lõpetamiseks.
 
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
-2. Valige Litware, inc. ja määrake see aktiivseks.
+2. Valige „Litware, inc.” ja määrake see aktiivseks.
 3. Klõpsake suvandit Konfiguratsioonid.
 
 ## <a name="create-a-new-data-model-configuration"></a>Uue andmemudeli konfiguratsiooni loomine
@@ -79,14 +79,14 @@ Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. ja laadi
 2. Valige puul väärtus Mudeli konfiguratsiooni näide.
     * Valige loodud konfiguratsioon, mis on juba lõpule viidud.  
 3. Otsige loendist ja valige soovitud kirje.
-    * Valige valitud konfiguratsiooni versioon, mille olek on Lõpule viidud.  
+    * Valige valitud konfiguratsiooni versioon, mille olek on „Lõpule viidud”.  
 4. Klõpsake valikut Muuda olekut.
 5. Klõpsake nuppu Jaga.
-    * Konfiguratsiooni olek muutub olekust Lõpule viidud olekuks Ühiskasutuses, kui see avaldatakse LCS-is.  
+    * Konfiguratsiooni olek muutub olekust „Lõpule viidud” olekuks „Ühiskasutuses”, kui see avaldatakse LCS-is.  
 6. Klõpsake nuppu OK.
 7. Otsige loendist ja valige soovitud kirje.
     * Valige konfiguratsiooni versioon olekuga Ühiskasutuses.  
-    * Pange tähele, et valitud versiooni olek on muudetud olekus Lõpule viidud olekuks Ühiskasutuses.  
+    * Pange tähele, et valitud versiooni olek on muudetud olekus „Lõpule viidud” olekuks „Ühiskasutuses”.  
 8. Sulgege leht.
 9. Klõpsake valikut Hoidlad.
     * See võimaldab avada ettevõtte Litware, Inc. konfiguratsioonipakkuja hoidlate loendi.  

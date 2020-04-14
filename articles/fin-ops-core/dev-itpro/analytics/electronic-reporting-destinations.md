@@ -3,7 +3,7 @@ title: Elektroonilise aruandluse (ER) sihtkohad
 description: See teema annab teavet elektroonilise aruandluse (ER) sihtkohtade halduse, toetatud sihtkohtade tüüpide ja turvalisuse kaalutluste kohta.
 author: nselin
 manager: AnnBe
-ms.date: 02/07/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e4c6951afbff367dc93072d20395c3a37fffbcb
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030769"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150811"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
@@ -114,7 +114,7 @@ Pärast selle seadistuse lõpuleviimist muutub suvand **Käivita mustand** muude
 
 [![Mustandi käivitamise suvand](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
-## <a name="DestinationFailure"></a>Sihtkoha tõrke käsitlemine
+## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Sihtkoha tõrke käsitlemine
 
 Tavaliselt käivitatakse ER-vorming kindla äriprotsessi piires. Kuid väljamineva dokumendi tarnet, mis luuakse ER-vormingu käitamisel, tuleb mõnikord lugeda selle äriprotsessi osaks. Sellisel juhul, kui konfigureeritud sihtkohta loodud väljamineva dokumendi kättetoimetamine ebaõnnestub, tuleb äriprotsessi käivitamine tühistada. Sobiva ER sihtkoha konfigureerimiseks valige suvand **Lõpeta nurjumisel töötlemine**.
 
@@ -124,7 +124,7 @@ Näiteks konfigureerite hankija makse töötlemise nii, et **ISO20022 krediidiü
 
 Kui tühjendate märkeruudu **Lõpeta tõrke korral töötlemine** sihtkohas komponendi **Kaaskiri** jaoks, peetakse makset edukalt töödelduks isegi siis, kui kaaskiri ei ole edukalt meili teel kohale toimetatud. Makse olek muudetakse olekust **Puudub** olekusse **Saadetud** isegi siis, kui kaaskirja ei saa saata näiteks seetõttu, et saaja meiliaadress puudub või on vale.
 
-## <a name="OutputConversionToPDF"></a>Väljundi teisendamine PDF-iks
+## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Väljundi teisendamine PDF-iks
 
 Saate kasutada PDF-vormingu valikut väljundi teisendamiseks Microsoft Office'i vormingust (Excel/Word) PDF-vormingusse.
 
@@ -157,6 +157,19 @@ PDF-i teisenduse valikut saab sisse lülitada ainult faili komponentide puhul, m
 Faili sihtkoha jaoks PDF-teisenduse sisselülitamiseks valige märkeruut **Teisenda PDF-iks**.
 
 [![Faili sihtkoha jaoks PDF-teisenduse sisselülitamine](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+
+### <a name=""></a><a name="SelectPdfPageOrientation">PDF-i teisenduse lehe paigutuse valimine</a>
+
+Kui loote Exceli vormingus ER-konfiguratsiooni ja soovite selle teisendada PDF-vormingusse, saate määrata PDF-i lehe paigutuse. Kui märgite ruudu **Teisenda PDF-iks**, et lülitada sisse PDF-faili teisendamine faili sihtkoha jaoks, mis toodab väljundfaili Exceli vormingus, on väli **Lehe paigutus** saadaval kiirkaardil **PDF-i teisenduse sätted**. Valige väljal **Lehe paigutus** soovitud lehe paigutus.
+
+[![PDF-i teisenduse lehe paigutuse valimine](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+
+> [!NOTE]
+> Selleks, et saaksite valida PDF-i lehe paigutust, peate installima Microsoft Dynamics 365 Finance'i versiooni 10.0.10 (mai 2020) või uuema.
+>
+> Valitud lehe paigutus rakendatakse kõigile ER-konfiguratsioonidele, mis luuakse Exceli vormingus ja seejärel teisendatakse PDF-vormingusse.
+>
+> Kui teisendatud PDF luuakse Wordi vormingus ER-konfiguratsioonist, võetakse PDF-i lehe paigutus Wordi dokumendist.
 
 ## <a name="security-considerations"></a>Turbemeetmed
 

@@ -3,7 +3,7 @@ title: Lükka edasi elementide käivitamise järjestus ER-vormingus
 description: Selles teemas selgitatakse, kuidas lükata järjestuse elemendi käivitamine elektroonilise aruandluse (ER) vormingus.
 author: NickSelin
 manager: kfend
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6efa4466dbf7f5ca1d3945acf15fac65d628d691
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: b5534c9ed0ad6cab0bc827ff626bf65a34f9df08
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015184"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138942"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Lükka edasi elementide käivitamise järjestus ER-vormingus
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Ülevaade
 
@@ -45,7 +43,7 @@ Lisateabe saamiseks selle funktsiooni kohta läbige siinse teema näide.
 
 **Edasilükatud täitmise** suvand ei rakendu järjestustele, mis on konfigureeritud trimmitud järjestusena, kus maksimaalne pikkus on piiratud.
 
-## <a name="Example"></a>Näide: Järjestuselemendi käivitamise edasilükkamine ER-vormingus
+## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Näide: Järjestuselemendi käivitamise edasilükkamine ER-vormingus
 
 Järgmised sammud selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse funktsionaalse nõustaja kasutaja [roll](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) saab konfigureerida ER-vormingut, mis sisaldab järjestuselementi, kus täitmise järjekord erineb järjekorrast vormingu hierarhias.
 

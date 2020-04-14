@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 788cddf4d822fe3d3d6a33e83d7b30f32f4b6b9c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 91243a4cee44410a221902990d31a10f1805eb08
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177319"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138249"
 ---
 # <a name="set-up-bonus-depreciation"></a>Lisakulumi seadistamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See protseduur kirjeldab kulumi erihüvitise loomist ja selle seostamist põhivararaamatuga. See kasutab USMF-i juriidilise isiku puhul raamatupidaja rolli ja demoandmeid.
 

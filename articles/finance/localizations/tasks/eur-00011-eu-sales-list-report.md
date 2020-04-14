@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7038af3977797a0be2523f2414800400757b7007
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 37f1a6e3bf39e16702d1367a325134ec84369945
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183597"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144370"
 ---
 # <a name="eur-00011-generate-the-eu-sales-list-report"></a>EUR-00011 EL-i müügiloendi aruande koostamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See protseduur juhatab teid läbi EL-i käibearuande koostamise protseduuri. See hõlmab ühendusesisese kaubanduse kannete edastamist ELi käibearuandesse ja aruande käivitamist. See protseduur hõlmab ka ühendusesisese kaubanduse kande loomist demonstreerimiseks. Lisateavet EL-i müügiloendi aruandluse, sh nõutavate eeltingimuste kohta leiate spikrist.
 
@@ -96,7 +96,7 @@ See protseduur on mõeldud raamatupidajatele.
 3. Märkige loendis välja Arve kuupäev rida.
 4. Tippige väljale Kriteerium väärtus 01/01/2016..01/31/2016.
 5. Märkige loendis välja Aruandluse olek rida.
-6. Valige väljal Kriteeriumid väärtus Esitatud.
+6. Valige väljal Kriteeriumid väärtus „Esitatud”.
     * Saate määrata lisafiltreid ka suletuks märgitavatele ühendusesisese kaubanduse kannetele.  
 7. Klõpsake nuppu OK.
 8. Valige väljal Valik väärtus Suletud.

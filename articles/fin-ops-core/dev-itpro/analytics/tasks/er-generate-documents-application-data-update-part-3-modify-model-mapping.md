@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5df6128228b9ff620c606c550c5eb7a6039b915
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a4546de2c5c1773aadce0ec084ee7058ff2ae153
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182297"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141875"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Mudelite ja vastenduste muutmine rakendusandmetega dokumentide loomiseks
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selle protseduuri toimingute lõpule viimiseks peate esmalt teostama protseduuri „ER Avalduse andmete värskendusega dokumentide genereerimine (2. osa: dokumentide genereerimine)“. 
 
@@ -101,7 +101,7 @@ Selles protseduuris demonstreeritakse, kuidas kujundada elektroonilise aruandlus
 10. Klõpsake suvandit Juure lisamine.
 11. Sisestage nimeväljale „model”.
     * mudel  
-12. Sisestage või valige definitsiooni väljal väärtus „For application data update”.
+12. Sisestage või valige definitsiooni väljal väärtus „Avalduse andmete uuendamiseks”.
     * Avalduse andmete uuendamiseks  
 13. Klõpsake nuppu OK.
 14. Laiendage puus sõlme „model”.
@@ -129,11 +129,11 @@ Selles protseduuris demonstreeritakse, kuidas kujundada elektroonilise aruandlus
     * Arhiivi  
 32. Sisestage tabelinime väljale väärtus „IntrastatArchiveGeneral”.
     * IntrastatArchiveGeneral  
-    * Säilitage kirje toiming Sisesta, et saaksite kirjeid iga Intrastat-aruandluse protsessi üksikasjade arhiivimise ajal lisada.  
+    * Säilitage kirje toiming „Sisesta”, et saaksite kirjeid iga Intrastat-aruandluse protsessi üksikasjade arhiivimise ajal lisada.  
 33. Valige Jah väljal Teabelogi kirjendamine.
     * Teabe hankimiseks avalduse andmete uuendamise probleemide kohta valige Jah.  
 34. Valige Jah, kirjetegevuse kinnitamise vahelejätmine väljal.
-    * Valige Jah, et tõkestada valideerimistõrkeid tühja "Intrastat-arhiivi ID" välja kohta. Seda tehakse pärast kirjete lisamist nende järjekorranumbrite sätte põhjal, mis konfigureeriti selle tabeli jaoks väliskaubandusparameetrite vormil.  
+    * Valige Jah, et tõkestada valideerimistõrkeid tühja välja „Intrastat-arhiivi ID” kohta. Seda tehakse pärast kirjete lisamist nende järjekorranumbrite sätte põhjal, mis konfigureeriti selle tabeli jaoks väliskaubandusparameetrite vormil.  
 35. Klõpsake nuppu OK.
     * Siduge lisatud andmeallika (valitud juurkauba alusel filtreeritud mudel) elemendid lisatud sihtkoha elementidega.  
 36. Laiendage puul valikut „Archive”.

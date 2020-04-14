@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2fdfe05483d577819d64bdf7a4ebfe5d37cd414c
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: a822e5f5a6cb71a0234b1776211788578470b0bb
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015182"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124296"
 ---
 # <a name="credit-and-collections-overview"></a>Krediidi ja võlanõuete ülevaade
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Saate hallata oma klientide krediidilimiite ja vajadusel teostada võlanõudmise tegevusi.
 

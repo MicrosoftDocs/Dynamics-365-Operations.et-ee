@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3ecfa720dfa9b3ed6ee15ec68498d2a46612a9ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a911fea9e7d1009160a021e53533c0ce49efbfe
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177446"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143692"
 ---
 # <a name="manage-email-templates"></a>Meilimallide haldamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Saate teisaldada teabe teie organisatsiooni andmebaasist uue dokumendi järjehoidjatesse ja kasutada seda mallides, mis aitavad teil tõhusalt kandidaatidega suhelda. Selleks loote malli, mis sisaldab standardteksti ja mõnda järjehoidjat, kuhu süsteemiandmed tuleks lisada. Näiteks saate sisestada kandidaadi aadressi ja kontaktteabe Microsoft Wordi dokumenti, mida saate kasutada selle kandidaadiga suhtlemisel. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

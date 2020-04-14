@@ -19,48 +19,61 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 587a9b98f28b11e303aff4b59e9726f220d956eb
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: ffd7a4c01810578b4abb6942aeff76e5147fafa9
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019733"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173035"
 ---
 # <a name="switch-between-vendor-designs"></a>Hankija kujunduste vaheldumisi aktiveerimine
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 ## <a name="vendor-data-flow"></a>Hankijaandmete voog 
 
-Kui kasutate hankija koondandmete jaoks teisi Dynamics 365 rakendusi ja soovite isoleerida hankijateabe klientidest, kasutage seda üldist hankijalahendust.  
+Kui otsustate kasutada üksust **Konto** tüübiga **Organisatsioon** hankijate talletamiseks ja üksust **Kontakt** tüübiga **Isik** hankijate talletamiseks, konfigureerige järgmised töövood. Vastasel juhul ei ole see konfiguratsioon nõutav.
 
-![Hankija üldine voog](media/dual-write-vendor-data-flow.png)
- 
-Kui kasutate hankija koondandmete jaoks teisi Dynamics 365 rakendusi ja soovite hankijaandmete salvestamiseks jätkata olemi **Konto** kasutamist, kasutage seda laiendatud hankijalahendust. Selles lahenduses salvestatakse laiendatud hankijateave, nagu hankija ootelolek ja hankijaprofiil, üksusesse **hankijad** Common Data Service’is. 
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-organization-type"></a>Laiendatud hankija kujunduse kasutamine Organisatsiooni tüübiga hankijate puhul
 
-![Hankija laiendatud voog](media/dual-write-vendor-detail.jpg)
- 
-Hankija laiendatud voo kasutamiseks tehke järgmist. 
- 
-1. Lahendusepakett **SupplyChainCommon** sisaldab töövooprotsessi malle, nagu on näha alloleval pildil.
-    > [!div class="mx-imgBorder"]
-    > ![Töövooprotsessi mallid](media/dual-write-switch-3.png)
-2. Looge uued töövooprotsessid, kasutades töövooprotsessi malle. 
-    1. Looge uus töövooprotsess üksusele **Hankija**, kasutades töövooprotsessi malli **Hankijate loomine konto üksuses**, ja klõpsake nuppu **OK**. See töövoog käsitseb üksuse **Konto** hankija loomise stsenaariumi.
-        > [!div class="mx-imgBorder"]
-        > ![Hankijate loomine konto üksuses](media/dual-write-switch-4.png)
-    2. Looge uus töövooprotsess üksusele **Hankija**, kasutades töövooprotsessi malli **Kontode üksuse värskendamine**, ja klõpsake nuppu **OK**. See töövoog käsitseb üksuse **Konto** hankija värskendamise stsenaariumi. 
-        > [!div class="mx-imgBorder"]
-        > ![Kontode üksuse värskendamine](media/dual-write-switch-5.png)
-    3. Looge uued töövooprotsessid mallidest, mis on loodud üksuses **Kontod**. 
-        > [!div class="mx-imgBorder"]
-        > ![Hankijate loomine hankijate üksuses](media/dual-write-switch-6.png)
-        > [!div class="mx-imgBorder"]
-        > ![Hankijate üksuse värskendamine](media/dual-write-switch-7.png)
-    4. Saate konfigureerida töövoogusid reaalajas või taustatöövoogudena, olenevalt teie nõuetest. 
-        > [!div class="mx-imgBorder"]
-        > ![Teisendamine taustatöövooks](media/dual-write-switch-8.png)
-    5. Aktiveerige töövood, mille lõite üksustes **Konto** ja **Hankija**, et hakata kasutama hankijateabe salvestamiseks üksust **Konto**. 
- 
+Lahendusepakett **Dynamics365FinanceExtended** sisaldab järgmisi töövoo protsessi malle. Iga malli jaoks luuakse töövoog.
+
++ Hankijate loomine kontode üksuses
++ Hankijate loomine hankijate üksuses
++ Hankijate värskendamine kontode üksuses
++ Hankijate värskendamine hankijate üksuses
+
+Uute töövooprotsesside loomiseks töövooprotsessi mallide abil toimige järgnevalt.
+
+1. Looge töövooprotsess üksusele **Hankija** ja valige töövooprotsessi mall **Hankijate loomine kontode üksuses**. Seejärel valige **OK**. See töövoog käsitseb üksuse **Konto** hankija loomise stsenaariumi.
+
+    ![Hankijate loomine kontode üksuse töövoo protsessis](media/create_process.png)
+
+2. Looge töövooprotsess üksusele **Hankija** ja valige töövooprotsessi mall **Hankijate värskendamine kontode üksuses**. Seejärel valige **OK**. See töövoog käsitseb üksuse **Konto** hankija värskendamise stsenaariumi.
+3. Looge töövooprotsess üksusele **Konto** ja valige töövooprotsessi mall **Hankijate loomine hankijate üksuses**.
+4. Looge töövooprotsess üksusele **Konto** ja valige töövooprotsessi mall **Hankijate värskendamine hankijate üksuses**.
+5. Saate konfigureerida töövoogusid kas reaalaja töövoogudena või taustatöövoogudena, olenevalt teie nõuetest. Töövoo konfigureerimiseks taustatöövoona valige **Teisenda taustatöövooks**.
+
+    ![Teisendamine taustatöövoo nupuks](media/background_workflow.png)
+
+6. Aktiveerige töövood, mille lõite üksustele **Konto** ja **Hankija**, et hakata kasutama üksust **Konto** tüübiga **Organisatsioon** hankijate teabe salvestamiseks.
+
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-person-type"></a>Laiendatud hankija kujunduse kasutamine Isiku tüübiga hankijate puhul
+
+Lahendusepakett **Dynamics365FinanceExtended** sisaldab järgmisi töövoo protsessi malle. Iga malli jaoks luuakse töövoog.
+
++ Isiku tüübiga hankijate loomine hankijate olemis
++ Isiku tüübiga hankijate loomine kontaktide olemis
++ Isiku tüübiga hankijate värskendamine kontaktide olemis
++ Isiku tüübiga hankijate värskendamine hankijate olemis
+
+Uute töövooprotsesside loomiseks töövooprotsessi mallide abil toimige järgnevalt.
+
+1. Looge töövooprotsess üksusele **Hankija** ja valige töövooprotsessi mall **Isiku tüübiga hankijate loomine kontode üksuses**. Seejärel valige **OK**. See töövoog käsitseb üksuse **Kontakt** hankija loomise stsenaariumi.
+2. Looge töövooprotsess üksusele **Hankija** ja valige töövooprotsessi mall **Isiku tüübiga hankijate värskendamine kontode üksuses**. Seejärel valige **OK**. See töövoog käsitseb üksuse **Kontakt** hankija värskendamise stsenaariumi.
+3. Looge töövooprotsess üksusele **Kontakt** ja valige mall **Isiku tüübiga hankijate loomine hankijate üksuses**.
+4. Looge töövooprotsess üksusele **Kontakt** ja valige mall **Isiku tüübiga hankijate värskendamine hankijate üksuses**.
+5. Saate konfigureerida töövoogusid kas reaalaja töövoogudena või taustatöövoogudena, olenevalt teie nõuetest. Töövoo konfigureerimiseks taustatöövoona valige **Teisenda taustatöövooks**.
+6. Aktiveerige töövood, mille lõite üksustele **Kontakt** ja **Hankija**, et hakata kasutama üksust **Kontakt** tüübiga **Isik** hankijate teabe salvestamiseks.

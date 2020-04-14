@@ -1,6 +1,6 @@
 ---
 title: Ülevaade
-description: ''
+description: Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse Human Resources seadistamise, töötajate hüvitiste ja soodustuste seadistamise ning tööjõu haldamise kohta.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c489ddaec0363a5a6d68f0464786dfbe1b0e1349
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7bef82f83de150df69a1a001fa9c07e34270742d
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008742"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091720"
 ---
 # <a name="overview"></a>Ülevaade
 
@@ -32,9 +32,9 @@ Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse
 ## <a name="set-up-human-resources"></a>Rakenduse Human Resources seadistamine
 
 [Inimressursside parameetrite konfigureerimine](hr-setup-parameters.md)</br>
-[Inimressursside ühiskasutusega parameetrite konfigureerimine](hr-setup-shared-parameters.md)</br>
-[Inimressursi töövoogude häälestamine](hr-setup-workflows.md)</br>
-[Kuupäeva ja kellaaja väljade mõistmine](hr-setup-date-time-fields.md)</br>
+[Human Resourcesi ühiskasutuses parameetrite konfigureerimine](hr-setup-shared-parameters.md)</br>
+[Human Resource'i töövoogude häälestamine](hr-setup-workflows.md)</br>
+[Kuupäeva ja kellaaja väljade ülevaade](hr-setup-date-time-fields.md)</br>
 
 ## <a name="configure-organization-settings"></a>Organisatsiooni seadistuste konfigureerimine
 
@@ -69,12 +69,12 @@ Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse
 
 [Kompensatsiooniplaanide ülevaade](hr-compensation-overview.md)</br>
 [Hüvitusruudustike seadistamine](hr-compensation-grids.md)</br>
-[Hüvituse struktuuri ja plaani arendamine](hr-compensation-structure.md)</br>
+[Kompensatsiooni struktuuri ja plaani arendamine](hr-compensation-structure.md)</br>
 [Põhipalga plaanide loomine](hr-compensation-fixed-plans.md)</br>
 [Ergutussüsteemi plaanide loomine](hr-compensation-variable-plans.md)</br>
-[Töötajate registreerimine põhipalga plaanis](hr-compensation-enroll-employees-fixed.md)</br>
-[Töötajate registreerimine tulemustasu plaanis](hr-compensation-enroll-employees-variable.md)</br>
-[Hüvitusprotsessi määratlemine ja tulemuste arvutamine](hr-compensation-define-process.md)</br>
+[Töövõtjate registreerimine põhipalga plaanis](hr-compensation-enroll-employees-fixed.md)</br>
+[Töövõtjate registreerimine ergutussüsteemi plaanis](hr-compensation-enroll-employees-variable.md)</br>
+[Kompensatsiooniprotsessi määratlemine ja tulemuste arvutamine](hr-compensation-define-process.md)</br>
 [Hüvituse plaanide töötlemine](hr-compensation-process.md)</br>
 
 ## <a name="manage-benefits"></a>Soodustuste haldamine
@@ -82,11 +82,11 @@ Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse
 [Eelvaatefunktsioon: soodustuste haldus](hr-benefits-management-overview.md)</br>
 [Soodustusprogrammi määratlemine ja haldamine](hr-benefits-manage-program.md)</br>
 [Soodustuse saamise õiguse eeskirjad](hr-benefits-eligibility-policies.md)</br>
-[Soodustuskõlblikkuse töötlemine](hr-benefits-eligibility-process.md)</br>
+[Soodustuse sobivuse töötlemine](hr-benefits-eligibility-process.md)</br>
 [Soodustuskõlblikkuse reeglite ja poliitikate määratlemine](hr-benefits-define-eligibility-rules.md)</br>
-[Töötaja soodustuste programmi pakkumine](hr-benefits-deliver-employee-benefits-program.md)</br>
+[Töövõtja soodustuste programmi pakkumine](hr-benefits-deliver-employee-benefits-program.md)</br>
 [Uute soodustuste loomine](hr-benefits-create.md)</br>
-[Töötajate registreerimine soodustustesse](hr-benefits-enroll-workers.md)</br>
+[Töötajate registreerimine soodustustes](hr-benefits-enroll-workers.md)</br>
 [Soodustuste aegumiskuupäevade haldamine](hr-benefits-expiration-dates.md)</br>
 [ACA aruannete loomine](hr-benefits-aca-reports.md)</br>
 
@@ -94,22 +94,22 @@ Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse
 
 [Ülevaade](hr-leave-and-absence-overview.md)</br>
 [Puhkuste ja puudumiste parameetrite konfigureerimine](hr-leave-and-absence-parameters.md)</br>
-[Tööajakalendri loomine](hr-leave-and-absence-working-time-calendar.md)</br>
-[Puhkusetaotluse töövoo loomine](hr-leave-and-absence-workflow.md)</br>
+[Looge töögraafik](hr-leave-and-absence-working-time-calendar.md)</br>
+[Puhkusetaotluse loomine töövoogu](hr-leave-and-absence-workflow.md)</br>
 [Puhkuste ja puudumiste tüüpide konfigureerimine](hr-leave-and-absence-types.md)</br>
-[Puhkuse ja puudumise plaani loomine](hr-leave-and-absence-plans.md)</br>
-[Puhkuseplaanile töötajate määramine](hr-leave-and-absence-enroll.md)</br>
-[Puhkuse ja puudumise plaanide koondamine](hr-leave-and-absence-accrue.md)</br>
-[Puhkuste ja puudumiste analüüsi vaatamine](hr-leave-and-absence-analytics.md)</br>
-[Puhkuse- ja puudumistaotluste haldamine](hr-employee-self-service-manage-requests.md)</br>
-[Eemaloleku aja taotlemine](hr-employee-self-service-request-time-off.md)</br>
-[Töörühma ja ettevõtte kalendrite vaatamine](hr-employee-self-service-calendar.md)</br>
+[Puhkuste ja puudumiste plaani loomine](hr-leave-and-absence-plans.md)</br>
+[Töötajate puhkuste plaani määramine](hr-leave-and-absence-enroll.md)</br>
+[Puhkuste ja puudumiste plaanide kogumine](hr-leave-and-absence-accrue.md)</br>
+[Puhkuste ja puudumiste analüüsi kuvamine](hr-leave-and-absence-analytics.md)</br>
+[Puhkuste ja puudumiste taotluste haldamine](hr-employee-self-service-manage-requests.md)</br>
+[Vaba aja taotlemine](hr-employee-self-service-request-time-off.md)</br>
+[Meeskonna ja ettevõtte kalendrite kuvamine](hr-employee-self-service-calendar.md)</br>
 
 ## <a name="develop-employees"></a>Töövõtjate arendamine
 
 [Jõudlushalduse ülevaade](hr-develop-performance-management-overview.md)</br>
 [Tööjõu oskuste joondamine](hr-develop-skills.md)</br>
-[Jõudluse töölehe lisamine](hr-develop-add-performance-journal.md)</br>
+[Oma jõudluse töölehele lisamine](hr-develop-add-performance-journal.md)</br>
 [Eesmärgi loomine](hr-develop-create-goal.md)</br>
 [Jõudluse ülevaate loomine](hr-develop-create-performance-review.md)</br>
 
@@ -123,8 +123,8 @@ Rakenduse Dynamics 365 Human Resources kasutusjuhend sisaldab juhiseid rakenduse
 [Küsimustiku tulemuste kuvamine](hr-learning-evaluate-questionnaire-results.md)</br>
 [Küsimustiku tulemuste analüüsimine](hr-learning-analyze-questionnaire-results.md)</br>
 [Avatud küsimuse loomine](hr-learning-create-open-ended-question.md)</br>
-[Kinnise küsimuse loomine](hr-learning-create-closed-ended-question.md)</br>
-[Sõltuva küsimuse loomine](hr-learning-depending-question.md)</br>
+[Suletud küsimuse loomine](hr-learning-create-closed-ended-question.md)</br>
+[Loo sõltuv küsimus](hr-learning-depending-question.md)</br>
 
 
 

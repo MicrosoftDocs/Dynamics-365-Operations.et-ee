@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2948282d8b40f7d34ffbae072a195cf954ab6e2
-ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
+ms.openlocfilehash: 6ca44b4793f61d1067b9e0740b9a447d3a2363c2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1738900"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147384"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Tarbimistaotluse loomine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See teema kirjeldab küsimustiku koostamise protsessi. See näitab erinevaid viise toodete otsimiseks hankekataloogist ja toodete lisamiseks, mis ei ole kataloogis. Enne selle protseduuri alustamist peab teil olema seadistatud ostupoliitika, mille ostutaotluse vaiketüübiks on Tarbimine. Saate selle protseduuriga tutvuda demoettevõtte USMF-i või omaenda andmeid kasutades. Protseduuri saab teha ainult kasutajaprofiiliga, mis on seadistatud töötaja profiilina. Seda ülesannet teeb tavaliselt töötaja. **Töötaja** turberoll võimaldab ülesandeid teha; või juhul, kui kasutate USMF-i, saate sisse logida nime **Alicia** alt.
 
@@ -58,7 +58,7 @@ See teema kirjeldab küsimustiku koostamise protsessi. See näitab erinevaid vii
 7. Sisestage arv väljale **Kogus**.
 8. Sisestage väljale **Leia hankekategooria sõlm otsitava kategooria nime** algus, seejärel klõpsake sisestusklahvi **Enter**. Sisestage näiteks `High` (esiletõstjad).  
 9. Kasutage otseteed **InvokeDefaultButton**.
-10. **Hankekataloogis puuduva toote lisamiseks** klõpsake suvandit Loendist puuduva toote lisamine ridadele.
+10. Hankekataloogis puuduva toote lisamiseks klõpsake suvandit **Loendist puuduva toote lisamine ridadele**.
 11. Sisestage väärtus väljale **Toote nimi**.
 12. Sisestage väärtus väljale **Ühik**.
 13. Valige nupp **OK**.

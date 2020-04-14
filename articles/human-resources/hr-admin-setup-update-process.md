@@ -1,9 +1,9 @@
 ---
-title: Protsessi värskendamine
-description: ''
+title: Värskendamisprotsess
+description: Microsoft Dynamics 365 Human Resources on tõeline tarkvara teenusena (Saas), mis pakub pidevaid, puutumatuid teenuse uuendusi rakenduse ja platvormi muudatustele.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -16,16 +16,16 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1817e072805bafbf0d5a9eb2698ef75abc75ad68
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 424027e82717b8636d59289b28978d6ce3c6db4d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031086"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154501"
 ---
-# <a name="update-process"></a>Protsessi värskendamine
+# <a name="update-process"></a>Värskendamisprotsess
 
 Microsoft Dynamics 365 Human Resources on tõeline tarkvara teenusena (Saas), mis pakub pidevaid, puutumatuid teenuse uuendusi. Need värskendused sisaldavad nii rakenduse kui ka platvormi muudatusi, mis pakuvad sageli teenuse kriitilist täiustust, sh regulatiivsed uuendused.
 
@@ -37,52 +37,39 @@ Värskendusi antakse välja regulaarselt kõikides keskkondades. Rakenduse Human
 
 Rakenduse Human Resources värskendusi rakendatakse kõigile keskkondadele automaatselt. Human Resources pakub kahte tüüpi väljaandeid.
 
-- **Teenusevärskendused**: iganädalased uuendused, mis sisaldavad veaparandusi ja uusi funktsioone. Teenusevärskendused sisaldavad ka kehtivaid platvormi värskendusi, kui need väljastatakse. Et saada aimu, millal platvormi värskendusi väljastatakse, vt [tabelit 3: Platvormi väljaanded](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Iganädalased uuendused antakse tavaliselt välja kolmapäeviti. Lisateavet iganädalaste uuenduste kohta vt teemat [Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/talent/whats-new).
+- **Teenusevärskendused**: iga kahe nädala tagant toimuvad uuendused, mis sisaldavad veaparandusi ja uusi funktsioone. Teenusevärskendused sisaldavad ka kehtivaid platvormi värskendusi, kui need väljastatakse. Et saada aimu, millal platvormi värskendusi väljastatakse, vt [tabelit 3: Platvormi väljaanded](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Kahenädalasi värskendusi levitatakse globaalselt kõigis piirkondades etapiliselt. Lisateavet kahenädalaste uuenduste kohta vt teemat [Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
-    Kõik toetatud andmekeskused uuendatakse iga nädal, kui pole teisiti märgitud. Iganädalased uuendused algavad tavaliselt kolmapäeval ja lõppevad pühapäevaks. USA, Austraalia, Euroopa, Suurbritannia, Aasia ja Kanada piirkonnad sisalduvad iganädalastes uuendustes. 
+    Kõik toetatud andmekeskused uuendatakse iga kahe nädala tagant, kui pole teisiti märgitud. USA, Austraalia, Euroopa, Suurbritannia, Aasia ja Kanada piirkonnad sisalduvad kahenädalastes uuendustes. 
 
-- **Lahenduse Common Data Service värskendused**: need värskendused toimuvad vastavalt vajadusele ligikaudu iga kuue nädala järel. Need hõlmavad uusi üksusi ja muudatusi olemasolevatele üksustele rakenduses Common Data Service. Need uuendused vabastatakse samadele piirkondadele kui iganädalased uuendused ja neil kulub umbes kuus nädalat, et edastada läbi kõikide andmekeskuste. Lahenduse värskendused võivad, kuid ei pruugi olla vastavuses iganädalaste teenuse uuendustega.
-
-Järgmises tabelis on toodud näidisgraafik.
-
-| Nädal | Värskenduse tüüp |
-| --- | --- |
-| 1 | Teenusevärskendus (kõik piirkonnad) |
-| 2 | Teenusevärskendus (kõik piirkonnad) + lahenduse värskendus (1. nädala piirkonnad) |
-| 3 | Teenusevärskendus (kõik piirkonnad) + lahenduse värskendus (2. nädala piirkonnad) |
-| 4 | Teenusevärskendus (kõik piirkonnad) + lahenduse värskendus (3. nädala piirkonnad) |
-| 5 | Teenusevärskendus (kõik piirkonnad) + lahenduse värskendus (4. nädala piirkonnad) |
-| 6 | Teenusevärskendus (kõik piirkonnad) + lahenduse värskendus (5. nädala piirkonnad) |
-| 7 | Teenusevärskendus (kõik piirkonnad) + lahenduse värskendus (6. nädala piirkonnad) |
-| 8 | Teenusevärskendus (kõik piirkonnad) |
+- **Lahenduse Common Data Service värskendused**: need värskendused toimuvad vastavalt vajadusele ligikaudu iga kuue nädala järel. Need hõlmavad uusi üksusi ja muudatusi olemasolevatele üksustele rakenduses Common Data Service. Need uuendused vabastatakse samadele piirkondadele kui kahenädalased uuendused ja neil kulub umbes kuus nädalat, et edastada läbi kõikide andmekeskuste. Lahenduse värskendused võivad, kuid ei pruugi olla vastavuses kahenädalaste teenuse uuendustega.
 
 > [!NOTE]
 > Kui need on väljastatud, on lahenduse värskendused saadaval kõigis andmekeskustes. Kui te ei soovi, et värskendused edastatakse automaatselt, saate neid värskendusi iga andmekeskuse igas keskkonnas käsitsi rakendada.
 
 Vajadusel pakub rakendus Human Resources ka järgmist tüüpi parandusi.
 
-- **Redaktsioon (kiirparandus)**: veaparandused, mis võivad ilmneda kas koos iganädalase teenuseuuenduse väljalaskega või eraldi
+- **Redaktsioon (kiirparandus)**: veaparandused, mis võivad ilmneda kas koos kahenädalase teenuseuuenduse väljalaskega või eraldi
 
-- **Erakorraline parandus**: ennetavad ja uuesti aktiivsed kiirparandused, mis on olemuselt eraldiseisvad, võivad sisaldada ainult konfiguratsiooni või koodi muudatusi, et lahendada avaldatud saidi probleeme, ja need võivad ilmneda iganädalasest teenuseuuenduse väljaandest eraldi
+- **Erakorraline parandus**: ennetavad ja uuesti aktiivsed kiirparandused, mis on olemuselt eraldiseisvad, võivad sisaldada ainult konfiguratsiooni või koodi muudatusi, et lahendada avaldatud saidi probleeme, ja need võivad ilmneda kahenädalasest teenuseuuenduse väljaandest eraldi
 
 Väljaanded vaadatakse üle, testitakse ja kontrollitakse sisemises keskkonnas. Pärast järkude kinnitamist edastatakse need tootmisse.
 
-## <a name="exceptions-in-2019"></a>Erandid 2019. a
+## <a name="release-cadence-exceptions-in-2020"></a>Erandid väljaandmise sageduses 2020. aastal
 
 Järgmised kuupäevad on tavalise väljastusgraafiku erandid.
 
 | Kuupäev | Kirjeldus |
 | --- | --- |
-| 25. novembri nädal | Uuendusi pole |
-| 16. detsembri nädal | Ainult väikesed värskendused |
-| 23. detsembri nädal | Uuendusi pole |
-| 30. detsembri nädal | Uuendusi pole |
+| 23. novembri nädal | Uuendusi pole |
+| 14. detsembri nädal | Ainult väikesed värskendused |
+| 21. detsembri nädal | Uuendusi pole |
+| 28. detsembri nädal | Uuendusi pole |
 
 ## <a name="communications"></a>Suhtlus
 
 Saate teada, mis on rakenduses Human Resources töös ja mida oleme väljastanud, järgmistes asukohtades:
 
-- [Dynamics 365 Human Resourcesi teejuht](https://dynamics.microsoft.com/roadmap/talent/)
+- [Dynamics 365 Human Resourcesi teejuht](https://dynamics.microsoft.com/roadmap/human-resources/)
 
 - [Dynamics 365 väljalaskeplaanid](https://docs.microsoft.com/dynamics365/release-plans/)
 
@@ -114,7 +101,7 @@ Eelvaatefunktsioonide testimisel või uute võimaluste proovimisel võite leida 
 
 ## <a name="see-also"></a>Vt ka
 
-- [Dynamics 365 ja Power Platformi väljalaskeplaanid](https://docs.microsoft.com/dynamics365/release-plans)
-- [Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources?](hr-admin-whats-new.md)
-- [Tarkvara elutsükli poliitika](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Dynamics 365 ja Power Platformi väljalaskeplaanid](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources?](hr-admin-whats-new.md)</br>
+[Tarkvara elutsükli poliitika](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 

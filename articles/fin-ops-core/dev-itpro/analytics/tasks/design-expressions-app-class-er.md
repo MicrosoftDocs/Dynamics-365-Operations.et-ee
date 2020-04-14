@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f61228d328521d0c6fe8e0ae704001a65d03151f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 207309e8be6c097cec187f3475a489330e1f6b6c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249223"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142681"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Elektroonilise aruandluse avaldiste kujundamine, millega kutsuda rakendusklasside meetodeid
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Juhendis kirjeldatakse, kuidas taaskasutada olemasolevat rakendusloogikat elektroonilise aruandluse (ER) konfiguratsioonides, kutsudes ER-i rakendusklasside vajalikke meetodeid. Kutsumisklasside argumentide väärtusi saab käitusajal dünaamiliselt määratleda: näiteks sõelumisdokumendis oleva teabe alusel, et tagada selle õigsus. Selle juhise järgi koostate näidisettevõtte Litware, Inc jaoks vajalikud elektroonilise aruandluse konfiguratsioonid. Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. 
 
 Need etapid saab lõpule viia ükskõik millise andmekomplekti abil. Peate ka järgmise faili alla laadima ja kohalikult salvestama: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
 
-Etappide lõpuleviimiseks peate esmalt läbima protseduuri „Pakkuja elektroonilise aruandluse konfiguratsiooni loomine ning aktiivseks märkimine” etapid.
+Etappide lõpuleviimiseks peate esmalt läbima protseduuri „ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” etapid.
 
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
     * Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja tähistatud aktiivsena. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” esitatud juhised.   

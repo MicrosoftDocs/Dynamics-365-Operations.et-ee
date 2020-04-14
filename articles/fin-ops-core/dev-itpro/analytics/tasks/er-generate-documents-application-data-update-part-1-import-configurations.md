@@ -1,6 +1,6 @@
 ---
 title: Konfiguratsioonide importimine rakendusandmetega dokumentide loomiseks
-description: Selle protseduuri toimingute lõpuleviimiseks peate esmalt läbima protseduuri "Elektrooniline aruandlus.
+description: Selle protseduuri toimingute lõpule viimiseks peate esmalt läbima protseduuri „ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks”.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2017
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd7a07d041373b266103f313df1bf2810e9c858
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bfa09fe7059925249f20e1d93bc9d091d6bc63d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182343"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141898"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Konfiguratsioonide importimine rakendusandmetega dokumentide loomiseks
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Selle protseduuri toimingute lõpuleviimiseks peate esmalt läbima protseduuri "Elektrooniline aruandlus.
+Selle protseduuri toimingute lõpule viimiseks peate esmalt läbima protseduuri „ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks”.
 
-Konfiguratsioonipakkuja loomine ja aktiivseks märkimine". Selles protseduuris selgitatakse, kuidas importida näidisettevõtte Litware, Inc. jaoks loodud elektroonilise aruandluse (ER) konfiguratsioone ja neid kasutada elektroonilise dokumendi genereerimiseks. Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Need toimingud saab lõpule viia DEMF-i andmekomplekti abil. Enne alustamist laadige alla ja salvestage spikriteemas “Elektrooniliste dokumentide genereerimine ja avalduse andmete värskendamine ER-tööriistaga” (generate-electronic-documents-update-application-data/) loetletud failid. Failid on Intrastat (model).xml, Intrastat (mapping).xml ja Intrastat (format).xml.
+Konfiguratsioonipakkuja loomine ja aktiivseks märkimine". Selles protseduuris selgitatakse, kuidas importida näidisettevõtte Litware, Inc. jaoks loodud elektroonilise aruandluse (ER) konfiguratsioone ja neid kasutada elektroonilise dokumendi genereerimiseks. Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. Need toimingud saab lõpule viia DEMF-i andmekomplekti abil. Enne alustamist laadige alla ja salvestage spikriteemas „Elektrooniliste dokumentide genereerimine ja avalduse andmete värskendamine ER-tööriistaga” (generate-electronic-documents-update-application-data/) loetletud failid. Failid on Intrastat (model).xml, Intrastat (mapping).xml ja Intrastat (format).xml.
 
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
     * Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja tähistatud aktiivsena. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud juhised.  
@@ -45,7 +45,7 @@ Konfiguratsioonipakkuja loomine ja aktiivseks märkimine". Selles protseduuris s
 6. Klõpsake valikut Kujundaja.
 7. Laiendage puul valikut „For outgoing document”.
 8. Laiendage puul valikut „For outgoing document\Transactions".
-    * Vaadake üle imporditud andmemudeli struktuur. Pange tähele, et juurkaup "Väljamineva dokumendi jaoks" on määratletud selleks, et määrata andmevoog andmete saamiseks avaldusest ja kasutada seda andmeallikana Intrastat-aruande genereerimisel. "Kanded: (Kirjete loend)" on kasutuses teavitamist nõudvate Intrastati kannete loendi esitamiseks. Kuna arhiivite teavitatud artiklikoodid, on selles andmevoos vaja ühe artiklikoodi "Commodity rec id (Int64)" kordumatut identifikaatorit.   
+    * Vaadake üle imporditud andmemudeli struktuur. Pange tähele, et juurkaup „Väljamineva dokumendi jaoks” on määratletud selleks, et määrata andmevoog andmete saamiseks avaldusest ja kasutada seda andmeallikana Intrastat-aruande genereerimisel. „Kanded: (Kirjete loend)” on kasutuses teavitamist nõudvate Intrastat-kannete loendi esitamiseks. Kuna arhiivite teavitatud artiklikoodid, on selles andmevoos vaja ühe artiklikoodi „Commodity rec id (Int64)” kordumatut identifikaatorit.   
 9. Sulgege leht.
 10. Klõpsake nuppu Vahetus.
 11. Klõpsake nuppu Laadi XML-failist.
@@ -55,7 +55,7 @@ Konfiguratsioonipakkuja loomine ja aktiivseks märkimine". Selles protseduuris s
 13. Laiendage puul valikut „Intrastat (model)".
 14. Tehke puul valik „Intrastat (model)\Intrastat (mapping)".
 15. Klõpsake valikut Kujundaja.
-    * Pange tähele, et praegune mudelivastendus sisaldab väljal Suund väärtust Mudelini. See tähendab, et selle mudeli vastendamine on mõeldud andmete hankimiseks avaldusest ja selle talletamiseks andmemudelisse.  
+    * Pange tähele, et praegune mudelivastendus sisaldab väljal Suund väärtust „Mudelini”. See tähendab, et selle mudeli vastendamine on mõeldud andmete hankimiseks avaldusest ja selle talletamiseks andmemudelisse.  
 16. Klõpsake valikut Kujundaja.
 17. Laiendage puul valikut „List".
 18. Laiendage puul valikut „Transactions= List".
@@ -73,6 +73,6 @@ Konfiguratsioonipakkuja loomine ja aktiivseks märkimine". Selles protseduuris s
 27. Tehke puul valik „File\Declaration".
 28. Klõpsake vahekaarti Vastendus.
 29. Tehke puul valik „File".
-    * Vaadake üle Intrastat-aruande genereerimiseks kasutatud vormingu struktuur. Pange tähele, et see on mõeldud XML-faili genereerimiseks andmete asustamise abil andmemudelist, mille aluseks on juurkaup "Väljamineva dokumendi jaoks". Kontrollige, kas genereeritud faili nimi on määratud kasutaja dialoogi vormil (selle jaoks kasutatakse andmeallikat "fn").   
+    * Vaadake üle Intrastat-aruande genereerimiseks kasutatud vormingu struktuur. Pange tähele, et see on mõeldud XML-faili genereerimiseks andmete asustamise abil andmemudelist, mille aluseks on juurkaup „Väljamineva dokumendi jaoks”. Kontrollige, kas genereeritud faili nimi on määratud kasutaja dialoogi vormil (selle jaoks kasutatakse andmeallikat „fn”).   
 30. Sulgege leht.
 

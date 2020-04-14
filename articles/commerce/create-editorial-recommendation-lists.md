@@ -1,9 +1,9 @@
 ---
-title: Kureeritud tootesoovituste loendite loomine
-description: Selles teemas selgitatakse, kuidas turustajad saavad luua ja hallata rakenduse Microsoft Dynamics 365 Commerce klientide jaoks käsitsi toodete loendeid.
+title: Loo kuraatorite soovitused käsitsi
+description: Selle teema all selgitatakse, kuidas turustajad saavad käsitsi luua ja hallata rakenduse Microsoft Dynamics 365 Commerce klientide jaoks toodete loendeid.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: b00c83355850f6249068749096b011f805b37e3c
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024929"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154314"
 ---
-# <a name="create-curated-product-recommendation-lists"></a>Kureeritud tootesoovituste loendite loomine
+# <a name="manually-create-curated-recommendations"></a>Loo kuraatorite soovitused käsitsi
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas turustajad saavad luua ja hallata rakenduse Microsoft Dynamics 365 Commerce klientide jaoks käsitsi toodete loendeid.
+Selle teema all selgitatakse, kuidas turustajad saavad käsitsi luua ja hallata rakenduse Microsoft Dynamics 365 Commerce klientide jaoks toodete soovitusloendeid.
 
 Kuraatorite loendid on inimeste poolt loodud ja kureeritud individuaalse sisu kogumid.  
 
@@ -56,8 +56,20 @@ Kureeritud toote soovituste loendi loomiseks tehke järgmist.
 
 [Tootesoovituste ülevaade](product-recommendations.md)
 
-[Tootesoovituste lubamine](enable-product-recommendations.md)
+[ADLS-i lubamine Dynamics 365 Commerce keskkonnas](enable-adls-environment.md)
 
-[Tootesoovituste loendite lisamine lehtedele](add-reco-list-to-page.md)
+[Luba tootesoovitused](enable-product-recommendations.md)
 
-[Tootekogumi mooduli ülevaade](product-collection-module-overview.md)
+[Isikupärastatud soovituste lubamine](personalized-recommendations.md)
+
+[Isikupärastatud tootesoovitustest loobumine](personalization-gdpr.md)
+
+[Tootesoovituste lisamine kassas](product.md)
+
+[Soovituste lisamine kandeekraanile](add-recommendations-control-pos-screen.md)
+
+[AI-ML-i soovituste tulemuste kohandamine](modify-product-recommendation-results.md)
+
+[Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
+
+[Tootesoovituste KKK](faq-recommendations.md)

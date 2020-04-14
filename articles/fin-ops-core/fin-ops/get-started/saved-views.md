@@ -3,7 +3,7 @@ title: Salvestatud vaated
 description: Selles teemas kirjeldatakse, kuidas kasutada salvestatud vaadete funktsioone.
 author: jasongre
 manager: AnnBe
-ms.date: 10/16/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: c6a5880c6ae9470dbf7986f39798ec888d0c22ea
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017700"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100304"
 ---
 # <a name="saved-views"></a>Salvestatud vaated
 
@@ -71,7 +71,7 @@ Kui soovite neid muudatusi salvestada, toimige järgmiselt.
 2.  Olemasoleva vaate muutmiseks tehke järgmist.
      1. Valige käsk **Salvesta**. Pange tähele, et see tegevus pole lukustatud vaadete puhul lubatud. 
 3.  Uue vaate loomiseks tehke järgmist.
-     1.    Valige **Salvesta nimega…**. 
+     1.    Valige **Salvesta nimega**. 
      2.    Sisestage vaate nimi ja (valikuliselt) kirjeldus.
      3.    Valige käsk **Salvesta**.
 
@@ -83,9 +83,9 @@ Lehe vaikevaate muutmiseks tehke järgmist.
 2.  Valige vaate nimi, et avada vaate valija. 
 3.  Klõpsake valikut **Veel** ja seejärel **Kinnita vaikevariandina**.  
 
-Teine võimalus on muuta uue vaate loomisel (kasutades tegevust **Salvesta nimega…**) uus vaade vaikevaateks, kasutades enne vaate salvestamist suvandit **Kinnita vaikeväärtusena**.
+Teine võimalus on muuta uue vaate loomisel (kasutades tegevust **Salvesta nimega**) uus vaade vaikevaateks, kasutades enne vaate salvestamist suvandit **Kinnita vaikeväärtusena**.
 
-Pange tähele, et mõnel juhul ei käivitu lehele esimest korda liikumisel vaikevaatega seostatud päring. Näiteks kui liigute läbi paani lehele, käivitatakse paani päring hoolimata vaikevaatega seostatud päringust. Samuti, kui liigute lehele, mille klassikalisel vaatel on juba määratletud päring, käivitub algne päring esimesena vaikevaate päringu asemel. Kui see juhtub, kuvatakse teile vaate laadimise ajal asjakohane teade. Vaate vahetamine pärast seda, kui leht on lõpetanud laadimise, peaks võimaldama vaate päringu ootuspärase käivitumise.
+Pange tähele, et mõnel juhul ei käivitu lehele esimest korda liikumisel vaikevaatega seostatud päring. Näiteks kui liigute läbi paani lehele, käivitatakse paani päring hoolimata vaikevaatega seostatud päringust. Samuti, kui liigute lehele, mille standardsel vaatel on juba määratletud päring, käivitub algne päring esimesena vaikevaate päringu asemel. Kui see juhtub, kuvatakse teile vaate laadimise ajal asjakohane teade. Vaate vahetamine pärast seda, kui leht on lõpetanud laadimise, peaks võimaldama vaate päringu ootuspärase käivitumise. Alates versioonist 10.0.10 Platform Update 34, on teavitava sõnumiga kaasas manustatud tegevus, mis võimaldab laadida vaikevaate päringut otse.
 
 ## <a name="managing-personal-views"></a>Isiklike vaadete haldamine 
 Dialoogiboks **Halda mu vaateid** pakub teile isiklike vaadete ja vaate valijas olevate vaadete järjekorra põhilisi haldamisvõimalusi. Selle lehe avamiseks klõpsake vaate nime, et avada vaate valija rippmenüü, klõpsake valikut **Veel**ja seejärel käsku **Halda mu vaateid**.  
@@ -119,7 +119,7 @@ Vaate avaldamiseks tehke järgmist.
 4.  Sisestage vaate nimi ja (valikuliselt) kirjeldus. Sisestatud nimi on nimi, mida selle vaate saanud kasutajad näevad oma vaate valijates. Lehekülje avaldatud vaadete nimed peavad olema kordumatud. Korduvad nimed lubatud isegi juhul, kui rollide või juriidiliste isikute loendid, millele vaated on rakendatud, on erinevad.
 5.  Lisage turberollid, mis kehtivad kasutajatele, kellele see vaade mõeldud on.
 6. Lisage juriidilised isikud, kellele see vaade peaks kättesaadav olema. 
-7. [10.0.9 / platvormivärskendus 33 või uuem] Määratlege, kas vaade tuleks valitud kasutajatele vaikevaatena avaldada. Vaate vaikimisi kuvamine tähendab, et kasutajad näevad seda vaadet järgmine kord, kui nad sihtlehe avavad. See muudab nende kasutajate vaikevaadet. Kasutajad saavad siiski pärast avaldamise toimumist oma vaikevaadet muuta.    
+7. [10.0.9 / Platform Update 33 või uuem] Määratlege, kas vaade tuleks valitud kasutajatele vaikevaatena avaldada. Vaate vaikimisi kuvamine tähendab, et kasutajad näevad seda vaadet järgmine kord, kui nad sihtlehe avavad. See muudab nende kasutajate vaikevaadet. Kasutajad saavad siiski pärast avaldamise toimumist oma vaikevaadet muuta.    
 8.  Valige **Avalda**.
 
 Arvestage sellega, et teatud keskkondades võib aega kuluda (kuni tund), enne kui kasutajad avaldatud vaadet näevad.
@@ -133,8 +133,8 @@ Kui muudatused, mida soovite avaldatud vaates teha, hõlmavad ainult avaldamise 
 3.  Valige nupp **Jah**, kui soovite olemasolevat vaadet värskendada (või **Ei**, kui soovite seda avaldada teise nimega).
 4.  Värskendage vaate nime, kirjeldust ja/või turberolle. 
 5.  Valige **Avalda**. 
-6.  [10.0.8 / platvormivärskendus 32 või varasem] Kui olete avaldatud vaate nime värskendanud, peate veel kustutama vana nimega avaldatud vaate (lisateabe saamiseks vaadake teemat **Avaldatud vaadete haldamine**). 
-7. [10.0.9/platvormivärskendus 33 või uuem] Kui algselt valisite selle avaldatud vaate vaikevaateks, on see taas nende kasutajate vaikevaade pärast uuesti avaldamist.  
+6.  [10.0.8 / Platform Update 32 või varasem] Kui olete avaldatud vaate nime värskendanud, peate veel kustutama vana nimega avaldatud vaate (lisateabe saamiseks vaadake teemat **Avaldatud vaadete haldamine**). 
+7. [10.0.9 / Platform Update 33 või uuem] Kui algselt valisite selle avaldatud vaate vaikevaateks, on see taas nende kasutajate vaikevaade pärast uuesti avaldamist.  
 
 Kui avaldatud vaate muudatused hõlmavad vaatega seostatud isikupärastamiste või filtrite muutmist, toimige järgmiselt. 
 1.  Avage avaldatud vaade, mida soovite muuta. 

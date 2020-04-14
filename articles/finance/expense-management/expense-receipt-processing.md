@@ -1,7 +1,7 @@
 ---
 title: Kulu sissetuleku töötlemine
 description: See teema annab teavet optilise märgituvastuse (OCR) kohta sissetulekute puhul. Selle funktsiooni eesmärk on parandada kasutaja kogemust, kui kuluaruandeid luuakse rakenduses Microsoftis Dynamics 365 Finance.
-author: stevensporen
+author: stsporen
 manager: AnnBe
 ms.date: 11/20/2019
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 1ead9039de63e2cf4f3a7faddd1702b9614d7f99
-ms.sourcegitcommit: 6aceca43c53c4dde46954c0b6b855d488eb44ed2
+ms.openlocfilehash: 49cdfeac8cda9f1ddd3aca61f902f00f30f3485b
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027899"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154036"
 ---
-# <a name="public-preview-expense-receipt-processing"></a>Avalik eelvaade: kulu sissetuleku töötlemine
+# <a name="expense-receipt-processing"></a>Kulusissetuleku töötlemine
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]

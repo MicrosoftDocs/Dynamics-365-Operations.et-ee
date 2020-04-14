@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbed62c80c14e7cfe96d38d43a5db39b0469d939
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184918"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142451"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Vormingute muutmine rakendusandmetega dokumentide loomiseks
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selle protseduuri toimingute lõpule viimiseks peate esmalt teostama protseduuri „ER Avalduse andmete värskendusega dokumentide genereerimine (3. osa: mudeli ja vastendamise muutmine)“.
 
@@ -96,13 +96,13 @@ Selles protseduuris demonstreeritakse, kuidas kujundada elektroonilise aruandlus
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Vormingu muutmine aruandluse üksikasjade meeldejätmiseks
 1. Klõpsake nuppu Vormingu vastendamine mudeliga.
-2. Klõpsake valikut Uus.
-3. Sisestage või valige definitsiooni väljal juurkaup „For application data update”.
+2. Klõpsake Uus.
+3. Sisestage või valige väljal Definitsioon juurkaup „Avalduse andmete uuendamiseks”.
     * Avalduse andmete uuendamiseks  
 4. Sisestage nimeväljale valik „Vastendamine andmete uuendamiseks”.
     * Vastendamise andmete uuendamiseks  
 5. Klõpsake nuppu Salvesta.
-    * Vastendus määratleb, kuidas Intrastat-aruande üksikasju kogutakse andmemudelis, mille struktuur on määratud valitud juurkauba poolt „For application data update”. Neid üksikasju, sama juurkaubaga "For application data update" vastendamist ja suunda „To destination" kasutatakse avalduse andmete uuendamiseks. Avalduse andmete uuendamine käivitatakse kohe pärast väljamineva Intrastat-aruande genereerimist. Pange tähele, et avalduse andmete uuendamise võib käitusajal vahele jätta, aga andmemudel peab olema tühi (sisaldab tühja kirjeloendit).   
+    * Vastendus määratleb, kuidas Intrastat-aruande üksikasju kogutakse andmemudelis, mille struktuur on määratud valitud juurkauba poolt „Avalduse andmete uuendamiseks”. Neid üksikasju, sama juurkaubaga „Avalduse andmete uuendamiseks” vastendamist ja suunda „Sihtkohani" kasutatakse avalduse andmete uuendamiseks. Avalduse andmete uuendamine käivitatakse kohe pärast väljamineva Intrastat-aruande genereerimist. Pange tähele, et avalduse andmete uuendamise võib käitusajal vahele jätta, aga andmemudel peab olema tühi (sisaldab tühja kirjeloendit).   
 6. Klõpsake valikut Kujundaja.
     * Pange tähele, et väljamineva Intrastat-aruande vorming lisatakse vaikimisi selle mudelivastenduse andmeallikana.  
     * Siduge loodud aruande elemendid (esitatud andmeallikana) andmemudeli elementidega, mis on filtreeritud valitud mudeli juurkauba alusel.  

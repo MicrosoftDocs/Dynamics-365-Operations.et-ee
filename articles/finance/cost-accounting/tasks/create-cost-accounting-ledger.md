@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49ad1b2478516392d80720c24803024d9f5d00a5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7ac02bfc0e9981e3dff6bba350b0748946862b4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187747"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142336"
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Kuluarvestuse pearaamatu loomine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Kuluarvestuse pearaamat tähistab üldist aruandlusüksust. See on määratletud kuluelemendi dimensiooni, statistilise dimensiooni, rahanduskalendri ja valuuta. See on juriidiliste isikute kontseptsioonist sõltumatu. Juriidilise isiku ja tema andmed saab seostada mitme kuluarvestuse pearaamatuga. See salvestis kasutab USP2 demoandmete ettevõtet.
 

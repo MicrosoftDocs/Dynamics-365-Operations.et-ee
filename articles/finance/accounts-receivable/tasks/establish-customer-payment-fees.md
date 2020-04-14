@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5b94578e077834ce73c921dca18ad6e38c37659
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b6475671002379d84519df05a0198a17ac000677
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177390"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143738"
 ---
 # <a name="establish-customer-payment-fees"></a>Kliendi maksetasude määramine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Looge kliendimaksete maksetasud.
 
@@ -43,7 +43,7 @@ See ülesanne kasutab demoettevõtte USMF andmeid.
 10. Selleks, et hinnata, millisele pangakontole see maks läheb, valige väljal **Rühmitamine** „Tabel“, „Rühm“ või „Kõik“. Kui valite suvandi Kõik, võidakse seda tasu hinnata kõigil pangakontodel.  Valides suvandi Tabel, võidakse seda tasu hinnata ainult teie valitud pangakontol. Suvandi Grupp valimisel võidakse seda tasu hinnata ainult valitud pangagrupi pangakontodel.  
 11. Valige väljas **Panga seos** panga rühm või pangakonto. Suvandi Tabel valimisel kuvab otsing pangakontod. Suvandi Grupp valimisel kuvab otsing pangagrupid.  
 12. Klõpsake loendis valitud real olevat linki.
-13. Väljas **Makseviis** valige, millisele makseviisile see maks kehtib. Näiteks võite määrata tasu klientidele, kui nad saadavad makseid pigem tšekina kui elektroonilise maksena.  
+13. Väljal **Makseviis** valige, millisele makseviisile see maks määratakse. Näiteks võite määrata tasu klientidele, kui nad saadavad makseid pigem tšekina kui elektroonilise maksena.  
 14. Otsige loendist ja valige soovitud kirje.
 15. Vajadusel sisestage välja **Makse valuuta** makse valuuta. Makse valuutat kasutatakse tasu määramise täiendavate kriteeriumidena.  Näiteks võib teie pank nõuda lisatasu USA dollarites saadud maksete eest, kuna nad teevad üldjuhul tehinguid ainult eurodes.  
 16. Valige, kas tasu on protsent, summa või intervall.

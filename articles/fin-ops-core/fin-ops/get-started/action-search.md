@@ -3,7 +3,7 @@ title: Tegevuse otsing
 description: Selles artiklis kirjeldatakse tegevuse otsingu funktsiooni. Tegevuste otsing aitab teil leida ka käitada lehel tegevusi.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d01247aa356625cb759306e5ead2afd3cdeb840f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bd4d81f010149c762dac0f4e6fa912c2e2cef072
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191312"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112164"
 ---
 # <a name="action-search"></a>Tegevuse otsing
 
@@ -69,6 +69,9 @@ Tippisite väljale **Tegevuse otsing** näiteks tähed **kog** ja uurite nüüd 
 Eelmises näites näitas tegevuse otsing tulemusi standardselt toimingupaanilt lehe ülaosas. Kuid tegevuse otsing näitab ka tulemusi nähtamatutelt tööriistaribadelt, mis asuvad lehe muudes kohtades. Näiteks otsite nuppu **Vaba kaubavaru**, mis asub kiirkaardil **Müügitellimuse read**. Sellisel juhul teavitab nupu tee tulemuste loendis (**Müügitellimuse read** &gt; **Varud** &gt; **Vaade**), et see nupp asub kiirkaardil **Müügitellimuse read** menüünupu **Varud** päise **Vaade** all.
 
 [![vaba-kaubavaru](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+
+> [!NOTE]
+> Osa nuppe tegevuse otsingus ei kuvata. Need hõlmavad kukutatava dialoogi nuppe ja alamvormide nuppe. 
 
 ## <a name="action-search-vs-navigation-search"></a>Tegevuse otsing vs navigeerimisotsing
 

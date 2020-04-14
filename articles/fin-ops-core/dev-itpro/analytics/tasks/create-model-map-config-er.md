@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcfc258e7fe364779fd77cc79413e8d5e871e214
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c6ba23af5f7eb517cc58994e54e918b2a305da17
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182688"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142155"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Elektroonilise aruandluse (ER) mudelivastenduse konfiguratsioonide loomine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selle protseduuriga saate kujundada uue elektroonilise aruandluse (ER) mudeli vastendamise konfiguratsiooni ja kasutada sisseehitatud ER-i funktsioone tõhusate koondarvutuste jaoks. Selles protseduuris loote konfiguratsiooni näidisettevõttele Litware, Inc. 
 
@@ -35,7 +35,7 @@ Need etapid saab lõpule viia ükskõik millise andmekomplekti abil. Etappide l�
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
     * Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja tähistatud aktiivsena. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud juhised.  
 2. Klõpsake valikut Aruandluse konfiguratsioonid.
-3. Klõpsake valikut Näita filtreid.
+3. Klõpsake suvandit Näita filtreid.
 4. Sisestage väljale „Nimi” filtriväärtus „Intrastat” ja kasutage filtri tehtemärki „algab järgmisega”.
     * Rakendage see filter, et leida andmemudeli konfiguratsioon „Intrastat”. See mudel on võib-olla juba konfiguratsioonide puus olemas. Kui on, jätke järgmine alamülesanne vahele.   
 
@@ -47,7 +47,7 @@ Need etapid saab lõpule viia ükskõik millise andmekomplekti abil. Etappide l�
     * Valige Microsofti pakkuja paan.  
 5. Klõpsake valikut Hoidlad.
     * Klõpsake Microsofti pakkuja paanil valikut Hoidlad.  
-6. Klõpsake valikut Näita filtreid.
+6. Klõpsake suvandit Näita filtreid.
 7. Sisestage väljale „Tüübi nimi” filtriväärtus „ressursid” ja kasutage filtri tehtemärki „sisaldab”. 
 8. Klõpsake valikut Ava.
 9. Tehke puul valik „Intrastati mudel”.

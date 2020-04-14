@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0abbce32e2fabe860077502875b92f93ea0ea95c
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 488fb1bea2d2ae06c92c20afdd98735928eee3b8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867073"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147292"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Korduva ostutellimuse loomine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selles teemas näidatakse, kuidas luua korduvat ostutellimust, kopeerides read varasemast ostutellimust dokumendist uude ostutellimusse või olemasolevasse ostutellimusse. Korduvate tellimuste koostamiseks on kaks meetodit. Saate kasutada dokumendi tasandil saadaolevaid toiminguid tegumiribalt või kasutada rea üksikasjade toiminguid. Dokumendi tasandi toimingud on peamiselt mõeldud uue ostutellimuse loomiseks, lisades ridu ja päise andmeid teisest tellimusest, samas kui rea üksikasjade toiming on peamiselt mõeldud olemasolevale tellimusele ridade lisamiseks. Selles juhendis toodud näidet saab kasutada demoandmete ettevõtte USMF puhul. Seda ülesannet täidab üldjuhul ostuagent.
 
@@ -39,11 +39,11 @@ Selles teemas näidatakse, kuidas luua korduvat ostutellimust, kopeerides read v
 6. Valige **Kõigilt**. See on leht, millelt saate olemasolevate tellimuste andmeid oma tellimusele kopeerida. Ridade kopeerimiseks on erinevaid võimalusi ja on erinevaid dokumente, millelt saate kopeerida. Vaatame kõigepealt ridade kopeerimise võimalusi. 
 7. Laiendage jaotist **Parameetrid**.
 
-    - Väli **Kogusetegur** on kasulik, kui soovite kasutada kogust, mis erineb kogusest, mis on tellimuses, millest te kopeerite. Näiteks kui soovite tellida kopeeritavate ridade kahekordse koguse, tuleks sisestada sellele väljale 2 ja seejärel lisab süsteem read, kus algne kogus on kahekordistatud.  
+    - Väli **Kogusetegur** on kasulik, kui soovite kasutada kogust, mis erineb kogusest, mis on tellimuses, millest te kopeerite. Näiteks kui soovite tellida kopeeritavate ridade kahekordse koguse, tuleks sisestada sellele väljale „2” ja seejärel lisab süsteem read, kus algne kogus on kahekordistatud.  
     - Väli **Muuda märki** toetab samuti tellitud koguse muutmist, muutes lisatud tellimuseridade koguse märki. Sellest võib olla abi, kui teil on vaja kanne tühistada, luues kande jaoks negatiivsed tellimuse read. See suvand on automaatselt valitud, kui leht avatakse toimingust **Loo kreediti märge**.  
     - Suvand **Kopeeri tasud** lubab teil kopeerida tasud oma uude tellimusse dokumendist, millest kopeerite tellimuseridu.  
     - Suvand **Arvuta hinnad uuesti** kasutab praeguseid hindu ja allahindlusi, mitte ei kopeeri neid dokumendist, millest muud teavet kopeerite.  
-    - Suvand **Kopeeri täpselt** loob täpse koopia kõigi väljade väärtustest tellimuse dokumendi päisest ja ridadelt. Kui seda pole valitud, kasutatakse paljudel hankijat ja tooteid puudutavatel väljadel vaikeväärtusi, täpselt nii, nagu uue tellimuse käsitsi koostamisel. Näiteks kui tellimus, millelt kopeerite, oleks tühistanud hankija vaike-arvekonto, kopeeritaks seesama arvekonto teie tellimusele. Kui te ei valinud suvandit **Kopeeri täpselt**, kasutatakse selle asemel vaikimisi arvekontot, mida hankija teie tellimuses kasutaks.  
+    - Suvand **Kopeeri täpselt** loob täpse koopia kõigi väljade väärtustest tellimuse dokumendi päisest ja ridadelt. Kui seda pole valitud, kasutatakse paljudel hankijat ja tooteid puudutavatel väljadel vaikeväärtusi, täpselt nii, nagu uue tellimuse käsitsi koostamisel. Näiteks kui tellimus, millelt kopeerite, oleks tühistanud hankija vaike-arvekonto, kopeeritaks seesama arvekonto teie tellimusele. Kui te ei valinud suvandit **Kopeeri täpselt**, kasutatakse selle asemel vaike-arvekontot, mida hankija teie tellimuses kasutaks.  
     - Suvand **Kustuta osturead** kustutab enne uute ridade lisamist kõik ostutellimuse read, mis on juba kopeeritavas ostutellimuses olemas. Kasutage seda valikut ettevaatlikult, kuna see kustutab kõik olemasolevad read hoiatamata.  
     - Kui kasutate suvandit **Kopeeri tellimuse päis**, ei pea te oma uue tellimuse jaoks käsitsi looma päise teavet. Pange tähele, et selle valiku tulemusena kasutatakse hankijaga seotud väljadel vaikeväärtusi. Kui dokumendil, millest te kopeerite, on vaikesättest erinevad väärtused, mida soovite kopeerida, kasutage samuti suvandit **Kopeeri täpselt**.   
     - On erinevaid dokumendiallikaid, millelt saate kopeerida, ja igaühel neist on sellel lehel eraldi jaotis. Näiteks jaotis **Ostutellimused** lubab teil kopeerida olemasolevatest ostutellimustest.  

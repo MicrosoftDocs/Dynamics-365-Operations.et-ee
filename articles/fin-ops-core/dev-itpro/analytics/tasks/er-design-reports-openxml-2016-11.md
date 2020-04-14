@@ -16,22 +16,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769851"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142128"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>Elektrooniline aruandlus. OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine (november 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See teema selgitab, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab luua uue elektroonilise aruandluse (ER) konfiguratsiooni, mis sisaldab malli elektrooniliste dokumentide genereerimiseks OPENXML-vormingus. Seda konfiguratsiooni kasutatakse hankija maksete töötlemiseks.
 
 Selles näites loote konfiguratsiooni näidisettevõttele Litware, Inc. Neid etappe saab teha ka GBSI ettevõttes.
 
-Etappide lõpuleviimiseks, peate esmalt läbima protseduuri Pakkuja konfiguratsiooni loomine ning aktiivseks märkimine etapid. Samuti peab teil olema Exceli fail, mis imporditakse malli loomisel. Sellele failile pääseb juurde [Maksearuande mallist](https://go.microsoft.com/fwlink/?linkid=862266).
+Etappide lõpuleviimiseks, peate esmalt läbima teemas „Pakkuja konfiguratsiooni loomine ning aktiivseks märkimine” kirjeldatudetapid. Samuti peab teil olema Exceli fail, mis imporditakse malli loomisel. Sellele failile pääseb juurde [Maksearuande mallist](https://go.microsoft.com/fwlink/?linkid=862266).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Makse andmemudeli konfiguratsiooni üleslaadimine
@@ -55,7 +55,7 @@ Etappide lõpuleviimiseks, peate esmalt läbima protseduuri Pakkuja konfiguratsi
 3. Rippdialoogi avamiseks valige käsk **Loo konfiguratsioon**.
 4. Väljas **Uus** sisestage `Format based on data model PaymentModel`. Looge vorming, mis põhineb andmemudelil PaymentModel.
 5. Kirjutage välja **Nimi** järgmist: `Sample worksheet report`. Töölehe aruande näide  
-6. Kirjutage välja **Kirjeldus** järgmist: `Sample worksheet report for vendors’ payments`. Töölehe aruande näide hankijate maksete jaoks.  
+6. Kirjutage välja **Kirjeldus** järgmist: `Sample worksheet report for vendors' payments`. Töölehe aruande näide hankijate maksete jaoks.  
 7. Sisestage või valige väärtus väljal **Andmemudeli definitsioon**. Valige määratlus **CustomerCreditTransferInitiation**.  
 8. Valige **Konfiguratsiooni loomine**.
 

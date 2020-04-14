@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26a3dee8b73ae710def7e526ceefa7194171d716
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a261acee47c6d52e3a1390d0e55cb3f9d197efec
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182665"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142233"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Elektroonilise aruandluse konfiguratsioonide kujundamine sissetulevate dokumentide sõelumiseks
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Protseduur näitab, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone sissetuleva elektroonilise dokumendi sõelumiseks. Selles protseduuris selgitatakse, kuidas importida näidisettevõtte Litware, Inc. jaoks loodud elektroonilise aruandluse (ER) konfiguratsioone ja neid kasutada sissetulevate elektrooniliste dokumentide sõelumiseks. Selle protseduuri toimingute lõpuleviimiseks peate esmalt läbima protseduuri „ER Konfiguratsioonipakkuja loomine ja selle märkimine aktiivseks“.
+Protseduur näitab, kuidas kujundada elektroonilise aruandluse (ER) konfiguratsioone sissetuleva elektroonilise dokumendi sõelumiseks. Selles protseduuris selgitatakse, kuidas importida näidisettevõtte Litware, Inc. jaoks loodud elektroonilise aruandluse (ER) konfiguratsioone ja neid kasutada sissetulevate elektrooniliste dokumentide sõelumiseks. Selle protseduuri toimingute lõpuleviimiseks peate esmalt läbima protseduuri „ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks”.
 
 Protseduur on loodud kasutajatele, kellele on määratud süsteemiadministraatori või elektroonilise aruandluse arendaja roll. 
 
-Need etapid saab lõpule viia ükskõik millise andmekomplekti abil. Enne alustamist laadige alla ja salvestage teemas „Sissetulevate dokumentide sõelumine avalduse andmete värskendamiseks” loetletud failid (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)). Failid on järgmised: EFSTA model.xml EFSTA format.xml Response1.xml Response2.xml Response3.xml, Response4.xml.
+Need etapid saab lõpule viia ükskõik millise andmekomplekti abil. Enne alustamist laadige alla ja salvestage teemas „Sissetulevate dokumentide sõelumine avalduse andmete värskendamiseks” loetletud failid (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Failid on järgmised: EFSTA model.xml EFSTA format.xml Response1.xml Response2.xml Response3.xml, Response4.xml.
 
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
     * Veenduge, et näidisettevõtte Litware, Inc. konfiguratsioonipakkuja on saadaval ja tähistatud aktiivsena. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud juhised.  
@@ -81,12 +81,12 @@ Importige ER-i mudeli konfiguratsioon, mis sisaldab näidisandmemudelit, mis on 
 ## <a name="run-model-mapping-of-er-format-configured-for-parsing-incoming-files"></a>Sissetulevate failide sõelumiseks konfigureeritud ER-i vormingu mudelivastenduse käitamine
 Käivitate loodud mudeli vastendamise testimise eesmärgil, et vaadata, kuidas konfigureeritud ER-i vorming sõelub sissetulevaid teenuse vastuseid. See etapp kasutab erinevaid XML-faile, et simuleerida veebiteenuste vastuste eri tüüpe.   
 1. Avage fail Response1.xml XML-lugeris, nt veebibrauseris. Pange tähele, et fail sisaldab lõpuleviidud kande kinnituse üksikasju (juurelement on „TraC”).   
-2. Klõpsake nuppu Käivita.
+2. Klõpsake käsku Käita.
     * Klõpsake käsku Sirvi ja vali fail Response1.xml.  
 3. Klõpsake nuppu OK.
     * Vaadake loodud väljundit. Pange tähele, et vastusetüüp on õigesti tuvastatud ja sõelutud (ERModelEnumDataSourceHandler#EFSTA model#enumType#C tähendab kande lõpuleviimise juhtumit).   
     * Avage fail Response2.xml XML-lugejas. Pange tähele, et fail sisaldab viimase lõpuleviidud kande teavet (juurelement on „Tra”).   
-4. Klõpsake nuppu Käivita.
+4. Klõpsake käsku Käita.
     * Klõpsake käsku Sirvi ja vali fail Response2.xml.  
 5. Klõpsake nuppu OK.
     * Vaadake loodud väljundit. Pange tähele, et vastusetüüp on õigesti tuvastatud ja sõelutud (ERModelEnumDataSourceHandler#EFSTA model#enumType#R tähendab süsteemi taaskäivitamise juhtumit).   
@@ -96,7 +96,7 @@ Käivitate loodud mudeli vastendamise testimise eesmärgil, et vaadata, kuidas k
 7. Klõpsake nuppu OK.
     * Vaadake loodud väljundit. Pange tähele, et vastusetüüp on õigesti tuvastatud kui toetamata (ERModelEnumDataSourceHandler#EFSTA model#enumType#U). Vastav teade lisati teabelogisse (ER-i kinnitamissätte kohaselt) ja enamik andmemudelist pole täidetud.   
     * Avage fail Response4.xml XML-lugejas. Pange tähele, et selle faili struktuur on peaaegu sama mis sõelutud failil Response1.xml, v.a juurelemendi „TraC” pesastatud elementide seeria.   
-8. Klõpsake nuppu Käivita.
+8. Klõpsake käsku Käita.
     * Klõpsake käsku Sirvi ja valige fail Response4.xml.  
 9. Klõpsake nuppu OK.
     * Vaadake loodud väljundit. Pange tähele, et vastusetüüp on õigesti tuvastatud kui toetamata (ERModelEnumDataSourceHandler#EFSTA model#enumType#U). Vastav teade lisati teabelogisse ja enamik andmemudelist pole täidetud. Selle põhjuseks ons ee, et ER-i vormingu praegune säte eeldab sissetuleva faili juurüksuse pesastatud elementide teatud jada.   

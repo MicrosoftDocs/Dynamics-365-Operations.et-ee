@@ -1,5 +1,5 @@
 ---
-title: Kuluobjekti kontrollijate pääsuõiguste määratlemine
+title: Kuluobjekti kontrollerite pääsuõigused
 description: See teema käsitleb kuluobjekti kontrollijate pääsuõigusi.
 author: AndersGirke
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e86f087a1df0f133dbaa5491cf5ba9e57b0e12d9
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: af6ddc86bb6313387aa9c6ccc347d2a1c5fac50a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551722"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154478"
 ---
-# <a name="define-access-rights-for-cost-object-controllers"></a>Kuluobjekti kontrollijate pääsuõiguste määratlemine
+# <a name="access-rights-for-cost-object-controllers"></a>Kuluobjekti kontrollerite pääsuõigused
 
 [!include [banner](../includes/banner.md)]
 

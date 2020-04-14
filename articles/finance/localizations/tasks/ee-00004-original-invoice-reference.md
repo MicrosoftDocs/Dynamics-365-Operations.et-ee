@@ -15,16 +15,16 @@ ms.search.region: Estonia
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a7b8ca0c743b3c8cbcc22e33242911c307c1fd6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f9af8b1cbd5ac8e03b3841b4afd2e71a5193b358
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175120"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141536"
 ---
 # <a name="original-invoice-reference-eastern-europe"></a>Algse arve viide (Ida-Euroopa)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 See ülesanne näitab teile, kuidas luua parandusridu müügitellimuse kreeditarvele. Ülesande loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Poola, andmeid.
 

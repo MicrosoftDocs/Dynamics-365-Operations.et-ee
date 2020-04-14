@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bce2674b321475bc516724f74bac2d3a648e257
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 81ebd845d9900d891b17618b3719d45060a1968f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843357"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148419"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Tellimuste lähetamine otsetarnetena
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selles teemas näidatakse, kuidas luua müügitellimuse otsetarnet. Otsetarnet kasutatakse siis, kui soovite saata kaubad kliendile otse oma hankijalt, ilma et tarniksite need esmalt oma lattu. Saate seda protseduuri käitada demoettevõtte USMF-i andmetega või oma andmetega. Teise alamülesande „Loo töölaualt otsetarneid” edukaks lõpuleviimiseks veenduge, et kaubal, mille müügitellimuselt valite, on väljastatud tooteetaloni kiirkaardil Ost määratud vaikehankija.
 
@@ -37,7 +37,7 @@ Selles teemas näidatakse, kuidas luua müügitellimuse otsetarnet. Otsetarnet k
 5. Valige toimingupaanil **Müügitellimus**, seejärel valige **Otsetarne**. Lehel Tarne loomine on kõik avatud müügitellimuse read müügitellimuselt kopeeritud kujul. Saate vaadata tellimuse üksikasju ja vajaduse korral muuta üksikasju nagu ostu kogus ja hinnatingimused, enne otsetarne loomist.  
 6. Valige **Jah** väljal **Kaasa kõik**.
     - Kui soovite luua otsetarne ainult müügitellimuse ridade alamkogumile, valige need eraldi.  
-    - Väli **Hankija konto** võib juba hankija numbrit sisaldada või mitte sisaldada. Kui tootele on (seotud kauba laovarudes) seadistatud vaikehankija, kopeeritakse reale see hankija. Vastasel korral tuleb hankija sisestada käsitsi. Selles näites valime järgmises sammus uue hankija, isegi juhul, kui mõni on juba lisatud.   
+    - Väli **Hankija konto** võib juba hankija numbrit sisaldada või mitte sisaldada. Kui tootele on (seotud kauba laovarudes) seadistatud vaikehankija, kopeeritakse reale see hankija. Vastasel korral tuleb hankija sisestada käsitsi. Selles näites valime järgmises etapis uue hankija, isegi juhul, kui mõni on juba lisatud.   
 7. Sisestage või valige väärtus väljale **Hankija konto**, seejärel valige **OK** Saate teate, et ostutellimus on nüüd loodud.   
 8. Laiendage jaotist **Rea üksikasjad**.
 9. Valige vahekaart **Tarne** ja kontrollige, et väli **Otsetarne** oleks määratud olekusse **Jah**.

@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
-ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
+ms.openlocfilehash: e8210369139b3c3d4123deff5279abb26b1cbb17
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "2559185"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145958"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min-max täiendamisprotsessi seadistamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, mis kasutab minimaalse/maksimaalse täiendamise strateegiat. Kui varud jäävad allapoole minimaalset taset, luuakse töö asukoha täiendamiseks. Protseduur näitab ka seda, kuidas kasutada fikseeritud komplekteerimise asukohti, et lubada uuesti täiendamist isegi siis, kui varud jäävad allapoole minimaalset taset, ja, kuidas lubada täiendamisprotsessi regulaarset käitamist, kasutades pakett-tööd. Neid ülesandeid täidab üldjuhul laohaldur. Saate seda protseduuri käitada USMF-i demoandmete ettevõttes, kasutades allpool olevaid näidisväärtusi, või käitada seda oma andmetega. Kui kasutate oma andmeid, veenduge, et teil on ladu, mis on laohaldusprotsessideks lubatud.
 
@@ -35,7 +35,7 @@ Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, m
 1. Avage **Navigeerimispaan > Moodulid > Laohaldus > Seadistus > Ladu > Fikseeritud asukohad**. See on valikuline ülesanne miinimumi-maksimumi täiendamiseks, kuid kui kasutate fikseeritud komplekteerimise asukohta, võimaldab see varude täiendamist, isegi kui see langeb allapoole minimaalset taset, kuna süsteem suudab määrata, milliseid kaupu on vaja täiendada, isegi, kui ühtki kaupa pole alles.
 2. Klõpsake valikut **Uus**.
 3. Sisestage või valige väärtus väljale **Kauba kood**. USMF-i kasutamisel saate valida kauba A0001.  
-4. Sisestage või valige väärtus väljale **Sait**. Kui te kasutate USMF-i, saate valida tegevuskoha 2.  
+4. Sisestage või valige väärtus väljale **Sait**. Kui te kasutate USMF-i, saate valida saidi 2.  
 5. Sisestage või valige väärtus väljale **Ladu**. Kui kasutate USMF-i, saate valida lao 24.  
 6. Sisestage või valige väärtus väljal **Asukoht**. Kui kasutate USMF-i, saate teha valiku CP-003.  
 7. Sulgege leht.
@@ -46,7 +46,7 @@ Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, m
 3. Paanil **Toimingupaan** klõpsake valikut **Uus**.
 4. Sisestage väärtus väljale **Nimi**.
 5. Tehke väljal **Töö tüüp** valik Komplekteeri.
-6. Sisestage või valige väärtus väljale **Sait**. Kui te kasutate USMF-i, saate valida tegevuskoha 2.  
+6. Sisestage või valige väärtus väljale **Sait**. Kui te kasutate USMF-i, saate valida saidi 2.  
 7. Sisestage või valige väärtus väljale **Ladu**. Kui kasutate USMF-i, saate valida lao 24.  
 8. Klõpsake valikut **Salvesta**.
 9. Jaotises **Read** klõpsake valikut **Uus**.

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73f2c10d7462c4b52a2b36dd5f221593707d2f4f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5408fd883e91bbff465434ab23974f22bb0f07da
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184665"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142991"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Vormingute muutmine Exceli mallide uuesti rakendamisega
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Nende etappide lõpuleviimiseks peate esmalt läbima protseduuri „ER-i konfiguratsiooni loomine aruannete loomiseks vormingus OPENXML”.
 
@@ -49,7 +49,7 @@ See protseduur selgitab, kuidas muuta elektroonilise aruandluse (ER) vormingu ko
     * Avage mustandversioon valitud elektroonilise aruandluse vormigu redigeerimiseks.  
 2. Klõpsake toimingupaanil nuppu Impordi.
 3. Klõpsake käsku Uuenda Excelist.
-    * Klõpsake valikut Uuenda malli ja seejärel valige fail SampleVendPaymWsReport2.xlsx.  
+    * Klõpsake valikut „Uuenda malli” ja seejärel valige fail SampleVendPaymWsReport2.xlsx.  
     * Klõpsake nuppu Värskenda malli ja sirvige, et saada varasem allalaaditud fail SampleVendPaymWsReport2.xlsx.  
 4. Klõpsake nuppu OK.
     * Mall SampleVendPaymWsReport2.xlsx on rakendatud. Elektroonilise aruandluse vormingu struktuur sünkroonitakse selle malli sisuga, mille elemendid lisatakse elektroonilise aruandluse vormingule. Kõik olemasolevad elektroonilise aruandluse vormingu elemendid, mis pole malli kaasatud, eemaldatakse vormingu definitsioonist.  

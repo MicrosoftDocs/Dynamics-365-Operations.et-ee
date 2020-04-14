@@ -3,7 +3,7 @@ title: Krediidihalduse parameetrite seadistus
 description: See teema kirjeldab suvandeid, mida saate kasutada krediidihalduse konfigureerimiseks teie ettevõtte vajaduste täitmiseks.
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/04/2019
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,23 +15,22 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071656"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154524"
 ---
 # <a name="credit-management-parameters-setup"></a>Krediidihalduse parameetrite seadistus
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-See teema kirjeldab suvandeid, mida saate kasutada krediidihalduse konfigureerimiseks teie ettevõtte vajaduste täitmiseks. Krediidihalduse funktsioonide kasutamise alustamiseks seadistage parameetrid lehel **Krediidihalduse parameetrid** (**Krediidihaldus \> Seadistus \> Krediidihalduse parameetrid**).
+See teema kirjeldab suvandeid, mida saate kasutada krediidihalduse konfigureerimiseks teie ettevõtte vajaduste täitmiseks. Krediidihalduse funktsioonide kasutamiseks seadistage parameetrid lehel **Krediidihalduse ja võlanõuete parameetrid** (**Krediidihaldus ja võlanõuded \> Seadistus \> Krediidihalduse ja võlanõuete parameetrid**).
 
 ## <a name="credit-parameters"></a>Krediidi parameetrid
 
-On neli kiirkaarti, kus saate muuta parameetreid, mis kontrollivad krediidihaldust: **Krediidihalduse ootelolekud**, **Krediidihalduse kontrollpunkt**, **Krediidihalduse statistika** ja **Krediidilimiidid**. Järgmistes jaotistes kirjeldatakse sätteid, mis on saadaval igal kiirkaardil.
+Jaotises **Krediit** on neli kiirkaarti, kus saate muuta parameetreid, mis kontrollivad krediidihaldust: **Krediidihalduse ootelolekud**, **Krediidihalduse kontrollpunkt**, **Krediidihalduse statistika** ja **Krediidilimiidid**. Järgmistes jaotistes kirjeldatakse sätteid, mis on saadaval igal kiirkaardil.
 
 ### <a name="credit-holds"></a>Kreediti ootelolekud
 

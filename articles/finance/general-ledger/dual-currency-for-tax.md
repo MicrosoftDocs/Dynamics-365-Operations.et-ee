@@ -18,16 +18,15 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9318f518135bf7aa545cdb5ddd2e68c54a6d211
-ms.sourcegitcommit: bcc8cba8905ed51797d36e1712d7360452cfc5c5
+ms.openlocfilehash: 863403dc3b2444f00f0cac27a494fc49d3d70de7
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "3090560"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161588"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Käibemaksu topeltvaluuta tugi
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas selgitatakse, kuidas laiendada käibemaksude topeltvaluuta arvestust ja käibemaksu arvutamise, sisestamise ja tasakaalustuste mõju.
 
@@ -35,7 +34,7 @@ Rakenduse Dynamics 365 Finance topeltvaluuta funktsioon lisati versioonis 8.1 (o
 
 Varasemates versioonides teisendati kanded aruandlusvaluutasse järgmises järjestuses. 
 
-Kande kogusumma arvutati kande valuutas > kande summa teisendati arvestusvaluutaks > arvestusvaluuta summa teisendati aruandlusvaluutaks
+- Kande kogusumma arvutati kande valuutas > kande summa teisendati arvestusvaluutaks > arvestusvaluuta summa teisendati aruandlusvaluutaks
 
 Pärast topeltvaluuta funktsiooni lubamist teisendati kanded aruandlusvaluutasse järgmises järjestuses.
 
@@ -49,8 +48,6 @@ Topeltvaluuta toe tulemusena on funktsiooni halduses saadaval kaks uut funktsioo
 - Aruandevaluuta maksu tasakaalustuse automaatne saldo (väljaanne versioonis 10.0.11)
 
 Käibemaksu topeltvaluuta tugi tagab, et maksud arvutatakse maksu valuutas täpselt ja et käibemaksu tasakaalustuse saldo arvutatakse täpselt nii arvestusvaluutas kui ka aruandlusvaluutas. 
-
-Uued funktsioonid on praegu lubatud privaatse eelvaate klientidele. Funktsioonide lubamiseks tõstatage vastavate kanalite kaudu Microsoftile hooldustaotlus.
 
 ## <a name="sales-tax-conversion"></a>Käibemaksu teisendamine
 

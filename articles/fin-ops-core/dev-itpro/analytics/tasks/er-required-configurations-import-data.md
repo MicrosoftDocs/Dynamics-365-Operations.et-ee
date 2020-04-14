@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48a327fc5033a7478d2ae5e401ffdce6e4546ad0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042869"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143311"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>Elektrooniline aruandlus. Nõutavate konfiguratsioonide loomine andmete importimiseks välisest failist
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Järgmised juhised selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmeid välisest failist rakendusse. Juhendit järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Juhendis ülesannete lõpetamiseks peab esmalt täitma juhises "ER konfiguratsioonipakkuja loomine ja selle aktiivseks märkimine" toodud toimingud. Need toimingud saab lõpule viia USMF-i andmekomplekti abil. Samuti peate alla laadima ja kohalikult salvestama järgmised failid, kasutades elektroonilise aruandluse ülevaate teemas olevaid linke (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Järgmised juhised selgitavad, kuidas süsteemiadministraatori või elektroonilise aruandluse arendaja rollis olev kasutaja saab kujundada elektroonilise aruandluse (ER) konfiguratsioone, et importida andmeid välisest failist rakendusse. Juhendit järgides loote näidisettevõtte Litware, Inc. jaoks vajalikud ER-i konfiguratsioonid. Juhendis ülesannete lõpetamiseks peab esmalt täitma juhises „ER Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” toodud toimingud. Need toimingud saab lõpule viia USMF-i andmekomplekti abil. Samuti peate alla laadima ja kohalikult salvestama järgmised failid, kasutades elektroonilise aruandluse ülevaate teemas olevaid linke (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
 Elektrooniline aruandlus pakub ärikasutajatele võimalust konfigureerida väliste XML- või TXT-vormingus andmefailide importimisprotsessi. Esmalt tuleb imporditavate andmete tähistamiseks kujundada abstraktse andmemudeli ja elektroonilise aruandluse andmemudeli konfiguratsioon. Järgmisena peate määratlema imporditava faili struktuuri ja meetodi, mida kasutate andmete portimiseks failist abstraktseks andmemudeliks. Abstraktse andmemudeli jaoks tuleb luua elektroonilise aruandluse vormingu konfiguratsioon, mis vastendab kujundatud andmemudelile. Seejärel tuleb andmemudeli konfiguratsiooni laiendada vastendamisega, mis kirjeldab, kuidas imporditud andmed püsivad abstraktse andmemudelina ja kuidas seda kasutatakse tabelite värskendamiseks.  Elektroonilise aruandluse andmemudeli konfiguratsiooni tuleb täiendada uue mudeli vastendusega, mis kirjeldab andmemudeli sidumist rakenduse sihtkohtadega.  
 
@@ -36,7 +36,7 @@ Järgmine stsenaarium näitab elektroonilise aruandluse andmete importimise või
 ## <a name="add-a-new-er-model-configuration"></a>Uue elektroonilise aruandluse mudeli konfiguratsiooni lisamine
 1. Avage Organisatsiooni haldamine > Tööruumid > Elektrooniline aruandlus.
 
-    Veenduge, et konfiguratsioonipakkuja näidisettevõttele Litware, Inc. on saadaval ja märgitud aktiivseks. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsiooni pakkuja loomine ja selle märkimine aktiivseks” esitatud juhised.   
+    Veenduge, et konfiguratsioonipakkuja näidisettevõttele „Litware, Inc.” on saadaval ja märgitud aktiivseks. Kui te ei näe seda konfiguratsioonipakkujat, peate esmalt läbima protseduuris „Konfiguratsioonipakkuja loomine ja selle märkimine aktiivseks” esitatud juhised.   
 
 2. Klõpsake valikut Aruandluse konfiguratsioonid.
 
@@ -84,7 +84,7 @@ Selles alamülesandes olevad juhised näitavad teile, kuidas saab luua uue vormi
 3. Klõpsake nuppu Laienda/ahenda.
 4. Klõpsake nuppu Laienda/ahenda.
 
-    Kujundatud vorming tähistab välise faili eeldatavat struktuuri. See fail peab olema XML-vormingus ja sellel peab olema tasakaalustuse juurelement. Iga hankijakannet tähistatakse kandeelemendiga, mis on määratletud kui nullist mitmeni mitmekordsuse olemasoluga. See tähendab, et sissetulev fail võib sisaldada nullist kuni mitme kandeni ükskõik mis arvu. Kande elemendi pesastatud elemendid tähistavad ühe kande atribuute. Pange tähele, et kõik atribuudid, välja arvatud riik, on tähistatud kohustuslikuks, mis tähendab, et nende olemasolu faili importimisel on kohustuslik.   
+    Kujundatud vorming tähistab välise faili eeldatavat struktuuri. See fail peab olema XML-vormingus ja sellel peab olema tasakaalustuse juurelement. Iga hankijakannet tähistatakse kandeelemendiga, mis on määratletud kui nullist mitmeni mitmekordsuse olemasoluga. See tähendab, et sissetulev fail võib sisaldada nullist kuni mitme kandeni ükskõik mis arvu. „Kande” elemendi pesastatud elemendid tähistavad ühe kande atribuute. Pange tähele, et kõik atribuudid, välja arvatud riik, on tähistatud kohustuslikuks, mis tähendab, et nende olemasolu faili importimisel on kohustuslik.   
 
 ## <a name="review-the-settings-of-the-format-mapping-to-the-data-model"></a>Vaadake üle vormingu andmemudeliga vastendamise sätted
 1. Klõpsake nuppu Vormingu vastendamine mudeliga.
@@ -104,7 +104,7 @@ Selles alamülesandes olevad juhised näitavad teile, kuidas saab luua uue vormi
 9. Puuvaates laiendage valikut „format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record”.
 10. Puuvaates valige „format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record“.
 
-    Pange tähele, et kohustuslike ja valikuliste vorminguelementide esitlus erineb eelmääratletud vorminguga andmeallika komponendist.  
+    Pange tähele, et kohustuslike ja valikuliste vorminguelementide esitlus erineb eelmääratletud „vorminguga” andmeallika komponendist.  
 11. Puuvaates laiendage „Kanded: Kirjete loend = format.settlement.'$enumerated”.
 
     Pange tähele, et imporditud faili struktuuri määratleva vormingu elemendid on seotud kohandatud andmemudeli elementidega. Nende sidumiste põhjal salvestatakse imporditud XML-fail käitusajal olemasolevasse andmemudelisse. Pöörake tähelepanu riigielemendi sidumisele. Sissetulevas failis, millel pole sellist elementi, täidetakse mis tahes kande elemendi puhul vaikimisi riigikood „USA” andmemudelis.  

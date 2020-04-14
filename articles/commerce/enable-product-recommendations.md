@@ -3,7 +3,7 @@ title: Tootesoovituste lubamine
 description: Selles teemas selgitatakse, kuidas teha tehisintellekti masinõppel (AI-ML) põhinevad tootesoovitused rakenduses Microsoft Dynamics 365 Commerce klientidele kättesaadavaks.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d3f1bc2526eeacb4bd6338a0679eadd95a75989
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: d8a579be5df3c5e7718a6fb4720341f3bd01a64c
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024952"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154409"
 ---
 # <a name="enable-product-recommendations"></a>Tootesoovituste lubamine
 
@@ -38,7 +38,7 @@ Enne lubamist võtke arvesse, et tootesoovitusi toetatakse ainult kaubanduse kli
 
 ADLS lubamise juhiste saamiseks vaadake teemat [Kuidas lubada ADLS Dynamics 365 keskkonnas](enable-ADLS-environment.md).
 
-Lisaks veenduge, et RetailSale’i mõõtmised oleksid lubatud. Selle seadistusprotsessi kohta lisateabe saamiseks minge [siia.](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-measures)
+Lisaks veenduge, et RetailSale’i mõõtmised oleksid lubatud. Selle seadistusprotsessi kohta lisateabe saamiseks minge [siia.](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)
 
 
 ## <a name="turn-on-recommendations"></a>Soovituste sisselülitamine
@@ -70,13 +70,21 @@ Lisateavet isikupärastatud soovituste saamise kohta vaadake jaotisest [Isikupä
 
 [Tootesoovituste ülevaade](product-recommendations.md)
 
-[Luba isikupärastatud soovitused](personalized-recommendations.md)
+[ADLS-i lubamine Dynamics 365 Commerce keskkonnas](enable-adls-environment.md)
 
-[Tootesoovituste loendite lisamine lehtedele](add-reco-list-to-page.md)
+[Isikupärastatud soovituste lubamine](personalized-recommendations.md)
 
-[Kassaseadmetele soovituste paneeli lisamine](add-recommendations-control-pos-screen.md)
+[Isikupärastatud tootesoovitustest loobumine](personalization-gdpr.md)
 
-[Tootekogumi mooduli ülevaade](product-collection-module-overview.md)
+[Tootesoovituste lisamine kassas](product.md)
 
-[ADLS lubamine Dynamics 365 keskkonnas](enable-ADLS-environment.md)
+[Soovituste lisamine kandeekraanile](add-recommendations-control-pos-screen.md)
+
+[AI-ML-i soovituste tulemuste kohandamine](modify-product-recommendation-results.md)
+
+[Loo kuraatorite soovitused käsitsi](create-editorial-recommendation-lists.md)
+
+[Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
+
+[Tootesoovituste KKK](faq-recommendations.md)
 

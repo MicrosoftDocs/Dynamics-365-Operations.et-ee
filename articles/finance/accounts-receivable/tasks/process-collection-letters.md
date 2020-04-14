@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 326d9375670cb4f4990a4f7070bf923a28b2c025
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2b8ce102086535a5462d3fa0e8ac76e9ec3dd15c
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177388"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106855"
 ---
 # <a name="process-collection-letters"></a>Märgukirjade töötlemine
 
@@ -70,7 +70,11 @@ See teema kirjeldab märgukirjade loomist, printimist ja sisestamist. See ülesa
     1. Valige suvand väljal **Prinditud**.
 
 ## <a name="control-collection-letters-at-the-customer-level"></a>Märgukirjade kontrollimine kliendi tasemel
-Saate ka seadistada märgukirjad kliendi tasemel nii, et iga kande märgukirjakoodi jälgitakse, kuid märgukirja töötlemine põhineb ühe märgukirja tasemel, mis on kliendi jaoks talletatud. Üks märgukiri sisaldab kõiki kandeid, mis on kliendi tähtaja ületanud. Ajapikenduse päeva jälgitakse nüüd kliendi tasemel, järgmist märgukirja ei saadeta enne ajapikenduse päevade arvu möödumist enne järgmise märgukirja saatmise tähtaega, kuigi pärast viimase märgukirja saatmist on kannete tähtaeg ületatud. See suvand vähendab kliendi kohta saadetavate märgukirjade arvu. 
+Kui märgukirjad seadistatakse kandetasemel, võidakse luua mitu kirja kliendi kohta kande ajalise jaotuse põhjal. Kui kanded kuvatakse muus kirjade järjestuses, luuakse eraldi märgukirjad iga tähtaja ületanud kandegrupi jaoks kliendi kohta. Seetõttu võib üks klient saada näiteks ühe märgukirja 60 päeva tähtaja ületanud kannete kohta ja teise märgukirja 90 päeva tähtaja ületanud kannete kohta. 
+
+Iga märgukiri on seostatud ka märgukirjakoodiga. Märgukirjakood seostatakse üksikute kannetega ja seda kasutatakse määratlemiseks, millal tuleks luua iga kande jaoks järgmine märgukiri. Näiteks kui kanne on 30 päeva tähtaja ületanud, määratleb märgukirjakood, et järgmine märgukiri saadetakse siis, kui kanne on 60 päeva üle tähtaja, kui seda pole selleks ajaks ära makstud. 
+
+Märgukirju saab seadistada ka klienditasemel. Sellisel juhul iga kande märgukirjakoodi jälgitakse, kuid märgukirja töötlemine põhineb ühe märgukirja tasemel, mis on kliendi jaoks talletatud. Üks märgukiri sisaldab kõiki kandeid, mis on kliendi tähtaja ületanud. Ajapikenduse päeva jälgitakse nüüd kliendi tasemel, järgmist märgukirja ei saadeta enne ajapikenduse päevade arvu möödumist enne järgmise märgukirja saatmise tähtaega, kuigi pärast viimase märgukirja saatmist oli kannete tähtaeg ületatud. See suvand aitab vähendada iga kliendi kohta saadetavate märgukirjade arvu.
 
 ### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>Märgukirjade kontrollimise seadistamine kliendi tasemel
 1.  Minge **Navigatsioonipaan > Moodulid > Krediit ja sissenõuded > Seadistus > Müügireskontro parameetrid** ja klõpsake vahekaardil **Sissenõuded**. 

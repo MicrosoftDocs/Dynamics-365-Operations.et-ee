@@ -3,7 +3,7 @@ title: Andmeimpordi ja -ekspordi tööde ülevaade
 description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 02/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b852a73268251241cd66a07d7e4f4720706c0d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184550"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124608"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
@@ -191,8 +191,11 @@ Puhastamise protsessi planeerimisel tuleb täpsustada puhastuse kriteeriumite j�
 
 -   **Ajaloo säilitamise päevade arv** – seda sätet kasutatakse säilitatava käivitusajaloo hulga kontrollimiseks. Väljal määratud päevade arv. Kui puhastustöö on ajastatud korduva pakett-tööna, siis see säte tegutseb nagu pidevalt teisaldatav aken, jättes alati määratud päevade arvu puutumata kui ülejäänud kustutatakse. Vaikeväärtus on 7.
 
--   **Töö täitmiseks minevate tundide arv** – sõltuvalt puhastatavad ajaloo kogusest võib puhastustöö täitmisaeg varieeruda mõnest minutist kuni mõne tunnini. Kuna nimetatud tabelite puhastamine tuleb teha siis, kui süsteemis pole muud andmehaldustegevust, on oluline veenduda, et puhastustöö käivitub ja lõpetab enne äritegevuse alustamist.
+-   **Töö täitmiseks minevate tundide arv** – sõltuvalt puhastatavad ajaloo kogusest võib puhastustöö täitmisaeg varieeruda mõnest minutist kuni mõne tunnini. See parameeter peab olema seatud tundide arvule, mis töö täitmiseks kulub. Pärast seda, kui puhastamise töö on määratud arv tunde töötanud, töö väljub ja jätkab puhastamist järgmine kord, mil see kordumise graafiku põhjal käitatakse.
 
     Maksimaalse käivitusaja saab määrata, sätestades maksimumpiirangu tundide arvule, mille jooksul töö peab selle sätte abil käivitama. Puhastamise loogika läbib ühe töö käivituse ID korraga kronoloogiliselt korraldatud jadas, millest seotud tööajaloo vanim puhastatakse esimesena. See lõpetab uute käivituse ID-de valimise puhastamiseks, kui järelejäänud täitmise kestus on määratus kestuse viimase 10% sees. Mõnel juhul eeldatakse, et puhastamise töö kestab kauem kui määratud maksimaalne aeg. See sõltub suurel määral praeguse käivituse ID-ga kustutatavate kirjete arvust, mis käivitati enne 10% künnise saavutamist. Alustatud puhastamine tuleb lõpule viia, et tagada andmete terviklikkus, mis tähendab, et puhastamine jätkub, vaatamata määratud piirmäärangu ületamisele. Kui see on lõpule jõudnud, uusi käivituse ID-sid pole valitud ja puhastamise töö viiakse lõpule. Järelejäänud täitmise ajalugu, mida ei puhastata piisava täitmisaja puudumise tõttu, võetakse tööle järgmisel korral, kui puhastamine on sätestatud. Selle sätte vaikeväärtus ja miinimumväärtus on seatud 2 tunniks.
 
 -   **Korduvpartii** – puhastamise tööd saab käitada ühekordse käsitsi käivitusena või seda saab ajastada ka korduva partii käivitamise jaoks. Partiid saab ajastada, kasutades seadistusi **Käivita taustal**, mis on standardne partiikomplekt.
+
+> [!NOTE]
+> Kui vahetabelite kirjeid täielikult ei puhastata, veenduge, et puhastamise töö oleks plaanitud käivituma korduvalt. Nagu eespool selgitatud, siis mis tahes puhastamise käivitamisel töö puhastab ainult nii palju käivitamise ID-sid, nagu on ettenähtud maksimaalsete tundide jooksul võimalik. Mis tahes allesjäänud vahekirjete puhastamise jätkamiseks peab töö olema ajastatud töötama perioodiliselt.

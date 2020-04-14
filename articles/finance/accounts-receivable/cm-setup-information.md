@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c54c74af6f2c1be9aedfa792d0676d1165fb0ab8
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 524ae7b3062893ed07170227ea9b8908cd5858e1
+ms.sourcegitcommit: 1fb34abfe3382bc00237a2c00184fe201c12229f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015194"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "3151293"
 ---
 # <a name="credit-management-setup"></a>Krediidihalduse seadistamine 
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="credit-management-workflows"></a>Krediidihalduse töövood
 
@@ -41,13 +40,17 @@ Krediidilimiidi korrigeerimiste haldamiseks kasutatavate töövoogude määratle
 
 Saate müügitellimuse ootele panna, kui tellimuse maksetingimused ei vasta kliendi vaikimisi maksetingimustele. Siiski on vahel maksetingimused erinevad, kuid siiski piisavalt sarnased, et te ei soovi tellimust ootele panna. Saate järjestada maksetingimusi nii, et mõnel neist on sama aste, samas kui teistel on kõrgem või madalam aste.
 
-Kui maksetingimuste reitingud on aktiivsed, pannakse müügitellimused ootele, kui tellimuse maksetingimustel on kõrgem aste kui kliendi vaikimisi maksetingimustel.
+Kui maksetingimuste reitingud on aktiivsed ja tellimuse maksetingimustel on kõrgem aste kui kliendi vaikimisi maksetingimustel, pannakse müügitellimused ootele.
+
+Maksetingimuste järjestuse saate seadistada lehel **Krediit ja võlanõuded \> Seadistus \> Krediidihalduse seadistus \> Maksetingimuste järjestamine**  
 
 ### <a name="ranking-settlement-discounts"></a>Tasakaalustuse allahindluste hindamine
 
 Saate müügitellimuse ootele panna, kui tellimuse skonto ei vasta kliendi vaikimisi skontole. Siiski on vahel skontod erinevad, kuid siiski piisavalt sarnased, et te ei soovi tellimust ootele panna. Saate järjestada skontosid nii, et mõnel neist on sama aste, samas kui teistel on kõrgem või madalam aste.
 
-Kui tasakaalustuste allahindlused on aktiivsed, pannakse müügitellimused ootele, kui tellimuse skontol on kõrgem aste kui kliendi vaikimisi skontol.
+Kui tasakaalustuste allahindlused on aktiivsed ja tellimuse skontol on kõrgem aste kui kliendi vaikimisi skontol, pannakse müügitellimused ootele.
+
+Maksetingimuste järjestuse saate seadistada lehel **Krediit ja võlanõuded \> Seadistus \> Krediidihalduse seadistus \> Tasakaalustuse allahindluste hindamine**  
 
 ## <a name="reasons"></a>Põhjused
 
@@ -57,7 +60,7 @@ Krediidihalduses kasutatakse mitut tüüpi põhjuseid.
 - Vabastamise põhjused määratakse tellimusele, kui see ootelt vabastatakse.
 - Oleku põhjused näitavad, miks kliendile teatud konto olek määrati.
 
-Põhjuseid saate seadistada lehel **Krediidihalduse põhjused** (**Krediidihaldus \> Seadistus \> Krediidihaldus \> Krediidihalduse põhjused**).
+Põhjuseid saate seadistada lehel **Krediidihalduse põhjused** (**Krediit ja võlanõuded \> Seadistus \> Krediidihalduse seadistus \> Krediidihalduse põhjused**).
 
 1. Valige väljal **Põhjuse tüüp** põhjuse tüüp: **Ootel**, **Vabasta**või **Olek**.
 2. Sisestage väljale **Põhjus** põhjuse nimi.
@@ -67,7 +70,7 @@ Põhjuseid saate seadistada lehel **Krediidihalduse põhjused** (**Krediidihaldu
 
 Krediidihalduse gruppe kasutatakse nende klientide või kliendigruppide tuvastamiseks, kellel on samad krediidihalduse atribuudid. Näiteks saab krediidihalduse gruppe kasutada klientide blokeerimise ja välistamise krediidihalduse reeglite määratlemiseks.
 
-Krediidihalduse gruppe saate luua lehel **Krediidihalduse grupid** (**Krediidihaldus \> Seadistus> Gruppide seadistus \> Krediidihalduse grupid**).
+Krediidihalduse gruppe saate luua lehel **Krediidihalduse grupid** (**Krediit ja võlanõuded \> Seadistus> Krediidihalduse seadistus \> Krediidihalduse grupid**).
 
 1. Valige uue rea loomiseks suvand **Uus**.
 2. Sisestage grupi ID. ID-l võib olla kuni 10 tähemärki.
@@ -79,7 +82,7 @@ Krediidihalduse grupp määratakse kliendile vahekaardil **Krediit ja võlanõud
 
 Saate luua konto olekuid kliendi konto kreediti seisu tuvastamiseks. Saate määrata oleku ja selle mõju arveldamisele ning ootel kättetoimetamise protsessidele. Konto olekuid saab kasutada ka kliendi blokeerimise reeglite määratlemiseks.
 
-Konto olekuid saate luua lehel **Konto olekud** (**Krediidihaldus \> Seadistus> Gruppide seadistus \> Konto olekud**).
+Konto olekuid saate luua lehel **Konto olekud** (**Krediit ja võlanõuded \> Seadistus> Krediidihalduse seadistus \> Konto olekud**).
 
 1. Lisage konto olek ja sisestage kirjeldus, mis tähistab kliendi krediidi seisu. Näiteks kasutage **Normaalne**, et näidata, et klient on heas seisus ja avatud tellimustele kehtib standardne krediidihalduse töötlemine.
 2. Valige väljadel **Arveldamine** ja **Tarne ootel** ooteloleku tüüp, mis peaks kehtima selle konto olekuga klientide korral. Võite panna ootele kogu töötlemise, panna ootele ainult arve töötlemise või üldse töötlemist ootele mitte panna, kui rakendatakse krediidilimiidi reegleid.
@@ -88,7 +91,7 @@ Konto olekuid saate luua lehel **Konto olekud** (**Krediidihaldus \> Seadistus> 
 
 Saate seada sisse punktigrupid riskifaktorite määratlemiseks ning kriteeriumid nende mõõtmiseks. Kui punktigruppi lisatakse andmeid kliendi kohta, arvutatakse iga riskifaktori kohta punktisumma ja kasutatakse seda kliendi riskigruppi panemiseks. Riskigruppi saab kasutada krediidiriski tuvastamiseks ja automaatsete krediidilimiitide arvutamiseks.
 
-Punktigruppe saate luua lehel **Punktigrupid** (**Krediidihaldus \> Seadistus \> Riski seadistus \> Punktigrupid**).
+Punktigruppe saate luua lehel **Punktigrupid** (**Krediit ja võlanõuded \> Seadistus \> Krediidhalduse seadistus \> Risk \> Punktigrupid**).
 
 1. Looge punktigrupp ja sisestage sellele nimi.
 2. Punktigrupi täiendavaks kirjeldamiseks sisestage kirjeldus.
@@ -109,11 +112,11 @@ Punktigruppe saate luua lehel **Punktigrupid** (**Krediidihaldus \> Seadistus \>
     1. Sisestage väljale **Väärtus** kasutaja määratud väärtus, mis tuleks kliendi andmetest esitada.
     2. Sisestage väljale **Punktisumma** see punktisumma, mis tuleks määrata siis, kui esitatud väärtus langeb "väärtusest"/"väärtuseni" vahemikku.
 
-## <a name="risk-assessments"></a>Riskihindamine
+## <a name="risk-classification"></a>Riski klassifikatsioon
 
 Saate määratleda riskihindamised, mida saab klientidele nende riskiskoori põhjal määrata. Riskiskoori arvutamiseks võrreldakse kliendi andmeid iga punktigrupiga. Punktiskummad liidetakse kokku ja lõppskoori võrreldakse riskigrupi seadistuse väärtustega, et tuvastada riskigrupp, kuhu klient kuulub. Seejärel kasutatakse riskigrupi punktisummat kliendile krediidihalduse blokeerimise ja välistamise reeglite määramiseks.
 
-Riskigruppe saate seadistada lehel **Riskihindamine** (**Krediidihaldus \> Seadistus \> Riski seadistus \> Riskihindamine**).
+Riskigruppe saate seadistada lehel **Riskihindamine** (**Krediit ja võlanõuded \> Seadistus \> Krediidihalduse seadistus \> Risk \> Riskihindamine**).
 
 1. Sisestage riskigrupi ID.
 2. Riskigrupi täiendavaks selgitamiseks sisestage kirjeldus.
@@ -122,7 +125,7 @@ Riskigruppe saate seadistada lehel **Riskihindamine** (**Krediidihaldus \> Seadi
 
 ## <a name="guaranteeinsurance-types"></a>Garantii/kindlustuse tüübid
 
-Garantii/kindlustuse tüüpe saate seadistada lehel **Garantii/kindlustuse tüübid** (**Krediidihaldus \> Seadistus \> Garantii/kindlustuse seadistus \> Garantii/kindlustuse tüübid**).
+Garantii/kindlustuse tüüpe saate seadistada lehel **Garantii/kindlustuse tüübid** (**Krediit ja võlanõuded \> Seadistus \> Krediidihalduse seadistus \> Kindlustus ja garantiid \> Kindlustuse ja garantii tüübid**).
 
 1. Sisestage garantii või kindlustuse tüüp, mis määratleb käendaja või kindlustusmaakleri nime.
 2. Sisestage kirjeldus käendaja/kindlustusmaakleri kirjeldamiseks.
@@ -131,14 +134,14 @@ Garantii/kindlustuse tüüpe saate seadistada lehel **Garantii/kindlustuse tüü
 
 Kindlustuskatte tüüpe saab kasutada kindlustuspoliiside täiendavaks liigitamiseks. Neid ei saa kasutada garantiidega.
 
-Kindlustuskatte tüüpe saate lisada lehel **Kindlustuskatte tüübid** (**Krediidihaldus \> Seadistus \> Garantii/kindlustuse seadistus \> Kindlustuskatte tüübid**).
+Kindlustuskatte tüüpe saate lisada lehel **Kindlustuskatte tüübid** (**Krediit ja võlanõuded \> Seadistus \> Krediidihalduse seadistus \> Kindlustus ja garantiid \> Kindlustuskatte tüübid**).
 
 1. Sisestage kindlustuskatte tüüp, et määratleda kindlustuskatte tüüp, mis tuleks lisada kindlustuse või garantiina.
 2. Sisestage kirjeldus kindlustuskatte tüübi kirjeldamiseks.
 
 ## <a name="automatic-credit-limits"></a>Automaatselt määratud krediidilimiidid
 
-Automaatsetele krediidilimiitidele saate luua kriteeriumid lehel **Automaatsed krediidilimiidid** (**Krediidihaldus \> Seadistus \> Riski seadistus \> Automaatsed krediidilimiidid**).
+Automaatsetele krediidilimiitidele saate luua kriteeriumid lehel **Automaatsed krediidilimiidid** (**Krediit ja võlanõuded \> Seadistus \> Krediidihalduse seadistus \> Risk \> Automaatsed krediidilimiidid**).
 
 1. Valige riskigrupp, millele automaatne krediidilimiit tuleb määrata.
 2. Valige automaatse krediidilimiidi valuuta. Saate samale riskigrupile luua mitu automaatset krediidilimiiti erinevates valuutades.

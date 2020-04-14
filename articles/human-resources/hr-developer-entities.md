@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6879a45dd1fcc1ba718747aaaf0d7936c2eac49f
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: c8e0288da16829c04a9b97c0a52caa8bd27cddf8
+ms.sourcegitcommit: fde8045ea49d0cf26d5e7ac5a0da5c0d3d69d5bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087342"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3166494"
 ---
 # <a name="common-data-service-entities"></a>Common Data Service’i üksused
 
@@ -87,14 +87,19 @@ Teenuses Common Data Service on saadaval järgmised rakenduse Human Resources ü
 | Ametikoht | cdm_jobposition |
 | Ametikoha tüüp | cdm_positiontype |
 | Ametikoha töötaja määramine | cdm_positionworkerassignmentmap |
+| Ametikoha dimensioon | cdm_jobpositiondimension|
 | Töö tüüp | cdm_jobtype |
 | Keel | cdm_language |
+| Pealkiri | cdm_title |
+
+> [!NOTE]
+> Üksuste **Ametikoha tüüp** **Töötaja ametikoha määramine** ja **Töölevõtt** finantsdimensioonid pakuvad ühesuunalist integratsiooni Common Data Service'iga. Finantsdimensioonide värskendusi ei saa praegu sünkroonida Common Data Service'ist Human Resourcesisse. 
 
 ## <a name="leave-and-absence-entities"></a>Puhkuste ja puudumiste üksused
 
 | Nimi | Üksus |
 | --- | --- |
-| Puhkuse pangakanne | cdm_leavebanktransaction |
+| Puhkuste panga kanne | cdm_leavebanktransaction |
 | Puhkuse registreerimine | cdm_leaveenrollment |
 | Puhkuseplaan | cdm_leaveplan |
 | Puhkusetaotlus | cdm_leaverequest |
