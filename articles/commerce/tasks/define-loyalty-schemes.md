@@ -1,5 +1,5 @@
 ---
-title: " Püsikliendiskeemide määratlemine"
+title: Püsikliendiskeemide määratlemine
 description: See protseduur selgitab, kuidas määratleda boonusskeemi.
 author: jashanno
 manager: AnnBe
@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a681a369a55a45692979e8e6f24f9c4018e00677
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2bec8653c05d7684202c0e63d049ddb517e12834
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022250"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141279"
 ---
-# <a name="define-loyalty-schemes"></a> Püsikliendiskeemide määratlemine
+# <a name="define-loyalty-schemes"></a>Püsikliendiskeemide määratlemine
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 See protseduur selgitab, kuidas määratleda boonusskeemi. Boonusskeemid on püsikliendiprogrammis preemiapunktide teenimise ja lunastamise reeglid. Protseduur kasutab demoettevõtte USRT andmeid.
 
