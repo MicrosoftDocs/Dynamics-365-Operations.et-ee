@@ -5,6 +5,12 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 13. aprill 2020
+          href: hr-whats-new-2020-04-13.md
+        - name: 3. aprill 2020
+          href: hr-whats-new-2020-04-03.md
+        - name: 24. märts 2020
+          href: hr-whats-new-2020-03-24.md
         - name: 19. märts 2020
           href: hr-whats-new-2020-03-19.md
         - name: 10. märts 2020
@@ -401,7 +407,7 @@
               href: hr-compensation-process.md
         - name: Soodustuste haldamine
           items:
-            - name: 'Eelvaate funktsioon: soodustuste haldus'
+            - name: Soodustuste haldus
               items:
                 - name: Soodustuste halduse ülevaade
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: Soodustusplaanide seadistamine
                       href: hr-benefits-plans-setup.md
-                    - name: Töötaja soodustuse plaanide loomine
-                      href: hr-benefits-plans-worker.md
                     - name: Paindkrediidi programmide seadistamine
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: Tulevaste elusündmuste konfigureerimine
-                      href: hr-benefits-plans-future-life-events.md
                 - name: Soodustusplaanide töötlemine
                   items:
                     - name: Registreerimise sobivuse töötlemine
@@ -497,8 +499,10 @@
               href: hr-leave-and-absence-plans.md
             - name: Töötajate puhkuste plaani määramine
               href: hr-leave-and-absence-enroll.md
-            - name: Puhkuste ja puudumiste plaanide kogumine
+            - name: Puhkuse ja puudumise plaanide juurdekasv
               href: hr-leave-and-absence-accrue.md
+            - name: Puhkuse katkestamine
+              href: hr-leave-and-absence-suspend-leave.md
             - name: Puhkuste ja puudumiste analüüsi kuvamine
               href: hr-leave-and-absence-analytics.md
             - name: Puhkuste ja puudumiste taotluste haldamine
