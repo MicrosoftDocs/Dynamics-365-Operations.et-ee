@@ -2,7 +2,7 @@
 title: Tootmistööde järjestamine tootmisprotsessiks
 description: See protseduur kasutab värvitooteid näitena näitamaks, kuidas järjestada plaanitud tellimusi vastavalt värvi ja suuruse prioriteedile.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,64 +10,64 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 872b9733e18945ca2ff047820afd122025575601
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 422f05c6edcc8856192ba944c97c551eaba8a7c3
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148790"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210406"
 ---
-# <a name="sequence-production-jobs-for-process-manufacturing"></a><span data-ttu-id="1d3c3-103">Tootmistööde järjestamine tootmisprotsessiks</span><span class="sxs-lookup"><span data-stu-id="1d3c3-103">Sequence production jobs for process manufacturing</span></span>
+# <a name="sequence-production-jobs-for-process-manufacturing"></a><span data-ttu-id="47d58-103">Tootmistööde järjestamine tootmisprotsessiks</span><span class="sxs-lookup"><span data-stu-id="47d58-103">Sequence production jobs for process manufacturing</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1d3c3-104">See protseduur kasutab värvitooteid näitena näitamaks, kuidas järjestada plaanitud tellimusi vastavalt värvi ja suuruse prioriteedile.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-104">This procedure uses paint products as an example to show how to sequence planned orders according to the priority of color and package size.</span></span> <span data-ttu-id="1d3c3-105">Selle protseduuri loomiseks kasutati demoettevõtte USPI-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-105">The demo data company used to create this procedure is USPI.</span></span> <span data-ttu-id="1d3c3-106">See protseduur on mõeldud tootmisplaanijale.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-106">This procedure is intended for the production planner.</span></span>
+<span data-ttu-id="47d58-104">See protseduur kasutab värvitooteid näitena näitamaks, kuidas järjestada plaanitud tellimusi vastavalt värvi ja suuruse prioriteedile.</span><span class="sxs-lookup"><span data-stu-id="47d58-104">This procedure uses paint products as an example to show how to sequence planned orders according to the priority of color and package size.</span></span> <span data-ttu-id="47d58-105">Selle protseduuri loomiseks kasutati demoettevõtte USPI-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="47d58-105">The demo data company used to create this procedure is USPI.</span></span> <span data-ttu-id="47d58-106">See protseduur on mõeldud tootmisplaanijale.</span><span class="sxs-lookup"><span data-stu-id="47d58-106">This procedure is intended for the production planner.</span></span>
 
 
-## <a name="run-master-planning-for-uspi"></a><span data-ttu-id="1d3c3-107">Koondplaneerimise käitamine USPI jaoks</span><span class="sxs-lookup"><span data-stu-id="1d3c3-107">Run master planning for USPI</span></span>
-1. <span data-ttu-id="1d3c3-108">Avage Koondplaneerimine > Koondplaneerimine > Käivita > Koondplaneerimine.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-108">Go to Master planning > Master planning > Run > Master planning.</span></span>
-2. <span data-ttu-id="1d3c3-109">Klõpsake väljal Koondplaan otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-109">In the Master plan field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="1d3c3-110">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-110">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="1d3c3-111">Tehke valik MasterPlan.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-111">Select MasterPlan.</span></span>  
-4. <span data-ttu-id="1d3c3-112">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-112">Click OK.</span></span>
-    * <span data-ttu-id="1d3c3-113">See käivitab koondplaneerimise, sh jada protsessi.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-113">This starts Master Planning, including the sequence process.</span></span> <span data-ttu-id="1d3c3-114">Protsessiks võib kuluda mõni minut.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-114">This process can take a few minutes.</span></span>  
+## <a name="run-master-planning-for-uspi"></a><span data-ttu-id="47d58-107">Koondplaneerimise käitamine USPI jaoks</span><span class="sxs-lookup"><span data-stu-id="47d58-107">Run master planning for USPI</span></span>
+1. <span data-ttu-id="47d58-108">Avage Koondplaneerimine > Koondplaneerimine > Käivita > Koondplaneerimine.</span><span class="sxs-lookup"><span data-stu-id="47d58-108">Go to Master planning > Master planning > Run > Master planning.</span></span>
+2. <span data-ttu-id="47d58-109">Klõpsake väljal Koondplaan otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="47d58-109">In the Master plan field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="47d58-110">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="47d58-110">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="47d58-111">Tehke valik MasterPlan.</span><span class="sxs-lookup"><span data-stu-id="47d58-111">Select MasterPlan.</span></span>  
+4. <span data-ttu-id="47d58-112">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="47d58-112">Click OK.</span></span>
+    * <span data-ttu-id="47d58-113">See käivitab koondplaneerimise, sh jada protsessi.</span><span class="sxs-lookup"><span data-stu-id="47d58-113">This starts Master Planning, including the sequence process.</span></span> <span data-ttu-id="47d58-114">Protsessiks võib kuluda mõni minut.</span><span class="sxs-lookup"><span data-stu-id="47d58-114">This process can take a few minutes.</span></span>  
 
-## <a name="view-planned-orders-for-the-paint-products"></a><span data-ttu-id="1d3c3-115">Värvitoodete plaanitud tellimuste vaatamine</span><span class="sxs-lookup"><span data-stu-id="1d3c3-115">View planned orders for the paint products</span></span>
-1. <span data-ttu-id="1d3c3-116">Avage Koondplaneerimine > Koondplaneerimine > Plaanitud tellimused.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-116">Go to Master planning > Master planning > Planned orders.</span></span>
-2. <span data-ttu-id="1d3c3-117">Laiendage kiirinfor Kauba üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-117">Expand the Item details FactBox.</span></span>
-3. <span data-ttu-id="1d3c3-118">Laiendage kiirinfot Graafiku üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-118">Expand the Schedule details FactBox.</span></span>
-4. <span data-ttu-id="1d3c3-119">Klõpsake väljal Plaan otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-119">In the Plan field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="1d3c3-120">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-120">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="1d3c3-121">Tehke valik MasterPlan.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-121">Select MasterPlan.</span></span>  
-6. <span data-ttu-id="1d3c3-122">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-122">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="1d3c3-123">Kasutage kiirfiltrit, et filtreerida väli Kaubakood väärtuse P300 alusel.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-123">Use the Quick Filter to filter on the Item number field with a value of 'P300'.</span></span>
-    * <span data-ttu-id="1d3c3-124">Avage ja kerimige paremale, et näha tellimuse kuupäeva ja tarnekuupäeva.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-124">Unlock to scroll to the right to see the order date and delivery date.</span></span> <span data-ttu-id="1d3c3-125">Pange tähele, et nendel kaupadel on tellimuse kuupäev täna ja plaanitud tellimuste tarnekuupäevad ei ole järjestatud värvi ja pakendi suuruse prioriteedi järgi, nagu on näidatud toote nimes.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-125">Notice that these items have an order date of Today and the delivery dates for the planned orders are not sequenced after the priority of color and package size, as shown in the product name.</span></span> <span data-ttu-id="1d3c3-126">Toote nime ja prioriteedi nägemiseks hõljutage kursorit kaubakoodil.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-126">You can hover over an item number to see the product name and priority.</span></span>  
+## <a name="view-planned-orders-for-the-paint-products"></a><span data-ttu-id="47d58-115">Värvitoodete plaanitud tellimuste vaatamine</span><span class="sxs-lookup"><span data-stu-id="47d58-115">View planned orders for the paint products</span></span>
+1. <span data-ttu-id="47d58-116">Avage Koondplaneerimine > Koondplaneerimine > Plaanitud tellimused.</span><span class="sxs-lookup"><span data-stu-id="47d58-116">Go to Master planning > Master planning > Planned orders.</span></span>
+2. <span data-ttu-id="47d58-117">Laiendage kiirinfor Kauba üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="47d58-117">Expand the Item details FactBox.</span></span>
+3. <span data-ttu-id="47d58-118">Laiendage kiirinfot Graafiku üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="47d58-118">Expand the Schedule details FactBox.</span></span>
+4. <span data-ttu-id="47d58-119">Klõpsake väljal Plaan otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="47d58-119">In the Plan field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="47d58-120">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="47d58-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="47d58-121">Tehke valik MasterPlan.</span><span class="sxs-lookup"><span data-stu-id="47d58-121">Select MasterPlan.</span></span>  
+6. <span data-ttu-id="47d58-122">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="47d58-122">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="47d58-123">Kasutage kiirfiltrit, et filtreerida väli Kaubakood väärtuse P300 alusel.</span><span class="sxs-lookup"><span data-stu-id="47d58-123">Use the Quick Filter to filter on the Item number field with a value of 'P300'.</span></span>
+    * <span data-ttu-id="47d58-124">Avage ja kerimige paremale, et näha tellimuse kuupäeva ja tarnekuupäeva.</span><span class="sxs-lookup"><span data-stu-id="47d58-124">Unlock to scroll to the right to see the order date and delivery date.</span></span> <span data-ttu-id="47d58-125">Pange tähele, et nendel kaupadel on tellimuse kuupäev täna ja plaanitud tellimuste tarnekuupäevad ei ole järjestatud värvi ja pakendi suuruse prioriteedi järgi, nagu on näidatud toote nimes.</span><span class="sxs-lookup"><span data-stu-id="47d58-125">Notice that these items have an order date of Today and the delivery dates for the planned orders are not sequenced after the priority of color and package size, as shown in the product name.</span></span> <span data-ttu-id="47d58-126">Toote nime ja prioriteedi nägemiseks hõljutage kursorit kaubakoodil.</span><span class="sxs-lookup"><span data-stu-id="47d58-126">You can hover over an item number to see the product name and priority.</span></span>  
 
-## <a name="sequence-planned-orders-for-paint"></a><span data-ttu-id="1d3c3-127">Seeria plaanitud tellimused värvi jaoks</span><span class="sxs-lookup"><span data-stu-id="1d3c3-127">Sequence planned orders for paint</span></span>
-1. <span data-ttu-id="1d3c3-128">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-128">Close the page.</span></span>
-2. <span data-ttu-id="1d3c3-129">Avage Koondplaneerimine > Koondplaneerimine > Järjestatud plaanitud tellimused.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-129">Go to Master planning > Master planning > Sequenced planned orders.</span></span>
-3. <span data-ttu-id="1d3c3-130">Laiendage kiirinfor Kauba üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-130">Expand the Item details FactBox.</span></span>
-4. <span data-ttu-id="1d3c3-131">Laiendage kiirinfot Graafiku üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-131">Expand the Schedule details FactBox.</span></span>
-    * <span data-ttu-id="1d3c3-132">Märkus. Siin näete, et plaanitud tellimuste alguskuupäevad/-kellaajad on järjestatud vastavalt värvi ja pakendi suuruse järgi 28-päevase ajavahemiku jooksul.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-132">Note: Here you see that the Start date/time for the planned orders are sequenced according to color and package size within a bucket period of 28 days.</span></span> <span data-ttu-id="1d3c3-133">Need perioodid määratletakse numbriga väljal Kampaania.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-133">These periods are defined by a number in the field Campaign.</span></span> <span data-ttu-id="1d3c3-134">Seeria plaanitud tellimuse vorm toimib nagu tavaline plaanitud tellimuse vorm ja tootmise plaanija saab kinnitada siin plaanitud tellimused.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-134">The sequenced planned order form acts like the typical planned order form, and the production planner can firm the planned orders here.</span></span>  
-5. <span data-ttu-id="1d3c3-135">Märkige kõik read.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-135">Mark all rows.</span></span>
-6. <span data-ttu-id="1d3c3-136">Klõpsake suvandit Nõustu.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-136">Click Accept.</span></span>
-    * <span data-ttu-id="1d3c3-137">See värskendab plaanitud tellimused valitud toimingute järjestusega, milleks on kas Edasi lükata või Varasem.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-137">This will update the planned orders with the selected sequence action of either Postpone or Advance.</span></span>  
+## <a name="sequence-planned-orders-for-paint"></a><span data-ttu-id="47d58-127">Seeria plaanitud tellimused värvi jaoks</span><span class="sxs-lookup"><span data-stu-id="47d58-127">Sequence planned orders for paint</span></span>
+1. <span data-ttu-id="47d58-128">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="47d58-128">Close the page.</span></span>
+2. <span data-ttu-id="47d58-129">Avage Koondplaneerimine > Koondplaneerimine > Järjestatud plaanitud tellimused.</span><span class="sxs-lookup"><span data-stu-id="47d58-129">Go to Master planning > Master planning > Sequenced planned orders.</span></span>
+3. <span data-ttu-id="47d58-130">Laiendage kiirinfor Kauba üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="47d58-130">Expand the Item details FactBox.</span></span>
+4. <span data-ttu-id="47d58-131">Laiendage kiirinfot Graafiku üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="47d58-131">Expand the Schedule details FactBox.</span></span>
+    * <span data-ttu-id="47d58-132">Märkus. Siin näete, et plaanitud tellimuste alguskuupäevad/-kellaajad on järjestatud vastavalt värvi ja pakendi suuruse järgi 28-päevase ajavahemiku jooksul.</span><span class="sxs-lookup"><span data-stu-id="47d58-132">Note: Here you see that the Start date/time for the planned orders are sequenced according to color and package size within a bucket period of 28 days.</span></span> <span data-ttu-id="47d58-133">Need perioodid määratletakse numbriga väljal Kampaania.</span><span class="sxs-lookup"><span data-stu-id="47d58-133">These periods are defined by a number in the field Campaign.</span></span> <span data-ttu-id="47d58-134">Seeria plaanitud tellimuse vorm toimib nagu tavaline plaanitud tellimuse vorm ja tootmise plaanija saab kinnitada siin plaanitud tellimused.</span><span class="sxs-lookup"><span data-stu-id="47d58-134">The sequenced planned order form acts like the typical planned order form, and the production planner can firm the planned orders here.</span></span>  
+5. <span data-ttu-id="47d58-135">Märkige kõik read.</span><span class="sxs-lookup"><span data-stu-id="47d58-135">Mark all rows.</span></span>
+6. <span data-ttu-id="47d58-136">Klõpsake suvandit Nõustu.</span><span class="sxs-lookup"><span data-stu-id="47d58-136">Click Accept.</span></span>
+    * <span data-ttu-id="47d58-137">See värskendab plaanitud tellimused valitud toimingute järjestusega, milleks on kas Edasi lükata või Varasem.</span><span class="sxs-lookup"><span data-stu-id="47d58-137">This will update the planned orders with the selected sequence action of either Postpone or Advance.</span></span>  
 
-## <a name="verify-the-sequence-of-the-planned-orders"></a><span data-ttu-id="1d3c3-138">Plaanitud tellimuste seeria kinnitamine</span><span class="sxs-lookup"><span data-stu-id="1d3c3-138">Verify the sequence of the planned orders</span></span>
-1. <span data-ttu-id="1d3c3-139">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-139">Close the page.</span></span>
-2. <span data-ttu-id="1d3c3-140">Avage Koondplaneerimine > Koondplaneerimine > Plaanitud tellimused.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-140">Go to Master planning > Master planning > Planned orders.</span></span>
-3. <span data-ttu-id="1d3c3-141">Laiendage kiirinfor Kauba üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-141">Expand the Item details FactBox.</span></span>
-4. <span data-ttu-id="1d3c3-142">Laiendage kiirinfot Graafiku üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-142">Expand the Schedule details FactBox.</span></span>
-5. <span data-ttu-id="1d3c3-143">Klõpsake väljal Plaan otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-143">In the Plan field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="1d3c3-144">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-144">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="1d3c3-145">Tehke valik MasterPlan.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-145">Select MasterPlan.</span></span>  
-7. <span data-ttu-id="1d3c3-146">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-146">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="1d3c3-147">Kasutage kiirfiltrit, et filtreerida väli Kaubakood väärtuse P300 alusel.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-147">Use the Quick Filter to filter on the Item number field with a value of 'P300'.</span></span>
-    * <span data-ttu-id="1d3c3-148">Pange tähele, et tellimused on nüüd järjestatud vastavalt värvi ja suuruse prioriteedile ning plaanitud tellimused algavad varaseimal tellimuse kuupäeval ja tarnekuupäeval.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-148">Notice that the orders now are sequenced according to the priority of color and size and the planned orders start at the earliest order date and delivery date.</span></span> <span data-ttu-id="1d3c3-149">Kinnitage veerg Tellimuse kuupäev või Alguskuupäev kiiinfos Graafiku üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="1d3c3-149">Validate the Order date column or the Start date in the Schedule details FactBbox.</span></span>  
+## <a name="verify-the-sequence-of-the-planned-orders"></a><span data-ttu-id="47d58-138">Plaanitud tellimuste seeria kinnitamine</span><span class="sxs-lookup"><span data-stu-id="47d58-138">Verify the sequence of the planned orders</span></span>
+1. <span data-ttu-id="47d58-139">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="47d58-139">Close the page.</span></span>
+2. <span data-ttu-id="47d58-140">Avage Koondplaneerimine > Koondplaneerimine > Plaanitud tellimused.</span><span class="sxs-lookup"><span data-stu-id="47d58-140">Go to Master planning > Master planning > Planned orders.</span></span>
+3. <span data-ttu-id="47d58-141">Laiendage kiirinfor Kauba üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="47d58-141">Expand the Item details FactBox.</span></span>
+4. <span data-ttu-id="47d58-142">Laiendage kiirinfot Graafiku üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="47d58-142">Expand the Schedule details FactBox.</span></span>
+5. <span data-ttu-id="47d58-143">Klõpsake väljal Plaan otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="47d58-143">In the Plan field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="47d58-144">Otsige loendist ja valige soovitud kirje.</span><span class="sxs-lookup"><span data-stu-id="47d58-144">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="47d58-145">Tehke valik MasterPlan.</span><span class="sxs-lookup"><span data-stu-id="47d58-145">Select MasterPlan.</span></span>  
+7. <span data-ttu-id="47d58-146">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="47d58-146">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="47d58-147">Kasutage kiirfiltrit, et filtreerida väli Kaubakood väärtuse P300 alusel.</span><span class="sxs-lookup"><span data-stu-id="47d58-147">Use the Quick Filter to filter on the Item number field with a value of 'P300'.</span></span>
+    * <span data-ttu-id="47d58-148">Pange tähele, et tellimused on nüüd järjestatud vastavalt värvi ja suuruse prioriteedile ning plaanitud tellimused algavad varaseimal tellimuse kuupäeval ja tarnekuupäeval.</span><span class="sxs-lookup"><span data-stu-id="47d58-148">Notice that the orders now are sequenced according to the priority of color and size and the planned orders start at the earliest order date and delivery date.</span></span> <span data-ttu-id="47d58-149">Kinnitage veerg Tellimuse kuupäev või Alguskuupäev kiiinfos Graafiku üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="47d58-149">Validate the Order date column or the Start date in the Schedule details FactBbox.</span></span>  
 

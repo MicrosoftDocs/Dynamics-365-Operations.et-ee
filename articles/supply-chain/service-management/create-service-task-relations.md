@@ -2,7 +2,7 @@
 title: teenustoimingute seoste loomine
 description: Leppe või tellimuse käigus tehtava hooldustoimingu kirjeldamiseks saate hooldustoimingud hoolduslepete või -tellimustega siduda.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,58 +18,58 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed0800c4a650233190c6a33b1690790f0e2bf051
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b167714dc81cf0e4ee70d7092f2ec030043abe71
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814094"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202602"
 ---
-# <a name="create-service-task-relations"></a><span data-ttu-id="729af-103">teenustoimingute seoste loomine</span><span class="sxs-lookup"><span data-stu-id="729af-103">Create service task relations</span></span>    
+# <a name="create-service-task-relations"></a><span data-ttu-id="26d5f-103">teenustoimingute seoste loomine</span><span class="sxs-lookup"><span data-stu-id="26d5f-103">Create service task relations</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="729af-104">Leppe või tellimuse käigus tehtava hooldustoimingu kirjeldamiseks saate hooldustoimingud hoolduslepete või -tellimustega siduda.</span><span class="sxs-lookup"><span data-stu-id="729af-104">You can associate service tasks with service agreements or service orders in order to describe the service task to be completed for the agreement or order.</span></span> <span data-ttu-id="729af-105">See teave on saadaval nii hooldustehnikutele kui ka klientidele.</span><span class="sxs-lookup"><span data-stu-id="729af-105">This information is available to service technicians and customers.</span></span>
+<span data-ttu-id="26d5f-104">Leppe või tellimuse käigus tehtava hooldustoimingu kirjeldamiseks saate hooldustoimingud hoolduslepete või -tellimustega siduda.</span><span class="sxs-lookup"><span data-stu-id="26d5f-104">You can associate service tasks with service agreements or service orders in order to describe the service task to be completed for the agreement or order.</span></span> <span data-ttu-id="26d5f-105">See teave on saadaval nii hooldustehnikutele kui ka klientidele.</span><span class="sxs-lookup"><span data-stu-id="26d5f-105">This information is available to service technicians and customers.</span></span>
 
-## <a name="create-a-relation-with-a-service-agreement"></a><span data-ttu-id="729af-106">Seose loomine teenusleppega</span><span class="sxs-lookup"><span data-stu-id="729af-106">Create a relation with a service agreement</span></span>
+## <a name="create-a-relation-with-a-service-agreement"></a><span data-ttu-id="26d5f-106">Seose loomine teenusleppega</span><span class="sxs-lookup"><span data-stu-id="26d5f-106">Create a relation with a service agreement</span></span>
 
-1.  <span data-ttu-id="729af-107">Klõpsake valikut **Hooldushaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldusleppegrupid**.</span><span class="sxs-lookup"><span data-stu-id="729af-107">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="26d5f-107">Klõpsake valikut **Hooldushaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldusleppegrupid**.</span><span class="sxs-lookup"><span data-stu-id="26d5f-107">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="729af-108">Valige olemasolev teenuslepe või looge uus.</span><span class="sxs-lookup"><span data-stu-id="729af-108">Select an existing service agreement, or create a new service agreement.</span></span>
+2.  <span data-ttu-id="26d5f-108">Valige olemasolev teenuslepe või looge uus.</span><span class="sxs-lookup"><span data-stu-id="26d5f-108">Select an existing service agreement, or create a new service agreement.</span></span>
 
-3.  <span data-ttu-id="729af-109">Klõpsake toimingupaanil nuppu **Hooldustoimingud**.</span><span class="sxs-lookup"><span data-stu-id="729af-109">On the Action Pane, click the **Service tasks** button.</span></span>
+3.  <span data-ttu-id="26d5f-109">Klõpsake toimingupaanil nuppu **Hooldustoimingud**.</span><span class="sxs-lookup"><span data-stu-id="26d5f-109">On the Action Pane, click the **Service tasks** button.</span></span>
 
-4.  <span data-ttu-id="729af-110">Klõpsake vormil **Hooldustoimingud** uue rea loomiseks klahvikombinatsiooni CTRL + N ja seejärel valige hooldusleppega seotav hooldustoiming loendist **Hooldustoiming**.</span><span class="sxs-lookup"><span data-stu-id="729af-110">On the **Service tasks** form, press CTRL+N to create a new line, and then select a service task from the **Service task** list to attach the service task to the service agreement.</span></span>
+4.  <span data-ttu-id="26d5f-110">Klõpsake vormil **Hooldustoimingud** uue rea loomiseks klahvikombinatsiooni CTRL + N ja seejärel valige hooldusleppega seotav hooldustoiming loendist **Hooldustoiming**.</span><span class="sxs-lookup"><span data-stu-id="26d5f-110">On the **Service tasks** form, press CTRL+N to create a new line, and then select a service task from the **Service task** list to attach the service task to the service agreement.</span></span>
 
-5.  <span data-ttu-id="729af-111">Sisestage vahekaardi **Kirjeldus** vabadele tekstiväljadele sise- või välismärgete kirjeldused.</span><span class="sxs-lookup"><span data-stu-id="729af-111">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
+5.  <span data-ttu-id="26d5f-111">Sisestage vahekaardi **Kirjeldus** vabadele tekstiväljadele sise- või välismärgete kirjeldused.</span><span class="sxs-lookup"><span data-stu-id="26d5f-111">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
 
-6.  <span data-ttu-id="729af-112">Sulge vorm kirje salvestamiseks.</span><span class="sxs-lookup"><span data-stu-id="729af-112">Close the form to save the record.</span></span>
+6.  <span data-ttu-id="26d5f-112">Sulge vorm kirje salvestamiseks.</span><span class="sxs-lookup"><span data-stu-id="26d5f-112">Close the form to save the record.</span></span>
 
-<span data-ttu-id="729af-113">Korrake seda protseduuri seni, kuni olete loonud kõik vajalikud teenustoimingute seosed teenusleppe jaoks.</span><span class="sxs-lookup"><span data-stu-id="729af-113">Repeat this procedure until you have created all the necessary service task relations for the service agreement.</span></span> <span data-ttu-id="729af-114">Nüüd saate määrata need teenustoimingud igale lisatud leppereale.</span><span class="sxs-lookup"><span data-stu-id="729af-114">You can now specify these service tasks for any attached agreement lines.</span></span>
+<span data-ttu-id="26d5f-113">Korrake seda protseduuri seni, kuni olete loonud kõik vajalikud teenustoimingute seosed teenusleppe jaoks.</span><span class="sxs-lookup"><span data-stu-id="26d5f-113">Repeat this procedure until you have created all the necessary service task relations for the service agreement.</span></span> <span data-ttu-id="26d5f-114">Nüüd saate määrata need teenustoimingud igale lisatud leppereale.</span><span class="sxs-lookup"><span data-stu-id="26d5f-114">You can now specify these service tasks for any attached agreement lines.</span></span>
 
-<span data-ttu-id="729af-115">Teenusleppele loodav teenustoimingute seos on saadaval kõikidelt teenusleppele lisatud teenustellimustelt.</span><span class="sxs-lookup"><span data-stu-id="729af-115">A service tasks relation that is created on a service agreement is available from all service orders that are attached to the service agreement.</span></span>
+<span data-ttu-id="26d5f-115">Teenusleppele loodav teenustoimingute seos on saadaval kõikidelt teenusleppele lisatud teenustellimustelt.</span><span class="sxs-lookup"><span data-stu-id="26d5f-115">A service tasks relation that is created on a service agreement is available from all service orders that are attached to the service agreement.</span></span>
 
-## <a name="create-a-relation-with-a-service-order"></a><span data-ttu-id="729af-116">Seose loomine teenustellimusega</span><span class="sxs-lookup"><span data-stu-id="729af-116">Create a relation with a service order</span></span>
+## <a name="create-a-relation-with-a-service-order"></a><span data-ttu-id="26d5f-116">Seose loomine teenustellimusega</span><span class="sxs-lookup"><span data-stu-id="26d5f-116">Create a relation with a service order</span></span>
 
-1.  <span data-ttu-id="729af-117">Klõpsake valikuid **Teenusehaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldustellimused**.</span><span class="sxs-lookup"><span data-stu-id="729af-117">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="26d5f-117">Klõpsake valikuid **Teenusehaldus** \> **Üldine** \> **Hooldustellimused** \> **Hooldustellimused**.</span><span class="sxs-lookup"><span data-stu-id="26d5f-117">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="729af-118">Valige olemasolev teenustellimus või looge uus.</span><span class="sxs-lookup"><span data-stu-id="729af-118">Select an existing service order, or create a new service order.</span></span>
+2.  <span data-ttu-id="26d5f-118">Valige olemasolev teenustellimus või looge uus.</span><span class="sxs-lookup"><span data-stu-id="26d5f-118">Select an existing service order, or create a new service order.</span></span>
 
-3.  <span data-ttu-id="729af-119">Klõpsake toimingupaanil nuppu **Hooldustoimingud**.</span><span class="sxs-lookup"><span data-stu-id="729af-119">On the Action Pane, click the **Service tasks** button.</span></span>
+3.  <span data-ttu-id="26d5f-119">Klõpsake toimingupaanil nuppu **Hooldustoimingud**.</span><span class="sxs-lookup"><span data-stu-id="26d5f-119">On the Action Pane, click the **Service tasks** button.</span></span>
 
-4.  <span data-ttu-id="729af-120">Klõpsake vormil **Hooldustoimingud** uue rea loomiseks klahvikombinatsiooni CTRL + N ja seejärel valige hooldustellimusega seotavad hooldustoimingud loendist **Hooldustoiming**.</span><span class="sxs-lookup"><span data-stu-id="729af-120">From the **Service tasks** form, press CTRL+N to create a new line, and then select a service task from the **Service task** list to attach the service tasks to the service order.</span></span>
+4.  <span data-ttu-id="26d5f-120">Klõpsake vormil **Hooldustoimingud** uue rea loomiseks klahvikombinatsiooni CTRL + N ja seejärel valige hooldustellimusega seotavad hooldustoimingud loendist **Hooldustoiming**.</span><span class="sxs-lookup"><span data-stu-id="26d5f-120">From the **Service tasks** form, press CTRL+N to create a new line, and then select a service task from the **Service task** list to attach the service tasks to the service order.</span></span>
 
-5.  <span data-ttu-id="729af-121">Sisestage vahekaardi **Kirjeldus** vabadele tekstiväljadele sise- või välismärgete kirjeldused.</span><span class="sxs-lookup"><span data-stu-id="729af-121">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
+5.  <span data-ttu-id="26d5f-121">Sisestage vahekaardi **Kirjeldus** vabadele tekstiväljadele sise- või välismärgete kirjeldused.</span><span class="sxs-lookup"><span data-stu-id="26d5f-121">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
 
-6.  <span data-ttu-id="729af-122">Sulge vorm kirje salvestamiseks.</span><span class="sxs-lookup"><span data-stu-id="729af-122">Close the form to save the record.</span></span>
+6.  <span data-ttu-id="26d5f-122">Sulge vorm kirje salvestamiseks.</span><span class="sxs-lookup"><span data-stu-id="26d5f-122">Close the form to save the record.</span></span>
 
-<span data-ttu-id="729af-123">Korrake seda protseduuri seni, kuni olete loonud kõik vajalikud teenustoimingute seosed teenustellimuse jaoks.</span><span class="sxs-lookup"><span data-stu-id="729af-123">Repeat this procedure until you have created all the necessary service task relations for the service order.</span></span> <span data-ttu-id="729af-124">Nüüd saate valida teenustoimingu, mille jaoks olete loonud seose teenustellimuste ridade loomisel.</span><span class="sxs-lookup"><span data-stu-id="729af-124">You can now select the service task for which you have created the relation when you create service order lines.</span></span>
+<span data-ttu-id="26d5f-123">Korrake seda protseduuri seni, kuni olete loonud kõik vajalikud teenustoimingute seosed teenustellimuse jaoks.</span><span class="sxs-lookup"><span data-stu-id="26d5f-123">Repeat this procedure until you have created all the necessary service task relations for the service order.</span></span> <span data-ttu-id="26d5f-124">Nüüd saate valida teenustoimingu, mille jaoks olete loonud seose teenustellimuste ridade loomisel.</span><span class="sxs-lookup"><span data-stu-id="26d5f-124">You can now select the service task for which you have created the relation when you create service order lines.</span></span>
 
-<span data-ttu-id="729af-125">Teenustellimusel loodavad teenustoimingute seosed on kättesaadavad konkreetse teenustellimuse puhul.</span><span class="sxs-lookup"><span data-stu-id="729af-125">Service task relations that are created on a service order are available on the specific service order.</span></span>
+<span data-ttu-id="26d5f-125">Teenustellimusel loodavad teenustoimingute seosed on kättesaadavad konkreetse teenustellimuse puhul.</span><span class="sxs-lookup"><span data-stu-id="26d5f-125">Service task relations that are created on a service order are available on the specific service order.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="729af-126">Vt ka</span><span class="sxs-lookup"><span data-stu-id="729af-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="26d5f-126">Vt ka</span><span class="sxs-lookup"><span data-stu-id="26d5f-126">See also</span></span>
 
-[<span data-ttu-id="729af-127">Hooldustoimingute ülevaade</span><span class="sxs-lookup"><span data-stu-id="729af-127">Service tasks overview</span></span>](service-tasks.md)
+[<span data-ttu-id="26d5f-127">Hooldustoimingute ülevaade</span><span class="sxs-lookup"><span data-stu-id="26d5f-127">Service tasks overview</span></span>](service-tasks.md)
 
 
   

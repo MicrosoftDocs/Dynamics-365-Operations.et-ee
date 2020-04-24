@@ -2,7 +2,7 @@
 title: Säästlik sidumine müügitellimuste põhjal
 description: Protseduur keskendub müügirea sidumispuu kinnitamisele, kui kaup on toodetud kanbanidega.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,50 +10,50 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5142fe552147a9b2988a8828ba1206fad9e252e
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: e429fef6101f611d7a2c1b5323d6fe1e39d1cdd3
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3146740"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206998"
 ---
-# <a name="lean-pegging-from-sales-orders"></a><span data-ttu-id="d3657-103">Säästlik sidumine müügitellimuste põhjal</span><span class="sxs-lookup"><span data-stu-id="d3657-103">Lean pegging from sales orders</span></span>
+# <a name="lean-pegging-from-sales-orders"></a><span data-ttu-id="d554d-103">Säästlik sidumine müügitellimuste põhjal</span><span class="sxs-lookup"><span data-stu-id="d554d-103">Lean pegging from sales orders</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d3657-104">Protseduur keskendub müügirea sidumispuu kinnitamisele, kui kaup on toodetud kanbanidega.</span><span class="sxs-lookup"><span data-stu-id="d3657-104">This procedure focuses on validating the pegging tree from a sales line where the item is produced with kanbans.</span></span> <span data-ttu-id="d3657-105">Pärast sidumispuu kinnitamist on kõik kanban-tööd plaanitud.</span><span class="sxs-lookup"><span data-stu-id="d3657-105">After validating the pegging tree, all the kanban jobs are planned.</span></span> <span data-ttu-id="d3657-106">See on kasulik tellimuste puhul, kus tellimuse vastuvõtja peab tagama, et tootmine saaks kohe alata.</span><span class="sxs-lookup"><span data-stu-id="d3657-106">This is useful for order scenarios where the order taker needs to ensure that production can start right away.</span></span> <span data-ttu-id="d3657-107">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="d3657-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d3657-108">Protseduur on mõeldud spetsialiseerunud tellimuste vastuvõtjale, kes töötab säästlikus ettevõttes.</span><span class="sxs-lookup"><span data-stu-id="d3657-108">This procedure is intended for the advanced order taker working in a lean company.</span></span>
+<span data-ttu-id="d554d-104">Protseduur keskendub müügirea sidumispuu kinnitamisele, kui kaup on toodetud kanbanidega.</span><span class="sxs-lookup"><span data-stu-id="d554d-104">This procedure focuses on validating the pegging tree from a sales line where the item is produced with kanbans.</span></span> <span data-ttu-id="d554d-105">Pärast sidumispuu kinnitamist on kõik kanban-tööd plaanitud.</span><span class="sxs-lookup"><span data-stu-id="d554d-105">After validating the pegging tree, all the kanban jobs are planned.</span></span> <span data-ttu-id="d554d-106">See on kasulik tellimuste puhul, kus tellimuse vastuvõtja peab tagama, et tootmine saaks kohe alata.</span><span class="sxs-lookup"><span data-stu-id="d554d-106">This is useful for order scenarios where the order taker needs to ensure that production can start right away.</span></span> <span data-ttu-id="d554d-107">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="d554d-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d554d-108">Protseduur on mõeldud spetsialiseerunud tellimuste vastuvõtjale, kes töötab säästlikus ettevõttes.</span><span class="sxs-lookup"><span data-stu-id="d554d-108">This procedure is intended for the advanced order taker working in a lean company.</span></span>
 
 
-## <a name="create-a-sales-order-for-a-kanban-controlled-item"></a><span data-ttu-id="d3657-109">Kanbani juhitud kauba jaoks müügitellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="d3657-109">Create a sales order for a kanban controlled item</span></span>
-1. <span data-ttu-id="d3657-110">Avage Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="d3657-110">Go to All sales orders.</span></span>
-2. <span data-ttu-id="d3657-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="d3657-111">Click New.</span></span>
-3. <span data-ttu-id="d3657-112">Valige või sisestage väärtus väljal Kliendi konto.</span><span class="sxs-lookup"><span data-stu-id="d3657-112">In the Customer account field, enter or select a value.</span></span>
-    * <span data-ttu-id="d3657-113">Kasutage US-001.</span><span class="sxs-lookup"><span data-stu-id="d3657-113">Use US-001.</span></span>  
-4. <span data-ttu-id="d3657-114">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="d3657-114">Click OK.</span></span>
-5. <span data-ttu-id="d3657-115">Sisestage väljale Kaubakood tüüp L0001.</span><span class="sxs-lookup"><span data-stu-id="d3657-115">In the Item number field, type 'L0001'.</span></span>
-6. <span data-ttu-id="d3657-116">Määrake koguse väärtuseks 30.</span><span class="sxs-lookup"><span data-stu-id="d3657-116">Set Quantity to '30'.</span></span>
-    * <span data-ttu-id="d3657-117">Sündmuse kanban-reegli käivitamiseks peab kogus kindlasti olema suurem kui 24.</span><span class="sxs-lookup"><span data-stu-id="d3657-117">It is important that the quantity is higher than 24 in order to trigger the event kanban rule.</span></span>  
+## <a name="create-a-sales-order-for-a-kanban-controlled-item"></a><span data-ttu-id="d554d-109">Kanbani juhitud kauba jaoks müügitellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="d554d-109">Create a sales order for a kanban controlled item</span></span>
+1. <span data-ttu-id="d554d-110">Avage Kõik müügitellimused.</span><span class="sxs-lookup"><span data-stu-id="d554d-110">Go to All sales orders.</span></span>
+2. <span data-ttu-id="d554d-111">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="d554d-111">Click New.</span></span>
+3. <span data-ttu-id="d554d-112">Valige või sisestage väärtus väljal Kliendi konto.</span><span class="sxs-lookup"><span data-stu-id="d554d-112">In the Customer account field, enter or select a value.</span></span>
+    * <span data-ttu-id="d554d-113">Kasutage US-001.</span><span class="sxs-lookup"><span data-stu-id="d554d-113">Use US-001.</span></span>  
+4. <span data-ttu-id="d554d-114">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="d554d-114">Click OK.</span></span>
+5. <span data-ttu-id="d554d-115">Sisestage väljale Kaubakood tüüp L0001.</span><span class="sxs-lookup"><span data-stu-id="d554d-115">In the Item number field, type 'L0001'.</span></span>
+6. <span data-ttu-id="d554d-116">Määrake koguse väärtuseks 30.</span><span class="sxs-lookup"><span data-stu-id="d554d-116">Set Quantity to '30'.</span></span>
+    * <span data-ttu-id="d554d-117">Sündmuse kanban-reegli käivitamiseks peab kogus kindlasti olema suurem kui 24.</span><span class="sxs-lookup"><span data-stu-id="d554d-117">It is important that the quantity is higher than 24 in order to trigger the event kanban rule.</span></span>  
 
-## <a name="open-a-pegging-tree"></a><span data-ttu-id="d3657-118">Sidumispuu avamine</span><span class="sxs-lookup"><span data-stu-id="d3657-118">Open a pegging tree</span></span> 
-1. <span data-ttu-id="d3657-119">Klõpsake valikut Toode ja tarnimine.</span><span class="sxs-lookup"><span data-stu-id="d3657-119">Click Product and supply.</span></span>
-2. <span data-ttu-id="d3657-120">Klõpsake suvandit Kuva sidumispuu.</span><span class="sxs-lookup"><span data-stu-id="d3657-120">Click View pegging tree.</span></span>
-    * <span data-ttu-id="d3657-121">Pange tähele, et sidumispuus on kuvatud kõik müügitellimuse rea jaoks vajalikud sidumistasemed.</span><span class="sxs-lookup"><span data-stu-id="d3657-121">Notice that the pegging tree shows all levels of the pegging needed for the sales order line.</span></span> <span data-ttu-id="d3657-122">Selles näites on kaks kanbanide taset ja kõik nõutavad komponendid.</span><span class="sxs-lookup"><span data-stu-id="d3657-122">In this case, there are two levels of kanbans and all the required components.</span></span>  
+## <a name="open-a-pegging-tree"></a><span data-ttu-id="d554d-118">Sidumispuu avamine</span><span class="sxs-lookup"><span data-stu-id="d554d-118">Open a pegging tree</span></span> 
+1. <span data-ttu-id="d554d-119">Klõpsake valikut Toode ja tarnimine.</span><span class="sxs-lookup"><span data-stu-id="d554d-119">Click Product and supply.</span></span>
+2. <span data-ttu-id="d554d-120">Klõpsake suvandit Kuva sidumispuu.</span><span class="sxs-lookup"><span data-stu-id="d554d-120">Click View pegging tree.</span></span>
+    * <span data-ttu-id="d554d-121">Pange tähele, et sidumispuus on kuvatud kõik müügitellimuse rea jaoks vajalikud sidumistasemed.</span><span class="sxs-lookup"><span data-stu-id="d554d-121">Notice that the pegging tree shows all levels of the pegging needed for the sales order line.</span></span> <span data-ttu-id="d554d-122">Selles näites on kaks kanbanide taset ja kõik nõutavad komponendid.</span><span class="sxs-lookup"><span data-stu-id="d554d-122">In this case, there are two levels of kanbans and all the required components.</span></span>  
 
-## <a name="plan-the-pegging-tree"></a><span data-ttu-id="d3657-123">Sidumispuu plaanimine</span><span class="sxs-lookup"><span data-stu-id="d3657-123">Plan the pegging tree</span></span>
-1. <span data-ttu-id="d3657-124">Valige puus „Sales line 000832\Kanban 000558”.</span><span class="sxs-lookup"><span data-stu-id="d3657-124">In the tree, select 'Sales line 000832\Kanban 000558'.</span></span>
-2. <span data-ttu-id="d3657-125">Laiendage jaotist Kanban-tööd.</span><span class="sxs-lookup"><span data-stu-id="d3657-125">Expand the Kanban jobs section.</span></span>
-    * <span data-ttu-id="d3657-126">Pange tähele, et kanban-töö olek on Plaanimata.</span><span class="sxs-lookup"><span data-stu-id="d3657-126">Notice that the job status for the kanban job is Not planned.</span></span>  
-3. <span data-ttu-id="d3657-127">Klõpsake käsku Plaani kogu sidumispuu.</span><span class="sxs-lookup"><span data-stu-id="d3657-127">Click Plan entire pegging tree.</span></span>
-    * <span data-ttu-id="d3657-128">See plaanib kõik sidumispuus olevad kanban-tööd, asendades töö oleku Plaanimata olekuga Plaanitud.</span><span class="sxs-lookup"><span data-stu-id="d3657-128">This will plan all kanban jobs in the pegging tree, changing the Job status from Not planned to Planned.</span></span>  
-4. <span data-ttu-id="d3657-129">Värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="d3657-129">Refresh the page.</span></span>
-    * <span data-ttu-id="d3657-130">Pange tähele, et kanban-töö olek Plaanimata asendati olekuga Plaanitud.</span><span class="sxs-lookup"><span data-stu-id="d3657-130">Notice that the kanban Job status changed from Not planned to Planned.</span></span>  
-5. <span data-ttu-id="d3657-131">Valige puus suvand „Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559”.</span><span class="sxs-lookup"><span data-stu-id="d3657-131">In the tree, select 'Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559'.</span></span>
-    * <span data-ttu-id="d3657-132">Teise kanbani töö on samuti plaanitud, kuna kogu sidumispuu on plaanitud.</span><span class="sxs-lookup"><span data-stu-id="d3657-132">The job for the second kanban is also planned, because the entire pegging tree is planned.</span></span> <span data-ttu-id="d3657-133">Pange tähele, et kanban-töö olek Plaanimata asendatakse olekuga Plaanitud.</span><span class="sxs-lookup"><span data-stu-id="d3657-133">Notice that the kanban job status is changed from Not planned to Planned.</span></span>  
+## <a name="plan-the-pegging-tree"></a><span data-ttu-id="d554d-123">Sidumispuu plaanimine</span><span class="sxs-lookup"><span data-stu-id="d554d-123">Plan the pegging tree</span></span>
+1. <span data-ttu-id="d554d-124">Valige puus „Sales line 000832\Kanban 000558”.</span><span class="sxs-lookup"><span data-stu-id="d554d-124">In the tree, select 'Sales line 000832\Kanban 000558'.</span></span>
+2. <span data-ttu-id="d554d-125">Laiendage jaotist Kanban-tööd.</span><span class="sxs-lookup"><span data-stu-id="d554d-125">Expand the Kanban jobs section.</span></span>
+    * <span data-ttu-id="d554d-126">Pange tähele, et kanban-töö olek on Plaanimata.</span><span class="sxs-lookup"><span data-stu-id="d554d-126">Notice that the job status for the kanban job is Not planned.</span></span>  
+3. <span data-ttu-id="d554d-127">Klõpsake käsku Plaani kogu sidumispuu.</span><span class="sxs-lookup"><span data-stu-id="d554d-127">Click Plan entire pegging tree.</span></span>
+    * <span data-ttu-id="d554d-128">See plaanib kõik sidumispuus olevad kanban-tööd, asendades töö oleku Plaanimata olekuga Plaanitud.</span><span class="sxs-lookup"><span data-stu-id="d554d-128">This will plan all kanban jobs in the pegging tree, changing the Job status from Not planned to Planned.</span></span>  
+4. <span data-ttu-id="d554d-129">Värskendage lehte.</span><span class="sxs-lookup"><span data-stu-id="d554d-129">Refresh the page.</span></span>
+    * <span data-ttu-id="d554d-130">Pange tähele, et kanban-töö olek Plaanimata asendati olekuga Plaanitud.</span><span class="sxs-lookup"><span data-stu-id="d554d-130">Notice that the kanban Job status changed from Not planned to Planned.</span></span>  
+5. <span data-ttu-id="d554d-131">Valige puus suvand „Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559”.</span><span class="sxs-lookup"><span data-stu-id="d554d-131">In the tree, select 'Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559'.</span></span>
+    * <span data-ttu-id="d554d-132">Teise kanbani töö on samuti plaanitud, kuna kogu sidumispuu on plaanitud.</span><span class="sxs-lookup"><span data-stu-id="d554d-132">The job for the second kanban is also planned, because the entire pegging tree is planned.</span></span> <span data-ttu-id="d554d-133">Pange tähele, et kanban-töö olek Plaanimata asendatakse olekuga Plaanitud.</span><span class="sxs-lookup"><span data-stu-id="d554d-133">Notice that the kanban job status is changed from Not planned to Planned.</span></span>  
 

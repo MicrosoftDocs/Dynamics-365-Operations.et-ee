@@ -3,7 +3,7 @@ title: Töösuhte tüübi häälestamine
 description: Saate seadistada rakenduses Dynamics 365 Human Resources teie töötajatega ühtivad tööhõive tüübid.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,28 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 89a6045bebbb67251ee4a65dab71ce5771acc2af
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: dc9e9c2c948d654904041faa72110cc245308e64
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092610"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229713"
 ---
-# <a name="set-up-employment-types"></a><span data-ttu-id="299a9-103">Töösuhte tüübi häälestamine</span><span class="sxs-lookup"><span data-stu-id="299a9-103">Set up employment types</span></span>
+# <a name="set-up-employment-types"></a><span data-ttu-id="92f5f-103">Töösuhte tüübi häälestamine</span><span class="sxs-lookup"><span data-stu-id="92f5f-103">Set up employment types</span></span>
 
-[!include [banner](includes/preview-feature.md)]
+<span data-ttu-id="92f5f-104">Seadistage rakenduses Dynamics 365 Human Resources teie töötajatega ühtivad tööhõive tüübid.</span><span class="sxs-lookup"><span data-stu-id="92f5f-104">Set up employment types in Dynamics 365 Human Resources to match your workers.</span></span>
 
-<span data-ttu-id="299a9-104">Seadistage rakenduses Dynamics 365 Human Resources teie töötajatega ühtivad tööhõive tüübid.</span><span class="sxs-lookup"><span data-stu-id="299a9-104">Set up employment types in Dynamics 365 Human Resources to match your workers.</span></span>
+1. <span data-ttu-id="92f5f-105">Tööruumis **Personalihaldus** jaotises **Seadistus** valige suvand **Tööhõive tüübid**.</span><span class="sxs-lookup"><span data-stu-id="92f5f-105">In the **Personnel management** workspace, under **Setup**, select **Employment types**.</span></span>
 
-1. <span data-ttu-id="299a9-105">Tööruumis **Soodustuste haldus** jaotises **Seadistus** valige suvand **Tööhõive tüübid**.</span><span class="sxs-lookup"><span data-stu-id="299a9-105">In the **Benefits management** workspace, under **Setup**, select **Employment types**.</span></span>
+2. <span data-ttu-id="92f5f-106">Valige suvand **Uus**.</span><span class="sxs-lookup"><span data-stu-id="92f5f-106">Select **New**.</span></span>
 
-2. <span data-ttu-id="299a9-106">Valige suvand **Uus**.</span><span class="sxs-lookup"><span data-stu-id="299a9-106">Select **New**.</span></span>
+3. <span data-ttu-id="92f5f-107">Määrake järgmiste väljade väärtused.</span><span class="sxs-lookup"><span data-stu-id="92f5f-107">Specify values for the following fields:</span></span>
 
-3. <span data-ttu-id="299a9-107">Määrake järgmiste väljade väärtused.</span><span class="sxs-lookup"><span data-stu-id="299a9-107">Specify values for the following fields:</span></span>
-
-   | <span data-ttu-id="299a9-108">Väli</span><span class="sxs-lookup"><span data-stu-id="299a9-108">Field</span></span> | <span data-ttu-id="299a9-109">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="299a9-109">Description</span></span> |
+   | <span data-ttu-id="92f5f-108">Väli</span><span class="sxs-lookup"><span data-stu-id="92f5f-108">Field</span></span> | <span data-ttu-id="92f5f-109">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="92f5f-109">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="299a9-110">Töölevõtu tüüp</span><span class="sxs-lookup"><span data-stu-id="299a9-110">Employment type</span></span> | <span data-ttu-id="299a9-111">Tööhõive tüübi kordumatu ID.</span><span class="sxs-lookup"><span data-stu-id="299a9-111">Unique identification for the employment type.</span></span> |
-   | <span data-ttu-id="299a9-112">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="299a9-112">Description</span></span> | <span data-ttu-id="299a9-113">Tööhõive tüübi kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="299a9-113">A description of the employment type.</span></span> |
+   | <span data-ttu-id="92f5f-110">**Töölevõtu tüüp**</span><span class="sxs-lookup"><span data-stu-id="92f5f-110">**Employment type**</span></span> | <span data-ttu-id="92f5f-111">Tööhõive tüübi kordumatu ID.</span><span class="sxs-lookup"><span data-stu-id="92f5f-111">Unique identification for the employment type.</span></span> |
+   | <span data-ttu-id="92f5f-112">**Kirjeldus**</span><span class="sxs-lookup"><span data-stu-id="92f5f-112">**Description**</span></span> | <span data-ttu-id="92f5f-113">Tööhõive tüübi kirjeldus.</span><span class="sxs-lookup"><span data-stu-id="92f5f-113">A description of the employment type.</span></span> |
 
-4. <span data-ttu-id="299a9-114">Valige käsk **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="299a9-114">Select **Save**.</span></span> 
+4. <span data-ttu-id="92f5f-114">Valige käsk **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="92f5f-114">Select **Save**.</span></span> 

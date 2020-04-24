@@ -2,7 +2,7 @@
 title: Tagastatud kaupade likvideerimise viisi määratlemine
 description: Määratlege tagastatud kaupade likvideerimise viis.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQuarantineOrder
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6991fc04f5015fc3d604306e9327a5e551e728db
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cb991b5e9abbe517dcbd73de4f34744955383e82
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743068"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206653"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a><span data-ttu-id="a830a-103">Tagastatud kaupade likvideerimise viisi määratlemine</span><span class="sxs-lookup"><span data-stu-id="a830a-103">Specify how to dispose of returned items</span></span> 
+# <a name="specify-how-to-dispose-of-returned-items"></a><span data-ttu-id="cc7f9-103">Tagastatud kaupade likvideerimise viisi määratlemine</span><span class="sxs-lookup"><span data-stu-id="cc7f9-103">Specify how to dispose of returned items</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="a830a-104">Kui töötlete tagastuskorraldust, peate määrama põhjusekoodi selgitamaks, miks toode tagastatakse.</span><span class="sxs-lookup"><span data-stu-id="a830a-104">When you handle a return order, you must specify a reason return code to identify why the product is being returned.</span></span> <span data-ttu-id="a830a-105">Peate määrama ka likvideerimiskoodi ja likvideerimistegevuse, et määratleda, mida teha tagastatud tootega.</span><span class="sxs-lookup"><span data-stu-id="a830a-105">You must also specify a disposition code and a disposition action to determine what should be done with the returned product itself.</span></span>
+<span data-ttu-id="cc7f9-104">Kui töötlete tagastuskorraldust, peate määrama põhjusekoodi selgitamaks, miks toode tagastatakse.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-104">When you handle a return order, you must specify a reason return code to identify why the product is being returned.</span></span> <span data-ttu-id="cc7f9-105">Peate määrama ka likvideerimiskoodi ja likvideerimistegevuse, et määratleda, mida teha tagastatud tootega.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-105">You must also specify a disposition code and a disposition action to determine what should be done with the returned product itself.</span></span>
 
-<span data-ttu-id="a830a-106">Likvideerimiskoodi saab rakendada, kui loote tagastustellimuse, registreerite kauba saabumise või kauba saabumise saatelehe uuenduse ja lõpetate vahelao orderi.</span><span class="sxs-lookup"><span data-stu-id="a830a-106">A disposition code can be applied when you create the return order, register item arrival or packing-slip update an item arrival, and end a quarantine order.</span></span>
+<span data-ttu-id="cc7f9-106">Likvideerimiskoodi saab rakendada, kui loote tagastustellimuse, registreerite kauba saabumise või kauba saabumise saatelehe uuenduse ja lõpetate vahelao orderi.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-106">A disposition code can be applied when you create the return order, register item arrival or packing-slip update an item arrival, and end a quarantine order.</span></span>
 
-<span data-ttu-id="a830a-107">Saate määratleda kõiki likvideerimiskoode, mida äriprotsessi toetamiseks tarvis.</span><span class="sxs-lookup"><span data-stu-id="a830a-107">You can define any disposition codes that you need in order to support the business processes.</span></span> <span data-ttu-id="a830a-108">Järgnev tabel annab tavaliselt kasutatavate koodide komplekti, et määrata tagastatud kauba likvideerimine.</span><span class="sxs-lookup"><span data-stu-id="a830a-108">The following table provides a set of typically used codes to assign return-item disposition.</span></span>
+<span data-ttu-id="cc7f9-107">Saate määratleda kõiki likvideerimiskoode, mida äriprotsessi toetamiseks tarvis.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-107">You can define any disposition codes that you need in order to support the business processes.</span></span> <span data-ttu-id="cc7f9-108">Järgnev tabel annab tavaliselt kasutatavate koodide komplekti, et määrata tagastatud kauba likvideerimine.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-108">The following table provides a set of typically used codes to assign return-item disposition.</span></span>
 
 <table>
 <colgroup>
@@ -44,87 +44,87 @@ ms.locfileid: "1743068"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="a830a-109">Likvideerimise tüüp</span><span class="sxs-lookup"><span data-stu-id="a830a-109">Disposition type</span></span></p></th>
-<th><p><span data-ttu-id="a830a-110">Tavaline kood</span><span class="sxs-lookup"><span data-stu-id="a830a-110">Common code</span></span></p></th>
-<th><p><span data-ttu-id="a830a-111">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="a830a-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="cc7f9-109">Likvideerimise tüüp</span><span class="sxs-lookup"><span data-stu-id="cc7f9-109">Disposition type</span></span></p></th>
+<th><p><span data-ttu-id="cc7f9-110">Tavaline kood</span><span class="sxs-lookup"><span data-stu-id="cc7f9-110">Common code</span></span></p></th>
+<th><p><span data-ttu-id="cc7f9-111">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="cc7f9-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a830a-112">Likvideerimine</span><span class="sxs-lookup"><span data-stu-id="a830a-112">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="a830a-113">SC</span><span class="sxs-lookup"><span data-stu-id="a830a-113">SC</span></span></p></td>
-<td><p><span data-ttu-id="a830a-114">Mahakandmine/Hävitamine</span><span class="sxs-lookup"><span data-stu-id="a830a-114">Scrap/Destroy</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-112">Likvideerimine</span><span class="sxs-lookup"><span data-stu-id="cc7f9-112">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-113">SC</span><span class="sxs-lookup"><span data-stu-id="cc7f9-113">SC</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-114">Mahakandmine/Hävitamine</span><span class="sxs-lookup"><span data-stu-id="cc7f9-114">Scrap/Destroy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a830a-115">Likvideerimine</span><span class="sxs-lookup"><span data-stu-id="a830a-115">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="a830a-116">DC</span><span class="sxs-lookup"><span data-stu-id="a830a-116">DC</span></span></p></td>
-<td><p><span data-ttu-id="a830a-117">Annetamine heategevuseks</span><span class="sxs-lookup"><span data-stu-id="a830a-117">Donate to Charity</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-115">Likvideerimine</span><span class="sxs-lookup"><span data-stu-id="cc7f9-115">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-116">DC</span><span class="sxs-lookup"><span data-stu-id="cc7f9-116">DC</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-117">Annetamine heategevuseks</span><span class="sxs-lookup"><span data-stu-id="cc7f9-117">Donate to Charity</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a830a-118">Likvideerimine</span><span class="sxs-lookup"><span data-stu-id="a830a-118">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="a830a-119">TD</span><span class="sxs-lookup"><span data-stu-id="a830a-119">TD</span></span></p></td>
-<td><p><span data-ttu-id="a830a-120">Kolmanda osapoole likvideerimine</span><span class="sxs-lookup"><span data-stu-id="a830a-120">Third-Party Disposal</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-118">Likvideerimine</span><span class="sxs-lookup"><span data-stu-id="cc7f9-118">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-119">TD</span><span class="sxs-lookup"><span data-stu-id="cc7f9-119">TD</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-120">Kolmanda osapoole likvideerimine</span><span class="sxs-lookup"><span data-stu-id="cc7f9-120">Third-Party Disposal</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a830a-121">Likvideerimine</span><span class="sxs-lookup"><span data-stu-id="a830a-121">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="a830a-122">SL</span><span class="sxs-lookup"><span data-stu-id="a830a-122">SL</span></span></p></td>
-<td><p><span data-ttu-id="a830a-123">Jääkväärtus</span><span class="sxs-lookup"><span data-stu-id="a830a-123">Salvage</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-121">Likvideerimine</span><span class="sxs-lookup"><span data-stu-id="cc7f9-121">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-122">SL</span><span class="sxs-lookup"><span data-stu-id="cc7f9-122">SL</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-123">Jääkväärtus</span><span class="sxs-lookup"><span data-stu-id="cc7f9-123">Salvage</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a830a-124">Likvideerimine</span><span class="sxs-lookup"><span data-stu-id="a830a-124">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="a830a-125">TS</span><span class="sxs-lookup"><span data-stu-id="a830a-125">TS</span></span></p></td>
-<td><p><span data-ttu-id="a830a-126">Kolmanda osapoole müük (teisejärgulised turud)</span><span class="sxs-lookup"><span data-stu-id="a830a-126">Third-Party Sale (Secondary Markets)</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-124">Likvideerimine</span><span class="sxs-lookup"><span data-stu-id="cc7f9-124">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-125">TS</span><span class="sxs-lookup"><span data-stu-id="cc7f9-125">TS</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-126">Kolmanda osapoole müük (teisejärgulised turud)</span><span class="sxs-lookup"><span data-stu-id="cc7f9-126">Third-Party Sale (Secondary Markets)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a830a-127">Paranda/Muuda</span><span class="sxs-lookup"><span data-stu-id="a830a-127">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="a830a-128">RW</span><span class="sxs-lookup"><span data-stu-id="a830a-128">RW</span></span></p></td>
-<td><p><span data-ttu-id="a830a-129">Taastöötlus</span><span class="sxs-lookup"><span data-stu-id="a830a-129">Rework</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-127">Paranda/Muuda</span><span class="sxs-lookup"><span data-stu-id="cc7f9-127">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-128">RW</span><span class="sxs-lookup"><span data-stu-id="cc7f9-128">RW</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-129">Taastöötlus</span><span class="sxs-lookup"><span data-stu-id="cc7f9-129">Rework</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a830a-130">Paranda/Muuda</span><span class="sxs-lookup"><span data-stu-id="a830a-130">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="a830a-131">RF</span><span class="sxs-lookup"><span data-stu-id="a830a-131">RF</span></span></p></td>
-<td><p><span data-ttu-id="a830a-132">Taastootmine/Remontimine</span><span class="sxs-lookup"><span data-stu-id="a830a-132">Remanufacture/Refurbish</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-130">Paranda/Muuda</span><span class="sxs-lookup"><span data-stu-id="cc7f9-130">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-131">RF</span><span class="sxs-lookup"><span data-stu-id="cc7f9-131">RF</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-132">Taastootmine/Remontimine</span><span class="sxs-lookup"><span data-stu-id="cc7f9-132">Remanufacture/Refurbish</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a830a-133">Paranda/Muuda</span><span class="sxs-lookup"><span data-stu-id="a830a-133">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="a830a-134">MD</span><span class="sxs-lookup"><span data-stu-id="a830a-134">MD</span></span></p></td>
-<td><p><span data-ttu-id="a830a-135">Muuda</span><span class="sxs-lookup"><span data-stu-id="a830a-135">Modify</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-133">Paranda/Muuda</span><span class="sxs-lookup"><span data-stu-id="cc7f9-133">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-134">MD</span><span class="sxs-lookup"><span data-stu-id="cc7f9-134">MD</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-135">Muuda</span><span class="sxs-lookup"><span data-stu-id="cc7f9-135">Modify</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a830a-136">Paranda/Muuda</span><span class="sxs-lookup"><span data-stu-id="a830a-136">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="a830a-137">RP</span><span class="sxs-lookup"><span data-stu-id="a830a-137">RP</span></span></p></td>
-<td><p><span data-ttu-id="a830a-138">Remont</span><span class="sxs-lookup"><span data-stu-id="a830a-138">Repair</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-136">Paranda/Muuda</span><span class="sxs-lookup"><span data-stu-id="cc7f9-136">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-137">RP</span><span class="sxs-lookup"><span data-stu-id="cc7f9-137">RP</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-138">Remont</span><span class="sxs-lookup"><span data-stu-id="cc7f9-138">Repair</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a830a-139">Paranda/Muuda</span><span class="sxs-lookup"><span data-stu-id="a830a-139">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="a830a-140">RV</span><span class="sxs-lookup"><span data-stu-id="a830a-140">RV</span></span></p></td>
-<td><p><span data-ttu-id="a830a-141">Tagasta tarnijale</span><span class="sxs-lookup"><span data-stu-id="a830a-141">Return to Vendor</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-139">Paranda/Muuda</span><span class="sxs-lookup"><span data-stu-id="cc7f9-139">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-140">RV</span><span class="sxs-lookup"><span data-stu-id="cc7f9-140">RV</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-141">Tagasta tarnijale</span><span class="sxs-lookup"><span data-stu-id="cc7f9-141">Return to Vendor</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a830a-142">Muu</span><span class="sxs-lookup"><span data-stu-id="a830a-142">Other</span></span></p></td>
-<td><p><span data-ttu-id="a830a-143">AI</span><span class="sxs-lookup"><span data-stu-id="a830a-143">AI</span></span></p></td>
-<td><p><span data-ttu-id="a830a-144">Kasuta nii, nagu on</span><span class="sxs-lookup"><span data-stu-id="a830a-144">Use as is</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-142">Muu</span><span class="sxs-lookup"><span data-stu-id="cc7f9-142">Other</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-143">AI</span><span class="sxs-lookup"><span data-stu-id="cc7f9-143">AI</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-144">Kasuta nii, nagu on</span><span class="sxs-lookup"><span data-stu-id="cc7f9-144">Use as is</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a830a-145">Muu</span><span class="sxs-lookup"><span data-stu-id="a830a-145">Other</span></span></p></td>
-<td><p><span data-ttu-id="a830a-146">RS</span><span class="sxs-lookup"><span data-stu-id="a830a-146">RS</span></span></p></td>
-<td><p><span data-ttu-id="a830a-147">Uuestimüük</span><span class="sxs-lookup"><span data-stu-id="a830a-147">Resale</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-145">Muu</span><span class="sxs-lookup"><span data-stu-id="cc7f9-145">Other</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-146">RS</span><span class="sxs-lookup"><span data-stu-id="cc7f9-146">RS</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-147">Uuestimüük</span><span class="sxs-lookup"><span data-stu-id="cc7f9-147">Resale</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a830a-148">Muu</span><span class="sxs-lookup"><span data-stu-id="a830a-148">Other</span></span></p></td>
-<td><p><span data-ttu-id="a830a-149">EX</span><span class="sxs-lookup"><span data-stu-id="a830a-149">EX</span></span></p></td>
-<td><p><span data-ttu-id="a830a-150">Rahavahetus</span><span class="sxs-lookup"><span data-stu-id="a830a-150">Exchange</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-148">Muu</span><span class="sxs-lookup"><span data-stu-id="cc7f9-148">Other</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-149">EX</span><span class="sxs-lookup"><span data-stu-id="cc7f9-149">EX</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-150">Rahavahetus</span><span class="sxs-lookup"><span data-stu-id="cc7f9-150">Exchange</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a830a-151">Muu</span><span class="sxs-lookup"><span data-stu-id="a830a-151">Other</span></span></p></td>
-<td><p><span data-ttu-id="a830a-152">MS</span><span class="sxs-lookup"><span data-stu-id="a830a-152">MS</span></span></p></td>
-<td><p><span data-ttu-id="a830a-153">Muud</span><span class="sxs-lookup"><span data-stu-id="a830a-153">Miscellaneous</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-151">Muu</span><span class="sxs-lookup"><span data-stu-id="cc7f9-151">Other</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-152">MS</span><span class="sxs-lookup"><span data-stu-id="cc7f9-152">MS</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-153">Muud</span><span class="sxs-lookup"><span data-stu-id="cc7f9-153">Miscellaneous</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="a830a-154">Iga määratletava likvideerimistähise jaoks peate valima likvideerimistegevuse.</span><span class="sxs-lookup"><span data-stu-id="a830a-154">For each disposition code that you define, you must select a disposition action.</span></span> <span data-ttu-id="a830a-155">Likvideerimistegevus määrab likvideerimiskoodide füüsilised ja majanduslikud mõjud.</span><span class="sxs-lookup"><span data-stu-id="a830a-155">The disposition action determines the physical and financial implications of the disposition codes.</span></span> <span data-ttu-id="a830a-156">Näiteks määrab likvideerimisetegevus tagastatud füüsilise käitlemise, tagastatud kauba rahalise mõju ja kas kliendile tuleb saata asenduskaup.</span><span class="sxs-lookup"><span data-stu-id="a830a-156">For example, the disposition action determines the physical handling of the returned item, the financial effect of the returned item, and if a replacement item must be sent to the customer.</span></span> <span data-ttu-id="a830a-157">Saate määrata piiramatu arvu likvideerimiskoode vastavalt oma ettevõtte vajadustele, kuid on olemas ainult kuus eelmääratletud likvideerimistegevust, mida saab valida.</span><span class="sxs-lookup"><span data-stu-id="a830a-157">You can define an unlimited number of disposition codes according to your business needs, but there are only six predefined disposition actions that you can select from.</span></span> <span data-ttu-id="a830a-158">Järgnev tabel annab likvideerimistegevused ja nende definitsioonid.</span><span class="sxs-lookup"><span data-stu-id="a830a-158">The following table provides the disposition actions and their definitions.</span></span>
+<span data-ttu-id="cc7f9-154">Iga määratletava likvideerimistähise jaoks peate valima likvideerimistegevuse.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-154">For each disposition code that you define, you must select a disposition action.</span></span> <span data-ttu-id="cc7f9-155">Likvideerimistegevus määrab likvideerimiskoodide füüsilised ja majanduslikud mõjud.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-155">The disposition action determines the physical and financial implications of the disposition codes.</span></span> <span data-ttu-id="cc7f9-156">Näiteks määrab likvideerimisetegevus tagastatud füüsilise käitlemise, tagastatud kauba rahalise mõju ja kas kliendile tuleb saata asenduskaup.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-156">For example, the disposition action determines the physical handling of the returned item, the financial effect of the returned item, and if a replacement item must be sent to the customer.</span></span> <span data-ttu-id="cc7f9-157">Saate määrata piiramatu arvu likvideerimiskoode vastavalt oma ettevõtte vajadustele, kuid on olemas ainult kuus eelmääratletud likvideerimistegevust, mida saab valida.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-157">You can define an unlimited number of disposition codes according to your business needs, but there are only six predefined disposition actions that you can select from.</span></span> <span data-ttu-id="cc7f9-158">Järgnev tabel annab likvideerimistegevused ja nende definitsioonid.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-158">The following table provides the disposition actions and their definitions.</span></span>
 
 <table>
 <colgroup>
@@ -133,52 +133,52 @@ ms.locfileid: "1743068"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="a830a-159">Likvideerimistegevus</span><span class="sxs-lookup"><span data-stu-id="a830a-159">Disposition action</span></span></p></th>
-<th><p><span data-ttu-id="a830a-160">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="a830a-160">Description</span></span></p></th>
+<th><p><span data-ttu-id="cc7f9-159">Likvideerimistegevus</span><span class="sxs-lookup"><span data-stu-id="cc7f9-159">Disposition action</span></span></p></th>
+<th><p><span data-ttu-id="cc7f9-160">Kirjeldus</span><span class="sxs-lookup"><span data-stu-id="cc7f9-160">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a830a-161"><strong>Krediit</strong></span><span class="sxs-lookup"><span data-stu-id="a830a-161"><strong>Credit</strong></span></span></p></td>
-<td><p><span data-ttu-id="a830a-162">Tagastage kaup varudesse ja tagastage kliendile makse.</span><span class="sxs-lookup"><span data-stu-id="a830a-162">Return the item to inventory and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-161"><strong>Krediit</strong></span><span class="sxs-lookup"><span data-stu-id="cc7f9-161"><strong>Credit</strong></span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-162">Tagastage kaup varudesse ja tagastage kliendile makse.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-162">Return the item to inventory and credit the customer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a830a-163"><strong>Ainult kreedit</strong></span><span class="sxs-lookup"><span data-stu-id="a830a-163"><strong>Credit only</strong></span></span></p></td>
-<td><p><span data-ttu-id="a830a-164">Kliendile tagastatakse makse ilma kauba tagastamist nõudmata või eeldamata.</span><span class="sxs-lookup"><span data-stu-id="a830a-164">Credit the customer without requiring or expecting the item to be returned.</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-163"><strong>Ainult kreedit</strong></span><span class="sxs-lookup"><span data-stu-id="cc7f9-163"><strong>Credit only</strong></span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-164">Kliendile tagastatakse makse ilma kauba tagastamist nõudmata või eeldamata.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-164">Credit the customer without requiring or expecting the item to be returned.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a830a-165"><strong>Praak</strong></span><span class="sxs-lookup"><span data-stu-id="a830a-165"><strong>Scrap</strong></span></span></p></td>
-<td><p><span data-ttu-id="a830a-166">Lugege kaup praagiks ja tagastage kliendile makse.</span><span class="sxs-lookup"><span data-stu-id="a830a-166">Scrap the item and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-165"><strong>Praak</strong></span><span class="sxs-lookup"><span data-stu-id="cc7f9-165"><strong>Scrap</strong></span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-166">Lugege kaup praagiks ja tagastage kliendile makse.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-166">Scrap the item and credit the customer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a830a-167"><strong>Asenda ja kanna kreeditisse</strong></span><span class="sxs-lookup"><span data-stu-id="a830a-167"><strong>Replace and credit</strong></span></span></p></td>
-<td><p><span data-ttu-id="a830a-168">Tagastage kaup varudesse, looge asenduskorraldus ja tagastage kliendile makse.</span><span class="sxs-lookup"><span data-stu-id="a830a-168">Return the item to inventory, create a replacement order, and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-167"><strong>Asenda ja kanna kreeditisse</strong></span><span class="sxs-lookup"><span data-stu-id="cc7f9-167"><strong>Replace and credit</strong></span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-168">Tagastage kaup varudesse, looge asenduskorraldus ja tagastage kliendile makse.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-168">Return the item to inventory, create a replacement order, and credit the customer.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a830a-169"><strong>Asenda ja kanna praaki</strong></span><span class="sxs-lookup"><span data-stu-id="a830a-169"><strong>Replace and scrap</strong></span></span></p></td>
-<td><p><span data-ttu-id="a830a-170">Lugege kaup praagiks, looge asendamiskorraldus ja tagastage kliendile makse.</span><span class="sxs-lookup"><span data-stu-id="a830a-170">Scrap the item, create a replacement order, and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-169"><strong>Asenda ja kanna praaki</strong></span><span class="sxs-lookup"><span data-stu-id="cc7f9-169"><strong>Replace and scrap</strong></span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-170">Lugege kaup praagiks, looge asendamiskorraldus ja tagastage kliendile makse.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-170">Scrap the item, create a replacement order, and credit the customer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a830a-171"><strong>Tagasta kliendile</strong></span><span class="sxs-lookup"><span data-stu-id="a830a-171"><strong>Return to customer</strong></span></span></p></td>
-<td><p><span data-ttu-id="a830a-172">Lükake kauba tagastamine tagasi ja tagastage see kliendile.</span><span class="sxs-lookup"><span data-stu-id="a830a-172">Reject the returned item and return it to the customer.</span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-171"><strong>Tagasta kliendile</strong></span><span class="sxs-lookup"><span data-stu-id="cc7f9-171"><strong>Return to customer</strong></span></span></p></td>
+<td><p><span data-ttu-id="cc7f9-172">Lükake kauba tagastamine tagasi ja tagastage see kliendile.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-172">Reject the returned item and return it to the customer.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="select-a-disposition-code-for-a-quarantine-order"></a><span data-ttu-id="a830a-173">Likvideerimiskoodi valimine vahelao orderile</span><span class="sxs-lookup"><span data-stu-id="a830a-173">Select a disposition code for a quarantine order</span></span>
+## <a name="select-a-disposition-code-for-a-quarantine-order"></a><span data-ttu-id="cc7f9-173">Likvideerimiskoodi valimine vahelao orderile</span><span class="sxs-lookup"><span data-stu-id="cc7f9-173">Select a disposition code for a quarantine order</span></span>
 
-1.  <span data-ttu-id="a830a-174">Klõpsake valikuid **Varude haldamine** \> **Perioodiline** \> **Kvaliteedijuhtimine** \> **Vahelao orderid**.</span><span class="sxs-lookup"><span data-stu-id="a830a-174">Click **Inventory management** \> **Periodic** \> **Quality management** \> **Quarantine orders**.</span></span>
+1.  <span data-ttu-id="cc7f9-174">Klõpsake valikuid **Varude haldamine** \> **Perioodiline** \> **Kvaliteedijuhtimine** \> **Vahelao orderid**.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-174">Click **Inventory management** \> **Periodic** \> **Quality management** \> **Quarantine orders**.</span></span>
 
-2.  <span data-ttu-id="a830a-175">Olemasoleva vahelao orderi jaoks valige tegevus väljalt **Likvideerimiskood** vahekaardil **Ülevaade**.</span><span class="sxs-lookup"><span data-stu-id="a830a-175">For an existing quarantine order, select an action from the **Disposition code** field on the **Overview** tab.</span></span>
+2.  <span data-ttu-id="cc7f9-175">Olemasoleva vahelao orderi jaoks valige tegevus väljalt **Likvideerimiskood** vahekaardil **Ülevaade**.</span><span class="sxs-lookup"><span data-stu-id="cc7f9-175">For an existing quarantine order, select an action from the **Disposition code** field on the **Overview** tab.</span></span>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a830a-176">Vt ka</span><span class="sxs-lookup"><span data-stu-id="a830a-176">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cc7f9-176">Vt ka</span><span class="sxs-lookup"><span data-stu-id="cc7f9-176">See also</span></span>
 
-<span data-ttu-id="a830a-177">[Vahelao order (vorm)](https://technet.microsoft.com/library/aa554073(v=ax.60))</span><span class="sxs-lookup"><span data-stu-id="a830a-177">[Quarantine order (form)](https://technet.microsoft.com/library/aa554073(v=ax.60))</span></span>
+<span data-ttu-id="cc7f9-177">[Vahelao order (vorm)](https://technet.microsoft.com/library/aa554073(v=ax.60))</span><span class="sxs-lookup"><span data-stu-id="cc7f9-177">[Quarantine order (form)](https://technet.microsoft.com/library/aa554073(v=ax.60))</span></span>
 
-<span data-ttu-id="a830a-178">[Likvideerimiskoodid (vorm)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="a830a-178">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
+<span data-ttu-id="cc7f9-178">[Likvideerimiskoodid (vorm)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="cc7f9-178">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
 
   
 

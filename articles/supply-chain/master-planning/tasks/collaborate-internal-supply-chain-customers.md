@@ -2,7 +2,7 @@
 title: Sisemise tarneahela klientidega koostöö tegemine
 description: See protseduur näitab, kuidas vaadata kõiki plaanitud tellimusi, mida kontsernisisene hankija täidab.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,36 +10,36 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqOutboundIntercompanyDemand
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2746534cc808dc61e54aa55c1030422bb37e8984
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: fb807a904afaba09d0dc364c06f964c135d3cfb1
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148143"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208658"
 ---
-# <a name="collaborate-with-internal-supply-chain-customers"></a><span data-ttu-id="4a8ec-103">Sisemise tarneahela klientidega koostöö tegemine</span><span class="sxs-lookup"><span data-stu-id="4a8ec-103">Collaborate with internal supply chain customers</span></span>
+# <a name="collaborate-with-internal-supply-chain-customers"></a><span data-ttu-id="47e3f-103">Sisemise tarneahela klientidega koostöö tegemine</span><span class="sxs-lookup"><span data-stu-id="47e3f-103">Collaborate with internal supply chain customers</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="4a8ec-104">See protseduur näitab, kuidas vaadata kõiki plaanitud tellimusi, mida kontsernisisene hankija täidab.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-104">This procedure shows how to view all the planned orders that will be fulfilled by an intercompany vendor.</span></span> <span data-ttu-id="4a8ec-105">Selle protseduuri loomiseks kasutatav demoandmete ettevõte on DEMF.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-105">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="47e3f-104">See protseduur näitab, kuidas vaadata kõiki plaanitud tellimusi, mida kontsernisisene hankija täidab.</span><span class="sxs-lookup"><span data-stu-id="47e3f-104">This procedure shows how to view all the planned orders that will be fulfilled by an intercompany vendor.</span></span> <span data-ttu-id="47e3f-105">Selle protseduuri loomiseks kasutatav demoandmete ettevõte on DEMF.</span><span class="sxs-lookup"><span data-stu-id="47e3f-105">The demo data company used to create this procedure is DEMF.</span></span>
 
-1. <span data-ttu-id="4a8ec-106">Klõpsake valikul Koondplaneerimine.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-106">Click Master planning.</span></span>
-2. <span data-ttu-id="4a8ec-107">Valige või sisestage väärtus väljal Plaan.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-107">In the Plan field, enter or select a value.</span></span>
-    * <span data-ttu-id="4a8ec-108">Valige plaan 10 väljalt Plaan.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-108">In the Plan field, select plan 10.</span></span>  
-3. <span data-ttu-id="4a8ec-109">Klõpsake nuppu Käivita.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-109">Click Run.</span></span>
-4. <span data-ttu-id="4a8ec-110">Sisestage number väljale Lõimede arv.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-110">In the Number of threads field, enter a number.</span></span>
-    * <span data-ttu-id="4a8ec-111">See tähistab koondplaneerimises kasutatavate paralleelsete lõimede arvu.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-111">This represents the number of parallel threads to be used for master planning.</span></span>  
-5. <span data-ttu-id="4a8ec-112">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-112">Click OK.</span></span>
-    * <span data-ttu-id="4a8ec-113">See võib veidi aega võtta.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-113">This may take a while.</span></span>  
-6. <span data-ttu-id="4a8ec-114">Klõpsake valikut Plaanitud kontsernisisene nõudlus.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-114">Click Planned intercompany demand.</span></span>
-7. <span data-ttu-id="4a8ec-115">Klõpsake valikut Väljaminev plaanitud kontsernisisene nõudlus.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-115">Click Outbound planned intercompany demand.</span></span>
-    * <span data-ttu-id="4a8ec-116">Sellel lehel antakse ülevaade kogu plaanitud nõudlusest, mille sisemise tarneahela hankija täidab.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-116">This page provides an overview of all the planned demand that will be fulfilled by an internal supply chain vendor.</span></span>  
-8. <span data-ttu-id="4a8ec-117">Laiendage jaotist Ülesvoolu nõudluse üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-117">Expand the Upstream demand details section.</span></span>
-    * <span data-ttu-id="4a8ec-118">Selles jaotises saate vaadata teavet selle kohta, kuidas nõudlust täidetakse.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-118">In this section, you can see the details about how the demand will be fulfilled.</span></span> <span data-ttu-id="4a8ec-119">Enne kui siin lisateavet näete, peate ootama koondplaneerimise käitamist tarneettevõttes.</span><span class="sxs-lookup"><span data-stu-id="4a8ec-119">You may need to wait for master planning to be run in the supply company before you can see additional information here.</span></span>  
+1. <span data-ttu-id="47e3f-106">Klõpsake valikul Koondplaneerimine.</span><span class="sxs-lookup"><span data-stu-id="47e3f-106">Click Master planning.</span></span>
+2. <span data-ttu-id="47e3f-107">Valige või sisestage väärtus väljal Plaan.</span><span class="sxs-lookup"><span data-stu-id="47e3f-107">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="47e3f-108">Valige plaan 10 väljalt Plaan.</span><span class="sxs-lookup"><span data-stu-id="47e3f-108">In the Plan field, select plan 10.</span></span>  
+3. <span data-ttu-id="47e3f-109">Klõpsake nuppu Käivita.</span><span class="sxs-lookup"><span data-stu-id="47e3f-109">Click Run.</span></span>
+4. <span data-ttu-id="47e3f-110">Sisestage number väljale Lõimede arv.</span><span class="sxs-lookup"><span data-stu-id="47e3f-110">In the Number of threads field, enter a number.</span></span>
+    * <span data-ttu-id="47e3f-111">See tähistab koondplaneerimises kasutatavate paralleelsete lõimede arvu.</span><span class="sxs-lookup"><span data-stu-id="47e3f-111">This represents the number of parallel threads to be used for master planning.</span></span>  
+5. <span data-ttu-id="47e3f-112">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="47e3f-112">Click OK.</span></span>
+    * <span data-ttu-id="47e3f-113">See võib veidi aega võtta.</span><span class="sxs-lookup"><span data-stu-id="47e3f-113">This may take a while.</span></span>  
+6. <span data-ttu-id="47e3f-114">Klõpsake valikut Plaanitud kontsernisisene nõudlus.</span><span class="sxs-lookup"><span data-stu-id="47e3f-114">Click Planned intercompany demand.</span></span>
+7. <span data-ttu-id="47e3f-115">Klõpsake valikut Väljaminev plaanitud kontsernisisene nõudlus.</span><span class="sxs-lookup"><span data-stu-id="47e3f-115">Click Outbound planned intercompany demand.</span></span>
+    * <span data-ttu-id="47e3f-116">Sellel lehel antakse ülevaade kogu plaanitud nõudlusest, mille sisemise tarneahela hankija täidab.</span><span class="sxs-lookup"><span data-stu-id="47e3f-116">This page provides an overview of all the planned demand that will be fulfilled by an internal supply chain vendor.</span></span>  
+8. <span data-ttu-id="47e3f-117">Laiendage jaotist Ülesvoolu nõudluse üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="47e3f-117">Expand the Upstream demand details section.</span></span>
+    * <span data-ttu-id="47e3f-118">Selles jaotises saate vaadata teavet selle kohta, kuidas nõudlust täidetakse.</span><span class="sxs-lookup"><span data-stu-id="47e3f-118">In this section, you can see the details about how the demand will be fulfilled.</span></span> <span data-ttu-id="47e3f-119">Enne kui siin lisateavet näete, peate ootama koondplaneerimise käitamist tarneettevõttes.</span><span class="sxs-lookup"><span data-stu-id="47e3f-119">You may need to wait for master planning to be run in the supply company before you can see additional information here.</span></span>  
 

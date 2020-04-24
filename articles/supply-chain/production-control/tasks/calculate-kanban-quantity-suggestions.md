@@ -2,86 +2,86 @@
 title: Kanban-koguse soovituste arvutamine
 description: See protseduur keskendub kanban-suuruse ja koguste optimeerimisele konkreetse kanban-reegli puhul, kasutades kanban-koguse arvutamist.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6769eb1c971b4641aee7cae9dd710a856b3c8fb
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: aa6a01d8f918c45aaa454e5234f80c312d7a5061
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149362"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212384"
 ---
-# <a name="calculate-kanban-quantity-suggestions"></a><span data-ttu-id="99ab2-103">Kanban-koguse soovituste arvutamine</span><span class="sxs-lookup"><span data-stu-id="99ab2-103">Calculate kanban quantity suggestions</span></span>
+# <a name="calculate-kanban-quantity-suggestions"></a><span data-ttu-id="edd3a-103">Kanban-koguse soovituste arvutamine</span><span class="sxs-lookup"><span data-stu-id="edd3a-103">Calculate kanban quantity suggestions</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="99ab2-104">See protseduur keskendub kanban-suuruse ja koguste optimeerimisele konkreetse kanban-reegli puhul, kasutades kanban-koguse arvutamist.</span><span class="sxs-lookup"><span data-stu-id="99ab2-104">This procedure focuses on optimizing the kanban size and quantities for a specific kanban rule by using the kanban quantity calculation.</span></span> <span data-ttu-id="99ab2-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="99ab2-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="99ab2-106">See protseduur on mõeldud väärtuse voo haldurile.</span><span class="sxs-lookup"><span data-stu-id="99ab2-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="99ab2-107">See on eeltingimus, et olete lõpetanud protseduuri Kanban-koguse arvutuspoliitika lisamine kanban-reeglile.</span><span class="sxs-lookup"><span data-stu-id="99ab2-107">It is a prerequisite that you have completed the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span>
+<span data-ttu-id="edd3a-104">See protseduur keskendub kanban-suuruse ja koguste optimeerimisele konkreetse kanban-reegli puhul, kasutades kanban-koguse arvutamist.</span><span class="sxs-lookup"><span data-stu-id="edd3a-104">This procedure focuses on optimizing the kanban size and quantities for a specific kanban rule by using the kanban quantity calculation.</span></span> <span data-ttu-id="edd3a-105">Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.</span><span class="sxs-lookup"><span data-stu-id="edd3a-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="edd3a-106">See protseduur on mõeldud väärtuse voo haldurile.</span><span class="sxs-lookup"><span data-stu-id="edd3a-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="edd3a-107">See on eeltingimus, et olete lõpetanud protseduuri Kanban-koguse arvutuspoliitika lisamine kanban-reeglile.</span><span class="sxs-lookup"><span data-stu-id="edd3a-107">It is a prerequisite that you have completed the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span>
 
 
-## <a name="create-a-kanban-quantity-calculation"></a><span data-ttu-id="99ab2-108">Kanban-koguse arvutamise loomine</span><span class="sxs-lookup"><span data-stu-id="99ab2-108">Create a kanban quantity calculation</span></span>
-1. <span data-ttu-id="99ab2-109">Avage Tootmise juhtimine > Perioodilised ülesanded > Kanban-koguse arvutamine > Kanban-koguse arvutamine.</span><span class="sxs-lookup"><span data-stu-id="99ab2-109">Go to Production control > Periodic tasks > Kanban quantity calculation > Calculate kanban quantity.</span></span>
-2. <span data-ttu-id="99ab2-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="99ab2-110">Click New.</span></span>
-3. <span data-ttu-id="99ab2-111">Sisestage väljale Nimi suvand Speaker2016.</span><span class="sxs-lookup"><span data-stu-id="99ab2-111">In the Name field, type 'Speaker2016'.</span></span>
-4. <span data-ttu-id="99ab2-112">Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="99ab2-112">In the Name field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="99ab2-113">Valige poliitika, mille olete loonud protseduuris Uue kanban-koguse arvutuspoliitika lisamine kanban-reeglile.</span><span class="sxs-lookup"><span data-stu-id="99ab2-113">Select the policy that you have created in the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span> <span data-ttu-id="99ab2-114">Näiteks sisestage Speaker2016.</span><span class="sxs-lookup"><span data-stu-id="99ab2-114">For example, Speaker2016.</span></span>  
-5. <span data-ttu-id="99ab2-115">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="99ab2-115">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="99ab2-116">Seadistage kuupäev ja kellaaeg väljal Reegli kehtivuse alguskuupäev väärtusele 2012-12-17T08:00:00.</span><span class="sxs-lookup"><span data-stu-id="99ab2-116">In the Rule active as of date field, set the date and time to '2012-12-17T08:00:00'.</span></span>
-    * <span data-ttu-id="99ab2-117">See kuupäev on nende fikseeritud kanban-reeglite määratlemise aluseks, mis lisatakse kanban-koguse arvutamisse.</span><span class="sxs-lookup"><span data-stu-id="99ab2-117">This date serves as the basis for determining which fixed kanban rules are included in the kanban quantity calculation.</span></span>  
-7. <span data-ttu-id="99ab2-118">Seadistage kuupäev ja kellaaeg väljal Täidetud nõudlusperioodi alguskuupäev väärtusele 2012-11-17T09:00:00.</span><span class="sxs-lookup"><span data-stu-id="99ab2-118">In the Fulfilled demand period start date field, set the date and time to '2012-11-17T09:00:00'.</span></span>
-    * <span data-ttu-id="99ab2-119">Alguskuupäev, kui möödunud nõudluse kanded lisatakse kanban-koguse arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="99ab2-119">The date from when past demand transactions are included to calculate the kanban quantity.</span></span>  
-8. <span data-ttu-id="99ab2-120">Seadistage kuupäev ja kellaaeg väljal Täidetud nõudlusperioodi lõppkuupäev väärtusele 2012-12-17T07:59:59.</span><span class="sxs-lookup"><span data-stu-id="99ab2-120">In the Fulfilled demand period end date field, set the date and time to '2012-12-17T07:59:59'.</span></span>
-    * <span data-ttu-id="99ab2-121">Lõppkuupäev, milleni möödunud nõudluse kanded lisatakse kanban-koguse arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="99ab2-121">The date until when past demand transactions are included to calculate the kanban quantity.</span></span>  
-9. <span data-ttu-id="99ab2-122">Seadistage kuupäev ja kellaaeg väljal Nõudlusperioodi alguskuupäev väärtusele 2012-12-17T08:00:00.</span><span class="sxs-lookup"><span data-stu-id="99ab2-122">In the Demand period start date field, set the date and time to '2012-12-17T08:00:00'.</span></span>
-    * <span data-ttu-id="99ab2-123">Alguskuupäev, millest alates praeguse nõudluse kanded lisatakse kanban-koguse arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="99ab2-123">The date from when current demand transactions are included to calculate the kanban quantity.</span></span>  
-10. <span data-ttu-id="99ab2-124">Seadistage kuupäev ja kellaaeg väljal Nõudlusperioodi lõppkuupäev väärtusele 2013-01-16T07:59:59.</span><span class="sxs-lookup"><span data-stu-id="99ab2-124">In the Demand period end date field, set the date and time to '2013-01-16T07:59:59'.</span></span>
-    * <span data-ttu-id="99ab2-125">Lõppkuupäev, milleni praeguse nõudluse kanded lisatakse kanban-koguse arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="99ab2-125">The date until when current demand transactions are included to calculate the kanban quantity.</span></span>  
+## <a name="create-a-kanban-quantity-calculation"></a><span data-ttu-id="edd3a-108">Kanban-koguse arvutamise loomine</span><span class="sxs-lookup"><span data-stu-id="edd3a-108">Create a kanban quantity calculation</span></span>
+1. <span data-ttu-id="edd3a-109">Avage Tootmise juhtimine > Perioodilised ülesanded > Kanban-koguse arvutamine > Kanban-koguse arvutamine.</span><span class="sxs-lookup"><span data-stu-id="edd3a-109">Go to Production control > Periodic tasks > Kanban quantity calculation > Calculate kanban quantity.</span></span>
+2. <span data-ttu-id="edd3a-110">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="edd3a-110">Click New.</span></span>
+3. <span data-ttu-id="edd3a-111">Sisestage väljale Nimi suvand Speaker2016.</span><span class="sxs-lookup"><span data-stu-id="edd3a-111">In the Name field, type 'Speaker2016'.</span></span>
+4. <span data-ttu-id="edd3a-112">Klõpsake väljal Nimi otsingu avamiseks ripploendi nuppu.</span><span class="sxs-lookup"><span data-stu-id="edd3a-112">In the Name field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="edd3a-113">Valige poliitika, mille olete loonud protseduuris Uue kanban-koguse arvutuspoliitika lisamine kanban-reeglile.</span><span class="sxs-lookup"><span data-stu-id="edd3a-113">Select the policy that you have created in the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span> <span data-ttu-id="edd3a-114">Näiteks sisestage Speaker2016.</span><span class="sxs-lookup"><span data-stu-id="edd3a-114">For example, Speaker2016.</span></span>  
+5. <span data-ttu-id="edd3a-115">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="edd3a-115">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="edd3a-116">Seadistage kuupäev ja kellaaeg väljal Reegli kehtivuse alguskuupäev väärtusele 2012-12-17T08:00:00.</span><span class="sxs-lookup"><span data-stu-id="edd3a-116">In the Rule active as of date field, set the date and time to '2012-12-17T08:00:00'.</span></span>
+    * <span data-ttu-id="edd3a-117">See kuupäev on nende fikseeritud kanban-reeglite määratlemise aluseks, mis lisatakse kanban-koguse arvutamisse.</span><span class="sxs-lookup"><span data-stu-id="edd3a-117">This date serves as the basis for determining which fixed kanban rules are included in the kanban quantity calculation.</span></span>  
+7. <span data-ttu-id="edd3a-118">Seadistage kuupäev ja kellaaeg väljal Täidetud nõudlusperioodi alguskuupäev väärtusele 2012-11-17T09:00:00.</span><span class="sxs-lookup"><span data-stu-id="edd3a-118">In the Fulfilled demand period start date field, set the date and time to '2012-11-17T09:00:00'.</span></span>
+    * <span data-ttu-id="edd3a-119">Alguskuupäev, kui möödunud nõudluse kanded lisatakse kanban-koguse arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="edd3a-119">The date from when past demand transactions are included to calculate the kanban quantity.</span></span>  
+8. <span data-ttu-id="edd3a-120">Seadistage kuupäev ja kellaaeg väljal Täidetud nõudlusperioodi lõppkuupäev väärtusele 2012-12-17T07:59:59.</span><span class="sxs-lookup"><span data-stu-id="edd3a-120">In the Fulfilled demand period end date field, set the date and time to '2012-12-17T07:59:59'.</span></span>
+    * <span data-ttu-id="edd3a-121">Lõppkuupäev, milleni möödunud nõudluse kanded lisatakse kanban-koguse arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="edd3a-121">The date until when past demand transactions are included to calculate the kanban quantity.</span></span>  
+9. <span data-ttu-id="edd3a-122">Seadistage kuupäev ja kellaaeg väljal Nõudlusperioodi alguskuupäev väärtusele 2012-12-17T08:00:00.</span><span class="sxs-lookup"><span data-stu-id="edd3a-122">In the Demand period start date field, set the date and time to '2012-12-17T08:00:00'.</span></span>
+    * <span data-ttu-id="edd3a-123">Alguskuupäev, millest alates praeguse nõudluse kanded lisatakse kanban-koguse arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="edd3a-123">The date from when current demand transactions are included to calculate the kanban quantity.</span></span>  
+10. <span data-ttu-id="edd3a-124">Seadistage kuupäev ja kellaaeg väljal Nõudlusperioodi lõppkuupäev väärtusele 2013-01-16T07:59:59.</span><span class="sxs-lookup"><span data-stu-id="edd3a-124">In the Demand period end date field, set the date and time to '2013-01-16T07:59:59'.</span></span>
+    * <span data-ttu-id="edd3a-125">Lõppkuupäev, milleni praeguse nõudluse kanded lisatakse kanban-koguse arvutamiseks.</span><span class="sxs-lookup"><span data-stu-id="edd3a-125">The date until when current demand transactions are included to calculate the kanban quantity.</span></span>  
 
-## <a name="generate-kanban-quantity-proposal"></a><span data-ttu-id="99ab2-126">Kanban-koguse soovituse loomine</span><span class="sxs-lookup"><span data-stu-id="99ab2-126">Generate kanban quantity proposal</span></span>
-1. <span data-ttu-id="99ab2-127">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="99ab2-127">Click Save.</span></span>
-2. <span data-ttu-id="99ab2-128">Klõpsake suvandit Loo.</span><span class="sxs-lookup"><span data-stu-id="99ab2-128">Click Generate.</span></span>
-    * <span data-ttu-id="99ab2-129">See loob kanban-koguse soovituse rea kanban-reegli 000020 puhul.</span><span class="sxs-lookup"><span data-stu-id="99ab2-129">This generates a kanban quantity proposal line for the kanban rule 000020.</span></span>  
+## <a name="generate-kanban-quantity-proposal"></a><span data-ttu-id="edd3a-126">Kanban-koguse soovituse loomine</span><span class="sxs-lookup"><span data-stu-id="edd3a-126">Generate kanban quantity proposal</span></span>
+1. <span data-ttu-id="edd3a-127">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="edd3a-127">Click Save.</span></span>
+2. <span data-ttu-id="edd3a-128">Klõpsake suvandit Loo.</span><span class="sxs-lookup"><span data-stu-id="edd3a-128">Click Generate.</span></span>
+    * <span data-ttu-id="edd3a-129">See loob kanban-koguse soovituse rea kanban-reegli 000020 puhul.</span><span class="sxs-lookup"><span data-stu-id="edd3a-129">This generates a kanban quantity proposal line for the kanban rule 000020.</span></span>  
 
-## <a name="run-kanban-quantity-calculation"></a><span data-ttu-id="99ab2-130">Kanban-koguse arvutamise käivitamine</span><span class="sxs-lookup"><span data-stu-id="99ab2-130">Run kanban quantity calculation</span></span>
-1. <span data-ttu-id="99ab2-131">Klõpsake valikut Arvuta.</span><span class="sxs-lookup"><span data-stu-id="99ab2-131">Click Calculate.</span></span>
-    * <span data-ttu-id="99ab2-132">See arvutab kanban-koguse soovituse.</span><span class="sxs-lookup"><span data-stu-id="99ab2-132">This calculates the kanban quantity proposal.</span></span>  
-2. <span data-ttu-id="99ab2-133">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="99ab2-133">Click OK.</span></span>
-3. <span data-ttu-id="99ab2-134">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="99ab2-134">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="99ab2-135">Pange tähele, et soovitatud kanban-kogus on 2.</span><span class="sxs-lookup"><span data-stu-id="99ab2-135">Notice the suggested kanban quantity is 2.</span></span>  
+## <a name="run-kanban-quantity-calculation"></a><span data-ttu-id="edd3a-130">Kanban-koguse arvutamise käivitamine</span><span class="sxs-lookup"><span data-stu-id="edd3a-130">Run kanban quantity calculation</span></span>
+1. <span data-ttu-id="edd3a-131">Klõpsake valikut Arvuta.</span><span class="sxs-lookup"><span data-stu-id="edd3a-131">Click Calculate.</span></span>
+    * <span data-ttu-id="edd3a-132">See arvutab kanban-koguse soovituse.</span><span class="sxs-lookup"><span data-stu-id="edd3a-132">This calculates the kanban quantity proposal.</span></span>  
+2. <span data-ttu-id="edd3a-133">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="edd3a-133">Click OK.</span></span>
+3. <span data-ttu-id="edd3a-134">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="edd3a-134">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="edd3a-135">Pange tähele, et soovitatud kanban-kogus on 2.</span><span class="sxs-lookup"><span data-stu-id="edd3a-135">Notice the suggested kanban quantity is 2.</span></span>  
 
-## <a name="change-product-quantity-and-calculate-again"></a><span data-ttu-id="99ab2-136">Toote koguse muutmine ja uuesti arvutamine</span><span class="sxs-lookup"><span data-stu-id="99ab2-136">Change product quantity and calculate again</span></span>
-1. <span data-ttu-id="99ab2-137">Määrake toote koguseks 5.</span><span class="sxs-lookup"><span data-stu-id="99ab2-137">Set Product quantity to '5'.</span></span>
-2. <span data-ttu-id="99ab2-138">Klõpsake valikut Arvuta.</span><span class="sxs-lookup"><span data-stu-id="99ab2-138">Click Calculate.</span></span>
-3. <span data-ttu-id="99ab2-139">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="99ab2-139">Click OK.</span></span>
-    * <span data-ttu-id="99ab2-140">Pange tähele, et kanban-kogusega 5 muudetakse soovitus kanban-kogusele 4.</span><span class="sxs-lookup"><span data-stu-id="99ab2-140">Notice that with a kanban quantity of 5, the suggestion is changed to a kanban quantity of 4.</span></span>  
-    * <span data-ttu-id="99ab2-141">Põhjuseks on see, et väiksema toote kogusega on nõudluse täitmiseks vaja rohkem kanbane.</span><span class="sxs-lookup"><span data-stu-id="99ab2-141">This is caused by the fact that with a lower product quantity, we need more kanbans to fulfill the demand.</span></span>  
+## <a name="change-product-quantity-and-calculate-again"></a><span data-ttu-id="edd3a-136">Toote koguse muutmine ja uuesti arvutamine</span><span class="sxs-lookup"><span data-stu-id="edd3a-136">Change product quantity and calculate again</span></span>
+1. <span data-ttu-id="edd3a-137">Määrake toote koguseks 5.</span><span class="sxs-lookup"><span data-stu-id="edd3a-137">Set Product quantity to '5'.</span></span>
+2. <span data-ttu-id="edd3a-138">Klõpsake valikut Arvuta.</span><span class="sxs-lookup"><span data-stu-id="edd3a-138">Click Calculate.</span></span>
+3. <span data-ttu-id="edd3a-139">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="edd3a-139">Click OK.</span></span>
+    * <span data-ttu-id="edd3a-140">Pange tähele, et kanban-kogusega 5 muudetakse soovitus kanban-kogusele 4.</span><span class="sxs-lookup"><span data-stu-id="edd3a-140">Notice that with a kanban quantity of 5, the suggestion is changed to a kanban quantity of 4.</span></span>  
+    * <span data-ttu-id="edd3a-141">Põhjuseks on see, et väiksema toote kogusega on nõudluse täitmiseks vaja rohkem kanbane.</span><span class="sxs-lookup"><span data-stu-id="edd3a-141">This is caused by the fact that with a lower product quantity, we need more kanbans to fulfill the demand.</span></span>  
 
-## <a name="update-kanban-rule"></a><span data-ttu-id="99ab2-142">Kanban-reegli värskendamine</span><span class="sxs-lookup"><span data-stu-id="99ab2-142">Update kanban rule</span></span>
-1. <span data-ttu-id="99ab2-143">Sisestage kuupäev ja kellaaeg väljale Reegli jõustumiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="99ab2-143">In the Rule effective date field, enter a date and time.</span></span>
-    * <span data-ttu-id="99ab2-144">Määrake suvandi Reegli kehtivuse alguskuupäev puhul kuupäev tulevikku.</span><span class="sxs-lookup"><span data-stu-id="99ab2-144">Set the 'Rule active as of date' to a date in the future.</span></span> <span data-ttu-id="99ab2-145">Näiteks täna + üks aasta.</span><span class="sxs-lookup"><span data-stu-id="99ab2-145">For example, today + one year.</span></span>  
-2. <span data-ttu-id="99ab2-146">Klõpsake käsku Uuenda.</span><span class="sxs-lookup"><span data-stu-id="99ab2-146">Click Update.</span></span>
-3. <span data-ttu-id="99ab2-147">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="99ab2-147">Click OK.</span></span>
-4. <span data-ttu-id="99ab2-148">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="99ab2-148">Close the page.</span></span>
+## <a name="update-kanban-rule"></a><span data-ttu-id="edd3a-142">Kanban-reegli värskendamine</span><span class="sxs-lookup"><span data-stu-id="edd3a-142">Update kanban rule</span></span>
+1. <span data-ttu-id="edd3a-143">Sisestage kuupäev ja kellaaeg väljale Reegli jõustumiskuupäev.</span><span class="sxs-lookup"><span data-stu-id="edd3a-143">In the Rule effective date field, enter a date and time.</span></span>
+    * <span data-ttu-id="edd3a-144">Määrake suvandi Reegli kehtivuse alguskuupäev puhul kuupäev tulevikku.</span><span class="sxs-lookup"><span data-stu-id="edd3a-144">Set the 'Rule active as of date' to a date in the future.</span></span> <span data-ttu-id="edd3a-145">Näiteks täna + üks aasta.</span><span class="sxs-lookup"><span data-stu-id="edd3a-145">For example, today + one year.</span></span>  
+2. <span data-ttu-id="edd3a-146">Klõpsake käsku Uuenda.</span><span class="sxs-lookup"><span data-stu-id="edd3a-146">Click Update.</span></span>
+3. <span data-ttu-id="edd3a-147">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="edd3a-147">Click OK.</span></span>
+4. <span data-ttu-id="edd3a-148">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="edd3a-148">Close the page.</span></span>
 
-## <a name="validate-change-on-kanban-rule"></a><span data-ttu-id="99ab2-149">Kanban-reegli muudatuse kinnitamine</span><span class="sxs-lookup"><span data-stu-id="99ab2-149">Validate change on kanban rule</span></span>
-1. <span data-ttu-id="99ab2-150">Avage Tooteteabe haldus > Lean manufacturing > Kanban-reeglid.</span><span class="sxs-lookup"><span data-stu-id="99ab2-150">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-2. <span data-ttu-id="99ab2-151">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="99ab2-151">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="99ab2-152">Valige eelmises alamülesandes loodud kanban-reegel.</span><span class="sxs-lookup"><span data-stu-id="99ab2-152">Select the kanban rule that was created in the previous sub-task.</span></span> <span data-ttu-id="99ab2-153">See peaks olema loendi esimene kanban-reegel, mis on sorditud numbri järgi.</span><span class="sxs-lookup"><span data-stu-id="99ab2-153">This should be the first kanban rule in the list sorted by number.</span></span>  
-3. <span data-ttu-id="99ab2-154">Laiendage jaotist Üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="99ab2-154">Toggle the expansion of the Details section.</span></span>
-    * <span data-ttu-id="99ab2-155">Pange tähele jõustumiskuupäeva, mis tähendab, et seda reeglit ei aktiveerita kuni selle kuupäevani.</span><span class="sxs-lookup"><span data-stu-id="99ab2-155">Notice the effective date, which means that this rule is not activated until this date.</span></span>  
-4. <span data-ttu-id="99ab2-156">Laiendage jaotist Kogused.</span><span class="sxs-lookup"><span data-stu-id="99ab2-156">Toggle the expansion of the Quantities section.</span></span>
-    * <span data-ttu-id="99ab2-157">Pange tähele, et see on kanban-koguse arvutamisse sisestatud vaikekogus.</span><span class="sxs-lookup"><span data-stu-id="99ab2-157">Notice this is the default quantity that you entered on the kanban quantity calculation.</span></span>  
-    * <span data-ttu-id="99ab2-158">Pange tähele, et see on fikseeritud kanban-kogus 4 kanban-koguse arvutamisest.</span><span class="sxs-lookup"><span data-stu-id="99ab2-158">Notice this is the fixed kanban quantity of 4 from the kanban quantity calculation.</span></span>  
-5. <span data-ttu-id="99ab2-159">Klõpsake vahekaarti ListPanel.</span><span class="sxs-lookup"><span data-stu-id="99ab2-159">Click the ListPanel tab.</span></span>
+## <a name="validate-change-on-kanban-rule"></a><span data-ttu-id="edd3a-149">Kanban-reegli muudatuse kinnitamine</span><span class="sxs-lookup"><span data-stu-id="edd3a-149">Validate change on kanban rule</span></span>
+1. <span data-ttu-id="edd3a-150">Avage Tooteteabe haldus > Lean manufacturing > Kanban-reeglid.</span><span class="sxs-lookup"><span data-stu-id="edd3a-150">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="edd3a-151">Klõpsake loendis valitud real olevat linki.</span><span class="sxs-lookup"><span data-stu-id="edd3a-151">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="edd3a-152">Valige eelmises alamülesandes loodud kanban-reegel.</span><span class="sxs-lookup"><span data-stu-id="edd3a-152">Select the kanban rule that was created in the previous sub-task.</span></span> <span data-ttu-id="edd3a-153">See peaks olema loendi esimene kanban-reegel, mis on sorditud numbri järgi.</span><span class="sxs-lookup"><span data-stu-id="edd3a-153">This should be the first kanban rule in the list sorted by number.</span></span>  
+3. <span data-ttu-id="edd3a-154">Laiendage jaotist Üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="edd3a-154">Toggle the expansion of the Details section.</span></span>
+    * <span data-ttu-id="edd3a-155">Pange tähele jõustumiskuupäeva, mis tähendab, et seda reeglit ei aktiveerita kuni selle kuupäevani.</span><span class="sxs-lookup"><span data-stu-id="edd3a-155">Notice the effective date, which means that this rule is not activated until this date.</span></span>  
+4. <span data-ttu-id="edd3a-156">Laiendage jaotist Kogused.</span><span class="sxs-lookup"><span data-stu-id="edd3a-156">Toggle the expansion of the Quantities section.</span></span>
+    * <span data-ttu-id="edd3a-157">Pange tähele, et see on kanban-koguse arvutamisse sisestatud vaikekogus.</span><span class="sxs-lookup"><span data-stu-id="edd3a-157">Notice this is the default quantity that you entered on the kanban quantity calculation.</span></span>  
+    * <span data-ttu-id="edd3a-158">Pange tähele, et see on fikseeritud kanban-kogus 4 kanban-koguse arvutamisest.</span><span class="sxs-lookup"><span data-stu-id="edd3a-158">Notice this is the fixed kanban quantity of 4 from the kanban quantity calculation.</span></span>  
+5. <span data-ttu-id="edd3a-159">Klõpsake vahekaarti ListPanel.</span><span class="sxs-lookup"><span data-stu-id="edd3a-159">Click the ListPanel tab.</span></span>
 

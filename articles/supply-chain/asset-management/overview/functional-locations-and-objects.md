@@ -2,7 +2,7 @@
 title: Funktsionaalsed asukohad ja varad
 description: Selles teemas kirjeldatakse funktsionaalseid asukohti ja varasid varahalduses. Varahaldus on täpsem moodul varade ja hooldustööde haldamiseks rakenduses Dynamics 365 Supply Chain Management.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,43 +18,43 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3a42d36fd137aa780886276a4235f1b8f3a3680
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: fe3e82f425421acdae81a02032ac6252765e1c05
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653343"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208059"
 ---
-# <a name="functional-locations-and-assets"></a><span data-ttu-id="826b7-104">Funktsionaalsed asukohad ja varad</span><span class="sxs-lookup"><span data-stu-id="826b7-104">Functional locations and assets</span></span>
+# <a name="functional-locations-and-assets"></a><span data-ttu-id="882d5-104">Funktsionaalsed asukohad ja varad</span><span class="sxs-lookup"><span data-stu-id="882d5-104">Functional locations and assets</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="826b7-105">Selles teemas kirjeldatakse funktsionaalseid asukohti ja varasid varahalduses.</span><span class="sxs-lookup"><span data-stu-id="826b7-105">This topic describes functional locations and assets in Asset Management.</span></span> <span data-ttu-id="826b7-106">Varahaldus on täpsem moodul varade ja hooldustööde haldamiseks rakenduses Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="826b7-106">Asset Management is an advanced module for managing assets and maintenance jobs in Dynamics 365 Supply Chain Management.</span></span>
+<span data-ttu-id="882d5-105">Selles teemas kirjeldatakse funktsionaalseid asukohti ja varasid varahalduses.</span><span class="sxs-lookup"><span data-stu-id="882d5-105">This topic describes functional locations and assets in Asset Management.</span></span> <span data-ttu-id="882d5-106">Varahaldus on täpsem moodul varade ja hooldustööde haldamiseks rakenduses Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="882d5-106">Asset Management is an advanced module for managing assets and maintenance jobs in Dynamics 365 Supply Chain Management.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="826b7-107">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="826b7-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="882d5-107">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="882d5-107">Overview</span></span>
 
-<span data-ttu-id="826b7-108">Varahaldus on integreeritud sujuvalt mitme mooduliga koos muude Finance and Operationsi rakendustega.</span><span class="sxs-lookup"><span data-stu-id="826b7-108">Asset Management is integrated seamlessly with several modules with other Finance and Operations apps.</span></span> <span data-ttu-id="826b7-109">Järgmisel joonisel on kujutatud liidesed teiste moodulitega.</span><span class="sxs-lookup"><span data-stu-id="826b7-109">The following illustration shows the interfaces with other modules.</span></span>
+<span data-ttu-id="882d5-108">Varahaldus on integreeritud sujuvalt mitme mooduliga koos muude Finance and Operationsi rakendustega.</span><span class="sxs-lookup"><span data-stu-id="882d5-108">Asset Management is integrated seamlessly with several modules with other Finance and Operations apps.</span></span> <span data-ttu-id="882d5-109">Järgmisel joonisel on kujutatud liidesed teiste moodulitega.</span><span class="sxs-lookup"><span data-stu-id="882d5-109">The following illustration shows the interfaces with other modules.</span></span>
 
 ![Diagramm, mis näitab, kuidas varahaldus liidestub teiste moodulitega](media/01-overview-image.png)
 
-<span data-ttu-id="826b7-111">Varahaldus võimaldab teil tõhusalt hallata ja sooritada kõiki ülesandeid, mis on seotud teie ettevõtte mitut tüüpi seadmete haldamise ja hooldamisega.</span><span class="sxs-lookup"><span data-stu-id="826b7-111">Asset Management lets you efficiently manage and perform all tasks that are related to managing and servicing many types of equipment in your company.</span></span> <span data-ttu-id="826b7-112">See varustus hõlmab masinaid, tootmisseadmeid ja sõidukeid.</span><span class="sxs-lookup"><span data-stu-id="826b7-112">This equipment includes machines, production equipment, and vehicles.</span></span> <span data-ttu-id="826b7-113">Varahaldus toetab lahendusi paljudes tööstusharudes.</span><span class="sxs-lookup"><span data-stu-id="826b7-113">Asset Management also supports solutions across numerous industries.</span></span>
+<span data-ttu-id="882d5-111">Varahaldus võimaldab teil tõhusalt hallata ja sooritada kõiki ülesandeid, mis on seotud teie ettevõtte mitut tüüpi seadmete haldamise ja hooldamisega.</span><span class="sxs-lookup"><span data-stu-id="882d5-111">Asset Management lets you efficiently manage and perform all tasks that are related to managing and servicing many types of equipment in your company.</span></span> <span data-ttu-id="882d5-112">See varustus hõlmab masinaid, tootmisseadmeid ja sõidukeid.</span><span class="sxs-lookup"><span data-stu-id="882d5-112">This equipment includes machines, production equipment, and vehicles.</span></span> <span data-ttu-id="882d5-113">Varahaldus toetab lahendusi paljudes tööstusharudes.</span><span class="sxs-lookup"><span data-stu-id="882d5-113">Asset Management also supports solutions across numerous industries.</span></span>
 
-<span data-ttu-id="826b7-114">Järgmisel joonisel on ülevaade varahalduse põhifunktsioonidest.</span><span class="sxs-lookup"><span data-stu-id="826b7-114">The following illustration shows an overview of the main functionality that is covered by Asset Management.</span></span>
+<span data-ttu-id="882d5-114">Järgmisel joonisel on ülevaade varahalduse põhifunktsioonidest.</span><span class="sxs-lookup"><span data-stu-id="882d5-114">The following illustration shows an overview of the main functionality that is covered by Asset Management.</span></span>
 
 ![Diagramm, mis näitab varahalduse põhifunktsioone](media/02-overview-image.png)
 
-## <a name="functional-locations-and-assets"></a><span data-ttu-id="826b7-116">Töö asukohad ja varad</span><span class="sxs-lookup"><span data-stu-id="826b7-116">Functional locations and assets</span></span>
+## <a name="functional-locations-and-assets"></a><span data-ttu-id="882d5-116">Töö asukohad ja varad</span><span class="sxs-lookup"><span data-stu-id="882d5-116">Functional locations and assets</span></span>
 
-<span data-ttu-id="826b7-117">Funktsionaalseid asukohti kasutatakse varade haldamiseks asukohtades.</span><span class="sxs-lookup"><span data-stu-id="826b7-117">Functional locations are used to manage assets on locations.</span></span> <span data-ttu-id="826b7-118">See haldus hõlmab varade kulude jälgimist funktsionaalsetes asukohtades.</span><span class="sxs-lookup"><span data-stu-id="826b7-118">This management includes tracking of asset costs on functional locations.</span></span> <span data-ttu-id="826b7-119">Funktsionaalsed asukohad on struktureeritud hierarhiliselt ja asukohtadel võivad olla alamasukohad.</span><span class="sxs-lookup"><span data-stu-id="826b7-119">Functional locations are structured hierarchically, and locations can have sub-locations.</span></span> <span data-ttu-id="826b7-120">Funktsionaalsete asukohtade struktuur on staatiline.</span><span class="sxs-lookup"><span data-stu-id="826b7-120">The structure of functional locations is static.</span></span> <span data-ttu-id="826b7-121">Teisisõnu, asukohad ei saa muuta kohti.</span><span class="sxs-lookup"><span data-stu-id="826b7-121">In other words, locations can't change place.</span></span> <span data-ttu-id="826b7-122">Varasid saab paigaldada funktsionaalsetele asukohtadele ja vajaduse korral saab neid hiljem installida ka muudesse funktsionaalsetele asukohtadesse.</span><span class="sxs-lookup"><span data-stu-id="826b7-122">Assets can be installed on functional locations and, as required, can be installed on other functional locations later.</span></span>
+<span data-ttu-id="882d5-117">Funktsionaalseid asukohti kasutatakse varade haldamiseks asukohtades.</span><span class="sxs-lookup"><span data-stu-id="882d5-117">Functional locations are used to manage assets on locations.</span></span> <span data-ttu-id="882d5-118">See haldus hõlmab varade kulude jälgimist funktsionaalsetes asukohtades.</span><span class="sxs-lookup"><span data-stu-id="882d5-118">This management includes tracking of asset costs on functional locations.</span></span> <span data-ttu-id="882d5-119">Funktsionaalsed asukohad on struktureeritud hierarhiliselt ja asukohtadel võivad olla alamasukohad.</span><span class="sxs-lookup"><span data-stu-id="882d5-119">Functional locations are structured hierarchically, and locations can have sub-locations.</span></span> <span data-ttu-id="882d5-120">Funktsionaalsete asukohtade struktuur on staatiline.</span><span class="sxs-lookup"><span data-stu-id="882d5-120">The structure of functional locations is static.</span></span> <span data-ttu-id="882d5-121">Teisisõnu, asukohad ei saa muuta kohti.</span><span class="sxs-lookup"><span data-stu-id="882d5-121">In other words, locations can't change place.</span></span> <span data-ttu-id="882d5-122">Varasid saab paigaldada funktsionaalsetele asukohtadele ja vajaduse korral saab neid hiljem installida ka muudesse funktsionaalsetele asukohtadesse.</span><span class="sxs-lookup"><span data-stu-id="882d5-122">Assets can be installed on functional locations and, as required, can be installed on other functional locations later.</span></span>
 
-<span data-ttu-id="826b7-123">Varakulud järgivad alati vara asukohta.</span><span class="sxs-lookup"><span data-stu-id="826b7-123">Asset costs always follow the location of the asset.</span></span> <span data-ttu-id="826b7-124">Teisisõnu, kui installite vara uuele funktsionaalsele asukohale, kasutab vara automaatselt finantsdimensioone, mis on seotud uue funktsionaalse asukohaga.</span><span class="sxs-lookup"><span data-stu-id="826b7-124">In other words, if you install an asset on a new functional location, the asset automatically uses the financial dimensions that are related to the new functional location.</span></span> <span data-ttu-id="826b7-125">Seetõttu on vara kulud alati seotud funktsionaalse asukohaga, kuhu vara on praegu installitud.</span><span class="sxs-lookup"><span data-stu-id="826b7-125">Therefore, asset costs are always related to the functional location that the asset is  currently installed on.</span></span> <span data-ttu-id="826b7-126">See finantsdimensioonide automaatne käsitlemine aitab tagada kulude täieliku jälgimise, kui teie ettevõte teeb projekti juhtimise ja aruandluse funktsionaalsetes asukohtades.</span><span class="sxs-lookup"><span data-stu-id="826b7-126">This automatic handling of financial dimensions helps guarantee complete tracking of costs when your company does project controlling and reporting on functional locations.</span></span>
+<span data-ttu-id="882d5-123">Varakulud järgivad alati vara asukohta.</span><span class="sxs-lookup"><span data-stu-id="882d5-123">Asset costs always follow the location of the asset.</span></span> <span data-ttu-id="882d5-124">Teisisõnu, kui installite vara uuele funktsionaalsele asukohale, kasutab vara automaatselt finantsdimensioone, mis on seotud uue funktsionaalse asukohaga.</span><span class="sxs-lookup"><span data-stu-id="882d5-124">In other words, if you install an asset on a new functional location, the asset automatically uses the financial dimensions that are related to the new functional location.</span></span> <span data-ttu-id="882d5-125">Seetõttu on vara kulud alati seotud funktsionaalse asukohaga, kuhu vara on praegu installitud.</span><span class="sxs-lookup"><span data-stu-id="882d5-125">Therefore, asset costs are always related to the functional location that the asset is  currently installed on.</span></span> <span data-ttu-id="882d5-126">See finantsdimensioonide automaatne käsitlemine aitab tagada kulude täieliku jälgimise, kui teie ettevõte teeb projekti juhtimise ja aruandluse funktsionaalsetes asukohtades.</span><span class="sxs-lookup"><span data-stu-id="882d5-126">This automatic handling of financial dimensions helps guarantee complete tracking of costs when your company does project controlling and reporting on functional locations.</span></span>
 
-<span data-ttu-id="826b7-127">Funktsionaalsete asukohtade hierarhia ehitamine sõltub teie ettevõtte nõuetest sisemise varustuse hoidmise või kliendiseadmete teenindamise jaoks.</span><span class="sxs-lookup"><span data-stu-id="826b7-127">The way that you build your hierarchy of functional locations depends on your company's requirements for maintaining internal equipment or servicing customer equipment.</span></span> <span data-ttu-id="826b7-128">Järgmisel joonisel on näide funktsionaalsetest asukohtadest, mis põhinevad geograafilistel asukohtadel.</span><span class="sxs-lookup"><span data-stu-id="826b7-128">The following figure shows an example of functional locations that are based on geographical locations.</span></span>
+<span data-ttu-id="882d5-127">Funktsionaalsete asukohtade hierarhia ehitamine sõltub teie ettevõtte nõuetest sisemise varustuse hoidmise või kliendiseadmete teenindamise jaoks.</span><span class="sxs-lookup"><span data-stu-id="882d5-127">The way that you build your hierarchy of functional locations depends on your company's requirements for maintaining internal equipment or servicing customer equipment.</span></span> <span data-ttu-id="882d5-128">Järgmisel joonisel on näide funktsionaalsetest asukohtadest, mis põhinevad geograafilistel asukohtadel.</span><span class="sxs-lookup"><span data-stu-id="882d5-128">The following figure shows an example of functional locations that are based on geographical locations.</span></span>
 
 ![Diagramm, mis näitab töö asukohti geograafiliste asukohtade põhjal](media/03-overview-image.png)
 
-<span data-ttu-id="826b7-130">Järgmisel joonisel on näide funktsionaalsetest asukohtadest, mis põhinevad kliendid.</span><span class="sxs-lookup"><span data-stu-id="826b7-130">The following figure shows an example of functional locations that are based on customers.</span></span>
+<span data-ttu-id="882d5-130">Järgmisel joonisel on näide funktsionaalsetest asukohtadest, mis põhinevad kliendid.</span><span class="sxs-lookup"><span data-stu-id="882d5-130">The following figure shows an example of functional locations that are based on customers.</span></span>
 
 ![Diagramm, mis näitab töö asukohti klientide põhjal](media/04-overview-image.png)
