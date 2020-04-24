@@ -3,7 +3,7 @@ title: Elusündmuste töötlemine
 description: Töövõtja töötsükli ajal rakenduses Microsoft Dynamics 365 Human Resources võib igal töövõtjal esineda mitmesuguseid elusündmuste muudatusi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 91812432ead4b0afccfba30f8023f014e216236a
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ba8d21482a18c6baa93437fc65c165907bdb515d
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008762"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229921"
 ---
 # <a name="process-life-events"></a>Elusündmuste töötlemine
-
-[!include [banner](includes/preview-feature.md)]
 
 Töövõtja töötsükli ajal rakenduses Microsoft Dynamics 365 Human Resources võib igal töövõtjal esineda mitmesuguseid elusündmuste muudatusi. Näiteks abielu, tööhõive muutus või sõltuva isiku / kasusaaja muutus. Elusündmuste kasutamiseks peate lubama elusündmused soodustuste parameetrite vormil, häälestama elusündmuse tüübid ja seadistama plaani tüüpide jaoks elusündmuse valikud.
 
@@ -43,10 +41,10 @@ Näiteks, kui täna on 1. veebruar ja 14. veebruaril töötaja Erki Sepal on pla
 
    | Väli | Kirjeldus |
    | --- | --- |
-   | Registreerimisperiood | Registreerimisperiood, mille jaoks elusündmusi töödelda. |
-   | Juriidiline isik | Juriidiline isik, mille jaoks elusündmusi töödelda. |
-   | Elusündmuse kuupäev | Süsteem töötleb kõiki sündmusi registreerimisperioodil, mis toimuvad kuni selle kuupäevani. |
-   | Töötaja | Töötaja, kelle jaoks elusündmusi töödelda. Kui jätate selle välja tühjaks, töödeldakse elusündmusi kõigi töötajate puhul. |
+   | **Registreerimisperiood** | Registreerimisperiood, mille jaoks elusündmusi töödelda. |
+   | **Juriidiline isik** | Juriidiline isik, mille jaoks elusündmusi töödelda. |
+   | **Elusündmuse kuupäev** | Süsteem töötleb kõiki sündmusi registreerimisperioodil, mis toimuvad kuni selle kuupäevani. |
+   | **Töötaja** | Töötaja, kelle jaoks elusündmusi töödelda. Kui jätate selle välja tühjaks, töödeldakse elusündmusi kõigi töötajate puhul. |
 
 3. Kui soovite protsessi käitada taustal, valige suvand **Käivita taustal** ja tehke järgmised ülesanded.
 

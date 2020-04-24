@@ -3,7 +3,7 @@ title: ER-i funktsioonide loend loendi kategoorias
 description: See teema annab teavet loendi funktsioonide kohta, mida toetatakse elektroonilises aruandluses (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9461d0afd75f421cf03ddefed5dac379f1369ec7
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917760"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201039"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>ER-i funktsioonide loend loendi kategoorias
 
@@ -46,6 +46,7 @@ Elektroonilise aruandluse (ER) loendi funktsioone saab kasutada andmete ekstrakt
 | [Index](er-functions-list-index.md)                       | See funktsioon tagastab *konteineri (kirje)* väärtuse, mis on valitud määratud numbrilise indeksi abil määratud loendis. Kui indeks on määratud loendis olevate kirjete vahemikust väljas, annab see funktsioon erandi. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Kui määratud loend ei sisalda ühtegi kirjet, tagastab see funktsioon *kahendmuutuja* väärtuse **TRUE**. Muidu tagastab see *kahendväärtuse* **VÄÄR**. |
 | [Loend](er-functions-list-list.md)                         | See funktsioon tagastab *kirjete loendi* väärtuse, mis koosneb määratud argumentidest loodud uuest loendist.|
+| [ListJoin](er-functions-list-listjoin.md)                 | See funktsioon tagastab *kirjete loendi* väärtuse, mis tähistab määratud argumentidest loodud uut ühendatud loendit.|
 | [ListOfFields](er-functions-list-listoffields.md)         | See funktsioon tagastab *kirjete loendi* väärtuse, mis luuakse tüübi *Loetelu* või *Konteiner (kirje)* määratud argumendi struktuuri põhjal. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | See funktsioon tagastab *kirjete loendi* väärtuse, mis koosneb ainult määratud loendi esimesest kirjest.|
 | [OrderBy](er-functions-list-orderby.md)                   | See funktsioon tagastab määratud loendi *kirjete loendi* väärtusena, kui see on vastavalt määratud argumentidele sorditud. Neid argumente saab määratleda avaldistena. |

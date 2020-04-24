@@ -3,7 +3,7 @@ title: Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele
 description: See teema kirjeldab täiendavaid võimalusi automaatsete kulude arvutamise ja kaubanduskanali tellimustele rakendamise kohta, kasutades täpsemate automaatsete kulude funktsiooni.
 author: hhaines
 manager: annbe
-ms.date: 04/23/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5c03b1a1db11098058022a6916dc5bddf5518f9b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022305"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175127"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele
 
@@ -169,3 +169,9 @@ Seetõttu määratakse selles näites kaubale 81334 veokulu summas $5,62. Neid t
 ![Müügirea proportsionaalselt jaotatud tasud kauba 81334 puhul](media/proratedlinecharge.png)
 
 Kui seda arvutamismeetodit kasutatakse osalise tagastuse stsenaariumi korral, kui tasukood on tagasimakstav, makstakse kauba tagastamisel tagasi ainult see tasu osa, mis on eraldatud sellele reale.
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Omnikanali täpsemad automaatsed kulud](omni-auto-charges.md)
+
+[Automaatsete tasude lubamine ja konfigureerimine kanali kaupa](auto-charges-by-channel.md)

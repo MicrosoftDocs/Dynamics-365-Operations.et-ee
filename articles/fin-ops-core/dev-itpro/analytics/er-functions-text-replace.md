@@ -3,7 +3,7 @@ title: ER-i funktsioon REPLACE
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni REPLACE.
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba2590635ba465dae9ea50d3e4da989365548f3b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040982"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201062"
 ---
-# <a name="REPLACE">ER-i funktsioon REPLACE</a>
+# <a name=""></a><a name="REPLACE">ER-i funktsioon REPLACE</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,7 +69,7 @@ Tulemiks saadud teksti väärtus.
 
 Kui argumendi `regular expression flag` tulem on **TRUE**, tagastab see funktsioon määratud stringi pärast selle muutmist, rakendades tavalise avaldise, mis on argumendiga `pattern` määratud. Tavalist avaldist kasutatakse asendatavate tähemärkide otsimiseks.
 
-Kui argumendi `regular expression flag` tulem on **FALSE**, käitub see funktsioon sarnaselt funktsioonile [TRANSLATE](er-functions-text-translate.md). Argumendi `replacement` määratletud tähemärke kasutatakse leitud tähemärkide asendamiseks. 
+Kui argument `regular expression flag` on **VÄÄR**, tagastab see funktsioon määratud stringi pärast seda, kui argumendis `pattern` määratletud tähemärgid on asendatud argumendi `replacement` tähemärkidega. 
 
 ## <a name="example-1"></a>Näide 1
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897921"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197263"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Talent (16. aprill, 2019)?
 
@@ -46,10 +46,6 @@ Jaotises kirjeldatud muudatused rakenduvad järgunumbrile 8.1.2239. Sulgudes ole
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Hüvituspiirkond ja -tase, soodustussuvand ja oskustüübi üksused on Common Data Service'is värskendatud, et kaasata kliendiväljatugi
 
 Selle väljaandes on need Common Data Service’i üksused värskendatud, et võimadada kohaldatud välja kaasamist Talenti: Core HR kaudu.
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Uus Common Data Service'i üksuse tugi: hüvitise pensionireeglid, kompensatsiooni tulemusplaan, egutussüsteem
-
-Selles väljaandes on lisatud hüvitise pensionireeglite, kompensatsiooni tulemusplaani ja ergutussüsteemi üksused Common Data Service'ile. Need üksused toetavad ka kohandatud välju, mis on lisatud Talenti: HR kaudu.
 
 ### <a name="powerbi-refresh-issues-314342"></a>PowerBI värskendamise probleemid (314342)
 
@@ -93,6 +89,6 @@ Selle muudatusega tuvastatakse nimeväljade sisestamisel duplikaadid ja olek nä
 
 ### <a name="email-support-for-alerts"></a>E-posti tugi teatistele
 
-Finance and Operationsi platvormi 25. uuendusega saavad kasutajad luua alarmide reegleid, mis saadavad sündmuse poolt käivitades automaatselt kontaktidele meiliteavitusi.
+Finance and Operationsi platvormi värskendusega 25 saavad kasutajad luua teavituse reegleid, mis saadavad kontaktidele automaatselt sündmuse käivitatud meiliteateid.
 
 

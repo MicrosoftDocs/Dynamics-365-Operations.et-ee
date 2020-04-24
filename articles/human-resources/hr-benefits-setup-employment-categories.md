@@ -3,7 +3,7 @@ title: Töötajate kategooriate loomine
 description: Saate seadistada rakenduses Dynamics 365 Human Resources teie töötajatega ühtivad tööhõive kategooriad.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bad9ea41e0b1367fc660dfbc59595dce81174adc
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 999e17be00ff9ac4fd5905844572dee35369b784
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092679"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229782"
 ---
 # <a name="create-employment-categories"></a>Töötajate kategooriate loomine
-
-[!include [banner](includes/preview-feature.md)]
 
 Seadistage rakenduses Dynamics 365 Human Resources teie töötajatega ühtivad tööhõive kategooriad.
 

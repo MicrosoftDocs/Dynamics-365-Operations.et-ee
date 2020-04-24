@@ -2,7 +2,7 @@
 title: Kaubahindade võrdluse talletuse aruanne
 description: Saage teada, kuidas luua kaubahindade võrdluse talletuse aruannet ja seejärel tulemusi sirvida ja/või eksportida.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 80e376db3616af27d94ee55480cd2f56441db93b
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: 6c8c72a631d361d7dffb8d18e00636e51e7998d3
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3072111"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201935"
 ---
 # <a name="compare-item-prices-storage-report"></a>Kaubahindade võrdluse talletuse aruanne
 

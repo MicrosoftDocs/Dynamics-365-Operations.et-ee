@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 442557a01b25e13b76074c865dfe5468bbc9fde0
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025850"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259628"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analüüsi lisamine tööruumidele teenuse Power BI Embedded abil
 
@@ -84,7 +84,7 @@ Vormi määratluse laiendamiseks tööruumi **Reserveerimise haldus** puhul toim
 8. Paremklõpsake ja valige suvand **Uus vahekaardileht**.
 9. Andke vahekaardilehele tähenduslik nimi, näiteks **Analüütika**.
 10. Valige vormikujundajas suvand **Analüütika (vahekaardileht)**.
-11. Seadke atribuudi **Pealdis** sätteks **Analüütika**.
+11. Seadke atribuudi **Pealdis** väärtuseks **Analüüs** ja seadke atribuudi **Automaatne deklaratsioon** väärtuseks **Jah**.
 12. Paremklõpsake juhtelementi ja valige suvandid **Uus** \> **Rühm**, et lisada uus vormirühma juhtelement.
 13. Andke vormirühmale tähenduslik nimi, näiteks **powerBIReportGroup**.
 14. Valige vormikujundajas suvand **PanoramaBody (vahekaart)** ja seejärel lohistage juhtelement vahekaardile **Tööruum**.

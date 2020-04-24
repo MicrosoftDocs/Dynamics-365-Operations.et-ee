@@ -3,7 +3,7 @@ title: Määrade muudatuste töötlemine
 description: Töödelge rakenduses Microsoft Dynamics 365 Human Resources soodustuse määrade muudatus, kui uuel või olemasoleval soodustuse plaanil muudetake sobivusreegli sätteid.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9ebe5cfc2bdf7790770d27ece2dc67f7677db593
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 850709480326f6a0871f19ea1bb287631cd58b42
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008709"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229932"
 ---
 # <a name="process-rate-changes"></a>Määrade muudatuste töötlemine
-
-[!include [banner](includes/preview-feature.md)]
 
 Töödelge rakenduses Microsoft Dynamics 365 Human Resources soodustuse määrade muudatus, kui uuel või olemasoleval soodustuse plaanil muudetake sobivusreegli sätteid. Kui luuakse uus sobivusreegel ja määratakse plaanile, ajendab see süsteemi käitama uuesti töötajate sobivust, et kontrollida, kas töötajad võivad nüüd olla plaani jaoks sobivad uute sobivuse võimaluste alusel. 
 
@@ -37,7 +35,7 @@ Töödelge rakenduses Microsoft Dynamics 365 Human Resources soodustuse määrad
 
    | Väli | Kirjeldus |
    | --- | --- |
-   | Registreerimisperiood | Registreerimisperiood, mille jaoks määrade muutusi töödelda. |
+   | **Registreerimisperiood** | Registreerimisperiood, mille jaoks määrade muutusi töödelda. |
 
 3. Kui soovite protsessi käitada taustal, valige suvand **Käivita taustal** ja tehke järgmised ülesanded.
 

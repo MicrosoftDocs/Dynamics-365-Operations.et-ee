@@ -1,30 +1,30 @@
 ---
 title: Ostutellimuste kinnitamine
 description: Selles teemas kirjeldatakse olekuid, mille ostutellimus pärast loomist läbib, ja muudatuste halduse lubamise mõju ostutellimustele.
-author: FrankDahl
-manager: AnnBe
-ms.date: 06/20/2017
+author: mkirknel
+manager: tfehr
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813427"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207990"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Ostutellimuste kinnitamine
 
@@ -69,9 +69,10 @@ Mõnikord võib olla vaja ostutellimust muuta pärast seda, kui see on saavutanu
 
 Kui ostutellimus loodi muudatuste halduse protsessi kasutades, saate teha muudatusi, kutsudes tellimuse tagasi või, kui tellimus on juba kinnitatud, siis kasutades toimingut **Taotle muudatust**. Sel juhul määratakse heakskiitmise olekuks uuesti **Mustand** ja saate siis tellimust muuta. Kui olete muudatuste tegemise lõpetanud, võib olla vaja ostutellimus uuesti heakskiitmiseks esitada. Saate konfigureerida muudatuste tüüpe, mis nõuavad uut heakskiitmist, kasutades poliitikareeglit **Ostutellimuste eelkinnituse reegel** lehel **Ostupoliitikad**.
 
-Kui osa ostutellimuse rea tellitud kogusest on tarnitud, ei saa tellitud kogust muuta. Kuid muuta saab rea kogust **Tarne jääk**. Seejärel saate kasutada toimingut **Lõpeta** ridade tühistamiseks ja edasise töötlemise vältimiseks. 
+Kui osa ostutellimuse rea tellitud kogusest on tarnitud, ei saa tellitud kogust muuta, kui ostutellimus on režiimis **Mustand**. Siiski saate muuta ostutellimuse real kogust **Tarne jääk**, mis on olekus **Mustand**.
 
-Pärast seda, kui tellimus on kinnitatud, ei saa seda enam kustutada. Kuid tühistada saab kogu tellimuse koguse või järelejäänud koguse, eeldusel, et see kogus pole kätte saadud või arveldatud.
+Pärast seda, kui tellimus on kinnitatud, ei saa seda enam kustutada. Kuid tühistada saab kogu tellimuse koguse või järelejäänud koguse, eeldusel, et see kogus pole kätte saadud või arveldatud. Seejärel saate kasutada toimingut **Lõpeta** edasise töötlemise vältimiseks. 
+
 
 ## <a name="canceling-purchase-orders"></a>Ostutellimuste tühistamine
 

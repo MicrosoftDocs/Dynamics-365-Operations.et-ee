@@ -3,7 +3,7 @@ title: Soodustuste halduse parameetrite määramine
 description: Konfigureerige soodustuste halduse parameetreid rakenduses Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab9b1fc78ce42479d9265b80337adf899cec3866
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9d6d463df08b9ae68047f09316f19e98740a8441
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008759"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229759"
 ---
 # <a name="set-benefits-management-parameters"></a>Soodustuste halduse parameetrite määramine
-
-[!include [banner](includes/preview-feature.md)]
 
 Enne rakenduses Microsoft Dynamics 365 Human Resources puhkuseplaanid seadistamist peate konfigureerima soodustuste halduse parameetrid. Need parameetrid määravad vaikeväärtused, põhjuse koodid ja muud valikud.
 
@@ -47,7 +45,6 @@ Enne rakenduses Microsoft Dynamics 365 Human Resources puhkuseplaanid seadistami
    | **Määra muutuse põhjusekood** | Põhjuse kood, mida kasutada töötaja soodustuse plaani tühistamisel ja uuesti avamisel määra muutmise värskendamisprotsessi käigus. See näitab, milliseid kirjeid määra muutmise värskendusprotsessiga muudeti. |
    | **Uus palkamine sobilik** | Määrab, kas uued töötajad on sobivad. |
    | **Uue palkamise registreerimisperiood** | Ajaperiood, mil uue töötaja registreerimine on lubatud.</br></br>**Määrkus**: see säte alistab kõik uue töötaja registreerimisperioodid, mille plaani sobivusreeglis määrasite. | 
-   | **Iga-aastane palgatõus** | Määrab, kas arvutada summa **Aastane soodustuse palk** suvandis **Töövõtja soodustuse üksikasjad** automaatselt. See põhineb töövõtja suvanditel **Põhipalga palgamäär**, **Keskmised tunnid** ja **Maksesagedus**.</br></br>**Keskmised tunnid** × **Põhipalga määr** × **Maksesagedus** (maksmisperioodide arv) = **Aastane soodustuse palk** </br></br>Kui mõni väärtus väljadel **Keskmised tunnid**, **Põhipalga maksemäär** või **Maksesagedus** muutub, arvutab süsteem muudetud väärtuse põhjal uue töövõtja summa **Aastane soodustuse palk**. Süsteem loob kirje **Kehtivuskuupäev**, et tuvastada muutuse täpne kuupäev ja kellaaeg. Vajadusel saate summat **Aastane soodustuse palga** käsitsi muuta. |
    | **Elusündmused on lubatud** | Lubab elusündmused. |
    | **Peida pärandsoodustuse vormid** | Võimaldab teil peita pärandsoodustuse vorme. |
 

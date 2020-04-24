@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 580f0c885373006cb9cd955a61c41704a2ac9a94
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4a01b8387afd45648f1205d4246378edc8a9e79b
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186689"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249007"
 ---
 # <a name="dual-currency"></a>Topeltvaluuta
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Rakenduse Microsoft Dynamics 365 for Finance and Operations versioonis 8.1 (oktoober 2018) kasutusele võetud funktsionaalsus võimaldab aruandlusvaluuta ümberkorraldamist ja teise arvestusvaluutana kasutamist. Sellele funktsioonile viidatakse ka kui *topeltvaluutale*. Topeltvaluuta muudatusi ei saa konfiguratsioonivõtme või parameetri kaudu välja lülitada. Kuna aruandlusvaluutat kasutatakse teise arvestusvaluutana, on aruandlusvaluuta arvestamise meetodi sisestusloogika muutunud.
 
