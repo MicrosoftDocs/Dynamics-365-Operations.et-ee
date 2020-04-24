@@ -2,7 +2,7 @@
 title: Töötellimuste loomine hooldustaotluste põhjal
 description: See teema selgitab, kuidas luua varahalduses hoolduse päringust töökäsk.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,40 +18,40 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b6bd98796140ab7aa3e7813ff1526413504554c5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571687"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205203"
 ---
-# <a name="create-work-orders-from-maintenance-requests"></a><span data-ttu-id="13fe5-103">Töötellimuste loomine hooldustaotluste põhjal</span><span class="sxs-lookup"><span data-stu-id="13fe5-103">Create work orders from maintenance requests</span></span>
+# <a name="create-work-orders-from-maintenance-requests"></a><span data-ttu-id="fb30c-103">Töötellimuste loomine hooldustaotluste põhjal</span><span class="sxs-lookup"><span data-stu-id="fb30c-103">Create work orders from maintenance requests</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
 
-<span data-ttu-id="13fe5-104">Pärast hoolduspäringute loomist saate need hõlpsalt töötellimusteks teisendada.</span><span class="sxs-lookup"><span data-stu-id="13fe5-104">After you've created maintenance requests, you can easily convert them to work orders.</span></span> <span data-ttu-id="13fe5-105">See teema kirjeldab kiireimat viisi, kuidas töötada hooldustaotlustega, uuendada mitut hooldustaotlust korraga ja seejärel luua töökäsk mitme hooldustaotluse jaoks samal ajal.</span><span class="sxs-lookup"><span data-stu-id="13fe5-105">This topic describes the quickest way to work with maintenance requests, update several maintenance requests at the same time, and then create a work order for several maintenance requests at the same time.</span></span> <span data-ttu-id="13fe5-106">Lehel **Aktiivsed hooldustaotlused** või lehel **Minu funktsionaalsed asukohahoolduse taotlused** saate töötada korraga ka ühe hooldustaotlusega ja teisendada ühe hooldustaotluse töötellimuseks.</span><span class="sxs-lookup"><span data-stu-id="13fe5-106">On the **Active maintenance requests** or **My functional location maintenance requests** page, you can also work with one maintenance request at a time and convert one maintenance request to a work order.</span></span>
+<span data-ttu-id="fb30c-104">Pärast hoolduspäringute loomist saate need hõlpsalt töötellimusteks teisendada.</span><span class="sxs-lookup"><span data-stu-id="fb30c-104">After you've created maintenance requests, you can easily convert them to work orders.</span></span> <span data-ttu-id="fb30c-105">See teema kirjeldab kiireimat viisi, kuidas töötada hooldustaotlustega, uuendada mitut hooldustaotlust korraga ja seejärel luua töökäsk mitme hooldustaotluse jaoks samal ajal.</span><span class="sxs-lookup"><span data-stu-id="fb30c-105">This topic describes the quickest way to work with maintenance requests, update several maintenance requests at the same time, and then create a work order for several maintenance requests at the same time.</span></span> <span data-ttu-id="fb30c-106">Lehel **Aktiivsed hooldustaotlused** või lehel **Minu funktsionaalsed asukohahoolduse taotlused** saate töötada korraga ka ühe hooldustaotlusega ja teisendada ühe hooldustaotluse töötellimuseks.</span><span class="sxs-lookup"><span data-stu-id="fb30c-106">On the **Active maintenance requests** or **My functional location maintenance requests** page, you can also work with one maintenance request at a time and convert one maintenance request to a work order.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="13fe5-107">Iga hooldustaotlus võib olla seotud ainult ühe töötellimusega.</span><span class="sxs-lookup"><span data-stu-id="13fe5-107">Every maintenance request can be related to only one work order.</span></span> <span data-ttu-id="13fe5-108">Mitu hooldustaotlust saab siiski lisada ühele töötellimusele, isegi kui hooldustaotlustes on erinevad varad.</span><span class="sxs-lookup"><span data-stu-id="13fe5-108">However, multiple maintenance requests can be included in one work order, even if the maintenance requests have different assets.</span></span>
+> <span data-ttu-id="fb30c-107">Iga hooldustaotlus võib olla seotud ainult ühe töötellimusega.</span><span class="sxs-lookup"><span data-stu-id="fb30c-107">Every maintenance request can be related to only one work order.</span></span> <span data-ttu-id="fb30c-108">Mitu hooldustaotlust saab siiski lisada ühele töötellimusele, isegi kui hooldustaotlustes on erinevad varad.</span><span class="sxs-lookup"><span data-stu-id="fb30c-108">However, multiple maintenance requests can be included in one work order, even if the maintenance requests have different assets.</span></span>
 
-1. <span data-ttu-id="13fe5-109">Valige **Varahaldus**\>**Ühised**\>**Hooldustaotlused**\>**Hooldustaotlused**.</span><span class="sxs-lookup"><span data-stu-id="13fe5-109">Select **Asset management** \> **Common** \> **maintenance requests** \> **All maintenance requests**.</span></span>
-2. <span data-ttu-id="13fe5-110">Enne kui saate hooldustaotlusest töökäsu luua, peate hooldustaotluse jaoks valima vähemalt hooldustöö tüübi ja hooldustöö tüübi variandi ning kaubanduse, kui see teave on asjakohane.</span><span class="sxs-lookup"><span data-stu-id="13fe5-110">Before you can create a work order from maintenance requests, you must select, at a minimum, a maintenance job type for the maintenance requests, and also a maintenance job type variant and trade, if this information is relevant.</span></span> <span data-ttu-id="13fe5-111">Ruudustiku vaates saate hõlpsasti värskendada hooldustaotluse teavet.</span><span class="sxs-lookup"><span data-stu-id="13fe5-111">In the grid view, you can easily update information for a maintenance request.</span></span>
-3. <span data-ttu-id="13fe5-112">Kui olete valmis töökäsu looma, valige sellesse kaasatavad hooldustaotlused.</span><span class="sxs-lookup"><span data-stu-id="13fe5-112">When you're ready to create a work order, select the maintenance requests to include in it.</span></span>
+1. <span data-ttu-id="fb30c-109">Valige **Varahaldus**\>**Ühised**\>**Hooldustaotlused**\>**Hooldustaotlused**.</span><span class="sxs-lookup"><span data-stu-id="fb30c-109">Select **Asset management** \> **Common** \> **maintenance requests** \> **All maintenance requests**.</span></span>
+2. <span data-ttu-id="fb30c-110">Enne kui saate hooldustaotlusest töökäsu luua, peate hooldustaotluse jaoks valima vähemalt hooldustöö tüübi ja hooldustöö tüübi variandi ning kaubanduse, kui see teave on asjakohane.</span><span class="sxs-lookup"><span data-stu-id="fb30c-110">Before you can create a work order from maintenance requests, you must select, at a minimum, a maintenance job type for the maintenance requests, and also a maintenance job type variant and trade, if this information is relevant.</span></span> <span data-ttu-id="fb30c-111">Ruudustiku vaates saate hõlpsasti värskendada hooldustaotluse teavet.</span><span class="sxs-lookup"><span data-stu-id="fb30c-111">In the grid view, you can easily update information for a maintenance request.</span></span>
+3. <span data-ttu-id="fb30c-112">Kui olete valmis töökäsu looma, valige sellesse kaasatavad hooldustaotlused.</span><span class="sxs-lookup"><span data-stu-id="fb30c-112">When you're ready to create a work order, select the maintenance requests to include in it.</span></span>
 
-    - <span data-ttu-id="13fe5-113">Kui valite töötellimuseks teisendamiseks mitu hooldustaotlust, tuleb enne töökäsu loomist häälestada mõlemad väljad: **Vara** ja **Hooldustöö tüüp**.</span><span class="sxs-lookup"><span data-stu-id="13fe5-113">If you select several maintenance requests to convert to a work order, both the **Asset** field and the **Maintenance job type** field must be set before you create the work order.</span></span>
-    - <span data-ttu-id="13fe5-114">Kui valite töötellimuseks teisendamiseks ühe hooldustaotluse, tuleb enne töökäsu loomist häälestada üksnes väli **Vara**.</span><span class="sxs-lookup"><span data-stu-id="13fe5-114">If you select one maintenance request to convert to a work order, only the **Asset** field must be set before you create the work order.</span></span> <span data-ttu-id="13fe5-115">Töökäsu loomisel saate siiski valida hooldustöö tüübi (ja seotud hooldustöö tüübi variandi ja kaubanduse, kui see teave on asjakohane) dialoogiboksis **Loo töötellimus**.</span><span class="sxs-lookup"><span data-stu-id="13fe5-115">However, when you create the work order, you can select a maintenance job type (and a related maintenance job type variant and trade, if this information is relevant) in the **Create work order** dialog box.</span></span>
+    - <span data-ttu-id="fb30c-113">Kui valite töötellimuseks teisendamiseks mitu hooldustaotlust, tuleb enne töökäsu loomist häälestada mõlemad väljad: **Vara** ja **Hooldustöö tüüp**.</span><span class="sxs-lookup"><span data-stu-id="fb30c-113">If you select several maintenance requests to convert to a work order, both the **Asset** field and the **Maintenance job type** field must be set before you create the work order.</span></span>
+    - <span data-ttu-id="fb30c-114">Kui valite töötellimuseks teisendamiseks ühe hooldustaotluse, tuleb enne töökäsu loomist häälestada üksnes väli **Vara**.</span><span class="sxs-lookup"><span data-stu-id="fb30c-114">If you select one maintenance request to convert to a work order, only the **Asset** field must be set before you create the work order.</span></span> <span data-ttu-id="fb30c-115">Töökäsu loomisel saate siiski valida hooldustöö tüübi (ja seotud hooldustöö tüübi variandi ja kaubanduse, kui see teave on asjakohane) dialoogiboksis **Loo töötellimus**.</span><span class="sxs-lookup"><span data-stu-id="fb30c-115">However, when you create the work order, you can select a maintenance job type (and a related maintenance job type variant and trade, if this information is relevant) in the **Create work order** dialog box.</span></span>
 
-4. <span data-ttu-id="13fe5-116">Valige **Töökäsk**.</span><span class="sxs-lookup"><span data-stu-id="13fe5-116">Select **Work order**.</span></span>
-5. <span data-ttu-id="13fe5-117">Dialoogiboksis **Loo töökäsk** sätestage väljad ja seejärel klõpsake nuppu **OK**.</span><span class="sxs-lookup"><span data-stu-id="13fe5-117">In the **Create work order** dialog box, set the fields, and then select **OK**.</span></span>
+4. <span data-ttu-id="fb30c-116">Valige **Töökäsk**.</span><span class="sxs-lookup"><span data-stu-id="fb30c-116">Select **Work order**.</span></span>
+5. <span data-ttu-id="fb30c-117">Dialoogiboksis **Loo töökäsk** sätestage väljad ja seejärel klõpsake nuppu **OK**.</span><span class="sxs-lookup"><span data-stu-id="fb30c-117">In the **Create work order** dialog box, set the fields, and then select **OK**.</span></span>
 
-    <span data-ttu-id="13fe5-118">Teateriba võib teid teavitada, et on loodud uus töökäsk.</span><span class="sxs-lookup"><span data-stu-id="13fe5-118">A message bar might notify you that a new work order has been created.</span></span>
+    <span data-ttu-id="fb30c-118">Teateriba võib teid teavitada, et on loodud uus töökäsk.</span><span class="sxs-lookup"><span data-stu-id="fb30c-118">A message bar might notify you that a new work order has been created.</span></span>
 
-    <span data-ttu-id="13fe5-119">Lisaks, kui loote töökäsu, mis põhineb hoolduse taotlusel, kui hoolduse taotlusega seotud vara sisaldub garantiilepingus, teavitab teateriba teid garantiilepingust.</span><span class="sxs-lookup"><span data-stu-id="13fe5-119">Additionally, when you create a work order that is based on a maintenance request, if the asset that is related to the maintenance request is included in a warranty agreement, a message bar notifies you about the warranty agreement.</span></span>
+    <span data-ttu-id="fb30c-119">Lisaks, kui loote töökäsu, mis põhineb hoolduse taotlusel, kui hoolduse taotlusega seotud vara sisaldub garantiilepingus, teavitab teateriba teid garantiilepingust.</span><span class="sxs-lookup"><span data-stu-id="fb30c-119">Additionally, when you create a work order that is based on a maintenance request, if the asset that is related to the maintenance request is included in a warranty agreement, a message bar notifies you about the warranty agreement.</span></span>
 
-6. <span data-ttu-id="13fe5-120">Valige **Varahaldus**\>**Ühised**\>**Töökäsud**  \>**Kõik töökäsud** ja avage uus töökäsk.</span><span class="sxs-lookup"><span data-stu-id="13fe5-120">Select **Asset management** \> **Common** \> **Work orders** \> **All work orders**, and open the new work order.</span></span>
+6. <span data-ttu-id="fb30c-120">Valige **Varahaldus**\>**Ühised**\>**Töökäsud**  \>**Kõik töökäsud** ja avage uus töökäsk.</span><span class="sxs-lookup"><span data-stu-id="fb30c-120">Select **Asset management** \> **Common** \> **Work orders** \> **All work orders**, and open the new work order.</span></span>
 
     ![Uue töökäsu avamine](media/05-manage-maintenance-requests.png)
 
