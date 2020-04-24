@@ -3,7 +3,7 @@ title: Teksti kategooria ER-i funktsioonide loend
 description: See teema annab teavet teksti funktsioonide kohta, mida toetatakse elektroonilises aruandluses (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/05/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f519d242fe74196b0d12bdc9df4f1b4b0e585752
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bd4dd7e9a3e1aa448adea5abd0c21b8133f34e3b
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916610"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201085"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Teksti kategooria ER-i funktsioonide loend
 
@@ -52,7 +52,7 @@ Elektroonilise aruandluse (ER) teksti funktsioone saab kasutada toimingute tegem
 | [Asenda](er-functions-text-replace.md) | See funktsioon tagastab määratud tekstistringi *stringi* väärtusena pärast seda, kui kõik või osa sellest on asendatud teise stringiga. |
 | [Parem](er-functions-text-right.md) | See funktsioon tagastab *stringi* väärtuse, mis esindab määratud tähemärkide arvu määratud stringi lõpust. |
 | [Tekst](er-functions-text-text.md) | See funktsioon tagastab määratud arvu *stringi* väärtusena pärast seda, kui see on teisendatud tekstistringiks, mis on vormindatud praeguse rakenduse eksemplari serverilokaadi sätete kohaselt. |
-| [Tõlkimine](er-functions-text-translate.md) | See funktsioon tagastab määratud tekstistringi *stringi* väärtusena pärast seda, kui kõik või osa sellest on asendatud teise stringiga. |
+| [Tõlkimine](er-functions-text-translate.md) | See funktsioon tagastab väärtuse *String*, mis sisaldab määratud teksti tähemärkide muu sisestatud märgikomplektiga asendamise tulemust. |
 | [Trim](er-functions-text-trim.md) | See funktsioon tagastab määratud tekstistringi *stringi* väärtusena pärast algus- ja lõputühikute kärpimist ning sõnade vahel olevate mitmekordsete tühikute eemaldamist. |
 | [Upper](er-functions-text-upper.md) | See funktsioon tagastab *stringi* väärtusena määratud tekstistringi pärast selle teisendamist suurtäheliseks. |
 

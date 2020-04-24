@@ -3,7 +3,7 @@ title: Omnikanali täpsemad automaatsed kulud
 description: See teema kirjeldab võimalusi Commerce’i kanali tellimuste täiendavate tellimuskulude haldamise kohta, kasutades täpsemate automaatsete kulude funktsioone.
 author: hhaines
 manager: annbe
-ms.date: 03/08/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: fd02a81f35b40e5075ccfe5c9a617d7de4e8250d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022323"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175150"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Omnikanali täpsemad automaatsed kulud
 
 [!include [banner](includes/banner.md)]
 
-See teema sisaldab teavet rakenduse Dynamics 365 for Retail versioonis 10.0 saadaolevate täpsemate automaatsete kulude funktsiooni konfigureerimise ja juurutamise kohta.
+See teema sisaldab teavet rakenduse Dynamics 365 for Retail versioonis 10.0 saadaolevate täpsemate automaatsete kulude funktsioonide konfigureerimise ja juurutamise kohta.
 
 Kui täpsemate automaatsete kulude funktsioonid on lubatud, saavad mis tahes toetatud Commerce’i kanalis (kassa, kõnekeskus ja veebipood) loodud tellimused kasutada [automaatsete kulude](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfiguratsioone, mis on määratletud ERP rakenduses nii päise- kui ka reatasemega seotud kuludele.
 
@@ -215,3 +215,10 @@ Mõni organisatsioon võib soovida, et kasutaja oleks kassakandele kõigi müüg
 ### <a name="charges-override-reports"></a>Tasude tühistamisaruanded
 
 Kui kasutajad tühistavad arvutatud kulud käsitsi või lisavad kulu kandele käsitsi, on need andmed auditeerimiseks saadaval aruandes **Kulu tühistamisajalugu**. Aruannetele pääseb juurde jaotises **Jaemüük ja kaubandus \> Päringud ja aruanded \> Kulu tühistamisajalugu**. On oluline tähele panna, et aruandele vajalikud andmed imporditakse kanali andmebaasist HQ-sse „P” jaotuse tööde plaanimise kaudu. Seetõttu ei pruugi kassas just tehtud tühistamiste teave aruandes saadaval olla enne, kui see töö on kaupluse kandeandmed HQ-sse üles laadinud.
+
+## <a name="additional-resources"></a>Lisaressursid
+
+[Automaatsete tasude lubamine ja konfigureerimine kanali kaupa](auto-charges-by-channel.md)
+
+[Päisekulude proportsionaalselt jaotamine vastavatele müügiridadele](pro-rate-charges-matching-lines.md)
+

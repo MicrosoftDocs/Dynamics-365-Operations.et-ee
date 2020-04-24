@@ -3,7 +3,7 @@ title: Ostukorvi moodul
 description: See teema hõlmab ostukorvi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 598b35b1bd365e761d8d4c5ef214935e60b971f4
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: d91f6ff24f8f2c051ed23565983c2bc6a2c12b55
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154013"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261417"
 ---
 # <a name="cart-module"></a>Ostukorvi moodul
 
@@ -47,12 +47,13 @@ Ostukorvi moodulis on atribuut **Pealkiri**, mida saab seadistada sellistele vä
 - **Tekstiplokk** – see moodul toetab ostukorvi mooduli kohandatud sõnumeid. Sõnumeid juhib sisuhaldussüsteem (CMS). Lisada on võimalik mis tahes sõnum, näiteks „Tellimusega esinevate probleemide osas võtke ühendust numbril 1-800-Fabrikam”.
 - **Kaupluse valija** – see moodul kuvab lähedalasuvate poodide loendi, kus kaup on kohapeal olemas. See võimaldab kasutajatel sisestada asukoha, et leida läheduses asuvad kauplused. Selle mooduli kohta lisateabe saamiseks vaadake teemat [Poe valija moodul](store-selector.md).
 
-## <a name="cart-module-settings"></a>Ostukorvi mooduli sätted
+
+## <a name="module-properties"></a>Mooduli atribuudid
 
 Ostukorvi moodulitel on järgmised seadistused, mida saab konfigureerida jaotises **Saidi sätted \> Laiendused**.
 
 - **Maksimaalne kogus** – seda tribuuti kasutatakse iga kauba maksimaalselt ostukorvi lisatava arvu määratlemiseks. Näiteks võib jaemüüja otsustada, et ühe tehinguga saab müüa iga toodet ainult 10 tükki.
-- **Varude kontroll** – kui väärtus on satud suvandile **Tõene**, saab kauba lisada ostukorvi ainult pärast seda, kui ostukasti moodul on veendunud, et see oleks laos olemas. See varude kontroll tehakse nii stsenaariumide jaoks, kus kaup saadetakse, kui ka stsenaariumide jaoks, kus sellele tullakse poodi järele. Kui väärtuseks on seatud suvand **Väär**, siis enne kauba ostukorvi lisamist ja tellimuse esitamist varude kontrolli ei tehta.
+- **Varude kontroll** – kui väärtus on satud suvandile **Tõene**, saab kauba lisada ostukorvi ainult pärast seda, kui ostukasti moodul on veendunud, et see oleks laos olemas. See varude kontroll tehakse nii stsenaariumide jaoks, kus kaup saadetakse, kui ka stsenaariumide jaoks, kus sellele tullakse poodi järele. Kui väärtuseks on seatud suvand **Väär**, siis enne kauba ostukorvi lisamist ja tellimuse esitamist varude kontrolli ei tehta. Lisateavet varude sätete konfigureerimise kohta varukontoris leiate teemast [Jaemüügikanalite varude saadavuse arvutamine](calculated-inventory-retail-channels.md).
 - **Varude puhver** – seda atribuuti kasutatakse varude puhvri arvu määramiseks. Varusid hallatakse reaalajas ja kui paljud kliendid esitavad tellimusi, võib täpse varude arvu säilitamine olla keeruline. Kui varude kontroll on tehtud, siis kui varusid on vähem kui puhvri kogus, käsitletakse toodet kui laost otsas. Seega kui müük toimub kiiresti läbi mitme kanali, nii et varade arv pole täielikult sünkroonitud, on vähem ohtu, et müüakse kaup, mis on laost otsas.
 - **Tagasi ostukorvi** – seda atribuuti kasutatakse ostukorvi lingi **Tagasi ostlema** marsruudi määramiseks. Protsessi saab konfigureerida saiditasemel, võimaldades jaemüüjatel viia klient tagasi avalehele või saidi mis tahes teisele lehele.
 
@@ -80,9 +81,11 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 
 [Konteineri moodul](add-container-module.md)
 
-[Kaupluse valija moodul](store-selector.md)
+[Kaupluse valimise moodul](store-selector.md)
 
 [Ostukasti moodul](add-buy-box.md)
+
+[Ostukorvi ikooni moodul](cart-icon-module.md)
 
 [Väljaregistreerimismoodul](add-checkout-module.md)
 
@@ -91,3 +94,5 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 [Päise moodul](author-header-module.md)
 
 [Jaluse moodul](author-footer-module.md)
+
+[Varude saadavuse arvutamine jaemüügikanalite jaoks](calculated-inventory-retail-channels.md)

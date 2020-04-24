@@ -3,7 +3,7 @@ title: Tootesoovituste lubamine
 description: Selles teemas selgitatakse, kuidas teha tehisintellekti masinõppel (AI-ML) põhinevad tootesoovitused rakenduses Microsoft Dynamics 365 Commerce klientidele kättesaadavaks.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d8a579be5df3c5e7718a6fb4720341f3bd01a64c
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: d38d7b0e98d84e23d7a51c5d8ee65df4a3b9e4a7
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154409"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259790"
 ---
 # <a name="enable-product-recommendations"></a>Tootesoovituste lubamine
 
@@ -34,12 +34,32 @@ Selles teemas selgitatakse, kuidas teha tehisintellekti masinõppel (AI-ML) põh
 
 ## <a name="recommendations-pre-check"></a>Tootesoovituste eelkontroll
 
-Enne lubamist võtke arvesse, et tootesoovitusi toetatakse ainult kaubanduse klientide jaoks, kes on migreerinud salvestusruumi kasutama rakendust Azure Data Lake Storage (ADLS). 
+Enne lubamist võtke arvesse, et tootesoovitusi toetatakse ainult Commerce'i klientide jaoks, kes on migreerinud salvestusruumi kasutama rakendust Azure Data Lake Storage (ADLS). 
 
-ADLS lubamise juhiste saamiseks vaadake teemat [Kuidas lubada ADLS Dynamics 365 keskkonnas](enable-ADLS-environment.md).
+Enne soovituste lubamist tuleb kontoris lubada järgmised konfiguratsioonid:
 
-Lisaks veenduge, et RetailSale’i mõõtmised oleksid lubatud. Selle seadistusprotsessi kohta lisateabe saamiseks minge [siia.](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)
+1. Veenduge, et ADLS oleks ostetud ja keskkonnas edukalt kontrollitud. Lisateabe saamisesk vt [Veenduge, et ADLS oleks ostetud ja keskkonnas edukalt kontrollitud](enable-ADLS-environment.md).
+2. Veenduge, et üksuse kaupluse värskendamine oleks automatiseeritud. Lisateabe saamiseks vt [Veenduge, et üksuse kaupluse värskendamine oleks automatiseeritud](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+3. Kinnitage, et Azure AD identiteedi konfiguratsioon sisaldab kirjet üksuse Soovitused jaoks. Lisateavet selle tegevuse kohta leiate altpoolt.
 
+Lisaks veenduge, et RetailSale’i mõõtmised oleksid lubatud. Selle seadistamisprotsessi kohta lisateabe saamiseks vt [Mõõtudega töötamine](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+
+## <a name="azure-ad-identity-configuration"></a>Azure AD identiteedi konfiguratsioon
+
+See etapp on nõutav kõigil klientidel, kes kasutavad konfiguratsiooni infrastruktuur teenusena (IaaS). Klientide, kes kasutavad service fabricut (SF), peaks see etapp olema automaatne ja soovitame kinnitada, et see säte konfigureeritakse ootuspäraselt.
+
+### <a name="setup"></a>Häälestus
+
+1. Otsige kontorist lehte **Azure Active Directory rakendused**.
+2. Kontrollige, kas üksusel „RecommendationSystemApplication-1” on olemas kanne.
+
+Kui kannet pole olemas, lisage uus kanne järgmise teabega.
+
+- **Kliendi ID** – d37b07e8-dd1c-4514-835d-8b918e6f9727
+- **Nimi** – RecommendationSystemApplication-1
+- **Kasutaja ID** – RetailServiceAccount
+
+Salvestage ja sulgege leht. 
 
 ## <a name="turn-on-recommendations"></a>Soovituste sisselülitamine
 
@@ -49,10 +69,10 @@ Tootesoovituste sisselülitamiseks tehke järgmist.
 1. Jagatud parameetrite loendis valige suvand **Soovituste loendid**.
 1. Määrake suvand **Luba soovitused** valikule **Jah**.
 
-![tootesoovituste lubamine](./media/enableproductrecommendations.png)
+![Soovituste sisselülitamine](./media/enablepersonalization.png)
 
 > [!NOTE]
-> See protseduur käivitab tootesoovituste loendite loomise protsessi. Enne loenditele juurdepääsu ja nende nägemist kassas või rakenduses Dynamics 365 Commerce, võib kuluda mitu tundi.
+> See protseduur käivitab tootesoovituste loendite loomise protsessi. Enne loenditele juurdepääsu ja nende kuvamist kassas või rakenduses Dynamics 365 Commerce, võib kuluda mitu tundi.
 
 ## <a name="configure-recommendation-list-parameters"></a>Soovituste loendi parameetrite konfigureerimine
 
@@ -62,9 +82,11 @@ Vaikimisi pakub AI-ML-i põhine tootesoovituste loend soovitatavaid väärtusi. 
 
 Pärast soovituste lubamist kaubanduse kontoris, tuleb soovituste paneel lisada paigutuse tööriista kaudu juhtelemendi kassaekraanile. Selle protsessi kohta lisateabe saamiseks vt taamat [Soovituste juhtelemendi lisamine kassaseadmete kandeekraanile](add-recommendations-control-pos-screen.md). 
 
-## <a name="enable-personalized-recommendations"></a>Luba isikupärastatud soovitused
+## <a name="enable-personalized-recommendations"></a>Isikupärastatud soovituste lubamine
 
-Lisateavet isikupärastatud soovituste saamise kohta vaadake jaotisest [Isikupärastatud soovituste lubamine](personalized-recommendations.md).
+Rakenduses Dynamics 365 Commerce saavad jaemüüjad teha kättesaadavaks isikupärastatud tootesoovitused (tuntud ka kui isikupärastamine). Sel viisil saab isikupärastatud soovitusi lisada kliendi kasutuskogemusele veebis ja kassas. Kui isikupärastamise funktsioon on sisse lülitatud, saab süsteem seostada kasutaja ostu- ja tooteteabe individualiseeritud tootesoovituste loomiseks.
+
+Lisateavet isikupärastatud soovituste kohta vaadake jaotisest [Isikupärastatud soovituste lubamine](personalized-recommendations.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 
