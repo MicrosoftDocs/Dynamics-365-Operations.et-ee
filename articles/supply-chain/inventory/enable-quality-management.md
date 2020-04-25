@@ -2,7 +2,7 @@
 title: Kvaliteedijuhtimise ülevaade
 description: Selles teemas kirjeldatakse, kuidas kasutada rakenduses Dynamics 365 Supply Chain Management kvaliteedijuhtimist, et täiustada tarneahela toote kvaliteeti.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2d51c659d9d06f075458359d81de978e7a6d14b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
+ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814394"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3224905"
 ---
 # <a name="quality-management-overview"></a>Kvaliteedijuhtimise ülevaade
 
@@ -302,122 +302,6 @@ Kui määrate ostmisel välja **Sündmuse tüüp** väärtuseks **Toote sissetul
 
 - Kui valiku **Värskendatud koguse kohta** väärtuseks on seatud **Jah**, luuakse iga sissetuleku kohta kvaliteettellimus ostutellimuse suhtes, võttes aluseks sissetulnud koguse ja kauba valimi sätted. Iga kord, kui ostutellimuse vastu on saadud kogus, luuakse äsja vastuvõetud koguse põhjal uued kvaliteettellimused.
 - Kui valiku **Värskendatud koguse kohta** väärtuseks on seatud **Ei**, luuakse sissetulnud koguse põhjal esimese sissetuleku kohta kvaliteettellimus ostutellimuse suhtes. Lisaks luuakse üks või mitu kvaliteettellimust järelejäänud koguse põhjal, sõltuvalt jälgimisdimensioonidest. Kvaliteettellimusi ei looda järgnevate sissetulekute kohta ostutellimuse suhtes.
-
-<table>
-<tbody>
-<tr>
-<th>Kvaliteedi spetsifikatsioon</th>
-<th>Värskendatud koguse kohta</th>
-<th>Jälgimisdimensiooni kohta</th>
-<th>Tulemus</th>
-</tr>
-<tr>
-<td>Protsent: 10%</td>
-<td>Jah</td>
-<td>
-<p>Partii number: ei</p>
-<p>Seerianumber: ei</p>
-</td>
-<td>
-<p>Tellimuse kogus: 100</p>
-<ol>
-<li>Teata 30 lõpetatuks
-<ul>
-<li>Kvaliteettellimus #1 3 kohta (10% 30-st)</li>
-</ul>
-</li>
-<li>Teata 70 lõpetatuks
-<ul>
-<li>Kvaliteettellimus #2 7 kohta (10% järelejäänud tellimuse kogusest, mis võrdub sel juhul 70-ga)</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Fikseeritud kogus: 1</td>
-<td>Ei</td>
-<td>
-<p>Partii number: ei</p>
-<p>Seerianumber: ei</p>
-</td>
-<td>Tellimuse kogus: 100
-<ol>
-<li>Teata 30 lõpetatuks
-<ul>
-<li>Kavaliteettellimus #1 luuakse 1 kohta (esimese lõpetatuna kinnitatud koguse jaoks, millel on fikseeritud väärtus 1).</li>
-<li>Järelejäänud koguse kohta ei looda enam ühtegi kvaliteettellimust.</li>
-</ul>
-</li>
-<li>Teata 10 lõpetatuks
-<ul>
-<li>Ühtegi kvaliteettellimust ei looda.</li>
-</ul>
-</li>
-<li>Teata 60 lõpetatuks
-<ul>
-<li>Ühtegi kvaliteettellimust ei looda.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Fikseeritud kogus: 1</td>
-<td>Jah</td>
-<td>
-<p>Partii number: jah</p>
-<p>Seerianumber: jah</p>
-</td>
-<td>
-<p>Tellimuse kogus: 10</p>
-<ol>
-<li>Teata 3 lõpetatuks
-<ul>
-<li>Kvaliteettellimus #1 1 kohta partiist #b1, seerianumber #s1</li>
-<li>Kvaliteettellimus #2 1 kohta partiist #b2, seerianumber #s2</li>
-<li>Kvaliteettellimus #3 1 kohta partiist #b3, seerianumber #s3</li>
-</ul>
-</li>
-<li>Teata 2 lõpetatuks
-<ul>
-<li>Kvaliteettellimus #4 1 kohta partiist #b4, seerianumber #s4</li>
-<li>Kvaliteettellimus #5 1 kohta partiist #b5, seerianumber #s5</li>
-</ul>
-</li>
-</ol>
-<p><strong>Märkus.</strong> Partiid saab uuesti kasutada.</p>
-</td>
-</tr>
-<tr>
-<td>Fikseeritud kogus: 2</td>
-<td>Ei</td>
-<td>
-<p>Partii number: jah</p>
-<p>Seerianumber: jah</p>
-</td>
-<td>
-<p>Tellimuse kogus: 10</p>
-<ol>
-<li>Teata 4 lõpetatuks
-<ul>
-<li>Kvaliteettellimus #1 1 kohta partiist #b1, seerianumber #s1.</li>
-<li>Kvaliteettellimus #2 1 kohta partiist #b2, seerianumber #s2.</li>
-<li>Kvaliteettellimus #3 1 kohta partiist #b3, seerianumber #s3.</li>
-<li>Kvaliteettellimus #4 1 kohta partiist #b4, seerianumber #s4.</li>
-<li>Järelejäänud koguse kohta ei looda enam ühtegi kvaliteettellimust.</li>
-</ul>
-</li>
-<li>Teata 6 lõpetatuks
-<ul>
-<li>Ühtegi kvaliteettellimust ei looda.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### <a name="production"></a>Tootmine
 

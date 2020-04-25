@@ -3,7 +3,7 @@ title: Dokumendi olekud ja töötsükkel
 description: Selles teemas käsitletakse rakenduse Microsoft Dynamics 365 Commerce leheelementide erinevaid dokumendi olekuid.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4f1c462f734b2d58843308f0f877fe18a4d9af7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4a00f1c363e5ecb0e3e64637a8f487c48df2df72
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002977"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261509"
 ---
 # <a name="document-states-and-lifecycle"></a>Dokumendi olekud ja töötsükkel
 
@@ -37,13 +37,13 @@ Teema [lehekülje elemendid](page-elements-overview.md) loetleb erinevate dokume
 
 Järgmises tabelis on toodud Commerce’i leheelementide võimalikud dokumentide olekud.
 
-| Dokumendi olek | Kirjeldus |
-|---|---|
-| Väljaregistreeritud | Kui CMS-i üksus on teile välja registreeritud, ei saa ükski teine volitatud süsteemi kasutaja seda redigeerida. Mis tahes üksusele tehtavad muudatused on nähtavad ainult teile. |
-| Sisseregistreeritud | Kui CMS-i üksus on registreeritud, on kõik muudatused teistele volitatud süsteemi kasutajatele nähtavad ja need kasutajad saavad seejärel üksuse välja registreerida ja seda redigeerida. Iga registreerimine loob üksuse ajaloos dokumendi versiooni kirje. |
-| Avaldatud | Kui CMS-i üksus on avaldatud, suunatakse see teie reaalajas saidile ja see muutub mitte volitatud välistele kasutajatele internetis leitavaks. Üksuseid saab avaldada ainult siis, kui need on registreeritud. |
-| Salvestatud | Väljaregistreeritud CMS-i üksusele tehtud muudatused saab salvestada CMS-i enne, kui üksus registreeritakse või avaldatakse. Need salvestatud muudatused ei ole teistele autenditud süsteemi kasutajatele nähtavad enne, kui üksus on registreeritud. Need ei ole välistele kasutajatele nähtavad enne, kuni üksus on avaldatud. |
-| Loobutud väljaregistreerimine | Kui väljaregistreeritud CMS-i üksusest loobutakse, kustutatakse kõik salvestatud muudatused ja üksus naaseb versioonile, mis oli viimati registreeritud. |
+| Dokumendi olek      | Saidiehitaja tegevus        | Kirjeldus                                                  |
+| ------------------- | -------------------------- | ------------------------------------------------------------ |
+| Väljaregistreeritud         | Valige suvand **Redigeeri**.           | Kohaldatav dokument on teile välja registreeritud. Kui dokument on selles olekus, ei saa teised autenditud süsteemi kasutajad seda muuta ja kõik dokumendis tehtud muudatused on nähtavad ainult teile. |
+| Salvestatud               | Valige käsk **Salvesta**.           | Välja registreeritud dokumendis tehtud muudatused salvestatakse andmebaasi, kuid dokumenti pole veel registreeritud ega avaldatud. Salvestatud muudatused ei ole teistele autenditud süsteemi kasutajatele nähtavad enne, kui autor on teinud valiku **Lõpeta redigeerimine**. Need ei ole välistele kasutajatele nähtavad enne, kuni üksus on avaldatud. |
+| Loobutud väljaregistreerimine | Valige **Hülga redigeerimine**.  | Kõik välja registreeritud dokumendis tehtud muudatused hüljatakse ja üksus taastab viimase registreeritud versiooni. |
+| Sisseregistreeritud          | Valige **Lõpeta redigeerimine**. | Redigeeritud dokument on registreeritud. Kõik muudatused on teistele autenditud süsteemikasutajatele nähtavad ja need kasutajad saavad seejärel dokumenti redigeerida. Iga registreerimine loob üksuse ajaloos dokumendi versiooni kirje. |
+| Avaldatud           | Valige **Avalda**.        | Dokument avaldatakse ja muudatused suunatakse teie reaalajas saidile ja need muutuvad süsteemivälistele kasutajatele leitavaks. Üksusi saab avaldada ainult juhul, kui nad on esmalt registreeritud käsu **Lõpeta redigeerimine** abil. |
 
 ## <a name="additional-resources"></a>Lisaressursid
 

@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe4dd04595c961e1c66178e6ac6955e945869ded
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e85bd359ce1053629ad4217cf623e57b2976463a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185677"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143478"
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>Ettevõttesisese kaupade liikumise ülekandedokumentide seadistamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-See protseduur näitab, kuidas koostada üleviimisdokumente kaupade liikumisel ettevõtte sees. See protseduur on saadaval ainult juriidilistele isikutele, kelle esmane aadress on Leedus. Selle protseduuri loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Leedu, andmeid. Enne seda protseduuri tuleb teha protseduur Kaupade liikumise ülekandedokumendi seadistamine ettevõtte sees. See protseduur on mõeldud laoraamatupidajatele. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
+See protseduur näitab, kuidas koostada üleviimisdokumente kaupade liikumisel ettevõtte sees. See protseduur on saadaval ainult juriidilistele isikutele, kelle esmane aadress on Leedus. Selle protseduuri loomisel kasutati demoettevõtte DEMF, mille esmaseks aadressiks on Leedu, andmeid. Enne seda protseduuri tuleb teha protseduur „Kaupade liikumise ülekandedokumendi seadistamine ettevõtte sees”. See protseduur on mõeldud laoraamatupidajatele. See protseduur on funktsiooni kohta, mis lisati rakenduse Dynamics 365 for Operations versioonis 1611.
 
 
 ## <a name="create-a-transfer-order"></a>Üleviimistellimuse loomine

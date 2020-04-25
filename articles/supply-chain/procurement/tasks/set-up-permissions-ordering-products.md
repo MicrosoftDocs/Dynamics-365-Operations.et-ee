@@ -2,7 +2,7 @@
 title: Teise isiku nimel toodete tellimise õiguste seadistamine
 description: See teema selgitab, kuidas anda töötajatele õigus teiste töötajate nimel ostutaotlusi koostada.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,24 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: baf39040bef2ccd0c643ce0d034348807ecdc50c
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 145d8a0e341857bf238fc934cd668ff12b8505b8
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914785"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207550"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Teise isiku nimel toodete tellimise õiguste seadistamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-See teema selgitab, kuidas anda töötajatele õigus teiste töötajate nimel ostutaotlusi koostada. Teisisõnu saab ostutaotluse "ettevalmistaja" luua nõude teisele "nõude esitajale". See protseduur demonstreerib ka seda, kuidas anda töötajale õigus tellida kaupu ja teenuseid erinevate juriidiliste isikute või tootmisüksuste kaudu. Tavaliselt teeb need toimingud ostujuht. Saate seda protseduuri kasutada demoettevõtte USMF või oma andmeid kasutades.
+See teema selgitab, kuidas anda töötajatele õigus teiste töötajate nimel ostutaotlusi koostada. Teisisõnu saab ostutaotluse „ettevalmistaja” luua nõude teisele „nõude esitajale”. See protseduur demonstreerib ka seda, kuidas anda töötajale õigus tellida kaupu ja teenuseid erinevate juriidiliste isikute või tootmisüksuste kaudu. Tavaliselt teeb need toimingud ostujuht. Saate seda protseduuri kasutada demoettevõtte USMF või oma andmeid kasutades.
 
 
 ## <a name="grant-permission-to-enter-purchase-requisitions-on-behalf-of-another-worker"></a>Õiguse andmine ostutaotluste sisestamiseks teise töötaja nimel

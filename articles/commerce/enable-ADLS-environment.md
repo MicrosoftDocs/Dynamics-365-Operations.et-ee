@@ -3,7 +3,7 @@ title: ADLS lubamine Dynamics 365 Commerce keskkonnas
 description: Selles teemas selgitatakse, kuidas lubada Azure Data Lake Storage (ADLS) ja katsetada Dynamics 365 Commerce keskkonda, mis on toote soovituste lubamise eeltingimus.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154432"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259744"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>ADLS lubamine Dynamics 365 Commerce keskkonnas
 
@@ -48,7 +48,8 @@ Lisateavet ADLS kohta vt [ADLS ametlikust dokumentatsioonist](https://azure.micr
   
 ## <a name="configuration-steps"></a>Konfiguratsiooni etapid
 
-Selles jaotises käsitletakse ADLS lubamiseks vajalikke konfiguratsiooni etappe.
+See jaotis hõlmab konfigureerimistoiminguid, mis on vajalikud ADLS-i lubamiseks keskkonnas, kuna see on seotud tootesoovitustega.
+ADLS-i lubamiseks vajalikest toimingutest põhjalikuma ülevaate saamiseks vaadake teemat [Üksusesalve Data Lake’i üksusena saadavaks muutmine](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-adls-in-the-environment"></a>ADLS lubamine keskkonnas
 
@@ -91,6 +92,8 @@ Kui see ei ole juba lõpule viidud, järgige juhiseid keskkonna [tootesoovituste
 
 ## <a name="additional-resources"></a>Lisaressursid
 
+[Üksusesalve Data Lake’i üksusena saadavaks muutmine](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+
 [Tootesoovituste ülevaade](product-recommendations.md)
 
 [Luba tootesoovitused](enable-product-recommendations.md)
@@ -110,5 +113,3 @@ Kui see ei ole juba lõpule viidud, järgige juhiseid keskkonna [tootesoovituste
 [Soovituste loomine demoandmetega](product-recommendations-demo-data.md)
 
 [Tootesoovituste KKK](faq-recommendations.md)
-
-

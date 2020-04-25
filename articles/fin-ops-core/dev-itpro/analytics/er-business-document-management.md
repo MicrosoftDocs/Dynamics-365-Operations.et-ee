@@ -3,7 +3,7 @@ title: Äridokumentide halduse ülevaade
 description: Siin teemas on ER-raamistiku äridokumendi halduri kasutamisõpetus.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/15/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117333"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258553"
 ---
 # <a name="business-document-management-overview"></a>Äridokumentide halduse ülevaade
 
@@ -248,9 +248,18 @@ Vabas tekstis arve mallide muutmiseks äridokumentide halduse tööruumis toimig
 1. Logige sisse kasutajana, kellel on juurdepääs Äridokumendi halduse tööruumile.
 2. Avage äridokumentide halduse tööruum.
 
+Kui tööruumis **Funktsioonihaldus** on funktsioon **Äridokumentide halduse Office’ile sarnanev kasutajaliides** välja lülitatud, kuvatakse tööruumi **Äridokumentide haldus** pearuudustikus järgmised mallid.
+
+- Mallid, mille omanik on teie ER-i konfiguratsiooni pakkuja (st pakkuja, kes on praegu tööruumis **Elektrooniline aruandlus** aktiivseks märgitud). Kui olete mõne neist mallidest valinud, saate selle käivitamiseks või redigeerimise jätkamiseks teha valiku **Muuda malli**.
+- Mallid, mis kuuluvad teistele ER-i konfiguratsiooni pakkujatele. Kui olete valinud ühe neist mallidest, saate teha valiku **Uus dokument**, et luua koopia sellest mallist, mis kuulub teie ER-i konfiguratsiooni pakkujale, ja seejärel alustada koopia muutmist.
+
 ![Äridokumentide halduse tööruumi leht](./media/BDM-Overview-EditingTemplate1.png)
 
 Vahekaart **Mall** esitleb valitud malli sisu. Valitud malli andmete ja selles olevate ER-vormingu seadistuse andmete üle vaatamiseks valige vahekaart **Üksikasjad**. Pange tähele, et, kõikide mallide olek on **Avaldatud** ja veerus **Redaktsioon** pole üldse andmeid. See tähendab seda, et neid malle hetkel ei muudeta.
+
+Kui tööruumis **Funktsioonihaldus** on funktsioon **Äridokumentide halduse Office’ile sarnanev kasutajaliides** sisse lülitatud, kuvatakse tööruumi **Äridokumentide haldus** pearuudustikus mallid, mis kuuluvad teie ER-i konfiguratsiooni pakkujale (st pakkujale, kes on praegu tööruumis **Elektrooniline aruandlus** aktiivseks märgitud). Kui olete mõne neist mallidest valinud, saate selle käivitamiseks või redigeerimise jätkamiseks teha valiku **Muuda malli**.
+
+Teiste ER-i konfiguratsiooni pakkujate omanduses olevate mallidega töötamiseks tehke valik **Uus dokument**, et luua koopia mallist, mis kuulub teie ER-i pakkujale. Seejärel saate hakata muutma koopiat. Lisateavet leiate teemast [Uue dokumendi kasutajaliides äridokumendi halduses](er-business-document-management-new-template-ui.md).
 
 ### <a name="initiate-editing-templates-owned-by-your-configuration-provider"></a>Alustage seadistuse pakkuja mallide muutmist
 

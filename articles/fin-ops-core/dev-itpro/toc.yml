@@ -14,7 +14,9 @@
               items:
                 - name: Mis on uut või mida on muudetud Platform update'i avalehel?
                   href: get-started/whats-new-home-page.md
-                - name: Platform update 34 (mai 2020)
+                - name: Platformi versiooni 10.0.11 värskendused (juuli 2020)
+                  href: get-started/whats-new-platform-update-35.md
+                - name: Platformi versiooni 10.0.10 värskendused (mai 2020)
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (aprill 2020)
                   href: get-started/whats-new-platform-update-33.md
@@ -110,7 +112,7 @@
               href: data-entities/integration-overview.md
             - name: Andmete integratsiooni API-d
               items:
-                - name: Andmehalduspaketi REST API
+                - name: Andmehalduse paketi REST API
                   href: data-entities/data-management-api.md
                 - name: Teenuse lõpp-punktid
                   items:
@@ -324,8 +326,6 @@
                       href: data-entities/configuration-data-packages.md
                     - name: Konfiguratsiooniandmete paketid (ainult 2017. a juuli väljaanne)
                       href: data-entities/configuration-data-packages.md
-                    - name: Muuda üksusesalv Data Lake’i üksusena saadavaks
-                      href: data-entities/entity-store-data-lake.md
                 - name: Konfigureerimisandmete mallid
                   href: data-entities/configuration-data-templates.md
                 - name: Üksuse muudatuste jälgimine
@@ -384,6 +384,14 @@
               href: user-interface/data-validation-workspace.md
             - name: Andmehalduse tõrgete kirjeldused
               href: data-entities/dm-error-descriptions.md
+        - name: Azure Data Lake
+          items:
+            - name: Azure Data Lake'i ülevaade
+              href: data-entities/azure-data-lake-overview.md
+            - name: Finance and Operationsi rakendused Azure Data Lake'is
+              href: data-entities/finance-data-azure-data-lake.md
+            - name: Muuda üksusesalv Data Lake’i üksusena saadavaks
+              href: data-entities/entity-store-data-lake.md
         - name: Andmebaasi teisaldamistoimingud
           items:
             - name: Ülevaade
@@ -482,38 +490,46 @@
               items:
                 - name: Asutusesisese juurutuse avaleht
                   href: deployment/on-premises-deployment-landing-page.md
-                - name: Asutusesisese juurutuse ülevaade
-                  href: deployment/on-premises-overview.md
-                - name: Asutusesiseste juurutuste plaanimine ja ettevalmistamine
-                  href: deployment/plan-onprem-deployment.md
-                - name: Riistvarakalkulaatori nõuded
-                  href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                - name: Asutusesiseste projektide häälestamine
-                  href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                - name: Asutusesiseste juurutuste ettevalmistamine
+                  items:
+                    - name: Asutusesisese juurutuse ülevaade
+                      href: deployment/on-premises-overview.md
+                    - name: Asutusesiseste juurutuste plaanimine ja ettevalmistamine
+                      href: deployment/plan-onprem-deployment.md
+                    - name: Riistvarakalkulaatori nõuded
+                      href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                 - name: Asutusesiseste keskkondade häälestamine ja juurutamine
                   items:
-                    - name: Asutusesiseste keskkondade häälestamise ja juurutamise avaleht
-                      href: deployment/setup-deploy-on-premises-environments.md
-                    - name: Asutusesiseste keskkondade juurutamine (Platform update 12 ja uuemad)
+                    - name: Asutusesiseste projektide häälestamine LCS-is
+                      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                    - name: Asutusesiseste keskkondade häälestamine ja juurutamine
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: Kohapealsete keskkondade juurutamine (Platform update 8 ja 11)
-                      href: deployment/setup-deploy-on-premises-pu8-pu11.md
                     - name: Etapid Retaili kanali komponentide installimiseks kohapealses keskkonnas
                       href: deployment/deploy-retail-onprem.md
+                    - name: Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse
+                      href: deployment/develop-deploy-custom-models-on-premises.md
+                - name: Keskkonna hooldus
+                  items:
+                    - name: Värskenduste rakendamine kohapealsesse juurutamisse
+                      href: deployment/apply-updates-on-premises.md
+                    - name: Sertide roteerimine
+                      href: deployment/certificate-rotation-on-prem.md
+                    - name: Kliendi Interneti-ühendus
+                      href: user-interface/client-disconnected.md
+                    - name: Puhverserverite konfigureerimine kohapealsete keskkondade jaoks
+                      href: deployment/onprem-reverseproxy.md
+                    - name: Kohapealsed diagnostikad
+                      href: deployment/on-premises-diagnostics.md
+                    - name: PowerBI.com-i integratsioon kohapealsete keskkondadega
+                      href: analytics/entity-store-on-prem.md
+                    - name: Keskkondade ümberkonfigureerimine
+                      href: lifecycle-services/reconfigure-environment.md
+                    - name: Kohapealsete juurutamiste uuesti juurutamine
+                      href: deployment/redeploy-on-prem.md
+                    - name: AOS-i sõlme eemaldamine ja uuesti installimine
+                      href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Mitme keskkonna puhul sama AD FS-i eksemplari korduvkasutamine
                       href: deployment/onprem-reuseadfs.md
-                - name: Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse
-                  href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: PowerBI.com-i integratsioon kohapealsete keskkondadega
-                  href: analytics/entity-store-on-prem.md
-                - name: Puhverserverite konfigureerimine kohapealsete keskkondade jaoks
-                  href: deployment/onprem-reverseproxy.md
-                - name: Värskenduste rakendamine kohapealsesse juurutamisse
-                  href: deployment/apply-updates-on-premises.md
-                - name: Kohapealsed diagnostikad
-                  href: deployment/on-premises-diagnostics.md
-                - name: Kohapealsete juurutamiste uuesti juurutamine
-                  href: deployment/redeploy-on-prem.md
                 - name: Kohalik esindaja
                   items:
                     - name: AD FS Office 365-ga ühilduvus
@@ -522,16 +538,12 @@
                       href: lifecycle-services/pre-post-scripts.md
                     - name: Kohaliku esindaja värskendamine
                       href: lifecycle-services/update-local-agent.md
-                - name: Keskkondade ümberkonfigureerimine
-                  href: lifecycle-services/reconfigure-environment.md
-                - name: Kliendi Interneti-ühendus
-                  href: user-interface/client-disconnected.md
-                - name: Kohapealsete juurutamiste tõrkeotsing
-                  href: deployment/troubleshoot-on-prem.md
-                - name: Asutusesiseses keskkonnas probleemide lahendamise skriptid
-                  href: deployment/onprem-tsg-implementations.md
-                - name: Sertide roteerimine
-                  href: deployment/certificate-rotation-on-prem.md
+                - name: Tõrkeotsing
+                  items:
+                    - name: Kohapealsete juurutamiste tõrkeotsing
+                      href: deployment/troubleshoot-on-prem.md
+                    - name: Asutusesiseses keskkonnas probleemide lahendamise skriptid
+                      href: deployment/onprem-tsg-implementations.md
             - name: Kohandatud koodi juurutamine
               items:
                 - name: Juurutatavate mudelipakettide loomine
@@ -928,6 +940,8 @@
                       href: extensibility/extensibility-attributes.md
                     - name: Murrangulised muudatused
                       href: extensibility/breaking-changes.md
+                    - name: Ühilduvuse kontrollija tööriist
+                      href: extensibility/compatibility-checker-tool.md
             - name: Jõudlus
               items:
                 - name: Jälitamised Trace Parseri abil
@@ -1302,9 +1316,9 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: ValueMetadata tüüp
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-        - name: Regression suite automation tool
+        - name: Regression Suite Automation Tool
           items:
-            - name: Regression suite automation tooli ülevaade
+            - name: Regression Suite Automation Tooli ülevaade
               href: perf-test/rsat/rsat-overview.md
             - name: Installimine ja konfigureerimine
               href: perf-test/rsat/rsat-install-configure.md
@@ -1318,7 +1332,7 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Tuletatud testjuhtumid
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Tööriista Regression Suite Automation Tool õppetüki kasutamine
+            - name: Regression Suite Automation Tooli õppetüki kasutamine
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Head tavad
               href: perf-test/rsat/rsat-best-practices.md
@@ -1442,6 +1456,8 @@
               href: sysadmin/configure-manage-database-log.md
             - name: OData metaandmete vahemälu loomine AOS-i käivitamisel
               href: sysadmin/odata-warmup.md
+            - name: Azure'i võtmehoidla klientrakenduse seadistamine
+              href: ../../finance/localizations/setting-up-azure-key-vault-client.md
         - name: 'Täiendused, värskendused ja kiirparandused'
           items:
             - name: 'Täienduste, värskenduste ja kiirparanduste ressursid'
@@ -1542,7 +1558,7 @@
                   href: deployment/apply-updates-on-premises.md
                 - name: Asutusesisese juurutuse uuesti juurutamine
                   href: deployment/redeploy-on-prem.md
-                - name: Asutusesisese versiooni 7.x täiendamine versioonile 8.1
+                - name: Kohapealne täiendusprotsess asutusesisese keskkonna puhul
                   href: migration-upgrade/on-prem-upgrade.md
             - name: Kiirparandused
               items:

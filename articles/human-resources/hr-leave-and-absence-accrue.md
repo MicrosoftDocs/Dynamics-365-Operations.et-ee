@@ -3,7 +3,7 @@ title: Puhkuse ja puudumise plaanide juurdekasv
 description: Rakenduses Dynamics 365 Human Resources saate koondada puhkuseid ja puudumisi mitme töövõtja või ühe jaoks.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092334"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197309"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Puhkuse ja puudumise plaanide juurdekasv
 
@@ -35,7 +35,7 @@ Rakenduses Dynamics 365 Human Resources saate koondada puhkuseid ja puudumisi mi
 
 2. Jaotises **Puhkuse haldamine** valige suvand **Puhkuse ja puudumise plaanide koondamine**.
 
-3. Dialoogiaknas **Puhkuse ja puudumise plaanide koondamine** jaotises **Koonda seisuga** valige kas suvand **Tänane kuupäev** või valige suvand **Kohandatud kuupäev** ja sisestage kohandatud kuupäev.
+3. Kuvatakse dialoogiboks **Puhkuse ja puudumise plaanide juurdekasv**. Jaotises **Koonda seisuga** valige kas **Tänane kuupäev** või **Kohandatud kuupäev** ja sisestage kohandatud kuupäev.
 
 4. Kui soovite lisandumisprotsessi käitada taustal, valige suvand **Käivita taustal** ja tehke järgmised ülesanded.
 
@@ -53,7 +53,7 @@ Rakenduses Dynamics 365 Human Resources saate koondada puhkuseid ja puudumisi mi
 
 2. Valige suvand **Puhkuste ja puudumiste koondamine**.
 
-3. Dialoogiaknas **Puhkuse ja puudumise plaanide koondamine** jaotises **Koonda seisuga** valige kas suvand **Tänane kuupäev** või valige suvand **Kohandatud kuupäev** ja sisestage kohandatud kuupäev.
+3. Kuvatakse dialoogiboks **Puhkuse ja puudumise plaanide juurdekasv**. Jaotises **Koonda seisuga** valige kas **Tänane kuupäev** või **Kohandatud kuupäev** ja sisestage kohandatud kuupäev.
 
 4. Kui soovite lisandumisprotsessi käitada taustal, valige suvand **Käivita taustal** ja tehke järgmised ülesanded.
 
@@ -65,17 +65,45 @@ Rakenduses Dynamics 365 Human Resources saate koondada puhkuseid ja puudumisi mi
 
    4. Valige nupp **OK**. Lisandumisprotsess töötab teie määratud parameetritega.
 
-## <a name="preview-features-for-leave-and-absence"></a>Puhkuste ja puudumiste eelvaatefunktsioonid
+## <a name="delete-leave-and-absence-accruals-for-multiple-employees"></a>Mitme töövõtja puhkuste ja puudumiste lisamiste kustutamine
 
-[!include [banner](includes/preview-feature-leave-absence.md)]
+Kustutage kindla plaani ja kuupäevavahemiku lisandumise kirjed. Lisandumise kuupäevad peavad olema tänase või tulevikus oleva kuupäevaga.
 
-Saate suvandi Puhkus ja puudumine jaoks lubada järgmised eelvaatefunktsioonid.
+1. Lehel **Puhkused ja puudumised** valige vahekaart **Lingid**.
 
-- **Puhkuste ja puudumiste lisamiste kustutamine**. Kustutage kindla plaani ja kuupäevavahemiku lisandumise kirjed. Lisandumise kuupäevad peavad olema tänase või tulevikus oleva kuupäevaga.
+2. Jaotises **Puhkuse haldamine** valige suvand **Puhkuse- ja puudumise plaani viitvõlgade kustutamine**.
 
-- **Puhkuse lisandumise auditeerimine**. Kuvab iga korra, kui keegi käitab või kustutab ühe või kõigi töötajate lisandumised, koos kuupäevaga ja kes tegevuse teostas.
+3. Dialoogiboksis **Puhkuse- ja puudumise plaani viitvõlgade kustutamine** valige **Puhkuse plaan**. 
+
+4. Vajadusel valige **Kustuta saldo korrigeerimised**.
+
+5. Sisestage või valige **Puhkuse viitvõla kuupäev**. See kuupäev peab olema kas täna või tulevikus. 
+
+6. Valige nupp **OK**. Lisandumisprotsess kustutab viitvõlad teie määratud parameetritega. 
+
+## <a name="delete-leave-and-absence-accruals-for-a-single-employee"></a>Ühe töövõtja puhkuste ja puudumiste lisamiste kustutamine
+
+1. Töövõtja kirjes valige suvand **Puhkus**.
+
+2. Valige **Puhkuse- ja puudumise plaani viitvõlgade kustutamine**.
+
+3. Dialoogiboksis **Puhkuse- ja puudumise plaani viitvõlgade kustutamine** valige **Puhkuse plaan**. 
+
+4. Vajadusel valige **Kustuta saldo korrigeerimised**.
+
+5. Sisestage või valige **Puhkuse viitvõla kuupäev**. See kuupäev peab olema kas täna või tulevikus. 
+
+6. Valige nupp **OK**. Lisandumisprotsess kustutab viitvõlad teie määratud parameetritega. 
+
+## <a name="review-leave-accrual-and-deletion-processes"></a>Puhkuse viitvõla ja kustutamise protsesside läbivaatamine
+
+**Puhkuse viitvõla audit** kuvatakse iga kord, kui käivitate või kustutate ühe või kõigi töövõtjate viitvõlad. Kuvatakse ka toimingu kuupäev ja selle teinud isik.
+
+1. Lehel **Puhkused ja puudumised** valige vahekaart **Lingid**.
+
+2. Jaotises **Puhkuse haldamine** valige suvand **Puhkuse viitvõla auditi kustutamine**.
 
 ## <a name="see-also"></a>Vt ka
 
 - [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)
-- [Puhkuse ja puudumise plaani loomine](hr-leave-and-absence-plans.md)
+- [Puhkuste ja puudumiste plaani loomine](hr-leave-and-absence-plans.md)

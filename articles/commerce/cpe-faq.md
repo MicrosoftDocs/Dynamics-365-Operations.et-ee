@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce'i eelvaatekeskkonna KKK
 description: Selles jaotises antakse vastuseid korduma kippuvatele küsimustele Microsoft Dynamics 365 Commerce eelvaatekeskkonna kohta.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024748"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254720"
 ---
 # <a name="dynamics-365-commerce-preview-environment-faq"></a>Dynamics 365 Commerce'i eelvaatekeskkonna KKK
 
@@ -78,11 +78,9 @@ Anname iga aktsepteeritud nõude puhul ühe Commerce eelvaatekeskkonna kvoodi. K
 
 Microsoftiga ühenduse võtmiseks, kui teil on küsimusi või taotlusi, mis on seotud Commerce eelvaatekeskkonnaga, külastage [Dynamics 365 Commerce eelvaate Yammer-gruppi](https://aka.ms/Dynamics365CommercePreviewYammer), et saada abi.
 
-Kui teil tekib probleeme Yammer-grupile juurdepääsu loomisel, saate Microsoftiga ühendust võtta e-postiaadressil <Dynamics365Commerce@microsoft.com>. Seda meiliaadressi ei jälgita aktiivselt. Seetõttu oodata viivitust vastuses.
-
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Dynamics 365 Commerce eelvaatekeskkonna ülevaade](cpe-overview.md)
+[Dynamics 365 Commerce’i eelvaatekeskkonna ülevaade](cpe-overview.md)
 
 [Dynamics 365 Commerce'i eelvaatekeskkonna ettevalmistamine](provisioning-guide.md)
 

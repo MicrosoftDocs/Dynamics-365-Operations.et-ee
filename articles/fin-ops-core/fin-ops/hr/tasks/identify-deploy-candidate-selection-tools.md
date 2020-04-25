@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51200a67a51097c438370866cb9d0ccbebe8392c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190369"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143945"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Kandidaatide valikutööriistade tuvastamine ja juurutamine
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Vabade kohtade täitmiseks piisava hulga kvalifitseeritud kandidaatide leidmine võib olla keeruline, eriti kui ametikoht nõuab unikaalseid oskusi.  Siiski võivad vajatavate oskustega kandidaadid aga juba teie organisatsioonis töötada. Saate otsida olemasolevate töötajate või uute kandidaatide seast kindlate oskustega spetsialiste. See võimaldab värbajal kiiresti koguda ja üle vaadata kandidaadid, kes on praegu või varem vabale ametikohale kandideerinud, või leida potentsiaalne kandidaat olemasolevate töötajate seast. Saate seda ülesande salvestist kasutades õppida, kuidas oskuste kaardistamise funktsioon aitab teil vabale ametikohale õiget inimest leida. Selle protseduuri loomiseks kasutati demoettevõtte USMF-i andmeid.
 

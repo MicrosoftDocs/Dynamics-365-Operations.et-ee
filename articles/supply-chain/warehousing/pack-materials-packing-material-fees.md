@@ -2,7 +2,7 @@
 title: Pakkematerjalid ja tasud
 description: Selles teemas leiate teavet pakkematerjalide tasude kohta, mida makstakse kindla ajavahemiku järel jäätmekäitlusfirmadele.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2351cce9dc6e1a554800817f75591c4a4e24d43
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076243"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215696"
 ---
 # <a name="packing-materials-and-fees"></a>Pakkematerjalid ja tasud
 
@@ -39,7 +39,7 @@ Saate määratleda ühele kaubale, kaubagrupile (pakkimisgrupile) või kõikidel
 > [!NOTE]
 > Juhul, kui teie ettevõte ei maksa pakkematerjalitasu, saate seda funktsiooni kasutada pakkematerjalide kaalu statistika arvutamiseks.
 
-## <a name="allocations"></a>Pakkematerjali eraldamise seadistamine
+## <a name="set-up-packing-material-allocation"></a><a name="allocations"></a>Pakkematerjali eraldamise seadistamine
 
 Enne pakkematerjali kaalu, pakkematerjali tasude või mõlema arvutamist peate arvutuse sisse lülitama ja määratlema, milliseid materjale ja tasusid millistele kaupadele rakendada.
 

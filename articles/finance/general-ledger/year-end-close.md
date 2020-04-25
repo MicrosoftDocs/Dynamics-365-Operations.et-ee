@@ -3,7 +3,7 @@ title: Aastalõpu sulgemine
 description: See teema kirjeldab nõutavat seadistust ja juhiseid pearaamatu aastalõpu sulgemise protsessi käivitamiseks.
 author: kweekley
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3071365640eb6c012cb9af5461e885bb3f135143
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f5b81ed788536a8b81ca53d6b6f12200836b6f5
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175376"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259767"
 ---
 # <a name="year-end-close"></a>Aastalõpu sulgemine
 
@@ -74,7 +74,7 @@ Valikut **Bilansi dimensioonide ülekandmine** kasutatakse määratlemiseks, kas
 Aastalõpu sulgemise protsess ei järgi kontostruktuure. Seda selle tõttu, et kontostruktuurid võivad muutuda finantsaasta jooksul ja nende muudatuste tõttu pole võimalik tuvastada asjakohast kontot.  Avamiskannete loomisel tuuakse saldod edasi finantsdimensioonidega, nagu on määratletud aastalõpu sulgemise mallis. Algsaldo kirjed võivad hõlmata praeguses kontostruktuuris ja segmendikombinatsioonides mittesisalduvaid finantsdimensioone, mis ei kehti enam praeguses kontostruktuuris. Kui teie organisatsioon soovib jaotamata kasumi algsaldo puhul finantsdimensiooni välja arvata, seadke finantsdimensioon valikule **Sule üksik** ja jätke dimensiooni väärtus tühjaks.
 
 ## <a name="run-the-year-end-close-process"></a>Aastalõpu sulgemisprotsessi käivitamine
-Pärast aastalõpu sulgemismallide loomist käivitatakse aastalõpu sulgemisprotsess, valides tegumiribal suvandi **Käivita finantsaasta**. Valige mallilt kõik juriidilised isikud või nende alamkogum, mille puhul aastalõpu sulgemine käivitada. Finantsaastas esimest korda aastalõpu sulgemise käivitamisel valite tõenäoliselt kõik juriidilised isikud, et luua kõikide juriidiliste isikute jaoks algsaldod. Kui käivitate uuesti aastalõpu sulgemise, võite valida protsessi käivitamise ainult juriidilistele isikutele, kelle jaoks korrigeerivad kirjed sisestati. 
+Pärast aastalõpu sulgemismallide loomist käivitatakse aastalõpu sulgemisprotsess, valides tegumiribal suvandi **Rahandusaasta sulgemise käivitamine**. Valige mallilt kõik juriidilised isikud või nende alamkogum, mille puhul aastalõpu sulgemine käivitada. Finantsaastas esimest korda aastalõpu sulgemise käivitamisel valite tõenäoliselt kõik juriidilised isikud, et luua kõikide juriidiliste isikute jaoks algsaldod. Kui käivitate uuesti aastalõpu sulgemise, võite valida protsessi käivitamise ainult juriidilistele isikutele, kelle jaoks korrigeerivad kirjed sisestati. 
 
 Valige finantsaasta, mille suhtes sooviksite käivitada aastalõpu sulgemisprotsessi. Kui finantsdimensiooni viimase perioodi kohta on olemas rohkem kui üks sulgemisperiood, muutub väli **Perioodi nimi** kättesaadavaks, et saaksite valida, millisesse sulgemisperioodi sulgemiskanne sisestada, kui seadistus määratletakse sulgemiskande loomiseks. 
 

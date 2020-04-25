@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce’i eelvaatekeskkonna ettevalmistamine
 description: Selles teemas selgitatakse, kuidas valmistada ette Microsoft Dynamics 365 Commerce’i eelvaatekeskkond.
 author: psimolin
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cbd4c118de2e91c8849461b20a01403049a07e66
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024632"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254744"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce’i eelvaatekeskkonna ettevalmistamine
 
@@ -235,8 +235,6 @@ E-kaubanduse lähtestamiseks tehke järgmist.
 
 Kui teil tekib ettevalmistuse etappide lõpetamisel probleeme, külastage abi saamiseks [Rakenduse Microsoft Dynamics 365 Commerce eelvaate Yammeri gruppi](https://aka.ms/Dynamics365CommercePreviewYammer).
 
-Kui teil tekib probleeme Yammer-grupile juurdepääsu loomisel, saate Microsoftiga ühendust võtta e-postiaadressil <Dynamics365Commerce@microsoft.com>. Seda meiliaadressi ei jälgita aktiivselt. Seetõttu oodata viivitust vastuses.
-
 ## <a name="next-steps"></a>Järgmised etapid
 
 Oma Commerce’i eelvaatekeskkonna ettevalmistamise ja konfigueerimise protsessi jätkamiseks vaadake teemat [Commerce’i eelvaatekeskkonna konfigureerimine](cpe-post-provisioning.md).
@@ -249,7 +247,7 @@ Oma Commerce’i eelvaatekeskkonna ettevalmistamise ja konfigueerimise protsessi
 
 [Dynamics 365 Commerce’i eelvaatekeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
 
-[Dynamics 365 Commerce’i eelvaatekeskkonna KKK](cpe-faq.md)
+[Dynamics 365 Commerce eelvaatekeskkonna KKK](cpe-faq.md)
 
 [Microsofti elutsükli teenused (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

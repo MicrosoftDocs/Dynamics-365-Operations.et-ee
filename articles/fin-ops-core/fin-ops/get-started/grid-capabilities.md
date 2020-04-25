@@ -3,7 +3,7 @@ title: Ruudustiku võimalused
 description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks tuleb uus ruudustikufunktsioon lubada.
 author: jasongre
 manager: AnnBe
-ms.date: 02/10/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
-ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
+ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036261"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260456"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
@@ -90,4 +90,23 @@ Rühmitamise tagasivõtmiseks ruudustikus paremklõpsake rühmitataval veerul ja
 ## <a name="evaluating-math-expressions"></a>Matemaatiliste avaldiste hindamine
 Tootlikkuse tõstmiseks saavad kasutajad sisestada ruudustiku numbrilahtritesse matemaatilisi valemeid. Nad ei pea tegema arvutust süsteemivälises rakenduses. Näiteks kui sisestate **=15\*4** ja vajutate siis väljalt välja liikumiseks **tabeldusklahvi**, hindab süsteem avaldist ja salvestab välja jaoks väärtuse **60**.
 
-Selleks et süsteem tuvastaks avaldise väärtuse, käivitage väärtus võrdusmärgiga (**=**). Lisateavet toetatud tehtemärkide ja süntaksi kohta vt teemast [Toetatud matemaatilised sümbolid](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).  
+Selleks et süsteem tuvastaks avaldise väärtuse, käivitage väärtus võrdusmärgiga (**=**). Lisateavet toetatud tehtemärkide ja süntaksi kohta vt teemast [Toetatud matemaatilised sümbolid](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
+
+## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
+### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kuidas lubada uut ruudustiku juhtelementi oma keskkonnas? 
+
+**10.0.9 / platvormivärskendus 33 ja hilisem** Funktsioon **Uus ruudustiku juhtelement** on kõikides keskkondades saadaval otse funktsioonihalduses. Sarnaselt teistele avaliku eelvaate funktsioonidele kehtib selle funktsiooni tootmisse lubamisele [täiendav kasutustingimuste leping](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8 / platvormiuuendus 32 ja 10.0.7 / platvormiuuendus 31** Funktsiooni **Uus ruudustiku juhtelement** saab lubada 1. taseme (arendamine/testimine) ja 2. taseme (liivakast) keskkondades, et pakkuda täiendavat testimist ja kujundusmuudatusi, järgides alltoodud juhiseid.
+
+1.  **Luba lend**: Käivitage järgmine SQL-lause: 
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
+
+2. **Lähtesta IIS**, et tühjendada staatilise eelväljaande vahemälu. 
+
+3.  **Leia funktsioon**: avage tööruum **Funktsiooni haldus**. Kui funktsiooni **Uus ruudustiku juhtelement** ei kuvata kõigi funktsioonide loendis, tehke valik **Otsi värskendusi**.   
+
+4.  **Luba funktsioon**: leidke funktsioon **Uus ruudustiku juhtelement** funktsioonide loendist ja valige üksikasjade paanilt suvand **Luba nüüd**. Pidage meeles, et brauseri värskendamine on nõutav. 
+
+Kõik järgmised kasutajaseansid algavad lubatud uue ruudustiku juhtelemendiga.

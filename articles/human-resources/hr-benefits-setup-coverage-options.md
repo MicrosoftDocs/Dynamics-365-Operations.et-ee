@@ -1,9 +1,9 @@
 ---
 title: Katvuse suvandite loomine
-description: Katvussuvandid rakenduses Microsoft Dynamics 365 Human Resources on kasutaja valitud soodustuse plaani või programmi katvuse tasemed, nagu meditsiiniplaani jaoks suvand Ainult töövõtja või elukindlustuse plaani jaoks 2 × palk.
+description: Katvussuvandid rakenduses Microsoft Dynamics 365 Human Resources on kasutaja valitud soodustuse plaani või programmi katvuse tasemed.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 021fea7604af2fff833ddc6868d55a316ef70aae
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092702"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230173"
 ---
 # <a name="create-coverage-options"></a>Katvuse suvandite loomine
 
-[!include [banner](includes/preview-feature.md)]
-
-Katvussuvandid rakenduses Microsoft Dynamics 365 Human Resources on kasutaja valitud soodustuse plaani või programmi katvuse tasemed, nagu meditsiiniplaani jaoks suvand Ainult töövõtja või elukindlustuse plaani jaoks 2 × palk. Kui see on määratletud, siis on soodustuse katvuse valikud uuesti kasutatavad ja saate siduda valiku ühe või mitme plaaniga.
+Katvussuvandid rakenduses Microsoft Dynamics 365 Human Resources on kasutaja valitud soodustuse plaani või programmi katvuse tasemed. Näiteks võivad katvussuvandid hõlmata suvandit **Ainult töövõtja** meditsiiniplaani jaoks või suvandit **2 × palk** elukindlustuse plaani jaoks. Kui see on määratletud, saate soodustuse kindlustussuvandeid uuesti kasutada. Saate siduda suvandi ühe või mitme plaaniga.
 
 Kui katvuse valikud on määratud, lisage katvuse valikud soodustuse plaani tüübile. Plaani tüüp seostatakse seejärel soodustuse plaani või programmiga. Plaani tüübiga seostatud katvuse valikud on saadaval kõigile selle plaani tüübiga loodud plaanidele. 
 

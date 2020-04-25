@@ -3,7 +3,7 @@ title: Sobivusreeglite ja -suvandite konfigureerimine
 description: Määrake rakenduses Microsoft Dynamics 365 Human Resources soodustuste haldamises sobivusreeglid ja -suvandi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 07dd8a6ca7edb460769f761950dc0c143112f708
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008813"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229897"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Sobivusreeglite ja -suvandite konfigureerimine
-
-[!include [banner](includes/preview-feature.md)]
 
 Kui olete rakenduses Microsoft Dynamics 365 Human Resources konfigureerinud soodustuste haldamise vajalikud parameetrid, saate luua sobivusreeglid, kogumid, perioodid ja programmid, mille soodustuse plaanidega seostate.
 
@@ -57,6 +55,7 @@ Avatud registreerimise ajal saavad töötajad valida soodustuse plaanid. Kui nad
    | **Tööhõive kategooria** | Töövõtja tööhõive kategooria, kui lüliti **Kasuta tööhõive kategooriat** on seatud väärtusele **Jah**. |
    | **Kasuta uue palkamise reeglit** | Määrab, kas kasutada uue töötaja uue palkamise perioodi väärtust soodustuste sobivusreegli osana. |
    | **Registreerimisperiood** | Ajaperiood, mil uue palkamise registreerimine on lubatud. Kui määrate parameetrites ka selle, on parameetrite seadistus kõrgema prioriteediga kui see. |
+   | **Varasema tööhõiveoleku kasutamine** | Määrab, kas kasutada osana soodustuse sobivusreeglist töövõtja varasemat tööhõiveolekut. Näiteks saate määrata sobivusreegli, mis loobub kõikide nende töötajate katvuse ooteajast, kelle olek **Töötu** on muutunud olekuks **Tööle võetud** 90 päeva jooksul pärast eelmist tööhõivet. |
 
 4. Jaotises **Lisakriteeriumid** valige järgmised suvandid ja lisage vastavalt vajadusele teave.
 

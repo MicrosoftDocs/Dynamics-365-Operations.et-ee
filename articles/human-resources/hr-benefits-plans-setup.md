@@ -3,7 +3,7 @@ title: Soodustuse plaani loomine
 description: Soodustuse plaanide seadistamine rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 97c3acf1294b7a8c2496f23a32918152f50a9e5e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6e3822a1071023898e459a82c14ff648d8cdebed
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008766"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230104"
 ---
 # <a name="create-a-benefits-plan"></a>Soodustuse plaani loomine
-
-[!include [banner](includes/preview-feature.md)]
 
 Selles artiklis kirjeldatakse, kuidas seadistada soodustuse plaani rakenduses Dynamics 365 Human Resources.
 
@@ -39,16 +37,16 @@ Selles artiklis kirjeldatakse, kuidas seadistada soodustuse plaani rakenduses Dy
 
    | Väli | Kirjeldus |
    | --- | --- |
-   | Plaan | Plaani kordumatu identifikaator. |
-   | Kirjeldus | Plaani kirjeldus. |
-   | Plaani tüüp | Uue plaani loomisel peate määrama plaani tüübi. Plaani tüüp on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Iga plaani tüüp määrab, kas töövõtja saab registreeruda mitmes seda tüübi plaanis, täpsustab, kas kontaktid on kasusaajad või sõltuvad, ja määratleb katvuse valikud. Saate luua uusi kohandatud plaanide tüüpe, et need vastaksid teie soodustuste pakkumustele. Peamised soodustusplaanide tüübid on järgmised. <ul><li>401K</li><li>ADD</li><li>Hambaravi</li><li>Vormisolek</li><li>FSA</li><li>Elu</li><li>LTD</li><li>Meditsiin</li><li>PTO</li><li>STD</li><li>Nägemine</li></ul> |
-   | Plaani tüübi kood | Plaani tüübi kood. |
-   | Programm | Määratleb plaani valikuliselt määramise programmi. |
-   | Kogum | Määratleb plaani valikuliselt määramise kogumi. |
-   | Põhiveokiri | Määratleb, kas plaan on antud kogumi koondplaan. |
-   | Olek | Näitab soodustuse plaani praegust olekut. Vaikeväärtus on Aktiivne. Kui muudate olekuks Passiivne, ei ole plaan registreerimise ajal valimiseks saadaval. |
-   | Kehtivuse alguskuupäev ja -aeg | Plaani alguskuupäev ja -kellaaeg. Vaikeväärtus on praegune süsteemikuupäev. |
-   | Kehtivuse lõppkuupäev ja -aeg | Plaani lõppemise kuupäev ja kellaaeg (olekuks seatakse Passiivne). Vaikeväärtus on 12/31/2154, mis tähendab, et mitte kunagi. |
+   | **Plaan** | Plaani kordumatu identifikaator. |
+   | **Kirjeldus** | Plaani kirjeldus. |
+   | **Plaani tüüp** | Uue plaani loomisel peate määrama plaani tüübi. Plaani tüüp on kindlate soodustuste tüüpide kõrgetasemeline rühmitamine. Iga plaani tüüp määrab, kas töövõtja saab registreeruda mitmes seda tüübi plaanis, täpsustab, kas kontaktid on kasusaajad või sõltuvad, ja määratleb katvuse valikud. Saate luua uusi kohandatud plaanide tüüpe, et need vastaksid teie soodustuste pakkumustele. Peamised soodustusplaanide tüübid on järgmised. <ul><li>401K</li><li>ADD</li><li>Hambaravi</li><li>Vormisolek</li><li>FSA</li><li>Elu</li><li>LTD</li><li>Meditsiin</li><li>PTO</li><li>STD</li><li>Nägemine</li></ul> |
+   | **Plaani tüübi kood** | Plaani tüübi kood. |
+   | **Programm** | Määratleb plaani valikuliselt määramise programmi. |
+   | **Kogum** | Määratleb plaani valikuliselt määramise kogumi. |
+   | **Põhiveokiri** | Määratleb, kas plaan on antud kogumi koondplaan. |
+   | **Olek** | Näitab soodustuse plaani praegust olekut. Vaikeväärtus on Aktiivne. Kui muudate olekuks Passiivne, ei ole plaan registreerimise ajal valimiseks saadaval. |
+   | **Kehtivuse alguskuupäev ja -aeg** | Plaani alguskuupäev ja -kellaaeg. Vaikeväärtus on praegune süsteemikuupäev. |
+   | **Kehtivuse lõppkuupäev ja -aeg** | Plaani lõppemise kuupäev ja kellaaeg (olekuks seatakse Passiivne). Vaikeväärtus on 12/31/2154, mis tähendab, et mitte kunagi. |
 
 4. Vahekaardil **Konfigureerimine** määrake olenevalt loodava plaani tüübist järgmiste väljade väärtused.
 
@@ -77,42 +75,42 @@ Selles artiklis kirjeldatakse, kuidas seadistada soodustuse plaani rakenduses Dy
 
    | Väli | Kirjeldus |
    | --- | --- |
-   | Registreeringu lubamine/jätkamine | Määrab, kas töövõtjad saavad plaanis registreeruda, kui nad vastavad sobivuse nõuetele.</br></br>Kui see on seatud väärtusele Ei, ei ole plaan sobivuse töötlemisel töötajate jaoks saadaval. |
-   | Registreeri eelmise aasta alusel automaatselt | Määrab, kas kõlbliku töövõtja plaan registreeritakse automaatselt, kui ta oli eelmisel aastal registreeritud. |
-   | Automaatne registreerimine vaikesättena | Määrab, kas registreerimise plaanid valitakse vaikimisi. Plaan ei ole kohustuslik, seega töövõtja saab vaikevalikut muuta. |
-   | Registreerimine on suletud | Määrab, kas piirata plaan ainult sobivatele töövõtjatele, kes olid plaani registreeritud eelmisel aastal. |
-   | Kohustuslik plaan | Määrab, kas töövõtjaid registreeritakse plaani automaatselt. Töövõtjad ei saa registreerimise valikut muuta. |
-   | Jõustumise kuupäev | Plaani loomise kuupäev ettevõttes. |
-   | Hankija konto (soodustuse pakkuja) | Hankija, kellele ettevõte plaani osana preemiaid maksab. |
-   | Nimi (soodustuse pakkuja) | Tarnija nimi. |
-   | Hankija viide (soodustuse pakkuja) | Hankija viide plaanile. Näiteks ettevõtte rühma plaani number. |
-   | Alternatiivne viide (soodustuse pakkuja) | Hankija alternatiivne viide plaanile. Näiteks ettevõtte kontonumber. |
-   | Valuuta (soodustuse pakkuja) | Pakkujale preemiate maksmiseks kasutatav valuuta. |
-   | Kulukonto (soodustuse pakkuja) | Pearaamatukonto, mida kasutatakse plaani preemiate kulukontona. |
-   | Hankija konto (soodustuse haldaja) | Hankija, kellele ettevõte plaani haldamiseks maksab. Kui plaani hallatakse ise, jätke see väli tühjaks. |
-   | Nimi (soodustuse haldaja) | Soodustuse haldaja hankija nimi. |
-   | Hankija viide (soodustuse haldaja) | Haldaja hankija viide plaanile. |
-   | Alternatiivne viide (soodustuse haldaja) | Haldaja hankija alternatiivne viide plaanile. |
-   | Valuuta (soodustuse haldaja) | Soodustuse haldajale maksmiseks kasutatav valuuta. |
-   | Kulukonto (soodustuse haldaja) | Pearaamatukonto, mida kasutatakse plaani haldamisega seotud kulude kulukontona. |
+   | **Registreeringu lubamine/jätkamine** | Määrab, kas töövõtjad saavad plaanis registreeruda, kui nad vastavad sobivuse nõuetele.</br></br>Kui see on seatud väärtusele Ei, ei ole plaan sobivuse töötlemisel töötajate jaoks saadaval. |
+   | **Registreeri eelmise aasta alusel automaatselt** | Määrab, kas kõlbliku töövõtja plaan registreeritakse automaatselt, kui ta oli eelmisel aastal registreeritud. |
+   | **Automaatne registreerimine vaikesättena** | Määrab, kas registreerimise plaanid valitakse vaikimisi. Plaan ei ole kohustuslik, seega töövõtja saab vaikevalikut muuta. |
+   | **Registreerimine on suletud** | Määrab, kas piirata plaan ainult sobivatele töövõtjatele, kes olid plaani registreeritud eelmisel aastal. |
+   | **Kohustuslik plaan** | Määrab, kas töövõtjaid registreeritakse plaani automaatselt. Töövõtjad ei saa registreerimise valikut muuta. |
+   | **Jõustumise kuupäev** | Plaani loomise kuupäev ettevõttes. |
+   | **Hankija konto** (soodustuse pakkuja) | Hankija, kellele ettevõte plaani osana preemiaid maksab. |
+   | **Nimi** (soodustuse pakkuja) | Tarnija nimi. |
+   | **Hankija viide** (soodustuse pakkuja) | Hankija viide plaanile. Näiteks ettevõtte rühma plaani number. |
+   | **Alternatiivne viide** (soodustuse pakkuja) | Hankija alternatiivne viide plaanile. Näiteks ettevõtte kontonumber. |
+   | **Valuuta** (soodustuse pakkuja) | Pakkujale preemiate maksmiseks kasutatav valuuta. |
+   | **Kulukonto** (soodustuse pakkuja) | Pearaamatukonto, mida kasutatakse plaani preemiate kulukontona. |
+   | **Hankija konto** (soodustuse haldaja) | Hankija, kellele ettevõte plaani haldamiseks maksab. Kui plaani hallatakse ise, jätke see väli tühjaks. |
+   | **Nimi** (soodustuse haldaja) | Soodustuse haldaja hankija nimi. |
+   | **Hankija viide** (soodustuse haldaja) | Haldaja hankija viide plaanile. |
+   | **Alternatiivne viide** (soodustuse haldaja) | Haldaja hankija alternatiivne viide plaanile. |
+   | **Valuuta** (soodustuse haldaja) | Soodustuse haldajale maksmiseks kasutatav valuuta. |
+   | **Kulukonto** (soodustuse haldaja) | Pearaamatukonto, mida kasutatakse plaani haldamisega seotud kulude kulukontona. |
 
 6. Vajadusel filtreerige vahekaardil **Filtrid**. Saate filtreerida järgmiste väljade põhjal.
 
-   - Äriüksus
-   - Osakond
-   - Juriidiline isik
-   - Koht
-   - Ametikoht
+   - **Äriüksus**
+   - **Osakond**
+   - **Juriidiline isik**
+   - **Koht**
+   - **Ametikoht**
 
 7. Määrake vahekaardil **Sobivusreeglid** järgmiste väljade väärtused.
 
    | Väli | Kirjeldus |
    | --- | --- |
-   | Rea number | Sobivusreegli reanumber. |
-   | Sobivusreegel | Soodustuse plaanile rakendatav sobivusreegel. See sobivus reegel rakendatakse vastavale tegevuse tüübile ja seostatakse määratud katvuse ooteaja ja mahaarvamistega. |
-   | Tegevuse tüüp | Sobivusreegli rakendamise tegevus: soodustuste registreerimine või soodustuste aegumine. |
-   | Kehtivusperioodi ooteaeg | Väärtus vormilt Ooteajad. Katvuse ooteaeg juhib päevade või kuude arvu, kaua töövõtja ootab soodustuse katvust või soodustuse aegumist, mis põhineb sobivusreegli ja tegevuse tüübi kriteeriumitel. |
-   | Mahaarvamise ooteaeg | Väärtus vormilt Ooteajad. Mahaarvamise ooteaeg juhib päevade või kuude arvu, kaua töövõtja ootab soodustuse palgast mahaarvamist, mis põhineb sobivusreegli ja tegevuse tüübi kriteeriumitel. |
+   | **Rea number** | Sobivusreegli reanumber. |
+   | **Sobivusreegel** | Soodustuse plaanile rakendatav sobivusreegel. See sobivus reegel rakendatakse vastavale tegevuse tüübile ja seostatakse määratud katvuse ooteaja ja mahaarvamistega. |
+   | **Tegevuse tüüp** | Sobivusreegli rakendamise tegevus: soodustuste registreerimine või soodustuste aegumine. |
+   | **Kehtivusperioodi ooteaeg** | Väärtus vormilt Ooteajad. Katvuse ooteaeg juhib päevade või kuude arvu, kaua töövõtja ootab soodustuse katvust või soodustuse aegumist, mis põhineb sobivusreegli ja tegevuse tüübi kriteeriumitel. |
+   | **Mahaarvamise ooteaeg** | Väärtus vormilt Ooteajad. Mahaarvamise ooteaeg juhib päevade või kuude arvu, kaua töövõtja ootab soodustuse palgast mahaarvamist, mis põhineb sobivusreegli ja tegevuse tüübi kriteeriumitel. |
 
 8. Valige käsk **Salvesta**.
 

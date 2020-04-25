@@ -1,9 +1,9 @@
 ---
 title: Ülevaade
-description: Tööruum **Puhkused ja puudumised** Dynamics 365 Human Resourcesis pakub paindlikku raamistikku uute puhkuseplaanide ja taotluste haldamise töövoogude loomiseks ning töötajate intuitiivset iseteeninduse lehte vabade päevade taotlemiseks.
+description: Rakenduse Dynamics 365 Human Resources tööruum Puhkused ja puudumised pakub paindlikku raamistikku uute puhkuseplaanide ja taotluste haldamise töövoogude loomiseks ning töötajate intuitiivset iseteeninduse lehte vabade päevade taotlemiseks.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 493bc3abe82103541125914896252b2eae596b38
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
+ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091744"
+ms.lasthandoff: 04/04/2020
+ms.locfileid: "3226226"
 ---
 # <a name="overview"></a>Ülevaade
 
@@ -51,31 +51,35 @@ Enne töötajale puhkuseplaanide loomist peate looma puhkuste ja puudumiste tü�
 
 Teie töövõtjad võivad esitada eemaloleku aja taotlusi ja saate neid hallata tööruumis **Töövõtja iseteeninduskeskus**.
 
-- [Eemaloleku aja taotlemine](hr-employee-self-service-request-time-off.md)
-- [Puhkuse- ja puudumistaotluste haldamine](hr-employee-self-service-manage-requests.md)
+- [Taotle vaba aega](hr-employee-self-service-request-time-off.md)
+- [Puhkuste ja puudumiste taotluste haldamine](hr-employee-self-service-manage-requests.md)
+
+## <a name="leave-and-absence-known-issues"></a>Puhkuste ja puudumiste teadaolevad probleemid
+
+### <a name="rounding-precision"></a>Ümardamistäpsus
+
+Suvandit **Ümardamistäpsus** ei saa määrata, kui määrate suvandi **Ümardamine tüüp**. Suvandi **Ümardamistäpsust** saate määrata ainult üksuse **Puhkuse ja puudumise tüüp** abil. 
+
+1. Valige jaotises **Puhkuse ja puudumise tüübid** suvand **Ava Excelis** üksuse **Puhkuse ja puudumise tüüp** avamiseks.
+
+2. Kui fail avaneb ja on lubatud, valige **Kujundus**.
+
+3. Tabelis **Puhkuse ja puudumise tüüp** valige redigeerimiseks pliiatsi suvand.
+
+4. Valige **RoundingPrecision** ja **RoundingType** ning seejärel valige **Lisa** nende lisamiseks väljade loendisse.
+
+5. Valige suvand **Värskenda** ja seejärel nupp **Valmis**.
+
+6. Sisestage või valige igale puhkuse tüübile **Ümardamistüüp**, kui neid pole juba määratud. 
+
+7. Sisestage õigetele tüüpidele **Ümardamistäpsus**.
+
+8. Muudatuste sisestamiseks Human Resourcesisse valige **Avalda**.
 
 ## <a name="leave-and-absence-preview-features"></a>Puhkuste ja puudumiste eelvaatefunktsioonid
 
 Saate proovida uusi puhkuste ja puudumiste eelvaatefunktsioone keskkonnas **Liivakast**. Lisateavet eelvaatefunktsioonide sisselülitamise kohta vt teemast [Funktsioonide haldamine](hr-admin-manage-features.md). Eelvaatefunktsioonid hõlmavad järgmist.
 
-- **Puhkuste ja puudumiste kalender** – puhkuse ja puudumiste parameetrid liiguvad suvandist **Inimressursside parameetrid** uuele ekraanile, mille nimi **Puhkuste ja puudumiste parameetrid**. Uus ekraan sisaldab uut vahekaarti **Kalender**. See eelvaade võimaldab ainult parameetrite alamkogumit. Pääsete uuele ekraanile ligi vahekaardilt **Lingid** tööruumis **Puhkused ja puudumised**. Kalendrid hõlmavad järgmist.
-  - **Ettevõtte kalender** – kuvab kõik töövõtja eemalolekuaja taotlused. Inimesed rolliga **Inimressursid** pääsevad sellele kalendrile ligi vahekaardilt **Lingid** tööruumis **Puhkused ja puudumised**.
-  - **Halduri töörühma kalender** – kuvab kõik otseste alluvate eemalolekuaja taotlused. Haldurid pääsevad kalendrile ligi vahekaardilt **Minu töörühm** töövõtja iseteeninduse jaotises **Puhkused ja puudumise**. 
+- **Puhkuse peatamine** – saate peatada töövõtja puhkuse Human Resourcesis. Puhkuse peatamine lõpetab puhkuse viitvõlad valitud puhkusetüüpide puhul. Kui peatamine toimub pärast viitvõla töötlemisi, loob peatatav puhkus eelmääratud korrigeerimise töötaja puhkusesaldo jaoks. 
 
-- **Puhkuste ja puudumiste puhkuse kalendrid** – puhkuste tüübid sisaldavad uut valikut **Puhkus**, mida kasutatakse koos tööaja kalendriga. Pühade ja sulgemiste määratletud päevad määratakse nüüd tööpäevade loomisel kui **Püha**. Lisandumiste töötlemisel tehakse kalendrile määratud töövõtjatele korrigeerimisi, et arvestada pühadega, mis langevad tööpäevadele.
-
-- **Puhkuse lisandumise auditeerimine** – uus ekraan võimaldab teil vaadata üle, kui lisandumisi on töödeldud ja kustutatud, nii kõikide töövõtjate kui ka üksikute töövõtjate poolt. Pääsete sellele uuele ekraanile ligi vahekaardilt **Lingid** tööruumis **Puhkused ja puudumised**.
-
-- **Puudumise lisandumise kustutamine** – saate nüüd kustutada konkreetsete puhkuseplaanide lisandumiste kirjed. Pääsete sellele uuele suvandile ligi vahekaardilt **Lingid** tööruumis **Puhkused ja puudumised**. Üksikute töövõtjate puhul kuvatakse see suvand töötaja profiili rühmituses **Puhkused ja puudumised**. 
-
-- **Puhkuse lisandumise ümardamine** – suvandi **Puhkuse tüüp** uued valikud määratlevad, mis tüüpi ümardamise lisandumist tuleks kasutada, koos lisandumise protsessi ajal ümardamise kümnendkoha täpsusega. Lisandumiste töötlemisel rakendatakse lisandumise kirjetele ümardamist ja täpsust. 
-
-- **Mitme puhkuse tüübi konfigureerimine ühes puhkuseplaanis** – puhkuse tüüpide puhkuse lisandumise graafiku uus veerg võimaldab teil määratleda puhkuse ja puudumise plaanis mitu puhkuse tüüpi erinevate lisandumise graafikutega. Eelmine väli **Puhkuse tüüp** on eemaldatud. Töövõtja registreerimisel kuvatakse puhkuse tüüpide saldod nüüd ekraani ülaosa asemel tabelis.
-
-  > [!IMPORTANT]
-  > Pärast selle lubamist ei saa seda funktsiooni välja lülitada.
-
-- **Kasutaja lisandumise jaoks töövõtja täistööaja vastet (FTE)** – puhkuste lisandumise graafiku uus veerg võimaldab lisandumiseks kasutada täistööaja vastet. Lisandumiste töötlemisel kasutab rakendus töövõtja esmast ametikohta ja määratud täistööaja vastet, et määrata eelmääratud lisandumise summa.
-
-  > [!NOTE]
-  > See funktsioon on saadaval ainult juhul, kui lubate suvandi **Mitme puhkuse tüübi konfigureerimine puhkuseplaanis**. 
+- **Edasikandmise reeglid** – saate määrata edasikandmise puhkuse tüübi edasikantavale saldole, mille edasikandmise korrigeerimised kantakse üle. Näiteks kui töövõtja kannab edasi 10 päeva, saate valida nende 10 päeva jaoks teistsuguse puhkuse tüübi. 

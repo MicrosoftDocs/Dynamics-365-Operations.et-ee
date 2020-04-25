@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ec13076e6a05c3402af566487f7921f6971da215
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127973"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175104"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Financei eemaldatud või aegunud funktsioonid
 
@@ -47,6 +47,18 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Mõjutatud tootealad**         | Rakendus |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Aegub 1. juuliks 2021, plaanime mitte enam toetada SSRS-i aruandeid: **arvestatud käibemaksu register, sisendkäibemaksu register, EL-i koondkäibemaksu register – funktsiooni viide PL-00014**. Selle asemel võetakse kasutusele Exceli vormingu standardse auditifaili näide koos KM-i deklaratsiooniga (JPK_VDEK). |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Finance'i väljalaskest 10.0.11 eemaldatud või aegunud funktsioonid
+
+### <a name="norwegian-standard-main-accounts"></a>Norwegian Standardi põhikontod
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Ümberkujundamine  |
+| **Asendatud teise funktsiooniga?**   | Jah (asendatud ER-i vormingu rakendusekohaste parameetritega) |
+| **Mõjutatud tootealad**         | Rakendus |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Aegunud: alates 2021. a 1. aprillist ei kavatse me enam toetada standardsete põhikontodega seotud funktsioone: viiteväli, seotud tabel, andmeüksus. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Finance'i väljalaskest 10.0.7 eemaldatud või aegunud funktsioonid
 

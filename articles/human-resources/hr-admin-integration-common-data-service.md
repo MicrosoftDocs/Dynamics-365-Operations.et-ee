@@ -1,9 +1,9 @@
 ---
 title: Common Data Service'i integratsiooni konfigureerimine
-description: Saate Common Data Service’i ja Microsoft Dynamics 365 Human Resourcesi eksemplari vahelise integratsiooni sisse või välja lülitada. Samuti saate vaadata sünkroonimise üksikasju, tühjendada jälgimise andmeid ja üksust uuesti sünkroonida, et aidata nende kahe keskkonna vahel probleeme lahendada.
+description: Saate Common Data Service’i ja Dynamics 365 Human Resourcesi vahelise integratsiooni sisse või välja lülitada. Samuti saate vaadata sünkroonimise üksikasju, tühjendada jälgimise andmeid ja üksust uuesti sünkroonida, et aidata nende kahe keskkonna vahel probleeme lahendada.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,25 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 042daf3fdf7a906086af726472da050467d217e3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 04280aa0908ed6dab86ef87b6c1843e4b4348e08
+ms.sourcegitcommit: c9657b44adb9c1a77c7c2f6ab63a58cc848974ea
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008724"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198418"
 ---
 # <a name="configure-common-data-service-integration"></a>Common Data Service'i integratsiooni konfigureerimine
 
-Saate Common Data Service’i ja Microsoft Dynamics 365 Human Resourcesi eksemplari vahelise integratsiooni sisse või välja lülitada. Samuti saate vaadata sünkroonimise üksikasju, tühjendada jälgimise andmeid ja üksust uuesti sünkroonida, et aidata nende kahe keskkonna vahel probleeme lahendada.
+Saate Common Data Service’i ja Dynamics 365 Human Resourcesi vahelise integratsiooni sisse või välja lülitada. Samuti saate vaadata sünkroonimise üksikasju, tühjendada jälgimise andmeid ja üksust uuesti sünkroonida, et aidata nende kahe keskkonna vahel probleeme lahendada.
 
 Kui lülitate integratsiooni välja, saavad kasutajad teha muudatusi rakenduses Human Resources või Common Data Service, kuid neid muudatusi ei sünkroonita kahe keskkonna vahel.
 
-Vaikimisi on rakenduste Human Resources ja Common Data Service vaheline integratsioon välja või sisse lülitatud, olenevalt keskkondade demoandmetest.
-
-- **Välja** lülitatud uute keskkondade puhul, mis ei sisalda demo andmeid
-- **Sisse** lülitatud uute keskkondade puhul, mis sisaldavad demo andmeid
-
-Uued keskkonnad, mis sisaldavad demoandmeid, hakkavad andmeid nende ettevalmistamisel sünkroonima.
+Rakenduste Human Resources ja Common Data Service vahelise andmete integratsioon on vaikimisi välja lülitatud.
 
 Võib-olla soovite integratsiooni välja lülitada järgmistes olukordades.
 
@@ -103,9 +98,17 @@ Kui teil tekib probleeme rakenduste Human Resources ja Common Data Service vahel
 
 ## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Sünkroonige üksus rakenduste Human Resources ja Common Data Service vahel
 
-Kasutage seda protseduuri, kui muudatused rakenduses Common Data Service võtavad liiga kaua aega, et ilmuda rakenduses Human Resources, või kui peate pärast jälgimise tühjendamist värskendama jälgimise tabelit.
+Kasutage seda protseduuri, kui:
 
-- Üksuse täieliku sünkroonimise käivitamiseks rakenduste Human Resources ja Common Data Service vahel valige üksus väljal **CDS-üksuse nimi** ja seejärel käsk **Sünkrooni kohe**.
+- Common Data Service'i muudatuste kuvamine rakenduses Human Resources võtab liiga kaua aega;
+
+- pärast jälitamise tühjendamist peate värskendama jälgimise tabelit.
+
+Rakenduse Human Resources ja Common Data Service'i vahelise olemi täieliku sünkroonimise käivitamiseks tehke järgmist.
+
+1. Valige olem väljal **CDS-üksuse nimi**.
+
+2. Valige **Sünkrooni kohe**.
 
 [![Täieliku sünkroonimise käivitamine](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 

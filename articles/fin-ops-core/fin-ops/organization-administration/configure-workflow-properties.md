@@ -3,7 +3,7 @@ title: Töövoo atribuutide konfigureerimine
 description: See teema selgitab, kuidas konfigureerida töövoo mitmesuguseid atribuute.
 author: sericks007
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76d44c472989a73d71c2edd19f1187ecd09827ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190116"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3199432"
 ---
 # <a name="configure-workflow-properties"></a>Töövoo atribuutide konfigureerimine
 
@@ -75,9 +75,11 @@ Võite sisestada juhised kasutajatele, kes saadavad dokumendid töötlemiseks ja
     5. Teksti isikupärastamiseks saate sisestada kohatäitjad. Vaadake kohatäitjate sisestamise juhiseid 3. toimingust.
     6. Klõpsake valikut **Sule**.
 
-## <a name="specify-when-this-workflow-is-used"></a>Määrake töövoo kasutamise aeg.
+## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Määrake, millal seda töövoogu kasutatakse aktiveerimistingimuste kaudu
 
-Sama tüübi järgi saate luua mitmeid töövooge. Näiteks võite luua ostutellimuse töövoo iga riigi või regiooni jaoks, kus tegutsete, nagu Taani ostutellimused või Hispaania ostutellimused. Kui teil on mitu samal tüübil põhinevat töövoogu, peate määrama, millal iga töövoogu kasutatakse. Eelmise näite puhul määrate järgmised tingimused.
+Sama töövoo tüübi järgi saate luua mitmeid töövooge. Kui teil on mitu samal tüübil põhinevat töövoogu, peate määrama, millal iga töövoogu aktiveerimistingimuste abil kasutatakse. Kui aktiveerimistingimused ei ole täidetud, kasutatakse vaikimisi töövoogu. Kui töövoo tüübi jaoks on määratletud ainult üks töövoo konfiguratsioon, kasutatakse töövoo konfiguratsiooni sõltumata aktiveerimistingimustest.
+
+Näiteks võite luua ostutellimuse töövoo iga riigi või regiooni jaoks, kus tegutsete, nagu Taani ostutellimused või Hispaania ostutellimused, järgmistel tingimustel.
 
 - Taani ostutaotlusi kasutatakse siis, kui riik/regioon on DK
 - Hispaania ostutaotlusi peab kasutama siis, kui riik/regioon on ES

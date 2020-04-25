@@ -1,9 +1,9 @@
 ---
-title: Soodustuste haldamise ülevaade
-description: Rakenduse Dynamics 365 Human Resources soodustuste haldamise eelvaatefunktsiooni eelvaade. Pakkuge oma töötajatele hõlpsasti kasutatava võrgukasutuskogemusega laiendatud soodustuste võimalusi.
+title: Soodustuste halduse ülevaade
+description: Rakenduse Dynamics 365 Human Resources soodustuste haldamise funktsiooni eelvaade. Pakkuge oma töötajatele hõlpsasti kasutatava võrgukasutuskogemusega laiendatud soodustuste võimalusi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63db1b55bae9150dd87d9981136b96d72ffd0c59
-ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
+ms.openlocfilehash: 91a4425b4f020f90843bb3b0b280b7ee28463670
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029459"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230150"
 ---
 # <a name="benefits-management-overview"></a>Soodustuste haldamise ülevaade
 
-[!include [banner](includes/preview-feature.md)]
-
-Konkurentsivõime säilitamiseks peate pakkuma parimate töövõtjate meelitamiseks ja säilitamiseks rikkalikku soodustuste komplekti. Lisaks tavapärastele soodustustele, nagu ravi- ja hambaravikindlustus, võite tahta pakkuda ka laiendatud teenuseid, nagu abi adopteerimisel, vabaajaprogrammid ja toetus töörõivaste jaoks. Rakenduse Microsoft Dynamics 365 Human Resources soodustuste halduse eelvaatefunktsioon pakub paindlikku lahendust, mis toetab mitmesuguseid soodustuste võimalusi. Human Resources sisaldab ka hõlpsasti kasutatavat töövõtja kogemust, mis teie pakutavat tutvustab.
+Konkurentsivõime säilitamiseks peate pakkuma parimate töövõtjate meelitamiseks ja säilitamiseks rikkalikku soodustuste komplekti. Lisaks tavapärastele soodustustele, nagu ravi- ja hambaravikindlustus, võite tahta pakkuda ka laiendatud teenuseid, nagu abi adopteerimisel, vabaajaprogrammid ja toetus töörõivaste jaoks. Rakenduse Microsoft Dynamics 365 Human Resources soodustuste haldus pakub paindlikku lahendust, mis toetab mitmesuguseid soodustuste võimalusi. Human Resources sisaldab ka hõlpsasti kasutatavat töövõtja kogemust, mis teie pakutavat tutvustab.
 
 - Täiustatud soodustuse plaanid võimaldavad teil luua ja hallata ainulaadseid soodustuse plaane ning toetada keerukaid soodustuse tabeleid ja pesastatud tasemeid. Saate lihtsama töövõtja kogemuse jaoks hõlpsalt luua soodustusprogramme, kogumeid ja automaatse registreerimise reegleid.
 
@@ -39,30 +37,30 @@ Konkurentsivõime säilitamiseks peate pakkuma parimate töövõtjate meelitamis
 
 - Veebipõhine soodustuste registreerimine tagab teie töövõtjatele lihtsa kogemuse.
 
-- Kvalifitseeritud elusündmuse töötlemine integreerib töötaja iseteenindusega ja toetab ka tulevasi elusündmusi.
+- Kvalifitseeritud elusündmuse töötlemine toetab tulevasi elusündmusi.
 
 Kui soovite ligipääsu demoandmetelel, peate oma liivakastikeskkonna uuesti juurutama.
 
-Saate anda otsest tagasisidet või teatada probleemidest järgmisel meiliaadressil: D365BenefitsPreview@microsoft.com.
-
 ## <a name="benefits-management-known-issues"></a>Soodustuste halduse teadaolevad probleemid
 
-### <a name="eligibility-processing"></a>Sobivuse töötlemine
+### <a name="flex-credit-programs"></a>Paindliku krediidiga programmid
 
-Kui käitate soodustusteks sobilikkust, mis kasutavad kindlustussummat 1–5 × palk, Protsent palgast ja Kindel summa, peate määrama kuupäeva **Soodustuse üksikasjad** väärtusele **Tööhõive alguskuupäev** suvandis **Tööhõive ajalugu**. Lisaks peate kaasama suvandid **Töötatud tunnid**, **Maksesagedus** ja **Aastase soodustuse palgasumma**. Kui töötajal on põhipalk, sisestage väärtused **Töötatud tunnid** ja **Maksesagedus**. Aastane palgasumma arvutatakse.  Kui töövõtja on kuupalgaline, ei pea te väärtust **Töötatud tunnid** sisestama. Soovitame uute töötajate loomisel sisestada esmalt põhipalk. Soodustuse üksikasjade kirje värskendamine navigeerige asukohta **Töötaja > Töötaja ajalugu > Tööhõive üksikasjad**. Muutke tööshõive alguskuupäeva.
-
-### <a name="employee-self-service"></a>Töövõtja iseteenindus
-
-Töövõtja summat ei arvutata elukindlustuse katvussumma värskendamisel. Näiteks kui töövõtjale pakutakse elukindlustuse plaani, saavad nad valida katvuse kuni 50 000 dollarit hinnaga 0,36 dollarit 1000 dollari kohta.  Kui töövõtja uuendab katvussummat, jääb töövõtja seotud kulu nulli.
-
-Soodustuse plaani jaoks, mis lubab ainult ühe selle plaani tüübi valiku, kuvatakse kasutajale viga, kui nad proovivad plaanist pärast plaani valimist loobuda. Näiteks valib kasutaja meditsiiniplaani ja lisab selle oma ostukorvi. Seejärel valib kasutaja teise meditsiiniplaani jaoks suvandi **Loobu**. Kasutajale kuvatakse viga.
+Paindliku krediidiga programmi jaoks määratletud krediidi koguväärtust ei kuvata vormil **Töötaja soodustusplaanid**. Kui seate paindliku krediidiga programmi proportsionaalse arvestuse reegliks **Puudub**, kuvatakse viga plaanide valimisel ja kinnitamisel vormil **Töötaja soodustuse plaan**.
 
 ## <a name="enable-benefits-management"></a>Soodustuste halduse lubamine
 
-Soodustuste haldus on eelvaatefunktsioon ja on saadaval ainult keskkondades **Liivakast**. Need artiklid kirjeldavad, kuidas eelvaatefunktsioone rakenduses Human Resources sisse lülitada. Lisaks annavad need teada, millised rakenduse Human Resources olemasolevad funktsioonid soodustuste haldamine asendab või keelab, kui lülitate soodustuste haldamise sisse.
+See artikkel kirjeldab, kuidas funktsioone rakenduses Human Resources sisse lülitada. Lisaks annab see teada, millised rakenduse Human Resources olemasolevad funktsioonid soodustuste haldamine asendab või keelab, kui lülitate soodustuste haldamise sisse.
+
+> [!IMPORTANT]
+> Keskkonnas **Tootmine** ei saa soodustuste haldust keelata, kui olete selle lubanud. Enne soodustuste halduse keskkonnas **Tootmine** lubamist soovitame lubada ja testida soodustuste haldust keskkonnas **Liivakast**. Olemasolevate pärandsoodustuse funktsioonide ja uute pärandsoodustuse funktsioonide vahel on olulisi erinevusi, mis vajavad täiendavat seadistamist ja mida tuleks enne tootmise alustamist testida.
 
 - [Funktsioonide haldamine](hr-admin-manage-features.md)
-- [Eelvaatefunktsioon: soodustuste haldus](hr-admin-manage-features.md?preview-feature-benefits-management)
+
+## <a name="configure-employee-information"></a>Töötaja teabe konfigureerimine
+
+Enne eeliste andmist töötajatele peate sisestama nõutava teabe. Peate töötaja lisama **põhipalgaplaanile** nende töötamise alguskuupäeval ning vormi **Töötaja** väljal **Tööhõive üksikasjad** peate valima **Soodustuse maksesagedus**.
+
+Kui loote soodustusplaani, mis kasutab sool või vanusel põhinevaid määrasid, peate soodustuse maksumuse arvutamiseks sisestama töötaja sünnikuupäeva ja soo.
 
 ## <a name="configure-benefits-management"></a>Soodustuste halduse konfigureerimine
 
@@ -70,19 +68,19 @@ Enne kui saate oma töötajate jaoks soodustuse plaane luua, tuleb teil plaanide
 
 - [Soodustuste halduse parameetrite määramine](hr-benefits-setup-parameters.md)
 - [Sobivusreeglite ja suvandite konfigureerimine](hr-benefits-setup-eligibility-rules.md)
-- [Isikliku kontakti sobivuse suvandite konfigureerimine](hr-benefits-setup-contact-eligibility-options.md)
-- [Katvussuvandite loomine](hr-benefits-setup-coverage-options.md)
-- [Maksesageduste seadistamine](hr-benefits-setup-payment-frequencies.md)
-- [Elusündmuste tüüpide konfigureerimine](hr-benefits-setup-life-event-types.md)
+- [Isiklike kontaktide sobivuse suvandite konfigureerimine](hr-benefits-setup-contact-eligibility-options.md)
+- [Katvuse suvandite loomine](hr-benefits-setup-coverage-options.md)
+- [Maksesageduste häälestamine](hr-benefits-setup-payment-frequencies.md)
+- [Elusündmuse tüüpide konfigureerimine](hr-benefits-setup-life-event-types.md)
 - [Plaani tüüpide loomine](hr-benefits-setup-plan-types.md)
 - [Põhjusekoodide häälestamine](hr-benefits-setup-reason-codes.md)
-- [Taseme koodide seadistamine](hr-benefits-setup-tier-codes.md)
+- [Järgukoodide häälestamine](hr-benefits-setup-tier-codes.md)
 - [Määrade konfigureerimine](hr-benefits-setup-rates.md)
 - [Mahaarvamiste konfigureerimine](hr-benefits-setup-deductions.md)
 - [Ootepäevade konfigureerimine](hr-benefits-setup-waiting-days.md)
-- [Ooteaegade konfigureerimine](hr-benefits-setup-waiting-periods.md)
+- [Ooteperioodide konfigureerimine](hr-benefits-setup-waiting-periods.md)
 - [Ümardamisreeglite seadistamine](hr-benefits-setup-rounding-rules.md)
-- [Tööhõive kategooriate loomine](hr-benefits-setup-employment-categories.md)
+- [Töötajate kategooriate loomine](hr-benefits-setup-employment-categories.md)
 - [Tööhõive tüüpide seadistamine](hr-benefits-setup-employment-types.md)
 - [Töövõtja iseteeninduse konfigureerimine](hr-benefits-setup-employee-self-service.md)
 
@@ -90,12 +88,10 @@ Enne kui saate oma töötajate jaoks soodustuse plaane luua, tuleb teil plaanide
 
 Need artiklid näitavad, kuidas luua soodustuse plaane, kaasa arvatud kogumid ja paindliku krediidiga programmid.
 
-- [Soodustuse plaanide seadistamine](hr-benefits-plans-setup.md)
-- [Töötaja soodustuse plaanide loomine](hr-benefits-plans-worker.md)
-- [Paindliku krediidiga programmide seadistamine](hr-benefits-plans-flex-credit-programs.md)
-- [Tulevaste elusündmuste konfigureerimine](hr-benefits-plans-future-life-events.md)
+- [Soodustusplaanide seadistamine](hr-benefits-plans-setup.md)
+- [Paindkrediidi programmide seadistamine](hr-benefits-plans-flex-credit-programs.md)
 
-## <a name="process-benefit-plans"></a>Soodustuse plaanide töötlemine
+## <a name="process-benefit-plans"></a>Soodustusplaanide töötlemine
 
 Nende aktiivseks muutmiseks peate osasid muudatusi töötlema.
 

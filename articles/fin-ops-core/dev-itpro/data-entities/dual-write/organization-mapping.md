@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fbf7cc33d12fb54d2ff02acc46ba2e284b2a2b3f
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: fc5db8d04a2860df0c917816e2910c6fbda941ff
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019738"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173150"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Organisatsiooni hierarhia teenusesCommon Data Service
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 Kuna Dynamics 365 Finance on finantssüsteem, on *organisatsioon* keskne mõiste ja süsteemi seadistus algab organisatsiooni hierarhia konfiguratsioonist. Ettevõtte rahandusasju saab seejärel jälgida organisatsiooni tasemel ja mis tahes tasemel organisatsiooni hierarhias.
 
@@ -50,7 +50,7 @@ Organisatsiooni hierarhia olemi kaardid on saadaval andmete ühesuunalisel sünk
 
 Toote teave sisaldab kogu teavet, mis on seotud tootega ja selle määratlusega, nagu tootedimensioonid või jälgimis- ja laoala dimensioonid. Nagu järgmine tabel näitab, luuakse olemikaartide kogum, et sünkroonida tooteid ja seotud teavet.
 
-Finance and Operations | Muud Dynamics 365 rakendused | Kirjeldus
+Finance and Operations rakendused | Muud Dynamics 365 rakendused | Kirjeldus
 -----------------------|--------------------------------|---
 Organisatsiooni hierarhia eesmärgid | msdyn_internalorganizationhierarchypurposes | See mall tagab organisatsiooni hierarhia eesmärgi üksuse ühesuunalise sünkroonimise.
 Organisatsiooni hierarhia tüüp | msdyn_internalorganizationhierarchytypes | See mall tagab organisatsiooni hierarhia tüübi üksuse ühesuunalise sünkroonimise.

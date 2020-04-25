@@ -1,9 +1,9 @@
 ---
-title: Kassa ekraanipaigutused
+title: Kassa kasutajaliidese visuaalsed konfiguratsioonid
 description: Selles teemas käsitletakse Dynamics 365 Commercei kassa ekraanipaigutusi.
-author: jblucher
-manager: AnnBe
-ms.date: 05/20/2019
+author: boycezhu
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,23 +16,22 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5bf7b3d20ff0b42eb9eaedf584b2a508c1307707
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022310"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261463"
 ---
-# <a name="screen-layouts-for-the-point-of-sale-pos"></a>Kassa ekraanipaigutused
+# <a name="pos-user-interface-visual-configurations"></a>Kassa kasutajaliidese visuaalsed konfiguratsioonid
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Selles teemas käsitletakse Dynamics 365 Commercei kassa ekraanipaigutusi.
-
-Kassa kasutajaliidest (UI) saab konfigureerida kauplustele, registritele ja/või kasutajatele määratud visuaalsete profiilide ja ekraanipaigutuste kombinatsiooni abil.
+Microsoft Dynamics 365 Commerce'i kassa kasutajaliidest saab konfigureerida kauplustele, registritele ja/või kasutajatele määratud visuaalsete profiilide ja ekraanipaigutuste kombinatsiooni abil. Selles teemas antakse teavet nende konfiguratsioonisuvandite kohta.
 
 Järgmine joonis näitab seoseid erinevate olemite vahel, millest kassa UI konfigureeritavad aspektid koosnevad.
 
@@ -40,7 +39,7 @@ Järgmine joonis näitab seoseid erinevate olemite vahel, millest kassa UI konfi
 
 ## <a name="visual-profile"></a>Visuaalne profiil
 
-Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vahel jagatavad registripõhised visuaalsed elemendid. Iga kasutaja, kes registrisse sisse logib, näeb sama kujundust, värve ja pilte.
+Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vahel jagatavad registripõhised visuaalsed elemendid. Iga kasutaja, kes registrisse sisse logib, näeb sama kujundust, paigutust, värve ja pilte.
 
 ![Kassa tervituskuva heleda kujundusega](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
@@ -48,16 +47,24 @@ Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vah
 
 - **Profiili number** – profiili number on visuaalse profiili ainuidentifikaator.
 - **Kirjeldus** – saate määrata kirjeldava nime, mis aitab tuvastada teie olukorra jaoks sobiva profiili.
-- **Kujundus** – saate valida heleda või tumeda rakenduse kujunduse. Kujundus mõjutab kogu rakenduse fonti ja taustavärve.
+- **Kujundus** – saate valida **heleda** või **tumeda** rakenduse kujunduse. Kujundus mõjutab kogu rakenduse fonti ja taustavärve.
 - **Rõhuvärv** – rõhuvärvi kasutatakse kogu kassas teatud visuaalsete elementide (nt paanide, käsunuppude ja hüperlinkide) eristamiseks või esiletõstmiseks. Tavaliselt eeldavad need elemendid kasutajatoimingut.
-- **Päise värv** – saate konfigureerida lehekülje päise värvi, et vastata jaemüüja kaubamärgi nõuetele. See funktsioon on saadaval ainult rakenduse Retail versioonis 1611.
-- **Kuva kuupäev/kellaaeg** – kui see on lubatud, kuvatakse kassa päises praegune kuupäev ja kellaaeg.
-- **Sisselogimise taustad** – saate määrata sisselogimisekraani taustapildi. Taustapiltide failid peaksid olema võimalikult väikesed, sest suurte failide talletamine ja laadimine võib mõjutada rakenduse toimimist ja jõudlust.
-- **Rakenduse taust** – saate määrata taustpildi, mida kasutatakse kogu rakenduses ühevärvilise kujunduse asemel. Sisselogimise taustade failid peaksid olema võimalikult väikesed.
+- **Päise värv** – saate konfigureerida lehekülje päise värvi, et vastata jaemüüja kaubamärgi nõuetele.
+- **Fondiskeem** – saate valida **standardsete** ja **suurte** fondiskeemide vahel. Fondiskeem mõjutab fondi suurust kogu rakenduses. Vaikevalik on **Standardne**.
+- **Kuva alati rakenduse riba sildid** – kui see suvand on sisse lülitatud, kuvatakse sildi tekst alati rakenduse riba nuppude all.
+- **Paigutus** – saate valida paigutuste **Keskel** ja **Paremal** vahel. Paigutus mõjutab sisselogimisvälja joondamist sisselogimisaknaga. Vaikevalik on **Keskel**.
+- **Näita kuupäeva/kellaaega** – kui see valik on sisse lülitatud, kuvatakse see kuupäev ja kellaaeg Kassa päises ja sisselogimisaknas.
+- **Klaviatuur** – saate teha valiku **Vaikimisi valik opsüsteemi klaviatuuri jaoks** või **Kuva numbriklahvistik**, et määrata vaikimisi klaviatuur, mida kasutatakse sisselogimisaknasse teksti sisestamiseks. Numbriklahvistik on virtuaalne klaviatuur, mida kasutatakse peamiselt puutetundlike seadmete jaoks. Vaikimisi valik on **Vaikimisi valik opsüsteemi klaviatuuri jaoks**.
+- **Logo pilt** – saate määrata logo pildi, mis kuvatakse sisselogimisaknas. Soovitame kasutada läbipaistva taustaga pilti. Failid peaksid olema võimalikult väikesed, sest suurte failide talletamine ja laadimine võib mõjutada rakenduse toimimist ja jõudlust.
+- **Sisselogimise taust** – saate määrata sisselogimisakna taustapildi. Taustapiltide failid peaksid olema võimalikult väikesed.
+- **Taust** – saate määrata taustpildi, mida kasutatakse kogu rakenduses ühevärvilise kujunduse asemel. Sisselogimisakna taustapildid peaksid olema võimalikult väikesed.
+
+> [!NOTE]
+> Paigutus **Paremal** ja kuupäeva/kellaaja kuva ei rakendu kompaktses vaates sisselogimisaknale.
 
 ## <a name="screen-layouts"></a>Ekraani paigutused
 
-Ekraanipaigutuse konfiguratsioonid määratlevad juhtelementide toimingud, sisu ja paigutuse kassa tervitusekraanil ning ekraanil **Kanne**.
+Ekraanipaigutuse konfiguratsioonid määratlevad juhtelementide toimingud, sisu ja paigutuse kassa **tervitusekraanil** ning ekraanil **Kanne**.
 
 ![Kassa ekraanipaigutus](../commerce/media/POS-Screen-Layout-View.png)
 

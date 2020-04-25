@@ -3,7 +3,7 @@ title: Puhkuste ja puudumiste parameetrite konfigureerimine
 description: Määratlege rakenduses Dynamics 365 Human Resources puhkuste ja puudumiste inimressursside parameetrid.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2acb8502ebcab122a0a1ff21e9f5e23931026327
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: eb992cbfbed33f88e125d3a8b721f8815414599a
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008733"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197977"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Puhkuste ja puudumiste parameetrite konfigureerimine
 
@@ -50,18 +50,25 @@ Enne puhkuste ja puudumiste plaanide seadistamist rakenduses Dynamics 365 Human 
 
 7. Valige käsk **Salvesta**.
 
-## <a name="configure-calendar-parameters"></a>Kõnekeskuse parameetrite konfigureerimine
-
-Kui olete eelvaatefunktsiooni Puhkuste ja puudumiste kalender lubanud, peate konfigureerima täiendavad parameetrid. 
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-> [!NOTE]
-> 3. veebruari 2020 eelväljaandes on ainult suvand **Ootel puhkusetaotlused** lubatud.
+## <a name="view-and-change-leave-and-absence-parameters"></a>Puhkuste ja puudumiste kalendri parameetrite kuvamine ja muutmine
 
 1. Lehel **Puhkused ja puudumised** valige vahekaart **Lingid**.
 
-2. Jaotises **Seadistus** valige suvand**Inimressursside parameetrid**.
+2. Jaotises **Seadistus** valige suvand **Puhkuste ja puudumiste parameetrid**.
+
+3. Vahekaardil **Üldine** määrake järgmised parameetrid.
+ 
+    - Määrake **Puhkuste ja puudumiste ühikuks** kas tunnid või päevad. Päevade määramisel saate teha valiku **Luba pooliku päeva määratlus**, et lubada töötajatel puhkusetaotlustes valida kas päeva esimene või teine pool. 
+
+    - Valige **Töötatud kuude kehtivusaeg**, et määrata, millal viitvõlgade määrad puhkuseplaanide korral jõustuvad, kasutades töötatud kuude arvu.
+
+    - Saldode kuvamiseks alates tänasest või viitvõlaperioodi algusest valige **Saldo arvutamine**. Kui valite **Saldo alates tänasest**, kuvatakse saldos kõigi viitvõlgade, korrigeerimiste ja taotluste kogusumma alates tänasest. Kui valite **Saldo alates viitvõlaperioodist**, kuvatakse saldos kõigi viitvõlgade, korrigeerimiste ja taotluste kogusumma alates puhkuseplaani sagedusega määratletud viitvõlaperioodist. 
+
+## <a name="configure-calendar-parameters"></a>Kõnekeskuse parameetrite konfigureerimine
+
+1. Lehel **Puhkused ja puudumised** valige vahekaart **Lingid**.
+
+2. Jaotises **Seadistus** valige suvand **Puhkuste ja puudumiste parameetrid**.
 
 3. Vahekaardil **Kalender** muutke kalendri sätteid vastavalt vajadusele.
 

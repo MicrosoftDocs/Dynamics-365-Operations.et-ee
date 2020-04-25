@@ -1,7 +1,7 @@
 ---
 title: Tööriista Regression Suite Automation Tool õppetüki kasutamine
 description: Selles teemas näidatakse, kuidas kasutada tööriista Regression suite automation tool (RSAT). Selles kirjeldatakse mitmesuguseid funktsioone ja esitatakse näited, kus kasutatakse täpsemat skriptimist.
-author: kfend
+author: robinarh
 manager: AnnBe
 ms.date: 06/09/2019
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: kfend
+ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
+ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070816"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248732"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Tööriista Regression suite automation tool kasutamise õppetükk
 
@@ -30,79 +30,13 @@ ms.locfileid: "3070816"
 > [!NOTE]
 > Kasutage Interneti-brauseri tööriistu selle lehe allalaadimiseks ja salvestamiseks PDF-vormingus. 
 
-Selles õppetükis tutvustatakse tööriista Regression suite automation tool (RSAT) täpsemaid funktsioone, see hõlmab demomääramist ning kirjeldab strateegiat ja peamisi õppekohti.
+Selles õppetükis tutvustatakse tööriista Regression suite automation tool (RSAT) täpsemaid funktsioone, see hõlmab demomääramist ning kirjeldab strateegiat ja peamisi õppekohti. 
 
-## <a name="features-of-rsattask-recorder"></a>RSAT / tegevuse salvestaja funktsioonid
+## <a name="notable-features-of-rsat-and-task-recorder"></a>RSAT-i ja tegevuse salvestaja olulised funktsioonid
 
 ### <a name="validate-a-field-value"></a>Välja väärtuse kinnitamine
 
-Teavet selle funktsiooni kohta vaadake teemast [Uue tegevuse salvestise loomine, millel on valideerimise funktsioon](./hol-set-up-regression-suite-automation-tool.md#create-a-new-task-recording-that-has-a-validate-function).
-
-### <a name="saved-variable"></a>Salvestatud muutuja
-
-Teavet selle funktsiooni kohta vaadake teemast [Olemasoleva tegevuse salvestise muutmine salvestatud muutuja loomiseks](./hol-set-up-regression-suite-automation-tool.md#modify-an-existing-task-recording-to-create-a-saved-variable).
-
-### <a name="derived-test-case"></a>Tuletatud testjuhtum
-
-1. Avage Regression Suite Automation Tool (RSAT) ja valige mõlemad loodud testjuhtumid jaotisest [Tööriista Regression Suite Automation tool seadistamise ja installimise õpetus](./hol-set-up-regression-suite-automation-tool.md).
-2. Valige suvandid **Uus \> Loo tuletatud testjuhtum**.
-
-    ![Tuletatud testjuhtumi käsu loomine menüüs Uus](./media/use_rsa_tool_01.png)
-
-3. Saate teate, et tuletatud testjuhtum luuakse iga valitud testjuhtumi kohta praeguses testkomplektis ja igal tuletatud testjuhtumil on oma koopia Exceli parameetrifailist. Valige nupp **OK**.
-
-    > [!NOTE]
-    > Kui käivitate tuletatud testjuhtumi, kasutab see ülemtestjuhtumi tegevuse salvestist ja oma koopiat Exceli parameetrifailist. Nii saate käivitada sama testi eri parameetritega, ilma et peaksite säilitama rohkem kui ühe tegevuse salvestise. Tuletatud testjuhtum ei pea olema osa samast testkomplektist kui selle ülemtestjuhtum.
-
-    ![Teateaken](./media/use_rsa_tool_02.png)
-
-    Luuakse kaks täiendavat testjuhtumit ja nende jaoks valitakse märkeruut **Tuletatud?**.
-
-    ![Loodud tuletatud testjuhtumid](./media/use_rsa_tool_03.png)
-
-    Tuletatud testjuhtum luuakse automaatselt rakenduses Azure DevOps. See on testjuhtumi **Uue toote loomine** allüksus ja see märgistatakse spetsiaalse märksõnaga: **RSAT:DerivedTestSteps**. Need testjuhtumid lisatakse ka automaatselt katseplaanile rakenduses Azure DevOps.
-
-    ![Märksõna RSAT:DerivedTestSteps](./media/use_rsa_tool_04.png)
-
-    > [!NOTE]
-    > Kui tuletatud testjuhtumid pole mingil põhjusel õiges järjekorras, minge rakendusse Azure DevOps ja muutke testjuhtumite järjekorda testkomplektis, et RSAT saaks need käivitada õiges järjekorras.
-
-4. Valige tuletatud testjuhtumid ja seejärel valige nupp **Redigeeri** vastavate Exceli parameetrifailide avamiseks.
-5. Redigeerige neid Exceli parameetrifaile samamoodi, nagu redigeerisite ülemfaile. Teisisõnu veenduge, et toote ID oleks seadistatud nii, et see luuakse automaatselt. Peale selle veenduge, et salvestatud muutuja kopeeritakse asjakohastesse väljadesse.
-6. Mõlema Exceli parameetrifaili vahekaardil **Üldine** uuendage väli **Ettevõte** väärtusele **USSI**, et tuletatud testjuhtumid käivitatakse muu juriidilise isiku suhtes kui ülemtestjuhtum. Testjuhtumite käivitamiseks konkreetse kasutaja (või konkreetse kasutajaga seotud rolli) suhtes saate uuendada välja **Testkasutaja** väärtust.
-7. Valige käsk **Käivita** ja kontrollige, kas toode luuakse nii USMF-i juriidilises isikus kui ka USSI juriidilises isikus.
-
-### <a name="validate-notifications"></a>Teatiste kontrollimine
-
-Seda funktsiooni saab kasutada ka kontrollimaks, kas tegevus toimus. Näiteks kui luuakse tootmistellimus, seda hinnatakse ja see seejärel käivitatakse, kuvab rakendus teate „Tootmine – alusta”, mis annab teada, et tootmistellimust on alustatud.
-
-![Teatis Tootmine – alusta](./media/use_rsa_tool_05.png)
-
-Saate selle teate kinnitada läbi RSAT, sisestades teate teksti vastava salvestise Exceli parameetrifaili vahekaardile **Teate kinnitamine**.
-
-![Vahekaart Teate kinnitamine](./media/use_rsa_tool_06.png)
-
-Pärast testjuhtumi käivitamist võrreldakse teadet Exceli parameetrifailis kuvatava teatega. Kui teated ei kattu, siis testjuhtum nurjub.
-
-> [!NOTE]
-> Võite sisestada Exceli parameetrifaili vahekaardile **Teate kinnitamine** rohkem kui ühe teate. Teated võivad olla ka tõrke- või hoiatusteated, mitte teavitavad teated.
-
-### <a name="validate-values-by-using-operators"></a>Väärtuste kinnitamine tehtemärke kasutades
-
-Eelmistes RSAT versioonides saite väärtusi kinnitada ainult siis, kui kontrollväärtus oli võrdne eeldatava väärtusega. Uue funktsiooniga saate kinnitada, kas muutuja ei ole konkreetse väärtusega võrdne, on sellest väiksem või sellest suurem.
-
-- Selle funktsiooni kasutamiseks avage fail **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT installikaustas (nt **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
-
-    ```xml
-    <add key="AddOperatorFieldsToExcelValidation" value="false" />
-    ```
-
-    Exceli parameetrifaili ilmub uus väli **Tehtemärk**.
-
-    > [!NOTE]
-    > Kui olete kasutanud RSAT vanemat versiooni, peate looma uued Exceli parameetrifailid.
-
-    ![Väli Tehtemärk](./media/use_rsa_tool_07.png)
+RSAT võimaldab teil lisada oma testjuhtumisse kinnitamistoiminguid, et kinnitada eeldatavaid väärtusi. Selle funktsiooni kohta lisateabe saamiseks vaadake artiklit [Eeldatavate väärtuste valideerimine](../../dev-itpro/perf-test/rsat/rsat-validate-expected.md).
 
 Järgmises näites näete, kuidas kasutada seda funktsiooni kinnitamaks, kas vaba kaubavaru väärtus on suurem kui 0 (null).
 
@@ -115,7 +49,7 @@ Järgmises näites näete, kuidas kasutada seda funktsiooni kinnitamaks, kas vab
     5. Märkige loendis valitud rida.
     6. Kinnitage, et välja **Kokku saadaval** väärtus on **411,0000000000000000**.
 
-2. Salvestage tegevuse salvestis LCS-is BPM-i teeki ja sünkroonige see rakendusega Azure DevOps.
+2. Salvestage tegevuse salvestis ja lisage see oma testi juhtumile Azure DevOpsis.
 3. Lisage testjuhtum katseplaani ja laadige testjuhtum RSAT-sse.
 4. Avage Exceli parameetrifail. Vahekaardil **InventOnhandItem** näete jaotist **Kinnita InventOnhandItem**, mis sisaldab välja **Tehtemärk**.
 
@@ -130,28 +64,32 @@ Järgmises näites näete, kuidas kasutada seda funktsiooni kinnitamaks, kas vab
 
 Kui määratud üksuse välja **Kokku saadaval** väärtus varudes on suurem kui 0 (null), siis test läbitakse, olenemata tegelikust vabast kaubavarust.
 
-### <a name="generator-logs"></a>Koostaja logid
+### <a name="saved-variables-and-chaining-of-test-cases"></a>Salvestatud muutujad ja testjuhtumite aheltöötlus
 
-See funktsioon loob kausta, mis sisaldab käivitatud testjuhtumite logisid.
+Üks RSAT põhifunktsioone on testjuhtumite aheltöötlus (test suudab edastada muutujaid teistele testidele). Lisateabe saamiseks vt artiklit [Muutujate kopeerimine keti testjuhtumitele](../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md).
 
-- Selle funktsiooni kasutamiseks avage fail **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT installikaustas (nt **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
+### <a name="derived-test-case"></a>Tuletatud testjuhtum
 
-    ```xml
-    <add key="LogGeneration" value="false" />
-    ```
+RSAT võimaldab kasutada sama tegevuse salvestist mitme testjuhtumi korral, võimaldades ülesandel töötada erinevate andmete konfiguratsioonidega. Lisateabe saamiseks vt artiklit [Tuletatud testjuhtumid](../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md).
 
-Pärast testjuhtumite käivitamist leiate logifailid kaustast **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\generatorLogs**.
+### <a name="validate-notifications-and-messages"></a>Teatiste ja sõnumite kinnitamine
 
-![Kaust GeneratorLogs](./media/use_rsa_tool_10.png)
+Seda funktsiooni saab kasutada ka kontrollimaks, kas tegevus toimus. Näiteks kui luuakse tootmistellimus, seda hinnatakse ja see seejärel käivitatakse, kuvab rakendus teate „Tootmine – alusta”, mis annab teada, et tootmistellimust on alustatud.
+
+![Teatis Tootmine – alusta](./media/use_rsa_tool_05.png)
+
+Saate selle teate kinnitada läbi RSAT, sisestades teate teksti vastava salvestise Exceli parameetrifaili vahekaardile **Teate kinnitamine**.
+
+![Vahekaart Teate kinnitamine](./media/use_rsa_tool_06.png)
+
+Pärast testjuhtumi käivitamist võrreldakse teadet Exceli parameetrifailis kuvatava teatega. Kui teated ei kattu, siis testjuhtum nurjub.
 
 > [!NOTE]
-> Kui enne failis .config väärtuse muutmist olid olemas testjuhtumid, ei looda nende testjuhtumite kohta logisid, kuni loote uue testkäivitusfailid.
-> 
-> ![Käsk Loo ainult testkäivitusfailid menüüs Uus](./media/use_rsa_tool_11.png)
+> Võite sisestada Exceli parameetrifaili vahekaardile **Teate kinnitamine** rohkem kui ühe teate. Teated võivad olla ka tõrke- või hoiatusteated, mitte teavitavad teated.
 
 ### <a name="snapshot"></a>Hetktõmmis
 
-See funktsioon teeb kuvatõmmise etappidest, mis läbiti tegevuse salvestamise ajal.
+See funktsioon teeb kuvatõmmise etappidest, mis läbiti tegevuse salvestamise ajal. See on kasulik auditeerimiseks või silumiseks.
 
 - Selle funktsiooni kasutamiseks avage fail **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT installikaustas (nt **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ja muutke elemendi väärtus **väär** väärtusele **tõene**.
 
@@ -159,13 +97,7 @@ See funktsioon teeb kuvatõmmise etappidest, mis läbiti tegevuse salvestamise a
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Kausta **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback** luuakse iga käivitatud testjuhtumi kohta eraldi kaust.
-
-![Testjuhtumi hetktõmmise kaust](./media/use_rsa_tool_12.png)
-
-Igast kaustast leiate testjuhtumite käivitamisel läbitud etappide hetktõmmised.
-
-![Hetktõmmiste failid](./media/use_rsa_tool_13.png)
+Kui käivitate testjuhtumi, teeb RSAT hetktõmmised (pildid) töökaustas oleva testjuhtumite taasesitusekausta etappidest. Kui kasutate RSAT-i vanemat versiooni, salvestatakse pildid kausta **C:\\Kasutajad\\\<Kasutajanimi\>\\AppData\\Roaming\\regressionTool\\playback**, iga käitatud testjuhtumi korral luuakse eraldi kaust.
 
 ## <a name="assignment"></a>Määramine
 
@@ -183,7 +115,7 @@ Järgmisel joonisel on näha selle stsenaariumi voog.
 
 ![Demostsenaariumi voog](./media/use_rsa_tool_14.png)
 
-Järgmisel joonisel on näha selle stsenaariumi äriprotsessid RSAT-s.
+Järgmisel joonisel on kujutatud LCS-i äriprotsesside modelleerija selle stsenaariumi äriprotsesside hierarhia.
 
 ![Demostsenaariumi äriprotsessid](./media/use_rsa_tool_15.png)
 
@@ -377,7 +309,7 @@ Saate kasutada käsku ``listtestsuitenames``, et hankida kõik saadaolevad testk
 
 
 #### <a name="help"></a>spikker
-Identne [?](####?) käsuga
+Identne [?](#section) käsuga
 
 
 #### <a name="list"></a>loend
@@ -512,6 +444,8 @@ Näitab selle rakenduse kahte käivitamisviisi: üks kasutab vaikimisi seadistus
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShelli näited
 
+[!IMPORTANT] Allolevad näidisskriptid on esitatud olemasoleval kujul ja need on illustratiivsed ning Microsoft ei toeta neid.
+
 #### <a name="run-a-test-case-in-a-loop"></a>Testjuhtumi käivitamine tsüklis
 
 Teil on testskript, mis loob uue kliendi. Skriptimise kaudu saab seda testjuhtumis käivitada tsüklis, muutes enne iga iteratsiooni käivitamist järgmised andmed juhuslikuks.
@@ -551,7 +485,7 @@ function RunTestCase
     $cmd = $cmd + $filename
     cmd /c $cmd
 }
-$excelFilename = "full path to excel file parameter file"
+$excelFilename = "full path to Excel parameter file"
 l$sheetName = "DirPartyQuickCreateForm"
 for ($i = $start; $i -lt $start + $nr; $i++ )
 {
