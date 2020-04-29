@@ -70,12 +70,12 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.11 (juuli 2020)
+                      href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (mai 2020)
                       href: get-started/whats-new-scm-10-0-10.md
                     - name: Supply Chain Managementi 10.0.9 (aprill 2020)
                       href: get-started/whats-new-scm-10-0-9.md
-                    - name: Supply Chain Management 10.0.8 (veebruar 2020)
-                      href: get-started/whats-new-scm-10-0-8.md
                 - name: Eemaldatud või aegunud funktsioonid
                   items:
                     - name: Dynamics 365 Supply Chain Managementi eemaldatud või aegunud funktsioonid
@@ -349,6 +349,8 @@
               items:
                 - name: 'Prognoosid, töökäsud ja projektid'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+            - name: Varahalduse integreerimine põhivaradega
+              href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Ennetav ja reaktiivne hooldus
               items:
                 - name: Ennetava hoolduse ülevaade
@@ -565,6 +567,8 @@
                   href: cost-management/lifo-physical-value-marking.md
                 - name: Liikuv keskmine
                   href: cost-management/moving-average.md
+                - name: Liikuva keskmise varukulu järjestus
+                  href: cost-management/moving-average-fallback.md
                 - name: Füüsilised ja finantsilised värskendused
                   href: cost-management/physical-financial-updates.md
                 - name: Keskmine jooksev omahind
@@ -579,7 +583,9 @@
                   href: cost-management/inventory-close.md
                 - name: Vaba kaubavaru kuluväärtuste korrigeerimine
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Varude ajalise jaotuse aruanne
+                - name: Varude väärtuse talletuse aruanne
+                  href: cost-management/inventory-value-report-storage.md
+                - name: Varude ajalise jaotuse aruande talletamine
                   href: cost-management/inventory-aging-report-storage.md
             - name: Tootmise raamatupidamine
               items:
@@ -1223,6 +1229,8 @@
                   href: inventory/enable-quality-management.md
                 - name: Kvaliteedijuhtimise protsessid
                   href: inventory/quality-management-processes.md
+                - name: Kvaliteedijuhtimine laoprotsesside jaoks
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: Mittevastavuse haldus
                   href: inventory/enable-nonconformance-management.md
                 - name: Halduse eeltingimuste seadistamine
@@ -2549,6 +2557,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                 - name: Süsteemi rühmitamine avatud tööloendis
                   href: warehousing/system-group-on-open-work-list.md
+                - name: Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus
+                  href: warehousing/document-routing-layout-for-license-plates.md
                 - name: Vöötkoodide skannimine kaamera abil teenuses Dynamics 365 for Finance and Operations
                   href: warehousing/scan-bar-codes-using-a-camera.md
                 - name: Mobiilse vöötkoodi tugi
@@ -2653,6 +2663,8 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Mobiilsete seadmete seadistamine laotöö jaoks
                   href: warehousing/configure-mobile-devices-warehouse.md
+                - name: Identifitseerimisnumbri vastuvõtmine ladustamise mobiilirakendusega
+                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Mobiilse seadme menüükäsu seadistamine ostutellimuse töö lõpetamiseks
                   href: warehousing/tasks/set-up-mobile-device-menu.md
                 - name: Mobiilse seadme menüükäsu seadistamine saabunud kaupade registreerimiseks
@@ -2673,6 +2685,8 @@
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: Sissetulekute registreerimiseks ja ladustamine
               items:
+                - name: Ostutellimuste sissetulevate koormate laohaldus
+                  href: warehousing/inbound-load-handling.md
                 - name: Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Kaupade registreerimine üldiseks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
@@ -2682,6 +2696,7 @@
                 - name: Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku jaoks
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Ostutellimuste jaoks töömalli seadistamine
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
         - name: Supply Chain Managementi juurutamine
           items:
             - name: Gantti juhtelemendi arengu juhis

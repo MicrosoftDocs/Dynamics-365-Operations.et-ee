@@ -22,32 +22,6 @@
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32 (veebruar 2020)
                   href: get-started/whats-new-platform-update-32.md
-                - name: Platform update 31 (jaanuar 2020)
-                  href: get-started/whats-new-platform-update-31.md
-                - name: Platform update 30 (november 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
-                - name: Platform update 29 (oktoober 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
-                - name: Platform update 28 (juuli 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
-                - name: Platform update 27 (juuni 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
-                - name: Platform update 26 (mai 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
-                - name: Platform update 25 (aprill 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-25.md
-                - name: Platform update 24 (märts 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
-                - name: Platform update 23 (jaanuar 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
-                - name: Platform update 22 (detsember 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
-                - name: Platform update 21 (november 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
-                - name: Platform update 20 (september 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: Platform update 15 (märts 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Eemaldatud või aegunud funktsioonid
               items:
                 - name: Eemaldatud või aegunud Platformi funktsioonid
@@ -104,6 +78,8 @@
               href: dev-tools/exclude-test-packages.md
             - name: Kolmanda osapoole mudelite ja käitusajapakettide haldus allikakontrolli abil
               href: dev-tools/manage-runtime-packages.md
+            - name: Kõik ühes juurutatavad paketid
+              href: dev-tools/aio-deployable-packages.md
             - name: Mudeliversioonide värskendamine automatiseeritud koostes
               href: dev-tools/version-models-build.md
         - name: Andmete integratsioon
@@ -526,7 +502,7 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: Kohapealsete juurutamiste uuesti juurutamine
                       href: deployment/redeploy-on-prem.md
-                    - name: AOS-i sõlme eemaldamine ja uuesti installimine
+                    - name: 'AOS-i sõlme eemaldamine, uuesti installimine või lisamine'
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Mitme keskkonna puhul sama AD FS-i eksemplari korduvkasutamine
                       href: deployment/onprem-reuseadfs.md
