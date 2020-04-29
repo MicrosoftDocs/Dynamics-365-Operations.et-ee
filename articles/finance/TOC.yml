@@ -70,12 +70,12 @@
                   items:
                     - name: Mis on uut või mida on muudetud Finance'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.11 (juuli 2020)
+                      href: get-started/whats-new-changed-10-0-11.md
                     - name: Finance 10.0.10 (mai 2020)
                       href: get-started/whats-new-changed-10-0-10.md
                     - name: Finance 10.0.9 (aprill 2020)
                       href: get-started/whats-new-changed-10-0-9.md
-                    - name: Finance 10.0.8 (veebruar 2020)
-                      href: get-started/whats-new-changed-10-0-8.md
             - name: Eemaldatud või aegunud funktsioonid
               items:
                 - name: Dynamics 365 Finance'i eemaldatud või aegunud funktsioonid
@@ -978,12 +978,16 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: Tööjõu ja kulude standardsete kulude konfigureerimine
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: Maksame-kui-meile makstakse hankijamaksete seadistamine ja kasutamine
+              href: project-management/setup-manage-vendor-payments.md
             - name: Lisandunud projektikulud ostutarnete loenditest
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Projekti arveldamine
               href: accounts-payable/project-invoicing.md
             - name: Projektilepingud
               href: project-management/project-contracts.md
+            - name: Valmidusastmelisusel põhineva arveldamise täpsemate lepingute koostamine
+              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: Projekti prognoosid ja eelarved
               href: project-management/project-forecasts-budgets.md
             - name: Projekti eelarvete ülekandmine finantsaasta lõpus
@@ -1014,6 +1018,8 @@
                   href: project-management/mobile-timesheets.md
                 - name: Kohandatud väljade juurutamine projekti ajatabeli mobiilirakenduses
                   href: project-management/custom-fields-mobile.md
+            - name: Projekti hüvitised
+              href: project-management/project-grants.md
         - name: Avalik sektor
           items:
             - name: Avaliku sektori avaleht
@@ -2016,6 +2022,8 @@
                   href: localizations/emea-ita-exil-unique-certification.md
                 - name: Käskveksli vaidlustamise import
                   href: localizations/emea-ita-exil-protest-boe.md
+                - name: Maksulagi
+                  href: localizations/emea-ita-exil-tax-plafond.md
             - name: Jaapan
               items:
                 - name: Jaapani ülevaade
