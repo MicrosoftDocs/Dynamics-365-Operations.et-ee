@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a09b90c19d8d4fe5d08abc892ed0c42d9d4592d8
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a594bacb1fcf53ae4a278dbb26f1de174e22288c
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211717"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275598"
 ---
 # <a name="schedule-work-orders"></a>Töökäskude plaanimine
 
@@ -102,14 +102,14 @@ Kui teenindustaseme skoor on tõstetud "5" asemel "100" peale, on ajastamise jä
 
 Hinnangu skoorid seoses arvutamisega, millised hooldustöötajad peaksid töötama töökäskudega, on kõik seadistatud arvudena, mis lisatakse igale hooldustöötaja arvutusele töökäsu ajastamise käigus. Töökäsule valitakse kõrgeima skooriga hooldustöötaja. Siin on hooldustöötajate skooride lühike kirjeldus.
 
-| Hooldustöötaja skoor       | Kirjeldus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vastutav töötaja | Kui hooldustöötaja valitakse töökäsu vastutavaks töötajaks, skoor liidetakse.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Vastutav hooldustöötajate grupp | Kui hooldustöötaja on töökäsu vastutavate hooldustöötajate rühma liige, lisatakse skoor.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Eelistatud hooldustöötaja         | Kui hooldustöötaja valitakse vara eelistatud hooldustöötajaks, skoor liidetakse.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Eelistatud hooldustöötajate grupp   | Kui töötaja on vara eelistatud hooldustöötajate rühma osa, skoor liidetakse.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Koht                 | Kui teie ettevõte kasutab töö asukohti, saavad hooldustöötajad täisskoori, kui nad asuvad varaga seotud töö asukohas. Kui vara töö asukohal on peamine asukoht, saavad selle töö asukoha hooldustöötajad 1/2 skoori. Kui sellel asukohal on samuti peamine asukoht, saavad selle töö asukoha hooldustöötajad 1/3 skoori. Kui sellel asukohal on samuti peamine asukoht, saavad selle töö asukoha hooldustöötajad 1/4 skoori ja nii edasi. Kui teie ettevõte kasutab vara asukohta, mida me ei soovita, kasutatakse asukoha skooride arvutamiseks asukohta, piirkonda ja tsooni. Töötajad saavad täiskoori, kui nad asuvad varaga seotud asukohas, alal ja tsoonis. Kui töötaja asukoht kattub ainult asukoha ja piirkonnaga, on hooldustöötaja hinnangu skoor 2/3 täisskoorist. Kui hooldustöötaja asukoht kattub ainult asukohaga, on hooldustöötaja hinnangu skoor 1/3 täisskoorist. |
-| Töötaja töösuhte alguskuupäev               | Iga kuupäeva kohta, millal ajastatud alguskuupäev on oodatavast alguskuupäevast hilisem, skoor lahutatakse.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Hooldustöötaja skoor| Kirjeldus |
+|---|---|
+| Vastutav töötaja | Kui hooldustöötaja valitakse töökäsu vastutavaks töötajaks, skoor liidetakse. |
+| Vastutav hooldustöötajate grupp | Kui hooldustöötaja on töökäsu vastutavate hooldustöötajate rühma liige, lisatakse skoor. |
+| Eelistatud hooldustöötaja         | Kui hooldustöötaja valitakse vara eelistatud hooldustöötajaks, skoor liidetakse. |
+| Eelistatud hooldustöötajate grupp   | Kui töötaja on vara eelistatud hooldustöötajate rühma osa, skoor liidetakse.  |
+| Koht  | Kui teie ettevõte kasutab töö asukohti, saavad hooldustöötajad täisskoori, kui nad asuvad varaga seotud töö asukohas. Kui vara töö asukohal on peamine asukoht, saavad selle töö asukoha hooldustöötajad 1/2 skoori. Kui sellel asukohal on samuti peamine asukoht, saavad selle töö asukoha hooldustöötajad 1/3 skoori. Kui sellel asukohal on samuti peamine asukoht, saavad selle töö asukoha hooldustöötajad 1/4 skoori ja nii edasi. Kui teie ettevõte kasutab vara asukohta, mida me ei soovita, kasutatakse asukoha skooride arvutamiseks asukohta, piirkonda ja tsooni. Töötajad saavad täiskoori, kui nad asuvad varaga seotud asukohas, alal ja tsoonis. Kui töötaja asukoht kattub ainult asukoha ja piirkonnaga, on hooldustöötaja hinnangu skoor 2/3 täisskoorist. Kui hooldustöötaja asukoht kattub ainult asukohaga, on hooldustöötaja hinnangu skoor 1/3 täisskoorist. |
+| Töötaja töösuhte alguskuupäev  | Iga kuupäeva kohta, millal ajastatud alguskuupäev on oodatavast alguskuupäevast hilisem, skoor lahutatakse.  |
 
 >[!NOTE]
 >Kui skooriks on määratud "0", seda skoori ei arvestata. See on kasulik, kui te näiteks ei soovi vastutavat töötajat oma plaani kaasata.
@@ -120,3 +120,21 @@ Oskuste ja sertifikaadi nõudeid saab seadistada hooldustöö tüüpidele (**Var
 
 Hooldustöö tüübid ja hooldustöö vahetused valitakse töökäsu töödele. Kui hooldustöö tüübile või hooldustöö vahetusele on valitud oskused või sertifikaadid ja seda hooldustöö tüüpi või hooldustöö vahetust kasutatakse töökäsu tööl, ajastatakse töökäsuga töötamiseks ainult sobivate oskuste ja sertifikaatidega hooldustöötajad.
 
+<a name="gantt"></a>
+
+## <a name="work-with-scheduled-work-orders-using-a-gantt-chart"></a>Töö plaanitud töökäskudega Gantti diagrammi abil
+
+**Plaanitud töökäskude Gantti diagramm** pakub graafilist liidest, kus saate oma töökäske vaadata ja ümber plaanida.
+
+Gantti diagrammi vaatamiseks ja sellega töötamiseks tehke järgmist.
+
+1. Avage jaotis **Varahaldus > Töökäsud > Plaanitud töökäskude Gantti diagramm**.
+
+1. Kasutage jaotises **Sätted** ripploendeid ja välju, et seadistada Gantti diagrammis kuvatav töö asukoht, ajavahemik ja ajaskaala.
+
+1. Valige **Rakendamine**.
+
+    - Gantti diagrammi värskendatakse, et näidata teie sätetele vastavaid plaanitud töökäske. Iga töökäsku esindab sinine ristkülik.
+    - Kuvatud töökäsu uuesti plaanimiseks valige ja lohistage see sobivale uuele kuupäevale ja kellaajale.
+
+1. Kui tegite muudatusi, valige nende salvestamiseks toimingupaanil käsk **Salvesta**.

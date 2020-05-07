@@ -3,7 +3,7 @@ title: SEO metaandmete haldamine
 description: See teema kirjeldab, kuidas hallata rakenduses Microsoft Dynamics 365 Commerce otsingumootori optimeerimise (SEO) metaandmeid.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e7da7bf5c473746413e92babfa943f546b7724d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003460"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270046"
 ---
 # <a name="manage-seo-metadata"></a>SEO metaandmete haldamine
 
@@ -72,13 +72,10 @@ Lehe metaandmete muutmiseks toimige järgmiselt.
 1. Jaotises **Saidid** valige suvand **Fabrikam** (või oma saidi nimi).
 1. Valige navigeerimispaanilt vasakult suvand **Lehed**.
 1. Valige avaleht, et avada see lehe redaktoris.
-1. Toimingupaanil valige **Registreeri välja**.
+1. Klõpsake käsuribal käsku **Redigeeri**.
 1. Parempoolsel atribuutide paanil laiendage suvandit **Vaikimisi metasildid**.
-1. Uue metasildi lisamiseks valige suvand **Lisa**ja sisestage seejärel silt väljale.
-
-    Olemasoleva metasildi eemaldamiseks valige selle kõrval paremal prügikasti sümbol.
-
-1. Valige nupp **Salvesta** ja seejärel suvand **Registreeri**.
+1. Uue metasildi lisamiseks valige suvand **Lisa**ja sisestage seejärel silt väljale. Olemasoleva metasildi eemaldamiseks valige selle kõrval paremal prügikasti sümbol.
+1. Valige nupp **Salvesta** ja seejärel suvand **Lõpeta redigeerimine**.
 1. Sisestage väljale **Kommentaarid** suvand **Uuendatud metasildid** ja valige seejärel **OK**.
 1. Lehe eelvaate kuvamiseks valige suvand **Eelvaade**. Kui olete lõpetanud, sulgege eelvaate vahekaart, et naasta autorluse tööriista.
 1. Valige **Avalda**.

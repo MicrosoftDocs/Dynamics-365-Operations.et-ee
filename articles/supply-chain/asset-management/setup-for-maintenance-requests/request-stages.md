@@ -3,7 +3,7 @@ title: Hooldustaotluse elutsükli olekud
 description: See teema kirjeldab, kuidas seadistada hooldustaotluse elutsükli olekuid varahalduses.
 author: josaw1
 manager: tfehr
-ms.date: 07/26/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1e4412af0619b57467b5bcba75ea7259604d1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08c45742b064f3a13a0ea2704f8873b9c53aad4e
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209003"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275622"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Hooldusnõuete töötsükli olek
 
@@ -44,10 +44,10 @@ Hooldustaotluse elutsükli olekud määratlevad etapid, mida taotlus võib läbi
     Kiirkaardi **Üksikasjad** väljal **Elutsükli mudelid** kuvatakse hooldustaotluste elutsükli mudelite arvu, mida selles elutsükli olekus kasutatakse.
 
 5. Kiirkaardil **Üldine** sätestage suvandi **Aktiivne** väärtuseks **Jah**, kui hooldustaotlus peaks selle elutsükli oleku jooksul aktiivne olema.
-6. Sätestage suvandi **Määra tegelik lõpp** väärtuseks **Jah**, kui tegelik lõppkuupäev ja kellaaeg tuleks automaatselt sisestada hooldustaotlusele, mis on selles elutsükli olekus.
+6. Sätestage suvandi **Määra tegelik lõpp** väärtuseks **Jah**, kui tegelik lõppkuupäev ja kellaaeg tuleks automaatselt sisestada hooldustaotlusele, mis on selles töötsükli olekus.
 7. Sätestage suvandi **Loo töökäsk** väärtuseks **Jah**, kui töökäsku saab luua hooldustaotlusest, mis on selles elutsükli olekus.
 8. Seadke suvandi **Kustuta** väärtuseks **Jah**, kui hooldustaotlust saab kustutada, kui see on selles elutsükli olekus.
-9. Kiirkaardi **Värskendamine** suvandid **Sissetulev** ja **Väljaminev** jaotises **Vara** on asjakohased, kui kasutate allikaparandust. Sätestage vastava suvandi väärtuseks **Jah**, kui hooldustaotlusel valitud varade vara elutsükli oleku peaks automaatselt värskendama olekussse **Sissetulev** või **Väljaminev**, kui hooldustaotluse elutsükli olek on sätestatud olekus **Sissetulev** või **Väljaminev**.
+9. Kiirkaardil **Värskenda** on valikud **Sissetulev** ja **Väljaminev** jaotises **Vara** asjakohased, kui kasutate depooparandust. Seadke sobiv suvand väärtusele **Jah**, kui hooldusnõudes valitud varade töötsükli olek tuleks automaatselt muuta väärtusele **Sissetulev** või **Väljaminev**, kui selle hooldusnõude töötsükli olek on seatud väärtusele **Sissetulev** või **Väljaminev**.
 
 Järgnev illustratsioonil kuvatakse lehe **Hooldustaotluse elutsükli olekud** näide.
 

@@ -3,7 +3,7 @@ title: Karusellmoodul
 description: See teema hõlmab karusellmooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f279d7db0a92df9e64b1d3f6ca01c65ca1478d79
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025777"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269724"
 ---
 # <a name="carousel-module"></a>Karusellmoodul
 
@@ -58,24 +58,25 @@ Saate lisada karusellmooduli sisse sisuploki. Karussellmooduli atribuudid määr
 
 Uuele lehele karusellmooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
-1. Looge lehe mall nimega **karuselli mall**.
+1. Valige lehe malli loomiseks **Uus**.
+1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all **Karusselli mall** ja valige seejärel **OK**.
 1. Lisage pesasse **Kehatekst** moodul **Vaikeleht**.
-1. Registreerige mall ja avaldage see. 
-1. Kasutage äsja loodud karuselli malli, et luua leht, mille nimi on **karuselli leht**.
+1. Valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.  
+1. Kasutage äsja loodud karuselli malli, et luua leht, mille nimi on **Karuselli leht**.
 1. Lisage uue lehe pessa **Peamine** konteinermoodul. 
 1. Seadistage paremal paanil väärtus **Laius** olekusse **Täida ekraan**.
 1. Lisage jaotises **Lehe liigendus** konteineri moodulile karusselli moodul.
 1. Lisage karusselli moodulile sisuploki moodul. Seadistage sisuploki mooduli atribuudid, täites atribuudid **Pealkiri**, **Link**, **Paigutus** ja muud.
 1. Lisage ja konfigureerige teine sisuploki moodul.
 1. Seadistage vajadusel karusselli moodulile täiendavaid atribuute.
-1. Salvestage ja kuvage lehe eelvaade. Lehekülg peaks näitama karusselli, mille sees on kaks moodulit (pannoomoodul ja funktsioonimoodul). Võite soovitud efekti saavutamiseks muuta karusell-, pannoo- ja funktsioonimoodulite täiendavaid atribuute.
-1. Viige lõpuni lehe redigeerimine ja avaldage see.
+1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**. Lehekülg peaks näitama karusselli, mille sees on kaks moodulit (pannoomoodul ja funktsioonimoodul). Võite soovitud efekti saavutamiseks muuta karusell-, pannoo- ja funktsioonimoodulite täiendavaid atribuute.
+1. Valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Alustuskomplekti ülevaade](starter-kit-overview.md)
 
-[Reklaambänneri moodul](add-alert.md)
+[Kampaania ribareklaami moodul](add-alert.md)
 
 [Tekstiploki moodul](add-content-rich-block.md)
 

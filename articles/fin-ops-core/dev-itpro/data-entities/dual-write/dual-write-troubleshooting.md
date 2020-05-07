@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172687"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275646"
 ---
 # <a name="general-troubleshooting"></a>Üldine tõrkeotsing
 
@@ -70,14 +70,12 @@ Jälituslogi sisselülitamiseks toimige järgmiselt.
 Jälituslogi kuvamiseks toimige järgmiselt.
 
 1. Logige sisse rakendusse Finance and Operations, avage leht **Seaded** ja valge jaotisest **Kohandamine** suvand **Lisandmooduli jälituslogi**.
-2. Leiate jälituslogid siis, kui välja **Tüübi nimi** väärtuseks on seatud **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+2. Leiate jälituslogid siis, kui välja **Tüübi nimi** väärtuseks on seatud **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Täieliku logi vaatamiseks topeltklõpsake üksust ja seejärel vaadake üle kiirkaardil **Käivitamine** tekst **Teateplokk**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Silumisrežiim lubamine tõrkeotsingu reaalajas sünkroonimise probleemide korral Finance and Operationsi rakendustes
 
-**Tõrgete vaatamiseks nõutav roll:** süsteemiadministraator
-
-Common Data Service'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Finance and Operationsi rakenduses. Mõnel juhul ei ole tõrketeate täistekst saadaval, kuna sõnum on liiga pikk või sisaldab tuvastamist võimaldavaid andmeid (PII). Verbose tõrgete logimise saate sisse lülitada järgmiste juhiste abil.
+**Tõrgete vaatamiseks nõutav roll:** süsteemiadministraator. Common Data Service'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Finance and Operationsi rakenduses. Mõnel juhul ei ole tõrketeate täistekst saadaval, kuna sõnum on liiga pikk või sisaldab tuvastamist võimaldavaid andmeid (PII). Verbose tõrgete logimise saate sisse lülitada järgmiste juhiste abil.
 
 1. Kõigil Finance and Operationsi rakenduste projekti konfiguratsioonidel on atribuut **IsDebugMode** üksusel **DualWriteProjectConfiguration**. Üksuse **DualWriteProjectConfiguration** avamine Exceli lisandmooduliga.
 
@@ -104,7 +102,7 @@ Common Data Service'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Fi
 
 ## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Linkimise tühistamine ja teise Common Data Service'i keskkonna linkimine Finance and Operationsi rakendusest
 
-**Keskkonna linkimise tühistamiseks nõutav mandaat:** Azure AD rentniku admin
+**Keskkonna linkimise tühistamiseks nõutav roll:** kas Finance and Operationsi rakenduse või teenuse Common Data Service süsteemiadministraator.
 
 1. Logige rakendusse Finance and Operations sisse.
 2. Avage **Tööruumid \>Andmehaldus** ja valige paan **Topeltkirjutus**.
@@ -113,3 +111,13 @@ Common Data Service'ist pärinevaid topeltkirjutuse tõrkeid võidakse kuvada Fi
 5. Toimingu kinnitamiseks valige **Jah**.
 
 Nüüd saate linkida uue keskkonna.
+
+## <a name="unable-to-view-the-sales-order-line-information-form"></a>Müügitellimuse rea teabevormi ei saa kuvada 
+
+Kui loote müügitellimuse rakenduses Dynamics 365 Sales, võib nupu **+ Lisa tooted** klõpsamine suunata teid rakenduse Dynamics 365 Project Operation tellimuserea vormile. Sellel vormil ei saa vaadata müügitellimuse rea vormi **Teave**. Ripploendis ei kuvata suvandi **Uus tellimuse rida** all suvandit **Teave**. See juhtub, kuna teie keskkonnas on installitud rakendus Project Operations.
+
+Vormisuvandi **Teave** uuesti lubamiseks tehke järgmist.
+1. Avage üksus **Tellimuse rida**.
+2. Leidke vormide sõlme alt vorm **Teave**. 
+3. Valige vorm **Teave** ja klõpsake **Luba turberollid**. 
+4. Seadke turbesäte väärtusele **Kuva kõigile**.

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: ef4465144155130087b078f9f96911df38b62c41
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5ffc0358ff58b2a05aa84b4467a27d88b5e1ec42
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173173"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270332"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Nõudmisel sünkroonimine Dynamics 365 Supply Chain Managementi hinnakujunduse mootoriga
 
@@ -50,6 +50,12 @@ Microsoft Dynamics 365 Supply Chain Management sisaldab hinnakujunduse mootorit,
     + Transpord summa
     + Kogumaks
     + Kogusumma
+    
+5. Et tagada, et süsteem võtab hinna arvutamisel arvesse kaubandusleppeid ja müügilepinguid, tehke järgmist.
+    1. Liikuge teenuses Supply Chain Management oma keskkonna juurde.
+    2. Navigeerige jaotisse **Müügireskontro \> Seadistus \> Müügireskontro parameetrid**.
+    3. Valige külgmisel navigeerimisribal vahekaart **Hinnad**.
+    4. Tühjendage kiirkaardil **Kaubandusleppe hindamine** ruut **Käsitsi sisestamine**.
 
 ## <a name="how-it-works"></a>Toimimisviis
 

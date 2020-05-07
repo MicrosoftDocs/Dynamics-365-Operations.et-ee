@@ -3,7 +3,7 @@ title: Lehe salvestamine, eelvaade ja avaldamine
 description: See teema kirjeldab, kuidas salvestada, vaadata ja avaldada lehte rakenduses Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 04200264fabca265484b5e66426810efe8028a50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002805"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269977"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Lehe salvestamine, eelvaade ja avaldamine
-
 
 [!include [banner](includes/banner.md)]
 
@@ -33,7 +32,7 @@ See teema kirjeldab, kuidas salvestada, vaadata ja avaldada lehte rakenduses Mic
 
 ## <a name="save-a-page"></a>Lehe salvestamine
 
-Lehekülje salvestamiseks peate selle ise registreerima ja avama lehe redaktoris. Te peaksite salvestama lehe kohe pärast selle muutmist, et aidata tagada teie muudatuste salvestamist.
+Lehekülje salvestamiseks peate selle ise registreerima ja avama lehe redaktoris. Lehe kuvamiseks klõpsake tegumiribal käsku **Redigeeri**. Te peaksite salvestama lehe kohe pärast selle redigeerimist, et tagada teie muudatuste salvestamine.
 
 Lehe salvestamisel on muudatused nähtavad ainult teile. Salvestamise toiming on mõeldud peamiselt muudatuste salvestamiseks, kui leht pole veel sisse registreerimiseks valmis. Kui olete lehe muutmise lõpetanud, soovitame selle sisse registreerida, et muudatused oleksid teistele nähtavad. Sel hetkel saavad lehte välja registreerida ka teised kasutajad, kes seda muutma peavad.
 
@@ -50,7 +49,7 @@ Kui olete lehe muutmise lõpetanud, võite soovida seda vaadata, et näha, mida 
 
 ## <a name="publish-a-page"></a>Lehe avaldamine
 
-Kui leht on valmis, on järgmiseks sammuks selle avaldamine, et välised kasutajad saaksid sisu vaadata. Enne lehe avaldamist peate selle sisse registreerima.
+Kui leht on valmis, on järgmiseks sammuks selle avaldamine, et välised kasutajad saaksid sisu vaadata. Enne lehe avaldamist peate selle registreerima, valides käsuribal **Lõpeta redigeerimine**.
 
 Lehti saate avaldada ja tühistada avaldamise kas lehe inspektorist või lehe redaktorist. Lehe inspektor kuvab lehtede loendi ja lubab hulgioperatsioone. Lehe redaktorit saab kasutada ainult ühe avatud lehekülje avaldamiseks või avaldamise tühistamiseks.
 
@@ -70,9 +69,9 @@ Avalehe salvestamiseks, eelvaateks ja avaldamiseks toimige järgmiselt.
 1. Jaotises **Saidid** valige suvand **Fabrikam** (või oma saidi nimi).
 1. Valige navigeerimispaanilt vasakult suvand **Lehed**.
 1. Leidke ja valige avaleht, et avada see lehe redaktoris.
-1. Valige suvand **Registreeri välja**.
+1. Valige suvand **Redigeeri**.
 1. Muutke lehte nii nagu vajate.
-1. Valige nupp **Salvesta** ja seejärel suvand **Registreeri**.
+1. Valige nupp **Salvesta** ja seejärel suvand **Lõpeta redigeerimine**.
 1. Sisestage väljale **Kommentaarid** tehtud muudatuste kohta märkus ja seejärel valige nupp **OK**.
 1. Lehe eelvaate kuvamiseks valige suvand **Eelvaade**. Kui olete lõpetanud, sulgege eelvaate vahekaart, et naasta autorluse tööriista.
 1. Valige **Avalda**.

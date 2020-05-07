@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 79b4640a23d4fc78ade4de57e4071abe6c9ecb56
+ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042707"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284352"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektroonilise aruandluse valemi keel
 
 [!include [banner](../includes/banner.md)]
 
-Elektrooniline aruandlus (ER) pakub võimsat andmete teisenduse kogemust. ER-i valemikoostajas nõutavate andmemanipulatsioonide väljendamiseks kasutatav keel meenutab valemi keelt Microsoft Excelis.
+Elektrooniline aruandlus (ER) pakub võimsat andmete teisenduse kogemust. [ER-i valemikoostajas](general-electronic-reporting-formula-designer.md) nõutavate andmemanipulatsioonide väljendamiseks kasutatav keel meenutab valemi keelt Microsoft Excelis.
 
 ## <a name="basic-syntax"></a>Põhisüntaks
 
@@ -41,13 +41,13 @@ ER-i avaldised võivad sisaldada mõnd või kõiki järgmistest elementidest.
 - [Teed](#Paths)
 - [Funktsioonid](#Functions)
 
-## <a name="Constants">Konstandid</a>
+## <a name=""></a><a name="Constants">Konstandid</a>
 
 Avaldiste koostamisel saate kasutada tekstilisi ja arvulisi konstante (st väärtused, mida ei arvutata). Näiteks avaldis `VALUE ("100") + 20` kasutab arvulist konstanti **20** ja stringi konstanti **100** ning see tagastab arvulise väärtuse **120**.
 
 ER-i valemikoostaja toetab paoseeriaid. Seega saate määrata avaldise stringi, mida tuleb teisiti käsitleda. Näiteks tagastab avaldis `"Leo Tolstoy ""War and Peace"" Volume 1"` tekstistringi **Lev Tolstoi „Sõda ja rahu” 1. osa**.
 
-## <a name="Operators">Operaatorid</a>
+## <a name=""></a><a name="Operators">Operaatorid</a>
 
 Järgmises tabelis on aritmeetilised tehtemärgid, mida saate kasutada põhiliste matemaatiliste tehete puhul, nagu liitmine, lahutamine, korrutamine ja jagamine.
 
@@ -91,7 +91,7 @@ Liitavaldise osade arvutamise järjekord on oluline. Näiteks avaldise `1 + 4 / 
 
 Kui avaldis sisaldab mitut järjestikust sama järjestusega tehet, tehakse neid tehteid vasakult paremale. Näiteks avaldis `1 + 6 / 2 \* 3 > 5` tagastab väärtuse **tõene**. Soovitame avaldise tehete soovitud järjestuse selgeks näitamiseks kasutada sulge, et avaldisi oleks lihtsam lugeda ja hallata.
 
-## <a name="References">Viited</a>
+## <a name=""></a><a name="References">Viited</a>
 
 Kõiki praeguse ER-i komponendi andmeallikaid, mis on avalduse koostamise ajal saadaval, saab kasutada nimega viidetena. Praegune ER-i komponent saab olla kas mudel või vorming. Näiteks praegune ER-i mudelivastendus sisaldab andmeallikat **ReportingDate**, mis tagastab andmetüübi *DateTime* väärtuse. Loodavas dokumendis väärtuse õigesti vormindamiseks saate viidata avaldises andmeallikale järgmiselt: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
@@ -112,7 +112,7 @@ Saate piirata, kuidas väärtusi selle meetoditüübi parameetritele edastatakse
 - Seda tüüpi meetoditele saab edastada ainult konstante. Konstantide väärtused määratakse koostamisajal.
 - Seda tüüpi parameetrite puhul toetatakse ainult primitiivseid (põhilisi) andmetüüpe. Primitiivsed andmetüübid hõlmavad suvandeid *Täisarv*, *Reaalarv*, *Kahendmuutuja* ja *String*.
 
-## <a name="Paths">Teed</a>
+## <a name=""></a><a name="Paths">Teed</a>
 
 Kui avaldis viitab struktureeritud andmeallikale, saate kasutada tee määratlemist, et valida selle andmeallika kindel primitiivne element. Punkti (.) kasutatakse struktureeritud andmeallika üksikute elementide eraldamiseks. Näiteks praegune ER-i mudelivastendus sisaldab andmeallikat **InvoiceTransactions**, mis annab vastuseks kirjete loendi. Kirje struktuur **InvoiceTransactions** sisaldab välju **AmountDebit** ja **AmountCredit**, mis mõlemad tagastavad arvulisi väärtusi. Seega saate arveldatud summa arvutamiseks koostada järgmise avaldise: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. Konstruktsioon `InvoiceTransactions.AmountDebit` selles avaldises on tee, mida kasutatakse väljale **AmountDebit** juurdepääsemiseks andmeallikas **InvoiceTransactions** tüübis *Kirjete loend*.
 
@@ -130,7 +130,7 @@ Absoluutse tee ülejäänud osa kuvatakse samuti [ER-i valemiredaktoris](general
 
 ![Absoluutse tee ülejäänud osa ER-i valemi kujundaja lehel](./media/ER-FormulaLanguage-RelativePath2.png)
 
-## <a name="Functions">Funktsioonid</a>
+## <a name=""></a><a name="Functions">Funktsioonid</a>
 
 ER-i sisseehitatud funktsioone saab kasutada ER-i avaldistes. Kõiki avaldise konteksti (st praegune ER-i mudelivastendus või ER-i vorming) andmeallikaid saab kasutada helistamisfunktsioonide parameetritena vastavalt helistamisfunktsioonide käivitamine argumentide loendile. Konstante saab kasutada ka funktsioonide käivitamise parameetritena. Näiteks praegune ER-i mudelivastendus sisaldab andmeallikat **InvoiceTransactions**, mis annab vastuseks kirjete loendi. Kirje struktuur **InvoiceTransactions** sisaldab välju **AmountDebit** ja **AmountCredit**, mis mõlemad tagastavad arvulisi väärtusi. Seega saate arveldatud summa arvutamiseks koostada järgmise avaldise, mis kasutab sisseehitatud ER-i ümardamisfunktsiooni: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 

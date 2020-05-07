@@ -3,7 +3,7 @@ title: Andmeimpordi ja -ekspordi tööde ülevaade
 description: Kasutage andmeimpordi ja -ekspordi tööde jaoks andmehalduse tööruumi.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 02/20/2020
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124608"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278894"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Andmete importimis- ja eksportimistööde ülevaade
 
@@ -151,6 +151,18 @@ Käivitamise üksikasjad näitavad iga töös töödeldud andmeüksuse olekut. S
 Koondamisandmed saab laadida eksporditööde puhul alla failina või impordi- ja eksporditööde puhul paketina.
 
 Käivitamise üksikasjadest saab avada ka käivituslogi.
+
+## <a name="parallel-imports"></a>Paralleelne importimine
+Andmete importimise kiirendamiseks saab lubada faili importimise paralleelse töötlemise, kui üksus toetab paralleelset importimist. Üksuse paralleelse importimise konfigureerimiseks tuleb järgida järgmisi samme.
+
+1. Minge jaotisse **Süsteemihaldus \> Tööruumid \> Andmehaldus**.
+2. Valige jaotises **Import/eksport** paan **Raamistiku parameetrid**, et avada leht **Andmete importimise/eksportimise raamistiku parameetrid**.
+3. Valige vahekaardil **Üksuse sätted** suvand **Konfigureeri üksuse käivitamise parameetrid**, et avada leht **Üksuse importimise käivitamise parameetrid**.
+4. Üksuse paralleelse importimise konfigureerimiseks määrake järgmised väljad.
+
+    - Valige üksus väljal **Üksus**.
+    - Sisestage imporditavate kirjete piirarv väljale **Imporditavate kirjete piirarv**. See määratleb kirjete arvu, mida lõim töötlema hakkab. Kui failis on 10 000 kirjet, siis tähendab kirjete arv 2500 ja ülesannete arv 4, et iga lõim töötleb 2500 kirjet.
+    - Sisestage importimisülesannete arv väljale **Importimisülesannete arv**. See ei tohi ületada jaotises **Süsteemihaldus \>Serveri konfiguratsioon** pakktöötluseks eraldatud maksimaalset pakktöötluslõimede arvu.
 
 ## <a name="clean-up-the-staging-tables"></a>Koondamistabelite puhastamine
 Alates platvormivärskendusest 29, on see funktsioon aegunud. See on asendatud töö ajaloo puhastamise funktsiooni uue versiooniga, mida allpool selgitatakse.

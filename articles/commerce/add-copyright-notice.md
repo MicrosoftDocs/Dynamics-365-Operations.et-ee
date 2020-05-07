@@ -3,7 +3,7 @@ title: Autoriõiguste teatise lisamine
 description: Selles teemas kirjeldatakse kuidas oma e-kaubanduse veebisaidile autoriõiguse teatist lisada.
 author: psimolin
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025478"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269586"
 ---
 # <a name="add-a-copyright-notice"></a>Autoriõiguste teatise lisamine
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,12 +50,12 @@ Iga konkreetset malli kasutava lehe allossa autoriõiguse teatise lisamiseks toi
 1. Dialoogiaknas valige suvand **Tekstiplokk** ja seejärel valige nupp **OK**.
 1. Valige navigeerimispaanil **Tekstiplokk**.
 1. Lisage paremal atribuutide paanil väljale **Lõik** oma autoriõiguse sõnum. Sisestage näiteks **(C) Fabrikam 2019**.
-1. Valige **Salvesta**, valige **Registreeri**ja valige seejärel **Avalda**.
-1. Valige suvand **Mallid**, valige mall ja seejärel käsk **Registreeri välja**.
+1. Valige **Salvesta**, valige **Lõpeta redigeerimine** ja valige seejärel **Avalda**.
+1. Valige suvand **Mallid**, valige mall ja seejärel käsk **Redigeeri**.
 1. Jaotises **Lehe liigendus** laiendage suvandit **Kehatekst** ja laiendage seejärel suvandit **Vaikeleht**.
 1. Valige suvandi **Jaluse pesa** kõrval kolmikpunkti nupp ja seejärel valige käsk **Lisa fragment**.
 1. Valige varem loodud fragment ja seejärel valige käsk **Vali**.
-1. Registreerige mall ja avaldage see.
+1. Valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
 Autoriõiguse teatist sisaldav jalus kuvatakse automaatselt kõigi valitud malli kasutavate lehtede allosas.
 

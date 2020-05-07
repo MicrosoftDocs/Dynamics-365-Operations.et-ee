@@ -19,17 +19,16 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 54201de6b242f8100c19a78468476a6308b1b18a
-ms.sourcegitcommit: 5554b3abb4365666992efad692ae28e943faebd4
+ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3116552"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265575"
 ---
 # <a name="show-discounts-in-pos"></a>Näita allahindlusi kassas
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Kampaaniad mängivad olulist rolli nende klientide motiveerimisel, kes teevad ostuotsuseid. Näiteks võivad pühad anda jaemüüjatele suurima müükide arvu, sest kogu jaemüügiturg on üle ujutatud ahvatlevate kampaaniate ja allahindlustega. Kui kaupluse kaastöötajad teavad ja mõistavad olemasolevaid kampaaniaid, saavad nad neid kampaaniaid kasutades teha hõlpsalt kaupade rist- ja edasimüüki. Selle teema all selgitatakse, kuidas Microsoft Dynamics 365 Commerce aitab müügipartneritel õppida tundma kampaaniaid ja seda, kuidas neid saab kasutada ristmüümis- ja edasimüümisiikumisteks.
 

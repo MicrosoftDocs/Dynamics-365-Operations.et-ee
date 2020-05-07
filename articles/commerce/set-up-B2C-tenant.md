@@ -3,7 +3,7 @@ title: B2C rentniku seadistus Kaubanduses
 description: Selles teemas kirjeldatakse kuidas seadistada Azure Active Directory (Azure AD) ettevõtja ja tarbija vahelisi (B2C) rentnikke kasutaja saidi autentimiseks rakenduses Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 04/17 /2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5fca37fb89c723273ef753b102092e2cfb26563
-ms.sourcegitcommit: 236672932ffd0a758012ebb7b2df9bc51249c126
+ms.openlocfilehash: f4768eede43003aac892b861b4a86ababe98a189
+ms.sourcegitcommit: 063c4d7155be6c2cadcafa1630d16ee235285479
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096499"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270206"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C rentniku seadistus Kaubanduses
 
@@ -169,8 +169,7 @@ Parooli lähtestamiseks kasutajavoo poliitikas toimige järgmiselt.
 1. Jaotises **Identiteedipakkujad** valige suvand **Parooli lähtestamine meiliaadressi kasutades**.
 1. Valige **Loo**.
 1. Jaotises **Rakenduse nõuded** märkige järgmised ruudud.
-    - **Meilisõnum**
-    - **Aadressid**
+    - **Meiliaadressid**
     - **Eesnimi**
     - **Perekonnanimi**
     - **Kasutaja objekti ID**

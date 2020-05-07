@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3d0b6c4ef9e6f21e1542bece9046e98edcab6b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207829"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281505"
 ---
 # <a name="purchase-requisition-workflow"></a>ostutaotluse töövoog
 
@@ -85,6 +85,9 @@ Selles näites töövoo protsess ostutaotluse ridadele järgib järgmiseid samme
 3.  Nõude esitaja rea haldur vaatab üle ja kiidab heaks ostutaotluse read. Kinnitus võidakse suunata nõude esitaja ülemusele, kui näiteks ostutaotluse real olev summa ületab nõude esitaja kulutuste piirangu ostutaotluste ridade puhul. Haldur saab kinnitada või tagasi lükata ühe või mõlemad ostutaotluse read.
 4.  Osakonnajuhataja turundusosakonnas vaatab üle ostutaotluse read nii plakatite kui ka t-särkide kohta. Müügiosakonna juhataja vaatab üle ostutaotluse rea ainult plakatite jaoks, sest see on ainuke kulu, mis on kantud müügiosakonnale.
 5.  Grupihaldur vaatab üle ja kinnitab ostutaotluse rea t-särkide kohta ainult siis, kui grupihalduri kinnitus on nõutav, näiteks kui ostutaotluse real olev summa ületab osakonnajuhataja kinnituspiirangu. Grupihaldur ei pea kinnitama ostutaotluse rida plakatitele.
+
+> [!NOTE]
+> Süsteemi valuuta peab olema seatud, kui ostutaotluse päise töövoo jaoks on vaja allkirjastamise piirangutega seotud kinnitusi.
 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Ostutaotluste töövoo konfigureerimine
 Ostutaotluse suunamiseks ülevaatamiseks, konfigureerige ostutaotluse töövoo protsessid. Määratud töövoo konfiguratsioon juhib suhtlust kaupade taotleja (nõude esitaja) ja ülevaataja ning töövoo kinnitaja vahel. Ostutaotluse suunamine sõltub töövoo konfiguratsioonis määratletud tingimustest. Näiteks määravad need tingimused, millal tuleks ostutaotlus suunata, millisele kasutajale või rollile see tuleks suunata ja milliseid tegevusi saavad kasutajad teha.  

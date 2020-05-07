@@ -3,7 +3,7 @@ title: Tervitussõnumi lisamine
 description: See teema kirjeldab, kuidas lisada oma Microsoft Dynamics 365 Commerce veebisaidile tervitussõnum.
 author: psimolin
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca10b01268b5dcd4c6fe448d90cd0ebd65a2673b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d2a125b4e71016ad620f128af2e3c9f29aa04f4c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001250"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269609"
 ---
 # <a name="add-a-welcome-message"></a>Tervitussõnumi lisamine
 
@@ -41,17 +41,14 @@ Kui jagatud päise fragmenti on lisatud tervitussõnum, kuvatakse see igal lehel
 
 Oma saidile tervitussõnumi lisamiseks toimige järgmiselt.
 
-1. Avage rakenduses Dynamics 365 Commerce oma sait.
+1. Liikuge kaubanduse saidiehitajas oma saidile.
 1. Valige suvand **Fragmendid**.
 1. Valige päise fragment, millele sõnum lisada.
 1. Laiendage liigendpuus suvandit **Tõrke-/teabeteated**.
-1. Valige teatise moodul.
-
-    Kui teatise moodulit pole veel olemas, valige kolmikpunkti nupp (**...**) suvandi **Tõrke-/teabeteated** kõrval ja seejärel valige käsk **Lisa moodul**. Valige teatise moodul ja valige seejärel **OK**.
-
+1. Valige teatise moodul ja valige seejärel **OK**. Kui teatise moodulit pole veel olemas, valige esiteks kolmikpunkti nupp (**...**) suvandi **Tõrke-/teabeteated** kõrval ja seejärel valige käsk **Lisa moodul**.
 1. Valige parempoolsel atribuudipaanil vahekaardil **Andmed** suvand **Lisa andmeallikas**ja valige seejärel suvand **Sisu**.
 1. Sisestage väljale **Sisendtekst** tervitussõnumi tekst.
-1. Salvestage pease fragment, kontrollige seda ja avaldage see.
+1. Valige **Salvesta**, valige päise fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. 
 
 Iga valitud päise fragmenti kasutava saidi lehe ülaosas ilmub nüüd tervitussõnum.
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 57aabeef0ee94b4b13bbe6e3925bcafe1e809ab2
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172804"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270284"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potentsiaalne klient-raha kaksikkirjutamises
 
@@ -66,6 +66,14 @@ Müügipakkumised võib luua rakenduses Müügid või Supply Chain Management. K
 + Toote pakkumisele saate lisada allahindluse. Sel juhul sünkroonitakse allahindlus Supply Chain Managementiga. Päise välju **Allahindlus**, **Tasud** ja **Maks** juhitakse seadistusega rakenduses Supply Chain Management. See seadistus ei toeta integreerimise vastendamist. Seeasemel välju **Hind**, **Allahindlus**, **Tasu**ning **Maks** säilitatakse ja käsitsetakse Supply Chain Managementis.
 + Väljad **Allahindluse %**, **Allahindlus**ja **Veose kogus** müügipakkumise päises on kirjutuskaitstud väljad.
 + Väljad **Veotingimused**, **Tarnetingimused**, **Saatmisviis**ja **Tarneviis** ei ole vaikevastenduste osa. Nende väljade vastendamiseks peate seadistama väärtusvastenduse, mis on vastab andmetele neis organisatsioonides, mille vahel üksust sünkroonitakse.
+
+Kui kasutate ka lahendust Field Service, veenduge, et oleksite parameetri **Pakkumisrea kiirloomine** uuesti lubanud. Parameetri uuesti lubamine võimaldab teil jätkata pakkumisridade loomist kiirloomise funktsiooni kasutades.
+1. Liikuge oma Dynamics 365 Sales'i rakenduse juurde.
+2. Valige ülemiselt navigeerimisribalt sätete ikoon.
+3. Valige **Täpsemad sätted**.
+4. Valige suvand **Süsteemi kohandamine**.
+5. Valige menüüelement **Pakkumisrida**.
+6. Minge jaotisse **Andmeteenused** ja märkige ruut **Luba kiirloomine**.
 
 ## <a name="sales-orders"></a>Müügitellimused
 

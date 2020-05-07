@@ -3,7 +3,7 @@ title: Eelarve planeerimise koefitsiendid
 description: Selles teemas esitatakse näiteid planeerimise koefitsiendi seadistamise kohta. Selles on teave mitmesuguste planeerimise koefitsiendi sätete ja nende tulemuste kohta. Planeerimise koefitsiendi abil saate määratleda, kuidas eelarvevajadusi vähendada.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 04/03/2020
+ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 6191b4809c3785d92395bec1b7d51bfc978f9245
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225101"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262692"
 ---
 # <a name="forecast-reduction-keys"></a>Eelarve planeerimise koefitsiendid
 
@@ -222,7 +222,7 @@ Planeerimise koefitsient peab olema määratud kauba laovarude grupile. Järgige
 
 ## <a name="reduce-a-forecast-by-transactions"></a>Eelarve vähendamine kannetega
 
-Kui valite eelarvevajaduste vähendamise meetodiks **Kanded – planeerimise koefitsient** või **Kanded – dünaamiline periood**, siis saate määrata, millised kanded eelarvet vähendavad. Valige lehe **Väljastatud tooted** kiirkaardi **Muud** väljal **Prognoosi vähendamisalus:** suvand **Kõik kanded**, kui eelarvet peaks vähendama kõik kanded, või **Tellimused**, kui eelarvet peaks vähendama ainult müügitellimused.
+Kui valite eelarvevajaduste vähendamise meetodiks **Kanded – planeerimise koefitsient** või **Kanded – dünaamiline periood**, siis saate määrata, millised kanded eelarvet vähendavad. Valige lehe **Laovarude grupid** kiirkaardi **Muud** väljal **Prognoosi vähendamisalus:** suvand **Kõik kanded**, kui prognoosi peaks vähendama kõik kanded, või **Tellimused**, kui prognoosi peaks vähendama ainult müügitellimused.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

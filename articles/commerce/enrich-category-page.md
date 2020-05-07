@@ -3,7 +3,7 @@ title: Kategooria sihtlehe rikastamine
 description: See teema käsitleb kategoorialehtede rikastamist rakenduses Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71348efba9fc1374b9e6599eb23f198d3851036e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003046"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269839"
 ---
 # <a name="enrich-a-category-landing-page"></a>Kategooria sihtlehe rikastamine
 
@@ -39,7 +39,7 @@ Samas võite kategooria vaikelehe asemel tahta kasutada nn rikastatud kategooria
 
 ![Rikastatud kategooria sihtleht](./media/CategoryLandingPages.png)
 
-Autorluse tööriistas sisaldab leht **Toode** loendit kategooriatest, mis on pärit saidile määratud kanalist. Kui kategooria lehe jaoks on valitud olek **Rikastatud**, on see kategooria leht rikastatud. Muul juhul kasutatakse kategooria jaoks kategooria vaikelehte ja sisu. Võite kuvada kategooria jaoks nii rikastatud kui ka mitte rikastatud kategooria lehtede eelvaate, valides kategooria nime.
+Commerce'i saidiehitajas sisaldab leht **Tooted** loendit kategooriatest, mis on pärit saidile määratud kanalist. Kui kategooria lehe jaoks on valitud olek **Rikastatud**, on see kategooria leht rikastatud. Muul juhul kasutatakse kategooria jaoks kategooria vaikelehte ja sisu. Võite kuvada kategooria jaoks nii rikastatud kui ka mitte rikastatud kategooria lehtede eelvaate, valides kategooria nime.
 
 Kategooria lehe rikastamiseks tehke järgmist.
 
@@ -48,9 +48,7 @@ Kategooria lehe rikastamiseks tehke järgmist.
 3. Valige rikastatud kategooria lehele mall. Kui teete ainult väikeseid muudatusi, saate valida kategooria vaikelehe. Teise võimalusena saate valida konkreetse kategooria lehe malli. Malli valimisel avatakse lehe redaktor ja valitud malli kasutatakse valitud kategooria jaoks uue kategooria lehe loomiseks. Leht registreeritakse teie jaoks välja ja saate nüüd oma muudatused teha.
 
 > [!NOTE]
-> Kategooria täpsustuse andmeid kasutavad moodulid kasutavad teie valitud kategooria andmeid.
->
-> Valitud malli sätted määravad muudatused, mida saate teha.
+> Kategooria täpsustuse andmeid kasutavad moodulid kasutavad teie valitud kategooria andmeid. Valitud malli sätted määravad muudatused, mida saate teha.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

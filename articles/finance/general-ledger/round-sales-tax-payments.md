@@ -3,7 +3,7 @@ title: Käibemaksu maksed ja ümardamisreeglid
 description: See artikkel selgitab, kuidas toimib ümardamisreegli seadistus moodulis Käibemaksuhaldurid ja kuidas ümardada käibemaksusaldot töö Käibemaksu tasakaalustamine ja sisestamine käigus.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/30/2018
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771748"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275670"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Käibemaksu maksed ja ümardamisreeglid
 
@@ -43,26 +43,26 @@ Perioodi kogu käibemaksu krediidisaldo on –98 765,43. Juriidiline isik kogus 
 
 Juriidiline isik soovib kasutada ümardamismeetodit, mis ümardab saldo lähima täisarvuni (1,00). Käibemaksu arvestamise eest vastutav kasutaja peab tegema järgmist.
 
-1.  Klõpsake valikuid Maks &gt; Kaudsed maksud &gt; Käibemaks &gt; Käibemaksuhaldurid
-2.  Valige kiirkaardi Üldine väljalt Ümardamise vorm suvand Tavaline.
-3.  Sisestage väljale Ümardus väärtus 1,00.
-4.  Kui saabub aeg tasuda maksuametile käibemaks, avage leht Käibemaksu tasakaalustamine ja sisestamine. (Klõpsake valikuid Maks &gt; Deklaratsioonid &gt; Käibemaks &gt; Käibemaksu tasakaalustamine ja sisestamine.)
-5.  Käibemaksu tasakaalustamise kontol ümardatakse maksukohustuse summa 98 765,43 summale 98 765.
+1. Klõpsake suvandeid **Maks** > **Kaudsed maksud** > **Käibemaks** > **Käibemaksuhaldurid**.
+2. Valige kiirkaardi **Üldine** väljalt **Ümardamise vorm** suvand **Tavaline**.
+3. Sisestage väljale **Ümardus** väärtus 1,00.
+4. Kui saabub aeg tasuda maksuametile käibemaks, avage **Maks** > **Deklaratsioonid** > **Käibemaks** > **Käibemaksu tasakaalustamine ja sisestamine**. Käibemaksu tasakaalustamise kontol näete, et maksukohustuse summa **98 765,43** ümardatakse summale **98 765**.
 
-Järgmine tabel näitab, kuidas ümardatakse summat 98 765,43, kasutades iga ümardusmeetodit, mis on saadaval lehe Käibemaksuhaldurid väljal Ümardamise vorm.
+Järgmine tabel näitab, kuidas ümardatakse summat 98 765,43, kasutades iga ümardusmeetodit, mis on saadaval lehe **Käibemaksuhaldurid** väljal **Ümardamise vorm**.
 
-| Ümardamise vormi suvand                | Ümardamisväärtus = 0,01 | Ümardamisväärtus = 0,10 | Ümardamisväärtus = 1,00 | Ümardamisväärtus = 100,00 |
-|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
-| Tavaline                              | 98 765,43              | 98 765,40              | 98 765,00              | 98 800,00                |
-| Allapoole                            | 98 765,43              | 98 765,40              | 98 765,00              | 98 700,00                |
-| Ümardamine                         | 98 765,43              | 98 765,50              | 98 766,00              | 98 800,00                |
-| Oma eelis kreeditsaldo puhul | 98 765,43              | 98 765,40              | 98 765,00              | 98 700,00                |
-| Oma eelis deebetsaldo puhul  | 98 765,43              | 98 765,50              | 98 766,00              | 98 800,00                |
+> [!NOTE]                                                                                  
+> Kui ümardamisväärtuseks on seatud 0,00, siis kehtib järgmine.
+>
+> - Tavalise ümardamise puhul toimub ümardamine samamoodi nagu suvandi **Ümardus = 0,01** puhul.
+> - Suvandite **Ümardamise vormi suvandid**, **Allapoole**, **Ülespoole ümardamine** ja **Oma kasuks** puhul käitutakse samamoodi nagu suvandi **Ümardus = 1,00** puhul.
 
-
-### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>Ümardamist pole, kui ümardamisväärtus on 0,00
-
-round(1,0151, 0,00) = 1,0151 round(1,0149, 0,00) = 1,0149
+| Ümardamise vormi suvand                | Ümardamisväärtus = 0,01 | Ümardamisväärtus = 0,10 | Ümardamisväärtus = 1,00 | Ümardamisväärtus = 100,00 | Ümardamisväärtus = 0,00   |
+|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|
+| Tavaline                              | 98,765.43              | 98,765.40              | 98,765.00              | 98,800.00                | 98,765.43                |
+| Allapoole                            | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Ümardamine                         | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
+| Oma eelis kreeditsaldo puhul | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Oma eelis deebetsaldo puhul  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Tavaline ümardamine, ümardamistäpsus on 0,01
 

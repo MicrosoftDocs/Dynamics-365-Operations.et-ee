@@ -3,7 +3,7 @@ title: Varasematest versioonidest eemaldatud või aegunud funktsioonid
 description: Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid planeeritud eemaldamiseks tootest Dynamics 365 for Finance and Operations ja selle varasemast väljalaskest.
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225124"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284010"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasematest versioonidest eemaldatud või aegunud funktsioonid
 
@@ -230,7 +230,7 @@ Projektipõhiste müügitellimuste loomise toe, kui projektilepingul on mitu rah
 | **Asendatud teise funktsiooniga?**   | Nr |
 | **Mõjutatud tootealad**         | Tooteteabe haldus |
 | **Juurutamissuvand**              | Kõik  |
-| **Olek**                         | Eemaldatud alates versioonist Finance and Operations 10.0.0 platvormivärskendusega 24. (Kui ja ainult siis, kui peate parandama rikutud andmeid, mille põhjustas väljastatud toote esmasvõtme ümbernimetamine, võtke ühendust Microsofti tugiteenusega selle piirangu ajutise eemaldamise taotlemiseks.) |
+| **Olek**                         | Eemaldatud alates versioonist Finance and Operations 10.0.0 platvormivärskendusega 24.|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 platvormivärskendusega 23
@@ -267,7 +267,7 @@ Arendaja saab manustatud juhtimismõõdikuid (KPI-d) Visual Studio kaudu modelle
 | **Asendatud teise funktsiooniga?**   | See hoiatus asendatakse tulevikus kompileerimistõrkega. |
 | **Mõjutatud tootealad**         | Visual Studio arendustööriistad |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegunud: hoiatus muutub tulevikus kompileerimisaegseks tõrkeks. See muudatus viiakse läbi rakenduse Finance and Operations versiooni 10.0.11 platvormivärskenduste abil. |
+| **Olek**                         | Aegunud: hoiatus on Finance and Operationsi rakenduste versiooni 10.0.11 platvormivärskendustes kompileerimisaegne tõrge. |
 
 #### <a name="complete-list"></a>Täielik loend
 Aegunud API-de täielikule loendile juurdepääsuks vaadake jaotist [Meetodite ja metaandmeelementide aegumine](deprecation-deletion-apis.md).
