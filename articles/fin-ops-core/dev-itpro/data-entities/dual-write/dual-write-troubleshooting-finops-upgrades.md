@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59384d8e8d043eb14231a471c7218ced2dddf739
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172873"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275460"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Finance and Operationsi rakenduste täiendustega seotud probleemide tõrkeotsing
 
@@ -85,9 +85,8 @@ Kui probleem endiselt ei lahene, toimige järgmiselt.
 > Need toimingud juhendavad teid üksuse kustutamise ja seejärel uuesti lisamise protsessis. Probleemide vältimiseks järgige kindlasti juhiseid täpselt.
 
 1. Avage rakenduses Finance and Operations **Tööruumid \> Andmehaldus** ja valige paan **Andmeüksused**.
-2. Leidke väljalt puuduv üksus. Märkige sihtüksus, vahetabeli nimi, olemi nimi ja muud veeru väärtused.
-3. Kui mõni teie töötlemisgruppidest sõltub sellest üksusest, tehke enne üksuse kustutamist vajalikud toimingud töötlemisgruppide jaoks.
-4. Kustutage väljalt puuduv üksus.
-5. Valige **Uus**ja lisage olem uuesti. Määrake väärtused, mille märkisite etapis 2.
-6. Avage rakenduse Finance and Operations lehel **Topeltkirjutus** leht **Üksuse vastendamine**.
-7. Üksuse vastendustes väljade automaatseks täitmiseks valige **Värskenda üksuste loendit**.
+2. Leidke üksus, millel pole atribuuti. Klõpsake tööriistaribal nuppu **Muuda sihtmärgi vastendust**.
+3. Klõpsake paanil **Kaardil ajastamine sihtkohaks** suvandit **Loo vastendus**.
+4. Avage rakenduse Finance and Operations lehel **Topeltkirjutus** leht **Üksuse vastendamine**.
+5. Kui atribuuti ei asustata kaardil automaatselt, lisage see käsitsi, klõpsates nuppu **Lisa atribuut** ja seejärel käsku **Salvesta**. 
+6. Valige kaart ja klõpsake käsku **Käita**.

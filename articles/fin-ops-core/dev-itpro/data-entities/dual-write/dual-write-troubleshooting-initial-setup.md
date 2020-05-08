@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e20c9c5e1250c8e65b5642a7c45d7ae859315697
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172664"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275437"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Probleemide tõrkeotsing esmase häälestamise ajal
 
@@ -39,7 +39,7 @@ See teema annab teavet rakendustekomplekti Finance and Operations ja Common Data
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>Finance and Operationsi rakendust ei saa linkida Common Data Service'iga
 
-**Topeltkirjutuse seadistamiseks nõutav mandaat:** Azure AD rentniku administraator
+**Topeltkirjutuse seadistamiseks nõutav roll:** Finance and Operationsi rakenduste ja Common Data Service'i süsteemiadministraator.
 
 Tõrkeid lehel **Common Data Service'i häälestuse link** põhjustab tavaliselt puudulik häälestus või lubade probleemid. Veenduge, et kogu seisundikontroll läbitakse lehel **Common Data Service'i häälestuse link**, nagu näidatud järgmisel joonisel. Topeltkirjutust ei saa linkida, kui tervet seisundikontrolli pole läbitud.
 

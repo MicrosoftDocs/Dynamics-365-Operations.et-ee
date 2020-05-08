@@ -1,9 +1,9 @@
 ---
 title: Üldise töölehe üksuse abil kannete importimise head tavad
 description: Selles teemas on näpunäited andmete päevaraamatusse importimise kohta, kasutades üksust Päevaraamat.
-author: ShylaThompson
+author: rcarlson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 13ea54a6fc4ccdfbcc917b533fe9896d57bcb347
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769606"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281482"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Üldise töölehe üksuse abil kannete importimise head tavad
 
@@ -30,7 +30,7 @@ ms.locfileid: "2769606"
 
 Selles teemas on näpunäited andmete päevaraamatusse importimise kohta, kasutades üksust Päevaraamat.
 
-Saate kasutada üldise töölehe üksust, et importida kandeid, millel on konto või vastaskonto tüüp **Pearaamat, Klient, Hankija või Pank**. Kande saab sisestada ühe reana, kasutades nii välja **Konto** kui ka välja **Vastaskonto**, või mitmerealisena kandena, kus kasutatakse ainult välja **Konto** (ja valik **Vastaskonto** jäetakse igal real tühjaks). Üldine töölehe üksus ei toeta iga konto tüüpi. Selle asemel on olemas muud üksused stsenaariumide puhul, kus on vajalikud erinevad kontotüüpide kombinatsioonid. Näiteks projektikande importimiseks kasutage projektikulu töölehe üksust. Iga üksus on mõeldud konkreetsete stsenaariumide toetamiseks, mis tähendab, et nendele stsenaariumidele mõeldud üksustele, kuid mitte teistele stsenaariumidele mõeldud üksustele võib saadaval olla lisavälju.
+Saate kasutada üldise töölehe üksust, et importida kandeid, millel on konto või vastaskonto tüüp **Pearaamat**, **Klient**, **Hankija** või **Pank**. Kande saab sisestada ühe reana, kasutades nii välja **Konto** kui ka välja **Vastaskonto**, või mitmerealisena kandena, kus kasutatakse ainult välja **Konto** (ja valik **Vastaskonto** jäetakse igal real tühjaks). Üldine töölehe üksus ei toeta iga konto tüüpi. Selle asemel on olemas muud üksused stsenaariumide puhul, kus on vajalikud erinevad kontotüüpide kombinatsioonid. Näiteks projektikande importimiseks kasutage projektikulu töölehe üksust. Iga üksus on loodud toetama kindlaid stsenaariume. See tähendab, et nende stsenaariumide puhul võivad olla üksustes saadaval lisaväljad. Siiski ei pruugi lisaväljad olla saadaval eri stsenaariumide puhul.
 
 ## <a name="setup"></a>Häälestus
 Enne üldise töölehe üksuse abil importimist kontrollige järgmist seadistust.
@@ -44,7 +44,7 @@ Kaks sätet andmehalduses mõjutavad vaiketöölehe partiinumbri ja kandenumbri 
 - **Komplektipõhine töötlemine** (andmeüksuses)
 - **Automaatselt loodud** (välja vastendamisel)
 
-Järgmistes jaotistes kirjeldatakse nende sätete mõju ja selgitatakse, kuidas töölehe partiinumbreid ja kandenumbreid luuakse.
+Järgmistes jaotistes kirjeldatakse nende sätete mõju. Samuti selgitatakse, kuidas süsteem loob töölehtede ja kandenumbrite jaoks partiinumbreid.
 
 ### <a name="journal-batch-number"></a>Töölehe partiinumber
 
@@ -57,10 +57,10 @@ Järgmistes jaotistes kirjeldatakse nende sätete mõju ja selgitatakse, kuidas 
 
 ### <a name="voucher-number"></a>Kande number
 
-- Kui kasutate päevaraamatu üksuse seadistust **Kogumipõhine töötlemine**, tuleb imporditud failis esitada kande number. Igale päevaraamatu kandele määratakse imporditud failis antud kande number, isegi kui kanne pole tasakaalustatud. Kui soovite kasutada komplektipõhist töötlemist, kuid soovite kasutada ka numbriseeriat, mis on kandenumbritele määratletud, on 2016. aasta veebruari väljalaske jaoks tehtud kiirparandus. Kiirparanduse number on 3170316 ja selle saab laadida alla teenusest Lifecycle Services (LCS). Lisateavet leiate jaotisest [Värskenduste allalaadimine teenusest Lifecycle Services (LCS)](../migration-upgrade/download-hotfix-lcs.md).
+- Kui kasutate päevaraamatu üksuse seadistust **Kogumipõhine töötlemine**, tuleb imporditud failis esitada kande number. Igale päevaraamatu kandele määratakse imporditud failis antud kande number, isegi kui kanne pole tasakaalustatud. Kui soovite kasutada komplektipõhist töötlemist, kuid soovite kasutada ka numbriseeriat, mis on kandenumbritele määratletud, lugege järgmisi punkte.
 
     - Selle funktsiooni lubamiseks määrake töölehe nimel, mida importimisteks kasutatakse, valiku **Numbrite eraldamine sisestamisel** väärtuseks **Jah**.
-    - Imporditud failis tuleb sellegipoolest kandenumber määratleda. Kuid see number on ajutine ja kandenumber kirjutab selle töölehe sisestamisel üle. Peate veenduma, et töölehe read oleksid ajutise kandenumbriga õigesti grupeeritud. Näiteks sisestamise käigus leitakse kolm rida, millel on ajutine kandenumber 1. Kõigi kolme rea ajutine kandenumber kirjutatakse numbriseerias üle järgmise numbriseerias oleva numbriga. Kui need kolm rida ei ole tasakaalustatud kirje, siis kannet ei sisestata. Järgmiseks, kui leitakse ridu, mille ajutine kandenumber on 2, kirjutab selle numbri üle numbriseeria järgmine kandenumber jne.
+    - Imporditud failis tuleb sellegipoolest kandenumber määratleda. Kuid see number on ajutine ja kandenumber kirjutab selle töölehe sisestamisel üle. Veenduge, et töölehe read oleksid ajutise kandenumbriga õigesti grupeeritud. Näiteks sisestamise käigus leitakse kolm rida, millel on ajutine kandenumber 1. Kõigi kolme rea ajutine kandenumber kirjutatakse numbriseerias üle järgmise numbriseerias oleva numbriga. Kui need kolm rida ei ole tasakaalustatud kirje, siis kannet ei sisestata. Järgmiseks, kui leitakse ridu, mille ajutine kandenumber on 2, kirjutab selle numbri üle seeria järgmine kandenumber jne.
 
 - Kui te ei kasuta sätet **Komplektipõhine töötlemine**, ei pea te imporditud failis kandenumbrit sisestama. Kandenumbrid luuakse importimise ajal töölehe nime seadistuse põhjal (**Ainult üks kanne**, **Seoses saldoga** jne). Näiteks kui töölehe nimi on määratletud valikuga **Saldoga seoses**, saab esimene rida uue kande vaikenumbri. Seejärel hindab süsteem rida, et määratleda, kas deebetsummad võrduvad kreeditsummadega. Kui real on olemas vastaskonto, saab järgmine imporditav rida uue kande numbri. Kui vastaskontot pole, hindab süsteem iga uue rea importimisel, kas deebetsummad on kreeditsummadega võrdsed.
 - Kui väljale **Kande number** on määratud väärtus **Automaatselt loodud**, siis importimine ei õnnestu. Seadistust **Automaatselt loodud** väljal **Kande number** ei toetata.

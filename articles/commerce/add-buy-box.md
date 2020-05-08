@@ -3,7 +3,7 @@ title: Ostukasti moodul
 description: See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261394"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269747"
 ---
 # <a name="buy-box-module"></a>Ostukasti moodul
 
@@ -80,15 +80,15 @@ Uuele lehele ostukasti mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 1. Looge fragment nimega **ostukasti fragment** ja lisage sellele ostukasti moodul.
 1. Lisage ostukasti mooduli pesas **Meedia** meediumigalerii moodul.
 1. Lisage ostukasti mooduli pesasse **Kaupluse valik** kaupluse valija moodul.
-1. Registreerige leht ja avaldage see.
+1. Valige **Salvesta**, valige fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Looge toote üksikasjade lehel jaoks mall ja pange sellele nimeks **PDP mall**.
 1. Lisage vaikeleht.
 1. Lisage vaikelehe pessa **Peamine** ostukasti fragment.
-1. Salvestage mall, lõpetage selle redigeerimine ja seejärel avaldage see.
+1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Kasutage äsja loodud malli, et luua leht, mille nimi on **PDP leht**.
 1. Lisage uue lehe pessa **Peamine** ostukasti fragment.
 1. Salvestage ja kuvage lehe eelvaade. Lisage eelvaatelehe URL-ile päringustringi parameeter **?productid=&lt;toote ID&gt;**. Sel viisil kasutatakse eelvaatelehe laadimiseks ja renderdamiseks toote konteksti.
-1. Salvestage leht, lõpetage selle redigeerimine ja avaldage see. Toote üksikasjade lehele peaks ilmuma ostukast.
+1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. Toote üksikasjade lehele peaks ilmuma ostukast.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

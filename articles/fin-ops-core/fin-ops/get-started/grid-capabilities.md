@@ -3,7 +3,7 @@ title: Ruudustiku võimalused
 description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks tuleb uus ruudustikufunktsioon lubada.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: fd45f71fc15e467c461433682310ab7b7cc0158a
+ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260456"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284400"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
@@ -86,6 +86,23 @@ Kui valite käsu **Rühmita selle veeru alusel** mõnes teises veerus, asendatak
 
 Rühmitamise tagasivõtmiseks ruudustikus paremklõpsake rühmitataval veerul ja valige käsk **Tühista rühmitamine**.  
 
+## <a name="typing-ahead-of-the-system"></a>Süsteemist eespool tippimine
+Paljudes äriolukordades on väga oluline, et andmed sisestataks kiiresti süsteemi. Enne uue ruudustiku juhtelemendi kasutuselevõttu said kasutajad muuta andmeid ainult praeguses reas. Enne uue rea loomist või teise rea avamist pidid nad ootama, kuni süsteem kõik muudatused edukalt kinnitas. Selleks et vähendada aega, mil kasutajad ootavad kinnituste lõpule viimist, ja parandada kasutajate tootlikkust, kohandab uus ruudustik neid kinnitusi asünkroonselt. Seetõttu saab kasutaja avada muudatuste tegemiseks teisi ridu, samal ajal kui eelmise rea muudatused on veel ootel. 
+
+Selle uue funktsiooni toetamiseks on ruudustiku ülaosasse rea olekule lisatud uus veerg, kui ruudustik on redigeerimisrežiimis. See veerg näitab üht järgmistest olekutest.
+
+- **Tühi** – olekukujutise puudumine näitab, süsteem on rea edukalt salvestanud.
+- **Ootel töötlemine** – see olek näitab, et rea muudatusi pole veel serverisse salvestatud, aga need on töötlemist vajavate muudatuste järjekorras. Enne väljaspool ruudustikku toimingu tegemist peate ootama, kuni kõik ootel muudatused töödeldakse. Lisaks on nende ridade tekst kaldkirjas, et näidata ridade salvestamata olekut. 
+- **Kinnitamise hoiatus** – see olek näitab, et süsteem ei saa mõne kinnitamisprobleemi tõttu rea muudatusi salvestada. Vanas ruudustikus suunati teid tagasi rea juurde, et probleem kohe lahendada. Uues ruudustikus aga teavitatakse teid kinnitamisprobleemist, kuid te saate otsustada, millal soovite rea probleeme parandada. Kui olete valmis probleemi lahendama, saate fookuse käsitsi tagasi reale viia. Teise võimalusena saate valida toimingu **Probleemi lahendamine**. See tegevus viib kohe fookuse tagasi probleemsele reale ja võimaldab teil teha muudatusi ruudustiku sees või väljaspool seda. Pange tähele, et järgnevate ootel ridade töötlemine peatatakse seni, kuni see kinnitamise hoiatus on lahendatud. 
+- **Peatatud** – see olek näitab, et serveris on töötlemine peatatud, kuna rea kinnitamine käivitas hüpikdialoogiboksi, mis nõuab kasutaja tähelepanu. Kuna kasutaja võib olla sisestamas andmeid mõnele muule reale, ei kuvata kasutajale hüpikdialoogiboksi kohe. Selle asemel kuvatakse see siis, kui kasutaja valib töötlemise jätkamise. Olekule on lisatud teatis, milles teavitatakse kasutajat olukorrast. Teatis sisaldab tegevust **Jätka töötlemist**, mis käivitab hüpikdialoogiboksi.  
+    
+Kui kasutajad sisestavad andmeid kohas, kuhu serveritöötlus pole veel jõudnud, võib nende andmesisestuskogemus olla halvem, näiteks puuduvad otsingud, kontrolli tasemel kinnitamine ja vaikeväärtuste sisestamine. Kasutajatel, kellel on väärtuse leidmiseks vaja ripploendit, soovitatakse oodata, kuni server jõuab praegusele reale. Kontrolli tasemel kinnitamist ja vaikeväärtuste sisestamist saab samuti teha, kui server töötleb seda rida.   
+
+### <a name="pasting-from-excel"></a>Kleepimine Excelist
+Kasutajad on alati saanud eksportida andmeid Finance and Operationsi rakendustest rakendusse Excel, kasutades suvandit **Ekspordi Excelisse**. Kuna andmeid saab sisestada enne süsteemi, toetab uus ruudustik tabelite kopeerimist Excelist ja nende kleepimist otse Finance and Operationsi rakenduste ruudustikesse. Ruudustiku lahter, millelt kleepimistoimingut alustati, määrab, kuhu kopeeritud tabel kleebitakse. Ruudustiku sisu kirjutatakse kopeeritud tabeli sisuga üle, välja arvatud kahel järgmisel juhul.
+
+- Kui kopeeritud tabeli veergude arv ületab kleepimise asukohast alates ruudustikku jäävate veergude arvu, teavitatakse kasutajat, et lisaveergusid eirati. 
+- Kui kopeeritud tabeli ridade arv ületab kleepimise asukohast alates ruudustiku ridade arvu, kirjutatakse olemasolevad lahtrid kleebitud sisuga üle ja kõik kopeeritud tabeli lisaread lisatakse ruudustiku allossa uute ridadena. 
 
 ## <a name="evaluating-math-expressions"></a>Matemaatiliste avaldiste hindamine
 Tootlikkuse tõstmiseks saavad kasutajad sisestada ruudustiku numbrilahtritesse matemaatilisi valemeid. Nad ei pea tegema arvutust süsteemivälises rakenduses. Näiteks kui sisestate **=15\*4** ja vajutate siis väljalt välja liikumiseks **tabeldusklahvi**, hindab süsteem avaldist ja salvestab välja jaoks väärtuse **60**.
@@ -110,3 +127,64 @@ Selleks et süsteem tuvastaks avaldise väärtuse, käivitage väärtus võrdusm
 4.  **Luba funktsioon**: leidke funktsioon **Uus ruudustiku juhtelement** funktsioonide loendist ja valige üksikasjade paanilt suvand **Luba nüüd**. Pidage meeles, et brauseri värskendamine on nõutav. 
 
 Kõik järgmised kasutajaseansid algavad lubatud uue ruudustiku juhtelemendiga.
+
+## <a name="known-issues"></a>Teadaolevad probleemid
+Selles jaotises on toodud uue ruudustiku juhtelemendi teadaolevate probleemide loend, kuni funktsioon on eelvaate olekus.  
+
+### <a name="open-issues"></a>Lahendamata probleemid
+
+- Enne mitme veeruna renderdatud kaartide loendid renderdatakse nüüd ühe veeruna.
+- Grupeeritud loendeid ei renderdata gruppidena või eraldi veergudes.
+- Piltide puhul ei kuvata kohtspikreid.
+- Ruudujoonte kuvamine ei tööta kõigi väljatüüpide puhul.
+- Mõnikord pole pärast mitme rea valimist võimalik väljaspool ruudustikku klõpsata.
+- Tegevuse salvestaja suvandid **Kinnita** ja **Kopeeri** pole kuupäeva/numbri juhtelementide jaoks saadaval.
+
+### <a name="fixed-as-part-of-10012"></a>Parandatud versioonis 10.0.12
+
+> [!Note]
+> Järgmine teave on esitatud, et saaksite selle järgi oma plaane teha. Lisateavet versiooni 10.0.12 suunatud väljalaskegraafiku kohta leiate teemast [Teenusevärskenduste kättesaadavus](../../fin-ops/get-started/public-preview-releases.md).
+
+- [Probleem 429126] Pärast viimase kirje kustutamist ei värskendata väljaspool ruudustikku olevaid juhtelemente.
+- [Probleem 430575] Tabeli juhtelemendid ei värskenda kuvatud üksuste sisu.
+- [KB 4558570] Pärast kirje kustutamist kuvatakse lehel endiselt üksusi.
+- [KB 4558584] Negatiivseid numbreid ei renderdata õigesti.
+- [KB 4558575] Välju ei värskendata pärast rea muutmist / ruudustiku töötlemine takerdub pärast rea kustutamist.
+- [Probleem 436980] Loendipaneeliga **ExtendedStyle** seostatud stiili ei rakendata.
+- [KB 4558573] Kinnitamise tõrkeid ei saa parandada, kui vajalik muudatus tuleb teha väljaspool ruudustikku.
+    
+### <a name="quality-update-for-10011"></a>Versiooni 10.0.11 kvaliteedivärskendus
+
+- [KB 4558381] Negatiivseid numbreid ei renderdata õigesti / kasutajad ei saa mõnikord pärast kinnitamisprobleemide ilmnemist edasi liikuda.
+
+### <a name="fixed-as-part-of-10011"></a>Parandatud versioonis 10.0.11
+
+- [KB 4558374] Kirjeid, milleks on vaja polümorfse valija dialoogiboksi, ei saa luua.
+- [KB 4558382] Ilmnevad ootamatud klienditõrked.
+- [KB 4558375] Uue ruudustiku veergudes ei kuvata spikriteksti.
+- [KB 4558376] Loendipaneeli ruudustikke ei renderdata Internet Exploreris õigel kõrgusel.
+- [KB 4558377] Liitboksi veerge, mille laius on **SizeToAvailable**, ei renderdata mõnel lehel.
+- [KB 4549711] Maksesoovituse ridu ei saa pärast uue ruudustiku juhtelemendi lubamist õigesti eemaldada.
+- [KB 4558378] Süvitsimineku funktsioon avab mõnikord vale kirje.
+- [KB 4558379] Ilmneb tõrge, kui avatakse otsingud, mille säte **ReplaceOnLookup**=**Ei**.
+- [KB 4558380] Ruudustikus olevat vaba ruumi ei täideta kohe pärast lehe osa ahendamist.
+- [Probleem 432458] Mõne tütarkogumi alguses kuvatakse tühjasid või dubleeritud ridasid.
+- [KB 4558587] Viitegruppides, mille asendusväljadeks on liitboksid, ei kuvata väärtusi.
+
+### <a name="fixed-as-part-of-10010"></a>Parandatud versioonis 10.0.10
+
+- [Probleem 414301] Uute ridade loomisel kaob osa eelmistest ridadest pärit andmetest.
+- [KB 4550367] Kellaajaväärtused ei ole õigesti vormindatud.
+- [KB 4549734] Aktiivseid ridu ei kohelda märgituna, kui märkimisveerg on peidetud.
+- [Programmiviga 417044] Loendi tüüpi ruudustike jaoks pole tühja ruudustiku teadet.
+- [KB 4558367] Teksti valimine on ridade muutmisel ebajärjekindel.
+- [KB 4558372] Uus ruudustik takerdub töötlemisrežiimis, kui kleebitud sisu veergude arv ületab ruudustiku järelejäänud veergude arvu.
+- [KB 4558368] Klaviatuuri kaudu mitme valiku tegemine on ühe valiku tegemisel lubatud.
+- [KB 4539058] Mõnda ruudustikku (tavaliselt kiirkaarte) ei renderdata mõnikord (need renderdatakse, kui suumite välja).
+- [KB 4558369] Olekukujutised kaovad hierarhilises ruudustikus.
+- [KB 4558370] Uut rida ei kerita vaatevälja.
+- [KB 4549796] Väärtusi ei saa ruudustikus redigeerida, kui see on vaaterežiimis.
+
+### <a name="quality-update-for-1009platform-update-33"></a>Versiooni 10.0.9 kvaliteedivärskendus / platvormivärskendus 33
+
+- [KB 4550367] Kellaajaväärtused ei ole õigesti vormindatud.

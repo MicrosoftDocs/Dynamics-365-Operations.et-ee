@@ -3,7 +3,7 @@ title: Sisuploki moodul
 description: See teema hõlmab sisuploki mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f91de93ce5ed4813f9f2adbe7678229189b5af2f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: daf9193a7fdc3b57defbb3250ae902f6eb6ee6c4
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025754"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269678"
 ---
 # <a name="content-block-module"></a>Sisuploki moodul
 
@@ -79,10 +79,10 @@ Järgmine pilt näitab sisuploki mooduli näidet funktsiooni paigutusega.
 
 Uuele lehele pannoomooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
-1. Avage **Mallid** ja looge lehe mall nimega **sisuploki mall**.
+1. Avage **Mallid** ja looge lehe mall nimega **Sisuploki mall**.
 1. Lisage vaikelehe pessa **Peamine** pannoomoodul.
-1. Registreerige mall ja avaldage see.
-1. Kasutage äsja loodud pannoo malli, et luua leht, mille nimi on **sisuploki leht**.
+1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+1. Kasutage äsja loodud pannoo malli, et luua leht, mille nimi on **Sisuploki leht**.
 1. Vaikelehe pesas **Peamine** valige kolmikpunkti nupp (**...**) ja seejärel valige suvand **Lisa moodul**.
 1. Dialoogiaknas **Lisa moodul** jaotises **Moodulite valimine** valige pannoomoodul ja klõpsake seejärel nuppu **OK**.
 1. Valige vasakul liigendpuus sisuploki moodul.
@@ -93,14 +93,14 @@ Uuele lehele pannoomooduli lisamiseks ja vajalike atribuutide seadistamiseks toi
 1. Valige **Lisa link**.
 1. Lisage dialoogiaknas **Link** lingi tekst, lingi URL ja lingi ARIA-silt ning klõpsake seejärel nuppu **OK**.
 1. Valige **Pannoo** paigutus.
-1. Salvestage muudatused ja kuvage oma muudatuste eelvaade.
-1. Registreerige leht ja avaldage see.
+1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**.
+1. Valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. 
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Alustuskomplekti ülevaade](starter-kit-overview.md)
 
-[Reklaambänneri moodul](add-alert.md)
+[Kampaania ribareklaami moodul](add-alert.md)
 
 [Karusellmoodul](add-carousel.md)
 

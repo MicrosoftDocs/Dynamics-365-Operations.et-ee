@@ -3,7 +3,7 @@ title: 4xx/5xx olekukoodi tõrgete jaoks kohandatud vastuselehtede loomine
 description: Selles teemas kirjeldatakse, kuidas luua kohandatud vastuse lehekülgi 4xx ja 5xx olekukoodi tõrgete jaoks, kasutades rakenduse Microsoft Dynamics 365 Commerce autoriseerimise tööriistu.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4477a0a43971b5322c6acd6971cba2e79e2dc8c6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001116"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269540"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>4xx/5xx olekukoodi tõrgete jaoks kohandatud vastuselehtede loomine
 
@@ -46,19 +46,21 @@ Olekukoodi tõrkevastuse lehe loomise alustamiseks toimige järgmiselt.
 
 Olekukoodi tõrkevastuse lehe malli loomiseks toimige järgmiselt.
 
-1. Avage **Mallid \> Uus mall**.
-1. Andke uuele mallile nimi.
+1. Avage **Mallid**.
+1. Valige lehe malli loomiseks **Uus**.
+1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all uue malli nimi ja valige seejärel **OK**.
 1. Looge mall põhinedes struktuuril, mille soovite, et olekukoodi tõrkevastuse lehel olemas oleks.
-1. Registreerige mall ja avaldage see.
+1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. 
 
 ### <a name="build-the-status-code-error-response-page"></a>Olekukoodi tõrkevastuse lehe loomine
 
 Olekukoodi tõrkevastuse lehe loomiseks toimige järgmiselt.
 
-1. Avage **Lehed \> Uus leht**.
-1. Andke olekukoodi tõrkevastuse lehele nimi, kuid **ärge** määrake välja **URL**.
+1. Avage **Lehed**.
+1. Valige lehe loomiseks **Uus**.
+1. Valige mall dialoogiboksis **Vali mall** ja seejärel sisestage olekukoodi tõrkevastuse lehe pealkiri jaotises **Lehe nimi**. Jätke väli **Lehe URL** tühjaks.
 1. Looge leht.
-1. Registreerige leht ja avaldage see.
+1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
 > [!NOTE]
 > 4xx ja 5xx olekukoodi tõrgete jaoks saate luua eraldi olekukoodi tõrkevastuse lehed. Teise võimalusena saate mõlema tõrkekategooria puhul kasutada sama üldist olekukoodi tõrkevastuse lehte.

@@ -3,7 +3,7 @@ title: Saidil navigeerimise kohandamine
 description: Selles teemas kirjeldatakse, kuidas luua kohandatud veebipõhist navigeerimishierarhiat, et korrastada tooted rakenduse Microsoft Dynamics 365 Commerce saidil sirvimiseks.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ae7696dcb5cdd99cd46b89ed1de1b03c16146e2d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001825"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269655"
 ---
 # <a name="customize-site-navigation"></a>Saidil navigeerimise kohandamine
 
@@ -93,7 +93,7 @@ Navigeerimismenüüsse kohandatud navigeerimisesuvandite lisamiseks toimige jär
 1. Valige atribuudipaanil vahekaardil **Andmed** suvand **Lisa üksus**, et luua uus sisuhaldussüsteemi (CMS) navigeerimisüksus.
 1. Sisestage lingi tekst ja URL.
 1. Rohkemate kohandatud navigeerimissuvandite lisamiseks korrake samme 2 ja 3.
-1. Kui olete lõpetanud, salvestage mall või fragment ja registreerige see.
+1. Kui olete lõpetanud, valige malli või fragmendi salvestamiseks **Salvesta** ja seejärel selle registreerimiseks **Lõpeta redigeerimine**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

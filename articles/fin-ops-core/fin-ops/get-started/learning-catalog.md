@@ -3,20 +3,20 @@ title: Finance and Operationsi õppekataloog
 description: Leidke kõik rakendusekomplekti Finance and Operations koolitusvõimalused.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 02/19/2020
+ms.date: 04/17/2020
 ms.author: v-lshann
-audience: Application User
+audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: Operations
 ms.search.region: Global
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
-ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
+ms.search.validFrom: 2019-1-29
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 32b67cfd4c007ddc590cd0ee95255d6f3fbc1d17
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3077989"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278965"
 ---
 # <a name="learning-catalog-for-finance-and-operations"></a>Finance and Operationsi õppekataloog
 
@@ -33,6 +33,10 @@ Leidke õige võrgukoolitus, isiklikud seminarid ja sündmused teie rollile kui 
     Kas teie otsustate, kas investeerida uutesse tehnoloogiatesse? 
 
     [Äri- ja tehniliste otsuste tegijate õppekataloog](learning-catalog-bdm.md#)
+
+    [Alusta](learning-catalog-bdm.md#get-started)
+
+    [Eksam](learning-catalog-bdm.md#exam)
 
         :::column-end:::
     :::column:::
@@ -53,12 +57,14 @@ Leidke õige võrgukoolitus, isiklikud seminarid ja sündmused teie rollile kui 
 
     [Finantshaldus](learning-catalog-business-user.md#financial-management)
 
+    [Eksam](learning-catalog-business-user.md#exam)
+
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-        ### <a name="implementation-project-managers"></a>Juurutusprojekti juhid
+    ### <a name="implementation-project-managers"></a>Juurutusprojekti juhid
 
     Kas teie vastutate selle eest, et tagada ettevõtte sujuv juurutamine?
 
@@ -73,6 +79,9 @@ Leidke õige võrgukoolitus, isiklikud seminarid ja sündmused teie rollile kui 
     [Tootmine](learning-catalog-project-manager.md#manufacturing)
 
     [Hankeahela haldus](learning-catalog-project-manager.md#supply-chain-management)
+
+    [Eksamid](learning-catalog-project-manager.md#exams)
+
         :::column-end:::
     :::column:::
 
@@ -86,11 +95,15 @@ Leidke õige võrgukoolitus, isiklikud seminarid ja sündmused teie rollile kui 
 
     [Põhiplatvormi teave](learning-catalog-administrator.md#core-platform-knowledge)
 
+    [Peamine arendus](learning-catalog-administrator.md#core-development)
+
     [Migreerimine ja täiendamine](learning-catalog-administrator.md#migration-and-upgrade)
 
     [Hooldus](learning-catalog-administrator.md#servicing)
 
     [Testimisel](learning-catalog-administrator.md#testing)
+
+    [Eksam](learning-catalog-administrator.md#exam)
 
   :::column-end:::
 :::row-end:::
@@ -131,6 +144,8 @@ Leidke õige võrgukoolitus, isiklikud seminarid ja sündmused teie rollile kui 
 
     [Hankeahela haldamine](learning-catalog-functional-consultant.md#supply-chain-management)
 
+    [Eksamid](learning-catalog-functional-consultant.md#exams)
+
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -141,6 +156,10 @@ Leidke õige võrgukoolitus, isiklikud seminarid ja sündmused teie rollile kui 
     Kas vastutate oma klientide abistamise eest osta õige lahendus. 
 
     [Microsofti partneri müügi ja turunduse õppekataloog](learning-catalog-partner-sales.md)
+
+    [Alusta](learning-catalog-partner-sales.md#get-started)
+
+    [Eksam](learning-catalog-partner-sales.md#exam)
 
         :::column-end:::
     :::column:::

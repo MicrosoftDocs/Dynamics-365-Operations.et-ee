@@ -3,7 +3,7 @@ title: Reklaambänneri moodul
 description: See teema hõlmab reklaambänneri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: da5e220e4578d1064eb7b627b441d3f585b3c095
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 12cabbf0b8d9f337f15a8cd6cb1f2a85100b75f7
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025616"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269770"
 ---
 # <a name="promo-banner-module"></a>Reklaambänneri moodul
 
@@ -64,16 +64,17 @@ Reklaambännereid saab kasutada saidi päises, et näidata kogu saiti hõlmavaid
 
 Lehele reklaambänneri mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
-1. Looge lehe mall nimega **Reklaambänneri mall**.
+1. Valige lehe malli loomiseks **Uus**.
+1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all **Reklaambänneri mall** ja valige seejärel **OK**.
 1. Lisage jaotisse **Lehe liigendus** moodul **Vaikeleht** pesasse **Kehatekst**. 
-1. Registreerige mall ja avaldage see. 
+1. Valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. 
 1. Kasutage äsja loodud teatise malli, et luua leht, mille nimi on **Reklaambänneri leht**. 
 1. Lisage uue lehe pessa **Peamine** konteinermoodul. 
 1. Seadistage paremal paanil väärtus **Laius** olekusse **Täida konteiner**.
 1. Lisage jaotises **Lehe liigendus** konteineri moodulile reklaambänneri moodul.
 1. Lisage bänneri mooduli sätetes üks või mitu bänneri sõnumit. Igas sõnumis võib olla tekst koos lingiga. Et moodulit veelgi kohandada, võite redigeerida teisi atribuute.
-1. Salvestage ja kuvage lehe eelvaade. Lehe ülaosas peaksite nägema teatist teie lisatud tekstiga.
-1. Viige lõpuni lehe redigeerimine ja avaldage see. 
+1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**. Lehe ülaosas peaksite nägema teatist teie lisatud tekstiga.
+1. Valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. 
 
 > [!NOTE]
 > Reklaambännerit kasutatakse tavaliselt lehekülje päise pesas või alapealkirja pesas.

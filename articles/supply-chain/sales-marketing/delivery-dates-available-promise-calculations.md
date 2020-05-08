@@ -1,9 +1,9 @@
 ---
 title: Tellimuse lubamine
-description: See artikkel käsitleb tellimuse lubamist. Tellimuse lubamine aitab teil usaldusväärselt tarnekuupäevi klientidele lubada ja annab teile paindlikkuse, et saaksite neid kuupäevi täita.
+description: See teema käsitleb tellimuse lubamist. Tellimuse lubamine aitab teil usaldusväärselt tarnekuupäevi klientidele lubada ja annab teile paindlikkuse, et saaksite neid kuupäevi täita.
 author: ShylaThompson
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78b81431d44ea5f85676b6999eece1330d3101a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ccb7ef432553c0516eb49013eaad68dd21bf752c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210046"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270023"
 ---
 # <a name="order-promising"></a>Tellimuse lubamine
 
 [!include [banner](../includes/banner.md)]
 
-See artikkel käsitleb tellimuse lubamist. Tellimuse lubamine aitab teil usaldusväärselt tarnekuupäevi klientidele lubada ja annab teile paindlikkuse, et saaksite neid kuupäevi täita.
+See teema käsitleb tellimuse lubamist. Tellimuse lubamine aitab teil usaldusväärselt tarnekuupäevi klientidele lubada ja annab teile paindlikkuse, et saaksite neid kuupäevi täita.
 
 Tellimuse lubamine arvutab varaseimad lähetamise ja vastuvõtmise kuupäevad ning põhineb tarnekuupäeva kontrollimeetodil ja transpordipäevadel. Saate valida nelja tarnekuupäeva kontrollimeetodi vahel.
 
@@ -47,11 +47,13 @@ ATP arvutamiseks kasutatakse järgmist valemit.
 
 ATP = eelmise perioodi ATP + praeguse perioodi sissetulekud – praeguse perioodi väljaminekud – netoväljamineku kogus iga tulevase perioodi jaoks kuni periood, millal kõikide tulevaste perioodide sissetulekute summa (kuni tulevaste perioodideni ja need kaasa arvatud) on suurem kui väljaminekute summa (kuni tulevaste perioodideni ja need kaasa arvatud).  
 
+Pange tähele, et ATP arvutamine ei sisalda teavet aegumiskuupäeva ega ATP ajapiirist välja jääva aja kohta, mida süsteem eeldab, kui lubada saab mis tahes kogust.
+
 Kui rohkem väljaminekuid ja sissetulekuid ei ole, on järgmiste kuupäevade ATP kogus sama, mis viimane kalkuleeritud ATP.  
 
 Kui kõiki kaubale kasutatud dimensioonide ei ole ATP kontrolliks esitatud, võidakse need siiski määrata väljaminekutele ja sissetulekutele. Sel juhul peavad ATP arvutamisel olema väljaminekud ja sissetulekud olemasoleva dimensiooniga liidetud, et vähendada ATP arvutuses kasutatavaid väljaminekute ja sissetulekute ridasid.  
 
-Kuvatav ATP kogus on alati suurem kui 0 (null) või sellega võrdne. Kui arvutus tagastab negatiivse ATP koguse (nt kui eelnevalt lubatud kogus ületab saadaoleva koguse), määrab programm koguseks automaatselt **0**.
+Kuvatav ATP kogus on alati suurem kui 0 (null) või sellega võrdne. Kui arvutus tagastab negatiivse ATP koguse (nt kui eelnevalt lubatud kogus ületab saadaoleva koguse), määratakse koguseks automaatselt 0.
 
 ### <a name="example"></a>Näide
 

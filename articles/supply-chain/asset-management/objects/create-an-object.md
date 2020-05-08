@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f734def69ff50549acae1506015ce9b23a1b8a93
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5c77f32caad5e2e79cbc0e21f72a3daa79acecb
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209900"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274161"
 ---
 # <a name="create-an-asset"></a>Vara loomine
 
@@ -38,13 +38,13 @@ Selles teemas kirjeldatakse, kuidas varasid varahalduses luua.
 3. Dialoogiaknas **Loo varad** saate sisestada **Vara** (vara ID) ja vara nime andmed. Valige vara kuupäev ja kellaaeg väljal **Jõustunud**. Sellest kuupäevast alates saate vara installida töö asukohta, samuti vara teisaldada ja asendada vara struktuuris.
 4. Väljal **vara tüüp** valige vara jaoks vara tüüp (kohustuslik väli). Vajadusel valige vara jaoks **Vara tootja** ja **Vara mudel**. Kui on seadistatud ainult üks toode, valitakse see toode automaatselt väljal **Vara tootja**. Väljadel **Vara tootja** ja **Varamudel** saadaolevad valikud olenevad seadistusest jaotises [Vara tootja ja mudel](../setup-for-objects/product-and-model.md).
 5. Grupi **Emaettevõtte vara** väli **Vara** tühi vaikimisi. Vajadusel saate valida emaettevõtte vara ja seejärel täidetakse kõik **Emaettevõtte vara** grupi väljad automaatselt.
->[!NOTE]  
->Kui valite emaettevõtte vara, siis on saadaval kaks või kolm vahekaarti: vahekaart **Minu varad** sisaldab varasid, mis on seotud töö asukohtadega, kuhu teid (hooldustöötaja, kes on süsteemi logitud) on määratud. Kui töö asukohti pole seadistatud hooldustöötajale vormil [Hooldustöötajad ja töötajarühmad](../setup-for-objects/workers-and-worker-groups.md), pole vahekaart **Minu varad** nähtav. Vahekaart **Aktiivsed varad** sisaldab kõigi varade loendit, mille vara töötsükli olek on „Aktiivne”. Vahekaardil **Varade vaade** kuvatakse töö asukohtade puuvaade ja nendesse asukohtadesse paigaldatud varad.
+    >[!NOTE]  
+    >Kui valite emaettevõtte vara, siis on saadaval kaks või kolm vahekaarti: vahekaart **Minu varad** sisaldab varasid, mis on seotud töö asukohtadega, kuhu teid (hooldustöötaja, kes on süsteemi logitud) on määratud. Kui töö asukohti pole seadistatud hooldustöötajale vormil [Hooldustöötajad ja töötajarühmad](../setup-for-objects/workers-and-worker-groups.md), pole vahekaart **Minu varad** nähtav. Vahekaart **Aktiivsed varad** sisaldab kõigi varade loendit, mille vara töötsükli olek on „Aktiivne”. Vahekaardil **Varade vaade** kuvatakse töö asukohtade puuvaade ja nendesse asukohtadesse paigaldatud varad.
 
 6. Teie seadistatud töö vaikeasukohaks soovitatakse vara jaoks väljal **Vara** grupp > **Töö asukoht**. Valige vajadusel mõni muu töö asukoht.
 
->[!NOTE]
->Kui olete vara loonud, saate selle vajadusel paigaldada muule töö asukohale. Töö asukohta saab paigutada ainult ülataseme varasid (praeguse emaettevõtte varata varad). See tähendab, et installite nii ülataseme kui ka kõik valitud töö asukohas olevad tütarvarad. Lisateavet töö asukohtades olevate varade kohta lugege teemast [Töö asukohtade sissejuhatus](../functional-locations/introduction-to-functional-locations.md).
+    >[!NOTE]
+    >Kui olete vara loonud, saate selle vajadusel paigaldada muule töö asukohale. Töö asukohta saab paigutada ainult ülataseme varasid (praeguse emaettevõtte varata varad). See tähendab, et installite nii ülataseme kui ka kõik valitud töö asukohas olevad tütarvarad. Lisateavet töö asukohtades olevate varade kohta lugege teemast [Töö asukohtade sissejuhatus](../functional-locations/introduction-to-functional-locations.md).
 
 7. Klõpsake valikut **OK**.
 8. Lisateabe lisamiseks varale valige vara loendis **Kõik varad** ja klõpsake nuppu **Muuda**.

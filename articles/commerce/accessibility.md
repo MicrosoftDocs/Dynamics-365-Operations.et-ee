@@ -3,7 +3,7 @@ title: Hõlbustusfunktsioonid ja -võimalused
 description: Selles teemas kirjeldatakse rakenduse Microsoft Dynamics 365 Commerce hõlbustusfunktsioone ja -võimalusi.
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3edc6250dd5438be31d80a9d6b0f3b730438ca53
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001756"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274184"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Hõlbustusfunktsioonid ja -võimalused
 
@@ -49,7 +49,7 @@ Dynamics 365 Commerce digitaalse varahalduse süsteem toetab paljusid video sisu
 
 | Video funktsioon               | Kirjeldus |
 |-----------------------------|-------------|
-| Suletud pealdis (CC)      | Tekst, mida saab kuvada video heli-ja audio kirjeldavate elementide jaoks, et aidata kasutajaid, kes on kuulmispuudega |
+| Suletud pealdis (CC)      | Tekst, mida saab kuvada video heli- ja audiot kirjeldavate elementide jaoks, et aidata kasutajaid, kes on kurdid või vaegkuuljad |
 | Subtiitrid                   | Pealdise failid, mis näitavad konteksti vihjete või dialoogi kuvamise teksti |
 | Audio ärakirjad           | Video-vara helist loodud räägitud sõnade tekstiline koopia |
 | Kirjeldav heli           | Mitte esmane heli kanal, mis kirjeldab ekraanil kuvatavat sisu või konteksti |
@@ -57,7 +57,7 @@ Dynamics 365 Commerce digitaalse varahalduse süsteem toetab paljusid video sisu
 
 ### <a name="configure-video-accessibility-elements"></a>Video hõlbustusfunktsioonide elementide konfigureerimine
 
-Dynamics 365 Commerce saidi jaotises **varad** saate üles laadida video varad, millel on suletud pealdiste, korrapärase heli ja kirjeldava heli jaoks eraldi failid. Suletud pealdisi saab ka automaatselt luua, kui video vara üles laaditakse.
+Oma saidi jaoks saate Commerce'i jaotises **meediumiteek** üles laadida video varad, millel on suletud pealdiste, korrapärase heli ja kirjeldava heli jaoks eraldi failid. Suletud pealdisi saab ka automaatselt luua, kui video vara üles laaditakse.
 
 #### <a name="generate-or-upload-closed-caption-files-during-video-asset-upload"></a>Suletud pealdise failide loomine või üleslaadimine video vara üleslaadimise ajal
 
@@ -72,7 +72,7 @@ Kui soovite video üleslaadimisel suletud pealdise faili käsitsi üles laadida,
 Video tavaliste heli-või kirjeldavate helifailide üleslaadimiseks kasutage dialoogiaknas **vara üleslaadimine** faili valijat.
 
 > [!NOTE]
-> Pärast video vara üleslaadimist saab lisada ka suletud pealdise, korrapärase heli ja kirjeldava heli vara. Liikuge **varale**, valige video vara ja vaadake seda, seejärel valige video vara paanil atribuudid lisavarad.
+> Pärast video vara üleslaadimist saab lisada ka suletud pealdise, korrapärase heli ja kirjeldava heli vara. Liikuge **meediumiteeki**, valige video vara ja siis **Redigeeri**, et seda vaadata. Seejärel laadige lisavarad üles video vara atribuutide paanil.
 
 #### <a name="edit-cc-and-audio-transcript-files"></a>CC ja audio-kirjutuse failide redigeerimine
 
@@ -80,10 +80,10 @@ CC ja audio-kirjutuse faile saab redigeerida otse autorluse tööriistas. Video 
 
 CC ja audio-kirjutuse failide redigeerimiseks toimige järgmiselt.
 
-1. Minge jaotisesse **varad**, valige video vara ja seejärel valige käsk **Redigeeri koopiat/ärakirja** Kuvatakse suletud pealdise ja ärakirja sisu redaktor.
-1. Valige suvand **Registreeri välja**.
+1. Avage **meediumiteek** ja valige video vara failinimi. Kuvatakse suletud pealdise ja ärakirja sisu redaktor.
+1. Valige suvand **Redigeeri**.
 1. Saate redigeerida suletud pealdise või ärakirja teksti.
-1. Kui olete lõpetanud, valige **Salvesta**ja seejärel valige **Registreeri**.
+1. Kui olete lõpetanud, valige **Salvesta** ja seejärel **Lõpeta redigeerimine**.
 1. Kui olete avaldamiseks valmis, valige **avalda**.
 
 #### <a name="set-the-minimum-age-attribute"></a>Vanuse alampiiri atribuudi määramine
@@ -92,8 +92,8 @@ CC ja audio-kirjutuse failide redigeerimiseks toimige järgmiselt.
 
 Video vara **vanuse alampiiri** atribuudi määramiseks järgige neid samme.
 
-1. Minge jaotisesse **varad** ja valige video vara.
-1. Valige suvand **Registreeri välja**.
+1. Avage **meediumiteek** ja valige video vara.
+1. Valige suvand **Redigeeri**.
 1. Määrake video vara paanil atribuudid **vanuse alampiiri** atribuut.
 
 > [!NOTE]
@@ -112,3 +112,5 @@ Video vara **vanuse alampiiri** atribuudi määramiseks järgige neid samme.
 [Küpsise vastavus](cookie-compliance.md)
 
 [Privaatsuspoliitika lehe lisamine](add-privacy-page.md)
+
+[Jälgitud sisumuudatustega seostatud kasutaja ID-de asendamine](replace-IDs-tracked-changes.md)

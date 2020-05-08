@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
-ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
+ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3224905"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268812"
 ---
 # <a name="quality-management-overview"></a>Kvaliteedijuhtimise ülevaade
 
@@ -43,7 +43,11 @@ Kvaliteedijuhtimine on paindlik ja seda saab rakendada mitmesugusel moel, et jä
 
 -   Saate kvaliteedikontrolli protsessi automaatselt käivitada, tuginedes eelnevalt määratletud kriteeriumidele (konkreetse hankija ostutellimuse registreerimisel laos).
 -   Kontrollimise ajal varude blokeerimine, et vältida heakskiitmata varude kasutamist (ostutellimuse koguste täielik blokeerimine).
--   Saate kasutada kauba valimit kvaliteediseose osana jooksvate füüsiliste varude hulga määratlemiseks, mida kontrollida tuleb. Valimi aluseks võib olla fikseeritud kogus või protsent.
+-   Saate kasutada kauba valimit kvaliteediseose osana jooksvate füüsiliste varude hulga määratlemiseks, mida kontrollida tuleb. Valimi aluseks võib olla fikseeritud kogus, protsent või kogu litsentsiplaat.
+
+> [!NOTE]
+> Funktsioon _Kvaliteedijuhtimine laoprotsesside jaoks_ laiendab kvaliteedijuhtimise võimalusi. Kui kasutate seda funktsiooni, leiate jaotisest [Kvaliteedijuhtimine laoprotsesside jaoks](quality-management-for-warehouses-processes.md) näiteid selle kohta, kuidas kvaliteedijuhtimine lubamise korral töötab.
+
 -   Looge kvaliteettellimused osaliste tarnete jaoks. Kvaliteettellimuse loomiseks, mis põhineb tellimusega füüsiliselt saadud kogusel, peate märkima ruudu **Värskendatud koguse kohta** vormil **Kauba valim**.
 -   Saate luua katsetüüpe, mis sisaldavad katse minimaalset, maksimaalset ja sihtväärtust ning teha kvalitatiivset vs kvantitatiivset kontrolli, millel on eelnevalt määratud valideerimistulemused.
 -   Määrake sobiv kvaliteeditase (AQL) kvaliteedimeetme hälvete kontrollimiseks.
@@ -428,6 +432,9 @@ Kui määrate tootmisel välja **Sündmuse tüüp** väärtuseks **Lõpetamise k
 </tbody>
 </table>
 
+> [!NOTE]
+> Funktsioon *Kvaliteedijuhtimine laoprotsesside jaoks* lisab võimalusi kvaliteettellimuse töötlemiseks tootmise puhul, mille **Sündmuse tüüp** on seatud väärtusele *Teata lõpetamisest* ja **Käivitamine** väärtusele *Pärast*, ning ostude puhul, mille **Sündmuse tüüp** on seatud väärtusele *Registreerimine*. Lisateavet leiate jaotisest [Kvaliteedijuhtimine laoprotsesside jaoks](quality-management-for-warehouses-processes.md).
+
 ## <a name="quality-management-pages"></a>Kvaliteedijuhtimise lehed
 <table>
 <colgroup>
@@ -437,7 +444,7 @@ Kui määrate tootmisel välja **Sündmuse tüüp** väärtuseks **Lõpetamise k
 </colgroup>
 <thead>
 <tr class="header">
-<th>Leht</th>
+<th>Lehekülg</th>
 <th>Kirjeldus</th>
 <th>Näide</th>
 </tr>
@@ -495,3 +502,5 @@ Kvaliteediseos tuleb automaatset kvaliteettellimuse genereerimist nõudvas ärip
 [Kvaliteedijuhtimise protsessid](quality-management-processes.md)
 
 [Mittevastavuse haldus](enable-nonconformance-management.md)
+
+[Kvaliteedijuhtimine laoprotsesside jaoks](quality-management-for-warehouses-processes.md)
