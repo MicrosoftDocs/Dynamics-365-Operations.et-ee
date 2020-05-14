@@ -18,10 +18,8 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: Platformi versiooni 10.0.10 värskendused (mai 2020)
                   href: get-started/whats-new-platform-update-34.md
-                - name: Platform update 33 (aprill 2020)
+                - name: Platformi värskendus 33 (aprill 2020)
                   href: get-started/whats-new-platform-update-33.md
-                - name: Platform update 32 (veebruar 2020)
-                  href: get-started/whats-new-platform-update-32.md
             - name: Eemaldatud või aegunud funktsioonid
               items:
                 - name: Eemaldatud või aegunud Platformi funktsioonid
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Topeltkirjutuse häälestus teenustest Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: Esialgne sünkroonimine
-                              href: data-entities/dual-write/initial-sync.md
                             - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
                               items:
                                 - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
@@ -556,6 +552,16 @@
                   href: dev-tools/development-system-requirements.md
             - name: 'Versioonijuhtimine, metaandmete otsing ja navigeerimine'
               href: dev-tools/version-control-metadata-navigation.md
+            - name: Automatiseerimise loomine Azure'i abil
+              items:
+                - name: Automatiseerimise loomine Microsofti majutatavate agentide ja Azure Pipelinesi abil
+                  href: dev-tools/hosted-build-automation.md
+                - name: Litsentsifailide lisamine Azure Pipelinesi juurutatavale paketile
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: Juurutatavate pakettide loomine Azure Pipelinesis
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: X++ mudeli versioonimine Azure Pipelinesis
+                  href: dev-tools/pipeline-model-version.md
             - name: Sõidukipargi halduse näidisrakendus
               items:
                 - name: Sõidukipargi halduse näidisrakenduse täielik stsenaarium
@@ -1396,6 +1402,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Kasutajate määramine turberollidesse
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Turbediagnostika tegevuse salvestiste jaoks
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
             - name: Pakktöötlus
               items:
                 - name: Pakktöötluse ülevaade
