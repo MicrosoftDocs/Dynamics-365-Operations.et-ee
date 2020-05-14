@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 1. mai 2020
+          href: hr-whats-new-2020-05-01.md
         - name: 13. aprill 2020
           href: hr-whats-new-2020-04-13.md
         - name: 3. aprill 2020
@@ -99,7 +101,7 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: Kohandatud väljade loomine ja nendega töötamine
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: Rakenduste PowerApps manustamine
+            - name: PowerAppsi rakenduste manustamine
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: Teabe leidmiseks otsingute abil
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
@@ -503,6 +505,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: Puhkuse katkestamine
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Töötaja puhkuse haldamine
+              href: hr-leave-and-absence-manage-employee-leave.md
             - name: Puhkuste ja puudumiste analüüsi kuvamine
               href: hr-leave-and-absence-analytics.md
             - name: Puhkuste ja puudumiste taotluste haldamine

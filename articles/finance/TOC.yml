@@ -990,6 +990,8 @@
               href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: Projekti prognoosid ja eelarved
               href: project-management/project-forecasts-budgets.md
+            - name: Eelarvemudelite loomine projektieelarvete jaoks
+              href: project-management/create-forecast-models-project-budgets.md
             - name: Projekti eelarvete ülekandmine finantsaasta lõpus
               href: project-management/process-project-budgets-for-fiscal-year-end.md
             - name: Projekti müügitellimused
@@ -1742,8 +1744,8 @@
               items:
                 - name: Ungari ülevaade
                   href: localizations/hungary.md
-                - name: Vahetuskursi arvutamine
-                  href: localizations/tasks/hu-00001-exchange-rate-calculation.md
+                - name: Keskmise vahetuskursi ja päevakursi arvutamine
+                  href: localizations/emea-hun-average-daily-exchange-rate-calculation.md
                 - name: Põhivarade kulumiarvestuse meetodid
                   href: localizations/emea-hun-fixed-assets-depreciation-methods.md
                 - name: Allahinnatud põhivarad
@@ -2284,6 +2286,8 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL-i integreerimine
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
+                - name: 'Auditifail (XML Auditfile Financieel, XAF)'
+                  hred: localizations/emea-nl-audit-file.md
             - name: Norra
               items:
                 - name: Norra ülevaade
@@ -2930,7 +2934,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
                 - name: Finantsdimensioonide lisamine koondmõõtmistele
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: Analüütiliste aruannete loomine PowerBI Desktopi abil
+                - name: Analüütiliste aruannete loomine Power BI Desktopi abil
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Analüütika lisamine tööruumidele teenuse Power BI Embedded abil
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
@@ -2978,7 +2982,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Ettevalmistatud ER-lahenduse testimine sihtrakenduses
                       items:
-                        - name: (ER) Konfiguratsioonide importimine RCS-ist
+                        - name: Konfiguratsioonide importimine RCS-ist
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                         - name: Elektrooniliste dokumentide loomine maksete jaoks vormingukonfiguratsiooni abil
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
@@ -3026,6 +3030,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/finance/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
+                        - name: Today
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
                     - name: Loend
                       items:
                         - name: Loendi funktsioonid
@@ -3240,12 +3246,6 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: Vormingute loomisel andmemudelite määratluste valimine
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Täiustatud filtreerimise võimalus konfiguratsioonide leidmiseks globaalses hoidlas
-              href: ../finance/localizations/enhanced-filtering-global-repo.md
-            - name: Aruannete loomine toore XML-i sisu lisamisega
-              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
-            - name: (ER) Ettevõtteülesed andmeallikad elektroonilises aruandluses
-              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
             - name: ER-vormingute kujundamine väljaminevate elektrooniliste dokumentide loomiseks eri vormingutes
               items:
                 - name: (ER) OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine
@@ -3270,44 +3270,12 @@
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
             - name: ER-konfiguratsioonide sõltuvuse määramine teistest komponentidest
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: ER-lahenduse kujundamine finantsdimensioonide kasutamiseks
-              items:
-                - name: Andmemudelite loomine finantsdimensioonide kasutamiseks andmeallikatena
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/finance/toc.json
-                - name: Mudelite vastendamine finantsdimensioonide kasutamiseks andmeallikatena
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/finance/toc.json
-                - name: Aruannete loomine finantsdimensioonide kasutamiseks andmeallikatena
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
-                - name: Finantsdimensioone andmeallikatena kasutavate aruannete käivitamine
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
-            - name: 'ER-vormingute kujundamine loendamiseks ja summeerimiseks, kasutades loodud väljundi teavet'
-              items:
-                - name: Vormingute loomine loendamiseks ja summeerimiseks
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/finance/toc.json
-                - name: Vormingu konfigureerimine loendamiseks ja summeerimiseks
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/finance/toc.json
-                - name: Arvutuste kasutamine loendamise ja liitmise väljundi loomiseks
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/finance/toc.json
-                - name: Vormingute käivitamine loendamiseks ja summeerimiseks
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/finance/toc.json
             - name: Dünaamiline veergude lisamine Exceli aruannetesse horisontaalselt laiendatavate vahemikena
               items:
                 - name: Vormingute kujundamine veergude dünaamilisteks lisamiseks Exceli aruannetesse horisontaalselt laiendatavate vahemikena
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                 - name: Vormingute käivitamine veergude dünaamiliseks lisamiseks Exceli aruannetesse horisontaalselt laiendatavate vahemikena
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
-            - name: Dokumendihalduse failide kasutamine vorminguväljundites
-              items:
-                - name: Andmemudelite ettevalmistamine dokumendihalduse failide kasutamiseks ER-väljundites
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/finance/toc.json
-                - name: Andmemudelite laiendamine dokumendihalduse failide kasutamiseks ER-väljundites
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/finance/toc.json
-                - name: Vormingute loomine dokumendihalduse failide kasutamiseks ER-väljundites
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/finance/toc.json
-                - name: Vormingute käivitamine dokumendihalduse failide kasutamiseks ER-väljundites
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
-                - name: Vormingute muutmine ja käivitamine dokumendihalduse failide kasutamiseks ER-väljundites
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
             - name: Rakenduse andmete värskendamine elektroonilise aruandluse abil
               items:
                 - name: Elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine
@@ -3340,8 +3308,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: Loodud XML-failide tükeldamine failimahu ja sisukoguse alusel
               href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
-            - name: Arvutatud välja tüübi ER-andmeallikate parametriseeritud kõnede toetamine
-              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
             - name: Konfiguratsiooni elutsükkel
               items:
                 - name: Konfiguratsioonide elutsükli haldamine
@@ -3361,23 +3327,67 @@
                     - name: Konfiguratsioonide allalaadimine RCS-i tüüpi ER-hoidlavormingutest
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Konfiguratsioonide importimine RCS-ist
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
             - name: Õppetükid
               items:
-                - name: Mitme rakenduse tabeli andmete saamiseks kasutage JOIN-i andmete allikaid
-                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                - name: Teave andmeallikate kasutamise kohta
+                  items:
+                    - name: LIITMISE kasutamine andmete toomiseks mitmest tabelist
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: Toore XML-i sisu kasutamine sisu lisamiseks
+                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
+                    - name: ARVUTATUD VÄLJA andmeallikate parametriseeritud kõnede toetamine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                    - name: Kontsernisisesed ER-andmeallikad
+                      href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: FINANTSDIMENSIOONIDE ÜKSIKASJADE andmeallikate kasutamine
+                      items:
+                        - name: Andmemudelite kujundamine
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/finance/toc.json
+                        - name: Mudelite vastendamine finantsdimensioonide kasutamiseks
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/finance/toc.json
+                        - name: Aruannete kujundamine
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
+                        - name: Aruannete käivitamine
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+                    - name: Loodud väljundi andmeallikana kasutamine loendamiseks ja summeerimiseks
+                      items:
+                        - name: Vormingute loomine
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/finance/toc.json
+                        - name: Vormingu konfigureerimine loendamiseks ja summeerimiseks
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/finance/toc.json
+                        - name: Loendamise ja liitmise väljundi loomine
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/finance/toc.json
+                        - name: Vormingute käivitamine loendamiseks ja summeerimiseks
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/finance/toc.json
+                    - name: DOKUMENTIDE suhete kasutamine dokumendihalduse failidele juurdepääsuks
+                      items:
+                        - name: Andmemudelite ettevalmistamine
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/finance/toc.json
+                        - name: Andmemudelite laiendamine dokumendihalduse failide kasutamiseks
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/finance/toc.json
+                        - name: Vormingute loomine
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/finance/toc.json
+                        - name: Vormingute käivitamine dokumendihalduse failide kasutamiseks
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
+                        - name: Vormingute muutmine ja käivitamine dokumendihalduse failide kasutamiseks
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
+                        - name: Andmeallikate silumine
+                          href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
                 - name: Riigi kontekstist sõltuva ER-mudeli vastenduste konfigureerimine
-                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
                 - name: ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
                 - name: ER-vormingu parameetrite seadistamine juriidilise isiku kohta
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
                 - name: ER-vormingu elementide käivitamise edasilükkamine
                   items:
                     - name: Järjestuse elemendi käivitamise edasilükkamine
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
                     - name: XML elemendi käivitamise edasilükkamine
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                - name: Suhteline tee andmesidemetes
+                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Elektroonilise aruandluse lahenduste kasutamine Finance and Operationsis
               items:
                 - name: Raamistiku konfigureerimine
@@ -3385,7 +3395,11 @@
                     - name: Elektroonilise aruandluse raamistiku konfigureerimine
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json
                     - name: ER-mallide varundamine ja taastamine
-                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
+                      items:
+                        - name: ER-mallide varukoopia salvestamine
+                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
+                        - name: ER-migratsiooni puhastamine
+                          href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/finance/toc.json
                     - name: Konfiguratsioonipakkujate loomine ja nende märkimine aktiivseks
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Sihtkohad

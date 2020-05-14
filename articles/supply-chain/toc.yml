@@ -425,6 +425,8 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Hooldusolek
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Varahalduse integreerimine Dynamics 365 Guidesiga
+              href: asset-management/asset-management-guides-integration.md
             - name: Varahalduse mobiilne tööruum
               href: asset-management/asset-management-mobile-workspace.md
         - name: Andmehaldus
@@ -703,7 +705,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Finantsdimensioonide lisamine koondmõõtmistele
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Analüütiliste aruannete loomine PowerBI Desktopi abil
+                - name: Analüütiliste aruannete loomine Power BI Desktopi abil
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Analüütika lisamine tööruumidele teenuse Power BI Embedded abil
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1135,7 +1137,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Õppetükid
               items:
-                - name: Mitme rakenduse tabeli andmete saamiseks kasutage JOIN-i andmete allikaid
+                - name: Mitme rakenduse tabeli andmete saamiseks kasutage LIITMISE andmete allikaid
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Riigi kontekstist sõltuva ER-mudeli vastenduste konfigureerimine
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: Planeerimise optimeerimise ülevaade
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Negatiivset laoseisu käsitletakse tühja laoseisuna
+                - name: Negatiivsete vabade kogustega plaanimine
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Planeerimise optimeerimisega alustamine
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,8 +2655,6 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Min-max täiendamisprotsessi seadistamine
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: Ostutellimuste jaoks töömalli seadistamine
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
             - name: Lao rakenduse installimine ja konfigureerimine
               items:
                 - name: Installimise ja konfigureerimise ülevaade
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Mobiilsete seadmete seadistamine laotöö jaoks
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Identifitseerimisnumbri vastuvõtmine ladustamise mobiilirakendusega
+                - name: Identifitseerimisnumbri vastuvõtmine lao rakendusega
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Mobiilse seadme menüükäsu seadistamine ostutellimuse töö lõpetamiseks
                   href: warehousing/tasks/set-up-mobile-device-menu.md
