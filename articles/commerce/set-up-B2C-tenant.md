@@ -3,7 +3,7 @@ title: B2C rentniku seadistus Kaubanduses
 description: Selles teemas kirjeldatakse kuidas seadistada Azure Active Directory (Azure AD) ettevõtja ja tarbija vahelisi (B2C) rentnikke kasutaja saidi autentimiseks rakenduses Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 04/17 /2020
+ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f4768eede43003aac892b861b4a86ababe98a189
-ms.sourcegitcommit: 063c4d7155be6c2cadcafa1630d16ee235285479
+ms.openlocfilehash: 22d62419c703c64470723cf82864a4782306ea8a
+ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270206"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295265"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C rentniku seadistus Kaubanduses
 
@@ -87,7 +87,7 @@ B2C rakenduse loomiseks toimige järgmiselt.
 
 ### <a name="reply-urls"></a>Vastuse URL-id
 
-Vastuse URL-id on olulised, kuna need lubavad tagastusdomeenide lubatud üksuste loendi, kui teie sait küsib Azure AD B2C kasutaja autentimist. See lubab autenditud kasutajal pöörduda tagasi domeeni, kuhu nad sisse logivad (teie saidi domeen). 
+Vastuse URL-id on olulised, kuna need tagavad tagastusdomeenide lubatud üksuste loendi, kui teie sait küsib Azure AD B2C kasutaja autentimist. See lubab autenditud kasutajal pöörduda tagasi domeeni, kuhu ta sisse logib (teie saidi domeen). 
 
 Akna **Azure AD B2C - Rakendused \> Uus rakendus** kastis **Vastuse URL** tuleb lisada eraldi read nii saidi domeenile kui ka (kui teie keskkond on ette valmistatud) Commerce'i loodud URL-ile. Need URL-id peavad alati kasutama kehtivat URL-vormingut ja need peavad olema ainult alus-URL-id (neile ei järgne kaldkriipse ega teid). Seejärel tuleb lisada string ``/_msdyn365/authresp`` alus-URL-idele, nagu järgnevates näidetes illustreeritud.
 
@@ -121,7 +121,7 @@ Registreerimise ja sisselogimise kasutajavoo poliitika loomiseks toimige järgmi
 
     | **Atribuudi kogumine** | **Nõude tagastamine** |
     | ---------------------- | ----------------- |
-    |                        | Meiliaadressid   |
+    | Meiliaadress          | Meiliaadressid   |
     | Eesnimi             | Eesnimi        |
     |                        | Identiteedipakkuja |
     | Perekonnanimi                | Perekonnanimi           |
@@ -246,10 +246,6 @@ Peakontori väsrkendamiseks uue Azure AD B2C teabega toimige järgmiselt.
     1. Väljale **Tüüp** sisestage **Avalik**.
     1. Väljale **Kasutajatüüp** sisestage **Klient**.
 1. Valige toimingupaanil nupp **Salvesta**.
-1. Otsinguväljal Commerce otsige **Numbriseeriaid** (Organisatsiooni haldus > Numbriseeriad).
-1. Tehke tegevuspaani jaotises **Haldamine** valik **Redigeeri**.
-1. Kiirkaardil **Üldine** määrake suvandi **Käsitsi** olekuks **Ei**.
-1. Valige toimingupaanil nupp **Salvesta**. 
 1. Sisestage Commerce'i otsingulahtrisse **Jaotusegraafik**
 1. Lehe **Jaotusegraafik** vasakpoolses navigeerimismenüüs valige töö **1110 globaalne konfiguratsioon**.
 1. Valige toimingupaanil käsk **Käivita kohe**.
@@ -304,13 +300,14 @@ AAD B2C rentniku rakenduse teabe lisamiseks Commerce'i toimige järgmiselt.
 1. Sisestage järgmised nõutavad üksused kuvatud vormile, kasutades oma B2C rentniku ja rakenduse väärtusi. Väljad, mis ei ole kohustuslikud (ilma tärnita), võivad jääda tühjaks.
 
     - **Rakenduse nimi**: teie B2C rakenduse nimi, näiteks „Fabrikam B2C”.
-    - **Rentniku nimi**: teie B2C rentniku nimi, näiteks „Fabrikami”.
+    - **Rentniku nimi**: teie B2C rentniku nimi (nt „fabrikam“, kui domeen kuvatakse B2C rentnikule kui „fabrikam.onmicrosoft.com“). 
     - **Poliitika ID parooli unustamise korral**: kasutajavoo poliitika ID parooli unustamise korral, näiteks „B2C_1_PasswordReset”.
     - **Registreerumise sisselogimise poliitika ID**: kasutajavoo poliitika ID registreerumiseks ja sisselogimiseks, näiteks „B2C_1_signup_signin”.
     - **Kliendi GUID**: B2C rakenduse ID, näiteks „22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6”.
     - **Profiilipoliitika ID redigeerimine**: kasutajavoo poliitika ID profiili redigeerimiseks, näiteks „B2C_1A_ProfileEdit”.
 
 1. Valige nupp **OK**. Nüüd peaks olema teie B2C rakenduse nimi loendis kuvatud.
+1. Oma muudatuste salvestamiseks valige **Salvesta**.
 
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>B2C rakenduse seostamine teie saidi ja kanaliga
 

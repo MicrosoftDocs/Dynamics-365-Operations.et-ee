@@ -3,7 +3,7 @@ title: Näita allahindlusi kassas
 description: Selle teema all selgitatakse, kuidas Microsoft Dynamics 365 Commerce aitab müügipartneritel õppida tundma kampaaniaid ja seda, kuidas neid saab kasutada ristmüümis- ja edasimüümisiikumisteks.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/06/2020
+ms.date: 05/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
+ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265575"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334704"
 ---
 # <a name="show-discounts-in-pos"></a>Näita allahindlusi kassas
 
@@ -54,9 +54,9 @@ Lehel **Kõik allahindlused** saavad müügiesindajad otsida allahindlusi ka mä
 
 Multiallahindlus, nt koguseallahindlused, segu- ja sobitusallahindlused ning läveallahindlused, on suurepärane viis klientide motiveerimiseks ostma rohkem tooteid, et saada suuremaid allahindlusi. Seetõttu aitavad need suurendada ka kliendi ostukorvi ja jaemüüja tulu. Neid allahindlusi saab avaldada e-kaubanduse veebisaitidel, sotsiaalmeediumis ja kauplusebänneritel.
 
-Kuid isegi kui kasutatakse kõiki neid avalikustamismeetodeid, võivad kliendid jääda kampaaniate kasutamise võimalustest ilma. Kui soovite, et müügiesindajad teaksid, milliseid kampaaniaid on võimalik rakendada valitud real või isegi kogu ostukorvi ulatuses, võivad jaemüüjad lisada toimingunupu "Kuva kõik allahindlused" kassa mis tahes nupuruudustikule. Soovitame see nupp lisada lehe **Kanne** nupuruudustikule. Sel viisil saab müügiesindaja valida kanderea ja seejärel valida see nupp, et kuvada kõik valitud reale vastavad allahindlused. Müügiesindaja saab valida ka muu vahekaardi, et näidata allahindlusi, mis kehtivad kogu kandele.
+Kuid isegi kui kasutatakse kõiki neid avalikustamismeetodeid, võivad kliendid jääda kampaaniate kasutamise võimalustest ilma. Kui soovite, et müügiesindajad teaksid, milliseid kampaaniaid on võimalik rakendada valitud real või isegi kogu ostukorvi ulatuses, võivad jaemüüjad lisada toimingunupu „Kuva saadaolevad allahindlused“ lehe **Tehing** mis tahes nupuruudustikule. Sel viisil saab müügiesindaja valida kanderea ja seejärel valida see nupp, et kuvada kõik valitud reale vastavad allahindlused. Müügiesindaja saab valida ka muu vahekaardi, et näidata allahindlusi, mis kehtivad kogu kandele.
 
-Varem mainitud lehel **Kõik allahindlused** kuvatakse ainult need allahindlused, mis ei konkureeri ühegi rakendatud allahindlusega. Selline käitumine aitab tagada, et kui müügiesindaja teavitab klienti allahindlusest ja klient võtab vajalikud meetmed (nt klient ostab veel ühe üksuse, et saada 10 protsenti allahindlust), rakendatakse allahindlus kandele. Nagu varem mainitud, kuvatakse kupongil põhinevad allahindlused ainult siis, kui suvand **Rakenda ilma kupongikoodita** on sisse lülitatud.
+Lehel **Kõik allahindlused** kuvatakse ainult need allahindlused, mis ei konkureeri ühegi rakendatud allahindlusega. Selline käitumine aitab tagada, et kui müügiesindaja teavitab klienti allahindlusest ja klient võtab vajalikud meetmed (nt klient ostab veel ühe üksuse, et saada 10 protsenti allahindlust), rakendatakse allahindlus kandele. Kupongil põhinevad allahindlused kuvatakse ainult siis, kui suvand **Rakenda ilma kupongikoodita** on sisse lülitatud.
 
 Lihtsa stsenaariumi korral, kus kõik allahindlused on sama prioriteediga, on koosallahindluse režiim **Seotud** ja koosallahindluse korrigeerimise juhtelement on seatud **Parim hind ja seotus prioriteedi piires, mitte kunagi prioriteetide seotus**, lehel **Kõik allahindlused** kuvatakse toote kõik olemasolevad allahindlused, sest kõik allahindlused on seotud ja omavahel ei konkureeri.
 

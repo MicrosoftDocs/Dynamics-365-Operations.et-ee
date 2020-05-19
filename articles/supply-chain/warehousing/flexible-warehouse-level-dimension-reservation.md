@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205663"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346464"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Paindliku laotaseme dimensiooni reserveerimise poliitika
 
@@ -233,7 +233,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Valige suvand <strong>Alista asukoht</strong> lao mobiilirakenduses (WMA), kui käivitate töö komplekteerimise.</li>
+<li>Valige suvand <strong>Alista asukoht</strong> ladustamisrakenduses, kui käivitate töö komplekteerimise.</li>
 <li>Valige <strong>Soovita</strong>.</li>
 <li>Kinnitage uus asukoht, mis on soovitatud partii koguse kättesaadavuse alusel.</li>
 </ol>
@@ -250,7 +250,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Ei</td>
 <td>
 <ol>
-<li>Valige suvand <strong>Alista asukoht</strong> lao mobiilirakenduses (WMA), kui käivitate töö komplekteerimise.</li>
+<li>Valige suvand <strong>Alista asukoht</strong> ladustamisrakenduses, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage asukoht käsitsi.</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Pole kohaldatav</td>
 <td>
 <ol>
-<li>Valige lao mobiilirakenduses (WMA) menüüsuvand <strong>Täis</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige ladustamisrakenduses menüüsuvand <strong>Täis</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Komplekteeri kogus</strong> nõutava komplekteerimise osaline kogus, et näidata kogu võimsust.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Alustage teisaldamist WMA-ga.</li>
+<li>Alustage teisaldamist ladustamisrakenduses.</li>
 <li>Sisestage alg- ja lõppasukohad.</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Valige lao mobiilirakenduses (WMA) menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige ladustamisrakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Väljale <strong>Põhjus</strong> sisestage väärtus <strong>Ümberjaotamine puudub</strong>.</li>
 </ol>
@@ -498,7 +498,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Valige lao mobiilirakenduses (WMA) menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige ladustamisrakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Väljale <strong>Põhjus</strong> sisestage väärtus <strong>Ümberjaotamine puudub</strong>.</li>
 </ol>
@@ -522,7 +522,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Valige lao mobiilirakenduses (WMA) menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige ladustamisrakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Lühikese komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Valige väljal <strong>Põhjus</strong> suvand <strong>Lühike komplekteerimine koos käsitsi ümberjaotamisega</strong>.</li>
 <li>Valige loendist asukoht/litsentsiplaat.</li>
@@ -548,7 +548,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Ei</td>
 <td>
 <ol>
-<li>Valige lao mobiilirakenduses (WMA) menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige ladustamisrakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Lühikese komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Valige väljal <strong>Põhjus</strong> suvand <strong>Lühike komplekteerimine koos käsitsi ümberjaotamisega</strong>.</li>
 </ol>
@@ -561,7 +561,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Ei</td>
 <td>
 <ol>
-<li>Valige lao mobiilirakenduses (WMA) menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige ladustamisrakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Lühikese komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Valige väljal <strong>Põhjus</strong> suvand <strong>Lühike komplekteerimine koos käsitsi ümberjaotamisega</strong>.</li>
 <li>Valige loendist asukoht/litsentsiplaat.</li>
@@ -585,7 +585,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Pole kohaldatav</td>
 <td>
 <ol>
-<li>Valige lao mobiilirakenduses (WMA) menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige ladustamisrakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Lühikese komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Valige väljal <strong>Põhjus</strong> suvand <strong>Lühike komplekteerimine koos automaatse ümberjaotamisega</strong>.</li>
 </ol>

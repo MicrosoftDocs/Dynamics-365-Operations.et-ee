@@ -1,6 +1,6 @@
 ---
-title: Identifitseerimisnumbri vastuvõtmine ladustamise mobiilirakenduse kaudu
-description: Selles teemas selgitatakse, kuidas häälestada ladustamise mobiilirakendust, et toetada identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
+title: Identifitseerimisnumbri vastuvõtmine ladustamisrakenduse kaudu
+description: Selles teemas selgitatakse, kuidas häälestada ladustamisrakendust, et toetada identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
 author: perlynne
 manager: tfehr
 ms.date: 03/31/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 98cd608edea1d5365d0d3532244f1fcdb6293d3c
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 7d5ac6598ab80ece0164d7c92f5d84e91d21b385
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261322"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346372"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-mobile-app"></a>Identifitseerimisnumbri vastuvõtmine ladustamise mobiilirakenduse kaudu
+# <a name="license-plate-receiving-via-the-warehousing-app"></a>Identifitseerimisnumbri vastuvõtmine ladustamisrakenduse kaudu
 
-Selles teemas selgitatakse, kuidas häälestada ladustamise mobiilirakendust, et see toetaks identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
+Selles teemas selgitatakse, kuidas häälestada ladustamisrakendust, et see toetaks identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
 
 Selle funktsiooni abil saate kiiresti kirjendada sissetulevate varude vastuvõtmist, mis on seotud saadetise eelteatisega (ASN). Süsteem loob automaatselt ASN-i, kui üleviimistellimuse saatmiseks kasutatakse laohaldusprotsesse. Ostutellimuse protsessi puhul saab ASN-i käsitsi kirjendada või automaatselt importida sissetuleva ASN-i andmeüksuse protsessi abil.
 
@@ -63,7 +63,7 @@ For more information about the *Report as finished* production scenario, see the
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Kuva või jäta vastuvõtmise kokkuvõte leht
 
-Saate kasutada funktsiooni *Kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes*, et kasutada täiendava üksikasjaliku lao rakenduse voogu identifitseerimisnumbri vastuvõtmisprotsessi osana.
+Saate kasutada funktsiooni *Kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes*, et kasutada täiendava üksikasjaliku ladustamisrakenduse voogu identifitseerimisnumbri vastuvõtmisprotsessi osana.
 
 Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse seda funktsiooni järgneval viisil.
 

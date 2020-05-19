@@ -3,7 +3,7 @@ title: Planeerimise optimeerimise sobivuse analüüs
 description: Selles teemas selgitatakse, kuidas kontrollida praegust seadistust ja andmeid planeerimise optimeerimise funktsiooni võimaluste suhtes.
 author: ChristianRytt
 manager: tfehr
-ms.date: 04/17/2020
+ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0382e78942e6cb2047e37b76f1daf5725638d5c3
-ms.sourcegitcommit: 915ee7c59ef5fbd4927c10840e5c5e8652f667a9
+ms.openlocfilehash: 9bf19604d246988e05b91c8a41b1f57b523d2192
+ms.sourcegitcommit: 73ae66c9464bcc9ddc1efbf4e76abb2758862fe6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3277794"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346649"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planeerimise optimeerimise sobivuse analüüs
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 Et näha, kui hästi teie praegune seadistus ja andmed planeerimise optimeerimise funktsiooniga ühilduvad, avage **Koondplaneerimine** \> **Seadistus** \> **Planeerimise optimeerimise sobivuse analüüs** ja valige seejärel **Käivita analüüs**. Kui analüüs tuvastab vastuolusid, loetletakse need samal lehel. (Analüüsimise käitamiseks võib kuluda mõni minut.)
@@ -73,6 +72,7 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | Kontsernisisene | Koondplaanid, mis hõlmavad plaanitud sissetulevat nõudlust: _\#_ | See funktsioon on ootel. Sellest sättest hoolimata ei hõlma koondplaneerimine praegu sissetulevat planeeritud nõudlust, kui planeerimise optimeerimine on lubatud. Pange tähele, et väljastatud/kinnitatud tellimused töötavad endiselt tüüpiliste kontsernisiseste funktsioonidega ja hõlmavad enamikku stsenaariume. |
 | Kanban | Kauba laovarude kirjed, mille plaanitud tellimusetüüp on kanban: _\#_ | See funktsioon on ootel. Praegu eiratakse kanbaniks määratud kauba laovarusid, kui planeerimise optimeerimine on lubatud. Plaanitud tellimusetüübi kanban puhul kuvatakse koondplaneerimise ajal hoiatus ja seotud nõudluse täitmiseks luuakse plaanitud ostutellimused. |
 | Kanban | Kanban-tellimuse vaiketüübiga kaubad: _\#_ | Praegu eiratakse kanbaniks määratud vaiketellimusetüüpi, kui planeerimise optimeerimine on lubatud. Vaiketellimusetüübi kanban puhul kuvatakse koondplaneerimise ajal hoiatus ja seotud nõudluse täitmiseks luuakse plaanitud ostutellimused. |
+| Toote töötsükli olek   | Toote töötsükli olekud pole planeerimiseks aktiivsed: _\#_ | See on ootel funktsioon. Hetkel toote töötsükli olekut ignoreeritakse, kui planeerimise optimeerimine on lubatud. Saate korrigeerida plaani taseme tootefiltrit, et vältida toodete kaasamist, kui planeerimisel on toote töötsükli olek keelatud. |
 | Tootmine | Ümardamise või mitme häälestusega koosluseread: _\#_ | See funktsioon on ootel. Sellest sättest hoolimata eiratakse praegu koosluseridade puhul ümardamist ja mitut häälestust, kui planeerimise optimeerimine on lubatud. |
 | Tootmine | Valemi mõõtmisega koosluse-/valemiread: _\#_ | See funktsioon on ootel. Sellest sättest hoolimata eiratakse praegu koosluse- ja valemiridade puhul valemi mõõtmist, kui planeerimise optimeerimine on lubatud. |
 | Tootmine | Kauba asendamisega koosluse-/valemiread (plaanigrupid): _\#_ | See funktsioon on ootel. Sellest sättest hoolimata eiratakse praegu koosluse- ja valemiridade puhul kauba asendamist (plaanigruppe), kui planeerimise optimeerimine on lubatud. |
@@ -99,7 +99,7 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | Müügipakkumised | Koondplaanid, mille müügipakkumised on lubatud: _\#_ | See funktsioon on ootel. Praegu eiratakse pakkumisi, kui planeerimise optimeerimine on lubatud. Neid eiratakse, hoolimata sellest sättest. |
 | Kõlblikkusaeg | Koondplaanid, mille kõlblikkusaeg on lubatud: _\#_ | See funktsioon on ootel. Hoolimata sellest sättest eiratakse praegu kõlblikkusaega, kui planeerimise optimeerimine on lubatud. |
 
-## <a name="related-resources"></a>Seotud ressursid
+## <a name="additional-resources"></a>Lisaressursid
 
 [Planeerimise optimeerimise ülevaade](planning-optimization-overview.md)
 
