@@ -42,7 +42,7 @@ Enne kui saate alustada Attracti kaudu tööd teenusega LinkedIn Recruiter, peat
 2. **Kasutajasätete valimine**.
 3. Valige vahekaardil **Ühendused** suvand **Ühenda** **LinkedIni** kõrval. Järgige LinkedIni pakutavaid juhiseid.
 
-    ![[Seadista ühendus teenusega LinkedIn Recruiter Attractist](./media/attract-setup-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
+    ![[Seadista ühendus teenusega LinkedIn Recruiter Attractist](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
 
 ## <a name="view-linkedin-candidates-in-attract"></a>Vaadake LinkedIni kandidaate Attractis
 
