@@ -1,6 +1,6 @@
 ---
 title: Rakenduse väljanimede konfigureerimine rakenduses Ladustamine
-description: See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Dynamics 365 Supply Chain Managementis.
+description: See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Dynamics 365 Supply Chain Management-is.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 06/20/2017
@@ -19,23 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f9b02b93895757580b323a4cd891909d5551ea55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0390900d97e74bb9fd8deac913b1606cb775aa7c
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205755"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346395"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Rakenduse väljanimede konfigureerimine rakenduses Ladustamine
 
 [!include [banner](../includes/banner.md)]
 
-See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Dynamics 365 Supply Chain Managementis. 
+See teema kirjeldab, kuidas määratleda ja konfigureerida ladustamisrakenduse väljade nimesid ning prioriteete Dynamics 365 Supply Chain Management-is. 
 
 > [!NOTE]
 > See teema kehtib laohalduse funktsioonidele. See ei kehti funktsioonidele moodulis Varude haldus. Ladustamine on rakendus, mille abil saate täita laos vajalikke ülesandeid. Saate määratleda ja konfigureerida rakenduses kasutatavaid väljanimetusi, samuti konfigureerida prioriteeti, millele väljanimed tuleb määrata. See teema selgitab, kuidas neid ladustamisrakenduse väljade nimesid ja prioriteete määratleda ning konfigureerida ja kuidas neid moodulis Ladustamine kasutada. Üksikasjalikku teavet selle kohta, kuidas konfigureerida lao ühendamist, leiate juhendist [Laorakenduse installimise ja konfigureerimise ülevaade](install-configure-warehousing-app.md).
 
-## <a name="configure-warehouse-app-field-names"></a>Laorakenduse väljade nimede konfigureerimine
+## <a name="configure-warehousing-app-field-names"></a>Ladustamisrakenduse välja nimede konfigureerimine
 
 Kui kasutate moodulit Ladustamine mobiilses seadmes, saate seadmes metaandmete kuvamise viisi konfigureerida lehel **Laorakenduse väljade nimed**. Valige uues ettevõttes käsk **Loo vaikeseadistus**, et luua kõik väljanimed, mida kasutatakse lao mobiilse seadme töövoogudes, ning seejärel määrake neile eelistatud sisestusrežiim ja sisestustüüp. Kui kõik väljanimed on loodud, saate valida järgmisi sisestusvalikuid.
 
@@ -68,7 +68,7 @@ Kui kasutate moodulit Ladustamine mobiilses seadmes, saate seadmes metaandmete k
 </tbody>
 </table>
 
-## <a name="configure-warehouse-app-field-priority"></a>Laorakenduse väljade prioriteedi konfigureerimine
+## <a name="configure-warehousing-app-field-priority"></a>Ladustamisrakenduses välja prioriteetide konfigureerimine
 
 Lehel **Laorakenduse väljade prioriteet** saate panna väljanimed erinevatesse prioriteedigruppidesse. See võimaldab otsustada, milline teave tuleb kuvada ülesande põhilehel, kui laotöötajad täidavad ülesandeid rakendust kasutades. Kui klõpsate valikut **Loo vaikeseadistus**, luuakse prioriteedigruppide vaikekomplekt. Prioriteedigruppe saab luua nii palju kui vaja, kuid ülesandelehel kuvatakse ainult kolm. Kui süsteem saadab metaandmed rakendusse, määrab see igale väljale suhtelise prioriteedi olenevalt selle prioriteedigrupist ja rakendus kuvab ülesandelehel kolm esimest metaandmetes sisalduvat prioriteedigruppi. Ülejäänud metaandmed kuvatakse teisel, üksikasjade lehel. Järgmises tabelis on toodud näide viiest prioriteedigrupist.
 
@@ -132,7 +132,7 @@ Näiteks kui laotöötaja täidab ülesannet mobiilses seadmes, sisaldavad raken
 -   Kauba kirjeldus
 -   Suurus ja asukoht
 
-Ülaltoodud tabelis seadistatud laorakenduse väljade prioriteedi põhjal kuvatakse ülesandelehel järgmised kolm teaberida.
+Ülaltoodud tabelis seadistatud ladustamisrakenduse väljade prioriteedi põhjal kuvatakse ülesandelehel järgmised kolm teaberida.
 
 -   1. rida: kaup, kogus, mõõtühik
 -   2. rida: kauba kirjeldus

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 479a7edd456a1f4d121ceef292d2559c400c31a2
-ms.sourcegitcommit: c30a9956d9c29a504856487a3a98090eef9aab2b
+ms.openlocfilehash: 0b71a76b348941f5a010e2f3e4bbb2fa60d37101
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3266319"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346349"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.11 (juuli 2020)
 
@@ -40,7 +40,7 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi eelvaa
 See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingitud saidiga [Väljalaske plaanid](https://docs.microsoft.com/dynamics365/release-plans/) lisateabe andmiseks. Täiendavad lingid viitavad täiendavatele dokumentidele või videotele, mis on selle funktsiooni jaoks praegu saadaval. Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 
 - [Vaba kaubavaru aruande talletamine](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [Ladustamise mobiilirakenduse täiustusi vastu võttev litsentsiplaat](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - Lisateavet leiate teemast [Ladustamise mobiilirakenduse kaudu täiustusi vastu võttev litsentsiplaat](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Ladustamisrakenduse täiustusi vastu võttev litsentsiplaat](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) – lisateavet leiate teemast [Ladustamisrakenduse kaudu täiustusi vastu võttev litsentsiplaat](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 - [Rea reserveerimise täiustused partiinumbri reserveerimise vormi jaoks](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)  - Lisateavet leiate teemast [Sama partii reserveerimine müügitellimuse jaoks](../sales-marketing/reserve-same-batch-sales-order.md)
 - [Tootmisala uued andmeüksused](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [Koorma oodatust suurem sissetulek](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) – Lisateavet leiate teemast [Ostutellimuste sissetulevate koormate laohaldus](../warehousing/inbound-load-handling.md).

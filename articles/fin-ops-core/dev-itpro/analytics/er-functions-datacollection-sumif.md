@@ -3,7 +3,7 @@ title: ER-i funktsioon SUMIF
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni SUMIF.
 author: NickSelin
 manager: kfend
-ms.date: 12/04/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 374569d3bbe59f1b96eee9c789b97b7b2a6004bf
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 9df7be0825203f91434d348385c1ee358ae555ea
+ms.sourcegitcommit: ef6fd78c817f93610771cfb2477f52f16b882164
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042477"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "3290196"
 ---
-# <a name="SUMIF">ER-i funktsioon SUMIF</a>
+# <a name=""></a><a name="SUMIF">ER-i funktsioon SUMIF</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,6 +62,8 @@ Argumendis `condition value` saab kasutada metamärki **„\*”**, et tähistad
 ## <a name="example"></a>Näide
 
 Lisateavet selle funktsiooni kasutamise kohta vaadake tegevuse juhisest [ER-i loendamise ja liitmise vormingu väljundi kasutusandmed](tasks/er-format-counting-summing-1.md), mis on äriprotsessi **IT-teenuse/-lahenduse komponentide hankimine/arendamine** osa.
+
+Selle funktsiooni kasutamise kohta lisateabe ja näidete saamiseks vt teemasid [ER-vormingu elementide järjestuse käivitamise edasilükkamine](er-defer-sequence-element.md#Example) ja [XML-elementide käivitamise edasilükkamine ER-vormingus](er-defer-xml-element.md#Example).
 
 ## <a name="additional-resources"></a>Lisaressursid
 

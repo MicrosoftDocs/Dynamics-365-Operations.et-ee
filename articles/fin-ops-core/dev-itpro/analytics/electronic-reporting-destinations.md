@@ -3,7 +3,7 @@ title: Elektroonilise aruandluse (ER) sihtkohad
 description: See teema annab teavet elektroonilise aruandluse (ER) sihtkohtade halduse, toetatud sihtkohtade tüüpide ja turvalisuse kaalutluste kohta.
 author: nselin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
-ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
+ms.openlocfilehash: 1bad9e5094f0daa260f66ecd429233f20a2545a5
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150811"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323688"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroonilise aruandluse (ER) sihtkohad
 
@@ -52,7 +52,36 @@ Olemas on ka sihtkoha tüüp [Printimine](er-destination-type-print.md). Selle k
 
 ## <a name="overview"></a>Ülevaade
 
-Võite seadistada sihtkohad ainult imporditud ER-i konfiguratsioonidele, mis on [imporditud](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) praegusesse Finance'i eksemplari ja vormingutele, mis on saadaval lehel **Elektroonilise aruandluse konfiguratsioonid**. ER sihtkohahalduse funktsionaalsus on saadaval jaotises **Organisatsiooni haldus** \> **Elektrooniline aruandlus** \> **Elektroonilise aruandluse sihtkoht**. Lehel **Elektroonilise aruandluse sihtkoht** saate konfiguratsiooni vaikekäitumise tühistada. Imporditud konfiguratsioone ei kuvata siin lehel enne, kui valite **Uus** ja seejärel valite väljal **Viide** konfiguratsiooni, millele sihtkoha sätted luua.
+Võite seadistada sihtkohad ainult imporditud ER-i konfiguratsioonidele, mis on [imporditud](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) praegusesse Finance'i eksemplari ja vormingutele, mis on saadaval lehel **Elektroonilise aruandluse konfiguratsioonid**. ER sihtkohahalduse funktsionaalsus on saadaval jaotises **Organisatsiooni haldus** \> **Elektrooniline aruandlus** \> **Elektroonilise aruandluse sihtkoht**.
+
+### <a name="default-behavior"></a>Vaikekäitumine
+
+ER-vormingu konfiguratsiooni vaikekäitumine sõltub käitamistüübist, mille ER-vormingu käivitumisel sätestate.
+
+Kui seate kiirkaardi **Käivita taustal** dialoogiaknas **Intrastat-aruanne** suvandi **Partiitöötlus** väärtuseks **Ei**, siis käivitatakse ER-vorming kohe interaktiivses režiimis. Kui käivitamine on edukalt lõpule viidud, siis muutub loodud väljaminev dokument allalaadimiseks kättesaadavaks.
+
+Kui seate suvandi **Partiitöötlus** väärtuseks **Jah**, siis käivitatakse ER-vorming [partiirežiimis](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Luuakse partiitöö, mis vastab parameetritele, mille olete sätestanud dialoogiakna **ER-parameetrid** vahekaardil **Käivita taustal**.
+
+> [!NOTE]
+> Käivitatakse töö kirjeldus, et anda teile teavet ER-vorminguvastenduse käitamise kohta. Samuti sisaldab see käivitatud ER komponendi nime.
+
+[![ER-vormingu käitamine](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+
+Selle töö kohta leiate teavet mitmest kohast.
+
+- Avage **Üldine** \> **Päringud** \> **Partiitööd** \> **Minu partiitööd**, et kontrollida plaanitud töö olekut.
+- Avage **Organisatsiooni haldus** \> **Elektrooniline aruandlus** \> **Elektroonilise aruandluse tööd**, et kontrollida plaanitud töö olekut ja lõpule viidud töö käitamistulemusi. Kui töö on edukalt lõpule viidud, siis valige lehel **Elektroonilise aruandluse tööd** suvand **Kuva failid**, et saada loodud väljaminev dokument.
+
+    > [!NOTE]
+    > Dokumenti säilitatakse praeguse töökirje manusena ja seda kontrollib [dokumendihalduse](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) raamistik. Seda tüüpi ER-artefaktide talletamiseks kasutatud [dokumendi tüüpi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) konfigureeritakse [ER-parameetrite](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) all.
+
+- Valige lehel **Elektroonilise aruandluse tööd** suvand **Kuva failid**, et näha töö teostamisel tekkinud tõrgete ja hoiatuste loetelu.
+
+    [![ER-i tööde nimekirja ülevaatus](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+
+### <a name="user-configured-behavior"></a>Kasutaja konfigureeritud käitumine
+
+Lehel **Elektroonilise aruandluse sihtkoht** saate konfiguratsiooni vaikekäitumise tühistada. Imporditud konfiguratsioone ei kuvata siin lehel enne, kui valite **Uus** ja seejärel valite väljal **Viide** konfiguratsiooni, millele sihtkoha sätted luua.
 
 [![Konfiguratsiooni valimine väljal Viide](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
@@ -148,7 +177,7 @@ PDF-i teisenduse valikut saab sisse lülitada ainult faili komponentide puhul, m
 >
 > Toodetud PDF-fail on piiratud maksimaalselt 300 leheküljega.
 >
-> Praegu toetatakse Exceli väljundist loodud PDF-dokumendi juures ainult horisontaalpaigutust.
+> Microsoft Dynamics 365 Finance'i versioonis 10.0.9 (aprill 2020) toetatakse Exceli väljundist loodud PDF-dokumendi juures ainult horisontaalpaigutust. Dynamics 365 Finance'i versiooni 10.0.10 (mai 2020) väljalaskega saate [sätestada lehe paigutuse](#SelectPdfPageOrientation) PDF-dokumendis, mis on loodud ER-i sihtkoha konfigureerimisel Exceli väljundi põhjal.
 >
 > Väljundi teisendamisel kasutatakse ainult tavalisi Windowsi operatsioonisüsteemi süsteemifonte, mis ei sisalda manustatud fonte.
 

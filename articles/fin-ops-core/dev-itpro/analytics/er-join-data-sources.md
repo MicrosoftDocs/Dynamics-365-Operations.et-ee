@@ -3,7 +3,7 @@ title: Andmeallikate JOIN kasutamine elektroonilises aruandluse (ER) mudeli vast
 description: Selles teema selgitatakse, kuidas saate kasutada elektroonilises aruandluses andmeallikaid JOIN.
 author: NickSelin
 manager: AnnBe
-ms.date: 10/25/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 224acc19ee5dda430cd9471aa50e9d870a4f8c60
-ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
+ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667950"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3332318"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Andmeallikate JOIN kasutamine andmete saamiseks mitmest rakendusetabelist elektroonilise aruandluse (ER) mudeli vastendustes
 
@@ -140,7 +140,7 @@ Vaadake üle ER-i mudelivastenduse komponendi sätted. Komponent on konfigureeri
 
 7.  Sulgege leht.
 
-### <a name="review"></a> ER-i mudelivastenduse ülevaade (2. osa)
+### <a name="review-er-model-mapping-part-2"></a><a name="review"></a> ER-i mudelivastenduse ülevaade (2. osa)
 
 Vaadake üle ER-i mudelivastenduse komponendi sätted. Komponent on konfigureeritud kasutama teavet ER-i konfiguratsiooni versioonide, konfiguratsioonide ja konfiguratsiooni pakkujate üksikasjade kohta koos andmeallika kasutamisega, mille tüüp on **Ühendamine**.
 
@@ -185,7 +185,7 @@ Vaadake üle ER-i mudelivastenduse komponendi sätted. Komponent on konfigureeri
 9.  Sulgege leht.
 10. Valige **Tühista**.
 
-### <a name="executeERformat"></a> Käivitage ER-i vorming
+### <a name="execute-er-format"></a><a name="executeERformat"></a> Käivitage ER-i vorming
 
 1.  Finance'ile või RCS‑ile saate juurdepääsu veebibrauseri teisel seansil, kasutades sama mandaati ja ettevõtet nagu esimesel seansil.
 2.  Minge jaotisse **Organisatsiooni haldamine \> Elektrooniline aruandlus \> Konfiguratsioonid**.
@@ -240,7 +240,7 @@ Vaadake üle ER-i mudelivastenduse komponendi sätted. Komponent on konfigureeri
 
     ![ER-i kasutajadialoogi leht](./media/GER-JoinDS-Set2Run.PNG)
 
-#### <a name="analyze"></a> ER-i vormingu käivitamise jälituse analüüsimine
+#### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> ER-i vormingu käivitamise jälituse analüüsimine
 
 1.  Valige Finance'i või RCS-i esimesel seansil **Koostaja**.
 2.  Valige **Jõudluse jälitus**.
@@ -256,6 +256,33 @@ Vaadake üle ER-i mudelivastenduse komponendi sätted. Komponent on konfigureeri
     - Rakenduse andmebaas on kutsutud ühe korra, et arvutada konfiguratsiooni versioonide arv, kasutades ühendamisi, mis olid konfigureeritud andmeallikas **Üksikasjad**.
 
     ![ER-i mudelivastenduse koostaja leht](./media/GER-JoinDS-Set2Run3.PNG)
+
+## <a name="limitations"></a>Kitsendused
+
+Nagu käesolevas teemas toodud näitest näha, saab **JOIN** andmeallika koostada mitmest andmeallikast, mis kirjeldavad lõpuks ühendatavate kirjete individuaalseid andmekogusid. Antud andmeallikaid saab konfigureerida sisseehitatud ER-i [FILTRI](er-functions-list-filter.md) funktsiooniga. Kui konfigureerite andmeallikat nii, et see on kaugemaleulatuv kui **JOIN** andmeallikas, siis saate kasutada andmevaliku tingimusena ettevõtte vahemikke. **JOIN** andmeallika esmane rakendamine ei toeta seda tüüpi andmeallikaid. Näiteks kui kutsute **JOIN** andmeallika rakendusulatusse jääva [FILTRI](er-functions-list-filter.md)-põhise andmeallika, siis esineb erand juhul, kui kutsutud andmeallikas sisaldab andmevaliku tingimuse raames ettevõtte vahemikke.
+
+Microsoft Dynamics 365 Finance'i versioonis 10.0.12 (august 2020), saate kasutada [FILTRI](er-functions-list-filter.md)-põhistes andmeallikates andmevaliku tingimuste raames ettevõtte vahemikke, kui andmeallikaid kutsutakse **JOIN** andmeallika rakendusulatuse piires. Rakenduse [päringuehitaja](../dev-ref/xpp-library-objects.md#query-object-model) piirangutest tulenevalt toetatakse ettevõtte vahemikke vaid esimese **JOIN** andmeallika alla kuuluva andmeallika puhul.
+
+### <a name="example"></a>Näide
+
+Näiteks peate tegema ühe kõne rakenduse andmebaasi, et saada nimekiri mitmete ettevõtete väliskaubandustehingute ja neis tehingutes viidatud laokaupade üksikasjade kohta.
+
+Sel juhul konfigureerite järgmised artefaktid oma ER-mudelivastendusel.
+
+- **Intrastati** juurandmeallikas, mis kajastab **Intrastati** tabelit.
+- **Kaupade** juurandmeallikas, mis kajastab **InventTable** tabelit.
+- **Ettevõtete** juurandmeallikas, mis tagastab nimekirja ettevõtetest (käesolevas näites **DEMF** ja **GBSI**), kus tuleb tehingutele ligi pääseda. Ettevõtte kood on saadaval väljal **Companies.Code**.
+- **X1** juurandmeallikas, millel on avaldis `FILTER (Intrastat, VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code))`. See avaldis sisaldab andmevaliku tingimuste raames ettevõtte vahemike määratlust `VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code)`.
+- **X2** andmeallikas kui **X1** andmeallika pesastatud kaup. See sisaldab avaldist `FILTER (Items, Items.ItemId = X1.ItemId)`.
+
+Lõpetuseks saate konfigureerida **JOIN** andmeallika, kus **X1** on esimene andmeallikas ja **X2** on teine andmeallikas. Saate täpsustada suvandi **Päring** kui suvand **Teosta**, et sundida elektroonilist aruandlust käivitama selle andmeallika andmebaasi tasemel otsese SQL-kutsena.
+
+Kui konfigureeritud andmeallikat käitatakse samal ajal, kui [jälgitakse](trace-execution-er-troubleshoot-perf.md) ER-i teostamist, siis kuvatakse ER-mudelivastenduse koostajas ER-i jõudlusjälje raames järgmine teade.
+
+`SELECT ... FROM INTRASTAT T1 CROSS JOIN INVENTTABLE T2 WHERE ((T1.PARTITION=?) AND (T1.DATAAREAID IN (N'DEMF',N'GBSI') )) AND ((T2.PARTITION=?) AND (T2.ITEMID=T1.ITEMID AND (T2.DATAAREAID = T1.DATAAREAID) AND (T2.PARTITION = T1.PARTITION))) ORDER BY T1.DISPATCHID,T1.SEQNUM`
+
+> [!NOTE]
+> Kui käitate **JOIN** andmeallikat, mis on konfigureeritud selliselt, et see sisaldab täide viidud **JOIN** andmeallika täiendavate andmeallikate suhtes andmevaliku tingimusi, milles on ettevõtte vahemikud, siis esineb tõrge.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
