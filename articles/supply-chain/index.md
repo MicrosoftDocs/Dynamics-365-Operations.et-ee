@@ -1,5 +1,5 @@
 ---
-title: Teenuse Supply Chain Management spikriressursid
+title: Supply Chain Managementi avaleht
 description: Sel lehel on teenuse Supply Chain Management funktsioonide spikriteemade ja muude ressursside loend.
 author: josaw1
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 014b5db6efc15fbed7401d9a857586912c7578f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
+ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201521"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3386383"
 ---
-# <a name="help-resources-for-supply-chain-management"></a>Teenuse Supply Chain Management spikriressursid
+# <a name="supply-chain-management-home-page"></a>Supply Chain Managementi avaleht
 
 [!include [banner](includes/banner.md)]
 
@@ -42,6 +42,7 @@ Valige funktsiooniala, et selle kohta rohkem teavet saada.
 - [Kuluarvestus](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Kuluhaldus](cost-management/cost-management-home-page.md)  
 - [Varude haldus](inventory/inventory-home-page.md)
+- [IoT iseõppimisvõime](iot/iot-intelligence-home-page.md)
 - [Koondplaneerimine](master-planning/master-planning-home-page.md)
 - [Hanked](procurement/procurement-sourcing-overview.md)
 - [Tooteteabe haldus](pim/product-information.md)

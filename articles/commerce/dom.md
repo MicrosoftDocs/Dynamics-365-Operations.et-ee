@@ -3,7 +3,7 @@ title: Hajutatud tellimuste haldamine (DOM)
 description: Selles teemas kirjeldatakse hajutatud tellimuste haldamise (DOM) funktsiooni rakenduses Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 05/22/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a584953b0f4961e25b59bca51aa3928b87b2c7c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1121cc89b278c3694d0bbd667f1a540d17f4d180
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004316"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396028"
 ---
 # <a name="distributed-order-management-dom"></a>Hajutatud tellimuste haldamine (DOM)
 
@@ -37,20 +37,20 @@ DOM optimeerib tellimuste täitmist süsteemide ja protsesside keerukas võrgust
 
 Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
 
-![Müügitellimuse elutsükkel DOM-i kontekstis](./media/flow.png "Müügitellimuse elutsükkel DOM-i kontekstis")
+![![Müügitellimuse elutsükkel DOM-i kontekstis](./media/flow.png "Müügitellimuse elutsükkel DOM-i kontekstis")](./media/flow.png "Sales order lifecycle in the context of DOM")
 
 ## <a name="set-up-dom"></a>DOM-i seadistamine
 
 1. Valige suvandid **Süsteemihaldus \> Seadistamine \> Litsentsi konfiguratsioon**.
 2. Vahekaardil **Konfiguratsioonivõtmed** laiendage sõlme **Kaubandus** ja seejärel valige märkeruut **Hajutatud tellimuste haldamine**.
-3. Valige suvandid **Jaemüük ja kaubandus \> Hajutatud tellimuste haldamine \> Seadistamine \> DOM-i parameetrid**.
+3. Valige suvandid **Retail ja Commerce \> Hajutatud tellimuste haldamine \> Seadistamine \> DOM-i parameetrid**.
 4. Vahekaardil **Üldine** määrake järgmised väärtused.
 
     - **Luba hajutatud tellimuste haldamine** – määrake see suvand väärtusele **Jah**.
     - **Kinnita Bingi kaartide kasutamine DOM-i jaoks** – määrake see suvand väärtusele **Jah**.
 
         > [!NOTE]
-        > Saate selle suvandi määrata väärtusele **Jah** ainult siis, kui suvand **Luba Bingi kaardid** vahekaardil **Bingi kaardid** lehel **Kaubanduse ühisparameetrid** (**Jaemüük ja kaubandus \> Peakontori seadistamine \> Parameetrid \> Kaubanduse ühisparameetrid**) on samuti seatud valikule **Jah** ja välja **Bingi kaartide võti** on sisestatud kehtiv võti.
+        > Saate selle suvandi määrata väärtusele **Jah** ainult siis, kui suvand **Luba Bingi kaardid** vahekaardil **Bingi kaardid** lehel **Kaubanduse ühisparameetrid** (**Retail ja Commerce \> Peakontori seadistamine \> Parameetrid \> Kaubanduse ühisparameetrid**) on samuti seatud valikule **Jah** ja välja **Bingi kaartide võti** on sisestatud kehtiv võti.
 
     - **Kinnipidamise perioodi kestus päevades** – määrake, kui kaua hoitakse süsteemis täitmisplaane, mida DOM-i käitused loovad. Pakett-töö **DOM-i täitmisandmete kustutamise töö seadistamine** kustutab kõik täitmisplaanid, mis on vanemad, kui siin määratud päevade arv.
     - **Tagasilükkamise periood (päevades)** – määrake, kui palju aega peab mööduma, enne tagasi lükatud tellimuse rida saab määrata samasse asukohta.
@@ -71,7 +71,7 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
         >
         > Kuigi lihtsustatud lahendaja pakub samasuguseid võimalusi kui tootmise lahendaja, on selles jõudluse (käituses käsitletavate tellimuste ja tellimuse ridade arv) ja tulemuste ühitamise (tellimuste partiid ei pruugi anda mõnes stsenaariumis parimat tulemust) osas piirangud.
      
-6. Minge tagasi suvandisse **Jaemüük ja kaubandus \> Hajutatud tellimuste haldamine \> Seadistamine \> DOM-i parameetrid**.
+6. Minge tagasi suvandisse **Retail ja Commerce \> Hajutatud tellimuste haldamine \> Seadistamine \> DOM-i parameetrid**.
 7. Vahekaardil **Numbriseeriad** määrake mitmesugustele DOM-i üksustele vajalikud numbriseeriad.
 
     > [!NOTE]
@@ -79,12 +79,21 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
 
 8. DOM-i funktsioon toetab eri tüüpi DOM-i reeglite defineerimist ja organisatsioonid saavad konfigureerida mitut reeglit, olenevalt oma ärivajadustest. DOM-i reegleid saab defineerida asukohtade grupile või üksikutele asukohtadele ja konkreetsele tootekategooriale, tootele või tootevariandile. DOM-i reeglite jaoks kasutatava asukohtate grupeeringu loomiseks järgige alltoodud etappe.
 
-    1. Valige suvandid **Jaemüük ja kaubandus \> Kanali seadistus \> Täitmisgrupid**.
+    1. Valige suvandid **Retail ja Commerce \> Kanali seadistus \> Täitmisgrupid**.
     2. Valige suvand **Uus** ning sisestage uue grupi nimi ja kirjeldus.
     3. Valige käsk **Salvesta**.
     4. Valige suvand **Lisa rida**, et lisada gruppi üks asukoht. Võite ka valida suvandi **Lisa read**, et lisada mitu asukohta.
+    
+    > [!NOTE]
+    > Rakenduse Commerce versioonis 10.0.12 ja uuemas peab valik **Võimalus määrata asukohti nii, et olek Lähetamine või Pealevõtmine on täitmisgrupis lubatud** olema tööruumis **Funktsioonihaldus** lubatud.
+    >
+    > See funktsioon lisab lehele **Täitmisgrupp** uued konfiguratsioonid, et saaksite määrata, kas ladu saab kasutada lähetamise jaoks või kas lao/poe kombinatsiooni saab kasutada lähetamise, pealevõtmise või mõlema jaoks. 
+    >
+    > Kui lubate funktsiooni, värskendatakse asukoha valimiseks saadaolevaid suvandeid, kui loote kassas pealevõtmis- või lähetustellimusi.
+    >
+    > Selle funktsiooni lubamise tulemusel värskendatakse lehti ka kassas, kui toimingud „Läheta kõik“ või „Läheta valitud“ on valitud.
 
-9. Reeglite defineerimiseks valige suvandid **Jaemüük ja kaubandus \> Hajutatud tellimuste haldamine \> Seadistamine \> Reeglite haldamine**. Praegu toetatakse järgmisi DOM-i reegleid.
+9. Reeglite määratlemiseks valige suvandid **Retail ja Commerce \> Hajutatud tellimuste haldamine \> Seadistamine \> Reeglite haldamine**. Praegu toetatakse järgmisi DOM-i reegleid.
 
     - **Minimaalsete varude reegel** – see reegli tüüp laseb organisatsioonidel ümbritseda konkreetseid tootekoguseid muul eesmärgil kui tellimuse täitmiseks. Näiteks ei pruugi organisatsioonid tahta, et DOM võtaks arvesse kõiki varusid, mis on kaupluses tellimuse täitmiseks saadaval. Selle asemel võivad nad soovida jätta osa varusid kohapealsetele klientidele. Kui seda reegli tüüpi kasutatakse, saate määrata minimaalsed varud, mida hoitakse tootekategooria, üksiku toote või tootevariandi jaoks asukohas või asukohtade grupis.
     - **Täitmise asukoha prioriteedi reegel** – see reegli tüüp laseb organisatsioonidel määrata asukohtade hierarhiat, et kehtestada prioriteet, mida DOM-i mootor arvesse võtab, kui üritab tuvastada konkreetsete toodete täitmise asukohti. Prioriteetide kehtiv vahemik on 1 kuni 10, kus 1 on kõrgeid prioriteet ja 10 on madalaim prioriteet. Kõrgema prioriteediga asukohti võetakse arvesse enne madalama prioriteediga asukohti. Kui reegel määratletakse karmi piirangureeglina, vahendatakse tellimused ainult nendesse asukohtadesse, mille jaoks prioriteedid on määratud.
@@ -112,9 +121,9 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
         \* Kui valik **Osaliste tellimuste täitmine** on seatud väärtusele **Ei**, arvestatakse alati, et valik **Osaliste ridade täitmine** on seatud väärtusele **Ei**, olenemata sellest, kuidas see tegelikult seatud on.
 
         > [!NOTE]
-        > Retaili versioonis 10.0.5 on parameeter **Tellimuse täitmine ainult ühest asukohast** asendatud parameetriga **Täitmise asukohtade maksimumarv**. Selle asemel et võimaldada kasutajal konfigureerida, kas tellimused tuleb täita ainult ühest asukohast või nii paljudest asukohtadest kui võimalik, saavad kasutajad nüüd määrata, kas täitmine toimub määratud hulgast asukohtadest (kuni 5) või nii paljudest asukohtadest kui võimalik. See annab suurema paindlikkuse selle kohta, mitmest asukohast tellimusi saab täita.
+        > Retaili versioonis 10.0.5 on parameeter **Tellimuse täitmine ainult ühest asukohast** asendatud parameetriga **Täitmise asukohtade maksimumarv**. Selle asemel et võimaldada kasutajal konfigureerida, kas tellimused tuleb täita ainult ühest asukohast või nii paljudest asukohtadest kui võimalik, saavad kasutajad nüüd määrata, kas täitmine toimub määratud hulgast asukohtadest (kuni 5) või nii paljudest asukohtadest kui võimalik. See võimaldab olla tellimuse täitmise asukohtade arvu osas paindlikum.
 
-   - **Ühenduseta täitmise asukoha reegel** – see reegel laseb organisatsioonidel määratleda DOM-is asukoha või asukohtade grupi ühenduseta või mittesaadaval asukoha või grupina, nii et tellimusi ei saa nendele asukohtadele täitmiseks määrata.
+   - **Võrguühenduseta täitmisasukoha reegel** – see reegel laseb organisatsioonidel määratleda DOM-is asukoha või asukohtade grupi võrguühenduseta või mittesaadavana, nii et tellimusi ei saa nendes asukohtades täitmiseks määrata.
     - **Maksimaalse tagasilükkamiste arvu reegel** – see reegel laseb organisatsioonidel määratleda tagasilükkamiste läve. Kui lävi saavutatakse, märgib DOM-i protsessor tellimuse või tellimuse rea erandina ja arvab selle edaspidisest töötlusest välja.
 
         Kui tellimuse read on asukohta määratud, saab asukoht määratud tellimuse rea tagasi lükata, kuna see ei pruugi suuta seda rida teatud põhjustel täita. Tagasilükatud read on märgitud eranditena ja need pannakse tagasi töötlemiskausta järgmisel käitusel. Järgmisel käitusel üritab DOM määrata tagasilükatud rea teise asukohta. Uus asukoht saab samuti määratud tellimuse rida tagasi lükata. See määramiste ja tagasilükkamiste tsükkel võib tekkida mitu korda. Kui tagasilükkamiste arv jõuab määratud läveni, märgib DOM tellimuse rea püsivaks erandiks ega vali seda rida uuesti määramiseks. DOM kaalub tellimuse rida ümbermääramiseks uuesti alles siis, kui kasutaja lähtestab käsitsi tellimuse rea oleku.
@@ -130,11 +139,21 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
 
 10. Täitmisprofiile kasutatakse reeglikogumi, juriidiliste isikute, müügitellimuste päritolude ja tarneviiside rühmitamiseks. Iga DOM-i käitus on konkreetse täitmisplaani jaoks. Nii saavad organisatsioonid määrata ja käitada reeglite kogumit juriidiliste isikute kogumite jaoks tellimustel, millel on konkreetsed müügitellimuste päritolud ja tarneviisid. Seega, kui eri müügitellimuste päritolude või tarneviiside kogumite jaoks tuleb käitada erinevat reeglite kogumit, saab täitmisprofiile määrata sellele vastavalt. Täitmisprofiilide seadistamiseks läbige need etapid.  
 
-    1. Valige suvandid **Jaemüük ja kaubandus \> Hajutatud tellimuste haldamine \> Seadistamine \> Täitmisprofiilid**.
+    1. Valige suvandid **Retail ja Commerce \> Hajutatud tellimuste haldamine \> Seadistamine \> Täitmisprofiilid**.
     2. Valige suvand **Uus**.
     3. Sisestage väärtused väljadesse **Profiil** ja **Kirjeldus**.
     4. Määrake suvand **Automaatse rakendamise tulemus**. Kui määrate selle suvandi valikule **Jah**, kohaldatakse profiili DOM-i käituse tulemused automaatselt müügitellimuse ridadele. Kui määrate selle valikule **Ei**, saab tulemusi vaadata ainult täitmisplaanis. Neid ei kohaldata müügitellimuse ridadele.
-    5. Kui soovite, et DOM-i profiili käitatakse tellimustele, millel on iga müügitellimuse päritolu olemas, isegi tellimustele, mille müügitellimuse päritolu pole määratletud, määrake suvand **Töötle tellimusi, mille müügiallikas on tühi** valikule **Jah**. Profiili käitamiseks vaid paari müügitellimuse päritolu jaoks saate määrata need lehel **Müügiallikad**, nagu on kirjeldatud allpool.
+    5. Kui soovite, et DOM-i profiili käitataks tellimuste puhul, millel on iga müügitellimuse päritolu olemas, sh tellimuste puhul, mille müügitellimuse päritolu pole määratletud, määrake suvandi **Töötle tellimusi, mille müügiallikas on tühi** väärtuseks **Jah**. Profiili käitamiseks vaid mõne müügitellimuse päritolu jaoks saate need määrata lehel **Müügiallikad**, nagu on kirjeldatud allpool.
+
+    > [!NOTE]
+    > Rakenduse Commerce versioonis 10.0.12 ja uuemas peab valik **Võimalus määrata täitmisgruppi täitmisprofiilile** olema tööruumis **Funktsioonihaldus** lubatud. 
+    >
+    > See funktsioon lisab uue konfiguratsiooni lehele **Täitmisprofiil**, mille saab seostada ühe täitmisgrupiga. 
+    >
+    > Kui valite täitmisgrupi, käivitatakse selle täitmisprofiili DOM-i reeglid täitmisgrupis sisalduvate „lähetavate“ ladude kohta. 
+    > 
+    > Selle funktsiooni tõhusaks kasutamiseks veenduge, et olemas on üks täitmisgrupp, mis sisaldab kõiki lähetavaid ladusid, ja seejärel seostage see täitmisgrupp täitmisprofiiliga.
+    
     6. Valige kiirkaardil **Juriidilised isikud** käsk **Lisa** ja seejärel valige juriidiline isik.
     7. Valige kiirkaardil **Reeglid** käsk **Lisa** ja seejärel valige reegel profiiliga sidumiseks.
     8. Korrake eelmist kahte etappi, kuni kõik vajalikud reeglid on profiiliga seotud.
@@ -157,7 +176,7 @@ Järgmisel joonisel on näha müügitellimuse elutsükkel DOM-i süsteemis.
 
 DOM-i käitatakse ainult pakett-töös. DOM-i käituste jaoks pakett-töö konfigureerimiseks järgige allolevaid etappe.
 
-1. Valige suvandid **Jaemüük ja kaubandus \> Hajutatud tellimuste haldamine \> Pakktöötlus \> DOM-i protsessori töö seadistamine**.
+1. Valige suvandid **Retail ja Commerce \> Hajutatud tellimuste haldamine \> Pakktöötlus \> DOM-i protsessori töö seadistamine**.
 1. Valige kiirkaardil **Parameetrid** väljast **Täitmisprofiil** profiil, mille jaoks tuleb DOM käitada.
 1. Valige kiirkaardil **Käivita taustal** väljast **Pakett-tööde grupp** konfigureeritud pakett-tööde grupp.
 1. Sisestage välja **Ülesande kirjeldus** pakett-töö nimi.
@@ -179,7 +198,7 @@ Töötlemise ajal arvestab DOM tellimust ja tellimuse ridu, nagu on kirjeldatud 
 
 Pärast reeglite, varude piirangute ja optimeerimise kohaldamist valib DOM asukoha, mis asub kliendi tarneaadressile kõige lähemal.
 
-![Müügitellimuste kriteeriumid](./media/ordercriteria.png "Müügitellimuste kriteeriumid")
+![![Müügitellimuste kriteeriumid](./media/ordercriteria.png "Müügitellimuste kriteeriumid")](./media/ordercriteria.png "Sales order criteria")
 
 ## <a name="results-of-dom-runs"></a>DOM-i käituste tulemused
 
@@ -187,7 +206,7 @@ Kui täitmisprofiil on seatud valikule **Automaatne rakendamine**, rakendatakse 
 
 Kõikide loodud täitmisplaanide vaatamiseks järgige alltoodud etappe.
 
-1. Valige suvandid **Jaemüük ja kaubandus \> Hajutatud tellimuste haldamine \> Hajutatud tellimuste haldamine**.
+1. Valige suvandid **Retail ja Commerce \> Hajutatud tellimuste haldamine \> Hajutatud tellimuste haldamine**.
 2. Valige tööruumist **Hajutatud tellimuste haldamine** paan **Täitmisplaanid**.
 3. Täitmisplaani vaatamiseks valige vastava tellimuse täitmisplaani ID.
 
@@ -201,7 +220,7 @@ Kõikide loodud täitmisplaanide vaatamiseks järgige alltoodud etappe.
 
 ## <a name="order-line-actions-and-statuses"></a>Tellimuse rea tegevused ja olekud
 
-Järgnevalt kirjeldatakse tellimuse rea sätteid. Tellimuse rea avamiseks valige suvandid **Jaemüük ja kaubandus \> Kliendid \> Kõik müügitellimused**.
+Järgnevalt kirjeldatakse tellimuse rea sätteid. Tellimuse rea avamiseks valige suvandid **Retail ja Commerce \> Kliendid \> Kõik müügitellimused**.
 - Kui määrate suvandi **Välista DOM-i töötlemisest** müügitellimuse rea vahekaardil **Üldine** valikule **Jah**, välistatakse tellimus või tellimuse rida DOM-i töötlemisest.
 - Välja **DOM-i olek** müügitellimuse rea vahekaardil **Üldine** saab määrata ühele järgmistest väärtustest.
 
@@ -221,7 +240,7 @@ Järgnevalt kirjeldatakse tellimuse rea sätteid. Tellimuse rea avamiseks valige
 
 DOM-i töötluse käivitamisel luuakse täitmisplaanid. Aja jooksul säilitab süsteem hulgaliselt täitmisplaane. Süsteemi säilitatavate täitmisplaanide hulga haldamiseks saate konfigureerida pakett-töö, mis kustutab vanemat täitmisplaanid, lähtudes väärtusest **Kinnipidamise perioodi kestus päevades**.
 
-1. Valige suvandid **Jaemüük ja kaubandus \> Hajutatud tellimuste haldamine \> Pakktöötlus \> DOM-i täitmisplaani kustutamise töö seadistamine**. 
+1. Valige suvandid **Retail ja Commerce \> Hajutatud tellimuste haldamine \> Pakktöötlus \> DOM-i täitmisplaani kustutamise töö seadistamine**. 
 1. Valige väljast **Pakett-tööde grupp** konfigureeritud pakett-tööde grupp.
 1. Valige suvand **Kordumine** ja määrake pakett-töö kordumine.
 1. Valige nupp **OK**.
