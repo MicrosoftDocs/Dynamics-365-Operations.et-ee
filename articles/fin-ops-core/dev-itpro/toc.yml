@@ -526,9 +526,35 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: Paketi rakendusprobleemide tõrkeotsing
                   href: deployment/deployable-package-troubleshooting.md
+            - name: Kohandatud spikri juurutamine
+              items:
+                - name: Kohandatud spikri ülevaade
+                  href: help/custom-help-overview.md
+                - name: Sisu ettevalmistamine spikripaanil kasutamiseks
+                  href: help/preparing-content.md
+                - name: Kohandatud spikri juurutamine Azure'is
+                  href: help/walkthrough-help-azure.md
+                - name: Kohandatud spikri ühendamine spikripaaniga
+                  href: help/connect-help-pane.md
+                - name: Kohandatud spikri tööriistakomplekt
+                  items:
+                    - name: Ülevaade
+                      href: help/custom-help-toolkit.md
+                    - name: Tööriist HTML From Repo Generator
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: Tööriist Convert HTML To JSON
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: Tööriist HTML Locale Changer
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: Dynamics AX-i kohandatud spikri teisendamine Dynamics 365-s kasutamiseks
+                      href: help/migrate-dynamicsax2012.md
+                - name: Keele- ja lokaadideskriptorid toote ja spikri vahel
+                  href: help/language-locale.md
+                - name: 'Spikri laiendamine, kohandamine ja koostöö'
+                  href: help/contributor-guide.md
         - name: Arendamine ja kohandamine
           items:
-            - name: Arendamise ja kohandamise avaleht
+            - name: Avalehe arendamine ja kohandamine
               href: dev-tools/developer-home-page.md
             - name: Rakendusepinu ja serveri ülesehitus
               href: dev-tools/application-stack-server-architecture.md
@@ -835,7 +861,7 @@
                     - name: Laiendatavuse muudatused – versioon 8.0.1
                       href: extensibility/extensibility-changes-801.md
                     - name: Laiendatavuse muudatused versioonis 8.0
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: Laiendatavuse muudatused versioonis 7.3
                       href: extensibility/extensibility-changes-73.md
                     - name: Laiendatavuse muudatused – juuli 2017

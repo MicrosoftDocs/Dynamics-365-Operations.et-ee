@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 14. mai 2020
+          href: hr-whats-new-2020-05-14.md
         - name: 1. mai 2020
           href: hr-whats-new-2020-05-01.md
         - name: 13. aprill 2020
@@ -111,14 +113,16 @@
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
             - name: Teenuse Lifecycle Services ülevaade
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Rakendus Human Resources Teamsis
+          href: hr-admin-teams-leave-app.md
         - name: Dokumentatsiooni ressursid
           items:
             - name: Spikrisüsteem
               href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Spikrisüsteemi ühendamine
               href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-            - name: Kohandatud spikrisaidi ühendamine
-              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: Kohandatud spikri ülevaade
+              href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Väljade kirjelduste vaatamine ja eksportimine
               href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
             - name: Tegevuse salvestaja
@@ -515,7 +519,9 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Meeskonna ja ettevõtte kalendrite kuvamine
               href: hr-employee-self-service-calendar.md
-        - name: Töövõtjate arendamine
+        - name: Puhkusetaotluste haldamine Teamsis
+          href: hr-teams-leave-app.md
+        - name: Töötajate arendamine
           items:
             - name: Jõudlushalduse ülevaade
               href: hr-develop-performance-management-overview.md
