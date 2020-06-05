@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 81c26b8a99f86d663d91ac4f549987262c0541ad
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323527"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383684"
 ---
 # <a name="auto-firming-with-planning-optimization"></a>Automaatkinnitamine planeerimise optimiseerimisega
 
@@ -47,7 +47,7 @@ Automaatkinnitamise sisselülitamiseks toimige järgmiselt.
 Kinnitamise ajapiir arvutatakse koondplaneerimise käivitamise kuupäevast edasi. See määratletakse sisestatud päevase arvu järgi. Saate kinnitamise ajapiiri juhtida järgmistel viisidel.
 
 - Katvusgrupi vaikimisi kinnitamise ajapiiri määramiseks avage **Koondplaneerimine** \> **Seadistus** \> **Laovarud** \> **Katvusgrupid** ja valige katvusgrupp. Seejärel sisestage kiirkaardil **Muu** väljale **Automaatse kinnitamise ajapiir (päevades)** päevade arv.
-- Konkreetse kauba katvusgrupi jaoks märatud kinnitamise ajapiiri ülekirjutamiseks avage **Tooteteabe haldus** \> **Väljastatud tooted**, seejärel valige toimingupaanil **Plaan** ja valige seejärel **Kauba laovarud**. Seejärel valige vahekaardil **Üldine** suvand **Ajapiiride alistamine** ja sisestage väljale **Automaatse kinnitamise ajapiir (päevad)** päevade arv.
+- Konkreetse kauba katvusgrupi jaoks märatud kinnitamise ajapiiri ülekirjutamiseks avage **Tooteteabe haldus** \> **Väljastatud tooted**, seejärel valige Toimingupaanil **Plaan** ja valige seejärel **Kauba laovarud**. Seejärel valige vahekaardil **Üldine** suvand **Ajapiiride alistamine** ja sisestage väljale **Automaatse kinnitamise ajapiir (päevad)** päevade arv.
 - Konkreetse koondplaani katvusgrupi ja laovarude haldamise jaoks määratletud kinnitamise ajapiiri ülekirjutamiseks avage **Koondplaneerimine** \> **Seadistus** \> **Koonplaanid** ja valige koondplaan. Seejärel määrake kiirkaardil **Ajapiir päevades** suvand **Külmuta** olekusse **Jah** ja sisestage päevade arv.
 
 Kui planeerimise optimeerimist kasutava koondplaneerimise käivitamise automaatne kinnitamine on sisse lülitatud, tehakse automaatse kinnitamise protsess vastavalt automaatse kinnitamise seadistusele. Kui automaatne kinnitamine ei ole sisse lülitatud või kui planeerimine käivitatakse lehelt **Netonõuded**, jäetakse automaatse kinnitamise protsess vahele.

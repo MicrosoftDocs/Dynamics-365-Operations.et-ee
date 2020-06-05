@@ -3,7 +3,7 @@ title: Asutusesisese juurutamise avaleht
 description: See teema pakub teavet ja linke sisule kohapealsete juurutuste kohta.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b251125323bb74eb8be4172cb1b143c4866a8eac
-ms.sourcegitcommit: ec4df51e17be0b2df393635605ea17250c991ee9
+ms.openlocfilehash: 90285c8f2e0e86e04c8f2ac401c324c888740e99
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3099726"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367054"
 ---
 # <a name="on-premises-deployment-home-page"></a>Asutusesisese juurutuse avaleht
 
@@ -41,7 +41,6 @@ Saab juurutada rakendusele Dynamics 365 Finance  + Operations (on-premises). Asu
 ## <a name="onboard"></a>Sisseelamine
 - [Kohapealsete projektide seadistamine teenuses Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Kohapealsete keskkondade seadistamine ja juurutamine (Platformi värskendus 12 ja uuemad)](setup-deploy-on-premises-pu12.md)
-- [Kohapealsete keskkondade seadistamine ja juurutamine (platvormivärskendused 8 ja 11)](setup-deploy-on-premises-pu8-pu11.md)
 - [Võrguprinteri seadmete installimine kohapealsetesse keskkondadesse](../analytics/install-network-printer-onprem.md)
 - [SQL Serveri aruandlusteenuste konfigureerimine kohapealseteks juurutamisteks](../analytics/configure-ssrs-on-premises.md)
 - [Kohandatud mudelite arendamine ja juurutamine kohapealsetesse keskkondadesse](develop-deploy-custom-models-on-premises.md)

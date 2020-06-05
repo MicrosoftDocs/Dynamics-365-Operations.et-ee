@@ -3,7 +3,7 @@ title: Eemaldatud või aegunud funktsioonid teenuses Lifecycle Services (LCS)
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Microsoft Dynamicsi teenusest Lifecycle Services (LCS).
 author: AngelMarshall
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
-ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
+ms.openlocfilehash: 5c5c525b403715ba8dfd3c1bc2dfac4dd69f4a3d
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027976"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367264"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Eemaldatud või aegunud funktsioonid teenuses Lifecycle Services (LCS)
 
@@ -53,9 +53,9 @@ See loend on esitatud nii, et saaksite oma plaanide tegemisel võtta neid eemald
 </tr>
 <tr>
 <td><strong>Olek</strong></td>
-<td>Aegunud: vooskeemi diagrammide komponent eemaldatakse äriprotsesside modelleerijast 2020. aastal. Eemaldatakse järgmised funktsioonid.
+<td>Aegunud: vooskeemi diagrammide komponent eemaldatakse äriprotsesside modelleerijast 2020. aastal. Saadaval pole järgmisi funktsioone.
 <ul>
-<li>Olemasolevad vooskeemid ei ole vaatamiseks ega redigeerimiseks saadaval. Vooskeemi tegevusega seotud kuju atribuudid ei ole samuti saadaval, kuna kogu vahekaart <strong>Vooskeem</strong> eemaldatakse. Need skeemid hõlmavad nii vaikimisi vooskeeme, mis on automaatselt loodud, kui ka kohandatud vooskeeme, mida on nende vaikimisi vooskeemide alusel muudetud.</li>
+<li>Kõik vooskeemid on kirjutuskaitstud ja pole redigeerimiseks saadaval. Vooskeemi tegevusega seotud kuju atribuudid ei ole samuti saadaval. Need skeemid hõlmavad nii vaikimisi vooskeeme, mis on automaatselt loodud, kui ka kohandatud vooskeeme, mida on nende vaikimisi vooskeemide alusel muudetud.</li>
 <li>Pärandi sobivuse / erinevuste analüüsi funktsioon ei ole saadaval. Seetõttu erinevuste loendit automaatselt ei looda ja see pole eksportimiseks saadaval.
 <p><strong>Märkus:</strong> see funktsioon oli varem aegunud ja asendatud Microsoft Azure DevOpsi integratsioonidega.</p>
 </li>

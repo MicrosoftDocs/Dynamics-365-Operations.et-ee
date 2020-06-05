@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2c13ed20ec86108bcb9edc0d20d53ff98732b9d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 68624a0288f9eaaf8f74b361bb308b8ca3c03b29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204742"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383161"
 ---
 # <a name="create-a-request-for-quotation"></a>Pakkumiskutse loomine
 
@@ -67,7 +67,7 @@ Pärast pakkumiskutse põhiteabe määramist saate määrata kaubad või teenuse
 7. Sisestage või valige väärtus väljale **Hankija konto**. Kui olete hankija valinud, on olek Loodud. See tähendab, et hankija andmed on salvestatud pakkumiskutsesse, kuid te pole pakkumiskutset hankijale saatnud. Hankija saate lisada pakkumiskutsesse hankija olekust sõltumata.  
 
 ## <a name="send-the-rfq-to-vendors"></a>Pakkumiskutse saatmine hankijatele
-1. Klõpsake paanil **Tegevuspaan** nuppu **Müük**. Kontrollige lehel Pakkumiskutse saatmine, kas loendis on hankijad, kellele soovite pakkumiskutse saata.  
+1. Klõpsake paanil **Toimingupaan** nuppu **Saada**. Kontrollige lehel Pakkumiskutse saatmine, kas loendis on hankijad, kellele soovite pakkumiskutse saata.  
 2. Klõpsake **Prindi**. See dialoog võimaldab teil pakkumiskutset printida. Kui soovite printida vastuselehe, määratletakse selle sisu hankeparameetrites. Valimaks, kuidas vastuselehti printida, klõpsake pärast dialoogi Prindi avamist suvandit Täpsemad prindisuvandid. Iga hankija kohta prinditakse üks pakkumiskutse, mis sisaldab ridu olekus Loodud või Saadetud. Tühistatud ridu ja registreeritud vastustega ridu ei prindita.   
 3. Klõpsake **Tühista**.
 4. Klõpsake valikut **OK**.

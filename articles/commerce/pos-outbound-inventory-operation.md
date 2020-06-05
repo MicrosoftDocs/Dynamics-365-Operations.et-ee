@@ -3,7 +3,7 @@ title: Varude väljamineku toiming kassas
 description: Selles teemas kirjeldatakse kassa varude väljamineku toimingu võimalusi.
 author: hhaines
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 26d8d67ac6d2fde0753104483fd2127f9acbaa05
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
+ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123918"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3384125"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Varude väljamineku toiming kassas
 
@@ -117,6 +117,18 @@ Vaates **Täielik tellimuste loend** saate käsitsi valida loendist rea ja seej�
 ### <a name="over-delivery-shipping-validations"></a>Ületarne saadetise kinnitamised
 
 Kinnitamine leiab aset dokumendi ridade vastuvõtmise protsessi ajal. Nende hulka kuuluvad ületarne kinnitused. Kui kasutaja püüab võtta vastu rohkem varusid kui ostutellimusel tellitud, kuid kas ületarne pole konfigureeritud või kui saadud kogus ületab ostutellimuse rea jaoks konfigureeritud ületarne hälbe, kuvatakse kasutajale viha ja tal pole võimalik üleliigset kogust vastu võtta.
+
+### <a name="underdelivery-close-lines"></a>Alatarne sulgemisread
+
+Commerce'i versiooni 10.0.12 lisati funktsioon, mis lubab kassa kasutajatel väljamineva tellimuse saadetise ajal sulgeda või tühistada ülejäänud kogused, kui väljaminev ladu määratleb, et kogu nõutavat kogust ei saa tarnida. Koguseid saab sulgeda või tühistada ka hiljem. Selle võimaluse kasutamiseks peab ettevõtes olema konfigureeritud üleviimistellimuste alatarnete lubamine. Lisaks peab üleviimistellimuse reale olema määratletud alatarne protsent.
+
+Üleviimistellimuste alatarne lubamise konfigureerimiseks ettevõttes, avage Commerce'i peakontori jaotis **Varude haldus \> Seadistus \> Varude ja laohalduse parameetrid**. Lülitage lehe **Varude ja laohalduse parameetrid** vahekaardil **Üleviimistellimused** sisse parameeter **Aktsepteeri alatarneid**. Seejärel käivitage jaotusgraafiku töö **1070**, et sünkroonida parameetri muudatused kaupluse kanalisse.
+
+Toodete üleviimistellimuse rea alatarne protsente saab eelmääratleda Commerce'i peakontoris toote konfiguratsiooni käigus. Teine võimalus on nende seadistamine või üle kirjutamine kindlal üleviimistellimuse real Commerce'i peakontoris.
+
+Kui organisatsioonis on üleviimistellimuse alatarne konfigureerimine lõpule viidud, kuvatakse kasutajatele paanil **Üksikasjad** uus suvand **Sule ülejäänud kogus**, kui nad valivad kassas väljamineva üleviimistellimuse rea toimingu **Väljamineku toiming**. Kui kasutajad viivad seejärel saadetise lõpule toimingu **Lõpeta täitmine** abil, saavad nad saata taotluse Commerce'i peakontorisse ülejäänud saatmata koguse tühistamiseks. Kui kasutaja otsustab sulgeda ülejäänud koguse, teeb Commerce kontrolli, et kinnitada, kas tühistatav kogus jääb üleviimistellimuse real määratletud alatarne hälbeprotsendi piiresse. Alatarne hälbe ületamise korral kuvatakse kasutajale tõrketeade ja ülejäänud kogust ei saa sulgeda enne, kui eelnevalt saadetud ja „läheta kohe” kogused vastavad või ületavad alatarne hälbe.
+
+Kui saadetis on sünkroonitud Commerce'i peakontoriga, uuendatakse väljal **Läheta kohe** kassa üleviimistellimuse rea jaoks määratletud kogused Commerce'i peakontoris saadetud olekusse. Kõik lähetamata kogused, mis varasemalt oleksid olnud „saada järelejäänud” kogused (st hiljem saadetavad kogused), on nüüd tühistatud kogused. Üleviimistellimuse rea „saada järelejäänud” koguse väärtuseks määratakse **0** (null) ja rida loetakse täielikult saadetuks.
 
 ### <a name="shipping-location-controlled-items"></a>Asukoha järgi kontrollitavate kaupade saatmine
 

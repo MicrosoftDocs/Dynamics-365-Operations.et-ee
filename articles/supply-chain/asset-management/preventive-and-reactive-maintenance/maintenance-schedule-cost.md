@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8feea75bb223bdbd013b11cdf3a63d504afb04f5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 91c5b2e70ee083bf2741e245f1ca840ab939ad3f
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208198"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382971"
 ---
 # <a name="maintenance-schedule-cost"></a>Hooldusgraafiku kulu
 
@@ -46,7 +46,7 @@ Varahalduses saate arvutada hooldusgraafiku ridade eelarve kulusid. See on kasul
 
 5. Kulu arvutuse alustamiseks klõpsake **OK**.
 
-6. Klõpsake vahekaardi **Hooldusgraafiku kulu** > toimingupaani rühmas **Rühmitusalus...** asjakohastele nuppudele, et kuvada kuluarvutuse soovitud üksikasjade taset. Valitud toimingupaani grupi nupud on esile tõstetud. Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.
+6. Klõpsake vahekaardi **Hooldusgraafiku kulu** > toimingupaani rühmas **Grupeerimisalus** asjakohastele nuppudele, et kuvada kuluarvutuse soovitud üksikasjade taset. Valitud toimingupaani grupi nupud on esile tõstetud. Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.
 
 7. Klõpsake nuppu **Arvuta kulu**, kui soovite teha uue kuluarvutuse.
 

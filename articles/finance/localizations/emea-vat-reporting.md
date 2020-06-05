@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9d307ceae85773feb58d11e575df27e74b065cd3
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a9b5bafb70883d9daf35a7d5a9107d7aee23469
+ms.sourcegitcommit: 98ef9178b28cd548f08f8c32255636e6e09b25f2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773445"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "3395982"
 ---
 # <a name="vat-reporting-for-europe"></a>Euroopa käibemaksuaruandlus
 
@@ -265,13 +265,13 @@ Iga riigi KM-aruanne peab vastama selle riigi seaduste nõuetele. Järgmises tab
 | Belgia        |                                                                                 |
 | Tšehhi Vabariik |  [KM-aruanne Tšehhi Vabariigis](emea-cze-vat-statement-details.md)   |
 | Eesti        |  [KM-aruande üksikasjad Eesti puhul](emea-est-vat-statement-details.md) |
-| Soome        |                                                                                 |
-| Saksamaa        |                                                                                 |
+| Soome        | [Soome käibemaksu aruanne](emea-fin-sales-tax-payment-report-finland.md)          |
+| Saksamaa        | [Saksamaa KM-i deklaratsioon](emea-de-vat-declaration.md)                       |
 | Itaalia          | [KM-aruannete üksikasjad Itaalias](emea-ita-vat-statements-details.md)            |
 | Läti         | [KM-aruande üksikasjad Läti puhul](emea-lva-vat-statement-details.md)           |
 | Leedu      | [KM-aruande üksikasjad Leedu puhul](emea-ltu-vat-statement-details.md)         |
-| Holland    |                                                                                 |
-| Rootsi         |                                                                                 |
+| Holland    | [KM-i deklaratsiooni vorming Hollandi puhul](emea-nl-vat-declaration.md)           |
+| Rootsi         | [Rootsi käibemaksu aruanne](emea-swe-sales-tax-payment-report-sweden.md)          |
 
 
 

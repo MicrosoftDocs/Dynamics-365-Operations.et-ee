@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e76c123ffbeb33cbc3ba01b4b2758208ed0c445f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 66b6b365958820a76f733df5eb2aabf6c3c4ebac
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204213"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383491"
 ---
 # <a name="check-the-availability-of-stock"></a>Varude saadavuse kontrollimine
 
@@ -35,7 +35,7 @@ See protseduur näitab, kuidas kontrollida vaba kaubavaru ja füüsilist vaba ka
 2. Valige rida **Kaubakood**. Vaba kaubavaru päringute esitamiseks kaubakoodi alusel valige rida, kus tabel on seatud **Vabal kaubavarule** ja väli on seatud **Kauba**koodile.
 3. Valige väljal **Kriteeriumid** kaup, mille puhul soovite päringu esitada. Ettevõtte USMF demoandmete kasutamisel võite valida väärtuse M9201.  
 4. Klõpsake valikut **OK**.
-5. Klõpsake **Toimingupaanil** valikut **Dimensioonid**. Vahekaart **Dimensioonid** võimaldab valida, kui palju üksikasju soovite vaba kaubavaru kohta vaadata. Kui teil on vaja reserveerimisega seotud andmeid, peate kuvama kõik täiustatud laotoimingute (WHS) protsesse kasutavate kaupade varude dimensioonid.
+5. Klõpsake **Toimingupaanil** valikut **Dimensioonid**. Vahekaart **Dimensioonid** võimaldab valida, kui palju üksikasju soovite vaba kaubavaru kohta vaadata. Kui teil on vaja reserveerimisega seotud andmeid, peate kuvama kõik täiustatud laotoimingute (WMS) protsesse kasutavate kaupade varude dimensioonid.
 6. Klõpsake valikut **OK**.
 7. Klõpsake **Toimingupaanil** suvandit **Seotud teave**. Kui seda valikut ei kuvata, võib teil olla vaja toimingupaani täiendavate suvandite nägemiseks klõpsata kolmikpunkti nuppu (...).
 8. Klõpsake suvandit **Tarne ülevaade**. Vahekaart **Tarne ülevaade** pakub tarneteavet kindla kauba, nagu laoseisu koguse, täitmisaja ja hankijateabe kohta.  

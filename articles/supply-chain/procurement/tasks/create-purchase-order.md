@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26112a9d25c0097bdbf30003247ce6dd4b4fb634
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204880"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383224"
 ---
 # <a name="create-a-purchase-order"></a>Ostutellimuse loomine
 
@@ -68,7 +68,7 @@ Selles teemas näidatakse teile, kuidas luua ostutellimust käsitsi. Koondplanee
 ## <a name="review-order-totals"></a>Tellimuse kogusummade ülevaatamine
 1. Valige **Kogusummad**.
 
-    - Kui te ei näe toimingut **Kogusummad**, valige toiminguribal vahekaart **Ostutellimus**.  
+    - Kui te ei näe toimingut **Kogusummad**, valige toimingupaanil vahekaart **Ostutellimus**.  
     - See dialoogiboks kuvab kogu tellimuse kogusummad.  
     - Väli **Valik** lubab teil muuta kogusummade arvutamise alust. Näiteks saate valida **Toote sissetuleku kogus**, et näidata kogusummasid, mis on seotud saadu toote/toodete summaga või **Tellitud kogus**, et näidata tellitud toodete hulka.  
 

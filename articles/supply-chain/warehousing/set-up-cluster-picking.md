@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daf8bc65dc937962e2e08b6f25805ddd3b8ee3c5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 86aed1b2071875117b74309030ac5e9008babdaf
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204282"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367403"
 ---
-[!include[banner](../includes/banner.md)]
-
 # <a name="set-up-cluster-picking"></a>Kogumi komplekteerimise seadistamine
+
+[!include[banner](../includes/banner.md)]
 
 Selles teemas kirjeldatakse, kuidas võimaldada töötajatel kasutada oma mobiilseid seameid komplekteerimistöö grupeerimiseks kogumitesse, et nad saaksid mitme töötellimuse puhul komplekteerida kaupu samal ajal ühest kohast. Seda nimetatakse *kogumi komplekteerimiseks*.
 
@@ -36,35 +36,35 @@ Kui töötellimused on lattu vabastatud, saab töötaja määrata tellimused mob
 
 Vajaduse korral saab töötaja edastada kogumi edasi teisele töötajale. Sel juhul muutub kogumi olekuks Edastatud. Kui töötaja kasutab komplekteerimis- ja mahapanekutöö lõpuleviimise näitamiseks mobiilset seadet, tuleb saadetis või koorem kinnitada kliendis.
 
-## <a name="set-up-cluster-picking"></a>Kogumi komplekteerimise seadistamine
+## <a name="enable-cluster-picking"></a>Kogumi komplekteerimise lubamine
 
 Kogumi komplekteerimise lubamiseks peate tegema järgmised seadistused.
 
--   **Kogumiprofiilid** – saate määrata kogumi ID automaatse loomise, kasutatavate positsioonide arvu, kogumite lõhkumise ning komplekteerimistöö järjestamise ja kinnitamise viisi.
+- **Kogumiprofiilid** – saate määrata kogumi ID automaatse loomise, kasutatavate positsioonide arvu, kogumite lõhkumise ning komplekteerimistöö järjestamise ja kinnitamise viisi.
 
--   **Töömallid** – saate määrata, kuidas luua komplekteerimistöö kogumi komplekteerimiseks.
+- **Töömallid** – saate määrata, kuidas luua komplekteerimistöö kogumi komplekteerimiseks.
 
--   **Asukoha korraldus** – saate määrata, kust kaubad komplekteerida ja kuhu need maha panna.
+- **Asukoha korraldus** – saate määrata, kust kaubad komplekteerida ja kuhu need maha panna.
 
--   **Mobiilse seadme menüü-üksused** – saate konfigureerida mobiilse seadme menüü-üksuse kasutama olemasolevat tööd, mida juhitakse kogumi komplekteerimisega. Seejärel peate menüü-üksuse lisama mobiilse seadme menüüsse, et see kuvataks mobiilses seadmes.
+- **Mobiilse seadme menüü-üksused** – saate konfigureerida mobiilse seadme menüü-üksuse kasutama olemasolevat tööd, mida juhitakse kogumi komplekteerimisega. Seejärel peate menüü-üksuse lisama mobiilse seadme menüüsse, et see kuvataks mobiilses seadmes.
 
--   **Laohalduse parameetrid**– saate määrata numbriseeria, mida kasutatakse, kui soovite kogumitele identifikaatorid luua.
+- **Laohalduse parameetrid**– saate määrata numbriseeria, mida kasutatakse, kui soovite kogumitele identifikaatorid luua.
 
 ## <a name="set-up-a-cluster-profile"></a>Kogumi profiili seadistamine
 
 Kogumi profiili seadistamiseks toimige järgmiselt.
 
-1.  Valige **Laohaldus** \> **Seadistamine** \> **Mobiilne seade** \> **Kogumiprofiilid**.
+1. Valige **Laohaldus** \> **Seadistamine** \> **Mobiilne seade** \> **Kogumiprofiilid**.
 
-2.  Klõpsake uue profiili loomiseks suvandit **Uus**.
+1. Klõpsake uue profiili loomiseks suvandit **Uus**.
 
-3.  Klõpsake suvandit **Kogumi loomine** ja valikus **Kogumi sortimine** klõpsake suvandit **Uus** kogumi sortimiskriteeriumide seadistamiseks. Sortimiskriteeriumid määravad järjestuse, milles töötaja teeb komplekteerimistööd. Saate lisada nii palju kriteeriume kui vaja.
+1. Klõpsake suvandit **Kogumi loomine** ja valikus **Kogumi sortimine** klõpsake suvandit **Uus** kogumi sortimiskriteeriumide seadistamiseks. Sortimiskriteeriumid määravad järjestuse, milles töötaja teeb komplekteerimistööd. Saate lisada nii palju kriteeriume kui vaja.
 
-4.  Sisestage väljale **Järjekorranumber** number, mis määratleb järjestuse, milles sortimiskriteeriume töödeldakse.
+1. Sisestage väljale **Järjekorranumber** number, mis määratleb järjestuse, milles sortimiskriteeriume töödeldakse.
 
-5.  Valige väljal **Välja nimi** väli, mis määratleb sortimise. Näiteks kui valite välja **WMSLocationId**, sorditakse töö asukoha järgi.
+1. Valige väljal **Välja nimi** väli, mis määratleb sortimise. Näiteks kui valite välja **WMSLocationId**, sorditakse töö asukoha järgi.
 
-6.  Väljal **Sortimine** tehke üks järgmistest valikutest.
+1. Väljal **Sortimine** tehke üks järgmistest valikutest.
 
 | **Suvand**     | **Kirjeldus**                                                                                                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,6 +77,6 @@ Kogumi komplekteerimise rakendamiseks on kinnitamine väga oluline, et kontrolli
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Kauba kontrollimise seadistamine kogumi komplekteerimisega
 
-1.  Avage mobiilse seadme menüüelemendis seadistusvorm töö kinnitamiseks: **Laohaldus** \> **Laohaldus** \> **Seadistus** \> **Mobiilne seade** \> **Mobiilse seadme menüüelemendid**.
+1. Avage mobiilse seadme menüü üksuses seadistusvorm töö kinnitamiseks: **Laohaldus** \> **Laohaldus** \> **Seadistus** \> **Mobiilne seade** \> **Mobiilse seadme menüü üksused**.
 
-2.  Avage mobiilse seadme menüüelemendist jaotis **Töö kinnituse häälestus**. Suvand **Toote kinnitus** võimaldab iga varude üksust mobiilsel seadmel skannides kontrollida.
+1. Avage mobiilse seadme menüüelemendist jaotis **Töö kinnituse häälestus**. Suvand **Toote kinnitus** võimaldab iga varude üksust mobiilsel seadmel skannides kontrollida.

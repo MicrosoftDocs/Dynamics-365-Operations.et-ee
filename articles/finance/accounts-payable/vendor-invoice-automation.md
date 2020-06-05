@@ -3,7 +3,7 @@ title: Hankija arve automatiseerimine
 description: Selles teemas selgitatakse funktsioone, mis on saadaval hankija arvete täielikuks automatiseerimiseks, isegi manuseid sisaldavate arvete puhul.
 author: abruer
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba986afb5c17c7a317b47d1e9cf4ae57ac29da97
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177408"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396005"
 ---
 # <a name="vendor-invoice-automation"></a>Hankija arve automatiseerimine
 
@@ -61,7 +61,7 @@ Andmepakett on tööühik, mis tuleb saata arvete päiste, ridade ja manuste loo
 
 Hankija arve dokumendi manus on uus andmeüksus, mis selle funktsiooni osana kasutusele võetakse. Hankija arve päiseüksust on muudetud nii, et see toetab manuseid. Selle funktsiooni jaoks pole hankija arve reaüksust muudetud.
 
-See teema ei anna andmepaketi üksikasjalikku definitsiooni. Samuti ei selgita see, kuidas andmepakette luua. Selle teabe leiate jaotisest [Andmeüksuste ja pakettide raamistik](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Üksikasjalikku teavet andmepakettide kohta vaadake teemast [Andmehalduse ülevaade](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Lisateavet andmepakettide loomise kohta andmehalduse tööruumi abil, vaadake teemast [Andmepakettide töötlemine ja kasutamine rakenduste Dynamics 365 Finance and Operations lahenduses](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Arveid ja manuseid sisaldavate testandmete kiireks genereerimiseks tehke järgmist.
 

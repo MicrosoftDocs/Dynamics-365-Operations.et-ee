@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0a108b5c8b7f2f90a4d33d8a9ff088335c18d4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f8092ab7f960fd36515afb8448dfe1e262197595
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207651"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383132"
 ---
 # <a name="create-a-vendor-bank-account"></a>Hankija pangakonto loomine
 
@@ -31,9 +31,9 @@ Selles protseduuris kirjeldatakse, kuidas luua hankijale pangakontot. Saate seda
 
 1. Avage **Navigeerimispaan > Moodulid > Hanked > Hankijad > Kõik hankijad**.
 2. Valige hankija, kellele tahate pangakontot luua ja seejärel klõpsake linki väljal **Hankija konto ID**.
-3. Paanil **Toimingupaan** klõpsake **Hankija**.
+3. Klõpsake **Toimingupaanil** suvandit **Hankija**.
 4. Klõpsake **Pangakontod**.
-5. Paanil **Toimingupaan** klõpsake valikut **Uus**.
+5. Klõpsake **tegumiribal** valikut **Uus**.
 6. Sisestage väärtus väljale **Pangakonto**. Seda ID-d kasutatakse hankija kirje pangakonto tuvastamiseks.  
 7. Sisestage väärtus väljale **Nimi**.
 8. Väljale **Pangagrupid** sisestage või valige väärtus.
