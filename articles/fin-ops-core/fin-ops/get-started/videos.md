@@ -1,9 +1,9 @@
 ---
 title: Videod
-description: Sellel lehel on loetletud Microsofti loodud iga seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel.
+description: Sellel lehel on loetletud Microsofti loodud Finance and Operationsi rakendustega seotud õppe- ja Tech Talki videod, mis on saadaval YouTube’is ja teistel saitidel.
 author: josaw1
 manager: AnnBe
-ms.date: 11/11/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,28 +17,28 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781846"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367125"
 ---
 # <a name="videos"></a>Videod 
 
 [!include [banner](../includes/banner.md)]
 
-[Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) leiate Microsofti loodud videod, mis esitlevad laia valikut ärilahendusi Dynamics 365 toodetele. Selles jaotises loendatakse kanalil majutatavate rakenduse Finance and Operations õppevideod.
+[Microsoft Dynamics 365 YouTube’i kanalil](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) leiate Microsofti loodud videod, mis esitlevad laia valikut ärilahendusi Dynamics 365 toodetele. Selles jaotises on toodud kanalis majutatavate Finance and Operationsi rakenduste õppevideote loend.
 
 > [!Note]
 > Mõned loetletud videod on avaldatud eelmise toote nime all, kuid on endiselt kehtivad.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Rakenduse Finance and Operations arendamise ja halduse videod
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Videod Finance and Operationsi arenduse ja halduse kohta
 
 ### <a name="data-integration"></a>Andmete integratsioon
 
 - [Potentsiaalse kliendi sularahaks integreerimine](https://youtu.be/AVV9x5x-XCg)
-- [Töökäsu sünkroonimine rakenduste Dynamics 365 for Field Service ja Finance and Operations vahel](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Töötellimuse sünkroonimine rakenduse Dynamics 365 for Field Service ja rakenduste Finance and Operations vahel](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Andmehaldus
 
@@ -55,7 +55,7 @@ ms.locfileid: "2781846"
 ### <a name="intelligence"></a>Teave
 
 - [Kuidas redigeerida manustatud aruannet analüütilises tööruumis](https://youtu.be/_8WlwmSggcQ)
-- [Kuidas kaasata PowerBI.com aruandeid rakendustes Finance and Operations](https://youtu.be/gGWuNJDoi-M)
+- [Kuidas manustada PowerBi.com aruandeid rakendustes Finance and Operations](https://youtu.be/gGWuNJDoi-M)
 - [Oma andmebaasi toomine (BYOD) rakendustesse Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Kuluhalduse Power BI sisu kasutamine rakenduses Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
@@ -77,8 +77,14 @@ ms.locfileid: "2781846"
 - [Rakenduse uue platvormiväljaande kasutuselevõtmine pärast platvormivärskendust 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Telemeetria kasutamine peamiste jõudlusloendurite jälgimiseks rakenduses Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
+### <a name="regression-suite-automation-tool-rsat"></a>Regression Suite Automation Tool (RSAT)
 
-## <a name="videos-for-dynamics-365-finance"></a>Videod rakenduseleDynamics 365 Finance
+- [Kuidas kasutada tegevuse salvestajat testjuhtumi loomiseks Regression Suite Automation Tooli (RSAT) jaoks](https://youtu.be/bBr4BXAxTNI)
+- [Kuidas luua Azure DevOpsis testplaani Regression Suite Automation Tooliga (RSAT) kasutamiseks](https://youtu.be/3jIuBleAnQk) 
+- [Regression Suite Automation Tooli (RSAT) kasutamine](https://youtu.be/uhN9JItzGAk)
+
+
+## <a name="videos-for-dynamics-365-finance"></a>Rakenduse Dynamics 365 Finance videod
 
 ### <a name="customize-the-app"></a>Rakenduse kohandamine
 - [Kohandatud väljade lisamine](https://www.youtube.com/watch?v=gWSGZI9Vtnc)

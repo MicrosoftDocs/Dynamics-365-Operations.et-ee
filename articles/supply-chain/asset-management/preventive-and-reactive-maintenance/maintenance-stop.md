@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8946baa4597ad4b696bcb6bcc49d4202163a41a9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214851"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383523"
 ---
 # <a name="maintenance-downtime"></a>Hoolduskatkestus
 
@@ -75,7 +75,7 @@ Järgneval illustratsioonil kuvatakse näidet üksikasjade vaatest **Hoolduskatk
 
 9. Redigeerige vajadusel algus- ja lõpuaegu dialoogis **Täiskoormuse arvutamine** ja valige kas soovite kaasata arvutusse töökäsud ja hooldusgraafikud. Saate kasutada välja **Tase**, et näidata kui üksikasjalikke töö asukohtade täiskoormuse arvutusi te soovite. Kui sisestate väljale näiteks arvu "1" ja teil on mitmetasandiline töö asukoha struktuur, kuvatakse ülemisel tasemel kõik töö asukoha varad, mis on valitud hoolduskatkestuse tegevuse all ning seetõttu võivad tunnid real olla alumisel tasemel asuvatest töö asukohtadest kokku liidetud. Kui sisestate väljale **Tase** arvu "0", näete üksikasjalikku tulemust, mis näitab kõiki täiskoormuse ridu kõigi töö asukoha tasemete kohta, millega nad on seotud.
 
-10. Arvutuse alustamiseks klõpsake **OK**. Tundide koguarvu näidatakse **Täiskoormuse** ülevaates. Klõpsake vahekaardi **Täiskoormus** > toimingupaani rühmades **Rühmitamise alus** asjakohaseid nuppe, et saada prognoositud tundide määramise kohta üksikasjalikum ülevaade. Alltoodud illustratsioonil kuvatakse näidet arvutuse **Täiskoormus** tulemustest.
+10. Arvutuse alustamiseks klõpsake **OK**. Tundide koguarvu näidatakse **Täiskoormuse** ülevaates. Klõpsake vahekaardi **Täiskoormus** > toimingupaani rühmades **Grupeerimisalus** asjakohaseid nuppe, et saada prognoositud tundide määramise kohta üksikasjalikum ülevaade. Alltoodud illustratsioonil kuvatakse näidet arvutuse **Täiskoormus** tulemustest.
 
 ![Joonis 3](media/21-preventive-maintenance.png)
 
@@ -92,7 +92,7 @@ Järgneval illustratsioonil kuvatakse näidet üksikasjade vaatest **Hoolduskatk
 
 15. Redigeerige vajadusel algus- ja lõpuaegu dialoogis **Kauba prognoosi arvutamine** ja valige kas soovite kaasata arvutusse töökäsud ja hooldusgraafikud. Saate kasutada välja **Tase**, et näidata kui üksikasjalikke töö asukohtade täiskoormuse arvutusi te soovite. Kui sisestate väljale näiteks arvu "1" ja teil on mitmetasandiline töö asukoha struktuur, kuvatakse ülemisel tasemel kõik töö asukoha varad, mis on valitud hoolduskatkestuse tegevuse all ning seetõttu võivad tunnid real olla alumisel tasemel asuvatest töö asukohtadest kokku liidetud. Kui sisestate väljale **Tase** arvu "0", näete üksikasjalikku tulemust, mis näitab kõiki täiskoormuse ridu kõigi töö asukoha tasemete kohta, millega nad on seotud.
 
-16. Arvutuse alustamiseks klõpsake **OK**. Kauba prognooside koguarvu näidatakse ülevaates  **Kauba prognoos**. Klõpsake vahekaardi **Kauba prognoos** > toimingupaani rühmades **Rühmitamise alus** asjakohaseid nuppe, et saada prognoositud üksuste määramise kohta üksikasjalikum ülevaade. Alltoodud illustratsioonil kuvatakse näidet arvutuse **Kauba prognoos** tulemustest.
+16. Arvutuse alustamiseks klõpsake **OK**. Kauba prognooside koguarvu näidatakse ülevaates  **Kauba prognoos**. Klõpsake vahekaardi **Kauba prognoos** > toimingupaani rühmades **Grupeerimisalus** asjakohaseid nuppe, et saada prognoositud üksuste määramise kohta üksikasjalikum ülevaade. Alltoodud illustratsioonil kuvatakse näidet arvutuse **Kauba prognoos** tulemustest.
 
 ![Joonis 4](media/22-preventive-maintenance.png)
 

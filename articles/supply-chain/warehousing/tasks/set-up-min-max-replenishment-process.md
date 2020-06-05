@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6b99cac46ea33b018a3f67dd4bf0164b8a7f0e6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d2997a39311e371443de3bc11ace17ab36be20e8
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216869"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383569"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min-max täiendamisprotsessi seadistamine
 
@@ -43,7 +43,7 @@ Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, m
 ## <a name="create-a-replenishment-location-directive"></a>Täiendamise asukohakorralduse loomine
 1. Avage **Laohaldus > Seadistus > Asukohakorraldused.** Asukohakorraldusi kasutatakse, et määrata, kus tuleb kaubad täiendamisprotsessiks komplekteerida.
 2. Tehke väljal **Töötellimuse tüüp** valik Täiendamine.
-3. Paanil **Toimingupaan** klõpsake valikut **Uus**.
+3. Klõpsake **tegumiribal** valikut **Uus**.
 4. Sisestage väärtus väljale **Nimi**.
 5. Tehke väljal **Töö tüüp** valik Komplekteeri.
 6. Sisestage või valige väärtus väljale **Sait**. Kui te kasutate USMF-i, saate valida saidi 2.  
@@ -58,14 +58,14 @@ Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, m
 15. Märkige loendis valitud rida.
 16. Sisestage väärtus väljale **Nimi**.
 17. Klõpsake valikut **Salvesta**.
-18. Klõpsake **tegumiribal** käsku **Muuda päringut**. Saate seda päringut redigeerida piirangute lisamiseks juhul, kui varusid saab valida täiendamisprotsessis. Näiteks võib juhtuda, et tuleb kasutada varusid ainult lao hulgialalt.
+18. Klõpsake **Tegumiribal** käsku **Päringu redigeerimine**. Saate seda päringut redigeerida piirangute lisamiseks juhul, kui varusid saab valida täiendamisprotsessis. Näiteks võib juhtuda, et tuleb kasutada varusid ainult lao hulgialalt.
 19. Klõpsake valikut **OK**.
 20. Sulgege leht.
 
 ## <a name="create-a-replenishment-work-template"></a>Täiendamise töömalli loomine
 1. Avage **Laohaldus > Seadistus > Töö > Töömallid**. Töömalli kasutatakse selleks, et juhendada süsteemi, kuidas tuleb min/max-täiendustööd luua. Minimaalselt peab olema töömalli rida komplekteerimiseks ja paigutamiseks. Töömalli kohta öeldakse, et see on kehtetu, kuni kogu vajalik teave on sisestatud. 
 2. Tehke väljal **Töötellimuse tüüp** valik Täiendamine.
-3. Paanil **Toimingupaan** klõpsake valikut **Uus**.
+3. Klõpsake **tegumiribal** valikut **Uus**.
 4. Sisestage väärtus välja **Töömall**.
 5. Klõpsake valikut **Salvesta**.
 6. Klõpsake jaotises **Töömalli üksikasjad** valikut **Uus**.
@@ -80,7 +80,7 @@ Selles protseduuris kirjeldatakse, kuidas seadistada uut täiendamisprotsessi, m
 
 ## <a name="create-a-new-replenishment-template"></a>Uue täiendamismalli loomine
 1. Avage **Laohaldus > Seadistus > Täiendamine > Täiendamise mallid**. Täiendamismalli kasutatakse selleks, et määratleda kaubad ja kogused ning täiendamise asukoht.
-2. Paanil **Toimingupaan** klõpsake valikut **Uus**.
+2. Klõpsake **tegumiribal** valikut **Uus**.
 3. Tippige väärtus väljale **Täiendamismall**. Andke mallile nimi, mis näitab, et see on mõeldud min/max-täiendamiseks.  
 4. Sisestage väärtus väljale **Kirjeldus**.
 5. Valige märkeruut **Voo nõudel reserveerimata koguste kasutamise lubamine**. Kui valite selle suvandi, võimaldab see voo nõudluse täiendamisel tarbida koguseid, mis on seotud min/max-täiendamisega. Näiteks võib see olla kasulik, kui min/max-täiendustööd ei tehta kohe, et vältida soovimatute nõudluse täiendustööde loomist.

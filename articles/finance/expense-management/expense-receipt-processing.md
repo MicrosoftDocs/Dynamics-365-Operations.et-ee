@@ -3,7 +3,7 @@ title: Kulu sissetuleku töötlemine
 description: See teema annab teavet optilise märgituvastuse (OCR) kohta sissetulekute puhul. Selle funktsiooni eesmärk on parandada kasutaja kogemust, kui kuluaruandeid luuakse rakenduses Microsoftis Dynamics 365 Finance.
 author: stsporen
 manager: AnnBe
-ms.date: 11/20/2019
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248959"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378227"
 ---
 # <a name="expense-receipt-processing"></a>Kulusissetuleku töötlemine
 
@@ -36,24 +36,24 @@ Kulu sisestust on laiendatud optilise märgituvastuse (OCR) kaudu sissetulekute 
 
 ## <a name="usage-examples"></a>Kasutuse näited
 
-- **Lisage automaatselt sissetulekud, mis sisaldavad krediitkaardi kandeid kuluaruande loomisel.**
+Selleks, et lisada automaatselt sissetulekuid, mis sisaldavad krediitkaardi kandeid kuluaruande loomisel, tehke järgmist.
 
-    1. Avage tööruum **Kuluhaldus**.
-    2. Veenduge, et vahekardil **Sissetulekud** on olemas sidumata sissetulekud. Sissetulekuid saate ka üles laadida vahekaardil **Sissetulekud**.
-    3. Veenduge, et vahekardil **Kulud** on olemas sidumata kulud. Tavaliselt impordib kulu administraator need kulud krediitkaardi pakkujalt.
-    4. Valige **Uus kuluaruanne**. Pange tähele, et saate kuluaruande loomisel kaasata nüüd ka kulusid ja sissetulekuid. Kui lisate nii kulusid kui sissetulekuid, käivitatakse sissetulekute automaatne sobitamine kulude alusel.
+  1. Avage tööruum **Kuluhaldus**.
+  2. Veenduge, et vahekardil **Sissetulekud** on olemas sidumata sissetulekud. Sissetulekuid saate ka üles laadida vahekaardil **Sissetulekud**.
+  3. Veenduge, et vahekardil **Kulud** on olemas sidumata kulud. Tavaliselt impordib kulu administraator need kulud krediitkaardi pakkujalt.
+  4. Valige **Uus kuluaruanne**. Pange tähele, et saate kuluaruande loomisel kaasata nüüd ka kulusid ja sissetulekuid. Kui lisate nii kulusid kui sissetulekuid, käivitatakse sissetulekute automaatne sobitamine kulude alusel.
 
-- **Looge kulu või vastendage sissetulekuga kulu.**
+Selleks, et luua kulu või vastendada sissetulekuga kulu, tehke järgmist.
 
-    1. Kuluaruande vahekaardil **Sissetulekud** saate lisada sissetuleku, valides **Lisa sissetulekud**.
-    2. Sissetuleku üleslaaditud pildi all pange tähele suvandeid **Loo** ja **Vastenda**.
+  1. Kuluaruande vahekaardil **Sissetulekud** saate lisada sissetuleku, valides **Lisa sissetulekud**.
+  2. Sissetuleku üleslaaditud pildi all pange tähele suvandeid **Loo** ja **Vastenda**.
 
-        - Valige **Loo**, et luua käsitsi sisestatud kulukanne ja täitke sissetulekust ekstraktitud väärtused.
-        - Kui valite **Vastenda**, proovib süsteem vastendada olemasoleva kulu kviitungiga.
+      - Valige **Loo**, et luua käsitsi sisestatud kulukanne ja täitke sissetulekust ekstraktitud väärtused.
+      - Kui valite **Vastenda**, proovib süsteem vastendada olemasoleva kulu kviitungiga.
 
 ## <a name="installation"></a>Install
 
-See funktsioon töötab koos funktsiooniga **Kuluaruannete uuendamine**, et aidata lihtsustada kulude kogemust.
+See funktsioon töötab koos funktsiooniga **Kuluaruannete uuendamine**, et aidata lihtsustada kulude kogemust. See funktsioon on saadaval ainult Järgu 2+ keskkondades, mis on liivakasti- ja tootmiskeskkonnad.
 
 Nende täpsemate kulude võimaluste kasutamiseks installige Microsofti Dynamics 365 Finance kulude halduse lisandmoodul ja lülitage sisse funktsioonid oma eksemplaris. Saate kasutada lisandmoodulit oma projektist teenuses Microsoft Dynamics Lifecycle Services (LCS).
 

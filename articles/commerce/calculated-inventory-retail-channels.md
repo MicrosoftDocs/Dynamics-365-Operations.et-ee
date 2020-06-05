@@ -3,7 +3,7 @@ title: Jaemüügikanalite varude saadavuse arvutamine
 description: Selles teemas kirjeldatakse valikuid, mis on poe- ja võrgukanalite vabade varude näitamiseks saadaval.
 author: hhainesms
 manager: annbe
-ms.date: 02/25/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113916"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379232"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Jaemüügikanalite varude saadavuse arvutamine
 
@@ -50,12 +50,7 @@ Mõlemad API-d hangivad andmeid Commerce’i serverist ja esitavad konkreetse to
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>E-Commerce’i arvutatud varude saadavuse kasutamise alustamine
 
-Enne varem mainitud kahe API kasutamist peate muutma Commerce Headquartersis parameetrit, et tagada, et varude väärtuste hetktõmmis, mida Commerce Headquarters **toote saadavuse** tööd kasutades arvutab, sisestaks andmed õigesse tabelisse.
-
-Parameetri määramiseks tehke järgmist.
-
-1. Valige suvandid **Jaemüük ja kaubandus \> Headquartersi häälestus \> Parameetrid \> Commerce’i ühiskasutuses parameetrid**.
-1. Vahekaardil **Varud** jaotises **Toote saadavuse töö** valige suvand **Kasuta toote saadavuse tööks optimeeritud protsessi**. See seadistus tagab, et optimaalsete funktsioonide kogumit kasutatakse Commerce’i serveri kaudu kanali saadaolevate varude arvutamiseks.
+Enne eelnevalt mainitud API-de kasutamist, peate lubama Commerce'i peakontori tööruumi **Funktsioonihaldus** kaudu funktsiooni **Optimeeritud toote saadavuse arvutamine**.
 
 Enne kui API-d saavad arvutada kauba varude saadavuse parima hinnangu, tuleb Commerce Headquartersi varude saadavuse perioodilist hetktõmmist töödelda ja saata kanali andmebaasi, mida kasutab e-Commerce’i Commerce Scale Unit. Hetktõmmis sisaldab teavet, mida Commerce Headquarters omab konkreetse toote või tootevariandi ja lao kombinatsiooni jaoks varude saadavuse kohta. See võib hõlmata varude korrigeerimisi või liikumisi, mille on põhjustanud varude saamine või saadetised või teised protsessid, mida teostatakse Commerce Headquartersis, ja millist teavet e-Commerce’i kanal ainult sünkroonimisprotsessi tõttu omab.
 
@@ -85,20 +80,15 @@ Kui kanalipoolne arvutus on õigesti konfigureeritud ja hallatud, võib see pakk
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Kassa kanali pool arvutatud varude saadavuse kasutamise alustamine
 
-Kanalipoolse arvutuse loogika kasutamiseks ja kassa rakenduses varude otsingu reaalajas teenuse kutsete välja lülitamiseks tuleb esmalt teha kaks parameetri muudatust. Seejärel peate sünkroonima kanali muudatused jaotusgraafiku protsessi kaudu.
+Kanalipoolse arvutamise loogika kasutamiseks ja reaalajas teenuse kutsete väljalülitamiseks kassarakenduse varude otsingu jaoks, peate esmalt lubama Commerce'i peakontori tööruumi **Funktsioonihaldus** kaudu funktsiooni **Optimeeritud toote saadavuse arvutamine**. Lisaks funktsiooni lubamisele, peate tegema muudatused **Funktsiooniprofiili**.
 
-Esimese parameetri määramiseks tehke järgmist.
-
-1. Valige suvandid **Jaemüük ja kaubandus \> Headquartersi häälestus \> Parameetrid \> Commerce’i ühiskasutuses parameetrid**.
-1. Vahekaardil **Varud** jaotises **Toote saadavuse töö** valige suvand **Kasuta toote saadavuse tööks optimeeritud protsessi**. See seadistus tagab, et optimaalsete funktsioonide kogumit kasutatakse Commerce’i serveri kaudu kanali saadaolevate varude arvutamiseks.
-
-Teise parameetri määramiseks tehke järgmist.
+**Funktsiooniprofiili** muutmiseks tehke järgmist.
 
 1. Avage **Jaemüük ja kaubandus \> Kanali seadistus \> Kassa seadistus \> Kassaprofiilid \> Funktsiooniprofiilid**.
 1. Valige Funktsiooniprofiil.
 1. Kiirkaardil **Funktsioonid** jaotises **Inventuuri saadavuse arvutamine** muutke välja **Inventuuri saadavuse arvutamise režiim** väärtus **Reaalajas teenus** väärtusele **Kanal**. Vaikimisi kasutavad kõik funktsiooniprofiilid reaalajas teenuse kutseid. Seega kui soovite kasutada kanalipoolse arvutuse loogikat, peate muutma selle välja väärtust. See muudatus mõjutab kõiki jaekaupluseid, mis on valitud funktsiooniprofiiliga ühendatud.
 
-Serverite värskendamiseks tehke järgmist.
+Seejärel peate sünkroonima kanali muudatused jaotusgraafiku protsessi kaudu, tehes järgmised toimingud.
 
 1. Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Jaotusgraafik**.
 1. Käivitage töö **1070** (**Kanali konfigureerimine**).

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ccaeea8d0494644b4d55c29a778d9a8239de10b9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fafa2f7da5575206d452f31bb297790874369dfd
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207780"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383270"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Kindlatele toodetele hankijate kinnitamine
 
@@ -33,7 +33,7 @@ Selles protseduuris selgitatakse, kuidas kinnitada hankijaid kindlate toodete pu
 2. Otsige loendist ja valige soovitud kirje.
 3. Klõpsake loendis valitud real olevat linki.
 4. Suurendage vahekaarti **Osta**. Kui väljal **Hankija** kuvatakse esmane hankija, siis peate järgmistes etappides lisama selle hankija kinnitatud hankijana. Märkige üles hankija kood, kui see kuvatakse.  
-5. Klõpsake toimingupaanil valikut **Osta**.
+5. Klõpsake toimingupaanil valikut **Ost**.
 6. Klõpsake **Häälestus**.
 7. Klõpsake käsku **Lisa**.
 8. Sisestage või valige väärtus väljal Hankija. Valige kinnitatud hankija. Vähemalt üks ridadest peab olema esmane hankija, kui toote kirjes oli hankija. Kui tegite hankijakoodi varem märkuse, valige see siin.  
@@ -42,7 +42,7 @@ Selles protseduuris selgitatakse, kuidas kinnitada hankijaid kindlate toodete pu
 11. Sisestage või valige väärtus väljal **Hankija**.
 12. Sisestage kuupäev väljale **Aegumine**. Valige kuupäev, mis erineb eelmisest aegumiskuupäevast.  
 13. Sulgege leht.
-14. Klõpsake toimingupaanil valikut **Kinnitatud hankija**.
+14. Klõpsake toimingupaanil valikut **Kinnitatud hankijad**.
 15. Sisestage kuupäev väljale **Aegumine**. See kuupäev toimib filtrina, nii et saate teatud kuupäevani vaadata, kes on kinnitatud hankijaid.  
 16. Sulgege leht.
 17. Klõpsake toimingupaanil valikut **Kehtiv periood**.

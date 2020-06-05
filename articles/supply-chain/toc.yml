@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Supply Chain Management
       items:
-        - name: Dynamics 365 Supply Chain Management
+        - name: Dynamics 365 Supply Chain Management'i avaleht
           href: index.md
         - name: Alustamine
           items:
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Spikrisüsteemi ühendamine
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Kohandatud spikrisaidi ühendamine
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Kohandatud spikri ülevaade
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Väljade kirjelduste vaatamine ja eksportimine
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Tegevuse salvestaja
@@ -1313,6 +1313,22 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Jooksvate keskmiste kulude jälgimine varude dimensiooni alusel
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: IoT iseõppimisvõime
+          items:
+            - name: IoT iseõppimisvõime avaleht
+              href: iot/iot-intelligence-home-page.md
+            - name: Azure'i ressursside häälestamine
+              href: iot/iot-azure-setup.md
+            - name: Sõnumiskeemivormingud IoT-keskuse jaoks
+              href: iot/iot-schema-format.md
+            - name: Lisandmooduli installimine LCS-is
+              href: iot/iot-lcs-setup.md
+            - name: Mõõdikute seadistamine
+              href: iot/iot-metrics-setup.md
+            - name: Stsenaariumi häälestus
+              href: iot/iot-scenario-setup.md
+            - name: Jälgimine ja haldamine
+              href: iot/iot-management.md
         - name: Koondplaneerimine
           items:
             - name: Koondplaneerimise avaleht
@@ -1335,6 +1351,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Plaanimistöö tühistamine
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Planeerimise optimeerimise tõrkeotsing
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Koondplaanid
               items:
                 - name: Koondplaanide ülevaade
@@ -2655,11 +2673,11 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Min-max täiendamisprotsessi seadistamine
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: Lao rakenduse installimine ja konfigureerimine
+            - name: Laorakenduse installimine ja konfigureerimine
               items:
-                - name: Installimise ja konfigureerimise ülevaade
+                - name: Laorakenduse installimine ja ühendamine
                   href: warehousing/install-configure-warehousing-app.md
-                - name: Välja nimede konfigureerimine lao rakenduses
+                - name: Väljanimede konfigureerimine laorakenduses
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Mobiilsete seadmete seadistamine laotöö jaoks
                   href: warehousing/configure-mobile-devices-warehouse.md
@@ -2697,9 +2715,25 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Ostutellimuste jaoks töömalli seadistamine
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
+            - name: Saadetise konsolideerimispoliitikad
+              items:
+                - name: Saadetise konsolideerimispoliitikad
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: Saadetise konsolideerimispoliitikate konfigureerimine
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: '1. stsenaarium – saadetiste konsolideerimine, kui need on müügitellimuste automaatse väljastamise abil lattu väljastatud'
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: '2. stsenaarium – saadetiste konsolideerimine, kui saadetise konsolideerimispoliitika alistatakse lattu väljastamise lehe kaudu'
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: '3. stsenaarium – saadetiste konsolideerimine, kasutades lattu väljastamist koorma planeerimise töölaua kaudu'
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: 4. stsenaarium – saadetiste konsolideerimine saadetise konsolideerimise töölaua abil
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: 5. stsenaarium – saadetiste käsitsi konsolideerimine saadetiste konsolideerimise lehe kaudu
+                  href: warehousing/consolidate-shipments-manual-form.md
         - name: Supply Chain Managementi juurutamine
           items:
-            - name: Gantti juhtelemendi arengu juhis
+            - name: Gantti juhtelemendi arendamise juhis
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json
             - name: Uue transpordihalduse mootori loomine
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json

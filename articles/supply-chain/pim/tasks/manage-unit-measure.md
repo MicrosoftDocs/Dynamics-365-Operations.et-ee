@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7f7e2220a8eca9f9bf45216491f606ef0a2eb18
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: abc02c73ae36975fa4872d638fe53cbf0379d15d
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203527"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383661"
 ---
 # <a name="manage-unit-of-measure"></a>Mõõtühiku haldamine
 
@@ -41,13 +41,13 @@ See protseduur näitab, kuidas määratleda mõõtühikut, pakkuda üksuse ja se
 6. Klõpsake valikut **Salvesta**.
 
 ## <a name="define-unit-translations"></a>Ühiku teisenduste määratlemine
-1. **Toimingupaanil** klõpsake **Üksuse tekstid**.
+1. **Toimingupaanil** klõpsake **Ühiku tekstid**.
 2. Klõpsake valikut **Uus**. Kasutage ühiku teksti mõõtühikut esindava ID või sümboli ümberarvestuse loomiseks kliendi- või hankijapõhises keeles välisdokumentidel kasutamiseks.  
 3. Sisestage väärtus väljale **Keel** või valige see.
 4. **Sisestage väärtus väljale Tekst.**
 5. Klõpsake valikut **Salvesta**.
 6. Sulgege leht.
-7. Klõpsake **tegevuspaanil** **Tõlgitud üksuste kirjeldused**.
+7. Klõpsake **Toimingupaanil** **Ümberarvestatud ühku kirjeldused**.
 8. Klõpsake valikut **Uus**. Määratlege mõõtühiku keelepõhised kirjeldused.  
 9. Sisestage väärtus väljale **Keel** või valige see.
 10. Sisestage väärtus väljale **Kirjeldus**.
@@ -55,7 +55,7 @@ See protseduur näitab, kuidas määratleda mõõtühikut, pakkuda üksuse ja se
 12. Sulgege leht.
 
 ## <a name="define-unit-conversion-rules"></a>Ühiku teisendamise reeglite määratlemine
-1. Klõpsake **tegevuspaanil** **üksuse ühikute teisendamine**. Määratlege reeglid mõõtühiku teisendamiseks muudesse mõõtühikutesse ja neist valitud ühiku klassis.  
+1. Klõpsake **Toimingupaanil** **Ühiku teisendused**. Määratlege reeglid mõõtühiku teisendamiseks muudesse mõõtühikutesse ja neist valitud ühiku klassis.  
 2. Rippdialoogi avamiseks klõpsake valikut **Uus**.
 3. Sisestage number väljale **Tegur**. Sihtühiku ja lähteühiku vaheline teisendustegur. Näiteks teisendustegur sentimeetrilt meetrile on 100, sest ühes meetris on 100 sentimeetrit.  
 4. Sisestage või valige väärtus väljale **Kuni ühikuni**.

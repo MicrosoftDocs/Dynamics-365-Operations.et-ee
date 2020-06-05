@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c83cafd3a8934c488bb7a9f315bd5cb154f88c09
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b4587c9d64c2456e5f9f27cdb19625d9537f1e29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204819"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383201"
 ---
 # <a name="create-a-purchase-return-order"></a>Ostu tagastustellimuse loomine
 
@@ -34,7 +34,7 @@ See protseduur näitab, kuidas koostada ostu tagastustellimust, kasutades kreedi
 2. Klõpsake valikut **Uus**.
 3. Sisestage väljale **Hankija konto** väärtus „US-102”.
 4. Klõpsake valikut **OK**.
-5. Klõpsake **Tegevuspaanil** valikut **Ost**.
+5. Klõpsake **Toimingupaanil** valikut **Ost**.
 6. Klõpsake valikut **Kreeditarve**. See on leht, millel saate olemasolevalt hankija arvelt oma tagastustellimusele kopeerida. See on sama leht, mida kasutatakse teiste kopeerimistoimingute jaoks. Kuid kuna avasime selle toimingust Kreeditarve, on leht konfigureeritud toetama tagastustellimuse loomist, mis tasakaalustab hankija arved.  
 7. Laiendage jaotist **Parameetrid**.
     - Valik **Muuda märki** on automaatselt märgitud ja seda ei saa muuta. See tagab märgi muutmise koguste puhul ja selle, et lisatavad read tasakaalustavad hankija arve.  

@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce
+        - name: Dynamics 365 Commerce'i avaleht
           href: index.md
         - name: Alustamine
           items:
@@ -79,7 +79,7 @@
                 - name: 'Etapiviisilise levitamise (N-1) installimine, konfigureerimine ja üleminek'
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: Täiendage kanali Retail laiend uusimale Retail SDK-le
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: Mis on uut või mida on muudetud?
               items:
                 - name: Mis on uut või mida on muudetud rakendustes Finance and Operations?
@@ -112,8 +112,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Spikrisüsteemi ühendamine
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: Kohandatud spikrisaidi ühendamine
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: Kohandatud spikri ülevaade
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Väljade kirjelduste vaatamine ja eksportimine
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: Tegevuse salvestaja
@@ -499,8 +499,10 @@
                     - name: Adyeni makse ülekandmine
                       href: dev-itpro/adyen-connector.md
                     - name: Veebimaksevahendite salvestamine Adyeni konnektori abil
-                      href: dev-itpro/adyen-connector-listpi.md
-                    - name: Kinkekaardi ja kreediteatise toimingute sujuv võrguühenduseta lüliti
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: Tugev kliendiautentimine (SCA) Adyeni konnektori abil
+                      href: adyen_redirect.md
+                    - name: Kinkekaardi ja krediiditeatise toimingute sujuv võrguühenduseta lüliti
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Arve tasumise stsenaariumide seadistamine
                       href: payinvoice.md
@@ -510,6 +512,8 @@
                       href: omni-channel-payments.md
                     - name: Maksete KKK
                       href: dev-itpro/payments-retail.md
+                - name: Organisatsiooni Bingi kaartide haldamine
+                  href: dev-itpro/manage-bing-maps.md
         - name: Toodete ja teenuste kaubastamine
           items:
             - name: 'Kategooriad, tooted ja sortimendid'
@@ -824,11 +828,13 @@
                   href: search-engine-optimization-considerations.md
                 - name: Sisu turbepoliitika (CSP) haldamine
                   href: manage-csp.md
-            - name: Saidisisu haldamine
+                - name: Veebitegevuse sündmuste kogumisest loobumine
+                  href: web-activity-opt-out.md
+            - name: Saidi sisu haldamine
               items:
                 - name: Sisu lisamise viisid
                   href: add-manage-content.md
-                - name: Lehe mudeli sõnastik
+                - name: Lehemudeli sõnastik
                   href: page-elements-overview.md
                 - name: Dokumendi olekud ja töötsükkel
                   href: document-states-overview.md
@@ -1714,6 +1720,8 @@
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: Meilisõnumi konfigureerimine ja saatmine
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: Meilimallide loomine kandesündmuste jaoks
+              href: email-templates-transactions.md
             - name: Meilikogemuste arendamine
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: Office’i integreerimise tõrkeotsing
@@ -2112,10 +2120,12 @@
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: Laiendussündmuste logimine rakendusse Application Insights
                   href: dev-itpro/commerce-application-insights.md
-                - name: Saate luua oma äriloogika asünkroonse Commerce'i (CRT) API-d
+                - name: Asünkroonse Commerce'i (CRT) API-de loomine oma äriloogikas
                   href: dev-itpro/async-commerce-extension.md
                 - name: Kanali andmebaasi eelnevalt laiendatud veerud
                   href: dev-itpro/extended-columns.md
+                - name: Commerce Data Exchange'i laiendamine – reaalajas teenus
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: Makseühenduse laiendatavus
               items:
                 - name: Makse integreerimise loomine makseterminali jaoks

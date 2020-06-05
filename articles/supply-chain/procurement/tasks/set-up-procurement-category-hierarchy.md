@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaab2093eb2531b63f27717d828f7064a8f9ed1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e45c80718c73ad785643c2a5fc0e712b291104d5
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207504"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383109"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Hankekategooria hierarhia seadistamine
 
@@ -31,8 +31,8 @@ See protseduur näitab, kuidas luua hankekategooria hierarhias uusi sõlmi ja ko
 
 ## <a name="add-a-new-procurement-category"></a>Uue hankekategooria lisamine
 1. Avage **Navigeerimispaan > Moodulid > Hanked > Partii > Hanke kategooriad**.
-2. Valige toimingupaanil **Kategooriahierarhia muutmine**. Lehe vasakus servas kuvatakse praegune hankekategooria hierarhia. Hakkate seda hierarhiat muutma.  
-3. Valige toimingupaanil nupp **Uus kategooria sõlm**. Süsteem valib vaikimisi ülemise sõlme. Kui käitate seda protseduuri ülesandejuhendina, saate klõpsata nuppu Ava ja valida teise ülataseme sõlme, millesse oma uus sõlm lisada. Kui see on tehtud, lukustage uuesti ülesandejuhend ja klõpsake sõlme Uus kategooria.  
+2. Valige Toimingupaanil **Kategooriahierarhia redigeerimine**. Lehe vasakus servas kuvatakse praegune hankekategooria hierarhia. Hakkate seda hierarhiat muutma.  
+3. Valige Toimingupaanil nupp **Uus kategooria sõlm**. Süsteem valib vaikimisi ülemise sõlme. Kui käitate seda protseduuri ülesandejuhendina, saate klõpsata nuppu Ava ja valida teise ülataseme sõlme, millesse oma uus sõlm lisada. Kui see on tehtud, lukustage uuesti ülesandejuhend ja klõpsake sõlme Uus kategooria.  
 4. Sisestage väärtus väljale **Nimi**.
 5. Sisestage väärtus väljale **Kirjeldus**.
 6. Sisestage väärtus väljale **Hüüdnimi**. Hüüdnimi on valikuline. See kuvatakse kategooriaotsingutes koos kategooria nimega.  

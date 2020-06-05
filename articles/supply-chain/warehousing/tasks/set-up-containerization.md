@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b5ad1bdd91a2fb9109f29400f082e9a8af009ba
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f0f042e6ffe5ecf01b9e5044fc83d081528fbc56
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216938"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383293"
 ---
 # <a name="set-up-containerization"></a>Konteinerisse määramise seadistamine
 
@@ -60,7 +60,7 @@ Selles teemas kirjeldatakse koormuste konteineriseerimise automeerimist laohaldu
 
 ## <a name="set-up-a-container-group"></a>Konteinerigrupi häälestamine
 1. Avage navigeerimispaanil **Moodulid > Laohaldus > Häälestus > Konteinerid > Konteineri rühmad**.
-2. Valige toimingupaanil **Uus**. Saate häälestada konteineritüüpide loogilised grupid. Saate iga grupi jaoks määrata järjestuse, mille alusel konteinereid koostada, ja konteinerite täitmisprotsendi. Kauba mõõtude alusel määratakse, kas see mahub konteinerisse. Kasutatakse konteinerit, mille mõõdud on kaubaga kõige sarnasemad. Kui grupis on mitu konteineritüüpi, soovitame korraldada järjestuse suuruse alusel, nii et suurim konteiner on esimene, järjekorras nr 1, ja väikseim konteiner viimane.    
+2. Valige toimingupaanil nupp **Uus**. Saate häälestada konteineritüüpide loogilised grupid. Saate iga grupi jaoks määrata järjestuse, mille alusel konteinereid koostada, ja konteinerite täitmisprotsendi. Kauba mõõtude alusel määratakse, kas see mahub konteinerisse. Kasutatakse konteinerit, mille mõõdud on kaubaga kõige sarnasemad. Kui grupis on mitu konteineritüüpi, soovitame korraldada järjestuse suuruse alusel, nii et suurim konteiner on esimene, järjekorras nr 1, ja väikseim konteiner viimane.    
 3. Sisestage **Konteineri rühma ID** väljale enne loodud väärtus.
 4. Sisestage väärtus väljale **Kirjeldus**.
 5. Korrake etappe 2-4 kõige kolme varem loodud konteineri tüübi jaoks.

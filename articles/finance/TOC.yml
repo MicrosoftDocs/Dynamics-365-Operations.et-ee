@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Spikrisüsteemi ühendamine
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
-                - name: Kohandatud spikrisaidi ühendamine
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/finance/toc.json
+                - name: Kohandatud spikri ülevaade
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Väljade kirjelduste vaatamine ja eksportimine
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: Tegevuse salvestaja
@@ -1736,6 +1736,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Käibemaksudeklaratsiooni (ELSTER) elektrooniline edastamine
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Saksamaa käibemaksudeklaratsioon
+                  href: localizations/emea-de-vat-declaration.md
                 - name: Tööleheloendi aruanne
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Elektroonilise maksudeklaratsioonide seadistamine
@@ -2286,7 +2288,7 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL-i integreerimine
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Auditifail (XML Auditfile Financieel, XAF)'
+                - name: 'Auditifail – XML Auditfile Financieel, XAF'
                   hred: localizations/emea-nl-audit-file.md
             - name: Norra
               items:
@@ -2398,6 +2400,8 @@
                       href: localizations/rus-prepayments-management.md
                     - name: Laekuva käibemaksu taastamine
                       href: localizations/rus-incoming-VAT-restoring.md
+                    - name: Arvete/faktuurarvete töötlemine ekspordikaubanduse jaoks
+                      href: localizations/rus-export-trade.md
                 - name: Põhivarad
                   items:
                     - name: Põhivarade ülevaade
@@ -2496,6 +2500,12 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Varude aruanded
                       href: localizations/rus-inventory-reports.md
+                    - name: Varude profiili ülevaade
+                      href: localizations/rus-inventory-profile-overview.md
+                    - name: Varude profiili seadistamine
+                      hreF: localizations/rus-set-up-inventory-profile.md
+                    - name: Varude profiili kasutamine dokumentides ja päringutes
+                      href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Aruandlus
                   items:
                     - name: Finantsaruandlus
@@ -3248,34 +3258,40 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: ER-vormingute kujundamine väljaminevate elektrooniliste dokumentide loomiseks eri vormingutes
               items:
-                - name: (ER) OPENXML-vormingus aruannete loomiseks konfiguratsiooni koostamine
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: (ER) Konfiguratsioonide loomine Wordi vormingus aruannete loomiseks
+                - name: Konfiguratsioonide kujundamine väljaminevate dokumentide loomiseks Exceli vormingus
+                  items:
+                    - name: Konfiguratsiooni kujundamine dokumentide loomiseks Exceli vormingus
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
+                    - name: OPENXML-vormingus aruannete loomise näide
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: ER-vormingute muutmine Exceli malle uuesti rakendades
+                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: Dünaamiline veergude lisamine Exceli aruannetesse horisontaalselt laiendatavate vahemikena
+                      items:
+                        - name: Vormingute kujundamine dünaamiliseks veergude lisamiseks Exceli aruannetesse
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
+                        - name: Vormingute käitamine dünaamiliseks veergude lisamiseks Exceli aruannetesse
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                - name: Konfiguratsioonide loomine Wordi vormingus aruannete loomiseks
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Konfiguratsioonide koostamine PDF-mallide täitmiseks
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
-            - name: Piltide ja kujundite manustamine
-              items:
-                - name: (ER) Piltide ja kujundiste manustamine loodavates dokumentides
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
-                - name: Piltide ja kujundite manustamise näide
+                - name: Piltide ja kujundite manustamine
                   items:
-                    - name: Konfiguratsioonide kujundamine aruannete loomiseks Office’i vormingutes koos manustatud piltidega
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: Konfiguratsioonide läbivaatus aruannete loomiseks Office’i vormingutes koos manustatud piltidega
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Aruannete loomine Office’i vormingutes koos manustatud piltidega
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Elektroonilise aruandluse vormingute muutmine Exceli malle uuesti rakendades
-              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: (ER) Piltide ja kujundiste manustamine loodavates dokumentides
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
+                    - name: Piltide ja kujundite manustamise näide
+                      items:
+                        - name: Konfiguratsioonide kujundamine aruannete loomiseks Office’i vormingutes koos manustatud piltidega
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfiguratsioonide läbivaatus aruannete loomiseks Office’i vormingutes koos manustatud piltidega
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Aruannete loomine Office’i vormingutes koos manustatud piltidega
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Loodud XML-failide tükeldamine failimahu ja sisukoguse alusel
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: ER-konfiguratsioonide sõltuvuse määramine teistest komponentidest
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Dünaamiline veergude lisamine Exceli aruannetesse horisontaalselt laiendatavate vahemikena
-              items:
-                - name: Vormingute kujundamine veergude dünaamilisteks lisamiseks Exceli aruannetesse horisontaalselt laiendatavate vahemikena
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
-                - name: Vormingute käivitamine veergude dünaamiliseks lisamiseks Exceli aruannetesse horisontaalselt laiendatavate vahemikena
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
             - name: Rakenduse andmete värskendamine elektroonilise aruandluse abil
               items:
                 - name: Elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine
@@ -3306,8 +3322,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: ER-vormingute konfigureerimine XML-vormingus failide importimiseks koos valikuliste atribuutidega
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
-            - name: Loodud XML-failide tükeldamine failimahu ja sisukoguse alusel
-              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: Konfiguratsiooni elutsükkel
               items:
                 - name: Konfiguratsioonide elutsükli haldamine
@@ -3327,7 +3341,11 @@
                     - name: Konfiguratsioonide allalaadimine RCS-i tüüpi ER-hoidlavormingutest
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Konfiguratsioonide importimine RCS-ist
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: ER-konfiguratsioonide loomine RCS-is ja üleslaadimine globaalsesse hoidlasse
+                  href: localizations/rcs-global-repo-upload.md
+                - name: ER-konfiguratsioonide jagamine RCS-is väliste organisatsioonidega
+                  href: localizations/rcs-global-repo-share-configuration.md
             - name: Õppetükid
               items:
                 - name: Teave andmeallikate kasutamise kohta

@@ -3,7 +3,7 @@ title: Kaupluse varude haldamine
 description: Selles teemas kirjeldatakse dokumenditüüpe, mida saate kasutada varude haldamiseks.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 04/23/2019
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,56 +18,54 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3f7f228bbf312a2ccdc96d3e95287898bee01de4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3e6450c358d12dc62c2ffa20e7ff529be86bbe5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022229"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379255"
 ---
 # <a name="store-inventory-management"></a>Kaupluse varude haldamine
 
 [!include [banner](includes/banner.md)]
 
-Töötades varudega rakenduses Dynamics 365 Commerce ja kasutades kassarakendust, on oluline märkida, et kassa pakub piiratud tuge varude dimensioonidele ja teatud laokaubatüüpidele.
+Kui töötate varudega Microsoft Dynamics 365 Commerce'is ja kasutate kassarakendust (POS), on oluline olla teadlik sellest, et kassa pakub teatud varude dimensioonidele ja laokauba tüüpidele piiratud tuge. Kassarakendus ei toeta täielikke kauba konfigureerimise võimalusi, mis on saadaval Dynamics 365 Supply Chain Managementi kauba konfigureerimise suvandite kaudu.
 
-Kassalahendus ei toeta järgmiste kaupade konfiguratsioone.
+Kassalahendus ei toeta praegu järgmisi tootedimensioone ja kauba konfiguratsioone.
 
-- Kooslusekaubad (v.a komplekttooted, mis kasutavad koosluse raamistiku mõningaid komponente)
+- Konfiguratsiooni tootedimensioon ja koosluse (BOM) kaubad (välja arvatud jaemüügi tootekogumid, mis kasutavad osasid BOM-raamistiku komponente)
 - Tegeliku kaaluga kaubad
-- Partiiga juhitavad kaubad
+- Versiooni tootedimensiooni juhitud kaubad
 
 Kassarakendus ei toeta praegu kassas järgmisi jälgimisdimensioone.
 
 - Partii jälgimisdimensioon
 - Omanikudimensioon
 
-Kassalahendus pakub piiratud tuge järgmistele dimensioonidele. Piiratud tugi tähendab, et kassa võib lao/kaupluse seadistuse konfiguratsiooni põhjal mõne neist dimensioonidest varude kannetesse automaatselt vaikimisi määrata. Kassa ei toeta dimensioone täielikult samal viisil, nagu neid toetatakse müügikande käsitsi sisestamisel ERP-sse. 
+Kassa pakub piiratud tuge järgmistele dimensioonidele. Teisisõnu võib kassa lao või kaupluse seadistuse konfiguratsiooni põhjal mõne neist dimensioonidest varude kannetesse automaatselt vaikimisi lisada. Kassa ei toeta dimensioone täielikult samal viisil, nagu neid toetatakse müügikande käsitsi sisestamisel Commerce'i peakontorisse. 
 
-- **Lao asukoht** – kasutajatel ei ole võimalik hallata vastuvõtva lao asukohta kaupade vastuvõtmisel kaupluse lattu, kui kauplus ei ole konfigureeritud kasutama laohalduse protsessi. Nende kaupade puhul kasutatakse kaupluse ladu vaikimisi määratletud vastuvõtva asukohana. Kui laohalduse protsess on kaupluses lubatud, siis käivitatakse piiratud tugi, mis palub kasutajal valida vastuvõttev asukoht kogu sissetuleku kohta. Poest müüdavaid kaupu müüakse alati kaupluse laoseadistuses vaikimisi määratletud asukohast. Tagastatava kauba lao asukoha haldamist saab kontrollida poe lao vaikimisi tagastatava asukoha definitsiooni alusel või tagastamise põhjusekoodide alusel, nagu on määratletud tagastamise asukoha poliitikas.
-- **Litsentsiplaat** – litsentsiplaadid kohalduvad ainult siis, kui kauba ja kaupluselao puhul on lubatud suvand **Kasuta laohaldusprotsesse**. Kui Varud võetakse kaupluse lattu, kus laohalduse protsess on lubatud, ja kauba vastuvõtmiseks valitud asukoht on seotud asukoha profiiliga, mis nõuab litsentsiplaadi juhtimist, siis rakendus Kassa rakendab vastuvõtvale reale litsentsiplaati süstemaatiliselt. Kassa kasutajatel ei ole võimalust neid litsentsiplaadi andmeid muuta ega hallata. Kui on nõutav litsentsiplaadi täielik haldamine, soovitatakse kauplusel kasutada rakendusi WMS Mobile või ERP-i kontoriklienti nende kaupade vastuvõtmise haldamiseks.
-- **Seerianumber** – rakendusel Kassa on piiratud tugi ühe seerianumbri jaoks, mis registreeritakse kande müügireal kassas loodud tellimuste alusel järjestatud kaupadele. Seda seerianumbrit ei kinnitata laos registreeritud seerianumbrite suhtes. Kui müügitellimus on loodud kõnekeskuse kanalis või on täidetud ERP-i kaudu ja mitu seerianumbrit on registreeritud ühel müügireal ERP-is täitmise protsessi käigus, siis neid seerianumbreid ei saa rakendada ega kinnitata, kui nende tellimuste puhul teostatakse kassas tagastust.
+- **Lao asukoht** – uute kassatoimingute [Sissetuleku toiming](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) ja [Väljamineku toiming](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) kasutamisel saavad kasutajad valida lao varude asukoha kaupade vastuvõtmiseks või väljaminevate üleviimistellimuse kaupade lähetamiseks. Aegunud toimingu **Komplekteerimine ja vastuvõtmine** kasutamisel, on saadaval piiratud asukohahalduse tugi väljaminevate ükannete vastuvõtmiseks ja saatmiseks. See tugi on saadaval ainult juhul, kui kauba ja kaupluse lao puhul on sisse lülitatud suvand **Kasuta laohaldusprotsessi**. Varude asukohta ei saa praegu kasutada toiminguga **Laoinventuur** või **Otsing varudest**.
+- **Litsentsiplaat** – litsentsiplaadid kohalduvad ainult siis, kui kauba ja kaupluse lao puhul on sisse lülitatud suvand **Kasuta laohaldusprotsessi**. Kui kassas võetakse varud kaupluse lattu vastu toimingu **Sissetuleku toiming** või **Komplekteerimine ja vastuvõtmine** abil, kus laohaldusprotsess on sisse lülitatud, ja kui kauba vastuvõtmiseks valitud asukoht on lingitud asukohaprofiiliga, mis nõuab litsentsiplaadi juhtelementi, rakendab kassarakendus vastuvõtvale reale süstemaatiliselt litsentsi. Kassa kasutajad ei saa litsentsiplaadi andmeid muuta ega hallata. Kui on nõutav litsentsiplaadi täielik haldamine, soovitame kauplusel kasutada [laorakendust](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/install-configure-warehousing-app) või kontoriklienti nende kaupade vastuvõtmise haldamiseks.
+- **Seerianumber** – rakendus Kassa pakub piiratud tuge ühe seerianumbri registreerimise jaoks, mis registreeritakse kande müügireal kassas loodud tellimuste alusel ja sisaldavad järjestatud kaupu. Seda seerianumbrit ei kinnitata juba laos registreeritud seerianumbrite suhtes. Kui müügitellimus on loodud kõnekeskuse kanalis või on täidetud ettevõtte ressursiplaneerimise (ERP) kaudu ja mitu seerianumbrit on registreeritud ühel müügireal ERP-s täitmise protsessi käigus, siis neid seerianumbreid ei saa rakendada ega kinnitata, kui nende tellimuste puhul teostatakse kassas tagastust. Kui varud võetakse vastu toimingu **Sissetuleku toiming** abil, saavad kasutajad [vastuvõetud seerianumbrid registreerida või kinnitada](https://docs.microsoft.com/dynamics365/commerce/pos-serialized-items).
 - **Lao olek** – kaupade puhul, mis kasutavad laohalduse protsessi ja nõuavad lao olekut, ei saa oleku välja määrata ega muuta rakenduse Kassa kaudu. Kaupluse lao konfiguratsioonis määratletud lao vaikimisi olekut kasutatakse kaupade lattu vastuvõtmisel.
 
 > [!NOTE]
-> Kõik organisatsioonid peavad kaubakonfiguratsioone kassa kaudu arendus- või katsekeskkonnas katsetama, enne kui need tootmisse juurutab. Katsetage oma kaupu, tehes nendega kassa kaudu regulaarseid sularahaga müügikandeid ja luues klienditellimusi (kohaldatavusel). Katsetamine peab hõlmama katsekeskkonnas täielikke väljavõtte sisestamise protsesse ja probleemide puudumise kontrollimist.
+> Kõik organisatsioonid peavad kaubakonfiguratsioone kassa kaudu arendus- või katsekeskkonnas katsetama, enne kui need tootmiskeskkondadesse juurutatakse. Katsetage oma kaupu, kasutades neid kassa kaudu regulaarsete sularahaga müügikannete tegemiseks ja luues klienditellimusi (kohaldatavusel). Peaksite katsetama ka kassa täitmise ja varude protsesse (nt varude vastuvõtmise ja tellimuse täitmise toimingud) enne uute kaubakonfiguratsioonide juurutamist, veendumaks, et kassarakendus saab neid toetada. Katsetamine peab hõlmama täieliku väljavõtte sisestamise protsessi käitamist teie katsekeskkonnas ja kontrollimist, et nende kaupade loomisel ja sisestamisel Commerce'i peakontoris ei ilmneks ühtegi probleemi.
 >
-> Kaupade konfigureerimine viisil, mida kassarakendus ei toeta, ilma nõuetekohase katsetamiseta, võib põhjustada teie väljavõtete sisestamise protsessi nurjumist tootmises ilma probleemide hõlpsa lahendamise võimaluseta. Nende sisestusprotsesside õnnestumise võimaldamiseks võib kaaluda rakendusele partneri või kliendi kohanduste lubamist. Kui kohandused pole vajalikud, peab organisatsioon veenduma, et toodete tootekonfiguratsioon on tehtud viisil, mida toetab standardne kassarakenduse / tellimuse loomise / väljavõtte sisestamise protsess.
+> Kui kaubad on konfigureeritud viisil, mida kassarakendus ei toeta ja asjakohaseid katseid ei tehta, võib tellimuse loomise protsessi käigus ilmneda andmete tõrkeid, mida ei ole lihtne parandada või mida standardne tootetugi ei kata.
 
 ## <a name="purchase-orders"></a>Ostutellimused
 
-Ostutellimused koostatakse peakontoris. Kui ostutellimuse päisesse on kaasatud ladu, saab tellimust vastu võtta kaupluses, kasutades Modern POS-i (MPOS) või pilvekassat toimingu **Komplekteerimine ja vastuvõtmine** kaudu. Pärast seda, kui laos vastuvõetud kogused sisestatakse ostutellimuse dokumendi jaoks kassas väljale **Saa kohe**, saab neid salvestada kohalikult või kooskõlastatult. Selle teabe salvestamisel kohalikult eil ole mõju laovarule. Salvestamine peaks toimuma ainult juhul, kui kasutaja ei ole valmis sissetulekut sisestama HQ-sse ja vajab lihtsalt võimalust eelnevalt sisestatud andmed **Saa kohe** ajutiselt talletada. See salvestab nüüd andmed kohalikult kasutaja kanali andmebaasi. Pärast dokumendi töötlemist, kasutades suvandit **Kinnita**,saadetakse andmed **Saa kohe** HQ-sse ja ostutellimuse sissetulek sisestatakse. 
+Ostutellimused luuakse Commerce'i peakontoris. Kui ostutellimuse päisesse või ostutellimuse ridadele on kaasatud kaupluse ladu, saab tellimust vastu võtta kaupluses kassa toimigu [Sissetuleku toiming](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) abil. 
 
 ## <a name="transfer-orders"></a>Üleviimistellimused
 
-Üleviimistellimusega saab määrata, et kindel kauplus on asukoht, kust kaupu saab lähetada või kuhu võetakse varusid vastu. Kui kassa kasutaja on üleviimistellimust lähetav ladu, saavad nad sisestada koguse **Läheta kohe** otse kassast. Lähetava kaupluse sisestatud andmeid saab salvestada kohalikult või kooskõlastatud. Kohalikult salvestamisel ei tehta üleviimistellimuse dokumendile HQ-s ühtegi värskendust. Salvestamine peaks toimuma ainult juhul, kui kasutaja ei ole valmis saadetist sisestama HQ-sse ja vajab lihtsalt võimalust eelnevalt sisestatud andmed **Läheta kohe** ajutiselt talletada. Kui kauplus on saadetise kinnitamiseks valmis, tuleb valida suvand **Kinnita**. See sisestab üleviimistellimuse saadetise HQ-sse, et vastuvõttev ladu saaks selle nüüd vastu vastu võtta. 
-
-Kui kassa kasutaja on üleviimistellimust vastuvõttev ladu, saavad nad sisestada koguse **Saa kohe** otse kassast. Vastuvõtva kaupluse sisestatud andmeid saab salvestada kohalikult või kooskõlastatud. Salvestamine peaks toimuma ainult juhul, kui kasutaja ei ole valmis sissetulekut sisestama HQ-sse ja vajab võimalust eelnevalt sisestatud andmed **Saa kohe** ajutiselt talletada. See salvestab nüüd andmed kohalikult kasutaja kanali andmebaasi. Pärast dokumendi töötlemist, kasutades suvandit **Kinnita**, saadetakse andmed **Saa kohe** HQ-sse ja üleviimistellimuse sissetulek sisestatakse. On oluline, et vastuvõttev kauplus saab ainult kinnitada vastuvõetavaid kogused, mis on saadetud kogustega võrdsed või sellest väiksemad. Katse võtta vastu koguseid üleviimistellimusega, mida pole eelnevalt saadetud, põhjustab tõrkeid ja sissetulekut ei kinnitata HQ-s.
+Üleviimistellimusi saab luua Commerce'i peakontori kaudu või kassa toimingu [Sissetuleku toiming](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) või [Väljamineku toiming](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) abil. Saate kasutada kassa toimingut **Sissetuleku toiming** üleviimistellimuse taotluse loomiseks, et saata kaupa kauplusesse mõnest muust laost või kaupluse asukohast. Saate kasutada kassa toimingut **Väljamineku toiming** üleviimistellimuse taotluse loomiseks, et lähetada kaupa kauplusest mõnda muusse lattu või kaupluse asukohta. Pärast kaupluse üleviimistellimuse loomist saab see kauplus hallata üleviimistellimuse varude sissetulekut kassa toimingu **Sissetuleku toiming** abil. Kui kauplus lähetab varusid teise asukohta, kasutatakse selle kaupluse väljaminevate saadetiste protsessi haldamiseks kassa toimingut **Väljamineku toiming**.
 
 ## <a name="stock-counts"></a>Laoinventuurid
 
-Laoinventuurid võivad olla plaanipärased või plaanivälised. Plaanitud laoinventuurid algatab peakontor, mis määrab ka loendatavad kaubad. Peakontor loob inventuuridokumendi, mida saab vastu võtta kaupluses, kus vaba laovaru kogused sisestatakse MPOS-is või pilve POS-is. Plaanimata laoinventuurid käivitatakse kaupluses ja vaba laoseisu koguseid värskendatakse MPOS-is või pilve POS-is. Erinevalt ajastatud laoinventuuridest puudub plaanimata laovarudel eelmääratletud kaupade loend. Mõlemat tüüpi laoinventuuri lõpetamisel see kooskõlastatakse ja saadetakse peakontorisse. Peakontoris inventuur kinnitatakse ja sisestatakse eraldi etapina.
+Laoinventuurid võivad olla plaanipärased või plaanivälised. Plaanitud laoinventuurid luuakse Commerce'i peakontori kaudu, luues dokumendi Inventuuritööleht, mis lingitakse kaupluse laoga. See tööleht määrab kaubad, mida tuleb loendada. Kauplus saab seejärel juurdepääsu eelmääratletud inventuuri töölehtedele ja toimib nende alusel, kasutades kassa toimingut **Laoinventuur**. Kaupluse kasutajad käivitavad planeerimata laoinventuuri, kuna see on vajalik kassa toimingu **Laoinventuur** kasutamisel. Erinevalt ajastatud laoinventuuridest puudub plaanimata laovarudel eelmääratletud kaupade loend. Mõlemat tüüpi laoinventuuri lõpetamisel kassas, kooskõlastatakse ja saadetakse see peakontorisse. Peakontoris tuleb seejärel kinnitada inventuur ja sisestada Commerce'i peakontorisse eraldi etapina.
 
 ## <a name="inventory-lookup"></a>Otsing varudest
 
-Jooksvat vaba tootekogust mitme kaupluse ja lao kohta saab vaadata lehelt **Otsing varudest**. Lisaks jooksvale vabale kaubavarule saab tulevasi lubamiseks saadaval (ATP) koguseid vaadata iga eraldi kaupluse kohta. Selleks valige kauplus, mille ATP-d soovite vaadata, ja seejärel klõpsake valikut **Kaupluse saadavuse kuvamine**.
+Hetkel vaba olevat tootekogust mitme kaupluse ja lao kohta saab vaadata lehelt **Otsing varudest**. Lisaks jooksvale vabale kaubavarule saab tulevasi lubamiseks saadaval (ATP) koguseid vaadata iga kaupluse kohta. Valige kauplus, mille ATP koguseid soovite vaadata, ja seejärel valige **Kaupluse saadavuse kuvamine**. Lisateavet saadaolevate konfigureerimissuvandite kohta leiate teemast [Varude saadavuse arvutamine jaemüügikanalite jaoks](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).

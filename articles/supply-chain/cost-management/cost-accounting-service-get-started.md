@@ -1,5 +1,5 @@
 ---
-title: Kuluarvestuse teenuse kasutamise alustamine
+title: Kuluarvestuse teenuse kasutamise alustamine (privaatne eelvaade)
 description: See teema hõlmab kuluarvestuse teenuse litsentsi üksikasju ja installijuhiseid.
 author: AndersGirke
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cbbce7eaac264973bf0b95ad5175bf70ed2b4ae9
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276908"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372732"
 ---
-# <a name="get-started-with-the-cost-accounting-service"></a>Kuluarvestuse teenuse kasutamise alustamine
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a>Kuluarvestuse teenuse kasutamise alustamine (privaatne eelvaade)
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -43,16 +43,22 @@ Kuluarvestuse teenus on lisandmoodul. Selle funktsioonide kättesaadavaks tegemi
 
 Kuluarvestuse teenus ei toeta praegu kõiki kulude haldamise funktsioone, mida Dynamics 365 Supply Chain Management hõlmab. Seega on oluline, et hindaksite, kas hetkel saadaolev funktsioonide komplekt vastab teie nõuetele.
 
-## <a name="licensing"></a>Litsentsimine
-
-Kuluarvestuse teenus litsentsitakse koos standardsete laoarvestuse funktsioonidega, mis on saadaval teenuse Supply Chain Management jaoks. Te ei pea kuluarvestuse teenuse kasutamiseks ostma täiendavat litsentsi.
-
-## <a name="install-the-add-in"></a>Lisandmooduli installimine
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a>Kuluarvestuse teenuse hankimine (privaatne eelvaade)
 
 > [!IMPORTANT]
 > Kuluarvestuse teenuse kasutamiseks peab teil olema LCS-i toega suure kättesaadavusega keskkond (mitte OneBoxi keskkond) ning Dynamics 365 Supply Chain Managementi versioon 10.0.11 või uuem.
 
+Kuluarvestuse teenuse privaatse eelvaate registreerimiseks saatke oma LCS-i keskkonna ID meili teel [Kuluarvestuse teenusele (privaatne eelvaade)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29). Kui oleme kinnitanud teid programmi jaoks, saadame teile järeltegevuse meili, mis sisaldab kuluarvestuse teenuse beetavõtit. Kui olete beetavõtme kätte saanud, saate jätkata [lisandmooduli installimisega](#install).
+
+## <a name="licensing"></a>Litsentsimine
+
+Kuluarvestuse teenus litsentsitakse koos standardsete laoarvestuse funktsioonidega, mis on saadaval teenuse Supply Chain Management jaoks. Te ei pea kuluarvestuse teenuse kasutamiseks ostma täiendavat litsentsi.
+
+## <a name="install-the-add-in"></a><a name="install"></a>Lisandmooduli installimine
+
 Kuluarvestuse teenuse kasutamiseks installige kuluarvestuse teenuse lisandmoodul teenuse Supply Chain Management jaoks, nagu kirjeldatakse järgmises toimingus.
+
+1. Kuluarvestuse teenuse hankimiseks [registreerumine](#sign-up) (privaatne eelvaade).
 
 1. Logige teenusesse LCS sisse.
 
