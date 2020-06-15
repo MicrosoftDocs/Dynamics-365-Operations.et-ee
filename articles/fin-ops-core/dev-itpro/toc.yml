@@ -14,6 +14,8 @@
               items:
                 - name: Mis on uut või mida on muudetud Platform update'i avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Platformi versiooni 10.0.12 värskendused (august 2020)
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platformi versiooni 10.0.11 värskendused (juuli 2020)
                   href: get-started/whats-new-platform-update-35.md
                 - name: Platformi versiooni 10.0.10 värskendused (mai 2020)
@@ -50,7 +52,7 @@
               href: business-events/troubleshooting.md
             - name: Ärisündmuste kasutusjuhtumid
               href: business-events/potential-use-cases.md
-            - name: Õppetükid
+            - name: Õpetused
               items:
                 - name: Ärisündmused ja Microsoft Flow
                   href: business-events/how-to/how-to-flow.md
@@ -198,6 +200,8 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Integreeritud töötaja, töö ja ametikoht'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Varude saadavus
+                              href: data-entities/dual-write/inventory-availability.md
                         - name: Topeltkirjutuse tugi
                           items:
                             - name: Field Service'i lahenduste tugi ja Project Service Automationi lahendused
@@ -380,7 +384,7 @@
                   href: database/database-point-in-time-restore.md
                 - name: Tootmisandmebaasi ajapunktipõhine taaste liivakastikeskkonnas
                   href: database/database-pitr-prod-sandbox.md
-            - name: Õppetükid
+            - name: Õpetused
               items:
                 - name: Värskendamine koolitusotstarbel
                   href: database/dbmovement-scenario-general-refresh.md
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Värskenduste rakendamine pilvekeskkondadele
                   href: deployment/apply-deployable-package-system.md
-                - name: Värskenduste ja laiendite rakendamine pilves majutatavatele Retaili kanali komponentidele
+                - name: Uuenduste ja laienduste rakendamine Commerce Scale Unitile (pilv)
                   href: deployment/Update-retail-channel.md
-                - name: Lähtesta Retail Cloud Scale Unit
+                - name: Commerce Scale Unit (pilv) lähtestamine
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Retaili andmete asukoht
                   href: deployment/retail-data-residency.md
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Kliendi Interneti-ühendus
                       href: user-interface/client-disconnected.md
+                    - name: Ainult paketi ja interaktiivsete AOS-i sõlmede konfigureerimine asutusesiseses juurutuses
+                      href: deployment/onprem-batchonly.md
                     - name: Puhverserverite konfigureerimine kohapealsete keskkondade jaoks
                       href: deployment/onprem-reverseproxy.md
                     - name: Kohapealsed diagnostikad
@@ -1048,6 +1054,8 @@
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Teenuse Lifecycle Services kasutusjuhend
               href: lifecycle-services/lcs-user-guide.md
+            - name: Projekti kasutuselevõtt
+              href: lifecycle-services/project-onboarding.md
             - name: Tellimuskalkulaator
               href: lifecycle-services/subscription-estimator.md
             - name: Turbe konfigureerimine
@@ -1118,6 +1126,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Tõlkemälu failid
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: Microsoft Power Platform’i integratsioon
+          items:
+            - name: Microsoft Power Platform integreerimine Finance and Operations'iga
+              href: power-platform/overview.md
+            - name: Olemi modelleerimine
+              href: power-platform/entity-modeling.md
+            - name: Rakenduse elutsüklihaldus
+              href: power-platform/application-lifecycle-management.md
+            - name: Finance and Operations ja Common Data Service'i administraatori viide
+              href: power-platform/admin-reference.md
+            - name: Power Appsi portaalid Finance and Operationsiga
+              href: power-platform/power-portal-reference.md
+            - name: Finance and Operationsi virtuaalsete olemite KKK
+              href: power-platform/faq.md
         - name: Mobiiliplatvorm
           items:
             - name: Mobiiliplatvormi ressursid
@@ -1330,9 +1352,7 @@
               href: perf-test/rsat/rsat-overview.md
             - name: Installimine ja konfigureerimine
               href: perf-test/rsat/rsat-install-configure.md
-            - name: Andmete sõltumatu testimine tööriistaga Regression Suite Automation Tool
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Käitustestide juhtumid
+            - name: Regression Suite Automation Tooli kasutamine
               href: perf-test/rsat/rsat-run.md
             - name: Eeldatavate väärtuste valideerimine
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,10 +1360,12 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Tuletatud testjuhtumid
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Regression Suite Automation Tooli õppetüki kasutamine
+            - name: Regression Suite Automation Tooli õppetükk ja muud funktsioonid
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Head tavad
               href: perf-test/rsat/rsat-best-practices.md
+            - name: Andmete sõltumatu testimine tööriistaga Regression Suite Automation Tool
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Tõrkeotsing
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Lahenduste väljaandmine teenuse Lifecycle Services abil
@@ -1442,6 +1464,8 @@
                   href: sysadmin/copy-batch-job.md
                 - name: Aktiivsed partiiperioodid
                   href: sysadmin/activeperiod.md
+                - name: Aktiivsete pakettide perioodide suveaja tugi
+                  href: sysadmin/batch-active-period-dst.md
                 - name: Partii halduri turberoll
                   href: sysadmin/runby.md
                 - name: Pakett-töö SQL-indeksi defragmentimise käsitsemiseks
@@ -1594,7 +1618,7 @@
           items:
             - name: Kasutajaliidese arenduse avaleht
               href: user-interface/user-interface-development-home-page.md
-            - name: Õppetükid
+            - name: Õpetused
               items:
                 - name: Renditasu tüübi vormi koostamine
                   href: user-interface/build-rental-charge-type-form.md

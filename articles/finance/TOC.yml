@@ -70,12 +70,12 @@
                   items:
                     - name: Mis on uut või mida on muudetud Finance'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.12 (august 2020)
+                      href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (juuli 2020)
                       href: get-started/whats-new-changed-10-0-11.md
                     - name: Finance 10.0.10 (mai 2020)
                       href: get-started/whats-new-changed-10-0-10.md
-                    - name: Finance 10.0.9 (aprill 2020)
-                      href: get-started/whats-new-changed-10-0-9.md
             - name: Eemaldatud või aegunud funktsioonid
               items:
                 - name: Dynamics 365 Finance'i eemaldatud või aegunud funktsioonid
@@ -230,8 +230,10 @@
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Arvete võrdlemine ja kontsernisisesed ostutellimused
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
-            - name: Hankija arve poliitikate seadistamine
+            - name: Hankija arve poliitikate häälestamine
               href: accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Hankija maksete ettepanekute automatiseerimine
+              href: accounts-payable/automate-vendor-payment-proposal.md
             - name: Hankija arve kirjendamine ja sissetulnud kogusega vastendamine
               href: accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Positiivse makse ülevaade
@@ -324,14 +326,6 @@
               href: accounts-receivable/copy-customer.md
             - name: Kliendi töövoog
               href: accounts-receivable/customer-workflow.md
-            - name: Kreedit ja sissenõuded moodulis Müügireskontro
-              href: accounts-receivable/collections-credit-accounts-receivable.md
-            - name: Moodulite Müügireskontro ja krediit ja võlanõuded konfigureerimine
-              href: accounts-receivable/accounts-receivables-set-up-overview.md
-            - name: Krediidihalduse ja võlanõuete seadistamine
-              href: accounts-receivable/set-up-collections.md
-            - name: Sissenõuete teabe ülevaatamine
-              href: accounts-receivable/tasks/review-collections-information.md
             - name: Tulu tuvastamise ülevaade
               href: accounts-receivable/revenue-recognition-overview.md
             - name: Tulu tuvastamise seadistus
@@ -410,6 +404,14 @@
               items:
                 - name: Krediidi ja võlanõuete ülevaade
                   href: accounts-receivable/cm-credit-and-collections-overview.md
+                - name: Sissenõuded moodulis Müügireskontro
+                  href: accounts-receivable/collections-credit-accounts-receivable.md
+                - name: Moodulite Müügireskontro ja krediit ja võlanõuded konfigureerimine
+                  href: accounts-receivable/accounts-receivables-set-up-overview.md
+                - name: Krediidihalduse ja võlanõuete seadistamine
+                  href: accounts-receivable/set-up-collections.md
+                - name: Sissenõuete teabe ülevaatamine
+                  href: accounts-receivable/tasks/review-collections-information.md
                 - name: Krediidihalduse seadistamine
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Krediidihalduse seadistamise andmed
@@ -448,6 +450,8 @@
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: Kliendi jaoks mahakandmise töölehe loomine
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
+            - name: Täpsemate märkmete haldus
+              href: localizations/emea-ita-exil-structured-notes.md
         - name: Eelarvestamine
           items:
             - name: Eelarvestamise avaleht
@@ -978,6 +982,8 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: Tööjõu ja kulude standardsete kulude konfigureerimine
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: Hankija makse kinnipidamise tingimuste loomine ja rakendamine
+              href: project-management/create-and-apply-vendor-payment-retention-terms.md
             - name: Maksame-kui-meile makstakse hankijamaksete seadistamine ja kasutamine
               href: project-management/setup-manage-vendor-payments.md
             - name: Lisandunud projektikulud ostutarnete loenditest
@@ -1000,6 +1006,10 @@
               href: project-management/project-purchase-orders.md
             - name: Projektipakkumised
               href: project-management/project-quotations.md
+            - name: 'Projektipakkumise kinnitamine, värskendamine ja saatmine'
+              href: project-management/confirm-update-send-project-quotation.md
+            - name: Pakkumise ülekandmine projekti
+              href: project-management/transfer-quote-new-existing-project.md
             - name: Projekti ressursid
               href: project-management/project-resourcing.md
             - name: Ostutellimusel olevate kaupade kaubavajadusest vastuvõtmine
@@ -1022,6 +1032,8 @@
                   href: project-management/custom-fields-mobile.md
             - name: Projekti hüvitised
               href: project-management/project-grants.md
+            - name: Projekti hinnangu eemaldamine
+              href: project-management/eliminate-project-estimate.md
         - name: Avalik sektor
           items:
             - name: Avaliku sektori avaleht
@@ -1758,6 +1770,8 @@
                   href: localizations/emea-hun-tax-reimbursement-docs.md
                 - name: Aastalõpu sulgemine
                   href: localizations/emea-cze-hun-year-end.md
+                - name: Veebipõhine arveldussüsteem
+                  href: localizations/emea-hun-online-invoicing.md
             - name: Island
               items:
                 - name: Islandi ülevaade
@@ -2008,8 +2022,6 @@
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
                 - name: Mitmesugused tasud kilogrammi kohta Intrastati deklaratsioonis
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
-                - name: Täpsemate märkmete haldus
-                  href: localizations/emea-ita-exil-structured-notes.md
                 - name: Eellepingud – arvete esitamine tavalistele eksportijatele
                   href: localizations/emea-ita-exil-intent-letter.md
                 - name: Maksuarve tasuta tarnitud kauba eest
@@ -2288,8 +2300,8 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL-i integreerimine
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Auditifail – XML Auditfile Financieel, XAF'
-                  hred: localizations/emea-nl-audit-file.md
+                - name: 'Auditifail (XML Auditfile Financieel, XAF)'
+                  href: localizations/emea-nl-audit-file.md
             - name: Norra
               items:
                 - name: Norra ülevaade
@@ -2970,6 +2982,8 @@
               items:
                 - name: Konfiguratsioonide loomine
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/finance/toc.json
+                - name: ER-konfiguratsioonide sõltuvuse määramine teistest komponentidest
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Elektroonilise aruandluse lahenduse komponentide ettevalmistamine
                   items:
                     - name: Domeenispetsiifiliste andmemudelite kujundamine
@@ -3250,12 +3264,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
                         - name: 'Tekst: QRCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
-                        - name: 'Tekst: tekst'
+                        - name: 'Tekst: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Vormingute loomisel andmemudelite määratluste valimine
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: ER-vormingute kujundamine väljaminevate elektrooniliste dokumentide loomiseks eri vormingutes
               items:
                 - name: Konfiguratsioonide kujundamine väljaminevate dokumentide loomiseks Exceli vormingus
@@ -3290,8 +3300,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Loodud XML-failide tükeldamine failimahu ja sisukoguse alusel
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
-            - name: ER-konfiguratsioonide sõltuvuse määramine teistest komponentidest
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: Rakenduse andmete värskendamine elektroonilise aruandluse abil
               items:
                 - name: Elektrooniliste dokumentide loomine ja rakenduse andmete värskendamine
@@ -3321,32 +3329,42 @@
                     - name: Failide importimine XML-vormingus koos valikuliste atribuutidega
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: ER-vormingute konfigureerimine XML-vormingus failide importimiseks koos valikuliste atribuutidega
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/finance/toc.json
             - name: Konfiguratsiooni elutsükkel
               items:
                 - name: Konfiguratsioonide elutsükli haldamine
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: Konfiguratsioonide üleslaadimine teenusesse Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                - name: Konfiguratsioonide importimine teenusest Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                - name: Konfiguratsioonide allalaadimine teenusest Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
-                - name: Konfiguratsioonide importimine
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Täiustatud filtreerimise võimalus konfiguratsioonide leidmiseks globaalses hoidlas
-                  href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                - name: ER-konfiguratsioonide allalaadimine RCS-hoidlast
+                - name: ' Lifecycle Services (LCS)'
                   items:
-                    - name: Konfiguratsioonide allalaadimine RCS-i tüüpi ER-hoidlavormingutest
-                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Konfiguratsioonide importimine RCS-ist
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
-                - name: ER-konfiguratsioonide loomine RCS-is ja üleslaadimine globaalsesse hoidlasse
-                  href: localizations/rcs-global-repo-upload.md
-                - name: ER-konfiguratsioonide jagamine RCS-is väliste organisatsioonidega
-                  href: localizations/rcs-global-repo-share-configuration.md
-            - name: Õppetükid
+                    - name: Konfiguratsioonide üleslaadimine LCS-i
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                    - name: Konfiguratsioonide importimine LCS-ist
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                    - name: Konfiguratsioonide allalaadimine LCS-ist
+                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Konfiguratsioonide importimine (LBD)
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: Regulatory services (RCS)
+                  items:
+                    - name: Regulatory Configuration Service (RCS) – globaliseerumise funktsioonid
+                      href: localizations/rcs-globalization-feature.md
+                    - name: Elektroonilise aruandluse konfiguratsioonide allalaadimine rakendusse Finance
+                      items:
+                        - name: Konfiguratsioonide allalaadimine RCS-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfiguratsioonide importimine RCS-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Globaalne hoidla (GR)
+                      items:
+                        - name: Konfiguratsioonide importimine GR-ist
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Täiustatud filtreerimine GR-i konfiguratsioonide leidmiseks
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfiguratsioonide üleslaadimine GR-i
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Konfiguratsioonide jagamine GR-is
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+            - name: Õpetused
               items:
                 - name: Teave andmeallikate kasutamise kohta
                   items:
@@ -3392,18 +3410,26 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                         - name: Andmeallikate silumine
                           href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
-                - name: Riigi kontekstist sõltuva ER-mudeli vastenduste konfigureerimine
-                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
-                - name: ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
-                - name: ER-vormingu parameetrite seadistamine juriidilise isiku kohta
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                - name: ER-vormingu elementide käivitamise edasilükkamine
+                - name: Mudeli vastenduste konfigureerimine
                   items:
-                    - name: Järjestuse elemendi käivitamise edasilükkamine
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
-                    - name: XML elemendi käivitamise edasilükkamine
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                    - name: Riigi kontekstist sõltuva ER-mudeli vastenduste konfigureerimine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
+                    - name: Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+                - name: Vormingute konfigureerimine
+                  items:
+                    - name: ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
+                    - name: ER-vormingu parameetrite seadistamine juriidilise isiku kohta
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
+                    - name: Vormingute loomisel mudelite määratluste valimine
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: ER-vormingu elementide käivitamise edasilükkamine
+                      items:
+                        - name: Järjestuse elemendi käivitamise edasilükkamine
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
+                        - name: XML elemendi käivitamise edasilükkamine
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                 - name: Suhteline tee andmesidemetes
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Elektroonilise aruandluse lahenduste kasutamine Finance and Operationsis
