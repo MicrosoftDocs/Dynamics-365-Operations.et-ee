@@ -2371,7 +2371,7 @@
                     - name: Venemaa avansisaajate ülevaade
                       href: localizations/rus-advance-holders.md
                     - name: Avansisaaja loomine
-                      href: 'localizations/emea-advance-holders.md#create-an-advance-holder'
+                      href: localizations/emea-advance-holders.md#create-an-advance-holder
                     - name: Avansisaajate igapäevased toimingud
                       href: localizations/rus-advance-holders-daily-operations.md
                     - name: Avansiaruanded eelarve juhtimisega
@@ -3346,7 +3346,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory services (RCS)
                   items:
-                    - name: Regulatory Configuration Service (RCS) – globaliseerumise funktsioonid
+                    - name: Regulatory Configuration Services (RCS) – globaliseerumise funktsioonid
                       href: localizations/rcs-globalization-feature.md
                     - name: Elektroonilise aruandluse konfiguratsioonide allalaadimine rakendusse Finance
                       items:
