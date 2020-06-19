@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55820d7376750c210d2b7f214f705ffcb222c6cd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
+ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212499"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428396"
 ---
 # <a name="production-setup-requirements"></a>Tootmise seadistusnõuded
 
@@ -71,7 +71,7 @@ Kui töötate protsessidega, tuleb määratleda iga tootmisprotsessi jaoks seadi
 2.  **Kulugrupid** – seadistage kulugrupid, et luua ja hallata kulude eri tüüpe.
 3.  **Protsessigrupid** – seadistage protsessigrupid protsessigruppidega seotud parameetrite määratlemiseks. Enne tootmisprotsesside loomist peate seadistama protsessigrupid.
 4.  **Protsessid** – seadistage tootmisprotsessid ja määrake vaikesätted protsessitoimingute plaanimise, kuluarvutuse ja hinnakujunduse ning edenemisaruandluse juhtimiseks.
-5.  **Protsessid** – seadistage protsessiversioonid tootmises kaubavariatsioonide lubamiseks.
+5.  **Protsessiversioon** – seadistage protsessiversioonid tootmises kaubavariatsioonide lubamiseks.
 
 ## <a name="optional-advanced-settings"></a>Valikulised täpsemad sätted
 1.  **Tootmisgrupid** – seadistage tootmisgrupid seoste loomiseks tootmistellimuse ja pearaamatukonto vahel. Pearaamatukontosid kasutatakse tellimuste sisestamiseks või grupeerimiseks aruandluse jaoks.
