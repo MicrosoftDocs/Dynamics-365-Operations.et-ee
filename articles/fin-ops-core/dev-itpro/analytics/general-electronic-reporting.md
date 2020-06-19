@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: d050bfa5b28219ef421dba4ed3a72f11bfd4daee
+ms.sourcegitcommit: 7816902b59aa61d9183d54b50a86e282661e3971
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933928"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3421651"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroonilise aruandluse (ER) ülevaade
 
@@ -81,7 +81,7 @@ Sissetulevaid elektroonilisi dokumente toetaval mudelivastendusel on järgmised 
 
 Andmemudeli komponent on kavandatud igale äridomeenile, mida tuleks kasutada ühtlustatud andmeallikana aruandluse jaoks, mis eraldab aruandluse andmeallikate füüsilisest juurutusest. See kajastab domeenipõhiseid ärikontseptsioone ja funktsioone sellisel kujul, mis teeb aruandlusvormingu algse koostamise ja edasise haldamise tõhusamaks.
 
-#### <a name="FormatComponentOutbound"></a>Väljaminevate elektrooniliste dokumentide vormingukomponendid
+#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Väljaminevate elektrooniliste dokumentide vormingukomponendid
 
 Vormingu komponent on käitusajal loodava aruandlusväljundi skeem. Skeem koosneb järgmistest osadest:
 
@@ -107,7 +107,7 @@ Järgmine illustratsioon näitab, kuidas andmed nende vormingute puhul liiguvad.
 
 Ühe ER-vormingukonfiguratsiooni käitamiseks ja väljamineva elektroonilise dokumendi koostamiseks tuleb tuvastada vormingukonfiguratsiooni vastendus.
 
-#### <a name="FormatComponentInbound"></a>Sissetulevate elektrooniliste dokumentide vormingukomponendid
+#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Sissetulevate elektrooniliste dokumentide vormingukomponendid
 Vormingukomponent on käitusajal imporditava sissetuleva dokumendi skeem. Skeem koosneb järgmistest osadest:
 
 - vorming, mis määratleb käitusajal imporditud andmeid sisaldava sissetuleva elektroonilise dokumendi struktuuri ja sisu. Vormingukomponenti kasutatakse sissetuleva dokumendi sõelumiseks mitmesugustes vormingutes, nt tekst ja XML.
@@ -144,7 +144,7 @@ Juurdepääs ER-i vormingu komponentidele sõltub ISO riigi/regiooni koodi seadi
 
 Andmevormingu komponendi erinevatel versioonidel võivad olla erinevad ISO riigi/regiooni koodide sätted.
 
-#### <a name="Configuration"></a>Konfiguratsioon
+#### <a name="configuration"></a><a name="Configuration"></a>Konfiguratsioon
 
 ER-i konfiguratsioon on konkreetse ER-i komponendi ümbris. See komponent võib olla andmemudeli komponent või vormingukomponent. Konfiguratsioon võib sisaldada ER-i komponendi erinevaid versioone. Iga konfiguratsiooni omanikuks on märgitud kindel konfiguratsiooni pakkuja. Konfiguratsiooni komponendi versiooni **Mustand** saab redigeerida, kui konfiguratsiooni omanik on valitud ER-i sätetes aktiivseks teenusepakkujaks.
 
@@ -154,26 +154,26 @@ Loodud vormingukonfiguratsioon sisaldab vormingukomponenti. Algse mudelikonfigur
 
 Rakenduse ettevõtted jagavad ER-i konfiguratsiooni.
 
-#### <a name="Provider"></a>Pakkuja
+#### <a name="provider"></a><a name="Provider"></a>Pakkuja
 
 ER-i pakkuja on osapoole ID, mida kasutatakse iga ER-i konfiguratsiooni autori (omaniku) tähistamiseks. ER võimaldab hallata konfiguratsioonipakkujate loendit. Elektroonilistele dokumentidele Finance and Operationsi lahenduse osana väljastatud vormingukonfiguratsioonide omanikuks märgitakse konfiguratsioonipakkuja **Microsoft**.
 
 Uue ER-i pakkuja registreerimise kohta saate juhised, kui esitate tegevusjuhise **Elektrooniline aruandlus. Konfiguratsioonipakkuja loomine ja aktiivseks märkimine** (äriprotsessi **7.5.4.3 IT-teenuse/-lahenduse komponentide hankimine/arendamine (10677)** osa).
 
-#### <a name="Repository"></a>Hoidla
+#### <a name="repository"></a><a name="Repository"></a>Hoidla
 
 ER-i hoidla talletab ER-i konfiguratsioone. Praegu toetatakse järgmisi elektroonilise aruandluse hoidlate tüüpe. 
 
 - LCS-i ühine teek
 - LCS-i projekt
 - Failisüsteem
-- Regulatory Configuration Services (RCS)
+- RCS
 - Operationsi ressursid
-
+- Globaalne hoidla
 
 **LCS-i ühise teegi** hoidla annab juurdepääsu konfiguratsioonide loendile teenuse Lifecycle Services (LCS) ühiste vahendite teegis. Seda tüüpi ER-i hoidlat saab registreerida ainult Microsofti pakkuja jaoks. LCS-i ühiste varade teegist saate importida ER-i konfiguratsioonide uusimaid versioone praegusesse eksemplari.
 
-Hoidla **LCS-i projekt** võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimise etapis. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Saate importida konfiguratsioone ka **LCS-i projekti** hoidlast praegusesse Finance and Operationsi eksemplari.
+Hoidla **LCS-i projekt** võimaldab juurdepääsu konkreetsele LCS-i projekti konfiguratsiooniloendile (LCS-i projektivarade teegile), mis valiti hoidla registreerimisel. ER võimaldab ühiskasutatavate konfiguratsioonide üleslaadimist eksemplarist konkreetsesse hoidlasse **LCS-i projekt**. Saate importida konfiguratsioone ka **LCS-i projekti** hoidlast praegusesse Finance and Operationsi rakenduste eksemplari.
 
 Hoidla **Failisüsteem** võimaldab juurdepääsu konfiguratsioonidele, mis asuvad XML-failidena AOS-i teenuse hostitud masina kohaliku failisüsteemi kindlas kaustas. Vajalik kaust valitakse hoidla registreerimise etapis. Saate importida konfiguratsioone hoidlast **Failisüsteem** praegusesse rakenduse eksemplari. 
 
@@ -184,9 +184,13 @@ Pange tähele, et hoidla tüübile pääseb juurde järgmistes keskkondades:
 
 Lisateabe saamiseks vt teemat [Elektroonilise aruandluse (ER) konfiguratsioonide importimine](./electronic-reporting-import-ger-configurations.md).
 
-Hoidla **RCS-i eksemplar** võimaldab juurdepääsu konkreetsele RCS-i eksemplarile, mis valiti hoidla registreerimise etapis. ER võimaldab importida lõpule viidud või jagatud konfiguratsioone valitud RCS-i eksemplarist praeguse rakenduse eksemplarini, et saaksite neid kasutada elektrooniliseks aruandluseks.
+Hoidla **RCS-i** eksemplar võimaldab juurdepääsu konkreetsele [konfiguratsiooniteenuse (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) eksemplarile, mis valiti hoidla registreerimise etapis. ER võimaldab importida lõpule viidud või jagatud konfiguratsioone valitud RCS-i eksemplarist praeguse rakenduse eksemplarini, et saaksite neid kasutada elektrooniliseks aruandluseks.
 
-Lisateavet leiate teemast [Elektroonilise aruandluse (ER) konfiguratsioonide importimine teenusest Regulatory Configuration Services (RCS)](./rcs-download-configurations.md).
+Lisateabe saamiseks vt teemat [Elektroonilise aruandluse (ER) konfiguratsioonide importimine RCS-ist](./rcs-download-configurations.md).
+
+**Globaalne hoidla** annab juurdepääsu globaalse hoidla [konfiguratsiooniteenuses](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) sisalduvate konfiguratsioonide loendile. Seda tüüpi ER-i hoidlat saab registreerida ainult Microsofti pakkuja jaoks. Globaalsest hoidlast saate importida ER-i konfiguratsioonide uusimaid versioone praegusesse eksemplari.
+
+Lisateavet leiate teemast [Elektroonilise aruandluse (ER) konfiguratsioonide importimine konfiguratsiooniteenuse globaalsest hoidlast](./er-download-configurations-global-repo.md).
 
 Hoidla **Operatsiooniressursid** võimaldab juurdepääsu konfiguratsioonide loendile, mille on algselt väljastanud Microsoft kui ER-i konfiguratsioonipakkuja rakenduse lahenduse osana. Need konfiguratsioonid saab importida praegusesse eksemplari ja kasutada elektroonilise aruandluse jaoks või ülesande näidisjuhiste esitamiseks. Neid saab kasutada ka täiendavaks lokaliseerimiseks ja kohandamiseks. Pange tähele, et Microsoft ER-i konfiguratsioonide uusimad versioonid tuleb importida LCS-i ühiste vahendite teegist, kasutades vastavat ER-i hoidlat.
 

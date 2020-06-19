@@ -3,7 +3,7 @@ title: CSS-i alistamisfailidega töötamine
 description: See teema kirjeldab miks, millal ja kuidas kasutada Cascading Style Sheet (CSS) alistamisfaile rakendusega Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3c40145ea76296c1b8df9284af820534e3c869d4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001848"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411243"
 ---
 # <a name="work-with-css-override-files"></a>CSS-i alistamisfailidega töötamine
 
@@ -102,6 +102,8 @@ Oma saidil CSS-i alistamisfaili desaktiveerimiseks toimige järgmiselt.
 [Logo lisamine](add-logo.md)
 
 [Saidi kujunduse valimine](select-site-theme.md)
+
+[Töö stiili eelseadistustega](style-presets.md)
 
 [Leheikooni lisamine](add-favicon.md)
 

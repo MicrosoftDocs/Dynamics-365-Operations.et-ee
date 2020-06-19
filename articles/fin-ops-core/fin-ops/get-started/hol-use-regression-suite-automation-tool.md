@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 0c2babc3144cae5c68075bd853a2587505263776
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248732"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410146"
 ---
-# <a name="use-the-regression-suite-automation-tool-tutorial"></a>Tööriista Regression suite automation tool kasutamise õppetükk
+# <a name="regression-suite-automation-tool-tutorial"></a>Tööriista Regression Suite Automation Tool õpiku kasutamine
 
 [!include [banner](../includes/banner.md)]
 
@@ -97,7 +97,7 @@ See funktsioon teeb kuvatõmmise etappidest, mis läbiti tegevuse salvestamise a
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Kui käivitate testjuhtumi, teeb RSAT hetktõmmised (pildid) töökaustas oleva testjuhtumite taasesitusekausta etappidest. Kui kasutate RSAT-i vanemat versiooni, salvestatakse pildid kausta **C:\\Kasutajad\\\<Kasutajanimi\>\\AppData\\Roaming\\regressionTool\\playback**, iga käitatud testjuhtumi korral luuakse eraldi kaust.
+Kui käivitate testjuhtumi, teeb RSAT hetktõmmised (pildid) töökaustas oleva testjuhtumite taasesitusekausta etappidest. Kui kasutate RSAT-i vanemat versiooni, salvestatakse pildid kausta **C:\\Kasutajad\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback**, iga käitatud testjuhtumi korral luuakse eraldi kaust.
 
 ## <a name="assignment"></a>Määramine
 

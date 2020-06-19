@@ -3,7 +3,7 @@ title: Seerianumbriga kaupadega töötamine kassas
 description: Selles teemas on selgitatud, kuidas hallata seerianumbriga kaupu kassarakenduses.
 author: boycezhu
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,17 +15,16 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 1e0d6aa7cd5576578378e70c6ee808833314aff3
-ms.sourcegitcommit: 919620b4aca425e6a1248ee12f50a622d2531e58
+ms.openlocfilehash: eedb64ae04345cb94bdd8cc68de833cfcfd40119
+ms.sourcegitcommit: 39981582778b0a62567324452485a6721ca18284
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "3290766"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3407494"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Seerianumbriga kaupadega töötamine kassas
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Paljud jaemüüjad müüvad kaupu, mis nõuavad seerianumbri kontrollimist. Selliseid kaupasid nimetatakse *seerianumbriga kaupadeks*. Mõned jaemüüjad võivad kasutada seerianumbreid jälgimisotstarbel. Teised võivad rakendada seerianumbreid müügiprotsessi ajal teeninduse ja garantii otstarbel. Selles teemas on selgitatud, kuidas saate hallata seerianumbriga kaupu Microsoft Dynamics 365 Commerce'i kassarakenduses.
 

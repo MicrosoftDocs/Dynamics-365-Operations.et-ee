@@ -3,7 +3,7 @@ title: Kasutuskogemuse isikupärastamine
 description: Selles teemas selgitatakse, kuidas isikupärastada rakendust.
 author: jasongre
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: bb66db1e41dce6987bdfc52dd58e2b704ce36720
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260502"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412350"
 ---
 # <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
 
@@ -117,7 +117,11 @@ Tööriistaribal **Isikupärastamine** on saadaval järgmised tööriistad.
 - Tööriistaga **Teisalda** saate nihutada elemendi praeguses elemendirühmas teise asukohta. Võtke arvesse, et elementi ei saa teisaldada emagrupist väljapoole. Selle tööriista kasutamiseks valige tööriistaribal nupp **Teisalda** ja seejärel valige teisaldatav element. Elemendi valimisel määratleb rakendus asukohad, kuhu elementi saab teisaldada. Neid asukohti tuntakse *pukseerimistsoonidena*. Elemendi lohistamisel praeguses rühmas kuvatakse iga pukseerimistsoon värvilisena ja paksu joonega selle ala kõrval, kuhu elemendi saab pukseerida.
 - Tööriistaga **Jäta vahele** saate eemaldada elemendi lehe klaviatuuri vahekaardijärjestusest. Nupu **Jäta vahele** valimisel tööriistaribal kuvatakse kõik parasjagu vahelejäetud elemendid varjutatud konteineris. Välju saate interaktiivselt vahekaardi järjestusest eemaldada või neid sinna lisada.
 - Tööriistaga **Kuva päis** saate kuvada välja kiirkaardi kokkuvõttejaotises. Tööriistariba nupu **Kuva päises** valimisel kuvatakse kõik kokkuvõtteväljadena valitud väljad varjutatud konteineris. Saate välju interaktiivselt kiirkaardi kokkuvõttesse lisada ja neid sealt eemaldada, valides soovitud väljad.
-- Kasutage tööriista **Nõua**, et määrata element, nagu on nõutud andmesisestuse jaoks. Nupu **Nõua** valimisel tööriistaribal kuvatakse kõik nõutavad isikupärastatud elemendid varjutatud konteineris. Seejärel saate need uuesti mittenõutavaks muuta. See suvand on saadaval ainult tulevases väljaandes, milles on lubatud funktsioonid [Salvestatud vaated](saved-views.md) ja **Väljade määramine vastavalt vajadusele isikupärastamise abil**.
+- Kasutage tööriista **Nõua**, et määrata element, nagu on nõutud andmesisestuse jaoks. Nupu **Nõua** valimisel tööriistaribal kuvatakse kõik nõutavad isikupärastatud elemendid varjutatud konteineris. Seejärel saate need uuesti mittenõutavaks muuta. See suvand on saadaval ainult versioonis 10.0.12 ja hilisemates versioonides, milles on lubatud funktsioon **Väljade määramine vastavalt vajadusele isikupärastamise abil**.
+
+    > [!IMPORTANT]
+    > Versioon 10.0.12 on eelväljaanne. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
 - Tööriistaga **Lukusta** saate märkida elemendi redigeeritavaks või mitteredigeeritavaks. Nupu **Lukusta** valimisel tööriistaribal kuvatakse kõik parasjagu mitteredigeeritavad elemendid varjutatud konteineris. Seejärel saate need uuesti redigeeritavaks muuta. Arvestage sellega, et mõned väljad on nõutavad ja neid ei saa mitteredigeeritavaks muuta. Nende väljade kõrval kuvatakse tabalukuikoon.
 - Kasutage nuppu **Lisa rakendus Power Appsist**, et manustada rakendus, mis loodi lehele Microsoft Power Appsi kasutades. Üksikasjalikku teavet rakenduse Power Appsist lehele manustamise kohta vt teemast [Rakenduste manustamine Power Appsist](embed-power-apps.md). See suvand on saadaval ainult siis, funktsioon [Salvestatud vaated](saved-views.md) on keelatud.  
 - Kasutage nuppu **Lisa rakendus**, et manustada lehele rakendus, mis loodi Microsoft Power Appsis või kolmanda poole poolt. See suvand on saadaval ainult siis, funktsioon [Salvestatud vaated](saved-views.md) on lubatud. 
@@ -159,28 +163,21 @@ Armatuurlaua isikupärastamiseks lihtsalt paremklõpsake mis tahes paanil ja val
 - Tööruumi paanide ümberjärjestamiseks valige atribuudiaknas suvand **Selle lehe isikupärastamine**, et avada tööriistariba **Isikupärastamine**. Seejärel saate kasutada paanide soovitud viisil ümberkorraldamiseks tööriista **Teisalda**.
 - Uue tööruumipaani lisamiseks valige atribuudiaknas käsk **Lisa tööruum**. Uus tööruumipaan luuakse armatuurlaua alaserva. Saate selle uue tööruumipaani soovitud viisil ümber nimetada. Samuti lisada tööruumi loendeid, paane ja linke, nagu on kirjeldatud selle teema jaotises [Tööruumidesse loendite, paanide või linkide lisamine](#adding-a-tile-list-or-link-to-a-workspace).
 
+
+## <a name="sharing-personalizations"></a>Isikupärastamiste ühiskasutamine
+Pärast lehe isikupärastamist võite oma isikupärastamisi oma isikupärastatud lehe eksportimise teel teiste kasutajatega jagada. Seejärel võite paluda teistel kasutajatel avada isikupärastatud leht ja importida teie loodud isikupärastamise fail. Teine võimalus on anda oma isikupärastamised administraatoriõigustega kasutajale. Seejärel saab rakendada teie iskupärastamise faili samaaegselt paljudele kasutajatele, kasutades halduslehte **Isikupärastamine**.
+
 ## <a name="administration-of-personalizations"></a>Isikupärastamiste haldamine
+Leht **Isikupärastamine** on isikupärastamiste organisatsiooni tasemel haldamise keskus. Lehe sisu ja võimalused sõltuvad sellest, kas funktsioon **Salvestatud vaated** on lubatud.  
 
-Pärast lehe isikupärastamist võite oma isikupärastamisi oma isikupärastatud lehe eksportimise teel teiste kasutajatega jagada. Seejärel võite paluda teistel kasutajatel avada isikupärastatud leht ja importida teie loodud isikupärastamise fail. Teine võimalus on anda oma isikupärastamised administraatoriõigustega kasutajale. See kasutaja saab seejärel rakendada teie isikupärastamisfaili korraga paljudele kasutajatele.
+Kliendid, kes on lubanud funktsiooni **Salvestatud vaated** näevad teemas [Salvestatud vaated](saved-views.md) jaotist „Vaadete globaalne haldamine“.  
 
-Administraatori õigustega kasutaja saab lehel **Isikupärastamine** hallata ka teiste kasutajate isikupärastamisi.
-
-Klientidele, kes pole funktsiooni [Salvestatud vaated](saved-views.md) sisse lülitanud, on sellel lehel neli vahekaarti.
+Kui klient ei ole veel funktsiooni [Salvestatud vaated](saved-views.md) sisse lülitanud, siis kuvatakse lehel neli vahekaarti.
 
 - **Rakenda** – saate importida või valida vähemalt ühe kasutaja isikupärastamise. Isikupärastamise rakendamiseks ühele või mitmele kasutajale valige esmalt roll ja selle rolliga kasutajad. Seejärel valige kas olemasolev isikupärastamine valitud kasutajatele rakendamiseks või importige isikupärastamise fail. Isikupärastamine kinnitatakse ja rakendatakse valitud kasutajatele järgmisel korral, kui nad valitud lehe avavad.
 - **Eemalda** – saate eemaldada vähemalt ühe kasutaja lehe või tööruumi kõik isikupärastamised. Esmalt valige leht või tööruum, et näha seda isikupärastanud kasutajate loendit. Seejärel valige kasutajad, kelle isikupärastamised tuleb sellelt lehelt või sellest tööruumist eemaldada, ja valige käsk **Eemalda**. Kõik isikupärastamised, mille valitud kasutajad on valitud lehele või tööruumile rakendanud, kustutatakse. Seda tegevust ei saa tagasi võtta. Kui aga isikupärastamine on lehele või tööruumile salvestatud, saab selle isikupärastamise uuesti importida.
 - **Kasutajad** – saate valida kasutaja, et kuvada loend lehtedest, mille kasutaja on isikupärastanud. Seejärel saate valitud kasutaja võimaluse kasutada isikupärastamisi kindlatel lehtedel või terves süsteemis sisse või välja lülitada. Samuti saate kasutaja jaoks isikupärastamise importida, eksportida või eemaldada. Lisaks saate lähtestada kasutaja funktsiooni viiktekstid. Sel juhul, kui kasutaja on varem välja lülitanud kõik hüpikaknad, mis juurutavad uusi funktsioone, kuvatakse need uuesti järgmisel korral, kui kasutaja nende funktsioonidega kokku puutub.
 - **Süsteem** – saate ajutiselt välja lülitada süsteemis olevad kõigi kasutajate kõik isikupärastamised. Sel juhul kustutatakse kõik isikupärastamised kõigi kasutajate jaoks ja kõik lehed lähtestatakse nende vaikeolekusse. Kui lülitate isikupärastamise hiljem uuesti sisse, rakendatakse kõik isikupärastamised uuesti. Saate ka kõigi kasutajate isikupärastamised süsteemist jäädavalt kustutada. Kustutatud isikupärastamisi ei ole võimalik taastada. Seega veenduge enne seda ülesannet, et oleksite eksportinud kõik isikupärastamised, mida võite soovida hiljem importida.
-
-Klientidele, kes on funktsiooni [Salvestatud vaated](saved-views.md) sisse lülitanud, on lehel **Isikupärastamine** viis vahekaarti.
-
-- **Avaldatud vaated** – need vaated on teie organisatsioonile avaldatud. Nende vaadete sihtrühmaks olevate kasutajate muutmiseks saate muuta iga vaatega seotud turberolli või juriidilisi isikuid. Saate eksportida või kustutada ka ühe või mitu avaldatud vaadet.
-- **Avaldamata vaated** – need vaated on mallivaated, mis on imporditud teie süsteemi, kuid pole veel avaldatud. Saate neid vaateid avaldada, eksportida või kustutada.
-- **Isiklikud vaated** – need vaated on loodud süsteemi kasutajate poolt. Saate avaldada organisatsioonile isikliku vaate või kopeerida ühe või mitu neist vaadetest teistele kasutajatele. Saate neid vaateid vajadusel ka eksportida või kustutada.
-- **Kasutajad** – saate valida kasutaja, et kuvada loend lehtedest, mille kasutaja on isikupärastanud. Seejärel saate valitud kasutaja võimaluse kasutada isikupärastamisi kindlatel lehtedel või terves süsteemis sisse või välja lülitada. Samuti saate kasutaja jaoks isikupärastamise importida, eksportida või eemaldada. Lisaks saate lähtestada kasutaja funktsiooni viiktekstid. Sel juhul, kui kasutaja on varem välja lülitanud kõik hüpikaknad, mis juurutavad uusi funktsioone, kuvatakse need uuesti järgmisel korral, kui kasutaja nende funktsioonidega kokku puutub.
-- **Süsteem** – saate ajutiselt välja lülitada süsteemis olevad kõigi kasutajate kõik isikupärastamised. Sel juhul kustutatakse kõik isikupärastamised kõigi kasutajate jaoks ja kõik lehed lähtestatakse nende vaikeolekusse. Kui lülitate isikupärastamise hiljem uuesti sisse, rakendatakse kõik isikupärastamised uuesti. Saate ka kõigi kasutajate isikupärastamised süsteemist jäädavalt kustutada. Kustutatud isikupärastamisi ei ole võimalik taastada. Seega veenduge enne seda ülesannet, et oleksite eksportinud kõik isikupärastamised, mida võite soovida hiljem importida.
-
-Kasutajad, kellel on juurdepääs lehele **Isikupärastamine**, saavad tegumiriba nupu **Impordi vaated** abil ka isiklikke ja mallivaateid importida.
 
 ## <a name="personalizing-inventory-dimensions"></a>Varude dimensioonide isikupärastamine
 

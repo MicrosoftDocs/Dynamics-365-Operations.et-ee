@@ -3,7 +3,7 @@ title: Kinkekaardi moodul
 description: See teema hõlmab kinkekaardi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 70047376cec44523cc9cfe4df792bde23c776d8c
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261563"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411108"
 ---
 # <a name="gift-card-module"></a>Kinkekaardi moodul
 
@@ -35,6 +35,10 @@ See teema hõlmab kinkekaardi mooduleid ja kirjeldab, kuidas neid rakenduses Mic
 Kinkekaardid on levinud makseviis ja kinkekaardi moodulit saab kasutada kassas kinkekaartide vastuvõtmiseks. Kinkekaardi moodul toetab Dynamics 365, SVS-i ja Givexi kinkekaarte. SVS-i ja Givexi kinkekaarte lunastatakse Adyen maksepakkuja kaudu.
 
 Lisatebe saamiseks väliste kinkekaartide (nt SVS ja Givex) toe kohta vt [Väliste kinkekaartide tugi](./dev-itpro/gift-card.md)
+
+Järgmisel pildil on näide kinkekaardi moodulist maksmise lehel.
+
+![Kinkekaardi mooduli näide](./media/ecommerce-giftcard.PNG)
 
 ## <a name="module-properties"></a>Mooduli atribuudid
 

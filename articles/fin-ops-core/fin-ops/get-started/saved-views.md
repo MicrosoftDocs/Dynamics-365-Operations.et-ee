@@ -3,7 +3,7 @@ title: Salvestatud vaated
 description: Selles teemas kirjeldatakse, kuidas kasutada salvestatud vaadete funktsioone.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: fe79558b9d2ac4ef1c83918b949d11983b2cc0d8
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6b7f1c64c273f52dc1d414185ba54efdfb8e5c0
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260479"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412327"
 ---
 # <a name="saved-views"></a>Salvestatud vaated
 
@@ -137,7 +137,7 @@ Kui muudatused, mida soovite avaldatud vaates teha, hõlmavad ainult avaldamise 
 7. [10.0.9 / Platform Update 33 või uuem] Kui algselt valisite selle avaldatud vaate vaikevaateks, on see taas nende kasutajate vaikevaade pärast uuesti avaldamist.  
 
 Kui avaldatud vaate muudatused hõlmavad vaatega seostatud isikupärastamiste või filtrite muutmist, toimige järgmiselt. 
-1.  Avage avaldatud vaade, mida soovite muuta. 
+1.  Laadige avaldatud vaade, mida soovite muuta. 
 2.  Salvestage avaldatud vaate koopia, et luua avaldatud vaate kohalik mustand. 
 3.  Muutke kohalikku mustandit vajaduse kohaselt.
 4.  Avaldage vaade esialgse nimega. 
@@ -149,14 +149,27 @@ Kuigi kõik kasutajad näevad vahekaarti **Minu vaated**, mis näitab nende isik
 
 Lehe kõikide avaldatud vaadete loendi jaoks on olemas järgmised tegevused. 
 
--    **Avalda**: kasutage tegevust **Avalda**, et avaldada vaade uuesti pärast avaldamise parameetrite (nimi, kirjeldus, turberollid või juriidilised isikud) muutmist.
--    **Eemalda**: kasutage tegevust **Eemalda**, et avaldatud vaade jäädavalt kustutada. See tegevus eemaldab vaate kõikidelt süsteemis olevatelt kasutajatelt. Avaldatud vaadete eemaldamine jõustub pärast nupu **Salvesta** valimist.
+-    **Avalda** – kasutage tegevust **Avalda**, et avaldada vaade uuesti pärast avaldamise parameetrite (nimi, kirjeldus, turberollid või juriidilised isikud) muutmist.
+-    **Salvesta isiklikuna** – kasutage tegevust **Salvesta isiklikuna** avaldatud vaatest isikliku mustandkoopia loomiseks. See võimalus aitab teil mõista teile avaldamata või veel avaldamata vaate sisu. Samuti saate seda kasutada vaate redigeerimiseks ja uuesti avaldamiseks. See võimalus lisati versioonis 10.0.12.  
+-    **Eemalda** – kasutage tegevust **Eemalda**, et avaldatud vaade jäädavalt kustutada. See tegevus eemaldab vaate kõikidelt süsteemis olevatelt kasutajatelt. Avaldatud vaadete eemaldamine jõustub pärast nupu **Salvesta** valimist.
+
+## <a name="managing-views-globally"></a>Vaadete globaalne haldamine
+Kuigi vastavalt käesolevas teemas mainitule esitatakse mõned haldusvõimalused igal lehel, siis saavad **süsteemi administraatorid** ja **salvestatud süsteemi administraatorid** hallata vaateid ka terviklikumalt lehel **Isikupärastamine**. Lehel on eelkõige järgmised jaotised ja võimalused. 
+
+- **Avaldatud vaated** – jaotises on loetletud kõik teie organisatsiooni jaoks avaldatud vaated. Siin saate pärast sihtkohti kuvavate turberollide või juriidiliste isikute muutmist vaate uuesti avaldada. Saate eksportida või kustutada ka ühe või mitu avaldatud vaadet. Versioonis 10.0.12 ja hilisemates versioonides saate vaatest isikliku koopia loomiseks kasutada tegevust **Salvesta isiklikuna**, et saaksite vaadet uuendada või saada selle sisust parema ülevaate. 
+- **Avaldamata vaated** – jaotises on loetletud kõik vaated, mis on imporditud teie süsteemi, kuid pole veel avaldatud. Saate neid vaateid avaldada, eksportida või kustutada. Versioonis 10.0.12 lisatud tegevus **Kiiravaldamine** võimaldab avaldada ühe tegevuse raames mitu antud jaotise vaadet, kasutades olemasolevaid turberolli ja juriidilise isiku konfiguratsioone. Versioonis 10.0.12 ja hilisemates versioonides saate nendest vaadetest isiklike koopiate loomiseks kasutada tegevust **Salvesta isiklikuna**, et saaksite nende sisust parema ülevaate.   
+- **Isiklikud vaated** – jaotises on loetletud kõik vaated, mis on loodud süsteemi kasutajate poolt. Siin saate avaldada organisatsioonile isikliku vaate või kopeerida ühe või mitu neist vaadetest teistele kasutajatele. Saate neid vaateid vajadusel ka eksportida või kustutada.
+- **Kasutajad** – saate valida kasutaja, et kuvada loend lehtedest, mida kasutaja on külastanud. Seejärel saate muuta valitud kasutaja võimalust kasutada isikupärastamist kindlatel lehtedel või terves süsteemis. Samuti saate kasutaja jaoks isikupärastamise importida, eksportida või eemaldada. Lisaks saate lähtestada kasutaja funktsiooni viiktekstid. Seejärel, kui kasutaja on varem välja lülitanud kõik hüpikaknad, mis juurutasid uusi funktsioone, kuvatakse need hüpikaknad uuesti järgmisel korral, kui kasutaja nende funktsioonidega kokku puutub.
+- **Süsteem** – saate ajutiselt välja lülitada süsteemis olevad kõigi kasutajate kõik isikupärastamised. Sel juhul kustutatakse kõik isikupärastamised kõigi kasutajate jaoks ja kõik lehed lähtestatakse nende vaikeolekusse. Kui lülitate isikupärastamise hiljem uuesti sisse, rakendatakse kõik isikupärastamised uuesti. Saate ka kõigi kasutajate isikupärastamised süsteemist jäädavalt kustutada. Kustutatud isikupärastamisi ei ole võimalik taastada. Seega veenduge enne seda ülesannet, et oleksite eksportinud kõik isikupärastamised, mida võite soovida hiljem importida.
+
+Kasutajad, kellel on juurdepääs lehele **Isikupärastamine**, saavad tegumiriba nupu **Impordi vaated** abil ka isiklikke ja mallivaateid importida. Versioonis 10.0.12 ja hilisemates versioonides on lisatud mehhanism vaadete koheseks avaldamiseks nende importimisel.  
 
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kuidas lubada salvestatud vaateid minu keskkonnas? 
-Märkus. Funktsioon **Salvestatud vaated** nõuab, et rakenduses Finance and Operations oleks isikustamise süsteem lubatud. Kui kogu keskkonnale on isikupärastamine välja lülitatud, keelatakse vaated isegi siis, kui järgite alltoodud juhiseid. 
+> [!NOTE]
+> Funktsioon **Salvestatud vaated** nõuab, et rakenduses Finance and Operations oleks isikustamise süsteem lubatud. Kui kogu keskkonnale on isikupärastamine välja lülitatud, keelatakse vaated isegi siis, kui järgite alltoodud juhiseid. 
 
-**10.0.9 / platvormivärskendus 33 ja hilisem** Funktsioon **Salvestatud vaated** on kõikides keskkondades saadaval otse funktsioonihalduses. Sarnaselt teistele avaliku eelvaate funktsioonidele kehtib selle funktsiooni tootmisse lubamisele [täiendav kasutustingimuste leping](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9 / platvormivärskendus 33 ja hilisem** Funktsioon **Salvestatud vaated** on kõikides keskkondades saadaval otse funktsioonihalduses. Sarnaselt teistele eelvaate funktsioonidele kehtib selle funktsiooni tootmisse lubamisele [täiendav kasutustingimuste leping](https://go.microsoft.com/fwlink/?linkid=2105274).  
 
 **10.0.8 / platvormiuuendus 32 ja varasem** Funktsiooni **Salvestatud vaated** saab lubada 1. taseme (arendamine/testimine) ja 2. taseme (liivakast) keskkondades, et pakkuda täiendavat testimist ja kujundusmuudatusi, järgides alltoodud juhiseid.
 

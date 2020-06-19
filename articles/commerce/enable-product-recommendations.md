@@ -3,7 +3,7 @@ title: Tootesoovituste lubamine
 description: Selles teemas selgitatakse, kuidas teha tehisintellekti masinõppel (AI-ML) põhinevad tootesoovitused rakenduses Microsoft Dynamics 365 Commerce klientidele kättesaadavaks.
 author: bebeale
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d38d7b0e98d84e23d7a51c5d8ee65df4a3b9e4a7
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 694e5a451b8e25f3729364dfaed0adc7d242f2fe
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259790"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404205"
 ---
 # <a name="enable-product-recommendations"></a>Tootesoovituste lubamine
 
@@ -34,11 +34,11 @@ Selles teemas selgitatakse, kuidas teha tehisintellekti masinõppel (AI-ML) põh
 
 ## <a name="recommendations-pre-check"></a>Tootesoovituste eelkontroll
 
-Enne lubamist võtke arvesse, et tootesoovitusi toetatakse ainult Commerce'i klientide jaoks, kes on migreerinud salvestusruumi kasutama rakendust Azure Data Lake Storage (ADLS). 
+Enne lubamist võtke arvesse, et tootesoovitusi toetatakse ainult Commerce'i klientide jaoks, kes on migreerinud salvestusruumi kasutama rakenduses Azure Data Lake Storage. 
 
 Enne soovituste lubamist tuleb kontoris lubada järgmised konfiguratsioonid:
 
-1. Veenduge, et ADLS oleks ostetud ja keskkonnas edukalt kontrollitud. Lisateabe saamisesk vt [Veenduge, et ADLS oleks ostetud ja keskkonnas edukalt kontrollitud](enable-ADLS-environment.md).
+1. Veenduge, et Azure Data Lake Storage oleks ostetud ja keskkonnas edukalt kontrollitud. Lisateabe saamiseks vt [Veenduge, et Azure Data Lake Storage oleks ostetud ja keskkonnas edukalt kontrollitud](enable-ADLS-environment.md).
 2. Veenduge, et üksuse kaupluse värskendamine oleks automatiseeritud. Lisateabe saamiseks vt [Veenduge, et üksuse kaupluse värskendamine oleks automatiseeritud](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 3. Kinnitage, et Azure AD identiteedi konfiguratsioon sisaldab kirjet üksuse Soovitused jaoks. Lisateavet selle tegevuse kohta leiate altpoolt.
 
@@ -92,7 +92,7 @@ Lisateavet isikupärastatud soovituste kohta vaadake jaotisest [Isikupärastatud
 
 [Tootesoovituste ülevaade](product-recommendations.md)
 
-[ADLS-i lubamine Dynamics 365 Commerce keskkonnas](enable-adls-environment.md)
+[ Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas](enable-adls-environment.md)
 
 [Isikupärastatud soovituste lubamine](personalized-recommendations.md)
 

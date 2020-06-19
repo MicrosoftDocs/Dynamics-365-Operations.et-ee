@@ -3,7 +3,7 @@ title: Tootesoovituste ülevaade
 description: Selles teemas antakse üldist teavet tootesoovituste kohta. Tootesoovitused võimaldavad klientidel kergesti ja kiiresti leida tooteid, mida nad soovivad ja isegi tooteid, mida nad algselt ei kavatsenud osta.
 author: Moonma
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e61136ed296d673e14600762c6f6199093530546
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 1b01589322c26b6a7b69d1b992b03603f5f3d29a
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154222"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404344"
 ---
 # <a name="product-recommendations-overview"></a>Tootesoovituste ülevaade
 
@@ -40,7 +40,7 @@ E-kaubanduses toetavad tootesoovitused suures osas Microsofti soovituste masinõ
 
 Tootesoovituste teenus kasutab tehisintellekti ja masinõppe (AI-ML) tehnoloogiaid järgmisel viisil.
 
-- Andmed vormingus, mida soovitusteenus nõuab, ekstraheeritakse kaubanduse operatiivandmebaasist ja saadetakse Azure Data Lake Storage'isse (ADLS) või olemi kauplusesse.
+- Andmed vormingus, mida soovitusteenus nõuab, ekstraheeritakse kaubanduse operatiivandmebaasist ja saadetakse Azure Data Lake Storage'isse või olemi kauplusesse.
 - Soovitusteenus kasutab talletatud andmeid soovitusmudelite koolitamiseks järgmiste loendite jaoks: **Inimestele meeldib ka**, **Sageli koos ostetud**, **Uus**, **Enim müüdud** ja **Populaarsed**.
 
 ## <a name="scenarios"></a>Stsenaariumid
@@ -67,7 +67,7 @@ Järgmine tabel kirjeldab erinevaid automatiseeritud tootesoovituste tüüpe, mi
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[ADLS-i lubamine Dynamics 365 Commerce keskkonnas](enable-adls-environment.md)
+[ Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas](enable-adls-environment.md)
 
 [Luba tootesoovitused](enable-product-recommendations.md)
 
