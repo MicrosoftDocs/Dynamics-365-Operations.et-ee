@@ -3,7 +3,7 @@ title: Identifitseerimisnumbri vastuvõtmine ladustamisrakenduse kaudu
 description: Selles teemas selgitatakse, kuidas häälestada ladustamisrakendust, et toetada identifitseerimisnumbri vastuvõtmisprotsessi füüsiliste varude vastuvõtmiseks.
 author: perlynne
 manager: tfehr
-ms.date: 03/31/2020
+ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 7d5ac6598ab80ece0164d7c92f5d84e91d21b385
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 82b4f40510d5bbf829508f17f1064886620a4aed
+ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346372"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410881"
 ---
 # <a name="license-plate-receiving-via-the-warehousing-app"></a>Identifitseerimisnumbri vastuvõtmine ladustamisrakenduse kaudu
 
@@ -33,47 +33,51 @@ ASN-i andmed on seotud koormate ja saadetistega *pakkestruktuuride* kaudu, kus k
 > [!NOTE]
 > Selleks, et vähendada laokannete arvu, kui kasutatakse pesastatud identifitseerimisnumbreid, siis registreerib süsteem füüsilise vaba kaubavaru peamisele identifitseermisnumbrile. Füüsiline vaba kaubavaru liikumise käivitamiseks pesastatud identifitseerimisnumbrilt peamisele identifitseerimisnumbrile pakkestruktuuri andmete põhjal, peab mobiilses seadmes olema menüü üksus, mis põhineb töö loomise protsessil *Pakena pesastatud identifitseerimisnumbritele*.
 
-<!-- To be used later (will require further editing):
-## Warehousing mobile device app processing
+## <a name="warehousing-mobile-device-app-processing"></a>Ladustamise mobiilse seadme rakenduse töötlemine
 
-When a worker scans an incoming license plate ID, the system initializes a license plate receiving process. Based on this information, the content of the license plate (data coming from the ASN) gets physically registered at the inbound dock location. The flows that follow will depend your business process needs.
+Kui töötaja skannib sissetuleva litsentsiplaadi ID, siis käivitab süsteem litsentsiplaadi vastuvõtuprotsessi. Selle teabe alusel registreeritakse litsentsiplaadi sisu (ASNist tulevad andmed) füüsiliselt saabumisala asukohas. Järgnevas voost sõltuvad teie äriprotsessiga seotud vajadused.
 
-## Work policies
+## <a name="work-policies"></a>Tööpoliitikad
 
-As with (for example) the *Report as finished* mobile device menu item process, the license plate receiving process supports several workflows based on the defined setup.
+(Näiteks) mobiilse seadme menüükäsu *Teata lõpetamisest* protsessi puhul toetab protsessi vastuvõttev litsentsiplaat määratletud seadistuse alusel mitmeid töövooge.
 
-### Work policies with work creation
+### <a name="work-policies-with-work-creation"></a>Tööloomega tööpoliitikad
 
-Registration of physical on-hand where either the same warehouse worker immediately process a put-away work process following the inbound receiving (License plate receiving and put away) or where the registration and put away process gets handled as two different warehouse operations (License plate receiving) following the processing of the put-away work by using the existing work process via another mobile device menu item.
+Kui registreerite sissetulevad kaubad töid loova tööpoliitika abil, siis loob ja salvestab süsteem iga registreeringu kohta kõrvaleseatavad töökirjed. Kui kasutate tööprotsessi *Litsentsiplaadi vastuvõtt ja kõrvaleseadmine*, siis käsitletakse registreeringut ja kõrvaleseadmist ühe toiminguna, kasutades ühte mobiilse seadme menüükäsku. Protsessi *Vastuvõttev litsentsiplaat* kasutamisel käsitletakse vastuvõtu ja kõrvalseadmise protsesse kahe erineva ladustamistoiminguna, millest kumbagi kohta käib eraldi mobiilse seadme menüükäsk.
 
-## Work policies without work creation
+### <a name="work-policies-without-work-creation"></a>Tööloometa tööpoliitikad
 
-You can use the license plate receiving process without creating work by using the *License plate receiving without creating work* feature.
+Te saate kasutada litsentsiplaadi vastuvõtuprotsessi tööd loomata. Kui määratlete tööpoliitikad, millel on töökäsu tüüp *Üleviimistarne* ja/või *Ostutellimused* ning kasutate protsessi *Litsentsiplaadi vastuvõtmiseks (ja kõrvaleseadmiseks)*, siis ei loo järgmised kaks ladustamise mobiilirakenduse protsessi uut tööd. Selle asemel registreeritakse litsentsiplaadil vastuvõtualal sissetulevad füüsilised varud.
 
-By defining **Work policies** with a **Work order type** of *Transfer receipt* and/or *Purchase orders*, and using the **Process** for **License plate receiving (and put away)**, the two Warehousing app process:
+- *Vastuvõttev litsentsiplaat*
+- *Litsentsiplaadi vastuvõtt ja kõrvaleseadmine*
 
-- License plate receiving
-- License plate receiving and put away
+> [!NOTE]
+> - Peate määratlema jaotises **Varude asukohad** vähemalt ühe asukoha tööpoliitika jaoks. Sama asukohta ei saa määrata mitme tööpoliitika jaoks.
+> - Ladustamise mobiilse seadme menüükäskude suvand **Prindi silt** ei prindi tööd loomata litsentsiplaadi silti.
 
-will not create work, but only register the inbound physical inventory on the license plate at the inbound receiving dock.
+Funktsiooni oma süsteemis kättesaadavaks muutmiseks peate lülitama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse funktsiooni *Ladustamisrakenduse täiustusi vastu võttev litsentsiplaat*.
 
-For more information about the *Report as finished* production scenario, see the [Warehouse work policies overview](warehouse-work-policies.md).
+### <a name="receive-inventory-on-a-location-that-doesnt-track-license-plates"></a>Litsentsiplaate mittejälgivas asukohas varude vastuvõtmine
 
--->
+Asukoha profiilile määratud lao asukohta saab kasutada ka siis, kui funktsioon **Kasuta litsentsiplaadi jälgimist** ei ole sisse lülitatud. Seega saate varude vastuvõtmisel registreerida vabad varud otse asukohas, loomata selleks tööd.
+
+## <a name="add-mobile-device-menu-items-for-each-receiving-location-in-a-warehouse"></a>Mobiilse seadme menüükäskude lisamine iga vastuvõtva asukoha jaoks laos
+
+Funktsioon *Ladustamisrakenduse täiustusi vastu võttev litsentsiplaat* võimaldab teil teostada vastuvõtte mis tahes asukohas laos, lisades ladustamise mobiilirakendusele vastuvõtva (ja kõrvaleseadva) asukohapõhise litsentsiplaadi menüükäsud. Varem toetas süsteem vastuvõtmist ainult iga lao jaoks eraldi seatud vaikimisi asukohas. Nüüd aga pakuvad antud funktsiooni sisse lülitamisel mobiilse seadme vastuvõtva (ja kõrvaleseadva) litsentsiplaadi menüükäsud võimalust **Kasuta vaikeandmeid**, mis võimaldab teil valida iga menüükäsu jaoks kohandatud „kuhu“ asukoha. (See suvand oli teatud menüükäsu tüüpide jaoks juba saadaval.)
+
+Funktsiooni oma süsteemis kättesaadavaks muutmiseks peate lülitama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse funktsiooni *Ladustamisrakenduse täiustusi vastu võttev litsentsiplaat*.
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Kuva või jäta vastuvõtmise kokkuvõte leht
 
-Saate kasutada funktsiooni *Kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes*, et kasutada täiendava üksikasjaliku ladustamisrakenduse voogu identifitseerimisnumbri vastuvõtmisprotsessi osana.
-
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse seda funktsiooni järgneval viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes*
+Saate kasutada funktsiooni *Kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes*, et kasutada täiendava üksikasjaliku lao rakenduse voogu identifitseerimisnumbri vastuvõtmisprotsessi osana.
 
 Kui see funktsioon on sisse lülitatud, annavad identifitseerimisnumbri vastuvõtmise või identifitseerimisnumbri vastuvõtmise ja ladustamise menüü üksused mobiilses seadmes sätte **Kuva vastuvõttev kokkuvõtte leht**. Sellel sättel on järgmised suvandid.
 
 - **Kuva üksikasjalik kokkuvõte** – identifitseerimisnumbri vastuvõtmise ajal kuvatakse töötajatele täiendav leht, mis sisaldab täielikku ASN-i teavet.
 - **Jäta kokkuvõte vahele** – töötajatele ei kuvata täielikku ASN-i teavet. Lao töötajad ei saa määrata ka likvideerimiskoodi või lisada erandeid vastuvõtu protsessi ajal.
+
+Funktsiooni oma süsteemis kättesaadavaks muutmiseks peate lülitama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse funktsiooni *Kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes*.
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Takista üleviimistellimuse – saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu
 
@@ -81,10 +85,7 @@ Identifitseerimisnumbri vastuvõtmisprotsessi ei saa kasutada, kui ASN sisaldab 
 
 Üleviimistellimuste olukorras, kus transiitlaos ei jälgita identifitseerimisnumbreid (ja seega ei jälgita ka füüsilist vaba kaubavaru identifitseerimisnumbri kohta), saate kasutada funktsiooni *Takista üleviimistellimuse – saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu*, et vältida transiidis olevate identifitseerimisnumbrite füüsilise vaba kaubavaru värskendamist.
 
-Enne selle funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse seda funktsiooni järgneval viisil.
-
-- **Moodul:** *laohaldus*
-- **Funktsiooni nimi:** *Takista üleviimistellimuse saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu*
+Funktsiooni oma süsteemis kättesaadavaks muutmiseks peate lülitama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse funktsiooni *Takista üleviimistellimuse saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu*.
 
 Selle funktsiooni haldamiseks, kui see on saadaval, toimige järgmiselt.
 
@@ -96,6 +97,8 @@ Selle funktsiooni haldamiseks, kui see on saadaval, toimige järgmiselt.
 
 ## <a name="more-information"></a>Lisateave
 
-<!-- To read more about inbound loads, see [Link for Inbound load (Olga's doc.)] -->
-
 Lisateavet mobiilse seadme menüü üksuste kohta vt teemast [Mobiilsete seadmete seadistamine laotöö jaoks](configure-mobile-devices-warehouse.md).
+
+Lisateavet tootestsenaariumi *Teata lõpetamisest* kohta vt teemast [Lao tööpoliitikate ülevaade](warehouse-work-policies.md).
+
+Lisateavet sissetuleva koormuse halduse kohta vt teemast [Ostutellimuste sissetulevate koormate laohaldus](inbound-load-handling.md).

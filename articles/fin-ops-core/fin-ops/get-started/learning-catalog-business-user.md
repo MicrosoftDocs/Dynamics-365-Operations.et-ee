@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d6f2a51191d8c299ffed30c02f51bd8ca5464732
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 01596dd7dbc268c529720b531d4aeea8ccdd666f
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278969"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418537"
 ---
 # <a name="business-users-learning-catalog"></a>Ärikasutajate õppekataloog
 
@@ -31,7 +31,7 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | [Microsoft Dynamics 365 ja Power Platformi äriväärtustega tutvumine](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Kas olete huvitatud ärirakendustest? Kas te pole kindel, kuidas alustada Microsoft Dynamics 365 ja Power Platformi rakenduste kasutamist? Õppige, kuidas ärirakenduste kasutamine võib aidata teil oma ettevõtet muuta.  | Tasuta iseläbitav internetipõhine õppetee   | 8 tundi   |
 | [Dynamics 365 ja Power Platformi põhisätted](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/)    | Kas olete huvitatud ärirakendustest? Alustage sellest õppeteest, et näha, kuidas Dynamics 365 rakendusi kasutatakse. Siit leiate teavet pilvkeskkonna kontseptsioonide, Power Platformi ja Dynamics 365 rakendustega töötamise alustamise kohta.  | Tasuta iseläbitav internetipõhine õppetee   | 5.5 tundi |
 | [Finance and Operationsi rakenduste kasutamise alustamine](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)  | Siit leiate teavet selle kohta, kuidas Finance and Operationsi rakendused toetavad ettevõtteid globaalsete finantssüsteemide, tööprotsesside ja sujuvate tarneahelate haldamisel, et võimaldada kiirete ja teadlike otsuste tegemist. Esimese sammuna Finance and Operationsi rakendustega töötamisel peate tutvuma selle funktsioonidega, sõltumata teie rollist. | Tasuta iseläbitav internetipõhine õppetee  | 2 tundi   |
-| [Kursus MB-900T01-A: Dynamics 365 põhialused](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)   | Sellel kursusel tutvustatakse õppijale Dynamics 365 funktsioone ja äri väärtust. Kursus hõlmab Dynamics 365 rakendusi, Power Platformi, pilvkeskkonna kontseptsioone, turvamudelit ja litsentsimisvõimalusi.  | Juhendaja juhitud isiklik või võrgukoolitus; hinnad on piirkonniti ja partnerite puhul erinevad | 1 päev     |
+
 
 ## <a name="core-platform-knowledge"></a>Põhiplatvormi teave<a name="core-platform-knowledge"></a>
 | Sisu | Kirjeldus  | Vorming   | Pikkus    |

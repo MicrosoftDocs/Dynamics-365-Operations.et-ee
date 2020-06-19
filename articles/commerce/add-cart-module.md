@@ -3,7 +3,7 @@ title: Ostukorvi moodul
 description: See teema hõlmab ostukorvi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d91f6ff24f8f2c051ed23565983c2bc6a2c12b55
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 3ba46fd90507a9cf8da92598c8449a2e553da352
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261417"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411269"
 ---
 # <a name="cart-module"></a>Ostukorvi moodul
 
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 See teema hõlmab ostukorvi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
@@ -36,7 +37,11 @@ Ostukorvi moodul näitab ostukorvi lisatud kaupasid enne, kui klient on kassasse
 
 Ostukorvi moodul toetab sisselogitud ostu ja külalisostu. Samuti toetab see linki **Tagasi ostlema**. Saate konfigureerida selle lingi marsruudi jaotises **Saidi sätted \> Laiendused \> Marsruudid**.
 
-Ostukorvi moodul renderdab andmed ostukorvi ID põhjal, mis on üle kogu saidi saadaval brauseri küpsis.
+Ostukorvi moodul renderdab andmed ostukorvi ID põhjal, mis on üle kogu saidi saadaval brauseri küpsis. 
+
+Järgmisel pildil on näide Fabrikami saidi ostukorvi lehest.
+
+![Ostukorvi mooduli näide](./media/cart2.PNG)
 
 ## <a name="cart-module-properties-and-slots"></a>Ostukorvi mooduli atribuudid ja pesad
 
@@ -47,14 +52,12 @@ Ostukorvi moodulis on atribuut **Pealkiri**, mida saab seadistada sellistele vä
 - **Tekstiplokk** – see moodul toetab ostukorvi mooduli kohandatud sõnumeid. Sõnumeid juhib sisuhaldussüsteem (CMS). Lisada on võimalik mis tahes sõnum, näiteks „Tellimusega esinevate probleemide osas võtke ühendust numbril 1-800-Fabrikam”.
 - **Kaupluse valija** – see moodul kuvab lähedalasuvate poodide loendi, kus kaup on kohapeal olemas. See võimaldab kasutajatel sisestada asukoha, et leida läheduses asuvad kauplused. Selle mooduli kohta lisateabe saamiseks vaadake teemat [Poe valija moodul](store-selector.md).
 
-
 ## <a name="module-properties"></a>Mooduli atribuudid
 
-Ostukorvi moodulitel on järgmised seadistused, mida saab konfigureerida jaotises **Saidi sätted \> Laiendused**.
+Jaotises **Saidi sätted \> Laiendused** saab konfigureerida järgmisi ostukorvi mooduli sätteid.
 
 - **Maksimaalne kogus** – seda tribuuti kasutatakse iga kauba maksimaalselt ostukorvi lisatava arvu määratlemiseks. Näiteks võib jaemüüja otsustada, et ühe tehinguga saab müüa iga toodet ainult 10 tükki.
-- **Varude kontroll** – kui väärtus on satud suvandile **Tõene**, saab kauba lisada ostukorvi ainult pärast seda, kui ostukasti moodul on veendunud, et see oleks laos olemas. See varude kontroll tehakse nii stsenaariumide jaoks, kus kaup saadetakse, kui ka stsenaariumide jaoks, kus sellele tullakse poodi järele. Kui väärtuseks on seatud suvand **Väär**, siis enne kauba ostukorvi lisamist ja tellimuse esitamist varude kontrolli ei tehta. Lisateavet varude sätete konfigureerimise kohta varukontoris leiate teemast [Jaemüügikanalite varude saadavuse arvutamine](calculated-inventory-retail-channels.md).
-- **Varude puhver** – seda atribuuti kasutatakse varude puhvri arvu määramiseks. Varusid hallatakse reaalajas ja kui paljud kliendid esitavad tellimusi, võib täpse varude arvu säilitamine olla keeruline. Kui varude kontroll on tehtud, siis kui varusid on vähem kui puhvri kogus, käsitletakse toodet kui laost otsas. Seega kui müük toimub kiiresti läbi mitme kanali, nii et varade arv pole täielikult sünkroonitud, on vähem ohtu, et müüakse kaup, mis on laost otsas.
+- **Varud** – varude sätete rakendamise kohta lisateabe saamiseks vt teemat [Varude sätete rakendamine](inventory-settings.md).
 - **Tagasi ostukorvi** – seda atribuuti kasutatakse ostukorvi lingi **Tagasi ostlema** marsruudi määramiseks. Protsessi saab konfigureerida saiditasemel, võimaldades jaemüüjatel viia klient tagasi avalehele või saidi mis tahes teisele lehele.
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unitiga suhtlemine
@@ -65,15 +68,23 @@ Ostukorvi moodul toob toote teabe välja Commerce Scale Uniti API-de abil. Braus
 
 Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
-1. Looge fragment nimega **Ostukorvi fragment** ja lisage uuele fragmendile ostukorvi moodul.
-1. Lisage ostukorvi moodulile päis.
-1. Lisage kaupluse valija moodul ostukorvi moodulile.
-1. Salvestage fragment, viige lõpule selle redigeerimine ja seejärel avaldage see.
-1. Looge mall nimega **Ostukorvi mall**ja lisage ostukorvi fragment, mille just lõite.
-1. Salvestage mall, viige lõpule selle redigeerimine ja seejärel avaldage see.
-1. Looge leht, mis kasutab uut malli.
-1. Salvestage ja kuvage lehe eelvaade.
-1. Viige lõpule lehe redigeerimine ja seejärel avaldage see.
+1. Avage **Lehe fragmendid** ja valige uue fragmendi loomiseks **Uus**.
+1. Valige dialoogiboksis **Uus lehe fragment** moodul **Ostukorv**.
+1. Jaotises **Lehe fragmendi nimi** sisestage nimi **Ostukorvi fragment** ja seejärel valige **OK**.
+1. Valige pesa **Ostukorv**.
+1. Valige parempoolsel atribuutide paanil pliiatsisümbol, sisestage väljale pealkirja tekst ja seejärel valige märkesümbol.
+1. Valige pesas **Ostukorv** kolmikpunkt (**…**) ja seejärel käsk **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Kaupluse valija** ja klõpsake seejärel **OK**.
+1. Valige **Salvesta**, valige fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
+1. Sisestage dialoogiboksis **Uus mall** jaotises **Malli nimi** mallile nimi.
+1. Valige liigendpuust pesa **Keha**, valige kolmikpunkt (**...**) ja seejärel suvand **Lisa fragment**.
+1. Valige dialoogiboksis **Lehe fragmendi valimine** fragment **Ostukorvi fragment** ja seejärel valige **OK**.
+1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
+1. Valige dialoogiboksis **Malli valimine** varem teie loodud mall, sisestage lehe nimi ja seejärel valige **OK**.
+1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**.
+1. Valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

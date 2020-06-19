@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 03426e86186c6aa283531eb37ae26527e6891042
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2742c5c12dcc554745b618dd1ff819c8c1e1d05f
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276906"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413095"
 ---
 # <a name="inventory-value-storage-report"></a>Varude väärtuse talletuse aruanne
 
@@ -50,7 +50,7 @@ Enne **Varude väärtuse talletuse** aruande loomist peate selle funktsiooni oma
 1. Valige suvand **Uus**.
 1. Seadke dialoogiboksis **Varude väärtus** järgmised väärtused, et määratleda, millised kirjed aruandesse lisatakse.
 
-    - Sisestage kiirkaardil **Parameetrid** aruandele kordumatu nimi ja kasutage jaotise **Kuupäevaintervall** välju, et määratleda, millised kirjed aruandesse lisatakse. Kuupäevaintervalli määratlemiseks saate valida eelseadistatud vahemiku (aruande loomise kuupäeva põhjal) väljal **Kuupäevaintervalli kood** või valida kindlad kuupäevad väljadel **Alguskuupäev** ja **Lõppkuupäev**. <!-- KFM: What is the ID setting for here? What do its values mean? -->
+    - Sisestage kiirkaardil **Parameetrid** aruandele kordumatu nimi ja kasutage jaotise **Kuupäevaintervall** välju, et määratleda, millised kirjed aruandesse lisatakse. Kuupäevaintervalli määratlemiseks saate valida eelseadistatud vahemiku (aruande loomise kuupäeva põhjal) väljal **Kuupäevaintervalli kood** või valida kindlad kuupäevad väljadel **Alguskuupäev** ja **Lõppkuupäev**.
     - Seadistage kiirkaardil **Kaasatavad kirjed** filtrid ja piirangud, et määratleda, millised andmed aruandesse lisatakse.
     - Määrake kiirkaardil **Käivita taustal** kuidas, millal ja kui sageli aruanne luuakse.
 
