@@ -88,6 +88,8 @@
                   items:
                     - name: Mis on uut või mida on muudetud Commerce'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.12 (august 2020)
+                      href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (juuli 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (mai 2020)
@@ -212,9 +214,9 @@
               items:
                 - name: Iseteeninduslike installerite sünkroonimine rakenduses Dynamics 365 Commerce
                   href: dev-itpro/Synchronize-installers.md
-                - name: Commerce Scale Unit
+                - name: Commerce Scale Unit (isehostitud)
                   href: dev-itpro/retail-store-system-begin.md
-                - name: Commerce Scale Uniti konfigureerimine ja installimine
+                - name: Commerce Scale Uniti konfigureerimine ja installimine (isehostitud)
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
                 - name: Kaasaegse kassa konfigureerimine ja installimine
                   href: retail-modern-pos-device-activation.md
@@ -604,7 +606,7 @@
               items:
                 - name: Tootesoovituste ülevaade
                   href: product-recommendations.md
-                - name: ADLS-i lubamine Dynamics 365 Commerce'i keskkonnas
+                - name: Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas
                   href: enable-ADLS-environment.md
                 - name: Luba tootesoovitused
                   href: enable-product-recommendations.md
@@ -646,8 +648,8 @@
                   items:
                     - name: Kaupluse varude haldamine
                       href: work-with-store-inventory.md
-                    - name: Järjestatud kaupadega töötamine
-                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Varude puhvrite ja varude tasemete konfigureerimine
+                      href: inventory-buffers-levels.md
                     - name: Järjestatud kaupadega kassas töötamine
                       href: pos-serialized-items.md
                     - name: Toodete jaotamine jaotuskeskusest kauplusse kesklaost jaotuse abil
@@ -824,6 +826,8 @@
                   href: authoring-home-overview.md
                 - name: Kasutajate ja rollide haldamine
                   href: manage-ecommerce-users-roles.md
+                - name: Varude sätete rakendamine
+                  href: inventory-settings.md
                 - name: Saidi jaoks otsingumootori optimeerimise (SEO) kaalutlused
                   href: search-engine-optimization-considerations.md
                 - name: Sisu turbepoliitika (CSP) haldamine
@@ -848,6 +852,8 @@
                       href: select-site-theme.md
                     - name: CSS-i alistamisfailidega töötamine
                       href: css-override-files.md
+                    - name: Laadide eelsätetega töötamine
+                      href: style-presets.md
                     - name: Leheikooni lisamine
                       href: add-favicon.md
                     - name: Tervitussõnumi lisamine
@@ -932,6 +938,10 @@
                   items:
                     - name: Konteineri moodul
                       href: add-container-module.md
+                    - name: Akordionimoodul
+                      href: add-accordion.md
+                    - name: Vahekaardimoodul
+                      href: add-tab.md
                 - name: Turundusmoodulid
                   items:
                     - name: Kampaania ribareklaami moodul
@@ -978,6 +988,10 @@
                   items:
                     - name: Tootekogumi moodulid
                       href: product-collection-module-overview.md
+                - name: Navigeerimismoodulid
+                  items:
+                    - name: Lingireamoodul
+                      href: add-breadcrumb.md
             - name: Otsing
               items:
                 - name: Kategooria vaikesihtleht ja otsingutulemuste leht
@@ -1048,6 +1062,10 @@
                   href: localizations/emea-fra-cash-registers.md
                 - name: Kassaaparaatide juurutamise juhised
                   href: localizations/emea-fra-deployment.md
+            - name: Saksamaa
+              items:
+                - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Saksamaa jaoks
+                  href: localizations/emea-deu-fi-sample.md
             - name: India
               items:
                 - name: Kassaaparaatide kaupade ja teenuste maksu (GST) integreerimine
@@ -1462,7 +1480,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Tekst: QRCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Tekst: tekst'
+                        - name: 'Tekst: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
             - name: Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -1582,13 +1600,13 @@
                   href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                 - name: Konfiguratsioonide importimine
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: ER-konfiguratsioonide allalaadimine RCS-hoidlast
+                - name: Elektroonilise aruandluse konfiguratsioonide allalaadimine RCS-hoidlast
                   items:
                     - name: Konfiguratsioonide allalaadimine RCS-i tüüpi ER-hoidlavormingutest
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfiguratsioonide importimine RCS-ist
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-            - name: Õppetükid
+            - name: Õpetused
               items:
                 - name: Mitme rakenduse tabeli andmete saamiseks kasutage LIITMISE andmete allikaid
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
@@ -1976,7 +1994,9 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Kujunduse sätete konfigureerimine
                       href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: Kujunduse laiendamine
+                    - name: Kujunduse laiendamine mooduli laienduste lisamiseks
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Kujunduse laiendamine põhiteemast
                       href: e-commerce-extensibility/extend-theme.md
                 - name: Skripti sisestamine
                   items:
@@ -2072,11 +2092,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Retail Serveri laiendatavus
               items:
-                - name: Retail Server OData kontrolleri laiendamine
+                - name: Commerce Scale Uniti OData kontrolleri laiendamine
                   href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: Retail Serveri kliendi ja tarbija API-d
+                - name: Commerce Scale Uniti kliendi ja tarbija API-d
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Vaikimisi Retail Serveri metaandmete kontrolleri laiendamine
+                - name: Commerce Scale Uniti vaikemetaandmete kontrolleri laiendamine
                   href: dev-itpro/extend-metadata.md
                 - name: CRT teenusele helistamine ühenduseta režiimis
                   href: dev-itpro/call-crt-service-offline.md
@@ -2096,8 +2116,6 @@
                   href: dev-itpro/add-customer-preference-channel.md
                 - name: Retaili kanalite saladuste haldamine
                   href: dev-itpro/manage-secrets.md
-                - name: Müügitellimustele atribuutide lisamine
-                  href: dev-itpro/add-properties-sales-order.md
                 - name: CRT laiendatavus ja päästikud
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Kannete blokeerimine päästikute abil

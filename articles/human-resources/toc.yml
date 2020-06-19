@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 28. mai 2020
+          href: hr-whats-new-2020-05-28.md
         - name: 14. mai 2020
           href: hr-whats-new-2020-05-14.md
         - name: 1. mai 2020
@@ -509,6 +511,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: Puhkuse katkestamine
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Puhkusetaotlus
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: Töötaja puhkuse haldamine
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Puhkuste ja puudumiste analüüsi kuvamine
@@ -519,6 +523,10 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Meeskonna ja ettevõtte kalendrite kuvamine
               href: hr-employee-self-service-calendar.md
+            - name: Puhkuse ostu ja müügi poliitikate haldamine
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Puhkuse ostmine ja müümine
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: Puhkusetaotluste haldamine Teamsis
           href: hr-teams-leave-app.md
         - name: Töötajate arendamine
