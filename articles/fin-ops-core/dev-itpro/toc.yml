@@ -10,23 +10,21 @@
           items:
             - name: Mis on uut või mida on muudetud rakendustes Finance and Operations?
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Mis on uut või mida on muudetud Platform update'is?
+            - name: Mis on uut või mida on muudetud platvormivärskendustes?
               items:
-                - name: Mis on uut või mida on muudetud Platform update'i avalehel?
+                - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
-                - name: Platformi versiooni 10.0.12 värskendused (august 2020)
+                - name: Platvormi versiooni 10.0.12 värskendused (august 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: Platformi versiooni 10.0.11 värskendused (juuli 2020)
+                - name: Platvormi versiooni 10.0.11 värskendused (juuli 2020)
                   href: get-started/whats-new-platform-update-35.md
-                - name: Platformi versiooni 10.0.10 värskendused (mai 2020)
+                - name: Platvormi versiooni 10.0.10 värskendused (mai 2020)
                   href: get-started/whats-new-platform-update-34.md
-                - name: Platformi värskendus 33 (aprill 2020)
-                  href: get-started/whats-new-platform-update-33.md
-            - name: Eemaldatud või aegunud funktsioonid
+            - name: Eemaldatud või iganenud funktsioonid
               items:
-                - name: Eemaldatud või aegunud Platformi funktsioonid
+                - name: Eemaldatud või iganenud platvormi funktsioonid
                   href: get-started/removed-deprecated-features-platform-updates.md
-                - name: Varasematest versioonidest eemaldatud või aegunud funktsioonid
+                - name: Varasematest versioonidest eemaldatud või iganenud funktsioonid
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: AX 2012 edasilükatud funktsioonid
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -148,11 +146,13 @@
                                   href: data-entities/dual-write/requirements-and-prerequisites.md
                                 - name: Kuidas kasutada topeltkirjutamise viisardit oma keskkondade linkimiseks?
                                   href: data-entities/dual-write/link-your-environment.md
-                                - name: Olemikaardi lubamine topeltkirjutamise jaoks
+                                - name: Üksuse vastenduse lubamine topeltkirjutamise jaoks
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: Valuuta andmetüübi migratsioon topeltkirjutamise jaoks
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: Topeltkirjutamise haldamine
                           items:
-                            - name: Olemi ja välja vastenduste kohandamine
+                            - name: Üksuse- ja väljavastenduste kohandamine
                               href: data-entities/dual-write/customizing-mappings.md
                             - name: Tõrkehaldus ja teatiste teatamine
                               href: data-entities/dual-write/errors-and-alerts.md
@@ -178,7 +178,7 @@
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
                             - name: Ettevõtte integratsioon
                               items:
-                                - name: Ettevõtte kontseptsioon Common Data Service'is
+                                - name: Ettevõtte kontseptsioon lahenduses Common Data Services
                                   href: data-entities/dual-write/company-data.md
                                 - name: Alglaadimine ettevõtte andmetega
                                   href: data-entities/dual-write/bootstrap-company-data.md
@@ -364,9 +364,11 @@
           items:
             - name: Azure Data Lake'i ülevaade
               href: data-entities/azure-data-lake-overview.md
+            - name: Eksportimise konfigureerimine Azure Data Lake'i
+              href: data-entities/configure-export-data-lake.md
             - name: Finance and Operationsi rakendused Azure Data Lake'is
               href: data-entities/finance-data-azure-data-lake.md
-            - name: Muuda üksusesalv Data Lake’i üksusena saadavaks
+            - name: Muuda üksusesalv Data Lake’i üksusena kättesaadavaks
               href: data-entities/entity-store-data-lake.md
         - name: Andmebaasi teisaldamistoimingud
           items:
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Kohapealsed diagnostikad
                       href: deployment/on-premises-diagnostics.md
+                    - name: Kohapealse avariijärgse taaste konfiguratsioon
+                      href: deployment/onprem-dr.md
                     - name: PowerBI.com-i integratsioon kohapealsete keskkondadega
                       href: analytics/entity-store-on-prem.md
                     - name: Keskkondade ümberkonfigureerimine
@@ -652,11 +656,11 @@
                   href: dev-tools/debug-xpp.md
                 - name: Atribuudi EventHandlerResult klassid taotluste või vastuste stsenaariumides
                   href: dev-tools/event-handler-result-class.md
-                - name: 'Äriloogika kirjutamine C# ja X++ lähtekoodi abil'
+                - name: Äriloogika kirjutamine C# ja X++ lähtekoodi abil
                   href: dev-tools/write-business-logic.md
                 - name: X++ ja X++ kompilaatori muudatused
                   href: dev-tools/programming-language-support.md
-                - name: 'LINQ pakkuja C# jaoks'
+                - name: LINQ pakkuja C# jaoks
                   href: dev-tools/linq-provider-c.md
                 - name: Hea tava reeglite kirjutamine
                   href: dev-tools/author-best-practice-rules.md
@@ -716,7 +720,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: X++ atribuudiklassid
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'X++ ja C# võrdlus'
+                    - name: X++ ja C# võrdlus
                       href: dev-ref/xpp-cs-comparison.md
                     - name: X++ süntaks
                       href: dev-ref/xpp-syntax.md
@@ -1050,7 +1054,7 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Teadaolevad probleemid
                   href: lifecycle-services/known-issues.md
-                - name: Eemaldatud või aegunud funktsioonid teenuses Lifecycle Services (LCS)
+                - name: Eemaldatud või iganenud funktsioonid teenuses Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Teenuse Lifecycle Services kasutusjuhend
               href: lifecycle-services/lcs-user-guide.md
@@ -1436,6 +1440,8 @@
                   href: sysadmin/role-based-security.md
                 - name: Turbearhitektuur
                   href: sysadmin/security-architecture.md
+                - name: Krüptimine Finance and Operationsi rakendustes
+                  href: sysadmin/encryption.md
                 - name: Seansi jõudeoleku ajalõpu määramine
                   href: sysadmin/session-idle-timeout.md
                 - name: Valmisturbearuanded
@@ -1608,11 +1614,11 @@
                   href: dev-tools/update-development-tools.md
             - name: Kulum
               items:
-                - name: Eemaldatud või aegunud funktsioonid
+                - name: Eemaldatud või iganenud funktsioonid
                   href: migration-upgrade/deprecated-features.md
                 - name: Meetodite ja metaandmeelementide aegumine
                   href: migration-upgrade/deprecation-deletion-apis.md
-                - name: Aegunud API-d
+                - name: Iganenud API-d
                   href: migration-upgrade/deprecated-apis.md
         - name: Kasutajaliidese arendus
           items:

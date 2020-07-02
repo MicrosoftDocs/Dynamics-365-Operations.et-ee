@@ -3,7 +3,7 @@ title: Tellimuse üksikasjade moodul
 description: See teema hõlmab tellimuse üksikasjade mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce kasutada.
 author: anupamar
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cb09a0b6ce1e48707f96021e9fad0006d9c1c55c
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
+ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026013"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3464926"
 ---
 # <a name="order-details-module"></a>Tellimuse üksikasjade moodul
 
@@ -35,11 +35,11 @@ See teema hõlmab tellimuse üksikasjade mooduleid ja kirjeldab, kuidas neid rak
 
 Tellimuse üksikasjade moodulit kasutatakse pärast tellimuse esitamist tellimuse kinnituse üksikasjade kuvamiseks. See kuvab tellimuse kinnituse ID, tellimuse kontaktandmeid ja muud tellimuse üksikasjad, nagu ostetud kauvad makseteave ja tarneviis.
 
-## <a name="order-confirmation-module-properties"></a>Tellimuse kinnituse mooduli atribuudid
+## <a name="order-details-module-properties"></a>Tellimuse üksikasjade mooduli atribuudid
 
 | Atribuudi nimi  | Väärtused | Kirjeldus |
 |----------------|--------|-------------|
-| Pealkiri        | Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**) | Tellimuse kinnituse moodulil võib olla pealkiri. Vaikimisi kasutatakse pealkirja jaks pealkirja silti **H2**. Samas saab silti muuta, et see vastaks juurdepääsetavuse nõuetele. |
+| Pealkiri        | Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**) | Tellimuse üksikasjade moodulil võib olla pealkiri. Vaikimisi kasutatakse pealkirja jaks pealkirja silti **H2**. Samas saab silti muuta, et see vastaks juurdepääsetavuse nõuetele. |
 | Kontakti number | Tekst | Tellimusega seotud küsimuste jaoks saab kasutada kontaktnumbrit. |
 
 ## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Moodulid, mida saab tellimuse üksikasjade lehel kasutada
@@ -49,22 +49,26 @@ Tellimuse üksikasjade lehe loomisel saate lisaks tellimuse üksikasjade mooduli
 - **Soovituste moodul** – soovituste mooduli saab lisada tellimuse üksikasjade lehele, et soovitada kliendile muid tooteid.
 - **Turunduse moodulid** – mis tahes turunduse mooduli saab lisada tellimuse üksikasjade lehele, et kuvada turunduse sisu.
 
-## <a name="create-an-order-details-page-module"></a>Tellimuse üksikasjade lehe mooduli loomine
+## <a name="add-an-order-details-module-to-a-page"></a>Lehele tellimuse üksikasjade mooduli lisamine
 
-1. Looge lehe mall nimega **Tellimuse üksikasjade mall**.
-1. Lisage vaikimisi lehe pesasse **Peamine** tellimuse üksikasjade moodul.
-1. Lisage tellimuse üksikasjade moodulis soovituste moodul.
-1. Malli salvestamine ja eelvaade. Tellimuse üksikasjade moodulit ei renderdata, kuna see nõuab tellimuse kinnituse numbri konteksti.
-1. Viige lõpuni malli redigeerimine ja avaldage see.
-1. Kasutage äsja loodud tellimuse üksikasjade malli, et luua leht, mille nimi on **Tellimuse üksikasjade leht**.
-1. Lisage lehekülje liigendusele vaikimisi lehekülg.
-1. Lisage päise fragment pesasse **Päis**.
-1. Lisage jaluse fragment pesasse **Jalus**.
-1. Lisage tellimuse üksikasjade moodul pesasse **Peamine**.
-1. Tellimuse üksikasjade mooduli atribuutide paanil lisage pealkiri **Tellimuse üksikasjad**.
-1. Lisage tellimuse üksikasjade mooduli alla soovituste moodul ja konfigureerige see nii, et see kasutaks sätteid **Uus** ja **Enimmüüdud**.
-1. Salvestage ja kuvage lehe eelvaade.
-1. Viige lõpuni lehe redigeerimine ja avaldage see.
+Uuele lehele tellimuse üksikasjade mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
+
+1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
+1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all nimi **Tellimuse üksikasjade mall** ja valige seejärel **OK**.
+1. Valige pesas **Keha** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Vaikeleht** ja klõpsake seejärel **OK**.
+1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Tellimuse üksikasjad** ja klõpsake seejärel **OK**.
+1. Valige **Salvesta** ja seejärel malli eelvaate kuvamiseks **Eelvaade**. Tellimuse üksikasjade moodulit ei renderdata, kuna see nõuab tellimuse kinnituse numbri konteksti.
+1. Valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
+1. Valige dialoogiboksis **Vali mall** suvand **Tellimuse üksikasjade mall**. Sisestage jaotises **Lehe nimi** väärtus **Tellimuse üksikasjade leht** ja seejärel klõpsake **OK**.
+1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Tellimuse üksikasjad** ja klõpsake seejärel **OK**.
+1. Valige tellimuse üksikasjade mooduli atribuutide paanil pliiatsisümboli kõrval olev suvand **Pealkiri**.
+1. Sisestage dialoogiboksi **Pealkiri** väljale **Pealkirja tekst** pealkirja tekst **Tellimuse üksikasjad** ja klõpsake seejärel **OK**.
+1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**.
+1. Valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

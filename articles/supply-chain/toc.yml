@@ -60,7 +60,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Rakendused Finance and Operations, mida käitab 21Vianet Hiinas'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Rakendused Finance and Operations Prantsusmaal
+                - name: Finance and Operationsi rakendused Prantsusmaal
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mis on uut või mida on muudetud?
               items:
@@ -76,7 +76,7 @@
                       href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (mai 2020)
                       href: get-started/whats-new-scm-10-0-10.md
-                - name: Eemaldatud või aegunud funktsioonid
+                - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Dynamics 365 Supply Chain Managementi eemaldatud või aegunud funktsioonid
                       href: get-started/removed-deprecated-features-scm-updates.md
@@ -585,10 +585,12 @@
                   href: cost-management/inventory-close.md
                 - name: Vaba kaubavaru kuluväärtuste korrigeerimine
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Varude väärtuse talletuse aruanne
+                - name: Laoväärtuse talletuse aruanne
                   href: cost-management/inventory-value-report-storage.md
                 - name: Varude ajalise jaotuse aruande talletamine
                   href: cost-management/inventory-aging-report-storage.md
+                - name: Varude ajalise jaotuse aruande näited ja loogika
+                  href: cost-management/inventory-aging-report.md
             - name: Tootmise raamatupidamine
               items:
                 - name: Koosluse kalkulatsioonid

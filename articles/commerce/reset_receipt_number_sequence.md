@@ -19,17 +19,19 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: e3243a69b98aae25ad8514890fb984c8a0d9f694
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123942"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456569"
 ---
-# <a name="reset-receipt-numbers"></a>Kviitungi numbrite lähtestamine 
+# <a name="reset-receipt-numbers"></a>Kviitunginumbrite lähtestamine 
 
 [!include [banner](includes/banner.md)]
 
+> [!NOTE]
+> Enne selle funktsiooni kasutamist tuleb teil funktsiooniprofiilis valida kõikide kviitungitüüpide jaoks atribuut **Sõltumatu seeria**. Samuti peaks kassat kasutava seadme süsteemi ajavöönd ühtima asjaomase kaupluse ajavööndiga. Me teeme tööd nende piirangute eemaldamiseks hilisemas väljaandes. Enne selle funktsiooni kasutamist tootmiskeskkonnas võtke ühendust Microsofti tugiteenuste töötajaga.
 
 Jaemüüjad loovad kviitungi numbreid kaupluses erinevate tegevuste jaoks, nt sularaha- ja vedamiskanded, tagastuskanded, klienditellimused, hinnapakkumised ja maksed. Kuigi jaemüüjad määravad kviitungi vormingud ise, on osades riikides või regioonides määrused, mis seavad nendele kviitungi vormingutele piirangud. Näiteks võivad need määrused piirata märkide arvu kviitungil, nõuda järjestikuseid kviitungi numbreid, piirata mõningaid erimärke või nõuda kviitungi numbrite lähtestamist aasta alguses. Microsoft Dynamics 365 Commerce muudab kviitungite numbrite haldamise protsessi väga paindlikuks, et aidata jaemüüjatel täita seadusest tulenevaid nõudeid. See teema selgitab, kuidas kasutada kviitungi numbrite lähtestamise funktsiooni.
 

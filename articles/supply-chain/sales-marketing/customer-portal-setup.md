@@ -3,7 +3,7 @@ title: Kliendiportaali installimine, seadistamine ja värskendamine
 description: See teema hõlmab kliendiportaali litsentside üksikasju ja seadistamise juhiseid.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b9d1e742f78254d949dc49fda008d63b8bff4d65
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413954"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435603"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Kliendiportaali installimine, seadistamine ja värskendamine
 
@@ -35,7 +35,7 @@ Kliendiportaali kasutamiseks peavad teil olema järgmised litsentsid.
 
 Kliendiportaal sõltub Power Appsi portaalidest ja topeltkirjutusest, nagu on näidatud järgmisel pildil.
 
-![![Kliendiportaali sõltuvused](media/customer-portal-elements.png "Kliendiportaali sõltuvused")](media/customer-portal-elements.png "Customer portal dependencies")
+![Kliendiportaali sõltuvused](media/customer-portal-elements.png "Kliendiportaali sõltuvused")
 
 Erinevalt teenuse Supply Chain Management teistest funktsioonidest paikneb kliendiportaali mall Power Appsi portaalides. Seega on kliendiportaali funktsionaalsus ja võimalused piiratud Power Appsi portaalide ning topeltkirjutuse üksuste pakutavatega.
 
@@ -59,7 +59,7 @@ Enne alustamist veenduge, et oleksite [nõutud seadistused](#required-setup) jub
 
 1. Avage [make.powerapps.com](https://make.powerapps.com/).
 2. Veenduge, et kasutaksite keskkonda, kus te topeltkirjutamise lubasite.
-3. Kerige vahekaardil **Loo** allapoole kuni jaotiseni **Alusta mallist** ja seejärel valige mall nimega **Supply Chain Managementi klient**.
+3. Kerige vahekaardil **Loo** allapoole kuni jaotiseni **Alusta mallist** ja valige seejärel mall nimega **Kliendiportaal**.
 4. Järgige ekraanil toodud juhiseid.
 
 Pärast ettevalmistuse lõpule viimist saate avada kliendiportaali lehel **Avaleht** jaotises **Teie rakendused**.
@@ -71,7 +71,7 @@ Pärast ettevalmistuse lõpule viimist saate avada kliendiportaali lehel **Avale
 
 Kliendiportaalile võidakse hiljem lisada uusi funktsioone. Kõik Microsofti tehtavad lahenduse põhikomponentide muudatused ilmuvad teie keskkonda automaatselt. Samas ei kajastu teie keskkonnas ettevalmistatud veebisaidil automaatselt konfiguratsiooniandmetes tehtud muudatused. Need muudatused tuleb rakendada käsitsi, hankides uuest mallist koodi ja ühendades selle ettevalmistatud veebisaidiga.
 
-## <a name="resources"></a>Ressursid
+## <a name="additional-resources"></a>Lisaressursid
 
 Kliendiportaali seadistamise ja kohandamise lähemalt tundma õppimiseks peaksite alustama alltoodud alustehnoloogiaid käsitleva dokumentatsiooni läbivaatamisest.
 

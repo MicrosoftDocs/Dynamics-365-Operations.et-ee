@@ -3,7 +3,7 @@ title: Kliendiportaal Dynamics 365 Supply Chain Managementi ülevaate jaoks
 description: Selles teemas tutvustatakse kliendiportaali ja selgitatakse, kes peaks seda kasutama ning kuidas see töötab.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b57365d8042c1d791ee2c50c5458a6595a58270
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413953"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456922"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Kliendiportaal Dynamics 365 Supply Chain Managementi ülevaate jaoks
 
@@ -37,6 +37,12 @@ Kliendiportaali mallil on kõik kohandusvõimalused, mida pakub Power Appsi port
 
 > [!NOTE]
 > Kliendiportaali dokumentatsioon on suunatud administraatoritele, kohandajatele ja süsteemiintegraatoritele, kes seadistavad kliendiportaali Supply Chain Managementi paigaldamiseks. Supply Chain Managementi käitava organisatsiooni lõpp-portaali kasutavate klientide kirjeldamiseks kasutatakse termineid _klient_ ja _kasutaja_.
+
+## <a name="video"></a>Video
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
+
+Video [Kliendiportaali malli ülevaade Dynamics 365 Supply Chain Managementis](https://youtu.be/nPrqoLuHfV8) (ülaltoodud) on leitav [Finance and Operationsi esitusloendist](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube'is.
 
 ## <a name="who-should-use-it"></a>Kes peaks seda kasutama?
 
@@ -58,6 +64,6 @@ Kliendiportaali pakutakse Power Appsi portaalide mallina. See sõltub Power Apps
 
 [Topeltkirjutus](https://docs.microsoft.com/powerapps/maker/portals/overview) on valmiskujul taristutoode, mis pakub reaalaja lähedast suhtlust Dynamics 365 mudelipõhiste rakenduste ja Finance and Operationsi rakenduste vahel. Topeltkirjutus pakub kahesuunalist integratsiooni Finance and Operationsi rakenduste ja teenuse Common Data Service vahel. Seega pakub see rakenduste vahel integreeritud kasutuskogemust. Kliendiportaal sõltub topeltkirjutusega sünkroonitud üksustest. Enne Supply Chain Managementist pärinevate andmete esitamist kliendiportaalis peab olema topeltkirjutuse funktsioon kõikide asjakohaste üksuste jaoks lubatud.
 
-![![Kliendiportaali sõltuvused](media/customer-portal-elements.png "Kliendiportaali sõltuvused")](media/customer-portal-elements.png "Customer portal dependencies")
+![Kliendiportaali sõltuvused](media/customer-portal-elements.png "Kliendiportaali sõltuvused")
 
 Kliendiportaal toimib lähtepunktina organisatsioonide jaoks, mis soovivad kasutada Power Appsi portaale, et ehitada väljapoole suunatud veebisait, mis kasutab nende Supply Chain Managementist pärinevaid andmeid. See aitab organisatsioonidel ühendada topeltkirjutuse, Supply Chain Managementi ja Power Appsi portaalid.

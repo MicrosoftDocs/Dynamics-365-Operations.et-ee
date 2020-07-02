@@ -3,7 +3,7 @@ title: FIFO füüsilise väärtuse ja märkimisega
 description: FIFO on laomudel, milles esimesena hangitud sissetulekud väljastatakse esimesena. Finantsiliselt värskendatud väljaminekud laost tasakaalustatakse esimeste finantsiliselt värskendatud lattu minevate sissetulekutega, põhinedes laokannete finantsilisel kuupäeval.
 author: AndersGirke
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e237d1e9f9bb83d0fe65556eca07c8757f920664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a66a1b977a4e36f9ad057683366c39a81ba1d833
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201751"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454622"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO füüsilise väärtuse ja märkimisega
 
@@ -49,8 +49,8 @@ Selles näites pole kauba mudeligrupil füüsilise väärtuse kaasamine märgitu
 -   4a. Lao füüsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
 -   4b. Lao finantsiline sissetulek kogusele 1 hinnaga 30,00 USD tükk.
 -   5a. Lao füüsiline väljaminek kogusele 1 omahinnaga 20,00 USA dollarit tükk (finantsiliselt värskendatud kannete jooksev keskmine).
--   5b. Lao finantsiline väljaminek kogusele 1 omahinnaga 20,00 USA dollarit tükk (finantsiliselt värskendatud kannete jooksev keskmine).
--   6. Teostatakse lao sulgemine. FIFO-meetodi põhjal tasakaalustatakse esimene finantsiliselt värskendatud väljaminek esimese finantsiliselt värskendatud sissetulekuga. Väljaminekukandele tehakse 10,00 USA dollari ulatuses korrigeerimine.
+-   5b. Lao finantsiline väljaminek kogusele 1 omahinnaga 15,00 USA dollarit tükk (finantsiliselt värskendatud kannete jooksev keskmine).
+-   6. Teostatakse lao sulgemine. FIFO-meetodi põhjal tasakaalustatakse esimene finantsiliselt värskendatud väljaminek esimese finantsiliselt värskendatud sissetulekuga. Väljaminekukandele tehakse 5,00 USA dollari ulatuses korrigeerimine.
 
 Uus keskmise hinna käitamine kajastab finantsiliselt värskendatud kannete keskmist. Järgmised illustratsioonid näitavad FIFO laomudeli mõju sellele kannete seeriale, kui valikut **Füüsilise väärtuse kaasamine** ei kasutata. 
 

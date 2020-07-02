@@ -3,7 +3,7 @@ title: Töövoos käsitsi otsuste konfigureerimine
 description: See teema selgitab, kuidas konfigureerida käsitsi otsuse atribuute.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177441"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455029"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Töövoos käsitsi otsuste konfigureerimine
 
@@ -239,26 +239,6 @@ Järgige neid etappe, et valida, kellele käsitsi otsus määratakse.
     <li>Kui olete valinud suvandi <strong>Kasutaja</strong>, klõpsake vahekaarti <strong>Kasutaja</strong>.</li>
     <li>Loend <strong>Saadaolevad kasutajad</strong> hõlmab kõiki kasutajaid. Valige kasutajad, kellele otsus määrata, ja teisaldage need kasutajad seejärel loendisse <strong>Valitud kasutajad</strong>.</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>Järjekord</td>
-    <td>Tööüksuste järjekord</td>
-    <td>
-    <ol>
-    <li>Pärast suvandi <strong>Järjekord</strong> valimist klõpsake vahekaarti <strong>Järjekorral põhinev</strong>.</li>
-    <li>Otsuse konkreetsesse järjekorda määramiseks tehke järgmist. <ol>
-    <li>Valige loendis <strong>Järjekorra tüüp</strong> suvand <strong>Tööüksuste järjekord</strong>.</li>
-    <li>Loendis <strong>Järjekorra nimi</strong> valige järjekord.</li>
-    </ol>
-    </li>
-    <li>Kui konkreetne tingimus peab määrama, millisesse järjekorda otsus määratakse, tehke järgmist. <ol>
-    <li>Valige loendis <strong>Järjekorra tüüp</strong> suvand <strong>Tinglike tööüksuste järjekord</strong>.</li>
-    <li>Loendis <strong>Järjekorra nimi</strong> valige suvand <strong>Tinglik järjekord</strong>.</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] Suvandit kasutatakse ainult mõningate töövoogude puhul, nagu juhtumihaldus.</blockquote>
     </td>
     </tr>
     </tbody>

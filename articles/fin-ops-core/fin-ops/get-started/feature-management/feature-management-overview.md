@@ -1,9 +1,9 @@
 ---
 title: Funktsioonihalduse ülevaade
 description: See teema kirjeldab funktsioonihaldust ja kuidas seda kasutada.
-author: mikefalkner
+author: ChrisGarty
 manager: AnnBe
-ms.date: 09/12/2019
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,17 +13,17 @@ audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: a9be51c4a5cdadd968de160dc0b1406c95382eeb
-ms.sourcegitcommit: 260a820038c29f712e8f1483cca9315b6dd3df55
+ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2778701"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456593"
 ---
 # <a name="feature-management-overview"></a>Funktsioonihalduse ülevaade
 
@@ -144,3 +144,34 @@ Funktsioonihaldusega saate juhtida igas väljaandes saadetud funktsioone. Eelvä
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Funktsioonihalduse kasutamine ISV-funktsioonide või kohandatud funktsioonide sisselülitamiseks
 
 Funktsioonihaldus pole praegu saadaval sõltumatute tarkvaramüüjate (ISV-d) funktsioonide ja kohandatud funktsioonide jaoks. Kuid Microsoft lisab rohkem funktsioone funktsioonihalduse parandamiseks. Kui need parandused on tehtud, muudab Microsoft funktsioonihalduse saadavaks kõikidele uutele funktsioonidele ja annab juhised funktsioonide uuendamiseks nii, et saaksite seda kasutada.
+
+## <a name="frequently-asked-questions-faq"></a>Korduma kippuvad küsimused (KKK)
+
+### <a name="when-are-features-added-removed-or-changed"></a>Millal funktsioone lisatakse, eemaldatakse või muudetakse? 
+Funktsioone lisatakse, eemaldatakse ja muudetakse koodimuudatuste kaudu. Nende muudatuste aktiveerimiseks tuleb keskkondasid värskendada.
+
+### <a name="does-a-feature-become-mandatory-automatically"></a>Kas funktsioon muutub automaatselt kohustuslikuks? 
+Ei, funktsiooni kohustuslikuks muutumine ei ole automaatne tegevus. Tootemeeskonnad peavad koodi muutma.
+
+### <a name="when-do-features-become-mandatory"></a>Millal muutuvad funktsioonid kohustuslikuks? 
+Reeglite järgi saab uute funktsioonidega nõustuda 12 kuu jooksul ning enne funktsiooni lubamist ei pea muudatusi haldama. Tootemeeskonnad saavad valida, kas muuta funktsioon pärast selle perioodi lõppu kohustuslikuks. 
+
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Miks ei eksisteeri kindlat kohustuslikku lubamiskuupäeva? 
+Värskenduste väljaandmissaeg on muutuv, keskkondade värskendamisaeg on muutuv ja kliendid saavad mõne värskenduse vahele jätta. Seetõttu on kindlaid kuupäevi raske määrata. 
+
+### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Kus asub dokumentatsioon kohustuslikuks muudetavate funktsioonide kohta? 
+Selle dokumentatsiooni koostavad rakendusemeeskonnad. Sageli mainitakse neid jaotises [Eemaldatud või aegunud funktsioonid](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+
+### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Kas on olemas tootesisene teatis või märguanne selle kohta, et funktsioon muutub kohustuslikuks? 
+Praegu pole olemas teavitamismehhanismi, mis annaks teada, et funktsioon muutub kohustuslikuks.
+
+### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>Kas funktsioone lubatakse kunagi kliendi teadmata? 
+Jah, kui funktsioonidel ei ole funktsionaalset mõju, võidakse need vaikimisi lubada.
+
+### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>Mis on eelväljaanne ja kuidas on see seotud funktsioonihaldusega? 
+Funktsiooni eelväljaanded on Microsofti kontrollitavad reaalajas sisse-väljalülitid. Need eristuvad kliendi kontrollitavatest suvanditest, mida pakub funktsioonihaldus. 
+- Funktsioonide privaatseid eelversioone ei kuvata funktsioonihalduses enne, kui eelväljaanded on sisse lülitatud. Selle jaoks peab klient tootmiskeskkonnas andma nõusoleku spetsiaalse programmiga ühinemiseks.
+- Kui eelväljaanded pole välja lülitatud, loetletakse funktsioonide avalikud eelversioonid ja väljastatud (üldiselt saadaolevad) funktsioonid funktsioonihalduses. Tootemeeskonnad lülitavad funktsiooni eelväljaande välja ainult viimases hädas kriitilise probleemi leidmise korral ning tavaliselt tehakse seda ühe kliendi kaupa.
+
+### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Kas funktsioonide eelväljaandeid keelatakse kunagi kliendi teadmata? 
+Jah, kui funktsioon mõjutab sellise keskkonna toimimist, millel ei ole funktsionaalset mõju, võidakse funktsioon lubada vaikimisi.
