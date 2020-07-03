@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008705"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443414"
 ---
 # <a name="overview"></a>Ülevaade
 
@@ -34,22 +34,24 @@ See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsing
 - Eksemplaride häälestamine ja haldamine
   - [Rakenduse Human Resources ettevalmistamine](hr-admin-setup-provision.md)
   - [Kopeeri eksemplar](hr-admin-setup-copy-instance.md)
-  - [Eksemplari eemaldamine](hr-admin-setup-remove-instance.md)
-  - [Protsessi värskendamine](hr-admin-setup-update-process.md)
+  - [Eemalda eksemplar](hr-admin-setup-remove-instance.md)
+  - [Värskendamisprotsess](hr-admin-setup-update-process.md)
 
-- Andmete integreerimise häälestamine
+- Andmete integratsiooni häälestamine
   - [Andmete integreerimise tehnoloogia valimine](hr-admin-integration-choose-technology.md)
   - [Common Data Service’i integratsiooni konfigureerimine](hr-admin-integration-common-data-service.md)
-  - [Finance’iga integreerimise konfigureerimine](hr-admin-integration-finance.md)
-  - [Dayforce’iga integreerimise konfigureerimine](hr-admin-integration-dayforce.md)
+  - [Integratsiooni konfigureerimine Finance’iga](hr-admin-integration-finance.md)
+  - [Integratsiooni konfigureerimine Dayforce’iga](hr-admin-integration-dayforce.md)
   - [Korduvate andmete ekspordi rakenduse loomine](hr-admin-integration-recurring-data-export.md)
-  - Office’iga integreerimine
-    - [Office’i integreerimise õpik](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+  - Office'iga integreerimine
+    - [Office’i integreerimise õppetükk](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Üksuseandmete värskendamine Excelis](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Excelis avamise kogemuste loomine](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Office’i integreerimise tõrkeotsing](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Funktsioonide haldamine](hr-admin-manage-features.md)
+
+- [Andmebaasi logimise konfigureerimine ja haldamine](hr-admin-database-logging.md)
 
 - Kasutajaliidesega tutvumine
   - [Kasutajaliidese elemendid](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
@@ -75,18 +77,17 @@ See administraatori juhend aitab teil häälestada, hallata ja teha tõrkeotsing
 - Dokumentatsiooni ressursid
   - [Spikrisüsteem](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [Spikrisüsteemi ühendamine](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [Kohandatud spikrisaidi ühendamine](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [Väljade kirjelduste vaatamine ja eksportimine](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [Tegevuse salvestaja](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [Dokumentide või koolituse loomine tegevuse salvestaja abil](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
-- Rakenduse Human Resources tõrkeotsing
+- Human Resourcesi tõrkeotsing
   - [Toe hankimine](hr-admin-troubleshooting-support.md)
   - [Jõudluse optimeerimine automaatsete puhastamisülesannetega](hr-admin-troubleshooting-batch-history.md)
   - [Analüütilisi aruandeid ei värskendata](hr-admin-troubleshooting-analytic-reports.md)
   - [Power Appsi halduskeskuses ei saa keskkonda luua](hr-admin-troubleshooting-power-apps.md)
   - [Kliendi ühendus katkeb](hr-admin-troubleshooting-disconnect.md)
-  - [Kärbitud teksti vältimine ametikohtade hierarhias](hr-admin-troubleshooting-truncate.md)
+  - [Kärbitud teksti vältimine positsiooni hierarhias](hr-admin-troubleshooting-truncate.md)
   - [Kompensatsiooni protsessi käitamine](hr-admin-troubleshooting-compensation.md)
   - [Tegevuse juhise salvestamine LCS-i](hr-admin-troubleshooting-task-guide.md)
   - [Juurdepääs privaatsetele aadressidele turberolli järgi](hr-admin-troubleshooting-private-addresses.md)

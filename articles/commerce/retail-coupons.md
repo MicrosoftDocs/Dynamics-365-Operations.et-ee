@@ -3,7 +3,7 @@ title: Kupongide seadistamine jaemüügi jaoks
 description: Selles teemas antakse ülevaade kupongidest ja selgitatakse, kuidas neid seadistada.
 author: scott-tucker
 manager: AnnBe
-ms.date: 05/22/2017
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4c580e40ae1f0398ab9f8437d42ddcb2979558c3
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057367"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431974"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Kupongide seadistamine jaemüügi jaoks
 
@@ -48,8 +48,10 @@ Kupongid saab konfigureerida piiratud kasutusega kupongidena. Kasutuspiiri saab 
 
 Kupongi piirmäär rakendatakse kupongi koodi kohta. Näiteks ühekordselt kasutatavat kupongi, millel on kaks kupongi koodi, saab kasutada kaks korda: üks kord kummagi kupongi koodi kohta. Kummagi kupongi koodi saab eraldi aktiivseks määrata.
 
+Kuponge saab kasutada mis tahes müügikanalis, kuid kõikide kõnekeskuse tellimuste puhul saab piiratud kasutusega kuponge kasutada vaid selliste kõnekeskuste tellimuste puhul, kus on lubatud kõnekeskuse osas säte **Tellimuse lõpule viimine**. Kui see pole lubatud, siis saab kõnekeskuse tellimuste puhul kasutada vaid piiramatu kasutusega tüüpi kuponge.
+
 > [!NOTE]
-> Kui kupongikood jõuab kasutuspiirini, *ei* muuda süsteem automaatselt kupongikoodi olekuks „Kasutatud”. Kuid süsteem ei luba kupongikoodi enam kasutada, kui see on jõudnud kasutuspiirini. Kui kupongikoodi olekuks seatakse käsitsi midagi muud peale valiku „Aktiivne”, ei saa seda kupongikoodi enam ühelgi kanalil kasutada.
+> Kui kupongikood on jõudnud kasutuspiirini, *ei* muuda süsteem automaatselt kupongikoodi olekuks „Kasutatud”. Siiski on kupongikood saavutanud kasutuspiiri ja seda ei saa enam kasutada. Kui kupongikoodi olekuks seatakse käsitsi midagi muud peale valiku **Aktiivne**, ei saa seda kupongikoodi enam ühelgi kanalil kasutada.  
 
 ## <a name="managing-coupons"></a>Kupongide haldamine
 

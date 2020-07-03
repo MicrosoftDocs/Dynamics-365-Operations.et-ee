@@ -3,7 +3,7 @@ title: Videopleieri moodul
 description: See teema hõlmab videopleieri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e94658eed12b12d6666e63d2c06b86646c81a120
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025640"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411155"
 ---
 # <a name="video-player-module"></a>Videopleieri moodul
 
@@ -47,6 +47,10 @@ Video mängija moodul toetab ka sekundaarseid audio palasid. Kui video on CMS-i 
 - Kampaaniavideod või videod eeskirjade kohta mis tahes turunduse lehel
 - Turundusvideod, mis tõstavad toote üksikasjade lehtedel või turunduse lehtedel esile toote omadused
 
+Järgmisel pildil on näide videopleieri moodulist avalehel.
+
+![Videopleieri mooduli näide](./media/ecommerce-videoplayer.PNG)
+
 ### <a name="video-player-module-properties"></a>Videopleieri mooduli atribuudid
 
 | Atribuudi nimi         | Väärtus                               | Kirjeldus |
@@ -68,22 +72,34 @@ Video mängija moodul toetab ka sekundaarseid audio palasid. Kui video on CMS-i 
 
 Uuele lehele videopleieri mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
-1. Looge lehe mall nimega **videopleieri mall**.
-1. Lisage vaikelehe pessa **Peamine** konteinermoodul.
-1. Lisage konteinermoodulis videopleieri ja ümbrise videopleieri moodulid.
-1. Viige lõpuni malli redigeerimine ja avaldage see.
-1. Kasutage äsja loodud videopleieri malli, et luua leht, mille nimi on **videopleieri leht**.
-1. Lisage uue lehe pessa **Peamine** videopleieri moodul.
-1. Valige videopleieri mooduli paanil atribuudid **Video lisamine**.
+1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
+1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all **Videopleieri mall** ja valige seejärel **OK**.
+1. Valige pesas **Keha** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Vaikeleht** ja klõpsake seejärel **OK**.
+1. Valige mooduli **Vaikeleht** pesas **Peamine** kolmikpunkt (**...**) ja seejärel suvand **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
+1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Videopleier** ja klõpsake seejärel **OK**.
+1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. 
+1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
+1. Valige dialoogiboksis **Vali mall** teie loodud videopleieri mall. Sisestage jaotises **Lehe nimi** väärtus **Videopleieri leht** ja seejärel **OK**.
+1. Uue lehe pesas **Peamine** valige kolmikpunkt (**...**) ja seejärel valige suvand **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
+1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Videopleier** ja klõpsake seejärel **OK**.
+1. Valige videopleieri mooduli atribuutide paanil **Video lisamine**.
 1. Valige dialoogiaknas **Meedia valija** video ja seejärel valige **Laadi üles uus meedium**.
-1. Salvestage ja kuvage lehe eelvaade. Peaksite nägema lehel videomoodulit. Saate muuta täiendavaid sätteid mooduli käitumise kohandamiseks.
-1. Viige lõpuni lehe redigeerimine ja avaldage see.
+1. Valige File Exploreris videofail ja seejärel **Ava**.
+1. Sisestage dialoogiboksis **Meediumiüksuse üleslaadimine** pealkiri ja muu vajalik teave ja seejärel valige **OK**.
+1. Valige dialoogiboksis **Meedia valija** käsk **Sule**.
+1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**. Peaksite nägema lehel videomoodulit. Saate muuta täiendavaid sätteid mooduli käitumise kohandamiseks.
+1. Valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. 
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Alustuskomplekti ülevaade](starter-kit-overview.md)
 
-[Reklaambänneri moodul](add-alert.md)
+[Kampaania ribareklaami moodul](add-alert.md)
 
 [Karusellmoodul](add-carousel.md)
 

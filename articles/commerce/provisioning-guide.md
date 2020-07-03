@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce’i eelvaatekeskkonna ettevalmistamine
 description: Selles teemas selgitatakse, kuidas valmistada ette Microsoft Dynamics 365 Commerce’i eelvaatekeskkond.
 author: psimolin
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: c109c2326cf01739255b49587c15aa34ad884f6a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254744"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426461"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce’i eelvaatekeskkonna ettevalmistamine
 
@@ -39,7 +39,7 @@ Enne alustamist soovitame teil see teema kiiresti läbi vaadata, et saada protse
 
 ## <a name="overview"></a>Ülevaade
 
-Oma Commerce’i eelvaatekeskkonna edukaks ettevalmistamiseks peate looma projekti, millel on kindel toote nimi ja tüüp. Keskkonnal ja kaubanduse skaala üksusel (CSU) on samuti mõned konkreetsed parameetrid, mida peate kasutama, kui hiljem e-kaubandust ette valmistate. Selle teema juhised kirjeldavad kõiki vajalikke etappe, mida peate ettevalmistamiseks täitma, ja milliseid parameetreid peate kasutada.
+Oma Commerce’i eelvaatekeskkonna edukaks ettevalmistamiseks peate looma projekti, millel on kindel toote nimi ja tüüp. Keskkonnal ja Commerce Scale Unitil (CSU) on samuti mõned konkreetsed parameetrid, mida peate kasutama, kui hiljem e-kaubandust ette valmistate. Selle teema juhised kirjeldavad kõiki vajalikke etappe, mida peate ettevalmistamiseks täitma, ja milliseid parameetreid peate kasutada.
 
 Pärast seda, kui olete oma Commerce’i eelvaatekeskkonna edukat ette valmistanud, peate läbima ettevalmistamiseks mõned hilisemad etapid. Mõned etapid on valikulised, olenevalt sellest, milliseid süsteemi aspekte soovite hinnata. Võite valikulised etapid alati hiljem läbida.
 
@@ -193,7 +193,7 @@ Keskkonna juurutamiseks tehke järgmist.
 
 1. Enne jätkamist veenduge, et teie keskkonna olek oleks **Juurutatud**.
 
-### <a name="initialize-the-commerce-scale-unit-csu"></a>Kaubanduse skaala üksuse (Commerce Scale Unit, CSU) lähtestamine
+### <a name="initialize-the-commerce-scale-unit-cloud"></a>Commerce Scale Uniti (pilv) lähtestamine
 
 CSU-i lähtestamiseks tehke järgmist.
 
@@ -215,7 +215,7 @@ E-kaubanduse lähtestamiseks tehke järgmist.
 
 1. Vahekaardil **E-kaubandus** vaadake üle eelvaate nõusolek ja seejärel valige suvand **Seadistus**.
 1. Väljale **E-kaubanduse rentniku nimi** sisestage nimi. Võtke siiski arvesse, et see nimi on nähtav mõnes URL-is, mis viitavad teie e-kaubanduse eksemplarile.
-1. Väljal **Kaubanduse skaala üksuse nimi** valige loendist oma CSU. (Loendis peaks olema ainult üks valik.)
+1. Väljal **Commerce Scale Uniti nimi** valige loendist oma CSU. (Loendis peaks olema ainult üks valik.)
 
     Väli **E-kaubanduse geograafia** väli määratakse automaatselt ja väärtust ei saa muuta.
 
@@ -251,7 +251,7 @@ Oma Commerce’i eelvaatekeskkonna ettevalmistamise ja konfigueerimise protsessi
 
 [Microsofti elutsükli teenused (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (pilv)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure'i portaal](https://azure.microsoft.com/features/azure-portal)
 

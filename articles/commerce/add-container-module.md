@@ -3,7 +3,7 @@ title: Konteinermoodul
 description: See teema hõlmab konteinermooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
+ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025524"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3417342"
 ---
 # <a name="container-module"></a>Konteinermoodul
-
 
 [!include [banner](includes/banner.md)]
 
@@ -45,6 +44,10 @@ Olemas on kolme konteinermooduli tugi: konteiner, kahe pesaga konteiner ja kolme
 - Saidi autor soovib kolme veeruga paigutust, kus kolm moodulit kuvatakse kõrvuti. Seega kasutab saidi autor kolme pesaga konteineri tüüpi konteinermoodulit.
 - Saidi autor soovib kuue veeruga paigutust, kus kuus moodulit kuvatakse kõrvuti. Seega kasutab saidi autor mahutamistüübi konteinerit, mille sees on kuus veergu.
 - Saidi autor soovib lisada lehele mooduli, kuid ei taha, et see täidaks ekraani. Seega lisab saidi autor mooduli konteinermoodulisse ja määrab konteineri atribuudi **Laius** väärtusele **Mahuta konteiner**.
+
+Järgmisel pildil on toodud näide konteinermoodulist, mis sisaldab Commerce'i saidiehitajas karussellmoodulit. Selles näites on konteinermooduli atribuudi **Laius** väärtuseks seatud **Täida ekraan**.
+
+![Konteinermooduli näide](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Konteinermooduli atribuudid
 
@@ -99,23 +102,32 @@ Erinevate portide paigutuse optimeerimiseks saab kasutada täiendavaid atribuute
 
 Uuele lehele konteineri esitamise mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
-1. Looge lehe mall nimega **konteineri mall**. 
-1. Lisage pesasse **Kehatekst** moodul **Vaikeleht**.
-1. Viige lõpuni malli redigeerimine ja avaldage see.
-1. Kasutage äsja loodud konteineri malli, et luua leht, mille nimi on **konteineri leht**.
-1. Lisage uue lehe pessa **Peamine** konteinermoodul.
+1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
+1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all **Konteineri mall** ja valige seejärel **OK**.
+1. Valige pesas **Keha** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Vaikeleht** ja klõpsake seejärel **OK**.
+1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. 
+1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
+1. Valige dialoogiboksis **Vali mall** teie loodud videopleieri mall. Sisestage jaotises **Lehe nimi** väärtus **Konteineri leht** ja seejärel valige **OK**.
+1. Uue lehe pesas **Peamine** valige kolmikpunkt (**...**) ja seejärel valige suvand **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Konteiner** ja klõpsake seejärel **OK**.
 1. Konteinermooduli atribuudipaanil määrake atribuut **Veergude arv** väärtusele **1** ja atribuut **Laius** väärtusele **Täida konteiner**.
-1. Lisage konteinermoodulisse sisuploki moodul.
+1. Valige pesas **Konteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Sisuplokk** ja klõpsake seejärel **OK**.
 1. Konfigureerige sisuploki mooduli atribuudipaani pealkiri, pilt ja paigutus.
-1. Salvestage ja kuvage lehe eelvaade. Peaksite nägema ühte funktsioonimoodulit, mis mahub konteinermooduli laiusse.
+1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**. Peaksite nägema ühte funktsioonimoodulit, mis mahub konteinermooduli laiusse.
 1. Konteinermooduli atribuudipaanil muutke atribuudi **Veergude arv** väärtuseks **3**.
-1. Lisage konteinermoodulile veel kaks sisuplokki.
-1. Salvestage ja kuvage lehe eelvaade. Nüüd peaksite nägema kolme sisuploki moodulit, mis ilmuvad kõrvuti.
-1. Pärast soovitud paigutuse saavutamist lõpetage lehe redigeerimine ja avaldage see.
+1. Lisage konteinermoodulile veel kaks sisuploki moodulit ja konfigureerige need.
+1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**. Nüüd peaksite nägema kolme sisuploki moodulit, mis ilmuvad kõrvuti.
+1. Kui olete saavutanud soovitud paigutuse, siis valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Alustuskomplekti ülevaade](starter-kit-overview.md)
+
+[Akordionmoodul](add-accordion.md)
+
+[Vahekaardi moodul](add-tab.md)
 
 [Karusellmoodul](add-carousel.md)
 

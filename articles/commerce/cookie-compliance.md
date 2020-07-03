@@ -3,7 +3,7 @@ title: Küpsise vastavus
 description: Selles teemas kirjeldatakse küpsise vastavuse ja Microsoft Dynamics 365 Commerce'is sisalduva vaikepoliitika kaalutlusi.
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b25fd3fffe153e1a07a1f8b21f0cc96f633fb894
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: e1fa016dc9f46b048220f0f83e4b0783087de91e
+ms.sourcegitcommit: c66c4c67a21e7d7d3a94a3fd766c3184b6e65c4e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275367"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3446909"
 ---
 # <a name="cookie-compliance"></a>Küpsise vastavus
-
 
 [!include [banner](includes/banner.md)]
 
@@ -33,9 +32,29 @@ Selles teemas kirjeldatakse küpsise vastavuse ja Microsoft Dynamics 365 Commerc
 
 ## <a name="overview"></a>Ülevaade
 
-Privaatsus on oluline tegur, kui kasutatakse e-kaubanduse kliente mõjutavaid jälgimise tehnoloogiaid. Eraelu puutumatuse standardite, nagu üldise andmekaitse määruse (GDPR) tõttu Euroopa Liidus (EL), tuleb arvesse võtta elektroonilisi privaatsuspõhimõtted, mis on tänapäeval aktiivsed. Kuna paljud e-kaubanduse saidid on globaalselt juurdepääsetavad vaikimisi, on oluline vaadata üle oma e-kaubanduse saidi vastavuse standardid.
+Privaatsus on oluline tegur, kui e-kaubanduse kliente mõjutavad jälgimistehnoloogiad. Eraelu puutumatuse standardite, nagu üldise andmekaitse määruse (GDPR) tõttu Euroopa Liidus (EL), tuleb arvesse võtta elektroonilisi privaatsuspõhimõtted, mis on tänapäeval aktiivsed. Kuna paljud e-kaubanduse saidid on globaalselt juurdepääsetavad vaikimisi, on oluline vaadata üle oma e-kaubanduse saidi vastavuse standardid.
 
 Lisateavet Microsoft kasutavate üldpõhimõtete kohta leiate [Microsofti usalduskeskusest.](https://www.microsoft.com/trust-center) Sellel saidil saate ka lisateavet vastavuse ja privaatsuse valdkondade kohta.
+
+Järgmises tabelis on toodud Dynamics 365 Commerce'i saitide asetatud küpsiste kehtiv viiteloend.
+
+| Küpsise nimi                               | Kasutus                                                        |
+| ------------------------------------------- | ------------------------------------------------------------ |
+| .AspNet.Cookies                             | Talletage Microsoft Azure Active Directory (Azure AD) autentimisküpsised ühekordse sisselogimise (SSO) jaoks. Talletab kasutaja kohta krüptitud põhiteavet (nimi, perekonnanimi, e-post). |
+| &#95;msdyn365___cart&#95;                           | Talletab ostukorvi ID, mida kasutatakse ostukorvi eksemplari lisatud toodete loendi hankimiseks. |
+| &#95;msdyn365___ucc&#95;                            | Küpsise vastavuse nõusoleku jälgimine.                          |
+| ai_session                                  | Tuvastab, mitu kasutajategevuse seanssi on hõlmanud konkreetseid rakenduse lehti ja funktsioone. |
+| ai_user                                     | Tuvastab, mitu inimest kasutas rakendust ja selle funktsioone. Kasutajaid loendatakse anonüümsete ID-de abil. |
+| b2cru                                       | Talletab ümbersuunamise URL-i dünaamiliselt.                              |
+| JSESSIONID                                  | Maksekonnektor Adyen kasutab seda kasutaja seansi talletamiseks.       |
+| OpenIdConnect.nonce.&#42;                       | Autentimine                                               |
+| x-ms-cpim-cache:.&#42;                          | Kasutatakse päringu oleku säilitamiseks.                      |
+| x-ms-cpim-csrf                              | Päringuvõltsingu (CRSF) talong, mida kasutatakse päringuvõltsingu eest kaitsmiseks.     |
+| x-ms-cpim-dc                                | Kasutatakse selleks, et suunata päringuid sobivasse tootmise autentimisserveri eksemplari. |
+| x-ms-cpim-rc.&#42;                              | Kasutatakse selleks, et suunata päringuid sobivasse tootmise autentimisserveri eksemplari. |
+| x-ms-cpim-slice                             | Kasutatakse selleks, et suunata päringuid sobivasse tootmise autentimisserveri eksemplari. |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Kasutatakse SSO seansi haldamiseks.                        |
+| x-ms-cpim-trans                             | Kasutatakse toimingute, sealhulgas praeguse toimingu, jälgimiseks (avatud vahekaartide arv, mis autendivad ettevõtte ja tarbija vahelist (B2C) saiti). |
 
 ## <a name="additional-resources"></a>Lisaressursid
 

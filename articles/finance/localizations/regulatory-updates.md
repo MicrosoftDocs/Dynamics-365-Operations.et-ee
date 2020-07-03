@@ -3,7 +3,7 @@ title: Regulatiivsed värskendused
 description: Selles teemas on toodud loend rakenduse Microsoft Dynamics 365 Finance plaanitud ja väljastatud regulatiivsetest värskendustest.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/14/2020
+ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 6e403e3d18aec616d0c569b16ba77eaefdf4b0ea
-ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
+ms.openlocfilehash: a7a26d8c506a9e61f6e4319a33176b4e92fc30ad
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262622"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411408"
 ---
 # <a name="regulatory-updates"></a>Regulatiivsed värskendused
 
@@ -42,44 +42,48 @@ Uusimate plaanitud regulatiivsete värskenduste aegade jaoks vaadake järgmist t
 
 |Riik|Plaanitud väljaandmiskuupäev|Väljalaske versioon|Regulatiivne värskendus|
 |--------------------|---------------|-------|-------|
-|      Brasiilia         |   Aprill 2020 – jaanuar 2020      | 10.0.10, 10.0.9HF, 10.0.8HF      |   DRCST SC – määrus SEF Nº 416    |
+|      Brasiilia         |   Aprill 2020 – jaanuar 2020      | 10.0.10, 10.0.9HF      |   DRCST SC – määrus SEF Nº 416    |
 |      Brasiilia         |   2020. aprill      | 10.0.10      |   SPED Contribuições (PIS/COFINS) – plokid M115 ja M515    |
 |      Brasiilia         |   2020. aprill      | 10.0.10      |   Spedi panused – Kirje C100 ja D100 uuendused, kui krediit ei ole taastatav    |
-|      Brasiilia         |   Aprill 2020 – jaanuar 2020     | 10.0.10, 10.0.9HF, 10.0.8HF      |   SPED-i panus – 2020. aasta jaanuari paigutus    |
+|      Brasiilia         |   Aprill 2020 – jaanuar 2020     | 10.0.10, 10.0.9HF      |   SPED-i panus – 2020. aasta jaanuari paigutus    |
 |      Brasiilia         |   2020. märts       | 10.0.9      |   Sped-finants – muutused kirje D100 väljal COD_MUN_ORI    |
-|      Brasiilia         |   Märts 2020 – jaanuar 2020       | 10.0.9, 10.0.8      |   DRCST SC – määrus SEF Nº 254/19    |
-|      Brasiilia         |   2020. jaanuar       | 10.0.8      |   ICMS-ST täiendav teave    |
-|      Brasiilia         |   Märts 2020 – jaanuar 2020       | 10.0.9, 10.0.8HF      |   SPED finantsdokumendi paigutus 014 |
-|      Brasiilia         |   Märts 2020 – jaanuar 2020       | 10.0.9, 10.0.8HF      |   DRCST SC – määrus SEF Nº 343DR   |
+|      Brasiilia         |   Märts 2020 – jaanuar 2020       | 10.0.9      |   DRCST SC – määrus SEF Nº 254/19    |
+|      Brasiilia         |   Märts 2020 – jaanuar 2020       | 10.0.9      |   SPED finantsdokumendi paigutus 014 |
+|      Brasiilia         |   Märts 2020 – jaanuar 2020       | 10.0.9      |   DRCST SC – määrus SEF Nº 343DR   |
 |      Brasiilia         |   Mai 2020 – märts 2020      | 10.0.11, 10.0.10HF, 10.0.9HF      |   SPED ECD kavand 8   |
-|      Brasiilia         |   Mai 2020 – aprill 2020      | 10.0.11, 10.0.10HF, 10.0.9HF, 10.0.8HF      |   Tehniline märkus NT2019.001 v 1.40   |
+|      Brasiilia         |   Mai 2020 – aprill 2020      | 10.0.11, 10.0.10HF, 10.0.9HF      |   Tehniline märkus NT2019.001 v 1.40   |
+|      Brasiilia         |   2020. mai      | 10.0.12, 10.0.11HF, 10.0.10HF,      |   Parana oleku ADCR ICMS-ST väljavõte   |
+|      Eesti         |   2020. mai       | 10.0.11      |   Elektrooniline arveldamine Eestis: klientide arved eksporditakse Eestile omases formaadiversioonis 1.2.  |
 |      Prantsusmaa         |   2020. aprill       | 10.0.10      |   Füüsilisest isikust ettevõtjate (DAS2) õigusabikulude deklaratsioon käibemaksuhalduritele    |
 |      Prantsusmaa         |   2020. märts       | 10.0.9      |   Prantsuse lokaliseerimine: ISO 20022 vorming rahvusvahelise makse ja riigikassa ülekande jaoks    |
-|      Ungari         |   Mai 2020 – märts 2020       | 10.0.11, 10.0.9HF, 10.0.8HF     |   Finance and Operationsi veebiarvelduse süsteem v.2.0    |
+|      Saksamaa         |   2020. mai       | 10.0.12      |   Saksamaa – Jaemüük – Sularahakassa nõuded    |
+|      Ungari         |   Mai 2020 – märts 2020       | 10.0.11, 10.0.10, 10.0.9HF     |   Finance and Operationsi veebiarvelduse süsteem v.2.0    |
 |      India         |   2020. märts      | 10.0.9      |   Uus GSTR (ANX-1 ja ANX-2) ühenduseta olekusse naasmise tööriist    |
-|      Itaalia         |   2020. jaanuar      | 10.0.8      |   Muudatused km-halduses D.L. järgi 119, 23. oktoober 2018: aastane maksusuhtlus    |
-|      Itaalia         |   2020. märts      | 10.0.9, 10.0.8HF      |   Retail – klienditeabe haldamine kassas |
-|      Itaalia         |   2020. märts      | 10.0.9, 10.0.8HF      |   Retail – klienditeabe printimine fiskaalsissetulekul |
-|      Jaapan          |   2020. märts     | 10.0.9, 10.0.8HF     |   Jaapani pankurite ühendus Japan Bankers Association asendab JBA fikseeritud pikkusega maksevormingud ISO20022-ga |
+|      India         |   2020. mai      | 10.0.12      |   Ühiku hinna ja omahinna käsitlemise täiustused aktsiakandekorraldustes  |
+|      Itaalia         |   2020. märts      | 10.0.9      |   Retail – klienditeabe haldamine kassas |
+|      Itaalia         |   2020. märts      | 10.0.9      |   Retail – klienditeabe printimine fiskaalsissetulekul |
+|      Itaalia         |   2020. mai      | 10.0.12. 10.0.11      |   Modello 770/2019 vormingu muutmine |
+|      Jaapan          |   2020. märts     | 10.0.9     |   Jaapani pankurite ühendus Japan Bankers Association asendab JBA fikseeritud pikkusega maksevormingud ISO20022-ga |
 |      Jaapan          |   2020. jaanuar      | 10.0.8       |   Tarbimise maksu määra muutmine ja vähendatud maksumäär on kehtestatud (tarbimismaksu aruanne) |
-|      Mehhiko          |   2020. jaanuar     | 10.0.8        |   Jaemüük – globaalne CFDI: mitmesugused lahendused 2019 – c_CodigoPostal ja ajavöönd |
-|      Mehhiko           |   2020. jaanuar       | 10.0.8     |   Toodete ja teenuste kataloogi koodi kinnitamine |
 |      Holland          |   2020. aprill   | 10.0.10     |   Hollandi taksonoomia uus versioon – NT14 |
-|      Norra          |   2020. märts   | 10.0.9, 10.0.8HF     |   SAF-T XSD uuendus versioonile 1.1 rakenduse Dynamics 365 for Finance and Operations jaoks |
+|      Norra          |   2020. märts   | 10.0.9     |   SAF-T XSD uuendus versioonile 1.1 rakenduse Dynamics 365 for Finance and Operations jaoks |
+|      Norra          |   2020. mai   | 10.0.12     |   SAF-T aruande ümberkujundamine: algsaldo vastavalt „töötava“ kande tüübile ja maksuteave maksukoodi valuutas rakenduses Finance (v.10) |
+|      Norra          |   2020. mai   | 10.0.12     |   SAF-T aruande dialoogi muutus: anda võimalus valida ettevõteteüleselt kontaktisik |
+|      Norra          |   2020. mai   | 10.0.12     |   SAF-T nimeruumi deklaratsioonid igal real, mitte üksnes päises |
 |      Poola          |   2020. märts    | 10.0.9     |   Ostude KM-register ja SAF-i KM-register: SAD-dokumentide kohandatud asutus tuleb asendada kolmanda osa nime ja maksukohuslase koodiga |
-|      Poola          |   Märts 2020 – jaanuar 2020   | 10.0.9, 10.0.8HF     |   Retail – klienditeabe haldamine kassas |
-|      Poola          |   Märts 2020 – jaanuar 2020     | 10.0.9, 10.0.8HF     |   Retail – klienditeabe printimine fiskaalsissetulekul |
-|      Poola          |   Märts 2020 – jaanuar 2020     | 10.0.9, 10.0.8     |   SAF-i arved (JPK_FA) v.3 alates 2. dets 2019 |
-|      Poola          |   Aprill 2020 – jaanuar 2020     | 10.0.10, 10.0.9, 10.0.8     |   JPK_VDEK asendab JPK_VAT (SAF VAT) |
+|      Poola          |   Märts 2020 – jaanuar 2020   | 10.0.9     |   Retail – klienditeabe haldamine kassas |
+|      Poola          |   Märts 2020 – jaanuar 2020     | 10.0.9    |   Retail – klienditeabe printimine fiskaalsissetulekul |
+|      Poola          |   2020. märts     | 10.0.9     |   SAF-i arved (JPK_FA) v.3 alates 2. dets 2019 |
+|      Poola          |   2020. aprill     | 10.0.10, 10.0.9     |   JPK_VDEK asendab JPK_VAT (SAF VAT) |
 |      Poola          |   2020. mai     | 10.0.11     |   Jaotage AP/AR-i realiseeritud vahetuskursi erinevuse summa arve netoväärtuse ja käibemaksu summa vahetuskursi erinevuseks  |
 |      Poola          |   2020. mai     | 10.0.11     |   SAF-i raamatupidamisraamatud – sisestamiskihtide filtreerimise täiustused |
 |      Poola          |   2020. mai     | 10.0.11     |   JPK_VDEK täiendatud pakett I |
+|      Poola          |   2020. mai     | 10.0.12     |   JPK_VDEK täiendatud pakett II |
+|      Poola          |   2020. mai     | 10.0.11     |   Ettemaksuarvega müügitellimuse osaline kreeditarve |
 |      Venemaa          |   2020. märts     | 10.0.9     |   Omandimaksu deklaratsiooni vorming 2019. a aruandluse jaoks |
 |      Venemaa          |   2020. märts     | 10.0.9     |   Kasumimaksu deklaratsiooni vormingu värskendused |
-|      Singapur           |   2020. jaanuar     | 10.0.8      |    GST tagastuse aruanne |
 |      Šveits           |   2020. märts     | 10.0.9      |   Šveitsi maksekviitung ISR saab uue vormingu (QR-kood) |
 |      Ühendkuningriik           |   2020. aprill     | 10.0.10      |   MTD pettuste ennetamine täiendatud pakett |
-|      Ühendkuningriik         |   2020. jaanuar      | 10.0.8      |   Maksu muutmine digitaalseks (MTD) – süsteemiadministraatori nõusolek teabe edastamiseks D365-st väljapoole, kasutades HMRC-ga integreerimist    |
 
 
 

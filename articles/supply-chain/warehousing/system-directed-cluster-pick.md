@@ -3,7 +3,7 @@ title: Süsteemi suunatud kogumi komplekteerimine
 description: Selles teemas antakse ülevaade süsteemi suunatud kogumi komplekteerimise kohta teenuses Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 manager: tfehr
-ms.date: 12/10/2019
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 390e0a3379a6482e99a13f4f7835b5264e3747ac
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b7ac243a04309a41ab0e06c1b2d4843ae8ac0e22
+ms.sourcegitcommit: 7c32e4739c07d825a8562564ea9e78922db2ce38
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217237"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406377"
 ---
 # <a name="system-directed-cluster-picking"></a>Süsteemi suunatud kogumi komplekteerimine
 
@@ -40,9 +40,21 @@ Süsteemi suunatud kogumi komplekteerimine pakub alternatiivi käsitsi kogumi lo
 - **Loo kogumi ID** kontrollib seda, kas kogumi ID luuakse süsteemi poolt või sisestatakse kasutaja poolt.
 - **Sortimise kontrollimistüüp** määrab, kas positsiooni kinnitamine on nõutav.
 
-Süsteemi suunatud kogumi komplekteerimiseks kasutatakse uut mobiilse seadme menüü-üksust. Suvandi **Juhtija** jaoks tuleb määrata kogumi profiili ID. Lisaks saab süsteemi suunatud päringu tellimus rühmitada tellimusi ettevõttepõhiste kriteeriumite põhjal. Seega saate töökäskude määramist veelgi optimeerida, määrates süsteemi suunatud päringu tellimusele kohandatud sortimise kriteeriumid.
+Süsteemi suunatud kogumi komplekteerimiseks kasutatakse uut mobiilse seadme menüü-üksust. Valitud suvandi **Juhtija** jaoks tuleb määrata **Kogumi profiili ID**. Lisaks saavad süsteemi suunatud töö järjestamise päringud rühmitada tellimusi ettevõttepõhiste kriteeriumide põhjal. Seega saate töökäskude määramist veelgi optimeerida, määrates süsteemi suunatud töö järjestuse päringute abil kohandatud sortimise kriteeriumid.
 
-Kui süsteemi suunatud kogumi komplekteerimine on valmis, antakse lao töötajatele kogum, kus komplekteerimise tellimused on eelmääratud kogumi positsioonidele. Seega saavad töötajad hakata komplekteerima kaupu mitme töökäsu jaoks, külastades komplekteerimise asukohta ainult üks kord. Süsteemi suunatud kogumi komplekteerimise komplekteerimisprotsess on sama, mis kasutaja suunatud kogumi komplekteerimise protsessil.
+Kui süsteemi suunatud kogumi komplekteerimine on lubatud, antakse lao töötajatele kogum, kus komplekteerimise tellimused on eelmääratud kogumi positsioonidele. Seega saavad töötajad hakata komplekteerima kaupu mitme töökäsu jaoks, külastades komplekteerimise asukohta ainult üks kord. Süsteemi suunatud kogumi komplekteerimise komplekteerimisprotsess on sama, mis kasutaja suunatud kogumi komplekteerimise protsessil.
+
+## <a name="enable-the-system-directed-cluster-picking-feature"></a>Süsteemi suunatud kogumi komplekteerimise lubamine
+
+Enne selle funktsiooni kasutamist tuleb see teie süsteemis lubada. Administraatorid saavad kasutada [funktsioonide halduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lehte, et kontrollida funktsiooni olekut ja vajaduse korral see lubada. Siin on funktsioon loetletud järgmiselt.
+
+- **Moodul** – laohaldus
+- **Funktsiooni nimi** – süsteemi suunatud kogumi komplekteerimine
+
+See funktsioon eeldab ka sõltuva funktsiooni lubamist. Sõltuv funktsioon on järgmine.
+
+- **Moodul** – laohaldus
+- **Funktsiooni nimi** – organisatsiooniülene süsteemi suunatud töö järjestamine
 
 ## <a name="set-up-system-directed-cluster-picking"></a>Süsteemi suunatud kogumi komplekteerimise seadistamine
 
@@ -54,104 +66,144 @@ Kogumiprofiilid juhivad, kuidas süsteem iga kogumi loob. Kui nõutavad on erine
 2. Valige suvand **Uus**.
 3. Väljale **Kogumiprofiili ID** sisestage **Positsioon 2**.
 4. Väljale **Nimi** sisestage **Positsioon 2**.
-5. Määrake kiirkaardil **Üldine** järgmised väljad.
+5. Sisestage kiirkaardil **Üldine** järgmine teave.
 
-    - **Loo kogumi ID:** määrake see suvand valikule **Jah**. See valik määrab, kas kogumi ID luuakse automaatselt süsteemi poolt või kasutaja loob selle komplekteerimise alguses.
-    - **Aktiveeri positsioonid:** määrake see suvand valikule **Jah**. See valik määrab, kas positsiooni nimed luuakse positsiooni nime seadistuse põhjal automaatselt. Kui see suvand on seatud valikule **Ei**, kasutatakse positsiooni litsentsiplaadi identifikaatorit.
-    - **Positsioonide arv:** sisestage **2**. See väli määrab positsioonide maksimaalse arvu, mida kogum võib omada (st maksimaalne arv kaste, koormaid jne).
-    - **Positsiooni nimi:** valige **Numbriline**, et positsioonidele antaks nimed järjestikkuseid numbreid kasutades. Kui valite suvandi **Tähestikkuline**, nimetatakse positsioonid tähestikulises järjekorras.
-    - **Tükelda kogum asukohas:** valige suvand **Pane**. See väli määratleb, millal kogum katkestatakse.
-    - **Sortimise kontrollimistüüp:** valige suvand **Positsiooni skannimine**. See väli määrab, kas positsiooni panemise etapp on kinnitatud.
+    - **Loo kogumi ID** – valige **Jah**. See valik määrab, kas kogumi ID luuakse automaatselt süsteemi poolt või kasutaja loob selle komplekteerimise alguses. 
+    - **Aktiveeri asukohad** – valige **Jah**. See valik määrab, kas positsiooni nimed luuakse positsiooni nime seadistuse põhjal automaatselt. Kui see suvand on seatud valikule **Ei**, kasutatakse positsiooni litsentsiplaadi identifikaatorit.
+    - **Positsioonide arv** – valige **2**. See väli määrab positsioonide maksimaalse arvu, mida kogum võib omada (st maksimaalne arv kaste, koormaid jne).
+    - **Positsiooni nimi** – valige **Numbriline**, et positsioonidele antaks nimed järjestikuseid numbreid kasutades. Kui valite suvandi **Tähestikkuline**, nimetatakse positsioonid tähestikulises järjekorras.
+    - **Tükelda kogum asukohas**– valige **Pane**. See väli määratleb, millal kogum katkestatakse. 
+    - **Sortimise kontrollimistüüp** – valige **Positsiooni skannimine**. See väli määrab, kas positsiooni panemise etapp on kinnitatud.
+        
+6. Kiirkaardil **Kogumi sortimine** saate määratleda sortimise kriteeriumid, luues uue rea ja sisestades järgmise teabe.
 
-6. Kiirkaardil **Kogumi sortimine** saate määratleda sortimise kriteeriumid, luues uue rea ja seadistades järgmised väljad:
-
-    - **Järjekorranumber:** see väli määrab süsteemi sortimise järjestuse. Väärtus sisestatakse automaatselt, kuid saate seda vajadusel muuta.
-    - **Välja nimi:** valige **WMSLocationId**. See väli määrab välja, mida rida kriteeriumide sortimiseks kasutab.
-    - **Sortimine:** valige suvand **Kasvav**. See väli määrab, kas sortimine toimub kasvavas või kahanevas järjestuses.
+    - **Numbriseeria** – valige **1**. See väli määrab järjestuse, mille alusel süsteem sordib. Väärtus sisestatakse automaatselt, kuid saate seda vajadusel muuta.
+    - **Välja nimi** – sisestage **WMSLocationId**. See väli määrab välja, mida rida kriteeriumide sortimiseks kasutab.
+    - **Sortimine** – valige **Kasvav**. See väli määrab, kas sortimine toimub kasvavas või kahanevas järjestuses.
 
 ### <a name="create-a-mobile-device-menu-item"></a>Mobiilse seadme menüü-üksuse loomine
 
 Süsteemi suunatud kogumi komplekteerimiseks uue mobiilse seadme menüü-üksuse loomiseks ja kogumiprofiili ID linkimiseks mobiilse seadme menüü-üksusega, toimige järgmiselt.
 
-1. Avage **Laohaldus \> Seadistus \> Mobiilne seade \> Mobiilse seadme menüü-üksused**.
-2. Valige suvand **Uus**.
-3. Väljale **Menüü-üksuse nimi** sisestage **SD kogum**.
-4. Väljale **Pealkiri** sisestage **SD kogum**.
-5. Valige väljal **Režiim** suvand **Töö**.
-6. Valige suvandi **Kasuta olemasolevat tööd** sätteks **Jah**.
-7. Määrake kiirkaardil **Üldine** järgmised väljad.
+1. Avage **Laohaldus > Seadistus > Mobiilne seade > Mobiilse seadme menüükäsud**.
+1. Valige suvand **Uus**.
+1. Sisestage päise jaotises järgmine teave.
+    - **Menüükäsu nimi** – SD kogum
+    - **Pealkiri** – SD kogum
+    - **Režiim** – töö
+    - **Kasuta olemasolevat tööd** – Jah
 
-    - **Suunaja:** valige suvand **Süsteemi suunatud**.
-    - **Loo litsentsiplaat:** määrake see suvand valikule **Jah**.
-    - **Kogumiprofiili ID:** valige **Positsioon 2**.
+1. Sisestage kiirkaardil **Üldine** järgmine teave.
+    - **Juhataja** – süsteemi suunatud kogumi komplekteerimine
+    - **Loo litsentsiplaat** – jah
+    - **Kogumiprofiili ID** – positsioon 2
 
-8. Seadistage kiirkaardil **Töö klassid** selle mobiilse seadme menüü-üksuse kehtiv töö klass, seadistades järgmised väljad:
+1. Seadistage kiirkaardil **Töö klassid** selle mobiilse seadme menüü-üksuse kehtiv töö klass, seadistades järgmised väljad:
+    - **Tööklassi ID** – müük
+    - **Töökäsu tüüp** – müügitellimused
 
-    - **Töö klassi ID:** veenduge, et sisestatud oleks **Müük**.
-    - **Tööklassi tüüp:** veenduge, et sisestatud oleks **Müügitellimused**.
+1. Valige toimingupaanil **Mobiilse seadme menüükäsud** suvand **Süsteemi suunatud töö järjestamisjärjestused** ja järgige uue süsteemi suunatud töö järjestamisjärjestuse sätestamiseks järgmisi etappe.
+    - Valige toimingupaanil **Uus**.
+    - **Järjekorranumber** – 1
+    - **Kirjeldus** – töö prioriteet – töö ID
 
-9. Uue süsteemi suunatud töö järjestuse päringu määramiseks tehke järgmist.
+1. Valige toimingupaanil **Päringu redigeerimine**
+1. Valige vahekaart **Sortimine**
+1. Valige uue rea lisamiseks suvand **Lisa** ja sisestage järgmine teave.
+    - **Tabel** – töö
+    - **Tuletatud tabel** – töö
+    - **Väli** – töö prioriteet
+    - **Otsingusuund** – kasvav
+1. Valige teise rea lisamiseks suvand **Lisa** ja sisestage järgmine teave.
+    - **Tabel** – töö
+    - **Tuletatud tabel** – töö
+    - **Väli** – töö ID
+    - **Otsingusuund** – kasvav
 
-    1. Valige suvand **Uus**.
-    2. Sisestage väljale **Järjekorranumber** väärtus **1**.
-    3. Väljal **Kirjeldus** valige **Töö prioriteet – Töö ID**.
-
-10. Valige menüüs käsk **Redigeeri päringut**.
-11. Vahekaardil **Sortimine** seadke järgmised väljad:
-
-    - **Tabel:** valige suvand **Töö**.
-    - **Tuletatud tabel:** valige suvand **Töö**.
-    - **Väli:** valige **Töö prioriteet**.
-    - **Otsingusuund:** valige **Kasvav**.
-    - **Tabel:** valige suvand **Töö**.
-    - **Tuletatud tabel:** valige suvand **Töö**.
-    - **Väli:** valige **Töö ID**.
-    - **Otsingusuund:** valige **Kasvav**.
-
-Süsteem sordib nüüd töö ID-d kogumis, kõigepealt töö prioriteedi ja seejärel töö ID järgi.
+1. Süsteem sordib nüüd töö ID-d kogumis, kõigepealt töö prioriteedi ja seejärel töö ID järgi.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Mobiilse seadme menüü seadistamine
 
-1. Avage **Laohaldus \> Seadistus \> Mobiilne seade \> Mobiilse seadme menüü**.
-2. Lisage menüü-üksus, mille just lõite, soovitud menüüsse.
+1. Avage **Laohaldus > Seadistus > Mobiilne seade > Mobiilse seadme menüü**.
+1. Lisage mobiilse seadme menüüle äsja loodud menüükäsk **SD kogum**.
+1. Valige menüü **Väljaminev**.
+1. Valige toimingupaanil **Redigeeri**.
+1. Kerige, kuni leiate suvandi **SD kogum**.
+1. Valige suvand **SD kogum**, loendile **Menüüstruktuur** viitav nool lubatakse.
+1. Valige nupp **nool**, et liigutada menüükäsk **SD kogum** menüüstruktuuri **Väljaminev**.
+1. Valige loendist **Menüüstruktuur** suvand **SD kogum** ja seejärel klõpsake menüükäsu mobiilse seadme menüüs sobivasse asendisse liigutamiseks noolel **ÜLES** või **ALLA**.
 
-## <a name="example"></a>Näide
+## <a name="scenario"></a>Stsenaarium
 
 ### <a name="create-picking-work"></a>Komplekteerimistöö loomine
 
-Enne süsteemi suunatud kogumi komplekteerimise seadistamist peate looma mõne sobiliku väljamineva töö. Varasemalt loodud kogumiprofiil määrab kaks kogumi positsiooni. Seetõttu peate looma vähemalt kaks töö ID-d.
+Enne süsteemi suunatud kogumi komplekteerimise seadistamist peate looma sobiliku väljamineva töö. Varasemalt loodud kogumiprofiil määrab kaks kogumi positsiooni. Seetõttu peate looma vähemalt kaks töö ID-d. Sellise stsenaariumi puhul loote kaks müügitellimust, reserveerite varud, väljastate müügitellimused lattu ning töötlete voogu seejärel käsitsi.
 
-1. Avage **Müük ja turundus \> Müügitellimused \> Kõik müügitellimused**.
-2. Müügitellimuse loomiseks valige **Uus**.
-3. Valige väljalt **Kliendi konto** mis tahes klient.
-4. Kiirkaardi **Üldine** väljal **Ladu** valige ladu **62**.
-5. Valige nupp **OK**.
-6. Kiirkaardil **Müügitellimuse read** valige suvand **Lisa rida**.
-7. Valige väljal **Kaubakood** väärtus **A0001**.
-8. Sisestage väljale **Kogus** väärtus **1**.
-9. Teise rea lisamiseks valige**Lisa rida**.
-10. Valige väljal **Kaubakood** väärtus **A0002**.
-11. Sisestage väljale **Kogus** väärtus **3**.
-12. Korrake etappe 2–6.
-13. Valige väljal **Kaubakood** väärtus **A0001**.
-14. Sisestage väljale **Kogus** väärtus **4**.
-15. Teise rea lisamiseks valige**Lisa rida**.
-16. Valige väljal **Kaubakood** väärtus **A0002**.
-17. Sisestage väljale **Kogus** väärtus **2**.
-
-Reserveerige varud ja vabastage need lattu. Luuakse kaks erinevat töö ID-d. Igal töö ID-l on kaks komplekteerimisrida.
+1. Avage **Müük ja turundus > Müügitellimused > Kõik müügitellimused**.
+1. Toimingupaanil esimese müügitellimuse loomiseks vajutage **Uus**.
+    - Avaneb menüü **Müügitellimuse loomine**, sisestage järgmine teave.
+        - Sisestage kiirkaardil **Klient** väärtus **Kliendikonto** - **US-004**.
+        - Sisestage kiirkaardil **Üldine** väärtus **Ladu** - **62**.
+        - Tehke menüü sulgemiseks valik **OK** ja looge müügitellimus.
+    - Kui uut rida ei lisata automaatselt, siis valige kiirkaardil **Müügitellimuse read** suvand **Lisa rida** ja sisestage järgmine teave.
+        - **Kauba kood** – A0001
+        - **Kogus** – 1
+        - Teise rea lisamiseks valige**Lisa rida**.
+        - **Kauba kood** – A0002
+        - **Kogus** – 3
+    - Reserveerige varud mõlema äsja loodud rea jaoks.
+        - Valige **Rida 1**.
+        - Valige toimingupaanil **Müügitellimuse read** suvand **Varud** ja seejärel valige loendist **Reserveerimine**.
+        - Valige vormil **Reserveerimine** varude reserveerimiseks suvand **Reserveeri saatepartii**.
+        - Kui reserveerimine on lõpule viidud, siis sulgege vorm **Reserveerimine**.
+        - Korrake varude reserveerimise samme ka suvandi **Rida 2** puhul.
+1. Toimingupaanil teise müügitellimuse loomiseks vajutage **Uus**
+    - Avaneb menüü **Müügitellimuse loomine**, sisestage järgmine teave.
+        - Sisestage kiirkaardil **Klient** väärtus **Kliendikonto** - **US-005**.
+        - Sisestage kiirkaardil **Üldine** väärtus **Ladu** - **62**.
+        - Tehke menüü sulgemiseks valik **OK** ja looge müügitellimus
+    - Kui uut rida ei lisata automaatselt, siis valige kiirkaardil **Müügitellimuse read** suvand **Lisa rida** ja sisestage järgmine teave.
+        - **Kauba kood** – A0001
+        - **Kogus** – 4
+        - Teise rea lisamiseks valige**Lisa rida**.
+        - **Kauba kood** – A0002
+        - **Kogus** – 2
+    - Reserveerige varud mõlema äsja loodud rea jaoks.
+        - Valige **Rida 1**.
+        - Valige toimingupaanil **Müügitellimuse read** suvand **Varud** ja seejärel valige loendist **Reserveerimine**.
+        - Valige vormil **Reserveerimine** varude reserveerimiseks suvand **Reserveeri saatepartii**.
+        - Kui reserveerimine on lõpule viidud, siis sulgege vorm **Reserveerimine**.
+        - Korrake varude reserveerimise samme ka suvandi **Rida 2** puhul.
+    - Sulgege müügitellimus ja minge tagasi lehele, kus on loend **Kõik müügitellimused**.
+1. Leidke kaks äsja loodud müügitellimust (võimalik, et peate selleks lehte värskendama). Valige tabelis jaotise kontrollmärget kasutades mõlemad müügitellimused.
+    - Valige toimingupaanil **Kõik müügitellimused** vahekaart **Ladu**.
+    - Valige grupis **Toimingud** suvand **Lattu väljastamine**, et väljastada mõlemad müügitellimused lattu.
+1. Kui lattu väljastamise protsess on lõpule viidud, siis kuvatakse teabeteade.
+    - Iga müügitellimuse kohta luuakse saadetised.
+    - Luuakse voog ja mõlemad saadetised määratakse voogu. Märkige üles **Voo ID**.
+1. Avage **Laohaldus > Väljaminevad vood > Saadetise vood > Kõik vood**.
+    - Leidke ja valige loendis **Kõik vood** **Voo ID**, mille eelmises etapis lõite.
+    - valige toimingupaanil vahekaart **Voog**.
+    - Valige grupis **Voog** suvand **Töötlemine**, et töödelda ja luua vastav **Töö**.
+    - Kui töötlemine on lõpule viidud, siis kuvatakse informatiivsed teated, mis näitavad, et töö on loodud ja voog on sisestatud.
+1. **Valikuline**: avage loodud töö vaatamiseks **Laohaldus > Töö > Töö üksikasjad**. Luuakse kaks erinevat töö ID-d. Igal töö ID-l on kaks komplekteerimisrida.
 
 ### <a name="run-the-mobile-device-flow"></a>Mobiilse seadme voo käitamine
 
-1. Valige mobiilses seadmes menüü, mis sisaldab uut mobiilse seadme menüü-üksust.
-2. Valige menüü-üksus **SD kogum** ja käivitage komplekteerimine. Luuakse kogum ja kaks varem loodud töö ID-d on sellele lisatud. Kui lõite rohkem kui kaks töö ID-d, lisatakse kogumile ainult kaks esimest. Pange tähele, et töö ID-d lisatakse kogumile kasvavas järjestuses, nagu määrasite päringu häälestuses.
+1. Logige mobiilsesse seadmesse lao **62** kasutaja jaoks sisse.
+1. Valige **Peamenüüs** suvand **Väljaminev**.
+1. Komplekteerimise käivitamiseks valige menüüs **Väljaminev** suvand **SD kogum**.
+    - Luuakse kogum ja lisatakse kaks varem loodud töö ID-d. Kui lõite rohkem kui kaks töö ID-d, lisatakse kogumile ainult kaks esimest. Pange tähele, et töö ID-d lisatakse kogumile kasvavas järjestuses, nagu määrasite päringu häälestuses.
 
     > [!NOTE]
     > Uus kogum luuakse automaatselt ainult siis, kui eelnevalt on loodud piisavalt täiendavaid töö ID-sid. Vastasel juhul kuvatakse järgmine teade: „Kogumi jaoks ei leidu piisavalt tööd”.
 
-    Pärast menüü valimist ilmub esimene komplekteerimiskuva. Süsteem koondab kõik ühtivad komplekteerimisread kahest töö ID-st ja suunab teid külastama komplekteerimise asukohta üks kord, nii et saate täita mõlemad tellimused ühe komplekteerimisega. See protsess teostatakse samamoodi nagu kasutaja suunatud kogumi komplekteerimise protsess.
+    - Pärast menüü valimist ilmub esimene komplekteerimiskuva. Süsteem koondab kõik ühtivad komplekteerimisread kahest töö ID-st ja suunab teid külastama komplekteerimise asukohta üks kord, nii et saate täita mõlemad tellimused ühe komplekteerimisega. See protsess teostatakse samamoodi nagu kasutaja suunatud kogumi komplekteerimise protsess.
 
-3. Kinnitage esimene komplekteerimine. Peate seejärel sisestama positsiooni nime kinnitamaks, et kaubad pandi õigesse kohta.
-4. Korrake seda protsessi seni, kuni kõik esemed on komplekteeritud ja õigesse kohta pandud.
-5. Mobiilse seadme viimane etapp on panna kogum lõplikku asukohta. Kui see panemise toiming kinnitatakse, kogum suletakse ja tükeldatakse vastavalt väärtusele, mille kogumiprofiilis väljale **Tükelda kogum asukohas** määrasite. Töö ID-d on samuti suletud.
-6. Mobiilsel seadmel kuvatakse teade „Kogum lõpetatud”.
+1. Kinnitage esimese komplekteerimise asukoht ja kaup, valides **OK**.
+    - Komplekteeritav kogus on kogumis müügitellimuste juures kujutatud kaupade kogusumma.
+1. Sisestage positsiooni nimi (numbrites või tähemärkides), et kinnitada, et positsiooni jaoks komplekteeritud kaupade kogus paigutati õigesse asukohta.
+1. Korrake seda protsessi seni, kuni kõik kaubakogused on komplekteeritud ja õigesse kohta pandud.
+1. Mobiilse seadme viimane etapp on suvand **Pane**, millega pannakse kogum lõplikku asukohta. Valige **OK**
+    - Kui see panemise toiming kinnitatakse, kogum suletakse ja tükeldatakse vastavalt väärtusele, mille määrasite kogumiprofiilis väljale **Tükelda kogum asukohas**. Töö ID-d on samuti suletud.
+1. Mobiilsel seadmel kuvatakse teade „Kogum lõpetatud”.

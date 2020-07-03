@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 14cee020cc8aead627180343c82bf23534ae83c4
-ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
+ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
+ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3131727"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410409"
 ---
 # <a name="set-up-a-call-center-channel"></a>Kõnekeskuse kanali seadistamine
 
@@ -34,7 +34,7 @@ Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Comme
 ## <a name="overview"></a>Ülevaade
 
 
-Rakenduse Dynamics 365 Commerce kõnekeskus on sellist tüüpi kanal, mille saab määratleda rakenduses. Kõnekeskuse üksustele kanali määratlemine võimaldab süsteemil siduda konkreetsed andmed ja tellimuse töötlemise vaikesätted müügitellimustega. Kui ettevõttel on võimalik määratleda mitu kõnekeskuse kanalit Commerce'is, on oluline märkida, et üks kasutaja võib olla seotud ainult ühe kõnekeskuse kanaliga. 
+Rakenduse Dynamics 365 Commerce kõnekeskus on sellist tüüpi Commerce'i kanal, mille saab määratleda rakenduses. Kõnekeskuse üksustele kanali määratlemine võimaldab süsteemil siduda konkreetsed andmed ja tellimuse töötlemise vaikesätted müügitellimustega. Kui ettevõttel on võimalik määratleda mitu kõnekeskuse kanalit Commerce'is, on oluline märkida, et üks kasutaja võib olla seotud ainult ühe kõnekeskuse kanaliga. 
 
 Enne uue kõnekeskuse kanali loomist veenduge, et olete lõpetanud [Kanali eeltingimuste seadistuse](channels-prerequisites.md).
 
@@ -84,7 +84,7 @@ Kõigi selles kanalis toetatud maksetüüpide makseviiside seadistamiseks toimig
 
 Järgmine pilt näitab sularaha makseviisi näidet.
 
-![Makseviiside näited](media/channel-setup-retail-5.png)
+![Makseviiside näited](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Tarneviiside häälestamine
 

@@ -3,7 +3,7 @@ title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Man
 description: See teema viitab teemadele, mis kirjeldavad uusi ja muudetud funktsioone igas Dynamics 365 Supply Chain Managementi väljalaskes.
 author: kamaybac
 manager: tfehr
-ms.date: 03/11/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 276924e67e0507847cfb4ca9cf0b077c36c084b5
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6824e4c8e0e6d3071973dc92d2ff90d78f4dde5
+ms.sourcegitcommit: d64a07748bdd7c85877cfe0343bee952f235f38e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261230"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457189"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 
 
@@ -34,9 +34,8 @@ Et näha, mis on teenuse Dynamics 365 Supply Chain Management igas väljalaskes 
 
 | Versioon | Järgu number | Automaatvärskenduse kättesaadavus | Lisateave |
 |---|---|---|---|
-| 10.0.11 | 10.0.464 | 2020. juuni | [Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.11?](whats-new-scm-10-0-11.md) |
+| 10.0.11 | 10.0.464 | 2020. a juuli | [Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.11?](whats-new-scm-10-0-11.md) |
 | 10.0.10 | 10.0.420 | 2020. mai | [Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.10?](whats-new-scm-10-0-10.md) |
-| 10.0.9 | 10.0.383 | 2020. aprill | [Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.9?](whats-new-scm-10-0-9.md) |
 
 ## <a name="releases-before-march-2020"></a>Väljalasked enne 2020. aasta märtsi
 
@@ -44,6 +43,7 @@ Et enne 2019. aasta novembrit näha, mis on väljalasetes uut või muudetud, vaa
 
 | Väljastus | Versioon | Järgu number | Kättesaadavus | Lisateave |
 |---|---|---|---|---|
+| Dynamics 365 Supply Chain Management | 10.0.9  | 10.0.383   | 2020. aprill | [Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.9?](whats-new-scm-10-0-9.md) |
 | Dynamics 365 Supply Chain Management | 10.0.8  | 10.0.319   | 2020. veebruar | [Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.8?](whats-new-scm-10-0-8.md) |
 | Dynamics 365 Supply Chain Management | 10.0.7  | 10.0.283   | 2020. jaanuar | [Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.7?](whats-new-scm-10-0-7.md) |
 | Dynamics 365 Supply Chain Management | 10.0.6 |   10.0.234   | November 2019  | [Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.6?](whats-new-scm-10-0-6.md) |

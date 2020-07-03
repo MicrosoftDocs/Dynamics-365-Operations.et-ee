@@ -3,7 +3,7 @@ title: Koondplaanide ülevaade
 description: Ettevõtte igapäevaste tööoperatsioonide toetamiseks, erinevate jälgimist vajavate planeerimisstrateegiate simuleerimiseks ja ettevõtte eeskirjade juurutamiseks (nt sisetegevuse puhul ja kliendi rahulolu saavutamiseks) saate kasutada erinevaid koondplaane.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56c9c3f910c5c5386cdab25566b43198288eb419
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5b37347cf2d5b720ed7ac364800fb8cfe2d67ca
+ms.sourcegitcommit: ace6451fde3e4b20cbcaa6279fa1da4d7151ad1e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213534"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3409518"
 ---
 # <a name="master-plans-overview"></a>Koondplaanide ülevaade
 
@@ -35,7 +35,7 @@ Ettevõtte igapäevaste tööoperatsioonide toetamiseks, erinevate jälgimist va
 Koondplaane saate konfigureerida lehel **Koondplaanid**.
 
 Plaane on kahesuguseid:
--   **Staatiline plaan** – koondplaneerimise arvutamine kasutab netovajaduste plaani loomiseks praeguseid andmeid. Plaan püsib muutumatu järgmise koondplaneerimise käivitamiseni. Seda plaani saavad kasutada ettevõtte erinevad töötajad, näiteks sisseostjad või tooteplaanijad, toetudes sellele oma otsuste langetamisel ja igapäevaste tööde tegemisel.
+-   **Staatiline plaan** – koondplaneerimise arvutamine kasutab netovajaduste plaani loomiseks praeguseid andmeid. Plaan püsib muutumatu järgmise koondplaneerimise käivitamiseni või plaani käsitsi muutmiseni. Seda plaani saavad kasutada ettevõtte erinevad töötajad, näiteks sisseostjad või tooteplaanijad, toetudes sellele oma otsuste langetamisel ja igapäevaste tegevuste teostamisel.
 -   **Dünaamiline plaan** – see plaan käivitub sama netovajaduste plaaniga, mis loodi koondplaneerimisega. Siiski saate dünaamilist plaani värskendada iga kord, kui koondandmed muutuvad. Selle põhjuseks võib olla näiteks uue müügitellimuse loomine. See võimaldab jälgida tellimusevõrgu muutusi ja kauba kättesaadavust, häirimata teiste tööks vajalikku staatilist plaani.
 
 Ettevõttel on võimalus kasutada vaid dünaamilist plaani või staatilist ja dünaamilist plaani korraga. Iga koondplaani saab konfigureerida peegeldama konkreetset strateegiat või tegelema prooviga. Näited on järgmised.

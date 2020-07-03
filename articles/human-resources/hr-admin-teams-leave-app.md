@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388112"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431126"
 ---
 # <a name="human-resources-app-in-teams"></a>Rakendus Human Resources Teamsis
 
@@ -45,6 +45,7 @@ Lisateabe saamiseks rakenduse lubade haldamise kohta Teamsis, vaadake teemat [Ra
 
 | Väljastus | Olek |
 | --- | --- |
+| Tõrge: tekkis probleem ühendatava keskkonna leidmisel. | Seda tõrget võidakse kuvada isegi juhul, kui olete kinnitanud, et kasutajal on juurdepääs ühele või enamale Human Resourcesi keskkonnale. Lisaks ei pruugi te näha kõiki eeldatavaid keskkondi. Kuni me probleemiga tegeleme, kustutage probleemi lahendamiseks kasutaja ja importige ta seejärel uuesti. |
 | Tulevaks kuupäevaks vaba aja taotlemisel on vale saldo. | Prognoosimine pole veel saadaval. Kuvatakse praeguse kuupäeva saldo. |
 | Olemasolevas taotluses võetud tundide arvu vähendamisel, muutub **Jääksaldo** väiksemaks, mitte suuremaks. | Tegeleme selle teadaoleva probleemiga tulevikus. Kuva on vale, kuid õiged summad kohandatakse pärast esitamist. |
 | Samadele kuupäevadele kuvatakse kaks kaarti **Eesolev vaba aeg**. | Kaardid esindavad erinevaid esitamisi. Jätkame tagasiside vastuvõtmist ja teeme korrigeerimisi. |

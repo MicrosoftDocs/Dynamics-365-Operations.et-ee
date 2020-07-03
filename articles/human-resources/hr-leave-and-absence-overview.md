@@ -3,12 +3,12 @@ title: Ülevaade
 description: Rakenduse Dynamics 365 Human Resources tööruum Puhkused ja puudumised pakub paindlikku raamistikku uute puhkuseplaanide ja taotluste haldamise töövoogude loomiseks ning töötajate intuitiivset iseteeninduse lehte vabade päevade taotlemiseks.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/30/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
-ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
+ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3325761"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428963"
 ---
 # <a name="overview"></a>Ülevaade
 
@@ -84,10 +84,9 @@ Saate proovida uusi puhkuste ja puudumiste eelvaatefunktsioone keskkonnas **Liiv
 
 Eelvaatefunktsioonid hõlmavad järgmist.
 
-- **Puhkuse peatamine** – saate peatada töövõtja puhkuse Human Resourcesis. Puhkuse peatamine lõpetab puhkuse viitvõlad valitud puhkusetüüpide puhul. Kui peatamine toimub pärast viitvõla töötlemisi, loob peatatav puhkus eelmääratud korrigeerimise töötaja puhkusesaldo jaoks. Lisaks saate töötaja puhkuse peatamisel lisada põhjusekoodid. Kasutajakogemust on uuendatud, et märkida peatamine. 
+- **Puhkuse juurdekasv ettevõtte- või puhkuseplaani alusel** – saate käivitada juurdekasvu protsessi kõikide ettevõtete või ühe ettevõtte jaoks. Samuti saate käivitada juurdekasvu protsessi konkreetse ettevõtte konkreetse puhkuse või puudumiste plaani jaoks. 
 
-- **Edasikandmise reeglid** – saate määrata edasikandmise puhkuse tüübi edasikantavale saldole, mille edasikandmise korrigeerimised kantakse üle. Näiteks kui töövõtja kannab edasi 10 päeva, saate valida nende 10 päeva jaoks teistsuguse puhkuse tüübi. 
+- **Puhkuse ost** – saate lubada ja luua töötajate jaoks puhkuse ostu põhimõtted ostutaotluste esitamiseks. Töötajad saavad esitada ostutaotlusi ning nende saldot uuendatakse taotluse kajastamiseks automaatselt.  
 
-- **Korrektsioonidele põhjusekoodi ja kommentaaride lisamine** – Saate töötaja puhkusesaldo korrigeerimisel lisada põhjusekoodi ja kommentaari. 
+- **Kinnitatud puhkusetaotlustele manuste lisamine** – saate lisada manuse puhkusetaotlusele, mis on juba kinnitatud. 
 
-- **Üleminek puhkuse ja puudumise parameetritele** – nüüd saate inimressursside parameetrite asemel kasutada vaid puhkuse ja puudumise parameetreid. 

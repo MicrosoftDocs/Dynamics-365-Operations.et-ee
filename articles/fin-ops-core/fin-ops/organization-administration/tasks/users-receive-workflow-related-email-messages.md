@@ -3,7 +3,7 @@ title: Luba kasutajatel töövooga seotud e-kirju vastu võtta
 description: Saate konfigureerida süsteemi saatma kasutajatele meilisõnumeid töövooga seotud sündmuste esinemisel.
 author: jasongre
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/01/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4c9f2f22bc4b5ca5b4351f7956ad2eb6d3b903d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 40ad380c7bfb2b3fc518b0278286ae03532668ed
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140417"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416549"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Luba kasutajatel töövooga seotud e-kirju vastu võtta
 
@@ -40,3 +40,5 @@ Saate konfigureerida süsteemi saatma kasutajatele meilisõnumeid töövooga seo
 6. Klõpsake valikut **Salvesta**.
 7. Sulgege leht.
 
+> [!NOTE]
+> Töövoo meilimallid hangitakse süsteemi meilimallidest või organisatsiooni meilimallidest, sõltuvalt sellest, kas tegemist on süsteemitasandi (mitte ettevõttepõhise) või organisatsioonitasandi (ettevõttepõhise) töövooga.

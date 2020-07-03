@@ -3,7 +3,7 @@ title: Jaluse moodul
 description: See teema hõlmab jaluse mooduleid ja kuidas neid rakenduses Dynamics 365 Commerce koostada.
 author: anupamar
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 51f8d26d6223dcd1f6961058cd9d772a67c69670
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269630"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411195"
 ---
 # <a name="footer-module"></a>Jaluse moodul  
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,6 +34,10 @@ See teema hõlmab jaluse mooduleid ja kirjeldab, kuidas neid rakenduses Microsof
 
 Jaluse moodul on erikonteiner, mida kasutatakse lehe jaluses kuvatavate moodulite majutamiseks. Näiteks võib see sisaldada linke saidi erinevatele lehtedele, nagu lehed **Võtke meiega ühendust** ja **Poe eeskirjad**.
 
+Järgmisel pildil on näide jaluse moodulist saidi lehel.
+
+![Jaluse mooduli näide](./media/ecommerce-footer.PNG)
+
 ## <a name="footer-module-properties"></a>Jaluse mooduli atribuudid 
 
 Nagu enamik konteinereid, toetab jaluse moodul pealkirja ja laiuse atribuute. Samuti toetab mitme jaluse kategooria moodulite lisamist. Iga lisatud jaluse kategooria moodul renderdatakse jaluse mooduli veeruna.
@@ -43,27 +46,27 @@ Nagu enamik konteinereid, toetab jaluse moodul pealkirja ja laiuse atribuute. Sa
 
 **Jaluse üksused** – jaluse üksuste moodul võib sisaldada pealkirja, pilti ja linki. Pealkirja saab kasutada kas eraldi või koos pildi ja lingiga. Iga jaluse linki saab konfigureerida nii, et sellel on ainult tekst (nt lingid „Võtke meiega ühendust” „Privaatsus”), või nii, et sellel on nii tekst kui ka pilt (nt sotsiaalmeedia lingid).
 
-**Tagasi üles** – moodul tagasi üles pakub linki kiiresti tagasi lehe ülaossa navigeerimiseks. Nõutav on sihtkoht. Sihtkoha vaikeväärtus on #, mis viib kasutaja lehekülje ülaossa.
+**Tagasi üles** – moodul tagasi üles pakub linki kiiresti tagasi lehe ülaossa navigeerimiseks. Nõutav on sihtkoht. Sihtkoha vaikeväärtus on \#, mis viib kasutaja lehekülje ülaossa.
 
-## <a name="author-a-footer-module"></a>Jaluse mooduli koostamine
+## <a name="create-a-footer-module"></a>Jalusemooduli loomine
 
-1. Valige navigeerimispaanil suvand **Fragmendid** ja valige seejärel **Uus lehe fragment**.
-1. Dialoogiaknas **Uus lehe fragment** valige jaluse moodul, sisestage lehe fragmendi nimi ja valige seejärel **OK**.
-1. Valige vasakul liigendpuus jaluse mooduli kolmikpunkti nupp (**…**) ja seejärel suvand **Lisa moodul**.
-1. Valige dialoogiaknas **Lisa moodul** jaluse kategooria moodul ja klõpsake seejärel nuppu **OK**.
-1. Valige liigendpuus jaluse kategooria mooduli kolmikpunkti nupp ja seejärel suvand **Lisa moodul**.
-1. Valige dialoogiaknas **Lisa moodul** jaluse üksuse moodul ja klõpsake seejärel nuppu **OK**.
-1. Valige liigendpuus jaluse üksuse moodul. Seejärel konfigureerige parempoolsel atribuutide paanil pealkiri, link ja lingi tekst ning vastavalt vajadusele pilt.
-1. Rohkemate jaluse üksuste lisamiseks korrake samme 5 kuni 7.
-1. Jalusele lingi Tagasi üles lisamiseks valige jaluse kategooria mooduli kolmikpunkti nupp ja seejärel suvand **Lisa moodul**.
-1. Valige dialoogiaknas **Lisa moodul** tagasi üles moodul ja klõpsake seejärel nuppu **OK**.
-1. Valige liigendpuus tagasi üles moodul. Seejärel konfigureerige paremal atribuutide paanil vastavalt vajadusele tagasi üles moodul.
-1. Valige **Salvesta**, valige lehe fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+1. Avage **Lehe fragmendid** ja valige uue fragmendi loomiseks **Uus**.
+1. Dialoogiboksis **Uus lehe fragment** valige moodul **Konteiner**, sisestage lehe fragmendi nimi ja valige seejärel **OK**.
+1. Valige pesas **Vaikekonteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Jaluse kategooria** ja klõpsake seejärel **OK**.
+1. Valige pesas **Jaluse kategooria** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Jaluse üksus** ja klõpsake seejärel **OK**.
+1. Valige pesa **Jaluse üksus** ja seejärel konfigureerige parempoolsel atribuutide paanil vajaduse pealkiri, link ja lingi tekst ning vajadusel pilt.
+1. Rohkemate jaluse üksuste lisamiseks korrake iga kord samme 5 kuni 7.
+1. Jalusele lingi „Tagasi üles“ lisamiseks valige pesas **Jaluse kategooria** kolmikpunkt (**...**) ja seejärel **Lisa moodul**.
+1. Valige dialoogiboksis **Lisa moodul** moodul **Tagasi üles** ja klõpsake seejärel **OK**.
+1. Valige pesa **Tagasi üles** ja seejärel konfigureerige parempoolsel atribuutide paanil vajaduse järgi tekst ja muud mooduli atribuudid.
+1. Valige fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
-Järgige igal saidi jaoks loodud lehe mallil järgmisi etappe.
+Päise igal lehel kuvamise tagamiseks järgige neid samme iga malli jaoks, mis on saidi jaoks loodud.
 
-1. Lisage jaluse mooduli vaikelehe pesas **Peamine** jaluse fragment, mille lõite.
-1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
+1. Lisage mooduli **Vaikeleht** pesas **Jalus** loodud jaluse fragment.
+1. Valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
 Lisades lehe mallidele lehe fragmendi, aitate tagada, et jalus renderdatakse igal lehel.
 

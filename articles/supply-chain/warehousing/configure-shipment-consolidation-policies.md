@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e879ec53a88e5e30257608cba7604b404ac2368a
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e11ccdf138adbf05ae1fc8ef739687b9212ae1fe
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383752"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403331"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Saadetise konsolideerimispoliitikate konfigureerimine
 
@@ -270,7 +270,7 @@ Selles näites loote poliitika *Konsolideerimist lubavad kliendid*, mida saab ka
 
 - Poliitika esitab päringu kindla tellimuse kausta kohta, et tuvastada kliendid, kes lubavad konsolideeritud saadetisi.
 - Avatud saadetistega konsolideerimine on välja lülitatud.
-- Konsolideerimine toimub kõigis tellimustes vaikimisi poliitikaga CrossOrder valitud väljade abil (varasema märkeruudu **Ladu** paljundamiseks).
+- Konsolideerimine toimub kõigis tellimustes väljade abil, mille valis vaikimisi poliitika CrossOrder (varasema märkeruudu **Konsolideeri saadetis lattu väljastamisel** kopeerimiseks).
 
 - Saate müügitellimuses selle reegli alistada, valides mõne muu tellimuse kausta.
 
@@ -306,7 +306,7 @@ Selles näites loote poliitika *Konsolideerimist lubavad laod*, mida saab kasuta
 
 - Poliitika esitab päringu kindla tellimuse kausta kohta, et tuvastada laod, mis konsolideerivad saadetisi.
 - Avatud saadetistega konsolideerimine on välja lülitatud.
-- Konsolideerimine toimub kõigis tellimustes vaikimisi poliitikaga CrossOrder valitud väljade abil (varasema märkeruudu **Ladu** paljundamiseks).
+- Konsolideerimine toimub kõigis tellimustes väljade abil, mille valis vaikimisi poliitika CrossOrder (varasema märkeruudu **Konsolideeri saadetis lattu väljastamisel** kopeerimiseks).
 
 Tavaliselt saab seda ärijuhtumit lahendada [stsenaariumis 1](#scenario-1) loodud vaikepoliitikate abil. Kuid saate järgmiste etappide abil sarnaseid poliitikaid ka käsitsi luua.
 

@@ -3,7 +3,7 @@ title: Jaemüügi hinna haldamine
 description: Selles teemas kirjeldatakse müügihindade loomise ja haldamise põhimõtteid rakenduses Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 84d673bef8597bd7d376c5c74737d5c7db247759
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057483"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431997"
 ---
 # <a name="retail-sales-price-management"></a>Retaili müügihinna haldamine
 
@@ -53,7 +53,9 @@ Alloleval joonisel on näidatud, kuidas hinnagruppe kasutatakse. Pange tähele, 
 
 Hinnagruppe luues ei tohiks kasutada üht hinnagrupi mitut tüüpi kaubanduse üksuste jaoks. Muidu võib olla keeruline määrata, miks konkreetset hinda või allahindlust kandele rakendatakse.
 
-Nagu punane katkendjoon joonisel näitab, toetab Commerce Microsoft Dynamics 365 otse kliendile määratud hinnagrupi põhifunktsioone. Kuid sellisel juhul saate ainult müügihinna kaubanduslepingud. Kui soovite rakendada kliendipõhiseid hindu, soovitame otse kliendile hinnagruppe mitte määrata. Selle asemel kasutage alluvusi.
+Nagu punane katkendjoon joonisel näitab, toetab Commerce Microsoft Dynamics 365 otse kliendile määratud hinnagrupi põhifunktsioone. Kuid sellisel juhul saate ainult müügihinna kaubanduslepingud. Kui soovite rakendada kliendipõhiseid hindu, soovitame otse kliendile hinnagruppe mitte määrata. Selle asemel kasutage alluvusi. 
+
+Pidage meeles, et kui kliendile on seadistatud hinnagrupp, siis seotakse hinnagrupp selle kliendi jaoks loodud tellimuste müügitellimuse päisega. Kui kasutaja muudab tellimuse päises hinnagruppi, siis asendatakse vana hinnagrupp uue hinnagrupiga vaid käesoleva tellimuse jaoks. See tähendab, et vana hinnagrupp ei mõjuta näiteks käesolevat tellimust, kuid seda seostatakse sellegipoolest kliendi tulevaste tellimustega.
 
 Järgmistes jaotistes on rohkem teavet kaubanduse üksuste kohta, mida saate hinnagruppide kasutamisel kasutada eraldi hindade määramiseks. Kõikide nende üksuste hindade ja allahindluste konfiguratsioon on kahesammuline protsess. Neid samme võib läbida mis tahes järjekorras. Kuid loogiline järjekord on kõigepealt määrata üksustele hinnagrupid, kuna see samm on tõenäoliselt ühekordne seadistamissamm, mida tehakse juurutamise ajal. Kui hinnad ja allahindlused on loodud, saate neile eraldi määrata hinnagrupid.
 
@@ -226,6 +228,7 @@ Hinnakujunduse mootor **ei toeta** järgmisi hinnakujunduse funktsioone.
 - Hinna määramine tegevuskoha või tegevuskoha ja laoala dimensioone kasutades pole toetatud. Kui täpsustate kaubandusleppes ainult tegevuskoha dimensioonid, siis hinnakujunduse mootor ignoreerib tegevuskohta ja rakendab kaubandusleppe kõigile saitidele. Kui määrate nii tegevuskoha kui ka lao, siis on käitumine määratlemata/testimata, kuna eeldatakse, et jaemüüjad kasutavad poe hinnagruppe, kontrollida iga kaupluse/lao hindu.
 - Atribuudipõhist hinnakujundust ei toetata.
 - Hankija allahindluse läbimist ei toetata.
+- Tavapärane Supply Chain Managementi hinnastamismootor toetab hindade arvutamist praeguse kuupäeva kõrval „Soovitud lähetuskuupäeva“ ja „Soovitud sissetulekukuupäeva“ alusel. Samas ei toeta jaemüügi hinnakujundus hetkel neid väärtusi. Põhjuseks on tõsiasi, et B2C stsenaariumite puhul ei eelda kliendid, et soovitud sissetulekukuupäev mõjutab kauba hinda. Mõnel juhul rakendavad jaemüüjad nii B2B kui ka B2C toiminguid. B2B toimingute puhul on tavaline, et hinnad muutuvad sõltuvalt sissetulekukuupäevadest. Need jaemüüjad saavad kasutada B2B äritegevuses Supply Chain Managementi hinnakujundust ja B2C äritegevuses jaemüügi hinnakujundust. Jaemüügi hinnakujundus hakkab tööle vaid siis, kui rakenduse kasutaja lisatakse kõnekeskuse kasutajaks, nii et jaemüüjad saavad määrata teatud kasutajad, kes töötavad Supply Chain Managementi hinnakujundusega, ning mõned kasutajad, kes töötavad jaemüügi hinnakujundusega, st need kasutajad tuleks lisadada kõnekeskuse kasutajatena. Lisaks peab olema sisse lülitatud atribuut **Tänase kuupäeva kasutamine hindade arvutamisel** jaotises **Kaubanduse parameetrid > hinnakujundus ja allahindlused > Mitmesugune**. Sel moel saavad nad Supply Chain Managementi hinnakujundamisel jätkata ostureskontro parameetri väärtuse kasutamist soovitud lähetuskuupäeva või soovitud sissetulekukuupäeva jaoks, kuid jaemüügi hinnakujunduses rakendatakse hindade arvutamisel jätkuvalt tänast kuupäeva.
 
 Peale selle toetab järgmisi hinnakujunduse funktsioone **ainult** hinnakujunduse mootor.
 

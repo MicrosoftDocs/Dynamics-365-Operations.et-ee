@@ -3,7 +3,7 @@ title: Reklaambänneri moodul
 description: See teema hõlmab reklaambänneri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,15 +18,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 12cabbf0b8d9f337f15a8cd6cb1f2a85100b75f7
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: dae824cdbaaf56f85f125c5f36aaa56171bbd6bc
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269770"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411361"
 ---
 # <a name="promo-banner-module"></a>Reklaambänneri moodul
-
 
 [!include [banner](includes/banner.md)]
 
@@ -48,9 +47,15 @@ Reklaambännereid saab kasutada saidi päises, et näidata kogu saiti hõlmavaid
 
 „Suured allahindlused tagasi kooli kampaania ajal. Ostke kohe.”
 
+„Ostle ja naudi tänupühade KAMPAANIAT!“ 
+
+Järgmisel pildil on toodud reklaambänneri näide.
+
+![Reklaambänneri mooduli näide](./media/ecommerce-Promobanner.PNG)
+
 ## <a name="promo-banner-module-properties"></a>Reklaambänneri mooduli atribuudid
 
-| Atribuudi nimi             | Value                              | Kirjeldus |
+| Atribuudi nimi             | Väärtus                              | Kirjeldus |
 |---------------------------|------------------------------------|-------------|
 | Bänneri teated           | Tekst ja lingid                     | Valik tekste ja linke. |
 | Automaatesitus                  | **Tõene** või **Väär**              | Väärtus, mis näitab, kas juhul kui konfigureeritud on mitu sõnumit, keritakse sõnumid automaatselt läbi. |
@@ -64,7 +69,7 @@ Reklaambännereid saab kasutada saidi päises, et näidata kogu saiti hõlmavaid
 
 Lehele reklaambänneri mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
-1. Valige lehe malli loomiseks **Uus**.
+1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
 1. Sisestage dialoogiboksis **Uus mall** jaotise **Malli nimi** all **Reklaambänneri mall** ja valige seejärel **OK**.
 1. Lisage jaotisse **Lehe liigendus** moodul **Vaikeleht** pesasse **Kehatekst**. 
 1. Valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. 
@@ -74,7 +79,7 @@ Lehele reklaambänneri mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 1. Lisage jaotises **Lehe liigendus** konteineri moodulile reklaambänneri moodul.
 1. Lisage bänneri mooduli sätetes üks või mitu bänneri sõnumit. Igas sõnumis võib olla tekst koos lingiga. Et moodulit veelgi kohandada, võite redigeerida teisi atribuute.
 1. Valige **Salvesta** ja seejärel lehe eelvaate kuvamiseks **Eelvaade**. Lehe ülaosas peaksite nägema teatist teie lisatud tekstiga.
-1. Valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. 
+1. Valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
 > [!NOTE]
 > Reklaambännerit kasutatakse tavaliselt lehekülje päise pesas või alapealkirja pesas.
