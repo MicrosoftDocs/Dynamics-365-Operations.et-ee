@@ -10,7 +10,7 @@
           items:
             - name: Mis on uut või mida on muudetud rakendustes Finance and Operations?
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Mis on uut või mida on muudetud platvormivärskendustes?
+            - name: Mis on uut või mida on muudetud Platform update'is?
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platvormi versiooni 10.0.11 värskendused (juuli 2020)
                   href: get-started/whats-new-platform-update-35.md
-                - name: Platvormi versiooni 10.0.10 värskendused (mai 2020)
-                  href: get-started/whats-new-platform-update-34.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Eemaldatud või iganenud platvormi funktsioonid
@@ -50,7 +48,7 @@
               href: business-events/troubleshooting.md
             - name: Ärisündmuste kasutusjuhtumid
               href: business-events/potential-use-cases.md
-            - name: Õpetused
+            - name: Õppetükid
               items:
                 - name: Ärisündmused ja Microsoft Flow
                   href: business-events/how-to/how-to-flow.md
@@ -178,7 +176,7 @@
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
                             - name: Ettevõtte integratsioon
                               items:
-                                - name: Ettevõtte kontseptsioon lahenduses Common Data Services
+                                - name: Ettevõtte kontseptsioon Common Data Servicesis
                                   href: data-entities/dual-write/company-data.md
                                 - name: Alglaadimine ettevõtte andmetega
                                   href: data-entities/dual-write/bootstrap-company-data.md
@@ -210,7 +208,7 @@
                               items:
                                 - name: 'Kontrollige, et topeltkirjutamine on konfigureeritud Finance and Operationsi rakendustes ja Common Data Service''is'
                                   href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: Tõrkeotsingu probleemid algse seadistamise ajal
+                                - name: Tõrkeotsingu probleemid algse häälestuse ajal
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                                 - name: Tõrkeotsingu probleemid algse sünkroonimine ajal
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
@@ -386,7 +384,7 @@
                   href: database/database-point-in-time-restore.md
                 - name: Tootmisandmebaasi ajapunktipõhine taaste liivakastikeskkonnas
                   href: database/database-pitr-prod-sandbox.md
-            - name: Õpetused
+            - name: Õppetükid
               items:
                 - name: Värskendamine koolitusotstarbel
                   href: database/dbmovement-scenario-general-refresh.md
@@ -713,9 +711,29 @@
                         - name: Sündmused
                           href: dev-ref/xpp-events.md
                     - name: X++ andmete valimine ja manipuleerimine
-                      href: dev-ref/xpp-data-query.md
-                    - name: Juurdepääs andmetele SysDa API abil
-                      href: dev-ref/sysda.md
+                      items:
+                        - name: X++ andmete valimine ja manipuleerimise ülevaade
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: Väljavõtte valimine
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: Andmete valimine
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: Andmete sisestamine
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: Andmete värskendamine
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: Andmete kustutamine
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: Väljavõtte valimise ajal
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: Valitud väljavõtte kirjutamine avaldisena
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: Kannete terviklikkus
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: Toimingute teisendamine komplektipõhisest kirjetaseme toiminguks
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: Juurdepääs andmetele SysDa API abil
+                          href: dev-ref/sysda.md
                     - name: X++ makrod
                       href: dev-ref/xpp-macros.md
                     - name: X++ atribuudiklassid
@@ -754,76 +772,58 @@
                   href: dev-ref/system-tables.md
                 - name: Süsteemiklassid
                   items:
-                    - name: A klassid
-                      href: dev-ref/a-classes.md
-                    - name: B klassid
-                      href: dev-ref/b-classes.md
-                    - name: C klassid
-                      href: dev-ref/c-classes.md
-                    - name: D klassid
-                      href: dev-ref/d-classes.md
-                    - name: E klassid
-                      href: dev-ref/e-classes.md
-                    - name: F klassid (FieldBinding kuni FormBuildAnimateControl)
-                      href: dev-ref/fieldbinding-classes.md
-                    - name: F klassid (FormBuildButtonControl kuni FormBuildFastTabSummarySeparator)
-                      href: dev-ref/formbuildbuttoncontrol-classes.md
-                    - name: F klassid (FormBuildFilterPaneControl kuni FormBuildRealControl)
-                      href: dev-ref/formbuildfilterpanecontrol-classes.md
-                    - name: F klassid (FormBuildReferenceControl kuni FormButtonSeparatorControl)
-                      href: dev-ref/formbuildreferencecontrol-classes.md
-                    - name: F klassid (FormChangeTracker kuni FormControlEventArgs)
-                      href: dev-ref/formchangetracker-classes.md
-                    - name: F klassid (FormDataObject kuni FormFastTabHeaderControl)
-                      href: dev-ref/formdataobject-classes.md
-                    - name: F klassid (FormFastTabSummarySeparator kuni FormGridControl)
-                      href: dev-ref/formfasttabsummaryseparator-classes.md
-                    - name: F klassid (FormGroupControl kuni FormIntControl)
-                      href: dev-ref/formgroupcontrol-classes.md
-                    - name: F klassid (FormListBoxControl kuni FormNotifyEventArgs)
-                      href: dev-ref/formlistboxcontrol-classes.md
-                    - name: F klassid (FormObject kuni FormRealControl)
-                      href: dev-ref/formobject-classes.md
-                    - name: F klassid (FormReferenceControl kuni FormStringControl)
-                      href: dev-ref/formreferencecontrol-classes.md
-                    - name: F klassid (FormTabControl kuni FormWindowControl)
-                      href: dev-ref/formtabcontrol-classes.md
-                    - name: G klassid
-                      href: dev-ref/g-classes.md
-                    - name: H klassid
-                      href: dev-ref/h-classes.md
-                    - name: I klassid
-                      href: dev-ref/i-classes.md
-                    - name: J klassid
-                      href: dev-ref/j-classes.md
-                    - name: K klassid
-                      href: dev-ref/k-classes.md
-                    - name: L klassid
-                      href: dev-ref/l-classes.md
-                    - name: M klassid
-                      href: dev-ref/m-classes.md
-                    - name: N klassid
-                      href: dev-ref/n-classes.md
-                    - name: O klassid
-                      href: dev-ref/o-classes.md
-                    - name: P klassid
-                      href: dev-ref/p-classes.md
-                    - name: Q klassid
-                      href: dev-ref/q-classes.md
-                    - name: R klassid
-                      href: dev-ref/r-classes.md
-                    - name: S klassid
-                      href: dev-ref/s-classes.md
-                    - name: T klassid
-                      href: dev-ref/t-classes.md
-                    - name: U klassid
-                      href: dev-ref/u-classes.md
-                    - name: V klassid
-                      href: dev-ref/v-classes.md
-                    - name: W klassid
-                      href: dev-ref/w-classes.md
-                    - name: X klassid
-                      href: dev-ref/x-classes.md
+                    - name: Süsteemiklassi loend
+                      href: dev-ref/system-classes/toc.yml
+                    - name: Tähestikuliselt rühmitatud süsteemiklassid
+                      items:
+                        - name: A klassid
+                          href: dev-ref/a-classes.md
+                        - name: B klassid
+                          href: dev-ref/b-classes.md
+                        - name: C klassid
+                          href: dev-ref/c-classes.md
+                        - name: D klassid
+                          href: dev-ref/d-classes.md
+                        - name: E klassid
+                          href: dev-ref/e-classes.md
+                        - name: F klassid
+                          href: dev-ref/f-classes.md
+                        - name: G klassid
+                          href: dev-ref/g-classes.md
+                        - name: H klassid
+                          href: dev-ref/h-classes.md
+                        - name: I klassid
+                          href: dev-ref/i-classes.md
+                        - name: J klassid
+                          href: dev-ref/j-classes.md
+                        - name: K klassid
+                          href: dev-ref/k-classes.md
+                        - name: L klassid
+                          href: dev-ref/l-classes.md
+                        - name: M klassid
+                          href: dev-ref/m-classes.md
+                        - name: N klassid
+                          href: dev-ref/n-classes.md
+                        - name: O klassid
+                          href: dev-ref/o-classes.md
+                        - name: P klassid
+                          href: dev-ref/p-classes.md
+                        - name: Q klassid
+                          href: dev-ref/q-classes.md
+                        - name: R klassid
+                          href: dev-ref/r-classes.md
+                        - name: S klassid
+                          href: dev-ref/s-classes.md
+                        - name: T klassid
+                          href: dev-ref/t-classes.md
+                        - name: U klassid
+                          href: dev-ref/u-classes.md
+                        - name: V klassid
+                          href: dev-ref/v-classes.md
+                        - name: W klassid
+                          href: dev-ref/w-classes.md
+                        - name: X klassid
+                          href: dev-ref/x-classes.md
             - name: Laiendatavus
               items:
                 - name: Laiendatavuse avaleht
@@ -964,15 +964,15 @@
               items:
                 - name: Jälitamised Trace Parseri abil
                   href: perf-test/trace-trace-tutorial.md
-                - name: Ühe kasutajaga testimine tegevuse salvestaja ja jõudluse SDK abil
+                - name: Ühe kasutajaga testimine tegevuse salvestaja ja Performance SDK abil
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Mitme kasutajaga testimine jõudluse SDK ja kohaliku testimiskontrolleri abil
+                - name: Mitme kasutajaga testimine Performance SDK ja kohaliku testimiskontrolleri abil
                   href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Mitme kasutajaga testimine jõudluse SDK ja Azure DevOpsi kaudu
+                - name: Mitme kasutajaga testimine Performance SDK ja Azure DevOpsi kaudu
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: Ühe või mitme kasutajaga testimine jõudluse SDK abil – tõrkeotsingujuhend
+                - name: Ühe või mitme kasutajaga testimine Performance SDK abil – tõrkeotsingujuhend
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
-                - name: Jõudluse SDK ja mitme kasutajaga testimine kohapealsetes keskkondades
+                - name: Performance SDK ja mitme kasutajaga testimine kohapealsetes keskkondades
                   href: perf-test/perfsdk-tutorial-lbd.md
                 - name: Probleemide diagnoosimine ja jõudluse analüüsimine Trace Parseri abil
                   href: perf-test/trace-parser.md
@@ -1380,7 +1380,7 @@
               href: lcs-solutions/marketing-content-lcs-solutions.md
             - name: Metoodikate lisamine
               href: lcs-solutions/methodologies-lcs-solutions.md
-            - name: Äriprotsesside modelleerija teekide seadistamine
+            - name: Äriprotsesside modelleerija teekide häälestus
               href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
             - name: Koodi migreerimine
               href: lcs-solutions/code-migration-lcs-solutions.md
@@ -1414,7 +1414,7 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: 'Toe hankimine rakenduse Finance and Operations jaoks, mida käitab 21Vianet Hiinas'
               href: lifecycle-services/21vianet-support.md
-            - name: Tehnilise toe seadistamine rakenduse Finance and Operations jaoks
+            - name: Tehnilise toe häälestus rakenduse Finance and Operations jaoks
               href: lifecycle-services/support-experience.md
             - name: Finance and Operationsi tugikogemuste haldamine
               href: lifecycle-services/cloud-powered-support-lcs.md
@@ -1434,6 +1434,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: B2B kasutajate eksportimine Azure AD-sse
               href: sysadmin/implement-b2b.md
+            - name: Protsessi automatiseerimine
+              href: sysadmin/process-automation.md
             - name: Turve
               items:
                 - name: Rollipõhine turve
@@ -1450,7 +1452,7 @@
                   href: sysadmin/tasks/create-new-users.md
                 - name: Kasutajate hulgiimport
                   href: sysadmin/tasks/import-bulk-users.md
-                - name: Kohustuste jagamise seadistamine
+                - name: Kohustuste jagamise häälestus
                   href: sysadmin/tasks/set-up-segregation-duties.md
                 - name: Kohustuste jagamise konfliktide tuvastamine ja lahendamine
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
@@ -1458,6 +1460,8 @@
                   href: sysadmin/tasks/assign-users-security-roles.md
                 - name: Turbediagnostika tegevuse salvestiste jaoks
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: Protsessi automatiseerimine
+              href: /sysadmin/process-automation.md
             - name: Pakktöötlus
               items:
                 - name: Pakktöötluse ülevaade
@@ -1496,7 +1500,7 @@
               href: sysadmin/configure-manage-database-log.md
             - name: OData metaandmete vahemälu loomine AOS-i käivitamisel
               href: sysadmin/odata-warmup.md
-            - name: Azure'i võtmehoidla klientrakenduse seadistamine
+            - name: Azure'i võtmehoidla klientrakenduse häälestus
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
         - name: 'Täiendused, värskendused ja kiirparandused'
           items:
@@ -1518,6 +1522,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: AX 2012 täiendus – liivakastikeskkondade andmete täiendamine
                   href: migration-upgrade/upgrade-data-sandbox.md
+                - name: AX 2012 täiendus – kohapealsed keskkonnad
+                  href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: AX 2012 täiendus – ülemineku testimine
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: AX 2012 täiendus – täiendamisjärgsed ülesanded
@@ -1618,13 +1624,13 @@
                   href: migration-upgrade/deprecated-features.md
                 - name: Meetodite ja metaandmeelementide aegumine
                   href: migration-upgrade/deprecation-deletion-apis.md
-                - name: Iganenud API-d
+                - name: iganenud API-d
                   href: migration-upgrade/deprecated-apis.md
         - name: Kasutajaliidese arendus
           items:
             - name: Kasutajaliidese arenduse avaleht
               href: user-interface/user-interface-development-home-page.md
-            - name: Õpetused
+            - name: Õppetükid
               items:
                 - name: Renditasu tüübi vormi koostamine
                   href: user-interface/build-rental-charge-type-form.md

@@ -92,8 +92,6 @@
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (juuli 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
-                    - name: Commerce 10.0.10 (mai 2020)
-                      href: get-started/whats-new-commerce-10-0-10.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Finance and Operationsi eemaldatud või iganenud funktsioonid
@@ -182,16 +180,18 @@
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Seansi kuupäeva muutmine
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/commerce/toc.json
-                - name: Kasutaja eelistatud ajavööndi seadistamine
+                - name: Kasutaja eelistatud ajavööndi häälestus
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
                 - name: Teenuse Lifecycle Services ülevaade
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
         - name: Ülesehituse ülevaade
           items:
-            - name: Ülesehitus
+            - name: Arhitektuur
               items:
                 - name: Dynamics 365 Commerce'i ülesehituse ülevaade
                   href: commerce-architecture.md
+                - name: Dynamics 365 Commerce autentimisvoog
+                  href: arch-auth-flow.md
                 - name: Commerce Scale Uniti ülesehitus
                   href: dev-itpro/retail-server-architecture.md
                 - name: Kauplusesisese topoloogia valimine
@@ -264,19 +264,19 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations Commerce'i projektide juurutamine
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-                - name: 'Uute keskkondade, Azure DevOps’i ja Commerce''i projektide harude seadistamine'
+                - name: 'Uute keskkondade, Azure DevOps’i ja Commerce''i projektide harude häälestus'
                   href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
                 - name: Commerce'i projektide koodi ja keskkondade värskendamine
                   href: dev-itpro/updating-environments.md
                 - name: Testimine ja jõudlusprobleemid
                   href: dev-itpro/retail-implementation-testing-performance.md
-        - name: Kanalite seadistamine
+        - name: Kanalite häälestus
           items:
             - name: Kanalite ülevaade
               href: channels-overview.md
             - name: Kanali eeltingimused
               items:
-                - name: Kanali seadistamise eeltingimused
+                - name: Kanali häälestuse eeltingimused
                   href: channels-prerequisites.md
                 - name: Üldised eeltingimused
                   items:
@@ -288,7 +288,7 @@
                           href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json
                         - name: Juriidiliste isikute loomine
                           href: channels-legal-entities.md
-                        - name: Organisatsiooni hierarhiate seadistamine
+                        - name: Organisatsiooni hierarhiate häälestus
                           href: channels-org-hierarchies.md
                         - name: Tootmisüksuse loomine
                           href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json
@@ -306,7 +306,7 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
-                    - name: Meiliteatise profiili seadistamine
+                    - name: Meiliteatise profiili häälestus
                       href: email-notification-profiles.md
                     - name: Numbriseeriad
                       items:
@@ -316,7 +316,7 @@
                           href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/retail/toc.json
                         - name: Numbriseeria häälestamine viisardi abil
                           href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/retail/toc.json
-                    - name: Vaikekliendi ja aadressiraamatu seadistamine
+                    - name: Vaikekliendi ja aadressiraamatu häälestus
                       href: default-customer.md
                 - name: Retaili kanali eeltingimused
                   items:
@@ -332,9 +332,9 @@
                   items:
                     - name: Funktsiooniprofiili loomine võrgus
                       href: online-functionality-profile.md
-            - name: Jaemüügikanali seadistamine
+            - name: Jaemüügikanali häälestus
               items:
-                - name: Jaemüügikanali seadistamine
+                - name: Jaemüügikanali häälestus
                   href: channel-setup-retail.md
                 - name: Jaemüügitöötajate konfigureerimine
                   href: tasks/worker.md
@@ -394,7 +394,7 @@
                           href: Notifications-POS.md
                         - name: Kassarakenduse ja kasutaja keelesätted
                           href: pos-application-user-language-settings.md
-                        - name: Piltide seadistamine ja haldamine MPOS-i jaoks
+                        - name: Piltide häälestus ja haldamine MPOS-i jaoks
                           href: set-up-manage-images-retail-mpos.md
                         - name: Kliendi pildid kassas
                           href: pos-image.md
@@ -412,7 +412,7 @@
                       items:
                         - name: 'MPOS-i konfigureerimine, installimine ja aktiveerimine'
                           href: retail-modern-pos-device-activation.md
-                        - name: Kaasaaegse kassa ja pilve kassa laiendatud sisselogimisfunktsiooni seadistamine
+                        - name: Kaasaaegse kassa ja pilve kassa laiendatud sisselogimisfunktsiooni häälestus
                           href: extended-logon.md
                         - name: Aktiveerimiskontode haldamine ja seadmete kinnitamine
                           href: set-up-activation-accounts-validate-devices-hq.md
@@ -426,7 +426,7 @@
                   href: retail-hardware-station-configuration-installation.md
                 - name: Kviitungid
                   items:
-                    - name: Kviitungi vormingute seadistamine ja kujundamine
+                    - name: Kviitungi vormingute häälestus ja kujundamine
                       href: receipt-templates-printing.md
                     - name: Meilikviitungite saatmine rakendsusest Modern POS (MPOS)
                       href: email-receipts.md
@@ -442,19 +442,19 @@
               items:
                 - name: Võrgukanali häälestamine
                   href: channel-setup-online.md
-            - name: Kõnekeskuse kanali seadistamine
+            - name: Kõnekeskuse kanali häälestus
               items:
                 - name: Kõnekeskuse müügifunktsioonid
                   href: call-center-functionality.md
-                - name: Kõnekeskuse kanali seadistamine
+                - name: Kõnekeskuse kanali häälestus
                   href: channel-setup-callcenter.md
                 - name: Kõnekeskuse kataloogid
                   href: call-center-catalogs.md
-                - name: Kõnekeskuse tellimuse töötlemise suvandite seadistamine
+                - name: Kõnekeskuse tellimuse töötlemise suvandite häälestus
                   href: set-up-order-processing-options.md
                 - name: Kõnekeskuse tarneviiside ja -tasude konfigureerimine
                   href: configure-call-center-delivery.md
-                - name: Pettuseteatiste seadistamine ja nendega töötamine
+                - name: Pettuseteatiste häälestus ja nendega töötamine
                   href: set-up-fraud-alerts.md
             - name: Täiendava kanali konfiguratsioon
               items:
@@ -470,7 +470,7 @@
                       href: pro-rate-charges-matching-lines.md
                 - name: Hallake järjepidevusprogramme
                   items:
-                    - name: Kõnekeskuste järjepidevusprogrammide seadistamine
+                    - name: Kõnekeskuste järjepidevusprogrammide häälestus
                       href: set-up-continuity-program.md
                     - name: Järjepidevuse graafikute määratlemine
                       href: tasks/define-continuity-schedules.md
@@ -490,7 +490,7 @@
                       href: payment-methods.md
                     - name: Makseviisid kõnekeskustes
                       href: work-with-payments.md
-                    - name: 'Krediitkaardi seadistamine, autoriseerimine ja hõivamine'
+                    - name: 'Krediitkaardi häälestus, autoriseerimine ja hõivamine'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
                     - name: Sularaha nimiväärtuste konfigureerimine kassa jaoks
                       href: cash-denominations.md
@@ -506,7 +506,7 @@
                       href: pos-multi-hws.md
                     - name: Kinkekaardi ja krediiditeatise toimingute sujuv jätkamine internetiühenduse katkemise korral
                       href: dev-itpro/seamless-offline-improvements.md
-                    - name: Arve tasumise stsenaariumide seadistamine
+                    - name: Arve tasumise stsenaariumide häälestus
                       href: payinvoice.md
                     - name: Duplikaatmaksete vältimine
                       href: duplicate-payment-protection.md
@@ -658,7 +658,7 @@
                       href: pos-serialized-items.md
                     - name: Toodete jaotamine jaotuskeskusest kauplusse kesklaost jaotuse abil
                       href: tasks/push-products-distribution-center-store-buyers-push.md
-                    - name: Reeglite ja parameetrite seadistamine ristlaadimise ja kesklaost jaotuse jaoks
+                    - name: Reeglite ja parameetrite häälestus ristlaadimise ja kesklaost jaotuse jaoks
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
                     - name: Sissetulev laooperatsioon kassas
                       href: pos-inbound-inventory-operation.md
@@ -698,7 +698,7 @@
               items:
                 - name: Kaupluse tellimuse täitmine
                   href: order-fulfillment-overview.md
-                - name: Kaupluse tellimuse täitmise seadistamine
+                - name: Kaupluse tellimuse täitmise häälestus
                   href: order-fulfillment-pos-setup.md
                 - name: Tellimuse teatiste kuvamine kassas
                   href: notifications-pos.md
@@ -748,12 +748,12 @@
               href: edit-audit-retail-transactions.md
             - name: 'Jaekaupluse jaoks väljavõtete loomine, arvutamine ja sisestamine'
               href: tasks/create-calculate-post-statement-retail-store.md
-            - name: Väljavõtte sisestamisfunktsiooni täiustused
-              href: statement-posting-eod.md
             - name: Vähehaaval toimuv tellimuse loomine kaupluse kannete jaoks
               href: trickle-feed.md
             - name: 'Jaekaupluse jaoks väljavõtete loomine, arvutamine ja sisestamine'
               href: tasks/create-calculate-post-statement-retail-store.md
+            - name: Finantsiline vastavusseviimine jaekauplustes
+              href: fin-recon.md
             - name: Väljavõtte sisestamisfunktsiooni täiustused
               href: statement-posting-eod.md
             - name: Partii jälgimisega kaupade täiustatud käsitlemine
@@ -786,15 +786,13 @@
           items:
             - name: E-poe ülevaade
               href: online-store-overview.md
-            - name: e-Commerce saidi loomine
+            - name: e-kaubanduse saidi loomine
               items:
                 - name: Domeeninime konfigureerimine
                   href: configure-your-domain-name.md
                 - name: Uue e-kaubanduse rentniku juurutamine
                   href: deploy-ecommerce-site.md
-                - name: Võrgupoe kanali häälestamine
-                  href: online-stores.md
-                - name: E-kaubanduse saidi loomine
+                - name: e-kaubanduse saidi loomine
                   href: create-ecommerce-site.md
                 - name: E-kaubanduse saidi seostamine võrgukanaliga
                   href: associate-site-online-store.md
@@ -802,9 +800,9 @@
                   href: manage-robots-txt-files.md
                 - name: Üleslaadimise URL suunab ümber hulgi
                   href: upload-bulk-redirects.md
-                - name: B2C-rentniku seadistamine Commerce'is
+                - name: B2C-rentniku häälestus Commerce'is
                   href: set-up-B2C-tenant.md
-                - name: Kohandatud lehtede seadistamine kasutajate sisselogimise jaoks
+                - name: Kohandatud lehtede häälestus kasutajate sisselogimise jaoks
                   href: custom-pages-user-logins.md
                 - name: Mitme B2C-rentniku konfigureerimine Commerce'i keskkonnas
                   href: configure-multi-B2C-tenants.md
@@ -816,8 +814,6 @@
               items:
                 - name: Avalehe ülevaade
                   href: quick-tour-home-page.md
-                - name: Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
-                  href: category-search-page-overview.md
                 - name: Toote üksikasjade lehe ülevaade
                   href: quick-tour-pdp.md
                 - name: Ostukorvi ja väljaregistreerimise ülevaade
@@ -998,7 +994,7 @@
                       href: add-breadcrumb.md
             - name: Otsing
               items:
-                - name: Kategooria vaikesihtleht ja otsingutulemuste leht
+                - name: Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
                   href: category-search-page-overview.md
                 - name: Pilvepõhise otsingu ülevaade
                   href: cloud-powered-search-overview.md
@@ -1026,13 +1022,13 @@
               href: assess-customer-product-profitability.md
             - name: Kaupluse jõudluse analüüsimine
               href: store-performance-information.md
-            - name: 'Hiljutisuse, sageduse ja rahasumma (RFM) analüüsi seadistamine'
+            - name: 'Hiljutisuse, sageduse ja rahasumma (RFM) analüüsi häälestus'
               href: set-up-rfm-analysis.md
         - name: Globaliseerimine
           items:
             - name: Commerce'i kanali fiskaalüksuse integreerimise ülevaade
               href: localizations/fiscal-integration-for-retail-channel.md
-            - name: Commerce'i kanali fiskaalüksuse integreerimise seadistamine
+            - name: Commerce'i kanali fiskaalüksuse integreerimise häälestus
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Austria
               items:
@@ -1180,7 +1176,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Finantsdimensioonide lisamine koondmõõtmistele
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Analüütiliste aruannete loomine Power BI Desktopi abil
+                - name: Analüütiliste aruannete loomine PowerBI Desktopi abil
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Analüütika lisamine tööruumidele teenuse Power BI Embedded abil
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -1214,7 +1210,7 @@
                       items:
                         - name: (ER) RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/commerce/toc.json
-                        - name: (RCS) Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil
+                        - name: (RCS) Juurdepääs rakenduse metaandmetele ER-i konfiguratsiooni abil
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/commerce/toc.json
                         - name: (RCS) Juurdepääs rakenduse metaandmetele ühendatud rakenduste abil
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/commerce/toc.json
@@ -1484,7 +1480,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Tekst: QRCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Tekst: Text'
+                        - name: 'Tekst: tekst'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
             - name: Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -1518,7 +1514,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
             - name: Elektroonilise aruandluse vormingute muutmine Exceli malle uuesti rakendades
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
-            - name: ER-konfiguratsioonide sõltuvuse määramine teistest komponentidest
+            - name: ER-i konfiguratsioonide sõltuvuse määramine teistest komponentidest
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/commerce/toc.json
             - name: ER-lahenduse kujundamine finantsdimensioonide kasutamiseks
               items:
@@ -1604,13 +1600,13 @@
                   href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                 - name: Konfiguratsioonide importimine
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Elektroonilise aruandluse konfiguratsioonide allalaadimine RCS-hoidlast
+                - name: ER-i konfiguratsioonide allalaadimine RCS-hoidlast
                   items:
                     - name: Konfiguratsioonide allalaadimine RCS-i tüüpi ER-hoidlavormingutest
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfiguratsioonide importimine RCS-ist
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-            - name: Õpetused
+            - name: Õppetükid
               items:
                 - name: Mitme rakenduse tabeli andmete saamiseks kasutage LIITMISE andmete allikaid
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
@@ -1618,7 +1614,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
                 - name: ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
-                - name: ER-vormingu parameetrite seadistamine juriidilise isiku kohta
+                - name: ER-vormingu parameetrite häälestus juriidilise isiku kohta
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
                 - name: ER-vormingu elementide käivitamise edasilükkamine
                   items:
@@ -1862,7 +1858,7 @@
               items:
                 - name: Digitaalallkirjade ülevaade
                   href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Digitaalallkirjade seadistamine
+                - name: Digitaalallkirjade häälestus
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/commerce/toc.json
             - name: Juhtumihaldus
               items:
@@ -2000,6 +1996,8 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Kujunduse sätete konfigureerimine
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Kujunduse laadi eelhäälestuste konfigureerimine
+                      href: e-commerce-extensibility/theme-style-presets.md
                     - name: Kujunduse laiendamine mooduli laienduste lisamiseks
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Kujunduse laiendamine põhiteemast
@@ -2036,6 +2034,8 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: Commerce SDK arenduskonveieri seadistamine
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: Retail SDK KKK
+                  href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Kassa laiendatavus
               items:
                 - name: Kassa ekraanipaigutused
@@ -2046,8 +2046,6 @@
                   href: install-pos-layout-designer.md
                 - name: Kassa topeltkuva laiendamine
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: Kaasaegse kassa ja pilve kassa käivitaja laiendatavus
-                  href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Kohandatud juhtelementide lisamine kassa vaadetele
                   href: dev-itpro/pos-custom-control.md
                 - name: Kassatoimingute lisamine kassa paigutustele nupupaneeli koostaja abil
@@ -2060,7 +2058,7 @@
                   href: dev-itpro/gift-card.md
                 - name: Tootjakohanduse loomine ja rakendamine rakendusele Retail Experience
                   href: dev-itpro/create-retail-experience-app.md
-                - name: Rakenduse POS Hybrid seadistamine Androidis ja iOS-is
+                - name: Rakenduse POS Hybrid häälestus Androidis ja iOS-is
                   href: dev-itpro/hybridApp.md
                 - name: Kassa taotluseohjuri tühistamine
                   href: dev-itpro/pos-handler.md
@@ -2082,7 +2080,7 @@
                   href: dev-itpro/pos-custom-transaction-column.md
                 - name: Kassa APIde või toimingute kutsumine kassa laiendustest
                   href: dev-itpro/pos-api-extension.md
-                - name: Kaasaegse kassa päästikud ja printimine
+                - name: Kaasaegse kassa (MPOS) päästikud ja printimine
                   href: dev-itpro/pos-trigger-printing.md
                 - name: Kohandatud juhtelementide lisamine ekraanivälistele koostajapõhistele kassa vaadetele
                   href: dev-itpro/pos-control-non-screen.md
@@ -2138,7 +2136,7 @@
                   href: dev-itpro/channel-db-extensions.md
                 - name: Laiendi kaudu kohandatud CDX-i sünkroonimise lubamine
                   href: dev-itpro/cdx-extensibility.md
-                - name: Tellimuse atribuutide määratlemine ja seadistamine
+                - name: Tellimuse atribuutide määratlemine ja häälestus
                   href: dev-itpro/order-attributes.md
                 - name: Kliendi atribuudid
                   href: dev-itpro/customer-attributes.md
