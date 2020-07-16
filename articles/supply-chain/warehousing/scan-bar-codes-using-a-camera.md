@@ -1,6 +1,6 @@
 ---
-title: Vöötkoodide skannimine kaamera abil rakenduses Dynamics 365 for Finance and Operations – Warehousing
-description: Selles teemas selgitatakse, kuidas seadistada rakendust Dynamics 365 for Finance and Operations – Warehousing nii, et see võimaldaks mobiilse seadme kaameraga vöötkoode skannida.
+title: Vöötkoodide skannimine kaamera abil laorakenduses
+description: Selles teemas selgitatakse, kuidas seadistada laorakendust nii, et see võimaldaks mobiilse seadme kaameraga vöötkoode skannida.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 01/03/2018
@@ -17,26 +17,26 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 9d3b807b18a0a9c7d24763a2a2a7ea9eccf9c2bb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fd4818ab936e1c93000793da756c97df6d05b2a9
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205851"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530002"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Vöötkoodide skannimine kaamera abil rakenduses Dynamics 365 Supply Chain Management – Ladustamine
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-app"></a>Vöötkoodide skannimine kaamera abil laorakenduses
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas seadistada rakendust Dynamics 365 for Finance and Operations – Warehousing nii, et see võimaldaks mobiilse seadme kaameraga vöötkoode skannida. 
+Selles teemas selgitatakse, kuidas seadistada laorakendust nii, et see võimaldaks mobiilse seadme kaameraga vöötkoode skannida. 
 
 ## <a name="prerequisites"></a>Eeltingimused
-Selle funktsiooni kasutamiseks peab teil olema installitud rakenduse Ladustamine versioon 1.2.0.0 ja teie seadmel peab olema kaamera. Pärast värskendamist rakenduse avamisel palutakse teilt lubada rakendusel kaamerat kasutada. Kui seadmel ei ole kaamerat, siis viibet ei kuvata ja te ei saa kaamerat skannerina kasutada. 
+Selle funktsiooni kasutamiseks peab teil olema installitud laorakenduse versioon 1.2.0.0 ja teie seadmel peab olema kaamera. Pärast värskendamist rakenduse avamisel palutakse teilt lubada rakendusel kaamerat kasutada. Kui seadmel ei ole kaamerat, siis viibet ei kuvata ja te ei saa kaamerat skannerina kasutada. 
 
-## <a name="setup"></a>Seadistamine
-Rakenduse Ladustamine kuvasätetes saate valida, kas kaamerat vöötkoodide skannimiseks kasutada. Kui lubate valiku **Kaamera kasutamine skannerina**, saate kaamerat kasutada igas sisendväljas, mille eelistatud sisestusrežiim on seatud väärtusele **Skannimine**. 
+## <a name="setup"></a>Häälestus
+Laorakenduse kuvasätetes saate valida, kas kaamerat vöötkoodide skannimiseks kasutada. Kui lubate valiku **Kaamera kasutamine skannerina**, saate kaamerat kasutada igas sisendväljas, mille eelistatud sisestusrežiim on seatud väärtusele **Skannimine**. 
 
-Selleks et määrata, kas sisendväli peaks olema skannitav, määrake lehel **rakenduse Ladustamine väljade nimed** **Eelistatud sisestusrežiim** olekusse **Skannimine**. Selle suvandi valimisel saab rakenduses Ladustamine kasutada kaamerat skannimiseks. Teavet, kuidas rakenduses Ladustamine väljanimesid konfigureerida, leiate teemast [Väljanimede konfigureerimine rakenduses Ladustamine](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+Selleks et määrata, kas sisendväli peaks olema skannitav, määrake lehel **rakenduse Ladustamine väljade nimed** **Eelistatud sisestusrežiim** olekusse **Skannimine**. Selle suvandi valimisel saab laorakenduses kasutada kaamerat skannimiseks. Teavet, kuidas rakenduses Ladustamine väljanimesid konfigureerida, leiate teemast [Väljanimede konfigureerimine laorakenduses](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
 
 ## <a name="supported-bar-code-formats"></a>Toetatud vöötkoodivormingud
 Toetatud on levinuimad vöötkoodivormingud, sh kood 128, kood 39, kood 93, EAN-8, EAN-13, UPC-E, UPC-A ja QR-koodid. 

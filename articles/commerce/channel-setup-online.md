@@ -3,7 +3,7 @@ title: Veebikanali häälestamine
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce uus veebikanal.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9b7a2b8fd157df8b39e9e227d188a3802cacb4e3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002423"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533317"
 ---
 # <a name="set-up-an-online-channel"></a>Veebikanali häälestamine
 
@@ -35,9 +35,9 @@ Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Comme
 
 Dynamics 365 Commerce toetab mitut jaemüügikanalit. Jaemüügikanalid hõlmavad võrgupoode, kõnekeskusi ja jaekauplusi (neid nimetatakse ka füüsilisteks kauplusteks). Võrgupoed annavad kliendile võimaluse osta tooteid lisaks oma jaekauplustele ka jaemüüja veebipoest.
 
-Commerce'is veebipoe loomiseks peate esmalt looma võrgukanali. 
+Commerce'is veebipoe loomiseks peate esmalt looma võrgukanali. Enne uue võrgukanali loomist veenduge, et olete lõpuni viinud [Kanali eeltingimuste häälestamise](channels-prerequisites.md).
 
-Enne uue võrgukanali loomist veenduge, et olete lõpuni viinud [Kanali eeltingimuste häälestamise](channels-prerequisites.md).
+Enne uue saidi loomist peab olema rakenduses Commerce loodud vähemalt üks veebipood. Lisateavet leiate teemast [E-kaubanduse saidi loomine](create-ecommerce-site.md).
 
 ## <a name="create-and-configure-a-new-online-channel"></a>Uue võrgukanali loomine ja konfigureerimine
 

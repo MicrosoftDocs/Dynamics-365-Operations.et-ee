@@ -3,7 +3,7 @@ title: Funktsioonihalduse ülevaade
 description: See teema kirjeldab funktsioonihaldust ja kuidas seda kasutada.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/12/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
+ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456593"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499615"
 ---
 # <a name="feature-management-overview"></a>Funktsioonihalduse ülevaade
 
@@ -140,6 +140,10 @@ Järgmistest näidetes kirjeldatakse, mis juhtub, kui kasutate andmete importimi
 ## <a name="feature-management-and-flighting"></a>Funktsioonihaldus ja eelväljaanded
 
 Funktsioonihaldusega saate juhtida igas väljaandes saadetud funktsioone. Eelväljaandega saab Microsoft Teams välja anda funktsioone piiratud arvule klientidele, et neid funktsioone saaks katsetada ja kontrollida kõiki kliente mõjutamata. Funktsioonihaldus ei reguleeri ühtegi eelväljaantud funktsiooni.
+
+## <a name="new-features-are-optional-for-12-months"></a>Uued funktsioonid on valikulised 12 kuu jooksul
+
+Uue mitte-kriitilise funktsiooni installimisel on see 12 kuu jooksul valikuline. See võimaldab planeerida teil ja teie organisatsioonil ette, millal funktsiooni kasutusele võtta ja testida seda koos teie igapäevaste toimingutega. Lisateavet vt teemast [Ühe versiooni teenuse värskenduste KKK](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Funktsioonihalduse kasutamine ISV-funktsioonide või kohandatud funktsioonide sisselülitamiseks
 

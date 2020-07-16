@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 709a75a259b1f8daa5b72e76b56942573c403f43
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261320"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530577"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Ostutellimuste sissetulevate koormate laohaldus
 
@@ -66,7 +66,7 @@ Kui sissetulev koorem saabub lattu, peavad laotöötajad registreerima saadetise
 
 - **Mobiilse seadme menüü, mis on konfigureeritud toetama koorma vastuvõtmist**
 
-    Mobiilsete seadmete jaoks mõeldud rakendus [Dynamics 365 for Finance and Operations – Ladustamine](install-configure-warehousing-app.md) toetab järgmisi töö loomise protsesse.
+    Mobiilsete seadmete jaoks mõeldud [laorakendus](install-configure-warehousing-app.md) toetab järgmisi töö loomise protsesse.
 
     - Vastuvõetav koormas olev kaup
     - Vastuvõetav ja kõrvaleseatav koormas olev kaup
@@ -285,7 +285,7 @@ Nende stsenaariumide kasutamiseks määratud näidiskirjete ja -väärtuste abil
 
 Enne kui lao vastuvõtuametnikud saavad koormaga seotud sissetulevate varude registreerimiseks kasutada mobiilset seadet, peate selleks looma mobiilse seadme menüükäsu.
 
-Selles jaotises loote mobiilse seadme menüükäsu ja lisate selle olemasolevasse menüüsse. Laotöötaja saab seejärel valida menüükäsu rakenduses Ladustamine.
+Selles jaotises loote mobiilse seadme menüükäsu ja lisate selle olemasolevasse menüüsse. Laotöötaja saab seejärel valida menüükäsu laorakenduses.
 
 1. Avage **Laohaldus \> Seadistamine \> Mobiilne seade \> Mobiilse seadme menüükäsud** ja veenduge, et teie mobiilse seadme menüü sisaldab menüükäsku, millel on järgmised sätted.
 

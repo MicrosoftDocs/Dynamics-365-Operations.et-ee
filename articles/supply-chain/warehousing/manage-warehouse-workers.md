@@ -1,6 +1,6 @@
 ---
 title: Laotöötajate haldamine
-description: Selles artiklis kirjeldatakse, kuidas saate kasutada rakendust Dynamics 365 Supply Chain Management – Ladustamine nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
+description: Selles artiklis kirjeldatakse, kuidas saate kasutada laorakendust nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
 author: perlynne
 manager: tfehr
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b143051ba39c74869d2ec56203ee4f1cda7268a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d8e7790fa8ab8d60d0e5fd8eb470d86d6728091b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205571"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530025"
 ---
 # <a name="manage-warehouse-workers"></a>Laotöötajate haldamine
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis kirjeldatakse, kuidas saate kasutada rakendust Dynamics 365 Supply Chain Management – Ladustamine nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
+Selles artiklis kirjeldatakse, kuidas saate kasutada laorakendust nii, et see aitab kontrollida ja jälgida ladude töötajate tehtavat tööd.
 
 Kui kasutate funktsiooni jaotises Laohaldus, viidatakse kõikidele laotöötaja toimingutele sõnaga *töö*. Töö, nagu komplekteerimine, teisaldamine ja vabade laovarude inventuur, salvestatakse mobiilse seadmega. Enne kui laotöötaja saab tööd teha, peab ta olema jaotises Inimressursid töötajaga seostatud. Iga kontoga **Töötaja** võib olla seostatud mitu laotöö kasutajat. Need töökasutajad võivad töötada erinevates ladudes ja neil võib olla erinevatele mobiilse seadme menüüdele erinev juurdepääsutase. Laotöö kasutajatest võib mõelda kui valitud töötaja mitmest logimisnimest. Igal töö kasutajal on vaikeladu ja selle töö kasutajale saadaolevate menüü-üksused kasutavad konkreetseid töövooge. 
 

@@ -3,7 +3,7 @@ title: Varasematest versioonidest eemaldatud või aegunud funktsioonid
 description: Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid planeeritud eemaldamiseks tootest Dynamics 365 for Finance and Operations ja selle varasemast väljalaskest.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
-ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
+ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
+ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284010"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3500408"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasematest versioonidest eemaldatud või aegunud funktsioonid
 
@@ -588,7 +588,7 @@ eGiro põhineb rahvusvahelisel UN EDIFACT CREMUL-i (Multiple Credit Advice Messa
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Maksevormingut enam ei kasutata.                                                     |
-| **Asendatud teise funktsiooniga?**   | Nr Vorming asendatakse tulevastes väljalasetes ISO 20022 väljavõtte impordivormingutega. |
+| **Asendatud teise funktsiooniga?**   | Jah, ISO20022 Camt.054 teatise importimine. |
 | **Mõjutatud tootealad**         | Müügireskontro                                                                       |
 | **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata.                            |
 
@@ -621,7 +621,7 @@ Saate valida Soome maksete puhul impordivormingu, et importida kliendimakse kand
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Maksevormingut enam ei kasutata.                                                     |
-| **Asendatud teise funktsiooniga?**   | Nr Vorming asendatakse tulevastes väljalasetes ISO 20022 väljavõtte impordivormingutega. |
+| **Asendatud teise funktsiooniga?**   | Jah, ISO20022 Camt.054 teatise importimine. |
 | **Mõjutatud tootealad**         | Müügireskontro                                                                       |
 | **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata.                            |
 
@@ -632,7 +632,7 @@ Vormingut, mis on spetsiifiline Soomele, kasutatakse raamatupidamiskannete peara
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Maksevormingut enam ei kasutata.                                                     |
-| **Asendatud teise funktsiooniga?**   | Nr Vorming asendatakse tulevastes väljalasetes ISO 20022 väljavõtte impordivormingutega. |
+| **Asendatud teise funktsiooniga?**   | Jah, ISO20022 Camt.053 pangaväljavõtte importimine täpsema panga vastavusseviimise abil. |
 | **Mõjutatud tootealad**         | Müügireskontro                                                                       |
 | **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata.                            |
 
@@ -698,7 +698,7 @@ Telehansa ja TeleTeenuse vorminguid kasutatakse pangamakse ekspordi jaoks.
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Maksevorminguid enam ei kasutata.                                                    |
-| **Asendatud teise funktsiooniga?**   | Nr Vormingud asendatakse tulevastes väljalasetes ISO 20022 väljavõtte impordivormingutega. |
+| **Asendatud teise funktsiooniga?**   | Jah, ISO20022 Camt.054 panga teatise importimine. |
 | **Mõjutatud tootealad**         | Müügireskontro                                                                        |
 | **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata.                             |
 
@@ -784,7 +784,7 @@ TelePay maksevormingud hõlmavad hankijamakse eksporti (kreeditiülekanne) ja kl
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Maksevorminguid enam ei kasutata.                                                        |
-| **Asendatud teise funktsiooniga?**   | Jah, ISO20022 kreeditiülekande maksevorming ja AvtaleGiro kliendimakse vorming Norra puhul |
+| **Asendatud teise funktsiooniga?**   | Jah, ISO20022 kreeditiülekande maksevorming ja AvtaleGiro kliendi maksevorming Norras, samuti pain.002 ja camt.054 panga teatise tagastusfailide importimine. |
 | **Mõjutatud tootealad**         | Müügireskontro, ostureskontro                                                          |
 | **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata.                                 |
 
@@ -844,7 +844,7 @@ Töövoog töötaja eesmärkide loomise haldamiseks on üks mitmest töövoost, 
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD ja AxBC integratsioonid
 
-Rakenduste integreerimise raamistikus (AIF) saab vahetada andmeid välissüsteemidega äriloogika kaudu, mis on näidatud teenustena. Dynamics AX sisaldab teenuseid, mis põhinevad dokumentidel ja .NET Business Connectoril (AxBC). Dokument luuakse XML-i abil. XML sisaldab päiseteavet, mis lisatakse *sõnumi* loomiseks, mille saab Dynamics AX-i või sealt välja saata. Dokumentide näites on müügitellimused ja ostutellimused. Kuid peaaegu igasugune üksus (nt klient) võib olla kajastatud dokumendiga. Dokumentidel põhinevad teenused kasutavad klasse **Axd \<Dokument\>**.
+Rakenduste integreerimise raamistikus (AIF) saab vahetada andmeid välissüsteemidega äriloogika kaudu, mis on näidatud teenustena. Dynamics AX sisaldab teenuseid, mis põhinevad dokumentidel ja .NET Business Connectoril (AxBC). Dokument luuakse XML-i abil. XML sisaldab päiseteavet, mis lisatakse *sõnumi* loomiseks, mille saab Dynamics AX-i või sealt välja saata. Dokumentide näites on müügitellimused ja ostutellimused. Kuid peaaegu igasugune üksus (nt klient) võib olla kajastatud dokumendiga. Dokumentidel põhinevad teenused kasutavad klasse **Axd \<Document\>**.
 
 |   |  |
 |------------|--------------------|
@@ -1125,13 +1125,13 @@ Eelpäringu loomine pole partii abil võimalik, kuid kasutaja saab seda siiski t
 | **Mõjutatud tootealad**         | Kõik moodulid  |
 | **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata. |
 
-### <a name="german-dtazv-payment-format"></a>Saksamaa DTAZV maksevorming
+### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Saksamaa maksevorming DTAZV kohalikus valuutas
 
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | See vorming ei kehti enam Saksamaal, kuna see on asendatud SEPA funktsiooniga. |
 | **Asendatud teise funktsiooniga?**   | SEPA maksete eksport    |
-| **Mõjutatud tootealad**         | Kõik moodulid   |
+| **Mõjutatud tootealad**         | Ostureskontro   |
 | **Olek**                         | Aegunud: selle funktsiooni eemaldamiskuupäev on määramata.    |
 
 ### <a name="german-mt940-import"></a>Saksa MT940 importimine

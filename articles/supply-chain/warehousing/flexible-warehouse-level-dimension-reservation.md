@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346464"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530301"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Paindliku laotaseme dimensiooni reserveerimise poliitika
 
@@ -186,7 +186,7 @@ Selle näite jaoks peavad olema installitud demoandmed ja peate kasutama demoand
 
     Kogus **10** on nüüd partiinumbri **B11** jaoks müügireale komplekteeritud ja asukohta **Baydoor** pandud. Sel hetkel on see veokile laadimiseks ja kliendi aadressile lähetamiseks valmis.
 
-## <a name="exception-handling-of-warehouse-work-thas-has-order-committed-batch-numbers"></a>Tellitud ja kooskõlastatud partiinumbritega laotööde ülevaatamise ja töötlemise erandid
+## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>Tellitud ja kooskõlastatud partiinumbritega laotööde ülevaatamise ja töötlemise erandid
 
 Laotöö komplekteerimiseks tellitud partii numbrite suhtes kehtivad samad standardse lao erandi käsitlemise protsessid ja toimingud, mis tavatöö puhul. Üldiselt saab avatud töö või töörea tühistada ja katkestada, kui kasutaja asukoht on täis, see võib olla lühike-komplekteeritud ja seda saab liikumise tõttu uuendada. Samuti saab vähendada juba lõpetatud töö komplekteeritud kogust või seda tööd muuta.
 
@@ -233,7 +233,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Valige suvand <strong>Alista asukoht</strong> ladustamisrakenduses, kui käivitate töö komplekteerimise.</li>
+<li>Valige suvand <strong>Alista asukoht</strong> laorakenduses, kui käivitate töö komplekteerimise.</li>
 <li>Valige <strong>Soovita</strong>.</li>
 <li>Kinnitage uus asukoht, mis on soovitatud partii koguse kättesaadavuse alusel.</li>
 </ol>
@@ -250,7 +250,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Ei</td>
 <td>
 <ol>
-<li>Valige suvand <strong>Alista asukoht</strong> ladustamisrakenduses, kui käivitate töö komplekteerimise.</li>
+<li>Valige suvand <strong>Alista asukoht</strong> laorakenduses, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage asukoht käsitsi.</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Pole kohaldatav</td>
 <td>
 <ol>
-<li>Valige ladustamisrakenduses menüüsuvand <strong>Täis</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige laorakenduses menüüsuvand <strong>Täis</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Komplekteeri kogus</strong> nõutava komplekteerimise osaline kogus, et näidata kogu võimsust.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Alustage teisaldamist ladustamisrakenduses.</li>
+<li>Alustage teisaldamist laorakenduses.</li>
 <li>Sisestage alg- ja lõppasukohad.</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Valige ladustamisrakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige laorakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Väljale <strong>Põhjus</strong> sisestage väärtus <strong>Ümberjaotamine puudub</strong>.</li>
 </ol>
@@ -498,7 +498,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Valige ladustamisrakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige laorakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Väljale <strong>Põhjus</strong> sisestage väärtus <strong>Ümberjaotamine puudub</strong>.</li>
 </ol>
@@ -522,7 +522,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Jah</td>
 <td>
 <ol>
-<li>Valige ladustamisrakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige laorakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Lühikese komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Valige väljal <strong>Põhjus</strong> suvand <strong>Lühike komplekteerimine koos käsitsi ümberjaotamisega</strong>.</li>
 <li>Valige loendist asukoht/litsentsiplaat.</li>
@@ -548,7 +548,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Ei</td>
 <td>
 <ol>
-<li>Valige ladustamisrakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige laorakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Lühikese komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Valige väljal <strong>Põhjus</strong> suvand <strong>Lühike komplekteerimine koos käsitsi ümberjaotamisega</strong>.</li>
 </ol>
@@ -561,7 +561,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Ei</td>
 <td>
 <ol>
-<li>Valige ladustamisrakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige laorakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Lühikese komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Valige väljal <strong>Põhjus</strong> suvand <strong>Lühike komplekteerimine koos käsitsi ümberjaotamisega</strong>.</li>
 <li>Valige loendist asukoht/litsentsiplaat.</li>
@@ -585,7 +585,7 @@ Järgmised tabelid annavad ülevaate sellest, kuidas süsteem käsitleb kindla l
 <td>Pole kohaldatav</td>
 <td>
 <ol>
-<li>Valige ladustamisrakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
+<li>Valige laorakenduses menüüsuvand <strong>Lühike komplekteerimine</strong>, kui käivitate töö komplekteerimise.</li>
 <li>Sisestage väljale <strong>Lühikese komplekteerimise kogus</strong> väärtus <strong>0</strong> (null).</li>
 <li>Valige väljal <strong>Põhjus</strong> suvand <strong>Lühike komplekteerimine koos automaatse ümberjaotamisega</strong>.</li>
 </ol>

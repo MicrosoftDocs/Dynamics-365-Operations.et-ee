@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: c397354ade1ac1d4f5f9bc0e6bb5d4be5a7ae9f3
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175150"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505607"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Omnikanali täpsemad automaatsed kulud
 
@@ -40,7 +40,7 @@ Varasemate versioonide kui 10.0 kasutamisel palutakse kassa kasutajal sisestada 
 
 Versioonis 10.0 ja uuemates on endiselt võimalik kasutada saatekulude lisamiseks käsitsi viipasid. Kui organisatsioon ei luba parameetrit **Täpsemad automaatsed kulud**, jäävad kassa viibad kulude käsitsi sisestamiseks samaks.
 
-Täpsemate automaatsete kulude funktsioon pakub kassa kasutajatele automaatsete kulude seadistustabelite põhjal süstemaatilisi arvutusi mis tahes määratletud kulude puhul. Peale selle on kasutajatel võimalik lisada või redigeerida piiramatut summat lisakulusid ja -tasusid mis tahes kassa müügikandele päise- või reatasandil (sularaha või klienditellimuse puhul).
+Täpsemate automaatsete kulude funktsioon pakub kassa kasutajatele automaatsete kulude seadistustabelite põhjal süstemaatilisi arvutusi mis tahes määratletud kulude puhul. Peale selle on kasutajatel võimalik lisada või redigeerida piiramatut arvu lisakulusid ja -tasusid mis tahes kassa müügikandele päise- või reatasandil (sularaha või klienditellimuse puhul).
 
 ## <a name="enabling-advanced-auto-charges"></a>Täpsemate automaatsete kulude lubamine
 
@@ -52,7 +52,7 @@ Kui täpsemad automaatsed kulud on lubatud, ei paluta kasutajatel klienditellimu
 
 Kui täpsemad automaatsed kulud on lubatud, ei kasutata olemasolevat suvandit **Kaubanduse parameetrit** enam valikute **Saatekulude kood** ja **Saatekulude tagasimakse** puhul. Need parameetrid kohalduvad ainult siis, kui parameetri **Kasuta täpsemaid automaatseid kulusid** sätteks on valitud **Ei**.
 
-Enne selle funktsiooni lubamist veenduge, et teie töötajad oleksid läbinud koolituse ja testid, kuna see muudab äriprotsessi voogu saate- või muude kulude arvutamise ja kassa müügitellimuste lisamise meetodis. Veenduge, et mõistaksite protsessivoo mõju kassast kannete loomisele. Kõnekeskuse ja e-kaubanduse tellimuste puhul on täpsemate automaatsete kulude lubamise mõju minimaalne. Kõnekeskuse ja e-kaubanduse rakendustel on endiselt sama käitumine, mis neil oli varem seoses automaatsete kulude tabelitega tellimuse lisatasude arvutamisel. Kõnekeskuse kanali kasutajatel on endiselt võimalik redigeerida päise- või reatasemel käsitsi mis tahes süsteemi arvutatud automaatseid kulusid või lisada päise- või reatasemel käsitsi mis tahes lisakulusid.
+Enne selle funktsiooni lubamist veenduge, et teie töötajad oleksid läbinud koolituse ja testid, kuna lubatud funktsioon muudab äriprotsessi voogu saate- või muude kulude arvutamise ja kassa müügitellimuste lisamise meetodis. Veenduge, et mõistaksite protsessivoo mõju kassast kannete loomisele. Kõnekeskuse ja e-kaubanduse tellimuste puhul on täpsemate automaatsete kulude lubamise mõju minimaalne. Kõnekeskuse ja e-kaubanduse rakendustel on endiselt sama käitumine, mis neil oli varem seoses automaatsete kulude tabelitega tellimuse lisatasude arvutamisel. Kõnekeskuse kanali kasutajatel on endiselt võimalik redigeerida päise- või reatasemel käsitsi mis tahes süsteemi arvutatud automaatseid kulusid või lisada päise- või reatasemel käsitsi mis tahes lisakulusid.
 
 ## <a name="additional-pos-operations"></a>Kassa lisatoimingud
 
@@ -89,7 +89,7 @@ Konfigureerige kaks erinevat päisetasemel automaatset kulu. Konfigureerige üks
 
 Maismaatranspordi kulude puhul määratlege lehe **Automaatsed kulud** ridade jaotises kulu, mis rakendatakse tellimustele väärtusevahemikus 0,01 kuni 100 eurot, väärtuseks 10,00 eurot. Looge veel üks kulurida näitamaks, et tellimustele üle 100,01 eurot kulu ei kohaldu.
 
-![Automaatsete kulude näide](media/headerchargesexample.png)
+![Kahe automaatsete kulude tabeli näited](media/headerchargesexample.png)
 
 Õhutranspordi kulude puhul määratlege lehe Automaatsed kulud ridade jaotises kõigile tellimustele (väärtusevahemikus 0,01 kuni 9 999 999 eurot kulu 20,00 eurot).
 
@@ -119,7 +119,7 @@ Minge jaotisse **Müügireskontro \> Kulude seadistus \> Automaatsed kulud**.
 
 Valige rippmenüüst **Tase** suvand **Rida** ja looge uus automaatsete kulude kirje kõigile klientidele ning kindlale tootele või tooterühmale, mille puhul kohaldub seadistustasu.
 
-![Automaatsete kulude näide](media/linechargesexample.png)
+![Ühe reataseme automaatsete kulude tabeli näide](media/linechargesexample.png)
 
 Saatke tasud Commerce’i skaala üksusesse / kanali andmebaasi nii, et kassa saaks neid kasutada, käivitades töö **1040 jaotusgraafik**.
 
@@ -173,7 +173,7 @@ Toiming **Reakulu lisamine** tuleb konfigureerida [kassa ekraanipaigutuses](http
 
 Stsenaariumi käivitamiseks kassarakenduses loob kassa kasutaja müügikande tavapärasel viisil, lisades müügile tooted ja mis tahes muud konfiguratsioonid. Enne makse kogumist peab kasutaja valima kassa kaubaloendi kuval konkreetse rea, millele kulu kohaldub, ja käivitama toimingu **Reakulu lisamine**. Kasutajal palutakse valida kulukood ja sisestada kulu väärtus. Kui kasutaja on protsessi lõpule viinud, seotakse kulu reaga ja lisatakse tellimuse kogusummale reatasemel kuluna. Kasutaja saab protsessi korrata, et lisada vajaduse korral täiendavaid reakulusid kande teistele kaubaridadele.
 
-Sama protsessi saab rakendada kõnekeskuses, kasutades kulude haldamise funktsiooni, mille leiate lehe **Müügitellimus** jaotises **Müügitellimuse read** rippmenüüst **Finantsid**. See avab lehe **Kulude haldamine**, kus kasutaja saab lisada kandele uue reakohase kulu.
+Sama protsessi saab rakendada kõnekeskuses, kasutades kulude haldamise funktsiooni, mille leiate lehe **Müügitellimus** jaotises **Müügitellimuse read** rippmenüüst **Finantsid**. Selle suvandi valimine avab lehe **Kulude haldamine**, kus kasutaja saab lisada kandele uue reakohase kulu.
 
 ## <a name="additional-features"></a>Lisafunktsioonid
 

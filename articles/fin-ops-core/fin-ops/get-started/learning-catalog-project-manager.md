@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7521784931cc4aac5a7e7729d045e501cba9460e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: b310b787906850a60c9e2a453ce2d13330dad212
+ms.sourcegitcommit: 26399aafe2b02732c79073455f5bc9ac07bab4b4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278968"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "3502109"
 ---
 # <a name="implementation-project-manager-learning-catalog"></a>Projektijuhi õppekataloogi juurutamine
 
@@ -29,7 +29,7 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 | Sisu | Kirjeldus  | Vorming  | Pikkus    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
 | [Microsoft Dynamics 365 ja Power Platformi äriväärtustega tutvumine](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Kas olete huvitatud ärirakendustest? Kas te pole kindel, kuidas alustada Microsoft Dynamics 365 ja Power Platformi rakenduste kasutamist? Õppige, kuidas ärirakenduste kasutamine võib aidata teil oma ettevõtet muuta. | Tasuta iseläbitav internetipõhine õppetee   | 7 tundi   |
-| [Dynamics 365 ja Power Platformi põhisätted](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/ | Kas olete huvitatud ärirakendustest? Alustage sellest õppeteest, et näha, kuidas Dynamics 365 rakendusi kasutatakse. Siit leiate teavet pilvkeskkonna kontseptsioonide, Power Platformi ja Dynamics 365 rakendustega töötamise alustamise kohta. | Tasuta iseläbitav internetipõhine õppetee   | 5.5 tundi |
+| [Dynamics 365 ja Power Platformi põhisätted](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Kas olete huvitatud ärirakendustest? Alustage sellest õppeteest, et näha, kuidas Dynamics 365 rakendusi kasutatakse. Siit leiate teavet pilvkeskkonna kontseptsioonide, Power Platformi ja Dynamics 365 rakendustega töötamise alustamise kohta. | Tasuta iseläbitav internetipõhine õppetee   | 5.5 tundi |
 | [Finance and Operationsi rakenduste kasutamise alustamine](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)  | Siit leiate teavet selle kohta, kuidas Finance and Operationsi rakendused toetavad ettevõtteid globaalsete finantssüsteemide, tööprotsesside ja sujuvate tarneahelate haldamisel, et võimaldada kiirete ja teadlike otsuste tegemist. Esimese sammuna Finance and Operationsi rakendustega töötamisel peate tutvuma selle funktsioonidega, sõltumata teie rollist. | Tasuta iseläbitav internetipõhine õppetee   | 2 tundi   |
 | [Enne ostmist](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy)  | Uurige üksikasjalikke juhiseid, kui te alles kaalute Finance and Operationsit või olete valmis seda ostma.| Dokumentatsioon  |           |
 | [Väljaandmisplaan](https://docs.microsoft.com/dynamics365/release-plans/)  | Hankige teavet Dynamics 365 uusimate võimaluste ja täiustuste kohta  | Dokumentatsioon  |           |

@@ -1,9 +1,9 @@
 ---
 title: Pilvepõhise otsingu ülevaade
 description: See teema annab rakenduse Microsoft Dynamics 365 Commerce pilvepõhise otsingu ülevaate.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057829"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527439"
 ---
 # <a name="cloud-powered-search-overview"></a>Pilvepõhise otsingu ülevaade
 
@@ -73,8 +73,12 @@ Järgmisel joonisel on kujutatud näide, kus kasutatakse kõikehõlmavaid automa
 
 Rakenduse Dynamics 365 Commerce täiustatud sortimine võimaldab klientidel sortida, otsida ja sirvida otsingutulemusi ning täpsustada neid kriteeriumite põhjal, nagu hind, toote nimi ja tootenumber. Kliendid saavad lisaks sorteerida tulemusi selle põhjal, kas toode on uus, suurima läbimüügiga või hiljuti lisatud.
 
+>[!NOTE]
+>Need pilvepõhised otsinguvõimalused on saadaval alates versioonist 10.0.8. Veenduge, et jaotises **Kaubanduse parameetrid > konfiguratsiooniparameetrid** on kirje ProductSearch.UseAzureSearch väärtuseks määratud „tõene”. 
+![Pilvepõhise otsingu konfiguratsiooniparameetrid](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Kategooria vaikesihtleht ja otsingutulemuste leht](category-search-page-overview.md)
+[Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade](category-search-page-overview.md)
 
 [SEO metaandmete haldamine](manage-seo-metadata.md)

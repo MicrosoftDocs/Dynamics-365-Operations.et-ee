@@ -3,7 +3,7 @@ title: Määrade konfigureerimine
 description: Rakenduse Microsoft Dynamics 365 Human Resources määrad määratlevad, kui suure panuse tööandjad ja töövõtjad soodustusele annavad.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c90a45b79f2a383f0ace0cb07e791f6613d7a3c3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
+ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429907"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497352"
 ---
 # <a name="configure-rates"></a>Määrade konfigureerimine
 
@@ -75,15 +75,15 @@ Saate kasutada ka topelttasemeid. Kui valite suvandi **Topelttase** väärtuse *
 
 3. Määrake järgmiste väljade väärtused.
 
-   | Väli | Kirjeldus |
+   | Field | Kirjeldus |
    | --- | --- | 
-   | **Kirjeldus** | Välja Kirjeldus väärtus rakendatakse määra seadistamise kirje kirjeldusest. See aitab teil tuvastada, milliste määra seadistustega taseme määrad on ühendatud. |
+   | **Kirjeldus** | Välja **Kirjeldus** väärtus rakendatakse määra seadistamise kirje kirjeldusest. See aitab teil tuvastada, milliste määra seadistustega taseme määrad on ühendatud. |
    | **Järgukood** | Valige taseme kood. Taseme koodid määratletakse vormil Taseme koodid. Süsteem kuvab automaatselt taseme koodide kirjelduse vasakpoolses ruudustikus. |
-   | **Järgu tüüp** | Määrab, millist välja tuleks kasutada taseme määra arvutamise protsessi valiku kriteeriumina. Näide:</br></br><ul><li>Kui kasutatakse suvandit Vanus, kasutab süsteem soodustuse määra arvutamise protsessis töövõtja sünnikuupäeva.</li><li>Kui kasutatakse suvandit Palk, kasutab süsteem soodustuse määra arvutamise protsessis aastast soodustuse palka.</li><li>Kui kasutatakse suvandit Töö tüüp, kasutab süsteem töövõtja praeguse aktiivse ametikoha kirjet, et määrata töö tüüp ametikohaga ühendatud töö kirje alusel.</li></ul></br></br>Taseme tüübid on Vanus, Palk, Füüsiline, Sugu, Täistööaja vaste, Töö tüüp, Hüvituspiirkond ja Tase. | 
-   | **Tase** | Väärtus, mida kasutatakse soodustuse arvutamise protsessi ajal koos taseme tüübiga. Näide:</br></br><ul><li>Kui taseme tüüp on Vanus, on see vanuse väärtus.</li><li>Kui taseme tüüp on Palk, on see palga summa.</li><li> Kui taseme tüüp on Töö tüüp, on see töö tüüp.</li></ul></br></br>Taseme tüüpidega Vanus või Palk kasuta süsteem taseme määra valikul tõusvat lähenemist, mis tähendab, et välja Tase väärtus tähistab taseme alampiiri. Kui taseme tüüp on Töö tüüp, kasutab süsteem taseme määra valimisel täpse vaste lähenemisviisi. |
+   | **Järgu tüüp** | Määrab, millist välja tuleks kasutada taseme määra arvutamise protsessi valiku kriteeriumina. Näide:</br></br><ul><li>Kui kasutatakse suvandit **Vanus**, kasutab süsteem soodustuse määra arvutamise protsessis töövõtja sünnikuupäeva.</li><li>Kui kasutatakse suvandit **Palk**, kasutab süsteem soodustuse määra arvutamise protsessis aastast soodustuse palka.</li><li>Kui kasutatakse suvandit **Töö tüüp**, kasutab süsteem töövõtja praeguse aktiivse ametikoha kirjet, et määrata töö tüüp ametikohaga ühendatud töö kirje alusel.</li></ul></br></br>Taseme tüübid on **Vanus**, **Palk**, **Füüsiline**, **Sugu**, **Täistööaja vaste**, **Töö tüüp**, **Hüvituspiirkond** ja **Tase**. | 
+   | **Tase** | Väärtus, mida kasutatakse soodustuse arvutamise protsessi ajal koos taseme tüübiga. Näide:</br></br><ul><li>Kui taseme tüüp on **Vanus**, on see vanuse väärtus.</li><li>Kui taseme tüüp on **Palk**, on see palga summa.</li><li> Kui taseme tüüp on **Töö tüüp**, on see töö tüüp.</li></ul></br></br>Taseme tüübi **Vanus** või **Palk** puhul tähistab välja **Tase** väärtus taseme ülemist piiri. Kui taseme tüüp on **Töö tüüp**, kasutab süsteem taseme määra valimisel täpse vaste lähenemisviisi. |
    | **Arvutuse tüüp** | Määrab, kuidas kasutada summat arvutussumma väljal ja millist matemaatilist arvutust vajadusel teha. Kui arvutamise tüüp on kindel summa, kasutab süsteem summa väljasid samal kujul. Kui arvutamise tüüp on palga või katvuse summa kohta, kasutab süsteem matemaatilises arvutuses arvutuse summat ja arvutuse suunda.</br></br>Kui arvutamise tüüp on palga summa kohta, kasutab süsteem järgmist matemaatilist võrrandit:</br></br>aastane soodustuse palk jagatud arvutuse summaga (ümardatud üles- või allapoole), korrutatud töövõtja või tööandja suitsetaja või mittesuitsetaja summadega.</br></br>Kui arvutamise tüüp on katvuse summa kohta, kasutab süsteem järgmist matemaatilist võrrandit:</br></br>katvuse summa jagatud arvutuse summaga (ümardatud üles- või allapoole), korrutatud töövõtja või tööandja suitsetaja või mittesuitsetaja summadega.</br></br>Mõlemas arvutuses kasutatakse arvutamise suunda, et määrata, kas ümardada arvutuse summaga jagatav aastase soodustuse palk või katvuse summa üles- või allapoole. |
    | **Arvutamissumma** | Soodustuse määra arvutamise toimingu ajal kasutatav summa. See summa saab olema taseme määra matemaatilise arvutamise ajal jagaja. |
-   | **Arvutuse suund** | Suund (suurendada või vähendada), kuhu suunas arvutatud tulemuse summat tuleb ümardada. Süsteem toetab kolme arvutuse suunda: tühi (täpne meetod), suurenemine ja vähenemine.</br></br><ul><li>Kui väli on tühi, kasutab süsteem arvutamise summaga jagatava palga/katvuse summa täpset arvutust. Kui sellel väärtusel on murd, kasutab süsteem seda oma arvutustes.</li><li>Suurendamise korral suurendab süsteem arvutamise summaga jagatava palga/katvuse summa matemaatilise arvutuse järgmise täisarvuni, mis tähendab, et 12,25 suureneks 13-ni.</li><li>Vähendamise korral vähendab süsteem arvutamise summaga jagatava palga/katvuse summa matemaatilise arvutuse praeguse täisarvuni, mis tähendab, et 12,25 väheneks 12-ni.</li></ul> |
+   | **Arvutuse suund** | Suund, kuhu suunas arvutatud tulemuse summat tuleb ümardada. Süsteem toetab kolme arvutuse suunda: tühi (täpne meetod), **suurenemine** ja **vähenemine**.</br></br><ul><li>Kui väli on tühi, kasutab süsteem arvutamise summaga jagatava palga/katvuse summa täpset arvutust. Kui sellel väärtusel on murd, kasutab süsteem seda oma arvutustes.</li><li>**Suurendamise** korral suurendab süsteem arvutamise summaga jagatava palga/katvuse summa matemaatilise arvutuse järgmise täisarvuni, mis tähendab, et 12,25 suureneks 13-ni.</li><li>**Vähendamise** korral vähendab süsteem arvutamise summaga jagatava palga/katvuse summa matemaatilise arvutuse praeguse täisarvuni, mis tähendab, et 12,25 väheneks 12-ni.</li></ul> |
    | **Mittesuitsetaja töövõtja summa** | Summa, mille hüvitise pakkuja küsib mittesuitsetava töövõtja eest. See on summa, mille töövõtja maksab soodustuse pakkujale, ja see peaks põhinema määra seadistuse maksesagedusel. |
    | **Mittesuitsetaja tööandja summa** | Summa, mille hüvitise pakkuja küsib mittesuitsetava töövõtja eest. See on summa, mille töövõtja maksab soodustuse pakkujale, ja see peaks põhinema määra seadistuse maksesagedusel. |
    | **Suitsetaja töövõtja summa** | Summa, mille hüvitise pakkuja küsib mittesuitsetava töövõtja eest. See on summa, mille töövõtja maksab soodustuse pakkujale, ja see peaks põhinema määra seadistuse maksesagedusel. |
