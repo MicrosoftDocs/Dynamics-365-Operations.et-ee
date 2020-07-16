@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 25. juuni 2020
+          href: hr-whats-new-2020-06-23.md
         - name: 11. juuni 2020
           href: hr-whats-new-2020-06-11.md
         - name: 28. mai 2020
@@ -43,7 +45,7 @@
           href: hr-admin-overview.md
         - name: Süsteeminõuded
           href: hr-admin-system-requirements.md
-        - name: Eksemplaride seadistamine ja haldamine
+        - name: Eksemplaride häälestus ja haldamine
           items:
             - name: Human Resources ettevalmistus
               href: hr-admin-setup-provision.md
@@ -117,7 +119,7 @@
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
             - name: Seansi kuupäeva muutmine
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
-            - name: Kasutaja eelistatud ajavööndi seadistamine
+            - name: Kasutaja eelistatud ajavööndi häälestus
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
             - name: Teenuse Lifecycle Services ülevaade
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
@@ -141,6 +143,8 @@
           items:
             - name: Toe hankimine
               href: hr-admin-troubleshooting-support.md
+            - name: Jõudluse optimeerimine pakett-tööde planeerimisel pärast tööaega
+              href: hr-admin-troubleshooting-batch-jobs.md
             - name: Jõudluse optimeerimine automaatsete puhastamisülesannetega
               href: hr-admin-troubleshooting-batch-history.md
             - name: Analüütilisi aruandeid ei värskendata
@@ -335,7 +339,7 @@
               items:
                 - name: Digitaalallkirjade ülevaade
                   href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Digitaalallkirjade seadistamine
+                - name: Digitaalallkirjade häälestus
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: Juhtumihaldus
               items:
@@ -361,7 +365,7 @@
           items:
             - name: Tööjõu korraldamine
               href: hr-personnel-departments-jobs-positions.md
-            - name: Töö komponentide seadistamine
+            - name: Töö komponentide häälestus
               href: hr-personnel-jobs.md
             - name: Osakondade määratlemine
               href: hr-personnel-define-departments.md
@@ -393,7 +397,7 @@
               href: hr-personnel-mass-hire-projects.md
             - name: Hulgivärbamisprojekti loomine
               href: hr-personnel-create-mass-hire-project.md
-            - name: Ametikohtade seadistamine
+            - name: Ametikohtade häälestus
               href: hr-personnel-set-up-positions.md
             - name: Saate häälestada vigastuste ja haiguste teavet
               href: hr-personnel-set-up-injury-illness-information.md
@@ -403,7 +407,7 @@
           items:
             - name: Kompensatsiooniplaanide ülevaade
               href: hr-compensation-overview.md
-            - name: Hüvitusruudustike seadistamine
+            - name: Hüvitusruudustike häälestus
               href: hr-compensation-grids.md
             - name: Kompensatsiooni struktuuri ja plaani arendamine
               href: hr-compensation-structure.md
@@ -453,7 +457,7 @@
                       href: hr-benefits-setup-waiting-days.md
                     - name: Ooteperioodide konfigureerimine
                       href: hr-benefits-setup-waiting-periods.md
-                    - name: Ümardamisreeglite seadistamine
+                    - name: Ümardamisreeglite häälestus
                       href: hr-benefits-setup-rounding-rules.md
                     - name: Töötajate kategooriate loomine
                       href: hr-benefits-setup-employment-categories.md
@@ -463,9 +467,9 @@
                       href: hr-benefits-setup-employee-self-service.md
                 - name: Soodustusplaanide loomine
                   items:
-                    - name: Soodustusplaanide seadistamine
+                    - name: Soodustusplaanide häälestus
                       href: hr-benefits-plans-setup.md
-                    - name: Paindkrediidi programmide seadistamine
+                    - name: Paindkrediidi programmide häälestus
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: Soodustusplaanide töötlemine
                   items:
@@ -549,7 +553,7 @@
               href: hr-develop-create-performance-review.md
         - name: Kursuste loomine
           items:
-            - name: Koolituskursuste seadistamine
+            - name: Koolituskursuste häälestus
               href: hr-learning-courses.md
             - name: Küsimustike ülevaade
               href: hr-learning-questionnaires.md
@@ -569,7 +573,7 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Loo sõltuv küsimus
               href: hr-learning-depending-question.md
-        - name: Töövõtja ja juhataja iseteeninduskeskuse seadistamine
+        - name: Töövõtja ja juhataja iseteeninduskeskuse häälestus
           items:
             - name: Töövõtja ja juhataja iseteeninduskeskuse ülevaade
               href: hr-employee-manager-self-service-overview.md
