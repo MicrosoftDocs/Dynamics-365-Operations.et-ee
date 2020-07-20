@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 290888dbf7d194b8cf259d7218d01d4a4f911db0
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367078"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530071"
 ---
-# <a name="install-and-connect-the-warehousing-app"></a>Laorakenduse installimine ja ühendamine
+# <a name="install-and-connect-the-warehouse-app"></a>Laorakenduse installimine ja ühendamine
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,7 +47,7 @@ Laorakendus on saadaval nii Windowsi kui ka Androidi operatsioonisüsteemides. R
 > [!NOTE]
 > Kui peate toetama vanemaid Windowsi seadmeid, mis ei saa käitada Windowsi uusimat versiooni, saate siiski Microsoft Store'ist laorakenduse versiooni 1.6.3.0 alla laadida. See versioon töötab Windows 10 (UWP) novembri värskendusega 1511 (versioonijärk 10.0.10586) või uuemaga. Pidage siiski meeles, et see laorakenduse versioon ei toeta ühenduse sätete hulgijuurutamist. Seetõttu peate [konfigureerima ühenduse käsitsi](#config-manually) kõigis seadmeis, mis käitavad rakenduse seda versiooni.
 
-## <a name="get-the-warehousing-app"></a>Laorakenduse hankimine
+## <a name="get-the-warehouse-app"></a>Laorakenduse hankimine
 
 Rakenduse allalaadimiseks saate kasutada ühte järgmistest linkidest.
 

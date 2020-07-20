@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5a751b360b2da8f786dd7b8d139e1a0a44052894
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211970"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530531"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Tegeliku kaalu toote protsess laohalduse abil
 
@@ -107,7 +107,7 @@ Lisaks, kui kaup on sildiga jälgitav, on olemas parameeter **Väljamineva sildi
 **Tegeliku kaalu jälgimise kasutamisel** tuleb silt alati luua iga sissetuleva tegeliku kaalu ühiku jaoks ja iga silt tuleb alati seostada kaaluga.
 
 Näiteks on tegeliku kaalu ühik **kast** ja te saate ühe kaubaaluse kaheksa kastiga. Sel juhul tuleb luua kaheksa kordumatut tegeliku kaalu silti ja kaal tuleb seostada iga sildiga. Olenevalt sissetuleva tegeliku kaalu sildist saab registreerida kas kõigi kaheksa kasti kaalu ja jaotada igale kastile keskmise kaalu või registreerida iga kasti jaoks kordumatu kaalu.
-Kui kasutate funktsiooni **Kasuta olemasolevaid tegeliku kaalu silte tootmistellimuste kinnitamisel lõpetatuna** , kui protsess on lubatud mobiilseadme menüükäsuga, uuendatakse varud olemasoleva tegeliku kaalu sildi teabe alusel. Selle tulemusena ei viipa ladustamisrakendus hõivata tegeliku kaalu sildi andmeid tootmisaruande osa lõpetatud toiminguna.
+Kui kasutate funktsiooni **Kasuta olemasolevaid tegeliku kaalu silte tootmistellimuste kinnitamisel lõpetatuna** , kui protsess on lubatud mobiilseadme menüükäsuga, uuendatakse varud olemasoleva tegeliku kaalu sildi teabe alusel. Selle tulemusena ei viipa laorakendus hõivata tegeliku kaalu sildi andmeid tootmisaruande osa lõpetatud toiminguna.
 
 **Kui tegeliku kaalu sildi jälgimist ei kasutata**, saab kaalu registreerida iga dimensioonikogumi kohta (nt iga litsentsiplaadi ja jälgimisdimensiooni kohta). Samuti on võimalik kaal registreerida koondtaseme, näiteks viie litsentsiplaadi (kaubaaluse), põhjal.
 

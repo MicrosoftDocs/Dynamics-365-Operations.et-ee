@@ -60,7 +60,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Rakendused Finance and Operations, mida käitab 21Vianet Hiinas'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operationsi rakendused Prantsusmaal
+                - name: Rakendused Finance and Operations Prantsusmaal
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mis on uut või mida on muudetud?
               items:
@@ -70,17 +70,15 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Managementi 10.0.12 (august 2020)
+                    - name: Supply Chain Management 10.0.12 (august 2020)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (juuli 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (mai 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
-                    - name: Dynamics 365 Supply Chain Managementi eemaldatud või aegunud funktsioonid
+                    - name: Dynamics 365 Supply Chain Managementi eemaldatud või iganenud funktsioonid
                       href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: Varasematest versioonidest eemaldatud või aegunud funktsioonid
+                    - name: Varasematest versioonidest eemaldatud või iganenud funktsioonid
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: AX 2012 edasilükatud funktsioonid
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
@@ -164,7 +162,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Seansi kuupäeva muutmine
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Kasutaja eelistatud ajavööndi seadistamine
+                - name: Kasutaja eelistatud ajavööndi häälestus
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Teenuse Lifecycle Services ülevaade
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/supply-chain/toc.json
@@ -219,7 +217,7 @@
                   href: asset-management/overview/functional-locations-and-objects.md
                 - name: Varad ja töökäsud
                   href: asset-management/overview/objects-and-work-orders.md
-            - name: Töö asukohtade seadistus
+            - name: Töö asukohtade häälestus
               items:
                 - name: Töö asukoha töötsükli olekud
                   href: asset-management/setup-for-functional-locations/functional-location-stages.md
@@ -309,7 +307,7 @@
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
                 - name: Töökäsu tüübid
                   href: asset-management/setup-for-work-orders/work-order-types.md
-                - name: Töökäsu projekti seadistus
+                - name: Töökäsu projekti häälestus
                   href: asset-management/setup-for-work-orders/work-order-project-setup.md
                 - name: Teenuse tase ja kirjeldus
                   href: asset-management/setup-for-work-orders/service-level-and-description.md
@@ -619,7 +617,7 @@
                   href: cost-management/tasks/compare-active-estimated-realized-costs.md
                 - name: Tootmise sisestamine
                   href: cost-management/production-posting.md
-                - name: Toodetavate või hangitavate toodete seadistamine
+                - name: Toodetavate või hangitavate toodete häälestus
                   href: cost-management/manufactured-items-treated-as-purchased-items.md
                 - name: Kogukulude eraldamise meetod
                   href: cost-management/methodology-total-cost-allocation.md
@@ -709,7 +707,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Finantsdimensioonide lisamine koondmõõtmistele
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Analüütiliste aruannete loomine Power BI Desktopi abil
+                - name: Analüütiliste aruannete loomine PowerBI Desktopi abil
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Analüütika lisamine tööruumidele teenuse Power BI Embedded abil
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -743,7 +741,7 @@
                       items:
                         - name: (ER) RCS-i jaoks kasutatavate rakenduse metaandmete ettevalmistamine
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: (RCS) Juurdepääs rakenduse metaandmetele ER-konfiguratsiooni abil
+                        - name: (RCS) Juurdepääs rakenduse metaandmetele ER-i konfiguratsiooni abil
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/supply-chain/toc.json
                         - name: (RCS) Juurdepääs rakenduse metaandmetele ühendatud rakenduste abil
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
@@ -1013,7 +1011,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Tekst: QRCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Tekst: Text'
+                        - name: 'Tekst: tekst'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
             - name: Elektroonilise aruandluse (ER) mudelivastenduse haldamine eraldi ER-i konfiguratsioonides
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1047,7 +1045,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
             - name: Elektroonilise aruandluse vormingute muutmine Exceli malle uuesti rakendades
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ER-konfiguratsioonide sõltuvuse määramine teistest komponentidest
+            - name: ER-i konfiguratsioonide sõltuvuse määramine teistest komponentidest
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
             - name: ER-lahenduse kujundamine finantsdimensioonide kasutamiseks
               items:
@@ -1133,13 +1131,13 @@
                   href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Konfiguratsioonide importimine
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Elektroonilise aruandluse konfiguratsioonide allalaadimine RCS-hoidlast
+                - name: ER-i konfiguratsioonide allalaadimine RCS-hoidlast
                   items:
                     - name: Konfiguratsioonide allalaadimine RCS-i tüüpi ER-hoidlavormingutest
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Konfiguratsioonide importimine RCS-ist
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Õpetused
+            - name: Õppetükid
               items:
                 - name: Mitme rakenduse tabeli andmete saamiseks kasutage LIITMISE andmete allikaid
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
@@ -1147,7 +1145,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ER-vormingu parameetrite seadistamine juriidilise isiku kohta
+                - name: ER-vormingu parameetrite häälestus juriidilise isiku kohta
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ER-vormingu elementide käivitamise edasilükkamine
                   items:
@@ -1227,7 +1225,7 @@
               items:
                 - name: Saabumise ülevaade
                   href: inventory/arrival-overview.md
-                - name: Kauba saabumise ülevaateprofiili seadistamine
+                - name: Kauba saabumise ülevaateprofiili häälestus
                   href: inventory/tasks/set-up-item-arrival-overview-profile.md
             - name: Kvaliteedijuhtimine
               items:
@@ -1239,13 +1237,13 @@
                   href: inventory/quality-management-for-warehouses-processes.md
                 - name: Mittevastavuse haldus
                   href: inventory/enable-nonconformance-management.md
-                - name: Halduse eeltingimuste seadistamine
+                - name: Halduse eeltingimuste häälestus
                   href: inventory/tasks/set-up-prerequisites-nonconformance-management.md
                 - name: Vastavuse loomine ja töötlemine
                   href: inventory/tasks/create-process-non-conformance.md
                 - name: Vahelaoorderid
                   href: inventory/quarantine-orders.md
-                - name: Kvaliteettellimuste seadistamine
+                - name: Kvaliteettellimuste häälestus
                   href: inventory/tasks/set-up-quality-orders.md
                 - name: Kaupade kvaliteedi kontrollimine
                   href: inventory/tasks/inspect-quality-goods.md
@@ -1279,7 +1277,7 @@
                   href: inventory/tasks/count-inventory-warehouse.md
                 - name: Inventuuriprotsesside määratlemine
                   href: inventory/tasks/define-inventory-counting-processes.md
-                - name: Saadetise seadistamine
+                - name: Saadetise häälestus
                   href: inventory/consignment.md
                 - name: Kaubavaru omandiõiguse muutmine tootmise nõudluse põhjal
                   href: inventory/tasks/change-ownership-consignment.md
@@ -1327,7 +1325,7 @@
               href: iot/iot-schema-format.md
             - name: Lisandmooduli installimine LCS-is
               href: iot/iot-lcs-setup.md
-            - name: Mõõdikute seadistamine
+            - name: Mõõdikute häälestus
               href: iot/iot-metrics-setup.md
             - name: Stsenaariumi häälestus
               href: iot/iot-scenario-setup.md
@@ -1363,7 +1361,7 @@
               items:
                 - name: Koondplaanide ülevaade
                   href: master-planning/master-plans.md
-                - name: Koondplaanide seadistamine
+                - name: Koondplaanide häälestus
                   href: master-planning/master-planning-setup.md
                 - name: Koondplaneerimise häälestusviisard
                   href: master-planning/master-planning-setup-wizard.md
@@ -1425,7 +1423,7 @@
               items:
                 - name: Nõudluse prognoosimise ülevaade
                   href: master-planning/introduction-demand-forecasting.md
-                - name: Nõudluse prognoosi seadistus
+                - name: Nõudluse prognoosi häälestus
                   href: master-planning/demand-forecasting-setup.md
                 - name: Nõudluse prognooside ajalooliste andmete importimine
                   href: master-planning/import-historical-data.md
@@ -1615,7 +1613,7 @@
               items:
                 - name: Digitaalallkirjade ülevaade
                   href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Digitaalallkirjade seadistamine
+                - name: Digitaalallkirjade häälestus
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/supply-chain/toc.json
             - name: Juhtumihaldus
               items:
@@ -1649,7 +1647,7 @@
                   href: procurement/procurement-catalogs.md
                 - name: Hankekataloogi loomine
                   href: procurement/tasks/create-procurement-catalog.md
-                - name: Hankekategooria hierarhia seadistamine
+                - name: Hankekategooria hierarhia häälestus
                   href: procurement/tasks/set-up-procurement-category-hierarchy.md
             - name: Ostutaotlused
               items:
@@ -1719,7 +1717,7 @@
                   href: procurement/purchase-policies.md
                 - name: Ostupoliitikate loomine
                   href: procurement/tasks/create-purchasing-policies.md
-                - name: Hankekategooria hierarhiate poliitikate seadistamine
+                - name: Hankekategooria hierarhiate poliitikate häälestus
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
             - name: Toote sissetulekud ja arveldus
               items:
@@ -1729,11 +1727,11 @@
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
             - name: Hankija haldus ja koostöö
               items:
-                - name: Hankija koostöö seadistamine ja haldamine
+                - name: Hankija koostöö häälestus ja haldamine
                   href: procurement/set-up-maintain-vendor-collaboration.md
                 - name: Hankija koostöö kasutajate haldamine
                   href: procurement/manage-vendor-collaboration-users.md
-                - name: Hankija kontode seadistamine
+                - name: Hankija kontode häälestus
                   href: procurement/set-up-vendor-accounts.md
                 - name: Hankija konto loomine
                   href: procurement/tasks/create-vendor-account.md
@@ -1763,11 +1761,11 @@
                   href: procurement/tasks/approve-vendors-specific-products.md
                 - name: Hankijate otsimine
                   href: procurement/tasks/search-vendors.md
-                - name: Teise isiku nimel toodete tellimise õiguste seadistamine
+                - name: Teise isiku nimel toodete tellimise õiguste häälestus
                   href: procurement/tasks/set-up-permissions-ordering-products.md
             - name: Hanketegevused
               items:
-                - name: Projekti ressursiteabe seadistamine
+                - name: Projekti ressursiteabe häälestus
                   href: procurement/tasks/set-up-project-resource-information.md
                 - name: Projekti eelarvete esitamine ja kinnitamine
                   href: procurement/tasks/submit-approve-project-budget.md
@@ -1815,7 +1813,7 @@
                       href: pim/tasks/product-lifecycle-state-released-product-master.md
                     - name: Toote elutsükli oleku määramine väljastatud tootele
                       href: pim/tasks/product-lifecycle-state-released-product.md
-                    - name: Aegunud tootevariantide leidmine
+                    - name: iganenud tootevariantide leidmine
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Toodete välistamine koondplaneerimisest
                       href: pim/tasks/exclude-products-master-planning.md
@@ -1863,7 +1861,7 @@
                       href: pim/tasks/create-dimension-based-product-master.md
                     - name: Dimensioonipõhise tooteetaloni väljastamine
                       href: pim/tasks/release-dimension-based-product-master.md
-                    - name: Vabastatud tooteetaloni täielik põhiseadistus
+                    - name: Vabastatud tooteetaloni täielik põhihäälestus
                       href: pim/tasks/complete-basic-setup-released-product-master.md
                     - name: Konfiguratsioonigruppide määratlemine
                       href: pim/tasks/define-configuration-groups.md
@@ -1919,7 +1917,7 @@
               items:
                 - name: Tootmise koondandmete haldamine
                   items:
-                    - name: Tootmise seadistusnõuded
+                    - name: Tootmise häälestusnõuded
                       href: production-control/production-set-up-requirements.md
                     - name: Kooslused ja valemid
                       href: production-control/bill-of-material-bom.md
@@ -2165,7 +2163,7 @@
                       href: production-control/tasks/create-formula-copying-existing-formula.md
                     - name: Juhtimise parameetrid tootmise käivitamises
                       href: production-control/production-parameters-manufacturing-execution.md
-                    - name: Tootmise seadistusnõuded
+                    - name: Tootmise häälestusnõuded
                       href: production-control/production-set-up-requirements.md
                 - name: Tootmistoimingute plaanimine
                   items:
@@ -2285,9 +2283,9 @@
           items:
             - name: Teenuste halduse ülevaade
               href: service-management/service-management-home-page.md
-            - name: Klienditeeninduse seadistamine
+            - name: Klienditeeninduse häälestus
               items:
-                - name: Hoolduslepete seadistamine
+                - name: Hoolduslepete häälestus
                   items:
                     - name: Hoolduslepete ülevaade
                       href: service-management/service-agreement-groups.md
@@ -2295,7 +2293,7 @@
                       href: service-management/create-service-agreements.md
                     - name: Hooldusintervallid
                       href: service-management/service-intervals.md
-                    - name: Hooldusintervallide seadistamine
+                    - name: Hooldusintervallide häälestus
                       href: service-management/set-up-service-intervals.md
                     - name: Kellaaja aknad
                       href: service-management/time-windows.md
@@ -2303,13 +2301,13 @@
                       href: service-management/create-time-windows.md
                     - name: Hooldusmallide grupi loomine
                       href: service-management/create-service-template-group.md
-                - name: Hooldustoimingute seadistamine
+                - name: Hooldustoimingute häälestus
                   items:
                     - name: Hooldustoimingute ülevaade
                       href: service-management/service-tasks.md
                     - name: Hooldustoimingute seoste loomine
                       href: service-management/create-service-task-relations.md
-                - name: Hooldusobjektide seadistamine
+                - name: Hooldusobjektide häälestus
                   items:
                     - name: Teenuseobjektide ülevaade
                       href: service-management/service-objects.md
@@ -2319,7 +2317,7 @@
                       href: service-management/attach-inventory-items-service-objects.md
                     - name: Hooldusobjektide grupid
                       href: service-management/service-object-groups.md
-                    - name: Kliendi juures asuvaid objekte kajastava malli seadistamine
+                    - name: Kliendi juures asuvaid objekte kajastava malli häälestus
                       href: service-management/set-up-template-to-represent-objects-at-customer-site.md
                     - name: Hooldusobjekti seosed
                       href: service-management/service-object-relations.md
@@ -2337,11 +2335,11 @@
                       href: service-management/reason-codes-service-orders.md
                     - name: Hooldustellimuste etapid
                       href: service-management/service-order-stages.md
-                    - name: Hooldustellimuse etappide seadistamine
+                    - name: Hooldustellimuse etappide häälestus
                       href: service-management/set-up-service-order-stages.md
                     - name: Põhjusekoodide loomine
                       href: service-management/create-reason-codes.md
-                - name: Hoolduslepete ja kordustellimuste seadistamine
+                - name: Hoolduslepete ja kordustellimuste häälestus
                   items:
                     - name: Teenusetaseme lepete ülevaade
                       href: service-management/service-level-agreements.md
@@ -2349,21 +2347,21 @@
                       href: service-management/subscription-sales-prices.md
                     - name: Kordustellimuste grupid
                       href: service-management/subscription-groups.md
-                    - name: Kordustellimuste gruppide seadistamine
+                    - name: Kordustellimuste gruppide häälestus
                       href: service-management/set-up-subscription-groups.md
                     - name: Etapi põhjusekoodide kasutamine
                       href: service-management/use-stage-reason-codes.md
                     - name: Hoolduslepete ja projektide integreerimine
                       href: service-management/integration-service-agreements-projects.md
-                - name: Parandushalduse seadistamine
+                - name: Parandushalduse häälestus
                   href: service-management/repair-management.md
-                - name: Klienditagastuste seadistamine
+                - name: Klienditagastuste häälestus
                   items:
                     - name: Klienditagastuste ülevaade
                       href: service-management/disposition-and-return-reason-codes.md
                     - name: Likvideerimiskoodide häälestamine
                       href: service-management/set-up-disposition-codes.md
-                    - name: Tagastuspõhjuste koodide seadistamine
+                    - name: Tagastuspõhjuste koodide häälestus
                       href: service-management/set-up-return-reason-code.md
                     - name: Tagastatud kaupade likvideerimise viisi määratlemine
                       href: service-management/specify-how-to-dispose-of-returned-items.md
@@ -2475,11 +2473,11 @@
                           href: service-management/service-activities.md
                         - name: Lähetustahvel
                           href: service-management/dispatch-board.md
-                        - name: Hooldustegevuse tüüpide seadistamine
+                        - name: Hooldustegevuse tüüpide häälestus
                           href: service-management/set-up-service-activity-types.md
-                        - name: Eelistatud tehniku seadistamine
+                        - name: Eelistatud tehniku häälestus
                           href: service-management/set-up-preferred-technician.md
-                        - name: Lähetustöörühmade seadistamine
+                        - name: Lähetustöörühmade häälestus
                           href: service-management/set-up-dispatch-teams.md
                         - name: Hooldustellimuste prioritiseerimine
                           href: service-management/prioritize-service-orders.md
@@ -2543,214 +2541,252 @@
               href: transportation/reconcile-freight-transportation-management.md
             - name: Juhi sisse- ja väljaregistreerimine kohtumisele
               href: transportation/tasks/register-driver-check-check-out-appointment.md
-            - name: Vedaja kütuseindeksi seadistamine
+            - name: Vedaja kütuseindeksi häälestus
               href: transportation/tasks/set-up-carrier-fuel-index.md
-            - name: Transpordi maksevahendi seadistamine
+            - name: Transpordi maksevahendi häälestus
               href: transportation/tasks/set-up-transportation-tender.md
-            - name: Lisade määrangute seadistamine
+            - name: Lisade määrangute häälestus
               href: transportation/tasks/set-up-accessorial-assignments.md
-            - name: Koorma laadimise seadistamine
+            - name: Koorma laadimise häälestus
               href: transportation/tasks/set-up-appointment-load.md
-            - name: Veose automaatse vastavusseviimise seadistamine
+            - name: Veose automaatse vastavusseviimise häälestus
               href: transportation/tasks/set-up-automatic-freight-reconciliation.md
-            - name: Keskuse lisatasude ja lisade koondandmete seadistamine
+            - name: Keskuse lisatasude ja lisade koondandmete häälestus
               href: transportation/tasks/set-up-hub-accessorial-charges-accessorial-masters.md
-            - name: Määrade koondandmete seadistamine
+            - name: Määrade koondandmete häälestus
               href: transportation/tasks/set-up-rate-masters.md
-            - name: Vedajate seadistamine
+            - name: Vedajate häälestus
               href: transportation/tasks/set-up-shipping-carriers.md
-            - name: Kauba transpordipiirangute seadistamine
+            - name: Kauba transpordipiirangute häälestus
               href: transportation/tasks/set-up-transportation-constraints-item.md
         - name: Laohaldus
           items:
             - name: Laohalduse ülevaade
               href: warehousing/warehouse-management-overview.md
-            - name: Lao konfiguratsioon
+            - name: Saabuvate kaupade lao toimingud
               items:
-                - name: Lao konfiguratsiooni ülevaade
-                  href: warehousing/warehouse-configuration.md
-                - name: Lao seadistamine lao konfiguratsioonimalli abil
-                  href: inventory/warehouse-template.md
-                - name: Töö juhtimine töömallide ja asukohakorralduste abil
-                  href: warehousing/control-warehouse-location-directives.md
-                - name: Vooetapi koodid
-                  href: warehousing/wave-step-codes.md
-                - name: Vootöötluse konfigureerimine
-                  href: warehousing/tasks/configure-wave-processing.md
-                - name: Saadetiste automaatne värskendamine
-                  href: warehousing/auto-update-shipment.md
-                - name: Asukohaprofiili loomine
-                  href: warehousing/tasks/create-location-profile.md
-                - name: Asukohtade konfigureerimine WMS-loaga laos
-                  href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
-                - name: Koormuse tulususe planeerimine
-                  href: warehousing/schedule-load-utilization.md
-                - name: Graafiku töökoormuse võimsus
-                  href: warehousing/schedule-workload-capacity.md
-                - name: Likvideerimiskoodide seadistamine
-                  href: warehousing/tasks/set-up-dispositions-codes.md
-                - name: Mõõtühik ja ladustamispoliitikad
-                  href: warehousing/unit-measure-stocking-policies.md
-                - name: Lao Power BI sisu
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
-                - name: Süsteemi rühmitamine avatud tööloendis
-                  href: warehousing/system-group-on-open-work-list.md
-                - name: Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus
-                  href: warehousing/document-routing-layout-for-license-plates.md
-                - name: Vöötkoodide skannimine kaamera abil teenuses Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Mobiilse vöötkoodi tugi
-                  href: warehousing/mobile-barcode-support.md
-                - name: Lao seadistamine üleviimistellimuste jaoks
-                  href: warehousing/transfer-orders-warehouse.md
-            - name: Reserveerimised laohalduses
+                - name: Sissetulekute registreerimiseks ja ladustamine
+                  items:
+                    - name: Ostutellimuste sissetulevate koormate laohaldus
+                      href: warehousing/inbound-load-handling.md
+                    - name: Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
+                      href: warehousing/tasks/register-items-advanced-warehousing.md
+                    - name: Kaupade registreerimine üldiseks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
+                      href: warehousing/tasks/register-items-basic-warehousing.md
+                    - name: Toodete ristlaadimine vastuvõtvast laost kauplustesse
+                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                    - name: Asukohakorralduse häälestus ostutellimuse kõrvalepaneku jaoks
+                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                    - name: Ostutellimuste jaoks töömalli häälestus
+                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                    - name: Asukoha tootedimensioonide segamine
+                      href: warehousing/location-product-dimension-mixing.md
+            - name: Väljuvate kaupade lao toimingud
               items:
-                - name: Paindlik dimensiooni reserveerimise poliitika laotasemel
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-            - name: Lao tööpoliitikad
-              items:
-                - name: Lao tööpoliitikate ülevaade
-                  href: warehousing/warehouse-work-policies.md
-                - name: Lao tööpoliitikate seadistamine
-                  href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
-                - name: Seostatud tööga varude teisaldamine laohalduses
-                  href: warehousing/move-inventory-associated-work.md
-                - name: Tööklassi loomine
-                  href: warehousing/tasks/create-work-class.md
-                - name: Laotöötajate haldamine
-                  href: warehousing/manage-warehouse-workers.md
-                - name: Laotöö töötlemise edasilükkamine
-                  href: warehousing/deferred-put.md
-            - name: Ristlaadimine
-              items:
-                - name: Ristlaadimine tootmistellimustest lähetusaladesse
-                  href: production-control/cross-docking-opportunities.md
-                - name: Saadetise automaatvabastus ristlaadimiseks
-                  href: warehousing/auto-release-shipment-for-cross-docking.md
-            - name: Osaline vabastamine ja osaline saadetis
-              items:
-                - name: Transpordikoorma osaline saadetis
-                  href: warehousing/partial-shipping-of-transport-loads.md
-                - name: Osaliselt reserveeritud üleviimistellimuste hulgiväljastamine
-                  href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-            - name: Komplekteerimine ja pakkimine
-              items:
-                - name: Kogumi komplekteerimise seadistamine
-                  href: warehousing/set-up-cluster-picking.md
-                - name: Konteinerisse määramise seadistamine
-                  href: warehousing/tasks/set-up-containerization.md
-                - name: Partii ja litsentsiplaadi kinnitus
-                  href: warehousing/batch-and-license-plate-confirmation.md
-                - name: Registreerimismärgi sildi printimise lubamine
-                  href: warehousing/tasks/license-plate-label-printing.md
-                - name: Vöötkoodide skannimine kaamera abil teenuses Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Osa komplekteerimise kinnitus
-                  href: warehousing/piece-picking-confirmation.md
-                - name: Pakkematerjalid ja tasud
-                  href: warehousing/pack-materials-packing-material-fees.md
-                - name: Käsitsi pakkimise seadistamine (ainult veebruar ja mai 2016)
-                  href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
-                - name: Kiirelt komplekteeritava kauba ümberjaotamise seadistamine
-                  href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                - name: Laotöö tühistamine erandi käsitlemiseks
-                  href: warehousing/cancel-warehouse-work.md
-                - name: Süsteemi suunatud kogumi komplekteerimine
-                  href: warehousing/system-directed-cluster-pick.md
-                - name: Komplekteerimisridade grupeerimine
-                  href: warehousing/pick-line-grouping.md
-            - name: Varude arvestamine
-              items:
-                - name: Varude inventuuri põhjusekoodid
-                  href: warehousing/reason-codes-for-counting-journals.md
-                - name: Varude blokeerimine
-                  href: inventory/inventory-blocking.md
-                - name: Tsükliline inventuur
-                  href: warehousing/cycle-counting.md
-                - name: Tsüklilise inventuuri määratlemine
-                  href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                - name: Osaline asukoha tsükliline inventuur
-                  href: warehousing/partial-location-cycle-counting.md
-                - name: Osalise asukoha tsüklilise inventuuriprotsessi määratlemine
-                  href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: Laohalduse vabade kannete puhastamise töö
-                  href: warehousing/onhand-cleanup.md
-                - name: Lao tööleht
-                  href: inventory/inventory-journals.md
-                - name: Lao asukoht
-                  href: inventory/inventory-locations.md
-                - name: Lao olek
-                  href: inventory/inventory-statuses.md
-                - name: Sildiga varude inventuur
-                  href: inventory/inventory-tag-counting.md
-            - name: Täiendamine
-              items:
-                - name: Täiendamise ülevaade
-                  href: warehousing/replenishment.md
-                - name: Viivitamatu täiendamine
-                  href: warehousing/immediate-replenishment.md
-                - name: Täiendamine tagastamiskanbanitega
-                  href: warehousing/material-replenishment-withdrawal-kanban.md
-                - name: Min-max täiendamisprotsessi seadistamine
-                  href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: Laorakenduse installimine ja konfigureerimine
-              items:
-                - name: Laorakenduse installimine ja ühendamine
-                  href: warehousing/install-configure-warehousing-app.md
-                - name: Väljanimede konfigureerimine laorakenduses
-                  href: warehousing/configure-app-field-names-priorities-warehouse.md
-                - name: Mobiilsete seadmete seadistamine laotöö jaoks
-                  href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Identifitseerimisnumbri vastuvõtmine lao rakendusega
-                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                - name: Mobiilse seadme menüükäsu seadistamine ostutellimuse töö lõpetamiseks
-                  href: warehousing/tasks/set-up-mobile-device-menu.md
-                - name: Mobiilse seadme menüükäsu seadistamine saabunud kaupade registreerimiseks
-                  href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                - name: Mobiilse seadme menüükäsu loomine registreerimismärgi konsolideerimiseks
-                  href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                - name: Kombineeritud litsentsiplaadi vastuvõtt mobiilsesse seadmesse
-                  href: warehousing/mixed-license-plate-receiving.md
-                - name: Laos olevate vanemate partiide mobiilses seadmes kuvamise konfigureerimine
-                  href: warehousing/display-older-batches-within-warehouses.md
-                - name: Vanima partii komplekteerimine mobiilsel seadmel
-                  href: warehousing/pick-oldest-batch.md
-                - name: Protsessijuhendi raamistik
-                  href: warehousing/process-guide-framework.md
-            - name: Täiendamine ja migreerimine
-              items:
-                - name: Microsoft Dynamics AX 2012 laohalduse protsesside täiendamine versioonile Finance and Operations
-                  href: warehousing/upgrade-migration-warehouse-management-processes.md
-            - name: Sissetulekute registreerimiseks ja ladustamine
-              items:
-                - name: Ostutellimuste sissetulevate koormate laohaldus
-                  href: warehousing/inbound-load-handling.md
-                - name: Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
-                  href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: Kaupade registreerimine üldiseks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
-                  href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Toodete ristlaadimine vastuvõtvast laost kauplustesse
-                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: Asukohakorralduse seadistamine ostutellimuse kõrvalepaneku jaoks
-                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: Ostutellimuste jaoks töömalli seadistamine
-                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: Saadetise konsolideerimispoliitikad
-              items:
+                - name: Reserveerimised laohalduses
+                  items:
+                    - name: Paindlik dimensiooni reserveerimise poliitika laotasemel
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: Osaline vabastamine ja osaline saadetis
+                  items:
+                    - name: Transpordikoorma osaline saadetis
+                      href: warehousing/partial-shipping-of-transport-loads.md
+                    - name: Osaliselt reserveeritud üleviimistellimuste hulgiväljastamine
+                      href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                - name: Komplekteerimine ja pakkimine
+                  items:
+                    - name: Kogumi komplekteerimise häälestus
+                      href: warehousing/set-up-cluster-picking.md
+                    - name: Konteinerisse määramise häälestus
+                      href: warehousing/tasks/set-up-containerization.md
+                    - name: Partii ja litsentsiplaadi kinnitus
+                      href: warehousing/batch-and-license-plate-confirmation.md
+                    - name: Registreerimismärgi sildi printimise lubamine
+                      href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Vöötkoodide skannimine kaamera abil teenuses Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Osa komplekteerimise kinnitus
+                      href: warehousing/piece-picking-confirmation.md
+                    - name: Pakkematerjalid ja tasud
+                      href: warehousing/pack-materials-packing-material-fees.md
+                    - name: Käsitsi pakkimise häälestus (ainult veebruar ja mai 2016)
+                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Kiirelt komplekteeritava kauba ümberjaotamise häälestus
+                      href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                    - name: Laotöö tühistamine erandi käsitlemiseks
+                      href: warehousing/cancel-warehouse-work.md
+                    - name: Süsteemi suunatud kogumi komplekteerimine
+                      href: warehousing/system-directed-cluster-pick.md
+                    - name: Süsteemi suunatud tööde järjestus
+                      href: warehousing/system-directed-work-sequencing.md
+                    - name: Komplekteerimisridade grupeerimine
+                      href: warehousing/pick-line-grouping.md
+                    - name: Lao ruumi leidmine
+                      href: warehousing/warehouse-slotting.md
+                - name: Täiendamine
+                  items:
+                    - name: Täiendamise ülevaade
+                      href: warehousing/replenishment.md
+                    - name: Viivitamatu täiendamine
+                      href: warehousing/immediate-replenishment.md
+                    - name: Täiendamine tagastamiskanbanitega
+                      href: warehousing/material-replenishment-withdrawal-kanban.md
+                    - name: Min-max täiendamisprotsessi häälestus
+                      href: warehousing/tasks/set-up-min-max-replenishment-process.md
+                    - name: Tsooniläve täiendamine
+                      href: warehousing/zone-threshold-replenishment.md
+                - name: Koorma koostamine ja saadetised
+                  items:
+                    - name: Kinnitamine ja üleviimine
+                      href: warehousing/confirm-and-transfer.md
+                    - name: Täiustatud koormuse koostamine voo ajal
+                      href: warehousing/advanced-load-building-during-wave.md
+                    - name: Laoreeglile vabastamine
+                      href: warehousing/release-to-warehouse-rule.md
+                    - name: Voomalli rühmitamine
+                      href: warehousing/wave-template-grouping.md
                 - name: Saadetise konsolideerimispoliitikad
-                  href: warehousing/about-shipment-consolidation-policies.md
-                - name: Saadetise konsolideerimispoliitikate konfigureerimine
-                  href: warehousing/configure-shipment-consolidation-policies.md
-                - name: '1. stsenaarium – saadetiste konsolideerimine, kui need on müügitellimuste automaatse väljastamise abil lattu väljastatud'
-                  href: warehousing/consolidate-shipments-automatic.md
-                - name: '2. stsenaarium – saadetiste konsolideerimine, kui saadetise konsolideerimispoliitika alistatakse lattu väljastamise lehe kaudu'
-                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                - name: '3. stsenaarium – saadetiste konsolideerimine, kasutades lattu väljastamist koorma planeerimise töölaua kaudu'
-                  href: warehousing/consolidate-shipments-load-planning-workbench.md
-                - name: 4. stsenaarium – saadetiste konsolideerimine saadetise konsolideerimise töölaua abil
-                  href: warehousing/consolidate-shipments-manual-workbench.md
-                - name: 5. stsenaarium – saadetiste käsitsi konsolideerimine saadetiste konsolideerimise lehe kaudu
-                  href: warehousing/consolidate-shipments-manual-form.md
+                  items:
+                    - name: Saadetise konsolideerimispoliitikad
+                      href: warehousing/about-shipment-consolidation-policies.md
+                    - name: Saadetise konsolideerimispoliitikate konfigureerimine
+                      href: warehousing/configure-shipment-consolidation-policies.md
+                    - name: '1. stsenaarium – saadetiste konsolideerimine, kui need on müügitellimuste automaatse väljastamise abil lattu väljastatud'
+                      href: warehousing/consolidate-shipments-automatic.md
+                    - name: '2. stsenaarium – saadetiste konsolideerimine, kui saadetise konsolideerimispoliitika alistatakse lattu väljastamise lehe kaudu'
+                      href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                    - name: '3. stsenaarium – saadetiste konsolideerimine, kasutades lattu väljastamist koorma planeerimise töölaua kaudu'
+                      href: warehousing/consolidate-shipments-load-planning-workbench.md
+                    - name: 4. stsenaarium – saadetiste konsolideerimine saadetise konsolideerimise töölaua abil
+                      href: warehousing/consolidate-shipments-manual-workbench.md
+                    - name: 5. stsenaarium – saadetiste käsitsi konsolideerimine saadetiste konsolideerimise lehe kaudu
+                      href: warehousing/consolidate-shipments-manual-form.md
+            - name: Kõik laotoimingud
+              items:
+                - name: Lao tööpoliitikad
+                  items:
+                    - name: Lao tööpoliitikate ülevaade
+                      href: warehousing/warehouse-work-policies.md
+                    - name: Lao tööpoliitikate häälestus
+                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
+                    - name: Seostatud tööga varude teisaldamine laohalduses
+                      href: warehousing/move-inventory-associated-work.md
+                    - name: Tööklassi loomine
+                      href: warehousing/tasks/create-work-class.md
+                    - name: Laotöötajate haldamine
+                      href: warehousing/manage-warehouse-workers.md
+                    - name: Laotöö töötlemise edasilükkamine
+                      href: warehousing/deferred-put.md
+                - name: Ristlaadimine
+                  items:
+                    - name: Ristlaadimine tootmistellimustest lähetusaladesse
+                      href: production-control/cross-docking-opportunities.md
+                    - name: Saadetise automaatvabastus ristlaadimiseks
+                      href: warehousing/auto-release-shipment-for-cross-docking.md
+                    - name: Plaanitud ristlaadimine
+                      href: warehousing/planned-cross-docking.md
+                - name: Varude arvestamine
+                  items:
+                    - name: Varude inventuuri põhjusekoodid
+                      href: warehousing/reason-codes-for-counting-journals.md
+                    - name: Varude blokeerimine
+                      href: inventory/inventory-blocking.md
+                    - name: Tsükliline inventuur
+                      href: warehousing/cycle-counting.md
+                    - name: Tsüklilise inventuuri määratlemine
+                      href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
+                    - name: Osaline asukoha tsükliline inventuur
+                      href: warehousing/partial-location-cycle-counting.md
+                    - name: Osalise asukoha tsüklilise inventuuriprotsessi määratlemine
+                      href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Laohalduse vabade kannete puhastamise töö
+                      href: warehousing/onhand-cleanup.md
+                    - name: Varude tööleht
+                      href: inventory/inventory-journals.md
+                    - name: Varude asukoht
+                      href: inventory/inventory-locations.md
+                    - name: Varude olek
+                      href: inventory/inventory-statuses.md
+                    - name: Sildiga varude inventuur
+                      href: inventory/inventory-tag-counting.md
+                - name: Lao töö
+                  items:
+                    - name: Töörea üksikasjad
+                      href: warehousing/work-line-details.md
+                    - name: Asukoha litsentsiplaadi paigutus
+                      href: warehousing/location-license-plate-positioning.md
+            - name: Lao häälestus
+              items:
+                - name: Lao konfiguratsioon
+                  items:
+                    - name: Lao konfiguratsiooni ülevaade
+                      href: warehousing/warehouse-configuration.md
+                    - name: Lao häälestus lao konfiguratsioonimalli abil
+                      href: inventory/warehouse-template.md
+                    - name: Töö juhtimine töömallide ja asukohakorralduste abil
+                      href: warehousing/control-warehouse-location-directives.md
+                    - name: Vooetapi koodid
+                      href: warehousing/wave-step-codes.md
+                    - name: Vootöötluse konfigureerimine
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: Saadetiste automaatne värskendamine
+                      href: warehousing/auto-update-shipment.md
+                    - name: Asukohaprofiili loomine
+                      href: warehousing/tasks/create-location-profile.md
+                    - name: Asukohtade konfigureerimine WMS-loaga laos
+                      href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
+                    - name: Laoasukoha olek
+                      href: warehousing/warehouse-location-status.md
+                    - name: Täiendavad asukohatsoonid
+                      href: warehousing/additional-location-zones.md
+                    - name: Koormuse tulususe planeerimine
+                      href: warehousing/schedule-load-utilization.md
+                    - name: Graafiku töökoormuse võimsus
+                      href: warehousing/schedule-workload-capacity.md
+                    - name: Likvideerimiskoodide häälestus
+                      href: warehousing/tasks/set-up-dispositions-codes.md
+                    - name: Mõõtühik ja ladustamispoliitikad
+                      href: warehousing/unit-measure-stocking-policies.md
+                    - name: Lao Power BI sisu
+                      href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
+                    - name: Süsteemi rühmitamine avatud tööloendis
+                      href: warehousing/system-group-on-open-work-list.md
+                    - name: Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus
+                      href: warehousing/document-routing-layout-for-license-plates.md
+                    - name: Vöötkoodide skannimine kaamera abil teenuses Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Mobiilse vöötkoodi tugi
+                      href: warehousing/mobile-barcode-support.md
+                    - name: Lao häälestus üleviimistellimuste jaoks
+                      href: warehousing/transfer-orders-warehouse.md
+                - name: Laorakenduse installimine ja konfigureerimine
+                  items:
+                    - name: Laorakenduse installimine ja ühendamine
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Väljanimede konfigureerimine laorakenduses
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Mobiilsete seadmete häälestus laotöö jaoks
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Identifitseerimisnumbri vastuvõtmine lao rakendusega
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Mobiilse seadme menüükäsu häälestus ostutellimuse töö lõpetamiseks
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Mobiilse seadme menüükäsu häälestus saabunud kaupade registreerimiseks
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Mobiilse seadme menüükäsu loomine registreerimismärgi konsolideerimiseks
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Kombineeritud litsentsiplaadi vastuvõtt mobiilsesse seadmesse
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Laos olevate vanemate partiide mobiilses seadmes kuvamise konfigureerimine
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Vanima partii komplekteerimine mobiilsel seadmel
+                      href: warehousing/pick-oldest-batch.md
+                    - name: Protsessijuhendi raamistik
+                      href: warehousing/process-guide-framework.md
+                - name: Täiendamine ja migreerimine
+                  items:
+                    - name: Microsoft Dynamics AX 2012 laohalduse protsesside täiendamine versioonile Finance and Operations
+                      href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Supply Chain Managementi juurutamine
           items:
             - name: Gantti juhtelemendi arendamise juhis

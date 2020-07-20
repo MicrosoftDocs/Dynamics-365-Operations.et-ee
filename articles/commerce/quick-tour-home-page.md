@@ -3,7 +3,7 @@ title: Avalehe ülevaade
 description: Selles teemas antakse ülevaade avalehest rakenduses Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f337af0b598322e9542a3c9462402e61dc11a88
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025967"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527576"
 ---
-# <a name="overview-of-the-home-page"></a>Avalehe ülevaade
-
+# <a name="home-page-overview"></a>Avalehe ülevaade
 
 [!include [banner](includes/banner.md)]
 
@@ -69,10 +68,8 @@ Avalehe põhijaotises võib esile tuua tooteid, kategooriaid või kampaaniaid, k
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade](category-search-page-overview.md)
+[Toote üksikasjade lehe ülevaade](quick-tour-pdp.md)
 
-[Toodete üksikasjade lehtede ülevaade](quick-tour-pdp.md)
-
-[Ostukorvi ja maksmise lehtede ülevaade](quick-tour-cart-checkout.md)
+[Ostukorvi ja väljaregistreerimise ülevaade](quick-tour-cart-checkout.md)
 
 [Kontohalduse lehtede ülevaade](quick-tour-account-management.md)

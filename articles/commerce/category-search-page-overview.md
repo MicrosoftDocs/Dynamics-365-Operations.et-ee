@@ -1,9 +1,9 @@
 ---
 title: Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
 description: Selles teemas antakse rakenduse Dynamics 365 Commerce kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002492"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527464"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
 
 [!include [banner](includes/banner.md)]
 
@@ -96,13 +95,19 @@ Otsingutulemuste lehe jaoks on olulised järgmised komponendid.
 - **Lehejaotus** võimaldab veebisaidi külastajatel liikuda ühelt kategoriseeritud toodete tulemuste lehelt teisele lehele.
 - **Koguarv** näitab kategoorias määratletud ja otsingukriteeriumitega ühtivate toodete koguarvu.
 
+>[!NOTE]
+>Need pilvepõhised otsinguvõimalused on saadaval alates versioonist 10.0.8. Veenduge, et jaotises **Kaubanduse parameetrid > konfiguratsiooniparameetrid** on kirje ProductSearch.UseAzureSearch väärtuseks määratud „tõene”. 
+![Pilvepõhise otsingu konfiguratsiooniparameetrid](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Lisaressursid
+
+[Pilvepõhise otsingu ülevaade](cloud-powered-search-overview.md)
 
 [Avalehe ülevaade](quick-tour-home-page.md)
 
-[Toodete üksikasjade lehtede ülevaade](quick-tour-pdp.md)
+[Toote üksikasjade lehe ülevaade](quick-tour-pdp.md)
 
-[Ostukorvi ja maksmise lehtede ülevaade](quick-tour-cart-checkout.md)
+[Ostukorvi ja väljaregistreerimise ülevaade](quick-tour-cart-checkout.md)
 
 [Kontohalduse lehtede ülevaade](quick-tour-account-management.md)
 

@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce eelvaatekeskkonna konfigureerimine
 description: Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i eelvaatekeskkond, kui see on ette valmistatud.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: ad05996eaabd3965308370649a27b8bc3080c7ce
+ms.sourcegitcommit: f72e90dccc80718e99cab2752eaf8931dcbb915e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057713"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3534063"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce eelvaatekeskkonna konfigureerimine
 
@@ -116,7 +116,7 @@ Commerce’is tööde lubamiseks tehke järgmist.
 
 Commerce’is kõikide andmete sünkroonimise käitamiseks tehke järgmist.
 
-1. Kasutage vasakul asuvat menüüd, et avada **Moodulid \> Jaemüük ja kaubandus \> Peakontori häälestus \> Jaemüügi planeerija \> Kanali andmebaas**.
+1. Kasutage vasakul asuvat menüüd, et avada **Moodulid \> Jaemüük ja kaubandus \> Peakontori häälestus \> Kaubanduse planeerija \> Kanali andmebaas**.
 1. Kanal **Vaikimisi** valitakse vasakul olevast loendist. Valige muu saadaolev kanal. Selle kanali nimi on **scXXXXXXXXX**.
 1. Valige tegumiribal suvand **Andmete täielik sünkroonimine**.
 1. Sisestage jaotugraafikuna väärtus **9999**.

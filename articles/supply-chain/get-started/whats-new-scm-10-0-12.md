@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c773b5e1013bbd58f48cd345f50a342175ed0c98
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: fd64a4ea53976293a6ff484a370d7804bf6c724f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413889"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530140"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.12. (august 2020)?
 
@@ -43,9 +43,8 @@ See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingit
 - [Tootevariantide ja jälgimisdimensioonide salvestamine laorakenduses koormas oleva kauba vastuvõtmisel](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) – lisateavet vt teemast [Mobiilsete seadmete seadistamine laotööks](../warehousing/configure-mobile-devices-warehouse.md).
 - Kulu arvutamise tase (uus koosluse tase) – lisateavet vt teemast [Kulu arvutamise taseme](../cost-management/cost-calculation-level.md).
 - [Dynamics 365 Supply Chain Managementi kliendiportaal](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences) – lisateavet vt teemast [Dynamics 365 Supply Chain Managementi kliendiportaali ülevaade](../sales-marketing/customer-portal-overview.md).
-- [Vaba kaubavaru teenus](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-service)
 - [IoT iseõppimisvõime juure ülevaated](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights)  – lisateavet vt teemast [IoT iseõppimisvõime avaleht](../iot/iot-intelligence-home-page.md).
-- [Ladustamisrakenduse täiustusi vastu võttev litsentsiplaat (jätkuv)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) – lisateavet vt teemast [Ladustamisrakenduse kaudu täiustusi vastu võttev litsentsiplaat](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Laorakenduse täiustusi vastu võttev identifitseerimisnumber (jätkuv)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) – lisateavet vt teemast [Laorakenduse kaudu täiustusi vastu võttev identifitseerimisnumber](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 - [Rakenduse Warehouse Mobile App hulgijuurutus](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) – lisateavet vt teemast [Laorakenduse installimise ja konfigureerimise ülevaade](../warehousing/install-configure-warehousing-app.md).
 - [Laohalduse vabade kirjete puhastustöö maksimaalne teostamisaeg](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job) – lisateavet vt teemast [Laohalduse vabade kirjete puhastustöö](../warehousing/onhand-cleanup.md).
 - [Ostulepingute optimeerimistoe kavandamine](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements) – lisateavet vt teemast [Koondplaneerimine ostulepingutega](../master-planning/planning-optimization/purchase-trade-agreement.md).

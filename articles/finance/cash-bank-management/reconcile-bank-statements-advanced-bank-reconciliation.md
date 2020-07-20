@@ -3,7 +3,7 @@ title: Pangaväljavõtete vastavusseviimine täpsema panga vastavusseviimise abi
 description: Täpsema panga vastavusseviimise funktsiooni abil saate importida elektroonilisi pangaväljavõtteid ja neid Microsoft Dynamics 365 Financeis automaatselt pangakannetega vastavusse viia. Selles teemas selgitatakse vastavusseviimise protsessi.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b37cf8d83c7134ae65da6a885bffeb01d16f9f06
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
+ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177371"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497141"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Pangaväljavõtete vastavusseviimine täpsema panga vastavusseviimise abil
 
@@ -41,9 +41,9 @@ Saate laadida üles pangaväljavõtte, mis sisaldab teavet ühe või mitme konto
 -   Ühe konto ühe pangaväljavõtte faili importimiseks määrake valiku **Mitme pangakonto väljavõtte importimine kõikide juriidiliste isikute puhul** väärtuseks **Ei** ja valige väljavõttega seotud pangakonto. Klõpsake valikut **Sirvi** seotud pangaväljavõtte faili valimiseks ja klõpsake siis käsku **Laadi üles**.
 -   Ühe pangaväljavõtte faili importimiseks mitme konto jaoks määrake valiku **Mitme pangakonto väljavõtte importimine kõikide juriidiliste isikute puhul** väärtuseks **Jah**. Klõpsake valikut **Sirvi** seotud pangaväljavõtte faili valimiseks ja klõpsake siis käsku **Laadi üles**.
 
-Kui mis tahes väljavõtet elektroonilises failis ei saa pangakontoga seostada tuvastatavaid välju kasutades, siis neid ei impordita. Siiski saab importida teisi väljavõtteid failis. Kasutaja saab seejärel teate, mis ütleb, et pangaväljavõtete importimine oli kindlate pangakontode puhul ebaedukas. Pange tähele, et pangaväljavõtte faili importival kasutajal peab olema juurdepääs juriidilisele isikule, et importida selle juriidilise isiku pangakontode väljavõtted. 
+Kui mis tahes väljavõtet elektroonilises failis ei saa pangakontoga seostada või see on seostatud mitme pangakontoga tuvastatavaid välju kasutades, siis neid ei impordita. Siiski saab importida teisi väljavõtteid failis. Kasutaja saab seejärel teate, mis ütleb, et pangaväljavõtete importimine oli kindlate pangakontode puhul ebaedukas. Pange tähele, et pangaväljavõtte faili importival kasutajal peab olema juurdepääs juriidilisele isikule, et importida selle juriidilise isiku pangakontode väljavõtted. 
 
-Saate kasutada ZIP-faili, et laadida mitu väljavõttefaili rakendusse Finance üles ühe protsessina. Mitme pangaväljavõtte faili importimiseks mitme konto kohta ühendage kõik pangaväljavõtte failid ühte zip-faili. Määrake dialoogiboksis **Pangaväljavõtete importimine** valiku **Mitme pangakonto väljavõtte importimine kõikide juriidiliste isikute puhul** väärtuseks **Jah**. Klõpsake valikut **Sirvi** pangaväljavõtte faile sisaldava zip-faili valimiseks ja klõpsake siis käsku **Laadi üles**. Importimisprotsess tuvastab zip-faili ja laeb iga sellesse kaasatud väljavõtte üles hoolimata pangakonto juriidilisest isikust. 
+Saate kasutada ZIP-faili, et laadida mitu väljavõttefaili rakendusse Finance üles ühe protsessina. Mitme pangaväljavõtte faili importimiseks mitme konto kohta ühendage kõik pangaväljavõtte failid ühte zip-faili. Määrake dialoogiboksis **Pangaväljavõtete importimine** valiku **Mitme pangakonto väljavõtte importimine kõikide juriidiliste isikute puhul** väärtuseks **Jah**. Klõpsake valikut **Sirvi** pangaväljavõtte faile sisaldava zip-faili valimiseks ja klõpsake siis käsku **Laadi üles**. Importimisprotsess tuvastab zip-faili ja laeb iga sellesse kaasatud väljavõtte üles hoolimata pangakonto juriidilisest isikust.
 
 Saadaval on valik **Vii pärast importi vastavusse**. Kui määrate selle valiku väärtuseks **Jah**, kinnitab süsteem automaatselt pangaväljavõtte, loob uue panga vastavusseviimise ja töölehe ning käivitab pangaväljavõtte üleslaadimisel vaike-vastendamisreegli. See funktsioon automatiseerib protsessi kuni punktini, kus tehingud tuleb käsitsi vastendada.
 

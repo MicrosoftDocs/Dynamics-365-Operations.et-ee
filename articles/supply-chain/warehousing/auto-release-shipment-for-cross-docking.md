@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d11db378be6b2ba845de0ac0a2252092a50bc96a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2d8d6e67040f19cac99f8e0164296ef49768496e
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201475"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530232"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Saadetise automaatne vabastamine ristlaadimiseks
 
@@ -164,7 +164,7 @@ Lõpetatud kauba koguse ristlaadimiseks seotud müügitellimuse väljaminevasse 
 8. Valige lehe **Tootmistellimus** toimingupaani vahekaardi **Tootmistellimus** grupis **Protsess** üksus **Hinda** ja seejärel valige **OK**. Tellimust hinnatakse ja toormaterjali kogus reserveeritakse tootmiseks.
 9. Valige toimingupaani vahekaardi **Tootmistellimus** grupis **Protsess** üksus **Vabasta** ja seejärel valige **OK**. Toormaterjalide jaoks luuakse lao komplekteerimistöö.
 10. Avage töö ja vaadake see üle. Valige toimingupaani vahekaardil **Ladu** grupis **Seotud teave** üksus **Töö üksikasjad**. Märkige üles töö ID.
-11. Avage rakendus Dynamics 365 for Finance and Operations – Ladustamine ja logige sisse, et käivitada töö laos 51.
+11. Logige sisse laorakendusse, et käivitada töö laos 51.
 12. Avage **Tootmine** \> **Tootmise komplekteerimine**.
 13. Sisestage töö ID, et alustada toormaterjali komplekteerimist ja viia see lõpule. 
 

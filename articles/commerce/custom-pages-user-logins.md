@@ -3,7 +3,7 @@ title: Kohandatud lehtede seadistamine kasutajate sisselogimise jaoks
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce kohandatud lehti, mis käsitsevad Azure Active Directory (Azure AD) ettevõtte ja tarbija (B2C) rentnike kohandatud sisselogimisi.
 author: brianshook
 manager: annbe
-ms.date: 06/16/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71c0f0b6969985b04262b522dd2165eb1475878d
-ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
+ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456968"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533455"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Kohandatud lehtede seadistamine kasutajate sisselogimise jaoks
 
@@ -199,9 +199,7 @@ Pärast faili global.json uuendamist ja muudatuste avaldamist ilmub sisselogimis
 
 [Uue e-kaubanduse saidi juurutamine](deploy-ecommerce-site.md)
 
-[Võrgupoe kanali häälestamine](online-stores.md)
-
-[e-Commerce saidi loomine](create-ecommerce-site.md)
+[E-kaubanduse saidi loomine](create-ecommerce-site.md)
 
 [Veebisaidi seostamine kanaliga](associate-site-online-store.md)
 
