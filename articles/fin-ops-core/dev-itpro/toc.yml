@@ -1350,7 +1350,7 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: ValueMetadata tüüp
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-        - name: Regression Suite Automation Tool
+        - name: Regression suite automation tool
           items:
             - name: Regression Suite Automation Tooli ülevaade
               href: perf-test/rsat/rsat-overview.md
@@ -1434,8 +1434,6 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: B2B kasutajate eksportimine Azure AD-sse
               href: sysadmin/implement-b2b.md
-            - name: Protsessi automatiseerimine
-              href: sysadmin/process-automation.md
             - name: Turve
               items:
                 - name: Rollipõhine turve
@@ -1458,10 +1456,16 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Kasutajate määramine turberollidesse
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Kohandatud turvakonfiguratsiooni importimine või eksportimine andmehalduse abil
+                  href: sysadmin/import-export-customized-security.md
                 - name: Turbediagnostika tegevuse salvestiste jaoks
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+                - name: Laiendatavate andmete turbepoliitikad
+                  href: sysadmin/extensible-data-security-policies.md
+                - name: Turbepoliitika loomine
+                  href: sysadmin/create-simple-security-policy.md
             - name: Protsessi automatiseerimine
-              href: /sysadmin/process-automation.md
+              href: sysadmin/process-automation.md
             - name: Pakktöötlus
               items:
                 - name: Pakktöötluse ülevaade
@@ -1670,7 +1674,7 @@
                   href: user-interface/check-box-tree-controls.md
                 - name: Filtreerimissuvandid
                   href: user-interface/filtering.md
-                - name: PowerAppsi hosti juhtelement
+                - name: Power Appsi hosti juhtelement
                   href: user-interface/powerapps-host-control.md
             - name: Akna haldus
               items:
