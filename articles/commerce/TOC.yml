@@ -32,23 +32,23 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Andmeülesannete automatiseerimine
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
-                - name: ISV-lahenduste pakkumine ühe versiooni abil
+                - name: ISV-lahenduste pakkumine One Versioni abil
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Kasutaja vastuvõtu testide loomine ja automatiseerimine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Dynamics 365 Commerce'i eelvaatekeskkonna häälestamine
+            - name: Dynamics 365 Commerce'i hindamiskeskkonna häälestamine
               items:
-                - name: Dynamics 365 Commerce'i eelvaatekeskkonna ülevaade
+                - name: Dynamics 365 Commerce'i hindamiskeskkonna ülevaade
                   href: cpe-overview.md
-                - name: Dynamics 365 Commerce'i eelvaatekeskkonna ettevalmistamine
+                - name: Dynamics 365 Commerce'i hindamisekeskkonna ettevalmistamine
                   href: provisioning-guide.md
-                - name: Dynamics 365 Commerce'i eelvaatekeskkonna konfigureerimine
+                - name: Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine
                   href: cpe-post-provisioning.md
-                - name: BOPIS-e konfigureerimine Dynamics 365 Commerce'i keskkonnas
+                - name: BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas
                   href: cpe-bopis.md
-                - name: Dynamics 365 Commerce'i eelvaatekeskkonna valikuliste funktsioonide konfigureerimine
+                - name: Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine
                   href: cpe-optional-features.md
-                - name: Dynamics 365 Commerce'i eelvaatekeskkonna KKK
+                - name: Dynamics 365 Commerce'i hindamiskeskkonna KKK
                   href: cpe-faq.md
             - name: Juurutamiskaalutlused
               items:
@@ -68,13 +68,15 @@
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Rakenduse Finance + Operations (on-premises) ostmine
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Rakendused Finance and Operations, mida käitab 21Vianet Hiinas'
+                - name: 'Finance and Operationsi rakendused, mida käitab 21Vianet Hiinas'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operationsi rakendused Prantsusmaal
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
+            - name: Toe hankimine rakendusele Dynamics 365 Commerce
+              href: retail-support.md
             - name: Täiendus ja N-1 tugi
               items:
-                - name: Commerce'i täiendus ja N-1 tugi
+                - name: Täiendus ja Commerce'i N-1 tugi
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Installimine, konfigureerimine ja üleminek etapiviisilise levitamise (N-1) puhul'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -192,6 +194,8 @@
                   href: commerce-architecture.md
                 - name: Dynamics 365 Commerce autentimisvoog
                   href: arch-auth-flow.md
+                - name: Dynamics 365 Commerce'i komponendi versioonimise nõuded
+                  href: arch-component-versioning.md
                 - name: Commerce Scale Uniti ülesehitus
                   href: dev-itpro/retail-server-architecture.md
                 - name: Kauplusesisese topoloogia valimine
@@ -1984,6 +1988,8 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: Oleku jagamine moodulite lõikes
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Andmetegevuse vahemälusätted
+                      href: e-commerce-extensibility/data-action-cache-settings.md
                     - name: Alistav andmetegevus
                       href: e-commerce-extensibility/data-action-overrides.md
                     - name: Andmetegevuse konksud

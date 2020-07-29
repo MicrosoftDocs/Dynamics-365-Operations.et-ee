@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Andmeülesannete automatiseerimine
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
-                - name: ISV-lahenduste pakkumine ühe versiooni abil
+                - name: ISV-lahenduste pakkumine One Versioni abil
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/finance/toc.json
                 - name: Kasutaja vastuvõtu testide loomine ja automatiseerimine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
@@ -2540,12 +2540,14 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Varude aruanded
                       href: localizations/rus-inventory-reports.md
-                    - name: Varude profiili ülevaade
-                      href: localizations/rus-inventory-profile-overview.md
-                    - name: Varude profiili häälestus
-                      hreF: localizations/rus-set-up-inventory-profile.md
-                    - name: Varude profiili kasutamine dokumentides ja päringutes
-                      href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Laoprofiil
+                      items:
+                        - name: Varude profiili ülevaade
+                          href: localizations/rus-inventory-profile-overview.md
+                        - name: Varude profiili häälestus
+                          hreF: localizations/rus-set-up-inventory-profile.md
+                        - name: Varude profiili kasutamine dokumentides ja päringutes
+                          href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Aruandlus
                   items:
                     - name: Finantsaruandlus
