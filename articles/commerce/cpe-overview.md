@@ -1,9 +1,9 @@
 ---
-title: Dynamics 365 Commerce'i eelvaatekeskkonna ülevaade
-description: See teema annab ülevaate rakenduse Microsoft Dynamics 365 Commerce eelvaatekeskkonnast.
+title: Dynamics 365 Commerce'i hindamiskeskkonna ülevaade
+description: See teema annab ülevaate rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonnast.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,45 +17,50 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024679"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599749"
 ---
-# <a name="dynamics-365-commerce-preview-environment-overview"></a><span data-ttu-id="ad7bd-103">Dynamics 365 Commerce'i eelvaatekeskkonna ülevaade</span><span class="sxs-lookup"><span data-stu-id="ad7bd-103">Dynamics 365 Commerce preview environment overview</span></span>
-
+# <a name="dynamics-365-commerce-evaluation-environment-overview"></a><span data-ttu-id="a9c5f-103">Dynamics 365 Commerce'i hindamiskeskkonna ülevaade</span><span class="sxs-lookup"><span data-stu-id="a9c5f-103">Dynamics 365 Commerce evaluation environment overview</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="ad7bd-104">See teema annab ülevaate rakenduse Microsoft Dynamics 365 Commerce eelvaatekeskkonnast.</span><span class="sxs-lookup"><span data-stu-id="ad7bd-104">This topic gives an overview of the Microsoft Dynamics 365 Commerce preview environment.</span></span>
+<span data-ttu-id="a9c5f-104">See teema annab ülevaate rakenduse Microsoft Dynamics 365 Commerce hindamiskeskkonnast.</span><span class="sxs-lookup"><span data-stu-id="a9c5f-104">This topic gives an overview of the Microsoft Dynamics 365 Commerce evaluation environment.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="ad7bd-105">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="ad7bd-105">Overview</span></span>
+> [!NOTE]
+> <span data-ttu-id="a9c5f-105">Commerce'i hindamiskeskkonnad pole üldiselt kättesaadavad ja antakse partneritele ning klientidele taotluse alusel.</span><span class="sxs-lookup"><span data-stu-id="a9c5f-105">Commerce evaluation environments aren't generally available, and are granted to partners and customers on a per-request basis.</span></span> <span data-ttu-id="a9c5f-106">Lisateabe saamiseks pöörduge oma Microsofti partneri kontakti poole.</span><span class="sxs-lookup"><span data-stu-id="a9c5f-106">For more information, reach out to your Microsoft partner contact.</span></span>
 
-<span data-ttu-id="ad7bd-106">Commerce'i eelvaatekeskkond on valikuline lõpust lõppu Dynamics 365 Commerce'i eelvaatekeskkond, mis laseb potentsiaalsetel klientidel proovida Commerce toodet enne selle üldist vabastamist üldsusele.</span><span class="sxs-lookup"><span data-stu-id="ad7bd-106">The Commerce preview environment is an optional end-to-end preview environment of Dynamics 365 Commerce that lets potential customers try out the Commerce product before its general release to the public.</span></span>
+## <a name="overview"></a><span data-ttu-id="a9c5f-107">Ülevaade</span><span class="sxs-lookup"><span data-stu-id="a9c5f-107">Overview</span></span>
 
-<span data-ttu-id="ad7bd-107">Jättes kõrvale mõned väikesed piirangud, mis ei mõjuta funktsioone või praktilisust, pakub Commerce eelvaatekeskkond täielikku kauplemise kogemust ja seda saavad kasutada kliendid ja rakenduspartnerid, et hinnata toodet, anda tagasisidet ja teha sobivuse/vahe analüüs.</span><span class="sxs-lookup"><span data-stu-id="ad7bd-107">Aside from some minor limitations that don't affect features or functionality, the Commerce preview environment provides the complete Commerce experience, and can be used by customers and implementation partners to evaluate the product, provide feedback, and do fit/gap analysis.</span></span>
+<span data-ttu-id="a9c5f-108">Commerce'i hindamiskeskkond on valikuline täielik Dynamics 365 Commerce'i keskkond, mis võimaldab partneritel ja potentsiaalsetel klientidel proovida Commerce'i toodet.</span><span class="sxs-lookup"><span data-stu-id="a9c5f-108">The Commerce evaluation environment is an optional end-to-end environment of Dynamics 365 Commerce that lets partners and potential customers try out the Commerce product.</span></span>
 
-## <a name="limitations-of-the-commerce-preview-environment"></a><span data-ttu-id="ad7bd-108">Commerce eelvaatekeskkonna piirangud</span><span class="sxs-lookup"><span data-stu-id="ad7bd-108">Limitations of the Commerce preview environment</span></span>
+<span data-ttu-id="a9c5f-109">Hindamiskeskkonnad on osaliselt eelkonfigureeritud, et vähendada nõutavaid ettevalmistuse järgseid etappe.</span><span class="sxs-lookup"><span data-stu-id="a9c5f-109">Evaluation environments are partially preconfigured to reduce the required post-provisioning steps.</span></span>
 
-<span data-ttu-id="ad7bd-109">Kuigi Commerce eelvaatekeskkond pakub kõiki Commerce'i funktsioonide ja praktilisuste kogumit, on mõned väikesed piirangud:</span><span class="sxs-lookup"><span data-stu-id="ad7bd-109">Although the Commerce preview environment provides the full set of Commerce features and functionality, there are some minor limitations:</span></span>
+<span data-ttu-id="a9c5f-110">Jättes kõrvale mõned väikesed piirangud, mis ei mõjuta funktsioone või praktilisust, pakub Commerce'i hindamiskeskkond täielikku kauplemise kogemust ja seda saavad kasutada kliendid ja rakenduspartnerid, et hinnata toodet, anda tagasisidet ja teha sobivuse/vahe analüüs.</span><span class="sxs-lookup"><span data-stu-id="a9c5f-110">Aside from some minor limitations that don't affect features or functionality, the Commerce evaluation environment provides the complete Commerce experience, and can be used by customers and implementation partners to evaluate the product, provide feedback, and do fit/gap analysis.</span></span>
 
-- <span data-ttu-id="ad7bd-110">Kuigi Commerce eelvaatekeskkonnas ei ole geograafilisi piiranguid, saab keskkonda komponente, nagu Retail Cloud Scale Unit (RCSU) ja e-kaubanduse rakendusi, ette valmistada ainult Ameerika Ühendriikides.</span><span class="sxs-lookup"><span data-stu-id="ad7bd-110">Although the Commerce preview environment itself has no geographical limitations, components of the environment, such as the Retail Cloud Scale Unit (RCSU) and e-Commerce applications, can be provisioned only in the United States.</span></span>
-- <span data-ttu-id="ad7bd-111">Commerce Preview keskkonnal on 30-päevase ajalimiit alates e-kaubanduse ettevalmistamise kuupäevast.</span><span class="sxs-lookup"><span data-stu-id="ad7bd-111">Use of the Commerce preview environment is limited to 30 days from the date when e-Commerce is provisioned.</span></span>
-- <span data-ttu-id="ad7bd-112">Commerce Preview keskkonda saab edukalt rakendada ja lähtestada ainult keskkonnas, mis kasutab demo topoloogiat, kus kõik keskkonna komponendid on kasutusele võetud ühe virtuaalarvuti (VM) abil.</span><span class="sxs-lookup"><span data-stu-id="ad7bd-112">The Commerce preview environment can be successfully deployed and initialized only in an environment that uses the demo topology, where all components of an environment are deployed in a single virtual machine (VM).</span></span> <span data-ttu-id="ad7bd-113">Selle OneBox VM topoloogia peamine piirang on samaaegsete kasutajate arv, mida eelvaate keskkond saab toetada.</span><span class="sxs-lookup"><span data-stu-id="ad7bd-113">The main limitation of this OneBox VM topology is the number of concurrent users that the preview environment can support.</span></span>
-- <span data-ttu-id="ad7bd-114">Commerce eelvaatekeskkonda saab hinnata ainult seni, kuni on olemas Commerce'i toote üldine kättesaadavus (GA).</span><span class="sxs-lookup"><span data-stu-id="ad7bd-114">The Commerce preview environment can be evaluated only until the general availability (GA) of the Commerce product.</span></span> <span data-ttu-id="ad7bd-115">Uued demo keskkonnad on saadaval pärast GA-d.</span><span class="sxs-lookup"><span data-stu-id="ad7bd-115">New demo environments will be available after GA.</span></span>
+## <a name="limitations-of-the-commerce-evaluation-environment"></a><span data-ttu-id="a9c5f-111">Commerce'i hindamiskeskkonna piirangud</span><span class="sxs-lookup"><span data-stu-id="a9c5f-111">Limitations of the Commerce evaluation environment</span></span>
 
-## <a name="get-started"></a><span data-ttu-id="ad7bd-116">Alusta</span><span class="sxs-lookup"><span data-stu-id="ad7bd-116">Get started</span></span>
+<span data-ttu-id="a9c5f-112">Kuigi Commerce'i hindamiskeskkond pakub kõiki Commerce'i funktsioonide ja praktilisuste kogumit, on mõned väikesed piirangud:</span><span class="sxs-lookup"><span data-stu-id="a9c5f-112">Although the Commerce evaluation environment provides the full set of Commerce features and functionality, there are some minor limitations:</span></span>
 
-<span data-ttu-id="ad7bd-117">Commerce eelvaatekeskkonna ettevalmistamiseks vaadake teemat [Commerce eelvaatekeskkonna ettevalmistamiseks](provisioning-guide.md).</span><span class="sxs-lookup"><span data-stu-id="ad7bd-117">To provision the Commerce preview environment, see [Provision a Commerce preview environment](provisioning-guide.md).</span></span>
+- <span data-ttu-id="a9c5f-113">Kuigi Commerce'i hindamiskeskkonnas ei ole geograafilisi piiranguid, tuleks keskkonda komponente, nagu Retail Cloud Scale Unit (RCSU) ja e-kaubanduse rakendusi, ette valmistada ainult Ameerika Ühendriikides.</span><span class="sxs-lookup"><span data-stu-id="a9c5f-113">Although the Commerce evaluation environment itself has no geographical limitations, components of the environment, such as the Retail Cloud Scale Unit (RCSU) and e-Commerce applications, should be provisioned only in the United States.</span></span>
+- <span data-ttu-id="a9c5f-114">Commerce'i hindamiskeskkonnal on 30-päevane ajapiirang alates e-kaubanduse ettevalmistamise kuupäevast.</span><span class="sxs-lookup"><span data-stu-id="a9c5f-114">Use of the Commerce evaluation environment is limited to 30 days from the date when e-Commerce is provisioned.</span></span>
+- <span data-ttu-id="a9c5f-115">Commerce'i hindamiskeskkonda saab edukalt rakendada ja lähtestada ainult keskkonnas, mis kasutab demo topoloogiat, kus kõik keskkonna komponendid on kasutusele võetud ühe pilve majutatud virtuaalarvuti (VM) abil.</span><span class="sxs-lookup"><span data-stu-id="a9c5f-115">The Commerce evaluation environment can be successfully deployed and initialized only in an environment that uses the demo topology, where all components of an environment are deployed on a single cloud-hosted virtual machine (VM).</span></span> <span data-ttu-id="a9c5f-116">Selle topoloogia peamine piirang on samaaegsete kasutajate arv, mida keskkond saab toetada.</span><span class="sxs-lookup"><span data-stu-id="a9c5f-116">The main limitation of this topology is the number of concurrent users that the environment can support.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="ad7bd-118">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="ad7bd-118">Additional resources</span></span>
+## <a name="get-started"></a><span data-ttu-id="a9c5f-117">Alusta</span><span class="sxs-lookup"><span data-stu-id="a9c5f-117">Get started</span></span>
 
-[<span data-ttu-id="ad7bd-119">Dynamics 365 Commerce'i eelvaatekeskkonna ettevalmistamine</span><span class="sxs-lookup"><span data-stu-id="ad7bd-119">Provision a Dynamics 365 Commerce preview environment</span></span>](provisioning-guide.md)
+<span data-ttu-id="a9c5f-118">Commerce'i hindamiskeskkonna ettevalmistamiseks vaadake teemat [Commerce'i hindamiskeskkonna ettevalmistamine](provisioning-guide.md).</span><span class="sxs-lookup"><span data-stu-id="a9c5f-118">To provision the Commerce evaluation environment, see [Provision a Commerce evaluation environment](provisioning-guide.md).</span></span>
 
-[<span data-ttu-id="ad7bd-120">Dynamics 365 Commerce’i eelvaatekeskkonna konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ad7bd-120">Configure a Dynamics 365 Commerce preview environment</span></span>](cpe-post-provisioning.md)
+## <a name="additional-resources"></a><span data-ttu-id="a9c5f-119">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="a9c5f-119">Additional resources</span></span>
 
-[<span data-ttu-id="ad7bd-121">Dynamics 365 Commerce’i eelvaatekeskkonna valikuliste funktsioonide konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="ad7bd-121">Configure optional features for a Dynamics 365 Commerce preview environment</span></span>](cpe-optional-features.md)
+[<span data-ttu-id="a9c5f-120">Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine</span><span class="sxs-lookup"><span data-stu-id="a9c5f-120">Provision a Dynamics 365 Commerce evaluation environment</span></span>](provisioning-guide.md)
 
-[<span data-ttu-id="ad7bd-122">Dynamics 365 Commerce eelvaatekeskkonna KKK</span><span class="sxs-lookup"><span data-stu-id="ad7bd-122">Dynamics 365 Commerce preview environment FAQ</span></span>](cpe-faq.md)
+[<span data-ttu-id="a9c5f-121">Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="a9c5f-121">Configure a Dynamics 365 Commerce evaluation environment</span></span>](cpe-post-provisioning.md)
+
+[<span data-ttu-id="a9c5f-122">BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas</span><span class="sxs-lookup"><span data-stu-id="a9c5f-122">Configure BOPIS in a Dynamics 365 Commerce evaluation environment</span></span>](cpe-bopis.md)
+
+[<span data-ttu-id="a9c5f-123">Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine</span><span class="sxs-lookup"><span data-stu-id="a9c5f-123">Configure optional features for a Dynamics 365 Commerce evaluation environment</span></span>](cpe-optional-features.md)
+
+[<span data-ttu-id="a9c5f-124">Dynamics 365 Commerce'i hindamiskeskkonna KKK</span><span class="sxs-lookup"><span data-stu-id="a9c5f-124">Dynamics 365 Commerce evaluation environment FAQ</span></span>](cpe-faq.md)
