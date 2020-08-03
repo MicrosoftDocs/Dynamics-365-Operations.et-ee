@@ -1,9 +1,9 @@
 ---
-title: Dynamics 365 Commercei eelvaatekeskkonna valikuliste funktsioonide konfigureerimine
-description: Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i eelvaatekeskkond, kui see on ette valmistatud.
+title: Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine
+description: Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i hindamiskeskkond, kui see on ette valmistatud.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,28 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057736"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599816"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commercei eelvaatekeskkonna valikuliste funktsioonide konfigureerimine
-
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i eelvaatekeskkond, kui see on ette valmistatud.
+Selles teemas selgitatakse, kuidas konfigureerida Microsoft Dynamics 365 Commerce’i hindamiskeskkond, kui see on ette valmistatud.
 
 ## <a name="prerequisites"></a>Eeltingimused
 
 Kui soovite hinnata ülekande meilifunktsioone, peavad olema täidetud järgmised eeltingimused.
 
-- Teil on meili server saadaval \[SMTP\], mida saab kasutada Microsoft Azure'i tellimusel, kus te eelvaate keskkonda ette valmistate.
+- Teil on meiliserver saadaval (Simple Mail Transfer Protocol \[SMTP\] server), mida saab kasutada Microsoft Azure'i tellimuses, kus te hindamiskeskkonda ette valmistate.
 - Teile on saadaval serveri täielikult kvalifitseeritud domeeni nimi (FQDN)/IP aadress, SMTP pordi number ja autentimise üksikasjad.
-
-Kui soovite hinnata digitaalse varahalduse funktsioone uusi omni-kanali pilte lisades, peab teil olema oma sisu haldamise süsteemi (CMS) üürniku nimi saadaval. Selle nime leidmise juhised on toodud hiljem selles teemas. >>>(Q: kus on juhised?)
 
 ## <a name="configure-the-image-back-end"></a>Kujutise konfigureerimine tagaserveris
 
@@ -47,9 +44,9 @@ Kui soovite hinnata digitaalse varahalduse funktsioone uusi omni-kanali pilte li
 > [!NOTE]
 > Enne, kui saate selle protseduuri lõpule viia, peate täitma sammud [oma saidi häälestamiseks Commerce'iis](cpe-post-provisioning.md#set-up-your-site-in-commerce).
 
-1. Logige saidi halduse tööriista sisse, kasutades URL-i, mis te tegite, kui te e-kaubanduse lähtestamist ette valmistasite (vt [e-kaubanduse lähtestamine](provisioning-guide.md#initialize-e-commerce)).
+1. Logige Commerce'i saidiehitajasse sisse, kasutades URL-i, mille märkisite üles, kui te e-kaubanduse lähtestamist ette valmistasite (vt [e-kaubanduse lähtestamine](provisioning-guide.md#initialize-e-commerce)).
 1. Avage sait **Fabrikam**.
-1. Valige vasakpoolses menüüs **Varud**.
+1. Valige vasakpoolses menüüs **Meediumiteek**.
 1. Valige mis tahes üks pildi vara.
 1. Paremal asuval atribuudi kontrollijal leiate **avaliku URL-i** atribuudi. Väärtus on URL. Siin on näide.
 
@@ -63,22 +60,22 @@ Kui soovite hinnata digitaalse varahalduse funktsioone uusi omni-kanali pilte li
 
 ### <a name="update-the-media-base-url"></a>Meedia baas-URL-i värskendamine
 
-1. Logige sisse rakendusse Dynamics 365 Commerce.
+1. Logige Commerce’i peakontorisse sisse.
 1. Vasakul asuva menüü abil avage **Moodulid \> Jaemüük ja kaubandus \> Kanali häälestus \> Kanali profiilid**.
 1. Valige suvand **Redigeeri**.
 1. Suvandis **Profiili atribuudid** asendage atribuudi väärtus **Meedia serveri baas-URL** väärtusega Meedia baas-URL, mille enne lõite.
-1. Valige vasakult loendist teine kanal, mis on kanali **Vaikimisi** all.
+1. Valige muu kanal nimega **scXXXXXXXXX**.
 1. Suvandil **Profiili atribuudid** klõpsake nuppu **Lisa**.
 1. Lisatud atribuudi jaoks valige atribuudi võtmeks **Meedia serveri baas-URL**. Atribuudi väärtusena sisestage varem loodud meediumi aluse URL.
 1. Valige käsk **Salvesta**.
 
-## <a name="configure-the-email-server"></a>Meiliserveri konfigureerimine
+## <a name="configure-and-test-the-email-server"></a>Meiliserveri konfigureerimine ja testimine
 
 > [!NOTE]
 > Sisestatud SMTP-serveri või meiliteenus peab olema juurdepääsetav Azure'i kordustellimusest, mida keskkonna jaoks kasutate.
 
-1. Logige Commerce’i sisse.
-1. Vasakul asuva menüü abil avage **Moodulid \> Süsteemi haldus \> Häälestus \> Meil \> Meili parameetrid**.
+1. Logige Commerce’i peakontorisse sisse.
+1. Avage vasakul oleva menüü abil **Moodulid \> Jaemüük ja kaubandus \> Peakontori häälestus \> Parameetrid \> Meiliparameetrid**.
 1. Sisestage vahekaardi **SMTP-** sätted väljale **Väljamineva meili server** oma SMTP-serveri või e-posti teenuse FQDN või IP-aadress.
 1. Sisestage väljale **SMTP pordi number** SMTP pordi number. (Kui te ei kasuta rakendust Secure Sockets Layer \[SSL\]-i, on vaikimisi pordi number **25**.)
 1. Autentimise vajadusel sisestage väärtused väljadele **Kasutajanimi** ja **Prool**.
@@ -92,8 +89,8 @@ Kui soovite hinnata digitaalse varahalduse funktsioone uusi omni-kanali pilte li
 
 Iga kandelise sündmuse jaoks, mille jaoks soovite meile saata, tuleb uuendada meilimalli kehtiva saatja meiliaadressiga.
 
-1. Logige Commerce’i sisse.
-1. Vasakul asuva menüü abil avage **Moodulid \> Organisatsiooni haldus \> Häälestus \> Organisatsiooni meilimallid**.
+1. Logige Commerce’i peakontorisse sisse.
+1. Avage vasakul oleva menüü abil **Moodulid \> Jaemüük ja kaubandus \> Peakontori häälestus \> Parameetrid \> Organisatsiooni meilimallid**.
 1. Valige **Näita loendit**.
 1. Iga loetletud malli puhul toimige järgmiselt:
 
@@ -104,9 +101,9 @@ Iga kandelise sündmuse jaoks, mille jaoks soovite meile saata, tuleb uuendada m
 
 ## <a name="customize-email-templates"></a>Meilimallide kohandamine
 
-Võite soovida kohandada meilimalle, et nad kasutaksid erinevaid pilte. Võite ka värskendada linke mallides, et need läheksid teie eelvaate keskkonda. See protseduur selgitab, kuidas vaikimisi malle alla laadida, neid kohandada ja süsteemi malle värskendada.
+Võite soovida kohandada meilimalle, et nad kasutaksid erinevaid pilte. Võite ka värskendada linke mallides, et need sobiksid teie hindamiskeskkonda. See protseduur selgitab, kuidas vaikimisi malle alla laadida, neid kohandada ja süsteemi malle värskendada.
 
-1. Brauseri abil laadige kohalikku arvutisse [Microsoft Dynamics 365 Commerce eelvaate vaikimisi meilimallide zip-fail](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip). See fail sisaldab järgmisi HTML-dokumente:
+1. Laadige brauserist alla kohalikku arvutisse [Microsoft Dynamics 365 Commerce'i hindamisee vaikimisi meilimallide zip-fail](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip). See fail sisaldab järgmisi HTML-dokumente:
 
     - Tellimuse kinnituse mall
     - Kinkekaardi väljastamise mall
@@ -160,7 +157,7 @@ Järgmised load on iga toote puhul tellimuses asendatud väärtustega.
 |------------------------|-------|
 | Tooteloend - algus   | \<!--%tablebegin.salesline% --\> |
 | Tooteloend - lõpp     | \<!--%tableend.salesline%--\> |
-| Toote nimi           | %lineproductname% |
+| Toote nimetus           | %lineproductname% |
 | Kirjeldus            | %lineproductdescription% |
 | Kogus               | %linequantity% |
 | Reaühiku hind        | %lineprice% (kontrollige) |
@@ -173,13 +170,15 @@ Järgmised load on iga toote puhul tellimuses asendatud väärtustega.
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Dynamics 365 Commerce eelvaatekeskkonna ülevaade](cpe-overview.md)
+[Dynamics 365 Commerce'i hindamiskeskkonna ülevaade](cpe-overview.md)
 
-[Dynamics 365 Commerce'i eelvaatekeskkonna ettevalmistamine](provisioning-guide.md)
+[Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine](provisioning-guide.md)
 
-[Dynamics 365 Commerce’i eelvaatekeskkonna konfigureerimine](cpe-post-provisioning.md)
+[Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine](cpe-post-provisioning.md)
 
-[Dynamics 365 Commerce eelvaatekeskkonna KKK](cpe-faq.md)
+[BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas](cpe-bopis.md)
+
+[Dynamics 365 Commerce'i hindamiskeskkonna KKK](cpe-faq.md)
 
 [Microsofti elutsükli teenused (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

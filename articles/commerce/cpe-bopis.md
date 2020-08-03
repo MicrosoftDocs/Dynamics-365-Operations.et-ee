@@ -1,9 +1,9 @@
 ---
-title: BOPIS-i konfigureerimine Dynamics 365 Commerce'i keskkonnas
-description: Selles teemas selgitatakse, kuidas konfigureerida stsenaariumit „osta veebis, käi poes järel” (BOPIS) Microsoft Dynamics 365 Commerce'i keskkonnas pärast selle ettevalmistamist.
+title: BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas
+description: Selles teemas selgitatakse, kuidas konfigureerida stsenaariumit „osta veebis, käi poes järel” (BOPIS) Microsoft Dynamics 365 Commerce'i hindamiskeskkonnas pärast selle ettevalmistamist.
 author: rubendel
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 956d66d09885d4d54655ce25b3aa7ba6a9c34cf4
-ms.sourcegitcommit: dfef2faf881b2db1bd0f016df36e2b838105312b
+ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3282792"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599792"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-environment"></a>BOPIS-i konfigureerimine Dynamics 365 Commerce'i keskkonnas
-
+# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas konfigureerida stsenaariumit „osta veebis, käi poes järel” (BOPIS) Microsoft Dynamics 365 Commerce'i keskkonnas pärast keskkonna ettevalmistamist.
+Selles teemas selgitatakse, kuidas konfigureerida stsenaariumit „osta veebis, käi poes järel” (BOPIS) Microsoft Dynamics 365 Commerce'i hindamiskeskkonnas pärast keskkonna ettevalmistamist.
 
 ## <a name="prerequisite"></a>Eeltingimus
 
-Lõpetage selle teema protseduurid alles pärast seda, kui rakenduse Commerce eelvaatekeskkond on ette valmistatud ja konfigureeritud. Teavet selle kohta, kuidas oma keskkonda ette valmistada ja konfigureerida, vaadake teemadest [Dynamics 365 Commerce'i eelvaatekeskkonna ettevalmistamine](provisioning-guide.md) ja [Dynamics 365 Commerce'i eelvaatekeskkonna konfigureerimine](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Viige selle teema protseduurid lõpule alles pärast seda, kui Commerce'i hindamiskeskkond on ette valmistatud ja konfigureeritud. Teavet selle kohta, kuidas oma keskkonda ette valmistada ja konfigureerida, vaadake teemadest [Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine](provisioning-guide.md) ja [Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
 
 Pärast seda, kui teie Commerce'i keskkond on lõpuni ette valmistatud ja konfigureeritud, saate seda teemat kasutada BOPIS-i stsenaariumide lubamiseks.
 
@@ -71,7 +70,7 @@ BOPIS-i stsenaariumide jaoks, mis hõlmavad krediitkaardimakseid, on vaja riistv
 5. Kuvatakse dialoogiboks autentimiseks. Valige konto, mis kasutab e-posti aadressi, mis oli varem seotud töötajaga **000713 – Andrew Collette**.
 
     > [!NOTE]
-    > Kui te pole veel töötajat oma identiteediga seostanud, siis aktiveerimine nurjub. Sellisel juhul järgige teema [Dynamics 365 Commerce'i eelvaatekeskkonna konfigureerimine](cpe-post-provisioning.md#associate-a-worker-with-your-identity) jaotises „Seosta töötaja oma identiteediga” toodud samme.
+    > Kui te pole veel töötajat oma identiteediga seostanud, siis aktiveerimine nurjub. Sellisel juhul järgige teema [Dynamics 365 Commerce'i hindamiskeskkonna konfigureerimine](cpe-post-provisioning.md#associate-a-worker-with-your-identity) jaotises „Seosta töötaja oma identiteediga” toodud samme.
     
 6. Kui teil palutakse lasta oma organisatsioonil seadet hallata, valige **Ainult see rakendus**.
 7. Kui aktiveerimine on lõpule viidud, valige **Alustamine**.
@@ -144,13 +143,13 @@ Kõigi üldiste probleemide puhul peaksite alati esimesena uurima Modern POS-i v
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Dynamics 365 Commerce’i eelvaatekeskkonna ülevaade](cpe-overview.md)
+[Dynamics 365 Commerce'i hindamiskeskkonna ülevaade](cpe-overview.md)
 
-[Dynamics 365 Commerce'i eelvaatekeskkonna ettevalmistamine](provisioning-guide.md)
+[Dynamics 365 Commerce'i hindamiskeskkonna ettevalmistamine](provisioning-guide.md)
 
-[Dynamics 365 Commerce’i eelvaatekeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
+[Dynamics 365 Commerce'i hindamiskeskkonna valikuliste funktsioonide konfigureerimine](cpe-optional-features.md)
 
-[Dynamics 365 Commerce eelvaatekeskkonna KKK](cpe-faq.md)
+[Dynamics 365 Commerce'i hindamiskeskkonna KKK](cpe-faq.md)
 
 [Microsofti elutsükli teenused (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab732853a2c37338d8003c5f8911c011aa8ffc60
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 02243b2c75a4f50683a51c1d9d811f2e2a2d413f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225147"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555047"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (3. aprill, 2020)?
 
@@ -128,3 +128,10 @@ Kui SharePointi talletatud dokumentide dokumendieelvaade ei tööta, proovige j�
 3. Juurdepääs SharePointi manusele dokumendieelvaate käivitamiseks.
 
 4. Logige sisse teise kasutajakontoga, millel on juurdepääs manustele ja kinnitage, et eelvaade töötab ootuspäraselt.
+
+## <a name="see-also"></a>Vt ka
+
+[Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
+[Funktsioonide haldamine](hr-admin-manage-features.md)

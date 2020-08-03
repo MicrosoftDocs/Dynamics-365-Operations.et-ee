@@ -3,7 +3,7 @@ title: Kassa ülevaate Power BI sisu
 description: Selles teemas kirjeldatakse kassa ülevaate Power BI sisu. See selgitab juurdepääsu sisus sisalduvatele aruannetele ning annab teavet andmemudeli ja olemite kohta, mida sisu loomiseks kasutati.
 author: saraschi2
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7621ca961288af81966e0ac883c6525f89960654
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553136"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598129"
 ---
 # <a name="cash-overview-power-bi-content"></a>Kassa ülevaate Power BI sisu
 
@@ -38,10 +38,11 @@ Selles teemas kirjeldatakse **kassa ülevaate** Microsoft Power BI sisu. See sel
 Järgmine seadistus tuleb lõpule viia, et kuvada andmeid **Sularaha ülevaade** ja **Panga juhtkond** Power BI visuaalides.
 
 1. Avage **Süsteemihaldus > Seadistamine > Süsteemi parameetrid**, et määrata **Süsteemi valuuta** ja **Süsteemi vahetuskurss**.
-2. Avage **Üldine pearaamat > Seadistus > Pearaamat**, et seadistada **Raamatupidamise valuutat** ja **Vahetuskursi tüüpi**.
-2. Määratlege vahetuskursid kannete valuutade ja arvestusvaluuta, raamatupidamise valuuta ja süsteemi valuuta ning raamatupidamise valuuta ja panga valuutade vahel. Selleks avage **Pearaamat > Valuutad > Valuutakursid**.
-3. Konfigureerige ja käivitage likviidsuse planeerimine. Lisainfo saamiseks likviidsuse planeerimise kohta vt [Likviidsuse planeerimine](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
-4. Avage **Süsteemihaldus > Seadistamine > Üksuse kauplus**, et värskendada **LedgerCovLiquidityMeasurement** koondmõõtmist.
+2. Avage jaotis **Pearaamat > Kalendrid > Rahanduskalendrid**, et kinnitada aktiivsele ajavahemikule määratud rahanduskalendri kuupäevad.
+3. Avage **Üldine pearaamat > Seadistus > Pearaamat**, et seadistada **Raamatupidamise valuutat** ja **Vahetuskursi tüüpi**.
+4. Määratlege vahetuskursid kannete valuutade ja arvestusvaluuta, raamatupidamise valuuta ja süsteemi valuuta ning raamatupidamise valuuta ja panga valuutade vahel. Selleks avage **Pearaamat > Valuutad > Valuutakursid**.
+5. Konfigureerige ja käivitage likviidsuse planeerimine. Lisainfo saamiseks likviidsuse planeerimise kohta vt [Likviidsuse planeerimine](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+6. Avage **Süsteemihaldus > Seadistamine > Üksuse kauplus**, et värskendada **LedgerCovLiquidityMeasurement** koondmõõtmist.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fdd409b33989e371d0bd2a6e21b27721336cea0
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: d85ce8ccfcd7f1b975244cc2f65535101013ac89
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3114423"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555287"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-3-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (3. märts 2020)
 
@@ -87,3 +87,10 @@ Selle muudatusega aeguvad kõik vana ametikoha aktiivsed põhipalga kirjed ülek
 - **Puhkuste ja puudumiste eelvaatefunktsioonid** – lisateavet vt [Puhkuste ja puudumiste eelvaatefunktsioonid](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
 - **Soodustuste halduse eelvaatefunktsioon** – lisateavet, sh teadaolevaid probleeme vt [Soodustuste halduse ülevaade](hr-benefits-management-overview.md).
+
+## <a name="see-also"></a>Vt ka
+
+[Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
+[Funktsioonide haldamine](hr-admin-manage-features.md)

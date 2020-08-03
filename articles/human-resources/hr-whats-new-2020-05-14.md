@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d46671f73a75a9ed3a652d76153c923a3542b5f6
-ms.sourcegitcommit: 7c750711e9fe1d3726c6ee650669529684933001
+ms.openlocfilehash: 3ce1aca9cebc5b330f054a11e38b5dfc4fc9109d
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386103"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555167"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (14. mai 2020)
 
@@ -110,3 +110,10 @@ Selles väljalaskes on alustatud inimressursside parameetrite kombineerimist puh
 ## <a name="carry-forward-rules"></a>Edasikandmise reeglid
 
 Saate määrata edasikandmise puhkuse tüübi edasikantavale saldole, mille edasikandmise korrigeerimised kantakse üle. Näiteks kui töövõtja kannab edasi 10 päeva, saate valida nende 10 päeva jaoks teistsuguse puhkuse tüübi. Lisateabe saamiseks vt [Puhkuse ja puudumise tüüpide konfigureerimine](hr-leave-and-absence-types.md).
+
+## <a name="see-also"></a>Vt ka
+
+[Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
+[Funktsioonide haldamine](hr-admin-manage-features.md)

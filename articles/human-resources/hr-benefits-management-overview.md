@@ -3,7 +3,7 @@ title: Soodustuste halduse ülevaade
 description: Rakenduse Dynamics 365 Human Resources soodustuste haldamise funktsiooni eelvaade. Pakkuge oma töötajatele hõlpsasti kasutatava võrgukasutuskogemusega laiendatud soodustuste võimalusi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4157cb1f83d686d435f3d04e47c578df455376c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429252"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599376"
 ---
 # <a name="benefits-management-overview"></a>Soodustuste haldamise ülevaade
 
@@ -60,6 +60,8 @@ See artikkel kirjeldab, kuidas funktsioone rakenduses Human Resources sisse lül
 
 Enne eeliste andmist töötajatele peate sisestama nõutava teabe. Peate töötaja lisama **põhipalgaplaanile** nende töötamise alguskuupäeval ning vormi **Töötaja** väljal **Tööhõive üksikasjad** peate valima **Soodustuse maksesagedus**.
 
+Kui teil on töötaja, kes saab lisahüvitust (nt komisjonitasud), saate lisada summa **Soodustuste aastane palgasumma** töövõtja kirjesse. Human Resources kasutab summat **Soodustuse aastane palgasumma** kindlustussummade määramiseks aastase põhipalga summa asemel. **Soodustuste aastane palgasumma** peab kehtima alates töövõtja alustamise kuupäevast või soodustuse perioodi algusest, olenevalt sellest, kumb on hilisem. Kui töövõtja kohta kirjendatakse nii põhipalk soodustuste aastane palgasumma, kasutatakse kindlustuse summade määramisel soodustuste aastast palgasummat.
+
 Kui loote soodustusplaani, mis kasutab sool või vanusel põhinevaid määrasid, peate soodustuse maksumuse arvutamiseks sisestama töötaja sünnikuupäeva ja soo.
 
 ## <a name="configure-benefits-management"></a>Soodustuste halduse konfigureerimine
@@ -79,7 +81,7 @@ Enne kui saate oma töötajate jaoks soodustuse plaane luua, tuleb teil plaanide
 - [Mahaarvamiste konfigureerimine](hr-benefits-setup-deductions.md)
 - [Ootepäevade konfigureerimine](hr-benefits-setup-waiting-days.md)
 - [Ooteperioodide konfigureerimine](hr-benefits-setup-waiting-periods.md)
-- [Ümardamisreeglite seadistamine](hr-benefits-setup-rounding-rules.md)
+- [Ümardamisreeglite häälestus](hr-benefits-setup-rounding-rules.md)
 - [Töötajate kategooriate loomine](hr-benefits-setup-employment-categories.md)
 - [Tööhõive tüüpide seadistamine](hr-benefits-setup-employment-types.md)
 - [Töövõtja iseteeninduse konfigureerimine](hr-benefits-setup-employee-self-service.md)

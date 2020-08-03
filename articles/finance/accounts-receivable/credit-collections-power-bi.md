@@ -3,7 +3,7 @@ title: Krediidi ja võlanõuete halduse Power BI sisu
 description: See teema kirjeldab, mida hõlmab krediidi ja võlanõuete halduse Power BI sisu. See selgitab ka seda, kuidas pääseda juurde Power BI aruannetele, ning annab teavet andmemudeli ja üksuste kohta, mida kasutatakse sisu loomiseks.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278870"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598054"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Krediidi ja võlanõuete halduse Power BI sisu
 
@@ -47,9 +47,10 @@ Vaikimisi kuvatakse praeguse ettevõtte krediidi ja võlanõuete andmed. Andmete
 **Klientide krediidihaldus ja võlanõuded** Power BI visuaalide kuvamiseks tuleb teha järgmine seadistus.
 
 1. Avage **Süsteemihaldus > Seadistamine > Süsteemi parameetrid**, et määrata **Süsteemi valuuta** ja **Süsteemi vahetuskurss**.
-2. Avage **Üldine pearaamat > Seadistus > Pearaamat** ja määrake **Raamatupidamise valuutat** ja **Vahetuskursi tüüpi**.
-3. Määratlege vahetuskursid kannete valuutade ja arvestusvaluuta, raamatupidamise valuuta ja süsteemi valuuta vahel. Selleks avage **Pearaamat > Valuutad > Valuutakursid**.
-4. Avage **Süsteemihaldus > Seadistamine > Üksuse kauplus**, et värskendada **CustCollectionsBIMeasurementsV2** koondmõõtmist.
+2. Avage jaotis **Pearaamat > Kalendrid > Rahanduskalendrid**, et kinnitada aktiivsele ajavahemikule määratud rahanduskalendri kuupäevad.
+3. Avage **Üldine pearaamat > Seadistus > Pearaamat** ja määrake **Raamatupidamise valuutat** ja **Vahetuskursi tüüpi**.
+4. Määratlege vahetuskursid kannete valuutade ja arvestusvaluuta, raamatupidamise valuuta ja süsteemi valuuta vahel. Selleks avage **Pearaamat > Valuutad > Valuutakursid**.
+5. Avage **Süsteemihaldus > Seadistamine > Üksuse kauplus**, et värskendada **CustCollectionsBIMeasurementsV2** koondmõõtmist.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 

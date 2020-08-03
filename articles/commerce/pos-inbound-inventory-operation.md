@@ -3,7 +3,7 @@ title: Varude sissetuleku toiming kassas
 description: Selles teemas kirjeldatakse kassa varude sissetuleku toimingu võimalusi.
 author: hhaines
 manager: annbe
-ms.date: 03/12/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: b212906dcf037171af264c60720f361215eed599
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123895"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551597"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Varude sissetuleku toiming kassas
 
@@ -57,6 +57,9 @@ Asünkroonse dokumendi raamistiku konfigureerimiseks viige lõpule järgmised pr
 5. Kiirkaardil **Üldine** jaotises **Seadistus** määrake suvand **Pidev** valikule **Ei**, et tagada, et ei esineks jõudluse probleeme.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Dokumendi töötlemiseks ja ülesannete jälgimiseks kahe pakett-töö loomine ja ajastamine
+
+> [!NOTE]
+> Commerce'i versioonis 10.0.13 ja hilisemas ei pea te neid pakett-töid pakett-töö raamistiku kaudu konfigureerima. Neid pakktöötlusi saab konfigureerida menüüst **Jaemüük ja kaubandus > Jaemüügi ja kaubanduse IT**. Kasutage menüüsuvandeid **Jaemüügidokumendi toimingu jälgija** ja **Jaemüügidokumendi toimingu töötlemine** nende pakett-tööde konfigureerimiseks.
 
 Loodavaid pakett-töösid kasutatakse dokumentide töötlemiseks, mis nurjuvad või aeguvad. Neid kasutatakse ka siis, kui kassas töödeldavate aktiivsete varude dokumentide arv ületab süsteemi konfigureeritud väärtuse.
 

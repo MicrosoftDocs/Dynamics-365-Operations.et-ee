@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
+ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431241"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3554321"
 ---
 # <a name="copy-an-instance"></a>Kopeeri eksemplar
 
@@ -108,6 +108,6 @@ Lisaks muutuvad eksemplari kopeerimisel järgmised olekud.
 
 ## <a name="environment-admin"></a>Kekkonna administraator
 
-Kõik liivakasti sihtkeskkonna kasutajad (sh administraatorid) asendatakse lähtekeskkonna kasutajatega. Enne eksemplari kopeerimist veenduge, et oleksite sihtkeskkonnas administraator. Kui te seda ei ole, ei saa te pärast kopeerimise lõpetamist liivakasti sihtkeskkonda sisse logida.
+Kõik liivakasti sihtkeskkonna kasutajad (sh administraatorid) asendatakse lähtekeskkonna kasutajatega. Enne eksemplari kopeerimist veenduge, et oleksite lähtekeskkonnas administraator. Kui te seda ei ole, ei saa te pärast kopeerimise lõpetamist liivakasti sihtkeskkonda sisse logida.
 
 Kõik mitte-administraatorist kasutajad liivakasti sihtkeskkonnas keelatakse, et välistada liivakasti keskkonnas soovimatuid sisselogimisi. Administraatorid saavad vajadusel kasutajaid uuesti lubada.

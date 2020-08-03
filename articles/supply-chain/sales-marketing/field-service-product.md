@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1efa4e403f5cf2cdc5fb797f05781f6d42245ed5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d96d1cd91bad4f950868074d9558cb403821d73f
+ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210007"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "3546358"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Rakenduses Supply Chain Management toodete sünkroonimine rakenduse Field Service toodetega
 
@@ -48,13 +48,13 @@ Selles teemas kirjeldatakse ainult mallide **Field Service’i tooted (Supply Ch
 
 Kasutatud mall **Field Service’i tooted (rakendus Supply Chain Management rakendusele Field Service)** sisaldab ühte vastendust, mis pole kaasatud malli **Tooted (rakendus Supply Chain Management rakendusele Salesi) – otse**. See vastendus tagab, et kohustuslik spetsiifiline Field Service’i väli **Service’i toote tüüp** on õigesti seadistatud.
 
-```Text
+```plaintext
 FIELDSERVICEPRODUCTTYPE        Fn        msdyn_fieldserciveproducttype
 ```
 
 Kasutatakse järgmist vastendamist.
 
-```Text
+```plaintext
 inventory     :  690970000
 nonInventory  :  690970001 
 service       :  690970002 

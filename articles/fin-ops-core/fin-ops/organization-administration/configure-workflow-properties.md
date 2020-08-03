@@ -3,7 +3,7 @@ title: Töövoo atribuutide konfigureerimine
 description: See teema selgitab, kuidas konfigureerida töövoo mitmesuguseid atribuute.
 author: sericks007
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
-ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
+ms.openlocfilehash: 268448049955170b8eb9e64cbd50416565a041b1
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3199432"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541105"
 ---
 # <a name="configure-workflow-properties"></a>Töövoo atribuutide konfigureerimine
 
@@ -91,12 +91,7 @@ Määrake nende toimingute abil, millal konfigureeritavat töövoogu kasutatakse
 3. Klõpsake **Lisa tingimus**.
 4. Sisestage tingimus.
 5. Sisestage täiendavad vajalikud tingimused.
-6. Tehke järgmist kontrollimaks, kas teie sisestatud tingimused on õigesti määratud.
-
-    1. Klõpsake nuppu **Test**.
-    2. Lehel **Testi töövoo tingimus** alas **Kontrolli tingimust** valige kirje.
-    3. Klõpsake nuppu **Test**. Süsteem hindab kirjet otsustamaks, kas see vastab teie määratud tingimustele. Näiteks kui loote Hispaania jaoks ostutaotluse töövoogu, näete lehe jaotises **Kontrolli tingimust** ostutaotluste loendit. Kui klõpsate käsul **Katseta**, kontrollib süsteem valitud ostutaotlust, et määrata, kas riik/regioon on ES.
-    4. Klõpsake **OK** või valikut **Tühista**, et naasta lehele **Atribuudid**.
+6. Vaadake läbi mõningate sihtkirjetega töövoog, et kinnitada, kas tingimus kaasab ja välistab kirjeid õigesti.
 
 ## <a name="specify-when-notifications-are-sent"></a>Määrake, millal teatisi saadetakse
 
