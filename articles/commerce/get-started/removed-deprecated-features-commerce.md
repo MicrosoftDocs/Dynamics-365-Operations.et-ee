@@ -3,7 +3,7 @@ title: Dynamics 365 Commercei eemaldatud või aegunud funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Dynamics 365 Commerce'ist.
 author: josaw
 manager: AnnBe
-ms.date: 06/10/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
+ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443914"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3539875"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commercei eemaldatud või aegunud funktsioonid
 
@@ -41,8 +41,35 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 |   |  |
 |------------|--------------------|
 | **Aegumise/eemaldamise põhjus** | Andmetegevuse konksude funktsioon on jõudlusprobleemide tõttu iganenud. |
-| **Asendatud teise funktsiooniga?**   | Selle asemel soovitatakse andmetegevuse kihis äriloogika muutmiseks [andmetegevusi alistada](../e-commerce-extensibility/data-action-overrides.md).|
-| **Mõjutatud tootealad**         | E-kaubanduse laiendatavuse andmetegevused |
+| **Asendatud teise funktsiooniga?**   | Soovitatame kasutada andmetegevuse kihis äriloogika muutmiseks [andmetegevuse alistamisi](../e-commerce-extensibility/data-action-overrides.md).|
+| **Mõjutatud tootealad**         | e-kaubanduse laiendatavuse andmetegevused |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Iganenud: alates väljaandest 10.0.11 |
+
+### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>Jaemüügi SDK tugi Visual Studio 2015, msbuild 14.0 ja jaemüügi SDK\viiteteekide ja tööriistade jaoks
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Jaemüügi SDK tugi Visual Studio 2015 jaoks on iganenud ja uuendatud, et toetada VS 2017, msbuild 15.0 ja kõiki viiteteeke ning kaumbanduse puhvrigeneraatori tööriistad kaustas RetailSDK\References on teisaldatud NuGeti pakettidesse, et lihtsustada laienduse mudeli ja SDK värskendamise protsessi.|
+| **Asendatud teise funktsiooniga?**   | Soovitame teil süsteemi värskendamiseks järgida teavet teemas [Jaemüügi SDK migreerimine Visual Studio 2015-st Visual Studio 2017-sse](../dev-itpro/retail-sdk/migrate-sdk.md). |
+| **Mõjutatud tootealad**         | Jaemüügi SDK laiendused |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Iganenud: alates väljaandest 10.0.11 |
+
+### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>Jaemüügi serveri laiendus, mis kasutab üksusi IEdmModelExtender ja CommerceController
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Jaemüügi serveri laiendus, mis kasutab üksusi IEdmModelExtender ja CommerceController, on iganenud, et pakkuda lihtsustatud laienduse mudelit. Uuel juurutusel on ainult kontrolleri klass, millel puudub täiendav klassi IEdmModelExtender juurutus. See väldib ka sõltuvust konkreetse OData versiooniga (OData versiooni värskendamisel võidakse laiendusi lõhkuda). |
+| **Asendatud teise funktsiooniga?**   |  Soovitame kasutada IControlleri klassi laienduse mudelit, importides NuGeti (Microsoft.Dynamics.Commerce.Hosting.Contracts) paketi. |
+| **Mõjutatud tootealad**         | Jaemüügi serveri laiendused |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Iganenud: alates väljaandest 10.0.11 |
+
+### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>Riistvarajaama laiendus, mis kasutab üksust IHardwareStationController
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Riistvarajaama laiendus, mis kasutab üksust IHardwareStationController on iganenud, et pakkuda lihtsustatud laienduse mudelit. Uuel juurutusel on ainult IControlleri klass ilma täiendavate klasside juurutusteta ja põhiriistvara jaamateekidega sõltuvuste vältimiseks pidi laiendus varasemalt viitama mitmele teegile.) |
+| **Asendatud teise funktsiooniga?**   | Soovitatav on kasutada IControlleri klassi laienduse mudelit, importides NuGeti (Microsoft.Dynamics.Commerce.Hosting.Contracts) paketi. |
+| **Mõjutatud tootealad**         | Riistvarajaama laiendused |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Iganenud: alates väljaandest 10.0.11 |
 

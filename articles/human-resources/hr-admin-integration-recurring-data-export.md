@@ -83,7 +83,7 @@ Suur osa harjutusest hõlmab loogikarakenduse loomist.
 
     ![Loogikarakenduse loomise leht](media/integration-logic-app-creation-1.png)
 
-2. Alustage loogikarakenduse kujundajas tühja loogikarakendusega.
+2. Alustage Logic Apps Designeris tühja loogikarakendusega.
 3. Lisage [kordumise graafiku päästik](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence), et käivitada loogikarakendus iga 24 tunni järel (või vastavalt teie valitud graafikule).
 
     ![Kordumise dialoogiaken](media/integration-logic-app-recurrence-step.png)
@@ -196,7 +196,7 @@ Oma loogikarakenduse testimiseks valige kujundajas nupp **Käivita**. Näete, et
 
 Kui mõnes etapis esitatakse tõrge, valige kujundajas nurjunud etapp ja kontrollige selle väljasid **Sisendid** ja **Väljundid**. Siluge ja reguleerige etappi tõrgete kõrvaldamiseks vastavalt vajadusele.
 
-Järgmisel joonisel on näha, kuidas loogikarakenduse kujundaja välja näeb, kui kõik loogikarakenduse etapid töötavad edukalt.
+Järgmisel joonisel on näha, kuidas Logic Apps Designer välja näeb, kui kõik loogikarakenduse etapid töötavad edukalt.
 
 ![Edukas loogikarakenduse töötamine](media/integration-logic-app-successful-run.png)
 

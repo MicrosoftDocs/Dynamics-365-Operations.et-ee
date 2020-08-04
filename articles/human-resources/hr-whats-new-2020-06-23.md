@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cc1931cee0f3da15e07908f221282ad6b57e1681
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: 8d83268292ac65d62cbe8fa9a4c146bf4af36b50
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500433"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555023"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (23. juuni 2020)
 
@@ -119,3 +119,10 @@ Jaotises **Human Resourcesi parameetrid** on saadaval uus suvand, et muuta töö
 ## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'is kaasatud kontroll-loendi üksused
 
 Kontroll-loendi üksused Kasutuselevõtt, Kõrvaldamine, Ülekanded ja Äriprotsessid on peagi saadaval Common Data Service'is.
+
+## <a name="see-also"></a>Vt ka
+
+[Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
+[Funktsioonide haldamine](hr-admin-manage-features.md)

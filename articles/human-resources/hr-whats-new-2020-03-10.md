@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124012"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555245"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (10. märts 2020)
 
@@ -97,3 +97,10 @@ Paari järgneva nädala jooksul on need üksusemuudatused saadaval kõikides kes
 - Soovitatavad väljad – kasutajad peavad sageli lisama välju ruudustikule või lehele. See võib olla keeruline nii paljude saadaolevate väljadega. Selle asemel, et peaks pika loendi läbi otsima, võimaldab see funktsioon süsteemil luua soovitatud väljade kogumi, lähtudes sellest, mida teised kasutajad kõige sagedamini sarnastes olukordades lisavad.
 
 - Tabelite vaikimisi kleepetegevused – see funktsioon tagab, et tabeli vaiketegevus on lingitud tabeli konkreetse veeruga olenemata sellest, kas veerg on teisaldatud või peidetud.
+
+## <a name="see-also"></a>Vt ka
+
+[Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
+[Funktsioonide haldamine](hr-admin-manage-features.md)

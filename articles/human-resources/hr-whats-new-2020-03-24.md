@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83f24dd6f094715f96666c3ae94faa4bdb97a652
-ms.sourcegitcommit: fac1d519a85eab0c936b54e0a9247f6a11842871
+ms.openlocfilehash: 4f46d631379711dd2002a95dfa6001a362727f4f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "3177933"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555095"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (24. märts 2020)
 
@@ -113,3 +113,10 @@ Alates aprillist läheb Human Resourcesi väljalaskesagedus üle iganädalaselt 
 ## <a name="employment-detail-entity"></a>Tööhõive üksikasjade üksus
 
 **Tööhõive üksikasjade** üksust on värskendatud järgmiste väljadega: **Maksesagedus**, **Tööhõive kategooria ID**, **Tööhõive tüüp**, **Tööhõive tüübi ID** ja **Soodustuse tööhõive olek**. Nende väljade häälestamise andmed sõltuvad funktsioonihalduses lubatavast eeliste haldusest. Neid välju ei tohiks olemis **Tööhõive üksikasjad** asustada ega värskendada, kuna see põhjustab importimisel tõrkeid.
+
+## <a name="see-also"></a>Vt ka
+
+[Mis on uut või mida on muudetud rakenduses Human Resources?](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Värskendamisprotsess](hr-admin-setup-update-process.md)</br>
+[Funktsioonide haldamine](hr-admin-manage-features.md)

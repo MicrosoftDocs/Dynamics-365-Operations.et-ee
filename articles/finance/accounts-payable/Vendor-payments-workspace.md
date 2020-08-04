@@ -3,7 +3,7 @@ title: Hankija maksete tööruum
 description: See teema annab teavet hankija maksete tööruumi kohta. Hankija maksete tööruumis on näidatud teave, mis on seotud hankija maksete töötlemisega.
 author: abruer
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 86091e16712092086a641d79e49afbc5b205e934
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225009"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598105"
 ---
 # <a name="vendor-payments-workspace"></a>Hankija maksete tööruum
 
@@ -34,9 +34,10 @@ ms.locfileid: "3225009"
 
 **Hankija maksete** Power BI visuaalide kuvamiseks tuleb teha järgmine seadistus.
 1. Avage **Süsteemihaldus > Seadistamine > Süsteemi parameetrid**, et määrata **Süsteemi valuuta** ja **Süsteemi vahetuskurss**.
-2. Avage **Üldine pearaamat > Seadistus > Pearaamat**, et seadistada **Raamatupidamise valuutat** ja **Vahetuskursi tüüpi**. 
-2. Määratlege vahetuskursid kannete valuutade ja arvestusvaluuta, raamatupidamise valuuta ja süsteemi valuuta vahel. Selleks avage **Pearaamat > Valuutad > Valuutakursid**.
-3. Avage **Süsteemihaldus > Seadistamine > Üksuse kauplus**, et värskendada **VendPaymentBIMeasureV2** koondmõõtmist. 
+2. Avage jaotis **Pearaamat > Kalendrid > Rahanduskalendrid**, et kinnitada aktiivsele ajavahemikule määratud rahanduskalendri kuupäevad.
+3. Avage **Üldine pearaamat > Seadistus > Pearaamat**, et seadistada **Raamatupidamise valuutat** ja **Vahetuskursi tüüpi**. 
+4. Määratlege vahetuskursid kannete valuutade ja arvestusvaluuta, raamatupidamise valuuta ja süsteemi valuuta vahel. Selleks avage **Pearaamat > Valuutad > Valuutakursid**.
+5. Avage **Süsteemihaldus > Seadistamine > Üksuse kauplus**, et värskendada **VendPaymentBIMeasureV2** koondmõõtmist.
 
 ## <a name="my-work-view"></a>Minu töö vaade
 

@@ -3,7 +3,7 @@ title: Töövoos olevate tööüksuste delegeerimine
 description: Kui plaanite olla kontorist väljas või muul viisil tööüksustega tegelemiseks kättesaamatu, saate tööüksused teistele kasutajatele delegeerida või ümber määrata.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
-ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
+ms.openlocfilehash: 96777b66645453bc909bd4053e2724a37771d5d6
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3515760"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541081"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Tööüksuste delegeerimine töövoos
 
@@ -49,13 +49,15 @@ Kui plaanite minna kontorist välja või olla muul moel kättesaamatu teatud aja
 1. Avage **Üldine > Seadistus > Kasutaja suvandid**.
 2. Klõpsake vahekaarti **Töövoog**. Veenduge, et jaotis Delegeerimine on laiendatud. Konfigureerimaks süsteemi automaatselt tööüksuseid teistele kasutajatele delegeerima, peate looma delegeerimisreeglid, mis määravad, millal teatud tüüpi tööüksuseid delegeeritakse. Järgige delegeerimisreegli loomiseks neid juhiseid.  
 3. Klõpsake käsku **Lisa**.
-4. Väljal **Ulatus** valige sobiv variant.
+4. Valige väljal **Ulatus** sobiv variant.
     - Kõik – saate delegeerida kõik teile määratud tööüksused.
-    - Moodul – saate delegeerida ainult tööüksused, mis on seotud konkreetse töövoo tüübiga. Kui valite selle suvandi, peate valima väljal Nimi töövoo tüübi.
-    - Töövoo – saate delegeerida ainult konkreetse töövooga seotud tööüksused. Kui valite selle suvandi, peate valima töövoo väljal Nimi.  
-5. Väljal **Delegaat** valige kasutaja, keda soovite määrata tööüksuseid delegeerima. Kasutage välju Alguskuupäev ja -kellaaeg ja Lõppkuupäev ja -kellaaeg, et määrata, millal soovite tööüksuste automaatselt delegeerimist.  
-6. Väljale **Alguskuupäev/kellaaeg** sisestage kuupäev ja kellaaeg.
-7. Väljale **Lõppkuupäev/kellaaeg** sisestage kuupäev ja kellaaeg.
-8. Valige märkeruut **Lubatud**, et aktiveerida delegeerimise reegel. Kui valisite ulatuseks **Moodul**, peate seejärel valima mooduli väljal Nimi. Kui valisite ulatuseks **Töövoog**, peate seejärel valima konkreetse töövoo, mida delegeerida väljal Nimi.  
-9. Väljale **Kommentaar** sisestage kommentaar, mis selgitab, miks te tööüksusi delegeerite.
-
+    - Moodul – saate delegeerida ainult tööüksused, mis on seotud konkreetse töövoo tüübiga. Kui valite selle suvandi, peate valima väljal **Nimi** töövoo tüübi.
+    - Töövoo – saate delegeerida ainult konkreetse töövooga seotud tööüksused. Kui valite selle suvandi, peate valima väljal **Nimi** töövoo.  
+5. Väljal **Nimi** tehke järgmist.
+    - Valige ulatuse **Moodul** jaoks sihtmoodul.
+    - Valige ulatuse **Töövoog** jaoks sihttöövoog.
+6. Väljal **Delegaat** valige kasutaja, keda soovite määrata tööüksuseid delegeerima. Kasutage välju **Alguskuupäev ja -kellaaeg** ja **Lõppkuupäev ja -kellaaeg**, et määrata, millal soovite tööüksuste automaatset delegeerimist.  
+7. Väljale **Alguskuupäev/kellaaeg** sisestage kuupäev ja kellaaeg.
+8. Väljale **Lõppkuupäev/kellaaeg** sisestage kuupäev ja kellaaeg.
+9. Valige märkeruut **Lubatud**, et aktiveerida delegeerimise reegel. 
+10. Väljale **Kommentaar** sisestage kommentaar, mis selgitab, miks te tööüksusi delegeerite.

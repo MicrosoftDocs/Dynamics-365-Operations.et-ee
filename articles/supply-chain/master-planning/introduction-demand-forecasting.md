@@ -3,7 +3,7 @@ title: Nõudluse prognoosimise ülevaade
 description: Nõudluse prognoosimist kasutatakse müügitellimuste sõltumatu nõudluse ja klienditellimuste mistahes lahtisidestuspunktist sõltuva nõudluse ennustamiseks. Täiustatud nõudluse prognoosi vähendamise reeglid pakuvad ideaalset lahendusust masskohandamisele.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 01/07/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be60bb5c856020d76d185249fddf09493ea1d2ed
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1033432d0d820516d8c9b2f58f27241351e7c64b
+ms.sourcegitcommit: 2e7454c07adfc05164121307050f6f24303d36d2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213879"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3550036"
 ---
 # <a name="demand-forecasting-overview"></a>Nõudluse prognoosimise ülevaade
 
@@ -48,7 +48,7 @@ Järgnevalt on toodud mõned nõudluse prognoosimise peamised funktsioonid:
 Nõudluse prognoosimisse on rakendatud kolm põhiteemat.
 
 -   **Modulaarsus** – nõudluse prognoos on modulaarne ja hõlpsalt konfigureeritav. Konfiguratsioonivõtit muutes saate funktsiooni sisse ja välja lülitada, valides **Kaubandus** &gt; **Varude prognoos** &gt; **Nõudluse prognoos**.
--   **Microsofti virna korduskasutus** – Microsoft käivitas masinõppe platvormi 2015. aasta veebruaris. Praeguseks Microsoft Cortana Analytics Suite’i kuuluva masinõppe abil saate kiiresti ja hõlpsalt luua ennetavaid analüüsikatseid, nagu nõudluse hinnangu katsed, kasutades programmeerimiskeelte R või Python algoritme ja lihtsat lohistamisega liidest.
+-   **Microsoft Stacki korduvkasutamine** – Microsoft Cortana Analytics Suite’i kuuluva masinõppe abil saate kiiresti ja hõlpsalt luua ennetavaid analüüsikatseid, nagu nõudluse hinnangu katsed, kasutades programmeerimiskeelte R või Python algoritme ja lihtsat lohistamisega liidest.
     -   Nõudluse prognoosimise katsed saate alla laadida, muuta neid vastavalt oma äritegevusele ning avaldada need Azure'is veebiteenusena, et kasutada neid nõudluse prognooside loomisel. Katsed on allalaadimiseks saadaval, kui olete ostnud Supply Chain Managementi ettevõtte tasemel kasutaja tootmisplaneerija tellimuse.
     -   Mistahes saadaolevaid nõudluse ennustuse katseid saate alla laadida [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/). Kui nõudluse prognoosimise katsed integreeritakse Supply Chain Managementis automaatselt, siis [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/) allalaaditud katseid tuleb klientidel ja partneritel iga integreerimiseks töödelda. Seetõttu pole [Cortana analüüsigaleriist](https://gallery.cortanaanalytics.com/) allalaaditud katseid nii lihtne kasutada kui rakenduse Finance and Operations nõudluse prognoosimise katseid. Katsete koodi tuleb muuta nii, et nende puhul kasutataks Finance and Operationsi rakenduse programmeerimisliidest (API).
     -   Looge oma katsed Microsoft Azure Machine Learning Studios (klassikalne), avaldage need Azure’is teenustena ja kasutage neid nõudluse prognooside loomisel.
@@ -71,10 +71,20 @@ Supply Chain Managementi abil saate alusprognoose visualiseerida ja muuta. Enne 
 ## <a name="limitations"></a>Kitsendused
 Nõudluse prognoosimine on tööriist, mis aitab tööstusvaldkonna klientidel prognoosimise protsesse luua. See pakub nõudluse prognoosimise põhifunktsioone ning on disainitud hõlpsalt laiendatavaks. Nõudluse prognoosimine ei pruugi olla parim lahendus sellistes valdkondades, nagu kaubandus, hulgimüük, ladustamine, transport või muud professionaalsed teenused, tegutsevate klientide jaoks.
 
+### <a name="demand-forecast-variant-conversion-limitation"></a>Nõudluse prognoosi variandi teisenduse piirang
+
+Mõõtühik variandi teisenduse kohta pole nõudluse prognoosi loomisel täielikult toetatud, kui varude mõõtühik erinev nõudluse prognoosi mõõtühikust.
+
+Prognoosi loomine (**Varude mõõtühik > Nõudluse prognoosi mõõtühik**) kasutab toote mõõtühiku teisendust. Ajalooliste andmete laadimisel nõudluse prognoosi loomiseks, kasutatakse alati toote taseme mõõtühiku teisendust varude mõõtühiku teisendamisel nõudluse prognoosi mõõtühikuks, isegi kui variandi tasemel on määratletud teisendused.
+
+Prognoosi autoriseerimise esimene osa (**Nõudluse prognoosi mõõtühik > Varude mõõtühik**) kasutab toote mõõtühiku teisendust. Prognoosi autoriseerimise teine osa (**Varude mõõtühik > Müügi mõõtühik**) kasutab variandi mõõtühiku teisendust. Kui loodud nõudluse prognoos on autoriseeritud, tehakse varude mõõtühiku teisendamine nõudluse prognoosi mõõtühikuks toote taseme mõõtühiku teisenduse abil. Samal ajal arvestatakse varude ühiku ja müügi mõõtühiku vahelisel teisendamisel variantide tasemel määratletud teisendusi.
+
+Pange tähele, et nõudluse prognoosi mõõtühikul ei pea olema mingit kindlat tähendust. Seda võib määratleda kui „Nõudluse prognoosi ühik”. Iga toote puhul saate määratleda teisenduse suhteks 1:1 varude mõõtühikuga.
+
 <a name="additional-resources"></a>Lisaressursid
 --------
 
-[Nõudluse prognoosi seadistus](demand-forecasting-setup.md)
+[Nõudluse prognoosi häälestus](demand-forecasting-setup.md)
 
 [Statistilise alusprognoosi loomine](generate-statistical-baseline-forecast.md)
 

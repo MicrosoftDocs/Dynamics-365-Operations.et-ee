@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Andmeülesannete automatiseerimine
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ISV-lahenduste pakkumine ühe versiooni abil
+                - name: ISV-lahenduste pakkumine One Versioni abil
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kasutaja vastuvõtu testide loomine ja automatiseerimine
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
@@ -70,13 +70,15 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.12 (august 2020)
+                    - name: Supply Chain Managementi 10.0.12 (august 2020)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (juuli 2020)
                       href: get-started/whats-new-scm-10-0-11.md
+                    - name: Supply Chain Management 10.0.10 (mai 2020)
+                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
-                    - name: Dynamics 365 Supply Chain Managementi eemaldatud või iganenud funktsioonid
+                    - name: Dynamics 365 Supply Chain Managementi eemaldatud või aegunud funktsioonid
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Varasematest versioonidest eemaldatud või iganenud funktsioonid
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
@@ -1355,6 +1357,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Plaanimistöö tühistamine
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Optimeerimise laiendatavuse planeerimine
+                  href: master-planning/planning-optimization/extensibility.md
                 - name: Planeerimise optimeerimise tõrkeotsing
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Koondplaanid
@@ -1511,6 +1515,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Numbriseeriate häälestamine viisardi abil
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Laovoogude numbriseeriate konfigureerimine
+                  href: warehousing/configure-number-sequence-extensions.md?toc=/dynamics365/supply-chain/toc.json
             - name: Organisatsioonid ja organisatsiooni hierarhiad
               items:
                 - name: Organisatsioonide ja organisatsioonihierarhiate ülevaade
@@ -1817,6 +1823,10 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Toodete välistamine koondplaneerimisest
                       href: pim/tasks/exclude-products-master-planning.md
+                - name: Kaheotstarbelised kaubad
+                  href: pim/dual-use.md
+                - name: Päritoluriik
+                  href: pim/country-of-origin.md
                 - name: Tootele vöötkoodi loomine
                   href: pim/tasks/create-bar-code-product.md
                 - name: Toote GTIN-koodi sisestamine
@@ -2563,24 +2573,22 @@
           items:
             - name: Laohalduse ülevaade
               href: warehousing/warehouse-management-overview.md
-            - name: Saabuvate kaupade lao toimingud
+            - name: Saabuvate kaupade laotoimingud
               items:
-                - name: Sissetulekute registreerimiseks ja ladustamine
-                  items:
-                    - name: Ostutellimuste sissetulevate koormate laohaldus
-                      href: warehousing/inbound-load-handling.md
-                    - name: Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
-                      href: warehousing/tasks/register-items-advanced-warehousing.md
-                    - name: Kaupade registreerimine üldiseks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
-                      href: warehousing/tasks/register-items-basic-warehousing.md
-                    - name: Toodete ristlaadimine vastuvõtvast laost kauplustesse
-                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                    - name: Asukohakorralduse häälestus ostutellimuse kõrvalepaneku jaoks
-                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                    - name: Ostutellimuste jaoks töömalli häälestus
-                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                    - name: Asukoha tootedimensioonide segamine
-                      href: warehousing/location-product-dimension-mixing.md
+                - name: Ostutellimuste sissetulevate koormate laohaldus
+                  href: warehousing/inbound-load-handling.md
+                - name: Kaupade registreerimine täpsemaks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
+                  href: warehousing/tasks/register-items-advanced-warehousing.md
+                - name: Kaupade registreerimine üldiseks ladustamiseks lubatud kauba puhul saabuva kauba töölehe abil
+                  href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Toodete ristlaadimine vastuvõtvast laost kauplustesse
+                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                - name: Asukohakorralduse häälestus ostutellimuse kõrvalepaneku jaoks
+                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                - name: Ostutellimuste jaoks töömalli häälestus
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                - name: Asukoha tootedimensioonide segamine
+                  href: warehousing/location-product-dimension-mixing.md
             - name: Väljuvate kaupade lao toimingud
               items:
                 - name: Reserveerimised laohalduses
@@ -2597,14 +2605,14 @@
                   items:
                     - name: Kogumi komplekteerimise häälestus
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Süsteemi suunatud kogumi komplekteerimine
+                      href: warehousing/system-directed-cluster-pick.md
                     - name: Konteinerisse määramise häälestus
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Partii ja litsentsiplaadi kinnitus
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Registreerimismärgi sildi printimise lubamine
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: Vöötkoodide skannimine kaamera abil teenuses Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Osa komplekteerimise kinnitus
                       href: warehousing/piece-picking-confirmation.md
                     - name: Pakkematerjalid ja tasud
@@ -2615,14 +2623,18 @@
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Laotöö tühistamine erandi käsitlemiseks
                       href: warehousing/cancel-warehouse-work.md
-                    - name: Süsteemi suunatud kogumi komplekteerimine
-                      href: warehousing/system-directed-cluster-pick.md
                     - name: Süsteemi suunatud tööde järjestus
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Komplekteerimisridade grupeerimine
                       href: warehousing/pick-line-grouping.md
-                    - name: Lao ruumi leidmine
+                    - name: Laoruumi leidmine
                       href: warehousing/warehouse-slotting.md
+                    - name: Asukohakorralduse varude komplekteerimise ajaline jaotus
+                      href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Väljastuste sortimine
+                      href: warehousing/outbound-sorting.md
+                    - name: Pane seinale – pane kauplusesse
+                      href: warehousing/put-to-wall-put-to-store.md
                 - name: Täiendamine
                   items:
                     - name: Täiendamise ülevaade
@@ -2645,6 +2657,8 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: Voomalli rühmitamine
                       href: warehousing/wave-template-grouping.md
+                    - name: Voosiltide uuesti printimine ja tühistamine
+                      href: warehousing/reprint-and-void-wave-labels.md
                 - name: Saadetise konsolideerimispoliitikad
                   items:
                     - name: Saadetise konsolideerimispoliitikad
@@ -2709,12 +2723,16 @@
                       href: inventory/inventory-statuses.md
                     - name: Sildiga varude inventuur
                       href: inventory/inventory-tag-counting.md
-                - name: Lao töö
+                - name: Laotöö
                   items:
                     - name: Töörea üksikasjad
                       href: warehousing/work-line-details.md
                     - name: Asukoha litsentsiplaadi paigutus
                       href: warehousing/location-license-plate-positioning.md
+                    - name: Muuda töö töökausta
+                      href: warehousing/change-work-pool-on-work.md
+                    - name: Kauba konsolideerimise – asukoha kasutamine
+                      href: warehousing/item-consolidation-location-utilization.md
             - name: Lao häälestus
               items:
                 - name: Lao konfiguratsioon
@@ -2729,6 +2747,8 @@
                       href: warehousing/wave-step-codes.md
                     - name: Vootöötluse konfigureerimine
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Voosildi printimise seadistamine ja kasutamine
+                      href: warehousing/configure-wave-label-printing.md
                     - name: Saadetiste automaatne värskendamine
                       href: warehousing/auto-update-shipment.md
                     - name: Asukohaprofiili loomine
@@ -2753,11 +2773,9 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Identifitseerimisnumbri siltide dokumendi marsruudi valiku paigutus
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Vöötkoodide skannimine kaamera abil teenuses Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Mobiilse vöötkoodi tugi
                       href: warehousing/mobile-barcode-support.md
-                    - name: Lao häälestus üleviimistellimuste jaoks
+                    - name: Lao häälestamine üleviimistellimuste jaoks
                       href: warehousing/transfer-orders-warehouse.md
                 - name: Laorakenduse installimine ja konfigureerimine
                   items:
@@ -2767,6 +2785,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiilsete seadmete häälestus laotöö jaoks
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Vöötkoodide skannimine kaamera abil laorakenduses
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Identifitseerimisnumbri vastuvõtmine lao rakendusega
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobiilse seadme menüükäsu häälestus ostutellimuse töö lõpetamiseks

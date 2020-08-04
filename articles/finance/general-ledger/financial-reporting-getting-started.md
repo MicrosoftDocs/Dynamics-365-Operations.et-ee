@@ -3,7 +3,7 @@ title: Finantsaruandluse ülevaade
 description: Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 Finance finantsaruandlusele ja kasutada finantsaruandluse võimalusi. See sisaldab pakutavate vaike-finantsaruannete kirjeldust.
 author: aprilolson
 manager: AnnBe
-ms.date: 04/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
-ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
+ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
+ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262645"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "3609585"
 ---
 # <a name="financial-reporting-overview"></a>Finantsaruandluse ülevaade
 
@@ -34,7 +34,7 @@ Selles teemas kirjeldatakse, kus pääseda juurde finantsaruandlusele ja kasutad
 <a name="accessing-financial-reporting"></a>Juurdepääs finantsaruandlusele
 -----------------------------
 
-Menüü **Finantsaruandlus** leiate järgmistest kohtadest.
+Menüü **Finantsaruandlus** leiate järgmistest asukohtadest.
 
 -   **Pearaamat** &gt; **Päringud ja aruanded**
 -   **Eelarvestamine** &gt; **Päringud ja aruanded** &gt; **Põhiline eelarvestamine**
@@ -45,10 +45,11 @@ Menüü **Finantsaruandlus** leiate järgmistest kohtadest.
 Finantsaruannete loomiseks ja genereerimiseks juriidilisele isikule tuleb seadistada sellele juriidilisele isikule järgmine teave.
 
 -   Rahanduskalender
--   Pearaamat
+-   Ledger
 -   Kontoplaan
--   Valuuta
+-   Currency
 
+## <a name="granting-security-access-to-financial-reporting"></a>Rakendusele Financial Reporting turbejuurdepääsu võimaldamine
 Rahalise aruandluse funktsioonid on saadaval kasutajatele, kellele on turberollide kaudu määratud sobivad privileegid ja kohustused. Järgmistes jaotistes on nimetatud need privileegid ja kohustused koos seotud rollidega.
 
 ### <a name="duties"></a>Kohustused
@@ -78,12 +79,23 @@ Rahalise aruandluse funktsioonid on saadaval kasutajatele, kellele on turberolli
 | Finantsaruannete loomine            | Finantsaruannete loomine            | Juhataja, Finantsjuht, Raamatupidaja                                                            |
 | Finantsaruannete vaatamine                | Finantstulemuste ülevaatamine          | Ühtegi pole määratud                                                                   |
 
-Pärast kasutaja lisamist või rolli muutmist peaks kasutaja mõne minuti jooksul finantsaruandlusele juurde pääsema. **Märkus:** süsteemiadministraatori roll lisatakse finantsaruandluses kõigile rollidele.
+Pärast kasutaja lisamist või rolli muutmist peaks kasutaja mõne minuti jooksul finantsaruandlusele juurde pääsema. 
+
+> [!NOTE]
+> Süsteemiadministraatori roll lisatakse finantsaruandluses kõigile rollidele.
 
 ## <a name="report-deletions-and-expirations"></a>Aruande kustutamised ja aegumised
 Aruande loonud kasutajad saavad oma aruandeid kustutada. Kohustusega **Finantsaruandluse turbe haldamine** kasutajad saavad kustutada teiste aruandeid. 
 
-Versioonis 10.0.8 lisati aegumiskuupäevad. Uus nõutav funktsioon lubatakse funktsioonihalduse tööruumis lehel **Kõik**. Funktsioon **Finantsaruannete säilitamise poliitikad** sisaldab järgmisi muudatusi.
+Alates väljalaskest 10.0.7 on lisatud aegumiskuupäevade kontseptsioon. Uus nõutav funktsioon lubatakse funktsioonihalduse tööruumis. See funktsioon sisaldab järgmisi muudatusi.
+
+* Uued loodud aruanded märgitakse automaatselt, et neil on loomise ajast 90 päeva pärast aegumiskuupäev.
+* Kõikidele aruannetele, mis olid olemas enne funktsiooni installimist, antakse 90-päevane aegumisperiood. Kuupäev võidakse lühikest aega kuvada tühjana, kuni finantsaruandluse teenus töötab, luuakse aruanne ja teenus värskendab olemasolevaid tühjade aegumiskuupäevadega aruandeid. 
+* Kohustusega **Finantsaruandluse turbe haldamine** kasutajatel on juurdepääs sellele funktsioonile. Kõik kohustusega **Finantsaruannete haldamine** kasutad, kellele on antud privileeg **Finantsaruannete aegumise haldamine**, omavad võimalust aegumiskuupäeva muuta. Praegu on saadaval kaks säilitamise võimalust.
+   * Aegumine 90 päeva möödudes
+   * Võimalus seada aruane mitte kunagi aeguma
+
+Kui valitud on aegumine (nt 90 päeva), rakendatakse see 90 päeva pärast alates tänasest, mis on erinev käitumine kui 90 päeva alates algsest loomise kuupäevast, mil aruanne koostati. Väljalaskes 10.0.8 lisati aegumiskuupäevad. Uus nõutav funktsioon lubatakse funktsioonihalduse tööruumi lehel **Kõik**. Funktsioon **Finantsaruannete säilitamise poliitikad** sisaldab järgmisi muudatusi.
 * Uued loodud aruanded märgitakse automaatselt, et neil on loomise ajast 90 päeva pärast aegumiskuupäev
 * Kõikidele aruannetele, mis olid olemas enne funktsiooni installimist, antakse 90-päevane aegumisperiood. Kuupäev võidakse lühikest aega kuvada tühjana, kuni finantsaruandluse teenus töötab, luuakse aruanne ja teenus värskendab olemasolevaid tühjade aegumiskuupäevadega aruandeid. 
 * **Finantsaruandluse turbe haldamise** kohustusega kasutajatel on juurdepääs sellele funktsioonile. Kõik kohustusega **Finantsaruannete haldamine** kasutad, kellele on antud privileeg **Finantsaruannete aegumise haldamine**, omavad võimalust aegumiskuupäeva muuta. Praegu on saadaval kaks säilitamise võimalust. 
@@ -125,16 +137,36 @@ Finantsaruandlus pakub 22 vaike-finantsaruannet. Iga aruanne kasutab põhikonto 
 | Saadaolevad eelarvefondid – vaikesäte                         | Saate vaadata üksikasjalikku võrdlust muudetud eelarve, tegelike kulude, eelarvereservide ja eelarvefondide vahel kõigi kontode kohta                                                                                                                                                                                  |
 
 ## <a name="opening-financial-reports"></a>Finantsaruannete avamine
-Kui klõpsate menüüd **Finantsaruandlus**, kuvatakse ettevõtte vaike-finantsaruannete loend. Seejärel saate aruande avada või seda muuta. Mõne vaikearuande avamiseks valige aruande nimi. Aruande esmakordsel avamisel koostatakse see automaatselt eelmise kuu kohta. Näiteks kui avate aruande esmakordselt augustis 2016, koostatakse aruanne 31. juuli 2016 kohta. Pärast aruande avamist saab seda uurida, minnes süvitsi konkreetsetes andmehulkades ja muutes aruande valikuid.
+Kui valite menüü **Finantsaruandlus**, kuvatakse ettevõtte vaike-finantsaruannete loend. Seejärel saate aruande avada või seda muuta. Mõne vaikearuande avamiseks valige aruande nimi. Aruande esmakordsel avamisel koostatakse see automaatselt eelmise kuu kohta. Näiteks kui avate aruande esmakordselt augustis 2019, koostatakse aruanne 31. juuli 2019 kohta. Pärast aruande avamist saab seda uurida, minnes süvitsi konkreetsetes andmehulkades ja muutes aruande valikuid.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Finantsaruannete koostamine ja muutmine
-Finantsaruannete loendist saate luua uue aruande või muuta olemasolevat aruannet. Kui teil on olemas vastavad load, saate koostada uue finantsaruande, klõpsates tegumiribal nuppu **Uus**. Aruande koostamise programm laaditakse teie seadmesse. Kui aruandekoostur on käivitunud, saate koostada uue aruande. Pärast uue aruande salvestamist kuvatakse see finantsaruannete loendis. Loendis kuvatakse ainult need aruanded, mis on loodud ettevõttele, mida Rahanduses kasutate. 
+Finantsaruannete loendist saate luua uue aruande või muuta olemasolevat aruannet. Kui teil on olemas vastavad load, saate koostada uue finantsaruande, valides toimingupaanil suvandi **Uus**. Aruande koostamise programm laaditakse teie seadmesse. Kui aruandekoostur on käivitunud, saate koostada uue aruande. Pärast uue aruande salvestamist kuvatakse see finantsaruannete loendis. Loendis kuvatakse ainult need aruanded, mis on loodud ettevõttele, mida Dynamics 365 Finance'is kasutate. 
 
-> [!NOTE] 
-> Arvutisse, kuhu aruandekoosturi alla laadite, peab olema installitud Microsoft .NET Frameworki versioon 4.6.2. Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [Microsofti allalaadimiskeskusest](https://www.microsoft.com/download/details.aspx?id=53345). Kui kasutate Chrome’i, peate aruandekoosturi kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Finantsaruannete loendis kuvatavat aruannet saab ka muuta. Kui on valitud aruande nime ümber olev ala, klõpsake tegumiribal nuppu **Redigeeri**. Käivitub aruande koostamise programm.
+## <a name="troubleshooting-issues-opening-report-designer"></a>Aruande kujundaja avamise probleemide tõrkeotsing
+Mõned tavalisemad juhud, mis võivad põhjustada probleeme aruande kujundaja avamisel. Need probleemid ja nende lahendamise etapid on järgmised.
+
+1. probleem: aruande kujundaja ei käivitu, kui valite suvandi **Uus** või **Redigeeri**.
+
+* Valige Internet Exploreris **Sätted** ja seejärel valige **Interneti suvandid**. Valige vahekaart **Turve**. Valige Usaldusväärsed saidid ja seejärel valige **Saidid**. Sisestage jaotisesse **Lisa see veebisait tsooni** väärtus „\*\.dynamics.com” (jutumärkideta) ja seejärel valige **Lisa**. 
+* Valige Internet Exploreris **Sätted** ja seejärel valige **Interneti suvandid**. Valige vahekaart **Turve**. Valige Usaldusväärsed saidid. Muutke alal, mille silt on Selle tsooni turbetase suvandi väärtuseks **Keskmine-madal**.
+* Keelake hüpikakende blokeerija oma brauseris.
+* Tööjaamad peavad installima versiooni Visual Studio .NET 4.6.2 või uuema.
+
+Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [Microsofti allalaadimiskeskusest](https://www.microsoft.com/download/details.aspx?id=53345).
+* Kui kasutate Chrome’i brauserit, peate aruande koostaja kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Kui te ei saa Chrome'i sisse logida, proovige 1. probleemis kirjeldatud häälestusetapide järgimist Internet Exploreri või Edge'i abil. 
+
+2. probleem: kasutajale ei ole määratud vajalikke lubasid rakenduse Financial Reporting kasutamiseks. 
+
+* Et kontrollida, kas kasutajal pole luba, valige suvand **Jah** tõrkes „Rakenduse Financial Reporting serveriga ei saanud ühendada. Valige Jah, kui soovite jätkata ja määrata teise serveri aadressi.” Seejärel valige **Testi ühendust**. Kui teil pole luba, kuvatakse teade, mis ütleb: „Ühenduse loomise katse nurjus. Kasutajal pole serveriga ühenduse loomiseks vajalikke lubasid. Pöörduge süsteemiadministraatori poole.”
+* Nõutavad load on loetletud ülalpool teemas [Rakendusele Financial Reporting turbejuurdepääsu võimaldamine](#granting-security-access-to-financial-reporting). Rakenduse Financial Reporting turve põhineb nendel lubadel. Teil pole juurdepääsu, kui teile pole määratud neid lubasid (või mõnda muud turberolli, mis sisaldab neid lubasid). 
+* Integratsiooniülesanne **Ettevõtte kasutajate pakkuja ettevõttele** (mis vastutab ka kasutaja integreerimise eest) käivitub 5-minutilise vahemikuga. Rakenduses Financial Reporting mis tahes õiguste muudatuste jõustumiseks võib kuluda kuni 10 minutit. 
+  Kui teine kasutaja saab avada aruande kujundaja, valige **Tööriistad** ja seejärel valige **Integratsiooni olek**. Kinnitage, et integratsiooni vastendamine „Ettevõtte kasutajate pakkuja ettevõttele” on edukalt käivitatud, kuna teile määrati luba rakenduse Financial Reporting kasutamiseks. 
+* Võib olla võimalik, et teine tõrge takistas suvandi **Dynamicsi kasutaja integreerimine rakenduse Financial Reporting kasutajaks** lõpetamist. Võib olla ka võimalik, et andmekava lähtestamine on käivitatud ja veel lõpule viimata või ilmnes mõni muu süsteemi tõrge. Proovige protsess hiljem uuesti käivitada. Kui probleem ei lahene, pöörduge oma süsteemiadministraatori poole.
+
+3. probleem: pääsete edasi ClickOnce'i aruande kujundaja sisselogimise lehelt, kuid ei saa aruande kujundajas sisselogimist lõpule viia. 
+
+* Mandaadi sisestamise ajal peab peie kohalikus arvutis määratud aeg jääma viie minuti vahemikku rakenduse Financial Reporting serveris oleva ajaga. Kui erinevus on üle viie minuti, ei luba süsteem sisse logida. 
+* Sellisel juhul soovitame lubada Windowsi suvandi, mis seadistab arvuti aja automaatselt. 
 
 ## <a name="additional-resources"></a>Lisaressursid
 - [Finantsaruannete vaatamine](view-financial-reports.md)
-
-
-
