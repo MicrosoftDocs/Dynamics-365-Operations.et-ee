@@ -14,6 +14,8 @@
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Platvormi versiooni 10.0.13 värskendused (oktoober 2020)
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platvormi versiooni 10.0.12 värskendused (august 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platvormi versiooni 10.0.11 värskendused (juuli 2020)
@@ -82,6 +84,8 @@
           items:
             - name: Andmete integratsioonistrateegia (import/eksport) valimine
               href: data-entities/integration-overview.md
+            - name: Prioriteedil põhinev ahendamine
+              hreF: data-entities/priority-based-throttling.md
             - name: Andmete integratsiooni API-d
               items:
                 - name: Andmehalduse paketi REST API
@@ -152,7 +156,9 @@
                           items:
                             - name: Üksuse- ja väljavastenduste kohandamine
                               href: data-entities/dual-write/customizing-mappings.md
-                            - name: Tõrkehaldus ja teatiste teatamine
+                            - name: Juriidilise isiku redigeerimine pärast topeltkirjutamise seadistamist
+                              href: data-entities/dual-write/edit-legal-entity.md
+                            - name: Tõrkehaldus ja teatised
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: Rakenduse elutsüklihaldus
                               href: data-entities/dual-write/app-lifecycle-management.md
@@ -1198,7 +1204,7 @@
                       href: mobile-apps/platform/client-apis/modules/event-ievent.md
                     - name: Juhtimise moodul
                       href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
-                    - name: Konteineri moodul
+                    - name: Konteinermoodul
                       href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
                     - name: Välja moodul
                       href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md

@@ -90,6 +90,8 @@
                   items:
                     - name: Mis on uut või mida on muudetud Commerce'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.13 (oktoober 2020)
+                      href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (august 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (juuli 2020)
@@ -127,23 +129,23 @@
             - name: Õppekataloog
               items:
                 - name: Õppekataloogi avaleht
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: Äriotsuste tegijad
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?
                 - name: Ärikasutajad
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Juurutusprojekti juhid
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administraatorid
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Arendajad
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Partneri müük ja turundus
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Funktsioonikonsultandid
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Lahenduste arhitektid
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Kasutajaliidesega tutvumine
               items:
                 - name: Kasutajaliidese elemendid
@@ -310,7 +312,9 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: Kogusumma ja intervalli arvutamise valikud käibemaksukoodide puhul
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
-                    - name: Meiliteatise profiili häälestus
+                        - name: Maksuvabastuse arvutamine
+                          href: tax-exempt-price-inclusive.md
+                    - name: Meiliteatise profiili seadistamine
                       href: email-notification-profiles.md
                     - name: Numbriseeriad
                       items:
@@ -386,9 +390,11 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: Kassa välisseadmete ja teenuste tervisekontroll
                           href: pos-healthcheck.md
-                    - name: Ekraani paigutused
+                        - name: Võrgu välisseadmete tugi
+                          href: dev-itpro/network-peripherals.md
+                    - name: Ekraanipaigutused
                       items:
-                        - name: Demoandmete ekraanipaigutused Microsofti kassas / pilve kassas
+                        - name: Demoandmete ekraanipaigutused MPOS-is/CPOS-is
                           href: demo-data.md
                         - name: Kassa kasutajaliidese visuaalsed konfiguratsioonid
                           href: pos-screen-layouts.md
@@ -938,14 +944,16 @@
               items:
                 - name: Alustuskomplekti ülevaade
                   href: starter-kit-overview.md
-                - name: Konteineri moodulid
+                - name: Konteinermoodulid
                   items:
-                    - name: Konteineri moodul
+                    - name: Konteinermoodul
                       href: add-container-module.md
-                    - name: Akordionimoodul
+                    - name: Akordionmoodul
                       href: add-accordion.md
                     - name: Vahekaardimoodul
                       href: add-tab.md
+                    - name: IFrame-moodul
+                      href: iframe-module.md
                 - name: Turundusmoodulid
                   items:
                     - name: Kampaania ribareklaami moodul
@@ -960,14 +968,16 @@
                       href: add-video-player.md
                 - name: Päise ja jaluse moodulid
                   items:
-                    - name: Päise moodul
+                    - name: Päisemoodul
                       href: author-header-module.md
-                    - name: Jaluse moodul
+                    - name: Jalusemoodul
                       href: author-footer-module.md
                 - name: Toote üksikasjade lehe moodulid
                   items:
-                    - name: Ostukasti moodul
+                    - name: Ostukastimoodul
                       href: add-buy-box.md
+                    - name: Meediumigaleriimoodul
+                      href: media-gallery-module.md
                     - name: Hinnangute ja arvustuste moodulid
                       href: ratings-reviews-modules.md
                 - name: Ostumoodulid
@@ -980,10 +990,14 @@
                       href: add-checkout-module.md
                     - name: Tellimuse üksikasjade moodul
                       href: order-confirmation-module.md
-                    - name: Kaupluse valimise moodul
-                      href: store-selector.md
                     - name: Kinkekaardi moodul
                       href: add-giftcard.md
+                - name: Kaupluse leidmise moodulid
+                  items:
+                    - name: Kaardimoodul
+                      href: map-module.md
+                    - name: Kaupluse valimise moodul
+                      href: store-selector.md
                 - name: Kontohaldusmoodulid
                   items:
                     - name: Kontohalduse lehed ja moodulid
@@ -1934,19 +1948,19 @@
                       href: e-commerce-extensibility/create-new-module.md
                     - name: Alustuskomplekti mooduli kloonimine
                       href: e-commerce-extensibility/clone-starter-module.md
-                    - name: Mooduli konfiguratsiooniväljade loomine
+                    - name: Mooduli konfiguratsiooniväljade lisamine
                       href: e-commerce-extensibility/add-module-config-fields.md
-                    - name: Moodulite eelvaade ja silumine
+                    - name: Moodulite eelversioon ja silumine
                       href: e-commerce-extensibility/test-module.md
-                    - name: Moodulite testimine mudelitega
+                    - name: Moodulite testimine mooduli mudelite abil
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Moodulite testimine lehemudelitega
                       href: e-commerce-extensibility/test-page-mock.md
-                    - name: Konteineri moodulid
+                    - name: Konteinermoodulid
                       href: e-commerce-extensibility/container-modules.md
-                    - name: Paigutuse konteineri mooduli loomine
+                    - name: Paigutuse konteinermooduli loomine
                       href: e-commerce-extensibility/create-layout-container.md
-                    - name: Lehe konteineri mooduli loomine
+                    - name: Lehe konteinermooduli loomine
                       href: e-commerce-extensibility/create-page-containers.md
                     - name: Mooduli lokaliseerimine
                       href: e-commerce-extensibility/localize-module.md
