@@ -1,252 +1,302 @@
 ---
-title: Lao tööpoliitikate ülevaade
-description: Laotöö poliitikad juhivad seda, kas laotöö luuakse tootmises laoprotsessidega töötellimuse tüübi, varude asukoha ja toote põhjal.
-author: johanhoffmann
+title: Tööpoliitikad
+description: Selles teemas selgitatakse, kuidas seadistada tööpoliitikat.
+author: perlynne
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
-ms.custom: 196561
-ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
-ms.search.industry: Manufacturing
-ms.author: johanho
-ms.search.validFrom: 2016-05-31
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3fe22a92b445abbf6d1dcc67ead878db3f80d532
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.author: perlynne
+ms.search.validFrom: 2020-07-31
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 5ea93324547ed81df120db3412ee41fce2a93f4a
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204558"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652001"
 ---
-# <a name="warehouse-work-policies-overview"></a><span data-ttu-id="25ff5-103">Lao tööpoliitikate ülevaade</span><span class="sxs-lookup"><span data-stu-id="25ff5-103">Warehouse work policies overview</span></span>
+# <a name="work-policies"></a><span data-ttu-id="3ae04-103">Tööpoliitikad</span><span class="sxs-lookup"><span data-stu-id="3ae04-103">Work policies</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="25ff5-104">Laotöö poliitikad juhivad seda, kas laotöö luuakse tootmises laoprotsessidega töötellimuse tüübi, varude asukoha ja toote põhjal.</span><span class="sxs-lookup"><span data-stu-id="25ff5-104">Warehouse work policies control whether warehouse work is created by warehouse processes in manufacturing, based on work order type, inventory location, and product.</span></span>
+<span data-ttu-id="3ae04-104">See teema selgitab, kuidas häälestada süsteemi ja rakenduse ladu, et nad toetaksid tööpoliitikaid.</span><span class="sxs-lookup"><span data-stu-id="3ae04-104">This topic explains how to set up the system and the warehouse app so that they support work policies.</span></span> <span data-ttu-id="3ae04-105">Seda funktsiooni saate kasutada lao kiireks registreerimiseks, loomata ladustamistööd, kui võtate vastu ostu-või üleviimistellimusi või kui lõpetate tootmisprotsesse.</span><span class="sxs-lookup"><span data-stu-id="3ae04-105">You can use this functionality to quickly register inventory without creating putaway work when you receive purchase or transfer orders, or when you complete manufacturing processes.</span></span> <span data-ttu-id="3ae04-106">See teema annab üldteavet.</span><span class="sxs-lookup"><span data-stu-id="3ae04-106">This topic provides general information.</span></span> <span data-ttu-id="3ae04-107">Üksikasjalikku teavet, mis on seotud litsentsiplaadi vastuvõtmisega, leiate teemast [Litsentsiplaadi vastuvõtmine laorakenduse kaudu](warehousing-mobile-device-app-license-plate-receiving.md).</span><span class="sxs-lookup"><span data-stu-id="3ae04-107">For detailed information that is related to license plate receiving, see [License plate receiving via the warehouse app](warehousing-mobile-device-app-license-plate-receiving.md).</span></span>
 
-<span data-ttu-id="25ff5-105">See tööpoliitika kontrollib, kas laotöö luuakse tootmises laoprotsesside jaoks.</span><span class="sxs-lookup"><span data-stu-id="25ff5-105">This work policy controls whether warehouse work is created for warehouse processes in manufacturing.</span></span> <span data-ttu-id="25ff5-106">Saate seadistada tööpoliitika, kasutades **töötellimuse tüüpide**, **lao asukoha** ja **toote** kombinatsiooni.</span><span class="sxs-lookup"><span data-stu-id="25ff5-106">You can set up the work policy by using a combination of **work order types**, an **inventory location**, and a **product**.</span></span> <span data-ttu-id="25ff5-107">Näiteks toode L0101 teatatakse väljundasukohas 001 lõpetatuks.</span><span class="sxs-lookup"><span data-stu-id="25ff5-107">For example, product L0101 is reported as finished to output location 001.</span></span> <span data-ttu-id="25ff5-108">Lõpetatud kaupa tarbitakse hiljem teises tootmistellimuses väljastuskohaga 001.</span><span class="sxs-lookup"><span data-stu-id="25ff5-108">The finished good is later consumed in another production order at output location 001.</span></span> <span data-ttu-id="25ff5-109">Sellisel juhul saate seadistada tööpoliitika, et takistada lõpetatud kaupade kõrvalepaneku jaoks töö loomist, kui teatate toote L0101 väljastuskohas 001 lõpetatuks.</span><span class="sxs-lookup"><span data-stu-id="25ff5-109">In this case, you can set up a work policy to prevent the work for finished goods put-away from being created when you report product L0101 as finished to output location 001.</span></span> <span data-ttu-id="25ff5-110">Tööpoliitika on individuaalne üksus, mida saab kirjeldada järgmise teabe kaudu.</span><span class="sxs-lookup"><span data-stu-id="25ff5-110">The work policy is an individual entity that can be described through the following information:</span></span>
+<span data-ttu-id="3ae04-108">Tööpoliitika kontrollib, kas lao töö on loodud, kui toodetud kaup on lõpetatuks kinnitatud või kui kaubad võetakse vastu lao rakenduse abil.</span><span class="sxs-lookup"><span data-stu-id="3ae04-108">A work policy controls whether warehouse work is created when a manufactured item is reported as finished, or when goods are received by using the warehouse app.</span></span> <span data-ttu-id="3ae04-109">Seadistage iga tööpoliitika, määratledes tingimused, mille puhul see kehtib: töötellimuse tüübid ja protsessid, lao asukoht ja (valikuliselt) tooted.</span><span class="sxs-lookup"><span data-stu-id="3ae04-109">You set up each work policy by defining the conditions where it applies: the work order types and processes, the inventory location, and (optionally) the products.</span></span> <span data-ttu-id="3ae04-110">Näiteks peab toote *A0001* ostutellimuse vastu võtma asukohas *RECV* laos *24*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-110">For example, a purchase order for product *A0001* must be received in location *RECV* in warehouse *24*.</span></span> <span data-ttu-id="3ae04-111">Hiljem tarbitakse toodet teises protsessi asukohas *RECV*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-111">Later, the product is consumed in another process at location *RECV*.</span></span> <span data-ttu-id="3ae04-112">Sellisel juhul saate seadistada tööpoliitika, et vältida ladustatud töö loomist, kui töötaja teatab tootest *A0001*, kui see saabus asukoha *RECV*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-112">In this case, you can set up a work policy to prevent putaway work from being created when a worker reports product *A0001* as received in location *RECV*.</span></span>
 
--   <span data-ttu-id="25ff5-111">**Tööpoliitika nimi**(tööpoliitika kordumatu identifikaator)</span><span class="sxs-lookup"><span data-stu-id="25ff5-111">**Work policy name** (the unique identifier of the work policy)</span></span>
--   <span data-ttu-id="25ff5-112">**Töötellimuse tüübid** ja **Töö loomise meetod**</span><span class="sxs-lookup"><span data-stu-id="25ff5-112">**Work order types** and **Work creation method**</span></span>
--   <span data-ttu-id="25ff5-113">**Lao asukohad**</span><span class="sxs-lookup"><span data-stu-id="25ff5-113">**Inventory locations**</span></span>
--   <span data-ttu-id="25ff5-114">**tooted.**</span><span class="sxs-lookup"><span data-stu-id="25ff5-114">**Products**</span></span>
+> [!NOTE]
+> - <span data-ttu-id="3ae04-113">Selleks, et tööpoliitika oleks aktiivne, peate selle määratlema vähemalt ühes asukohas lehe **Tööpoliitikad** FastTab valikus **Lao asukohad**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-113">For a work policy to be active, you must define at least one location for it on the **Inventory locations** FastTab of the **Work policies** page.</span></span> 
+> - <span data-ttu-id="3ae04-114">Sama asukohta ei saa määrata mitme tööpoliitika jaoks.</span><span class="sxs-lookup"><span data-stu-id="3ae04-114">You can't specify the same location for multiple work policies.</span></span>
+> - <span data-ttu-id="3ae04-115">Mobiilse seadme menüükäskude suvand **Prindi silt** ei prindi tööd loomata litsentsiplaadi silti.</span><span class="sxs-lookup"><span data-stu-id="3ae04-115">The **Print label** option for mobile device menu items won't print a license plate label unless work was created.</span></span>
 
-## <a name="work-order-types"></a><span data-ttu-id="25ff5-115">Töötellimuse tüübid</span><span class="sxs-lookup"><span data-stu-id="25ff5-115">Work order types</span></span>
-<span data-ttu-id="25ff5-116">Saate valida järgmised töötellimuse tüübid.</span><span class="sxs-lookup"><span data-stu-id="25ff5-116">You can select the following work order types:</span></span>
+## <a name="activate-the-features-in-your-system"></a><span data-ttu-id="3ae04-116">Aktiveerige süsteemi funktsioonid</span><span class="sxs-lookup"><span data-stu-id="3ae04-116">Activate the features in your system</span></span>
 
--   <span data-ttu-id="25ff5-117">Lõpetatud kaupade kõrvalepanek</span><span class="sxs-lookup"><span data-stu-id="25ff5-117">Finished goods put away</span></span>
--   <span data-ttu-id="25ff5-118">Kaastoodete ja kõrvalsaaduste kõrvalepanek</span><span class="sxs-lookup"><span data-stu-id="25ff5-118">Co-product and by-product put away</span></span>
--   <span data-ttu-id="25ff5-119">Toormaterjalide komplekteerimine</span><span class="sxs-lookup"><span data-stu-id="25ff5-119">Raw material picking</span></span>
+<span data-ttu-id="3ae04-117">Selleks, et kõik selles teemas kirjeldatud funktsioonid oleksid teie süsteemis saadaval, lülitage sisse järgmised kaks funktsiooni asukohas [Funktsiooni haldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="3ae04-117">To make all the functionality that is described in this topic available in your system, turn on the following two features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):</span></span>
 
-<span data-ttu-id="25ff5-120">Väljal **Töö loomise meetod** on väärtus **Mitte kunagi**.</span><span class="sxs-lookup"><span data-stu-id="25ff5-120">The **Work creation method** field has the value **Never**.</span></span> <span data-ttu-id="25ff5-121">See väärtus näitab, et tööpoliitika takistab laotöö loomist valitud töötellimuse tüübi jaoks.</span><span class="sxs-lookup"><span data-stu-id="25ff5-121">This value indicates that the work policy will prevent warehouse work from being created for the selected work order type.</span></span>
+- <span data-ttu-id="3ae04-118">Litsentsiplaadi vastuvõtu täiustused</span><span class="sxs-lookup"><span data-stu-id="3ae04-118">License plate receiving enhancements</span></span>
+- <span data-ttu-id="3ae04-119">Sissetuleva töö tööpoliitika täiustused</span><span class="sxs-lookup"><span data-stu-id="3ae04-119">Work policy enhancements for inbound work</span></span>
 
-## <a name="inventory-locations"></a><span data-ttu-id="25ff5-122">Lao asukohad</span><span class="sxs-lookup"><span data-stu-id="25ff5-122">Inventory locations</span></span>
-<span data-ttu-id="25ff5-123">Saate valida asukoha, millele tööpoliitika rakendub.</span><span class="sxs-lookup"><span data-stu-id="25ff5-123">You can select a location that the work policy applies to.</span></span> <span data-ttu-id="25ff5-124">Kui tööpoliitikaga ei seostu ühtki asukohta, siis ei rakendu tööpoliitika ühelegi protsessile.</span><span class="sxs-lookup"><span data-stu-id="25ff5-124">If no location is associated with a work policy, the work policy doesn’t apply to any processes.</span></span> <span data-ttu-id="25ff5-125">Lehel **Asukohad** saate ka valida või tühistada tööpoliitika valimise teatud asukohas.</span><span class="sxs-lookup"><span data-stu-id="25ff5-125">On the **Locations** page, you can also select or cancel the selection of the work policy for a specific location.</span></span>
+## <a name="the-work-policies-page"></a><span data-ttu-id="3ae04-120">Tööpoliitikate leht</span><span class="sxs-lookup"><span data-stu-id="3ae04-120">The Work policies page</span></span>
 
-## <a name="products"></a><span data-ttu-id="25ff5-126">Tooted</span><span class="sxs-lookup"><span data-stu-id="25ff5-126">Products</span></span>
-<span data-ttu-id="25ff5-127">Saate valida toote, millele tööpoliitika rakendub.</span><span class="sxs-lookup"><span data-stu-id="25ff5-127">You can select a product that the work policy applies to.</span></span> <span data-ttu-id="25ff5-128">Saate rakendada tööpoliitika kõikidele toodetele või valitud toodetele.</span><span class="sxs-lookup"><span data-stu-id="25ff5-128">You can apply the work policy to either all products or selected products.</span></span>
+<span data-ttu-id="3ae04-121">Tööpoliitikate seadistamiseks avage **Laohaldus \> Häälestamine \> Töö \> Tööpoliitikad**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-121">To set up work policies, go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span> <span data-ttu-id="3ae04-122">Seejärel seadistage igal FastTab-il väljad, nagu on kirjeldatud järgmistes alamosades.</span><span class="sxs-lookup"><span data-stu-id="3ae04-122">Then, on each FastTab, set the fields as described in the following subsections.</span></span>
 
-## <a name="example"></a><span data-ttu-id="25ff5-129">Näide</span><span class="sxs-lookup"><span data-stu-id="25ff5-129">Example</span></span>
-<span data-ttu-id="25ff5-130">Järgmises näites on kaks tootmistellimust: PRD-001 ja PRD-00*2*.</span><span class="sxs-lookup"><span data-stu-id="25ff5-130">In the following example, there are two production orders, PRD-001 and PRD-00*2*.</span></span> <span data-ttu-id="25ff5-131">Tootmistellimusel PRD-001 on toiming nimega **Assembler**, kus toode SC1 on teatatud lõpetatuks asukohale O1.</span><span class="sxs-lookup"><span data-stu-id="25ff5-131">Production order PRD-001 has an operation that is named **Assembly**, where product SC1 is being reported as finished to location O1.</span></span> <span data-ttu-id="25ff5-132">Tootmistellimusel PRD-002 on toiming nimega **Värvimine** ja tarbib toodet SC1 asukohast O1.</span><span class="sxs-lookup"><span data-stu-id="25ff5-132">Production order PRD-002 has an operation that is named **Painting** and consumes product SC1 from location O1.</span></span> <span data-ttu-id="25ff5-133">Tootmistellimus PRD-002 tarbib ka toormaterjali RM1 asukohast O1.</span><span class="sxs-lookup"><span data-stu-id="25ff5-133">Production order PRD-002 also consumes raw material RM1 from location O1.</span></span> <span data-ttu-id="25ff5-134">RM1-d hoitakse laoasukohas BULK-001 ja komplekteeritakse asukohale O1 laotööga toormaterjali komplekteerimiseks.</span><span class="sxs-lookup"><span data-stu-id="25ff5-134">RM1 is stored in warehouse location BULK-001 and will be picked to location O1 by warehouse work for raw material picking.</span></span> <span data-ttu-id="25ff5-135">Komplekteerimistöö luuakse tootmise PRD-002 väljastamisel.</span><span class="sxs-lookup"><span data-stu-id="25ff5-135">The picking work is generated when production PRD-002 is released.</span></span> 
+### <a name="the-work-order-types-fasttab"></a><span data-ttu-id="3ae04-123">Töötellimuse tüübid FastTab</span><span class="sxs-lookup"><span data-stu-id="3ae04-123">The Work order types FastTab</span></span>
 
-<span data-ttu-id="25ff5-136">[![Lao tööpoliitikad](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="25ff5-136">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span> 
+<span data-ttu-id="3ae04-124">**Töötellimuse tüübid** FastTab-is saate lisada kõik töötellimuse tüübid ja sellega seotud tööprotsessid, millele tööpoliitika rakendub.</span><span class="sxs-lookup"><span data-stu-id="3ae04-124">On the **Work order types** FastTab, add all the work order types, and the related work processes, that the work policy applies to.</span></span> <span data-ttu-id="3ae04-125">Tööpoliitikate jaoks toetatakse järgmisi töötellimuse tüüpe ja seotud tööpoliitikaid.</span><span class="sxs-lookup"><span data-stu-id="3ae04-125">The following work order types and related work processes are supported for work policies.</span></span>
 
-<span data-ttu-id="25ff5-137">Kui plaanite selle stsenaariumi jaoks konfigureerida lao tööpoliitika, peaksite arvestama järgmist teavet.</span><span class="sxs-lookup"><span data-stu-id="25ff5-137">When you plan to configure a warehouse work policy for this scenario, you should consider the following information:</span></span>
+| <span data-ttu-id="3ae04-126">Töötellimuse tüüp</span><span class="sxs-lookup"><span data-stu-id="3ae04-126">Work order type</span></span> | <span data-ttu-id="3ae04-127">Tööprotsess</span><span class="sxs-lookup"><span data-stu-id="3ae04-127">Work process</span></span> |
+|---|---|
+| <span data-ttu-id="3ae04-128">Toormaterjalide komplekteerimine</span><span class="sxs-lookup"><span data-stu-id="3ae04-128">Raw material picking</span></span>| <span data-ttu-id="3ae04-129">Kõik seotud protsessid</span><span class="sxs-lookup"><span data-stu-id="3ae04-129">All related processes</span></span> |
+| <span data-ttu-id="3ae04-130">Kaastoodete ja kõrvalsaaduste kõrvalepanek</span><span class="sxs-lookup"><span data-stu-id="3ae04-130">Co-product and by-product put away</span></span> | <span data-ttu-id="3ae04-131">Kõik seotud protsessid</span><span class="sxs-lookup"><span data-stu-id="3ae04-131">All related processes</span></span> |
+| <span data-ttu-id="3ae04-132">Lõpetatud kaupade ladustamine</span><span class="sxs-lookup"><span data-stu-id="3ae04-132">Finished goods putaway</span></span> | <span data-ttu-id="3ae04-133">Kõik seotud protsessid</span><span class="sxs-lookup"><span data-stu-id="3ae04-133">All related processes</span></span> |
+| <span data-ttu-id="3ae04-134">Üleviimistarne</span><span class="sxs-lookup"><span data-stu-id="3ae04-134">Transfer receipt</span></span> | <span data-ttu-id="3ae04-135">Litsentsiplaadi vastuvõtt (ja kõrvale panemine)</span><span class="sxs-lookup"><span data-stu-id="3ae04-135">License plate receiving (and putaway)</span></span> |
+| <span data-ttu-id="3ae04-136">Ostutellimused</span><span class="sxs-lookup"><span data-stu-id="3ae04-136">Purchase orders</span></span> | <ul><li><span data-ttu-id="3ae04-137">Litsentsiplaadi vastuvõtt (ja kõrvale panemine)</span><span class="sxs-lookup"><span data-stu-id="3ae04-137">License plate receiving (and putaway)</span></span></li><li><span data-ttu-id="3ae04-138">Koormas oleva kauba vastuvõtmine (ja kõrvale panemine)</span><span class="sxs-lookup"><span data-stu-id="3ae04-138">Load item receiving (and putaway)</span></span></li><li><span data-ttu-id="3ae04-139">Vastuvõttev ostutellimuse rida (ja kõrvaleseadmine)</span><span class="sxs-lookup"><span data-stu-id="3ae04-139">Purchase order line receiving (and putaway)</span></span></li><li><span data-ttu-id="3ae04-140">Vastuvõttev ostutellimuse üksus (ja kõrvaleseadmine)</span><span class="sxs-lookup"><span data-stu-id="3ae04-140">Purchase order item receiving (and putaway)</span></span></li></ul> |
 
--   <span data-ttu-id="25ff5-138">Laotöö pole lõpetatud kaupade kõrvalepanekuks vajalik, kui teatate toote SC1 lõpetatuks tootmistellimusest PRD-001 asukohale O1.</span><span class="sxs-lookup"><span data-stu-id="25ff5-138">Warehouse work for finished goods put-away isn’t required when you report product SC1 as finished from production order PRD-001 to location O1.</span></span> <span data-ttu-id="25ff5-139">Seda seetõttu, et tootmistellimuse PRD-002 toiming **Värvimine** tarbib samas asukohas SC1.</span><span class="sxs-lookup"><span data-stu-id="25ff5-139">This is because the **Painting** operation for production order PRD-002 consumes SC1 at the same location.</span></span>
--   <span data-ttu-id="25ff5-140">Laotöö on toormaterjali komplekteerimiseks vajalik, et liigutada toormaterjali RM1 laoasukohast BULK-001 asukohta O1.</span><span class="sxs-lookup"><span data-stu-id="25ff5-140">Warehouse work for raw material picking is required in order to move raw material RM1 from warehouse location BULK-001 to location O1.</span></span>
+<span data-ttu-id="3ae04-141">Tööpoliitika seadistamiseks viisil,, et see rakendub mitmele sama töötellimuse tüübi tööprotsessile, lisage iga tööprotsessi jaoks tabelisse eraldi rida.</span><span class="sxs-lookup"><span data-stu-id="3ae04-141">To set up a work policy so that it applies to several work processes of the same work order type, add a separate line for each work process to the grid.</span></span>
 
-<span data-ttu-id="25ff5-141">Siin on näide tööpoliitikast, mida saate nende kaalutluste põhjal seadistada.</span><span class="sxs-lookup"><span data-stu-id="25ff5-141">Here is an example of the work policy that you can set up, based on these considerations.</span></span>
+<span data-ttu-id="3ae04-142">Määrake iga tabeli rea puhul väli **Töö loomise meetod** ühele järgmistest väärtustest.</span><span class="sxs-lookup"><span data-stu-id="3ae04-142">For each line in the grid, set the **Work creation method** field to one of the following values:</span></span>
 
+- <span data-ttu-id="3ae04-143">**Mitte kunagi** – see väärtus näitab, et tööpoliitika takistab laotöö loomist valitud töötellimuse tüübi ja seotud tööprotsessi jaoks.</span><span class="sxs-lookup"><span data-stu-id="3ae04-143">**Never** – The work policy will prevent warehouse work from being created for the selected work order type and related work process.</span></span>
+- <span data-ttu-id="3ae04-144">**Ristlaadimine** — tööpoliitika loob kaudse edasisaatmise töö, kasutades väljal **Ristlaadimise poliitika nimi** valitud poliitikat.</span><span class="sxs-lookup"><span data-stu-id="3ae04-144">**Cross docking** – The work policy will create cross-docking work by using the policy that you select in the **Cross docking policy name** field.</span></span>
 
-|                                       |                                       |
-|---------------------------------------|---------------------------------------|
-| <span data-ttu-id="25ff5-142"><strong>Tööpoliitika nimi</strong></span><span class="sxs-lookup"><span data-stu-id="25ff5-142"><strong>Work policy name</strong></span></span><br> | <span data-ttu-id="25ff5-143"><strong>Töökäsu tüübid</strong></span><span class="sxs-lookup"><span data-stu-id="25ff5-143"><strong>Work order types</strong></span></span><br> |
-|         <span data-ttu-id="25ff5-144">Kõrvalepanekuta 01     \`</span><span class="sxs-lookup"><span data-stu-id="25ff5-144">No put away 01     \`</span></span>          |     <span data-ttu-id="25ff5-145">- Lõpetatud kaupade kõrvalepanek</span><span class="sxs-lookup"><span data-stu-id="25ff5-145">- Finished good put away</span></span><br>      |
-|                                       |    <span data-ttu-id="25ff5-146"><strong>Asukohad</strong></span><span class="sxs-lookup"><span data-stu-id="25ff5-146"><strong>Locations</strong></span></span><br>     |
-|                                       |                 <span data-ttu-id="25ff5-147">- O1</span><span class="sxs-lookup"><span data-stu-id="25ff5-147">- O1</span></span>                  |
-|                                       |    <span data-ttu-id="25ff5-148"><strong>Tooted</strong></span><span class="sxs-lookup"><span data-stu-id="25ff5-148"><strong>Products</strong></span></span> <br>     |
-|                                       |                 <span data-ttu-id="25ff5-149">- SC1</span><span class="sxs-lookup"><span data-stu-id="25ff5-149">- SC1</span></span>                 |
+### <a name="the-inventory-locations-fasttab"></a><span data-ttu-id="3ae04-145">Varude asukohad FastTab-is</span><span class="sxs-lookup"><span data-stu-id="3ae04-145">The Inventory locations FastTab</span></span>
 
-<span data-ttu-id="25ff5-150">Järgmised protseduurid annavad etapiviisilise juhise, kuidas seadistada selle stsenaarium jaoks laotöö poliitikat.</span><span class="sxs-lookup"><span data-stu-id="25ff5-150">The following procedures provide step-by-step instructions about how to set up the warehouse work policy for this scenario.</span></span> <span data-ttu-id="25ff5-151">Samuti on kirjeldatud näidisseadistust, mis näitab, kuidas teatada tootmistellimus lõpetatuks asukohale, mis pole litsentsiplaadiga kontrollitav.</span><span class="sxs-lookup"><span data-stu-id="25ff5-151">A sample setup showing how to report a production order as finished to a location that isn’t license plate–controlled is also described.</span></span>
+<span data-ttu-id="3ae04-146">Lisage FastTab **Varude asukohtad** kõik asukohad, kus seda tööpoliitikat rakendada.</span><span class="sxs-lookup"><span data-stu-id="3ae04-146">On the **Inventory locations** FastTab, add all the locations where this work policy should be applied.</span></span> <span data-ttu-id="3ae04-147">Kui tööpoliitikaga ei seostu ühtki asukohta, siis ei rakendu tööpoliitika ühelegi protsessile.</span><span class="sxs-lookup"><span data-stu-id="3ae04-147">If no location is associated with a work policy, the work policy won't be applied to any process.</span></span>
 
-## <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="25ff5-152">Lao tööpoliitika seadistamine</span><span class="sxs-lookup"><span data-stu-id="25ff5-152">Set up a warehouse work policy</span></span>
-<span data-ttu-id="25ff5-153">Laotoimingud ei hõlma alati laotööd.</span><span class="sxs-lookup"><span data-stu-id="25ff5-153">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="25ff5-154">Tööpoliitika määratlemisel saate vältida töö loomist toormaterjali komplekteerimise puhul ja lõpetatud kaupade ladustamist toodete kogumi puhul kindlates asukohtades.</span><span class="sxs-lookup"><span data-stu-id="25ff5-154">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="25ff5-155">Selle protseduuri loomiseks kasutati demoettevõtte USMF andmeid.</span><span class="sxs-lookup"><span data-stu-id="25ff5-155">The USMF demo data company was used to create this procedure.</span></span> 
+<span data-ttu-id="3ae04-148">Sama asukohta ei saa määrata mitme tööpoliitika jaoks.</span><span class="sxs-lookup"><span data-stu-id="3ae04-148">You can't specify the same location for multiple work policies.</span></span>
 
-<span data-ttu-id="25ff5-156">ETAPID (21)</span><span class="sxs-lookup"><span data-stu-id="25ff5-156">STEPS (21)</span></span>
+<span data-ttu-id="3ae04-149">Asukoha profiilile määratud lao asukohta saate kasutada ka siis, kui funktsioon **Kasuta litsentsiplaadi jälgimist** ei ole sisse lülitatud.</span><span class="sxs-lookup"><span data-stu-id="3ae04-149">You can use a warehouse location that is assigned to a location profile where the **Use license plate tracking** option is turned off.</span></span> <span data-ttu-id="3ae04-150">Sel juhul registreerivad töötajad otse vaba kaubavaru.</span><span class="sxs-lookup"><span data-stu-id="3ae04-150">In this case, workers will directly register the on-hand inventory.</span></span>
 
-|     |                                                                            |
-|-----|----------------------------------------------------------------------------|
-| <span data-ttu-id="25ff5-157">1.</span><span class="sxs-lookup"><span data-stu-id="25ff5-157">1.</span></span>  | <span data-ttu-id="25ff5-158">Minge asukohta Laohaldus &gt; Seadistus &gt; Töö &gt; Tööpoliitikad.</span><span class="sxs-lookup"><span data-stu-id="25ff5-158">Go to Warehouse management &gt; Setup &gt; Work &gt; Work policies.</span></span>        |
-| <span data-ttu-id="25ff5-159">2.</span><span class="sxs-lookup"><span data-stu-id="25ff5-159">2.</span></span>  | <span data-ttu-id="25ff5-160">Klõpsake valikut Uus.</span><span class="sxs-lookup"><span data-stu-id="25ff5-160">Click New.</span></span>                                                                 |
-| <span data-ttu-id="25ff5-161">3.</span><span class="sxs-lookup"><span data-stu-id="25ff5-161">3.</span></span>  | <span data-ttu-id="25ff5-162">Tippige välja Tööpoliitika nimi väärtus Ladustamitööd ei ole.</span><span class="sxs-lookup"><span data-stu-id="25ff5-162">In the Work policy name field, type 'No put-away work'.</span></span>                    |
-| <span data-ttu-id="25ff5-163">4.</span><span class="sxs-lookup"><span data-stu-id="25ff5-163">4.</span></span>  | <span data-ttu-id="25ff5-164">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="25ff5-164">Click Save.</span></span>                                                                |
-| <span data-ttu-id="25ff5-165">5.</span><span class="sxs-lookup"><span data-stu-id="25ff5-165">5.</span></span>  | <span data-ttu-id="25ff5-166">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="25ff5-166">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="25ff5-167">6.</span><span class="sxs-lookup"><span data-stu-id="25ff5-167">6.</span></span>  | <span data-ttu-id="25ff5-168">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="25ff5-168">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="25ff5-169">7.</span><span class="sxs-lookup"><span data-stu-id="25ff5-169">7.</span></span>  | <span data-ttu-id="25ff5-170">Tehke väljal Töötellimuse tüüp valik Lõpetatud kaupade kõrvalepanek.</span><span class="sxs-lookup"><span data-stu-id="25ff5-170">In the Work order type field, select 'Finished goods put away'.</span></span>            |
-| <span data-ttu-id="25ff5-171">8.</span><span class="sxs-lookup"><span data-stu-id="25ff5-171">8.</span></span>  | <span data-ttu-id="25ff5-172">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="25ff5-172">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="25ff5-173">9.</span><span class="sxs-lookup"><span data-stu-id="25ff5-173">9.</span></span>  | <span data-ttu-id="25ff5-174">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="25ff5-174">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="25ff5-175">10.</span><span class="sxs-lookup"><span data-stu-id="25ff5-175">10.</span></span> | <span data-ttu-id="25ff5-176">Tehke välja Töötellimuse tüüp valik Kaastoodete ja kõrvalsaaduste kõrvalepanek.</span><span class="sxs-lookup"><span data-stu-id="25ff5-176">In the Work order type field, select 'Co-product and by-product put away'.</span></span> |
-| <span data-ttu-id="25ff5-177">11.</span><span class="sxs-lookup"><span data-stu-id="25ff5-177">11.</span></span> | <span data-ttu-id="25ff5-178">Laiendage jaotist Lao asukohad.</span><span class="sxs-lookup"><span data-stu-id="25ff5-178">Expand the Inventory locations section.</span></span>                                    |
-| <span data-ttu-id="25ff5-179">12.</span><span class="sxs-lookup"><span data-stu-id="25ff5-179">12.</span></span> | <span data-ttu-id="25ff5-180">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="25ff5-180">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="25ff5-181">13.</span><span class="sxs-lookup"><span data-stu-id="25ff5-181">13.</span></span> | <span data-ttu-id="25ff5-182">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="25ff5-182">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="25ff5-183">14.</span><span class="sxs-lookup"><span data-stu-id="25ff5-183">14.</span></span> | <span data-ttu-id="25ff5-184">Sisestage loendisse Ladu väärtus 51.</span><span class="sxs-lookup"><span data-stu-id="25ff5-184">In the Warehouse list, enter '51'.</span></span>                                         |
-| <span data-ttu-id="25ff5-185">15.</span><span class="sxs-lookup"><span data-stu-id="25ff5-185">15.</span></span> | <span data-ttu-id="25ff5-186">Sisestage või valige väljal Asukoht väärtus 001.</span><span class="sxs-lookup"><span data-stu-id="25ff5-186">In the Location field, enter or select '001'.</span></span>                              |
-| <span data-ttu-id="25ff5-187">16.</span><span class="sxs-lookup"><span data-stu-id="25ff5-187">16.</span></span> | <span data-ttu-id="25ff5-188">Laiendage jaotist Tooted.</span><span class="sxs-lookup"><span data-stu-id="25ff5-188">Expand the Products section.</span></span>                                               |
-| <span data-ttu-id="25ff5-189">17.</span><span class="sxs-lookup"><span data-stu-id="25ff5-189">17.</span></span> | <span data-ttu-id="25ff5-190">Tehk väljal Toote valimine valik Valitud.</span><span class="sxs-lookup"><span data-stu-id="25ff5-190">In the Product selection field, select 'Selected'.</span></span>                         |
-| <span data-ttu-id="25ff5-191">18.</span><span class="sxs-lookup"><span data-stu-id="25ff5-191">18.</span></span> | <span data-ttu-id="25ff5-192">Klõpsake vahekaarti Lisa.</span><span class="sxs-lookup"><span data-stu-id="25ff5-192">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="25ff5-193">19.</span><span class="sxs-lookup"><span data-stu-id="25ff5-193">19.</span></span> | <span data-ttu-id="25ff5-194">Märkige loendis valitud rida.</span><span class="sxs-lookup"><span data-stu-id="25ff5-194">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="25ff5-195">20.</span><span class="sxs-lookup"><span data-stu-id="25ff5-195">20.</span></span> | <span data-ttu-id="25ff5-196">Sisestage või valige väljal Kaubakood väärtus L0101.</span><span class="sxs-lookup"><span data-stu-id="25ff5-196">In the Item number field, enter or select 'L0101'.</span></span>                         |
-| <span data-ttu-id="25ff5-197">21.</span><span class="sxs-lookup"><span data-stu-id="25ff5-197">21.</span></span> | <span data-ttu-id="25ff5-198">Klõpsake nuppu Salvesta.</span><span class="sxs-lookup"><span data-stu-id="25ff5-198">Click Save.</span></span>                                                                |
+### <a name="the-products-fasttab"></a><span data-ttu-id="3ae04-151">Toodete FastTab</span><span class="sxs-lookup"><span data-stu-id="3ae04-151">The Products FastTab</span></span>
 
-## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="25ff5-199">Teatage tootmistellimus lõpetatuks asukohale, mis pole litsentsiplaadiga kontrollitud</span><span class="sxs-lookup"><span data-stu-id="25ff5-199">Report a production order as finished to a location that isn’t license plate–controlled</span></span>
-<span data-ttu-id="25ff5-200">Selles protseduuris esitatakse näide lõpetatuks kuulutamisest mittelitsentsiplaadiga kontrollitava asukoha jaoks.</span><span class="sxs-lookup"><span data-stu-id="25ff5-200">This procedure shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="25ff5-201">Selle ülesande eeltingimus on kehtiv tööpoliitika.</span><span class="sxs-lookup"><span data-stu-id="25ff5-201">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="25ff5-202">Eelmine protseduur näitab tööpoliitika seadistust.</span><span class="sxs-lookup"><span data-stu-id="25ff5-202">The previous procedure shows the setup of the work policy.</span></span> 
+<span data-ttu-id="3ae04-152">Vahekaardil **Tooted** määrake väli **Toote valik** juhtelemendile, mis tooteid poliitika peaks rakendama:</span><span class="sxs-lookup"><span data-stu-id="3ae04-152">On the **Products** tab, set the **Product selection** field to control which products the policy should apply to:</span></span>
 
-<span data-ttu-id="25ff5-203">ETAPID (25)</span><span class="sxs-lookup"><span data-stu-id="25ff5-203">STEPS (25)</span></span>
+- <span data-ttu-id="3ae04-153">**Kõik** — poliitika peaks rakenduma kõikidele toodetele.</span><span class="sxs-lookup"><span data-stu-id="3ae04-153">**All** – The policy should apply to all products.</span></span>
+- <span data-ttu-id="3ae04-154">**Valitud** — poliitika peaks rakenduma ainult tabelis loetletud toodetele.</span><span class="sxs-lookup"><span data-stu-id="3ae04-154">**Selected** – The policy should apply only to products that are listed in the grid.</span></span> <span data-ttu-id="3ae04-155">Kasutage **Toodete** FastTab tööriistariba toodete tabelisse lisamiseks või sealt eemaldamiseks.</span><span class="sxs-lookup"><span data-stu-id="3ae04-155">Use the toolbar on the **Products** FastTab to add products to the grid or remove them from the grid.</span></span>
 
-<table>
-<tbody>
-<tr>
-<td colspan="3"><span data-ttu-id="25ff5-204"><strong>Alamülesanne: väljundi asukoha seadistamine.</strong></span><span class="sxs-lookup"><span data-stu-id="25ff5-204"><strong>Sub-task: Set up an output location.</strong></span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td><span data-ttu-id="25ff5-205">Avage Organisatsiooni haldus &gt; Ressursid &gt; Ressursigrupid.</span><span class="sxs-lookup"><span data-stu-id="25ff5-205">Go to Organization administration &gt; Resources &gt; Resource groups.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td><span data-ttu-id="25ff5-206">Valige loendist ressursigrupp &#39;5102&#39;.</span><span class="sxs-lookup"><span data-stu-id="25ff5-206">In the list, select resource group &#39;5102&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td><span data-ttu-id="25ff5-207">Klõpsake nuppu Redigeeri.</span><span class="sxs-lookup"><span data-stu-id="25ff5-207">Click Edit.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td><span data-ttu-id="25ff5-208">Sisestage väljale Väljastusladu väärtus &#39;51&#39;.</span><span class="sxs-lookup"><span data-stu-id="25ff5-208">In the Output warehouse field, enter &#39;51&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td><span data-ttu-id="25ff5-209">Sisestage väljale Väljundi asukoht väärtus &#39;001&#39;.</span><span class="sxs-lookup"><span data-stu-id="25ff5-209">In the Output location field, enter &#39;001&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td><span data-ttu-id="25ff5-210">Asukoht 001 pole litsentsiplaadiga juhitav asukoht.</span><span class="sxs-lookup"><span data-stu-id="25ff5-210">Location 001 isn&#39;t a license plate–controlled location.</span></span> <span data-ttu-id="25ff5-211">Saate seadistada mittelitsentsiplaadi väljundi asukoha ainult siis, kui asukohale on olemas vastav tööpoliitika.</span><span class="sxs-lookup"><span data-stu-id="25ff5-211">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span></td>
-</tr>
-<tr>
-<td colspan="3"><span data-ttu-id="25ff5-212"><strong>Alamülesanne: tootmistellimuse loomine ja selle lõpetatuna kinnitamine.</strong></span><span class="sxs-lookup"><span data-stu-id="25ff5-212"><strong>Sub-task: Create a production order and report it as finished.</strong></span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td><span data-ttu-id="25ff5-213">Sulgege leht.</span><span class="sxs-lookup"><span data-stu-id="25ff5-213">Close the page.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td><span data-ttu-id="25ff5-214">Avage Tootmise juhtimine &gt; Tootmistellimused &gt; Kõik tootmistellimused.</span><span class="sxs-lookup"><span data-stu-id="25ff5-214">Go to Production control &gt; Production orders &gt; All production orders.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td><span data-ttu-id="25ff5-215">Klõpsake valikut Uus tootmistellimus.</span><span class="sxs-lookup"><span data-stu-id="25ff5-215">Click New production order.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td><span data-ttu-id="25ff5-216">Sisestage väljale Kauba kood väärtus &#39;L0101&#39;.</span><span class="sxs-lookup"><span data-stu-id="25ff5-216">In the Item number field, enter &#39;L0101&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td><span data-ttu-id="25ff5-217">Klõpsake käsku Loo.</span><span class="sxs-lookup"><span data-stu-id="25ff5-217">Click Create.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td><span data-ttu-id="25ff5-218">Klõpsake toimingupaanil valikut Tootmistellimus.</span><span class="sxs-lookup"><span data-stu-id="25ff5-218">On the Action Pane, click Production order.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>7.</td>
-<td><span data-ttu-id="25ff5-219">Klõpsake suvandit Hinnang.</span><span class="sxs-lookup"><span data-stu-id="25ff5-219">Click Estimate.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>8.</td>
-<td><span data-ttu-id="25ff5-220">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="25ff5-220">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>9.</td>
-<td><span data-ttu-id="25ff5-221">Klõpsake käsku Käivita.</span><span class="sxs-lookup"><span data-stu-id="25ff5-221">Click Start.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>10.</td>
-<td><span data-ttu-id="25ff5-222">Klõpsake vahekaarti Üldine.</span><span class="sxs-lookup"><span data-stu-id="25ff5-222">Click the General tab.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>11.</td>
-<td><span data-ttu-id="25ff5-223">Tehke väljal Automaatne koosluse tarbimine valik &#39;Mitte kunagi&#39;.</span><span class="sxs-lookup"><span data-stu-id="25ff5-223">In the Automatic BOM consumption field, select &#39;Never&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>12.</td>
-<td><span data-ttu-id="25ff5-224">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="25ff5-224">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>13.</td>
-<td><span data-ttu-id="25ff5-225">Klõpsake valikut Kinnita lõpetamine.</span><span class="sxs-lookup"><span data-stu-id="25ff5-225">Click Report as finished.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>14.</td>
-<td><span data-ttu-id="25ff5-226">Klõpsake vahekaarti Üldine.</span><span class="sxs-lookup"><span data-stu-id="25ff5-226">Click the General tab.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>15.</td>
-<td><span data-ttu-id="25ff5-227">Tehke väljal Aktsepteeri viga valik Jah.</span><span class="sxs-lookup"><span data-stu-id="25ff5-227">Select Yes in the Accept error field.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>16.</td>
-<td><span data-ttu-id="25ff5-228">Klõpsake nuppu OK.</span><span class="sxs-lookup"><span data-stu-id="25ff5-228">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>17.</td>
-<td><span data-ttu-id="25ff5-229">Klõpsake toimingupaanil valikut Ladu.</span><span class="sxs-lookup"><span data-stu-id="25ff5-229">On the Action Pane, click Warehouse.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>18.</td>
-<td><span data-ttu-id="25ff5-230">Klõpsake suvandit Töö üksikasjad.</span><span class="sxs-lookup"><span data-stu-id="25ff5-230">Click Work details.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>19.</td>
-<td><span data-ttu-id="25ff5-231">Kui tootmistellimus on lõpetatuks kuulutatud, pole ladustamiseks tööd loodud.</span><span class="sxs-lookup"><span data-stu-id="25ff5-231">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="25ff5-232">See ilmneb, kuna määratletud on tööpoliitika, mis takistab töö loomist, kui toode L0101 kuulutatakse lõpetatuks asukohale 001.</span><span class="sxs-lookup"><span data-stu-id="25ff5-232">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span></td>
-</tr>
-</tbody>
-</table>
+## <a name="default-and-custom-to-locations"></a><span data-ttu-id="3ae04-156">Vaikimisi ja kohandatud "sinna" asukohad</span><span class="sxs-lookup"><span data-stu-id="3ae04-156">Default and custom "to" locations</span></span>
 
+> [!NOTE]
+> <span data-ttu-id="3ae04-157">Selles jaotises kirjeldatud funktsioonide kättesaadavaks tegemiseks süsteemis peate sisse lülitama funktsioonid *Litsentsiplaadi täiustuste saamine* ja *Tööpoliitika täiustused sissetuleva töö puhul* asukohas [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="3ae04-157">To make the functionality that is described in this section available in your system, you must turn on the *License plate receiving enhancements* and *Work policy enhancements for inbound work* features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
 
+<span data-ttu-id="3ae04-158">Varem toetas süsteem vastuvõtmist ainult iga lao jaoks eraldi seatud vaikimisi asukohas.</span><span class="sxs-lookup"><span data-stu-id="3ae04-158">Previously, the system supported receiving only at the default location that is defined for each warehouse.</span></span> <span data-ttu-id="3ae04-159">Kuid mobiilse seadme menüüüksused, mis kasutavad järgmisi töö loomise protsesse, pakuvad nüüd suvandit **Vaikeandmete kasutamine**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-159">However, mobile device menu items that use the following work creation processes now provide the **Use default data** option.</span></span> <span data-ttu-id="3ae04-160">See valik võimaldab teil määrata kohandatud asukohta ühele või mitmele menüükäsule.</span><span class="sxs-lookup"><span data-stu-id="3ae04-160">This option lets you assign a custom "to" location to one or more menu items.</span></span> <span data-ttu-id="3ae04-161">(See suvand oli teatud menüükäsu tüüpide jaoks juba saadaval.)</span><span class="sxs-lookup"><span data-stu-id="3ae04-161">(This option was already available for some other types of menu items.)</span></span>
 
+- <span data-ttu-id="3ae04-162">Litsentsiplaadi vastuvõtt (ja kõrvale panemine)</span><span class="sxs-lookup"><span data-stu-id="3ae04-162">License plate receiving (and putaway)</span></span>
+- <span data-ttu-id="3ae04-163">Koormas oleva kauba vastuvõtmine (ja kõrvale panemine)</span><span class="sxs-lookup"><span data-stu-id="3ae04-163">Load item receiving (and putaway)</span></span>
+- <span data-ttu-id="3ae04-164">Vastuvõttev ostutellimuse rida (ja kõrvaleseadmine)</span><span class="sxs-lookup"><span data-stu-id="3ae04-164">Purchase order line receiving (and putaway)</span></span>
+- <span data-ttu-id="3ae04-165">Vastuvõttev ostutellimuse üksus (ja kõrvaleseadmine)</span><span class="sxs-lookup"><span data-stu-id="3ae04-165">Purchase order item receiving (and putaway)</span></span>
+
+<span data-ttu-id="3ae04-166">**Asukoha** menüü-üksuse säte kirjutab üle lao vastuvõtmise vaikeasukohta kõigi tellimuste puhul, mida töödeldakse selle menüükäsu abil.</span><span class="sxs-lookup"><span data-stu-id="3ae04-166">The **To location** setting for a menu item overrides the default receiving location for the warehouse, for all orders that are processed by using that menu item.</span></span>
+
+<span data-ttu-id="3ae04-167">Mobiilse seadme menüü-üksuse seadistamiseks, mis toetab vastuvõtmist kohandatud asukohas, toimige järgmiselt.</span><span class="sxs-lookup"><span data-stu-id="3ae04-167">To set up a mobile device menu item to support receiving at a custom location, follow these steps.</span></span>
+
+1. <span data-ttu-id="3ae04-168">Avage **Laohaldus \> Seadistus \> Mobiilne seade \> Mobiilse seadme menüü-üksused**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-168">Go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
+1. <span data-ttu-id="3ae04-169">Valige või looge menüükäsk, mis kasutab ühte selles jaotises varem loetletud tööloomise protsessidest.</span><span class="sxs-lookup"><span data-stu-id="3ae04-169">Select or create a menu item that uses one of the work creation processes that are listed earlier in this section.</span></span>
+1. <span data-ttu-id="3ae04-170">Määrake FastTab-il **Üldine** suvandil **Kasutage vaikeandmed** valikut **Jah**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-170">On the **General** FastTab, set the **Use default data** option to **Yes**.</span></span>
+1. <span data-ttu-id="3ae04-171">Valige tegumiribal suvand **Vaikeandmed**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-171">On the Action Pane, select **Default data**.</span></span>
+1. <span data-ttu-id="3ae04-172">Määrake lehel **Vaikeandmed** järgmised väärtused.</span><span class="sxs-lookup"><span data-stu-id="3ae04-172">On the **Default data** page, set the following values:</span></span>
+
+    - <span data-ttu-id="3ae04-173">**Vaikimisi andmeväli:** määrake see väli *asukohta*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-173">**Default data field:** Set this field to *To location*.</span></span>
+    - <span data-ttu-id="3ae04-174">**Ladu:** valige sihtladu, mida selle menüükäsuga kasutada.</span><span class="sxs-lookup"><span data-stu-id="3ae04-174">**Warehouse:** Select the destination warehouse to use with this menu item.</span></span>
+    - <span data-ttu-id="3ae04-175">**Asukoht:** see väli loendab kõik valitud lao jaoks saadaolevad asukoha ID-d.</span><span class="sxs-lookup"><span data-stu-id="3ae04-175">**Location:** This field lists all the location IDs that are available for the selected warehouse.</span></span> <span data-ttu-id="3ae04-176">Kuid selle välja sättel ei ole tegelikult mingit mõju.</span><span class="sxs-lookup"><span data-stu-id="3ae04-176">However, the setting of this field doesn't actually have any effect.</span></span> <span data-ttu-id="3ae04-177">Seetõttu saate selle tühjaks jätta.</span><span class="sxs-lookup"><span data-stu-id="3ae04-177">Therefore, you can leave it blank.</span></span> <span data-ttu-id="3ae04-178">Sellegipoolest saate kasutada loendit, et kinnitada ID, mille peate sisestama väljale **Kindlaksmääratud väärtus**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-178">Nevertheless, you can use the list to confirm the ID that you must enter in the **Hardcoded value** field.</span></span>
+    - <span data-ttu-id="3ae04-179">**Kindlaksmääratud väärtus:** sisestage selle menüükäsuga seotud asukoha ID.</span><span class="sxs-lookup"><span data-stu-id="3ae04-179">**Hardcoded value:** Enter the location ID for the receiving location that applies to this menu item.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="3ae04-180">Tööpoliitikat saab rakendada ainult siis, kui kõik vastuvõtvad asukohad on loetletud vastavas tööpoliitika sättes.</span><span class="sxs-lookup"><span data-stu-id="3ae04-180">A work policy can be applied only if all the receiving locations are listed in the relevant work policy setup.</span></span> <span data-ttu-id="3ae04-181">See nõue rakendub hoolimata sellest, kas kasutate lao vaikeasukohta või kohandatud asukohta.</span><span class="sxs-lookup"><span data-stu-id="3ae04-181">This requirement applies regardless of whether you're using the default warehouse receiving location or a custom "to" location.</span></span>
+
+## <a name="example-scenario-warehouse-receiving"></a><span data-ttu-id="3ae04-182">Stsenaariumi näide: lao vastuvõtt</span><span class="sxs-lookup"><span data-stu-id="3ae04-182">Example scenario: Warehouse receiving</span></span>
+
+<span data-ttu-id="3ae04-183">Kõik tooted, mis on vastu võetud *Ostutellimuse kauba vastuvõtmisel (ja ladustamisel)*, peavad olema registreeritud asukohas *FL-001* ja need peavad olema saadaval laos *24*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-183">All products that are received by the *Purchase order item receiving (and putaway)* process must be registered in location *FL-001*, and they must be available in warehouse *24*.</span></span> <span data-ttu-id="3ae04-184">Siiski ei tohi tööd luua.</span><span class="sxs-lookup"><span data-stu-id="3ae04-184">However, work should not be created.</span></span> <span data-ttu-id="3ae04-185">Tooted, mis on saadud mis tahes muul viisil (s.h kasutades muid mobiilse seadme menüükäske) tuleks registreerida vaikimisi lao vastuvõtvas asukohas (*RECV*) ja töö tuleb luua nagu tavaliselt.</span><span class="sxs-lookup"><span data-stu-id="3ae04-185">Products that are received by any other process (that is, by using other mobile device menu items) should be registered at the default warehouse receiving location (*RECV*), and work should be created as usual.</span></span> <span data-ttu-id="3ae04-186">(See stsenaarium ei kuva vaikimisi vastuvõtmise häälestust.)</span><span class="sxs-lookup"><span data-stu-id="3ae04-186">(This scenario doesn't show the default receiving setup.)</span></span>
+
+<span data-ttu-id="3ae04-187">See stsenaarium nõuab järgmisi elemente:</span><span class="sxs-lookup"><span data-stu-id="3ae04-187">This scenario requires the following elements:</span></span>
+
+- <span data-ttu-id="3ae04-188">*Ostutellimuse kauba vastuvõtmine (ja kõrvalepanek)* tööpoliitika protsess asukohas *FL-001*, kõikidele toodetele</span><span class="sxs-lookup"><span data-stu-id="3ae04-188">A work policy for the *Purchase order item receiving (and putaway)* process in location *FL-001*, for all products</span></span>
+- <span data-ttu-id="3ae04-189">Mobiilse seadme menüükäsk, millel on vaikeandmed ja mis määrab **Välja asukoha** väärtuseks *FL-001*</span><span class="sxs-lookup"><span data-stu-id="3ae04-189">A mobile device menu item that has default data, and that sets the **To location** field to *FL-001*</span></span>
+
+### <a name="prerequisites"></a><span data-ttu-id="3ae04-190">Eeltingimused</span><span class="sxs-lookup"><span data-stu-id="3ae04-190">Prerequisites</span></span>
+
+<span data-ttu-id="3ae04-191">Selles stsenaariumis kirjeldatud funktsioonide kättesaadavaks tegemiseks süsteemis peate sisse lülitama funktsioonid *Litsentsiplaadi täiustuste saamine* ja *Tööpoliitika täiustused sissetuleva töö puhul* asukohas [Funktsioonihaldus](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="3ae04-191">To make the functionality that is described in this scenario available in your system, you must turn on the *License plate receiving enhancements* and *Work policy enhancements for inbound work* features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
+
+<span data-ttu-id="3ae04-192">See stsenaarium kasutab standardseid demoandmeid.</span><span class="sxs-lookup"><span data-stu-id="3ae04-192">This scenario uses the standard demo data.</span></span> <span data-ttu-id="3ae04-193">Niisiis, kui soovite selle läbida siin toodud väärtuseid kasutades, peate kasutama süsteemi, kuhu demoandmed on installitud.</span><span class="sxs-lookup"><span data-stu-id="3ae04-193">Therefore, if you want to work through it by using the values that are provided here, you must work on a system where demo data is installed.</span></span> <span data-ttu-id="3ae04-194">Peate valima ka juriidilise isiku **USMF**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-194">Additionally, you must select the **USMF** legal entity.</span></span>
+
+### <a name="set-up-a-work-policy"></a><span data-ttu-id="3ae04-195">Tööpoliitika häälestamine</span><span class="sxs-lookup"><span data-stu-id="3ae04-195">Set up a work policy</span></span>
+
+1. <span data-ttu-id="3ae04-196">Minge asukohta **Laohaldus \> Häälestamine \> Töö \> Tööpoliitikad**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-196">Go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span>
+1. <span data-ttu-id="3ae04-197">Valige suvand **Uus**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-197">Select **New**.</span></span>
+1. <span data-ttu-id="3ae04-198">Minge väljal **Tööpoliitika nimi** asukohta *Ostukauba ladustamise töö puudub*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-198">In the **Work policy name** field, enter *No purchase item putaway work*.</span></span>
+1. <span data-ttu-id="3ae04-199">Valige käsk **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-199">Select **Save**.</span></span>
+1. <span data-ttu-id="3ae04-200">**Töötellimuse tüüpide** FastTab-l valige **Lisa**, et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:</span><span class="sxs-lookup"><span data-stu-id="3ae04-200">On the **Work order types** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="3ae04-201">**Töötellimuse tüüp:** *ostutellimused*</span><span class="sxs-lookup"><span data-stu-id="3ae04-201">**Work order type:** *Purchase orders*</span></span>
+    - <span data-ttu-id="3ae04-202">**Tööprotsess:** *vastuvõttev ostutellimuse kaup (ja ladustamine)*</span><span class="sxs-lookup"><span data-stu-id="3ae04-202">**Work process:** *Purchase order item receiving (and putaway)*</span></span>
+    - <span data-ttu-id="3ae04-203">**Töö loomise meetod:** *mitte kunagi*</span><span class="sxs-lookup"><span data-stu-id="3ae04-203">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="3ae04-204">**Ristlaadimise poliitika nimi:** jätke see väli tühjaks.</span><span class="sxs-lookup"><span data-stu-id="3ae04-204">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="3ae04-205">**Varude asukohtade** FastTab-l valige **Lisa**, et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:</span><span class="sxs-lookup"><span data-stu-id="3ae04-205">On the **Inventory locations** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="3ae04-206">**Ladu:** *24*</span><span class="sxs-lookup"><span data-stu-id="3ae04-206">**Warehouse:** *24*</span></span>
+    - <span data-ttu-id="3ae04-207">**Asukoht:** *FL-001*</span><span class="sxs-lookup"><span data-stu-id="3ae04-207">**Location:** *FL-001*</span></span>
+
+1. <span data-ttu-id="3ae04-208">**Toodete** FastTab-il seadistage välja **Tootevalik** väärtuseks *Kõik*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-208">On the **Products** FastTab, set the **Product selection** field to *All*.</span></span>
+1. <span data-ttu-id="3ae04-209">Valige käsk **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-209">Select **Save**.</span></span>
+
+### <a name="set-up-a-mobile-device-menu-item-to-change-the-receiving-location"></a><span data-ttu-id="3ae04-210">Mobiilse seadme menüükäsu häälestus kättesaamise asukoha muutmiseks</span><span class="sxs-lookup"><span data-stu-id="3ae04-210">Set up a mobile device menu item to change the receiving location</span></span>
+
+1. <span data-ttu-id="3ae04-211">Avage **Laohaldus \> Seadistus \> Mobiilne seade \> Mobiilse seadme menüü-üksused**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-211">Go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
+1. <span data-ttu-id="3ae04-212">Vasakpoolsel paanil valige olemasolev **Ostu vastuvõtmise** menüükäsk.</span><span class="sxs-lookup"><span data-stu-id="3ae04-212">In the left pane, select the existing **Purchase receive** menu item.</span></span>
+1. <span data-ttu-id="3ae04-213">Määrake FastTab-il **Üldine** suvandil **Kasutage vaikeandmed** valikut *Jah*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-213">On the **General** FastTab, set the **Use default data** option to *Yes*.</span></span>
+1. <span data-ttu-id="3ae04-214">Valige käsk **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-214">Select **Save**.</span></span>
+1. <span data-ttu-id="3ae04-215">Valige tegumiribal suvand **Vaikeandmed**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-215">On the Action Pane, select **Default data**.</span></span>
+1. <span data-ttu-id="3ae04-216">**Vaikeandmete** lehel tegevuspaanil valige **Uus**, et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:</span><span class="sxs-lookup"><span data-stu-id="3ae04-216">On the **Default data** page, on the Action Pane, select **New** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="3ae04-217">**Vaikimisi andmeväli:** *Asukohta*</span><span class="sxs-lookup"><span data-stu-id="3ae04-217">**Default data field:** *To location*</span></span>
+    - <span data-ttu-id="3ae04-218">**Ladu:** *24*</span><span class="sxs-lookup"><span data-stu-id="3ae04-218">**Warehouse:** *24*</span></span>
+    - <span data-ttu-id="3ae04-219">**Asukoht:** jätke see väli tühjaks.</span><span class="sxs-lookup"><span data-stu-id="3ae04-219">**Location:** Leave this field blank.</span></span>
+    - <span data-ttu-id="3ae04-220">**Kindlaks määratud väärtus:** *FL-001*</span><span class="sxs-lookup"><span data-stu-id="3ae04-220">**Hardcoded value:** *FL-001*</span></span>
+
+1. <span data-ttu-id="3ae04-221">Valige käsk **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-221">Select **Save**.</span></span>
+
+### <a name="receive-a-purchase-order-without-creating-work"></a><span data-ttu-id="3ae04-222">Ostutellimuse vastuvõtmine tööd loomata</span><span class="sxs-lookup"><span data-stu-id="3ae04-222">Receive a purchase order without creating work</span></span>
+
+<span data-ttu-id="3ae04-223">Selles jaotises toodud näites kirjeldatakse, kuidas saada ostutellimuse kaupa, kuid mitte tööd luues asukohas, mis erineb lao jaoks seadistatud vastuvõtmise vaikeasukohast.</span><span class="sxs-lookup"><span data-stu-id="3ae04-223">The example in this section shows how to receive a purchase order item, but without creating work, at a location that differs from the default receiving location that is set up for the warehouse.</span></span> <span data-ttu-id="3ae04-224">Selles näites kasutatakse tööpoliitikat ja mobiilse seadme üksust, mille lõite selle stsenaariumiga varem.</span><span class="sxs-lookup"><span data-stu-id="3ae04-224">This example uses the work policy and mobile device item that you created earlier in this scenario.</span></span>
+
+#### <a name="create-a-purchase-order"></a><span data-ttu-id="3ae04-225">Ostutellimuse loomine</span><span class="sxs-lookup"><span data-stu-id="3ae04-225">Create a purchase order</span></span>
+
+1. <span data-ttu-id="3ae04-226">Avage **Hanked \> Ostutellimused \> Kõik ostutellimused**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-226">Go to **Procurement and sourcing \> Purchase orders \> All purchase orders**.</span></span>
+1. <span data-ttu-id="3ae04-227">Valige suvand **Uus**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-227">Select **New**.</span></span>
+1. <span data-ttu-id="3ae04-228">Dialoogiboksis **Ostutellimuse loomine** määrake järgmised väärtused.</span><span class="sxs-lookup"><span data-stu-id="3ae04-228">In the **Create purchase order** dialog box, set the following values:</span></span>
+
+    - <span data-ttu-id="3ae04-229">**Hankija konto:** *US-101*</span><span class="sxs-lookup"><span data-stu-id="3ae04-229">**Vendor account:** *US-101*</span></span>
+    - <span data-ttu-id="3ae04-230">**Tegevuskoht:** *2*</span><span class="sxs-lookup"><span data-stu-id="3ae04-230">**Site:** *2*</span></span>
+    - <span data-ttu-id="3ae04-231">**Ladu:** *24*</span><span class="sxs-lookup"><span data-stu-id="3ae04-231">**Warehouse:** *24*</span></span>
+
+1. <span data-ttu-id="3ae04-232">Dialoogiboksi sulgemiseks ja uue müügitellimuse loomiseks valige **OK**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-232">Select **OK** to close the dialog box and open the new purchase order.</span></span>
+1. <span data-ttu-id="3ae04-233">FastTab **Ostutellimuse ridadel** määrake tühjale reale järgmised väärtused:</span><span class="sxs-lookup"><span data-stu-id="3ae04-233">On the **Purchase order lines** FastTab, set the following values for the empty row:</span></span>
+
+    - <span data-ttu-id="3ae04-234">**Kauba kood:** *A0001*</span><span class="sxs-lookup"><span data-stu-id="3ae04-234">**Item number:** *A0001*</span></span>
+    - <span data-ttu-id="3ae04-235">**Kogus:** *1*</span><span class="sxs-lookup"><span data-stu-id="3ae04-235">**Quantity:** *1*</span></span>
+
+1. <span data-ttu-id="3ae04-236">Valige käsk **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-236">Select **Save**.</span></span>
+1. <span data-ttu-id="3ae04-237">Märkige üles ostutellimuse number.</span><span class="sxs-lookup"><span data-stu-id="3ae04-237">Make a note of the purchase order number.</span></span>
+
+#### <a name="receive-a-purchase-order"></a><span data-ttu-id="3ae04-238">Ostutellimuse vastuvõtmine</span><span class="sxs-lookup"><span data-stu-id="3ae04-238">Receive a purchase order</span></span>
+
+1. <span data-ttu-id="3ae04-239">Logige sisse mobiilses seadmes lattu *24* kasutades *24* kasutaja ID-na ja *1* paroolina.</span><span class="sxs-lookup"><span data-stu-id="3ae04-239">On the mobile device, sign in to warehouse *24* by using *24* as the user ID and *1* as the password.</span></span>
+1. <span data-ttu-id="3ae04-240">Valige **Sissetulev**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-240">Select **Inbound**.</span></span>
+1. <span data-ttu-id="3ae04-241">Valige **Ostu vastuvõtmine**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-241">Select **Purchase receive**.</span></span> <span data-ttu-id="3ae04-242">Välja **Asukoht** väärtuseks peab olema seatud *FL-001*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-242">The **Location** field should be set to *FL-001*.</span></span>
+1. <span data-ttu-id="3ae04-243">Sisestage eelmises protseduuris loodud ostutellimuse number.</span><span class="sxs-lookup"><span data-stu-id="3ae04-243">Enter the purchase order number for the purchase order that you created in the previous procedure.</span></span>
+1. <span data-ttu-id="3ae04-244">Sisestage väljale **Kauba number** väärtus *A0001*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-244">In the **Item number** field, enter *A0001*.</span></span>
+1. <span data-ttu-id="3ae04-245">Valige nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-245">Select **OK**.</span></span>
+1. <span data-ttu-id="3ae04-246">Sisestage väljale **Kogus** väärtus *1*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-246">In the **Quantity** field, enter *1*.</span></span>
+1. <span data-ttu-id="3ae04-247">Valige nupp **OK**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-247">Select **OK**.</span></span>
+
+<span data-ttu-id="3ae04-248">Ostutellimus on nüüd vastu võetud, kuid sellega pole seotud ühtegi tööd.</span><span class="sxs-lookup"><span data-stu-id="3ae04-248">The purchase order is now received, but no work is associated with it.</span></span> <span data-ttu-id="3ae04-249">Vaba kaubavaru on värskendatud ja kauba *A0001* kogus *1* on nüüd saadaval asukohas *FL-001*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-249">The on-hand inventory has been updated, and a quantity of *1* of item *A0001* is now available at location *FL-001*.</span></span>
+
+## <a name="example-scenario-manufacturing"></a><span data-ttu-id="3ae04-250">Stsenaariumi näide: tootmine</span><span class="sxs-lookup"><span data-stu-id="3ae04-250">Example scenario: Manufacturing</span></span>
+
+<span data-ttu-id="3ae04-251">Järgmises näites on kaks tootmistellimust: *PRD-001* ja *PRD-002*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-251">In the following example, there are two production orders, *PRD-001* and *PRD-002*.</span></span> <span data-ttu-id="3ae04-252">Tootmistellimusel *PRD-001* on toiming nimega *Assembler*, kus toode *SC1* on teatatud lõpetatuks asukohale *001*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-252">Production order *PRD-001* has an operation that is named *Assembly*, where product *SC1* is being reported as finished to location *001*.</span></span> <span data-ttu-id="3ae04-253">Tootmistellimusel *PRD-002* on toiming nimega *Värvimine* ja tarbib toodet *SC1* asukohast *001*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-253">Production order *PRD-002* has an operation that is named *Painting* and consumes product *SC1* from location *001*.</span></span> <span data-ttu-id="3ae04-254">Tootmistellimus *PRD-002* tarbib ka toormaterjali *RM1* asukohast *001*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-254">Production order *PRD-002* also consumes raw material *RM1* from location *001*.</span></span> <span data-ttu-id="3ae04-255">Toormaterjali *RM1* hoitakse laoasukohas *BULK-001* ja komplekteeritakse asukohale *001* laotööga toormaterjali komplekteerimiseks.</span><span class="sxs-lookup"><span data-stu-id="3ae04-255">Raw material *RM1* is stored in warehouse location *BULK-001* and will be picked to location *001* by warehouse work for raw material picking.</span></span> <span data-ttu-id="3ae04-256">Komplekteerimistöö luuakse tootmise *PRD-002* väljastamisel.</span><span class="sxs-lookup"><span data-stu-id="3ae04-256">The picking work is generated when production *PRD-002* is released.</span></span>
+
+<span data-ttu-id="3ae04-257">[![Lao tööpoliitikad](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="3ae04-257">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span>
+
+<span data-ttu-id="3ae04-258">Kui plaanite selle stsenaariumi jaoks konfigureerida lao tööpoliitika, peaksite arvestama järgmisi punkte.</span><span class="sxs-lookup"><span data-stu-id="3ae04-258">When you're planning to configure a warehouse work policy for this scenario, you should consider the following points:</span></span>
+
+- <span data-ttu-id="3ae04-259">Laotöö pole lõpetatud kaupade ladustamiseks vajalik, kui teatate toote *SC1* lõpetatuks tootmistellimusest *PRD-001* asukohale *001*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-259">Warehouse work for putaway of finished goods isn't required when you report product *SC1* as finished from production order *PRD-001* to location *001*.</span></span> <span data-ttu-id="3ae04-260">Seda põhjusel, et tootmistellimuse *PRD-002* toiming *Värvimine* tarbib samas asukohas toodet *SC1*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-260">The reason is that the *Painting* operation for production order *PRD-002* consumes product *SC1* at the same location.</span></span>
+- <span data-ttu-id="3ae04-261">Laotöö on toormaterjali komplekteerimiseks vajalik, et liigutada toormaterjali *RM1* laoasukohast *BULK-001* asukohta *001*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-261">Warehouse work for raw material picking is required to move raw material *RM1* from warehouse location *BULK-001* to location *001*.</span></span>
+
+<span data-ttu-id="3ae04-262">Siin on näide tööpoliitikast, mida saate nende kaalutluste põhjal seadistada:</span><span class="sxs-lookup"><span data-stu-id="3ae04-262">Here is an example of a work policy that you can set up, based on these considerations:</span></span>
+
+- <span data-ttu-id="3ae04-263">**Tööpoliitika nimi:** *ladustamistööd ei ole*</span><span class="sxs-lookup"><span data-stu-id="3ae04-263">**Work policy name:** *No putaway work*</span></span>
+- <span data-ttu-id="3ae04-264">**Töötellimuse tüübid:** *lõpetatud kaupade ladustamine* ja *Kaastoote ja kõrvalsaaduse ladustamine*</span><span class="sxs-lookup"><span data-stu-id="3ae04-264">**Work order types:** *Finished goods put away* and *Co-product and by-product put away*</span></span>
+- <span data-ttu-id="3ae04-265">**Varude asukohad:** ladu *51* ja asukoht *001*</span><span class="sxs-lookup"><span data-stu-id="3ae04-265">**Inventory locations:** Warehouse *51* and location *001*</span></span>
+- <span data-ttu-id="3ae04-266">**Tooted:** *SC1*</span><span class="sxs-lookup"><span data-stu-id="3ae04-266">**Products:** *SC1*</span></span>
+
+<span data-ttu-id="3ae04-267">Järgmised näidisstsenaariumid annavad etapiviisilise juhise, kuidas seadistada selle stsenaarium jaoks laotöö poliitikat.</span><span class="sxs-lookup"><span data-stu-id="3ae04-267">The following example scenario provides step-by-step instructions for setting up the warehouse work policy for this scenario.</span></span>
+
+## <a name="example-scenario-report-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="3ae04-268">Näidisstsenaarium: teatage tootmistellimus lõpetatuks asukohale, mis pole litsentsiplaadiga kontrollitud</span><span class="sxs-lookup"><span data-stu-id="3ae04-268">Example scenario: Report as finished to a location that isn't license plate–controlled</span></span>
+
+<span data-ttu-id="3ae04-269">See stsenaarium näitab näidet, kus tootmistellimus teatatakse lõpetatuks asukohale, mis pole litsentsiplaadiga kontrollitav.</span><span class="sxs-lookup"><span data-stu-id="3ae04-269">This scenario shows an example where a production order is reported as finished to a location that isn't license plate–controlled.</span></span>
+
+<span data-ttu-id="3ae04-270">See stsenaarium kasutab standardseid demoandmeid.</span><span class="sxs-lookup"><span data-stu-id="3ae04-270">This scenario uses the standard demo data.</span></span> <span data-ttu-id="3ae04-271">Niisiis, kui soovite selle läbida siin toodud väärtuseid kasutades, peate kasutama süsteemi, kuhu demoandmed on installitud.</span><span class="sxs-lookup"><span data-stu-id="3ae04-271">Therefore, if you want to work through it by using the values that are provided here, you must work on a system where demo data is installed.</span></span> <span data-ttu-id="3ae04-272">Peate valima ka juriidilise isiku **USMF**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-272">Additionally, you must select the **USMF** legal entity.</span></span>
+
+### <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="3ae04-273">Lao tööpoliitika seadistamine</span><span class="sxs-lookup"><span data-stu-id="3ae04-273">Set up a warehouse work policy</span></span>
+
+<span data-ttu-id="3ae04-274">Laotoimingud ei hõlma alati laotööd.</span><span class="sxs-lookup"><span data-stu-id="3ae04-274">Warehouse processes don't always include warehouse work.</span></span> <span data-ttu-id="3ae04-275">Tööpoliitika määratlemisel saate vältida töö loomist toormaterjali komplekteerimise puhul ja lõpetatud kaupade ladustamist toodete kogumi puhul kindlates asukohtades.</span><span class="sxs-lookup"><span data-stu-id="3ae04-275">By defining a work policy, you can prevent the creation of work for raw material picking and putaway of finished goods for a set of products at specific locations.</span></span>
+
+1. <span data-ttu-id="3ae04-276">Minge asukohta **Laohaldus \> Häälestamine \> Töö \> Tööpoliitikad**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-276">Go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span>
+1. <span data-ttu-id="3ae04-277">Valige suvand **Uus**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-277">Select **New**.</span></span>
+1. <span data-ttu-id="3ae04-278">Minge väljal **Tööpoliitika nimi** asukohta *Ladustamistöö puudub*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-278">In the **Work policy name** field, enter *No putaway work*.</span></span>
+1. <span data-ttu-id="3ae04-279">Valige toimingupaanil nupp **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-279">On the Action Pane, select **Save**.</span></span>
+1. <span data-ttu-id="3ae04-280">**Töötellimuse tüüpide** FastTab-l valige **Lisa**, et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:</span><span class="sxs-lookup"><span data-stu-id="3ae04-280">On the **Work order types** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="3ae04-281">**Töötellimuse tüüp:** *lõpetatud kaupade ladustamine*</span><span class="sxs-lookup"><span data-stu-id="3ae04-281">**Work order type:** *Finished goods put away*</span></span>
+    - <span data-ttu-id="3ae04-282">**Tööprotsess:** *kõik seotud tööprotsessid*</span><span class="sxs-lookup"><span data-stu-id="3ae04-282">**Work process:** *All related work processes*</span></span>
+    - <span data-ttu-id="3ae04-283">**Töö loomise meetod:** *mitte kunagi*</span><span class="sxs-lookup"><span data-stu-id="3ae04-283">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="3ae04-284">**Ristlaadimise poliitika nimi:** jätke see väli tühjaks.</span><span class="sxs-lookup"><span data-stu-id="3ae04-284">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="3ae04-285">Valige **Lisa** uuesti, et lisada tabelisse teine rida ja seejärel määrake uue rea jaoks järgmised väärtused:</span><span class="sxs-lookup"><span data-stu-id="3ae04-285">Select **Add** again to add a second row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="3ae04-286">**Töötellimuse tüüp:** *kaastoodete ja kõrvalsaaduste ladustamine*</span><span class="sxs-lookup"><span data-stu-id="3ae04-286">**Work order type:** *Co-product and by-product put away*</span></span>
+    - <span data-ttu-id="3ae04-287">**Tööprotsess:** *kõik seotud tööprotsessid*</span><span class="sxs-lookup"><span data-stu-id="3ae04-287">**Work process:** *All related work processes*</span></span>
+    - <span data-ttu-id="3ae04-288">**Töö loomise meetod:** *mitte kunagi*</span><span class="sxs-lookup"><span data-stu-id="3ae04-288">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="3ae04-289">**Ristlaadimise poliitika nimi:** jätke see väli tühjaks.</span><span class="sxs-lookup"><span data-stu-id="3ae04-289">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="3ae04-290">**Varude asukohtade** FastTab-l valige **Lisa**, et lisada tabelisse rida ja seejärel määrake uue rea jaoks järgmised väärtused:</span><span class="sxs-lookup"><span data-stu-id="3ae04-290">On the **Inventory locations** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="3ae04-291">**Ladu:** *51*</span><span class="sxs-lookup"><span data-stu-id="3ae04-291">**Warehouse:** *51*</span></span>
+    - <span data-ttu-id="3ae04-292">**Asukoht:** *001*</span><span class="sxs-lookup"><span data-stu-id="3ae04-292">**Location:** *001*</span></span>
+
+1. <span data-ttu-id="3ae04-293">**Toodete** FastTab-il seadistage välja **Tootevalik** väärtuseks *Valitud*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-293">On the **Products** FastTab, set the **Product selection** field to *Selected*.</span></span>
+1. <span data-ttu-id="3ae04-294">FastTab-il **Tooted** valige käsk **Lisa**, et lisada uus rida tabelisse.</span><span class="sxs-lookup"><span data-stu-id="3ae04-294">On the **Products** FastTab, select **Add** to add a row to the grid.</span></span>
+1. <span data-ttu-id="3ae04-295">Uues reas määrake välja **Kauba number** väärtuseks *L0101*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-295">In the new row, set the **Item number** field to *L0101*.</span></span>
+1. <span data-ttu-id="3ae04-296">Valige toimingupaanil nupp **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-296">On the Action Pane, select **Save**.</span></span>
+
+### <a name="set-up-an-output-location"></a><span data-ttu-id="3ae04-297">Väljundi asukoha seadistamine</span><span class="sxs-lookup"><span data-stu-id="3ae04-297">Set up an output location</span></span>
+
+1. <span data-ttu-id="3ae04-298">Avage **Organisatsiooni haldus \> Ressursid \> Ressursigrupid**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-298">Go to **Organization administration \> Resources \> Resource groups**.</span></span>
+1. <span data-ttu-id="3ae04-299">Valige vasakult paneelist ressursigrupp **5102**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-299">In the left pane, select resource group **5102**.</span></span>
+1. <span data-ttu-id="3ae04-300">Määrake kiirkaardil **Üldine** järgmised väärtused.</span><span class="sxs-lookup"><span data-stu-id="3ae04-300">On the **General** FastTab, set the following values:</span></span>
+
+    - <span data-ttu-id="3ae04-301">**Väljastusladu:** *51*</span><span class="sxs-lookup"><span data-stu-id="3ae04-301">**Output warehouse:** *51*</span></span>
+    - <span data-ttu-id="3ae04-302">**Väljastuskoht:** *001*</span><span class="sxs-lookup"><span data-stu-id="3ae04-302">**Output location:** *001*</span></span>
+
+1. <span data-ttu-id="3ae04-303">Valige toimingupaanil nupp **Salvesta**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-303">On the Action Pane, select **Save**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="3ae04-304">Asukoht *001* pole litsentsiplaadiga juhitav asukoht.</span><span class="sxs-lookup"><span data-stu-id="3ae04-304">Location *001* isn't a license plate–controlled location.</span></span> <span data-ttu-id="3ae04-305">Saate seadistada väljundi, mis pole litsentsiplaadiga juhitav, asukoha ainult siis, kui asukohale on olemas vastav tööpoliitika.</span><span class="sxs-lookup"><span data-stu-id="3ae04-305">You can set up an output location that isn't license plate–controlled only if an applicable work policy exists for the location.</span></span>
+
+### <a name="create-a-production-order-and-report-it-as-finished"></a><span data-ttu-id="3ae04-306">Tootmistellimuse loomine ja selle lõpetatuna kinnitamine</span><span class="sxs-lookup"><span data-stu-id="3ae04-306">Create a production order and report it as finished</span></span>
+
+1. <span data-ttu-id="3ae04-307">Avage **Tootmise juhtimine \> Tootmistellimused \> Kõik tootmistellimused**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-307">Go to **Production control \> Production orders \> All production orders**.</span></span>
+1. <span data-ttu-id="3ae04-308">Toimingupaanil valige **Uus tootmistellimus**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-308">On the Action Pane, select **New production order**.</span></span>
+1. <span data-ttu-id="3ae04-309">Seadistage dialoogiaknas **Loo tootmistellimus** välja **Kauba number** väärtuseks *L0101*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-309">In the **Create production order** dialog box, set the **Item number** field to *L0101*.</span></span>
+1. <span data-ttu-id="3ae04-310">Valige tellimuse loomiseks ja dialoogiboksi sulgemiseks **Loo**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-310">Select **Create** to create the order and close the dialog box.</span></span>
+
+    <span data-ttu-id="3ae04-311">**Kõik tootmistellimused** lehe tabelisse lisatakse uus tootmistellimus.</span><span class="sxs-lookup"><span data-stu-id="3ae04-311">A new production order is added to the grid on the **All production orders** page.</span></span>
+
+    <span data-ttu-id="3ae04-312">Hoidke uus tootmistellimus valituna.</span><span class="sxs-lookup"><span data-stu-id="3ae04-312">Keep the new production order selected.</span></span>
+
+1. <span data-ttu-id="3ae04-313">Tehke tegumiriba vahekaardil **Tootmistellimus** grupis **Protsess** valik **Hinda**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-313">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Estimate**.</span></span>
+1. <span data-ttu-id="3ae04-314">Dialoogiaknas **Hinda** lugege hinnangut ja seejärel klõpsake nuppu **OK**, et sulgeda dialoogiaken.</span><span class="sxs-lookup"><span data-stu-id="3ae04-314">In the **Estimate** dialog box, read the estimate, and then select **OK** to close the dialog box.</span></span>
+1. <span data-ttu-id="3ae04-315">Tehke tegumiriba vahekaardil **Tootmistellimus** grupis **Protsess** valik **Alusta**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-315">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Start**.</span></span>
+1. <span data-ttu-id="3ae04-316">Seadke dialoogiaknas **Alusta** vahekaardil **Üldine** väli **Automaatne BOM-tarbimine** väärtuseks *Mitte kunagi*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-316">In the **Start** dialog box, on the **General** tab, set the **Automatic BOM consumption** field to *Never*.</span></span>
+1. <span data-ttu-id="3ae04-317">Valige **OK**, et salvestada oma säte ja sulgeda dialoogiaken.</span><span class="sxs-lookup"><span data-stu-id="3ae04-317">Select **OK** to save your setting and close the dialog box.</span></span>
+1. <span data-ttu-id="3ae04-318">Tehke tegumiriba vahekaardil **Tootmistellimus** grupis **Protsess** valik **Kinnita lõpetatuks**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-318">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Report as finished**.</span></span>
+1. <span data-ttu-id="3ae04-319">Dialoogiaknas **Lõpetatuks kinnitamine** vahekaardil **Üldine** määrake suvandi **Kinnita tõrge** väärtuseks *Jah*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-319">In the **Report as finished** dialog box, on the **General** tab, set the **Accept error** option to *Yes*.</span></span>
+1. <span data-ttu-id="3ae04-320">Valige **OK**, et salvestada oma säte ja sulgeda dialoogiaken.</span><span class="sxs-lookup"><span data-stu-id="3ae04-320">Select **OK** to save your setting and close the dialog box.</span></span>
+1. <span data-ttu-id="3ae04-321">Valige toimingupaani vahekaardil **Ladu** grupis **Seotud teave** üksus **Töö üksikasjad**.</span><span class="sxs-lookup"><span data-stu-id="3ae04-321">On the Action Pane, on the **Warehouse** tab, in the **General** group, select **Work details**.</span></span>
+
+<span data-ttu-id="3ae04-322">Kui tootmistellimus on lõpetatuks kuulutatud, pole ladustamiseks tööd loodud.</span><span class="sxs-lookup"><span data-stu-id="3ae04-322">When the production order is reported as finished, no work is generated for putaway.</span></span> <span data-ttu-id="3ae04-323">Seda käitumist ilmneb, kuna määratletud on tööpoliitika, mis takistab töö loomist, kui toode *L0101* kuulutatakse lõpetatuks asukohale *001*.</span><span class="sxs-lookup"><span data-stu-id="3ae04-323">This behavior occurs because a work policy is defined that prevents work from being generated when product *L0101* is reported as finished to location *001*.</span></span>
+
+## <a name="more-information"></a><span data-ttu-id="3ae04-324">Lisateave</span><span class="sxs-lookup"><span data-stu-id="3ae04-324">More information</span></span>
+
+<span data-ttu-id="3ae04-325">Lisateavet mobiilse seadme menüü üksuste kohta vt teemast [Mobiilsete seadmete seadistamine laotöö jaoks](configure-mobile-devices-warehouse.md).</span><span class="sxs-lookup"><span data-stu-id="3ae04-325">For more information about mobile device menu items, see [Set up mobile devices for warehouse work](configure-mobile-devices-warehouse.md).</span></span>
+
+<span data-ttu-id="3ae04-326">Lisateavet, mis on seotud litsentsiplaadi vastuvõtmisega ja tööpoliitikatega, leiate teemast [Litsentsiplaadi vastuvõtmine laorakenduse kaudu](warehousing-mobile-device-app-license-plate-receiving.md).</span><span class="sxs-lookup"><span data-stu-id="3ae04-326">For more information about license plate receiving and work policies, see [License plate receiving via the warehouse app](warehousing-mobile-device-app-license-plate-receiving.md).</span></span>
+
+<span data-ttu-id="3ae04-327">Lisateavet sissetuleva koormuse halduse kohta vt teemast [Ostutellimuste sissetulevate koormate laohaldus](inbound-load-handling.md).</span><span class="sxs-lookup"><span data-stu-id="3ae04-327">For more information about inbound load management, see [Warehouse handling of inbound loads for purchase orders](inbound-load-handling.md).</span></span>
