@@ -3,7 +3,7 @@ title: Moodulitega töötamine
 description: Selles teemas kirjeldatakse, kuidas ja millal kasutada mooduleid rakenduses Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,19 +17,19 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: da430857801d8007244c04aadd325e99c0b882c5
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025875"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646011"
 ---
 # <a name="work-with-modules"></a>Moodulitega töötamine
 
-Selles teemas kirjeldatakse, kuidas ja millal kasutada mooduleid rakenduses Microsoft Dynamics 365 Commerce.
-
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
+
+Selles teemas kirjeldatakse, kuidas ja millal kasutada mooduleid rakenduses Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Ülevaade
 
@@ -42,8 +42,10 @@ Vaikimisi sisaldab teie Dynamics 365 Commerce’i sait alustuskomplekti mooduli 
 Nagu varem mainitud, on mõni moodul kavandatud sisaldama alammooduleid. Neid mooduleid nimetatakse *konteineriteks* ja need võimaldavad luua pesastatud moodulite hierarhiaid. Konteineri moodulid sisaldavad *pesasid*. Pesasid kasutatakse konteineri alammoodulite paigutuse ja eesmärgiga tegelemiseks. Näiteks üldine lehe konteineri mooduli (mis tahes lehe kõrgema taseme moodul), mis määratleb mitu olulist pesa.
 
 - Päise pesa
-- Sisu pesa
+- Alampäise pesa
+- Põhipesa
 - Jaluse pesa
+- Alamjaluse pesa
 
 Mooduli arendaja määrab need pesad ning millised alammoodulid ja mitu alammoodulit saab panna otse selle sisse. Näiteks võib päise pesa toetada vaid üht moodulit tüübiga **Päise moodul**, samas kui keha pesa võib toetada piiramatut arvu mis tahes tüüpi mooduleid (v.a teised lehe konteineri moodulid).
 
@@ -51,7 +53,7 @@ Loomistööriistades ei pea autorid ette teadma, milliseid mooduleid saab või e
 
 ## <a name="content-modules"></a>Sisu moodulid
 
-Sisu moodulid sisaldavad sisu- ja meediaelemente, nt teksti (pealkirjad, lõigud ja lingid) või vara viiteid (nt pildid, video ja PDF-id). Tüüpilised sisu mooduli tüübid on näiteks **Pannoo**, **Funktsioon** ja **Ribareklaam**. Need kolme tüüpi moodulid võivad sisaldada teksti või meediat ja neil pole vaja alammooduleid, et midagi lehel nähtavaks muuta.
+Sisu moodulid sisaldavad sisu- ja meediaelemente, nt teksti (pealkirjad, lõigud ja lingid) või vara viiteid (nt pildid, video ja PDF-id). Tüüpilised sisu mooduli tüübid hõlmavad sisu plokki, teksti plokki ja promo banneri mooduleid. Need kolme tüüpi moodulid võivad sisaldada teksti või meediat ja neil pole vaja alammooduleid, et midagi lehel nähtavaks muuta.
 
 Suurem osa tüüpilistest igapäevastest lehe ja sisu loomise tegevustest hõlmavad sisu mooduleid, peamiselt seetõttu, et need moodulid määravad tegeliku sisu, mida renderdatakse nende konteineri ülemmoodulites. Saadaval on palju sisu mooduleid ja need on enamasti viimased tükid, mis tuleb lisada lehe pesastatud moodulite hierarhiasse.
 
@@ -67,20 +69,20 @@ Järgmistes protseduurides kirjeldatakse, kuidas mooduleid lisada lisada ja eema
 
 Mooduli lisamiseks pesasse või konteinerisse lehel tehke järgmist.
 
-1. Valige vasakult liigenduspaanilt konteiner või pesa, kuhu võib lisada alammooduli.
+1. Valige vasakult liigenduspaanilt või otse põhilõuendilt konteiner või pesa, kuhu võib lisada alammooduli.
 
     > [!NOTE]
-    > Mooduli koostaja määrab loendi mooduli tüüpidega, mida saab konkreetsesse mooduli pesasse lisada. Malli autorid saavad seejärel täpsustada lubatud mooduli suvandid, et tagada järjepidev otsingumootori optimeerimine (SEO) ja loomise tõhusus kõikidel lehtedel, mis luuakse konkreetsest mallist.
+    > Mooduli koostaja määrab loendi mooduli tüüpidega, mida saab konkreetsesse mooduli pesasse lisada. Malli autorid saavad seejärel täpsustada lubatud mooduli suvandid, et tagada järjepidev otsingumootori optimeerimine (SEO) ja loomise tõhusus kõikidel lehtedel, mis luuakse konkreetsest mallist. Mooduli pesasse lisamisel filtreeritakse dialoogiboks **Lisa moodul** automaatselt, nii et kuvatakse ainult moodulid, mida toetatakse valitud konteineris või pesas. See lubatud moodulite loend määratletakse lehe malli või konteineri mooduli määratlusega.
 
-1. Valige mooduli kolmikpunkti nupp (**...**) ja seejärel valige käsk **Lisa moodul**. Ilmub dialoogiboks **Lisa moodul**. See dialoogiboks filtreeritakse automaatselt, nii et kuvatakse ainult moodulid, mida toetatakse valitud konteineris või pesas. Moodulite loend määratletakse lehe malli või konteineri mooduli määratlusega.
+1. Kui kasutate liigenduspaani, valige kolmikpunkt (**...**) mooduli nime kõrval ja seejärel valige **Lisa moodul**. Kui kasutate juhtelemente otse lõuendi sees, valige pluss sümbol (**+**) tühjas pesas või praegu valitud mooduli kõrval ja seejärel valige **Lisa moodul**.
 
     > [!NOTE]
     > Kui konteiner või pesa ei toeta uusi alammooduleid, ei ole käsk **Lisa moodul** saadaval.
 
-1. Otsige ja valige lehele lisamiseks dialoogiboksist moodul.
+1. Otsige ja valige lehele lisamiseks dialoogiboksist **Lisa moodul** moodul.
 
     > [!TIP]
-    > **Funktsioon** ja **Pannoo** on sobivad mooduli tüübid algajatele.
+    > **Sisu plokk**on hea mooduli tüüp algajatele töötamiseks.
 
 1. Valige nupp **OK**, et lisada valitud moodul valitud konteinerisse või pesasse oma lehel.
 
@@ -88,8 +90,35 @@ Mooduli lisamiseks pesasse või konteinerisse lehel tehke järgmist.
 
 Mooduli eemaldamiseks pesast või konteinerist lehel tehke järgmist.
 
-1. Vasakult liigenduspaanilt valige eemaldatava mooduli kõrvalt kolmikpunkti nupp ja seejärel valige prügikasti nupp.
+1. Vasakult liigenduspaanilt valige eemaldatava mooduli kõrvalt kolmikpunkti (**...**) ja seejärel valige prügikasti tähis. Alternatiivselt saate põhilõuendil valitud mooduli tööristaribal valida prügikasti tähise.
 1. Kui teil palutakse kinnitada, et soovite moodulit eemaldada, valige nupp **OK**.
+
+## <a name="move-a-module-to-a-new-position"></a>Mooduli liigutamine uude asendisse
+
+Lehel mooduli teisaldamiseks uude asukohta kasutage järgmisi meetodeid.
+
+### <a name="move-a-module-using-the-outline-pane"></a>Mooduli teisaldamine liigenduspaani abil
+
+Mooduli teisaldamiseks liigenduspaani abil toimige järgmiselt.
+
+1. Valige ja hoidke all moodulit, mida soovite teisaldada liigenduspaanil, seejärel lohistage moodul liigenduses uude asukohta. Sinine rida liigenduses ja lõuendil näitab, kuhu saab mooduli paigutada.
+1. Vabastage moodul, et see uude asukohta kukutada.
+
+### <a name="move-a-module-directly-within-the-canvas"></a>Mooduli teisaldamine otse lõuendil
+
+Mooduli teisaldamiseks otse lõuendil toimige järgmiselt.
+
+1. Valige moodul, mida soovite teisaldada lõuendil. 
+1. Valige mooduli tööriistaribal kas üles- või allapoole osutava noole tähis ja lohistage seejärel nool uude asukohta leheküljel. Sinine rida lõuendil ja liigenduses näitab, kuhu saab mooduli paigutada. Kui moodulit ei saa üles või alla nihutada, on noole sümbol halli värvi. 
+1. Vabastage moodul, et see uude asukohta kukutada.
+
+### <a name="move-a-module-using-the-ellipsis-menu"></a>Mooduli teisaldamine kolmikpunkti menüü abil
+
+Mooduli teisaldamiseks kolmikpunkti menüü abil toimige järgmiselt.
+
+1. Valige moodul kas liigenduses või lõuendil.
+1. Valige kolmikpunkt (**...**) mooduli nime kõrval liigenduspaanil või lõuendi mooduli tööriistaribal.
+1. Kui moodulit saab konteineris või pesas üles või alla nihutada, näete suvandeid **Nihuta üles** või **Nihuta alla**. Valige soovitud teisaldamise suvand, et liigutada moodulit oma alamosade suhtes üles või alla.
 
 ## <a name="configure-modules"></a>Moodulite konfigureerimine
 
@@ -99,10 +128,28 @@ Järgmistes protseduurides kirjeldatakse, kuidas sisu ja konteineri mooduleid ko
 
 Sisu mooduli konfigureerimiseks lehel tehke järgmist.
 
-1. Vasakul liigenduspaanil laiendage puud ja valige mis tahes sisu moodul (nt **Funktsioon**, **Pannoo** või **Ribareklaam**).
-1. Parempoolsel atribuutide paanil leidke mooduli sisu ja sätete juhtelemendid.
-1. Sisestage mis tahes soovitud mooduli juhtelementide atribuudid.
+1. Vasakul liigenduspaanil laiendage puud ja valige mis tahes sisu moodul (nt **Sisu blokk**). Lisaks saade valida mooduli valida põhilõuendil.
+1. Sisestage parempoolse mooduli atribuutide paanil kõik soovitud mooduli juhtelementide atribuudid.
 1. Valige käsuribal suvand **Salvesta**. See värskendab ka eelvaate lõuendit.
+
+### <a name="edit-module-text-properties"></a>Mooduli tekstiomaduste muutmine
+
+Mooduli tekstiatribuute, mis ei ole kirjutuskaitstud, saab redigeerida otse lõuendile.
+
+Mooduli tekstiatribuutide redigeerimiseks toimige järgmiselt.
+
+1. Valige lõuendi teksti juhtelement, seejärel asetage kursor sinna, kus soovite teksti redigeerida.
+1. Sisestage soovitud teksti sisu.
+1. Muu sisu redigeerimise jätkamiseks valige teksti sisust väljaspoole.
+
+### <a name="inline-image-selection"></a>Tekstisisese pildi valik
+
+Mooduli pilte, mis ei ole kirjutuskaitstud, saab muuta otse lõuendile.
+
+Sisu mooduli uue pildi valimiseks järgige järgmisi samme.
+
+1. Topeltklõpsake lõuendi pildil. See avab meedia valija akna.
+1. Leidke ja valige uus pilt, mida soovite kasutada, ja seejärel valige **OK**. Uus pilt on nüüd lõuendile sobitatud.
 
 ### <a name="configure-a-container-module"></a>Konteineri mooduli konfigureerimine
 

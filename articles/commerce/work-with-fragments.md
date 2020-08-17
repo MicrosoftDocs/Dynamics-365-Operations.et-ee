@@ -3,7 +3,7 @@ title: Fragmentidega töötamine
 description: Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 7ae834f38fe380ce0a66f5b1968f1261af670979
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124355"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645987"
 ---
 # <a name="work-with-fragments"></a>Fragmentidega töötamine 
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Selles teemas kirjeldatakse, miks, millal ja kuidas kasutada fragmente rakenduses Microsoft Dynamics 365 Commerce.
 
@@ -62,9 +62,10 @@ Saate kas luua uue fragmendi või salvestada olemasoleva mooduli konfiguratsioon
 Varem konfigureeritud mooduli teisendamiseks korduskasutatavaks fragmendiks tehke järgmist.
 
 1. Avage leht või mall, mis sisaldab moodulit, mida soovite teisendada fragmendiks.
-1. Valige vasakul liigenduspaanil mooduli nime kõrval kolmikpunkti nupp (**...**). 
-1. Valige suvand **Jaga fragmendina**. 
-1. Kuvatakse dialoogiboks. Sisestage fragmendi nimi ja metaandmed.
+1. Valige vasakul liigenduspaanil või otse põhilõuendil eelnevalt konfigureeritud moodul.
+1. Valige kolmikpunkt (**...**) mooduli nime kõrval kas liigenduspaanil või lõuendi valitud mooduli tööriistaribal. 
+1. Valige suvand **Jaga lehekülje fragmendina**. 
+1. Dialoogiaknas **Salvesta lehe fragmendina** sisestage fragmendi nimi.
 1. Valige nupp **OK**, et salvestada mooduli konfiguratsioon fragmendina, mida saab lisada teistele lehtedele.
 
 Järgmine pilt näitab, kuidas salvestada mooduli konfiguratsiooni fragmendina.
@@ -94,15 +95,16 @@ Järgmistes protseduurides kirjeldatakse, kuidas fragmente lisada, eemaldada ja 
 
 Lehele fragmendi lisamiseks tehke järgmist.
 
-1. Valige vasakult liigenduspaanilt konteiner või pesa, kuhu võib lisada alammooduleid.
-1. Valige konteineri või pesa nime kõrvalt kolmikpunkti nupp ja seejärel käsk **Lisa fragment**. Kuvatakse dialoogiboks.
+1. Valige vasakult liigenduspaanilt või otse põhilõuendilt konteiner või pesa, kuhu võib lisada alammoodulid.
+1. Valige võrgupaanil kolmikpunkt (**...**) konteineri või pesa nime kõrval.  Alternatiivselt kui kasutate põhilõuendit, valige plussi sümbol (**+**).  
+1. Valige nupp **Lisa fragment**.
 
     ![Olemasoleva fragmendi pessa või konteinerisse lisamise kuvahõive](./media/add-fragment.png)
  
     > [!NOTE]
     > Kui konteiner või pesa ei toeta uusi alammooduleid, ei ole käsk **Lisa fragment** saadaval.
     
-1. Otsige ja valige lisamiseks dialoogiboksist fragment. Kui ühtegi saadaolevat fragmenti loendis pole, peate kõigepealt looma fragmendi mooduli tüübist, mida valitud konteiner või pesa toetab.
+1. Otsige ja valige lisamiseks dialoogiboksist **Lisa fragment** fragment. Kui ühtegi saadaolevat fragmenti loendis pole, peate kõigepealt looma fragmendi mooduli tüübist, mida valitud konteiner või pesa toetab.
 1. Valige soovitud fragment, et lisada see oma lehel konteinerile või pesale.
 
     ![Fragmendi valija modaalakna ekraanihõive](./media/fragment-picker.png)
@@ -114,7 +116,7 @@ Lehele fragmendi lisamiseks tehke järgmist.
 
 Fragmendi eemaldamiseks pesast või konteinerist lehel tehke järgmist.
 
-1. Vasakult liigenduspaanilt valige eemaldatava fragmendi kõrvalt kolmikpunkti nupp ja seejärel valige prügikasti nupp.
+1. Vasakult liigenduspaanilt valige eemaldatava fragmendi kõrvalt kolmikpunkt (**...**) ja seejärel valige prügikasti tähis.  Alternatiivselt saate valida lõuendil fragmendi ja valida fragmendi tööriistaribal prügikasti tähise.
 1. Kui teil palutakse kinnitada, et soovite fragmenti eemaldada, valige nupp **OK**.
 
 > [!NOTE]

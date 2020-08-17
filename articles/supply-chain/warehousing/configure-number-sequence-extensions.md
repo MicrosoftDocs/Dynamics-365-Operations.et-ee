@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3ee74ba108008ccef53fe3b904c71ddf5f51afb7
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: 2f4506d2c1808198d4b10e50f4635bcc21d934e1
+ms.sourcegitcommit: 0f877ee4b53cfb002b179a53a67c4f9adae354bf
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546422"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3640395"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Laovoogude numbriseeriate konfigureerimine
 
@@ -36,7 +36,7 @@ See funktsioon lisab järgmised funktsioonid.
 - Veokirja (BOL) ID-sid saab eelnevalt luua.
 - Konteineri seeriaviisilise lähetamise koodi (SSCC) numbrite jaoks saab luua kordumatu numbriseeria.
 - GS1-ga ühilduvaid numbriseeriaid saab luua veokirja ja SSCC-numbrite jaoks. Selles funktsioonis on lisatus valmistugi identifitseerimisnumbri ID, konteineri ID, voo sildi ID ja veokirja ID jaoks.
-- Identifitseerimisnumbri ID numbrite konfiguratsioon on paindlik. Näiteks saate kaasata või välistada tehisintellekti (AI), nt eesnullid (00).
+- Identifitseerimisnumbri ID numbrite konfiguratsioon on paindlik. Näiteks saate kaasata või välistada rakenduse identifikaatoreid (AI), nt nullid alguses (00).
 
 See funktsioon hõlbustab kastide sildistamise toetamist ja süsteemi loodud uute numbrite kohandamist.
 

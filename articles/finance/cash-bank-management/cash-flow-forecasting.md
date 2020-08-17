@@ -3,7 +3,7 @@ title: Likviidsuse plaanimine
 description: Selles teemas antakse ülevaade rahavoo prognoosimise protsessist. Samuti selgitatakse, kuidas rahavoogude prognoosimine on integreeritud teiste süsteemi moodulitega.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9795758a60d7913d306488ae6fbbfb7f9865cfc4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
+ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188414"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3653772"
 ---
 # <a name="cash-flow-forecasting"></a>Likviidsuse plaanimine
 
@@ -102,7 +102,14 @@ Likviidsuse plaanimise saab arvutada lehe **Likviidsuse plaanide arvutamine** ab
 - Kõigi likviidsuse plaanimise kannete eemaldamiseks ja ümber arvutamiseks määrake välja **Likviidsuse plaanimise arvutusmeetod** väärtuseks **Kokku**. Soovitame kasutada seda lähenemist, kui te pole pikka aega likviidsuse plaane uuendanud. 
 - Olemasoleva rahavoogude teabe uuendamiseks ainult uute kannete puhul määrake välja **Likviidsuse plaanimise arvutusmeetod** väärtuseks **Uus**. Sellel lehel kuvatakse rahavoo viimase arvutamise kuupäev.
 
-Likviidsuse plaanimiseks saab kasutada ka pakktöötlust. Likviidsuse plaanimise analüüsi regulaarse uuendamise tagamiseks seadistage likviidsuse plaanide arvutamiseks korduv pakktöötlus.
+Likviidsuse plaanimiseks saab kasutada ka pakktöötlust. Plaanimise analüüsi regulaarse uuendamise tagamiseks seadistage likviidsuse plaanide arvutamiseks korduv pakktöötlus.
+
+Versioonis 10.0.13 anti välja arvutusprotsessi täiustus, mis kasutab protsessi automatiseerimise raamistikku, et ajastada likviidsuse arvutamise tööd. Selle saab lubada funktsiooni **Likviidsuse plaanimise automatiseerimine**, mis asub tööruumis **Funktsioonihaldus**. Kui see on lubatud, valige link **Likviidsuse plaanimise automatiseerimine**, et kuvada uus automatiseerimise leht, kus saate ajastada likviidsuse arvutamise protsessi. Uue likviidsuse plaanimise graafiku loomiseks valige **Loo uus protsessi automatiseerimine** ja seejärel valige rippmenüüst **Graafiku tüüp** suvand **Likviidsuse plaanimise automatiseerimine**. Peate määrama graafiku igale ettevõttele, mille puhul te likviidsuse plaanimise andmeid uuendate.  Sellel leheküljel on ka näha, millised likviidsuse plaanimise automatiseerimise tööd on ootel ja millal viimane töö lõpetati.  
+
+> [!NOTE] 
+> Kui likviidsuse plaanimiseks on juba ajastatud olemasolevad pakett-tööd, kuvatakse tõrketeade ja te ei saa seda funktsiooni lubada. Enne selle funktsiooni lubamist tuleb olemasolevad pakett-tööd tühjendada. 
+
+Lisateavet vt teemast [Protsessi automatiseerimine](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 ### <a name="reporting"></a>Aruandlus
 
@@ -128,7 +135,7 @@ Tööruum **Kassa ülevaade – kõik ettevõtted** näitab likviidsuse plaanimi
 
 Tööruumis **Kassa ülevaade – praegune ettevõte** näidatakse likviidsuse plaanimise analüüsi ettevõtte määratletud arvestusvaluutas. Analüüsiks kasutatav arvestusvaluuta on määratletud lehel **Pearaamat**. Selles tööruumis kuvatakse ülevaade likviidsuse plaanimisest ja pangakontode saldodest praeguse ettevõtte kohta. Sularaha sissetulekute ja väljaminekute diagramm annab ülevaate tulevastest sularaha liikumistest ja saldodest arvestusvaluutas, koos prognoositavate kannete üksikasjalike andmetega. Võimalik on vaadata ka prognoositavaid valuutasaldosid.
 
-Lisateavet likviidsuse plaanimise analüüsi kohta leiate teemast Kassa ülevaate Power BI sisu.
+Lisateavet likviidsuse plaanimise analüüsi kohta leiate teemast [Kassa ülevaate Power BI sisu](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
 
 Lisaks saate vaadata likviidsuse plaanimise andmeid konkreetsete kontode, tellimuste ja üksuste kohta järgmistelt lehtedelt.
 

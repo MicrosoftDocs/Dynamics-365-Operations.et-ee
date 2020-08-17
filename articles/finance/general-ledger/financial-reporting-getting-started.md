@@ -3,7 +3,7 @@ title: Finantsaruandluse ülevaade
 description: Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 Finance finantsaruandlusele ja kasutada finantsaruandluse võimalusi. See sisaldab pakutavate vaike-finantsaruannete kirjeldust.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/10/2020
+ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
-ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
+ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
+ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3609585"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3618034"
 ---
 # <a name="financial-reporting-overview"></a>Finantsaruandluse ülevaade
 
@@ -87,24 +87,16 @@ Pärast kasutaja lisamist või rolli muutmist peaks kasutaja mõne minuti jooksu
 ## <a name="report-deletions-and-expirations"></a>Aruande kustutamised ja aegumised
 Aruande loonud kasutajad saavad oma aruandeid kustutada. Kohustusega **Finantsaruandluse turbe haldamine** kasutajad saavad kustutada teiste aruandeid. 
 
-Alates väljalaskest 10.0.7 on lisatud aegumiskuupäevade kontseptsioon. Uus nõutav funktsioon lubatakse funktsioonihalduse tööruumis. See funktsioon sisaldab järgmisi muudatusi.
-
-* Uued loodud aruanded märgitakse automaatselt, et neil on loomise ajast 90 päeva pärast aegumiskuupäev.
-* Kõikidele aruannetele, mis olid olemas enne funktsiooni installimist, antakse 90-päevane aegumisperiood. Kuupäev võidakse lühikest aega kuvada tühjana, kuni finantsaruandluse teenus töötab, luuakse aruanne ja teenus värskendab olemasolevaid tühjade aegumiskuupäevadega aruandeid. 
-* Kohustusega **Finantsaruandluse turbe haldamine** kasutajatel on juurdepääs sellele funktsioonile. Kõik kohustusega **Finantsaruannete haldamine** kasutad, kellele on antud privileeg **Finantsaruannete aegumise haldamine**, omavad võimalust aegumiskuupäeva muuta. Praegu on saadaval kaks säilitamise võimalust.
-   * Aegumine 90 päeva möödudes
-   * Võimalus seada aruane mitte kunagi aeguma
-
-Kui valitud on aegumine (nt 90 päeva), rakendatakse see 90 päeva pärast alates tänasest, mis on erinev käitumine kui 90 päeva alates algsest loomise kuupäevast, mil aruanne koostati. Väljalaskes 10.0.8 lisati aegumiskuupäevad. Uus nõutav funktsioon lubatakse funktsioonihalduse tööruumi lehel **Kõik**. Funktsioon **Finantsaruannete säilitamise poliitikad** sisaldab järgmisi muudatusi.
+Väljalaskes 10.0.8 lisati aegumiskuupäevad. Uus nõutav funktsioon lubatakse funktsioonihalduse tööruumi lehel **Kõik**. Funktsioon **Finantsaruannete säilitamise poliitikad** sisaldab järgmisi muudatusi.
 * Uued loodud aruanded märgitakse automaatselt, et neil on loomise ajast 90 päeva pärast aegumiskuupäev
 * Kõikidele aruannetele, mis olid olemas enne funktsiooni installimist, antakse 90-päevane aegumisperiood. Kuupäev võidakse lühikest aega kuvada tühjana, kuni finantsaruandluse teenus töötab, luuakse aruanne ja teenus värskendab olemasolevaid tühjade aegumiskuupäevadega aruandeid. 
 * **Finantsaruandluse turbe haldamise** kohustusega kasutajatel on juurdepääs sellele funktsioonile. Kõik kohustusega **Finantsaruannete haldamine** kasutad, kellele on antud privileeg **Finantsaruannete aegumise haldamine**, omavad võimalust aegumiskuupäeva muuta. Praegu on saadaval kaks säilitamise võimalust. 
   * Aegumine 90 päeva möödudes.
   * Võimalus seada aruanne mitte kunagi aeguma.
   
-Hilisemas funktsioonis kaalutakse täiendavaid võimalusi. Aegumine 90 päeva möödudes on vaikesäte ja sobivate lubadega kasutajad saavad seda **Finantsaruannete** loendi lehel muuta.    
+Kui on valitud aegumine, näiteks 90 päeva, siis rakendatakse seda tänasest alates 90 päeva pärast. See toimib teistmoodi, kui aruande loomisel määratud algsest loomiskuupäevast arvestatud 90 päeva. 
   
-Kui valitud on aegumine (nt 90 päeva), annab see 90 päeva alates tänasest, mis on erinev käitumine kui 90 päeva alates algsest loomise kuupäevast, mis on määratud aruande koostamise ajal. 
+Hilisemas funktsioonis kaalutakse täiendavaid võimalusi. Aegumine 90 päeva möödudes on vaikesäte ja sobivate lubadega kasutajad saavad seda **Finantsaruannete** loendi lehel muuta.    
 
 ## <a name="default-reports"></a>Vaikearuanded
 Finantsaruandlus pakub 22 vaike-finantsaruannet. Iga aruanne kasutab põhikonto vaikekategooriaid. Saate kasutada neid aruandeid olemasoleval kujul või finantsaruandluse vajaduste lähtepunktina. Lisaks tavalistele finantsaruannetele nagu kasumiaruanne ja bilanss sisaldavad need vaikearuanded aruandeid, millel on näidatud erinevat tüüpi finantsaruanded, mida saate koostada. 
@@ -153,7 +145,7 @@ Mõned tavalisemad juhud, mis võivad põhjustada probleeme aruande kujundaja av
 * Tööjaamad peavad installima versiooni Visual Studio .NET 4.6.2 või uuema.
 
 Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [Microsofti allalaadimiskeskusest](https://www.microsoft.com/download/details.aspx?id=53345).
-* Kui kasutate Chrome’i brauserit, peate aruande koostaja kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Kui te ei saa Chrome'i sisse logida, proovige 1. probleemis kirjeldatud häälestusetapide järgimist Internet Exploreri või Edge'i abil. 
+* Kui kasutate Chrome’i brauserit, peate aruande koostaja kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Kui te ei saa Chrome'i sisse logida, proovige 1. probleemis kirjeldatud häälestusetapide järgimist Internet Exploreri või Microsoft Edge'i abil. 
 
 2. probleem: kasutajale ei ole määratud vajalikke lubasid rakenduse Financial Reporting kasutamiseks. 
 

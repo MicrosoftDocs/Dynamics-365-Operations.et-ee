@@ -3,7 +3,7 @@ title: Kasutuskogemuse isikupärastamine
 description: Selles teemas selgitatakse, kuidas isikupärastada rakendust.
 author: jasongre
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,85 +18,95 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb66db1e41dce6987bdfc52dd58e2b704ce36720
-ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
+ms.openlocfilehash: f8afbea3b3a6a06d005efae7305b2e394907c67c
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "3412350"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652127"
 ---
 # <a name="personalize-the-user-experience"></a>Kasutuskogemuse isikupärastamine
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas selgitatakse, kuidas isikupärastada rakendust.
+Selles teemas selgitatakse, kuidas saate rakendust isikupärastada, ning see hõlmab järgmisi teemasid. 
 
-Isikupärastamise põhiklasse on kolm.
-
-- Seadistuslehel tehtavad isikupärastamised. Näiteks võib tuua värvikujunduse ja ajavööndi.
-- Lehe kasutusega seotud isikupärastamised. Neid isikupärastamisi teatakse *varjatud* isikupärastamisena. Näiteks jälgib süsteem ruudustiku veerulaiusi, kui neid korrigeerite, ja kiirkaartide laiendatud või ahendatud olekut.
-- Isikupärastamised, mille kasutaja teeb lehe välimuse muutmiseks, muutes elemendi lehel ilmumise või toimimise viisi, sageli interaktiivse isikupärastamisrežiimi kaudu. Neid isikupärastamisi teatakse *otsese* isikupärastamisena. Näiteks võib kasutaja lehele elemente lisada, neid peita või ümber korraldada.
-
-Kõik isikupärastamised, mille kasutaja teeb, on ainult sellele kasutajale olenemata isikupärastamise tüübist või ettevõttest, millega kasutaja parajasti suhtleb. Ühe kasutaja lehele tehtud muudatused ei mõjuta süsteemi teisi kasutajaid.
+- **Kogu süsteemi hõlmavad suvandid** – need isikupärastamise suvandid on saadaval seadistuslehel kõigile kasutajatele. Näiteks võib tuua värvikujunduse ja ajavööndi. 
+- **Piiratud juurdepääs isikupärastamisele** – sellel juurdepääsutasemel salvestab rakendus automaatselt kasutaja tegevused, mis on seotud tüüpilise lehekasutusega, ja need taastatakse järgmine kord, kui te lehte külastate. Näiteks talletab rakendus ruudustiku veerulaiused, kui neid korrigeerite, ja kiirkaartide laiendatud või ahendatud oleku. 
+- **Täielik juurdepääs isikupärastamisele** – sellel juurdepääsutasemel on kasutajatel juurdepääs kõigile rakenduse isikupärastamise võimalustele. Eelkõige on neil juurdepääs tööriistaribale **Isikupärastamine**. 
+- **Isikupärastamiste jagamine** – kasutajad, kellel on täielik juurdepääs isikupärastamisele, saavad eksportida oma lehe isikupärastamisi ja jagada neid teiste kasutajatega.
+- **Isikupärastamiste haldamine** – selle õigusega kasutajatel on juurdepääs halduslehele **Isikupärastamine**, et hallata kõiki isikupärastamisi organisatsioonitasemel. 
 
 ## <a name="system-wide-options-for-the-current-user"></a>Süsteemiülesed suvandid praegusele kasutajale
 
-Leht **Kasutaja suvandid** sisaldab mitut süsteemiülest sätet praegusele kasutajale. Lehe **Kasutaja suvandid** avamiseks valige navigeerimisribal nupp **Sätted** (hammasrattaikoon) ja siis valige **Kasutaja suvandid**. Lehel **Kasutaja suvandid** on neli vahekaarti erinevate kasutajasätetega.
+Leht **Kasutaja suvandid** sisaldab mitut süsteemiülest sätet praegusele kasutajale. Need suvandid on saadaval kõigile kasutajatele, isegi neile, kellele ei ole isikupärastamisele juurdepääsu antud. Lehe **Kasutaja suvandid** avamiseks valige navigeerimisribal nupp **Sätted** ja siis valige **Kasutaja suvandid**. Lehel **Kasutaja suvandid** on neli vahekaarti erinevate kasutajasätetega.
 
 - **Visuaalne** – saate valida lehtede värvikujunduse ja elementide vaikesuurused.
-- **Eelistused** – saate valida vaikeväärtused, mida kasutatakse iga kord, kui süsteemi avate. Väärtused hõlmavad ettevõtet, avalehte ja kuvamise/redigeerimise vaikerežiimi. (Kuva-/redigeerimisrežiim määrab, kas leht on vaatamiseks lukus või avaneb iga kord redigeerimiseks, kui selle avate.) Sellel vahekaardil on ka suvandid keele, ajavööndi ning kuupäeva-, kellaaja- ja numbrivormingute valimiseks. Samuti sisaldab see vahekaart mitmesuguseid eelistusi, mis erinevad olenevalt väljaandest.
-- **Konto** – saate kohandada oma kasutajanime ja muid kontoga seotud suvandeid.
+- **Eelistused** – saate valida vaikeväärtused, mida kasutatakse iga kord, kui süsteemi avate. Väärtused hõlmavad vaikeettevõtet, esialgset lehte ja kuvamise/redigeerimise vaikerežiimi. (Kuva-/redigeerimisrežiim määrab, kas leht on vaatamiseks lukus või avaneb iga kord redigeerimiseks, kui selle avate.) Sellel vahekaardil on ka suvandid keele, ajavööndi ning kuupäeva-, kellaaja- ja numbrivormingute valimiseks. Samuti sisaldab see vahekaart mitmesuguseid eelistusi, mis erinevad olenevalt väljaandest.
+- **Konto** – vaadake või kohandage oma kasutajanime ja muid kontoga seotud suvandeid.
 - **Töövoog** – saate valida seotud suvandeid.
 
-Lisaks kasutajasätete muutmisele saate kasutusandmete ja isikupärastamiste vaatamiseks ja kustutamiseks lehte **Kasutaja valikud**. Valige vaid tegumiribal **Kasutusandmed**.
-
-Rakenduse kasutamisel salvestatakse paljud teie valikud, et muuta süsteemi kasutamine tulevikus teie jaoks lihtsamaks. Süsteemi lehtedel tehtud isiklikke muudatusi võimaldab teil vaadata ja hallata vahekaart **Isikupärastamine**. Sellel vahekaardil saate lähtestada ka funktsiooni viiktekstid (st hüpikaknad, mis tutvustavad uusi süsteemifunktsioone). Seejärel teavitatakse teid uuesti eelnevatest funktsioonidest.
+Lisaks oma kasutajasätete muutmisele saate oma kasutusandmeid ja isikupärastamisi vaadata ning kustutada lehel **Kasutaja suvandid**. Oma kasutusandmete vaatamiseks valige toimingupaanil **Kasutusandmed**. Süsteemi lehtedel tehtud isiklikke muudatusi võimaldab teil vaadata ja hallata vahekaart **Isikupärastamine**. Sellel vahekaardil saate lähtestada ka funktsiooni viiktekstid (st hüpikaknad, mis tutvustavad uusi süsteemifunktsioone). Seejärel teavitatakse teid uuesti eelnevatest funktsioonidest.
 
 > [!NOTE]
 > Kui funktsioon [Salvestatud vaated](saved-views.md) on sisse lülitatud, saate isikupärastamisi vaadata ja hallata, kui valite lehe **Kasutaja valikud** tegumiribal **Isikupärastamine**.
 
-## <a name="implicit-personalizations"></a>Varjatud isikupärastamised
+## <a name="restricted-personalization-access-formerly-implicit-personalizations"></a>Piiratud juurdepääs isikupärastamisele (varem kaudsed isikupärastamised)
 
-Varjatud isikupärastamised on need isikupärastamised, mida teete teatud juhtnuppe reguleerides, mis salvestavad praeguse nähtava oleku.
+**Piiratud juurdepääsutasemel isikupärastamisele** salvestab rakendus automaatselt kasutaja tegevused, mis on seotud tüüpilise lehekasutusega, ja need taastatakse järgmine kord, kui te lehte külastate. Eraldi salvestamine pole vajalik. 
 
-- **Ruudustiku veergude laiused** – saate korrigeerida veeru laiust ruudustikus, valides veerupäisest vasakul või paremal oleva suuruse muutmise riba ja libistades seda vasakule või paremale, kuni veerg on soovitud laiusega. Rakendus salvestab veeru jaoks valitud laiuse. Seejärel muudab see veeru laiuse valitud sättele järgmine kord, kui avate lehe, mis seda tabelit sisaldab.
-- **Ruudustiku veergude summad** – (saadaval ainult uue ruudustiku juhtelemendiga lubatud) saate otsustada, kas summa tuleks kuvada ruudustiku mis tahes numbritega veeru allosas või mitte ning kas ruudustiku jalus on nähtav. Rakendus talletab need andmed, et neid eelistusi mäletatakse järgmisel korral, kui avate lehe. Lisateavet vt temast [Ruudustiku võimalused](grid-capabilities.md). 
-- **Kiirkaardid** – mõnel lehel on laiendatavad jaotised, mida nimetatakse *kiirkaartideks*. Rakendus salvestab kiirkaartide laiendamise ja ahendamise teabe. Seejärel laiendatakse või ahendatakse samad kiirkaardid iga kord, kui lehe avate, võttes aluseks teie viimase tegevuse lehel. Mõnel juhul saate kiirkaardi ahendamisega aidata süsteemi jõudlust parandada, sest rakendus ei pea kiirkaartide teavet tooma, kuni neid ei laiendata. Nagu hiljem selles teemas on selgitatud, saate muuta ka kiirkaartide järjestust lehel.
-- **Kiirinfo** – mõnedel lehtedel on paan **Seotud teave**, millel kuvatakse lehe praeguse teemaga seotud kirjutuskaitstud teave. Igat paani **Seotud teave** jaotist nimetatakse *Kiirinfoks*. Saate kogu paani **Seotud teave** peita või kuvada, samuti laiendada või ahendada üksikuid kiirinfosid. Rakendus salvestab need eelistused. Teie viimast tegevust lehel arvesse võttes laiendatakse või ahendatakse paani **Seotud teave** ja üksikuid kiirinfosid järgmine kord, kui lehe avate. Mõnel juhul saate kiirinfo ahendamisega aidata süsteemi jõudlust parandada, sest rakendus ei pea kiirinfo teavet tooma, kuni neid ei laiendata.
-- **Toimingupaanid** – *toimingupaan* kuvatakse enamiku lehtede ülaserva lähedal. Toimingupaan sisaldab nuppe paljudeks tegevusteks, mida praegusel lehel saate teha. Need nupud on sageli korraldatud vahekaartidele. Saate kogu tegumiriba kinnitada avatuna või hoida selle vaikimisi ahendatuna. Seejärel avatakse või ahendatakse tegumiriba iga kord, kui lehe avate, võttes aluseks teie viimase tegevuse lehel. Kui olete tegumiriba kinnitanud, kuvatakse viimati kasutatud vahekaart.
-- **Kiirfiltrid** – *kiirfilter* kuvatakse paljude ruudustike kohal. Kiirfiltriga saate ruudustikku filtreerida valitud veeru põhjal. Rakendus salvestab filtreeritud veeru valiku. Seejärel filtreeritakse ruudustik sama veeru järgi, kui seda ruudustikku sisaldava lehe järgmine kord avate. Siiski saate valida erineva veeru, mille alusel tabelit filtreerida.
-- **Veerupäisefiltrid** – kui filtreerite ruudustiku *veerupäisefiltritega*, saate soovitud andmete leidmiseks muuta filtri operaatorit soovitud viisil. Näiteks saate valida tehtemärgi **algab väärtusega** asemel tehtemärgi **on täpselt**. Iga kord, kui kasutate veerupäisefiltrit ja muudate filtri tehtemärki, salvestab rakendus muudatuse. Seejärel taastab see filtri tehtemärgi järgmine kord, kui selle veeru alusel filtreerite.
+Siin on loend tegevustest, mis kuuluvad tüüpilise lehekasutuse ja seega piiratud juurdepääsu alla isikupärastamisele. 
+
+- **Ruudustiku veergude laiused** – saate korrigeerida veeru laiust ruudustikus, valides veerupäisest vasakul või paremal oleva suuruse muutmise riba ja libistades seda vasakule või paremale, kuni veerg on soovitud laiusega. Rakendus salvestab veeru jaoks valitud laiuse. Seejärel muudetakse järgmine kord, kui lehe avate, veeru laius selleks laiuseks.
+- **Ruudustiku jalus ja veergude summad** – *(saadaval ainult siis, kui uus ruudustiku juhtelement on sisse lülitatud)* saate otsustada, kas ruudustiku numbreid sisaldava veergude allosas tuleks näidata summat ning kas ruudustiku jalus peaks nähtav olema. Rakendus talletab need eelistused ja rakendab need järgmisel korral, kui avate lehe. Lisateavet vt jaotisest [Ruudustiku võimalused](grid-capabilities.md). 
+- **Kiirkaardid** – mõnel lehel on laiendatavad jaotised, mida nimetatakse *kiirkaartideks*. Rakendus salvestab teabe laiendatud või ahendatud kiirkaartide kohta. Samad kiirkaadid laiendatakse või ahendatakse järgmisel korral, kui lehe avate, võttes aluseks teie viimast tegevust lehel. Mõnel juhul saate kiirkaardi ahendamisega aidata süsteemi jõudlust parandada, sest rakendus ei pea kiirkaartide teavet tooma, kuni neid ei laiendata. Nagu hiljem selles teemas selgitatakse, saate muuta ka kiirkaartide järjestust lehel.
+- **Kiirinfo** – mõnel lehel on paan **Seotud teave**, millel kuvatakse lehe praeguse teemaga seotud kirjutuskaitstud teave. Igat paani **Seotud teave** jaotist nimetatakse *Kiirinfoks*. Saate kogu paani **Seotud teave** laiendada või ahendada, samuti laiendada või ahendada üksikuid kiirinfo jaotisi. Rakendus salvestab need eelistused. Teie viimast tegevust lehel arvesse võttes laiendatakse või ahendatakse paani **Seotud teave** ja üksikuid kiirinfo jaotisi järgmine kord, kui lehe avate. Mõnel juhul saate paani **Seotud teave** või kiirinfo ahendamisega aidata süsteemi jõudlust parandada, sest rakendus ei pea kiirinfo jaotiste teavet tooma, kuni neid ei laiendata.
+- **Toimingupaanid** – *toimingupaan* kuvatakse enamiku lehtede ülaserva lähedal. Toimingupaan sisaldab nuppe paljudeks tegevusteks, mida praegusel lehel saate teha. Need nupud on sageli korraldatud vahekaartidele. Saate kogu toimingupaani avatuks *kinnitada* või hoida seda vaikimisi ahendatuna. Toimingupaan avatakse või ahendatakse järgmisel korral, kui lehe avate, võttes aluseks teie viimast tegevust lehel. Kui olete toimingupaani kinnitanud, kuvatakse viimati kasutatud vahekaart.
+- **Kiirfiltrid** – *kiirfilter* kuvatakse paljude ruudustike kohal. Kiirfiltriga saate ruudustikku filtreerida ühe valitud veeru põhjal. Rakendus salvestab filtreeritud veeru valiku. Seejärel filtreeritakse ruudustik vaikimisi sama veeru järgi, kui selle lehe järgmine kord avate. Siiski saate valida erineva veeru, mille alusel ruudustikku filtreerida.
+- **Veerupäisefiltrid** – kui filtreerite ruudustiku *veerupäisefiltrite* abil, saate soovitud andmete leidmiseks muuta filtri operaatorit soovitud viisil. Näiteks saate valida tehtemärgi **algab väärtusega** asemel tehtemärgi **on täpselt**. Iga kord, kui kasutate veerupäisefiltrit ja muudate filtri tehtemärki, salvestab rakendus muudatuse. Seejärel taastab see filtri tehtemärgi järgmine kord, kui selle veeru alusel filtreerite.
 - **Navigeerimispaan** – saate avada *navigeerimispaani*, valides mistahes lehe vasakul paanil nupu **Laienda navigeerimispaani**. (_**Menüü** nuppu_, nimetatakse mõnikord *hamburgeriks*, *hamburgerimenüük*s või *hamburgerinupuks*.) Saate kinnitada navigeerimispaani avatuna või hoida selle vaikimisi ahendatuna. Kui olete navigeerimispaani avatuna kinnitanud, hoiab rakendus seda lahti, kuni selle ahendate.
 
-## <a name="explicit-personalizations"></a>Selged isikupärastamised
+## <a name="full-personalization-access-formerly-explicit-personalizations"></a>Täielik juurdepääs isikupärastamisele (varem otsesed isikupärastamised)
 
-Erinevad inimesed ja ettevõtted näevad erineval moel andmeid, mis on nende jaoks olulisimad ja mis ei käitu viisil, nagu neil oma äri käitamiseks on vaja. Saate kohandada oma teabe korralduse ja sellega suhtlemise viisi. Saate ka määrata, et osa teabest peab olema peidetud. Need võimalused on aluseks isiklikule ja tulemuslikule kogemusele ning on näited sõnaselgetest isikupärastamistest. Selged isikupärastamised on isikupärastamised, mille teete selge kavatsusega muuta elemendi või lehe välimust või käitumist muuta.
+**Täielikul juurdepääsutasemel isikupärastamisele** on kasutajatel juurdepääs kõigile rakenduses pakutud isikupärastamise võimalustele. Kuna inimestel ja ettevõtetel on rakenduse kasutamisel erinevad vajadused, eriti kasutatavaid välju arvestades, pakub isikupärastamine tööriistasid, mis võimaldavad kasutajatel ning organisatsioonidel kohandada viisi, kuidas teavet rakenduses järjestatakse ja kasutatakse. Need võimalused on olulised, et pakkuda rakenduses lihtsustatud, optimeeritud kogemust, mis on kohandatud teie ja teie organisatsiooni jaoks. 
+
+Kui funktsioon [Salvestatud vaated](saved-views.md) on sisse lülitatud, on vaja muudatused salvestada, et neid rakendataks kasutaja jaoks kindlas vaates püsivalt. Kui funktsioon **Salvestatud vaated** on välja lülitatud, salvestatakse need muudatused automaatselt.
+
+Järgmistes jaotistes käsitletakse isikupärastamise võimalusi, mis on kasutajatele saadaval **täielikul juurdepääsutasemel isikupärastamisele**. Siin on mõned nendest võimalustest.
+
+- Otseteemenüü suvandid
+- **Isikupärastamise** tööriistariba
+- Paanide, loendite ja linkide lisamine tööruumidesse
+- Kokkuvõtte lisamine tööruumist armatuurlauale
+- Armatuurlaua isikupärastamine
 
 ### <a name="shortcut-menu-options"></a>Otseteemenüü suvandid
 
-Otseteemenüüd pakuvad mitut võimalust lehe selgeks muutmiseks, et see vastaks paremini teie enda või teie ettevõtte nõuetele. (Otseteemenüüd nimetatakse ka *paremklõpsuga avatavaks menüüks* või *kontekstimenüüks*.)
+Otseteemenüüd pakuvad ühte võimalust lehe kasutajaliidese muutmiseks, et see vastaks paremini teie enda või teie ettevõtte nõuetele. (Otseteemenüüd nimetatakse ka *paremklõpsuga avatavaks menüüks* või *kontekstimenüüks*.)
 
-Mõned tüüpilisimad ja olulisimad muudatused, mille lehele saab teha, on saadaval otse, kasutades otseteemenüü suvandeid. Näiteks kui soovite alates platvormivärskendusest 17 lisada ruudustikku veerge või neid peita, lihtsalt paremklõpsake veerupäisel ja siis valige käsk **Lisa veerge** või **Peida see veerg**.
+Mõned tüüpilisimad ja olulisimad muudatused, mille lehele saab teha, on saadaval otse, kasutades otseteemenüü suvandeid. Näiteks kui soovite lisada ruudustikku veerge või neid peita, lihtsalt paremklõpsake veerupäisel ja siis valige käsk **Sisesta veerge** või **Peida see veerg**.
 
-Peale selle on enamik selge isikupärastamise tüüpe saadaval, kui paremklõpsate elemendil ja valite käsu **Isikupärastamine**. (Arvestage sellega, et kõiki lehel olevaid elemente ei saa isikupärastada.) Kui valite selle isikupärastamise viisi, ilmub elemendi atribuudiaken.
+Lisaks sellele on enamik isikupärastamistüüpe saadaval, kui paremklõpsate elemendil ja valite käsu **Isikupärastamine**. (Arvestage sellega, et kõiki lehel olevaid elemente ei saa isikupärastada.) Kui valite selle isikupärastamise viisi, ilmub elemendi *atribuudiaken*.
 
 ![Elemendi atribuutide isikupärastamine](./media/cli-element-property-window.png)
 
 Atribuudiakna kaudu on elemendi isikupärastamiseks järgmised võimalused.
 
 - Elemendi sildi muutmine.
-- Elemendi peitmine, nii et seda lehel ei kuvata. Väljal olevaid andmeid ei kustutata ega muudeta. Lihtsalt lehel ei kuvata enam teavet.
+- Elemendi peitmine, nii et seda lehel ei kuvata. Väljal olevaid andmeid ei kustutata ega muudeta. Seda teavet lihtsalt ei kuvata enam lehel.
 - Teabe lisamine kiirkaardi kokkuvõttejaotisse (kui element on kiirkaardil).
 - Jätke väli vahele, et seda ei saaks kunagi fokusseerida, kui te tabuleerite läbi lehe.
 - Saate väljal olevate andmete (mis tahes kirje puhul) redigeerimist takistada.
-- Määrake andmesisestuse jaoks nõutav väli. Kui sellele väljale pole väärtust sisestatud, kuvatakse selle oleku tähistamiseks punane ääris ja tärn. See suvand on saadaval ainult alates versioonist 10.0.11, milles on lubatud funktsioonid [Salvestatud vaated](saved-views.md) ja **Väljade määramine vastavalt vajadusele isikupärastamise abil**.
+- Määrake andmesisestuse jaoks nõutav väli. Kui sellele väljale pole väärtust sisestatud, kuvatakse selle oleku tähistamiseks punane ääris ja tärn. See suvand on saadaval ainult alates versioonist 10.0.11, milles on sisse lülitatud funktsioonid [Salvestatud vaated](saved-views.md) ja **Väljade määramine vastavalt vajadusele isikupärastamise abil**.
 
-Atribuudiaken võib sisaldada ka muid isikupärastamisvõimalusi olenevalt elemendist. Näiteks paani atribuudiaken võib lubada teil ülendada selle paani armatuurlauaks ja armatuurlaua atribuudiaken võib lubada teil luua sellel armatuurlaual uue tööruumi.
+Atribuudiaken võib sisaldada ka muid isikupärastamisvõimalusi olenevalt elemendist. Näiteks võib paani atribuudiaken lubada teil ülendada selle paani armatuurlauaks ning vaikearmatuurlaua elementide atribuudiaknad võib lubada teil luua uue kohandatud tööruumi.
 
 ### <a name="the-personalization-toolbar"></a>Isikupärastamise tööriistariba
 
-Kui soovite teha lehele mitu muudatust või teete muudatusi, mis pole muude mehhanismide (nt elementide ümberjärjestamine) kaudu saadaval, saate kasutada tööriistariba **Isikupärastamine**. Tööriistariba **Isikupärastamine** avamiseks toimige järgmiselt.
+Kui soovite teha lehel mitu muudatust või teha muudatusi, mis pole muude mehhanismide kaudu saadaval (nt kui soovite elemente ümber järjestada), saate kasutada tööriistariba **Isikupärastamine**. Tööriistariba **Isikupärastamine** avamiseks toimige järgmiselt.
 
+- Vajutage **Ctrl+Shift+P** mis tahes lehel olevast elemendist.
 - Avage elemendi atribuutide aknas **Isikupärasta seda lehte**.
 - Valige mistahes lehe vahekaardi **Suvandid** jaotise **Isikupärastamine** tegumiribal **Isikupärasta seda lehte**.
 - Valige navigeerimisribal nupp **Sätted** (hammasrattasümbol) ja valige **Isikupärasta**.
@@ -105,74 +115,77 @@ Kui soovite teha lehele mitu muudatust või teete muudatusi, mis pole muude mehh
 
 #### <a name="navigating-the-page"></a>Lehel liikumine
 
-Kui tööriistariba **Isikupärastamine** on avatud, on aluseks olev leht kirjutuskaitstud (teiste sõnadega, te ei saa andmeid redigeerida), kuid see on siiski interaktiivne. Täpsemalt saate laiendada või ahendada paani **Seostuv teave**, vahetada vahekaarte ja laiendada või ahendada jaotisi, nagu tavaliselt neid toiminguid lehel teete. Isikupärastamismuudatuse rakendamiseks ahendatavale jaotisele või vahekaardile (nt kiirkaardi peitmine), käivitate vaid ahendatava jaotise või vahekaardi kõrval kuvatava nupu, kui sellele klaviatuuri või hiire abil liigute.
+Kui tööriistariba **Isikupärastamine** on avatud, on aluseks olev leht kirjutuskaitstud (teiste sõnadega, te ei saa andmeid redigeerida), kuid see on siiski interaktiivne. Täpsemalt saate laiendada või ahendada paani **Seotud teave**, vahetada vahekaarte ja laiendada või ahendada jaotisi samamoodi, nagu teeksite neid toiminguid lehel. Isikupärastamismuudatuse rakendamiseks ahendatavale jaotisele või vahekaardile (nt kiirkaardi peitmine), käivitate vaid ahendatava jaotise või vahekaardi kõrval kuvatava nupu, kui sellele klaviatuuri või hiire abil liigute.
 
 #### <a name="personalization-tools"></a>Isikupärastamise tööriistad
 
 Tööriistaribal **Isikupärastamine** on saadaval järgmised tööriistad.
 
-- Tööriistaga **Vali** saate valida ja muuta elemendi atribuute. Selle tööriista kasutamiseks valige tööriistaribal nupp **Vali** ja seejärel valige soovitud element. Kuvatakse elemendi atribuudiaken ja te saate muuta selle elemendi mistahes atribuute. Saate protsessi selle lehe muude isikupärastatavate elementide puhul korrata. Võtke arvesse, et mõned isikupärastamise atribuudid ei pruugi mõne stsenaariumi puhul saadaval olla. Näiteks ei saa te nõutavat välja lukustada.
-- Tööriistaga **Peida** saate elemendi lehel peita. Selle tööriista kasutamiseks valige tööriistaribal nupp **Peida** ja seejärel valige peidetav element. Tööriista **Peida** kasutamisel muudetakse kõik parasjagu peidetud elemendid nähtavaks, kuid need kuvatakse varjutatud konteineris. Elemendi saate nähtavaks muuta, kui valite selle. Selleks, et vaadata, milline leht välja näeb, kui elemendid on peidetud, aktiveerige muu isikupärastamistööriist.
-- Välja lisamiseks lehele kasutage tööriista **Välja lisamine**. Selle tööriista kasutamisel saate lisada ainult välju, mis on osa lehekülje määratlusest. Teavet selle kohta, kuidas luua uusi välju, mis ei ole osa praeguse lehe määratlusest, vt jaotisest [Kohandatud väljade loomine ja nendega töötamine](user-defined-fields.md). Nupu **Lisa väli** valimisel tööriistaribal, peate esmalt valima rühma või ala, kuhu soovite välja lisada. Dialoogiboksis kuvatakse valitud rühma või alaga seotud väljade loend. Valige dialoogiboksis lisamiseks üks või mitu välja ja seejärel valige käsk **Sisesta**. Varem lisatud välja eemaldamiseks korrake protsessi, kuid tühjendage dialoogiboksis välja valik.
+- Tööriistaga **Vali** saate valida ja muuta elemendi atribuute. Selle tööriista kasutamiseks valige tööriistaribal nupp **Vali** ja seejärel valige soovitud element. Kuvatakse elemendi atribuudiaken, kus te saate muuta selle elemendi kõiki atribuute. Saate protsessi selle lehe muude isikupärastatavate elementide puhul korrata. Võtke arvesse, et mõned isikupärastamise atribuudid ei pruugi mõne stsenaariumi puhul saadaval olla. Näiteks ei saa te nõutavat välja lukustada.
+- Tööriistaga **Peida** saate elemendi lehel peita. Selle tööriista kasutamiseks valige tööriistaribal nupp **Peida** ja seejärel valige peidetav element. Tööriista **Peida** kasutamisel muudetakse kõik parasjagu peidetud elemendid nähtavaks, kuid need kuvatakse varjutatud konteineris. Elemendi saate nähtavaks muuta, kui valite selle. Selleks, et vaadata, milline leht välja näeb, kui elemendid on peidetud, aktiveerige muu isikupärastamistööriist või sulgege isikupärastamistööriist.
+- Väljade lisamiseks oma lehele kasutage tööriista **Lisa välju**. Selle tööriista kasutamisel saate lisada ainult välju, mis on osa lehekülje määratlusest. Teavet selle kohta, kuidas luua uusi välju, mis ei ole osa praeguse lehe määratlusest, vt jaotisest [Kohandatud väljade loomine ja nendega töötamine](user-defined-fields.md). Nupu **Lisa välju** valimisel tööriistaribal peate esmalt valima ruudustiku või jaotise, kuhu soovite välja lisada. Dialoogiboksis kuvatakse valitud ruudustiku või jaotisega seotud väljade loend. Valige dialoogiboksis lisamiseks üks või mitu välja ja seejärel valige käsk **Värskenda**. Varem lisatud välja eemaldamiseks korrake protsessi, kuid tühjendage dialoogiboksis välja valik.
 - Tööriistaga **Teisalda** saate nihutada elemendi praeguses elemendirühmas teise asukohta. Võtke arvesse, et elementi ei saa teisaldada emagrupist väljapoole. Selle tööriista kasutamiseks valige tööriistaribal nupp **Teisalda** ja seejärel valige teisaldatav element. Elemendi valimisel määratleb rakendus asukohad, kuhu elementi saab teisaldada. Neid asukohti tuntakse *pukseerimistsoonidena*. Elemendi lohistamisel praeguses rühmas kuvatakse iga pukseerimistsoon värvilisena ja paksu joonega selle ala kõrval, kuhu elemendi saab pukseerida.
 - Tööriistaga **Jäta vahele** saate eemaldada elemendi lehe klaviatuuri vahekaardijärjestusest. Nupu **Jäta vahele** valimisel tööriistaribal kuvatakse kõik parasjagu vahelejäetud elemendid varjutatud konteineris. Välju saate interaktiivselt vahekaardi järjestusest eemaldada või neid sinna lisada.
-- Tööriistaga **Kuva päis** saate kuvada välja kiirkaardi kokkuvõttejaotises. Tööriistariba nupu **Kuva päises** valimisel kuvatakse kõik kokkuvõtteväljadena valitud väljad varjutatud konteineris. Saate välju interaktiivselt kiirkaardi kokkuvõttesse lisada ja neid sealt eemaldada, valides soovitud väljad.
-- Kasutage tööriista **Nõua**, et määrata element, nagu on nõutud andmesisestuse jaoks. Nupu **Nõua** valimisel tööriistaribal kuvatakse kõik nõutavad isikupärastatud elemendid varjutatud konteineris. Seejärel saate need uuesti mittenõutavaks muuta. See suvand on saadaval ainult versioonis 10.0.12 ja hilisemates versioonides, milles on lubatud funktsioon **Väljade määramine vastavalt vajadusele isikupärastamise abil**.
-
-    > [!IMPORTANT]
-    > Versioon 10.0.12 on eelväljaanne. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
-
+- Tööriistaga **Kuva päis** saate kuvada välja kiirkaardi kokkuvõttejaotises. Tööriistariba nupu **Kuva päises** valimisel kuvatakse kõik kokkuvõtteväljadena valitud väljad varjutatud konteineris. Saate välju interaktiivselt kiirkaardi kokkuvõttesse lisada ja välju sealt eemaldada, valides soovitud väljad.
+- Kasutage tööriista **Nõua**, et määrata element, nagu on nõutud andmesisestuse jaoks. Nupu **Nõua** valimisel tööriistaribal kuvatakse kõik nõutavad isikupärastatud elemendid varjutatud konteineris. Seejärel saate need uuesti mittenõutavaks muuta. See suvand on saadaval ainult versioonis 10.0.12 ja hilisemates versioonides, milles on sisse lülitatud funktsioon **Väljade määramine vastavalt vajadusele isikupärastamise abil**.
 - Tööriistaga **Lukusta** saate märkida elemendi redigeeritavaks või mitteredigeeritavaks. Nupu **Lukusta** valimisel tööriistaribal kuvatakse kõik parasjagu mitteredigeeritavad elemendid varjutatud konteineris. Seejärel saate need uuesti redigeeritavaks muuta. Arvestage sellega, et mõned väljad on nõutavad ja neid ei saa mitteredigeeritavaks muuta. Nende väljade kõrval kuvatakse tabalukuikoon.
-- Kasutage nuppu **Lisa rakendus Power Appsist**, et manustada rakendus, mis loodi lehele Microsoft Power Appsi kasutades. Üksikasjalikku teavet rakenduse Power Appsist lehele manustamise kohta vt teemast [Rakenduste manustamine Power Appsist](embed-power-apps.md). See suvand on saadaval ainult siis, funktsioon [Salvestatud vaated](saved-views.md) on keelatud.  
-- Kasutage nuppu **Lisa rakendus**, et manustada lehele rakendus, mis loodi Microsoft Power Appsis või kolmanda poole poolt. See suvand on saadaval ainult siis, funktsioon [Salvestatud vaated](saved-views.md) on lubatud. 
-- Kasutage tööriista **Eemaldamine** lehe lähtestamiseks vaikesätetele, installitud olekusse. Kõik praeguse lehe isikupärastamised kustutatakse. Tagasivõtmine ei ole võimalik. Seetõttu kasutage seda tööriista ainult siis, kui soovite lehe lähtestada.
-- Tööriistaga **Importimine** saate laadida isikupärastamise failist, mille teie või keegi teine on lehe jaoks varem loonud. Kui impordite lehele isikupärastamised, saate valida, kas need tuleks lisada lehele või asendada kõik teie olemasolevad isikupärastamised. Tagasivõtmine ei ole võimalik. Seetõttu peate pärast isikupärastamise importimist käsitsi eemaldama või tühistama kõik soovitud muudatused.
-- Tööriistaga **Eksportimine** saate oma lehe isikupärastamised failina salvestada. Saate seejärel oma isikupärastamisi teiste kasutajatega jagada. Need kasutajad peavad lihtsalt importima teie lehe isikupärastamisi sisaldava faili.
+- Kasutage tööriista **Lisa rakendus Power Appsist**, et manustada lehel rakendus, mis loodi Microsoft Power Appsi kasutades. Üksikasjalikku teavet rakenduse Power Appsist lehele manustamise kohta vt teemast [Rakenduste manustamine Power Appsist](embed-power-apps.md). See suvand on saadaval ainult siis, kui funktsioon [Salvestatud vaated](saved-views.md) on väljalülitatud.
+- Kasutage nuppu **Lisa rakendus**, et manustada lehele rakendus, mis loodi Microsoft Power Appsis või kolmanda poole poolt. See suvand on saadaval ainult siis, kui funktsioon [Salvestatud vaated](saved-views.md) on sisse lülitatud. 
+- Kasutage tööriista **Eemaldamine** lehe lähtestamiseks vaikesätetele, installitud olekusse. Kõik praeguse lehe isikupärastamised kustutatakse. Seda tegevust ei saa tagasi võtta. Seetõttu kasutage seda tööriista ainult siis, kui soovite lehe lähtestada. Kui funktsioon **Salvestatud vaated** on sisse lülitatud, kustutab see tööriist praeguse vaate isikupärastamise.
+- Tööriistaga **Importimine** saate laadida isikupärastamise failist, mille teie või keegi teine on lehe jaoks varem loonud. 
+
+    - Kui funktsioon **Salvestatud vaated** on väljalülitatud, saate valida, kas lisada või asendada oma olemasolevad isikupärastamised lehe jaoks imporditavate isikupärastamistega. Seda tegevust ei saa tagasi võtta. Seetõttu peate pärast isikupärastamise importimist käsitsi eemaldama või tühistama kõik soovitud muudatused.
+    - Kui funktsioon **Salvestatud vaated** on sisse lülitatud, muutuvad imporditud isikupärastamised lehe vaateks. Kui vaade on juba olemas, siis on teil võimalus importimine vahele jätta, asendada praegune vaade, millel on sama nimi, või nimetada imporditud vaade ümber.
+
+- Tööriistaga **Eksportimine** saate oma lehe isikupärastamised failina salvestada. Saate seejärel oma isikupärastamisi teiste kasutajatega jagada. Need kasutajad peavad lihtsalt importima teie lehe isikupärastamisi sisaldava faili. Kui funktsioon **Salvestatud vaated** on sisse lülitatud, salvestab see tööriist praeguse vaate jagatavasse faili.
 - Valige nupp **Sule**, kui soovite tööriistariba **Isikupärastamine** sulgeda ja lehe eelmise interaktiivse oleku taastada.
 
 Traditsiooniliselt, kui kasutate tööriistariba **Isikupärastamine**, jõustuvad teie isikupärastamised kohe, kui need teete. Kui aga funktsioon [Salvestatud vaated](saved-views.md) on sisse lülitatud, peate isikupärastamised kindlasti salvestama valitud vaatesse.
 
 Mõnel juhul kuvatakse tööriista valimisel elemendi kõrval tabalukuikoon. See ikoon näitab, et valitud tööriistaga seotud elemendi atribuute ei saa muuta, kuna nende atribuutide muutmine takistab lehe korralikku toimimist.
 
-### <a name="adding-a-tile-list-or-link-to-a-workspace"></a>Tööruumile paani, loendi või lingi lisamine
+### <a name="adding-tiles-lists-and-links-to-a-workspace"></a>Paanide, loendite ja linkide lisamine tööruumi
 
 Mõned lehed, milles on loendid, on isikupärastamisfunktsioon **Lisa tööruumi** saadaval tegumiriba vahekaardi **Suvandid** jaotises **Isikupärastamine**. Selle funktsiooni abil saate praegusest loendist lükata vastava teabe kindlasse tööruumi. Tööruumis kuvatav teave võib põhineda kas tervel loendil või loendi filtreeritud ja sorditud versioonis. Samuti saate määrata, kas teave kuvatakse tööruumis loendina, kokkuvõttepaanina, mis võib näidata loendis olevate üksuste arvu, või lingina.
 
 > [!NOTE]
-> Kui funktsioon [Salvestatud vaated](saved-views.md) on sisse lülitatud, on tööruumi lükatud sisu vaatega otse lingitud. Vaate päringut kasutatakse tööruumis olevate andmete toomiseks ja tööruumi vastav paan või link avab selle vaate lehe, nii et selle jaoks rakendatakse vaate päring ja isikupärastamised.
+> Kui funktsioon [Salvestatud vaated](saved-views.md) on sisse lülitatud, on tööruumi lükatud sisu vaatega otse lingitud. Vaate päringut kasutatakse andmeid tööruumi tuua ning tööruumi asjaomane paan või link avab selle vaate lehe, nii et selle puhul rakendatakse vaate päring ja isikupärastamised. Kui vaadet uuendatakse, kohandatakse asjaomaseid tööruumi elemente uue vaate järgi.
 
 [![Lisa tööruumi](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
-- Tööruumile loendi lisamiseks tööruumi sortige või filtreerige esmalt lehel loend, et see kuvaks teavet nii, nagu soovite seda tööruumis kuvada. (Kui funktsioon Salvestatud vaated on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Loend**. Pärast suvandi **Konfigureeri** valimist ilmub dialoogiboks, kus saate valida veerud, mis peaks tööruumis loendis ilmuma. Saate ka määrata tööruumis olevale loendile sildi.
-- Tööruumile paani lisamiseks filtreerige esmalt lehel loendit, et see kuvaks andmed, mida tuleks kokku võtta või millele soovite kiiret juurdepääsu. (Kui funktsioon Salvestatud vaated on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Paan**. Kui olete valinud suvandi **Konfigureeri**, ilmub dialoogiboks, kus saate määrata tööruumis olevale paanile sildi. Saate ka määrata, kas paanil kuvatakse arv. Pärast seda, kui paan on tööruumi lisatud, saate selle valida praeguse lehe avamiseks tööruumist. Seejärel saate vaadata paaniga seotud filtreeritud loendit.
-- Tööruumile lingi lisamiseks filtreerige esmalt lehel loend, nii et see kuvaks andmeid, millest olete huvitatud. (Kui funktsioon Salvestatud vaated on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Link**. Kui olete valinud suvandi **Konfigureeri**, ilmub dialoogiboks, kus saate määrata tööruumis olevale lingile sildi. Samuti saate valikuliselt määrata sildi uuele jaotisele, mis seda linki sisaldab.
+- Tööruumile loendi lisamiseks tööruumi sortige või filtreerige esmalt lehel loend, et see kuvaks teavet nii, nagu soovite seda tööruumis kuvada. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Loend**. Pärast suvandi **Konfigureeri** valimist ilmub dialoogiboks, kus saate valida veerud, mis peaks tööruumis loendis ilmuma. Saate ka määrata tööruumis olevale loendile sildi.
+- Tööruumile paani lisamiseks filtreerige esmalt lehel loendit, et see kuvaks andmed, mida tuleks kokku võtta või millele soovite kiirelt juurdepääsu. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Paan**. Kui olete valinud suvandi **Konfigureeri**, ilmub dialoogiboks, kus saate määrata tööruumis olevale paanile sildi. Saate ka määrata, kas paanil kuvatakse arv. Pärast seda, kui paan on tööruumi lisatud, saate selle valida praeguse lehe avamiseks tööruumist. Seejärel saate vaadata paaniga seotud filtreeritud loendit.
+- Tööruumile lingi lisamiseks filtreerige esmalt lehel loend, nii et see kuvaks andmeid, millest olete huvitatud. (Kui funktsioon **Salvestatud vaated** on sisse lülitatud, ei saa te jätkata enne, kui salvestate nende tingimustega vaate.) Seejärel valige **Lisa tööruumi**. Valige tööruum ja seejärel valige väljal **Esitlus** suvand **Link**. Kui olete valinud suvandi **Konfigureeri**, ilmub dialoogiboks, kus saate määrata tööruumis olevale lingile sildi. Samuti saate valikuliselt määrata sildi uuele jaotisele, mis seda linki sisaldab.
 
 Kui loend, paan või link on tööruumile lisatud, saate selle tööruumi avada ja elemendid soovitud viisil ümberkorraldada.
 
 ### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Kokkuvõtte lisamine tööruumist armatuurlauale
 
-Mõni tööruum sisaldab arvpaane (st paane, millel on arvud) ja teil on võimalik ka need paanid armatuurlaual kuvada. Tööruumis paremklõpsake inventuuripaani, valige **Isikupärasta** ja seejärel valige paani atribuutide aknas **Kinnita armatuurlauale**. Järgmine kord, kui te valitud armatuurlaua avate ja värskendate, kuvatakse arv selle tööruumi navigeerimispaani all. Saate suunata selle arvu otse asjassepuutuvate andmete juurde.
+Mõni tööruum sisaldab arvpaane (st paane, millel on arvud) ja teil on võimalik ka need paanid armatuurlaual kuvada. Tööruumis paremklõpsake inventuuripaani, valige **Isikupärasta** ja seejärel valige paani atribuutide aknas **Kinnita armatuurlauale**. Järgmine kord, kui te armatuurlaua avate ja seda värskendate, kuvatakse arv selle tööruumi navigeerimispaani all. Saate suunata selle arvu otse asjassepuutuvate andmete juurde.
 
 ### <a name="personalizing-your-dashboard"></a>Armatuurlaua isikupärastamine
 
-Armatuurlaud on tihti esimene leht, mida näete rakenduse avamisel. Saate armatuurlaua isikupärastada, nii et sellel kuvatakse ainult need tööruumi paanid, mida soovite näha. Saate paane ka ümber korraldada nii, et need kuvatakse soovitud järjestuses, tööruumi navigeerimispaanid ümber nimetada või lisada uue tööruumipaani.
+Armatuurlaud on tihti esimene leht, mida näete rakenduse avamisel. Seda saab isikupärastada nagu kõiki süsteemi lehti, kasutades samu meetodeid, mida enne selles teemas kirjeldati. 
 
-Armatuurlaua isikupärastamiseks lihtsalt paremklõpsake mis tahes paanil ja valige suvand **Isikupärastamine**, et avada paani atribuudiaken.
+> [!WARNING]
+> On oluline, et armatuurlaua sisu peitmisel valiksite te praegu otse paani, mitte selle ümber oleva ruumi. Kui peidate paani ümber oleva grupi, võivad tulemused olla ootamatud, kui hiljem lisatakse rohkem paane või kui süsteem lülitatakse mõnesse muusse keelde.
 
-- Kui soovite valitud paani peita või ümber nimetada, saate muudatuse teha otse atribuudiaknas.
-- Tööruumi paanide ümberjärjestamiseks valige atribuudiaknas suvand **Selle lehe isikupärastamine**, et avada tööriistariba **Isikupärastamine**. Seejärel saate kasutada paanide soovitud viisil ümberkorraldamiseks tööriista **Teisalda**.
-- Uue tööruumipaani lisamiseks valige atribuudiaknas käsk **Lisa tööruum**. Uus tööruumipaan luuakse armatuurlaua alaserva. Saate selle uue tööruumipaani soovitud viisil ümber nimetada. Samuti lisada tööruumi loendeid, paane ja linke, nagu on kirjeldatud selle teema jaotises [Tööruumidesse loendite, paanide või linkide lisamine](#adding-a-tile-list-or-link-to-a-workspace).
+Üks armatuurlaual saadaolev ainulaadne isikupärastamise võimalus on võime lisada paane. 
 
+- Kui funktsioon **Täisleheküljelised rakendused** on välja lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa tööruum**. Uus tööruumipaan luuakse armatuurlaua alaserva. Saate selle uue tööruumipaani soovitud viisil ümber nimetada. Samuti saate lisada tööruumi loendeid, paane ja linke, nagu on kirjeldatud selle teema jaotises [Paanide, loendite ja linkide lisamine tööruumi](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace).
+- Kui funktsioon **Täisleheküljelised rakendused** on sisse lülitatud, saate lisada uue paani, kui paremklõpsate armatuurlaua elemendil ja valite **Lisa rakendus**. Valige dialoogiboksis, kas soovite lisada paani uue tööruumi jaoks või paani, mis sisaldab sisu Power Appsist või veebisaidilt. Seejärel järgige valitud suvandi konfigureerimiseks juhiseid. Uus paan luuakse armatuurlaua alaserva. 
 
 ## <a name="sharing-personalizations"></a>Isikupärastamiste ühiskasutamine
-Pärast lehe isikupärastamist võite oma isikupärastamisi oma isikupärastatud lehe eksportimise teel teiste kasutajatega jagada. Seejärel võite paluda teistel kasutajatel avada isikupärastatud leht ja importida teie loodud isikupärastamise fail. Teine võimalus on anda oma isikupärastamised administraatoriõigustega kasutajale. Seejärel saab rakendada teie iskupärastamise faili samaaegselt paljudele kasutajatele, kasutades halduslehte **Isikupärastamine**.
+
+Pärast lehe isikupärastamist võite oma isikupärastamisi oma isikupärastatud lehe eksportimise teel teiste kasutajatega jagada. Seejärel saate paluda teistel kasutajatel isikupärastamisfail importida. Teine võimalus on anda oma isikupärastamised administraatoriõigustega kasutajale. Seejärel saab rakendada teie iskupärastamise faili samaaegselt paljudele kasutajatele, kasutades halduslehte **Isikupärastamine**.
 
 ## <a name="administration-of-personalizations"></a>Isikupärastamiste haldamine
-Leht **Isikupärastamine** on isikupärastamiste organisatsiooni tasemel haldamise keskus. Lehe sisu ja võimalused sõltuvad sellest, kas funktsioon **Salvestatud vaated** on lubatud.  
 
-Kliendid, kes on lubanud funktsiooni **Salvestatud vaated** näevad teemas [Salvestatud vaated](saved-views.md) jaotist „Vaadete globaalne haldamine“.  
+Leht **Isikupärastamine** on isikupärastamiste organisatsiooni tasemel haldamise keskus. Lehe sisu ja võimalused sõltuvad sellest, kas funktsioon **Salvestatud vaated** on sisse lülitatud.
 
-Kui klient ei ole veel funktsiooni [Salvestatud vaated](saved-views.md) sisse lülitanud, siis kuvatakse lehel neli vahekaarti.
+Kliendid, kes on sisse lülitanud funktsiooni **Salvestatud vaated**, näevad teemas [Salvestatud vaated](saved-views.md) jaotist „Vaadete globaalne haldamine“.
+
+Klientidele, kes pole funktsiooni [Salvestatud vaated](saved-views.md) veel sisse lülitanud, on sellel lehel neli vahekaarti.
 
 - **Rakenda** – saate importida või valida vähemalt ühe kasutaja isikupärastamise. Isikupärastamise rakendamiseks ühele või mitmele kasutajale valige esmalt roll ja selle rolliga kasutajad. Seejärel valige kas olemasolev isikupärastamine valitud kasutajatele rakendamiseks või importige isikupärastamise fail. Isikupärastamine kinnitatakse ja rakendatakse valitud kasutajatele järgmisel korral, kui nad valitud lehe avavad.
 - **Eemalda** – saate eemaldada vähemalt ühe kasutaja lehe või tööruumi kõik isikupärastamised. Esmalt valige leht või tööruum, et näha seda isikupärastanud kasutajate loendit. Seejärel valige kasutajad, kelle isikupärastamised tuleb sellelt lehelt või sellest tööruumist eemaldada, ja valige käsk **Eemalda**. Kõik isikupärastamised, mille valitud kasutajad on valitud lehele või tööruumile rakendanud, kustutatakse. Seda tegevust ei saa tagasi võtta. Kui aga isikupärastamine on lehele või tööruumile salvestatud, saab selle isikupärastamise uuesti importida.

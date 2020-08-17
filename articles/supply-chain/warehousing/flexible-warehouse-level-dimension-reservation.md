@@ -1,9 +1,9 @@
 ---
 title: Paindliku laotaseme dimensiooni reserveerimise poliitika
 description: See teema kirjeldab varude reserveerimise poliitikat, mis võimaldab partiijälgimisega tooteid müüvatel ettevõtetel käitada nende logistikat, nagu WMS-i toega toimingud, kindlatel partiidel kliendi müügitellimuste jaoks. Seda ka siis, kui tootega seostatud reserveerimise hierarhia ei luba kindlaid partiisid reserveerida.
-author: omulvad
+author: perlynne
 manager: tfehr
-ms.date: 02/07/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,34 +13,38 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: perlynne
 ms.search.validFrom: 2020-01-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530301"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652175"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Paindliku laotaseme dimensiooni reserveerimise poliitika
 
 [!include [banner](../includes/banner.md)]
 
-Kui varude reserveerimise hierarhia tüüp „partii-alla\[asukoha\]” on seotud toodetega, siis ei saa ettevõtted, mis müüvad partiijälgimisega tooteid ja käitavad nende logistikat, mis on lubatud Microsoft Dynamics 365 laohaldusesüsteemi (WMS) jaoks, reserveerida nende toodete kindlaid partiisid kliendi müügitellimustele. See teema kirjeldab varude reserveerimise poliitikat, mis võimaldab nendel ettevõtetel kindlaid partiisid reserveerida isegi siis, kui tooted on seotud reserveerimise hierarhia üksusega „partii-alla\[asukoht\]”.
+Kui varude reserveerimise hierarhia tüüp „partii-alla\[asukoha\]” on seotud toodetega, siis ei saa ettevõtted, mis müüvad partiijälgimisega tooteid ja käitavad nende logistikat, mis on lubatud Microsoft Dynamics 365 laohaldusesüsteemi (WMS) jaoks, reserveerida nende toodete kindlaid partiisid kliendi müügitellimustele.
+
+Sarnaselt ei saa kindlaid litsentsiplaate reserveerida müügitellimustes olevate toodete jaoks, kui need tooted on seotud reserveerimise vaikehierarhiaga.
+
+Selles teemas kirjeldatakse varude reserveerimise poliitikat, mis võimaldab nendel ettevõtetel kindlaid partiisid või litsentsiplaate reserveerida isegi siis, kui tooted on seotud reserveerimise hierarhia üksusega „partii-alla\[asukoht\]”.
 
 ## <a name="inventory-reservation-hierarchy"></a>Varude reserveerimise hierarhia
 
-See jaotis võtab kokku olemasoleva varude reserveerimise hierarhia. See keskendub viisile, kuidas käsitsetakse partii- ja seeriajälgimisega üksusi.
+See jaotis võtab kokku olemasoleva varude reserveerimise hierarhia.
 
-Varude reserveerimise hierarhia näitab, et laoala dimensioonidega seotud ulatuses on tellimuse nõudlus seotud asukoha kohustuslike dimensioonide, lao ja varude olekuga, samas kui lao loogika vastutab nõutud koguste jaoks asukoha määramise ja selle reserveerimise eest. Teisisõnu, nõudluse ja laotoimingute vahelises suhtluses eeldatakse, et nõudluse järjekord määrab selle, kuhu tellimus tuleb saata (st millisesse asukohta ja lattu). Seejärel toetub ladu laoruumidest nõutava koguse leidmisel oma loogikale.
+Varude reserveerimise hierarhia näitab, et laoala dimensioonidega seotud ulatuses on nõudetellimus seotud asukoha kohustuslike dimensioonide, lao ja varude olekuga, samas kui lao loogika vastutab nõutud koguste jaoks asukoha määramise ja selle reserveerimise eest. Teisisõnu, nõudetellimuse ja laotoimingute vahelises suhtluses eeldatakse, et nõudetellimus määrab selle, kust tellimus tuleb saata (st millisest asukohast ja laost). Seejärel toetub ladu laoruumidest nõutava koguse leidmisel oma loogikale.
 
 Kuid selleks, et kajastada äritegevuse mudelit, on jälgimisdimensioonid (partii- ja seerianumbrid) siiski paindlikumad. Varude reserveerimise hierarhia võib hõlmata stsenaariume, mille puhul kehtivad järgmised tingimused.
 
 - Ettevõte tugineb oma laotoimingutele, et hallata partii- või seerianumbritega koguste komplekteerimist pärast seda, kui ladustamisruumis on kogused leitud. Sellele mudelile viidatakse sageli kui *partii-alla\[asukoht\]*. Seda kasutatakse tavaliselt siis, kui toote partii- või seerianumbri ID ei ole klientidele oluline, kuna nad suunavad nõudluse müügiettevõttele.
-- Kui partii- või seerianumbrid on osa kliendi tellimuse täpsustusest ja need kirjendatakse nõudlustellimusele, on laos olevaid koguseid leidnud toimingud piiratud konkreetsete nõutud numbritega ja neid ei tohi muuta. Sellele mudelile viidatakse sageli kui *partii-üles\[asukoht\]*.
+- Kui partii- või seerianumbrid on osa kliendi tellimuse täpsustusest ja need kirjendatakse nõudetellimusel, on laos olevaid koguseid leidnud toimingud piiratud konkreetsete nõutud numbritega ja neid ei tohi muuta. Sellele mudelile viidatakse sageli kui *partii-üles\[asukoht\]*.
 
-Nende stsenaariumide puhul on probleemiks, et igale väljastatud tootele saab määrata ainult ühe varude reserveerimise hierarhia. Seetõttu ei saa WMS pärast seda, kui hierarhia määramine on määratlenud, millal partii või seerianumber tuleb reserveerida (kas siis, kui nõude tellimus on tehtud, või lao komplekteerimise ajal), jälgitud üksuste käsitsemisel ajastust ad-hoc-alusel muuta.
+Nende stsenaariumide puhul on probleemiks, et igale väljastatud tootele saab määrata ainult ühe varude reserveerimise hierarhia. Seetõttu ei saa WMS pärast seda, kui hierarhia määramine on määratlenud, millal partii või seerianumber tuleb reserveerida (kas siis, kui nõudetellimus on tehtud, või lao komplekteerimise ajal), jälgitud üksuste käsitsemisel ajastust ad-hoc-alusel muuta.
 
 ## <a name="flexible-reservation-for-batch-tracked-items"></a>Partiijälgimisega kaupade paindlik reserveerimine
 
@@ -55,25 +59,25 @@ Kuigi „partii-alla\[asukoht\]” reserveerimise hierarhia teenib ettevõtte ä
 
 ### <a name="allowing-reservation-of-a-specific-batch-on-the-sales-order"></a>Müügitellimuse kindla partii reserveerimise lubamine
 
-Selleks, et mahutada soovitud paindlikkus partii reserveerimise käitumises kaupadele, mis on seotud „partii-alla\[asukoht\]” varude reserveerimise hierarhiaga, peavad varude haldurid lehel **Varude reserveerimise hierarhiad** valima märkeruudu **Luba reserveerimine nõudmisel tellimusele** valiku **Partiinumber** tasemel.
+Selleks, et mahutada soovitud paindlikkus partii reserveerimise käitumises kaupadele, mis on seotud „partii-alla\[asukoht\]” varude reserveerimise hierarhiaga, peavad varude haldurid lehel **Varude reserveerimise hierarhiad** valima märkeruudu **Luba reserveerimine nõudetellimusel** valiku **Partiinumber** tasemel.
 
 ![Varude reserveerimise hierarhia paindlikuks muutmine](media/Flexible-inventory-reservation-hierarchy.png)
 
 Kui hierarhias valitakse tase **Partiinumber**, valitakse automaatselt kõik seda taset ületavad dimensioonid kuni **Asukoha** tasemeni. (Vaikimisi valitakse tasemest **Asukoht** üle olevad dimensioonid.) Selline käitumine peegeldab loogikat, kus kõik dimensioonid partiinumbri ja asukoha vahel on samuti automaatselt reserveeritud pärast seda, kui reserveerite tellimuse reale kindla partiinumbri.
 
 > [!NOTE]
-> Märkeruut **Luba reserveerimine nõudmisel tellimusele** kehtib ainult reserveerimise hierarhia tasemete puhul, mis jäävad lao asukoha dimensioonist allapoole.
+> Märkeruut **Luba reserveerimine nõudetellimusel** kehtib ainult reserveerimise hierarhia tasemete puhul, mis jäävad lao asukoha dimensioonist allapoole.
 >
-> **Partiinumber** on paindliku reserveerimise poliitika jaoks avatud hierarhia ainus tase. Teisisõnu ei saa te märkida ruutu **Luba reserveerimine nõudmisel tellimusele** taseme **Asukoht**, **Litsentsiplaat** või **Seerianumber** jaoks.
+> **Partiinumber** ja **Litsentsiplaat** on hierarhias ainsad tasemed, mida saab kasutada paindliku reserveerimise poliitikas. Teisisõnu ei saa te valida märkeruutu **Luba reserveerimine nõudetellimusel** taseme **Asukoht** või **Seerianumber** jaoks.
 >
 > Kui teie reserveerimise hierarhia sisaldab seerianumbri dimensiooni (mis peab alati olema väiksem kui tase **Partiinumber**) ja kui olete pakktöötluse numbrile sisse lülitanud partii-spetsiifilise reserveerimise, jätkab süsteem seerianumbri reserveerimise ja komplekteerimise toiminguid, mis põhinevad reeglitel, mis kehtivad reserveerimise poliitika „Seeria-alla\[asukoht\]” puhul.
 
-Igal ajahetkel saate lubada partii-spetsiifilist reserveerimist olemasolevale „partii-alla\[asukoht\]” reserveerimise hierarhiale teie juurutuses. See muudatus ei mõjuta reserveeringuid ja avatud lao tööd, mis loodi enne muudatuse toimumist. Kuid märkeruutu **Luba reserveerimine nõudmisel tellimusele** ei saa tühjendada, kui **Reserveeritud tellitud**, **Reserveeritud füüsilise** või **Tellitud** probleemi tüübi laokanded on olemas ühe või mitme selle reserveerimise hierarhiaga seotud kauba puhul.
+Igal ajahetkel saate lubada partii-spetsiifilist reserveerimist olemasolevale „partii-alla\[asukoht\]” reserveerimise hierarhiale teie juurutuses. See muudatus ei mõjuta reserveeringuid ja avatud lao tööd, mis loodi enne muudatuse toimumist. Kuid märkeruutu **Luba reserveerimine nõudetellimusel** ei saa tühjendada, kui **Reserveeritud tellitud**, **Reserveeritud füüsilise** või **Tellitud** probleemi tüübi laokanded on olemas ühe või mitme selle reserveerimise hierarhiaga seotud kauba puhul.
 
 > [!NOTE]
 > Kui kauba olemasoleva reserveerimise hierarhia ei luba tellimuse partii täpsustust, saate selle uuesti määrata reserveerimise hierarhiasse, mis lubab partii spetsifikatsioone, tingimusel et hierarhia taseme struktuur on mõlemas hierarhias sama. Kasutage funktsiooni **Muuda reserveerimise hierarhiat kaupadele** ümbermääramiseks. See muudatus võib olla oluline, kui soovite vältida partiis jälitatud kaupade alamhulga paindlikku partii reserveerimist, kuid lubada seda ülejäänud tooteportfellile.
 
-Olenemata sellest, kas olete märkinud ruudu **Luba reserveerimine nõudmisel tellimusele**, kui te ei soovi kindlat partiinumbrit kaubale tellimuse rea jaoks reserveerida, rakendatakse laotoimingute vaikeloogikat, mis kehtib „partii-alla\[asukoht\]” reserveerimise hierarhia puhul.
+Olenemata sellest, kas olete märkinud ruudu **Luba reserveerimine nõudetellimusel**, kui te ei soovi kindlat partiinumbrit kaubale tellimuse rea jaoks reserveerida, rakendatakse laotoimingute vaikeloogikat, mis kehtib „partii-alla\[asukoht\]” reserveerimise hierarhia puhul.
 
 ### <a name="reserve-a-specific-batch-number-for-a-customer-order"></a>Kindla partiinumbri reserveerimine kliendi tellimuse jaoks
 
@@ -90,11 +94,11 @@ Järgmised reeglid kehtivad koguste töötlemisel ja partiinumber on seotud kind
 
 Järgmises näites kuvatakse täielik töövoog.
 
-## <a name="example-scenario"></a>Näidisstsenaarium
+## <a name="example-scenario-batch-number-allocation"></a>Näidisstsenaarium: partiinumbri määramine
 
 Selle näite jaoks peavad olema installitud demoandmed ja peate kasutama demoandmete ettevõtet **USMF**.
 
-### <a name="set-up-an-inventory-reservation-hierarchy-to-allow-batch-specific-reservation"></a>Varude reserveerimise hierarhia seadistamine partiile konkreetse reserveerimise lubamiseks
+### <a name="set-up-an-inventory-reservation-hierarchy-to-allow-batch-specific-reservation"></a><a name="Example-batch-allocation"></a>Varude reserveerimise hierarhia seadistamine partiile konkreetse reserveerimise lubamiseks
 
 1. Avage **Laohaldus** \> **Seadistus** \> **Varud \> Reserveerimine hierarhiasse**.
 2. Valige suvand **Uus**.
@@ -102,7 +106,7 @@ Selle näite jaoks peavad olema installitud demoandmed ja peate kasutama demoand
 4. Väljale **Kirjeldus** sisestage kirjeldus (nt **Partii alla paindlikkuse**).
 5. Väljal **Valitud** valige **Seerianumber** ja **Omanik** ning seejärel klõpsake vasakut nooleklahvi, et teisaldada need väljale **Saadaolev**.
 6. Valige nupp **OK**.
-7. Märkige dimensioonitaseme real **Partiinumbri** ruut **Luba reserveerimine nõudmisel tellimusele**. Tasemed **Litsentsiplaat** ja **Asukoht** valitakse automaatselt ja nende märkeruute ei saa tühjendada.
+7. Märkige dimensioonitaseme real **Partiinumbri** ruut **Luba reserveerimine nõudetellimusel**. Tasemed **Litsentsiplaat** ja **Asukoht** valitakse automaatselt ja nende märkeruute ei saa tühjendada.
 8. Valige käsk **Salvesta**.
 
 ### <a name="create-a-new-released-product"></a>Uue väljastatud toote loomine
@@ -122,7 +126,7 @@ Selle näite jaoks peavad olema installitud demoandmed ja peate kasutama demoand
     | 24        | B11          | FL-001   | LP11          | 10       |
     | 24        | B22          | FL-002   | LP22          | 10       |
 
-### <a name="enter-sales-order-details"></a>Müügitellimuse üksikasjade sisestamine
+### <a name="enter-sales-order-details"></a><a name="sales-order-details"></a>Müügitellimuse üksikasjade sisestamine
 
 1. Avage **Müük ja turundus** \> **Müügitellimused** \> **Kõik müügitellimused**.
 2. Valige suvand **Uus**.
@@ -186,6 +190,176 @@ Selle näite jaoks peavad olema installitud demoandmed ja peate kasutama demoand
 
     Kogus **10** on nüüd partiinumbri **B11** jaoks müügireale komplekteeritud ja asukohta **Baydoor** pandud. Sel hetkel on see veokile laadimiseks ja kliendi aadressile lähetamiseks valmis.
 
+## <a name="flexible-license-plate-reservation"></a>Paindlik litsentsiplaadi reserveerimine
+
+### <a name="business-scenario"></a>Äristsenaarium
+
+Selles stsenaariumis kasutab ettevõte laohaldust ja töö töötlemist ning planeerib koormaid üksikute kaubaaluste/konteinerite alusel väljaspool Supply Chain Managementi enne töö loomist. Neid konteinereid esindavad varude dimensioonides litsentsiplaadid. Selleks toiminguks tuleb seetõttu konkreetsed litsentsiplaadid enne komplekteerimistöö lõpetamist määrata müügitellimuse ridadele. Ettevõte soovib, et litsentsiplaadi reserveerimise reeglite käsitsemine oleks paindlik, et juhtuksid järgmised asjad.
+
+- Litsentsiplaati saab kirjendada ja reserveerida, kui volitatud töötleja võtab tellimuse vastu, ning muud nõuded ei saa seda endale võtta. Selline käitumine aitab tagada, et planeeritud litsentsiplaat saadetakse kliendile.
+- Kui litsentsiplaat ei ole juba müügitellimuse reale määratud, saab laotöötaja valida litsentsiplaadi komplekteerimise ajal, pärast müügitellimuse registreerimist ja reserveerimist.
+
+### <a name="turn-on-flexible-license-plate-reservation"></a>Paindliku litsentsiplaadi reserveerimise sisselülitamine
+
+Enne paindliku litsentsiplaadi reserveerimise kasutamist peate oma süsteemis sisse lülitama kaks funktsiooni. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsioonide olekut ja need vajadusel sisse lülitada. Peate funktsioonid sisse lülitama järgmises järjekorras.
+
+1. **Funktsiooni nimi:** *Paindlik dimensiooni reserveerimine laotasemel*
+1. **Funktsiooni nimi:** *Paindlik tellimusega seotud litsentsiplaadi reserveerimine*
+
+### <a name="reserve-a-specific-license-plate-on-the-sales-order"></a>Kindla litsentsiplaadi reserveerimine müügitellimusel
+
+Selleks, et lubada litsentsiplaadi reserveerimine tellimusel, peate valima lehel **Varude reserveerimise hierarhiad** märkeruudu **Luba reserveerimine nõudetellimusel** tasemel **Litsentsiplaat** hierarhia jaoks, mis on seotud asjaomase kaubaga.
+
+![Varude reserveerimise hierarhialeht paindliku litsentsiplaadi reserveerimise hierarhia jaoks](media/Flexible-LP-reservation-hierarchy.png)
+
+Saate lubada litsentsiplaadi reserveerimise tellimusel juurutuse käigus igal ajal. See muudatus ei mõjuta reserveeringuid ega avatud laotöid, mis loodi enne muudatuse toimumist. Kuid te ei saa märkeruutu **Luba reserveerimine nõudetellimusel** tühjendada, kui reserveerimise hierarhiaga seotud ühel või mitmel kaubal on avatud väljaminevate varude kandeid, mille väljamineku olek on *Tellimusel*, *Reserveeritud tellitud* või *Füüsiliselt reserveeritud*.
+
+Isegi kui märkeruut **Luba reserveerimine nõudetellimusel** on tasemel **Litsentsiplaat** valitud, *ei ole* siiski võimalik kindlat litsentsiplaati tellimusel reserveerida. Sel juhul rakendub laotoimingute vaikeloogika, mis kehtib selle reserveerimise hierarhia puhul.
+
+Konkreetse litsentsiplaadi reserveerimiseks peate kasutama [avatud andmeprotokolli (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md) protsessi. Rakenduses saate teha reserveeringu otse müügitellimusel, kasutades käsu **Ava Excelis** valikut **Tellimusega seotud reserveeringud litsentsiplaadi kohta**. Te peate sisestama Exceli lisandmoodulis avanenud üksuse andmetes järgmised reserveeringuga seotud andmed ja valima seejärel **Avalda**, et saata andmed tagasi Supply Chain Managementi.
+
+- Viide (toetatud on ainult väärtus *Müügitellimus*.)
+- Tellimuse number (väärtust saab tuletada partiist.)
+- Saatepartii ID
+- Litsentsiplaat
+- Kogus
+
+Kui teil on vaja reserveerida kindlat litsentsiplaati partiijälgimisega kauba jaoks, kasutage lehte **Partii reserveerimine**, nagu on kirjeldatud jaotises [Müügitellimuse üksikasjade sisestamine](#sales-order-details).
+
+Kui laotoimingud töötlevad müügitellimuse rida, mis kasutab tellimusega seotud litsentsiplaadi reserveerimist, ei kasutata asukohakorraldusi.
+
+Kui laotöö kaup koosneb ridadest, mis moodustavad täieliku kaubaaluse ja millel on litsentsiplaadiga seotud kogused, saate optimeerida komplekteerimisprotsessi, kasutades mobiilse seadme menüükäsku, mille puhul on suvandi **Käitle litsentsiplaadi põhjal** väärtuseks seatud *Jah*. Selle asemel, et skannida töö kaupasid ühekaupa, saab laotöötaja seejärel komplekteerimise lõpule viimiseks litsentsiplaadi skannida.
+
+![Mobiilse seadme menüükäsk, mille puhul on suvandi „Käitle litsentsiplaadi põhjal” väärtuseks seatud „Jah”](media/Handle-by-LP-menu-item.png)
+
+Kuna funktsioon **Käitle litsentsiplaadi põhjal** ei toeta mitut kaubaalust hõlmavaid töid, siis on parem, kui eri litsentsiplaatide jaoks on eraldi tööüksus. Selle meetodi kasutamiseks lisage väli **Tellimusega seotud litsentsiplaadi ID** tööpäise piirina lehel **Töömall**.
+
+## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Näidisstsenaarium: tellimusega seotud litsentsiplaadi reserveerimise seadistamine ja töötlemine
+
+Selles stsenaariumis näidatakse, kuidas seadistada ja töödelda tellimusega seotud litsentsiplaadi reserveerimist.
+
+### <a name="make-demo-data-available"></a>Demoandmete kättesaadavaks tegemine
+
+Selles stsenaariumis viidatakse väärtustele ja kirjetele, mis kuuluvad Supply Chain Managementis esitatud standardsete demoandmete hulka. Kui soovite stsenaariumi läbida siin toodud väärtuseid kasutades, peate kasutama keskkonda, kuhu demoandmed on installitud. Lisaks seadke enne alustamist juriidilise isiku väärtuseks **USMF**.
+
+### <a name="create-an-inventory-reservation-hierarchy-that-allows-for-license-plate-reservation"></a>Varude reserveerimise hierarhia loomine, mis lubab litsentsiplaate reserveerida
+
+1. Avage **Laohaldus \> Seadistus \> Varud \> Reserveerimise hierarhia**.
+1. Valige suvand **Uus**.
+1. Sisestage väljale **Nimi** väärtus (nt *FlexibleLP*).
+1. Sisestage väljale **Kirjeldus** väärtus (nt *Paindlik LP reserveerimine*).
+1. Valige loendis **Valitud** suvandid **Partiinumber**, **Seerianumber** ja **Omanik**.
+1. Valige nupp **Eemalda** ![vasakule osutav nool](media/backward-button.png), et teisaldada valitud kirjed loendisse **Saadaval**.
+1. Valige nupp **OK**.
+1. Märkige dimensioonitaseme **Litsentsiplaat** real märkeruut **Luba reserveerimine nõudetellimusel**. Tase **Asukoht** valitakse automaatselt ja selle märkeruutu ei saa tühjendada.
+1. Valige käsk **Salvesta**.
+
+### <a name="create-two-released-products"></a>Kahe väljastatud toote loomine
+
+1. Avage **Tooteteabe haldus \> Tooted \> Väljastatud tooted**.
+1. Valige toimingupaanil nupp **Uus**.
+1. Seadke dialoogiboksis **Uus väljastatud toode** järgmised väärtused.
+
+    - **Tootenumber:** *Item1*
+    - **Kaubakood:** *Item1*
+    - **Kauba mudeligrupp:** *FIFO*
+    - **Kaubagrupp:** *Audio*
+    - **Laoala dimensiooni grupp:** *Ladu*
+    - **Jälgimisdimensioonigrupp:** *Puudub*
+    - **Reserveerimise hierarhia:** *FlexibleLP*
+
+1. Valige toote loomiseks ja dialoogiboksi sulgemiseks **OK**.
+1. Uus toode avatakse. Seadke kiirkaardil **Ladu** välja **Ühiku seeriagrupi ID** väärtuseks *ea*.
+1. Korrake eelmisi samme, et luua teine toode, millel on samad sätted, kuid seadke väljade **Tootenumber** ja **Kaubakood** väärtuseks *Item2*.
+1. Valige toimingupaani vahekaardi **Varude haldamine** grupis **Kuva** suvand **Vaba kaubavaru**. Seejärel valige **Koguse korrigeerimine**.
+1. Korrigeerige uute kaupade vaba kaubavaru järgmises tabelis täpsustatud viisil.
+
+    | Üksus  | Ladu | Koht | Litsentsiplaat | Kogus |
+    |-------|-----------|----------|---------------|----------|
+    | Item1 | 24        | FL-010   | LP01          | 10       |
+    | Item1 | 24        | FL-011   | LP02          | 10       |
+    | Item2 | 24        | FL-010   | LP01          | 5        |
+    | Item2 | 24        | FL-011   | LP02          | 5        |
+
+    > [!NOTE]
+    > Peate looma need kaks litsentsiplaati ja kasutama asukohti, mis lubavad segakaupu, nt *FL-010* ja *FL-011*.
+
+### <a name="create-a-sales-order-and-reserve-a-specific-license-plate"></a>Müügitellimuse loomine ja kindla litsentsiplaadi reserveerimine
+
+1. Avage **Müük ja turundus \> Müügitellimused \> Kõik müügitellimused**.
+1. Valige suvand **Uus**.
+1. Dialoogiboksis **Müügitellimuse loomine** määrake järgmised väärtused.
+
+    - **Kliendi konto:** *US-001*
+    - **Ladu:** *24*
+
+1. Valige **OK**, et sulgeda dialoogiboks **Müügitellimuse loomine** ja avada uus müügitellimus.
+1. Lisage kiirkaardil **Müügitellimuse read** järgmiste sätetega rida.
+
+    - **Kaubakood:** *Item1*
+    - **Kogus:** *10*
+
+1. Lisage teine järgmiste sätetega müügitellimuse rida.
+
+    - **Kaubakood:** *Item2*
+    - **Kogus:** *5*
+
+1. Valige käsk **Salvesta**.
+1. Avage kiirkaardil **Rea üksikasjad** vahekaart **Seadistus** ja märkige üles iga rea **Partii ID** väärtus. Neid väärtuseid on vaja kindlate litsentsiplaatide reserveerimisel.
+
+    > [!NOTE]
+    > Kindla litsentsiplaadi reserveerimiseks peate kasutama andmeüksust **Tellimusega seotud reserveeringud litsentsiplaadi kohta**. Kindlas litsentsiplaadis partiijälgimisega kauba reserveerimiseks saate kasutada ka lehte **Partii reserveerimine**, nagu on kirjeldatud jaotises [Müügitellimuse üksikasjade sisestamine](#sales-order-details).
+    >
+    > Kui sisestate litsentsiplaadi otse müügitellimuse real ja kinnitate selle süsteemi, ei kasutata selle rea puhul laohalduse töötlemist.
+
+1. Valige **Ava Microsoft Office'is**, valige **Tellimusega seotud reserveeringud litsentsiplaadi kohta** ja laadige fail alla.
+1. Avage allalaaditud fail Excelis ja valige **Luba redigeerimine**, et lubada Exceli lisandmooduli käivitamine.
+1. Kui käivitate Exceli lisandmooduli esimest korda, valige käsk **Usalda seda lisandmoodulit**.
+1. Kui teil palutakse sisse logida, valige **Logi sisse** ja seejärel logige sisse, kasutades sama identimisteavet, mida kasutasite rakendusse Supply Chain Management sisselogimisel.
+1. Kauba reserveerimiseks kindlas litsentsiplaadis valige Exceli lisandmoodulis **Uus**, et lisada reserveerimisrida ja seejärel seadke järgmised väärtused.
+
+    - **Partii ID:** sisestage **Partii ID** väärtus, mille leidsite kauba *Item1* müügitellimuse realt.
+    - **Litsentsiplaat:** *LP02*
+    - **ReservedInventoryQuantity:** *10*
+
+1. Valige **Uus**, et lisada uus reserveerimisrida ja määrake järgmised väärtused.
+
+    - **Partii ID:** sisestage **Partii ID** väärtus, mille leidsite kauba *Item2* müügitellimuse realt.
+    - **Litsentsiplaat:** *LP02*
+    - **ReservedInventoryQuantity:** *5*
+
+1. Valige Exceli lisandmoodulis **Avalda**, et saata andmed tagasi Supply Chain Managementi.
+
+    > [!NOTE]
+    > Reserveerimisrida kuvatakse süsteemis ainult juhul, kui avaldamine on tõrgeteta lõpetatud.
+
+1. Minge tagasi Supply Chain Managementi. 
+1. Kauba reserveeringu läbivaatamiseks valige kiirkaardil **Müügitellimuse read** menüüst **Varud** suvand **Halda \> Reserveering**. Pange tähele, et kauba *Item1* müügitellimuse rea puhul on reserveeritud kogus *10* ja kauba *Item2* müügitellimuse rea puhul on kogus *5*.
+1. Müügitellimuse rea reserveeringuga seotud laokannete ülevaatamiseks valige kiirkaardil **Müügitellimuse read** menüüst **Varud** suvand **Kuva \> Kanded**. Pange tähele, et reserveeringuga on seotud kaks kannet: üks, mille välja **Viide** väärtuseks on seatud *Müügitellimus*, ja üks, mille välja **Viide** väärtuseks on seatud *Tellimusega seotud reserveering*.
+
+    > [!NOTE]
+    > Kanne, mille välja **Viide** väärtuseks on seatud *Müügitellimus*, näitab tellimuse rea reserveeringut varude dimensioonide jaoks, mis on üle taseme **Asukoht** (sait, ladu ja varude olek). Kanne, mille välja **Viide** väärtuseks on seatud *Tellimusega seotud reserveering*, näitab konkreetse litsentsiplaadi ja asukoha tellimuse rea reserveeringut.
+
+1. Müügitellimuse vabastamiseks valige toimingupaanil vahekaardi **Ladu** grupist **Tegevused** suvand **Vabasta lattu**.
+
+### <a name="review-and-process-warehouse-work-with-order-committed-license-plates-assigned"></a>Määratud tellimusega seotud litsentsiplaatidega laotöö ülevaatamine ja töötlemine
+
+1. Valige kiirkaardil **Müügitellimuse read** menüüst **Ladu** suvand **Töö üksikasjad**.
+
+    Litsentsiplaadi reserveerimist kasutava müügitellimuse jaoks tööd luues ei kasuta süsteem asukohakorraldusi, nagu ka siis, kui reserveerimine toimub kindla partii raames. Kuna tellimusega seotud reserveeringus on täpsustatud kõik varude dimensioonid, sealhulgas asukoht, ei pea kasutama asukohakorraldusi, kuna need varude dimensioonid sisestatakse lihtsalt töösse. Need kuvatakse jaotises **Varude dimensioonidest** lehel **Töö laokanded**.
+
+    > [!NOTE]
+    > Pärast töö loomist eemaldatakse kauba laokanne, mille välja **Viide** väärtus on *Tellimusega seotud reserveering*. Laokannete puhul, mille välja **Viide** väärtuseks on seatud *Töö*, on nüüd füüsiline reserveering määratud koguse kõigi varude dimensioonide jaoks.
+
+1. Lõpetage mobiilses seadmes komplekteerimine ja töö sisestamine menüükäsu abil, mille märkeruut **Käitle litsentsiplaadi põhjal** on valitud.
+
+    > [!NOTE]
+    > Funktsioon **Käitle litsentsiplaadi põhjal** aitab teil töödelda kogu litsentsiplaati. Kui peate töötlema vaid osa litsentsiplaadist, ei saa te seda funktsiooni kasutada.
+    >
+    > Soovitame iga litsentsiplaadi jaoks luua eraldi töö. Selle tulemuse saavutamiseks kasutage funktsiooni **Tööpäise piirid**, mis asub lehel **Töömall**.
+
+    Litsentsiplaat *LP02* on nüüd müügitellimuse ridadele komplekteeritud ja pandud asukohta *Laadimisuks*. Nüüd on see laadimiseks ja kliendile lähetamiseks valmis.
+
 ## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>Tellitud ja kooskõlastatud partiinumbritega laotööde ülevaatamise ja töötlemise erandid
 
 Laotöö komplekteerimiseks tellitud partii numbrite suhtes kehtivad samad standardse lao erandi käsitlemise protsessid ja toimingud, mis tavatöö puhul. Üldiselt saab avatud töö või töörea tühistada ja katkestada, kui kasutaja asukoht on täis, see võib olla lühike-komplekteeritud ja seda saab liikumise tõttu uuendada. Samuti saab vähendada juba lõpetatud töö komplekteeritud kogust või seda tööd muuta.
@@ -194,7 +368,7 @@ Järgmist põhireeglit rakendatakse kõigile nende erandite käsitlemise toiming
 
 ### <a name="example-scenario"></a>Näidisstsenaarium
 
-Selle stsenaariumi näide on olukord, kus varem lõpetatud töö on funktsiooni **Vähenda komplekteeritud kogust** kasutamisel komplekteerimata. See näide jätkab selle teema eelmist näidet.
+Selle stsenaariumi näide on olukord, kus varem lõpetatud töö on funktsiooni **Vähenda komplekteeritud kogust** kasutamisel komplekteerimata. Selles näites eeldatakse, et olete juba lõpetanud sammud, mida kirjeldatakse jaotises [Näidisstsenaarium: partiinumbri määramine](#Example-batch-allocation). Tegevus jätkub pärast toda näidet.
 
 1. Avage **Laohaldus** \> **Koormad** \> **Aktiivsed koormad**.
 2. Valige koorem, mis loodi seoses teie müügitellimuse saadetisega.

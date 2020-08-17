@@ -3,7 +3,7 @@ title: Tooteotsing ja kliendiotsing kassas
 description: Selles teemas antakse ülevaade toote ja kliendi otsingufunktsiooni täiustustest rakenduses Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 2b4c17b41056a35c2d2caaedb4f52998179b3c3e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022206"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628905"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Tooteotsing ja kliendiotsing kassas
 
@@ -95,6 +95,9 @@ Kliendi kaugotsingus ei kuvata kliendi ID-d teistest juriidilistest isikutest p�
 
 Telefoninumbritel põhinevaid otsinguid on lihtsustatud. Need otsingud eiravad nüüd erimärke, nagu tühikud, sidekriipsud ja sulud, mis võidi lisada kliendi loomise ajal. Seetõttu ei pea kassapidajad enam otsides muretsema telefoninumbri vormingu pärast. Nad saavad kliente otsida ka osalise telefoninumbri järgi. Kui telefoninumber sisaldab erimärke, saab selle leidmiseks otsida ka numbreid, mis ilmuvad pärast erimärke. Näiteks kui kliendi telefoninumber sisestati kujul **123-456-7890**, saab kassapidaja klienti otsida, tippides **123**, **456**, **7890** või **1234567890** või sisestades telefoninumbrist paar esimest numbrit.
 
+> [!NOTE]
+> Kliendil võib olla mitu telefoninumbrit ja meiliaadressi. Kliendiotsingu algoritm otsib ka teiseste meiliaadressite ja telefoninumbrite seast, kuid kliendiotsingutulemuste lehel kuvatakse ainult esmane meiliaadress ja telefoninumber. See võib põhjustada segadust, kuna tagastatud kliendiotsingutulemustes ei kuvata otsitud meiliaadressi või telefoninumbrit. Tulevases väljalaskes plaanime selle teabe kuvamiseks parandada kliendiotsingutulemuste vaadet.
+
 Tavaline kliendiotsing võib olla aeganõudev, sest selle käigus otsitakse mitmest väljast. Selle asemel saavad kassapidajad nüüd otsida ühest kliendi atribuudist, nagu nimi, meiliaadress või telefoninumber. Kliendiotsingu algoritmi kasutatavaid atribuute tuntakse ühiselt nimega *kliendi otsingukriteeriumid*. Süsteemiadministraator saab hõlpsalt konfigureerida ühe või mitu kriteeriumi kiirklahvidena, mis kuvatakse kassas. Kuna otsing on piiratud ühe kriteeriumiga, kuvatakse ainult asjakohased otsingutulemid ja jõudlus on palju parem kui tavapärase kliendiotsingu korral. Järgmisel illustratsioonil on näidatud kliendiotsingu kiirklahve kassas.
 
 ![Kliendiotsingu kiirklahvid](./media/SearchShortcutsPOS.png "Kliendiotsingu kiirklahvid")
@@ -114,3 +117,4 @@ Väli **Kuvamisjärjestus** määratleb, millises järjekorras kiirklahve kassas
 Commerce’i tulevases väljalaskes saavad jaemüüjad määrata kassas kliendiotsingu režiimi vaiketüübiks **Otsing kõigist kauplustest**. See konfiguratsioon võib olla kasulik olukordades, kus väljaspool kassat loodud kliente tuleb otsida kohe (nt enne levitamise töö käitamist). Uus suvand **Kliendiotsingu režiimi vaiketüüp** on saadaval kassa funktsiooniprofiilil. Määrake see olekusse **Sees**, et seada vaikimisi otsingurežiim suvandile **Otsing kõigist kauplustest**. Iga kliendi otsingu katse saadab seejärel peakontorisse reaalajas taotluse.
 
 Ootamatute jõudlusprobleemide vältimiseks on see konfiguratsioon peidetud eelväljaande lipu taha, mille nimi on **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Seega kasutajaliidese seadistuse **Kliendiotsingu režiimi vaiketüüp** kuvamiseks peaks jaemüüja looma kasutaja vastuvõtu testimise (UAT) ja tootmiskeskkonnas tugiteenusepileti. Pärast pileti kättesaamist teeb inseneride töörühm jaemüüjaga koostööd, et kindlustada, et jaemüüja testiks oma mitte-tootmiskeskkondades, et hinnata jõudlust ja rakendada vajalikud optimeerimised.
+

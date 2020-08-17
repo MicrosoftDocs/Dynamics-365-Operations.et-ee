@@ -3,7 +3,7 @@ title: Omnikanali maksete ülevaade
 description: Selles teemas antakse ülevaade omnikanali maksetest rakenduses Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2251e523f7dfa3a06f0c45a4e156dbe097587f9a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022322"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613173"
 ---
 # <a name="omni-channel-payments-overview"></a>Omnikanali maksete ülevaade
 
@@ -68,11 +68,13 @@ Vajalikud on järgmised komponendid ja seadistustoimingud.
 
 - **eCommerce’i integratsioon:** stsenaariumide toetamiseks, kus tellimus pärineb veebipoe fassaadist, on vajalik integratsioon Commerce’iga. Lisateavet Retaili e-kaubanduse SDK kohta vaadake teemast [E-kaubanduse platvormi tarkavaraarenduse komplekt (SDK)](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Demokeskkonnas toetab viite fassaad omnikanali makse stsenaariume. 
 - **Veebimaksete konfiguratsioon:** veebikanali seadistus peab hõlmama maksekonnektorit, mis on uuendatud toetama omnikanali makseid. Võib ka kasutada valmis maksekonnektorit. Lisateavet Adyeni maksekonnektori konfigureerimise kohta veebipoodide jaoks vaadake teemast [Adyeni maksekonnektor](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Peale selles kirjeldatud e-kaubanduse seadistustoimingute peab parameeter **Luba makseteabe salvestamine e-kaubanduses** olema Adyeni konnektori sätetes olema seatud väärtusele **Tõene**. 
-- **Omnikanali maksete konfiguratsioon:** tehke kontoris valikud **Jaemüük ja kaubandus \> Peakontori seadistamine \> Parameetrid \> Commerce’i ühiskasutuses parameetrid**. Seejärel seadistage vahekaardil **Omnikanali maksed** suvand **Kasuta omnikanali makseid** valikule **Jah**.
+- **Omnikanali maksete konfiguratsioon:** tehke kontoris valikud **Jaemüük ja kaubandus \> Peakontori seadistamine \> Parameetrid \> Commerce’i ühiskasutuses parameetrid**. Seejärel seadistage vahekaardil **Omnikanali maksed** suvand **Kasuta omnikanali makseid** valikule **Jah**. Commerce'i versioonis 10.0.12 ja hilisemates on see säte tööruumis **Funktsioonihaldus**. Valige funktsioon **Omnikanali maksed** ja klõpsake **Luba kohe**. 
 - **Makseteenused:** kõnekeskus kasutab vaikimisi maksekonnektorit lehel **Makseteenused** maksete töötlemiseks. Niisuguste stsenaariumide nagu Kõnekeskusesse tellimine ja kättesaamine kauplusest toetamiseks peab see vaikimisi maksekonnektor olema Adyeni maksekonnektor või maksekonnektor, mis vastab omnikanali maksete juurutamise nõuetele.
 - **EFT-teenus:** maksed läbi makseterminali tuleb seadistada riistvaraprofiili kiirkaardil **EFT-teenus**. Adyeni konnektor toetab omnikanali maksete stsenaariume valmis kujul. Kasutada saab ka muid maksekonnektoreid, mis toetavad liidest **iNamedRequestHandler**, kui need toetavad omnikanali makseid.
 - **Maksekonnektori saadavus:** kui tellimus tagasi kutsutakse, sisaldavad tellimusega koos tagasi kutsutud makse maksevahendi read maksekonnektori nime, mida kasutati selle tellimusega seotud autoriseerimiste loomiseks. Kui tellimus täidetakse, üritab maksete SDK kasutada sama konnektorit, mida kasutati algse autoriseerimise loomiseks. Seetõttu peab hõivamiseks olema saadaval maksekonnektor, millel on samad kaupmehe atribuudid. 
 - **Kaarditüübid:** selleks et omnikanali stsenaariumid õigesti toimiks, peab igal kanalil olema sama seadistus maksevahendite tüüpide jaoks, mida saab omnikanali jaoks kasutada. See seadistus hõlmab maksemeetodi ID-sid ja kaarditüübi ID-sid. Näiteks kui maksevahendi tüübi **Kaardid** ID on veebipoe seadistuses **2**, peab sellel olema sama ID kaupluse seadistuses. Sama nõue kehtib kaarditüübi ID-dele. Kui kaardi number **12** seadistatakse veebipoes väärtusele **VISA**, tuleb sama ID seadistada kauplusele. 
+- Retail Modern POS Windowsile või Androidile koos integreeritud riistvarajaamaga või
+- Modern POS iOS-ile või Cloud POS-ile koos ühendatud jagatud riistvarajaamaga. 
 
 ### <a name="basic-principle-supporting-omni-channel-payments"></a>Omnikanali maksete toetamise üldpõhimõtted
 
@@ -100,8 +102,10 @@ Järgmistes jaotises kirjeldatakse iga stsenaariumi toiminguid ja näidatakse, k
 Enne alustamist veenduge, et järgmised tingimused oleks täidetud.
 
 - Olemas on viite fassaad, kus on konfigureeritud Adyeni konnektor.
-- Suvand **Omnikanali maksed** lehel **Commerce’i ühiskasutuses parameetrid** on seatud väärtusele **Tõene**.
+- Suvand **Omnikanali maksed** lehel **Commerce’i ühiskasutuses parameetrid** on seatud väärtusele **Tõene**. Hilisemates versioonides teisaldatakse see säte tööruumi **Funktsioonihaldus**, kus saate valida funktsiooni **Omnikanali maksed** ja klõpsata **Luba kohe**. 
 - Adyeni maksekonnektor on konfigureeritud Houstoni kassaregistrile.
+- Retail Modern POS Windowsile või Androidile koos integreeritud riistvarajaamaga või
+- Modern POS iOS-ile või Cloud POS-ile koos ühendatud jagatud riistvarajaamaga. 
 
 Stsenaariumi käivitamiseks järgige neid toiminguid.
 
@@ -229,3 +233,5 @@ Kui järele minnakse tellimusele, millel on mitu maksevahendid ja mitu rida, esi
 
 - [Maksete KKK](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Dynamics 365 maksekonnektor Adyeni jaoks](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+

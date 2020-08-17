@@ -3,7 +3,7 @@ title: Näita allahindlusi kassas
 description: Selle teema all selgitatakse, kuidas Microsoft Dynamics 365 Commerce aitab müügipartneritel õppida tundma kampaaniaid ja seda, kuidas neid saab kasutada ristmüümis- ja edasimüümisiikumisteks.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
-ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
+ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
+ms.sourcegitcommit: db1a8ffcaebc2896e8f528d7807c54f8597f450e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3334704"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "3638178"
 ---
 # <a name="show-discounts-in-pos"></a>Näita allahindlusi kassas
 
@@ -54,7 +54,7 @@ Lehel **Kõik allahindlused** saavad müügiesindajad otsida allahindlusi ka mä
 
 Multiallahindlus, nt koguseallahindlused, segu- ja sobitusallahindlused ning läveallahindlused, on suurepärane viis klientide motiveerimiseks ostma rohkem tooteid, et saada suuremaid allahindlusi. Seetõttu aitavad need suurendada ka kliendi ostukorvi ja jaemüüja tulu. Neid allahindlusi saab avaldada e-kaubanduse veebisaitidel, sotsiaalmeediumis ja kauplusebänneritel.
 
-Kuid isegi kui kasutatakse kõiki neid avalikustamismeetodeid, võivad kliendid jääda kampaaniate kasutamise võimalustest ilma. Kui soovite, et müügiesindajad teaksid, milliseid kampaaniaid on võimalik rakendada valitud real või isegi kogu ostukorvi ulatuses, võivad jaemüüjad lisada toimingunupu „Kuva saadaolevad allahindlused“ lehe **Tehing** mis tahes nupuruudustikule. Sel viisil saab müügiesindaja valida kanderea ja seejärel valida see nupp, et kuvada kõik valitud reale vastavad allahindlused. Müügiesindaja saab valida ka muu vahekaardi, et näidata allahindlusi, mis kehtivad kogu kandele.
+Kuid isegi kui kasutatakse kõiki neid avalikustamismeetodeid, võivad kliendid jääda kampaaniate kasutamise võimalustest ilma. Kui soovite, et müügiesindajad teaksid, milliseid kampaaniaid on võimalik rakendada valitud real või isegi kogu ostukorvi ulatuses, võivad jaemüüjad lisada toimingunupu **„Kuva saadaolevad allahindlused“** lehe **Tehing** mis tahes nupuruudustikule. Pärast seda saab müügiesindaja valida kanderea ja seejärel valida selle nupu, et kuvada kõik valitud reale saadaolevad allahindlused. Müügiesindaja saab valida ka muu vahekaardi, et näidata allahindlusi, mis kehtivad kogu kandele. On oluline märkida, et funktsioon **Kuva saadaolevad allahindlused** ei näita allahindlusi, mis on juba müügireale rakendatud, kuna allahindluse teave on juba müügireal kuvatud. Selle stsenaariumi eesmärk on näidata ainult allahindlusi, mida pole veel rakendatud. Erandiks on allahindlused, mida rakendatakse kupongi põhjal, mis on märgitud kui „Rakenda ilma kupongikoodita”. See teeb rakendatud kupongi eemaldamise müügiesindajate jaoks lihtsaks.
 
 Lehel **Kõik allahindlused** kuvatakse ainult need allahindlused, mis ei konkureeri ühegi rakendatud allahindlusega. Selline käitumine aitab tagada, et kui müügiesindaja teavitab klienti allahindlusest ja klient võtab vajalikud meetmed (nt klient ostab veel ühe üksuse, et saada 10 protsenti allahindlust), rakendatakse allahindlus kandele. Kupongil põhinevad allahindlused kuvatakse ainult siis, kui suvand **Rakenda ilma kupongikoodita** on sisse lülitatud.
 

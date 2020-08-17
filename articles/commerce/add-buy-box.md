@@ -3,7 +3,7 @@ title: Ostukasti moodul
 description: See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411338"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645335"
 ---
 # <a name="buy-box-module"></a>Ostukasti moodul
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
@@ -61,7 +61,7 @@ Kujundusi saab kasutada ostukasti tooteatribuutide ja tegevuste juhtelementide e
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moodulid, mida saab ostukasti moodulis kasutada
 
-- **Meediumigalerii** – seda moodulit kasutatakse toote üksikasjade lehel toote piltide näitamiseks. See võib toetada ühte kuni mitu pilti. See toetab ka pisipilte. Pisipildid saab paigutada kas horisontaalselt (reana pildi all) või vertikaalselt (veeruna pildi kõrval). Meediumigalerii mooduli saab lisada ostukasti mooduli pesale **Meedia**. Hetkel toetab see ainult pilte. 
+- **Meediumigalerii** – seda moodulit kasutatakse toote üksikasjade lehel toote piltide näitamiseks. Selle mooduli kohta lisateabe saamiseks vaadake teemat [Meediumigalerii moodul](mediagallery-module.md).
 - **Kaupluse valija** – see moodul kuvab lähedalasuvate poodide loendi, kus kaup on kohapeal olemas. See võimaldab kasutajatel sisestada asukoha, et leida läheduses asuvad kauplused. Selle mooduli kohta lisateabe saamiseks vaadake teemat [Kaupluse valimise moodul](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Ostukasti mooduli sätted
@@ -112,13 +112,15 @@ Uuele lehele ostukasti mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 
 [Kaupluse valimise moodul](store-selector.md)
 
+[Meediumigalerii moodul](media-gallery-module.md)
+
 [Konteineri moodul](add-container-module.md)
 
 [Ostukorvimoodul](add-cart-module.md)
 
 [Ostukorvi ikooni moodul](cart-icon-module.md)
 
-[Väljaregistreerimismoodul](add-checkout-module.md)
+[Maksmismoodul](add-checkout-module.md)
 
 [Tellimuse kinnituse moodul](order-confirmation-module.md)
 

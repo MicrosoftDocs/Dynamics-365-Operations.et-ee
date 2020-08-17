@@ -3,7 +3,7 @@ title: Varude sissetuleku toiming kassas
 description: Selles teemas kirjeldatakse kassa varude sissetuleku toimingu võimalusi.
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
+ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551597"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3627534"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Varude sissetuleku toiming kassas
 
@@ -33,7 +33,7 @@ ms.locfileid: "3551597"
 Microsoft Dynamics 365 Commerce’i versioonis 10.0.10 ja hilisemates asendavad kassa sissetuleku ja väljamineku toimingud komplekteerimis- ja vastuvõtutoimingu.
 
 > [!NOTE]
-> Versioonis 10.0.10 ja hilisemates on kõik kassarakenduse uued funktsioonid, mis on seotud poe varude vastuvõtmisega ostutellimuste ja üleviimistellimuste suhtes, lisatud kassatoimingule **Sissetuleku toiming**. Kui kasutate praegu kassas komplekteerimis- ja vastuvõtutoimingut, soovitame teil töötada välja strateegia, et liikuda sellelt toimingult uutele sissetuleku ja väljamineku toimingutele. Kuigi komplekteerimis- ja vastuvõtutoimingut tootest ei eemaldata, siis pärast versiooni 10.0.9 sellesse enam toimivuse ja jõudluse perspektiivis ei investeerita.
+> Commerce'i versioonis 10.0.10 ja hilisemates on kõik kassarakenduse uued funktsioonid, mis on seotud kaupluse varude vastuvõtmisega ostutellimuste ja üleviimistellimuste alusel, lisatud kassatoimingule **Sissetuleku toiming**. Kui kasutate praegu kassas komplekteerimis- ja vastuvõtutoimingut, soovitame teil töötada välja strateegia, et liikuda sellelt toimingult uutele sissetuleku ja väljamineku toimingutele. Kuigi komplekteerimis- ja vastuvõtutoimingut tootest ei eemaldata, siis pärast versiooni 10.0.9 sellesse enam toimivuse ja jõudluse perspektiivis ei investeerita.
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Eeltingimus: asünkroonse dokumendi raamistiku konfigureerimine
 
@@ -153,6 +153,20 @@ Peaksite kasutame rakenduse ribal funktsiooni **Tühista vastuvõtmine** ainult 
 Kui te võtate varusid vastu, saate kasutada funktsiooni **Peata vastuvõtmine**, kui soovite teha vastuvõtmise protsessis pausi. Näiteks võite soovida teha kassas teise toimingu, nagu kliendi ostu läbi löömine, või viivitada vastuvõtu sisestamisega.
 
 Kui valite suvandi **Peata vastuvõtmine**, muudetakse dokumendi olekuks **Peatatud**. Seega teavad kasutajad, et dokumendi andmed on sisestatud, kuid dokument pole veel kinnitatud. Kui olete vastuvõtmise protsessi jätkamiseks valmis, valige peatatud dokument ja seejärel valige suvand **Tellimuse üksikasjad**. Kõik **Praegu vastuvõtmisel** kogused, mis eelnevalt salvestati, säilitatakse ja neid saab vaadata vaates **Täielik tellimuste loend**.
+
+### <a name="review"></a>Ülevaade
+
+Enne sissetuleku lõplikku lisamist Commerce'i peakontorisse (HQ) saate kasutada ülevaatamise funktsiooni, et sissetulevat dokumenti kontrollida. Ülevaatamine teavitab teid võimalikest puuduvatest või valedest andmetest, mis võivad põhjustada töötlemise nurjumise, ja annab teile võimaluse parandada probleemid enne sissetulekutaotluse esitamist. Et lubada rakenduse ribal funktsioon **Vaata üle**, lubage Commerce'i peakontori (HQ) tööruumis **Funktsioonihaldus** funktsioon **Luba kassa sissetulevate ja väljaminevate varude toimingute kontrollimine**.
+
+Funktsioon **Vaata üle** kontrollib sissetulevas dokumendis järgmisi probleeme.
+
+- **Ülevastuvõtt** – nüüd vastuvõetav kogus on suurem kui tellitud kogus. Selle probleemi suuruse määrab Commerce'i peakontori (HQ) ületarne konfiguratsioon.
+- **Alavastuvõtt** – nüüd vastuvõetav kogus on väiksem kui tellitud kogus. Selle probleemi suuruse määrab Commerce'i peakontori (HQ) alatarne konfiguratsioon.
+- **Seerianumber** – seerianumbrit pole sisestatud või kontrollitud seerianumbriga kauba jaoks, mille puhul on vaja laos registreeritud seerianumbrit.
+- **Asukohta pole määratud** – asukoht pole määratud asukoha järgi kontrollitava kauba jaoks, millel ei tohi olla tühja asukohta.
+- **Kustutatud read** – tellimuselt on kustutanud ridasid Commerce'i peakontori (HQ) kasutaja, keda kassarakendus ära ei tunne.
+
+Seadke parameetri **Luba automaatne kontrollimine** väärtuseks **Jah** jaotises **Kaubanduse parameetrid** > **Varud** > **Kaupluse varud**, et teha kontroll automaatselt, kui valitakse funktsioon **Lõpeta vastuvõtmine**.
 
 ### <a name="finish-receiving"></a>Lõpeta vastuvõtmine
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173196"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621324"
 ---
 # <a name="unified-product-experience"></a>Ühendatud toote kasutusfunktsionaalsus
 
@@ -86,7 +86,7 @@ Selles mudelis esindab teenuse Common Data Service toodet kahe üksuse kombinats
 Kuna toode on esindatud SKUna, saab eristatavate toodete, tooteetalonide ja toote variantide mõisteid jäädvustada teenuses Common Data Service järgmisel viisil:
 
 - **Tooted, mille alamtüübi tooteks** on nende endi määratletud tooted. Dimensioone ei ole vaja määrata. Näitena võib tuua konkreetse raamatu. Nende toodete puhul luuakse **Toote** üksuses üks kirje ja **msdyn\_sharedproductdetails** üksuses teine kirje. Tooteperekonna kirjet pole loodud.
-- **Tooteetalone** kasutatakse geneeriliste toodetena, mis hoiavad definitsiooni ja reegleid, mis määravad äriprotsesside käitumise. Nende mõistete põhjal saab luua erinevaid tooteid, mida nimetatakse tootevariantideks. Näiteks T-särk on tooteetalon ja selle dimensioonideks võivad olla värv ja suurus. VaVälja saab anda variante, millel on nendest mõõtmetest erinevad kombinatsioonid, näiteks väike sinine T-särk või keskmine roheline T-särk. Integreerimisel luuakse tootetabelis üks kirje ühe variandi kohta. See kirje sisaldab variandikohast teavet (nt erinevaid dimensioone). Toote üldine teave talletatakse **msdyn\_sharedproductdetails** üksuses. (seda üldteavet hoitakse tooteetalonis.) Lisaks luuakse tooteperekonna kohta üks kirje. Tooteetalon sünkroonitakse teenusea Common Data Service niipea, kui väljaantud tooteetalon on loodud (kuid enne variantide väljaandmist).
+- **Tooteetalone** kasutatakse geneeriliste toodetena, mis hoiavad definitsiooni ja reegleid, mis määravad äriprotsesside käitumise. Nende mõistete põhjal saab luua erinevaid tooteid, mida nimetatakse tootevariantideks. Näiteks T-särk on tooteetalon ja selle dimensioonideks võivad olla värv ja suurus. VaVälja saab anda variante, millel on nendest mõõtmetest erinevad kombinatsioonid, näiteks väike sinine T-särk või keskmine roheline T-särk. Integreerimisel luuakse tootetabelis üks kirje ühe variandi kohta. See kirje sisaldab variandikohast teavet (nt erinevaid dimensioone). Toote üldine teave talletatakse **msdyn\_sharedproductdetails** üksuses. (Seda üldteavet hoitakse tooteetalonis.) Tooteetalon sünkroonitakse teenusega Common Data Service niipea, kui väljaantud tooteetalon on loodud (kuid enne variantide väljaandmist).
 - **Eristatavad tooted** viitavad kõigile toodete alamtüübi tootele ja kõigile tootevariantidele. 
 
 ![Toodete andmemudel](media/dual-write-product.png)
