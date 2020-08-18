@@ -70,6 +70,8 @@
                   items:
                     - name: Mis on uut või mida on muudetud Finance'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.13 (oktoober 2020)
+                      href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (august 2020)
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (juuli 2020)
@@ -107,23 +109,23 @@
             - name: Õppekataloog
               items:
                 - name: Õppekataloogi avaleht
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: Äriotsuste tegijad
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-bdm.md
                 - name: Ärikasutajad
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Juurutusprojekti juhid
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administraatorid
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Arendajad
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Partneri müük ja turundus
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Funktsioonikonsultandid
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Lahenduste arhitektid
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Kasutajaliidesega tutvumine
               items:
                 - name: Kasutajaliidese elemendid
@@ -846,6 +848,8 @@
                   href: accounts-payable/accounting-distributions.md
                 - name: Eraldiste töötlemine
                   href: general-ledger/process-allocations.md
+                - name: Eraldustingimused
+                  href: general-ledger/main-account-allocation-terms.md
                 - name: Finantsdimensioonid
                   href: general-ledger/financial-dimensions.md
                 - name: Konsolideerimiskonto grupid ja täiendavad konsolideerimiskontod
@@ -1120,8 +1124,10 @@
                   href: public-sector/general-ledger-public-sector.md
                 - name: Täpsemad pearaamatu kirjed avalikus sektoris
                   href: public-sector/advanced-ledger-entries-public-sector.md
-                - name: Laiendatud pearaamatu kirje loomine avalikus sektoris
+                - name: Täpsema pearaamatu kirje loomine avalikus sektoris
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: Proovibilanss kande üksikasjade aruandega
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Kassa juhtimise limiitide kasutamine
                   href: public-sector/cash-control.md
                 - name: Aastalõpu töötlemine avalikus sektoris
@@ -1146,6 +1152,8 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: Sertifikaadi tüübi lisamine avaliku sektori hankijale
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
+            - name: Kanada ühtlustatud käibemaksu arvutamine
+              href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Finantsaruandlus
           items:
             - name: Finantsaruandluse ülevaade
@@ -1846,6 +1854,8 @@
                           href: localizations/apac-ind-news-letter-10-0-10.md
                         - name: Mis on uut või mida on muudetud versioonis 10.0.11?
                           href: localizations/apac-ind-news-letter-10-0-11.md
+                        - name: Mis on uut või mida on muudetud versioonis 10.0.12?
+                          href: localizations/apac-ind-news-letter-10-0-12.md
                     - name: India GST viitegrupid
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: GST integreerimine kassaaparaatide jaoks
@@ -2632,10 +2642,14 @@
                   href: localizations/emea-esp-promissory-note-options.md
                 - name: Aruanne 340
                   href: localizations/emea-esp-report-340.md
+                - name: Deklaratsiooni 347 aruanne
+                  href: localizations/emea-esp-declaration-347-report.md
                 - name: Müügi- ja ostutsüklid
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Erikanded ja avamislehed
                   href: localizations/emea-esp-opening-sheets-spain.md
+                - name: Kohe käibemaksu kohta teabe esitamine
+                  href: localizations/emea-esp-sii.md
             - name: Rootsi
               items:
                 - name: Rootsi ülevaade

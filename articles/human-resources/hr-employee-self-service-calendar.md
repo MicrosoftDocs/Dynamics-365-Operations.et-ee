@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0efc2b50b080b769cb103d1519217517b8330668
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3478c4c2acb134df1c293c1c33f615595aeaadd0
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429654"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628425"
 ---
 # <a name="view-team-and-company-calendars"></a>Meeskonna ja ettevõtte kalendrite kuvamine
 
@@ -33,15 +33,13 @@ Rakenduses Dynamics 365 Human Resources saate vaadata töörühma ja ettevõtte 
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Meeskonna kalendri kuvamine töövõtjana
 
-1. Tööruumis **Töövõtja iseteenindus** valige suvand **Minu töörühm**.
-
-2. Valige suvand **Puhkused ja puudumine** ning seejärel valige **Kuva töörühma kalender**.
+1. Valige tööruumis **Töövõtja iseteenindus** suvand **Meeskonna puudumiste kalender**, mis asub jaotises **Kokkuvõte**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Meeskonna kalendri kuvamine haldurina
 
 1. Tööruumis **Töövõtja iseteenindus** valige suvand **Minu töörühm**.
 
-2. Valige suvand **Puhkused ja puudumine** ning seejärel valige **Kuva töörühma kalender**.
+2. Valige suvand **Puhkused ja puudumine** ning seejärel valige **Kuva halduri puudumiste kalender**.
 
 Haldurid pääsevad juurde ka meeskonna kalendri jaotistele **Minu meeskonna ootel olevad vaba aja taotlused**, **Kinnitatud eemaloleku aeg** ja **Eemaloleku taotlused**. 
 

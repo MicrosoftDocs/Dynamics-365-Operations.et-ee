@@ -3,7 +3,7 @@ title: Varude väljamineku toiming kassas
 description: Selles teemas kirjeldatakse kassa varude väljamineku toimingu võimalusi.
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551621"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646155"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Varude väljamineku toiming kassas
 
@@ -38,9 +38,9 @@ Microsoft Dynamics 365 Commerce’i versioonis 10.0.10 ja hilisemates asendavad 
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Eeltingimus: asünkroonse dokumendi raamistiku konfigureerimine
 
-Väljamineku toiming hõlmab jõudluse täiustusi tagamaks, et kasutajad, kellel on paljude poodide ja ettevõtete üleselt suured kogused sissetulekute sisestusi ja mahukad varude dokumendid, saavad töödelda neid dokumente Commerce Headquartersis ilma aegumiste või tõrgete esinemiseta. Need täiustused nõuavad asünkroonse dokumendi raamistiku kasutamist.
+Väljamineku toiming hõlmab jõudluse täiustusi tagamaks, et kasutajad, kellel on paljude kaupluste ja ettevõtete üleselt palju sissetulekute sisestusi ja mahukad varude dokumendid, saavad töödelda neid dokumente Commerce'i peakontoris (HQ) ilma aegumiste või tõrgete esinemiseta. Need täiustused nõuavad asünkroonse dokumendi raamistiku kasutamist.
 
-Kui kasutatakse asünkroonset dokumendi raamistikku, saate kinnitada väljamineku dokumendi muudatused kassast Commerce Headquartersisse ja seejärel liikuda edasi järgmistele ülesannetele, samas kui Commerce Headquartersi töötlemine toimub taustal. Saate kontrollida dokumendi olekut kassa dokumendi loendi lehe **Väljamineku toiming** kaudu, et veenduda, et sisestamine õnnestus. Kassarakenduses saate lisaks kasutada väljamineku toimingu aktiivse dokumendi loendit, et näha mis tahes dokumente, mida Commerce Headquartersisse ei saanud sisestada. Kui dokument nurjub, saavad kassa kasutajad teha sellele parandusi ja seejärel proovida seda uuesti Commerce Headquartersisse töödelda.
+Kui kasutatakse asünkroonset dokumendiraamistikku, saate kinnitada väljamineku dokumendi muudatused kassast Commerce'i peakontorisse (HQ) ja seejärel liikuda edasi järgmiste ülesannete juurde, samas kui taustal toimub töötlemine Commerce'i peakontoris (HQ). Saate kontrollida dokumendi olekut kassa dokumendi loendi lehe **Väljamineku toiming** kaudu, et veenduda, et sisestamine õnnestus. Kassarakenduses saate lisaks kasutada väljamineku toimingu aktiivse dokumendi loendit, et näha mis tahes dokumente, mida Commerce'i peakontorisse (HQ) ei saanud sisestada. Kui dokument nurjub, saavad kassa kasutajad seda parandada ja seejärel proovida seda uuesti Commerce'i peakontoris (HQ) töödelda.
 
 > [!IMPORTANT]
 > Enne kui ettevõte proovib väljamineku toiminguid kassas kasutada, peab asünkroonne dokumendi raamistik olema konfigureeritud.
@@ -88,22 +88,22 @@ Kui kassarakenduses käivitatakse väljamineku toiming, ilmub loendilehe vaade. 
 
 Väljaminevate varude dokumendi loendil on kolm vahekaarti.
 
-- **Aktiivne** – sellel vahekaardil kuvatakse üleviimistellimused, mille olek on **Taotletud** või **Osaliselt saadetud**. Tellimused sisaldavad ridu või koguseid ridadel, mis tuleb kasutaja praegusesse poodi saata. See vahekaart näitab ka tellimusi, mille olek on **Töötluses HQ-s** (st need ootavad Commerce Headquartersist eduka sisestamise kinnitust) või **Töötlemine nurjus** (st Commerce Headquartersisse sisestamine ebaõnnestus ja kasutaja peab andmeid parandama ning proovima tellimused uuesti esitada).
-- **Mustand** – sellel vahekaardil kuvatakse uued väljamineku üleviimistellimuse taotlused, mille kasutaja pood lõi. Samas on dokumendid salvestatud ainult lokaalselt. Neid pole veel Commerce Headquartersis töötlemiseks esitatud.
+- **Aktiivne** – sellel vahekaardil kuvatakse üleviimistellimused, mille olek on **Taotletud** või **Osaliselt saadetud**. Tellimused sisaldavad ridu või koguseid ridadel, mis tuleb kasutaja praegusesse poodi saata. See vahekaart näitab ka tellimusi, mille olek on **Töötluses HQ-s** (st need ootavad Commerce'i peakontorist (HQ) eduka sisestamise kinnitust) või **Töötlemine nurjus** (st Commerce'i peakontorisse (HQ) sisestamine ebaõnnestus ja kasutaja peab andmeid parandama ning proovima tellimused uuesti esitada).
+- **Mustand** – sellel vahekaardil kuvatakse uued väljamineku üleviimistellimuse taotlused, mille kasutaja pood lõi. Samas on dokumendid salvestatud ainult lokaalselt. Neid pole veel Commerce'i peakontorisse (HQ) töötlemiseks esitatud.
 - **Lõpetatud** – see vahekaart kuvab üleviimistellimuse dokumentide loendi, mille pood on viimase seitsme päeva jooksul täielikult saatnud. Sellel vahekaardil on ainult informatiivne eesmärk. Kogu teave dokumentide kohta on poe jaoks kirjutuskaitstud andmed.
 
 Kui vaatate dokumente mis tahes vahekaardil, aitab väli **Olek** teil mõista etappi, kus dokument on.
 
-- **Mustand** – üleviimistellimuse dokument on salvestatud ainult lokaalselt poe kanali andmebaasi. Teavet üleviimistellimuse taotluse kohta pole veel Commerce Headquartersisse esitatud.
-- **Taotletud** – ostutellimus või üleviimistellimus on Commerce Headquartersis loodud ja on täielikult avatud. Kasutaja praegune pood on töödelnud mõne saadetise dokumendi suhtes.
+- **Mustand** – üleviimistellimuse dokument on salvestatud ainult lokaalselt poe kanali andmebaasi. Teavet üleviimistellimuse taotluse kohta pole veel Commerce'i peakontorisse (HQ) esitatud.
+- **Taotletud** – ostutellimus või üleviimistellimus on Commerce'i peakontoris (HQ) loodud ja täielikult avatud. Kasutaja praegune pood on töödelnud mõne saadetise dokumendi suhtes.
 - **Osaliselt saadetud** – üleviimistellimuse dokumendil on üks või mitu rida või osalist rea kogust, mis on sisestatud väljamineva lao poolt kui saadetud. Need saadetud read on vastuvõtmiseks saadaval sissetuleku toimingu kaudu.
 - **Täielikult saadetud** – üleviimistellimuse kõik read ja täielikud rea kogused on väljamineva lao poolt sisestatud kui saadetud.
 - **Pooleli** – seda olekut kasutatakse seadme kasutajate teavitamiseks, et teine kasutaja töötleb dokumenti aktiivselt.
 - **Peatatud** – see olek kuvatakse pärast suvandi **Peata vastuvõtmine** valimist vastuvõtmisprotsessi ajutiseks peatamiseks.
-- **Töötluses HQ-s** – dokument esitati kassarakendusest Commerce Headquartersisse, kuid see ei ole veel edukalt Commerce Headquartersisse sisestatud. Dokument läbib asünkroonse dokumendi sisestamise protsessi. Pärast seda, kui dokument on edukalt Commerce Headquartersisse sisestatud, tuleb selle olek värskendada valikule **Täielikult vastu võetud** või **Osaliselt vastu võetud**.
-- **Töötlemine nurjus** – dokument sisestati Commerce Headquartersisse ja lükati tagasi. Paanil **Üksikasjad** kuvatakse sisestamise nurjumise põhjus. Andmeprobleemide parandamiseks tuleb dokumenti redigeerida ja seejärel tuleb see uuesti esitada Commerce Headquartersisse töötlemiseks.
+- **Töötluses HQ-s** – dokument esitati kassarakendusest Commerce'i peakontorisse (HQ), kuid see ei ole veel edukalt Commerce'i peakontorisse (HQ) sisestatud. Dokument läbib asünkroonse dokumendi sisestamise protsessi. Pärast seda, kui dokument on edukalt Commerce'i peakontorisse (HQ) sisestatud, tuleb selle olek värskendada valikule **Täielikult vastu võetud** või **Osaliselt vastu võetud**.
+- **Töötlemine nurjus** – dokument sisestati Commerce'i peakontorisse (HQ) ja lükati tagasi. Paanil **Üksikasjad** kuvatakse sisestamise nurjumise põhjus. Andmeprobleemide parandamiseks tuleb dokumenti redigeerida ja seejärel tuleb see uuesti esitada Commerce'i peakontorisse (HQ) töötlemiseks.
 
-Kui valite loendis dokumendi rea, kuvatakse paan **Üksikasjad**. Sellel paanil kuvatakse lisateave dokumendi kohta, nt saatmise ja kuupäeva teave. Edenemisriba näitab, mitu eset on vaja veel töödelda. Kui dokumenti edukalt Commerce Headquartersisse ei töödeldud, näitab paan **Üksikasjad** lisaks tõrkega seotud veateateid.
+Kui valite loendis dokumendi rea, kuvatakse paan **Üksikasjad**. Sellel paanil kuvatakse lisateave dokumendi kohta, nt saatmise ja kuupäeva teave. Edenemisriba näitab, mitu eset on vaja veel töödelda. Kui dokumenti ei töödeldud edukalt Commerce'i peakontoris (HQ), näitab paan **Üksikasjad** lisaks tõrkega seotud veateateid.
 
 Dokumendi loendi lehekülje vaates saate rakenduse ribal valida suvandi **Tellimuse üksikasjad**, et vaadata dokumendi üksikasju. Saate aktiveerida ka sobivatel dokumendiridadel sissetuleku töötlemise.
 
@@ -125,13 +125,13 @@ Kinnitamine leiab aset dokumendi ridade vastuvõtmise protsessi ajal. Nende hulk
 
 Commerce'i versiooni 10.0.12 lisati funktsioon, mis lubab kassa kasutajatel väljamineva tellimuse saadetise ajal sulgeda või tühistada ülejäänud kogused, kui väljaminev ladu määratleb, et kogu nõutavat kogust ei saa tarnida. Koguseid saab sulgeda või tühistada ka hiljem. Selle võimaluse kasutamiseks peab ettevõtes olema konfigureeritud üleviimistellimuste alatarnete lubamine. Lisaks peab üleviimistellimuse reale olema määratletud alatarne protsent.
 
-Üleviimistellimuste alatarne lubamise konfigureerimiseks ettevõttes, avage Commerce'i peakontori jaotis **Varude haldus \> Seadistus \> Varude ja laohalduse parameetrid**. Lülitage lehe **Varude ja laohalduse parameetrid** vahekaardil **Üleviimistellimused** sisse parameeter **Aktsepteeri alatarneid**. Seejärel käivitage jaotusgraafiku töö **1070**, et sünkroonida parameetri muudatused kaupluse kanalisse.
+Üleviimistellimuste alatarne lubamise konfigureerimiseks ettevõttes, avage Commerce'i peakontori (HQ) jaotis **Varude haldus \> Seadistus \> Varude ja laohalduse parameetrid**. Lülitage lehe **Varude ja laohalduse parameetrid** vahekaardil **Üleviimistellimused** sisse parameeter **Aktsepteeri alatarneid**. Seejärel käivitage jaotusgraafiku töö **1070**, et sünkroonida parameetri muudatused kaupluse kanalisse.
 
-Toodete üleviimistellimuse rea alatarne protsente saab eelmääratleda Commerce'i peakontoris toote konfiguratsiooni käigus. Teine võimalus on nende seadistamine või üle kirjutamine kindlal üleviimistellimuse real Commerce'i peakontoris.
+Toodete üleviimistellimuse rea alatarne protsente saab eelmääratleda Commerce'i peakontoris toote konfiguratsiooni käigus. Teine võimalus on nende seadistamine või üle kirjutamine kindlal üleviimistellimuse real Commerce'i peakontoris (HQ).
 
-Kui organisatsioonis on üleviimistellimuse alatarne konfigureerimine lõpule viidud, kuvatakse kasutajatele paanil **Üksikasjad** uus suvand **Sule ülejäänud kogus**, kui nad valivad kassas väljamineva üleviimistellimuse rea toimingu **Väljamineku toiming**. Kui kasutajad viivad seejärel saadetise lõpule toimingu **Lõpeta täitmine** abil, saavad nad saata taotluse Commerce'i peakontorisse ülejäänud saatmata koguse tühistamiseks. Kui kasutaja otsustab sulgeda ülejäänud koguse, teeb Commerce kontrolli, et kinnitada, kas tühistatav kogus jääb üleviimistellimuse real määratletud alatarne hälbeprotsendi piiresse. Alatarne hälbe ületamise korral kuvatakse kasutajale tõrketeade ja ülejäänud kogust ei saa sulgeda enne, kui eelnevalt saadetud ja „läheta kohe” kogused vastavad või ületavad alatarne hälbe.
+Kui organisatsioonis on üleviimistellimuse alatarne konfigureerimine lõpule viidud, kuvatakse kassa kasutajatele paanil **Üksikasjad** uus suvand **Sule ülejäänud kogus**, kui nad valivad väljamineva üleviimistellimuse rea funktsiooni **Väljamineku toiming** kaudu. Kui kasutaja viib seejärel saadetise lõpule toimingu **Lõpeta täitmine** abil, saab ta saata taotluse Commerce'i peakontorisse (HQ) ülejäänud saatmata koguse tühistamiseks. Kui kasutaja sulgeb ülejäänud koguse, kontrollib Commerce, et kinnitada, kas tühistatav kogus jääb üleviimistellimuse real määratletud alatarne hälbeprotsendi piiresse. Alatarne hälbe ületamise korral kuvatakse tõrketeade ja kasutaja ei saa ülejäänud kogust sulgeda enne, kui eelnevalt saadetud ja „läheta kohe” kogused vastavad alatarne hälbele või ületavad seda.
 
-Kui saadetis on sünkroonitud Commerce'i peakontoriga, uuendatakse väljal **Läheta kohe** kassa üleviimistellimuse rea jaoks määratletud kogused Commerce'i peakontoris saadetud olekusse. Kõik lähetamata kogused, mis varasemalt oleksid olnud „saada järelejäänud” kogused (st hiljem saadetavad kogused), on nüüd tühistatud kogused. Üleviimistellimuse rea „saada järelejäänud” koguse väärtuseks määratakse **0** (null) ja rida loetakse täielikult saadetuks.
+Kui saadetis on sünkroonitud Commerce'i peakontoriga (HQ), uuendatakse väljal **Läheta kohe** kassa üleviimistellimuse rea jaoks määratletud kogused Commerce'i peakontoris (HQ) saadetud olekusse. Kõik lähetamata kogused, mis varasemalt oleksid olnud „saada järelejäänud” kogused (st hiljem saadetavad kogused), on nüüd tühistatud kogused. Üleviimistellimuse rea „saada järelejäänud” koguse väärtuseks määratakse **0** (null) ja rida loetakse täielikult saadetuks.
 
 ### <a name="shipping-location-controlled-items"></a>Asukoha järgi kontrollitavate kaupade saatmine
 
@@ -145,13 +145,26 @@ Vajaduse korral saate valida rakenduse ribal suvandi **Saada kõik**, et kiirest
 
 ### <a name="cancel-fulfillment"></a>Tühista täitmine
 
-Peaksite kasutame rakenduse ribal funktsiooni **Tühista täitmine** ainult siis, kui soovite dokumendist väljuda ja ei soovi ühtegi muudatust salvestada. Näiteks valisite algselt vale dokumendi ja te ei soovi, et ükski eelmistest saadetise andmetest salvestataks.
+Kasutage rakenduse ribal funktsiooni **Tühista täitmine** ainult siis, kui soovite dokumendist väljuda ja ei soovi ühtegi muudatust salvestada. Näiteks valisite algselt vale dokumendi ja te ei soovi, et ükski eelmistest saadetise andmetest salvestataks.
 
 ### <a name="pause-fulfillment"></a>Peata täitmine
 
-Kui te täidate üleminekutellimust, saate kasutada funktsiooni **Peata täitmine**, kui soovite teha protsessis pausi. Näiteks võite soovida teha kassas teise toimingu, nagu kliendi ostu läbi löömine, või viivitada saadetise Commerce Headquartersisse sisestamisega.
+Kui te täidate üleminekutellimust, saate kasutada funktsiooni **Peata täitmine**, kui soovite teha protsessis pausi. Näiteks võite soovida teha kassas teise toimingu, nagu kliendi ostu läbilöömine, või lükata edasi saadetise sisestamine Commerce'i peakontorisse (HQ).
 
 Kui valite suvandi **Peata täitmine**, muudetakse dokumendi olekuks **Peatatud**. Seega teab kasutaja, et andmed on dokumenti sisestatud, kuid dokument pole veel kinnitatud. Kui olete täitmise protsessi jätkamiseks valmis, valige peatatud dokument ja seejärel valige suvand **Tellimuse üksikasjad**. Kõik **Praegu tarnimisel** kogused, mis eelnevalt salvestati, säilitatakse ja neid saab vaadata vaates **Täielik tellimuste loend**.
+
+### <a name="review"></a>Ülevaade
+
+Enne täitmise lõplikku lisamist Commerce'i peakontorisse (HQ) saate kasutada funktsiooni **Vaata üle**, et väljaminevat dokumenti kontrollida. See funktsioon teavitab teid võimalikest puuduvatest või valedest andmetest, mis võivad põhjustada töötlemise nurjumise, ja annab teile võimaluse parandada probleemid enne täitmistaotluse esitamist. Et lubada rakenduse ribal funktsioon **Vaata üle**, lubage Commerce'i peakontori (HQ) funktsioonihalduses funktsioon **Luba kassa sissetulevate ja väljaminevate varude toimingute kontrollimine**.
+
+Funktsioon **Vaata üle** kontrollib väljaminevas dokumendis järgmisi probleeme.
+- **Ülesaatmine** – nüüd saadetav kogus on suurem kui tellitud kogus. Selle probleemi suuruse määrab Commerce'i peakontori (HQ) ületarne konfiguratsioon.
+- **Alasaatmine** – nüüd saadetav kogus on väiksem kui tellitud kogus. Selle probleemi suuruse määrab Commerce'i peakontori (HQ) alatarne konfiguratsioon.
+- **Seerianumber** – seerianumbrit pole sisestatud või saadaval seerianumbriga kauba jaoks, mille puhul on vaja laos registreeritud seerianumbrit.
+- **Asukohta pole määratud** – asukoht pole määratud asukoha järgi kontrollitava kauba jaoks, mille asukoht ei tohi olla tühi.
+- **Kustutatud read** – tellimuselt on kustutanud ridasid Commerce'i peakontori (HQ) kasutaja, keda kassarakendus ei tunne ära.
+
+Kui seate parameetri **Luba automaatne kontrollimine** väärtuseks **Jah** jaotises **Kaubanduse parameetrid** > **Varud** > **Kaupluse varud**, tehakse kontroll automaatselt, kui valite funktsiooni **Lõpeta täitmine**.
 
 ### <a name="finish-fulfillment"></a>Lõpeta täitmine
 
@@ -163,15 +176,15 @@ Kui kasutatakse asünkroonset dokumendi töötlemist, esitatakse kviitung asünk
 
 Kasutajad saavad luua kassas uusi üleviimistellimuse dokumente. Protsessi alustamiseks valige rakenduse ribal **Uus**, kui olete peamise **Väljamineku tegevuse** dokumendi loendis. Seejärel palutakse teil valida **Kanna üle kohta** ladu või pood, kuhu teie praegune pood varud saadab. Väärtused on piiratud valikuga, mis on määratletud poe täitmise grupi konfiguratsioonis. Väljamineku üleviimise taotluses on teie praegune pood alati üleviimistellimuse jaoks ladu **Kanna üle kohast**. Seda väärtust ei saa muuta.
 
-Saata vajaduse järgi sisestada väärtused väljadele **Lähetuskuupäev**, **Vastuvõtukuupäev** ja **Tarneviis**. Saate lisada ka märkuse, mis salvestatakse koos üleviimistellimuse päisega Commerce Headquartersis dokumendi manusena.
+Saata vajaduse järgi sisestada väärtused väljadele **Lähetuskuupäev**, **Vastuvõtukuupäev** ja **Tarneviis**. Saate lisada ka märkuse, mis salvestatakse koos üleviimistellimuse päisega Commerce'i peakontoris (HQ) dokumendi manusena.
 
 Pärast päise teabe loomist saate lisada üleviimistellimusele kaupu. Kaupade ja taotletud koguste lisamise protsessi alustamiseks skannige vöötkoodid või valige käsk **Lisa toode**.
 
-Pärast seda, kui read on väljamineku üleviimistellimusse sisestatud, tuleb teil valida käsk **Salvesta**, et salvestada dokumendi muudatused lokaalselt, või suvand **Esitada taotlus**, et edastada tellimuse üksikasjad edasiseks töötlemiseks Commerce Headquartersisse. Kui valite suvandi **Salvesta**, salvestatakse dokumendi mustand kanali andmebaasi ja väljamineku ladu ei saa dokumenti käitada enne, kui see on suvandi **Edasta taotlus** kaudu edukalt töödeldud. Valige suvand **Salvesta** ainult juhul, kui te ei ole valmis taotlust Commerce Headquartersis töötlemiseks kinnitama.
+Pärast seda, kui read on väljamineku üleviimistellimusse sisestatud, tuleb teil valida käsk **Salvesta**, et salvestada dokumendi muudatused lokaalselt, või suvand **Esita taotlus**, et edastada tellimuse üksikasjad edasiseks töötlemiseks Commerce'i peakontorisse (HQ). Kui valite suvandi **Salvesta**, salvestatakse dokumendi mustand kanali andmebaasi ja väljamineku ladu ei saa dokumenti käitada enne, kui see on suvandi **Edasta taotlus** kaudu edukalt töödeldud. Valige suvand **Salvesta** ainult juhul, kui te ei ole valmis taotlust Commerce'i peakontoris (HQ) töötlemiseks kinnitama.
 
 Kui dokument on salvestatud lokaalselt, võite selle leida vahekaardil **Mustandid** dokumendi loendis **Sissetuleku toiming**. Kui dokument on olekus **Mustand**, saate seda redigeerida, kui valite suvandi **Redigeeri**. Saate vajaduse järgi ridu värskendada, lisada või kustutada. Samuti saate kustutada kogu dokumendi, kui see on olekus **Mustand**, valides käsu **Kustuta** vahekaardil **Mustandid**.
 
-Pärast dokumendi mustandi Commerce Headquartersile edukat esitamist kuvatakse see vahekaardil **Aktiivne** ja selle olek on **Taotletud**. Sel hetkel saavad ainult väljamineva lao kasutajad dokumenti muuta, valides kassarakenduses suvandi **Väljaminev toiming**. Kasutajad sissetuleku laos saavad üleviimistellimust vaadata vahekaardil **Aktiivne** dokumendi loendis **Sissetuleku toiming**, kuid nad ei saa seda redigeerida ega kustutada. Redigeerimise lukustus tagab, et ei esineks konflikte, kuna sissetuleku päringu teinu muudab üleviimistellimust samal ajal, kui väljamineku saatja aktiivselt komplekteerib ja lähetab tellimuse. Kui vajalikud on sissetuleku poe või lao muudatused pärast üleviimistellimuse esitamist, tuleb võtta ühendust väljamineku saatjaga ja paluda sisestada muudatused.
+Pärast dokumendi mustandi edukat esitamist Commerce'i peakontorisse (HQ) kuvatakse see vahekaardil **Aktiivne** ja selle olek on **Taotletud**. Sel hetkel saavad ainult väljamineva lao kasutajad dokumenti muuta, valides kassarakenduses suvandi **Väljaminev toiming**. Kasutajad sissetuleku laos saavad üleviimistellimust vaadata vahekaardil **Aktiivne** dokumendi loendis **Sissetuleku toiming**, kuid nad ei saa seda redigeerida ega kustutada. Redigeerimise lukustus tagab, et ei esineks konflikte, kuna sissetuleku päringu teinu muudab üleviimistellimust samal ajal, kui väljamineku saatja aktiivselt komplekteerib ja lähetab tellimuse. Kui vajalikud on sissetuleku poe või lao muudatused pärast üleviimistellimuse esitamist, tuleb võtta ühendust väljamineku saatjaga ja paluda sisestada muudatused.
 
 Kui dokument on olekus **Taotletud**, on see väljamineku lao poolt täitmise töötlemiseks valmis. Kuna saadetist töödeldakse väljamineku toimingut kasutades, siis üleviimistellimuse dokumentide olek uuendatakse olekul **Taotletud** olekule **Täielikult saadetud** või **Osaliselt saadetud**. Pärast seda, kui dokumendid on olekus **Täielikult saadetud** või **Osaliselt saadetud**, saab sissetuleku pood või ladu sisestada nendepoolsed sissetulekud, kasutades sissetuleku toimingu vastuvõtmisprotsessi.
 

@@ -3,7 +3,7 @@ title: Ruudustiku võimalused
 description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks tuleb uus ruudustikufunktsioon lubada.
 author: jasongre
 manager: AnnBe
-ms.date: 06/04/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431356"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651686"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
@@ -128,20 +128,47 @@ Selleks et süsteem tuvastaks avaldise väärtuse, käivitage väärtus võrdusm
 
 Kõik järgmised kasutajaseansid algavad lubatud uue ruudustiku juhtelemendiga.
 
+## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Arendajatele] Üksikutelt lehtedelt ruudustiku eemaldamine 
+Kui teie organisatsioon avastab lehekülje, millel on uue ruudustiku kasutamisega probleeme, saate kasutada API-t, et lubada üksikul vormil kasutada ruudustiku pärandjuhtelementi ja samas lubada ülejäänud süsteemil kasutada uut ruudustiku juhtelementi. Et eemaldada ruudustik üksikult lehelt, lisage kutse `super()` vormi meetodile `run()`.
+
+        this.forceLegacyGrid();
+
+Seda API-d saab kasutada kuni 2021. aasta oktoobri väljalaskeni, mil uus ruudustiku juhtelement muutub kohustuslikuks. Palun teatage Microsoftile kõigist probleemidest, mis selle API kasutamisel tekivad. 
+
 ## <a name="known-issues"></a>Teadaolevad probleemid
 Selles jaotises on toodud uue ruudustiku juhtelemendi teadaolevate probleemide loend, kuni funktsioon on eelvaate olekus.  
 
 ### <a name="open-issues"></a>Lahendamata probleemid
+-  Pärast funktsiooni **Uus ruudustiku juhtelement** kasutatakse mõnel lehel jätkuvalt olemasolevat ruudustiku juhtelementi. See juhtub järgmistes olukordades.  
+    -  Lehel on kaardiloend, mida renderdatakse mitmes veerus.
+    -  Lehel on rühmitatud kaartide loend.
+    -  Ruudustiku veerus on mittereageeriv laiendatav juhtelement.
 
-- Enne mitme veeruna renderdatud kaartide loendid renderdatakse nüüd ühe veeruna.
-- Grupeeritud loendeid ei renderdata gruppidena või eraldi veergudes.
+    Kui kasutaja seisab ühega neist olukordadest esimest korda silmitsi, kuvatakse teade lehe värskendamise kohta. Pärast selle teate kuvamist jätkab leht olemasoleva ruudustiku kasutamist kõigi kasutajate puhul kuni järgmise tooteversiooni värskenduseni. Nende stsenaariumide paremat käsitlemist, et uut ruudustikku saaks kasutada, kaalutakse tulevases värskenduses.     
 
 ### <a name="fixed-as-part-of-10013"></a>Parandatud versioonis 10.0.13
 
-> [!NOTE]
-> Järgmine teave on esitatud, et saaksite selle järgi oma plaane teha. Lisateavet versiooni 10.0.13 suunatud väljalaskegraafiku kohta leiate teemast [Teenusevärskenduste kättesaadavus](../../fin-ops/get-started/public-preview-releases.md).
-
-- [KB 4563317] Piltide puhul ei kuvata kohtspikreid.
+-  [Programmiviga 470173] Passiivsete ridade märkeruudud täidetakse/tühjendatakse, kui lahtris klõpsatakse tühemikku
+-  [Programmiviga 474848] Ruudustikega täiustatud eelvaateid ei kuvata
+-  [Programmiviga 474851] Viitegrupi juhtelementides ei tööta hüperlingid 
+-  [Programmiviga 471777] Mobiilirakenduse redigeerimiseks või loomiseks ei saa ruudustikus välju valida
+-  [KB 4569441] Mitme veeruga kaardiloendite, piltide kohtspikrite ja mõnel väljal kuvamisvalikutega seotud probleemid
+-  [KB 4575279] Pearaamatust ei kustutata kõiki märgitud ridasid
+-  [KB 4575233] Kuvamisvalikuid ei taastata pärast teisele reale üleminemist
+-  [KB 4571095] Toote sissetulek sisestatakse, kui kogemata vajutakse klahvi Enter (lehe vaiketegevuse õige käsitlemine)
+-  [KB 4575437] Redigeeritavate juhtelementidega otsingud sulguvad ootamatult
+-  [KB 4569418] Tarnegraafiku vormil loodi topeltrida
+-  [KB 4575435] Täiustatud eelvaadet kuvatakse mõnikord ka siis, kui hiirekursor ei asu välja lähedal
+-  [KB 4575434] Otsingut ei filtreerita, kui välja on muudetud
+-  [KB 4575430] Ruudustikus ei peideta parooliväljade väärtuseid
+-  [KB 4569438] Tarnijakannete tasakaalustamisel kuvatakse pärast ridade märkimist teade „Töötlemine peatati kontrollimisprobleemi tõttu”
+-  [KB 4569434] Juriidiliste isikute vormi värskendamisel kuvatakse vähem kirjeid
+-  [KB 4575297] Ruudustiku redigeerimisel ja vahekaartide avamisel viiakse fookus tegevuse salvestaja paanile
+-  [KB 4566773] Paranduskandeid ei näidata kannete päringus negatiivsena 
+-  [KB 4575288] Lihtsas loendis ridade vahel oleva äärise valimisel lähtestatakse fookus aktiivsele reale
+-  [KB 4575287] Töölehtedes uue rea loomiseks allanoole nuppu kasutades ei viia fookust tagasi esimesele veerule
+-  [KB 4564819] Vabas vormis arvel ei saa ridu kustutada (andmeallika ChangeGroupMode=ImplicitInnerOuter tõttu)
+-  [KB 4563317] Piltide puhul ei kuvata kohtspikreid / täiustatud eelvaateid
 
 ### <a name="fixed-as-part-of-10012"></a>Parandatud versioonis 10.0.12
 
@@ -158,6 +185,7 @@ Selles jaotises on toodud uue ruudustiku juhtelemendi teadaolevate probleemide l
 - [KB 4562647] Fookus lähtestatakse pärast turberollide ruudustikus uue rea lisamist esimesele juhtelemendile dialoogiboksis **Avalda**.
 - [KB 4563310] Täiustatud eelvaadet ei suleta pärast rea muutmist.
 - [KB 4563313] Kui otsingus valitakse väärtus, siis esineb Internet Exploreris „ootamatu klienditõrge“.
+- [KB 4564557] Otsingud ja rippmenüüd ei avane Internet Exploreris
 - [KB 4563324] Navigeerimine ei tööta pärast tööruumi **Personalihaldus** avamist.
 
 ### <a name="fixed-as-part-of-10011"></a>Parandatud versioonis 10.0.11

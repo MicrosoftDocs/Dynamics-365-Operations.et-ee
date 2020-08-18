@@ -3,7 +3,7 @@ title: Varasematest versioonidest eemaldatud või aegunud funktsioonid
 description: Selle teema all kirjeldatakse funktsioone, mis on eemaldatud või mis olid planeeritud eemaldamiseks tootest Dynamics 365 for Finance and Operations ja selle varasemast väljalaskest.
 author: sericks007
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: bccc9a0a2b0abfdeba248007cfdb2bd599e35f48
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500408"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645385"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Varasematest versioonidest eemaldatud või aegunud funktsioonid
 
@@ -62,7 +62,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Jah |
 | **Mõjutatud tootealad**         | Avaldus |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegub: 1. aprillil 2020, arendajad peavad kasutama uut API-d. |
+| **Olek**                         | Aegunud: alates 1. aprillist 2020 peavad arendajad kasutama platvormi API-sid, mis asuvad klassis **HasFunction**. |
 
 ### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(string message)
 
@@ -72,7 +72,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Asendatud teise funktsiooniga?**   | Jah |
 | **Mõjutatud tootealad**         | Platvorm |
 | **Juurutamissuvand**              | Kõik |
-| **Olek**                         | Aegub: 1. aprillil 2020, arendajad peavad kasutama uut API-d. |
+| **Olek**                         | Aegunud: alates 1. aprillist 2020 peavad arendajad kasutama platvormi API-sid, mis asuvad klassis **HasFunction**. |
 
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()

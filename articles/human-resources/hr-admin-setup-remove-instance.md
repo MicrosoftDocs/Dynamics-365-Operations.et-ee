@@ -3,7 +3,7 @@ title: Eemalda eksemplar
 description: See artikkel selgitab proovi- või tootmiskeskkonna eemaldamise protsessi rakenduse Microsoft Dynamics 365 Human Resources puhul.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17f299f81d1326dfb06c11a6125acc54b8ef2a6e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431195"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621376"
 ---
 # <a name="remove-an-instance"></a>Eemalda eksemplar
 
@@ -67,8 +67,21 @@ Rakenduse Human Resources eemaldamiseks olemasolevast Power Appsi keskkonnast te
 1. Eemaldamistaotluse käivitamiseks võtke ühendust toega.
 2. Tugimeeskond edastab eemaldamise taotluse Human Resourcesi DevOpsi töörühmale. 
 3. Jätkake siis, kui olete saanud kinnituse, et keskkond on eemaldatud.
-4.  Logige LCS-i sisse, kasutades kontot, mida kasutasite rakenduse Human Resources tellimiseks. 
+4. Logige LCS-i sisse, kasutades kontot, mida kasutasite rakenduse Human Resources tellimiseks. 
 5. Valige keskkonda sisaldav Human Resourcesi projekt. 
 6. Valige oma LCS-i projektis paan **Rakenduse Human Resources haldus**. 
 7. Valige eksemplar, mille soovite eemaldada (selle juures peaks olema märgitud juurutuse olek **Nurjus**).
 8. Valige **Eemalda eksemplar** ja kinnitage otsus. 
+
+## <a name="recover-a-soft-deleted-environment"></a>Ajutiselt kustutatud keskkonna taastamine
+
+Kui kustutate Power Appsi keskkonna, millega on ühendatud teie Human Resourcesi keskkond, kustutatakse Human Resourcesi olek teenuses Lifecycle Services **ajutiselt**. Sel juhul ei saa kasutajad Human Resourcesiga ühendust luua.
+
+Keskkonna taastamiseks tehke järgmist.
+
+1. Järgige teemas [Power Appsi keskkonna taastamine](/power-platform/admin/recover-environment.md) toodud juhiseid.
+
+2. Human Resourcesi keskkonna taastamiseks võtke ühendust tugiteenusega. Lisateavet leiate teemast [Toe hankimine](hr-admin-troubleshooting-support.md).
+
+> [!Warning]
+> Power Appsi keskkondi salvestatakse ainult seitse päeva pärast kustutamist. Peate taastama keskkonna seitsme päeva jooksul.

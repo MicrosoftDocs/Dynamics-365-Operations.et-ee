@@ -3,7 +3,7 @@ title: Jõudlushaldus
 description: Jõudlushalduse protsess võimaldab töövõtjatel dokumenteerida ja arutada oma jõudlust juhatajaga. Juhatajad saavad seejärel anda tagasisidet ja juhendada töövõtjaid.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4786717826592973d3b049c4aa5ca615332d5bc6
-ms.sourcegitcommit: 98cfbb42fc556e1afcb2fab50d8dff0ae2b7aa67
+ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3609768"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628449"
 ---
 # <a name="performance-management"></a>Jõudlushaldus
 
@@ -37,6 +37,7 @@ Nagu on näha järgmiselt diagrammilt, on teil protsessi haldamiseks kolm lehte.
 Järgmine diagramm näitab, kuidas on jõudlushalduse peamised komponendid omavahel seotud. [![Jõudluse protsessi ülevaade](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Jõudluse tööraamat
+
 Töövõtjana kogute enne ülevaate lõpuleviimist sageli teavet tegevuste ja sündmuste kohta, mis aitasid ülevaatusperioodi jooksul kaasa teie edule. Jõudluse tööleht on koht nende tegevuste ja sündmuste dokumenteerimiseks. Lisaks saate luua tulevasi sündmusi, mis tuleb lõpetada, et saavutada eesmärke, vastata arenguplaani nõuetele või täita jõudlusega seotud kohustusi. Jõudluse töölehti ei ole vaja eesmärkide või jõudluse ülevaadete loomiseks. 
 
 Jõudluse töölehti on saadaval kahe versioonina: töövõtja versioon, millele pääseb ligi **töövõtja iseteeninduse** tööruumi (**ESS**) kaudu, ja juhataja versioon, millele pääseb ligi **juhataja iseteeninduse** tööruumi (**MSS**) kaudu. Töövõtjad saavad enda jaoks luua töölehti ja soovi korral jagada neid juhatajaga. Juhatajad saavad luua töölehti oma meeskonna jaoks ja soovi korral jagada neid töövõtjatega. 
@@ -58,6 +59,7 @@ Jõudluse töölehe saate linkida ka välisele veebilehele, salvestades lehe URL
 Jõudluse tööleht sisaldab lisafunktsiooni nimega Tagasiside. Kui klõpsate valikul **Saada tagasisidet**, saate valida töövõtja ja anda talle meili teel tagasisidet. Sõnum saadetakse töövõtjale, kes tagasisidet saab, töövõtja juhatajale, tagasisidet saatvale töövõtjale ja selle töövõtja juhatajale. Jõudluse töölehe sisestus luuakse iga inimese jaoks, kes tagasisidesõnumi saab.
 
 ## <a name="goals"></a>Eesmärgid
+
 **Jõudluseesmärkide** leht aitab jälgida eesmärke, mille teie ja teie juhataja on teile loonud. Saate luua mis tahes arvu eesmärke ja need eesmärgid võivad hõlmata erinevaid perioode ning jõudluse ülevaateid. Saate luua ka liht- või liiteesmärke, olenevalt teabehulgast, mida soovite eesmärgi kohta sisestada. Eesmärgid pole jõudluse ülevaadete jaoks vajalikud. 
 
 Põhieesmärk peab sisaldama järgmist teavet.
@@ -80,6 +82,7 @@ Kui soovite eesmärgile lisada dokumendi, nt lõpetamise sertifikaadi, saate sel
 Saate eesmärgist luua malli ja seejärel kasutada seda uute eesmärkide loomiseks malli põhjal. Malli loomisel eesmärgist salvestatakse kirjeldus, teemad ja eesmärgi mõõtmised. Kuid kõik tegelikud mõõtmised. lõpetamise kuupäevad ja teemade kommentaarid eemaldatakse.
 
 ## <a name="performance-reviews"></a>Jõudluse ülevaated
+
 Jõudluse ülevaated on ametlikult tuntud kui arutelud. Need on nüüd piisavalt paindlikud, et toetada pidevat tagasisidet, arenguplaane ja ametlikke ülevaateid. Saate kiiresti luua väikeseid kohtumisi kahe inimese vahel, nagu üks-ühele kohtumine, või saate luua keerukama ülevaate, mis vastab teie ettevõtte ülevaatuse protsessile. 
 
 Üks-ühele kohtumine on lihtne ülevaade, mis vajab lühinime, kohtumise sisu pikemat kirjeldust ja kohtumise kuupäeva. Lihtne ülevaade hõlmab sama teavet ning arutletavat ülevaatusperioodi. Juhatajad näevad ka isiku nime. kelle jaoks ülevaade on loodud. 
@@ -92,7 +95,11 @@ Saate luua uusi ülevaateid, mis põhinevad teie loodud mallidel. Näiteks saab 
 
 Ülevaadete printimiseks valige nupp **Prindi ülevaade**. Kui te ei näe nuppu lehel **Ülevaade**, veenduge, et oleksite funktsiooni tööruumis **Funktsioonihaldus** lubanud. Lisateavet funktsioonihalduse kohta vt [Funktsioonihalduse ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
+> [!NOTE]
+> Jõudluse ülevaadete printimise võimalus on saadaval ainult rakenduses Human Resources. See ei ole saadaval rakenduses Dynamics 365 Finance.
+
 ## <a name="components-you-can-include-in-performance-reviews"></a>Pädevused, mida saate kaasata jõudluse ülevaadetesse
+
 Jõudluse ülevaadetesse saate kaasata mitut tüüpi teavet. Need hõlmavad ülevaate üksikasju, mõõtmisi, tegevusi, hinnanguid, nõusolekuid ja manuseid.
 
 ### <a name="review-detail"></a>Ülevaate üksikasjad
@@ -119,24 +126,30 @@ Töövõtja ja/või juhataja esitatakse ülevaates teie määratud ülevaate par
 
 Ülevaatele saate lisada dokumendi **ülevaadete** lehe jaotises **Manused**. Saate kasutada dokumendivaaturit, et kuvada kiiresti mis tahes manustatud dokumendi sisu.
 
-### 
-
 ## <a name="workflow-for-performance-management"></a>Jõudlushalduse töövoog
+
 Saate kasutada töötaja ülevaate töövoogu ülevaate kinnitamise kontrollimiseks. Samuti saate soovi korral automatiseeritud töövoo vahele jätta ja muuta ülevaate olekut käsitsi, mis võimaldab teile luua lihtsamaid dokumente, nagu üks-ühele koosolekud ilma töövoo protsessi kasutamata. Juurdepääsu ülevaatele kontrollitakse ülevaate olekuga.
 
 1.  Aruande loomisel määratakse selle olekuks **Alustamata**. Aruannet saavad kõik redigeerida.
+
 2.  Kui töövõtja vajutab nuppu **Alusta ülevaatust**, määratakse ülevaate olekuks**Pooleli**. Seejärel hakkab töövõtja sisu lisama. Selles punktis ei saa juhataja ülevaatedokumenti enam vaadata.
+
 3.  Töövõtja muudab olekuks **Ülevaatamiseks valmis**.
+
 4.  Juhataja saab lisada kommentaare ja hinnanguid. Selles punktis näeb ülevaadet ainult juhataja.
+
 5.  Juhataja muudab olekuks **Lõplik ülevaatus**, nii et nii juhataja kui ka töövõtja saavad ülevaadet vaadata ja selle üle arutleda. Saate parameetrites määrata, kas ülevaadet saab selles punktis redigeerida. See etapp on valikuline ka siis, kui juhataja soovib lihtsalt ülevaadet töövõtjaga jagada ja märkida selle olekuks **Lõpetatud**, kui nad on lõpetanud.
+
 6.  Kui nõusolekud on lõpule viidud, muudetakse olekuks **Lõpetatud**. Selles punktis ei saa ülevaadet muuta.
 
 Töötaja ülevaate töövool on kaks järgmist elementi.
 
 1.  Ülevaate kinnitamine. Lisage see element oleku muudatuse kontrollimiseks olekust **Pooleli** olekuni **Ülevaatuseks valmis**. Muutke määramist, et kasutada juhtimishierarhiast, kus juhataja tase Employee.line = 1.
+
 2.  Lõplik ülevaade. Lisage see element oleku muudatuse kontrollimiseks olekust **Ülevaatuseks valmis** olekuni **Lõplik ülevaade**. Muutke määramist, et kasutada juhtimishierarhiast, kus juhataja tase Employee.line = 1, kui soovite, et juhataja kinnitaks lõpliku ülevaate. Muutke määramine töövoo kasutajaks, kui soovite, ülevaate kinnitaks töövõtja. Kui soovite, et ülevaate kinnitaks nii juhataja kui ka töövõtja, lisake töövoogu kaks etappi ja tehke iga etapi jaoks vastav määramine järjekorras, milles soovite kinnitamisi.
 
 ## <a name="setup"></a>Häälestus
+
 Saadaval on kolm lehte, mis aitavad teil häälestada jõudluse protsessi lõpetamiseks vajalikku teavet: **mõõtmiste** leht, **jõudluse töölehe allikatüüpide** leht ja **ülevaate tüüpide** leht.
 
 ### <a name="measurements"></a>Mõõtmised
@@ -150,6 +163,3 @@ Jõudluse töölehe allikatüübid kirjeldavad, kust jõudluse töölehed tuleva
 ### <a name="review-types"></a>Ülevaate tüübid
 
 Jõudluse ülevaate tüübid aitavad teil kontrollida ülevaate käitumist. Saate lubada või keelata ülevaate töövoo. Kui ülevaade ei kasuta töövoogu, saate määrata vaikeoleku, mida kasutatakse ülevaate loomisel. Samuti saate otsustada, kas ülevaatele peavad nõusoleku andma töövõtja, juhataja või mõlemad.
-
-
-

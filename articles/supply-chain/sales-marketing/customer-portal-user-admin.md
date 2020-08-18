@@ -3,7 +3,7 @@ title: Kliendiportaali kasutajate loomine ja haldamine
 description: Selles teemas selgitatakse, kuidas luua kliendiportaali kasutajakontosid ja seadistada neile lubasid.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: c56e41b8ea5039531205083b5b42aff05e05cf66
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413955"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645309"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Kliendiportaali kasutajate loomine ja haldamine
 
@@ -30,11 +30,16 @@ Enne, kui kasutaja saab veebisaiti kasutada, tuleb luua sellele kasutajale konta
 
 Kasutajate iseregistreerumise korral luuakse neile automaatselt kontakti kirjed. Seega ei saa te tagada, et kasutaja valib õige kliendikonto ja juriidilise isiku. Kutseprotsess võimaldab aga administraatoril määrata kontakti kirjele õige kliendikonto ja juriidiline isik enne kutse saatmist. Kui mõtlete lahenduse kohandamisele, et kasutajad saaksid ise registreeruda, siis tasub kindlasti eelnevalt kaaluda võimalikke tagajärgi.
 
+## <a name="video"></a>Video
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
+
+Video [Klientide kutsumine registreeruma ja kliendiportaali kasutama](https://youtu.be/drGUYHX9QIQ) (kuvatud eespool) on kaasatud [Finance and Operationsi esitusloendisse](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), mis on saadaval YouTube'is.
+
 ## <a name="prerequisite-setup"></a>Eeltingimuste seadistamine
 
 Power Appsi portaalides salvestatakse kontaktid Common Data Service'is kirjetena üksuses **Kontaktid**. Seejärel sünkroonib topeltkirjutus need kirjed vajaduse järgi teenuses Microsoft Dynamics 365 Supply Chain Management.
 
-![![Süsteemi diagramm kliendiportaali kontaktide jaoks](media/customer-portal-contacts.png "Süsteemi diagramm kliendiportaali kontaktide jaoks")](media/customer-portal-contacts.png "System diagram for Customer portal contacts")
+![Süsteemi diagramm kliendiportaali kontaktide jaoks](media/customer-portal-contacts.png "Süsteemi diagramm kliendiportaali kontaktide jaoks")
 
 Enne uute klientide kutsumist veenduge, et oleksite lubanud topeltkirjutuses üksuse **Kontakt** vastendamise.
 

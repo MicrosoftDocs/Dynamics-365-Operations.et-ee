@@ -3,7 +3,7 @@ title: Sisuedastusvõrgu (CDN) toe lisamine
 description: See teema kirjeldab, kuidas lisada oma Microsoft Dynamics 365 Commerce keskkonnale sisuedastusvõrk (CDN).
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: febef3bcc06dc1b5868a0decebee33d76110c505
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533340"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646035"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Sisuedastusvõrgu (CDN) toe lisamine
 
@@ -35,9 +35,9 @@ See teema kirjeldab, kuidas lisada oma Microsoft Dynamics 365 Commerce keskkonna
 
 Rakenduses Dynamics 365 Commerce e-kaubanduse keskkonda seadistades saate konfigureerida selle töötama koos oma CDN-i teenusega. 
 
-Teie kohandatud domeeni saab lubada e-kaubanduse keskkonna ettevalmistamisprotsessi käigus. Teise võimalusena saate kasutada teenusetaotlust, et seadistada see pärast ettevalmistusprotsessi lõpetamist. E-kaubanduse keskkonna ettevalmistamisprotsess loob hostinime, mis on keskkonnaga seotud. Sellel hostinimel on järgmine vorming, kus *e-kaubanduse-rentniku-nimi* on teie keskkonna nimi:
+Teie kohandatud domeeni saab lubada e-kaubanduse keskkonna ettevalmistamisprotsessi käigus. Teise võimalusena saate kasutada teenusetaotlust, et seadistada see pärast ettevalmistusprotsessi lõpetamist. E-kaubanduse keskkonna ettevalmistamisprotsess loob hostinime, mis on keskkonnaga seotud. Sellel hostinimel on järgmine vorming, kus \<*e-commerce-tenant-name*\> on teie keskkonna nimi.
 
-&lt;e-kaubanduse-rentniku-nimi&gt;.commerce.dynamics.com
+&lt;e-commerce-tenant-name&gt;.commerce.dynamics.com
 
 Ettevalmistusprotsessi käigus loodud hostinimi või lõpp-punkt toetab turvasoklite kihi (SSL) serti ainult \*.commerce.dynamics.com-i jaoks. See ei toeta kohandatud domeenide SSL-i. Seega peate kohandatud domeenide SSL-i määrama oma CDN-is ja edastama liikluse CDN-ist kaubanduse loodud hostinimele või lõpp-punktile. 
 
@@ -65,7 +65,7 @@ Commerce’i keskkonnaga saab kasutada mis tahes CDN-i teenust. Järgmisena on t
 CDN-i seadistamise protsess koosneb järgnevatest üldistest etappidest.
 
 1. Lisage eesserveri host.
-1. Konfigureerige lõppserveri kaust.
+1. Konfigureerige tagaserverite kaust.
 1. Seadistage marsruudivalik ja vahemällu salvestamine.
 
 ### <a name="add-a-front-end-host"></a>Eesserveri hosti lisamine
@@ -74,18 +74,20 @@ Kasutada võib mis tahes CDN-i teenust, kuid näiteks selles teemas kasutatakse 
 
 Teavet Azure’i sisenemispunkti teenuse seadistamise kohta vaadake teemast [Lühijuhend: suure saadavusega globaalse veebirakenduse jaoks sisenemispunkti loomine](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door).
 
-### <a name="configure-a-back-end-pool-in-azure-front-door-service"></a>Azure’i sisenemispunkti teenuses lõppserveri kausta konfigureerimine
+### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>Azure’i sisenemispunkti teenuses tagaserverite kausta konfigureerimine
 
-Azure’i sisenemispunkti teenuses lõppserveri kausta konfigureerimiseks järgige järgmisi etappe.
+Azure’i sisenemispunkti teenuses tagaserverite kausta konfigureerimiseks järgige järgmisi etappe.
 
-1. Lisage lõppserveri kaustale kohandatud hostiks **&lt;ecom-rentniku-nimi&gt;.commerce.dynamics.com**, millel on tühi lõppserveri hosti päis.
-1. Suvandis **Seisundiuuringud** väljal **Tee** sisestage **/keepalive**.
-1. Väljale **Intervallid (sekundid)** sisestage **255**.
+1. Lisage tagaserverite kaustale kohandatud hostiks **&lt;ecom-tenant-name&gt;.commerce.dynamics.com**, millel on tühi tagaserveri hosti päis.
 1. Suvandis **Koormusetasandus** säilitage vaikeväärtused.
 
-Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogiaken **Lisa lõppserveri kaust**.
+Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogiboks **Lisa tagaserver**, millesse on sisestatud tagaserveri hosti nimi.
 
 ![Tagaserveri dialoogiakna lisamine](./media/CDN_BackendPool.png)
+
+Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogiboks **Lisa tagaserverite kaust** koos koormuse tasakaalustamise vaikeväärtustega.
+
+![Jätkuv tagaserveri dialoogiboksi lisamine](./media/CDN_BackendPool_2.png)
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Azure’i sisenemispunkti teenuse reeglite seadistamine
 
@@ -121,20 +123,22 @@ Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogia
 
 ![Reegli dialoogiakna lisamine](./media/CDN_CachingRule.png)
 
-Pärast selle algse konfiguratsiooni juurutamist peate lisama Azure’i sisenemispunkti teenuse konfiguratsioonile oma kohandatud domeeni. Kohandatud domeeni lisamiseks (nt `www.fabrikam.com`) peate konfigureerima domeeni kanoonilise nime (CNAME).
+> [!WARNING]
+> Kui domeen, mida te kasutama hakkate, on juba aktiivne ja kasutusvalmis, looge teenuse [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) paanil **Tugi** tugiteenusepilet, et saada järgmiste sammude jaoks abi. Lisateavet leiate teemast [Finance and Operationsi rakenduste või teenuse Lifecycle Services (LCS) tugi](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+
+Kui teie domeen on uus ja ei ole olemasolev kasutatav domeen, saate lisada oma kohandatud domeeni Azure'i sisenemispunkti teenuse konfiguratsiooni. See võimaldab suunata veebiliiklust teie saidile Azure'i sisenemispunkti teenuse kaudu. Kohandatud domeeni lisamiseks (nt `www.fabrikam.com`) peate konfigureerima domeeni kanoonilise nime (CNAME).
 
 Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogiaken **Konfiguratsioon CNAME**.
 
 ![Dialoogiaken Konfiguratsioon CNAME](./media/CNAME_Configuration.png)
-
-> [!NOTE]
-> Kui domeen, mida kasutate, on juba aktiivne ja avaldatud, võtke ühendust toega, et lubada see domeen Azure’i sisenemispunkti teenusega testi seadistamiseks.
 
 Saate kasutada Azure’i sisenemispunkti teenust serdi haldamiseks või saate kasutada oma kohandatud domeeni serti.
 
 Järgmisel illustratsioonil on näha Azure’i sisenemispunkti teenuse dialoogiaken **Kohandatud domeeni HTTPS**.
 
 ![Dialoogiaken Kohandatud domeeni HTTPS](./media/Custom_Domain_HTTPS.png)
+
+Üksikasjalikku teavet kohandatud domeeni lisamise kohta oma Azure'i sisenemispunkti leiate teemast [Kohandatud domeeni lisamine sisenemispunkti](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
 
 Teie CDN peaks nüüd olema õigesti konfigureeritud, et seda saaks teie Commerce’i saidiga kasutada.
 

@@ -3,7 +3,7 @@ title: Common Data Service'i integratsiooni konfigureerimine
 description: Saate Common Data Service’i ja Dynamics 365 Human Resourcesi vahelise integratsiooni sisse või välja lülitada. Samuti saate vaadata sünkroonimise üksikasju, tühjendada jälgimise andmeid ja üksust uuesti sünkroonida, et aidata nende kahe keskkonna vahel probleeme lahendada.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431310"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621300"
 ---
 # <a name="configure-common-data-service-integration"></a>Common Data Service'i integratsiooni konfigureerimine
 
@@ -66,6 +66,9 @@ Võib-olla soovite integratsiooni välja lülitada järgmistes olukordades.
 - Integratsiooni väljalülitamiseks seadke suvandi väärtuseks **Ei**.
 
 [![Rakenduse Common Data Service integratsiooni sisse või välja lülitamine](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+> [!WARNING]
+> Soovitame andmete migreerimisega tegeledes tungivalt Common Data Service'i integratsiooni välja lülitada. Mahukate andmete üleslaadimine võib jõudlust oluliselt mõjutada. Näiteks võib 2000 töötaja üleslaadimine võtta mitu tundi, kui integratsioon on lubatud, ja vähem kui üks tund, kui see on keelatud. Näites toodud numbrid on mõeldud ainult selgitamiseks. Kirjete importimiseks kuluv täpne aeg võib mitme teguri põhjal olla väga erinev.
 
 ## <a name="view-data-integration-details"></a>Andmete integratsiooni üksikasjade ülevaade
 

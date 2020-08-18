@@ -70,15 +70,15 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Managementi 10.0.12 (august 2020)
+                    - name: Supply Chain Management 10.0.13 (oktoober 2020)
+                      href: get-started/whats-new-scm-10-0-13.md
+                    - name: Supply Chain Management 10.0.12 (august 2020)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (juuli 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (mai 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
-                    - name: Dynamics 365 Supply Chain Managementi eemaldatud või aegunud funktsioonid
+                    - name: Dynamics 365 Supply Chain Managementi eemaldatud või iganenud funktsioonid
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Varasematest versioonidest eemaldatud või iganenud funktsioonid
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
@@ -109,23 +109,23 @@
             - name: Õppekataloog
               items:
                 - name: Õppekataloogi avaleht
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Äriotsuste tegijad
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ärikasutajad
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Juurutusprojekti juhid
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administraatorid
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Arendajad
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Partneri müük ja turundus
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Funktsioonikonsultandid
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Lahenduste arhitektid
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Kasutajaliidesega tutvumine
               items:
                 - name: Kasutajaliidese elemendid
@@ -1255,9 +1255,11 @@
                   href: inventory/tasks/create-maintain-inventory-blocking.md
             - name: Varude toimingud
               items:
-                - name: Laotöölehed
+                - name: Varude töölehed
                   href: inventory/inventory-journals.md
-                - name: Lao asukohad
+                - name: Varude töölehe kinnitustöövood
+                  href: inventory/inventory-journal-workflow.md
+                - name: Ladude asukohad
                   href: inventory/inventory-locations.md
                 - name: Varude olekud
                   href: inventory/inventory-statuses.md
@@ -1265,11 +1267,13 @@
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: Vöötkooditüüpide haldamine
                   href: inventory/tasks/maintain-barcode-types.md
-                - name: Varude saadavuse kontrollimine
+                - name: Laovaru saadavuse kontrollimine
                   href: inventory/tasks/check-availability-stock.md
+                - name: Vaba kaubavaru loend
+                  href: inventory/inventory-on-hand-list.md
                 - name: Laovaru tasemete lähtestamine laos
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
-                - name: Füüsiliste laovarude ülekandmine laos
+                - name: Füüsiliste varude ülekandmine laos
                   href: inventory/tasks/transfer-physical-inventory-within-warehouse.md
                 - name: Laovaru tasemete korrigeerimine laos (üldine ladustamine)
                   href: inventory/tasks/adjust-stock-levels-warehouse-basic-warehousing.md
@@ -1945,15 +1949,15 @@
                       href: production-control/operations-resources.md
                     - name: Toiminguressursi loomine
                       href: production-control/tasks/create-operations-resource.md
-                    - name: Ressursi võimalused
+                    - name: Ressursivõimalused
                       href: production-control/resource-capabilities.md
                     - name: Ressursivõimaluste määratlemine
                       href: production-control/tasks/define-resource-capabilities.md
                     - name: Protsessid ja toimingud
                       href: production-control/routes-operations.md
-                    - name: Lao tööpoliitikad
+                    - name: Tööpoliitikad
                       href: warehousing/warehouse-work-policies.md
-                    - name: Tööaegade plaanimisatribuutide loomine
+                    - name: Tööaja plaanimisatribuutide loomine
                       href: production-control/tasks/create-working-time-scheduling-properties.md
                     - name: Tööaja mallide loomine
                       href: production-control/tasks/create-working-time-templates.md
@@ -2585,11 +2589,13 @@
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Asukohakorralduse häälestus ostutellimuse kõrvalepaneku jaoks
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: Ostutellimuste jaoks töömalli häälestus
+                - name: Ostutellimuste jaoks töömalli seadistamine
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Asukoha tootedimensioonide segamine
                   href: warehousing/location-product-dimension-mixing.md
-            - name: Väljuvate kaupade lao toimingud
+                - name: Kvaliteedikontroll
+                  href: warehousing/quality-check.md
+            - name: Väljuvate kaupade laotoimingud
               items:
                 - name: Reserveerimised laohalduses
                   items:
@@ -2643,15 +2649,19 @@
                       href: warehousing/immediate-replenishment.md
                     - name: Täiendamine tagastamiskanbanitega
                       href: warehousing/material-replenishment-withdrawal-kanban.md
-                    - name: Min-max täiendamisprotsessi häälestus
+                    - name: Min-max täiendamisprotsessi seadistamine
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Tsooniläve täiendamine
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Täiendamine üle asukoha võimsuse
+                      href: warehousing/replenishment-over-location-capacity.md
                 - name: Koorma koostamine ja saadetised
                   items:
                     - name: Kinnitamine ja üleviimine
                       href: warehousing/confirm-and-transfer.md
-                    - name: Täiustatud koormuse koostamine voo ajal
+                    - name: Pakett-töö väljuvate saadetiste kinnitamine
+                      href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
+                    - name: Täiustatud koorma koostamine voo ajal
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Laoreeglile vabastamine
                       href: warehousing/release-to-warehouse-rule.md
@@ -2679,10 +2689,8 @@
               items:
                 - name: Lao tööpoliitikad
                   items:
-                    - name: Lao tööpoliitikate ülevaade
+                    - name: Tööpoliitikad
                       href: warehousing/warehouse-work-policies.md
-                    - name: Lao tööpoliitikate häälestus
-                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
                     - name: Seostatud tööga varude teisaldamine laohalduses
                       href: warehousing/move-inventory-associated-work.md
                     - name: Tööklassi loomine
@@ -2715,9 +2723,9 @@
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
                     - name: Laohalduse vabade kannete puhastamise töö
                       href: warehousing/onhand-cleanup.md
-                    - name: Varude tööleht
+                    - name: Varude töölehed
                       href: inventory/inventory-journals.md
-                    - name: Varude asukoht
+                    - name: Lao asukoht
                       href: inventory/inventory-locations.md
                     - name: Varude olek
                       href: inventory/inventory-statuses.md

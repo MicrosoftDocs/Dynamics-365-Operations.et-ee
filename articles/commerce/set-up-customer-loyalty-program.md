@@ -3,7 +3,7 @@ title: Püsikliendi ülevaade
 description: Selles teemas kirjeldatakse rakenduse Dynamics 365 Commerce püsikliendi võimalusi ja vastavaid seadistusetappe, mis aitavad jaemüüjal hõlpsasti oma püsikliendiprogrammiga algust teha.
 author: scott-tucker
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 337ede63cb9175f2674bae8f2caaac5f1ba5f5cb
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fd0ceefe1890214ab5fe2f619f6bf8ce718dec11
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022298"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613199"
 ---
 # <a name="loyalty-overview"></a>Püsikliendi ülevaade
 
@@ -55,7 +55,7 @@ Järgmises tabelis kirjeldatakse kõiki komponente ja nende kasutuskohta püsikl
 | Allahindluste seadistamine (eeltingimus)                  | Seadistage püsiklientidele pakutavad allahindlused. Näiteks saate teha 5-protsendise allahindluse kõigile rõivatoodetele. | Allahindlused tuleb lisada hinnagruppidele, enne kui need saab kaasata püsikliendiprogrammi. Hinnagrupid määratakse püsikliendiprogrammidele ja püsikliendijärkudele. |
 | Hinnagruppide seadistamine (eeltingimus)               | Hinnagruppe kasutatakse toodete hindade ja allahindluste loomiseks ning haldamiseks. Seadistage hinnagrupid, mis sisaldavad teie püsikliendiprogrammidele kehtivaid allahindlusi. | Hinnagrupid määratakse püsikliendiprogrammidele ja püsikliendiprogrammi järkudele. |
 | Kanalite seadistamine (eeltingimus)                   | Kaubanduse kanalid on püsikliendiprogrammides osalevad poed, nagu füüsiline kauplus, veebipood või kõnekeskus. Peate seadistama kanalid, enne kui saate neile püsikliendiprogrammid määrata. | Määrake püsikliendiprogrammile kanalid, kui kanal osaleb püsikliendiprogrammis. |
-| Püsikliendi makseviisi seadistamine (eeltingimus) | Enne kui kliendikaarti saab registris kasutada ja boonuspunkte püsikliendiprogrammi osana lunastada, peate seadistama makseviisi. Peate püsikliendi makseviisi lisama ka kanalile, enne kui kliendid saavad lunastada oma boonuspunkte toodete eest tasumiseks. | Seadistage püsikliendi makseviis ja määrake seejärel püsikliendi makseviis püsikliendiprogrammis osalevate kanalite jaoks. |
+| Püsikliendi makseviisi seadistamine (eeltingimus) | Et tagada püsikliendi punktide lunastamine mis tahes kanalis (nt füüsilised kauplused, veebipoed või kõnekeskused), peate lehel **Kaardinumbrid** häälestama kliendikaartide asukohavahemiku. | Seadistage püsikliendi makseviis ja määrake seejärel püsikliendi makseviis püsikliendiprogrammis osalevate kanalite jaoks. |
 | Kuupäevaintervallide seadistamine                            | Kuupäevaintervallid võimaldavad paindlikult püsikliendijärkudele kehtivat ajavahemikku seadistada. Kuupäevaintervallidega saate määrata, kui kaua saab klient ühes järgus olla või kui palju aega on kliendil järku kvalifitseerumise jaoks tegevuse lõpetamiseks. | Kuupäevaintervallid kehtivad ainult siis, kui kasutate püsikliendiprogrammides järkusid. Valige kuupäevaintervall, mis kehtib programmi järkudele, ja kuupäevavahemikud, mis kehtivad programmi järgu reeglitele. |
 | Preemiapunktide seadistamine                             | Preemiapunktid on teatud tüüpi preemiad, mida klientidele pakute. Preemiapunktid võivad olla lunastatavad või mittelunastatavad. Lunastatavaid preemiapunkte saab vahetada toodete vastu. Mittelunastatavaid preemiapunkte kasutatakse jälgimiseks või kliendi edendamiseks püsikliendiprogrammi järgmisesse järku. | Preemiapunktidele viidatakse järgureeglites ja neid kasutatakse selleks, et klient kvalifitseeruks konkreetse järgu jaoks. Preemiapunktidele viidatakse ka püsikliendiskeemide teenimise ja lunastamise reeglites. Teenimisreeglites määrate preemiad, mille klient saab konkreetse tegevuse eest teenida. Lunastamisreeglites määrate preemia, mille klient lunastada saab. |
 | Püsikliendiprogrammide seadistamine                          | Püsikliendiprogrammid on peamine püsikliendiüksus, mida pakute. Igale püsikliendiprogrammile võivad olla määratud püsikliendijärgud. Allahindlused ja hinnagrupid määratakse püsikliendiprogrammidele kas programmi tasemel või järgu tasemel. | Looge püsikliendiprogrammide jaoks püsikliendiskeeme. Määrake püsikliendiprogrammidele kliendikaardid ja kliendikaarte saab kliendile määrata. Kanalid osalevad püsikliendiprogrammides, mis määratakse püsikliendiskeemidele. Kõik kliendikaardiga kliendid saavad osaleda kaardile määratud püsikliendiprogrammides. |

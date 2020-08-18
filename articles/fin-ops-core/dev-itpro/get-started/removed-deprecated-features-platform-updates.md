@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 50362ccd9df7a44961bd6e46fa16779829b1c408
-ms.sourcegitcommit: 96ec8b7252296de0049bff406c743f8da9e0f0be
+ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3606818"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651662"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või aegunud platvormi funktsioonid
 
@@ -38,8 +38,7 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.13 värskendused
 
 > [!NOTE]
-> Versiooni 10.0.13 pole veel välja antud. See teave on mõeldud plaanimiseks. Versiooni 10.0.13 sisu ja funktsioonid võivad muutuda. Lisateavet väljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](../../fin-ops/get-started/public-preview-releases.md).
-
+> Versioon 10.0.13 on eelväljaanne. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Kolme jQuery komponenditeegi täiendamine 
 
@@ -50,6 +49,27 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 | **Mõjutatud tootealad**         | Laiendatavad juhtelemendid, täpsemalt kohandatud JavaScripti kood, mis kasutab iganenud või eemaldatud API-sid |
 | **Juurutamissuvand**              | Kõik |
 | **Olek**                         | Versioonis 10.0.13 / platvormivärskenduses 37 saavad kliendid pärast funktsiooni „Kolme jQuery komponenditeegi täiendamine” lubamist hakata soovi korral kasutama uusimaid teeke. Uued teegid tuleb kasutusele võtta 2021. aprilli väljaandega, et anda aega mõjutatud API-de migreerimiseks.   |
+
+### <a name="existing-grid-controlforcelegacygrid-api"></a>Olemasoleva tabeli juhtelement/forceLegacyGrid() API
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Olemasoleva tabeli juhtelement asendatakse uue ruudustiku juhtelemendiga. |
+| **Asendatud teise funktsiooniga?**   | [Uue tabeli juhtelement](../..//fin-ops/get-started/grid-capabilities.md) |
+| **Mõjutatud tootealad**         | Veebiklient |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Versioonis 10.0.13 on uus tabeli juhtelement üldiselt saadaval ja kliendid saavad funktsiooni valikuliselt sisse lülitada. Uus tabeli juhtelement muutub kohustuslikuks 2021. aasta oktoobri väljalaskes. Kui uus tabeli juhtelement muutub kohustuslikuks ei saa **forceLegacyGrid()** API-t enam kasutada. |
+
+### <a name="personalization-without-saved-views"></a>Salvestatud vaadeteta isikupärastamine 
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Isikupärastamise alamsüsteem on muudetud salvestatud vaadete funktsiooniga nii, tagamaks parema jõudluse ja pakkumaks täiendavaid võimalusi. |
+| **Asendatud teise funktsiooniga?**   | Salvestatud vaated |
+| **Mõjutatud tootealad**         | Veebiklient |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Versioonis 10.0.13/Platvormi värskendusega nr 37 on salvestatud vaadete funktsioon üldiselt saadaval ja kliendid saavad selle valikuliselt sisse lülitada. Salvestatud vaadete funktsioon muutub kohustuslikuks 2021. aasta oktoobri väljalaskes. |
+
 
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.12 värskendused
 
