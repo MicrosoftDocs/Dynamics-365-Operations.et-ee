@@ -2751,6 +2751,8 @@
                       href: inventory/warehouse-template.md
                     - name: Töö juhtimine töömallide ja asukohakorralduste abil
                       href: warehousing/control-warehouse-location-directives.md
+                    - name: Asukohakorralduste loomine
+                      href: warehousing/create-location-directive.md
                     - name: Vooetapi koodid
                       href: warehousing/wave-step-codes.md
                     - name: Vootöötluse konfigureerimine
@@ -2821,6 +2823,8 @@
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json
             - name: Uue transpordihalduse mootori loomine
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Vaba kaubavaru andmeüksuste laiendamine
+              href: inventory/extend-on-hand-entities.md
     - name: Finance and Operationsi rakenduste juurutamine ja haldamine
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

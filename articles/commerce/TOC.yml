@@ -404,16 +404,10 @@
                           href: Notifications-POS.md
                         - name: Kassarakenduse ja kasutaja keelesätted
                           href: pos-application-user-language-settings.md
-                        - name: Piltide häälestus ja haldamine MPOS-i jaoks
+                        - name: Kujutiste häälestus ja haldamine MPOS-i jaoks
                           href: set-up-manage-images-retail-mpos.md
                         - name: Kliendi pildid kassas
                           href: pos-image.md
-                    - name: Kliendi tellimused
-                      items:
-                        - name: Kliendi tellimused MPOS-is
-                          href: customer-orders-overview.md
-                        - name: Hübriidkliendi tellimused
-                          href: hybrid-customer-orders.md
                     - name: Müügi koostööpartnerid
                       items:
                         - name: Komisjonitasude jälgimine kassas müügigruppide abil
@@ -630,6 +624,8 @@
                       href: personalized-recommendations.md
                     - name: Isikupärastatud tootesoovitustest loobumine
                       href: personalization-gdpr.md
+                - name: Luba "osta sarnaseid" soovitused
+                  href: shop-similar-looks.md
                 - name: Kassa kasutusfunktsionaalsused
                   items:
                     - name: Tootesoovituste lisamine kassas
@@ -692,6 +688,12 @@
                       href: tasks/create-product-packages-purchase-orders.md
         - name: Tellimuste haldamine
           items:
+            - name: Kliendi tellimused
+              items:
+                - name: Kliendi tellimused MPOS-is
+                  href: customer-orders-overview.md
+                - name: Hübriidkliendi tellimused
+                  href: hybrid-customer-orders.md
             - name: Müügitellimused
               items:
                 - name: Kõnekeskuse tellimuse loomine
@@ -988,6 +990,12 @@
                       href: cart-icon-module.md
                     - name: Maksmismoodul
                       href: add-checkout-module.md
+                    - name: Makse moodul
+                      href: payment-module.md
+                    - name: Tarneaadressi moodul
+                      href: ship-address-module.md
+                    - name: Tarnesuvandite moodul
+                      href: delivery-options-module.md
                     - name: Tellimuse üksikasjade moodul
                       href: order-confirmation-module.md
                     - name: Kinkekaardi moodul
@@ -1974,6 +1982,8 @@
                       href: e-commerce-extensibility/extend-module-definition.md
                     - name: Küpsise API ülevaade
                       href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: Interaktiivsete komponentide ülevaade
+                      href: e-commerce-extensibility/interactive-components.md
                     - name: Moodulite globaliseerimine klassi CultureInfoFormatter abil
                       href: e-commerce-extensibility/globalize-modules.md
                 - name: Andmetegevuste haldamine
@@ -2026,6 +2036,10 @@
                   items:
                     - name: Skripti sisestajad
                       href: e-commerce-extensibility/script-injector.md
+                - name: Konnektorid
+                  items:
+                    - name: Konnektorite konfigureerimine ja lubamine
+                      href: e-commerce-extensibility/connectors.md
                 - name: Telemeetria ja analüüs
                   items:
                     - name: Telemeetria logija
@@ -2042,6 +2056,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Retail SDK tulevased muudatused
                   href: dev-itpro/UpcomingSDKChanges.md
+                - name: Oluline arendus ja ALM-i muudatused versioonist 10.0.10 kuni versioonini 10.0.13
+                  href: dev-itpro/dev-changes-10-13.md
                 - name: Commerce'i ja Finance and Operationsi järgusüsteemide ühendamine
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Retail SDK migreerimine versioonist Visual Studio 2015 versiooni Visual Studio 2017
@@ -2118,15 +2134,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Retail Serveri laiendatavus
               items:
-                - name: Commerce Scale Uniti OData kontrolleri laiendamine
-                  href: dev-itpro/extend-retail-server-odata-controller.md
                 - name: Commerce Scale Uniti kliendi ja tarbija API-d
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Commerce Scale Uniti vaikemetaandmete kontrolleri laiendamine
-                  href: dev-itpro/extend-metadata.md
-                - name: CRT teenusele helistamine ühenduseta režiimis
-                  href: dev-itpro/call-crt-service-offline.md
-                - name: Uue Retail Serveri laienduse loomine
+                - name: Uue Retail Serveri laienduse API loomine (Retaili SDK versioon 10.0.11 ja hilisem)
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: Uue Retail Serveri laienduse API loomine (Retaili SDK versioon 10.0.11 ja varasem)
                   href: dev-itpro/retail-server-extension.md
                 - name: Retail Typescript ja C# puhvrid
                   href: dev-itpro/typescript-proxy-retail-pos.md
@@ -2138,16 +2150,12 @@
                   href: dev-itpro/crt-services.md
                 - name: CRT ja Retail Serveri laiendatavus
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: Kliendi eelistuse andmete lisamine kanali andmebaasidesse
-                  href: dev-itpro/add-customer-preference-channel.md
                 - name: Retaili kanalite saladuste haldamine
                   href: dev-itpro/manage-secrets.md
                 - name: CRT laiendatavus ja päästikud
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Kannete blokeerimine päästikute abil
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: Tagastuspoliitika juurutamine päästikute abil
-                  href: dev-itpro/trigger-example-return-policy.md
                 - name: Püsikliendi laiendus
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                 - name: Saatelehtede laienduspunktid
@@ -2198,7 +2206,7 @@
                   href: dev-itpro/ecommerce-platform-sdk.md
             - name: Commerce'i laiendiressursside ja sildifailide lokaliseerimine
               href: dev-itpro/extension-resource-localization.md
-    - name: Rakenduste Finance and Operations arendamine ja haldus
+    - name: Finance and Operationsi rakenduste juurutamine ja haldamine
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
