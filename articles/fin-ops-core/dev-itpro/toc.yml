@@ -1,10 +1,10 @@
-- name: Rakenduste Finance and Operations arendamine ja haldus
+- name: Finance and Operationsi rakenduste juurutamine ja haldamine
   items:
-    - name: Rakenduste Finance and Operations arendamine ja haldus
+    - name: Finance and Operationsi rakenduste juurutamine ja haldamine
       items:
         - name: Rakenduse Finance and Operations dokumentatsioon
           href: ../fin-ops/index.md
-        - name: Rakenduste Finance and Operations arendamine ja haldus
+        - name: Finance and Operationsi rakenduste juurutamine ja haldamine
           href: index.md
         - name: Mis on uut või mida on muudetud?
           items:
@@ -156,6 +156,8 @@
                           items:
                             - name: Üksuse- ja väljavastenduste kohandamine
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Mitme üksuse kaartide käsitlemine
+                              href: data-entities/dual-write/multiple-entity-maps.md
                             - name: Juriidilise isiku redigeerimine pärast topeltkirjutamise seadistamist
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: Tõrkehaldus ja teatised
