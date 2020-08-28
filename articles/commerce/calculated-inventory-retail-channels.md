@@ -3,7 +3,7 @@ title: Jaemüügikanalite varude saadavuse arvutamine
 description: Selles teemas kirjeldatakse valikuid, mis on poe- ja võrgukanalite vabade varude näitamiseks saadaval.
 author: hhainesms
 manager: annbe
-ms.date: 05/15/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.openlocfilehash: 6d25a426268ebfb6990eb3dadb1ad451f86f59a1
+ms.sourcegitcommit: 65a8681c46a1d99e7ff712094f472d5612455ff0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379232"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3694918"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Jaemüügikanalite varude saadavuse arvutamine
 
@@ -40,7 +40,7 @@ Selles teemas selgitatakse andmete sünkroonimise protsesse, mida saab sageli k�
 
 Klientide e-Commerce’i saidil ostlemisel toote varu saadavuse kuvamiseks saate kasutada järgmisi API-sid.
 
-- **GetEstimatedAvailability** – kasutage seda API-d, et hankida üksuse varude saadavus e-kaubanduse kanali laos või kõikides ladudes, mis on seotud e-kaubanduse kanali täitmisgrupi konfiguratsiooniga. Seda API-d saab kasutada kindlal otsingualal või raadiuses ka ladude jaoks, mis põhineb pikkuskraadi ja laiuskraadi andmetel.
+- **GetEstimatedAvailability** – kasutage seda API-d, et hankida kaubavarude saadavus e-kaubanduse kanali laos või kõikides ladudes, mis on seotud e-kaubanduse kanali täitmisgrupi konfiguratsiooniga. Seda API-d saab kasutada kindlal otsingualal või raadiuses ka ladude jaoks, mis põhineb pikkuskraadi ja laiuskraadi andmetel.
 - **GetEstimatedProductWarehouseAvailability** – Kasutage seda API-d konkreetses laos toote kaubavaru küsimiseks. Näiteks saate seda kasutada varu saadavuse kuvamiseks tellimuse pealevõtmist sisaldavates stsenaariumides.
 
 > [!NOTE]
@@ -66,7 +66,7 @@ Pärast seda, kui **toote saadavuse** töö käitamine on lõpetatud, tuleb jä�
 1. Avage **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Jaotusgraafik**.
 1. Käivitage töö **1130** (**Toote saadavus**), et sünkroonida hetktõmmise andmed, mille **toote saadavuse** töö Commerce Headquartersis lõi, oma kanali andmebaasidega.
 
-Kui varude saadavus taotletakse API-lt **GetEstimatedAvailabilty** või **ProductWarehouseInventoryAvailabilities**, käivitatakse arvutus, et proovida hankida toote varude parim võimalik hinnang. Arvutus viitab kõigile e-Commerce’i klienditellimustele, mis on kanali andmebaasis, kuid mida ei kaasatud hetktõmmise andmetes, mille töö 1130 esitas. See loogika teostatakse, jälgides Commerce Headquartersi viimast töödeldud laokannet ja võrreldes seda kanali andmebaasi kannetega. See annab kanalipoolse arvutusloogika jaoks võrdlusaluse, nii et täiendavad varude liikumised, mis e-Commerce’i kanali andmebaasides klienditellimuse müügitehingute jaoks aset leidsid, saab liita API edastatava hinnanguliste varude väärtusele.
+Kui varude saadavust taotletakse API-lt **GetEstimatedAvailability** või **GetEstimatedProductWarehouseAvailability**, käivitatakse arvutus, et proovida hankida toote varude parim võimalik hinnang. Arvutus viitab kõigile e-Commerce’i klienditellimustele, mis on kanali andmebaasis, kuid mida ei kaasatud hetktõmmise andmetes, mille töö 1130 esitas. See loogika teostatakse, jälgides Commerce Headquartersi viimast töödeldud laokannet ja võrreldes seda kanali andmebaasi kannetega. See annab kanalipoolse arvutusloogika jaoks võrdlusaluse, nii et täiendavad varude liikumised, mis e-Commerce’i kanali andmebaasides klienditellimuse müügitehingute jaoks aset leidsid, saab liita API edastatava hinnanguliste varude väärtusele.
 
 Kanalipoolse arvutuse loogika tagastab taotletud toote ja lao jaoks hinnangulise füüsiliselt saadaoleva väärtuse ja saadaoleva koguväärtuse. Soovi korral saab väärtused kuvada teie e-Commerce’i saidil või neid saab kasutada teie e-Commerce’i saidil teiste äriloogikate käivitamiseks. Näiteks saate kuvada API edastatud tegeliku vabade varude arvu asemel teate „Laost otsas”.
 
@@ -80,7 +80,7 @@ Kui kanalipoolne arvutus on õigesti konfigureeritud ja hallatud, võib see pakk
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Kassa kanali pool arvutatud varude saadavuse kasutamise alustamine
 
-Kanalipoolse arvutamise loogika kasutamiseks ja reaalajas teenuse kutsete väljalülitamiseks kassarakenduse varude otsingu jaoks, peate esmalt lubama Commerce'i peakontori tööruumi **Funktsioonihaldus** kaudu funktsiooni **Optimeeritud toote saadavuse arvutamine**. Lisaks funktsiooni lubamisele, peate tegema muudatused **Funktsiooniprofiili**.
+Kanalipoolse arvutusloogika kasutamiseks ja reaalajas teenuse kutsete väljalülitamiseks kassarakenduse varude otsingu jaoks peate esmalt lubama Commerce'i peakontori tööruumi **Funktsioonihaldus** kaudu funktsiooni **Optimeeritud toote saadavuse arvutamine**. Lisaks funktsiooni lubamisele, peate tegema muudatused **Funktsiooniprofiili**.
 
 **Funktsiooniprofiili** muutmiseks tehke järgmist.
 
@@ -107,6 +107,8 @@ Varude parima võimaliku hinnangu tagamiseks on oluline, et kasutaksite järgmis
 - **Kandeväljavõtete sisestamine partiina** – see töö on samuti vähehaaval toimuvaks sisestamiseks vajalik. See järgib tööd **Kandeväljavõtete arvutamine partiina**. See töö postitab süstemaatiliselt arvutatud väljavõtted, nii et kassamüügi müügitellimused luuakse Commerce Headquartersis ja Commerce Headquarters kajastab täpsemalt teie poe varusid.
 - **Toote saadavus** – see töö loob Commerce Headquartersis varude hetktõmmise.
 - **1130 (toote saadavus)** – see töö asub lehel **Jaotusgraafikud** ja tuleks käitada kohe pärast tööd **Toote saadavus**. See töö transpordib varude hetktõmmise andmed Commerce Headquartersist kanali andmebaasidesse.
+
+On soovitatav, et te ei käitaks neid pakett-töid liiga sageli (iga paari minuti tagant). Sagedased tööd koormavad Commerce'i peakontori (HQ) üle ja võivad mõjutada jõudlust. Üldiselt on hea tava käitada toote saadavuse ja 1130 töid kord tunnis ning ajastada P-töid, sünkroonida tellimusi ja teha vähehaaval toimuvaid sisestamisega seotud töid sama või suurema sagedusega.
 
 > [!NOTE]
 > Jõudluse huvides, kui kanalipoolse varude saadvuse arvutusi kasutatakse e-Commerce’i API-sid või uut kassa kanalipoolset varude loogikat kasutades varude saadavuse taotluse tegemiseks, kasutab arvutus vahemälu, et teha kindlaks, kas arvutuse loogika uuesti käitamise õigustamiseks on möödas piisavalt aega. Vaikimisi vahemäluks on määratud 60 sekundit. Näiteks lülitasite oma poe jaoks sisse kanalipoolse arvutuse ja vaatasite toote vabasid varusid lehel **Varude otsing**. Kui seejärel müüakse üks toote ühik, ei näita leht **Varude otsing** vähendatud varusid enne, kui vahemälu on tühjendatud. Pärast seda, kui kasutajad sisestavad kanded kassas, peaksid nad ootama 60 sekundit enne, kui kontrollivad, kas vabad varud on vähendatud.

@@ -3,7 +3,7 @@ title: Ostukorvi moodul
 description: See teema hõlmab ostukorvi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f21268ed4cffed1d5c789f722796cdf05e965819
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621032"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686762"
 ---
 # <a name="cart-module"></a>Ostukorvi moodul
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab ostukorvi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
@@ -42,9 +43,17 @@ Järgmisel pildil on näide Fabrikami saidi ostukorvi lehest.
 
 ![Ostukorvi mooduli näide](./media/cart2.PNG)
 
+Järgmisel pildil on näide Fabrikami saidi ostukorvi lehest. Selles näites on reakaubal töötluskulu.
+
+![Ostukorvi mooduli näide](./media/ecommerce-handling-fee.png)
+
 ## <a name="cart-module-properties-and-slots"></a>Ostukorvi mooduli atribuudid ja pesad
 
-Ostukorvi moodulis on atribuut **Pealkiri**, mida saab seadistada sellistele väärtustele nagu **Ostukorv** ja **Ostukorvis olevad kaubad**. 
+| Atribuut | Väärtused | Kirjeldus |
+|----------------|--------|-------------|
+| Pealkiri | Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**) | Ostukorvi pealkiri, näiteks „Ostukorv” või „Ostukorvis olevad kaubad”. |
+| Kuva laost otsas varude tõrked | **Tõene** või **Väär** | Kui selle atribuudi väärtuseks on seatud **Tõene**, kuvatakse ostukorvilehel varudega seotud tõrkeid. Soovitame seada selle atribuudi väärtuseks **Tõene**, kui saidil kontrollitakse varusid. |
+| Kuva reakaupade saatekulud | **Tõene** või **Väär** | Kui selle atribuudi väärtuseks on seatud **Tõene**, kuvatakse ostukorvi reakaupade juures saatekulud, kui see teave on saadaval. See funktsioon pole Fabrikami kujunduses toetatud, kuna kasutajad valivad tarneviisi alles maksmise voos. Kuid seda funktsiooni saab sisse lülitada ka teistes töövoogudes, kui see on rakendatav. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Moodulid, mida saab ostukorvi moodulis kasutada
 
@@ -67,9 +76,9 @@ Ostukorvi moodul toob toote teabe välja Commerce Scale Uniti API-de abil. Braus
 
 Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
-1. Avage **Lehe fragmendid** ja valige uue fragmendi loomiseks **Uus**.
+1. Avage **Fragmendid** ja valige uue fragmendi loomiseks **Uus**.
 1. Valige dialoogiboksis **Uus lehe fragment** moodul **Ostukorv**.
-1. Jaotises **Lehe fragmendi nimi** sisestage nimi **Ostukorvi fragment** ja seejärel valige **OK**.
+1. Sisestage jaotises **Lehe fragmendi nimi** nimi **Ostukorvi fragment** ja seejärel valige **OK**.
 1. Valige pesa **Ostukorv**.
 1. Valige parempoolsel atribuutide paanil pliiatsisümbol, sisestage väljale pealkirja tekst ja seejärel valige märkesümbol.
 1. Valige pesas **Ostukorv** kolmikpunkt (**…**) ja seejärel käsk **Lisa moodul**.
@@ -77,7 +86,7 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 1. Valige **Salvesta**, valige fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
 1. Sisestage dialoogiboksis **Uus mall** jaotises **Malli nimi** mallile nimi.
-1. Valige liigendpuust pesa **Keha**, valige kolmikpunkt (**...**) ja seejärel suvand **Lisa fragment**.
+1. Valige liigendpuust pesa **Keha**, valige kolmikpunkt (**...**) ja seejärel suvand **Lisa lehe fragment**.
 1. Valige dialoogiboksis **Lehe fragmendi valimine** fragment **Ostukorvi fragment** ja seejärel valige **OK**.
 1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
@@ -87,22 +96,18 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
-
-[Konteineri moodul](add-container-module.md)
-
-[Kaupluse valimise moodul](store-selector.md)
-
-[Ostukasti moodul](add-buy-box.md)
-
 [Ostukorvi ikooni moodul](cart-icon-module.md)
 
-[Väljaregistreerimismoodul](add-checkout-module.md)
+[Maksmise moodul](add-checkout-module.md)
 
-[Tellimuse kinnituse moodul](order-confirmation-module.md)
+[Maksemoodul](payment-module.md)
 
-[Päise moodul](author-header-module.md)
+[Tarneaadressi moodul](ship-address-module.md)
 
-[Jaluse moodul](author-footer-module.md)
+[Tarnevalikute moodul](delivery-options-module.md)
+
+[Tellimuse üksikasjade moodul](order-confirmation-module.md)
+
+[Kinkekaardi moodul](add-giftcard.md)
 
 [Varude saadavuse arvutamine jaemüügikanalite jaoks](calculated-inventory-retail-channels.md)

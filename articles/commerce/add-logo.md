@@ -19,15 +19,14 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 62b8237fa0c30fa9d901d670de38416cf8615c8d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025686"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686642"
 ---
 # <a name="add-a-logo"></a>Logo lisamine
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,7 +50,7 @@ Enne kui saate lisada logo kõigile oma saidi lehtedele, peate need ülesanded l
 
 Oma saidi päise fragmenti logo lisamiseks toimige järgmiselt.
 
-1. Valige navigeerimispaanilt vasakult suvand **Lehe fragmendid**.
+1. Valige navigeerimispaanilt vasakult suvand **Fragmendid**.
 1. Valige varem loodud päise fragment ja seejärel valige käsk **Redigeeri**.
 1. Laiendage päise moodulit.
 1. Sisestage päise mooduli atribuudi paanile logo jaoks pilt ja link. 

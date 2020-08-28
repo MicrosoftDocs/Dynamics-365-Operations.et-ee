@@ -3,7 +3,7 @@ title: Eemaldatud või aegunud platvormi funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Finance and Operationsi rakenduste platvormi uuendustest.
 author: sericks007
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8b26ad668b6cc15d759e10952c042acd5e85bdea
+ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651662"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3678218"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või aegunud platvormi funktsioonid
 
@@ -39,6 +39,16 @@ See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võ
 
 > [!NOTE]
 > Versioon 10.0.13 on eelväljaanne. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="custom-code-defined-in-ssrs-report-properties"></a>SSRS-aruande atribuutides määratletud kohandatud kood 
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | Üldiselt on kohandatud koodi pakutav kasu piiratud, samal ajal kui selle toetamiseks on vaja märkimisväärseid ressursse ja arvutusvõimsust. Kohandatud koodi kasutavad peamiselt aruande loojad, et kutsuda kohandatud koodi moodulist välja avalikke meetodeid. Siiski ei toeta pilvepõhine teenus SSRS-aruannete puhul viiteid kohandatud moodulitele. |
+| **Asendatud teise funktsiooniga?**   | Aruande loojad võivad jätkata viitamist avalikele .NET-i API-dele, et teha mistahes tekstiboksi avaldises matemaatika, teisenduse ja vorminguga seotud toiminguid. Lisateavet leiate teemast [Koodi lisamine aruandesse (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Mõjutatud tootealad**         | RDL-is määratletud, kohandatud koodi sisaldavate rakenduse aruande kujunduste alamhulk. |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | Versioonis 10.0.13 hakkab kompilaator väljastama hoiatusi selliste eksemplaride korral, mille puhul tuvastati SSRS-aruande definitsioonis kohandatud kood. Probleemi lahendamiseks avage aruande kujunduse definitsioon ja eemaldage kõik kohandatud koodi artefaktid. See hoiatus asendatakse tulevases värskenduses kompilaatori tõrkega.   |
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Kolme jQuery komponenditeegi täiendamine 
 

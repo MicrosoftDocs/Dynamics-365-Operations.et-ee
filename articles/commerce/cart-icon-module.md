@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411085"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661143"
 ---
 # <a name="cart-icon-module"></a>Ostukorvi ikooni moodul
 
@@ -42,22 +42,22 @@ Järgmisel pildil on kuvatud näide ostukorvi ikooni moodulist, kus on kuvatud F
 
 - **Kuva väike ostukorv** – kui on tõene, võimaldab see atribuut kuvada ostukorvi kokkuvõtte (väikese ostukorvi) hiire hõljutamisel ostukorvi ikooni kohal. Seda funktsiooni toetatakse ainult töölaua vaateportide korral.
 
-
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Lehele ostukorvi ikooni mooduli lisamine
 
 Ostukorvi ikooni mooduli lisamiseks vaadake teemat [Päise moodul](author-header-module.md).
 
-
 ## <a name="additional-resources"></a>Lisaressursid
-
-[Ostukasti moodul](add-buy-box.md)
 
 [Ostukorvimoodul](add-cart-module.md)
 
-[Väljaregistreerimismoodul](add-checkout-module.md)
+[Maksmismoodul](add-checkout-module.md)
 
-[Tellimuse kinnituse moodul](order-confirmation-module.md)
+[Maksemoodul](payment-module.md)
 
-[Päise moodul](author-header-module.md)
+[Tarneaadressi moodul](ship-address-module.md)
 
-[Jaluse moodul](author-footer-module.md)
+[Tarnevalikute moodul](delivery-options-module.md)
+
+[Tellimuse üksikasjade moodul](order-confirmation-module.md)
+
+[Kinkekaardi moodul](add-giftcard.md)

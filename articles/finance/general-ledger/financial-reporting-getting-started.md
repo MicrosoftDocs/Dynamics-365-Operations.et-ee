@@ -1,9 +1,9 @@
 ---
 title: Finantsaruandluse ülevaade
-description: Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 Finance finantsaruandlusele ja kasutada finantsaruandluse võimalusi. See sisaldab pakutavate vaike-finantsaruannete kirjeldust.
+description: Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 Finance finantsaruandlusele ja kasutada finantsaruandluse võimalusi.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618034"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696684"
 ---
-# <a name="financial-reporting-overview"></a>Finantsaruandluse ülevaade
+# <a name="get-started-with-financial-reporting"></a>Rakenduse Financial Reporting kasutamise alustamine 
 
 [!include [banner](../includes/banner.md)]
 
@@ -88,7 +88,7 @@ Pärast kasutaja lisamist või rolli muutmist peaks kasutaja mõne minuti jooksu
 Aruande loonud kasutajad saavad oma aruandeid kustutada. Kohustusega **Finantsaruandluse turbe haldamine** kasutajad saavad kustutada teiste aruandeid. 
 
 Väljalaskes 10.0.8 lisati aegumiskuupäevad. Uus nõutav funktsioon lubatakse funktsioonihalduse tööruumi lehel **Kõik**. Funktsioon **Finantsaruannete säilitamise poliitikad** sisaldab järgmisi muudatusi.
-* Uued loodud aruanded märgitakse automaatselt, et neil on loomise ajast 90 päeva pärast aegumiskuupäev
+* Uued loodud aruanded märgitakse automaatselt, et neil on loomise ajast 90 päeva pärast aegumiskuupäev.
 * Kõikidele aruannetele, mis olid olemas enne funktsiooni installimist, antakse 90-päevane aegumisperiood. Kuupäev võidakse lühikest aega kuvada tühjana, kuni finantsaruandluse teenus töötab, luuakse aruanne ja teenus värskendab olemasolevaid tühjade aegumiskuupäevadega aruandeid. 
 * **Finantsaruandluse turbe haldamise** kohustusega kasutajatel on juurdepääs sellele funktsioonile. Kõik kohustusega **Finantsaruannete haldamine** kasutad, kellele on antud privileeg **Finantsaruannete aegumise haldamine**, omavad võimalust aegumiskuupäeva muuta. Praegu on saadaval kaks säilitamise võimalust. 
   * Aegumine 90 päeva möödudes.
@@ -134,6 +134,12 @@ Kui valite menüü **Finantsaruandlus**, kuvatakse ettevõtte vaike-finantsaruan
 ## <a name="creating-and-modifying-financial-reports"></a>Finantsaruannete koostamine ja muutmine
 Finantsaruannete loendist saate luua uue aruande või muuta olemasolevat aruannet. Kui teil on olemas vastavad load, saate koostada uue finantsaruande, valides toimingupaanil suvandi **Uus**. Aruande koostamise programm laaditakse teie seadmesse. Kui aruandekoostur on käivitunud, saate koostada uue aruande. Pärast uue aruande salvestamist kuvatakse see finantsaruannete loendis. Loendis kuvatakse ainult need aruanded, mis on loodud ettevõttele, mida Dynamics 365 Finance'is kasutate. 
 
+## <a name="reporting-tree-definitions"></a>Aruandluspuu definitsioonid 
+Üks finantsaruannete koostamiseks kasutatavaid komponente on aruandluspuu definitsioon. Aruandluspuu definitsioon aitab määratleda teie organisatsiooni struktuuri ja hierarhia. See on dimensioonidevaheline hierarhiastruktuur, mis põhineb finantsandmete dimensiooniseostel. See annab teavet aruandlusüksuse tasandil ja kõigi puu üksuste koondtasandil.
+
+Oma organisatsiooni andmete eri viisil kuvamiseks saate luua piiramatu arvu aruandluspuid. Iga aruandluspuu võib sisaldada osakondade ja kokkuvõtvate üksuste mis tahes kombinatsiooni, kuid aruande definitsioon saab korraga ühenduse luua ainult ühe aruandepuuga. 
+
+
 ## <a name="troubleshooting-issues-opening-report-designer"></a>Aruande kujundaja avamise probleemide tõrkeotsing
 Mõned tavalisemad juhud, mis võivad põhjustada probleeme aruande kujundaja avamisel. Need probleemid ja nende lahendamise etapid on järgmised.
 
@@ -162,3 +168,4 @@ Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [Micro
 
 ## <a name="additional-resources"></a>Lisaressursid
 - [Finantsaruannete vaatamine](view-financial-reports.md)
+- [Aruandluspuu definitsioonid finantsaruannetes](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)

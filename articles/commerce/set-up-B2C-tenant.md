@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b017b0f91960be1504134f6d46878fce956de203
-ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
+ms.openlocfilehash: f31f8898358626f2b008826aa69694dc16742aa0
+ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3497164"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677900"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>B2C rentniku seadistus Kaubanduses
 
@@ -77,7 +77,7 @@ Kui B2C rentnik on loodud, tuleb rentnikus luua B2C rakendus Commerce'i toimingu
 
 B2C rakenduse loomiseks toimige järgmiselt.
 
-1. Tehke Azure'i portaalis valik **Rakendused** ja seejärel **Lisa**.
+1. Tehke Azure'i portaalis valik **Rakendused (pärand)** ja seejärel **Lisa**.
 1. Jaotises **Nimi** sisestage soovitud AAD B2C rakenduse nimi.
 1. Jaotises **Veebirakendus/veebi-API** valige parameetrile **Veebirakenduse/veebi-API kaasamine** väärtus **Jah**.
 1. Määrake aarameetri **Varjatud voo lubamine** väärtuseks **Jah** (vaikeväärtus).

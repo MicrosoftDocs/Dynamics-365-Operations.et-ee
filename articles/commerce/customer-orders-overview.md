@@ -3,7 +3,7 @@ title: Kliendi tellimused Modern POS-is (MPOS-is)
 description: See teema annab teavet klienditellimuste kohta kaasaegses kassas (MPOS). Klienditellimused on teise nimega eritellimused. Teema hõlmab arutelu seotud parameetrite ja kandevoogude kohta.
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b8ea8339c2ad25ceed2415eb5ccf5e2048c612fa
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
+ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022219"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699365"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Kliendi tellimused Modern POS-is (MPOS-is)
 
@@ -53,6 +53,8 @@ Lehel **Kaubanduse parameetrid** saate määrata muu hulgas järgmisi parameetre
 
     - Tasud rakendatakse müügitellimuse päise tasemel ja tooterea osalise koguse tagastamisel ei saa toodete ja koguse puhul lubatud saatekulude maksimaalset tagasimakset määrata viisil, mis toimiks kõigi klientide puhul.
     - Saatekulud lisatakse igale saatmisele. Kui klient tagastab tooteid mitu korda ja jaemüüja poliitika määrab, et jaemüüja kannab saatekulude tagastamiskulu, on tagastatavad saatekulud suuremad kui tegelikud saatekulud.
+    
+- **Maksu arvutamise viis** - **Ümberarvutamine** on vaike- ja tavapärane säte maksude ümberarvutamiseks, kui tellimus imporditakse kontorisse. **Ära arvuta ümber** keelab maksude ümberarvutamise, kuni tellimust kontoris redigeeritakse, mis juhul käivitatakse ümberarvutamine. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Klienditellimuste kannetevoog
 

@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464926"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661168"
 ---
 # <a name="order-details-module"></a>Tellimuse üksikasjade moodul
-
 
 [!include [banner](includes/banner.md)]
 
@@ -72,16 +71,16 @@ Uuele lehele tellimuse üksikasjade mooduli lisamiseks ja vajalike atribuutide s
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
-
-[Konteineri moodul](add-container-module.md)
-
-[Ostukasti moodul](add-buy-box.md)
-
 [Ostukorvimoodul](add-cart-module.md)
 
-[Väljaregistreerimismoodul](add-checkout-module.md)
+[Ostukorvi ikooni moodul](cart-icon-module.md)
 
-[Päise moodul](author-header-module.md)
+[Maksmismoodul](add-checkout-module.md)
 
-[Jaluse moodul](author-footer-module.md)
+[Maksemoodul](payment-module.md)
+
+[Tarneaadressi moodul](ship-address-module.md)
+
+[Tarnevalikute moodul](delivery-options-module.md)
+
+[Kinkekaardi moodul](add-giftcard.md)

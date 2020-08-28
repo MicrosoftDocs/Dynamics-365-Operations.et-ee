@@ -3,7 +3,7 @@ title: Rakendus Human Resources Teamsis
 description: Selles teemas tutvustatakse Microsoft Teamsi rakendust Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4822cc6560926df878a8b4e9f821b331ede27a8c
+ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431126"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3666356"
 ---
 # <a name="human-resources-app-in-teams"></a>Rakendus Human Resources Teamsis
 
@@ -43,12 +43,12 @@ Lisateabe saamiseks rakenduse lubade haldamise kohta Teamsis, vaadake teemat [Ra
 
 ## <a name="known-issues"></a>Teadaolevad probleemid
 
-| Väljastus | Olek |
+| Väljasta | Olek |
 | --- | --- |
-| Tõrge: tekkis probleem ühendatava keskkonna leidmisel. | Seda tõrget võidakse kuvada isegi juhul, kui olete kinnitanud, et kasutajal on juurdepääs ühele või enamale Human Resourcesi keskkonnale. Lisaks ei pruugi te näha kõiki eeldatavaid keskkondi. Kuni me probleemiga tegeleme, kustutage probleemi lahendamiseks kasutaja ja importige ta seejärel uuesti. |
+| Horisontaalne kerimine ei tööta Androidi telefonides | Horisontaalne kerimine ei ole iOS-is või arvutites probleem. Me töötame selle vea parandamise kallal Androidis. |
+| Tõrge: tekkis probleem ühendatava keskkonna leidmisel. | Seda tõrget võidakse kuvada isegi juhul, kui olete kinnitanud, et kasutajal on juurdepääs ühele või enamale Human Resourcesi keskkonnale. Ka ei pruugi te näha kõiki eeldatavaid keskkondi. Kuni me probleemiga tegeleme, kustutage probleemi lahendamiseks kasutaja ja importige ta seejärel uuesti. |
 | Tulevaks kuupäevaks vaba aja taotlemisel on vale saldo. | Prognoosimine pole veel saadaval. Kuvatakse praeguse kuupäeva saldo. |
 | Olemasolevas taotluses võetud tundide arvu vähendamisel, muutub **Jääksaldo** väiksemaks, mitte suuremaks. | Tegeleme selle teadaoleva probleemiga tulevikus. Kuva on vale, kuid õiged summad kohandatakse pärast esitamist. |
-| Samadele kuupäevadele kuvatakse kaks kaarti **Eesolev vaba aeg**. | Kaardid esindavad erinevaid esitamisi. Jätkame tagasiside vastuvõtmist ja teeme korrigeerimisi. |
 | Taotlust **Läbivaatamisel** ei saa tühistada. | See funktsioon ei ole praegu toetatud ja lisatakse tulevasse väljalaskesse. |
 | Saldo teavet arvutatakse alates tänasest. | Süsteem ei kuva praegu puhkuseperioodi seisuga saldosid, isegi kui see on konfigureeritud puhkuste ja puudumiste parameetrites. |
 

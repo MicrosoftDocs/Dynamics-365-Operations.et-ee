@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5f7ad7d9c5ff63c3c3a8fe38275eec0d138891d
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e7dde3ba1ad375b309ae66cc6d31ccad85615e45
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411198"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686618"
 ---
 # <a name="header-module"></a>Päise moodul
 
@@ -62,8 +62,8 @@ Päise moodulis saab kasutada järgmisi mooduleid.
 
 Päise mooduli loomiseks tehke järgmist.
 
-1. Avage **Lehe fragmendid** ja valige uue fragmendi loomiseks **Uus**.
-1. Dialoogiboksis **Uus lehe fragment** valige moodul **Konteiner**, sisestage lehe fragmendi nimi ja valige seejärel **OK**.
+1. Avage **Fragmendid** ja valige uue fragmendi loomiseks **Uus**.
+1. Valige dialoogiboksis **Uus lehe fragment** moodul **Konteiner**, sisestage lehe fragmendi nimi ja valige seejärel **OK**.
 1. Valige pesa **Vaikekonteiner** ja seejärel määrake parempoolsel atribuutide paanil atribuudi **Laius** väärtuseks **Täida konteiner**.
 1. Valige pesas **Vaikekonteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodulid **Reklaambänner** ja **Küpsistega nõustumine** ning seejärel **OK**.
