@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: BOMDesigner
+ms.search.form: BOMDesigner, BOMDesignerSetup, BOMDesignerFilterDialog, BOMDesignerBOMVersion, BOMChangeLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef37073a718bc82440e7c15c782ceb53bfaa9eb4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0c97e58f6f608efd3b964e7fad229a00e1ae603a
+ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211671"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677827"
 ---
 # <a name="bom-designer-functionality"></a>Koosluse koostaja funktsioon
 
@@ -67,7 +67,7 @@ Kooslusele ja protsessile rakendatud filter kuvatakse koosluse koostaja päises.
 <td>Kui valitud valmistoode on tooteetalon, saate määratleda peamise valiku aktiivsed tootedimensioonid. <strong>Märkus.</strong> Kui avate koosluse koostaja toote puhul, mis ei ole tooteetalon, ei saa dialoogiboksis <strong>Filter</strong> ühtegi tootedimensiooni valida.</td>
 </tr>
 <tr class="even">
-<td>Laoala</td>
+<td>Koht</td>
 <td>Muutke saiti, millele koosluse puu kuvatakse. Vaikeala on valmistoote vaikelaoala.</td>
 </tr>
 <tr class="odd">

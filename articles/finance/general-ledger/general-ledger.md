@@ -3,7 +3,7 @@ title: Pearaamatu ja finantsaruande ülevaade
 description: Pearaamatu abil saate määratleda ja hallata juriidilise isiku finantskirjeid.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/31/2017
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4cad11bcd1b1674055a07b5093093e33d3ac556
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e68fee44fdc18cada99e3c7e2cba021036e869db
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771795"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696660"
 ---
-# <a name="general-ledger-and-financial-reporting-overview"></a>Pearaamatu ja finantsaruande ülevaade
+# <a name="general-ledger-home-page"></a>Pearaamatu avaleht
 
 [!include [banner](../includes/banner.md)]
 
@@ -57,9 +57,12 @@ Lisaks tuleb reegleid regulaarselt uuendada, kui maksuasutused oma nõudeid muud
 
 Avage [Microsoft Dynamics 365 väljalaskeplaanid](https://go.microsoft.com/fwlink/?linkid=2010158), et näha, milliseid uusi funktsioone on kavandatud. 
 
+#### <a name="financial-reporting"></a>Finantsaruandlus
+Finantsaruannete kohta leiate teavet teemast [Rakenduse Financial Reporting ülevaade](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md).
+
 #### <a name="blogs"></a>Ajaveebid
 
-Arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ja [ajaveebist Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Arvamusi, uudiseid ja muud teavet leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ning [ajaveebist Microsoft Dynamics 365 Finance and Operations – Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses MBS Operations.
 

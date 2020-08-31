@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59a2d9712a73c607cf5521f8e79e8e2558854fc4
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3274207"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686691"
 ---
 # <a name="add-a-privacy-policy-page"></a>Privaatsuspoliitika lehe lisamine
 
@@ -88,9 +88,9 @@ Saate lisada lingi privaatsuspoliitika lehele fragmenti. Sel viisil saate linki 
 
 Jaluse fragmendile lingi lisamiseks tehke järgmist.
 
-1. Avage **Lehe fragmendid** ja valige seejärel uue lehe fragmendi loomiseks **Uus**.
+1. Avage **Fragmendid** ja valige seejärel lehe fragmendi loomiseks **Uus**.
 1. Valige dialoogiboksis **Uus lehe fragment** moodul **Jalus**.
-1. Jaotises **Lehe fragmendi nimi**sisestage fragmendi nimi ja seejärel valige **OK**.
+1. Sisestage jaotises **Lehe fragmendi nimi** fragmendi nimi ja seejärel valige **OK**.
 1. **Jaluse kategooria** pesas lisage **jaluse üksuse** moodul.
 1. Parempoolsel atribuutide paanil valige suvand **Lingi tekst**.
 1. Dialoogiaknas **lingi tekst** sisestage lingi tekst ja lingi eesmärk privaatsuspoliitika lehele ja seejärel klõpsake **OK**.

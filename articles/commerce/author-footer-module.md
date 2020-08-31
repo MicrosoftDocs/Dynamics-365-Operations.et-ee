@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411195"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686714"
 ---
 # <a name="footer-module"></a>Jaluse moodul  
 
@@ -50,8 +50,8 @@ Nagu enamik konteinereid, toetab jaluse moodul pealkirja ja laiuse atribuute. Sa
 
 ## <a name="create-a-footer-module"></a>Jalusemooduli loomine
 
-1. Avage **Lehe fragmendid** ja valige uue fragmendi loomiseks **Uus**.
-1. Dialoogiboksis **Uus lehe fragment** valige moodul **Konteiner**, sisestage lehe fragmendi nimi ja valige seejärel **OK**.
+1. Avage **Fragmendid** ja valige uue fragmendi loomiseks **Uus**.
+1. Valige dialoogiboksis **Uus lehe fragment** moodul **Konteiner**, sisestage lehe fragmendi nimi ja valige seejärel **OK**.
 1. Valige pesas **Vaikekonteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Jaluse kategooria** ja klõpsake seejärel **OK**.
 1. Valige pesas **Jaluse kategooria** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.

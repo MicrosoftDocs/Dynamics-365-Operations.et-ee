@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 41f808d671bf5e7425390484ea30470e044899d8
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411108"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661238"
 ---
 # <a name="gift-card-module"></a>Kinkekaardi moodul
 
@@ -63,8 +63,18 @@ Juhiste saamiseks kinkekaardi mooduli lisamiseks kassa lehele ja nõutavate atri
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
+[Ostukorvimoodul](add-cart-module.md)
 
-[Väljaregistreerimismoodul](add-checkout-module.md)
+[Ostukorvi ikooni moodul](cart-icon-module.md)
+
+[Maksmismoodul](add-checkout-module.md)
+
+[Maksemoodul](payment-module.md)
+
+[Tarneaadressi moodul](ship-address-module.md)
+
+[Tarnevalikute moodul](delivery-options-module.md)
+
+[Tellimuse üksikasjade moodul](order-confirmation-module.md)
 
 [Väliste kinkekaartide tugi](./dev-itpro/gift-card.md)

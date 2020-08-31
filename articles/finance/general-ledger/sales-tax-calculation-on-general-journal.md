@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: dd1df355d39065d6959915cc916987d3c58b15a6
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 93c9f2bebd038723d50e64bdaa0e0992c003f88d
+ms.sourcegitcommit: cec5de2dcfc7210a86a220e308f80ab204f12383
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570190"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665838"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Arvutatud käibemaks üldise töölehe ridade kohta
 [!include [banner](../includes/banner.md)]
@@ -64,23 +64,6 @@ Järgmine diagramm illustreerib reeglit graafiliselt.
 
 Kui kandel on töölehe rida, kus konto tüüp on **Tarnija**, rakendavad kõik kande töölehe read sama maksu suuna. Järgmised punktid näitavad tarnija kontode võimalikke maksustamise suundi. 
 
-•   Kui käibemaksukood on maksuvaba, siis käibemaksu suund on maksuvaba ost.
-
-• Kui käibemaksukood on intracom km, siis käibemaksu suund on saadaolev käibemaks.
-
-• Kui käibemaksukood on pöördmaksustamine, siis käibemaksu suund on saadaolev käibemaks.
-
-
-Muul juhul on käibemaksu suund tasumisele kuuluv käibemaks.
-
-Järgmine diagramm illustreerib reeglit graafiliselt.
-
-![Maksu suuna võimalused tarnija kontodele](media/Sales-Tax-Direction-Vendor.jpg)
-
-### <a name="account-type-is-customer"></a>Kontotüüp on Klient
-
-Kui kandel on töölehe rida, kus konto tüüp on **Klient**, rakendavad kõik kande töölehe read sama maksu suuna. Järgmised punktid näitavad kliendi kontode võimalikke maksustamise suundi.
-
 •   Kui käibemaksukood on kasutusmaks, siis käibemaksu suund on kasutusmaks.
 
 •   Kui käibemaksukood on maksuvaba, siis käibemaksu suund on maksuvaba ost.
@@ -90,6 +73,22 @@ Kui kandel on töölehe rida, kus konto tüüp on **Klient**, rakendavad kõik k
 • Kui käibemaksukood on pöördmaksustamine, siis käibemaksu suund on tasumisele kuuluv käibemaks.
 
 Vastasel juhul on käibemaksu suund saadaolev käibemaks.
+
+Järgmine diagramm illustreerib reeglit graafiliselt.
+
+![Maksu suuna võimalused tarnija kontodele](media/Sales-Tax-Direction-Vendor.jpg)
+
+### <a name="account-type-is-customer"></a>Kontotüüp on Klient
+
+Kui kandel on töölehe rida, kus konto tüüp on **Klient**, rakendavad kõik kande töölehe read sama maksu suuna. Järgmised punktid näitavad kliendi kontode võimalikke maksustamise suundi.
+
+•   Kui käibemaksukood on maksuvaba, siis käibemaksu suund on maksuvaba ost.
+
+• Kui käibemaksukood on intracom km, siis käibemaksu suund on saadaolev käibemaks.
+
+• Kui käibemaksukood on pöördmaksustamine, siis käibemaksu suund on saadaolev käibemaks.
+
+Muul juhul on käibemaksu suund tasumisele kuuluv käibemaks.
 
 Järgmine diagramm illustreerib reeglit graafiliselt.
 

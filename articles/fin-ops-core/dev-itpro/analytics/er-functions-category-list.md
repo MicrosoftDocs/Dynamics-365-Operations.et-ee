@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 6e51d9a1d68c48391a223fe48f396c63c206580e
+ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201039"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3687954"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>ER-i funktsioonide loend loendi kategoorias
 
@@ -46,6 +46,7 @@ Elektroonilise aruandluse (ER) loendi funktsioone saab kasutada andmete ekstrakt
 | [Index](er-functions-list-index.md)                       | See funktsioon tagastab *konteineri (kirje)* väärtuse, mis on valitud määratud numbrilise indeksi abil määratud loendis. Kui indeks on määratud loendis olevate kirjete vahemikust väljas, annab see funktsioon erandi. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Kui määratud loend ei sisalda ühtegi kirjet, tagastab see funktsioon *kahendmuutuja* väärtuse **TRUE**. Muidu tagastab see *kahendväärtuse* **VÄÄR**. |
 | [Loend](er-functions-list-list.md)                         | See funktsioon tagastab *kirjete loendi* väärtuse, mis koosneb määratud argumentidest loodud uuest loendist.|
+| [ListDistinct](er-functions-list-listdistinct.md)         | See funktsioon arvutab määratud avaldise valijana iga kirje jaoks, mis asub määratud loendis. See tagastab uue väärtuse *Kirjete loend*, mis sisaldab ühte kirjet iga kordumatu valija väärtuse kohta.|
 | [ListJoin](er-functions-list-listjoin.md)                 | See funktsioon tagastab *kirjete loendi* väärtuse, mis tähistab määratud argumentidest loodud uut ühendatud loendit.|
 | [ListOfFields](er-functions-list-listoffields.md)         | See funktsioon tagastab *kirjete loendi* väärtuse, mis luuakse tüübi *Loetelu* või *Konteiner (kirje)* määratud argumendi struktuuri põhjal. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | See funktsioon tagastab *kirjete loendi* väärtuse, mis koosneb ainult määratud loendi esimesest kirjest.|

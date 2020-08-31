@@ -3,7 +3,7 @@ title: Arvutatud väljatüübi ER-andmeallikate parameetritega kõned
 description: See teema annab teavet selle kohta, kuidas kasutada arvutatud väljatüüpi ER-andmeallikate puhul.
 author: NickSelin
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
+ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771325"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665606"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Arvutatud väljatüübi ER-andmeallikate parameetritega kõned
 
@@ -39,20 +39,20 @@ Selles teemas näidete lõpuleviimiseks peavad teil olema järgmised juurdepää
     - Elektroonilise aruandluse funktsionaalne konsultant
     - Süsteemiadministraator
 
-- Juurdepääs teenuse Regulatory Configuration Services (RCS) eksemplarile, mis on ette valmistatud sama rentniku jaoks, nagu rakendus Finance and Operations, ühe järgmise rolli jaoks:
+- Juurdepääs teenustele Regulatory Configuration Services (RCS), mis on ette valmistatud sama rentniku jaoks, nagu rakendus Finance and Operations, ühe järgmise rolli jaoks.
 
     - Elektroonilise aruandluse arendaja
     - Elektroonilise aruandluse funktsionaalne konsultant
     - Süsteemiadministraator
 
-Laadige [Microsofti allalaadimiskeskusest](https://go.microsoft.com/fwlink/?linkid=874684) alla tihendatud fail **Arvutatud väljatüübi ER-andmeallikate parameetritega kõned**. See sisaldab järgmisi ER-konfiguratsioone, mida tuleb kohapeal ekstraheerida ja säilitada.
+Samuti peate alla laadima ja kohalikult talletama järgmised failid.
 
 | **Sisu**                           | **Faili nimi**                                        |
 |---------------------------------------|------------------------------------------------------|
-| ER-i andmemudeli konfiguratsiooni näide    | Mudel parameetritega calls.version.1.xml õppimiseks     |
-| ER-i metaandmete konfiguratsiooni näide      | Metaandmed parameetritega calls.version.1.xml õppimiseks  |
-| ER-i mudelivastenduse konfiguratsiooni näide | Vastendamine parameetritega calls.version.1.xml õppimiseks |
-| ER-vormingu konfiguratsiooni näide        | Vorming parameetritega calls.version.1.xml õppimiseks  |
+| ER-i andmemudeli konfiguratsiooni näide    | [Mudel parameetritega calls.version.1.xml õppimiseks](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
+| ER-i metaandmete konfiguratsiooni näide      | [Metaandmed parameetritega calls.version.1.xml õppimiseks](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| ER-i mudelivastenduse konfiguratsiooni näide | [Vastendamine parameetritega calls.version.1.xml õppimiseks](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER-vormingu konfiguratsiooni näide        | [Vorming parameetritega calls.version.1.xml õppimiseks](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Logige sisse oma RCS-eksemplari.
 Selles näites loote konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Esmalt peate RCS-is täitma teemas [Konfiguratsiooni pakkujate loomine ja nende aktiivseks märkimine](tasks/er-configuration-provider-mark-it-active-2016-11.md) toodud juhised.
@@ -87,7 +87,7 @@ Selles näites loote konfiguratsiooni näidisettevõtte Litware, Inc. jaoks. Esm
             - Maksuväärtuste summa.
             - Kohaldatava maksumäära miinimumväärtus.
 
-    Selle konfiguratsiooni mudeli vastendamine rakendab põhiandmete mudelit selle mudeli jaoks loodud ning rakenduse Finance and Operations puhul. Selle tulemusena on **Maksu-** ja **Gr-** andmeallikate sisu avatud ER-vormingute, näiteks abstraktsete andmeallikate puhul.
+    Selle konfiguratsiooni mudeli vastendamine rakendab põhiandmete mudelit selle mudeli jaoks loodud ER-vormingute puhul, mida kasutatakse rakenduses Finance and Operations. Selle tulemusena on **Maksu-** ja **Gr-** andmeallikate sisu avatud ER-vormingute, näiteks abstraktsete andmeallikate puhul.
 
     ![Mudeli vastendamise kujundaja lehekülg, kus kuvatakse maksu-ja Gr-andmeallikad](media/er-calculated-field-type-01.png)
 

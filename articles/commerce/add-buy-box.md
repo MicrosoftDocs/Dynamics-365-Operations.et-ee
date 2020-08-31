@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645335"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686666"
 ---
 # <a name="buy-box-module"></a>Ostukasti moodul
 
@@ -61,7 +61,7 @@ Kujundusi saab kasutada ostukasti tooteatribuutide ja tegevuste juhtelementide e
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moodulid, mida saab ostukasti moodulis kasutada
 
-- **Meediumigalerii** – seda moodulit kasutatakse toote üksikasjade lehel toote piltide näitamiseks. Selle mooduli kohta lisateabe saamiseks vaadake teemat [Meediumigalerii moodul](mediagallery-module.md).
+- **Meediumigalerii** – seda moodulit kasutatakse toote üksikasjade lehel toote piltide näitamiseks. Selle mooduli kohta lisateabe saamiseks vaadake teemat [Meediumigalerii moodul](media-gallery-module.md).
 - **Kaupluse valija** – see moodul kuvab lähedalasuvate poodide loendi, kus kaup on kohapeal olemas. See võimaldab kasutajatel sisestada asukoha, et leida läheduses asuvad kauplused. Selle mooduli kohta lisateabe saamiseks vaadake teemat [Kaupluse valimise moodul](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Ostukasti mooduli sätted
@@ -84,7 +84,7 @@ Ostukasti moodul toob tooteteavet Commerce Scale Uniti rakendusliideste (API-de)
 
 Uuele lehele ostukasti mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
-1. Avage **Lehe fragmendid** ja valige uue fragmendi loomiseks **Uus**.
+1. Avage **Fragmendid** ja valige uue fragmendi loomiseks **Uus**.
 1. Valige dialoogiboksis **Uus lehe fragment** moodul **Ostukast**.
 1. Sisestage jaotises **Lehe fragmendi nimi** nimi **Ostukasti fragment** ja seejärel valige **OK**.
 1. Valige ostukasti mooduli pesas **Meediumigalerii** kolmikpunkt (**...**) ja seejärel **Lisa moodul**.
@@ -97,12 +97,12 @@ Uuele lehele ostukasti mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 1. Valige pesas **Keha** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Vaikeleht** ja klõpsake seejärel **OK**.
 1. Valige vaikelehe pesas **Peamine** kolmikpunkt (**...**) ja seejärel **Lisa lehe fragment**.
-1. Valige dialoogiboksis **Vali lehe fragment** varem loodud **Ostukasti fragment** ja seejärel **OK**.
+1. Valige dialoogiboksis **Lehe fragmendi valimine** varem loodud **Ostukasti fragment** ja seejärel **OK**.
 1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
 1. Valige dialoogiboksis **Vali mall** mall **PDP mall**. Sisestage jaotises **Lehe nimi** väärtus **PDP leht** ja seejärel valige **OK**.
 1. Valige uue lehe pesas **Peamine** kolmikpunkt (**...**) ja seejärel **Lisa lehe fragment**.
-1. Valige dialoogiboksis **Vali lehe fragment** varem loodud **Ostukasti fragment** ja seejärel **OK**.
+1. Valige dialoogiboksis **Lehe fragmendi valimine** varem loodud **Ostukasti fragment** ja seejärel **OK**.
 1. Salvestage ja kuvage lehe eelvaade. Lisage eelvaatelehe URL-ile päringustringi parameeter **?productid=&lt;toote ID&gt;**. Sel viisil kasutatakse eelvaatelehe laadimiseks ja renderdamiseks toote konteksti.
 1. Valige **Salvesta**, valige lehe registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**. Toote üksikasjade lehele peaks ilmuma ostukast.
 

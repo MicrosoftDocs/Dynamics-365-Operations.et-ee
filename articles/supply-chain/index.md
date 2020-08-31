@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ab0c66ad0536b20b1ab23e9498ca3cb56b98ccf5
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: d601ca9b28bb720fd05e25ef66df7be12a08f7e0
+ms.sourcegitcommit: e2a953bea055611023c00a55c00391d14daaca25
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530255"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696126"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Managementi avaleht
 
@@ -89,8 +89,6 @@ Järgmised tehnilise konverentsi salvestised arutlevad tarneahela halduse funkts
   - [Toote konfiguraator teenuses Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Laohaldus:**
   - [Laohaldussüsteemi kasutamise parimad võimalused](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
-  - [R3 täpsem laohaldus – sissetulevate sõnumite töötlus ja minimaalne/maksimaalne täiendus](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
-  - [R3 täpsem laohaldus – ülevaade, väljaminevate sõnumite töötlus ja nõudluse tõttu täiendamine](https://youtu.be/Og0gLlVp7jA)
   - [Uue Microsoft Dynamics AX 2012 R3 laohalduse sildid](https://youtu.be/5w1MngVchBA)
   - [Dynamics AX 2012 R3: täpsem laohaldus – protsesstootmise ülevaade](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **Tootmise juhtimise videod:**
