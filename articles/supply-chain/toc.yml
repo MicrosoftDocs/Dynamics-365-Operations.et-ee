@@ -58,9 +58,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Asutusesisese juurutuste ladustamise konfigureerimine
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Rakendused Finance and Operations, mida käitab 21Vianet Hiinas'
+                - name: 'Finance and Operationsi rakendused, mida käitab 21Vianet Hiinas'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Rakendused Finance and Operations Prantsusmaal
+                - name: Finance and Operationsi rakendused Prantsusmaal
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mis on uut või mida on muudetud?
               items:
@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kohandatud väljade loomine ja nendega töötamine
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: PowerAppsi rakenduste manustamine
+                - name: Manusta Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Teabe leidmiseks otsingute abil
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -633,13 +633,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: Teabele juurdepääs ja aruandlus
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Isikupärastamise suvandid saidil PowerBI.com
+            - name: Isikupärastamise suvandid rakendusega Power BI
               items:
-                - name: PowerBI.com-i integreerimise kaudu saadaolevad funktsioonid
+                - name: Power BI integreerimise kaudu saadaolevad funktsioonid
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: PowerBI.com-i sisu kinnitamine
+                - name: Power BI sisu kinnitamine
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Analüütiliste tööruumide valimine PowerBI.com-ist
+                - name: Analüütiliste tööruumide valimine rakendusest Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Power BI sisu
               items:
@@ -875,7 +875,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Power
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Ümarda
+                        - name: Round
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/supply-chain/toc.json
                         - name: RoundDown
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-rounddown.md?toc=/dynamics365/supply-chain/toc.json
@@ -1827,10 +1827,6 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Toodete välistamine koondplaneerimisest
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: Kaheotstarbelised kaubad
-                  href: pim/dual-use.md
-                - name: Päritoluriik
-                  href: pim/country-of-origin.md
                 - name: Tootele vöötkoodi loomine
                   href: pim/tasks/create-bar-code-product.md
                 - name: Toote GTIN-koodi sisestamine
@@ -1839,6 +1835,20 @@
                   href: pim/tasks/create-batch-attributes-product.md
                 - name: Tootele pildi lisamine
                   href: pim/tasks/add-image-product.md
+                - name: Päritoluriik
+                  href: pim/country-of-origin.md
+                - name: Kaheotstarbelised kaubad
+                  href: pim/dual-use.md
+                - name: Ohtlikud materjalid
+                  items:
+                    - name: Ohtlike materjalide ülevaade
+                      href: pim/hazmat-overview.md
+                    - name: Ohtlike materjalide seadistamine
+                      href: pim/hazmat-setup.md
+                    - name: 'Ohtlikud materjalid toodetes, tellimustes, saadetistes ja koormates'
+                      href: pim/hazmat-items.md
+                    - name: Ohtlike materjalide päringud ja aruanded
+                      href: pim/hazmat-reports.md
                 - name: Tooteteabe KKK tõlge
                   href: pim/translations-product-related-information.md
                 - name: Toote otsimine tellimuse sisestamise käigus

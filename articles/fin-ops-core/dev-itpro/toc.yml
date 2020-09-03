@@ -128,9 +128,11 @@
                       href: data-entities/data-integration-cds.md
                     - name: Topeltkirjutuse integratsioon
                       items:
-                        - name: Topeltkirjutusega koduleht
+                        - name: Topeltkirjutuse koduleht
                           href: data-entities/dual-write/dual-write-home-page.md
-                        - name: Topeltkirjutusega ülevaade
+                        - name: Mis on uut või mida on muudetud topeltkirjutuses?
+                          href: data-entities/dual-write/whats-new-dual-write.md
+                        - name: Topeltkirjutuse ülevaade
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Topeltkirjutuse häälestus
                           items:
@@ -354,7 +356,7 @@
                   href: data-entities/security-data-entities.md
                 - name: Kolmandate osapoolte teenusetestimise utiliitide kasutamine
                   href: data-entities/third-party-service-test.md
-                - name: Finantsdimensioone esitavate kirjutuskaitstud olemite loomine
+                - name: Finantsdimensioone esitavate kirjutuskaitstud üksuste loomine
                   href: financial/read-only-entity-financial.md
             - name: Oma andmebaasi toomine
               href: analytics/export-entities-to-your-own-database.md
@@ -1472,6 +1474,8 @@
                   href: sysadmin/extensible-data-security-policies.md
                 - name: Turbepoliitika loomine
                   href: sysadmin/create-simple-security-policy.md
+            - name: Litsentsimisnõuete täitmine
+              href: sysadmin/stay-compliant-user-license-requirement.md
             - name: Protsessi automatiseerimine
               href: sysadmin/process-automation.md
             - name: Pakktöötlus
