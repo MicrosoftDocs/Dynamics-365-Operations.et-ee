@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443891"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719260"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potentsiaalne klient-raha kaksikkirjutamises
 
@@ -79,7 +79,7 @@ Kui kasutate ka lahendust Field Service, veenduge, et oleksite parameetri **Pakk
 
 Müügitellimused võib luua rakenduses Müügid või Supply Chain Management. Kui loote müügitellimuse Müükides, sünkroonitakse see reaalajas Supply Chain Managementiga. Samuti kui loote müügitellimuse Supply Chain Managementis, sünkroonitakse see reaalajas Müükidega. Pidage meeles järgmiseid punkte.
 
-+ Tellimusi saate aktiveerida ja sünkroonida Müükides ainult siis, kui kõik tellimuses olevad tooted pärinevad rakendusest Finance and Operations . Seetõttu ei saa seal olla sissekirjutatud tooteid.
++ Sisestatavad tooted Dynamics 365 Salesis kuvatakse tootekategooriatena lahenduses Dynamics 365 Supply Chain Management.
 + Allahindluse arvutamine ja ümardamine:
 
     - Rakenduse Sales allahindluse arvutamise mudel erineb rakenduse Supply Chain Management allahindluse arvutamise mudelist. Rakenduses Supply Chain Management võib müügirea lõplik allahindluse summa olla allahindluse summade ja allahindluse protsentide kombinatsiooni tulemus. Kui lõplik allahindluse summa jagatakse real oleva kogusega, võib ilmneda ümardamine. Seda ümardamist ei võeta aga arvesse, kui ümardatavat ühikupõhist allahindluse summat sünkroonitakse Müükidega. Selleks et rakenduse Supply Chain Management müügirea kogu allahindluse summa õigesti sünkroonida rakendusega Müügid, tuleb kogusumma sünkroonida rea kogusega jagamata. Seetõttu peate rakenduses Müügid määrama allahindluse arvutamise meetodiks **Rea kaup** .

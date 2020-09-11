@@ -3,7 +3,7 @@ title: Ettevõtte mõiste teenuses Common Data Service
 description: Selles teemas kirjeldatakse ettevõtte andmete integreerimist rakenduse Finance and Operations ja teenuse Common Data Service vahel.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a39cf5fa980d9a815ba675e410589dbd1279c83
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
+ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172896"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3728409"
 ---
 # <a name="company-concept-in-common-data-service"></a>Ettevõtte mõiste teenuses Common Data Service
 
@@ -72,3 +72,32 @@ Teenuse Common Data Service integreerimine toob kaasa ettevõtte paarsuse, kasut
 + Kirjete puhul muutub väärtus pärast ettevõtte lisamist ja salvestamist kirjutuskaitstuks. Seetõttu peaksid kasutajad veenduma, et nad valivad õige ettevõtte.
 + Ainult kirjed, millel on ettevõtte andmed on kahesuguse kirjutamise õigused rakenduse ja teenuse Common Data Service vahel.
 + Teenuse Common Data Service olemasolevate andmete puhul on peagi saadaval administraatori juhitav eellaadimine.
+
+
+## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>Ettevõtte nime automaatne asustamine klientide kaasamise rakendustes
+
+Ettevõtte nime automaatseks asustamiseks klientide kaasamise rakendustes on mitu võimalust.
+
++ Kui olete süsteemiadministraator, saate määrata vaikeettevõtte , kui valite **Täpsemad sätted > Süsteem > Turve > Kasutajad**. Avage vorm **Kasutaja** ja määrake jaotises **Organisatsiooni andmed** väärtus **Ettevõtte vaikesätteks vormidel**.
+
+    :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Vaikeettevõtte seadmine organisatsiooni andmete jaotises.":::
+
++ Kui teil on tasemel **Äriüksus** **Kirjutuspääs** üksusele **Süsteemikasutaja**, saate vaikeettevõtet muuta mistahes vormil, kui valite ettevõtte rippmenüüst **Ettevõte**.
+
+    :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Ettevõtte nime muutmine uuel kontol.":::
+
++ Kui teil on **Kirjutuspääs** rohkem kui ühe ettevõtte andmetele, saate vaikeettevõtet muuta, kui valite kirje, mis kuulub muule ettevõttele.
+
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Kirje valimine muudab vaikeettevõtet.":::
+
++ Kui olete süsteemikonfigureerija või -administraator, ja soovite kohandatud vormil automaatselt ettevõtte andmeid asustada, saate kasutada [vormisündmusi](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Lisage JavaScripti viide failile **msdyn_/DefaultCompany.js** ja kasutage järgmisi sündmusi. Saate kasutada valmisvormi, näiteks vormi **Konto**.
+
+    + Vormi sündmus **OnLoad**: määrake väli **defaultCompany**.
+    + Välja **Ettevõte** sündmus **OnChange**: määrake väli **updateDefaultCompany**.
+
+## <a name="apply-filtering-based-on-the-company-context"></a>Filtreerimise rakendamine ettevõtte konteksti põhjal
+
+Filtreerimise rakendamiseks ettevõtte konteksti põhjal kohandatud vormidele või standardvormidele lisatud otsinguväljadele avage vorm ja kasutage ettevõtte filtri rakendamiseks jaotist **Seotud kirjete filtreerimine**. Selle peate määrama igale otsinguväljale, mis antud kirjes nõuab filtreerimist aluseksoleva ettevõtte põhjal. Säte kuvatakse järgmisel joonisel suvandi **Konto** jaoks.
+
+:::image type="content" source="media/apply-company-context.png" alt-text="Ettevõtte konteksti rakendamine":::
+

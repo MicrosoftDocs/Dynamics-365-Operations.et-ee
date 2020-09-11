@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 41b0faa7ef24bdae229f7e6760d22357cb87eb0d
-ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
+ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3658354"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719210"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Sihtotstarbelised makseterminalid ja printeri ja sularahasahtli viibad
 
@@ -78,8 +78,8 @@ Kassale määratud riistvaraprofiili seadistamiseks toimige järgmiselt.
 
     | Seade | Tüüp | Seadme nimi | Täiendavad üksikasjad |
     |---|---|---|---|
-    | Printer | Taane | **Epson** või **Star** | Seadme nimi on tõstutundlik. **Kviitungiprofiili ID** peaks olema sama, mis kanali tasandil riistvarajaamale määratud riistvaraprofiilis seadistatud võrguprinteriga vastendatud **Kviitungiprofiili ID**. |
-    | Sularahasahtel | Taane | **Epson** või **Star** | Seadme nimi on tõstutundlik. Valige suvandi **Kasuta ühist vahetust** sätteks **Jah**. |
+    | Printer | Taane | *Mõni* | Seadme nimi on tõstutundlik. **Kviitungiprofiili ID** peaks olema sama, mis kanali tasandil riistvarajaamale määratud riistvaraprofiilis seadistatud võrguprinteriga vastendatud **Kviitungiprofiili ID**. |
+    | Sularahasahtel | Taane | *Mõni* | Seadme nimi on tõstutundlik. Valige suvandi **Kasuta ühist vahetust** sätteks **Jah**. |
     | Elektroonilise ülekande (EFT) teenus | Adyen | Pole kohaldatav | Valmiskujul Adyeni konnektori seadistamise kohta lisateabe saamiseks vt teemat [Dynamics 365 maksekonnektor Adyeni jaoks](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Teised makseterminalid võivad olla varustatud [Commerce'i maksete jaoks mõeldud tarkvara arenduse komplekti toega](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
     | PIN-klahvistik | Võrk | **MicrosoftAdyenDeviceV001** | Puudub. |
 
@@ -103,7 +103,7 @@ Võrgusisese kviitungiprinteri ja sularahasahtli grupeerimiseks kasutatava riist
     | Seade | Tüüp | Kirjeldus | Täiendavad üksikasjad |
     |---|---|---|---|
     | Printer | Võrk | **Epson** või **Star** | Seadme nimi on tõstutundlik. **Kviitungiprofiili ID** peaks olema sama, mis kassale määratud riistvaraprofiilis seadistatud võrguprinteriga vastendatud **Kviitungiprofiili ID**. |
-    | Sularahasahtel | Taane | **Epson** või **Star** | Seadme nimi on tõstutundlik. Valige suvandi **Kasuta ühist vahetust** sätteks **Jah**. |
+    | Sularahasahtel | Võrk | **Epson** või **Star** | Seadme nimi on tõstutundlik. Valige suvandi **Kasuta ühist vahetust** sätteks **Jah**. |
 
 5. Valige käsk **Salvesta**.
 

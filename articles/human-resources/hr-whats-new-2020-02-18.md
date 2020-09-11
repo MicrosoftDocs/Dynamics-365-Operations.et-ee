@@ -1,6 +1,6 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (18. veebruar 2020)
-description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi uusi või muutunud funktsioone.
+description: Selles artiklis kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 18. veebruari 2020 uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/18/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 60b46f5bd8f5eeae8aedc9bf81f1e7892caa0c93
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 5e9e1f05de682b4fe29ec23f06099b2968ebe3df
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555335"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711984"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Human Resources (18. veebruar 2020)
 

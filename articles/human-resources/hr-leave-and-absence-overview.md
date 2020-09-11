@@ -1,6 +1,6 @@
 ---
-title: Ülevaade
-description: Rakenduse Dynamics 365 Human Resources tööruum Puhkused ja puudumised pakub paindlikku raamistikku uute puhkuseplaanide ja taotluste haldamise töövoogude loomiseks ning töötajate intuitiivset iseteeninduse lehte vabade päevade taotlemiseks.
+title: Puhkuste ja puudumiste ülevaade
+description: Rakenduses Dynamics 365 Human Resources pakub puhkuste ja puudumiste tööruum paindlikku raamistik uute puhkuseplaanide loomiseks. See pakub ka töövoogusid taotluste haldamiseks ja intuitiivset iseteeninduslehte töövõtjatele vaba aja taotlemiseks.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/01/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428963"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712396"
 ---
-# <a name="overview"></a>Ülevaade
+# <a name="leave-and-absence-overview"></a>Puhkuste ja puudumiste ülevaade
 
-Dynamics 365 Human Resources aitab teil pakkuda oma töötajatele suurepäraseid puhkusesoodustusi. Tööruum **Puhkused ja puudumised** pakub paindlikku raamistikku uute puhkuseplaanide ja taotluste haldamise töövoogude loomiseks ning töötajate intuitiivset iseteeninduse lehte vabade päevade taotlemiseks. Analüüs aitab teie organisatsioonil mõõta ja jälgida puhkuseplaanide saldosid ja kasutust.
+Dynamics 365 Human Resources aitab teil pakkuda oma töötajatele suurepäraseid puhkusesoodustusi. Tööruum **Puhkused ja puudumised** pakub uute puhkuseplaanide loomise paindlikku raamistikku. See pakub ka töövoogusid taotluste haldamiseks ja intuitiivset iseteeninduslehte töövõtjatele vaba aja taotlemiseks. Analüüs aitab teie organisatsioonil mõõta ja jälgida puhkuseplaanide saldosid ja kasutust.
 
 ## <a name="set-up-leave-and-absence"></a>Puhkuste ja puudumiste seadistamine
 
@@ -51,42 +51,6 @@ Enne töötajale puhkuseplaanide loomist peate looma puhkuste ja puudumiste tü�
 
 Teie töövõtjad võivad esitada eemaloleku aja taotlusi ja saate neid hallata tööruumis **Töövõtja iseteeninduskeskus**.
 
-- [Taotle vaba aega](hr-employee-self-service-request-time-off.md)
-- [Puhkuste ja puudumiste taotluste haldamine](hr-employee-self-service-manage-requests.md)
-
-## <a name="leave-and-absence-known-issues"></a>Puhkuste ja puudumiste teadaolevad probleemid
-
-### <a name="rounding-precision"></a>Ümardamistäpsus
-
-Suvandit **Ümardamistäpsus** ei saa määrata, kui määrate suvandi **Ümardamine tüüp**. Suvandi **Ümardamistäpsust** saate määrata ainult üksuse **Puhkuse ja puudumise tüüp** abil. 
-
-1. Valige jaotises **Puhkuse ja puudumise tüübid** suvand **Ava Excelis** üksuse **Puhkuse ja puudumise tüüp** avamiseks.
-
-2. Kui fail avaneb ja on lubatud, valige **Kujundus**.
-
-3. Tabelis **Puhkuse ja puudumise tüüp** valige redigeerimiseks pliiatsi suvand.
-
-4. Valige **RoundingPrecision** ja **RoundingType** ning seejärel valige **Lisa** nende lisamiseks väljade loendisse.
-
-5. Valige suvand **Värskenda** ja seejärel nupp **Valmis**.
-
-6. Sisestage või valige igale puhkuse tüübile **Ümardamistüüp**, kui neid pole juba määratud. 
-
-7. Sisestage õigetele tüüpidele **Ümardamistäpsus**.
-
-8. Muudatuste sisestamiseks Human Resourcesisse valige **Avalda**.
-
-## <a name="leave-and-absence-preview-features"></a>Puhkuste ja puudumiste eelvaatefunktsioonid
-
-Saate proovida uusi puhkuste ja puudumiste eelvaatefunktsioone keskkonnas **Liivakast**. Lisateavet eelvaatefunktsioonide sisselülitamise kohta vt teemast [Funktsioonide haldamine](hr-admin-manage-features.md). 
-
-[!include [banner](includes/preview-feature.md)]
-
-Eelvaatefunktsioonid hõlmavad järgmist.
-
-- **Puhkuse juurdekasv ettevõtte- või puhkuseplaani alusel** – saate käivitada juurdekasvu protsessi kõikide ettevõtete või ühe ettevõtte jaoks. Samuti saate käivitada juurdekasvu protsessi konkreetse ettevõtte konkreetse puhkuse või puudumiste plaani jaoks. 
-
-- **Puhkuse ost** – saate lubada ja luua töötajate jaoks puhkuse ostu põhimõtted ostutaotluste esitamiseks. Töötajad saavad esitada ostutaotlusi ning nende saldot uuendatakse taotluse kajastamiseks automaatselt.  
-
-- **Kinnitatud puhkusetaotlustele manuste lisamine** – saate lisada manuse puhkusetaotlusele, mis on juba kinnitatud. 
+[Vaba aja taotlemine](hr-employee-self-service-request-time-off.md)
+[Puhkuste ja puudumiste taotluste haldamine](hr-employee-self-service-manage-requests.md)
 

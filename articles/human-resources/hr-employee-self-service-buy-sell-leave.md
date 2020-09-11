@@ -1,9 +1,9 @@
 ---
 title: Puhkuse ostmine ja müümine
-description: Saate esitada taotlusi puhkuse ostmiseks ja müümiseks.
+description: Dynamics 365 Human Resources aitab edastada puhkuse ostmise ja müümise taotlusi teie ettevõttes häälestatud puhkuse ostmis- ja müümispoliitika alusel.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b765544dcca02ff629e4cc88e3b34d1d3b3e85dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429677"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711814"
 ---
 # <a name="buy-and-sell-leave"></a>Puhkuse ostmine ja müümine
 
-[!include [banner](includes/preview-feature.md)]
-
-Saate esitada taotlusi puhkuse ostmiseks.  
+Dynamics 365 Human Resources aitab edastada puhkuse ostmise ja müümise taotlusi teie ettevõttes häälestatud puhkuse ostmis- ja müümispoliitika alusel.  
 
 ## <a name="request-to-buy-leave"></a>Puhkuse ostmise taotlus
 
@@ -39,9 +37,19 @@ Saate esitada taotlusi puhkuse ostmiseks.
 
 3. Kui olete taotluse esitamiseks valmis, valige suvand **Esita**. 
 
-Pärast taotluse esitamist uuendatakse teie saldosid automaatselt taotletud ostetava puhkuse summa võrra. 
+Teie saldod kas värskendatakse automaatselt või need läbivad enne värskendamist kinnitustoimingu. See oleneb sellest, kuidas on ostupoliitika konfigureeritud.
+
+## <a name="request-to-sell-leave"></a>Puhkuse müümise taotlus
+
+1. Tööruumis **Töövõtja iseteenindus** valige suvand **Puhkuse müümise taotlemine** paanil **Vaba aja saldod**. 
+
+2. Lisage **Puhkuse tüüp** ja sisestage **Summa**, mille eest soovite puhkust müüa. 
+
+3. Kui olete taotluse esitamiseks valmis, valige suvand **Esita**.
+
+Teie saldod kas värskendatakse automaatselt või need läbivad enne värskendamist kinnitustoimingu. See oleneb sellest, kuidas on ostupoliitika konfigureeritud.
 
 ## <a name="see-also"></a>Vt ka
 
 [Puhkuste ja puudumiste ülevaade](hr-leave-and-absence-overview.md)</br>
-[Puhkuse ostmise ja müümise poliitikate haldamine](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[Puhkuse ostu ja müügi poliitikate haldamine](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5006f06d90ddcc314a51878e9e21337de7d493e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
+ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208455"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699532"
 ---
 # <a name="hazardous-materials"></a>Ohtlikud materjalid
 
@@ -35,7 +35,7 @@ Teave ohtlike materjalide kohta on seadistatud toote teabehalduses. Siit mooduli
 Kui saadate materjale, mis on liigitatud ohtlikeks kaupadeks, tuleb saadetistega kaasa panna täiendavat dokumentatsiooni. Ohtlike materjalide funktsioon võimaldab klientidel talletada klassifikatsiooni teavet ja siduda seda lähetatavate kaupadega. Seda teavet saab kasutada saatmisdokumentide ettevalmistamise hõlbustamiseks.
 
 > [!IMPORTANT]
-> Selleks et aidata hallata ohtlike kaupade saadetisi, võimaldab Microsoft Dynamics 365 Supply Chain Management teil seadistada tootega seotud viiteteavet. Samuti saate seadistada täiendavaid tarnedokumente. Süsteem ei vasta aga automaatselt teie riigi või piirkonna määrustele. See on tööriist, mis aitab teid üldiselt kogu programmis.
+> Microsoft Dynamics 365 Supply Chain Managementi ohtlike materjalide funktsioonid pakuvad kasulike tooteteabe väljade ja nendega seotud funktsioonide kogumit, mis aitab salvestada ohtlike toodetega seotud teavet ja viidata sellele. Need funktsioonid aitavad ka luua ja printida saadetise dokumente, mis sisaldavad sama teavet mistahes ohtlike materjalide kohta, mida te lähetate. Siiski ei muuda süsteem teie kaupa automaatselt nõuetele vastavaks teie riigis või piirkonnas kohalduvatele määrustele. Kuigi need tööriistad on ette nähtud selleks, et aidata teil järgida ühiseid määrusi, ei ole need iseenesest piisavad ega nende piisavus pole garanteeritud. Teie organisatsioon vastutab kõigi kohaldatavate määruste ja nende täitmiseks vajalike sammude eest.
 
 Enne kui saate seda funktsiooni kasutada, on vaja teha järgmised seadistused.
 

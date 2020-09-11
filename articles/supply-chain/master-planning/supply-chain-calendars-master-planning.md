@@ -3,7 +3,7 @@ title: Kalendrid ja koondplaneerimine
 description: Selles teemas antakse ülevaade tarneahela kalendritest ja nende mõjust koondplaneerimisele.
 author: t-benebo
 manager: tfehr
-ms.date: 05/08/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d542c52623c1b3c0aa4b23159d56791cdc981f48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 373af2e7bdcbf6860f21e049403fdf174d5e8ca7
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213488"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710329"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendrid ja koondplaneerimine
 
@@ -105,28 +105,28 @@ Plaanitud ostutellimuse tellimiskuupäev näitab kuupäeva, millal tellimus on e
 
 ### <a name="delivery-date-of-a-planned-purchase-order"></a>Plaanitud ostutellimuse tarnekuupäev
 Ostu vastuvõtukuupäev näitab kuupäeva, millal saate kaubad kätte. See on kalendris avatud kuupäev. Kalendrid, mida võetakse arvesse, et näidata päevi, millal ostutellimusi on võimalik vastu võtta, on tähtsuse järjekorras järgmised (alates tähtsaimast). 
-    1. Hankija kalender
-    2. Laovarude grupi kalender
-    3. Vastuvõtva lao laokalender
+1. Hankija kalender
+1. Laovarude grupi kalender
+1. Vastuvõtva lao laokalender
 
 Pange tähele, et laovarude grupi kalendri saab määrata erinevatel lehtedel ja nende tähtsusjärjestus on järgmine.
-    1. Kauba laovarude grupp lehel **Väljastatud toodete üksikasjad**
-    2. Kauba laovarude grupp lehel **Kauba laovarud**
-    3. Kauba laovarude vaikegrupp lehel **Koondplaneerimise parameetrid**
+1. Kauba laovarude grupp lehel **Kauba laovarud**
+1. Kauba laovarude grupp lehel **Väljastatud toodete üksikasjad**
+1. Kauba laovarude vaikegrupp lehel **Koondplaneerimise parameetrid**
 
 ### <a name="shipping-date-of-a-planned-transfer-order"></a>Plaanitud üleviimistellimuse lähetuskuupäev
 Kahe lao vahel üleviimistellimuse loomisel kaasatakse lähetuskuupäev ja vastuvõtukuupäev üleviimistellimuse päisesse koos lähtelaoga ja sihtlaoga. Nende kahe kuupäeva vaheline erinevus on eeldatav transpordiaeg (päevades) ladude vahel.
 
 Plaanitud üleviimistellimuse lähetuskuupäev näitab kuupäeva, millal kaubad lähtelaost lähetatakse. Saadaolevate lähetuskuupäevade määramiseks kasutatud kalendrite tähtsusjärjestus on järgmine. 
-    1. Lähtelao laokalender
-    2. Laovarude grupi kalender (vt selle kalendri taandejärjestust ülalt). Kui laokalender on määratud, on lähetuskuupäev kalendris avatud kuupäev. Kui laokalendrit pole määratud, kasutatakse laovarude grupi kalendrit. 
+1. Lähtelao laokalender
+1. Laovarude grupi kalender (vt selle kalendri taandejärjestust ülalt). Kui laokalender on määratud, on lähetuskuupäev kalendris avatud kuupäev. Kui laokalendrit pole määratud, kasutatakse laovarude grupi kalendrit. 
 
 ### <a name="receipt-date-of-a-planned-transfer-order"></a>Plaanitud üleviimistellimuse sissetulekukuupäev
 Üleviimistellimuse sissetulekukuupäev näitab kuupäeva, millal kaubad sihtlaos vastu võetakse.
 
 Sissetulekukuupäeva määramiseks kasutatud kalendrite tähtsusjärjestus on järgmine. 
-    1. Laovarude grupi kalender 
-    2. Sihtlao laokalender. Kui laovarude kalender on määratud, on sissetulekukuupäev kalendris avatud kuupäev. Kui laovarude grupi kalendrit pole määratud, kasutatakse laokalendrit. 
+1. Laovarude grupi kalender 
+1. Sihtlao laokalender. Kui laovarude kalender on määratud, on sissetulekukuupäev kalendris avatud kuupäev. Kui laovarude grupi kalendrit pole määratud, kasutatakse laokalendrit. 
 
 Plaanitud üleviimise lähetus- ja vastuvõtukuupäevade leidmisel võetakse arvesse ka kasutaja määratud varupäevi lähetamiseks ja vastuvõtmiseks. 
 

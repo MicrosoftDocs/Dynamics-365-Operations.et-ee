@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 43c16c5d0de91bf1f433f4fde36e7d13775f44a0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429055"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712156"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Puhkuse ja puudumise plaanide juurdekasv
 
@@ -37,7 +37,9 @@ Rakenduses Dynamics 365 Human Resources saate koondada puhkuseid ja puudumisi mi
 
 3. Kuvatakse dialoogiboks **Puhkuse ja puudumise plaanide juurdekasv**. Jaotises **Koonda seisuga** valige kas **Tänane kuupäev** või **Kohandatud kuupäev** ja sisestage kohandatud kuupäev.
 
-4. Kui soovite lisandumisprotsessi käitada taustal, valige suvand **Käivita taustal** ja tehke järgmised ülesanded.
+4. Kui soovite käitada viitvõlad kõigi ettevõtete jaoks, valige **Kõik ettevõtted**. Kui soovite töödelda ühe puhkuseplaani viitvõlgu, valige suvandi **Kõigi plaanid** jaoks **Ei** ja seejärel valige **Puhkuseplaan**. Kui valite kõik ettevõtted, siis ei saa te valida üksikuid puhkuseplaane. 
+
+5. Kui soovite lisandumisprotsessi käitada taustal, valige suvand **Käivita taustal** ja tehke järgmised ülesanded.
 
    1. Sisestage teave lisandumisprotsessi kohta.
 
@@ -55,7 +57,9 @@ Rakenduses Dynamics 365 Human Resources saate koondada puhkuseid ja puudumisi mi
 
 3. Kuvatakse dialoogiboks **Puhkuse ja puudumise plaanide juurdekasv**. Jaotises **Koonda seisuga** valige kas **Tänane kuupäev** või **Kohandatud kuupäev** ja sisestage kohandatud kuupäev.
 
-4. Kui soovite lisandumisprotsessi käitada taustal, valige suvand **Käivita taustal** ja tehke järgmised ülesanded.
+4. Kui soovite käitada viitvõlad kõigi ettevõtete jaoks, valige **Kõik ettevõtted**. Kui soovite töödelda ühe puhkuseplaani viitvõlgu, valige suvandi **Kõigi plaanid** jaoks **Ei** ja seejärel valige **Puhkuseplaan**. Kui valite kõik ettevõtted, siis ei saa te valida üksikuid puhkuseplaane. 
+
+5. Kui soovite lisandumisprotsessi käitada taustal, valige suvand **Käivita taustal** ja tehke järgmised ülesanded.
 
    1. Sisestage teave lisandumisprotsessi kohta.
 
@@ -102,18 +106,6 @@ Kustutage kindla plaani ja kuupäevavahemiku lisandumise kirjed. Lisandumise kuu
 1. Lehel **Puhkused ja puudumised** valige vahekaart **Lingid**.
 
 2. Jaotises **Puhkuse haldamine** valige suvand **Puhkuse viitvõla auditi kustutamine**.
-
-## <a name="configure-preview-features"></a>Eelvaatefunktsioonide konfigureerimine
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-Kui olete puhkuste ja puudumiste jaoks lubanud eelvaate funktsioonid, peate konfigureerima ka nende sätted.
-
-### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Puhkuse juurdekasv ettevõtte- või puhkuseplaani alusel
-
-Puhkuse ja puudumiste plaanide juurdekasvu korral saate valida juurdekasvu kõikide ettevõtete jaoks. Kui valite kõik ettevõtted, siis ei saa te valida individuaalseid puhkuseplaane. Kui otsustate mitte rakendada juurdekasvu kõikide ettevõtete suhtes, saate kasutada konkreetse puhkuseplaani juurdekasvu. 
-
-Need valikud on juurdekasvu korral saadaval kõikidele tötöajatele või üksikutele töötajatele. 
 
 ## <a name="see-also"></a>Vt ka
 

@@ -3,7 +3,7 @@ title: Töövõtja ja ülemuse iseteeninduse ülevaade
 description: Selles artiklis antakse ülevaate töövõtja ja ülemuse iseteeninduse tööruumist.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5934b6a1a1a8aa30aa18d9be26845c84acfa2fd0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429792"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712228"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Töövõtja ja ülemuse iseteeninduse ülevaade
 
@@ -33,7 +33,26 @@ Selles artiklis antakse ülevaate töövõtja ja ülemuse iseteeninduse tööruu
 
 Kui soovite lisada või muuta isikuandmeid, vaadake teemat [Isikuandmete redigeerimine](hr-employee-manager-self-service-edit-personal-information.md).
 
-## <a name="employee-self-service"></a>Töötaja iseteenindus
+## <a name="user-not-assigned-to-a-worker-record"></a>Kasutaja pole töötaja kirjele määratud
+
+Kui te pole lehel **Kasutajad** kasutajat linkinid kirjega **Töötaja**, kuvatakse järgmine teade.
+
+**Teie kasutajatunnus pole süsteemis töövõtja kirjega seostatud. Te ei saa oma andmeid vaadata ega muuta, kuni see on tehtud. Pöörduge abi saamiseks oma juhi või tugitöörühma poole.**
+
+Kasutaja seostamiseks kirjega **Töötaja** navigeerige lehele **Kasutajad** ja valige kasutaja. Valige **Redigeeri**, lisage vastav töötaja vormi väljale **Isik** ja valige **Salvesta**. Teil peaks nüüd olema juurdepääs töövõtja iseteenindusele.
+
+## <a name="security-requirements-for-employee-and-manager-self-service"></a>Töövõtja ja juhi iseteeninduse turbenõuded
+
+Töövõtja ja juhi iseteenindus nõuab kahte järgmist turberolli.
+
+- Töövõtjatel peab olema töövõtja roll.
+- Juhtidel peab olema nii töövõtja kui ka juhi roll.
+
+>[!NOTE]
+>Töövõtja ja juhi iseteenindusele juurde pääsemiseks saate kasutada ka kohandatud rolle, kui neile on antud juurdepääs töövõtja ja juhi tööruumidele.<br>
+>Juhi juurdepääs töövõtja andmetele põhineb rakenduse Human Resourses määratletud praegusel ametikoha rea hierarhial.
+
+## <a name="employee-self-service"></a>Töövõtja iseteenindus
 
 Vahekaart **Minu teave** kuvab töövõtja iseteeninduskeskuse kohta järgmise teabe.  
 
