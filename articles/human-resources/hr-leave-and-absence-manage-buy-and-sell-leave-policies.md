@@ -3,7 +3,7 @@ title: Puhkuse ostmise ja müümise põhimõtete haldamine
 description: Saate võimaldada töötajatel osta ja müüa puhkust rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,24 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 859445f2b6e980b5960e512e69129f6a8fc6df2b
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429009"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712106"
 ---
-# <a name="manage-buy-and-sell-leave-policies"></a>Puhkuse ostmise ja müümise põhimõtete haldamine
+# <a name="manage-buy-and-sell-leave-policies"></a>Puhkuse ostu ja müügi poliitikate haldamine
 
-[!include [banner](includes/preview-feature.md)]
-
-Saate lubada töötajatel osta puhkust, luues puhkuse ostmise poliitika.  
+Saate lubada töötajatel osta ja müüa puhkust, luues puhkuse ostmise ja müümise poliitika. Saate konfigureerida need poliitikad töövoogude kinnitamiseks kasutamiseks, maksimaalsete summade ja määrade ja ostmise ning müümise määrade määramiseks. 
 
 ## <a name="enable-employees-to-buy-and-sell-leave"></a>Töötajatele puhkuse ostu ja müügi lubamine
 
-1. Valige lehel **Puhkuste ja puudumiste parameetrid** suvandi **Luba töötajatele puhkuse ostmine** väärtuseks **Jah**. 
+1. Valige lehel **Puhkuste ja puudumiste parameetrid** suvandite **Luba töötajatele puhkuse ostmine** ja **Luba töötajatele puhkuse müümine** väärtuseks **Jah**.
 
-## <a name="create-a-buy-leave-policy"></a>Puhkuse ostmise poliitika loomine
+## <a name="create-a-buy-and-sell-leave-policy"></a>Puhkuse ostmise ja müümise poliitika loomine
 
 1. Lehel **Puhkused ja puudumised** valige vahekaart **Lingid**. 
 
@@ -51,19 +49,23 @@ Saate lubada töötajatel osta puhkust, luues puhkuse ostmise poliitika.
 
 6. Valige poliitika **Alguskuupäev** ja **Lõppkuupäev**. Puhkuse ostmise või müümise taotlused on esitamiseks saadaval vaid antud ajavahemikus. 
 
-7. Valige jaotises **Ostupoliitika** suvand **Täistööaja vaste**, et kasutada maksimumsumma proportsionaalsuse jaotamiseks töötaja ametikoha kohta määratletud täistööaja vastet. Kui poliitika tüüp on **Summa**, siis sisestage **Maksimaalne fikseeritud summa**. 
+7. Valige poliitika jaoks **Töövoo ID**. Kõik ostu- ja müügitaotlused kasutavad seda töövoogu ülevaatamiseks ja kinnitamiseks. 
 
-8. Töötajale puhkuse ostmiseks saadaolevate puhkuse tüüpide lisamiseks valige **Lisa**. Te saate lisada poliitikale mitu puhkuse tüüpi. 
+8. Valige jaotises **Ostupoliitika** suvand **Täistööaja vaste**, et kasutada maksimumsumma proportsionaalsuse jaotamiseks töötaja ametikoha kohta määratletud täistööaja vastet. Kui poliitika tüüp on **Summa**, siis sisestage **Maksimaalne fikseeritud summa**. 
 
-9. Sisestage puhkuse tüübi jaoks **Töötatud kuud**, et lubada määratleda töötajale maksimaalne ostetav summa erinevate töötatud kuude alusel. 
+9. Töötajale puhkuse ostmiseks saadaolevate puhkuse tüüpide lisamiseks valige **Lisa**. Te saate lisada poliitikale mitu puhkuse tüüpi. 
 
-10. Sisestage puhkuse tüübi **Maksimumsumma**. 
+10. Sisestage puhkuse tüübi jaoks **Töötatud kuud**, et lubada määratleda töötajale maksimaalne ostetav summa erinevate töötatud kuude alusel. 
 
-11. Sisestage **Määr**, mille alusel töötaja puhkust ostab. 
+11. Sisestage puhkuse tüübi **Maksimumsumma**. 
 
-12. Soovi korral sisestage puhkuse ostmisel kasutatav **Tulukood**. 
+12. Sisestage **Määr**, mille alusel töötaja puhkust ostab. 
 
-13. Soovi korral saate valida, kas soovite kasutada puhkuse tüübi maksimumsumma kindlaks määramiseks täistööaja vastet. 
+13. Soovi korral sisestage puhkuse ostmisel kasutatav **Tulukood**. 
+
+14. Soovi korral saate valida, kas soovite kasutada puhkuse tüübi maksimumsumma kindlaks määramiseks täistööaja vastet. 
+
+15. Müügipoliitika loomiseks järgige jaotise **Müügipoliitika** toiminguid 8 kuni 14. 
 
 ## <a name="add-the-buy-and-sell-leave-policy-to-a-leave-and-absence-plan"></a>Puhkuse ostmise ja müümise poliitika lisamine puhkuste ja puudumiste plaanile
 

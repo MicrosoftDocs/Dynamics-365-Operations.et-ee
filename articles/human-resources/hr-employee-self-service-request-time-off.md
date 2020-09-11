@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f4c2d082ebe7f97d5c649c38d2462a3c011aa0e7
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429585"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712348"
 ---
 # <a name="request-time-off"></a>Eemaloleku aja taotlemine
 
@@ -44,8 +44,6 @@ Rakenduses Dynamics 365 Human Resources saate esitada eemaloleku taotlusi, vaada
 6. Kui olete taotluse esitamiseks valmis, valige suvand **Esita**. Muidu valige suvand **Salvesta mustand**.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Olemasolevale taotlusele manuse lisamine
-
-[!include [banner](includes/preview-feature.md)]
 
 Olemasoleva puhkusetaotluse uuendamisel saate lisada manuse. Samuti saate näha kõiki konkreetse kuupäevaga seotud taotlusi. 
 

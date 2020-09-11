@@ -3,7 +3,7 @@ title: ER-i funktsioon VALUEIN
 description: See teema sisaldab teavet selle kohta, kuidas kasutatakse elektroonilise aruandluse (ER) funktsiooni VALUEIN.
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0df97234df41d11897473dea4e85354e82d36ec
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 44459ae56891a08eb11a6c254f4b4d5652a0e693
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041695"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705115"
 ---
-# <a name="VALUEIN">ER-i funktsioon VALUEIN</a>
+# <a name=""></a><a name="VALUEIN">ER-i funktsioon VALUEIN</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ Tulemiks saadud *kahendmuutuja* väärtus.
 
 ## <a name="usage-notes"></a>Kasutamise märkused
 
-Üldiselt on funktsioon `VALUEIN` tõlgitud kui tingimuste **OR** kogumit.
+Üldiselt on funktsioon `VALUEIN` tõlgitud kui tingimuste **OR** kogumit. Kui tingimuste **OR** loend on suur ja SQL-lause maksimaalne kogupikkus võidakse ületada, kaaluge funktsiooni [`VALUEINLARGE`](er-functions-logical-valueinlarge.md) kasutamist.
 
 ```vb
 (input = list.item1.value) OR (input = list.item2.value) OR …
@@ -77,13 +77,13 @@ Andmeallika kutsumisel, kui see on konfigureeritud avaldisena `VALUEIN ("B", Lis
 
 Taolise tingimuse teksti tähemärkide arvu ülempiir on 32 768 tähemärki. Seetõttu ei tohiks te luua andmeallikaid, mis võivad käitusajal seda piirangut ületada. Kui piirang ületatakse, lõpetab rakendus töötamise ja esitatakse erand. Selline olukord võib tekkida näiteks siis kui andmeallikas konfigureeritakse kui `WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)` ja loendid **Loend1** ning **Loend2** sisaldavad suurt hulka kirjeid.
 
-Mõnel juhul tõlgitakse funktsioon `VALUEIN` andmebaasi aruandeks, kasutades `EXISTS JOIN` tehtemärki. See juhtub, kui kasutatakse funktsiooni [FILTER](er-functions-list-filter.md) ja järgmised tingimused on täidetud.
+Mõnel juhul tõlgitakse funktsioon `VALUEIN` andmebaasi aruandeks, kasutades `EXISTS JOIN` tehtemärki. See juhtub, kui kasutatakse funktsiooni [`FILTER`](er-functions-list-filter.md) ja järgmised tingimused on täidetud.
 
 - Suvand **ASK FOR QUERY** on funktsiooni `VALUEIN` andmeallika jaoks välja lülitatud, mis viitab kirjete loendile. Sellele andmeallikale ei rakendada käitusajal lisatingimusi.
 - Pesastatud avaldisi ei ole andmeallika funktsiooni `VALUEIN` jaoks konfigureeritud, mis viitab kirjete loendile.
 - Funktsiooni `VALUEIN` loendi üksus viitab määratletud andmeallika väljale, mitte avaldisele ega meetodile.
 
-Kaaluge selle suvandi kasutamist funktsiooni [WHERE](er-functions-list-where.md) asemel, nagu selles näites varasemalt kirjeldatud.
+Kaaluge selle suvandi kasutamist funktsiooni [`WHERE`](er-functions-list-where.md) asemel, nagu selles näites varasemalt kirjeldatud.
 
 ## <a name="example-2"></a>Näide 2
 
@@ -118,3 +118,5 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Loogilised funktsioonid](er-functions-category-logical.md)
+
+[VALUEINLARGE funktsioonid](er-functions-logical-valueinlarge.md)

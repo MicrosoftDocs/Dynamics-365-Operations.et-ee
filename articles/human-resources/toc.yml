@@ -5,6 +5,8 @@
       items:
         - name: Mis on uut või mida on muudetud rakenduses Human Resources?
           href: hr-admin-whats-new.md
+        - name: 20. august 2020
+          href: hr-whats-new-2020-08-20.md
         - name: 6. august 2020
           href: hr-whats-new-2020-08-06.md
         - name: 23. juuli 2020
@@ -78,13 +80,91 @@
             - name: Office'iga integreerimine
               items:
                 - name: Office’i integreerimise õppetükk
-                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/human-resources/toc.json
                 - name: Üksuseandmete värskendamine Excelis
-                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/human-resources/toc.json
                 - name: Excelis avamise kogemuste loomine
-                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/human-resources/toc.json
                 - name: Office'i integreerimise tõrkeotsing
-                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/human-resources/toc.json
+        - name: Andmehalduse konfigureerimine
+          items:
+            - name: Andmehaldusraamistiku ülevaade
+              href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Andmeüksused
+              items:
+                - name: Andmeüksuste ülevaade
+                  href: ../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigureerimisandmete projektid
+                  href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfiguratsiooniandmete kopeerimine ettevõtete või juriidiliste isikute vahel
+                  items:
+                    - name: Konfiguratsiooniandmete kopeerimise ülevaade
+                      href: ../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfigureerimisandmete paketid
+                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Konfiguratsiooniandmete paketid (ainult 2017. a juuli väljaanne)
+                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigureerimisandmete mallid
+                  href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/human-resources/toc.json
+                - name: Üksuse muudatuste jälgimine
+                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                - name: Teabe otsimine standardsete andmeüksuste kohta
+                  href: ../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/human-resources/toc.json
+                - name: Mitme töölehe andmemallid
+                  href: ../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/human-resources/toc.json
+                - name: Üksuste muudatuste jälgimise lubamine
+                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfiguratsioonivõtmed ja andmeüksused
+                  href: ../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Konfigureerimisandmete paketid
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Andmete importimis- ja eksportimistööd
+              items:
+                - name: Andmete importimis- ja eksportimistööde ülevaade
+                  href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/human-resources/toc.json
+                - name: Üldise töölehe üksuse abil kannete importimise head tavad
+                  href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/human-resources/toc.json
+            - name: Andmeüksuste arendamine
+              items:
+                - name: Andmeüksuste kujundamise põhimõtted ja parimad tavad
+                  href: ../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/human-resources/toc.json
+                - name: Uute andmeüksuste loomine
+                  href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Andmeüksuse atribuudid
+                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Arvutusveergute ja virtuaalsete väljade loomine
+                  href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/human-resources/toc.json
+                - name: Kontsernisisene käitumine
+                  href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/human-resources/toc.json
+                - name: Riigi-/regioonikoodide haldamine
+                  href: ../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/human-resources/toc.json
+                - name: Päriluse mustrid
+                  href: ../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/human-resources/toc.json
+                - name: Andmeüksuse viisardi reeglid
+                  href: ../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/human-resources/toc.json
+                - name: Metaandmete atribuudid
+                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Kinnitamised, vaikeväärtused ja vastendamata väljad'
+                  href: ../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/human-resources/toc.json
+                - name: Turve ja andmeüksused
+                  href: ../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Kolmandate osapoolte teenusetestimise utiliitide kasutamine
+                  href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/human-resources/toc.json
+                - name: Finantsdimensioone esitavate kirjutuskaitstud üksuste loomine
+                  href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/human-resources/toc.json
+            - name: Oma andmebaasi toomine
+              href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/human-resources/toc.json
+            - name: BYOD pakett-tööde optimeerimine
+              href: hr-admin-integration-byod-batch-jobs.md
+            - name: Automatiseeritud üksuse kaupluse värskendamine
+              href: ../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/human-resources/toc.json
+            - name: Andmeülesannete automatiseerimine
+              href: ../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/human-resources/toc.json
+            - name: Andmete valideerimise kontroll-loendi tööruum
+              href: ../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/human-resources/toc.json
+            - name: Andmehalduse tõrgete kirjeldused
+              href: ../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/human-resources/toc.json
         - name: Funktsioonide haldamine
           href: hr-admin-manage-features.md
         - name: Andmebaasi logimise konfigureerimine ja haldamine
@@ -539,11 +619,13 @@
               href: hr-employee-self-service-calendar.md
             - name: Puhkuse ostu ja müügi poliitikate haldamine
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Puhkuse ostmise ja müümise töövoogude loomine
+              href: hr-leave-and-absence-buy-sell-workflow.md
             - name: Puhkuse ostmine ja müümine
               href: hr-employee-self-service-buy-sell-leave.md
         - name: Puhkusetaotluste haldamine Teamsis
           href: hr-teams-leave-app.md
-        - name: Töötajate arendamine
+        - name: Töövõtjate arendamine
           items:
             - name: Jõudlushalduse ülevaade
               href: hr-develop-performance-management-overview.md

@@ -3,7 +3,7 @@ title: Varude sissetuleku toiming kassas
 description: Selles teemas kirjeldatakse kassa varude sissetuleku toimingu võimalusi.
 author: hhaines
 manager: annbe
-ms.date: 07/27/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
-ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
+ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3627534"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710305"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Varude sissetuleku toiming kassas
 
@@ -143,6 +143,20 @@ Toiming arvestab konfiguratsiooniga **Määramata sissetulekud lubatud** laoala 
 ### <a name="receive-all"></a>Võta kõik vastu
 
 Vajaduse korral saate valida rakenduse ribal suvandi **Võta kõik vastu**, et kiiresti uuendada kogus **Praegu vastuvõtmisel** kõikide dokumendiridade jaoks maksimaalse saadaoleva väärtuseni, mis nende ridade jaoks on saadaval.
+
+### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Ostutellimuste plaanimata kaupade vastuvõtmine
+
+Rakenduse Commerce versioonis 10.0.14 ja uuemates versioonides saavad kasutajad vastu võtta toote, mis ei olnud algselt ostutellimusel. Selle funktsiooni lubamiseks lülitage sisse **Ridade lisamine ostutellimusse kassa vastuvõtmise ajal**.  
+
+See funktsioon töötab ainult ostutellimuse vastuvõtmise puhul. Üleviimistellimuste jaoks ei saa kaupu vastu võtta, kui kaupu pole eelnevalt tellitud ega väljaminevast laost lähetatud.
+
+Kasutajad ei saa ostutellimusele kassa vastuvõtmise ajal uusi tooteid lisada, kui ostutellimuse [muutuste halduse töövoog](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) on lubatud Commerce'i peakontoris (HQ). Muutuste halduse lubamiseks tuleb enne vastuvõtmise kinnitamist kõik ostutellimuse muudatused esmalt kinnitada. Kuna see protsess lubab vastuvõtjal lisada ostutellimusele uusi ridu, nurjub vastuvõtmine, kui muudatuste haldamise töövoog on lubatud. Kui muudatuste haldus on lubatud kõigi ostutellimuste jaoks või ostutellimusega seotud hankija jaoks, keda kassas aktiivselt vastu võetakse, ei saa kasutaja kassa vastuvõtmisel uusi tooteid ostutellimusse lisada.
+
+Ridade lisamist võimaldavat funktsiooni ei saa kasutada juba ostutellimuses olevate toodete lisakoguse vastuvõtmisel. Üleliigse koguse vastuvõtmist hallatakse tavalise [üleliigse koguse vastuvõtmise](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) sätete kaudu ostutellimusel oleva tootesarja jaoks.
+
+Kui **Ridade lisamine ostutellimusse kassa vastuvõtmise ajal** on lubatud ja kasutaja võtab kassas vastu **Sissetuleku toiminguga**, kui kasutaja skannib või sisestab toote vöötkoodi või tootekoodi, mida praegusel ostutellimusel ei tuvastata, kuid tuvastatakse sobiva kaubana, saab kasutaja teate kauba ostutellimusele lisamise kohta. Kui kasutaja lisab kauba ostutellimusele, loetakse kogus, mis on sisestatud kohta **Praegu vastuvõtmisel**, ostutellimuse rea tellitud koguseks.
+
+Kui ostutellimuse vastuvõtmine on lõpule viidud ja HQ-sse töötlemiseks edastatud, luuakse lisatud read ostutellimuse koonddokumendile. HQ ostutellimuse real kuvatakse ostutellimuse rea vahekaardil **Üldine** lipp **Kassas lisatud**. Lipp **Kassas lisatud** tähistab seda, et kassa vastuvõtutoiming lisas ostutellimuse rea ja see polnud rida, mis oli ostutellimusel olemas enne vastuvõtmist.
 
 ### <a name="cancel-receiving"></a>Tühista vastuvõtmine
 

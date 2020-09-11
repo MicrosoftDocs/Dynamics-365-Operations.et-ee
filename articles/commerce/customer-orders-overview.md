@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
-ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
+ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699365"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710255"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Kliendi tellimused Modern POS-is (MPOS-is)
 
@@ -54,7 +54,10 @@ Lehel **Kaubanduse parameetrid** saate määrata muu hulgas järgmisi parameetre
     - Tasud rakendatakse müügitellimuse päise tasemel ja tooterea osalise koguse tagastamisel ei saa toodete ja koguse puhul lubatud saatekulude maksimaalset tagasimakset määrata viisil, mis toimiks kõigi klientide puhul.
     - Saatekulud lisatakse igale saatmisele. Kui klient tagastab tooteid mitu korda ja jaemüüja poliitika määrab, et jaemüüja kannab saatekulude tagastamiskulu, on tagastatavad saatekulud suuremad kui tegelikud saatekulud.
     
-- **Maksu arvutamise viis** - **Ümberarvutamine** on vaike- ja tavapärane säte maksude ümberarvutamiseks, kui tellimus imporditakse kontorisse. **Ära arvuta ümber** keelab maksude ümberarvutamise, kuni tellimust kontoris redigeeritakse, mis juhul käivitatakse ümberarvutamine. 
+
+## <a name="disable-option-to-pay-later"></a>Keela hiljem maksmise suvand
+
+Commerce'i versioonis 10.0.12 ja hilisemates versioonides saavad kaupmehed eemaldada hiljem maksmise suvandi, kui kliendi tellimus on koostatud kassas. Suvandi keelamiseks avage **Funktsiooniprofiil** kanali jaoks, milles hiljem maksmine pole lubatud ja valige **Redigeeri**. Valige vahekaardil **Üldine** suvandi **Nõua täitmiseks makset** ripploend. Kui kassas ei tohi hiljem maksmine lubatud olla, valige **Kaart on nõutav** ja seejärel valige **Salvesta**. Käivitage jaotusgraafik **1070** selle muudatuse sünkroonimiseks kanaliga. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Klienditellimuste kannetevoog
 

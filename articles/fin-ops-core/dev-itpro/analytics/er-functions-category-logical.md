@@ -3,7 +3,7 @@ title: ER-i funktsioonide loend loogilises kategoorias
 description: See teema annab teavet loogiliste funktsioonide kohta, mida toetatakse elektroonilises aruandluses (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 408b3c5ec37b24e0ccf6e368012a936701eedf0f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: e622778c60646e5cc84cd6e23a5d4954a0fe0bb3
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916633"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705091"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>ER-i funktsioonide loend loogilises kategoorias
 
@@ -41,6 +41,8 @@ Elektroonilise aruandluse (ER) loogilisi funktsioone saab kasutada loogiliste v�
 | [Ei ole](er-functions-logical-not.md)                       | See funktsioon annab määratud tingimuse pööratud loogilise väärtuse *kahendmuutuja* väärtusena. |
 | [Or](er-functions-logical-or.md)                         | Kui kõik määratud tingimused on väärad, tagastab see funktsioon *kahendmuutuja* väärtuse **FALSE**. Kui mõni määratud tingimustest on tõene, tagastab funktsioon *kahendmuutuja* väärtuse **TRUE**. |
 | [ValueIn](er-functions-logical-valuein.md)               | See funktsioon määratleb, kas määratud sisend vastab määratud loendis määratud üksuse mis tahes väärtusele. See tagastab *kahendmuutuja* väärtuse **TRUE**, kui määratud sisestus ühtib määratud avaldise käivitamise tulemusega vähemalt ühe määratud loendi kirje puhul. Muidu tagastab see *kahendväärtuse* **VÄÄR**. |
+| [ValueInLarge](er-functions-logical-valueinlarge.md)     | See funktsioon määratleb, kas määratud *Int64* või *Täisarv*-tüüpi sisend vastab määratud loendis määratud üksuse mis tahes väärtusele. See tagastab *kahendmuutuja* väärtuse **TRUE**, kui määratud sisestus ühtib määratud avaldise käivitamise tulemusega vähemalt ühe määratud loendi kirje puhul. Muidu tagastab see *kahendväärtuse* **VÄÄR**. |
+
 
 ## <a name="additional-resources"></a>Lisaressursid
 

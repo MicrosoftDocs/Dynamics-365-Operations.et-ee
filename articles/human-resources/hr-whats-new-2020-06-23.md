@@ -1,6 +1,6 @@
 ---
 title: Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (25. juuni 2020)
-description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi uusi või muutunud funktsioone.
+description: Selles teemas kirjeldatakse Microsoft Dynamics 365 Human Resourcesi 23. juuni 2020 uusi või muutunud funktsioone.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/25/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fa02cf10b2b4fe08440d3641472e83dfe58169c9
-ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
+ms.openlocfilehash: d9787df5f36c1f08ade40e3e8fc5d5189e3bd5b0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3614382"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711936"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Human Resources (23. juuni 2020)
 
@@ -88,7 +88,7 @@ Mõned organisatsioonid pakuvad soodustust, mis võimaldab töötajatel oma puhk
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Puhkuse lisandumine üksiku ettevõtte või plaani puhul
 
-Kliendid saavad töödelda lisandumisi üksiku ettevõtte või üksiku puhkuste ja puudumiste plaani puhul. See võimalus muudab lisandumisprotsessi selgemaks selliste klientide puhul, kellel on eri puhkuseaastad või puhkuse lisandumise poliitikad. Lisateavet leiate teemast [Puhkuse lisandumine ettevõtte või puhkuseplaani alusel](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+Kliendid saavad töödelda lisandumisi üksiku ettevõtte või üksiku puhkuste ja puudumiste plaani puhul. See võimalus muudab lisandumisprotsessi selgemaks selliste klientide puhul, kellel on eri puhkuseaastad või puhkuse lisandumise poliitikad. Lisateavet leiate teemast [Puhkuse lisandumine ettevõtte või puhkuseplaani alusel](hr-leave-and-absence-accrue.md).
 
 ## <a name="add-attachments-to-time-off-requests"></a>Eemalolekuaja taotlustele manuste lisamine
 

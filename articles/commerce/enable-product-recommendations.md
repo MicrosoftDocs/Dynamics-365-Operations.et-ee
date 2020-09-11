@@ -3,7 +3,7 @@ title: Tootesoovituste lubamine
 description: Selles teemas selgitatakse, kuidas teha tehisintellekti masinõppel (AI-ML) põhinevad tootesoovitused rakenduses Microsoft Dynamics 365 Commerce klientidele kättesaadavaks.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665022"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700838"
 ---
 # <a name="enable-product-recommendations"></a>Tootesoovituste lubamine
 
@@ -65,11 +65,13 @@ Salvestage ja sulgege leht.
 
 Tootesoovituste sisselülitamiseks tehke järgmist.
 
-1. Avage **Jaemüük ja kaubandus &gt; Tootesoovitused &gt; Soovituste parameetrid**.
-1. Jagatud parameetrite loendis valige suvand **Soovituste loendid**.
-1. Määrake suvand **Luba soovitused** valikule **Jah**.
+1. Commerce'i peakontorist otsige valikut **Funktsioonihaldus**.
+1. Saadaolevate funktsioonide vaatamiseks valige **Kõik**. 
+1. Sisestage otsinguväljale **Soovitused**.
+1. Valige funktsioon **Tootesoovitused**.
+1. Tehke atribuutide paanil **Tootesoovitused** valik **Luba kohe**.
 
-![Soovituste sisselülitamine](./media/enablepersonalization.png)
+![Soovituste sisselülitamine](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > See protseduur käivitab tootesoovituste loendite loomise protsessi. Enne loenditele juurdepääsu ja nende kuvamist kassas või rakenduses Dynamics 365 Commerce, võib kuluda mitu tundi.

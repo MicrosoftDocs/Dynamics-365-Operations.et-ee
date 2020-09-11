@@ -3,7 +3,7 @@ title: Garantiilepingud
 description: Selles teemas selgitatakse garantiilepinguid varahalduses.
 author: josaw1
 manager: tfehr
-ms.date: 08/30/2019
+ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e9cbb9068101f3004179f338da18af0369190807
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f049165fd12dfae672293e0c30ddb186ad3ed12c
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215374"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719234"
 ---
 # <a name="warranty-agreements"></a>Garantiilepingud
 
@@ -42,16 +42,16 @@ Garantiileping võib sisaldada mitut lepingurida, mis katavad tööaja, kulude j
 
 1. Valige **Varahaldus** \> **Seadistus** \> **Varad** \> **Garantii**.
 2. Valige **Uus**, et luua uus toode.
-3. Sisestage garantii ID väljale **Garantii**.
+3. Sisestage garantii ID väljale **Garantii**. 
 4. Väljale **Nimi** sisestage kirjeldus.
 
     Kiirkaardil **Üksikasjad** kuvatakse väljal **Varad** aktiivsete varade arv, mis kasutavad garantiilepingut.
 
-5. Järgige kiirkaartidel **Tunnigarantii** ja **Kaubagarantii** neid samme, et lisada ridu, mis tuleb kaasata tundide või kaupadega seotud garantiilepingusse.
+5. Järgige kiirkaardil **Garantiiread** neid toiminguid garantiilepingusse kaasatavate ridade lisamiseks.
 
     1. Valige suvand **Lisa rida**, et lisada garantiile uus tingimus. Väljale **Rida** sisestatakse automaatselt seerianumber.
     2. Valige garantiiperioodi tüüp väljal **Periood**.
     3. Sisestage number väljale **Intervall**. See väli määratleb perioodide arvu, millele garantii peaks kehtima.
     4. Sisestage väljale **Protsent** garantii rea laovarude protsent. Protsent näitab, kui palju teie ettevõte katab.
 
-![Garantii leht](media/01-warranty.png)
+![Garantiileht](media/01-warranty.png)
