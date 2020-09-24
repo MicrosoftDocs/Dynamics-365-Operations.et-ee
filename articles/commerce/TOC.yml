@@ -92,6 +92,8 @@
                   items:
                     - name: Mis on uut või mida on muudetud Commerce'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.14 (november 2020)
+                      href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (oktoober 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (august 2020)
@@ -242,7 +244,7 @@
                   href: retail-hardware-station-configuration-installation.md
                 - name: Iseteeninduse komponentide hulgijuurutus
                   href: dev-itpro/retail-mass-deployment.md
-                - name: Retaili komponentide sündmused diagnostika ja tõrkeotsingu jaoks
+                - name: Commerce'i komponentide sündmused diagnostika ja tõrkeotsingu jaoks
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Juurutatava paketi rakendamine
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
@@ -424,7 +426,7 @@
                       items:
                         - name: 'MPOS-i konfigureerimine, installimine ja aktiveerimine'
                           href: retail-modern-pos-device-activation.md
-                        - name: Kaasaaegse kassa ja pilve kassa laiendatud sisselogimisfunktsiooni häälestus
+                        - name: MPOS-i ja pilve kassa laiendatud sisselogimisfunktsiooni häälestus
                           href: extended-logon.md
                         - name: Aktiveerimiskontode haldamine ja seadmete kinnitamine
                           href: set-up-activation-accounts-validate-devices-hq.md
@@ -526,6 +528,8 @@
                       href: omni-channel-payments.md
                     - name: Omnikanali Commerce'i tellimuste maksed
                       href: dev-itpro/commerce-payments.md
+                    - name: Krediitkaartide töötlemine ilma riistvarajaamata
+                      href: dev-itpro/cnp-pos.md
                     - name: Maksete KKK
                       href: dev-itpro/payments-retail.md
                 - name: Organisatsiooni Bingi kaartide haldamine
@@ -698,9 +702,9 @@
                       href: tasks/create-product-packages-purchase-orders.md
         - name: Tellimuste haldamine
           items:
-            - name: Kliendi tellimused
+            - name: Klienditellimused
               items:
-                - name: Kliendi tellimused MPOS-is
+                - name: Klienditellimused kassas (POS)
                   href: customer-orders-overview.md
                 - name: Hübriidkliendi tellimused
                   href: hybrid-customer-orders.md
@@ -824,8 +828,10 @@
                   href: set-up-B2C-tenant.md
                 - name: Kohandatud lehtede häälestus kasutajate sisselogimise jaoks
                   href: custom-pages-user-logins.md
-                - name: Mitme B2C-rentniku konfigureerimine Commerce'i keskkonnas
+                - name: Mitme jaekaubandusrentniku konfigureerimine Commerce'i keskkonnas
                   href: configure-multi-B2C-tenants.md
+                - name: Domeenid Dynamics 365 Commerce'is
+                  href: domains-commerce.md
                 - name: Sisu edastamise võrgu (CDN) toe lisamine
                   href: add-cdn-support.md
                 - name: Asukohapõhise poetuvastuse lubamine
@@ -990,6 +996,8 @@
                       href: media-gallery-module.md
                     - name: Hinnangute ja arvustuste moodulid
                       href: ratings-reviews-modules.md
+                    - name: Sotsiaalmeedias jagamise moodul
+                      href: social-share-module.md
                 - name: Ostumoodulid
                   items:
                     - name: Ostukorvimoodul
@@ -1026,6 +1034,12 @@
                   items:
                     - name: Lingireamoodul
                       href: add-breadcrumb.md
+                    - name: Navigeerimismenüü moodul
+                      href: nav-menu-module.md
+                - name: Vastavusmoodulid
+                  items:
+                    - name: Küpsistega nõustumise moodul
+                      href: cookie-consent-module.md
             - name: Otsing
               items:
                 - name: Kategooria vaikesihtlehe ja otsingutulemuste lehe ülevaade
@@ -1648,13 +1662,13 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
                 - name: ER-vormingute konfigureerimine juriidilise isiku kohta määratud parameetrite kasutamiseks
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
-                - name: ER-vormingu parameetrite häälestus juriidilise isiku kohta
+                - name: Elektroonilise aruandluse vormingu parameetrite häälestus juriidilise isiku kohta
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
-                - name: ER-vormingu elementide käivitamise edasilükkamine
+                - name: Elektroonilise aruandluse vormingu elementide käivitamise edasilükkamine
                   items:
-                    - name: Järjestuse elemendi käivitamise edasilükkamine
+                    - name: Elektroonilise aruandluse vormingus järjestuselementide käivitamise edasilükkamine
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
-                    - name: XML elemendi käivitamise edasilükkamine
+                    - name: Elektroonilise aruandluse vormingus XML-elementide käivitamise edasilükkamine
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
             - name: Elektroonilise aruandluse lahenduste kasutamine Finance and Operationsis
               items:

@@ -3,7 +3,7 @@ title: Vähehaaval toimuv tellimuse loomine kaupluse kannete jaoks
 description: Selles teemas kirjeldatakse vähehaaval toimuvat tellimuse loomist kaupluse kannete jaoks Microsoft Dynamics 365 Commerceis.
 author: josaw1
 manager: AnnBe
-ms.date: 06/08/2020
+ms.date: 09/04/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6e097ead7cacb3f71452323656546a4be661457f
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 79f99b9b401de3e3bcca6ec5a13a3b4f7bad6f8c
+ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710279"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3766732"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Vähehaaval toimuv tellimuse loomine kaupluse kannete jaoks
 
@@ -36,24 +36,22 @@ Retaili versioonis 10.0.5 kasutusele võetud vähehaaval toimuva tellimuse loomi
 
 ## <a name="how-to-use-trickle-feed-based-posting"></a>Vähehaaval toimuva sisestamise kasutamine
   
-1. Kannete vähehaaval toimuva sisestamise lubamiseks avage **Süsteemihaldus > Häälestamine > Litsentsi konfiguratsioon** ja keelake võti **Väljavõtted**.
+1. Jaemüügikannete vähehaaval toimuva sisestamise lubamiseks lubage funktsioonihalduse abil funktsioon **Retaili väljavõtted – vähehaaval toimuv**.
 
-2. Samal lehel lubage litsentsivõti **Väljavõtted (vähehaaval toimuv) – eelvaade**. Kui lubate selle võtme, veenduge, et ükski väljavõte pole sisestamise ootel. 
+    > [!IMPORTANT]
+    > Enne funktsiooni lubamist veenduge, et ükski väljavõte pole sisestamise ootel.
 
-    > [!Important]
-    > Enne kui lubate litsentsivõtme **Väljavõtted (vähehaaval toimuv) – eelvaade**, veenduge, et ükski väljavõte poleks sisestamise ootel.
-
-3. Praegune väljavõttedokument tükeldatakse kaheks eri tüübiks: kandeväljavõte ja finantsaruanne.
+2. Praegune väljavõttedokument tükeldatakse kaheks tüübiks: kandeväljavõte ja finantsaruanne.
 
       - Kandeväljavõte kogub kõik sisestamata ja kinnitatud kanded ning loob müügitellimused, müügiarved, maksete ja allahindluste töölehed ning tulu-/kulukanded teie konfigureeritaval sagedusel. Peaksite selle protsessi konfigureerima nii, et seda käitataks suurel sagedusel, et dokumendid loodaks siis, kui kanded laaditakse peakontori P-töö kaudu. Selle kandeväljavõtte korral, mis juba loob müügitellimusi ja müügiarveid, pole tegelikult vaja konfigureerida pakett-tööd **Sisesta varud**. Saate oma võimalike ärinõuete täitmiseks seda siiski kasutada.  
       
      - Finantsaruanne on mõeldud loomiseks päeva lõpus ja see toetab ainult sulgemisviisi **Vahetus**. See aruanne piiratakse finantsvastavusseviimisega ja see loob töölehed ainult loendatud summa ja kandesumma vaheliste erinevuste summade jaoks eri maksevahendite puhul, samuti loob töölehed muude sularahahalduse kannete jaoks.   
 
-4. Kandeväljavõtte arvutamiseks klõpsake valikuid **Jaemüük ja kaubandus > Jaemüügi ja kaubanduse IT > Kassa sisestamine > Kandeväljavõtete arvutamine partiina**. Kandeväljavõtete sisestamiseks partiina klõpsake valikuid **Jaemüük ja kaubandus > Jaemüügi ja kaubanduse IT > Kassa sisestamine > Kandeväljavõtete sisestamine partiina**.
+3. Kandeväljavõtte arvutamiseks avage **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Kandeväljavõtete arvutamine partiina**. Kandeväljavõtete sisestamiseks partiina valige **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Kandeväljavõtete sisestamine partiina**.
 
-5. Finantsaruande arvutamiseks klõpsake valikuid **Jaemüük ja kaubandus > Jaemüügi ja kaubanduse IT > Kassa sisestamine > Finantsaruande arvutamine partiina**. Finantsaruannete partiina sisestamiseks klõpsake valikuid **Jaemüük ja kaubandus > Jaemüügi ja kaubanduse IT > Kassa sisestamine > Finantsaruande sisestamine partiina**.
+4. Finantsaruande arvutamiseks valige **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Finantsaruande arvutamine partiina**. Finantsaruannete partiina sisestamiseks valige **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Finantsaruande sisestamine partiina**.
 
 > [!NOTE]
-> Menüükäsud **Jaemüük ja kaubandus > Jaemüügi ja kaubanduse IT > Kassa sisestamine > Väljavõtete arvutamine partiina** ja **Jaemüük ja kaubandus > Jaemüügi ja kaubanduse IT > Kassa sisestamine > Väljavõtete sisestamine partiina** eemaldatakse selle uue funktsiooniga.
+> Menüükäsud **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Väljavõtete arvutamine partiina** ja **Retail ja Commerce > Retaili ja Commerce'i IT > Kassa sisestamine > Väljavõtete sisestamine partiina** eemaldatakse selle uue funktsiooniga.
 
-Lisaks saab kandeväljavõtte ja finantsaruande tüüpe luua käsitsi. Avage **Jaemüük ja kaubandus > Kanalid > Kauplused** ja klõpsake valikut **Väljavõtted**. Klõpsake valikut **Uus** ja valige, millist tüüpi väljavõtte soovite luua. Lehel **Väljavõtted** olevad väljad ja lehe jaotises **Väljavõttegrupp** olevad tegevused kuvavad valitud väljavõttetüübi põhjal asjakohased andmed ja tegevused.
+Lisaks saab kandeväljavõtte ja finantsaruande tüüpe luua käsitsi. Avage **Retail ja Commerce > Kanalid > Kauplused** ja klõpsake valikut **Väljavõtted**. Klõpsake valikut **Uus** ja valige, millist tüüpi väljavõtte soovite luua. Lehel **Väljavõtted** olevad väljad ja lehe jaotises **Väljavõttegrupp** olevad tegevused kuvavad valitud väljavõttetüübi põhjal asjakohased andmed ja tegevused.
