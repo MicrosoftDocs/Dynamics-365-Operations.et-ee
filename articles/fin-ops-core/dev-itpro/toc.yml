@@ -14,15 +14,15 @@
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Platvormi versiooni 10.0.14 värskendused (november 2020)
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Platvormi versiooni 10.0.13 värskendused (oktoober 2020)
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platvormi versiooni 10.0.12 värskendused (august 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: Platvormi versiooni 10.0.11 värskendused (juuli 2020)
-                  href: get-started/whats-new-platform-update-35.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
-                - name: Eemaldatud või iganenud platvormi funktsioonid
+                - name: Eemaldatud või iganenud platvormifunktsioonid
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Varasematest versioonidest eemaldatud või iganenud funktsioonid
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -606,6 +606,14 @@
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: X++ mudeli versioonimine Azure Pipelinesis
                   href: dev-tools/pipeline-model-version.md
+                - name: Varade allalaadimine teenuse Azure Pipelines abil
+                  href: dev-tools/pipeline-asset-download.md
+                - name: Varade üleslaadimine teenuse Azure Pipelines abil
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: Varade juurutamine teenuse Azure Pipelines abil
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: Lifecycle Servicese (LCS) ühenduse loomine teenuses Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection.md
             - name: Sõidukipargi halduse näidisrakendus
               items:
                 - name: Sõidukipargi halduse näidisrakenduse täielik stsenaarium
