@@ -3,7 +3,7 @@ title: Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 description: Selles teemas selgitatakse, kuidas saate kasutada elektroonilise aruandluse (ER) silte mitmekeelsete aruannete kujundamiseks ja loomiseks.
 author: NickSelin
 manager: AnnBe
-ms.date: 04/24/2020
+ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65efb8dbec925b5238acaa5d6769f3085e9715b9
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3444617"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810663"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Mitmekeelsete aruannete kujundamine elektroonilises aruandluses
 
@@ -33,7 +33,7 @@ ms.locfileid: "3444617"
 
 Ärikasutajana saate kasutada raamistikku [Elektrooniline aruandlus (ER)](general-electronic-reporting.md), et konfigureerida väljaminevate dokumentide vorminguid, mis tuleb luua eri riikide või regioonide õigusnõuete järgi. Kui nõuete järgi tuleb väljaminevad dokumendid luua eri riikide või regioonide jaoks mitmes keeles, saate konfigureerida ühe ER-i [vormingu](general-electronic-reporting.md#FormatComponentOutbound), mis sisaldab keelest sõltuvaid ressursse. Sel viisil saate vormingut kasutada mitmeid kordi, et luua väljaminevaid dokumente eri riikide või regioonide jaoks. Soovi korral võite kasutada üht ER-i vormingut, et luua väljaminev dokument eri keeltes asjakohastele klientidele, hankijatele, tütarettevõtetele või teistele pooltele.
 
-Te saate konfigureerida ER-i andmemudeleid ja mudelivastendusi konfigureeritud ER-i vormingute andmeallikateks, et määratleda andmevoog, mis täpsustab, millised rakenduse andmed loodud dokumentidesse lisatakse. ER-i konfiguratsiooni[pakkujana](general-electronic-reporting.md#Provider) saate [avaldada](tasks/er-upload-configuration-into-lifecycle-services.md#upload-configuration-into-lcs) konfigureeritud [andmemudeleid](general-electronic-reporting.md#data-model-and-model-mapping-components), [mudelivastendusi](general-electronic-reporting.md#data-model-and-model-mapping-components) ja [vorminguid](general-electronic-reporting.md#FormatComponentOutbound) ER-i lahenduse komponentidena, et luua kindlaid väljaminevaid dokumente. Samuti saate lubada klientidel avaldatud ER-i lahendust [üles laadida](general-electronic-reporting-manage-configuration-lifecycle.md), et seda oleks võimalik kasutada ja kohandada. Kui te arvate, et kliendid võivad rääkida teises keeles, saate konfigureerida ER-i komponente nii, et need sisaldaksid keelest sõltuvaid ressursse. Sel viisil on võimalik kujundamise ajal esitada muudetava ER-i komponendi sisu kliendi eelistatud keeles.
+Te saate konfigureerida ER-i andmemudeleid ja mudelivastendusi konfigureeritud ER-i vormingute andmeallikateks, et määratleda andmevoog, mis täpsustab, millised rakenduse andmed loodud dokumentidesse lisatakse. ER-i konfiguratsiooni[pakkujana](general-electronic-reporting.md#Provider) saate [avaldada](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) konfigureeritud [andmemudeleid](general-electronic-reporting.md#data-model-and-model-mapping-components), [mudelivastendusi](general-electronic-reporting.md#data-model-and-model-mapping-components) ja [vorminguid](general-electronic-reporting.md#FormatComponentOutbound) ER-i lahenduse komponentidena, et luua kindlaid väljaminevaid dokumente. Samuti saate lubada klientidel avaldatud ER-i lahendust [üles laadida](general-electronic-reporting-manage-configuration-lifecycle.md), et seda oleks võimalik kasutada ja kohandada. Kui te arvate, et kliendid võivad rääkida teises keeles, saate konfigureerida ER-i komponente nii, et need sisaldaksid keelest sõltuvaid ressursse. Sel viisil on võimalik kujundamise ajal esitada muudetava ER-i komponendi sisu kliendi eelistatud keeles.
 
 Saate konfigureerida keelest sõltuvaid ressursse ER-i siltidena. Seejärel saate silte kasutada ER-i komponentide konfigureerimiseks järgmistel eesmärkidel.
 

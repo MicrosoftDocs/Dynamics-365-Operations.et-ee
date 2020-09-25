@@ -3,7 +3,7 @@ title: Osaline asukoha tsükliline inventuur
 description: Tsüklilise inventuuri plaanid juhivad tegelikke inventuuritoimingud. Saate nõuda, et asukohas loendataks kogu vaba kaubavaru asemel ainult konkreetseid tooteid ja tootevariante.
 author: perlynne
 manager: tfehr
-ms.date: 11/02/2017
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f07c7754dbe36334e8972d49edf9fb84a78f5d0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215673"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760003"
 ---
 # <a name="partial-location-cycle-counting"></a>Osaline asukoha tsükliline inventuur
 
@@ -45,7 +45,7 @@ Kui seostate tsüklilise inventuuri plaanid töömallidega, kasutades valikut **
 
 Enne osalise tsüklilise inventuuri töö töötlemist peab tegema tsüklilise inventuuri seadistamise käigus mobiilse seadme menüüelemendile vähemalt valiku **Kuva kaubakood**. Laooperaatoril palutakse registreerida ainult inventuuriridadega seotud inventuuriteave (kaubakoodid ja tootedimensioonid). Kõiki muid vabu kaubavarusid eiratakse selle inventuuriprotsessi puhul. 
 
-Osalise tsüklilise inventuuri protsessi puhul ei uuendata asukoha kuupäeva/kellaaega **Viimane tsükliline inventuur**.
+Osalise tsüklilise inventuuri protsessi korral ei uuendata asukoha kuupäeva/kellaaega **Viimane tsükliline inventuur**, kuigi loendatakse kõik antud asukohas olevad üksused. Osaline tsükliline inventuur ei arvesta lehel **Tsüklilise inventuuri plaanid** parameetrit **Päevi tsükliliste inventuuride vahel**. Osaline tsükliline inventuur ei toeta mitme üksuse samaaegset loendamist samas asukohas. Osalise tsüklilise inventuuri funktsioon võib põhjustada kauba korral sama asukoha loendamist mitu korda, kui käitatakse käsk **Töötle tsüklilise inventuuri plaani**. Selle stsenaariumi vältimiseks määrake filtrid väljal **Vali asukohad**.
 
 ## <a name="example"></a>Näide
 Selle näite puhul tuleb laos 61 loendada ainult kaup koodiga A0001.

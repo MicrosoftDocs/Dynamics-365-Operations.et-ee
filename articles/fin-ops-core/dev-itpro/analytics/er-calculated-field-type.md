@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
-ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
+ms.openlocfilehash: c68f0a0e2481c69add8c50a1581466ad0b1483c0
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665606"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759907"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Arvutatud väljatüübi ER-andmeallikate parameetritega kõned
 
@@ -339,4 +339,7 @@ Läbivaadatud konfiguratsioone saate RCS-ist importida tüübi **RCS** ER-hoidla
 8. Võrrelge loodud väljundite sisu.
 
 ## <a name="additional-resources"></a>Lisaressursid
-[Valemikoostaja elektroonilises aruandluses (ER)](general-electronic-reporting-formula-designer.md)
+
+- [Valemikoostaja elektroonilises aruandluses (ER)](general-electronic-reporting-formula-designer.md)
+- [Saate parandada ER-lahenduste jõudlust, lisades parameeteriseeritud ARVUTATUD VÄLJA andmeallikad](er-calculated-field-ds-performance.md)
+

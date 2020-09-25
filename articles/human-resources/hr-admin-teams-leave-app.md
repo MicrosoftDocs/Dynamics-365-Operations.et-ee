@@ -3,7 +3,7 @@ title: Rakendus Human Resources Teamsis
 description: Selles teemas tutvustatakse Microsoft Teamsi rakendust Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4822cc6560926df878a8b4e9f821b331ede27a8c
-ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
+ms.openlocfilehash: a022f8297066793080d254baa01410884a3fafd9
+ms.sourcegitcommit: 55b729361ea852e38531c51972c6730e3d9c2b45
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3666356"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3776304"
 ---
 # <a name="human-resources-app-in-teams"></a>Rakendus Human Resources Teamsis
 
@@ -41,6 +41,45 @@ Rakenduse Human Resources leiate Teamsi poest. Lisateabe saamiseks Teamsi rakend
 
 Lisateabe saamiseks rakenduse lubade haldamise kohta Teamsis, vaadake teemat [Rakenduse lubade poliitikate haldamine Microsoft Teamsis](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
+## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Teatiste lubamine rakenduse Human Resources jaoks Teamsis
+
+Kui soovite, et kasutajad saaksid puhkusetaotluse teatisi rakenduses Teams, peate lubama teatised rakenduses Human Resources.
+
+>[!NOTE]
+>Teatisi saavad ainult need kasutajad, kes on sisse logitud Teamsi ja kasutavad Teamsi rakendust Human Resources.
+
+1. Valige rakenduses Human Resources suvand **Süsteemihaldus**.
+
+2. Valige **Lingid**.
+
+3. Tehke jaotises **Seadistamine** valik **Süsteemi parameetrid**.
+
+4. Seadke vahekaardil **Üldine** seade **Teatiste lubamine rakenduse Teams jaoks** väärtuseks **Jah**.
+
+   ![Teamsi rakenduse teatiste lubamine süsteemi parameetrites](./media/hr-admin-teams-leave-app-enable-notifications.png)
+
+5. Kõigi kasutajate jaoks Teamsi teatiste sisselülitamiseks valige **Jah**.
+
+   ![Teamsi teatiste lubamine kõigi kasutajate jaoks](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+
+### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Üksikutele kasutajate jaoks Teamsi teatiste sisse- või väljalülitamine
+
+Kui olete lubanud Teamsi rakenduse Human Resources teatised, saate teatised üksikute kasutajate jaoks sisse või välja lülitada.
+
+1. Valige rakenduses Human Resources suvand **Süsteemihaldus**.
+
+2. Valige **Lingid**.
+
+3. Tehke jaotises **Kasutajad** valik **Kasutaja valikud**.
+
+4. Valige vahekaart **Töövoog**.
+
+5. Määrake seade **Teatiste lubamine rakenduse Teams jaoks** väärtuseks **Jah**, et lubada kasutajate jaoks teatiste kuvamine, või **Ei**, et keelata kasutajale teatiste kuvamine.
+
+   ![Teamsi rakenduse teatiste lubamine kasutaja suvandite vahekaardil Töövoog](./media/hr-admin-teams-leave-app-notifications.png)
+
+6. Valige käsk **Salvesta**.
+
 ## <a name="known-issues"></a>Teadaolevad probleemid
 
 | Väljasta | Olek |
@@ -48,19 +87,24 @@ Lisateabe saamiseks rakenduse lubade haldamise kohta Teamsis, vaadake teemat [Ra
 | Horisontaalne kerimine ei tööta Androidi telefonides | Horisontaalne kerimine ei ole iOS-is või arvutites probleem. Me töötame selle vea parandamise kallal Androidis. |
 | Tõrge: tekkis probleem ühendatava keskkonna leidmisel. | Seda tõrget võidakse kuvada isegi juhul, kui olete kinnitanud, et kasutajal on juurdepääs ühele või enamale Human Resourcesi keskkonnale. Ka ei pruugi te näha kõiki eeldatavaid keskkondi. Kuni me probleemiga tegeleme, kustutage probleemi lahendamiseks kasutaja ja importige ta seejärel uuesti. |
 | Tulevaks kuupäevaks vaba aja taotlemisel on vale saldo. | Prognoosimine pole veel saadaval. Kuvatakse praeguse kuupäeva saldo. |
-| Olemasolevas taotluses võetud tundide arvu vähendamisel, muutub **Jääksaldo** väiksemaks, mitte suuremaks. | Tegeleme selle teadaoleva probleemiga tulevikus. Kuva on vale, kuid õiged summad kohandatakse pärast esitamist. |
 | Taotlust **Läbivaatamisel** ei saa tühistada. | See funktsioon ei ole praegu toetatud ja lisatakse tulevasse väljalaskesse. |
 | Saldo teavet arvutatakse alates tänasest. | Süsteem ei kuva praegu puhkuseperioodi seisuga saldosid, isegi kui see on konfigureeritud puhkuste ja puudumiste parameetrites. |
 
 ## <a name="privacy-notice"></a>Privaatsusavaldus
 
-Kui Dynamics 365 Human Resourcesi robot on kasutusel Microsoft Teamsis, analüüsitakse kasutaja tekstisisestusi, et mõista aluseks olevat päringut/eesmärki. Kasutaja sisestus (nt „otsing konto Contoso”) suunatakse Microsofti kognitiivsesse teenusesse nimega Language Understanding Intelligent Service (LUIS). Lugege lisateavet LUIS-i kohta  [siin](https://www.luis.ai/). Teenus LUIS eristab või mõistab kasutaja sisestuse kavatsust (antud juhul on eesmärgiks teabe leidmine) ja sihtüksust (antud juhul on soovitud üksuseks konto nimega Contoso). Seejärel edastatakse see teave Microsofti [Azure'i roboti raamistikule](https://azure.microsoft.com/services/bot-service/) , mis suhtleb Dynamics 365 Human Resourcesi andmetega ja toob kasutaja päringu vastuseks soovitud teabe. 
+### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft Language Understanding Intelligent Service (LUIS)
+
+Kui Dynamics 365 Human Resourcesi robot on kasutusel Microsoft Teamsis, analüüsitakse kasutaja tekstisisestusi, et mõista aluseks olevat päringut/eesmärki. Kasutaja sisestus (nt „otsing konto Contoso”) suunatakse Microsofti kognitiivsesse teenusesse nimega Language Understanding Intelligent Service (LUIS). Lugege lisateavet LUIS-i kohta  [siin](https://www.luis.ai/). Teenus LUIS eristab või mõistab kasutaja sisestuse kavatsust (antud juhul on eesmärgiks teabe leidmine) ja sihtüksust (antud juhul on soovitud üksuseks konto nimega Contoso). Seejärel edastatakse see teave Microsofti  [Azure'i roboti raamistikule](https://azure.microsoft.com/services/bot-service/), mis suhtleb Dynamics 365 Human Resourcesi andmetega ja toob kasutaja päringu vastuseks soovitud teabe. 
 
 Kui installite ja lubate juurdepääsu roboti kasutamiseks, annate teenusele LUIS ja Azure'i roboti raamistikule nõusoleku töödelda sisestuse kavatsust, mille tulemuseks on täiustatud vestlusvaatega kasutuskogemus. Teenusel LUIS ja Azure'i roboti raamistikul võib olla võrreldes Dynamics 365 Human Resourcesiga erinev vastavuse tase. Kui teenusel LUIS on juurdepääs ainult kasutaja päringutele ja ei ole mõeldud ühendamiseks kasutaja Dynamics 365 Human Resourcesi andmete või kontoga, siis Dynamics 365 Human Resourcesi roboti kasutaja saab vabatahtlikult sisestada kliendiandmeid, isikuandmeid või muid andmeid sisaldavaid päringuid ja selle päringu sisu võidakse saata teenusesse LUIS ja Azure'i roboti raamistikku. 
 
 Kasutaja päringute ja sõnumite sisu säilitatakse süsteemis LUIS maksimaalselt 30 päeva, krüptitakse passiivsena ja seda ei kasutata koolituse või teenuse täiustamiseks. Lisateavet kognitiivsete teenuste kohta leiate [siit](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
-Microsoft Teamsi rakenduste administraatori sätete haldamiseks minge [Microsoft Teamsi halduskeskusesse](https://admin.teams.microsoft.com/). 
+Microsoft Teamsi rakenduste administraatori sätete haldamiseks minge [Microsoft Teamsi halduskeskusesse](https://admin.teams.microsoft.com/).
+
+### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Microsoft Azure Event Grid ja Microsoft Teams
+
+Rakenduse Dynamics 365 Human Resources teatiste funktsiooni kasutamisel Teamsis liiguvad teatud kliendiandmed väljapoole geograafilist piirkonda, kus teie rentniku teenus Human Resources on juurutatud. Dynamics 365 Human Resources edastab töötaja puhkusetaotluse ja töövoo ülesande üksikasjad Microsoft Azure Event Gridi ja Microsoft Teamsi. Neid andmeid võidakse säilitada kuni 24 tundi ja töödelda Ameerika Ühendriikides, need krüptitakse edastamisel passiivsena ning Microsoft ega selle alamtöötlejad ei kasuta neid koolituste või teenuste täiustamiseks.
 
 ## <a name="see-also"></a>Vt ka 
 

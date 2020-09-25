@@ -3,7 +3,7 @@ title: Maksmise moodul
 description: Selles teemas kirjeldatakse, kuidas lisada lehele maksmise moodul ja määrata vajalikud atribuudid.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d913fdc9ab9a3dbf7d5534fba38add7f942652a
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 389e3e9d631574eac499f7c6146e2776b8126a52
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686738"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761101"
 ---
 # <a name="checkout-module"></a>Maksmise moodul
 
@@ -97,8 +97,8 @@ Enamik maksmise teabest, näiteks tarneaadress ja tarnemeetod, salvestatakse ost
 Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
 1. Avage **Fragmendid** ja valige uue fragmendi loomiseks **Uus**.
-1. Valige dialoogiboksis **Uus lehe fragment** moodul **Maksmine**.
-1. Sisestage jaotises **Lehe fragmendi nimi** nimi **Maksmise fragment** ja seejärel valige **OK**.
+1. Valige dialoogiboksis **Uus fragment** moodul **Maksma siirdumine**.
+1. Avage jaotis **Fragmendi nimi**, sisestage **Maksma siirdumise fragmendi** nimi ja seejärel valige **OK**.
 1. Valige pesa **Maksmise moodul**.
 1. Valige parempoolsel atribuutide paanil pliiatsisümbol, sisestage väljale pealkirja tekst ja seejärel valige märkesümbol.
 1. Valige pesas **Maksmise teave** kolmikpunkt (**...**) ja seejärel valige suvand **Lisa moodul**.

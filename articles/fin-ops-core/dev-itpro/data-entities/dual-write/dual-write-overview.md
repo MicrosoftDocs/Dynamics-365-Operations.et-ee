@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 64626ebdd7fbad3d47a4b4c6bbc45bf3bc0c8277
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 8957065bcadc3f33adb60c2a8f2be78710289631
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172780"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775143"
 ---
 # <a name="dual-write-overview"></a>Topeltkirjutuse ülevaade
 
@@ -34,7 +34,7 @@ ms.locfileid: "3172780"
 
 ## <a name="what-is-dual-write"></a>Mis on topeltkirjutus?
 
-Topeltkirjutus on valmiskujul infrastruktuur, mis pakub reaalaja lähedast suhtlust Microsoft Dynamics 365 mudelipõhiste rakenduste ja Finance and Operationsi rakenduste vahel. Kui andmed klientide, toodete, inimeste ja operatsioonide kohta liiguvad rakenduse piiridest välja, omavad organisatsiooni kõik osakonnad võimalust.
+Topeltkirjutus on valmiskujul infrastruktuur, mis pakub reaalaja lähedast suhtlust klientide kaasamise rakenduste ja Finance and Operationsi rakenduste vahel. Kui andmed klientide, toodete, inimeste ja operatsioonide kohta liiguvad rakenduse piiridest välja, omavad organisatsiooni kõik osakonnad võimalust.
 
 Topeltkirjutus pakub tihedalt ühendatud, kahesuunalist integratsiooni Finance and Operationsi rakenduste ja teenuse Common Data Service vahel. Mis tahes andmete muudatus Finance and Operationsi rakendustes põhjustab kirjutamist teenusesse Common Data Service ja mis tahes andmete muudatused teenuses Common Data Service põhjustab kirjutamist Finance and Operationsi rakendustesse. See automatiseeritud andmevoog pakub rakenduste vahel integreeritud kasutuskogemust.
 
@@ -49,7 +49,7 @@ Topeltkirjutuse taristu on laiendatav ja usaldusväärne ning sisaldab järgmisi
 + Sünkroonne ja kahesuunaline andmeedastus rakenduste vahel
 + Sünkroonimine koos esituse, peatamise ja järele jõudmise režiimidega, et toetada süsteemi veebipõhiste ja veebiväliste/asünkroonsete režiimide ajal.
 + Võime sünkroonida algandmeid rakenduste vahel
-+ Tegevuse ja vigade logide konsolideeritud vaade andmete administraatoritele
++ Tegevuse ja vigade logide kombineeritud vaade andmete administraatoritele
 + Võime konfigureerida kohandatud teatisi ja lävendeid ning tellida teatisi
 + Intuitiivne kasutajaliides (UI) filtreerimiseks ja teisendusteks
 + Võime määrata ja kuvada üksuse sõltuvusi ja seoseid
@@ -59,7 +59,7 @@ Topeltkirjutuse taristu on laiendatav ja usaldusväärne ning sisaldab järgmisi
 
 ### <a name="application"></a>Avaldus
 
-Topeltkirjutus loob vastenduse Finance and Operationsi rakenduste kontseptsioonide ja Dynamics 365 mudelipõhiste rakenduste kontseptsioonide vahel. See integratsioon toetab järgmisi stsenaariumeid.
+Topeltkirjutus loob vastenduse Finance and Operationsi rakenduste kontseptsioonide ja klientide kaasamise rakenduste kontseptsioonide vahel. See integratsioon toetab järgmisi stsenaariumeid.
 
 + Integreeritud kliendi koondandmed
 + Juurdepääs kliendi kliendikaartidele ja preemiapunktidele
@@ -86,23 +86,25 @@ Topeltkirjutus loob vastenduse Finance and Operationsi rakenduste kontseptsiooni
 Topeltkirjutus võimaldab Microsoft Dynamics 365 rakenduste üleselt andmete integreerimist. See jõuline raamistik ühendab keskkondasid ja võimaldab erinevatel ärirakendustel koos töötada. Siin on peamised põhjused, miks peaksite topeltkirjutust kasutama.
 
 + Topeltkirjutus pakub tihedalt ühendatud, peaaegu reaalajas ja kahesuunalist integratsiooni Finance and Operationsi rakenduste ja Dynamics 365 mudelipõhiste rakenduste vahel. See integratsioon muudab Microsoft Dynamics 365 ühe peatuse poeks kõigi teie ärilahenduste jaoks. Kliendid, kes kasutavad rakendusi Dynamics 365 Finance ja Dynamics 365 Supply Chain Management, kuid kasutavad kliendisuhte halduseks (CRM) mitte-Microsofti lahendusi, liiguvad Dynamics 365 suunas selle topeltkirjutamise toe jaoks.
-+ Klientide, toodete, operatsioonide, projektide ja asjade Interneti (IoT) andmed voolavad automaatselt topeltkirjutuse kaudu teenusesse Common Data Service. See ühendus on väga kasulik ettevõtetele, kes on huvitatud Microsoft Power Platformi laiendustest.
++ Klientide, toodete, operatsioonide, projektide ja asjade Interneti (IoT) andmed voolavad automaatselt topeltkirjutuse kaudu teenusesse Common Data Service. See ühendus on kasulik ettevõtetele, kes on huvitatud Microsoft Power Platformi laiendustest.
 + Topeltkirjutuse infrastruktuur järgib puuduva koodi / vähese koodi põhimõtet. Standardsete tabelist tabelisse kaartide laiendamiseks ja kohandatud kaartide kaasamiseks on vajalik minimaalne projekteerimise panus.
 + Topeltkirjutus toetab nii ühendusega režiimi kui ka võrguühenduseta režiimi. Microsoft on ainus ettevõte, mis pakub ühendusega ja võrguühenduseta režiimide tuge.
 
-## <a name="what-does-dual-write-mean-for-users-and-architects-of-crm-products"></a>Mida tähendab topeltkirjutus CRM-i toodete kasutajate ja arhitektide jaoks?
+## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Mida tähendab topeltkirjutus klientide kaasamise rakenduste arendajate ja arhitektide jaoks?
 
-Topeltkirjutus automatiseerib andmevoo Finance and Operationsi rakenduste ja teenuse Common Data Service vahel. Tulevastes väljaannetes on Dynamics 365 mudelipõhiste rakenduste kontseptsioonid (nt klient, kontakt, pakkumine ja tellimus) muudetud keskmise turu ja ülemise keskmise turu klientidele sobivaks.
+Topeltkirjutus automatiseerib andmevoo Finance and Operationsi rakenduste ja klientide kaasamise rakenduste vahel. Topeltkirjutamine koosneb kahest AppSource'i lahendusest, mis on installitud Common Data Service'isse. Lahendused laiendavad Common Data Service'i üksuse skeemi, lisandmooduleid ja töövooge, et neid saaks sobitada ERP suurusega. Edukaks rakendamiseks peavad klientide kaasamise rakenduste arendajad ja arhitektid neid muudatusi mõistma ning tegema koostööd oma kolleegidega Finance and Operationsi rakendustega seoses.
 
-Esimeses väljalaskes käsitsevad enamikku automatiseerimisest topeltkirjutuse lahendused. Tulevastes väljaannetes muutuvad need lahendused teenuse Common Data Service osaks. Teenuse Common Data Service tulevaste muudatuste mõistmisega saate pikemas perspektiivis oma jõupingutusi säästa. Siin on mõned uued olulised muudatused.
+Finance and Operationsi rakenduste paarsuse loomiseks teeb topeltkirjutamine Common Data Service'i skeemis mõned olulised muudatused. Kui te seda plaani mõistate, saate tulevikus vältida mõnda kujundamise ja arendamisega seotud taastöötlust.
 
-+ Common Data Service omab uusi kontseptsioone, nt ettevõte ja osapool. Need kontseptsioonid mõjutavad kõiki rakendusi, mis on teenuse Common Data Service peale ehitatud, nagu Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service ja Dynamics 365 Field Service.
++ Kui AppSource'i topeltkirjutamisega pakett on installitud, on Common Data Service'il uued mõisted (nt ettevõte ja osapool). Need mõisted aitavad Common Data Service'il (sh Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service ja Dynamics 365 Field Service) põhinevatel rakendustel Finance and Operationsi rakendustega sujuvalt suhelda.
+
 + Tegevused ja märkmed on ühtlustatud ning laiendatud, et toetada nii C1-sid (süsteemi kasutajaid) kui ka C2-sid (süsteemi kliendid).
-+ Siin on mõned teenuse Common Data Service tulevased muudatused.
 
-    - Kümnendkoha andmetüüp asendab raha andmetüübi.
-    - Kuupäeva jõustumine toetab samas kohas mineviku, oleviku ja tuleviku andmeid.
-    - Valuuta ja vahetuskursside jaoks on rohkem tuge ning rakenduse programmeerimisliides (API) **Vahetuskurss** vaadatakse üle.
-    - Toetatakse ühiku teisendusi.
++ Selleks et vältida andmete kaotsiminekut valuuta ülekandmisel Finance and Operationsi rakenduste ning Common Data Service'i vahel, saate klientide kaasamise rakenduste valuuta andmetüübi kümnendkohtade arvu suurendada. Funktsioon teisendab metaandmete kihis olemasolevad kirjed uude laiendatud olekusse automaatselt. Selle protsessi käigus teisendatakse valuuta väärtus raha andmetüübi asemel kümnendkoha andmetüübiks ja valuuta väärtus toetab 10 kümnendkohta. See funktsioon on valikuline ja organisatsioonid, kes ei vaja rohkem kui nelja kümnendkohta, ei pea seda kasutama. Lisateavet vt [Valuuta andmetüübi migratsioon topeltkirjutamise jaoks](currrency-decimal-places.md).
 
-Lisateavet eelseisvate muudatuste kohta vt teemast [Teenuse Common Data Service andmed – 1. ja 2. faas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/finance-operations-crossapp-capabilities/data-common-data-service-phase-1).
++ [Kuupäeva jõustumine](../../dev-tools/date-effectivity.md) lisatakse Common Data Service'isse. See toetab samas üksuses mineviku, oleviku ja tuleviku andmeid.
+
++ Toodete, pakkumiste, tellimuste ja arvete korral toetatakse toote [ühiku teisendusi](../../../../supply-chain/pim/tasks/manage-unit-measure.md).
+
+Lisateavet eelseisvate muudatuste kohta leiate teemast [Mis on uut või mida on muudetud topeltkirjutuses?](whats-new-dual-write.md).
+

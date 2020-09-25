@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6585e44701160bf31c107c07226f992b12cf035e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 207783f5a44d5c6432539ac27a8c491bca811da4
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550644"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760027"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER-vormingute täitmise jälitus jõudluse probleemide tõrkeotsinguks
 
@@ -101,7 +101,7 @@ Oletame, et olete alustanud uue ER-i lahenduse kujundamist, et luua uus hankija 
 
 Oletame, et olete lõpetanud ER-i lahenduse esimese versiooni kujundamise. Nüüd soovite seda testida oma eksemplaris ja analüüsida täitmise jõudlust.
 
-### <a id='import-configuration'></a>ER-i konfiguratsiooni importimine RCS-ist rakendusse Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER-konfiguratsiooni importimine RCS-ist rakendusse Finance and Operations
 
 1. Logige sisse oma rakenduse eksemplari.
 2. Selles õppetükis impordite konfiguratsioonid RCS-i eksemplarist (kus kujundate ER-i komponente) oma eksemplari (kus testite ja lõpuks neid kasutate). Seega peate veenduma, et kõik nõutud artefaktid oleksid ette valmistatud. Juhised leiate teemast [Elektroonilise aruandluse (ER) konfiguratsioonide importimine teenusest Regulatory Configuration Services (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
@@ -146,7 +146,7 @@ Andmemudeli ja mudelivastenduse vastavate versioonide konfiguratsioonid impordit
 
     ![Kasutaja parameetrite dialoogiaken](./media/GER-PerfTrace-GER-UserParameters.png)
 
-### <a id='run-format'></a>ER-vormingu käivitamine
+### <a name="run-the-er-format"></a><a id='run-format'></a>ER-vormingu käivitamine
 
 1. Valige ettevõte **DEMF**.
 2. Minge jaotisse **Organisatsiooni haldamine \> Elektrooniline aruandlus \> Konfiguratsioonid**.
@@ -157,7 +157,7 @@ Pange tähele, et loodud fail esitab teavet kuue hankija 265 kande kohta.
 
 ## <a name="review-the-execution-trace"></a>Täitmise jälje läbivaatus
 
-### <a id='export-trace'></a>Eksportige loodud jälg rakendusest
+### <a name="export-the-generated-trace-from-the-application"></a><a id='export-trace'></a>Eksportige loodud jälg rakendusest
 
 Jõudluse jäljed lahutatakse ER-vormingu allikast ja neid saab järjestada välisele ZIP-failile.
 
@@ -176,7 +176,7 @@ Jõudluse jäljed lahutatakse ER-vormingu allikast ja neid saab järjestada väl
 
 Pange tähele, et täidetud ER-vormingu jaoks loodud jõudluse jälje ja ER-i mudelivastenduse vaheline seos põhineb kasutatud juurdeskriptoril ning üldisel andmemudelil. Vormingu ja mudelivastenduse versiooni nummerdamist ei arvestata. Samuti ei arvestata mudelivastenduse lipu **Mudelivastenduse vaikeväärtus** sätet.
 
-### <a id='import-trace'></a>Loodud jälje importimine RCS-i
+### <a name="import-the-generated-trace-into-rcs"></a><a id='import-trace'></a>Loodud jälje importimine RCS-i
 
 1. Valige RCS-i tööruumis **Elektrooniline aruandlus** paan **Aruandluse konfiguratsioonid**.
 2. Laiendage lehe **Konfiguratsioonid** konfiguratsioonipuul üksust **Jõudluse jälituse mudel** ja valige üksus **Jõudluse jälituse vorming**.
@@ -201,7 +201,7 @@ Pange tähele, et täidetud ER-vormingu jaoks loodud jõudluse jälje ja ER-i mu
 
 2. Sulgege **Vormingu koostaja** leht.
 
-### <a id='use-trace'></a>Jõudluse jälituse kasutamine analüüsiks RCS-is – mudelivastendus
+### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a><a id='use-trace'></a>Jõudluse jälituse kasutamine analüüsiks RCS-is – mudelivastendus
 
 1. Valige RCS-is lehe **Konfiguratsioonid** konfiguratsioonipuult üksus **Jõudluse jälituse vastendus**.
 2. Valige toimingupaanil valik **Koostaja**.
@@ -301,7 +301,7 @@ Korrake samme selle teema jaotises [ER-i konfiguratsiooni importimine RCS-ist ra
 
 Korrake samme selle teema jaotises [ER-vormingu käivitamine](#run-format), et luua uus jõudluse jälg.
 
-## <a name="review-the-execution-trace"></a>Täitmise jälje läbivaatus
+## <a name="work-with-the-execution-trace"></a>Töö käivitamise jäljega
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Eksportige loodud jälg rakendusest
 
@@ -347,7 +347,7 @@ Korrake samme selle teema jaotises [ER-vormingu käivitamine](#run-format), et l
 
 Pange tähele, et veebibrauser pakub allalaadimiseks ZIP-faili. See fail sisaldab jõudluse jälge PerfView-vormingus. Seejärel saate kasutada PerfView jõudluse analüüsi tööriista, et analüüsida ER-vormingu täitmise üksikasju.
 
-![Käivitatud ER-vormingu jälitusteave PerfView'is](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Jõudluse jälje teave PerfView-vormingus](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Väliste tööriistade kasutamine täitmise jälje läbivaatamiseks, mis hõlmab andmebaasi päringuid
 
@@ -363,7 +363,7 @@ Tänu ER-raamistiku täiustustele pakub PerfView'is loodud jõudluse jälitus n�
     - Seadistage **Päringustatistika sissenõudmise** väärtuseks **Jah**.
     - Määrake suvand **Jälituse päring** olekule **Jah**.
 
-    ![Kasutaja parameetrite dialoogiaken](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Jaotis Täitmise jälitus, dialoogiboks Kasutaja parameetrid](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>ER-vormingu käivitamine
 
@@ -372,3 +372,8 @@ Korrake samme selle teema jaotises [ER-vormingu käivitamine](#run-format), et l
 Pange tähele, et veebibrauser pakub allalaadimiseks ZIP-faili. See fail sisaldab jõudluse jälge PerfView-vormingus. Seejärel saate kasutada PerfView jõudluse analüüsi tööriista, et analüüsida ER-vormingu täitmise üksikasju. See jälg sisaldab nüüd SQL-i andmebaasi juurdepääsu üksikasju ER-vormingu käivitamise ajal.
 
 ![Käivitatud ER-vormingu jälitusteave PerfView'is](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+
+## <a name="additional-resources"></a>Lisaressursid
+
+- [Elektroonilise aruandluse ülevaade](general-electronic-reporting.md)
+- [Saate parandada ER-lahenduste jõudlust, lisades parameeteriseeritud ARVUTATUD VÄLJA andmeallikad](er-calculated-field-ds-performance.md)

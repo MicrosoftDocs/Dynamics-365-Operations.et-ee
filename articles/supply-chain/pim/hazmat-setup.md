@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: aaf66b98717c72b4260e0a482400bdb29bbd9ecb
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699607"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803209"
 ---
 # <a name="set-up-hazardous-materials"></a>Ohtlike materjalide seadistamine
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Ohtlike materjalide funktsiooni kasutamiseks peate esmalt häälestama andmed, mis on vajalikud kaupade liigitamiseks ohtlike materjalidena. Seejärel, kui loote müügitellimuse, mis sisaldab kaupa, mis on liigitatud ohtlikuks materjaliks, genereerib süsteem müügitellimuse saatmisel selle müügitellimuse jaoks ohtliku materjali dokumentatsiooni.
 

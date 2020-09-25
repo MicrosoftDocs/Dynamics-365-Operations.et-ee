@@ -1,9 +1,9 @@
 ---
 title: Mis on uut või mida on muudetud rakenduses Human Resources?
-description: Iga nädal esitame rakenduse Microsoft Dynamics 365 Human Resources jaoks uue väljaande. Artiklid selles loendis kirjeldavad iga nädal tehtud muudatusi.
+description: Iga nädal esitame rakenduse Microsoft Dynamics 365 Human Resources jaoks uue väljaande. Teemad selles loendis kirjeldavad iga nädal tehtud muudatusi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 34e80ace6a0676e5702f633554a5f241cc8b00a7
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f814395405003464e9f101fb0f46b64e64971b68
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712165"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760297"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Mis on uut või mida on muudetud rakenduses Human Resources?
 
-Iga kahe nädala tagant esitame rakenduse Microsoft Dynamics 365 Human Resources jaoks uue väljaande. Selle jaotise artiklid kirjeldavad igas väljalaskes tehtud muudatusi.
+Iga kahe nädala tagant esitame rakenduse Microsoft Dynamics 365 Human Resources jaoks uue väljaande. Teemad selles loendis kirjeldavad igas väljaandes tehtud muudatusi.
 
-Lisateavet rakenduse Human Resources tulevaste funktsioonide või värskendamisprotsessi kohta leiate järgmistest artiklitest.
+>[!NOTE]
+>Puhkuse arvestamiseks on 2020. aasta novembri ja detsembri väljastusgraafik järgmine.
+>
+>- Novembri väljastus: 2. november – 13. november
+>- Detsembri väljastus: 30. november – 11. detsember
+> 
+>Kahenädalane väljaandmise sagedus jätkub tavapäraselt 11. jaanuaril 2021.
+
+Lisateavet rakenduse Human Resources tulevaste funktsioonide või värskendamisprotsessi kohta leiate järgmistest artiklitest. 
 
 - [Dynamics 365 Human Resources 2019 väljalaskevoo 2 ülevaade](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
@@ -41,6 +49,7 @@ Lisateavet rakenduse Human Resources tulevaste funktsioonide või värskendamisp
 
 Et näha, mis on Human Resourcesi igas kahenädalases väljalaskes uut või muudetud, vaadake järgmisi artikleid.
 
+[3. september 2020](hr-whats-new-2020-09-03.md)</br>
 [20. august 2020](hr-whats-new-2020-08-20.md)</br>
 [6. august 2020](hr-whats-new-2020-08-06.md)</br>
 [23. juuli 2020](hr-whats-new-2020-07-23.md)</br>
