@@ -18,55 +18,55 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 198210f15e75de761dbb03e5087ba7c77a95721a
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 87e252a2751beeecb51e512cae38b271c1456fae
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041741"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744691"
 ---
-# <span data-ttu-id="ebad0-103"><a name="IF">ER-i funktsioon IF</a></span><span class="sxs-lookup"><span data-stu-id="ebad0-103"><a name="IF">IF ER function</a></span></span>
+# <a name="if-er-function"></a><span data-ttu-id="94eb0-103">ER-i funktsioon IF</span><span class="sxs-lookup"><span data-stu-id="94eb0-103">IF ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ebad0-104">Funktsioon `IF` annab vastuseks esimese määratud väärtuse, kui määratud tingimus on täidetud.</span><span class="sxs-lookup"><span data-stu-id="ebad0-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="ebad0-105">Muul juhul annab see vastuseks teise määratud väärtuse.</span><span class="sxs-lookup"><span data-stu-id="ebad0-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="ebad0-106">Tagastatav väärtus võib olla toetatud andmetüüpide mis tahes väärtus.</span><span class="sxs-lookup"><span data-stu-id="ebad0-106">The value that is returned can be a value of any of the supported data types.</span></span>
+<span data-ttu-id="94eb0-104">Funktsioon `IF` annab vastuseks esimese määratud väärtuse, kui määratud tingimus on täidetud.</span><span class="sxs-lookup"><span data-stu-id="94eb0-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="94eb0-105">Muul juhul annab see vastuseks teise määratud väärtuse.</span><span class="sxs-lookup"><span data-stu-id="94eb0-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="94eb0-106">Tagastatav väärtus võib olla toetatud andmetüüpide mis tahes väärtus.</span><span class="sxs-lookup"><span data-stu-id="94eb0-106">The value that is returned can be a value of any of the supported data types.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ebad0-107">Süntaks</span><span class="sxs-lookup"><span data-stu-id="ebad0-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="94eb0-107">Süntaks</span><span class="sxs-lookup"><span data-stu-id="94eb0-107">Syntax</span></span>
 
 ```vb
 IF (condition, first value, second value) as any of the supported data types
 ```
 
-## <a name="arguments"></a><span data-ttu-id="ebad0-108">Argumendid</span><span class="sxs-lookup"><span data-stu-id="ebad0-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="94eb0-108">Argumendid</span><span class="sxs-lookup"><span data-stu-id="94eb0-108">Arguments</span></span>
 
-<span data-ttu-id="ebad0-109">`condition`: *kahendmuutuja*</span><span class="sxs-lookup"><span data-stu-id="ebad0-109">`condition`: *Boolean*</span></span>
+<span data-ttu-id="94eb0-109">`condition`: *kahendmuutuja*</span><span class="sxs-lookup"><span data-stu-id="94eb0-109">`condition`: *Boolean*</span></span>
 
-<span data-ttu-id="ebad0-110">Kehtiv tingimuslik avaldis, mida tuleb testida.</span><span class="sxs-lookup"><span data-stu-id="ebad0-110">A valid conditional expression that must be tested.</span></span>
+<span data-ttu-id="94eb0-110">Kehtiv tingimuslik avaldis, mida tuleb testida.</span><span class="sxs-lookup"><span data-stu-id="94eb0-110">A valid conditional expression that must be tested.</span></span>
 
-<span data-ttu-id="ebad0-111">`first value`: *mis tahes toetatud andmetüüp*</span><span class="sxs-lookup"><span data-stu-id="ebad0-111">`first value`: *Any of the supported data types*</span></span>
+<span data-ttu-id="94eb0-111">`first value`: *mis tahes toetatud andmetüüp*</span><span class="sxs-lookup"><span data-stu-id="94eb0-111">`first value`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="ebad0-112">Tagastatav tulemus, kui tingimus on täidetud.</span><span class="sxs-lookup"><span data-stu-id="ebad0-112">The result that is returned if the condition is met.</span></span>
+<span data-ttu-id="94eb0-112">Tagastatav tulemus, kui tingimus on täidetud.</span><span class="sxs-lookup"><span data-stu-id="94eb0-112">The result that is returned if the condition is met.</span></span>
 
-<span data-ttu-id="ebad0-113">`second value`: *mis tahes toetatud andmetüüp*</span><span class="sxs-lookup"><span data-stu-id="ebad0-113">`second value`: *Any of the supported data types*</span></span>
+<span data-ttu-id="94eb0-113">`second value`: *mis tahes toetatud andmetüüp*</span><span class="sxs-lookup"><span data-stu-id="94eb0-113">`second value`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="ebad0-114">Tagastatav tulemus, kui tingimus ei ole täidetud.</span><span class="sxs-lookup"><span data-stu-id="ebad0-114">The result that is returned if the condition isn't met.</span></span>
+<span data-ttu-id="94eb0-114">Tagastatav tulemus, kui tingimus ei ole täidetud.</span><span class="sxs-lookup"><span data-stu-id="94eb0-114">The result that is returned if the condition isn't met.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="ebad0-115">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="ebad0-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="94eb0-115">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="94eb0-115">Return values</span></span>
 
-<span data-ttu-id="ebad0-116">*Mis tahes toetatud andmetüüp*</span><span class="sxs-lookup"><span data-stu-id="ebad0-116">*Any of the supported data types*</span></span>
+<span data-ttu-id="94eb0-116">*Mis tahes toetatud andmetüüp*</span><span class="sxs-lookup"><span data-stu-id="94eb0-116">*Any of the supported data types*</span></span>
 
-<span data-ttu-id="ebad0-117">Mis tahes toetatud andmetüübi tulemuseks olev väärtus.</span><span class="sxs-lookup"><span data-stu-id="ebad0-117">The resulting value of any of the supported data types.</span></span>
+<span data-ttu-id="94eb0-117">Mis tahes toetatud andmetüübi tulemuseks olev väärtus.</span><span class="sxs-lookup"><span data-stu-id="94eb0-117">The resulting value of any of the supported data types.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="ebad0-118">Kasutamise märkused</span><span class="sxs-lookup"><span data-stu-id="ebad0-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="94eb0-118">Kasutamise märkused</span><span class="sxs-lookup"><span data-stu-id="94eb0-118">Usage notes</span></span>
 
-<span data-ttu-id="ebad0-119">Argumendid `first value` ja `second value` tuleb määrata sama andmetüüpi kasutades.</span><span class="sxs-lookup"><span data-stu-id="ebad0-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="ebad0-120">Kujundamise ajal esitatakse erand, kui konfigureeritud väärtuste andmetüübid ei ühti.</span><span class="sxs-lookup"><span data-stu-id="ebad0-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
+<span data-ttu-id="94eb0-119">Argumendid `first value` ja `second value` tuleb määrata sama andmetüüpi kasutades.</span><span class="sxs-lookup"><span data-stu-id="94eb0-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="94eb0-120">Kujundamise ajal esitatakse erand, kui konfigureeritud väärtuste andmetüübid ei ühti.</span><span class="sxs-lookup"><span data-stu-id="94eb0-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
 
-<span data-ttu-id="ebad0-121">Kui esimene väärtus ja teine vöörtus on andmetüübi *Konteiner (kirje)* või *Kirjete loend* väärtused, on tulemuses ainult väljad, mis eksisteerivad mõlemas väärtuses.</span><span class="sxs-lookup"><span data-stu-id="ebad0-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
+<span data-ttu-id="94eb0-121">Kui esimene väärtus ja teine vöörtus on andmetüübi *Konteiner (kirje)* või *Kirjete loend* väärtused, on tulemuses ainult väljad, mis eksisteerivad mõlemas väärtuses.</span><span class="sxs-lookup"><span data-stu-id="94eb0-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
 
-## <a name="example"></a><span data-ttu-id="ebad0-122">Näide</span><span class="sxs-lookup"><span data-stu-id="ebad0-122">Example</span></span>
+## <a name="example"></a><span data-ttu-id="94eb0-122">Näide</span><span class="sxs-lookup"><span data-stu-id="94eb0-122">Example</span></span>
 
-<span data-ttu-id="ebad0-123">`IF (1=2, "condition is met", "condition is not met")` tagastab stringi **„tingimus ei ole täidetud”**.</span><span class="sxs-lookup"><span data-stu-id="ebad0-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
+<span data-ttu-id="94eb0-123">`IF (1=2, "condition is met", "condition is not met")` tagastab stringi **„tingimus ei ole täidetud”**.</span><span class="sxs-lookup"><span data-stu-id="94eb0-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="ebad0-124">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="ebad0-124">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="94eb0-124">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="94eb0-124">Additional resources</span></span>
 
-[<span data-ttu-id="ebad0-125">Loogilised funktsioonid</span><span class="sxs-lookup"><span data-stu-id="ebad0-125">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="94eb0-125">Loogilised funktsioonid</span><span class="sxs-lookup"><span data-stu-id="94eb0-125">Logical functions</span></span>](er-functions-category-logical.md)
