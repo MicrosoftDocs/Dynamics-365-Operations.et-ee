@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce2192c7bc849996e08573d71d8ed43956c8fb89
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: b58e06a034fc6d26c891b78c26ac53c87a39b92b
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070525"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744043"
 ---
-# <span data-ttu-id="51ad9-103"><a name="MOD_97">ER-i funktsioon MOD_97</a></span><span class="sxs-lookup"><span data-stu-id="51ad9-103"><a name="MOD_97">MOD_97 ER function</a></span></span>
+# <a name="mod_97-er-function"></a><span data-ttu-id="b9bc7-103">ER-i funktsioon MOD_97</span><span class="sxs-lookup"><span data-stu-id="b9bc7-103">MOD_97 ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="51ad9-104">Funktsioon `MOD_97` tagastab *stringi* väärtuse, mis tähistab kreeditori viidet MOD97 avaldisena, mis põhineb määratud arve numbri numbritel.</span><span class="sxs-lookup"><span data-stu-id="51ad9-104">The `MOD_97` function returns a *String* value that represents a creditor reference as a MOD97 expression, based on the digits of the specified invoice number.</span></span>
+<span data-ttu-id="b9bc7-104">Funktsioon `MOD_97` tagastab *stringi* väärtuse, mis tähistab kreeditori viidet MOD97 avaldisena, mis põhineb määratud arve numbri numbritel.</span><span class="sxs-lookup"><span data-stu-id="b9bc7-104">The `MOD_97` function returns a *String* value that represents a creditor reference as a MOD97 expression, based on the digits of the specified invoice number.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="51ad9-105">Süntaks</span><span class="sxs-lookup"><span data-stu-id="51ad9-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b9bc7-105">Süntaks</span><span class="sxs-lookup"><span data-stu-id="b9bc7-105">Syntax</span></span>
 
 ```vb
 MOD_97 (invoice number digits)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="51ad9-106">Argumendid</span><span class="sxs-lookup"><span data-stu-id="51ad9-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="b9bc7-106">Argumendid</span><span class="sxs-lookup"><span data-stu-id="b9bc7-106">Arguments</span></span>
 
-<span data-ttu-id="51ad9-107">`invoice number digits`: *string*</span><span class="sxs-lookup"><span data-stu-id="51ad9-107">`invoice number digits`: *String*</span></span>
+<span data-ttu-id="b9bc7-107">`invoice number digits`: *string*</span><span class="sxs-lookup"><span data-stu-id="b9bc7-107">`invoice number digits`: *String*</span></span>
 
-<span data-ttu-id="51ad9-108">Teksti väärtus, mis tähistab arve numbri numbreid.</span><span class="sxs-lookup"><span data-stu-id="51ad9-108">A text value that represents the digits of an invoice number.</span></span>
+<span data-ttu-id="b9bc7-108">Teksti väärtus, mis tähistab arve numbri numbreid.</span><span class="sxs-lookup"><span data-stu-id="b9bc7-108">A text value that represents the digits of an invoice number.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="51ad9-109">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="51ad9-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="b9bc7-109">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="b9bc7-109">Return values</span></span>
 
-<span data-ttu-id="51ad9-110">*String*</span><span class="sxs-lookup"><span data-stu-id="51ad9-110">*String*</span></span>
+<span data-ttu-id="b9bc7-110">*String*</span><span class="sxs-lookup"><span data-stu-id="b9bc7-110">*String*</span></span>
 
-<span data-ttu-id="51ad9-111">Tulemiks saadud teksti väärtus.</span><span class="sxs-lookup"><span data-stu-id="51ad9-111">The resulting text value.</span></span>
+<span data-ttu-id="b9bc7-111">Tulemiks saadud teksti väärtus.</span><span class="sxs-lookup"><span data-stu-id="b9bc7-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="51ad9-112">Näide</span><span class="sxs-lookup"><span data-stu-id="51ad9-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="b9bc7-112">Näide</span><span class="sxs-lookup"><span data-stu-id="b9bc7-112">Example</span></span>
 
-<span data-ttu-id="51ad9-113">`MOD_97 ("VEND-200002")` tagastab **„20000285”**.</span><span class="sxs-lookup"><span data-stu-id="51ad9-113">`MOD_97 ("VEND-200002")` returns **"20000285"**.</span></span>
+<span data-ttu-id="b9bc7-113">`MOD_97 ("VEND-200002")` tagastab **„20000285”**.</span><span class="sxs-lookup"><span data-stu-id="b9bc7-113">`MOD_97 ("VEND-200002")` returns **"20000285"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="51ad9-114">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="51ad9-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="b9bc7-114">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="b9bc7-114">Additional resources</span></span>
 
-[<span data-ttu-id="51ad9-115">Muud (ettevõtte domeenipõhised) funktsioonid</span><span class="sxs-lookup"><span data-stu-id="51ad9-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="b9bc7-115">Muud (ettevõtte domeenipõhised) funktsioonid</span><span class="sxs-lookup"><span data-stu-id="b9bc7-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)

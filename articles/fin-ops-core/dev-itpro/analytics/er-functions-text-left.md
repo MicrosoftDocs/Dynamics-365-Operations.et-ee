@@ -18,45 +18,45 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4293db244d04debf3679cf2bde0b892bd74e8ead
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 112852ab955fdf8de9f78cc93486cc1d5f048517
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041120"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743779"
 ---
-# <span data-ttu-id="7bad8-103"><a name="LEFT">ER-i funktsioon LEFT</a></span><span class="sxs-lookup"><span data-stu-id="7bad8-103"><a name="LEFT">LEFT ER function</a></span></span>
+# <a name="left-er-function"></a><span data-ttu-id="4fb76-103">ER-i funktsioon LEFT</span><span class="sxs-lookup"><span data-stu-id="4fb76-103">LEFT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="7bad8-104">Funktsioon `LEFT` tagastab *stringi* väärtuse, mis esindab määratud tähemärkide arvu määratud stringi algusest.</span><span class="sxs-lookup"><span data-stu-id="7bad8-104">The `LEFT` function returns a *String* value that presents the specified number of characters from the start of the specified string.</span></span>
+<span data-ttu-id="4fb76-104">Funktsioon `LEFT` tagastab *stringi* väärtuse, mis esindab määratud tähemärkide arvu määratud stringi algusest.</span><span class="sxs-lookup"><span data-stu-id="4fb76-104">The `LEFT` function returns a *String* value that presents the specified number of characters from the start of the specified string.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7bad8-105">Süntaks</span><span class="sxs-lookup"><span data-stu-id="7bad8-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4fb76-105">Süntaks</span><span class="sxs-lookup"><span data-stu-id="4fb76-105">Syntax</span></span>
 
 ```vb
 LEFT (text, number)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="7bad8-106">Argumendid</span><span class="sxs-lookup"><span data-stu-id="7bad8-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="4fb76-106">Argumendid</span><span class="sxs-lookup"><span data-stu-id="4fb76-106">Arguments</span></span>
 
-<span data-ttu-id="7bad8-107">`text`: *string*</span><span class="sxs-lookup"><span data-stu-id="7bad8-107">`text`: *String*</span></span>
+<span data-ttu-id="4fb76-107">`text`: *string*</span><span class="sxs-lookup"><span data-stu-id="4fb76-107">`text`: *String*</span></span>
 
-<span data-ttu-id="7bad8-108">*Stringi* väärtus, mis tähistab algteksti.</span><span class="sxs-lookup"><span data-stu-id="7bad8-108">A *String* value that represents the original text.</span></span>
+<span data-ttu-id="4fb76-108">*Stringi* väärtus, mis tähistab algteksti.</span><span class="sxs-lookup"><span data-stu-id="4fb76-108">A *String* value that represents the original text.</span></span>
 
-<span data-ttu-id="7bad8-109">`number`: *täisarv*</span><span class="sxs-lookup"><span data-stu-id="7bad8-109">`number`: *Integer*</span></span>
+<span data-ttu-id="4fb76-109">`number`: *täisarv*</span><span class="sxs-lookup"><span data-stu-id="4fb76-109">`number`: *Integer*</span></span>
 
-<span data-ttu-id="7bad8-110">Märkide arv, mis tuleb algteksti algusest tagastada.</span><span class="sxs-lookup"><span data-stu-id="7bad8-110">The number of characters that must be returned from the start of the original text.</span></span>
+<span data-ttu-id="4fb76-110">Märkide arv, mis tuleb algteksti algusest tagastada.</span><span class="sxs-lookup"><span data-stu-id="4fb76-110">The number of characters that must be returned from the start of the original text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="7bad8-111">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="7bad8-111">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="4fb76-111">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="4fb76-111">Return values</span></span>
 
-<span data-ttu-id="7bad8-112">*String*</span><span class="sxs-lookup"><span data-stu-id="7bad8-112">*String*</span></span>
+<span data-ttu-id="4fb76-112">*String*</span><span class="sxs-lookup"><span data-stu-id="4fb76-112">*String*</span></span>
 
-<span data-ttu-id="7bad8-113">Tulemiks saadud teksti väärtus.</span><span class="sxs-lookup"><span data-stu-id="7bad8-113">The resulting text value.</span></span>
+<span data-ttu-id="4fb76-113">Tulemiks saadud teksti väärtus.</span><span class="sxs-lookup"><span data-stu-id="4fb76-113">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="7bad8-114">Näide</span><span class="sxs-lookup"><span data-stu-id="7bad8-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4fb76-114">Näide</span><span class="sxs-lookup"><span data-stu-id="4fb76-114">Example</span></span>
 
-<span data-ttu-id="7bad8-115">`LEFT ("Sample", 3)` tagastab tulemuse **„Sam”**.</span><span class="sxs-lookup"><span data-stu-id="7bad8-115">`LEFT ("Sample", 3)` returns **"Sam"**.</span></span>
+<span data-ttu-id="4fb76-115">`LEFT ("Sample", 3)` tagastab tulemuse **„Sam”**.</span><span class="sxs-lookup"><span data-stu-id="4fb76-115">`LEFT ("Sample", 3)` returns **"Sam"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="7bad8-116">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="7bad8-116">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="4fb76-116">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="4fb76-116">Additional resources</span></span>
 
-[<span data-ttu-id="7bad8-117">Tekstifunktsioonid</span><span class="sxs-lookup"><span data-stu-id="7bad8-117">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="4fb76-117">Tekstifunktsioonid</span><span class="sxs-lookup"><span data-stu-id="4fb76-117">Text functions</span></span>](er-functions-category-text.md)

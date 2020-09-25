@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77854d645ba5b65a2819437af510fcd67be6d99d
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 672abf4938df7d96c0190bfd5325689b381e2764
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040936"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744331"
 ---
-# <span data-ttu-id="bdd7c-103"><a name="UPPER">ER-i funktsioon UPPER</a></span><span class="sxs-lookup"><span data-stu-id="bdd7c-103"><a name="UPPER">UPPER ER function</a></span></span>
+# <a name="upper-er-function"></a><span data-ttu-id="2a1da-103">ER-i funktsioon UPPER</span><span class="sxs-lookup"><span data-stu-id="2a1da-103">UPPER ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="bdd7c-104">Funktsioon `UPPER` tagastab *stringi* väärtusena määratud tekstistringi pärast selle teisendamist suurtäheliseks.</span><span class="sxs-lookup"><span data-stu-id="bdd7c-104">The `UPPER` function returns the specified text string as a *String* value after it has been converted to uppercase letters.</span></span>
+<span data-ttu-id="2a1da-104">Funktsioon `UPPER` tagastab *stringi* väärtusena määratud tekstistringi pärast selle teisendamist suurtäheliseks.</span><span class="sxs-lookup"><span data-stu-id="2a1da-104">The `UPPER` function returns the specified text string as a *String* value after it has been converted to uppercase letters.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bdd7c-105">Süntaks</span><span class="sxs-lookup"><span data-stu-id="bdd7c-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2a1da-105">Süntaks</span><span class="sxs-lookup"><span data-stu-id="2a1da-105">Syntax</span></span>
 
 ```vb
 UPPER (text )
 ```
 
-## <a name="arguments"></a><span data-ttu-id="bdd7c-106">Argumendid</span><span class="sxs-lookup"><span data-stu-id="bdd7c-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="2a1da-106">Argumendid</span><span class="sxs-lookup"><span data-stu-id="2a1da-106">Arguments</span></span>
 
-<span data-ttu-id="bdd7c-107">`text`: *string*</span><span class="sxs-lookup"><span data-stu-id="bdd7c-107">`text`: *String*</span></span>
+<span data-ttu-id="2a1da-107">`text`: *string*</span><span class="sxs-lookup"><span data-stu-id="2a1da-107">`text`: *String*</span></span>
 
-<span data-ttu-id="bdd7c-108">Tüübi *String* andmeallika kehtiv tee.</span><span class="sxs-lookup"><span data-stu-id="bdd7c-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="2a1da-108">Tüübi *String* andmeallika kehtiv tee.</span><span class="sxs-lookup"><span data-stu-id="2a1da-108">The valid path of a data source of the *String* type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="bdd7c-109">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="bdd7c-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="2a1da-109">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="2a1da-109">Return values</span></span>
 
-<span data-ttu-id="bdd7c-110">*String*</span><span class="sxs-lookup"><span data-stu-id="bdd7c-110">*String*</span></span>
+<span data-ttu-id="2a1da-110">*String*</span><span class="sxs-lookup"><span data-stu-id="2a1da-110">*String*</span></span>
 
-<span data-ttu-id="bdd7c-111">Tulemiks saadud teksti väärtus.</span><span class="sxs-lookup"><span data-stu-id="bdd7c-111">The resulting text value.</span></span>
+<span data-ttu-id="2a1da-111">Tulemiks saadud teksti väärtus.</span><span class="sxs-lookup"><span data-stu-id="2a1da-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="bdd7c-112">Näide</span><span class="sxs-lookup"><span data-stu-id="bdd7c-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2a1da-112">Näide</span><span class="sxs-lookup"><span data-stu-id="2a1da-112">Example</span></span>
 
-<span data-ttu-id="bdd7c-113">`UPPER ("Sample")` tagastab tulemuse **„SAMPLE”**.</span><span class="sxs-lookup"><span data-stu-id="bdd7c-113">`UPPER ("Sample")` returns **"SAMPLE"**.</span></span>
+<span data-ttu-id="2a1da-113">`UPPER ("Sample")` tagastab tulemuse **„SAMPLE”**.</span><span class="sxs-lookup"><span data-stu-id="2a1da-113">`UPPER ("Sample")` returns **"SAMPLE"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="bdd7c-114">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="bdd7c-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2a1da-114">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="2a1da-114">Additional resources</span></span>
 
-[<span data-ttu-id="bdd7c-115">Tekstifunktsioonid</span><span class="sxs-lookup"><span data-stu-id="bdd7c-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="2a1da-115">Tekstifunktsioonid</span><span class="sxs-lookup"><span data-stu-id="2a1da-115">Text functions</span></span>](er-functions-category-text.md)

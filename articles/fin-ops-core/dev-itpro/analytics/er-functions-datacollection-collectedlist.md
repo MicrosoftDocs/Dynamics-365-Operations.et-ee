@@ -18,63 +18,63 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a66ba364a7d06cd5ac03b57f07e2c5d4eb7a46d
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 85258ae0a8d8a9720133a294f88ad84e1678532a
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042592"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743659"
 ---
-# <span data-ttu-id="bc756-103"><a name="COLLECTEDLIST">ER-i funktsioon COLLECTEDLIST</a></span><span class="sxs-lookup"><span data-stu-id="bc756-103"><a name="COLLECTEDLIST">COLLECTEDLIST ER function</a></span></span>
+# <a name="collectedlist-er-function"></a><span data-ttu-id="61d4d-103">ER-i funktsioon COLLECTEDLIST</span><span class="sxs-lookup"><span data-stu-id="61d4d-103">COLLECTEDLIST ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="bc756-104">Funktsioon `COLLECTEDLIST` on *kirjete loendi* väärtus, mis sisaldab nende väärtuste loendit, mis on tagastatud vorminguelementide atribuudi **Kogutud andmete võtme väärtus** poolt ja kogutud, kui vorminguelemente kasutati väljaminevate dokumentide loomisel vormingu käitamise ajal, ja mis vastab määratud tingimustele.</span><span class="sxs-lookup"><span data-stu-id="bc756-104">The `COLLECTEDLIST` function a *Record list* value that contains the list of values that were returned by the **Collected data key value** property of format elements and collected when the format elements were used to generate outbound documents during the format run, and that satisfies the specified conditions.</span></span> <span data-ttu-id="bc756-105">Iga tingimus koosneb võtmevahemikust ja võtmeväärtusest.</span><span class="sxs-lookup"><span data-stu-id="bc756-105">Each condition consists of a key range and a key value.</span></span>
+<span data-ttu-id="61d4d-104">Funktsioon `COLLECTEDLIST` on *kirjete loendi* väärtus, mis sisaldab nende väärtuste loendit, mis on tagastatud vorminguelementide atribuudi **Kogutud andmete võtme väärtus** poolt ja kogutud, kui vorminguelemente kasutati väljaminevate dokumentide loomisel vormingu käitamise ajal, ja mis vastab määratud tingimustele.</span><span class="sxs-lookup"><span data-stu-id="61d4d-104">The `COLLECTEDLIST` function a *Record list* value that contains the list of values that were returned by the **Collected data key value** property of format elements and collected when the format elements were used to generate outbound documents during the format run, and that satisfies the specified conditions.</span></span> <span data-ttu-id="61d4d-105">Iga tingimus koosneb võtmevahemikust ja võtmeväärtusest.</span><span class="sxs-lookup"><span data-stu-id="61d4d-105">Each condition consists of a key range and a key value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bc756-106">Süntaks</span><span class="sxs-lookup"><span data-stu-id="bc756-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="61d4d-106">Süntaks</span><span class="sxs-lookup"><span data-stu-id="61d4d-106">Syntax</span></span>
 
 ```vb
 COLLECTEDLIST (condition 1 range, condition 1 value[, condition 2 range, condition 2 value, …, condition N range, condition N value])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="bc756-107">Argumendid</span><span class="sxs-lookup"><span data-stu-id="bc756-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="61d4d-107">Argumendid</span><span class="sxs-lookup"><span data-stu-id="61d4d-107">Arguments</span></span>
 
-<span data-ttu-id="bc756-108">`condition 1 range`: *string*</span><span class="sxs-lookup"><span data-stu-id="bc756-108">`condition 1 range`: *String*</span></span>
+<span data-ttu-id="61d4d-108">`condition 1 range`: *string*</span><span class="sxs-lookup"><span data-stu-id="61d4d-108">`condition 1 range`: *String*</span></span>
 
-<span data-ttu-id="bc756-109">Väärtus, mis tagastatakse avaldise poolt, mis on konfigureeritud elektroonilise aruandluse (ER) vormingu komponendi atribuudis **Kogutud andmete võtme nimi**.</span><span class="sxs-lookup"><span data-stu-id="bc756-109">A value that is returned by the expression that has been configured in the **Collected data key name** property of an Electronic reporting (ER) format component.</span></span> <span data-ttu-id="bc756-110">See argument on kohustuslik.</span><span class="sxs-lookup"><span data-stu-id="bc756-110">This argument is mandatory.</span></span>
+<span data-ttu-id="61d4d-109">Väärtus, mis tagastatakse avaldise poolt, mis on konfigureeritud elektroonilise aruandluse (ER) vormingu komponendi atribuudis **Kogutud andmete võtme nimi**.</span><span class="sxs-lookup"><span data-stu-id="61d4d-109">A value that is returned by the expression that has been configured in the **Collected data key name** property of an Electronic reporting (ER) format component.</span></span> <span data-ttu-id="61d4d-110">See argument on kohustuslik.</span><span class="sxs-lookup"><span data-stu-id="61d4d-110">This argument is mandatory.</span></span>
 
-<span data-ttu-id="bc756-111">`condition 1 value`: *string*</span><span class="sxs-lookup"><span data-stu-id="bc756-111">`condition 1 value`: *String*</span></span>
+<span data-ttu-id="61d4d-111">`condition 1 value`: *string*</span><span class="sxs-lookup"><span data-stu-id="61d4d-111">`condition 1 value`: *String*</span></span>
 
-<span data-ttu-id="bc756-112">Väärtus, mis tagastatakse avaldise poolt, mis on konfigureeritud ER-vormingu komponendi atribuudis **Kogutud andmete võtme väärtus**.</span><span class="sxs-lookup"><span data-stu-id="bc756-112">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="bc756-113">See argument on kohustuslik.</span><span class="sxs-lookup"><span data-stu-id="bc756-113">This argument is mandatory.</span></span>
+<span data-ttu-id="61d4d-112">Väärtus, mis tagastatakse avaldise poolt, mis on konfigureeritud ER-vormingu komponendi atribuudis **Kogutud andmete võtme väärtus**.</span><span class="sxs-lookup"><span data-stu-id="61d4d-112">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="61d4d-113">See argument on kohustuslik.</span><span class="sxs-lookup"><span data-stu-id="61d4d-113">This argument is mandatory.</span></span>
 
-<span data-ttu-id="bc756-114">`condition N range`: *string*</span><span class="sxs-lookup"><span data-stu-id="bc756-114">`condition N range`: *String*</span></span>
+<span data-ttu-id="61d4d-114">`condition N range`: *string*</span><span class="sxs-lookup"><span data-stu-id="61d4d-114">`condition N range`: *String*</span></span>
 
-<span data-ttu-id="bc756-115">Väärtus, mis tagastatakse avaldise poolt, mis on konfigureeritud ER-vormingu komponendi atribuudis **Kogutud andmete võtme nimi**.</span><span class="sxs-lookup"><span data-stu-id="bc756-115">A value that is returned by the expression that has been configured in the **Collected data key name** property of an ER format component.</span></span> <span data-ttu-id="bc756-116">Need täiendavad argumendid on valikulised.</span><span class="sxs-lookup"><span data-stu-id="bc756-116">These additional arguments are optional.</span></span>
+<span data-ttu-id="61d4d-115">Väärtus, mis tagastatakse avaldise poolt, mis on konfigureeritud ER-vormingu komponendi atribuudis **Kogutud andmete võtme nimi**.</span><span class="sxs-lookup"><span data-stu-id="61d4d-115">A value that is returned by the expression that has been configured in the **Collected data key name** property of an ER format component.</span></span> <span data-ttu-id="61d4d-116">Need täiendavad argumendid on valikulised.</span><span class="sxs-lookup"><span data-stu-id="61d4d-116">These additional arguments are optional.</span></span>
 
-<span data-ttu-id="bc756-117">`condition N value`: *string*</span><span class="sxs-lookup"><span data-stu-id="bc756-117">`condition N value`: *String*</span></span>
+<span data-ttu-id="61d4d-117">`condition N value`: *string*</span><span class="sxs-lookup"><span data-stu-id="61d4d-117">`condition N value`: *String*</span></span>
 
-<span data-ttu-id="bc756-118">Väärtus, mis tagastatakse avaldise poolt, mis on konfigureeritud ER-vormingu komponendi atribuudis **Kogutud andmete võtme väärtus**.</span><span class="sxs-lookup"><span data-stu-id="bc756-118">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="bc756-119">Need täiendavad argumendid on valikulised.</span><span class="sxs-lookup"><span data-stu-id="bc756-119">These additional arguments are optional.</span></span>
+<span data-ttu-id="61d4d-118">Väärtus, mis tagastatakse avaldise poolt, mis on konfigureeritud ER-vormingu komponendi atribuudis **Kogutud andmete võtme väärtus**.</span><span class="sxs-lookup"><span data-stu-id="61d4d-118">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="61d4d-119">Need täiendavad argumendid on valikulised.</span><span class="sxs-lookup"><span data-stu-id="61d4d-119">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="bc756-120">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="bc756-120">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="61d4d-120">Tagastusväärtused</span><span class="sxs-lookup"><span data-stu-id="61d4d-120">Return values</span></span>
 
-<span data-ttu-id="bc756-121">*Kirjete loend*</span><span class="sxs-lookup"><span data-stu-id="bc756-121">*Record list*</span></span>
+<span data-ttu-id="61d4d-121">*Kirjete loend*</span><span class="sxs-lookup"><span data-stu-id="61d4d-121">*Record list*</span></span>
 
-<span data-ttu-id="bc756-122">Saadud kirjete loend.</span><span class="sxs-lookup"><span data-stu-id="bc756-122">The resulting list of records.</span></span>
+<span data-ttu-id="61d4d-122">Saadud kirjete loend.</span><span class="sxs-lookup"><span data-stu-id="61d4d-122">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="bc756-123">Kasutamise märkused</span><span class="sxs-lookup"><span data-stu-id="bc756-123">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="61d4d-123">Kasutamise märkused</span><span class="sxs-lookup"><span data-stu-id="61d4d-123">Usage notes</span></span>
 
-<span data-ttu-id="bc756-124">Atribuute **Kogutud andmete võtme nimi** ja **Kogutud andmete võtme väärtus** saab konfigureerida kas ER-vormingu komponendile **Järjestus** või komponendile **XML-element**, mis paikneb komponendi **Üldine\\Fail** all, kus suvand **Kogu väljundi üksikasjad** on sisse lülitatud.</span><span class="sxs-lookup"><span data-stu-id="bc756-124">The **Collected data key name** and **Collected data key value** properties can be configured for either the **Sequence** component or the **XML Element** component of an ER format that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
+<span data-ttu-id="61d4d-124">Atribuute **Kogutud andmete võtme nimi** ja **Kogutud andmete võtme väärtus** saab konfigureerida kas ER-vormingu komponendile **Järjestus** või komponendile **XML-element**, mis paikneb komponendi **Üldine\\Fail** all, kus suvand **Kogu väljundi üksikasjad** on sisse lülitatud.</span><span class="sxs-lookup"><span data-stu-id="61d4d-124">The **Collected data key name** and **Collected data key value** properties can be configured for either the **Sequence** component or the **XML Element** component of an ER format that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
 
-<span data-ttu-id="bc756-125">See funktsioon tagastab tühja loendi, kui praeguse komponendi **Üldine\\Fail** suvand **Kogu väljundi üksikasjad** on välja lülitatud.</span><span class="sxs-lookup"><span data-stu-id="bc756-125">This function returns an empty list when the **Collect output details** option of the current **Common\\File** component is turned off.</span></span>
+<span data-ttu-id="61d4d-125">See funktsioon tagastab tühja loendi, kui praeguse komponendi **Üldine\\Fail** suvand **Kogu väljundi üksikasjad** on välja lülitatud.</span><span class="sxs-lookup"><span data-stu-id="61d4d-125">This function returns an empty list when the **Collect output details** option of the current **Common\\File** component is turned off.</span></span>
 
-<span data-ttu-id="bc756-126">Argumentides `condition range` saab kasutada metamärki **„\*”**, et tähistada mis tahes märki mitmete seast.</span><span class="sxs-lookup"><span data-stu-id="bc756-126">In `condition range` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
+<span data-ttu-id="61d4d-126">Argumentides `condition range` saab kasutada metamärki **„\*”**, et tähistada mis tahes märki mitmete seast.</span><span class="sxs-lookup"><span data-stu-id="61d4d-126">In `condition range` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
 
-<span data-ttu-id="bc756-127">Argumentides `condition value` saab kasutada metamärki **„\*”**, et tähistada mis tahes märki mitmete seast.</span><span class="sxs-lookup"><span data-stu-id="bc756-127">In `condition value` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
+<span data-ttu-id="61d4d-127">Argumentides `condition value` saab kasutada metamärki **„\*”**, et tähistada mis tahes märki mitmete seast.</span><span class="sxs-lookup"><span data-stu-id="61d4d-127">In `condition value` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
 
-## <a name="example"></a><span data-ttu-id="bc756-128">Näide</span><span class="sxs-lookup"><span data-stu-id="bc756-128">Example</span></span>
+## <a name="example"></a><span data-ttu-id="61d4d-128">Näide</span><span class="sxs-lookup"><span data-stu-id="61d4d-128">Example</span></span>
 
-<span data-ttu-id="bc756-129">Lisateavet selle funktsiooni kasutamise kohta vaadake tegevuse juhisest [ER-i loendamise ja liitmise vormingu väljundi kasutusandmed](tasks/er-format-counting-summing-1.md), mis on äriprotsessi **IT-teenuse/-lahenduse komponentide hankimine/arendamine** osa.</span><span class="sxs-lookup"><span data-stu-id="bc756-129">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
+<span data-ttu-id="61d4d-129">Lisateavet selle funktsiooni kasutamise kohta vaadake tegevuse juhisest [ER-i loendamise ja liitmise vormingu väljundi kasutusandmed](tasks/er-format-counting-summing-1.md), mis on äriprotsessi **IT-teenuse/-lahenduse komponentide hankimine/arendamine** osa.</span><span class="sxs-lookup"><span data-stu-id="61d4d-129">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="bc756-130">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="bc756-130">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="61d4d-130">Lisaressursid</span><span class="sxs-lookup"><span data-stu-id="61d4d-130">Additional resources</span></span>
 
-[<span data-ttu-id="bc756-131">Andmete kogumise funktsioonid</span><span class="sxs-lookup"><span data-stu-id="bc756-131">Data collection functions</span></span>](er-functions-category-data-collection.md)
+[<span data-ttu-id="61d4d-131">Andmete kogumise funktsioonid</span><span class="sxs-lookup"><span data-stu-id="61d4d-131">Data collection functions</span></span>](er-functions-category-data-collection.md)
