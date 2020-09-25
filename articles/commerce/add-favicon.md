@@ -3,7 +3,7 @@ title: Faviconi lisamine
 description: See teema selgitab, kuidas lisada saidile faviconi.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/27/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686786"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761149"
 ---
 # <a name="add-a-favicon"></a>Faviconi lisamine
 
@@ -58,30 +58,30 @@ Faviconi HTML-i loomiseks kasutage järgmist HTML-stringi. Atribuudi **href** ja
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Looge lehefragment, mis sisaldab teie faviconi metasilti
+## <a name="create-a-fragment-that-contains-a-metatag-for-your-favicon"></a>Teie lemmikuikooni metasilti sisaldava fragmendi loomine
 
-Teie faviconi sisaldava lehefragmendi loomiseks toimige järgmiselt.
+Teie lemmikuikooni metasilti sisaldava fragmendi loomiseks järgige neid juhiseid.
 
 1. Avage **Fragmendid** ja valige **Uus**.
-1. Valige dialoogiboksis **Uus lehe fragment** lehefragmendi aluseks oleva moodulina **Metasildid**.
-1. Sisestage lehefragmendi nimi ja seejärel valige nupp **OK**.
+1. Määrake dialoogiboksis **Uus fragment** mooduliks (millel põhineb fragment) **Metasildid**.
+1. Sisestage fragmendi nimi ja valige **OK**.
 1. Valige fragmendihierarhiapuus tütarüksus**Vaikimisi metasildid**.
 1. Valige parempoolsel paanil jaotises **Metasildid** suvand **Lisa** ja seejärel sisestage HTML-string, mille eelnevalt faviconi jaoks lõite. 
-1. Valige **Lõpeta redigeerimine** ja seejärel valige lehefragmendi avaldamiseks **Avalda**.
+1. Valige **Lõpeta redigeerimine** ja seejärel valige fragmendi avaldamiseks **Avalda**.
 
-## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Lisage metasildi lehefragment oma lehtede HTML-i päise jaotisesse
+## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Metasildi fragmendi lisamine lehtede HTML-i päise jaotisse
 
-Metasildi lehefragmendi lisamiseks oma lehtede HTML-i **päise** jaotisesse toimige järgmiselt.
+Metasildi fragmendi lisamiseks lehtede HTML-i **päise** jaotisse järgige neid juhiseid.
 
 1. Avage **Mallid**, avage lehtede mall, mille soovite oma faviconile lisada ja valige seejärel **Redigeeri**.
-1. Vajutage mallihierarhiapuus kolmikpunkti (**...**) nupule, mis paikneb konteineri **HTML-i päis** paremal küljel, ja valige seejärel **Lisa lehefragment**.
-1. Valige dialoogiboksis**Lehe fragmendi valimine** varem loodud metasildi lehefragment ja seejärel **OK**.
+1. Valige malli hierarhiapuus ümbrisest **HTML-i päis** paremal asuv kolmikpunkti (**...**) nupp ja seejärel valige **Lisa fragment**.
+1. Valige dialoogiboksis **Vali fragment** varem loodud metasildi fragment ja seejärel valige **OK**.
 1. Valige **Lõpeta redigeerimine** ja seejärel valige malli avaldamiseks **Avalda**.
 
 > [!NOTE]
-> Kui teie saidil kasutatakse enam kui üht malli, siis peate kõigile lisama metasiltide lehefragmendi.
+> Kui teie sait kasutab rohkem kui ühte malli, peate metasiltide fragmendi lisama kõigile mallidele.
 
-Kui kuvate selliste lehtede eelvaate, mis põhinevad mallil, millele lisasite metasiltide lehefragmendi, siis peaksite nüüd nägema brauseriaknas faviconi.
+Kui vaatate nende lehtede eelversiooni, mis põhinevad mallil, millele lisasite metasiltide fragmendi, peaksite nüüd nägema lemmikuikooni brauseri vahekaardil.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

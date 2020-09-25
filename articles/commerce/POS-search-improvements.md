@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
-ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
+ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628905"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759931"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Tooteotsing ja kliendiotsing kassas
 
@@ -93,7 +93,7 @@ Kliendi kaugotsingus ei kuvata kliendi ID-d teistest juriidilistest isikutest p�
 
 ### <a name="enhancements-to-local-customer-search"></a>Kohaliku kliendiotsingu täiustused
 
-Telefoninumbritel põhinevaid otsinguid on lihtsustatud. Need otsingud eiravad nüüd erimärke, nagu tühikud, sidekriipsud ja sulud, mis võidi lisada kliendi loomise ajal. Seetõttu ei pea kassapidajad enam otsides muretsema telefoninumbri vormingu pärast. Nad saavad kliente otsida ka osalise telefoninumbri järgi. Kui telefoninumber sisaldab erimärke, saab selle leidmiseks otsida ka numbreid, mis ilmuvad pärast erimärke. Näiteks kui kliendi telefoninumber sisestati kujul **123-456-7890**, saab kassapidaja klienti otsida, tippides **123**, **456**, **7890** või **1234567890** või sisestades telefoninumbrist paar esimest numbrit.
+Telefoninumbritel põhinevaid otsinguid on lihtsustatud. Need otsingud eiravad nüüd erimärke, nagu tühikud, sidekriipsud ja sulud, mis võidi lisada kliendi loomise ajal. Seetõttu ei pea kassapidajad enam otsides muretsema telefoninumbri vormingu pärast. Näiteks kui kliendi telefoninumber sisestati kujul **123-456-7890**, saab kassapidaja klienti otsida, tippides **1234567890** või sisestades telefoninumbrist paar esimest numbrit.
 
 > [!NOTE]
 > Kliendil võib olla mitu telefoninumbrit ja meiliaadressi. Kliendiotsingu algoritm otsib ka teiseste meiliaadressite ja telefoninumbrite seast, kuid kliendiotsingutulemuste lehel kuvatakse ainult esmane meiliaadress ja telefoninumber. See võib põhjustada segadust, kuna tagastatud kliendiotsingutulemustes ei kuvata otsitud meiliaadressi või telefoninumbrit. Tulevases väljalaskes plaanime selle teabe kuvamiseks parandada kliendiotsingutulemuste vaadet.

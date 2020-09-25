@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Managementi 10.0.13 (oktoober 2020) eelvaatefunktsioonid
+title: Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.13 uut või mida on muudetud (oktoober 2020)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.13 uusi või muutunud funktsioone.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dae936ea9a72b865096cdda54d767f3e44816e20
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: af468f0cc5d5f1baab62afb3cf90dfca353b3291
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652227"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802939"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Dynamics 365 Supply Chain Managementi 10.0.13 (oktoober 2020) eelvaatefunktsioonid
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.13 uut või mida on muudetud (oktoober 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi eelvaateversiooni 10.0.13 uusi või muutunud funktsioone. Selle versiooni number on 10.0.569 ja see on saadaval järgmiselt: 
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi eelvaateversiooni 10.0.13 uusi või muutunud funktsioone. Selle versiooni number on 10.0.569 ja see on saadaval järgmiselt:
 
 - **Eelvaateversiooni välja andmine:** august 2020
 - **Üldine saadavus (enesevärskendus):** september 2020
@@ -61,7 +60,7 @@ See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingit
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Teenuse Finance and Operations rakenduste platvormivärskendused
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.13 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.13 platvormivärskendused (oktoober 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-13.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.13 sisaldab platvormivärskendusi. Lisateavet leiate teemast [Finance and Operationsi rakenduste versiooni 10.0.13 platvormivärskendused (oktoober 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Veaparandused
 

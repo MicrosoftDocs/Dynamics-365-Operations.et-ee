@@ -3,7 +3,7 @@ title: Privaatsuspoliitika lehe lisamine
 description: Selles teemas kirjeldatakse, kuidas lisada privaatsuspoliitika rakenduses Microsoft Dynamics 365 Commerce oma saidile.
 author: v-chgri
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686691"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761269"
 ---
 # <a name="add-a-privacy-policy-page"></a>Privaatsuspoliitika lehe lisamine
 
@@ -89,8 +89,8 @@ Saate lisada lingi privaatsuspoliitika lehele fragmenti. Sel viisil saate linki 
 Jaluse fragmendile lingi lisamiseks tehke järgmist.
 
 1. Avage **Fragmendid** ja valige seejärel lehe fragmendi loomiseks **Uus**.
-1. Valige dialoogiboksis **Uus lehe fragment** moodul **Jalus**.
-1. Sisestage jaotises **Lehe fragmendi nimi** fragmendi nimi ja seejärel valige **OK**.
+1. Valige dialoogiboksis **Uus fragment** moodul **Jalus**.
+1. Sisestage jaotises **Fragmendi nimi** fragmendi nimi ja seejärel valige **OK**.
 1. **Jaluse kategooria** pesas lisage **jaluse üksuse** moodul.
 1. Parempoolsel atribuutide paanil valige suvand **Lingi tekst**.
 1. Dialoogiaknas **lingi tekst** sisestage lingi tekst ja lingi eesmärk privaatsuspoliitika lehele ja seejärel klõpsake **OK**.

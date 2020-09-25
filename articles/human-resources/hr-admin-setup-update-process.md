@@ -3,7 +3,7 @@ title: Värskendamisprotsess
 description: Microsoft Dynamics 365 Human Resources on tõeline tarkvara teenusena (Saas), mis pakub pidevaid, puutumatuid teenuse uuendusi rakenduse ja platvormi muudatustele.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 006f3c7218436c1c70e29e51f8b1b784ae36b2dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: be9be5509f933ecbda5bf6d040027a7bac8b666d
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431172"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759955"
 ---
 # <a name="update-process"></a>Värskendamisprotsess
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 Human Resources on tõeline tarkvara teenusena (Saas), mi
 
 Värskendusi antakse välja regulaarselt kõikides keskkondades. Rakenduse Human Resources tugi põhineb [Microsofti elutsükli poliitikal](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy), kust leiate terviklikud ja ennustatavad juhised toe saadavuse kohta.
 
-## <a name="release-cadence"></a>Väljaandmise sagedus
+## <a name="release-cadence"></a>Väljaandmise sagedus 
 
 Rakenduse Human Resources värskendusi rakendatakse kõigile keskkondadele automaatselt. Human Resources pakub kahte tüüpi väljaandeid.
 
@@ -56,14 +56,12 @@ Väljaanded vaadatakse üle, testitakse ja kontrollitakse sisemises keskkonnas. 
 
 ## <a name="release-cadence-exceptions-in-2020"></a>Erandid väljaandmise sageduses 2020. aastal
 
-Järgmised kuupäevad on tavalise väljastusgraafiku erandid.
+Puhkuse arvestamiseks on 2020. aasta novembri ja detsembri väljastusgraafik järgmine.
 
-| Kuupäev | Kirjeldus |
-| --- | --- |
-| 23. novembri nädal | Uuendusi pole |
-| 14. detsembri nädal | Ainult väikesed värskendused |
-| 21. detsembri nädal | Uuendusi pole |
-| 28. detsembri nädal | Uuendusi pole |
+- Novembri väljastus: 2. november – 13. november
+- Detsembri väljastus: 30. november – 11. detsember
+ 
+Kahenädalane väljaandmise sagedus jätkub tavapäraselt 11. jaanuaril 2021.
 
 ## <a name="communications"></a>Suhtlus
 

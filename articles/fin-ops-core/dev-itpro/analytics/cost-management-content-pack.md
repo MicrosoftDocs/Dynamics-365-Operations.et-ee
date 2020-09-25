@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 54da05bb6b84390f9928d8400e3dafc3228ee2fc
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771513"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759252"
 ---
 # <a name="cost-management-power-bi-content"></a>Kuluhalduse Power BI sisu
 
@@ -176,7 +176,7 @@ Rakendusest pärit andmeid kasutatakse **Kuluhalduse** Power BI  sisu aruandeleh
 
 Järgmiste objektide peamisi koondmõõtmisi kasutatakse Power BI sisu alusena.
 
-| Objekt                          | Peamised koondmõõtmised | Finance and Operationsi andmeallikas | Väli               |
+| Objekt                          | Peamised koondmõõtmised | Finance and Operationsi andmeallikas | Field               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Summa                     | CostObjectStatementCache               | Summa              |
 | CostObjectStatementCacheMonthly | Kogus                   | CostObjectStatementCache               | Kogus                 |
@@ -193,10 +193,10 @@ Järgmises tabelis on toodud peamised arvutatud mõõtmised Power BI sisus.
 | Koguse lõppsaldo                | Koguse lõppsaldo = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
 | Netomuutus                         | Netomuutus = SUM(\[AMOUNT\]) |
 | Koguse netomuutuse                    | Netomuutuse kogus = SUM(\[QTY\]) |
-| Lao ringluskiirus summa järgi | Lao ringluskiirus summa järgi = if(OR(\[Varude keskmine saldo\] \<= 0, \[Müüdud või tarbitud varude väljaminekud\] \>= 0), 0, ABS(\[Müüdud või tarbitud varude väljaminekud\])/\[Varude keskmine saldo\]) |
+| Lao ringluskiirus summa järgi | Lao ringluskiirus summa järgi = if(OR(\[Varude keskmine saldo\] \<= 0, \[Inventory sold or consumed issues\] \>= 0, Müüdud või tarbitud varude väljaminekud = 0), 0, ABS(\[Müüdud või tarbitud varude väljaminekud\])/\[Varude keskmine saldo\]) |
 | Varude keskmine saldo          | Varude keskmine saldo = ((\[Lõppsaldo\] + \[Algsaldo\]) / 2) |
 | Vaba kaubavaru hoidmise päevad             | Vaba kaubavaru hoidmise päevad = 365 / CostObjectStatementEntries\[Lao ringluskiirus summa järgi\] |
-| Varude täpsus                 | Varude täpsus summa alusel = IF(\[Lõppsaldo\] \<= 0, IF(OR(\[Varude loetud summa\] \<\> 0, \[Lõppsaldo\] \< 0), 0, 1), MAX(0, (\[Lõppsaldo\] - ABS(\[Varude loetud summa\]))/\[Lõppsaldo\])) |
+| Varude täpsus                 | Varude täpsus summa alusel = IF(\[Lõppsaldo\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Lõppsaldo\] \< 0), 0, 1), MAX(0, (\[Lõppsaldo\] - ABS(\[Varude loetud summa\]))/\[Lõppsaldo\])) |
 
 Järgmisi põhidimensioone kasutatakse filtritena koondmõõtmiste tükeldamiseks suurema granulaarsuse saavutamiseks ja sügavama analüütilise ülevaate andmiseks.
 
