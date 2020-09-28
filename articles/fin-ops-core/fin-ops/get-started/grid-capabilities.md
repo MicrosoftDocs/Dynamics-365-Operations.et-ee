@@ -3,7 +3,7 @@ title: Ruudustiku võimalused
 description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks tuleb uus ruudustikufunktsioon lubada.
 author: jasongre
 manager: AnnBe
-ms.date: 08/03/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,24 +16,23 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651686"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760395"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida saab kasutada kasutaja tootlikkuse suurendamiseks, teie andmetest huvitavate vaadete loomiseks ja sisukate ülevaadete hankimiseks andmete jaoks. Selles artiklis tutvustatakse järgmisi võimalusi. 
 
 -  Summade arvutamine
--  Andmete rühmitamine
 -  Süsteemist eespool tippimine
 -  Matemaatiliste avaldiste hindamine 
+-  Tabeli andmete grupeerimine (lubatud eraldi kasutades **(eelvaade) grupeerimist võrkude** funktsioonis)
 
 ## <a name="calculating-totals"></a>Summade arvutamine
 Rakendustes Finance and Operations on kasutajatel võimalik ruudustiku numbriveergude allosas näha kogusummasid. Need kogusummad kuvatakse ruudustiku allosas jaluse jaotises. 
@@ -71,21 +70,6 @@ Kui arvutamine võtab liiga kaua aega, saate toimingu tühistada, klõpsates nup
 
 Kogusummasid värskendatakse automaatselt, kui uuendate, kustutate või loote andmekogumi ridu.  
 
-## <a name="grouping-data"></a>Andmete rühmitamine
-Ärikasutajatel on sageli vaja teha andmete ad-hoc-analüüsi. Üks võimalus selle tegemiseks on eksportida andmeid Microsoft Excelisse ja kasutada liigendtabeleid, kuid ruutvõrgustiku võimalus **Rühmitamine** võimaldab kasutajatel oma andmeid põnevatel viisidel rakendustes Finance and Operations korraldada. Kuna see funktsioon laiendab funktsiooni **Kogusummad**, võimaldab **Rühmitamine** teil saada ka sisukaid ülevaateid oma andmetest, pakkudes vahesummasid grupi tasandil.
-
-Selle funktsiooni kasutamiseks paremklõpsake veergu, mille alusel soovite rühmitada, ja valige käsk **Rühmita selle veeru järgi**. See tegevus sordib andmed valitud veeru alusel, lisab uue grupi veeru järgi ruudustiku algusse ja lisab iga grupi algusesse päise read. Need päise read annavad iga grupi kohta järgmist teavet. 
--  Grupi andmete väärtus 
--  Veeru silt (see teave on eriti kasulik pärast seda, kui toetatud on rühmitamise mitu taset.)
--  Selles grupis olevate andmeridade arv
--  Kogusummade kuvamiseks konfigureeritud veergude vahesummad
-
-Kui [Salvestatud vaated](saved-views.md) on lubatud, saab selle rühmitamise isikupärastamisena järgmiseks lehekülastuseks salvestada, et saada kiirjuurdepääs.  
-
-Kui valite käsu **Rühmita selle veeru alusel** mõnes teises veerus, asendatakse algne rühmitamine, kuna versioonis 10.0.9 platvormivärskendusega 33 on toetatud ainult üks rühmitamise tase.
-
-Rühmitamise tagasivõtmiseks ruudustikus paremklõpsake rühmitataval veerul ja valige käsk **Tühista rühmitamine**.  
-
 ## <a name="typing-ahead-of-the-system"></a>Süsteemist eespool tippimine
 Paljudes äriolukordades on väga oluline, et andmed sisestataks kiiresti süsteemi. Enne uue ruudustiku juhtelemendi kasutuselevõttu said kasutajad muuta andmeid ainult praeguses reas. Enne uue rea loomist või teise rea avamist pidid nad ootama, kuni süsteem kõik muudatused edukalt kinnitas. Selleks et vähendada aega, mil kasutajad ootavad kinnituste lõpule viimist, ja parandada kasutajate tootlikkust, kohandab uus ruudustik neid kinnitusi asünkroonselt. Seetõttu saab kasutaja avada muudatuste tegemiseks teisi ridu, samal ajal kui eelmise rea muudatused on veel ootel. 
 
@@ -109,6 +93,32 @@ Tootlikkuse tõstmiseks saavad kasutajad sisestada ruudustiku numbrilahtritesse 
 
 Selleks et süsteem tuvastaks avaldise väärtuse, käivitage väärtus võrdusmärgiga (**=**). Lisateavet toetatud tehtemärkide ja süntaksi kohta vt teemast [Toetatud matemaatilised sümbolid](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
+## <a name="grouping-tabular-data"></a>Tabeli andmete grupeerimine
+[!include [preview banner](../includes/preview-banner.md)]
+
+Ärikasutajatel on sageli vaja teha andmete ad-hoc-analüüsi. Üks võimalus selle tegemiseks on eksportida andmeid Microsoft Excelisse ja kasutada liigendtabeleid, kuid **(eelvaade) grupeerimine võrkude** funktsioon, mis sõltub uuest ruudustiku juhtelemendi funktsioonist, võimaldab kasutajatel oma tabeli andmeid põnevatel viisidel Finance and Operationsi rakendustes korraldada. Kuna see funktsioon laiendab funktsiooni **Kogusummad**, võimaldab **Rühmitamine** teil saada ka sisukaid ülevaateid oma andmetest, pakkudes vahesummasid grupi tasandil.
+
+Selle funktsiooni kasutamiseks paremklõpsake veergu, mille alusel soovite rühmitada, ja valige käsk **Rühmita selle veeru järgi**. See tegevus sordib andmed valitud veeru alusel, lisab uue **grupi veeru järgi** ruudustiku algusse ja lisab iga grupi algusesse päise read. Need päise read annavad iga grupi kohta järgmist teavet. 
+-  Grupi andmete väärtus 
+-  Veeru nimi (see teave on eriti kasulik pärast seda, kui toetatud on rühmitamise mitu taset.)  
+-  Selles grupis olevate andmeridade arv
+-  Kogusummade kuvamiseks konfigureeritud veergude vahesummad
+
+Kui [Salvestatud vaated](saved-views.md) on lubatud, saab selle rühmitamise isikupärastamisena järgmiseks lehekülastuseks salvestada, et saada kiirjuurdepääs.  
+
+Kui valite käsu **Rühmita selle veeru alusel** mõnes teises veerus, asendatakse algne rühmitamine, kuna versioonis 10.0.9 platvormivärskendusega 33 on toetatud ainult üks rühmitamise tase.
+
+Rühmitamise tagasivõtmiseks ruudustikus paremklõpsake rühmitataval veerul ja valige käsk **Tühista rühmitamine**.  
+
+### <a name="expanding-and-collapsing-groups"></a>Gruppide laiendamine ja ahendamine
+Andmete algsel grupeerimisel on kõik grupid laiendatud. Andmete summeeritud vaateid saate luua üksikute rühmade ahendamise abil või kasutada andmete navigeerimisel grupi laiendamist ja ahendamist. Grupi laiendamiseks või ahendamiseks valige vastava grupi päisereal nupp Rööpnool (>). Pange tähele, et üksikute gruppide laiendamis-/ahendamisolek on **pole** salvestatud isikupärastamise võimalustes.
+
+### <a name="selecting-and-unselecting-rows-at-the-group-level"></a>Ridade valimine ja valiku tühistamine grupi tasemel
+Samamoodi nagu ruudustiku kõigi ridade valimiseks (või valiku tühistamiseks) saate märkida ruudustiku esimese veeru ülaosas oleva ruudu, saate kiiresti valida (või valiku tühistada) kõik grupi read, kui märgite vastava grupi päiserea ruudu. Grupi päiserea märkeruut kajastab alati selle grupi ridade praegust valikuolekut, olenemata sellest, kas kõik read on valitud, ühtegi rida pole valitud või on valitud ainult mõned read.
+
+### <a name="hiding-column-names"></a>Veeru nimede peitmine
+Andmete grupeerimisel kuvatakse veeru nimi grupi päisereal vaikimisi. Alates versioonist 10.0.14/Platvormi värskendusega nr 38 saate veeru nime grupi päiseridades peita, valides **Ruudustiku suvandid** > **Peida grupi veeru nimi**.
+
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kuidas lubada uut ruudustiku juhtelementi oma keskkonnas? 
 
@@ -131,7 +141,7 @@ Kõik järgmised kasutajaseansid algavad lubatud uue ruudustiku juhtelemendiga.
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Arendajatele] Üksikutelt lehtedelt ruudustiku eemaldamine 
 Kui teie organisatsioon avastab lehekülje, millel on uue ruudustiku kasutamisega probleeme, saate kasutada API-t, et lubada üksikul vormil kasutada ruudustiku pärandjuhtelementi ja samas lubada ülejäänud süsteemil kasutada uut ruudustiku juhtelementi. Et eemaldada ruudustik üksikult lehelt, lisage kutse `super()` vormi meetodile `run()`.
 
-        this.forceLegacyGrid();
+ ```this.forceLegacyGrid();```
 
 Seda API-d saab kasutada kuni 2021. aasta oktoobri väljalaskeni, mil uus ruudustiku juhtelement muutub kohustuslikuks. Palun teatage Microsoftile kõigist probleemidest, mis selle API kasutamisel tekivad. 
 

@@ -1,6 +1,6 @@
 ---
-title: Hoolduskatkestus
-description: Selles selgitab hoolduskatkestusi varahalduses.
+title: Hoolduskatkestuse tegevused
+description: Selles teemas selgitatakse, kuidas kasutatakse hoolduskatkestust konkreetsele varale konkreetsel ajaperioodil tehtavateks hooldustöödeks vajaliku võimsuse ülevaate saamiseks.
 author: josaw1
 manager: tfehr
 ms.date: 08/27/2019
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 2f864e7fe0129f8487cddadc99b32f75a2b6d9ca
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383523"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802817"
 ---
-# <a name="maintenance-downtime"></a>Hoolduskatkestus
+# <a name="maintenance-downtime-activities"></a>Hoolduskatkestuse tegevused
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Hoolduskatkestust kasutatakse konkreetsele varale konkreetsel ajaperioodil tehtavateks hooldustöödeks vajaliku võimsuse ülevaate saamiseks. Näiteks võite luua hoolduskatkestuse registreerimise tootmiskoha 02 tootmishoone 29-A tootmisliinile 10. Hoolduskatkesutse registreeringul on algus- ja lõppkuupäev, mis näitab perioodi, mille jooksul hoolduse peatamisega seotud varad ei ole tootmise jaoks saadaval.
 

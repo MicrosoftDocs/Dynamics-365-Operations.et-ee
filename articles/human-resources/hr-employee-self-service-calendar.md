@@ -3,7 +3,7 @@ title: Töörühma kalendri loomine
 description: Vaadake ja looge töörühma kalendreid rakenduses Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2862c98014f91c5500ec11119d04d15bd050c89c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f7d11b11864f73d4405a4e3629e6873b8cd13e8d
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712204"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796465"
 ---
 # <a name="view-team-and-company-calendars"></a>Meeskonna ja ettevõtte kalendrite kuvamine
 
@@ -50,6 +50,22 @@ Personaliosakonna töötaja rollis olevad inimesed saavad vaadata ettevõtte kal
 2. Valige suvand **Puhkuste ja puudumiste kalender**.
 
 Rakenduse Human resources rollid pääsevad juurde ka meeskonna kalendri jaotistele **Puhkuse ja puudumise taotlused**, **Kinnitatud eemaloleku aeg** ja **Eemaloleku taotlused**. 
+
+[!include [banner](includes/preview-feature.md)]
+
+Kalendrid sisaldavad nüüd täiendavaid filtreid ja suvandeid. Kõik kalendrid hõlmavad vaate suvandeid järgmiste kohta.
+
+- Kinnitatud taotlused
+- Ootel taotlused
+- Puhkusetaotlustega töötajad
+- Puhkusetaotlusteta töötajad
+- Töötajate sünnipäevad
+- Vaba aja taotlused 
+- Puhkusetaotlused
+
+Kalendri konfiguratsioon väljal Puhkuste ja puudumiste parameetrid määrab saadaolevad vaate suvandid.
+
+Kalendreid saate filtreerida ka halduri või osakonna alusel. Esmase ametikoha määramisega määratletakse töötajad, kes kuvatakse nende filtrite seadistamisel. 
 
 Lisateavet kalendri sätete kohta vt teemast [Kalendri parameetrite konfigureerimine](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

@@ -1,6 +1,6 @@
 ---
-title: Arvete ja võtmeandmete audit ostureskontro süsteemis
-description: Kui saate hankijalt ostutellimuse alusel arve kaupade või teenuste kohta, võivad äriprotsessid nõuda, et kaubad või teenused peavad enne arve makseks kinnitamist olema kätte saadud.
+title: Arvete ja võtmeandmete audit ostureskontros
+description: See teema kirjeldab arvete ja võtmeandmete auditit ostureskontros.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e1af0dac107be6009eb3ca576c49ac5abbd9848
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 5bb89f0adce41b045b1f573c4c0e841f78b2248c
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139935"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761545"
 ---
-# <a name="audit-invoices-and-key-data-in-ap-system"></a>Arvete ja võtmeandmete audit ostureskontro süsteemis
+# <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Arvete ja võtmeandmete audit ostureskontros
 
 [!include [banner](../../includes/banner.md)]
 
 Kui saate hankijalt ostutellimuse alusel arve kaupade või teenuste kohta, võivad äriprotsessid nõuda, et kaubad või teenused peavad enne arve makseks kinnitamist olema kätte saadud. Enne alustamist veenduge, et valitud on konfiguratsioonivõti Arvete vastendamine. 
 
-Veenduge lehel Ostureskontro parameetrid, et valitud on suvand Lubage arvete võrdlemise kontrollimine, suvand Nõua kinnitust väljal Lahknevustega arvete sisestamine ning suvand Kolmesuunaline vastavusse viimine väljal Rea vastavusse viimise poliitika.
+Veenduge lehel **Ostureskontro parameetrid**, et valitud on suvand Lubage arvete võrdlemise kontrollimine, suvand **Nõua kinnitust** väljal **Lahknevustega arvete sisestamine** ning suvand **Kolmesuunaline vastavusse viimine** väljal **Rea vastavusse viimise poliitika**.
 
 See protsess kasutab demoettevõtte USMF-i andmeid. Järgmiste sammude tegemiseks on vaja ostureskontro juhi või pearaamatupidaja rolli.
 

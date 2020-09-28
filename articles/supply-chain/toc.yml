@@ -70,12 +70,12 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.14 (november 2020)
+                      href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (oktoober 2020)
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (august 2020)
                       href: get-started/whats-new-scm-10-0-12.md
-                    - name: Supply Chain Management 10.0.11 (juuli 2020)
-                      href: get-started/whats-new-scm-10-0-11.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Dynamics 365 Supply Chain Managementi eemaldatud või iganenud funktsioonid
@@ -333,7 +333,7 @@
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: Hoolduse kontrollnimekirjad
                   href: asset-management/work-orders/maintenance-checklists.md
-                - name: Hoolduskatkestus
+                - name: Töökäskude hoolduskatkestused
                   href: asset-management/work-orders/maintenance-downtime.md
                 - name: Töökäsule vea lisamine
                   href: asset-management/work-orders/add-fault-to-work-order.md
@@ -341,7 +341,7 @@
                   href: asset-management/work-orders/work-order-report.md
                 - name: Töökäsu kaustad
                   href: asset-management/work-orders/work-order-pools.md
-                - name: Töökäsu aktiivsed hooldustööd
+                - name: Aktiivsed töökäsu hooldustööd
                   href: asset-management/work-orders/active-work-order-jobs-overview.md
                 - name: Töökäsud ja põhivarad
                   href: asset-management/work-orders/work-orders-and-fixed-assets.md
@@ -367,13 +367,13 @@
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
                 - name: Töökäskude loomine
                   href: asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
-                - name: Hoolduskatkestus
+                - name: Hoolduskatkestuse tegevused
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
             - name: Võimsuse planeerimine
               items:
-                - name: Arvuta täiskoormus
+                - name: Täiskoormuse arvutamine
                   href: asset-management/capacity-planning/calculate-capacity-load.md
-                - name: Arvuta kauba prognoos
+                - name: Kauba prognoosi arvutamine
                   href: asset-management/capacity-planning/calculate-item-forecast.md
             - name: Töökäsu plaanimine
               items:
@@ -1345,31 +1345,35 @@
               items:
                 - name: Planeerimise optimeerimise ülevaade
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Negatiivsete vabade kogustega plaanimine
-                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Planeerimise optimeerimisega alustamine
                   href: master-planning/planning-optimization/get-started.md
                 - name: Planeerimise optimeerimise sobivuse analüüs
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Filtrite rakendamine plaanile
                   href: master-planning/planning-optimization/plan-filters.md
-                - name: Põhiplaneerimine koos ostu kaubanduslepetega
+                - name: Koondplaneerimine koos ostu kaubanduslepetega
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Plaani ajaloo ja plaanimislogide kuvamine
-                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Ohutuspiirid
+                  href: master-planning/planning-optimization/safety-margins.md
+                - name: Plaanitud tellimuste kinnitamine
+                  href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Automaatne kinnitamine planeerimise optimeerimisega
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Negatiivsete vabade kogustega plaanimine
+                  href: master-planning/planning-optimization/negative-on-hand.md
+                - name: Plaani ajaloo ja plaanimislogide kuvamine
+                  href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Plaanimistöö tühistamine
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Optimeerimise laiendatavuse planeerimine
-                  href: master-planning/planning-optimization/extensibility.md
                 - name: Planeerimise optimeerimise tõrkeotsing
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Optimeerimise laiendatavuse planeerimine
+                  href: master-planning/planning-optimization/extensibility.md
             - name: Koondplaanid
               items:
                 - name: Koondplaanide ülevaade
                   href: master-planning/master-plans.md
-                - name: Koondplaanide häälestus
+                - name: Koondplaanide häälestamine
                   href: master-planning/master-planning-setup.md
                 - name: Koondplaneerimise häälestusviisard
                   href: master-planning/master-planning-setup-wizard.md
@@ -2621,6 +2625,8 @@
                   items:
                     - name: Kogumi komplekteerimise häälestus
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Kogumi positsioon on täis
+                      href: warehousing/cluster-position-full.md
                     - name: Süsteemi suunatud kogumi komplekteerimine
                       href: warehousing/system-directed-cluster-pick.md
                     - name: Konteinerisse määramise häälestus

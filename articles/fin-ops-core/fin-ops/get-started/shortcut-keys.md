@@ -1,6 +1,6 @@
 ---
 title: Kiirklahvid
-description: Järgmised klaviatuuri otseteed aitavad teil kiiresti ja tõhusalt andmeid sisestada.
+description: Selles teemas antakse ülevaade kiirklahvikombinatsioonidest, mida saate kasutada Finance and Operationsi rakendustega töötamisel.
 author: jasongre
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811551"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761617"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
 [!include [banner](../includes/banner.md)]
 
-Järgmised klaviatuuri otseteed aitavad teil kiiresti ja tõhusalt andmeid sisestada.
+Järgmised klaviatuuri otseteed aitavad teil Finance and Operationsi rakendustes kiiresti ja tõhusalt andmeid sisestada.
 
 > [!NOTE]
 > Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
@@ -236,6 +236,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Otsingus rea võrra üles/alla liikumine                                                                                        | Ülesnool/allanool            |
 | Otsingus lehe võrra üles/alla liikumine                                                                                       | Page Up / Page Down              |
 | Otsingu algusse/lõppu liikumine                                                                                    | Home / End                       |
+
 ## <a name="additional-resources"></a>Lisaressursid
 
 - [Kiirklahvid puuduva konto analüüsi puhul](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)

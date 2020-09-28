@@ -3,7 +3,7 @@ title: Ostukorvi moodul
 description: See teema hõlmab ostukorvi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686762"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761125"
 ---
 # <a name="cart-module"></a>Ostukorvi moodul
 
@@ -77,8 +77,8 @@ Ostukorvi moodul toob toote teabe välja Commerce Scale Uniti API-de abil. Braus
 Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks toimige järgmiselt.
 
 1. Avage **Fragmendid** ja valige uue fragmendi loomiseks **Uus**.
-1. Valige dialoogiboksis **Uus lehe fragment** moodul **Ostukorv**.
-1. Sisestage jaotises **Lehe fragmendi nimi** nimi **Ostukorvi fragment** ja seejärel valige **OK**.
+1. Valige dialoogiboksis **Uus fragment** moodul **Ostukorv**.
+1. Avage jaotis **Fragmendi nimi**, sisestage **Ostukorvi fragmendi** nimi ja seejärel valige **OK**.
 1. Valige pesa **Ostukorv**.
 1. Valige parempoolsel atribuutide paanil pliiatsisümbol, sisestage väljale pealkirja tekst ja seejärel valige märkesümbol.
 1. Valige pesas **Ostukorv** kolmikpunkt (**…**) ja seejärel käsk **Lisa moodul**.
@@ -86,8 +86,8 @@ Uuele lehele ostukorvi mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 1. Valige **Salvesta**, valige fragmendi registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Mallid** ja valige uue malli loomiseks **Uus**.
 1. Sisestage dialoogiboksis **Uus mall** jaotises **Malli nimi** mallile nimi.
-1. Valige liigendpuust pesa **Keha**, valige kolmikpunkt (**...**) ja seejärel suvand **Lisa lehe fragment**.
-1. Valige dialoogiboksis **Lehe fragmendi valimine** fragment **Ostukorvi fragment** ja seejärel valige **OK**.
+1. Valige liigenduspuu jaotises **Sisu** kolmikpunkt (**...**) ja seejärel valige **Lisa fragment**.
+1. Valige dialoogiboksis **Vali fragment** **Ostukorvi fragmendi** fragment ja seejärel valige **OK**.
 1. Valige **Salvesta**, valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 1. Avage **Lehed** ja seejärel valige uue lehe loomiseks **Uus**.
 1. Valige dialoogiboksis **Malli valimine** varem teie loodud mall, sisestage lehe nimi ja seejärel valige **OK**.

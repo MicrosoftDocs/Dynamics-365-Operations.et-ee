@@ -3,7 +3,7 @@ title: Jaluse moodul
 description: See teema hõlmab jaluse mooduleid ja kuidas neid rakenduses Dynamics 365 Commerce koostada.
 author: anupamar
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 6dd9f214fbeeeaabadac4853916363c20a3288ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686714"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761197"
 ---
 # <a name="footer-module"></a>Jaluse moodul  
 
@@ -51,7 +51,7 @@ Nagu enamik konteinereid, toetab jaluse moodul pealkirja ja laiuse atribuute. Sa
 ## <a name="create-a-footer-module"></a>Jalusemooduli loomine
 
 1. Avage **Fragmendid** ja valige uue fragmendi loomiseks **Uus**.
-1. Valige dialoogiboksis **Uus lehe fragment** moodul **Konteiner**, sisestage lehe fragmendi nimi ja valige seejärel **OK**.
+1. Valige dialoogiboksis **Uus fragment** moodul **Konteiner**, sisestage fragmendi nimi ja valige seejärel **OK**.
 1. Valige pesas **Vaikekonteiner** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
 1. Valige dialoogiboksis **Lisa moodul** moodul **Jaluse kategooria** ja klõpsake seejärel **OK**.
 1. Valige pesas **Jaluse kategooria** kolmikpunkt (**…**) ja seejärel valige käsk **Lisa moodul**.
@@ -68,7 +68,7 @@ Päise igal lehel kuvamise tagamiseks järgige neid samme iga malli jaoks, mis o
 1. Lisage mooduli **Vaikeleht** pesas **Jalus** loodud jaluse fragment.
 1. Valige malli registreerimiseks **Lõpeta redigeerimine** ja seejärel selle avaldamiseks **Avalda**.
 
-Lisades lehe mallidele lehe fragmendi, aitate tagada, et jalus renderdatakse igal lehel.
+Lisades lehe mallidele fragmendi, aitate tagada, et jalus renderdatakse igal lehel.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

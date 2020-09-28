@@ -3,7 +3,7 @@ title: Pöördkäibemaks
 description: See teema selgitab, kuidas seadistada Euroopa riikide ja Saudi Araabia pöördkäibemaksu (KM).
 author: epodkolz
 manager: AnnBe
-ms.date: 07/16/2019
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,24 +11,25 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 530ff52abb1dd36c473ae436d61ea925c5696a30
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a58ae689a6185316854bf8f01d1237a487d3981
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183605"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760229"
 ---
 # <a name="reverse-charge-vat"></a>Pöördkäibemaks
 
-
 [!include [banner](../includes/banner.md)]
 
+Selles teemas kirjeldatakse üldist lähenemist Euroopa ja GCC riikide ning Singapuri pöördkäibemaksu (KM) seadistamisele.
 
-Selles teemas kirjeldatakse üldist lähenemist Euroopa riikide ja Saudi Araabia pöördkäibemaksu (KM) seadistamisele.
+> [!NOTE]                                                                                  
+> Bahreini, Kuveidi, Omaani ja Katari jaoks tuleks tööruumis **Funktsioonihaldus** lubada funktsioon **Pöördkäibemaksu kättesaadavus lisariikide korral**. 
 
 Pöördmaks on maksuskeem, mis viib käibemaksu arvestamise ja registreerimise kohustuse kaupade ja/või teenuste müüjalt ostjale. Seetõttu registreerivad kaupade ja/või teenuste saajad nii arvestatud käibemaksu (müüja rollis) kui ka sisendkäibemaksu (ostja rollis) oma käibemaksuaruandes.
 
@@ -85,7 +86,7 @@ Lehel **Pöördmaksu kaubagrupid** (**Maks** &gt; **Seadistus** &gt; **Käibemak
 Lehel **Pöördmaksu reeglid** (**Maks** &gt; **Seadistus** &gt; **Käibemaks** &gt; **Pöördmaksu reeglid**) saate määratleda rakendatavuse reeglid ostu ja müügi eesmärkidele. Saate konfigureerida pöördmaksu rakendatavuse reeglikogumi. Määrake igale reeglile järgmised väljad.
 
 - **Dokumendi tüüp** – valige **Ostutellimus**, **Hankija arve tööleht**, **Müügitellimus**, **Vabas vormis arve**, **Kliendi arve tööleht** ja/või **Hankija arve**.
-- **Partneri riigi/piirkonna tüüp** – valige **Kodumaine**, **EL** või **Välismaine**. Kui reeglit ei saa rakendada kõigile äripartneritele, olenemata nende aadressi riigist või piirkonnast, siis on teine võimalus valida **Kõik**.
+- **Partneri riigi/piirkonna tüüp** – valige **Kodumaine**, **EL**, **GCC** või **Välismaine**. Kui reeglit ei saa rakendada kõigile äripartneritele, olenemata nende aadressi riigist või piirkonnast, siis on teine võimalus valida **Kõik**.
 - **Riigisisene tarneaadress** – märkige see ruut reegli rakendamiseks tarnetele samas riigis või piirkonnas. Seda ruutu ei saa dokumenditüüpide **Hankija arve tööleht** ja **Kliendi arve tööleht** puhul valida.
 - **Pöördmaksu kaubagrupp** – valige grupp, millele reeglit saab rakendada.
 - **Lävisumma** – pöördmaksu skeem rakendatakse arvele ainult juhul, kui pöördmaksu kaubagrupis sisalduvate kaupade ja/või teenuste väärtus ületab siin määratud piirväärtuse.
@@ -98,13 +99,16 @@ Lisaks saate määrata, kas kuvatakse teade ja dokumendireale lisatakse pöördk
 - **Küsi** – kuvatakse teade, milles küsitakse kinnitust, kas pöördmaksu saab rakendada.
 - **Määra** – dokumendi rida uuendatakse täiendava teatiseta.
 
+## <a name="set-up-countryregion-properties"></a>Riigi/regiooni atribuutide häälestamine
+Seadke lehe **Väliskaubanduse parameetrid** (**Maks** &gt; **Häälestus** &gt; **Käibemaks** &gt; **Väliskaubandus** &gt; **Väliskaubanduse parameetrid**) vahekaardil **Riigi/regiooni atribuudid** praeguse juriidilise isiku riigi/regiooni väärtuseks *Kodumaine*. Määrake praeguse juriidilise isikuga ELi kaubanduses osalevate ELi **riikide/regioonide** riigi/regiooni tüübiks *EL*. Määrake praeguse juriidilise isikuga GCC kaubanduses osalevate GCC **riikide/regioonide** riigi/regiooni tüübiks *GCC*.
+
 ## <a name="set-up-default-parameters"></a>Vaikeparameetrite seadistamine
 Pöördkäibemaksu funktsiooni lubamiseks määrake lehel **Pearaamatu parameetrid** vahekaardil **Pöördmaks** suvandi **Luba pöördmaks** väärtuseks **Jah**. Valige väljadel **Ostutellimuse käibemaksugrupp** ja **Müügitellimuse maksugrupp** käibemaksu vaikegrupid. Kui pöördmaksu rakendatavuse tingimus on täidetud, lisatakse müügi- või ostutellimuse reale need käibemaksugrupid.
 
 ## <a name="reverse-charge-on-a-sales-invoice"></a>Pöördmaks müügiarvel
 Müügi korral pöördmaksu skeemi alusel ei küsi müüja käibemaksu. Selle asemel on arvel näidatud nii kaubad, millelt nõutakse pöördkäibemaksu, kui ka pöördkäibemaksu koondsumma.
 
-Kui sisestatakse pöördkäibemaksuga müügiarve, on müügikannetel maksusuund **Tasumisele kuuluv käibemaks** ja nullkäibemaks ning ruut **Pöördmaks** on märgitud.
+Kui sisestatakse pöördkäibemaksuga müügiarve, on müügikannetel maksusuund **Tasumisele kuuluv käibemaks** ja nullkäibemaks ning ruut **Pöördkäibemaks** ja **Vabastus** on märgitud.
 
 ## <a name="reverse-charge-on-a-purchase-invoice"></a>Pöördmaks ostuarvel
 Ostude korral pöördmaksu skeemi alusel tegutseb ostja, kes saab pöördmaksuga arve, käibemaksuarvestuse seisukohast ostja ja müüjana.

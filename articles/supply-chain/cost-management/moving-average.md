@@ -3,7 +3,7 @@ title: Liikuv keskmine
 description: Liikuv keskmine on pidev keskmise põhimõttel tuginev kuluarvestusmeetod, mille puhul ostuhinna muutumisel lao väljaminekute kulud ei muutu. Erinevus on kapitaliseeritud ja põhineb proportsionaalsel arvutusel. Ülejäänud summa kantakse kuludesse.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/25/2017
+ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,88 +19,129 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7069e0c25fd85cc1f5cc53e8e584179fb7f92c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 40cb135c285afb4466f36dbe637368829fec196f
+ms.sourcegitcommit: 097e92f4da7ed9c33f8eb0a7e09969260c399446
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214684"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763605"
 ---
 # <a name="moving-average"></a>Liikuv keskmine
 
 [!include [banner](../includes/banner.md)]
 
-Liikuv keskmine on pidev keskmise põhimõttel tuginev kuluarvestusmeetod, mille puhul ostuhinna muutumisel lao väljaminekute kulud ei muutu. Erinevus on kapitaliseeritud ja põhineb proportsionaalsel arvutusel. Ülejäänud summa kantakse kuludesse. 
+Liikuv keskmine on pidev keskmise põhimõttel tuginev kuluarvestusmeetod, mille puhul ostuhinna muutumisel lao väljaminekute kulud ei muutu. Erinevus on kapitaliseeritud ja põhineb proportsionaalsel arvutusel. Ülejäänud summa kantakse kuludesse.
 
 Kui kasutate liikuvat keskmist, ei toetata varude tasakaalustusi ega varude märkimist. Varude sulgemine ei mõjuta liikuval keskmisel põhineva laomudeligrupiga tooteid ja see ei loo kannete vahel tasakaalustusi.
 
 Allpool on toodud eeltingimused, kui kasutate kulumeetodina liikuvat keskmist kulu.
 
-1.  Seadistage lehel **Kauba mudelgrupid** kauba mudeligrupp, mille väljal **Laomudel** on valitud suvand Liikuv keskmine. **Märkus.** Kui valitud on suvand Liikuv keskmine, on vaikimisi valitud ka väljad **Sisesta füüsilised varud** ja **Sisesta finantsilised varud**. 
+1. Seadistage lehel **Kauba mudelgrupid** kauba mudeligrupp, mille väljal **Laomudel** on valitud suvand **Libisev keskmine**.
 
-2.  Määrake lehel **Sisestamine** vahekaardil **Varud** kontod suvandites **Liikuva keskmise hinnaerinevus** ja **Liikuva keskmise kulu ümberhindamine**. Kui kulu tuleb proportsionaalselt jaotada, kasutage kontot **Liikuva keskmise hinnaerinevus**. Selle põhjuseks on kulude erinevus ostu sissetuleku ja ostuarve vahel ning erinevus algse varude koguse ja praegu laos oleva koguse vahel. Kasutage kontot **Liikuva keskmise kulu ümberhindamine**, kui soovite korrigeerida toote liikuvat keskmist kulu uuele ühikuhinnale.
-3.  Määrake lehel **Väljastatud tooted** tootele liikuva keskmise kauba mudeligrupp. **Märkus.** Varude sulgemise protsess suleb ainult arvestusperioodi. See ei mõjuta tooteid, millele on määratud liikuv keskmine kauba mudeligrupina.
+    > [!NOTE]
+    > Kui valitud on suvand **Libisev keskmine**, on vaikimisi valitud ka väljad **Sisesta füüsilised varud** ja **Sisesta finantsilised varud**.
+
+1. Määrake lehel **Sisestamine** kontod suvandi **Libiseva keskmise hinnaerinevus** jaoks. Kui kulu tuleb proportsionaalselt jaotada, kasutage kontot **Libiseva keskmise hinnaerinevus**. See toimub järgmise kahe stsenaariumi korral.
+    - Esineb kulude erinevus ostu sissetuleku ja ostuarve vahel ning erinevus algse varude koguse ja praegu laos oleva koguse vahel.
+    - Kanded suurendavad lao negatiivse väärtuse nulliks ning kandekulu ja praeguse keskmise libiseva kulu väärtused erinevad.
+
+1. Määrake lehe **Sisestamine** vahekaardil **Varud** kontod suvandi **Libiseva keskmise kulu ümberarvutamine** jaoks. Kui soovite korrigeerida toote libisevat keskmist kulu uue ühiku hinnaga, kasutage kontot **Libiseva keskmise kulu ümberarvutamine**.
+
+1. Määrake lehel **Väljastatud tooted** tootele libiseva keskmise kauba mudeligrupp.
+
+    > [!NOTE]
+    > Varude sulgemise protsess suleb ainult arvestusperioodi. See ei mõjuta tooteid, millele on määratud liikuv keskmine kauba mudeligrupina.
 
 ## <a name="convert-to-the-moving-average-costing-method"></a>Liikuva keskmise kuluarvestusmeetodile teisendamine
-Tooteid saab teisendada liikuva keskmise varude hinnamääramise meetodi kasutamiseks. Seda tüüpi teisendamist tehakse tavaliselt aasta lõpus pärast praeguse aasta viimase kuu sulgemist. Seda tehakse toote praegust kuluarvutusmudelit kasutades. Saate muuta oma varude kuluarvestusmeetodi keskmisel kulul või standardkulul põhinevalt kuluarvutusmeetodilt liikuval keskmisel põhinevale meetodile. 
+
+Tooteid saab teisendada liikuva keskmise varude hinnamääramise meetodi kasutamiseks. Seda tüüpi teisendamist tehakse tavaliselt aasta lõpus pärast praeguse aasta viimase kuu sulgemist. Seda tehakse toote praegust kuluarvutusmudelit kasutades. Saate muuta oma varude kuluarvestusmeetodi keskmisel kulul või standardkulul põhinevalt kuluarvutusmeetodilt liikuval keskmisel põhinevale meetodile.
 
 Kui muudate oma kuluarvestusmeetodi standardselt kuluarvutusmeetodilt liikuva keskmise meetodile, peate täitma järgmised ülesanded.
 
-1.  Varude koguste ja väärtuste korrigeerimine nulli (0).
-2.  Kui varude väärtus ja kogus on null (0), muutke kauba mudeligrupp liikuvale keskmisele.
-3.  Korrigeerige kogus ja väärtus tagasi varudesse.
+1. Varude koguste ja väärtuste korrigeerimine nulli (0).
+1. Kui varude väärtus ja kogus on null (0), muutke kauba mudeligrupp liikuvale keskmisele.
+1. Korrigeerige kogus ja väärtus tagasi varudesse.
 
 Varude kuluarvutusmeetodit ei saa muuta liikuva keskmise meetodilt FIFO-meetodile, LIFO-meetodile ega kaalutud keskmise meetodile.
 
-**Märkus.** Teisendamine standardkulult liikuvale kaalutud keskmisele on käsitsi protsess.
+> [!NOTE]
+> Teisendamine standardkulult libisevale kaalutud keskmisele on käsitsi protsess.
 
 Järgmised näited selgitavad liikuva keskmise kuluarvutusmeetodi kasutamise mõju. Konfiguratsioone on neli.
--   Ostutellimuse ja proportsionaalselt jaotatud kulu erinevus
--   Liikuva keskmise toote ja varude korrrigeerimine
--   Liikuv keskmine koos tootmisega
--   Liikuva keskmise tagasiulatuva kandega
+
+- Ostutellimuse ja proportsionaalselt jaotatud kulu erinevus
+- Liikuva keskmise toote ja varude korrrigeerimine
+- Liikuv keskmine koos tootmisega
+- Liikuva keskmise tagasiulatuva kandega
 
 ## <a name="purchase-order-and-proportionally-expensed-cost-difference"></a>Ostutellimuse ja proportsionaalselt jaotatud kulu erinevus
-Liikuva keskmisega määrab toote kulu ostu sissetulek. Kui pärast ostuarve sisestamist on ostu sissetuleku ja ostuarve kulud erinevad, korrigeeritakse erinevust proportsionaalselt praegu laos olevate toodetega ja kogu ülejäänud summa kajastatakse kuluna. 
+
+Liikuva keskmisega määrab toote kulu ostu sissetulek. Kui pärast ostuarve sisestamist on ostu sissetuleku ja ostuarve kulud erinevad, korrigeeritakse erinevust proportsionaalselt praegu laos olevate toodetega ja kogu ülejäänud summa kajastatakse kuluna.
 
 Selles näites luuakse ja võetakse ostutellimus vastu ühe kuluga ning ostuarve sisestatakse teise kuluga.
 
-1.  Looge ostutellimus kogusele 2 ühikuhinnaga 10,00.
-2.  Looge toote ostu sissetulek.
-3.  Looge müügitellimus kogusele 1 ühikuhinnaga 10,00.
-4.  Looge ostuarve kogusele 2 ühikuhinnaga 12,00.
+1. Looge ostutellimus kogusele 2 ühikuhinnaga 10,00.
+1. Looge toote ostu sissetulek.
+1. Looge müügitellimus kogusele 1 ühikuhinnaga 10,00.
+1. Looge ostuarve kogusele 2 ühikuhinnaga 12,00.
 
 Erinevus ühikuhinnas (2,00) sisestatakse ostuarve sisestamisel kontole Liikuva keskmise hinnaerinevus. Selle põhjus on, et tooted osteti hinnaga 20,00. Üks toode müüdi ühikuhinnaga 10,00. Ostuarve sisestati ühikuhinnaga 12.00 ja kogusega 2. Toote ühikuhinnana ei saa sisestada 14.00.
 
 ## <a name="moving-average-product-and-inventory-adjustment"></a>Liikuva keskmise toote ja varude korrrigeerimine
-Kui teil on vaja korrigeerida toote liikuva keskmise kulu, on varude korrigeerimised lubatud alates tänasest kuupäevast. Toote liikuva keskmise korrigeerimiseks ei saa varude korrigeerimist teha tagasiulatuvalt. Kuluvoogu ei saa olla järjestikuste kannete kaudu. 
+
+Kui teil on vaja korrigeerida toote liikuva keskmise kulu, on varude korrigeerimised lubatud alates tänasest kuupäevast. Toote liikuva keskmise korrigeerimiseks ei saa varude korrigeerimist teha tagasiulatuvalt. Kuluvoogu ei saa olla järjestikuste kannete kaudu.
 
 Selles näites korrigeeritakse toote liikuva keskmise kulu.
 
-1.  Valige toode, mille puhul soovite liikuva keskmise kulu korrigeerida. **Märkus.** Lehel **Liikuva keskmise ümberhindamine** analüüsitakse toote jaoks saadaolevaid varusid. Valitud toote sisestatud kogus on 1, sisestatud väärtus 12,00, sisestatud ühikuhind 12,00 ja ühikuhind 12,00.
-2.  Määrake välja **Ühikuhind** väärtuseks 16,00. Süsteem arvutab ülejäänud väljad.
-3.  Korrektsioon on sisestatud.
+1. Valige toode, mille puhul soovite liikuva keskmise kulu korrigeerida. 
 
-**Märkus.** Saate korrigeerida ainult liikuva keskmise kulu alates tänasest kuupäevast.
+ > [!NOTE]
+ > Lehel **Libiseva keskmise ümberhindamine** analüüsitakse toote jaoks saadaolevaid varusid. Valitud toote sisestatud kogus on 1, sisestatud väärtus 12,00, sisestatud ühikuhind 12,00 ja ühikuhind 12,00.
+    
+1. Määrake välja **Ühikuhind** väärtuseks 16,00. Süsteem arvutab ülejäänud väljad.
+1. Korrektsioon on sisestatud.
 
-Lehel **Kande tasakaalustamised** näete korrektsiooni 4,00 kontol Liikuva keskmise kulu ümberarvutamine.
+> [!NOTE]
+> Saate korrigeerida ainult libiseva keskmise kulu alates tänasest kuupäevast.
+
+Lehel **Kande tasakaalustamised** näete korrektsiooni 4,00 kontol Libiseva keskmise kulu ümberarvutamine.
 
 ## <a name="moving-average-with-production"></a>Liikuv keskmine koos tootmisega
-Liikuv keskmine toetab toodetud kaupu. Kui kavatsete kasutada liikuvat keskmist tootmiskeskkonnas, tuleb valida lehel **Tootmise juhtimise parameetrid** liugur **Kasuta eeldatavat omahinda**. See tähendab, et tegeliku koosluse arvutuse omahinna asemel kasutatakse hindamise ajal arvutatud omahinda.
+
+Liikuv keskmine toetab toodetud kaupu. Kui kavatsete kasutada libisevat keskmist tootmiskeskkonnas, tuleb valida lehel **Tootmise juhtimise parameetrid** liugur **Kasuta eeldatavat omahinda**. See tähendab, et tegeliku koosluse arvutuse omahinna asemel kasutatakse hindamise ajal arvutatud omahinda.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Liikuva keskmise tagasiulatuva kandega
+
 Tagasiulatuvad kanded määratakse praegusele liikuva keskmise kulule ja toote füüsilist kogust värskendatakse, kuid toote liikuva keskmise kulu see ei mõjuta. Selles liikuva keskmise näites sisestatakse liikuva keskmise toote tagasiulatuv kanne.
 
-1.  Looge liikuva keskmise toote varude korrektsioon koguse 1 ja kulu 20,00 puhul.
-2.  Toote varude kannete ajalugu sarnaneb järgmisele.
-    -   Laokanne 1, hind 16,00, sisestuskuupäev 15. jaanuar ja kande kuupäev 15. jaanuar.
-    -   Varude korrigeerimine 1, hind 20,00, sisestuskuupäev 1. jaanuar ja kande kuupäev 15. jaanuar.
-3.  Sisestage korrigeerimine.
+1. Looge liikuva keskmise toote varude korrektsioon koguse 1 ja kulu 20,00 puhul.
+1. Toote varude kannete ajalugu sarnaneb järgmisele.
+    - Laokanne 1, hind 16,00, sisestuskuupäev 15. jaanuar ja kande kuupäev 15. jaanuar.
+    - Varude korrigeerimine 1, hind 20,00, sisestuskuupäev 1. jaanuar ja kande kuupäev 15. jaanuar.
+1. Sisestage korrigeerimine.
 
-Lehel **Laokanded** näete, et kulutatud on 4,00, kuna toote praegune liikuv keskmine on 16,00. Saate sisestada minevikku, kuid kuluerinevus kantakse kuludesse, seega liikuva keskmise kulu see ei mõjuta.
+Lehel **Laokanded** näete, et kulutatud on 4,00, kuna toote praegune libisev keskmine on 16,00. Saate sisestada minevikku, kuid kuluerinevus kantakse kuludesse, seega liikuva keskmise kulu see ei mõjuta.
+
+## <a name="negative-inventory-balances"></a>Negatiivsed varu saldod
+
+Kandeid käsitletakse erinevalt sõltuvalt sellest, kas uus laos olev kogus pärast kannet on negatiivne, null või positiivne.
+
+### <a name="new-balance-is-negative-or-zero"></a>Uus saldo on negatiivne või null
+
+Kui uus laos olev kogus on negatiivne või null, arvutatakse kanne praeguste keskmiste kulude alusel. Kui ostuhinna ja praeguste keskmiste kulude vahel on erinevus, sisestatakse see väljale **Libiseva keskmise hinnaerinevus**.
+
+### <a name="new-balance-is-positive"></a>Uus saldo on positiivne
+
+Kui uus laos olev kogus on pärast kannet positiivne, tükeldatakse kanne kaheks osaks ja arvutatakse erinevalt, nagu on kokku võetud järgmises tabelis.
+
+| Osa | Kirjeldus |
+|---|---|
+| Kogus negatiivsest nulli | Laoseis kasutab kauba praegust libisevat keskmist kulu, mitte sissetuleku koguse selle osa kandekulu, mis suurendab vaba saldot negatiivsest nulliks. Kandekulu ja praeguse keskmise libiseva kulu vaheline erinevus sisestatakse väljale **Libiseva keskmise hinnaerinevus**. |
+| Kogus nullist positiivseks | Laoseis kasutab sissetuleku koguse selle osa kandekulu, mis suurendab vaba saldot nullist positiivseks.                                                  |
 
 ## <a name="inventory-value-report"></a>Laoväärtuse aruanne
-Selles liikuva keskmise näites prinditakse varude väärtuse aruanne, et toetada toote praeguse liikuva keskmise arvutamist. Varude väärtuse aruande saate printida kannete kronoloogilises järjestuses koos kuluga, et toetada toote liikuva keskmise kulu arvutamist. Aruandes kuvatakse toote liikuv keskmine kulu. Dialoogiboksis **Varude väärtuse aruanded** võimaldab kuupäevaintervall valida teil aruande sortimise aluseks **Kande kellaaeg** või **Sisestuskuupäev**. Suvand **Sisestuskuupäev** näitab aruande tavalist printimisviisi. Suvand **Kande kellaaeg** on tegelik kuupäev, millal kandest teatatakse ja toote liikuva keskmise kulu värskendatakse. Saate varude väärtuse aruande printida, kasutades suvandit**Kande kellaaja järgi sortimine**, kui soovite näha liikuva keskmise kulu arvutamist aja lõikes. Järgmises tabelis kuvatakse toote kanded, mille kohta aruanne prinditakse, kui kasutatakse suvandit **Kande kellaaja järgi sortimine**.
+
+Selles liikuva keskmise näites prinditakse varude väärtuse aruanne, et toetada toote praeguse liikuva keskmise arvutamist. Varude väärtuse aruande saate printida kannete kronoloogilises järjestuses koos kuluga, et toetada toote liikuva keskmise kulu arvutamist. Aruandes kuvatakse toote liikuv keskmine kulu. Dialoogiboksis **Varude väärtuse aruanded** võimaldab kuupäevaintervall valida teil aruande sortimise aluseks suvandi **Kande kellaaeg** või **Sisestuskuupäev**. Suvand **Sisestuskuupäev** näitab aruande tavalist printimisviisi. Suvand **Kande kellaaeg** on tegelik kuupäev, millal kandest teatatakse ja toote liikuva keskmise kulu värskendatakse. Saate varude väärtuse aruande printida, kasutades suvandit**Kande kellaaja järgi sortimine**, kui soovite näha liikuva keskmise kulu arvutamist aja lõikes. Järgmises tabelis kuvatakse toote kanded, mille kohta aruanne prinditakse, kui kasutatakse suvandit **Kande kellaaja järgi sortimine**.
 
 | Kande aeg | Kuupäev         | Kande tüüp           | Kogus | Summa | Keskmine ühikukulu |
 |------------------|--------------|----------------------------|----------|--------|-------------------|
@@ -109,12 +150,8 @@ Selles liikuva keskmise näites prinditakse varude väärtuse aruanne, et toetad
 | 3. oktoober        | 3. oktoober    | Ostu sissetulek           | 2        | 20,00  | 12.00             |
 | 5. oktoober        | 5. oktoober    | Müügitellimus                | –1       | -10,00 | 13.00             |
 | 7. oktoober        | 7. oktoober    | Ostuarve           |          | 2.00   | 14.00             |
-| 8. oktoober        | 8. oktoober    | Liikuva keskmise ümberhindamine |          | 4,00   | 16.00             |
+| 8. oktoober        | 8. oktoober    | Liikuva keskmise ümberhindamine |          | 4.00   | 16.00             |
 |                  | 31. oktoober   | Kokku                      | 2        | 32.00  | 16.00             |
 
- **Märkus.** Pearaamatut ei saa varudega vastavusse viia, kasutades suvandit **Kande kellaaja järgi sortimine**. Aruanne tuleb printida, kasutades suvandit **Sisestuskuupäev**.
-
-
-
-
-
+> [!NOTE]
+> Pearaamatut ei saa varudega vastavusse viia, kasutades suvandit **Kande kellaaja järgi sortimine**. Aruanne tuleb printida, kasutades suvandit **Sisestuskuupäev**.

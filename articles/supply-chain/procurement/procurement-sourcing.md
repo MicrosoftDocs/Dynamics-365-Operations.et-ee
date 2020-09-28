@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209210"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813830"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Hangete avaleht
 
@@ -55,7 +55,7 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 -   [Hankija koostöö klientidega](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md)
 -   [Hankija koostöö seadistamine ja haldamine](set-up-maintain-vendor-collaboration.md)
--   [Sissetulevate veoste varude demoskript rakendusele Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tehniline ülevaade)
+-   [Sissetulevate veoste varude demoskript rakendusele Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(tehniline ülevaade)
 -   [Veose varude jälgimine hankija koostöö abil](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Hankijatega koostöö tegemine Hankija portaali kasutade](collaborate-vendors-vendor-portal.md) (ainult Dynamics AX-i 2016. aasta veebruari ja 2016. aasta mai versioonid)
 -   [Hankija portaali kasutaja turvalisus](configure-security-vendor-portal-users.md) (ainult Finance and Operationsi 2016. aasta veebruari ja 2016. aasta mai versioonid)
@@ -98,7 +98,7 @@ Hanked katavad kõiki etappe alates toote ja teenuste vajaduse tuvastamisest kun
 -   [Hangete töövood](procurement-sourcing-workflows.md)
 -   [Kaupade vastuvõtu registreerimine ostutellimusel](tasks/record-receipt-goods-purchase-order.md)
 -   [Ostutaotluse töövoog](purchase-requisitions-workflow.md)
--   [Äriprotsessi töövoogude määratlemine ostutaotluste jaoks](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (valge raamat)
+-   [Äriprotsessi töövoogude määratlemine ostutaotluste jaoks](https://www.microsoft.com/download/details.aspx?id=101821) (valge raamat)
 -   [Ostupoliitikate ülevaade](purchase-policies.md)
 -   [Ostupoliitikate loomine](tasks/create-purchasing-policies.md)
 

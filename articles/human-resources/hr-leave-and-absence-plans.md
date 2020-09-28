@@ -3,7 +3,7 @@ title: Puhkuse ja puudumise plaani loomine
 description: Looge rakenduses Dynamics 365 Human Resources erinevat tüüpi puhkuste jaoks puhkuseplaane.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 75a70c5784e7032cfebbe58c1d173923a3023507
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428705"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796493"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Puhkuse ja puudumise plaani loomine
 
@@ -43,7 +43,15 @@ Saate luua ka ametikohal põhinevaid puhkuse soodustusi, nt ainult juhtivtööta
 
 2. Jaotises **Üksikasjad** sisestage oma plaani jaoks suvandid **Nimi**, **Alguskuupäev**, **Kirjeldus** ja **Puhkuse tüüp**.
 
-Kui funktsioon **Mitme puhkuse tüübi konfigureerimine ühe puhkuse ja puudumise plaani jaoks** on lubatud, konfigureeritakse puhkuse tüübid jaotises **Lisandumise graafik**, mitte jaotises **Üksikasjad**. Iga lisandumisgraafiku tabeli kirjes saate määratleda puhkuse tüübi.
+Kui funktsioon **Mitme puhkuse tüübi konfigureerimine ühe puhkuse ja puudumise plaani jaoks** on lubatud, konfigureeritakse puhkuse tüübid jaotises **Lisandumise graafik**, mitte jaotises **Üksikasjad**. Iga lisandumisgraafiku tabeli kirjes saate määratleda puhkuse tüübi. Kui see funktsioon on lubatud, peate kasutama uusi andmeüksusi integreerimiseks või muude stsenaariumide jaoks, mille korral kasutatakse üksuseid. 
+
+Uued üksused on järgmised.
+
+- Puhkuste ja puudumise panga kanne V2
+- Puhkuse ja puudumise registreerimine V2
+- Puhkuse ja puudumise plaani järk V2
+- Puhkuse ja puudumise plaan V2
+- Puhkusetaotlus V2
 
  > [!IMPORTANT]
    > Pärast selle funktsiooni lubamist ei saa seda välja lülitada.

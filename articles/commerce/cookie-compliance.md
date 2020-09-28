@@ -3,7 +3,7 @@ title: Küpsise vastavus
 description: Selles teemas kirjeldatakse küpsise vastavuse ja Microsoft Dynamics 365 Commerce'is sisalduva vaikepoliitika kaalutlusi.
 author: BrianShook
 manager: annbe
-ms.date: 06/12/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1fa016dc9f46b048220f0f83e4b0783087de91e
-ms.sourcegitcommit: c66c4c67a21e7d7d3a94a3fd766c3184b6e65c4e
+ms.openlocfilehash: 4f54b9b8130a167dbecdb13fccd7039f827f6ed0
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3446909"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761317"
 ---
 # <a name="cookie-compliance"></a>Küpsise vastavus
 
@@ -56,6 +56,10 @@ Järgmises tabelis on toodud Dynamics 365 Commerce'i saitide asetatud küpsiste 
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Kasutatakse SSO seansi haldamiseks.                        |
 | x-ms-cpim-trans                             | Kasutatakse toimingute, sealhulgas praeguse toimingu, jälgimiseks (avatud vahekaartide arv, mis autendivad ettevõtte ja tarbija vahelist (B2C) saiti). |
 
+## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Saidi kasutaja küpsise nõusolek e-kaubanduse saidil 
+
+Kui e-kaubanduse saidi funktsioon või moodul kasutab ebaolulist küpsist, tuleb enne küpsise jälitamist hankida saidi kasutaja nõusolek. Selleks et saidi kasutajad saaksid e-kaubanduse saidil anda küpsise nõusoleku, peab saidi autor lisama ja konfigureerima lehe päisemoodulisse küpsistega nõustumise mooduli, et tagada nõusoleku küsimine ja vastuvõtmine. Saidi kasutaja peab andma nõusoleku, et saidi lehel oleks võimalik renderdada ebaolulist küpsist kasutavat funktsiooni või moodulit.
+
 ## <a name="additional-resources"></a>Lisaressursid
 
 [Hõlbustusfunktsioonid ja -võimalused](accessibility.md)
@@ -65,3 +69,7 @@ Järgmises tabelis on toodud Dynamics 365 Commerce'i saitide asetatud küpsiste 
 [Privaatsuspoliitika lehe lisamine](add-privacy-page.md)
 
 [Jälgitud sisumuudatustega seostatud kasutaja ID-de asendamine](replace-IDs-tracked-changes.md)
+
+[Küpsistega nõustumise moodul](cookie-consent-module.md) 
+ 
+[Päisemoodul](author-header-module.md)

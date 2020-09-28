@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdc3fe95ec0917c09128997e254f29ce863dcc38
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208013"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803159"
 ---
 # <a name="purchase-agreements"></a>Ostulepingud
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Selles artiklis antakse teavet ostulepingute kohta. Ostuleping on leping, mis kohustab organisatsiooni ostma konkreetset kogust või kindlat summat, kasutades aja jooksul mitut ostutellimust. Selle kohustuse täitmise eest saab ostja erihindu ja allahindlusi. 
 
@@ -42,8 +41,13 @@ Ostulepingu kasutamise ja kinnitamise vältimiseks märkige lepingu olekuks **Su
 
 ## <a name="responsible-workers-on-purchase-agreements"></a>Vastutavad töötajad ostulepingutel
 
-Saate tuvastada ostulepingu klassifikatsioonis peamise vastutava töötaja ja teisese vastutava töötaja. Need väärtused rakendatakse tulemiks saadud ostulepingus. Te ei pea vastutavaid töötajaid ostulepingusse lisama ja neid on võimalik ostulepingus endas juhtumipõhiselt muuta. Te ei saa määrata teisest vastutavat töötajat ilma esmase vastutava töötaja määramiseta, ehkki teil ei pea olema teisest vastutavat töötajat. Te ei saa määrata sama töötajat nii esmaseks kui ka teiseseks vastutavaks töötajaks. 
+Saate tuvastada ostulepingu klassifikatsioonis peamise vastutava töötaja ja teisese vastutava töötaja. Need väärtused rakendatakse tulemiks saadud ostulepingus. Te ei pea vastutavaid töötajaid ostulepingusse lisama ja neid on võimalik ostulepingus endas juhtumipõhiselt muuta. Te ei saa määrata teisest vastutavat töötajat ilma esmase vastutava töötaja määramiseta, ehkki teil ei pea olema teisest vastutavat töötajat. Te ei saa määrata sama töötajat nii esmaseks kui ka teiseseks vastutavaks töötajaks.
 
+> [!IMPORTANT]
+> Enne vastutava isiku funktsiooni kasutamist peate selle oma süsteemis sisse lülitama. Administraatorid saavad kasutada [funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sätteid, et kontrollida funktsiooni olekut ja selle sisse lülitada. Tööruumis **Funktsioonihaldus** loetletakse funktsiooni järgneval viisil.
+> 
+> - **Moodul:** *hanked*
+> - **Funktsiooni nimi:** *ostulepingu vastutav isik*
 
 ## <a name="commitment-types"></a>Kohustuse tüübid
 Iga ostulepingu rida on kohustus midagi osta. Kohustuse täitmiseks saate kasutada mitme ostutellimuse (PO) ridu. On nelja tüüpi kohustusi.

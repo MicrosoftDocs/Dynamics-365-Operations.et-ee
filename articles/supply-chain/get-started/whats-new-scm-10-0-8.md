@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 7dfa6353653c41330dba179331ccbd2373aef774
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
+ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651953"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3801454"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Mis on uut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.8. (veebruar 2020)
 
@@ -41,10 +41,10 @@ See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingit
 - [Täiendav asukohatsoon](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 - [Varahaldus](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Lisateabe saamiseks vt [Varahalduse ülevaade](../asset-management/index.md).
 - [Tühista töö](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Lisateabe saamiseks vt [Erandite töötlemise laotöö tühistamine](../warehousing/cancel-warehouse-work.md).
-- [Muuda töö töökausta](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
-- [Kogumi positsioon on täis](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)
-- [Kinnitamine ja üleviimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)
-- [Asukohakorralduse varude komplekteerimise ajaline jaotus](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)
+- [Muuda töö töökausta](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Lisateavet vt teemast [Muuda töö töökausta](../warehousing/change-work-pool-on-work.md).
+- [Kogumi positsioon on täis](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) - Lisateabe saamiseks vt teemat [Kogumi positsioon on täis](../warehousing/cluster-position-full.md).
+- [Kinnitamine ja üleviimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Lisateavet vt teemast [Kinnitamine ja üleviimine](../warehousing/confirm-and-transfer.md).
+- [Asukohakorralduse varude komplekteerimise ajaline jaotus](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Lisateavet vt teemast [Asukohakorralduse varude komplekteerimise ajaline jaotus](../warehousing/location-directive-inventory-picking-aging.md).
 - [Asukoha olek](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
 - [Komplekteerimisridade grupeerimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - Lisateabe saamiseks vt [Komplekteerimisridade grupeerimine](../warehousing/pick-line-grouping.md).
 - [Saadetise automaatvärskendused](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Lisateabe saamiseks vt [Saadetise automaatvärskendused](../warehousing/auto-update-shipment.md).
@@ -54,9 +54,9 @@ See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingit
 - [Lao rakenduse ülesande kinnitamine RSAT-iga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [Lattu väljastamise reegel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [Voo oleku visualiseerimine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
-- [Voomalli rühmitamine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)
-- [Töörea üksikasjad](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Lisateabe saamiseks vt videot [Töörea üksikasjad](https://www.microsoft.com/videoplayer/embed/RE4fcYN).
-- [Tsooniläve täiendamine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)
+- [Voomalli rühmitamine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - Lisateavet vt teemast [Voomalli rühmitamine](../warehousing/wave-template-grouping.md).
+- [Töörea üksikasjad](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Lisateavet vt teemast [Töörea üksikasjad](../warehousing/work-line-details.md) ja videost [Töörea üksikasjad](https://www.microsoft.com/videoplayer/embed/RE4fcYN).
+- [Tsooniläve täiendamine](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - Lisateavet vt teemast [Tsooniläve täiendamine](../warehousing/zone-threshold-replenishment.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
 
