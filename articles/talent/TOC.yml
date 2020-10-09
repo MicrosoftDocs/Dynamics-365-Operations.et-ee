@@ -150,7 +150,7 @@
           href: modular-app-tech-faq.md
         - name: Andmete eksportimine Attractist ja Onboardist
           href: attract-onboard-export-data.md
-        - name: Manusta Microsoft Power Apps
+        - name: Power Appsist lõuendirakenduste manustamine
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Talenti toe hankimine
           href: talent-support.md
@@ -250,5 +250,7 @@
           href: attract-troubleshoot-linkedin.md
         - name: 'Kasutaja pääseb ligi Human Resourcesile, aga mitte rakendusele Onboard või Attract'
           href: user-access-core-hr.md
-        - name: Azure Active Directory kasutajaid ei leitud inimeste valijast
+        - name: Azure Active Directory kasutajaid ei leitud inimestevalijast
           href: people-picker-user-not-found.md
+        - name: Attracti kasutajad ei saa karjääriportaalis töökohtadele kandideerida
+          href: attract-troubleshoot-career-portal.md

@@ -158,9 +158,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kohandatud väljade loomine ja nendega töötamine
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Manusta Microsoft Power Apps
+                - name: Power Appsist lõuendirakenduste manustamine
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Teabe leidmiseks otsingute abil
+                - name: Teabe leidmine otsingute abil
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Seansi kuupäeva muutmine
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/supply-chain/toc.json
@@ -1655,6 +1655,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: Hangete töövoog
               href: procurement/procurement-sourcing-workflows.md
+            - name: Hangete töövoogude tõrkeotsing
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Hankekataloogid
               items:
                 - name: Hankekataloogide ülevaade
@@ -1695,6 +1697,8 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: Kaupade vastuvõtu registreerimine ostutellimusel
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Ostutellimuste tõrkeotsing
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Ostutellimuse loomine
               items:
                 - name: Ostutellimuste loomine käsitsi
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: Hankija tagasimaksed
                   href: procurement/vendor-rebates.md
+                - name: 'Hindade, allahindluste, lepingute ja tagasimaksete tõrkeotsing'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Ostupoliitikad
               items:
                 - name: Ostupoliitikate ülevaade
@@ -1739,9 +1745,11 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Hankija arvete ülevaade
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Toote sissetulekute ja arvelduse tõrkeotsing
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Hankija haldus ja koostöö
               items:
-                - name: Hankija koostöö häälestus ja haldamine
+                - name: Hankija koostöö seadistamine ja haldamine
                   href: procurement/set-up-maintain-vendor-collaboration.md
                 - name: Hankija koostöö kasutajate haldamine
                   href: procurement/manage-vendor-collaboration-users.md
@@ -1763,8 +1771,10 @@
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
                 - name: Hankija kataloogide importimine
                   href: procurement/vendor-catalogs-import.md
-                - name: Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
+                - name: Väliskataloogi seadistamine e-hanke väljaregistreerimiseks
                   href: procurement/set-up-external-catalog-for-punchout.md
+                - name: cXML-i täiustuste ostmine
+                  href: procurement/purchasing-cxml-enhancements.md
                 - name: Väliskataloogide kasutamine e-hanke väljaregistreerimiseks
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: Hankija koostöö mobiilne tööruum
@@ -2261,6 +2271,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Müügitellimuste kinnitamine
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: Müügitellimuste tõrkeotsing
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Müügilepingud
               items:
                 - name: Müügilepingute ülevaade
@@ -2283,6 +2295,8 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Müügipakkumiste loomine ja redigeerimine
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: Müügipakkumiste tõrkeotsing
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Tagastused
               items:
                 - name: Müügitagastused
@@ -2807,19 +2821,21 @@
                   items:
                     - name: Laorakenduse installimine ja ühendamine
                       href: warehousing/install-configure-warehousing-app.md
-                    - name: Väljanimede konfigureerimine laorakenduses
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Mobiilsete seadmete häälestus laotöö jaoks
-                      href: warehousing/configure-mobile-devices-warehouse.md
                     - name: Vöötkoodide skannimine kaamera abil laorakenduses
                       href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Väljanimede konfigureerimine laorakenduses
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Mobiilsete seadmete seadistamine laotöö jaoks
+                      href: warehousing/configure-mobile-devices-warehouse.md
                     - name: Identifitseerimisnumbri vastuvõtmine lao rakendusega
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Mobiilse seadme menüükäsu häälestus ostutellimuse töö lõpetamiseks
+                    - name: Mobiilse seadme menüükäsu seadistamine ostutellimuse töö lõpetamiseks
                       href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: Mobiilse seadme menüükäsu häälestus saabunud kaupade registreerimiseks
+                    - name: Mobiilse seadme menüükäsu seadistamine saabunud kaupade registreerimiseks
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: Mobiilse seadme menüükäsu loomine registreerimismärgi konsolideerimiseks
+                    - name: Mobiilse seadme menüükäsu seadistamine komplekteerimisrea kohta ülevaate andmiseks
+                      href: warehousing/pick-line-overview.md
+                    - name: Mobiilse seadme menüükäsu loomine litsentsiplaadi konsolideerimiseks
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: Kombineeritud litsentsiplaadi vastuvõtt mobiilsesse seadmesse
                       href: warehousing/mixed-license-plate-receiving.md

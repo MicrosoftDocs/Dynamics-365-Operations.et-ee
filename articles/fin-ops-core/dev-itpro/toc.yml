@@ -86,6 +86,8 @@
               href: data-entities/integration-overview.md
             - name: Prioriteedil põhinev ahendamine
               hreF: data-entities/priority-based-throttling.md
+            - name: Prioriteedil põhineva ahendamise KKK
+              href: data-entities/throttling-faq.md
             - name: Andmete integratsiooni API-d
               items:
                 - name: Andmehalduse paketi REST API
@@ -154,11 +156,13 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: Valuuta andmetüübi migratsioon topeltkirjutamise jaoks
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: Müügitellimuse olekuväljade vastendamise seadistamine
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: Topeltkirjutamise haldamine
                           items:
                             - name: Üksuse- ja väljavastenduste kohandamine
                               href: data-entities/dual-write/customizing-mappings.md
-                            - name: Mitme üksuse kaartide käsitlemine
+                            - name: Mitme üksusevastenduse käsitsemine
                               href: data-entities/dual-write/multiple-entity-maps.md
                             - name: Juriidilise isiku redigeerimine pärast topeltkirjutamise seadistamist
                               href: data-entities/dual-write/edit-legal-entity.md
@@ -518,11 +522,11 @@
                       href: deployment/redeploy-on-prem.md
                     - name: 'AOS-i sõlme eemaldamine, uuesti installimine või lisamine'
                       href: deployment/onprem-remove-reinstall-AOS-node.md
-                    - name: Mitme keskkonna puhul sama AD FS-i eksemplari korduvkasutamine
+                    - name: Mitme keskkonna puhul sama AD FS-i eksemplari korduv kasutamine
                       href: deployment/onprem-reuseadfs.md
                 - name: Kohalik esindaja
                   items:
-                    - name: AD FS Office 365-ga ühilduvus
+                    - name: AD FS Microsoft 365 ühilduvus
                       href: deployment/onprem-adfscompatibility.md
                     - name: Kohaliku esindaja eeljuurutuse ja järeljuurutuse skriptid
                       href: lifecycle-services/pre-post-scripts.md
@@ -626,11 +630,9 @@
                   href: dev-tools/development-tools-overview.md
                 - name: Arendustööriistade õpik
                   href: dev-tools/introduction-visual-studio.md
-                - name: Rakendusekontroll
-                  items:
-                    - name: BaseX-i installimine rakendusekontrolli jaoks
-                      href: dev-tools/install-basex.md
-                - name: Application Explorer
+                - name: Rakendusekontrollija
+                  href: dev-tools/application-checker.md
+                - name: Rakenduseuurija
                   href: dev-tools/application-explorer.md
                 - name: Projektide koostamine ja silumine
                   href: dev-tools/build-debug-project.md
@@ -1368,7 +1370,25 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: ValueMetadata tüüp
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-        - name: Regression suite automation tool
+        - name: Protsesside automatiseerimise raamistik
+          items:
+            - name: Protsesside automatiseerimise raamistiku arendamine
+              href: process-automation/process-automation-framework.md
+            - name: Tüübi registreerimine
+              href: process-automation/type-registration.md
+            - name: Seeria registreerimine
+              href: process-automation/series-registration.md
+            - name: Protsessi parameetrid
+              href: process-automation/process-parameters.md
+            - name: Kasutaja-konfigureeritavad päringud
+              href: process-automation/user-queries.md
+            - name: Protsessi käitamine
+              href: process-automation/run-process.md
+            - name: Logi tulemused ja teated
+              href: process-automation/log-results.md
+            - name: Kasutajaliidese kohandamine
+              href: process-automation/ui-customization.md
+        - name: Regression Suite Automation Tool
           items:
             - name: Regression Suite Automation Tooli ülevaade
               href: perf-test/rsat/rsat-overview.md
@@ -1395,7 +1415,7 @@
             - name: Arendamine ja väljastamine
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: Ajastamine ja avaldamine
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: Metoodikate lisamine
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: Äriprotsesside modelleerija teekide häälestus

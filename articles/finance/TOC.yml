@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (august 2020)
                       href: get-started/whats-new-changed-10-0-12.md
-                    - name: Finance 10.0.11 (juuli 2020)
-                      href: get-started/whats-new-changed-10-0-11.md
             - name: Eemaldatud või iganenud funktsioonid
               items:
                 - name: Dynamics 365 Finance'i eemaldatud või iganenud funktsioonid
@@ -160,9 +158,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Kohandatud väljade loomine ja nendega töötamine
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Manusta Microsoft Power Apps
+                - name: Power Appsist lõuendirakenduste manustamine
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
-                - name: Teabe leidmiseks otsingute abil
+                - name: Teabe leidmine otsingute abil
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
                 - name: Seansi kuupäeva muutmine
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/finance/toc.json
@@ -1228,6 +1226,22 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Regulatiivsed värskendused
               href: localizations/regulatory-updates.md
+            - name: Elektroonilise arvelduse lisandmoodul
+              items:
+                - name: Elektroonilise arvelduse lisandmooduli ülevaade
+                  href: localizations/e-invoicing-service-overview.md
+                - name: Azure'i salvestusruumi konto ja võtmehoidla loomine
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine
+                  href: localizations/e-invoicing-get-started.md
+                - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Brasiilias
+                  href: localizations/e-invoicing-bra-get-started.md
+                - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Itaalias
+                  href: localizations/e-invoicing-ita-get-started.md
+                - name: Elektroonilise arvelduse lisandmooduli kasutamise alustamine Mehhikos
+                  href: localizations/e-invoicing-mex-get-started.md
+                - name: Elektroonilise arvelduse lisandmooduli seadistamine
+                  href: localizations/e-invoicing-setup.md
             - name: Austraalia
               items:
                 - name: Austraalia ülevaade
@@ -1268,11 +1282,13 @@
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: Kannete loomine ja edastamine BLWI-sse
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
+                - name: Pearaamatukannete eksportimine
+                  href: localizations/emea-bel-export-ledger-transactions.md
                 - name: INTERVAT-i maksudeklaratsioon
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Vastavusseviimise aruanded
                   href: localizations/emea-bel-reconciliation-reports.md
-                - name: Maksesaldode aruandluse häälestamine
+                - name: Maksesaldode aruandluse seadistamine
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM-i häälestus ja haldamine
                   href: localizations/emea-bel-prodcom-report.md
@@ -2036,13 +2052,15 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: GSTR aruande teabe loomine maksutagastuste jaoks
                       href: localizations/apac-ind-GST-tax-returns.md
+                    - name: GSTR aruannete puhu mitme partii töötlemise lubamine
+                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Maksupäring
                       href: localizations/apac-ind-GST-tax-inquiry.md
                 - name: Maksumootor
                   items:
                     - name: Maksumootori ülevaade
                       href: general-ledger/tax-engine.md
-                    - name: Impordi konfiguratsioon
+                    - name: Konfiguratsiooni importimine
                       href: general-ledger/tax-engine-import-configuration.md
                     - name: Täiendav valemikoostaja
                       href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
@@ -3448,7 +3466,7 @@
               items:
                 - name: Konfiguratsioonide elutsükli haldamine
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: ' Lifecycle Services (LCS)'
+                - name: Lifecycle Services (LCS)
                   items:
                     - name: Konfiguratsioonide üleslaadimine LCS-i
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
@@ -3560,6 +3578,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                     - name: Mitmekeelsete aruannete kujundamine
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Suurte väljaminevate dokumentide tihendamine
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Suhteline tee andmesidemetes
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Elektroonilise aruandluse lahenduste kasutamine Finance and Operationsis
