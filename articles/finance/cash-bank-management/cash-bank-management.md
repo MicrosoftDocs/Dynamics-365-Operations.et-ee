@@ -1,7 +1,7 @@
 ---
 title: Sularaha- ja pangahalduse avaleht
 description: Saate kasutada sularaha- ja pangahalduse moodulit juriidilise isiku pangakontode ja finantsvahendite haldamiseks, mis on pangakontodega seotud.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: shylaw
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27811fc900cb497f62780a5185b20d4efbbbdba
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 88d7f70084d035354d199be95b5c55ce7afff7b7
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026287"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899614"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Sularaha- ja pangahalduse avaleht
 
@@ -92,10 +92,10 @@ Avage [Microsoft Dynamics 365 väljalaskeplaanid](https://go.microsoft.com/fwlin
 
 Arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ja [ajaveebist Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses MBS Operations.
+[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kus asub teave selle kohta, mis on uut ja põnevat rakenduses Dynamics 365.
 
 #### <a name="task-guides"></a>Tegevuse juhised
-Lisaspikker on saadaval rakenduse Finance siseste tegevuse juhistena. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.
+Lisaspikker on saadaval tegevuse juhistena rakenduses Finance. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu „Spikker”.
 
 #### <a name="videos"></a>Videod
 
