@@ -1,14 +1,14 @@
 ---
 title: Tootedimensioonid
 description: 'On olemas viis tootedimensiooni: värv, konfiguratsioon, suurus, stiil ja versioon. Tootedimensioonid saab ühendada dimensioonigruppidesse ja dimensioonigrupid saab määrata tooteetalonidele. Tootevariantide määratlemise määravad tootedimensioonide kombinatsioonid.'
-author: cvocph
+author: t-benebo
 manager: tfehr
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
+ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -16,15 +16,15 @@ ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: conradv
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 72b8cd8149ab7b2074eb815231be348db62e282e
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657312"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895445"
 ---
 # <a name="product-dimensions"></a>Tootedimensioonid
 
@@ -107,7 +107,7 @@ Kui testite oma lahenduste ühilduvust versioonidimensiooniga, pöörake tähele
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Kaardid:** kui mõni kaart kasutab varude dimensioone, tuleb värskendada selle kaardiga seotud asjaomaseid seosevastendusi, et need sisaldaks versioonidimensiooni. Laiendatud mudelis või tabelilaiendustes pöörake tähelepanu tabelitele, mille väljad sisaldavad varude dimensioone.
-1. **Microsoft Dynamics 365 Commerce'i funktsionaalsus:** pärast sisselülitamist võib versioonidimensiooni leida rakenduses Dynamics 365 Supply Chain Management tervest Commerce'iga seotud koodist. Sellegipoolest ei toetata versioonidimensiooni veel Commerce'i kanali andmebaasis ega kassarakendustes. Selline käitumine meenutab konfiguratsioonidimensiooni praegust käitumist terves Commerce'is.
+1. **Microsoft Dynamics 365 Commerce'i funktsionaalsus:** pärast sisselülitamist võib versioonidimensiooni leida rakenduses Dynamics 365 Supply Chain Management tervest Commerce'iga seotud koodist. Sellegipoolest ei toetata versioonidimensiooni veel Commerce'i kanali andmebaasis, kassades ega e-kaubanduse rakendustes. Nendes Commerce'i põhistes rakendustes ei toetata olukordi, kus kasutajad müüvad/lähetavad või tagastavad / võtavad vastu varusid versioonidimensiooni põhjal. Varude saadavuse otsingu funktsioonid ei erista Commerce'i rakendustes varusid versioonidimensiooni järgi. Selline käitumine meenutab konfiguratsioonidimensiooni praegust käitumist terves Commerce'is.
 
 #### <a name="turn-on-the-version-dimension"></a>Versioonidimensiooni sisselülitamine
 

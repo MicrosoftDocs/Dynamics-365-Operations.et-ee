@@ -3,7 +3,7 @@ title: Videopleieri moodul
 description: See teema hõlmab videopleieri mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411155"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817057"
 ---
 # <a name="video-player-module"></a>Videopleieri moodul
 
@@ -97,7 +97,7 @@ Uuele lehele videopleieri mooduli lisamiseks ja vajalike atribuutide seadistamis
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
+[Mooduliteegi ülevaade](starter-kit-overview.md)
 
 [Kampaania ribareklaami moodul](add-alert.md)
 

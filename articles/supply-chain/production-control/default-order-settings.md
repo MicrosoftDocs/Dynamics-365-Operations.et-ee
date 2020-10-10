@@ -3,12 +3,12 @@ title: Tellimuse vaikesätted dimensioonide ja tootevariantide puhul
 description: Tellimuse vaikesätted määratlevad koha ja lao, kust kaupu hangitakse või hoitakse, miinimum-, maksimum-, mitmik- ja standardkogused, mida kasutatakse kaubanduse või varude halduse jaoks, täitmisajad, peatamislipu ja tellimuse lubamise meetodi.
 author: t-benebo
 manager: tfehr
-ms.date: 07/31/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventItemOrderSetup
+ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657336"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895592"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Dimensioonide ja tootevariantide tellimuse vaikesätted
 
@@ -51,8 +51,11 @@ Ostudele, müügile ja varudele on kolme tüüpi tellimuse vaikesätteid. Ostude
 - Ostulepingu read
 - Pakkumiskutse read
 - Ostutaotluse read
-- Saadetise täiendamise read
+- Saadetise täiendamise read (osaliselt toetatud, vt märget)
 - Plaanitud ostutellimused
+
+> [!NOTE]
+> Saadetise täiendamise tellimuse ridade puhul rakendatakse lehe **Tellimuse vaikesätted** kiirkaardil **Ostutellimuse** olevatest sätetest ainult väljasid **Vaikekoht**, **Vaikeladu** ja märkeruutu **Peatatud**.
 
 Müügi tellimuse vaikesätteid kasutatakse, kui luuakse:
 

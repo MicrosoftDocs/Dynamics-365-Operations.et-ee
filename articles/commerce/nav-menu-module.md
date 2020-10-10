@@ -3,7 +3,7 @@ title: Navigeerimismenüü moodul
 description: See teema hõlmab navigeerimismenüü mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9f66bbe7bf436ab6360dda7d92d6d51e47eedf16
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 91239bd1db3f5819b7ad8d45ccfd8ab0d88b1b41
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761382"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817870"
 ---
 # <a name="navigation-menu-module"></a>Navigeerimismenüü moodul
 
@@ -58,7 +58,7 @@ Järgmisel joonisel on kujutatud Fabrikami saidi navigeerimismenüüs kuvatav ka
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
+[Mooduliteegi ülevaade](starter-kit-overview.md)
 
 [Ostukastimoodul](add-buy-box.md)
 
