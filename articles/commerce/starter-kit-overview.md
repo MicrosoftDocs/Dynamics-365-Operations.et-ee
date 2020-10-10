@@ -1,9 +1,9 @@
 ---
-title: Alustuskomplekti ülevaade
-description: Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce alustuskomplektist.
+title: Mooduliteegi ülevaade
+description: Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce mooduliteegi kohta.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,29 +18,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025898"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817822"
 ---
-# <a name="starter-kit-overview"></a>Alustuskomplekti ülevaade
-
+# <a name="module-library-overview"></a>Mooduliteegi ülevaade
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce alustuskomplektist.
+Selles teemas antakse ülevaade rakenduse Microsoft Dynamics 365 Commerce mooduliteegi kohta.
 
 ## <a name="overview"></a>Ülevaade
 
-Rakenduse Dynamics 365 Commerce alustuskomplekt on moodulikogum, mida saab kasutada e-kaubanduse veebisaidi loomiseks. Moodulitel on nii kasutajaliidese (UI) kui ka funktsionaalse käitumise aspektid.
+Rakenduse Dynamics 365 Commerce mooduliteek on moodulikogum, mida saab kasutada e-kaubanduse veebisaidi loomiseks. Moodulitel on nii kasutajaliidese (UI) kui ka funktsionaalse käitumise aspektid.
 
-Alustuskomplektis olevatele moodulitele saab rakendada kujundusi, et muuta nende välimust ja olemust. Kujundused kasutavad kaskaadlaadistikke (CSS). Alustuskomplektis on fiktiivse e-kaubanduse saidi Fabrikam kujundus, mida võib kasutada viitena.
+Mooduliteegis olevatele moodulitele saab rakendada kujundusi, et muuta nende välimust ja olemust. Kujundused kasutavad kaskaadlaadistikke (CSS). Mooduliteegis on fiktiivse e-kaubanduse saidi Fabrikam kujundus, mida võib kasutada mallina.
 
-## <a name="starter-kit-modules"></a>Alustuskomplekti moodulid
+## <a name="module-library-modules"></a>Mooduliteegi moodulid
 
-Alustuskomplektis on järgmist tüüpi moodulid.
+Mooduliteegis on järgmist tüüpi moodulid.
 
 - **Konteineri moodul** – konteineri moodul on lihtne moodul, mis toimib teiste moodulite hostina. See kontrollib selle sees olevate moodulite paigutust.
 - **Turundusmoodulid** – turundusmoodulid sisaldavad sisubloki, tekstibloki, videopleieri ja karusselli mooduleid. Kõiki neid mooduleid võib kasutada sisu tutvustamiseks. Neid saab panna igale lehele ja need põhinevad sisuhaldussüsteemi (CMS) andmetel.

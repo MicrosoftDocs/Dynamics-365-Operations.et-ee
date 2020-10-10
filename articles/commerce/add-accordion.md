@@ -3,7 +3,7 @@ title: Akordionmoodul
 description: See teema hõlmab akordionmooduleid ja selles kirjeldatakse, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1097289d339b84aa477752934afe8192e56c5ce5
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621080"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817130"
 ---
 # <a name="accordion-module"></a>Akordionmoodul
 
@@ -80,10 +80,10 @@ KKK lehele akordionmooduli lisamiseks ja selle atribuutide seadistamiseks saidie
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
+[Mooduliteegi ülevaade](starter-kit-overview.md)
 
-[Konteineri moodul](add-container-module.md)
+[Konteinermoodul](add-container-module.md)
 
-[Vahekaardi moodul](add-tab.md)
+[Vahekaardimoodul](add-tab.md)
 
 [Tekstiploki moodul](add-content-rich-block.md)

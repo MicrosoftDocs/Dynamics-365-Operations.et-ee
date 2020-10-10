@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 275d24d8f32fd1d2d15356d14c5c6591e8503c65
-ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
+ms.openlocfilehash: b4f69e7933bc5a50cccad6911c99cf08d2768578
+ms.sourcegitcommit: b3df62842e62234e8eaa16992375582518976131
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3706248"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3818592"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>Kaksikkirjutamise seadistuse toetatud stsenaariumid
 
@@ -42,7 +42,7 @@ Saate seadistada kaksikkirjutamise seose Finance and Operations keskkonna ja Com
 
 Seadistuse mehhanism erineb sõltuvalt teie tellimusest ja keskkonnast.
 
-+ Uute Finance and Operations rakenduste puhul algab kaksikkirjutamise ühenduse seadistus Microsoft Dynamics Lifecycle Servicesiga (LCS). Kui teil on Microsoft Power Platformi litsents, saate uue Common Data Service'i keskkonna, kui teie rentnikul seda ei ole.
++ Uute Finance and Operations rakenduste puhul algab kaksikkirjutamise ühenduse seadistus Microsoft Dynamics Lifecycle Servicesiga (LCS). Kui teil on Power Platformi litsents, saate uue Common Data Service'i keskkonna, kui teie rentnikul seda ei ole.
 + Olemasolevate Finance and Operations rakenduste puhul algab kaksikkirjutamise ühenduse seadistus Finance and Operations keskkonnas.
 
 Toetatud on järgmised seadistusstsenaariumid:

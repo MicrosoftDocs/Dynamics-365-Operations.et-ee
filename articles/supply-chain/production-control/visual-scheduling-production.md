@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210153"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887236"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Gantti diagramm tööde plaanimiseks
 
@@ -38,7 +38,7 @@ Gantti diagramm on plaanitud tegevuste visuaalne esitus määratletud ajavahemik
 -   Tööd plaanitud tootmistellimustest.
 -   Töö plaanitud projektitegevused tüübiga Tunniprognoosid.
 
-Gantti diagrammi saab avada kahes vaates: **Tellimuse vaade** ja **Ressursivaade**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). Suvandi **Tellimusevaade** puhul on tegevused grupeeritud tootmistellimuste alla. Sellest võib olla abi näiteks juhul, kui soovite hoida ülevaadet kõigist samadesse tellimustesse kuuluvatest töödest. **Ressursi vaates** rühmitatakse kõik tööd eraldi ressursside alla. Sellest vaatest võib olla abi plaani optimeerimisel ressursi tasandil (nt masin või masinate grupp). Järgmistel illustratsioonidel olevad Gantti diagrammid näitavad vaateid **Tellimuse vaade** ja **Ressursivaade**, millel on järgmised põhielemendid.
+Gantti diagrammi saab avada kahes vaates: **Tellimuse vaade** ja **Ressursivaade**. Suvandi **Tellimusevaade** puhul on tegevused grupeeritud tootmistellimuste alla. Sellest võib olla abi näiteks juhul, kui soovite hoida ülevaadet kõigist samadesse tellimustesse kuuluvatest töödest. **Ressursi vaates** rühmitatakse kõik tööd eraldi ressursside alla. Sellest vaatest võib olla abi plaani optimeerimisel ressursi tasandil (nt masin või masinate grupp). Järgmistel illustratsioonidel olevad Gantti diagrammid näitavad vaateid **Tellimuse vaade** ja **Ressursivaade**, millel on järgmised põhielemendid.
 
 1.  Gantti diagrammi tegevus
 2.  Materjali puudujäägi ikoon

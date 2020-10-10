@@ -3,7 +3,7 @@ title: Ruudustiku võimalused
 description: Selles teemas kirjeldatakse ruudustiku juhtelemendi mitmeid võimsaid funktsioone. Nende võimaluste kasutamiseks tuleb uus ruudustikufunktsioon lubada.
 author: jasongre
 manager: AnnBe
-ms.date: 08/31/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760395"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835082"
 ---
 # <a name="grid-capabilities"></a>Ruudustiku võimalused
 
@@ -33,6 +33,7 @@ Uus ruudustiku juhtelement pakub mitmeid kasulikke ja võimsaid võimalusi, mida
 -  Süsteemist eespool tippimine
 -  Matemaatiliste avaldiste hindamine 
 -  Tabeli andmete grupeerimine (lubatud eraldi kasutades **(eelvaade) grupeerimist võrkude** funktsioonis)
+-  Kinnitatud süsteemiveerud
 
 ## <a name="calculating-totals"></a>Summade arvutamine
 Rakendustes Finance and Operations on kasutajatel võimalik ruudustiku numbriveergude allosas näha kogusummasid. Need kogusummad kuvatakse ruudustiku allosas jaluse jaotises. 
@@ -119,12 +120,19 @@ Samamoodi nagu ruudustiku kõigi ridade valimiseks (või valiku tühistamiseks) 
 ### <a name="hiding-column-names"></a>Veeru nimede peitmine
 Andmete grupeerimisel kuvatakse veeru nimi grupi päisereal vaikimisi. Alates versioonist 10.0.14/Platvormi värskendusega nr 38 saate veeru nime grupi päiseridades peita, valides **Ruudustiku suvandid** > **Peida grupi veeru nimi**.
 
+## <a name="pinned-system-columns"></a>Kinnitatud süsteemiveerud
+Rea valimise veerg ja rea oleku veerg on uues ruudustikus kinnitatud või külmutatud ruudustiku vasakpoolses osas. Kui need veerud on ruudustikku kaasatud, on nad seetõttu alati kasutajale nähtavad hoolimata ruudustiku horisontaalsest kerimisasukohast.   
+
 ## <a name="frequently-asked-questions"></a>Korduma kippuvad küsimused
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kuidas lubada uut ruudustiku juhtelementi oma keskkonnas? 
 
-**10.0.9 / platvormivärskendus 33 ja hilisem** Funktsioon **Uus ruudustiku juhtelement** on kõikides keskkondades saadaval otse funktsioonihalduses. Sarnaselt teistele avaliku eelvaate funktsioonidele kehtib selle funktsiooni tootmisse lubamisele [täiendav kasutustingimuste leping](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9 / platvormi värskendus 33 või hilisem**
 
-**10.0.8 / platvormiuuendus 32 ja 10.0.7 / platvormiuuendus 31** Funktsiooni **Uus ruudustiku juhtelement** saab lubada 1. taseme (arendamine/testimine) ja 2. taseme (liivakast) keskkondades, et pakkuda täiendavat testimist ja kujundusmuudatusi, järgides alltoodud juhiseid.
+Funktsioon **Uus ruudustiku juhtelement** on kõikides keskkondades saadaval otse funktsioonihalduses. Sarnaselt teistele avaliku eelvaate funktsioonidele kehtib selle funktsiooni tootmisse lubamisele [täiendav kasutustingimuste leping](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8 / Platvormi värskendus 32 ning 10.0.7 / platvormi värskendus 31**
+
+Funktsiooni **Uus ruudustiku juhtelement** saab lubada 1. taseme (arendamine/testimine) ja 2. taseme (liivakast) keskkondades, et pakkuda täiendavat testimist ja kujundusmuudatusi, järgides alltoodud juhiseid.
 
 1.  **Luba lend**: Käivitage järgmine SQL-lause: 
 
@@ -139,11 +147,14 @@ Andmete grupeerimisel kuvatakse veeru nimi grupi päisereal vaikimisi. Alates ve
 Kõik järgmised kasutajaseansid algavad lubatud uue ruudustiku juhtelemendiga.
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Arendajatele] Üksikutelt lehtedelt ruudustiku eemaldamine 
-Kui teie organisatsioon avastab lehekülje, millel on uue ruudustiku kasutamisega probleeme, saate kasutada API-t, et lubada üksikul vormil kasutada ruudustiku pärandjuhtelementi ja samas lubada ülejäänud süsteemil kasutada uut ruudustiku juhtelementi. Et eemaldada ruudustik üksikult lehelt, lisage kutse `super()` vormi meetodile `run()`.
+Kui teie organisatsioon avastab lehekülje, millel on uue ruudustiku kasutamisega probleeme, saate kasutada alates versioonist 10.0.13 / platvormi värskendusest 37 saadaolevat API-t, et lubada üksikul vormil kasutada ruudustiku pärandjuhtelementi ja samas lubada ülejäänud süsteemil kasutada uut ruudustiku juhtelementi. Et eemaldada ruudustik üksikult lehelt, lisage kutse `super()` vormi meetodile `run()`.
 
  ```this.forceLegacyGrid();```
 
-Seda API-d saab kasutada kuni 2021. aasta oktoobri väljalaskeni, mil uus ruudustiku juhtelement muutub kohustuslikuks. Palun teatage Microsoftile kõigist probleemidest, mis selle API kasutamisel tekivad. 
+Seda API-d saab kasutada kuni 2021. aasta oktoobri väljalaskeni, mil uus ruudustiku juhtelement muutub kohustuslikuks. Kui mõne probleemi korral on vaja kasutada seda API-d, teatage sellest Microsoftile.
+
+## <a name="developer-size-to-available-width-columns"></a>[Arendajale] Saadaoleva laiusega veerud
+Kui arendaja seab uue ruudustiku veergude puhul atribuudi **WidthMode** väärtuseks **SizeToAvailable**, on neil veergudel esialgu sama laius, mis neil oleks siis, kui atribuudi väärtuseks oleks seatud **SizeToContent**. Sellest hoolimata venitatakse neid, et kasutada ruudustikus saadaolevat lisalaiust. Kui atribuudi väärtuseks on seatud **SizeToAvailable** mitme veeru puhul, jagavad kõik need veerud ruudustikus saadaolevat lisalaiust. Kui kasutaja muudab ühe sellise veeru suurust aga käsitsi, muutub veerg staatiliseks. Selle laius jääb samaks ja seda ei venitata, et kasutada ruudustikus saadaolevat lisalaiust.  
 
 ## <a name="known-issues"></a>Teadaolevad probleemid
 Selles jaotises on toodud uue ruudustiku juhtelemendi teadaolevate probleemide loend, kuni funktsioon on eelvaate olekus.  

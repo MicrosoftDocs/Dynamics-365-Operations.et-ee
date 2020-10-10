@@ -3,7 +3,7 @@ title: IFrame-moodul
 description: See teema hõlmab iFrame-moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0616a772a416a7c9d9756a840c93b8601c08c3d0
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 58446289c9a53af30d4d6d331a1a609ae0d2a0ad
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646911"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818194"
 ---
 # <a name="iframe-module"></a>IFrame-moodul
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab iFrame-moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
@@ -37,6 +36,9 @@ See teema hõlmab iFrame-moodulit ja kirjeldab, kuidas seda rakenduses Microsoft
 IFrame-moodul tagab iFrame'i (tekstisisene raam), mis majutab saidil välissisu. Näiteks saab seda kasutada YouTube'i video või PDF-faili vaaturi majutamiseks ükskõik millisel saidilehel. 
 
 IFrame-mooduli jaoks on vaja siht-URL-i. Seejärel majutab see sihtlehe sisu HTML-i **iFrame'i** elemendi sees. Välised URL-id peavad olema saidi sisu turbepoliitika (CSP) direktiivide põhjal lubatud URL-ide loendis (tuntud ka kui valge nimekiri). IFrame'i sisu jaoks peavad URL-id olema lubatud direktiivi **frame-ancestor** kaudu. Lisateavet leiate teemast [Sisu turbepoliitika (CSP) haldamine](manage-csp.md).
+
+> [!NOTE]
+> IFrame-moodul on saadaval rakenduse Dynamics 365 Commerce väljalaskes 10.0.13.
 
 Järgmisel pildil on näited iFrame-moodulitest, mis näitavad saidilehtedel väliseid videoid.
 
@@ -72,6 +74,6 @@ Et lisada välise video kuvamiseks lehele iFrame-moodul, toimige järgmiselt.
  
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
+[Mooduliteegi ülevaade](starter-kit-overview.md)
 
 [Sisu turbepoliitika (CSP) haldamine](manage-csp.md)

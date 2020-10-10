@@ -3,7 +3,7 @@ title: Ostukasti moodul
 description: See teema hõlmab ostukasti mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761293"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817081"
 ---
 # <a name="buy-box-module"></a>Ostukasti moodul
 
@@ -75,9 +75,12 @@ Jaotises **Saidi sätted \> Laiendused** saab konfigureerida järgmisi ostukasti
 - **Varud** – varude sätete rakendamise kohta lisateabe saamiseks vt teemat [Varude sätete rakendamine](inventory-settings.md).
 - **Lisa ostukorvi** – selle atribuudi abil määratakse, mis juhtub pärast kauba lisamist ostukorvi. Võimalikud väärtused on **Navigeeri ostukorvi juurde**, **Ära navigeeri ostukorvi juurde** ja **Kuva teatised**. Kui väärtuseks on seatud **Navigeeri ostukorvi juurde**, suunatakse kasutajad pärast kauba lisamist ostukorvi lehele. Kui väärtuseks on seatud **Ära navigeeri ostukorvi juurde**, ei suunata kasutajaid pärast kauba lisamist ostukorvi lehele. Kui väärtuseks on seatud **Kuva teatised**, kuvatakse kasutajatele kinnitusteatis ja nad võivad jätkata toote üksikasjade lehe sirvimist. 
 
-    Järgmisel pildil on näide kinnitusteatisest „lisati ostukorvi” Fabrikami saidil.
+> [!IMPORTANT]
+> Saidi **Lisa ostukorvi** sätted on saadaval rakenduse Dynamics 365 Commerce väljalaskes 10.0.11. Kui värskendate rakenduse Dynamics 365 Commerce varasemast versioonist, peate faili appsettings.json käsitsi värskendama. Faili appsettings.json värskendamise juhised leiate teemast [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
-    ![Teatise mooduli näide](./media/ecommerce-addtocart-notifications.PNG)
+Järgmisel pildil on näide kinnitusteatisest „lisati ostukorvi” Fabrikami saidil.
+
+![Teatise mooduli näide](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Commerce Scale Unitiga suhtlemine
 
@@ -111,7 +114,7 @@ Uuele lehele ostukasti mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
+[Mooduliteegi ülevaade](starter-kit-overview.md)
 
 [Kaupluse valimise moodul](store-selector.md)
 
@@ -129,6 +132,8 @@ Uuele lehele ostukasti mooduli lisamiseks ja vajalike atribuutide seadistamiseks
 
 [Jalusemoodul](author-footer-module.md)
 
-[Suhtluskanalites jagamise moodul](social-share-module.md)
+[Sotsiaalmeedias jagamise moodul](social-share-module.md)
 
 [Varude saadavuse arvutamine jaemüügikanalite jaoks](calculated-inventory-retail-channels.md)
+
+[SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md)

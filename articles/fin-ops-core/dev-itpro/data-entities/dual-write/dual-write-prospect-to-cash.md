@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
-ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
+ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
+ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "3719260"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3829208"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potentsiaalne klient-raha kaksikkirjutamises
 
@@ -99,32 +99,10 @@ Kui sünkroonite Supply Chain Managementi Müükidega, saate järgmise tulemuse:
 
 ## <a name="dual-write-solution-for-sales"></a>Kaksikkirjutamise lahendus Müükidele
 
-Üksusele **Tellimus** lisati uued väljad ja need kuvatakse lehel. Enamik neist väljadest kuvatakse Müükide vahekaardil **Integreerimine** . Seal on mõned eriväljad:
-
-+ Väljal **Töötlemisolek** kuvatakse tellimuse töötlemise olek rakenduses Supply Chain Management. See väli on lukus ja näitab ainult Supply Chain Managementi tellimuse olekut. Saadaval on järgmised väärtused:
-
-    + **Aktiivne**: olek pärast rakenduses Sales tellimuse aktiveerimist nupuga **Aktiveeri**.
-    + **Kinnitatud**
-    + **Tarnitud**
-    + **Arveldatud**
-    + **Osaliselt tarnitud**
-    + **Osaliselt arvele kantud**
-    + **Komplekteeritud**
-    + **Tühistatud**
-
-    Järgmine tabel näitab, kuidas töötlemisolek on vastendatud **CRM-i olekukoodi** väärtusega.
-
-    | Töötlemise olek           | CRM-i olekukood    |
-    |-----------------------------|--------------------|
-    | Aktiivne                      | Uus/Lahtine/Ootel |
-    | Kinnitatud/komplekteeritud            | Pooleli        |
-    | Osaliselt tarnitud         | Osaline            |
-    | Tarnitud                   | Valmis           |
-    | Arveldatud/Osaliselt arveldatud | Arveldatud           |
-    | Tühistatud                    | Raha puudub           |
+Üksusele **Tellimus** lisati uued väljad ja need kuvatakse lehel. Enamik neist väljadest kuvatakse Müükide vahekaardil **Integreerimine** . Lisateavet selle kohta, kuidas olekuvälju vastendatakse, leiate dokumentatsioonist teemas [Müügitellimuse olekuväljade vastendamise seadistamine](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)
 
 + Nupud **Loo arve** ja **Tühista tellimus** lehel **Müügitellimus** on Müükides peidetud.
-+ Väärtus **Müügitellimuse olek** jääb **Aktiivseks** , et rakendusest Supply Chain Management pärit muudatused saaksid liikuda rakenduse Müügid müügitellimusse. Selle käitumise juhtimiseks seadke **\[olekukoodi  oleku\]** vaikeväärtuseks **Aktiivne**.
++ Väärtus **Müügitellimuse olek** jääb **Aktiivseks** , et rakendusest Supply Chain Management pärit muudatused saaksid liikuda rakenduse Müügid müügitellimusse. Selle käitumise juhtimiseks seadke suvandi **Olekukood \[Olek\]** vaikeväärtuseks **Aktiivne**.
 
 ## <a name="invoices"></a>Arved
 

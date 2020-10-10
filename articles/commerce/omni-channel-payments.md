@@ -3,7 +3,7 @@ title: Omnikanali maksete ülevaade
 description: Selles teemas antakse ülevaade omnikanali maksetest rakenduses Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 07/21/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
-ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
+ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3613173"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819809"
 ---
 # <a name="omni-channel-payments-overview"></a>Omnikanali maksete ülevaade
 
@@ -92,6 +92,9 @@ Toetatakse järgmisi omnikanali makse stsenaariume.
 - Ostmine kõnekeskusest, kättesaamine kauplusest
 - Ostmine kauplusest A, kättesaamine kauplusest B
 - Ostmine kauplusest A, tarnimine kliendile
+
+    > [!NOTE]
+    > Kõnekeskuses tehtud maksed, mis on vastendatud maksefunktsiooniga „Tavaline”, peavad olema märgitud kui **Ettemaks** = **Jah**, et kassas tellimuse tühistamisel kajastataks neid maksmisele kuuluvas summas. Ettemaksuta makseid, mille tüüp on „Tavaline”, ei tunta ära, kui tellimus kassas tühistatakse. 
 
 Toetatakse ka nende stsenaariumide variatsioone. Näiteks veebitellimus võib sisaldada nii ridu, mis tarnitakse kliendile, kui ka ridu, mis saadakse kätte kauplusest. Tellimuse täitmise suvandeid toetatakse omnikanali maksete kaudu. 
 
@@ -190,8 +193,8 @@ Stsenaariumi käivitamiseks järgige neid toiminguid.
 2. Lisage lehel **Kanne** Karen Berg kandele, kasutades numbriklahvistikku numbri **2001** sisestamiseks.
 3. Lisage kandele üks või mitu rida.
 4. Valige **Tellimused** tellimuse suvandite nägemiseks.
-5. Valige suvand **Võta kõik peale** ja seejärel valige suvand **Klienditellimus**, kui palutakse.
-6. Sisestage otsinguribale **Seattle** ja seejärel valige kättesaamise kaupluseks **Seattle**. 
+5. Valige suvand **Läheta kõik** ja seejärel valige suvand **Klienditellimus**, kui seda palutakse.
+6. Valige lähetamismeetodi lehel **Standardne üleöö** ja seejärel valige **OK**, et kinnitada tänane kuupäev lähetuskuupäevana. 
 7. Valige **OK** praeguse kuupäeva määramiseks kättesaamise kuupäevaks.
 8. Makse alustamiseks valige suvand **Tasumine kaardiga**.
 9. Määrake kaardimakse maksevahendiks deposiidiks olevale summale. 
@@ -233,5 +236,5 @@ Kui järele minnakse tellimusele, millel on mitu maksevahendid ja mitu rida, esi
 
 - [Maksete KKK](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Dynamics 365 maksekonnektor Adyeni jaoks](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+- [BOPIS-e konfigureerimine Dynamics 365 Commerce'i hindamiskeskkonnas](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 

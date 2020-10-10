@@ -1,6 +1,6 @@
 ---
 title: Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
-description: Selles teemas kirjeldatakse välise kataloogi või väljaregistreeritud kataloogi kasutamist hankijalt hinnapakkumise teabe kogumiseks ja selle lisamiseks ostutaotlusele.
+description: Selles teemas kirjeldatakse välise kataloogi või väljaregistreeritava kataloogi kasutamist hankijalt hinnapakkumise teabe kogumiseks ja selle lisamiseks ostutaotlusele.
 author: mkirknel
 manager: tfehr
 ms.date: 11/02/2017
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28c9152996b7efc84b4259bd7323411df0b62258
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7aecc2c4786a1912bf5ae44f3949428c778f1df9
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207803"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826824"
 ---
-# <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
+# <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Väliskataloogi häälestamine e-hanke väljaregistreerimiseks
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,7 +33,7 @@ Välist kataloogi kasutades saate tagada, et toote ja hinna teave, mida hiljem r
 
 Kui väline kataloog on seadistatud ja töötaja koostab ostutaotlust, on olemas võimalus ümbersuunamiseks välisele saidile, välisesse kataloogi ja naasta välisel saidil loodud ostukorvi. See suhtlus põhineb cXML-protokollil ja see tuleb seadistada ostu- ja müügiorganisatsiooni süsteemide vahel.
 
-Suhtluse seadistamiseks peab teie hankija andma teabeühikud, mida saate kasutada välise kataloogi konfiguratsioonis, nt Identiteet, ostja ettevõtte domeen, nt DUNS ja DUNS-i number, identimisteave ja URL, mille kaudu hankija kataloogi minna.
+Suhtluse seadistamiseks peab teie hankija andma teabeühikud, mida saate kasutada sellise välise kataloogi konfiguratsioonis nagu identiteet, ostja ettevõtte domeen, nt DUNS ja DUNS-i number, identimisteave ja URL, mille kaudu hankija kataloogi minna.
 
 ## <a name="setting-up-an-external-catalog"></a>Välise kataloogi seadistamine
 
@@ -45,7 +45,7 @@ Väline kataloog peaks võimaldama suunata ostutaotlusse siseneva töötaja tood
 2. Registreerige tarnija rakenduses Supply Chain Management. Enne kui saate seadistada konfiguratsioone välisesse hankija kataloogi pääsemiseks, peate seadistama Microsoft Dynamics 365-s hankija ja hankija kontakti. Välise kataloogi hankija tuleb lisada ka valitud hankekategooriasse. Lisateavet hankijate registreerimise kohta vt teemast [Hankija koostöö kasutajate haldamine](manage-vendor-collaboration-users.md). Teavet hankijate määramise kohta hankekategooriasse leiate jaotisest [Konkreetsetele hankekategooriatele hankijate kinnitamine](tasks/approve-vendors-specific-procurement-categories.md).
 3. Veenduge, et oleks seadistatud mõõtühikud ja valuuta, mida hankija kasutab. Teavet mõõtühiku loomise kohta vaadake jaotisest [Mõõtühiku haldamine](../pim/tasks/manage-unit-measure.md).
 4. Konfigureerige väline hankija kataloog, kasutades oma hankija välise kataloogisaidi nõudeid. Lisateavet selle ülesande kohta vt teemast [Välise hankija kataloogi konfigureerimine](#configure-the-external-vendor-catalog).
-5. Testige hankija välise kataloogi konfiguratsioone kontrollimiseks, et sätted oleksid kehtivad ja et pääseksite hankija välisesse kataloogi. Kasutage toimingut **Sätete valideerimine** määratletud taotluse seadistussõnumi valideerimiseks. See sõnum peab põhjustama hankija välise kataloogisaidi avamise brauseriaknas. Kinnitamise ajal ei saa sellelt hankijalt kaupu ja teenuseid tellida. Kaupade ja teenuste tellimiseks peate minema ostutaotlusest hankija kataloogi.
+5. Testige hankija välise kataloogi konfiguratsioone, et kontrollida, kas sätted kehtivad ja te pääsete hankija välisesse kataloogi. Kasutage toimingut **Sätete valideerimine** määratletud taotluse seadistusteatise valideerimiseks. See sõnum peab põhjustama hankija välise kataloogisaidi avamise brauseriaknas. Valideerimise ajal ei saa sellelt hankijalt kaupu ja teenuseid tellida. Kaupade ja teenuste tellimiseks peate minema ostutaotlusest hankija kataloogi.
 6. Aktiveerige väline kataloog, kasutades nuppu **Aktiveeri kataloog** lehel **Välised kataloogid**. Väline kataloog tuleb aktiveerida, enne kui töövõtjad saavad seda kasutada. Välise kataloogi saab alati inaktiveerida.
 
 
@@ -53,11 +53,11 @@ Väline kataloog peaks võimaldama suunata ostutaotlusse siseneva töötaja tood
 
 Selles jaotises antakse lisateavet eelmise jaotise ülesande 4 kohta.
 
-1. Sisestage hankija välise kataloogi nimi ja kirjeldus. Sisestatud nimi kuvatakse diagrammil, mis kajastab välist kataloogi, mis ostutaotlust koostavale töötajale kuvatakse. Töötajad võivad klõpsata ostukorvil kataloogi avamiseks hankija välisel kataloogisaidil.
+1. Sisestage hankija välise kataloogi nimi ja kirjeldus. Sisestatud nimi kuvatakse diagrammil, mis kajastab välist kataloogi, mis ostutaotlust koostavale töötajale kuvatakse. Töötajad võivad klõpsata ostukorvil, et avada kataloog hankija välisel kataloogisaidil.
 2. Lisage pilt, kasutades toimingut **Välise kataloogi pilt**. Pilt kuvatakse diagrammil, mis kajastab välist kataloogi, mis ostutaotlust koostavatele töötajatele kuvatakse. Pange tähele, et pildi laius ja kõrgus peavad olema võrdsed. Muidu ei kuvata pilti õigesti.
 3. Valige, kas hankija välise kataloogi veebisait peab ilmuma samasse brauseriaknasse, kus töövõtja on ostutaotluse koostanud, või tuleb see kuvada uues aknas.
 4. Valige kataloogi jaoks hankija. Loendis **Juriidilised isikud** on rida iga juriidilise isiku jaoks, kus hankija on seadistatud. Selleks et võimaldada kasutajatel tellida tooteid otse hankija kataloogist mõne juriidilise isiku, kuid mitte teiste, puhul, võite kasutada nuppu **Takista juurdepääsu** või **Luba juurdepääs** iga juriidilise isiku puhul, kelle kataloogi soovite kättesaadavaks teha või mitte.
-5. Sisestage väljale **Vaikimisi aegumine (päevades)** päevade arv, mille jooksul välisest kataloogist saadud pakkumine kehtib ja seda saab kasutada väliselt hankijalt ostmiseks. Kui pakkumine on loodud ja toodud hankija väliselt kataloogisaidilt, on pakkumine kehtiv praeguse süsteemikuupäeva seisuga ja jääb kehtivaks sellele väljale sisestatud päevade jooksul.
+5. Sisestage väljale **Vaikimisi aegumine (päevades)** päevade arv, mille jooksul välisest kataloogist saadud pakkumine kehtib ja seda saab kasutada väliselt hankijalt ostmiseks. Kui pakkumine on loodud ja toodud hankija väliselt kataloogisaidilt, kehtib pakkumine praeguse süsteemikuupäeva seisuga ja jääb kehtivaks sellele väljale sisestatud päevade jooksul.
 6. Klõpsake nuppu **Lisa** hankekategooriate vastendamise alustamiseks välise kataloogiga. Siis valige kategooria loendist Kategooria nimi. Kategooriate loend on hankekategooriate ülemhulk, millega hankija on kõigis hankijale seadistatud juriidilistes isikutes vastendatud.
 
     > [!NOTE]
@@ -85,8 +85,9 @@ Allpool leiate mallis sisalduvate siltide kirjelduse.
 
 ### <a name="extrinsic-elements"></a>Välised elemendid
 
-Väline element on lisateave, nt kasutajanimi, mis põhineb väljaregistreerival kasutajal. Väline element määratakse väljaregistreerimise toimumisel ja selle saab saata taotluse seadistussõnumis.
-Teie hankijal võib olla nõue välise elemendi vastuvõtmise kohta seadistustaotluses. Sel juhul tuleb lisada väline element väliste elementide loendisse lehe **Väline kataloog** jaotises **Sõnumivorming**. Määrake välisele elemendile nimi, mille hankija ära tunneb, ja vastendage see väärtusega. Väärtuste valikud on: kasutaja nimi, kasutaja meil või juhuslik väärtus.
+Väline element on lisateave, nt kasutajanimi, mis põhineb väljaregistreerival kasutajal. Väline element määratakse väljaregistreerimise toimumisel ja selle saab saata taotluse seadistusteates.
+Teie hankijal võib olla nõue välise elemendi vastuvõtmise kohta seadistustaotluses. Sel juhul tuleb lisada väline element väliste elementide loendisse lehe **Väline kataloog** jaotises **Sõnumivorming**.
+Määrake välisele elemendile nimi, mille hankija ära tunneb, ja vastendage see väärtusega. Väärtuste valikud on: kasutaja nimi, kasutaja meil või juhuslik väärtus.
 Lisateavet cXML-protokolli kohta leiate [veebisaidilt cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Tagasisisestamise teade
@@ -109,3 +110,7 @@ Kustutage väline kataloog lehel tegevusega Kustuta.
 
 Kui välises hankija kataloogis olev toode on taotletud, siis ei saa välist hankija kataloogi kustutada. Selle asemel määratakse välise hankija kataloogi olek passiivseks. Kui soovite eemaldada juurdepääsu välise hankija kataloogi saidile, kuid mitte seda kustutada, siis muutke välise kataloogi olek passiivseks.
 
+## <a name="additional-resources"></a>Lisaressursid
+
+- [cXML-i täiustuste ostmine](purchasing-cxml-enhancements.md)
+- [Väliskataloogide kasutamine e-hanke väljaregistreerimiseks](use-external-catalogs-for-punchout.md)

@@ -3,7 +3,7 @@ title: Konteinermoodul
 description: See teema hõlmab konteinermooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
-ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
+ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3417342"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817398"
 ---
 # <a name="container-module"></a>Konteinermoodul
 
@@ -55,7 +55,7 @@ Järgmisel pildil on toodud näide konteinermoodulist, mis sisaldab Commerce'i s
 |-------------------|--------|-------------|
 | Pealkiri           | Pealkirja tekst ja pealkirja silt (**H1**, **H2**, **H3**, **H4**, **H5** või **H6**) | Konteinerile saab lisada valikulise pealkirja. Vaikimisi kasutatakse pealkirja jaks pealkirja silti **H2**. Samas saab silti muuta, et see vastaks juurdepääsetavuse nõuetele. |
 | Laius             | **Mahuta konteinerisse** või **Täida ekraan** | Kui väärtuseks on seatud **Mahuta konteinerisse** (vaikeväärtus), on konteineris olevad moodulid piiratud konteineri laiusega. Kui väärtuseks on seatud **Täida ekraan**, ei ole moodulid konteineri laiusega piiratud, vaid võivad täita ekraani. |
-| Veergude arv | **1**, **2**, **3**, **4**, **6** või  **12** | See atribuut määratleb konteineri veergude arvu. Konteineril võib olla kuni 12 veergu. |
+| Veergude arv | **1**, **2**, **3**, **4**, **6** või **12** | See atribuut määratleb konteineri veergude arvu. Konteineril võib olla kuni 12 veergu. |
 
 ## <a name="container-with-2-slots"></a>Konteiner 2 pesaga
 
@@ -123,11 +123,11 @@ Uuele lehele konteineri esitamise mooduli lisamiseks ja vajalike atribuutide sea
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
+[Mooduliteegi ülevaade](starter-kit-overview.md)
 
 [Akordionmoodul](add-accordion.md)
 
-[Vahekaardi moodul](add-tab.md)
+[Vahekaardimoodul](add-tab.md)
 
 [Karusellmoodul](add-carousel.md)
 

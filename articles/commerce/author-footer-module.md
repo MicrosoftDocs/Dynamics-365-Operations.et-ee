@@ -1,9 +1,9 @@
 ---
 title: Jaluse moodul
 description: See teema hõlmab jaluse mooduleid ja kuidas neid rakenduses Dynamics 365 Commerce koostada.
-author: anupamar
+author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anupamar-ms
+ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6dd9f214fbeeeaabadac4853916363c20a3288ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761197"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3816957"
 ---
 # <a name="footer-module"></a>Jaluse moodul  
 
@@ -72,15 +72,15 @@ Lisades lehe mallidele fragmendi, aitate tagada, et jalus renderdatakse igal leh
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
+[Mooduliteegi ülevaade](starter-kit-overview.md)
 
 [Konteinermoodul](add-container-module.md)
 
-[Ostukasti moodul](add-buy-box.md)
+[Ostukastimoodul](add-buy-box.md)
 
-[Ostukorvi moodul](add-cart-module.md)
+[Ostukorvimoodul](add-cart-module.md)
 
-[Maksmise moodul](add-checkout-module.md)
+[Maksmismoodul](add-checkout-module.md)
 
 [Tellimuse kinnituse moodul](order-confirmation-module.md)
 
