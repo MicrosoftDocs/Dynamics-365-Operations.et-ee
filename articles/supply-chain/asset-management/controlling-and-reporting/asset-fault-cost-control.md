@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetCostControlFault
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,47 +18,47 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bade6ffa5d5a9af6d23d0d681c32e72eb62d4ecc
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 93bd6fb320822f17af5725e227936df623f8d0be
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205525"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889165"
 ---
-# <a name="asset-fault-cost-control"></a><span data-ttu-id="266d9-103">Vara vea kulujuhtimine</span><span class="sxs-lookup"><span data-stu-id="266d9-103">Asset fault cost control</span></span>
+# <a name="asset-fault-cost-control"></a><span data-ttu-id="c1932-103">Vara vea kulujuhtimine</span><span class="sxs-lookup"><span data-stu-id="c1932-103">Asset fault cost control</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="266d9-104">Varahalduses saate arvutada vara vea registreerimiste kulusid, et saada ülevaate tegelikest kuludest võrreldes eelarvekuludega.</span><span class="sxs-lookup"><span data-stu-id="266d9-104">In Asset Management, you can calculate costs on asset fault registrations to get an overview of actual costs compared to budget costs.</span></span> <span data-ttu-id="266d9-105">Tegelikud kulud põhinevad sisestatud kannetel.</span><span class="sxs-lookup"><span data-stu-id="266d9-105">Actual costs are based on posted transactions.</span></span> <span data-ttu-id="266d9-106">Kuupäev on vea kuupäev, mil sümptom registreeriti.</span><span class="sxs-lookup"><span data-stu-id="266d9-106">The date is the fault date on which the symptom was recorded.</span></span>
+<span data-ttu-id="c1932-104">Varahalduses saate arvutada vara vea registreerimiste kulusid, et saada ülevaate tegelikest kuludest võrreldes eelarvekuludega.</span><span class="sxs-lookup"><span data-stu-id="c1932-104">In Asset Management, you can calculate costs on asset fault registrations to get an overview of actual costs compared to budget costs.</span></span> <span data-ttu-id="c1932-105">Tegelikud kulud põhinevad sisestatud kannetel.</span><span class="sxs-lookup"><span data-stu-id="c1932-105">Actual costs are based on posted transactions.</span></span> <span data-ttu-id="c1932-106">Kuupäev on vea kuupäev, mil sümptom registreeriti.</span><span class="sxs-lookup"><span data-stu-id="c1932-106">The date is the fault date on which the symptom was recorded.</span></span>
 
-1. <span data-ttu-id="266d9-107">Klõpsake **Varahaldus** > **Päringud** > **Vara viga** > **Vara vea kulujuhtimine**.</span><span class="sxs-lookup"><span data-stu-id="266d9-107">Click **Asset management** > **Inquiries** > **Asset fault** > **Asset fault cost control**.</span></span>
+1. <span data-ttu-id="c1932-107">Klõpsake **Varahaldus** > **Päringud** > **Vara viga** > **Vara vea kulujuhtimine**.</span><span class="sxs-lookup"><span data-stu-id="c1932-107">Click **Asset management** > **Inquiries** > **Asset fault** > **Asset fault cost control**.</span></span>
 
-2. <span data-ttu-id="266d9-108">Valige dialoogiaknas **Vara vea kulujuhtimine** finantsdimensioon, mida soovite arvutusse kaasata, kui see on nõutav.</span><span class="sxs-lookup"><span data-stu-id="266d9-108">In the **Asset fault cost control** dialog, select a financial dimension set to be included in the calculation, if required.</span></span>
+2. <span data-ttu-id="c1932-108">Valige dialoogiaknas **Vara vea kulujuhtimine** finantsdimensioon, mida soovite arvutusse kaasata, kui see on nõutav.</span><span class="sxs-lookup"><span data-stu-id="c1932-108">In the **Asset fault cost control** dialog, select a financial dimension set to be included in the calculation, if required.</span></span>
 
-4. <span data-ttu-id="266d9-109">Kui te ei soovi nulli kuluga tulemusi näidata, valige "Jah" lülitusnupul **Jäta null vahele**.</span><span class="sxs-lookup"><span data-stu-id="266d9-109">Select "Yes" on the **Skip zero** toggle button if you don't want to show results with a cost of zero.</span></span>
+4. <span data-ttu-id="c1932-109">Kui te ei soovi nulli kuluga tulemusi näidata, valige "Jah" lülitusnupul **Jäta null vahele**.</span><span class="sxs-lookup"><span data-stu-id="c1932-109">Select "Yes" on the **Skip zero** toggle button if you don't want to show results with a cost of zero.</span></span>
 
-5. <span data-ttu-id="266d9-110">Saate kasutada välja **Tase**, et näidata, kui üksikasjalikult soovite, et kulujuhtimise read oleksid seotud töö asukohtadega.</span><span class="sxs-lookup"><span data-stu-id="266d9-110">You can use the **Level** field to indicate how detailed you want the cost control lines to be regarding functional locations.</span></span> 
+5. <span data-ttu-id="c1932-110">Saate kasutada välja **Tase**, et näidata, kui üksikasjalikult soovite, et kulujuhtimise read oleksid seotud töö asukohtadega.</span><span class="sxs-lookup"><span data-stu-id="c1932-110">You can use the **Level** field to indicate how detailed you want the cost control lines to be regarding functional locations.</span></span> 
 
-    <span data-ttu-id="266d9-111">Näiteks kui sisestate väljale numbri "1" ja teil on mitmetasandiline töö asukoha struktuur, kuvatakse ülemisel tasemel kõik vara vea kulujuhtimise read töö asukoha kohta ja seetõttu võib rea tunnid liita töö asukohast, mis asuvad madalamal tasemel.</span><span class="sxs-lookup"><span data-stu-id="266d9-111">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all asset fault cost control lines for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> 
+    <span data-ttu-id="c1932-111">Näiteks kui sisestate väljale numbri "1" ja teil on mitmetasandiline töö asukoha struktuur, kuvatakse ülemisel tasemel kõik vara vea kulujuhtimise read töö asukoha kohta ja seetõttu võib rea tunnid liita töö asukohast, mis asuvad madalamal tasemel.</span><span class="sxs-lookup"><span data-stu-id="c1932-111">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all asset fault cost control lines for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> 
     
-    <span data-ttu-id="266d9-112">Kui sisestate numbri "0" väljale **Tase**, näete üksikasjalikku tulemust, mis näitab kõiki vara vea kulujuhtimise ridu kõigi töö asukoha tasemete puhul, millega need on seotud.</span><span class="sxs-lookup"><span data-stu-id="266d9-112">If you insert the number "0" in the **Level** field, you will see a detailed result showing all asset fault cost control lines on all the functional location levels to which they are related.</span></span>
+    <span data-ttu-id="c1932-112">Kui sisestate numbri "0" väljale **Tase**, näete üksikasjalikku tulemust, mis näitab kõiki vara vea kulujuhtimise ridu kõigi töö asukoha tasemete puhul, millega need on seotud.</span><span class="sxs-lookup"><span data-stu-id="c1932-112">If you insert the number "0" in the **Level** field, you will see a detailed result showing all asset fault cost control lines on all the functional location levels to which they are related.</span></span>
 
-6. <span data-ttu-id="266d9-113">Kui soovite otsingut piirata, saate valida kindlad varad, vea kuupäevad ja vea põhjused **Lisamiskirjed** kiirkaardi valikus.</span><span class="sxs-lookup"><span data-stu-id="266d9-113">If you want to limit the search, you can select specific assets, fault dates, and fault causes on the **Records to include** FastTab.</span></span>
+6. <span data-ttu-id="c1932-113">Kui soovite otsingut piirata, saate valida kindlad varad, vea kuupäevad ja vea põhjused **Lisamiskirjed** kiirkaardi valikus.</span><span class="sxs-lookup"><span data-stu-id="c1932-113">If you want to limit the search, you can select specific assets, fault dates, and fault causes on the **Records to include** FastTab.</span></span>
 
-7. <span data-ttu-id="266d9-114">Arvutuse alustamiseks klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="266d9-114">Click **OK** to start the calculation.</span></span>
+7. <span data-ttu-id="c1932-114">Arvutuse alustamiseks klõpsake **OK**.</span><span class="sxs-lookup"><span data-stu-id="c1932-114">Click **OK** to start the calculation.</span></span>
 
-8. <span data-ttu-id="266d9-115">Valige nupud **Rühmitusalus**, et vaadata arvutuse soovitud üksikasja taset.</span><span class="sxs-lookup"><span data-stu-id="266d9-115">Click the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="266d9-116">Valitud nupud **Rühmitusalus** on esile tõstetud.</span><span class="sxs-lookup"><span data-stu-id="266d9-116">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="266d9-117">Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.</span><span class="sxs-lookup"><span data-stu-id="266d9-117">Click on a button to activate or deactivate it.</span></span>
+8. <span data-ttu-id="c1932-115">Valige nupud **Rühmitusalus**, et vaadata arvutuse soovitud üksikasja taset.</span><span class="sxs-lookup"><span data-stu-id="c1932-115">Click the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="c1932-116">Valitud nupud **Rühmitusalus** on esile tõstetud.</span><span class="sxs-lookup"><span data-stu-id="c1932-116">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="c1932-117">Nupu aktiveerimiseks või inaktiveerimiseks klõpsake sellel.</span><span class="sxs-lookup"><span data-stu-id="c1932-117">Click on a button to activate or deactivate it.</span></span>
 
-## <a name="example"></a><span data-ttu-id="266d9-118">Näide</span><span class="sxs-lookup"><span data-stu-id="266d9-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c1932-118">Näide</span><span class="sxs-lookup"><span data-stu-id="c1932-118">Example</span></span>
 
-<span data-ttu-id="266d9-119">Selles näites kuvatakse vara vea kulujuhtimise arvutamist.</span><span class="sxs-lookup"><span data-stu-id="266d9-119">This example shows an asset fault cost control calculation.</span></span>
+<span data-ttu-id="c1932-119">Selles näites kuvatakse vara vea kulujuhtimise arvutamist.</span><span class="sxs-lookup"><span data-stu-id="c1932-119">This example shows an asset fault cost control calculation.</span></span>
 
-- <span data-ttu-id="266d9-120">**Algne eelarve** väli näitab eelarve kulusid töökäskude prognoosist.</span><span class="sxs-lookup"><span data-stu-id="266d9-120">The **Original budget** field shows budget costs from the work order forecast.</span></span> 
-- <span data-ttu-id="266d9-121">Väljal **Tegelik kulu** kuvatakse töökäskudesse sisestatud kulud.</span><span class="sxs-lookup"><span data-stu-id="266d9-121">The **Actual cost** field shows posted costs on work orders.</span></span> 
-- <span data-ttu-id="266d9-122">Väli **Kooskõlastatud kulu** näitab kogukulusid, millele teie ettevõte on pühendunud seoses töökäskudega.</span><span class="sxs-lookup"><span data-stu-id="266d9-122">The **Committed cost** field shows total costs that your company is committed to in relation to work orders.</span></span>
+- <span data-ttu-id="c1932-120">**Algne eelarve** väli näitab eelarve kulusid töökäskude prognoosist.</span><span class="sxs-lookup"><span data-stu-id="c1932-120">The **Original budget** field shows budget costs from the work order forecast.</span></span> 
+- <span data-ttu-id="c1932-121">Väljal **Tegelik kulu** kuvatakse töökäskudesse sisestatud kulud.</span><span class="sxs-lookup"><span data-stu-id="c1932-121">The **Actual cost** field shows posted costs on work orders.</span></span> 
+- <span data-ttu-id="c1932-122">Väli **Kooskõlastatud kulu** näitab kogukulusid, millele teie ettevõte on pühendunud seoses töökäskudega.</span><span class="sxs-lookup"><span data-stu-id="c1932-122">The **Committed cost** field shows total costs that your company is committed to in relation to work orders.</span></span>
 
     ![Joonis 1](media/05-controlling-and-reporting.png)
 
-<span data-ttu-id="266d9-124">Teavet vigade häälestamise kohta vaadake teemast [Veahaldus](../setup-for-work-orders/fault-management.md).</span><span class="sxs-lookup"><span data-stu-id="266d9-124">For information about how to set up faults, see the [Fault management](../setup-for-work-orders/fault-management.md) topic.</span></span>
+<span data-ttu-id="c1932-124">Teavet vigade häälestamise kohta vaadake teemast [Veahaldus](../setup-for-work-orders/fault-management.md).</span><span class="sxs-lookup"><span data-stu-id="c1932-124">For information about how to set up faults, see the [Fault management](../setup-for-work-orders/fault-management.md) topic.</span></span>
