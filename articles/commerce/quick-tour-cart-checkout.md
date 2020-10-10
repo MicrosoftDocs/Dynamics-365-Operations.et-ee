@@ -3,7 +3,7 @@ title: Ostukorvi ja väljaregistreerimise ülevaade
 description: See teema annab ülevaate ostukorvi ja kassa lehtedest rakenduses Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527558"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817774"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Ostukorvi ja väljaregistreerimise ülevaade
 
@@ -40,7 +40,7 @@ E-kaubanduse veebisaidi lehe kassas on üksikasjalik voog, mida kliendid järgiv
 
 Ostukorvi lehekülg toimib ostukorvina ja sisaldab kõiki ostukorvi lisatud kaupu.
 
-Järgmisel joonisel on kujutatud ostukorvi lehe näide, mis loodi veebistardikomplekti ja teema "Fabrikam" abil.
+Järgmisel joonisel on kujutatud ostukorvi lehe näide, mis loodi mooduliteegi ja kujunduse „Fabrikam” abil.
 
 ![Ostukorvi lehe näide](./media/cart2.PNG)
 
@@ -56,7 +56,7 @@ Lisateavet ostukorvi lehe loomise kohta leiate teemast [Ostukorvi mooduli lisami
 
 Kassa leht on koht, kus kliendid sisestavad tellimuse esitamiseks vajaliku teabe.
 
-Järgmisel joonisel on kujutatud kassa lehe näide, mis loodi veebistardikomplekti abil.
+Järgmisel joonisel on kujutatud kassa lehe näide, mis loodi mooduliteegi abil.
 
 ![Kassa lehe näide](./media/Checkout.PNG)
 
@@ -66,7 +66,7 @@ Kassa lehe põhiosa on see, kus kogutakse kogu tellimuse teave. See teave sisald
 
 Tarneaadress on nõutav, kui kaubad tuleb saata. Iga asukoha saatmise aadresside vormingut saab konfigureerida rakenduses Dynamics 365 Commerce. Näiteks kui kaubad saadetakse Ameerika Ühendriikidesse, peab tarneaadress sisaldama tänava aadressi, osariiki ja postiindeksit. Mõned põhilised sisestuse kinnitamised tehakse saatmise aadressi väljade jaoks, nt tähe- ja numbrimärkide, maksimumpikkuse ja numbrite kinnitamine. Kuigi aadressi enda kehtivust ei kontrollita, saab seda kontrollida kohandatud kolmandate osapoolte teenuste abil.
 
-Tarneaadress rakendatakse kõigile ostukorvi kaupadele, mille jaoks on valitud suvand "tarni". Kui kasutate kassa voogu, mille on taganud veebistardikomplekt, ei saa üksikuid ostukorvi tooteid saata erinevatele aadressidele. Kui vajate seda võimalust, saab seda rakendada kassa moodulite kohandamise kaudu.
+Tarneaadress rakendatakse kõigile ostukorvi kaupadele, mille jaoks on valitud suvand "tarni". Kui kasutate kassa voogu, mille on taganud mooduliteek, ei saa üksikuid ostukorvi tooteid saata erinevatele aadressidele. Kui vajate seda võimalust, saab seda rakendada kassa moodulite kohandamise kaudu.
 
 Kui kättetoimetamise aadress on olemas, kuvatakse rakenduse Dynamics 365 Commerce võrgupoes saadaolevad tarneviisid. Kohaletoimetamise meetodeid ja neid toetavaid aadresse saab konfigureerida rakenduses Commerce.
 
@@ -80,7 +80,7 @@ Kassas olev klient, kes on püsikliendiprogrammi liige ja kes on kogunud boonusp
 
 #### <a name="gift-cards"></a>Kinkekaardid
 
-Veebistardikomplekt võimaldab sisemisi kinkekaarte lunastada tellimuse jaoks. Sisemise kinkekaardi rakendamiseks peab klient olema sisse logitud. Täiendava turvalisuse tagamiseks soovitame teil voogu kohandada, kasutades sisemiste kinkekaartide jaoks isiklikku tuvastuskoodi (PIN-koodi).
+Mooduliteek võimaldab sisemisi kinkekaarte lunastada tellimuse jaoks. Sisemise kinkekaardi rakendamiseks peab klient olema sisse logitud. Täiendava turvalisuse tagamiseks soovitame teil voogu kohandada, kasutades sisemiste kinkekaartide jaoks isiklikku tuvastuskoodi (PIN-koodi).
 
 ### <a name="signed-in-and-guest-users"></a>Sisselogitud ja külaliskasutajad
 

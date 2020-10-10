@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2ea87e4147757a584e38b819faa8a0423ec0028
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216068"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893157"
 ---
 # <a name="set-up-vendor-accounts"></a>Hankijakontode seadistamine
 
@@ -66,7 +66,7 @@ Hankija kontaktid saate luua nullist. Teise võimalusena saate kopeerida üksika
 
 Te ei saa kustutada kontaktiisiku kirjet, kui kontaktidel on dokumendis viidatud. Selle asemel saate kontakti inaktiveerida.  
 
-Rakenduses Microsoft Office 365 saate lisada isiklikele kontaktidele hankija kontakte. Siiski peate esmalt seadistama sünkroonimise rakenduste Supply Chain Management ja Office 365 vahel nii Microsoft Exchange Serveri sünrkoonimises kui ka Microsoft Outlooki seadistusviisardis.
+Rakenduses Microsoft 365 saate lisada hankija kontaktid oma isiklikesse kontaktidesse. Siiski peate enne seadistama sünkroonimise rakenduste Supply Chain Management ja Microsoft 365 vahel nii Microsoft Exchange Serveri sünkroonimises kui ka Microsoft Outlooki seadistusviisardis.
 
 ## <a name="vendors-in-different-legal-entities"></a>Hankijad erinevates juriidilistes isikutes
 Kui hankija on registreeritud teie organisatsioonis ainult ühele juriidilisele isikule ja teised juriidilised isikud peavad registreerima sama hankija, saate kasutada lehte **Lisa hankija teise juriidilisse isikusse**, et konfigureerida hankija tegema äri teise juriidilise isikuga. Peate valima hankija grupi, valuuta ja hoidma hankija olekut valitud juriidilises isikus.  

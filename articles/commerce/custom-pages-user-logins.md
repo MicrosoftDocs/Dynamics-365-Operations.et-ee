@@ -3,7 +3,7 @@ title: Kohandatud lehtede seadistamine kasutajate sisselogimise jaoks
 description: Selles teemas kirjeldatakse, kuidas luua rakenduses Microsoft Dynamics 365 Commerce kohandatud lehti, mis käsitsevad Azure Active Directory (Azure AD) ettevõtte ja tarbija (B2C) rentnike kohandatud sisselogimisi.
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533455"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817302"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Kohandatud lehtede seadistamine kasutajate sisselogimise jaoks
 
@@ -74,7 +74,7 @@ Poliitika „Profiili redigeerimine” konfigureerimiseks järgige allolevaid et
 
 1. Valige suvand **Uus kasutaja voog** ja seejärel valige vahekaardil **Soovitatav** poliitika **Profiili redigeerimine**.
 1. Sisestage poliitika nimi (nt **B2C\_1\_EditProfile**).
-1. Jaotises **Identiteedipakkujad** valige poliitika jaoks kasutatavad identiteedipakkujad. Minimaalselt peab olema valitud**Kohaliku konto sisselogimine**.
+1. Jaotises **Identiteedipakkujad** valige poliitika jaoks kasutatavad identiteedipakkujad. Minimaalselt peab olema valitud **Kohaliku konto sisselogimine**.
 1. Veerus **Atribuudi kogumine** märkige märkeruudud suvandite **Meiliaadressid** ja **Perekonnanimi** juures.
 1. Veerus **Tagastamise nõue** märkige märkeruudud suvandite **Meiliaadressid**, **Eesnimi**, **Identiteedipakkuja**, **Perekonnanimi** ja **Kasutaja objekti ID** juures.
 1. Poliitika loomiseks valige **OK**.
@@ -154,7 +154,7 @@ Poliitika „Registreerimine ja sisselogimine” kohandatud lehe teabega värske
 Poliitika „Profiili redigeerimine” kohandatud lehe teabega värskendamiseks tehke järgmist.
 
 1. Valige varasemalt konfigureeritud poliitikas **Profiili redigeerimine** navigeerimispaanil suvand **Lehe paigutused**.
-1. Valige paigutus**Profiili redigeerimise leht**.
+1. Valige paigutus **Profiili redigeerimise leht**.
 1. Seadistage suvand **Kohandatud lehe sisu kasutamine** valikule **Jah**.
 1. Sisestage väljal **Kohandatud lehe URL** täispikk profiili redigeerimise URL. Lisage järelliide **?preloadscripts=true**. Sisestage näiteks ``www.<my domain>.com/profile-edit?preloadscripts=true``.
 1. Valige väljal **Lehe paigutuse versioon (eelvaade)** suvand **1.2.0**.
@@ -181,17 +181,17 @@ Poliitika „Parooli lähtestamine” kohandatud lehe teabega värskendamiseks t
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Siltide ja kirjelduste vaikimisi tekstistringide kohandamine
 
-Alustuskomplektis on sisselogimise moodulid eeltäidetud siltide ja kirjelduste vaikimisi tekstistringidega. Saate neid stringe tarkvara arenduskomplektis (SDK) kohandada, uuendades sisselogimise mooduli väärtusi failis global.json.
+Mooduliteegis on sisselogimise moodulid eeltäidetud siltide ja kirjelduste vaiketekstistringidega. Saate neid stringe tarkvara arenduskomplektis (SDK) kohandada, uuendades sisselogimise mooduli väärtusi failis global.json.
 
 Näiteks unustatud parooli lingi vaiketekst on **Unustatud parool?**. Järgnevalt on näidatud see vaiketekst sisselogimise lehel.
 
 ![Sisselogimislehe ununenud parooli lingi vaiketekst](./media/B2C_SignUp_ModuleFace.png)
 
-Samas alustuskomplekti sisselogimismooduli failis global.json saate muuta tekstiks **Kas unustasite parooli?**, nagu järgmises näites on näidatud.
+Siiski saate mooduliteegi sisselogimismooduli failis global.json muuta teksti väärtuseks **Kas unustasite parooli?**, nagu järgmises näites on näidatud.
 
 ![Värskendatud lingi tekst logisse mooduli Global. JSON failis](./media/B2C_CustomizingStringsForModule.png)
 
-Pärast faili global.json uuendamist ja muudatuste avaldamist ilmub sisselogimise moodulil uus tekst nii Commerce’is kui ka raalajas sisselogimise lehel.
+Pärast faili global.json värskendamist ja muudatuste avaldamist ilmub sisselogimise moodulil uus tekst nii Commerce'is kui ka raalajas sisselogimise lehel.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

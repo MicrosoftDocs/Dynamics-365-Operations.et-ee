@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectTableCopyStructure, EntAssetObjectTableCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5c77f32caad5e2e79cbc0e21f72a3daa79acecb
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 045bb59642d766ac23939dee0900ea6911fe50fe
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3274161"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3890029"
 ---
 # <a name="create-an-asset"></a>Vara loomine
 
@@ -73,7 +73,7 @@ Väljal **Põhivara number** saate valida põhivaraga seotava vara. See on oluli
 
 ## <a name="details"></a>Üksikasjad
 
-Väljal **Aktiivne alates** kuvatakse kuupäev, mil te vara töötsükli oleku aktiivsesse olekusse uuendasite (lugege varade töötsüklite oleku seadistamise teemat [Vara töötsükli olekud](../setup-for-objects/object-stages.md). Kui vara ei ole enam aktiivne ja olete vara töötsükli oleku uuendanud passiivseks töötsükli olekuks, kuvatakse väljal **Aktiivne kuni** kuupäev, alates millest on vara passiivne. Vajadusel saate neid kuupäevi käsitsi muuta.
+Väljal **Aktiivne alates** kuvatakse kuupäev, mil te vara töötsükli oleku aktiivsesse olekusse uuendasite (lugege varade töötsüklite oleku seadistamise teemat [Vara töötsükli olekud](../setup-for-objects/object-stages.md)). Kui vara ei ole enam aktiivne ja olete vara töötsükli oleku uuendanud passiivseks töötsükli olekuks, kuvatakse väljal **Aktiivne kuni** kuupäev, alates millest on vara passiivne. Vajadusel saate neid kuupäevi käsitsi muuta.
 
 Vajadusel saate sisestada vara asendamise eeldatava kuupäeva väljale **Asenduse kuupäev**. Vara asendamise eeldatava väärtuse saab sisestada väljale **Asendusväärtus**. Näide: saate kasutada asendusteavet selle võrdlemiseks vara hoolduskuludega ja seejärel teha otsuse uue vara ostmiseks, kui olemasoleva vara hoolduskulud kasvavad kiiresti.
 

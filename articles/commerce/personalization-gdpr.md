@@ -3,7 +3,7 @@ title: Isikupärastatud soovitustest loobumine
 description: See teema selgitab, kuidas saate lubada klientidel loobuda rakenduses Microsoft Dynamics 365 Commerce isikupärastatud soovituste saamisest.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a51c8c0e2743b67df9d66a8c45ab7a69597f4002
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664926"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817519"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Isikupärastatud soovitustest loobumine
 
@@ -74,7 +74,7 @@ Järgmine näide näitab, kuidas jaemüüja saab seda ülesannet täita.
 1. Jaemüüja loob kohandatud laienduse, et tõmmata kasutaja nimel isiklikke soovituste andmeid. Lisateavet moodulite loomise, olemasolevate moodulite kloonimise, jaemüügiserveri API-de kutsumise ja andmetegevuste kutsumise kohta vt teemast [Võrgukanali laiendatavus](e-commerce-extensibility/overview.md).
 2. Kohandatud laiend teeb kutsungi tuumandmetegevusele **hangi-soovitused** ja edastab sellele nõutud teabe, mis põhineb loendi nõuetel. Loendi **Teile valitud** korral peab laiend edastama andmetegevusele õige loendi nime ja kliendi ID.
 
-    Üks kohandatud laiendi loomise viis on kloonida olemasolevaid toote kogumise mooduleid, mida kasutatakse soovituste tulemuste tagastamiseks. Selle olemasoleva mooduli kloonimisega saab jaemüüja olemasolevat koodi muuta ja lisada uue nupu, mis ekspordib soovituste tulemused CSV-faili. Lisateavet vt teemast [Alustuskomplekti mooduli kloonimine](e-commerce-extensibility/clone-starter-module.md) ja [Tootekogumi moodulid](product-collection-module-overview.md).
+    Üks kohandatud laiendi loomise viis on kloonida olemasolevaid toote kogumise mooduleid, mida kasutatakse soovituste tulemuste tagastamiseks. Selle olemasoleva mooduli kloonimisega saab jaemüüja olemasolevat koodi muuta ja lisada uue nupu, mis ekspordib soovituste tulemused CSV-faili. Lisateavet leiate teemast [Mooduliteegi mooduli kloonimine](e-commerce-extensibility/clone-starter-module.md) ja [Tootekogumi moodulid](product-collection-module-overview.md).
 
     Jaemüügiserveri API teegi täieliku vaate leiate teemast [Jaemüügiserveri kliendi ja tarbija API-d](dev-itpro/retail-server-customer-consumer-api.md).
 
@@ -85,7 +85,7 @@ Järgmine näide näitab, kuidas jaemüüja saab seda ülesannet täita.
 
 [Tootesoovituste ülevaade](product-recommendations.md)
 
-[ Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas](enable-adls-environment.md)
+[Azure Data Lake Storage'i lubamine Dynamics 365 Commerce'i keskkonnas](enable-adls-environment.md)
 
 [Luba tootesoovitused](enable-product-recommendations.md)
 

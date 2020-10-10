@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4acde9703c721ab7c20d1603299a10dda91b23c4
-ms.sourcegitcommit: b8f8ccab2cd9d848e5ecd71caaf0a63237e2236b
+ms.openlocfilehash: 015b595f85397fc1cf2c0368814ddc0369176f82
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957059"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893191"
 ---
 # <a name="new-document-user-interface-in-business-document-management"></a>Uus dokumendi kasutajaliides äridokumendi halduses
 
 [!include [banner](../includes/banner.md)]
 
-Äridokumendi haldus võimaldab ärikasutajatel redigeerida äridokumendi malle teenuse Microsoft Office 365 või vastava Microsoft Office töölauarakendusega. Muudatused võivad hõlmata kujunduse muudatusi või uusi juurutusi, või kasutajad võivad lisada kohatäited, et kaasata täiendavaid andmeid, ilma et peaksite lähtekoodi muutma. Lisateavet äridokumentide haldusega töötamise kohta vt [Äridokumendi halduse ülevaatest](er-business-document-management.md).
+Äridokumendi haldus võimaldab ärikasutajatel redigeerida äridokumendi malle Microsoft 365 teenuse või asjakohase Microsoft Office'i töölauarakendusega. Muudatused võivad hõlmata kujunduse muudatusi või uusi juurutusi, või kasutajad võivad lisada kohatäited, et kaasata täiendavaid andmeid, ilma et peaksite lähtekoodi muutma. Lisateavet äridokumentide haldusega töötamise kohta vt [Äridokumendi halduse ülevaatest](er-business-document-management.md).
 
 Uus dokumendi kasutajaliides (UI) on selgem ja seda on mugavam kasutada. **Äridokumendi** ala näitab ainult malle, mis on saadaval praegusele pakkujale.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4412fb08c8548c8ebe8455db0547618578e5e5b4
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771279"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893359"
 ---
 # <a name="generate-printable-fti-forms"></a>Prinditavate FTI-vormide loomine
 
@@ -111,7 +111,7 @@ FTI postitamisel saate ka luua FTI-vorme, kui lülitate sisse suvandi **Prindi a
 ER-i raamistik toetab praegu loodud dokumentide jaoks järgmisi sihtkohti.
 
 - **Allalaaditud fail** – loodud vorme pakutakse allalaadimistena, mida saate brauseri kaudu salvestada.
-- **Ekraan** – loodud FTI-vormide eelvaadete kuvamiseks Exceli vormingus kasutatakse rakendust Microsoft Office 365 Excel.
+- **Ekraan** – kasutatakse rakendust Microsoft 365 Excel, et kuvada loodud FTI-vormide eelvaated Exceli vormingus.
 - **SharePointi kaust** – loodud vorme hoiustatakse dokumendihalduse raamistiku sätete põhjal.
 - **Rakenduse arhiiv**– loodud vorme hoiustatakse Microsoft Azure’i salvestusruumis käivituslogi kirjete manustena.
 - **Meil** – loodud vormid saadetakse meilimanustena.

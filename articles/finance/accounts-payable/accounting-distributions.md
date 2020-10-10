@@ -1,9 +1,9 @@
 ---
 title: Arvestuse jaotused
-description: Selles artiklis antakse teavet arvestuse jaotuste kohta ja kirjeldatakse nende töötlemiseks saadaolevaid võimalusi. Arvestuse jaotusi kasutatakse rahasummade eraldamiseks lähtedokumendi jaoks teatud pearaamatukontode puhul.
+description: Selles teemas leidub teave arvestuse jaotuste kohta ja kirjeldatakse nende töötlemiseks saadaolevaid võimalusi.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e9f185ac95371bb841e55184650b8089040676c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772256"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819835"
 ---
 # <a name="accounting-distributions"></a>Arvestuse jaotused
 
 [!include [banner](../includes/banner.md)]
 
-Selles artiklis antakse teavet arvestuse jaotuste kohta ja kirjeldatakse nende töötlemiseks saadaolevaid võimalusi. Arvestuse jaotusi kasutatakse rahasummade eraldamiseks lähtedokumendi jaoks teatud pearaamatukontode puhul. 
+Selles teemas leidub teave arvestuse jaotuste kohta ja kirjeldatakse nende töötlemiseks saadaolevaid võimalusi. Arvestuse jaotusi kasutatakse rahasummade eraldamiseks lähtedokumendi jaoks teatud pearaamatukontode puhul. 
 
 Arvestuse jaotused on programmiülene võimalus, mida kasutatakse ja laiendatakse iga lähtedokumendiga (nt ostutellimuse, hankija arve, kuluaruande ja vabas vormis arvega). Vaikimisi luuakse iga lähtedokumendi rea jaoks arvestuse jaotus ja rahasumma ning see on muutmiseks tingimuslikult lubatud. 
 
-> [!Note] 
+> [!NOTE] 
 > Mõned dokumendid toetavad ka päisedokumendi rahasummasid, nagu tellimuste ja arvete tasud. 
 
 Üldised arvestuse jaotuse võimalused annavad arvestuse jaotuse töötlemiseks järgmised võimalused.
@@ -47,14 +47,13 @@ Arvestuse jaotused on programmiülene võimalus, mida kasutatakse ja laiendataks
     -   Nupu **Lähtesta** saab lubada põhijaotuste puhul, kui on olemas rohkem kui üks jaotus. Nupp **Lähtesta** tühistab kõik jaotusele käsitsi tehtud muudatused, kustutades kõik olemasolevad jaotused ja luues uuesti vaikejaotused.
     -   Kõik alamjaotused, nagu allahindlus, tasu ja käibemaks, järgnevad alati põhijaotusele. Põhi-/alamüksuse seost saab vaadata jaotises **Viide** &gt; **Põhidokumendi teave**.
     -   Põhikontot ja finantsdimensioone võib olla võimalik redigeerida ka alamüksuste puhul.
-    -   Arvestuste jaotuste finantsdimensioonid järgivad vaikemustrit, mida dokument võib laiendada. Täiendavad üksikasjad leiate seotud artiklitest.
+    -   Arvestuste jaotuste finantsdimensioonid järgivad vaikemustrit, mida dokument võib laiendada.
     -   Hälbe jaotusi võidakse luua vastendamisstsenaariumides, nt hankija arve ja ostutellimuse vastendamisel. Arvestuse jaotuse vastendamise seoseid saab vaadata jaotises **Viide** &gt; **Dokumendi teave**.
     -   Nupp **Paranda** kuvatakse ja on lubatud dokumentide puhul, mis toetavad parandusi. Nupp **Paranda** loob uued jaotused. Esmalt luuakse need jaotused, mis tühistavad algsed jaotused. Neid jaotusi ei saa muuta. Seejärel luuakse uued õiged arvestuse jaotused. Neid jaotusi saab muuta, kui algseid jaotusi sai muuta.
     -   Nupp**Projekti üksikasjad** lubatakse laiendusena, kui projektiga seostatakse rida. Projekti arvestuse jaotuste abil saate muuta üksikasju nagu näiteks rahastamise allikas ja rea atribuut.
     -   Praeguse dokumendi raamatupidamisolekut saab vaadata jaotises **Viide**. Olek kehtib kogu dokumendi puhul ja näitab, kas dokument on lõpetamata või lõpetatud.
 -   **Jaotuste kuvamine** – saate kuvada arvestuse jaotused kõigi dokumendi ridade ja rahasummade kohta. Selles vaates arvestuse jaotusi muuta ei saa.
 
+Versioonis 10.0.13 lisati funktsioon, mis kontrollib arvestuse jaotuse tabelit, et tagada uute väljade õigesti seadistamine. Selle funktsiooni nimi on **Luba andmete täiendav kontrollimine dokumentide puhul, mis kasutavad lähtedokumendi raamatupidamisraamistikku**. Funktsiooni kasutamiseks peate selle lubama tööruumis **Funktsioonihaldus**. Funktsiooni lubamiseks otsige funktsiooni nime väljal **Otsing**, mis asub lehel **Funktsioonihaldus**, ja seejärel valige **Luba kohe**.
 
 Lisateabe saamiseks vaadake jaotist [Arvestuse jaotus ja alammooduli töölehe kirjed hankija arvete jaoks](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
-
-

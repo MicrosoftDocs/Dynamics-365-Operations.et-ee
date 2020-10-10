@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771841"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823451"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finantskonsolideerimiste ja valuutateisenduse ülevaade
 
@@ -103,6 +103,7 @@ Konsolideerimise tulemuste vaatamiseks on teil mitu võimalust.
     ![Konsolideerimiskanded konsolideerimiste lehel](./media/managing-consolidation-transactions.png "Konsolideerimiskanded konsolideerimiste lehel")
 
 Konsolideerimise uuesti käivitamiseks võite konsolideerimist lihtsalt töödelda. Võite ka esmalt valida suvandi **Kannete eemaldamine** lehelt **Konsolideerimised**.
+Kui teie konsolideeritud konto saldod ei ole täpsed, saab saldosid korrigeerida lehe **Sulgemisperioodi korrigeerimised** abil.
 
 ## <a name="consolidate-with-import"></a>Konsolideeri impordiga
 Impordiga konsolideerimise funktsioon töötab nagu võrguühendusega konsolideerimine. Kui valite juriidilised üksused, otsite välja lähtefaili, mis andmeid sisaldab.
@@ -156,6 +157,7 @@ Lisateavet valuuta ümberarvestamise toimimise kohta moodulis **Pearaamat** vt t
 - Eemaldamise töölehti saab sisestada ainult praegusesse kihti.
 - Konsolideeritakse ainult tootmissaldosid. Seetõttu peate algsaldode nägemiseks siiski konsolideeritavas ettevõttes käivitama rahandusaasta sulgemise.
 - Saate sisestada igapäevaseid töölehti eemaldamisettevõttesse, aga mitte konsolideeritavasse ettevõttesse.
+- Konsolideeritava ettevõtte saldosid saab korrigeerida ainult lehe **Sulgemisperioodi korrigeerimised** abil. 
 
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>Finantskonsolideerimisteks ja valuuta teisendamiseks või konsolideeritud aruandluse jaoks võrguühendusega konsolideerimise täiendamiseks finantsaruandluse kasutamise eelised
 Klientidel, kes kasutavad finantsaruandlust finantskonsolideerimisteks ja valuuta teisendamiseks või konsolideeritud aruandluse jaoks võrguühendusega konsolideerimise täiendamiseks, on mitmesuguseid eeliseid.

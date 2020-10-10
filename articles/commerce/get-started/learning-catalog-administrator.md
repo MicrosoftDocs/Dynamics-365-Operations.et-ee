@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce'i administraatorite õppekataloog
-description: Leidke kõik rakendusekomplekti Dynamics 365 Commerce koolitusvõimalused.
+description: Siit leiate kõik koolitusvõimalused Dynamics 365 Commerce'i administraatorirollile.
 author: margoc
 ms.topic: article
 ms.date: 07/23/2020
@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a6e0b6103bf453b74ae485f06bf139b13bae7b2
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: fc4df1c7fc47608300d705616768b6c8ef135652
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793389"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821200"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Õppekataloog Dynamics 365 Commerce'i administraatoritele
 
@@ -39,7 +39,7 @@ Järgnev kataloog hõlmab üld- ja valdkonnapõhiseid teadmisi nii baas- kui ka 
 
 | Sisu  | Kirjeldus  | Vorming  | Pikkus    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Dynamics 365 Commerce'i juurutamine](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/)                                    | Selles õppetees kirjeldatakse, kuidas juurutada Dynamics 365 Commerce'i keskkondasid ja toimida pärast ettevalmistust, et Commerce saaks edukalt juurutatud, kasutades iga jaemüüja ärivajaduste jaoks õiget topoloogiat.                               | Tasuta iseläbitav internetipõhine õppetee | 5 tundi   |
+| [Dynamics 365 Commerce'i juurutamine ja laiendamine](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Selles õppetees kirjeldatakse, kuidas juurutada Dynamics 365 Commerce'i keskkondasid ja toimida pärast ettevalmistust, et Commerce saaks edukalt juurutatud, kasutades iga jaemüüja ärivajaduste jaoks õiget topoloogiat. | Tasuta iseläbitav internetipõhine õppetee | 5 tundi   |
 | [Kassa (POS) konfigureerimine ja kasutamine Dynamics 365 Commerce'is](https://docs.microsoft.com/learn/paths/configure-use-pos-commerce/)         | Kandeandmed luuakse kassas (POS) ja laaditakse seejärel töötlemiseks üles Dynamics 365 Commerce'i peakontorisse. Selles õppetees kirjeldatakse, kuidas installida ja aktiveerida kassat, samuti kuidas luua kassas igapäevaseid kandeid. | Tasuta iseläbitav internetipõhine õppetee | 4.5 tundi |
 | [Kõnekeskuste konfigureerimine ja nendega töötamine Dynamics 365 Commerce'is](https://docs.microsoft.com/learn/paths/configure-work-call-centers-commerce/) | Dynamics 365 Commerce on mitmekanaliline lahendus, mis pakub kõnekeskuse kanalit koos võimalustega määrata kindlaid tellimuse töötlemise vaikesätteid ja andmete vaikeväärtuseid müügitellimuste jaoks, mille on loonud kõnekeskuse kasutajad.                                  | Tasuta iseläbitav internetipõhine õppetee | 2 tundi   |
 
