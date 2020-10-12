@@ -1,5 +1,5 @@
 ---
-title: Ostureskontro koduleht
+title: Ostureskontro kodulehekülg
 description: Teema annab ülevaate ostureskontrost.
 author: ShylaThompson
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: b663f63552f9de4dbafc0cb71b4381db6d8dc99a
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772233"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888152"
 ---
-# <a name="accounts-payable-home-page"></a>Ostureskontro koduleht
+# <a name="accounts-payable-home-page"></a>Ostureskontro kodulehekülg
 
 [!include [banner](../includes/banner.md)]
 
@@ -93,7 +93,7 @@ Määrake igale kasutaja määratud makseviisile süsteemi määratud maksetüü
 
 [Skonto võtmine väljaspool skonto perioodi](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[Hankija arvete elektroonilise aruandluse hankija näidistšekid](electronic-reporting-sample-vendor-checks.md)
+[Hankija näidistšekid elektroonilise aruandluse korral](electronic-reporting-sample-vendor-checks.md)
 
 [Hankija makse storneerimine](reverse-vendor-payment.md)
 
@@ -129,14 +129,14 @@ Avage [Microsoft Dynamics 365 väljalaskeplaanid](https://go.microsoft.com/fwlin
 
 Ostureskontro ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)ja [ajaveebist Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials)
 
-[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses MBS Operations.
+[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kus asub teave selle kohta, mis on uut ja põnevat rakenduses Dynamics 365.
 
 #### <a name="community-blogs"></a>Kogukonna ajaveebid
 
 [Võlgnevuste haldamine rakenduses Dynamics 365 Finance](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
 #### <a name="task-guides"></a>Tegevuse juhised
-Lisaspikker on saadaval rakenduse siseste tegevuse juhistena. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.
+Lisaspikker on saadaval rakenduses tegevuse juhistena. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu „Spikker”.
 
 #### <a name="videos"></a>Videod
 

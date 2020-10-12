@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c46c4c060d61503779726c68d32449c87b441f1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
+ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207898"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830745"
 ---
 # <a name="purchasing-policies-overview"></a>Ostupoliitikate ülevaade
 
@@ -64,7 +64,7 @@ Poliitika 123 on määratletud Suurbritannia müügi müügisosakonna osakonna o
 
 Poliitika 456 on määratletud müügi- ja turundusosakonna globaalse ostujuhtimise organisatsiooni hierarhiale. Poliitika 456 puhul ei määra ostutaotluse kontrollreegel, et piirangud tuleb kehtestada minimaalsetele tellimiskogustele. Selle reegli puhul ei valita suvandit **Jõusta minimaalse tellimuskoguse piirangud**.  
 
-Sam töötab Contoso Suurbritannia kontori Suurbritannia müügi müügiosakonnas. Tema osakonnale rakenduvad nii osakonna kui ka globaalse ostujuhtimise organisatsiooni hierarhiad. Kui Sam loob ostutaotluse, peab süsteem määrama, millist poliitikat rakendada. Süsteemiadministraator seadistab ostupoliitika parameetrid määratlemaks, et ostupoliitikaid tuleb rakendada järgmises eelisjärjestuses.
+Sam töötab Contoso Ühendkuningriigi kontori Ühendkuningriigi müügi müügiosakonnas. Tema osakonnale rakenduvad nii osakonna kui ka globaalse ostujuhtimise organisatsiooni hierarhiad. Kui Sam loob ostutaotluse, peab süsteem määrama, millist poliitikat rakendada. Süsteemiadministraator seadistab ostupoliitika parameetrid määratlemaks, et ostupoliitikaid tuleb rakendada järgmises eelisjärjestuses.
 
 1.  Globaalne ostujuhtimine
 2.  Osakond
@@ -102,9 +102,9 @@ Ostutaotluse pakkumiskutse reegel määratleb ostutaotluse rea jaoks pakkumiskut
 
 ### <a name="purchase-requisition-control-rule"></a>Ostutaotluse juhtimisreegel
 
-Ostutaotluse kontrollreegel on valikuline reegel. Seda tüüpi reeglite loomisel saate seada suvandeid erinevatele vahekaartidele.
+Ostutaotluse juhtimisreegel on valikuline taotluste puhul, mille tüüp on **tarbimine**. Seda tüüpi reeglite loomisel saate seada suvandeid erinevatele vahekaartidele.
 
--   Vahekaardil **Töövoo esitamine** saate konfigureerida väljad, mis tuleb täita taotluse real taotluse kinnitamiseks esitamiseks, kui taotluse eesmärk on **Tarbimine**.
+-   Vahekaardil **Töövoo esitamine** saate konfigureerida väljad, mis tuleb täita taotluse real taotluse esitamiseks kinnitamise eesmärgil.
 -   Vahekaardil **Tellimuse kogused** saate konfigureerida väljad, mis on ostutellimusel nõutavad teatud tingimustel. Saate rakendada ka tellimuse koguseid.
 -   Vahekaardil **Kuupäevad** saate konfigureerida, kas aruandluskuupäev on sama mis nõudekuupäev
 -   Vahekaardil **Aadress** saate määratleda, kas kasutajal lubatakse ostutaotlusele rakendamiseks luua süsteemis uusi aadresse.

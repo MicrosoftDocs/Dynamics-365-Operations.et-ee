@@ -3,7 +3,7 @@ title: Tekstiploki moodul
 description: See teema hõlmab tekstiploki mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93ad09a05d188a30b099b9a44c35e15839be80a7
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411131"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817374"
 ---
 # <a name="text-block-module"></a>Tekstiploki moodul
-
 
 [!include [banner](includes/banner.md)]
 
@@ -55,7 +54,7 @@ Järgmisel pildil on näide tekstiploki moodulist, mida kasutatakse avalehel.
 | Atribuudi nimi     | Väärtus                                            | Kirjeldus |
 |-------------------|--------------------------------------------------|-------------|
 | Rikastekst         | Rikastekst                                        | Lõigu tekst. Toetatud on mõned põhilised RTF-i võimalused, nagu paks, allajoonitud ja kursiivis tekst. |
-| Kohandatud klassinimi | Kaskaadlaadistiku (CSS) klassi nimi        | Kohandatud CSS'i klassi nimi, mille arendaja annab selle mooduli vormindamiseks. Klassi nimi tuleks määratleda kujundusepaketis. |
+| Kohandatud klassinimi | Kaskaadlaadistiku (CSS) klassi nimi        | Kohandatud CSS-i klassi nimi, mille arendaja annab selle mooduli vormindamiseks. Klassi nimi tuleks määratleda kujundusepaketis. |
 | Fondi suurus         | **Väike**, **Keskmine**, **Suur** või **Väga suur** | Sisu fondi suurus. |
 
 ## <a name="add-a-text-block-module-to-a-page"></a>Tekstiploki mooduli lehele lisamine
@@ -80,7 +79,7 @@ Uuele lehele tekstiploki mooduli lisamiseks ja vajalike atribuutide seadistamise
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
+[Mooduliteegi ülevaade](starter-kit-overview.md)
 
 [Kampaania ribareklaami moodul](add-alert.md)
 

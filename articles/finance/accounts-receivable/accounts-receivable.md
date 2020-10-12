@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d210e234e9004422913ac76bf4c9b720806cbece
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 00af26a9f41a6908fd0010ec9eac37e41ad9c2b6
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175904"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888104"
 ---
 # <a name="accounts-receivable-home-page"></a>Müügireskontro kodulehekülg
 
@@ -100,12 +100,12 @@ Avage [Microsoft Dynamics 365 tegevuskava](https://go.microsoft.com/fwlink/?link
 
 #### <a name="blogs"></a>Ajaveebid
 
-Müügireskontro ja muude lahendustega seotud arvamused, uudised ja muu teabe leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ja [ajaveebist Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Arvamusi, uudiseid ja muud teavet müügireskontro ning muude lahenduste kohta leiate [Microsoft Dynamics 365 ajaveebist](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ja [ajaveebist Microsoft Dynamics 365 Finance and Operations – Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kust nad saavad teada, mis on uut ja põnevat rakenduses MBS Operations.
+[Microsoft Dynamics Operationsi partnerite kogukonna ajaveeb](https://community.dynamics.com/partner/b/operationspartnercommunityblog) on Microsoft Dynamicsi partnerite jaoks kõikehõlmav ressurss, kus asub teave selle kohta, mis on uut ja põnevat rakenduses Dynamics 365.
 
 #### <a name="task-guides"></a>Tegevuse juhised
-Lisaspikker on saadaval rakenduse siseste tegevuse juhistena. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu Spikker.
+Lisaspikker on saadaval rakenduses tegevuse juhistena. Tegevuse juhistele juurdepääsemiseks klõpsake ükskõik millisel lehel nuppu „Spikker”.
 
 #### <a name="videos"></a>Videod
 

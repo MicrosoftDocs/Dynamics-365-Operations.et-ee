@@ -17,17 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761125"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818271"
 ---
 # <a name="cart-module"></a>Ostukorvi moodul
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab ostukorvi mooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
@@ -41,11 +40,11 @@ Ostukorvi moodul renderdab andmed ostukorvi ID põhjal, mis on üle kogu saidi s
 
 Järgmisel pildil on näide Fabrikami saidi ostukorvi lehest.
 
-![Ostukorvi mooduli näide](./media/cart2.PNG)
+![Ostukorvimooduli näide Fabrikami saidil](./media/cart2.PNG)
 
 Järgmisel pildil on näide Fabrikami saidi ostukorvi lehest. Selles näites on reakaubal töötluskulu.
 
-![Ostukorvi mooduli näide](./media/ecommerce-handling-fee.png)
+![Ostukorvimooduli näide koos reakauba töötluskuluga](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Ostukorvi mooduli atribuudid ja pesad
 

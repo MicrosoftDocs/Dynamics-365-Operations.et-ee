@@ -3,7 +3,7 @@ title: Varude sätete rakendamine
 description: See teema hõlmab varude sätteid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce rakendada.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 737e71dc73750bf151629fd904081924ac15b91e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621217"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817605"
 ---
 # <a name="apply-inventory-settings"></a>Varude sätete rakendamine
 
@@ -38,6 +38,9 @@ Varude sätted määratlevad, kas varusid tuleks enne toodete ostukorvi lisamist
 Dynamics 365 Commerce annab vabade toodete saadavuse hinnangu. Lisateavet vabade varude saadavuse hinnangu arvutamise kohta vt teemast [Varude saadavuse arvutamine jaemüügikanalite jaoks](calculated-inventory-retail-channels.md).
 
 Commerce'i saidiehitajas saab määratleda toote või kategooria varude künnised ja vahemikud. Need määratlevad, kas varude liigituseks on „olemas“, „madal varu“ või „laost otsas“. Lisateavet vt teemast [Varude puhvrite ja varude tasemete konfigureerimine](inventory-buffers-levels.md).
+
+> [!NOTE]
+> Varude lävesid ja vahemikke toetatakse rakenduse Dynamics 365 Commerce väljalaskes 10.0.12.
 
 ## <a name="inventory-settings"></a>Varude sätted
 
@@ -55,6 +58,9 @@ Commerce'is määratletakse varude sätted saidiehitajas jaotises **Saidi sätte
     - Suvandi **Laost otsas** valimisel kuvatakse ainult teade „Laost otsas“.
 
 - **Laost otsas künnis** – see vana numbrisäte jõustub ainult siis, kui sätte **Varude taseme alus** jaoks valitakse väärtus **Laost otsas künnis**.
+
+> [!IMPORTANT] 
+> Need sätted on saadaval rakenduse Dynamics 365 Commerce väljalaskes 10.0.12. Kui värskendate rakenduse Dynamics 365 Commerce varasemast versioonist, peate faili appsettings.json käsitsi värskendama. Faili appsettings.json värskendamise juhised leiate teemast [SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="modules-that-use-inventory-settings"></a>Varude sätteid kasutavad moodulid
 
@@ -74,7 +80,7 @@ Järgmisel pildil on toodud ostukorvi näide, kus kuvatakse teadet laos olemas (
 
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
+[Mooduliteegi ülevaade](starter-kit-overview.md)
 
 [Varude puhvrite ja varude tasemete konfigureerimine](inventory-buffers-levels.md)
 
@@ -85,3 +91,5 @@ Järgmisel pildil on toodud ostukorvi näide, kus kuvatakse teadet laos olemas (
 [Kontohalduse lehed ja moodulid](account-management.md)
 
 [Kaupluse valimise moodul](store-selector.md)
+
+[SDK ja mooduliteegi värskendused](e-commerce-extensibility/sdk-updates.md)

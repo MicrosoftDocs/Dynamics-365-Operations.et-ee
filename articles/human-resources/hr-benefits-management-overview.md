@@ -3,7 +3,7 @@ title: Soodustuste halduse ülevaade
 description: Rakenduse Dynamics 365 Human Resources soodustuste haldamise funktsiooni eelvaade. Pakkuge oma töötajatele hõlpsasti kasutatava võrgukasutuskogemusega laiendatud soodustuste võimalusi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599376"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819761"
 ---
 # <a name="benefits-management-overview"></a>Soodustuste haldamise ülevaade
 
@@ -41,15 +41,9 @@ Konkurentsivõime säilitamiseks peate pakkuma parimate töövõtjate meelitamis
 
 Kui soovite ligipääsu demoandmetelel, peate oma liivakastikeskkonna uuesti juurutama.
 
-## <a name="benefits-management-known-issues"></a>Soodustuste halduse teadaolevad probleemid
-
-### <a name="flex-credit-programs"></a>Paindliku krediidiga programmid
-
-Paindliku krediidiga programmi jaoks määratletud krediidi koguväärtust ei kuvata vormil **Töötaja soodustusplaanid**. Kui seate paindliku krediidiga programmi proportsionaalse arvestuse reegliks **Puudub**, kuvatakse viga plaanide valimisel ja kinnitamisel vormil **Töötaja soodustuse plaan**.
-
 ## <a name="enable-benefits-management"></a>Soodustuste halduse lubamine
 
-See artikkel kirjeldab, kuidas funktsioone rakenduses Human Resources sisse lülitada. Lisaks annab see teada, millised rakenduse Human Resources olemasolevad funktsioonid soodustuste haldamine asendab või keelab, kui lülitate soodustuste haldamise sisse.
+Selles teemas kirjeldatakse, kuidas funktsioone rakenduses Human Resources sisse lülitada. Lisaks annab see teada, millised rakenduse Human Resources olemasolevad funktsioonid soodustuste haldamine asendab või keelab, kui lülitate soodustuste haldamise sisse.
 
 > [!IMPORTANT]
 > Keskkonnas **Tootmine** ei saa soodustuste haldust keelata, kui olete selle lubanud. Enne soodustuste halduse keskkonnas **Tootmine** lubamist soovitame lubada ja testida soodustuste haldust keskkonnas **Liivakast**. Olemasolevate pärandsoodustuse funktsioonide ja uute pärandsoodustuse funktsioonide vahel on olulisi erinevusi, mis vajavad täiendavat seadistamist ja mida tuleks enne tootmise alustamist testida.

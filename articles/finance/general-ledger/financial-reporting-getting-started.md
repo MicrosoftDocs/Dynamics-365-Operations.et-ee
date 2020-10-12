@@ -3,7 +3,7 @@ title: Finantsaruandluse ülevaade
 description: Selles teemas kirjeldatakse, kus pääseda juurde rakenduse Microsoft Dynamics 365 Finance finantsaruandlusele ja kasutada finantsaruandluse võimalusi.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
-ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
+ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696684"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835106"
 ---
 # <a name="get-started-with-financial-reporting"></a>Rakenduse Financial Reporting kasutamise alustamine 
 
@@ -148,9 +148,7 @@ Mõned tavalisemad juhud, mis võivad põhjustada probleeme aruande kujundaja av
 * Valige Internet Exploreris **Sätted** ja seejärel valige **Interneti suvandid**. Valige vahekaart **Turve**. Valige Usaldusväärsed saidid ja seejärel valige **Saidid**. Sisestage jaotisesse **Lisa see veebisait tsooni** väärtus „\*\.dynamics.com” (jutumärkideta) ja seejärel valige **Lisa**. 
 * Valige Internet Exploreris **Sätted** ja seejärel valige **Interneti suvandid**. Valige vahekaart **Turve**. Valige Usaldusväärsed saidid. Muutke alal, mille silt on Selle tsooni turbetase suvandi väärtuseks **Keskmine-madal**.
 * Keelake hüpikakende blokeerija oma brauseris.
-* Tööjaamad peavad installima versiooni Visual Studio .NET 4.6.2 või uuema.
-
-Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [Microsofti allalaadimiskeskusest](https://www.microsoft.com/download/details.aspx?id=53345).
+* Tööjaamad peavad installima Microsoft .NET Frameworki versiooni 4.6.2 või uuema. Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [Microsofti allalaadimiskeskusest](https://www.microsoft.com/download/details.aspx?id=53345).
 * Kui kasutate Chrome’i brauserit, peate aruande koostaja kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Kui te ei saa Chrome'i sisse logida, proovige 1. probleemis kirjeldatud häälestusetapide järgimist Internet Exploreri või Microsoft Edge'i abil. 
 
 2. probleem: kasutajale ei ole määratud vajalikke lubasid rakenduse Financial Reporting kasutamiseks. 

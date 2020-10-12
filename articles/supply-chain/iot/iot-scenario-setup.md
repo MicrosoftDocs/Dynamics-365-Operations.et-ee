@@ -1,6 +1,6 @@
 ---
 title: IoT iseõppimisvõime stsenaariumi seadistamine
-description: Selles teemas kirjeldatakse, kuidas konfigureerida stsenaariumi Supply Chain Managementis IoT iseõppimisvõime jaoks.
+description: Selles teemas selgitatakse, kuidas konfigureerida stsenaariume IoT iseõppimisvõime jaoks rakenduses Microsoft Dynamics 365 Supply Chain Management.
 author: robinarh
 manager: tfehr
 ms.date: 08/16/2019
@@ -10,46 +10,47 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: ''
+ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5633741fcd9c04b68e5b174447d7ead3c521ccd7
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: d1deaa2130b63272da39a42315c6a1bc4b7ccb8a
+ms.sourcegitcommit: 8adc65e26d78e229271eb427659a87ee5f371319
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597164"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "3814055"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT iseõppimisvõime stsenaariumi seadistamine
 
 [!include [banner](../../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas konfigureerida stsenaariumi Supply Chain Managementis IoT iseõppimisvõime jaoks. Enne, kui saate seadistada stsenaariume, peate [seadistama LCS-i](iot-lcs-setup.md).
+Selles teemas selgitatakse, kuidas konfigureerida stsenaariume IoT iseõppimisvõime jaoks rakenduses Microsoft Dynamics 365 Supply Chain Management. Enne stsenaariumide seadistamist tuleb teil [seadistada teenused Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
 
-Selles teemas konfigureerite stsenaariumi **Seadmete seisakuaeg** teatise loomiseks Supply Chain Managementis masina tõrgete puhul.
+Selles teemas konfigureerite stsenaariumi **Seadmete seisakuaeg**, et masina tõrgete puhul luuaks rakenduses Supply Chain Management teatis. Selles teemas näidatakse ka, kuidas konfigureerida stsenaariumi **Tootekvaliteet**, et kauba atribuudi jäämisel väljapoole määratud vahemikku luuaks teatis, ja kuidas konfigureerida stsenaariumi **Tootmisviivitused**, et olukorras, kus tootmise läbilaskevõime jääb allapoole läviväärtust, luuaks teatis.
 
-## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a>Stsenaariumi **Seadmete seisakuaeg** konfigureerimine Supply Chain Managementis
+## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a>Stsenaariumi Seadmete seisakuaeg konfigureerimine Supply Chain Managementis
 
-Stsenaarium **Seadmete seisakuaeg** vastendab märguande osalisest väljas masina teatiste lävele. Masinat jälgitakse ainult juhul, kui see on selle stsenaariumi jaoks valitud ja on seatud käitama Supply Chain managementis. Kui aeg, millal seade sai viimati märguande osaliselt väljas, on suurem kui teatise lävi, käivitatakse teatis **Masina seisak**. Kui masin töötab edasi kuni järgmise märguande **PartOut** saamiseni käivitatakse teatis **Masin töötab**. Kui masina seisak kestab 30 minutit, käivitatakse uus teatis **Masina seisak**.
+Stsenaarium **Seadmete seisakuaeg** vastendab märguande **PartOut** masina teatiste lävega. Masinat jälgitakse ainult juhul, kui see on selle stsenaariumi jaoks valitud ja kui selle olekuks on rakenduses Supply Chain Management seatud **Töötab**. Kui aeg, millal masinast saadi viimati märguanne **PartOut**, on suurem kui teatiste lävi, käivitatakse teatis **Masina seisak**. Kui masin töötab edasi, käivitatakse järgmise märguande **PartOut** saamisel teatis **Masin töötab**. Kui masina seisak kestab 30 minutit, käivitatakse uus teatis **Masina seisak**.
 
 Stsenaariumil **Seadmete seisakuaeg** on järgmised sõltuvused.
 
-+ Teatise käivitamiseks tuleb käivitada tootmistellimus vastendatud masinal.
-+ Vastendatud masina signaali osaliselt väljas esindav märguanne tuleb saata kordumatu atribuudi nimega IoT-keskusesse.
-+ IoT-keskuse sõnum peab sisaldama Unixi millisekundites ajatempli atribuuti.
++ Teatist saab käivitada ainult juhul, kui tootmistellimus töötab vastendatud masinal.
++ Märguanne, mis esindab vastendatud masina märguannet **PartOut**, tuleb saata IoT keskusesse koos kordumatu atribuudinimega.
++ Azure'i IoT keskuse teade peab sisaldama UNIX-i atribuuti **ajatempel**, mille väärtust väljendatakse millisekundites (ms).
 
 Stsenaariumi konfigureerimiseks tehke järgmist.
 
-1. Logige sisse Supply Chain Managementi.
-2. Lubage IoT iseõppimisvõime funktsiooni lipp. Lisateavet vt [Funktsioonihalduse ülevaatest](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+1. Logige sisse rakendusse Supply Chain Management.
+2. Lubage IoT iseõppimisvõime funktsiooni lipp. Lisateavet vt [Funktsioonihalduse ülevaatest](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 3. Konfigureerige mõõdikud. Vaadake lisateavet teemast [Kuidas konfigureerida mõõdikuid](iot-metrics-setup.md#configure-metrics).
-4. Liikuge jaotisse **Tootmise juhtimine**.
-5. Liikuge jaotisse **Seadistus \> IoT iseõppimisvõime \> Stsenaariumide haldus**.
-6. Klõpsake paani **Seadmete seisakuaeg** nuppu **Konfigureeri**. Konfigureerimisviisard algab lehega **Seadmete anduri skeemi määratlus**. Selle eesmärk on seadistada skeem Supply Chain Managementis, et see vastaks IoT sõnumite JSON-vormingule. Saate määratleda mitu sõnumiskeemi. Vaadake lisateavet teemast [IoT-keskuse sõnumiskeemi vormingud](iot-schema-format.md). Selles näites sisaldab sõnumi koormus järgmise vorminguga sõnumite partiid.
+4. Avage **Tootmise juhtimine \> Seadistus \> IoT iseõppimisvõime \> Stsenaariumihaldus**.
+6. Valige paanil **Seadmete seisakuaeg** suvand **Konfigureeri**, et avada viisard.
+
+   Viisardi esimene leht on **Seadmete anduri skeemi määratlus**. Sellel lehel on teie eesmärk seadistada rakenduses Supply Chain Management skeem nii, et see ühtiks IoT keskuse teadete vorminguga JavaScript Object Notation (JSON). Saate määratleda mitu teateskeemi. Vaadake lisateavet teemast [IoT keskuse teadete skeemivormingud](iot-schema-format.md). Selles näites sisaldab teate last järgmises vormingus teadete partiid.
 
     ```json
     {
@@ -69,75 +70,76 @@ Stsenaariumi konfigureerimiseks tehke järgmist.
     }
     ```
 
-7. Lisage tabelisse rida.
+7. Lisage tabelisse rida ja seadke järgmised väärtused.
 
-    1. Määrake välja **Skeemi nimi** väärtuseks **ID**.
-    2. Määrake välja **Skeemi tee** väärtuseks **/payload[\*]/id**.
-    3. Määrake välja **Kirjeldus** väärtuseks **Sõnumi ID**.
+    1. Seadke välja **Skeemi nimi** väärtuseks **ID**.
+    2. Seadke välja **Skeemi tee** väärtuseks **/payload\[\*\]/id**.
+    3. Seadke välja **Kirjeldus** väärtuseks **Teate ID**.
 
-8. Lisage tabelisse rida.
+8. Lisage tabelisse veel üks rida ja seadke järgmised väärtused.
 
-    1. Määrake välja **Skeemi nimi** väärtuseks **Ajatempel**.
-    2. Määrake välja **Skeemi tee** väärtuseks **/payload[\*]/timestamp**.
-    3. Määrake välja **Kirjeldus** väärtuseks **Sõnumi ajatempel**.
+    1. Seadke välja **Skeemi nimi** väärtuseks **Ajatempel**.
+    2. Seadke välja **Skeemi tee** väärtuseks **/last\[\*\]/ajatempel**.
+    3. Seadke välja **Kirjeldus** väärtuseks **Teate ajatempel**.
 
-9. Lisage tabelisse rida.
+9. Lisage tabelisse veel üks rida ja seadke järgmised väärtused.
 
-    1. Määrake välja **Skeemi nimi** väärtuseks **Väärtus**.
-    2. Määrake välja **Skeemi tee** väärtuseks **/payload[\*]/value**.
-    3. Määrake välja **Kirjeldus** väärtuseks **Sõnumi väärtus**.
+    1. Seadke välja **Skeemi nimi** väärtuseks **Väärtus**.
+    2. Seadke välja **Skeemi tee** väärtuseks **/last\[\*\]/väärtus**.
+    3. Seadke välja **Kirjeldus** väärtuseks **Teate väärtus**.
 
-    Teil pole vaja määratleda sõnumi kõiki atribuute, ainult neid, mida vajate. Selles näites ei loonud te rida üksusele **Juurajatempel**. Üksuse **Juurajatempel** tee oleks **/timestamp**.
-  
-10. Klõpsake nuppu **Edasi**, et avada leht **Seadmete anduri skeemikaart**.
-11. Määrake real **Seadmete ressursi ID** välja **Skeemi nimi** väärtuseks **ID**. Kehtivad väärtused kuvatakse ripploendi tabelis.
-12. Määrake rea **UTC-aeg** välja **Skeemi nimi** väärtuseks **Ajatempel**. Kehtivad väärtused kuvatakse ripploendi tabelis.
-13. Määrake real **Osaliselt toodetud märguanne** välja **Skeemi nimi** väärtuseks **Väärtus**. Kehtivad väärtused kuvatakse ripploendi tabelis.
-14. Klõpsake nuppu **Edasi** lehe **Seadmete ressursi ID konfiguratsioon** jaoks.
-15. Selles etapis vastendate IoT-keskuse sõnumi väärtused Supply Chain Managementi ressurssidele.
+    > [!NOTE]
+    > Te ei pea kõiki teate atribuute määratlema. Määratlege ainult vajalikud atribuudid. Eelmiste sammude käigus ei loonud te rida **juurajatempli** jaoks. Üksuse **Juurajatempel** tee oleks **/ajatempel**.
 
-    1. Lisage tabelis **Märguande andmete väärtused** uus rida ja sisestage veergu **Väärtus** väärtus **IoTInt.Machine1225.PartOut**. Väärtus **IoTInt.Machine1225.PartOut** tuletatakse IoT-keskuse sõnumi JSON-i atribuudist **id**.
-    2. Klõpsake valikut **Salvesta**.
-    3. Klõpsake tabelis **Ärikirje vastendamine** valikut **Uus**. Välja **Ärikirje tüüp** vaikeväärtus asustatakse automaatselt ja seda ei pea muutma.
-    4. Valige veerus **Ärikirje** Supply Chain Managementi masina ressurss, kust selle signaali väärtus saadetakse.
-    5. Klõpsake valikut **Salvesta**.
-    6. Korrake neid etappe, lisades uue ärikirje vastendamise üksusele **Machine1226**. Saate vastendada mitu signaali andmete väärtust ühele kirjele Supply Chain Managementis.
+10. Valige **Edasi**, et avada leht **Seadmete anduri skeemikaart**.
+11. Määrake **Seadmete ressursi ID** real välja **Skeemi nimi** väärtuseks **ID**.
+12. Määrake rea **UTC-aeg** välja **Skeemi nimi** väärtuseks **Ajatempel**.
+13. Määrake real **Osaliselt toodetud märguanne** välja **Skeemi nimi** väärtuseks **Väärtus**.
+14. Valige **Edasi**, et minna lehele **Seadmete ressursi ID konfiguratsioon**.
+15. Järgige neid juhiseid, et vastendada IoT keskuse teatiste väärtused rakenduse Supply Chain Management ressurssidega.
 
-16. Kasutage veergu **Valitud**, et valida, milliseid masinaid soovite töödelda. Kõiki märguande väärtusi ei pea määratlema ja kõiki masinaid ei pea valima.
-17. Klõpsake nuppu **Edasi** lehe **Osaliselt toodetud märguande konfigureerimine** avamiseks.
-18. Lisage rida tabelisse **Märguande andmete väärtused** ja seadke suvandi **Väärtu** väärtuseks **Tõene**. Väärtus **Tõene** tuletatakse IoT-keskuse sõnumi JSON-i atribuudist **väärtus**. Saate lisada nii palju väärtusi, kui oma stsenaariumi jaoks vajate.
-19. Klõpsake valikut **Salvesta**.
-20. Klõpsake nuppu **Edasi**, et avada leht **Seadmete seisakuaja lävi**. Loetletud masinad on varasemalt märguande väärtustele vastendatud masinad. Selles etapis määratlete masina seisaku tuvastamise läve. Näiteks kui seate läve väärtuseks 10, loob Supply Chain Management teatise, kui masinalt ei tule 10 minuti jooksul sõnumit osaliselt väljas.
-21. Lehele **Stsenaariumi lubamine** minemiseks klõpsake valikut **Järgmine**. Liigutage liugurit stsenaariumi lubamiseks.
-22. Klõpsake nuppu **Lõpeta**.
+    1. Lisage tabelile **Märguande andmete väärtused** uus rida. Sisestage väljale **Väärtus** tekst **IoTInt.Machine1225.PartOut**. See väärtus on pärit IoT keskuse teate JSON-i atribuudist **id**.
+    2. Valige käsk **Salvesta**.
+    3. Valige tabelis **Ärikirje vastendamine** suvand **Uus**. Välja **Ärikirje tüüp** vaikeväärtus täidetakse automaatselt ja seda ei pea muutma.
+    4. Valige väljal **Ärikirje** rakenduse Supply Chain Management masina ressurss, kust selle märguande väärtus saadetakse.
+    5. Valige käsk **Salvesta**.
+    6. Korrake neid samme, et lisada üksusele **Machine1226** uus ärikirje vastendus. Ühe kirjega saate rakenduses Supply Chain Management vastendada mitu märguande andmete väärtust.
 
-Stsenaariumi häälestus on lõpule viidud. IoT iseõppimisvõime alustab automaatselt IoT-keskuse sõnumite töötlemist.
+16. Kasutage veergu **Valitud**, et valida masinad, mida soovite töödelda. Kõiki märguande väärtusi ei pea määratlema ja kõiki masinaid ei pea valima.
+17. Valige **Edasi**, et avada **Osaliselt toodetud märguande konfigureerimine**.
+18. Lisage rida tabelisse **Märguande andmete väärtused** ja seadke välja **Väärtus** väärtuseks **Tõene**. See väärtus on pärit IoT keskuse teate JSON-i atribuudist **väärtus**. Saate lisada nii palju väärtusi, kui oma stsenaariumi jaoks vajate.
+19. Valige käsk **Salvesta**.
+20. Valige **Edasi**, et avada leht **Seadmete seisakuaja lävi**. Loetletud masinad on varem märguande väärtustega vastendatud masinad. Sellel lehel määratlete läve masina seisaku tuvastamiseks. Näiteks kui seate läve väärtuseks **10**, loob rakendus Supply Chain Management teatise, kui masinalt ei tule 10 minuti jooksul märguannet **PartOut**.
+21. Lehele **Stsenaariumi lubamine** minemiseks valige **Edasi**. Seadistage suvand stsenaariumi lubamiseks.
+22. Valige **Lõpeta**.
 
-## <a name="configure-the-product-quality-scenario-in-supply-chain-management"></a>Stsenaariumi **Toote kvaliteet** konfigureerimine Supply Chain Managementis
+Stsenaariumi seadistus on lõpetatud. IoT iseõppimisvõime alustab automaatselt IoT keskuse teatiste töötlemist.
 
-Stsenaarium **Toote kvaliteet** loob teatise, kui kauba atribuut jääb määratletud vahemikust väljapoole. Näiteks võib sensor saata iga kauba kaalu IoT-keskusesse. Supply Chain Managementis luuakse teatis, kui kaup on liiga raske või liiga kerge.
+## <a name="configure-the-product-quality-scenario-in-supply-chain-management"></a>Stsenaariumi Toote kvaliteet konfigureerimine Supply Chain Managementis
 
-Stsenaariumil on järgmised sõltuvused.
+Stsenaarium **Toote kvaliteet** loob teatise, kui kauba atribuut jääb määratletud vahemikust väljapoole. Näiteks saadab sensor iga kauba kaalu IoT keskusesse. Kui kaup on liiga raske või liiga kerge, luuakse rakenduses Supply Chain Management teatis.
 
-+ Tootmistellimus peab töötama vastendatud masinal ja tootma vastendatud partii atribuudiga toodet teatise käivitamiseks.
-+ Partii atribuuti esindav märguanne tuleb saata kordumatu atribuudi nimega IoT-keskusesse.
-+ IoT-keskuse sõnum peab sisaldama Unixi millisekundites ajatempli atribuuti.
+Stsenaariumil **Tootekvaliteet** on järgmised sõltuvused.
 
-## <a name="configure-the-production-delays-scenario-in-supply-chain-management"></a>Stsenaariumi **Tootmise viivitused** konfigureerimine Supply Chain Managementis
++ Teatis käivitatakse ainult siis, kui tootmistellimus töötab vastendatud masinal ja toodab vastendatud partiiatribuuti omavat toodet.
++ Partiiatribuuti esindav märguanne tuleb saata IoT keskusesse koos kordumatu atribuudinimega.
++ IoT keskuse teade peab sisaldama UNIX-i atribuuti **ajatempel**, mille väärtust väljendatakse millisekundites.
 
-Stsenaarium **Tootmise viivitused** loob teatise, kui tootmise läbilaskevõime langeb alla läve väärtuse. Selle stsenaariumi puhul saadetakse IoT-keskusesse märguanne **PartOut** iga toodetud kauba kohta. Supply Chain Managementis arvutatakse tellimuse viivitus vastavalt sellele, kui pikalt on tootmistellimuse käitamine plaanitud, mitu kaupa tuleks toota, kui kaua tööd on käitatud ja mitu märguannet **PartOut** vastu võetakse. Viivituse teatis luuakse siis, kui selle töö märguannete **PartOut** arv jääb eeldatava väärtuse läve väärtusest allapoole.
+## <a name="configure-the-production-delays-scenario-in-supply-chain-management"></a>Stsenaariumi Tootmise viivitused konfigureerimine Supply Chain Managementis
 
-Stsenaariumil on järgmised sõltuvused.
+Stsenaarium **Tootmise viivitused** loob teatise, kui tootmise läbilaskevõime langeb alla läve väärtuse. Selle stsenaariumi puhul saadetakse IoT keskusesse märguanne **PartOut** iga toodetava kauba kohta. Rakenduses Supply Chain Management arvutatakse tellimuse viivitus selle põhjal, kui pikalt on tootmistellimuse käitamine plaanitud, mitu kaupa tuleks toota, kui kaua tööd on käitatud ja mitu märguannet **PartOut** vastu võetakse. Viivituse teatis luuakse siis, kui töö märguannete **PartOut** arv jääb läviväärtusest allapoole.
 
-+ Teatise käivitamiseks tuleb käivitada tootmistellimus vastendatud masinal.
-+ Vastendatud masina signaali osaliselt väljas esindav märguanne tuleb saata kordumatu atribuudi nimega IoT-keskusesse.
-+ IoT-keskuse sõnum peab sisaldama Unixi millisekundites ajatempli atribuuti.
+Stsenaariumil **Tootmise viivitused** on järgmised sõltuvused.
 
-## <a name="how-to-disable-a-scenario"></a>Stsenaariumi keelamine
++ Teatist saab käivitada ainult juhul, kui tootmistellimus töötab vastendatud masinal.
++ Märguanne, mis esindab vastendatud masina märguannet **PartOut**, tuleb saata Azure'i IoT keskusesse koos kordumatu atribuudinimega.
++ IoT keskuse teade peab sisaldama UNIX-i atribuuti **ajatempel**, mille väärtust väljendatakse millisekundites.
+
+## <a name="disable-a-scenario"></a>Stsenaariumi keelamine
 
 Stsenaariumi keelamiseks järgige neid toiminguid.
 
-1. Liikuge Supply Chain Managementi jaotisse **Tootmise juhtimine \> Häälestamine \> IoT iseõppimisvõime \> Stsenaariumihaldus**.
-2. Klõpsake stsenaariumi suvandit **Konfigureerimine**.
-3. Klõpsake viisardi viimasele vahekaardile jõudmiseks nuppu **Edasi**.
-4. Liigutage liugurit stsenaariumi keelamiseks.
+1. Avage rakenduses Supply Chain Management suvand **Tootmise juhtimine \> Seadistus \> IoT iseõppimisvõime \> Stsenaariumihaldus**.
+2. Stsenaariumi paanil valige **Konfigureeri**.
+3. Valige **Edasi**, et minna viimasele viisardilehele.
+4. Seadistage suvand stsenaariumi keelamiseks.

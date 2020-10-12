@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383086"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837259"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete seadistamine laotöö jaoks
 
@@ -398,7 +398,10 @@ Valikute selgitused leiate järgmisest tabelist.
 </tr>
 <tr class="odd">
 <td>Töömalli kood</td>
-<td>Valige töömall, mis loob protsessi jaoks töö. Näiteks kui võtate ostutellimuse jaoks kauba vastu, luuakse töömalli alusel paigutamistöö. Kui te töömalli &#39;ei vali, määrab Supply Chain Management malli päringukriteeriumide alusel. Töömallide kohta lisateabe saamiseks vaadake jaotist <a href="control-warehouse-location-directives.md">Laotöö juhtimine töömallide ja asukohadirektiividega</a>.</td>
+<td>Valige töömall, mis loob protsessi jaoks töö. Näiteks kui võtate ostutellimuse jaoks kauba vastu, luuakse töömalli alusel paigutamistöö. Kui te töömalli ei vali, määrab Supply Chain Management malli päringukriteeriumide alusel. Töömallide kohta lisateabe saamiseks vaadake jaotist <a href="control-warehouse-location-directives.md">Laotöö juhtimine töömallide ja asukohadirektiividega</a>.</td>
+<tr class="even">
+<td>Töörea loendi kuvamine</td>
+<td>Valige suvand, kuidas töötajad saavad vaadata ja suhelda praegu valitud komplekteerimistöö ridadega. Lisateavet selle suvandi kohta leiate teemast <a href="pick-line-overview.md">Mobiilse seadme menüüelemendi seadistamine komplekteerimisrea ülevaate kuvamiseks</a>.</td>
 </tr>
 </tbody>
 </table>

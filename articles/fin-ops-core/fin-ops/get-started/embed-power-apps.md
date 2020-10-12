@@ -1,9 +1,9 @@
 ---
-title: Power Appsi manustamine
-description: Selles teemas kirjeldatakse, kuidas manustada Power Appsi klienti, et tõsta toote funktsionaalsust.
+title: Power Appsi lõuendirakenduste manustamine
+description: Selles teemas seletatakse, kuidas manustada kliendis Microsoft Power Appsi lõuendirakendusi, et suurendada toote funktsionaalsust.
 author: jasongre
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,36 +16,39 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 90422a34499dab7302ad7722cf84d40e1815991c
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e57e4567a80aa9f9ba5ac434b0d71204460e164f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042938"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893103"
 ---
-# <a name="embed-microsoft-power-apps"></a>Microsoft Power Appsi manustamine
+# <a name="embed-canvas-apps-from-power-apps"></a>Power Appsi lõuendirakenduste manustamine
 
 [!include [banner](../includes/banner.md)]
 
-Finance and Operations toetab integratsiooni Microsoft Power Appsiga, mis on mõeldud arendajatele ja mittetehnilistele kasutajatele kohandatud ärirakenduste ehitamiseks mobiilsideseadmete, tahvelarvutite ning veebi jaoks ilma koodi kirjutamata.  Teie, teie organisatsiooni või laiema ettevõtete „ökosüsteemi” arendatud Power Appsi saab lisada Finance and Operationsi rakendustesse, et võimendada toote funktsionaalsust. Näiteks võite luua rakenduse Power Appsist, mis täiendab rakendust Finance and Operations teisest süsteemist toodud teabega.
+Microsoft Power Apps on teenus, mis võimaldab arendajatel ja mittetehnilistel kasutajatel luua kohandatud ärirakendusi mobiilsete seadmete, tahvelarvutite ja veebi jaoks ilma koodi kirjutamata. Finance and Operationsi rakenduste puhul toetatakse integratsiooni Power Appsiga. Teie, teie organisatsiooni või laiema ettevõtete „ökosüsteemi” arendatud lõuendirakendusi saab manustada Finance and Operationsi rakendustes, et suurendada toote funktsionaalsust. Näiteks saate luua Power Appsis lõuendirakenduse, mis täiendab Finance and Operationsi rakendust teisest süsteemist toodud teabega.
 
 Lisateavet Power Appsi manustamise kohta vaadake lühivideost [Kuidas manustada Power Appsi rakendusse](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
-## <a name="adding-an-embedded-app-from-power-apps-to-a-page"></a>Manustatud rakenduse lisamine Power Appsist lehele
+## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Manustatud lõuendirakenduse lisamine Power Appsist lehele
 
 ### <a name="overview"></a>Ülevaade
 
-Enne Power Appsist rakenduse klienti manustamist peate esmalt leidma või looma soovitud visuaalide ja/või funktsionaalsusega rakenduse. Siin ei kirjeldata rakenduste üksikasjalikku loomisprotsessi. Kui olete alles uus Power Appsi kasutaja, siis teema  [Power Appsi sissejuhatus](https://docs.microsoft.com/powerapps/getting-started) on heaks algukspunktiks.
+Enne Power Appsi rakenduse manustamist klienti peate leidma või looma soovitud visuaalide või funktsioonidega rakenduse. Selles teemas ei kirjeldata rakenduste loomise protsessi üksikasjalikult. Kui hakkasite Power Appsi alles kasutama, lugege [Power Appsi dokumentatsiooni](https://docs.microsoft.com/powerapps/).
 
-Kui olete valmis konkreetset rakendust manustama, on teil valida kahe võimaluse vahel, kuidas rakendust lehel avada, olenevalt sellest, milline viis teile paremini sobib. Esimene võimalus on kasutada standardselt toimingupaanile lisatud nuppu Power Apps. Sedasi lisatud rakendused  kuvatakse Power Appsi menüünupus menüü üksusena. Valimisel avab iga menüü-üksus külgpaani, mis sisaldab manustatud rakendust. Teise võimalusena saate rakenduse manustada otse lehel uue vahekaardina, kiirkaardina, labana või uue jaotisena tööruumis.
+Kui olete valmis rakendust manustama, on lehel kindlale lõuendirakendusele juurde pääsemiseks kaks võimalust. Saate valida, kumb meetod sobib teie olukorraga paremini. Esimene meetod kasutab standardsele toimingupaanile lisatud nuppu **Power Apps**. Selle meetodi abil lisatavad rakendused kuvatakse menüünupu **Power Apps** elementidena. Kui valite ühe nendest elementidest, kuvatakse külgpaan, mis sisaldab manustatud rakendust. Teise võimalusena saate rakenduse manustada otse lehel uue vahekaardi, kiirkaardi või labana või tööruumis uue jaotisena.
 
-Manustatud rakenduse konfigureerimisel saate valida ühe välja, mida kontekstina rakendusse saata. See võimaldab rakendusel reageerida praegu vaadatavate andmete põhjal.
+Manustatud lõuendirakenduse konfigureerimisel saate valida ühe välja, mida kontekstina rakendusse saata. Selle sammu tõttu saab rakendus reageerida praegu vaadatavate andmete põhjal.
 
-### <a name="details"></a>Üksikasjad
+> [!NOTE]
+> Praegu ei saa seda mehhanismi kasutada mudelipõhiste rakenduste manustamiseks.  
 
-Järgmised juhised näitavad, kuidas manustada rakendust Power Appsist veebiklienti.
+### <a name="details"></a>Details
 
-1. Minge lehele, kuhu soovite rakendust manustada. See on sama leht, mis sisaldab mis tahes andmeid, mis tuleb rakendusse sisendina edastada.
+Järgmises protsessis näidatakse, kuidas manustada Power Appsi lõuendirakendust veebikliendis.
+
+1. Avage leht, kus soovite lõuendirakenduse manustada. See on leht, mis sisaldab andmeid, mis tuleb rakendusse sisendina edastada.
 2. Avage paan **Lisa rakendus Power Appsist**.
 
     - Klõpsake valikut **Suvandid** ja seejärel valige **Isikupärasta see leht**. Valige menüüst **Lisa** suvand **Power Apps**. Lõpuks valige piirkond, kuhu soovite rakendust lisada. Kui soovite rakendust menüünupu Power Apps alt manustada, valige toimingupaan. Kui soovite rakendust otse lehele manustada, valige asjakohane vahekaart, kiirkaart, laba või jaotis (kui kasutate tööruumi).
@@ -54,8 +57,8 @@ Järgmised juhised näitavad, kuidas manustada rakendust Power Appsist veebiklie
 3. Manustatud rakenduse konfigureerimine.
 
     - Väljal **Nimi** on näidatud tekst, mis kuvatakse manustatud rakendust sisaldava nupu või vahekaardi jaoks. Sageli korratakse sellel väljal rakenduse nime.
-    - **Rakenduse ID** on manustatava rakenduse GUID. Selle väärtuse toomiseks leidke rakendus aadressilt [web.powerapps.com](https://web.powerapps.com) ja seejärel väli **Rakenduse ID** jaotisest **Üksikasjad**.
-    - Välja **Rakenduse sisendkontekst** jaoks võite valida ka välja, mis sisaldab andmeid, mida soovite rakenduse sisendina edastada. Üksikasju, kuidas rakendus saab juurdepääsu rakendusekomplektist Finance and Operations saadetud andmetele, vaadake selle jaotise allpool olevast teemast [Finance and Operationsi rakendustest saadetud andmeid kasutava rakenduse loomine](#building-an-app-that-leverages-data-sent-from-finance-and-operations-apps).
+    - Väljal **Rakenduse ID** on toodud manustatava lõuendirakenduse globaalne ainuidentifikaator (GUID). Selle väärtuse toomiseks leidke rakendus aadressilt [web.powerapps.com](https://web.powerapps.com) ja seejärel heitke pilk väljale **Rakenduse ID** jaotises **Üksikasjad**.
+    - Välja **Rakenduse sisendkontekst** jaoks võite valida ka välja, mis sisaldab andmeid, mida soovite rakenduse sisendina edastada. Üksikasju, kuidas rakendus saab juurdepääsu rakendusekomplektist Finance and Operations saadetud andmetele, vaadake selle jaotise allpool olevast teemast [Finance and Operationsi rakendustest saadetud andmeid kasutava rakenduse loomine](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps).
     - Valige **Rakenduse suurus**, mis on kooskõlas manustatava rakenduse tüübiga. Valige **Peenike** mobiilsetele seadmetele loodud rakenduste jaoks ja **Lai** tahvelarvutitele loodud rakenduste jaoks. See tagab, et manustatud rakenduse jaoks eraldatakse piisavalt ruumi.
     - Kiirkaardil **Juriidilised isikud** saate määrata, milliste juriidiliste isikute jaoks see rakendus saadaval on. Vaikimisi tehakse rakendus juurdepääsetavaks kõigile juriidilistele isikutele. See suvand on saadaval ainult siis, funktsioon [Salvestatud vaated](saved-views.md) on keelatud. 
 
@@ -63,16 +66,23 @@ Järgmised juhised näitavad, kuidas manustada rakendust Power Appsist veebiklie
 
 ## <a name="sharing-an-embedded-app"></a>Manustatud rakenduse ühiskasutusse andmine
 
-Kui olete rakenduse lehele manustanud ja veendunud, et see töötab korrektselt mis tahes lehelt edastatud andmete konteksti puhul, võite seda manustatud PowerAppi teistele süsteemis olevatele kasutajatele ühiskasutusse anda. Seda saab toote isikupärastamisvõimalusi kasutades teha kahel viisil.
+Kui olete lõuendirakenduse lehel manustanud ja veendunud, et see töötab korrektselt mis tahes lehelt edastatud andmekonteksti puhul, võite rakendust teiste süsteemis olevate kasutajatega jagada. Manustatud lõuendirakenduse jagamiseks toimige järgmiselt.
 
-- Soovitatav on seda teha süsteemi administraatori kaudu, kes saab isikupärastamise avaldada kõigile kasutajatele või kasutajate alamkogumile.
-- Teise võimalusena saate lehe isikupärastamised eksportida, saata need ühele või mitmele kasutajale ja igaüks neist saab muudatused importida. Isikupärastamise tööriistaribal on toiminguid, mis võimaldavad teil isikupärastamisi eksportida ja importida.
+1. [Jagage lõuendirakendust](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) sobivate kasutajatega, et nad pääseksid rakendusele Power Appsis juurde. 
+
+2. Veenduge, et sihtkasutajatel oleksid sobivad isikupärastamised, et lehekülge vaadates kuvataks neile manustatud rakendus. Saate kasutada üht järgmistest meetoditest.
+
+    - Soovitatav: kasutage funktsiooni [Salvestatud vaated](saved-views.md), et luua ja avaldada vaade, mis sisaldab manustatud rakendust. Selle meetodi puhul on tagatud, et kõik kasutajad, kellel on avaldatud vaatega seotud turberollid, näevad rakendust Finance and Operationsi rakendustes. 
+    - Kui salvestatud vaadete funktsioon pole sisse lülitatud, võite paluda süsteemiadministraatoril rakendada isikupärastamist, mis teeb manustatud rakenduse kättesaadavaks kõigile kasutajatele või kasutajate alamhulgale. Teise võimalusena saate eksportida oma lehe isikupärastamised ja saata need ühele või mitmele kasutajale. Need kasutajad saavad seejärel isikupärastamisi importida. Isikupärastamise tööriistaribal on tegevused, mis võimaldavad teil isikupärastamisi eksportida ja importida. 
+    
+> [!NOTE]
+> Kui lõuendirakendust on jagatud väliskasutajatega, ei saa nad kasutada manustatud rakendust Finance and Operationsi rakendustes. Siiski pääsevad nad rakendusele juurde otse Power Appsis. Väliskasutajad hõlmavad külalisi ja kasutajaid, kes ei kuulu Microsoft 365 Azure Directorysse, kus on juurutatud Finance and Operationsi rakendus.
 
 Toote isikupärastamise võimaluste ja nende kasutamise kohta vaadake lisateavet teemast [Kasutuskogemuse isikupärastamine](personalize-user-experience.md).
 
-## <a name="building-an-app-that-leverages-data-sent-from-finance-and-operations-apps"></a>Rakenduse ehitamine, mis võimendab rakendustekomplektist Finance and Operations saadetud andmeid
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Finance and Operationsi rakendustest saadetud andmeid kasutava lõuendirakenduse loomine
 
-Oluline osa Power Appsist rakenduse loomisest, mis manustatakse rakendusse Finance and Operations on selle rakenduse sisendandmete kasutamine. Power Appsi arenduse kogemuse põhjal pääseb Finance and Operationsi rakendusest edastatavate andmed juurde, kasutades muutujat Param("EntityId").
+Kui loote lõuendirakenduse, mis manustatakse Finance and Operationsi rakenduses, on sellest Finance and Operationsi rakendusest pärit sisendandmete kasutamine oluline protsessi osa. Power Appsi arendamiskogemuse põhjal on võimalik pääseda Finance and Operationsi rakendusest edastatavatele andmetele juurde muutuja **Param("EntityId")** abil.
 
 Näiteks saate Finance and Operationsi rakenduste sisendandmed rakenduse funktsioonis OnStart seadistada järgmiseks muutujaks.
 
@@ -80,9 +90,9 @@ Näiteks saate Finance and Operationsi rakenduste sisendandmed rakenduse funktsi
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
-## <a name="viewing-an-app"></a>Rakenduse kuvamine
+## <a name="viewing-a-canvas-app"></a>Lõuendirakenduse kuvamine
 
-Manustatud rakenduse kuvamiseks Finance and Operationsi rakenduste lehel avage lihtsalt manustatud rakendusega leht. Meenutuseks, et rakendusi saab avada standardse toimingupaani nupuga Power Apps või see võib olla kuvatud otse lehel vahekaardina, kiirkaardina, labana või tööruumi puhul uue jaotisena. Kui kasutaja püüab esimest korda rakendust lehele laadida, palutakse tal i sisse logida, tagamaks, et kasutajal on olemas vajalikud load rakenduse kasutamiseks.
+Manustatud lõuendirakenduse kuvamiseks Finance and Operationsi rakenduste lehel avage lihtsalt manustatud rakendust sisaldav leht. Pidage meeles, et rakendustele on võimalik juurde pääseda standardsel toimingupaanil asuva nupu **Power Apps** kaudu. Teise võimalusena võidakse need kuvada otse lehel uue vahekaardi, kiirkaardi või labana või tööruumis uue jaotisena. Kui kasutajad püüavad rakendust esimest korda lehel laadida, palutakse neil sisse logida. Selle abil tagatakse, et kasutajatel oleksid rakenduse kasutamiseks sobivad load.
 
 ## <a name="editing-an-embedded-app"></a>Manustatud rakenduse redigeerimine
 
@@ -106,7 +116,7 @@ Kui lehele on manustatud rakendus, on vajaduse korral võimalik seda eemaldada k
 
 ## <a name="appendix"></a>Lisa
 
-### <a name="developer-control-over-where-an-app-can-be-embedded"></a>Arendaja kontroll rakenduse manustamise asukohtade üle
+### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Arendajale] Rakenduse manustamise asukoha täpsustamine
 
 Vaikimisi saavad kasutajad rakendusi manustada mis tahes lehele kas Power Appsi menüünuppu kasutades või otse lehele vahekaardina, kiirkaardina, labana või tööruumi puhul jaotisena lisades. Ent kui see on vajalik, saavad arendajad järgmiste meetodite abil seda funktsiooni konfigureerida selliselt, et rakendusi saab manustada ainult teatud lehtedele.
 

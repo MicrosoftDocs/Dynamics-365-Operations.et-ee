@@ -3,7 +3,7 @@ title: Töövoo KKK
 description: Teemas on toodud vastused korduma kippuvatele küsimustele töövoo süsteemi kohta.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076082"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826186"
 ---
 # <a name="workflow-faq"></a>Töövoo KKK
 
@@ -58,3 +58,5 @@ Täiendatud keskkonnas teenuse Active Directory Federation Services (AD FS) all 
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Miks ma saan töövoo töötlemisel SQL-i tupikuid? 
 Vaikimisi välja väärtus suvandile **Töövoo üksuste arv partii kohta** lehel **Töövoo parameetrid** on 0. Väärtus 0 põhjustab vaikeväärtusel muuta 20 üksuseks partii kohta. Olge selle väärtuse kohandamisel ettevaatlik, kuna kaupade suur arv partii kohta (> 40) võib põhjustada SQL-i tupikuid.
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>Mis on töövoo täiustatud tõrgete funktsioon?
+Töövoo täiustatud tõrgete funktsiooni versioonis 10.0.13 lisati tõrkekoodid, et eristada töövootõrgete eri klasse. Kuvatavad tõrketeated on enamasti tuttavad, välja arvatud väikeste erinevuste poolest, et neid selgemaks teha.

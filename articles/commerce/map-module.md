@@ -3,7 +3,7 @@ title: Kaardimoodul
 description: See teema hõlmab kaardimooduleid ja kirjeldab, kuidas neid rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811180"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817202"
 ---
 # <a name="map-module"></a>Kaardimoodul
 
@@ -38,7 +38,8 @@ Kaardimoodul kuvab kaupluste asukohad interaktiivsel kaardil, mis renderdatakse 
 
 Kaardimoodul töötab koos kaupluse valija mooduliga, et määrata kaupluste geograafilised asukohad, mis tuleb kaardil renderdada. Kaupluse valija ja kaardimoodul teevad koostööd, kui kasutaja valib saidilehel kaupluse ühes nendest moodulitest. Kaardimooduleid saab kasutada ka teiste stsenaariumide puhul, mis ei ole seotud kaupluse valija moodulitega koos töötamisega. Kuid selleks tuleb moodulit kohandada.
 
-Kaardimoodul võeti kasutusele Commerce'i versioonis 10.0.13.
+> [!NOTE]
+> Kaardimoodul on saadaval rakenduse Dynamics 365 Commerce väljalaskes 10.0.13.
 
 Järgmisel pildil on näide kaardimoodulist, mida kasutatakse kaupluste asukohtade lehel.
 
@@ -70,9 +71,9 @@ Et kaardimoodul saaks suhelda Bingi kaartidega, peate tagama, et teie saidi sisu
  
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
+[Mooduliteegi ülevaade](starter-kit-overview.md)
 
-[Ostukasti moodul](add-buy-box.md)
+[Ostukastimoodul](add-buy-box.md)
 
 [Ostukorvimoodul](add-cart-module.md)
 

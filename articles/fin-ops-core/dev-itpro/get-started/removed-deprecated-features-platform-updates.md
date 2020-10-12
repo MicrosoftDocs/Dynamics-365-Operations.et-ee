@@ -3,7 +3,7 @@ title: Eemaldatud või aegunud platvormi funktsioonid
 description: See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Finance and Operationsi rakenduste platvormi uuendustest.
 author: sericks007
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2d54cfaddc1697eda543952831e745182df2753
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803135"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819885"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eemaldatud või aegunud platvormi funktsioonid
 
@@ -34,6 +34,22 @@ See teema kirjeldab funktsioone, mis on eemaldatud või plaanitakse eemaldada Fi
 See loend peaks aitama teil neid eemaldusi ja aegumisi oma plaanides arvesse võtta. 
 
 Üksikasjalikku teavet rakenduse Finance and Operationsi rakenduste objektide kohta leiate teemast [Tehnilise teabe aruanded](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Saate võrrelda nende aruannete eri versioone, et õppida objektide kohta, mida on igas Finance and Operationsi rakenduste versioonis muudetud või eemaldatud.
+
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.14 värskendused
+
+> [!NOTE]
+> Versioon 10.0.14 on eelväljaanne. Sisu ja funktsioonid võivad muutuda. Lisateavet eelväljaannete kohta vt teemast [Teenusevärskenduste kättesaadavus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+
+### <a name="online-users-page"></a>Võrgus viibivate kasutajate leht 
+
+|   |  |
+|------------|--------------------|
+| **Aegumise/eemaldamise põhjus** | See on pärandleht, mis loodi eelmise kliendi-/serveriarhitektuuri jaoks. Sellel lehel olev teave ei ole alati täpne, mis võib tekitada segadust ja olla eksitav. |
+| **Asendatud teise funktsiooniga?**   | Uus leht on saadaval hilisemas värskenduses.|
+| **Mõjutatud tootealad**         | Süsteemihaldus |
+| **Juurutamissuvand**              | Kõik |
+| **Olek**                         | See vorm eemaldatakse 2021. a oktoobris.   |
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Rakenduste Finance and Operations Platformi versiooni 10.0.13 värskendused
 

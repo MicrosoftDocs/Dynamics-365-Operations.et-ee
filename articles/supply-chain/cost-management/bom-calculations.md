@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice
+ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, ProdSetupCostEstimation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 6e83d438f4f1a913bfa86827d7ba0c1d9366030f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f90e5babb440a2226638f7d96f111816732f0e70
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202004"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826762"
 ---
 # <a name="bom-calculations"></a>BOM arvutused
 
@@ -82,8 +82,8 @@ Järgmised olukorrad näitavad taande põhimõtte kaht kasutamist:
 ## <a name="bom-calculation-of-a-suggested-sales-price"></a>Soovitatava müügihinna koosluse arvutamine
 Kui kasutate kulu pluss hinnalisandi meetodit, kajastab kauba arvutatud müügihind kasumit sätestavate protsentide kogumit, mis on määratud koosluse kalkulatsiooniks ja kuludeks, mis seostuvad kauba komponentidega, protsessi toimingutega ja asjakohaste tootmise üldkuludega. Hinnalisand kajastab kasumit sätestavaid protsente, mis on määratud kulugruppidele ja kaupadele määratud kulugruppidele, protsessi toimingute kulukategooriatele ning tootmise üldkulude kaudse kulu arvutamise valemitele. Kasumit sätestavate protsentide kogumid on tähistatud siltidega **Standardne**, **Kasum 1**, **Kasum 2** ja **Kasum 3**. Näiteks saab kogumis Kasum 1 määrata 50-protsendilise kasumit sätestava protsendi kulugrupile, mis on määratud ostetud materjalile, ja 80-protsendilise kasumit sätestava protsendi kulugrupile, mis on määratud protsessi toimingute kulugrupile. Koosluse arvutamise kontekst määrab, kuidas arvutatava müügihinna tulemusi käsitletakse.
 
--   **Koosluse arvutamine kauba ja määratud kuluversiooni jaoks** \– koosluse kalkulatsioon loob kuluversioonis ootel müügihinna kirje. See müügihinna kirje loob kalkulatsiooni üksikasjade vaatamiseks alguspunkti (näiteks lehel **Kauba kulu arvutamine**. Müügihinna kirje toimib peamiselt viiteteabena ja seda ei kasutata müügitellimuste müügihinna alusena.
--   **Tellimusekohane koosluse kalkulatsioon** \– lehe **Koosluse kalkulatsioon** variatsiooni kasutatakse müügitellimuse, müügipakkumise või hooldustellimuse rea kauba kontekstis. Tellimusekohane koosluse kalkulatsioon ei loo kirjet kuluversioonis. Selle asemel loob see kalkulatsioonikirje, mis kuvatakse lehel **Koosluse arvutamise tulemused**. See kalkulatsiooni kirje loob kalkulatsiooni üksikasjade vaatamiseks alguspunkti (näiteks lehel **Kauba kulu arvutamine**. Valitud kalkulatsiooni kirjet puudutavat teavet saab üle kanda algsele reaüksusele. Näiteks saab arvutatud müügihinda üle kanda müügitellimuse rea kaubale.
+-   **Koosluse arvutamine kauba ja määratud kuluversiooni jaoks** \– koosluse kalkulatsioon loob kuluversioonis ootel müügihinna kirje. See müügihinna kirje loob kalkulatsiooni üksikasjade vaatamiseks alguspunkti (näiteks lehel **Kauba kulu arvutamine**). Müügihinna kirje toimib peamiselt viiteteabena ja seda ei kasutata müügitellimuste müügihinna alusena.
+-   **Tellimusekohane koosluse kalkulatsioon** \– lehe **Koosluse kalkulatsioon** variatsiooni kasutatakse müügitellimuse, müügipakkumise või hooldustellimuse rea kauba kontekstis. Tellimusekohane koosluse kalkulatsioon ei loo kirjet kuluversioonis. Selle asemel loob see kalkulatsioonikirje, mis kuvatakse lehel **Koosluse arvutamise tulemused**. See kalkulatsiooni kirje loob kalkulatsiooni üksikasjade vaatamiseks alguspunkti (näiteks lehel **Kauba kulu arvutamine**). Valitud kalkulatsiooni kirjet puudutavat teavet saab üle kanda algsele reaüksusele. Näiteks saab arvutatud müügihinda üle kanda müügitellimuse rea kaubale.
 
 ## <a name="order-specific-bom-calculations"></a>Tellimusepõhised koosluse kalkulatsioonid
 Tellimusomane koosluse kalkulatsioon esindab koosluse arvutamise varianti toodetud kauba puhul. Tellimusekohase koosluse kalkulatsioon sooritatakse müügitellimuse müügipakkumise või müügitellimuse reaüksuse kontekstis. Tellimusekohane koosluse kalkulatsioon loob kalkulatsioonikirje, mis ilmub lehel **Koosluse kalkulatsiooni tulemused**. Kalkulatsioonikirje hõlmab arvutatud kaalu, arvutatu kulu (põhinevad aktiivsetel kulukirjetel) ning arvutatud müügihinda. Kalkulatsioonikirje, mille iga tellimusekohane kauba koosluse kalkulatsioon loob lehel **Koosluse kalkulatsiooni tulemused**, ainuidentifikaatoriks on kalkulatsiooni number. Kalkulatsioonikirje tulemusi saab valikuliselt üle kanda algsele reaüksusele. Tellimusekohane koosluse kalkulatsioon erineb toodetud kauba koosluse kalkulatsioonist kahel viisil.

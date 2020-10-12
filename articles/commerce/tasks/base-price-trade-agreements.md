@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db9365f25c1d3e387870dd9d173077d864b3d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141518"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899345"
 ---
 # <a name="base-price-and-trade-agreements"></a> Alushind ja kaubanduslepped
 
@@ -58,7 +58,7 @@ See protseduur juhendab kanalispetsiifiliste müügihinna kaubanduslepete loomis
 26. Klõpsake väljal **Nimi** otsingu avamiseks ripploendi nuppu.
 27. Valige loendist **Kaubandus**. Demoandmetes on **Kaubanduse** töölehe nimi vaikimisi seotud **Müügihinnaga**. See tähendab, et kõik uued loodud read lülituvad vaikimisi kaubanduslepete kohastele müügihindadele.  
 28. Klõpsake paanil **Tegevuspaan** valikut **Read**.
-29. Väljal **Konto kood** valige 'Grupeeri'.
+29. Valige väljal **Osapoole koodi tüüp** suvand „Grupp“.
 30. Klõpsake väljal **Konto valik** otsingu avamiseks ripploendi nuppu.
 31. Otsige loendist ja valige soovitud kirje. See viib lõpule ühenduse valikute Kanal > Hinnagrupp > Kaubanduslepe vahel.  
 32. Väljale **Kauba seos** tippige väärtus.

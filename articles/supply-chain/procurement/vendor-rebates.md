@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 44c8f3ed76698bb4b70d767d9c8881024699552f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: acf7df09b467e0b0b0463946be018ff199d7153e
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203442"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834256"
 ---
 # <a name="vendor-rebates"></a>Hankija tagasimaksed
+
 [!include [banner](../includes/banner.md)]
 
 Hankija tagasimaksed aitavad ettevõtetel tarnijate tagasimakseprogramme paremini hallata, automatiseerides toiminguid, mis on vajalikud teenitud tagasimaksete haldamiseks, jälgimiseks ja nõudmiseks.
@@ -50,6 +51,7 @@ Nendel ametikohtadel töötavad inimesed otsivad võimalusi mitmesuguste eesmär
 - Kvantifitseeritud aluse omamine jooksvate ja tulevaste läbirääkimiste jaoks hankijatega tagasimaksete teemal.
 
 ## <a name="review-details-of-a-vendor-rebate-agreement"></a>Hankija tagasimakselepingu üksikasjade ülevaatamine
+
 Hankija tagasimakseleping on registreeritud kokkulepe hankijaga, mis täpsustab läbi räägitud tingimused, mille alusel ettevõte kvalifitseerub rahalisele tasule eelnevalt määratud ostueesmärkide saavutamise eest. Hankija tagasimakselepingud registreeritakse lehel **Tagasimakselepingud**.
 
 Lehe **Hankija tagasimakselepingud** avamiseks valige **Hanked** &gt; **Hankija tagasimaksed** &gt; **Tagasimakselepingud**.
@@ -60,7 +62,9 @@ Lehel **Hankija tagasimakselepingud** saate vaadata hankija lepingu läbiräägi
 
 Lepingu päises on täpsustatud üldtingimused, mille alusel ettevõte tagasimakse saamiseks kvalifitseerub. Päise teave määrab, et hankija teeb tagasimakse, kui teatud toodet ostetakse teatud koguses. Päises määratakse ka tagasimakse mõõtühiku suvand ja arvutuse kuupäeva tüüp.
 
-- Vahekaardil **Üldine** väljal **Tagasimakse mõõtühiku suvand** saate määrata, kas mõõtühik peaks olema tingimus, mille alusel ostutellimuse rida kvalifitseeruks tagasimaksenõudele. 
+- Kui vahekaardil **Ülevaade** on suvandiga **Kaubakood** ridade väärtuseks seatud *tabel*, et kaupa täpsustada, siis on lepe selle konkreetse kauba jaoks. Kui suvandiga **Kaubakood** ridade väärtuseks on seatud *Grupp* või *Kõik*, et kaupu täpsustada, siis töödeldakse hankija tagasimakselepingut ühe kaubakoodile vastava kauba haaval, mitte kõigi kaubakoodile vastavate kaupade põhjal.
+
+- Vahekaardil **Üldine** väljal **Tagasimakse mõõtühiku suvand** saate määrata, kas mõõtühik peaks olema tingimus, mille alusel ostutellimuse rida kvalifitseeruks tagasimaksenõudele.
 
     - **Teisenda** – ostutellimuse rida kvalifitseerub tagasimakse lepingu kohaselt hankija tagasimaksele. Saate tagasimakse olenemata real rakendatud mõõtühikust.
     - **Täpne vaste** – tagasimaksele kvalifitseerumiseks peab ostureal olema sama mõõtühik, mis on lepingus määratud.
@@ -97,6 +101,7 @@ Lepinguridadel saate määrata hankija tagasimakselepingu üksikasjalikumalt.
 Kui esitatakse ostutellimusi hankijale, kellega ettevõttel on tagasimakseleping, tuvastab programm tulevased hankija kreeditmaksed. Kui ostutellimused kvalifitseeruvad tagasimaksele, koostatakse igale tellimuse reale tagasimaksenõue kohe, kui ostuarve on sisestatud. See on automaatne protsess. Hiljem saate oodatavaid tagasimakseid üle vaadata ja näha, millist mõju need tagasimaksed toote maksumusele ja kasumimarginaalile avaldavad.
 
 ### <a name="view-details-of-rebates-that-are-applied-to-a-purchase-order-line-per-the-vendor-rebate-agreement"></a>Hankija tagasimakselepingu alusel ostutellimuse reale rakendatavate allahindluste üksikasjade vaatamine
+
 1. Valige lehelt **Ostutellimus** tellimuse rida ja valige siis **Ostutellimuse rida** &gt; **Kuva** &gt; **Hinna üksikasjad**.
 2. Valige lehelt **Hinna üksikasjad** kiirkaart **Tagasimaksed**.
 
@@ -106,15 +111,18 @@ Tagasimakse teave kuvatakse ka väljal **Hankija tagasimakse** lehe **Hinna üks
 > Veenduge, et lehel **Hangete parameetrid** vahekaardil **Hinnad** oleks suvandi **Hinna üksikasjade lubamine** väärtuseks määratud **Jah**. Kui suvandi väärtuseks on määratud **Ei**, ei saa tagasimakseid vaadata.
 
 ## <a name="review-and-approve-claims"></a>Nõuete ülevaatamine ja kinnitamine
+
 Loodud tagasimaksenõuded tähistavad hankijalt oodatavaid tulevasi makseid. Enne kreeditarve väljastamist hankijale soovib lepingu omanik tavaliselt nõuded üle vaadata ja need kinnitada. Kuid pange tähele, et nõude olek määrab, kas nõue on valmis kinnitusprotsessi läbima.
 
 ### <a name="the-status-of-claims-and-the-effect-on-the-approval-process"></a>Nõuete olek ja mõju kinnitusprotsessile
+
 Nõude olekuks määratakse selle loomisel **Arvutamisele kuuluv väärtus**, kui tagasimakse tehakse kumulatiivsel alusel, või **Arvutatud**, kui tagasimakse antakse arvepõhiselt. Kui nõude olek on **Arvutamisele kuuluv väärtus**, peab see läbima arvutusprotsessi, millega tegeleb funktsioon Kumuleeri. Kinnitusprotsessi saab lisada ainult nõuded, mille olek on **Arvutatud**.
 
 > [!NOTE]
 > Kui hankija tagasimakselepingu suvandi **Kinnitus nõutud** väärtuseks on määratud **Ei**, on kõigi loodavate nõuete olek **Kinnitatud**. Kinnitamine on kumulatiivsel alusel antavate nõuete puhul kohustuslik.
 
 ### <a name="approve-claims-and-view-postings-and-invoice-details"></a>Nõuete kinnitamine ning sisestuste ja arve üksikasjade vaatamine
+
 Kui nõuded on kinnitatud, saab neid töödelda ostureskontro. Krediiditeatis (hankijaarve) koostatakse tagasimaksenõude summale automaatselt. Siis saab krediidi hankija saldole lisada ja ostureskontro töörühm saab selle tavapärasesse tasakaalustusprotsessi lisada.
 
 1. Valige tagasimaksenõude avamiseks **Hanked** &gt; **Hankija tagasimaksed** &gt; **Tagasimaksenõuded**.
@@ -153,6 +161,7 @@ Kui nõuded on kinnitatud, saab neid töödelda ostureskontro. Krediiditeatis (h
 9. Valige lehelt **Kõik hankijad** hankija, kellelt tagasimakse saate, ja valige siis tegumiribalt **Kanded**. Leidke arve rida. Tagasimakse summa on nüüd lisatud hankija saldole.
 
 ## <a name="summary"></a>Kokkuvõte
+
 Hankija tagasimaksete käsitsemise protsess hõlmab mitmeid sageli tüütuid käsitsi jälgimise ülesandeid. Nende ülesannete automatiseerimisel saab hankija tagasimakse haldamise funktsioon aidata teil järgmiste protsesside vahel liikuda.
 
 - Täpsete tagasimaksenõuete loomine

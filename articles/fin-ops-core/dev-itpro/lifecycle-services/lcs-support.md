@@ -1,12 +1,12 @@
 ---
 title: Finance and Operations rakenduste või teenuse Lifecycle Services (LCS) tugi
 description: See teema selgitab, kuidas saada abi Finance and Operations rakenduste või teenuse Microsoft Dynamics Lifecycle Services (LCS) kasutamisel.
-author: kfend
+author: EricMoos
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e839c6e29a76d7f08f23e007c1e7b8c4699c7580
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005512"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817894"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Finance and Operations rakenduste või teenuse Lifecycle Services (LCS) tugi
 
@@ -30,66 +30,42 @@ ms.locfileid: "3005512"
 
 See teema selgitab, kuidas saada abi Finance and Operations rakenduste või teenuse Microsoft Dynamics Lifecycle Services (LCS) kasutamisel. 
 
-## <a name="contact-support"></a>Toega ühendustvõtmine
-
-Selle artikli teabe abil saate võtta ühendust Microsoftiga, kui teil on küsimusi või kui vajate abi teenusele Microsoft Dynamics Lifecycle Services (LCS) juurde pääsemiseks.
-
-### <a name="finance-and-operations-apps-support"></a>Finance and Operations rakenduste tugi
-
-Toe hankimiseks kasutage järgmises tabelis olevaid ressursse. Ressursid on loendatud tõrkeotsingu puhul soovitatavas tegutsemise järjekorras.
-
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Ülesanne</th>
 <th>Lisateave</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Küsige kogukonnalt.</td>
-<td>Oma küsimusele Dynamicsi kogukonnalt vastuse saamiseks minge <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">kogukonna lehele</span></a>.</td>
+<td>Oma küsimustele Microsoft Dynamicsi kogukonnalt vastuste saamiseks minge <a href="https://community.dynamics.com/">Dynamics 365 kogukonna</a> lehele.</td>
 </tr>
-<tr class="even">
-<td>Kasutage tööriista Teema otsing.</td>
-<td>Kasutage lehel <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a> teema otsingut, et leida kiiresti Microsofti teabebaasi (Knowledge Base) artikleid, kiirparandusi ja leitud probleemide lahendusi. Saate vaadata, milliste leitud probleemide lahendamisega tegeletakse ja millised on juba lahendatud. Lisateabe saamiseks vt <a href="issue-search-lcs.md"><span style="color: #0066cc;">Teema otsing (Lifecycle Services, LCS)</span></a>.</td>
+<tr>
+<td>Abi saamine küsimuste korral litsentsimise kohta.</td>
+<td>Võtke ühendust partneri või Microsofti müügiesindajaga.</td>
 </tr>
-<tr class="odd">
-<td>Kastuage pilvepõhist tugitööriista.</td>
-<td>Paan <strong>Tugi</strong> rakenduses <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a> on tööriist, mis aitab teil hallata tugiteenuse juhtumeid. Probleemide otse Microsoftile esitamiseks valige LCS-i projektis paan <strong>Tugi</strong>. Sealt saate esitada küsimusi kahel viisil.
+<tr>
+<td>Kasutage tööriista <strong>Teema otsing</strong>.</td>
+<td>Kasutage lehel <a href="https://lcs.dynamics.com/">LCS</a> <strong>teema otsingut</strong>, et leida kiiresti Microsofti teabebaasi (KB) artikleid, kiirparandusi ja leitud probleemide lahendusi. Saate vaadata, milliste leitud probleemide lahendamisega kindlas kategoorias tegeletakse ja millised on juba lahendatud. Lisateabe saamiseks vt <a href="issue-search-lcs.md">Teema otsing (Lifecycle Services, LCS)</a>.</td>
+</tr>
+<tr>
+<td>Hankige rakendusesisene tugi.</td>
+<td>Valige rakenduse ülemisest parempoolsest nurgast nupp <strong>Spikker</strong> (<strong>?</strong>) ja seejärel <strong>Tugi</strong>. Probleemid edastatakse LCS-is vahekaardil <strong>Aktiivsed probleemid</strong>. Seal saavad administraatorid teha kindlaks, kas nad peaksid pakkuma ettevõttesisest tuge või edastama probleemid Microsoftile.</td>
+</tr>
+<tr>
+<td>Microsofti tugiteenuste meeskonnale tugiteenusepileti edastamine.</td>
+<td>Rakenduses <a href="https://lcs.dynamics.com/">LCS</a> avab paan <strong>Tugi</strong> tööriista, mis aitab teil hallata toeintsidente. Probleemide otse Microsoftile esitamiseks valige oma LCS-i projektis paan <strong>Tugi</strong>. Seejärel saate edastada probleeme kahel viisil.
 <ul>
-<li>Valige vahekaardil <strong>Aktiivne probleem</strong> oma probleem ja klõpsake nuppu <strong>Edasta Microsoftile</strong>.</li>
-<li>Probleemi edastamiseks klõpsake vahekaardil <strong>Edastatud Microsoftile</strong> nuppu <strong>Uue juhtumi edastamine</strong>.</li>
+<li>Valige vahekaardil <strong>Aktiivne probleem</strong> oma probleem ja valige seejärel <strong>Edasta Microsoftile</strong>.</li>
+<li>Valige vahekaardil <strong>Microsoftile edastatud</strong> suvand <strong>Edasta intsident</strong> ja järgige intsidendi edastamiseks ekraanil kuvatud juhiseid. Pärast intsidendi esitamist saadetakse teile e-kiri Microsofti tugiteenuste tehnikult, kellele määrati teie intsident.</li>
 </ul>
-Märkus. Microsofti Premier-kliendid ja partnerid saavad samuti ülaltoodud etappide abil edastada tugiteenusepileteid.</td>
+</td>
 </tr>
-<tr class="even">
-<td>Tugimeeskonnale tugiteenusepileti edastamine.</td>
-<td>Kui teil on Microsoftile LCS-i paani <strong>Tugi</strong> kaudu pileti edastamisega probleeme, vaadake teemast <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Ühenduse võtmine Microsoft Business Solutionsi toega</span></a> teavet selle kohta, kuidas võtta ühendust Microsoft Dynamicsi piirkondliku tugikeskusega. Tugimeeskond saab teid aidata järgmist tüüpi tehniliste probleemide lahendamisel.
-<ul>
-<li>Probleemid LCS-i kasutamisel või LCS-ile juurde pääsemisel.</li>
-<li>Finance and Operations rakenduste kasutamisel ilmnevad tõrked.</li>
-</ul>
-Kui teil on probleeme sisselogimisega ja teenuste (nt CustomerSource, e-õpe, otsing, teabebaas, failide allalaadimine ning lehtede ja süsteemi tõrked) toimimisega, vaadake teemat <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Veebisaidi tugi</span></a>.</td>
-</tr>
-<tr class="odd">
-<td>Abi küsimuste korral Finance and Operations rakenduste litsentsimise kohta.</td>
-<td>Võtke ühendust partneri, hulgi edasimüüja (LAR) või Microsofti müügiesindajaga.</td>
-</tr>
-<tr class="even">
-<td>Kasutage LCS-i sündmuste jälgimise armatuurlauda.</td>
-<td>Teenuste ja platvormi olukorra hetkeseisu vaatamiseks minge oma LCS projekti jaotisse <strong>Keskkonnad</strong>.</td>
+<tr>
+<td>Uute funktsioonide ja võimaluste taotlemine.</td>
+<td>Külastage <a href="https://experience.dynamics.com/ideas/">Dynamics 365 rakenduse ideid</a>, et vaadata ja otsida olemasolevaid ideid, hääletada nende poolt või lisada uusi.</td>
 </tr>
 </tbody>
 </table>
-
-
-## <a name="additional-resources"></a>Lisaressursid
-- [Toe hankimine rakendusele Dynamics 365 Retail](../../../retail/retail-support.md)
-- [Toe hankimine rakendusele Microsoft Dynamics 365 Human Resources](../../../human-resources/hr-admin-troubleshooting-support.md)
-- Lisateavet Microsoft Dynamicsi tugiteenuste pakkumiste kohta vt teemast [Finance and Operations rakenduste tugikogemuste haldamine](cloud-powered-support-lcs.md).
-

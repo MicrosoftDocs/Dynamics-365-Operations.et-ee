@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 25996cbccf3e9eec6fc29b80b8241e89b5b6b4a5
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772554"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893275"
 ---
 # <a name="document-printing-overview"></a>Dokumentide printimise ülevaade
 
@@ -52,10 +52,10 @@ Järgmine tabel kirjeldab kolme esmase printimise stsenaariumi.
 Kuna lahendused on erinevad olenevalt stsenaariumist, pakuvad rakendused sisseehitatud teenuseid ja tööriistu, mis aitavad kasutajatel saavutada oma eesmärke:
 
 - **1. stsenaariumi** toetab HTML5 kliendi brauseri renderdus.
-- **2. stsenaarium** kasutab klientrakendusi ja Microsoft Office 365 teenuseid.
+- **2. stsenaarium** kasutab klientrakendusi ja Microsoft 365 teenuseid.
 - **3. stsenaarium** nõuab tuge klientrakendustest ja teenustest, mida hostitakse Microsoft Azure’is.
 
-Lisaks platvormile, mida juurutatakse Azure’i tellimusse, pakuvad Finance and Operationsi rakendused klientidele integreeritud, esimese osapoole Azure’i rakendust, mis aitab neil printimiseks hõlpsamalt kasutada domeenis hostitud seadmeid.
+Lisaks platvormile, mis juurutatakse Azure’i tellimusse, pakuvad Finance and Operationsi rakendused klientidele integreeritud, esimese osapoole Azure’i rakendust, mis aitab neil printimiseks hõlpsamalt kasutada domeenis hostitud seadmeid.
 
 ## <a name="service-overview"></a>Hoolduse ülevaade
 Ajal, mil hostitud rakenduste loodud dokmendid ootavad printimist võrku ühendatud seadmes, talletatakse neid Azure’i bloobimälus. [Dokumendi marsruudivaliku agendi installimine võrguprintimise lubamiseks](install-document-routing-agent.md) kasutab Azure’i autentimist, et luua turvaline kanal Azure’i teenustega.

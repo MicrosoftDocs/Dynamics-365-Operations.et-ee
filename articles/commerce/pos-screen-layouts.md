@@ -3,7 +3,7 @@ title: Kassa kasutajaliidese visuaalsed konfiguratsioonid
 description: Selles teemas käsitletakse Dynamics 365 Commercei kassa ekraanipaigutusi.
 author: boycezhu
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,15 +16,15 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: boycezhu
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
-ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
+ms.openlocfilehash: 75bce16c5e1b0898a0284659f9ce5e4716a93049
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3505630"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834205"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Kassa kasutajaliidese visuaalsed konfiguratsioonid
 
@@ -62,6 +62,8 @@ Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vah
 > [!NOTE]
 > Paigutus **Paremal** ja kuupäeva/kellaaja kuva ei rakendu kompaktses vaates sisselogimisaknale.
 
+Peate käivitama jaotusgraafiku töö **1090** (**Registrid**), et sünkroonida uusimad visuaalse profiili konfiguratsioonid kanali andmebaasiga.
+
 ## <a name="screen-layouts"></a>Ekraani paigutused
 
 Ekraanipaigutuse konfiguratsioonid määratlevad juhtelementide toimingud, sisu ja paigutuse kassa **tervitusekraanil** ning ekraanil **Kanne**.
@@ -81,6 +83,8 @@ Ekraanipaigutuse konfiguratsioonid määratlevad juhtelementide toimingud, sisu 
 ### <a name="assignment"></a>Määramine
 
 Ekraanipaigutusi saab määrata kaupluse, registri või kasutaja tasandil. Kasutaja määramine tühistab registri ja kaupluse määramised ning registri määramine tühistab kaupluse määramise. Lihtsas stsenaariumis, kus kõik kasutajad kasutavad sama paigutust, olenemata registrist või rollist, saab ekraanipaigutuse määrata ainult kaupluse tasemel. Kui teatud registrid või kasutajad nõuavad spetsiaalseid paigutusi, saab neid paigutusi määrata.
+
+Sõltuvalt sellest, millisel tasemel on kuvapaigutused määratud, peate käivitama jaotusgraafiku töö **1070** (**Kanali konfiguratsioon**), **1090** (**Registrid**) ja/või **1060** (**Personal**), et sünkroonida uusimad kuvapaigutuse konfiguratsioonid kanali andmebaasiga.
 
 ### <a name="layout-sizes"></a>Paigutuse suurused
 

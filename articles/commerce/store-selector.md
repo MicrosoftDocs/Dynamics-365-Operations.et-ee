@@ -3,7 +3,7 @@ title: Kaupluse valija moodul
 description: See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646131"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818246"
 ---
 # <a name="store-selector-module"></a>Kaupluse valija moodul
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 See teema hõlmab kaupluse valija moodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce saidi lehtedele lisada.
 
@@ -65,7 +64,7 @@ Selleks, et see stsenaarium töötaks, tuleb toodete tarneviisiks konfigureerida
 
 Järgmisel pildil on näide, kuidas kasutatakse kaupluse valija moodulit PDP-s.
 
-![Kaupluse valija mooduli näide](./media/BOPIS.PNG)
+![Kaupluse valija mooduli näide PDP-s](./media/BOPIS.PNG)
 
 ## <a name="find-stores-mode"></a>Leia kauplused režiim
 
@@ -73,7 +72,7 @@ Kaupluse valija moodul toetab ka režiimi **Leia kauplused**. Seda režiimi saab
 
 Järgmisel joonisel on kujutatud kaupluse valija mooduli näide, mida kasutatakse koos kaardi mooduliga kaupluse asukohtade lehel.
 
-![Kaupluse valija mooduli näide](./media/ecommerce-Storelocator.PNG)
+![Kaupluse valija mooduli ja kaardimooduli näide kaupluse asukohtade lehel](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Kaardi renderdamine
 
@@ -127,9 +126,9 @@ Kaupluse valija mooduli konfigureerimiseks, et näidata kaupluse asukohtade lehe
  
 ## <a name="additional-resources"></a>Lisaressursid
 
-[Alustuskomplekti ülevaade](starter-kit-overview.md)
+[Mooduliteegi ülevaade](starter-kit-overview.md)
 
-[Ostukasti moodul](add-buy-box.md)
+[Ostukastimoodul](add-buy-box.md)
 
 [Ostukorvimoodul](add-cart-module.md)
 

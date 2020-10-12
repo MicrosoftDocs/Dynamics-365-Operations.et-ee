@@ -3,7 +3,7 @@ title: Avalehe ülevaade
 description: Selles teemas antakse ülevaade avalehest rakenduses Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527576"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817750"
 ---
 # <a name="home-page-overview"></a>Avalehe ülevaade
 
@@ -34,7 +34,7 @@ Selles teemas antakse ülevaade avalehest rakenduses Microsoft Dynamics 365 Comm
 
 Koduleht on vaikimisi leht, kuhu ostjad lähevad, kui nad külastavad e-kaubanduse saiti. Tavaliselt näitab see lehekülg tooteid ja kampaaniaid, kasutades turunduse moodulite kombinatsiooni. Kodulehekülg peaks olema rikastatud piltide ja tekstiga, et ostjaid kaasata.
 
-Järgmisel joonisel on kujutatud avalehe näide, mis loodi veebistardikomplekti ja teema "Fabrikam" abil.
+Järgmisel joonisel on kujutatud avalehe näide, mis loodi mooduliteegi ja kujunduse „Fabrikam” abil.
 
 ![Avalehe näide](./media/Homepage2.PNG)
 
@@ -54,7 +54,7 @@ Avalehe põhijaotises võib esile tuua tooteid, kategooriaid või kampaaniaid, k
 
     ![Funktsiooni moodulite näited](./media/Feature.PNG)
 
-- **Paan** – sisuploki paani paigutuse moodulit kasutatakse mitme toote või kategooria toodete esitlemiseks, kasutades mitmeveerulise paigutusega piltide ja teksti kombinatsiooni. Selles teemas varem kuvatava avalehe illustratsioonil kasutatakse paani paigutust kolme veeruga renderduseks üksustele**Naistele**, **Meestele**ja **Aksessuaarid**.
+- **Paan** – sisuploki paani paigutuse moodulit kasutatakse mitme toote või kategooria toodete esitlemiseks, kasutades mitmeveerulise paigutusega piltide ja teksti kombinatsiooni. Selles teemas varem kuvatud avalehe illustratsioonil kasutatakse paani paigutust kolme veeruga renderduseks üksustele **Naistele**, **Meestele**ja **Aksessuaarid**.
 - **Videomängija** – videomängija moodulit saab kasutada kodulehe video sisu esitlemiseks. Selles teemas varem kuvatava avalehe illustratsioon sisaldab videomängija moodulit.
 - **Tekstiplokk** – sisurikka ploki moodulit saab kasutada avalehel oleva teksti sisu esitamiseks ühe- või mitmeveerulises paigutuses.
 - **Tootesoovitused** – tootesoovituste mooduleid kasutatakse avalehel selliste loendite kuvamiseks, nagu **Uus**, **Populaarne** ja **Enim müüdud**. Need loendid tutvustavad tooteid, mis põhinevad ostutrendidel ja neid saab algoritmiliselt luua või käsitsi kureerida. Need aitavad klientidel kiiresti leida parimaid tooteid ja seejärel ostlemist jätkata.
