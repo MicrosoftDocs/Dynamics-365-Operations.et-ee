@@ -70,6 +70,8 @@
                   items:
                     - name: Mis on uut või mida on muudetud Finance'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.15 (jaanuar 2021)
+                      href: get-started/whats-new-changed-10-0-15.md
                     - name: Finance 10.0.14 (november 2020)
                       href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13 (oktoober 2020)
@@ -194,7 +196,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
                 - name: LCS-i juurutusprojektide teisaldamine teistesse Azure AD rentnikesse
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
-                - name: Mitu LCS-i projekti ja tootmiskeskkonda ühes Azure AD rentnikus
+                - name: LCS-juurutusprojektide teisaldamine kohapealsest keskkonnast pilve
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
+                - name: Mitu LCS-i projekti ja töökeskkonda ühes Azure AD rentnikus
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: Ostureskontro
           items:
@@ -226,6 +230,16 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Ostureskontro arvete võrdlemise häälestus
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Hankija arve automatiseerimine
+              items:
+                - name: Automatiseeritud hankijaarveldusprotsesside ülevaade
+                  href: accounts-payable/auto-vendr-invc-process.md
+                - name: Hankija arve automatiseerimise seadistussuvandid
+                  href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Arvete esitamine töövoosüsteemi ja toote sissetulekuridade vastendamine
+                  href: accounts-payable/submit-invoice-workflow-automatically.md
+                - name: Hankija arve automatiseerimise tulemuste kuvamine
+                  href: accounts-payable/view-automated-vendor-invoice.md
             - name: Arvestuse jaotused ja alammooduli töölehe kirjed hankija arvete puhul
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Arvete võrdlemine ja kontsernisisesed ostutellimused
@@ -258,7 +272,7 @@
               href: accounts-payable/mobile-invoice-approvals.md
             - name: Hankija koostöö arve tööruum
               href: accounts-payable/vendor-portal-invoicing-workspace.md
-            - name: Hankija arve automatiseerimine
+            - name: Arve automatiseerimine skannitud dokumentide korral
               href: accounts-payable/vendor-invoice-automation.md
             - name: Peatöövõtja lepinguhaldus
               href: accounts-payable/broker-contract.md
@@ -448,8 +462,10 @@
               href: accounts-receivable/tasks/create-collection-letter-sequence.md
             - name: Märgukirjade töötlemine
               href: accounts-receivable/tasks/process-collection-letters.md
-            - name: Müügireskontro ajalise jaotuse teabe seadistamine ja genereerimine
+            - name: Müügireskontro ajalise jaotuse teabe häälestus ja genereerimine
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Kliendi ajalise jaotuse aruanne
+              href: accounts-receivable/customer-aging.md
             - name: Kliendi jaoks mahakandmise töölehe loomine
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Täpsemate märkmete haldus
@@ -792,6 +808,10 @@
                   href: fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: Kasuliku eluea lineaarne kulum
                   href: fixed-assets/straight-line-service-life-depreciation.md
+        - name: Vara rentimine
+          items:
+            - name: Vara rentimise alustamine
+              href: asset-leasing/asset-leasing-quick-start.md
         - name: Pearaamat
           items:
             - name: Pearaamatu ülevaade
@@ -1884,7 +1904,7 @@
                   items:
                     - name: India GST ülevaade
                       href: localizations/apac-ind-gst.md
-                    - name: Mis on uut või mida on muudetud APAC India GST lokaliseerimise puhul?
+                    - name: Mis on uut või mida on muudetud India GST lokaliseerimise puhul?
                       items:
                         - name: Mis on uut või mida on muudetud versioonis 10.0.0?
                           href: localizations/apac-ind-news-letter-10-0-00.md
@@ -1912,6 +1932,8 @@
                           href: localizations/apac-ind-news-letter-10-0-11.md
                         - name: Mis on uut või mida on muudetud versioonis 10.0.12?
                           href: localizations/apac-ind-news-letter-10-0-12.md
+                        - name: Mis on uut või mida on muudetud versioonis 10.0.13?
+                          href: localizations/ind-news-letter-10-0-13.md
                     - name: India GST viitegrupid
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: GST integreerimine kassaaparaatide jaoks
@@ -2020,9 +2042,11 @@
                           href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
                         - name: 'Eksportteenused, mis on käibemaksuvabad'
                           href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
-                    - name: Aktsiakanne
+                    - name: Laokanne
                       items:
-                        - name: 'Aktsiakandekorraldused, mille ülekandehinnale kehtib maks'
+                        - name: Lao üleviimistellimused
+                          href: localizations/apac-ind-stock-transfer.md
+                        - name: 'Lao üleviimistellimused, mille sisehinnale kehtib maks'
                           href: localizations/apac-ind-GST-stock-transfer-transactions.md
                     - name: Kliendimakse kanne
                       items:
@@ -2072,12 +2096,10 @@
                       href: general-ledger/tax-engine-integration.md
                     - name: Maksumootori laiendamine
                       href: general-ledger/extend-tax-engine-configurations.md
-                    - name: Tõrkeotsing GTE
+                    - name: GTE tõrkeotsing
                       href: localizations/tax-engine-trouble-shooting.md
                 - name: Maksulävede KKK
                   href: localizations/apac-ind-tax-thresholds.md
-                - name: Aktsiaülekanded
-                  href: localizations/apac-ind-stock-transfer.md
             - name: Itaalia
               items:
                 - name: Itaalia ülevaade
@@ -3498,7 +3520,7 @@
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Konfiguratsioonide jagamine GR-is
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
-            - name: Kiirjuhendid
+            - name: Lühijuhendid
               items:
                 - name: Elektroonilise aruandluse vormingu korrigeerimine kohandatud elektroonilise dokumendi genereerimiseks
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
