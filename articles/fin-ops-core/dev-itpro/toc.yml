@@ -14,6 +14,8 @@
               items:
                 - name: Mis on uut või mida on muudetud platvormivärskenduste avalehel?
                   href: get-started/whats-new-home-page.md
+                - name: Platvormi versiooni 10.0.15 värskendused (jaanuar 2021)
+                  href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Platvormi versiooni 10.0.14 värskendused (november 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Platvormi versiooni 10.0.13 värskendused (oktoober 2020)
@@ -236,6 +238,8 @@
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Üldine tõrkeotsing
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Korduma kippuvad küsimused topeltkirjutuse kohta
+                          href: data-entities/dual-write/dual-write-faq.md
                     - name: Integreerimine Power Platformiga
                       items:
                         - name: Sularahastsenaariumi jaoks potentsiaalse kliendi konfigureerimine
@@ -380,13 +384,15 @@
               href: data-entities/configure-export-data-lake.md
             - name: Finance and Operationsi rakendused Azure Data Lake'is
               href: data-entities/finance-data-azure-data-lake.md
-            - name: Muuda üksusesalv Data Lake’i üksusena kättesaadavaks
+            - name: Üksusesalve Data Lake’i üksusena saadavaks muutmine
               href: data-entities/entity-store-data-lake.md
         - name: Andmebaasi teisaldamistoimingud
           items:
             - name: Ülevaade
               href: database/dbmovement-operations.md
-            - name: Kiirjuhendid
+            - name: Andmebaasi teisaldamise tööriistakomplekt
+              href: database/database-movement-toolkit.md
+            - name: Lühijuhendid
               items:
                 - name: Andmebaasi värskendamine
                   href: database/database-refresh.md
@@ -1564,6 +1570,8 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: AX 2012 täiendus – täienduseelne kontroll-loend andmete täiendamiseks
                   href: migration-upgrade/prepare-data-upgrade.md
+                - name: AX 2012 täiendus – andmete täiendamine liivakastikeskkondades dacpac-protsessi abil
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: AX 2012 täiendus – liivakastikeskkondade andmete täiendamine
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: AX 2012 täiendus – kohapealsed keskkonnad

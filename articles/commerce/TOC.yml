@@ -74,8 +74,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operationsi rakendused Prantsusmaal
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: Toe hankimine rakendusele Dynamics 365 Commerce
-              href: retail-support.md
+            - name: Toe hankimine
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Täiendus ja N-1 tugi
               items:
                 - name: Täiendus ja Commerce'i N-1 tugi
@@ -92,6 +92,8 @@
                   items:
                     - name: Mis on uut või mida on muudetud Commerce'i avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.15 (jaanuar 2021)
+                      href: get-started/whats-new-commerce-10-0-15.md
                     - name: Commerce 10.0.14 (november 2020)
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (oktoober 2020)
@@ -274,7 +276,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
                 - name: LCS-i juurutusprojektide teisaldamine teistesse Azure AD rentnikesse
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Mitu LCS-i projekti ja tootmiskeskkonda ühes Azure AD rentnikus
+                - name: LCS-juurutusprojektide teisaldamine kohapealsest keskkonnast pilve
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
+                - name: Mitu LCS-i projekti ja töökeskkonda ühes Azure AD rentnikus
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations Commerce'i projektide juurutamine
                   href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
@@ -706,11 +710,13 @@
                   href: customer-orders-overview.md
                 - name: Hübriidkliendi tellimused
                   href: hybrid-customer-orders.md
+                - name: Kassas tellimustoimingu tagasikutsumine
+                  href: enhancedorderrecall.md
             - name: Müügitellimused
               items:
                 - name: Kõnekeskuse tellimuse loomine
                   href: tasks/create-call-center-orders.md
-                - name: Muutke kassas tarneviisi
+                - name: Kassas tarneviisi muutmine
                   href: POS-change-delivery-mode.md
             - name: Hajutatud tellimuste haldamine
               items:
@@ -780,8 +786,6 @@
               href: statement-posting-eod.md
             - name: Partii jälgimisega kaupade täiustatud käsitlemine
               href: batch.md
-            - name: Kaubanduse väljavõtteid mõjutavate kaubanduse parameetrite konfigureerimine
-              href: tasks/parameter-configurations-retail-statements.md
             - name: Jaemüügi väljavõtteid mõjutavate makseviisi sätete konfigureerimine
               href: tasks/payment-configurations-retail-statements.md
             - name: Väljavõtete arvutamiseks töö konfigureerimine ja käivitamine
@@ -868,6 +872,8 @@
                   href: document-states-overview.md
                 - name: Avaldamisrühmadega töötamine
                   href: publish-groups.md
+                - name: Kanaliülese ühiskasutuse lubamine ja kasutamine
+                  href: cross-channel-sharing.md
                 - name: Saidile tootjakohanduse tegemine ja kaupluse üksikasjade lisamine
                   items:
                     - name: Logo lisamine
@@ -1048,6 +1054,24 @@
               items:
                 - name: Võrgukanali aruannete loomine
                   href: generate-reports.md
+            - name: Katsetamine
+              items:
+                - name: Katsetamine rakenduses Dynamics 365 Commerce
+                  href: experimentation-overview.md
+                - name: Hüpoteesi tuvastamine ja katse mõõdikute määramine
+                  href: experimentation-identify.md
+                - name: Katse seadistamine
+                  href: experimentation-setup.md
+                - name: Katse ühendamine ja redigeerimine
+                  href: experimentation-connect-edit.md
+                - name: Katse eelversioon ja avaldamine
+                  href: experimentation-preview-publish.md
+                - name: Katse käitamine ja jälgimine
+                  href: experimentation-run-monitor.md
+                - name: Variatsiooni soodustamine ja katse lõpuleviimine
+                  href: experimentation-review-complete.md
+                - name: Katse oleku ülevaatamine
+                  href: experimentation-status.md
             - name: Tõrketöötlus
               items:
                 - name: 4xx/5xx olekukoodi tõrgete jaoks kohandatud vastuselehtede loomine
@@ -1076,10 +1100,16 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Commerce'i kanali fiskaalüksuse integreerimise häälestus
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Kasutaja määratletud serdiprofiilid jaekaupluste jaoks
+              href: localizations/certificate-profiles-for-retail-stores.md
             - name: Austria
               items:
                 - name: Fiskaalüksuse registreerimisteenuse integratsiooni näide Austria jaoks
                   href: localizations/emea-aut-fi-sample.md
+            - name: Brasiilia
+              items:
+                - name: Commerce'i lokaliseerimine Brasiilia jaoks
+                  href: localizations/latam-bra-commerce-localization.md
             - name: Ida-Euroopa
               items:
                 - name: Üldist
@@ -2052,6 +2082,8 @@
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Kujunduse laiendamine põhiteemast
                       href: e-commerce-extensibility/extend-theme.md
+                    - name: Kohandatud ressursside lisamine kohandamiskoodile
+                      href: e-commerce-extensibility/add-custom-resources.md
                 - name: Skripti sisestamine
                   items:
                     - name: Skripti sisestajad
@@ -2164,6 +2196,8 @@
                   href: dev-itpro/retail-server-extension.md
                 - name: Retail Typescript ja C# puhvrid
                   href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: Retail Server API-de kasutamine välisrakendustes
+                  href: dev-itpro/consume-retail-server-api
             - name: Commerce Runtime’i (CRT) laiendatavus
               items:
                 - name: CRT arhitektuur ja konfigureerimine
