@@ -1,6 +1,6 @@
 ---
 title: Optimeerimisnõustaja ülevaade
-description: Selles teemas kirjeldatakse, kuidas kasutada optimeerimise nõustajat, et aidata tagada Finance and Operationsi optimaalne konfiguratsioon.
+description: Selles teemas kirjeldatakse, kuidas kasutada optimeerimisnõustajat, et aidata tagada rakenduse Finance and Operations optimaalne konfiguratsioon.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 07/23/2019
@@ -16,21 +16,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: roxanad
+ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 25ca62466c00b038e0d7e1758fd4f13f776cb2f0
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811966"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982548"
 ---
-# <a name="optimization-advisor-overview"></a>Nõustaja ülevaate optimeerimine
+# <a name="optimization-advisor-overview"></a>Optimeerimisnõustaja ülevaade
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas kasutada optimeerimise nõustajat, et aidata tagada Finance and Operationsi optimaalne konfiguratsioon.
+Selles teemas kirjeldatakse, kuidas kasutada optimeerimisnõustajat, et aidata tagada rakenduse Finance and Operations optimaalne konfiguratsioon.
 
 ## <a name="overview"></a>Ülevaade
 
