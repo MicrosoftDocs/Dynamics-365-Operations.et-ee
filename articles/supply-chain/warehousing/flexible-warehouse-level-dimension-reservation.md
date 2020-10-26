@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: d75e6a8b48447a33156e03d50e990b8514bacda9
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652175"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970699"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Paindliku laotaseme dimensiooni reserveerimise poliitika
 
@@ -233,6 +233,9 @@ Kui laotöö kaup koosneb ridadest, mis moodustavad täieliku kaubaaluse ja mill
 ![Mobiilse seadme menüükäsk, mille puhul on suvandi „Käitle litsentsiplaadi põhjal” väärtuseks seatud „Jah”](media/Handle-by-LP-menu-item.png)
 
 Kuna funktsioon **Käitle litsentsiplaadi põhjal** ei toeta mitut kaubaalust hõlmavaid töid, siis on parem, kui eri litsentsiplaatide jaoks on eraldi tööüksus. Selle meetodi kasutamiseks lisage väli **Tellimusega seotud litsentsiplaadi ID** tööpäise piirina lehel **Töömall**.
+
+> [!NOTE]
+> Tellimusega kooskõlastatud töö loomise protsessi puhul määratakse komplekteerimise tööridadele väärtus „tellimusega kooskõlastatud varude dimensioon” ja litsentsiplaadi väärtust pole otse võimalik vaadata. Mobiilse seadme menüükäsu seadistamisel toetatakse ainult *kasutaja juhitud* protsessi.
 
 ## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Näidisstsenaarium: tellimusega seotud litsentsiplaadi reserveerimise seadistamine ja töötlemine
 

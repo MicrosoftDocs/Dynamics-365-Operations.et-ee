@@ -3,7 +3,7 @@ title: Kiirklahvid
 description: Selles teemas antakse ülevaade kiirklahvikombinatsioonidest, mida saate kasutada Finance and Operationsi rakendustega töötamisel.
 author: jasongre
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
-ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
+ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
+ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761617"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3962516"
 ---
 # <a name="keyboard-shortcuts"></a>Kiirklahvid
 
@@ -32,6 +32,8 @@ Järgmised klaviatuuri otseteed aitavad teil Finance and Operationsi rakendustes
 
 > [!NOTE]
 > Siin kirjeldatud kiirklahvid viitavad USA klahvipaigutusele. Muude klahvipaigutuste korral ei pruugi klahvid vastata täpselt USA klahvipaigutusele.
+
+Mõni sellel lehel toodud otsetee on *klahvikomplekt*, mis tähendab, et selle jaoks on vaja kahte järjestikust klahvikombinatsiooni (komadega eraldatud), mida tuleb vajaliku tegevuse käivitamiseks sõltumatult vajutada. Näiteks otsetee „Alt+M,A” puhul peab kasutaja esmalt vajutama klahve „Alt+M”, vabastama klahvid ja seejärel vajutama klahvi „A”. 
 
 ## <a name="finding-a-shortcut"></a>Otsetee leidmine
 
@@ -193,7 +195,7 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Lehe põhisisu juurde liikumine (fookusega teisel paanil)                    | Alt + M, M                    |
 | Liikumine paanile Kiirinfo (mis võib hõlmata selle avamist)                       | Alt + M, B või Ctrl + F2         |
 
-## <a name="personalization-shortcuts"></a>Isikupärastamise otseteed
+## <a name="personalization-shortcuts"></a>[Isikupärastamise](personalize-user-experience.md) otseteed 
 
 | Toiming                                                                                                             | Klahv või klahvikombinatsioon                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
@@ -237,7 +239,20 @@ Alates platvormivärskendusest 11 saavad kasutajad vaadata praegu saadaolevaid k
 | Otsingus lehe võrra üles/alla liikumine                                                                                       | Page Up / Page Down              |
 | Otsingu algusse/lõppu liikumine                                                                                    | Home / End                       |
 
+## <a name="task-recordershortcuts"></a>[Tegevuse salvestaja](../../dev-itpro/user-interface/task-recorder.md) otseteed 
+
+| Toiming                                                                    | Vajutage nuppu                       |
+|-------------------------------------------------------------------------------|----------------------------|
+| Salvestamise peatamine (salvestamise ajal)                                          | Alt+R,S                    |
+| Tegevuse salvestaja paani kuvamine/peitmine (salvestamise ajal)             | Alt+R,T                    |
+| Rööbaste režiimi sisse-/väljalülitamine (tegevuse juhise esitamisel)                                | Alt+R,L                    |
+| Eelmisele sammule liikumine (tegevuse juhise esitamisel)                          | Alt+R,P                    |
+| Järgmisele sammule liikumine (tegevuse juhise esitamisel)                              | Alt+R,N                    |
+| Lehe ja animeeritud hüpikakna vahel fookuse ümberlülitamine (tegevuse juhise esitamisel) | Alt+R,F               |
+| Animeeritud hüpikakna laiendamine/ahendamine (tegevuse juhise esitamisel)              | Alt+R,C                    |
+| Animeeritud hüpikaknas rohkem/vähem teabe kuvamine (tegevuse juhise esitamisel) | Alt+R,M                    |
+
 ## <a name="additional-resources"></a>Lisaressursid
 
-- [Kiirklahvid puuduva konto analüüsi puhul](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+[Kiirklahvid puuduva konto analüüsi puhul](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 

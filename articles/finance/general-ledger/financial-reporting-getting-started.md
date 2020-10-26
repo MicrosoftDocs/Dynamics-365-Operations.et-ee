@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835106"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967254"
 ---
 # <a name="get-started-with-financial-reporting"></a>Rakenduse Financial Reporting kasutamise alustamine 
 
@@ -149,7 +149,12 @@ Mõned tavalisemad juhud, mis võivad põhjustada probleeme aruande kujundaja av
 * Valige Internet Exploreris **Sätted** ja seejärel valige **Interneti suvandid**. Valige vahekaart **Turve**. Valige Usaldusväärsed saidid. Muutke alal, mille silt on Selle tsooni turbetase suvandi väärtuseks **Keskmine-madal**.
 * Keelake hüpikakende blokeerija oma brauseris.
 * Tööjaamad peavad installima Microsoft .NET Frameworki versiooni 4.6.2 või uuema. Selle Microsoft .NET Frameworki versiooni saab laadida alla ja installida [Microsofti allalaadimiskeskusest](https://www.microsoft.com/download/details.aspx?id=53345).
-* Kui kasutate Chrome’i brauserit, peate aruande koostaja kliendi allalaadimiseks installima laienduse ClickOnce. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. Kui te ei saa Chrome'i sisse logida, proovige 1. probleemis kirjeldatud häälestusetapide järgimist Internet Exploreri või Microsoft Edge'i abil. 
+* Kui kasutate Microsoft Edge'i koos Chrome'i brauseriga, peate aruandekoosturi klientrakenduse allalaadimiseks installima laienduse ClickOnce. Kui töötate inkognito-režiimis, siis veenduge, et laiendus ClickOnce oleks inkognito-režiimi jaoks aktiveeritud. 
+     1. Avage uus brauser rakenduses Microsoft Edge.
+     2. Sisestage **edge://flags** ja valige **Sisesta**.
+     3. Otsige üles suvand **ClickOnce'i tugi** või kasutage otselinki **edge://flags/#edge-click-once**.
+     4. Seadke rippmenüü suvandi väärtuseks **Lubatud**.
+     5. Valige **Taaskäivita brauser**.
 
 2. probleem: kasutajale ei ole määratud vajalikke lubasid rakenduse Financial Reporting kasutamiseks. 
 
