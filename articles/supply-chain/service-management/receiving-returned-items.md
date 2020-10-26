@@ -15,32 +15,32 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 234d430d75611dc777bb03fff1070f2a8c78ea6f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4957d9a80ecb98b647ca73dfddc35cd450c6160e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211740"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975700"
 ---
-# <a name="receive-returned-items"></a><span data-ttu-id="ead82-103">Tagastatud kauba vastuvõtt</span><span class="sxs-lookup"><span data-stu-id="ead82-103">Receive returned items</span></span> 
+# <a name="receive-returned-items"></a><span data-ttu-id="28783-103">Tagastatud kauba vastuvõtt</span><span class="sxs-lookup"><span data-stu-id="28783-103">Receive returned items</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="ead82-104">Kui tagastussaadetis saabub, vastendate seda juba loodud tagastustellimusega.</span><span class="sxs-lookup"><span data-stu-id="ead82-104">When a return shipment arrives, you match it to a return order that has already been created.</span></span>
+<span data-ttu-id="28783-104">Kui tagastussaadetis saabub, vastendate seda juba loodud tagastustellimusega.</span><span class="sxs-lookup"><span data-stu-id="28783-104">When a return shipment arrives, you match it to a return order that has already been created.</span></span>
 
-<span data-ttu-id="ead82-105">Olenevalt ettevõtte poliitikast saab tagastussaadetises olevaid kaupu saata täiendavaks kontrollimiseks vahelattu või tagastada varudesse.</span><span class="sxs-lookup"><span data-stu-id="ead82-105">Depending on company policies, the items in the return shipment can be sent to quarantine for additional inspection or they can be returned to inventory.</span></span>
+<span data-ttu-id="28783-105">Olenevalt ettevõtte poliitikast saab tagastussaadetises olevaid kaupu saata täiendavaks kontrollimiseks vahelattu või tagastada varudesse.</span><span class="sxs-lookup"><span data-stu-id="28783-105">Depending on company policies, the items in the return shipment can be sent to quarantine for additional inspection or they can be returned to inventory.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ead82-106">Vt ka</span><span class="sxs-lookup"><span data-stu-id="ead82-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="28783-106">Vt ka</span><span class="sxs-lookup"><span data-stu-id="28783-106">See also</span></span>
 
-[<span data-ttu-id="ead82-107">Tagastatud kauba sissetuleku registreerimine</span><span class="sxs-lookup"><span data-stu-id="ead82-107">Register the receipt of returned items</span></span>](register-the-receipt-of-returned-items.md)
+[<span data-ttu-id="28783-107">Tagastatud kauba sissetuleku registreerimine</span><span class="sxs-lookup"><span data-stu-id="28783-107">Register the receipt of returned items</span></span>](register-the-receipt-of-returned-items.md)
 
-[<span data-ttu-id="ead82-108">Tagastatud toodete saabumise töölehe sisestamine</span><span class="sxs-lookup"><span data-stu-id="ead82-108">Post arrival journal for returned products</span></span>](post-arrival-journal-for-returned-products.md)
+[<span data-ttu-id="28783-108">Tagastatud toodete saabumise töölehe sisestamine</span><span class="sxs-lookup"><span data-stu-id="28783-108">Post arrival journal for returned products</span></span>](post-arrival-journal-for-returned-products.md)
 
-[<span data-ttu-id="ead82-109">Tagastatud kaupade kontrollist läbi viimine</span><span class="sxs-lookup"><span data-stu-id="ead82-109">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
+[<span data-ttu-id="28783-109">Tagastatud kaupade kontrollist läbi viimine</span><span class="sxs-lookup"><span data-stu-id="28783-109">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
 
   
 
