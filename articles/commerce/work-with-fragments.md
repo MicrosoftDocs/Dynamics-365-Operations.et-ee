@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 671caf1feeb7ac9e7d5a166c5de12540ab9b9792
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818346"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961654"
 ---
 # <a name="work-with-fragments"></a>Fragmentidega töötamine 
 
@@ -61,8 +61,8 @@ Saate kas luua uue fragmendi või salvestada olemasoleva mooduli konfiguratsioon
 Varem konfigureeritud mooduli teisendamiseks korduskasutatavaks fragmendiks tehke järgmist.
 
 1. Avage leht või mall, mis sisaldab moodulit, mida soovite teisendada fragmendiks.
-1. Valige vasakul liigenduspaanil või otse põhilõuendil eelnevalt konfigureeritud moodul.
-1. Valige kolmikpunkt (**...**) mooduli nime kõrval kas liigenduspaanil või lõuendi valitud mooduli tööriistaribal. 
+1. Valige vasakul liigenduspaanil või otse visuaalses leheehitajas eelnevalt konfigureeritud moodul.
+1. Valige kolmikpunkt (**...**) mooduli nime kõrval kas liigenduspaanil või visuaalses leheehitajas valitud mooduli tööriistaribal. 
 1. Valige suvand **Jaga lehekülje fragmendina**. 
 1. Dialoogiaknas **Salvesta lehe fragmendina** sisestage fragmendi nimi.
 1. Valige nupp **OK**, et salvestada mooduli konfiguratsioon fragmendina, mida saab lisada teistele lehtedele.
@@ -94,8 +94,8 @@ Järgmistes protseduurides kirjeldatakse, kuidas fragmente lisada, eemaldada ja 
 
 Lehele fragmendi lisamiseks tehke järgmist.
 
-1. Valige vasakult liigenduspaanilt või otse põhilõuendilt konteiner või pesa, kuhu võib lisada alammoodulid.
-1. Valige võrgupaanil kolmikpunkt (**...**) konteineri või pesa nime kõrval.  Alternatiivselt kui kasutate põhilõuendit, valige plussi sümbol (**+**).  
+1. Valige vasakult liigenduspaanilt või otse visuaalsest leheehitajast konteiner või pesa, kuhu võib lisada alammoodulid.
+1. Valige võrgupaanil kolmikpunkt (**...**) konteineri või pesa nime kõrval.  Kui kasutate visuaalset leheehitajat, valige teise võimalusena pluss-sümbol (**+**).  
 1. Valige nupp **Lisa fragment**.
 
     ![Olemasoleva fragmendi pessa või konteinerisse lisamise kuvahõive](./media/add-fragment.png)
@@ -115,7 +115,7 @@ Lehele fragmendi lisamiseks tehke järgmist.
 
 Fragmendi eemaldamiseks pesast või konteinerist lehel tehke järgmist.
 
-1. Vasakult liigenduspaanilt valige eemaldatava fragmendi kõrvalt kolmikpunkt (**...**) ja seejärel valige prügikasti tähis.  Alternatiivselt saate valida lõuendil fragmendi ja valida fragmendi tööriistaribal prügikasti tähise.
+1. Vasakult liigenduspaanilt valige eemaldatava fragmendi kõrvalt kolmikpunkt (**...**) ja seejärel valige prügikasti tähis.  Alternatiivselt saate valida visuaalses leheehitajas fragmendi ja valida fragmendi tööriistaribal prügikasti tähise.
 1. Kui teil palutakse kinnitada, et soovite fragmenti eemaldada, valige nupp **OK**.
 
 > [!NOTE]

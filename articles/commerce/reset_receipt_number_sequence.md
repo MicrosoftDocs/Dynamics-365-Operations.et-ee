@@ -3,7 +3,7 @@ title: Kviitungi numbrite lähtestamine
 description: See teema kirjeldab, kuidas lähtestada kviitungi numbreid, mida kasutatakse erinevate tegevuste jaoks soovitud kuupäeval (nt finantsaasta või kalendriaasta).
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,19 +19,19 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: e3243a69b98aae25ad8514890fb984c8a0d9f694
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456569"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967282"
 ---
 # <a name="reset-receipt-numbers"></a>Kviitunginumbrite lähtestamine 
 
 [!include [banner](includes/banner.md)]
 
 > [!NOTE]
-> Enne selle funktsiooni kasutamist tuleb teil funktsiooniprofiilis valida kõikide kviitungitüüpide jaoks atribuut **Sõltumatu seeria**. Samuti peaks kassat kasutava seadme süsteemi ajavöönd ühtima asjaomase kaupluse ajavööndiga. Me teeme tööd nende piirangute eemaldamiseks hilisemas väljaandes. Enne selle funktsiooni kasutamist tootmiskeskkonnas võtke ühendust Microsofti tugiteenuste töötajaga.
+> Enne selle funktsiooni kasutamist tuleb teil funktsiooniprofiilis valida kõikide kviitungitüüpide jaoks atribuut **Sõltumatu seeria**. Samuti peaks kassat kasutava seadme süsteemi ajavöönd ühtima asjaomase kaupluse ajavööndiga. Nende piirangute tõttu soovitame seda funktsiooni tootmises mitte kasutada, kuni me töötame nende probleemide lahendamise kallal tulevases väljalaskes. 
 
 Jaemüüjad loovad kviitungi numbreid kaupluses erinevate tegevuste jaoks, nt sularaha- ja vedamiskanded, tagastuskanded, klienditellimused, hinnapakkumised ja maksed. Kuigi jaemüüjad määravad kviitungi vormingud ise, on osades riikides või regioonides määrused, mis seavad nendele kviitungi vormingutele piirangud. Näiteks võivad need määrused piirata märkide arvu kviitungil, nõuda järjestikuseid kviitungi numbreid, piirata mõningaid erimärke või nõuda kviitungi numbrite lähtestamist aasta alguses. Microsoft Dynamics 365 Commerce muudab kviitungite numbrite haldamise protsessi väga paindlikuks, et aidata jaemüüjatel täita seadusest tulenevaid nõudeid. See teema selgitab, kuidas kasutada kviitungi numbrite lähtestamise funktsiooni.
 

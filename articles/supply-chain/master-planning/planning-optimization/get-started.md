@@ -3,7 +3,7 @@ title: Planeerimise optimiseerimise kasutamise alustamine
 description: Selles teemas selgitatakse, kuidas hakata kasutama planeerimise optimeerimise funktsiooni.
 author: ChristianRytt
 manager: tfehr
-ms.date: 05/06/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,20 +19,25 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04b39469ccf4f088bb33bdfc73ce40eece6f5f2e
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887260"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973472"
 ---
-# <a name="get-started-with-planning-optimization"></a>Planeerimise optimiseerimise kasutamise alustamine
+# <a name="get-started-with-planning-optimization"></a>Planeerimise optimeerimisega alustamine
 
 [!include [banner](../../includes/banner.md)]
 
-Planeerimise optimeerimise funktsioon ei toeta hetkel kõiki funktsioone, mis on Microsoft Dynamics 365 Supply Chain Managementi ehitatud planeerimismootoris saadaval. Seega on oluline, et hindaksite, kas hetkel planeerimise optimeerimises saadaolev funktsioonide komplekt vastab teie nõuetele. Vaikimisi ei ole planeerimise optimeerimise funktsioon portaalis Dynamics Lifecycle Services (LCS) sisse lülitatud. Seetõttu on teil võimalus teha oma hindamine enne selle sisselülitamist.
+Nagu [eelnevalt välja kuulutatud](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), asendab planeerimise optimeerimine varsti olemasoleva sisseehitatud koondplaneerimise mootori.
 
-Lõpuks asendab planeerimise optimeerimine olemasoleva sisseehitatud tarneahela halduse planeerimismootori.
+Kui kasutate praegu sisseehitatud koondplaneerimise mootorit, peaksite hakkama tegema kohe plaane migreerimiseks planeerimise optimeerimisse. On oluline alustada migreerimisprotsessi kohe, sest teie toiminguid võidakse mõjutada, kui iganemine jõustatakse. Et vältida viimasel hetkel tekkivaid probleeme iganemise jõustamisel, soovitame teil tungivalt migreerimise lõpule viia enne 1. detsembrit 2020. 
+
+Planeerimise optimeerimise funktsioon ei toeta hetkel kõiki funktsioone, mis on rakendusse Supply Chain Management ehitatud planeerimismootoris saadaval. Seega on oluline, et hindaksite, kas hetkel planeerimise optimeerimises saadaolev funktsioonide komplekt vastab teie nõuetele. Planeerimise optimeerimise funktsioon ei ole praegu vaikimisi sisse lülitatud lahenduses Dynamics Lifecycle Services (LCS), seega on teil võimalus teha oma hinnang enne funktsiooni sisselülitamist.
+
+> [!NOTE]
+> Peate taotlema planeerimise optimeerimise funktsiooni migreerumiseks erandit, kui teie koondplaneerimise protsess ei hõlma tootmist (koondplaneerimise loodud plaanitud tootmistellimused) ja vajate sisseehitatud koondplaneerimise mootori versioonist 10.0.15 uuemat versiooni. Alates versioonist 10.0.16 kuvatakse tõrge keskkondades, kus sisseehitatud koondplaneerimine töötab ilma plaanitud tootmistellimuste loomiseta. Planeerimise optimeerimise funktsiooni tuleks kasutada kõigi uute juurutuste puhul, mis ei loo koondplaneerimise ajal plaanitud tootmistellimusi. Selliste olemasolevate keskkondade omanikud, milles käitatakse sisseehitatud koondplaneerimise mootorit ilma plaanitud tootmistellimuste loomiseta, saavad e-kirja koos üksikasjadega erandiprotsessi kohta. Soovitame töötada koos partneriga, et hinnata ja planeerida migreerumist planeerimise optimeerimise funktsiooni.
 
 Enne planeerimise optimeerimise sisselülitamist soovitame teil hinnata planeerimise optimeerimise sobivuse analüüsi tulemusi. Lisateavet vt [Planeerimise optimeerimise sobivuse analüüs](planning-optimization-fit-analysis.md).
 
