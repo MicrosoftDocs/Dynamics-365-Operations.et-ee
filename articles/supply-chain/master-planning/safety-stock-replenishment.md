@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: roxanad
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 7a1721b3206f8a3df010f26dc31e3ac4e5e0878b
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887012"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987385"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Kaupade puhvervaru täitmine
 
@@ -111,7 +111,7 @@ Nägemaks, kuidas see töötab, vaadake järgmist stsenaariumit.
 
 Puhvervaru jälgitakse süsteemis vajaduse tüübina, nagu müügiridu või koosluse nõudeidki. Puhvervaru vajaduse rida näite lehel **Netonõuded**, kui eemaldate veerust **Nõude tüüp** vaikefiltri.
 
-Puhvervaru nõudekande täitmine kaotab oma tähtsuse, kui süsteem tuvastab, et see põhjustab viivitusi tegeliku nõudluse, nagu müügiridade, koosluse ridade, vajaduste ülekandmise või nõudluse prognoosi ridade täitmisel. Muudel juhtudel on saadaolevate varude säilitamine ülalpool puhvervaru kogust samasuguse tähtsusega nagu teisedki vajaduse tüübid. See tagab viivitusteta tegelikud kanded ja aitab ennetada puhvervaru liigset ja varajast täiendamist.
+Puhvervaru nõudekande täitmine kaotab oma tähtsuse, kui süsteem tuvastab, et see põhjustab viivitusi tegeliku nõudluse täitmisel, nagu müügiridade, koosluse ridade, ülekandmisnõuete või nõudluse prognoosi ridade täitmisel. Muudel juhtudel on saadaolevate varude säilitamine ülalpool puhvervaru kogust samasuguse tähtsusega nagu teisedki vajaduse tüübid. See tagab viivitusteta tegelikud kanded ja aitab ennetada puhvervaru liigset ja varajast täiendamist.
 
 Koondplaneerimise katvuse faasis ei deprioriseerita enam puhvervaru täiendamist. Enne mis tahes vajaduse tüüpi saab kasutada vaba kaubavaru. Viivituse arvutamisel lisatakse hilinenud müügiridade, kooslusridade nõuete ja kõigi muude nõudluse tüüpide ülevaatamisel uus loogika, et määrata, kas neid on võimalik puhvervaru kasutades õigeaegselt kätte toimetada. Kui süsteem tuvastab, et puhvervaru kasutamine võib viivitusi vähendada, siis asendatakse müügiridadel või koosluseridadel algne kate puhvervaruga ja süsteem käitab hoopis puhvervaru täiendamise.
 
