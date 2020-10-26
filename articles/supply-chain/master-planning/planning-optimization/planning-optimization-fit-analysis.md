@@ -3,7 +3,7 @@ title: Planeerimise optimeerimise sobivuse analüüs
 description: Selles teemas selgitatakse, kuidas kontrollida praegust seadistust ja andmeid planeerimise optimeerimise funktsiooni võimaluste suhtes.
 author: ChristianRytt
 manager: tfehr
-ms.date: 09/23/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 73549097eed6d9418d5ff73e108d1dbae7ed66b3
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 769bd84b4ba23c9de4638df9186381936221414a
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887134"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973448"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planeerimise optimeerimise sobivuse analüüs
 
 [!include [banner](../../includes/banner.md)]
 
-Et näha, kui hästi teie praegune seadistus ja andmed planeerimise optimeerimise funktsiooniga ühilduvad, avage **Koondplaneerimine** \> **Seadistus** \> **Planeerimise optimeerimise sobivuse analüüs** ja valige seejärel **Käivita analüüs**. Kui analüüs tuvastab vastuolusid, loetletakse need samal lehel. (Analüüsimise käitamiseks võib kuluda mõni minut.)
+Peaksite analüüsima planeerimise optimeerimise sobivuse analüüsi tulemust osana migreerimisprotsessist. Arvestage, et planeerimise optimeerimise ulatus ei ole praeguse sisseehitatud koondplaneerimise funktsiooniga võrdne. Soovitame teil töötada koos oma partneriga ja lugeda dokumentatsiooni, et migreerimise jaoks ette valmistuda. 
+
+Planeerimise optimeerimise sobivuse analüüs aitab teil tuvastada, kus tulemus võib sisseehitatud koondplaneerimise mootori ja planeerimise optimeerimise vahel erineda. See analüüs tehakse teie praeguse seadistuse ja andmete alusel. 
+
+Planeerimise optimeerimise sobivuse analüüsi tulemuse nägemiseks avage **Koondplaneerimine** \> **Seadistus** \> **Planeerimise optimeerimise sobivuse analüüs** ja valige seejärel **Käivita analüüs**. Kui analüüs tuvastab vastuolusid, loetletakse need samal lehel. (Analüüsimise käitamiseks võib kuluda mõni minut.)
 
 > [!NOTE]
 > Kui leitakse vastuolusid, saate planeerimise optimeerimist endiselt kasutada. Sobivuse analüüsi tulemused näitavad lihtsalt kohti, kus planeerimise teenus ei arvesta teie praeguse seadistusega. Teisisõnu näitavad need kohti, kus mõnda protsessi võidakse ignoreerida või ei toetata.
@@ -63,7 +67,7 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | Kinnitamine | Koondplaanid, millel on määratud automaatkinnitamine: _\#_ | Versioonis 10.0.7 ja uuemates versioonides toetatakse automaatkinnitamist eraldi kinnitamise pakett-tööna pärast koondplaneerimise lõpule viimist (eeldusel, et funktsioon _Automaatkinnitus planeerimise optimeerimiseks_on [funktsioonihalduses](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) lubatud). Arvestage sellega, et automaatkinnitus planeerimise optimeerimiseks põhineb tellimuse kuupäeval (alguskuupäeval), mitte vajaduse kuupäeval (lõppkuupäeval). Selline käitumismudel tagab, et plaanitud tellimuste kinnitamine toimub õigel ajal, ilma et peaksite kinnitamisajavahemikus täitmisajaga arvestama. | Toetatud |
 | FitAnalysisPlanningItems | Plaanimisüksused: _\#_ | See funktsioon on ootel. Praegu käsitletakse plaanimisüksuseid nagu tavalisi kaupu, kui planeerimise optimeerimine on lubatud. | 2021. oktoober |
 | Eelarve | Laovarude grupid, millel on lubatud kontsernisiseste tellimuste kaasamine: _\#_ | See funktsioon on ootel. Sellest sättest hoolimata ei hõlma koondplaneerimine praegu sissetulevat planeeritud nõudlust, kui planeerimise optimeerimine on lubatud. Pange tähele, et väljastatud/kinnitatud tellimused töötavad endiselt tavaliste kontsernisiseste funktsioonidega ja hõlmavad enamikku stsenaariume. | 2020. oktoober |
-| Eelarve | Laovarude grupid, mille sätte „Prognoosi vähendamisalus:” väärtus pole „Tellimused”: _\#_ | Sellest sättest hoolimata kasutab planeerimise optimeerimine tellimuste puhul vaikimisi sätet „Prognoosi vähendamisalus:”. | 2020. oktoober |
+| Eelarve | Laovarude grupid, mille sätte „Prognoosi vähendamisalus:” väärtus pole „Tellimused”: _\#_ | Sellest sättest hoolimata kasutab planeerimise optimeerimine tellimuste puhul vaikimisi sätet „Prognoosi vähendamisalus:”. | November 2020 |
 | Eelarve | Alammudelitega prognoosimudelid: _\#_ | See funktsioon on ootel. Praegu ei toetata allmudeleid kasutavaid prognoose, kui planeerimise optimeerimine on lubatud. Neid eiratakse, hoolimata sellest sättest. | 2021. aprill |
 | Eelarve | Koondplaanid, millel on lubatud säte „Kaasa tarneprognoos”: _\#_ | See funktsioon on ootel. Praegu ei toetata tarneprognoose, kui planeerimise optimeerimine on lubatud. Neid eiratakse, hoolimata sellest sättest. | 2021. oktoober |
 | Ajapiir | Laovarude grupid, millel on määratud külmutamise ajapiir: _\#_ | Külmutamise ajapiiri ei kasutata sageli ja praegu pole plaanis seda planeerimise optimeerimisse kaasata. Sellest sättest hoolimata eiratakse praegu külmutamise ajapiiri seadistust, kui planeerimise optimeerimine on lubatud. | Pole rakendatav |
@@ -72,7 +76,7 @@ Järgmises tabelis on toodud tulemused, mida võidakse kuvada pärast sobivuse a
 | Kontsernisisene | Koondplaanid, mis hõlmavad plaanitud sissetulevat nõudlust: _\#_ | See funktsioon on ootel. Sellest sättest hoolimata ei hõlma koondplaneerimine praegu sissetulevat planeeritud nõudlust, kui planeerimise optimeerimine on lubatud. Pange tähele, et väljastatud/kinnitatud tellimused töötavad endiselt tüüpiliste kontsernisiseste funktsioonidega ja hõlmavad enamikku stsenaariume. | 2020. oktoober |
 | Kanban | Kauba laovarude kirjed, mille plaanitud tellimusetüüp on kanban: _\#_ | See funktsioon on ootel. Praegu eiratakse kanbaniks määratud kauba laovarusid, kui planeerimise optimeerimine on lubatud. Plaanitud tellimusetüübi kanban puhul kuvatakse koondplaneerimise ajal hoiatus ja seotud nõudluse täitmiseks luuakse plaanitud ostutellimused. | 2021. oktoober |
 | Kanban | Kanban-tellimuse vaiketüübiga kaubad: _\#_ | Praegu eiratakse kanbaniks määratud vaiketellimusetüüpi, kui planeerimise optimeerimine on lubatud. Vaiketellimusetüübi kanban puhul kuvatakse koondplaneerimise ajal hoiatus ja seotud nõudluse täitmiseks luuakse plaanitud ostutellimused. | 2021. oktoober |
-| Toote töötsükli olek   | Toote töötsükli olekud pole planeerimiseks aktiivsed: _\#_ | See on ootel funktsioon. Hetkel toote töötsükli olekut ignoreeritakse, kui planeerimise optimeerimine on lubatud. Saate korrigeerida plaani taseme tootefiltrit, et vältida toodete kaasamist, kui planeerimisel on toote töötsükli olek keelatud. | 2020. oktoober |
+| Toote töötsükli olek   | Toote töötsükli olekud pole planeerimiseks aktiivsed: _\#_ | See on ootel funktsioon. Hetkel toote töötsükli olekut ignoreeritakse, kui planeerimise optimeerimine on lubatud. Saate korrigeerida plaani taseme tootefiltrit, et vältida toodete kaasamist, kui planeerimisel on toote töötsükli olek keelatud. | November 2020 |
 | Tootmine | Ümardamise või mitme häälestusega koosluseread: _\#_ | See funktsioon on ootel. Sellest sättest hoolimata eiratakse praegu koosluseridade puhul ümardamist ja mitut häälestust, kui planeerimise optimeerimine on lubatud. | 2021. aprill |
 | Tootmine | Valemi mõõtmisega koosluse-/valemiread: _\#_ | See funktsioon on ootel. Sellest sättest hoolimata eiratakse praegu koosluse- ja valemiridade puhul valemi mõõtmist, kui planeerimise optimeerimine on lubatud. | 2021. oktoober |
 | Tootmine | Kauba asendamisega koosluse-/valemiread (plaanigrupid): _\#_ | See funktsioon on ootel. Sellest sättest hoolimata eiratakse praegu koosluse- ja valemiridade puhul kauba asendamist (plaanigruppe), kui planeerimise optimeerimine on lubatud. | 2021. oktoober |

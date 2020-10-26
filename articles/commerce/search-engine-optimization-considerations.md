@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c7afed8e4620d5fe49ead47eb6c17d97d7492ad
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002794"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961582"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Saidi jaoks otsingumootori optimeerimise (SEO) kaalutlused
 
@@ -47,7 +47,7 @@ Otsingumootori indekseerimise optimeerimiseks kasutab renderdamise raamistik mõ
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Lehekülje SEO sätted sisemise eelvaate, piiratud sihtrühmade ja kogu publiku jaoks
 
-Kuna rakendus Dynamics 365 Commerce toetab "mida sa näed on see, mida sa saad" (WYSIWYG) autenditud eelvaateid, saavad autorid ette valmistada oma lehe sisu, ilma et peaks muretsema, et teave muutub saidi külastajatele nähtavaks. Kui leht tuleb avaldada, kuid selle säritus peab olema piiratud, peaks sellel olema metasilt **NOINDEX**, nii et otsingumootorid seda ei indekseeriks. Seejärel, kui leht on kõigi sihtrühmade jaoks valmis, tuleb esitada kõik põhilised SEO metaandmed, et maksimeerida otsingumootori indekseerimise efektiivsust. Lisaks tuleks eemaldada metasilt **NOLIMIT**.
+Kuna rakendus Dynamics 365 Commerce toetab „mida sa näed on see, mida sa saad” (WYSIWYG) autenditud eelvaateid visuaalses leheehitajas, saavad autorid ette valmistada oma lehe sisu, ilma et peaks muretsema, et teave muutub saidi külastajatele nähtavaks. Kui leht tuleb avaldada, kuid selle säritus peab olema piiratud, peaks sellel olema metasilt **NOINDEX**, nii et otsingumootorid seda ei indekseeriks. Seejärel, kui leht on kõigi sihtrühmade jaoks valmis, tuleb esitada kõik põhilised SEO metaandmed, et maksimeerida otsingumootori indekseerimise efektiivsust. Lisaks tuleks eemaldada metasilt **NOLIMIT**.
 
 ## <a name="additional-resources"></a>Lisaressursid
 

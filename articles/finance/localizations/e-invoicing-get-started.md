@@ -3,7 +3,7 @@ title: Elektroonilise arvelduse lisandmooduli kasutamise alustamine
 description: Sellest teemast leiate teabe, mis aitab teil rakendustes Microsoft Dynamics 365 Finance ja Dynamics 365 Supply Chain Management elektroonilise arvelduse lisandmoodulit kasutama hakata.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 61933bb846383932d7dd73e9c4d3c2db7a515a98
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835941"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971468"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Elektroonilise arvelduse lisandmooduli kasutamise alustamine
 
@@ -62,7 +62,7 @@ Elektroonilise arvelduse lisandmoodulit saate kasutada oma praeguse litsentsiga.
 Enne selles teemas kirjeldatud sammude lõpetamist peavad täidetud olema järgmised eeltingimused.
 
 - Juurdepääs LCS-i kontole.
-- LCS-i juurutusprojekt, mis sisaldab rakenduse Finance või Supply Chain Management versiooni 10.0.12 või uuemat versiooni.
+- LCS-i juurutusprojekt, mis sisaldab rakenduse Finance või Supply Chain Management versiooni 10.0.13 või uuemat versiooni.
 - Juurdepääs RCS-i kontole.
 - Lülitage mooduli **Funktsioonihaldus** kaudu oma RCS-i konto jaoks sisse globaliseerimisfunktsioon. Lisateavet leiate jaotisest [Regulatory Configuration Services (RCS) – globaliseerimisfunktsioonid](rcs-globalization-feature.md)
 - Looge Azure'is võtmehoidla ressurss ja salvestusruumi konto. Lisateavet leiate jaotisest [Azure'i salvestusruumi konto ja võtmehoidla loomine](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -82,19 +82,21 @@ Järgmisel illustratsioonil on näha viis põhisammu, mille te selle teema käig
 > [!NOTE]
 > Mõned selle teema konfiguratsioonisammud on tavalised ja riigi-/regioonipõhised. Riigi-/regioonipõhiseid samme ja seadistustoiminguid kirjeldatakse riigi-/regioonipõhistes teemades.
 
-## <a name="lcs-setup"></a>LCS-i seadistus
+## <a name="lcs-setup"></a>LCS häälestus
 
 1. Logige oma LCS-i kontole sisse.
-2. Valige LCS-i juurutusprojekt. Enne projekti valimist peab see olema konfigureeritud ja töötama.
-3. Valige kiirkaardil **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
-4. Valige **Äridokumendi esitamine**.
-5. Sisestage dialoogiboksis **Lisandmooduli seadistus** väljale **AAD rakenduse ID** tekst **091c98b0-a1c9-4b02-b62c-7753395ccabe**. See väärtus ei muutu.
-6. Sisestage väljale **AAD rentniku ID** oma Azure'i tellimuse konto ID.
+2. Valige paan **Funktsiooni eelversiooni haldus** ning valige väljagrupist **Avaliku eelversiooni funktsioonid** suvand **BusinessDocumentSubmission**.
+3. Märkige väli **Funktsiooni eelversioon on lubatud**.
+4. Valige LCS-i juurutusprojekt. Enne projekti valimist peab see olema konfigureeritud ja töötama.
+5. Valige kiirkaardil **Keskkonna lisandmoodulid** suvand **Installi uus lisandmoodul**.
+6. Valige **Äridokumendi esitamine**.
+7. Sisestage dialoogiboksis **Lisandmooduli seadistus** väljale **AAD rakenduse ID** tekst **091c98b0-a1c9-4b02-b62c-7753395ccabe**. See väärtus ei muutu.
+8. Sisestage väljale **AAD rentniku ID** oma Azure'i tellimuse konto ID.
 
     ![Lisandmooduli seadistuse dialoogiboks LCS-is](media/e-invoicing-services-get-started-lcs-addin-setup.png)
 
-7. Tingimustega nõustumiseks valige märkeruut.
-8. Valige **Installi**.
+9. Tingimustega nõustumiseks valige märkeruut.
+10. Valige **Installi**.
 
 ## <a name="rcs-setup"></a>RCS-i seadistus
 
@@ -124,7 +126,7 @@ RCS-i seadistuse käigus teete järgmist.
 
     ![Võtmehoidla URI väli](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. Valige kiirkaardil **Serdid** suvand **Lisa** ning sisestage digitaalsed serdinimed ja võtmehoidla saladused. Mõlemad väärtuste komplektid on konfigureeritud Azure'is võtmehoidla ressursis.
+7. Valige kiirkaardil **Serdid** suvand **Lisa**, et sisestada kõik digitaalsete sertide nimed ja võtmehoidla saladused, mis on vajalikud usaldusväärsete ühenduste loomiseks. Veerus **Tüüp** saate määrata, kas see on sert või saladus. Mõlemad väärtuste komplektid on konfigureeritud Azure'is võtmehoidla ressursis.
 
     ![Sertide lisamine](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -132,9 +134,9 @@ RCS-i seadistuse käigus teete järgmist.
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>RCS-i integratsiooni seadistamine elektroonilise arvelduse lisandmooduli serveriga
 
-1. Valige tööruumi **Globaliseerimisfunktsioonid** jaotisest **Seotud lingid** link **Elektroonilise aruandluse parameetrid**.
+1. Valige tööruumi **Globaliseerimisfunktsioonid** jaotisest **Seotud sätted** link **Elektroonilise aruandluse parameetrid**.
 2. Valige **Klõpsake siin, et luua ühendus teenusega Lifecycle Service**. Kui te ei soovi LCS-iga ühendust luua, valige **Tühista**.
-3. Sisestage vahekaardil **Elektroonilise arvelduse lisandmoodul** väljale **Teenuse lõpp-punkti URI** tekst `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
+3. Sisestage vahekaardil **E-arvelduse teenused** väljale **Teenuse lõpp-punkti URI** väärtus olemasolevate geograafiliste piirkondade järgi: `https://businessdocumentsubmission.us.operations365.dynamics.com/` või `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
 4. Veenduge, et välja **Rakenduse ID** väärtus oleks ID **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. See väärtus ei muutu.
 5. Sisestage väljale **LCS-i keskkonna ID** oma LCS-i tellimuse konto ID.
 
