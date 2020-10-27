@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed1fdc4a44ff55586f6879d9fb7df44b4f88c568
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 14bc48a0dc118121b75c47f6082a3b4d58fcbadc
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772841"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977092"
 ---
 # <a name="europe-overview"></a>Euroopa ülevaade
 
@@ -49,12 +49,12 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ju
   - [ISO20022-failide importimine](emea-ISO20022-file-formats.md)
   - [ISO20022 otsekorralduse konfiguratsiooni importimine](tasks/import-iso20022-direct-debit-configuration.md)
   - [ISO20022 kreeditiülekande konfiguratsiooni importimine](tasks/import-iso20022-credit-transfer-configuration.md)
-  - [Ettevõtte pangakontode seadistamine ISO20022 kreeditkorralduste jaoks](tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
-  - [Ettevõtte pangakontode seadistamine ISO20022 otsekorralduste jaoks](tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
-  - [Makseviisi seadistamine ISO20022 kreeditkorralduse jaoks](tasks/set-up-method-payment-iso20022-credit-transfer.md)
+  - [Ettevõtte pangakontode häälestus ISO20022 kreeditkorralduste jaoks](tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
+  - [Ettevõtte pangakontode häälestus ISO20022 otsekorralduste jaoks](tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
+  - [Makseviisi häälestus ISO20022 kreeditkorralduse jaoks](tasks/set-up-method-payment-iso20022-credit-transfer.md)
   - [Makseviisi seadistamine ISO20022 otsekorralduse puhul](tasks/setup-method-payment-iso20022-direct-debit.md)
-  - [Klientide ja kliendi pangakontode seadistamine ISO20022 otsekorralduste jaoks](tasks/set-up-bank-accounts-iso20022-direct-debits.md)
-  - [Hankijate ja hankija pangakontode seadistamine ISO20022 kreeditkorralduste jaoks](tasks/set-up-vendor-iso20022-credit-transfers.md)
+  - [Klientide ja kliendi pangakontode häälestus ISO20022 otsekorralduste jaoks](tasks/set-up-bank-accounts-iso20022-direct-debits.md)
+  - [Hankijate ja hankija pangakontode häälestus ISO20022 kreeditkorralduste jaoks](tasks/set-up-vendor-iso20022-credit-transfers.md)
   - [Hankijamaksete loomine ja eksportimine ISO20022 maksevormingu abil](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [Intrastati ülevaade](emea-intrastat.md)
   - [Kannete ülekandmine Intrastati](tasks/transfer-transactions-intrastat.md)
@@ -78,7 +78,7 @@ See teema sisaldab teavet ja linke ressurssidele, mis aitavad teil seadistada ju
 - [SEPA kreeditiülekande ülevaade](../accounts-payable/sepa-credit-transfer.md)
 - [SEPA otsekorralduse ülevaade](../accounts-receivable/sepa-direct-debit-overview.md)
 - [Kliendi ja hankija hüvituse seadistamine](emea-compensation-customer-vendor-transactions.md)
-- [EL-i käibearuandluse seadistamine](tasks/eur-00011-eu-sales-list-reporting.md)
+- [EL-i käibearuandluse häälestus](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Maksekviitungi vormingu seadistamine projektiarvete jaoks](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Allkirjastajate häälestamine prindivormide jaoks](emea-set-up-signers-for-printing-forms.md)
 - [Stornoarvestus](emea-storno.md)

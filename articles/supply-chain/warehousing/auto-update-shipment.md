@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: baa8207f9f3a3de071033c4c70f60a339ec5e083
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
+ms.sourcegitcommit: 2bc8e760c7a82572c7eafd51f2e57ef11b4ca98b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677334"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3900982"
 ---
 # <a name="shipment-auto-updates"></a>Saadetise automaatvärskendused
 
@@ -39,7 +39,7 @@ Saadetise automaatvärskenduse funktsioon rakendub nii müügitellimuse kui ka e
 
 Saadetise automaatvärskenduse funktsioon toetub määramisel, kas koormusreal olevat kogust tuleks muuta siis, kui muudatus tehakse müügitellimuse või edastamise real, peamiselt saadetise olekule. Samuti toetub see määramisel, millal luua automaatselt uus koormusrida olemasolevasse koormusse, peamiselt saadetise olekule. Kui saadetise olekuks on **Voog moodustatud** või kõrgem, siis automaatset uuendamist ei toimu.
 
-Voogude olekut arvestatakse ka automaatvärskenduse puhul. Kui koormusreaga seotud vool on olekuks **Peatatud**, **Teostamine**, **Vabastatud**, **Komplekteeritud** või **Saadetud** ja kui kasutaja püüab vähendada koormust koormusreal (müügitellimuse või edastamise rea koguse vähenemisega) kuvatakse järgmine tõrketeade: "Reserveeringuid ei saa eemaldada, kuna on loodud töö, mis sõtlub nendest reserveeringutest." Lisaks, kui vool on üks eelnevalt mainitud voo olekutest, ei suurene koormusrea kogus automaatselt, kui kasutaja püüab müügitellimuse või edastamise rea koguse vähendamisega kaudselt suurendada koormusrea kogust. Sel juhul tuleb koormusrida käsitsi uuendada.
+Voogude olekut arvestatakse ka automaatvärskenduse puhul. Kui koormusreaga seotud vool on olekuks **Peatatud**, **Teostamine**, **Vabastatud**, **Komplekteeritud** või **Saadetud** ja kui kasutaja püüab vähendada koormust koormusreal (müügitellimuse või edastamise rea koguse vähenemisega) kuvatakse järgmine tõrketeade: "Reserveeringuid ei saa eemaldada, kuna on loodud töö, mis sõtlub nendest reserveeringutest." Lisaks, kui vool on üks eelnevalt mainitud voo olekutest, ei suurene koormusrea kogus automaatselt, kui kasutaja püüab müügitellimuse või üleviimistellimuse rea koguse suurendamisega kaudselt suurendada koormusrea kogust. Sel juhul tuleb koormusrida käsitsi uuendada.
 
 ## <a name="scenarios"></a>Stsenaariumid
 

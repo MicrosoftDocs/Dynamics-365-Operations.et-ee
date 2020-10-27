@@ -3,7 +3,7 @@ title: Teatisereeglite loomine
 description: Selles teemas antakse teavet teatiste kohta ja selgitatakse, kuidas luua teatisereeglit selliselt, et saaksite teavitusi selliste sündmuste kohta nagu saabuv kuupäev või konkreetne muudatus.
 author: tjvass
 manager: AnnBe
-ms.date: 02/19/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 94b68138066867fad641c70a1674c9292920ec6a
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075920"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970675"
 ---
 # <a name="create-alert-rules"></a>Teatisereeglite loomine
 
@@ -92,3 +92,14 @@ Teatisi saab saata väliselt ärisündmuste raamistikku kasutades. Teatise loomi
 7. Kinnitage meilisõnumi teema vaikepealkiri või sisestage uus teema kiirkaardi **Teavita mind järgmisega** väljal **Teema**. Teksti kasutatakse meilisõnumi teema pealkirjana, mille saate teatise käivitamisel. Kui soovite saata teatise ärisündmusena, seadke suvand **Saada väliselt** valikule **Jah**.
 8. Sisestage valikuline teade väljale **Teade**. Teksti kasutatakse sõnumina, mille saate teatise käivitamisel.
 9. Valige **OK**, et salvestada sätted ja luua teatisereegel.
+
+## <a name="limitations-and-workarounds"></a>Piirangud ja lahendused
+
+### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Lahendus vormi teiseste andmeallikate jaoks teatiste loomiseks
+Mõne vormi teisese andmeallika jaoks ei saa teatisi luua. Näiteks kui teatisi luuakse kliendi või hankija sisestusreeglite vormil, on saadaval ainult päise (CustLedger või VendLedger) väljad, mitte dimensioonikontod. Selle piirangu lahendus on kasutada üksust **SysTableBrowser**, avada see tabel esmase andmeallikana. 
+1. Avage tabel vormis **SysTableBrowser**.
+    ```
+        https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
+    ```
+2. Looge teatis vormis SysTableBrowser.
+

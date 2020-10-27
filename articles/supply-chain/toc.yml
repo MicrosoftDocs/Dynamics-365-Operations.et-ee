@@ -70,12 +70,12 @@
                   items:
                     - name: Mis on uut või mida on muudetud Supply Chain Managementi avalehel?
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.15 (detsember 2020)
+                      href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14 (november 2020)
                       href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (oktoober 2020)
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: Supply Chain Management 10.0.12 (august 2020)
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Dynamics 365 Supply Chain Managementi eemaldatud või iganenud funktsioonid
@@ -194,7 +194,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
                 - name: LCS-i juurutusprojektide teisaldamine teistesse Azure AD rentnikesse
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Mitu LCS-i projekti ja tootmiskeskkonda ühes Azure AD rentnikus
+                - name: LCS-juurutusprojektide teisaldamine kohapealsest keskkonnast pilve
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Mitu LCS-i projekti ja töökeskkonda ühes Azure AD rentnikus
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: Globaliseerimine
           items:
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: Regulatiivsed värskendused
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: India
+              items:
+                - name: Lao üleviimistellimused
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: Venemaa
               items:
                 - name: Venemaa ülevaade
@@ -1407,6 +1413,8 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: Koondplaneerimise jõudluse parandamine
                   href: master-planning/master-planning-performance.md
+                - name: Plaanimismootori jõudluste täiustamine
+                  href: master-planning/scheduling-engine-performance.md
                 - name: Koondplaanid ja mitme tegevuskoha funktsioon
                   items:
                     - name: Koondplaneerimine ja mitme tegevuskoha funktsiooni ülevaade
@@ -1939,6 +1947,8 @@
                       href: pim/tasks/maintain-bom-product-configuration-model.md
                     - name: Tootemudeli protsessi haldamine
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: Atribuudipõhised müügihinnad piirangupõhistele tootekonfiguratsioonidele
+                      href: pim/attribute-based-product-configurator.md
                     - name: Toote konfiguratsioonimudeli kinnitamine
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Tootemudelite andmete ülekandmine
@@ -2035,6 +2045,8 @@
                       href: production-control/config-job-card-device.md
                     - name: Lõpetatuna kinnitamine töökaardi seadmest
                       href: production-control/report-finished-job-device.md
+                    - name: Hübriidreaalsusjuhiste pakkumine tootmistöötajatele
+                      href: production-control/instruction-guides-in-production-overview.md
                     - name: Tootmistellimuse oleku tühistamine
                       href: production-control/reverse-production-order-status.md
                     - name: Materjalierandite nähtavus
@@ -2647,8 +2659,12 @@
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Partii ja litsentsiplaadi kinnitus
                       href: warehousing/batch-and-license-plate-confirmation.md
-                    - name: Registreerimismärgi sildi printimise lubamine
+                    - name: Litsentsiplaadi sildi printimise lubamine
                       href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Üleviimistellimuste loomine laorakenduses
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: Laorakenduse sündmusetöötlus
+                      href: warehousing/warehouse-app-events.md
                     - name: Osa komplekteerimise kinnitus
                       href: warehousing/piece-picking-confirmation.md
                     - name: Pakkematerjalid ja tasud
@@ -2845,9 +2861,11 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Protsessijuhendi raamistik
                       href: warehousing/process-guide-framework.md
+                    - name: Laorakenduse ühendusprobleemide tõrkeotsing
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Täiendamine ja migreerimine
                   items:
-                    - name: Microsoft Dynamics AX 2012 laohalduse protsesside täiendamine versioonile Finance and Operations
+                    - name: Microsoft Dynamics AX 2012 laohalduse protsesside täiendamine versiooniks Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Supply Chain Managementi juurutamine
           items:

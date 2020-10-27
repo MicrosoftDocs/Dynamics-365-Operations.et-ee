@@ -14,15 +14,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 266904
 ms.search.region: Estonia
-ms.author: v-elgolu
+ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ef3db7c8a73c697bc69839d21afb2ca2c7ab4a21
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: bb3821216ea5d1f5c045e8ce3498d6b408476a64
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773471"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978298"
 ---
 # <a name="vat-statement-details-for-estonia"></a>KM-aruande üksikasjad Eesti puhul
 

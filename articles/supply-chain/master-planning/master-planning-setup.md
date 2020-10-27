@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 1e7775e797708668a339b6b02ed822261406c829
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323665"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958789"
 ---
 # <a name="set-up-master-planning"></a>Koondplaneerimise seadistamine
 
@@ -120,7 +120,7 @@ Tööde planimine on üksikasjalikum planeerimismeetod, kus iga operatsioon on j
 Iga plaani puhul saate valida, kui kaugele tulevikku peab koondplaneerimine erinevad nõuded ja muud asjaolud arvutama. Periood on tuntud kui *ajapiir*. Koondplaneerimise parima jõudluse tagamiseks on soovitatav ärinõuete täitmiseks kohandada erinevaid ajapiire. Iga plaani jaoks leiate ajapiirid kiirkaardil **Ajapiirid päevades** lehel **Koondplaanid** (**Koondplaneerimine \> Seadistus \> Plaanid \> Koondplaanid**).
 
 > [!NOTE]
-> Ajapiirid näitavad, kui kaugele tulevikku on koonplaneerimine erinevad nõuded ja muud asjaolud arvutanud. Sellel lehel valitud ajapiirid tühistavad laovarude grupis määratletud ajapiirid. See tähendab, et ajapiiri suvandi valikule jah seadmine ja päevade määratlemine tühistab laovarude grupis määratletud ajapiiri. Kui see on määratud valikule Ei, on ajapiir määratletud laovarude grupis. Lõpuks kui te ei soovi suvandit kasutada (näiteks te ei soovi tegevuse sõnumeid kasutada), seadke see valikule **Jah** ning seejärel määrake ajapiir **0** (null) päevale.
+> Ajapiirid näitavad, kui kaugele tulevikku on koonplaneerimine erinevad nõuded ja muud asjaolud arvutanud. Sellel lehel valitud ajapiirid tühistavad laovarude grupis määratletud ajapiirid. See tähendab, et ajapiiri suvandi väärtuseks jah seadmine ja päevade määratlemine alistab laovarude grupis määratletud ajapiiri. Kui see on määratud valikule Ei, on ajapiir määratletud laovarude grupis. Lõpuks kui te ei soovi suvandit kasutada (näiteks te ei soovi tegevuse sõnumeid kasutada), seadke see valikule **Jah** ning seejärel määrake ajapiir **0** (null) päevale.
 
 ### <a name="coverage"></a>Laovarud
 

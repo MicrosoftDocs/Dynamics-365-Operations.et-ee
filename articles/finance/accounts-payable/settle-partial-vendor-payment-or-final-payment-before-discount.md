@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d5961b2459a1c43cee24b611cf73879c6e776a4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34d941c3806ccc9d2b8baa29eef45fbd4216686e
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177417"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967306"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Hankija osalise makse ja lõpliku makse tasakaalustamine enne allahindluse kuupäeva.
 
@@ -64,7 +64,7 @@ Skonto summa vaatamiseks klõpsab April vahekaarti **Skonto**.
 | 25.07.2015          | 0,00                 | 1 000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Osaline makse 1. juulil, kasutades lehte Kannete tasakaalustamine
-April saab luua sellele maksele maksetöölehe, avades jaotises Ostureskontro lehe **Maksetööleht**. Ta loob uue töölehe ja sisestab hankijale 3064 rea. Ta avab seejärel lehe **Kannete tasakaalustamine**, et ta saaks arve tasakaalustamiseks märgistada. April märgib arve ja muudab välja **Tasakaalustatav summa** väärtuseks **–500,00**. Väljal **Skonto summa** näeb ta, et täieliku arve skonto summa on **–10,00** ja skonto summa väljal **Skonto summa võtmiseks** on **–5,05**. Seetõttu tasakaalustab April arve summas –505,05.
+April saab luua sellele maksele maksetöölehe, avades jaotises Ostureskontro lehe **Maksetööleht**. Ta loob uue töölehe ja sisestab rea hankija 3064 jaoks. Ta avab seejärel lehe **Kannete tasakaalustamine**, et ta saaks arve tasakaalustamiseks märgistada. April märgib arve ja muudab välja **Tasakaalustatav summa** väärtuseks **–500,00**. Väljal **Skonto summa** näeb ta, et täieliku arve skonto summa on **–10,00** ja skonto summa väljal **Skonto summa võtmiseks** on **–5,05**. Seetõttu tasakaalustab April arve summas –505,05.
 
 | Märge     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

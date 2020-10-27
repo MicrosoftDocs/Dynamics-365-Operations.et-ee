@@ -3,7 +3,7 @@ title: Varude sissetuleku toiming kassas
 description: Selles teemas kirjeldatakse kassa varude sissetuleku toimingu võimalusi.
 author: hhaines
 manager: annbe
-ms.date: 08/18/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710305"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971493"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Varude sissetuleku toiming kassas
 
@@ -133,6 +133,18 @@ Vaade **Praegu vastuvõtmisel** annab kasutajatele keskendunud viisi näha, mill
 Kinnitamine leiab aset dokumendi ridade vastuvõtmise protsessi ajal. Nende hulka kuuluvad ületarne kinnitused. Kui kasutaja püüab võtta vastu rohkem varusid kui ostutellimusel tellitud, kuid kas ületarne pole konfigureeritud või kui saadud kogus ületab ostutellimuse rea jaoks konfigureeritud ületarne hälbe, kuvatakse kasutajale viha ja tal pole võimalik üleliigset kogust vastu võtta.
 
 Üleliigse koguse vastuvõtmine ei ole üleviimistellimuse dokumentide puhul lubatud. Kasutajatele kuvatakse alati veateade, kui nad püüavad võtta vastu rohkem, kui üleviimistellimuse rea jaoks saadeti.
+
+### <a name="close-purchase-order-lines"></a>Ostutellimuse ridade sulgemine
+
+Saate vastuvõtuprotsessi ajal sissetuleval ostutellimusel oleva järelejäänud koguse sulgeda, kui lähetaja on kinnitanud, et ta ei saa nõutavat täielikku kogust lähetada. Selleks peab ettevõttes olema konfigureeritud ostutellimuste alatarnete lubamine. Lisaks peab ostutellimuse reale olema määratletud alatarne lubatud hälbe protsent.
+
+Et konfigureerida ettevõte nii, et ostutellimuste alatarne oleks lubatud, avage rakenduse Commerce peakontoris **Hanked** > **Seadistus** > **Hangete parameetrid**. Lülitage vahekaardil **Tarne** sisse parameeter **Luba alatarne**. Sätte muutuse sünkroonimiseks kanalites käivitage seejärel jaotusgraafiku töö **1070** (**Kanali konfiguratsioon**).
+
+Ostutellimuse rea alatarne lubatud hälbe protsente saab toodete jaoks eelmääratleda Commerce'i peakontoris toote konfiguratsiooni osana. Teine võimalus on nende seadistamine või üle kirjutamine kindlas ostutellimuses Commerce'i peakontoris.
+
+Kui organisatsioonis on ostutellimuse alatarne konfigureerimine lõpule viidud, kuvatakse kassa kasutajatele paanil **Üksikasjad** uus suvand **Sule järelejäänud kogus**, kui nad valivad sissetuleva ostutellimuse rea toimingu **Sissetulevad varud** kaudu. Kui kasutaja sulgeb järelejäänud koguse, kontrollib kassa seda, kas suletav kogus jääb ostutellimuse real määratletud alatarne lubatud hälbe protsendi piiresse. Kui alatarne lubatud hälvet ületatakse, kuvatakse tõrketeade ja kasutaja ei saa järelejäänud kogust sulgeda enne, kui eelnevalt vastuvõetud kogus pluss kogus **Praegu vastuvõtmisel** võrdub minimaalse kogusega, mis tuleb alatarne lubatud hälbe protsendi põhjal vastu võtta, või ületab seda. 
+
+Kui ostutellimuse rea jaoks on suvand **Sule järelejäänud kogus** sisse lülitatud ja kasutaja lõpetab sissetuleku tegevuse **Lõpeta vastuvõtmine** kaudu, saadetakse sulgemise taotlus ka Commerce'i peakontorisse ja selle tellimuserea mis tahes saamata jäänud kogus tühistatakse. Sel hetkel loetakse rida täielikult vastuvõetuks. 
 
 ### <a name="receiving-location-controlled-items"></a>Asukoha järgi kontrollitavate kaupade vastuvõtmine
 

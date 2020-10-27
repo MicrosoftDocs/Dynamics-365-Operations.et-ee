@@ -3,7 +3,7 @@ title: Telemeetria toetamiseks saidile skriptikoodi lisamine
 description: Selles teemas kirjeldatakse saidi lehtedele kliendipoolse skriptikoodi lisamist, et toetada kliendipoolset telemeetriat.
 author: bicyclingfool
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a88f4f920154aafaa15a48af67365152e21111f7
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
+ms.sourcegitcommit: 7e8a9f92a2675bf5b620889678a2918f63f3e199
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761245"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3901492"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Telemeetria toetamiseks saidile skriptikoodi lisamine
 
@@ -64,6 +64,9 @@ Saidiehitajas taaskasutatava fragmendi loomiseks tekstivälise skriptikoodi jaok
 1. Lisage parempoolsel atribuudipaani jaotises **Skripti allikas** välise skripti allika väline või suhteline URL. Seejärel konfigureerige teised suvandid vastavalt vajadusele.
 1. Valige nupp **Salvesta** ja seejärel suvand **Lõpeta redigeerimine**.
 1. Valige **Avalda**.
+
+> [!NOTE]
+> Kui sisu turbepoliitika (CSP) on teie saidi jaoks lubatud, veenduge, et kõik välised URL-id oleksid lisatud rakenduse Commerce saidiehitajas CSP direktiivi **script-src**. Lisateavet leiate teemast [Sisu turbepoliitika (CSP) haldamine](manage-csp.md).
 
 ## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>Lisage fragment, mis sisaldab malli skriptikoodi
 

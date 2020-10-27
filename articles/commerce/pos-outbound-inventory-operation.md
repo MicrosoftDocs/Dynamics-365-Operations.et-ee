@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646155"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971541"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Varude väljamineku toiming kassas
 
@@ -164,7 +164,7 @@ Funktsioon **Vaata üle** kontrollib väljaminevas dokumendis järgmisi probleem
 - **Asukohta pole määratud** – asukoht pole määratud asukoha järgi kontrollitava kauba jaoks, mille asukoht ei tohi olla tühi.
 - **Kustutatud read** – tellimuselt on kustutanud ridasid Commerce'i peakontori (HQ) kasutaja, keda kassarakendus ei tunne ära.
 
-Kui seate parameetri **Luba automaatne kontrollimine** väärtuseks **Jah** jaotises **Kaubanduse parameetrid** > **Varud** > **Kaupluse varud**, tehakse kontroll automaatselt, kui valite funktsiooni **Lõpeta täitmine**.
+Kui seate parameetri **Luba automaatne kontrollimine** väärtuseks **Jah** jaotises **Kaubanduse parameetrid** > **Varud** > **Kaupluse varude toimingud**, tehakse kontroll automaatselt, kui valite funktsiooni **Lõpeta täitmine**.
 
 ### <a name="finish-fulfillment"></a>Lõpeta täitmine
 

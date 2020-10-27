@@ -3,7 +3,7 @@ title: Jaemüügikande süsteemsuskontroll
 description: Selles teemas kirjeldatakse kande süsteemsuskontrolli funktsiooni teenuses Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 10/07/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: eb5c7389ba29d50232f9321e40bccceecd5f5fc6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 3c7ca41b9e8a4c3127c98c756348959530a87996
+ms.sourcegitcommit: 1631296acce118c51c182c989e384e4863b03f10
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265614"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968768"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Jaemüügikande süsteemsuskontroll
 
@@ -47,12 +47,12 @@ Pakktöötluse funktsioon **Kinnita kaupluse kanded** kontrollib kaubanduse kand
 
 - **Kliendi konto** – kontrollib, kas kandetabelites märgitud kliendikonto on peakontori kliendi koondandmetes olemas.
 - **Ridade arv** – kontrollib, kas kande päisetabelis märgitud ridade arv kattub müügikande tabeli ridade arvuga.
-- **Hind sisaldab maksu** – kontrollib kas parameeter **Hind sisaldab maksu** on kõigil kanderidadel ühtne.
-- **Maksesumma** – kontrollib kas maksekirjed ühtivad makse summaga päises.
-- **Brutosumma** – kontrollib, kas päises olev brutosumma vastab ridadel olevate netosummade kogusummale pluss maksusummale.
-- **Netosumma** – kontrollib, kas päises olev netosumma vastab ridadel olevate netosummade kogusummale.
-- **Üle-/alamakse** – kontrollib, ega päises oleva brutosumma ja maksesumma vahe ei ületa üle-/alamakse konfiguratsiooni maksimumi.
-- **Allahindluse summa** – kontrollib, kas allahindluse summa allahindlustabelites ja allahindluse summa kanderidade tabelites on ühtne ja kas päises olev allahindluse summa päises on ridadel olevate allahindluse summade kogusumma.
+- **Hind sisaldab maksu** – kontrollib, kas parameeter **Hind sisaldab maksu** on kõigil kanderidadel ühtne ja kas müügirea hind vastab maksu sisaldava hinna ja maksuvabastuse konfiguratsioonile.
+- **Maksesumma** – kontrollib kas maksekirjed ühtivad makse summaga päises, võttes lisaks arvesse pearaamatu sendiümarduse konfiguratsiooni.
+- **Brutosumma** – kontrollib, kas päises olev brutosumma vastab ridadel olevate netosummade kogusummale pluss maksusummale, võttes lisaks arvesse pearaamatu sendiümarduse konfiguratsiooni.
+- **Netosumma** – kontrollib, kas päises olev netosumma vastab ridadel olevate netosummade kogusummale, võttes lisaks arvesse pearaamatu sendiümarduse konfiguratsiooni.
+- **Üle-/alamakse** – kontrollib, ega päises oleva brutosumma ja maksesumma vahe ei ületa üle-/alamakse konfiguratsiooni maksimumi, võttes lisaks arvesse pearaamatu sendiümarduse konfiguratsiooni.
+- **Allahindluse summa** – kontrollib, kas allahindluse summa allahindlustabelites ja allahindluse summa kanderidade tabelites on ühtne ja kas päises olev allahindluse summa päises on ridadel olevate allahindluse summade kogusumma, võttes lisaks arvesse pearaamatu sendiümarduse konfiguratsiooni.
 - **Rea allahindlus** – kontrollib, kas rea kandereal olev rea allahindlus on kandereale vastavas allahindluse tabelis olevate kõigi ridade summa.
 - **Kinkekaardi kaup** – kaubandus ei toeta kinkekaardikaupade tagastamist. Kinkekaardil oleva saldo saab aga sularahaks teisendada. Väljavõtte sisestamise protsess nurjub iga kinkekaardikauba puhul, mida töödeldakse sularahaks teisendamise rea asemel tagastusreana. Kinkekaardikaupade valideerimisprotsess aitab tagada, et ainsad tagastatavad kinkekaardi reakaubad kandetabelites oleksid kinkekaardi sularahaks teisendamise read.
 - **Negatiivne hind** – kontrollib, ega kuskil pole negatiivse hinna kanderidu.
@@ -61,10 +61,11 @@ Pakktöötluse funktsioon **Kinnita kaupluse kanded** kontrollib kaubanduse kand
 - **Seerianumber** – kontrollib, kas seerianumber on seerianumbriga kontrollitavate ridade puhul kanderidadel olemas.
 - **Märk** – kontrollib, kas koguse ja netosumma märk on kõigil kanderidadel sama.
 - **Ärikuupäev** – kontrollib, kas kõigi kannete ärikuupäevade finantsperioodid on avatud.
+- **Tasud** – kontrollib, kas päise ja rea tasusumma vastab hinnale, sealhulgas maksu ja maksuvabastuse konfiguratsioonile.
 
 ## <a name="set-up-the-consistency-checker"></a>Süsteemsuskontrolli seadistamine
 
-Seadistage pakktöötluse funktsiooni „Kontrolli kaupluse kandeid” regulaarne käitamine jaotises **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Kassa sisestamine**. Pakett-tööd saab ajastada kaupluse organisatsiooni hierarhia alusel, sarnaselt protsesside „Väljavõtte arvutamine partiina” ja „Väljavõtte sisestamine partiina” seadistamisega. Soovitame konfigureerida pakktöötluse nii, et seda käitataks mitu korda päevas, ja ajastada käitamise iga P-töö lõpus.
+Seadistage pakktöötluse funktsiooni „Kontrolli kaupluse kandeid” regulaarne käitamine jaotises **Retail ja Commerce \> Retaili ja Commerce'i IT \> Kassa sisestamine**. Pakett-tööd saab ajastada kaupluse organisatsiooni hierarhia alusel, sarnaselt protsesside „Väljavõtte arvutamine partiina” ja „Väljavõtte sisestamine partiina” seadistamisega. Soovitame konfigureerida pakktöötluse nii, et seda käitataks mitu korda päevas, ja ajastada käitamise iga P-töö lõpus.
 
 ## <a name="results-of-validation-process"></a>Kontrollimisprotsessi tulemused
 

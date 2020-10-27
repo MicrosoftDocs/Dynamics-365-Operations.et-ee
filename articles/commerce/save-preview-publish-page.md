@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269977"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961606"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Lehe salvestamine, eelvaade ja avaldamine
 
@@ -38,9 +38,9 @@ Lehe salvestamisel on muudatused nähtavad ainult teile. Salvestamise toiming on
 
 ## <a name="preview-a-page"></a>Lehe eelvaade
 
-Autorluse tööriist pakub kahte tüüpi eelvaate funktsioone: a "mida näete, seda ka saate" (WYSIWYG) eelvaatepaan lehe redaktoris ja eraldi eelvaate aknas.
+Autorluse tööriist pakub kahte tüüpi eelvaate funktsioone: visuaalne leheehitaja, mis on "mida näete, seda ka saate" (WYSIWYG) eelvaatepaan lehe redaktoris, ja eraldi eelvaate aken.
 
-Kui kasutate lehe redaktorit, kuvatakse keskuse paanil "mida näete, seda ka saate" (WYSIWYG) eelvaade. See eelvaade uuendatakse automaatselt iga kord, kui salvestate lehe. Saate seda ka käsitsi värskendada, valides käsuribal käsu **Värskenda**. WYSIWYG-eelvaade muudab lehekülge just nii, nagu saidi kasutajad seda näevad, kuid loojad renderdatakse selle peal.
+Kui kasutate lehe redaktorit, kuvatakse keskuse paanil "mida näete, seda ka saate" (WYSIWYG) eelvaade. See eelvaade uuendatakse automaatselt iga kord, kui salvestate lehe. Saate seda ka käsitsi värskendada, valides käsuribal käsu **Värskenda**. Eelvaade muudab lehekülge just nii, nagu saidi kasutajad seda näevad, kuid loojad renderdatakse selle peal.
 
 Kui olete lehe muutmise lõpetanud, võite soovida seda vaadata, et näha, mida klientidele kuvatakse. Lehekülje eelvaate nägemiseks valige käsuribal suvand **Eelvaade**. Eelvaade kuvatakse eraldi brauseri aknas. Eelvaate akna lehekülg renderdatakse nii, nagu saidi kasutaja seda näeb. Saate muuta akna suurust, et veenduda, et reageerivad moodulid on kõikides vaateportides õigesti renderdatud.
 

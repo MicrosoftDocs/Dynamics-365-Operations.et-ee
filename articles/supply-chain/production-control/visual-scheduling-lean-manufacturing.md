@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6710dcb1cb53e7221b03b35ceee5ac8e055b6dd2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826402"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958737"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Lean manufacturingi visuaalne plaanimine
 
@@ -61,7 +61,7 @@ Lehel **Kanbani plaanimistahvel** on mitu põhielementi, mis on näidatud järgm
 
 ### <a name="view-the-time-scale"></a>Ajaskaala kuvamine
 
-Tahvel on jagatud perioodideks, millest igaühte tähistab sõlm (4). Perioodi sõlmed on loetletud vertikaalteljel ja horisontaalne juurdepääs kujutab ajaskaalat (7), mis näitab perioodi pikkust. Perioodi pikkus on üks päev või üks nädal. Perioodi pikkus määratakse Kanbani plaanimistahvli (2) jaoks valitud tööraku konfiguratsiooniga. Iga perioodisõlme puhul näitab Kanbani plaanimistahvel, kui palju plaanitud kanban-tööd perioodil laadivad. Näidatud on ka perioodi maksimaalne läbilaskevõime. Kui plaanitud läbilaskevõime ületab maksimaalse läbilaskevõime, käsitletakse perioodi üle koormatuna ja kuvatakse punane hoiatussümbol. Plaanitud kanban-töö kuvatakse perioodil, millel on plaanitud algus- ja lõpuaeg (5). Töö pikkus on võrdne tegevuse ajaga. Kanban-tööd kuvatakse perioodil kattuvana, kui nende tegevuse ajad ületavad tööraku takti aja.
+Tahvel on jagatud perioodideks, millest igaühte tähistab sõlm (4). Perioodi sõlmed on loetletud vertikaalteljel ja horisontaalne telg kujutab ajaskaalat (7), mis näitab perioodi pikkust. Perioodi pikkus on üks päev või üks nädal. Perioodi pikkus määratakse Kanbani plaanimistahvli (2) jaoks valitud tööraku konfiguratsiooniga. Iga perioodisõlme puhul näitab Kanbani plaanimistahvel, kui palju plaanitud kanban-tööd perioodil laadivad. Näidatud on ka perioodi maksimaalne läbilaskevõime. Kui plaanitud läbilaskevõime ületab maksimaalse läbilaskevõime, käsitletakse perioodi üle koormatuna ja kuvatakse punane hoiatussümbol. Plaanitud kanban-töö kuvatakse perioodil, millel on plaanitud algus- ja lõpuaeg (5). Töö pikkus on võrdne tegevuse ajaga. Kanban-tööd kuvatakse perioodil kattuvana, kui nende tegevuse ajad ületavad tööraku ülesande aja.
 
 ### <a name="view-job-status"></a>Töö oleku kuvamine
 

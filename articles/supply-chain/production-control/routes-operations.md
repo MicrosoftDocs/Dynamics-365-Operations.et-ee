@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bb2f340afffc5f62c200b4daac311db435d796e
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
+ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895373"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3989237"
 ---
 # <a name="routes-and-operations"></a>Protsessid ja operatsioonid
 
@@ -37,10 +37,10 @@ See teema annab teavet protsesside ja operatsioonide kohta. Protsess määratleb
 
 Protsess kirjeldab operatsioonide järjekorda, mis on toote või tootevariandi tootmiseks vajalik. Iga operatsiooni puhul määratleb protsess ka vajalikud operatsiooniressursid, operatsiooni seadistamiseks ja sooritamiseks vajaliku aja ja kulu arvutamise viisi. Sama protsessi saab kasutada mitme toote tootmiseks või määratleda iga toote või tootevariandi jaoks kordumatu protsessi. Ka sama toote jaoks võib olla mitu protsessi. Sellisel juhul on kasutatav protsess erinev, olenevalt teguritest nagu toodetav kogus. Rakenduse Supply Chain Management protsessi määratlus koosneb neljast eraldi elemendist, mis kirjeldavad üheskoos tootmisprotsessi.
 
--   **Protsess** – protsess määratleb tootmisprotsessi struktuuri. Teisisõnu määratleb see operatsioonide järjekorra.
--   **Operatsioon** – operatsioon tähistab protsessi nimelist etappi, nt **Koostamine**. Sama operatsioon võib toimuda mitmes protsessis ja sellel võivad olla erinevad operatsiooni numbrid.
--   **Operatsiooni seos** – operatsiooni seos määratleb operatsiooni tööatribuudid nagu seadistusaja ja käitusaja, kulukategooriad, tarbimisparameetrid ja ressursivajadused. Operatsiooni seos võimaldab erinevaid operatsiooni tööatribuute, olenevalt protsessist, mille alusel operatsiooni kasutatakse, või valmistatavatest toodetest.
--   **Protsessi versioon** – protsessi versioon määratleb protsessi, mida toote või tootevariandi valmistamiseks kasutatakse. Protsessiversioonid võimaldavad protsesside uuesti kasutamist toodete lõikes või nende muutmist aja jooksul. Samuti võimaldavad need erinevate protsesside kasutamist sama toote valmistamiseks. Sellisel juhul oleneb kasutatav protsess teguritest nagu asukoht või toodetav kogus.
+- **Protsess** – protsess määratleb tootmisprotsessi struktuuri. Teisisõnu määratleb see operatsioonide järjekorra.
+- **Operatsioon** – operatsioon tähistab protsessi nimelist etappi, nt **Koostamine**. Sama operatsioon võib toimuda mitmes protsessis ja sellel võivad olla erinevad operatsiooni numbrid.
+- **Operatsiooni seos** – operatsiooni seos määratleb operatsiooni tööatribuudid nagu seadistusaja ja käitusaja, kulukategooriad, tarbimisparameetrid ja ressursivajadused. Operatsiooni seos võimaldab erinevaid operatsiooni tööatribuute, olenevalt protsessist, mille alusel operatsiooni kasutatakse, või valmistatavatest toodetest.
+- **Protsessi versioon** – protsessi versioon määratleb protsessi, mida toote või tootevariandi valmistamiseks kasutatakse. Protsessiversioonid võimaldavad protsesside uuesti kasutamist toodete lõikes või nende muutmist aja jooksul. Samuti võimaldavad need erinevate protsesside kasutamist sama toote valmistamiseks. Sellisel juhul oleneb kasutatav protsess teguritest nagu asukoht või toodetav kogus.
 
 ## <a name="routes"></a>Protsessid
 Protsess kirjeldab operatsioonide järjekorda, mida toote või tootevariandi tootmiseks kasutatakse. Igale operatsioonile määratakse operatsiooni number ja järgnev operatsioon. Operatsioonide järjekord moodustab protsessivõrgu, mida saab kujutada juhitud diagrammiga, millel on vähemalt üks alguspunkt ja üks lõpp-punkt. Supply Chain Management eristatakse protsesse struktuuri tüübi põhjal. Kaks protsessitüüpi on lihtsad protsessid ja protsessivõrgud. Tootmise juhtimise parameetrites saate määrata, kas kasutada saab ainult lihtsaid protsesse või keerukamais protsessivõrke.
@@ -60,9 +60,9 @@ Kui aktiveerite tootmise juhtimise parameetrites keerukamad protsessivõrgud, sa
 [![Protsessi võrk](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
-> -   Igal operatsioonil võib olla ainult üks järglasoperatsioon ja kogu protsess peab lõppema ühe operatsiooniga.
-> -   See ei taga, et mitu operatsiooni, millel on sama järglasoperatsioon (nt operatsioonid 30 ja 40 eelmisel illustratsioonil), töötaksid tegelikult paralleelselt. Operatsioonide plaanimisele võib seada piirangud ressursside saadavus ja maht.
-> -   Operatsiooni numbrina ei saa kasutada numbrit 0 (null). See number on reserveeritud ja seda kasutatakse määramiseks, et protsessi viimasel operatsioonil ei ole järglasoperatsiooni.
+> - Igal operatsioonil võib olla ainult üks järglasoperatsioon ja kogu protsess peab lõppema ühe operatsiooniga.
+> - See ei taga, et mitu operatsiooni, millel on sama järglasoperatsioon (nt operatsioonid 30 ja 40 eelmisel illustratsioonil), töötaksid tegelikult paralleelselt. Operatsioonide plaanimisele võib seada piirangud ressursside saadavus ja maht.
+> - Operatsiooni numbrina ei saa kasutada numbrit 0 (null). See number on reserveeritud ja seda kasutatakse määramiseks, et protsessi viimasel operatsioonil ei ole järglasoperatsiooni.
 
 ### <a name="parallel-operations"></a>Paralleelsed operatsioonid
 
@@ -99,12 +99,12 @@ Operatsiooni tööatribuudid, nagu seadistusaeg ja käitusaeg, ressursivajadused
 ## <a name="operation-relations"></a>Operatsiooni seosed
 Operatsiooni seoses hallatakse järgmisi operatsiooni tööatribuute.
 
--   Kulukategooriad
--   Tarbimisparameetrid
--   Töötlemisajad
--   Töötlemiskogused
--   Ressursi nõuded
--   Märkmed ja juhised
+- Kulukategooriad
+- Tarbimisparameetrid
+- Töötlemisajad
+- Töötlemiskogused
+- Ressursi nõuded
+- Märkmed ja juhised
 
 Samale operatsioonile saab määratleda mitu operatsiooni seost. Kuid iga operatsiooni seos on ühe operatsiooni põhine ja selles talletatakse atribuudid, mis on protsessi, väljastatud toote või kaubagrupiga seotud väljastatud toodete kogumi põhised. Seega saab sama operatsiooni kasutada mitmes protsessis, millel on erinevad tööatribuudid. Lisaks saab koondandmeid hõlpsamini hallata, kui kasutada standardoperatsioone, millel on samad tööatribuudid, olenemata kasutatavast protsessist ja valmistatavast tootest. Operatsiooni seose ulatus määratletakse atribuutide **Kaubakood**, **Kauba seos**, **Protsessi kood** ja **Protsessi seos** kaudu, nagu on näidatud järgmises tabelis.
 
@@ -166,12 +166,13 @@ Kui Supply Chain Management otsib väljastatud toote jaoks kõige asjakohasemat 
 Seega tuleks operatsiooni kasutada iga protsessi puhul ainult üks kord. Kui operatsioon toimub samas protsessis mitu korda, on kõigil selle operatsiooni juhtumitel sama operatsiooni seos ja pole võimalik määrata igale juhtumile erinevaid atribuute (nt käitusaegu).
 
 ## <a name="route-versions"></a>Protsessi versioonid
+
 Protsessiversioone kasutatakse toodete tootmisel tekkivate erinevuste säilitamiseks või tootmisprotsessi suurema juhtimise võimaldamiseks. Need määratlevad, millist protsessi peaks konkreetse väljastatud toote või väljastatud tootevariandi valmistamisel kasutama. Väljastatud tootele protsessi määratlemisel võib kasutada järgmisi piiranguid.
 
--   Tootedimensioonid (suurus, värv, stiil või konfiguratsioon)
--   Tootmiskogus
--   Tootmiskoht
--   Tootmise kuupäev
+- Tootedimensioonid (suurus, värv, stiil või konfiguratsioon)
+- Tootmiskogus
+- Tootmiskoht
+- Tootmise kuupäev
 
 Kui valmistate toodet konkreetses tegevuskohas, konkreetses koguses või konkreetsel perioodil, võite määrata konkreetse protsessiversiooni protsessi vaikeversiooniks. Kuid pange tähele, et antud väljastatud tootele ja antud piirangute kogumile on lubatud ainult üks aktiivne protsess.  
 
@@ -194,6 +195,7 @@ Kui teil on vaja säilitada logi, milles salvestatakse iga protsessiversiooni ki
 Toote muutmise juhtum uute või muudetud protsesside ja protsessiversioonide kinnitamiseks ja aktiveerimiseks annab lihtsa võimaluse protsessiversiooni piirangute ülevaate kuvamiseks. Saate kinnitada ja aktiveerida ka kõiki protsesse, mis on seotud konkreetse muudatusega ühes operatsioonis, ja dokumenteerida tulemused toote muutmise juhtumis.
 
 ## <a name="maintaining-routes"></a>Protsesside haldamine
+
 Olenevalt ettevõtte vajadustest võib teil olla võimalik protsessidefinitsioonide haldamisele kuuluvat pingutust vähendada.
 
 ### <a name="making-routes-independent-of-resources"></a>Protsesside sõltumatuks muutmine ressurssidest
@@ -224,10 +226,10 @@ Selle lähenemise kasutamisel muutub leht **Operatsiooniseosed** käitusaegade j
 
 Kui te operatsiooni ressursivajaduste hulgas operatsiooniressurssi või ressursigruppi ei määra, võivad vastavad ressursid tegutseda erineva kiirusega. Seega võib aeg, mida on operatsiooni töötlemiseks vaja, erinev olla. Selle probleemi lahendamiseks võib kasutada operatsiooni seose välja **Valem** määramiseks, kuidas protsessi aega arvutatakse. Valikud on järgmised:
 
--   **Standardne** – (vaikevalik) arvutus kasutab ainult operatsiooniseose välju ja korrutab määratud käitusaja tellimuse kogusega.
--   **Maht** – arvutus sisaldab operatsiooniressursi välja **Maht**. Seega on aeg ressursist sõltuv. Operatsiooniressursi juures määratud väärtus on maht tunni kohta. **Töötlemisaeg** arvutatakse **Tellimuse kogusena**, mis jagatakse **Võimsusega**.
--   **Partii** – partii maht arvutatakse operatsiooni seose teabe abil. Siis saab arvutada tellimuse koguse põhjal partiide arvu ja protsessi aja.
--   **Ressursi partii** – see valik on põhimõtteliselt sama, mis valik **Partii**. Kuid arvutus sisaldab operatsiooniressursi välja **Partii maht**. Seega on aeg ressursist sõltuv.
+- **Standardne** – (vaikevalik) arvutus kasutab ainult operatsiooniseose välju ja korrutab määratud käitusaja tellimuse kogusega.
+- **Maht** – arvutus sisaldab operatsiooniressursi välja **Maht**. Seega on aeg ressursist sõltuv. Operatsiooniressursi juures määratud väärtus on maht tunni kohta. **Töötlemisaeg** arvutatakse **Tellimuse kogusena**, mis jagatakse **Võimsusega**.
+- **Partii** – partii maht arvutatakse operatsiooni seose teabe abil. Siis saab arvutada tellimuse koguse põhjal partiide arvu ja protsessi aja.
+- **Ressursi partii** – see valik on põhimõtteliselt sama, mis valik **Partii**. Kuid arvutus sisaldab operatsiooniressursi välja **Partii maht**. Seega on aeg ressursist sõltuv.
 
 ### <a name="set-up-route-groups"></a>Saate häälestada protsessigruppe.
 

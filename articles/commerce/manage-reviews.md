@@ -1,9 +1,9 @@
 ---
 title: Hinnangute ja arvustuste haldus
-description: Selles teemas selgitatakse, kuidas rakenduse Microsoft Dynamics 365 Commerce hinnangute ja arvustuste modereerimise tööriista kasutades hallata hinnanguid ja arvustusi.
+description: Selles teemas selgitatakse, kuidas hallata rakenduse Microsoft Dynamics 365 Commerce saidiehitajas hinnanguid ja arvustusi.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 01/30/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,38 +18,30 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
-ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
+ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027238"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3974002"
 ---
 # <a name="manage-ratings-and-reviews"></a>Hinnangute ja arvustuste haldus
 
 [!include [banner](includes/banner.md)]
 
-Selles teemas selgitatakse, kuidas rakenduse Microsoft Dynamics 365 Commerce hinnangute ja arvustuste modereerimise tööriista kasutades hallata hinnanguid ja arvustusi.
+Selles teemas selgitatakse, kuidas hallata rakenduse Microsoft Dynamics 365 Commerce saidiehitajas hinnanguid ja arvustusi.
 
 ## <a name="overview"></a>Ülevaade
 
-Dynamics 365 Commerce kasutab Microsoft Azure’i kognitiivset teenust, et automaatselt ebasündsaid sõnu redigeerides arvustuse teksti modereerida. Lisaks saavad moderaatorid kasutada hinnangute ja arvustuste modereerimise tööriista järgmiste käsitsi ülesannete jaoks.
+Dynamics 365 Commerce kasutab Microsoft Azure’i kognitiivset teenust, et automaatselt ebasündsaid sõnu redigeerides arvustuse teksti modereerida. Lisaks saavad moderaatorid kasutada rakenduse Dynamics 365 Commerce saidiehitajat järgmiste käsitsi tehtavate ülesannete tegemiseks.
 
 - Arvustuste modereerimine neile vastates või need eemaldades.
 - Kliendi arvustuste eemaldamine kliendi taotlusel.
 - Kõikide toodete hinnangute ja arvustuste andmete hulgi importimine Microsoft Power BI malli, et analüüsida hinnangute ja arvustuste suundumusi.
 
-## <a name="access-ratings-and-reviews-moderation-features"></a>Juurdepääs hinnangute ja arvustuste modereerimisfunktsioonidele
-
-E-kaubanduse saidi haldustööriistas hinnangute ja arvustuste modereerimisfunktsioonidele juurdepääsuks toimige järgmiselt.
-
-1. Logige sisse [teenusesse Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com).
-1. Avage projekt, mis sisaldab keskkonda, kus soovite e-kaubandust lähtestada.
-1. Jaotises **Keskkond** valige keskkond.
-1. Jaotises **Keskkonna funktsioonid** valige käsk **Jaemüügi haldus**.
-1. Vahekaardil **e-Commerce** jaotises **Lingid** valige suvand ***E-kaubanduse saidi haldustööriist**.
-
 ## <a name="read-a-review"></a>Arvustuse lugemine 
+
+Arvustuse lugemiseks rakenduse Commerce saidiehitajas toimige järgmiselt.
 
 1. Avage **Avaleht \> Arvustused \> Modereerimine**.
 1. Kasutage lehe üleval paremal otsinguvälja, et filtreerida kuvatavaid arvustusi toote ID, toote nime või arvustuse teksti alusel.
@@ -62,7 +54,7 @@ Täiendavad filtrid võimaldavad teil piirata arvustusi perioodi, hinnangu, kana
 
 Mõnikord väljendavad toote ostnud kliendid rahulolu või rahulolematust või ei oska toodet kasutada. Moderaatorina saate sisestada arvustusele vastuse. See vastus kuvatakse saidil koos arvustusega. 
 
-Arvustusele vastamiseks toimige järgmiselt.
+Arvustusele vastamiseks rakenduse Commerce saidiehitajas toimige järgmiselt.
 
 1. Avage **Avaleht \> Arvustused \> Modereerimine**.
 1. Otsige ja valige arvustus, mis vajab vastamist.
@@ -76,20 +68,20 @@ Arvustusele vastamiseks toimige järgmiselt.
 
 Vahel on moderaatoritel äriliselt põhjendatud kliendi arvustused eemaldada. 
 
-Arvustusele eemaldamiseks toimige järgmiselt.
+Arvustuse eemaldamiseks rakenduse Commerce saidiehitajast toimige järgmiselt.
 
 1. Avage **Avaleht \> Arvustused \> Modereerimine**.
 1. Leidke ja valige arvustus, mis tuleb eemaldada.
-1. Valige paremal atribuutide paanil eemaldamise põhjus ja seejärel valige suvand **Eemalda**.
+1. Valige paremal atribuudipaanil eemaldamise põhjus väljal **Arvustuse eemaldamine** ja seejärel valige suvand **Eemalda**.
     
 ## <a name="delete-a-customers-reviews-at-the-customers-request"></a>Kliendi arvustuste eemaldamine kliendi taotlusel 
 
 Mõnikord soovivad kliendid oma hinnangud ja arvustuste andmed e-kaubanduse veebisaitidelt jäädavalt kustutada. Moderaator, kes saab kliendilt eemaldamise taotluse, saab kliendi andmed eemaldada, kasutades läbivaatuse kustutamise funktsiooni. Kliendiandmete otsimiseks ja kustutamiseks vajab moderaator meiliaadressi, mida klient sisselogimiseks ja arvustuste esitamiseks kasutas. 
 
-Kliendiandmete otsimiseks ja kustutamiseks toimige järgmiselt.
+Kliendiandmete leidmiseks ja kustutamiseks rakenduse Commerce saidiehitajas toimige järgmiselt.
 
 1. Avage **Avaleht \> Arvustused \> Kustuta**.
-1. Sisestage väljale **Kasutajate otsing meiliaadressi järgi** kliendi meiliaadress ja valige seejärel käsk **Otsi**.
+1. Sisestage kasti **Kasutajate otsing meiliaadressi järgi** kliendi meiliaadress ja valige seejärel käsk **Otsi**.
 1. Kui kliendil on mis tahes arvustuste tegevusi (nt esitatud arvustused, hääletused teiste klientide arvustuste kasulikkuse kohta või kommentaarid teiste klientide arvustuste kohta), kuvatakse tulemused. Iga üksuse jaoks on nupp **Kustuta**.
 1. Valige iga üksuse jaoks, mis tuleb kustutada, käsk **Kustuta**. Kui teilt küsitakse kinnitust, valige **Jah**. 
     
@@ -101,23 +93,23 @@ Kliendiandmete otsimiseks ja kustutamiseks toimige järgmiselt.
 
 ## <a name="download-ratings-and-reviews-data"></a>Hinnangute ja arvustuste andmete allalaadimine
 
-Hinnangute ja arvustuste modereerimise tööriist võimaldab moderaatoritel importida hinnangute ja arvustuste andmeid hulgi, et analüüsida nende suundumusi. Saadaval on Power BI mall, mis sisaldab põhilisi mõõdikuid. Moderaatorid saavad kasutada seda malli, et ühendada hulgi imporditud andmed ja kuvada armatuurlaud. Nad ei pea looma kohandatud armatuurlauda. Samuti saavad moderaatorid kohandada Power BI malli, et see vastaks nende konkreetsetele vajadustele. 
+Rakenduse Commerce saidiehitaja võimaldab moderaatoritel importida hinnangute ja arvustuste andmeid hulgi, et analüüsida nende suundumusi. Saadaval on Power BI mall, mis sisaldab põhilisi mõõdikuid. Moderaatorid saavad kasutada seda malli, et ühendada hulgi imporditud andmed ja kuvada armatuurlaud. Nad ei pea looma kohandatud armatuurlauda. Samuti saavad moderaatorid kohandada Power BI malli, et see vastaks nende konkreetsetele vajadustele. 
 
-Hinnangute ja arvustuste andmete allalaadimiseks toimige järgmiselt.
+Arvustuste ja hinnangute andmete allalaadimiseks rakenduse Commerce saidiehitajas toimige järgmiselt.
 
 1. Avage **Avaleht \> Arvustused \> Aruandlus**.
-1. Valige suvand **Aruandluse andmete allalaadimine**, et laadida hinnangute ja kommentaaride andmed hulgi alla komaeraldusega väärtuste (CSV) vormingus.
+1. Valige suvand **Arvustuse andmete allalaadimine**, et laadida hinnangute ja kommentaaride andmed hulgi alla komaeraldusega väärtuste (CSV) vormingus.
 
 ## <a name="view-ratings-and-reviews-trends"></a>Hinnangute ja arvustuste suundumuste vaatamine
 
 Moderaatorid saavad laadida alla Power BI malli, et nad saaksid vaadata armatuurlaual suundumusi.
 
-Hinnangute ja arvustuste suundumuste vaatamiseks toimige järgmiselt.
+Arvustuste ja hinnangute suundumuste vaatamiseks rakenduse Commerce saidiehitajas toimige järgmiselt.
 
 1. Avage **Avaleht \> Arvustused \> Aruandlus**.
 1. Malli allalaadimiseks valige suvand **PowerBI mall**.
 
-    ![Power BI malli allalaadimine](media/rnr-moderation-reports.png) 
+    ![Laadige alla Power BI mall](media/rnr-moderation-reports.png) 
 
 1. Avage allalaaditud mall Power BI rakendust kasutades. Sulgege ilmuv dialoogiaken **Juurdepääs veebisisule** ja seejärel sulgege kuvatav tõrketeade „Värskenda”.
 1. Avage suvand **Avaleht**, valige **Päringute redigeerimine** ja valige seejärel **Andmeallika sätted**.

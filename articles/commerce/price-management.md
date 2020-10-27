@@ -14,15 +14,15 @@ ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: ShalabhjainMSFT
+ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84d673bef8597bd7d376c5c74737d5c7db247759
-ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
+ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431997"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980812"
 ---
 # <a name="retail-sales-price-management"></a>Retaili müügihinna haldamine
 
@@ -98,7 +98,7 @@ Hind ja allahindlus võivad pärineda erinevatest hinnakujunduse prioriteetidest
 
 Hindade hinnakujunduse prioriteedi kasutamiseks peate määrama hinnagrupile hinnakujunduse prioriteedi ja seejärel looma sellele hinnagrupile müügihinna kaubanduslepingu.
 
-Hinnakujunduse prioriteedi funktsioon võeti kasutusele, et toetada stsenaariumi, kus jaemüüja soovib konkreetsele kaupluste kogumile rakendada kõrgemaid hindu. Näiteks on jaemüüja määranud piirkondlikud hinnad Ameerika Ühendriikide idarannikule, aga soovib kõrgemaid hindu mõnele tootele New York City kauplustes, kuna linnas maksab mõne toote müümine rohkem ja/või kohalikul turul kehtib kõrgem hind.
+Hinnakujunduse prioriteedi funktsioon võeti kasutusele, et toetada stsenaariumi, kus jaemüüja soovib konkreetsele kaupluste kogumile rakendada kõrgemaid hindu. Näiteks on jaemüüja määranud piirkondlikud hinnad Ameerika Ühendriikide idarannikule, aga soovib kõrgemaid hindu mõnele tootele New Yorgi kauplustes, kuna linnas maksab mõne toote müümine rohkem ja/või kohalikul turul kehtib kõrgem hind.
 
 Nagu kirjeldasime selle teema jaotises „Parim hind”, valib hinnakujunduse mootor tavaliselt kahest hinnast madalama. Seetõttu ei saa jaemüüja enamasti kasutada kahest kõrgemat hinda kaupluses, millel on nii idaranniku kui ka New Yorgi hinnagrupid. Selle probleemi lahendamiseks enne hinnakujunduse prioriteedi funktsiooni kasutusele võtmist pidi jaemüüja määrama hinnad iga tootele kaks korda ja mitte määrama mõlemat hinnagruppi. Teine võimalus oli luua täiendavad hinnagrupid, et eraldada kõrgema hinnaga tooteid tavalise, madalama hinnaga toodetest.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270000"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961630"
 ---
 # <a name="modify-an-existing-site-page"></a>Olemasoleva saidilehe muutmine
 
@@ -47,7 +47,7 @@ Järgmine etapp on teha tegelikud muudatused. Sageli kasutate vasakul lehe liige
 Samas võib teie muudatus hõlmata mudelite või fragmentide lisamist või eemaldamist. Fragmendi või mooduli lisamiseks kasutage lehekülje liigendpuud, et leida pesa, kuhu soovite mooduli või fragmendi lisada, ja valige seejärel selle pesa kolmikpunkti nupp (**...**). Kuvatakse menüü, mis sisaldab mooduli või fragmenti lisamise käske. Mooduli või fragmenti eemaldamiseks leidke ja valige see lehekülje liigendpuus, valige kolmikpunkti nupp ning seejärel valige mooduli või fragmenti kustutamiseks käsk.
 
 > [!TIP]
-> Samuti saate vaadata ja redigeerida iga mooduli atribuute, mis on nähtavad „mida näete, seda ka saate” (WYSIWYG) eelvaates, valides selle otse.
+> Samuti saate vaadata ja redigeerida iga mooduli atribuute, mis on nähtavad visuaalse leheehitaja eelvaates, valides selle otse.
 
 Kui olete muudatuste tegemise ja nende mõju eelvaate vaatamise lõpetanud, tuleb teil leht registreerida, valides käsiribal käsu **Lõpeta redigeerimine**. 
 

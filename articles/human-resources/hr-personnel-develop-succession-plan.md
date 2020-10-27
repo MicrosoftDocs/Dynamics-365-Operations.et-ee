@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cf056f9c8f1f24bb6eb0f619c476b1095a854bb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e9334bb8a594d19aa82167cfa11a9522bbba4bea
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428635"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958839"
 ---
 # <a name="develop-succession-plan"></a>Järgnevusplaani arendamine
 
@@ -38,7 +38,7 @@ Organisatsiooni kasvades talentide kasvatamisele mõtlema hakates võite soovida
 7. Klõpsake valikut Isik.
 8. Sisestage inimese nimi väljal Isik või valige rippmenüüst.  Näide: Cassie Hicks.
 9. Klõpsake nuppu OK.
-10. Laiendades kiirkaarti Tunnistused saate vaadata või redigeerida oskuste kaardistamisse kaasatud tunnistusi.
+10. Laiendage tunnistuste kiirkaarti, et vaadata või redigeerida oskuste vastendamisse kaasatud tunnistusi.
 11. Laiendades kiirkaarti Oskused saate vaadata või redigeerida kaasatud oskusi.
 12. Märkige loendis esimene rida.  Näide: raamatupidamine
 13. Klõpsake märkeruutu Valikuline.
