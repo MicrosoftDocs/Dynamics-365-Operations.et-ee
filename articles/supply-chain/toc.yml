@@ -18,7 +18,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Tarkvara elutsükli poliitika – pilv
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Tarkvara elutsükli poliitika – asutusesisene
+                - name: Tarkvara elutsükli poliitika – kohapealne
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Teenusevärskenduste kättesaadavus
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/supply-chain/toc.json
@@ -50,7 +50,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pilvjuurutuste süsteeminõuded
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Asutusesisene juurutus
+                - name: Kohapealne juurutus
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Asutusesiseste juurutuste süsteeminõuded
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
@@ -1145,7 +1145,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Konfiguratsioonide importimine RCS-ist
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Õppetükid
+            - name: Õpikud
               items:
                 - name: Mitme rakenduse tabeli andmete saamiseks kasutage LIITMISE andmete allikaid
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
@@ -1735,6 +1735,8 @@
                   href: procurement/purchase-agreements.md
                 - name: Ostulepingu loomine
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: Tasude automaatne eraldamine
+                  href: procurement/automatic-charges-allocation.md
                 - name: Hankija tagasimaksed
                   href: procurement/vendor-rebates.md
                 - name: 'Hindade, allahindluste, lepingute ja tagasimaksete tõrkeotsing'
@@ -2041,6 +2043,14 @@
                       href: production-control/release-production-orders.md
                     - name: Tootmistellimuste lõpetatuks tunnistamine
                       href: production-control/report-production-orders-as-finished.md
+                    - name: Tootmisosakonna käivitusliidese häälestamine ja kasutamine
+                      items:
+                        - name: Tootmisosakonna käivitusliidese konfigureerimine
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Seadme häälestamine tootmisosakonna käivitusliidese käitamiseks
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Kuidas töötajad kasutavad tootmisosakonna käivitusliidest
+                          href: production-control/production-floor-execution-use.md
                     - name: Töökaardi konfigureerimine seadmetele
                       href: production-control/config-job-card-device.md
                     - name: Lõpetatuna kinnitamine töökaardi seadmest
@@ -2275,6 +2285,8 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: Müügitellimuste lähetamine ladustamiseta
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
+                - name: Tasude automaatne eraldamine
+                  href: procurement/automatic-charges-allocation.md
                 - name: Ostutellimuse loomine müügitellimuse põhjal
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: Müügitellimuste loomine
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: Üleviimistellimuste loomine laorakenduses
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: Laorakenduse sündmusetöötlus
-                      href: warehousing/warehouse-app-events.md
                     - name: Osa komplekteerimise kinnitus
                       href: warehousing/piece-picking-confirmation.md
                     - name: Pakkematerjalid ja tasud
@@ -2841,11 +2851,13 @@
                       href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Väljanimede konfigureerimine laorakenduses
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Mobiilsete seadmete seadistamine laotöö jaoks
+                    - name: Mobiilsete seadmete häälestus laotöö jaoks
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Laorakenduse sündmusetöötlus
+                      href: warehousing/warehouse-app-events.md
                     - name: Identifitseerimisnumbri vastuvõtmine lao rakendusega
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Mobiilse seadme menüükäsu seadistamine ostutellimuse töö lõpetamiseks
+                    - name: Mobiilse seadme menüükäsu häälestus ostutellimuse töö lõpetamiseks
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Mobiilse seadme menüükäsu seadistamine saabunud kaupade registreerimiseks
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md

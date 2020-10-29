@@ -52,7 +52,7 @@
               href: business-events/troubleshooting.md
             - name: Ärisündmuste kasutusjuhtumid
               href: business-events/potential-use-cases.md
-            - name: Õppetükid
+            - name: Õpikud
               items:
                 - name: Ärisündmused ja Microsoft Flow
                   href: business-events/how-to/how-to-flow.md
@@ -142,8 +142,10 @@
                           items:
                             - name: Süsteeminõuded topeltkirjutuseks
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Topeltkirjutuse häälestust toetatavad stsenaariumid
+                            - name: Juhised topeltkirjutuse häälestamiseks
                               href: data-entities/dual-write/connection-setup.md
+                            - name: Algse sünkroonimise kaalutlused
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: Topeltkirjutuse häälestus teenustest Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
                             - name: Topeltkirjutuse lubamine olemasolevate Finance and Operationsi rakenduste jaoks
@@ -404,7 +406,9 @@
                   href: database/database-point-in-time-restore.md
                 - name: Tootmisandmebaasi ajapunktipõhine taaste liivakastikeskkonnas
                   href: database/database-pitr-prod-sandbox.md
-            - name: Õppetükid
+                - name: Täppisajastatud juurdepääsu lubamine andmebaasile
+                  href: database/database-just-in-time-jit-access.md
+            - name: Õpikud
               items:
                 - name: Värskendamine koolitusotstarbel
                   href: database/dbmovement-scenario-general-refresh.md
@@ -480,11 +484,13 @@
                   href: deployment/Update-retail-channel.md
                 - name: Commerce Scale Unit (pilv) lähtestamine
                   href: deployment/Initialize-Retail-Channels.md
+                - name: Kanalite migreerimine teise Commerce Scale Unitisse
+                  href: deployment/Reassign-CSU.md
                 - name: Retaili andmete asukoht
                   href: deployment/retail-data-residency.md
-            - name: Asutusesisene juurutus
+            - name: Kohapealne juurutus
               items:
-                - name: Asutusesisese juurutuse avaleht
+                - name: Kohapealse juurutuse avaleht
                   href: deployment/on-premises-deployment-landing-page.md
                 - name: Asutusesiseste juurutuste ettevalmistamine
                   items:
@@ -1042,7 +1048,7 @@
               href: dev-tools/date-effectivity.md
             - name: ISV litsentsimine
               href: dev-tools/isv-licensing.md
-            - name: ISV asutusesisene litsentsimine
+            - name: ISV kohapealne litsentsimine
               href: dev-tools/isv-licensing-on-prem.md
         - name: Isikuandmete kaitse üldmäärus (GDPR)
           items:
@@ -1456,11 +1462,11 @@
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 toe ülevaade
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: 'Toe hankimine rakenduse Finance and Operations jaoks, mida käitab 21Vianet Hiinas'
+            - name: 'Toe hankimine Finance and Operationsi jaoks, mida käitab 21Vianet Hiinas'
               href: lifecycle-services/21vianet-support.md
-            - name: Tehnilise toe häälestus rakenduse Finance and Operations jaoks
+            - name: Tehnilise toe häälestus Finance and Operationsi rakenduste jaoks
               href: lifecycle-services/support-experience.md
-            - name: Finance and Operationsi tugikogemuste haldamine
+            - name: Finance and Operationsi rakenduste tugiteenuste haldamine
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Süsteemihaldus
           items:
@@ -1650,7 +1656,7 @@
                   href: dev-tools/update-development-tools.md
                 - name: Plaanimine ja ettevalmistamine koodi kompileerimiseks uusima värskenduse järgi
                   href: migration-upgrade/compile-considerations.md
-            - name: Uusimale värskendusele täiendamine (asutusesisene)
+            - name: Uusimale värskendusele täiendamine (kohapealne)
               items:
                 - name: Värskenduste rakendamine kohapealsetesse juurutamistesse
                   href: deployment/apply-updates-on-premises.md
@@ -1682,7 +1688,7 @@
           items:
             - name: Kasutajaliidese arenduse avaleht
               href: user-interface/user-interface-development-home-page.md
-            - name: Õppetükid
+            - name: Õpikud
               items:
                 - name: Renditasu tüübi vormi koostamine
                   href: user-interface/build-rental-charge-type-form.md
