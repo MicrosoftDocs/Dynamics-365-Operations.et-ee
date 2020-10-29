@@ -16,7 +16,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
                 - name: Tarkvara elutsükli poliitika – pilv
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
-                - name: Tarkvara elutsükli poliitika – asutusesisene
+                - name: Tarkvara elutsükli poliitika – kohapealne
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/dynamics365/commerce/toc.json
                 - name: Teenusevärskenduste kättesaadavus
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
@@ -60,7 +60,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Pilvjuurutuste süsteeminõuded
                   href: get-started/system-requirements.md
-                - name: Asutusesisene juurutus
+                - name: Kohapealne juurutus
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Asutusesiseste juurutuste süsteeminõuded
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (oktoober 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
-                    - name: Commerce 10.0.12 (august 2020)
-                      href: get-started/whats-new-commerce-10-0-12.md
                 - name: Eemaldatud või iganenud funktsioonid
                   items:
                     - name: Finance and Operationsi eemaldatud või iganenud funktsioonid
@@ -1040,6 +1038,8 @@
                       href: add-breadcrumb.md
                     - name: Navigeerimismenüü moodul
                       href: nav-menu-module.md
+                    - name: Saidi valimise moodul
+                      href: site-selector.md
                 - name: Vastavusmoodulid
                   items:
                     - name: Küpsistega nõustumise moodul
@@ -1682,7 +1682,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                     - name: Konfiguratsioonide importimine RCS-ist
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-            - name: Õppetükid
+            - name: Õpikud
               items:
                 - name: Mitme rakenduse tabeli andmete saamiseks kasutage LIITMISE andmete allikaid
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
@@ -1986,6 +1986,8 @@
                       href: e-commerce-extensibility/cli-command-reference.md
                 - name: Mooduli anatoomia
                   items:
+                    - name: Moodulite ülevaade
+                      href: e-commerce-extensibility/modules-overview.md
                     - name: Mooduli definitsioonifail
                       href: e-commerce-extensibility/module-definition-file.md
                     - name: Mooduli reageerimise komponendi fail
@@ -2034,12 +2036,18 @@
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: Interaktiivsete komponentide ülevaade
                       href: e-commerce-extensibility/interactive-components.md
+                    - name: Sisselogitud oleku mudeldamine kohaliku arenduse ajal
+                      href: e-commerce-extensibility/mock-sign-in.md
                     - name: Moodulite globaliseerimine klassi CultureInfoFormatter abil
                       href: e-commerce-extensibility/globalize-modules.md
+                    - name: Azure'i võtmehoidla häälestamine turvaliseks võtmehalduseks
+                      href: e-commerce-extensibility/set-up-key-vault.md
                 - name: Andmetegevuste haldamine
                   items:
                     - name: Andmetegevuste ülevaade
                       href: e-commerce-extensibility/data-actions.md
+                    - name: Andmetegevuse vahemälu suvandid
+                      href: e-commerce-extensibility/data-action-cache.md
                     - name: Andmetegevuste testimine mudelitega
                       href: e-commerce-extensibility/test-data-action-mocks.md
                     - name: Lehe laadimise andmetegevused
@@ -2080,6 +2088,8 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: Kujunduse laiendamine mooduli laienduste lisamiseks
                       href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Mooduliteegi komponendi alistamine kujunduses
+                      href: e-commerce-extensibility/override-theme-component.md
                     - name: Kujunduse laiendamine põhiteemast
                       href: e-commerce-extensibility/extend-theme.md
                     - name: Kohandatud ressursside lisamine kohandamiskoodile
@@ -2102,6 +2112,10 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: SDK ja mooduliteegi värskendused
                       href: e-commerce-extensibility/sdk-updates.md
+                - name: Head tavad
+                  items:
+                    - name: Dynamics 365 Commerce'i arenduse head tavad
+                      href: e-commerce-extensibility/best-practices-dev.md
             - name: Retail SDK
               items:
                 - name: Retail SDK arhitektuur
@@ -2197,7 +2211,7 @@
                 - name: Retail Typescript ja C# puhvrid
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Retail Server API-de kasutamine välisrakendustes
-                  href: dev-itpro/consume-retail-server-api
+                  href: dev-itpro/consume-retail-server-api.md
             - name: Commerce Runtime’i (CRT) laiendatavus
               items:
                 - name: CRT arhitektuur ja konfigureerimine
