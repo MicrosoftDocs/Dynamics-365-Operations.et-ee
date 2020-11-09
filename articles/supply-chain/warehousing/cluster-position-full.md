@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8d030afb568b158e6caf48b0044d595d6ec024f6
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802210"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016167"
 ---
 # <a name="cluster-position-full"></a>Kogumi positsioon on täis
 
@@ -28,7 +29,7 @@ ms.locfileid: "3802210"
 
 Funktsioon *Kogumi positsioon on täis* pakub alternatiivi tööjaotuse reeglite jäigemale jõustamisele kogumi komplekteerimisel, kuna see võimaldab suuremat veavaru konteinerite või koormate mahupiirangutes. Tavaliselt ei mahu kõik töökäsu kaubad valitud konteinerisse. Kogumeid komplekteerivatel laotöötajatel on selle stsenaariumi korral vähe võimalusi: nad peavad muutuma konteinerit suuremaks või pidama nõu juhiga, et leida muu lahendus.
 
-See funktsioon pakub võimalust kasutada nuppu **Täielik** ühe kogumi tööüksuse korral. Vanemates versioonides oli see suvand saadaval ainult tavalise tellimuse komplekteerimiseks, mitte kogumi komplekteerimiseks. See funktsioon erineb standardsest nupust **Täielik**, kuna see tühistab ülejäänud töö. See ei viita sellele, et kasutaja lisab samasse kogumisse veel ühe asukoha ning see ei loo automaatselt uut tööd.
+See funktsioon pakub võimalust kasutada nuppu **Täielik** ühe kogumi tööüksuse korral. Vanemates versioonides oli see suvand saadaval ainult tavalise tellimuse komplekteerimiseks, mitte kogumi komplekteerimiseks. See funktsioon erineb standardsest nupust **Täielik** , kuna see tühistab ülejäänud töö. See ei viita sellele, et kasutaja lisab samasse kogumisse veel ühe asukoha ning see ei loo automaatselt uut tööd.
 
 ## <a name="turn-on-the-cluster-position-full-feature"></a>Funktsiooni „Kogumi positsioon on täis” sisselülitamine
 
@@ -152,7 +153,7 @@ Enne kui saate alustada kogumi komplekteerimist, peate looma mõne väljamineva 
 
     1. Valige reserveeritav rida.
     2. Tehke kiirkaardil **Müügitellimuse read** valik **Varud \> Reserveerimine**.
-    3. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii**, et reserveerida varud.
+    3. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii** , et reserveerida varud.
     4. Sulgege leht **Reserveerimine**.
 
 1. Valige toimingupaani vahekaardil **Ladu** suvand **Vabasta lattu**.
@@ -185,7 +186,7 @@ Enne kui saate alustada kogumi komplekteerimist, peate looma mõne väljamineva 
 
     1. Valige reserveeritav rida.
     2. Tehke kiirkaardil **Müügitellimuse read** valik **Varud \> Reserveerimine**.
-    3. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii**, et reserveerida varud.
+    3. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii** , et reserveerida varud.
     4. Sulgege leht **Reserveerimine**.
 
 1. Valige toimingupaani vahekaardil **Ladu** suvand **Vabasta lattu**.
@@ -200,8 +201,8 @@ Loodud peaks olema kaks töö ID-d, millest igaühel on kaks komplekteerimise ri
 1. Otsige ruudustikust **Ülevaade** veergu **Tellimuse number** kahe äsja loodud müügitellimuse kohta. Märkige iga müügitellimuse kohta vastav töö ID.
 1. Valige rida iga müügitellimuse jaoks, et kuvada seotud teave ruudustikus **Read**. Märkige asukoht, kust iga kaup komplekteeritakse.
 1. Avage **Laohaldus \> Päringud ja aruanded \> Vabade kaubavarude loend**.
-1. Valige toimingupaanil **Dimensioonid**, et avada dialoogiboks **Dimensiooni kuvamine**.
-1. Veenduge, et ruudud **Litsentsiplaat**, **Ladu**ja **Kaubakood** on märgitud ja seejärel valige **OK**.
+1. Valige toimingupaanil **Dimensioonid** , et avada dialoogiboks **Dimensiooni kuvamine**.
+1. Veenduge, et ruudud **Litsentsiplaat** , **Ladu** ja **Kaubakood** on märgitud ja seejärel valige **OK**.
 1. Määrake paanil **Filter** järgmised filtrid.
 
     - **Kaubakood** – **üks (mitmest)** – *L0101* ja *T100*
@@ -229,17 +230,17 @@ Kuna kogumi profiil seab positsioonide arvuks 2, suunab süsteem teid automaatse
 
 Järgmistel etappidel saate toimingu kohta lisateabe (nt komplekteerimiskoha) vaatamiseks igal ajal valida vahekaardi **Üksikasjad**.
 
-1. Määrake välja **KAUP** väärtuseks *L0101*. See kinnitab selle menüü-üksuse jaoks vajaliku kaubakoodi (konfigureerisite selle varem menüü-üksuse loomisel, tehes lehel **Mobiilse seadme menüükäsk** valiku **Töö kinnituse häälestus**).
+1. Määrake välja **KAUP** väärtuseks *L0101*. See kinnitab selle menüü-üksuse jaoks vajaliku kaubakoodi (konfigureerisite selle varem menüü-üksuse loomisel, tehes lehel **Mobiilse seadme menüükäsk** valiku **Töö kinnituse häälestus** ).
 1. Sisestage identifitseerimisnumber, mis on seotud asukohas oleva komplekteeritava kaubaga. Peate valima kaks kaubaalust.
 1. Määrake välja **LP** väärtuseks *LP\_PICK\_01*.
 1. Valige **OK** (märke sümbol).
 
     Kuvatakse leht **ÜLESANNE: sortimine: kogumi komplekteerimise loomine**. Siin sordite kaks komplekteeritud kaubaalust komplekteerimise positsioonile. See positsioon võib olla koorem või konteiner, mida kasutatakse komplekteeritud varude eraldamiseks müügitellimuse järgi.
 
-1. Vaadake üksikasju, mis kuvatakse kauba (*L0101*) ja koguse (*20* ea) kohta, mis sorditakse positsioonile 1 (müügitellimuse 1 korral).
+1. Vaadake üksikasju, mis kuvatakse kauba ( *L0101* ) ja koguse ( *20* ea) kohta, mis sorditakse positsioonile 1 (müügitellimuse 1 korral).
 1. Seadke välja **POSITSIOONI NIMI** väärtuseks *1*.
 1. Valige **OK** (märke sümbol).
-1. Vaadake üksikasju, mis kuvatakse kauba (*L0101*) ja koguse (*20* ea) kohta, mis sorditakse positsioonile 2 (müügitellimuse 2 korral).
+1. Vaadake üksikasju, mis kuvatakse kauba ( *L0101* ) ja koguse ( *20* ea) kohta, mis sorditakse positsioonile 2 (müügitellimuse 2 korral).
 1. Seadke välja **POSITSIOONI NIMI** väärtuseks *2*.
 1. Valige **OK** (märke sümbol).
 
@@ -258,10 +259,10 @@ Selle stsenaariumi korral ei saa positsioon 1 aktsepteerida kaupade täielikku k
 1. Valige **OK** (märke sümbol).
 1. Sisestage litsentsiplaat, millelt kaup komplekteeritakse, seades välja **LP** väärtuseks *LPREPL04*.
 1. Valige **OK** (märke sümbol).
-1. Vaadake üksikasju, mis kuvatakse kauba (*T0100*) ja koguse (*2* ea) kohta, mis sorditakse positsioonile 2 (müügitellimuse 2 korral).
+1. Vaadake üksikasju, mis kuvatakse kauba ( *T0100* ) ja koguse ( *2* ea) kohta, mis sorditakse positsioonile 2 (müügitellimuse 2 korral).
 1. Seadke välja **POSITSIOONI NIMI** väärtuseks *2*.
 1. Valige **OK** (märke sümbol).
-1. Vaadake üksikasju, mis kuvatakse kauba (*T0100*) ja koguse (*2* ea) kohta, mis sorditakse positsioonile 1 (müügitellimuse 1 korral).
+1. Vaadake üksikasju, mis kuvatakse kauba ( *T0100* ) ja koguse ( *2* ea) kohta, mis sorditakse positsioonile 1 (müügitellimuse 1 korral).
 1. Seadke välja **POSITSIOONI NIMI** väärtuseks *1*.
 1. Valige **OK** (märke sümbol).
 
@@ -274,4 +275,4 @@ Selle stsenaariumi korral on kogumi komplekteerimine lõpule viidud ja kasutaja 
 
     Teile kuvatakse teade „Kogum on lõpule viidud”.
 
-Ülejäänud koguse komplekteerimiseks saate nüüd kasutada menüükäsku **Müügi komplekteerimine**. Seejärel saate kasutada menüükäsku **Müügi laadimine**, et teisaldada kaubad vaheasukohast kuni laadimisdokki.
+Ülejäänud koguse komplekteerimiseks saate nüüd kasutada menüükäsku **Müügi komplekteerimine**. Seejärel saate kasutada menüükäsku **Müügi laadimine** , et teisaldada kaubad vaheasukohast kuni laadimisdokki.

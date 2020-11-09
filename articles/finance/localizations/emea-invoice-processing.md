@@ -3,7 +3,7 @@ title: Arve töötlemine
 description: See teema annab teavet arve töötlemise kohta Ida-Euroopa puhul.
 author: v-kikozl
 manager: AnnBe
-ms.date: 07/21/2017
+ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,22 +12,22 @@ ms.search.form: CustParameters, VendParameters
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
+ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia, Italy
 ms.author: v-kikozl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 945b082528109f6f8c9292d2388749bebd4cfba4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 87a06e1b17e9c0bdb4147f49b2dacb74236360fa
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175735"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039806"
 ---
 # <a name="invoice-processing"></a>Arve töötlemine
 
 [!include [banner](../includes/banner.md)]
 
-See teema käsitleb lühidalt mõningaid riigipõhiseid stsenaariume, nagu EL-i sisene käibemaks (KM) ja viitmaks. Mõne Euroopa riigi seadusenõuded mõjutavad arveldusprotsessi. Selles teemas on teave ka selle kohta, kuidas nende riikide puhul klientide ja hankijate arveid töödeldakse. 
+See teema käsitleb lühidalt mõningaid riigipõhiseid stsenaariume, nagu EL-i sisene käibemaks (KM) ja viitmaks. Mõne Euroopa riigi seadusenõuded mõjutavad arveldusprotsessi. Selles teemas antakse teavet ka selle kohta, kuidas nende riikide puhul klientide ja hankijate arveid töödeldakse. 
 <table>
 <thead>
 <tr>
@@ -68,9 +68,10 @@ See teema käsitleb lühidalt mõningaid riigipõhiseid stsenaariume, nagu EL-i 
 </tr>
 <tr>
 <td>Dokumendi kuupäev vahetuskursside jaoks</td>
-<td>Poola, Ungari, Tšehhi Vabariik</td>
+<td>Poola, Ungari, Tšehhi Vabariik, Itaalia</td>
 <td>
 <p>Seaduses on äritehingute jaoks kehtivate vahetuskursside valimiseks erinevad reeglid. Lehtede <strong>Müügireskontro parameetrid</strong> ja <strong>Ostureskontro parameetrid</strong> väljal <strong>Vahetuskursi kuupäev</strong> saab valida kuupäeva, mida tuleks kasutada ostu- ja müügidokumentidel arvestusvaluuta arvutuste jaoks. Andmete sisestamisel toob süsteem selle parameetri põhjal kande vahetuskursi.</p>
+<blockquote>[!NOTE]<br>Itaalia puhul rakendub see funktsioon ainult ostureskontro moodulis. Ostureskontro parameetrites saab kasutaja valida <strong>Sisestamise kuupäeva</strong> või <strong>Dokumendi kuupäeva</strong> väljal <strong>Vahetuskursi kuupäev</strong>.   </blockquote>
 <blockquote>[!NOTE]<br>Kui määrate välja <strong>Vahetuskursi kuupäev</strong> väärtuseks <strong>Dokumendi kuupäev (ainult EL-i kaubanduse puhul)</strong>, kasutab süsteem käibemaksugruppi. Käibemaksugrupi puhul on vahekaardil <strong>Üldine</strong> parameeter <strong>EL-i kaubandus</strong>. Kui käibemaksugrupil on valiku <strong>EL-i kaubandus</strong> väärtuseks määratud <strong>Jah</strong> ja kui see käibemaksugrupp on dokumendi päises olemas, toob süsteem vahetuskursi dokumendi kuupäeva põhjal. Kui selle käibemaksugrupi puhul on valiku <strong>EL-i kaubandus</strong> väärtuseks määratud <strong>Ei</strong>, toob süsteem vahetuskursi dokumendi sisestuskuupäeva põhjal.</blockquote>
 </td>
 </tr>

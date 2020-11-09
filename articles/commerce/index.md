@@ -19,15 +19,14 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 08e6a521818c919b364033e22643b9ee4ce0ec65
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024656"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107157"
 ---
 # <a name="commerce-home-page"></a>Commerce’i avaleht
-
 
 [!include [banner](includes/banner.md)]
 
@@ -49,10 +48,10 @@ See väljaanne võimaldab luua digitaalseid kogemusi, kasutades sisseehitatud ve
 Valige funktsiooniala, et selle kohta rohkem teavet saada.
 - [Commerce'i eelvaatekeskkonna konfigureerimine](provisioning-guide.md)
 - [Commerce’i arhitektuur](retail-components.md)
-- [Oma kanalite seadistamine](channels-overview.md)
-- [Oma toodete ja teenuste turustamine](set-up-retail-products.md)
-- [Oma tellimuste haldamine](Order-fulfillment-overview.md)
-- [Oma klientide haldamine](set-up-customer-loyalty-program.md)
+- [Kanalite häälestus](channels-overview.md)
+- [Toodete ja teenuste kaubastamine](set-up-retail-products.md)
+- [Tellimuste haldamine](Order-fulfillment-overview.md)
+- [Klientide haldamine](set-up-customer-loyalty-program.md)
 - [Oma finantside haldamine](retail-statements.md)
 - [Oma e-kaubanduse saidi haldamine](online-store-overview.md)
 - [Kaitse pettuse eest](dev-itpro/DFP.md)

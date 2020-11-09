@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
-ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
+ms.openlocfilehash: 46a6ed9763781de8e05cff7adadf75fe2a931fdc
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3728409"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997522"
 ---
 # <a name="company-concept-in-common-data-service"></a>Ettevõtte mõiste teenuses Common Data Service
 
@@ -33,7 +32,7 @@ ms.locfileid: "3728409"
 
 Rakenduses Finance and Operations on mõiste *ettevõte* nii juriidiline kui ka ka ärikonstruktsioon. See on ka andmete turvalisuse ja nähtavuse piir. Kasutajad töötavad alati ühe ettevõtte kontekstis ning ettevõte segmendib enamiku andmetest.
 
-Teenuses Common Data Service pole ei ole samaväärset mõistet. Lähim mõiste on *äriüksus*, mis on peamiselt kasutajaandmete turvalisuse ja nähtavuse piir. Sellel mõistel pole sama juriidilist ega ärimõju nagu ettevõtte mõistel.
+Teenuses Common Data Service pole ei ole samaväärset mõistet. Lähim mõiste on *äriüksus* , mis on peamiselt kasutajaandmete turvalisuse ja nähtavuse piir. Sellel mõistel pole sama juriidilist ega ärimõju nagu ettevõtte mõistel.
 
 Kuna äriüksus ja ettevõte ei ole samaväärsed mõisted, ei ole võimalik jõustada üks-ühele (1:1) vastendust nende vahel teenuse Common Data Service integratsiooni eesmärgil. Kuid kuna kasutajad peavad vaikimisi nägema samu kirjeid rakenduses ja teenuses Common Data Service, on Microsoft kasutusele võtnud uue olemi teenuses Common Data Service nimega CDM\_Company. See olem on samaväärne rakenduse olemiga Ettevõte. Selleks, et kirjete nähtavus oleks valmislahendusena rakenduse ja teenuse Common Data Service vahel samaväärne, soovitame teenuse Common Data Service andmete järgmist seadistust.
 
@@ -82,7 +81,7 @@ Ettevõtte nime automaatseks asustamiseks klientide kaasamise rakendustes on mit
 
     :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Vaikeettevõtte seadmine organisatsiooni andmete jaotises.":::
 
-+ Kui teil on tasemel **Äriüksus** **Kirjutuspääs** üksusele **Süsteemikasutaja**, saate vaikeettevõtet muuta mistahes vormil, kui valite ettevõtte rippmenüüst **Ettevõte**.
++ Kui teil on tasemel **Äriüksus** **Kirjutuspääs** üksusele **Süsteemikasutaja** , saate vaikeettevõtet muuta mistahes vormil, kui valite ettevõtte rippmenüüst **Ettevõte**.
 
     :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Ettevõtte nime muutmine uuel kontol.":::
 
@@ -92,8 +91,8 @@ Ettevõtte nime automaatseks asustamiseks klientide kaasamise rakendustes on mit
 
 + Kui olete süsteemikonfigureerija või -administraator, ja soovite kohandatud vormil automaatselt ettevõtte andmeid asustada, saate kasutada [vormisündmusi](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Lisage JavaScripti viide failile **msdyn_/DefaultCompany.js** ja kasutage järgmisi sündmusi. Saate kasutada valmisvormi, näiteks vormi **Konto**.
 
-    + Vormi sündmus **OnLoad**: määrake väli **defaultCompany**.
-    + Välja **Ettevõte** sündmus **OnChange**: määrake väli **updateDefaultCompany**.
+    + Vormi sündmus **OnLoad** : määrake väli **defaultCompany**.
+    + Välja **Ettevõte** sündmus **OnChange** : määrake väli **updateDefaultCompany**.
 
 ## <a name="apply-filtering-based-on-the-company-context"></a>Filtreerimise rakendamine ettevõtte konteksti põhjal
 

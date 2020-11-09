@@ -3,7 +3,7 @@ title: Eksperimendi eelversioon ja avaldamine
 description: Selles teemas kirjeldatakse, kuidas vaadata rakendusest Dynamics 365 Commerce pärit eksperimendi eelversiooni ja seda avaldada.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 91e2e4840a2d53f195d881279050b6415d48b070
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: f1a565917ab7a048d4d455bc0a0fbd9316237aeb
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930181"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097112"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Eksperimendi eelversioon ja avaldamine
 
@@ -34,9 +34,11 @@ Selles teemas kirjeldatakse, kuidas vaadata rakenduses Dynamics 365 Commerce oma
 ## <a name="preview-your-experiment-variations"></a>Eksperimendi variatsioonide eelversiooni vaatamine
 Saate vaadata oma variatsioonide eelversiooni ja jätkata nende redigeerimist, kuni need näevad välja nii, nagu te tahate.
 
-1. Kasutage saidiehitajas käsuriba all asuvat variatsioonide rippmenüüd, et valida sisu, mille eelversiooni te vaadata soovite. 
-1. Valige ülemiselt ribalt **Eelversioon**. Kuvatakse eelversioon sellest, kuidas sisu avaldamise korral välja näeks.
-1. Teistsuguse variatsiooni eelversiooni vaatamiseks valige see variatsioonide ripploendist ning valige uuesti **Eelversioon**.
+Oma eksperimendi variatsioonide eelversiooni kuvamiseks Commerce'i saidiehitajaga, toimige järgmiselt.
+
+1. Valige saidiehitajas käsuriba all asuvast variatsioonide rippmenüüst sisu, mille eelversiooni te kuvada soovite. 
+1. Klõpsake käsuribal käsul **Eelvaade**. Kuvatakse eelversioon sellest, kuidas sisu avaldamise korral välja näeks.
+1. Teistsuguse variatsiooni eelversiooni kuvamiseks valige see variatsioonide rippmenüüst ning valige uuesti **Eelversioon**.
 
 ## <a name="publish-your-experiment"></a>Eksperimendi avaldamine
 Kui te ei kasuta avaldamisrühma, et ajastada seda, millal teie eksperiment kasutusele võetakse, ja soovite selle kohe avaldada, valige käsuribal suvand **Avalda**. Avaldatakse kõik eksperimenti kuuluvad variatsioonid.
@@ -45,7 +47,7 @@ Kui te ei kasuta avaldamisrühma, et ajastada seda, millal teie eksperiment kasu
 > Kui lehel on avaldamata URL, peate esmalt URL-i avaldama, muidu ei ole see teie veebisaidi kasutajatele nähtav. Üksikasjad leiate teemast [Lehe salvestamine, eelversioon ja avaldamine](save-preview-publish-page.md).
     
 ### <a name="use-publish-groups-to-schedule-when-your-experiment-goes-live"></a>Avaldamisrühmade kasutamine eksperimendi kasutuselevõtu ajastamiseks
-Saidiehitajas loodud variatsioonide avaldamist saab ajastada avaldamisrühma kaudu. Avaldamisrühmas saate ühendada lehe või fragmendi oma eksperimendiga, avades vahekaardi **Eksperimendid**, **Lehed** või **Fragmendid**. Lisateavet leiate teemast [Eksperimendi ühendamine ja variatsioonide redigeerimine](experimentation-connect-edit.md). Lisateavet avaldamisrühmade kohta leiate teemast [Avaldamisrühmadega töötamine](publish-groups.md).
+Saidiehitajas loodud variatsioonide avaldamist saab ajastada avaldamisrühma kaudu. Saate avaldamisrühma kaudu ühendada oma eksperimendiga lehe või fragmendi, valides vasakpoolsel navigeerimispaanil **Eksperimendid**. Samuti saate teha seda, kui valite **Lehed** või **Fragmendid** ja järgite juhiseid jaotises [Eksperimendi ühendamine ja variatsioonide redigeerimine](experimentation-connect-edit.md). Lisateavet avaldamisrühmade kohta leiate teemast [Avaldamisrühmadega töötamine](publish-groups.md).
 
 Kui kasutate eksperimentidega koos avaldamisrühmi, tuleb arvestada mõnda olulist asja.
 - Kui lisate avaldamisrühma lehe või fragmendi, milles on aktiivne eksperiment, eemaldatakse eksperiment avaldamisrühmas lehelt või fragmendist.

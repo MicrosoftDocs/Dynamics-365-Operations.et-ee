@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
+ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate, TMSRouteSchedule, TMSRouteRateDetail
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b76a6530517ec9e2e513cda7477f271558632650
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 04346363070fff4dc3110a620c3d9bc9b1016d1e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206261"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017847"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Mitme peatusega veose transpordimarsruutide plaanimine
 
@@ -43,7 +43,7 @@ Marsruudiplaan sisaldab marsruudisegmente, mis annavad teavet peatuste kohta, mi
 Iga marsruudiplaan peab olema seotud marsruudi juhendiga.
 
 ## <a name="route-guides"></a>Protsessi juhendid
-Marsruudi juhend määratleb kriteeriumid koorma vastendamiseks konkreetse marsruudiplaaniga. Näiteks saab määratleda lähte- ja sihtkoha keskuse, konteineri mahu või kaalu piirangud ja vedaja, teenuse või grupi. Marsruudi juhendid on saadaval lehel **Marsruudi määra töölaud**, kus koormad saab vastendada marsruutidega kas käsitsi või automaatselt. Kui marsruudi juhend on plaanitud marsruudi kohta, on see saadaval ka lehel **Koorma koostamise töölaud**.
+Marsruudi juhend määratleb kriteeriumid koorma vastendamiseks konkreetse marsruudiplaaniga. Näiteks saab määratleda lähte- ja sihtkoha keskuse, konteineri mahu või kaalu piirangud ja vedaja, teenuse või grupi. Marsruudi juhendid on saadaval lehel **Marsruudi määra töölaud** , kus koormad saab vastendada marsruutidega kas käsitsi või automaatselt. Kui marsruudi juhend on plaanitud marsruudi kohta, on see saadaval ka lehel **Koorma koostamise töölaud**.
 
 ## <a name="scheduled-routes"></a>Plaanitud protsessid
 Plaanitud marsruut on eelmääratud marsruudiplaan, millel on tarnekuupäevade graafik. Plaanitud marsruudid ja plaanimata marsruudid erinevad selle poolest, kuidas neile koormad määratakse. Kui määrate plaanimata marsruudi, kasutades marsruudi määra töölauda, kinnitatakse ainult koorem ja marsruudi juhend. Kui määrate plaanitud marsruudi, arvestatakse ka tellimuste ja keskuste kuupäevi ja aadresse ning marsruudiplaanil olevat kuupäeva. Marsruudi määra töölaua lehte pole vaja kasutada plaanitud marsruudile käsitsi koormate määramiseks. Selle asemel võite kasutada koorma koostamise töölauda, et soovitada koormate koostamist antud plaanitud marsruudi müügitellimuste kliendiaadresside ja tarnekuupäevade põhjal. Plaanitud marsruutide puhul on marsruudiplaanil fikseeritud lähte- ja sihtkeskused. Tavaliselt on vedaja ja teenus kõigi segmentide puhul sama, kuid need võivad erineda. Sihtkeskused luuakse marsruudil külastatavate klientide sihtnumbrite järgi. Ühe marsruudiplaani kohta võib määratleda mitu marsruudiplaani. Marsruudiplaan peab olema seotud marsruudi juhendiga. Kuid plaanitud marsruutide puhul saab plaani seostada ainult ühe marsruudi juhendiga. Marsruudi ajakava kasutatakse ainult tegelike marsruutide loomiseks lehel **Marsruudi ajakava**. Koorma koostamise töölaua koormate soovitamisel võite kasutada koorma vaikemalli.

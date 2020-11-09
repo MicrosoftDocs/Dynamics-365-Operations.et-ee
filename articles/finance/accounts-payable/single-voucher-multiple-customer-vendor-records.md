@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bd741cdf86ef73742a75bac910d7560cb380cfb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189541"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006232"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Üksik mitme kliendi- või hankijakirjega kanne
 
@@ -50,9 +50,8 @@ Mitut kliendi- või hankijakirjet sisaldava kande sisestamisel luuakse üks raam
 
 Järgmises näites kirjendatakse mitu hankijaarvet pearaamatusse lehe **Päevaraamat** ühes kandes. Need arved jaotatakse mitme konto dimensiooni vahel.
 
-|             |                  |              |                 |           |            |
+| Kanne | Konto tüüp | Konto  | Kirjeldus | Debiteeri | Krediit |
 |-------------|------------------|--------------|-----------------|-----------|------------|
-| **Kanne** | **Konto tüüp** | **Konto**  | **Kirjeldus** | **Debiteeri** | **Krediit** |
 | GNJL001     | Tarnija           | 1001         | INV1            |           | 100,00     |
 | GNJL001     | Tarnija           | 1001         | INV2            |           | 200,00     |
 | GNJL001     | Tarnija           | 1001         | INV3            |           | 300.00     |
@@ -63,9 +62,8 @@ Järgmises näites kirjendatakse mitu hankijaarvet pearaamatusse lehe **Päevara
 
 Pärast sisestamist luuakse üks kanne.
 
-|             |              |                  |                                    |
+| Kanne | Konto  | Sisestamistüüp | Summa kandevaluutas |
 |-------------|--------------|------------------|------------------------------------|
-| **Kanne** | **Konto**  | **Sisestamistüüp** | **Summa kandevaluutas** |
 | GNJL001     | 606300-001-- | Pearaamatu tööleht   | 50,00                              |
 | GNJL001     | 606300-002-- | Pearaamatu tööleht   | 50,00                              |
 | GNJL001     | 606300-003-- | Pearaamatu tööleht   | 200,00                             |
@@ -78,9 +76,8 @@ Pange tähele, et kanne sisaldab hankijasaldo sisestamistüübi jaoks ühes kand
 
 Selle näite abil saame analüüsida, kuidas mõjutab ühe kande kasutamine allavoolu tasakaalustamise raamatupidamist. Oletame, et maksate arvest 197,00/200,00, võttes skonto 3,00. Pange tähele, et skonto kontoväärtus jaotatakse arve kande kulukontodest kõigi dimensioonide vahel. Selle põhjuseks on see, et üht kannet kasutati eespool toodud arve sisestamiseks ilma viitamata, kuidas pidid kulukaotused kasutaja kavatsuse järgi korreleeruma hankijasaldo järgi ühes kandes.
 
-|             |              |                      |           |            |
+| Kanne | Konto  | Sisestamistüüp     | Debiteeri | Krediit |
 |-------------|--------------|----------------------|-----------|------------|
-| **Kanne** | **Konto**  | **Sisestamistüüp**     | **Debiteeri** | **Krediit** |
 | APPAYM001   | 200110-001-  | Hankija saldo       | 197.00    |            |
 | APPAYM001   | 110110-001-  | Pank                 |           | 197.00     |
 | 14000056    | 520200-001-- | Hankija skonto |           | 0.25       |
@@ -91,9 +88,8 @@ Selle näite abil saame analüüsida, kuidas mõjutab ühe kande kasutamine alla
 
 Kui kasutaja pole rahul, et skonto jaotatakse ühe kande asemel algse arve kõigi kulujaotuste vahel, tuleb arvete kirjendamiseks kasutada mitut kannet. Siin on näide, kuidas pearaamatusse saab ühe kande kasutamise asemel sisestada mitu kannet, nagu on näidatud selle näite alguses.
 
-|             |                  |              |                 |           |            |                 |                    |
+| Kanne | Konto tüüp | Konto  | Kirjeldus | Debiteeri | Krediit | Tasakaalustustasu tüüp | Vastaskonto |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Kanne** | **Konto tüüp** | **Konto**  | **Kirjeldus** | **Debiteeri** | **Krediit** | **Tasakaalustustasu tüüp** | **Vastaskonto** |
 | GNJL001     | Tarnija           | 1001         | INV1            |           | 100,00     | Pearaamat          | &lt;tühi&gt;      |
 | GNJL001     | Pearaamat           | 606300-001-- | INV1            |   50,00   |            | Pearaamat          | &lt;tühi&gt;      |
 | GNJL001     | Pearaamat           | 606300-002-- | INV1            |   50,00   |            | Pearaamat          | &lt;tühi&gt;      |
@@ -102,9 +98,8 @@ Kui kasutaja pole rahul, et skonto jaotatakse ühe kande asemel algse arve kõig
 
 Nüüd kui makstakse INV2, tehakse järgmine kirje. Pange tähele, et skonto finantsdimensioonid järgnevad seostatud kulu finantsdimensioonidele.
 
-|             |              |                      |           |            |
+| Kanne | Konto  | Sisestamistüüp     | Debiteeri | Krediit |
 |-------------|--------------|----------------------|-----------|------------|
-| **Kanne** | **Konto**  | **Sisestamistüüp**     | **Debiteeri** | **Krediit** |
 | APPAYM001   | 200110-001-  | Hankija saldo       | 197.00    |            |
 | APPAYM001   | 110110-001-  | Pank                 |           | 197.00     |
 | 14000056    | 520200-003-- | Hankija skonto |           | 3,00       |
@@ -112,17 +107,15 @@ Nüüd kui makstakse INV2, tehakse järgmine kirje. Pange tähele, et skonto fin
 
 ### <a name="one-voucher-with-multiple-vendors-and-the-impact-on-realized-gainloss-accounting"></a>Üks mitme hankijaga kanne ja mõju realiseeritud kasumi/kahjumi raamatupidamisele
 
-|             |                  |             |                 |           |            |                  |              |
+| Kanne | Konto tüüp | Konto | Kirjeldus | Debiteeri | Krediit | Konto tüüp | Konto  |
 |-------------|------------------|-------------|-----------------|-----------|------------|------------------|--------------|
-| **Kanne** | **Konto tüüp** | **Konto** | **Kirjeldus** | **Debiteeri** | **Krediit** | **Konto tüüp** | **Konto**  |
 | GNJL001     | Tarnija           | 1001        | INV1            |           | 100,00     | Pearaamat           | 606300-001-- |
 | GNJL001     | Tarnija           | 1001        | INV2            |           | 200,00     | Pearaamat           | 606300-002-- |
 
 Järgmises näites salvestatakse mitu hankijaarvet pearaamatusse lehe **Päevaraamat** ühes kandes. Need arved jaotatakse mitme konto dimensiooni vahel. Pärast sisestamist luuakse üks kanne.
 
-|             |              |                  |                                          |                                         |
+| Kanne | Konto  | Sisestamistüüp | Summa kandevaluutas (EUR) | Summa arvestusvaluutas (USD) |
 |-------------|--------------|------------------|------------------------------------------|-----------------------------------------|
-| **Kanne** | **Konto**  | **Sisestamistüüp** | **Summa kandevaluutas (EUR)** | **Summa arvestusvaluutas (USD)** |
 | GNJL001     | 606300-001-- | Pearaamatu tööleht   | 100,00                                   | 114.00                                  |
 | GNJL001     | 606300-002-- | Pearaamatu tööleht   | 200,00                                   | 228.00                                  |
 | GNJL001     | 200110-001-  | Hankija saldo   | -100,00                                  | -114.00                                 |
@@ -132,9 +125,8 @@ Pange tähele, et kanne sisaldab hankijasaldo sisestamistüübi jaoks ühes kand
 
 Selle näite abil saame analüüsida, kuidas mõjutab ühe kande kasutamine allavoolu tasakaalustamise raamatupidamist. Oletame, et arvestusvaluuta on USD ja eespool toodud kanded sisestati kandevaluutas EUR. Oletame, et maksate täielikult arve 200,00 EUR, kuid ilmneb realiseeritud kahjum, mis tuleneb arve sisestamise ja selle maksmise aja vahelise vahetuskursi erinevusest. Pange tähele, et realiseeritud kahjumi kontoväärtus jaotatakse arve kande kulukontodest kõigi dimensioonide vahel. Sellisel juhul jaotati mõlemad dimensioonid 001 ja 002, kuigi kasutaja võib tajuda, et ainult 002 kuulub tasakaalustatava arve kulukontole. Selle põhjuseks on see, et üht kannet kasutati eespool toodud arve sisestamiseks jätmata ühtki viisi viitamaks, kuidas pidid kulukaotused kasutaja kavatsuse järgi korreleeruma hankijasaldo järgi ühes kandes.
 
-|             |             |                    |                                          |                                         |
+| Kanne | Konto | Sisestamistüüp   | Summa kandevaluutas (EUR) | Summa arvestusvaluutas (USD) |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
-| **Kanne** | **Konto** | **Sisestamistüüp**   | **Summa kandevaluutas (EUR)** | **Summa arvestusvaluutas (USD)** |
 | APPAYM001   | 200110-001- | Hankija saldo     | 200,00                                   | 230.00                                  |
 | APPAYM001   | 110110-001- | Pank               | –200,00                                  | -230.00                                 |
 | 14000056    | 801300-001- | Valuutakursi kahjum | 0,00                                     | 0.67                                    |
@@ -143,17 +135,15 @@ Selle näite abil saame analüüsida, kuidas mõjutab ühe kande kasutamine alla
 
 Kui kasutaja pole rahul, et vahetuskursi kahjum jaotatakse ühe kande asemel algse arve kõigi kulujaotuste vahel, tuleb arvete kirjendamiseks kasutada mitut kannet. Siin on näide, kuidas pearaamatusse saab ühe kande kasutamise asemel sisestada mitu kannet, nagu on näidatud selle näite alguses.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Kanne | Konto tüüp | Konto | Kirjeldus | Debiteeri | Krediit | Tasakaalustustasu tüüp | Vastaskonto |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Kanne** | **Konto tüüp** | **Konto** | **Kirjeldus** | **Debiteeri** | **Krediit** | **Tasakaalustustasu tüüp** | **Vastaskonto** |
 | GNJL002     | Tarnija           | 1001        | INV1            |           | 100,00     | Pearaamat          | 606300-001--       |
 | GNJL003     | Tarnija           | 1001        | INV2            |           | 200,00     | Pearaamat          | 606300-002--       |
 
 Nüüd kui makstakse INV2, tehakse järgmine kirje. Pange tähele, et vahetuskursi kahjumi finantsdimensioonid järgnevad seostatud kulu finantsdimensioonidele.
 
-|             |             |                    |                                          |                                         |
+| Kanne | Konto | Sisestamistüüp   | Summa kandevaluutas (EUR) | Summa arvestusvaluutas (USD) |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
-| **Kanne** | **Konto** | **Sisestamistüüp**   | **Summa kandevaluutas (EUR)** | **Summa arvestusvaluutas (USD)** |
 | APPAYM001   | 200110-001- | Hankija saldo     | 200,00                                   | 230.00                                  |
 | APPAYM001   | 110110-001- | Pank               | –200,00                                  | -230.00                                 |
 | 14000056    | 801300-002- | Valuutakursi kahjum | 0,00                                     | 2.00                                    |
@@ -168,64 +158,56 @@ See näide eeldab müüki, kus klient on sobilik skonto jaoks siis, kui makse te
 
 Kirjeldamiseks eeldame, et järgmine müük tehakse kliendile ACME. Järgmised raamatupidamiskirjed tähistavad müüki.
 
-|                    |                  |           |            |
+| Pearaamatukonto | Sisestamistüüp | Debiteeri | Krediit |
 |--------------------|------------------|-----------|------------|
-| **Pearaamatukonto** | **Sisestamistüüp** | **Debiteeri** | **Krediit** |
 | 401100-002-023-    | Tulu          |           | 100        |
 | 130100-002-        | Kliendi saldo | 100       |            |
 
 Järgmisena kannab kasutaja ACME-lt nõutava saldo üle kindlustusettevõttele müügireskontro maksetöölehel ühes kandes. Kindlustusselts seadistatakse kliendi kindlustusena.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Kanne | Konto tüüp | Konto | Kirjeldus | Debiteeri | Krediit | Tasakaalustustasu tüüp | Vastaskonto |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Kanne** | **Konto tüüp** | **Konto** | **Kirjeldus** | **Debiteeri** | **Krediit** | **Tasakaalustustasu tüüp** | **Vastaskonto** |
 | ARPAYM001   | Klient         | ACME        | Ülekanne        |           | 100,00     | Klient        | Kindlustus          |
 
 Pange tähele, et eespool toodud kirje sisaldub ühes kandes. See kanne sisaldab kaht kliendikirjet. Järgmine kanne luuakse eespool toodud pearaamatu kirje sisestamisel.
 
-|             |             |                  |                                    |
+| Kanne | Konto | Sisestamistüüp | Summa kandevaluutas |
 |-------------|-------------|------------------|------------------------------------|
-| **Kanne** | **Konto** | **Sisestamistüüp** | **Summa kandevaluutas** |
 | ARPAYM001   | 130100-002- | Kliendi saldo | 100,00                             |
 | ARPAYM001   | 130100-002- | Kliendi saldo | -100,00                            |
 
 Järgmisena oletame, et saate kindlustuskliendilt makse 98,00 ja valite makse tasakaalustamise saldo ülekandega loodud arvega. See põhjustab järgmise kande sisestamise. Võib olla ootus, et tasakaalustus kasutab finantsdimensioone algsest arvest, kuid see pole võimalik, kuna kindlustuskliendi jaoks puudub arvedokument. Pange tähele, et vaikimisi tulenevad skonto jaotusdimensioonid ülekandest loodud kliendikandest, mitte algse arve tulukontolt. Vaikesäte on saldode ülekandmiseks ühe kande kasutamise tulemus.
 
-|             |             |                  |           |            |
+| Kanne | Konto | Sisestamistüüp | Debiteeri | Krediit |
 |-------------|-------------|------------------|-----------|------------|
-| **Kanne** | **Konto** | **Sisestamistüüp** | **Debiteeri** | **Krediit** |
 | ARPAYM002   | 110110-002- | Pank             | 98.00     |            |
 | ARPAYM002   | 130100-002- | Kliendi saldo |           | 98.00      |
 
 Skonto jaoks seotud kandel tuleneb finantsdimensiooni vaikesäte ülekandest loodud kliendikandest, kuna ülekandel on rohkem kui üks klient.
 
-|             |             |                        |           |            |
+| Kanne | Konto | Sisestamistüüp       | Debiteeri | Krediit |
 |-------------|-------------|------------------------|-----------|------------|
-| **Kanne** | **Konto** | **Sisestamistüüp**       | **Debiteeri** | **Krediit** |
 | ARP‑00001   | 403300-002- | Kliendi skonto | 2.00      |            |
 | ARP‑00001   | 130100-002- | Kliendi saldo       |           | 2.00       |
 
 Kui kasutaja ei ole rahul skonto finantsdimensioonide vaikesättega tuleks ühe kande asemel kasutada saldo ülekande kirjeldamiseks mitut kannet. Selle stsenaariumi saavutamiseks tuleks luua krediiditeatis sellele kliendile, kellelt saldo liigutati, ja deebetiteatis või arve sellele kliendile, kellele saldo liigitatakse. Järgmine näide näitab, kuidas ühe kande kasutamise asemel tuleks saldo ülekandmiseks sisestada müügireskontro makse töölehele mitu kannet, nagu on näidatud varasemalt selles näites.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Kanne | Konto tüüp | Konto | Kirjeldus | Debiteeri | Krediit | Tasakaalustustasu tüüp | Vastaskonto |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Kanne** | **Konto tüüp** | **Konto** | **Kirjeldus** | **Debiteeri** | **Krediit** | **Tasakaalustustasu tüüp** | **Vastaskonto** |
 | ARPAYM001   | Klient         | ACME        |                 |           | 100,00     | Pearaamat          | 401100-002-023-    |
 | ARPAYM002   | Klient         | Kindlustus   |                 | 100,00    |            | Pearaamat          | 401100-002-023-    |
 
 See tähendab, et kui kindlustusklient maksab 98,00 kandega ARPAYM02, kasutatakse õigeid finantsdimensioone kande ARPAYM002 pearaamatukonto kirjest.
 
-|             |             |                  |           |            |
+| Kanne | Konto | Sisestamistüüp | Debiteeri | Krediit |
 |-------------|-------------|------------------|-----------|------------|
-| **Kanne** | **Konto** | **Sisestamistüüp** | **Debiteeri** | **Krediit** |
 | ARPAYM003   | 110110-002- | Pank             | 98.00     |            |
 | ARPAYM003   | 130100-002  | Kliendi saldo |           | 98.00      |
 
 Seotud skonto kandel kasutatakse finantsdimensioone kandel ARPAYM002 näidatud tasakaalustavalt tulukontolt.
 
-|             |                 |                        |           |            |
+| Kanne | Konto     | Sisestamistüüp       | Debiteeri | Krediit |
 |-------------|-----------------|------------------------|-----------|------------|
-| **Kanne** | **Konto**     | **Sisestamistüüp**       | **Debiteeri** | **Krediit** |
 | ARP‑00001   | 403300-002-023- | Kliendi skonto | 2.00      |            |
 | ARP‑00001   | 130100-002-     | Kliendi saldo       |           | 2.00       |
 
@@ -236,16 +218,14 @@ Tasaarveldus võib olla kasulik, kui organisatsioon ostab ja müüb samale ettev
 
 Kirjeldamiseks oletame, et hankija 1001 ja klient US-008 on sama üksus, seega teie organisatsioon soovib ostureskontro ja müügireskontro saldod tasaarveldada enne ülejäänud saldo tasumist/vastuvõtmist. Oletame, et kliendi kirje võlgneb 75,00 EUR ja hankija kirje võlgneb 100,00 EUR, mis tähendab, et eelistaksite saldod tasaarveldada ja tasuda ainult hankijale 25,00 EUR. Täiendavalt oletame, et arvestusvaluuta on USD. Sellisel juhul tasaarvelduse kanne sisestatakse ostureskontro maksetöölehel ühesse kandesse.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Kanne | Konto tüüp | Konto | Kirjeldus | Debiteeri | Krediit | Tasakaalustustasu tüüp | Vastaskonto |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Kanne** | **Konto tüüp** | **Konto** | **Kirjeldus** | **Debiteeri** | **Krediit** | **Tasakaalustustasu tüüp** | **Vastaskonto** |
 | APPAYM001   | Tarnija           | 1001        | Tasaarveldus         |  75,00    |            | Klient        | US-008             |
 
 Vältimaks soovimatuid probleeme tulevaste tasakaalustamistega selle kande puhul tuleb tasaarveldamise kande kirjendamiseks sisestada töölehele ühe kande kasutamise asemel mitu kannet. Pange tähele, et kliendi- ja hankijasaldod tasakaalustatakse ühe kliiringukontoga, et vältida ühe sellise kande kasutamist, mis sisaldab mitut kliendi- ja hankijasaldot.
 
-|             |                  |             |                 |           |            |                 |                    |
+| Kanne | Konto tüüp | Konto | Kirjeldus | Debiteeri | Krediit | Tasakaalustustasu tüüp | Vastaskonto |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Kanne** | **Konto tüüp** | **Konto** | **Kirjeldus** | **Debiteeri** | **Krediit** | **Tasakaalustustasu tüüp** | **Vastaskonto** |
 | 001         | Klient         | US-008      |                 |           |  75,00     | Pearaamat          | 999999---          |
 | 002         | Tarnija           | 1001        |                 |  75,00    |            | Pearaamat          | 999999---          |
 

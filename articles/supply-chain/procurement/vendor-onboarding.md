@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
+ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 171d3b57333cc325fa675627e4c38f764d89f32c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203407"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018648"
 ---
 # <a name="onboard-vendors"></a>Hankijate vastuvõtmine
+
 [!include [banner](../includes/banner.md)]
 
 ---
@@ -103,7 +104,7 @@ Lisateavet hankija taotluse seadistamise kohta vaadake teemast [„Hankija koost
 | Kontaktisiku teave | See leht sisaldab kontaktisiku nime, mis sisestatakse automaatselt algsest potentsiaalse hankija registreerimistaotlusest. See sisaldab ka kontaktisiku telefoninumbrit ja meiliaadressi ning kontaktisiku eri aadresse. |
 | Ettevõtte teave       | See leht sisaldab maksu registreerimisnumbreid (eri riikides või regioonides) ja töötajate arvu. See näitab ka, kas ettevõte on vähemusomanduses. |
 | Hankekategooriad     | See leht sisaldab hankekategooriad, millele hankija taotleb kinnitust. Kasutaja saab valida kategooriad hanke kategooriahierarhiast. Hierarhia tasemete arvu saate konfigureerida, avades **Hangete parameetrid** &gt; **Hankija koostöö** ja sealt **Hanked** &gt; **Seadistamine**. |
-| Küsimustikud             | Viisard võib hõlmata ka hankijale mõeldud küsimustike kogumit. Viisardis olevad küsimustikud võivad olla konfigureeritud kas hankija taotluses või hankekategooria kohta. Kui küsimustikud konfigureeritakse hankekategooria kohta, olenevad viisardis kuvatavad küsimustikud sellest, millistes hankekategooriates hankija heakskiitu taotleb. Küsimustiku saate vastavale kategooriale lisada lehel **Hankekategooriad**, samuti saate seal määrata tegevuse tüübiks **Hankija vastuvõtt**. |
+| Küsimustikud             | Viisard võib hõlmata ka hankijale mõeldud küsimustike kogumit. Viisardis olevad küsimustikud võivad olla konfigureeritud kas hankija taotluses või hankekategooria kohta. Kui küsimustikud konfigureeritakse hankekategooria kohta, olenevad viisardis kuvatavad küsimustikud sellest, millistes hankekategooriates hankija heakskiitu taotleb. Küsimustiku saate vastavale kategooriale lisada lehel **Hankekategooriad** , samuti saate seal määrata tegevuse tüübiks **Hankija vastuvõtt**. |
 
 Hankija taotlus luuakse pärast seda, kui potentsiaalne hankija-kasutaja on läbinud hankija registreerimisviisardi.
 
@@ -143,7 +144,7 @@ Enne kui saate hankija taotluse kinnitada, peate määrama hankijagrupi, avades 
 
 Kui hankija esindajal peaks potentsiaalse hankija-kasutajana olema hankija koostöö kasutajana juurdepääs rakendusele Supply Chain Management, siis määrake hankija koostöö juurdepääsu loaks **Jah**. Potentsiaalse hankija registreerimisel kasutatud kasutajakonto inaktiveerimiseks määrake see luba väärtusele **Ei**.
 
-Kui hankija koostöö juurdepääsuloaks on määratud **Jah**, siis esitatakse hankija taotluse kinnitamisel taotlus kasutaja rolli muutmiseks **välistes rollides** määratud **hankija** tüübiks. Kui selle loa väärtuseks on seatud **Ei**, esitatakse hankija taotluse kinnitamisel taotlus kasutaja inaktiveerimiseks. Sel juhul peab olema seadistatud kasutaja taotluse inaktiveerimise töövoog.
+Kui hankija koostöö juurdepääsuloaks on määratud **Jah** , siis esitatakse hankija taotluse kinnitamisel taotlus kasutaja rolli muutmiseks **välistes rollides** määratud **hankija** tüübiks. Kui selle loa väärtuseks on seatud **Ei** , esitatakse hankija taotluse kinnitamisel taotlus kasutaja inaktiveerimiseks. Sel juhul peab olema seadistatud kasutaja taotluse inaktiveerimise töövoog.
 
 Selleks et hankija taotluse kinnitamisel hankija konto loodaks, peab hankija taotlustest hankijate loomise järjekorranumber olema seatud väärtusele **Automaatne**.
 

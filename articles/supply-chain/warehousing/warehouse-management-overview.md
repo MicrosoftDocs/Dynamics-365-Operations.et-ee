@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSParameters
+ms.search.form: WHSParameters, WHSWorkPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df7fa277bd2447fa6e2631806461e1e7c13cf17
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ad0659a86e75dc4a5a204ebc05405f62abf2ca1e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987090"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017456"
 ---
 # <a name="warehouse-management-overview"></a>Laohalduse ülevaade
 
@@ -32,7 +32,7 @@ Laohalduse moodul võimaldab hallata laotoiminguid tootmis-, hulgimüügi- ja ja
 ## <a name="get-started"></a>Alustamine
 Laohaldusega töö alustamiseks tuleb viia lõpule üldiste laoparameetrite seadistamine, et toetada oma ettevõtte äriprotsesse.
 
-- Minge lehele **Laohalduse parameetrid** jaotises **Laohaldus** > **Seadistus**, et seadistada üldised laoparameetrid.
+- Minge lehele **Laohalduse parameetrid** jaotises **Laohaldus** > **Seadistus** , et seadistada üldised laoparameetrid.
 
 Peate konfigureerima sissetulevate ja väljaminevate laoprotsesside töövoogude komponendid vastavalt ärivajadustele. Kõige olulisemad komponendid, mis tuleb seadistada, on voomallid, töömallid, töökaustad ja asukohakorraldused.
 

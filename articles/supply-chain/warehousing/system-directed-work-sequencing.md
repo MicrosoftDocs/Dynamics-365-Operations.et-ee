@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 2884c480d20090266f7cffb5e7d0aca58c1174f0
-ms.sourcegitcommit: edb46dce498df42b09e8f5ad6de00f86c8022dfa
+ms.openlocfilehash: 86d396b069a354b8fa7e15793372a8293273d238
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534846"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017020"
 ---
 # <a name="system-directed-work-sequencing"></a>Süsteemi suunatud tööde järjestus
 
@@ -51,7 +52,7 @@ Selle stsenaariumi kasutamiseks selles teemas esitletud väärtuste abil, peate 
 > [!IMPORTANT]
 > Enne tellimuste lattu vabastamist veenduge, et komplekteerimise asukohtadel on tellimuste kõigi üksuste jaoks piisavalt varusid.
 >
-> Vaikimisi USMF-andmed peaksid seda stsenaariumi toetama. Kui te ei kasuta demoandmeid, vaadake üle seadistus **Asukohakorraldus**, et teada, milliseid komplekteerimise asukohti müügitellimuse komplekteerimiseks kasutatakse. Kui peate korrigeerima varusid, saate luua käsitsi liikumisi, kasutada täiendamist või kasutada mis tahes muud voogu.
+> Vaikimisi USMF-andmed peaksid seda stsenaariumi toetama. Kui te ei kasuta demoandmeid, vaadake üle seadistus **Asukohakorraldus** , et teada, milliseid komplekteerimise asukohti müügitellimuse komplekteerimiseks kasutatakse. Kui peate korrigeerima varusid, saate luua käsitsi liikumisi, kasutada täiendamist või kasutada mis tahes muud voogu.
 
 ### <a name="set-up-a-mobile-device-menu-item"></a>Mobiilse seadme menüü-üksuse seadistamine
 
@@ -90,12 +91,12 @@ Selle stsenaariumi kasutamiseks selles teemas esitletud väärtuste abil, peate 
 
     Asukohad lisatakse tabeli liitmisse.
 
-1. Valige vahekaardil **Sortimine** suvand **Lisa**, et lisada rida.
+1. Valige vahekaardil **Sortimine** suvand **Lisa** , et lisada rida.
 1. Määrake uuel real järgmised väärtused.
 
     - **Tabel:** *Tööread*
     - **Tuletatud tabel:** *Tööread*
-    - **Väli:** *Töö kogus* (valige kuvatavas teateaknas **Jah**, et lisada sellele väljale sortimine.)
+    - **Väli:** *Töö kogus* (valige kuvatavas teateaknas **Jah** , et lisada sellele väljale sortimine.)
     - **Otsingusuund:** *Kahanev*
 
 1. Valige vahekaart **Vahemik**.
@@ -129,7 +130,7 @@ Selle stsenaariumi kasutamiseks selles teemas esitletud väärtuste abil, peate 
     - **Kriteeriumid:** *!ETAPP*
 
         > [!IMPORTANT]
-        > Lisage kindlasti ka hüüumärk (*!*) suvandi *ETAPP* ette.
+        > Lisage kindlasti ka hüüumärk ( *!* ) suvandi *ETAPP* ette.
 
 1. Päringu salvestamiseks ja sulgemiseks valige **OK**.
 1. Valige käsk **Salvesta**.
@@ -182,7 +183,7 @@ Seejärel vabastate iga müügitellimuse lattu, et luua väljaminev töö.
 1. Valige ruudustiku kohal olevast menüüst **Varud** suvand **Reserveerimine**.
 1. Valige lehel **Reserveerimine** varude reserveerimiseks suvand **Reserveeri saatepartii**.
 1. Sulgege leht **Reserveerimine**.
-1. Tehke Toimingupaani vahekaardil **Ladu** valik **Lattu väljastamine**, et luua lao jaoks töö.
+1. Tehke Toimingupaani vahekaardil **Ladu** valik **Lattu väljastamine** , et luua lao jaoks töö.
 
     Saate teabesõnumid, mis näitavad selle müügitellimuse jaoks loodud voo ID ja saadetise ID-d.
 
@@ -200,7 +201,7 @@ Seejärel vabastate iga müügitellimuse lattu, et luua väljaminev töö.
     - **Kauba kood:** *M9200*
     - **Kogus:** *5*
 
-1. Valige **Lisa rida**, et lisada teine rida ja seadke järgmised väärtused.
+1. Valige **Lisa rida** , et lisada teine rida ja seadke järgmised väärtused.
 
     - **Kauba kood:** *M9201*
     - **Kogus:** *1*
@@ -222,7 +223,7 @@ Seejärel vabastate iga müügitellimuse lattu, et luua väljaminev töö.
     - **Kauba kood:** *M9200*
     - **Kogus:** *7*
 
-1. Valige **Lisa rida**, et lisada teine rida ja seadke järgmised väärtused.
+1. Valige **Lisa rida** , et lisada teine rida ja seadke järgmised väärtused.
 
     - **Kauba kood:** *M9202*
     - **Kogus:** *8*
@@ -244,7 +245,7 @@ Seejärel vabastate iga müügitellimuse lattu, et luua väljaminev töö.
     - **Kauba kood:** *M9200*
     - **Kogus:** *25*
 
-1. Valige **Lisa rida**, et lisada teine rida ja seadke järgmised väärtused.
+1. Valige **Lisa rida** , et lisada teine rida ja seadke järgmised väärtused.
 
     - **Kauba kood:** *M9202*
     - **Kogus:** *10*
@@ -255,7 +256,7 @@ Seejärel vabastate iga müügitellimuse lattu, et luua väljaminev töö.
 ### <a name="get-work-ids-for-the-work-that-was-created"></a>Loodud töö jaoks töö ID-de hankimine
 
 1. Avage jaotis **Laohaldus \> Töö \> Töö üksikasjad**.
-1. Filtreerige välja **Ladu**, et kuvatakse ainult lao *51* töö.
+1. Filtreerige välja **Ladu** , et kuvatakse ainult lao *51* töö.
 1. Neli töö ID-d peaks olema loodud. Märkige üles kõigi müügitellimuste töö ID-d.
 
     | Müügitellimuse ID | Töö ID | Töö kogus |
@@ -268,7 +269,7 @@ Seejärel vabastate iga müügitellimuse lattu, et luua väljaminev töö.
 Enne voo käitamist mobiilses seadmes veenduge, et ainult teie äsja loodud töö olek oleks *Avatud* lao *51* ja töökäsu tüübi *Müügitellimus* jaoks. Vastasel juhul võivad testi tulemused erineda, kuna süsteemi suunatud komplekteerimine sisaldab kõiki sobivaid töid.
 
 1. Avage jaotis **Laohaldus \> Töö \> Väljaminev \> Avatud müügitöö**.
-1. Filtreerige ruudustiku **Avatud müügitöö** välja **Ladu**, et kuvatakse ainult lao *51* töö.
+1. Filtreerige ruudustiku **Avatud müügitöö** välja **Ladu** , et kuvatakse ainult lao *51* töö.
 1. Kinnitage, et kuvatakse teie varasemalt loodud nelja töö ID-d.
 1. Sulgege leht **Töö**.
 
@@ -299,7 +300,7 @@ Pidage meeles, et see seadistus hõivab mis tahes töö, millel on vähemalt ük
 
 ## <a name="tips"></a>Näpunäited
 
-Süsteemi suunatud tööde järjestuse päringud on *kaasa arvatud*. Seda on oluline meeles pidada osade seadistuste puhul. Kui soovite näiteks, et konkreetne menüü-üksus töötleks ainult tööd, kus tööüksus on *ea* ja määrate selle piirangu päringu vahekaardil **Vahemik**. Sellisel juhul esitatakse töötajale kõik tööd, kus vähemalt ühe töörea üksuseks on seatud *ea*. Seetõttu võib see töö sisaldada ka tööd, kus tööridadel on muu tööüksus kui *ea* (nt *kast* või *kaubaalus*). Päring välistab ainult töö, kus ühelegi tööreale pole määratud tööühikuks *ea*.
+Süsteemi suunatud tööde järjestuse päringud on *kaasa arvatud*. Seda on oluline meeles pidada osade seadistuste puhul. Kui soovite näiteks, et konkreetne menüü-üksus töötleks ainult tööd, kus tööüksus on *ea* ja määrate selle piirangu päringu vahekaardil **Vahemik**. Sellisel juhul esitatakse töötajale kõik tööd, kus vähemalt ühe töörea üksuseks on seatud *ea*. Seetõttu võib see töö sisaldada ka tööd, kus tööridadel on muu tööüksus kui *ea* (nt *kast* või *kaubaalus* ). Päring välistab ainult töö, kus ühelegi tööreale pole määratud tööühikuks *ea*.
 
 Seetõttu hõivas päring selle stsenaariumi näites ka töö ID *4*. Selle loomise ajal lisati kaks rida: üks 25 ea kohta ja teine 10 ea kohta. Töö esitati ikkagi kasutajale, sest vähemalt ühe töörea kogus on väiksem kui 20 ea.
 

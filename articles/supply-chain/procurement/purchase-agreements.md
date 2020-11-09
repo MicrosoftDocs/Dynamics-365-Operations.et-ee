@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
+ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: ce6b76d92526b9a353bda2524bdfd0f7f4a5f68e
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803159"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018832"
 ---
 # <a name="purchase-agreements"></a>Ostulepingud
 
@@ -58,7 +58,7 @@ Iga ostulepingu rida on kohustus midagi osta. Kohustuse täitmiseks saate kasuta
 -   **Väärtuse kohustus** – ostate konkreetse valuutasumma eest mis tahes toote või tooteid mis tahes hankekategoorias.
 
 ## <a name="pricing-terms-for-purchase-agreements"></a>Ostulepingute hinnakujunduse tingimused
-Hinnakujunduse tingimused võivad erineda olenevalt kohustuse tüübist. Ostulepingute hinnakujunduse tingimused tühistavad mis tahes muud hinnakujunduse tingimused, mis on kaubanduslepetes seadistatud. Järgmises tabelis kirjeldatakse hinnaga seotud välju, mida iga kohustuse tüüp mõjutab. Välju, mis sisaldavad valikut **Jah**, saab värskendada tellimuse real.
+Hinnakujunduse tingimused võivad erineda olenevalt kohustuse tüübist. Ostulepingute hinnakujunduse tingimused tühistavad mis tahes muud hinnakujunduse tingimused, mis on kaubanduslepetes seadistatud. Järgmises tabelis kirjeldatakse hinnaga seotud välju, mida iga kohustuse tüüp mõjutab. Välju, mis sisaldavad valikut **Jah** , saab värskendada tellimuse real.
 
 | Kohustuse tüüp                   | Ühiku hind | Hinnaühik | Allahindluse protsent | Skonto summa |
 |-----------------------------------|------------|------------|------------------|----------------------|
@@ -93,7 +93,7 @@ Saate valida ostulepingu ainult ostutellimuse loomisel. Pärast ostutellimuse lo
 Mõnes olukorras, kus ostutellimused luuakse kaudselt, saate määrata, kas Supply Chain Management otsib kehtivaid ostulepinguid automaatselt. Näiteks võiksite seda teha, kui kinnitate automaatselt plaanitud ostutellimusi või loote ostutellimusi, mis põhinevad müügitellimustel.
 
 ## <a name="matching-policy-on-purchase-agreements"></a>Ostulepingute vastavusse viimise poliitika
-Saate määratleda ostulepingu päises rea vastavusse viimise poliitika. See rea vastavusse viimise poliitika arvestab ostureskonto parameetrite rea vastavusse viimise poliitikaga, kui väli **Luba vastavusse viimise poliitika alistamine** lehel **Ostureskontro parameetrid** (kiirkaardil **Hinna ja koguse sobitamine**) on määratud valikule **Kõrgem kui ettevõttepoliitika**. Ostulepingule viitavad dokumendid kasutavad rea vastavusse viimise poliitikat, mis on määratletud ostulepingu päises, kui just vastava kauba, kauba ja hankija või kategooria ostupoliitika jaoks pole teisiti määratletud.
+Saate määratleda ostulepingu päises rea vastavusse viimise poliitika. See rea vastavusse viimise poliitika arvestab ostureskonto parameetrite rea vastavusse viimise poliitikaga, kui väli **Luba vastavusse viimise poliitika alistamine** lehel **Ostureskontro parameetrid** (kiirkaardil **Hinna ja koguse sobitamine** ) on määratud valikule **Kõrgem kui ettevõttepoliitika**. Ostulepingule viitavad dokumendid kasutavad rea vastavusse viimise poliitikat, mis on määratletud ostulepingu päises, kui just vastava kauba, kauba ja hankija või kategooria ostupoliitika jaoks pole teisiti määratletud.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Ostulepingud ja kontsernisisene kaubandus
 Kontsernisiseseid kaubandussuhteid saab luua erinevates juriidilistes isikutes olevate hankija kontode ja kliendi kontode vahel. Kui ühele osapoolele luuakse müügi- või ostutellimus, luuakse kontsernisisene tellimusahel. Tellimusahelas luuakse müügi- ja ostutellimus sobivates juriidilistes isikutes.  

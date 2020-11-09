@@ -3,7 +3,7 @@ title: Pilvepõhiste ja asutusesiseste funktsioonide võrdlus
 description: Selles teemas näidatakse, milliseid funktsioone pilves ja asutusesiseses versioonis toetatakse.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 10/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100278"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040095"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Pilvepõhiste ja kohapealsete funktsioonide võrdlus
 
@@ -60,7 +60,7 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 |                                      | ER: teenusega Regulatory Configuration Services (RCS) integreerimine                              | Jah       | Ei              |
 |                                      | ER: kasutab ER-i hoidlate kaudu juurdepääsetavate ER-i konfiguratsioonide salvestusruumina kohalikku failisüsteemi | Ei        | Jah             |
 |                                      | PowerBI.com-iga integreerimine                                                              | Jah       | Ei              |
-|                                      | PowerBI Desktop-iga integreerimine                                                          | Ei        | Jah             |
+|                                      | PowerBI Desktopiga integreerimine                                                          | Ei        | Jah             |
 |                                      | Analüütikatööruumid                                                                     | Jah       | Ei              |
 |                                      | Arukas äriprotsess: soovitused                                             | Jah       | Ei              |
 |                                      | Power BI aruannete loomine OData abil, kasutades Power BI Desktopi või Exceli PowerQuery tööriistu    | Jah       | Ei              |
@@ -87,6 +87,7 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 
 | **Piirkond**                | **Funktsioon**             | **Pilv** | **Asutusesisene** |
 |-------------------------|-------------------|-----------|-----------------|
+| Varahaldus                     |                                                                                           | Jah       | Ei |
 | Vastavus ja serdid        |                                                                                           | Jah       | Jah             |
 |                                      | SOC 1 1. tüübi sert                                                                | Jah       | Ei              |
 | Kuluarvestus                      |                                                                                           | Jah       | Jah             |
@@ -108,7 +109,7 @@ Järgmistes tabelites on loetletud rakendusvaldkonnad. Pilvepõhine ja asutusesi
 |                                      | ER: teenusega Regulatory Configuration Services (RCS) integreerimine                              | Jah       | Ei              |
 |                                      | ER: kasutab ER-i hoidlate kaudu juurdepääsetavate ER-i konfiguratsioonide salvestusruumina kohalikku failisüsteemi | Ei        | Jah             |
 |                                      | PowerBI.com-iga integreerimine                                                              | Jah       | Ei              |
-|                                      | PowerBI Desktop-iga integreerimine                                                          | Ei        | Jah             |
+|                                      | PowerBI Desktopiga integreerimine                                                          | Ei        | Jah             |
 |                                      | Analüütikatööruumid                                                                     | Jah       | Ei              |
 |                                      | Arukas äriprotsess: soovitused                                             | Jah       | Ei              |
 |                                      | Power BI aruannete loomine OData abil, kasutades Power BI Desktopi või Exceli PowerQuery tööriistu    | Jah       | Ei              |

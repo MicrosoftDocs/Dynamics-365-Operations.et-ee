@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 92ffd2076497325fb986478328c4b2584929881d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 7e631f1bf64b47b5f3e85d4f98c6edafe67d627a
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835940"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039888"
 ---
 # <a name="set-up-the-electronic-invoicing-add-on"></a>Elektroonilise arvelduse lisandmooduli seadistamine
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 Elektroonilise arvelduse lisandmooduli funktsiooni seadistamine hõlmab vajaliku konfiguratsiooni loomist teenuste Regulatory Configuration Services (RCS) keskkonna kaudu ja konfiguratsiooni avaldamist elektroonilise arvelduse lisandmooduli serveris. Seadistus võimaldab teil luua konfigureeritavad reeglid, mis võimaldavad elektroonilise arvelduse lisandmoodulil kasutada internetis turvalist protokolli, et edastada ja vahetada veebiteenuste kaudu andmeid kolmandate isikutega.
 
@@ -50,8 +50,8 @@ Seadistusprotsess tuleb viia lõpule RCS-i keskkonnas. Järgige neid samme, et l
 
 1. Logige oma RCS-i keskkonda sisse.
 2. Valige tööruumi **Globaliseerimisfunktsioonid** jaotisest **Funktsioonid** paan **Elektroonilise arvelduse lisandmoodul**.
-3. Valige lehel **Elektroonilise arvelduse lisandmooduli funktsioonid** suvand **Impordi**, et importida globaalsest hoidlast ER-i andmemudeli konfiguratsioon.
-4. Valige **Lisa**, et luua elektroonilise arvelduse lisandmooduli funktsioon. Saate luua funktsiooni otsast peale või tuletada selle olemasolevast elektroonilise arvelduse lisandmooduli funktsioonist.
+3. Valige lehel **Elektroonilise arvelduse lisandmooduli funktsioonid** suvand **Impordi** , et importida globaalsest hoidlast ER-i andmemudeli konfiguratsioon.
+4. Valige **Lisa** , et luua elektroonilise arvelduse lisandmooduli funktsioon. Saate luua funktsiooni otsast peale või tuletada selle olemasolevast elektroonilise arvelduse lisandmooduli funktsioonist.
 
     ![Elektroonilise arvelduse lisandmooduli funktsiooni lisamine](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
@@ -64,14 +64,14 @@ Konfiguratsioonid sisaldavad ER-i vormingu konfiguratsioone, mis on vajalikud te
 
 Järgige neid samme, et lisada ER-i vormingud elektroonilise arvelduse lisandmooduli funktsiooni.
 
-1. Valige lehe **Elektroonilise arvelduse lisandmooduli funktsioonid** vahekaardil **Konfiguratsioonid** suvand **Lisa**, et lisada ER-i failivormingu konfiguratsioonid elektroonilise arvelduse lisandmooduli funktsiooni.
+1. Valige lehe **Elektroonilise arvelduse lisandmooduli funktsioonid** vahekaardil **Konfiguratsioonid** suvand **Lisa** , et lisada ER-i failivormingu konfiguratsioonid elektroonilise arvelduse lisandmooduli funktsiooni.
 
     ![Elektroonilise arvelduse lisandmooduli funktsiooni konfiguratsioonide lisamine](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Kui loote elektroonilise arvelduse lisandmooduli funktsiooni otsast peale, peate lisama käsitsi kõik ER-i failivormingu konfiguratsioonid. Kui tuletate elektroonilise arvelduse lisandmooduli funktsiooni olemasolevast funktsioonist, luuakse ER-i failivormingu konfiguratsioonid automaatselt, kuna need päritakse algsest elektroonilise arvelduse lisandmooduli funktsioonist.
 
-2. Valige suvand **Redigeeri**, et avada leht **Vormingukujundaja**, kus saate redigeerida ER-i failivormingu konfiguratsiooni.
+2. Valige suvand **Redigeeri** , et avada leht **Vormingukujundaja** , kus saate redigeerida ER-i failivormingu konfiguratsiooni.
 
     ![Elektroonilise arvelduse lisandmooduli funktsiooni konfiguratsioonide redigeerimine](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
@@ -88,18 +88,18 @@ Funktsiooniseadistused hõlmavad kolmanda isiku veebiteenusega suhtlemise ja tur
 
 Järgige neid samme, et lisada funktsiooniseadistused elektroonilise arvelduse lisandmooduli funktsiooni.
 
-1. Valige lehe **Elektroonilise arvelduse lisandmooduli funktsioonid** vahekaardil **Seadistused** suvand **Lisa**, et lisada funktsiooniseadistused elektroonilise arvelduse lisandmooduli funktsiooni.
+1. Valige lehe **Elektroonilise arvelduse lisandmooduli funktsioonid** vahekaardil **Seadistused** suvand **Lisa** , et lisada funktsiooniseadistused elektroonilise arvelduse lisandmooduli funktsiooni.
 
     ![Elektroonilise arvelduse lisandmooduli funktsiooni seadistuste lisamine](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
     > Kui loote elektroonilise arvelduse lisandmooduli funktsiooni otsast peale, peate lisama käsitsi kõik vajaminevad funktsiooniseadistused. Kui tuletate elektroonilise arvelduse lisandmooduli funktsiooni olemasolevast funktsioonist, luuakse kõik funktsiooniseadistused automaatselt, kuna need päritakse algsest elektroonilise arvelduse lisandmooduli funktsioonist.
 
-2. Valige suvand **Redigeeri**, et redigeerida funktsiooni versiooni seadistust.
+2. Valige suvand **Redigeeri** , et redigeerida funktsiooni versiooni seadistust.
 
     ![Elektroonilise arvelduse lisandmooduli funktsiooni seadistuste redigeerimine](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
-3. Kasutage lehte **Funktsiooni versiooni seadistus**, et konfigureerida tegevusi, rakendatavuse reegleid ja muutujaid.
+3. Kasutage lehte **Funktsiooni versiooni seadistus** , et konfigureerida tegevusi, rakendatavuse reegleid ja muutujaid.
 
     ![Tegevused, rakendatavuse reeglid ja muutujad](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
@@ -113,8 +113,8 @@ Iga tegevus sisaldab eelmääratletud loendit parameetritest, mis on vajalikud t
 
 Tegevuste haldamiseks jälgige lehe **Funktsiooni versioonide seadistus** vahekaardi **Tegevused** kiirkaardil **Tegevused** üht või mõlemat järgmistest sammudest.
 
-- Valige **Uus** või **Kustuta**, et lisada uusi tegevusi või kustutada olemasolevaid.
-- Valige **Üles** või **Alla**, et teisaldada valitud tegevused ruudustikus üles või alla ning seetõttu muuta nende käitamise järjestust. Tegevused käitatakse ülevalt alla järjekorras, milles need ruudustikus kuvatakse.
+- Valige **Uus** või **Kustuta** , et lisada uusi tegevusi või kustutada olemasolevaid.
+- Valige **Üles** või **Alla** , et teisaldada valitud tegevused ruudustikus üles või alla ning seetõttu muuta nende käitamise järjestust. Tegevused käitatakse ülevalt alla järjekorras, milles need ruudustikus kuvatakse.
 
 ![Tegevuste haldamine](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
@@ -126,7 +126,7 @@ Järgmises tabelis kirjeldatakse kiirkaardil **Tegevused** olevaid välju.
 | Tegevuse nimi  | Tegevuse nimi ja selle käivitamise järjekord. |
 | Kirjeldus  | Tegevuse kirjeldus. |
 | Luba korduskatsed | Täidetud märkeruut näitab, et tegevust saab uuesti proovida, kui eelmine katse ei õnnestunud. |
-| Korduskatse tegevus | Uuesti proovimise korral see tegevus, millest alates uuesti proovitakse. Korduskatse lõpeb praeguse tegevuse juures (kaasav korduskatse). Tegevuste puhul, millel on parameetrid **Minimaalne taganemine** ja **Maksimaalne taganemine**, tähistavad need korduskatsete minimaalset ja maksimaalset arvu. |
+| Korduskatse tegevus | Uuesti proovimise korral see tegevus, millest alates uuesti proovitakse. Korduskatse lõpeb praeguse tegevuse juures (kaasav korduskatse). Tegevuste puhul, millel on parameetrid **Minimaalne taganemine** ja **Maksimaalne taganemine** , tähistavad need korduskatsete minimaalset ja maksimaalset arvu. |
 
 #### <a name="parameters-fasttab"></a>Parameetrite kiirkaart
 
@@ -194,7 +194,7 @@ Saadaolevad parameetrid erinevad sõltuvalt tegevusest, mis on valitud kiirkaard
 |-----------------------------|-------------|
 | Veebiteenuse URL             | URL, kuhu päringuid saata. |
 | Veebipäringu ajalõpp         | Maksimaalne veebiteenuse vastuse ootamise aeg (millisekundites). |
-| Päringu toimingu tüüp      | HTTP-päringu toimingu tüüp (nt **GET**, **POST** või **DELETE**). |
+| Päringu toimingu tüüp      | HTTP-päringu toimingu tüüp (nt **GET** , **POST** või **DELETE** ). |
 | Serdinimed           | Serdinimed. |
 | Vastuse keha kodeering      | HTTP-vastuse keha eeldatav kodeering, et seda saaks õigesti dekodeerida. |
 | HTTP-päringu sisu tüüp   | HTTP-päringu sisu tüübi päise sisend. |
@@ -216,7 +216,7 @@ Saadaolevad parameetrid erinevad sõltuvalt tegevusest, mis on valitud kiirkaard
 | Serdid             | Serdiahel, mida veebiteenus vajab kliendi autentimiseks. Kliendi sert peaks olema ahelas viimane sert. Juur- ja vaheserdid peaksid olema esimesed. |
 | Veebipäringu ajalõpp      | Maksimaalne veebiteenuse vastuse ootamise aeg (millisekundites). |
 | Korduskatsete intervall           | Veebiteenuse kutsumise ja sellelt vastuse saamise katsete vaheline intervall. Kui intervalli pole määratud, ei proovita pärast esimest nurjunud kutset uuesti. |
-| Korduskatsete arv              | Veebiteenuse kutsumise ja sellelt vastuse saamise korduskatsete maksimaalne arv. |
+| Uuesti proovimiste arv              | Veebiteenuse kutsumise ja sellelt vastuse saamise korduskatsete maksimaalne arv. |
 | Korduskatsete kestus               | Maksimaalne aeg (millisekundites), mille jooksul korduskutsed võivad kesta. |
 | Minimaalne taganemine         | Minimaalne taganemise määr korduskatsete intervallide eksponentsiaalseks arvutamiseks. |
 | Maksimaalne taganemine         | Maksimaalne taganemise määr korduskatsete intervallide eksponentsiaalseks arvutamiseks. |
@@ -260,7 +260,7 @@ Rakendatavuse reeglid võimaldavad teil luua loogilisi reegleid, mis määravad 
 
 #### <a name="set-up-applicability-rules"></a>Rakendatavuse reeglite seadistamine
 
-1. Valige lehel **Funktsiooni versiooni seadistus** vahekaardil **Rakendatavuse reeglid** suvand **Uus**, et lisada rakendatavuse reegel.
+1. Valige lehel **Funktsiooni versiooni seadistus** vahekaardil **Rakendatavuse reeglid** suvand **Uus** , et lisada rakendatavuse reegel.
 
     ![Rakendatavuse reeglite haldamine](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
@@ -295,7 +295,7 @@ Saate luua muutujaid ja seejärel kasutada neid konkreetse tegevuse parameetri s
 
 #### <a name="set-up-variables"></a>Muutujate seadistamine
 
-- Valige lehe **Funktsiooni versiooni seadistus** vahekaardil **Muutujad** suvand **Uus** või **Kustuta**, et muutujaid hallata.
+- Valige lehe **Funktsiooni versiooni seadistus** vahekaardil **Muutujad** suvand **Uus** või **Kustuta** , et muutujaid hallata.
 
     ![Muutujate haldamine](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
@@ -311,7 +311,7 @@ Järgmises tabelis kirjeldatakse vahekaardil **Muutujad** olevaid välju.
 
 ### <a name="validate-the-feature-setup"></a>Funktsiooniseadistuse kontrollimine
 
-- Valige lehe **Funktsiooni versiooni seadistus** toimingupaanilt suvand **Kontrolli**, et kontrollida funktsiooni versiooni seadistust.
+- Valige lehe **Funktsiooni versiooni seadistus** toimingupaanilt suvand **Kontrolli** , et kontrollida funktsiooni versiooni seadistust.
 
    ![Nupu „Kontrolli” valimine](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
@@ -323,7 +323,7 @@ Elektroonilise arvelduse lisandmooduli keskkond tuleb seostada elektroonilise ar
 
 Elektroonilise arvelduse lisandmooduli keskkonna lubamiseks elektroonilise arvelduse lisandmooduli funktsiooni jaoks toimige järgmiselt.
 
-1. Valige lehe **Elektroonilise arvelduse lisandmooduli funktsioonid** vahekaardil **Keskkonnad** suvand **Luba**, et lisada elektroonilise arvelduse lisandmooduli keskkond.
+1. Valige lehe **Elektroonilise arvelduse lisandmooduli funktsioonid** vahekaardil **Keskkonnad** suvand **Luba** , et lisada elektroonilise arvelduse lisandmooduli keskkond.
 2. Sisestage väljale **Kehtiv alates** kuupäev, mil uus keskkond kehtima hakkab.
 
 ![Elektroonilise arvelduse lisandmooduli keskkonna lubamine](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
@@ -332,18 +332,18 @@ Elektroonilise arvelduse lisandmooduli keskkonna lubamiseks elektroonilise arvel
 
 Elektroonilise arvelduse lisandmooduli funktsiooni saab jagada mitme organisatsiooniga.
 
-- Valige lehe **Elektroonilise arvelduse lisandmooduli funktsioonid** vahekaardil **Organisatsioonid** suvand **Jaga**, et lisada organisatsioon, millega soovite jagada elektroonilise arvelduse lisandmooduli funktsiooni.
+- Valige lehe **Elektroonilise arvelduse lisandmooduli funktsioonid** vahekaardil **Organisatsioonid** suvand **Jaga** , et lisada organisatsioon, millega soovite jagada elektroonilise arvelduse lisandmooduli funktsiooni.
 
 Kui soovite lõpetada elektroonilise arvelduse lisandmooduli funktsiooni jagamise organisatsiooniga, valige **Tühista jagamine**.
 
 ## <a name="versions"></a>Versioonid
 
-Versioonid aitavad kontrollida elektroonilise arvelduse lisandmooduli funktsiooni töötsüklit, hallates selle olekut. Saate luua olemasoleva elektroonilise arvelduse lisandmooduli funktsiooni uue versiooni või seada funktsiooni oleku väärtuseks **Lõpetatud** ja seejärel **Avalda**, kui elektroonilise arvelduse lisandmooduli funktsiooni konfigureerimine on täielikult lõpetatud.
+Versioonid aitavad kontrollida elektroonilise arvelduse lisandmooduli funktsiooni töötsüklit, hallates selle olekut. Saate luua olemasoleva elektroonilise arvelduse lisandmooduli funktsiooni uue versiooni või seada funktsiooni oleku väärtuseks **Lõpetatud** ja seejärel **Avalda** , kui elektroonilise arvelduse lisandmooduli funktsiooni konfigureerimine on täielikult lõpetatud.
 
 ### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>Olemasoleva elektroonilise arvelduse lisandmooduli funktsiooni uue versiooni loomine
 
 1. Valige lehel **Elektroonilise arvelduse lisandmooduli funktsioonid** vasakpoolsest ruudustikust elektroonilise arvelduse lisandmooduli funktsioon.
-2. Valige vahekaardil **Versioonid** suvand **Uus**, et lisada elektroonilise arvelduse lisandmooduli funktsiooni uus versioon.
+2. Valige vahekaardil **Versioonid** suvand **Uus** , et lisada elektroonilise arvelduse lisandmooduli funktsiooni uus versioon.
 
 ### <a name="change-the-status-of-the-electronic-invoicing-add-on-feature"></a>Elektroonilise arvelduse lisandmooduli funktsiooni oleku muutmine
 
@@ -354,10 +354,10 @@ Järgige neid samme, et hallata elektroonilise arvelduse lisandmooduli funktsioo
 3. Teil palutakse kinnitada, et soovite lõpetada elektroonilise arvelduse lisandmooduli funktsiooni ja kõik selle komponendid. Tegevuse kinnitamiseks valige **Jah** või selle tühistamiseks **Ei**.
 
     > [!NOTE]
-    > Kui valite valiku **Jah**, muudetakse konfiguratsiooni versioonide (mis on elektroonilise arvelduse lisamooduli funktsiooni komponendid) olek automaatselt väärtuselt **Mustand** väärtuseks **Lõpetatud**.
+    > Kui valite valiku **Jah** , muudetakse konfiguratsiooni versioonide (mis on elektroonilise arvelduse lisamooduli funktsiooni komponendid) olek automaatselt väärtuselt **Mustand** väärtuseks **Lõpetatud**.
 
 4. Valige suvand **Muuda olekut** ja seejärel muutke olek väärtuselt **Lõpetatud** väärtuseks **Avalda**.
 5. Teil palutakse kinnitada, et soovite avaldada elektroonilise arvelduse lisandmooduli funktsiooni ja kõik selle komponendid globaalses hoidlas. Tegevuse kinnitamiseks valige **Jah** või selle tühistamiseks **Ei**.
 
     > [!NOTE]
-    > Kui valite **Jah**, muudetakse konfiguratsiooni versioonide olek automaatselt olekust **Lõpetatud** olekuks **Jagatud**.
+    > Kui valite **Jah** , muudetakse konfiguratsiooni versioonide olek automaatselt olekust **Lõpetatud** olekuks **Jagatud**.

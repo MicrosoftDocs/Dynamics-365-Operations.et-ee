@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 56a3a838374bb1cd0f4b839124ada7114205c1e7
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597284"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017132"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Asukohakorralduse varude komplekteerimise ajaline jaotus
 
@@ -75,14 +76,14 @@ Need demoandmed nõuavad varude kohandamist nende stsenaariumide toetamiseks. J�
     - Kui seadistate LIFO-stsenaariumit, muutke välja **Strateegia** väärtuseks *Asukoha kehtivusaja LIFO*.
 
 1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Päringu redigeerimine**.
-1. Valige päringu dialoogiboksis vahekaardil **Vahemik** suvand **Lisa**, et lisada rida ja määrake siis järgmised väärtused.
+1. Valige päringu dialoogiboksis vahekaardil **Vahemik** suvand **Lisa** , et lisada rida ja määrake siis järgmised väärtused.
 
     - **Tabel:** *Asukohad*
     - **Tuletatud tabel:** *Asukohad*
     - **Väli:** *Tsooni ID*
     - **Kriteerium:** *Korrus*
 
-1. Valige **OK**, et rakendada oma sätted ja sulgeda päringu dialoogiboks.
+1. Valige **OK** , et rakendada oma sätted ja sulgeda päringu dialoogiboks.
 1. Oma asukohakorralduse muudatuste salvestamiseks valige **Salvesta**.
 1. Järgige mobiilsel seadmel või rakenduses *Dynamics 365 for Finance and Operations – ladustamine* neid etappe olemasolevate varude eemaldamiseks lao asukohast, et toetada stsenaariume.
 
@@ -97,7 +98,7 @@ Need demoandmed nõuavad varude kohandamist nende stsenaariumide toetamiseks. J�
 
     Need etapid jätavad varud kahte asukohta demoandmetes. Igal asukohal on erinev aegumiskuupäev. Asukoha *FL-001* aegumiskuupäev on 15. aprill 2017 ja asukoha *FL-002* aegumiskuupäev on 29. jaanuar 2017. Mõlemad asukohad sisaldavad kaupa *A0001*.
 
-    Nende andmete kuvamiseks avage jaotis **Laohaldus \> Päringud ja aruanded \> Vaba kaubavaru loend** ning seejärel filtreerige ladu *63* ja kaupa *A0001*. Ridadel, kus välja **Asukoht** väärtuseks on seatud *FL-001* või *FL-002*, valige rida, mille väärtus **Füüsilised varud** on positiivne ja seejärel valige toimingupaanil **Kanded**. Väljal **Füüsiline kuupäev** kuvatakse kuupäev, mis vastab ühele eelnevalt mainitud aegumiskuupäevale.
+    Nende andmete kuvamiseks avage jaotis **Laohaldus \> Päringud ja aruanded \> Vaba kaubavaru loend** ning seejärel filtreerige ladu *63* ja kaupa *A0001*. Ridadel, kus välja **Asukoht** väärtuseks on seatud *FL-001* või *FL-002* , valige rida, mille väärtus **Füüsilised varud** on positiivne ja seejärel valige toimingupaanil **Kanded**. Väljal **Füüsiline kuupäev** kuvatakse kuupäev, mis vastab ühele eelnevalt mainitud aegumiskuupäevale.
 
 ### <a name="scenario-1-set-up-and-use-fifo-location-aging"></a><a name="fifo-demo"></a>1. stsenaarium: FIFO asukoha aegumise seadistamine ja kasutamine
 
@@ -112,12 +113,12 @@ FIFO-strateegia leiab üles asukoha, mis sisaldab vanimat aegumiskuupäeva ja pl
     - Määrake kiirkaardi **Üldine** välja **Ladu** väärtuseks *63*.
 
 1. Valige müügitellimuse loomiseks ja dialoogiboksi sulgemiseks **OK**.
-1. Avatakse uus müügitellimus. See sisaldab uut tühja rida kiirkaardi **Müügitellimuse read** ruudustikus. Määrake selle tellimusrea jaoks välja **Kaubakood** väärtuseks *A0001*, välja **Kogus** väärtuseks *1*.
+1. Avatakse uus müügitellimus. See sisaldab uut tühja rida kiirkaardi **Müügitellimuse read** ruudustikus. Määrake selle tellimusrea jaoks välja **Kaubakood** väärtuseks *A0001* , välja **Kogus** väärtuseks *1*.
 1. Valige ruudustiku kohal olevast menüüst **Varud** suvand **Reserveerimine**.
-1. Valige lehel **Reserveerimine** suvand **Reserveeri saatepartii**, et reserveerida valitud laos varudest selle kauba tellitud kogus.
+1. Valige lehel **Reserveerimine** suvand **Reserveeri saatepartii** , et reserveerida valitud laos varudest selle kauba tellitud kogus.
 1. Sulgege leht **Reserveerimine**.
 1. Valige toimingupaani lehe **Müügitellimus** vahekaardi **Ladu** grupist **Tegevused** suvand **Vabasta lattu**. Teile kuvatakse teated. Süsteem loob saadetise, lisab selle uuele koormusele ja loob vajaliku töö.
-1. Valige kiirkaardi **Müügitellimuse read** menüüst **Ladu** suvand **Töö üksikasjad**, et avada selle müügitellimuse jaoks loodud töö. Pange tähele, et real, kus suvandi **Töö tüüp** väärtus on *Komplekteerimine*, kuvatakse suvandi **Asukoht** väärtuseks *FL-002*. See asukoht sisaldab identifitseerimisnumbrit, millel on vanim aegumiskuupäev (FIFO).
+1. Valige kiirkaardi **Müügitellimuse read** menüüst **Ladu** suvand **Töö üksikasjad** , et avada selle müügitellimuse jaoks loodud töö. Pange tähele, et real, kus suvandi **Töö tüüp** väärtus on *Komplekteerimine* , kuvatakse suvandi **Asukoht** väärtuseks *FL-002*. See asukoht sisaldab identifitseerimisnumbrit, millel on vanim aegumiskuupäev (FIFO).
 1. Valige **Ladu \> Saadetise üksikasjad**.
 1. Märkige kiirkaardil **Üldine** üles voo ID, et saaksite seda kasutada 2. stsenaariumis.
 
@@ -126,16 +127,16 @@ FIFO-strateegia leiab üles asukoha, mis sisaldab vanimat aegumiskuupäeva ja pl
 LIFO-strateegia leiab üles asukoha, mis sisaldab uusimat aegumiskuupäeva ja planeerib komplekteerimise sellele aegumiskuupäevale. 2. stsenaariumis saate redigeerida 1. stsenaariumi (FIFO) seadistust ja kasutada selle stsenaariumi käigus loodud müügitellimust ja voogu uuesti.
 
 1. Enne selle stsenaariumi käivitamist seadistage ja viige lõpule täielik FIFO-stsenaarium, nagu kirjeldati [eelmises jaotises](#fifo-demo). Selles stsenaariumis saate kasutada selle stsenaariumi jaoks loodud voogu ja suuremat osa seadistusest uuesti.
-1. Redigeerige asukohakorraldust **63 tellimuse konteinerisse määramine**, et see kasutaks strateegiat *Asukoha aegumise LIFO*, mida kirjeldati protseduuri [Stsenaariumide seadistamine](#demo-set-up) esimeses osas.
+1. Redigeerige asukohakorraldust **63 tellimuse konteinerisse määramine** , et see kasutaks strateegiat *Asukoha aegumise LIFO* , mida kirjeldati protseduuri [Stsenaariumide seadistamine](#demo-set-up) esimeses osas.
 
     Järgmisena saate muuta 1. stsenaariumis müügitellimuse jaoks loodud voogu, et see kasutaks strateegiat *Asukoha aegumise LIFO*.
 
 1. Avage **Laohaldus \> Väljaminevad vood \> Saadetise vood \> Kõik vood**.
 1. Valige ja avage voog, mis sisaldab FIFO-stsenaariumi jaoks loodud tellimust.
-1. Valige toimingupaani vahekaardil **Töö** suvand **Tühista**, et tühistada FIFO-stsenaariumi jaoks loodud töö.
+1. Valige toimingupaani vahekaardil **Töö** suvand **Tühista** , et tühistada FIFO-stsenaariumi jaoks loodud töö.
 1. Tehke tegumiriba vahekaardil **Voog** grupis **Voog** valik **Töötlus**.
-1. Kui töötlemine on lõpule viidud, valige toimingupaani vahekaardi **Voog** grupis **Seotud teave** suvand **Töö**, et avada selle voo jaoks loodud töö.
+1. Kui töötlemine on lõpule viidud, valige toimingupaani vahekaardi **Voog** grupis **Seotud teave** suvand **Töö** , et avada selle voo jaoks loodud töö.
 1. Lehe **Töö** vahekaardil **Ülevaade** peaks olema kaks rida. Otsige üles rida, kus välja **Töö olek** väärtuseks on seatud *Avatud*.
-1. Pange tähele, et real, kus suvandi **Töö tüüp** väärtus on *Komplekteerimine*, kuvatakse suvandi **Asukoht** väärtuseks *FL-001*. See asukoht sisaldab identifitseerimisnumbrit, millel on uusim aegumiskuupäev (LIFO).
+1. Pange tähele, et real, kus suvandi **Töö tüüp** väärtus on *Komplekteerimine* , kuvatakse suvandi **Asukoht** väärtuseks *FL-001*. See asukoht sisaldab identifitseerimisnumbrit, millel on uusim aegumiskuupäev (LIFO).
 
 Nendes stesaariumides näidati teile, kuidas asukoha aegumise strateegia suunab töö lao asukohta, millel on kas vanimad või uusimad varud, sõltuvalt valitud strateegiast.

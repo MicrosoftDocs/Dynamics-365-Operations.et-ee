@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f4d095456435a3401daa173d79b80b81176a3c17
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ac3ab25dc1355ee15e1209950ff0f3b3933b7095
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987114"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016858"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Saadetiste konsolideerimine, kui need väljastatakse lattu müügitellimuste automaatse väljastamise abil
 
@@ -56,7 +56,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
     - **Kogus:** *1.00*
 
 #### <a name="sales-order-1-2"></a>Müügitellimus 1-2
@@ -68,7 +68,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
     - **Kogus:** *1.00*
 
 #### <a name="sales-order-1-3"></a>Müügitellimus 1-3
@@ -80,12 +80,12 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
     - **Kogus:** *1.00*
 
 1. Lisage teine järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0002* (kaup, millele pole määratud filtrit **Kood 4**)
+    - **Kaubakood:** *A0002* (kaup, millele pole määratud filtrit **Kood 4** )
     - **Kogus:** *1.00*
     - **Tarneviis:** *Airwa-Air*
 
@@ -99,12 +99,12 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *M9200* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Kergsüttiv*)
+    - **Kaubakood:** *M9200* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Kergsüttiv* )
     - **Kogus:** *1.00*
 
 1. Lisage teine järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *M9201* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Lõhkeaine*)
+    - **Kaubakood:** *M9201* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Lõhkeaine* )
     - **Kogus:** *1.00*
     - **Tarneviis:** *Airwa-Air*
 
@@ -118,12 +118,12 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *M9200* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Kergsüttiv*)
+    - **Kaubakood:** *M9200* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Kergsüttiv* )
     - **Kogus:** *1.00*
 
 1. Lisage teine järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *M9201* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Lõhkeaine*)
+    - **Kaubakood:** *M9201* (kaup, kus filtri **Kood 4** väärtuseks on seatud *Lõhkeaine* )
     - **Kogus:** *1.00*
     - **Tarneviis:** *Airwa-Air*
 
@@ -141,7 +141,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
     - **Kogus:** *1.00*
 
 ### <a name="create-order-set-5"></a>Tellimuse komplekti 5 loomine
@@ -155,7 +155,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
     - **Kogus:** *1.00*
 
 #### <a name="sales-order-5-3"></a>Müügitellimus 5-3
@@ -167,7 +167,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
     - **Kogus:** *1.00*
 
 ### <a name="create-order-set-6"></a>Tellimuse komplekti 6 loomine
@@ -181,7 +181,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
     - **Kogus:** *1.00*
 
 #### <a name="sales-orders-6-3-and-6-4"></a>Müügitellimused 6-3 ja 6-4
@@ -193,7 +193,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
     - **Kogus:** *1.00*
 
 #### <a name="sales-orders-6-5-and-6-6"></a>Müügitellimused 6-5 ja 6-6
@@ -207,7 +207,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
     - **Kogus:** *1.00*
 
 #### <a name="sales-orders-6-7-and-6-8"></a>Müügitellimused 6-7 ja 6-8
@@ -221,7 +221,7 @@ Avage jaotis **Müügireskontro \> Tellimused \> Kõik müügitellimused** ja lo
 
 1. Lisage järgmiste sätetega tellimuserida.
 
-    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4**)
+    - **Kaubakood:** *A0001* (kaup, millele pole määratud filtrit **Kood 4** )
     - **Kogus:** *1.00*
 
 ## <a name="automatic-release-of-sales-orders-to-the-warehouse"></a>Müügitellimuste automaatne lattu väljastamine
@@ -236,7 +236,7 @@ Te viite lõpule kolm järgmistes alamjaotistes kirjeldatud protseduuri iga eeln
 
 1. Avage **Laohaldus \> Seadistus \> Vood \> Voomallid**.
 1. Määrake välja **Voo malli tüüp** väärtuseks *Lähetamine*.
-1. Otsige üles ja valige voo mall, mis on seostatud laoga, mida kasutasite selle stsenaariumi jaoks loodud tellimuse komplektides. Kui kasutasite näiteks ladu *24*, valige voo mall **24 saadetise vaikemall**. Kui kasutasite ladu *61*, valige voo mall **61 saatmine**.
+1. Otsige üles ja valige voo mall, mis on seostatud laoga, mida kasutasite selle stsenaariumi jaoks loodud tellimuse komplektides. Kui kasutasite näiteks ladu *24* , valige voo mall **24 saadetise vaikemall**. Kui kasutasite ladu *61* , valige voo mall **61 saatmine**.
 1. Valige Toimingupaanil nupp **Redigeeri**.
 1. Määrake suvandi **Töötle voogu lattu vabastamisel** väärtuseks *Ei*.
 
@@ -245,7 +245,7 @@ Te viite lõpule kolm järgmistes alamjaotistes kirjeldatud protseduuri iga eeln
 1. Avage jaotis **Laohaldus \> Lattu väljastamine \> Müügitellimuste automaatne väljastamine**.
 1. Määrake välja **Väljastatav kogus** väärtuseks *Kõik*.
 1. Päringu dialoogiboksi avamiseks valige kiirkaardil **Kaasatavad kirjed** suvand **Filter**.
-1. Valige vahekaardil **Vahemik** suvand **Lisa**, et lisada ruudustikule järgmiste sätetega rida.
+1. Valige vahekaardil **Vahemik** suvand **Lisa** , et lisada ruudustikule järgmiste sätetega rida.
 
     - **Tabel:** *Müügitellimus*
     - **Tuletatud tabel:** *Müügitellimus*
@@ -268,7 +268,7 @@ Müügitellimuste väljastamiseks tellimuse komplektist 1, järgige [üldist lat
 Kui olete lõpetanud, peaksite nägema, et loodi kaks saadetist.
 
 - Esimene saadetis sisaldab kolme rida ja loodi saadetise konsolideerimispoliitika *CustomerMode* abil.
-- Teine saadetis, mis ei kasuta transportimisel tarneviisi *Lennutransport*, loodi saadetise konsolideerimispoliitika *CustomerOrderNo* abil.
+- Teine saadetis, mis ei kasuta transportimisel tarneviisi *Lennutransport* , loodi saadetise konsolideerimispoliitika *CustomerOrderNo* abil.
 
 ### <a name="release-sales-orders-from-order-set-2"></a>Müügitellimuste väljastamine tellimuse komplektist 2
 
@@ -292,7 +292,7 @@ Kui olete lõpetanud, peaksite nägema, et ilmnesid järgmised tegevused.
 
 Müügitellimuste väljastamiseks tellimuse komplektist 4, järgige [üldist lattu väljastamise protseduuri](#release-procedure).
 
-Kui olete lõpetanud, peaksite nägema, et värskendati üks olemasolev saadetis (kus välja **Kliendi ostutellimus** väärtuseks on seatud *1*). Sellele lisati üks uus rida.
+Kui olete lõpetanud, peaksite nägema, et värskendati üks olemasolev saadetis (kus välja **Kliendi ostutellimus** väärtuseks on seatud *1* ). Sellele lisati üks uus rida.
 
 ### <a name="release-sales-orders-from-order-set-5"></a>Müügitellimuste väljastamine tellimuse komplektist 5
 
@@ -300,7 +300,7 @@ Müügitellimuste väljastamiseks tellimuse komplektist 5, järgige [üldist lat
 
 Kui olete lõpetanud, peaksite nägema, et ilmnesid järgmised tegevused.
 
-- Värskendati üks olemasolev saadetis (kus välja **Kliendi ostutellimus** väärtuseks on seatud *1*). Sellele lisati rida müügitellimusest 5-3 (kus välja **Kliendi ostutellimus** väärtuseks on seatud *1*).
+- Värskendati üks olemasolev saadetis (kus välja **Kliendi ostutellimus** väärtuseks on seatud *1* ). Sellele lisati rida müügitellimusest 5-3 (kus välja **Kliendi ostutellimus** väärtuseks on seatud *1* ).
 - Loodi üks uus saadetis, kus müügitellimuste 5-1 ja 5-2 read grupeeritakse ühte saadetisse.
 
 ### <a name="release-sales-orders-from-order-set-6"></a>Müügitellimuste väljastamine tellimuse komplektist 6

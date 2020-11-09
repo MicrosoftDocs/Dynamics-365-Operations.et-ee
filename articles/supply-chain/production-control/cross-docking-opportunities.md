@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCrossDockOpportunityPolicy
+ms.search.form: WHSCrossDockOpportunityPolicy, WHSReservationHierarchy, WHSInventTableReservationHierarchy, WHSItemGroupLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c47cb24e8fb14a46ee663ab9cf75679acdb6384
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 948db1f7308896209e195613d50b1d66b807b1bf
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211558"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016835"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Ristlaadimine tootmistellimustest lähetusaladesse
 
@@ -36,7 +36,7 @@ Selles teemas kirjeldatakse, kuidas hallata lõpetatuks registreeritava materjal
 
 Ristlaadimine tootmisest väljaminevasse asukohta on vajalik tootjatele, kes valmistavad suuri koguseid ja soovivad ideaaljuhul saata valmis tooted välja kohe, kui need on tootmisliinidel lõpetatuks registreeritud. Eesmärk on saata tooted jaotuskeskustesse, mis asuvad füüsiliselt kliendi nõudlusele lähedal, mitte koguda varusid tootmiskohta.
 
-Kui toote järele pole kohe nõudlust, tuleb see paigutada tootmiskoha laoasukohtadesse. Seda protsessi nimetatakse ka *ristlaadimiseks võimaluse korral*, mis näitab, et kui on olemas nõudlus toote lähetamise järele, tuleb kasutada seda võimalust, mitte paigutada toodet siselattu.
+Kui toote järele pole kohe nõudlust, tuleb see paigutada tootmiskoha laoasukohtadesse. Seda protsessi nimetatakse ka *ristlaadimiseks võimaluse korral* , mis näitab, et kui on olemas nõudlus toote lähetamise järele, tuleb kasutada seda võimalust, mitte paigutada toodet siselattu.
 
 Järgmises näites on kolm variatsiooni voost, mis algab tootmisliini (2) lõpust.
 

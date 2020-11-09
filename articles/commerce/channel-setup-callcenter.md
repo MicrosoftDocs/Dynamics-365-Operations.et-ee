@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
-ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
+ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410409"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107180"
 ---
 # <a name="set-up-a-call-center-channel"></a>Kõnekeskuse kanali seadistamine
 
@@ -93,7 +93,7 @@ Konfigureeritud tarneviise saate näha valides **Tarneviisid** vahekaardilt **Se
 Selleks, et muuta või lisada tarneviis, mis on seotud kõnekeskuse kanaliga, toimige järgmiselt.
 
 1. Valige tarnevormi kõnekeskuserežiimidest **Tarneviiside haldamine**
-1. Valige tegevuspaanilt **Uus**, et luua uus tarneviis, või valige olemasolev režiim.
+1. Valige tegevuspaanilt **Uus** , et luua uus tarneviis, või valige olemasolev režiim.
 1. Kõnekeskuse kanali lisamiseks valige jaotisest **Jaemüügikanalid** käsk **Lisa rida**. Kanalite lisamine kasutades organisatsiooni sõlmpunkte, mitte iga kanalit ükshaaval lisades, täiustab kanalite lisamist veelgi.
 1. Veenduge, et tarneviis on konfigureeritud andmetega kiirvahekaardil **Tooted** ja kiirvahekaardil **Aadressid**. Kui tarneviisi puhul ei kehti ükski toode või tarneaadress, siis selle valimine tellimuse sisestamise ajal põhjustab tõrkeid.
 1. Pärast seda, kui on tehtud muudatused kõnekeskuse tarneviisi konfiguratsioonides, tuleb käivitada ülesanne **Protsessi tarneviisid** , et aktiveerida muutuste maatriks. Selle ülesande leiate, kui navigeerite **Jaemüük ja kaubandus \> Jaemüügi ja kaubanduse IT \> Protsessi tarneviisid**.
@@ -108,7 +108,7 @@ Kui soovite luua müügitellimuse, mis on lingitud kõnekeskuse kanaliga Kauband
 
 1. Valige toimingupaanil vahekaart **Kanal** ja seejärel **Kanalikasutajad**.
 1. Valige toimingupaanil nupp **Uus**.
-1. Valige ripploendi valikuloendist olemasolev **Kasutaja ID**, et linkida see kasutaja kõnekeskuse kanaliga
+1. Valige ripploendi valikuloendist olemasolev **Kasutaja ID** , et linkida see kasutaja kõnekeskuse kanaliga
 
 Pärast kanali kasutaja seadistust ja pärast kasutaja poolt uue müügitellimuse loomist kaubanduse peakorteris, lingitakse müügitellimus nendega seostatud kõnekeskuse kanaliga. Selle kanali mis tahes konfiguratsioonid rakendatakse süstemaatiliselt müügitellimusele. Kasutaja saab kinnitada, millise kõnekeskuse kanaliga on müügitellimus lingitud, vaadates kanali nime viidet müügitellimuse päises.
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 940a6c39ac83e7388d4e1a08b656b75df81ed801
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834342"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018533"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Hangete töövoogude tõrkeotsing
 
@@ -32,7 +32,7 @@ Selles teemas kirjeldatakse, kuidas lahendada hangete töövoogudega töötamise
 
 ## <a name="error-when-re-submitting-a-purchase-order-to-the-workflow-after-a-change-changes-to-purchase-order-x-are-allowed-only-in-a-draft-state-when-change-management-is-activated"></a>Pärast ostutellimuse taasedastamist töövoosse pärast muudatust ilmneb tõrge: „Ostutellimust X saab muuta ainult olekus „Mustand”, kui muudatuste haldus on aktiveeritud”
 
-See probleem ilmneb ainult siis, kui ostutellimuse olek oli enne muudatuste taotlemist *Kinnitatud*. Kui taotlete muudatusi, kui ostutellimuse olek on *Heaks kiidetud*, saab töövoogu edukalt töödelda.
+See probleem ilmneb ainult siis, kui ostutellimuse olek oli enne muudatuste taotlemist *Kinnitatud*. Kui taotlete muudatusi, kui ostutellimuse olek on *Heaks kiidetud* , saab töövoogu edukalt töödelda.
 
 ### <a name="error-description"></a>Tõrke kirjeldus
 

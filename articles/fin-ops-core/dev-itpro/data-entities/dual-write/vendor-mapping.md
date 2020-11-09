@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 8d531ed4e46d8ee5d2b0937b6efc480e051fe708
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173104"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997643"
 ---
 # <a name="integrated-vendor-master"></a>Integreeritud hankija koondandmed
 
@@ -38,11 +37,11 @@ Mõlemas lähenemisviisis on hankija andmed integreeritud Dynamics 365 Supply Ch
 
 ## <a name="vendor-data-flow"></a>Hankijaandmete voog
 
-Kui te ei soovi talletada hankija andmeid Common Data Service'i üksuses **Konto/kontakt**, saate kasutada uut hankija kujundust.
+Kui te ei soovi talletada hankija andmeid Common Data Service'i üksuses **Konto/kontakt** , saate kasutada uut hankija kujundust.
 
 ![Hankijaandmete voog](media/dual-write-vendor-data-flow.png)
 
-Kui soovite jätkata hankija andmete talletamist üksuses **Konto/kontakt**, saate kasutada laiendatud hankija kujundust. Laiendatud hankija kujunduse kasutamiseks peate konfigureerima hankija töövood topeltkirjutuse lahendusepaketis. Lisateavet vaadake teemast [Hankija kujunduste vahel vahetamine](vendor-switch.md).
+Kui soovite jätkata hankija andmete talletamist üksuses **Konto/kontakt** , saate kasutada laiendatud hankija kujundust. Laiendatud hankija kujunduse kasutamiseks peate konfigureerima hankija töövood topeltkirjutuse lahendusepaketis. Lisateavet vaadake teemast [Hankija kujunduste vahel vahetamine](vendor-switch.md).
 
 ![Hankijaandmete laiendatud voog](media/dual-write-vendor-detail.jpg)
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b263b7c4f44871f81e8dd753f702327893f00d86
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e451b419da59817ccf397fbb231a1cd112fd45ca
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207134"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018441"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Hankijatega koostöö tegemine Hankija portaali kasutades
 
@@ -38,7 +38,7 @@ Hankija portaal on mõeldud hankijatele, kellel puudub ostutellimuse (PO) teabe 
 Protsessi on võimalik konfigureerida nii, et hankija kinnitus kinnitab tellimuse automaatselt. Sellisel juhul on järeltegevust vaja ainult aeg-ajalt, kui tellimus lükatakse tagasi või kui hankija kinnitus on registreeritud vastusena, kuid ostutellimuse olekut ei ole värskendatud väärtusele **Kinnitatud** kinnitusprotsessi probleemi tõttu.
 
 ## <a name="po-confirmation-and-rejection"></a>Ostutellimuse kinnitamine ja tagasilükkamine
-Ostutellimused koostatakse Dynamics AX-is. Kui teil on ostutellimus olekuga **kinnitatud**, saab saata selle hankijale, luues kinnitustaotluse. Kui soovite juhtida hankija tähelepanu uuele ostutellimusele, võite ostutellimuse saatmiseks meiliga kasutada prindihalduse süsteemi. Ostutellimus ilmub hankija portaali ning sisaldab valikut, mille kaudu hankija saab tellimuse kinnitada või selle tagasi lükata. Hankija saab lisada ka kommentaare teabe (nt ostutellimuse muudatuste) edastamiseks.  
+Ostutellimused koostatakse Dynamics AX-is. Kui teil on ostutellimus olekuga **kinnitatud** , saab saata selle hankijale, luues kinnitustaotluse. Kui soovite juhtida hankija tähelepanu uuele ostutellimusele, võite ostutellimuse saatmiseks meiliga kasutada prindihalduse süsteemi. Ostutellimus ilmub hankija portaali ning sisaldab valikut, mille kaudu hankija saab tellimuse kinnitada või selle tagasi lükata. Hankija saab lisada ka kommentaare teabe (nt ostutellimuse muudatuste) edastamiseks.  
 
 Hankija portaalis saab hankija vaadata tellimuse ridu. Nendel ridadel on teave nagu väline tootekood, dimensioonid, hinnateave, kogus, tarnekuupäev ning tarneaadress. Hankija saab luua aruande, millel on näha ostutellimuse teave ja hind kokku. Hankijat puudutavad tasud kuvatakse, kui hankija klõpsab päises või ridadel nuppu **Tasud**. Hankijad saavad ostutellimuse teabe oma süsteemi importida, kasutades funktsiooni **Excelisse eksportimine**.  
 
@@ -46,8 +46,8 @@ Järgmises tabelis näidatakse tavapärast teabevahetust, mis oleneb sellest, ku
 
 | Vastuse tüüp                                                                                                  | Tulemus                                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Hankija kinnitab tellimuse. Süsteem on konfigureeritud hankija kinnituse korral automaatselt ostutellimusi kinnitama.    | Tellimuse olekuks määratakse **Kinnitatud**. Kui miski takistab tellimuse värskendamist, salvestatakse hankija vastuseks ikkagi **Kinnitatud**, kuid ostutellimuse olekuks jääb **Välisel ülevaatamisel**.                                                                       |
-| Hankija kinnitab tellimuse. Süsteem ei ole konfigureeritud hankija kinnituse korral automaatselt ostutellimusi kinnitama. | Hankija vastus salvestatakse kui **Kinnitatud**, kuid ostutellimus jääb olekusse **Välisel ülevaatamisel**.                                                                                                                                                                                      |
+| Hankija kinnitab tellimuse. Süsteem on konfigureeritud hankija kinnituse korral automaatselt ostutellimusi kinnitama.    | Tellimuse olekuks määratakse **Kinnitatud**. Kui miski takistab tellimuse värskendamist, salvestatakse hankija vastuseks ikkagi **Kinnitatud** , kuid ostutellimuse olekuks jääb **Välisel ülevaatamisel**.                                                                       |
+| Hankija kinnitab tellimuse. Süsteem ei ole konfigureeritud hankija kinnituse korral automaatselt ostutellimusi kinnitama. | Hankija vastus salvestatakse kui **Kinnitatud** , kuid ostutellimus jääb olekusse **Välisel ülevaatamisel**.                                                                                                                                                                                      |
 | Hankija lükkab tellimuse tagasi.                                                                                     | Hankija vastus salvestatakse kui **Tagasi lükatud** ja ostutellimus jääb olekusse **Välisel ülevaatamisel**. Tagasilükkamine saadakse koos põhjusega ja muutmise ettepanekuga (nt teine tarnekuupäev). Värskendate ostutellimuse ja saadate siis uue versiooni kinnitamiseks. |
 
 ## <a name="changes-to-a-po"></a>Muudatused ostutellimuses
@@ -56,7 +56,7 @@ Kui peate muutma juba kinnitatud ostutellimust, saate uue ostutellimuse hankijal
 Ostutellimuse tühistamisel muudetakse olekuks uuesti **Kinnitatud**. Peate ostutellimuse hankija portaali kaudu hankijale tagasi saatma, et hankija saaks tühistamise kinnitada või tagasi lükata. Pärast tühistamise kinnitamist kuvatakse ostutellimus hankija kinnitatud ostutellimuste loendis olekuga **Tühistatud**.
 
 ## <a name="versions-status-transitions-and-change-management"></a>Versioonide, oleku üleminekute ja muudatuste haldamine
-Kui ostutellimus hankijale saadetakse, registreeritakse see süsteemis ostutellimuse kindla versioonina ja oleku **Kinnitatud** asemel määratakse olekuks **Välisel ülevaatamisel**. Kui ostutellimust hiljem muudetakse, luuakse ostutellimusest uus versioon ja olekuks määratakse uuesti **Kinnitatud** (või **Mustand**, kui muudatuste haldamine on sisse lülitatud).  
+Kui ostutellimus hankijale saadetakse, registreeritakse see süsteemis ostutellimuse kindla versioonina ja oleku **Kinnitatud** asemel määratakse olekuks **Välisel ülevaatamisel**. Kui ostutellimust hiljem muudetakse, luuakse ostutellimusest uus versioon ja olekuks määratakse uuesti **Kinnitatud** (või **Mustand** , kui muudatuste haldamine on sisse lülitatud).  
 
 Järgmises tabelis on näide oleku ja versiooni muudatuste kohta, mida ostutellimuses teha saab.
 
@@ -70,7 +70,7 @@ Järgmises tabelis on näide oleku ja versiooni muudatuste kohta, mida ostutelli
 
 Hankijale saadetud ostutellimuse versioonide ja hankija vastuste nägemiseks klõpsake ostutellimuses valikuid **Töölehed** &gt; **Kinnituse taotlused**.  
 
-Hankijale vastuse saamiseks saadetud tellimused, mille olek on **Välisel ülevaatamisel**, ilmuvad kas loendis **Ostutellimused on saadetud hankija portaali, oodatakse vastust** või **Ostutellimused on saadetud hankija portaali, vastus nõuab tegevust**. Kui muudate hankijale saadetud tellimust, nii et olekuks määratakse uuesti **Kinnitatud**, ei kuvata tellimust enam nendes loendites. Selleks et näha, kas hankija on tellimuse kohta varem vastuse saatnud, klõpsake valikuid **Töölehed** &gt; **Kinnituse taotlused**.  
+Hankijale vastuse saamiseks saadetud tellimused, mille olek on **Välisel ülevaatamisel** , ilmuvad kas loendis **Ostutellimused on saadetud hankija portaali, oodatakse vastust** või **Ostutellimused on saadetud hankija portaali, vastus nõuab tegevust**. Kui muudate hankijale saadetud tellimust, nii et olekuks määratakse uuesti **Kinnitatud** , ei kuvata tellimust enam nendes loendites. Selleks et näha, kas hankija on tellimuse kohta varem vastuse saatnud, klõpsake valikuid **Töölehed** &gt; **Kinnituse taotlused**.  
 
 Hankijad ei pea ostutellimust hankija portaalis kinnitama. Nad võivad saata ka meilisõnumi või teatama ostutellimuse vastuvõtmisest muude kanalite kaudu. Seejärel saate tellimuse Dynamics AX-is käsitsi kinnitada. Sellisel juhul saate hoiatuse, et tellimus on kinnitatud, kuigi hankijalt puudub vastus. Seejärel kuvatakse ostutellimus hankija portaali kinnitusajaloos avatud kinnitatud tellimusena, millel puuduvad vastused. Lisaks pole hankijal enam võimalust ostutellimuse kinnitamiseks ega tagasilükkamiseks.  
 

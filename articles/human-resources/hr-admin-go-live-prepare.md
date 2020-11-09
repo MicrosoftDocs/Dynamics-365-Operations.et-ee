@@ -1,0 +1,93 @@
+---
+title: Ettevalmistamine Human Resourcesi kasutuselevõtmiseks
+description: Sellel lehel antakse juhiseid, kuidas valmistuda Dynamics 365 Human Resourcesi kasutuselevõtmiseks.
+author: rachel-profitt
+manager: tfehr
+ms.date: 10/13/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: 7521
+ms.assetid: ''
+ms.search.region: Global
+ms.author: raprofit
+ms.search.validFrom: 2020-10-13
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
+ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.translationtype: HT
+ms.contentlocale: et-EE
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4011411"
+---
+# <a name="prepare-for-human-resources-go-live"></a>Ettevalmistamine Human Resourcesi kasutuselevõtmiseks
+
+[!include [banner](../includes/banner.md)]
+
+Selles teemas kirjeldatakse, kuidas valmistuda Dynamics 365 Human Resourcesi projekti avaldamiseks Microsoft Dynamics Lifecycle Servicesi (LCS) abil. 
+
+Selles graafikus esitatakse kasutuselevõtmise protsessi etappe. 
+
+![Kasutuselevõtmise protsess](./media/hr-admin-go-live-prepare-process.png)
+
+Järgmises tabelis loetletakse kõik protsessi etapid, eeldatav kestus ja tegevuse eest vastutav isik.
+
+| Faas | Tegevus | Kestus/millal | Kes | Märkmed |
+| --- | --- | --- | --- |--- |
+| 1 | Kasutuselevõtmise kuupäeva värskendamine LCS-is | Hiljemalt 2–3 kuud enne | Partner/klient | Vahe-eesmärkide kuupäevi tuleks pidevalt ajakohastada. |
+| 2 | Kontroll-loendi lõpule viimine ja saatmine | Pärast kasutaja nõusoleku testimise (UAT) lõpule viimist | Partner/klient | Järgige juhiseid jaotises [FastTracki kasutuselevõtmise hindamine](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment). |
+| 3 | Projekti hindamine (FastTrack) | FastTracki arhitekt* | Arhitekt annab hinnangu pärast kontroll-loendi saamist ja jätkab läbivaatamist, kuni küsimused on selgitatud ja vajadusel lahendus on leitud. |
+| 4 | Projekti töötuba (FastTrack) | FastTracki arhitekt* | |
+| 5 | Andmepaketi importimised | Sõltub projektist | Partner/klient | Järgige juhiseid jaotises [Andmehalduse ülevaade](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).|
+| 6 | Tootmiseks valmis | Kui kõik eelmised etapid on lõpule viidud | Partner/klient | Partner/klient saab juhtida töökeskkonda.|
+| 7 | Üleminekutegevused | Sõltub projektist | Partner/klient | |
+| 8 | Kasutuselevõtt | Sõltub projektist | Klient | |
+
+> [!IMPORTANT]
+> *3. ja 4. etapp viiakse lõpule ainult klientide puhul, kes kvalifitseeruvad FastTrackile.
+
+## <a name="completing-the-lcs-methodology"></a>LCS-i metoodika lõpule viimine
+
+Iga juurutusprojekti oluline vahe-eesmärk on üleminek töökeskkonda. 
+
+Selleks, et töökeskkonda kasutataks reaalajatoiminguteks, valmistab Microsoft tootmiseksemplari ette ainult siis, kui juurutus läheneb **kasutamise** faasile, kui LCS-i metodoloogia nõutavad tegevused on lõpule viidud. Lisateavet teie kordustellimuse keskkondade kohta vt  [Dynamics 365 litsentsimisjuhendist](https://go.microsoft.com/fwlink/?LinkId=866544). 
+
+Kliendid peavad viima lõpule LCS-i metodoloogia faasid **Analüüs** , **Kujundus ja arendus** ja **Testimine** enne, kui töökeskkonna taotlemise nupp  **Konfigureeri**  saab kättesaadavaks. LCS-is etapi lõpule viimiseks peate esmalt viima lõpule kõik selles faasis nõutavad etapid. Kui faasi kõik etapid on lõpule viidud, saate kogu faasi lõpule viia. Faasi saab alati hiljem uuesti avada, kui peate muudatusi tegema. Lisateavet leiate teemast  [Lifecycle Services (LCS) for Finance and Operationsi rakenduste kliendid](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
+
+Etapi lõpule viimise protsess koosneb kahest osast. 
+
+- Tegelik töö, nt sobivuse-erinevuse analüüs või kasutaja nõusoleku testimine (UAT). 
+- Vastava etapi lõpetatuks märkimine LCS-i metoodikas. 
+
+Metodoloogia etappide lõpule viimine on hea tava, kuna edenete rakendamisel. Ärge oodake viimase minutini. Ärge klõpsake kõiki etappe niisama läbi, et saaksite töökeskkonna. Töökindla juurutuse saamine on kliendi huvides. 
+
+## <a name="uat-for-your-solution"></a>UAT teie lahenduse jaoks
+
+UAT faasis peate katsetama kõiki juurutatud äriprotsesse ja tehtud kohandusi juurutusprojekti liivakastikeskkonnas. Edukaks kasutuselevõtuks peaksite UAT faasi lõpule viimisel võtma arvesse järgmist. 
+
+- Testjuhtumid hõlmavad kogu nõuete ulatust. 
+- Testige migreeritud andmete abil. Need andmed peaksid sisaldama koondandmeid, nagu töötajad, töökohad ja ametikohad. Lisage ka algsaldo, nt puhkuste ja puudumiste viitvõlad. Viimaks lisage ka avatud kanded, nt praegused soodustuste registreerimised. Viige testimine lõpule kõigi andmetüüpidega, isegi kui andmekogum pole lõpetatud. 
+- Testige kasutades õigeid turberolle (vaikerollid ja kohandatud rollid), mis on kasutajatele määratud. 
+- Veenduge, et lahendus vastaks mis tahes ettevõtte- ja valdkonnapõhistele regulatiivsetele nõuetele. 
+- Dokumenteerige kõik funktsioonid ja hankige kliendilt kinnitus ning nõusolek. 
+
+## <a name="fasttrack-go-live-assessment"></a>FastTracki kasutuselevõtu hindamine
+
+Kliendid, kes on kvalifitseeritud FastTrackile ja on seotud FastTracki lahenduse arhitektiga, saavad viia lõpule kasutuselevõtu läbivaatuse Microsoft FastTrackiga. Lisateabe saamiseks vt  [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). 
+
+Umbes kaheksa nädalat enne kasutuselevõttu palub FastTracki meeskond teil täita [kasutuselevõtu kontroll-loendi](https://go.microsoft.com/fwlink/?linkid=2146013).
+
+Projektijuht või peamine projekti liige peab viima lõpule kasutuselevõtu kontroll-loendi projekti kasutuselevõtule eelnevas faasis. Tavaliselt viiakse kontroll-loend lõpule neli kuni kuus nädalat enne plaanitud kasutuselevõtu kuupäeva, kui UAT on lõpule viidud või peaaegu lõpule viidud. 
+
+Kui olete kasutuselevõtu kontroll-loendi lõpule viinud, saatke see meili teel FastTracki lahenduse arhitektile. Lisage meili saajate hulka alati kliendi ja juurutuse partneri peamine aktsionär. 
+
+Pärast kontroll-loendi esitamist vaatab teie FastTracki lahenduse arhitekt projekti läbi ja annab hinnangu, mis kirjeldab võimalikke riske, häid tavasid ja soovitusi projekti edukaks kasutuselevõtmiseks. Mõnel juhul võib lahenduse arhitekt tuua ohutegurid esile ja paluda riskivähendusplaani. 
+
+## <a name="see-also"></a>Vt ka
+
+[Süsteemi Go-live KKK](hr-admin-go-live-faq.md)

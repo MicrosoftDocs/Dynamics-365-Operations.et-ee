@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Managementi 10.0.14 (oktoober 2020) eelvaatefunktsioonid
+title: Mis on Dynamics 365 Supply Chain Managementi versioonis 10.0.14 uut või mida on muudetud (oktoober 2020)
 description: Selles teemas kirjeldatakse Dynamics 365 Supply Chain Management 10.0.14 uusi või muutunud funktsioone.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 22d0dfb44bb999f466eca216e7390488fef33618
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
+ms.sourcegitcommit: de159549da9ff8cbcdb69ae0e3131cd1726bc323
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763569"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4038105"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Dynamics 365 Supply Chain Managementi versiooni 10.0.14 (november 2020) eelvaatefunktsioonid
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Mis onuut või mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.14 (november 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi eelvaateversiooni 10.0.14 uusi või muutunud funktsioone. Selle versiooni number on 10.0.605 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi versiooni 10.0.14 uusi või muutunud funktsioone. Selle versiooni number on 10.0.605 ja see on saadaval järgmiselt:
 
 - **Eelvaateversiooni välja andmine:** september 2020
 - **Üldine saadavus (enesevärskendus):** oktoober 2020

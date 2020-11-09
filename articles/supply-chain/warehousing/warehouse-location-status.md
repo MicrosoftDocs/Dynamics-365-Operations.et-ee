@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
-ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
+ms.openlocfilehash: 31216c24f54f22ec928eb143d4a913aabcd50cf8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3775170"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016006"
 ---
 # <a name="warehouse-location-status"></a>Laoasukoha olek
 
@@ -78,7 +78,7 @@ See näidisstsenaarium nõuab kahe asukohaprofiili ettevalmistamist.
 1. Korrake etappe 3–4 profiili **KOMPLEKTEERIMINE-06** jaoks.
 
 > [!NOTE]
-> Kui asukohaprofiili parameetrid (**Luba kaup asukohas**, **Luba asukoha tegevus**, **Luba asukoha olek**) on seatud väärtusele *Jah*, uuendab süsteem vastavaid asukohti kohe, käivitades *lao asukoha oleku ühtsuskontrolli* töö.
+> Kui asukohaprofiili parameetrid ( **Luba kaup asukohas** , **Luba asukoha tegevus** , **Luba asukoha olek** ) on seatud väärtusele *Jah* , uuendab süsteem vastavaid asukohti kohe, käivitades *lao asukoha oleku ühtsuskontrolli* töö.
 
 ### <a name="scenario"></a>Stsenaarium
 
@@ -92,16 +92,16 @@ See näidisstsenaarium nõuab kahe asukohaprofiili ettevalmistamist.
     - **Kauba kood:** _A0002_
     - **Kogus:** _5_
 
-1. Valige toimingupaani vahekaardi **Ost** grupis **Tegevused** suvand **Kinnita**, et kinnitada ostutellimus.
+1. Valige toimingupaani vahekaardi **Ost** grupis **Tegevused** suvand **Kinnita** , et kinnitada ostutellimus.
 1. Avage mobiilsel seadmel jaotis **Sissetulev \> Vastuvõetud ost**.
-1. Valige väli **PONUM**, sisestage ostutellimuse number ja kinnitage.
-1. Valige väli **KAUP**, sisestage ostutellimuse number *A0002* ja kinnitage.
+1. Valige väli **PONUM** , sisestage ostutellimuse number ja kinnitage.
+1. Valige väli **KAUP** , sisestage ostutellimuse number *A0002* ja kinnitage.
 1. Sisestage lehel **KOGUS** kogus *5* ja kinnitage.
 
     Saate sisestada kogust mõlemal alloleval viisil.
 
-    - Arvulise väärtuse liitmiseks või lahutamiseks valige plussmärgi (**+**) või miinusmärgi (**–**) nupp.
-    - Numbriklahvistiku avamiseks valige plussmärgi (**+**) ja miinusmärgi (**–**) vaheline tühi väli.
+    - Arvulise väärtuse liitmiseks või lahutamiseks valige plussmärgi ( **+** ) või miinusmärgi ( **–** ) nupp.
+    - Numbriklahvistiku avamiseks valige plussmärgi ( **+** ) ja miinusmärgi ( **–** ) vaheline tühi väli.
 
 1. Kinnitage kaubakoodi *A0002* ja koguse *5* valik. Lehe allosas kuvatakse teade „Töö lõpule viidud”.
 1. Valige paremas ülanurgas nupp Menüü (mida nimetatakse mõnikord ka hamburgeriks või hamburgeri nupuks) ja seejärel valige **Tühista** menüüst **Vastuvõetud ost** väljumiseks ja menüüsse **Sissetulev** naasmiseks.
@@ -109,7 +109,7 @@ See näidisstsenaarium nõuab kahe asukohaprofiili ettevalmistamist.
 1. Pange tähele, et vahekaardil **Üldine** loodi väärtused **Töö ID** ja **Sihtidentifitseerimisnumbri ID**.
 1. Pange tähele jaotise **Read** väärtusi **Asukoht** töötüüpide *Komplekteerimine* ja *Ladustamine* jaoks.
 1. Avage mobiilsel seadmel jaotis **Sissetulev \> Ladustatud ost**.
-1. Valige väli **ID**, sisestage töö ID ja kinnitage.
+1. Valige väli **ID** , sisestage töö ID ja kinnitage.
 1. Kinnitage uuesti kirje *Komplekteerimine* lõpule viimiseks.
 1. Valige paremast ülanurgast nupp Menüü ja seejärel valige **Valmis** töö *Komplekteerimine* lõpule viimiseks.
 1. Märkige üles ladustamise asukoht ja kinnitage. Lehe allosas kuvatakse teade „Töö lõpule viidud”.
@@ -118,14 +118,14 @@ See näidisstsenaarium nõuab kahe asukohaprofiili ettevalmistamist.
 1. Avage Dynamics 365 Supply Chain Managementis jaotis **Laohaldus \> Seadistus \> Ladu \> Asukohad**.
 1. Filtreerige suivandit **Asukoht** ja sisestage ladustamise asukoht ostutellimuse tööst. Teile peaks olema kuvatud järgmised tulemused.
 
-    - Veerus **Asukoha olek** kuvatakse väärtus *Ladustamine*, kuna viimane kanne selles asukohas oli ladustamine.
-    - Veerus **Kaubakood** kuvatakse väärtus *A0002*, kuna see kaup võeti vastu ja ladustati sellesse asukohta.
+    - Veerus **Asukoha olek** kuvatakse väärtus *Ladustamine* , kuna viimane kanne selles asukohas oli ladustamine.
+    - Veerus **Kaubakood** kuvatakse väärtus *A0002* , kuna see kaup võeti vastu ja ladustati sellesse asukohta.
     - Veerus **Viimase tegevuse kuupäev ja kellaaeg** kuvatakse kuupäeva ja kellaaja ajatempel, mil töö viidi lõpule selles asukohas.
 
 1. Avage mobiilse seadme jaotis **Kvaliteet \> Liikumine**.
 1. Valige väli **LOC/LP** ja sisestage eelmises etapis üles märgitud asukoht.
 1. Kinnitage kuvatav teave. Märkige üles loodud identifitseerimisnumbri number.
-1. Valige kuval **Sihtkoha teave** väli **LOC/LP** ja sisestage asukohaks *06A07R2S1B*, kuhu kaup teisaldada.
+1. Valige kuval **Sihtkoha teave** väli **LOC/LP** ja sisestage asukohaks *06A07R2S1B* , kuhu kaup teisaldada.
 1. Kinnitage kuval **Sihtkoha teave** väärtus **LP** (sihtidentifitseerimisnumber ID), mis luuakse automaatselt. Lehe allosas kuvatakse teade „Töö lõpule viidud”.
 1. Valige paremas ülanurgas nupp Menüü ja seejärel valige **Tühista** menüüst **Liikumine** väljumiseks ja menüüsse **Kvaiteedihaldus** naasmiseks.
 1. Peamenüüsse naasmiseks valige **Tagasi**.
@@ -143,29 +143,29 @@ See näidisstsenaarium nõuab kahe asukohaprofiili ettevalmistamist.
     - **Kogus:** _1_
 
 1. Valige ruudustiku kohal oleva menüü **Varud** kiirkaardilt **Müügitellimuse read** suvand **Reserveerimine**.
-1. Valige lehel **Reserveerimine** tellimuserea reserveerimiseks suvand **Reserveeri saatepartii**. Seejärel valige lehe sulgemiseks paremas ülanurgas olevat nuppu **Sule** (**X**).
+1. Valige lehel **Reserveerimine** tellimuserea reserveerimiseks suvand **Reserveeri saatepartii**. Seejärel valige lehe sulgemiseks paremas ülanurgas olevat nuppu **Sule** ( **X** ).
 1. Tehke tegevuspaani vahekaardil **Ladu** grupis **Tegevused** valik **Vabasta lattu**.
 1. Valige menüü **Ladu** jaotisest **Müügitellimuse read** suvand **Töö üksikasjad**.
 1. Kopeerige loodud väärtus **Töö ID**.
 1. Avage mobiilses seadmes jaotis **Väljaminev \> Müügi komplekteerimine**.
-1. Valige väli **ID**, sisestage eelnevalt kopeeritud töö ID ja kinnitage.
+1. Valige väli **ID** , sisestage eelnevalt kopeeritud töö ID ja kinnitage.
 1. Lehel **Müügitellimused: komplekteerimine** pakub väli **LOC** komplekteerimise asukohaks eelnevalt loodud ladustamise asukohta. Märkige see asukoht üles.
-1. Valige väli **LOC**, sisestage asukoht ja kinnitage.
-1. Valige väli **LP**, sisestage identifitseerimisnumbri number, mille märkisite üles tegevuse Liikumine käigus ja kinnitage.
-1. Valige väli **Kaup**, sisestage ostutellimuse number *A0002* ja kinnitage.
+1. Valige väli **LOC** , sisestage asukoht ja kinnitage.
+1. Valige väli **LP** , sisestage identifitseerimisnumbri number, mille märkisite üles tegevuse Liikumine käigus ja kinnitage.
+1. Valige väli **Kaup** , sisestage ostutellimuse number *A0002* ja kinnitage.
 1. Sisestage lehel **KOGUS** kogus *1* ja kinnitage.
 
     Saate sisestada kogust mõlemal alloleval viisil.
 
-    - Arvulise väärtuse liitmiseks või lahutamiseks valige plussmärgi (**+**) või miinusmärgi (**–**) nupp.
-    - Numbriklahvistiku avamiseks valige plussmärgi (**+**) ja miinusmärgi (**–**) vaheline tühi väli.
+    - Arvulise väärtuse liitmiseks või lahutamiseks valige plussmärgi ( **+** ) või miinusmärgi ( **–** ) nupp.
+    - Numbriklahvistiku avamiseks valige plussmärgi ( **+** ) ja miinusmärgi ( **–** ) vaheline tühi väli.
 
-1. Valige väli **SIHT-LP**, sisestage kasutaja määratud sihtidentifitseerimisnumbri ID ja kinnitage.
+1. Valige väli **SIHT-LP** , sisestage kasutaja määratud sihtidentifitseerimisnumbri ID ja kinnitage.
 1. Kinnitage uuesti komplekteerimistöö lõpule viimiseks. Lehe allosas kuvatakse teade „Töö lõpule viidud”.
 1. Valige paremas ülanurgas nupp Menüü nupp ja seejärel valige **Tühista** komplekteerimise tegevuse lõpule viimiseks ja menüüsse **Väljaminev** naasmiseks.
 1. Avage Dynamics 365 Supply Chain Managementis jaotis **Laohaldus \> Seadistus \> Ladu \> Asukohad**.
 1. Filtreerige suvandit **Asukoht** ja sisestage komlekteerimise asukoht müügitellimuse tööst.
-1. Pange tähele, et selle asukoha välja **Asukoha olek**, kust müügitellimus komplekteeritakse, väärtuseks on nüüd seatud *Komplekteerimine* ja väli **Viimase tegevuse kuupäev ja kellaaeg** on värskendatud.
+1. Pange tähele, et selle asukoha välja **Asukoha olek** , kust müügitellimus komplekteeritakse, väärtuseks on nüüd seatud *Komplekteerimine* ja väli **Viimase tegevuse kuupäev ja kellaaeg** on värskendatud.
 
 > [!NOTE]
 > Asukoha välju värskendatakse ainult laokannete alusel. Kui teisaldate varusid töölehe või mõne muu mitte-WHS protsessi abil, ei värskendata välju.

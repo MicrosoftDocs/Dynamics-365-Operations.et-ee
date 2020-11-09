@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c378a424d89a884d1f3f0f14e1d544b3af178b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f9ae9218a85c50582c8c4999da463833fc91d260
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177416"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006111"
 ---
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Kliendi osalise makse ja lõpliku makse tasakaalustamine enne skonto kuupäeva
 
@@ -34,13 +34,13 @@ See artikkel pakub stsenaariume näitamiseks, kuidas kirjendada kliendi osalisi 
 Fabrikam müüb kaupu kliendile 4028. Fabrikam pakub skontot 1%, kui arve tasutakse 14 päeva jooksul. Arved tuleb tasuda 30 päeva jooksul. Fabrikam pakub osalistele maksetele ka skontosid. Tasakaalustamise parameetrid asuvad lehel **Müügireskontro parameetrid**.
 
 ## <a name="customer-invoice"></a>Kliendiarve
-25. juunil sisestab Arnie kliendile 4028 arve summas 1000,00. Arnie saab vaadata seda kannet lehel**Kliendi kanded**.
+25. juunil sisestab Arnie kliendile 4028 arve summas 1000,00. Arnie saab vaadata seda kannet lehel **Kliendi kanded**.
 
 | Kanne   | Kande tüüp | Kuupäev      | Arve | Deebeti summa kande valuutas | Kreediti summa kande valuutas | Saldo  | Valuuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
 | FTI‑10010 | Arve          | 25.06.2015 | 10010   | 1 000,00                             |                                       | 1 000,00 | USA dollar      |
 
-Arnie saab arve kuupäevi ja skontode summasid vaadata leheküljel **Klient** või **Kliendi kanded**, avades seal lehekülje **Kannete tasakaalustamine**. Tähtaeg on 25. juulil ja kui arve on tasutud 9. juuliks, on saadaval skonto summas 10,00.
+Arnie saab arve kuupäevi ja skontode summasid vaadata leheküljel **Klient** või **Kliendi kanded** , avades seal lehekülje **Kannete tasakaalustamine**. Tähtaeg on 25. juulil ja kui arve on tasutud 9. juuliks, on saadaval skonto summas 10,00.
 
 | Märge     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -48,7 +48,7 @@ Arnie saab arve kuupäevi ja skontode summasid vaadata leheküljel **Klient** v�
 
 Teave märgitud arve skonto kohta kuvatakse lehekülje **Kannete tasakaalustamine** allosas.
 
-|                              |           |
+|    &nbsp;                    |  &nbsp;   |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
 | Skonto summa         | 10,00     |
@@ -64,14 +64,14 @@ Skonto summa vaatamiseks klõpsab Arnie vahekaarti **Skonto**.
 | 25.07.2015          | 0,00                 | 1 000,00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Osalise makse tegemine kasutades lehekülge Kliendimaksete sisestamine
-Klient 4028 saadab makse 500,00 1. juulil. Selle makse sisestamiseks ei klõpsa Arnie nuppu **Read**. Selle asemel salvestab ta makse, luues uue maksetöölehe ja avades seejärel lehekülje **Kliendimaksete sisestamine**. Ta sisestab makseteabe ja märgib sisestatud arve. Kui Arnie sisestab summaks **500,00**, sisestab ta sama summa, **500,00**, ruudustiku väljal **Makstav summa**. Kuna Fabrikam võimaldab osaliste maksete jaoks skontot, näeb ta, et arvesse võetakse ka osalist skontot summas 5,05. Seda skontot arvutatakse järgmiselt: 500,00 ÷ 0,99 × 0,01 = 5,05. (Summa 500,00 jagatakse selles arvutuses 0,99-ga, kuna skonto on 1 protsent. Seetõttu tasub klient 99% arvest. Seejärel korrutatakse tulemus skonto protsendiga, mis on 1% ehk 0,01. Kui klient võtab täieliku allahindluse 10,00, peab tasakaalustatav summa olema 990,00. Allahindluse teave kuvatakse lehe **Sisesta kliendimaksed** lehe allservas olevas ruudustikus.
+Klient 4028 saadab makse 500,00 1. juulil. Selle makse sisestamiseks ei klõpsa Arnie nuppu **Read**. Selle asemel salvestab ta makse, luues uue maksetöölehe ja avades seejärel lehekülje **Kliendimaksete sisestamine**. Ta sisestab makseteabe ja märgib sisestatud arve. Kui Arnie sisestab summaks **500,00** , sisestab ta sama summa, **500,00** , ruudustiku väljal **Makstav summa**. Kuna Fabrikam võimaldab osaliste maksete jaoks skontot, näeb ta, et arvesse võetakse ka osalist skontot summas 5,05. Seda skontot arvutatakse järgmiselt: 500,00 ÷ 0,99 × 0,01 = 5,05. (Summa 500,00 jagatakse selles arvutuses 0,99-ga, kuna skonto on 1 protsent. Seetõttu tasub klient 99% arvest. Seejärel korrutatakse tulemus skonto protsendiga, mis on 1% ehk 0,01. Kui klient võtab täieliku allahindluse 10,00, peab tasakaalustatav summa olema 990,00. Allahindluse teave kuvatakse lehe **Sisesta kliendimaksed** lehe allservas olevas ruudustikus.
 
 | Skonto summa võtmiseks | Võetud skonto | Makstav summa |
 |------------------------------|---------------------|---------------|
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Osalise makse tegemine töölehe ridu kasutades
-Arve sisestamiseks saab Arnie maksetöölehe lehekülje **Kliendimaksete sisestamine** asemel kasutada valikut **Read**. Kuvatakse maksetööleht, kuhu Arnie saab sisestada rea kliendile 4028. Seejärel avab Arnie lehe **Kannete tasakaalustamine**, et ta saaks märkida arve tasakaalustamiseks. Arnie märgib arve ja muudab välja **Tasakaalustatav summa** väärtuseks **500,00**. Väljal **Skonto summa** näeb ta, et täieliku arve skonto summa on **10,00** ja skonto summa väljal **Skonto summa võtmiseks** on **5,05**. Seetõttu tasakaalustab Arnie arve summas 505,05.
+Arve sisestamiseks saab Arnie maksetöölehe lehekülje **Kliendimaksete sisestamine** asemel kasutada valikut **Read**. Kuvatakse maksetööleht, kuhu Arnie saab sisestada rea kliendile 4028. Seejärel avab Arnie lehe **Kannete tasakaalustamine** , et ta saaks märkida arve tasakaalustamiseks. Arnie märgib arve ja muudab välja **Tasakaalustatav summa** väärtuseks **500,00**. Väljal **Skonto summa** näeb ta, et täieliku arve skonto summa on **10,00** ja skonto summa väljal **Skonto summa võtmiseks** on **5,05**. Seetõttu tasakaalustab Arnie arve summas 505,05.
 
 | Märge     | Kasuta skontot | Kanne   | Konto | Kuupäev      | Tähtaeg  | Arve | Summa kandevaluutas | Valuuta | Tasakaalustatav summa |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -79,7 +79,7 @@ Arve sisestamiseks saab Arnie maksetöölehe lehekülje **Kliendimaksete sisesta
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-|                              |           |
+|        &nbsp;                | &nbsp;    |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
 | Skonto summa         | 10,00     |
@@ -95,7 +95,7 @@ Kui klient soovib tasakaalustada täpselt poole arvest, saadab ta makse summas 4
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-|                              |           |
+|     &nbsp;                   | &nbsp;    |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
 | Skonto summa         | 10,00     |
@@ -112,9 +112,9 @@ Arnie sulgeb lehekülje **Kannete tasakaalustamine**. Töölehel luuakse makseri
 | DISC‑10010 |  Skonto   | 01.07.2015  |         |                                      | 5,00                                  | 0,00    | USA dollar      |
 
 ## <a name="payment-for-the-remaining-amount"></a>Makse järelejäänud summas
-Klient 4028 maksab 8. juulil järelejäänud summa 495,00, seega jääb makse skonto perioodi. Arnie loob 8. juulil maksetöölehe ja märgib kande tasakaalustamiseks. Ta näeb, et tasakaalustatav summa on 495,00. Välja **Eeldatav skonto** väärtus on **5,00**, kuna skonto summas 5,00 oli juba varem arvestatud.
+Klient 4028 maksab 8. juulil järelejäänud summa 495,00, seega jääb makse skonto perioodi. Arnie loob 8. juulil maksetöölehe ja märgib kande tasakaalustamiseks. Ta näeb, et tasakaalustatav summa on 495,00. Välja **Eeldatav skonto** väärtus on **5,00** , kuna skonto summas 5,00 oli juba varem arvestatud.
 
-|                         |        |
+|   &nbsp;                | &nbsp; |
 |-------------------------|--------|
 | Kokku märgitud            | 495,00 |
 | Eeldatav skonto | 5,00   |
@@ -127,7 +127,7 @@ Teave märgitud kande kohta ilmub lehe **Avatud kannete tasakaalustamine** ruudu
 
 Teave märgitud arve allahindluse kohta kuvatakse lehe **Avatud kannete tasakaalustamine** allosas.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Skonto kuupäev           | 09.07.2015 |
 | Skonto summa         | 10,00     |

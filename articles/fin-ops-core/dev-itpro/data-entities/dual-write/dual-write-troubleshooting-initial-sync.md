@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e4ee3bf07a1df445875197f38f655464cc9b44d3
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 4d0ca1fb4b7a4964194516544686b6bb7d26e76c
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443845"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997322"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Probleemide tõrkeotsing esmase sünkroonimise ajal
 
@@ -37,7 +36,7 @@ See teema annab teavet rakendustekomplekti Finance and Operations ja Common Data
 
 ## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Esmase sünkroonomise tõrgete kontrollimine Finance and Operationsi rakenduses
 
-Pärast vastendamise mallide lubamist peaks vastenduse olekuks olema **Töötab**. Kui olek on **Ei tööta**, ilmnes tõrkeid esmasel sünkroonimisel. Tõrgete kuvamiseks valige lehel **Topeltkirjutus** vahekaart **Esmase sünkroonimise üksikasjad**.
+Pärast vastendamise mallide lubamist peaks vastenduse olekuks olema **Töötab**. Kui olek on **Ei tööta** , ilmnes tõrkeid esmasel sünkroonimisel. Tõrgete kuvamiseks valige lehel **Topeltkirjutus** vahekaart **Esmase sünkroonimise üksikasjad**.
 
 ![Esmase sünkroonimise üksikasjade vahekaardi tõrge](media/initial_sync_status.png)
 
@@ -113,7 +112,7 @@ Kui hankija üksuses on kirjeid, mille väljad **PrimaryContactPersonId** ja **I
 1. Kustutage rakenduses Finance and Operations vastendusest väljad **PrimaryContactPersonId** ja **InvoiceVendorAccountNumber** ning seejärel salvestage vastendus.
 
     1. Avage **Hankijad V2 (msdyn\_vendors)** topeltkirjutuse vastendamisleht ja seejärel vahekaart **Üksuse vastendused**. Valige vasakpoolses filtris suvand **Finance and Operations apps.Vendors V2**. Valige parempoolses filtris **Müük.Hankija**.
-    2. Otsige väärtust **primarycontactperson**, et leida allika väli **PrimaryContactPersonId**.
+    2. Otsige väärtust **primarycontactperson** , et leida allika väli **PrimaryContactPersonId**.
     3. Valige **Tegevused** ja seejärel **Kustuta**.
 
         ![Välja PrimaryContactPersonId kustutamine](media/vend_selfref3.png)
@@ -160,7 +159,7 @@ Kui kliendi üksuses on kirjeid, mille väljad **ContactPersonID** ja **InvoiceA
 1. Kustutage rakenduses Finance and Operations vastendusest **Kliendid V3 (kontod)** väljad **ContactPersonID** ja **InvoiceAccount** ning seejärel salvestage vastendus.
 
     1. Avage **Kliendid V3 (kontod)** topeltkirjutuse vastendamisleht ja seejärel vahekaart **Üksuse vastendused**. Valige vasakpoolses filtris suvand **Finance and Operations app.Customers V3**. Valige parempoolses filtris **Common Data Service.Account**.
-    2. Otsige väärtust **contactperson**, et leida allika väli **ContactPersonID**.
+    2. Otsige väärtust **contactperson** , et leida allika väli **ContactPersonID**.
     3. Valige **Tegevused** ja seejärel **Kustuta**.
 
         ![Välja ContactPersonID kustutamine](media/cust_selfref3.png)

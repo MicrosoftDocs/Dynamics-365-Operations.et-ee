@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: d86fa3df1de13cc0e0fb94449207a326069da25b
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: a89effb686d60dde9d11f99be51d4101897ad4ea
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834346"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018625"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Toote sissetulekute ja arvelduse tõrkeotsing
 
@@ -72,15 +72,15 @@ Kandeid saab toote sissetulekute tühistamise korral peatatud pearaamatukontodel
 
 ## <a name="a-product-receipt-voucher-number-is-consumed-even-if-no-financial-voucher-is-generated-during-product-receipt"></a>Toote sissetuleku kandenumbrit tarbitakse isegi siis, kui toote sissetuleku käigus ei looda ühtegi finantskannet.
 
-Kui suvandi **Kumuleerimise kohustus toote sissetulekul** väärtuseks on kauba mudeligrupi puhul seatud *Ei*, siis pearaamatusse sisestusi ei tehta. Sellegi poolest kirjendatakse füüsiline sündmus raamatupidamise otstarbel alammoodulis ja selle sündmuse jaoks on vaja kandenumbrit. See kandenumber on laokannetes viidatud kandenumber.
+Kui suvandi **Kumuleerimise kohustus toote sissetulekul** väärtuseks on kauba mudeligrupi puhul seatud *Ei* , siis pearaamatusse sisestusi ei tehta. Sellegi poolest kirjendatakse füüsiline sündmus raamatupidamise otstarbel alammoodulis ja selle sündmuse jaoks on vaja kandenumbrit. See kandenumber on laokannetes viidatud kandenumber.
 
-Me soovitame seada suvandi **Kumuleerimise kohustus toote sissetulekul** väärtuseks *Jah*, nagu on kirjeldatud ajaveebipostituses [Lisakulude sisestamine toote sissetuleku ajal](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
+Me soovitame seada suvandi **Kumuleerimise kohustus toote sissetulekul** väärtuseks *Jah* , nagu on kirjeldatud ajaveebipostituses [Lisakulude sisestamine toote sissetuleku ajal](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
 
 ## <a name="the-post-to-charge-account-in-ledger-setting-isnt-turned-on"></a>Säte „Sisesta pearaamatu kulude kontole” pole sisse lülitatud.
 
 ### <a name="issue-description"></a>Probleemi kirjeldus
 
-Probleem ilmneb siis, kui ostutellimust arveldatakse olukorras, kus suvandi **Sisesta pearaamatu kulude kontole** väärtuseks on seatud *Jah* vahekaardil **Arve**, mis asub lehel **Ostureskontro parameetrid**.
+Probleem ilmneb siis, kui ostutellimust arveldatakse olukorras, kus suvandi **Sisesta pearaamatu kulude kontole** väärtuseks on seatud *Jah* vahekaardil **Arve** , mis asub lehel **Ostureskontro parameetrid**.
 
 ### <a name="reproduce-the-issue"></a>Probleemi taastekitamine
 

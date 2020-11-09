@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWaveTableListPage, WHSWaveStepCode, WHSReplenishmentTemplates, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 251e9982451c888424589e0f0d6fce48aab42df1
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323573"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017801"
 ---
 # <a name="wave-step-codes"></a>Vooetapi koodid
 
@@ -59,7 +59,7 @@ Lubamise ajal teostatakse andmete uuendamise ajal kinnitamised. Kui uuendamine e
 
 Pärast võimalike kinnitamise ajal tuvastatud konfliktide lahendamist saate proovida funktsiooni uuesti lubada.
 
-Kui funktsioon on lubatud, siis muutub leht **Voo etapikoodid** (**Laohaldus \> Seadistus \> Vood \> Voo etapikoodid**) kättesaadavaks. Sellel lehel loetletakse voo etapikoodid, mida värskendati siis, kui organisatsiooniülene voo etapikoodide funktsioon lubati.
+Kui funktsioon on lubatud, siis muutub leht **Voo etapikoodid** ( **Laohaldus \> Seadistus \> Vood \> Voo etapikoodid** ) kättesaadavaks. Sellel lehel loetletakse voo etapikoodid, mida värskendati siis, kui organisatsiooniülene voo etapikoodide funktsioon lubati.
 
 ### <a name="create-new-wave-step-codes"></a>Uute voo etapikoodid loomine
 
@@ -85,7 +85,7 @@ Selle loendi malle rakendatakse, kui need on viidatud voo protsessi meetodist, m
 
 Järgmine protseduur aitab tagada, et loodud täiendamise mall rakendub voo mallile.
 
-1. Avage **Laohaldus \> Seadistus \> Vood \> Voo etapikoodid**, ja looge voo etapikood tüübile **Täiendamine**.
+1. Avage **Laohaldus \> Seadistus \> Vood \> Voo etapikoodid** , ja looge voo etapikood tüübile **Täiendamine**.
 2. Avage **Laohaldus \> Seadistus \> Täiendamine \> Täiendamise mallid** ja looge täiendamise mall.
 3. Täiendamise mallis valige see voo etapikood, mille lõite tüübile **Täiendamine**.
 4. Avage **Laohaldus \> Seadistus \> Vood \> Voo mallid** ja valige see voo mall, mida soovite kasutada.

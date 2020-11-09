@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: smmContactPerson, VendBankAccounts, VendTable
+ms.search.form: smmContactPerson, VendBankAccounts, VendTable, VendOnHoldUpdate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: cc5229918c89657f3108e1c2314dff8251eae93d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893157"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018071"
 ---
 # <a name="set-up-vendor-accounts"></a>Hankijakontode seadistamine
 
@@ -69,7 +69,7 @@ Te ei saa kustutada kontaktiisiku kirjet, kui kontaktidel on dokumendis viidatud
 Rakenduses Microsoft 365 saate lisada hankija kontaktid oma isiklikesse kontaktidesse. Siiski peate enne seadistama sünkroonimise rakenduste Supply Chain Management ja Microsoft 365 vahel nii Microsoft Exchange Serveri sünkroonimises kui ka Microsoft Outlooki seadistusviisardis.
 
 ## <a name="vendors-in-different-legal-entities"></a>Hankijad erinevates juriidilistes isikutes
-Kui hankija on registreeritud teie organisatsioonis ainult ühele juriidilisele isikule ja teised juriidilised isikud peavad registreerima sama hankija, saate kasutada lehte **Lisa hankija teise juriidilisse isikusse**, et konfigureerida hankija tegema äri teise juriidilise isikuga. Peate valima hankija grupi, valuuta ja hoidma hankija olekut valitud juriidilises isikus.  
+Kui hankija on registreeritud teie organisatsioonis ainult ühele juriidilisele isikule ja teised juriidilised isikud peavad registreerima sama hankija, saate kasutada lehte **Lisa hankija teise juriidilisse isikusse** , et konfigureerida hankija tegema äri teise juriidilise isikuga. Peate valima hankija grupi, valuuta ja hoidma hankija olekut valitud juriidilises isikus.  
 
 Kui mitu juriidilist isikut teie organisatsioonis on ärisuhetes sama hankijaga ja iga juriidiline isik peab selle hankija kohta eraldi hankija kontot, saate ühendada hankijakontode osapoole ID-d. Sellisel juhul saab jagada teavet, nagu aadress ja töötajate arv, et peaksite seda värskendama ainult ühes kohas.  
 
@@ -93,7 +93,7 @@ Saate panna hankija ootele erinevate kandetüüpide puhul. Valikud on järgmised
 
 Kui panete hankija ootele, saate määrata ka põhjuse ja kuupäeva, millal ootelolek lõppeb Kui te ei sisestada lõppkuupäeva, siis kestab hankija ootelolek määramata ajani.
 
-Saate hankijate puhul ooteloleku värskendada hulgi valikule **Kõik**, võttes aluseks lehel **Hankija inaktiveerimine** valitud kriteeriumid ja määrates hankija ooteloleku põhjuse.
+Saate hankijate puhul ooteloleku värskendada hulgi valikule **Kõik** , võttes aluseks lehel **Hankija inaktiveerimine** valitud kriteeriumid ja määrates hankija ooteloleku põhjuse.
 
 Järgmisi kriteeriume kasutatakse selleks, et kaasata hankijaid, kes on olnud teatud perioodi jooksul passiivsed, kaasata või välistada töötajatega hankijaid ning välistada hankijaid, kes on enne järgmist ootelepanekut tähtajapikendusel.
 
@@ -114,7 +114,7 @@ Kui peate tegema makseid hankija pangakontole, saate sisestada teabe hankija pan
 ## <a name="ledger-accounts"></a>Pearaamatukontod
 Saate määrata vaikekontod, mis ilmuvad automaatselt hankija arve töölehtedel määratud hankija puhul. See funktsioon võib olla kasulik, kui maksate tavaliselt aja jooksul samade hankijate sama tüüpi kaupade või teenuste eest. Kui määrate vaikekonto, saate kiirelt ja tõhusalt arve töölehele töölehe sisestused sisestada. Teie määratud vaikekontosid ei kasutata ostutellimuste ega hankijaarvete puhul, mis on sisestatud lehele **Hankija arve**.  
 
-Valite vaikekontod lehel **Kontode vaikeseadistus**, mille saate avada hankija kirje vahekaardilt **Arve**. Siin valitud kontod ilmuvad hankija konto filtreeritud kontode loendis töölehe kirje sisestamisel. Saate seadistada ühe konto vaikekontona.
+Valite vaikekontod lehel **Kontode vaikeseadistus** , mille saate avada hankija kirje vahekaardilt **Arve**. Siin valitud kontod ilmuvad hankija konto filtreeritud kontode loendis töölehe kirje sisestamisel. Saate seadistada ühe konto vaikekontona.
 
 
 

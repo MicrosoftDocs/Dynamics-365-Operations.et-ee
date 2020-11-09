@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6472672f5d618cc6d100298dd35939afa4c0066d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: fb3ec2d60875d7a0747d64b397aafaa0a3d26348
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835943"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039865"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-brazil"></a>Brasiilia elektroonilise arvelduse lisandmooduli kasutamise alustamine 
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 > [!IMPORTANT]
 > Brasiilia elektroonilise arvelduse lisandmoodul ei toeta praegu kõiki funktsioone, mis on saadaval finantsdokumendi integratsioonis, mis on sisse ehitatud rakendustesse Microsoft Dynamics 365 Finance ja Dynamics 365 Supply Chain Management.
@@ -58,7 +58,7 @@ RCS-i seadistuse käigus teete järgmist.
 
 1. Logige oma RCS-i kontole sisse
 2. Valige tööruumis **Globaliseerimisfunktsioonid** jaotises **Funktsioonid** paan **E-arveldus**.
-3. Valige lehel **E-arvelduse funktsioonid** suvand **Impordi**, et importida globaalsest hoidlast NF-e finantsdokumendi e-arvelduse funktsioon.
+3. Valige lehel **E-arvelduse funktsioonid** suvand **Impordi** , et importida globaalsest hoidlast NF-e finantsdokumendi e-arvelduse funktsioon.
 
     ![Nupp „Impordi”](media/e-Invoicing-services-get-started-BRA-Select-Import-e-Invoicing-feature.png)
 
@@ -74,7 +74,7 @@ RCS-i seadistuse käigus teete järgmist.
 
 ### <a name="update-the-configuration-version"></a>Konfiguratsiooni versiooni uuendamine
 
-1. Valige lehel **E-arvelduse funktsioonid** vahekaardil **Konfiguratsioonid** suvand **Lisa** või **Kustuta**, et hallata konfiguratsiooni versioone (ER-i failivormingu konfiguratsioone).
+1. Valige lehel **E-arvelduse funktsioonid** vahekaardil **Konfiguratsioonid** suvand **Lisa** või **Kustuta** , et hallata konfiguratsiooni versioone (ER-i failivormingu konfiguratsioone).
 
     ![E-arvelduse funktsiooni konfiguratsioonide haldamine](media/e-Invoicing-services-get-started-BRA-Manage-e-Invoicing-feature-configurations.png)
 
@@ -89,7 +89,7 @@ RCS-i seadistuse käigus teete järgmist.
 
         - NFe tühistamise ekspordivorming
 
-2. Valige loendist konfiguratsiooni versioon ja seejärel suvand **Redigeeri** või **Kuva**, et avada leht **Vormingukujundaja**, kus saate konfiguratsiooni redigeerida või vaadata.
+2. Valige loendist konfiguratsiooni versioon ja seejärel suvand **Redigeeri** või **Kuva** , et avada leht **Vormingukujundaja** , kus saate konfiguratsiooni redigeerida või vaadata.
 
     ![Vormingukujundaja lehe avamine](media/e-Invoicing-services-get-started-BRA-Configuration-ER-fomat-designer.png)
 
@@ -99,7 +99,7 @@ RCS-i seadistuse käigus teete järgmist.
 
 ### <a name="manage-the-e-invoicing-feature-setups"></a>E-arvelduse funktsiooni seadistuste haldamine
 
-- Valige lehel **E-arvelduse funktsioonid** vahekaardil **Seadistused** suvand **Lisa** või **Kustuta**, et hallata e-arvelduse funktsiooni seadistusi (st NF-e sündmusi).
+- Valige lehel **E-arvelduse funktsioonid** vahekaardil **Seadistused** suvand **Lisa** või **Kustuta** , et hallata e-arvelduse funktsiooni seadistusi (st NF-e sündmusi).
 
 ![E-arvelduse funktsiooni seadistuste haldamine](media/e-Invoicing-services-get-started-BRA-Manage-e-Invoicing-feature-setup.png)
 
@@ -116,7 +116,7 @@ NF-e tühistamise edastamiseks on vajalik funktsiooniseadistus **Tühistamine**.
 
     ![E-arvelduse funktsiooni seadistuse redigeerimine](media/e-Invoicing-services-get-started-BRA-Edit-e-Invoicing-feature-setup.png)
 
-3. Valige lehel **Funktsiooni versiooni seadistus** vahekaart **Tegevused**, et hallata tegevuste loendit.
+3. Valige lehel **Funktsiooni versiooni seadistus** vahekaart **Tegevused** , et hallata tegevuste loendit.
 
     ![Tegevuste vahekaart](media/e-Invoicing-services-get-started-BRA-Select-Actions.png)
 
@@ -135,16 +135,16 @@ NF-e tühistamise edastamiseks on vajalik funktsiooniseadistus **Tühistamine**.
 
 #### <a name="set-up-the-url-for-sefaz-web-services"></a>SEFAZ veebiteenuste URL-i seadistamine 
 
-1. Valige lehel **Funktsiooni versiooni seadistus** vahekaardi **Tegevused** kiirkaardilt **Tegevused** suvand **Kutsu Brasiilia SEFAZ teenust** (tegevuse ID **3**).
+1. Valige lehel **Funktsiooni versiooni seadistus** vahekaardi **Tegevused** kiirkaardilt **Tegevused** suvand **Kutsu Brasiilia SEFAZ teenust** (tegevuse ID **3** ).
 2. Sisestage kiirkaardil **Parameetrid** väljale **URL-aadressi parameeter** NF-e edastamiseks SEFAZ veebiteenuse URL.
-3. Valige kiirkaardil **Tegevused** suvand **Kutsu Brasiilia SEFAZ teenust** (tegevuse ID **7**).
+3. Valige kiirkaardil **Tegevused** suvand **Kutsu Brasiilia SEFAZ teenust** (tegevuse ID **7** ).
 4. Sisestage kiirkaardil **Parameetrid** väljale **URL-aadressi parameeter** NF-e edastamiseks SEFAZ veebiteenuse URL.
 
 #### <a name="configure-the-cancellation-feature-setup"></a>Tühistamisfunktsiooni seadistuse konfigureerimine
 
 1. Valige lehe **E-arvelduse funktsioonid** vahekaardi **Seadistused** veerus **Funktsiooni seadistus** suvand **Tühistamine**.
 2. Valige suvand **Redigeeri**.
-3. Valige lehel **Funktsiooni versiooni seadistus** vahekaart **Tegevused**, et hallata tegevuste loendit.
+3. Valige lehel **Funktsiooni versiooni seadistus** vahekaart **Tegevused** , et hallata tegevuste loendit.
 4. Vaadake üle tegevused, mis on vajalikud kinnitatud NF-e tühistamise taotlemiseks.
 
     | Tegevuse ID | Tegevuse nimi                  | Tegevuse kirjeldus                                               |
@@ -156,7 +156,7 @@ NF-e tühistamise edastamiseks on vajalik funktsiooniseadistus **Tühistamine**.
 
 #### <a name="set-up-the-url-for-sefaz-web-services"></a>SEFAZ veebiteenuste URL-i seadistamine
 
-1. Valige lehel **Funktsiooni versiooni seadistus** vahekaardi **Tegevused** kiirkaardilt **Tegevused** suvand **Kutsu Brasiilia SEFAZ teenust** (tegevuse ID **3**).
+1. Valige lehel **Funktsiooni versiooni seadistus** vahekaardi **Tegevused** kiirkaardilt **Tegevused** suvand **Kutsu Brasiilia SEFAZ teenust** (tegevuse ID **3** ).
 2. Sisestage kiirkaardil **Parameetrid** väljale **URL-aadressi parameeter** kinnitatud NF-e tühistamiseks SEFAZ veebiteenuse URL.
 
 ### <a name="make-an-e-invoicing-environment-available-and-assign-a-draft-version"></a>E-arvelduse keskkonna kättesaadavaks tegemine ja mustandversiooni määramine
@@ -206,7 +206,7 @@ Seadistuse käigus teete järgmist.
 1. Valige tööruumi **Elektrooniline aruandlus** jaotisest **Konfiguratsioonipakkujad** paan **Microsoft**.
 2. Valige **Osad**.
 3. Valige **Globaalne ressurss \> Ava**.
-4. Importige **NF-e tõrkelogi importimine (BR)**, **NF-e vastuseandmete impordivorming (BR)** ja **NF-e vastuseteate importimine (BR)**.
+4. Importige **NF-e tõrkelogi importimine (BR)** , **NF-e vastuseandmete impordivorming (BR)** ja **NF-e vastuseteate importimine (BR)**.
 5. Avage **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameetrid**.
 6. Valige lehel **Elektrooniline dokument** suvand **Lisa**.
 6. Sisestage väljale **Tabeli nimi** tekst **Finantsdokumendi päis**.
@@ -231,21 +231,21 @@ Rakenduses Finance teete töötlemise käigus järgmist.
 
 ### <a name="submit-nf-e-fiscal-documents-for-sefaz-authorization"></a>NF-e finantsdokumentide edastamine SEFAZ-is autoriseerimiseks 
 
-Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli integratsioon** sisse lülitamist pole enam võimalik kasutada vana protsessi NF-e finantsdokumentide edastamiseks autoriseerimise eesmärgil (**NF-e eksportimise/importimise protsess**). See asendatakse uue protsessiga **Edasta elektroonilised dokumendid**.
+Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli integratsioon** sisse lülitamist pole enam võimalik kasutada vana protsessi NF-e finantsdokumentide edastamiseks autoriseerimise eesmärgil ( **NF-e eksportimise/importimise protsess** ). See asendatakse uue protsessiga **Edasta elektroonilised dokumendid**.
 
 > [!NOTE]
 > Enne jätkamist veenduge, et teil on üks või mitu kliendi finantsdokumentide mudelit 55, mille väljastas kliendi finantsasutus. Nende finantsdokumentide suunaks peab olema määratud **Väljuv** ja olekuks **Loodud**. Lisateavet leiate teemast [Kliendi finantsdokumendi väljastamine (Brasiilia)](https://docs.microsoft.com/dynamics365/finance/localizations/tasks/br-00038-issuing-customer-fiscal-document).
 
 1. Avage **Organisatsiooni haldus \> Perioodiline \> Elektroonilised dokumendid \> Edasta elektroonilised dokumendid**.
 2. Mis tahes dokumendi esimese edastamise korral seadke suvandi **Dokumentide taasedastamine** väärtuseks alati **Ei**. Kui peate dokumendi teenuse kaudu uuesti edastama, seadke selle suvandi väärtuseks **Jah**.
-3. Valige kiirkaardil **Kaasatavad kirjed** suvand **Filter**, et avada dialoogiboks **Päring**, kus saate luua päringu edastatavate dokumentide valimiseks.
+3. Valige kiirkaardil **Kaasatavad kirjed** suvand **Filter** , et avada dialoogiboks **Päring** , kus saate luua päringu edastatavate dokumentide valimiseks.
 4. Valige vahekaardil **Vahemik** suvand **Lisa**.
 5. Valige väljal **Tabel** suvand **Finantsdokumendi päis**.
 6. Valige väljal **Tuletatud tabel** suvand **Finantsdokumendi päis**.
 6. Valige väljal **Väli** suvand **Arv**.
 7. Sisestage väljale **Kriteerium** edastatavate finantsdokumentide arv.
 8. Valige dialoogiboksi **Päring** sulgemiseks **OK**.
-8. Valige **OK**, et valitud dokumendid edastada.
+8. Valige **OK** , et valitud dokumendid edastada.
 
 > [!NOTE]
 > Esimesel dokumendi edastamise katsel teenuse kaudu palutakse teil kinnitada ühendus elektroonilise arvelduse lisandmooduliga. Valige **Elektroonilise dokumendi edastusteenusega ühendumiseks klõpsake siin**.
@@ -255,8 +255,8 @@ Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli int
 Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli integratsioon** sisse lülitamist on saadaval uus leht, mis võimaldab teil jälgida dokumendi edastamise edenemist. Selle lehe abil saate vaadata kõigi edastatud dokumentide edastuslogisid.
 
 1. Avage **Organisatsiooni haldus \> Perioodiline \> Elektroonilised dokumendid \> Elektroonilise dokumendi edastuslogi**.
-2. Valige väljal **Dokumenditüüp** suvand **Finantsdokumendi päis**, et kuvada ainult finantsdokumendid.
-3. Valige toimingupaanil **Päringud \> Edastuse üksikasjad**, et vaadata edastuse käivituslogide üksikasju.
+2. Valige väljal **Dokumenditüüp** suvand **Finantsdokumendi päis** , et kuvada ainult finantsdokumendid.
+3. Valige toimingupaanil **Päringud \> Edastuse üksikasjad** , et vaadata edastuse käivituslogide üksikasju.
 
 ![Edastuslogi üksikasjade vaatamine](media/e-Invoicing-services-get-started-BRA-View-Submission-log-details.png)
 
@@ -287,7 +287,7 @@ Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli int
 ### <a name="view-cancellation-submission-logs"></a>Tühistamise edastuslogide kuvamine
 
 1. Avage **Organisatsiooni haldus \> Perioodiline \> Elektroonilised dokumendid \> Elektroonilise dokumendi edastuslogi**.
-2. Valige väljal **Dokumenditüüp** suvand **Finantsdokumendi päis**, et kuvada ainult finantsdokumendid.
+2. Valige väljal **Dokumenditüüp** suvand **Finantsdokumendi päis** , et kuvada ainult finantsdokumendid.
 3. Valige finantsdokument ja seejärel valige toimingupaanil **Päringud \> Seotud edastus**.
 
     Seotud edastused on edastused, mis on seotud esimesena tehtud põhiedastusega. Näiteks on põhiedastus see edastus, mis autoriseerib kindlat NF-e finantsdokumenti. Edastus, mis taotleb sama NF-e tühistamist SEFAZ-is, on seotud edastus. See on olemas ainult seetõttu, et selle kaudu taotletakse teise edastuse kaudu tehtud töö tühistamist.
@@ -296,12 +296,12 @@ Pärast funktsiooni **Konfigureeritav elektroonilise arvelduse lisandmooduli int
 
     ![Tühistamise edastuslogide vaatamine](media/e-Invoicing-services-get-started-BRA-View-Cancellation-Submission-log.png)
 
-4. Valige toimingupaanil **Päringud \> Edastuse üksikasjad**, et vaadata edastuse käivituslogide üksikasju.
+4. Valige toimingupaanil **Päringud \> Edastuse üksikasjad** , et vaadata edastuse käivituslogide üksikasju.
 
     ![Tühistamise edastuslogi üksikasjade vaatamine](media/e-Invoicing-services-get-started-BRA-View-Cancellation-Submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Privaatsusavaldus
-Funktsiooni BR-00053 (NF-e Federal) lubamise korral on võimalik, et saata tuleb piiratud andmeid, sealhulgas organisatsiooni maksukohustuslasena registreerimise ID. See edastatakse maksuameti volitatud kolmandatest isikutest asutustele, mille eesmärk on saata maksuametile elektroonilisi arveid eelmääratletud vormingus, mis on vajalik integratsiooniks valitsuse veebiteenusega. Administraator saab lubada ja keelata funktsiooni BR-00053 (NF-e Federal), avades **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameetrid**. Valige vahekaart **Funktsioonid**, valige rida, mis sisaldab funktsiooni BR-00053, ning seejärel tehke sobiv valik. Nendest välissüsteemidest sellesse Dynamics 365 võrguteenusesse imporditud andmete puhul kehtib meie [privaatsusavaldus](https://go.microsoft.com/fwlink/?LinkId=512132). Lisateavet leiate riigipõhise funktsiooni dokumentatsioonis asuvatest privaatsusavalduse jaotistest.
+Funktsiooni BR-00053 (NF-e Federal) lubamise korral on võimalik, et saata tuleb piiratud andmeid, sealhulgas organisatsiooni maksukohustuslasena registreerimise ID. See edastatakse maksuameti volitatud kolmandatest isikutest asutustele, mille eesmärk on saata maksuametile elektroonilisi arveid eelmääratletud vormingus, mis on vajalik integratsiooniks valitsuse veebiteenusega. Administraator saab lubada ja keelata funktsiooni BR-00053 (NF-e Federal), avades **Organisatsiooni haldus \> Seadistus \> Elektroonilise dokumendi parameetrid**. Valige vahekaart **Funktsioonid** , valige rida, mis sisaldab funktsiooni BR-00053, ning seejärel tehke sobiv valik. Nendest välissüsteemidest sellesse Dynamics 365 võrguteenusesse imporditud andmete puhul kehtib meie [privaatsusavaldus](https://go.microsoft.com/fwlink/?LinkId=512132). Lisateavet leiate riigipõhise funktsiooni dokumentatsioonis asuvatest privaatsusavalduse jaotistest.
 
 
 ## <a name="additional-resources"></a>Lisaressursid

@@ -19,17 +19,17 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 75bce16c5e1b0898a0284659f9ce5e4716a93049
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834205"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022467"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Kassa kasutajaliidese visuaalsed konfiguratsioonid
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Microsoft Dynamics 365 Commerce'i kassa kasutajaliidest saab konfigureerida kauplustele, registritele ja/või kasutajatele määratud visuaalsete profiilide ja ekraanipaigutuste kombinatsiooni abil. Selles teemas antakse teavet nende konfiguratsioonisuvandite kohta.
 
@@ -54,7 +54,7 @@ Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vah
 - **Kuva alati rakenduse riba sildid** – kui see suvand on sisse lülitatud, kuvatakse sildi tekst alati rakenduse riba nuppude all.
 - **Paigutus** – saate valida paigutuste **Keskel** ja **Paremal** vahel. Paigutus mõjutab sisselogimisvälja joondamist sisselogimisaknaga. Vaikevalik on **Keskel**.
 - **Näita kuupäeva/kellaaega** – kui see valik on sisse lülitatud, kuvatakse see kuupäev ja kellaaeg Kassa päises ja sisselogimisaknas.
-- **Klaviatuur** – saate teha valiku **Vaikimisi valik opsüsteemi klaviatuuri jaoks** või **Kuva numbriklahvistik**, et määrata vaikimisi klaviatuur, mida kasutatakse sisselogimisaknasse teksti sisestamiseks. Numbriklahvistik on virtuaalne klaviatuur, mida kasutatakse peamiselt puutetundlike seadmete jaoks. Vaikimisi valik on **Vaikimisi valik opsüsteemi klaviatuuri jaoks**.
+- **Klaviatuur** – saate teha valiku **Vaikimisi valik opsüsteemi klaviatuuri jaoks** või **Kuva numbriklahvistik** , et määrata vaikimisi klaviatuur, mida kasutatakse sisselogimisaknasse teksti sisestamiseks. Numbriklahvistik on virtuaalne klaviatuur, mida kasutatakse peamiselt puutetundlike seadmete jaoks. Vaikimisi valik on **Vaikimisi valik opsüsteemi klaviatuuri jaoks**.
 - **Logo pilt** – saate määrata logo pildi, mis kuvatakse sisselogimisaknas. Soovitame kasutada läbipaistva taustaga pilti. Failid peaksid olema võimalikult väikesed, sest suurte failide talletamine ja laadimine võib mõjutada rakenduse toimimist ja jõudlust.
 - **Sisselogimise taust** – saate määrata sisselogimisakna taustapildi. Taustapiltide failid peaksid olema võimalikult väikesed.
 - **Taust** – saate määrata taustpildi, mida kasutatakse kogu rakenduses ühevärvilise kujunduse asemel. Sisselogimisakna taustapildid peaksid olema võimalikult väikesed.
@@ -62,7 +62,7 @@ Visuaalsed profiilid määratakse registritele ja need määravad kasutajate vah
 > [!NOTE]
 > Paigutus **Paremal** ja kuupäeva/kellaaja kuva ei rakendu kompaktses vaates sisselogimisaknale.
 
-Peate käivitama jaotusgraafiku töö **1090** (**Registrid**), et sünkroonida uusimad visuaalse profiili konfiguratsioonid kanali andmebaasiga.
+Peate käivitama jaotusgraafiku töö **1090** ( **Registrid** ), et sünkroonida uusimad visuaalse profiili konfiguratsioonid kanali andmebaasiga.
 
 ## <a name="screen-layouts"></a>Ekraani paigutused
 
@@ -84,7 +84,7 @@ Ekraanipaigutuse konfiguratsioonid määratlevad juhtelementide toimingud, sisu 
 
 Ekraanipaigutusi saab määrata kaupluse, registri või kasutaja tasandil. Kasutaja määramine tühistab registri ja kaupluse määramised ning registri määramine tühistab kaupluse määramise. Lihtsas stsenaariumis, kus kõik kasutajad kasutavad sama paigutust, olenemata registrist või rollist, saab ekraanipaigutuse määrata ainult kaupluse tasemel. Kui teatud registrid või kasutajad nõuavad spetsiaalseid paigutusi, saab neid paigutusi määrata.
 
-Sõltuvalt sellest, millisel tasemel on kuvapaigutused määratud, peate käivitama jaotusgraafiku töö **1070** (**Kanali konfiguratsioon**), **1090** (**Registrid**) ja/või **1060** (**Personal**), et sünkroonida uusimad kuvapaigutuse konfiguratsioonid kanali andmebaasiga.
+Sõltuvalt sellest, millisel tasemel on kuvapaigutused määratud, peate käivitama jaotusgraafiku töö **1070** ( **Kanali konfiguratsioon** ), **1090** ( **Registrid** ) ja/või **1060** ( **Personal** ), et sünkroonida uusimad kuvapaigutuse konfiguratsioonid kanali andmebaasiga.
 
 ### <a name="layout-sizes"></a>Paigutuse suurused
 
@@ -153,7 +153,7 @@ Täispaigutuse kujundaja võimaldab kasutajatel lohistada kasutajaliidese juhtel
     - **Vahekaardi juhtelement** – saate ekraanipaigutuse peale lisada vahekaardi juhtelemendi ja seejärel paigutada vahekaardi sisse teisi juhtelemente (nt numbriklahvistiku, kliendikaardi või nupupaneelid). Vahekaardi juhtelement on konteiner, mis aitab teil ekraanile rohkem sisu paigutada. Vahekaardi juhtelement on saadaval ainult täispaigutuste puhul.
     - **Pilt** – saate kasutada pildi juhtelementi kaupluse logo või muu tootjakohanduse teabe kuvamiseks ekraanil **Kanne**. Pildi juhtelement on saadaval ainult täispaigutuste puhul.
     - **Soovitatud tooted** – kui soovitatud toodete juhtelement on keskkonna jaoks konfigureeritud, näitab see masinõppel põhinevaid tootesoovitusi.
-    - **Kohandatud juhtelement**– kohandatud juhtelement toimib ekraanipaigutuses kohatäitena ja võimaldab teil kohandatud sisu jaoks ruumi reserveerida. Kohandatud juhtelement on saadaval ainult täispaigutuste puhul.
+    - **Kohandatud juhtelement** – kohandatud juhtelement toimib ekraanipaigutuses kohatäitena ja võimaldab teil kohandatud sisu jaoks ruumi reserveerida. Kohandatud juhtelement on saadaval ainult täispaigutuste puhul.
 
 ### <a name="compact-layout-designer"></a>Kompaktse paigutuse kujundaja
 
@@ -192,8 +192,8 @@ Nupupaneeli kujundaja võimaldab teil konfigureerida nupupaneele, mida kasutatak
 
         ![Kassa nuppude suurused ridades ja veergudes](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
-    - **Kohandatud font** – kui valite märkeruudu **Luba kassa jaoks kohandatud font**, saate valida muu fondi kui kassa süsteemi vaikefont.
-    - **Kohandatud kujundus** – vaikimisi kasutatakse kassa nuppude jaoks rõhuvärvi visuaalsest profiilist. Kui valite märkeruudu **Kasuta kohandatud kujundust**, saate määrata täiendavad värvid.
+    - **Kohandatud font** – kui valite märkeruudu **Luba kassa jaoks kohandatud font** , saate valida muu fondi kui kassa süsteemi vaikefont.
+    - **Kohandatud kujundus** – vaikimisi kasutatakse kassa nuppude jaoks rõhuvärvi visuaalsest profiilist. Kui valite märkeruudu **Kasuta kohandatud kujundust** , saate määrata täiendavad värvid.
 
         > [!NOTE]
         > Modern POS ja pilvekassa kasutavad ainult väärtusi **Taustavärv** ja **Fondi värv**.

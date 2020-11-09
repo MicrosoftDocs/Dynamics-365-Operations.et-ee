@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup
+ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup, WHSBatchAttribReserve
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7e94fb630afbe12a7fe3e791f59dca0bd38a0fc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 370893e415a79091404f1c4eb0404ba8fd5b9ff2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985629"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017524"
 ---
 # <a name="batch-attributes"></a>Partii atribuudid
 
@@ -43,7 +43,7 @@ Atribuutide arvu ja tüüpide paremini haldamiseks saate kasutada partii atribuu
 Saate määrata partii atribuudid varude partiides hoitavatele üksikutele toodetele või kindlate klientidega seostatud toodetele. Enne partii atribuudi määramist peate määrama selle toote tasemel. Tootel peab olema jälgimisdimensioonigrupis määratud partiidimensiooni väärtuseks **Aktiivne**. Partii atribuudi määramiseks üksikule tootele kasutage tootekohast lehte. Kui atribuut on kliendi jaoks loodud toote kohane, kasutage kliendikohast lehte. Tootele atribuudi lisamisel saate määratleda ka muud parameetrid. Järgmisena on toodud mõned näited.
 
 -   Atribuudi tüübiga **Täisarv** või **Murd** miinimum- ja maksimumvahemikud.
--   Atribuudi, mille tüüp on **Täisarv** või **Murd**, hälbetegevused. Kui atribuudi väärtus jääb väljapoole miinimum- ja maksimumvahemikku, saab tegevus olla kas hoiatus- või tõrketeade.
+-   Atribuudi, mille tüüp on **Täisarv** või **Murd** , hälbetegevused. Kui atribuudi väärtus jääb väljapoole miinimum- ja maksimumvahemikku, saab tegevus olla kas hoiatus- või tõrketeade.
 -   Atribuudi sihtväärtus. See väärtus on atribuudi optimaalne väärtus ja see rakendub kõigile atribuuditüüpidele.
 
 Pääsete juurde mooduli Tooteteabe haldus lehel **Väljastatud tooted** valitud toodete lehtedele. Pärast tootele partii atribuutide määramist saate lehel **Varude partii atribuudid** lisada atribuutidele kindlad väärtused.

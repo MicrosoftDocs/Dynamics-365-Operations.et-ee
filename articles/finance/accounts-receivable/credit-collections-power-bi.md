@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598054"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040049"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Krediidi ja võlanõuete halduse Power BI sisu
 
@@ -46,11 +46,14 @@ Vaikimisi kuvatakse praeguse ettevõtte krediidi ja võlanõuete andmed. Andmete
 
 **Klientide krediidihaldus ja võlanõuded** Power BI visuaalide kuvamiseks tuleb teha järgmine seadistus.
 
-1. Avage **Süsteemihaldus > Seadistamine > Süsteemi parameetrid**, et määrata **Süsteemi valuuta** ja **Süsteemi vahetuskurss**.
-2. Avage jaotis **Pearaamat > Kalendrid > Rahanduskalendrid**, et kinnitada aktiivsele ajavahemikule määratud rahanduskalendri kuupäevad.
+1. Avage **Süsteemihaldus > Seadistamine > Süsteemi parameetrid** , et määrata **Süsteemi valuuta** ja **Süsteemi vahetuskurss**.
+2. Avage jaotis **Pearaamat > Kalendrid > Rahanduskalendrid** , et kinnitada aktiivsele ajavahemikule määratud rahanduskalendri kuupäevad.
 3. Avage **Üldine pearaamat > Seadistus > Pearaamat** ja määrake **Raamatupidamise valuutat** ja **Vahetuskursi tüüpi**.
 4. Määratlege vahetuskursid kannete valuutade ja arvestusvaluuta, raamatupidamise valuuta ja süsteemi valuuta vahel. Selleks avage **Pearaamat > Valuutad > Valuutakursid**.
-5. Avage **Süsteemihaldus > Seadistamine > Üksuse kauplus**, et värskendada **CustCollectionsBIMeasurementsV2** koondmõõtmist.
+5. Avage **Süsteemihaldus > Seadistamine > Üksuse kauplus** , et värskendada **CustCollectionsBIMeasurementsV2** koondmõõtmist.
+
+>[!NOTE] 
+> Ajalise jaotuse perioodi määratlused tuleb seadistada jaotises **Müügireskontro parameetrid > Kogumid > Kogumite vaikeväärtused** , et lubada ajalise jaotuse andmed Power BI sisus.
 
 ## <a name="accessing-the-power-bi-content"></a>Juurdepääs Power BI sisule
 

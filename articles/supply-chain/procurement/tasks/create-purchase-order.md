@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: ec91174f291bcfa7027a93ca344823561cc29e3f
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383224"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018146"
 ---
 # <a name="create-a-purchase-order"></a>Ostutellimuse loomine
 
@@ -45,7 +45,7 @@ Selles teemas näidatakse teile, kuidas luua ostutellimust käsitsi. Koondplanee
 ## <a name="add-a-purchase-order-line"></a>Ostutellimuse rea lisamine
 1. Valige rida **Ostutellimus**.
 2. Valige **Dimensioonid**. Toodetel võivad olla variandid, mis on eristatavad dimensioonidega, nagu värv, suurus või stiil. Tooteid saab seadistada ka nii, et need kasutavad laoala dimensioone, nagu tegevuskoht ja ladu. On olemas ka valikulised jälgimisdimensioonid, nagu partii- ja seerianumber. Tellimuse sisestamise tõhususe parandamiseks saate lisada sagedamini kasutatavad dimensiooniväljad otse tellimuse ruudustikku.  
-3. Märkige märkeruut **Värv**. Valikuline: kui valite välja **Salvesta seadistus**, kuvatakse teie valitud dimensioonid tellimusrea ruudustikus järgmine kord kui avate ostutellimuse lehe.  
+3. Märkige märkeruut **Värv**. Valikuline: kui valite välja **Salvesta seadistus** , kuvatakse teie valitud dimensioonid tellimusrea ruudustikus järgmine kord kui avate ostutellimuse lehe.  
 4. Valige nupp **OK**.
 5. Valige väljal **Kaubakood** väärtus **T0004**.
 
@@ -60,7 +60,7 @@ Selles teemas näidatakse teile, kuidas luua ostutellimust käsitsi. Koondplanee
     - Väli **Ühiku hind** sisaldab tavaliselt väärtust kas ostulepingust või kaubandusleppest. Ühiku hinda on võimalik üksikute tellimuse ridade puhul muuta, näiteks siis, kui hankijaga lepitakse kokku ainulaadne hind.  
     - Väli **Allahindlus** väljendab allahindluse summat ühiku kohta. See allahindlus vähendab seega ühiku hinda allahindluse võrra. See allahindlus tuleb tavaliselt automaatselt ostulepingutest või kaubanduslepetest, kuid seda on võimalik üksikutel ridadel tühistada, kui ainulaadsed allahindlused on hankijaga kokku lepitud.  
     - Saab sisestada allahindluse protsendi, mis vähendab rea netosummat vastavalt. See allahindluse protsent tuleb tihti automaatselt ostulepingutest või kaubanduslepetest, kuid seda on võimalik üksikutel ridadel tühistada, kui ainulaadne allahindluse protsent on hankijaga kokku lepitud.  
-    - Väärtus väljal **Netosumma** on arvutatud rea teiste väljade põhjal, sealhulgas kogus, ühiku hind, allahindlus ja allahindluse protsent. Netosummat on võimalik muuta, kuid väljad **Ühiku hind**, **Allahindlus** ja **Allahindluse protsent** jäävad tühjaks ja kui sisestate rea suunas, on sisestatud summa proportsionaalne netosummaga. Tavaliselt kasutatakse välja **Netosumma** ainult rea netosumma kuvamiseks.  
+    - Väärtus väljal **Netosumma** on arvutatud rea teiste väljade põhjal, sealhulgas kogus, ühiku hind, allahindlus ja allahindluse protsent. Netosummat on võimalik muuta, kuid väljad **Ühiku hind** , **Allahindlus** ja **Allahindluse protsent** jäävad tühjaks ja kui sisestate rea suunas, on sisestatud summa proportsionaalne netosummaga. Tavaliselt kasutatakse välja **Netosumma** ainult rea netosumma kuvamiseks.  
 
 8. Laiendage jaotist **Rea üksikasjad**.
 9. Valige vahekaart **Tarne**. Igale reale määratakse unikaalne tarnekuupäev. Kuupäev on päritud ostutellimuse päise väljalt, kuid saate seda muuta.  
@@ -68,9 +68,9 @@ Selles teemas näidatakse teile, kuidas luua ostutellimust käsitsi. Koondplanee
 ## <a name="review-order-totals"></a>Tellimuse kogusummade ülevaatamine
 1. Valige **Kogusummad**.
 
-    - Kui te ei näe toimingut **Kogusummad**, valige toimingupaanil vahekaart **Ostutellimus**.  
+    - Kui te ei näe toimingut **Kogusummad** , valige toimingupaanil vahekaart **Ostutellimus**.  
     - See dialoogiboks kuvab kogu tellimuse kogusummad.  
-    - Väli **Valik** lubab teil muuta kogusummade arvutamise alust. Näiteks saate valida **Toote sissetuleku kogus**, et näidata kogusummasid, mis on seotud saadu toote/toodete summaga või **Tellitud kogus**, et näidata tellitud toodete hulka.  
+    - Väli **Valik** lubab teil muuta kogusummade arvutamise alust. Näiteks saate valida **Toote sissetuleku kogus** , et näidata kogusummasid, mis on seotud saadu toote/toodete summaga või **Tellitud kogus** , et näidata tellitud toodete hulka.  
 
 2. Valige nupp **OK**.
 

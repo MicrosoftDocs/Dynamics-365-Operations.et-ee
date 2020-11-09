@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 37d0841b656153255b9230a60229d30064b81fbe
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212614"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016581"
 ---
 # <a name="visibility-into-material-exceptions"></a>Materjalierandite nähtavus
 
@@ -34,7 +34,7 @@ Tööruumis **Tootmisosakonna haldus** pakuvad kolm paani teile tootmistellimust
 - Tähelepanu vajavad töötlemata vood
 - Tähelepanu vajav avatud laotöö
 
-Kõigi kolme paani puhul võrreldakse koosluseridade ja valemiridade toormaterjali kuupäeva tööruumi kuupäeva ning filtritega **Tootmisüksus**, **Ressursigrupp** ja **Ressurss**, mis on määratud menüüs **Minu tööruumi konfigureerimine**. Vaikimisi on tööruumi kuupäevaks seatud praegune kuupäev, kuid saate seda reguleerida.
+Kõigi kolme paani puhul võrreldakse koosluseridade ja valemiridade toormaterjali kuupäeva tööruumi kuupäeva ning filtritega **Tootmisüksus** , **Ressursigrupp** ja **Ressurss** , mis on määratud menüüs **Minu tööruumi konfigureerimine**. Vaikimisi on tööruumi kuupäevaks seatud praegune kuupäev, kuid saate seda reguleerida.
 
 Väljastamata koosluse- või valemirida nõuab tähelepanu, kui rea toormaterjali kuupäev on sama või varasem kui tööruumi kuupäev ja kui see vastab tööruumi filtritega määratletud kriteeriumidele.
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 968777b918d59b810a189139fbf4d6fee1b5d3f5
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529979"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017157"
 ---
 # <a name="location-product-dimension-mixing"></a>Asukoha tootedimensioonide segamine
 
@@ -73,13 +74,13 @@ Igal asukohal laos on vaja sellega seotud asukohaprofiili, mis kirjeldab asukoha
 
 1. Eelmääratletud variantide vaatamiseks valige toimingupaanil **Tootevariandid**.
 
-    Kuvatakse leht **Tootevariandid**, mis sisaldab suuruse grupi konfiguratsiooni variantide loendit.
+    Kuvatakse leht **Tootevariandid** , mis sisaldab suuruse grupi konfiguratsiooni variantide loendit.
 
 ### <a name="release-products-to-the-usmf-company"></a>Toodete väljastamine ettevõtetele USMF
 
 1. Valige toimingupaanil suvand **Toodete väljastamine**.
-1. Kinnitage lehel **Toodete valimine väljastamiseks**, et tootenumber *B0001* oleks loendis ja seejärel valige **Edasi**.
-1. Valige **Edasi**, et kinnitada väljastatavad tootevariandid.
+1. Kinnitage lehel **Toodete valimine väljastamiseks** , et tootenumber *B0001* oleks loendis ja seejärel valige **Edasi**.
+1. Valige **Edasi** , et kinnitada väljastatavad tootevariandid.
 1. Valige lehel **Ettevõttete valimine, kuhu väljastada** suvand *USMF* ja klõpsake valiku kinnitamiseks **Edasi**.
 1. Valige lehel **Valiku kinnitamine** väljastamise lõpule viimiseks **Valmis**.
 
@@ -89,7 +90,7 @@ Igal asukohal laos on vaja sellega seotud asukohaprofiili, mis kirjeldab asukoha
 
 1. Veenduge, et olete sisse logitud ettevõttesse **USMF**.
 1. Väljastatud toote loomise lõpetamiseks minge jaotisse **Tooteteabe haldus \> Tooted \> Väljastatud tooted**.
-1. Otsige ja valige kaubakood *B0001*, et avada leht **Väljastatud toote üksikasjad**.
+1. Otsige ja valige kaubakood *B0001* , et avada leht **Väljastatud toote üksikasjad**.
 1. Valige Toimingupaanil nupp **Redigeeri**.
 1. Veenduge, et kiirkaardi **Üldine** välja **Kauba mudeligrupp** väärtuseks on seatud *FIFO*.
 1. Tehke toimingupaani vahekaardil **Toode** grupis **Häälesta** valik **Dimensioonigrupid**.
@@ -113,7 +114,7 @@ Igal asukohal laos on vaja sellega seotud asukohaprofiili, mis kirjeldab asukoha
 1. Minge jaotisse **Laohaldus \> Seadistus \> Asukohakorraldused**.
 1. Valige vasakpoolse paani väljal **Töökäsu tüüp** suvand *Ostutellimused*.
 1. Valige loendis asukohakorraldus, mille nimi on *24 otse-PO*.
-1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus**, et lisada rida ruudustikku.
+1. Valige kiirkaardil **Asukohakorralduse tegevused** suvand **Uus** , et lisada rida ruudustikku.
 1. Määrake uuel real järgmised väärtused.
 
     - **Järjekorranumber:** *1*
@@ -127,7 +128,7 @@ Igal asukohal laos on vaja sellega seotud asukohaprofiili, mis kirjeldab asukoha
     - **Strateegia:** *Puudub*
 
 1. Kui uus rida on valitud, valige ruudustiku kohal **Päringu redigeerimine**.
-1. Valige päringu dialoogiboksis vahekaardil **Vahemik** suvand **Lisa**, et lisada rida ruudustikule.
+1. Valige päringu dialoogiboksis vahekaardil **Vahemik** suvand **Lisa** , et lisada rida ruudustikule.
 1. Määrake uuel real järgmised väärtused.
 
     - **Tabel:** *Asukohad*
@@ -144,7 +145,7 @@ Igal asukohal laos on vaja sellega seotud asukohaprofiili, mis kirjeldab asukoha
 ### <a name="create-a-mobile-device-menu-item"></a>Mobiilse seadme menüü-üksuse loomine
 
 1. Avage **Laohaldus \> Seadistus \> Mobiilne seade \> Mobiilse seadme menüü-üksused**.
-1. Valige toimingupaanil **Uus**, et luua menüü-üksus sortimise jaoks.
+1. Valige toimingupaanil **Uus** , et luua menüü-üksus sortimise jaoks.
 1. Määrake päises järgmised väärtused.
 
     - **Menüü-üksuse nimi:** *Vastuvõttev ostutellimuse rida*
@@ -172,7 +173,7 @@ Igal asukohal laos on vaja sellega seotud asukohaprofiili, mis kirjeldab asukoha
 
 See demostsenaarium näitab, kuidas kahte erinevat tootevarianti saab lisada samasse asukohta, kui asukohaprofiil ei luba segakaupu, kuid funktsioon *Asukohatoote dimensiooni segamine* on lubatud. Sellisel juhul saate kasutada varianti **Suurus** kriteeriumina.
 
-Enne alustamist veenduge, et laos *24*, mis kasutab asukohaprofiili *HULGI*, poleks tühjasid asukohti.
+Enne alustamist veenduge, et laos *24* , mis kasutab asukohaprofiili *HULGI* , poleks tühjasid asukohti.
 
 ### <a name="create-a-purchase-order"></a>Ostutellimuse loomine
 
@@ -193,13 +194,13 @@ Loote ostutellimuse, millel on kolm rida: kaks rida sama tootenumbriga, kuid eri
     - **Suurus** *L*
     - **Kogus:** *2*
 
-1. Valige ruudustiku kohal **Lisa rida**, et lisada teine ostutellimuse rida ja seadke järgmised väärtused.
+1. Valige ruudustiku kohal **Lisa rida** , et lisada teine ostutellimuse rida ja seadke järgmised väärtused.
 
     - **Kauba kood:** *B0001*
     - **Suurus** *XL*
     - **Kogus:** *2*
 
-1. Valige **Lisa rida**, et lisada kolmas ostutellimuse rida ja seadke järgmised väärtused.
+1. Valige **Lisa rida** , et lisada kolmas ostutellimuse rida ja seadke järgmised väärtused.
 
     - **Kauba kood:** *A0001*
     - **Kogus:** *1*
@@ -215,7 +216,7 @@ Loote ostutellimuse, millel on kolm rida: kaks rida sama tootenumbriga, kuid eri
 1. Kinnitage kirje, valides lehe allosas kinnitamise nupu (✔).
 1. Sisestage sissetuleva ostutellimuse rea number. Valige väli **LINENUM** ja seejärel kasutage numbriklahvistikku väärtuse *1* sisestamiseks.
 1. Kinnitage kirje.
-1. Sisestage sissetulev kogus. Valige plussmärgi nupp (**+**) kaks korda, et suurendada välja **Kogus** väärtuseks *2*.
+1. Sisestage sissetulev kogus. Valige plussmärgi nupp ( **+** ) kaks korda, et suurendada välja **Kogus** väärtuseks *2*.
 1. Registreerige oma kirje, valides lehe allosas nupu (✔) ja seejärel kinnitage oma kirje, valides nupu (✔) uuesti.
 1. Vaadake teavet lehel **Ostutellimused: sisestatud**. Sellel lehel kuvatakse ladustamiseks loodud töö (Töö 1).
 
@@ -234,7 +235,7 @@ Loote ostutellimuse, millel on kolm rida: kaks rida sama tootenumbriga, kuid eri
 
     Luuakse uus ladustamise töö (Töö 4) ostutellimuse ridadel 1 ja 2 kasutatud asukohast erinevas asukohas. Selline käitumine ilmneb seetõttu, et asukohaprofiil ei luba segatooteid, kuid see lubab segadimensioone samal tooteetalonil.
 
-1. Valige lehe ülaosas nupp Menüü (nimetatakse mõnikord hamburgeriks või hamburgeri nupuks) ja seejärel valige **Tühista**, et väljuda suvandist **Vastuvõttev ostutellimuse rida**.
+1. Valige lehe ülaosas nupp Menüü (nimetatakse mõnikord hamburgeriks või hamburgeri nupuks) ja seejärel valige **Tühista** , et väljuda suvandist **Vastuvõttev ostutellimuse rida**.
 
 > [!TIP]
-> Võite seda stsenaariumi korrata, kuid määrake seekord jaotise *HULGI* **Asukohaprofiilid** kiirkaardil **Luba tootedimensioonide segamine** suvandi väärtuseks **Suurus** - *Ei*, et ühtegi tootedimensiooni ei saaks segada. Sellisel juhul pannakse ostutellimuse vastuvõtmisel iga tootevariant uude asukohta.
+> Võite seda stsenaariumi korrata, kuid määrake seekord jaotise *HULGI* **Asukohaprofiilid** kiirkaardil **Luba tootedimensioonide segamine** suvandi väärtuseks **Suurus** - *Ei* , et ühtegi tootedimensiooni ei saaks segada. Sellisel juhul pannakse ostutellimuse vastuvõtmisel iga tootevariant uude asukohta.

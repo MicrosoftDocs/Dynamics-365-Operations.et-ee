@@ -3,7 +3,7 @@ title: Maksemoodul
 description: See teema hõlmab maksemoodulit ja kirjeldab, kuidas seda rakenduses Microsoft Dynamics 365 Commerce konfigureerida.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4267391edaf70ec645933b2c5c08a72735f52894
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 894ac35973927c193d6e9c54e326daefb8a3f4a5
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818322"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055377"
 ---
 # <a name="payment-module"></a>Maksemoodul
 
@@ -42,6 +42,9 @@ Maksemoodul hõlmab kõiki tellimuse tasusid, mis jäävad pärast boonuspunktid
 
 Adyeni maksekonnektor toetab ka tugevat kliendi autentimist (SCA). Euroopa Liidu (EL) teise makseteenuste direktiivi (PSD2.0) järgi tuleb veebipoe külastajaid elektroonilise makseviisi kasutamise korral autentida väljaspool veebipoe keskkonda. Maksmisvoo ajal suunatakse kliendid nende pangasaidile. Seejärel suunatakse nad pärast autentimist tagasi Commerce'i maksmisvoogu. Tagasisuunamise ajal näidatakse teavet, mille klient maksmisvoos sisestas (nt tarneaadress, tarnevalikud, kinkekaardi- ja püsiklienditeave). Enne selle funktsiooni sisselülitamist peab maksekonnektor Commerce'i peakontoris SCA jaoks olema konfigureeritud. Lisateavet leiate teemast [Tugev kliendi autentimine Adyeni kaudu](adyen_redirect.md).
 
+> [!NOTE]
+> Adyeni maksekonnektori puhul saab maksemoodulis olevat moodulit iFrame renderdada ainult juhul, kui lisate Adyeni oma saidi lubatud URL-ide loendisse. Selle etapi lõpule viimiseks lisage **\*.adyen.com** oma saidi sisu turbepoliitika direktiividele **child-src** , **connect-src** , **img-src** , **script-src** ja **style-src**. Lisateavet leiate teemast [Sisu turbepoliitika haldamine](manage-csp.md). 
+
 Järgmisel illustratsioonil on näide kinkekaardi, boonuspunktide ja maksemoodulitest maksmise lehel.
 
 ![Kinkekaardi, boonuspunktide ja maksemoodulite näide maksmise lehel](./media/ecommerce-payments.PNG)
@@ -52,12 +55,12 @@ Järgmisel illustratsioonil on näide kinkekaardi, boonuspunktide ja maksemoodul
 |---------------|--------|-------------|
 | Pealkiri | Pealkirja tekst | Maksemooduli valikuline pealkiri. |
 | IFrame'i kõrgus | Pikslid | IFrame'i kõrgus pikslites. Kõrgust saab vajaduse järgi reguleerida. |
-| Kuva arveaadress | **Tõene** või **Väär** | Kui selle atribuudi väärtuseks on seatud **Tõene**, näitab Adyen arveaadressi maksemooduli iFrame'i sees. Kui selle väärtuseks on seatud **Väär**, ei näita Adyen arveaadressi ja Commerce'i kasutaja peab konfigureerima mooduli, et näidata maksmise lehel arveaadressi. |
+| Kuva arveaadress | **Tõene** või **Väär** | Kui selle atribuudi väärtuseks on seatud **Tõene** , näitab Adyen arveaadressi maksemooduli iFrame'i sees. Kui selle väärtuseks on seatud **Väär** , ei näita Adyen arveaadressi ja Commerce'i kasutaja peab konfigureerima mooduli, et näidata maksmise lehel arveaadressi. |
 | Makse stiili tühistamine | Kaskaadlaadistiku (CSS) kood | Kuna maksemoodulit majutatakse iFrame'is, on laadi muutmine piiratud. Selle atribuudi abil saate laadi veidi muuta. Saidi laadide alistamiseks peate kleepima CSS-koodi selle atribuudi väärtusena. Selle mooduli puhul ei rakendu saidiehitaja CSS-i alistused ja laadid. |
 
 ## <a name="billing-address"></a>Arveaadress
 
-Maksemoodul võimaldab klientidel sisestada oma makseteabes arveaadressi. Samuti võimaldab see neil kasutada arveaadressina oma tarneaadressi, et muuta maksmisvoog lihtsamaks ja kiiremaks. Kui atribuudi **Näita arveaadressi** väärtuseks on seatud **Väär**, tuleb maksemoodul konfigureerida maksmise lehel.
+Maksemoodul võimaldab klientidel sisestada oma makseteabes arveaadressi. Samuti võimaldab see neil kasutada arveaadressina oma tarneaadressi, et muuta maksmisvoog lihtsamaks ja kiiremaks. Kui atribuudi **Näita arveaadressi** väärtuseks on seatud **Väär** , tuleb maksemoodul konfigureerida maksmise lehel.
 
 ## <a name="add-a-payment-module-to-a-checkout-page-and-set-the-required-properties"></a>Maksmise lehele maksemooduli lisamine ja vajalike atribuutide seadistamine
 

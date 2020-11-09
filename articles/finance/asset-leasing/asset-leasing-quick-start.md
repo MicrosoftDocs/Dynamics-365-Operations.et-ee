@@ -3,7 +3,7 @@ title: Vara rentimise funktsiooni kasutamise alustamine
 description: Selles teemas kirjeldatakse vara rentimise võimalust ja näidatakse, kuidas renditavat vara luua ja nende varade teavet vaadata.
 author: moaamer
 manager: Ann Beebe
-ms.date: 09/24/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5f8f86861f65f3da71843f6fd4a64e4199e86627
-ms.sourcegitcommit: 9668af8d918faec37abe1881e550872cd6b73259
+ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970004"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022563"
 ---
 # <a name="asset-leasing-get-started"></a>Vara rentimise funktsiooni kasutamise alustamine
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas kirjeldatakse vara rentimise võimalust ja näidatakse, kuidas renditavat vara luua ja nende varade teavet vaadata. Teemas on toodud ka kasutajaliideses ja dokumentatsioonis kasutatud terminoloogia. Vara rentimine on täiustatud võimalus renditavate varade finantskannete haldamiseks, jälgimiseks ja automatiseerimiseks teenuses Microsoft Dynamics 365 Finance. Vara rentimise funktsioon vastab rahvusvahelistele raamatupidamisstandarditele (IFRS 16) ja Ameerika Ühendriikide üldaktsepteeritavate raamatupidamispõhimõtete (GAAP) standarditele (ASC 842). Vara rentimise funktsioon kogub ja töötleb renditavate varade põhiteavet ning aitab luua töölehe sisestusi terve renditava vara elutsükli jooksul alates esialgsest tuvastamisest, igakuistest töölehe sisestustest kuni renditava vara väärtuse langemiseni ja rentimise lõppemiseni. Vara rentimise funktsioon integreerub sujuvalt teiste rakenduse Dynamics 365 Finance komponentidega, sealhulgas põhivarad, ostureskontro ja pearaamat.
 
@@ -72,7 +71,7 @@ Järgmine diagramm näitab rendiraamatut, renditeavet, arvutatud maksegraafikut,
 
 - **Liitintervall** – see näitab perioodide arvu, mille korral intress aasta jooksul koguneb. See võib olla kord kuus (12 perioodi aastas), kord kvartalis (4 perioodi aastas), kord poole aasta tagant (2 perioodi aastas) või kord aastas (1 periood aastas). Perioodide arv võetakse arvesse praeguse väärtuse arvutamisel.
 
-- **Alguskuupäev** – see on kuupäev, mil rendileandja annab vara rentnikule kasutamiseks üle. Kõik rendiarvutused ja -kanded põhinevad alguskuupäeval. Alguskuupäev peaks olema perioodi alguses (kuu esimene päev), et tagada järgnevate arvutuste täpsus. Saate kasutada välja **Lepingu allkirja kuupäev**, et sisestada lepingu allkirjastamise tegelik kuupäev.
+- **Alguskuupäev** – see on kuupäev, mil rendileandja annab vara rentnikule kasutamiseks üle. Kõik rendiarvutused ja -kanded põhinevad alguskuupäeval. Alguskuupäev peaks olema perioodi alguses (kuu esimene päev), et tagada järgnevate arvutuste täpsus. Saate kasutada välja **Lepingu allkirja kuupäev** , et sisestada lepingu allkirjastamise tegelik kuupäev.
 
 - **Rendiperiood** – see on rendiperioodi pikkus kuudes.
 
@@ -209,7 +208,7 @@ See kajastab kasutamisõiguse esemeks olev vara ülekantavat bilansi vähendamis
 ## <a name="create-an-asset-lease"></a>Renditava vara loomine
 Uue renditava vara loomiseks läbige järgmised etapid. 
 
-1. Funktsiooni **Vara rentimine** kasutamiseks peate selle lubama tööruumis **Funktsioonihaldus**. Valige tööruumis **Funktsioonihaldus** suvand **Kõik**, et kõik funktsioonid oleksid lehel loetletud. Valige **Vara rentimine** ja seejärel valige **Luba kohe**.
+1. Funktsiooni **Vara rentimine** kasutamiseks peate selle lubama tööruumis **Funktsioonihaldus**. Valige tööruumis **Funktsioonihaldus** suvand **Kõik** , et kõik funktsioonid oleksid lehel loetletud. Valige **Vara rentimine** ja seejärel valige **Luba kohe**.
 2. Avage **Vara rentimine > Ühine > Rendi kokkuvõte**. Sisestage kiirkaardil **Üldine** vajalikud väljad. 
    - **Rendi üksikasjad**
    - **Vara kasulik tööiga (kuudes)**
@@ -226,19 +225,19 @@ Uue renditava vara loomiseks läbige järgmised etapid.
 
 5. Aktiveerige kiirkaart **Üldine**. Arvutatakse **Esialgne kasutamisõiguse esemeks olev vara** ja **rendikohustis**. 
 
-6. Avage kiirkaart **Rendi klassifikatsioonitest**, et kontrollida välja **Rendi tüüp** väärtust. 
+6. Avage kiirkaart **Rendi klassifikatsioonitest** , et kontrollida välja **Rendi tüüp** väärtust. 
 
    Automaatne **rendi tüüp** liigitatakse kriteeriumide alusel, mis on määratletud lehel **Raamatud**.
 
-7.  Avage **Maksegraafik**, mis asub jaotises **Funktsioon**.  
+7.  Avage **Maksegraafik** , mis asub jaotises **Funktsioon**.  
 
-   Lehel **Maksegraafik** on loetletud rendi ID tulevased maksegraafikud. Valige **Kinnita graafik**, et saaksite sisestada **esialgse tuvastamise** kanded. 
+   Lehel **Maksegraafik** on loetletud rendi ID tulevased maksegraafikud. Valige **Kinnita graafik** , et saaksite sisestada **esialgse tuvastamise** kanded. 
 
 [![Esialgse tuvastamise funktsioon](./media/overview-13.png)](./media/overview-13.png)
 
-8. Valige **Esialgne tuvastamine**, et luua esialgse tuvastamise tööleht. 
+8. Valige **Esialgne tuvastamine** , et luua esialgse tuvastamise tööleht. 
 
-9. Valige **Vara rentimise töölehed**, et sisestada esialgse tuvastamise kanne. 
+9. Valige **Vara rentimise töölehed** , et sisestada esialgse tuvastamise kanne. 
 
    Maksegraafikust saate avada üksikasjaliku lehe, kus on loetletud kasutamisõiguse esemeks olev vara kanded. 
  

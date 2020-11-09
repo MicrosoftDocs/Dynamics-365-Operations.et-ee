@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 6fb71a17d767a1e84511743794d85523db25eba8
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275437"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997346"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Probleemide tõrkeotsing esmase häälestamise ajal
 
@@ -41,7 +40,7 @@ See teema annab teavet rakendustekomplekti Finance and Operations ja Common Data
 
 **Topeltkirjutuse seadistamiseks nõutav roll:** Finance and Operationsi rakenduste ja Common Data Service'i süsteemiadministraator.
 
-Tõrkeid lehel **Common Data Service'i häälestuse link** põhjustab tavaliselt puudulik häälestus või lubade probleemid. Veenduge, et kogu seisundikontroll läbitakse lehel **Common Data Service'i häälestuse link**, nagu näidatud järgmisel joonisel. Topeltkirjutust ei saa linkida, kui tervet seisundikontrolli pole läbitud.
+Tõrkeid lehel **Common Data Service'i häälestuse link** põhjustab tavaliselt puudulik häälestus või lubade probleemid. Veenduge, et kogu seisundikontroll läbitakse lehel **Common Data Service'i häälestuse link** , nagu näidatud järgmisel joonisel. Topeltkirjutust ei saa linkida, kui tervet seisundikontrolli pole läbitud.
 
 ![Edukas seisundikontroll](media/health_check.png)
 
@@ -51,11 +50,11 @@ Keskkondade Finance and Operations ja Common Data Service linkimiseks peab teil 
 
 **Probleemi lahendamiseks nõutav mandaat:** Azure AD rentniku admin
 
-Kui proovite avada rakenduses Finance and Operations lehte **Common Data Service'i link**, võidakse kuvada järgmine tõrketeade.
+Kui proovite avada rakenduses Finance and Operations lehte **Common Data Service'i link** , võidakse kuvada järgmine tõrketeade.
 
 *Vastuse oleku kood ei näita edu: 404 (ei leitud).*
 
-See tõrge ilmneb, kui nõusoleku etappi pole lõpule viidud. Selleks, et kontrollida, kas nõusoleku etapp on lõpule viidud, logige sisse lehele portal.Azure.com Azure AD rentniku administraatori kontoga ja kontrollige, kas kolmanda osapoole rakendus, mille ID on **33976c19-1db5-4c02-810e-c243db79efde**, kuvatakse Azure AD **Ettevõtte rakenduste** loendis. Kui seda pole, peate andma rakenduse nõusoleku.
+See tõrge ilmneb, kui nõusoleku etappi pole lõpule viidud. Selleks, et kontrollida, kas nõusoleku etapp on lõpule viidud, logige sisse lehele portal.Azure.com Azure AD rentniku administraatori kontoga ja kontrollige, kas kolmanda osapoole rakendus, mille ID on **33976c19-1db5-4c02-810e-c243db79efde** , kuvatakse Azure AD **Ettevõtte rakenduste** loendis. Kui seda pole, peate andma rakenduse nõusoleku.
 
 Rakenduse nõusoleku andmiseks toimige järgmiselt.
 
@@ -63,7 +62,7 @@ Rakenduse nõusoleku andmiseks toimige järgmiselt.
 
     <https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent>
 
-2. Valige **Nõustu**, et kinnitada oma nõusolekut rakenduse installimiseks, millel on teie rentniku ID **33976c19-1db5-4c02-810e-c243db79efde**.
+2. Valige **Nõustu** , et kinnitada oma nõusolekut rakenduse installimiseks, millel on teie rentniku ID **33976c19-1db5-4c02-810e-c243db79efde**.
 
     > [!TIP]
     > See rakendus on nõutav rakendusre Common Data Service ja Finance and Operations linkimiseks. Kui teil on selle etapiga probleeme, avage brauser inkognito-režiimis (Google Chrome'is) või InPrivate-režiimis (rakenduses Microsoft Edge).

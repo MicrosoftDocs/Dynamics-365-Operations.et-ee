@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 22ebe1640f17163351b63710534052ce3d810986
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: a210af5e37e12d883054d46719602604870213b4
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652055"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012409"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Mis on uut ja mida on muudetud rakenduses Dynamics 365 Supply Chain Management 10.0.12. (august 2020)?
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi eelvaateversiooni 10.0.12 uusi või muutunud funktsioone. Selle versiooni number on 10.0.507 ja see on saadaval järgmiselt:
+Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Management 10.0.12 uusi või muutunud funktsioone. Selle versiooni number on 10.0.507 ja see on saadaval järgmiselt:
 
 - **Eelvaateversiooni välja andmine:** mai 2020
 - **Üldine saadavus (enesevärskendus):** juuli 2020
@@ -39,13 +39,21 @@ Selles teemas loendatakse Microsoft Dynamics 365 Supply Chain Managementi eelvaa
 See väljalase hõlmab järgmisi funktsioone. Funktsioonide pealkirjad on lingitud saidiga [Väljalaske plaanid](https://docs.microsoft.com/dynamics365/release-plans/) lisateabe andmiseks. Täiendavad lingid viitavad täiendavatele dokumentidele või videotele, mis on selle funktsiooni jaoks praegu saadaval. Suurem osa neist funktsioonidest tuleb enne kasutamist [Funktsioonihalduse](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) abil lubada.
 
 - [Töökaardi puuteekraani lukustamise lubamine desinfitseerimiseks](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Lisateavet vt [Seadmete töökaartide konfigureerimine](../production-control/config-job-card-device.md).
+
 - [Toote variantide saamine ja jälgimisdimensioonid lao rakenduses koormakauba vastuvõtmisel](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Lisateavet vt teemast [Mobiilsete seadmete häälestamine laotöö jaoks](../warehousing/configure-mobile-devices-warehouse.md).
+
 - Kuluarvutuse tase (uus BOM-tase)<br> - Lisateavet vt jaotisest [Kuluarvutuse tase](../cost-management/cost-calculation-level.md).
+
 - [Dynamics 365 Supply Chain Management kliendiportaal](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Lisateabe saamiseks vt [Dynamics 365 Supply Chain Management kliendiportaali ülevaade](../sales-marketing/customer-portal-overview.md).
+
 - [IoT intellektuaalomandi põhiteadmised](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Lisateavet leiate jaotisest [IoT intellektuaalomandi koduleht](../iot/iot-intelligence-home-page.md).
+
 - [Laorakenduse identifitseerimisnumbri vastuvõtmise täiustused (jätkub)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Lisateabe saamiseks vaadake teemat [Litsentsiplaadi vastuvõtmine laorakenduse kaudu](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+
 - [Warehouse Mobile Appi massiline juurutamine](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Lisateavet vt teemast [Ülevaade lao rakenduse installimiseks ja konfigureerimiseks](../warehousing/install-configure-warehousing-app.md).
+
 - [Maksimaalne täitmisaeg laohalduse laoseisu kirjete puhastustööks](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Lisateabe saamiseks vt [Laohalduse vabade kannete puhastamise töö](../warehousing/onhand-cleanup.md).
+
 - [Ostukaubanduslepete optimeerimise planeerimise tugi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Lisateabe saamiseks vt [Põhiplaneerimine koos ostukaubanduslepetega](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Lisaressursid
