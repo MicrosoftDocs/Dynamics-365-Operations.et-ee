@@ -8,7 +8,7 @@ ms.topic: configure-wave-label-printing
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate
+ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: PJacobse
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: e3b04eea7bd7dd689f8a918820ffdb4a72d813dc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1f51ed9f05caede3d4f320ddb6b705e67df9aa1f
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986019"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016950"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Voo sildi printimise seadistamine ja kasutamine
 
@@ -134,7 +134,7 @@ Sildi paigutus juhib, milline teave sildil prinditakse ja kuidas see on paigutat
 
 1. Kui soovite printida veokirja ID-d, valige vahekaardil **Liitmised** tabel **Tööread** ja liitke sellega tabel **Saadetised**.
 1. Sulgege päringuredaktori dialoogiboks.
-1. Kiirkaardil **Printeri teksti paigutuse** on kolm jaotist, kuhu saate kirjutada printeri koodi: **Päise jaotis**, **Keha jaotis** ja **Jaluse jaotis**. Sisestage jaotise **Päise jaotis** väljale **Sildi päis** nõutava päise kood. Näiteks kui kasutate Zebra printereid, saate kasutada järgmist koodi.
+1. Kiirkaardil **Printeri teksti paigutuse** on kolm jaotist, kuhu saate kirjutada printeri koodi: **Päise jaotis** , **Keha jaotis** ja **Jaluse jaotis**. Sisestage jaotise **Päise jaotis** väljale **Sildi päis** nõutava päise kood. Näiteks kui kasutate Zebra printereid, saate kasutada järgmist koodi.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -251,7 +251,7 @@ Järgmisena looge voo sildi tüübile voo sildi mall.
 
     Kui olete lõpetanud, valige päringuredaktori dialoogiboksi sulgemiseks **OK**.
 
-1. Valige toimingupaanil suvand **Päringu redigeerimine**, et avada terve sildi malli päringuredaktori dialoogiboks.
+1. Valige toimingupaanil suvand **Päringu redigeerimine** , et avada terve sildi malli päringuredaktori dialoogiboks.
 1. Lisage päringuredaktori dialoogiboksis vahekaardile **Sortimine** rida, millel on järgmised sätted.
 
     - **Tabel:** *Tööread*
@@ -391,7 +391,7 @@ Voomallid võimaldavad teil linkida kindlaid voo meetodite eksemplare vastava vo
 
 1. Kui soovite printida veokirja ID-d, valige vahekaardil **Liitmised** tabel **Tööread** ja liitke sellega tabel **Saadetised**.
 1. Sulgege päringuredaktori dialoogiboks.
-1. Kiirkaardil **Printeri teksti paigutuse** on kolm jaotist, kuhu saate kirjutada printeri koodi: **Päise jaotis**, **Keha jaotis** ja **Jaluse jaotis**. Sisestage jaotise **Päise jaotis** väljale **Sildi päis** nõutava päise kood. Näiteks kui kasutate Zebra printereid, saate kasutada järgmist koodi.
+1. Kiirkaardil **Printeri teksti paigutuse** on kolm jaotist, kuhu saate kirjutada printeri koodi: **Päise jaotis** , **Keha jaotis** ja **Jaluse jaotis**. Sisestage jaotise **Päise jaotis** väljale **Sildi päis** nõutava päise kood. Näiteks kui kasutate Zebra printereid, saate kasutada järgmist koodi.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -534,9 +534,9 @@ Selle stsenaariumiga töötamiseks peavad teil olema installitud demoandmed ja p
 1. Avage **Laohaldus \> Seadistus \> Vood \> Voomallid**.
 2. Valige voomall, nt **62 Saadetise vaikemall**.
 3. Teisaldage kiirkaardil **Meetodid** meetod **Voo sildi printimine** veergu **Valitud meetodid**.
-4. Määrake veerus **Valitud meetodid** väärtus **Vooetapi kood**, nt *Pakk* meetodi **Voo sildi printimine** jaoks. Lisateavet vooetapi koodide kohta leiate teemast [Vooetapi koodid](wave-step-codes.md).
+4. Määrake veerus **Valitud meetodid** väärtus **Vooetapi kood** , nt *Pakk* meetodi **Voo sildi printimine** jaoks. Lisateavet vooetapi koodide kohta leiate teemast [Vooetapi koodid](wave-step-codes.md).
 5. Teisaldage meetod **Voo sildi printimine** teist korda veergu **Valitud meetodid**.
-6. Määrake veerus **Valitud meetodid** erinev väärtus **Vooetapi kood**, nt *Kaubaalus* teise meetodi **Voo sildi printimine** jaoks. Lisateavet vooetapi koodide kohta leiate teemast [Vooetapi koodid](wave-step-codes.md).
+6. Määrake veerus **Valitud meetodid** erinev väärtus **Vooetapi kood** , nt *Kaubaalus* teise meetodi **Voo sildi printimine** jaoks. Lisateavet vooetapi koodide kohta leiate teemast [Vooetapi koodid](wave-step-codes.md).
 
 ### <a name="create-three-wave-label-layouts"></a>Voo sildi kolme paigutuse loomine
 
@@ -583,7 +583,7 @@ Selle stsenaariumiga töötamiseks peavad teil olema installitud demoandmed ja p
 
 1. Kui soovite printida veokirja ID-d, valige vahekaardil **Liitmised** tabel **Tööread** ja liitke sellega tabel **Saadetised**. 
 1. Sulgege päringuredaktori dialoogiboks.
-1. Kiirkaardil **Printeri teksti paigutuse** on kolm jaotist, kuhu saate kirjutada printeri koodi: **Päise jaotis**, **Keha jaotis** ja **Jaluse jaotis**. Sisestage jaotise **Päise jaotis** väljale **Sildi päis** nõutava päise kood. Näiteks kui kasutate Zebra printereid, saate kasutada järgmist koodi.
+1. Kiirkaardil **Printeri teksti paigutuse** on kolm jaotist, kuhu saate kirjutada printeri koodi: **Päise jaotis** , **Keha jaotis** ja **Jaluse jaotis**. Sisestage jaotise **Päise jaotis** väljale **Sildi päis** nõutava päise kood. Näiteks kui kasutate Zebra printereid, saate kasutada järgmist koodi.
 
 
     ```plaintext
@@ -695,7 +695,7 @@ Selle stsenaariumiga töötamiseks peavad teil olema installitud demoandmed ja p
 
 1. Kui soovite printida veokirja ID-d, valige vahekaardil **Liitmised** tabel **Tööread** ja liitke sellega tabel **Saadetised**.
 1. Sulgege päringuredaktori dialoogiboks.
-1. Kiirkaardil **Printeri teksti paigutuse** on kolm jaotist, kuhu saate kirjutada printeri koodi: **Päise jaotis**, **Keha jaotis** ja **Jaluse jaotis**. Sisestage jaotise **Päise jaotis** väljale **Sildi päis** nõutava päise kood. Näiteks kui kasutate Zebra printereid, saate kasutada järgmist koodi.
+1. Kiirkaardil **Printeri teksti paigutuse** on kolm jaotist, kuhu saate kirjutada printeri koodi: **Päise jaotis** , **Keha jaotis** ja **Jaluse jaotis**. Sisestage jaotise **Päise jaotis** väljale **Sildi päis** nõutava päise kood. Näiteks kui kasutate Zebra printereid, saate kasutada järgmist koodi.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -733,7 +733,7 @@ Selle stsenaariumiga töötamiseks peavad teil olema installitud demoandmed ja p
     - **Kirjeldus:** *Piirjoonesilt*
 
 1. Valige toimingupaanil nupp **Salvesta**.
-1. Kiirkaardil **Printeri teksti paigutuse** on kolm jaotist, kuhu saate kirjutada printeri koodi: **Päise jaotis**, **Keha jaotis** ja **Jaluse jaotis**. Sisestage jaotise **Päise jaotis** väljale **Sildi päis** nõutava päise ZPL-kood. Siin on näide.
+1. Kiirkaardil **Printeri teksti paigutuse** on kolm jaotist, kuhu saate kirjutada printeri koodi: **Päise jaotis** , **Keha jaotis** ja **Jaluse jaotis**. Sisestage jaotise **Päise jaotis** väljale **Sildi päis** nõutava päise ZPL-kood. Siin on näide.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -800,7 +800,7 @@ Selle stsenaariumiga töötamiseks peavad teil olema installitud demoandmed ja p
 
     Kui olete lõpetanud, valige päringuredaktori dialoogiboksi sulgemiseks **OK**.
 
-1. Valige toimingupaanil suvand **Päringu redigeerimine**, et avada terve sildi malli päringuredaktori dialoogiboks.
+1. Valige toimingupaanil suvand **Päringu redigeerimine** , et avada terve sildi malli päringuredaktori dialoogiboks.
 1. Lisage päringuredaktori dialoogiboksis vahekaardile **Sortimine** rida, millel on järgmised sätted.
 
     - **Tabel:** *Tööread*
@@ -818,13 +818,13 @@ Selle stsenaariumiga töötamiseks peavad teil olema installitud demoandmed ja p
 1. Päringuredaktori dialoogiboksi sulgemiseks valige **OK**.
 1. Teateaken palub teil rühmitamise lähtestamise toimingu kinnitada. Jätkamiseks valige **Jah**.
 1. Valige toimingupaanil **Voo sildi malligrupp**.
-1. Määrake dialoogiboksi **Voo sildi malli grupp** reale, kus välja **Viitevälja nimi** väärtuseks on seatud *Saadetise ID*, järgmised väärtused.
+1. Määrake dialoogiboksi **Voo sildi malli grupp** reale, kus välja **Viitevälja nimi** väärtuseks on seatud *Saadetise ID* , järgmised väärtused.
 
     - **Prindi piirjoonesilt:** märkige see ruut.
-    - **Sildi paigutuse ID:** valige piirjoonesilt. (Valige näiteks sildi paigutus *Piirjoon*, mille eelnevalt selles stsenaariumis lõite.)
+    - **Sildi paigutuse ID:** valige piirjoonesilt. (Valige näiteks sildi paigutus *Piirjoon* , mille eelnevalt selles stsenaariumis lõite.)
     - **Printeri nimi:** valige piirjoonesildile printer. (Tavaliselt tuleb sildi rullide tükeldamise eesmärgil valida sama printer, mis on valitud kiirkaardil **Voo sildi malli üksikasjad**. Kuid ka muud stsenaariumid on võimalikud.)
 
-1. Märkige real, kus välja **Viitevälja nimi** väärtuseks on seatud *Koormuse viiterea ID*, ruut **Sildi kooste ID**.
+1. Märkige real, kus välja **Viitevälja nimi** väärtuseks on seatud *Koormuse viiterea ID* , ruut **Sildi kooste ID**.
 
     > [!NOTE]
     > See häälestus loob ühe sildi järjestuse („Pakk 1/X”) koormuse rea kohta kogu voos, sõltumata töö rühmitamise seadistusest. Seda sildi järjestust saab printida sildi paigutusele. Lisaks eraldatakse erinevate saadetiste sildid valitud piirjoonesildiga.
@@ -854,7 +854,7 @@ Selle stsenaariumiga töötamiseks peavad teil olema installitud demoandmed ja p
 
     Kui olete lõpetanud, valige päringuredaktori dialoogiboksi sulgemiseks **OK**. 
 
-1. Valige toimingupaanil suvand **Päringu redigeerimine**, et avada terve sildi malli päringuredaktori dialoogiboks.
+1. Valige toimingupaanil suvand **Päringu redigeerimine** , et avada terve sildi malli päringuredaktori dialoogiboks.
 1. Lisage päringuredaktori dialoogiboksis vahekaardile **Sortimine** rida, millel on järgmised sätted.
 
     - **Tabel:** *Tööread*
@@ -872,13 +872,13 @@ Selle stsenaariumiga töötamiseks peavad teil olema installitud demoandmed ja p
 1. Päringuredaktori dialoogiboksi sulgemiseks valige **OK**.
 1. Teateaken palub teil rühmitamise lähtestamise toimingu kinnitada. Jätkamiseks valige **Jah**.
 1. Valige toimingupaanil **Voo sildi malligrupp**.
-1. Määrake dialoogiboksi **Voo sildi malli grupp** reale, kus välja **Viitevälja nimi** väärtuseks on seatud *Saadetise ID*, järgmised väärtused.
+1. Määrake dialoogiboksi **Voo sildi malli grupp** reale, kus välja **Viitevälja nimi** väärtuseks on seatud *Saadetise ID* , järgmised väärtused.
 
     - **Prindi piirjoonesilt:** märkige see ruut.
-    - **Sildi paigutuse ID:** valige piirjoonesilt. (Valige näiteks sildi paigutus *Piirjoon*, mille eelnevalt selles stsenaariumis lõite.)
+    - **Sildi paigutuse ID:** valige piirjoonesilt. (Valige näiteks sildi paigutus *Piirjoon* , mille eelnevalt selles stsenaariumis lõite.)
     - **Printeri nimi:** valige piirjoonesildile printer. (Tavaliselt tuleb sildi rullide tükeldamise eesmärgil valida sama printer, mis on valitud kiirkaardil **Voo sildi malli üksikasjad**. Kuid ka muud stsenaariumid on võimalikud.)
 
-1. Märkige real, kus välja **Viitevälja nimi** väärtuseks on seatud *Koormuse viiterea ID*, ruut **Sildi kooste ID**.
+1. Märkige real, kus välja **Viitevälja nimi** väärtuseks on seatud *Koormuse viiterea ID* , ruut **Sildi kooste ID**.
 
     > [!NOTE]
     > See häälestus loob ühe sildi järjestuse („Pakk 1/X”) koormuse rea kohta kogu voos, sõltumata töö rühmitamise seadistusest. Seda sildi järjestust saab printida sildi paigutusele. Lisaks eraldatakse erinevate saadetiste sildid valitud piirjoonesildiga.

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 853791d5ffc1d92b9fbafa2acc13cd5543c38196
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: f99f3760e75ec1bbf2ccdea497cf2eec3e28e233
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275529"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997370"
 ---
 # <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Topeltkirjutuse mooduli tõrkeotsingu probleemid Finance and Operationsi rakendustes
 
@@ -37,7 +36,7 @@ See teema annab teavet rakendustekomplekti Finance and Operations ja Common Data
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Te ei saa laadida topeltkirjutuse moodulit Finance and Operationsi rakenduses
 
-Kui te ei saa avada lehte **Topeltkirjutus**, valides tööruumis **Andmehaldus** paani **Topeltkirjutus**, on andmete integratsiooni teenus tõenäoliselt maas. Looge tugiteenusepilet andmete integratsiooni teenuse taaskäivitamise taotlemiseks.
+Kui te ei saa avada lehte **Topeltkirjutus** , valides tööruumis **Andmehaldus** paani **Topeltkirjutus** , on andmete integratsiooni teenus tõenäoliselt maas. Looge tugiteenusepilet andmete integratsiooni teenuse taaskäivitamise taotlemiseks.
 
 ## <a name="error-when-you-try-to-create-a-new-entity-map"></a>Tõrge uue üksuse vastenduse loomise katsel
 
@@ -62,7 +61,7 @@ Probleemi lahendamiseks logige sisse Microsoft Edge InPrivate-aknas, Chromiumi i
 
 Vastenduste linkimisel või loomisel võib ilmneda järgmine tõrge.
 
-*Vastuse oleku kood ei näita edu: 403 (tokenexchange).<br> Seansi ID: \<teie seansi ID\><br> Juurtegevuse ID: \<teie juurtegevuse ID\>*
+*Vastuse oleku kood ei näita edu: 403 (tokenexchange).<br> Seansi ID: \<your session id\><br> Juurtegevuse ID: \<your root activity id\>*
 
 See tõrge võib ilmneda juhul, kui teil pole topeltkirjutuse või vastenduste loomiseks piisavaid lube. See tõrge võib ilmneda ka siis, kui teenuse Common Data Service keskkond lähtestati ilma topeltkirjutuse linkimist tühistamata. Keskkondi saavad linkida kõik kasutajad, kes on süsteemiadministraatorid nii Finance and Operationsi rakendustes kui ka teenuses Common Data Service. Uusi üksuse vastendusi saavad lisada ainult kasutajad, kes seadistasid topeltkirjutuse ühenduse. Pärast seadistamist saab iga süsteemiadministraatori rolliga kasutaja olekut jälgida ja vastendusi redigeerida.
 
@@ -78,11 +77,11 @@ Probleemi lahendamiseks looge andmeintegratsiooni meeskonnale pilet. Manustage v
 
 ## <a name="error-while-trying-to-start-an-entity-mapping"></a>Üksuse vastendamise alustamise katsel ilmnes tõrge
 
-Kui proovite seada vastenduse olekut väärtusele **Töötab**, võite saada järgmise tõrketeate.
+Kui proovite seada vastenduse olekut väärtusele **Töötab** , võite saada järgmise tõrketeate.
 
 *Esialgset andmete sünkroonimist ei saa lõpule viia. Tõrge: topeltkirjutuse tõrge – lisandmooduli registreerimine nurjus: topeltkirjutuse otsingu metaandmete koostamine pole võimalik. Tõrkeobjekti viide pole seatud objekti eksemplarile.*
 
 Selle tõrke parandus sõltub tõrke põhjusest.
 
 + Kui vastendusel on sõltuvaid vastendusi, siis veenduge, et selle üksuse vastendusest sõltuvad vastendused oleksid lubatud.
-+ Vastendusel võivad puududa lähte- või sihtväljad. Kui väli on puudu Finance and Operationsi rakenduses, järgige jaotises [Puuduva üksuse välja probleem vastendusel](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps) toodud samme. Kui väli on puudu teenuses Common Data Service, klõpsake vastendusel nuppu **Värskenda üksuseid**, et väljad täidetaks vastenduses automaatselt.
++ Vastendusel võivad puududa lähte- või sihtväljad. Kui väli on puudu Finance and Operationsi rakenduses, järgige jaotises [Puuduva üksuse välja probleem vastendusel](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps) toodud samme. Kui väli on puudu teenuses Common Data Service, klõpsake vastendusel nuppu **Värskenda üksuseid** , et väljad täidetaks vastenduses automaatselt.

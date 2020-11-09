@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d274eae4ad3ba60eadb18ca8de22d4b2d10fe727
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016697"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Laotöö töötlemise edasilükkamine
 
@@ -44,8 +44,8 @@ Poliitikad on konfigureeritud lehel **Töö töötlemise poliitikad**. Järgmise
 | Töö töötlemise poliitika nimi     | Töö töötlemise poliitika nimetus. |
 | Töötellimuse tüüp                 | Töökäsu tüüp, millele poliitika rakendatakse. |
 | Toiming                       | Toiming, mida töödeldakse poliitika abil. |
-| Töö töötlemise meetod          | Meetod, mida kasutatakse töörea töötlemiseks. Kui meetodiks on määratud **Viivitamatu**, meenutab käitumine käitumist, kui töö töötlemise poliitikaid kasutatakse rea töötlemiseks. Kui meetodiks on määratud **Edasilükatud**, kasutatakse edasilükatud töötlemist, siis kasutatakse pakett-töö raamistikku. |
-| Edasilükatud töötlemise lävi   | Väärtus **0** (null) näitab, et läve pole. Sel juhul kasutatakse edasilükatud töötlemist, kui seda saab kasutada. Kui konkreetne lävearvutus jääb allapoole läve, kasutatakse meetodit Viivitamatu. Muul juhul kasutatakse meetodit edasilükatud, kui seda saab kasutada. Müügi ja ülekandega seotud töö puhul arvutatakse lävi seotud allika koormusridade arvuga, mida töö jaoks töödeldakse. Täiendustöö puhul arvutatakse lävi tööridade arvuga, mida töö abil täiendatakse. Kui määrate müügi läveks näiteks **5**, ei kasuta vähemate kui viie allika koormusreaga väiksemad tööd edasilükatud töötlemist, kuid suuremad tööd kasutavad seda. Lävi toimib ainult siis, kui töö töötlemise meetodiks on määratud **Edasilükatud.** |
+| Töö töötlemise meetod          | Meetod, mida kasutatakse töörea töötlemiseks. Kui meetodiks on määratud **Viivitamatu** , meenutab käitumine käitumist, kui töö töötlemise poliitikaid kasutatakse rea töötlemiseks. Kui meetodiks on määratud **Edasilükatud** , kasutatakse edasilükatud töötlemist, siis kasutatakse pakett-töö raamistikku. |
+| Edasilükatud töötlemise lävi   | Väärtus **0** (null) näitab, et läve pole. Sel juhul kasutatakse edasilükatud töötlemist, kui seda saab kasutada. Kui konkreetne lävearvutus jääb allapoole läve, kasutatakse meetodit Viivitamatu. Muul juhul kasutatakse meetodit edasilükatud, kui seda saab kasutada. Müügi ja ülekandega seotud töö puhul arvutatakse lävi seotud allika koormusridade arvuga, mida töö jaoks töödeldakse. Täiendustöö puhul arvutatakse lävi tööridade arvuga, mida töö abil täiendatakse. Kui määrate müügi läveks näiteks **5** , ei kasuta vähemate kui viie allika koormusreaga väiksemad tööd edasilükatud töötlemist, kuid suuremad tööd kasutavad seda. Lävi toimib ainult siis, kui töö töötlemise meetodiks on määratud **Edasilükatud.** |
 | Edasilükatud töötlemise partii grupp |Pakktööde grupp, mida kasutatakse töötlemiseks. |
 
 Edasilükatud put-töötlemise jaoks toetatakse järgmisi töökäsutüüpe: müügitellimus, ülekandetellimuse väljastamine ja täiendamine.

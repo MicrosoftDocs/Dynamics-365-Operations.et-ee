@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0848b7556100fba38fcab0aa2a1a109e2e055fc9
-ms.sourcegitcommit: b89baab13e530b5b1f079231619c628309a4742d
+ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
+ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3959571"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4058150"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>Common Data Service'i virtuaalüksuste konfigureerimine
 
@@ -68,7 +68,7 @@ Esmalt peate rakenduse Azure'i portaalis registreerima, et Microsofti identiteed
 
 6. Valige suvand **Registreeri**.
 
-7. Registreerimise lõpetamisel kuvatakse Azure'i portaalis rakenduse registreerimise kohta paan **Ülevaade**, mis sisaldab väärtust **Rakenduse (kliendi) ID**. Kirjutage väärtus **Rakenduse (kliendi) ID** endale üles. Te sisestate selle teabe [virtuaalüksuse andmeallika konfigureerimisel](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
+7. Registreerimise lõpetamisel kuvatakse Azure'i portaalis rakenduse registreerimise kohta paan **Ülevaade** , mis sisaldab väärtust **Rakenduse (kliendi) ID**. Kirjutage väärtus **Rakenduse (kliendi) ID** endale üles. Te sisestate selle teabe [virtuaalüksuse andmeallika konfigureerimisel](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
 
 8. Valige vasakpoolsel navigeerimispaanil **Serdid ja saladused**.
 
@@ -123,10 +123,10 @@ Järgmine samm on konfigureerida virtuaalüksuse andmeallikas Power Appsi keskko
 
 8. Sisestage andmeallika konfiguratsiooni jaoks vajalik teave.
 
-   - **Siht-URL**: teie rakenduse Human Resources nimeruumi URL.
-   - **Rentniku ID**: Azure Active Directory (Azure AD) rentniku ID.
-   - **AAD rakenduse ID**: rakenduse (kliendi) ID, mis loodi Microsoft Azure'i portaalis registreeritud rakenduse jaoks. Selle teabe saite varem sammus [Rakenduse registreerimine Microsoft Azure'is](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
-   - **AAD rakenduse saladus**: klientrakenduse saladus, mis loodi Microsoft Azure'i portaalis registreeritud rakenduse jaoks. Selle teabe saite varem sammus [Rakenduse registreerimine Microsoft Azure'is](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **Siht-URL** : teie rakenduse Human Resources nimeruumi URL.
+   - **Rentniku ID** : Azure Active Directory (Azure AD) rentniku ID.
+   - **AAD rakenduse ID** : rakenduse (kliendi) ID, mis loodi Microsoft Azure'i portaalis registreeritud rakenduse jaoks. Selle teabe saite varem sammus [Rakenduse registreerimine Microsoft Azure'is](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **AAD rakenduse saladus** : klientrakenduse saladus, mis loodi Microsoft Azure'i portaalis registreeritud rakenduse jaoks. Selle teabe saite varem sammus [Rakenduse registreerimine Microsoft Azure'is](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
 9. Valige **Salvesta ja sule**.
 
@@ -149,39 +149,40 @@ Andke rakenduses Human Resources õigused kahe Azure AD rakenduse jaoks.
 
 3. Valige teise rakenduse kirje loomiseks **Uus**.
 
-    - **Kliendi ID**: f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Nimi**: Dynamics 365 HR Virtual Entity
+    - **Kliendi ID** : f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **Nimi** : Dynamics 365 HR Virtual Entity
     - Valige väljal **Kasutaja ID** sellise kasutaja ID, kellel rakenduses Human Resources ja Power Appsi keskkonnas administraatoriõigused.
 
 ## <a name="generate-virtual-entities"></a>Virtuaalüksuste loomine
 
 Kui seadistus on lõpule viidud, saate valida virtuaalüksused, mille soovite luua ja lubada oma Common Data Service'i eksemplaris.
 
-1. Avage [Power Platformi halduskeskus](https://admin.powerplatform.microsoft.com).
+1. Avage rakenduses Human Resources leht **Common Data Service (CDS) integratsioon**.
 
-2. Valige loendist **Keskkonnad** Power Appsi keskkond, mis on seotud teie rakenduse Human Resources eksemplariga.
-
-3. Valige lehe jaotisest **Üksikasjad** suvand **Keskkonna URL**.
-
-4. Valige jaotises **Lahenduse seisundikeskus** **täpsema otsingu** ikoon, mis asub lehe üleval paremal pool.
-
-5. Valige lehel **Täpsem otsing** ripploendist **Otsitav** suvand **Saadaval HR-i üksused**.
-
-6. Kasutage filtrisuvandeid, et leida üksus või üksused, mille soovite lubada.
-
-7. Valige loendist üksus.
-
-8. Muutke üksuse lehel üksuse puhul atribuudi **On loodud** väärtuseks **Jah**.
-
-9. Salvestage ja sulgege üksuse leht.
+2. Valige vahekaart **Virtuaalsed üksused**.
 
 > [!NOTE]
-> Saate luua korraga mitu virtuaalüksust, kasutades lehte **Mitme kirje muutmine**. Valige lehel mitu kirjet ja valige ribal suvand **Redigeeri**. Seejärel saate muuta kõigi valitud kirjete atribuuti **On loodud**.
+> Lüliti **Virtuaalse üksuse lubamine** olekuks seatakse automaatselt **Jah** , kui kogu nõutav seadistus on lõpule viidud. Kui lüliti olekuks on seatud **Ei** , vaadake läbi selle dokumendi eelmiste jaotiste etapid, et kogu eeltingimuste häälestus oleks lõpule viidud.
 
-![Saadaval HR-i üksused](./media/hr-admin-integration-virtual-entities-available.jpg)
+3. Valige üksus või üksused, mida soovite luua Common Data Service'is.
 
-> [!NOTE]
-> Et muuta virtuaalüksuste loomise protsess tulevastes versioonides sujuvamaks, toimub protsess rakenduse Human Resources lehel.
+4. Valige **Loo/värskenda**.
+
+![Common Data Service’i integratsioon](./media/hr-admin-integration-common-data-service-integration.jpg)
+
+## <a name="check-entity-generation-status"></a>Üksuse loomise oleku kontrollimine
+
+Virtuaalseid üksusi luuakse Common Data Service'i asünkroonse taustal töötlemise abil. Protsessi uuendusi kuvatakse tegevuskeskuses. Protsessi üksikasju, sh tõrkelogisid, kuvatakse lehel **Protsessi automatiseerimised**.
+
+1. Avage rakenduses Human Resources loendi **Protsessi automatiseerimised** leht.
+
+2. Valige vahekaart **Taustaprotsessid**.
+
+3. Valige **Virtuaalse üksuse pollimise asünkroonse toimingu taustaprotsess**.
+
+4. Valige **Kuva viimased tulemused**.
+
+Liuguripaan kuvab protsessi kõige viimased käivitamise tulemused. Saate kuvada protsessi logi, sh kõiki tagastatud tõrkeid Common Data Service'is.
 
 ## <a name="see-also"></a>Vt ka
 

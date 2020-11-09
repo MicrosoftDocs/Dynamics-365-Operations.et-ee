@@ -16,15 +16,15 @@ ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18a9b7ed4cd26a806002fb1b4684de1e84f39889
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989267"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015063"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Ajastamismootori jõudluse parandamine
 
@@ -180,7 +180,7 @@ Piirangulahendaja ei tea ajastamisalgoritmi üksikasju. „Ime” sünnib mitmes
 
 Suur osa mootori (sisemistest) piirangutest kontrollib ressursi tööaega ja võimsust. Sisuliselt on ülesandeks läbida ressursi tööajavahemikud kindlast kohast alates kindlas suunas ja leida piisavalt pikk intervall, millesse mahub töö vajalik võimsus (aeg).
 
-Selleks peab mootor teadma ressursi tööaegu. Vastupidiselt põhiandmemudelile laaditakse tööaegu *laisalt*, mis tähendab, et need laaditakse mootorisse vajaduse järgi. Selle meetodi põhjus on see, et sageli hõlmavad rakenduse Supply Chain Management tööajad kalendris väga pikka perioodi ja tavaliselt leidub palju kalendreid, nii et eellaadida tuleks väga palju andmeid.
+Selleks peab mootor teadma ressursi tööaegu. Vastupidiselt põhiandmemudelile laaditakse tööaegu *laisalt* , mis tähendab, et need laaditakse mootorisse vajaduse järgi. Selle meetodi põhjus on see, et sageli hõlmavad rakenduse Supply Chain Management tööajad kalendris väga pikka perioodi ja tavaliselt leidub palju kalendreid, nii et eellaadida tuleks väga palju andmeid.
 
 Kalendriteavet pärib mootor osadena, tuginedes X++ klassi meetodile `WrkCtrSchedulingInteropDataProvider.getWorkingTimes`. Päring hõlmab kindlat kalendri ID-d kindlas ajavahemikus. Sõltuvalt rakenduse Supply Chain Management serveri vahemälu olekust võidakse selliste päringute puhul teha mitu andmebaasikutset, mis võtab kaua aega (võrreldes puhta arvutusajaga). Kui kalender sisaldab väga keerulisi tööaja definitsioone, millel on päeva jooksul palju tööajaintervalle, pikendab see laadimise aega.
 
@@ -238,11 +238,7 @@ Näiteks kui ühel kindlal kuupäeval on ressursirühma tööaeg alates 8.00 kun
 
 Kui kindlal päeval arvutatakse ressursirühma saadaolevat võimsust, võetakse arvesse sellel päeval ressursirühmas olevate ressursside tööde ajastamise koormust. Iga kuupäeva puhul on arvutus järgmine.
 
-> Saadaolev ressursirühma võimsus =  
-> (rühma ressursside võimsus oma kalendri põhjal) –  
-> (rühma ressurssidele rakenduv tööde ajastamise koormus) –  
-> (rühma ressurssidele rakenduv toimingute ajastamise koormus) –  
-> (ressursirühmale rakenduv toimingute ajastamise koormus)
+*Saadaolev ressursigrupi võimsus = grupi ressursside võimsus kalendri põhjal &ndash; rühma ressurssidele rakenduv tööde ajastamise koormus &ndash; grupi ressurssidele rakenduv toimingute ajastamise koormus &ndash; ressursirühmale rakenduv toimingute ajastamise koormus*
 
 Protsessitoimingu vahekaardil **Ressursinõuded** saab määratleda ressursinõuded kindla ressursi valimiseks (sel juhul ajastatakse toiming selle ressursi abil) või ressursirühma, ressursi tüübi, ühe või mitme võimekuse, oskuse, kursuse või sertifikaadi jaoks. Kuigi kõikide suvandite kasutamine muudab protsessi kujundamise paindlikuks, raskendab see ka mootori jaoks ajastamist, kuna võimsus peab olema arvestatud „atribuudi” kohta (abstraktne nimi, mida kasutatakse mootoris võimekuste, oskuste jne puhul).
 
@@ -252,11 +248,7 @@ Toimingute ajastamisel vähendatakse ressursirühma kindla võimekuse saadaoleva
 
 Iga kuupäeva puhul on nõutav arvutus järgmine.
 
-> Võimekuse saadaolev võimsus =  
-> (võimekuse võimsus) –  
-> (ressursirühmas sisalduvatele, kindla võimekusega ressurssidele rakenduv tööde ajastamise koormus) –  
-> (ressursirühmas sisalduvatele, kindla võimekusega ressurssidele rakenduv toimingute ajastamise koormus) –  
-> (kindlat võimekust vajavale ressursirühmale rakenduv toimingute ajastamise koormus)
+*Võimekuse saadaolev võimsus = võimekuse võimsus &ndash; ressursirühmas sisalduvatele, kindla võimekusega ressurssidele rakenduv tööde ajastamise koormus &ndash; ressursirühmas sisalduvatele, kindla võimekusega ressurssidele rakenduv toimingute ajastamise koormus &ndash; kindlat võimekust vajavale ressursirühmale rakenduv toimingute ajastamise koormus*
 
 See tähendab, et kui kindlale ressursile rakendub koormus, arvestatakse koormust ressursirühma saadaoleva võimsuse arvutamisel võimekuse järgi, sest kindla ressursi koormus vähendab selle panust ressursirühma võimekuse võimsusesse isegi siis, kui kindla ressursi koormus on selle võimekuse jaoks. Kui koormus rakendub ressursirühma tasemel, arvestatakse seda ressursirühma saadaoleva võimsuse arvutamisel võimekuse järgi ainult siis, kui koormus on pärit toimingust, mis vajab kindlat võimekust.
 
@@ -313,7 +305,7 @@ Piiratud võimsuse kasutamise puhul peab mootor laadima võimsusteavet andmebaas
 
 ### <a name="setting-hard-links"></a>Püsiseoste seadistamine
 
-Protsessi standardne seosetüüp on *paindlik*, mis tähendab, et ühe toimingu lõpetamise ja teise alustamise vahele võib jääda vahe. Selle lubamise korral võib kahjuks juhtuda nii, et kui ühe toimingu jaoks ei ole materjale või võimsust väga pikka aega saadaval, võib tootmine olla üsna kaua jõudeolekus, mis tähendab poolelioleva töö võimalikku suurenemist. Seda ei juhtu püsiseoste puhul, kuna lõpp ja algus peavad sobima kokku täpselt. Kuid püsiseoste seadistamine muudab ajastamisprobleemi keerulisemaks, kuna tööaja ja võimsuse kattumised tuleb arvutada toimingute kahe ressursi jaoks. Kui sellega on seotud ka paralleelsed toimingud, muutub arvutusaeg oluliselt pikemaks. Kui kahe toimingu ressurssidel on erinevad kalendrid, mis ei kattu üldse, on probleem lahendamatu.
+Protsessi standardne seosetüüp on *paindlik* , mis tähendab, et ühe toimingu lõpetamise ja teise alustamise vahele võib jääda vahe. Selle lubamise korral võib kahjuks juhtuda nii, et kui ühe toimingu jaoks ei ole materjale või võimsust väga pikka aega saadaval, võib tootmine olla üsna kaua jõudeolekus, mis tähendab poolelioleva töö võimalikku suurenemist. Seda ei juhtu püsiseoste puhul, kuna lõpp ja algus peavad sobima kokku täpselt. Kuid püsiseoste seadistamine muudab ajastamisprobleemi keerulisemaks, kuna tööaja ja võimsuse kattumised tuleb arvutada toimingute kahe ressursi jaoks. Kui sellega on seotud ka paralleelsed toimingud, muutub arvutusaeg oluliselt pikemaks. Kui kahe toimingu ressurssidel on erinevad kalendrid, mis ei kattu üldse, on probleem lahendamatu.
 
 Soovitame kasutada püsiseoseid ainult äärmise vajaduse korral ning kaaluda hoolikalt, kas see on vajalik protsessi iga toimingu jaoks.
 
@@ -329,7 +321,7 @@ Kuna mootor töötab nii, et uurib ajavahemikke võimsust silmas pidades ükshaa
 
 ### <a name="large-or-none-scheduling-timeouts"></a>Suured (või puuduvad) ajastamise ajalõpud
 
-Ajastamismootori jõudlust saab optimeerida, kasutades lehel **Ajastamise parameetrid** leitavaid parameetreid. Suvandite **Ajastamise ajalõpp on lubatud** ja **Ajastamise optimeerimise ajalõpp on lubatud** väärtus peaks alati olema **Jah**. Kui väärtus on **Ei**, võib ajastamine potentsiaalselt töötada lõpmatult, kui loodud on paljude valikutega teostamatu protsess.
+Ajastamismootori jõudlust saab optimeerida, kasutades lehel **Ajastamise parameetrid** leitavaid parameetreid. Suvandite **Ajastamise ajalõpp on lubatud** ja **Ajastamise optimeerimise ajalõpp on lubatud** väärtus peaks alati olema **Jah**. Kui väärtus on **Ei** , võib ajastamine potentsiaalselt töötada lõpmatult, kui loodud on paljude valikutega teostamatu protsess.
 
 Suvandi **Maksimaalne ajastamisaeg järjestuse kohta** väärtus määrab, mitu sekundit saab kõige rohkem kulutada ühe järjestuse lahenduse leidmisele (enamikul juhtudel vastab järjestus ühele tellimusele). Siin kasutatav väärtus sõltub suuresti protsessi keerukusest ja sätetest, nagu piiratud võimsus, kuigi maksimaalne arv 30 sekundit on hea koht, kust alustada.
 

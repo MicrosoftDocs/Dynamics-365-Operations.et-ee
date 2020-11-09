@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c240e11394582ad1af563ee4a8e58632babfff3a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976375"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006162"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Kulukomplekti poliitika ja üldkulude arvutus 
 
@@ -76,7 +76,7 @@ Dimensioonihierarhia, mis rahuldab organisatsiooni aruandlusvajadused, saab sead
 
 **Dimensioonihierarhia**
 
-|              | Dimensiooniliikmete vahemikud |                     |
+|    &nbsp;    | Dimensiooniliikmete vahemikud | &nbsp;              |
 |--------------|-------------------------|---------------------|
 | **Sõlmed**        | **Lähtedimensiooni liige**   | **Sihtdimensiooni liige** |
 | Organisatsioon |                         |                     |
@@ -97,7 +97,7 @@ Dimensioonihierarhia, mis täidab poliitika nõude, saab seadistada järgmiselt.
 
 **Dimensioonihierarhia**
 
-|                         | Dimensiooniliikmete vahemikud |                     |
+|      &nbsp;             | Dimensiooniliikmete vahemikud |      &nbsp;         |
 |-------------------------|-------------------------|---------------------|
 | Sõlmpunktid                   | Lähtedimensiooni liige   | Sihtdimensiooni liige |
 | Kasumi- ja kahjumiväljavõte |                         |                     |
@@ -105,7 +105,7 @@ Dimensioonihierarhia, mis täidab poliitika nõude, saab seadistada järgmiselt.
 
 Pärast pearaamatukannete töötlemist näeb kulukirje saldo kuluobjektide kaupa välja selline.
 
-|                      | **Kuluobjekt** |           |           |           | **Kokku**     |
+|      &nbsp;          | **Kuluobjekt** | &nbsp;    |  &nbsp;   |  &nbsp;   | **Kokku**     |
 |----------------------|-----------------|-----------|-----------|-----------|---------------|
 | **Kuluelement**     | **CC001**       | **CC002** | **CC003** | **CC004** |               |
 | **1001 elekter** | 100,00          | 200,00    | 6.000,00  | 2.000,00  | **8.300,00**  |
@@ -159,7 +159,7 @@ Kui soovite teada, kuidas kulu organisatsioonis kulukeskuste vahel liigub, võit
 
 Kuluelemendi dimensiooniliikmed saab seadistada järgmiselt.
 
-| Kuluelemendid | Tüüp          |               |
+| Kuluelemendid | Tüüp          |     &nbsp;    |
 |---------------|---------------|---------------|
 | 1001          | Elektrienergia   | Esmane       |
 | 1002          | Palgad      | Esmane       |
@@ -179,14 +179,14 @@ Dimensioonihierarhiat **Kasumi- ja kahjumiaruanne** on vaja täiendada uute dime
 
 **Dimensioonihierarhia**
 
-|                         | Dimensiooniliikmete vahemikud |                     |
+|      &nbsp;             | Dimensiooniliikmete vahemikud |  &nbsp;             |
 |-------------------------|-------------------------|---------------------|
 | Sõlmpunktid                   | Lähtedimensiooni liige   | Sihtdimensiooni liige |
 | Kasumi- ja kahjumiväljavõte |                         |                     |
 | &nbsp;&nbsp;&nbsp;&nbsp;Peamine kulu                        | 10001                   | 10003               |
 | &nbsp;&nbsp;&nbsp;&nbsp;Sekundaarne kulu                         | **SC-CC001**            | **SC-CC004**        |
 
-Looge **Kulu ümberarvestuse poliitika**, kus iga kulukeskus vastendatakse vastava kuluelemendiga, mille tüüp on **Teisene**.
+Looge **Kulu ümberarvestuse poliitika** , kus iga kulukeskus vastendatakse vastava kuluelemendiga, mille tüüp on **Teisene**.
 
 **Kulu ümberarvestuse poliitikad**
 
@@ -211,7 +211,7 @@ Looge **Kulu ümberarvestuse poliitika**, kus iga kulukeskus vastendatakse vasta
 |---------|-------------------------|------------------------|------|--------|---------------|
 | 00002   | Kulueralduse tööleht | Fiskaalne                 | 2017    | Periood 1 | Üldkulude arvutus / 01-02-2017 23:51:00 / Pearaamat /2017 / 1. periood |
 
-Süsteem rakendab nüüd **Kulude ümberarvestuse poliitika**, luues **kuluobjekti saldo töölehekirjed**.
+Süsteem rakendab nüüd **Kulude ümberarvestuse poliitika** , luues **kuluobjekti saldo töölehekirjed**.
 
 **Kuluobjekti saldo töölehe sisestused**
 
@@ -225,7 +225,7 @@ Süsteem rakendab nüüd **Kulude ümberarvestuse poliitika**, luues **kuluobjek
 > [!NOTE]
 > Luuakse töölehekirjed jaotise **Kulude ümberarvestuse poliitika** reeglite põhjal, kui poliitika on olemas. Kuvatav saldo on üldkulude arvutuse saldo.
 
-Leht **Kuluobjekti kulu saldo töölehekirje üksikasjad**, millele pääseb töölehekirjetest, kuvab saldo saamise viisi.
+Leht **Kuluobjekti kulu saldo töölehekirje üksikasjad** , millele pääseb töölehekirjetest, kuvab saldo saamise viisi.
 
 **Näide: töölehekirje kuluobjektile CC002 finantsid**
 
@@ -258,7 +258,7 @@ Dimensioonihierarhiad võimaldavad kuvada andmed erinevatel liitmistasemetel.
 
 Siin on näide Power Pivoti aruandluse kohta Excelis.
 
-| **Kasumi- ja kahjumiväljavõte** | **Kuluobjekt** |                |               |               |  **Kogusumma**    |
+| **Kasumi- ja kahjumiväljavõte** | **Kuluobjekt** |      &nbsp;    |   &nbsp;      |     &nbsp;    |  **Kogusumma**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **Peamine kulu**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
@@ -276,7 +276,7 @@ Valikute **Kulu ümberarvestuse poliitika** ja **Teisest tüüpi kuluelemendid**
 
 Kui samas näites poleks **kulude ümberarvestuse poliitikat** loodud, oleks aruande tulemus olnud selline, nagu allpool näidatud. Kulu liigub õigesti, kuid jälgitavus ja ülevaade selle kohta, kuidas kulu kulukeskuste vahel liigub, lähevad kaotsi.
 
-| **Kasumi- ja kahjumiväljavõte** | **Kuluobjekt** |           |               |               |          **Kokku**  |
+| **Kasumi- ja kahjumiväljavõte** | **Kuluobjekt** |   &nbsp;  |    &nbsp;     |  &nbsp;       |          **Kokku**  |
 |-----------------------------|-----------------|-----------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002** | **CC003**     | **CC004**     |               |
 | **Peamine kulu**            | **0,00**        | **0,00**  | **31.082,75** | **15.717,25** | **46.800,00** |

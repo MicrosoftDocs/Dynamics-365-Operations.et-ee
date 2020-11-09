@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69e711ad2011703efa450d97575784aaee3137dd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 7a71ea3983018b136d4fe3b22eadc0c332d2a698
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982327"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016443"
 ---
 # <a name="set-up-shipping-carriers"></a>Vedajate seadistamine
 
@@ -42,7 +42,7 @@ See teema näitab, kuidas seadistada tarne vedaja ja määratleda üksikasjad, n
 1. Laiendage jaotist **Ülevaade**.
 2. Märkige või tühjendage ruut **Aktiveeri saadetise vedaja**.
 3. Valige väljal **Hankija konto** ripploendist suvand. Valige hankija konto, millele tarne vedaja määrata.  
-4. Valige suvand väljal **Transpordi maksevahendi tüüp**. Valige transpordi maksevahendi lehe kasutamiseks **Juhend** või valige **EDI**, pakkumist värskendada elektroonilise andmevahetuse (EDI) abil.  
+4. Valige suvand väljal **Transpordi maksevahendi tüüp**. Valige transpordi maksevahendi lehe kasutamiseks **Juhend** või valige **EDI** , pakkumist värskendada elektroonilise andmevahetuse (EDI) abil.  
 5. Märkige või tühjendage ruut **Aktiveeri vedaja hinnang** .
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Kättetoimetaja vajalike teenuste loomine

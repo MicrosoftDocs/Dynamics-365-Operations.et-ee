@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829208"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997396"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potentsiaalne klient-raha kaksikkirjutamises
 
@@ -63,9 +62,9 @@ Näiteks on Supply Chain Managementi numbrijärjestus **1, 2, 3, 4, 5,...** ja M
 
 Müügipakkumised võib luua rakenduses Müügid või Supply Chain Management. Kui loote pakkumise Müükides, sünkroonitakse see reaalajas Supply Chain Managementiga. Kui loote pakkumise Supply Chain Managementis, sünkroonitakse see reaalajas Müükidega. Pidage meeles järgmiseid punkte.
 
-+ Toote pakkumisele saate lisada allahindluse. Sel juhul sünkroonitakse allahindlus Supply Chain Managementiga. Päise välju **Allahindlus**, **Tasud** ja **Maks** juhitakse seadistusega rakenduses Supply Chain Management. See seadistus ei toeta integreerimise vastendamist. Seeasemel välju **Hind**, **Allahindlus**, **Tasu**ning **Maks** säilitatakse ja käsitsetakse Supply Chain Managementis.
-+ Väljad **Allahindluse %**, **Allahindlus**ja **Veose kogus** müügipakkumise päises on kirjutuskaitstud väljad.
-+ Väljad **Veotingimused**, **Tarnetingimused**, **Saatmisviis**ja **Tarneviis** ei ole vaikevastenduste osa. Nende väljade vastendamiseks peate seadistama väärtusvastenduse, mis on vastab andmetele neis organisatsioonides, mille vahel üksust sünkroonitakse.
++ Toote pakkumisele saate lisada allahindluse. Sel juhul sünkroonitakse allahindlus Supply Chain Managementiga. Päise välju **Allahindlus** , **Tasud** ja **Maks** juhitakse seadistusega rakenduses Supply Chain Management. See seadistus ei toeta integreerimise vastendamist. Seeasemel välju **Hind** , **Allahindlus** , **Tasu** ning **Maks** säilitatakse ja käsitsetakse Supply Chain Managementis.
++ Väljad **Allahindluse %** , **Allahindlus** ja **Veose kogus** müügipakkumise päises on kirjutuskaitstud väljad.
++ Väljad **Veotingimused** , **Tarnetingimused** , **Saatmisviis** ja **Tarneviis** ei ole vaikevastenduste osa. Nende väljade vastendamiseks peate seadistama väärtusvastenduse, mis on vastab andmetele neis organisatsioonides, mille vahel üksust sünkroonitakse.
 
 Kui kasutate ka lahendust Field Service, veenduge, et oleksite parameetri **Pakkumisrea kiirloomine** uuesti lubanud. Parameetri uuesti lubamine võimaldab teil jätkata pakkumisridade loomist kiirloomise funktsiooni kasutades.
 1. Liikuge oma Dynamics 365 Sales'i rakenduse juurde.
@@ -110,8 +109,8 @@ Müügiarved luuakse rakenduses Supply Chain Management ja sünkroonitakse raken
 
 + Väli **Arve number** lisati üksusesse **Arve** ja kuvatakse lehel.
 + Nupp **Arve koostamine** lehel **Müügitellimus** on peidetud, kuna arved koostatakse Supply Chain Managementis ja sünkroonitakse Müükidega. Lehte **Arve** ei saa redigeerida, kuna arved sünkroonitakse Supply Chain Managementist.
-+ Väärtus **Müügitellimuse olek** asendatakse automaatselt olekuga **Arveldatud**, kui seotud arve Supply Chain Managementist on sünkroonitud Müükidega. Samuti määratakse selle müügitellimuse omanik, millest arve loodi, arve omanikuks. Seetõttu saab müügitellimuse omanik arvet vaadata.
-+ Väljad **Veotingimused**, **Tarnetingimused** ja **Tarneviis** ei kuulu vaikevastendustesse. Nende väljade vastendamiseks peate seadistama väärtusvastenduse, mis on vastab andmetele neis organisatsioonides, mille vahel üksust sünkroonitakse.
++ Väärtus **Müügitellimuse olek** asendatakse automaatselt olekuga **Arveldatud** , kui seotud arve Supply Chain Managementist on sünkroonitud Müükidega. Samuti määratakse selle müügitellimuse omanik, millest arve loodi, arve omanikuks. Seetõttu saab müügitellimuse omanik arvet vaadata.
++ Väljad **Veotingimused** , **Tarnetingimused** ja **Tarneviis** ei kuulu vaikevastendustesse. Nende väljade vastendamiseks peate seadistama väärtusvastenduse, mis on vastab andmetele neis organisatsioonides, mille vahel üksust sünkroonitakse.
 
 ## <a name="templates"></a>Mallid
 

@@ -3,7 +3,7 @@ title: Eksperimendi seadistamine
 description: Selles teemas kirjeldatakse, kuidas seadistada eksperimenti kolmanda osapoole teenuses.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0f7db0ce009f6ee7603952891aacfdc16fcde016
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: 29c21ceb4c259f463f4a039942e51141201a9809
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930180"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097043"
 ---
 # <a name="set-up-an-experiment"></a>Eksperimendi seadistamine
 
@@ -35,12 +35,14 @@ Pärast [hüpoteesi määratlemist ja eksperimendi edumõõdikute kindlaks mää
 ## <a name="set-up-your-experiment-in-the-third-party-service"></a>Eksperimendi seadistamine kolmanda osapoole teenuses
 Nüüdseks peaks teil olema valitud kolmanda osapoole teenus oma eksperimendi käitamiseks ja jälgimiseks ning eksperimendi konnektori seadistamiseks. Need eeltingimused on loetletud teemas [Eksperimenteerimine rakenduses Dynamics 365 Commerce](experimentation-overview.md).
 
-Järgige samme, mis on vajalikud eksperimendi loomiseks kolmanda osapoole teenuses. Kui konnektor on õigesti konfigureeritud, siis on kolmanda osapoole teenuses seadistatud eksperimentide täielik loend saidiehitajas nähtav umbes viie minuti jooksul.
+Järgige samme, mis on vajalikud eksperimendi loomiseks kolmanda osapoole teenuses. Kui konnektor on õigesti konfigureeritud, siis kuvatakse kolmanda osapoole teenuses seadistatud eksperimentide täielik loend Commerce'i saidiehitajas umbes viie minuti jooksul.
 
 ## <a name="set-up-your-success-metrics"></a>Edumõõdikute seadistamine
 Iga eksperiment vajab mõõdikuid variatsioonide mõju mõõtmiseks ja hüpoteesi kontrollimiseks. Järgige alltoodud samme, et lubada mõõdikute arvutamine kolmanda osapoole teenuses, kasutades reaalajas telemeetriasündmusi rakendusest Dynamics 365 Commerce.
 
-1. Valige saidiehitajas vasakpoolselt navigeerimispaanilt vahekaart **Lehed** ja seejärel valige leht, mille jaoks soovite mõõdikuid koguda. 
+Edumõõdikute häälestamiseks järgige neid toiminguid.
+
+1. Valige Commerce'i saidiehitajas vasakpoolselt navigeerimispaanilt vahekaart **Lehed** ja seejärel valige leht, mille jaoks soovite mõõdikuid koguda. 
 1. Avage jaotis **Jälgitavad sündmuse ID-d** jälgitava lehe või mooduli parempoolselt atribuudipaanilt.
 1. Valige suvand **Kuva**. Kuvatakse kõigi sündmuse ID-de loend. Kopeerige sündmus, mida soovite jälgida, ja kleepige sündmusevõti selleks mõeldud kohta kolmanda osapoole teenuses. Kui vajate rohkem kui üht sündmust, kopeerige võtmed ükshaaval. 
     - Teavet selle kohta, kuidas vaadata kõiki saadaolevaid sündmusi ja atribuute, sh lehevaatamisi ja tulu, leiate teemast [Commerce'i komponentide sündmused diagnostika ja tõrkeotsingu jaoks](dev-itpro/retail-component-events-diagnostics-troubleshooting.md).

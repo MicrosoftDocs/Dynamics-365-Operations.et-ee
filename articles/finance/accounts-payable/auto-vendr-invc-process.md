@@ -3,7 +3,7 @@ title: Automatiseeritud hankijaarveldusprotsesside ülevaade
 description: Selles teemas kirjeldatakse hankijaarveldusprotsesside automatiseerimise võimalust ja automatiseeritud protsessi kasutamise eeliseid.
 author: abruer
 manager: AnnBe
-ms.date: 08/30/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 187b3c4f1a8b2c9ec6df95c19b261756ec4562dc
-ms.sourcegitcommit: 6ffbae02de2eee1f3be9bab2da37a3771aae8bec
+ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3905007"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022492"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Automatiseeritud hankijaarveldusprotsesside ülevaade
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Selles teemas kirjeldatakse hankijaarveldusprotsesside automatiseerimise võimalust ja automatiseeritud protsessi kasutamise eeliseid. See võimalus koosneb funktsioonidest, mis lülitatakse sisse funktsioonihalduses. Need funktsioonid rakenduvad ainult hankija arvete korral, mitte arvete puhul, mida töödeldakse lehe **Arve tööleht** või **Arveregistri tööleht** kaudu.
 

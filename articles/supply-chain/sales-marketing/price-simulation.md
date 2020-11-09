@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 336fb51dc5fb66dfbe14091d121e0a4471b9662b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978889"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006255"
 ---
 # <a name="price-simulation"></a>Hinnasimulatsioon
 
@@ -74,7 +74,7 @@ Loote pakkumise, millel on järgmised read.
 
 Järgmine tabel näitab pakkumise ridu.
 
-|                            | Arvutus                          | Tulemus   |
+|    &nbsp;                  | Arvutus                          | Tulemus   |
 |----------------------------|--------------------------------------|----------|
 | Müügikogus             | 10 ühikut + 12 ühikut                  | 22 ühikut |
 | Müügiväärtus USA dollarites         | (10 × 15.32) + (12 × 13.75)          | 318.20   |
@@ -84,7 +84,7 @@ Järgmine tabel näitab pakkumise ridu.
 
 Käivitate hinnasimulatsiooni ja rakendate 15-protsendise lõppallahindluse kogu pakkumisele või pakkumise päisele. Järgmine tabel näitab pakkumise uusi kogusummasid pärast hinnasimulatsiooni käivitamist.
 
-|                                                      | Arvutus                               | Tulemus   |
+|     &nbsp;                                           | Arvutus                               | Tulemus   |
 |------------------------------------------------------|-------------------------------------------|----------|
 | Müügikogus                                       | 10 ühikut + 12 ühikut                       | 22 ühikut |
 | Vana müügiväärtus USA dollarites                               | (10 × 15.32) + (12 × 13.75)               | 318.20   |
@@ -105,7 +105,7 @@ Loote pakkumise, millel on järgmised read.
 
 Järgmine tabel näitab pakkumise ridu.
 
-|                                      | Arvutus                          | Tulemus   |
+|      &nbsp;                          | Arvutus                          | Tulemus   |
 |--------------------------------------|--------------------------------------|----------|
 | Müügikogus                       | 10 ühikut + 12 ühikut                  | 22 ühikut |
 | BR-12 müügiväärtus USA dollarites         | 10 × 15.32                           | 153.20   |
@@ -123,7 +123,7 @@ Järgmine tabel näitab pakkumise ridu.
 
 Käivitate hinnasimulatsiooni ja rakendate 10-protsendise lõppallahindluse BR-12 ühikutele. Järgmine tabel näitab pakkumise uusi kogusummasid pärast hinnasimulatsiooni käivitamist ühe rea kaubale.
 
-|                                                   | Arvutus                             | Tulemus   |
+|    &nbsp;                                         | Arvutus                             | Tulemus   |
 |---------------------------------------------------|-----------------------------------------|----------|
 | Müügikogus                                    | 10 ühikut + 12 ühikut                     | 22 ühikut |
 | BR-12 vana müügiväärtus USA dollarites                  | 10 × 15.32                              | 153.20   |

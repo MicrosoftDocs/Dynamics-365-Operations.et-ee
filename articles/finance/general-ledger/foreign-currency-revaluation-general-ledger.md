@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0bf61aa839d4d59b2c93eee9931eef0e6c51d4ac
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177306"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006209"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Pearaamatu välisvaluuta ümberarvutamine
 
@@ -61,13 +61,13 @@ Väljade **Alguskuupäev** ja **Lõppkuupäev** väärtused määratlevad kuupä
 
 Välja **Kursi kuupäev** abil saab määratleda kuupäeva, mille puhul vahetuskurss peaks olema vaikeväärtus. Näiteks saate ümber arvutada saldosid kuupäevavahemikus 1. jaanuarist 31. jaanuarini, kuid kasutada 1. veebruari jaoks määratletud vahetuskurssi. 
 
-Valige, millised põhikontod tuleb ümber arvutada: Kõik, Bilanss või Kasum ja kahjum. Ümber arvutatakse ainult ümberarvutamiseks märgitud põhikontod (lehel Põhikontod). Kui soovite põhikontode valikut täiendavalt piirata, kasutage vahekaarti **Kaasatavad kirjed**, et määratleda põhikontode vahemik või üksikud põhikontod. 
+Valige, millised põhikontod tuleb ümber arvutada: Kõik, Bilanss või Kasum ja kahjum. Ümber arvutatakse ainult ümberarvutamiseks märgitud põhikontod (lehel Põhikontod). Kui soovite põhikontode valikut täiendavalt piirata, kasutage vahekaarti **Kaasatavad kirjed** , et määratleda põhikontode vahemik või üksikud põhikontod. 
 
 Ümberarvutusprotsessi saab käitada ühe või mitme juriidilise isiku puhul. Otsingus kuvatakse ainult need juriidilised isikud, kellele teil on juurdepääs. Valige juriidilised isikud, mille puhul soovite ümberarvutamisprotsessi käitada. 
 
 Ümberarvutamise saab käitada ühe või mitme välisvaluuta puhul. Otsingusse kaasatakse kõik valuutad, mis sisestati põhikonto tüübile (Bilanss või Kasum ja kahjum) vastavas kuupäevavahemikus ümberarvutamiseks valitud juriidiliste isikute puhul. Arvestusvaluuta lisatakse loendisse, kuid arvestusvaluuta valimisel ei arvutata midagi ümber. 
 
-Valige suvandi **Eelvaade enne sisestamist** sätteks **Jah**, kui soovite kuvada pearaamatu ümberarvutamise tulemuse eelvaate. Eelvaade pearaamatus erineb müügireskontro ja ostureskontro välisvaluuta ümberarvutamise simulatsioonist. Ostureskontros ja müügireskontros on simulatsioon aruanne, kuid pearaamatul on eelvaade, mida saab sisestada, ilma et ümberarvutusprotsessi tuleks uuesti käitada. Eelvaate tulemused saab eksportida Microsoft Excelisse, et säilitada ajalugu summade arvutamise viisist. Pakktöötlust ei saa kasutada, kui soovite ümberarvutamise tulemusi eelvaadata. Eelvaates on kasutajal võimalus sisestada kõigi juriidiliste isikute tulemused nupuga **Sisesta**. Kui juriidilise isiku puhul on tulemustega probleeme, on kasutajal võimalus ka sisestada juriidiliste isikute alamkogum, kasutades nuppu **Valige sisestamiseks juriidilised isikud**. 
+Valige suvandi **Eelvaade enne sisestamist** sätteks **Jah** , kui soovite kuvada pearaamatu ümberarvutamise tulemuse eelvaate. Eelvaade pearaamatus erineb müügireskontro ja ostureskontro välisvaluuta ümberarvutamise simulatsioonist. Ostureskontros ja müügireskontros on simulatsioon aruanne, kuid pearaamatul on eelvaade, mida saab sisestada, ilma et ümberarvutusprotsessi tuleks uuesti käitada. Eelvaate tulemused saab eksportida Microsoft Excelisse, et säilitada ajalugu summade arvutamise viisist. Pakktöötlust ei saa kasutada, kui soovite ümberarvutamise tulemusi eelvaadata. Eelvaates on kasutajal võimalus sisestada kõigi juriidiliste isikute tulemused nupuga **Sisesta**. Kui juriidilise isiku puhul on tulemustega probleeme, on kasutajal võimalus ka sisestada juriidiliste isikute alamkogum, kasutades nuppu **Valige sisestamiseks juriidilised isikud**. 
 
 Kui välisvaluuta ümberarvutamise protsess on lõppenud, luuakse kirje iga tsükli ajaloo jälgimiseks.  Iga juriidilise isiku ja sisestamiskihi kohta luuakse eraldi kirje.
 
@@ -76,38 +76,33 @@ Realiseerimata kasumi/kahjumi kanded luuakse pearaamatu ümberarvutamise ning m�
 
 **Näide** Põhikonto 110110 puhul on olemas järgmised saldod.
 
-|            |                    |                        |                       |
+| Kuupäev   | Pearaamatukonto| Kandesumma | Raamatupidamissumma |
 |------------|--------------------|------------------------|-----------------------|
-| **Kuupäev**   | **Pearaamatukonto** | **Kandesumma** | **Raamatupidamissumma** |
 | 20. jaanuar | 110110 (sularaha)      | 500 eurot (deebet)        | 1000 USA dollarit (deebet)      |
 
 Põhikonto arvutatakse ümber 31. jaanuaril.  Realiseerimata kasum/kahjum arvutatakse järgmiselt.
 
-|                                             |                                            |                                  |                                    |                             |
+| Praegune saldo kandevaluutas | Praegune saldo arvestusvaluutas | Vahetuskurss ümberarvutamisel | Uue arvestusvaluuta summa | Realiseerimata kasum/kahjum    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Praegune saldo kandevaluutas** | **Praegune saldo arvestusvaluutas** | **Vahetuskurss ümberarvutamisel** | **Uue arvestusvaluuta summa** | **Realiseerimata kasum/kahjum**    |
 | 500 eurot                                     | 1000 USA dollarit                                   | 166.6667                         | 833,33 eurot (500 × 1,666667)        | Kahjum 166,67 (833,33 – 1000) |
 
 Luuakse järgmine raamatupidamiskirje.
 
-|            |                          |           |            |
+| Kuupäev   | Pearaamatukonto       | Debiteeri | Krediit |
 |------------|--------------------------|-----------|------------|
-| **Kuupäev**   | **Pearaamatukonto**       | **Debiteeri** | **Krediit** |
 | 31. jaanuar | 110110 (sularaha)            |           | 166.67     |
 | 31. jaanuar | 801 400 (realiseerimata kahjum) | 166.67    |            |
 
 Veebruari kohta uusi kandeid ei sisestata.  Põhikonto arvutatakse ümber 28. veebruaril.
 
-|                                             |                                            |                                  |                                    |                             |
+| Praegune saldo kandevaluutas | Praegune saldo arvestusvaluutas | Vahetuskurss ümberarvutamisel | Uue arvestusvaluuta summa | Realiseerimata kasum/kahjum    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Praegune saldo kandevaluutas** | **Praegune saldo arvestusvaluutas** | **Vahetuskurss ümberarvutamisel** | **Uue arvestusvaluuta summa** | **Realiseerimata kasum/kahjum**    |
 | 500 eurot                                     | 833,33 USA dollarit (1000 – 166,67)                 | 250.0000                         | 1250 USA dollarit (500 × 2,5)               | Kasum 416,67 (1250 – 833,33) |
 
 Luuakse järgmine raamatupidamiskirje.
 
-|             |                          |           |            |
+| Kuupäev    | Pearaamatukonto       | Debiteeri | Krediit |
 |-------------|--------------------------|-----------|------------|
-| **Kuupäev**    | **Pearaamatukonto**       | **Debiteeri** | **Krediit** |
 | 28. veebruar | 110110 (sularaha)            | 416.67    |            |
 | 28. veebruar | 801 600 (realiseerimata kasum) |           | 416.67     |
 

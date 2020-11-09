@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation
+ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation, WHSRFMenuItemCycleCount, WHSWorkLineCycleCount
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8352df2de5daf994895eb7ef40866490a7619652
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830496"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015983"
 ---
 # <a name="cycle-counting"></a>Tsükliline inventuur
 
@@ -110,7 +110,7 @@ Tsüklilise inventuuri töö saab luua, kui kaupade arv langeb asukohas alla kon
 Saate ajastada tsüklilise inventuuri plaane tsüklilise inventuuri töö loomiseks kohe või perioodiliselt. Tsüklilise inventuuri plaanide seadistamisega saate kontrollida töökausta, mille jaoks tsüklilise inventuuri töö luuakse, maksimaalset tsükliliste inventuuride arvu, mis kaupadele erinevates asukohtades luuakse, ja päevade arvu enne lao asukohas uue inventuuri läbiviimist. Näiteks on kaup laos saadaval kolmes asukohas ja maksimaalseks tsükliliste inventuuride arvuks on määratud **2**. Sellisel juhul luuakse tsüklilise inventuuri plaani käivitamisel kaks tsüklilist inventuuri kahes asukohas, kus kaup olemas on. Teine näide: määrate tsükliliste inventuuride vaheliseks päevade arvuks **5**. Sel juhul luuakse tsüklilise inventuuri töö iga viie päeva järel. Kuid kui tsüklilise inventuuri töö töödeldakse 3. päeval, luuakse järgmine tsüklilise inventuuri töö viis päeva pärast viimase tsüklilise inventuuri töö töötlemist, 8. päeval.
 
 ## <a name="create-cycle-counting-work-manually"></a>Tsüklilise inventuuri loomine käsitsi
-Tsüklilise inventuuri töö loomiseks käsitsi võite kasutada lehte **Tsükliline inventuur kauba alusel** või **Tsükliline inventuur asukoha alusel**. Saate määrata loodavate tsükliliste inventuuride maksimumarvu. Näiteks kui laojuhataja määrab väärtuse **5**, luuakse tsüklilise inventuuri töö viiele asukohale, isegi kui kaup on 10-s asukohas olemas. Saate valida ka töökausta ID, kuhu loodavate tsüklilise inventuuri tööde ID-d määratakse. Töökausta ID töötlemisel tsüklilise inventuuri jaoks töödeldakse sellesse töökausta määratud tsüklilise inventuuri tööde ID-d grupina.
+Tsüklilise inventuuri töö loomiseks käsitsi võite kasutada lehte **Tsükliline inventuur kauba alusel** või **Tsükliline inventuur asukoha alusel**. Saate määrata loodavate tsükliliste inventuuride maksimumarvu. Näiteks kui laojuhataja määrab väärtuse **5** , luuakse tsüklilise inventuuri töö viiele asukohale, isegi kui kaup on 10-s asukohas olemas. Saate valida ka töökausta ID, kuhu loodavate tsüklilise inventuuri tööde ID-d määratakse. Töökausta ID töötlemisel tsüklilise inventuuri jaoks töödeldakse sellesse töökausta määratud tsüklilise inventuuri tööde ID-d grupina.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Tsüklilise inventuuri läbiviimine mobiilse seadmega
 Tsüklilise inventuuri töö tegemiseks mobiilses seadmes on Supply Chain Managementis mitu võimalust.
@@ -124,7 +124,7 @@ Järgmine näide illustreerib, kuidas saate mobiilse seadme abil punkttsüklilis
 
 1.  Valige mobiilsel seadmel menüüelement punkttsüklilise inventuuri töö töötlemiseks.
 2.  Registreerige asukoht, millele punkttsüklilist inventuuri teha.
-3.  Registreerige ja kinnitage kaubakood ja loendatud kaupade kogus. **Märkus:** tsüklilise inventuuri olekuks määratakse **Ülevaatuse ootel** või **Suletud** lehel **Kogu töö**,olenevalt lehel **Töötaja** määratud parameetritest.
+3.  Registreerige ja kinnitage kaubakood ja loendatud kaupade kogus. **Märkus:** tsüklilise inventuuri olekuks määratakse **Ülevaatuse ootel** või **Suletud** lehel **Kogu töö** ,olenevalt lehel **Töötaja** määratud parameetritest.
 4.  Valikuline: korrake 3. sammu asukoha ülejäänud kaupade puhul ja kinnitage, et pole rohkem loendatavaid kaupu.
 
 ## <a name="resolve-cycle-counting-differences"></a>Tsüklilise inventuuri erinevuste lahendamine

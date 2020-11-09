@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, PurchCopying
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b478e4cd5cf1eb88517bb923c377c6121d92fd0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9bf5e92ad6bc62dd008a51aacca891cb7253a723
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204765"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018025"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Korduva ostutellimuse loomine
 
@@ -43,9 +43,9 @@ Selles teemas näidatakse, kuidas luua korduvat ostutellimust, kopeerides read v
     - Väli **Muuda märki** toetab samuti tellitud koguse muutmist, muutes lisatud tellimuseridade koguse märki. Sellest võib olla abi, kui teil on vaja kanne tühistada, luues kande jaoks negatiivsed tellimuse read. See suvand on automaatselt valitud, kui leht avatakse toimingust **Loo kreediti märge**.  
     - Suvand **Kopeeri tasud** lubab teil kopeerida tasud oma uude tellimusse dokumendist, millest kopeerite tellimuseridu.  
     - Suvand **Arvuta hinnad uuesti** kasutab praeguseid hindu ja allahindlusi, mitte ei kopeeri neid dokumendist, millest muud teavet kopeerite.  
-    - Suvand **Kopeeri täpselt** loob täpse koopia kõigi väljade väärtustest tellimuse dokumendi päisest ja ridadelt. Kui seda pole valitud, kasutatakse paljudel hankijat ja tooteid puudutavatel väljadel vaikeväärtusi, täpselt nii, nagu uue tellimuse käsitsi koostamisel. Näiteks kui tellimus, millelt kopeerite, oleks tühistanud hankija vaike-arvekonto, kopeeritaks seesama arvekonto teie tellimusele. Kui te ei valinud suvandit **Kopeeri täpselt**, kasutatakse selle asemel vaike-arvekontot, mida hankija teie tellimuses kasutaks.  
+    - Suvand **Kopeeri täpselt** loob täpse koopia kõigi väljade väärtustest tellimuse dokumendi päisest ja ridadelt. Kui seda pole valitud, kasutatakse paljudel hankijat ja tooteid puudutavatel väljadel vaikeväärtusi, täpselt nii, nagu uue tellimuse käsitsi koostamisel. Näiteks kui tellimus, millelt kopeerite, oleks tühistanud hankija vaike-arvekonto, kopeeritaks seesama arvekonto teie tellimusele. Kui te ei valinud suvandit **Kopeeri täpselt** , kasutatakse selle asemel vaike-arvekontot, mida hankija teie tellimuses kasutaks.  
     - Suvand **Kustuta osturead** kustutab enne uute ridade lisamist kõik ostutellimuse read, mis on juba kopeeritavas ostutellimuses olemas. Kasutage seda valikut ettevaatlikult, kuna see kustutab kõik olemasolevad read hoiatamata.  
-    - Kui kasutate suvandit **Kopeeri tellimuse päis**, ei pea te oma uue tellimuse jaoks käsitsi looma päise teavet. Pange tähele, et selle valiku tulemusena kasutatakse hankijaga seotud väljadel vaikeväärtusi. Kui dokumendil, millest te kopeerite, on vaikesättest erinevad väärtused, mida soovite kopeerida, kasutage samuti suvandit **Kopeeri täpselt**.   
+    - Kui kasutate suvandit **Kopeeri tellimuse päis** , ei pea te oma uue tellimuse jaoks käsitsi looma päise teavet. Pange tähele, et selle valiku tulemusena kasutatakse hankijaga seotud väljadel vaikeväärtusi. Kui dokumendil, millest te kopeerite, on vaikesättest erinevad väärtused, mida soovite kopeerida, kasutage samuti suvandit **Kopeeri täpselt**.   
     - On erinevaid dokumendiallikaid, millelt saate kopeerida, ja igaühel neist on sellel lehel eraldi jaotis. Näiteks jaotis **Ostutellimused** lubab teil kopeerida olemasolevatest ostutellimustest.  
 
 8. Jaotises **Ostutellimused** valige read, mida soovite kopeerida oma lõikelauale. Võimalik on valida ka täiendavaid ostutellimuse ridu teistelt ostutellimustelt ja kopeerida ka neid teie tellimusele. Samuti on võimalik lisada ridu teistsugustelt ostudokumentidelt. Järgmised sammud annavad valikutest ülevaate.  

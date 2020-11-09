@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSRFMenuItem
+ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12f1c405566561661fe7c13db5bfca70114b1618
-ms.sourcegitcommit: 286786445f72db20e993d37a63df0b886f8f5e99
+ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3988342"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016190"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiilsete seadmete seadistamine laotöö jaoks
 
@@ -44,7 +44,7 @@ Tegevuse või päringu jaoks menüüelemendi loomiseks valige välja **Režiim**
 > Täiendavad väljad võivad menüüelementide jaoks olla saadaval, sõltuvalt menüüelemendi jaoks valitud režiimist ja sellest, kas menüüelementi kasutatakse olemasoleva töö tegemiseks. Teavet lisaväljade valikute kohta vaadake selles teemas allpool olevast teemast „Menüüelementide lisavalikud”.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Menüüelemendi konfigureerimine tegevuste ja päringute jaoks
-Kui menüüelemendi välja **Režiim** sätteks on valitud **Kaudne**, saate luua menüüelemendi tegema üldist tegevust või päringut, mis ei loo tööd. Niisugused tegevused on näiteks litsentsiplaadi siltide uuesti printimine ja päringute esitamine asukoha kaupade kohta. Järgmises tabelis on toodud saadaolevad suvandid.
+Kui menüüelemendi välja **Režiim** sätteks on valitud **Kaudne** , saate luua menüüelemendi tegema üldist tegevust või päringut, mis ei loo tööd. Niisugused tegevused on näiteks litsentsiplaadi siltide uuesti printimine ja päringute esitamine asukoha kaupade kohta. Järgmises tabelis on toodud saadaolevad suvandid.
 
 | Suvand | Kirjeldus |
 |---|---|
@@ -64,8 +64,8 @@ Kui menüüelemendi välja **Režiim** sätteks on valitud **Kaudne**, saate luu
 | Juhi väljaregistreerimine | Registreerige, et autojuht on kohtumise lõpule viinud. |
 | Numbriseeria vahemälu tühjendamine | Kustutage numbriseeria vahemälust numbriseeria. Seda tegevust teeb tavaliselt süsteemiadministraator vahemälu probleemide lahendamiseks, kui kasutatakse mobiilseid seadmeid. |
 | Partii likvideerimise muutmine | Lubage töötajal määrata kaubale ja partiile partii likvideerimiskood. See valik värskendab partii jaoks määratud likvideerimiskoodi. |
-| Kuva avatud tööloend | Saate kuvada konkreetsele kasutajale saadaolevate tööde loendi. Seejärel saab kasutaja valida tegemiseks töö ja ta suunatakse sellele. Seda loendit tuleb vaadata tahvelseadmetel, mille ekraani suurus on vähemalt 7 tolli. Selle suvandi valimisel muutuvad kättesaadavaks menüüelemendid **Päringu redigeerimine** ja **Väljaloend**. Lehel **Päringu redigeerimine** saate seadistada loendis kuvatava töö kriteeriumid. Lehel **Väljaloend** saate valida tööde loendis kuvatavad väljad. Näiteks saate vähendada kuvatavate väljade arvu, et kasutaja saaks sobiva tööüksuse kiiremini valida. Kiirkaardi **Üldine** väljal **Kirjeid leheküljel** saate valida ka igal leheküljel kuvatavate töökirjete arvu. Kui suvand **Luba kasutajatel filtreerida töid kande tüübi järgi** on märgitud, lisandub tööde loendisse juhtelement **Filtreeri töö**, mis võimaldab kasutajal kande tüübi järgi filtreerida. Tööde loendis näeb kasutaja ainult neid töid, millele tal on juurdepääsuluba. Peate tagama, et kasutajatel oleks luba ühele või mitmele kasutajale suunatud menüüelemendile, mis toetavad kindlaid tööklassitüüpe, millele neil peab juurdepääs olema. Load kinnitatakse, kui kasutaja üritab loendis olevat tööd teha.|
-| Litsentsiplaatidelt üleviimistellimuse loomine | Laseb laotöötajatel luua ja töödelda üleviimistellimusi otse laorakenduses. Esiteks peavad laotöötajad valima sihtlao ja seejärel saavad nad skannida rakenduse abil ühe või mitu litsentsiplaati. Kui laotöötaja valib suvandi **Lõpeta tellimus**, loob pakett-töö litsentsiplaatide jaoks registreeritud vaba kaubavaru alusel vajaliku üleviimistellimuse ja tellimuse read. Lisateavet leiate teemast [Üleviimistellimuste loomine laorakenduses](create-transfer-order-from-warehouse-app.md)
+| Kuva avatud tööloend | Saate kuvada konkreetsele kasutajale saadaolevate tööde loendi. Seejärel saab kasutaja valida tegemiseks töö ja ta suunatakse sellele. Seda loendit tuleb vaadata tahvelseadmetel, mille ekraani suurus on vähemalt 7 tolli. Selle suvandi valimisel muutuvad kättesaadavaks menüüelemendid **Päringu redigeerimine** ja **Väljaloend**. Lehel **Päringu redigeerimine** saate seadistada loendis kuvatava töö kriteeriumid. Lehel **Väljaloend** saate valida tööde loendis kuvatavad väljad. Näiteks saate vähendada kuvatavate väljade arvu, et kasutaja saaks sobiva tööüksuse kiiremini valida. Kiirkaardi **Üldine** väljal **Kirjeid leheküljel** saate valida ka igal leheküljel kuvatavate töökirjete arvu. Kui suvand **Luba kasutajatel filtreerida töid kande tüübi järgi** on märgitud, lisandub tööde loendisse juhtelement **Filtreeri töö** , mis võimaldab kasutajal kande tüübi järgi filtreerida. Tööde loendis näeb kasutaja ainult neid töid, millele tal on juurdepääsuluba. Peate tagama, et kasutajatel oleks luba ühele või mitmele kasutajale suunatud menüüelemendile, mis toetavad kindlaid tööklassitüüpe, millele neil peab juurdepääs olema. Load kinnitatakse, kui kasutaja üritab loendis olevat tööd teha.|
+| Litsentsiplaatidelt üleviimistellimuse loomine | Laseb laotöötajatel luua ja töödelda üleviimistellimusi otse laorakenduses. Esiteks peavad laotöötajad valima sihtlao ja seejärel saavad nad skannida rakenduse abil ühe või mitu litsentsiplaati. Kui laotöötaja valib suvandi **Lõpeta tellimus** , loob pakett-töö litsentsiplaatide jaoks registreeritud vaba kaubavaru alusel vajaliku üleviimistellimuse ja tellimuse read. Lisateavet leiate teemast [Üleviimistellimuste loomine laorakenduses](create-transfer-order-from-warehouse-app.md)
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Menüüelementide konfigureerimine teisele töötajale või protsessile töö loomiseks

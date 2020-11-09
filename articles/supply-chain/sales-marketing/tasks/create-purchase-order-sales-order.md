@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 914400d2e8acff0bfa762708ba421812c31be32b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 4576e442c2f270932e20472a6c340dcac6d45246
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982085"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018694"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Ostutellimuse loomine müügitellimuselt
 
@@ -47,7 +47,7 @@ See protseduur näitab, kuidas koostada müügitellimusel põhinevat ostutellimu
 14. Klõpsake valikut **Salvesta**.
 15. Klõpsake **Tegevuspaanil** valikut **Müügitellimus**.
 16. Klõpsake valikut **Ostutellimus**. Lehel **Ostutellimuse loomine** on kõik avatud müügitellimuse read, mis on müügitellimuselt kopeeritud. Saate vaadata tellimuse üksikasju ja vajaduse korral muuta valitud üksikasju nagu ostu kogus ja hinnatingimused, enne ostude loomist. 
-17. Valige suvand**Lisa kõik**.
+17. Valige suvand **Lisa kõik**.
     - Kui soovite luua ostutellimused ainult müügitellimuse ridade alamkogumile, valige need eraldi.  
     - Väli **Hankija konto** võib juba hankija numbrit sisaldada või mitte sisaldada. Kui tootele on (seotud kauba laovarudes) seadistatud vaikehankija, kopeeritakse reale see hankija. Vastasel korral tuleb hankija sisestada käsitsi.  Selles juhendis, olenemata sellest, kas väljal **Hankija konto** on juba väärtus või mitte, juhendavad järgmised toimingud teid valima uut hankijat, kes on iga rea puhul erinev.  
 18. Klõpsake väljal **Hankija konto** otsingu avamiseks ripploendi nuppu.
@@ -63,7 +63,7 @@ See protseduur näitab, kuidas koostada müügitellimusel põhinevat ostutellimu
 ## <a name="review-purchase-orders-created-from-sales-orders"></a>Vaadake müügitellimustest loodud ostutellimused üle.
 1. Paanil **Toimingupaan** klõpsake **Üldine**.
 2. Klõpsake valikut **Seotud tellimused**. Lehel **Seotud tellimused** on kõik tellimused, mis müügitellimusest loodi. Selles näites on kaks ostutellimust, mis on koostatud vastavalt kahele hankijale. 
-3. Klõpsake, et järgida linki väljal **Ostutellimus**. Iga ostutellimuse rida on seotud müügitellimuse reaga, mis viis ostuni. Seos müügitellimusega on näidatud **Toote vahekaardil** kiirkaardil **Rea üksikasjad** väljadel **Viite tüüp**, **Viitenumber** ja **Viitepartii**.  
+3. Klõpsake, et järgida linki väljal **Ostutellimus**. Iga ostutellimuse rida on seotud müügitellimuse reaga, mis viis ostuni. Seos müügitellimusega on näidatud **Toote vahekaardil** kiirkaardil **Rea üksikasjad** väljadel **Viite tüüp** , **Viitenumber** ja **Viitepartii**.  
 4. Laiendage või ahendage jaotist **Rea üksikasjad**.
 5. Klõpsake vahekaarti **Toode**.
     - **Viitepartii** tagab, et selle ostu kulud kantakse manustatud müügitellimusele.  

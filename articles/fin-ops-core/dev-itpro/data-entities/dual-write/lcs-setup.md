@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c78752aa1544b12f61071fa06617af4ac2809233
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: f49eba1748861af6ee3353a6c58005ee84ccae23
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172988"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998104"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Topeltkirjutuse seadistamine teenuses Lifecycle Services
 
@@ -75,7 +74,7 @@ Topeltkirjutuse ühenduse seadistamiseks tehke järgmist.
         ![Vahekaart Common Data Service, kui teie rentnikul ei ole veel Common Data Service'i keskkonda](../dual-write/media/lcs_setup_2.png)
 
 7. Viige lõpule järelejäänud toimingud viisardis **Juurutussätted**.
-8. Kui keskkonna olekuks on **Juurutatud**, avage keskkonna üksikasjade leht. Jaotises **Common Data Service'i keskkonna teave** kuvatakse lingitud Finance and Operationsi ja Common Data Service'i keskkonna nimed.
+8. Kui keskkonna olekuks on **Juurutatud** , avage keskkonna üksikasjade leht. Jaotises **Common Data Service'i keskkonna teave** kuvatakse lingitud Finance and Operationsi ja Common Data Service'i keskkonna nimed.
 
     ![Common Data Service keskkonna teabe jaotis](../dual-write/media/lcs_setup_3.png)
 

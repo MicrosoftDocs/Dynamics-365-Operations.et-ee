@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 60e69fd62d6d15a1fcb17644ef4710b8764ce924
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651710"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016558"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>Identifitseerimisnumbri vastuvõtmine laorakenduse kaudu
 
@@ -45,11 +46,11 @@ Kui töötaja skannib sissetuleva litsentsiplaadi ID, siis käivitab süsteem li
 
 ### <a name="work-policies-with-work-creation"></a>Tööloomega tööpoliitikad
 
-Kui registreerite sissetulevad kaubad töid loova tööpoliitika abil, siis loob ja salvestab süsteem iga registreeringu kohta kõrvaleseatavad töökirjed. Kui kasutate tööprotsessi *Litsentsiplaadi vastuvõtt ja kõrvaleseadmine*, siis käsitletakse registreeringut ja kõrvaleseadmist ühe toiminguna, kasutades ühte mobiilse seadme menüükäsku. Protsessi *Vastuvõttev litsentsiplaat* kasutamisel käsitletakse vastuvõtu ja kõrvalseadmise protsesse kahe erineva ladustamistoiminguna, millest kumbagi kohta käib eraldi mobiilse seadme menüükäsk.
+Kui registreerite sissetulevad kaubad töid loova tööpoliitika abil, siis loob ja salvestab süsteem iga registreeringu kohta kõrvaleseatavad töökirjed. Kui kasutate tööprotsessi *Litsentsiplaadi vastuvõtt ja kõrvaleseadmine* , siis käsitletakse registreeringut ja kõrvaleseadmist ühe toiminguna, kasutades ühte mobiilse seadme menüükäsku. Protsessi *Vastuvõttev litsentsiplaat* kasutamisel käsitletakse vastuvõtu ja kõrvalseadmise protsesse kahe erineva ladustamistoiminguna, millest kumbagi kohta käib eraldi mobiilse seadme menüükäsk.
 
 ### <a name="work-policies-without-work-creation"></a>Tööloometa tööpoliitikad
 
-Te saate kasutada litsentsiplaadi vastuvõtuprotsessi tööd loomata. Kui määratlete tööpoliitikad, millel on töökäsu tüüp *Üleviimistarne* ja/või *Ostutellimused* ning kasutate protsessi *Litsentsiplaadi vastuvõtmiseks (ja kõrvaleseadmiseks)*, siis ei loo järgmised kaks ladustamise mobiilirakenduse protsessi uut tööd. Selle asemel registreeritakse litsentsiplaadil vastuvõtualal sissetulevad füüsilised varud.
+Te saate kasutada litsentsiplaadi vastuvõtuprotsessi tööd loomata. Kui määratlete tööpoliitikad, millel on töökäsu tüüp *Üleviimistarne* ja/või *Ostutellimused* ning kasutate protsessi *Litsentsiplaadi vastuvõtmiseks (ja kõrvaleseadmiseks)* , siis ei loo järgmised kaks ladustamise mobiilirakenduse protsessi uut tööd. Selle asemel registreeritakse litsentsiplaadil vastuvõtualal sissetulevad füüsilised varud.
 
 - *Vastuvõttev litsentsiplaat*
 - *Litsentsiplaadi vastuvõtt ja kõrvaleseadmine*
@@ -66,13 +67,13 @@ Asukoha profiilile määratud lao asukohta saab kasutada ka siis, kui funktsioon
 
 ## <a name="add-mobile-device-menu-items-for-each-receiving-location-in-a-warehouse"></a>Mobiilse seadme menüükäskude lisamine iga vastuvõtva asukoha jaoks laos
 
-Funktsioon *Ladustamisrakenduse täiustusi vastu võttev litsentsiplaat* võimaldab teil teostada vastuvõtte mis tahes asukohas laos, lisades ladustamise mobiilirakendusele vastuvõtva (ja kõrvaleseadva) asukohapõhise litsentsiplaadi menüükäsud. Varem toetas süsteem vastuvõtmist ainult iga lao jaoks eraldi seatud vaikimisi asukohas. Nüüd aga pakuvad antud funktsiooni sisse lülitamisel mobiilse seadme vastuvõtva (ja kõrvaleseadva) litsentsiplaadi menüükäsud võimalust **Kasuta vaikeandmeid**, mis võimaldab teil valida iga menüükäsu jaoks kohandatud „kuhu“ asukoha. (See suvand oli teatud menüükäsu tüüpide jaoks juba saadaval.)
+Funktsioon *Ladustamisrakenduse täiustusi vastu võttev litsentsiplaat* võimaldab teil teostada vastuvõtte mis tahes asukohas laos, lisades ladustamise mobiilirakendusele vastuvõtva (ja kõrvaleseadva) asukohapõhise litsentsiplaadi menüükäsud. Varem toetas süsteem vastuvõtmist ainult iga lao jaoks eraldi seatud vaikimisi asukohas. Nüüd aga pakuvad antud funktsiooni sisse lülitamisel mobiilse seadme vastuvõtva (ja kõrvaleseadva) litsentsiplaadi menüükäsud võimalust **Kasuta vaikeandmeid** , mis võimaldab teil valida iga menüükäsu jaoks kohandatud „kuhu“ asukoha. (See suvand oli teatud menüükäsu tüüpide jaoks juba saadaval.)
 
 Funktsiooni oma süsteemis kättesaadavaks muutmiseks peate lülitama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse funktsiooni *Ladustamisrakenduse täiustusi vastu võttev litsentsiplaat*.
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Kuva või jäta vastuvõtmise kokkuvõte leht
 
-Saate kasutada funktsiooni *Kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes*, et kasutada täiendava üksikasjaliku lao rakenduse voogu identifitseerimisnumbri vastuvõtmisprotsessi osana.
+Saate kasutada funktsiooni *Kokkuvõtte lehe vastuvõtmise juhtimine mobiilses seadmes* , et kasutada täiendava üksikasjaliku lao rakenduse voogu identifitseerimisnumbri vastuvõtmisprotsessi osana.
 
 Kui see funktsioon on sisse lülitatud, annavad identifitseerimisnumbri vastuvõtmise või identifitseerimisnumbri vastuvõtmise ja ladustamise menüü üksused mobiilses seadmes sätte **Kuva vastuvõttev kokkuvõtte leht**. Sellel sättel on järgmised suvandid.
 
@@ -85,7 +86,7 @@ Funktsiooni oma süsteemis kättesaadavaks muutmiseks peate lülitama [funktsioo
 
 Identifitseerimisnumbri vastuvõtmisprotsessi ei saa kasutada, kui ASN sisaldab juba olemasolevat identifitseerimisnumbri ID-d ja sellel on füüsiline vaba kaubavaru muus lao asukohas, kus identifitseerimisnumbri registreerimine toimub.
 
-Üleviimistellimuste olukorras, kus transiitlaos ei jälgita identifitseerimisnumbreid (ja seega ei jälgita ka füüsilist vaba kaubavaru identifitseerimisnumbri kohta), saate kasutada funktsiooni *Takista üleviimistellimuse – saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu*, et vältida transiidis olevate identifitseerimisnumbrite füüsilise vaba kaubavaru värskendamist.
+Üleviimistellimuste olukorras, kus transiitlaos ei jälgita identifitseerimisnumbreid (ja seega ei jälgita ka füüsilist vaba kaubavaru identifitseerimisnumbri kohta), saate kasutada funktsiooni *Takista üleviimistellimuse – saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu* , et vältida transiidis olevate identifitseerimisnumbrite füüsilise vaba kaubavaru värskendamist.
 
 Funktsiooni oma süsteemis kättesaadavaks muutmiseks peate lülitama [funktsioonihalduses](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sisse funktsiooni *Takista üleviimistellimuse saadetud identifitseerimisnumbrite kasutamist muudes ladudes, mis ei ole sihtkoha ladu*.
 

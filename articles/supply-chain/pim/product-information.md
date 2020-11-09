@@ -1,7 +1,7 @@
 ---
 title: Tooteteabe ülevaade
 description: Teema annab teavet tooteteabe halduse kohta. Tooteteabe haldus toimib ühiskasutuses toote definitsiooni, kategoriseerimise ja identifikaatoritega kõigi juriidiliste isikute lõikes ja samuti toote konkreetsete konfiguratsioonidega, et sobida äriprotsessidesse.
-author: benebotg
+author: t-benebo
 manager: tfehr
 ms.date: 06/01/2017
 ms.topic: article
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c118bc37a26d6d3a65905f2fd955ceb3554e9557
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 5c9ff3d0c7eabe2670c4818173d88c3ab5da7ff0
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980884"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015125"
 ---
 # <a name="product-information-overview"></a>Tooteteabe ülevaade
 
@@ -72,7 +72,7 @@ Tooteetalon seostatud ärireeglite määramiseks tootedimensiooni grupi ja konfi
 Valida saab kolme konfiguratsioonitehnoloogia vahel.
 
 - Eelmääratletud variandid määratletakse eelmääratletud tootedimensioonidega. Variandi definitsioon hõlmab konkreetse kehtiva dimensioonide kombinatsiooni (nt värv, stiil ja suurus) definitsiooni. Iga kombinatsioon annab eristatava tootevariandi.
-- Dimensioonipõhist konfiguratsiooni kasutatakse tavaliselt tootmisstsenaariumides ja see võimaldab kasutada koosluste definitsioonis konfiguratsiooni dimensiooni. Pärast konkreetse konfiguratsiooni valimist kasutab süsteem selle konfiguratsiooni puhul kehtivat koosluseridade alamkogumit plaanimiseks ja tootmiseks. Seda mõistet nimetatakse ka *üldiseks koosluseks*, kuna kõigi toote konfiguratsioonide puhul kasutatakse ühte ühist kooslust.
+- Dimensioonipõhist konfiguratsiooni kasutatakse tavaliselt tootmisstsenaariumides ja see võimaldab kasutada koosluste definitsioonis konfiguratsiooni dimensiooni. Pärast konkreetse konfiguratsiooni valimist kasutab süsteem selle konfiguratsiooni puhul kehtivat koosluseridade alamkogumit plaanimiseks ja tootmiseks. Seda mõistet nimetatakse ka *üldiseks koosluseks* , kuna kõigi toote konfiguratsioonide puhul kasutatakse ühte ühist kooslust.
 - Piirangupõhine konfiguratsioon kasutab toote konfiguratsioonimudelit kõigi võimalike atribuutide ja komponentide kirjeldamiseks, mis on vajalikud kõigi toote võimalike variantide kirjeldamiseks ühes mudelis. Atribuutide kombinatsioonide piiranguid saab kirjeldada regulaaravaldiste või tabelipõhiste piirangute kaudu. Konfiguratsioonimudelid ja konfiguraatorid muutuvad tooteteabe haldamisel järjest olulisemaks ja neid kasutatakse kõigi valdkondade lõikes.
 
 Kui plaanite Supply Chain Managementi juurutamist, on väga tähtis, et valiksite äriprotsessile õige konfiguratsioonitehnoloogia. Toodet ei saa pärast juurutamist ühest mudelist teiseks teisendada.
@@ -89,7 +89,7 @@ Konkreetsele juriidilisele isikule väljastatud tooteid nimetatakse *väljastatu
 
 Tööruumi **Väljastatud toodete haldus** saab konfigureerida menüüelemendist **Minu tööruumi konfigureerimine**. Valige kategooriahierarhia ja kategooria, mille järgi tööruumi filtreerides. Asjakohaste toote andmete kohandamiseks tööruumis võite määratleda ka ajapiirid päevades valikutele **Hiljuti väljastatud tooted** ja **Peatatud väljastatud tooted**.
 
-Tööruum koosneb paanide ja kahe loendi kokkuvõttest. Loendis **Avatud juhtumid** on kuvatud toote muutmise juhtumid, millel on valitud toote kategooriahierarhias tooted, mis pole lõpetatud ja suletud. Loendis **Hiljuti väljastatud** on näha tooted, mis on väljastatud tööruumi konfiguratsioonis määratud ajapiirides. Iga loendiüksuse puhul käivitatakse valideerimine ja kuvatakse valideerimise olek. See olek võib näidata, et juriidilise isiku vajalikke konfigureerimisi pole lõpule viidud. Loendist pääsete otse juurde lehtedele **Väljastatud toote üksikasjad**, **Tooteatribuudi haldus**, **Tootekategooria haldus**, **Tellimuse vaikesätted** ja **Teksti tõlked**, et viia lõpule toote vajalik konfigureerimine.
+Tööruum koosneb paanide ja kahe loendi kokkuvõttest. Loendis **Avatud juhtumid** on kuvatud toote muutmise juhtumid, millel on valitud toote kategooriahierarhias tooted, mis pole lõpetatud ja suletud. Loendis **Hiljuti väljastatud** on näha tooted, mis on väljastatud tööruumi konfiguratsioonis määratud ajapiirides. Iga loendiüksuse puhul käivitatakse valideerimine ja kuvatakse valideerimise olek. See olek võib näidata, et juriidilise isiku vajalikke konfigureerimisi pole lõpule viidud. Loendist pääsete otse juurde lehtedele **Väljastatud toote üksikasjad** , **Tooteatribuudi haldus** , **Tootekategooria haldus** , **Tellimuse vaikesätted** ja **Teksti tõlked** , et viia lõpule toote vajalik konfigureerimine.
 
 ### <a name="manually-creating-a-new-released-product"></a>Uue väljastatud toote käsitsi loomine
 

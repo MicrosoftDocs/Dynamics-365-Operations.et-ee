@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 07d6bd0bab796d7839daa2bad91f7e88c2e881b5
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275460"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997914"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Finance and Operationsi rakenduste täiendustega seotud probleemide tõrkeotsing
 
@@ -54,7 +53,7 @@ Probleemi lahendamiseks tehke järgmist.
 1. Logige rakenduse Finance and Operations virtuaalarvutisse (VM) sisse.
 2. Avage Visual Studio administraatorina ja avage rakendusobjektide puu (AOT).
 3. Sisestage otsigusse **DualWriteProjectConfiguration**.
-4. AOT-s paremklõpsake valikut **DualWriteProjectConfiguration** ja valige **Lisa uuele projektile**. Vajutage **OK**, et luua uus projekt, mis kasutab vaikesuvandeid.
+4. AOT-s paremklõpsake valikut **DualWriteProjectConfiguration** ja valige **Lisa uuele projektile**. Vajutage **OK** , et luua uus projekt, mis kasutab vaikesuvandeid.
 5. Paremklõpsake Solution Exploreris valikut **Projekti atribuudid** ja seadke **Sünkrooni andmebaasi koostamisel** väärtuseks **Tõene**.
 6. Koostage projekt ja kinnitage, et see on edukas.
 7. Valige menüüs **Dynamics 365** suvand **Sünkrooni andmebaas**.
@@ -67,15 +66,15 @@ Probleemi lahendamiseks tehke järgmist.
 
 Teile võidakse kuvada lehel **Topeltkirjutus** tõrketeade, mis sarnaneb järgmisele näitele.
 
-*Puuduv allika väli \<välja nimi\> skeemis.*
+*Puuduv allika väli \<field name\> skeemis.*
 
 ![Puuduva allika välja tõrketeate näide](media/error_missing_field.png)
 
 Probleemi lahendamiseks tehke esmalt need toimingud veendumaks, et väljad on olemis.
 
 1. Logige rakenduse Finance and Operations VM-i sisse.
-2. Avage **Tööruumid \> Andmehaldus**, valige paan **Raamistiku parameetrid** ja seejärel valige vahekaardil **Üksuse sätted** üksuste värskendamiseks **Värskenda üksuste loend**.
-3. Avage **Tööruumid \> Andmehaldus**, valige vahekaart **Andmeüksused** ja veenduge, et üksus on loendis. Kui olemit pole loendis, logige rakenduse Finance and Operations VM-i sisse ja veenduge, et üksus oleks saadaval.
+2. Avage **Tööruumid \> Andmehaldus** , valige paan **Raamistiku parameetrid** ja seejärel valige vahekaardil **Üksuse sätted** üksuste värskendamiseks **Värskenda üksuste loend**.
+3. Avage **Tööruumid \> Andmehaldus** , valige vahekaart **Andmeüksused** ja veenduge, et üksus on loendis. Kui olemit pole loendis, logige rakenduse Finance and Operations VM-i sisse ja veenduge, et üksus oleks saadaval.
 4. Avage rakenduse Finance and Operations lehel **Topeltkirjutus** leht **Üksuse vastendamine**.
 5. Üksuse vastendustes väljade automaatseks täitmiseks valige **Värskenda üksuste loendit**.
 

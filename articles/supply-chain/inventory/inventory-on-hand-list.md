@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventOnhandItem, InventOnHandItemListPage
+ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 275a37cd76715ab9909e057ec759c66c4f9c617b
-ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829845"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017387"
 ---
 # <a name="inventory-on-hand-list"></a>Vaba kaubavaru loend
 
 [!include [banner](../includes/banner.md)]
 
-Selles teemas kirjeldatakse, kuidas kasutada lehte **Vaba kaubavaru loend**, et vaadata vaba kaubavaru üksikasju. Selles näidatakse mõnda viisi, kuidas eri filtreerimis- ja sortimissuvandid koos töötavad ja kuidas need valikud võivad mõnikord põhjustada ühendamisel ootamatuid tulemusi.
+Selles teemas kirjeldatakse, kuidas kasutada lehte **Vaba kaubavaru loend** , et vaadata vaba kaubavaru üksikasju. Selles näidatakse mõnda viisi, kuidas eri filtreerimis- ja sortimissuvandid koos töötavad ja kuidas need valikud võivad mõnikord põhjustada ühendamisel ootamatuid tulemusi.
 
 ## <a name="query-your-on-hand-inventory"></a>Oma vaba kaubavaru kontrollimine
 
@@ -39,7 +39,7 @@ Kasutage otsitavate toodete leidmiseks järgmisi tööriistu.
 
 - Valige toimingupaanil [**Dimensioonid**](#dimensions), et avada dialoogiboks, kus saate lisada või eemaldada veerge, mis kuvatakse ruudustikus **Vaba kaubavaru**.
 - Sisestage [paanil **Filtrid**](#filters-pane) kindlatele väljadele väärtused, et näidata ainult nende väärtustega ühtivaid kirjeid. Võtke arvesse, et siin määratletud filtreid rakendatakse lähtetabelite puhul, mida võidakse hiljem koondada dimensioonide järgi, mille te kuvamiseks valisite. Teavet selle kohta, kuidas see käitumine võib teie tulemusi mõjutada, leiate hiljem selle teema [näidetest](#examples).
-- Valige paanil **Filtrid** suvand **Rakenda**, et luua **Vaba kaubavaru** ruudustikus ühtiva vaba kaubavaru loend.
+- Valige paanil **Filtrid** suvand **Rakenda** , et luua **Vaba kaubavaru** ruudustikus ühtiva vaba kaubavaru loend.
 - Valige **Vaba kaubavaru** ruudustikus ükskõik milline veerupäis, et sortida või filtreerida selle veeru väärtuste alusel. Ruudustiku ülaosas olev kiirfilter pakub täiendavaid filtreerimissuvandeid. Need filtrid rakenduvad tulemustele, mitte lähtetabelitele. Teavet selle kohta, kuidas see käitumine võib teie tulemusi mõjutada, leiate hiljem selle teema [näidetest](#examples).
 
 **Vaba kaubavaru** ruudustikus on iga ühtiva kauba kohta järgmised varude teavet sisaldavad veerud.
@@ -54,14 +54,14 @@ Kasutage otsitavate toodete leidmiseks järgmisi tööriistu.
 | Tellimusel | Lõplik kogus, mida sisaldavad väljaminevad tellimused või mille kogus on eri varude töölehtedel negatiivne. |
 | Tellitud reserveeritud | Lõplik kogus, mis on tellitud sissetulekutel reserveeritud. Selle välja väärtus tähistab olekuga _Tellitud reserveeritud_ väljaminevate kannete kaupade lõplikku kogust. Kaubad, mis on tellituna reserveeritud, pole laos füüsiliselt saadaval. Seetõttu ei saa neid otse komplekteerida ega tarnida. |
 | Reserveerimiseks saadaval | Vaba kaubavaru lõplik kogus, mida saab reserveerida.<p>**Märkus.** Kui märkeruut **Reserveeri tellitud kaubad** on lehel **Varude ja laohalduse parameetrid** valitud, sisaldab selle välja väärtus eeldatavaid sissetulekuid. Kui märkeruut on tühjendatud, ei hõlma väärtus eeldatavaid sissetulekuid.</p> |
-| Kokku vaba | Saadaolev kogus kokku.<p>**Kokku vaba** on arvutatud väli. Väärtuse leidmiseks liidetakse väärtus **Füüsiliselt vaba** väärtusele **Tellitud kokku**, millest lahutatakse **Tellimusel**.</p> |
+| Kokku vaba | Saadaolev kogus kokku.<p>**Kokku vaba** on arvutatud väli. Väärtuse leidmiseks liidetakse väärtus **Füüsiliselt vaba** väärtusele **Tellitud kokku** , millest lahutatakse **Tellimusel**.</p> |
 
 ## <a name="apply-filters-to-find-the-records-that-youre-looking-for"></a><a name="filters-pane"></a>Filtrite rakendamine otsitavate kirjete leidmiseks
 
-Kasutage paani **Filtrid**, filtreerida vaba kaubavaru loendit nii, et see sisaldaks ainult kirjeid, mille puhul väljaväärtused ühtivad filtreerimiskriteeriumidega. Filtri määratlemiseks toimige järgmiselt.
+Kasutage paani **Filtrid** , filtreerida vaba kaubavaru loendit nii, et see sisaldaks ainult kirjeid, mille puhul väljaväärtused ühtivad filtreerimiskriteeriumidega. Filtri määratlemiseks toimige järgmiselt.
 
 1. Otsige paanil **Filtrid** üles filter, mida soovite kasutada filtreerimiseks.
-2. Valige sihtvälja nime all asuvalt väljalt loogiline tehtemärk (nt *algus*, *võrdne* või *suurem kui*).
+2. Valige sihtvälja nime all asuvalt väljalt loogiline tehtemärk (nt *algus* , *võrdne* või *suurem kui* ).
 3. Sisestage või valige otsitav väärtus.
 
 > [!IMPORTANT]
@@ -71,10 +71,10 @@ Kasutage paani **Filtrid**, filtreerida vaba kaubavaru loendit nii, et see sisal
 > 
 > [Ruudustikus esitatud filtrid](#grid-filters) rakenduvad *siiski* koondatud loendile. Need filtrid hõlmavad nii kiirfiltrit ruudustiku ülaosas kui ka iga veerupäise filtrit.
 
-Saate muuta filtreid, mis on saadaval paanil **Filtrid**, järgmiseid juhiseid järgides.
+Saate muuta filtreid, mis on saadaval paanil **Filtrid** , järgmiseid juhiseid järgides.
 
-- Paanilt filtri eemaldamiseks valige selle **sulgemise** nupp (**X**).
-- Filtri lisamiseks valige suvand **Lisa**, mis asub paani **Filtrid** ülaosas. Avanenud dialoogiboksis **Lisa filtrivälju** on kuvatud saadaolevate väljade loend. Samuti kuvatakse selles teave iga välja andmetüübi ja tabeli kohta. Kasutage veerupäiseid, et filtreerida ja sortida loendit oma vajaduse järgi, ning seejärel valige märkeruut iga välja puhul, mida soovite paanile **Filtrid** lisada. Kui olete lõpetanud, valige oma muudatuse rakendamiseks **Sisesta**.
+- Paanilt filtri eemaldamiseks valige selle **sulgemise** nupp ( **X** ).
+- Filtri lisamiseks valige suvand **Lisa** , mis asub paani **Filtrid** ülaosas. Avanenud dialoogiboksis **Lisa filtrivälju** on kuvatud saadaolevate väljade loend. Samuti kuvatakse selles teave iga välja andmetüübi ja tabeli kohta. Kasutage veerupäiseid, et filtreerida ja sortida loendit oma vajaduse järgi, ning seejärel valige märkeruut iga välja puhul, mida soovite paanile **Filtrid** lisada. Kui olete lõpetanud, valige oma muudatuse rakendamiseks **Sisesta**.
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Kuvatavate dimensioonide valimine
 
@@ -87,8 +87,8 @@ Kuvatavate varude dimensioonide valiku kohandamiseks toimige järgmiselt.
     Avanenud dialoogiboksis **Dimensiooni kuvamine** kuvatakse kõik dimensioonid.
 
 2. Valige märkeruut iga dimensiooni puhul, mida soovite ruudustikku lisada.
-3. Kui soovite, et teie valikut kasutataks vaikimisi järgmisel korral, kui avate lehe **Vaba kaubavaru loend**, seadke suvandi **Salvesta seadistus** väärtuseks **Jah**. Kui seate selle suvandi väärtuseks **Ei**, kasutatakse teie valikut ainult praeguse seansi jooksul. Seetõttu kasutatakse järgmine kord, kui avate lehe, praegust vaikevalikut.
-4. Valige **OK**, et dialoogiboks sulgeda ja oma muudatused rakendada.
+3. Kui soovite, et teie valikut kasutataks vaikimisi järgmisel korral, kui avate lehe **Vaba kaubavaru loend** , seadke suvandi **Salvesta seadistus** väärtuseks **Jah**. Kui seate selle suvandi väärtuseks **Ei** , kasutatakse teie valikut ainult praeguse seansi jooksul. Seetõttu kasutatakse järgmine kord, kui avate lehe, praegust vaikevalikut.
+4. Valige **OK** , et dialoogiboks sulgeda ja oma muudatused rakendada.
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Vaba kaubavaru loendi väljundi alusel filtreerimine
 
@@ -145,4 +145,4 @@ Siin on selle tulemus.
 |---|---|---|---|
 | IA0001 | 1 | 2 | 2 |
 
-Pange tähele, et paani **Filtrid** sätted rakenduvad üksikasjalikule (koondamata) varude tabelile, mis on toodud selle jaotise alguses. Seetõttu leiab kriteerium **Füüsiliselt vaba** \| **väiksem kui või võrdne** \| _1_ sellest tabelist kaks rida (esimese ja kolmanda rea, sest mõlema suvandi **Füüsiliselt vaba** väärtus on _1_). Kuid selles olukorras pole lehte **Vaba kaubavaru loend** seadistatud kuvama dimensiooni **Ladu**. Seetõttu koondab see kaks algset rida üheks reaks, kuna mõlemal real on identsed väärtused kõiki kuvatud dimensioone arvestades. See rida näib olevat vastuolus filtreerimiskriteeriumiga, kuna suvandi **Füüsiliselt vaba** väärtus on _2_. Kuid tulemus on õige, kuna paani **Filtrid** sätted rakenduvad lähtetabelile, mitte tabelile, mis on kuvatud lehel **Vaba kaubavaru loend**.
+Pange tähele, et paani **Filtrid** sätted rakenduvad üksikasjalikule (koondamata) varude tabelile, mis on toodud selle jaotise alguses. Seetõttu leiab kriteerium **Füüsiliselt vaba** \| **väiksem kui või võrdne** \| _1_ sellest tabelist kaks rida (esimese ja kolmanda rea, sest mõlema suvandi **Füüsiliselt vaba** väärtus on _1_ ). Kuid selles olukorras pole lehte **Vaba kaubavaru loend** seadistatud kuvama dimensiooni **Ladu**. Seetõttu koondab see kaks algset rida üheks reaks, kuna mõlemal real on identsed väärtused kõiki kuvatud dimensioone arvestades. See rida näib olevat vastuolus filtreerimiskriteeriumiga, kuna suvandi **Füüsiliselt vaba** väärtus on _2_. Kuid tulemus on õige, kuna paani **Filtrid** sätted rakenduvad lähtetabelile, mitte tabelile, mis on kuvatud lehel **Vaba kaubavaru loend**.

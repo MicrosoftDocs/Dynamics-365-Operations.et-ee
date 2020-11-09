@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate
+ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3bc82c3af2b99303a650f672f2b2ccd48c9889a9
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fb47498cfb3756b0e180fe9e5500255c7312a92
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677430"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016328"
 ---
 # <a name="advanced-load-building-during-wave"></a>Täiustatud koormuse koostamine voo ajal
 
@@ -33,9 +33,9 @@ Voo töötlemise ajal loob süsteem tavaliselt uue koormuse igale saadetisele, m
 
 Funktsiooni kasutamiseks peate seadistama süsteemi järgmisel viisil.
 
-- Looge *Voomallid*, mis sisaldavad uut meetodit **buildLoads**. See meetod võimaldab neid malle kasutavatel voogudel koostada täiustatud voo koormuseid.
-- Seadistage *Koormuse koostamismallid*, linkides need kindla voomalli ja meetodiga. Koormuse koostamismallid juhivad seda, millisele koormusele (olemasolevale või uuele) loodava voo koormusread lisatakse. Saate saadetisi kombineerida või eraldada, tuginedes kriteeriumidele, nagu koormuse mall, seadmed ja muud koormuse rea väljade väärtused.
-- Määratlege *Koormuse segagrupid*, et juhtida milliseid kaupu tuleks kombineerida ühes koormuses, milliseid mitte. Samuti saate määrata, kas piirang peaks andma hoiatuse või tõrke, ja kas koormuse malli mahupiirangut tuleks hinnata.
+- Looge *Voomallid* , mis sisaldavad uut meetodit **buildLoads**. See meetod võimaldab neid malle kasutavatel voogudel koostada täiustatud voo koormuseid.
+- Seadistage *Koormuse koostamismallid* , linkides need kindla voomalli ja meetodiga. Koormuse koostamismallid juhivad seda, millisele koormusele (olemasolevale või uuele) loodava voo koormusread lisatakse. Saate saadetisi kombineerida või eraldada, tuginedes kriteeriumidele, nagu koormuse mall, seadmed ja muud koormuse rea väljade väärtused.
+- Määratlege *Koormuse segagrupid* , et juhtida milliseid kaupu tuleks kombineerida ühes koormuses, milliseid mitte. Samuti saate määrata, kas piirang peaks andma hoiatuse või tõrke, ja kas koormuse malli mahupiirangut tuleks hinnata.
 
 ## <a name="turn-on-advanced-wave-load-building-in-your-system"></a>Täiustatud voo koormuse koostamise sisselülitamine teie süsteemis
 
@@ -59,7 +59,7 @@ Seda demot saate kasutada ka juhistena selle funktsiooni kasutamiseks, kui töö
 
 ### <a name="make-sure-that-the-scenario-setup-includes-enough-available-inventory"></a>Veenduge, et stsenaariumi häälestus sisaldaks piisavalt vabu varusid
 
-Kui töötate demoandmetega **USMF**, peate esmalt veenduma, et teie süsteem oleks seadistatud nii, et igas vastavas asukohas oleks saadaval piisavalt varusid. Selle demo puhul on eelduseks, et laos *62* oleks saadaval järgmised varud.
+Kui töötate demoandmetega **USMF** , peate esmalt veenduma, et teie süsteem oleks seadistatud nii, et igas vastavas asukohas oleks saadaval piisavalt varusid. Selle demo puhul on eelduseks, et laos *62* oleks saadaval järgmised varud.
 
 - **Kaup A0001:** 10 tk
 - **Kaup A0002:** 10 tk
@@ -91,7 +91,7 @@ Kaup **M9200** tuleb lisada lattu. Viige lõpule järgmiste alamjaotiste protsed
 
 1. Valige toimingupaanil nupp **Salvesta**.
 1. Valige toimingupaanil **Aktiveeri ootel olevad hinnad**.
-1. Valige vahekaart **Aktiivsed hinnad**, et kontrollida, kas uus omahind on lisatud saidile *6*.
+1. Valige vahekaart **Aktiivsed hinnad** , et kontrollida, kas uus omahind on lisatud saidile *6*.
 
 #### <a name="create-inventory-in-warehouse-62"></a>Varude loomine laos 62
 
@@ -116,7 +116,7 @@ Kaup **M9200** tuleb lisada lattu. Viige lõpule järgmiste alamjaotiste protsed
 
 ### <a name="regenerate-wave-process-methods"></a>Voo protsessi meetodite uuesti loomine
 
-Peate tõenäoliselt oma voo protsessi meetodid uuesti looma, et muuta koormuse koostamise meetod (**buildLoads**) kättesaadavaks.
+Peate tõenäoliselt oma voo protsessi meetodid uuesti looma, et muuta koormuse koostamise meetod ( **buildLoads** ) kättesaadavaks.
 
 1. Avage **Laohaldus** \> **Seadistus** \> **Vood** \> **Voo protsessi meetodid**.
 2. Kinnitage, et loendis oleksid **buildLoads**. Kui seda pole, valige selle lisamiseks toimingupaanil **Meetodite uuesti loomine**.
@@ -128,12 +128,12 @@ Täiustatud voo koormuse koostamise kasutamiseks peate kaasama meetodi **buildLo
 1. Avage jaotis **Laohaldus** \> **Seadistus** \> **Vood** \> **Voomallid**.
 1. Voomalli valimine.
 
-    Kui töötate demoandmetega **USMF**, valige mall **62 saadetise vaikemall**.
+    Kui töötate demoandmetega **USMF** , valige mall **62 saadetise vaikemall**.
 
 1. Lehe redigeerimisrežiimi panemiseks valige toimingupaanil **Redigeeri**.
 1. Valige kiirkaardi **Meetodid** ruudustikus **Ülejäänud meetodid** meetod **buildLoads**.
 1. Valige meetodi **buildLoads** ruudustikku **Valitud meetodid** teisaldamiseks paremnoole nupp.
-1. Väärtuse **Vooetapi kood** määramiseks meetodile **buildLoads**, peate esmalt looma koodi voo lehel **Vooetapi koodid**. Saate kasutada mis tahes soovitud väärtust, kuid veenduge, et märgiksite selle üles, kuna seda on hiljem vaja. Koodi **WSC2112** loomiseks toimige järgmiselt.
+1. Väärtuse **Vooetapi kood** määramiseks meetodile **buildLoads** , peate esmalt looma koodi voo lehel **Vooetapi koodid**. Saate kasutada mis tahes soovitud väärtust, kuid veenduge, et märgiksite selle üles, kuna seda on hiljem vaja. Koodi **WSC2112** loomiseks toimige järgmiselt.
 
     1. Klõpsake meetodi **buildLoads** rea väljal **Vooetapi kood** allanoolt ja seejärel valige **Kuva üksikasjad**.
     1. Valige toimingupaani lehel **Vooetapi koodid** suvand **Uus**.
@@ -142,7 +142,7 @@ Täiustatud voo koormuse koostamise kasutamiseks peate kaasama meetodi **buildLo
     1. Valige väljal **Vooetapi tüüp** suvand *Koormuse loomine*.
 
 1. Valige **Salvesta** ja sulgege leht.
-1. Valige meetodi **buildLoads** rea väljal **Vooetapi kood** äsja loodud kood (**WSC2112**).
+1. Valige meetodi **buildLoads** rea väljal **Vooetapi kood** äsja loodud kood ( **WSC2112** ).
 1. Valige toimingupaanil nupp **Salvesta**.
 
 > [!NOTE]
@@ -160,36 +160,36 @@ Koormuse segagrupid kehtestavad reeglid kaubatüüpidele, mida saab ühte koormu
 1. Koormuse grupi loomiseks valige toimingupaanilt suvand **Uus**.
 1. Sisestage väljale **Koormuse segagrupi ID** uue grupi nimi.
 
-    Kui töötate demoandmetega **USMF**, seadke järgmised väärtused.
+    Kui töötate demoandmetega **USMF** , seadke järgmised väärtused.
 
     - **Koormuse segagrupi ID:** *TV*
     - **Kirjeldus:** *TV*
 
-1. Valige toimingupaanil **Salvesta**, et muuta kiirkaart **Koormuse segagrupi kriteeriumid** kättesaadavaks.
+1. Valige toimingupaanil **Salvesta** , et muuta kiirkaart **Koormuse segagrupi kriteeriumid** kättesaadavaks.
 1. Ruudustikku uue rea lisamiseks valige kiirkaardil **Koormuse segagrupi kriteeriumid** suvand **Uus**.
 1. Määrake uues reas igale väljale soovitud väärtused. Need väärtused määravad kaubagrupid, mida arvestatakse koormuse segamiseks.
 
-    Kui töötate demoandmetega **USMF**, valige väljal **Kaubagrupp** suvand *TV ja video*.
+    Kui töötate demoandmetega **USMF** , valige väljal **Kaubagrupp** suvand *TV ja video*.
 
-1. Valige toimingupaanil **Salvesta**, et muuta kiirkaart **Koormuse segagrupi piirangud** kättesaadavaks.
+1. Valige toimingupaanil **Salvesta** , et muuta kiirkaart **Koormuse segagrupi piirangud** kättesaadavaks.
 1. Ruudustikku uue rea lisamiseks valige kiirkaardil **Koormuse segagrupi piirangud** suvand **Uus**.
 1. Määrake uues reas igale väljale soovitud väärtused.
 
-    Kui töötate demoandmetega **USMF**, seadke järgmised väärtused.
+    Kui töötate demoandmetega **USMF** , seadke järgmised väärtused.
 
     - **Kaubagrupp:** *CarAudio*
     - **Koormuse koostamise toiming:** *Piiramine* (see väärtus takistab kaubagruppi **CarAudio** kuuluvate kaupade lisamist samasse koormusesse kaubagruppi **TV ja video** kuuluvate kaupadega.)
 
 1. Jätkake reeglitega töötamist senikaua, kuni olete lisanud kõik koormuse segagrupi jaoks vajalikud kriteeriumid ja piirangud.
 
-Kui töötate demoandmetega **USMF**, olete nüüd selle häälestuse lõpetanud.
+Kui töötate demoandmetega **USMF** , olete nüüd selle häälestuse lõpetanud.
 
 ### <a name="set-up-load-build-templates"></a>Koormuse koostamismallide häälestamine
 
 Saate seadistada nii palju koormuse koostamismalle kui vaja. Kuid täiustatud voo koormuse koostamise kasutamiseks peate määrama vähemalt ühe. Koosmuse koostamismalli loomiseks tehke järgmist.
 
 1. avage jaotis **Laohaldus** \> **Seadistus** \> **Koormus** \> **Voo koormuse koostamise mallid**.
-1. Valige toimingupaanil suvand **Uus**, et lisada ruudustikku rida.
+1. Valige toimingupaanil suvand **Uus** , et lisada ruudustikku rida.
 1. Määrake uuel real järgmised väärtused.
 
     | Field | Kirjeldus | Demoandmete USMF väärtus |
@@ -201,13 +201,13 @@ Saate seadistada nii palju koormuse koostamismalle kui vaja. Kuid täiustatud vo
     | Seadmed | Varustus, millega vastendada olemasolevatele koormatele määramisel ja mida sisestada uute loodavate koormate puhul. | Jätke see väli tühjaks. |
     | Koorma segamisgrupi ID | Valige koormuse segagrupp, mida kasutada, kui kaup koormuses lubatakse. Segagrupid kehtestavad reeglid kaubatüüpidele, mida saab ühte koormusesse kombineerida. Peaksite valima ühe segagrupi, mille eelnevalt lõite selles häälestuses. | *TV* |
     | Kasuta avatud koormaid | Valige, kas olemasolevatele avatud koormustele tuleks juurde lisada. Valikud on järgmised:<ul><li>**Puudub** – ärge lisage avatud koormusi ühelegi olemasolevale koormusele.</li><li>**Mis tahes** – lisage avatud koormuseid kõigile olemasolevatele koormustele, mis rea puhul kehtivad.</li><li>**Määratud** – lisage voole määratud koormusele avatud koormuseid.</li></ul> | *Mõni* |
-    | Loo koormad | Määrake, kas tuleks luua uusi koormuseid, kui ükski olemasolev koormus ei vasta kriteeriumidele. | Valitud (= *Jah*) |
-    | Saadetise rea tükeldamise lubamine | Määrake, kas ühte koormuse rida saab tükeldada mitme koormuse üleselt, kui täielik rida ületab koormuse malli maksimaalset võimsust. | Tühjendatud (= *Ei*) |
-    | Valideeri maht | Määrake, kas koormuse koostamine peaks kontrollima igal koormuse rea lisamisel kaalu ja mahtu, tagamaks, et koormuse malli mahupiiranguid järgitakse. | Tühjendatud (= *Ei*) |
+    | Loo koormad | Määrake, kas tuleks luua uusi koormuseid, kui ükski olemasolev koormus ei vasta kriteeriumidele. | Valitud (= *Jah* ) |
+    | Saadetise rea tükeldamise lubamine | Määrake, kas ühte koormuse rida saab tükeldada mitme koormuse üleselt, kui täielik rida ületab koormuse malli maksimaalset võimsust. | Tühjendatud (= *Ei* ) |
+    | Valideeri maht | Määrake, kas koormuse koostamine peaks kontrollima igal koormuse rea lisamisel kaalu ja mahtu, tagamaks, et koormuse malli mahupiiranguid järgitakse. | Tühjendatud (= *Ei* ) |
 
-1. Valige toimingupaanil **Salvesta**, et muuta suvand **Redigeeri päringut** kättesaadavaks.
-1. Valige toiminguribal suvand **Redigeeri päringut**, et avada dialoogiboks päringu redigeerimiseks.
-1. Valige päringu dialoogiboksis vahekaardil **Sortimine** suvand **Lisa**, et lisada rida ruudustikule.
+1. Valige toimingupaanil **Salvesta** , et muuta suvand **Redigeeri päringut** kättesaadavaks.
+1. Valige toiminguribal suvand **Redigeeri päringut** , et avada dialoogiboks päringu redigeerimiseks.
+1. Valige päringu dialoogiboksis vahekaardil **Sortimine** suvand **Lisa** , et lisada rida ruudustikule.
 1. Määratlege uues reas sortimise reeglid, mida soovite kasutada. Määrake näiteks järgmised väärtused, et sortida otsingutulemusi kasvavas järjestuses tellimuse numbri järgi.
 
     - **Tabel:** *Koormuse üksikasjad*
@@ -216,7 +216,7 @@ Saate seadistada nii palju koormuse koostamismalle kui vaja. Kuid täiustatud vo
     - **Otsingusuund:** *Kasvav*
 
 1. Oma muudatuste salvestamiseks ja dialoogiboksi sulgemiseks valige **OK**.
-1. Määrake kiirkaardil **Piir** reeglid, et juhtida, kuidas teie koormuseid tükeldatakse. Üldjuhul võite piiriks seada kohandatud väljad, mis on laiendatud koormuse reale, nt **Marsruut**, **Ülevaade** või **Käitamine**. Näiteks ühe koormuse loomiseks tellimuse numbri kohta, märkige ruut **Piir** järgmiste väärtustega rea puhul.
+1. Määrake kiirkaardil **Piir** reeglid, et juhtida, kuidas teie koormuseid tükeldatakse. Üldjuhul võite piiriks seada kohandatud väljad, mis on laiendatud koormuse reale, nt **Marsruut** , **Ülevaade** või **Käitamine**. Näiteks ühe koormuse loomiseks tellimuse numbri kohta, märkige ruut **Piir** järgmiste väärtustega rea puhul.
 
     - **Viitetabeli nimi:** *Koormuse üksikasjad*
     - **Viitevälja nimi:** *Tellimuse number*
@@ -228,25 +228,25 @@ Selles stsenaariumis näidatakse, kuidas selles teemas eelnevalt kirjeldatud sä
 ### <a name="create-sales-orders"></a>Müügitellimuste loomine
 
 1. Avage **Müük ja turundus** \> **Müügitellimused** \> **Kõik müügitellimused**.
-1. Valige toimingupaanil **Uus**, et avada dialoogiboks **Müügitellimuse loomine**.
+1. Valige toimingupaanil **Uus** , et avada dialoogiboks **Müügitellimuse loomine**.
 1. Määrake dialoogiboksis järgmised väärtused.
 
     - Määrake kiirkaardi **Klient** välja **Kliendi konto** väärtuseks *US-007*.
     - Määrake kiirkaardi **Üldine** välja **Ladu** väärtuseks *62*.
 
 1. Valige müügitellimuse loomiseks ja dialoogiboksi sulgemiseks **OK**.
-1. Teie uus müügitellimus on avatud. See peaks sisaldama uut tühja rida kiirkaardi **Müügitellimuse read** ruudustikus. Määrake selle uue rea välja **Kaubakood** väärtuseks *A0001*, välja **Kogus** väärtuseks *1*.
+1. Teie uus müügitellimus on avatud. See peaks sisaldama uut tühja rida kiirkaardi **Müügitellimuse read** ruudustikus. Määrake selle uue rea välja **Kaubakood** väärtuseks *A0001* , välja **Kogus** väärtuseks *1*.
 1. Valige ruudustiku kohal olevast menüüst **Varud** suvand **Reserveerimine**.
 1. Valige toimingupaani lehel **Reserveerimine** suvand **Reserveeri saatepartii**.
-1. Müügitellimusse naasmiseks valige lehe paremas ülanurgas nupp **Sule** (**X**).
+1. Müügitellimusse naasmiseks valige lehe paremas ülanurgas nupp **Sule** ( **X** ).
 1. Tehke tegevuspaani vahekaardil **Ladu** grupis **Tegevused** valik **Vabasta lattu**. Süsteem loob saadetise ja lisab selle uuele koormusele, kuna olemasolev koormus ei sisalda selle tellimuse numbriga koormuse ridu.
 
     Saate teabesõnumeid, mis näitavad selle tellimuse jaoks loodud tööd, voogu ja saadetist.
 
-1. Müügireal koormuse, saadetise ja töö üksikasjade kinnitamiseks valige rida ja seejärel valige ruudustiku kohal olevas menüüs **Ladu** suvand **Koormuse üksikasjad**, **Saadetise üksikasjad** või **Töö üksikasjad**.
-1. Valige äsja loodud müügitellimuses kiirkaardil **Müügitellimuse read** suvand **Lisa rida**, et lisada teine rida.
-1. Määrake uue rea välja **Kaubakood** väärtuseks *A0002*, välja **Kogus** väärtuseks *1*.
+1. Müügireal koormuse, saadetise ja töö üksikasjade kinnitamiseks valige rida ja seejärel valige ruudustiku kohal olevas menüüs **Ladu** suvand **Koormuse üksikasjad** , **Saadetise üksikasjad** või **Töö üksikasjad**.
+1. Valige äsja loodud müügitellimuses kiirkaardil **Müügitellimuse read** suvand **Lisa rida** , et lisada teine rida.
+1. Määrake uue rea välja **Kaubakood** väärtuseks *A0002* , välja **Kogus** väärtuseks *1*.
 1. Korrake ridu 6–9 rea reserveerimiseks ja lattu vabastamiseks. Süsteem loob teie lisatud reale **uue** saadetise. Kuid kuna kasutate täiustatud voo koormuse koostamist, lisab süsteem selle saadetise ja koormuse rea olemasolevale voole. Kui te ei kasutaks täiustatud voo koormuse koostamist, looks süsteem saadetise jaoks uue koormuse.
-1. Valige äsja loodud müügitellimuses kiirkaardil **Müügitellimuse read** suvand **Lisa rida**, et lisada teine rida.
-1. Määrake uue rea välja **Kaubakood** väärtuseks *M9200*, välja **Kogus** väärtuseks *1*.
-1. Korrake ridu 6–9 rea reserveerimiseks ja lattu vabastamiseks. Nagu eelnevalt, loob süsteem teie lisatud reale **uue** saadetise. Kuid kuna kaup pärineb kaubagrupist **CarAudio**, ei **läbi see koormuse segagrupile määratud piiranguid**. Seetõttu **lisatakse see uuele koormusele**. Kui te pole koormuse loomise mallis määranud koormuse segagruppi, oleks see saadetis lisatud esimesele koormusele.
+1. Valige äsja loodud müügitellimuses kiirkaardil **Müügitellimuse read** suvand **Lisa rida** , et lisada teine rida.
+1. Määrake uue rea välja **Kaubakood** väärtuseks *M9200* , välja **Kogus** väärtuseks *1*.
+1. Korrake ridu 6–9 rea reserveerimiseks ja lattu vabastamiseks. Nagu eelnevalt, loob süsteem teie lisatud reale **uue** saadetise. Kuid kuna kaup pärineb kaubagrupist **CarAudio** , ei **läbi see koormuse segagrupile määratud piiranguid**. Seetõttu **lisatakse see uuele koormusele**. Kui te pole koormuse loomise mallis määranud koormuse segagruppi, oleks see saadetis lisatud esimesele koormusele.

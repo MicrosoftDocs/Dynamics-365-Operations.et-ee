@@ -8,7 +8,7 @@ ms.topic: configure-number-sequence-extensions
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSNumberSequenceExtension
+ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 2512fc9b530530a9f82995a9eefcd59bbd518d96
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: cee5047a8c80aa850d9dd1bb872188a822ba8328
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: et-EE
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975388"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016121"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Laovoogude numbriseeriate konfigureerimine
 
@@ -64,7 +64,7 @@ Teie süsteemis numbriseeria laienduste seadistamiseks toimige järgmiselt.
     Vaadake lisateavet nende vaikimisi numbriseeriate kohandamise ja/või uute seeriate lisamise kohta järgmisest jaotisest. Saate ka eemaldada seeriaid, mida te ei vaja.
 
 1. Naaske jaotisse **Laohaldus \> Seadistus \> Laohalduse parameetrid**.
-1. Valige vahekaardil **Numbriseeriad** vastav numbriseeria laiendus, mida soovite kasutada oma identifitseerimisnumbri ID-de, voo sildi ID-de, konteineri ID-de (sel juhul valige sobiv seeria **SSCC‑18 number**) ja/või veokirja ID-de (sellisel juhul valige seeria **Veokiri**) jaoks numbrite loomiseks. Vaikimisi toetatakse numbriseeria laiendusi ainult nende nelja tüüpi ID-de puhul.
+1. Valige vahekaardil **Numbriseeriad** vastav numbriseeria laiendus, mida soovite kasutada oma identifitseerimisnumbri ID-de, voo sildi ID-de, konteineri ID-de (sel juhul valige sobiv seeria **SSCC‑18 number** ) ja/või veokirja ID-de (sellisel juhul valige seeria **Veokiri** ) jaoks numbrite loomiseks. Vaikimisi toetatakse numbriseeria laiendusi ainult nende nelja tüüpi ID-de puhul.
 
 Järgmine kord, kui luuakse uus number ühele neist numbriseeriatest, kasutatakse uut loogikat.
 
@@ -85,10 +85,10 @@ Numbriseeriate loomiseks ja redigeerimiseks toimige järgmiselt.
     | Segmendi tüüp | Kirjeldus |
     |---|---|
     | Konstant | See segmendi tüüp lisab sama konstandi teksti igale loodud numbrile seerias. Sisestage väljale **Väärtus** nõutav tekst. Välja **Pikkus** pikkus uuendatakse automaatselt väljale **Väärtus** sisestatud teksti pikkuse järgi. |
-    | Numbriseeria | Sisestage väljale **Väärtus** numbrimärk (*\#*) iga tähemärgi kohta, mis tuleks loodud seerias kuvada. Numbriseeria võib ise luua pikemaid numbreid, kuid kuvatakse ainult kõige parempoolsemad tähemärgid. Välja **Pikkus** numbrimärkide hulk uuendatakse automaatselt väljale **Väärtus** sisestatud numbrimärkide järgi.<p>SSCC-18 numbrite GS1 nõuete täitmiseks veenduge, et selle segmendi pikkus oleks 16 miinus teie GS1-eesliite pikkus.</p> |
+    | Numbriseeria | Sisestage väljale **Väärtus** numbrimärk ( *\#* ) iga tähemärgi kohta, mis tuleks loodud seerias kuvada. Numbriseeria võib ise luua pikemaid numbreid, kuid kuvatakse ainult kõige parempoolsemad tähemärgid. Välja **Pikkus** numbrimärkide hulk uuendatakse automaatselt väljale **Väärtus** sisestatud numbrimärkide järgi.<p>SSCC-18 numbrite GS1 nõuete täitmiseks veenduge, et selle segmendi pikkus oleks 16 miinus teie GS1-eesliite pikkus.</p> |
     | GS1 eesliide | See segmendi tüüp lisab väärtuse, mis on määratud lehe **Laohalduse parameetrid** väljal **GS1 ettevõtte eesliide**. Väljal **Väärtus** kuvatakse väärtus, mis on määratud lehel **Laohalduse parameetrid** ja väljal **Pikkus** kuvatakse selles väärtuses olevate tähemärkide arv. Väljad **Väärtus** ja **Pikkus** on kirjutuskaitstud. |
     | Rakenduse identifikaator | Sisestage väljale **Väärtus** rakenduse identifikaator, mille määratleb vastav GS1 poliitika seda tüüpi numbriseeria puhul. Sisestage näiteks *00* SSCC puhul või *420* veokirja puhul. Välja **Pikkus** pikkus uuendatakse automaatselt väljale **Väärtus** sisestatud identifikaatori pikkuse järgi. |
-    | Pakkimistüüp | Kaupade puhul, mida on võimalik selgelt tuvastada, lisab see segmendi tüüp vastava ühiku seeriagrupi (lehelt **Ühiku seeriagrupid**) välja väärtuse. (See käitumine vastab identifitseerimisnumbri ID olemasolevale loogikale.) Mitut varude arvestusühikut (SKU) sisaldavate identifitseerimisnumbrite puhul lisab see segmendi tüüp vaikimisi väärtuse *0* (null). Selle segmendi tüübi puhul on välja **Väärtus** väärtuseks alati seatud *P* ja välja **Pikkus** väärtuseks alati *1*.|
-    | Kontrollnumber | See segmendi tüüp lisab kontrollnumbri, mis on modulo 10 arvutus. (See käitumine vastab identifitseerimisnumbri ID olemasolevale loogikale.) Selle segmendi tüübi puhul on välja **Väärtus** väärtuseks alati seatud nool (*^*) ja välja **Pikkus** väärtuseks alati *1*. |
+    | Pakkimistüüp | Kaupade puhul, mida on võimalik selgelt tuvastada, lisab see segmendi tüüp vastava ühiku seeriagrupi (lehelt **Ühiku seeriagrupid** ) välja väärtuse. (See käitumine vastab identifitseerimisnumbri ID olemasolevale loogikale.) Mitut varude arvestusühikut (SKU) sisaldavate identifitseerimisnumbrite puhul lisab see segmendi tüüp vaikimisi väärtuse *0* (null). Selle segmendi tüübi puhul on välja **Väärtus** väärtuseks alati seatud *P* ja välja **Pikkus** väärtuseks alati *1*.|
+    | Kontrollnumber | See segmendi tüüp lisab kontrollnumbri, mis on modulo 10 arvutus. (See käitumine vastab identifitseerimisnumbri ID olemasolevale loogikale.) Selle segmendi tüübi puhul on välja **Väärtus** väärtuseks alati seatud nool ( *^* ) ja välja **Pikkus** väärtuseks alati *1*. |
 
 1. Oma lõpliku numbrivormingu näite kuvamiseks kontrollige välja **Vorming** kiirkaardi **Segmendid** allosas.
